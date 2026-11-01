@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Robot piscina senza fili a bordo vasca con coperchio aperto e cestello filtrante estratto',
         nl: 'Snoerloze zwembadrobot aan de rand van het zwembad met open deksel en uitgenomen filtermand',
         pl: 'Bezprzewodowy robot basenowy na krawędzi basenu, z otwartą pokrywą i wyjętym koszem filtrującym',
+        sv: 'Sladdlös poolrobot på poolkanten med locket öppet och filterkorgen uttagen',
+        us: 'Cordless robotic pool cleaner on the pool deck with its lid open and filter basket removed',
+        ca: 'Cordless pool cleaning robot on the pool deck with its lid open and filter basket removed',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Miglior Robot Piscina 2026: Confronto tra Modelli con e senza Filo',
     nl: 'Beste Zwembadrobot 2026: Vergelijking met en zonder Snoer',
     pl: 'Najlepszy robot basenowy 2026: porównanie modeli przewodowych i bezprzewodowych',
+    sv: 'Bästa poolrobot 2026: modeller med och utan sladd jämförda',
+    us: 'Best Robotic Pool Cleaners of 2026: Corded vs. Cordless',
+    ca: 'Robotic Pool Cleaner 2026: Best Corded and Cordless Models',
   },
   excerpt: {
     fr: 'Dolphin S300i, Dolphin E35i, Beatbot AquaSense 2 Pro, Aiper Scuba X1, Dolphin Liberty 400 et Zodiac Freerider RF 5600 iQ : quel robot de piscine choisir en 2026 selon la taille du bassin, la filtration, l’autonomie et l’application ?',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Dolphin S300i, Dolphin E35i, Beatbot AquaSense 2 Pro, Aiper Scuba X1, Dolphin Liberty 400 e Zodiac Freerider RF 5600 iQ: quale robot piscina scegliere nel 2026 in base a dimensioni, filtrazione, autonomia e app?',
     nl: 'Dolphin S300i, Dolphin E35i, Beatbot AquaSense 2 Pro, Aiper Scuba X1, Dolphin Liberty 400 en Zodiac Freerider RF 5600 iQ: welke zwembadrobot kies je in 2026 op basis van bad, filtering, accuduur en app?',
     pl: 'Dolphin S300i, Dolphin E35i, Beatbot AquaSense 2 Pro, Aiper Scuba X1, Dolphin Liberty 400 i Zodiac Freerider RF 5600 iQ: jaki robot basenowy wybrać w 2026 roku w zależności od wielkości basenu, filtracji, czasu pracy i aplikacji?',
+    sv: 'Dolphin S300i, Dolphin E35i, Beatbot AquaSense 2 Pro, Aiper Scuba X1, Dolphin Liberty 400 och Zodiac Freerider RF 5600 iQ: vilken poolrobot ska du välja 2026 utifrån poolens storlek, filtrering, batteritid och app?',
+    us: 'Dolphin S300i, Dolphin E35i, Beatbot AquaSense 2 Pro, Aiper Scuba X1, Dolphin Liberty 400 and Zodiac Freerider RF 5600 iQ: which robotic pool cleaner should you buy in 2026, based on pool size, filtration, battery life and app?',
+    ca: 'Dolphin S300i, Dolphin E35i, Beatbot AquaSense 2 Pro, Aiper Scuba X1, Dolphin Liberty 400 and Zodiac Freerider RF 5600 iQ: which robotic pool cleaner should you choose in 2026 for your pool size, filtration, battery life and app?',
   },
   content: {
     fr: `<p>Pour la plupart des piscines familiales jusqu’à 12 m de long, le meilleur robot de piscine en 2026 reste un modèle filaire comme le <strong>Dolphin S300i</strong> : il nettoie fond, parois et ligne d’eau sans limite de batterie, avec une filtration fine accessible par le dessus. Si vous voulez supprimer le câble, le <strong>Beatbot AquaSense 2 Pro</strong> est le sans-fil le plus complet, tandis que le <strong>Dolphin E35i</strong> est le choix filaire le plus raisonnable pour un premier robot.</p>
@@ -564,6 +573,229 @@ export const article: BlogArticle = {
 
 <h2>Werdykt</h2>
 <p>W klasycznym basenie wkopanym o długości do 12 m najbardziej wyważonym wyborem jest <strong>Dolphin S300i</strong>: pełne czyszczenie, łatwo dostępny filtr i brak ograniczeń związanych z baterią. <strong>Dolphin E35i</strong> daje prawie to samo, ma w zestawie wózek i pochodzi z niższej półki cenowej. Jeśli chcesz pozbyć się kabla albo masz duży basen wśród drzew, najlepiej wyposażony jest <strong>Beatbot AquaSense 2 Pro</strong>, który zbiera też zanieczyszczenia z powierzchni i długo pracuje na jednym ładowaniu. <strong>Aiper Scuba X1</strong>, <strong>Dolphin Liberty 400</strong> i <strong>Zodiac Freerider RF 5600 iQ</strong> to dobre alternatywy bezprzewodowe dla osób, którym zależy przede wszystkim na dokładnej filtracji, sieci sprzedawców lub ręcznym sterowaniu.</p>`,
+    sv: `<p>För de flesta familjepooler på upp till 12 meters längd är den bästa poolroboten 2026 fortfarande en modell med kabel, som <strong>Dolphin S300i</strong>: den rengör botten, väggar och vattenlinje utan någon batterigräns, och det fina filtret tas ut ovanifrån. Vill du slippa kabeln är <strong>Beatbot AquaSense 2 Pro</strong> det mest kompletta sladdlösa alternativet, medan <strong>Dolphin E35i</strong> är det förnuftiga valet med kabel för dig som köper din första robot.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, fackpressens utvärderingar och verifierade köparomdömen. Den omfattar sex modeller som säljs i Europa, med och utan kabel, och hjälper dig att välja efter din pool snarare än efter tillverkarens marknadsföring. En överblick över uppkopplad poolutrustning (pump, saltklorinator, givare) hittar du i vår <a href="/sv/blog/piscine-connectee-guide">guide till den smarta poolen</a>.</p>
+
+<h2>Så väljer du rätt poolrobot</h2>
+<h3>Bara botten, väggar eller vattenlinje</h3>
+<p>Robotar i instegsklassen rengör bara botten. Har du raka väggar och en vattenlinje som får beläggningar (fettfilm, kalk, solkräm) bör du välja en modell som klättrar på väggarna och skrubbar vattenlinjen. Det gör alla modeller i den här jämförelsen. Beatbot AquaSense 2 Pro går ett steg längre och skummar även vattenytan, vilket är praktiskt om poolen omges av träd.</p>
+<h3>Poolens storlek och form</h3>
+<p>Tillverkarna anger en maximal längd (12 meter för Dolphin S300i och E35i) eller en yta (upp till 200 m² för Aiper Scuba X1 och upp till 360 m² för Beatbot). Har poolen fri form, trappor eller en solhylla under vattenytan är sensorstyrd navigering att föredra, eftersom den tar sig runt hinder bättre än en robot som kör slumpmässigt. Till en ovanmarkspool ska du kontrollera att roboten klarar mjuka väggar.</p>
+<h3>Filtrets finhet</h3>
+<p>Finheten anges i mikrometer (µm): ju lägre siffra, desto finare partiklar fångas. Ett filter på runt 150–180 µm räcker för löv och sand, medan ett ultrafint filter (60 µm hos Zodiac, ned till 3 µm med Aipers MicroMesh) fångar pollen och damm som grumlar vattnet. Nackdelen är att ett mycket fint filter sätts igen snabbare och behöver sköljas efter varje cykel.</p>
+<h3>Med eller utan kabel: drifttiden</h3>
+<p>En robot med kabel går så länge den är inkopplad, vilket passar perfekt för regelbundna, schemalagda cykler. En sladdlös robot slipper trassliga kablar och är i vattnet på några sekunder, men drifttiden är begränsad (ca 2,5 timmar för Liberty 400 och Freerider, 3 timmar för Aiper Scuba X1 och upp till 5 timmar på botten och väggar för Beatbot) och den måste laddas mellan körningarna.</p>
+<h3>App och wifi</h3>
+<p>Apparna (MyDolphin Plus, iAquaLink samt Beatbots och Aipers appar) används främst för att starta en cykel, välja läge och lägga upp ett schema. Wifi går inte igenom vatten: på robotar med kabel är det nätaggregatet som är uppkopplat, och på sladdlösa robotar sker kommunikationen oftast när roboten är uppe ur vattnet eller via särskild teknik (LiFi hos Zodiac och Dreame, kommunikation under vattnet som Aiper har aviserat).</p>
+<h3>Vagn, vikt och skötsel</h3>
+<p>En robot på 8–11 kg som är full av vatten är otymplig att lyfta. Dolphin E35i levereras med en transportvagn, medan Liberty 400 och Freerider har funktioner som tar roboten upp till vattenlinjen. Titta också på hur du kommer åt filtret: ett filter som tas ut ovanifrån, som på S300i, kan tömmas utan att du behöver vända på roboten.</p>
+
+<h2>De 6 bästa poolrobotarna 2026</h2>
+<h3>1. Dolphin S300i: bäst totalt</h3>
+<p><strong>Dolphin S300i</strong> från Maytronics är byggd för pooler upp till 12 meter. Den rengör botten, väggar och vattenlinje med två aktiva borstar och tekniken PowerStream, som riktar vattenflödet så att roboten får bättre fäste mot väggarna. Den 18 meter långa kabeln har en svivel som hindrar att den tvinnar sig, och flerskiktsfiltret lyfts ut ovanifrån, i fin eller ultrafin version. Standardcykeln tar 2 timmar och styrs via appen MyDolphin Plus. Maytronics uppger 3 års garanti.</p>
+<p><strong>Styrkor:</strong> inget batteri att hålla koll på, lätt att komma åt filtret, brett nät av poolhandlare i Europa som erbjuder service. <strong>Svagheter:</strong> kabeln måste fortfarande läggas ut och rullas ihop, och vattenytan skummas inte. <strong>Passar för:</strong> vanliga nedgrävda pooler upp till 12 meter som rengörs flera gånger i veckan.</p>
+
+<h3>2. Dolphin E35i: mest prisvärd</h3>
+<p><strong>Dolphin E35i</strong> har det mesta gemensamt med S300i: pooler upp till 12 meter, botten, väggar och vattenlinje, 2 timmars cykel, två borstar, PowerStream, en 17 meter lång kabel med svivel och appen MyDolphin Plus. Den levereras med transportvagn och ett kombinerat filterpaket som innehåller ett ultrafint filter.</p>
+<p><strong>Styrkor:</strong> komplett utrustning för en robot i mellanklassen, vagn ingår. <strong>Svagheter:</strong> 2 års garanti enligt tillverkaren, filtret är inte lika lätt att komma åt som på S300i. <strong>Passar för:</strong> dig som vill ha en pålitlig första robot med kabel utan att betala för premiumfunktioner.</p>
+
+<h3>3. Beatbot AquaSense 2 Pro: den mest kompletta sladdlösa</h3>
+<p><strong>Beatbot AquaSense 2 Pro</strong> är en robot av typen ”5 i 1”: botten, väggar, vattenlinje, skumning av ytan och klarning av vattnet med ett naturligt medel som får fina partiklar att klumpa ihop sig. Batteriet på 13 400 mAh räcker enligt tillverkaren i upp till 5 timmar på botten och väggar och i upp till 11 timmar i ytläget. Roboten klarar upp till 360 m², navigerar med ultraljudssensorer, filtrerar ned till 150 µm med två filter (fint och ultrafint) i en korg på 3,7 liter och styrs via wifi eller Bluetooth.</p>
+<p><strong>Styrkor:</strong> längst drifttid i jämförelsen, skummar ytan, passar stora pooler. <strong>Svagheter:</strong> premiummodell, väger ca 11,4 kg uppe ur vattnet, klarningsmedlet måste köpas på nytt. <strong>Passar för:</strong> stora pooler med mycket växtlighet runt omkring, och alla som är trötta på kablar.</p>
+
+<h3>4. Aiper Scuba X1: den mångsidiga sladdlösa</h3>
+<p><strong>Aiper Scuba X1</strong> rengör botten, väggar och vattenlinje i upp till 180 minuter, i pooler på upp till 200 m² eller 20 meters längd. MicroMesh-filtreringen går ned till 3 µm och kompletteras av en filterkorg, och roboten laddas på ca 4 timmar i sin laddstation. Navigeringen WavePath anpassar rutterna, och i appen väljer du läge (botten, väggar, vattenlinje eller fullständig rengöring).</p>
+<p><strong>Styrkor:</strong> mycket fin filtrering, god täckning för en sladdlös robot i mellanklassen. <strong>Svagheter:</strong> drifttiden räcker till en körning men inte till flera cykler i rad, och det ultrafina filtret behöver sköljas ofta. <strong>Passar för:</strong> medelstora till stora pooler där pollen grumlar vattnet.</p>
+
+<h3>5. Dolphin Liberty 400: Maytronics utan kabel</h3>
+<p><strong>Dolphin Liberty 400</strong> ger dig Dolphins kunnande utan kabel. Litiumjonbatteriet på 126 Wh räcker enligt tillverkaren till upp till 2,5 timmars rengöring av botten, väggar och vattenlinje. Den laddas induktivt via en magnetisk kontakt, utan något öppet uttag. Funktionen Click Up för roboten till väggen så att den blir lättare att lyfta upp, och i appen MyDolphin Plus hanterar du programmen.</p>
+<p><strong>Styrkor:</strong> induktiv laddning, lätt att få upp ur vattnet, Dolphins återförsäljarnät. <strong>Svagheter:</strong> gjord för medelstora pooler, kortare drifttid än Beatbot. <strong>Passar för:</strong> familjer med pool som vill ha en enkel sladdlös robot från ett etablerat märke.</p>
+
+<h3>6. Zodiac Freerider RF 5600 iQ: dubbel filtrering utan kabel</h3>
+<p><strong>Zodiac Freerider RF 5600 iQ</strong> rengör botten, väggar och vattenlinje i pooler upp till 12 × 6 meter, oavsett form. Batteriet räcker till en hel cykel på 2,5 timmar och laddas på 4 timmar. Roboten kombinerar ett filter på 150 µm för grövre skräp med ett på 60 µm för fina partiklar. Med en LiFi-fjärrkontroll kan du styra den själv, och appen iAquaLink visar laddningsnivån och meddelar när cykeln är klar.</p>
+<p><strong>Styrkor:</strong> genomtänkt dubbel filtrering, manuell styrning med fjärrkontroll. <strong>Svagheter:</strong> begränsad till pooler på högst 12 × 6 meter. <strong>Passar för:</strong> pooler med fri form där du vill kunna rikta in dig på ett visst område.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Rengjorda ytor</th><th>Uppgiven poolstorlek</th><th>Filtrering</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Dolphin S300i</td><td>Med kabel (18 m)</td><td>Botten, väggar, vattenlinje</td><td>Upp till 12 m</td><td>Flerskikt, fint/ultrafint</td><td>MyDolphin Plus</td><td>Regelbunden användning, vanlig pool</td></tr>
+<tr><td>Dolphin E35i</td><td>Med kabel (17 m)</td><td>Botten, väggar, vattenlinje</td><td>Upp till 12 m</td><td>Kombipaket med ultrafint filter</td><td>MyDolphin Plus</td><td>Första roboten, vagn ingår</td></tr>
+<tr><td>Beatbot AquaSense 2 Pro</td><td>Sladdlös, upp till 5 tim (botten/väggar)</td><td>Botten, väggar, vattenlinje, yta</td><td>Upp till 360 m²</td><td>150 µm, fint + ultrafint</td><td>Wifi, Bluetooth</td><td>Stora pooler omgivna av träd</td></tr>
+<tr><td>Aiper Scuba X1</td><td>Sladdlös, upp till 180 min</td><td>Botten, väggar, vattenlinje</td><td>Upp till 200 m²</td><td>MicroMesh 3 µm + korg</td><td>Aipers app</td><td>Grumligt vatten, pollen</td></tr>
+<tr><td>Dolphin Liberty 400</td><td>Sladdlös, upp till 2,5 tim</td><td>Botten, väggar, vattenlinje</td><td>Medelstor familjepool</td><td>Dolphin-filter</td><td>MyDolphin Plus</td><td>Enkel sladdlös modell, induktiv laddning</td></tr>
+<tr><td>Zodiac Freerider RF 5600 iQ</td><td>Sladdlös, 2,5 tim</td><td>Botten, väggar, vattenlinje</td><td>Upp till 12 × 6 m</td><td>150 µm + 60 µm</td><td>iAquaLink, LiFi-fjärrkontroll</td><td>Fri form, manuell styrning</td></tr>
+</tbody>
+</table>
+<p>Bläddra bland alla tillgängliga modeller i kategorin <a href="/sv/outdoor-connecte/robots-piscine">poolrobotar</a>.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa en sladdlös robot till en mycket stor pool utan att kontrollera drifttiden:</strong> tar batteriet slut mitt i cykeln blir roboten liggande på botten och en del av poolen blir inte rengjord.</li>
+<li><strong>Att underskatta vattenlinjen:</strong> en robot som bara tar botten lämnar kvar den fettrand som syns allra mest.</li>
+<li><strong>Att glömma att skölja filtret:</strong> ett igensatt filter ger sämre sugkraft och kan slita på robotens pump.</li>
+<li><strong>Att låta roboten ligga kvar i vattnet hela tiden:</strong> klor och UV-strålning sliter snabbare på plast, borstar och kabel.</li>
+<li><strong>Att strunta i servicen:</strong> kontrollera att reservdelar (borstar, larvband, filter) finns hos en återförsäljare i närheten.</li>
+</ul>
+
+<h2>Installation, användning och säkerhet</h2>
+<p>Till en robot med kabel placerar du nätaggregatet en bra bit från poolen, skyddat mot regn och stänk och på det avstånd som anges i bruksanvisningen, och kopplar in det i ett uttag som skyddas av en jordfelsbrytare på 30 mA. Rulla ut hela kabeln innan du sänker ned roboten i vattnet, så tvinnar den sig mindre. En sladdlös robot laddar du i skuggan, uppe ur vattnet och på ett torrt underlag, med originalladdaren.</p>
+<p>Bada aldrig medan roboten är igång. Ta upp den efter varje cykel, skölj filtret i rent vatten och låt den inte ligga i poolen vid chockklorering eller invintring. Utanför säsongen förvarar du den torrt och frostfritt; för sladdlösa modeller följer du tillverkarens råd om hur mycket batteriet ska vara laddat under förvaringen.</p>
+<p>En robot ersätter inte poolens filtrering: den kompletterar pumpen och sand- eller patronfiltret. Vill du automatisera resten (pH, klor, belysning) kan du läsa vår <a href="/sv/blog/piscine-connectee-guide">guide till den smarta poolen</a>, och för trädgården runt omkring vår <a href="/sv/blog/guide-jardin-connecte-2026">guide till den smarta trädgården</a>.</p>
+
+<h2>Omdöme</h2>
+<p>För en vanlig nedgrävd pool upp till 12 meter är <strong>Dolphin S300i</strong> det mest balanserade valet: fullständig rengöring, lättåtkomligt filter och inga batteribegränsningar. <strong>Dolphin E35i</strong> ger nästan allt detta, med vagn, i en mer överkomlig prisklass. Vill du bli av med kabeln, eller är poolen stor och omgiven av träd, är <strong>Beatbot AquaSense 2 Pro</strong> mest komplett tack vare ytskumningen och den långa drifttiden. <strong>Aiper Scuba X1</strong>, <strong>Dolphin Liberty 400</strong> och <strong>Zodiac Freerider RF 5600 iQ</strong> är bra sladdlösa alternativ, beroende på om du prioriterar filterfinhet, ett stort återförsäljarnät eller manuell styrning.</p>
+`,
+    us: `<p>For most family pools up to 40 ft (12 m) long, the best robotic pool cleaner in 2026 is still a corded model like the <strong>Dolphin S300i</strong>: it cleans the floor, walls and waterline with no battery to run down, and its fine filter lifts out from the top. If you want to ditch the cord, the <strong>Beatbot AquaSense 2 Pro</strong> is the most complete cordless option, while the <strong>Dolphin E35i</strong> is the sensible corded pick for a first robot.</p>
+<p>This comparison is based on manufacturer specs, reviews in the specialist press and verified owner reviews. It covers six corded and cordless models sold in Europe and helps you choose for your pool rather than for the marketing copy. For an overview of smart pool equipment (pump, salt chlorine generator, sensors), see our <a href="/us/blog/piscine-connectee-guide">smart pool guide</a>.</p>
+
+<h2>How to choose a robotic pool cleaner</h2>
+<h3>Floor only, or walls and waterline too</h3>
+<p>Entry-level robots clean only the floor. If your pool has vertical walls and a waterline that leaves a ring (oily film, scale, sunscreen), get a model that climbs the walls and scrubs the waterline. Every model in this comparison does. The Beatbot AquaSense 2 Pro goes further and skims the surface too, which helps if your pool is surrounded by trees.</p>
+<h3>Pool size and shape</h3>
+<p>Manufacturers list either a maximum length (40 ft, or 12 m, for the Dolphin S300i and E35i) or a surface area (up to 2,150 sq ft for the Aiper Scuba X1, up to 3,875 sq ft for the Beatbot). For a freeform pool with steps or a tanning ledge, look for sensor-based navigation, which gets around obstacles better than a random pattern. For an above-ground pool, check that the robot is rated for soft walls.</p>
+<h3>Filter rating</h3>
+<p>Filters are rated in microns (µm): the lower the number, the finer the particles they catch. A 150 to 180 µm filter handles leaves and sand; an ultra-fine filter (60 µm on the Zodiac, down to 3 µm with Aiper’s MicroMesh) traps the pollen and dust that cloud the water. The catch: a very fine filter clogs faster and needs a rinse after every cycle.</p>
+<h3>Corded or cordless: runtime</h3>
+<p>A corded robot runs as long as it’s plugged in, which makes it ideal for regular, scheduled cycles. A cordless robot does away with a tangled cord and goes in the water in seconds, but runtime is limited (about 2.5 hours for the Liberty 400 and Freerider, 3 hours for the Aiper Scuba X1, up to 5 hours on the floor and walls for the Beatbot) and it has to recharge between runs.</p>
+<h3>App and Wi-Fi</h3>
+<p>The apps (MyDolphin Plus, iAquaLink, and the Beatbot and Aiper apps) are mostly for starting a cycle, picking a mode and setting a schedule. Wi-Fi doesn’t travel through water: on corded robots, it’s the power supply that connects; cordless robots usually communicate once they’re out of the water or through dedicated technology (LiFi on Zodiac and Dreame models, underwater communication announced by Aiper).</p>
+<h3>Caddy, weight and maintenance</h3>
+<p>A robot that weighs 18 to 24 lb (8 to 11 kg) and is full of water is awkward to lift. The Dolphin E35i comes with a caddy cart; the Liberty 400 and Freerider have systems that bring the robot up to the waterline for you. Check filter access too: a top-access filter, like the one on the S300i, empties without flipping the robot over.</p>
+
+<h2>The 6 best robotic pool cleaners of 2026</h2>
+<h3>1. Dolphin S300i: best overall</h3>
+<p>Maytronics’ <strong>Dolphin S300i</strong> is designed for pools up to 40 ft (12 m). It cleans the floor, walls and waterline with two active brushes and PowerStream technology, which directs the water jet so the robot holds onto the walls. Its 59 ft (18 m) cable has an anti-tangle swivel, and the multilayer filter lifts out from the top, in fine or ultra-fine versions. The default cycle runs 2 hours, and you control it with the MyDolphin Plus app. Maytronics lists a 3-year warranty.</p>
+<p><strong>Pros:</strong> no battery to manage, easy filter access, a brand widely carried by European pool dealers for service and repairs. <strong>Cons:</strong> you still have to lay out and coil up the cable; no surface skimming. <strong>Best for:</strong> standard in-ground pools up to 40 ft that get cleaned several times a week.</p>
+
+<h3>2. Dolphin E35i: best value</h3>
+<p>The <strong>Dolphin E35i</strong> shares most of what the S300i offers: pools up to 40 ft (12 m), floor, walls and waterline, a 2-hour cycle, two brushes, PowerStream, a 56 ft (17 m) swivel cable and the MyDolphin Plus app. It ships with a caddy cart and a combination filter kit that includes an ultra-fine filter.</p>
+<p><strong>Pros:</strong> full equipment for a midrange robot, caddy included. <strong>Cons:</strong> 2-year stated warranty, filter access less convenient than on the S300i. <strong>Best for:</strong> a dependable first corded robot without paying for premium extras.</p>
+
+<h3>3. Beatbot AquaSense 2 Pro: the most complete cordless</h3>
+<p>The <strong>Beatbot AquaSense 2 Pro</strong> is a “5-in-1” robot: floor, walls, waterline, surface skimming and water clarifying, using a natural agent that clumps fine particles together. Its 13,400 mAh battery is rated for up to 5 hours on the floor and walls and up to 11 hours in surface mode. It covers up to 3,875 sq ft (360 m²), navigates with ultrasonic sensors, filters down to 150 µm with two filters (fine and ultra-fine) in a 1-gallon (3.7 L) basket, and connects over Wi-Fi or Bluetooth.</p>
+<p><strong>Pros:</strong> the longest runtime in this comparison, surface skimming, built for large pools. <strong>Cons:</strong> premium model, about 25.1 lb (11.4 kg) out of the water, clarifier refills to rebuy. <strong>Best for:</strong> large pools surrounded by trees and plants, and anyone who’s done with cords.</p>
+
+<h3>4. Aiper Scuba X1: the versatile cordless</h3>
+<p>The <strong>Aiper Scuba X1</strong> cleans the floor, walls and waterline for up to 180 minutes, in pools up to 2,150 sq ft (200 m²) or 66 ft (20 m) long. Its MicroMesh filtration goes down to 3 µm, backed by a filter basket, and it recharges in about 4 hours on its dock. WavePath navigation adjusts its cleaning paths, and the app lets you pick a mode (floor, walls, waterline, full clean).</p>
+<p><strong>Pros:</strong> very fine filtration, good coverage for a midrange cordless. <strong>Cons:</strong> enough runtime for one pass, not several cycles back to back; the ultra-fine filter needs frequent rinsing. <strong>Best for:</strong> medium to large pools where pollen clouds the water.</p>
+
+<h3>5. Dolphin Liberty 400: Maytronics goes cordless</h3>
+<p>The <strong>Dolphin Liberty 400</strong> brings Dolphin’s know-how to a cordless robot. Its 126 Wh lithium-ion battery is rated for up to 2.5 hours of cleaning on the floor, walls and waterline. It charges by induction through a magnetic connector, so there’s no exposed charging port near the water. The Click Up feature brings the robot to the wall so it’s easier to lift out, and the MyDolphin Plus app handles the cleaning programs.</p>
+<p><strong>Pros:</strong> inductive charging, easy to retrieve, the Dolphin dealer network. <strong>Cons:</strong> designed for medium-size pools; shorter runtime than the Beatbot. <strong>Best for:</strong> family pool owners who want cordless convenience from an established brand.</p>
+
+<h3>6. Zodiac Freerider RF 5600 iQ: dual filtration, no cord</h3>
+<p>The <strong>Zodiac Freerider RF 5600 iQ</strong> cleans the floor, walls and waterline of pools up to 40 × 20 ft (12 × 6 m), whatever their shape. Its battery delivers a full 2.5-hour cycle and recharges in 4 hours. It pairs a 150 µm filter for large debris with a 60 µm filter for fine particles. A LiFi remote lets you steer it, and the iAquaLink app shows the battery level and tells you when the cycle is done.</p>
+<p><strong>Pros:</strong> well-designed dual filtration, manual steering with the remote. <strong>Cons:</strong> limited to pools up to 40 × 20 ft. <strong>Best for:</strong> freeform pools where you want to take over and target one spot.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Areas cleaned</th><th>Rated pool size</th><th>Filtration</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Dolphin S300i</td><td>Corded, 59 ft (18 m) cable</td><td>Floor, walls, waterline</td><td>Up to 40 ft (12 m)</td><td>Multilayer fine / ultra-fine</td><td>MyDolphin Plus</td><td>Regular use, standard pool</td></tr>
+<tr><td>Dolphin E35i</td><td>Corded, 56 ft (17 m) cable</td><td>Floor, walls, waterline</td><td>Up to 40 ft (12 m)</td><td>Combo kit with ultra-fine</td><td>MyDolphin Plus</td><td>First robot, caddy included</td></tr>
+<tr><td>Beatbot AquaSense 2 Pro</td><td>Cordless, up to 5 hr (floor/walls)</td><td>Floor, walls, waterline, surface</td><td>Up to 3,875 sq ft (360 m²)</td><td>150 µm, fine + ultra-fine</td><td>Wi-Fi, Bluetooth</td><td>Large pools under trees</td></tr>
+<tr><td>Aiper Scuba X1</td><td>Cordless, up to 180 min</td><td>Floor, walls, waterline</td><td>Up to 2,150 sq ft (200 m²)</td><td>MicroMesh 3 µm + basket</td><td>Aiper app</td><td>Cloudy water, pollen</td></tr>
+<tr><td>Dolphin Liberty 400</td><td>Cordless, up to 2.5 hr</td><td>Floor, walls, waterline</td><td>Medium family pool</td><td>Dolphin filter</td><td>MyDolphin Plus</td><td>Simple cordless, inductive charging</td></tr>
+<tr><td>Zodiac Freerider RF 5600 iQ</td><td>Cordless, 2.5 hr</td><td>Floor, walls, waterline</td><td>Up to 40 × 20 ft (12 × 6 m)</td><td>150 µm + 60 µm</td><td>iAquaLink, LiFi remote</td><td>Freeform pools, manual steering</td></tr>
+</tbody>
+</table>
+<p>Browse every available model in our <a href="/us/outdoor-connecte/robots-piscine">robotic pool cleaners</a> category.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a cordless robot for a very large pool without checking runtime:</strong> if the battery dies mid-cycle, the robot sits on the bottom and part of the pool doesn’t get cleaned.</li>
+<li><strong>Underestimating the waterline:</strong> a floor-only robot leaves behind the greasy ring, which is the part everyone sees.</li>
+<li><strong>Forgetting to rinse the filter:</strong> a clogged filter cuts suction and can strain the robot’s pump motor.</li>
+<li><strong>Leaving the robot in the water all the time:</strong> chlorine and UV rays wear out the plastics, brushes and cable faster.</li>
+<li><strong>Ignoring service and repairs:</strong> make sure parts (brushes, tracks, filters) are available from a dealer near you.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<p>For a corded robot, set the power supply well back from the pool, out of the rain and the splash zone, at the distance given in the manual, and plug it into a GFCI-protected outlet. Fully uncoil the cable before you lower the robot into the water to limit twisting. For a cordless robot, charge the battery in the shade, out of the water and on a dry surface, with the original charger.</p>
+<p>Never swim while the robot is running. Take it out after each cycle, rinse the filter with clean water, and keep the robot out of the pool while you shock it or winterize it. In the off-season, store it somewhere dry where it won’t freeze; for cordless models, follow the manufacturer’s advice on the charge level for storing the battery.</p>
+<p>A robot doesn’t replace your pool’s filtration system: it backs up the pump and the sand or cartridge filter. To automate the rest (pH, chlorine, lighting), see our <a href="/us/blog/piscine-connectee-guide">smart pool guide</a>, and for the yard around the pool, our <a href="/us/blog/guide-jardin-connecte-2026">smart yard guide</a>.</p>
+
+<h2>The bottom line</h2>
+<p>For a standard in-ground pool up to 40 ft (12 m), the <strong>Dolphin S300i</strong> is the most balanced choice: complete cleaning, easy filter access and no battery to worry about. The <strong>Dolphin E35i</strong> gives you almost all of that, plus a caddy, at a more affordable tier. If you want to get rid of the cord, or your pool is large and surrounded by trees, the <strong>Beatbot AquaSense 2 Pro</strong> is the most complete option thanks to surface skimming and long runtime. The <strong>Aiper Scuba X1</strong>, <strong>Dolphin Liberty 400</strong> and <strong>Zodiac Freerider RF 5600 iQ</strong> are solid cordless alternatives, depending on whether you care most about filter rating, a dealer network or manual control.</p>`,
+    ca: `<p>For most family pools up to 12 m (about 40 ft) long, the best robotic pool cleaner in 2026 is still a corded model such as the <strong>Dolphin S300i</strong>: it cleans the floor, walls and waterline with no battery limit, and its fine filter opens from the top. If you want to lose the cable, the <strong>Beatbot AquaSense 2 Pro</strong> is the most complete cordless option, while the <strong>Dolphin E35i</strong> is the sensible corded choice for a first robot.</p>
+<p>This comparison is based on manufacturer specifications, reviews in the specialist press and verified buyer feedback. It covers six corded and cordless models sold in Europe and helps you choose for your pool rather than for the marketing copy. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. For an overview of smart pool equipment (pump, salt chlorine generator, probes), see our <a href="/ca/blog/piscine-connectee-guide">smart pool guide</a>.</p>
+
+<h2>How to choose a robotic pool cleaner</h2>
+<h3>Floor only, walls or waterline</h3>
+<p>Entry-level robots only clean the floor. If you have vertical walls and a waterline that shows a ring (greasy film, calcium scale, sunscreen), choose a model that climbs walls and scrubs the waterline. Every model in this comparison does. The Beatbot AquaSense 2 Pro goes further by also skimming the water surface, which helps when the pool is surrounded by trees.</p>
+<h3>Pool size and shape</h3>
+<p>Manufacturers state a maximum length (12 m, or about 40 ft, for the Dolphin S300i and E35i) or an area (up to 200 m², about 2,200 sq. ft., for the Aiper Scuba X1, and up to 360 m², about 3,900 sq. ft., for the Beatbot). For a free-form pool with steps or a tanning ledge, choose sensor-based navigation, which handles obstacles better than a random pattern. For an above-ground pool, check compatibility with soft walls.</p>
+<h3>Filter fineness</h3>
+<p>Fineness is measured in microns (µm): the lower the number, the finer the particles captured. A filter around 150–180 µm handles leaves and sand; an ultra-fine filter (60 µm on the Zodiac, down to 3 µm with Aiper’s MicroMesh) traps pollen and dust that cloud the water. The trade-off: a very fine filter clogs faster and needs rinsing after every cycle.</p>
+<h3>Corded or cordless: runtime</h3>
+<p>A corded robot runs as long as it is plugged in, which is ideal for regular, scheduled cycles. A cordless robot avoids tangled cables and goes in the water in seconds, but runtime is limited (about 2.5 hours for the Liberty 400 and Freerider, 3 hours for the Aiper Scuba X1, up to 5 hours on floor and walls for the Beatbot) and it needs recharging between runs.</p>
+<h3>App and Wi-Fi</h3>
+<p>Apps (MyDolphin Plus, iAquaLink, Beatbot and Aiper apps) are mainly used to start a cycle, pick a mode and set a schedule. Wi-Fi does not travel through water: on corded robots, the power supply unit is what connects; on cordless robots, communication usually happens out of the water or through specific technologies (LiFi on Zodiac and Dreame, underwater communication announced by Aiper).</p>
+<h3>Caddy, weight and maintenance</h3>
+<p>A robot that weighs 8 to 11 kg (about 18 to 24 lb) and is full of water is awkward to lift. The Dolphin E35i comes with a caddy; the Liberty 400 and Freerider have systems that bring the robot up to the waterline. Also check filter access: a top-access filter, as on the S300i, can be emptied without flipping the robot.</p>
+
+<h2>The 6 best robotic pool cleaners in 2026</h2>
+<h3>1. Dolphin S300i: best overall</h3>
+<p>Maytronics’ <strong>Dolphin S300i</strong> is designed for pools up to 12 m. It cleans the floor, walls and waterline with two active brushes and PowerStream technology, which directs the water flow so the robot grips the walls. Its 18 m cable has an anti-tangle swivel, and the multi-layer filter lifts out from the top in fine or ultra-fine versions. The default cycle lasts 2 hours and is controlled with the MyDolphin Plus app. Maytronics states a 3-year warranty.</p>
+<p><strong>Strengths:</strong> no battery to manage, easy filter access, a large network of pool dealers in Europe for after-sales service. <strong>Limitations:</strong> the cable still has to be laid out and stored; no surface skimming. <strong>Best for:</strong> standard in-ground pools up to 12 m cleaned several times a week.</p>
+
+<h3>2. Dolphin E35i: best value</h3>
+<p>The <strong>Dolphin E35i</strong> shares most of the S300i’s features: pools up to 12 m, floor, walls and waterline, 2-hour cycle, two brushes, PowerStream, a 17 m swivel cable and the MyDolphin Plus app. It ships with a transport caddy and a combined filter kit that includes an ultra-fine filter.</p>
+<p><strong>Strengths:</strong> complete equipment for a mid-range robot, caddy included. <strong>Limitations:</strong> 2-year stated warranty, filter access less convenient than on the S300i. <strong>Best for:</strong> a reliable first corded robot without paying for premium extras.</p>
+
+<h3>3. Beatbot AquaSense 2 Pro: the most complete cordless</h3>
+<p>The <strong>Beatbot AquaSense 2 Pro</strong> is a “5-in-1” robot: floor, walls, waterline, surface skimming and water clarification using a natural agent that clumps fine particles. Its 13,400 mAh battery is rated for up to 5 hours on floor and walls and up to 11 hours in surface mode. It covers up to 360 m², navigates with ultrasonic sensors, filters down to 150 µm with two filters (fine and ultra-fine) in a 3.7 L basket, and connects over Wi-Fi or Bluetooth.</p>
+<p><strong>Strengths:</strong> longest runtime in this comparison, surface skimming, suited to large pools. <strong>Limitations:</strong> premium model, about 11.4 kg out of the water, a clarifying agent you have to keep buying. <strong>Best for:</strong> large pools surrounded by plants, and anyone done with cables.</p>
+
+<h3>4. Aiper Scuba X1: the versatile cordless</h3>
+<p>The <strong>Aiper Scuba X1</strong> cleans the floor, walls and waterline for up to 180 minutes, in pools up to 200 m² or 20 m long. Its MicroMesh filtration goes down to 3 µm, backed by a filter basket, and it recharges in about 4 hours on its dock. WavePath navigation adapts its routes, and the app lets you choose modes (floor, walls, waterline, full clean).</p>
+<p><strong>Strengths:</strong> very fine filtration, good coverage for a mid-range cordless. <strong>Limitations:</strong> enough runtime for one pass, not several back-to-back cycles; the ultra-fine filter needs frequent rinsing. <strong>Best for:</strong> medium to large pools where pollen clouds the water.</p>
+
+<h3>5. Dolphin Liberty 400: Maytronics goes cordless</h3>
+<p>The <strong>Dolphin Liberty 400</strong> brings Dolphin know-how without a cable. Its 126 Wh lithium-ion battery is rated for up to 2.5 hours of cleaning on the floor, walls and waterline. It charges by induction through a magnetic connector, with no exposed charging port. The Click Up feature brings the robot to the wall so it is easier to lift out, and the MyDolphin Plus app handles cleaning programs.</p>
+<p><strong>Strengths:</strong> inductive charging, easy retrieval, Dolphin dealer network. <strong>Limitations:</strong> designed for medium-sized pools; shorter runtime than the Beatbot. <strong>Best for:</strong> family pool owners who want cordless simplicity from an established brand.</p>
+
+<h3>6. Zodiac Freerider RF 5600 iQ: dual filtration, no cable</h3>
+<p>The <strong>Zodiac Freerider RF 5600 iQ</strong> cleans the floor, walls and waterline of pools up to 12 × 6 m (about 40 × 20 ft), whatever their shape. Its battery delivers a full 2.5-hour cycle and recharges in 4 hours. It combines a 150 µm filter for large debris with a 60 µm filter for fine particles. A LiFi remote lets you steer it, and the iAquaLink app shows the charge level and end-of-cycle alerts.</p>
+<p><strong>Strengths:</strong> well-designed dual filtration, manual steering by remote. <strong>Limitations:</strong> limited to pools of 12 × 6 m. <strong>Best for:</strong> free-form pools where you want to target a specific area.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Areas cleaned</th><th>Stated pool size</th><th>Filtration</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Dolphin S300i</td><td>Corded (18 m)</td><td>Floor, walls, waterline</td><td>Up to 12 m</td><td>Multi-layer fine / ultra-fine</td><td>MyDolphin Plus</td><td>Regular use, standard pool</td></tr>
+<tr><td>Dolphin E35i</td><td>Corded (17 m)</td><td>Floor, walls, waterline</td><td>Up to 12 m</td><td>Combined kit with ultra-fine</td><td>MyDolphin Plus</td><td>First robot, caddy included</td></tr>
+<tr><td>Beatbot AquaSense 2 Pro</td><td>Cordless, up to 5 h (floor/walls)</td><td>Floor, walls, waterline, surface</td><td>Up to 360 m²</td><td>150 µm, fine + ultra-fine</td><td>Wi-Fi, Bluetooth</td><td>Large pools with trees</td></tr>
+<tr><td>Aiper Scuba X1</td><td>Cordless, up to 180 min</td><td>Floor, walls, waterline</td><td>Up to 200 m²</td><td>MicroMesh 3 µm + basket</td><td>Aiper app</td><td>Cloudy water, pollen</td></tr>
+<tr><td>Dolphin Liberty 400</td><td>Cordless, up to 2.5 h</td><td>Floor, walls, waterline</td><td>Medium family pool</td><td>Dolphin filter</td><td>MyDolphin Plus</td><td>Simple cordless, inductive charging</td></tr>
+<tr><td>Zodiac Freerider RF 5600 iQ</td><td>Cordless, 2.5 h</td><td>Floor, walls, waterline</td><td>Up to 12 × 6 m</td><td>150 µm + 60 µm</td><td>iAquaLink, LiFi remote</td><td>Free-form pools, manual steering</td></tr>
+</tbody>
+</table>
+<p>Browse every available model in our <a href="/ca/outdoor-connecte/robots-piscine">robotic pool cleaners</a> category.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying cordless for a very large pool without checking runtime:</strong> if the battery runs out mid-cycle, the robot stays on the floor and part of the pool goes uncleaned.</li>
+<li><strong>Underestimating the waterline:</strong> a floor-only robot leaves the greasy band that is the most visible.</li>
+<li><strong>Forgetting to rinse the filter:</strong> a clogged filter reduces suction and can strain the robot’s pump.</li>
+<li><strong>Leaving the robot in the water permanently:</strong> chlorine and UV wear out plastics, brushes and cable faster.</li>
+<li><strong>Ignoring after-sales service:</strong> check that parts (brushes, tracks, filters) are available from a nearby dealer.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<p>For a corded robot, set the power supply well back from the pool, sheltered from rain and splashes, at the distance stated in the manual, and plug it into an outlet protected by a ground fault circuit interrupter (GFCI). Fully uncoil the cable before lowering the robot into the water to limit twisting. For a cordless robot, charge the battery in the shade, out of the water and on a dry surface, using the original charger.</p>
+<p>Never swim while the robot is running. Take it out after each cycle, rinse the filter with clean water, and keep it out of the water during shock treatment or when you winterize the pool. Over the winter, store it somewhere dry where it can’t freeze; for cordless models, follow the manufacturer’s advice on battery storage charge.</p>
+<p>A robot does not replace your pool’s filtration system: it complements the pump and sand or cartridge filter. To automate the rest (pH, chlorine, lighting), see our <a href="/ca/blog/piscine-connectee-guide">smart pool guide</a>, and for the backyard around it, our <a href="/ca/blog/guide-jardin-connecte-2026">smart backyard guide</a>.</p>
+
+<h2>Verdict</h2>
+<p>For a standard in-ground pool up to 12 m, the <strong>Dolphin S300i</strong> is the most balanced choice: complete cleaning, easy filter access and no battery constraints. The <strong>Dolphin E35i</strong> delivers almost all of that with a caddy included, at a more accessible tier. If you want to get rid of the cable, or your pool is large and surrounded by trees, the <strong>Beatbot AquaSense 2 Pro</strong> is the most complete thanks to surface skimming and long runtime. The <strong>Aiper Scuba X1</strong>, <strong>Dolphin Liberty 400</strong> and <strong>Zodiac Freerider RF 5600 iQ</strong> are solid cordless alternatives depending on the filter fineness, dealer network or manual control you are after.</p>`,
   },
   faq: [
     {
@@ -575,6 +807,9 @@ export const article: BlogArticle = {
         it: 'Robot piscina con filo o senza fili: quale scegliere?',
         nl: 'Zwembadrobot met of zonder snoer: wat kies je?',
         pl: 'Robot basenowy przewodowy czy bezprzewodowy: który wybrać?',
+        sv: 'Poolrobot med eller utan kabel: vilken ska jag välja?',
+        us: 'Corded or cordless robotic pool cleaner: which should you choose?',
+        ca: 'Corded or cordless pool robot: which should I choose?',
       },
       answer: {
         fr: 'Le filaire convient aux nettoyages fréquents et programmés, sans limite d’autonomie. Le sans-fil est plus pratique à poser et à sortir, mais son autonomie (environ 2 h 30 à 5 h selon les modèles) et la recharge entre deux cycles le rendent moins adapté à un usage quotidien sur un grand bassin.',
@@ -584,6 +819,9 @@ export const article: BlogArticle = {
         it: 'Il modello con filo è adatto a pulizie frequenti e programmate, senza limiti di autonomia. Il senza fili è più pratico da immergere ed estrarre, ma l’autonomia (circa 2,5–5 ore a seconda del modello) e la ricarica tra i cicli lo rendono meno adatto a un uso quotidiano in una vasca grande.',
         nl: 'Met snoer is geschikt voor frequente, geplande reiniging zonder accubeperking. Snoerloos is makkelijker in en uit het water te halen, maar de accuduur (ongeveer 2,5 tot 5 uur, afhankelijk van het model) en het opladen tussen cycli maken hem minder geschikt voor dagelijks gebruik in een groot bad.',
         pl: 'Robot przewodowy sprawdza się przy częstym czyszczeniu według harmonogramu, a jego czas pracy nie jest niczym ograniczony. Bezprzewodowy łatwiej włożyć do wody i wyjąć, ale ze względu na ograniczony czas pracy (od ok. 2 h 30 min do 5 h, zależnie od modelu) i konieczność ładowania między cyklami gorzej nadaje się do codziennego czyszczenia dużego basenu.',
+        sv: 'En robot med kabel passar för täta, schemalagda rengöringar och har ingen gräns för drifttiden. En sladdlös robot är smidigare att sänka ned och ta upp, men drifttiden (ca 2,5–5 timmar beroende på modell) och laddningen mellan cyklerna gör den mindre lämpad för daglig användning i en stor pool.',
+        us: 'A corded robot suits frequent, scheduled cleaning, with no runtime limit. A cordless one is easier to drop in and lift out, but its runtime (about 2.5 to 5 hours depending on the model) and the recharge between cycles make it a weaker fit for daily cleaning in a large pool.',
+        ca: 'Corded suits frequent, scheduled cleaning with no runtime limit. Cordless is easier to drop in and lift out, but its runtime (about 2.5 to 5 hours depending on the model) and recharging between cycles make it less suited to daily use in a large pool.',
       },
     },
     {
@@ -595,6 +833,9 @@ export const article: BlogArticle = {
         it: 'Ogni quanto va usato il robot piscina?',
         nl: 'Hoe vaak moet je de zwembadrobot laten draaien?',
         pl: 'Jak często uruchamiać robota basenowego?',
+        sv: 'Hur ofta ska poolroboten köras?',
+        us: 'How often should you run a pool robot?',
+        ca: 'How often should I run a pool robot?',
       },
       answer: {
         fr: 'En pleine saison, deux à trois cycles par semaine suffisent pour la plupart des bassins, davantage après un orage, une forte chute de feuilles ou une grosse fréquentation. Hors saison, un passage ponctuel avant la remise en route est généralement suffisant.',
@@ -604,6 +845,9 @@ export const article: BlogArticle = {
         it: 'In piena stagione bastano due o tre cicli a settimana per la maggior parte delle piscine, di più dopo un temporale, una forte caduta di foglie o un uso intenso. Fuori stagione è di solito sufficiente un passaggio prima della riapertura.',
         nl: 'In het hoogseizoen volstaan voor de meeste zwembaden twee tot drie cycli per week, meer na onweer, veel vallend blad of druk gebruik. Buiten het seizoen is meestal één beurt vóór het opnieuw openen voldoende.',
         pl: 'W pełni sezonu w większości basenów wystarczą dwa lub trzy cykle w tygodniu, a po burzy, obfitym opadaniu liści lub przy dużej liczbie kąpiących się – więcej. Poza sezonem zwykle wystarczy jednorazowe czyszczenie przed ponownym uruchomieniem basenu.',
+        sv: 'Under högsäsong räcker två till tre cykler i veckan för de flesta pooler, fler efter ett oväder, kraftigt lövfall eller när många har badat. Utanför säsongen räcker det oftast att köra roboten en gång innan poolen startas upp igen.',
+        us: 'During swim season, two to three cycles a week are enough for most pools; run it more often after a storm, when lots of leaves come down or after a busy weekend of swimming. In the off-season, one run before you open the pool again is usually enough.',
+        ca: 'In peak season, two to three cycles a week are enough for most pools, more after a storm, lots of falling leaves or a busy weekend in the pool. Outside the swimming season, a single run before you open the pool again is usually enough.',
       },
     },
     {
@@ -615,6 +859,9 @@ export const article: BlogArticle = {
         it: 'Un robot piscina pulisce la linea d’acqua?',
         nl: 'Reinigt een zwembadrobot de waterlijn?',
         pl: 'Czy robot basenowy czyści linię wody?',
+        sv: 'Rengör en poolrobot vattenlinjen?',
+        us: 'Does a robotic pool cleaner clean the waterline?',
+        ca: 'Does a pool robot clean the waterline?',
       },
       answer: {
         fr: 'Oui, à condition de choisir un modèle qui grimpe aux parois. Tous les robots de ce comparatif brossent la ligne d’eau ; les modèles d’entrée de gamme « fond seul » ne le font pas. Pour un dépôt calcaire ancien, un nettoyage manuel peut rester nécessaire.',
@@ -624,6 +871,9 @@ export const article: BlogArticle = {
         it: 'Sì, a patto di scegliere un modello che salga sulle pareti. Tutti i robot di questo confronto spazzolano la linea d’acqua; i modelli base «solo fondo» no. I vecchi depositi di calcare possono comunque richiedere una pulizia manuale.',
         nl: 'Ja, mits je een model kiest dat tegen de wanden opklimt. Alle robots in deze vergelijking borstelen de waterlijn; eenvoudige modellen die alleen de bodem doen niet. Oude kalkaanslag kan nog handmatig schoonmaken vereisen.',
         pl: 'Tak, o ile wybierzesz model, który wspina się po ścianach. Wszystkie roboty z tego porównania szorują linię wody; tego nie robią natomiast najprostsze modele, które czyszczą „tylko dno”. Stary osad kamienny może jednak wymagać ręcznego doczyszczenia.',
+        sv: 'Ja, om du väljer en modell som klättrar på väggarna. Alla robotar i den här jämförelsen borstar vattenlinjen, men enklare modeller som bara rengör botten gör det inte. Gamla kalkavlagringar kan fortfarande behöva tas bort för hand.',
+        us: 'Yes, as long as you pick a model that climbs walls. Every robot in this comparison scrubs the waterline; entry-level floor-only models don’t. Old calcium scale may still need scrubbing by hand.',
+        ca: 'Yes, as long as you choose a model that climbs walls. Every robot in this comparison scrubs the waterline; entry-level floor-only models do not. Older calcium scale deposits may still need scrubbing by hand.',
       },
     },
     {
@@ -635,6 +885,9 @@ export const article: BlogArticle = {
         it: 'Quale finezza di filtrazione scegliere?',
         nl: 'Welke filterfijnheid moet je kiezen?',
         pl: 'Jaką dokładność filtracji wybrać?',
+        sv: 'Vilken filterfinhet ska jag välja?',
+        us: 'How fine a filter do you need?',
+        ca: 'What filter fineness should I choose?',
       },
       answer: {
         fr: 'Un filtre autour de 150 à 180 µm suffit pour les feuilles, les insectes et le sable. Si l’eau se trouble au printemps (pollen, poussières), un filtre ultrafin de 60 µm ou moins fait la différence, au prix d’un rinçage plus fréquent. L’idéal est un robot livré avec les deux.',
@@ -644,6 +897,9 @@ export const article: BlogArticle = {
         it: 'Un filtro da 150–180 µm basta per foglie, insetti e sabbia. Se in primavera l’acqua si intorbidisce (pollini, polvere), un filtro ultrafine da 60 µm o meno fa la differenza, ma va risciacquato più spesso. L’ideale è un robot fornito con entrambi.',
         nl: 'Een filter rond 150–180 µm volstaat voor bladeren, insecten en zand. Wordt het water in het voorjaar troebel (pollen, stof), dan maakt een ultrafijn filter van 60 µm of minder het verschil, al moet je het vaker uitspoelen. Ideaal is een robot met beide filters.',
         pl: 'Filtr rzędu 150–180 µm wystarczy na liście, owady i piasek. Jeśli wiosną woda mętnieje (pyłki, kurz), wyraźnie lepiej sprawdzi się filtr ultradrobny 60 µm lub drobniejszy, choć trzeba go częściej płukać. Najlepiej wybrać robota, który ma w zestawie oba rodzaje filtrów.',
+        sv: 'Ett filter på runt 150–180 µm räcker för löv, insekter och sand. Blir vattnet grumligt på våren (pollen, damm) gör ett ultrafint filter på 60 µm eller mindre skillnad, men det måste sköljas oftare. Bäst är en robot som levereras med båda.',
+        us: 'A filter rated around 150 to 180 microns handles leaves, bugs and sand. If the water turns cloudy in spring (pollen, dust), an ultra-fine filter of 60 microns or less makes the difference, though you’ll rinse it more often. Ideally, pick a robot that comes with both.',
+        ca: 'A filter around 150–180 µm is enough for leaves, insects and sand. If the water turns cloudy in spring (pollen, dust), an ultra-fine filter of 60 µm or less makes the difference, at the cost of more frequent rinsing. Ideally, choose a robot supplied with both.',
       },
     },
     {
@@ -655,6 +911,9 @@ export const article: BlogArticle = {
         it: 'Si può lasciare il robot sempre in piscina?',
         nl: 'Mag de robot permanent in het zwembad blijven?',
         pl: 'Czy można zostawić robota w basenie na stałe?',
+        sv: 'Kan roboten ligga kvar i poolen hela tiden?',
+        us: 'Can you leave the robot in the pool all the time?',
+        ca: 'Can I leave the robot in the pool all the time?',
       },
       answer: {
         fr: 'Ce n’est pas recommandé. Le chlore et le soleil accélèrent l’usure des plastiques, des brosses et du câble. Sortez le robot après chaque cycle, videz et rincez le filtre, et rangez-le à l’ombre. Ne vous baignez jamais pendant qu’il fonctionne.',
@@ -664,6 +923,9 @@ export const article: BlogArticle = {
         it: 'Non è consigliato. Cloro e sole accelerano l’usura di plastiche, spazzole e cavo. Estraete il robot dopo ogni ciclo, svuotate e risciacquate il filtro e riponetelo all’ombra. Non fate mai il bagno mentre è in funzione.',
         nl: 'Dat wordt afgeraden. Chloor en zon versnellen de slijtage van kunststof, borstels en kabel. Haal de robot na elke cyclus uit het water, leeg en spoel het filter en berg hem op in de schaduw. Zwem nooit terwijl hij werkt.',
         pl: 'Nie zaleca się tego. Chlor i słońce przyspieszają zużycie elementów z tworzywa, szczotek i kabla. Po każdym cyklu wyjmuj robota z wody, opróżniaj i płucz filtr, a samo urządzenie przechowuj w cieniu. Nigdy nie kąp się, gdy robot pracuje.',
+        sv: 'Det är inte att rekommendera. Klor och sol gör att plast, borstar och kabel slits snabbare. Ta upp roboten efter varje cykel, töm och skölj filtret och förvara den i skuggan. Bada aldrig medan den är igång.',
+        us: 'We don’t recommend it. Chlorine and sunlight wear out the plastics, brushes and cable faster. Take the robot out after each cycle, empty and rinse the filter, and store it in the shade. Never swim while it’s running.',
+        ca: 'It is not recommended. Chlorine and sunlight speed up wear on plastics, brushes and cable. Take the robot out after each cycle, empty and rinse the filter, and store it in the shade. Never swim while it is running.',
       },
     },
     {
@@ -675,6 +937,9 @@ export const article: BlogArticle = {
         it: 'Un robot piscina funziona in una piscina fuori terra?',
         nl: 'Werkt een zwembadrobot in een opzetzwembad?',
         pl: 'Czy robot basenowy sprawdzi się w basenie naziemnym?',
+        sv: 'Fungerar en poolrobot i en ovanmarkspool?',
+        us: 'Does a robotic pool cleaner work in an above-ground pool?',
+        ca: 'Does a pool robot work in an above-ground pool?',
       },
       answer: {
         fr: 'Oui pour de nombreux modèles, mais vérifiez la compatibilité indiquée par le fabricant : les parois souples et les liners fins demandent un robot adapté et assez léger. Pour un petit hors-sol, un sans-fil d’entrée ou de milieu de gamme est souvent plus simple qu’un filaire.',
@@ -684,6 +949,9 @@ export const article: BlogArticle = {
         it: 'Sì per molti modelli, ma verificate la compatibilità indicata dal produttore: pareti morbide e liner sottili richiedono un robot adatto e abbastanza leggero. Per una piccola fuori terra, un senza fili entry-level o di fascia media è spesso più semplice di uno con filo.',
         nl: 'Bij veel modellen wel, maar controleer de compatibiliteit die de fabrikant opgeeft: zachte wanden en dunne liners vragen om een geschikte, vrij lichte robot. Voor een klein opzetzwembad is een snoerloze instap- of middenklasser vaak eenvoudiger dan een model met snoer.',
         pl: 'Tak, wiele modeli się do tego nadaje, ale sprawdź, co na temat zgodności podaje producent: miękkie ścianki i cienka folia basenowa wymagają odpowiedniego, dość lekkiego robota. W małym basenie naziemnym bezprzewodowy robot z niższej lub średniej półki jest często prostszym rozwiązaniem niż model przewodowy.',
+        sv: 'Ja, många modeller gör det, men kontrollera vad tillverkaren uppger om kompatibilitet: mjuka väggar och tunn poolduk (liner) kräver en lämplig och ganska lätt robot. Till en liten ovanmarkspool är en sladdlös robot i instegs- eller mellanklassen ofta enklare än en med kabel.',
+        us: 'Many do, but check the compatibility the manufacturer lists: soft walls and thin vinyl liners need a suitable, fairly light robot. For a small above-ground pool, an entry-level or midrange cordless robot is often simpler than a corded one.',
+        ca: 'Yes for many models, but check the compatibility stated by the manufacturer: soft walls and thin liners need a suitable, fairly light robot. For a small above-ground pool, an entry-level or mid-range cordless robot is often simpler than a corded one.',
       },
     },
   ],

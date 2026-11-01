@@ -23,6 +23,9 @@ const SKIP_LINK_LABEL: Record<Lang, string> = {
   it: 'Vai al contenuto',
   nl: 'Naar de inhoud',
   pl: 'Przejdź do treści',
+  sv: 'Hoppa till innehållet',
+  us: 'Skip to content',
+  ca: 'Skip to content',
 }
 
 const geistSans = Geist({
@@ -42,6 +45,9 @@ const metaTitles: Record<Lang, string> = {
   it: 'Home Nura | La Casa Connessa, confrontata per l\'Europa',
   nl: 'Home Nura | Het Slimme Huis, vergeleken voor Europa',
   pl: 'Home Nura | Inteligentny dom: niezależne porównania',
+  sv: 'Home Nura | Det smarta hemmet, jämfört för Europa',
+  us: 'Home Nura | Independent Smart Home Buying Guides',
+  ca: 'Home Nura | Smart Home Buying Guides, Canadian Edition',
 };
 
 const metaDescriptions: Record<Lang, string> = {
@@ -52,6 +58,9 @@ const metaDescriptions: Record<Lang, string> = {
   it: 'Confronti indipendenti della casa connessa europea: cucina, energia, sicurezza, comfort, pulizia ed esterno. Sette mercati, un solo metodo.',
   nl: 'Onafhankelijke vergelijkingen van het Europese slimme huis: keuken, energie, beveiliging, comfort, schoonmaak en buitenruimte. Zeven markten, één methode.',
   pl: 'Niezależne porównania sprzętu do inteligentnego domu w Europie: kuchnia, energia, bezpieczeństwo, komfort, sprzątanie i ogród. 7 rynków, jedna metoda.',
+  sv: 'Oberoende jämförelser av smarta hem i Europa: kök, energi, säkerhet, inomhusklimat, städning, trädgård och utomhus. 7 marknader, en och samma metod.',
+  us: 'Independent smart home buying guides for the kitchen, energy, security, comfort, cleaning and the yard. Seven markets, one method, no paid placements.',
+  ca: 'Independent smart home buying guides, Canadian edition: kitchen, energy, security, comfort, cleaning and outdoors. Seven markets, one shared method.',
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

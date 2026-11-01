@@ -156,6 +156,72 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
         answer: "Zużycie jest niewielkie: przy 6 kWh miesięcznie przez siedem miesięcy i przykładowej cenie 1 zł za kWh sezon kosztuje około 42 zł. Miesięczne zużycie podaje karta produktu. Przed zimą robota trzeba dokładnie oczyścić, naładować akumulator i schować w suchym pomieszczeniu, w którym nie ma mrozu, na przykład w garażu. Stację ładującą najlepiej odłączyć od zasilania, a to, czy ją zdemontować, podpowie instrukcja producenta. Małe noże tnące wymienia się kilka razy w sezonie.",
       },
     ],
+    sv: [
+      {
+        question: "Hur stor robotgräsklippare behöver jag?",
+        answer: "Välj en modell som enligt tillverkaren klarar en 20–30 % större yta än din gräsmatta, alltså ungefär 1 200–1 300 m² om du har 1 000 m² att klippa. Tillverkarens siffra förutsätter en plan och sammanhängande tomt: sluttningar, smala passager och separata gräsytor gör att klippningen tar längre tid. Kontrollera också den maximala lutningen, som anges i procent (45° motsvarar 100 %), och hur smal passage roboten klarar att ta sig igenom.",
+      },
+      {
+        question: "Robotgräsklippare med RTK, kamera eller begränsningskabel: vad ska jag välja?",
+        answer: "På en öppen gräsmatta är RTK utan kabel smidigast; under träd och intill huset fungerar kameranavigering bättre, eller en modell som kombinerar RTK och kamera. Med RTK positionerar sig roboten via satellit med hjälp av en fast referensantenn, och precisionen sjunker när himlen skyms. Kameran följer gräskanterna men tvekar när gränsen mot en rabatt är otydlig. Begränsningskabeln är fortfarande pålitligast i trädgårdar med många träd, men den tar längre tid att lägga ut och måste lagas när den går av.",
+      },
+      {
+        question: "Är robotgräsklippare farliga för igelkottar?",
+        answer: "Ja, om de får gå på natten: igelkottar är aktiva när det är mörkt, flyr inte undan maskinen och kan skadas allvarligt. Schemalägg därför klippningen på dagtid, aldrig från skymning till gryning. Håll också små barn och husdjur borta från gräsmattan medan roboten klipper, även om knivarna stannar så fort den lyfts. Vill du låta roboten klippa på söndagar, ta först reda på om det finns lokala regler för buller från trädgårdsmaskiner.",
+      },
+      {
+        question: "Hur skyddar jag robotgräsklipparen mot stöld?",
+        answer: "Slå på PIN-koden och lyftlarmet, och välj om möjligt en modell med GPS-spårning. En robot som är kodlåst och kopplad till ditt konto går inte att använda för en tjuv, vilket gör den mindre frestande. Spårning via mobilnätet (4G) ingår ibland under några år och blir sedan avgiftsbelagd: kontrollera det före köpet. Läs också villkoren i din hemförsäkring, eftersom vissa försäkringar undantar eller begränsar ersättningen för saker som står ute i trädgården.",
+      },
+      {
+        question: "Hur sköter jag robotgräsklipparen och vad kostar den i drift?",
+        answer: "Räkna med en rengöring i veckan, nya knivar flera gånger per säsong och låg elförbrukning. Borsta bort gräs som fastnat under kåpan, utan högtryckstvätt, och byt de små svängbara knivarna så fort de sliter av gräset i stället för att klippa det. Elförbrukningen per månad står i tillverkarens produktblad. Med ett exempelpris på 2,75 kr/kWh blir det 6 kWh × 7 månader × 2,75 kr ≈ 115 kr per säsong. Förvara roboten frostfritt över vintern, med fulladdat batteri.",
+      },
+    ],
+    us: [
+      {
+        question: "What size robot mower do I need for my lawn?",
+        answer: "Choose a mower rated for about 20% to 30% more than your actual lawn area: for a 0.25-acre (1,000 m²) lawn, look at models rated for about 0.3 acre (1,200 to 1,300 m²). The rated figure assumes a flat, simple, single-zone yard; slopes, narrow side yards and separate front and back lawns all add mowing time. Check the maximum slope, given as a percentage (45° equals 100%), and whether the mower can handle more than one zone. A bigger rating mainly buys a faster finish.",
+      },
+      {
+        question: "Wire-free robot mower or boundary wire: which is better?",
+        answer: "Wire-free is easier to set up and change, but boundary wire is still the most dependable option in small, fenced yards with tall fences and trees. RTK models navigate by satellite and need a clear view of the sky, which high fences, hedges and neighboring houses can block. Vision models follow lawn edges with a camera and struggle when the border is unclear or the light is poor. Many newer mowers combine both to cover each other's weak spots.",
+      },
+      {
+        question: "Can I run a robot mower at night?",
+        answer: "It's best not to: schedule it for daylight hours. Small animals that forage after dark, such as hedgehogs in Europe, often freeze or curl up instead of running away and can be badly injured by the blades. Never schedule it from dusk to dawn, and walk the lawn before the first run of the day if you have a wild corner or a brush pile. Lift sensors stop the blades for children and pets, but it's still best to keep them off the lawn while the mower works.",
+      },
+      {
+        question: "How do I keep my robot mower from being stolen?",
+        answer: "Turn on the PIN lock and lift alarm, and choose a model with GPS tracking if theft is a concern where you live. A PIN-locked mower tied to your app account is useless to a thief, which makes it a poor target. Cellular tracking is sometimes free for a few years, then needs a subscription. Write down the serial number, and check that your homeowners or renters insurance covers yard equipment, since some policies limit it.",
+      },
+      {
+        question: "How much does a robot mower cost to run?",
+        answer: "Electricity is a small cost: a mower using 6 kWh a month for seven months costs about $8.40 a season at an example rate of 20 cents per kWh. Check the monthly figure on the spec sheet and multiply by the rate on your utility bill. The bigger running costs are replacement blades, which are cheap but changed several times a season, and eventually a new battery. Store the mower in a dry shed or garage that stays above freezing over the winter, fully charged, to protect the battery.",
+      },
+    ],
+    ca: [
+      {
+        question: "What size robot mower do I need for my lawn?",
+        answer: "Choose a mower rated for about 20–30% more than your actual lawn area, because the rated figure assumes a flat, simple, single-zone yard. Slopes, narrow side yards and separate front and back lawns all add mowing time. Check the maximum slope, given as a percentage (45° equals 100%), and whether the mower can handle more than one zone. For a small lawn, an entry-level model is usually enough; a bigger rating mainly buys a faster finish.",
+      },
+      {
+        question: "Wire-free robot mower or boundary wire: which is better?",
+        answer: "Wire-free is easier to set up and change, but boundary wire is still the most dependable option in small backyards enclosed by tall fences and trees. RTK models navigate by satellite and need a clear view of the sky, which high fences, hedges and neighbouring houses can block. Vision models follow lawn edges with a camera and struggle when the border is unclear or the light is poor. Many newer mowers combine both to cover each other's weak spots.",
+      },
+      {
+        question: "Are robot mowers safe for wildlife?",
+        answer: "Only if you run them in daylight: small animals such as toads, frogs and rabbits are most active at dusk and at night. Some freeze instead of running away, so mower blades can badly injure them. Set the schedule to daytime hours, never dusk to dawn, and walk the lawn before the first run of the day if you have a wild corner, a brush pile or a rabbit nest. Lift sensors stop the blades for children and pets, but it's still best to keep them off the lawn while the mower works.",
+      },
+      {
+        question: "How do I stop my robot mower from being stolen?",
+        answer: "Turn on the PIN lock and lift alarm, and choose a model with GPS tracking if theft is a worry where you live. A PIN-locked mower tied to your app account is useless to a thief, which makes it a poor target. Cellular tracking is sometimes free for a few years, then needs a subscription. Keep a record of the serial number and your receipt, and check that your home insurance covers outdoor equipment, as some policies limit it.",
+      },
+      {
+        question: "How much does a robot mower cost to run?",
+        answer: "Electricity is a small cost: a mower using 6 kWh a month for seven months uses 42 kWh a season, about $4.20 at an example rate of 10¢ per kWh. Check the monthly figure on the spec sheet and multiply by your own rate. The bigger running costs are replacement blades, which are cheap but changed several times a season, and eventually a new battery. Over winter, store the mower fully charged somewhere dry that stays above freezing, such as a basement or a heated garage, to protect the battery.",
+      },
+    ],
   },
   "arrosage-connecte": {
     fr: [
@@ -310,6 +376,72 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       {
         question: "Jak przygotować nawadnianie automatyczne do zimy?",
         answer: "Przed pierwszymi przymrozkami trzeba spuścić wodę z instalacji, a sterownik kranowy zdjąć i schować w suchym miejscu. Instalację podziemną najlepiej przedmuchać sprężonym powietrzem, bo woda pozostawiona w rurach i elektrozaworach może je rozsadzić, gdy zamarznie. Ze sterownika kranowego należy wyjąć baterie. Zawór kranu zewnętrznego warto zamknąć od środka domu i odkręcić kran na zewnątrz, by spuścić resztę wody.",
+      },
+    ],
+    sv: [
+      {
+        question: "Vilken smart bevattningsdator ska jag välja?",
+        answer: "Utgå från det du har: en bevattningsdator som skruvas på kranen räcker för slang eller droppbevattning, medan nedgrävda magnetventiler kräver en styrenhet för flera zoner. Välj wifi via en hubb hellre än enbart Bluetooth, som bara fungerar inom räckhåll för mobilen och inte tar hänsyn till vädret. Kontrollera vilket ekosystem den ingår i (Gardena, Rain Bird, Eve Aqua som fungerar med HomeKit) och vilket minsta vattentryck den kräver: en regntunna utan pump ger ofta för lite.",
+      },
+      {
+        question: "Droppbevattning eller spridare: vad passar bäst?",
+        answer: "Droppbevattning för rabatter, häckar och köksland, spridare bara för gräsmattan. Droppbevattningen ger vatten direkt vid roten och nästan inget avdunstar, så du kan vattna kort och ofta. En spridare täcker en stor yta men förlorar en del av vattnet genom avdunstning och vinddrift, så schemalägg den tidigt på morgonen. Vid bevattningsförbud kan sparsamma metoder som droppbevattning ibland vara undantagna.",
+      },
+      {
+        question: "Hur mycket vatten går åt vid automatisk bevattning?",
+        answer: "Multiplicera flödet med tiden: en spridare på 600 liter i timmen som går i 20 minuter förbrukar 200 liter. Droppbevattning med 30 droppare på 2 liter i timmen förbrukar 60 liter på en timme. Dela summan med 1 000 för att få kubikmeter och multiplicera med priset per kubikmeter på din vattenräkning, inklusive avloppsavgiften om den beräknas på förbrukad mängd. Med en fuktgivare eller en funktion som skjuter upp bevattningen efter regn slipper du onödiga vattningar.",
+      },
+      {
+        question: "Fungerar en bevattningsdator med vatten från regntunnan?",
+        answer: "Bara om den är gjord för lågt tryck eller om du kompletterar med en pump, eftersom en regntunna ger mycket lågt tryck med enbart självfall. Många bevattningsdatorer behöver ett visst minsta tryck för att ventilen ska öppna, och en tunna som står direkt på marken ger inte alltid det. Välj en modell för självfall, ställ tunnan högre på en pall eller använd en liten dränkbar pump som styrs av bevattningsdatorn. Droppbevattning passar bäst för regnvatten; spridare behöver trycket från vattenledningen.",
+      },
+      {
+        question: "Ska bevattningsdatorn tas in över vintern?",
+        answer: "Ja, före första frosten: vatten som blir kvar i bevattningsdatorn kan frysa och spräcka höljet eller ventilen. Skruva loss den från kranen, töm den, ta ur batterierna och förvara den torrt. Töm också slangar och droppslangar, och stäng av utekranen inifrån huset om den har en avstängningsventil. På våren sätter du i nya batterier och rengör inloppsfiltret, som ofta sätts igen av kalk eller sand.",
+      },
+    ],
+    us: [
+      {
+        question: "Can I use a smart irrigation system during watering restrictions?",
+        answer: "It depends on the rules your water utility or local government sets: restrictions often limit sprinklers to certain days or hours, and drip irrigation is sometimes exempt. In France, for example, a ban on watering between 8 a.m. and 8 p.m. is common during droughts. Read your utility's notice before relying on an exemption, then set the controller to the permitted days and hours. A controller that skips runs after rain also helps you use less water once restrictions lift.",
+      },
+      {
+        question: "How much water does a sprinkler use?",
+        answer: "Multiply flow by time: a sprinkler delivering about 160 gallons an hour (600 L/h) uses about 53 gallons (200 L) in 20 minutes. Check your water bill for the rate, often per 1,000 gallons or per hundred cubic feet, and add the sewer charge if it's billed on the water you use. Drip lines use far less: 30 drippers at 0.5 gallon an hour (2 L/h) for one hour is about 16 gallons (60 L). A controller that skips runs after rain avoids wasted cycles.",
+      },
+      {
+        question: "Smart hose timer or sprinkler controller: which should I buy?",
+        answer: "For a garden hose or drip kit, a smart hose timer is enough; for in-ground sprinkler zones, choose a multi-zone controller that drives the solenoid valves. Pick Wi-Fi through a hub rather than Bluetooth alone, so you can change schedules away from home and use weather skips. Check that it works with your smart home platform, whether Alexa, Google Home or Apple Home, and that the outdoor faucet is within range. A soil moisture sensor is worth adding on sandy or clay soils.",
+      },
+      {
+        question: "Can a smart hose timer run from a rain barrel?",
+        answer: "Only if it's rated for low pressure or you add a pump, because a rain barrel delivers very little pressure by gravity. Many hose timers need a minimum pressure to open their valve, which a barrel sitting on the ground may not reach. Look for a gravity-fed timer, raise the barrel on a stand, or use a small submersible pump switched by the timer. Drip lines suit rain barrel water best; sprinklers need the pressure of your household water supply.",
+      },
+      {
+        question: "What should I do with my smart hose timer in winter?",
+        answer: "Bring it indoors before the first frost, because water left inside can freeze and crack the valve. Unscrew it, drain it, take the batteries out and store it somewhere dry. Drain hoses and drip lines too, and shut off and drain the outdoor faucet from its indoor shutoff valve if it has one, or put an insulated cover over it. In spring, put in fresh batteries and clean the inlet filter before reconnecting.",
+      },
+    ],
+    ca: [
+      {
+        question: "Can I use a smart irrigation system during watering restrictions?",
+        answer: "Usually, as long as you stick to the rules: watering restrictions are set by your municipality and often limit lawn sprinklers to certain days and hours. Drip irrigation and hand watering may be treated differently. Check your municipality's current rules before relying on an exemption, and set the controller to the allowed days and times. Watering cans and rain barrels are usually fine, and a controller with a weather skip helps you use less water.",
+      },
+      {
+        question: "How much water does a sprinkler use?",
+        answer: "Multiply flow by time: a sprinkler delivering 600 litres an hour uses 200 litres in 20 minutes. If you're on a water meter, divide by 1,000 and multiply by the price per cubic metre on your water bill, adding the wastewater charge if it's billed on water used. Drip lines use far less: 30 drippers at 2 litres an hour for an hour is 60 litres. A controller that skips runs after rain avoids wasted cycles.",
+      },
+      {
+        question: "Which smart watering controller should I buy?",
+        answer: "For a hose or drip kit, a hose timer is enough; for an in-ground sprinkler system, choose a multi-zone controller that drives solenoid valves. Pick Wi-Fi through a hub rather than Bluetooth alone, so you can change schedules away from home and use weather skips. Check it works with your system, whether Alexa, Google Home or Apple Home, and that the outdoor faucet is within range. A soil moisture sensor is worth adding on sandy or clay soils.",
+      },
+      {
+        question: "Can a smart hose timer run from a rain barrel?",
+        answer: "Only if it's rated for low pressure or you add a pump, because a rain barrel gives very little pressure by gravity. Many hose timers need a minimum pressure to open their valve, which a barrel standing at ground level may not reach. Look for a gravity-fed timer, raise the barrel on a stand, or use a small submersible pump switched by the timer. Drip lines suit rain barrel water best; sprinklers need the full pressure of your outdoor faucet.",
+      },
+      {
+        question: "What should I do with my hose timer in winter?",
+        answer: "Bring it indoors before the first frost, because water left inside can freeze and crack the valve. Unscrew it, drain it, take the batteries out and store it somewhere dry. Drain hoses and drip lines too, then shut off and drain the outdoor faucet from its valve inside the house if it has one, or install an insulated faucet cover; even a frost-free faucet needs the hose disconnected. In spring, put in fresh batteries and clean the inlet filter before reconnecting.",
       },
     ],
   },
@@ -468,6 +600,72 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
         answer: "Tak, a jeśli światło zakłóca sąsiadowi korzystanie z jego nieruchomości ponad przeciętną miarę, może on powołać się na przepisy o immisjach (art. 144 Kodeksu cywilnego). Reflektory warto kierować w dół i na własną działkę, a mocne lampy wyposażyć w czujnik ruchu z krótkim czasem świecenia. Wyłączanie oświetlenia w nocy według harmonogramu obniża też rachunek i chroni owady oraz nietoperze.",
       },
     ],
+    sv: [
+      {
+        question: "Solcellslampor eller elansluten utomhusbelysning: vad ska jag välja?",
+        answer: "Solcellslampor för att markera en gångväg eller som dekoration utan installation, elansluten belysning för att verkligen lysa upp altanen, entrén eller grinden året runt. En solcellslampa är beroende av solen: på vintern blir lystiden mycket kortare, och ljusstyrkan är ändå blygsam. Elansluten belysning, på 230 V eller lågvolt 12/24 V, ger ett stabilt ljus och styrs enkelt från en app. Den drar lite el: 10 LED-spotar på 5 W som lyser i 4 timmar förbrukar 0,2 kWh per kväll.",
+      },
+      {
+        question: "Vad ska jag tänka på när jag väljer smart utomhusbelysning?",
+        answer: "Kontrollera först kapslingsklassen (minst IP44, IP65 för armaturer som utsätts för regn) och sedan att belysningen fungerar med ditt smarta hem. Zigbee-serier som Philips Hue Outdoor kräver en brygga, wifi-modeller måste nå nätverket ute i trädgården och Matter gör det enklare att blanda märken. Välj varmvitt ljus (2 700–3 000 K), som är behagligare och stör djurlivet mindre, och en ljusstyrka i lumen som passar det du vill lysa upp.",
+      },
+      {
+        question: "Behöver jag en elektriker för att installera trädgårdsbelysning?",
+        answer: "För 230 V bör du anlita en behörig elektriker. Installationen bör skyddas av en jordfelsbrytare på 30 mA, nedgrävda kablar läggs i skyddsrör och kopplingsdosorna måste vara vattentäta. Lågvoltssatser på 12 eller 24 V som ansluts till ett utomhusuttag via sin transformator kan du däremot installera själv. Solcellslampor behöver inte anslutas alls.",
+      },
+      {
+        question: "Rörelsesensor eller skymningsrelä: vad är bäst för utomhusbelysningen?",
+        answer: "För säkerhetsbelysning är en rörelsesensor oftast bäst: ljuset som tänds plötsligt drar uppmärksamhet och förbrukar mycket mindre el än en lampa som lyser hela natten. Låt en svag belysning lysa från skymning till gryning vid gångar och trappor, där det viktigaste är att man ser var man går. Rikta strålkastarna nedåt och mot din egen tomt, aldrig mot grannens fönster, och låt ett schema släcka mitt i natten. Det minskar både elförbrukningen och störningen för grannar, insekter och fladdermöss.",
+      },
+      {
+        question: "Varför tänds inte mina solcellslampor längre?",
+        answer: "Oftast är batteriet slitet eller så får panelen inte längre tillräckligt med sol. Rengör panelen, flytta lampan ur skuggan och kontrollera att strömbrytaren inte står i läge av. Lyser en annan lampa på den på natten tror skymningssensorn att det är dag. I många modeller går det att byta till ett nytt laddningsbart batteri, så länge det har samma batterityp och spänning som originalet. På vintern är det normalt att lystiden blir kortare.",
+      },
+    ],
+    us: [
+      {
+        question: "Do solar outdoor lights work in winter?",
+        answer: "Yes, but expect much shorter run times and dimmer light from November through February, when days are short and the sun sits low. Place the panel where it gets the most direct sun, ideally facing south, or choose lights with a separate panel on a cable so the light itself can stay in the shade. Wipe the panels regularly. For paths, steps or a front door that must be lit every evening, hardwired or low-voltage lights are more reliable.",
+      },
+      {
+        question: "Do I need an electrician to install outdoor lights?",
+        answer: "Not for plug-in low-voltage kits, but 120 V outdoor wiring should be done by a licensed electrician and protected by a GFCI. Adding a new outdoor circuit is a job to hire out, and you should check whether your area requires a permit. Use outdoor-rated cable and fixtures, with direct-burial cable or conduit where it runs underground.",
+      },
+      {
+        question: "What should I look for in smart outdoor lights?",
+        answer: "Check the IP rating first, IP44 at a minimum and IP65 for fixtures exposed to driving rain, then make sure they work with your smart home system. Zigbee ranges such as Philips Hue need a bridge, Wi-Fi lights need a strong signal at the back of the yard, and Matter makes it easier to mix brands. Choose warm white around 2,700–3,000 K, check the lumen output for the job, and aim fixtures downward so you don't dazzle the neighbors.",
+      },
+      {
+        question: "How much do outdoor LED lights cost to run?",
+        answer: "Very little per evening: ten 5 W LED spotlights on for four hours use 0.2 kWh, about 4 cents at an example rate of 20 cents per kWh. Dusk-to-dawn lighting costs much more in winter, when it can stay on for well over 12 hours a night in December. Add up the wattage, then multiply by the hours and by the rate on your utility bill. Motion sensors and schedules that turn the lights off at midnight cut both the bill and the light spilling into your neighbors' yards.",
+      },
+      {
+        question: "Motion sensor or dusk-to-dawn: which is better for security lighting?",
+        answer: "Motion sensors are usually better for security: a light that turns on suddenly draws attention, and it uses far less electricity than one left on all night. Keep low-level dusk-to-dawn lighting for paths and steps, where safety matters more than deterrence. Aim sensors away from the sidewalk and street to avoid constant triggering, and angle the beam downward. Glare into a neighbor's windows is a common source of disputes, so check any local or HOA lighting rules.",
+      },
+    ],
+    ca: [
+      {
+        question: "Do solar outdoor lights work in winter?",
+        answer: "Yes, but expect much shorter run times and dimmer light from November to February, when days are short and the sun sits low, and a panel covered in snow won't charge at all. Place the panel where it gets the most direct sun, ideally facing south, or choose lights with a separate panel on a cable so the light itself can stay in the shade. Wipe or brush off the panels regularly. For paths, steps or a front door that must be lit every evening, hardwired or low-voltage wired lights are more reliable.",
+      },
+      {
+        question: "Do I need an electrician to install outdoor lights?",
+        answer: "Not for plug-in low-voltage kits, but 120 V outdoor wiring should be done by a licensed electrician and protected by a GFCI. Electrical work rules, including when you need a permit, are set by each province and territory, so check before you start. Use outdoor-rated cable and fixtures, and conduit or cable rated for direct burial where it runs underground.",
+      },
+      {
+        question: "What should I look for in smart outdoor lights?",
+        answer: "Check the IP rating first, IP44 at minimum and IP65 for fixtures exposed to driving rain, then make sure they work with your smart home system. Zigbee ranges such as Philips Hue need a bridge, Wi-Fi lights need a good signal at the back of the yard, and Matter makes mixing brands easier. Choose warm white around 2,700–3,000 K, check the lumen output for the job, and point fixtures downward to avoid glare for your neighbours.",
+      },
+      {
+        question: "How much do outdoor LED lights cost to run?",
+        answer: "Very little per evening: ten 5 W LED spotlights on for four hours use 0.2 kWh, about 2¢ at an example rate of 10¢ per kWh. Dusk-to-dawn lighting costs much more in winter, when it can stay on for over 15 hours a night in December. Add up the wattage, multiply by hours and by your rate per kWh. Motion sensors and schedules that switch off at midnight cut both the bill and the light spilling into neighbours' yards.",
+      },
+      {
+        question: "Motion sensor or dusk-to-dawn: which is better for security lighting?",
+        answer: "Motion sensors are usually better for security: a light that switches on suddenly draws attention, and it uses far less electricity than one left on all night. Keep low-level dusk-to-dawn lighting for paths and steps, where safety matters more than deterrence. Aim sensors away from the sidewalk and street to avoid constant triggering, and angle the beam downward. Badly aimed lights annoy neighbours, and some municipalities have bylaws on light trespass.",
+      },
+    ],
   },
   "portails-garages": {
     fr: [
@@ -622,6 +820,72 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       {
         question: "Jak otworzyć bramę automatyczną, gdy nie ma prądu?",
         answer: "Odblokuj napęd kluczem lub dźwignią awaryjną i otwórz bramę ręcznie. Klucz do odblokowania trzymaj w miejscu znanym domownikom, bo bez niego brama pozostaje zablokowana. W garażu bez drugiego wejścia przydaje się odblokowanie awaryjne od zewnątrz. Wielu producentów oferuje akumulator awaryjny, który pozwala wykonać kilka cykli bez zasilania. Po powrocie prądu napęd trzeba ponownie zablokować.",
+      },
+    ],
+    sv: [
+      {
+        question: "Min eldrivna grind öppnas men stängs inte: vad gör jag?",
+        answer: "Kontrollera först fotocellerna: om de är smutsiga, felriktade eller skyms av en växt blockerar de stängningen av säkerhetsskäl, medan öppningen fungerar som vanligt. Rengör båda linserna, ta bort det som är i vägen och titta på mottagarens indikatorlampa, som ofta visar om cellerna är rätt inriktade. Kontrollera också batterierna i trådlösa fotoceller, ändlägesstoppen och en eventuell felkod på styrkortet. Kvarstår problemet, ring installatören i stället för att koppla förbi en säkerhetsfunktion.",
+      },
+      {
+        question: "Kan jag göra min befintliga garageport eller grind smart?",
+        answer: "Ja, oftast: det enklaste är en wifi-modul som kopplas till den befintliga motorns ingång för tryckknapp, en så kallad potentialfri kontakt. Vissa märken säljer en egen styrenhet, som Somfy med TaHoma eller myQ för Chamberlain och LiftMaster, medan universalmoduler passar de flesta motorer. Välj en modell med lägessensor, så att du ser på distans om porten är öppen eller stängd, och kontrollera att wifi når ända ut till grinden och att modulen fungerar med Alexa, Google Home eller Apple Home.",
+      },
+      {
+        question: "Är det säkert att öppna garageporten från mobilen?",
+        answer: "Ja, om kontot är väl skyddat och motorn behåller sina säkerhetsfunktioner: fotoceller och hinderavkänning. Slå på tvåstegsverifiering i appen, ge tillfällig gäståtkomst i stället för att dela dina inloggningsuppgifter och låt notiserna vid öppning vara påslagna. Stäng aldrig en garageport du inte ser om de säkerhetsfunktionerna saknas, eftersom ett barn eller ett djur kan befinna sig under den. Automatisk öppning när mobilen känner av att du närmar dig är praktisk men kan utlösas för tidigt.",
+      },
+      {
+        question: "Varför har fjärrkontrollen till garageporten slutat fungera?",
+        answer: "Oftast är batteriet slut eller så har fjärrkontrollen tappat parkopplingen med motorn. Byt batteri och parkoppla sedan om fjärrkontrollen med inlärningsknappen på motorenheten, enligt bruksanvisningen. Har räckvidden plötsligt minskat, se efter om nya LED-lampor eller andra apparater har hamnat nära öppnaren, eftersom vissa orsakar radiostörningar. En ny fjärrkontroll måste ha samma frekvens och kodsystem som öppnaren; fjärrkontroller med rullande kod parkopplas vid motorn i stället för att kopieras.",
+      },
+      {
+        question: "Hur öppnar jag grinden eller garageporten vid strömavbrott?",
+        answer: "Koppla ur motorn med den medföljande upplåsningsnyckeln och öppna sedan för hand. Förvara nyckeln på en plats som hela familjen känner till, för utan den sitter grinden fast. Har garaget ingen annan ingång slipper du bli utelåst med en utvändig nödupplåsning eller ett reservbatteri, som många tillverkare erbjuder som tillval. När strömmen kommer tillbaka kopplar du in motorn igen och låter den göra om sin inlärning om bruksanvisningen kräver det.",
+      },
+    ],
+    us: [
+      {
+        question: "Can I make my existing garage door opener smart?",
+        answer: "Usually, yes: an add-on controller wires into the opener's wall-button terminals and adds app control without replacing the motor. Some brands sell their own add-on, such as myQ for Chamberlain and LiftMaster openers, while universal controllers work with most openers that have a dry-contact input. Pick one with a door position sensor so the app shows whether the door is open or closed, and make sure your Wi-Fi reaches the garage. Older openers without wall-button terminals may need to be replaced.",
+      },
+      {
+        question: "My gate or garage door opens but won't close: what should I do?",
+        answer: "Check the photo-eye sensors first: if they're dirty, out of alignment or blocked by a plant or a box, the opener refuses to close for safety reasons, even though opening still works. Clean both lenses, clear anything in the beam and look at the indicator light on the receiving sensor, which usually shows whether the pair is aligned. Also check the batteries in any wireless sensors, the travel limit settings and any error code on the control board. If the problem persists, call an installer rather than bypassing a safety device.",
+      },
+      {
+        question: "Is a smart garage door opener secure?",
+        answer: "Yes, as long as you secure the app account and keep the opener's own safety features working. Use a strong password with two-factor authentication, share temporary guest access instead of your login, and leave open-and-close notifications on. Modern remotes use rolling codes, which makes copying the signal much harder. Don't close the door remotely when you can't see it unless the photo-eye sensors and auto-reverse obstacle detection are in place and working, since a child or pet could be underneath.",
+      },
+      {
+        question: "Why did my garage door remote stop working?",
+        answer: "Most often the battery is dead or the remote has lost its pairing with the opener. Replace the battery, then re-pair the remote using the Learn button on the motor unit, following the manual. If the range has dropped suddenly, look for new LED bulbs or other devices near the opener, since some cause radio interference. A replacement remote must match the opener's frequency and code system; rolling-code remotes are paired at the motor rather than cloned.",
+      },
+      {
+        question: "Do I need an electrician to install a garage door opener?",
+        answer: "Not if it plugs into an existing outlet near the motor; running a new circuit to the garage is a job for a licensed electrician, so check whether your area requires a permit. Garage outlets should have GFCI protection. Before installing, make sure the door is well balanced and the opener has a manual release, so you can still open it during a power outage. If the garage has no other entrance, an outside release kit or a battery backup, which many manufacturers offer as an option, keeps you from getting locked out.",
+      },
+    ],
+    ca: [
+      {
+        question: "Can I make my existing garage door opener smart?",
+        answer: "Usually yes: an add-on controller wires into the opener's push-button terminals and adds app control without replacing the motor. Some brands sell their own add-on, such as myQ for Chamberlain and LiftMaster openers, while universal controllers fit most motors with a dry-contact input. Choose one with a door position sensor so the app shows whether the door is open or closed, and check that your Wi-Fi reaches the garage. Older openers without push-button terminals may need replacing.",
+      },
+      {
+        question: "Tilt-up, roll-up or sectional: which garage door suits a smart opener?",
+        answer: "All three can be motorized and made smart; the choice depends on driveway space, insulation and the size of the opening. One-piece tilt-up doors swing partly outward, so you need clear space in front, while roll-up and sectional doors open straight up and suit short driveways. Sectional doors usually insulate best, which matters for an attached garage. Roll-up doors need little headroom, although the drum takes up space above the opening.",
+      },
+      {
+        question: "Is a smart garage door opener secure?",
+        answer: "Yes, as long as you secure the app account and keep the opener's own safety features working. Use a strong password with two-factor authentication, share temporary guest access instead of your login, and keep open-and-close notifications on. Modern remotes use rolling codes, which makes copying the signal much harder. Don't close the door remotely without seeing it unless photo-eye sensors and obstacle detection are installed and working.",
+      },
+      {
+        question: "Why did my garage door remote stop working?",
+        answer: "Most often the battery is dead or the remote has lost its pairing with the opener. Replace the battery, then re-pair the remote using the learn button on the motor unit, following the manual. If the range has dropped suddenly, check for new LED bulbs or other devices near the opener, as some cause radio interference. A replacement remote must match the opener's frequency and code system; rolling-code remotes are paired at the motor rather than copied.",
+      },
+      {
+        question: "Do I need an electrician to install a garage door opener?",
+        answer: "Not if it plugs into an existing outlet near the motor; running a new circuit to the garage is a job for a licensed electrician. Electrical work rules are set by each province and territory, so check what applies where you live before changing any wiring. Garage outlets should have ground-fault (GFCI) protection. Before installing, make sure the door is well balanced and the opener has a manual release, so you can still open it during a power outage.",
       },
     ],
   },
@@ -780,6 +1044,72 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
         answer: "Robota trzeba dokładnie umyć, wysuszyć i przechowywać w pomieszczeniu, w którym nie ma mrozu. Filtr i szczotki warto wypłukać czystą wodą, a kabel rozwinąć i sprawdzić, czy nie jest uszkodzony. W modelu akumulatorowym akumulator przechowuje się z poziomem naładowania zalecanym w instrukcji i co kilka miesięcy doładowuje. Mróz w garażu lub altanie może uszkodzić uszczelki i elektronikę.",
       },
     ],
+    sv: [
+      {
+        question: "Poolrobot: bara botten eller även väggar och vattenlinje?",
+        answer: "Välj en robot som klarar botten, väggar och vattenlinje till en nedgrävd pool, eftersom det är vid vattenlinjen som fettranden sätter sig; bara botten räcker för en ovanmarkspool eller en liten bassäng. En robot som klättrar tar också bort gröna beläggningar i hörnen och minskar borstningen för hand. Modeller för bara botten är billigare och lättare. Kontrollera maxdjupet, vilka ytor den klarar (liner, kakel, glasfiber) och hur lång en rengöringscykel är.",
+      },
+      {
+        question: "Sladdlös poolrobot eller robot med kabel: vilken ska jag välja?",
+        answer: "Sladdlös för en liten eller medelstor pool och enkel hantering, med kabel för en stor pool eller en grundlig rengöring på flera timmar. Den sladdlösa slipper kabeln som trasslar sig, men batteriet begränsar cykelns längd och måste laddas utanför vattnet. En robot med kabel går så länge det behövs och klättrar ofta bättre på väggarna. Nätaggregatet ska stå minst så långt från poolen som bruksanvisningen anger och kopplas till ett uttag med jordfelsbrytare på 30 mA.",
+      },
+      {
+        question: "Hur mycket el drar en poolrobot?",
+        answer: "Lite: en robot på 150 W som kör en cykel på 2 timmar förbrukar 0,3 kWh, ca 80 öre med ett exempelpris på 2,75 kr/kWh. Med tre cykler i veckan under säsongen stannar kostnaden vid några tiotal kronor. Har ditt elavtal ett pris som varierar över dygnet, kör cyklerna när elen är som billigast. Roboten ersätter inte poolens filterpump, som är den överlägset största elposten. Ditt eget elpris står på elräkningen.",
+      },
+      {
+        question: "Vilken poolrobot passar en ovanmarkspool?",
+        answer: "Till en rampool eller en uppblåsbar pool väljer du en lätt robot för bara botten som tål mjuka väggar; till en stabil ovanmarkspool i trä eller stål går det bra med en modell som klättrar. Kontrollera att tillverkaren godkänner roboten för ovanmarkspooler och vilket minsta vattendjup den kräver. På en mjuk liner kan en för tung robot deformera väggarna eller halka. Med en sladdlös modell slipper du dra kabeln över kanten, som ofta är hög på de här poolerna.",
+      },
+      {
+        question: "Kan poolroboten ligga kvar i poolen hela tiden?",
+        answer: "Nej, ta upp den efter varje cykel: klor, salt och UV-ljus sliter snabbare på borstar, packningar och kabel. Töm och skölj filtret i rent vatten och låt sedan roboten torka i skuggan på sin vagn. Bada inte medan den är igång. Inför vintern rengör du den grundligt och förvarar den frostfritt, och är det en sladdlös modell förvarar du batteriet på den laddningsnivå som bruksanvisningen anger.",
+      },
+    ],
+    us: [
+      {
+        question: "Do I need a robot for an above-ground pool?",
+        answer: "Only if you use the pool a lot: for a metal-frame or inflatable pool, a light floor-only robot saves you weekly vacuuming, but a manual vacuum is enough for occasional summer use. Make sure the manufacturer approves the robot for above-ground pools and soft walls, since heavy wall-climbers can deform the liner. A cordless model avoids running a cable over a tall pool wall. For in-ground pools, a robot is far more worthwhile because it also handles the walls and the waterline.",
+      },
+      {
+        question: "Floor-only or floor, wall and waterline: which pool robot?",
+        answer: "Floor, wall and waterline for an in-ground pool, because the greasy ring forms at the waterline; floor-only is enough for small or above-ground pools. A climbing robot also clears algae spots in the corners and cuts down on hand brushing. Floor-only models are lighter and cheaper. Check the maximum depth, the surfaces the robot can handle, such as vinyl liner, tile or fiberglass, and how long a full cycle takes.",
+      },
+      {
+        question: "Cordless or corded pool robot?",
+        answer: "Cordless suits small to medium pools and easy handling; corded suits large pools and long, thorough cleaning cycles. A cordless robot has no cable to tangle, but its battery limits cycle length and must be recharged out of the water. A corded robot runs as long as needed and usually climbs walls better. Its power supply has to sit at the minimum distance from the pool edge given in the manual, plugged into a GFCI-protected outdoor outlet.",
+      },
+      {
+        question: "How much does a pool robot cost to run?",
+        answer: "Very little: a 150 W robot running a two-hour cycle uses 0.3 kWh, about 6 cents at an example rate of 20 cents per kWh (check the rate on your utility bill). Three cycles a week over a swim season adds up to just a few dollars. If you're on a time-of-use rate plan, run it at night to pay even less. The robot has its own filter but doesn't replace the pool's filter pump, which remains by far the biggest electricity cost.",
+      },
+      {
+        question: "How should I store a pool robot over the winter?",
+        answer: "Clean it thoroughly, let it dry and store it indoors somewhere it won't freeze until you open the pool again. Rinse the filter and brushes with fresh water, uncoil and inspect the cable on corded models, and keep the robot on its caddy out of direct sunlight. For cordless robots, store the battery at the charge level the manual recommends and top it up every few months. Before spring, check the brushes and tracks for wear.",
+      },
+    ],
+    ca: [
+      {
+        question: "Do I need a robot for an above-ground pool?",
+        answer: "Only if you use it often: for a frame or inflatable pool, a light floor-only robot saves weekly vacuuming, but a manual vacuum is enough for occasional summer use. Check that the manufacturer approves the robot for above-ground pools and soft walls, as heavy wall-climbers can deform the liner. A cordless model avoids running a cable over a high pool edge. For in-ground pools, a robot is far more worthwhile because it also handles walls and the waterline.",
+      },
+      {
+        question: "Floor-only or floor, wall and waterline: which pool robot?",
+        answer: "Floor, wall and waterline for an in-ground pool, because the greasy ring forms at the waterline; floor-only is enough for small or above-ground pools. A climbing robot also clears algae spots in corners and reduces hand brushing. Floor-only models are lighter and cheaper. Check the maximum depth, the surfaces the robot handles, such as liner, tiles or fibreglass, and how long a full cycle takes.",
+      },
+      {
+        question: "Cordless or corded pool robot?",
+        answer: "Cordless suits small to medium pools and easy handling; corded suits large pools and long, thorough cleans. A cordless robot has no tangling cable, but its battery limits cycle length and must be recharged out of the water. A corded robot runs as long as needed and usually climbs walls more strongly. Its power supply must stay at the minimum distance from the pool edge given in the manual, plugged into a GFCI-protected outdoor outlet.",
+      },
+      {
+        question: "How much does a pool robot cost to run?",
+        answer: "Very little: a 150 W robot running a two-hour cycle uses 0.3 kWh, about 3¢ at an example rate of 10¢ per kWh. Three cycles a week over the pool season add up to only a dollar or two. Your actual rate depends on your province and utility, so check your bill; if you have time-of-use rates, run it overnight to pay even less. The robot has its own filter but doesn't replace the pool's filter pump, which remains the main electricity cost.",
+      },
+      {
+        question: "How should I store a pool robot over winter?",
+        answer: "Clean it thoroughly, let it dry and store it indoors somewhere frost-free until the pool reopens. Rinse the filter and brushes with fresh water, uncoil and check the cable on corded models, and keep it on its caddy away from direct sunlight. For cordless robots, store the battery at the charge level the manual recommends and top it up every few months. Before spring, check the brushes and tracks for wear.",
+      },
+    ],
   },
   "barbecues-connectes": {
     fr: [
@@ -934,6 +1264,72 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       {
         question: "Jak czyścić grill na pellet?",
         answer: "Co kilka użyć usuń popiół z paleniska i wyczyść tackę na tłuszcz: nagromadzony popiół utrudnia rozpalanie, a tłuszcz może się zapalić. Zimny popiół najszybciej usuniesz odkurzaczem do popiołu. Pellet przechowuj w suchym, zamkniętym miejscu, bo wilgotny pęcznieje i blokuje podajnik. Na zimę warto opróżnić zasobnik, przykryć grill pokrowcem i zainstalować aktualizacje aplikacji.",
+      },
+    ],
+    sv: [
+      {
+        question: "Pelletsgrill eller gasolgrill: vilken ska jag välja?",
+        answer: "Pelletsgrill för långsam tillagning med röksmak som du styr från en app, gasolgrill för att grilla snabbt och bryna på hög värme. En pelletsgrill fungerar som en automatisk vedugn: en matarskruv doserar pelletsen efter den temperatur du ställt in, perfekt för en fläskbog eller revbensspjäll som ska tillagas i flera timmar. Den behöver ett eluttag och tar längre tid att bli varm. Gasolgrillen är klar på några minuter och passar bättre för snabb grillning i vardagen.",
+      },
+      {
+        question: "Stekhäll på gasol eller el: vad passar på balkongen och altanen?",
+        answer: "På en balkong är en elektrisk stekhäll ofta det enda som är tillåtet; på altanen till ett hus värmer en gasolhäll kraftigare och snabbare. Bor du i flerbostadshus, läs föreningens eller hyresvärdens regler: vissa förbjuder kolgrill, ibland även gasol, på balkongen. En elektrisk stekhäll behöver tillräcklig effekt, ofta 2 000 W eller mer, och ett utomhusuttag som skyddas av en jordfelsbrytare på 30 mA. En häll i emaljerat gjutjärn eller tjockt rostfritt stål håller värmen bättre än tunt stål.",
+      },
+      {
+        question: "Hur mycket pellets går åt i en pelletsgrill?",
+        answer: "Räkna med ungefär 0,5 kg i timmen vid rökning på låg temperatur och över 1 kg i timmen på full värme, mer när det är kallt eller blåsigt. En tillagning på 6 timmar på låg temperatur kan alltså kräva 3–4 kg pellets. Använd grillpellets, inte eldningspellets för uppvärmning, som inte är gjorda för matlagning. Elförbrukningen är liten: tändelementet drar några hundra watt i några minuter, därefter drar fläkten och matarskruven bara lite.",
+      },
+      {
+        question: "Är en trådlös stektermometer till grillen värd pengarna?",
+        answer: "Ja, för stora köttbitar och långa tillagningar: den mäter kärntemperaturen och larmar i mobilen utan att du behöver öppna locket. Givare med Bluetooth har begränsad räckvidd, som snabbt minskar genom väggar; med en wifi-brygga kan du följa tillagningen var du än är. En helt trådlös givare sticks in hel i köttet, vilket är praktiskt när du grillar på spett. Fågel ska vara genomstekt, runt 74 °C i den tjockaste delen.",
+      },
+      {
+        question: "Hur sköter jag pelletsgrillen så att den tänder som den ska?",
+        answer: "Töm askan ur brännkoppen och rengör fettråget regelbundet: aska och fett är två vanliga orsaker till dålig tändning och till brand i grillen. En askdammsugare för kall aska gör jobbet på några minuter efter varannan eller var tredje grillning. Förvara pelletsen torrt: fuktiga pellets sväller och blockerar matarskruven. Skydda grillen med ett överdrag och installera uppdateringarna i appen, som ibland förbättrar temperaturregleringen.",
+      },
+    ],
+    us: [
+      {
+        question: "Is a smart pellet grill worth it?",
+        answer: "Yes, if you enjoy low-and-slow cooking and have an outdoor outlet; less so if you mostly grill burgers and hot dogs in a hurry. A pellet grill holds a set temperature for hours and lets you monitor it from your phone, which helps on cool, windy days. It has to be plugged in, takes longer to heat up than gas and should be covered when not in use, since rain and moisture ruin pellets. Check the hopper size if you plan long cooks.",
+      },
+      {
+        question: "How much does a pellet grill cost to run?",
+        answer: "Mostly the pellets: expect roughly 1 lb (0.5 kg) an hour for low-and-slow smoking and over 2 lb (1 kg) an hour at high heat, more in cold or windy weather. A six-hour cook at low temperature typically needs 7 to 9 lb (3 to 4 kg), so multiply by the price of your bag of food-grade grilling pellets (not heating pellets). Electricity is minor: the igniter draws a few hundred watts for a few minutes, then the fan and auger use little.",
+      },
+      {
+        question: "Can I use a pellet grill under a gazebo or in a garage?",
+        answer: "Never in a garage or any enclosed space, because burning pellets produce carbon monoxide; a gazebo is only OK if it's open on the sides and well clear of the grill. Follow the clearances in the manual, both above and around the grill, and keep it away from fences, sheds and the side of the house. Plug into a GFCI-protected outdoor outlet rather than running an extension cord through a window. In the rain, a grill cover between cooks is safer than cooking under a fabric canopy.",
+      },
+      {
+        question: "Wireless meat thermometer: Bluetooth or Wi-Fi?",
+        answer: "Wi-Fi if you want to check on the cook from anywhere, Bluetooth if you stay in the backyard or kitchen. Bluetooth range drops sharply through walls, so many fully wireless probes use a base unit that relays to Wi-Fi. Choose a probe rated for the grill's ambient temperature. For poultry, aim for 165°F (74°C) in the thickest part of the meat.",
+      },
+      {
+        question: "Why won't my pellet grill light or stay lit?",
+        answer: "Usually because of damp pellets, a fire pot full of ash or a failed igniter. Empty the fire pot and vacuum out the cold ash, make sure the pellets are dry and not crumbling into dust, and check that the auger is feeding. If the grill keeps flaming out mid-cook, wet pellets or an empty hopper are the usual suspects. If nothing glows at startup, the igniter rod may need replacing, a common and inexpensive part.",
+      },
+    ],
+    ca: [
+      {
+        question: "Is a smart pellet grill worth it?",
+        answer: "Yes if you enjoy low-and-slow cooking and have an outdoor outlet; less so if you mainly grill burgers and hot dogs in a hurry. A pellet grill holds a set temperature for hours and lets you monitor it from your phone, which helps on cold, windy days. It has to be plugged in, takes longer to heat up than gas and should be covered when not in use, as rain and moisture ruin pellets. Check the hopper size for long cooks.",
+      },
+      {
+        question: "How much does a pellet grill cost to run?",
+        answer: "Mostly the pellets: expect roughly 0.5 kg (about 1 lb) an hour for low-and-slow smoking and over 1 kg (about 2 lb) an hour at high heat, more in cold or windy weather. A six-hour cook at low temperature typically needs 3 to 4 kg (about 7 to 9 lb), so multiply by the price of your bag of food-grade pellets. Electricity is minor: the igniter draws a few hundred watts for a few minutes, then the fan and auger use little.",
+      },
+      {
+        question: "Can I use a pellet grill under a gazebo or in a garage?",
+        answer: "Never in a garage or any enclosed space, because burning pellets produce carbon monoxide; a gazebo is only acceptable if it is open-sided and well clear of the grill. Follow the clearance distances in the manual, both above and around the grill, and keep it away from fences and sheds. Plug it into a GFCI-protected outdoor outlet rather than running an extension cord through a window. In rain, a snug-fitting grill cover between cooks is safer than cooking under a fabric canopy.",
+      },
+      {
+        question: "Wireless meat thermometer: Bluetooth or Wi-Fi?",
+        answer: "Wi-Fi if you want to check the cook from anywhere, Bluetooth if you stay in the backyard or kitchen. Bluetooth range drops sharply through walls, so many fully wireless probes use a base unit that relays to Wi-Fi. Choose a probe rated for the grill's ambient temperature. For poultry, aim for at least 74°C (165°F) in the thickest part, with no pink meat and juices running clear.",
+      },
+      {
+        question: "Why won't my pellet grill light or stay lit?",
+        answer: "Usually because of damp pellets, a fire pot full of ash or a failed igniter. Empty the fire pot and vacuum out cold ash, check that the pellets are dry and not crumbling to dust, and make sure the auger is feeding. If the grill keeps flaming out mid-cook, wet pellets or an empty hopper are the usual suspects. If nothing glows at startup, the igniter rod may need replacing, a common and inexpensive part.",
       },
     ],
   },
@@ -1092,6 +1488,72 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
         answer: "Według producentów akumulator LiFePO4 wytrzymuje zwykle co najmniej 3000 cykli, zanim jego pojemność spadnie do 80%, a akumulator NMC – od kilkuset do około tysiąca. NMC jest za to lżejszy przy tej samej pojemności. Stację najlepiej przechowywać naładowaną w 50–80%, w temperaturze dodatniej i z dala od słońca, doładowując ją co trzy miesiące. Mróz w garażu i upał w samochodzie skracają żywotność akumulatora.",
       },
     ],
+    sv: [
+      {
+        question: "Hur stor portabel kraftstation behöver jag?",
+        answer: "Räkna ut ditt behov, varje apparats effekt i watt gånger antalet timmar, och lägg till ungefär 20 % för omvandlingsförluster. Exempel: en kylbox på 60 W i 10 timmar (600 Wh) och en bärbar dator på 50 W i 3 timmar (150 Wh) kräver 750 Wh, alltså en kraftstation på ca 900 Wh. Kontrollera också uteffekten i watt, som måste vara högre än den mest krävande apparatens effekt, med marginal för effekttoppen vid start.",
+      },
+      {
+        question: "Portabel kraftstation eller elverk: vad ska jag välja?",
+        answer: "Välj kraftstation för tyst drift utan avgaser, även inomhus, och elverk när du behöver hög effekt i flera dagar. En kraftstation laddas från elnätet, i bilen eller med solpaneler och kan användas i tältet, husbilen eller vardagsrummet utan risk för koloxidförgiftning. Ett bensindrivet elverk avger koloxid och får aldrig stå i ett garage eller ett stängt rum. Det passar ändå bättre för ett bygge eller ett långt strömavbrott med många apparater.",
+      },
+      {
+        question: "Vad kostar det att ladda en portabel kraftstation?",
+        answer: "Drygt 3 kr för en kraftstation på 1 000 Wh: med förlusterna drar laddningen ca 1,1–1,2 kWh, alltså ca 3,00–3,30 kr med ett exempelpris på 2,75 kr/kWh. Har ditt elavtal billigare el på natten, ladda den då. Med en portabel solpanel är energin gratis men laddningen tar längre tid: en panel på 200 W ger bara full effekt i stark sol och betydligt mindre när det är mulet. Ditt eget elpris står på elräkningen.",
+      },
+      {
+        question: "Kan jag koppla kraftstationen till husets elsystem?",
+        answer: "Inte direkt i elcentralen: utan en reservkraftomkopplare som installerats av en behörig elektriker riskerar kraftstationen att mata ut ström på elnätet, vilket är farligt för dem som arbetar på ledningarna och inte är tillåtet. Det enklaste är att koppla in apparaterna i kraftstationens egna uttag, till exempel routern, frysen eller värmepannan. Vissa kraftstationer fungerar som UPS (avbrottsfri kraft) och kopplar om på några millisekunder vid strömavbrott: kontrollera omkopplingstiden om du vill skydda en dator.",
+      },
+      {
+        question: "LiFePO4 eller NMC: hur länge håller en kraftstation?",
+        answer: "Välj LiFePO4: tillverkarna anger ofta 3 000 cykler eller fler för sådana batterier innan kapaciteten sjunker till 80 %, mot några hundra till tusen cykler för NMC. NMC är lättare vid samma kapacitet, vilket är en fördel på vandring eller i en liten modell. För att batteriet ska hålla länge, förvara det med 50–80 % laddning, frostfritt och skyddat från värme, och ladda det var tredje månad om det inte används.",
+      },
+    ],
+    us: [
+      {
+        question: "What size portable power station do I need?",
+        answer: "Add up watts × hours for everything you'll run, then add about 20% for conversion losses. For example, a 60 W electric cooler for 10 hours (600 Wh) plus a 50 W laptop for 3 hours (150 Wh) comes to 750 Wh, so look for around 900 Wh. Also make sure the continuous output in watts covers your most demanding appliance, including its startup surge. For a long service life, a LiFePO4 battery is the better choice, usually rated for thousands of cycles.",
+      },
+      {
+        question: "Can a portable power station run a CPAP machine during a power outage?",
+        answer: "Yes, most can: a CPAP using 40 W for an eight-hour night needs about 320 Wh, plus more if the heated humidifier is on. Check your machine's actual power draw, and use a DC cord where the manufacturer offers one, since that wastes less energy than the AC inverter. If you rely on medical equipment, choose a station that covers more than one night and keep it charged, because outages can last longer than expected.",
+      },
+      {
+        question: "How much does it cost to charge a portable power station?",
+        answer: "Very little: fully charging a 1,000 Wh unit takes about 1.1 to 1.2 kWh with losses, roughly 22 to 24 cents at an example rate of 20 cents per kWh. Check the rate on your utility bill. On a time-of-use rate plan, charge it overnight for less. Solar charging is free but slower: a 200 W portable panel only reaches its rating in full sun and produces much less on cloudy or winter days. Charging from a car's 12 V outlet is handy on the road but slow.",
+      },
+      {
+        question: "Can I take a portable power station on a plane?",
+        answer: "Almost never: lithium batteries over 160 Wh are banned on passenger aircraft, and most power stations are well above that. Batteries between 100 and 160 Wh need the airline's approval and must travel in the cabin, not in checked bags. A power bank under 100 Wh is fine in your carry-on. For trips abroad, plan to rent a power station at your destination or bring only a solar panel.",
+      },
+      {
+        question: "Portable power station or gas generator for camping?",
+        answer: "A power station for most camping: it's silent, fume-free and safe inside a tent or camper van, which a gas generator never is, because it produces carbon monoxide. Many campgrounds restrict or ban generators because of the noise, so check the rules before you go. A generator only makes sense for heavy loads over several days without an electrical hookup. Paired with a portable solar panel, a power station can keep phones, lights and an electric cooler running through a long weekend.",
+      },
+    ],
+    ca: [
+      {
+        question: "What size portable power station do I need?",
+        answer: "Add up watts × hours for everything you'll run, then add about 20% for conversion losses. For example, a 60 W electric cooler for 10 hours (600 Wh) plus a 50 W laptop for 3 hours (150 Wh) is 750 Wh, so look for around 900 Wh. Also check that the continuous output in watts covers your most demanding appliance, including its startup surge. For long life, a LiFePO4 battery is the better choice, usually rated for thousands of cycles.",
+      },
+      {
+        question: "Can a portable power station run a CPAP machine during a power outage?",
+        answer: "Yes, most can: a CPAP using 40 W for an eight-hour night needs about 320 Wh, plus more if the humidifier is on. Check your machine's actual consumption, and use a DC cord where the manufacturer offers one, as that wastes less energy than the AC inverter. If you rely on medical equipment, keep the station fully charged, plan for outages that last more than one night and keep your utility's outage number handy.",
+      },
+      {
+        question: "How much does it cost to charge a portable power station?",
+        answer: "Very little: fully charging a 1,000 Wh unit takes about 1.1 to 1.2 kWh with losses, around 11 to 12¢ at an example rate of 10¢ per kWh. Your rate depends on your province and utility, so check your bill; with time-of-use rates, charge it overnight for less. Solar charging is free but slower: a 200 W portable panel only reaches its rating in full sun, which is rare on short winter days. Charging from a car's 12 V outlet is handy on the road but slow.",
+      },
+      {
+        question: "Can I take a portable power station on a plane?",
+        answer: "Almost never: lithium batteries over 160 Wh are banned from passenger aircraft, and most power stations are well above that. Batteries between 100 and 160 Wh need the airline's approval and must travel in the cabin, not in checked baggage. A power bank under 100 Wh is fine in your carry-on. For trips abroad, plan to rent a power station at your destination or bring only a solar panel.",
+      },
+      {
+        question: "Portable power station or gas generator for camping?",
+        answer: "A power station for most camping: it's silent, fume-free and safe inside a tent or camper van, which a gas generator never is. Many campgrounds restrict or ban generators because of noise, so check the rules before you go. A generator only makes sense for heavy loads over several days without an electrical hookup. Paired with a portable solar panel, a power station can keep phones, lights and a cooler going for a long weekend.",
+      },
+    ],
   },
   "alarmes-exterieures": {
     fr: [
@@ -1246,6 +1708,72 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       {
         question: "Na jak długo wystarczają baterie w czujnikach zewnętrznych?",
         answer: "Zwykle od roku do kilku lat, w zależności od tego, jak często czujnik się wyzwala i jak mroźna jest zima. Mróz skraca żywotność ogniw litowych, a czujnik przy ruchliwej ścieżce zużywa więcej energii. Większość systemów ostrzega w aplikacji o słabej baterii i wtedy warto ją od razu wymienić. Dobrze mieć zapasową baterię dokładnie takiego typu, jak podaje instrukcja, bo wiele czujników używa mniej popularnych ogniw litowych.",
+      },
+    ],
+    sv: [
+      {
+        question: "Varför ger min utomhussensor falsklarm?",
+        answer: "Oftast beror det på djur, växtlighet som rör sig eller sol som värmer upp det bevakade området. Rikta sensorn mot en öppen yta, aldrig mot gatan, en häck eller soluppgången, och sänk känsligheten. Modeller med dubbelteknik, infraröd och mikrovåg, larmar bara när båda sensorerna känner av rörelse, vilket ger färre falsklarm. Klipp grenar i närheten och ta bort spindelväv från linsen.",
+      },
+      {
+        question: "Vilken utomhussensor passar om jag har katt eller hund?",
+        answer: "En husdjursimmun sensor, inställd efter djurets vikt och monterad på den höjd som tillverkaren anger. Immuniteten bygger på att sensorn ignorerar små kroppar nära marken: en hund som hoppar upp på en mur kan ändå utlösa larmet. På en fasad bevakar en så kallad ridådetektor bara en smal remsa längs väggen, så att trädgården där djuren rör sig hålls utanför bevakningen. Modeller med kamera låter dig kontrollera ett larm från mobilen.",
+      },
+      {
+        question: "Hur larmar jag ett förråd eller garage utan el?",
+        answer: "Med batteridrivna sensorer och en siren på batteri som via radio kopplas till larmets centralenhet, eller till en 4G-gateway om förrådet ligger långt från huset. Kontrollera radioräckvidden mellan förrådet och centralenheten, som ofta försämras av väggar. En magnetkontakt på dörren och en rörelsesensor inne räcker oftast. Komplettera med ett bra hänglås eller ett förstärkt lås, eftersom larmet varnar men inte stoppar tjuven, och fotografera verktyg och cyklar tillsammans med deras serienummer.",
+      },
+      {
+        question: "Utomhuslarm med eller utan abonnemang?",
+        answer: "Utan abonnemang om du själv kan agera på larmen du får i mobilen; med larmcentral om du ofta är borta eller om ditt försäkringsbolag kräver det. En larmcentral verifierar larmet, till exempel med bilder från en kamera, och kontaktar polisen om intrånget bekräftas. Vissa försäkringsbolag ställer krav på en certifierad leverantör, så fråga innan du väljer. Utan abonnemang behöver du grannar eller anhöriga som kan rycka ut när du är långt borta.",
+      },
+      {
+        question: "Hur länge räcker batterierna i trådlösa utomhussensorer?",
+        answer: "Vanligen från ett till flera år, beroende på hur ofta sensorn löser ut och hur kallt det blir. Kyla tömmer litiumbatterier snabbare, och en sensor som är riktad mot en gång där det ofta passerar folk drar mer ström. De flesta system varnar i appen när batteriet börjar ta slut, så byt det då i stället för att vänta tills sensorn slutar fungera. Kontrollera batteritypen i bruksanvisningen och ha ett reservbatteri hemma, eftersom många sensorer använder mindre vanliga litiumstorlekar.",
+      },
+    ],
+    us: [
+      {
+        question: "Why does my outdoor motion sensor keep setting off false alarms?",
+        answer: "Usually animals such as cats or raccoons, moving branches or sunlight warming the area it watches. Aim the sensor at an open zone, never at a street, a hedge or the rising sun, and lower its sensitivity. Dual-technology sensors, which combine infrared (PIR) and microwave, only trigger when both detect movement, which cuts false alarms. Trim nearby branches, clear cobwebs from the lens and choose a pet-immune model if animals cross your yard at night.",
+      },
+      {
+        question: "What's the best way to alarm a backyard shed?",
+        answer: "Install a battery-powered door contact sensor and a motion sensor linked to your home security system, or a standalone shed alarm with a loud siren. Check the wireless range from the shed to the house, since walls and distance reduce it; a 4G cellular hub helps if the shed is far away. Add a solid lock and secure hinges, because an alarm warns you but doesn't stop a determined thief. Lock bikes and expensive tools to a floor or wall anchor, and record serial numbers in case you need to report a theft.",
+      },
+      {
+        question: "How long can my outdoor alarm siren sound?",
+        answer: "Set an automatic cutoff rather than letting it ring until you get home. Local noise rules can limit how long an outdoor siren may sound, so check with your city or county and set the siren timer to match. A siren that wails for a long time over nothing can also bring noise complaints from neighbors. Use the shortest siren time your system allows and ask a trusted neighbor to check on the property when you're away. Phone notifications let you see what triggered it and switch it off remotely.",
+      },
+      {
+        question: "Monitored or self-monitored outdoor alarm: do I need a subscription?",
+        answer: "Not for self-monitoring, where alerts go to your phone. A subscription pays for professional monitoring, where a monitoring center checks the alert, for example with camera footage, then contacts the police if a break-in is confirmed. Monitoring makes sense if you're often away or your insurer requires it, as some do for high-value contents. A self-monitored system is cheaper but relies on you, family or a neighbor to respond when you're away.",
+      },
+      {
+        question: "How long do batteries last in wireless outdoor sensors?",
+        answer: "Typically from one to several years, depending on how often the sensor triggers and how cold it gets. Cold weather drains lithium batteries faster, and sensors facing a busy path use more power. Most systems warn you in the app when a battery runs low, so replace it then rather than waiting for a dead sensor. Check the battery type in the manual and keep a spare on hand, since many sensors use less common lithium sizes.",
+      },
+    ],
+    ca: [
+      {
+        question: "Why does my outdoor PIR sensor keep giving false alarms?",
+        answer: "Usually animals, moving branches or sunlight warming the area it watches. Aim the sensor at a clear zone, never at a street, hedge or the rising sun, and lower its sensitivity. Dual-technology sensors, combining infrared and microwave, only trigger when both detect movement, which cuts false alarms. Trim nearby branches, clear cobwebs from the lens and choose a pet-tolerant model if raccoons, cats or other animals cross your yard at night.",
+      },
+      {
+        question: "How do I add an alarm to a backyard shed?",
+        answer: "Install a battery-powered door contact and motion sensor linked to your home alarm, or a standalone shed alarm with a loud siren. Check the radio range from the shed to the house, as walls and distance reduce it. Add a decent lock and secure hinges, because an alarm warns but doesn't stop a determined thief. Lock bikes and expensive tools to a ground or wall anchor, and record serial numbers in case you need to report a theft.",
+      },
+      {
+        question: "Can my outdoor alarm siren ring for as long as it likes?",
+        answer: "No: set an automatic cut-off, because a siren that keeps ringing disturbs the whole street and can lead to noise complaints. Noise rules are set locally, so check your municipality's bylaw on alarms. Use the shortest siren time your system allows and name a keyholder who can reach the property when you're away. Phone notifications let you check what triggered it and switch it off remotely.",
+      },
+      {
+        question: "Monitored or self-monitored outdoor alarm: do I need a subscription?",
+        answer: "Not for self-monitoring, where alerts go to your phone; a subscription is needed for professional monitoring, where a monitoring centre checks each alert and contacts the police if a break-in looks real. A self-monitored system is cheaper but relies on you or a neighbour to act. Some insurers require professional monitoring for high-value contents, so ask yours before you choose.",
+      },
+      {
+        question: "How long do batteries last in wireless outdoor sensors?",
+        answer: "Typically from one to several years, depending on how often the sensor triggers and how cold it gets. Cold weather drains lithium cells faster, and sensors facing a busy path use more power. Most systems warn in the app when a battery runs low, so replace it then rather than waiting for a dead sensor. Check the battery type in the manual and keep a spare, as many sensors use less common lithium sizes.",
       },
     ],
   },

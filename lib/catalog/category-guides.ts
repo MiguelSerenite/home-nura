@@ -205,6 +205,40 @@ const TEMPLATES: Record<Lang, Templates> = {
     ],
     generic: (t) => `${t} 2026: jak wybrać, najważniejsze kryteria zakupu, błędy, których warto unikać, i odpowiedzi na najczęstsze pytania.`,
   },
+  sv: {
+    titles: (t) => [
+      `${t} 2026: jämförelse och våra val`,
+      `${t} 2026: jämförelse och köpguide`,
+      `${t} 2026: jämförelse`,
+      `${t} 2026`,
+    ],
+    withPicks: (n) => [
+      `Våra val 2026: ${n}. Jämförda på funktioner, användarvänlighet och prisvärdhet, med direktlänkar till Amazon.`,
+      `Våra val 2026: ${n}.`,
+    ],
+    generic: (t) => `${t} 2026: så väljer du rätt, de viktigaste köpkriterierna, misstag att undvika och svar på vanliga frågor.`,
+  },
+  us: {
+    titles: (t) => [
+      `Best ${t} of 2026: Our Top Picks`,
+      `Best ${t} of 2026: Models Compared`,
+      `Best ${t} of 2026`,
+      `${t} 2026`,
+    ],
+    withPicks: (n) => [
+      `Our 2026 picks: ${n}. Compared on features, ease of use and overall value, with direct links to Amazon.`,
+      `Our 2026 picks: ${n}.`,
+    ],
+    generic: (t) => `${t} 2026: how to choose, what to look for, mistakes to avoid and answers to the most common questions.`,
+  },
+  ca: {
+    titles: (t) => [`Best ${t} 2026: Our Top Picks Compared`, `Best ${t} 2026: Models Compared`, `Best ${t} 2026`],
+    withPicks: (n) => [
+      `Our 2026 picks: ${n}. Compared on features, ease of use and value for money, with direct links to Amazon.`,
+      `Our 2026 picks: ${n}.`,
+    ],
+    generic: (t) => `${t} 2026 buying guide: how to choose, the criteria that really matter, mistakes to avoid and answers to common questions.`,
+  },
 }
 /** SEO title (without brand suffix) and description for a category hub. */
 export function buildCategorySeo(

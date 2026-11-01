@@ -347,6 +347,234 @@ const content: Record<string, {
       },
     ],
   },
+  sv: {
+    title: 'Om Home Nura',
+    mission_title: 'Vårt uppdrag',
+    mission: 'Home Nura är en oberoende europeisk guide till airfryrar, även kallade varmluftsfritöser. Vårt uppdrag är att hjälpa konsumenter i 7 europeiska länder att göra det bästa valet, med ärliga jämförelser, ett öppet betygssystem och ett urval som uppdateras regelbundet.',
+    methodology_title: 'Vår metod',
+    methodology: 'Varje airfryer i vårt urval bedöms enligt ett detaljerat protokoll: vi analyserar tillverkarnas produktblad, stämmer av verifierade användaromdömen (Amazon, Google) och väger in de utvärderingar som fackpressen har publicerat. Vi betygsätter tillagningskvalitet, energiförbrukning, användarvänlighet, ljudnivå, hållbarhet och prisvärdhet.',
+    criteria_title: 'Våra betygskriterier (Nura Score /10)',
+    criteria: [
+      {
+        name: 'Tillagningskvalitet',
+        weight: '30%',
+        desc: 'Krispighet, jämnt resultat, hur många olika rätter den klarar',
+      },
+      {
+        name: 'Prisvärdhet',
+        weight: '25%',
+        desc: 'Prestanda i förhållande till priset på varje marknad',
+      },
+      {
+        name: 'Användarvänlighet',
+        weight: '15%',
+        desc: 'Reglage, program, rengöring, ergonomi',
+      },
+      {
+        name: 'Energiförbrukning',
+        weight: '15%',
+        desc: 'Effekt i watt, tillagningstid, effektivitet',
+      },
+      {
+        name: 'Design och byggkvalitet',
+        weight: '15%',
+        desc: 'Material, utförande, hur mycket plats den tar, hållbarhet',
+      },
+    ],
+    team_title: 'Vår redaktion',
+    team: 'Home Nura drivs av en liten redaktion i Europa som brinner för matlagning och teknik. Vi bevakar 7 marknader (Frankrike, Tyskland, Storbritannien, Spanien, Italien, Nederländerna, Polen) och skriver på varje lands eget språk, så att innehållet känns äkta för läsarna där.',
+    independence_title: 'Vårt oberoende',
+    independence: 'Home Nura är en oberoende sajt. Vi deltar i Amazons partnerprogram (Amazon Associates), vilket innebär att vi får provision när du handlar via våra länkar, utan extra kostnad för dig. Ersättningen påverkar aldrig våra rankningar eller rekommendationer. Ingen tillverkare kan betala för ett bättre betyg.',
+    contact_title: 'Kontakt',
+    contact: 'Har du frågor eller förslag? Skriv till oss på contact@homenura.com. Vi svarar inom 48 timmar.',
+    eeat_title: 'Våra kvalitetslöften',
+    eeat_experience: 'Erfarenhet: Sedan Home Nura startade 2024 har vi löpande analyserat och jämfört de airfryrar som finns på de europeiska marknaderna. Urvalet uppdateras i takt med att tillverkarna släpper nya modeller och priserna förändras.',
+    eeat_expertise: 'Expertis: Varje omdöme bygger på officiella produktblad, avstämning mot verifierade användaromdömen och direkta jämförelser mellan modeller i samma serie. Vårt betygssystem är offentligt och beskrivs i detalj på den här sidan.',
+    eeat_authority: 'Auktoritet: Nura Score sammanfattar objektiva, viktade kriterier. Betyget är tänkt som en enkel och öppen måttstock som hjälper dig att välja bland de modeller som finns i Europa.',
+    eeat_trust: 'Förtroende: 100 % oberoende. Ingen tillverkare kan köpa ett bättre betyg. Vår enda intäktskälla är Amazons partnerprogram, och det anges vid varje länk. Vår metod och våra kriterier är offentliga.',
+    founder_name: 'Miguel Marie',
+    founder_title: 'Grundare och chefredaktör',
+    founder_bio: 'Miguel brinner för teknik och hälsosam mat. Han startade Home Nura 2024, eftersom det saknades pålitliga och oberoende jämförelser av airfryrar i Europa. Han ansvarar personligen för betygsmetoden och garanterar sajtens redaktionella oberoende.',
+    stats_title: 'Home Nura i siffror',
+    stats: [
+      {
+        label: 'Analyserade och jämförda modeller',
+        value: '12+',
+      },
+      {
+        label: 'Viktade betygskriterier',
+        value: '5',
+      },
+      {
+        label: 'Europeiska länder som vi bevakar',
+        value: '6',
+      },
+      {
+        label: 'Tillgängliga språk',
+        value: '6',
+      },
+      {
+        label: 'Uppdateringstakt',
+        value: 'Varje månad',
+      },
+      {
+        label: 'På nätet sedan',
+        value: '2024',
+      },
+    ],
+  },
+  us: {
+    title: 'About Home Nura',
+    mission_title: 'Our mission',
+    mission: 'Home Nura is an independent buying guide dedicated to air fryers, based in Europe. Our mission is to help shoppers in 7 European countries make the right call, with honest comparisons, a transparent scoring method and a selection we update regularly.',
+    methodology_title: 'Our methodology',
+    methodology: 'Every air fryer in our selection is scored with a detailed protocol: we analyze manufacturer spec sheets, cross-check verified owner reviews (Amazon, Google) and factor in tests published by independent consumer and trade publications. We rate cooking performance, energy use, ease of use, noise, durability and value for money.',
+    criteria_title: 'How we score (Nura Score /10)',
+    criteria: [
+      {
+        name: 'Cooking quality',
+        weight: '30%',
+        desc: 'Crispiness, evenness, recipe versatility',
+      },
+      {
+        name: 'Value for money',
+        weight: '25%',
+        desc: 'Performance relative to price in each market',
+      },
+      {
+        name: 'Ease of use',
+        weight: '15%',
+        desc: 'Controls, presets, cleaning, ergonomics',
+      },
+      {
+        name: 'Energy efficiency',
+        weight: '15%',
+        desc: 'Wattage, cooking time, efficiency',
+      },
+      {
+        name: 'Design & build quality',
+        weight: '15%',
+        desc: 'Materials, finish, footprint, durability',
+      },
+    ],
+    team_title: 'Our team',
+    team: 'Home Nura is run by a small team of cooking and tech enthusiasts based in Europe. We cover 7 markets (France, Germany, UK, Spain, Italy, Netherlands, Poland) and publish in each country\'s own language for an authentic local experience.',
+    independence_title: 'Our independence',
+    independence: 'Home Nura is an independent website. We participate in the Amazon Associates program, which means we earn a commission when you buy through our links, at no extra cost to you. That income never affects our rankings or recommendations. No manufacturer can pay for a better score.',
+    contact_title: 'Contact',
+    contact: 'Questions or suggestions? Email us at contact@homenura.com. We reply within 48 hours.',
+    eeat_title: 'Our quality commitments',
+    eeat_experience: 'Experience: Since Home Nura launched in 2024, we have continuously analyzed and compared the air fryers sold in European markets. Our selection is updated as new models come out and prices change.',
+    eeat_expertise: 'Expertise: Every review is built from official spec sheets, cross-checked verified owner feedback and head-to-head comparisons between models in the same lineup. Our scoring protocol is public and laid out on this page.',
+    eeat_authority: 'Authority: Our Nura Score combines objective, weighted criteria into a single number. It\'s designed as a simple, transparent benchmark to help readers choose among the models available in Europe.',
+    eeat_trust: 'Trust: 100% independent. No manufacturer can buy a better score. Our only source of revenue is the Amazon Associates program, disclosed on every link. Our methodology and criteria are public.',
+    founder_name: 'Miguel Marie',
+    founder_title: 'Founder & Editor-in-Chief',
+    founder_bio: 'A tech enthusiast with a passion for healthy cooking, Miguel launched Home Nura in 2024 because he couldn\'t find reliable, independent air fryer comparisons in Europe. He personally oversees the scoring methodology and safeguards the site\'s editorial independence.',
+    stats_title: 'Home Nura by the numbers',
+    stats: [
+      {
+        label: 'Models analyzed and compared',
+        value: '12+',
+      },
+      {
+        label: 'Weighted rating criteria',
+        value: '5',
+      },
+      {
+        label: 'European countries covered',
+        value: '6',
+      },
+      {
+        label: 'Languages available',
+        value: '6',
+      },
+      {
+        label: 'Update frequency',
+        value: 'Monthly',
+      },
+      {
+        label: 'Online since',
+        value: '2024',
+      },
+    ],
+  },
+  ca: {
+    title: 'About Home Nura',
+    mission_title: 'Our Mission',
+    mission: 'Home Nura is an independent European guide dedicated to air fryers. Our mission is to help consumers across 7 European countries make the best choice through honest comparisons, a transparent scoring protocol and a regularly updated selection.',
+    methodology_title: 'Our Methodology',
+    methodology: 'Each air fryer in our selection is evaluated using a detailed protocol that combines analysis of manufacturer specifications, cross-checking of verified user reviews (Amazon, Google) and a review of tests published by specialist publications. We rate cooking quality, energy consumption, ease of use, noise level, durability and value for money.',
+    criteria_title: 'Our Rating Criteria (Nura Score /10)',
+    criteria: [
+      {
+        name: 'Cooking Quality',
+        weight: '30%',
+        desc: 'Crispiness, evenness, recipe versatility',
+      },
+      {
+        name: 'Value for Money',
+        weight: '25%',
+        desc: 'Performance relative to price in each market',
+      },
+      {
+        name: 'Ease of Use',
+        weight: '15%',
+        desc: 'Interface, programs, cleaning, ergonomics',
+      },
+      {
+        name: 'Energy Efficiency',
+        weight: '15%',
+        desc: 'Watts consumed, cooking time, efficiency',
+      },
+      {
+        name: 'Design & Build Quality',
+        weight: '15%',
+        desc: 'Materials, finish, footprint, durability',
+      },
+    ],
+    team_title: 'Our Team',
+    team: 'Home Nura is run by a small team of cooking and technology enthusiasts based in Europe. We cover 7 markets (France, Germany, UK, Spain, Italy, Netherlands, Poland) and publish content in each country\'s native language for an authentic experience.',
+    independence_title: 'Our Independence',
+    independence: 'Home Nura is an independent website. We participate in the Amazon EU Associates Programme, which means we earn a commission when you buy through our links at no extra cost to you. This compensation never influences our rankings or recommendations. No manufacturer can pay for a better score.',
+    contact_title: 'Contact',
+    contact: 'Questions? Suggestions? Get in touch at contact@homenura.com. We reply within 48 hours.',
+    eeat_title: 'Our Quality Commitments',
+    eeat_experience: 'Experience: Since Home Nura launched in 2024, we have been continuously analyzing and comparing the air fryers available across European markets. Our selection is updated as new models are released and prices change.',
+    eeat_expertise: 'Expertise: Each review is built from official specification sheets, cross-checking of verified user feedback and direct comparison between models in the same range. Our scoring protocol is public and detailed on this page.',
+    eeat_authority: 'Authority: Our Nura Score synthesizes objective, weighted criteria. It is designed as a simple and transparent benchmark to guide readers in choosing from the models available in Europe.',
+    eeat_trust: 'Trust: 100% independent. No manufacturer can buy a better score. Our only revenue source is the Amazon Associates Programme, disclosed on every link. Our methodology and criteria are public.',
+    founder_name: 'Miguel Marie',
+    founder_title: 'Founder & Editor-in-Chief',
+    founder_bio: 'Passionate about technology and healthy cooking, Miguel launched Home Nura in 2024 to address the lack of reliable and independent air fryer comparisons in Europe. He personally oversees the scoring methodology and guarantees the editorial independence of the site.',
+    stats_title: 'Home Nura in Numbers',
+    stats: [
+      {
+        label: 'Models analyzed and compared',
+        value: '12+',
+      },
+      {
+        label: 'Weighted rating criteria',
+        value: '5',
+      },
+      {
+        label: 'European countries covered',
+        value: '6',
+      },
+      {
+        label: 'Languages available',
+        value: '6',
+      },
+      {
+        label: 'Update frequency',
+        value: 'Monthly',
+      },
+      {
+        label: 'Online since',
+        value: '2024',
+      },
+    ],
+  },
 }
 
 export default async function AboutPage({ params }: { params: Promise<{ lang: string }> }) {
@@ -392,7 +620,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: lang === 'fr' ? 'Accueil' : lang === 'de' ? 'Startseite' : lang === 'es' ? 'Inicio' : lang === 'it' ? 'Home' : lang === 'nl' ? 'Home' : lang === 'pl' ? 'Strona główna' : 'Home', item: `https://homenura.com/${lang}` },
+            { '@type': 'ListItem', position: 1, name: lang === 'fr' ? 'Accueil' : lang === 'de' ? 'Startseite' : lang === 'es' ? 'Inicio' : lang === 'it' ? 'Home' : lang === 'nl' ? 'Home' : lang === 'pl' ? 'Strona główna' : lang === 'sv' ? 'Hem' : lang === 'us' ? 'Home' : lang === 'ca' ? 'Home' : 'Home', item: `https://homenura.com/${lang}` },
             { '@type': 'ListItem', position: 2, name: c.title, item: `https://homenura.com/${lang}/a-propos` },
           ],
         }) }}
@@ -493,7 +721,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
 
         <div className="mt-8">
           <Link href={`/${lang}`} className="text-brand-600 font-bold hover:underline">
-            &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : lang === 'pl' ? 'Powrót do strony głównej' : 'Back to home'}
+            &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : lang === 'pl' ? 'Powrót do strony głównej' : lang === 'sv' ? 'Tillbaka till startsidan' : lang === 'us' ? 'Back to home' : lang === 'ca' ? 'Back to home' : 'Back to home'}
           </Link>
         </div>
       </main>

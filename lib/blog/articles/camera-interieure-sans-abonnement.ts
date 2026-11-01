@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Videocamera di sorveglianza Wi-Fi bianca fissata al muro, registrazione locale senza abbonamento',
         nl: 'Witte wifi-beveiligingscamera aan de muur, lokale opname zonder abonnement',
         pl: 'Biała kamera monitoringu Wi-Fi zamocowana na ścianie – nagrywanie lokalne bez abonamentu',
+        sv: 'Vit övervakningskamera med wifi monterad på en vägg, lokal inspelning utan abonnemang',
+        us: 'White Wi-Fi security camera mounted on a wall, recording locally without a subscription',
+        ca: 'White Wi-Fi security camera mounted on a wall, recording locally without a subscription',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Migliore Videocamera per Interni senza Abbonamento 2026: le 5 Migliori con Archiviazione Locale',
     nl: 'Beste Binnencamera zonder Abonnement 2026: de 5 Beste met Lokale Opslag',
     pl: 'Kamera wewnętrzna bez abonamentu 2026: 5 najlepszych modeli z zapisem lokalnym',
+    sv: 'Övervakningskamera inomhus utan abonnemang 2026: de 5 bästa med lokal lagring',
+    us: 'Best Indoor Security Cameras With No Subscription 2026: Top 5 With Local Storage',
+    ca: 'Best Indoor Security Camera Without Subscription 2026: Top 5 with Local Storage',
   },
   excerpt: {
     fr: 'Les 5 meilleures caméras intérieures sans abonnement en 2026 : Eufy Indoor Cam E220, TP-Link Tapo C220, Reolink E1 Pro, Aqara Camera Hub G3 et Xiaomi Mi 360° Camera (1080p). Stockage microSD, rotation motorisée, détection intelligente et confidentialité comparés.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Le 5 migliori videocamere per interni senza abbonamento nel 2026: Eufy Indoor Cam E220, TP-Link Tapo C220, Reolink E1 Pro, Aqara Camera Hub G3 e Xiaomi Mi 360° Camera (1080p). Archiviazione microSD, rotazione motorizzata, rilevamento intelligente e privacy a confronto.',
     nl: 'De 5 beste binnencamera’s zonder abonnement in 2026: Eufy Indoor Cam E220, TP-Link Tapo C220, Reolink E1 Pro, Aqara Camera Hub G3 en Xiaomi Mi 360° Camera (1080p). microSD-opslag, draaien/kantelen, slimme detectie en privacy vergeleken.',
     pl: '5 najlepszych kamer wewnętrznych bez abonamentu w 2026 roku: Eufy Indoor Cam E220, TP-Link Tapo C220, Reolink E1 Pro, Aqara Camera Hub G3 i Xiaomi Mi 360° Camera (1080p). Porównujemy zapis na kartę microSD, obrotową głowicę, inteligentne wykrywanie i ochronę prywatności.',
+    sv: 'De 5 bästa inomhuskamerorna utan abonnemang 2026: Eufy Indoor Cam E220, TP-Link Tapo C220, Reolink E1 Pro, Aqara Camera Hub G3 och Xiaomi Mi 360° Camera (1080p). Vi jämför lagring på microSD-kort, motoriserad vridning och lutning, smart detektering och integritet.',
+    us: 'The 5 best indoor security cameras with no subscription in 2026: Eufy Indoor Cam E220, TP-Link Tapo C220, Reolink E1 Pro, Aqara Camera Hub G3 and Xiaomi Mi 360° Camera (1080p), compared on microSD storage, pan/tilt, smart detection and privacy.',
+    ca: 'The 5 best indoor security cameras without a subscription in 2026: Eufy Indoor Cam E220, TP-Link Tapo C220, Reolink E1 Pro, Aqara Camera Hub G3 and Xiaomi Mi 360° Camera (1080p). microSD storage, pan/tilt, smart detection and privacy compared.',
   },
   content: {
     fr: `<p><strong>La meilleure caméra intérieure sans abonnement en 2026 est l'Eufy Indoor Cam E220 : image 2K, rotation motorisée à 360°, détection des personnes, des animaux et des pleurs de bébé, et enregistrement sur carte microSD sans frais mensuels.</strong> Si vous cherchez le meilleur rapport qualité-prix, la TP-Link Tapo C220 offre une définition 2K QHD et accepte des cartes microSD jusqu'à 512 Go ; pour archiver vos vidéos sur un NAS, la Reolink E1 Pro est la plus complète.</p>
@@ -536,6 +545,216 @@ export const article: BlogArticle = {
 
 <h2>Nasz werdykt</h2>
 <p>W większości domów najlepiej sprawdzi się <strong>Eufy Indoor Cam E220</strong>: obraz 2K, pełny obrót, precyzyjne wykrywanie i współpraca z HomeKit, Google i Alexą. <strong>TP-Link Tapo C220</strong> ma najlepszy stosunek jakości do ceny dzięki rozdzielczości 2K QHD i obsłudze kart microSD do 512 GB. Jeśli masz serwer NAS, <strong>Reolink E1 Pro</strong> daje najwięcej możliwości archiwizowania nagrań we własnym domu. <strong>Aqara Camera Hub G3</strong> to oczywisty wybór, jeśli budujesz inteligentny dom, a <strong>Xiaomi Mi 360° Camera (1080p)</strong> pozostaje prostym rozwiązaniem przy niewielkim budżecie.</p>`,
+    sv: `<p><strong>Den bästa inomhuskameran utan abonnemang 2026 är Eufy Indoor Cam E220: 2K-upplösning, motoriserad rotation på 360°, igenkänning av personer, husdjur och bebisgråt samt inspelning på microSD-kort utan månadsavgift.</strong> Vill du ha mest för pengarna ger TP-Link Tapo C220 2K QHD-upplösning och klarar microSD-kort på upp till 512 GB. För arkivering på en NAS är Reolink E1 Pro det mest kompletta alternativet.</p>
+<p>Alla kameror i den här jämförelsen spelar in lokalt, utan krav på abonnemang. Tillverkarna erbjuder ofta en molntjänst som tillval, men den kan du strunta i: videorna stannar hemma hos dig, på minneskortet eller på din egen server. Guiden bygger på tillverkarnas produktblad, utvärderingar i fackpressen och verifierade köparomdömen. Alla modeller hittar du på vår sida om <a href="/sv/securite-maison/cameras-interieur">inomhuskameror</a>.</p>
+
+<h2>Så väljer du rätt inomhuskamera utan abonnemang</h2>
+<h3>Lokal lagring: microSD, NAS eller nätverksinspelare</h3>
+<p>Utan abonnemang hänger allt på den lokala lagringen. Ett microSD-kort är den enklaste lösningen: det sätts in i kameran, som sedan spelar in hela tiden eller bara när den upptäcker rörelse. Kontrollera hur stora kort kameran klarar – det varierar från 32 GB till 512 GB beroende på modell. Vill du gå ett steg längre kan vissa kameror skicka videorna till en NAS (via FTP) eller till en nätverksvideoinspelare (NVR). Då finns inspelningarna kvar även om kameran blir stulen eller förstörd.</p>
+<h3>Motoriserad rotation (pan/tilt)</h3>
+<p>En motoriserad kamera vrider sig i sidled och lutar uppåt och nedåt. En enda kamera kan alltså täcka ett helt rum, och den automatiska rörelsespårningen håller personen eller djuret i bild. Alla fem modellerna i urvalet är motoriserade, vilket är det vanligaste formatet för vardagsrummet, hallen eller barnrummet.</p>
+<h3>Upplösning och mörkerseende</h3>
+<p>Full HD (1080p) räcker för ett litet rum, men 2K (ungefär 3–4 megapixel) ger fler detaljer när du zoomar in på ett ansikte eller ett föremål. Alla modellerna har mörkerseende med infrarött ljus. En stor bländaröppning (som f/1,6 på Reolink E1 Pro) hjälper när ljuset är svagt.</p>
+<h3>Smart detektering</h3>
+<p>En enkel rörelsedetektering ger larm vid varje ljusförändring. Välj hellre en kamera som skiljer mellan personer, husdjur och till och med bebisgråt: du får färre onödiga notiser och det blir lättare att gå igenom inspelningarna.</p>
+<h3>Smarthemsplattform</h3>
+<p>Kontrollera att kameran fungerar med din röstassistent eller plattform (Amazon Alexa, Google Home, Apple Home) och vilket wifi-band den använder. Flera instegskameror fungerar bara på 2,4 GHz. Det ger bra räckvidd men kan ställa till problem med routrar som slår ihop banden till ett och samma nätverk.</p>
+
+<h2>De 5 bästa inomhuskamerorna utan abonnemang 2026</h2>
+<h3>1. Eufy Indoor Cam E220: bäst totalt</h3>
+<p><strong>Eufy Indoor Cam E220</strong> är den mest balanserade kameran i jämförelsen. Den filmar i 2K (2304×1296), vrider sig 360° i sidled och 96° i höjdled och följer automatiskt rörelser som den upptäcker. Den inbyggda AI:n känner igen personer, husdjur och bebisgråt, vilket håller nere antalet onödiga larm.</p>
+<p>Inspelningen sparas på ett microSD-kort på upp till 128 GB, även vid kontinuerlig inspelning dygnet runt. Kameran fungerar med Apple HomeKit, Google Assistant och Amazon Alexa – ovanligt i den här klassen och ett plus för hushåll med iPhone (i HomeKit sjunker upplösningen till 1080p).</p>
+<p><strong>Styrkor:</strong> känner igen bebisgråt och husdjur, automatisk rörelsespårning, fungerar med HomeKit, Google och Alexa.<br><strong>Svagheter:</strong> bara wifi på 2,4 GHz, måste vara ansluten till ett eluttag. Eufy kritiserades 2022 för hur vissa data skickades till molnet, så gå igenom integritetsinställningarna i appen.<br><strong>Passar för:</strong> familjer med barn eller husdjur, och Apple-användare.</p>
+
+<h3>2. TP-Link Tapo C220: mest prisvärd</h3>
+<p><strong>TP-Link Tapo C220</strong> är en mycket välutrustad inomhuskamera i instegsklassen. Den filmar i 2K QHD (2560×1440), vrider sig 360° och lutar 114°, och mörkerseendet når ungefär 9 meter. Den smarta detekteringen skiljer mellan personer, husdjur och fordon och känner dessutom igen bebisgråt.</p>
+<p>Lagringen är den stora styrkan: kameran tar microSD-kort på upp till 512 GB, vilket räcker till många dagars inspelning utan abonnemang. Tapo-appen är enkel, och kameran fungerar med Amazon Alexa och Google Home.</p>
+<p><strong>Styrkor:</strong> 2K QHD, plats för mycket stora microSD-kort, mångsidig detektering, lättanvänd app.<br><strong>Svagheter:</strong> bara wifi på 2,4 GHz, fungerar inte med Apple Home.<br><strong>Passar för:</strong> dig som vill ha en pålitlig och komplett kamera utan att gå upp i premiumklassen, eller som vill utrusta flera rum.</p>
+
+<h3>3. Reolink E1 Pro: bäst för lagring på NAS</h3>
+<p><strong>Reolink E1 Pro</strong> är till för dig som vill ha full kontroll över dina inspelningar. Den nuvarande versionen filmar i 5 megapixel (2880×1616) med bländare f/1,6, vrider sig 355° och lutar 50°, med automatisk rörelsespårning i sidled. Den känner igen personer, husdjur och bebisgråt.</p>
+<p>Det som utmärker den är lagringsmöjligheterna: microSD-kort, uppladdning till en NAS via FTP eller anslutning till en nätverksinspelare från Reolink för att samla flera kameror på ett ställe. Wifi med dubbla band (2,4 och 5 GHz) gör det lättare att ansluta i bostäder där 2,4 GHz-bandet är överbelastat.</p>
+<p><strong>Styrkor:</strong> 5 MP-upplösning, wifi med dubbla band, FTP och NVR, inget abonnemang krävs.<br><strong>Svagheter:</strong> rörelsespårningen fungerar bara i sidled, och integrationen med röstassistenter är inte lika omfattande som hos Eufy och Aqara.<br><strong>Passar för:</strong> dig som har en NAS eller planerar flera kameror från Reolink.</p>
+<p>Tänk på att äldre versioner av E1 Pro filmade i 4 MP (2560×1440). Kontrollera upplösningen som anges på produktsidan.</p>
+
+<h3>4. Aqara Camera Hub G3: bäst för smarta hem</h3>
+<p><strong>Aqara Camera Hub G3</strong> är både kamera och smarthemshubb. Den har en inbyggd Zigbee 3.0-hubb som kan styra upp till 128 enheter från Aqara (sensorer, strömbrytare, lampor) och en IR-sändare för att manövrera en tv eller en AC. På videosidan filmar den i 2K (2304×1296) med 110° bildvinkel, vrider sig 340° och lutar 45°.</p>
+<p>Den känner igen ansikten och vissa handgester som kan starta automationer, och den följer personer och husdjur. Den lokala inspelningen sparas på ett microSD-kort på upp till 128 GB. Kameran fungerar med HomeKit Secure Video, Alexa och Google Home. Observera att HomeKit Secure Video sparar videorna i iCloud och kräver ett iCloud+-abonnemang: vill du klara dig utan abonnemang använder du microSD-kortet.</p>
+<p><strong>Styrkor:</strong> inbyggd Zigbee-hubb, IR-fjärrkontroll, igenkänning av ansikten och gester, wifi på 2,4 och 5 GHz.<br><strong>Svagheter:</strong> hör hemma i premiumsegmentet, mindre intressant om du inte använder tillbehör från Aqara.<br><strong>Passar för:</strong> dig som bygger ditt smarta hem kring Aqara eller Apple Home.</p>
+
+<h3>5. Xiaomi Mi 360° Camera (1080p): enklast för liten budget</h3>
+<p><strong>Xiaomi Mi 360° Camera (1080p)</strong> (som tidigare hette Mi Home Security Camera 360°) är fortfarande ett instegsalternativ för att hålla koll på ett rum. Den filmar i Full HD 1080p, ger en panoramavy på 360° i sidled och 108° i höjdled och använder osynliga IR-lysdioder på 940 nm för mörkerseendet.</p>
+<p><strong>Styrkor:</strong> kompakt format, full rotation, diskret mörkerseende.<br><strong>Svagheter:</strong> upplösningen stannar vid 1080p, microSD-kort på högst 32 GB, mindre träffsäker detektering än nyare modeller, kräver ett Xiaomi-konto.<br><strong>Passar för:</strong> ett rum som används mer sällan eller för tillfälligt bruk, när budgeten väger tyngst.</p>
+
+<h2>Jämförelsetabell: inomhuskameror utan abonnemang</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Upplösning</th><th>Vridning / lutning</th><th>Lokal lagring</th><th>Uppkoppling</th><th>Passar bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Eufy Indoor Cam E220</td><td>2K (2304×1296)</td><td>360° / 96°</td><td>microSD upp till 128 GB</td><td>Wifi 2,4 GHz, HomeKit, Alexa, Google</td><td>Familjer, Apple-användare</td></tr>
+<tr><td>TP-Link Tapo C220</td><td>2K QHD (2560×1440)</td><td>360° / 114°</td><td>microSD upp till 512 GB</td><td>Wifi 2,4 GHz, Alexa, Google</td><td>Mest prisvärd</td></tr>
+<tr><td>Reolink E1 Pro</td><td>5 MP (2880×1616)</td><td>355° / 50°</td><td>microSD, FTP till NAS, NVR</td><td>Wifi 2,4 och 5 GHz</td><td>Arkivering på NAS</td></tr>
+<tr><td>Aqara Camera Hub G3</td><td>2K (2304×1296)</td><td>340° / 45°</td><td>microSD upp till 128 GB</td><td>Wifi 2,4 och 5 GHz, Zigbee 3.0-hubb, HomeKit, Alexa, Google</td><td>Smarta hem med Aqara och Apple</td></tr>
+<tr><td>Xiaomi Mi 360° Camera (1080p)</td><td>Full HD (1920×1080)</td><td>360° / 108°</td><td>microSD upp till 32 GB</td><td>Wifi 2,4 GHz, Xiaomi Home</td><td>Liten budget</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa en utomhuskamera för inomhusbruk (eller tvärtom).</strong> En väderskyddad bulletkamera är inte motoriserad och monteras på väggen, medan en inomhuskamera inte är byggd för regn. Ska kameran sitta utomhus, läs vår <a href="/sv/blog/comparatif-camera-surveillance-exterieure">jämförelse av utomhuskameror</a>.</li>
+<li><strong>Att välja ett vanligt microSD-kort.</strong> Kontinuerlig inspelning sliter snabbt ut vanliga kort. Välj ett kort av typen ”endurance”, som är gjort för videoövervakning, och formatera det i kamerans app.</li>
+<li><strong>Att blanda ihop ”utan abonnemang” och ”utan moln”.</strong> En kamera kan spela in lokalt men ändå skicka notiser eller miniatyrbilder via tillverkarens servrar. Läs igenom integritetsinställningarna.</li>
+<li><strong>Att glömma wifi-täckningen.</strong> En kamera som står långt från routern tappar anslutningen. Kontrollera vilket band den stöder och hur stark signalen är där du tänker placera den.</li>
+<li><strong>Att behålla standardlösenordet.</strong> Aktivera tvåstegsverifiering för kontot i appen och installera firmwareuppdateringarna.</li>
+</ul>
+
+<h2>Installation, integritet och regler</h2>
+<p>Placera kameran i hyllhöjd eller högt upp, riktad mot rummets ingång, och lägg in detekteringszoner som utesluter fönstren. Alla kameror i jämförelsen låter dig stänga av bevakningen eller dölja objektivet när du är hemma, med ett integritetsläge eller ett schema.</p>
+<p>Att filma inne i din egen bostad för rent privat bruk är i regel tillåtet. Har du däremot någon anställd i hemmet, till exempel en barnflicka eller städhjälp, måste du berätta för personen att kameran finns, och den bör inte filma personen oavbrutet under arbetet. Rikta aldrig kameran mot gatan eller in hos grannarna. Vill du komplettera installationen kan du läsa vår <a href="/sv/blog/sonnette-video-sans-abonnement">jämförelse av videodörrklockor utan abonnemang</a>.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta hushåll är <strong>Eufy Indoor Cam E220</strong> det bästa valet: 2K-bild, full rotation, träffsäker detektering och stöd för HomeKit, Google och Alexa. <strong>TP-Link Tapo C220</strong> är mest prisvärd tack vare 2K QHD-upplösningen och stödet för kort på 512 GB. Har du en NAS är <strong>Reolink E1 Pro</strong> det mest kompletta alternativet för att spara videorna hemma. <strong>Aqara Camera Hub G3</strong> är ett självklart val om du bygger upp ett smart hem, och <strong>Xiaomi Mi 360° Camera (1080p)</strong> är fortfarande en enkel lösning för den som har en liten budget.</p>`,
+    us: `<p><strong>The best indoor security camera with no subscription in 2026 is the Eufy Indoor Cam E220: 2K video, 360° pan/tilt, person, pet and baby-crying detection, and recording to a microSD card with no monthly fee.</strong> For the best value, the TP-Link Tapo C220 records in 2K QHD and takes microSD cards up to 512 GB; to archive footage on a NAS, the Reolink E1 Pro is the most complete option.</p>
+<p>Every camera in this comparison records locally, with no required subscription. Manufacturers often offer an optional cloud plan, but you can skip it: your footage stays at home, on the memory card or on your own server. This guide is based on manufacturer specs, reviews published by tech media and verified owner feedback. To browse all models, see our <a href="/us/securite-maison/cameras-interieur">indoor security cameras</a> page.</p>
+
+<h2>How to choose an indoor camera with no subscription</h2>
+<h3>Local storage: microSD, NAS or recorder</h3>
+<p>Without a subscription, everything comes down to local storage. A microSD card is the simplest solution: it slots into the camera and records continuously or whenever motion is detected. Check the maximum supported capacity, which ranges from 32 GB to 512 GB depending on the model. Some cameras can also send footage to a NAS (over FTP) or to a network video recorder (NVR), which protects your recordings even if the camera is stolen or damaged.</p>
+<h3>Pan and tilt</h3>
+<p>A motorized camera rotates horizontally and vertically, so a single unit can cover a whole room, and auto-tracking keeps a person or pet in frame. All five models picked here are pan/tilt cameras, the most common format for a living room, hallway or nursery.</p>
+<h3>Resolution and night vision</h3>
+<p>Full HD (1080p) is enough for a small room, but 2K (roughly 3 to 4 megapixels) gives you more detail when you zoom in on a face or an object. All models include infrared night vision; a wide aperture (such as the f/1.6 lens on the Reolink E1 Pro) helps in low light.</p>
+<h3>Smart detection</h3>
+<p>Basic motion detection sends an alert every time the light changes. Choose a camera that can tell people, pets and even a crying baby apart: you'll get fewer pointless notifications, and your recordings will be easier to review.</p>
+<h3>Smart home ecosystem</h3>
+<p>Check compatibility with your assistant (Amazon Alexa, Google Home, Apple Home) and the supported Wi-Fi band. Several entry-level cameras only work on 2.4 GHz, which gives good range but can cause trouble with routers that combine both bands into one network.</p>
+
+<h2>The 5 best indoor cameras with no subscription in 2026</h2>
+<h3>1. Eufy Indoor Cam E220: best overall</h3>
+<p>The <strong>Eufy Indoor Cam E220</strong> is the most balanced camera in this comparison. It records in 2K (2304×1296), pans 360° and tilts 96°, and automatically follows detected motion. Its built-in AI recognizes people, pets and a crying baby, which keeps false alerts down.</p>
+<p>Footage is stored on a microSD card up to 128 GB, including continuous 24/7 recording. It works with Apple HomeKit, Google Assistant and Amazon Alexa, which is rare in this class and handy for iPhone households (video drops to 1080p in HomeKit).</p>
+<p><strong>Pros:</strong> crying and pet detection, auto-tracking, HomeKit, Google and Alexa support.<br><strong>Cons:</strong> 2.4 GHz Wi-Fi only, and it has to stay plugged in. Eufy was criticized in 2022 over how some data was sent to the cloud, so review the privacy settings in the app.<br><strong>Best for:</strong> families with kids or pets, and Apple users.</p>
+
+<h3>2. TP-Link Tapo C220: best value</h3>
+<p>The <strong>TP-Link Tapo C220</strong> is a very well-equipped entry-level indoor camera. It records in 2K QHD (2560×1440), pans 360° and tilts 114°, and its night vision reaches about 30 ft (9 m). Its smart detection recognizes people, pets and vehicles, as well as a crying baby.</p>
+<p>Storage is its standout feature: it takes microSD cards up to 512 GB, enough for many days of recording without a subscription. The Tapo app is easy to use, and the camera works with Amazon Alexa and Google Home.</p>
+<p><strong>Pros:</strong> 2K QHD, very large microSD capacity, varied detection, simple app.<br><strong>Cons:</strong> 2.4 GHz Wi-Fi only, no Apple Home support.<br><strong>Best for:</strong> anyone who wants a reliable, well-equipped camera without paying for premium, or who needs to cover several rooms.</p>
+
+<h3>3. Reolink E1 Pro: best for NAS storage</h3>
+<p>The <strong>Reolink E1 Pro</strong> suits people who want full control over their archive. The current version records in 5 megapixels (2880×1616) through an f/1.6 lens, pans 355° and tilts 50°, with horizontal auto-tracking. It detects people, pets and a crying baby.</p>
+<p>Its storage options set it apart: a microSD card, uploads to a NAS over FTP, or a connection to a Reolink network video recorder to centralize several cameras. Dual-band Wi-Fi (2.4 and 5 GHz) helps in homes where the 2.4 GHz band is crowded.</p>
+<p><strong>Pros:</strong> 5 MP resolution, dual-band Wi-Fi, FTP and NVR support, no subscription needed.<br><strong>Cons:</strong> auto-tracking only works horizontally; voice assistant integration is less extensive than on Eufy or Aqara.<br><strong>Best for:</strong> NAS owners and anyone planning to add several Reolink cameras.</p>
+<p>Note: older versions of the E1 Pro recorded in 4 MP (2560×1440). Check the resolution listed on the product page.</p>
+
+<h3>4. Aqara Camera Hub G3: best for smart home users</h3>
+<p>The <strong>Aqara Camera Hub G3</strong> is both a camera and a smart home hub. It includes a Zigbee 3.0 hub that can control up to 128 Aqara devices (sensors, switches, bulbs) and an infrared blaster to operate a TV or air conditioner. On the video side, it records in 2K (2304×1296) through a 110° lens, pans 340° and tilts 45°.</p>
+<p>It recognizes faces and certain hand gestures to trigger automations, and tracks people and pets. Local recording goes to a microSD card up to 128 GB. It supports HomeKit Secure Video, Alexa and Google Home. Keep in mind that HomeKit Secure Video stores clips in iCloud and requires an iCloud+ plan: to stay subscription-free, use the microSD card.</p>
+<p><strong>Pros:</strong> built-in Zigbee hub, infrared remote control, face and gesture recognition, 2.4 and 5 GHz Wi-Fi.<br><strong>Cons:</strong> premium-priced, and less useful if you don't use Aqara accessories.<br><strong>Best for:</strong> people building a smart home around Aqara or Apple Home.</p>
+
+<h3>5. Xiaomi Mi 360° Camera (1080p): best simple budget pick</h3>
+<p>The <strong>Xiaomi Mi 360° Camera (1080p)</strong> (formerly sold as the Mi Home Security Camera 360°) is still an entry-level way to keep an eye on a room. It records in Full HD 1080p, offers a 360° horizontal and 108° vertical view, and uses invisible 940 nm infrared LEDs for night vision.</p>
+<p><strong>Pros:</strong> compact design, full rotation, discreet night vision.<br><strong>Cons:</strong> 1080p only, microSD limited to 32 GB, less refined detection than newer models, requires a Xiaomi account.<br><strong>Best for:</strong> a spare room or occasional use when budget comes first.</p>
+
+<h2>Comparison table of indoor cameras with no subscription</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Resolution</th><th>Pan / tilt</th><th>Local storage</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Eufy Indoor Cam E220</td><td>2K (2304×1296)</td><td>360° / 96°</td><td>microSD up to 128 GB</td><td>2.4 GHz Wi-Fi, HomeKit, Alexa, Google</td><td>Families, Apple users</td></tr>
+<tr><td>TP-Link Tapo C220</td><td>2K QHD (2560×1440)</td><td>360° / 114°</td><td>microSD up to 512 GB</td><td>2.4 GHz Wi-Fi, Alexa, Google</td><td>Best value</td></tr>
+<tr><td>Reolink E1 Pro</td><td>5 MP (2880×1616)</td><td>355° / 50°</td><td>microSD, FTP to NAS, NVR</td><td>2.4 and 5 GHz Wi-Fi</td><td>NAS archiving</td></tr>
+<tr><td>Aqara Camera Hub G3</td><td>2K (2304×1296)</td><td>340° / 45°</td><td>microSD up to 128 GB</td><td>2.4 and 5 GHz Wi-Fi, Zigbee 3.0 hub, HomeKit, Alexa, Google</td><td>Aqara and Apple smart homes</td></tr>
+<tr><td>Xiaomi Mi 360° Camera (1080p)</td><td>Full HD (1920×1080)</td><td>360° / 108°</td><td>microSD up to 32 GB</td><td>2.4 GHz Wi-Fi, Xiaomi Home</td><td>Tight budgets</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying an outdoor camera for indoor use (or vice versa).</strong> A weatherproof bullet camera has no pan/tilt and mounts on a wall, while an indoor camera isn't built for rain. For outdoor use, see our <a href="/us/blog/comparatif-camera-surveillance-exterieure">outdoor security camera comparison</a>.</li>
+<li><strong>Using an ordinary microSD card.</strong> Constant writing wears out standard cards quickly. Choose a high-endurance card designed for video surveillance, and format it from the camera app.</li>
+<li><strong>Confusing "no subscription" with "no cloud."</strong> A camera can record locally while still sending notifications or thumbnails through the manufacturer's servers. Read the privacy settings.</li>
+<li><strong>Ignoring Wi-Fi coverage.</strong> A camera placed far from the router will keep dropping out. Check the supported band and the signal strength where you plan to install it.</li>
+<li><strong>Keeping the default password.</strong> Turn on two-factor authentication for the app account and install firmware updates.</li>
+</ul>
+
+<h2>Installation, privacy and the law</h2>
+<p>Place the camera on a shelf or up high, facing the entrance to the room, and set detection zones that leave out the windows. Every camera in this comparison lets you turn off monitoring or hide the lens while you're home, with a privacy mode or a schedule.</p>
+<p>Recording inside your own home for purely personal use is generally allowed. If you employ someone in your home (a nanny or house cleaner), though, the rules get stricter: in France, for example, you must tell them about the camera, and it shouldn't film them constantly while they work. Laws vary from state to state, so check the rules where you live; telling household staff up front is good practice anywhere. Avoid pointing a camera at the street or into your neighbors' property. To complete your setup, see our <a href="/us/blog/sonnette-video-sans-abonnement">no-subscription video doorbell comparison</a>.</p>
+
+<h2>The bottom line</h2>
+<p>For most households, the <strong>Eufy Indoor Cam E220</strong> is the best choice: 2K video, full rotation, accurate detection and HomeKit, Google and Alexa support. The <strong>TP-Link Tapo C220</strong> is the best value thanks to its 2K QHD resolution and support for 512 GB cards. If you own a NAS, the <strong>Reolink E1 Pro</strong> is the most complete option for keeping your footage at home. The <strong>Aqara Camera Hub G3</strong> stands out if you're building a smart home, and the <strong>Xiaomi Mi 360° Camera (1080p)</strong> is still a simple option on a tight budget.</p>`,
+    ca: `<p><strong>The best indoor security camera without a subscription in 2026 is the Eufy Indoor Cam E220: 2K video, 360° pan/tilt, person, pet and baby-crying detection, and recording to a microSD card with no monthly fee.</strong> If you want the best value, the TP-Link Tapo C220 records in 2K QHD and takes microSD cards up to 512 GB; to archive footage on a NAS, the Reolink E1 Pro is the most complete option.</p>
+<p>Every camera in this comparison records locally, with no mandatory subscription. Manufacturers often offer an optional cloud plan, but you can ignore it: your footage stays at home, on the memory card or on your own server. This guide is based on manufacturer specifications, reviews published by specialist media and verified buyer reviews. To browse all models, see our <a href="/ca/securite-maison/cameras-interieur">indoor security cameras</a> page.</p>
+
+<h2>How to choose an indoor camera without a subscription</h2>
+<h3>Local storage: microSD, NAS or recorder</h3>
+<p>Without a subscription, everything depends on local storage. A microSD card is the simplest solution: it slots into the camera and records continuously or when it detects motion. Check the maximum supported capacity, which ranges from 32 GB to 512 GB depending on the model. Some cameras can also send footage to a NAS (over FTP) or to a network video recorder (NVR), which protects your recordings even if the camera is stolen or damaged.</p>
+<h3>Pan and tilt</h3>
+<p>A motorized camera rotates horizontally and vertically, so a single unit can cover a whole room, and auto-tracking keeps a person or pet in frame. All five models selected here are pan/tilt cameras, the most common format for a living room, hallway or nursery.</p>
+<h3>Resolution and night vision</h3>
+<p>Full HD (1080p) is enough for a small room, but 2K (roughly 3 to 4 megapixels) gives more detail when you zoom in on a face or an object. All models include infrared night vision; a wide aperture (such as the f/1.6 lens on the Reolink E1 Pro) helps in low light.</p>
+<h3>Smart detection</h3>
+<p>Basic motion detection triggers an alert every time the light changes. Choose a camera that can tell people, pets and even a crying baby apart: you'll get fewer pointless notifications and your recordings will be easier to review.</p>
+<h3>Smart home ecosystem</h3>
+<p>Check compatibility with your assistant (Amazon Alexa, Google Home, Apple Home) and the supported Wi-Fi band. Several entry-level cameras only work on 2.4 GHz, which gives good range but can cause trouble with routers that merge both bands into one network.</p>
+
+<h2>The 5 best indoor cameras without a subscription in 2026</h2>
+<h3>1. Eufy Indoor Cam E220: best overall</h3>
+<p>The <strong>Eufy Indoor Cam E220</strong> is the most balanced camera in this comparison. It records in 2K (2304×1296), pans 360° and tilts 96°, and automatically follows detected motion. Its built-in AI recognizes people, pets and a crying baby, which keeps false alerts down.</p>
+<p>Footage is stored on a microSD card up to 128 GB, including continuous 24/7 recording. It works with Apple HomeKit, Google Assistant and Amazon Alexa, which is rare in this class and handy for iPhone households (video drops to 1080p in HomeKit).</p>
+<p><strong>Strengths:</strong> crying and pet detection, auto-tracking, HomeKit, Google and Alexa support.<br><strong>Limitations:</strong> 2.4 GHz Wi-Fi only, must stay plugged in. Eufy was criticized in 2022 over how some data was sent to the cloud, so review the privacy settings in the app.<br><strong>Best for:</strong> families with children or pets, and Apple users.</p>
+
+<h3>2. TP-Link Tapo C220: best value</h3>
+<p>The <strong>TP-Link Tapo C220</strong> is a very complete entry-level indoor camera. It records in 2K QHD (2560×1440), pans 360° and tilts 114°, and its night vision reaches about 9 metres. Its smart detection recognizes people, pets and vehicles, as well as a crying baby.</p>
+<p>Storage is its standout feature: it accepts microSD cards up to 512 GB, enough for many days of recording without a subscription. The Tapo app is easy to use, and the camera works with Amazon Alexa and Google Home.</p>
+<p><strong>Strengths:</strong> 2K QHD, very large microSD capacity, varied detection, simple app.<br><strong>Limitations:</strong> 2.4 GHz Wi-Fi only, no Apple Home support.<br><strong>Best for:</strong> anyone who wants a reliable, well-equipped camera without going premium, or who needs to cover several rooms.</p>
+
+<h3>3. Reolink E1 Pro: best for NAS storage</h3>
+<p>The <strong>Reolink E1 Pro</strong> suits people who want full control over their archive. The current version records in 5 megapixels (2880×1616) through an f/1.6 lens, pans 355° and tilts 50°, with horizontal auto-tracking. It detects people, pets and a crying baby.</p>
+<p>Its storage options set it apart: microSD card, upload to a NAS over FTP, or connection to a Reolink network video recorder to centralize several cameras. Dual-band Wi-Fi (2.4 and 5 GHz) helps in homes where the 2.4 GHz band is crowded.</p>
+<p><strong>Strengths:</strong> 5 MP resolution, dual-band Wi-Fi, FTP and NVR support, no subscription needed.<br><strong>Limitations:</strong> auto-tracking only works horizontally; voice assistant integration is less extensive than on Eufy or Aqara.<br><strong>Best for:</strong> NAS owners and anyone planning several Reolink cameras.</p>
+<p>Note: older versions of the E1 Pro recorded in 4 MP (2560×1440). Check the resolution listed on the product page.</p>
+
+<h3>4. Aqara Camera Hub G3: best for smart home users</h3>
+<p>The <strong>Aqara Camera Hub G3</strong> is both a camera and a smart home hub. It includes a Zigbee 3.0 hub that can control up to 128 Aqara devices (sensors, switches, bulbs) and an infrared blaster to operate a TV or air conditioner. On the video side, it records in 2K (2304×1296) through a 110° lens, pans 340° and tilts 45°.</p>
+<p>It recognizes faces and certain hand gestures to trigger automations, and tracks people and pets. Local recording goes to a microSD card up to 128 GB. It supports HomeKit Secure Video, Alexa and Google Home. Note that HomeKit Secure Video stores clips in iCloud and requires an iCloud+ plan: to stay subscription-free, use the microSD card.</p>
+<p><strong>Strengths:</strong> built-in Zigbee hub, infrared remote control, face and gesture recognition, 2.4 and 5 GHz Wi-Fi.<br><strong>Limitations:</strong> positioned at the premium end, less useful if you don't use Aqara accessories.<br><strong>Best for:</strong> people building a smart home around Aqara or Apple Home.</p>
+
+<h3>5. Xiaomi Mi 360° Camera (1080p): simplest budget option</h3>
+<p>The <strong>Xiaomi Mi 360° Camera (1080p)</strong> (formerly sold as the Mi Home Security Camera 360°) remains an entry-level way to keep an eye on a room. It records in Full HD 1080p, offers a 360° horizontal and 108° vertical view, and uses invisible 940 nm infrared LEDs for night vision.</p>
+<p><strong>Strengths:</strong> compact design, full rotation, discreet night vision.<br><strong>Limitations:</strong> 1080p only, microSD limited to 32 GB, less refined detection than newer models, requires a Xiaomi account.<br><strong>Best for:</strong> a secondary room or occasional use when budget comes first.</p>
+
+<h2>Comparison table of indoor cameras without a subscription</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Resolution</th><th>Pan / tilt</th><th>Local storage</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Eufy Indoor Cam E220</td><td>2K (2304×1296)</td><td>360° / 96°</td><td>microSD up to 128 GB</td><td>2.4 GHz Wi-Fi, HomeKit, Alexa, Google</td><td>Families, Apple users</td></tr>
+<tr><td>TP-Link Tapo C220</td><td>2K QHD (2560×1440)</td><td>360° / 114°</td><td>microSD up to 512 GB</td><td>2.4 GHz Wi-Fi, Alexa, Google</td><td>Best value</td></tr>
+<tr><td>Reolink E1 Pro</td><td>5 MP (2880×1616)</td><td>355° / 50°</td><td>microSD, FTP to NAS, NVR</td><td>2.4 and 5 GHz Wi-Fi</td><td>NAS archiving</td></tr>
+<tr><td>Aqara Camera Hub G3</td><td>2K (2304×1296)</td><td>340° / 45°</td><td>microSD up to 128 GB</td><td>2.4 and 5 GHz Wi-Fi, Zigbee 3.0 hub, HomeKit, Alexa, Google</td><td>Aqara and Apple smart homes</td></tr>
+<tr><td>Xiaomi Mi 360° Camera (1080p)</td><td>Full HD (1920×1080)</td><td>360° / 108°</td><td>microSD up to 32 GB</td><td>2.4 GHz Wi-Fi, Xiaomi Home</td><td>Tight budgets</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying an outdoor camera for indoor use (or vice versa).</strong> A weatherproof bullet camera has no pan/tilt and is wall-mounted, while an indoor camera isn't built for rain or snow. For outdoor use, see our <a href="/ca/blog/comparatif-camera-surveillance-exterieure">outdoor camera comparison</a>.</li>
+<li><strong>Using an ordinary microSD card.</strong> Constant writing wears out standard cards quickly. Choose an "endurance" card designed for video surveillance, and format it from the camera app.</li>
+<li><strong>Confusing "no subscription" with "no cloud".</strong> A camera can record locally while still sending notifications or thumbnails through the manufacturer's servers. Read the privacy settings.</li>
+<li><strong>Ignoring Wi-Fi coverage.</strong> A camera placed far from the router will keep dropping out. Check the supported band and the signal strength where you plan to install it.</li>
+<li><strong>Keeping the default password.</strong> Turn on two-factor authentication for the app account and install firmware updates.</li>
+</ul>
+
+<h2>Installation, privacy and the law</h2>
+<p>Place the camera on a shelf or up high, facing the entrance to the room, and set detection zones that exclude windows. Every camera in this comparison lets you switch off monitoring or hide the lens while you're at home, through a privacy mode or a schedule.</p>
+<p>Filming inside your own home for purely personal use is generally allowed. However, if you employ someone in your home (a nanny or house cleaner), tell them about the camera, and don't let it film them constantly while they work. In France, both are legal requirements. In Canada, privacy rules for workers vary by province and territory, so check what applies where you live. Never point a camera at the street or at your neighbours' property. To complete your setup, see our <a href="/ca/blog/sonnette-video-sans-abonnement">no-subscription video doorbell comparison</a>.</p>
+
+<h2>Our verdict</h2>
+<p>For most households, the <strong>Eufy Indoor Cam E220</strong> is the best choice: 2K video, full rotation, accurate detection and HomeKit, Google and Alexa support. The <strong>TP-Link Tapo C220</strong> is the best value thanks to its 2K QHD resolution and support for 512 GB cards. If you own a NAS, the <strong>Reolink E1 Pro</strong> is the most complete option for keeping your footage at home. The <strong>Aqara Camera Hub G3</strong> stands out if you're building a smart home, and the <strong>Xiaomi Mi 360° Camera (1080p)</strong> remains a simple option on a tight budget.</p>`,
   },
   faq: [
     {
@@ -547,6 +766,9 @@ export const article: BlogArticle = {
         it: `Una videocamera per interni può davvero funzionare senza alcun abbonamento?`,
         nl: `Werkt een binnencamera echt zonder enig abonnement?`,
         pl: `Czy kamera wewnętrzna naprawdę może działać zupełnie bez abonamentu?`,
+        sv: `Kan en inomhuskamera verkligen fungera helt utan abonnemang?`,
+        us: `Can an indoor camera really work without any subscription?`,
+        ca: `Can an indoor camera really work without any subscription?`,
       },
       answer: {
         fr: `Oui. Les cinq modèles de ce comparatif enregistrent sur une carte microSD et envoient des alertes sur votre smartphone sans abonnement. L'abonnement cloud proposé par certains fabricants est facultatif : il sert surtout à conserver une copie des vidéos hors de chez vous.`,
@@ -556,6 +778,9 @@ export const article: BlogArticle = {
         it: `Sì. Tutti e cinque i modelli di questo confronto registrano su scheda microSD e inviano notifiche allo smartphone senza abbonamento. Il piano cloud proposto da alcuni produttori è facoltativo e serve soprattutto a conservare una copia dei video fuori casa.`,
         nl: `Ja. Alle vijf modellen in deze vergelijking nemen op naar een microSD-kaart en sturen zonder abonnement meldingen naar uw smartphone. Het cloudabonnement dat sommige fabrikanten aanbieden is optioneel en dient vooral om een kopie van de beelden buitenshuis te bewaren.`,
         pl: `Tak. Każdy z pięciu modeli w tym porównaniu nagrywa na kartę microSD i bez abonamentu wysyła alerty na smartfon. Abonament na chmurę, który proponują niektórzy producenci, jest dobrowolny i służy głównie do przechowywania kopii nagrań poza domem.`,
+        sv: `Ja. Alla fem modellerna i jämförelsen spelar in på ett microSD-kort och skickar notiser till mobilen utan abonnemang. Molnabonnemanget som vissa tillverkare erbjuder är frivilligt och används främst för att ha en kopia av videorna utanför hemmet.`,
+        us: `Yes. All five models in this comparison record to a microSD card and send alerts to your phone without a subscription. The cloud plan some manufacturers offer is optional; it mainly keeps a copy of your footage off-site.`,
+        ca: `Yes. All five models in this comparison record to a microSD card and send alerts to your phone without a subscription. The cloud plan some manufacturers offer is optional and mainly keeps a copy of your footage outside your home.`,
       },
     },
     {
@@ -567,6 +792,9 @@ export const article: BlogArticle = {
         it: `Quale scheda microSD scegliere per una videocamera di sorveglianza?`,
         nl: `Welke microSD-kaart kiest u voor een beveiligingscamera?`,
         pl: `Jaką kartę microSD wybrać do kamery monitoringu?`,
+        sv: `Vilket microSD-kort passar i en övervakningskamera?`,
+        us: `Which microSD card should I use in a security camera?`,
+        ca: `Which microSD card should I use in a security camera?`,
       },
       answer: {
         fr: `Choisissez une carte de type « endurance », conçue pour l'écriture continue, et vérifiez la capacité maximale acceptée par votre caméra (32 Go pour la Xiaomi, 128 Go pour l'Eufy E220 et l'Aqara G3, 512 Go pour la Tapo C220). Formatez-la toujours depuis l'application de la caméra.`,
@@ -576,6 +804,9 @@ export const article: BlogArticle = {
         it: `Scegli una scheda di tipo «endurance», progettata per la scrittura continua, e controlla la capacità massima supportata (32 GB per la Xiaomi, 128 GB per Eufy E220 e Aqara G3, 512 GB per la Tapo C220). Formattala sempre dall'app della videocamera.`,
         nl: `Kies een "endurance"-kaart die gemaakt is voor continu schrijven, en controleer de maximale capaciteit die uw camera ondersteunt (32 GB voor de Xiaomi, 128 GB voor de Eufy E220 en Aqara G3, 512 GB voor de Tapo C220). Formatteer de kaart altijd via de camera-app.`,
         pl: `Wybierz kartę typu „endurance”, przeznaczoną do ciągłego zapisu, i sprawdź, jaką maksymalną pojemność obsługuje Twoja kamera (32 GB w Xiaomi, 128 GB w Eufy E220 i Aqara G3, 512 GB w Tapo C220). Formatuj ją zawsze w aplikacji kamery.`,
+        sv: `Välj ett kort av typen ”endurance”, som är gjort för kontinuerlig skrivning, och kontrollera hur stora kort kameran klarar (32 GB för Xiaomi, 128 GB för Eufy E220 och Aqara G3, 512 GB för Tapo C220). Formatera alltid kortet i kamerans app.`,
+        us: `Choose a high-endurance card designed for continuous writing, and check the maximum capacity your camera supports (32 GB for the Xiaomi, 128 GB for the Eufy E220 and Aqara G3, 512 GB for the Tapo C220). Always format it from the camera app.`,
+        ca: `Choose an "endurance" card designed for continuous writing, and check the maximum capacity your camera supports (32 GB for the Xiaomi, 128 GB for the Eufy E220 and Aqara G3, 512 GB for the Tapo C220). Always format it from the camera app.`,
       },
     },
     {
@@ -587,6 +818,9 @@ export const article: BlogArticle = {
         it: `Cosa succede se la videocamera viene rubata insieme alla scheda SD?`,
         nl: `Wat gebeurt er als de camera samen met de SD-kaart wordt gestolen?`,
         pl: `Co się stanie, jeśli kamera zostanie skradziona razem z kartą SD?`,
+        sv: `Vad händer om kameran blir stulen tillsammans med SD-kortet?`,
+        us: `What happens if the camera is stolen along with the SD card?`,
+        ca: `What happens if the camera is stolen along with the SD card?`,
       },
       answer: {
         fr: `Les enregistrements partent avec elle. Pour limiter ce risque, placez la caméra hors de portée, ou choisissez un modèle qui copie les vidéos ailleurs : la Reolink E1 Pro peut les envoyer vers un NAS par FTP ou vers un enregistreur réseau Reolink installé dans une autre pièce.`,
@@ -596,6 +830,9 @@ export const article: BlogArticle = {
         it: `Le registrazioni se ne vanno con lei. Per ridurre il rischio, posiziona la videocamera fuori portata oppure scegli un modello che copi i video altrove: la Reolink E1 Pro può inviarli a un NAS via FTP o a un videoregistratore di rete Reolink installato in un'altra stanza.`,
         nl: `Dan zijn de opnames ook weg. Om dat risico te beperken plaatst u de camera buiten bereik, of kiest u een model dat beelden elders kopieert: de Reolink E1 Pro kan ze via FTP naar een NAS sturen of naar een Reolink-netwerkrecorder in een andere kamer.`,
         pl: `Nagrania przepadną razem z nią. Aby ograniczyć to ryzyko, umieść kamerę poza zasięgiem ręki albo wybierz model, który kopiuje nagrania w inne miejsce: Reolink E1 Pro potrafi wysyłać je przez FTP na serwer NAS lub do rejestratora sieciowego Reolink ustawionego w innym pomieszczeniu.`,
+        sv: `Då försvinner inspelningarna med den. Placera kameran utom räckhåll för att minska risken, eller välj en modell som kopierar videorna till en annan plats: Reolink E1 Pro kan skicka dem till en NAS via FTP eller till en nätverksinspelare från Reolink i ett annat rum.`,
+        us: `The recordings go with it. To reduce this risk, place the camera out of reach, or choose a model that copies footage elsewhere: the Reolink E1 Pro can send clips to a NAS over FTP or to a Reolink network recorder installed in another room.`,
+        ca: `The recordings go with it. To reduce this risk, place the camera out of reach, or choose a model that copies footage elsewhere: the Reolink E1 Pro can send clips to a NAS over FTP or to a Reolink network recorder installed in another room.`,
       },
     },
     {
@@ -607,6 +844,9 @@ export const article: BlogArticle = {
         it: `Quale videocamera per interni senza abbonamento scegliere con un iPhone?`,
         nl: `Welke binnencamera zonder abonnement past het best bij een iPhone?`,
         pl: `Jaką kamerę wewnętrzną bez abonamentu wybrać do iPhone’a?`,
+        sv: `Vilken inomhuskamera utan abonnemang ska jag välja om jag har iPhone?`,
+        us: `Which no-subscription indoor camera works best with an iPhone?`,
+        ca: `Which no-subscription indoor camera works best with an iPhone?`,
       },
       answer: {
         fr: `L'Eufy Indoor Cam E220 et l'Aqara Camera Hub G3 sont compatibles avec Apple HomeKit. L'Aqara prend en charge HomeKit Secure Video, qui stocke les vidéos dans iCloud et nécessite un forfait iCloud+ ; pour rester sans abonnement, gardez l'enregistrement sur carte microSD.`,
@@ -616,6 +856,9 @@ export const article: BlogArticle = {
         it: `La Eufy Indoor Cam E220 e la Aqara Camera Hub G3 sono compatibili con Apple HomeKit. La Aqara supporta HomeKit Secure Video, che salva i video su iCloud e richiede un piano iCloud+; per restare senza abbonamento, registra sulla scheda microSD.`,
         nl: `De Eufy Indoor Cam E220 en de Aqara Camera Hub G3 werken met Apple HomeKit. De Aqara ondersteunt HomeKit Secure Video, dat clips in iCloud bewaart en een iCloud+-abonnement vereist; wilt u zonder abonnement blijven, neem dan op naar de microSD-kaart.`,
         pl: `Z Apple HomeKit współpracują Eufy Indoor Cam E220 i Aqara Camera Hub G3. Aqara obsługuje też HomeKit Secure Video, ale ta usługa przechowuje nagrania w iCloud i wymaga planu iCloud+. Jeśli nie chcesz płacić abonamentu, nagrywaj na kartę microSD.`,
+        sv: `Eufy Indoor Cam E220 och Aqara Camera Hub G3 fungerar båda med Apple HomeKit. Aqara stöder HomeKit Secure Video, som sparar videorna i iCloud och kräver ett iCloud+-abonnemang. Vill du slippa abonnemang sparar du inspelningarna på microSD-kortet.`,
+        us: `The Eufy Indoor Cam E220 and the Aqara Camera Hub G3 both work with Apple HomeKit. The Aqara supports HomeKit Secure Video, which stores clips in iCloud and needs an iCloud+ plan; to stay subscription-free, keep recording to the microSD card.`,
+        ca: `The Eufy Indoor Cam E220 and the Aqara Camera Hub G3 both work with Apple HomeKit. The Aqara supports HomeKit Secure Video, which stores clips in iCloud and needs an iCloud+ plan; to stay subscription-free, keep recording to the microSD card.`,
       },
     },
     {
@@ -627,6 +870,9 @@ export const article: BlogArticle = {
         it: `Si può riprendere una babysitter o una collaboratrice domestica in casa?`,
         nl: `Mag u een oppas of schoonmaakhulp thuis filmen?`,
         pl: `Czy wolno filmować nianię lub pomoc domową we własnym domu?`,
+        sv: `Får jag filma en barnflicka eller städhjälp hemma hos mig?`,
+        us: `Can I record a nanny or house cleaner in my home?`,
+        ca: `Can I film a nanny or house cleaner in my home?`,
       },
       answer: {
         fr: `Vous devez l'informer de la présence de la caméra avant son arrivée, et la caméra ne doit pas la filmer en permanence pendant son travail. Une caméra cachée pour surveiller un salarié est à proscrire. En cas de doute, consultez les recommandations de la CNIL.`,
@@ -636,6 +882,9 @@ export const article: BlogArticle = {
         it: `Devi informarla della presenza della videocamera prima che inizi, e la videocamera non deve riprenderla in modo continuativo mentre lavora. Le telecamere nascoste per controllare un dipendente vanno evitate. In caso di dubbio, consulta le indicazioni del Garante per la protezione dei dati personali.`,
         nl: `U moet de persoon vooraf over de camera informeren, en de camera mag hem of haar niet voortdurend filmen tijdens het werk. Verborgen camera's om een werknemer te controleren zijn uit den boze. Twijfelt u, raadpleeg dan de richtlijnen van de Autoriteit Persoonsgegevens.`,
         pl: `Tak, ale musisz uprzedzić tę osobę o kamerze, zanim zacznie u Ciebie pracę, a kamera nie może jej filmować przez cały czas pracy. Ukryta kamera do obserwowania pracownika nie wchodzi w grę. W razie wątpliwości sprawdź zalecenia krajowego organu ochrony danych (we Francji: CNIL).`,
+        sv: `Du måste berätta om kameran innan personen börjar arbeta, och kameran bör inte filma personen oavbrutet under arbetet. Använd aldrig en dold kamera för att övervaka en anställd. Är du osäker kan du läsa vägledningen från den nationella dataskyddsmyndigheten.`,
+        us: `It depends on where you live. In France, for example, you must tell them about the camera before they start, and it shouldn't film them constantly while they work. Hidden cameras to keep tabs on an employee are best avoided. If in doubt, check your state and local laws.`,
+        ca: `Tell them about the camera before they start, and don't film them constantly while they work. Avoid using a hidden camera to monitor an employee. Privacy rules vary by province and territory, so if in doubt, check the guidance from the privacy regulator where you live.`,
       },
     },
     {
@@ -647,6 +896,9 @@ export const article: BlogArticle = {
         it: `Videocamera fissa o motorizzata: quale scegliere per l'interno?`,
         nl: `Vaste of draaibare camera: wat is beter voor binnen?`,
         pl: `Kamera stała czy obrotowa: którą wybrać do domu?`,
+        sv: `Fast eller motoriserad kamera: vilken passar bäst inomhus?`,
+        us: `Fixed or pan/tilt camera: which is better indoors?`,
+        ca: `Fixed or pan/tilt camera: which is better indoors?`,
       },
       answer: {
         fr: `Une caméra motorisée couvre toute une pièce et peut suivre une personne ou un animal, ce qui convient bien à un salon ou une chambre d'enfant. Une caméra fixe à grand angle suffit pour surveiller une entrée ou un couloir. Les cinq modèles de ce comparatif sont motorisés.`,
@@ -656,6 +908,9 @@ export const article: BlogArticle = {
         it: `Una videocamera motorizzata copre un'intera stanza e può seguire una persona o un animale, ideale per soggiorno o cameretta. Una videocamera fissa grandangolare basta per sorvegliare un ingresso o un corridoio. Tutti e cinque i modelli di questo confronto sono motorizzati.`,
         nl: `Een draaibare camera bestrijkt een hele kamer en kan een persoon of huisdier volgen, ideaal voor woonkamer of babykamer. Een vaste groothoekcamera volstaat voor een ingang of gang. Alle vijf modellen in deze vergelijking zijn draai-/kantelcamera's.`,
         pl: `Kamera obrotowa obejmuje całe pomieszczenie i może śledzić osobę lub zwierzę, dlatego dobrze sprawdza się w salonie lub pokoju dziecka. Do obserwowania wejścia lub korytarza wystarczy stała kamera szerokokątna. Każdy z pięciu modeli w tym porównaniu jest obrotowy.`,
+        sv: `En motoriserad kamera täcker ett helt rum och kan följa en person eller ett husdjur, vilket passar bra i vardagsrummet eller barnrummet. En fast vidvinkelkamera räcker för att bevaka en entré eller en hall. Alla fem modellerna i jämförelsen är motoriserade.`,
+        us: `A pan/tilt camera covers a whole room and can follow a person or pet, which suits a living room or nursery. A fixed wide-angle camera is enough to watch an entrance or hallway. All five models in this comparison are pan/tilt cameras.`,
+        ca: `A pan/tilt camera covers a whole room and can follow a person or pet, which suits a living room or nursery. A fixed wide-angle camera is enough to watch an entrance or hallway. All five models in this comparison are pan/tilt cameras.`,
       },
     },
   ],

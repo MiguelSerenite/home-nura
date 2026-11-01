@@ -157,4 +157,70 @@ export const STICK_VACUUMS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  sv: {
+    name: 'Sladdlösa dammsugare',
+    h1: `Black Friday ${Y}: sladdlösa dammsugare att hålla koll på`,
+    metaTitle: `Black Friday ${Y}: sladdlösa dammsugare värda att bevaka`,
+    metaDescription: `Sladdlösa dammsugare att hålla koll på inför Black Friday ${Y}: Dyson, Rowenta och Samsung. Kontrollera batteritid, filtrering och dammbehållare.`,
+    blurb: 'Dyson, Rowenta, Samsung: batteritid, filtrering och tömning.',
+    intro: 'En sladdlös dammsugare bedöms efter den faktiska batteritiden i normalläget, filtreringen och hur stor dammbehållaren är. Under reorna bör du också kontrollera vilka tillbehör och batterier som ingår: de skiljer sig åt mellan olika versioner.',
+    faq: [
+      {
+        question: 'Hur lång batteritid behöver jag?',
+        answer: 'Den angivna batteritiden gäller det svagaste läget: räkna med betydligt kortare tid i normal- eller maxläget. I en stor bostad är ett löstagbart batteri en fördel, eftersom du då kan skaffa ett till.',
+      },
+      {
+        question: 'Sladdlös dammsugare eller robotdammsugare?',
+        answer: 'Robotdammsugaren håller golven rena i vardagen utan att du behöver göra något. Den sladdlösa dammsugaren behövs ändå för trappor, mattor, soffan och bilen. Många hushåll har båda.',
+      },
+      {
+        question: 'Gör en tömningsstation nytta?',
+        answer: 'Du slipper dammolnet när behållaren töms, vilket är skönt om du är allergisk. Å andra sidan tar stationen plats och kräver påsar.',
+      },
+    ],
+  },
+  us: {
+    name: 'Cordless stick vacuums',
+    h1: `Black Friday ${Y}: The Cordless Stick Vacuums Worth Watching`,
+    metaTitle: `Black Friday ${Y}: Best Cordless Vacuums to Watch`,
+    metaDescription: `Cordless stick vacuums worth watching this Black Friday ${Y}: Dyson, Rowenta and Samsung. Real runtime, filtration, dustbin size: what to check first.`,
+    blurb: 'Dyson, Rowenta, Samsung: runtime, filtration and how easily it empties.',
+    intro: "Judge a cordless stick vacuum on its real runtime in normal mode, its filtration and the size of its dustbin. During sales, also check which accessories and batteries come in the box: they change from one bundle to the next.",
+    faq: [
+      {
+        question: 'How much runtime do I need?',
+        answer: "Advertised runtime is measured in the lowest power mode, so expect noticeably less in normal or boost mode. For a larger home, a removable battery lets you add a spare and swap it mid-clean.",
+      },
+      {
+        question: 'Stick vacuum or robot vacuum?',
+        answer: "A robot keeps floors clean day to day with no effort on your part; a stick vacuum is still the tool for stairs, rugs, the couch and the car. Plenty of households have both.",
+      },
+      {
+        question: 'Is a self-emptying dock worth it?',
+        answer: "It spares you the cloud of dust when you empty the bin, which helps if you have allergies. The trade-off: it takes up floor space and uses bags.",
+      },
+    ],
+  },
+  ca: {
+    name: 'Cordless stick vacuums',
+    h1: `Black Friday ${Y}: the cordless stick vacuums worth watching`,
+    metaTitle: `Black Friday ${Y}: Cordless Stick Vacuums Worth Watching`,
+    metaDescription: `Cordless stick vacuums worth watching this Black Friday ${Y}: Dyson, Rowenta and Samsung. Runtime, filtration, dust bin size: what to check before you buy.`,
+    blurb: 'Dyson, Rowenta, Samsung: runtime, filtration and emptying.',
+    intro: 'A cordless stick vacuum is judged on its real runtime in normal mode, its filtration and the size of its dust bin. During sales, also check which accessories and batteries come in the box, since they vary from one bundle to another.',
+    faq: [
+      {
+        question: 'How much runtime do I need?',
+        answer: 'Advertised runtime is measured in the lowest power mode, so expect noticeably less in normal or boost mode. For a large home, a removable battery lets you add a second one.',
+      },
+      {
+        question: 'Stick vacuum or robot vacuum?',
+        answer: 'A robot keeps floors clean day to day with no effort on your part; a stick vacuum is still a must for stairs, rugs, the couch and the car. Many households have both.',
+      },
+      {
+        question: 'Is an auto-empty station worth it?',
+        answer: 'It spares you the cloud of dust when you empty the bin, which helps if you have allergies. On the other hand, it takes up floor space and uses bags.',
+      },
+    ],
+  },
 }

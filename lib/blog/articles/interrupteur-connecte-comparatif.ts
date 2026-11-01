@@ -777,6 +777,339 @@ const pl = `<p><strong>W 2026 roku najlepszym inteligentnym włącznikiem świat
 <h2>Nasz werdykt</h2>
 <p>Dla większości mieszkań <strong>Aqara Light Switch H2 EU</strong> oferuje najlepszą równowagę: z przewodem neutralnym lub bez, zgodny z Matter, otwarty na wszystkich asystentów. Jeśli zależy Ci na obecnym osprzęcie i masz przewód neutralny, <strong>Shelly 1PM Gen4</strong> to wybór najbardziej ekonomiczny i elastyczny. Domy z żarówkami Hue wybiorą <strong>Philips Hue Tap Dial Switch</strong>, a instalacjom Céliane lub Living Now opłaca się pozostać przy serii <strong>Legrand</strong> lub <strong>BTicino</strong> with Netatmo. Aby obniżyć także rachunki, zobacz nasze <a href="/pl/blog/comparatif-smart-plugs-mesure-energie">porównanie inteligentnych wtyczek z pomiarem energii</a>.</p>`
 
+const sv = `<p><strong>Den bästa smarta strömbrytaren för de flesta europeiska hem 2026 är Aqara Light Switch H2 EU</strong>: den klarar sig med eller utan nolledare, har både Zigbee och Matter via Thread och kan kopplas till Apple Home, Google Home, Alexa och Home Assistant. Vill du hellre behålla dina nuvarande strömbrytare är det mest mångsidiga alternativet en <strong>Shelly 1PM Gen4</strong>-modul som döljs bakom dem. Har du redan smarta lampor klarar du dig helt utan kabeldragning med en batteridriven väggbrytare som <strong>Philips Hue Tap Dial Switch</strong>.</p>
+<p>Den här jämförelsen bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Den omfattar de tre stora grupperna: smarta väggströmbrytare, inbyggnadsmoduler och trådlösa fjärrkontroller. Alla modeller hittar du i vår kategori <a href="/sv/energie-domotique/interrupteurs">smarta strömbrytare</a>.</p>
+
+<h2>Så väljer du rätt smart strömbrytare</h2>
+<p>Innan du jämför märken räcker det med fem frågor för att sålla bort 80 % av felköpen.</p>
+<ul>
+<li><strong>Finns det en nolledare i apparatdosan?</strong> Det är den allra viktigaste frågan. I många äldre bostäder är bara fas och tändtråd framdragna till strömbrytaren. Då behöver du en modell som klarar sig ”utan nolla”.</li>
+<li><strong>Vilket trådlöst protokoll?</strong> Zigbee, wifi, Thread och Matter ställer olika krav (hubb, gränsrouter, strömförbrukning).</li>
+<li><strong>Har du vanliga eller smarta lampor?</strong> Med vanliga lampor måste strömbrytaren bryta strömmen. Med smarta lampor får den aldrig göra dem strömlösa.</li>
+<li><strong>Hur stor är lasten?</strong> Modeller utan nolledare kräver en minimilast: under den kan vissa LED-lampor flimra eller lysa svagt. En kompensator (en så kallad ”bypass”) brukar lösa problemet.</li>
+<li><strong>Vilket ekosystem?</strong> Apple Home, Google Home, Alexa, Home Assistant eller tillverkarens egen app: kontrollera kompatibiliteten innan du köper.</li>
+</ul>
+
+<h2>Med eller utan nolledare: vad det faktiskt innebär</h2>
+<p>En smart strömbrytare måste ha ström hela tiden för att kunna ta emot radiokommandon. <strong>Med nolledare</strong> får den ström direkt mellan fas och nolla: den fungerar stabilt, och funktioner som energimätning och överlastskydd blir möjliga. <strong>Utan nolledare</strong> hämtar modulen en mycket liten ström genom själva lampan. Det fungerar bra när lasten är tillräckligt stor, men LED-lampor med låg effekt kan flimra eller glöda svagt även när de är avslagna.</p>
+<p>Så kollar du: slå av säkringen, skruva loss strömbrytaren och titta på ledarna. En blå ledare (nolla) som finns i dosan men inte är ansluten till strömbrytaren är ett gott tecken, men i äldre installationer går det inte alltid att lita på färgerna. Är du osäker, låt en elektriker kontrollera.</p>
+
+<h2>Zigbee, wifi, Thread eller Matter: vilket protokoll ska du välja?</h2>
+<ul>
+<li><strong>Zigbee</strong>: ett beprövat och energisnålt meshprotokoll. Det kräver en hubb (Aqara, Philips Hue, IKEA DIRIGERA, Netatmos gateway, Home Assistant med en Zigbee-sticka). Enheter som drivs från elnätet stärker nätverket.</li>
+<li><strong>Wifi</strong>: ingen hubb behövs, och du ställer in allt direkt i mobilen. Å andra sidan drar wifi mer ström, och wifi-moduler behöver i regel en nolledare. Många wifi-enheter belastar dessutom routern.</li>
+<li><strong>Thread</strong>: ett energisnålt meshnätverk som Zigbee, men IP-baserat. Det kräver en Thread Border Router (gränsrouter för Thread), som finns inbyggd i vissa nyare smarta högtalare och smarthemshubbar.</li>
+<li><strong>Matter</strong>: ingen radioteknik utan en gemensam standard som körs via Thread eller wifi. En Matter-enhet kan läggas till i flera ekosystem samtidigt, vilket minskar risken att bli inlåst hos ett enda märke.</li>
+</ul>
+<p>Vill du veta mer om de här standarderna, läs vår guide <a href="/sv/blog/maison-connectee-matter-thread-2026">smarta hem: Matter och Thread 2026</a>.</p>
+
+<h2>De 6 bästa smarta strömbrytarna 2026</h2>
+
+<h3>1. Aqara Light Switch H2 EU – bäst totalt</h3>
+<p><strong>Aqara Light Switch H2 EU</strong> lanserades i Europa i början av 2025. Det är en väggströmbrytare i europeiskt format som fungerar i installationer <strong>med och utan nolledare</strong>. Den kombinerar <strong>Zigbee och Matter via Thread</strong> och kan därför anslutas till Apple Home, Google Home, Amazon Alexa eller Home Assistant. Den finns med 2 knappar (1 kanal) och med 4 knappar (2 kanaler).</p>
+<p><strong>Styrkor:</strong> stöd för både Zigbee och Matter, fungerar utan nolledare, energimätning samt skydd mot överlast och överhettning när en nolledare är ansluten, extra knappar som kan styra scener.</p>
+<p><strong>Svagheter:</strong> Matter via Thread kräver en Thread Border Router, och med Zigbee behöver du Aqaras hubb eller en kompatibel. Designen passar inte ihop med befintliga serier av strömbrytare och uttag.</p>
+<p><strong>Passar för:</strong> dig som vill ha en modern strömbrytare som är öppen för alla ekosystem, även i en bostad utan nolledare.</p>
+
+<h3>2. Legrand Céliane with Netatmo – den mest genomarbetade integrationen i Frankrike</h3>
+<p>Serien <strong>Céliane with Netatmo</strong> har samma design som Legrands strömbrytarserie Céliane, som är mycket vanlig i Frankrike. De smarta strömbrytarna <strong>utan nolledare</strong> finns med dimmerfunktion (5–125 W enligt Legrand) och i en på/av-version för upp till 200 W. Den levereras med en kompensator för små LED-laster. De kommunicerar via Zigbee med Netatmos gateway och styrs i appen Home + Control samt med Alexa, Google Assistent och Apple HomeKit.</p>
+<p><strong>Styrkor:</strong> ser exakt ut som resten av en Céliane-installation, ingen nolledare behövs, kompensator medföljer, fungerar med de tre stora röstassistenterna.</p>
+<p><strong>Svagheter:</strong> kräver Netatmos gateway, dyrare att komma igång med än generiska lösningar, mindre intressant om din bostad inte har Céliane.</p>
+<p><strong>Passar för:</strong> renoveringar och nybyggen med Céliane, och dig som föredrar en lösning som installeras av en elektriker.</p>
+
+<h3>3. BTicino Living Now with Netatmo – motsvarigheten för den italienska marknaden</h3>
+<p><strong>BTicino</strong> tillhör samma koncern som Legrand och har serien <strong>Living Now with Netatmo</strong>, som är mycket vanlig i Italien. Den smarta strömbrytaren utan nolledare med dimmerfunktion (artikelnummer K4413CM2) klarar laster på 5–125 W, och det finns också en version med nolledare. Radiotekniken är <strong>Zigbee 3.0</strong>, och den fungerar med Apple HomeKit, Google Assistent och Amazon Alexa via appen Home + Control.</p>
+<p><strong>Styrkor:</strong> stilren design, versioner med eller utan nolledare, ett enhetligt ekosystem med uttag och reglage för rulljalusier i samma serie.</p>
+<p><strong>Svagheter:</strong> formatet är anpassat för italienska apparatdosor, kräver gateway, knappast intressant utanför en Living Now-installation.</p>
+<p><strong>Passar för:</strong> bostäder som redan har BTicino eller som renoveras med den här serien.</p>
+
+<h3>4. Shelly 1PM Gen4 – mest prisvärd om du vill behålla dina strömbrytare</h3>
+<p><strong>Shelly 1PM Gen4</strong> är ingen strömbrytare utan en <strong>modul som du monterar bakom din befintliga strömbrytare</strong>. Reläet på 16 A mäter elförbrukningen och hanterar <strong>wifi, Bluetooth, Zigbee och Matter</strong> samtidigt, utan att någon hubb krävs. Med sina mått (ca 37 × 42 × 16 mm) får det plats i en apparatdosa som är tillräckligt djup.</p>
+<p><strong>Styrkor:</strong> du behåller dina strömbrytare och deras utseende, brett protokollstöd, lokal webbserver, frikopplat läge (”detached”) där strömbrytaren skickar ett kommando utan att bryta strömmen (perfekt med smarta lampor).</p>
+<p><strong>Svagheter:</strong> <strong>nolledare krävs</strong> (för installationer utan nolledare har Shelly modellen Shelly 1L Gen4, som används tillsammans med en bypass), mer tekniskt att koppla in, ibland för trångt i grunda dosor.</p>
+<p><strong>Passar för:</strong> vana hemmafixare och installatörer som vill göra en hel bostad smart utan att byta strömbrytare.</p>
+
+<h3>5. Philips Hue Tap Dial Switch – bäst för smarta lampor</h3>
+<p><strong>Philips Hue Tap Dial Switch</strong> är en batteridriven trådlös brytare med <strong>fyra programmerbara knappar och ett vridreglage för dimring</strong>. Den sätts upp på väggen med tejp eller fästs på en magnetisk yta, och du kan lyfta loss den och använda den som fjärrkontroll. Tillsammans med Hue Bridge, som enligt Philips krävs, kan den styra upp till tre rum eller en zon, välja scener efter tid på dygnet eller starta automationer.</p>
+<p><strong>Styrkor:</strong> ingen kabeldragning, skönt vridreglage för dimring, flera scener, perfekt om du hyr.</p>
+<p><strong>Svagheter:</strong> fungerar bara i Hues ekosystem, batteriet måste bytas, ersätter inte en strömbrytare som bryter strömmen till vanliga lampor.</p>
+<p><strong>Passar för:</strong> hem som redan har Hue-lampor. Behöver du något enklare finns den mer grundläggande Hue Dimmer Switch.</p>
+
+<h3>6. IKEA RODRET – den mest överkomliga fjärrkontrollen</h3>
+<p>Den trådlösa dimmern <strong>IKEA RODRET</strong> tänder, släcker och dimrar upp till tio ljuskällor från IKEA samtidigt. Den parkopplas direkt med märkets smarta lampor och armaturer via Zigbee, eller styrs i appen IKEA Home smart via hubben DIRIGERA. Vill du ha fler knappar och kunna byta ljusfärg är IKEA STYRBAR nästa steg.</p>
+<p><strong>Styrkor:</strong> kostar lite, ingen kabeldragning, fungerar även utan hubb.</p>
+<p><strong>Svagheter:</strong> gjord för IKEA:s belysning, begränsade funktioner utan DIRIGERA, enkel finish.</p>
+<p><strong>Passar för:</strong> hyresgäster och hushåll med liten budget som har smarta lampor från IKEA.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Nolledare</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Aqara Light Switch H2 EU</td><td>Väggströmbrytare</td><td>Med eller utan</td><td>Zigbee, Matter via Thread</td><td>Allround, flera ekosystem</td></tr>
+<tr><td>Legrand Céliane with Netatmo</td><td>Väggströmbrytare</td><td>Utan (kompensator medföljer)</td><td>Zigbee + Netatmo-gateway</td><td>Céliane-installationer</td></tr>
+<tr><td>BTicino Living Now with Netatmo</td><td>Väggströmbrytare</td><td>Med eller utan beroende på version</td><td>Zigbee 3.0 + gateway</td><td>BTicino-installationer</td></tr>
+<tr><td>Shelly 1PM Gen4</td><td>Inbyggnadsmodul</td><td>Krävs</td><td>Wifi, Bluetooth, Zigbee, Matter</td><td>Behålla befintliga strömbrytare</td></tr>
+<tr><td>Philips Hue Tap Dial Switch</td><td>Batteridriven fjärrkontroll</td><td>Ej aktuellt</td><td>Zigbee (Hue Bridge)</td><td>Hue-lampor, hyresboende</td></tr>
+<tr><td>IKEA RODRET</td><td>Batteridriven fjärrkontroll</td><td>Ej aktuellt</td><td>Zigbee (DIRIGERA som tillval)</td><td>Liten budget, IKEA-belysning</td></tr>
+</tbody>
+</table>
+
+<h2>Så behåller du vanliga strömbrytare med smarta lampor</h2>
+<p>Det här är den vanligaste fällan: du skruvar i smarta lampor, någon slår av strömbrytaren på väggen och lamporna försvinner från nätverket. Det finns tre lösningar:</p>
+<ul>
+<li><strong>Byt ut strömbrytaren mot en trådlös brytare</strong> (Hue Tap Dial, RODRET) och låt kretsen alltid vara strömsatt, till exempel genom att koppla förbi strömbrytaren bakom ett blindlock. Det är ett jobb för en elektriker.</li>
+<li><strong>Montera en modul i frikopplat läge</strong> (Shelly 1PM Gen4): strömbrytaren skickar ett kommando i stället för att bryta strömmen, och du använder strömbrytaren precis som vanligt.</li>
+<li><strong>Välj en väggströmbrytare vars knappar kan styra scener</strong>, som vissa modeller från Aqara, och ställ in den så att den inte bryter strömmen.</li>
+</ul>
+<p>Behåller du vanliga lampor är det tvärtom: då måste den smarta strömbrytaren styra lasten. Kontrollera att lamporna är dimbara om du använder en dimmerfunktion. Läs vår <a href="/sv/blog/eclairage-connecte-comparatif">jämförelse av smart belysning</a> när du ska välja lampor.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa en modell som kräver nolledare utan att kontrollera dosan</strong>: den vanligaste orsaken till returer.</li>
+<li><strong>Att strunta i minimilasten</strong> för modeller utan nolledare: en enda LED-lampa med låg effekt kan flimra.</li>
+<li><strong>Att glömma trappkopplingar</strong>: en lampa som styrs från två ställen kräver särskild koppling eller en kompatibel extrabrytare.</li>
+<li><strong>Att underskatta dosans djup</strong>: en smart modul eller strömbrytare tar mer plats än en vanlig.</li>
+<li><strong>Att blanda ekosystem utan plan</strong>: välj din huvudapp först och sedan enheter som fungerar med den.</li>
+<li><strong>Att dimra lampor som inte är dimbara</strong>: stäng av funktionen eller byt lampor.</li>
+</ul>
+
+<h2>Installation och säkerhet</h2>
+<p>Att byta en strömbrytare innebär att du arbetar i den fasta elinstallationen. Några grundregler gäller:</p>
+<ul>
+<li><strong>Slå av säkringen för gruppen</strong> i elcentralen, inte bara strömbrytaren, och kontrollera sedan med en lämplig spänningsprovare att det är spänningslöst.</li>
+<li><strong>Följ tillverkarens bruksanvisning</strong>: kopplingsschema, ledararea, maxlast.</li>
+<li><strong>Överskrid aldrig den angivna maxlasten</strong>, särskilt inte med dimrar.</li>
+<li><strong>Anlita en behörig elektriker</strong> om du är osäker på vilken ledare som är vilken, om installationen är gammal eller om du tvekar det minsta. Följ alltid de regler för elinstallationer som gäller där du bor.</li>
+</ul>
+<p>Batteridrivna fjärrkontroller kräver inget elarbete alls: de är det säkraste alternativet om du hyr.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta bostäder ger <strong>Aqara Light Switch H2 EU</strong> den bästa balansen: den fungerar med eller utan nolledare, stöder Matter och är öppen för alla röstassistenter. Vill du behålla dina nuvarande strömbrytare och har nolledare är <strong>Shelly 1PM Gen4</strong> det mest ekonomiska och flexibla valet. Har du Hue-lampor väljer du <strong>Philips Hue Tap Dial Switch</strong>, medan den som har Céliane eller Living Now gör bäst i att hålla sig till sin serie från <strong>Legrand</strong> eller <strong>BTicino</strong> with Netatmo. Vill du också sänka elräkningen, läs vår <a href="/sv/blog/comparatif-smart-plugs-mesure-energie">jämförelse av smarta pluggar med energimätning</a>.</p>`
+
+const us = `<p><strong>In 2026, the best smart light switch in our roundup of European-format models is the Aqara Light Switch H2 EU</strong>: it works with or without a neutral wire, speaks both Zigbee and Matter over Thread, and connects to Apple Home, Google Home, Alexa and Home Assistant. If you'd rather keep your existing switches, a <strong>Shelly 1PM Gen4</strong> relay hidden behind them is the most versatile option, and if your bulbs are already smart, a battery-powered wall remote such as the <strong>Philips Hue Tap Dial Switch</strong> needs no wiring at all.</p>
+<p>This comparison is based on manufacturer specs, published independent reviews and feedback from verified buyers. It covers the three main types: smart wall switches, in-wall relay modules and wireless remotes. To browse every model, visit our <a href="/us/energie-domotique/interrupteurs">smart light switches</a> section.</p>
+
+<h2>How to choose a smart light switch</h2>
+<p>Before you compare brands, five questions will rule out most bad buys.</p>
+<ul>
+<li><strong>Is there a neutral wire in the switch box?</strong> This is the number one question. Many older homes only run the hot wire and the switch leg (the wire that goes up to the light) to the switch. In that case, you need a "no-neutral" model.</li>
+<li><strong>Which wireless protocol?</strong> Zigbee, Wi-Fi, Thread and Matter have different requirements (hub, border router, power draw).</li>
+<li><strong>Are your bulbs regular or smart?</strong> With regular bulbs, the switch has to cut the power. With smart bulbs, it should never leave them without power.</li>
+<li><strong>What's the load?</strong> No-neutral models have a minimum load: below it, some LEDs flicker or glow faintly. A bypass (also called a compensator) often fixes this.</li>
+<li><strong>Which ecosystem?</strong> Apple Home, Google Home, Alexa, Home Assistant or the manufacturer's app: check compatibility before you buy.</li>
+</ul>
+
+<h2>Neutral or no neutral: what really changes</h2>
+<p>A smart switch has to stay powered at all times so it can listen for wireless commands. <strong>With a neutral</strong>, it draws power directly between the hot and neutral wires: it runs reliably, and features such as energy monitoring or overload protection become possible. <strong>Without a neutral</strong>, the module trickles a tiny current through the bulb itself. That works fine with a large enough load, but it can cause flickering or a faint glow with low-wattage LEDs.</p>
+<p>To check, turn off the breaker, remove the switch and look at the wires: a neutral wire (blue in European wiring, usually white in North American homes) that's in the box but not connected to the switch is a good sign, although wire colors aren't always reliable in older homes. If in doubt, have an electrician take a look.</p>
+
+<h2>Zigbee, Wi-Fi, Thread or Matter: which protocol?</h2>
+<ul>
+<li><strong>Zigbee</strong>: a mature, low-power mesh protocol. It needs a hub (Aqara, Philips Hue, IKEA DIRIGERA, the Netatmo gateway, or Home Assistant with a Zigbee dongle). Devices that run on household power rather than batteries strengthen the network.</li>
+<li><strong>Wi-Fi</strong>: no hub, and setup happens straight from your phone. The trade-off: higher power draw, and Wi-Fi modules generally need a neutral. A lot of Wi-Fi devices can also strain your router.</li>
+<li><strong>Thread</strong>: a low-power mesh network like Zigbee, but IP-based. It needs a "Thread border router," which is built into some recent smart speakers and smart home hubs.</li>
+<li><strong>Matter</strong>: not a radio but a shared standard that runs over Thread or Wi-Fi. A Matter device can join several ecosystems at once, which lowers the risk of getting locked into a single brand.</li>
+</ul>
+<p>For more on these standards, read our guide to <a href="/us/blog/maison-connectee-matter-thread-2026">Matter and Thread in the smart home in 2026</a>.</p>
+
+<h2>The 6 best smart light switches of 2026</h2>
+
+<h3>1. Aqara Light Switch H2 EU — best overall</h3>
+<p>Launched in Europe in early 2025, the <strong>Aqara Light Switch H2 EU</strong> is a wall switch made for European wall boxes that supports wiring <strong>with and without a neutral</strong>. It combines <strong>Zigbee and Matter over Thread</strong>, so it can join Apple Home, Google Home, Amazon Alexa or Home Assistant. It comes in a 2-button (1-channel) or 4-button (2-channel) version.</p>
+<p><strong>Pros:</strong> both Zigbee and Matter, works without a neutral, energy monitoring plus overload and overheat protection when a neutral is connected, and spare buttons you can use for scenes.</p>
+<p><strong>Cons:</strong> Matter over Thread requires a Thread border router; on Zigbee, you need an Aqara or compatible hub. The design won't match the switch and outlet lines you may already have.</p>
+<p><strong>Best for:</strong> anyone who wants a modern switch that's open to every ecosystem, including in homes with no neutral.</p>
+
+<h3>2. Legrand Céliane with Netatmo — the most polished integration in France</h3>
+<p>The <strong>Céliane with Netatmo</strong> line uses the design of Legrand's Céliane switches and outlets, which are very common in France. The <strong>no-neutral</strong> smart switches come with a dimming option (5 to 125 W, according to Legrand) or as an On/Off version rated up to 200 W that ships with a bypass for small LED loads. They talk to the Netatmo gateway over Zigbee and are controlled through the Home + Control app, and they work with Alexa, Google Assistant and Apple HomeKit.</p>
+<p><strong>Pros:</strong> looks identical to the rest of a Céliane installation, no neutral required, bypass included, works with all three major voice assistants.</p>
+<p><strong>Cons:</strong> Netatmo gateway required, higher starting cost than generic options, less relevant if your home doesn't already have Céliane devices.</p>
+<p><strong>Best for:</strong> renovations and new construction using Céliane, and anyone who'd rather have an electrician install the system.</p>
+
+<h3>3. BTicino Living Now with Netatmo — the equivalent for the Italian market</h3>
+<p>Part of the same group as Legrand, <strong>BTicino</strong> offers the <strong>Living Now with Netatmo</strong> line, which is widely used in Italy. The no-neutral smart switch with a dimming option (model K4413CM2) handles loads from 5 to 125 W; a version that uses a neutral is also available. The radio is <strong>Zigbee 3.0</strong>, and it works with Apple HomeKit, Google Assistant and Amazon Alexa through the Home + Control app.</p>
+<p><strong>Pros:</strong> clean design, versions with or without a neutral, a consistent ecosystem with outlets and shutter controls from the same line.</p>
+<p><strong>Cons:</strong> designed for Italian wall boxes, gateway required, of little interest outside a Living Now installation.</p>
+<p><strong>Best for:</strong> homes that already have BTicino devices or are being renovated with this line.</p>
+
+<h3>4. Shelly 1PM Gen4 — best value for keeping your switches</h3>
+<p>The <strong>Shelly 1PM Gen4</strong> isn't a switch but a <strong>relay module that slips in behind your existing switch</strong>. This 16 A relay measures energy use and runs <strong>Wi-Fi, Bluetooth, Zigbee and Matter</strong> at the same time, with no hub required. At about 1.5 × 1.7 × 0.6 in (37 × 42 × 16 mm), it fits in an electrical box that's deep enough.</p>
+<p><strong>Pros:</strong> you keep your existing switches and their look, very broad protocol support, a local web server, and a "detached" mode that lets the switch send a command without cutting power (ideal with smart bulbs).</p>
+<p><strong>Cons:</strong> <strong>neutral required</strong> (for no-neutral wiring, Shelly offers the Shelly 1L Gen4 with a bypass), more technical wiring, and sometimes not enough room in shallow boxes.</p>
+<p><strong>Best for:</strong> experienced DIYers and installers who want to make a whole home smart without replacing the switches.</p>
+
+<h3>5. Philips Hue Tap Dial Switch — best for smart bulbs</h3>
+<p>The <strong>Philips Hue Tap Dial Switch</strong> is a battery-powered wireless control with <strong>four programmable buttons and a dimming dial</strong>. It mounts on the wall with adhesive or sticks to any magnetic surface, and it lifts off to work as a remote. Paired with the Hue Bridge, which Philips lists as required, it can control up to three rooms or a zone, recall scenes by time of day or trigger automations.</p>
+<p><strong>Pros:</strong> no wiring, a satisfying dial for dimming, multiple scenes, ideal for renters.</p>
+<p><strong>Cons:</strong> Hue ecosystem only, battery to replace, doesn't replace a switch that cuts power to regular bulbs.</p>
+<p><strong>Best for:</strong> homes already using Hue bulbs. For simpler needs, the Hue Dimmer Switch is still a more basic alternative.</p>
+
+<h3>6. IKEA RODRET — the most affordable remote</h3>
+<p>The <strong>IKEA RODRET</strong> wireless dimmer turns up to ten IKEA light sources on and off at once, and dims them too. It pairs directly with the brand's smart bulbs and light fixtures over Zigbee, or you can manage it in the IKEA Home smart app through the DIRIGERA hub. For more buttons and color control, the IKEA STYRBAR is the step up.</p>
+<p><strong>Pros:</strong> very affordable, no wiring, works even without a hub.</p>
+<p><strong>Cons:</strong> designed for IKEA lighting, limited features without DIRIGERA, basic finish.</p>
+<p><strong>Best for:</strong> tight budgets and renters with IKEA smart bulbs.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Neutral</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Aqara Light Switch H2 EU</td><td>Wall switch</td><td>With or without</td><td>Zigbee, Matter over Thread</td><td>All-around, multi-ecosystem use</td></tr>
+<tr><td>Legrand Céliane with Netatmo</td><td>Wall switch</td><td>Without (bypass included)</td><td>Zigbee + Netatmo gateway</td><td>Céliane installations</td></tr>
+<tr><td>BTicino Living Now with Netatmo</td><td>Wall switch</td><td>With or without, depending on version</td><td>Zigbee 3.0 + gateway</td><td>BTicino installations</td></tr>
+<tr><td>Shelly 1PM Gen4</td><td>In-wall relay</td><td>Required</td><td>Wi-Fi, Bluetooth, Zigbee, Matter</td><td>Keeping existing switches</td></tr>
+<tr><td>Philips Hue Tap Dial Switch</td><td>Battery remote</td><td>Not applicable</td><td>Zigbee (Hue Bridge)</td><td>Hue bulbs, renters</td></tr>
+<tr><td>IKEA RODRET</td><td>Battery remote</td><td>Not applicable</td><td>Zigbee (DIRIGERA optional)</td><td>Tight budgets, IKEA lighting</td></tr>
+</tbody>
+</table>
+
+<h2>Keeping physical switches with smart bulbs</h2>
+<p>This is the most common trap: you install smart bulbs, someone flips the wall switch off, and the bulbs drop off the network. There are three fixes:</p>
+<ul>
+<li><strong>Replace the switch with a wireless control</strong> (Hue Tap Dial, RODRET) and keep the circuit powered at all times, for example by bypassing the switch and covering the box with a blank wall plate, a job for an electrician.</li>
+<li><strong>Install a relay in detached mode</strong> (Shelly 1PM Gen4): the switch sends a command instead of cutting power, and you still use it the way you always have.</li>
+<li><strong>Choose a wall switch whose buttons can trigger scenes</strong>, such as some Aqara models, set up so they don't cut power.</li>
+</ul>
+<p>On the other hand, if you keep regular bulbs, the smart switch has to control the load: if you plan to use a dimming function, make sure the bulbs are dimmable. To choose your bulbs, see our <a href="/us/blog/eclairage-connecte-comparatif">smart bulb comparison</a>.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a model that needs a neutral without checking your switch box</strong>: the number one reason for returns.</li>
+<li><strong>Ignoring the minimum load</strong> of no-neutral models: a single low-wattage LED bulb may flicker.</li>
+<li><strong>Forgetting about 3-way circuits</strong>: a light controlled from two places needs specific wiring or a compatible companion switch.</li>
+<li><strong>Overlooking box depth</strong>: a smart module or switch takes up more room than a standard one.</li>
+<li><strong>Mixing ecosystems without a plan</strong>: pick your main app first, then choose compatible devices.</li>
+<li><strong>Dimming non-dimmable bulbs</strong>: turn the dimming function off or switch to dimmable bulbs.</li>
+</ul>
+
+<h2>Installation and safety</h2>
+<p>Replacing a switch means working on your home's permanent wiring. A few basic rules apply:</p>
+<ul>
+<li><strong>Turn off the circuit breaker</strong> at the electrical panel, not just the light switch, then confirm the power is off with a voltage tester.</li>
+<li><strong>Follow the manufacturer's instructions</strong>: wiring diagram, wire gauge, maximum load.</li>
+<li><strong>Never exceed the rated load</strong>, especially with dimmers, and check the voltage rating: models sold in Europe are built for 230 V, so make sure the version on your Amazon store is rated for 120 V.</li>
+<li><strong>Call a licensed electrician</strong> if you're not sure how to identify the wires, if the wiring is old, or if you have any doubt at all. Follow your local building code, and check whether a permit is needed.</li>
+</ul>
+<p>Battery-powered remotes need no electrical work at all: they're the safest option for renters.</p>
+
+<h2>The bottom line</h2>
+<p>Of the models compared here, the <strong>Aqara Light Switch H2 EU</strong> strikes the best balance: neutral or no neutral, Matter-compatible and open to every assistant. If you want to keep your current switches and you have a neutral, the <strong>Shelly 1PM Gen4</strong> is the most economical and flexible choice. Homes with Hue bulbs should go for the <strong>Philips Hue Tap Dial Switch</strong>, while Céliane or Living Now installations are best kept within their <strong>Legrand</strong> or <strong>BTicino</strong> with Netatmo line. To cut your energy bill too, see our <a href="/us/blog/comparatif-smart-plugs-mesure-energie">comparison of smart plugs with energy monitoring</a>.</p>`
+
+const ca = `<p><strong>In 2026, the best smart light switch in this comparison is the Aqara Light Switch H2 EU</strong>: it works with or without a neutral wire, speaks both Zigbee and Matter over Thread, and fits into Apple Home, Google Home, Alexa and Home Assistant. If you'd rather keep your existing switches, a <strong>Shelly 1PM Gen4</strong> relay hidden behind them is the most versatile option, and if your bulbs are already smart, a battery-powered wall remote such as the <strong>Philips Hue Tap Dial Switch</strong> needs no wiring at all.</p>
+<p>This comparison is based on manufacturer specifications, published independent reviews and verified buyer feedback. It covers the three main families: smart wall switches, in-wall relay modules and wireless remotes. Several of these models are built for European wiring. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. To browse every model, visit our <a href="/ca/energie-domotique/interrupteurs">smart light switches</a> section.</p>
+
+<h2>How to choose a smart light switch</h2>
+<p>Before you look at brands, five questions rule out most bad purchases.</p>
+<ul>
+<li><strong>Is there a neutral wire in the electrical box?</strong> This is the number one criterion. Many older homes only run the hot (line) wire and the load wire to the switch. In that case, you need a "no-neutral" model.</li>
+<li><strong>Which wireless protocol?</strong> Zigbee, Wi-Fi, Thread and Matter have different requirements (hub, border router, power draw).</li>
+<li><strong>Are your bulbs regular or smart?</strong> With regular bulbs, the switch has to cut the power. With smart bulbs, it must never leave them without power.</li>
+<li><strong>What load?</strong> No-neutral models have a minimum load: below it, some LEDs flicker or glow faintly. A compensator (or "bypass") often solves this.</li>
+<li><strong>Which ecosystem?</strong> Apple Home, Google Home, Alexa, Home Assistant or the manufacturer's app: check compatibility before you buy.</li>
+</ul>
+
+<h2>Neutral or no neutral: what really changes</h2>
+<p>A smart switch must stay powered at all times to listen for wireless commands. <strong>With a neutral</strong>, it draws power directly between the hot and neutral wires: it runs reliably, and features such as energy monitoring or overload protection become possible. <strong>Without a neutral</strong>, the module trickles a tiny current through the bulb itself. That works well with a large enough load, but it can cause flicker or a faint glow with low-wattage LEDs.</p>
+<p>To check, turn off the breaker, remove the switch and look at the wires: white (neutral) wires in the box that aren't connected to the switch are a good sign, although colours aren't always reliable in older wiring. If in doubt, have a licensed electrician take a look.</p>
+
+<h2>Zigbee, Wi-Fi, Thread or Matter: which protocol?</h2>
+<ul>
+<li><strong>Zigbee</strong>: a mature, low-power mesh protocol. It needs a hub (Aqara, Philips Hue, IKEA DIRIGERA, Netatmo gateway, Home Assistant with a Zigbee dongle). Hardwired and plug-in devices strengthen the network.</li>
+<li><strong>Wi-Fi</strong>: no hub, and you set it up straight from your phone. On the other hand, power draw is higher and Wi-Fi modules generally need a neutral. A lot of Wi-Fi devices also put a load on your router.</li>
+<li><strong>Thread</strong>: a low-power mesh network like Zigbee, but IP-based. It needs a "Thread border router", which is built into some recent smart speakers and smart home hubs.</li>
+<li><strong>Matter</strong>: not a radio but a common standard that runs over Thread or Wi-Fi. A Matter device can join several ecosystems at once, which reduces the risk of getting locked into a single brand.</li>
+</ul>
+<p>For more on these standards, read our guide to <a href="/ca/blog/maison-connectee-matter-thread-2026">Matter and Thread in the smart home in 2026</a>.</p>
+
+<h2>The 6 best smart light switches in 2026</h2>
+
+<h3>1. Aqara Light Switch H2 EU — best overall</h3>
+<p>Launched in Europe in early 2025, the <strong>Aqara Light Switch H2 EU</strong> is a European-format wall switch that supports wiring <strong>with or without a neutral</strong>. It combines <strong>Zigbee and Matter over Thread</strong>, so it can join Apple Home, Google Home, Amazon Alexa or Home Assistant. It comes in a 2-button (1-channel) or 4-button (2-channel) version.</p>
+<p><strong>Strengths:</strong> dual Zigbee and Matter support, no-neutral operation, energy monitoring plus overload and overheat protection when a neutral is connected, spare buttons you can use for scenes.</p>
+<p><strong>Limitations:</strong> Matter over Thread requires a Thread border router; on Zigbee, you need an Aqara or compatible hub. The design doesn't match existing switch and outlet styles.</p>
+<p><strong>Best for:</strong> anyone who wants a modern switch that's open to every ecosystem, including in homes without a neutral.</p>
+
+<h3>2. Legrand Céliane with Netatmo — the most polished integration in France</h3>
+<p>The <strong>Céliane with Netatmo</strong> line uses the design of Legrand's Céliane switches and outlets, which are very common in France. The <strong>no-neutral</strong> smart switches come with a dimming option (5 to 125 W, according to Legrand) or as an on/off version rated up to 200 W, supplied with a compensator for small LED loads. They talk Zigbee to the Netatmo gateway and are controlled through the Home + Control app, with Alexa, Google Assistant and Apple HomeKit.</p>
+<p><strong>Strengths:</strong> looks identical to the rest of a Céliane installation, no neutral required, compensator included, works with all three major assistants.</p>
+<p><strong>Limitations:</strong> Netatmo gateway required, higher entry cost than generic options, less relevant if your home doesn't already have Céliane devices.</p>
+<p><strong>Best for:</strong> renovations and new builds using Céliane, and people who prefer a solution installed by an electrician.</p>
+
+<h3>3. BTicino Living Now with Netatmo — the equivalent for the Italian market</h3>
+<p>Part of the same group as Legrand, <strong>BTicino</strong> offers the <strong>Living Now with Netatmo</strong> line, which is widely used in Italy. The no-neutral smart switch with a dimming option (reference K4413CM2) handles loads from 5 to 125 W; a with-neutral version also exists. The radio is <strong>Zigbee 3.0</strong>, and compatibility covers Apple HomeKit, Google Assistant and Amazon Alexa through the Home + Control app.</p>
+<p><strong>Strengths:</strong> clean design, with- or without-neutral versions, consistent ecosystem with outlets and shutter controls from the same line.</p>
+<p><strong>Limitations:</strong> designed for Italian electrical boxes, gateway required, of little interest outside a Living Now installation.</p>
+<p><strong>Best for:</strong> homes already equipped with BTicino, or being renovated with this line.</p>
+
+<h3>4. Shelly 1PM Gen4 — best value for keeping your switches</h3>
+<p>The <strong>Shelly 1PM Gen4</strong> isn't a switch but a <strong>relay module that slips in behind your existing switch</strong>. This 16 A relay measures energy use and runs <strong>Wi-Fi, Bluetooth, Zigbee and Matter</strong> at the same time, with no hub required. Its size (about 37 × 42 × 16 mm) lets it fit in an electrical box that's deep enough.</p>
+<p><strong>Strengths:</strong> you keep your existing switches and their look, very wide protocol support, local web server, "detached" mode that lets the switch send a command without cutting power (ideal with smart bulbs).</p>
+<p><strong>Limitations:</strong> <strong>neutral required</strong> (for no-neutral wiring, Shelly offers the Shelly 1L Gen4 with a bypass), more technical wiring, sometimes not enough room in shallow boxes.</p>
+<p><strong>Best for:</strong> experienced DIYers and installers who want to make a whole home smart without changing the switches.</p>
+
+<h3>5. Philips Hue Tap Dial Switch — best for smart bulbs</h3>
+<p>The <strong>Philips Hue Tap Dial Switch</strong> is a battery-powered wireless control with <strong>four programmable buttons and a dimming dial</strong>. It mounts on the wall with adhesive or sits on any magnetic surface, and it lifts off to work as a remote. Paired with the Hue Bridge, which Philips lists as required, it can control up to three rooms or a zone, recall scenes by time of day or start automations.</p>
+<p><strong>Strengths:</strong> no wiring, pleasant dial for dimming, multiple scenes, ideal for renters.</p>
+<p><strong>Limitations:</strong> Hue ecosystem only, battery to replace, doesn't replace a switch that cuts power to regular bulbs.</p>
+<p><strong>Best for:</strong> homes already using Hue bulbs. For simpler needs, the Hue Dimmer Switch remains a more basic alternative.</p>
+
+<h3>6. IKEA RODRET — the most affordable remote</h3>
+<p>The <strong>IKEA RODRET</strong> wireless dimmer can turn on, turn off and dim up to 10 IKEA light sources at once. It pairs directly with the brand's smart bulbs and light fixtures over Zigbee, or you can manage it in the IKEA Home smart app through the DIRIGERA hub. For more buttons and colour control, the IKEA STYRBAR is the step up.</p>
+<p><strong>Strengths:</strong> very affordable, no wiring, works even without a hub.</p>
+<p><strong>Limitations:</strong> designed for IKEA lighting, limited features without DIRIGERA, basic finish.</p>
+<p><strong>Best for:</strong> tight budgets and renters with IKEA smart bulbs.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Neutral</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Aqara Light Switch H2 EU</td><td>Wall switch</td><td>With or without</td><td>Zigbee, Matter over Thread</td><td>All-round, multi-ecosystem use</td></tr>
+<tr><td>Legrand Céliane with Netatmo</td><td>Wall switch</td><td>Without (compensator included)</td><td>Zigbee + Netatmo gateway</td><td>Céliane installations</td></tr>
+<tr><td>BTicino Living Now with Netatmo</td><td>Wall switch</td><td>With or without, depending on version</td><td>Zigbee 3.0 + gateway</td><td>BTicino installations</td></tr>
+<tr><td>Shelly 1PM Gen4</td><td>In-wall relay</td><td>Required</td><td>Wi-Fi, Bluetooth, Zigbee, Matter</td><td>Keeping existing switches</td></tr>
+<tr><td>Philips Hue Tap Dial Switch</td><td>Battery remote</td><td>Not applicable</td><td>Zigbee (Hue Bridge)</td><td>Hue bulbs, renters</td></tr>
+<tr><td>IKEA RODRET</td><td>Battery remote</td><td>Not applicable</td><td>Zigbee (DIRIGERA optional)</td><td>Tight budgets, IKEA lighting</td></tr>
+</tbody>
+</table>
+
+<h2>Keeping physical switches with smart bulbs</h2>
+<p>This is the most common trap: you install smart bulbs, someone flips the wall switch off, and the bulbs drop off the network. There are three fixes:</p>
+<ul>
+<li><strong>Replace the switch with a wireless control</strong> (Hue Tap Dial, RODRET) and keep the circuit powered at all times, for example by bypassing the switch behind a blank cover plate, which is a job for an electrician.</li>
+<li><strong>Install a relay in detached mode</strong> (Shelly 1PM Gen4): the switch sends a command instead of cutting power, and you still use it the way you always have.</li>
+<li><strong>Choose a wall switch whose buttons can trigger scenes</strong>, such as some Aqara models, set up so they don't cut power.</li>
+</ul>
+<p>On the other hand, if you keep regular bulbs, the smart switch has to control the load: if you use a dimming function, make sure the bulbs are dimmable. To choose your bulbs, see our <a href="/ca/blog/eclairage-connecte-comparatif">smart lighting comparison</a>.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a model that needs a neutral without checking your box</strong>: the number one reason for returns.</li>
+<li><strong>Ignoring the minimum load</strong> of no-neutral models: a single low-wattage LED may flicker.</li>
+<li><strong>Forgetting three-way circuits</strong>: a light controlled from two places needs specific wiring or a compatible secondary control.</li>
+<li><strong>Overlooking box depth</strong>: a smart module or switch takes up more room than a standard one.</li>
+<li><strong>Mixing ecosystems without a plan</strong>: pick your main app first, then compatible devices.</li>
+<li><strong>Dimming non-dimmable bulbs</strong>: turn the function off or change the bulbs.</li>
+</ul>
+
+<h2>Installation and safety</h2>
+<p>Replacing a switch means working on your home's permanent wiring. A few basic rules apply:</p>
+<ul>
+<li><strong>Turn off the circuit breaker</strong> at the electrical panel, not just the light switch, then confirm the power is off with a suitable voltage tester.</li>
+<li><strong>Follow the manufacturer's instructions</strong>: wiring diagram, wire gauge, maximum load.</li>
+<li><strong>Never exceed the rated load</strong>, especially with dimmers.</li>
+<li><strong>Call a licensed electrician</strong> if you're unsure how to identify the wires, if the wiring is old, or if you have any doubt at all. Electrical work rules are set by each province and territory, so check what applies where you live.</li>
+</ul>
+<p>Battery-powered remotes need no electrical work at all: they're the safest option for renters.</p>
+
+<h2>Our verdict</h2>
+<p>Among these models, the <strong>Aqara Light Switch H2 EU</strong> strikes the best balance: neutral or no neutral, Matter-compatible and open to every assistant. If you want to keep your current switches and you have a neutral, the <strong>Shelly 1PM Gen4</strong> is the most economical and flexible choice. Homes with Hue bulbs should go for the <strong>Philips Hue Tap Dial Switch</strong>, while Céliane or Living Now installations, common in France and Italy, are best kept within their <strong>Legrand</strong> or <strong>BTicino</strong> with Netatmo line. To cut your electricity bill too, see our <a href="/ca/blog/comparatif-smart-plugs-mesure-energie">comparison of smart plugs with energy monitoring</a>.</p>`
+
 export const article: BlogArticle = {
   slug: 'interrupteur-connecte-comparatif',
   category: 'comparatifs',
@@ -796,6 +1129,9 @@ export const article: BlogArticle = {
         it: 'Interruttore doppio bianco a bilanciere su una parete scura',
         nl: 'Witte dubbele wipschakelaar aan een donkere muur',
         pl: 'Biały podwójny włącznik klawiszowy na ciemnej ścianie',
+        sv: 'Vit strömbrytare med två vippor på en mörk vägg',
+        us: 'White two-gang rocker light switch on a dark wall',
+        ca: 'White double rocker light switch on a dark wall',
       },
     },
   ],
@@ -807,6 +1143,9 @@ export const article: BlogArticle = {
     it: 'Miglior Interruttore Smart 2026: Confronto tra 6 Modelli',
     nl: 'Beste Slimme Lichtschakelaar 2026: 6 Modellen Vergeleken',
     pl: 'Najlepszy inteligentny włącznik światła 2026: porównanie 6 modeli',
+    sv: 'Bästa smarta strömbrytare 2026: 6 modeller jämförda',
+    us: 'Best Smart Light Switches of 2026: 6 Top Models Compared',
+    ca: 'Best Smart Light Switch 2026: The 6 Top Models Compared',
   },
   excerpt: {
     fr: "Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial et IKEA RODRET : quel interrupteur connecté choisir avec ou sans neutre, en Zigbee, Wi-Fi ou Matter.",
@@ -816,8 +1155,11 @@ export const article: BlogArticle = {
     it: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial e IKEA RODRET: quale interruttore smart scegliere, con o senza neutro, in Zigbee, Wi-Fi o Matter.',
     nl: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial en IKEA RODRET: welke slimme schakelaar kiezen, met of zonder nul, via Zigbee, wifi of Matter.',
     pl: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial i IKEA RODRET: jaki inteligentny włącznik wybrać do instalacji z przewodem neutralnym lub bez niego, w standardzie Zigbee, Wi-Fi lub Matter.',
+    sv: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial och IKEA RODRET: så väljer du rätt smart strömbrytare – med eller utan nolledare, via Zigbee, wifi eller Matter.',
+    us: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial and IKEA RODRET compared: which smart switch to buy, with or without a neutral wire, on Zigbee, Wi-Fi or Matter.',
+    ca: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial and IKEA RODRET: which smart switch to choose, with or without neutral, on Zigbee, Wi-Fi or Matter.',
   },
-  content: { fr, en, de, es, it, nl, pl },
+  content: { fr, en, de, es, it, nl, pl, sv, us, ca },
   faq: [
     {
       question: {
@@ -828,6 +1170,9 @@ export const article: BlogArticle = {
         it: 'Si può installare un interruttore smart senza filo neutro?',
         nl: 'Kun je een slimme schakelaar zonder nuldraad installeren?',
         pl: 'Czy można zamontować inteligentny włącznik bez przewodu neutralnego?',
+        sv: 'Går det att installera en smart strömbrytare utan nolledare?',
+        us: 'Can you install a smart switch without a neutral wire?',
+        ca: 'Can you install a smart switch without a neutral wire?',
       },
       answer: {
         fr: "Oui, à condition de choisir un modèle prévu pour : Aqara Light Switch H2 EU, Legrand Céliane with Netatmo sans neutre ou BTicino Living Now sans neutre. Respectez la puissance minimale indiquée et ajoutez un compensateur si des LED scintillent. Les modules Wi-Fi et le Shelly 1PM Gen4 exigent en revanche un neutre.",
@@ -837,6 +1182,9 @@ export const article: BlogArticle = {
         it: "Sì, purché si scelga un modello pensato per questo: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo senza neutro o BTicino Living Now senza neutro. Rispetta il carico minimo indicato e aggiungi un compensatore se i LED sfarfallano. I moduli Wi-Fi e lo Shelly 1PM Gen4 richiedono invece il neutro.",
         nl: 'Ja, mits je een model kiest dat daarvoor bedoeld is: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo zonder nul of BTicino Living Now zonder nul. Respecteer de opgegeven minimale belasting en voeg een compensator toe als ledlampen knipperen. Wifimodules en de Shelly 1PM Gen4 hebben wel een nuldraad nodig.',
         pl: 'Tak, pod warunkiem że wybierzesz model przeznaczony do takiej instalacji: Aqara Light Switch H2 EU albo Legrand Céliane with Netatmo lub BTicino Living Now w wersjach bez przewodu neutralnego. Przestrzegaj minimalnej mocy obciążenia podanej przez producenta, a jeśli żarówki LED migoczą, dodaj kompensator. Moduły Wi-Fi i Shelly 1PM Gen4 wymagają natomiast przewodu neutralnego.',
+        sv: 'Ja, om du väljer en modell som är gjord för det: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo eller BTicino Living Now, i versionerna utan nolledare. Se till att den angivna minsta belastningen uppnås och sätt in en kompensator om LED-lamporna flimrar. Wifi-moduler och Shelly 1PM Gen4 kräver däremot nolledare.',
+        us: 'Yes, as long as you choose a model designed for it: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo no-neutral or BTicino Living Now no-neutral. Stay above the stated minimum load and add a bypass (compensator) if your LEDs flicker. Wi-Fi modules and the Shelly 1PM Gen4, on the other hand, need a neutral.',
+        ca: 'Yes, as long as you choose a model designed for it: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo no-neutral or BTicino Living Now no-neutral. Stay above the stated minimum load and add a compensator if LEDs flicker. Wi-Fi modules and the Shelly 1PM Gen4, however, need a neutral.',
       },
     },
     {
@@ -848,6 +1196,9 @@ export const article: BlogArticle = {
         it: 'Serve un gateway per un interruttore smart?',
         nl: 'Heb je een hub nodig voor een slimme schakelaar?',
         pl: 'Czy do inteligentnego włącznika potrzebna jest bramka?',
+        sv: 'Behöver en smart strömbrytare en hubb?',
+        us: 'Do you need a hub for a smart switch?',
+        ca: 'Do you need a hub for a smart switch?',
       },
       answer: {
         fr: "Cela dépend du protocole. Les modèles Zigbee demandent une passerelle (Aqara, Hue, DIRIGERA, Netatmo), les modèles Matter over Thread un routeur de bordure Thread, tandis que les modules Wi-Fi comme le Shelly 1PM Gen4 fonctionnent sans passerelle.",
@@ -857,6 +1208,9 @@ export const article: BlogArticle = {
         it: 'Dipende dal protocollo. I modelli Zigbee richiedono un gateway (Aqara, Hue, DIRIGERA, Netatmo), quelli Matter over Thread un border router Thread, mentre i moduli Wi-Fi come lo Shelly 1PM Gen4 funzionano senza gateway.',
         nl: 'Dat hangt af van het protocol. Zigbee-modellen hebben een hub nodig (Aqara, Hue, DIRIGERA, Netatmo), Matter over Thread-modellen een Thread border router, terwijl wifimodules zoals de Shelly 1PM Gen4 zonder hub werken.',
         pl: 'To zależy od protokołu. Modele Zigbee wymagają bramki (Aqara, Hue, DIRIGERA, Netatmo), modele Matter over Thread routera brzegowego Thread, natomiast moduły Wi-Fi, jak Shelly 1PM Gen4, działają bez bramki.',
+        sv: 'Det beror på protokollet. Zigbee-modeller behöver en hubb (Aqara, Hue, DIRIGERA, Netatmo), modeller med Matter via Thread behöver en Thread Border Router, medan wifi-moduler som Shelly 1PM Gen4 fungerar helt utan hubb.',
+        us: 'It depends on the protocol. Zigbee models need a hub (Aqara, Hue, DIRIGERA, Netatmo), Matter over Thread models need a Thread border router, while Wi-Fi modules such as the Shelly 1PM Gen4 work without any hub.',
+        ca: 'It depends on the protocol. Zigbee models need a hub (Aqara, Hue, DIRIGERA, Netatmo), Matter over Thread models need a Thread border router, while Wi-Fi modules such as the Shelly 1PM Gen4 work without any hub.',
       },
     },
     {
@@ -868,6 +1222,9 @@ export const article: BlogArticle = {
         it: 'Come mantenere gli interruttori a muro con le lampadine smart?',
         nl: 'Hoe houd ik mijn wandschakelaars met slimme lampen?',
         pl: 'Jak zachować włączniki ścienne przy inteligentnych żarówkach?',
+        sv: 'Hur kan jag behålla mina vanliga strömbrytare när jag har smarta lampor?',
+        us: 'How do I keep using my wall switches with smart bulbs?',
+        ca: 'How can I keep my wall switches with smart bulbs?',
       },
       answer: {
         fr: "Le plus simple est un module en mode détaché, comme le Shelly 1PM Gen4 : l'interrupteur envoie un ordre sans couper le courant, et les ampoules restent joignables. Autre option : laisser le circuit alimenté et utiliser une commande sans fil comme le Hue Tap Dial Switch ou l'IKEA RODRET.",
@@ -877,6 +1234,9 @@ export const article: BlogArticle = {
         it: "La soluzione più semplice è un modulo in modalità detached, come lo Shelly 1PM Gen4: l'interruttore invia un comando senza togliere corrente e le lampadine restano raggiungibili. In alternativa si lascia il circuito alimentato e si usa un comando wireless come l'Hue Tap Dial Switch o l'IKEA RODRET.",
         nl: 'Het eenvoudigst is een relais in detached-modus, zoals de Shelly 1PM Gen4: de schakelaar stuurt een commando zonder de stroom te onderbreken, zodat de lampen bereikbaar blijven. Je kunt ook het circuit onder spanning laten en een draadloze bediening gebruiken, zoals de Hue Tap Dial Switch of IKEA RODRET.',
         pl: 'Najprościej zastosować moduł w trybie odłączonym (detached), np. Shelly 1PM Gen4: włącznik wysyła wtedy polecenie, nie odcinając prądu, więc żarówki cały czas pozostają dostępne w sieci. Inna możliwość to zostawić obwód stale pod napięciem i użyć bezprzewodowego sterownika, np. Hue Tap Dial Switch lub IKEA RODRET.',
+        sv: 'Enklast är ett relä i frikopplat läge, som Shelly 1PM Gen4: strömbrytaren skickar ett kommando utan att bryta strömmen, så lamporna behåller strömmen och går att nå. Ett annat alternativ är att låta kretsen vara strömsatt och använda en trådlös knapp som Hue Tap Dial Switch eller IKEA RODRET.',
+        us: 'The simplest way is a relay in detached mode, such as the Shelly 1PM Gen4: the switch sends a command without cutting power, so the bulbs stay reachable. Another option is to keep the circuit powered and use a wireless control such as the Hue Tap Dial Switch or IKEA RODRET.',
+        ca: 'The simplest way is a relay in detached mode, such as the Shelly 1PM Gen4: the switch sends a command without cutting power, so the bulbs stay reachable. Another option is to keep the circuit powered and use a wireless control such as the Hue Tap Dial Switch or IKEA RODRET.',
       },
     },
     {
@@ -888,6 +1248,9 @@ export const article: BlogArticle = {
         it: 'Matter o Zigbee: cosa scegliere per un interruttore smart?',
         nl: 'Matter of Zigbee: wat is beter voor een slimme schakelaar?',
         pl: 'Matter czy Zigbee: co wybrać do inteligentnego włącznika?',
+        sv: 'Matter eller Zigbee: vad är bäst för en smart strömbrytare?',
+        us: 'Matter or Zigbee: which is better for a smart switch?',
+        ca: 'Matter or Zigbee: which is better for a smart switch?',
       },
       answer: {
         fr: "Zigbee est éprouvé et très répandu, mais lié à une passerelle. Matter permet d'utiliser le même appareil dans plusieurs écosystèmes (Apple, Google, Amazon). Les modèles qui proposent les deux, comme l'Aqara Light Switch H2 EU ou le Shelly 1PM Gen4, offrent le plus de liberté.",
@@ -897,6 +1260,9 @@ export const article: BlogArticle = {
         it: "Zigbee è collaudato e diffuso, ma legato a un gateway. Matter consente di usare lo stesso dispositivo in più ecosistemi (Apple, Google, Amazon). I modelli che offrono entrambi, come l'Aqara Light Switch H2 EU o lo Shelly 1PM Gen4, garantiscono la massima libertà.",
         nl: 'Zigbee is beproefd en wijdverbreid, maar gebonden aan een hub. Met Matter kun je hetzelfde apparaat in meerdere ecosystemen gebruiken (Apple, Google, Amazon). Modellen met beide, zoals de Aqara Light Switch H2 EU of de Shelly 1PM Gen4, bieden de meeste vrijheid.',
         pl: 'Zigbee to sprawdzony i bardzo popularny standard, ale wymaga bramki. Matter pozwala używać tego samego urządzenia w kilku ekosystemach (Apple, Google, Amazon). Najwięcej swobody dają modele, które obsługują oba standardy, np. Aqara Light Switch H2 EU czy Shelly 1PM Gen4.',
+        sv: 'Zigbee är beprövat och utbrett men kräver en hubb. Med Matter kan du använda samma enhet i flera ekosystem (Apple, Google, Amazon). Modeller som har båda, som Aqara Light Switch H2 EU eller Shelly 1PM Gen4, ger dig störst frihet.',
+        us: 'Zigbee is proven and widespread but tied to a hub. Matter lets you use the same device across several ecosystems (Apple, Google, Amazon). Models offering both, such as the Aqara Light Switch H2 EU or the Shelly 1PM Gen4, give you the most freedom.',
+        ca: 'Zigbee is proven and widespread but tied to a hub. Matter lets you use the same device across several ecosystems (Apple, Google, Amazon). Models offering both, such as the Aqara Light Switch H2 EU or the Shelly 1PM Gen4, give you the most freedom.',
       },
     },
     {
@@ -908,6 +1274,9 @@ export const article: BlogArticle = {
         it: 'Posso installare da solo un interruttore smart?',
         nl: 'Kan ik zelf een slimme schakelaar installeren?',
         pl: 'Czy inteligentny włącznik można zamontować samodzielnie?',
+        sv: 'Kan jag installera en smart strömbrytare själv?',
+        us: 'Can I install a smart switch myself?',
+        ca: 'Can I install a smart switch myself?',
       },
       answer: {
         fr: "Un bricoleur expérimenté peut le faire en coupant le disjoncteur du circuit, en vérifiant l'absence de tension et en suivant la notice. Au moindre doute sur le câblage ou sur une installation ancienne, faites appel à un électricien qualifié. Les commandes sur pile ne nécessitent aucune intervention électrique.",
@@ -917,6 +1286,9 @@ export const article: BlogArticle = {
         it: "Un appassionato esperto può farlo abbassando il magnetotermico del circuito, verificando l'assenza di tensione e seguendo le istruzioni. In caso di dubbi sul cablaggio o con impianti datati, rivolgiti a un elettricista qualificato. I comandi a batteria non richiedono alcun intervento elettrico.",
         nl: 'Een ervaren klusser kan dit doen door de groep uit te schakelen, te controleren of er geen spanning meer is en de handleiding te volgen. Bij de minste twijfel over de bedrading of bij een oude installatie schakel je een erkende elektricien in. Bedieningen op batterij vragen geen ingreep in de elektriciteit.',
         pl: 'Tak, jeśli masz doświadczenie w majsterkowaniu: wyłącz bezpiecznik (wyłącznik nadprądowy) danego obwodu, sprawdź, czy nie ma napięcia, i postępuj zgodnie z instrukcją. Przy najmniejszych wątpliwościach co do okablowania albo w starej instalacji wezwij wykwalifikowanego elektryka. Sterowniki na baterie nie wymagają żadnych prac przy instalacji elektrycznej.',
+        sv: 'En van hemmafixare kan göra det genom att slå av automatsäkringen för kretsen, kontrollera att det inte finns någon spänning kvar och följa bruksanvisningen. Känner du dig det minsta osäker på kabeldragningen eller en äldre elinstallation bör du anlita en behörig elektriker. Batteridrivna fjärrkontroller kräver inget elarbete.',
+        us: 'An experienced DIYer can do it by turning off the circuit breaker, confirming there\'s no voltage and following the instructions. If you have any doubt about the wiring, or the wiring is old, call a licensed electrician. Battery-powered remotes need no electrical work.',
+        ca: 'An experienced DIYer can do it by switching off the breaker, confirming there is no voltage and following the instructions. If you have any doubt about the wiring or an older installation, call a licensed electrician; electrical work rules are set by each province and territory. Battery-powered remotes need no electrical work.',
       },
     },
     {
@@ -928,6 +1300,9 @@ export const article: BlogArticle = {
         it: 'Perché i miei LED sfarfallano con un interruttore smart?',
         nl: 'Waarom knipperen mijn ledlampen met een slimme schakelaar?',
         pl: 'Dlaczego żarówki LED migoczą przy inteligentnym włączniku?',
+        sv: 'Varför flimrar mina LED-lampor med en smart strömbrytare?',
+        us: 'Why do my LED bulbs flicker with a smart switch?',
+        ca: 'Why do my LEDs flicker with a smart switch?',
       },
       answer: {
         fr: "Sur un modèle sans neutre, le module s'alimente à travers l'ampoule : si la charge est trop faible, les LED peuvent scintiller ou rester légèrement allumées. Un compensateur (bypass) installé près du luminaire, une charge plus importante ou un modèle avec neutre règlent généralement le problème.",
@@ -937,6 +1312,9 @@ export const article: BlogArticle = {
         it: "Nei modelli senza neutro il modulo si alimenta attraverso la lampadina: se il carico è troppo basso, i LED possono sfarfallare o restare debolmente accesi. Un compensatore (bypass) vicino al punto luce, un carico maggiore o un modello con neutro di solito risolvono il problema.",
         nl: 'Bij een model zonder nul haalt de module zijn voeding via de lamp: is de belasting te laag, dan kunnen ledlampen knipperen of zwak blijven gloeien. Een compensator (bypass) bij het armatuur, een hogere belasting of een model met nul lost dit meestal op.',
         pl: 'W modelu bez przewodu neutralnego moduł pobiera zasilanie przez żarówkę: jeśli obciążenie jest zbyt małe, żarówki LED mogą migotać lub nie gasnąć całkowicie. Problem zwykle rozwiązuje kompensator (bypass) zamontowany przy oprawie, większe obciążenie albo model z przewodem neutralnym.',
+        sv: 'På en modell utan nolledare tar modulen sin ström genom lampan: är belastningen för låg kan LED-lamporna flimra eller lysa svagt. En kompensator (bypass) monterad nära armaturen, en högre belastning eller en modell med nolledare brukar lösa problemet.',
+        us: 'On a no-neutral model, the module draws power through the bulb: if the load is too low, LEDs may flicker or glow faintly. A bypass (compensator) installed near the light fixture, a higher load or a model that uses a neutral wire usually solves the problem.',
+        ca: 'On a no-neutral model, the module draws power through the bulb: if the load is too low, LEDs may flicker or glow faintly. A compensator (bypass) installed near the light fixture, a higher load or a model wired with a neutral usually solves the problem.',
       },
     },
   ],

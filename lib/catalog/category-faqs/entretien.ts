@@ -51,6 +51,72 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       { question: "Czy robot sprzątający z kamerą zagraża prywatności?", answer: "Nie musi, jeśli producent przetwarza obraz w samym robocie i nie wysyła go do chmury. Sprawdź politykę prywatności: zgodnie z RODO powinna jasno określać, gdzie są przechowywane mapy i inne dane. Ustaw unikalne hasło do aplikacji, włącz uwierzytelnianie dwuskładnikowe, jeśli jest dostępne, i instaluj aktualizacje. Podgląd z kamery i mikrofon warto wyłączyć, jeśli z nich nie korzystasz." },
       { question: "Jak dbać o robota sprzątającego i co ile wymieniać szczotki?", answer: "Raz w tygodniu warto wyczyścić filtr i zdjąć włosy ze szczotek, a części wymieniać według przypomnień w aplikacji. Najszybciej zużywają się filtr i szczotka boczna; wygięte włosie lub szary, zapchany filtr to sygnał do wymiany. Czujniki, kółka i styki ładowania przecieraj suchą ściereczką. Przed zakupem sprawdź, czy w Polsce łatwo dostać oryginalne części i baterię do danego modelu." },
     ],
+    sv: [
+      {
+        question: "Vilken robotdammsugare passar en liten lägenhet?",
+        answer: "I en liten lägenhet räcker oftast en robotdammsugare med LiDAR-navigering utan stor station. Den kartlägger snabbt två eller tre rum och låter dig lägga in förbjudna zoner runt sladdar eller kattens matskål. Mät utrymmet under sängen och soffan och jämför med robotens höjd, LiDAR-tornet inräknat. En självtömmande station är bekväm men tar plats: på 40 kvadratmeter är det inte svårt att tömma dammbehållaren för hand varannan eller var tredje körning.",
+      },
+      {
+        question: "Klarar en robotdammsugare hund- och katthår?",
+        answer: "Ja, om du väljer en huvudborste i gummi eller en trasselfri borste och låter roboten köra ofta, varje dag när djuret fäller. Långa hårstrån lindar sig runt vanliga borstar och försämrar städningen. Med husdjur hjälper kamerabaserad hinderdetektering roboten att undvika leksaker, matskålar och små olyckor. Klipp bort hår som lindat sig runt sidoborsten och rengör filtret varje vecka: det är den skötseln som håller sugkraften uppe.",
+      },
+      {
+        question: "Fungerar en robotdammsugare på mattor och över trösklar?",
+        answer: "Ja på kort- och mellanluggade mattor, men långluggade mattor och tjocka ryor stoppar fortfarande de flesta robotar. Leta efter ett automatiskt mattläge som ökar sugkraften när roboten känner av en matta, och kontrollera att klätterhöjden räcker för trösklarna och mattkanterna hemma hos dig. Roboten håller efter det dagliga dammet och djurhåren, men du behöver fortfarande en vanlig eller sladdlös dammsugare för trappan och för en grundligare städning varje vecka.",
+      },
+      {
+        question: "LiDAR eller kamera: vilken navigering är bäst för en robotdammsugare?",
+        answer: "LiDAR är fortfarande det säkra valet för en exakt och pålitlig karta, även i mörker. En robot som bara navigerar med kamera behöver ljus, men känner bättre igen små föremål på golvet. De mest genomarbetade modellerna kombinerar båda: laser för kartan och kamera eller 3D-sensor för att undvika sladdar, strumpor och stolsben. Robotar utan kartläggning, som kör slumpmässigt, passar bara för ett enda litet rum.",
+      },
+      {
+        question: "Är en robotdammsugare med kamera en risk för integriteten?",
+        answer: "Risken finns men är lätt att minska om du väljer ett märke som behandlar bilderna i roboten i stället för att skicka dem till molnet. Läs integritetspolicyn, som ska ange var kartan och dina data lagras, i enlighet med GDPR. Använd ett unikt lösenord, slå på tvåstegsverifiering om den finns och installera uppdateringarna. Stäng av kameran eller mikrofonen i appen om du inte använder dem.",
+      },
+    ],
+    us: [
+      {
+        question: "Do robot vacuums work on carpet?",
+        answer: "Yes, on low- and medium-pile carpet, but shag and thick rugs still defeat most robots. Look for automatic carpet boost, which raises suction when the robot senses carpet, and check that its climbing height clears door thresholds and rug edges. In a home with wall-to-wall carpet, a robot keeps on top of daily dust and pet hair, but you'll still need an upright or cordless vacuum for the stairs and a deeper weekly clean.",
+      },
+      {
+        question: "How much does a robot vacuum cost to run?",
+        answer: "Very little: charging a robot vacuum every day usually comes to less than 40 kWh a year. Work it out from the battery: 5,200 mAh × 14.4 V ≈ 75 Wh, or about 0.08 kWh per charge once losses are added, so roughly 30 kWh a year for a daily clean. Add the dock's standby power, which varies by model: 2 W around the clock, for example, is about 17.5 kWh a year. At an example rate of 20 cents per kWh, that total of about 47.5 kWh comes to roughly $9.50 a year; check the rate on your utility bill.",
+      },
+      {
+        question: "Is a robot vacuum worth it if you have a dog or cat?",
+        answer: "Yes, homes with shedding pets get the most out of a robot, because it picks up hair every day before it drifts into corners. Choose rubber or tangle-free brush rolls, a large bin or a self-emptying dock, and camera-based obstacle avoidance so it steers around toys, bowls and accidents. Once a week, cut hair off the side brush and the brush roll's axles; wrapped hair is a common reason a robot drags, squeals or stops.",
+      },
+      {
+        question: "Can a robot vacuum clean both upstairs and downstairs?",
+        answer: "Yes, but you have to carry it, because no robot vacuum climbs stairs. Most mapping models save several floor maps and recognize which floor they're on, so each level keeps its own rooms, no-go zones and schedules. Cliff sensors stop it from tumbling down the stairs, although very dark carpet can confuse them on some models. If you clean both floors often, a second, simpler robot upstairs can be easier than lugging one up and down.",
+      },
+      {
+        question: "Robot vacuum or cordless stick vacuum: which should I buy first?",
+        answer: "If you can only buy one, get the cordless stick: it's more versatile, handling stairs, couches, car seats and corners a robot can't reach. A robot wins on routine: it vacuums every day without you lifting a finger, which matters most with pets or hard floors that show every crumb. The two complement each other well: the robot does the daily run and the stick handles the weekly details.",
+      },
+    ],
+    ca: [
+      {
+        question: "Do robot vacuums work on carpet?",
+        answer: "Yes on short and medium-pile carpet, but deep shag and thick rugs still defeat most robots. Look for automatic carpet boost, which raises suction when the robot senses carpet, and check that its climbing height clears door thresholds and rug edges. In a fully carpeted home, a robot keeps on top of daily dust and pet hair, but you'll still need an upright or cordless vacuum for the stairs and a deeper weekly clean.",
+      },
+      {
+        question: "How much does a robot vacuum cost to run?",
+        answer: "Very little: charging a robot vacuum daily usually comes to less than 40 kWh a year. Work it out from the battery: 5,200 mAh × 14.4 V ≈ 75 Wh, about 0.08 kWh per charge once losses are added, or roughly 30 kWh a year for a daily clean. Add the dock's standby, which varies by model: 2 W around the clock, for example, is about 17.5 kWh a year. That's about 47.5 kWh in all, or under $5 a year at an example rate of 10¢ per kWh; your rate depends on your province and utility.",
+      },
+      {
+        question: "Is a robot vacuum worth it if you have a dog or cat?",
+        answer: "Yes, homes with shedding pets get the most out of a robot, because it picks up hair every day before it drifts into corners. Choose rubber or tangle-free rollers, a large bin or a self-emptying dock, and camera-based obstacle avoidance so it steers around toys, bowls and accidents. Once a week, cut hair off the side brush and roller axles; wrapped hair is a common reason a robot drags, squeals or stops.",
+      },
+      {
+        question: "Can a robot vacuum clean both upstairs and downstairs?",
+        answer: "Yes, but you have to carry it, because no robot vacuum climbs stairs. Most mapping models save several floor maps and recognize which floor they're on, so each level keeps its own rooms, no-go zones and schedules. Cliff sensors stop it from falling down the stairs, although very dark carpet can confuse them on some models. If you clean both floors often, a second, simpler robot upstairs can be easier than lugging one up and down.",
+      },
+      {
+        question: "Robot vacuum or cordless stick vacuum: which should I buy first?",
+        answer: "If you can only buy one, the cordless stick is more versatile, because it handles stairs, sofas, car seats and corners a robot cannot reach. A robot wins on routine: it vacuums every day without you lifting a finger, which matters most with pets or hard floors that show every crumb. The two complement each other well: the robot does the daily run and the stick handles the weekly details.",
+      },
+    ],
   },
   "aspirateurs-laveurs": {
     fr: [
@@ -101,6 +167,72 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       { question: "Mop obrotowy czy wibracyjny – który lepiej myje?", answer: "Obrotowe mopy dociskane do podłogi zwykle szorują mocniej i lepiej usuwają zaschnięte ślady, a część modeli wysuwa je pod listwy. Mop wibracyjny dobrze sprawdza się przy codziennym odświeżaniu i często pracuje ciszej. Są też modele z wałkiem płukanym na bieżąco, który nie rozmazuje brudnej wody. Zwróć uwagę, co robot robi z mopem na dywanie: podnosi go o kilka milimetrów czy zostawia w stacji." },
       { question: "Ile prądu zużywa stacja z suszeniem mopów gorącym powietrzem?", answer: "Niewiele, ale więcej niż sam robot: najwięcej pobiera suszenie mopów, które po każdym myciu trwa zwykle od dwóch do czterech godzin. Zużycie policzysz z mocy podanej w instrukcji, np. 40 W × 3 godziny = 0,12 kWh; wynik pomnóż przez cenę kWh i liczbę myć w miesiącu. Stacje podgrzewające wodę do płukania mopów zużywają trochę więcej. Rachunek obniżysz, skracając w aplikacji czas suszenia." },
       { question: "Czy do zbiornika robota można wlać zwykły płyn do mycia podłóg?", answer: "Nie, do zbiornika wlewaj tylko wodę albo płyn wskazany przez producenta robota. Zwykłe płyny do podłóg mocno się pienią i zostawiają osad w przewodach, a ocet czy środki z chlorem mogą uszkodzić pompę i uszczelki. Użycie niezalecanego środka może też utrudnić naprawę gwarancyjną. Jeśli jakieś miejsce wymaga dezynfekcji, umyj je ręcznie, a robota zostaw do codziennego mycia." },
+    ],
+    sv: [
+      {
+        question: "Kan en robotdammsugare med mopp skada parkett eller laminat?",
+        answer: "Inte på lackad parkett eller laminat med täta skarvar, om du ställer in vattenflödet på lägsta nivå. Undvik däremot moppning på oljad, vaxad eller gammal parkett med glipor mellan stavarna. Trä tål inte stående vatten, men en knappt fuktig moppduk går bra. Välj en robot som doserar vattnet noga och torkar moppdukarna i stationen, använd bara det rengöringsmedel tillverkaren godkänner och lägg in en zon för ”bara dammsugning” i appen för känsliga rum.",
+      },
+      {
+        question: "Roterande moppdukar eller vibrerande platta: vilket moppar bäst?",
+        answer: "Roterande moppdukar som pressas mot golvet skurar i regel hårdare och tar bättre bort intorkade fläckar, och vissa modeller kan föra ut dem mot golvlisterna. En vibrerande platta fungerar bra för den löpande städningen och är ofta tystare. Ett tredje system, en valsmopp som sköljs hela tiden, gör att smutsigt vatten inte smetas ut igen. Kontrollera också hur roboten hanterar mattor: att lyfta moppdukarna några millimeter räcker för tunna mattor, men att lämna dem i stationen är säkrare för tjocka.",
+      },
+      {
+        question: "Hur mycket el drar en station som torkar moppdukarna med varmluft?",
+        answer: "Lite mer än en vanlig robot: det mesta går åt till varmluftstorkningen av moppdukarna, som ofta pågår i två till fyra timmar efter varje moppning. Utgå från torkeffekten i bruksanvisningen, t.ex. 40 W i 3 timmar = 0,12 kWh, och multiplicera med ditt elpris och antalet moppningar. Stationer som värmer sköljvattnet drar lite mer. Kortar du torktiden i appen sjunker kostnaden.",
+      },
+      {
+        question: "Varför luktar stationen till min moppande robot illa?",
+        answer: "För att smutsvattnet blir stående i tanken och i tvättfacket, särskilt när det är varmt. Töm och skölj smutsvattentanken efter varje moppning och låt den torka med locket öppet ibland. Rengör tvättfacket och dess filter varje vecka och låt torkningen av moppdukarna vara påslagen. Tillsätt varken klorin, ättika eller eteriska oljor: bara det rengöringsmedel märket rekommenderar är skonsamt mot pump och packningar.",
+      },
+      {
+        question: "Lönar sig en robotdammsugare med mopp om jag mest har hårda golv?",
+        answer: "Ja, har du mest klinker, laminat eller vinylgolv håller en robot som både dammsuger och moppar kök och hall rena utan daglig insats. Den klarar fotspår, damm och mindre spill, men inte intorkade fläckar, som fortfarande kräver en vanlig mopp. Har du mattor i vissa rum bör du välja en modell som lyfter moppdukarna eller lämnar dem i stationen innan den kör över mattan.",
+      },
+    ],
+    us: [
+      {
+        question: "Is a robot vacuum and mop worth it if your downstairs floors are hard?",
+        answer: "Yes, if your main floor is mostly tile, laminate or luxury vinyl plank (LVP), a robot that vacuums and mops keeps the kitchen and hallway clean without daily effort. It handles footprints, dust and light spills well, but not dried-on stains, which still need a mop. If your upstairs is carpeted, choose a model that lifts its mop pads or drops them off at the dock on carpet, or keep the robot downstairs and a vacuum upstairs.",
+      },
+      {
+        question: "Will a mopping robot damage laminate or engineered wood floors?",
+        answer: "Not if the floor is properly sealed and you set the water flow to its lowest level. Laminate and engineered boards don't like standing water at the seams, but a barely damp pad is fine. Pick a robot that meters water precisely and dries its pads in the dock, and use only the cleaning solution the manufacturer approves. Check your flooring manufacturer's care guide too, since some warn against any wet cleaning on certain finishes.",
+      },
+      {
+        question: "Rotating mop pads or a vibrating mop: which cleans better?",
+        answer: "Rotating pads usually scrub harder and lift dried-on marks better, and some models swing them out to reach along baseboards. Vibrating plates are fine for routine cleaning and are often quieter. Roller mops that rinse themselves continuously avoid spreading dirty water. Whatever the system, check how it handles rugs: lifting the pads a fraction of an inch works on thin rugs, while dropping them off at the dock is safer for thick ones.",
+      },
+      {
+        question: "How much does a self-cleaning mop dock add to the electric bill?",
+        answer: "Not much, but more than a basic robot: hot-air drying of the pads, which runs for two to four hours after each mopping session, is the main cost. Use the drying power listed in the manual, for example 40 W for 3 hours = 0.12 kWh, then multiply by your rate and the number of mopping runs: at an example 20 cents per kWh, that's about 2.4 cents a run. Docks that heat their wash water add a little more. Shortening the drying time in the app cuts the cost.",
+      },
+      {
+        question: "Can I use tap water in a mopping robot if I have hard water?",
+        answer: "Usually yes, unless the manual says otherwise, but hard water leaves white streaks on dark floors and builds up mineral deposits in the dock over time. Your water utility's annual water quality report often lists your water hardness. Run the dock's self-clean cycle regularly and descale only with products the brand approves. Some manufacturers allow filtered or softened water, so check the manual before you switch.",
+      },
+    ],
+    ca: [
+      {
+        question: "Is a robot vacuum and mop worth it if your main floor has hard flooring?",
+        answer: "Yes, if your main floor is mostly tile, laminate or vinyl plank, a robot that vacuums and mops keeps the kitchen and hallway clean without daily effort. It deals well with footprints, dust and light spills, but not with dried-on stains, which still need a mop. If your upstairs is carpeted, choose a model that lifts or drops off its mop pads on carpet, or keep the robot on the main floor and a vacuum upstairs.",
+      },
+      {
+        question: "Will a mopping robot damage laminate or engineered wood floors?",
+        answer: "Not if the floor is properly sealed and you set the water flow to its lowest level. Laminate and engineered boards dislike standing water at the joints, not a barely damp pad. Pick a robot that meters water precisely and dries its pads in the dock, and use only the cleaning solution the maker approves. Check your flooring manufacturer's care guide too, as some warn against any wet cleaning on certain finishes.",
+      },
+      {
+        question: "Rotating mop pads or a vibrating mop: which cleans better?",
+        answer: "Rotating pads usually scrub harder and lift dried marks better, and some models swing them out to reach baseboards. Vibrating plates are fine for routine cleaning and are often quieter. Roller mops that rinse themselves continuously avoid spreading dirty water. Whatever the system, check how it deals with rugs: lifting the pads a few millimetres works on thin rugs, while dropping them at the dock is safer for thick ones.",
+      },
+      {
+        question: "How much does a self-cleaning mop dock add to the electricity bill?",
+        answer: "Not much, but more than a basic robot: hot-air drying of the pads, which runs for two to four hours after each mop, is the main cost. Use the drying power from the manual, for example 40 W for 3 hours = 0.12 kWh, then multiply by your rate per kWh and by the number of mopping runs: at an example rate of 10¢ per kWh, that's about 1¢ per run. Docks that heat their wash water add a little more. Shortening the drying time in the app cuts the cost.",
+      },
+      {
+        question: "Can I use tap water in a mopping robot if I have hard water?",
+        answer: "Usually yes, unless the manual says otherwise, but hard water leaves chalky smears on dark floors and builds up scale in the dock over time. Your municipality's water quality report often lists the hardness. Run the dock's self-clean cycle regularly and descale only with products the brand approves. Some manufacturers allow filtered or softened water, so check the manual before switching.",
+      },
     ],
   },
   "laveurs-vitres": {
@@ -153,6 +285,72 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       { question: "Robot do mycia okien kwadratowy czy okrągły?", answer: "Kwadratowy sprawdzi się lepiej w większości domów, bo dochodzi głębiej w narożniki i jeździ równymi pasami. Okrągłe roboty z dwoma obrotowymi padami mocniej szorują i dobrze radzą sobie z bardzo brudnym szkłem, ale w rogach zostawiają więcej nieumytej powierzchni. Porównaj też, czy robot ma spryskiwacz, jak długi jest kabel i jak długo działa bateria awaryjna." },
       { question: "Dlaczego robot do mycia okien zostawia smugi?", answer: "Najczęściej przez brudne lub zbyt mokre ściereczki albo mycie w pełnym słońcu. Pierz ściereczki po każdym użyciu bez płynu zmiękczającego, a przy zakurzonej szybie zrób najpierw przejazd na sucho. Pryskaj oszczędnie, bo nadmiar płynu spływa i zostawia zacieki. Przy twardej wodzie wlej do spryskiwacza wodę demineralizowaną, jeśli instrukcja na to pozwala." },
     ],
+    sv: [
+      {
+        question: "Fungerar en fönsterputsrobot verkligen?",
+        answer: "Ja, på stora plana glasytor som panoramafönster och inglasade uterum, men betydligt sämre på små rutor. Den håller sig fast med sug och putsar rutan i flera omgångar, men tar varken karmar, tätningslister eller de yttersta hörnen. På en mycket smutsig ruta får du räkna med två omgångar med rena putsdukar. Störst tidsvinst blir det på stora fönster eller fönster som är svåra att nå från utsidan.",
+      },
+      {
+        question: "Kan jag använda en fönsterputsrobot på utsidan av fönster högt upp?",
+        answer: "Ja, om du varje gång fäster säkerhetslinan i en fast punkt inomhus och kontrollerar att reservbatteriet är laddat. Batteriet håller kvar sugkraften i flera minuter om strömmen går eller kontakten dras ur. Använd den inte i regn, i hård vind eller på en sprucken ruta. Stanna i närheten medan den arbetar och se till att ingen går under fönstret.",
+      },
+      {
+        question: "Fungerar en fönsterputsrobot på spröjsade fönster?",
+        answer: "Bara om varje glasruta är större än den minsta yta tillverkaren anger; i klassiska spröjsade fönster är rutorna ofta för små. Roboten känner av kanterna med hjälp av ramen eller sensorer, och varje spröjs avbryter dess bana. För glas utan ram, som ett glasräcke eller en duschvägg, väljer du en modell med kantsensorer som är gjorda för det. Annars går det fortare med en fönsterskrapa.",
+      },
+      {
+        question: "Fyrkantig eller rund fönsterputsrobot: vilken ska jag välja?",
+        answer: "Den fyrkantiga är mest allsidig: den kommer längre in i hörnen och rör sig i jämna banor. Runda modeller med två roterande skivor skurar hårdare och klarar mycket smutsiga rutor bra, men lämnar lite mer yta orörd i hörnen. En inbyggd sprayfunktion gör att du slipper fukta dukarna för hand och ger färre ränder. Jämför också kabellängd, reservbatteri och den uppgivna ljudnivån.",
+      },
+      {
+        question: "Varför lämnar min fönsterputsrobot ränder?",
+        answer: "Oftast för att putsdukarna är smutsiga eller för blöta, eller för att du putsar i direkt solljus. Tvätta dukarna efter varje användning utan sköljmedel och kör en första torr omgång på en mycket dammig ruta. Spraya sparsamt, eftersom för mycket medel ger rinnmärken. Är vattnet hårt minskar avjoniserat vatten i spraybehållaren de vita märkena, om bruksanvisningen tillåter det. Putsa helst när rutan ligger i skugga. Halkar roboten trots rena dukar kan rutan vara för liten för modellen.",
+      },
+    ],
+    us: [
+      {
+        question: "Is a window cleaning robot cheaper than hiring a window cleaner?",
+        answer: "It can be over a few years, but only if it handles most of your windows and you're comfortable using it on the outside. Compare the purchase price with what you pay a window cleaning service per visit, multiplied by the number of visits a year. A robot doesn't clean frames, sills or glass you can't reach safely, so it often makes sense to keep the pros for second-floor exteriors and use the robot for big panes and inside glass.",
+      },
+      {
+        question: "Can a window cleaning robot safely clean the outside of upstairs windows?",
+        answer: "Yes, as long as you tie the safety tether to a fixed point indoors every time and the backup battery is charged. That battery keeps the suction going for several minutes if the power goes out or the plug gets pulled. Don't use it in rain or strong wind, or on cracked glass. Stay close while it works, and keep people and pets away from the area below the window.",
+      },
+      {
+        question: "Do window cleaning robots work on double-hung windows and sunrooms?",
+        answer: "On large panes, yes, but not on small divided-light panes separated by muntins, because each pane has to exceed the robot's minimum size. On double-hung windows, the robot only reaches the outside if the sashes tilt in or you can open them safely. In a sunroom it works well on the glass side panels, and on glass roofs with the tether attached; avoid polycarbonate roofs unless the manufacturer approves them.",
+      },
+      {
+        question: "Square or round window cleaning robot: which is better?",
+        answer: "Square robots are the better all-rounder, because they reach farther into corners and move in neat lines. Round twin-pad models scrub harder and cope well with very dirty glass, but leave slightly more of each corner uncleaned. A built-in water spray saves you wetting the pads by hand and reduces streaks. Also compare cable length, the backup battery and the stated noise level, since the suction motor is fairly loud.",
+      },
+      {
+        question: "Why does my window robot leave streaks or keep slipping?",
+        answer: "Dirty or overly wet pads are the usual cause of both. Wash the pads after each use without fabric softener, and do a dry first pass on very dusty glass. Spray less cleaning solution, avoid cleaning in direct sun, and if you have hard water, use distilled water in the spray tank if the manual allows it. If it slips even with clean pads, check that the pane isn't too small or frameless for that model.",
+      },
+    ],
+    ca: [
+      {
+        question: "Is a window cleaning robot cheaper than hiring a window washer?",
+        answer: "It can be over a few years, but only if it does most of your windows and you're comfortable using it outside. Compare the purchase price with what you pay a window cleaning service per visit, multiplied by the visits per year. A robot doesn't clean frames, sills or glass you can't reach safely, so it often makes sense to keep the pros for upstairs exteriors and use the robot for big panes and inside glass.",
+      },
+      {
+        question: "Can a window cleaning robot safely clean the outside of upstairs windows?",
+        answer: "Yes, provided you tie the safety tether to a fixed point indoors every time and the backup battery is charged. That battery keeps the suction going for several minutes if the power cuts out or the plug is pulled. Do not use it in rain or strong wind, or on cracked glass. Stay close while it works and keep people and pets away from the area below the window.",
+      },
+      {
+        question: "Do window cleaning robots work on double-hung windows and sunrooms?",
+        answer: "On large panes yes, but not on small divided panes separated by muntins, because each pane must exceed the robot's minimum size. On double-hung windows, the robot only reaches the outer face if the sashes tilt in or you can open them safely. In a sunroom it works well on glass side panels, and on glass roofs with the tether attached; avoid polycarbonate roofs unless the manufacturer approves them.",
+      },
+      {
+        question: "Square or round window cleaning robot: which is better?",
+        answer: "Square robots are the better all-rounder, because they reach further into corners and move in neat lines. Round twin-pad models scrub harder and cope well with very dirty glass, but leave slightly more uncleaned area in the corners. A built-in water spray saves wetting pads by hand and reduces streaks. Also compare cable length, the backup battery and the stated noise level, as the suction motor is fairly loud.",
+      },
+      {
+        question: "Why does my window robot leave streaks or keep slipping?",
+        answer: "Dirty or overly wet pads are the usual cause of both streaks and slipping. Wash the pads after each use without fabric softener, and do a dry first pass on very dusty glass. Spray less solution, avoid cleaning in direct sun, and if your water is hard, use distilled water in the spray tank if the manual allows it. If it slips even with clean pads, check that the pane isn't too small or frameless for that model.",
+      },
+    ],
   },
   "aspirateurs-balais": {
     fr: [
@@ -203,6 +401,72 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       { question: "Dlaczego odkurzacz pionowy sam się wyłącza?", answer: "Najczęściej dlatego, że coś blokuje przepływ powietrza i zabezpieczenie przed przegrzaniem wyłącza silnik. Sprawdź rurę i ssawkę, opróżnij pojemnik i wyczyść lub wysusz filtr. Włosy nawinięte na szczotkę też potrafią ją zablokować. Jeśli odkurzacz wyłącza się, choć nic go nie blokuje, bateria jest prawdopodobnie zużyta albo zbyt zimna, np. po przechowywaniu na balkonie czy w garażu." },
       { question: "Ile prądu zużywa ładowanie odkurzacza pionowego?", answer: "Bardzo mało: pełne ładowanie to zwykle wyraźnie mniej niż 0,1 kWh. Przykład: 25,2 V × 2,5 Ah ≈ 63 Wh, czyli ok. 0,07 kWh ze stratami. Przy codziennym ładowaniu daje to ok. 25 kWh rocznie; pomnóż przez cenę kWh z rachunku. Nowoczesne ładowarki kończą ładowanie przy pełnej baterii, więc pozostawienie odkurzacza w uchwycie niewiele kosztuje." },
       { question: "Ile lat wytrzymuje bateria w odkurzaczu pionowym i czy można ją wymienić?", answer: "Bateria litowo-jonowa zwykle wytrzymuje kilka lat, zanim czas pracy wyraźnie się skróci – zależy to od liczby cykli ładowania i od tego, jak często używasz trybu turbo. Najwygodniej, gdy bateria jest wpinana i dostępna osobno; przykręcaną też da się wymienić, ale wymaga to narzędzi lub serwisu. Przed zakupem sprawdź, czy producent sprzedaje oryginalne baterie w Polsce. Przechowuj odkurzacz w temperaturze pokojowej i nie zostawiaj go długo rozładowanego." },
+    ],
+    sv: [
+      {
+        question: "Sladdlös dammsugare eller vanlig dammsugare: vilken ska jag välja?",
+        answer: "En sladdlös dammsugare räcker i de flesta lägenheter och på hårda golv, eftersom den är framme på några sekunder och du därför dammsuger oftare. En vanlig golvdammsugare med sladd har fortfarande övertaget i stora hus, på tjocka heltäckningsmattor och vid långa städpass, eftersom inget batteri tar slut. Ska du bara ha en bör du kontrollera den verkliga batteritiden i mellanläget, inte i ekoläget, och att batteriet går att ta ur.",
+      },
+      {
+        question: "Varför blinkar eller pulserar min sladdlösa dammsugare?",
+        answer: "Oftast varnar den för ett urladdat eller felaktigt batteri, ett igensatt rör eller överhettning; exakt vad blinkandet betyder beror på märket och lampans färg. Pulserar motorn är det ofta luftflödet som är blockerat. Ladda batteriet fullt, kontrollera att filtret är rent och torrt och att inget blockerar röret, borstmunstycket eller dammbehållaren. Efter överhettning låter du den svalna en halvtimme. Fortsätter den att blinka med fulladdat batteri är batteriet troligen utslitet.",
+      },
+      {
+        question: "Hur länge håller batteriet i en sladdlös dammsugare?",
+        answer: "En laddning räcker från några minuter i maxläget till ungefär en timme i ekoläget, beroende på modell, och batteriets livslängd räknas i år. Ett litiumjonbatteri tappar kapacitet med laddcyklerna, särskilt om du ofta kör i turboläget. Välj hellre ett löstagbart batteri som säljs separat än ett som är fastskruvat. Förvara dammsugaren i ett tempererat rum och undvik att låta den stå helt urladdad länge.",
+      },
+      {
+        question: "Vilken sladdlös dammsugare är bäst för allergiker och djurhår?",
+        answer: "Välj en modell med HEPA-filter i ett helt tätt system, en trasselfri borste och en dammbehållare som går att tömma utan att du rör dammet. HEPA-filtret fångar bara fina partiklar om luften inte läcker förbi innan den passerar filtret. Ett litet motoriserat munstycke underlättar på soffor och i djursängar. Tvätta eller byt filtret enligt bruksanvisningen och töm behållaren utomhus eller i en påse som du knyter ihop.",
+      },
+      {
+        question: "Kan jag låta den sladdlösa dammsugaren stå på laddning hela tiden?",
+        answer: "Ja, nyare modeller slutar ladda när batteriet är fullt, så den kan stå kvar i väggfästet. Använd bara originalladdaren, ladda aldrig ett svullet eller skadat batteri och undvik att förvara dammsugaren i solen eller i ett mycket kallt garage. Förbrukningen är minimal: ett batteri på 25 V och 2,5 Ah lagrar ungefär 0,06 kWh per laddning, vilket med ett exempelpris på 2,20 kr/kWh blir drygt 10 öre.",
+      },
+    ],
+    us: [
+      {
+        question: "Cordless or corded vacuum for a home with lots of carpet?",
+        answer: "A cordless stick vacuum suits most homes for everyday cleaning, but a corded upright or canister still wins in large homes with wall-to-wall carpet and for deep cleaning. On carpet, cordless vacuums need a powered brush head and often a higher power mode, which drains the battery quickly. Check the runtime in the mode you'll actually use and whether a second clip-in battery is available. On the stairs, a cordless model is far easier to carry.",
+      },
+      {
+        question: "Why does my cordless vacuum keep cutting out or pulsing?",
+        answer: "Most often because something is blocking the airflow, which triggers the motor's protection and makes it pulse or stop. Check for a clogged wand or brush head, a full bin and a clogged or damp filter. Hair wrapped around the brush roll can also stall it. If it still cuts out with everything clear, the battery may be worn out or too cold, especially if you keep the vacuum in a garage.",
+      },
+      {
+        question: "How long should a cordless vacuum battery last?",
+        answer: "Expect a lithium-ion battery to last several years before its runtime drops noticeably, depending on how often you charge it and how hard you use boost mode. Runtime claims are measured in the lowest power mode; on max you may get only a few minutes. A clip-in battery you can buy separately makes replacement simple, while a screwed-in pack is harder to change. Store the vacuum indoors and avoid leaving it fully drained for weeks.",
+      },
+      {
+        question: "How much does it cost to charge a cordless vacuum?",
+        answer: "A penny or two at most: a full charge stores well under 0.1 kWh. Work it out from the battery: 25.2 V × 2.5 Ah ≈ 63 Wh, so about 0.07 kWh including charging losses. Charged daily, that's around 25 kWh a year, or about $5 at an example rate of 20 cents per kWh; check the rate on your utility bill. Modern chargers stop once the battery is full, so leaving it on the dock adds very little.",
+      },
+      {
+        question: "Which cordless vacuum is best for pet hair and allergies?",
+        answer: "Pick one with a sealed HEPA filtration system, an anti-tangle brush roll and a bin you can empty without touching the dust. A HEPA filter only helps if air can't leak around it, so look for a fully sealed machine, not just a HEPA label on the filter. A mini motorized tool makes quick work of couches and pet beds. Wash or replace the filter as the manual says, and empty the bin outdoors.",
+      },
+    ],
+    ca: [
+      {
+        question: "Cordless or corded vacuum for a home with lots of carpet?",
+        answer: "A cordless stick suits most homes for everyday cleaning, but a corded upright or canister still wins in large, fully carpeted houses and for deep cleans. On carpet, cordless vacuums need a powered brush head and often a higher power mode, which drains the battery quickly. Check the runtime in the mode you'll actually use and whether a second clip-in battery is available. On the stairs, a cordless is far easier to carry.",
+      },
+      {
+        question: "Why does my cordless vacuum keep cutting out or pulsing?",
+        answer: "Most often because something blocks the airflow, which triggers the motor's protection and makes it pulse or stop. Check for a blocked wand or brush head, a full bin and a clogged or damp filter. Hair wrapped around the roller can also stall the brush. If it still cuts out with everything clear, the battery may be worn or too cold, especially if you keep the vacuum in a garage.",
+      },
+      {
+        question: "How long should a cordless vacuum battery last?",
+        answer: "Expect a lithium-ion battery to last several years before its runtime drops noticeably, depending on how often you charge it and how hard you use boost mode. Runtime claims are measured in the lowest power mode; on max you may get only a few minutes. A clip-in battery you can buy separately makes replacement simple, whereas a screwed-in pack is harder to change. Store the vacuum indoors and avoid leaving the battery completely drained for weeks.",
+      },
+      {
+        question: "How much does it cost to charge a cordless vacuum?",
+        answer: "A fraction of a cent per charge: a full charge stores well under 0.1 kWh. Work it out from the battery: 25.2 V × 2.5 Ah ≈ 63 Wh, so about 0.07 kWh including charging losses. Charged daily, that's around 25 kWh a year, or about $2.50 at an example rate of 10¢ per kWh. Modern chargers stop once the battery is full, so leaving it docked adds very little.",
+      },
+      {
+        question: "Which cordless vacuum is best for pet hair and allergies?",
+        answer: "Pick one with a sealed HEPA filtration system, an anti-tangle brush bar and a bin you can empty without touching the dust. A HEPA filter only helps if air can't leak around it, so look for sealing of the whole machine, not just a HEPA label on the filter. A mini motorized tool makes quick work of sofas and pet beds. Wash or replace the filter as the manual says and empty the bin outdoors.",
+      },
     ],
   },
   "nettoyeurs-vapeur": {
@@ -255,6 +519,72 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       { question: "Ile prądu zużywa mop parowy?", answer: "Najwyżej tyle, ile wynosi jego moc razy czas pracy: mop 1500 W używany przez 30 minut zużyje maksymalnie 0,75 kWh. Grzałka włącza się i wyłącza, więc rzeczywiste zużycie jest mniejsze. Pomnóż kWh przez cenę z rachunku, aby poznać koszt jednego sprzątania. Parownica z bojlerem zużywa dodatkowo energię na nagrzanie wody przed rozpoczęciem pracy." },
       { question: "Dlaczego mop parowy przestał wytwarzać parę?", answer: "Najczęściej zbiornik jest pusty, urządzenie jeszcze się nie nagrzało albo kamień zatkał dyszę. Sprawdź poziom wody i odczekaj, aż zapali się kontrolka gotowości. Potem odłącz urządzenie od prądu, a gdy ostygnie, przeczyść dyszę igłą z zestawu; jeśli to nie pomoże, odkamień urządzenie według instrukcji. Jeśli słychać pracę pompy, a para nie wychodzi, pompa może być uszkodzona – wtedy potrzebny jest serwis." },
     ],
+    sv: [
+      {
+        question: "Vad gör jag om ångtvätten är igensatt eller förkalkad?",
+        answer: "Dra ur kontakten, låt den svalna och avkalka den enligt bruksanvisningen: kalk är den vanligaste orsaken till ett igensatt munstycke eller svag ånga. Beroende på modell byter du en avkalkningspatron, använder märkets avkalkningsmedel eller sköljer ur ångpannan. Rensa munstycket med nålen som följer med. Använd bara ättika om bruksanvisningen tillåter det, eftersom den kan skada vissa packningar.",
+      },
+      {
+        question: "Vilket vatten ska jag ha i ångtvätten för att undvika kalk?",
+        answer: "Följ bruksanvisningen: många modeller ska ha kranvatten, ibland blandat till hälften med avjoniserat vatten om kranvattnet är mycket hårt. Vissa apparater fungerar dåligt med enbart avjoniserat vatten, medan andra har en avkalkningspatron. Häll aldrig parfym, eteriska oljor eller rengöringsmedel i tanken. Avkalka enligt schemat om du har hårt vatten.",
+      },
+      {
+        question: "Ångtvätt eller ångmopp: vilken ska jag välja?",
+        answer: "En ångmopp räcker för att snabbt moppa klinkergolv, medan en ångtvätt med tryckbehållare gör nytta i hela hemmet. Tryckbehållaren ger torrare och kraftigare ånga, med tillbehör för fogar, spishällar, blandare och fönster. Den behöver däremot värmas upp och är krångligare att fylla på. Vill du bara göra rent golven tar du en ångmopp, vill du avfetta kök och badrum en ångtvätt.",
+      },
+      {
+        question: "Kan jag använda en ångmopp på parkett eller laminat?",
+        answer: "Inte på oljad, vaxad eller obehandlad parkett, och på laminat bara om golvtillverkaren tillåter det, eftersom ångan kan få brädorna att svälla vid skarvarna. På lackad parkett i gott skick brukar en snabb omgång på lägsta läget gå bra. Låt aldrig moppen stå still på samma ställe. Klinker och keramiska plattor är de golv som passar allra bäst.",
+      },
+      {
+        question: "Tar en ångtvätt död på vägglöss?",
+        answer: "Den hjälper, men räcker inte ensam: det officiella franska protokollet Stop Punaises rekommenderar torr ånga på över 120 °C. Kontrollera vilken temperatur som utlovas vid munstycket, eftersom inte alla hushållsapparater klarar det. Gå långsamt över madrassens sömmar, sängbottnen, golvlisterna och skrymslena. Kombinera med tvätt av textilier i 60 °C och dammsugning, och släng påsen väl försluten. Vid ett etablerat angrepp bör du anlita ett saneringsföretag.",
+      },
+    ],
+    us: [
+      {
+        question: "Can you use a steam mop on laminate or engineered wood?",
+        answer: "Only if the flooring manufacturer says so; many laminate and engineered wood manufacturers advise against steam because it can make the boards swell at the seams. On sealed engineered wood in good condition, some allow a quick pass on the lowest setting. Never leave the mop sitting in one spot. Ceramic and porcelain tile are where a steam mop is safest and most effective.",
+      },
+      {
+        question: "Can a steam cleaner clean carpets?",
+        answer: "Only lightly: with a carpet glider, a steam mop refreshes the surface and lifts some odors, but it doesn't deep clean. For ground-in dirt and stains, a carpet cleaner that sprays and extracts water works far better. You can rent one for an occasional deep clean, or buy one if you have pets. Always check the carpet's care label first, especially for wool.",
+      },
+      {
+        question: "Can I use tap water in a steam cleaner if I have hard water?",
+        answer: "Usually yes, but follow the manual: many manufacturers call for tap water, sometimes mixed half and half with distilled water if yours is very hard. Some machines work poorly on pure distilled water, while others use a descaling cartridge. With very hard water, stick to the descaling schedule. Never add perfume, essential oils or detergent to the tank.",
+      },
+      {
+        question: "How much electricity does a steam mop use?",
+        answer: "At most its rated power for as long as you use it: a 1,500 W steam mop used for 30 minutes uses up to 0.75 kWh. In practice the heater cycles on and off, so real use is lower. Multiply the kWh by your rate to get the cost per clean: at an example 20 cents per kWh, that's at most about 15 cents. Canister steam cleaners also use some energy heating the boiler before you start.",
+      },
+      {
+        question: "Will a steam cleaner get rid of black mold in the bathroom?",
+        answer: "It removes surface mold from tile and grout, but it doesn't fix the cause, which is usually condensation or excess moisture. Steam the area slowly, wipe it dry and ventilate with the exhaust fan or an open window. Mold inside silicone caulk usually stays, and the caulk then needs replacing. If you rent and the mold keeps coming back, report it to your landlord or property manager in writing.",
+      },
+    ],
+    ca: [
+      {
+        question: "Can you use a steam mop on laminate or engineered wood?",
+        answer: "Only if the flooring manufacturer says so; many laminate and engineered wood makers advise against steam because it can swell the boards at the joints. On sealed engineered wood in good condition, some allow a quick pass on the lowest setting. Never leave the mop standing still in one spot. Ceramic and porcelain tiles are where a steam mop is safest and most effective.",
+      },
+      {
+        question: "Can a steam cleaner clean carpets?",
+        answer: "Only lightly: with a carpet glider, a steam mop refreshes the surface and lifts some odours, but it doesn't deep clean. For ground-in dirt and stains, a carpet cleaner that sprays and extracts water works far better. You can rent one for an occasional clean, or buy one if you have pets. Always check the carpet's care label first, especially for wool.",
+      },
+      {
+        question: "Can I use tap water in a steam cleaner if I have hard water?",
+        answer: "Usually yes, but follow the manual: many manufacturers want tap water, sometimes mixed half and half with distilled water if yours is very hard. Some machines work poorly on pure distilled water, while others use a descaling cartridge. If your water is hard, descale on schedule. Never add perfume, essential oils or detergent to the tank.",
+      },
+      {
+        question: "How much electricity does a steam mop use?",
+        answer: "At most its rated power for as long as you use it: a 1,500 W steam mop used for 30 minutes uses up to 0.75 kWh. In practice the heater cycles on and off, so real use is lower. Multiply the kWh by your rate per kWh to get the cost per clean: at an example rate of 10¢, that's 7.5¢ at most. Canister steam cleaners also spend some energy heating the boiler before you start.",
+      },
+      {
+        question: "Will a steam cleaner get rid of black mould in the bathroom?",
+        answer: "It removes surface mould from tiles and grout, but it doesn't fix the cause, which is usually condensation or moisture. Steam the area slowly, wipe it dry and ventilate with the bathroom fan or an open window. Mould inside silicone caulking usually stays, and the caulking then needs replacing. If mould keeps coming back and you rent, report it to your landlord in writing.",
+      },
+    ],
   },
   "fers-centrales-vapeur": {
     fr: [
@@ -305,6 +635,72 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       { question: "Ile prądu zużywa żelazko i ile kosztuje godzina prasowania?", answer: "Nie więcej, niż wynika z mocy i czasu pracy: stacja parowa 2400 W zużyje w ciągu godziny najwyżej 2,4 kWh, a w praktyce mniej, bo grzałka włącza się cyklicznie. Pomnóż kWh przez cenę z rachunku, aby poznać koszt. Prasowanie dużej partii naraz wychodzi taniej niż kilka krótkich sesji, bo każde włączenie oznacza ponowne nagrzewanie bojlera. Funkcja automatycznego wyłączania zapobiega też niepotrzebnemu grzaniu." },
       { question: "Dlaczego żelazko kapie i zostawia plamy?", answer: "Kapie, gdy stopa nie jest wystarczająco gorąca, by zamienić wodę w parę; białe plamy to kamień. Poczekaj, aż zgaśnie kontrolka nagrzewania, wybierz temperaturę, przy której można używać pary, i nie włączaj uderzenia pary przy niskiej temperaturze. Odkamień żelazko według instrukcji. Brązowe plamy oznaczają zabrudzoną stopę, którą czyści się na zimno." },
       { question: "Czy parownica do ubrań zastąpi żelazko?", answer: "Do odświeżenia koszul, sukienek i marynarek na wieszaku często tak; do ostrych kantów i mocno pogniecionej bawełny czy lnu nie. Parownica rozluźnia włókna tkaniny bez użycia deski, co przydaje się rano lub w podróży. Kołnierzyki, mankiety i spodnie z kantem wciąż wymagają nacisku stopy żelazka. Dobrze sprawdza się połączenie: parownica na co dzień, żelazko do pościeli i eleganckich ubrań." },
+    ],
+    sv: [
+      {
+        question: "Ångstrykjärn eller ångstation: vilken ska jag välja?",
+        answer: "En ångstation är rätt val om du stryker stora korgar tvätt varje vecka, medan ett bra ångstrykjärn räcker för några skjortor. Tack vare den separata pannan ger ångstationen ett mycket högre och jämnt ångflöde under tryck, som tränger igenom tjocka tyger och minskar antalet drag. Den är däremot mer skrymmande och dyrare. Jämför det kontinuerliga ångflödet i g/min, trycket i bar och avkalkningssystemet.",
+      },
+      {
+        question: "Vilket vatten ska jag ha i en ångstation?",
+        answer: "De flesta nyare ångstationer klarar kranvatten, och om ditt vatten är mycket hårt brukar bruksanvisningen råda dig att blanda det med avjoniserat vatten. Använd aldrig vatten från torktumlaren, parfymerat vatten, ättika eller avkalkningsmedel som inte är avsedda för apparaten, eftersom de kan ge fläckar på tvätten och skada stationen. Töm kalkuppsamlaren regelbundet eller skölj ur pannan enligt märkets system.",
+      },
+      {
+        question: "Varför sprutar strykjärnet vatten eller lämnar vita fläckar?",
+        answer: "Strykjärnet sprutar vatten när stryksulan inte är tillräckligt varm för att förånga det, och de vita fläckarna kommer från kalk. Vänta tills kontrollampan slocknar, välj en temperatur som fungerar med ånga och använd inte ångpuffen på låga lägen. Avkalka enligt bruksanvisningen, med avkalkningsfunktionen eller kalkuppsamlaren. Bruna fläckar tyder i stället på en smutsig stryksula, som du rengör när den är kall.",
+      },
+      {
+        question: "Hur mycket el drar en ångstation?",
+        answer: "Som mest effekten gånger tiden: en ångstation på 2 400 W som används i en timme drar högst 2,4 kWh, alltså drygt 5 kr med ett exempelpris på 2,20 kr/kWh. I verkligheten värms pannan och stryksulan i omgångar, så den faktiska förbrukningen blir lägre. Det är billigare att stryka en stor hög på en gång än flera små, eftersom pannan måste värmas upp vid varje start. Automatisk avstängning gör också att stationen inte står och värms i onödan om du glömmer att stänga av den.",
+      },
+      {
+        question: "Klädsteamer eller strykjärn: räcker en klädsteamer?",
+        answer: "För att fräscha upp skjortor, klänningar och kavajer på galge räcker den, men inte för skarpa pressveck i skrynklig bomull och linne. Klädsteamern slätar ut fibrerna utan strykbräda, vilket går fort på morgonen eller på resor. Den ersätter inte trycket från en stryksula på kragar, manschetter och byxor. De två kompletterar varandra bra: klädsteamern till vardags och strykjärnet för hemtextilier och finkläder.",
+      },
+    ],
+    us: [
+      {
+        question: "Steam generator iron or steam iron: is a steam generator worth it?",
+        answer: "Yes, if you iron a full laundry basket every week; for a few shirts, a good steam iron is enough. The separate boiler pushes far more continuous steam under pressure, which gets through thick cotton and bedding faster. The trade-offs are the bulky base, the storage space it takes and the price. Compare continuous steam output in g/min, pressure in bar, the descaling system and the length of the hose.",
+      },
+      {
+        question: "Can I use tap water in a steam generator iron if I have hard water?",
+        answer: "Most modern steam generators are designed for tap water, but with hard water the manual may suggest mixing it with distilled water. Never use water from a dryer, scented water, vinegar or descalers the manufacturer hasn't approved. Run the built-in descaling function whenever the iron prompts you, which can be often with very hard water. Your water utility's annual water quality report often lists your water hardness.",
+      },
+      {
+        question: "How much does it cost to run a steam generator iron?",
+        answer: "At most its wattage times the time you use it: a 2,400 W steam generator ironing for one hour uses up to 2.4 kWh. The boiler and soleplate heat in cycles, so the real figure is lower. Multiply by your rate: at an example 20 cents per kWh, an hour of ironing costs at most about 48 cents. Ironing a big batch in one session is cheaper than several short ones, because each start means heating the boiler again.",
+      },
+      {
+        question: "Why is my iron spitting water or leaving white marks?",
+        answer: "Spitting means the soleplate isn't hot enough to turn the water into steam, and white marks come from mineral deposits (scale). Wait for the heat-up light to turn off, choose a temperature setting that allows steam and avoid the steam burst on low settings. Descale as the manual says, using the anti-calc function or the scale collector. Brown marks point instead to a dirty soleplate, which you should clean when it's cold.",
+      },
+      {
+        question: "Is it safe to leave a steam generator iron on?",
+        answer: "It's safer with auto shutoff, which turns the iron off after a few minutes without movement, but you should still unplug it when you leave the room. Rest the iron on its base, never face down on the ironing board, and keep the cord away from children. If the manual requires it, let the boiler cool before refilling or opening the cap. Put it away only once it's completely cool.",
+      },
+    ],
+    ca: [
+      {
+        question: "Steam generator iron or steam iron: is a steam generator worth it?",
+        answer: "Yes, if you iron a full basket every week; for a few shirts, a good steam iron is enough. The separate boiler pushes far more continuous steam under pressure, which gets through thick cotton and bedding faster. The trade-offs are the bulky base, storage space and price. Compare continuous steam output in g/min, pressure in bar, the descaling system and the length of the hose.",
+      },
+      {
+        question: "Can I use tap water in a steam generator iron if I have hard water?",
+        answer: "Most modern steam generators are designed for tap water, but if your water is hard, the manual may suggest mixing it with distilled water. Never use water from a dryer's condenser tank, scented water, vinegar or non-approved descalers. Use the built-in descaling function whenever the iron prompts you, which can be often with hard water. Your municipality's water quality report often lists the hardness.",
+      },
+      {
+        question: "How much does it cost to run a steam generator iron?",
+        answer: "At most its wattage times the time you use it: a 1,800 W steam generator ironing for one hour uses up to 1.8 kWh, or 18¢ at an example rate of 10¢ per kWh. The boiler and soleplate heat in cycles, so the real figure is lower. Ironing a big batch in one session is cheaper than several short ones, because each start means heating the boiler again.",
+      },
+      {
+        question: "Why is my iron spitting water or leaving white marks?",
+        answer: "Spitting means the soleplate isn't hot enough to turn the water into steam, and white marks come from mineral scale. Wait for the heat light to go out, choose a temperature setting that allows steam and avoid the steam shot on low settings. Descale as the manual says, using the anti-calc function or the scale collector. Brown marks instead point to a dirty soleplate, which you clean when cold.",
+      },
+      {
+        question: "Is it safe to leave a steam generator iron switched on?",
+        answer: "It is safer with auto shut-off, which switches the iron off after a few minutes without movement, but you should still unplug it when you leave the room. Stand the iron on its base, never face down on the board, and keep the cable away from children. If the manual requires it, let the boiler cool before refilling or opening the cap. Put it away only when fully cool.",
+      },
     ],
   },
   "lave-vaisselle-connectes": {
@@ -357,6 +753,72 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       { question: "Czy warto kupić zmywarkę z Wi-Fi?", answer: "Warto, jeśli będziesz uruchamiać ją zdalnie, korzystać z powiadomień albo włączać ją w tańszych godzinach; w przeciwnym razie zwykła dobra zmywarka umyje naczynia tak samo. Aplikacja pozwala też pobrać dodatkowe programy, sprawdzić zużycie i zdiagnozować usterkę. Zdalny start zwykle trzeba najpierw odblokować na samym urządzeniu. Bez Wi-Fi wszystkie programy nadal działają." },
       { question: "Co oznacza błąd E15 w zmywarce Bosch lub Siemens?", answer: "W zmywarkach Bosch i Siemens błąd E15 zwykle oznacza, że zadziałało zabezpieczenie przed wyciekiem, bo w wannie dolnej zebrała się woda. Przyczyną może być nieszczelny wąż lub uszczelka albo piana po płynie do ręcznego mycia naczyń. Odłącz zasilanie i zakręć zawór wody. Producent zaleca kontakt z serwisem; w innych markach kod E15 może oznaczać coś innego." },
     ],
+    sv: [
+      {
+        question: "Vad betyder felkod E15 på diskmaskinen?",
+        answer: "Hos Bosch, Siemens och Neff betyder E15 i regel att läckageskyddet har löst ut eftersom vatten har samlats i maskinens botten. Orsaken kan vara ett läckage i en slang eller packning, eller skum från vanligt handdiskmedel. Bryt strömmen och stäng vattenkranen. Därefter rekommenderar tillverkaren att du kontaktar kundservice; hos andra märken kan E15 betyda något helt annat.",
+      },
+      {
+        question: "Är en smart diskmaskin värd pengarna?",
+        answer: "Ja, för tre konkreta saker: att starta diskningen på distans, att få en notis i mobilen när programmet är klart och att schemalägga starten till när elen är som billigast. Appen låter dig också ladda ner program, följa förbrukningen och få hjälp med felsökning om något går fel. För fjärrstart måste du oftast tillåta det på maskinen innan du går. Använder du ingen av funktionerna diskar en bra vanlig modell lika rent.",
+      },
+      {
+        question: "Hur mycket el drar en diskmaskin per körning?",
+        answer: "Svaret står på energimärkningen: förbrukningen i kWh per 100 cykler med Eco-programmet, som du delar med 100. En märkning med 75 kWh/100 cykler motsvarar alltså 0,75 kWh per körning med Eco, som du sedan multiplicerar med ditt elpris. Märkningen anger också vattenåtgången i liter per cykel och hur länge Eco-programmet tar. Intensiv- och snabbprogram drar mer.",
+      },
+      {
+        question: "Diskmaskin på 45 eller 60 cm: vilken passar en familj på fyra?",
+        answer: "För en familj på fyra är en maskin på 60 cm med 13 eller 14 kuvert rätt val: då blir den full ungefär en gång om dagen. En maskin på 45 cm, oftast med 9 eller 10 kuvert, passar en eller två personer eller ett litet kök. Med en smal maskin blir det fler körningar för fyra personer, vilket äter upp en del av besparingen. Kontrollera också nischens höjd om du vill ha en helintegrerad modell.",
+      },
+      {
+        question: "Fungerar en smart diskmaskin utan wifi och app?",
+        answer: "Ja, alla program finns kvar på maskinen; utan wifi försvinner bara fjärrstyrningen, notiserna och uppdateringarna. Anslutningen görs oftast via wifi på 2,4 GHz i märkets app, som Home Connect, SmartThings eller LG ThinQ. Skapa ett konto med ett unikt lösenord och läs vad appen samlar in. Du kan när som helst stänga av anslutningen.",
+      },
+    ],
+    us: [
+      {
+        question: "What does error E15 mean on a Bosch dishwasher?",
+        answer: "On Bosch, Siemens and Neff dishwashers, E15 normally means the leak protection has kicked in because water has reached the base pan. Causes include a leaking hose or seal, or suds from dish soap used by mistake instead of dishwasher detergent. Turn off the power and shut off the water supply. Bosch advises contacting its customer service from there. Other brands may use the E15 code for something else entirely.",
+      },
+      {
+        question: "How much does a dishwasher cost to run per cycle?",
+        answer: "On models sold in Europe, the EU energy label shows kWh per 100 Eco cycles, so divide by 100 and multiply by your rate. A label of 75 kWh/100 cycles means 0.75 kWh per Eco cycle, or about 15 cents at an example 20 cents per kWh. Heavy and quick cycles use more. In the US, the yellow EnergyGuide label gives an estimated yearly energy use and cost instead. Running the dishwasher only when it's full, on Eco, is the simplest way to save.",
+      },
+      {
+        question: "Does a smart dishwasher work without Wi-Fi or the app?",
+        answer: "Yes, every cycle is still available on the machine itself; without Wi-Fi, you only lose remote control, notifications and updates. Most models connect over 2.4 GHz Wi-Fi through the brand's app, such as Home Connect, SmartThings or LG ThinQ. Create an account with a unique password and read what the app collects. You can turn the connection off at any time.",
+      },
+      {
+        question: "Compact or standard dishwasher for a family of four?",
+        answer: "Go standard: a 24 in (60 cm) dishwasher with 13 or 14 place settings lets a family of four run one full load a day. Compact 18 in (45 cm) models, usually 9 or 10 place settings, suit one or two people or a small kitchen. A family using a compact model runs more cycles, which wipes out part of the energy savings. If it's a fully integrated, panel-ready model, measure the cabinet opening and toe-kick height before ordering.",
+      },
+      {
+        question: "Is a smart dishwasher worth paying extra for?",
+        answer: "Only if you'll use remote start, finish alerts or scheduling for off-peak hours on a time-of-use rate plan; otherwise a well-rated standard model washes just as well. The app can also download extra cycles, show energy use and help diagnose problems. Remote start usually has to be enabled on the machine before you leave. Think of the smart features as a convenience, not a requirement.",
+      },
+    ],
+    ca: [
+      {
+        question: "What does error E15 mean on a Bosch dishwasher?",
+        answer: "On Bosch, Siemens and Neff dishwashers, E15 normally means the leak protection has triggered because water has reached the base pan. Causes include a leaking hose or seal, or foam from dish soap used by mistake. Switch off the power and turn off the water supply. Bosch advises contacting its customer service from there. Other brands may use the E15 code for something else entirely.",
+      },
+      {
+        question: "How much does a dishwasher cost to run per cycle?",
+        answer: "Check the energy figure: the EU energy label on European models shows kWh per 100 Eco cycles, so divide by 100. A label of 75 kWh/100 cycles means 0.75 kWh per Eco wash, or about 7.5¢ at an example rate of 10¢ per kWh. Canada's EnerGuide label gives estimated kWh per year instead, which is handy for comparing models. Intensive and quick programs use more. Running it only when full, on Eco, is the simplest saving.",
+      },
+      {
+        question: "Is it safe to run the dishwasher overnight on off-peak rates?",
+        answer: "Fire safety advice is generally against it: London Fire Brigade, for example, recommends not leaving dishwashers, washing machines or dryers running overnight or while you're out. With time-of-use rates, use delay start so the cycle runs while you're awake, for example at the end of the off-peak window in the early morning, or check whether your rate plan has cheaper daytime periods. Keep the filter clean and make sure you have a working smoke alarm.",
+      },
+      {
+        question: "Compact or full-size dishwasher for a family of four?",
+        answer: "Go full-size: a 60 cm (24 in.) machine with 13 or 14 place settings lets a family of four run one full load a day. Compact 45 cm (18 in.) models, usually 9 or 10 place settings, suit one or two people or a narrow kitchen. A family using a compact model runs more cycles, which wipes out part of the energy saving. If it's panel-ready, measure the cabinet opening and the toe-kick height before ordering.",
+      },
+      {
+        question: "Is a smart dishwasher worth paying extra for?",
+        answer: "Only if you'll use remote start, finish alerts or scheduling around off-peak rates; otherwise a well-rated standard model washes just as well. The app can also download extra programs, show energy use and help diagnose faults. Remote start usually has to be enabled on the machine before you leave. All programs still work without Wi-Fi, so the smart features are a convenience, not a requirement.",
+      },
+    ],
   },
   "lave-linge-connectes": {
     fr: [
@@ -407,6 +869,72 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       { question: "Dlaczego pralka śmierdzi i jak się tego pozbyć?", answer: "Zwykle winne są resztki detergentu i płynu do płukania, na których w uszczelce drzwi, szufladzie lub filtrze rozwija się pleśń, zwłaszcza przy praniu w niskich temperaturach. Uruchom pustą pralkę na programie 60 °C lub wyższym ze środkiem do czyszczenia pralek. Wyczyść uszczelkę, szufladę i filtr pompy, a między praniami zostawiaj uchylone drzwi i szufladę. Nie przesadzaj z płynem do płukania." },
       { question: "Czy warto kupić suszarkę z pompą ciepła?", answer: "Tak, suszarka z pompą ciepła zużywa znacznie mniej prądu niż zwykła suszarka kondensacyjna, choć suszy dłużej. Od 1 lipca 2025 roku suszarki mają nową etykietę energetyczną w skali od A do G, ze zużyciem energii na 100 cykli, a jej klasy nie odpowiadają dawnym klasom A+++. Porównuj więc modele według tej samej etykiety. Czyść filtr kłaczków po każdym suszeniu, a filtr skraplacza – regularnie." },
       { question: "Czy pralka z Wi-Fi to dobry wybór w taryfie G12?", answer: "Tak, bo z aplikacji łatwo uruchomisz pranie w tańszej strefie, a dzięki powiadomieniu o końcu cyklu pranie nie będzie długo leżało w bębnie. Godziny tańszego prądu w G12 ustala operator sieci dystrybucyjnej, więc sprawdź je w umowie lub taryfie. Zdalny start trzeba zwykle odblokować na pralce przy zamkniętych drzwiach. Bez Wi-Fi wszystkie programy działają normalnie." },
+    ],
+    sv: [
+      {
+        question: "Varför luktar tvättmaskinen illa?",
+        answer: "Oftast för att rester av tvättmedel möglar i gummilisten vid luckan, i tvättmedelsfacket eller i pumpfiltret, särskilt efter tvätt på låga temperaturer. Kör ett tomt underhållsprogram eller ett program på minst 60 °C med maskinrengöringsmedel. Rengör gummilisten, facket och filtret, och låt luckan och facket stå på glänt mellan tvättarna. Undvik också att dosera för mycket tvättmedel och sköljmedel.",
+      },
+      {
+        question: "Hur mycket el drar en tvättmaskin, och hur läser jag energimärkningen?",
+        answer: "Titta på förbrukningen i kWh per 100 cykler med programmet Eco 40-60 på energimärkningen och dela med 100. Exempel: 50 kWh/100 cykler = 0,5 kWh per tvätt, gånger ditt elpris. Märkningen anger också vattenåtgången i liter per cykel, maxkapaciteten, hur länge Eco 40-60 tar och bullerklassen vid centrifugering. En tvätt på 60 eller 90 °C drar betydligt mer, eftersom det mesta av energin går åt till att värma vattnet.",
+      },
+      {
+        question: "Frontmatad eller toppmatad tvättmaskin: vilken ska jag välja?",
+        answer: "En frontmatad maskin ger i regel större kapacitet och fler smarta modeller att välja mellan. En toppmatad, ungefär 40 cm bred, får plats där utrymmet är trångt, som i ett smalt badrum, och den fyller du utan att böja dig. Den frontmatade kan ställas med en torktumlare ovanpå eller byggas in under en bänkskiva. Jämför i båda fallen kapacitet, förbrukning och buller vid centrifugering på energimärkningen.",
+      },
+      {
+        question: "Värmepumpstorktumlare eller kondenstorktumlare: vilken ska jag välja?",
+        answer: "Välj värmepump, eftersom den drar betydligt mindre el än en vanlig kondenstorktumlare, även om varje program tar längre tid. Sedan den 1 juli 2025 har torktumlare en ny energimärkning från A till G, med förbrukningen i kWh per 100 cykler. De nya klasserna motsvarar inte de gamla klasserna A+++, så jämför bara modeller med samma märkning. Rengör luddfiltret efter varje torkning.",
+      },
+      {
+        question: "Är en smart tvättmaskin värd pengarna?",
+        answer: "Ja, om du använder den för att starta eller skjuta upp ett program på distans, få en notis när tvätten är klar och tvätta när elen är som billigast. Annars tvättar en bra vanlig modell lika rent. Automatisk dosering av tvättmedel, som finns på vissa modeller, förhindrar överdosering och slöseri. Fjärrstart måste oftast tillåtas på maskinen, med luckan stängd. Utan wifi finns alla program kvar.",
+      },
+    ],
+    us: [
+      {
+        question: "How much does a washer cost to run per load?",
+        answer: "On models sold in Europe, the EU energy label gives kWh per 100 cycles of the Eco 40-60 program: divide by 100 and multiply by your rate. For example, 50 kWh/100 cycles means 0.5 kWh per Eco 40-60 wash, or about 10 cents at an example 20 cents per kWh. In the US, the yellow EnergyGuide label shows an estimated yearly cost instead. Hotter washes cost far more, because most of the energy goes into heating water. Washing full loads at 86°F (30°C) is the simplest way to save.",
+      },
+      {
+        question: "Washer-dryer combo or separate dryer: which is better?",
+        answer: "Separate machines are better if you have the space: you can wash and dry at the same time, and a heat pump dryer uses far less energy than most washer-dryer combos. A combo suits small apartments with room for only one appliance, but it dries a smaller load than it washes. Check both the washing and the drying capacity before you buy.",
+      },
+      {
+        question: "Why does my washing machine smell, and how do I fix it?",
+        answer: "Usually because detergent residue and grime turn moldy in the door gasket, the dispenser drawer or the filter, especially if you only wash on cold or low settings. Run an empty maintenance cycle at 140°F (60°C) or above with a washer cleaner. Wipe the rubber gasket, clean the dispenser drawer and the drain pump filter, and leave the door and drawer ajar between loads. Using too much detergent or fabric softener makes the problem worse.",
+      },
+      {
+        question: "Heat pump or condenser dryer: which is cheaper to run?",
+        answer: "A heat pump dryer is much cheaper to run than a condenser model, though each cycle takes longer. On models sold in Europe, compare the kWh figure on the EU energy label rather than the letter alone: since July 1, 2025, dryers carry a new A to G label whose classes don't match the old A+++ scale. If you run the dryer most days, the savings add up quickly. Clean the lint filter after every load, and empty the water container if the dryer isn't connected to a drain.",
+      },
+      {
+        question: "Is a smart washing machine worth it?",
+        answer: "It's worth it if you'll use remote start, end-of-cycle alerts or scheduling for off-peak hours on a time-of-use rate plan; otherwise a good standard washer cleans just as well. Auto-dosing, offered on some models, keeps you from using too much detergent. Remote start usually has to be enabled on the machine with the door closed. Every cycle still works without Wi-Fi, and you can turn the connection off at any time.",
+      },
+    ],
+    ca: [
+      {
+        question: "How much does a washing machine cost to run per load?",
+        answer: "Check the energy figure: the EU energy label on European models shows kWh per 100 cycles, so divide by 100. For example, 50 kWh/100 cycles means 0.5 kWh per Eco 40-60 wash, or about 5¢ at an example rate of 10¢ per kWh. Canada's EnerGuide label gives estimated kWh per year instead. Hotter washes cost far more, because most of the energy goes into heating water. Washing cold or at 30°C with full loads is the simplest saving.",
+      },
+      {
+        question: "Washer-dryer combo or a separate dryer: which is better?",
+        answer: "Separate machines are better if you have the space: you can wash and dry at the same time, and a heat pump dryer uses far less energy than most washer-dryer combos. A combo suits small apartments or condos with room for one appliance, but it dries a smaller load than it washes. Check both the washing and the drying capacity before you buy.",
+      },
+      {
+        question: "Why does my washing machine smell and how do I fix it?",
+        answer: "Usually because detergent residue and grime go mouldy in the door seal, detergent drawer or filter, especially if you only wash at low temperatures. Run an empty maintenance cycle at 60°C or above with a washer cleaner. Wipe the rubber seal, clean the drawer and the pump filter, and leave the door and drawer ajar between loads. Using too much detergent or fabric softener makes the problem worse.",
+      },
+      {
+        question: "Heat pump or condenser dryer: which is cheaper to run?",
+        answer: "A heat pump dryer is much cheaper to run than a condenser model, though each cycle takes longer. Compare the energy consumption figure on the label rather than the letter alone. In winter, or whenever laundry can't go on the line, the saving adds up quickly. Clean the lint filter after every load, as fire safety advice recommends, and empty the water container if it isn't connected to a drain.",
+      },
+      {
+        question: "Is a smart washing machine worth it?",
+        answer: "It's worth it if you'll use remote start, end-of-cycle alerts or scheduling around cheaper time-of-use rates; otherwise a good standard machine washes just as well. Auto-dosing, offered on some models, stops you from using too much detergent. Remote start usually needs to be enabled on the machine with the door closed. Every program still works without Wi-Fi, and you can switch the connection off at any time.",
+      },
     ],
   },
 }

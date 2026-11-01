@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Comodino con una lampada dalla luce calda e una sveglia digitale in una camera in penombra',
         nl: 'Nachtkastje met een warm brandende lamp en een digitale wekker in een schemerige slaapkamer',
         pl: 'Szafka nocna z lampką dającą ciepłe światło i cyfrowym budzikiem w sypialni pogrążonej w półmroku',
+        sv: 'Nattduksbord med en lampa som lyser varmt och en digital väckarklocka i ett sovrum i halvmörker',
+        us: 'Nightstand with a warm glowing lamp and a digital alarm clock in a dimly lit bedroom',
+        ca: 'Nightstand with a warm glowing lamp and a digital alarm clock in a dimly lit bedroom',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: `Migliore Sveglia Luminosa 2026: Simulatori d'Alba e Lampade per Luminoterapia a Confronto`,
     nl: `Beste Wake-up Light 2026: Zonsopgangwekkers en Lichttherapielampen Vergeleken`,
     pl: `Budzik świetlny 2026: porównanie symulatorów świtu i lamp do światłoterapii`,
+    sv: `Bästa wake up light 2026: väckarklockor med ljus och dagsljuslampor jämförda`,
+    us: `Best Sunrise Alarm Clocks 2026: Wake-Up Lights and Light Therapy Lamps Compared`,
+    ca: `Best Sunrise Alarm Clock 2026: Wake-Up Lights and Light Therapy Lamps Compared`,
   },
   excerpt: {
     fr: `Philips SmartSleep HF3650 et HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 et WL 75 : quel réveil lumière choisir en 2026 ? Durée d'aube, lux, coucher de soleil, sons, appli, et différence avec une lampe de luminothérapie 10 000 lux.`,
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: `Philips SmartSleep HF3650 e HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 e WL 75: quale sveglia luminosa scegliere nel 2026? Durata dell'alba, lux, tramonto, suoni, app e differenza con una lampada per luminoterapia da 10.000 lux.`,
     nl: `Philips SmartSleep HF3650 en HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 en WL 75: welk wake-up light kiest u in 2026? Duur van de zonsopgang, lux, zonsondergang, geluiden, app en het verschil met een lichttherapielamp van 10.000 lux.`,
     pl: `Philips SmartSleep HF3650 i HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 i WL 75: jaki budzik świetlny wybrać w 2026 roku? Czas trwania świtu, luksy, symulacja zachodu słońca, dźwięki, aplikacja – i czym budzik różni się od lampy do światłoterapii 10 000 luksów.`,
+    sv: `Philips SmartSleep HF3650 och HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 och WL 75: vilken väckarklocka med ljus ska du välja 2026? Soluppgångens längd, lux, solnedgång, ljud, app och skillnaden mot en dagsljuslampa på 10 000 lux.`,
+    us: `Philips SmartSleep HF3650 and HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 and WL 75: which sunrise alarm clock should you buy in 2026? Sunrise length, lux, sunset mode, sounds, app control and how they differ from a 10,000-lux light therapy lamp.`,
+    ca: `Philips SmartSleep HF3650 and HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 and WL 75: which sunrise alarm clock should you buy in 2026? Sunrise length, lux, sunset mode, sounds, app control and how they differ from a 10,000-lux light therapy lamp.`,
   },
   content: {
     fr: `<p><strong>Le meilleur réveil lumière en 2026 pour la plupart des chambres est le Philips SmartSleep Sleep &amp; Wake-up Light HF3650, qui combine une aube colorée progressive, un coucher de soleil, la respiration guidée RelaxBreathe et jusqu'à 310 lux.</strong> Si vous voulez l'essentiel à moindre coût, le Philips Wake-up Light HF3520 reprend l'aube colorée et la radio FM, tandis que le Lumie Bodyclock Shine 300 se distingue par une aube et un crépuscule réglables de 15 à 90 minutes. Attention : un réveil lumière n'est pas une lampe de luminothérapie de 10 000 lux, et les deux appareils ne répondent pas au même besoin.</p>
@@ -606,6 +615,246 @@ export const article: BlogArticle = {
 
 <h2>Nasz werdykt</h2>
 <p><strong>Philips SmartSleep HF3650</strong> to wciąż najlepiej wyważony budzik świetlny: kolorowy świt wysokiej jakości, symulacja zachodu słońca, RelaxBreathe i wiele dźwięków. <strong>Philips HF3520</strong> zapewnia to, co najważniejsze, przy mniejszym budżecie. <strong>Lumie Bodyclock Shine 300</strong> sprawdzi się u osób, które budzą się z trudem, bo jego świt może trwać nawet 90 minut, a <strong>Beurer WL 75</strong> przypadnie do gustu miłośnikom aplikacji. Jeśli natomiast zależy Ci na prawdziwych sesjach światła zimą, połącz budzik z lampą do światłoterapii, taką jak <strong>Beurer TL 50</strong>, a przy utrzymującym się obniżeniu nastroju zgłoś się do lekarza.</p>`,
+    sv: `<p><strong>Den bästa väckarklockan med ljus för de flesta sovrum 2026 är Philips SmartSleep Sleep &amp; Wake-up Light HF3650, som kombinerar en färgad soluppgång som ljusnar gradvis, ett solnedgångsläge, andningsguiden RelaxBreathe och upp till 310 lux.</strong> Vill du ha det viktigaste för mindre pengar behåller Philips Wake-up Light HF3520 den färgade soluppgången och FM-radion, medan Lumie Bodyclock Shine 300 sticker ut med soluppgång och solnedgång som går att ställa in på 15–90 minuter. Tänk dock på att en väckarklocka med ljus inte är en dagsljuslampa på 10 000 lux – de två apparaterna fyller olika behov.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, oberoende utvärderingar publicerade i fackpressen och verifierade köparomdömen. Alla modeller i kategorin hittar du också på vår sida om <a href="/sv/confort-air/reveils-lumiere">väckarklockor med ljus och dagsljuslampor</a>.</p>
+
+<h2>Väckarklocka med ljus, wake up light eller dagsljuslampa: vad är skillnaden?</h2>
+<p>En <strong>väckarklocka med ljus</strong> (även kallad wake up light) ökar ljusstyrkan gradvis under 20–40 minuter, ibland längre, innan larmet ska gå. Ljuset går oftast från mörkrött via orange till varmt gult, som en riktig soluppgång. Tanken är att du ska vakna mjukare än av en skarp signal i mörkret, särskilt under vintermånaderna, då det fortfarande är mörkt när du går upp.</p>
+<p>En <strong>dagsljuslampa</strong> fungerar helt annorlunda: den ger ett mycket intensivt vitt ljus, vanligtvis 10 000 lux på nära håll, under ett pass på ungefär 20–30 minuter medan du sitter framför den, oftast på morgonen. Den väcker dig inte, utan används när du redan har gått upp. Väckarklockor med ljus når som mest några hundra lux på ca 30 cm avstånd, vilket räcker för att lysa upp ett sovrum men är långt ifrån vad en riktig dagsljuslampa ger.</p>
+<p>Bra att veta: om du märker att du blir tydligt och långvarigt nedstämd under hösten eller vintern bör du prata med din läkare. Varken en väckarklocka med ljus eller en dagsljuslampa ersätter medicinsk rådgivning.</p>
+
+<h2>Så väljer du rätt väckarklocka med ljus</h2>
+<h3>Soluppgångens längd</h3>
+<p>Det här är den viktigaste inställningen. En för kort soluppgång (10 minuter) känns som att någon tänder en lampa, medan en soluppgång som går att ställa in på 20–40 minuter passar de flesta. Premiummodeller som Lumie Bodyclock Shine 300 går upp till 90 minuter, vilket är bra för dig som har svårt att komma igång på morgonen.</p>
+<h3>Maximal ljusstyrka (lux)</h3>
+<p>Tillverkarna anger värden som är uppmätta på olika avstånd: 300 lux för Philips HF3520, 310 lux för HF3650, 800 lux på ca 10 cm för Beurer WL 50 och 2 000 lux på 15 cm för Beurer WL 75. Siffrorna går alltså inte att jämföra rakt av. Viktigare är att det finns många ljusstyrkesteg, så att du kan anpassa soluppgången efter rummets storlek och din egen känslighet.</p>
+<h3>Solnedgångsläge</h3>
+<p>Solnedgången gör det omvända mot soluppgången: ljuset dämpas gradvis på kvällen, med eller utan ljud. Den kan med fördel ersätta sänglampan när du läser innan du somnar. Funktionen finns på båda Philips-modellerna, Lumie Shine 300 och Beurer WL 75.</p>
+<h3>Ljud och radio</h3>
+<p>Ljuset räcker inte alltid för att väcka, särskilt inte den som sover tungt. Kontrollera hur många naturljud som finns, om det finns FM-radio och om du kan spela din egen musik (AUX-ingång, eller Bluetooth-högtalare på Beurer WL 75).</p>
+<h3>Styrning via app</h3>
+<p>De flesta väckarklockor med ljus ställs in med knappar, så att mobilen kan stanna utanför sängen. I det här urvalet är det bara Beurer WL 75 som har en app (beurer LightUp, via Bluetooth) för att schemalägga larm, färger och ljud. Observera att Philips tidigare uppkopplade modell inte längre säljs och att Hatch Restore, som är populär i USA, inte distribueras officiellt i Europa.</p>
+<h3>Display och nattläge</h3>
+<p>En för ljus display kan göra det svårare att somna. Välj en display med justerbar eller automatiskt dämpad ljusstyrka, som den på Lumie Shine 300, och ett svagt nattljus om du brukar gå upp på natten.</p>
+
+<h2>Bästa väckarklockor med ljus och dagsljuslampor 2026</h2>
+
+<h3>1. Philips SmartSleep Sleep &amp; Wake-up Light HF3650: bäst totalt</h3>
+<p><strong>HF3650</strong> är den mest kompletta modellen i Philips nuvarande sortiment. Den färgade soluppgången börjar i ett mjukt rött och slutar i ett klart gult. Den är 30 minuter lång som standard, men längden går att ändra i larmmenyn, och ljuset når upp till 310 lux med 25 ljusstyrkenivåer. Dessutom finns solnedgång, 7 väckningsljud, 3 avslappningsljud, FM-radio och AUX-ingång.</p>
+<p>Det som utmärker den är <strong>RelaxBreathe</strong>: ett ljus som pulserar långsamt och ger takten för en lugn andning innan du somnar. Köparna berömmer ljusets kvalitet och den mjuka soluppgången; kritiken gäller främst alla menyer du måste ta dig igenom vid den första inställningen.</p>
+<p><strong>Styrkor:</strong> färgad soluppgång av hög kvalitet, solnedgång, RelaxBreathe, många ljud. <strong>Svagheter:</strong> ingen app, tar plats på ett litet nattduksbord. <strong>Passar för:</strong> dig som vill ha en komplett väckarklocka med ljus, utan att behöva mobilen.</p>
+
+<h3>2. Philips Wake-up Light HF3520: mest prisvärd</h3>
+<p><strong>HF3520</strong> har det viktigaste från HF3650 i en enklare form: färgad soluppgång som går att ställa in på 20–40 minuter, 300 lux, 20 ljusstyrkenivåer, solnedgång, 5 naturljud och FM-radio. Den är en av de mest sålda väckarklockorna med ljus i Europa, vilket gör det lätt att hitta bruksanvisningar och omdömen.</p>
+<p><strong>Styrkor:</strong> färgad soluppgång, solnedgång, snabb att komma igång med. <strong>Svagheter:</strong> färre ljud, ingen guidad avslappning. <strong>Passar för:</strong> dig som vill ha en pålitlig första väckarklocka med ljus utan att betala för avancerade funktioner.</p>
+
+<h3>3. Lumie Bodyclock Shine 300: mest anpassningsbar soluppgång</h3>
+<p>Den brittiska ljusspecialisten Lumie har gett <strong>Bodyclock Shine 300</strong> soluppgång och solnedgång som går att ställa in på <strong>15–90 minuter</strong>, och du väljer själv hur starkt ljuset blir till slut. Här finns 15 ljud för insomning och väckning, FM-radio, nattljus och en display som dämpas automatiskt efter ljuset i rummet. Ljuset blandar varmvita, orange och röda toner, och Lumie klassar apparaten som en medicinteknisk produkt i klass I.</p>
+<p><strong>Styrkor:</strong> mycket brett tidsintervall, diskret display, specialiserad tillverkare. <strong>Svagheter:</strong> ingen app, och Lumie anger inget luxvärde. <strong>Passar för:</strong> dig som har svårt att vakna och behöver ett mycket långsamt tilltagande ljus, och dig som störs av ljusa displayer.</p>
+
+<h3>4. Beurer WL 75: väckarklockan med ljus som styrs via app</h3>
+<p><strong>WL 75</strong> är den mest uppkopplade modellen i urvalet. Med den kostnadsfria appen <strong>beurer LightUp</strong> (Bluetooth) ställer du in larm, ljusstyrka och stämningsbelysning bland 256 färger eller 10 förinställningar. Beurer anger 2 000 lux på 15 cm i vitt ljus på 3 000 K, 6 väckningsmelodier, 4 insomningsmelodier, FM-radio, Bluetooth-högtalare för din egen musik, 2 larmtider, snooze som går att ställa in på 1–30 minuter och en USB-port för att ladda mobilen.</p>
+<p><strong>Styrkor:</strong> app, Bluetooth-högtalare, färgad stämningsbelysning. <strong>Svagheter:</strong> du behöver appen för att kunna använda alla funktioner. <strong>Passar för:</strong> dig som gillar att styra allt från mobilen och också vill ha en högtalare vid sängen.</p>
+
+<h3>5. Beurer WL 50: det enkla och mångsidiga alternativet</h3>
+<p><strong>WL 50</strong> har en soluppgång på 10, 20 eller 30 minuter, ca 800 lux på 10 cm, 5 färger för stämningsljus, 2 väckningsmelodier, 1 insomningsmelodi, 2 larmtider och FM-radio med 30 minnesplatser. Allt ställs in med knappar.</p>
+<p><strong>Styrkor:</strong> enkla inställningar, färgat stämningsljus, två larm. <strong>Svagheter:</strong> soluppgången är max 30 minuter, få ljud. <strong>Passar för:</strong> tonåringens rum, gästrummet eller ett första försök att vakna med ljus.</p>
+
+<h3>6. Beurer TL 50: en riktig dagsljuslampa på 10 000 lux</h3>
+<p>Som komplement till en väckarklocka med ljus är <strong>Beurer TL 50</strong> en dagsljuslampa klassad som medicinteknisk produkt: 10 000 lux på ca 15 cm, vitt ljus på 5 300 K utan UV och utan flimmer, en lysyta på ca 24,6 cm i diameter och styrning med en enda knapp. Den används sittande, vid frukosten eller vid skrivbordet, enligt tillverkarens bruksanvisning.</p>
+<p><strong>Styrkor:</strong> ljusstyrka för ljusterapi, enkel att använda, kompakt. <strong>Svagheter:</strong> det är ingen väckarklocka (varken larm eller soluppgång). <strong>Passar för:</strong> dig som får lite dagsljus på vintern, efter att ha rådgjort med läkare om du är osäker på din hälsa.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Soluppgångens längd</th><th>Max. ljus (enligt tillverkaren)</th><th>Solnedgång</th><th>Ljud/radio</th><th>App</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips HF3650</td><td>Väckarklocka med ljus</td><td>Justerbar (30 min som standard)</td><td>310 lux</td><td>Ja</td><td>10 ljud, FM, AUX</td><td>Nej</td><td>Bäst totalt</td></tr>
+<tr><td>Philips HF3520</td><td>Väckarklocka med ljus</td><td>20–40 min</td><td>300 lux</td><td>Ja</td><td>5 ljud, FM</td><td>Nej</td><td>Mest prisvärd</td></tr>
+<tr><td>Lumie Bodyclock Shine 300</td><td>Väckarklocka med ljus</td><td>15–90 min</td><td>Anges inte</td><td>Ja (15–90 min)</td><td>15 ljud, FM</td><td>Nej</td><td>Mycket gradvis soluppgång</td></tr>
+<tr><td>Beurer WL 75</td><td>Väckarklocka med ljus</td><td>Anges inte</td><td>2 000 lux på 15 cm</td><td>Ja</td><td>10 melodier, FM, Bluetooth</td><td>Ja (beurer LightUp)</td><td>Styrning från mobilen</td></tr>
+<tr><td>Beurer WL 50</td><td>Väckarklocka med ljus</td><td>10, 20 eller 30 min</td><td>800 lux på 10 cm</td><td>Insomningsmelodi</td><td>3 melodier, FM</td><td>Nej</td><td>Enkel användning</td></tr>
+<tr><td>Beurer TL 50</td><td>Dagsljuslampa</td><td>Ej tillämpligt</td><td>10 000 lux på 15 cm</td><td>Nej</td><td>Nej</td><td>Nej</td><td>Ljusterapi på vintern</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Jämför inte lux utan att kolla avståndet.</strong> 2 000 lux på 15 cm och 300 lux på längre avstånd betyder inte samma sak. Titta hellre på antalet ljusstyrkesteg och på hur bra soluppgången är.</li>
+<li><strong>Köp inte en väckarklocka med ljus för att få ljusterapi.</strong> Ingen väckarklocka med ljus når 10 000 lux på läsavstånd. Är det det du är ute efter behöver du en riktig dagsljuslampa.</li>
+<li><strong>Välj inte en för kort soluppgång.</strong> Under 20 minuter märks soluppgångseffekten knappt.</li>
+<li><strong>Ställ inte apparaten för långt bort.</strong> Ljuset måste nå ditt ansikte: ställ den på nattduksbordet, ca 40–50 cm från huvudet och riktad mot dig.</li>
+<li><strong>Undvik att importera modeller som inte är gjorda för Europa.</strong> En apparat som bara säljs i USA kan kräva en adapter och omfattas kanske inte av en europeisk garanti.</li>
+<li><strong>Glöm inte displayens ljusstyrka.</strong> En för skarp display kan göra det svårare att somna, så kontrollera att den går att dämpa eller stänga av.</li>
+</ul>
+
+<h2>Så får du ut mest av väckarklockan och dagsljuslampan</h2>
+<p>För att soluppgången ska göra nytta bör sovrummet vara ganska mörkt: med mörkläggningsgardiner eller mörkläggande rullgardiner tar väckarklockan dagsljusets plats. Börja med en soluppgång på 30 minuter och medelhög ljusstyrka och finjustera sedan under en till två veckor. Behåll ett ljudlarm som reserv de första dagarna, tills du vet att ljuset räcker för att väcka dig.</p>
+<p>Använd dagsljuslampan på det avstånd och under den tid som anges i bruksanvisningen, helst på morgonen, och undvik att titta rakt in i ljuset. Rådgör med läkare eller ögonläkare innan du börjar om du har en ögonsjukdom, tar läkemedel som gör dig ljuskänslig eller har ett förstämningssyndrom. För ett skönt sovrum på morgonen spelar luften också roll: vår guide om <a href="/sv/blog/qualite-air-interieur-capteurs">luftkvalitetsmätare inomhus</a> hjälper dig att hålla koll på koldioxid och luftfuktighet, och vår <a href="/sv/blog/eclairage-connecte-comparatif">jämförelse av smart belysning</a> går igenom lampor som kan simulera en soluppgång.</p>
+
+<h2>Vårt omdöme</h2>
+<p><strong>Philips SmartSleep HF3650</strong> är fortfarande den mest balanserade väckarklockan med ljus: färgad soluppgång av hög kvalitet, solnedgång, RelaxBreathe och många ljud. <strong>Philips HF3520</strong> ger det viktigaste för en mindre budget. <strong>Lumie Bodyclock Shine 300</strong> passar dig som har svårt att vakna, tack vare soluppgången på upp till 90 minuter, och <strong>Beurer WL 75</strong> tilltalar dig som gillar appar. Och vill du ha riktig ljusterapi på vintern kan du kombinera väckarklockan med en dagsljuslampa som <strong>Beurer TL 50</strong> – och kontakta läkare om nedstämdheten håller i sig.</p>`,
+    us: `<p><strong>The best sunrise alarm clock in 2026 for most bedrooms is the Philips SmartSleep Sleep &amp; Wake-up Light HF3650, which pairs a gradual colored sunrise with a sunset mode, RelaxBreathe guided breathing and up to 310 lux.</strong> If you want the essentials for less, the Philips Wake-up Light HF3520 keeps the colored sunrise and FM radio, while the Lumie Bodyclock Shine 300 stands out with sunrise and sunset lengths you can set anywhere from 15 to 90 minutes. One caveat: a sunrise alarm clock is not a 10,000-lux light therapy lamp, and the two devices do different jobs.</p>
+<p>This comparison draws on manufacturer specs, independent reviews from specialist outlets and verified owner reviews. You’ll also find every model in this category on our <a href="/us/confort-air/reveils-lumiere">sunrise alarm clocks and light therapy lamps</a> page.</p>
+
+<h2>Sunrise alarm clock, wake-up light, light therapy lamp: what’s the difference?</h2>
+<p>A <strong>sunrise alarm clock</strong> (also called a wake-up light or dawn simulator) gradually brightens over the 20 to 40 minutes, sometimes longer, before your alarm goes off. The light usually shifts from deep red through orange to a warm yellow, like a real sunrise. The goal is a gentler start than a jarring alarm in the dark, especially in winter, when it’s still dark out when you get up.</p>
+<p>A <strong>light therapy lamp</strong> works very differently: it puts out very intense white light, typically 10,000 lux at close range, for a session of roughly 20 to 30 minutes while you sit in front of it, usually in the morning. It doesn’t wake you up; you use it once you’re out of bed. Sunrise alarm clocks top out at a few hundred lux at about 12 inches (30 cm), enough to light a bedroom but far below a dedicated lamp.</p>
+<p>Good to know: if you notice a marked, lasting drop in mood in the fall or winter, talk to your doctor. Neither a sunrise alarm clock nor a light therapy lamp is a substitute for medical advice.</p>
+
+<h2>How to choose a sunrise alarm clock</h2>
+<h3>Sunrise length</h3>
+<p>This is the setting that matters most. A very short sunrise (10 minutes) feels like someone flipping on a lamp; an adjustable 20- to 40-minute sunrise suits most sleepers. Premium models such as the Lumie Bodyclock Shine 300 go up to 90 minutes, which helps people who have a hard time waking up.</p>
+<h3>Maximum brightness (lux)</h3>
+<p>Manufacturers quote figures measured at different distances: 300 lux for the Philips HF3520, 310 lux for the HF3650, 800 lux at about 4 inches (10 cm) for the Beurer WL 50 and 2,000 lux at 6 inches (15 cm) for the Beurer WL 75. So these numbers aren’t directly comparable. What matters more is a wide range of brightness steps, so you can match the sunrise to the size of the room and your own sensitivity to light.</p>
+<h3>Sunset mode</h3>
+<p>Sunset does the reverse of the sunrise: the light fades gradually in the evening, with or without sound. It makes a nice stand-in for a bedside lamp when you read before falling asleep. Both Philips models, the Lumie Shine 300 and the Beurer WL 75 offer it.</p>
+<h3>Sounds and radio</h3>
+<p>Light alone doesn’t always wake heavy sleepers. Check how many nature sounds you get, whether there’s an FM radio and whether you can play your own music (an AUX input, or a Bluetooth speaker on the Beurer WL 75).</p>
+<h3>App control</h3>
+<p>Most sunrise alarm clocks are set with buttons, which keeps your phone out of bed. In this lineup, only the Beurer WL 75 offers an app (beurer LightUp, over Bluetooth) to schedule alarms, colors and sounds. Note that Philips’ former smart model has been discontinued, and the Hatch Restore, popular in the US, isn’t officially distributed in Europe, so it isn’t part of this selection.</p>
+<h3>Display and nighttime</h3>
+<p>An overly bright display can keep you awake. Look for a dimmable or auto-dimming screen, like the one on the Lumie Shine 300, and a soft night light if you get up during the night.</p>
+
+<h2>The best sunrise alarm clocks and light therapy lamps in 2026</h2>
+
+<h3>1. Philips SmartSleep Sleep &amp; Wake-up Light HF3650: best overall</h3>
+<p>The <strong>HF3650</strong> is the most complete model in Philips’ current lineup. Its colored sunrise starts with a soft red and ends in bright yellow, lasting 30 minutes by default (you can change the length in the alarm menu), with up to 310 lux and 25 brightness settings. It adds a sunset mode, 7 wake-up sounds, 3 relaxation sounds, FM radio and an AUX input.</p>
+<p>Its signature feature is <strong>RelaxBreathe</strong>: a slowly pulsing light that paces calm breathing before sleep. Owner reviews praise the quality of the light and how smooth the sunrise is; complaints mostly focus on the number of menus you have to work through during the first setup.</p>
+<p><strong>Pros:</strong> high-quality colored sunrise, sunset mode, RelaxBreathe, plenty of sounds. <strong>Cons:</strong> no app, bulky on a small nightstand. <strong>Best for:</strong> anyone who wants a full-featured sunrise alarm clock that doesn’t need a phone.</p>
+
+<h3>2. Philips Wake-up Light HF3520: best value</h3>
+<p>The <strong>HF3520</strong> keeps the core of the HF3650 in a simpler package: a colored sunrise adjustable from 20 to 40 minutes, 300 lux, 20 brightness settings, sunset mode, 5 nature sounds and FM radio. It’s one of the most widely sold wake-up lights in Europe, which makes manuals and reviews easy to find.</p>
+<p><strong>Pros:</strong> colored sunrise, sunset mode, quick to set up. <strong>Cons:</strong> fewer sounds, no guided relaxation. <strong>Best for:</strong> a dependable first sunrise alarm clock, without paying for advanced features.</p>
+
+<h3>3. Lumie Bodyclock Shine 300: the most customizable sunrise</h3>
+<p>British light specialist Lumie gives the <strong>Bodyclock Shine 300</strong> sunrise and sunset lengths adjustable from <strong>15 to 90 minutes</strong>, with a choice of final brightness. You get 15 sleep and wake-up sounds, FM radio, a night light and a display that dims automatically with the ambient light. The light blends warm white, orange and red tones, and Lumie markets it as a Class I medical device.</p>
+<p><strong>Pros:</strong> very wide range of durations, discreet display, specialist manufacturer. <strong>Cons:</strong> no app, and Lumie doesn’t publish a lux figure. <strong>Best for:</strong> people who struggle to wake up and need a very slow build of light, and sleepers bothered by bright displays.</p>
+
+<h3>4. Beurer WL 75: the app-controlled sunrise alarm clock</h3>
+<p>The <strong>WL 75</strong> is the smartest model here. The free <strong>beurer LightUp</strong> app (Bluetooth) lets you set alarms, brightness and mood lighting from 256 colors or 10 presets. Beurer lists 2,000 lux at 6 inches (15 cm) in 3,000 K white light, 6 wake-up melodies, 4 sleep melodies, FM radio, a Bluetooth speaker for your own music, 2 alarm times, a snooze you can set from 1 to 30 minutes and a USB port for charging your phone.</p>
+<p><strong>Pros:</strong> app, Bluetooth speaker, colored mood lighting. <strong>Cons:</strong> you need the app to get the most out of it. <strong>Best for:</strong> people who like to control everything from their phone and also want a bedside speaker.</p>
+
+<h3>5. Beurer WL 50: the simple, versatile option</h3>
+<p>The <strong>WL 50</strong> offers a 10-, 20- or 30-minute sunrise, about 800 lux at 4 inches (10 cm), 5 mood-light colors, 2 wake-up melodies, 1 sleep melody, 2 alarm times and FM radio with 30 station presets. Everything is set with buttons.</p>
+<p><strong>Pros:</strong> straightforward controls, colored mood light, two alarms. <strong>Cons:</strong> sunrise capped at 30 minutes, few sounds. <strong>Best for:</strong> a teenager’s room, a guest room or a first try at waking up with light.</p>
+
+<h3>6. Beurer TL 50: a true 10,000-lux light therapy lamp</h3>
+<p>To go with a sunrise alarm clock, the <strong>Beurer TL 50</strong> is a light therapy lamp classified as a medical device: 10,000 lux at about 6 inches (15 cm), 5,300 K white light that’s UV-free and flicker-free, a light panel about 9.7 inches (24.6 cm) across and one-button operation. You use it sitting down, at breakfast or at your desk, following the manufacturer’s instructions.</p>
+<p><strong>Pros:</strong> therapy-level brightness, simplicity, compact size. <strong>Cons:</strong> not an alarm clock (no alarm, no sunrise). <strong>Best for:</strong> people who get little daylight in winter, after checking with a doctor if they have any health concerns.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Sunrise length</th><th>Max brightness (manufacturer)</th><th>Sunset</th><th>Sounds / radio</th><th>App</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips HF3650</td><td>Sunrise alarm clock</td><td>Adjustable (30 min default)</td><td>310 lux</td><td>Yes</td><td>10 sounds, FM, AUX</td><td>No</td><td>Best overall</td></tr>
+<tr><td>Philips HF3520</td><td>Sunrise alarm clock</td><td>20–40 min</td><td>300 lux</td><td>Yes</td><td>5 sounds, FM</td><td>No</td><td>Best value</td></tr>
+<tr><td>Lumie Bodyclock Shine 300</td><td>Sunrise alarm clock</td><td>15–90 min</td><td>Not published</td><td>Yes (15–90 min)</td><td>15 sounds, FM</td><td>No</td><td>Very gradual sunrise</td></tr>
+<tr><td>Beurer WL 75</td><td>Sunrise alarm clock</td><td>Not specified</td><td>2,000 lux at 6 in (15 cm)</td><td>Yes</td><td>10 melodies, FM, Bluetooth</td><td>Yes (beurer LightUp)</td><td>Phone control</td></tr>
+<tr><td>Beurer WL 50</td><td>Sunrise alarm clock</td><td>10, 20 or 30 min</td><td>800 lux at 4 in (10 cm)</td><td>Sleep melody</td><td>3 melodies, FM</td><td>No</td><td>Simple use</td></tr>
+<tr><td>Beurer TL 50</td><td>Light therapy lamp</td><td>Not applicable</td><td>10,000 lux at 6 in (15 cm)</td><td>No</td><td>No</td><td>No</td><td>Winter light sessions</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Comparing lux without checking the distance.</strong> 2,000 lux at 6 inches and 300 lux from farther away don’t mean the same thing. Look instead at the number of brightness steps and the quality of the sunrise.</li>
+<li><strong>Buying a sunrise alarm clock for light therapy.</strong> No sunrise alarm clock reaches 10,000 lux at reading distance. If that’s what you’re after, you need a dedicated lamp.</li>
+<li><strong>Choosing a sunrise that’s too short.</strong> Under 20 minutes, the sunrise effect is barely noticeable.</li>
+<li><strong>Placing it too far away.</strong> The light needs to reach your face: put it on your nightstand, about 16 to 20 inches (40 to 50 cm) from your head, facing you.</li>
+<li><strong>Buying a model built for another market.</strong> A unit sold only in one region may need a plug adapter and may not be covered by the warranty where you live. Models sold in Europe are built for 230 V; check that the version on your Amazon store is rated for 120 V.</li>
+<li><strong>Ignoring display brightness.</strong> A glaring display can get in the way of sleep; make sure it can be dimmed or turned off.</li>
+</ul>
+
+<h2>Getting the most from your sunrise alarm clock and light therapy lamp</h2>
+<p>For the sunrise to work, the bedroom should be fairly dark: with blackout shades or curtains, the sunrise alarm clock takes the place of daylight. Start with a 30-minute sunrise at medium brightness and fine-tune it over a week or two. Keep a sound alarm as a backup for the first few days, until you know the light alone wakes you up.</p>
+<p>With a light therapy lamp, follow the distance and session length in the manual, use it preferably in the morning and avoid staring straight into the light. Check with a doctor or eye doctor before using one if you have an eye condition, take photosensitizing medication or have a mood disorder. For a bedroom that feels good in the morning, think about the air, too: our guide to <a href="/us/blog/qualite-air-interieur-capteurs">indoor air quality monitors</a> helps you keep an eye on CO2 and humidity, and our <a href="/us/blog/eclairage-connecte-comparatif">smart lighting comparison</a> covers bulbs that can simulate a sunrise.</p>
+
+<h2>The bottom line</h2>
+<p>The <strong>Philips SmartSleep HF3650</strong> is still the most well-rounded sunrise alarm clock: a high-quality colored sunrise, sunset mode, RelaxBreathe and plenty of sounds. The <strong>Philips HF3520</strong> covers the essentials on a tighter budget. The <strong>Lumie Bodyclock Shine 300</strong> suits people who struggle to wake up, thanks to its sunrise of up to 90 minutes, and the <strong>Beurer WL 75</strong> will appeal to app fans. Finally, if you want real light therapy sessions in winter, pair your sunrise alarm clock with a light therapy lamp such as the <strong>Beurer TL 50</strong>, and see a doctor if a low mood persists.</p>`,
+    ca: `<p><strong>The best wake-up light in 2026 for most bedrooms is the Philips SmartSleep Sleep &amp; Wake-up Light HF3650, which pairs a gradual coloured sunrise with a sunset mode, RelaxBreathe guided breathing and up to 310 lux.</strong> If you want the essentials for less, the Philips Wake-up Light HF3520 keeps the coloured sunrise and FM radio, while the Lumie Bodyclock Shine 300 stands out with sunrise and sunset lengths adjustable from 15 to 90 minutes. One caveat: a sunrise alarm clock is not a 10,000-lux light therapy lamp, and the two devices do different jobs.</p>
+<p>This comparison draws on manufacturer specifications, independent reviews from specialist outlets and verified buyer reviews. You'll also find every model in this category on our <a href="/ca/confort-air/reveils-lumiere">wake-up lights and light therapy lamps</a> page.</p>
+
+<h2>Wake-up light, sunrise alarm clock, light therapy lamp: what's the difference?</h2>
+<p>A <strong>wake-up light</strong> (or sunrise alarm clock) gradually brightens over the 20 to 40 minutes, sometimes longer, before your alarm time. The light usually shifts from deep red through orange to a warm yellow, like a real sunrise. The goal is a gentler start than a jarring alarm in the dark, especially in winter, when it's still dark out when you get up.</p>
+<p>A <strong>light therapy lamp</strong> works very differently: it gives off very intense white light, typically 10,000 lux at close range, for a session of roughly 20 to 30 minutes while you sit in front of it, usually in the morning. It doesn't wake you up; you use it once you're out of bed. Wake-up lights top out at a few hundred lux at around 30 cm (1 ft), enough to light a bedroom but far below a dedicated lamp.</p>
+<p>Worth knowing: if you notice a marked, lasting drop in mood in the fall or winter, talk to your doctor. Neither a wake-up light nor a light therapy lamp replaces medical advice.</p>
+
+<h2>How to choose a wake-up light</h2>
+<h3>Sunrise length</h3>
+<p>This is the setting that matters most. A very short sunrise (10 minutes) feels like someone flicking on the light; an adjustable 20- to 40-minute sunrise suits most sleepers. Premium models such as the Lumie Bodyclock Shine 300 go up to 90 minutes, which helps people who find it hard to surface.</p>
+<h3>Maximum brightness (lux)</h3>
+<p>Manufacturers quote figures measured at different distances: 300 lux for the Philips HF3520, 310 lux for the HF3650, 800 lux at about 10 cm for the Beurer WL 50 and 2,000 lux at 15 cm for the Beurer WL 75. So these numbers aren't directly comparable. What matters more is a wide range of brightness settings, so you can match the sunrise to the size of the room and your own sensitivity.</p>
+<h3>Sunset mode</h3>
+<p>Sunset is the reverse of the sunrise: the light fades gradually in the evening, with or without sound. It's a nice replacement for a bedside lamp if you read before bed. Both Philips models, the Lumie Shine 300 and the Beurer WL 75 offer it.</p>
+<h3>Sounds and radio</h3>
+<p>Light alone doesn't always wake heavy sleepers. Check how many nature sounds there are, whether there's an FM radio and whether you can play your own music (AUX input, or a Bluetooth speaker on the Beurer WL 75).</p>
+<h3>App control</h3>
+<p>Most wake-up lights are set with buttons, which keeps your phone out of bed. In this selection, only the Beurer WL 75 offers an app (beurer LightUp, over Bluetooth) to schedule alarms, colours and sounds. Note that Philips' former smart model has been discontinued, and the Hatch Restore, popular in the United States, isn't officially distributed in Europe.</p>
+<h3>Display and nighttime</h3>
+<p>A display that's too bright can keep you awake. Go for a dimmable or auto-dimming screen, like the one on the Lumie Shine 300, and a soft night light if you get up during the night.</p>
+
+<h2>The best wake-up lights and light therapy lamps in 2026</h2>
+
+<h3>1. Philips SmartSleep Sleep &amp; Wake-up Light HF3650: best overall</h3>
+<p>The <strong>HF3650</strong> is the most complete model in Philips' current lineup. Its coloured sunrise starts with a soft red and ends in bright yellow. It lasts 30 minutes by default, with a duration you can change in the alarm menu, and reaches up to 310 lux with 25 brightness settings. It adds a sunset mode, 7 wake-up sounds, 3 relaxation sounds, FM radio and an AUX input.</p>
+<p>Its signature feature is <strong>RelaxBreathe</strong>: a slowly pulsing light that paces calm breathing before sleep. Buyer reviews praise the quality of the light and the smoothness of the sunrise; most criticism concerns the number of menus to work through during the first setup.</p>
+<p><strong>Strengths:</strong> high-quality coloured sunrise, sunset, RelaxBreathe, plenty of sounds. <strong>Limitations:</strong> no app, bulky on a small nightstand. <strong>Best for:</strong> anyone who wants a complete wake-up light without a phone.</p>
+
+<h3>2. Philips Wake-up Light HF3520: best value</h3>
+<p>The <strong>HF3520</strong> keeps the core of the HF3650 in a simpler package: a coloured sunrise adjustable from 20 to 40 minutes, 300 lux, 20 brightness settings, sunset mode, 5 nature sounds and FM radio. It is one of the most widely sold wake-up lights in Europe, which makes manuals and reviews easy to find.</p>
+<p><strong>Strengths:</strong> coloured sunrise, sunset, quick to set up. <strong>Limitations:</strong> fewer sounds, no guided relaxation. <strong>Best for:</strong> a dependable first wake-up light without paying for advanced features.</p>
+
+<h3>3. Lumie Bodyclock Shine 300: the most customizable sunrise</h3>
+<p>British light specialist Lumie gives the <strong>Bodyclock Shine 300</strong> sunrise and sunset lengths adjustable from <strong>15 to 90 minutes</strong>, with a choice of final brightness. You get 15 sleep and wake sounds, FM radio, a night light and a display that dims automatically with the ambient light. The light blends warm white, orange and red tones, and Lumie classifies it as a Class I medical device.</p>
+<p><strong>Strengths:</strong> very wide duration range, discreet display, specialist maker. <strong>Limitations:</strong> no app, and Lumie doesn't publish a lux figure. <strong>Best for:</strong> hard risers who need a very slow build-up of light, and sleepers bothered by bright displays.</p>
+
+<h3>4. Beurer WL 75: the app-controlled wake-up light</h3>
+<p>The <strong>WL 75</strong> is the most app-friendly model here. The free <strong>beurer LightUp</strong> app (Bluetooth) lets you set alarms, brightness and mood lighting from 256 colours or 10 presets. Beurer quotes 2,000 lux at 15 cm in 3,000 K white light, 6 wake-up melodies, 4 sleep melodies, FM radio, a Bluetooth speaker for your own music, 2 alarm times, snooze adjustable from 1 to 30 minutes and a USB port for charging your phone.</p>
+<p><strong>Strengths:</strong> app, Bluetooth speaker, coloured mood lighting. <strong>Limitations:</strong> you need the app to get the most out of it. <strong>Best for:</strong> people who like to control everything from their phone and also want a bedside speaker.</p>
+
+<h3>5. Beurer WL 50: the simple, versatile option</h3>
+<p>The <strong>WL 50</strong> offers a 10-, 20- or 30-minute sunrise, about 800 lux at 10 cm, 5 mood-light colours, 2 wake-up melodies, 1 sleep melody, 2 alarm times and FM radio with 30 preset stations. Everything is set with buttons.</p>
+<p><strong>Strengths:</strong> straightforward controls, coloured mood light, two alarms. <strong>Limitations:</strong> sunrise capped at 30 minutes, few sounds. <strong>Best for:</strong> a teenager's room, a guest room or a first try at waking up with light.</p>
+
+<h3>6. Beurer TL 50: a true 10,000-lux light therapy lamp</h3>
+<p>To complement a wake-up light, the <strong>Beurer TL 50</strong> is a light therapy lamp classed as a medical device: 10,000 lux at about 15 cm, 5,300 K white light that is UV-free and flicker-free, an illuminated surface about 24.6 cm across and single-button operation. You use it sitting down, at breakfast or at your desk, following the manufacturer's instructions.</p>
+<p><strong>Strengths:</strong> therapy-level brightness, simplicity, compact. <strong>Limitations:</strong> not an alarm clock (no alarm, no sunrise). <strong>Best for:</strong> people who get little daylight in winter, after checking with a doctor if they have any health concerns.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Sunrise length</th><th>Max light (maker's figure)</th><th>Sunset</th><th>Sounds / radio</th><th>App</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips HF3650</td><td>Wake-up light</td><td>Adjustable (30 min default)</td><td>310 lux</td><td>Yes</td><td>10 sounds, FM, AUX</td><td>No</td><td>Best overall</td></tr>
+<tr><td>Philips HF3520</td><td>Wake-up light</td><td>20 to 40 min</td><td>300 lux</td><td>Yes</td><td>5 sounds, FM</td><td>No</td><td>Best value</td></tr>
+<tr><td>Lumie Bodyclock Shine 300</td><td>Wake-up light</td><td>15 to 90 min</td><td>Not published</td><td>Yes (15 to 90 min)</td><td>15 sounds, FM</td><td>No</td><td>Very gradual sunrise</td></tr>
+<tr><td>Beurer WL 75</td><td>Wake-up light</td><td>Not specified</td><td>2,000 lux at 15 cm</td><td>Yes</td><td>10 melodies, FM, Bluetooth</td><td>Yes (beurer LightUp)</td><td>Phone control</td></tr>
+<tr><td>Beurer WL 50</td><td>Wake-up light</td><td>10, 20 or 30 min</td><td>800 lux at 10 cm</td><td>Sleep melody</td><td>3 melodies, FM</td><td>No</td><td>Simple use</td></tr>
+<tr><td>Beurer TL 50</td><td>Light therapy lamp</td><td>Not applicable</td><td>10,000 lux at 15 cm</td><td>No</td><td>No</td><td>No</td><td>Winter light sessions</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Comparing lux without checking the distance.</strong> 2,000 lux at 15 cm and 300 lux farther away don't mean the same thing. Look instead at the number of brightness settings and the quality of the sunrise.</li>
+<li><strong>Buying a wake-up light to do light therapy.</strong> No wake-up light reaches 10,000 lux at reading distance. If that's what you want, you need a dedicated lamp.</li>
+<li><strong>Choosing a sunrise that's too short.</strong> Under 20 minutes, the sunrise effect is barely noticeable.</li>
+<li><strong>Placing the device too far away.</strong> The light needs to reach your face: put it on your nightstand, about 40 to 50 cm (16 to 20 in.) from your head, facing you.</li>
+<li><strong>Buying a version made for another market.</strong> Europe uses 230 V outlets and Canada 120 V, plugs differ and the warranty may not carry over. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model.</li>
+<li><strong>Ignoring display brightness.</strong> A glaring display can get in the way of sleep; make sure it can be dimmed or turned off.</li>
+</ul>
+
+<h2>Getting the most from your wake-up light and light therapy lamp</h2>
+<p>For the sunrise to work, the bedroom should be fairly dark: with blackout blinds or curtains, the wake-up light takes the place of daylight. Start with a 30-minute sunrise at medium brightness and fine-tune it over one or two weeks. Keep a sound on as a backup for the first few days, until you know the light alone wakes you.</p>
+<p>With a light therapy lamp, follow the distance and duration in the manual, use it preferably in the morning and avoid staring straight into the light. Check with your doctor or optometrist before use if you have an eye condition, take photosensitizing medication or have a mood disorder. For a pleasant bedroom in the morning, think about the air too: our guide to <a href="/ca/blog/qualite-air-interieur-capteurs">indoor air quality monitors</a> helps you keep an eye on CO2 and humidity, and our <a href="/ca/blog/eclairage-connecte-comparatif">smart lighting comparison</a> covers bulbs that can simulate a sunrise.</p>
+
+<h2>Our verdict</h2>
+<p>The <strong>Philips SmartSleep HF3650</strong> remains the most balanced wake-up light: a high-quality coloured sunrise, sunset, RelaxBreathe and plenty of sounds. The <strong>Philips HF3520</strong> covers the essentials on a tighter budget. The <strong>Lumie Bodyclock Shine 300</strong> suits hard risers thanks to its sunrise of up to 90 minutes, and the <strong>Beurer WL 75</strong> will appeal to app lovers. Finally, if you want proper light sessions in winter, pair your wake-up light with a light therapy lamp such as the <strong>Beurer TL 50</strong>, and see a doctor if a low mood persists.</p>`,
   },
   faq: [
     {
@@ -617,6 +866,9 @@ export const article: BlogArticle = {
         it: `Una sveglia luminosa può sostituire una lampada per luminoterapia?`,
         nl: `Kan een wake-up light een lichttherapielamp vervangen?`,
         pl: `Czy budzik świetlny zastąpi lampę do światłoterapii?`,
+        sv: `Kan en väckarklocka med ljus ersätta en dagsljuslampa?`,
+        us: `Can a sunrise alarm clock replace a light therapy lamp?`,
+        ca: `Can a wake-up light replace a light therapy lamp?`,
       },
       answer: {
         fr: `Non. Un réveil lumière plafonne à quelques centaines de lux pour réveiller en douceur, alors qu'une lampe de luminothérapie délivre environ 10 000 lux à courte distance, lors d'une séance assise. Les deux sont complémentaires : l'un pour le réveil, l'autre pour une séance de lumière dans la matinée.`,
@@ -626,6 +878,9 @@ export const article: BlogArticle = {
         it: `No. Una sveglia luminosa arriva a qualche centinaio di lux per svegliare con dolcezza, mentre una lampada per luminoterapia fornisce circa 10.000 lux a breve distanza, durante una seduta da seduti. Sono complementari: una per il risveglio, l'altra per una seduta di luce al mattino.`,
         nl: `Nee. Een wake-up light haalt enkele honderden lux om u zacht te wekken, terwijl een lichttherapielamp zo'n 10.000 lux op korte afstand geeft tijdens een zittende sessie. Ze vullen elkaar aan: het ene voor het ontwaken, het andere voor een lichtsessie later in de ochtend.`,
         pl: `Nie. Budzik świetlny ma łagodnie budzić, dlatego daje najwyżej kilkaset luksów, a lampa do światłoterapii emituje około 10 000 luksów z niewielkiej odległości podczas sesji, w czasie której siedzisz przed nią. Te urządzenia się uzupełniają: jedno służy do budzenia, drugie do porannej sesji światła.`,
+        sv: `Nej. En väckarklocka med ljus når som mest några hundra lux för att väcka dig mjukt, medan en dagsljuslampa ger ca 10 000 lux på nära håll när du sitter framför den. De två kompletterar varandra: den ena hjälper dig att vakna, den andra ger dig en stund med starkt ljus senare på förmiddagen.`,
+        us: `No. A sunrise alarm clock tops out at a few hundred lux to wake you gently, while a light therapy lamp delivers around 10,000 lux at close range during a seated session. The two complement each other: one for waking up, the other for a light session later in the morning.`,
+        ca: `No. A wake-up light tops out at a few hundred lux to wake you gently, whereas a light therapy lamp delivers around 10,000 lux at close range during a seated session. The two complement each other: one for waking up, the other for a light session later in the morning.`,
       },
     },
     {
@@ -637,6 +892,9 @@ export const article: BlogArticle = {
         it: `Quanto deve durare l'alba?`,
         nl: `Hoe lang moet de zonsopgang duren?`,
         pl: `Jak długo powinna trwać symulacja świtu?`,
+        sv: `Hur lång ska soluppgången vara?`,
+        us: `How long should the sunrise last?`,
+        ca: `How long should the sunrise last?`,
       },
       answer: {
         fr: `Une aube de 20 à 40 minutes convient à la plupart des gens ; 30 minutes est un bon point de départ. Si vous avez du mal à émerger, un modèle comme le Lumie Bodyclock Shine 300 permet d'aller jusqu'à 90 minutes.`,
@@ -646,6 +904,9 @@ export const article: BlogArticle = {
         it: `Un'alba di 20-40 minuti va bene per la maggior parte delle persone; 30 minuti sono un buon punto di partenza. Se fate fatica a svegliarvi, un modello come la Lumie Bodyclock Shine 300 arriva fino a 90 minuti.`,
         nl: `Een zonsopgang van 20 tot 40 minuten past bij de meeste mensen; 30 minuten is een goed startpunt. Wordt u moeilijk wakker, dan kunt u met een model als de Lumie Bodyclock Shine 300 tot 90 minuten instellen.`,
         pl: `Większości osób odpowiada świt trwający 20–40 minut, a dobrym punktem wyjścia jest 30 minut. Jeśli trudno Ci się rozbudzić, model taki jak Lumie Bodyclock Shine 300 pozwala wydłużyć go nawet do 90 minut.`,
+        sv: `En soluppgång på 20–40 minuter passar de flesta, och 30 minuter är en bra utgångspunkt. Har du svårt att vakna kan du med en modell som Lumie Bodyclock Shine 300 gå ända upp till 90 minuter.`,
+        us: `A 20- to 40-minute sunrise suits most people, and 30 minutes is a good starting point. If you have trouble waking up, a model like the Lumie Bodyclock Shine 300 lets you go up to 90 minutes.`,
+        ca: `A 20 to 40 minute sunrise suits most people, and 30 minutes is a good starting point. If you struggle to wake, a model such as the Lumie Bodyclock Shine 300 lets you go up to 90 minutes.`,
       },
     },
     {
@@ -657,6 +918,9 @@ export const article: BlogArticle = {
         it: `Una sveglia luminosa basta per chi ha il sonno pesante?`,
         nl: `Is een wake-up light genoeg voor een diepe slaper?`,
         pl: `Czy budzik świetlny obudzi kogoś, kto ma twardy sen?`,
+        sv: `Räcker en väckarklocka med ljus för den som sover tungt?`,
+        us: `Will a sunrise alarm clock wake a heavy sleeper?`,
+        ca: `Will a wake-up light wake a heavy sleeper?`,
       },
       answer: {
         fr: `Pas toujours. C'est pourquoi tous les modèles de ce comparatif associent la lumière à un son ou à la radio en fin d'aube. Gardez une alarme sonore les premiers jours, puis ajustez l'intensité et la durée de l'aube.`,
@@ -666,6 +930,9 @@ export const article: BlogArticle = {
         it: `Non sempre. Per questo tutti i modelli di questo confronto abbinano la luce a un suono o alla radio alla fine dell'alba. Tenete una sveglia sonora nei primi giorni, poi regolate intensità e durata dell'alba.`,
         nl: `Niet altijd. Daarom combineren alle modellen in deze vergelijking het licht aan het einde van de zonsopgang met een geluid of de radio. Houd de eerste dagen een hoorbaar alarm aan en stel daarna helderheid en duur bij.`,
         pl: `Nie zawsze. Dlatego wszystkie modele z tego porównania pod koniec świtu włączają też dźwięk lub radio. Przez pierwsze dni zostaw alarm dźwiękowy, a potem dopasuj jasność i długość świtu.`,
+        sv: `Inte alltid. Därför kombinerar alla modeller i jämförelsen ljuset med ett ljud eller radion i slutet av soluppgången. Behåll ett ljudlarm de första dagarna och justera sedan soluppgångens ljusstyrka och längd.`,
+        us: `Not always. That's why every model in this comparison pairs the light with a sound or the radio at the end of the sunrise. Keep an audible alarm on for the first few days, then fine-tune the sunrise brightness and length.`,
+        ca: `Not always. That is why every model in this comparison pairs the light with a sound or the radio at the end of the sunrise. Keep an audible alarm for the first few days, then fine-tune sunrise brightness and length.`,
       },
     },
     {
@@ -677,6 +944,9 @@ export const article: BlogArticle = {
         it: `Esiste una sveglia luminosa con app?`,
         nl: `Bestaat er een wake-up light met app?`,
         pl: `Czy istnieje budzik świetlny z aplikacją?`,
+        sv: `Finns det en väckarklocka med ljus som styrs via app?`,
+        us: `Is there a sunrise alarm clock with an app?`,
+        ca: `Is there a wake-up light with an app?`,
       },
       answer: {
         fr: `Oui : le Beurer WL 75 se pilote via l'application gratuite beurer LightUp en Bluetooth (alarmes, luminosité, couleurs, sons). Les Philips HF3650 et HF3520 ainsi que le Lumie Shine 300 se règlent uniquement par boutons.`,
@@ -686,6 +956,9 @@ export const article: BlogArticle = {
         it: `Sì: la Beurer WL 75 si controlla con l'app gratuita beurer LightUp via Bluetooth (sveglie, luminosità, colori, suoni). Le Philips HF3650 e HF3520 e la Lumie Shine 300 si regolano solo con i tasti.`,
         nl: `Ja: de Beurer WL 75 bedient u via de gratis app beurer LightUp over Bluetooth (alarmen, helderheid, kleuren, geluiden). De Philips HF3650 en HF3520 en de Lumie Shine 300 stelt u alleen met knoppen in.`,
         pl: `Tak: Beurer WL 75 obsługuje się bezpłatną aplikacją beurer LightUp przez Bluetooth (alarmy, jasność, kolory, dźwięki). Philips HF3650 i HF3520 oraz Lumie Shine 300 ustawia się wyłącznie przyciskami.`,
+        sv: `Ja: Beurer WL 75 styrs med den kostnadsfria appen beurer LightUp via Bluetooth (larm, ljusstyrka, färger och ljud). Philips HF3650 och HF3520 samt Lumie Shine 300 ställs bara in med knappar.`,
+        us: `Yes: the Beurer WL 75 is controlled through the free beurer LightUp app over Bluetooth (alarms, brightness, colors, sounds). The Philips HF3650 and HF3520 and the Lumie Shine 300 are set with buttons only.`,
+        ca: `Yes: the Beurer WL 75 is controlled through the free beurer LightUp app over Bluetooth (alarms, brightness, colours, sounds). The Philips HF3650 and HF3520 and the Lumie Shine 300 are set with buttons only.`,
       },
     },
     {
@@ -697,6 +970,9 @@ export const article: BlogArticle = {
         it: `Come si usa una lampada per luminoterapia da 10.000 lux?`,
         nl: `Hoe gebruikt u een lichttherapielamp van 10.000 lux?`,
         pl: `Jak używać lampy do światłoterapii 10 000 luksów?`,
+        sv: `Hur använder man en dagsljuslampa på 10 000 lux?`,
+        us: `How do you use a 10,000-lux light therapy lamp?`,
+        ca: `How do you use a 10,000-lux light therapy lamp?`,
       },
       answer: {
         fr: `Installez-vous à la distance indiquée par le fabricant (environ 15 cm pour la Beurer TL 50 à 10 000 lux), plutôt le matin, sans fixer la lumière, pour la durée recommandée dans la notice. En cas de maladie des yeux, de traitement photosensibilisant ou de trouble de l'humeur, demandez d'abord l'avis d'un médecin.`,
@@ -706,6 +982,9 @@ export const article: BlogArticle = {
         it: `Sedetevi alla distanza indicata dal produttore (circa 15 cm per 10.000 lux con la Beurer TL 50), preferibilmente al mattino, senza fissare la luce e per la durata consigliata nel manuale. In caso di malattie degli occhi, farmaci fotosensibilizzanti o disturbi dell'umore, chiedete prima il parere di un medico.`,
         nl: `Ga op de door de fabrikant aangegeven afstand zitten (circa 15 cm voor 10.000 lux bij de Beurer TL 50), bij voorkeur 's ochtends, zonder recht in het licht te kijken, en houd de aanbevolen duur uit de handleiding aan. Hebt u een oogaandoening, gebruikt u lichtgevoelig makende medicijnen of hebt u een stemmingsstoornis, vraag dan eerst een arts om advies.`,
         pl: `Usiądź w odległości podanej przez producenta (w przypadku lampy Beurer TL 50 ok. 15 cm przy 10 000 luksów), najlepiej rano, nie patrz bezpośrednio w światło i korzystaj z lampy tak długo, jak zaleca instrukcja. Jeśli chorujesz na oczy, przyjmujesz leki fotouczulające lub masz zaburzenia nastroju, najpierw skonsultuj się z lekarzem.`,
+        sv: `Sitt på det avstånd som tillverkaren anger (ca 15 cm för 10 000 lux med Beurer TL 50), helst på morgonen och utan att titta rakt in i ljuset, under den tid som rekommenderas i bruksanvisningen. Har du en ögonsjukdom, tar läkemedel som gör dig ljuskänslig eller har ett förstämningssyndrom bör du först rådgöra med läkare.`,
+        us: `Sit at the distance the manufacturer specifies (about 6 inches, or 15 cm, for 10,000 lux on the Beurer TL 50), preferably in the morning, without staring into the light, for as long as the manual recommends. If you have an eye condition, take photosensitizing medication or have a mood disorder, ask a doctor first.`,
+        ca: `Sit at the distance the manufacturer specifies (about 15 cm for 10,000 lux on the Beurer TL 50), preferably in the morning, without staring into the light, for as long as the manual recommends. If you have an eye condition, take photosensitizing medication or have a mood disorder, check with a doctor first.`,
       },
     },
     {
@@ -717,6 +996,9 @@ export const article: BlogArticle = {
         it: `La Hatch Restore è disponibile in Europa?`,
         nl: `Is de Hatch Restore verkrijgbaar in Europa?`,
         pl: `Czy Hatch Restore jest dostępny w Europie?`,
+        sv: `Säljs Hatch Restore i Europa?`,
+        us: `Is the Hatch Restore available in Europe?`,
+        ca: `Why isn't the Hatch Restore in this comparison?`,
       },
       answer: {
         fr: `Le Hatch Restore est conçu pour le marché américain et n'est pas distribué officiellement en Europe. L'importer peut nécessiter un adaptateur secteur et compliquer la garantie : mieux vaut choisir un modèle Philips, Lumie ou Beurer vendu en Europe.`,
@@ -726,6 +1008,9 @@ export const article: BlogArticle = {
         it: `La Hatch Restore è pensata per il mercato statunitense e non è distribuita ufficialmente in Europa. Importarla può richiedere un adattatore e complicare la garanzia: meglio scegliere un modello Philips, Lumie o Beurer venduto in Europa.`,
         nl: `De Hatch Restore is bedoeld voor de Amerikaanse markt en wordt in Europa niet officieel verkocht. Importeren kan een stekkeradapter vereisen en de garantie bemoeilijken; een Philips-, Lumie- of Beurer-model dat in Europa wordt verkocht, is de veiligere keuze.`,
         pl: `Hatch Restore powstał z myślą o rynku amerykańskim i nie jest oficjalnie sprzedawany w Europie. Sprowadzenie go może wymagać przejściówki do gniazdka i utrudnić korzystanie z gwarancji – bezpieczniej wybrać model Philips, Lumie lub Beurer sprzedawany w Europie.`,
+        sv: `Hatch Restore är utvecklad för den amerikanska marknaden och säljs inte officiellt i Europa. Att importera den kan kräva en adapter och krångla till garantin, så det är säkrare att välja en modell från Philips, Lumie eller Beurer som säljs i Europa.`,
+        us: `The Hatch Restore is designed for the US market and isn't officially distributed in Europe. Bringing one into Europe may require a plug adapter and complicate the warranty, so if you live there, a Philips, Lumie or Beurer model sold in Europe is the safer choice.`,
+        ca: `The Hatch Restore is designed for the US market and isn't officially distributed in Europe, so it isn't part of this selection. Whichever model you choose, check the voltage on the listing and make sure the warranty covers you where you live.`,
       },
     },
   ],

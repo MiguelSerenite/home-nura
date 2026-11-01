@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Pannello solare da balcone fissato alla ringhiera di un palazzo in mattoni',
         nl: 'Balkonzonnepaneel bevestigd aan de balustrade van een bakstenen appartementengebouw',
         pl: 'Panel fotowoltaiczny elektrowni balkonowej zamocowany na balustradzie balkonu w ceglanym budynku',
+        sv: 'Solpanel monterad på balkongräcket på ett flerbostadshus i tegel',
+        us: 'Balcony solar panel mounted on the railing of a brick apartment building',
+        ca: 'Balcony solar panel mounted on the railing of a brick apartment building',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Pannello Solare da Balcone (Balkonkraftwerk) 2026: Regole, Resa e Migliori Kit',
     nl: 'Balkonzonnepaneel (Balkonkraftwerk) 2026: Regels, Opbrengst en Beste Sets',
     pl: 'Elektrownia balkonowa (Balkonkraftwerk) 2026: poradnik, przepisy i najlepsze zestawy',
+    sv: 'Balkongsolceller (Balkonkraftwerk) 2026: guide, regler och de bästa kiten',
+    us: 'Balcony Solar Panels 2026: Plug-In Solar Rules, Output and Best Kits',
+    ca: 'Balcony Solar Panels 2026: Plug-In Solar Rules, Output and Best Kits',
   },
   excerpt: {
     fr: 'Comment fonctionne un panneau solaire de balcon, ce que dit la réglementation en 2026 (800 W en Allemagne, déclaration Enedis en France), combien il produit et quel micro-onduleur ou système avec batterie choisir : Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Come funziona un pannello solare da balcone, cosa prevedono le regole nel 2026 (800 W in Germania, dichiarazione in Francia), quanto produce e quale microinverter o sistema con batteria scegliere: Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
     nl: 'Hoe een balkonzonnepaneel werkt, wat de regels in 2026 zeggen (800 W in Duitsland, melding in Frankrijk), hoeveel het opwekt en welke micro-omvormer of batterijsysteem je kiest: Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
     pl: 'Jak działa elektrownia balkonowa, jakie przepisy obowiązują w 2026 roku (800 W w Niemczech, zgłoszenie do Enedis we Francji), ile prądu produkuje i jaki mikroinwerter lub system z akumulatorem wybrać: Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
+    sv: 'Så fungerar balkongsolceller, vad reglerna säger 2026 (800 W i Tyskland, anmälan till nätbolaget Enedis i Frankrike), hur mycket el de ger och vilken mikroväxelriktare eller vilket system med batteri du ska välja: Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
+    us: 'How a balcony solar panel works, the 2026 rules (800 W in Germany, a declaration to Enedis in France), how much power it produces and which microinverter or battery system to pick: Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
+    ca: 'How a balcony solar panel works, what the rules say in 2026 (800 W in Germany, Enedis declaration in France), how much it produces and which micro-inverter or battery system to choose: Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
   },
   content: {
     fr: `<p><strong>Un panneau solaire de balcon, ou Balkonkraftwerk, est un petit kit photovoltaïque composé d'un ou deux panneaux et d'un micro-onduleur, en général limité à 800 W, qui alimente directement les appareils de votre logement et réduit la quantité d'électricité achetée.</strong> En 2026, le meilleur point de départ pour la plupart des foyers reste un kit simple de deux panneaux associé à un micro-onduleur de 800 VA comme le Hoymiles HMS-800W-2T ; si vous êtes absent en journée, un système avec batterie comme l'Anker SOLIX Solarbank 3 E2700 Pro ou l'EcoFlow STREAM Ultra permet d'utiliser le soir l'énergie produite à midi.</p>
@@ -628,6 +637,256 @@ export const article: BlogArticle = {
 
 <h2>Nasz werdykt</h2>
 <p>Jeśli w ciągu dnia ktoś jest w domu, prostotę, niezawodność i oszczędności najlepiej łączy zestaw z dwoma panelami i mikroinwerterem 800 VA, takim jak <strong>Hoymiles HMS-800W-2T</strong>. <strong>Anker SOLIX MI80</strong> to solidna alternatywa dla osób, które wolą aplikację projektowaną z myślą o zwykłych użytkownikach. Jeśli zużywasz prąd głównie wieczorem, najpełniejszym systemem z akumulatorem jest <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong>. <strong>EcoFlow STREAM Ultra</strong> lepiej sprawdzi się na małym balkonie, a <strong>Zendure SolarFlow 800 Pro 2</strong> – jeśli chcesz rozbudowywać magazyn energii stopniowo. Niezależnie od wyboru zgłoś instalację i zleć elektrykowi sprawdzenie podłączenia.</p>`,
+    sv: `<p><strong>Balkongsolceller, på tyska Balkonkraftwerk, är små solcellskit med en eller två solpaneler och en mikroväxelriktare, oftast begränsade till 800 W, som driver apparaterna i hemmet direkt och minskar mängden el du behöver köpa.</strong> Den bästa starten för de flesta hushåll är 2026 fortfarande ett enkelt kit med två paneler och en mikroväxelriktare på 800 VA, som Hoymiles HMS-800W-2T. Är ingen hemma på dagarna kan ett system med batteri, som Anker SOLIX Solarbank 3 E2700 Pro eller EcoFlow STREAM Ultra, spara middagssolens el till kvällen.</p>
+<p>Guiden bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Den förklarar hur kiten fungerar, vilka regler som är kända i de största europeiska länderna, vad du ska titta på när du väljer och vilka misstag som är vanligast. Alla tillgängliga kit hittar du under <a href="/sv/energie-domotique/solaire-balcon">balkongsolceller</a>.</p>
+
+<h2>Så fungerar balkongsolceller</h2>
+<p>Ett balkongkit består av tre delar: en eller två <strong>solpaneler</strong> (ofta 400–500 Wp vardera), en <strong>mikroväxelriktare</strong> som omvandlar panelernas likström till växelström på 230 V, synkroniserad med elnätet, och en <strong>anslutningskabel</strong> till bostadens elinstallation. Till det kommer ett fästsystem för balkongräcke, vägg, platt tak eller mark.</p>
+<p>Principen är <strong>egenanvändning</strong>: elen som produceras går ut i hemmets elledningar och används i första hand av det som är igång (kylskåp, router, apparater i standby, tvättmaskin). Det du inte använder just då går ut på det allmänna elnätet, oftast utan ersättning. Mikroväxelriktaren stängs av automatiskt vid strömavbrott, så att den aldrig spänningssätter en ledning som någon arbetar med.</p>
+<p>Två siffror ska hållas isär: panelernas <strong>toppeffekt</strong> (Wp), som anger vad de ger som mest i full sol, och <strong>växelriktarens uteffekt</strong> (W eller VA), som sätter taket för vad som matas in i bostaden. Att kombinera 900 Wp paneler med en växelriktare på 800 VA är vanligt: växelriktaren kapar toppen några timmar per år mitt i sommaren, men i gengäld ökar produktionen på morgonen, på kvällen och under grå dagar.</p>
+
+<h2>Regler 2026: det här gäller land för land</h2>
+<p>Reglerna ändras snabbt och skiljer sig mellan länderna. Här är det som var klarlagt när guiden senast uppdaterades. Kontakta alltid ditt elnätsbolag innan du köper.</p>
+<h3>Tyskland</h3>
+<p>Sedan Solarpaket I trädde i kraft i maj 2024 får ett Balkonkraftwerk ha en <strong>växelriktare på upp till 800 VA</strong> och <strong>upp till 2 000 Wp paneler</strong>. Den enda formaliteten är en <strong>kostnadsfri registrering i Marktstammdatenregister</strong> (det tyska registret hos nätmyndigheten Bundesnetzagentur); den separata anmälan till nätbolaget har slopats. En äldre elmätare utan backspärr får sitta kvar tills nätbolaget byter ut den. Produktstandarden DIN VDE V 0126-95, som kom i slutet av 2025, reglerar anslutning via vanlig Schukokontakt så länge panelernas effekt håller sig inom vissa gränser; över dem krävs ett särskilt inmatningsuttag. Sedan oktober 2024 kan dessutom hyresgäster och lägenhetsägare begära att få installera ett sådant system. Hyresvärden eller ägarföreningen får bara säga nej av vägande skäl, men har fortfarande ett ord med i laget om hur det monteras.</p>
+<h3>Frankrike</h3>
+<p>Installationen är laglig men ska <strong>anmälas till nätbolaget Enedis</strong> (eller det lokala elnätsbolaget) via ett <strong>avtal om egenanvändning utan inmatning (CACSI)</strong>, vilket görs kostnadsfritt på nätet, oavsett effekt. Eventuell överskottsel som matas in på nätet ger ingen ersättning. Själva elanslutningen styrs av den franska installationsnormen NF C 15-100: anslutning till ett vanligt uttag som delas med andra apparater, eller till ett grenuttag, ska undvikas, och den rekommenderade lösningen är en <strong>egen säkrad grupp</strong> (en separat krets i elcentralen) som en behörig elektriker har kontrollerat. En synlig panel på fasaden eller balkongräcket kan dessutom kräva en <strong>förhandsanmälan till kommunen (déclaration préalable)</strong>, och i samägda flerbostadshus krävs i regel ett godkännande från ägarnas stämma. Hyresgäster behöver skriftligt tillstånd från hyresvärden.</p>
+<h3>Andra länder</h3>
+<ul>
+<li><strong>Nederländerna:</strong> plug-in-solceller (kit som ansluts med stickpropp) är vanliga och ska anmälas till elnätsbolaget. Nettodebiteringen (saldering) upphör den 1 januari 2027. Därefter lönar sig direkt egenanvändning mer än inmatning på nätet.</li>
+<li><strong>Belgien, Spanien, Italien:</strong> små anläggningar är tillåtna efter en förenklad anmälan till elnätsbolaget, med förfaranden som skiljer sig mellan länder och regioner. Ta reda på vad som gäller innan du köper.</li>
+<li><strong>Storbritannien:</strong> regeringen öppnade 2026 för plug-in-solceller, med uteffekten begränsad till 800 VA och krav på att kiten uppfyller en särskild produktspecifikation.</li>
+</ul>
+
+<h2>Så väljer du rätt</h2>
+<h3>Enkel mikroväxelriktare eller system med batteri</h3>
+<p>Ett kit utan batteri är det enklaste alternativet och det som snabbast tjänar in sig: allt som produceras under dagen och används direkt är en ren besparing. Ett system med batteri (DC-kopplat mellan panelerna och växelriktaren) lagrar middagens överskott och lämnar ut det på kvällen. Det lönar sig framför allt om ingen är hemma på dagarna. Vill du fördjupa dig i valet, läs vår <a href="/sv/blog/batterie-domestique-stockage-solaire">jämförelse av hembatterier för solceller</a>.</p>
+<h3>Antal MPPT-ingångar</h3>
+<p>Varje MPPT-ingång (en regulator som hela tiden letar upp panelens bästa arbetspunkt) optimerar en panel för sig. Två ingångar räcker för två paneler; med fyra ingångar kan du fördela fyra paneler åt olika väderstreck (till exempel öster och väster), inom den gräns för paneleffekt som gäller i ditt land.</p>
+<h3>Paneler och montering</h3>
+<p>Monokristallina paneler på 400–500 Wp är standard. <strong>Bifaciala glas-glas-paneler</strong> fångar även reflekterat ljus och åldras bättre. Kontrollera vikten (ofta över 20 kg per panel), att balkongräcket är stabilt och att fästena håller god kvalitet: en dåligt förankrad panel som utsätts för vind är den största risken med ett balkongkit.</p>
+<h3>App och mätning av elförbrukningen</h3>
+<p>En app som visar produktionen i realtid gör det lättare att flytta förbrukningen (tvättmaskin, diskmaskin) till de soliga timmarna. Har du ett batteri kan en energimätare eller en <a href="/sv/blog/comparatif-smart-plugs-mesure-energie">smart plugg med energimätning</a> hjälpa systemet att anpassa utmatningen efter den faktiska förbrukningen, så att den lagrade energin inte skänks bort till elnätet.</p>
+<h3>Garanti och standarder</h3>
+<p>Välj en växelriktare som uppfyller de europeiska standarderna för nätanslutning (bland annat skydd mot ödrift) och har minst tio års garanti. Panelerna bör ha en effektgaranti på 25 år eller mer.</p>
+
+<h2>Modellerna värda att känna till 2026</h2>
+<h3>Hoymiles HMS-800W-2T: standardvalet för ett enkelt kit</h3>
+<p>HMS-800W-2T sitter i en stor del av de balkongkit som säljs i Europa. Den levererar <strong>800 VA</strong>, tar två paneler på <strong>två oberoende MPPT-ingångar</strong> och har <strong>inbyggt wifi</strong>, så du slipper en extra kommunikationsbrygga. Uppföljningen sker i appen S-Miles Cloud. IP67-klassat hölje och passiv kylning utan fläkt.</p>
+<p><strong>Styrkor:</strong> beprövad tillförlitlighet, fungerar med paneler från 320 till över 500 Wp, många kompletta kit är byggda kring den. <strong>Svagheter:</strong> ingen lagring; appen är mer teknisk än de stora konsumentmärkenas appar. <strong>Passar för:</strong> hushåll där någon är hemma på dagen och som vill ha den enklaste och mest lönsamma lösningen.</p>
+<h3>Anker SOLIX MI80: det användarvänliga alternativet</h3>
+<p>MI80 är mikroväxelriktaren i Ankers balkongkit. Uteffekten kan ställas in på <strong>600 eller 800 W</strong> i appen, och den har <strong>två MPPT-ingångar</strong>, wifi och Bluetooth, IP67-klassat hölje och tio års garanti.</p>
+<p><strong>Styrkor:</strong> tydlig app från Anker, guidad installation steg för steg. <strong>Svagheter:</strong> den detaljerade historiken är inte lika utförlig som i märkets batterisystem. <strong>Passar för:</strong> dig som föredrar ett konsumentanpassat ekosystem och kundtjänst från ett välkänt märke.</p>
+<h3>Anker SOLIX Solarbank 3 E2700 Pro: bästa systemet med lagring</h3>
+<p>Solarbank 3 E2700 Pro samlar batteri, laddregulatorer och växelriktare i en och samma enhet. Den lagrar <strong>2,688 kWh</strong>, tar upp till <strong>3 600 Wp paneler på fyra MPPT-ingångar</strong> och lämnar <strong>800 W</strong> via ett vägguttag. Kapaciteten kan byggas ut med extrabatterier, och systemet kan använda en smart energimätare för att följa hushållets förbrukning.</p>
+<p><strong>Styrkor:</strong> stor baskapacitet, går att bygga ut, avancerad styrning. <strong>Svagheter:</strong> skrymmande och tung; i Tyskland måste den anslutna paneleffekten hålla sig inom gränsen på 2 000 Wp. <strong>Passar för:</strong> hushåll som är borta på dagarna och använder mest el på kvällen.</p>
+<h3>EcoFlow STREAM Ultra: den kompakta allt-i-ett-lösningen</h3>
+<p>STREAM Ultra har ett inbyggt LiFePO4-batteri på <strong>1,92 kWh</strong>, <strong>fyra MPPT-ingångar på 500 W</strong> (2 000 W totalt) och en växelriktare som matar ut <strong>800 W</strong> i hemmets elnät, plus en fristående utgång (off-grid) på upp till 1 200 W. IP65-klassat hölje för utomhusbruk, wifi och Bluetooth, tio års garanti.</p>
+<p><strong>Styrkor:</strong> kompakt nog för en balkong, kapaciteten kan byggas ut med fler batterier ur STREAM-serien. <strong>Svagheter:</strong> lägre baskapacitet än Solarbank 3. <strong>Passar för:</strong> små balkonger och dig som vill ha ett diskret system som kan växa.</p>
+<h3>Zendure SolarFlow 800 Pro 2: det mest utbyggbara alternativet</h3>
+<p>800 Pro 2 är en mindre och lättare efterföljare till SolarFlow 800 Pro. Den behåller ett batteri på <strong>1,92 kWh</strong> som kan byggas ut till <strong>11,52 kWh</strong>, <strong>fyra MPPT-ingångar</strong> (upp till 2 640 Wp) och en dubbelriktad växelriktare med 800 W mot elnätet och 1 000 W i reservutgång.</p>
+<p><strong>Styrkor:</strong> mycket stor möjlig kapacitet, kan laddas från elnätet. <strong>Svagheter:</strong> många inställningar, bäst för den som gillar att finjustera. <strong>Passar för:</strong> dig som vill börja i liten skala och lägga till lagring senare.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Viktigaste data</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Hoymiles HMS-800W-2T</strong></td><td>Mikroväxelriktare</td><td>800 VA, 2 MPPT, IP67</td><td>Inbyggt wifi</td><td>Enkelt kit, någon hemma på dagen</td></tr>
+<tr><td><strong>Anker SOLIX MI80</strong></td><td>Mikroväxelriktare</td><td>Ställbar 600/800 W, 2 MPPT</td><td>Wifi, Bluetooth</td><td>Konsumentanpassat ekosystem</td></tr>
+<tr><td><strong>Anker SOLIX Solarbank 3 E2700 Pro</strong></td><td>System med batteri</td><td>2,688 kWh, 4 MPPT, utbyggbar</td><td>Wifi, Bluetooth</td><td>Förbrukning främst på kvällen</td></tr>
+<tr><td><strong>EcoFlow STREAM Ultra</strong></td><td>System med batteri</td><td>1,92 kWh, 4 MPPT, IP65</td><td>Wifi, Bluetooth</td><td>Liten balkong, kompakt format</td></tr>
+<tr><td><strong>Zendure SolarFlow 800 Pro 2</strong></td><td>System med batteri</td><td>1,92 kWh, utbyggbar till 11,52 kWh</td><td>Wifi, Bluetooth</td><td>Lagring som kan växa</td></tr>
+</tbody>
+</table>
+
+<h2>Hur mycket el producerar balkongsolceller?</h2>
+<p>Produktionen beror främst på väderstreck, lutning, skuggning och var du bor. Som en grov riktlinje ger ett kit på cirka 800–900 Wp, riktat rakt söderut med ungefär 30° lutning, ofta <strong>700–900 kWh per år</strong> i norra Frankrike, Belgien eller Tyskland, och mer i södra Europa. Samma kit monterat lodrätt på ett balkongräcke producerar märkbart mindre, ofta ungefär en tredjedel mindre. Ett läge mot öster eller väster är ändå intressant, eftersom produktionen då sprids jämnare över dagen.</p>
+<p>Vill du räkna på just ditt fall beräknar EU-kommissionens kostnadsfria verktyg PVGIS den förväntade produktionen utifrån adress, väderstreck och lutning. Utan batteri beror andelen du faktiskt använder själv på när du är hemma: den är hög om någon är hemma på dagen och lägre annars. Besparingen är sedan enkel att räkna ut: antalet kWh du använder själv gånger ditt pris per kWh.</p>
+<p>Det mesta produceras mellan april och september. På vintern minskar korta dagar och låg sol produktionen kraftigt.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att ansluta kitet till ett grenuttag eller en förlängningssladd:</strong> det kan leda till överhettning. Använd ett fast vägguttag, helst på en egen grupp som en elektriker har kontrollerat.</li>
+<li><strong>Att snåla på monteringen:</strong> vinden belastar en panel kraftigt. Använd lämpliga fästen och kontrollera att räcket håller.</li>
+<li><strong>Att glömma anmälan:</strong> till Enedis i Frankrike, i Marktstammdatenregister i Tyskland och till elnätsbolaget i andra länder.</li>
+<li><strong>Att välja ett för stort batteri:</strong> ett batteri som är för stort för din produktion står halvtomt en stor del av året.</li>
+<li><strong>Att strunta i skuggan:</strong> ett träd eller en grannbalkong som skuggar panelen mitt på dagen kan minska produktionen kraftigt.</li>
+</ul>
+
+<h2>Installation och säkerhet</h2>
+<p>Panelerna ansluts till växelriktaren med vattentäta MC4-kontakter. Växelriktaren monteras skyddad från direkt sol, bakom en panel eller under räcket. Innan du kopplar in kitet bör en elektriker kontrollera att gruppen är skyddad av en lämplig automatsäkring och en jordfelsbrytare på 30 mA, och att den inte redan belastas av effektkrävande apparater. Hantera aldrig panelkablarna med öppna kontakter i solsken: de är strömförande så fort ljus träffar panelen. Vill du sänka dina kostnader ytterligare, läs vår <a href="/sv/blog/guide-domotique-economie-energie-2026">guide till smarta hem och energibesparing</a>.</p>
+
+<h2>Vårt omdöme</h2>
+<p>Om någon är hemma på dagarna ger ett kit med två paneler och en mikroväxelriktare på 800 VA, som <strong>Hoymiles HMS-800W-2T</strong>, den bästa balansen mellan enkelhet, tillförlitlighet och besparing. <strong>Anker SOLIX MI80</strong> är ett stabilt alternativ för dig som föredrar en konsumentvänlig app. Om din förbrukning ligger mest på kvällen är <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong> det mest kompletta systemet med batteri; <strong>EcoFlow STREAM Ultra</strong> passar bättre på små balkonger, och <strong>Zendure SolarFlow 800 Pro 2</strong> är rätt val för dig som vill bygga ut lagringen steg för steg. Oavsett vilket du väljer: anmäl anläggningen och låt en fackman kontrollera anslutningen.</p>
+`,
+    us: `<p><strong>A balcony solar panel, known in Germany as a Balkonkraftwerk, is a small plug-in solar kit made of one or two panels and a microinverter, usually capped at 800 W, that powers the appliances in your home directly and cuts the amount of electricity you buy.</strong> In 2026 the best starting point for most households is still a simple two-panel kit with an 800 VA microinverter such as the Hoymiles HMS-800W-2T; if nobody's home during the day, a battery system like the Anker SOLIX Solarbank 3 E2700 Pro or the EcoFlow STREAM Ultra lets you use midday solar power in the evening.</p>
+<p>This guide is based on manufacturer specs, published independent reviews and verified owner reviews. It explains how these kits work, the rules in the main European markets, what to look for and the most common mistakes. You'll find every available kit in our <a href="/us/energie-domotique/solaire-balcon">balcony solar</a> section.</p>
+
+<h2>How a balcony solar panel works</h2>
+<p>A balcony kit has three parts: one or two <strong>solar panels</strong> (often 400 to 500 W each), a <strong>microinverter</strong> that converts the panels' direct current into alternating current synchronized with the grid (230 V on the European grid), and a <strong>connection cable</strong> to your home's wiring. A mounting system for a railing, wall, flat roof or the ground completes the kit.</p>
+<p>The principle is <strong>self-consumption</strong>: the electricity the kit produces flows into your home's circuits and is used first by whatever is running (refrigerator, router, standby loads, washer). Anything you don't use at that moment flows out to the public grid, usually with no compensation. The microinverter shuts down automatically during a power outage so it never energizes a line that's being repaired.</p>
+<p>Two numbers matter: the panels' <strong>peak power</strong> (in watts, often written Wp), their maximum output in full sun, and the <strong>inverter output</strong> (W or VA), which caps what's fed into the home. Pairing 900 W of panels with an 800 VA inverter is common: the inverter clips output for a few hours a year at the height of summer, but you gain output in the morning, in the evening and on cloudy days.</p>
+
+<h2>2026 rules: what's settled, country by country</h2>
+<p>Rules change quickly and differ from one country to the next. Below are the points that are well established in Europe at the time of this update; always check with your grid operator before you buy. In the US, rules for plug-in solar vary by state and utility: check with your utility before you connect a kit.</p>
+<h3>Germany</h3>
+<p>Since the Solarpaket I took effect in May 2024, a Balkonkraftwerk may have an <strong>inverter of up to 800 VA</strong> and <strong>up to 2,000 W of panels</strong>. The only formality is a <strong>free registration in the Marktstammdatenregister</strong>, the register run by the Federal Network Agency; the separate notice to the grid operator has been dropped. An old meter with no backstop (one that can run backward) may stay in place until the grid operator replaces it. The DIN VDE V 0126-95 product standard, published at the end of 2025, covers connection with a Schuko plug under certain panel-power conditions; above them, a dedicated feed-in connector is required. Since October 2024, renters and condo owners can also ask to install such a system, and the landlord or condo association may refuse only for a serious reason, though it keeps a say in how the system is installed.</p>
+<h3>France</h3>
+<p>Installation is legal but must be <strong>declared to Enedis</strong>, France's grid operator (or to your local distribution operator), through a <strong>self-consumption agreement with no feed-in (CACSI)</strong>, a free online process, whatever the power. Any surplus fed into the grid isn't paid for. France's NF C 15-100 wiring standard governs the connection: plugging into an ordinary outlet shared with other appliances or into a power strip should be avoided, and a <strong>dedicated, protected circuit</strong> checked by a qualified electrician is the recommended approach. A visible panel on a facade or railing may require a <strong>simplified permit application at the local town hall</strong>, and in a condo building the condo association usually has to vote to approve it. Renters need written consent from the landlord.</p>
+<h3>Other countries</h3>
+<ul>
+<li><strong>Netherlands:</strong> plug-in kits are common and must be reported to the grid operator. Net metering (saldering) ends on January 1, 2027, after which using your solar power on the spot becomes more valuable than feeding it into the grid.</li>
+<li><strong>Belgium, Spain, Italy:</strong> small systems are allowed with a simplified declaration to the grid operator, with procedures specific to each country or region. Check before you buy.</li>
+<li><strong>United Kingdom:</strong> the government opened the way for plug-in kits in 2026, with output limited to 800 VA and kits that meet a dedicated product specification. Buy only kits sold as compliant with it.</li>
+</ul>
+
+<h2>What to look for</h2>
+<h3>Simple microinverter or battery system</h3>
+<p>A kit with no battery is the simplest option and pays for itself fastest: everything produced during the day and used on the spot is money saved. A battery system (DC-coupled between the panels and the inverter) stores the midday surplus and releases it in the evening. It mainly makes sense if nobody's home during the day. For more on this choice, read our <a href="/us/blog/batterie-domestique-stockage-solaire">home battery comparison for solar</a>.</p>
+<h3>Number of MPPT inputs</h3>
+<p>Each MPPT input optimizes one panel independently. Two inputs are enough for two panels; four inputs let you spread four panels across different orientations (east and west, for example), within the panel-power limit that applies where you live.</p>
+<h3>Panels and mounting</h3>
+<p>Monocrystalline panels of 400 to 500 W are the norm. <strong>Bifacial glass-glass</strong> models also capture reflected light and age better. Check the weight (often over 44 lb, or 20 kg, per panel), the strength of the railing and the quality of the brackets: a poorly secured panel exposed to wind is the main risk with a balcony kit.</p>
+<h3>App and energy monitoring</h3>
+<p>An app that shows real-time production helps you shift loads (washer, dishwasher) to sunny hours. With a battery, a meter or a <a href="/us/blog/comparatif-smart-plugs-mesure-energie">smart plug with energy monitoring</a> lets the system match its output to actual demand, so stored energy isn't given away to the grid.</p>
+<h3>Warranty and compliance</h3>
+<p>Choose an inverter that complies with European grid-connection standards (including anti-islanding protection) and carries at least a 10-year warranty, and panels with a performance warranty of 25 years or more.</p>
+
+<h2>The top models of 2026</h2>
+<h3>Hoymiles HMS-800W-2T: the go-to microinverter for a simple kit</h3>
+<p>The HMS-800W-2T powers a large share of the balcony kits sold in Europe. It delivers <strong>800 VA</strong>, takes two panels on <strong>two independent MPPT inputs</strong> and has <strong>built-in Wi-Fi</strong>, so you don't need an extra gateway. Monitoring runs through the S-Miles Cloud app. It has an IP67 housing and fanless passive cooling.</p>
+<p><strong>Pros:</strong> proven reliability, wide compatibility with panels from 320 to over 500 W, many complete kits built around it. <strong>Cons:</strong> no storage; the app is more technical than consumer brands' apps. <strong>Best for:</strong> households with someone home during the day who want the simplest, most cost-effective setup.</p>
+<h3>Anker SOLIX MI80: the consumer-friendly alternative</h3>
+<p>The MI80 is the microinverter in Anker's balcony kits. You can set its output to <strong>600 or 800 W</strong> in the app, and it has <strong>two MPPT inputs</strong>, Wi-Fi and Bluetooth, an IP67 housing and a 10-year warranty.</p>
+<p><strong>Pros:</strong> clear Anker app, guided setup. <strong>Cons:</strong> detailed history is less complete than on the brand's battery systems. <strong>Best for:</strong> buyers who prefer a consumer ecosystem and customer support from a big-name brand.</p>
+<h3>Anker SOLIX Solarbank 3 E2700 Pro: the best system with storage</h3>
+<p>The Solarbank 3 E2700 Pro combines a battery, charge controllers and an inverter in one unit. It stores <strong>2.688 kWh</strong>, accepts up to <strong>3,600 W of panels on four MPPT inputs</strong> and delivers <strong>800 W</strong> through an outlet. You can expand capacity with add-on batteries, and it can use a smart meter to follow the home's consumption.</p>
+<p><strong>Pros:</strong> large base capacity, expandable, advanced controls. <strong>Cons:</strong> bulky and heavy; in Germany the connected panel power must stay within the 2,000 W limit. <strong>Best for:</strong> households that are out during the day and use most of their power in the evening.</p>
+<h3>EcoFlow STREAM Ultra: the compact all-in-one</h3>
+<p>The STREAM Ultra packs a <strong>1.92 kWh</strong> LiFePO4 battery, <strong>four 500 W MPPT inputs</strong> (2,000 W in total) and an inverter that feeds <strong>800 W</strong> into the home's wiring, with an off-grid output of up to 1,200 W. It has an IP65 outdoor housing, Wi-Fi and Bluetooth, and a 10-year warranty.</p>
+<p><strong>Pros:</strong> compact enough for a balcony, capacity can grow with additional STREAM batteries. <strong>Cons:</strong> lower base capacity than the Solarbank 3. <strong>Best for:</strong> small balconies and anyone who wants a discreet system that can grow.</p>
+<h3>Zendure SolarFlow 800 Pro 2: the most expandable option</h3>
+<p>The more compact, lighter successor to the SolarFlow 800 Pro keeps a <strong>1.92 kWh</strong> battery expandable to <strong>11.52 kWh</strong>, <strong>four MPPT inputs</strong> (up to 2,640 W of panels) and a bidirectional inverter with 800 W of grid output and 1,000 W of backup output.</p>
+<p><strong>Pros:</strong> very large potential capacity, can charge from the grid. <strong>Cons:</strong> lots of settings, best for users who enjoy fine-tuning. <strong>Best for:</strong> starting small and adding storage later.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Key spec</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Hoymiles HMS-800W-2T</strong></td><td>Microinverter</td><td>800 VA, 2 MPPT, IP67</td><td>Built-in Wi-Fi</td><td>Simple kit, someone home by day</td></tr>
+<tr><td><strong>Anker SOLIX MI80</strong></td><td>Microinverter</td><td>600/800 W adjustable, 2 MPPT</td><td>Wi-Fi, Bluetooth</td><td>Consumer ecosystem</td></tr>
+<tr><td><strong>Anker SOLIX Solarbank 3 E2700 Pro</strong></td><td>Battery system</td><td>2.688 kWh, 4 MPPT, expandable</td><td>Wi-Fi, Bluetooth</td><td>Mostly evening use</td></tr>
+<tr><td><strong>EcoFlow STREAM Ultra</strong></td><td>Battery system</td><td>1.92 kWh, 4 MPPT, IP65</td><td>Wi-Fi, Bluetooth</td><td>Small balcony, compact size</td></tr>
+<tr><td><strong>Zendure SolarFlow 800 Pro 2</strong></td><td>Battery system</td><td>1.92 kWh, expandable to 11.52 kWh</td><td>Wi-Fi, Bluetooth</td><td>Storage that grows with you</td></tr>
+</tbody>
+</table>
+
+<h2>How much power does a balcony solar panel produce?</h2>
+<p>Output depends mainly on orientation, tilt, shade and climate. As a rough guide, a kit of about 800 to 900 W facing due south at a tilt of around 30° commonly produces <strong>700 to 900 kWh a year</strong> in northern France, Belgium or Germany, and more in southern Europe. The same kit mounted vertically on a railing produces noticeably less, often about a third less. An east- or west-facing setup is still worthwhile, with output spread more evenly through the day.</p>
+<p>To estimate your own case, the European Commission's free PVGIS tool calculates expected output from your address, orientation and tilt. Without a battery, the share you actually use yourself depends on when you're home: high if someone's in during the day, lower otherwise. The savings are then easy to work out: the kWh you use yourself multiplied by the rate on your utility bill.</p>
+<p>Most production happens between April and September; in winter, short days and a low sun cut it sharply.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Plugging the kit into a power strip or extension cord:</strong> it can overheat. Use a wall outlet, ideally on a dedicated circuit checked by an electrician.</li>
+<li><strong>Cutting corners on mounting:</strong> wind puts heavy loads on a panel. Use the right brackets and check the railing's strength.</li>
+<li><strong>Forgetting to register:</strong> with Enedis in France, the Marktstammdatenregister in Germany, the grid operator or utility elsewhere.</li>
+<li><strong>Oversizing the battery:</strong> a battery too big for your production sits half empty much of the year.</li>
+<li><strong>Ignoring shade:</strong> a tree or a neighbor's balcony shading the panel at midday can cut output sharply.</li>
+</ul>
+
+<h2>Installation and safety</h2>
+<p>Panels connect to the inverter with waterproof MC4 connectors. Mount the inverter out of direct sun, behind a panel or under the railing. Before you plug in, have an electrician confirm that the circuit is protected by a suitable circuit breaker and ground-fault protection (a 30 mA RCD in European installations), and that it isn't already loaded by power-hungry appliances. Models sold in Europe are built for 230 V; check that the version on your Amazon store is rated for 120 V. Never handle panel cables with open connectors in sunlight: they're live as soon as light hits the panel. To cut your bills further, see our <a href="/us/blog/guide-domotique-economie-energie-2026">smart home energy-saving guide</a>.</p>
+
+<h2>The bottom line</h2>
+<p>If someone's home during the day, a two-panel kit with an 800 VA microinverter such as the <strong>Hoymiles HMS-800W-2T</strong> offers the best balance of simplicity, reliability and savings. The <strong>Anker SOLIX MI80</strong> is a solid alternative if you prefer a consumer app. If most of your consumption happens in the evening, the <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong> is the most complete battery system; the <strong>EcoFlow STREAM Ultra</strong> is a better fit for small balconies, and the <strong>Zendure SolarFlow 800 Pro 2</strong> suits buyers who want to add storage step by step. Whichever you choose, register or declare the system wherever the rules require it, and have the connection checked.</p>`,
+    ca: `<p><strong>A balcony solar panel, also called a plug-in solar kit (Balkonkraftwerk in German), is a small photovoltaic kit made of one or two panels and a micro-inverter, usually limited to 800 W in Europe, that powers the appliances in your home directly and cuts the amount of electricity you buy.</strong> In 2026 the best starting point for most households is still a simple two-panel kit with an 800 VA micro-inverter such as the Hoymiles HMS-800W-2T; if nobody is home during the day, a battery system like the Anker SOLIX Solarbank 3 E2700 Pro or the EcoFlow STREAM Ultra lets you use midday solar power in the evening.</p>
+<p>This guide is based on manufacturer specifications, published independent reviews and verified owner reviews. It explains how these kits work, the rules in the main European countries, the buying criteria and the most common mistakes. You’ll find every kit we cover in our <a href="/ca/energie-domotique/solaire-balcon">balcony solar</a> category.</p>
+
+<h2>How a Balcony Solar Panel Works</h2>
+<p>A balcony kit has three parts: one or two <strong>photovoltaic panels</strong> (often 400 to 500 Wp each), a <strong>micro-inverter</strong> that turns the panels' direct current into alternating current synchronized with the grid (230 V on these European models), and a <strong>connection cable</strong> to your home's wiring. A mounting system for a railing, wall, flat roof or the ground completes the kit.</p>
+<p>The principle is <strong>self-consumption</strong>: the electricity produced flows into your home circuit and is used first by whatever is running (fridge, router, standby loads, washer). Anything you don’t use at that moment flows into the grid, usually without payment. The micro-inverter shuts down automatically during a power outage so that it never energizes a line being repaired.</p>
+<p>Two figures matter: the <strong>peak power of the panels</strong> (Wp), their maximum output in full sun, and the <strong>inverter output</strong> (W or VA), which caps what is fed into the home. Pairing 900 Wp of panels with an 800 VA inverter is common: the inverter clips a few hours a year in midsummer, but output in the morning, in the evening and on grey days goes up.</p>
+
+<h2>2026 Rules: What Is Established, Country by Country</h2>
+<p>Rules change quickly and differ between countries. Below are the points that are well established in Europe at the time of this update; always check with your grid operator before buying. These kits are designed for European grids, and rules for plug-in solar differ by country and utility: in Canada, check with your utility and your provincial electrical safety authority before connecting anything.</p>
+<h3>Germany</h3>
+<p>Since Germany’s Solarpaket I came into force in May 2024, a Balkonkraftwerk may have an <strong>inverter of up to 800 VA</strong> and <strong>up to 2,000 Wp of panels</strong>. The only formality is a <strong>free registration in the Marktstammdatenregister</strong> of the Federal Network Agency; separate notification of the grid operator has been dropped. An old meter without a backstop may stay in place until the grid operator replaces it. The DIN VDE V 0126-95 product standard, published at the end of 2025, covers connection through a Schuko plug under certain panel-power conditions; above them, a dedicated feed-in connector is required. Since October 2024, German tenants and condo owners can also ask to install such a system, and the landlord or owners’ association may refuse only for a serious reason, while keeping a say in how it’s installed.</p>
+<h3>France</h3>
+<p>Installation is legal but must be <strong>declared to Enedis</strong>, France’s grid operator (or the local grid operator), through a <strong>self-consumption agreement without feed-in (CACSI)</strong>, a free online procedure, whatever the power. Any surplus fed into the grid isn’t paid for. France’s NF C 15-100 wiring standard governs the connection: plugging into an ordinary outlet shared with other appliances or into a power bar should be avoided, and a <strong>dedicated, protected circuit</strong> checked by an electrician is the recommended approach. A visible panel on a façade or railing may require a <strong>planning declaration at the town hall</strong>, and in a condominium building the co-owners’ meeting usually has to approve it. Tenants need written consent from the landlord.</p>
+<h3>Other Countries</h3>
+<ul>
+<li><strong>Netherlands:</strong> plug-in kits are common and must be reported to the grid operator. Net metering (saldering) ends on January 1, 2027, after which direct self-consumption becomes more valuable than feeding power into the grid.</li>
+<li><strong>Belgium, Spain, Italy:</strong> small systems are allowed with a simplified declaration to the grid operator, with procedures specific to each country or region. Check before you buy.</li>
+<li><strong>United Kingdom:</strong> the government opened the way for plug-in kits in 2026, with output limited to 800 VA and kits that meet a dedicated product specification.</li>
+</ul>
+
+<h2>Buying Criteria</h2>
+<h3>Simple Micro-Inverter or Battery System</h3>
+<p>A kit without a battery is the simplest option and pays for itself fastest: everything produced during the day and used on the spot is a saving. A battery system (DC-coupled between the panels and the inverter) stores the midday surplus and releases it in the evening. It mainly makes sense if nobody is home during the day. For more on this choice, read our <a href="/ca/blog/batterie-domestique-stockage-solaire">home battery comparison for solar</a>.</p>
+<h3>Number of MPPT Inputs</h3>
+<p>Each MPPT input optimizes one panel independently. Two inputs are enough for two panels; four inputs let you spread four panels across different orientations (east and west, for example), within the panel-power limit that applies where you live.</p>
+<h3>Panels and Mounting</h3>
+<p>Monocrystalline panels of 400 to 500 Wp are the norm. <strong>Bifacial glass-glass</strong> models also capture reflected light and age better. Check the weight (often over 20 kg, or 44 lb, per panel), the strength of the railing and the quality of the brackets: a poorly secured panel exposed to wind is the main risk with a balcony kit.</p>
+<h3>App and Consumption Monitoring</h3>
+<p>An app that shows real-time production helps you shift loads (washer, dishwasher) to sunny hours. With a battery, a meter or a <a href="/ca/blog/comparatif-smart-plugs-mesure-energie">smart plug with energy monitoring</a> lets the system match its output to actual consumption, so stored energy isn’t given away to the grid.</p>
+<h3>Warranty and Compliance</h3>
+<p>Choose an inverter that meets the grid-connection standards that apply where you live (European standards for the models below), including anti-islanding protection, with at least a ten-year warranty, and panels with a performance warranty of 25 years or more. In Canada, look for a recognized certification mark such as CSA, cUL or cETL.</p>
+
+<h2>The Reference Models in 2026</h2>
+<h3>Hoymiles HMS-800W-2T: The Reference Micro-Inverter for a Simple Kit</h3>
+<p>The HMS-800W-2T powers a large share of the balcony kits sold in Europe. It delivers <strong>800 VA</strong>, takes two panels on <strong>two independent MPPT inputs</strong> and has <strong>built-in Wi-Fi</strong>, so you don’t need an extra gateway. Monitoring runs through the S-Miles Cloud app. IP67 housing, fanless passive cooling.</p>
+<p><strong>Strengths:</strong> proven reliability, wide compatibility with panels from 320 to over 500 Wp, many complete kits built around it. <strong>Limitations:</strong> no storage; the app is more technical than consumer brands’ apps. <strong>Best for:</strong> households where someone is home during the day and who want the simplest, most cost-effective setup.</p>
+<h3>Anker SOLIX MI80: The Consumer-Friendly Alternative</h3>
+<p>The MI80 is the micro-inverter in Anker's balcony kits. You can set its output to <strong>600 or 800 W</strong> in the app, and it has <strong>two MPPT inputs</strong>, Wi-Fi and Bluetooth, an IP67 housing and a ten-year warranty.</p>
+<p><strong>Strengths:</strong> clear Anker app, guided setup. <strong>Limitations:</strong> the detailed history is less complete than on the brand’s battery systems. <strong>Best for:</strong> buyers who prefer a consumer ecosystem and a brand’s customer service.</p>
+<h3>Anker SOLIX Solarbank 3 E2700 Pro: The Best System with Storage</h3>
+<p>The Solarbank 3 E2700 Pro combines battery, charge controllers and inverter in one unit. It stores <strong>2.688 kWh</strong>, accepts up to <strong>3,600 Wp of panels on four MPPT inputs</strong> and delivers <strong>800 W</strong> to the home through a plug-in connection. You can expand capacity with add-on batteries, and it can use a smart meter to follow the home’s consumption.</p>
+<p><strong>Strengths:</strong> large base capacity, expandable, advanced control. <strong>Limitations:</strong> bulky and heavy; in Germany the connected panel power must stay within the 2,000 Wp limit. <strong>Best for:</strong> households that are out during the day and use most of their power in the evening.</p>
+<h3>EcoFlow STREAM Ultra: The Compact All-in-One</h3>
+<p>The STREAM Ultra integrates a <strong>1.92 kWh</strong> LiFePO4 battery, <strong>four 500 W MPPT inputs</strong> (2,000 W in total) and an inverter that feeds <strong>800 W</strong> into the home’s wiring, with an off-grid output of up to 1,200 W. IP65 outdoor housing, Wi-Fi and Bluetooth, ten-year warranty.</p>
+<p><strong>Strengths:</strong> compact enough for a balcony, capacity can grow with additional STREAM batteries. <strong>Limitations:</strong> lower base capacity than the Solarbank 3. <strong>Best for:</strong> small balconies and anyone who wants a discreet, scalable system.</p>
+<h3>Zendure SolarFlow 800 Pro 2: The Most Expandable Option</h3>
+<p>The more compact, lighter successor to the SolarFlow 800 Pro keeps a <strong>1.92 kWh</strong> battery expandable to <strong>11.52 kWh</strong>, <strong>four MPPT inputs</strong> (up to 2,640 Wp) and a bidirectional inverter with 800 W on-grid and 1,000 W backup output.</p>
+<p><strong>Strengths:</strong> very large possible capacity, can charge from the grid. <strong>Limitations:</strong> lots of settings, best for users who enjoy fine-tuning. <strong>Best for:</strong> starting small and adding storage later.</p>
+
+<h2>Comparison Table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Key Spec</th><th>Connectivity</th><th>Best For</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Hoymiles HMS-800W-2T</strong></td><td>Micro-inverter</td><td>800 VA, 2 MPPT, IP67</td><td>Built-in Wi-Fi</td><td>Simple kit, someone home by day</td></tr>
+<tr><td><strong>Anker SOLIX MI80</strong></td><td>Micro-inverter</td><td>600/800 W adjustable, 2 MPPT</td><td>Wi-Fi, Bluetooth</td><td>Consumer ecosystem</td></tr>
+<tr><td><strong>Anker SOLIX Solarbank 3 E2700 Pro</strong></td><td>Battery system</td><td>2.688 kWh, 4 MPPT, expandable</td><td>Wi-Fi, Bluetooth</td><td>Evening-heavy consumption</td></tr>
+<tr><td><strong>EcoFlow STREAM Ultra</strong></td><td>Battery system</td><td>1.92 kWh, 4 MPPT, IP65</td><td>Wi-Fi, Bluetooth</td><td>Small balcony, compact format</td></tr>
+<tr><td><strong>Zendure SolarFlow 800 Pro 2</strong></td><td>Battery system</td><td>1.92 kWh, expandable to 11.52 kWh</td><td>Wi-Fi, Bluetooth</td><td>Scalable storage</td></tr>
+</tbody>
+</table>
+
+<h2>How Much Does a Balcony Solar Panel Produce?</h2>
+<p>Output depends mainly on orientation, tilt, shade and region. As a rough guide, a kit of about 800 to 900 Wp facing due south at around 30° commonly produces <strong>700 to 900 kWh a year</strong> in northern France, Belgium, Germany or southern England, and more in southern Europe. The same kit mounted vertically on a railing produces noticeably less, often around a third less. An east or west orientation is still worthwhile, with output spread more evenly through the day.</p>
+<p>To estimate your own case, the European Commission’s free PVGIS tool calculates expected output from your address, orientation and tilt. Without a battery, the share you actually use yourself depends on when you’re home: high if someone is home during the day, lower otherwise. The saving is then simple to work out: the kWh you use yourself multiplied by your rate per kWh.</p>
+<p>Most production happens between April and September; in winter, short days and a low sun cut it sharply.</p>
+
+<h2>Mistakes to Avoid</h2>
+<ul>
+<li><strong>Plugging the kit into a power bar or extension cord:</strong> this risks overheating. Use a wall outlet, ideally on a dedicated circuit checked by a licensed electrician.</li>
+<li><strong>Skimping on mounting:</strong> wind puts heavy loads on a panel. Use suitable brackets and check the railing’s strength.</li>
+<li><strong>Forgetting to register:</strong> with Enedis in France, the Marktstammdatenregister in Germany, and the grid operator or utility elsewhere.</li>
+<li><strong>Oversizing the battery:</strong> a battery too large for your production sits half empty much of the year.</li>
+<li><strong>Ignoring shade:</strong> a tree or a neighbouring balcony shading the panel at midday can cut output sharply.</li>
+</ul>
+
+<h2>Installation and Safety</h2>
+<p>Panels connect to the inverter with waterproof MC4 connectors. Mount the inverter out of direct sun, behind a panel or under the railing. Before plugging in, have a licensed electrician confirm that the circuit is protected by a suitable breaker and ground-fault protection (a 30 mA RCD on European installations), and that it isn’t already loaded by power-hungry appliances. Never handle panel cables with open connectors in sunlight: they’re live as soon as light hits the panel. To cut your bills further, see our <a href="/ca/blog/guide-domotique-economie-energie-2026">smart home energy saving guide</a>.</p>
+
+<h2>Our Verdict</h2>
+<p>If someone is home during the day, a two-panel kit with an 800 VA micro-inverter such as the <strong>Hoymiles HMS-800W-2T</strong> offers the best balance of simplicity, reliability and savings. The <strong>Anker SOLIX MI80</strong> is a solid alternative if you prefer a consumer app. If you use most of your power in the evening, the <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong> is the most complete battery system; the <strong>EcoFlow STREAM Ultra</strong> is a better fit for small balconies, and the <strong>Zendure SolarFlow 800 Pro 2</strong> suits buyers who want to expand storage step by step. In every case, register the installation where required and have the connection checked.</p>`,
   },
   faq: [
     {
@@ -639,6 +898,9 @@ export const article: BlogArticle = {
         it: 'Il pannello solare da balcone è legale nel 2026?',
         nl: 'Is een balkonzonnepaneel in 2026 toegestaan?',
         pl: 'Czy elektrownia balkonowa jest legalna we Francji w 2026 roku?',
+        sv: 'Är balkongsolceller lagliga 2026?',
+        us: 'Are balcony solar panels allowed in 2026?',
+        ca: 'Are balcony solar panels legal in 2026?',
       },
       answer: {
         fr: 'Oui. L\'installation doit être déclarée gratuitement à Enedis (ou à votre gestionnaire de réseau local) via une convention d\'autoconsommation sans injection (CACSI). Un raccordement sur un circuit dédié vérifié par un électricien est recommandé, un panneau visible en façade peut nécessiter une déclaration préalable en mairie, et en copropriété l\'accord de l\'assemblée générale est généralement requis.',
@@ -648,6 +910,9 @@ export const article: BlogArticle = {
         it: 'Sì, con una procedura semplice. In Italia i piccoli impianti plug & play si comunicano al distributore tramite il Modello Unico; in Germania basta la registrazione nel Marktstammdatenregister e in Francia la dichiarazione a Enedis. In condominio verifica il regolamento e informa l\'amministratore; in affitto serve il consenso scritto del proprietario.',
         nl: 'Ja. In Nederland meld je de installatie bij je netbeheerder en sluit je aan op een vast stopcontact, nooit op een stekkerdoos. In een appartement heb je vaak toestemming van de VvE nodig, en als huurder schriftelijke toestemming van de verhuurder. In Duitsland volstaat registratie in het Marktstammdatenregister, in Frankrijk een melding bij Enedis.',
         pl: 'Tak. Instalację trzeba bezpłatnie zgłosić do Enedis (lub lokalnego operatora sieci), zawierając umowę o autokonsumpcji bez oddawania energii do sieci (CACSI). Zaleca się podłączenie do osobnego obwodu sprawdzonego przez elektryka. Panel widoczny na elewacji może wymagać wcześniejszego zgłoszenia w urzędzie gminy (mairie), a we wspólnocie mieszkaniowej zwykle potrzebna jest zgoda zebrania właścicieli.',
+        sv: 'I större delen av Europa, ja, efter en enkel formalitet. I Tyskland registrerar du anläggningen kostnadsfritt i Marktstammdatenregister (upp till 800 VA växelriktareffekt och 2 000 Wp paneler). I Frankrike anmäls den till nätbolaget Enedis via ett kostnadsfritt CACSI-avtal. I Nederländerna anmäler du den till elnätsbolaget, och Storbritannien öppnade 2026 för plug-in-kit som uppfyller kraven. Kontrollera alltid vad som gäller där du bor och be om godkännande från hyresvärden eller föreningen.',
+        us: 'In much of Europe, yes, with a simple formality. In Germany you register the system for free in the Marktstammdatenregister (up to 800 VA of inverter output and 2,000 W of panels). In France you declare it to the grid operator Enedis through a free CACSI agreement. In the Netherlands you report it to the grid operator, and the UK opened the way for compliant plug-in kits in 2026. In the US, rules for plug-in solar vary by state and utility: check with your utility before you connect a kit. Wherever you live, get consent from your landlord or condo association.',
+        ca: 'In most of Europe, yes, with a simple formality. In Germany you register the system for free in the Marktstammdatenregister (up to 800 VA of inverter output and 2,000 Wp of panels). In France you declare it to Enedis through a free CACSI agreement. In the Netherlands you report it to the grid operator. Great Britain opened the way for compliant plug-in kits in 2026. In Canada, rules for plug-in solar differ by province and utility, so check with your utility and your provincial electrical safety authority before connecting anything. Wherever you live, get consent from your landlord or condo board.',
       },
     },
     {
@@ -659,6 +924,9 @@ export const article: BlogArticle = {
         it: 'Qual è la potenza massima di un kit solare da balcone?',
         nl: 'Wat is het maximale vermogen van een balkonset?',
         pl: 'Jaka jest maksymalna moc elektrowni balkonowej?',
+        sv: 'Hur hög effekt får ett solcellskit för balkongen ha?',
+        us: 'What\'s the maximum power for a balcony solar kit?',
+        ca: 'What is the maximum power for a balcony solar kit?',
       },
       answer: {
         fr: 'La référence européenne est une sortie d\'onduleur de 800 W (ou 800 VA). En Allemagne, la loi fixe 800 VA d\'onduleur et jusqu\'à 2 000 Wc de panneaux. En France, il n\'existe pas de régime aussi détaillé : la plupart des kits vendus sont limités à 800 W, et la puissance doit rester compatible avec le circuit utilisé, à faire vérifier par un électricien.',
@@ -668,6 +936,9 @@ export const article: BlogArticle = {
         it: 'Il riferimento europeo è un\'uscita dell\'inverter di 800 W (o 800 VA). La Germania fissa per legge 800 VA di inverter e fino a 2.000 Wp di pannelli. In Italia verifica i limiti previsti per gli impianti plug & play con il distributore e fai controllare il circuito da un elettricista.',
         nl: 'De Europese referentie is een omvormervermogen van 800 W (of 800 VA). Duitsland legt wettelijk 800 VA omvormervermogen en maximaal 2.000 Wp aan panelen vast. In Nederland moet het vermogen passen bij de groep waarop je aansluit; laat dat bij twijfel door een installateur controleren.',
         pl: 'W Europie przyjętym standardem jest moc wyjściowa falownika 800 W (lub 800 VA). W Niemczech ustawa dopuszcza falownik o mocy 800 VA i panele o łącznej mocy do 2000 Wp. We Francji nie ma tak szczegółowych przepisów: większość sprzedawanych zestawów ma moc ograniczoną do 800 W, a moc musi być dostosowana do wykorzystywanego obwodu – warto zlecić to sprawdzenie elektrykowi.',
+        sv: 'Riktmärket i Europa är en uteffekt från växelriktaren på 800 W (eller 800 VA). I Tyskland anger lagen 800 VA växelriktareffekt och upp till 2 000 Wp paneler, och Storbritannien har en gräns på 800 VA för plug-in-kit. I Frankrike finns inga lika detaljerade regler: de flesta kit som säljs där är begränsade till 800 W, och effekten måste passa den grupp kitet ansluts till, något som en behörig elektriker bör kontrollera.',
+        us: 'The European benchmark is an inverter output of 800 W (or 800 VA). German law sets 800 VA of inverter output and up to 2,000 W of panels, and the UK uses an 800 VA limit for plug-in kits. In the US, there\'s no single limit: it depends on your state and utility. Panel peak power is often slightly higher than inverter output, which boosts production in the morning, in the evening and on cloudy days.',
+        ca: 'The European reference is an inverter output of 800 W (or 800 VA). Germany sets 800 VA of inverter output and up to 2,000 Wp of panels by law, and Great Britain uses an 800 VA limit for plug-in kits. Panel peak power is often slightly higher than inverter output, which improves production in the morning, evening and on cloudy days.',
       },
     },
     {
@@ -679,6 +950,9 @@ export const article: BlogArticle = {
         it: 'Quanta elettricità produce un pannello solare da balcone?',
         nl: 'Hoeveel stroom wekt een balkonzonnepaneel op?',
         pl: 'Ile prądu produkuje elektrownia balkonowa?',
+        sv: 'Hur mycket el producerar balkongsolceller?',
+        us: 'How much electricity does a balcony solar panel produce?',
+        ca: 'How much electricity does a balcony solar panel produce?',
       },
       answer: {
         fr: 'Un kit d\'environ 800 à 900 Wc orienté plein sud et incliné vers 30° produit couramment 700 à 900 kWh par an dans le nord de la France, et davantage dans le sud. Posé à la verticale sur une rambarde, il produit souvent un tiers de moins. L\'outil gratuit PVGIS de la Commission européenne donne une estimation pour votre adresse.',
@@ -688,6 +962,9 @@ export const article: BlogArticle = {
         it: 'Un kit di circa 800-900 Wp esposto a sud e inclinato di circa 30° produce spesso 700-900 kWh all\'anno nell\'Europa centrale, e sensibilmente di più in Italia. Montato in verticale sulla ringhiera produce spesso un terzo in meno. Lo strumento gratuito PVGIS della Commissione europea fornisce una stima per il tuo indirizzo.',
         nl: 'Een set van ongeveer 800 tot 900 Wp op het zuiden en onder zo\'n 30° levert in Nederland en België vaak 700 tot 850 kWh per jaar op. Verticaal aan een balustrade is dat vaak ongeveer een derde minder. De gratis PVGIS-tool van de Europese Commissie geeft een schatting voor jouw adres.',
         pl: 'Zestaw o mocy ok. 800–900 Wp, skierowany na południe i nachylony pod kątem ok. 30°, daje zwykle 700–900 kWh rocznie w północnej Francji, a na południu kraju więcej. Zamontowany pionowo na balustradzie produkuje często o jedną trzecią mniej. Szacunkowy uzysk dla swojego adresu sprawdzisz w bezpłatnym kalkulatorze PVGIS Komisji Europejskiej.',
+        sv: 'Ett kit på cirka 800–900 Wp, riktat rakt söderut med ungefär 30° lutning, ger ofta 700–900 kWh per år i norra och centrala Europa, och mer längre söderut. Monterat lodrätt på ett balkongräcke producerar det ofta en tredjedel mindre. EU-kommissionens kostnadsfria verktyg PVGIS ger en uppskattning för just din adress.',
+        us: 'A kit of about 800 to 900 W facing due south at a tilt of around 30° commonly produces 700 to 900 kWh a year in northern and central Europe, and more in sunnier regions. Mounted vertically on a railing, it often produces about a third less. The European Commission\'s free PVGIS tool gives an estimate for your address.',
+        ca: 'A kit of about 800 to 900 Wp facing due south at around 30° commonly produces 700 to 900 kWh a year in northern and central Europe, and more in the south. Mounted vertically on a railing, it often produces about a third less. The European Commission\'s free PVGIS tool gives an estimate for your address.',
       },
     },
     {
@@ -699,6 +976,9 @@ export const article: BlogArticle = {
         it: 'Serve una batteria con un pannello solare da balcone?',
         nl: 'Heb je een batterij nodig bij een balkonzonnepaneel?',
         pl: 'Czy do elektrowni balkonowej potrzebny jest akumulator?',
+        sv: 'Behöver man batteri till balkongsolceller?',
+        us: 'Do you need a battery with a balcony solar panel?',
+        ca: 'Do you need a battery with a balcony solar panel?',
       },
       answer: {
         fr: 'Non, ce n\'est pas indispensable. Si quelqu\'un est à la maison en journée, un kit sans batterie est le plus simple et le plus vite rentabilisé. Une batterie comme l\'Anker SOLIX Solarbank 3 E2700 Pro ou l\'EcoFlow STREAM Ultra devient intéressante si votre consommation se concentre le soir, car elle évite d\'envoyer gratuitement le surplus de midi sur le réseau.',
@@ -708,6 +988,9 @@ export const article: BlogArticle = {
         it: 'No, non è indispensabile. Se di giorno c\'è qualcuno in casa, un kit senza batteria è la soluzione più semplice e che si ripaga prima. Una batteria come l\'Anker SOLIX Solarbank 3 E2700 Pro o l\'EcoFlow STREAM Ultra conviene se consumi soprattutto la sera, perché evita di regalare alla rete l\'eccedenza di mezzogiorno.',
         nl: 'Niet per se. Ben je overdag thuis, dan is een set zonder batterij het eenvoudigst. Omdat de saldering op 1 januari 2027 stopt, wordt een batterij zoals de Anker SOLIX Solarbank 3 E2700 Pro of de EcoFlow STREAM Ultra wel interessanter als je vooral \'s avonds stroom verbruikt.',
         pl: 'Nie, nie jest niezbędny. Jeśli w ciągu dnia ktoś jest w domu, najprostszy i najszybciej się zwracający jest zestaw bez akumulatora. Akumulator, np. Anker SOLIX Solarbank 3 E2700 Pro lub EcoFlow STREAM Ultra, ma sens, gdy zużywasz prąd głównie wieczorem: dzięki niemu nie oddajesz za darmo do sieci nadwyżki z południa.',
+        sv: 'Nej, det är inget måste. Om någon är hemma på dagarna är ett kit utan batteri det enklaste och det som snabbast tjänar in sig. Ett batteri som Anker SOLIX Solarbank 3 E2700 Pro eller EcoFlow STREAM Ultra blir intressant om du använder mest el på kvällen, eftersom du då slipper skänka bort middagens överskott till elnätet.',
+        us: 'No, it\'s not essential. If someone\'s home during the day, a kit with no battery is the simplest option and pays for itself fastest. A battery such as the Anker SOLIX Solarbank 3 E2700 Pro or the EcoFlow STREAM Ultra makes sense if most of your consumption happens in the evening, because it keeps you from giving the midday surplus away to the grid.',
+        ca: 'No, it is not essential. If someone is home during the day, a kit without a battery is the simplest option and pays back fastest. A battery such as the Anker SOLIX Solarbank 3 E2700 Pro or the EcoFlow STREAM Ultra makes sense if your consumption is concentrated in the evening, because it avoids giving the midday surplus away to the grid.',
       },
     },
     {
@@ -719,6 +1002,9 @@ export const article: BlogArticle = {
         it: 'Si può collegare un pannello solare da balcone a una presa normale?',
         nl: 'Mag je een balkonzonnepaneel in een gewoon stopcontact steken?',
         pl: 'Czy elektrownię balkonową można podłączyć do zwykłego gniazdka?',
+        sv: 'Kan man ansluta balkongsolceller till ett vanligt vägguttag?',
+        us: 'Can you plug a balcony solar panel into a regular outlet?',
+        ca: 'Can you plug a balcony solar panel into a regular outlet?',
       },
       answer: {
         fr: 'Les kits sont conçus pour se raccorder par une prise, mais en France la norme NF C 15-100 encadre ce branchement : évitez absolument les multiprises et rallonges, et privilégiez une prise sur un circuit dédié, protégé par un disjoncteur adapté et un différentiel 30 mA. Faites vérifier l\'installation par un électricien qualifié avant la mise en service.',
@@ -728,6 +1014,9 @@ export const article: BlogArticle = {
         it: 'I kit sono pensati per il collegamento tramite presa, ma le regole variano. Non usare mai ciabatte o prolunghe e fai verificare da un elettricista che il circuito sia protetto da un magnetotermico adeguato e da un differenziale da 30 mA, idealmente come circuito dedicato.',
         nl: 'De sets zijn gemaakt om via een stekker aan te sluiten, maar gebruik altijd een vast stopcontact, nooit een stekkerdoos of verlengsnoer. Laat bij twijfel door een installateur controleren of de groep een passende automaat en een aardlekschakelaar van 30 mA heeft en niet al zwaar belast is.',
         pl: 'Zestawy są przystosowane do podłączenia przez wtyczkę, ale we Francji zasady takiego podłączenia określa norma NF C 15-100. Bezwzględnie unikaj listew zasilających i przedłużaczy, a najlepiej wybierz gniazdko na osobnym obwodzie, chronionym odpowiednim wyłącznikiem nadprądowym i wyłącznikiem różnicowoprądowym 30 mA. Przed uruchomieniem zleć sprawdzenie instalacji wykwalifikowanemu elektrykowi.',
+        sv: 'Kiten är gjorda för att anslutas med stickpropp, men reglerna skiljer sig mellan länder. I Tyskland tillåter standarden DIN VDE V 0126-95 en vanlig Schukokontakt under vissa villkor. I Frankrike reglerar installationsnormen NF C 15-100 anslutningen och rekommenderar en egen säkrad grupp. Använd aldrig grenuttag eller förlängningssladd, och låt en behörig elektriker kontrollera att gruppen har lämplig automatsäkring och en jordfelsbrytare på 30 mA innan du tar kitet i drift.',
+        us: 'Kits are designed to connect with a plug, but the rules vary. In Germany, the DIN VDE V 0126-95 standard allows a Schuko plug under certain conditions. In France, the NF C 15-100 wiring standard recommends a dedicated, protected circuit. Models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V. Wherever you live, never use a power strip or extension cord, and have the circuit checked by a licensed electrician.',
+        ca: 'Kits are designed to connect with a plug, but the rules vary. In Germany, the DIN VDE V 0126-95 standard allows a Schuko plug under certain conditions. In France, the NF C 15-100 wiring standard recommends a dedicated, protected circuit. In Canada, check with your utility and your provincial electrical safety authority first. Wherever you are, never use a power bar or extension cord, and have the circuit checked by a licensed electrician.',
       },
     },
     {
@@ -739,6 +1028,9 @@ export const article: BlogArticle = {
         it: 'Un pannello solare da balcone funziona in inverno?',
         nl: 'Werkt een balkonzonnepaneel in de winter?',
         pl: 'Czy elektrownia balkonowa działa zimą?',
+        sv: 'Fungerar balkongsolceller på vintern?',
+        us: 'Do balcony solar panels work in winter?',
+        ca: 'Do balcony solar panels work in winter?',
       },
       answer: {
         fr: 'Oui, mais la production baisse nettement à cause des journées courtes et du soleil bas : l\'essentiel de la production annuelle se fait d\'avril à septembre. Par temps couvert, les panneaux produisent encore grâce à la lumière diffuse, mais beaucoup moins qu\'en plein soleil. Une inclinaison plus forte, voire verticale, limite les pertes en hiver.',
@@ -748,6 +1040,9 @@ export const article: BlogArticle = {
         it: 'Sì, ma la produzione cala molto per le giornate corte e il sole basso: la maggior parte si concentra tra aprile e settembre. Con cielo coperto i pannelli producono ancora grazie alla luce diffusa, ma molto meno. Un\'inclinazione maggiore, anche verticale, limita le perdite invernali.',
         nl: 'Ja, maar de opbrengst daalt flink door korte dagen en een lage zon: het grootste deel van de jaarproductie valt tussen april en september. Bij bewolking wekken de panelen nog stroom op dankzij diffuus licht, maar veel minder dan in de zon. Een steilere of verticale opstelling beperkt de verliezen in de winter.',
         pl: 'Tak, ale produkuje wtedy wyraźnie mniej, bo dni są krótkie, a słońce nisko: większość rocznego uzysku przypada na okres od kwietnia do września. Przy zachmurzeniu panele nadal pracują dzięki światłu rozproszonemu, choć dają znacznie mniej energii niż w pełnym słońcu. Zimowe straty ogranicza większy kąt nachylenia, a nawet montaż pionowy.',
+        sv: 'Ja, men produktionen sjunker kraftigt på grund av korta dagar och låg sol: det mesta av årsproduktionen sker mellan april och september. När det är mulet producerar panelerna fortfarande el tack vare det diffusa ljuset, men betydligt mindre än i full sol. En brantare lutning, rentav lodrät montering, minskar förlusterna på vintern.',
+        us: 'Yes, but output drops sharply because of short days and a low sun: most annual production happens between April and September. On overcast days, panels still produce from diffuse light, but far less than in full sun. A steeper tilt, even vertical, limits winter losses.',
+        ca: 'Yes, but output drops sharply because of short days and a low sun: most annual production happens between April and September. On overcast days, panels still produce from diffuse light, but far less than in full sun. A steeper tilt, even vertical, limits winter losses.',
       },
     },
   ],

@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
         nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
         pl: 'Duża porcja chrupiących kawałków kurczaka na kratce frytkownicy beztłuszczowej',
+        sv: 'En stor sats krispiga kycklingbitar på gallret i en airfryer',
+        us: 'A large batch of crispy chicken pieces on an air fryer rack',
+        ca: 'A large batch of crispy chicken pieces on an air fryer rack',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Meal Prep Settimanale con la Friggitrice ad Aria: Pianificazione e Ricette Complete',
     nl: 'Wekelijkse Meal Prep met de Airfryer: Planning en Complete Recepten',
     pl: 'Meal prep na cały tydzień we frytkownicy beztłuszczowej: plan i przepisy',
+    sv: 'Matlådor i airfryer: veckoplan och kompletta recept',
+    us: 'Air Fryer Meal Prep for the Week: Complete Plan and Recipes',
+    ca: 'Air Fryer Meal Prep: Weekly Plan, Grocery List and Recipes',
   },
   excerpt: {
     fr: 'Planifiez votre semaine complète de repas à l\'airfryer : planning du lundi au vendredi, liste de courses, batch cooking le dimanche, conseils de conservation et instructions de réchauffage.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Pianifica la tua settimana completa di pasti con la friggitrice ad aria: pianificazione da lunedì a venerdì, lista della spesa, batch cooking domenicale, consigli di conservazione e istruzioni per riscaldare.',
     nl: 'Plan je complete week met airfryer-maaltijden: planning van maandag tot vrijdag, boodschappenlijst, batch cooking op zondag, bewaartips en opwarm-instructies.',
     pl: 'Zaplanuj posiłki z frytkownicy beztłuszczowej na cały tydzień: jadłospis od poniedziałku do piątku, lista zakupów, niedzielne gotowanie na zapas oraz wskazówki, jak przechowywać i odgrzewać dania.',
+    sv: 'Planera hela veckans mat i airfryern: matsedel för måndag till fredag, inköpslista, storkok på söndagen, tips om förvaring och hur du värmer upp maten.',
+    us: 'Plan a full week of air fryer meals: a Monday-through-Friday menu, one shopping list, Sunday batch cooking, storage tips and reheating times.',
+    ca: 'Plan a full week of air fryer meals: a Monday-to-Friday menu, one grocery list, a Sunday batch-cooking session, storage tips and reheating times.',
   },
   content: {
     fr: `<h2>Introduction</h2>
@@ -1197,6 +1206,460 @@ export const article: BlogArticle = {
 <li><strong>Oszczędność energii:</strong> przy małych porcjach frytkownica ogrzewa niewielką komorę i niemal nie wymaga nagrzewania wstępnego, więc zużywa mniej prądu niż duży piekarnik.</li>
 <li><strong>Mniej marnowania jedzenia:</strong> lista zakupów oparta na jadłospisie sprawia, że nie kupujesz produktów, których potem nie wykorzystasz.</li>
 </ul>`,
+    sv: `<h2>Inledning</h2>
+<p>Matlådor, eller meal prep som många säger, betyder att du lagar veckans mat i förväg. Det är ett av de enklaste sätten att äta nyttigt, spara tid i vardagen och slänga mindre mat. Airfryern passar perfekt för det: tillagningen går snabbt, det blir lite disk och maten är god även uppvärmd. Den här guiden ger dig en <strong>plan för måndag till fredag</strong> med ett storkok på söndagen, en enda inköpslista och alla tips om förvaring och uppvärmning.</p>
+<p>Målet är enkelt: lägg <strong>2 timmar på söndagen</strong> så har du det mesta av veckans mat klart. Varje dag behöver du bara sätta ihop, värma och äta, och frågan ”vad ska vi äta i kväll?” försvinner. Vill du få ut ännu mer av dina matlådor? Läs också vår guide till <a href="/sv/blog/cuisiner-healthy-airfryer">nyttig mat i airfryer</a>.</p>
+
+<h2>Veckans plan</h2>
+<table>
+<thead>
+<tr><th>Dag</th><th>Lunch</th><th>Middag</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Måndag</strong></td><td>Bowl med kryddig kyckling + ris + rostad broccoli</td><td>Kycklingwraps med paprika</td></tr>
+<tr><td><strong>Tisdag</strong></td><td>Teriyakilax + quinoa + sparris</td><td>Quinoasallad med rostade grönsaker</td></tr>
+<tr><td><strong>Onsdag</strong></td><td>Falafel + hummus + sallad</td><td>Pasta med rostade grönsaker och fetaost</td></tr>
+<tr><td><strong>Torsdag</strong></td><td>Kycklinglår + sötpotatis + haricots verts</td><td>Soppa på rostade grönsaker</td></tr>
+<tr><td><strong>Fredag</strong></td><td>Köttbullar av nötfärs + ris + rostad zucchini</td><td>Tortillapizza i airfryer</td></tr>
+</tbody>
+</table>
+
+<h2>Inköpslista (för 1 person, dubbla mängden för två)</h2>
+<h3>Protein</h3>
+<ul>
+<li>600 g kycklingbröstfilé</li>
+<li>400 g kycklinglår (med skinn)</li>
+<li>300 g laxfilé</li>
+<li>250 g mager nötfärs (5 % fett)</li>
+<li>1 burk kikärter (400 g)</li>
+</ul>
+<h3>Kolhydrater</h3>
+<ul>
+<li>300 g basmatiris</li>
+<li>200 g quinoa</li>
+<li>250 g fullkornspasta</li>
+<li>2 medelstora sötpotatisar (ca 400 g)</li>
+<li>4 tortillabröd av fullkorn</li>
+</ul>
+<h3>Grönsaker</h3>
+<ul>
+<li>1 broccoli (300 g), 1 knippe grön sparris (300 g), 2 medelstora zucchini</li>
+<li>3 paprikor i olika färger, 300 g haricots verts</li>
+<li>1 rödlök, 1 vitlök, 1 citron</li>
+<li>Sallad (ruccola eller blandad sallad), 2 tomater, 1 gurka</li>
+</ul>
+<h3>Skafferi</h3>
+<ul>
+<li>Olivolja, soja (150 ml), honung, teriyakisås (eller soja, mirin och ingefära)</li>
+<li>Hummus (200 g), fetaost (100 g), tomatsås (200 ml), mozzarella (125 g)</li>
+<li>Kryddor: rökt paprikapulver, spiskummin, gurkmeja, vitlökspulver, herbes de Provence, curry, salt och peppar</li>
+</ul>
+
+<h2>Storkok på söndagen (2 timmar)</h2>
+
+<h3>Steg 1: förberedelser (30 minuter)</h3>
+<ol>
+<li>Sätt på <strong>riset</strong> (300 g): koka upp med 450 ml vatten, lägg på lock och låt småkoka i 12 minuter.</li>
+<li>Sätt på <strong>quinoan</strong> (200 g): koka upp med 400 ml vatten och låt småkoka i 15 minuter.</li>
+<li>Gör marinaderna medan det kokar: <strong>kryddig kyckling</strong> (olivolja, rökt paprikapulver, spiskummin, vitlökspulver) och <strong>teriyakilax</strong> (soja, honung, ingefära, vitlök).</li>
+<li>Förbered alla grönsaker: dela broccolin i buketter på 3 cm, ansa sparrisen och haricots verts, skär zucchinin i 1 cm tjocka skivor, paprikan i 2 cm breda strimlor och sötpotatisen i tärningar på 2 cm.</li>
+<li>Förbered proteinet: skär kycklingbröstet i strimlor och lägg 300 g i den kryddiga marinaden, lägg laxen i teriyakimarinaden, krydda kycklinglåren och forma 8 köttbullar (30 g styck) med spiskummin och vitlök.</li>
+</ol>
+
+<h3>Steg 2: tillagning i airfryern (60 minuter)</h3>
+<p><strong>Omgång 1 – kryddig kyckling:</strong> <strong>190 °C i 12–14 minuter</strong>, vänd halvvägs. Innertemperaturen ska vara <strong>74 °C</strong>.</p>
+<p><strong>Omgång 2 – kycklinglår + sötpotatis:</strong> Låren på <strong>180 °C i 15 min, sedan 200 °C i 5–8 min</strong>. Sötpotatisen på <strong>190 °C i 15–18 min</strong>, gärna i den andra korgen om din airfryer har två.</p>
+<p><strong>Omgång 3 – teriyakilax:</strong> <strong>180 °C i 10–12 minuter</strong>, med skinnsidan nedåt.</p>
+<p><strong>Omgång 4 – köttbullar:</strong> <strong>190 °C i 10–12 minuter</strong>, vänd halvvägs. Innertemperaturen ska vara <strong>72 °C</strong>.</p>
+<p><strong>Omgång 5 – blandade grönsaker:</strong> Rosta dem i omgångar enligt vår <a href="/sv/blog/recettes-legumes-grilles-airfryer">guide till rostade grönsaker</a>: broccoli 190 °C/8–10 min, paprika 190 °C/10–12 min, zucchini 190 °C/10–12 min, sparris 200 °C/6–8 min, haricots verts 200 °C/8–10 min.</p>
+
+<h3>Steg 3: falafel och fördelning i lådor (30 minuter)</h3>
+<p><strong>Hemgjord falafel:</strong> Låt kikärterna rinna av och mixa dem med lök, vitlök, spiskummin, koriander och mjöl. Smeten ska vara grynig, inte slät. Forma <strong>12 bollar</strong> och platta till dem lätt. Tillaga på <strong>190 °C i 12–15 minuter</strong>.</p>
+<p><strong>Fördelning i lådor:</strong> Bred ut maten i små portioner och låt den svalna i högst 30 minuter i rumstemperatur, ställ den sedan direkt i kylen. Fördela den i matlådor av glas, dag för dag. Ha såserna i egna små burkar. Märk varje låda med dag och måltid.</p>
+
+<h2>Så förvarar du matlådorna</h2>
+<ul>
+<li><strong>I kylen:</strong> kyckling, lax och köttbullar håller <strong>3–4 dagar</strong>.</li>
+<li><strong>Rostade grönsaker</strong> håller <strong>3–4 dagar</strong> i kylen.</li>
+<li><strong>Kokt ris</strong> är det känsligaste livsmedlet (sporer av <em>Bacillus cereus</em>): kyl ner det inom en timme, förvara det i kylen och ät det helst inom 24 timmar, annars fryser du in det i portioner. <strong>Quinoa</strong> håller 3 dagar.</li>
+<li><strong>Falafel</strong> håller <strong>4 dagar</strong> i kylen eller <strong>1 månad</strong> i frysen.</li>
+<li>Välj <strong>matlådor av glas</strong> framför plast: maten håller sig bättre och uppvärmningen blir sundare.</li>
+<li><strong>Ställ in maten i kylen inom 2 timmar efter tillagningen</strong>: fördela den i grunda portioner så att den svalnar snabbt, och låt den aldrig stå framme längre än så i rumstemperatur.</li>
+<li><strong>Torsdag och fredag</strong>: frys in portionerna för de dagarna redan på söndagen (kycklinglår, köttbullar, ris och kycklingen till pizzan) och låt dem tina i kylen kvällen innan.</li>
+<li><strong>Värm bara upp maten en gång</strong>, tills den är rykande het rakt igenom (74 °C).</li>
+</ul>
+
+<h2>Så värmer du maten i airfryern</h2>
+<table>
+<thead>
+<tr><th>Livsmedel</th><th>Temperatur</th><th>Tid</th><th>Tips</th></tr>
+</thead>
+<tbody>
+<tr><td>Kyckling (strimlor/lår)</td><td>170 °C</td><td>4–6 min</td><td>Spraya på lite vatten</td></tr>
+<tr><td>Lax</td><td>160 °C</td><td>3–5 min</td><td>Värm inte för länge, den blir lätt torr</td></tr>
+<tr><td>Köttbullar</td><td>180 °C</td><td>4–5 min</td><td>Vänd halvvägs</td></tr>
+<tr><td>Falafel</td><td>180 °C</td><td>4–5 min</td><td>Blir krispiga igen</td></tr>
+<tr><td>Rostade grönsaker</td><td>180 °C</td><td>3–4 min</td><td>Kort tid så att de inte blir för mjuka</td></tr>
+<tr><td>Sötpotatis</td><td>180 °C</td><td>4–5 min</td><td>Ringla över lite olja</td></tr>
+<tr><td>Tortillapizza</td><td>190 °C</td><td>3–4 min</td><td>Blir krispig igen</td></tr>
+</tbody>
+</table>
+<p>Tiderna är riktvärden för portioner direkt från kylen: maten ska vara rykande het i mitten (74 °C på termometern). Lägg till några minuter vid behov, särskilt för tinade portioner.</p>
+
+<h2>Snabba middagsrecept</h2>
+<h3>Måndag – kycklingwraps</h3>
+<p>Värm kycklingen och paprikan på <strong>170 °C i 4 min</strong>. Värm tortillabröden på <strong>160 °C i 1 min</strong>. Fyll med kyckling, paprika och sallad, gärna med en klick yoghurtsås med citron, och servera.</p>
+<h3>Tisdag – quinoasallad</h3>
+<p>Blanda den kalla quinoan med kalla rostade grönsaker, färsk tomat, gurka och smulad fetaost. Smaka av med olivolja och citron.</p>
+<h3>Onsdag – pasta med rostade grönsaker</h3>
+<p>Koka 125 g pasta (10 min). Värm grönsakerna på <strong>180 °C i 3 min</strong>. Blanda allt med fetaost och olivolja.</p>
+<h3>Torsdag – soppa på rostade grönsaker</h3>
+<p>Mixa resten av de rostade grönsakerna med 400 ml buljong. Värm soppan på spisen. Servera med krutonger från airfryern (<strong>200 °C, 3 min</strong>).</p>
+<h3>Fredag – tortillapizza</h3>
+<p>Bred tomatsås på tortillan och lägg på mozzarella, resten av paprikan och strimlad kyckling. Tillaga på <strong>190 °C i 5–7 min</strong>, tills tortillan är krispig och osten har smält.</p>
+
+<h2>Varianter</h2>
+<ul>
+<li><strong>Vegetariskt:</strong> byt ut köttet mot tofu (190 °C i 12–15 min efter en marinad på soja och sesam), rostade kikärter eller tempeh.</li>
+<li><strong>För dig som tränar:</strong> öka proteinportionerna med 50 % och lägg till mer sötpotatis.</li>
+<li><strong>Billigare variant:</strong> byt laxen mot kummel eller torsk (180 °C i 10–12 min).</li>
+<li><strong>Vecka 2:</strong> variera med våra <a href="/sv/blog/recettes-poulet-croustillant-airfryer">6 recept på krispig kyckling</a> och <a href="/sv/blog/recettes-frites-parfaites-airfryer">7 varianter av pommes frites</a>.</li>
+</ul>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>För lång tid i kylen</strong> – efter 3–4 dagar blir både kvaliteten och livsmedelssäkerheten sämre. Frys in portionerna för slutet av veckan.</li>
+<li><strong>Blöta grönsaker</strong> – torka grönsakerna innan de åker in i airfryern, och läs mer i vår guide om <a href="/sv/blog/erreurs-courantes-airfryer">vanliga misstag med airfryern</a>.</li>
+<li><strong>Uppvärmning i mikron</strong> – airfryern behåller krispigheten, mikron tar död på den.</li>
+<li><strong>Såsen i samma låda som maten</strong> – blöta såser gör panerad eller rostad mat sladdrig. Håll dem alltid för sig.</li>
+</ul>
+
+<h2>Slutsats</h2>
+<p>Matlådor och airfryer är en vinnande kombination för den som vill äta nyttigt, gott och billigt hela veckan. Med 2 timmar i köket på söndagen sparar du in <strong>flera timmars matlagning under veckan</strong>. Mer inspiration hittar du bland våra <a href="/sv/blog/recettes-legumes-grilles-airfryer">10 recept på rostade grönsaker</a> och i vår <a href="/sv/blog/cuisiner-healthy-airfryer">guide till nyttig mat i airfryer</a>.</p>
+
+<h2>Förvaringsguide: hållbarhet och uppvärmning</h2>
+<table>
+<thead><tr><th>Färdiglagad mat</th><th>Kylskåp (max)</th><th>Frys</th><th>Uppvärmning i airfryer</th><th>Temp/tid</th></tr></thead>
+<tbody>
+<tr><td>Tillagad kycklingbröstfilé</td><td>4 dagar</td><td>3 månader</td><td>Ja – fukta lätt först</td><td>160 °C / 6–8 min</td></tr>
+<tr><td>Kycklinglår/-klubbor</td><td>4 dagar</td><td>3 månader</td><td>Ja – mycket bra resultat</td><td>180 °C / 8–10 min</td></tr>
+<tr><td>Rostade grönsaker</td><td>4 dagar</td><td>2 månader</td><td>Ja – blir krispiga igen</td><td>180 °C / 4–5 min</td></tr>
+<tr><td>Hemgjorda pommes frites</td><td>3 dagar</td><td>2 månader</td><td>Ja – nästan perfekt resultat</td><td>180 °C / 3–5 min</td></tr>
+<tr><td>Lax/fisk</td><td>3 dagar</td><td>2 månader</td><td>Ja – täck med folie</td><td>160 °C / 5–7 min</td></tr>
+<tr><td>Tofu/vegetabiliskt protein</td><td>4 dagar</td><td>3 månader</td><td>Ja – mycket bra resultat</td><td>180 °C / 5–6 min</td></tr>
+</tbody>
+</table>
+
+<h2>Det här vinner du på matlådor från airfryern</h2>
+<ul>
+<li><strong>Tid:</strong> ett pass på 2 timmar på söndagen ersätter det mesta av den dagliga matlagningen; på vardagarna värmer du bara och sätter ihop.</li>
+<li><strong>Pengar:</strong> hemlagat blir oftast mycket billigare än hemkörd mat eller färdigrätter, särskilt när du köper större förpackningar.</li>
+<li><strong>Energi:</strong> vid små mängder värmer airfryern upp ett mindre utrymme och behöver knappt förvärmas, så den drar mindre el än en vanlig stor ugn.</li>
+<li><strong>Mindre matsvinn:</strong> med en inköpslista som följer planen köper du inte mat som aldrig blir lagad.</li>
+</ul>
+`,
+    us: `<h2>Why meal prep with an air fryer</h2>
+<p>Meal prep — cooking your meals ahead of time — is the best way to eat healthy, save time during the week and cut food waste. The air fryer is the perfect tool for it: fast cooking, minimal cleanup and great results even after reheating. This complete guide gives you a <strong>Monday-through-Friday plan</strong> built around one Sunday batch cooking session, a single shopping list, and all the storage and reheating tips you need.</p>
+<p>The goal is simple: put in <strong>2 hours on Sunday</strong> to prep most of your meals for the week. Each day, all that’s left is to assemble, reheat and eat. For best results, see our guide to <a href="/us/blog/cuisiner-healthy-airfryer">healthy air fryer cooking</a>.</p>
+
+<h2>Weekly plan</h2>
+<table>
+<thead>
+<tr><th>Day</th><th>Lunch</th><th>Dinner</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Monday</strong></td><td>Spiced chicken bowl + rice + roasted broccoli</td><td>Chicken wraps with bell peppers</td></tr>
+<tr><td><strong>Tuesday</strong></td><td>Teriyaki salmon + quinoa + asparagus</td><td>Quinoa salad with roasted vegetables</td></tr>
+<tr><td><strong>Wednesday</strong></td><td>Falafel + hummus + salad</td><td>Pasta with roasted vegetables and feta</td></tr>
+<tr><td><strong>Thursday</strong></td><td>Chicken thighs + sweet potatoes + green beans</td><td>Roasted vegetable soup</td></tr>
+<tr><td><strong>Friday</strong></td><td>Beef meatballs + rice + roasted zucchini</td><td>Air fryer tortilla pizza</td></tr>
+</tbody>
+</table>
+
+<h2>Shopping list (for one person; double it for two)</h2>
+<h3>Proteins</h3>
+<ul>
+<li>1.3 lb (600 g) boneless chicken breast</li>
+<li>14 oz (400 g) skin-on chicken thighs</li>
+<li>10.5 oz (300 g) salmon fillet</li>
+<li>9 oz (250 g) lean ground beef (95% lean)</li>
+<li>1 can chickpeas (14 oz, 400 g)</li>
+</ul>
+<h3>Carbs</h3>
+<ul>
+<li>10.5 oz (300 g) basmati rice</li>
+<li>7 oz (200 g) quinoa</li>
+<li>9 oz (250 g) whole wheat pasta</li>
+<li>2 medium sweet potatoes (about 14 oz, 400 g)</li>
+<li>4 whole wheat tortillas</li>
+</ul>
+<h3>Vegetables</h3>
+<ul>
+<li>1 head broccoli (10.5 oz, 300 g), 1 bunch asparagus (10.5 oz, 300 g), 2 medium zucchini</li>
+<li>3 bell peppers (mixed colors), 10.5 oz (300 g) green beans</li>
+<li>1 red onion, 1 head garlic, 1 lemon</li>
+<li>Salad greens (arugula or a spring mix), 2 tomatoes, 1 cucumber</li>
+</ul>
+<h3>Pantry</h3>
+<ul>
+<li>Olive oil, soy sauce (⅔ cup, 150 ml), honey, teriyaki sauce</li>
+<li>Hummus (7 oz, 200 g), feta (3.5 oz, 100 g), tomato sauce (a scant cup, 200 ml), mozzarella (4.5 oz, 125 g)</li>
+<li>Spices: smoked paprika, cumin, turmeric, garlic powder, herbes de Provence, curry powder</li>
+</ul>
+
+<h2>Sunday batch cooking session (2 hours)</h2>
+
+<h3>Phase 1: Prep (30 minutes)</h3>
+<ol>
+<li>Start the <strong>rice</strong> (10.5 oz, 300 g): bring to a boil with 1¾ cups plus 2 tablespoons (450 ml) water, cover and simmer for 12 minutes.</li>
+<li>Start the <strong>quinoa</strong> (7 oz, 200 g): bring to a boil with 1⅔ cups (400 ml) water and simmer for 15 minutes.</li>
+<li>Make the marinades: <strong>Spiced chicken</strong> (olive oil, smoked paprika, cumin, garlic powder). <strong>Teriyaki salmon</strong> (soy sauce, honey, ginger, garlic).</li>
+<li>Cut all the vegetables: broccoli (1¼-inch/3 cm florets), asparagus (ends trimmed), zucchini (½-inch/1 cm rounds), peppers (¾-inch/2 cm strips), green beans (trimmed), sweet potatoes (¾-inch/2 cm cubes).</li>
+<li>Prep the proteins: cut the chicken breast into strips and put half (10.5 oz, 300 g) in the spiced marinade, put the salmon in the teriyaki, season the thighs, and shape 8 meatballs (about 1 oz/30 g each) with cumin and garlic.</li>
+</ol>
+
+<h3>Phase 2: Air fryer cooking (60 minutes)</h3>
+<p><strong>Batch 1 — Spiced chicken:</strong> <strong>375°F (190°C) for 12 to 14 minutes</strong>, flipping halfway. Internal temperature: <strong>165°F (74°C)</strong>.</p>
+<p><strong>Batch 2 — Chicken thighs + sweet potatoes:</strong> thighs at <strong>350°F (180°C) for 15 minutes, then 400°F (200°C) for 5 to 8 minutes</strong>. Sweet potatoes at <strong>375°F (190°C) for 15 to 18 minutes</strong>.</p>
+<p><strong>Batch 3 — Teriyaki salmon:</strong> <strong>350°F (180°C) for 10 to 12 minutes</strong>, skin side down.</p>
+<p><strong>Batch 4 — Beef meatballs:</strong> <strong>375°F (190°C) for 10 to 12 minutes</strong>, flipping halfway. Internal temperature: <strong>162°F (72°C)</strong>.</p>
+<p><strong>Batch 5 — Mixed vegetables:</strong> cook them in batches, following our <a href="/us/blog/recettes-legumes-grilles-airfryer">roasted vegetable guide</a>: broccoli 375°F (190°C), 8 to 10 minutes; peppers 375°F (190°C), 10 to 12 minutes; zucchini 375°F (190°C), 10 to 12 minutes; asparagus 400°F (200°C), 6 to 8 minutes; green beans 400°F (200°C), 8 to 10 minutes.</p>
+
+<h3>Phase 3: Falafel + assembly (30 minutes)</h3>
+<p><strong>Homemade falafel:</strong> drain the chickpeas and pulse them with onion, garlic, cumin, ground coriander and flour. Shape <strong>12 balls</strong> and flatten them slightly. Cook at <strong>375°F (190°C) for 12 to 15 minutes</strong>.</p>
+<p><strong>Assembly:</strong> spread the food out in small portions and let it cool for no more than 30 minutes at room temperature, then refrigerate it right away. Divide everything into glass containers by day. Keep sauces separate. Label each container.</p>
+
+<h2>Storage tips</h2>
+<ul>
+<li><strong>Fridge:</strong> chicken, salmon and meatballs keep <strong>3 to 4 days</strong>.</li>
+<li><strong>Roasted vegetables</strong> keep <strong>3 to 4 days</strong> in the fridge.</li>
+<li><strong>Cooked rice</strong> is the riskiest food here (<em>Bacillus cereus</em> spores): cool it within an hour, keep it in the fridge and ideally eat it within 24 hours; otherwise, freeze it in portions. <strong>Quinoa</strong> keeps 3 days.</li>
+<li><strong>Falafel</strong> keeps <strong>4 days</strong> in the fridge or <strong>1 month</strong> in the freezer.</li>
+<li>Choose <strong>glass containers</strong> over plastic: food keeps better and reheats more safely.</li>
+<li><strong>Refrigerate within 2 hours of cooking</strong>: split food into shallow portions so it cools quickly, and never leave it out at room temperature any longer than that.</li>
+<li><strong>Thursday and Friday:</strong> freeze the portions for those days on Sunday (chicken thighs, meatballs, rice, chicken for the pizza) and thaw them in the fridge the night before.</li>
+<li><strong>Reheat only once</strong>, until the food is steaming hot all the way through (165°F/74°C).</li>
+</ul>
+
+<h2>How to reheat meal prep in the air fryer</h2>
+<table>
+<thead>
+<tr><th>Food</th><th>Temperature</th><th>Time</th><th>Tip</th></tr>
+</thead>
+<tbody>
+<tr><td>Chicken (strips/thighs)</td><td>340°F (170°C)</td><td>4–6 min</td><td>Mist lightly with water</td></tr>
+<tr><td>Salmon</td><td>320°F (160°C)</td><td>3–5 min</td><td>Don’t overdo it; it dries out fast</td></tr>
+<tr><td>Beef meatballs</td><td>350°F (180°C)</td><td>4–5 min</td><td>Flip halfway</td></tr>
+<tr><td>Falafel</td><td>350°F (180°C)</td><td>4–5 min</td><td>Crisps back up</td></tr>
+<tr><td>Roasted vegetables</td><td>350°F (180°C)</td><td>3–4 min</td><td>Keep it short to avoid overcooking</td></tr>
+<tr><td>Sweet potatoes</td><td>350°F (180°C)</td><td>4–5 min</td><td>Add a touch of oil</td></tr>
+<tr><td>Tortilla pizza</td><td>375°F (190°C)</td><td>3–4 min</td><td>Gets crispy again</td></tr>
+</tbody>
+</table>
+<p>These times are a starting point for portions straight from the fridge: food must be steaming hot in the center (165°F/74°C on a thermometer). Add a few minutes if needed, especially for thawed portions.</p>
+
+<h2>Quick weeknight dinners</h2>
+<h3>Monday — chicken wraps</h3>
+<p>Reheat the chicken and peppers at <strong>340°F (170°C) for 4 minutes</strong>. Warm the tortillas at <strong>320°F (160°C) for 1 minute</strong>. Fill and serve.</p>
+<h3>Tuesday — quinoa salad</h3>
+<p>Toss the cold quinoa with the cold roasted veggies, fresh tomato, cucumber and crumbled feta. Dress with olive oil and lemon juice.</p>
+<h3>Wednesday — roasted veggie pasta</h3>
+<p>Cook 4.5 oz (125 g) pasta (10 minutes). Reheat the veggies at <strong>350°F (180°C) for 3 minutes</strong>. Toss everything together with feta and olive oil.</p>
+<h3>Thursday — roasted veggie soup</h3>
+<p>Blend the leftover roasted veggies with 1⅔ cups (400 ml) broth. Heat it on the stove. Serve with air fryer croutons (<strong>400°F/200°C, 3 minutes</strong>).</p>
+<h3>Friday — tortilla pizza</h3>
+<p>Top a tortilla with tomato sauce, mozzarella, leftover peppers and shredded chicken. Cook at <strong>375°F (190°C) for 5 to 7 minutes</strong>.</p>
+
+<h2>Variations</h2>
+<ul>
+<li><strong>Vegetarian:</strong> swap the meat for tofu (375°F/190°C for 12 to 15 minutes, after marinating in a soy-sesame sauce), roasted chickpeas or tempeh.</li>
+<li><strong>Athletes:</strong> increase protein portions by 50% and add extra sweet potatoes.</li>
+<li><strong>Budget:</strong> swap the salmon for cod or hake (350°F/180°C, 10 to 12 minutes).</li>
+<li><strong>Week 2:</strong> rotate in our <a href="/us/blog/recettes-poulet-croustillant-airfryer">6 crispy chicken recipes</a> and <a href="/us/blog/recettes-frites-parfaites-airfryer">7 ways to make fries</a>.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Keeping food in the fridge too long</strong> — after 3 to 4 days, quality and food safety go downhill. Freeze the end-of-week portions.</li>
+<li><strong>Forgetting to dry your vegetables</strong> — see our guide to <a href="/us/blog/erreurs-courantes-airfryer">common air fryer mistakes</a>.</li>
+<li><strong>Reheating in the microwave</strong> — the air fryer keeps food crispy; the microwave turns it soggy.</li>
+<li><strong>Storing sauces with the food</strong> — wet sauces make breaded or roasted food soggy. Always pack them separately.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>Air fryer meal prep is a winning formula for healthy, affordable, tasty eating all week long. Spend 2 hours on Sunday and you free up <strong>several hours of cooking during the week</strong>. For more ideas, explore our <a href="/us/blog/recettes-legumes-grilles-airfryer">10 roasted vegetable recipes</a> and our <a href="/us/blog/cuisiner-healthy-airfryer">healthy cooking guide</a>.</p>
+
+<h2>Storage guide: how long food keeps and how to reheat it</h2>
+<table>
+<thead><tr><th>Prepared food</th><th>Fridge (max)</th><th>Freezer</th><th>Air fryer reheat</th><th>Temp/time</th></tr></thead>
+<tbody>
+<tr><td>Cooked chicken breasts</td><td>4 days</td><td>3 months</td><td>Yes — mist lightly first</td><td>320°F (160°C) / 6–8 min</td></tr>
+<tr><td>Thighs/drumsticks</td><td>4 days</td><td>3 months</td><td>Yes — excellent results</td><td>350°F (180°C) / 8–10 min</td></tr>
+<tr><td>Roasted vegetables</td><td>4 days</td><td>2 months</td><td>Yes — crisps them back up</td><td>350°F (180°C) / 4–5 min</td></tr>
+<tr><td>Homemade fries</td><td>3 days</td><td>2 months</td><td>Yes — almost like fresh</td><td>350°F (180°C) / 3–5 min</td></tr>
+<tr><td>Salmon/fish</td><td>3 days</td><td>2 months</td><td>Yes — cover with foil</td><td>320°F (160°C) / 5–7 min</td></tr>
+<tr><td>Tofu/plant protein</td><td>4 days</td><td>3 months</td><td>Yes — excellent results</td><td>350°F (180°C) / 5–6 min</td></tr>
+</tbody>
+</table>
+
+<h2>What air fryer meal prep saves you</h2>
+<ul>
+<li><strong>Time:</strong> one 2-hour session on Sunday replaces most of your daily cooking; on weekdays you just reheat and assemble.</li>
+<li><strong>Money:</strong> cooking at home is usually much cheaper than delivery or takeout, especially when you buy in bulk.</li>
+<li><strong>Energy:</strong> for small batches, the air fryer heats a smaller space and barely needs preheating, so it uses less energy than a full-size oven.</li>
+<li><strong>Less waste:</strong> a shopping list built around the plan keeps you from buying food that never gets cooked.</li>
+</ul>`,
+    ca: `<h2>Introduction</h2>
+<p>Meal prep — preparing your meals in advance — is the ideal strategy for eating healthily, saving time during the week and reducing food waste. The air fryer is the perfect tool for this approach: quick cooking, few dishes to wash and tasty results even after reheating. This complete guide offers a <strong>Monday-to-Friday plan</strong> with a Sunday batch-cooking session, one grocery list and all the storage and reheating tips you need.</p>
+<p>The goal is simple: invest <strong>2 hours on Sunday</strong> to prepare most of your weekly meals. Each day, you only need to assemble, reheat and eat. For more ideas, see our guide to <a href="/ca/blog/cuisiner-healthy-airfryer">healthy air fryer cooking</a>.</p>
+
+<h2>Weekly Plan</h2>
+<table>
+<thead>
+<tr><th>Day</th><th>Lunch</th><th>Dinner</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Monday</strong></td><td>Spiced chicken bowl + rice + roasted broccoli</td><td>Chicken wraps with peppers</td></tr>
+<tr><td><strong>Tuesday</strong></td><td>Teriyaki salmon + quinoa + asparagus</td><td>Quinoa salad with roasted vegetables</td></tr>
+<tr><td><strong>Wednesday</strong></td><td>Falafel + hummus + salad</td><td>Pasta with roasted vegetables and feta</td></tr>
+<tr><td><strong>Thursday</strong></td><td>Chicken thighs + sweet potatoes + green beans</td><td>Roasted vegetable soup</td></tr>
+<tr><td><strong>Friday</strong></td><td>Beef meatballs + rice + roasted zucchini</td><td>Air fryer tortilla pizza</td></tr>
+</tbody>
+</table>
+
+<h2>Grocery List (for 1 person, x2 for a couple)</h2>
+<h3>Proteins</h3>
+<ul>
+<li>600 g (about 1⅓ lb) boneless, skinless chicken breasts</li>
+<li>400 g (just under 1 lb) skin-on chicken thighs</li>
+<li>300 g salmon fillet</li>
+<li>250 g extra-lean ground beef (5% fat)</li>
+<li>1 can chickpeas (400 g)</li>
+</ul>
+<h3>Carbohydrates</h3>
+<ul>
+<li>300 g basmati rice</li>
+<li>200 g quinoa</li>
+<li>250 g whole wheat pasta</li>
+<li>2 medium sweet potatoes (about 400 g, just under 1 lb)</li>
+<li>4 whole wheat tortillas</li>
+</ul>
+<h3>Vegetables</h3>
+<ul>
+<li>1 head of broccoli (300 g), 1 bunch asparagus (300 g), 2 medium zucchini</li>
+<li>3 bell peppers (mixed colours), 300 g green beans</li>
+<li>1 red onion, 1 head of garlic, 1 lemon</li>
+<li>Salad greens (arugula or spring mix), 2 tomatoes, 1 cucumber</li>
+</ul>
+<h3>Pantry</h3>
+<ul>
+<li>Olive oil, soy sauce (150 mL), honey, teriyaki sauce</li>
+<li>Hummus (200 g), feta (100 g), tomato sauce (200 mL), mozzarella (125 g)</li>
+<li>Spices: smoked paprika, cumin, turmeric, garlic powder, herbes de Provence, curry powder</li>
+</ul>
+
+<h2>Sunday Batch Cooking Session (2 Hours)</h2>
+
+<h3>Phase 1: Preparation (30 minutes)</h3>
+<ol>
+<li>Start the <strong>rice</strong> (300 g) — bring it to a boil with 450 mL (about 1¾ cups) of water, cover and simmer for 12 minutes.</li>
+<li>Start the <strong>quinoa</strong> (200 g) — bring it to a boil with 400 mL (about 1⅔ cups) of water, then simmer for 15 minutes.</li>
+<li>Make the marinades: <strong>Spiced chicken</strong> (olive oil, smoked paprika, cumin, garlic powder). <strong>Teriyaki salmon</strong> (soy sauce, honey, ginger, garlic).</li>
+<li>Cut all the vegetables: broccoli into 3 cm (1¼ in.) florets, zucchini into 1 cm (½ in.) rounds, peppers into 2 cm (¾ in.) strips and sweet potatoes into 2 cm (¾ in.) cubes; trim the asparagus and green beans.</li>
+<li>Prepare the proteins: put 300 g of chicken strips in the spiced marinade and the salmon in the teriyaki marinade, season the thighs, and shape 8 meatballs (30 g each) with cumin and garlic.</li>
+</ol>
+
+<h3>Phase 2: Air Fryer Cooking (60 minutes)</h3>
+<p><strong>Batch 1 — Spiced chicken:</strong> <strong>190°C (375°F) for 12 to 14 minutes</strong>, flipping halfway. Internal temperature: <strong>74°C (165°F)</strong>.</p>
+<p><strong>Batch 2 — Chicken thighs + sweet potatoes:</strong> Thighs at <strong>180°C (350°F) for 15 min, then 200°C (400°F) for 5 to 8 min</strong>. Sweet potatoes at <strong>190°C (375°F) for 15 to 18 min</strong>.</p>
+<p><strong>Batch 3 — Teriyaki salmon:</strong> <strong>180°C (350°F) for 10 to 12 minutes</strong>, skin side down.</p>
+<p><strong>Batch 4 — Beef meatballs:</strong> <strong>190°C (375°F) for 10 to 12 minutes</strong>, flipping halfway. Internal temperature: <strong>72°C (162°F)</strong>.</p>
+<p><strong>Batch 5 — Mixed vegetables:</strong> Cook in batches, following our <a href="/ca/blog/recettes-legumes-grilles-airfryer">roasted vegetable guide</a>: at 190°C (375°F), broccoli for 8 to 10 min and peppers and zucchini for 10 to 12 min; at 200°C (400°F), asparagus for 6 to 8 min and green beans for 8 to 10 min.</p>
+
+<h3>Phase 3: Falafels + Assembly (30 minutes)</h3>
+<p><strong>Homemade falafels:</strong> Drain the chickpeas and blend them with onion, garlic, cumin, ground coriander and flour. Shape <strong>12 balls</strong> and flatten them slightly. Cook at <strong>190°C (375°F) for 12 to 15 minutes</strong>.</p>
+<p><strong>Assembly:</strong> Spread the food out in small portions and let it cool for no more than 30 minutes at room temperature, then refrigerate it right away. Divide it into glass containers by day, keep the sauces separate and label each container.</p>
+
+<h2>Storage Tips</h2>
+<ul>
+<li><strong>Refrigerator:</strong> chicken, salmon and meatballs keep <strong>3 to 4 days</strong>.</li>
+<li><strong>Roasted vegetables</strong> keep <strong>3 to 4 days</strong> in the fridge.</li>
+<li><strong>Cooked rice</strong> is the most sensitive food (<em>Bacillus cereus</em> spores): cool it within an hour, keep it in the fridge and ideally eat it within 24 hours, otherwise freeze it in portions. <strong>Quinoa</strong> keeps 3 days.</li>
+<li><strong>Falafels</strong> keep <strong>4 days</strong> refrigerated or <strong>1 month</strong> frozen.</li>
+<li>Choose <strong>glass containers</strong> over plastic: food keeps better, and glass is the healthier choice for reheating.</li>
+<li><strong>Refrigerate within 2 hours of cooking</strong>: split food into shallow portions so it cools quickly, and never leave it out at room temperature for longer.</li>
+<li><strong>Thursday and Friday</strong>: freeze the portions for those days on Sunday (chicken thighs, meatballs, rice, chicken for the pizza) and thaw them in the fridge the night before.</li>
+<li><strong>Reheat only once</strong>, until the food is steaming hot all the way through and reaches 74°C (165°F).</li>
+</ul>
+
+<h2>Air Fryer Reheating Instructions</h2>
+<table>
+<thead>
+<tr><th>Food</th><th>Temperature</th><th>Time</th><th>Tip</th></tr>
+</thead>
+<tbody>
+<tr><td>Chicken (strips/thighs)</td><td>170°C (340°F)</td><td>4–6 min</td><td>Spritz lightly with water</td></tr>
+<tr><td>Salmon</td><td>160°C (325°F)</td><td>3–5 min</td><td>Don't overcook; it dries out quickly</td></tr>
+<tr><td>Beef meatballs</td><td>180°C (350°F)</td><td>4–5 min</td><td>Flip halfway</td></tr>
+<tr><td>Falafels</td><td>180°C (350°F)</td><td>4–5 min</td><td>Crisps up again</td></tr>
+<tr><td>Roasted vegetables</td><td>180°C (350°F)</td><td>3–4 min</td><td>Keep it short to avoid overcooking</td></tr>
+<tr><td>Sweet potatoes</td><td>180°C (350°F)</td><td>4–5 min</td><td>Add a touch of oil</td></tr>
+<tr><td>Tortilla pizza</td><td>190°C (375°F)</td><td>3–4 min</td><td>Crisps the crust again</td></tr>
+</tbody>
+</table>
+<p>These times are a guide for portions straight from the fridge: food must be steaming hot in the centre and read 74°C (165°F) on a thermometer. Add a few minutes if needed, especially for thawed portions.</p>
+
+<h2>Quick Evening Recipes</h2>
+<h3>Monday — Chicken Wraps</h3>
+<p>Reheat the chicken and peppers at <strong>170°C (340°F) for 4 min</strong>. Warm the tortillas at <strong>160°C (325°F) for 1 min</strong>. Fill, roll and serve.</p>
+<h3>Tuesday — Quinoa Salad</h3>
+<p>Toss the cold quinoa with cold roasted vegetables, fresh tomato, cucumber and crumbled feta. Dress with olive oil and lemon juice.</p>
+<h3>Wednesday — Roasted Veggie Pasta</h3>
+<p>Cook 125 g of pasta (10 min). Reheat the vegetables at <strong>180°C (350°F) for 3 min</strong>. Toss everything with feta and olive oil.</p>
+<h3>Thursday — Roasted Vegetable Soup</h3>
+<p>Blend the leftover roasted vegetables with 400 mL (about 1⅔ cups) of broth. Heat on the stovetop. Serve with croutons made in the air fryer at <strong>200°C (400°F) for 3 min</strong>.</p>
+<h3>Friday — Tortilla Pizza</h3>
+<p>Top a tortilla with tomato sauce, mozzarella, leftover peppers and shredded chicken. Cook at <strong>190°C (375°F) for 5 to 7 min</strong>.</p>
+
+<h2>Variations</h2>
+<ul>
+<li><strong>Vegetarian:</strong> replace the meat with tempeh, roasted chickpeas or tofu marinated in soy and sesame and cooked at 190°C (375°F) for 12 to 15 min.</li>
+<li><strong>Athletes:</strong> increase protein portions by 50% and add extra sweet potatoes.</li>
+<li><strong>Budget:</strong> swap the salmon for cod or hake, cooked at 180°C (350°F) for 10 to 12 min.</li>
+<li><strong>Week 2:</strong> rotate with our <a href="/ca/blog/recettes-poulet-croustillant-airfryer">6 crispy chicken recipes</a> and <a href="/ca/blog/recettes-frites-parfaites-airfryer">7 ways to make fries</a>.</li>
+</ul>
+
+<h2>Mistakes to Avoid</h2>
+<ul>
+<li><strong>Keeping food too long in the fridge</strong> — after 3 to 4 days, quality and food safety decline. Freeze the end-of-week portions.</li>
+<li><strong>Forgetting to dry vegetables</strong> — see our <a href="/ca/blog/erreurs-courantes-airfryer">common air fryer mistakes</a> guide.</li>
+<li><strong>Reheating in the microwave</strong> — the air fryer preserves crispiness, the microwave destroys it.</li>
+<li><strong>Storing sauces with food</strong> — wet sauces make breaded or roasted food soggy. Always store them separately.</li>
+</ul>
+
+<h2>Conclusion</h2>
+<p>Air fryer meal prep is a winning combination for healthy, budget-friendly and tasty meals all week long. By investing 2 hours on Sunday, you free up <strong>several hours of cooking during the week</strong>. Explore our <a href="/ca/blog/recettes-legumes-grilles-airfryer">10 roasted vegetable recipes</a> and <a href="/ca/blog/cuisiner-healthy-airfryer">healthy cooking guide</a> for more inspiration.</p>
+
+<h2>Storage guide: shelf life and reheating methods</h2>
+<table>
+<thead><tr><th>Prepared food</th><th>Fridge (max)</th><th>Freezer</th><th>Air fryer reheat</th><th>Temp/Time</th></tr></thead>
+<tbody>
+<tr><td>Cooked chicken breasts</td><td>4 days</td><td>3 months</td><td>Yes — lightly moisten first</td><td>160°C (325°F) / 6–8 min</td></tr>
+<tr><td>Thighs / drumsticks</td><td>4 days</td><td>3 months</td><td>Yes — excellent result</td><td>180°C (350°F) / 8–10 min</td></tr>
+<tr><td>Roasted vegetables</td><td>4 days</td><td>2 months</td><td>Yes — restores crispiness</td><td>180°C (350°F) / 4–5 min</td></tr>
+<tr><td>Homemade fries</td><td>3 days</td><td>2 months</td><td>Yes — nearly perfect result</td><td>180°C (350°F) / 3–5 min</td></tr>
+<tr><td>Salmon / fish</td><td>3 days</td><td>2 months</td><td>Yes — cover with foil</td><td>160°C (325°F) / 5–7 min</td></tr>
+<tr><td>Tofu / plant protein</td><td>4 days</td><td>3 months</td><td>Yes — excellent result</td><td>180°C (350°F) / 5–6 min</td></tr>
+</tbody>
+</table>
+
+<h2>What air fryer meal prep saves you</h2>
+<ul>
+<li><strong>Time:</strong> one 2-hour session on Sunday replaces most daily cooking; on weekdays you only reheat and assemble.</li>
+<li><strong>Money:</strong> home cooking is usually much cheaper than delivery or prepared meals, especially when you buy in bulk.</li>
+<li><strong>Energy:</strong> for small quantities, the air fryer heats a smaller space and barely needs preheating, so it uses less energy than a full-size oven.</li>
+<li><strong>Less waste:</strong> a grocery list built around the plan keeps you from buying food that never gets cooked.</li>
+</ul>`,
   },
   faq: [
     {
@@ -1208,6 +1671,9 @@ export const article: BlogArticle = {
         it: 'Quanto tempo si possono conservare i piatti del meal prep?',
         nl: 'Hoe lang kun je meal prep-gerechten bewaren?',
         pl: 'Jak długo można przechowywać posiłki przygotowane na zapas?',
+        sv: 'Hur länge håller matlådorna?',
+        us: 'How long do meal prep dishes keep?',
+        ca: 'How long does meal prep keep in the fridge and freezer?',
       },
       answer: {
         fr: 'Au réfrigérateur, les viandes cuites et les légumes grillés se conservent 3-4 jours, le poisson 3 jours, et le riz cuit idéalement moins de 24 heures (congelez-le sinon). Utilisez des contenants hermétiques en verre de préférence. Au congélateur, la plupart des plats se conservent jusqu\'à 3 mois. Étiquetez chaque contenant avec la date de préparation.',
@@ -1217,6 +1683,9 @@ export const article: BlogArticle = {
         it: 'In frigorifero, le carni cotte e le verdure grigliate si conservano 3-4 giorni, il pesce 3 giorni e il riso cotto idealmente meno di 24 ore (altrimenti congelatelo). Usa contenitori ermetici, preferibilmente in vetro. Nel congelatore, la maggior parte dei piatti si conserva fino a 3 mesi. Etichetta ogni contenitore con la data di preparazione.',
         nl: 'In de koelkast houden gekookt vlees en gegrilde groenten 3-4 dagen, vis 3 dagen en gekookte rijst bij voorkeur minder dan 24 uur (anders invriezen). Gebruik luchtdichte bakken, bij voorkeur van glas. In de vriezer houden de meeste gerechten tot 3 maanden. Label elke bak met de bereidingsdatum voor makkelijk bijhouden.',
         pl: 'W lodówce upieczone mięso i grillowane warzywa wytrzymują 3–4 dni, ryby 3 dni, a ugotowany ryż najlepiej zjeść w ciągu 24 godzin (jeśli nie zdążysz, zamroź go). Używaj szczelnych pojemników, najlepiej szklanych. W zamrażarce większość dań można przechowywać do 3 miesięcy. Na każdym pojemniku zapisz datę przygotowania.',
+        sv: 'I kylen håller tillagat kött och rostade grönsaker 3–4 dagar, fisk 3 dagar och kokt ris helst mindre än 24 timmar (frys annars in det). Använd lufttäta lådor, helst av glas. I frysen håller de flesta rätter i upp till 3 månader. Märk varje låda med datumet då du lagade maten, så har du lätt koll.',
+        us: 'In the fridge, cooked meats and roasted vegetables keep 3 to 4 days, fish 3 days, and cooked rice ideally less than 24 hours (freeze it otherwise). Use airtight containers, preferably glass. In the freezer, most dishes keep for up to 3 months. Label each container with the date you made it so it’s easy to keep track.',
+        ca: 'In the fridge, cooked meats and roasted vegetables keep for 3 to 4 days, fish for 3 days and cooked rice ideally less than 24 hours (freeze it otherwise). Use airtight containers, preferably glass. In the freezer, most dishes keep for up to 3 months. Label each container with the date you made it.',
       },
     },
     {
@@ -1228,6 +1697,9 @@ export const article: BlogArticle = {
         it: 'Come riscaldare i piatti del meal prep nella friggitrice ad aria?',
         nl: 'Hoe warm je meal prep-gerechten op in de airfryer?',
         pl: 'Jak odgrzewać posiłki z meal prepu we frytkownicy beztłuszczowej?',
+        sv: 'Hur värmer du upp matlådor i airfryern?',
+        us: 'How do you reheat meal prep in an air fryer?',
+        ca: 'How do you reheat meal prep in an air fryer?',
       },
       answer: {
         fr: 'Réglez l\'airfryer à 160-170°C pendant 5 à 8 minutes pour la plupart des plats. Les viandes et légumes retrouvent leur croustillant, contrairement au micro-ondes. Pour le riz et les pâtes, ajoutez quelques gouttes d\'eau et couvrez de papier aluminium. Le plat doit être brûlant à cœur (74 °C) : prolongez si besoin et ne réchauffez qu\'une fois.',
@@ -1237,6 +1709,9 @@ export const article: BlogArticle = {
         it: 'Imposta la friggitrice a 160-170°C per 5-8 minuti per la maggior parte dei piatti. Carni e verdure ritrovano la loro croccantezza, a differenza del microonde. Per riso e pasta, aggiungi qualche goccia d\'acqua e copri con foglio di alluminio. Il piatto deve essere bollente al cuore (74 °C): prolungate se serve e riscaldate una sola volta.',
         nl: 'Stel de airfryer in op 160-170°C voor 5-8 minuten voor de meeste gerechten. Vlees en groenten worden weer krokant, in tegenstelling tot de magnetron. Voor rijst en pasta voeg je een paar druppels water toe en dek je af met aluminiumfolie. Het eten moet in de kern gloeiend heet zijn (74 °C): verleng zo nodig en warm maar één keer op.',
         pl: 'W przypadku większości dań ustaw frytkownicę na 160–170 °C i odgrzewaj przez 5–8 minut. Mięso i warzywa odzyskują wtedy chrupkość, czego nie da się osiągnąć w mikrofalówce. Ryż i makaron skrop kilkoma kroplami wody i przykryj folią aluminiową. Danie musi być gorące w środku (74 °C): w razie potrzeby wydłuż czas i odgrzewaj je tylko raz.',
+        sv: 'Ställ airfryern på 160–170 °C i 5–8 minuter för de flesta rätter. Kött och grönsaker blir krispiga igen, vilket de inte blir i mikron. Stänk några droppar vatten över ris och pasta och täck med aluminiumfolie. Maten ska vara rykande het i mitten (74 °C): förläng tiden vid behov och värm bara upp en gång.',
+        us: 'Set the air fryer to 320 to 340°F (160 to 170°C) for 5 to 8 minutes for most dishes. Meats and vegetables crisp back up, unlike in a microwave. For rice and pasta, add a few drops of water and cover with aluminum foil. Food must be steaming hot in the center (165°F/74°C): add time if needed, and reheat only once.',
+        ca: 'Set the air fryer to 160°C to 170°C (325°F to 340°F) for 5 to 8 minutes for most dishes. Meats and vegetables crisp up again, unlike in a microwave. For rice and pasta, add a few drops of water and cover with aluminum foil. Food must be steaming hot in the centre and reach 74°C (165°F): add time if needed and reheat only once.',
       },
     },
     {
@@ -1248,6 +1723,9 @@ export const article: BlogArticle = {
         it: 'Quali contenitori usare per il meal prep con la friggitrice ad aria?',
         nl: 'Welke bakjes gebruik je voor meal prep met de airfryer?',
         pl: 'Jakich pojemników używać do meal prepu z frytkownicą beztłuszczową?',
+        sv: 'Vilka matlådor passar bäst för meal prep med airfryer?',
+        us: 'What containers should you use for air fryer meal prep?',
+        ca: 'What containers should you use for air fryer meal prep?',
       },
       answer: {
         fr: 'Choisissez des contenants en verre avec couvercle hermétique : ils passent au réfrigérateur, congélateur et micro-ondes. Les contenants compartimentés permettent de séparer protéines, légumes et féculents. Évitez le plastique pour le réchauffage. Investissez dans 10-12 contenants de 700 ml pour une semaine complète.',
@@ -1257,6 +1735,9 @@ export const article: BlogArticle = {
         it: 'Scegli contenitori in vetro con coperchio ermetico: adatti a frigorifero, congelatore e microonde. I contenitori con scomparti permettono di separare proteine, verdure e carboidrati. Evita la plastica per riscaldare. Investi in 10-12 contenitori da 700 ml per una settimana completa.',
         nl: 'Kies glazen bakken met luchtdichte deksel: geschikt voor koelkast, vriezer en magnetron. Bakken met compartimenten laten je eiwitten, groenten en zetmeel scheiden. Vermijd plastic voor opwarmen. Investeer in 10-12 bakken van 700 ml voor een complete week meal prep.',
         pl: 'Wybierz szklane pojemniki ze szczelną pokrywką: nadają się do lodówki, zamrażarki i mikrofalówki. Pojemniki z przegródkami pozwalają oddzielić mięso lub rybę od warzyw i produktów skrobiowych. Nie odgrzewaj jedzenia w plastiku. Na cały tydzień potrzebujesz 10–12 pojemników po 700 ml.',
+        sv: 'Välj matlådor av glas med lufttätt lock: de tål kylskåp, frys och mikrovågsugn. Lådor med fack gör att du kan hålla protein, grönsaker och kolhydrater åtskilda. Undvik plast när du värmer maten. Skaffa 10–12 lådor på 700 ml, så räcker det för en hel vecka.',
+        us: 'Go with glass containers with airtight lids: they’re safe in the fridge, freezer and microwave. Divided containers let you keep proteins, vegetables and starches apart. Avoid plastic for reheating. Plan on 10 to 12 containers of about 24 oz (700 ml) each for a full week of meal prep.',
+        ca: 'Choose glass containers with airtight lids: they\'re safe in the fridge, freezer and microwave. Containers with compartments keep proteins, vegetables and starches separate. Avoid plastic for reheating. For a full week of meal prep, plan on 10 to 12 containers of about 700 mL each.',
       },
     },
     {
@@ -1268,6 +1749,9 @@ export const article: BlogArticle = {
         it: 'Quali sono i migliori consigli per il batch cooking nella friggitrice ad aria?',
         nl: 'Wat zijn de beste batch cooking-tips voor de airfryer?',
         pl: 'Jak sprawnie gotować na zapas we frytkownicy beztłuszczowej?',
+        sv: 'Vilka är de bästa tipsen för storkok i airfryer?',
+        us: 'What are the best tips for batch cooking in an air fryer?',
+        ca: 'What are the best batch cooking tips for the air fryer?',
       },
       answer: {
         fr: 'Organisez par température : commencez par les aliments à haute température (200°C : légumes), puis baissez pour les protéines (180°C), et terminez par les féculents. Avec un airfryer double panier, cuisez viande et légumes simultanément. Préparez tous les ingrédients avant de commencer pour un enchaînement fluide.',
@@ -1277,6 +1761,9 @@ export const article: BlogArticle = {
         it: 'Organizza per temperatura: inizia con alimenti ad alta temperatura (200°C: verdure), poi abbassa per le proteine (180°C) e finisci con i carboidrati. Con una friggitrice a doppio cestello, cuoci carne e verdure contemporaneamente. Prepara tutti gli ingredienti prima di iniziare per un flusso efficiente.',
         nl: 'Organiseer op temperatuur: begin met hoge temperatuur (200°C: groenten), verlaag dan voor eiwitten (180°C) en eindig met zetmeel. Met een dubbele mand airfryer kook je vlees en groenten tegelijk. Bereid alle ingrediënten voor je begint voor een soepele workflow.',
         pl: 'Ustal kolejność według temperatury: zacznij od potraw, które wymagają najwyższej temperatury (warzywa, 200 °C), potem obniż ją dla mięsa i ryb (180 °C), a na końcu przygotuj produkty skrobiowe. We frytkownicy z dwoma koszami możesz jednocześnie piec mięso i warzywa. Zanim zaczniesz, przygotuj wszystkie składniki – wtedy praca pójdzie płynnie.',
+        sv: 'Planera efter temperatur: börja med det som ska ha högst temperatur (200 °C för grönsaker), sänk sedan för proteinet (180 °C) och avsluta med kolhydraterna. Med en airfryer med två korgar kan du tillaga kött och grönsaker samtidigt. Förbered alla råvaror innan du börjar, så flyter storkoket på utan avbrott.',
+        us: 'Organize by temperature: start with the hottest cooks (400°F/200°C for vegetables), then turn the heat down for proteins (350°F/180°C), and finish with starches. With a dual-basket air fryer, cook meat and vegetables at the same time. Prep all your ingredients before you start so the session runs smoothly.',
+        ca: 'Organize by temperature: start with the foods that need the most heat, such as vegetables at 200°C (400°F), then lower the temperature to 180°C (350°F) for proteins and finish with starches. With a dual-basket air fryer, cook meat and vegetables at the same time. Prep all your ingredients before you start so the batch-cooking session runs smoothly.',
       },
     },
     {
@@ -1288,6 +1775,9 @@ export const article: BlogArticle = {
         it: 'Si possono congelare i piatti preparati nella friggitrice ad aria?',
         nl: 'Kun je meal prep-gerechten uit de airfryer invriezen?',
         pl: 'Czy dania przygotowane we frytkownicy beztłuszczowej można mrozić?',
+        sv: 'Går det att frysa matlådor från airfryern?',
+        us: 'Can you freeze air fryer meal prep?',
+        ca: 'Can you freeze air fryer meal prep dishes?',
       },
       answer: {
         fr: 'Oui, la plupart des plats à l\'airfryer se congèlent très bien pour 2 à 3 mois. Refroidissez-les rapidement (moins de 2 heures) avant de congeler. Les viandes grillées, les boulettes et les légumes rôtis se congèlent excellemment. Évitez de congeler les aliments panés croustillants qui perdent leur texture. Décongelez au réfrigérateur la veille.',
@@ -1297,6 +1787,9 @@ export const article: BlogArticle = {
         it: 'Sì, la maggior parte dei piatti della friggitrice ad aria si congela molto bene per 2-3 mesi. Raffreddali rapidamente (entro 2 ore) prima di congelare. Carni grigliate, polpette e verdure arrosto si congelano benissimo. Evita di congelare alimenti impanati croccanti che perdono la texture. Scongela in frigo la sera prima.',
         nl: 'Ja, de meeste airfryer-gerechten vriezen prima in voor 2-3 maanden. Laat ze snel afkoelen (binnen 2 uur) voor het invriezen. Gegrild vlees, gehaktballen en geroosterde groenten vriezen uitstekend in. Vermijd het invriezen van krokante gepaneerde gerechten die hun textuur verliezen. Ontdooi in de koelkast de avond tevoren.',
         pl: 'Tak, większość dań z frytkownicy można bez problemu przechowywać w zamrażarce przez 2–3 miesiące. Przed zamrożeniem szybko je schłodź (w ciągu 2 godzin). Grillowane mięso, klopsiki i pieczone warzywa doskonale znoszą mrożenie. Nie zamrażaj natomiast chrupiących potraw w panierce, bo tracą chrupkość. Do rozmrożenia przełóż je z zamrażarki do lodówki poprzedniego wieczoru.',
+        sv: 'Ja, de flesta rätter från airfryern går utmärkt att frysa i 2–3 månader. Kyl ner dem snabbt (inom 2 timmar) innan du fryser in dem. Grillat kött, köttbullar och rostade grönsaker fryser riktigt bra. Undvik att frysa krispig panerad mat, eftersom den tappar sin konsistens. Bäst blir det om du låter maten tina i kylen kvällen innan.',
+        us: 'Yes, most air fryer dishes freeze very well for 2 to 3 months. Cool them quickly (within 2 hours) before freezing. Grilled meats, meatballs and roasted vegetables freeze especially well. Avoid freezing crispy breaded foods, which lose their texture. For best results, thaw in the fridge the night before.',
+        ca: 'Yes, most air fryer dishes freeze very well for 2 to 3 months. Cool them quickly (within 2 hours) before freezing. Cooked meats, meatballs and roasted vegetables freeze especially well. Avoid freezing crispy breaded foods, which lose their texture. For best results, thaw in the fridge the night before.',
       },
     },
   ],

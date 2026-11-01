@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Altoparlante smart e serratura connessa su un mobile bianco, esempi di dispositivi domotici',
         nl: 'Slimme speaker en slim slot op een witte kast, voorbeelden van smart-homeapparaten',
         pl: 'Inteligentny głośnik i inteligentny zamek na białej szafce – przykłady urządzeń inteligentnego domu',
+        sv: 'Smart högtalare och smart lås på en vit byrå, exempel på produkter för smarta hem',
+        us: 'Smart speaker and smart lock on a white cabinet, examples of smart home devices',
+        ca: 'Smart speaker and smart lock on a white cabinet, examples of smart home devices',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Domotica e risparmio energetico 2026: guida per ridurre i consumi',
     nl: 'Domotica en energiebesparing 2026: gids om minder te verbruiken',
     pl: 'Inteligentny dom a oszczędność energii 2026: poradnik, jak obniżyć zużycie',
+    sv: 'Smarta hem och energibesparing 2026: så minskar du förbrukningen',
+    us: 'Smart Home Energy Savings Guide 2026: Where Automation Really Pays Off',
+    ca: 'Smart Home Energy Savings Guide 2026: Where Automation Really Cuts Energy Use',
   },
   excerpt: {
     fr: 'Chauffage piloté, mesure de la consommation, prises connectées, détection de présence : ce qui fait vraiment baisser les kWh, les équipements à privilégier (tado X, Netatmo, Shelly, Tapo, Aqara) et les erreurs à éviter.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Gestione smart del riscaldamento, misura dei consumi, prese intelligenti e rilevamento di presenza: cosa riduce davvero i kWh, quali dispositivi scegliere (tado X, Netatmo, Shelly, Tapo, Aqara) e gli errori da evitare.',
     nl: 'Slimme verwarmingsregeling, verbruiksmeting, slimme stekkers en aanwezigheidsdetectie: wat echt kWh bespaart, welke apparaten u kiest (tado X, Netatmo, Shelly, Tapo, Aqara) en welke fouten u vermijdt.',
     pl: 'Sterowanie ogrzewaniem, pomiar zużycia energii, inteligentne gniazdka, wykrywanie obecności: co faktycznie przekłada się na mniej zużytych kWh, jakie urządzenia wybrać (tado X, Netatmo, Shelly, Tapo, Aqara) i jakich błędów unikać.',
+    sv: 'Smart styrning av värmen, mätning av elförbrukningen, smarta pluggar och närvarodetektering: det här sänker faktiskt antalet kWh, produkterna att satsa på (tado X, Netatmo, Shelly, Tapo, Aqara) och misstagen att undvika.',
+    us: 'Smart heating control, energy monitoring, smart plugs and presence sensors: what really cuts your kWh, which devices to pick (tado X, Netatmo, Shelly, Tapo, Aqara) and the mistakes to avoid.',
+    ca: 'Smart heating control, energy monitoring, smart plugs and presence detection: what really reduces your kWh, which devices to choose (tado X, Netatmo, Shelly, Tapo, Aqara) and the mistakes to avoid.',
   },
   content: {
     fr: `<p>La domotique fait vraiment baisser la consommation d’un logement quand elle s’attaque d’abord au chauffage : un thermostat connecté ou des têtes thermostatiques pilotées pièce par pièce, comme le <strong>tado X</strong>, agissent sur le premier poste de dépense. Viennent ensuite la mesure (prises et compteurs connectés) pour repérer les gaspillages, puis quelques automatisations simples ; les gadgets qui ne pilotent ni chauffage ni appareils gourmands n’économisent presque rien.</p>
@@ -606,6 +615,246 @@ export const article: BlogArticle = {
 
 <h2>Nasz werdykt</h2>
 <p>W większości domów i mieszkań z grzejnikami wodnymi najskuteczniej zacząć od zestawu <strong>tado Smart Radiator Thermostat X Starter Kit</strong>, ponieważ wpływa on na największą pozycję w zużyciu energii. Przy kotle i jednym centralnym termostacie <strong>Netatmo Smart Thermostat</strong> pozostaje prostym i niezawodnym wyborem. Do pomiarów przy niewielkim budżecie najbardziej przystępne jest <strong>Tapo P110M</strong>, najbardziej elastyczne – <strong>Shelly Plug S Gen3</strong>, a <strong>Shelly Pro 3EM</strong> pokazuje pełny obraz zużycia w całym domu, zwłaszcza z fotowoltaiką. Jeśli chcesz zgłębić temat ogrzewania, przeczytaj nasz poradnik <a href="/pl/blog/thermostat-connecte-pompe-chaleur">o inteligentnym termostacie do pompy ciepła</a>.</p>`,
+    sv: `<p>Ett smart hem sänker energiförbrukningen på riktigt när det tar sig an värmen först: en smart termostat eller smarta elementtermostater som styrs rum för rum, till exempel <strong>tado X</strong>, påverkar den största kostnadsposten. Därefter kommer mätningen (smarta pluggar och energimätare) som visar var energin går till spillo, och sedan några enkla automationer. Prylar som varken styr värmen eller strömslukande apparater sparar nästan ingenting.</p>
+<p>Den här guiden bygger inte på egna provningar: vi jämför produkterna utifrån tillverkarnas produktblad, oberoende utvärderingar och verifierade köparomdömen. Hur mycket du sparar beror alltid på din bostad, hur välisolerad den är, hur du värmer upp den och dina vanor. Siffrorna nedan är därför storleksordningar, aldrig löften.</p>
+
+<h2>Här tar energin vägen i ett hem</h2>
+<p>Enligt Eurostat står uppvärmningen av bostaden för ungefär två tredjedelar av hushållens slutliga energianvändning i EU. Varmvattnet kommer långt efter, följt av belysning och elektriska apparater. Den fördelningen visar vad som ska prioriteras: en produkt som styr värmen bättre gör nästan alltid mer nytta än en smart lampa.</p>
+<p>Den franska energimyndigheten ADEME räknar med att varje grad lägre inomhustemperatur minskar energiåtgången för uppvärmningen med ungefär 7 %. Det är precis vad en bra smart termostat gör: den sänker temperaturen när ingen är hemma, på natten och i rum som inte används, utan att du behöver tänka på det. Apparater i viloläge drar lite var för sig, men de drar dygnet runt, och därför lönar det sig att mäta dem innan du stänger av dem.</p>
+
+<h2>Så väljer du rätt</h2>
+<h3>Passar den ditt värmesystem?</h3>
+<p>Kontrollera det först. En trådbunden termostat kopplas till en värmepanna eller en värmepump (på/av via potentialfri kontakt eller ett modulerande protokoll, beroende på modell). Smarta elementtermostater skruvas på ventilerna till vattenburna element. Elelement styrs oftast via en separat styrledning (i Frankrike det så kallade fil pilote) eller är smarta modeller i sig. Använd tillverkarens kompatibilitetsverktyg innan du köper.</p>
+<h3>Protokoll: Matter, Thread, wifi eller Zigbee</h3>
+<p>Matter gör att produkter från olika märken fungerar ihop i Apple Home, Google Home, Amazon Alexa eller SmartThings. Thread är ett energisnålt nätverk där enheterna skickar signalen vidare till varandra (mesh), och passar batteridrivna produkter. Wifi kräver ingen brygga men belastar hemnätverket när antalet enheter växer. I vår <a href="/sv/blog/maison-connectee-matter-thread-2026">guide till Matter och Thread</a> går vi igenom valen mer i detalj.</p>
+<h3>Mätning av förbrukningen</h3>
+<p>En plugg som mäter den aktuella effekten och summerar antalet kWh visar vad en apparat faktiskt kostar att använda. En energimätare i elcentralen ger dig helhetsbilden för hela bostaden, inklusive eventuell solelsproduktion.</p>
+<h3>Lokal styrning och abonnemang</h3>
+<p>Kontrollera om automationerna fungerar utan tillverkarens moln och om vissa funktioner kräver abonnemang. Det handlar lika mycket om tillförlitlighet som om kostnaden på lång sikt.</p>
+
+<h2>Produkterna att satsa på 2026</h2>
+<h3>tado Smart Radiator Thermostat X Starter Kit: bäst totalt</h3>
+<p>Startpaketet tado X består av en smart elementtermostat och Bridge X, som fungerar som Thread Border Router (gränsrouter för Thread). Termostaten är Matter-kompatibel, passar de flesta elementventiler tack vare de medföljande adaptrarna och drivs av ett laddningsbart batteri. Allt går att styra i tados app eller via Apple Home, Google Home och Alexa.</p>
+<p><strong>Styrkor:</strong> styrning rum för rum, monteras utan verktyg på vattenburna element, ett komplett ekosystem (trådbunden termostat, sensorer, fler elementtermostater). <strong>Svagheter:</strong> X-serien fungerar inte med äldre tado-produkter av typen V3+, och vissa avancerade automationer, som automatisk geofencing (styrning efter var mobilen befinner sig), ingår i det frivilliga abonnemanget Auto-Assist. <strong>Passar för:</strong> bostäder med vattenburna element där du vill sluta värma upp tomma rum.</p>
+<h3>Netatmo Smart Thermostat: det säkra valet för en värmepanna</h3>
+<p>Termostaten från Netatmo ersätter en vanlig rumstermostat och styr värmepannan via ett relä. Funktionen Auto-Adapt räknar ut när värmen ska slås på med hänsyn till hur välisolerad bostaden är och till utomhustemperaturen, och appen skickar en månadsrapport om förbrukningen. Den fungerar med Apple HomeKit, Alexa och Google Assistant.</p>
+<p><strong>Styrkor:</strong> enkla inställningar, regelbundna rapporter, diskret design. <strong>Svagheter:</strong> bara en värmezon om du inte lägger till smarta elementtermostater, och en på/av-styrning som inte passar alla värmepumpar. <strong>Passar för:</strong> villor och lägenheter med egen värmepanna och en central termostat.</p>
+<h3>TP-Link Tapo P110M: den enklaste mätpluggen att börja med</h3>
+<p>Tapo P110M är en Matter-certifierad smart plugg med wifi som mäter förbrukningen hos apparaten som är inkopplad. Appen visar historiken i kWh, och du kan fylla i ditt elpris för att räkna fram kostnaden. Den fungerar med Apple Home, Alexa, Google Home och SmartThings, och den kompakta formen gör att uttaget bredvid förblir fritt.</p>
+<p><strong>Styrkor:</strong> inbyggt stöd för Matter, snabb installation, perfekt för att kartlägga vilka apparater som drar mest. <strong>Svagheter:</strong> bara wifi på 2,4 GHz, färre avancerade funktioner än Shelly. <strong>Passar för:</strong> dig som vill mäta flera apparater utan att det kostar för mycket.</p>
+<h3>Shelly Plug S Gen3: pluggen för den som vill mer</h3>
+<p>Shelly Plug S Gen3 mäter effekten, klarar laster upp till 2 500 W, är Matter-certifierad och behöver ingen hubb. Det som skiljer den från mängden är det lokala API:et och den omtyckta integrationen med Home Assistant, som låter dig starta automationer när effekten passerar ett visst värde (till exempel en notis när tvättmaskinen är klar).</p>
+<p><strong>Styrkor:</strong> lokal styrning, många möjligheter till automation, kan fungera som wifi-förstärkare. <strong>Svagheter:</strong> mer tekniska inställningar, och gränsen på 2 500 W utesluter större elelement. Kontrollera också att du köper rätt kontakttyp för ditt land. <strong>Passar för:</strong> dig som använder Home Assistant eller vill finjustera dina automationer.</p>
+<h3>Shelly Pro 3EM: överblick över hela bostaden</h3>
+<p>Shelly Pro 3EM är en energimätare för DIN-skena med strömtänger som fungerar på både enfas och trefas. Den mäter i båda riktningarna, förbrukning och produktion, vilket gör den användbar om du har solceller. Den finns i versioner för 120 A och 400 A, med en uppgiven noggrannhet på 1 %, och ansluts via wifi eller Ethernet, lokalt eller via molnet.</p>
+<p><strong>Styrkor:</strong> fullständig bild av bostadens förbrukning, uppföljning av hur mycket solel du använder själv, historiken sparas i enheten. <strong>Svagheter:</strong> monteras i elcentralen, ett jobb för en behörig elektriker. <strong>Passar för:</strong> hushåll med solceller, värmepump eller laddbox. Vår <a href="/sv/blog/compteur-energie-connecte-comparatif">jämförelse av smarta energimätare</a> tar också upp lösningar som inte kräver något installationsarbete.</p>
+<h3>Aqara Presence Sensor FP2: värm och tänd bara i rum där någon är</h3>
+<p>FP2 använder en radar med millimetervågor som känner av människor även när de sitter stilla, till skillnad från vanliga rörelsesensorer med infrarött (PIR). Den täcker upp till 40 m², kan dela upp ett rum i 30 zoner, följer flera personer och fungerar via wifi på 2,4 GHz utan hubb från Aqara, med Apple Home, Alexa, Google Home och Home Assistant.</p>
+<p><strong>Styrkor:</strong> känner pålitligt av någon som läser eller arbetar, zonerna går att anpassa. <strong>Svagheter:</strong> strömförsörjs via USB-kabel, zonerna kräver noggrann inställning. <strong>Passar för:</strong> dig som vill att lampor och värme stängs av i rum som verkligen är tomma.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Produkt</th><th>Roll</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>tado Smart Radiator Thermostat X Starter Kit</td><td>Styrning rum för rum</td><td>Thread, Matter (Bridge X)</td><td>Vattenburna element</td></tr>
+<tr><td>Netatmo Smart Thermostat</td><td>Termostat för värmepanna</td><td>Wifi, HomeKit</td><td>Egen värmepanna</td></tr>
+<tr><td>TP-Link Tapo P110M</td><td>Mätning per apparat</td><td>Wifi, Matter</td><td>Kartlägga förbrukningen</td></tr>
+<tr><td>Shelly Plug S Gen3</td><td>Mätning och automation</td><td>Wifi, Matter, Bluetooth</td><td>Home Assistant</td></tr>
+<tr><td>Shelly Pro 3EM</td><td>Mätare för hela bostaden</td><td>Wifi, Ethernet</td><td>Solceller, värmepump</td></tr>
+<tr><td>Aqara Presence Sensor FP2</td><td>Närvarodetektering</td><td>Wifi 2,4 GHz</td><td>Rum som används ibland</td></tr>
+</tbody>
+</table>
+<p>Hela vårt urval av <a href="/sv/energie-domotique/thermostats">smarta termostater</a> och <a href="/sv/energie-domotique/compteurs-energie">energimätare</a> hittar du i katalogen.</p>
+
+<h2>Ett räkneexempel i kWh</h2>
+<p>En apparat som drar 10 W dygnet runt, som en tv-box eller en högtalare i viloläge, förbrukar 10 W × 8 760 timmar, alltså ungefär 88 kWh per år. Räknat med ett exempelpris på 2,75 kr/kWh (byt ut det mot ditt eget elpris, som står på elräkningen) blir det cirka 240 kr per år för en enda apparat. En smart plugg som stänger av sådana apparater på natten och när du inte är hemma tar bort en stor del av den kostnaden.</p>
+<p>Samma resonemang gäller värmen: om din bostad drar 10 000 kWh per år för uppvärmning motsvarar en grad lägre medeltemperatur, enligt tumregeln från ADEME, ungefär 700 kWh mindre. En styrning som sänker temperaturen i tomma rum och på natten påverkar precis den posten.</p>
+
+<h2>Automationerna som verkligen sparar energi</h2>
+<ul>
+<li><strong>Natt- och bortaschema:</strong> sänk temperaturen på natten och på dagen när ingen är hemma.</li>
+<li><strong>Öppet fönster:</strong> stäng av elementet när ett fönster står öppet för vädring.</li>
+<li><strong>Släck allt på en gång:</strong> en rutin, ”Jag går hemifrån”, som släcker lamporna och stänger av pluggarna till apparater i viloläge.</li>
+<li><strong>Närvaro rum för rum:</strong> släck lamporna och stäng av extra värmekällor när sensorn inte längre känner av någon.</li>
+<li><strong>Solel:</strong> starta en apparat med timerfunktion när produktionen är större än förbrukningen, om du har <a href="/sv/blog/balkonkraftwerk-panneau-solaire-balcon">balkongsolceller</a> eller solceller på taket.</li>
+</ul>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att börja med belysningen:</strong> LED-lampor drar redan lite; den stora vinsten finns i uppvärmningen.</li>
+<li><strong>Att köpa utan att kontrollera kompatibiliteten:</strong> värmepanna, värmepump, elementventiler och kontakttyp måste stämma.</li>
+<li><strong>Att koppla ett elelement till en liten smart plugg:</strong> håll dig inom den maxbelastning som tillverkaren anger.</li>
+<li><strong>Att samla på appar:</strong> välj Matter eller en central hubb så att du styr allt på ett ställe.</li>
+<li><strong>Att lita på utlovade besparingar:</strong> procentsatserna beror på bostaden; mät före och efter.</li>
+</ul>
+
+<h2>Installation och säkerhet</h2>
+<p>Smarta pluggar och elementtermostater monteras utan verktyg. En trådbunden termostat som kopplas till värmepannan eller en mätare i elcentralen innebär däremot ingrepp i en elinstallation: bryt strömmen och anlita en behörig elektriker om du är det minsta osäker. Koppla aldrig in en apparat med högre effekt än den smarta pluggen klarar, och undvik att koppla grenuttag efter varandra.</p>
+
+<h2>Vårt omdöme</h2>
+<p>I de flesta bostäder med vattenburna element är <strong>tado Smart Radiator Thermostat X Starter Kit</strong> den mest effektiva starten, eftersom den påverkar den största förbrukningsposten. Har du en värmepanna och en enda central termostat är <strong>Netatmo Smart Thermostat</strong> fortfarande ett enkelt och pålitligt val. För mätning med liten budget är <strong>Tapo P110M</strong> enklast att börja med, <strong>Shelly Plug S Gen3</strong> den mest flexibla, och <strong>Shelly Pro 3EM</strong> ger hela bilden av bostaden, särskilt om du har solceller. Vill du fördjupa dig i uppvärmningen kan du läsa vår guide om <a href="/sv/blog/thermostat-connecte-pompe-chaleur">smart termostat och värmepump</a>.</p>`,
+    us: `<p>A smart home really does cut energy use when it goes after heating first: a smart thermostat or room-by-room smart radiator valves such as the <strong>tado X</strong> target the biggest item on the bill. Next comes measurement (smart plugs and energy monitors) to track down waste, then a few simple automations. Gadgets that control neither heating nor power-hungry appliances save almost nothing.</p>
+<p>This guide isn’t based on in-house testing: it compares devices using manufacturer specs, independent reviews and verified owner reviews. Savings always depend on your home, its insulation, your heating system and your habits, so the figures below are ballpark estimates, never promises.</p>
+
+<h2>Where a home’s energy goes</h2>
+<p>According to Eurostat, space heating accounts for roughly two-thirds of the final energy used by households in the European Union. Water heating comes a distant second, followed by lighting and appliances. That split sets the priorities: a device that controls heating better will almost always do more than a smart bulb.</p>
+<p>France’s energy agency ADEME estimates that turning your thermostat down by 1°C (about 2°F) cuts heating use by about 7%. That’s exactly what a good smart thermostat does: it lowers the temperature when nobody’s home, at night and in empty rooms, without you having to think about it. Devices on standby draw little power individually, but they draw it around the clock, which is why it pays to measure them before you turn them off.</p>
+
+<h2>How to choose</h2>
+<h3>Compatibility with your heating system</h3>
+<p>Check this first. A wired thermostat connects to a boiler or heat pump (an on/off dry contact or a modulating protocol, depending on the model); smart radiator valves screw onto the valves of hot-water radiators; electric heaters are usually controlled through a pilot wire (a common setup in France) or are smart models in their own right. Use the manufacturer’s compatibility checker before you buy.</p>
+<h3>Protocol: Matter, Thread, Wi-Fi or Zigbee</h3>
+<p>Matter lets devices from different brands work together in Apple Home, Google Home, Amazon Alexa or SmartThings. Thread is a low-power mesh network suited to battery-powered devices. Wi-Fi needs no bridge, but it puts more load on your home network as devices multiply. Our <a href="/us/blog/maison-connectee-matter-thread-2026">Matter and Thread guide</a> explains these choices in detail.</p>
+<h3>Energy monitoring</h3>
+<p>A plug that measures real-time power and adds up the kWh tells you what an appliance really costs to run. A monitor installed in your electrical panel gives you the whole-home picture, including any solar production.</p>
+<h3>Local control and subscriptions</h3>
+<p>Check whether automations run without the manufacturer’s cloud and whether some features require a subscription. It matters for reliability as much as for long-term cost.</p>
+
+<h2>The devices to prioritize in 2026</h2>
+<h3>tado Smart Radiator Thermostat X Starter Kit: best overall</h3>
+<p>The tado X starter kit pairs a smart radiator thermostat with the Bridge X, which acts as a Thread border router. The thermostat is Matter compatible, fits most radiator valves with the included adapters and runs on a rechargeable battery. You can control everything from the tado app or from Apple Home, Google Home and Alexa.</p>
+<p><strong>Pros:</strong> room-by-room control, tool-free installation on hot-water radiators, a complete ecosystem (wired thermostat, sensors, extra valves). <strong>Cons:</strong> the X range doesn’t work with older tado V3+ products, and some advanced automations, such as automatic geofencing, are part of the optional Auto-Assist subscription. <strong>Best for:</strong> homes with hot-water radiators that want to stop heating empty rooms.</p>
+<h3>Netatmo Smart Thermostat: the safe choice for a boiler</h3>
+<p>The Netatmo thermostat replaces a standard wall thermostat and switches the boiler through a relay. Its Auto-Adapt feature works out when to start heating based on your home’s insulation and the outdoor temperature, and the app sends a monthly energy report. It works with Apple HomeKit, Alexa and Google Assistant.</p>
+<p><strong>Pros:</strong> simple settings, regular reports, understated design. <strong>Cons:</strong> a single heating zone unless you add smart valves, and on/off control that doesn’t suit every heat pump. <strong>Best for:</strong> houses and apartments with their own boiler and one central thermostat.</p>
+<h3>TP-Link Tapo P110M: the most affordable energy-monitoring plug</h3>
+<p>The Tapo P110M is a Matter-certified Wi-Fi smart plug that measures the energy use of whatever is plugged into it. The app shows your kWh history and lets you enter your electricity rate to estimate the cost. It works with Apple Home, Alexa, Google Home and SmartThings, and its compact shape leaves the other outlet free.</p>
+<p><strong>Pros:</strong> native Matter, quick setup, ideal for auditing power-hungry appliances. <strong>Cons:</strong> 2.4 GHz Wi-Fi only, fewer advanced features than Shelly. <strong>Best for:</strong> anyone who wants to measure several appliances on a modest budget.</p>
+<h3>Shelly Plug S Gen3: the plug for power users</h3>
+<p>The Shelly Plug S Gen3 monitors power, handles loads up to 2,500 W, is Matter certified and needs no hub. It stands out for its local API and its popular Home Assistant integration, which lets you trigger automations at a power threshold (for example, a notification when the washer is done).</p>
+<p><strong>Pros:</strong> local control, lots of automation options, a built-in Wi-Fi range extender. <strong>Cons:</strong> more technical settings, and the 2,500 W limit rules out the most powerful space heaters. Check the plug type sold for your country, too. <strong>Best for:</strong> Home Assistant users and anyone who wants fine-grained automations.</p>
+<h3>Shelly Pro 3EM: the whole-home view</h3>
+<p>The Shelly Pro 3EM is a DIN-rail energy meter with CT clamps that works on single-phase and three-phase power. It measures in both directions, consumption and production, which makes it useful with solar panels. It comes in 120 A and 400 A versions with a stated accuracy of 1%, and it connects over Wi-Fi or Ethernet, locally or through the cloud.</p>
+<p><strong>Pros:</strong> a complete view of your home, solar self-consumption tracking, history stored on the device. <strong>Cons:</strong> it goes inside your electrical panel, a job for a licensed electrician. <strong>Best for:</strong> homes with solar panels, a heat pump or an EV charger. Our <a href="/us/blog/compteur-energie-connecte-comparatif">home energy monitor comparison</a> also covers options that don’t require any wiring work.</p>
+<h3>Aqara Presence Sensor FP2: heat and light only the rooms you’re using</h3>
+<p>The FP2 uses millimeter-wave radar that detects people even when they’re sitting still, unlike standard infrared motion sensors. It covers up to 430 sq ft (40 m²), can split a room into 30 zones, tracks several people and runs on 2.4 GHz Wi-Fi without an Aqara hub, with Apple Home, Alexa, Google Home and Home Assistant.</p>
+<p><strong>Pros:</strong> reliable detection of someone who’s reading or working, customizable zones. <strong>Cons:</strong> powered by a USB cable, and setting up the zones takes some care. <strong>Best for:</strong> anyone who wants the lights and heat off in rooms that are truly empty.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Device</th><th>Role</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>tado Smart Radiator Thermostat X Starter Kit</td><td>Room-by-room control</td><td>Thread, Matter (Bridge X)</td><td>Hot-water radiators</td></tr>
+<tr><td>Netatmo Smart Thermostat</td><td>Boiler thermostat</td><td>Wi-Fi, HomeKit</td><td>Homes with their own boiler</td></tr>
+<tr><td>TP-Link Tapo P110M</td><td>Per-appliance monitoring</td><td>Wi-Fi, Matter</td><td>Auditing energy use</td></tr>
+<tr><td>Shelly Plug S Gen3</td><td>Monitoring and automation</td><td>Wi-Fi, Matter, Bluetooth</td><td>Home Assistant</td></tr>
+<tr><td>Shelly Pro 3EM</td><td>Whole-home energy monitor</td><td>Wi-Fi, Ethernet</td><td>Solar, heat pump</td></tr>
+<tr><td>Aqara Presence Sensor FP2</td><td>Presence detection</td><td>2.4 GHz Wi-Fi</td><td>Rooms used on and off</td></tr>
+</tbody>
+</table>
+<p>See our full selection of <a href="/us/energie-domotique/thermostats">smart thermostats</a> and <a href="/us/energie-domotique/compteurs-energie">home energy monitors</a> in our catalog.</p>
+
+<h2>A worked example in kWh</h2>
+<p>A device that draws 10 W around the clock, such as a cable box or a speaker left on standby, uses 10 W × 8,760 hours, or about 88 kWh a year. At an example rate of 20 cents per kWh (check the rate on your utility bill), that’s about $18 a year for a single device. A smart plug that cuts power to these devices overnight and while you’re out eliminates a good share of that.</p>
+<p>The same logic applies to heating: if your home uses 10,000 kWh a year for heating, lowering the average temperature by 1°C (about 2°F) works out, by ADEME’s rule of thumb, to about 700 kWh less. Controls that turn the setpoint down in empty rooms and at night pull exactly this lever.</p>
+
+<h2>Automations that really save energy</h2>
+<ul>
+<li><strong>Night and away schedules:</strong> turn the heat down at night and during the day when no one’s home.</li>
+<li><strong>Open-window detection:</strong> shut off the radiator while a window is open to air out the room.</li>
+<li><strong>One-tap shutoff:</strong> a “Leaving home” routine that turns off the lights and the plugs feeding standby devices.</li>
+<li><strong>Room-by-room presence:</strong> turn off the lights and any space heater when the sensor no longer detects anyone.</li>
+<li><strong>Solar:</strong> start a programmable appliance when production exceeds consumption, if you have <a href="/us/blog/balkonkraftwerk-panneau-solaire-balcon">balcony solar panels</a> or a rooftop system.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Starting with lighting:</strong> LEDs already use little power; the real gains are in heating.</li>
+<li><strong>Buying without checking compatibility:</strong> your boiler, heat pump, radiator valves and plug type all have to match.</li>
+<li><strong>Plugging a space heater into a small smart plug:</strong> stay within the maximum load stated by the manufacturer.</li>
+<li><strong>Piling up apps:</strong> favor Matter or a central hub so you can manage everything in one place.</li>
+<li><strong>Believing in guaranteed savings:</strong> advertised percentages depend on the home; measure before and after.</li>
+</ul>
+
+<h2>Installation and safety</h2>
+<p>Smart plugs and radiator valves install without tools. A wired thermostat connected to the boiler or a monitor installed in your electrical panel, however, means working on your home’s wiring: turn off the power at the breaker and, if you have any doubt, hire a licensed electrician and check whether your area requires a permit. Never plug in an appliance that draws more than the smart plug is rated for, and avoid daisy-chaining power strips.</p>
+
+<h2>The bottom line</h2>
+<p>For most homes heated by hot-water radiators, the <strong>tado Smart Radiator Thermostat X Starter Kit</strong> is the most effective place to start because it targets the biggest energy user. With a boiler and a single central thermostat, the <strong>Netatmo Smart Thermostat</strong> remains a simple, reliable choice. For monitoring on a budget, the <strong>Tapo P110M</strong> is the most affordable, the <strong>Shelly Plug S Gen3</strong> the most flexible, and the <strong>Shelly Pro 3EM</strong> gives you the complete picture, especially with solar. To dig deeper into heating, read our <a href="/us/blog/thermostat-connecte-pompe-chaleur">smart thermostat and heat pump guide</a>.</p>`,
+    ca: `<p>A smart home genuinely cuts energy use when it tackles heating first: a smart thermostat or room-by-room smart radiator valves such as the <strong>tado X</strong> act on the biggest item on your bill. Next comes measurement (smart plugs and energy monitors) to find waste, then a few simple automations; gadgets that control neither heating nor power-hungry appliances save almost nothing.</p>
+<p>This guide is not based on in-house testing: it compares devices using manufacturer specifications, independent reviews and verified buyer reviews. Savings always depend on your home, its insulation, your heating system and your habits, so the figures below are ballpark figures, never promises.</p>
+
+<h2>Where a home’s energy goes</h2>
+<p>According to Eurostat, space heating accounts for roughly two-thirds of the final energy used by households in the European Union. Hot water comes a long way behind, followed by lighting and appliances. That split sets the priorities: a device that controls heating better will almost always do more than a smart bulb.</p>
+<p>France’s energy agency, ADEME, estimates that lowering your heating setpoint by 1°C cuts heating consumption by about 7%. That’s exactly what a good smart thermostat does: it lowers the temperature when nobody is home, at night or in empty rooms, without you having to think about it. Devices on standby use little power individually, but they draw it around the clock, which is why it pays to measure them before switching them off.</p>
+
+<h2>How to choose</h2>
+<h3>Compatibility with your heating</h3>
+<p>Check this first. A wired thermostat connects to a furnace, boiler or heat pump (on/off dry contact or a modulating protocol, depending on the model); smart radiator valves screw onto the valves of hot-water radiators; electric heaters are either smart models themselves or, in France, usually controlled through a pilot wire (fil pilote). Use the manufacturer’s compatibility checker before you buy.</p>
+<h3>Protocol: Matter, Thread, Wi-Fi or Zigbee</h3>
+<p>Matter lets devices from different brands work together in Apple Home, Google Home, Amazon Alexa or SmartThings. Thread is a low-power mesh network suited to battery-powered devices. Wi-Fi needs no bridge, but it puts more load on your home network as devices multiply. Our <a href="/ca/blog/maison-connectee-matter-thread-2026">Matter and Thread guide</a> explains these choices in detail.</p>
+<h3>Energy measurement</h3>
+<p>A plug that measures instantaneous power and totals the kWh tells you what an appliance really costs to run. A monitor installed in your electrical panel gives you the whole-home picture, including any solar production.</p>
+<h3>Local control and subscriptions</h3>
+<p>Check whether automations run without the manufacturer’s cloud and whether some features require a subscription. It matters for reliability as much as for long-term cost.</p>
+
+<h2>The devices to prioritize in 2026</h2>
+<h3>tado Smart Radiator Thermostat X Starter Kit: best overall</h3>
+<p>The tado X starter kit pairs a smart radiator thermostat with the Bridge X, which acts as a Thread border router. The thermostat is Matter compatible, fits most radiator valves thanks to the supplied adapters and runs on a rechargeable battery. Everything can be controlled from the tado app or from Apple Home, Google Home and Alexa.</p>
+<p><strong>Strengths:</strong> room-by-room control, tool-free installation on hot-water radiators, a complete ecosystem (wired thermostat, sensors, extra valves). <strong>Limitations:</strong> the X range isn’t compatible with older tado V3+ products, and some advanced automations, such as automatic geofencing, are part of the optional Auto-Assist subscription. <strong>Who it’s for:</strong> homes with hot-water radiators that want to stop heating empty rooms.</p>
+<h3>Netatmo Smart Thermostat: the safe choice for a boiler</h3>
+<p>The Netatmo thermostat replaces a standard room thermostat and switches the boiler through a relay. Its Auto-Adapt feature anticipates when to start heating based on your home’s insulation and the outdoor temperature, and the app sends a monthly energy report. It works with Apple HomeKit, Alexa and Google Assistant.</p>
+<p><strong>Strengths:</strong> simple settings, regular reports, discreet design. <strong>Limitations:</strong> a single heating zone unless you add smart valves, and on/off control that doesn’t suit every heat pump. <strong>Who it’s for:</strong> houses and apartments with their own boiler and one central thermostat.</p>
+<h3>TP-Link Tapo P110M: the easiest energy-monitoring plug to start with</h3>
+<p>The Tapo P110M is a Matter-certified Wi-Fi plug that measures the consumption of whatever is plugged into it. The app shows your kWh history and lets you enter your electricity rate to estimate the cost. It works with Apple Home, Alexa, Google Home and SmartThings, and its compact shape leaves the neighbouring outlet free.</p>
+<p><strong>Strengths:</strong> native Matter, quick setup, ideal for auditing power-hungry appliances. <strong>Limitations:</strong> 2.4 GHz Wi-Fi only, fewer advanced features than Shelly. <strong>Who it’s for:</strong> anyone who wants to measure several appliances on a modest budget.</p>
+<h3>Shelly Plug S Gen3: the plug for advanced users</h3>
+<p>The Shelly Plug S Gen3 meters power, handles loads up to 2,500 W, is Matter certified and needs no hub. It stands out for its local API and its popular Home Assistant integration, which lets you trigger automations on a power threshold (for example, a notification when the washer is done).</p>
+<p><strong>Strengths:</strong> local control, lots of automation options, Wi-Fi range extender function. <strong>Limitations:</strong> more technical settings, and the 2,500 W limit rules out large space heaters. Also check that the version you buy has the right plug for your outlets. <strong>Who it’s for:</strong> Home Assistant users and anyone who wants fine-grained automations.</p>
+<h3>Shelly Pro 3EM: the whole-home view</h3>
+<p>The Shelly Pro 3EM is a DIN-rail energy meter with current clamps that works on single-phase and three-phase supplies. It measures in both directions, consumption and production, which makes it useful with solar panels. It comes in 120 A and 400 A versions, with a stated accuracy of 1%, and connects over Wi-Fi or Ethernet, locally or through the cloud.</p>
+<p><strong>Strengths:</strong> a complete view of the home, solar self-consumption tracking, history stored on the device. <strong>Limitations:</strong> it’s installed in the electrical panel, a job for a licensed electrician. <strong>Who it’s for:</strong> homes with solar panels, a heat pump or an EV charger. Our <a href="/ca/blog/compteur-energie-connecte-comparatif">home energy monitor comparison</a> also covers options that need no wiring work.</p>
+<h3>Aqara Presence Sensor FP2: heat and light only occupied rooms</h3>
+<p>The FP2 uses millimetre-wave radar that detects people even when they’re sitting still, unlike conventional infrared motion sensors. It covers up to 40 m² (about 430 sq. ft.), can split a room into 30 zones, tracks several people and runs on 2.4 GHz Wi-Fi without an Aqara hub, with Apple Home, Alexa, Google Home and Home Assistant.</p>
+<p><strong>Strengths:</strong> reliable detection of someone reading or working, customizable zones. <strong>Limitations:</strong> it’s powered by a USB cable, and setting up zones takes some care. <strong>Who it’s for:</strong> anyone who wants lights and heating off in rooms that are genuinely empty.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Device</th><th>Role</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>tado Smart Radiator Thermostat X Starter Kit</td><td>Room-by-room control</td><td>Thread, Matter (Bridge X)</td><td>Hot-water radiators</td></tr>
+<tr><td>Netatmo Smart Thermostat</td><td>Boiler thermostat</td><td>Wi-Fi, HomeKit</td><td>Homes with their own boiler</td></tr>
+<tr><td>TP-Link Tapo P110M</td><td>Per-appliance metering</td><td>Wi-Fi, Matter</td><td>Tracking energy use</td></tr>
+<tr><td>Shelly Plug S Gen3</td><td>Metering and automation</td><td>Wi-Fi, Matter, Bluetooth</td><td>Home Assistant</td></tr>
+<tr><td>Shelly Pro 3EM</td><td>Whole-home monitor</td><td>Wi-Fi, Ethernet</td><td>Solar, heat pump</td></tr>
+<tr><td>Aqara Presence Sensor FP2</td><td>Presence detection</td><td>2.4 GHz Wi-Fi</td><td>Rooms used on and off</td></tr>
+</tbody>
+</table>
+<p>See our full selection of <a href="/ca/energie-domotique/thermostats">smart thermostats</a> and <a href="/ca/energie-domotique/compteurs-energie">home energy monitors</a> in the catalogue.</p>
+
+<h2>A worked example in kWh</h2>
+<p>A device drawing 10 W around the clock, such as a cable box or speaker left on standby, uses 10 W × 8,760 hours, or about 88 kWh a year. At an example rate of 10¢ per kWh, that’s about $9 a year for a single device (your rate depends on your province and utility, so check your bill). A smart plug that cuts power to these devices at night and while you’re out removes a good share of that.</p>
+<p>The same logic applies to heating: if your home uses 10,000 kWh a year for heating, lowering the average temperature by 1°C works out, using ADEME’s rule of thumb, to about 700 kWh less. Heating control that lowers the setpoint in empty rooms and at night works on exactly this lever.</p>
+
+<h2>Automations that really save energy</h2>
+<ul>
+<li><strong>Night and away schedule:</strong> lower the heating setpoint at night and during the day when nobody’s home.</li>
+<li><strong>Open-window detection:</strong> turn the heat off while a window is open to air out the room.</li>
+<li><strong>Everything off:</strong> a “Leaving home” routine that turns off the lights and the plugs of standby devices.</li>
+<li><strong>Room-by-room presence:</strong> switch off lights and supplementary heating when the sensor no longer detects anyone.</li>
+<li><strong>Solar:</strong> start a programmable appliance when production exceeds consumption, if you have <a href="/ca/blog/balkonkraftwerk-panneau-solaire-balcon">balcony solar panels</a> or a rooftop system.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Starting with lighting:</strong> LEDs already use little power; the real gains are in heating.</li>
+<li><strong>Buying without checking compatibility:</strong> your furnace or boiler, heat pump, radiator valves and plug type must all be compatible.</li>
+<li><strong>Plugging a space heater into a small smart plug:</strong> respect the maximum load stated by the manufacturer.</li>
+<li><strong>Collecting apps:</strong> favour Matter or a central hub to manage everything in one place.</li>
+<li><strong>Believing in guaranteed savings:</strong> advertised percentages depend on the home; measure before and after.</li>
+</ul>
+
+<h2>Installation and safety</h2>
+<p>Smart plugs and radiator valves install without tools. A wired thermostat connected to your furnace or boiler, or a monitor installed in your electrical panel, does mean working on your electrical system: turn off the power at the breaker and, if you have any doubt, hire a licensed electrician. Electrical work rules are set by each province and territory. Never plug in an appliance whose power draw exceeds the smart plug’s rating, and avoid daisy-chaining extension cords or power bars.</p>
+
+<h2>Our verdict</h2>
+<p>For most homes heated by hot-water radiators, the <strong>tado Smart Radiator Thermostat X Starter Kit</strong> is the most effective starting point because it targets the biggest source of consumption. With a boiler and a single central thermostat, the <strong>Netatmo Smart Thermostat</strong> remains a simple, reliable choice. For metering on a budget, the <strong>Tapo P110M</strong> is the easiest to start with, the <strong>Shelly Plug S Gen3</strong> the most flexible, and the <strong>Shelly Pro 3EM</strong> gives the complete picture, especially with solar. To go further on heating, read our <a href="/ca/blog/thermostat-connecte-pompe-chaleur">smart thermostat and heat pump guide</a>.</p>`,
   },
   faq: [
     {
@@ -617,6 +866,9 @@ export const article: BlogArticle = {
         it: "Quale dispositivo domotico fa risparmiare più energia?",
         nl: "Welk smart-homeapparaat bespaart de meeste energie?",
         pl: "Które urządzenie inteligentnego domu pozwala zaoszczędzić najwięcej energii?",
+        sv: "Vilken produkt för smarta hem sparar mest energi?",
+        us: "Which smart home device saves the most energy?",
+        ca: "Which smart home device saves the most energy?",
       },
       answer: {
         fr: "Le pilotage du chauffage, de loin. Le chauffage représente environ deux tiers de l’énergie des ménages en Europe, et l’ADEME estime qu’1 °C de moins réduit sa consommation d’environ 7 %. Un thermostat connecté ou des têtes thermostatiques pièce par pièce agissent directement sur ce poste.",
@@ -626,6 +878,9 @@ export const article: BlogArticle = {
         it: "La gestione del riscaldamento, di gran lunga. Il riscaldamento vale circa due terzi dell’energia delle famiglie europee, e l’ADEME stima che 1 °C in meno riduca i consumi di circa il 7 %. Un termostato smart o teste termostatiche stanza per stanza agiscono proprio lì.",
         nl: "Verwarmingsregeling, met afstand. Verwarming is goed voor ongeveer twee derde van de huishoudelijke energie in Europa, en volgens ADEME verlaagt 1 °C minder het verbruik met ongeveer 7 %. Een slimme thermostaat of slimme radiatorknoppen per kamer werken precies daarop.",
         pl: "Zdecydowanie inteligentne sterowanie ogrzewaniem. Ogrzewanie odpowiada za około dwie trzecie energii zużywanej przez gospodarstwa domowe w Europie, a według francuskiej agencji ADEME obniżenie temperatury o 1 °C zmniejsza zużycie energii na ogrzewanie o około 7%. Inteligentny termostat lub inteligentne głowice termostatyczne w poszczególnych pokojach wpływają bezpośrednio na tę część zużycia.",
+        sv: "Styrningen av värmen, med god marginal. Uppvärmningen står för ungefär två tredjedelar av hushållens energi i Europa, och den franska energimyndigheten ADEME räknar med att en grad lägre minskar energiåtgången för uppvärmningen med ungefär 7 %. En smart termostat eller smarta elementtermostater rum för rum påverkar den posten direkt.",
+        us: "Heating control, by far. Heating accounts for about two-thirds of household energy use in Europe, and France’s energy agency ADEME estimates that turning the thermostat down by 1°C (about 2°F) cuts heating use by about 7%. A smart thermostat or room-by-room smart radiator valves act directly on that item.",
+        ca: "Heating control, by far. In the European Union, heating accounts for about two-thirds of household energy, and France’s energy agency, ADEME, estimates that lowering the temperature by 1°C cuts heating use by about 7%. A smart thermostat or room-by-room smart radiator valves act directly on that part of your bill.",
       },
     },
     {
@@ -637,6 +892,9 @@ export const article: BlogArticle = {
         it: "Una presa smart consuma elettricità di per sé?",
         nl: "Verbruikt een slimme stekker zelf stroom?",
         pl: "Czy inteligentne gniazdko samo zużywa prąd?",
+        sv: "Drar en smart plugg själv ström?",
+        us: "Does a smart plug use electricity itself?",
+        ca: "Does a smart plug use electricity itself?",
       },
       answer: {
         fr: "Oui, un peu, car elle reste connectée en permanence. Cette consommation est généralement bien inférieure à celle des appareils en veille qu’elle permet de couper. Consultez la fiche technique du fabricant et réservez les prises aux appareils dont la veille ou l’usage le justifie.",
@@ -646,6 +904,9 @@ export const article: BlogArticle = {
         it: "Sì, un po’, perché resta sempre connessa. Questo consumo è di solito molto inferiore a quello degli apparecchi in standby che permette di spegnere. Consultate la scheda tecnica del produttore e usate le prese sugli apparecchi il cui standby o utilizzo lo giustifica.",
         nl: "Ja, een beetje, omdat hij altijd verbonden blijft. Dat verbruik ligt meestal ver onder het stand-byverbruik van de apparaten die u ermee uitschakelt. Raadpleeg de specificaties van de fabrikant en gebruik stekkers bij apparaten waarvan het stand-byverbruik of gebruik het rechtvaardigt.",
         pl: "Tak, choć niewiele, bo cały czas utrzymuje połączenie z siecią. Zwykle pobiera jednak znacznie mniej prądu niż urządzenia w trybie czuwania, które pozwala odłączyć. Sprawdź dane w karcie katalogowej producenta i używaj gniazdek tam, gdzie uzasadnia to pobór w trybie czuwania lub sposób korzystania z urządzenia.",
+        sv: "Ja, lite, eftersom den alltid är uppkopplad. Men den drar oftast betydligt mindre än de apparater i viloläge som du kan stänga av med den. Kontrollera tillverkarens produktblad och använd pluggarna till apparater där förbrukningen i viloläge eller användningen motiverar det.",
+        us: "Yes, a little, because it stays connected all the time. That draw is usually far lower than the standby power of the devices it lets you turn off. Check the manufacturer’s spec sheet, and put smart plugs on devices whose standby draw or usage makes it worthwhile.",
+        ca: "Yes, a little, because it stays connected all the time. That draw is usually far lower than the standby power of the devices it lets you switch off. Check the manufacturer’s spec sheet, and save smart plugs for devices whose standby draw or use makes them worthwhile.",
       },
     },
     {
@@ -657,6 +918,9 @@ export const article: BlogArticle = {
         it: "Serve un elettricista per installare questi dispositivi?",
         nl: "Heb ik een installateur nodig voor deze apparaten?",
         pl: "Czy do montażu tych urządzeń potrzebny jest elektryk?",
+        sv: "Behöver jag en elektriker för att installera de här produkterna?",
+        us: "Do I need an electrician to install these devices?",
+        ca: "Do I need an electrician to install these devices?",
       },
       answer: {
         fr: "Pas pour les prises connectées, les têtes thermostatiques ni le capteur de présence, qui s’installent sans outil. Un thermostat filaire raccordé à la chaudière et un compteur placé dans le tableau électrique, comme le Shelly Pro 3EM, demandent en revanche une intervention électrique : faites appel à un électricien qualifié en cas de doute.",
@@ -666,6 +930,9 @@ export const article: BlogArticle = {
         it: "Non per prese smart, teste termostatiche o sensore di presenza, che si installano senza attrezzi. Un termostato cablato alla caldaia e un misuratore nel quadro elettrico, come lo Shelly Pro 3EM, richiedono invece un intervento elettrico: nel dubbio rivolgetevi a un elettricista qualificato.",
         nl: "Niet voor slimme stekkers, radiatorknoppen of de aanwezigheidssensor, die u zonder gereedschap installeert. Een bedrade thermostaat op de ketel en een meter in de meterkast, zoals de Shelly Pro 3EM, vragen wel elektrisch werk: schakel bij twijfel een erkende installateur in.",
         pl: "Nie w przypadku inteligentnych gniazdek, głowic termostatycznych ani czujnika obecności, które montuje się bez narzędzi. Termostat przewodowy podłączony do kotła oraz licznik w rozdzielnicy, taki jak Shelly Pro 3EM, wymagają natomiast ingerencji w instalację elektryczną: w razie wątpliwości skorzystaj z pomocy wykwalifikowanego elektryka.",
+        sv: "Inte för smarta pluggar, elementtermostater eller närvarosensorn, som monteras utan verktyg. En trådbunden termostat som kopplas till värmepannan och en mätare i elcentralen, som Shelly Pro 3EM, kräver däremot elarbete: anlita en behörig elektriker om du är osäker.",
+        us: "Not for smart plugs, radiator valves or the presence sensor, which install without tools. A wired thermostat connected to the boiler or a monitor installed in your electrical panel, such as the Shelly Pro 3EM, does involve electrical work: if you have any doubt, hire a licensed electrician.",
+        ca: "Not for smart plugs, radiator valves or the presence sensor, which install without tools. A wired thermostat connected to your furnace or boiler and a monitor installed in the electrical panel, such as the Shelly Pro 3EM, do involve electrical work: hire a licensed electrician if in doubt.",
       },
     },
     {
@@ -677,6 +944,9 @@ export const article: BlogArticle = {
         it: "Matter è indispensabile per risparmiare energia?",
         nl: "Is Matter onmisbaar om energie te besparen?",
         pl: "Czy Matter jest niezbędny do oszczędzania energii?",
+        sv: "Är Matter nödvändigt för att spara energi?",
+        us: "Is Matter essential for saving energy?",
+        ca: "Is Matter essential for saving energy?",
       },
       answer: {
         fr: "Non, mais il simplifie beaucoup les choses. Matter permet de faire travailler ensemble un thermostat, des prises et des capteurs de marques différentes dans une seule application (Apple Maison, Google Home, Alexa ou SmartThings), ce qui facilite les automatisations qui coupent chauffage et appareils au bon moment.",
@@ -686,6 +956,9 @@ export const article: BlogArticle = {
         it: "No, ma semplifica molto. Matter fa lavorare insieme termostato, prese e sensori di marche diverse in un’unica app (Apple Casa, Google Home, Alexa o SmartThings), rendendo più facili le automazioni che spengono riscaldamento e apparecchi al momento giusto.",
         nl: "Nee, maar het maakt veel eenvoudiger. Met Matter werken een thermostaat, stekkers en sensoren van verschillende merken samen in één app (Apple Woning, Google Home, Alexa of SmartThings), wat automatiseringen vergemakkelijkt die verwarming en apparaten op het juiste moment uitschakelen.",
         pl: "Nie, ale znacznie ułatwia sprawę. Dzięki Matter termostat, gniazdka i czujniki różnych marek współpracują w jednej aplikacji (Apple Home, Google Home, Alexa lub SmartThings), a to ułatwia tworzenie automatyzacji, które wyłączają ogrzewanie i urządzenia we właściwym momencie.",
+        sv: "Nej, men det gör allt mycket enklare. Med Matter kan en termostat, pluggar och sensorer från olika märken fungera ihop i en och samma app (Apple Home, Google Home, Alexa eller SmartThings). Då blir det lättare att skapa automationer som stänger av värme och apparater vid rätt tillfälle.",
+        us: "No, but it makes things much simpler. Matter lets a thermostat, plugs and sensors from different brands work together in a single app (Apple Home, Google Home, Alexa or SmartThings), which makes it easier to build automations that turn off the heat and appliances at the right time.",
+        ca: "No, but it makes things much simpler. Matter lets a thermostat, plugs and sensors from different brands work together in a single app (Apple Home, Google Home, Alexa or SmartThings), which makes it easier to build automations that switch heating and appliances off at the right time.",
       },
     },
     {
@@ -697,6 +970,9 @@ export const article: BlogArticle = {
         it: "Come capisco quanto risparmio davvero?",
         nl: "Hoe weet ik hoeveel ik echt bespaar?",
         pl: "Jak sprawdzić, ile naprawdę oszczędzam?",
+        sv: "Hur vet jag hur mycket jag faktiskt sparar?",
+        us: "How can I tell how much I'm actually saving?",
+        ca: "How can I tell how much I am really saving?",
       },
       answer: {
         fr: "Mesurez avant et après, en kWh. Relevez votre consommation sur votre compteur ou avec un compteur connecté pendant quelques semaines, installez l’équipement, puis comparez des périodes aux températures extérieures proches. Multipliez ensuite les kWh économisés par le prix du kWh de votre contrat.",
@@ -706,6 +982,9 @@ export const article: BlogArticle = {
         it: "Misurate prima e dopo, in kWh. Annotate i consumi dal contatore o con un misuratore connesso per qualche settimana, installate il dispositivo e confrontate periodi con temperature esterne simili. Moltiplicate poi i kWh risparmiati per il prezzo del kWh del vostro contratto.",
         nl: "Meet vooraf en achteraf, in kWh. Noteer uw verbruik een paar weken via de meter of een energiemonitor, installeer het apparaat en vergelijk periodes met vergelijkbare buitentemperaturen. Vermenigvuldig daarna de bespaarde kWh met de kWh-prijs uit uw contract.",
         pl: "Zmierz zużycie przed instalacją i po niej, w kWh. Przez kilka tygodni notuj odczyty z licznika lub z miernika zużycia energii, zainstaluj urządzenie, a potem porównaj okresy o zbliżonej temperaturze na zewnątrz. Na koniec pomnóż zaoszczędzone kWh przez cenę kWh z Twojej umowy.",
+        sv: "Mät före och efter, i kWh. Läs av förbrukningen på elmätaren eller med en energimätare under några veckor, installera produkten och jämför sedan perioder med ungefär samma utomhustemperatur. Multiplicera därefter antalet sparade kWh med kWh-priset i ditt elavtal.",
+        us: "Measure before and after, in kWh. Track your usage on your electric meter or with an energy monitor for a few weeks, install the device, then compare periods with similar outdoor temperatures. Multiply the kWh you saved by the price per kWh on your utility bill.",
+        ca: "Measure before and after, in kWh. Record your consumption on your meter or with an energy monitor for a few weeks, install the device, then compare periods with similar outdoor temperatures. Multiply the kWh saved by the rate per kWh on your electricity bill.",
       },
     },
   ],

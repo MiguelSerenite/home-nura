@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: "Tastierino numerico in acciaio spazzolato, come quello di una cassaforte elettronica",
         nl: "Numeriek toetsenbord van geborsteld staal, zoals op een elektronische kluis",
         pl: "Klawiatura numeryczna ze szczotkowanej stali, jak w elektronicznym sejfie na kod",
+        sv: "Sifferknappsats i borstat stål, som på ett elektroniskt värdeskåp med kodlås",
+        us: "Brushed steel numeric keypad, like the one on an electronic safe",
+        ca: "Brushed steel numeric keypad, like the one on an electronic safe",
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: "Migliore cassaforte smart 2026: impronta, codice o app",
     nl: "Beste slimme kluis 2026: vingerafdruk, code of app",
     pl: "Inteligentny sejf 2026: biometryczny, na kod czy z aplikacją – jaki wybrać?",
+    sv: "Bästa smarta värdeskåp 2026: fingeravtryck, kod eller app?",
+    us: "Best Smart and Biometric Safes of 2026: Fingerprint, Keypad or App",
+    ca: "Best Smart Safe 2026: Fingerprint, Keypad or App-Connected Home Safes",
   },
   excerpt: {
     fr: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock et Phoenix Next comparés : certifications EN 14450 et EN 1143-1, classement incendie, ancrage, assurance, clé de secours et piles.",
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock e Phoenix Next a confronto: norme EN 14450 ed EN 1143-1, classi antincendio, ancoraggio, assicurazione, chiave di emergenza e pile.",
     nl: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock en Phoenix Next vergeleken: EN 14450 en EN 1143-1, brandklassen, verankering, verzekering, noodsleutel en batterijen.",
     pl: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock i Phoenix Next – porównujemy certyfikaty EN 14450 i EN 1143-1, klasy ognioodporności, kotwienie, ubezpieczenie, klucz awaryjny i baterie.",
+    sv: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock och Phoenix Next jämförda: certifiering enligt EN 14450 och EN 1143-1, brandklassning, förankring, försäkring, reservnyckel och batterier.",
+    us: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock and Phoenix Next compared on European burglary ratings (EN 14450, EN 1143-1), fire ratings, anchoring, insurance, backup keys and batteries.",
+    ca: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock and Phoenix Next compared: EN 14450 and EN 1143-1 ratings, fire classes, anchoring, insurance, backup key and batteries.",
   },
   content: {
     fr: `<p>Pour la plupart des foyers, le meilleur coffre-fort connecté ou biométrique en 2026 est le <strong>Burg-Wächter Combi-Line CL 20 E FS</strong> : il associe un lecteur d'empreintes digitales, une certification effraction EN 14450 de niveau S2 et une protection incendie de 30 minutes pour le papier. Si votre priorité est de recevoir une alerte sur smartphone à chaque ouverture, le <strong>Yale Smart Safe</strong> est le choix le plus abouti, à condition d'accepter qu'il protège moins bien contre un cambrioleur outillé.</p>
@@ -895,6 +904,372 @@ export const article: BlogArticle = {
 <h2>Nasz werdykt</h2>
 <p>Jeśli chcesz naprawdę skutecznie chronić cenne przedmioty, najbardziej wyważonym wyborem jest <strong>Burg-Wächter Combi-Line CL 20 E FS</strong>: odcisk palca, certyfikat EN 14450 S2 i 30 minut ochrony papieru przed ogniem. Przy skromniejszym budżecie <strong>PointSafe P 2 E FS</strong> zapewnia otwieranie biometryczne w kompaktowej obudowie, którą koniecznie trzeba przykręcić. Jeśli chcesz dostawać powiadomienie o każdym otwarciu, <strong>Yale Smart Safe</strong> pozostaje najlepszym wyborem wśród sejfów z aplikacją. <strong>Master Lock LX110BEURHRO</strong> sprawdzi się, gdy potrzebujesz dużo miejsca, a <strong>Phoenix Next LS7001FB</strong> – gdy najbardziej obawiasz się pożaru.</p>
 <p>Sejf to tylko jeden z elementów ochrony – połącz go z alarmem i dobrze zabezpieczonymi drzwiami. Więcej informacji znajdziesz w naszym <a href="/pl/blog/guide-securite-maison-connectee-2026">poradniku o bezpieczeństwie inteligentnego domu</a> i w artykule o <a href="/pl/blog/alarme-maison-sans-abonnement">alarmie do domu bez abonamentu</a>.</p>`,
+    sv: `<p>För de flesta hushåll är <strong>Burg-Wächter Combi-Line CL 20 E FS</strong> det bästa smarta eller biometriska värdeskåpet 2026: det kombinerar fingeravtrycksläsare, inbrottsklassning enligt EN 14450 nivå S2 och 30 minuters brandskydd för papper. Vill du framför allt få en notis i mobilen varje gång dörren öppnas är <strong>Yale Smart Safe</strong> det mest genomarbetade uppkopplade alternativet – så länge du accepterar att det ger sämre skydd mot en tjuv med verktyg.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, publicerade certifieringar och verifierade köparomdömen. Vi går igenom fem modeller som säljs i Europa, förklarar vad EN 14450, EN 1143-1 och brandklassningarna egentligen betyder och tar upp det som många förbiser: förankring, försäkring, nödnyckel och strömförsörjning. Du kan också bläddra i hela vårt urval av <a href="/sv/securite-maison/coffres-forts-connectes">smarta värdeskåp</a>.</p>
+
+<h2>Så väljer du rätt smart värdeskåp</h2>
+
+<h3>1. Inbrottsklassning: EN 14450 eller EN 1143-1</h3>
+<p>Det här är det viktigaste kriteriet, och det som produktsidorna nämner minst. Två europeiska standarder klassar hur väl ett värdeskåp står emot inbrott:</p>
+<ul>
+<li><strong>EN 14450</strong>: gäller värdeskåp i instegs- och mellanklassen och har två nivåer, <strong>S1</strong> och <strong>S2</strong> (där S2 är den starkare). Det är den typiska nivån för ett bra värdeskåp i hemmet.</li>
+<li><strong>EN 1143-1</strong>: standarden för ”professionella” säkerhetsskåp, med grader från <strong>0</strong> till <strong>XIII</strong>. Redan grad 0 eller I ligger över EN 14450 S2 och passar dig som har dyrbara smycken eller större summor kontanter hemma.</li>
+</ul>
+<p>Ett certifierat värdeskåp har genomgått inbrottsprovning hos ett oberoende provningsorgan (t.ex. ECB·S eller VdS). Ett skåp utan certifiering kan vara välbyggt, men det finns inget objektivt sätt att mäta hur mycket det tål. Uppgifter om ”insurance rating” som vissa brittiska butiker visar är kommersiell vägledning, inte en europeisk certifiering.</p>
+
+<h3>2. Brandskydd: en helt annan fråga</h3>
+<p>Ett inbrottsskyddat värdeskåp är inte automatiskt brandsäkert, och ett brandsäkert skåp är inte nödvändigtvis svårt att bryta upp. Brandklassningarna är separata:</p>
+<ul>
+<li><strong>EN 15659</strong>: klasserna <strong>LFS 30 P</strong> och <strong>LFS 60 P</strong>, dvs. 30 eller 60 minuters skydd för pappersdokument.</li>
+<li><strong>EN 1047-1</strong>: en strängare standard, med klasser för papper (P) och för lagringsmedier (D, DIS).</li>
+<li><strong>NT Fire 017</strong>: en vanlig nordisk provningsmetod, med klasser som ”60 Paper” eller ”120 Paper”.</li>
+</ul>
+<p>Observera att ”Paper” eller ”P” betyder att temperaturen inuti håller sig tillräckligt låg för papper – men inte för ett USB-minne, en hårddisk eller filmnegativ, som tål betydligt mindre värme. För dem behövs en klassning för ”Data” eller ”DIS”.</p>
+
+<h3>3. Så öppnas skåpet</h3>
+<p>Fingeravtryck, kod, app eller nyckel: de flesta modeller kombinerar flera sätt. En fingeravtrycksläsare går snabbt och du slipper komma ihåg en kod, men registrera flera fingrar (ett skadat eller mycket torrt finger kan vara svårt att läsa av). En app ger en logg över öppningarna och notiser, men kräver Bluetooth eller wifi och ett konto på nätet.</p>
+
+<h3>4. Strömförsörjning och nödöppning</h3>
+<p>Elektroniska lås drivs med batterier. Kontrollera hur du öppnar skåpet när de har tagit slut: med en mekanisk nödnyckel, via yttre kontakter för ett nödbatteri eller med en nödkod. Varje lösning har sina fördelar, men en nödnyckel som förvaras slarvigt blir den svaga länken i hela systemet.</p>
+
+<h3>5. Förankring, vikt och volym</h3>
+<p>Ett litet värdeskåp på 15 kg som inte sitter fast kan bäras i väg under armen. Vikten och möjligheten att skruva fast skåpet i vägg eller golv betyder lika mycket som tjockleken på dörren. När det gäller volymen: mät det du vill förvara. Ett pass och några smycken får plats i 20 liter, medan en bärbar dator eller A4-pärmar kräver mer utrymme.</p>
+
+<h2>De 5 bästa smarta och biometriska värdeskåpen 2026</h2>
+
+<h3>Burg-Wächter Combi-Line CL 20 E FS: bäst totalt</h3>
+<p>Tyska Burg-Wächters serie Combi-Line hör till de få värdeskåpen för hemmet som kombinerar fingeravtryckslås, inbrottsklassning och brandskydd. CL 20 E FS är certifierat enligt <strong>EN 14450 nivå S2</strong> och klassat <strong>LFS 30 P enligt EN 15659</strong>, dvs. 30 minuters brandskydd för papper.</p>
+<ul>
+<li><strong>Styrkor</strong>: elektroniskt SecuTronic-lås med fingeravtrycksmodul (upp till 20 fingeravtryck enligt tillverkaren), dubbelväggig konstruktion, runda låskolvar på 25 mm, två förankringshål i bakstycket och två i botten samt en vikt på ca 55 kg som gör det svårt att bära i väg.</li>
+<li><strong>Svagheter</strong>: ingen app och inga notiser i mobilen; medelstort innerutrymme (ca 27 liter); det krävs två personer för att installera det.</li>
+<li><strong>Bäst för</strong>: hushåll som vill ha ett värdeskåp som verkligen är certifierat, för smycken, id-handlingar och viktiga papper, med snabb öppning via fingeravtryck. Serien finns även som CL 10, CL 40 och CL 60 E FS.</li>
+</ul>
+
+<h3>Yale Smart Safe: det mest uppkopplade</h3>
+<p><strong>Yale Smart Safe</strong> (modell YSS/250/EB1) är det värdeskåp i urvalet som går längst när det gäller uppkoppling. Det styrs med appen <strong>Yale Home</strong> via Bluetooth och går att nå på distans om du lägger till Yale Connect Wi-Fi Bridge, en wifi-brygga som säljs separat.</p>
+<ul>
+<li><strong>Styrkor</strong>: notis vid varje öppning, historik över öppningarna, delbara och tillfälliga koder, fungerar med röstassistenter (bl.a. Apple HomeKit och Google Assistant), två låskolvar på 20 mm, innerbelysning, två nödnycklar medföljer, fyra förankringshål i bakstycket och botten.</li>
+<li><strong>Svagheter</strong>: ingen fingeravtrycksläsare, ingen EN-klassning mot inbrott angiven i produktbladet, inget brandskydd; åtkomst på distans kräver den extra wifi-bryggan.</li>
+<li><strong>Bäst för</strong>: dig som vill veta när skåpet öppnas (barn, delat boende, hemtjänstpersonal) och förvarar saker av måttligt värde – helst med skåpet ordentligt fastskruvat.</li>
+</ul>
+
+<h3>Burg-Wächter PointSafe P 2 E FS: mest prisvärd</h3>
+<p><strong>PointSafe P 2 E FS</strong> är ett kompakt möbelvärdeskåp på 21 liter med elektroniskt kodlås och fingeravtrycksläsare.</p>
+<ul>
+<li><strong>Styrkor</strong>: öppnas med kod eller fingeravtryck, mekanisk nödnyckel, låskolvar på 18 mm, dörr i 4 mm stål, dolda gångjärn, förankringshål i bakstycket och botten med medföljande skruv och plugg samt ett kompakt format (ca 14 kg) som lätt får plats i en garderob.</li>
+<li><strong>Svagheter</strong>: ingen EN 14450-certifiering, inget brandskydd, ingen app. Stommen i 2 mm stål gör att skåpet snarare avskräcker än stoppar en välutrustad tjuv.</li>
+<li><strong>Bäst för</strong>: ett första biometriskt värdeskåp för pass, lite kontanter och vardagssmycken – förutsatt att du skruvar fast det i vägg eller golv.</li>
+</ul>
+
+<h3>Master Lock LX110BEURHRO: rymligast bland de biometriska instegsmodellerna</h3>
+<p>Master Locks stora biometriska värdeskåp rymmer <strong>25,4 liter</strong> i ett platt format där en bärbar dator eller A4-dokument får plats.</p>
+<ul>
+<li><strong>Styrkor</strong>: sparar 30 fingeravtryck, två motoriserade låskolvar i stål, dolt gångjärn, innerbelysning, klädd botten som skyddar mot repor; två nödnycklar, ett nödströmskit för tomma batterier och skruvar för förankring ingår.</li>
+<li><strong>Svagheter</strong>: tillverkaren anger varken inbrottsklassning enligt EN eller brandklassning, ingen app; drivs med fyra AA-batterier som inte ingår.</li>
+<li><strong>Bäst för</strong>: dig som främst behöver plats för en bärbar dator, en surfplatta och papper, med enkel öppning via fingeravtryck för hela familjen.</li>
+</ul>
+
+<h3>Phoenix Next LS7001FB: premiumvalet för brandskydd</h3>
+<p>Brittiska Phoenix har tagit fram Next-serien som exklusiva värdeskåp för smycken och dokument. <strong>LS7001FB</strong> (svart utförande) är klassat <strong>60 Paper enligt NT Fire 017</strong>, dvs. 60 minuters brandskydd för papper.</p>
+<ul>
+<li><strong>Styrkor</strong>: upp till 128 fingeravtryck eller öppning med kod, spärr vid manipulationsförsök och inbyggt larm, låsning på tre sidor, 47 liter med filtklädd låda och uttagbar hylla samt en vikt på ca 107 kg.</li>
+<li><strong>Svagheter</strong>: produktbladet lyfter fram brandskyddet snarare än en inbrottsklassning enligt EN; skåpet är skrymmande och tungt, så golvet måste klara belastningen och installationen kräver omsorg.</li>
+<li><strong>Bäst för</strong>: hushåll som framför allt vill skydda dokument och en smyckessamling mot brand, i ett skåp som ser ut som en möbel.</li>
+</ul>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Öppning</th><th>Inbrott</th><th>Brand</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Burg-Wächter Combi-Line CL 20 E FS</td><td>Fingeravtryck + kod</td><td>EN 14450 S2</td><td>LFS 30 P (EN 15659)</td><td>Ingen</td><td>Certifierat skydd på alla fronter</td></tr>
+<tr><td>Yale Smart Safe</td><td>Kod, app, nyckel</td><td>Ingen EN-certifiering</td><td>Nej</td><td>Bluetooth, wifi via brygga</td><td>Notiser och koll på öppningar</td></tr>
+<tr><td>Burg-Wächter PointSafe P 2 E FS</td><td>Fingeravtryck, kod, nyckel</td><td>Ingen EN-certifiering</td><td>Nej</td><td>Ingen</td><td>Kompakt första värdeskåp</td></tr>
+<tr><td>Master Lock LX110BEURHRO</td><td>Fingeravtryck, nyckel</td><td>Ingen EN-certifiering</td><td>Nej</td><td>Ingen</td><td>Bärbar dator och A4-dokument</td></tr>
+<tr><td>Phoenix Next LS7001FB</td><td>Fingeravtryck + kod</td><td>Ingen EN-certifiering</td><td>60 Paper (NT Fire 017)</td><td>Ingen</td><td>Smycken och dokument, brandrisk</td></tr>
+</tbody>
+</table>
+
+<h2>Förankring i vägg eller golv: steget du inte får hoppa över</h2>
+<p>Ett värdeskåp som inte sitter fast kan bäras i väg och brytas upp i lugn och ro någon annanstans. EN 14450 och EN 1143-1 kräver att skåp som väger under ett ton är förberedda för förankring, och försäkringsbolagen förväntar sig i regel att förankringen faktiskt används.</p>
+<ul>
+<li><strong>Rätt underlag</strong>: en bärande vägg i betong eller massivt murverk, eller en betongplatta. En gipsvägg eller ett lätt träbjälklag håller inte när någon bänder loss skåpet med en kofot.</li>
+<li><strong>Rätt infästning</strong>: använd de medföljande expanderbultarna eller förankringsbultar som passar materialet, och följ tillverkarens anvisningar. Certifierade skåp anger ofta vilken förankring som krävs.</li>
+<li><strong>Rätt plats</strong>: undvik sovrummet och hallgarderoben – där letar tjuvar först. En undanskymd vrå som är svår att komma åt med verktyg är bättre.</li>
+<li><strong>Vikten</strong>: med en tung modell som Phoenix Next (ca 107 kg) måste du kontrollera att golvet klarar belastningen, särskilt på övervåningen.</li>
+</ul>
+
+<h2>Försäkring: vad ett värdeskåp kan ändra – och vad det inte garanterar</h2>
+<p>Att du har ett värdeskåp höjer inte automatiskt ersättningstaken i din försäkring. Varje försäkringsbolag har sina egna regler, men några principer återkommer ofta:</p>
+<ul>
+<li>Hemförsäkringar har oftast ett tak för smycken, värdesaker och kontanter. Vissa försäkringsbolag godtar högre belopp om sakerna förvaras i ett <strong>certifierat</strong> värdeskåp (EN 14450 eller EN 1143-1) som är fackmässigt <strong>förankrat</strong>.</li>
+<li>Ett värdeskåp utan certifiering räknas sällan, hur stabilt det än ser ut.</li>
+<li>Spara kvittot, certifikatet och ett foto av installationen: det är det försäkringsbolaget ber om vid en skada.</li>
+<li>Be ditt försäkringsbolag om ett skriftligt besked innan du köper: vilken certifieringsnivå krävs, och för vilka belopp? Det är det enda svar som gäller för just din försäkring.</li>
+</ul>
+
+<h2>Nödnyckel och batterier: planera för det oväntade</h2>
+<p>Alla elektroniska lås i urvalet drivs med batterier. De flesta modeller varnar när batterierna börjar ta slut: byt dem direkt och skriv upp datumet i kalendern. Tar batterierna slut helt beror lösningen på modellen: en mekanisk nödnyckel (Yale Smart Safe, PointSafe, Master Lock), ett nödströmskit som driver låset utifrån (Master Lock) eller en nödkod.</p>
+<p>Nödnyckeln är praktisk, men den kringgår både fingeravtryck och kod. Förvara den aldrig bredvid skåpet eller i en byrålåda i samma rum. Lämna den hos någon du litar på eller förvara den utanför hemmet. Har du ett uppkopplat värdeskåp ska du komma ihåg att appen inte ersätter öppning på plats: ligger nätet eller servern nere är det knappsatsen och nyckeln som gäller.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att blanda ihop brandsäkert och inbrottsskyddat</strong>: ett brandklassat värdeskåp kan vara lätt att bryta upp, och tvärtom.</li>
+<li><strong>Att förvara USB-minnen i ett skåp klassat för ”Paper”</strong>: digitala medier kräver en klassning för ”Data” eller ”DIS”.</li>
+<li><strong>Att inte skruva fast värdeskåpet</strong>: det vanligaste och dyraste misstaget.</li>
+<li><strong>Att bara registrera ett finger</strong>: registrera minst två fingrar per person, på båda händerna.</li>
+<li><strong>Att behålla fabrikskoden</strong>: byt standardkoderna direkt och ta bort oanvända tillfälliga koder i appen.</li>
+<li><strong>Att lita på en kommersiell ”insurance rating”</strong>: bara en europeisk certifiering och ditt försäkringsbolags skriftliga besked räknas.</li>
+</ul>
+
+<h2>Vårt omdöme</h2>
+<p>Vill du skydda värdesaker på riktigt är <strong>Burg-Wächter Combi-Line CL 20 E FS</strong> det mest balanserade valet: öppning med fingeravtryck, certifiering enligt EN 14450 S2 och 30 minuters brandskydd för papper. Med en snävare budget ger <strong>PointSafe P 2 E FS</strong> biometrisk öppning i ett kompakt format som måste skruvas fast. Vill du få en notis varje gång dörren öppnas är <strong>Yale Smart Safe</strong> fortfarande måttstocken bland uppkopplade skåp, medan <strong>Master Lock LX110BEURHRO</strong> passar dig som behöver plats och <strong>Phoenix Next LS7001FB</strong> dig som oroar dig mest för brand.</p>
+<p>Ett värdeskåp är bara ett av flera skyddslager: kombinera det med ett larm och en ordentligt säkrad dörr. Läs mer i vår <a href="/sv/blog/guide-securite-maison-connectee-2026">guide till smart hemsäkerhet</a> och i vår artikel om <a href="/sv/blog/alarme-maison-sans-abonnement">hemlarm utan abonnemang</a>.</p>`,
+    us: `<p>For most households, the best smart or biometric home safe of 2026 is the <strong>Burg-Wächter Combi-Line CL 20 E FS</strong>: it combines a fingerprint reader, EN 14450 level S2 burglary certification and 30 minutes of fire protection for paper. If what you want most is a phone alert every time the door opens, the <strong>Yale Smart Safe</strong> is the most complete smart option, as long as you accept that it holds up less well against a burglar with tools.</p>
+<p>This comparison is based on manufacturer specs, published certifications and verified owner reviews. It covers five models sold in Europe, explains what the EN 14450, EN 1143-1 and fire ratings really mean, and walks through the points people tend to overlook: anchoring, insurance, the backup key and power. You can also browse our full lineup of <a href="/us/securite-maison/coffres-forts-connectes">smart safes</a>.</p>
+
+<h2>How to choose a smart safe</h2>
+
+<h3>1. Burglary certification: EN 14450 or EN 1143-1</h3>
+<p>This is the most important criterion, and the one product pages mention least. Two European standards grade how well a safe resists a break-in:</p>
+<ul>
+<li><strong>EN 14450</strong>: covers entry-level and midrange safes, with two levels, <strong>S1</strong> and <strong>S2</strong> (S2 is the stronger one). It's the typical level for a good home safe.</li>
+<li><strong>EN 1143-1</strong>: the standard for "professional" safes, with grades from <strong>0</strong> to <strong>XIII</strong>. Grade 0 or I already sits above EN 14450 S2 and suits homeowners who keep valuable jewelry or larger amounts of cash.</li>
+</ul>
+<p>A certified safe has been attack-tested by an independent body (such as ECB·S or VdS). An uncertified safe may be well built, but there's no objective way to measure how much it can take. The "insurance rating" figures some UK retailers show are sales guidance, not a European certification. Safes made for the US market are more often rated by UL instead, so check which ratings the version sold in your country actually carries.</p>
+
+<h3>2. Fire resistance: a separate question</h3>
+<p>A burglary-resistant safe isn't automatically fire-resistant, and a fire safe isn't necessarily hard to break into. Fire ratings are separate:</p>
+<ul>
+<li><strong>EN 15659</strong>: classes <strong>LFS 30 P</strong> and <strong>LFS 60 P</strong>, meaning 30 or 60 minutes of protection for paper documents.</li>
+<li><strong>EN 1047-1</strong>: a tougher standard, with classes for paper (P) and for data media (D, DIS).</li>
+<li><strong>NT Fire 017</strong>: a widely used Nordic test, with classes such as "60 Paper" or "120 Paper."</li>
+</ul>
+<p>Note that "Paper" or "P" means the inside stays cool enough for paper, not for a USB flash drive, a hard drive or film negatives, which tolerate far less heat. For those you need a "Data" or "DIS" rating.</p>
+
+<h3>3. How it opens</h3>
+<p>Fingerprint, PIN, app or key: most models combine several methods. A fingerprint reader is fast and saves you from remembering a code, but you should enroll several fingers (an injured or very dry finger may not read well). An app adds an access log and alerts, but it depends on Bluetooth or Wi-Fi and an online account.</p>
+
+<h3>4. Power and emergency access</h3>
+<p>Electronic locks run on batteries. Check how you open the safe when they die: a mechanical override key, external contacts for an emergency battery, or an emergency code. Each has its merits, but a poorly hidden override key becomes the weak point of the whole system.</p>
+
+<h3>5. Anchoring, weight and capacity</h3>
+<p>A small 33 lb (15 kg) safe that isn't bolted down can be carried off under one arm. Weight and the ability to bolt the safe to a wall or floor matter as much as door thickness. For capacity, measure what you want to store: a passport and some jewelry fit in 0.7 cu ft (20 L), while a laptop or full-size file folders need more room.</p>
+
+<h2>The 5 best smart and biometric safes of 2026</h2>
+
+<h3>Burg-Wächter Combi-Line CL 20 E FS: best overall</h3>
+<p>German maker Burg-Wächter's Combi-Line is one of the few home safe lines to combine a fingerprint lock, burglary certification and fire protection. The CL 20 E FS is certified <strong>EN 14450 level S2</strong> and rated <strong>LFS 30 P under EN 15659</strong>, which means 30 minutes of fire protection for paper.</p>
+<ul>
+<li><strong>Pros</strong>: SecuTronic electronic lock with a fingerprint module (up to 20 fingerprints, according to the manufacturer), double-walled construction, 1 in (25 mm) round bolts, two anchor holes in the back and two in the base, and a weight of about 120 lb (55 kg) that makes it hard to carry off.</li>
+<li><strong>Cons</strong>: no app or phone alerts; midsize interior (about 1 cu ft, or 27 L); you'll need two people to install it.</li>
+<li><strong>Best for</strong>: households that want a genuinely certified safe for jewelry, IDs and important papers, with quick fingerprint access. The line also includes the CL 10, CL 40 and CL 60 E FS.</li>
+</ul>
+
+<h3>Yale Smart Safe: best for app control and alerts</h3>
+<p>The <strong>Yale Smart Safe</strong> (model YSS/250/EB1) goes furthest on smart features in this lineup. It's controlled through the <strong>Yale Home</strong> app over Bluetooth and becomes accessible remotely if you add the Yale Connect Wi-Fi Bridge, sold separately.</p>
+<ul>
+<li><strong>Pros</strong>: a notification every time it's opened, access history, shareable and temporary codes, voice assistant support (including Apple HomeKit and Google Assistant), two 0.8 in (20 mm) bolts, interior light, two override keys included, four anchor holes in the back and base.</li>
+<li><strong>Cons</strong>: no fingerprint reader, no EN burglary certification highlighted in its specs, no fire protection; remote access requires the extra Wi-Fi bridge.</li>
+<li><strong>Best for</strong>: people who want to know when the safe is opened (kids, roommates, caregivers) and store items of moderate value, ideally with the safe bolted down firmly.</li>
+</ul>
+
+<h3>Burg-Wächter PointSafe P 2 E FS: best value</h3>
+<p>The <strong>PointSafe P 2 E FS</strong> is a compact 0.7 cu ft (21 L) furniture safe with an electronic keypad lock plus a fingerprint reader.</p>
+<ul>
+<li><strong>Pros</strong>: opens by code or fingerprint, mechanical override key, 0.7 in (18 mm) bolts, a 0.16 in (4 mm) steel door, concealed hinges, anchor holes in the back and base with hardware included, and a compact size (about 31 lb, or 14 kg) that fits easily in a closet or cabinet.</li>
+<li><strong>Cons</strong>: no EN 14450 certification, no fire protection, no app. Its 0.08 in (2 mm) steel body makes it a deterrent rather than a real barrier against a well-equipped burglar.</li>
+<li><strong>Best for</strong>: a first biometric safe for passports, some cash and everyday jewelry, as long as you bolt it to a wall or floor.</li>
+</ul>
+
+<h3>Master Lock LX110BEURHRO: the roomiest entry-level biometric safe</h3>
+<p>Master Lock's large biometric safe offers <strong>0.9 cu ft (25.4 L)</strong> in a flat shape that holds a laptop or full-size (A4) documents.</p>
+<ul>
+<li><strong>Pros</strong>: stores 30 fingerprints, two motorized steel bolts, concealed hinge, interior light, a lined floor to prevent scratches, two override keys and a jump-start kit for dead batteries, mounting hardware included.</li>
+<li><strong>Cons</strong>: no EN burglary certification or fire rating mentioned by the manufacturer, no app; runs on four AA batteries, not included.</li>
+<li><strong>Best for</strong>: people who mainly need space for a laptop, tablet and paperwork, with simple fingerprint access for the whole family.</li>
+</ul>
+
+<h3>Phoenix Next LS7001FB: the premium pick for fire protection</h3>
+<p>British maker Phoenix designed its Next series as high-end safes for jewelry and documents. The <strong>LS7001FB</strong> (black finish) is rated <strong>60 Paper under NT Fire 017</strong>, which means 60 minutes of fire protection for paper.</p>
+<ul>
+<li><strong>Pros</strong>: up to 128 fingerprints or code entry, anti-tamper lockout and internal alarm, three-sided locking, 1.7 cu ft (47 L) with a felt-lined drawer and removable shelf, and a weight of about 235 lb (107 kg).</li>
+<li><strong>Cons</strong>: the specs highlight fire protection rather than an EN burglary certification; it's bulky and heavy, so the floor has to handle the load and installation takes care.</li>
+<li><strong>Best for</strong>: households whose main concern is protecting documents and a jewelry collection from fire, in a safe that looks like furniture.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Unlock method</th><th>Burglary rating</th><th>Fire rating</th><th>Smart features</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Burg-Wächter Combi-Line CL 20 E FS</td><td>Fingerprint + code</td><td>EN 14450 S2</td><td>LFS 30 P (EN 15659)</td><td>None</td><td>Certified all-around protection</td></tr>
+<tr><td>Yale Smart Safe</td><td>Code, app, key</td><td>No EN certification</td><td>No</td><td>Bluetooth, Wi-Fi via bridge</td><td>Alerts and access tracking</td></tr>
+<tr><td>Burg-Wächter PointSafe P 2 E FS</td><td>Fingerprint, code, key</td><td>No EN certification</td><td>No</td><td>None</td><td>Compact first safe</td></tr>
+<tr><td>Master Lock LX110BEURHRO</td><td>Fingerprint, key</td><td>No EN certification</td><td>No</td><td>None</td><td>Laptop and full-size documents</td></tr>
+<tr><td>Phoenix Next LS7001FB</td><td>Fingerprint + code</td><td>No EN certification</td><td>60 Paper (NT Fire 017)</td><td>None</td><td>Jewelry and documents, fire risk</td></tr>
+</tbody>
+</table>
+
+<h2>Bolting it to a wall or floor: the step not to skip</h2>
+<p>A safe that isn't bolted down can be carried away and opened at leisure somewhere else. EN 14450 and EN 1143-1 require safes under 1 metric ton (about 2,200 lb) to have an anchoring provision, and insurers generally expect it to actually be used.</p>
+<ul>
+<li><strong>The right surface</strong>: a load-bearing concrete or solid masonry wall, or a concrete slab. A drywall partition or a lightweight wood-framed floor won't hold a safe against a pry bar.</li>
+<li><strong>The right hardware</strong>: use the anchors supplied or anchors suited to the material, following the manufacturer's instructions. Certified safes often specify the anchoring required.</li>
+<li><strong>The right spot</strong>: avoid the primary bedroom and the hall closet, the first places burglars search. A discreet corner that's awkward to reach with tools is better.</li>
+<li><strong>Weight</strong>: a heavy model such as the Phoenix Next (about 235 lb, or 107 kg) means checking that the floor can take the load, especially upstairs.</li>
+</ul>
+
+<h2>Insurance: what a safe can change, and what it doesn't guarantee</h2>
+<p>Owning a safe doesn't automatically raise your coverage limits. Every insurer sets its own rules, but a few principles come up often:</p>
+<ul>
+<li>Home insurance policies usually cap coverage for jewelry, valuables and cash. Some insurers accept higher amounts if these items are kept in a <strong>certified</strong> safe (EN 14450 or EN 1143-1) that's properly <strong>anchored</strong>.</li>
+<li>An uncertified safe is rarely taken into account, however solid it looks.</li>
+<li>Keep the receipt, the certificate of conformity and a photo of the installation: that's what you'll be asked for after a claim.</li>
+<li>Before you buy, ask your insurer in writing which certification level it requires and for what amounts. That's the only answer that counts for your policy.</li>
+</ul>
+
+<h2>Backup key and power: plan for failure</h2>
+<p>Every electronic lock in this lineup runs on batteries. Most models warn you when they run low: replace them right away and note the date on your calendar. If the batteries die completely, your options depend on the model: a mechanical override key (Yale Smart Safe, PointSafe, Master Lock), a jump-start kit that powers the lock from outside (Master Lock) or an emergency code.</p>
+<p>The override key is handy, but it bypasses both the fingerprint reader and the code. Never keep it next to the safe or in a drawer in the same room. Leave it with someone you trust or store it outside your home. With a smart safe, remember that the app doesn't replace opening it on the spot: if the network or server is down, the keypad and key are what count.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Confusing fire-resistant with burglary-resistant</strong>: a fire-rated safe can be easy to force open, and vice versa.</li>
+<li><strong>Storing USB flash drives in a "Paper" rated safe</strong>: digital media need a "Data" or "DIS" rating.</li>
+<li><strong>Not bolting the safe down</strong>: the most common and most costly mistake.</li>
+<li><strong>Enrolling just one finger</strong>: register at least two fingers per person, on both hands.</li>
+<li><strong>Keeping the factory code</strong>: change default codes immediately and delete unused temporary codes in the app.</li>
+<li><strong>Relying on a retailer's "insurance rating"</strong>: only a European certification and your insurer's written agreement count.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>To truly protect valuables, the <strong>Burg-Wächter Combi-Line CL 20 E FS</strong> is the most balanced choice: fingerprint access, EN 14450 S2 certification and 30 minutes of fire protection for paper. On a tighter budget, the <strong>PointSafe P 2 E FS</strong> gives you biometric access in a compact size that you must bolt down. To get an alert every time the door opens, the <strong>Yale Smart Safe</strong> is still the smart-safe benchmark, while the <strong>Master Lock LX110BEURHRO</strong> suits people who need space and the <strong>Phoenix Next LS7001FB</strong> those most worried about fire.</p>
+<p>A safe is only one layer of protection: pair it with a security system and a solid, well-secured door. To learn more, read our <a href="/us/blog/guide-securite-maison-connectee-2026">smart home security guide</a> and our article on <a href="/us/blog/alarme-maison-sans-abonnement">home security systems with no monthly fee</a>.</p>`,
+    ca: `<p>For most households, the best smart or biometric home safe in 2026 is the <strong>Burg-Wächter Combi-Line CL 20 E FS</strong>: it combines a fingerprint reader, EN 14450 level S2 burglary certification and 30 minutes of fire protection for paper. If your priority is a smartphone alert every time the door opens, the <strong>Yale Smart Safe</strong> is the most complete smart option, as long as you accept that it offers less resistance to a burglar with tools.</p>
+<p>This comparison is based on manufacturer specifications, published certifications and verified buyer feedback. It covers five models sold in Europe, explains what the EN 14450, EN 1143-1 and fire ratings really mean, and goes through the points people tend to overlook: anchoring, insurance, the backup key and power. You can also browse our full selection of <a href="/ca/securite-maison/coffres-forts-connectes">smart safes</a>.</p>
+
+<h2>How to choose a smart safe</h2>
+
+<h3>1. Burglary certification: EN 14450 or EN 1143-1</h3>
+<p>This is the most important criterion, and the one product pages mention least. Two European standards grade a safe's resistance to break-in:</p>
+<ul>
+<li><strong>EN 14450</strong>: covers entry-level and mid-range safes, with two levels, <strong>S1</strong> and <strong>S2</strong> (S2 being the stronger). It is the typical level of a good home safe.</li>
+<li><strong>EN 1143-1</strong>: the standard for "professional" safes, with grades from <strong>0</strong> to <strong>XIII</strong>. Grade 0 or I already sits above EN 14450 S2 and suits homeowners who keep valuable jewellery or larger amounts of cash.</li>
+</ul>
+<p>A certified safe has been attack-tested by an independent body (such as ECB·S or VdS). An uncertified safe may be well built, but there is no objective way to measure its resistance. The "insurance rating" figures shown by some UK retailers are commercial guidance, not a European certification.</p>
+
+<h3>2. Fire resistance: a separate matter</h3>
+<p>A burglary-resistant safe is not automatically fire-resistant, and a fire safe is not necessarily hard to break into. Fire ratings are separate:</p>
+<ul>
+<li><strong>EN 15659</strong>: classes <strong>LFS 30 P</strong> and <strong>LFS 60 P</strong>, meaning 30 or 60 minutes of protection for paper documents.</li>
+<li><strong>EN 1047-1</strong>: a more demanding standard, with classes for paper (P) and for data media (D, DIS).</li>
+<li><strong>NT Fire 017</strong>: a widely used Nordic test, with classes such as "60 Paper" or "120 Paper".</li>
+</ul>
+<p>Note that "Paper" or "P" means the inside stays cool enough for paper, not for a USB flash drive, a hard drive or film negatives, which tolerate far less heat. For those you need a "Data" or "DIS" rating.</p>
+
+<h3>3. How it opens</h3>
+<p>Fingerprint, PIN, app or key: most models combine several methods. A fingerprint reader is quick and saves you remembering a code, but you should register several fingers (an injured or very dry finger may not read well). An app adds an access log and alerts, but depends on Bluetooth or Wi-Fi and an online account.</p>
+
+<h3>4. Power and emergency access</h3>
+<p>Electronic locks run on batteries. Check how you open the safe when they die: a mechanical override key, external contacts for an emergency battery, or an emergency code. Each has its merits, but a badly stored override key becomes the weak point of the whole system.</p>
+
+<h3>5. Anchoring, weight and capacity</h3>
+<p>A small 15 kg (33 lb) safe that isn't bolted down can be carried off under one arm. Weight and the ability to bolt the safe to a wall or floor matter as much as door thickness. For capacity, measure what you want to store: a passport and some jewellery fit in 20 litres, while a laptop or binders need more room.</p>
+
+<h2>The 5 best smart and biometric safes in 2026</h2>
+
+<h3>Burg-Wächter Combi-Line CL 20 E FS: best overall</h3>
+<p>German maker Burg-Wächter's Combi-Line range is one of the few home safes to combine a fingerprint lock, burglary certification and fire protection. The CL 20 E FS is certified <strong>EN 14450 level S2</strong> and rated <strong>LFS 30 P to EN 15659</strong>, i.e. 30 minutes of fire protection for paper.</p>
+<ul>
+<li><strong>Strengths</strong>: SecuTronic electronic lock with fingerprint module (up to 20 fingerprints according to the manufacturer), double-walled construction, 25 mm round bolts, two anchor holes in the back and two in the base, and a weight of about 55 kg (120 lb) that discourages removal.</li>
+<li><strong>Limitations</strong>: no app or smartphone alerts; mid-sized interior (about 27 litres); you will need two people to install it.</li>
+<li><strong>Best for</strong>: households that want a genuinely certified safe for jewellery, ID documents and important papers, with quick fingerprint access. The range also includes the CL 10, CL 40 and CL 60 E FS.</li>
+</ul>
+
+<h3>Yale Smart Safe: the most connected</h3>
+<p>The <strong>Yale Smart Safe</strong> (model YSS/250/EB1) goes furthest on connectivity in this selection. It is controlled through the <strong>Yale Home</strong> app over Bluetooth and becomes accessible remotely if you add the Yale Connect Wi-Fi Bridge, sold separately.</p>
+<ul>
+<li><strong>Strengths</strong>: a notification each time it is opened, access history, shareable and temporary codes, voice assistant compatibility (including Apple HomeKit and Google Assistant), two 20 mm bolts, interior light, two override keys supplied, four anchor holes in the back and base.</li>
+<li><strong>Limitations</strong>: no fingerprint reader, no EN burglary certification highlighted in its specifications, no fire protection; remote access requires the extra Wi-Fi bridge.</li>
+<li><strong>Best for</strong>: people who want to know when the safe is opened (children, roommates, caregivers) and store items of moderate value, ideally bolted down firmly.</li>
+</ul>
+
+<h3>Burg-Wächter PointSafe P 2 E FS: best value</h3>
+<p>The <strong>PointSafe P 2 E FS</strong> is a compact 21-litre furniture safe with an electronic keypad lock plus a fingerprint reader.</p>
+<ul>
+<li><strong>Strengths</strong>: opens by code or fingerprint, mechanical override key, 18 mm bolts, 4 mm steel door, concealed hinges, anchor holes in the back and base with hardware supplied, and a compact size (about 14 kg, or 31 lb) that fits easily in a closet or cabinet.</li>
+<li><strong>Limitations</strong>: no EN 14450 certification, no fire protection, no app. Its 2 mm steel body makes it a deterrent rather than a real barrier against a well-equipped burglar.</li>
+<li><strong>Best for</strong>: a first biometric safe for passports, some cash and everyday jewellery, provided you bolt it to a wall or floor.</li>
+</ul>
+
+<h3>Master Lock LX110BEURHRO: the roomiest entry-level biometric safe</h3>
+<p>Master Lock's large biometric safe offers <strong>25.4 litres</strong> in a flat format that takes a laptop or full-size (A4) documents.</p>
+<ul>
+<li><strong>Strengths</strong>: stores 30 fingerprints, two motorized steel bolts, concealed hinge, interior light, lined floor to prevent scratches, two override keys and a battery jump kit for dead batteries, anchoring hardware included.</li>
+<li><strong>Limitations</strong>: no EN burglary certification or fire rating mentioned by the manufacturer, no app; runs on four AA batteries, not included.</li>
+<li><strong>Best for</strong>: people who mainly need space for a laptop, tablet and paperwork, with simple fingerprint access for the whole family.</li>
+</ul>
+
+<h3>Phoenix Next LS7001FB: the premium choice for fire protection</h3>
+<p>British maker Phoenix designed its Next series as high-end safes for jewellery and documents. The <strong>LS7001FB</strong> (black finish) is rated <strong>60 Paper to NT Fire 017</strong>, i.e. 60 minutes of fire protection for paper.</p>
+<ul>
+<li><strong>Strengths</strong>: up to 128 fingerprints or code entry, anti-tamper lockout and internal alarm, three-sided locking, 47 litres with a felt-lined drawer and removable shelf, and a weight of about 107 kg (235 lb).</li>
+<li><strong>Limitations</strong>: the specifications highlight fire protection rather than an EN burglary certification; it is bulky and heavy, so the floor must take the load and installation needs care.</li>
+<li><strong>Best for</strong>: households whose main concern is protecting documents and a jewellery collection from fire, in a piece that looks like furniture.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Opening</th><th>Burglary</th><th>Fire</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Burg-Wächter Combi-Line CL 20 E FS</td><td>Fingerprint + code</td><td>EN 14450 S2</td><td>LFS 30 P (EN 15659)</td><td>None</td><td>All-round certified protection</td></tr>
+<tr><td>Yale Smart Safe</td><td>Code, app, key</td><td>No EN certification</td><td>No</td><td>Bluetooth, Wi-Fi via bridge</td><td>Alerts and access tracking</td></tr>
+<tr><td>Burg-Wächter PointSafe P 2 E FS</td><td>Fingerprint, code, key</td><td>No EN certification</td><td>No</td><td>None</td><td>Compact first safe</td></tr>
+<tr><td>Master Lock LX110BEURHRO</td><td>Fingerprint, key</td><td>No EN certification</td><td>No</td><td>None</td><td>Laptop and full-size documents</td></tr>
+<tr><td>Phoenix Next LS7001FB</td><td>Fingerprint + code</td><td>No EN certification</td><td>60 Paper (NT Fire 017)</td><td>None</td><td>Jewellery and documents, fire risk</td></tr>
+</tbody>
+</table>
+
+<h2>Anchoring to a wall or floor: the step not to skip</h2>
+<p>A safe that isn't anchored can be carried away and opened at leisure elsewhere. The European EN 14450 and EN 1143-1 standards require safes under one tonne to have an anchoring provision, and insurers generally expect it to actually be used.</p>
+<ul>
+<li><strong>The right surface</strong>: a load-bearing concrete or solid masonry wall, or a concrete slab such as a basement floor. A drywall partition or a lightweight wood floor won't hold a safe against a crowbar.</li>
+<li><strong>The right hardware</strong>: use the anchors supplied or anchors suited to the material, following the manufacturer's instructions. Certified safes often specify the anchoring required.</li>
+<li><strong>The right place</strong>: avoid the main bedroom and the front hall closet, the first places burglars search. A discreet corner that is awkward to reach with tools is better.</li>
+<li><strong>Weight</strong>: a heavy model such as the Phoenix Next (about 107 kg, or 235 lb) means checking that the floor can take the load, especially upstairs.</li>
+</ul>
+
+<h2>Insurance: what a safe can change, and what it does not guarantee</h2>
+<p>Owning a safe doesn't automatically raise your coverage limits. Each insurer sets its own rules, but a few principles come up often:</p>
+<ul>
+<li>Home policies usually cap jewellery, valuables and cash. Some insurers accept higher amounts if these items are kept in a <strong>certified</strong> safe (EN 14450 or EN 1143-1) that is <strong>anchored</strong> properly.</li>
+<li>An uncertified safe is rarely taken into account, however solid it looks.</li>
+<li>Keep the receipt, the certificate of conformity and a photo of the installation: these are what you'll be asked for if you ever make a claim.</li>
+<li>Before buying, ask your insurer in writing which certification level it requires and for what amounts. That is the only answer that counts for your policy.</li>
+</ul>
+
+<h2>Backup key and power: plan for failure</h2>
+<p>Every electronic lock in this selection runs on batteries. Most models warn you when they run low: replace them right away and note the date in your calendar. If the batteries go completely dead, the options depend on the model: a mechanical override key (Yale Smart Safe, PointSafe, Master Lock), a jump kit that powers the lock from outside (Master Lock) or an emergency code.</p>
+<p>The override key is handy, but it bypasses both fingerprint and code. Never keep it next to the safe or in a drawer in the same room. Leave it with someone you trust or store it outside your home. With a smart safe, remember that the app is no substitute for opening it on the spot: if the network or server is down, the keypad and key are what count.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Confusing fire-resistant with burglary-resistant</strong>: a fire-rated safe can be easy to force, and vice versa.</li>
+<li><strong>Storing USB flash drives in a "Paper"-rated safe</strong>: digital media need a "Data" or "DIS" rating.</li>
+<li><strong>Not bolting the safe down</strong>: the most common and most costly mistake.</li>
+<li><strong>Registering just one finger</strong>: register at least two fingers per person, on both hands.</li>
+<li><strong>Keeping the factory code</strong>: change default codes immediately and remove unused temporary codes in the app.</li>
+<li><strong>Relying on a commercial "insurance rating"</strong>: only a European certification and your insurer's written agreement count.</li>
+</ul>
+
+<h2>Our verdict</h2>
+<p>To genuinely protect valuables, the <strong>Burg-Wächter Combi-Line CL 20 E FS</strong> is the most balanced choice: fingerprint access, EN 14450 S2 certification and 30 minutes of fire protection for paper. On a tighter budget, the <strong>PointSafe P 2 E FS</strong> brings biometric opening in a compact format that must be bolted down. To be alerted every time the door opens, the <strong>Yale Smart Safe</strong> remains the smart-safe benchmark, while the <strong>Master Lock LX110BEURHRO</strong> suits those who need space and the <strong>Phoenix Next LS7001FB</strong> those most worried about fire.</p>
+<p>A safe is only one layer of protection: combine it with an alarm and a well-secured door. To go further, read our <a href="/ca/blog/guide-securite-maison-connectee-2026">smart home security guide</a> and our article on <a href="/ca/blog/alarme-maison-sans-abonnement">home alarms with no subscription</a>.</p>`,
   },
   faq: [
     {
@@ -906,6 +1281,9 @@ export const article: BlogArticle = {
         it: "Una cassaforte a impronta digitale è affidabile?",
         nl: "Is een kluis met vingerafdrukslot betrouwbaar?",
         pl: "Czy sejf na odcisk palca działa niezawodnie?",
+        sv: "Är ett värdeskåp med fingeravtrycksläsare pålitligt?",
+        us: "Are fingerprint safes reliable?",
+        ca: "Is a fingerprint safe reliable?",
       },
       answer: {
         fr: "Oui, à condition de bien enregistrer les empreintes : au moins deux doigts par personne, sur les deux mains, pour pallier une coupure ou une peau très sèche. La fiabilité du lecteur ne dit en revanche rien de la résistance du coffre à l'effraction : c'est la certification EN 14450 ou EN 1143-1 qui renseigne sur ce point.",
@@ -915,6 +1293,9 @@ export const article: BlogArticle = {
         it: "Sì, se le impronte vengono registrate bene: almeno due dita per persona, su entrambe le mani, per ovviare a un taglio o a una pelle molto secca. L'affidabilità del lettore però non dice nulla sulla resistenza allo scasso: per quella conta la certificazione EN 14450 o EN 1143-1.",
         nl: "Ja, als u de vingerafdrukken goed registreert: minstens twee vingers per persoon, van beide handen, voor het geval van een snee of erg droge huid. Over de inbraakwerendheid zegt de lezer echter niets: daarvoor kijkt u naar de certificering volgens EN 14450 of EN 1143-1.",
         pl: "Tak, pod warunkiem że starannie zarejestrujesz odciski: co najmniej dwa palce każdej osoby, z obu dłoni – na wypadek skaleczenia lub bardzo suchej skóry. Sprawny czytnik nie mówi jednak nic o odporności sejfu na włamanie; o niej świadczy dopiero certyfikat EN 14450 lub EN 1143-1.",
+        sv: "Ja, om du registrerar fingeravtrycken ordentligt: minst två fingrar per person, på båda händerna, ifall du skulle skära dig eller få mycket torr hud. Att läsaren är pålitlig säger däremot ingenting om hur väl skåpet står emot inbrott – det är certifieringen enligt EN 14450 eller EN 1143-1 som visar det.",
+        us: "Yes, as long as you enroll fingerprints properly: at least two fingers per person, on both hands, to cover a cut or very dry skin. A reliable reader says nothing about how well the safe resists a break-in, though: that's what EN 14450 or EN 1143-1 certification tells you.",
+        ca: "Yes, provided you register fingerprints properly: at least two fingers per person, on both hands, to cover a cut or very dry skin. A reliable reader says nothing about how well the safe resists a break-in, though: that is what EN 14450 or EN 1143-1 certification tells you.",
       },
     },
     {
@@ -926,6 +1307,9 @@ export const article: BlogArticle = {
         it: "Come si apre una cassaforte elettronica con le pile scariche?",
         nl: "Hoe open je een elektronische kluis als de batterijen leeg zijn?",
         pl: "Jak otworzyć sejf elektroniczny, gdy rozładują się baterie?",
+        sv: "Hur öppnar du ett elektroniskt värdeskåp när batterierna är slut?",
+        us: "How do you open an electronic safe if the batteries are dead?",
+        ca: "How do you open an electronic safe if the batteries are dead?",
       },
       answer: {
         fr: "Selon le modèle : avec la clé mécanique de secours (Yale Smart Safe, PointSafe, Master Lock), avec un kit qui alimente la serrure depuis l'extérieur (Master Lock) ou avec un code d'urgence. Le plus simple reste de changer les piles dès le premier avertissement de batterie faible.",
@@ -935,6 +1319,9 @@ export const article: BlogArticle = {
         it: "Dipende dal modello: con la chiave meccanica di emergenza (Yale Smart Safe, PointSafe, Master Lock), con un kit che alimenta la serratura dall'esterno (Master Lock) o con un codice di emergenza. La cosa più semplice è cambiare le pile al primo avviso di batteria scarica.",
         nl: "Dat hangt af van het model: met de mechanische noodsleutel (Yale Smart Safe, PointSafe, Master Lock), met een set die het slot van buitenaf van stroom voorziet (Master Lock) of met een noodcode. Het eenvoudigst is de batterijen te vervangen bij de eerste waarschuwing.",
         pl: "To zależy od modelu: mechanicznym kluczem awaryjnym (Yale Smart Safe, PointSafe, Master Lock), za pomocą zestawu, który zasila zamek z zewnątrz (Master Lock), albo kodem awaryjnym. Najprościej jednak wymienić baterie przy pierwszym ostrzeżeniu o ich rozładowaniu.",
+        sv: "Det beror på modellen: med den mekaniska nödnyckeln (Yale Smart Safe, PointSafe, Master Lock), med ett kit som driver låset utifrån (Master Lock) eller med en nödkod. Enklast är att byta batterierna så fort den första varningen om låg batterinivå dyker upp.",
+        us: "It depends on the model: with the mechanical override key (Yale Smart Safe, PointSafe, Master Lock), with a kit that powers the lock from outside (Master Lock) or with an emergency code. The simplest approach is to replace the batteries at the first low-battery warning.",
+        ca: "It depends on the model: with the mechanical override key (Yale Smart Safe, PointSafe, Master Lock), with a kit that powers the lock from outside (Master Lock) or with an emergency code. The simplest approach is to replace the batteries at the first low-battery warning.",
       },
     },
     {
@@ -946,6 +1333,9 @@ export const article: BlogArticle = {
         it: "Bisogna per forza fissare una cassaforte a muro o a pavimento?",
         nl: "Moet een kluis verplicht aan muur of vloer worden vastgezet?",
         pl: "Czy sejf trzeba koniecznie przymocować do ściany lub podłogi?",
+        sv: "Måste ett värdeskåp skruvas fast i vägg eller golv?",
+        us: "Do you have to bolt a safe to the wall or floor?",
+        ca: "Do you have to bolt a safe to the wall or floor?",
       },
       answer: {
         fr: "Pour un coffre de moins d'une tonne, c'est fortement recommandé : sans ancrage, il peut être emporté et ouvert ailleurs. Les normes EN 14450 et EN 1143-1 prévoient un dispositif d'ancrage, et les assureurs exigent souvent qu'il soit utilisé. Fixez-le dans du béton ou de la maçonnerie pleine, jamais dans une cloison en plaques de plâtre.",
@@ -955,6 +1345,9 @@ export const article: BlogArticle = {
         it: "Per una cassaforte sotto una tonnellata è fortemente consigliato: senza ancoraggio può essere portata via e aperta altrove. Le norme EN 14450 ed EN 1143-1 prevedono un sistema di ancoraggio e le assicurazioni spesso ne richiedono l'uso. Fissatela nel calcestruzzo o in muratura piena, mai nel cartongesso.",
         nl: "Bij een kluis van minder dan een ton is het sterk aan te raden: zonder verankering kan hij worden meegenomen en elders worden opengebroken. EN 14450 en EN 1143-1 schrijven een verankeringsmogelijkheid voor en verzekeraars eisen vaak dat die wordt gebruikt. Bevestig hem in beton of massief metselwerk, nooit in gipsplaat.",
         pl: "Jeśli sejf waży mniej niż tonę, zdecydowanie tak: niezakotwiony można wynieść i otworzyć w innym miejscu. Normy EN 14450 i EN 1143-1 przewidują system kotwienia, a ubezpieczyciele często wymagają, by z niego korzystać. Mocuj sejf do betonu lub pełnego muru, nigdy do ścianki z płyt gipsowo-kartonowych.",
+        sv: "Det är något vi starkt rekommenderar för alla värdeskåp under ett ton: utan förankring kan det bäras i väg och brytas upp någon annanstans. EN 14450 och EN 1143-1 kräver att skåpet är förberett för förankring, och försäkringsbolagen kräver ofta att den används. Skruva fast det i betong eller massivt murverk, aldrig i en gipsvägg.",
+        us: "For any safe under 1 metric ton (about 2,200 lb), it's strongly recommended: without anchoring, it can be carried off and opened elsewhere. EN 14450 and EN 1143-1 require an anchoring provision, and insurers often require it to be used. Bolt it into concrete or solid masonry, never into drywall.",
+        ca: "For any safe under one tonne it is strongly advised: without anchoring it can be carried off and opened elsewhere. EN 14450 and EN 1143-1 require an anchoring provision, and insurers often require it to be used. Anchor it to concrete or solid masonry, never to drywall.",
       },
     },
     {
@@ -966,6 +1359,9 @@ export const article: BlogArticle = {
         it: "Una cassaforte ignifuga protegge chiavette USB e dischi rigidi?",
         nl: "Beschermt een brandkluis ook usb-sticks en harde schijven?",
         pl: "Czy sejf ognioodporny chroni pendrive’y i dyski twarde?",
+        sv: "Skyddar ett brandsäkert värdeskåp USB-minnen och hårddiskar?",
+        us: "Does a fireproof safe protect USB flash drives and hard drives?",
+        ca: "Does a fireproof safe protect USB flash drives and hard drives?",
       },
       answer: {
         fr: "Pas forcément. Les classements « Paper » ou « P » (LFS 30 P, LFS 60 P, 60 Paper) garantissent une température intérieure adaptée au papier, trop élevée pour les supports numériques. Pour eux, il faut un classement « Data » ou « DIS », par exemple selon EN 1047-1.",
@@ -975,6 +1371,9 @@ export const article: BlogArticle = {
         it: "Non necessariamente. Le classi «Paper» o «P» (LFS 30 P, LFS 60 P, 60 Paper) mantengono l'interno a una temperatura adatta alla carta, ma troppo alta per i supporti digitali. Per questi serve una classe «Data» o «DIS», ad esempio secondo EN 1047-1.",
         nl: "Niet per se. Klassen met \"Paper\" of \"P\" (LFS 30 P, LFS 60 P, 60 Paper) houden de binnenkant koel genoeg voor papier, maar te warm voor digitale dragers. Daarvoor is een klasse \"Data\" of \"DIS\" nodig, bijvoorbeeld volgens EN 1047-1.",
         pl: "Niekoniecznie. Klasy „Paper” lub „P” (LFS 30 P, LFS 60 P, 60 Paper) gwarantują temperaturę wewnątrz bezpieczną dla papieru, ale zbyt wysoką dla nośników cyfrowych. Do ich ochrony potrzebna jest klasa „Data” lub „DIS”, np. według EN 1047-1.",
+        sv: "Inte nödvändigtvis. Klassningar för ”Paper” eller ”P” (LFS 30 P, LFS 60 P, 60 Paper) håller temperaturen inuti på en nivå som papper klarar, men den är för hög för digitala medier. För dem behövs en klassning för ”Data” eller ”DIS”, till exempel enligt EN 1047-1.",
+        us: "Not necessarily. \"Paper\" or \"P\" ratings (LFS 30 P, LFS 60 P, 60 Paper) keep the inside cool enough for paper, but too hot for digital media. For those you need a \"Data\" or \"DIS\" rating, for example under EN 1047-1.",
+        ca: "Not necessarily. \"Paper\" or \"P\" ratings (LFS 30 P, LFS 60 P, 60 Paper) keep the inside cool enough for paper, but too hot for digital media. For those you need a \"Data\" or \"DIS\" rating, for example to EN 1047-1.",
       },
     },
     {
@@ -986,6 +1385,9 @@ export const article: BlogArticle = {
         it: "Un hacker può aprire a distanza una cassaforte connessa?",
         nl: "Kan een hacker een verbonden kluis op afstand openen?",
         pl: "Czy haker może zdalnie otworzyć inteligentny sejf?",
+        sv: "Kan en hackare öppna ett uppkopplat värdeskåp på distans?",
+        us: "Can a hacker open a smart safe remotely?",
+        ca: "Can a hacker open a smart safe remotely?",
       },
       answer: {
         fr: "Le risque principal est l'accès à votre compte, plus qu'une attaque de la serrure elle-même. Protégez l'application avec un mot de passe unique et robuste, activez la double authentification si elle est proposée, installez les mises à jour et supprimez les codes temporaires inutiles. Et gardez à l'esprit qu'un coffre peu résistant reste vulnérable à une simple attaque physique.",
@@ -995,6 +1397,9 @@ export const article: BlogArticle = {
         it: "Il rischio principale è l'accesso al vostro account, più che un attacco alla serratura stessa. Proteggete l'app con una password unica e robusta, attivate l'autenticazione a due fattori se disponibile, installate gli aggiornamenti ed eliminate i codici temporanei inutili. E ricordate che una cassaforte poco resistente resta vulnerabile a un semplice attacco fisico.",
         nl: "Het grootste risico is dat iemand toegang krijgt tot uw account, eerder dan een aanval op het slot zelf. Beveilig de app met een uniek, sterk wachtwoord, schakel tweestapsverificatie in als die beschikbaar is, installeer updates en verwijder ongebruikte tijdelijke codes. En onthoud dat een zwak gebouwde kluis kwetsbaar blijft voor een eenvoudige fysieke aanval.",
         pl: "Większym zagrożeniem jest przejęcie Twojego konta niż atak na sam zamek. Zabezpiecz aplikację unikalnym, silnym hasłem, włącz uwierzytelnianie dwuskładnikowe (jeśli jest dostępne), instaluj aktualizacje i usuwaj niepotrzebne kody tymczasowe. Pamiętaj też, że mało odporny sejf wciąż można po prostu sforsować fizycznie.",
+        sv: "Den största risken är att någon kommer åt ditt konto, snarare än ett angrepp på själva låset. Skydda appen med ett unikt och starkt lösenord, aktivera tvåfaktorsautentisering om funktionen finns, installera uppdateringar och ta bort tillfälliga koder som inte används. Och kom ihåg att ett klent byggt värdeskåp ändå är sårbart för ett enkelt fysiskt angrepp.",
+        us: "The main risk is someone gaining access to your account rather than an attack on the lock itself. Protect the app with a unique, strong password, enable two-factor authentication if offered, install updates and delete unused temporary codes. And remember that a weakly built safe remains vulnerable to a simple physical attack.",
+        ca: "The main risk is someone gaining access to your account rather than an attack on the lock itself. Protect the app with a unique, strong password, enable two-factor authentication if offered, install updates and delete unused temporary codes. And remember that a weakly built safe remains vulnerable to a simple physical attack.",
       },
     },
     {
@@ -1006,6 +1411,9 @@ export const article: BlogArticle = {
         it: "Con una cassaforte l'assicurazione rimborsa di più?",
         nl: "Keert de verzekering meer uit als je een kluis hebt?",
         pl: "Czy dzięki sejfowi dostanę wyższe odszkodowanie z ubezpieczenia?",
+        sv: "Ger ett värdeskåp bättre ersättning från försäkringen?",
+        us: "Will a safe get you better insurance coverage?",
+        ca: "Will a safe get you better insurance coverage?",
       },
       answer: {
         fr: "Parfois, mais pas automatiquement. Certains assureurs relèvent les plafonds pour les bijoux et espèces si le coffre est certifié (EN 14450 ou EN 1143-1) et correctement ancré ; un coffre non certifié est rarement pris en compte. Demandez les conditions exactes par écrit à votre assureur avant l'achat et conservez facture, certificat et photo de l'installation.",
@@ -1015,6 +1423,9 @@ export const article: BlogArticle = {
         it: "A volte, ma non automaticamente. Alcune compagnie alzano i massimali per gioielli e contanti se la cassaforte è certificata (EN 14450 o EN 1143-1) e ancorata correttamente; una cassaforte non certificata viene raramente considerata. Chiedete le condizioni esatte per iscritto prima dell'acquisto e conservate fattura, certificato e una foto dell'installazione.",
         nl: "Soms, maar niet automatisch. Sommige verzekeraars verhogen de limieten voor sieraden en contant geld als de kluis gecertificeerd is (EN 14450 of EN 1143-1) en goed verankerd; een niet-gecertificeerde kluis telt zelden mee. Vraag de exacte voorwaarden vóór de aankoop schriftelijk op en bewaar factuur, certificaat en een foto van de installatie.",
         pl: "Czasem tak, ale nie automatycznie. Niektórzy ubezpieczyciele podnoszą limity dla biżuterii i gotówki, jeśli sejf ma certyfikat (EN 14450 lub EN 1143-1) i jest prawidłowo zakotwiony; sejf bez certyfikatu rzadko jest brany pod uwagę. Przed zakupem poproś ubezpieczyciela o dokładne warunki na piśmie, a potem zachowaj fakturę, certyfikat i zdjęcie zamontowanego sejfu.",
+        sv: "Ibland, men inte automatiskt. Vissa försäkringsbolag höjer taket för smycken och kontanter om värdeskåpet är certifierat (EN 14450 eller EN 1143-1) och ordentligt förankrat; ett skåp utan certifiering räknas sällan. Be försäkringsbolaget om de exakta villkoren skriftligt innan du köper, och spara kvitto, certifikat och ett foto av installationen.",
+        us: "Sometimes, but not automatically. Some insurers raise limits for jewelry and cash if the safe is certified (EN 14450 or EN 1143-1) and properly anchored; an uncertified safe is rarely taken into account. Ask your insurer for the exact conditions in writing before you buy, and keep the receipt, the certificate and a photo of the installation.",
+        ca: "Sometimes, but not automatically. Some insurers raise limits for jewellery and cash if the safe is certified (EN 14450 or EN 1143-1) and properly anchored; an uncertified safe is rarely taken into account. Ask your insurer for the exact conditions in writing before buying, and keep the receipt, certificate and a photo of the installation.",
       },
     },
   ],

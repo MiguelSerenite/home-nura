@@ -910,6 +910,396 @@ const contentPl = `<p><strong>W 2026 roku najlepszym inteligentnym grillem do wi
 <h2>Nasz werdykt</h2>
 <p><strong>Weber Searwood 600</strong> to w 2026 roku najbardziej kompletny inteligentny grill: wędzi, obsmaża, steruje się nim przez Wi-Fi i Bluetooth, a w zestawie ma dwie sondy. <strong>Ninja Woodfire Pro Connect XL</strong> to najlepsze rozwiązanie na balkon lub przy mniejszym budżecie, pod warunkiem że zaakceptujesz mniejszą powierzchnię grillowania. <strong>Weber Genesis EPX-335 Smart</strong> pasuje do tych, którzy pozostają wierni gazowi. Miłośnicy czystego wędzenia sięgną po Traeger Woodridge Pro, osoby przyjmujące duże grono gości po Ironwood XL, a puryści węgla po Masterbuilt AutoIgnite Series 545. Aby wyposażyć resztę przestrzeni na zewnątrz, zajrzyj też do naszego <a href="/pl/blog/guide-jardin-connecte-2026">poradnika o inteligentnym ogrodzie</a>.</p>`
 
+const contentSv = `<p><strong>Den bästa smarta grillen för de flesta trädgårdar 2026 är Weber Searwood 600</strong>: en pelletsgrill som styrs via wifi och klarar både långsam rökning på låg värme och bryning på hög värme. På en balkong eller en liten uteplats är den kompakta elgrillen <strong>Ninja Woodfire Pro Connect XL</strong> det klokaste valet, medan <strong>Weber Genesis EPX-335 Smart</strong> passar dig som hellre grillar snabbt med gasol.</p>
+<p>Den här jämförelsen handlar om själva grillarna, inte om termometrar. Den bygger på tillverkarnas produktblad, oberoende utvärderingar som publicerats i Europa och verifierade köparomdömen. Vill du bara göra din befintliga grill ”smart” räcker det ofta med en trådlös stektermometer: vår <a href="/sv/blog/barbecue-connecte-thermometre-guide">guide till smarta stektermometrar</a> går igenom det alternativet.</p>
+
+<h2>Vad är egentligen en smart grill?</h2>
+<p>En smart grill har en elektronisk styrenhet som är kopplad till en app i mobilen via wifi, ibland också via Bluetooth. Vad appen kan göra beror på tekniken:</p>
+<ul>
+<li><strong>Pelletsgrill</strong>: en matarskruv transporterar träpellets till en brännkopp och en fläkt reglerar förbränningen. I appen kan du <strong>ställa in temperaturen på distans</strong> och starta ett program eller ett rökläge. Det ger den mest kompletta styrningen.</li>
+<li><strong>Kolgrill med fläkt</strong> (som Masterbuilt AutoIgnite): grillkolet faller ner från en behållare och en digital fläkt håller den inställda temperaturen. Även här ställer du in temperaturen från mobilen.</li>
+<li><strong>Smart elgrill</strong> (som Ninja Woodfire): grillen värms av ett elektriskt element, temperatur och tillagningslägen ställs in i appen och en givare är inbyggd.</li>
+<li><strong>Smart gasolgrill</strong>: appen visar grillens och givarnas temperatur och skickar notiser, men <strong>brännarna regleras fortfarande för hand</strong> med vreden. Det är övervakning snarare än styrning.</li>
+</ul>
+
+<h2>Så väljer du rätt</h2>
+<h3>Bränsle och var du ska grilla</h3>
+<p>Börja här, innan du ens tittar på uppkopplingen. Pellets och kol ger den tydligaste röksmaken, men de ryker och kräver ordentligt med plats utomhus. En gasolgrill blir snabbt varm och brinner rent, men du måste ha plats att förvara en gasolflaska. En elgrill är det enklaste alternativet i lägenhet, förutsatt att husets regler tillåter det (se nedan). Tänk på att även en pelletsgrill behöver ett 230 V-uttag: matarskruven, fläkten och styrenheten går på el.</p>
+<h3>Temperaturspann</h3>
+<p>En bra smart grill ska klara både låg värme (rökning vid ca 80–110 °C) och hög värme för bryning. Traditionella pelletsgrillar stannar ofta vid omkring 260 °C. Weber Searwood når 315 °C och Masterbuilt 545 hela 340 °C, vilket gör stor skillnad när du grillar.</p>
+<h3>Inbyggda givare</h3>
+<p>Kontrollera hur många temperaturgivare som medföljer och hur många uttag grillen har för dem. En givare räcker för en stek. Två eller fler kommer till nytta så fort du grillar flera köttbitar samtidigt.</p>
+<h3>App och uppkoppling</h3>
+<p>Med wifi kan du hålla koll på grillningen var du än är, så länge hemnätverket når ut i trädgården. Bluetooth, om det finns, fungerar som reserv på kort avstånd. Titta också på funktionerna du har nytta av i vardagen: temperaturkurvor, notiser när maten är klar, timer, guidade recept och varning när pelletsen börjar ta slut.</p>
+<h3>Storlek och utrymme</h3>
+<p>En familj på fyra behöver ingen XL-modell. Stora pelletsgrillar är ofta över 1,2 meter breda inklusive sidoborden: mät uteplatsen innan du bestämmer dig.</p>
+
+<h2>De 6 bästa smarta grillarna 2026</h2>
+
+<h3>1. Weber Searwood 600 – bäst totalt</h3>
+<p><strong>Weber Searwood 600</strong> åtgärdar det som pelletsgrillar oftast får kritik för: att de har svårt att bryna. Temperaturspannet är 80–315 °C, och DirectFlame-systemet släpper fram lågan direkt mot maten, så att du får riktiga grillränder. Enligt Weber når den rätt temperatur på högst 15 minuter.</p>
+<p>Den har både <strong>wifi och Bluetooth</strong> och styrs med appen Weber Connect: temperaturkurvor i realtid, notiser när maten är klar och guidade recept. Två givare medföljer och kopplas in i två inbyggda uttag. Uppsamlingskärlet för fett och aska töms framifrån. Med en stekhällsinsats (säljs separat) blir grillen en plancha.</p>
+<ul>
+<li><strong>Styrkor</strong>: bryner på riktigt, dubbel uppkoppling, två givare ingår, stekhällsinsats finns som tillbehör.</li>
+<li><strong>Svagheter</strong>: tar lika stor plats som en vanlig trädgårdsgrill, kräver ett eluttag utomhus, hör till premiumklassen.</li>
+<li><strong>Passar för</strong>: dig som vill ha en och samma grill för helgens rökning och vardagens grillning.</li>
+</ul>
+
+<h3>2. Traeger Woodridge Pro – den mest lättanvända pelletsgrillen</h3>
+<p>Woodridge-serien lanserades 2024 och är Traegers instegsserie bland de uppkopplade grillarna. <strong>Traeger Woodridge Pro</strong> klarar 74–260 °C och har två gallernivåer, ett Super Smoke-läge för extra röksmak och ett varmhållningsläge. WiFIRE-styrenheten med färgskärm styrs från Traegers app, där du också ser pelletsnivån tack vare en inbyggd sensor.</p>
+<p>En givare med sladd medföljer. Pelletsbehållaren rymmer ca 11 kg pellets, och en tömningslucka gör det snabbt att byta träslag. EZ-Clean-systemet samlar fett och aska i ett och samma kärl.</p>
+<ul>
+<li><strong>Styrkor</strong>: mycket lätt att använda, appen har gott om recept, pelletssensor, stor grillyta.</li>
+<li><strong>Svagheter</strong>: max 260 °C, så den bryner sämre än Searwood; bara en givare medföljer.</li>
+<li><strong>Passar för</strong>: dig som gillar rökt mat och långsam tillagning och vill ha en grill som är klar att använda direkt.</li>
+</ul>
+
+<h3>3. Traeger Ironwood XL – för stora sällskap</h3>
+<p><strong>Traeger Ironwood XL</strong> är byggd för många gäster. Den isolerade konstruktionen och tekniken Smart Combustion håller temperaturen mycket stabil, även när det är kyligt ute. Det justerbara gallret i två nivåer ger ca 0,6 m² grillyta, vilket räcker till flera stekar eller många revbensspjäll.</p>
+<p>Med WiFIRE-styrenheten ställer du in temperaturen, håller koll på givarna, sätter timer och bläddrar i receptbiblioteket i Traegers app.</p>
+<ul>
+<li><strong>Styrkor</strong>: stabil värme, mycket stor grillyta, stort utbud av tillbehör.</li>
+<li><strong>Svagheter</strong>: mycket skrymmande och tung, hör till premiumklassen, i största laget för ett par.</li>
+<li><strong>Passar för</strong>: storfamiljer och dig som ofta har gäster.</li>
+</ul>
+
+<h3>4. Weber Genesis EPX-335 Smart – den uppkopplade gasolgrillen</h3>
+<p><strong>Weber Genesis EPX-335 Smart</strong> är en gasolgrill med tre brännare och en inbyggd digital termometer med wifi. Den visar temperaturen i grillen och från den medföljande givaren, och appen Weber Connect skickar notiser i realtid. Dessutom finns en kraftfull brynbrännare, en extra stor brynzon, en sidobrännare och LED-belysning i handtaget.</p>
+<p>Viktigt att veta: appen övervakar, men lågan regleras fortfarande för hand med vreden. Det är logiskt för en gasolgrill och räcker gott för grillning, där någon ändå behöver stå vid grillen.</p>
+<ul>
+<li><strong>Styrkor</strong>: blir snabbt varm, kraftfull bryning, hög byggkvalitet och lång garanti.</li>
+<li><strong>Svagheter</strong>: temperaturen går inte att styra på distans, bara en givare medföljer, begränsad röksmak.</li>
+<li><strong>Passar för</strong>: dig som gillar att grilla med gasol och vill ha notiser utan att ändra dina vanor.</li>
+</ul>
+
+<h3>5. Masterbuilt AutoIgnite Series 545 – kolgrill med digital styrning</h3>
+<p><strong>Masterbuilt AutoIgnite Series 545</strong> kombinerar grillkol med digital bekvämlighet. Den automatiska tändningen QuickStart sätter eld på tändkuben med ett knapptryck, och sedan håller fläkten DigitalFan den temperatur du har valt, var som helst mellan 120 och 340 °C. Den lilla behållaren MiniHopper rymmer ca 3 kg briketter, vilket räcker till upp till 8 timmars grillning utan påfyllning.</p>
+<p>I Masterbuilts app (via wifi) ställer du in temperaturen, följer upp till fyra givare och startar timer. Grillytan är ca 0,35 m², med galler i gjutjärn och ett varmhållningsgaller.</p>
+<ul>
+<li><strong>Styrkor</strong>: äkta kolsmak, hög temperatur, medelstor, styrs på distans.</li>
+<li><strong>Svagheter</strong>: rök och aska från kolet, passar inte på de flesta balkonger, relativt ny serie i Europa.</li>
+<li><strong>Passar för</strong>: kolpurister som vill ha den jämna värme en elektronisk styrenhet ger.</li>
+</ul>
+
+<h3>6. Ninja Woodfire Pro Connect XL – den kompakta elgrillen</h3>
+<p><strong>Ninja Woodfire Pro Connect XL</strong> är en elgrill för utomhusbruk som du ställer på ett bord. Den har sju funktioner: grillning, rökning, varmluftsfritering (airfryer), ugnsstekning, bakning, torkning och återuppvärmning. En liten skopa pellets i den särskilda rökboxen ger röksmak, utan att grillen har någon brännkopp.</p>
+<p>I appen Ninja Pro Connect ställer du in temperaturen mellan 65 och 260 °C, följer tillagningen och får notiser. En givare är inbyggd, och en till finns som tillbehör. Grillplattan mäter ca 45 × 29 cm.</p>
+<ul>
+<li><strong>Styrkor</strong>: kompakt, mångsidig, eldriven, enkel app, den mest överkomliga prisklassen i urvalet.</li>
+<li><strong>Svagheter</strong>: grillytan räcker bara för 4–6 personer, bryner mindre intensivt än en grill med öppen låga, svag men märkbar rök i rökläget.</li>
+<li><strong>Passar för</strong>: balkonger, små uteplatser och hushåll som vill ha en mångsidig apparat.</li>
+</ul>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Bränsle</th><th>Uppgiven temperatur</th><th>Uppkoppling</th><th>Givare</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Weber Searwood 600</td><td>Pellets</td><td>80–315 °C</td><td>Wifi + Bluetooth</td><td>2 medföljer</td><td>Både rökning och bryning</td></tr>
+<tr><td>Traeger Woodridge Pro</td><td>Pellets</td><td>74–260 °C</td><td>Wifi (WiFIRE)</td><td>1 medföljer</td><td>Enkel rökning</td></tr>
+<tr><td>Traeger Ironwood XL</td><td>Pellets</td><td>Upp till 260 °C</td><td>Wifi (WiFIRE)</td><td>Inbyggda uttag</td><td>Stora sällskap</td></tr>
+<tr><td>Weber Genesis EPX-335 Smart</td><td>Gasol</td><td>Beror på brännarna</td><td>Wifi (övervakning)</td><td>1 medföljer</td><td>Snabb grillning</td></tr>
+<tr><td>Masterbuilt AutoIgnite Series 545</td><td>Kol</td><td>120–340 °C</td><td>Wifi</td><td>Upp till 4</td><td>Kolsmak med jämn värme</td></tr>
+<tr><td>Ninja Woodfire Pro Connect XL</td><td>El</td><td>65–260 °C</td><td>Wifi</td><td>1 inbyggd</td><td>Balkong, litet utrymme</td></tr>
+</tbody>
+</table>
+<p>Alla modeller hittar du i vår kategori <a href="/sv/outdoor-connecte/barbecues-connectes">smarta grillar och stekhällar</a>.</p>
+
+<h2>Hur är det med smarta stekhällar?</h2>
+<p>En stekhäll (plancha) som styrs via app är fortfarande mycket ovanlig i Europa. Elektriska stekhällar och gasolstekhällar från de vanliga märkena ställs in med termostat eller vred, utan app. Stekhällarna i Weber Slate-serien visar yttemperaturen på en digital display men går inte att styra från mobilen. Vill du laga mat på stekhäll och samtidigt kunna styra den på distans finns två realistiska lösningar: stekhällsinsatsen till Weber Searwood, vars temperatur du ställer in via Weber Connect, eller en vanlig stekhäll tillsammans med en uppkopplad stektermometer för tjockare bitar.</p>
+
+<h2>Pellets, gasol eller el: vad passar på balkongen?</h2>
+<p>På en balkong är el nästan alltid det säkraste alternativet och det som oftast är tillåtet. Men flera regler kan gälla, och de skiljer sig åt mellan länder och fastigheter:</p>
+<ul>
+<li><strong>Hyresavtalet eller föreningens ordningsregler</strong> kan förbjuda grillning helt, eller bara kol och gasol. Läs dem innan du köper.</li>
+<li><strong>Lokala regler</strong> (kommunala föreskrifter, regler om brandskydd, husets anvisningar) kan sätta gränser för rök och brandrisk.</li>
+<li><strong>Grannarna</strong>: även där grillning är tillåten kan det räknas som en olägenhet om röken ofta driver in genom grannarnas fönster. Rökläget ger rök, även på en elgrill.</li>
+</ul>
+<p>Är du osäker, fråga hyresvärden eller föreningens styrelse. Undvik kol och pellets om balkongen har tak eller är smal.</p>
+
+<h2>Installation och säkerhet</h2>
+<ul>
+<li>Använd bara grillen utomhus, aldrig under ett slutet skärmtak eller i ett garage.</li>
+<li>Håll de säkerhetsavstånd som anges i bruksanvisningen till väggar, häckar, parasoller och markiser.</li>
+<li>Anslut el- och pelletsmodeller till ett utomhusuttag som är skyddat av en jordfelsbrytare. Är du osäker, låt en behörig elektriker kontrollera installationen. Undvik förlängningssladdar som inte är avsedda för utomhusbruk.</li>
+<li>För gasol: kontrollera regulator och slang, läcksök med såpvatten och förvara gasolflaskan enligt bruksanvisningen och husets regler.</li>
+<li>Fjärrstyrningen ersätter inte tillsyn: stanna i närheten när du grillar på hög värme och håll barn och husdjur på avstånd.</li>
+<li>Töm fett- och askkärlen regelbundet, så minskar risken för uppflammningar.</li>
+</ul>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa för stort</strong>: en XL-grill drar mer bränsle och tar längre tid att bli varm.</li>
+<li><strong>Att glömma wifi-täckningen i trädgården</strong>: kontrollera signalen där grillen ska stå. Du kan behöva en räckviddsförlängare.</li>
+<li><strong>Att blanda ihop övervakning och styrning</strong>: på en smart gasolgrill varnar appen men reglerar inte lågan.</li>
+<li><strong>Att använda värmepellets</strong>: till matlagning ska du bara använda pellets som är avsedda för livsmedel.</li>
+<li><strong>Att slarva med rengöringen</strong>: ett fullt askkärl stör förbränningen och temperaturregleringen.</li>
+</ul>
+
+<h2>Vårt omdöme</h2>
+<p><strong>Weber Searwood 600</strong> är den mest kompletta smarta grillen 2026: den röker, den bryner, den styrs via både wifi och Bluetooth och levereras med två givare. <strong>Ninja Woodfire Pro Connect XL</strong> är den bästa lösningen för en balkong eller en snävare budget, om du kan leva med en mindre grillyta. <strong>Weber Genesis EPX-335 Smart</strong> passar dig som håller fast vid gasolen. Vill du framför allt röka mat väljer du Traeger Woodridge Pro, har du ofta många gäster Ironwood XL och är du kolpurist Masterbuilt AutoIgnite Series 545. Vill du utrusta resten av uteplatsen, läs också vår <a href="/sv/blog/guide-jardin-connecte-2026">guide till den smarta trädgården</a>.</p>`
+
+const contentUs = `<p><strong>In 2026, the best smart grill for most backyards is the Weber Searwood 600</strong>: a Wi-Fi pellet grill that's as good at low-and-slow smoking as it is at high-heat searing. For a balcony or small patio, the compact electric <strong>Ninja Woodfire Pro Connect XL</strong> is the most sensible choice, while the <strong>Weber Genesis EPX-335 Smart</strong> suits people who prefer the speed of gas.</p>
+<p>This comparison covers the grills themselves, not thermometers. It's based on manufacturer specs, independent reviews published in Europe and feedback from verified buyers. If you just want to make a grill you already own "smart," a wireless probe is often enough: our <a href="/us/blog/barbecue-connecte-thermometre-guide">smart meat thermometer guide</a> covers that option.</p>
+
+<h2>What exactly is a smart grill?</h2>
+<p>A smart grill has an electronic controller that connects to a phone app over Wi-Fi, and sometimes over Bluetooth too. What the app can do depends on the type of grill:</p>
+<ul>
+<li><strong>Pellet grill</strong>: an auger feeds wood pellets into a fire pot while a fan manages combustion. The app can <strong>set the temperature remotely</strong> and start a cooking program or a smoke mode. This is the most complete kind of control.</li>
+<li><strong>Fan-assisted charcoal grill</strong> (such as the Masterbuilt AutoIgnite): charcoal drops from a hopper and a digital fan holds the set temperature. Here too, you adjust the temperature from your phone.</li>
+<li><strong>Smart electric grill</strong> (such as the Ninja Woodfire): an electric heating element, temperature and cooking modes set in the app, and a built-in probe.</li>
+<li><strong>Smart gas grill</strong>: the app shows the cook box and probe temperatures and sends alerts, but <strong>you still adjust the burners by hand</strong> with the knobs. It's monitoring, not control.</li>
+</ul>
+
+<h2>How to choose</h2>
+<h3>Fuel and where you'll cook</h3>
+<p>This comes first, even before connectivity. Pellets and charcoal give the strongest smoky flavor, but they produce smoke and need real outdoor space. Gas heats up fast and burns clean, but you'll need somewhere to store a propane tank. Electric is the easiest option for apartments, as long as your building allows it (see below). Keep in mind that pellet grills need an outlet too: the auger, fan and controller all run on electricity.</p>
+<h3>Temperature range</h3>
+<p>A good smart grill should handle both low temperatures (smoking at around 175°F to 230°F, or 80–110°C) and high heat for searing. Traditional pellet grills often top out around 500°F (260°C); the Weber Searwood reaches 600°F (315°C) and the Masterbuilt 545 goes up to 645°F (340°C), which makes a real difference when you're grilling.</p>
+<h3>Built-in probes</h3>
+<p>Check how many probes come in the box and how many ports the grill has. One probe is enough for a roast; two or more help as soon as you're cooking several cuts at once.</p>
+<h3>App and connectivity</h3>
+<p>Wi-Fi lets you check on your cook from anywhere, as long as your home network reaches the backyard. Bluetooth, where it's offered, works as a short-range backup. Also look at the everyday features: live temperature graphs, doneness alerts, timers, guided recipes and low-pellet alerts.</p>
+<h3>Size and footprint</h3>
+<p>A family of four doesn't need an XL model. Large pellet grills are often more than 4 ft (1.2 m) wide with their side shelves, so measure your patio or deck before you buy.</p>
+
+<h2>The 6 best smart grills of 2026</h2>
+
+<h3>1. Weber Searwood 600 — best overall</h3>
+<p>The <strong>Weber Searwood 600</strong> fixes the biggest complaint about pellet grills: weak searing. Its temperature range runs from 175°F to 600°F (80–315°C), and the DirectFlame system exposes food to the flame for real grill marks. According to Weber, it comes up to temperature in 15 minutes or less.</p>
+<p>It offers both <strong>Wi-Fi and Bluetooth</strong> and runs on the Weber Connect app: live graphs, doneness alerts and guided recipes. Two probes are included, and they plug into two built-in ports. The grease and ash tray empties from the front. A griddle insert (sold separately) turns it into a flat-top.</p>
+<ul>
+<li><strong>Pros</strong>: genuine searing power, dual connectivity, two probes included, optional griddle insert.</li>
+<li><strong>Cons</strong>: takes up as much room as a full-size backyard grill, needs an outdoor outlet, premium price tier.</li>
+<li><strong>Best for</strong>: anyone who wants one grill for weekend smoking and weeknight grilling.</li>
+</ul>
+
+<h3>2. Traeger Woodridge Pro — the easiest pellet grill to live with</h3>
+<p>Launched in 2024, the Woodridge lineup is Traeger's entry point into smart grilling. The <strong>Traeger Woodridge Pro</strong> covers 165°F to 500°F (74–260°C) and has two grate levels, a Super Smoke mode for extra smoky flavor and a Keep Warm mode. The color-screen WiFIRE controller works with the Traeger app, which includes a pellet level sensor.</p>
+<p>One wired probe is included. The hopper holds about 24 lb (11 kg) of pellets, and a clean-out door makes it quick to switch wood flavors. The EZ-Clean system collects grease and ash in a single container.</p>
+<ul>
+<li><strong>Pros</strong>: very easy to use, an app packed with recipes, pellet sensor, large cooking area.</li>
+<li><strong>Cons</strong>: tops out at 500°F (260°C), so it doesn't sear as well as the Searwood; only one probe included.</li>
+<li><strong>Best for</strong>: smoking and slow-cooking fans who want a grill that's ready to go out of the box.</li>
+</ul>
+
+<h3>3. Traeger Ironwood XL — for big gatherings</h3>
+<p>The <strong>Traeger Ironwood XL</strong> is built to feed a crowd. Its insulated construction and Smart Combustion technology keep temperatures very steady, even in cool weather. The two-tier adjustable grate gives you roughly 930 sq in (0.6 m²) of cooking space, enough for several roasts or plenty of racks of ribs.</p>
+<p>The WiFIRE controller lets you set the temperature, monitor probes, set timers and browse the recipe library in the Traeger app.</p>
+<ul>
+<li><strong>Pros</strong>: rock-steady temperatures, very large capacity, a wide range of accessories.</li>
+<li><strong>Cons</strong>: very bulky and heavy, high-end price tier, oversized for a couple.</li>
+<li><strong>Best for</strong>: large families and people who entertain often.</li>
+</ul>
+
+<h3>4. Weber Genesis EPX-335 Smart — smart gas</h3>
+<p>The <strong>Weber Genesis EPX-335 Smart</strong> is a three-burner gas grill with a built-in Wi-Fi digital thermometer. It shows cook box and probe temperatures, and the Weber Connect app sends real-time alerts. A powerful sear burner, an extra-large sear zone, a side burner and LED handle lights round out the package.</p>
+<p>One thing to know: the app monitors, but you still control the flame by hand with the knobs. That makes sense for a gas grill, and it's plenty for grilling, which needs someone standing at the grill anyway.</p>
+<ul>
+<li><strong>Pros</strong>: fast heat-up, strong searing power, build quality and a long warranty.</li>
+<li><strong>Cons</strong>: no remote temperature control, one probe included, limited smoky flavor.</li>
+<li><strong>Best for</strong>: gas grillers who want cooking alerts without changing their habits.</li>
+</ul>
+
+<h3>5. Masterbuilt AutoIgnite Series 545 — app-controlled charcoal</h3>
+<p>The <strong>Masterbuilt AutoIgnite Series 545</strong> brings digital convenience to charcoal. QuickStart automatic ignition lights the fire starter at the push of a button, then the DigitalFan holds your chosen temperature anywhere from 250°F to 645°F (120–340°C). Its MiniHopper takes about 6.6 lb (3 kg) of briquettes, for up to 8 hours of cooking without a refill.</p>
+<p>Over Wi-Fi, the Masterbuilt app lets you set the temperature, monitor up to four probes and run timers. The cooking area is about 540 sq in (0.35 m²), with cast-iron grates and a warming rack.</p>
+<ul>
+<li><strong>Pros</strong>: real charcoal flavor, high heat, midsize footprint, remote control.</li>
+<li><strong>Cons</strong>: charcoal smoke and ash to deal with, not suited to most balconies, a newer lineup in Europe.</li>
+<li><strong>Best for</strong>: charcoal purists who want the consistency of an electronic controller.</li>
+</ul>
+
+<h3>6. Ninja Woodfire Pro Connect XL — the compact electric</h3>
+<p>The <strong>Ninja Woodfire Pro Connect XL</strong> is a tabletop electric outdoor grill with seven functions: grill, smoke, air fry, roast, bake, dehydrate and reheat. A small scoop of pellets in the dedicated smoke box adds smoky flavor, with no fire pot burning fuel.</p>
+<p>The Ninja Pro Connect app lets you set temperatures from 150°F to 500°F (65–260°C), follow your cook and get notifications. One probe is built in, and a second is available as an accessory. The cooking plate measures about 18 × 11 in (45 × 29 cm).</p>
+<ul>
+<li><strong>Pros</strong>: compact, versatile, electric, simple app, the most affordable price tier in this roundup.</li>
+<li><strong>Cons</strong>: cooking area sized for four to six people, less intense searing than a flame grill, light but noticeable smoke in smoker mode.</li>
+<li><strong>Best for</strong>: balconies, small patios and households that want one versatile appliance.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Fuel</th><th>Rated range</th><th>Connectivity</th><th>Probes</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Weber Searwood 600</td><td>Pellets</td><td>175–600°F (80–315°C)</td><td>Wi-Fi + Bluetooth</td><td>2 included</td><td>Smoking + searing</td></tr>
+<tr><td>Traeger Woodridge Pro</td><td>Pellets</td><td>165–500°F (74–260°C)</td><td>Wi-Fi (WiFIRE)</td><td>1 included</td><td>Easy smoking</td></tr>
+<tr><td>Traeger Ironwood XL</td><td>Pellets</td><td>Up to 500°F (260°C)</td><td>Wi-Fi (WiFIRE)</td><td>Built-in ports</td><td>Large gatherings</td></tr>
+<tr><td>Weber Genesis EPX-335 Smart</td><td>Gas</td><td>Depends on burners</td><td>Wi-Fi (monitoring only)</td><td>1 included</td><td>Fast grilling</td></tr>
+<tr><td>Masterbuilt AutoIgnite Series 545</td><td>Charcoal</td><td>250–645°F (120–340°C)</td><td>Wi-Fi</td><td>Up to 4</td><td>App-controlled charcoal</td></tr>
+<tr><td>Ninja Woodfire Pro Connect XL</td><td>Electric</td><td>150–500°F (65–260°C)</td><td>Wi-Fi</td><td>1 built in</td><td>Balconies, small spaces</td></tr>
+</tbody>
+</table>
+<p>Browse every model in our <a href="/us/outdoor-connecte/barbecues-connectes">smart grills and griddles</a> category.</p>
+
+<h2>What about a smart griddle?</h2>
+<p>An app-controlled flat-top griddle (often called a plancha in Europe) is still very rare among the models sold in Europe. Electric and gas griddles from mainstream brands are set with a thermostat or knobs, with no app. Weber Slate griddles show the surface temperature on a digital display but can't be controlled from a phone. If you want to cook on a flat-top with remote control, you have two realistic options: the Weber Searwood griddle insert, whose temperature you set through Weber Connect, or a regular griddle paired with a wireless meat thermometer for thicker cuts.</p>
+
+<h2>Pellet, gas or electric: what works on a balcony?</h2>
+<p>On a balcony, electric is almost always the safest and most widely accepted option. But several rules may apply, and they vary from city to city and building to building:</p>
+<ul>
+<li><strong>Your lease, condo bylaws or HOA rules</strong> may ban grills altogether, or only charcoal and gas. Read them before you buy.</li>
+<li><strong>Local rules</strong> (city ordinances, local fire codes, building policies) may restrict smoke and fire hazards.</li>
+<li><strong>Neighbors</strong>: even where grills are allowed, one that regularly sends smoke into the windows next door can count as a nuisance. Smoker mode produces smoke, even on an electric grill.</li>
+</ul>
+<p>If in doubt, check with your landlord, property manager or HOA. Skip charcoal and pellets on a covered or narrow balcony.</p>
+
+<h2>Installation and safety</h2>
+<ul>
+<li>Use the grill outdoors only, never under a closed awning or in a garage.</li>
+<li>Keep the clearances listed in the manual from walls, hedges, patio umbrellas and awnings.</li>
+<li>Plug electric and pellet models into a GFCI-protected outdoor outlet; if in doubt, have a licensed electrician check the wiring. Avoid extension cords that aren't rated for outdoor use. Models sold in Europe are built for 230 V; check that the version on your Amazon store is rated for 120 V.</li>
+<li>For gas, check the regulator and hose, leak-test the connections with soapy water and store the propane tank as the manual and your building's rules require.</li>
+<li>Remote monitoring is no substitute for supervision: stay close during high-heat cooks and keep kids and pets away.</li>
+<li>Empty the grease and ash trays regularly to reduce the risk of flare-ups.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying too big</strong>: an XL grill burns more fuel and takes longer to heat up.</li>
+<li><strong>Ignoring Wi-Fi coverage in the backyard</strong>: check the signal where the grill will sit; you may need a Wi-Fi extender.</li>
+<li><strong>Confusing monitoring with control</strong>: on a smart gas grill, the app alerts you but doesn't adjust the flame.</li>
+<li><strong>Using stove pellets</strong>: pellets sold as fuel for pellet stoves aren't made for cooking, so use food-grade grilling pellets only.</li>
+<li><strong>Skipping maintenance</strong>: a full ash pan throws off combustion and temperature control.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>The <strong>Weber Searwood 600</strong> is the most complete smart grill of 2026: it smokes, it sears, it connects over Wi-Fi and Bluetooth, and it comes with two probes. The <strong>Ninja Woodfire Pro Connect XL</strong> is the best pick for a balcony or a tighter budget, as long as you can live with a smaller cooking area. The <strong>Weber Genesis EPX-335 Smart</strong> suits anyone who's sticking with gas. Dedicated smokers will prefer the Traeger Woodridge Pro, big hosts the Ironwood XL, and charcoal purists the Masterbuilt AutoIgnite Series 545. To outfit the rest of your yard, see our <a href="/us/blog/guide-jardin-connecte-2026">smart yard guide</a>.</p>`
+
+const contentCa = `<p><strong>In 2026, the best smart grill for most backyards is the Weber Searwood 600</strong>: a Wi-Fi-controlled pellet grill that handles low-and-slow smoking as well as high-heat searing. For a balcony or small patio, the compact electric <strong>Ninja Woodfire Pro Connect XL</strong> is the most sensible choice, while the <strong>Weber Genesis EPX-335 Smart</strong> suits people who prefer the speed of gas.</p>
+<p>This comparison focuses on the grills themselves, not on thermometers. It draws on manufacturer specifications, independent reviews published in Europe and verified buyer feedback. If all you want is to make a grill you already own "smart", a wireless probe is often enough: our <a href="/ca/blog/barbecue-connecte-thermometre-guide">smart meat thermometer guide</a> covers that option.</p>
+
+<h2>What exactly is a smart grill?</h2>
+<p>A smart grill has an electronic controller that links to a phone app over Wi-Fi, and sometimes Bluetooth as well. What the app can do depends on the type of grill:</p>
+<ul>
+<li><strong>Pellet grill</strong>: an auger feeds wood pellets into a fire pot and a fan controls combustion. The app can <strong>set the temperature remotely</strong> and start a cooking program or a smoke mode. This is the most complete form of control.</li>
+<li><strong>Fan-assisted charcoal grill</strong> (such as the Masterbuilt AutoIgnite): charcoal drops from a hopper and a digital fan holds the set temperature. Here too, you adjust the temperature from your phone.</li>
+<li><strong>Smart electric grill</strong> (such as the Ninja Woodfire): an electric element, temperature and cooking modes set in the app, and a built-in probe.</li>
+<li><strong>Smart gas grill</strong>: the app shows the cook box and probe temperatures and sends alerts, but <strong>you still adjust the burners by hand</strong> with the knobs. It's monitoring rather than control.</li>
+</ul>
+
+<h2>How to choose</h2>
+<h3>Fuel and where you'll cook</h3>
+<p>This comes first, before connectivity. Pellets and charcoal give the strongest smoky flavour, but they produce smoke and need a proper outdoor space. Gas heats up quickly and cleanly but means storing a propane tank. Electric is the easiest option for apartments and condos, as long as your building allows it (see below). Note that pellet grills also need an outlet: the auger, fan and controller all run on electricity.</p>
+<h3>Temperature range</h3>
+<p>A good smart grill should handle low temperatures for smoking, around 80°C to 110°C (175°F to 230°F), and high heat for searing. Traditional pellet grills often top out at about 260°C (500°F); the Weber Searwood reaches 315°C (600°F) and the Masterbuilt 545 goes up to 340°C (645°F), which makes a real difference when you grill.</p>
+<h3>Built-in probes</h3>
+<p>Check how many probes come in the box and how many ports are available. One probe is enough for a roast; two or more help as soon as you cook several cuts at once.</p>
+<h3>App and connectivity</h3>
+<p>Wi-Fi lets you check on your cook from anywhere, provided your home network reaches the backyard. Bluetooth, where available, is a short-range fallback. Also look at the everyday features: live temperature graphs, doneness alerts, timers, guided recipes and pellet-level alerts.</p>
+<h3>Size and footprint</h3>
+<p>A family of four doesn't need an XL model. Large pellet grills are often more than 1.2 m (about 4 ft) wide once you count the side shelves, so measure your deck or patio before you buy.</p>
+
+<h2>The 6 best smart grills in 2026</h2>
+
+<h3>1. Weber Searwood 600 — best overall</h3>
+<p>The <strong>Weber Searwood 600</strong> fixes the main complaint about pellet grills: weak searing. Its temperature range runs from 80°C to 315°C (175°F to 600°F), and the DirectFlame system exposes food to the flame for proper grill marks. According to Weber, it comes up to temperature in 15 minutes at most.</p>
+<p>It combines <strong>Wi-Fi and Bluetooth</strong> and is controlled through the Weber Connect app, with live graphs, doneness alerts and guided recipes. Two probes are included and plug into two built-in ports. The grease and ash tray empties from the front. A griddle insert (sold separately) turns it into a flat-top.</p>
+<ul>
+<li><strong>Strengths</strong>: genuine searing ability, dual connectivity, two probes included, griddle insert available.</li>
+<li><strong>Limitations</strong>: full-size backyard footprint, needs an outdoor outlet, premium tier.</li>
+<li><strong>Best for</strong>: anyone who wants one appliance for weekend smoking and everyday grilling.</li>
+</ul>
+
+<h3>2. Traeger Woodridge Pro — the easiest pellet grill to live with</h3>
+<p>Launched in 2024, the Woodridge lineup is Traeger's entry point to smart grilling. The <strong>Traeger Woodridge Pro</strong> covers 74°C to 260°C (165°F to 500°F) and has two grate levels, a Super Smoke mode for extra smoky flavour and a Keep Warm mode. The colour-screen WiFIRE controller works with the Traeger app, which includes a pellet-level sensor.</p>
+<p>One wired probe is included. The hopper holds about 11 kg (24 lb) of pellets, and a clean-out door makes switching wood flavours quick. The EZ-Clean system collects grease and ash in a single bin.</p>
+<ul>
+<li><strong>Strengths</strong>: very easy to use, app packed with recipes, pellet sensor, large cooking area.</li>
+<li><strong>Limitations</strong>: tops out at 260°C (500°F), so it doesn't sear as well as the Searwood; only one probe included.</li>
+<li><strong>Best for</strong>: smoking and slow-cooking fans who want an appliance that's ready to go.</li>
+</ul>
+
+<h3>3. Traeger Ironwood XL — for big gatherings</h3>
+<p>The <strong>Traeger Ironwood XL</strong> is built for big crowds. Its insulated construction and Smart Combustion technology keep the temperature very stable, even in cool weather. The adjustable two-tier grate gives roughly 0.6 m² (about 930 sq. in.) of cooking space, enough for several roasts or plenty of racks of ribs.</p>
+<p>The WiFIRE controller lets you set the temperature, monitor probes, set timers and browse the recipe library in the Traeger app.</p>
+<ul>
+<li><strong>Strengths</strong>: stable temperatures, very large capacity, wide range of accessories.</li>
+<li><strong>Limitations</strong>: very bulky and heavy, high-end, oversized for a couple.</li>
+<li><strong>Best for</strong>: large families and people who entertain often.</li>
+</ul>
+
+<h3>4. Weber Genesis EPX-335 Smart — smart gas</h3>
+<p>The <strong>Weber Genesis EPX-335 Smart</strong> is a three-burner gas grill with a built-in Wi-Fi digital thermometer. It shows the cook box and probe temperatures, and the Weber Connect app sends real-time alerts. A powerful sear burner, an extra-large sear zone, a side burner and LED handle lights round out the package.</p>
+<p>Keep in mind that the app monitors, but you still control the flame by hand with the knobs. That makes sense for a gas appliance, and it's perfectly adequate for grilling, which needs someone standing by the grill anyway.</p>
+<ul>
+<li><strong>Strengths</strong>: fast heat-up, searing power, build quality and a long warranty.</li>
+<li><strong>Limitations</strong>: no remote temperature control, one probe included, limited smoky flavour.</li>
+<li><strong>Best for</strong>: gas fans who want cooking alerts without changing their habits.</li>
+</ul>
+
+<h3>5. Masterbuilt AutoIgnite Series 545 — controlled charcoal</h3>
+<p>The <strong>Masterbuilt AutoIgnite Series 545</strong> brings digital convenience to charcoal. QuickStart automatic ignition lights the fire starter at the push of a button, then the DigitalFan holds your chosen temperature anywhere between 120°C and 340°C (250°F and 645°F). Its MiniHopper takes about 3 kg (6.6 lb) of briquettes for up to 8 hours of cooking without a refill.</p>
+<p>Over Wi-Fi, the Masterbuilt app lets you set the temperature, monitor up to four probes and run timers. The cooking area is around 0.35 m² (about 540 sq. in.), with cast-iron grates and a warming rack.</p>
+<ul>
+<li><strong>Strengths</strong>: real charcoal flavour, high heat, mid-size format, remote control.</li>
+<li><strong>Limitations</strong>: charcoal smoke and ash, not suitable for most balconies.</li>
+<li><strong>Best for</strong>: charcoal purists who want the consistency of an electronic controller.</li>
+</ul>
+
+<h3>6. Ninja Woodfire Pro Connect XL — the compact electric</h3>
+<p>The <strong>Ninja Woodfire Pro Connect XL</strong> is a tabletop electric outdoor grill with seven functions: grill, smoker, air fry, roast, bake, dehydrate and reheat. A small scoop of pellets in the dedicated smoke box adds smoky flavour without a fire pot.</p>
+<p>The Ninja Pro Connect app lets you set the temperature between 65°C and 260°C (150°F and 500°F), follow your cook and get notifications. One probe is built in, and a second one is available as an accessory. The cooking plate measures about 45 × 29 cm (18 × 11½ in.).</p>
+<ul>
+<li><strong>Strengths</strong>: compact, versatile, electric, simple app, the most affordable tier in this lineup.</li>
+<li><strong>Limitations</strong>: cooking area sized for 4 to 6 people, less intense searing than a flame grill, light but noticeable smoke in smoker mode.</li>
+<li><strong>Best for</strong>: balconies, small patios and households that want one versatile appliance.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Fuel</th><th>Stated range</th><th>Connectivity</th><th>Probes</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Weber Searwood 600</td><td>Pellets</td><td>80–315°C (175–600°F)</td><td>Wi-Fi + Bluetooth</td><td>2 included</td><td>Smoking + searing</td></tr>
+<tr><td>Traeger Woodridge Pro</td><td>Pellets</td><td>74–260°C (165–500°F)</td><td>Wi-Fi (WiFIRE)</td><td>1 included</td><td>Easy smoking</td></tr>
+<tr><td>Traeger Ironwood XL</td><td>Pellets</td><td>Up to 260°C (500°F)</td><td>Wi-Fi (WiFIRE)</td><td>Built-in ports</td><td>Big gatherings</td></tr>
+<tr><td>Weber Genesis EPX-335 Smart</td><td>Gas</td><td>Depends on burners</td><td>Wi-Fi (monitoring)</td><td>1 included</td><td>Fast grilling</td></tr>
+<tr><td>Masterbuilt AutoIgnite Series 545</td><td>Charcoal</td><td>120–340°C (250–645°F)</td><td>Wi-Fi</td><td>Up to 4</td><td>Controlled charcoal</td></tr>
+<tr><td>Ninja Woodfire Pro Connect XL</td><td>Electric</td><td>65–260°C (150–500°F)</td><td>Wi-Fi</td><td>1 built in</td><td>Balconies, small spaces</td></tr>
+</tbody>
+</table>
+<p>Browse every model in our <a href="/ca/outdoor-connecte/barbecues-connectes">smart grills and griddles</a> category.</p>
+
+<h2>What about a smart griddle?</h2>
+<p>An app-controlled flat-top griddle (plancha) is still rare. Electric and gas griddles from the mainstream brands are set with a thermostat or knobs, with no app. Weber Slate griddles show the surface temperature on a digital display, but you can't control them from a phone. If you want to cook on a flat-top with remote control, you have two realistic options: the Weber Searwood griddle insert, whose temperature you set through Weber Connect, or a regular griddle paired with a smart wireless probe for thicker cuts.</p>
+
+<h2>Pellet, gas or electric: what works on a balcony?</h2>
+<p>On a balcony, electric is almost always the safest and most widely accepted option. But several sets of rules may apply, and they vary from one municipality and building to the next:</p>
+<ul>
+<li><strong>Your lease or condo bylaws</strong> may ban grills altogether, or only charcoal and gas models. Read them before you buy.</li>
+<li><strong>Local rules</strong> (municipal bylaws, fire safety rules, building policies) may restrict smoke and fire risks.</li>
+<li><strong>Neighbours</strong>: even where grills are allowed, one that regularly sends smoke into neighbouring windows can count as a nuisance. Smoker mode produces smoke, even on an electric unit.</li>
+</ul>
+<p>If in doubt, check with your landlord, property manager or condo board. Avoid charcoal and pellets on a covered or narrow balcony.</p>
+
+<h2>Installation and safety</h2>
+<ul>
+<li>Only use the grill outdoors, never under a closed awning or in a garage.</li>
+<li>Keep the clearances stated in the manual from walls, hedges, patio umbrellas and awnings.</li>
+<li>Plug electric and pellet models into a GFCI-protected outdoor outlet; if in doubt, have the wiring checked by a licensed electrician. Avoid extension cords that aren't rated for outdoor use.</li>
+<li>For gas, check the regulator and hose, leak-test the connections with soapy water and store the propane tank as the manual and your building's rules require.</li>
+<li>Remote monitoring is no substitute for supervision: stay close during high-heat cooking and keep children and pets away.</li>
+<li>Empty the grease and ash trays regularly to limit the risk of flare-ups.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying too big</strong>: an XL grill uses more fuel and takes longer to heat up.</li>
+<li><strong>Forgetting about Wi-Fi in the backyard</strong>: check the signal where the grill will stand; you may need a range extender.</li>
+<li><strong>Confusing monitoring with control</strong>: on a smart gas grill, the app alerts you but doesn't adjust the flame.</li>
+<li><strong>Using heating pellets</strong>: pellets made for pellet stoves don't belong in a grill; for cooking, use food-grade pellets only.</li>
+<li><strong>Skipping maintenance</strong>: a full ash pan disrupts combustion and temperature control.</li>
+</ul>
+
+<h2>Our verdict</h2>
+<p>The <strong>Weber Searwood 600</strong> is the most complete smart grill in 2026: it smokes, it sears, it connects over Wi-Fi and Bluetooth and it comes with two probes. The <strong>Ninja Woodfire Pro Connect XL</strong> is the best solution for a balcony or a tighter budget, as long as you can live with a smaller cooking area. The <strong>Weber Genesis EPX-335 Smart</strong> suits those who stay loyal to gas. Smoking enthusiasts will prefer the Traeger Woodridge Pro, people who host big crowds the Ironwood XL, and charcoal purists the Masterbuilt AutoIgnite Series 545. To equip the rest of your outdoor space, see our <a href="/ca/blog/guide-jardin-connecte-2026">smart backyard guide</a>.</p>`
+
 export const article: BlogArticle = {
   slug: 'grill-pellet-plancha-connecte-comparatif',
   category: 'comparatifs',
@@ -929,6 +1319,9 @@ export const article: BlogArticle = {
         it: 'Barbecue a pellet in acciaio inox con ripiano in legno su una terrazza all\'aperto',
         nl: 'Roestvrijstalen pelletbarbecue met houten zijplank op een terras buiten',
         pl: 'Grill peletowy ze stali nierdzewnej z drewnianą półką, ustawiony na otwartym tarasie',
+        sv: 'Pelletsgrill i rostfritt stål med sidobord i trä, uppställd på en altan',
+        us: 'Stainless steel pellet grill with a wooden side shelf set up on an outdoor deck',
+        ca: 'Stainless steel pellet grill with a wooden side shelf set up on an outdoor deck',
       },
     },
   ],
@@ -940,6 +1333,9 @@ export const article: BlogArticle = {
     it: 'Miglior Barbecue Smart 2026: Pellet, Gas, Elettrico e Plancha a Confronto',
     nl: 'Beste Slimme Barbecue 2026: Pellet, Gas, Elektrisch en Plancha Vergeleken',
     pl: 'Inteligentny grill 2026: porównanie modeli peletowych, gazowych, elektrycznych i płyt grillowych',
+    sv: 'Bästa smarta grill 2026: pellets, gasol, el och plancha jämförda',
+    us: 'Best Smart Grills of 2026: Pellet, Gas, Electric and Griddle Compared',
+    ca: 'Best Smart Grill 2026: Pellet, Gas, Electric and Griddle Compared',
   },
   excerpt: {
     fr: 'Weber Searwood 600, Traeger Woodridge Pro et Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL : quel barbecue connecté choisir en 2026, pour le jardin comme pour le balcon ?',
@@ -949,6 +1345,9 @@ export const article: BlogArticle = {
     it: 'Weber Searwood 600, Traeger Woodridge Pro e Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: quale barbecue smart scegliere nel 2026 per giardino o balcone?',
     nl: 'Weber Searwood 600, Traeger Woodridge Pro en Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: welke slimme barbecue kiest u in 2026 voor tuin of balkon?',
     pl: 'Weber Searwood 600, Traeger Woodridge Pro i Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: jaki inteligentny grill wybrać w 2026 roku – zarówno do ogrodu, jak i na balkon?',
+    sv: 'Weber Searwood 600, Traeger Woodridge Pro och Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: vilken smart grill ska du välja 2026, till trädgården eller balkongen?',
+    us: 'Weber Searwood 600, Traeger Woodridge Pro and Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: which smart grill should you buy in 2026, for the backyard or a balcony?',
+    ca: 'Weber Searwood 600, Traeger Woodridge Pro and Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: which smart grill should you choose in 2026 for a backyard or a balcony?',
   },
   content: {
     fr: contentFr,
@@ -958,6 +1357,9 @@ export const article: BlogArticle = {
     it: contentIt,
     nl: contentNl,
     pl: contentPl,
+    sv: contentSv,
+    us: contentUs,
+    ca: contentCa,
   },
   faq: [
     {
@@ -969,6 +1371,9 @@ export const article: BlogArticle = {
         it: 'Un barbecue a pellet ha bisogno di corrente elettrica?',
         nl: 'Heeft een pelletbarbecue elektriciteit nodig?',
         pl: 'Czy grill peletowy potrzebuje prądu?',
+        sv: 'Behöver en pelletsgrill el?',
+        us: 'Does a pellet grill need electricity?',
+        ca: 'Does a pellet grill need electricity?',
       },
       answer: {
         fr: 'Oui. La vis sans fin, le ventilateur, l\'allumage et le contrôleur Wi-Fi fonctionnent sur une prise 230 V. Prévoyez une prise extérieure protégée par un différentiel près de l\'emplacement du barbecue.',
@@ -978,6 +1383,9 @@ export const article: BlogArticle = {
         it: 'Sì. Coclea, ventola, accensione e controller Wi-Fi funzionano con una presa a 230 V. Prevedete una presa esterna protetta da differenziale vicino al barbecue.',
         nl: 'Ja. De vijzel, ventilator, ontsteking en wifi-regeling werken op een 230V-stopcontact. Zorg voor een buitenstopcontact met aardlekschakelaar dicht bij de barbecue.',
         pl: 'Tak. Podajnik ślimakowy, wentylator, zapalarka i sterownik Wi-Fi są zasilane z gniazdka 230 V. Zadbaj o zewnętrzne gniazdo z zabezpieczeniem różnicowoprądowym w pobliżu miejsca, w którym stanie grill.',
+        sv: 'Ja. Matarskruven, fläkten, tändningen och wifi-styrningen drivs från ett vanligt 230 V-uttag. Se till att det finns ett utomhusuttag med jordfelsbrytare nära platsen där grillen ska stå.',
+        us: 'Yes. The auger, fan, igniter and Wi-Fi controller all run on household power. Plan for a GFCI-protected outdoor outlet close to where the grill will sit.',
+        ca: 'Yes. The auger, fan, igniter and Wi-Fi controller all run on household power. Plan for a GFCI-protected outdoor outlet close to where the grill will stand.',
       },
     },
     {
@@ -989,6 +1397,9 @@ export const article: BlogArticle = {
         it: 'Si può regolare a distanza un barbecue a gas smart?',
         nl: 'Kun je een slimme gasbarbecue op afstand regelen?',
         pl: 'Czy inteligentnym grillem gazowym można sterować zdalnie?',
+        sv: 'Går det att styra en smart gasolgrill på distans?',
+        us: 'Can you adjust a smart gas grill remotely?',
+        ca: 'Can you adjust a smart gas grill remotely?',
       },
       answer: {
         fr: 'Non. Sur un modèle comme le Weber Genesis EPX-335 Smart, l\'application affiche les températures et envoie des alertes, mais la flamme se règle toujours à la main sur les boutons. Seuls les modèles à pellets, à charbon ventilé et électriques se pilotent à distance.',
@@ -998,6 +1409,9 @@ export const article: BlogArticle = {
         it: 'No. Su un modello come il Weber Genesis EPX-335 Smart, l\'app mostra le temperature e invia avvisi, ma la fiamma si regola sempre a mano con le manopole. Solo i modelli a pellet, a carbone con ventola ed elettrici si comandano a distanza.',
         nl: 'Nee. Bij een model als de Weber Genesis EPX-335 Smart toont de app temperaturen en stuurt meldingen, maar de vlam regelt u nog met de hand. Alleen pellet-, houtskool-met-ventilator- en elektrische modellen zijn op afstand te besturen.',
         pl: 'Nie. W modelu takim jak Weber Genesis EPX-335 Smart aplikacja pokazuje temperatury i wysyła alerty, ale płomień nadal reguluje się ręcznie pokrętłami. Zdalnie można sterować tylko grillami peletowymi, węglowymi z wentylatorem i elektrycznymi.',
+        sv: 'Nej. På en modell som Weber Genesis EPX-335 Smart visar appen temperaturerna och skickar notiser, men lågan regleras fortfarande för hand med vreden. Bara pelletsgrillar, kolgrillar med fläktstyrning och elgrillar går att styra på distans.',
+        us: 'No. On a model such as the Weber Genesis EPX-335 Smart, the app shows temperatures and sends alerts, but the flame is still adjusted by hand on the knobs. Only pellet, fan-controlled charcoal and electric models can be controlled remotely.',
+        ca: 'No. On a model such as the Weber Genesis EPX-335 Smart, the app shows temperatures and sends alerts, but the flame is still adjusted by hand on the knobs. Only pellet, fan-controlled charcoal and electric models can be controlled remotely.',
       },
     },
     {
@@ -1009,6 +1423,9 @@ export const article: BlogArticle = {
         it: 'Quale barbecue smart scegliere per il balcone?',
         nl: 'Welke slimme barbecue is geschikt voor een balkon?',
         pl: 'Jaki inteligentny grill wybrać na balkon?',
+        sv: 'Vilken smart grill passar bäst på balkongen?',
+        us: 'Which smart grill is best for a balcony?',
+        ca: 'Which smart grill is best for a balcony?',
       },
       answer: {
         fr: 'Un modèle électrique compact comme le Ninja Woodfire Pro Connect XL est le plus adapté. Vérifiez d\'abord le règlement de copropriété ou votre bail, et gardez en tête que le mode fumoir produit de la fumée.',
@@ -1018,6 +1435,9 @@ export const article: BlogArticle = {
         it: 'Un modello elettrico compatto come il Ninja Woodfire Pro Connect XL è il più adatto. Verificate prima il regolamento condominiale o il contratto d\'affitto e ricordate che la modalità affumicatore produce fumo.',
         nl: 'Een compact elektrisch model zoals de Ninja Woodfire Pro Connect XL past het best. Controleer eerst het reglement van de VvE of uw huurcontract, en denk eraan dat de rookmodus rook produceert.',
         pl: 'Najlepiej sprawdzi się kompaktowy model elektryczny, taki jak Ninja Woodfire Pro Connect XL. Najpierw sprawdź regulamin wspólnoty mieszkaniowej lub umowę najmu i pamiętaj, że w trybie wędzenia grill wytwarza dym.',
+        sv: 'En kompakt elgrill som Ninja Woodfire Pro Connect XL passar bäst. Kontrollera först vad som gäller enligt ditt hyresavtal eller föreningens ordningsregler, och tänk på att rökfunktionen faktiskt ryker.',
+        us: 'A compact electric model such as the Ninja Woodfire Pro Connect XL is the best fit. Check your lease or your building or HOA rules first, and keep in mind that smoker mode does produce smoke.',
+        ca: 'A compact electric model such as the Ninja Woodfire Pro Connect XL is the best fit. Check your lease or your condo bylaws first, and remember that smoker mode does produce smoke.',
       },
     },
     {
@@ -1029,6 +1449,9 @@ export const article: BlogArticle = {
         it: 'Esistono plancha smart controllabili da app?',
         nl: 'Bestaan er plancha\'s die je met een app bedient?',
         pl: 'Czy istnieją płyty grillowe (plancha) sterowane z aplikacji?',
+        sv: 'Finns det smarta stekhällar som styrs via app?',
+        us: 'Are there smart griddles you can control from an app?',
+        ca: 'Are there app-controlled smart griddles?',
       },
       answer: {
         fr: 'Elles restent très rares en Europe. La solution la plus aboutie est l\'insert plancha du Weber Searwood, dont la température se règle via Weber Connect. Sinon, associez une plancha classique à une sonde connectée.',
@@ -1038,6 +1461,9 @@ export const article: BlogArticle = {
         it: 'Sono ancora molto rare in Europa. La soluzione più completa è l\'inserto piastra del Weber Searwood, la cui temperatura si imposta tramite Weber Connect. In alternativa, abbinate una plancha classica a una sonda connessa.',
         nl: 'Ze zijn in Europa nog zeldzaam. De meest complete optie is de bakplaatinzet van de Weber Searwood, waarvan u de temperatuur via Weber Connect instelt. Combineer anders een gewone plancha met een verbonden sonde.',
         pl: 'W Europie wciąż należą do rzadkości. Najbardziej dopracowanym rozwiązaniem jest wkładka z płytą grillową do Weber Searwood: jej temperaturę ustawia się w aplikacji Weber Connect. W przeciwnym razie połącz zwykłą płytę grillową (planchę) z inteligentnym termometrem do mięsa.',
+        sv: 'De är fortfarande mycket ovanliga i Europa. Den mest kompletta lösningen är stekhällsinsatsen till Weber Searwood, vars temperatur ställs in via Weber Connect. Annars kan du kombinera en vanlig stekhäll med en uppkopplad stektermometer.',
+        us: 'They\'re still very rare, at least among models sold in Europe. The most complete option is the Weber Searwood griddle insert, whose temperature you set through Weber Connect. Otherwise, pair a regular griddle with a wireless meat thermometer.',
+        ca: 'They\'re still very rare among the models we compared. The most complete option is the Weber Searwood griddle insert, whose temperature is set through Weber Connect. Otherwise, pair a regular griddle with a smart wireless probe.',
       },
     },
     {
@@ -1049,6 +1475,9 @@ export const article: BlogArticle = {
         it: 'Si possono usare pellet da riscaldamento nel barbecue?',
         nl: 'Kun je verwarmingspellets in een barbecue gebruiken?',
         pl: 'Czy do grilla można używać pelletu opałowego?',
+        sv: 'Kan man använda vanliga eldningspellets i en grill?',
+        us: 'Can you use heating pellets in a pellet grill?',
+        ca: 'Can you use heating pellets in a grill?',
       },
       answer: {
         fr: 'Non. Utilisez uniquement des granulés alimentaires destinés à la cuisson, sans additifs ni liants non alimentaires. Les fabricants de barbecues à pellets le précisent dans leurs notices.',
@@ -1058,6 +1487,9 @@ export const article: BlogArticle = {
         it: 'No. Usate solo pellet per uso alimentare, senza additivi o leganti non alimentari. I produttori di barbecue a pellet lo indicano nei manuali.',
         nl: 'Nee. Gebruik uitsluitend pellets die geschikt zijn voor voedsel, zonder niet-voedselveilige toevoegingen of bindmiddelen. Fabrikanten van pelletbarbecues vermelden dit in hun handleidingen.',
         pl: 'Nie. Używaj wyłącznie pelletu przeznaczonego do grillowania, bez dodatków i spoiw, które nie nadają się do kontaktu z żywnością. Producenci grilli peletowych zaznaczają to w instrukcjach obsługi.',
+        sv: 'Nej. Använd bara pellets som är avsedda för matlagning, utan tillsatser eller bindemedel som inte är godkända för livsmedel. Det anger tillverkarna av pelletsgrillar i sina bruksanvisningar.',
+        us: 'No. Use only food-grade cooking pellets, with no non-food additives or binders. Pellet grill manufacturers spell this out in their manuals.',
+        ca: 'No. Only use food-grade cooking pellets, without non-food additives or binders. Pellet grill manufacturers state this in their manuals.',
       },
     },
     {
@@ -1069,6 +1501,9 @@ export const article: BlogArticle = {
         it: 'Serve ancora un termometro se il barbecue ha sonde integrate?',
         nl: 'Heb je nog een thermometer nodig als de barbecue sondes heeft?',
         pl: 'Czy nadal potrzebny jest termometr do mięsa, jeśli grill ma wbudowane sondy?',
+        sv: 'Behövs en extra stektermometer om grillen har inbyggda givare?',
+        us: 'Do you still need a thermometer if the grill has built-in probes?',
+        ca: 'Do you still need a thermometer if the grill has built-in probes?',
       },
       answer: {
         fr: 'Pas forcément. Les sondes fournies suffisent pour la plupart des cuissons. Une sonde sans fil supplémentaire devient utile si vous cuisez plus de pièces que de ports disponibles ou si vous voulez éviter les câbles.',
@@ -1078,6 +1513,9 @@ export const article: BlogArticle = {
         it: 'Non necessariamente. Le sonde incluse bastano per la maggior parte delle cotture. Una sonda wireless in più è utile se cuocete più pezzi delle porte disponibili o volete evitare i cavi.',
         nl: 'Niet per se. De meegeleverde sondes volstaan voor de meeste bereidingen. Een extra draadloze sonde is handig als u meer stukken bereidt dan er poorten zijn of geen kabels wilt.',
         pl: 'Niekoniecznie. Sondy dołączone do grilla wystarczą w większości przypadków. Dodatkowa sonda bezprzewodowa przyda się, gdy grillujesz więcej kawałków mięsa, niż masz gniazd na sondy, albo gdy chcesz pozbyć się kabli.',
+        sv: 'Inte nödvändigtvis. Givarna som följer med räcker för det mesta. En extra trådlös givare är bra om du grillar fler bitar än det finns givaruttag till, eller om du vill slippa sladdar.',
+        us: 'Not necessarily. The included probes cover most cooks. An extra wireless probe helps if you cook more pieces than there are ports, or if you want to avoid cables.',
+        ca: 'Not necessarily. The included probes cover most cooks. An extra wireless probe helps if you cook more pieces than there are ports, or if you want to avoid cables.',
       },
     },
   ],

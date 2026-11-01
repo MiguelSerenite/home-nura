@@ -157,4 +157,70 @@ export const AIRFRYERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  sv: {
+    name: 'Airfryrar',
+    h1: `Black Friday ${Y}: airfryrar att hålla koll på`,
+    metaTitle: `Black Friday ${Y}: airfryrar värda att bevaka`,
+    metaDescription: `Airfryrar att hålla koll på inför Black Friday ${Y}: Ninja, Philips och Xiaomi. Volym, en eller två korgar – det här ska du kontrollera innan du köper.`,
+    blurb: 'Ninja, Philips, Xiaomi: en eller två korgar, efter hushållets storlek.',
+    intro: 'Airfryern hör till de apparater som syns mest under Black Friday. Börja inte med rabatten: bestäm först vilken volym ditt hushåll behöver och välj mellan en korg och två separata zoner. Det är de två kriterierna som skiljer modellerna nedan åt.',
+    faq: [
+      {
+        question: 'Hur stor airfryer ska jag välja?',
+        answer: 'För en eller två personer räcker 2–4 liter, och för tre eller fyra passar 4,5–6 liter. För fem personer eller fler behövs 6–8 liter eller mer, eller en modell med två zoner som lagar huvudrätt och tillbehör samtidigt.',
+      },
+      {
+        question: 'En eller två korgar: vilket ska jag välja?',
+        answer: 'Med två korgar tillagar du två saker med olika inställningar och får dem klara samtidigt, men apparaten blir bredare eller högre. En korg tar mindre plats och passar när du lagar en rätt i taget.',
+      },
+      {
+        question: 'Lönar sig en smart airfryer?',
+        answer: 'Den är praktisk om du följer guidade recept eller vill hålla koll på tillagningen från mobilen. För enkel matlagning blir resultatet lika bra med en modell utan app.',
+      },
+    ],
+  },
+  us: {
+    name: 'Air fryers',
+    h1: `Black Friday ${Y}: The Air Fryers Worth Watching`,
+    metaTitle: `Black Friday ${Y}: Best Air Fryers to Watch`,
+    metaDescription: `Air fryers worth watching this Black Friday ${Y}: Ninja, Philips and Xiaomi. Capacity in quarts, one basket or two: what to check before you buy.`,
+    blurb: 'Ninja, Philips, Xiaomi: one basket or two, sized to your household.',
+    intro: "Air fryers are among the most heavily promoted appliances on Black Friday. Before you look at the discount, pick the capacity your household needs and decide between a single basket and two independent zones: those two choices are what separate the models below.",
+    faq: [
+      {
+        question: 'What size air fryer do I need?',
+        answer: 'For one or two people, 2.1 to 4.2 quarts (2 to 4 liters) is enough. For three or four, aim for 4.8 to 6.3 quarts (4.5 to 6 liters). For five or more, go for 6.3 to 8.5 quarts (6 to 8 liters) or larger, or a dual-zone model that cooks a main dish and a side at the same time.',
+      },
+      {
+        question: 'One basket or two: which should I get?',
+        answer: 'A dual-basket air fryer cooks two foods at different settings and finishes them at the same time, but it is wider or taller. A single basket takes up less counter space and works well when you cook one dish at a time.',
+      },
+      {
+        question: 'Is a smart air fryer worth it?',
+        answer: "It's worth it if you follow guided recipes or want to check on your food from your phone. For everyday cooking, a model without an app cooks just as well.",
+      },
+    ],
+  },
+  ca: {
+    name: 'Air fryers',
+    h1: `Black Friday ${Y}: the air fryers worth watching`,
+    metaTitle: `Black Friday ${Y}: Air Fryers Worth Watching`,
+    metaDescription: `Air fryers worth watching this Black Friday ${Y}: Ninja, Philips and Xiaomi. Capacity, single or dual basket: what to check before you buy.`,
+    blurb: 'Ninja, Philips, Xiaomi: single or dual basket, sized to your household.',
+    intro: 'Air fryers are some of the most visible appliances during Black Friday. Before you look at the discount, settle on the capacity your household needs and choose between a single basket and two independent zones. Those are the two criteria that set the models below apart.',
+    faq: [
+      {
+        question: 'What size air fryer should I get?',
+        answer: 'For one or two people, 2 to 4 L (2.1 to 4.2 qt) is enough. For three or four, aim for 4.5 to 6 L (4.8 to 6.3 qt). For five or more, go for 6 to 8 L (6.3 to 8.5 qt) or larger, or a dual-zone model that cooks a main and a side dish at the same time.',
+      },
+      {
+        question: 'Single or dual basket: which should I choose?',
+        answer: "A dual-basket air fryer cooks two foods at different settings and has them ready at the same time, but it's wider or taller. A single basket takes up less counter space and suits one dish at a time.",
+      },
+      {
+        question: 'Is a smart air fryer worth it?',
+        answer: 'It helps if you follow guided recipes or want to check on your food from your phone. For everyday cooking, a model without an app cooks just as well.',
+      },
+    ],
+  },
 }

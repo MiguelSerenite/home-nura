@@ -124,6 +124,36 @@ const uiStrings: Record<Lang, GuideUi> = {
     faqTitle: 'Najczęstsze pytania',
     bestForPrefix: 'Najlepsze',
   },
+  sv: {
+    home: 'Hem',
+    guides: 'Guider',
+    applicableSilosTitle: 'Relevanta områden för den här profilen',
+    relatedCategoriesTitle: 'Riktade urval för den här profilen',
+    noRelated: 'Kategorier för den här profilen kommer snart.',
+    methodologyCta: 'Läs om vår metod',
+    faqTitle: 'Vanliga frågor',
+    bestForPrefix: 'Bästa',
+  },
+  us: {
+    home: 'Home',
+    guides: 'Guides',
+    applicableSilosTitle: 'Relevant sections for this profile',
+    relatedCategoriesTitle: 'Targeted picks for this profile',
+    noRelated: 'There are no dedicated categories for this profile at the moment.',
+    methodologyCta: 'Read our methodology',
+    faqTitle: 'Frequently asked questions',
+    bestForPrefix: 'The best',
+  },
+  ca: {
+    home: 'Home',
+    guides: 'Guides',
+    applicableSilosTitle: 'Relevant sections for this profile',
+    relatedCategoriesTitle: 'Targeted picks for this profile',
+    noRelated: 'Dedicated categories for this profile are coming soon.',
+    methodologyCta: 'Read our methodology',
+    faqTitle: 'Frequently asked questions',
+    bestForPrefix: 'The best',
+  },
 }
 
 export async function generateStaticParams() {

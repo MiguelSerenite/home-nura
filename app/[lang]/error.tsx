@@ -10,6 +10,9 @@ const texts: Record<string, { title: string; desc: string; button: string }> = {
   it: { title: 'Si è verificato un errore', desc: 'Qualcosa è andato storto. Riprova.', button: 'Riprova' },
   nl: { title: 'Er is een fout opgetreden', desc: 'Er ging iets mis. Probeer het opnieuw.', button: 'Opnieuw proberen' },
   pl: { title: 'Wystąpił błąd', desc: 'Coś poszło nie tak. Spróbuj ponownie.', button: 'Ponów próbę' },
+  sv: { title: 'Något gick fel', desc: 'Ett fel uppstod. Försök igen.', button: 'Försök igen' },
+  us: { title: 'Something went wrong', desc: 'An error occurred. Please try again.', button: 'Try again' },
+  ca: { title: 'Something went wrong', desc: 'An error occurred. Please try again.', button: 'Try again' },
 }
 
 export default function Error({

@@ -19,6 +19,9 @@ const BUTTON_LABEL: Record<string, string> = {
   it: 'Vedi prezzo',
   nl: 'Bekijk prijs',
   pl: 'Sprawdź cenę',
+  sv: 'Se pris',
+  us: 'Check price',
+  ca: 'Check price',
 }
 
 const AFFILIATE_NOTE: Record<string, string> = {
@@ -29,6 +32,9 @@ const AFFILIATE_NOTE: Record<string, string> = {
   it: 'Link di affiliazione',
   nl: 'Affiliatelink',
   pl: 'Link afiliacyjny',
+  sv: 'Affiliatelänk',
+  us: 'Affiliate link',
+  ca: 'Affiliate link',
 }
 
 // Show once the reader is past the hero, hide while a product block

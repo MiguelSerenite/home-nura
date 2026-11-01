@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Batterie domestiche a parete e inverter ibrido installati per accumulare l\'energia solare',
         nl: 'Aan de muur gemonteerde thuisbatterijen en hybride omvormer voor de opslag van zonnestroom',
         pl: 'Naścienne domowe magazyny energii i falownik hybrydowy, które gromadzą prąd z instalacji fotowoltaicznej',
+        sv: 'Väggmonterade hembatterier och en hybridväxelriktare, installerade för att lagra solel',
+        us: 'Wall-mounted home batteries and a hybrid inverter installed to store solar power',
+        ca: 'Wall-mounted home batteries and hybrid inverter installed to store solar electricity',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Migliore Batteria Domestica per Pannelli Solari 2026: Plug-in o Fissa',
     nl: 'Beste Thuisbatterij voor Zonnepanelen 2026: Plug-in of Vaste Opslag',
     pl: 'Najlepszy domowy magazyn energii do fotowoltaiki 2026: plug-in czy stacjonarny?',
+    sv: 'Bästa hembatteri för solceller 2026: plug-in eller fast installerat',
+    us: 'Best Home Batteries for Solar Panels of 2026: Plug-In vs. Hardwired',
+    ca: 'Best Home Battery for Solar Panels 2026: Plug-In or Hardwired',
   },
   excerpt: {
     fr: 'Quelle batterie choisir pour stocker votre électricité solaire en 2026 ? Comparatif des batteries plug-in (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) et fixes (Tesla Powerwall 3, Huawei LUNA2000) : capacité, couplage AC/DC, injection zéro et secours.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Quale batteria scegliere per accumulare l\'energia solare nel 2026? Confronto tra batterie plug-in (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) e fisse (Tesla Powerwall 3, Huawei LUNA2000): capacità, accoppiamento AC/DC, immissione zero e backup.',
     nl: 'Welke batterij kies je in 2026 om je zonnestroom op te slaan? Vergelijking van plug-in batterijen (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) en vaste systemen (Tesla Powerwall 3, Huawei LUNA2000): capaciteit, AC/DC-koppeling, nul-teruglevering en noodstroom.',
     pl: 'Jaki domowy magazyn energii do fotowoltaiki wybrać w 2026 roku? Porównujemy modele plug-in (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) i stacjonarne (Tesla Powerwall 3, Huawei LUNA2000): pojemność, sprzężenie AC/DC, zerowy eksport i zasilanie awaryjne.',
+    sv: 'Vilket batteri ska du välja för att lagra din solel 2026? Vi jämför plug-in-batterier (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) och fast installerade system (Tesla Powerwall 3, Huawei LUNA2000): kapacitet, AC- eller DC-koppling, nollinmatning och reservkraft.',
+    us: 'Which battery should you choose to store your solar power in 2026? We compare plug-in batteries (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) and hardwired systems (Tesla Powerwall 3, Huawei LUNA2000) on capacity, AC/DC coupling, zero export and backup.',
+    ca: 'Which battery should you choose to store your solar power in 2026? A comparison of plug-in batteries (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) and hardwired systems (Tesla Powerwall 3, Huawei LUNA2000): capacity, AC/DC coupling, zero feed-in and backup power.',
   },
   content: {
     fr: `<p><strong>En 2026, la meilleure batterie domestique pour l'autoconsommation solaire dépend d'abord de votre installation : avec une centrale de balcon, une batterie plug-in comme l'Anker SOLIX Solarbank 3 E2700 Pro ou la Marstek Venus E 3.0 suffit ; avec des panneaux en toiture, une batterie fixe posée par un installateur, comme la Tesla Powerwall 3 ou la Huawei LUNA2000, est plus adaptée.</strong> Dans les deux cas, le critère décisif est le pilotage par compteur intelligent, qui permet de restituer l'énergie stockée au moment exact où la maison en a besoin.</p>
@@ -601,6 +610,247 @@ export const article: BlogArticle = {
 
 <h2>Werdykt</h2>
 <p>Do <strong>elektrowni balkonowej</strong> najlepiej wyważonym wyborem jest <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong>: wszystko w jednym, sterowanie na podstawie pomiaru zużycia i możliwość rozbudowy. Jeśli masz już panele i chcesz zmieścić jak najwięcej kWh w jednej obudowie, <strong>Marstek Venus E 3.0</strong> oferuje największą pojemność spośród magazynów plug-in w tym porównaniu, a <strong>Zendure SolarFlow 2400 AC</strong> sprawdzi się u osób, które chcą rozbudowywać magazyn stopniowo. Przy <strong>instalacji dachowej</strong> i potrzebie pełnoprawnego zasilania awaryjnego domu punktem odniesienia pozostaje <strong>Tesla Powerwall 3</strong>, a <strong>Huawei LUNA2000</strong> to naturalny wybór, jeśli masz już falownik tej marki. Niezależnie od wyboru licznik energii i montaż zgodny z przepisami są równie ważne jak sam magazyn.</p>`,
+    sv: `<p><strong>Vilket hembatteri som är bäst för egenanvändning av solel 2026 beror först och främst på din anläggning: med balkongsolceller räcker ett plug-in-batteri som Anker SOLIX Solarbank 3 E2700 Pro eller Marstek Venus E 3.0; med solpaneler på taket passar ett fast batteri som sätts upp av en installatör, till exempel Tesla Powerwall 3 eller Huawei LUNA2000, bättre.</strong> I båda fallen är det avgörande att batteriet styrs av en smart energimätare, så att den lagrade energin lämnas ut precis när huset behöver den.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Den går igenom de två huvudtyperna av solcellsbatterier för hemmet som säljs i Europa, förklarar begreppen som verkligen spelar roll (kWh, kW, AC- eller DC-koppling, nollinmatning, reservkraft) och påminner om vilka försiktighetsåtgärder som gäller vid installationen. Är du ny på solceller, börja med vår guide till <a href="/sv/blog/balkonkraftwerk-panneau-solaire-balcon">balkongsolceller</a> och kom sedan tillbaka hit för att välja lagring.</p>
+
+<h2>Plug-in-batteri eller fast installerat batteri: två helt olika typer</h2>
+<p><strong>Plug-in-batterier</strong> (kallas ofta balkongbatterier) ansluts till ett vägguttag eller placeras mellan panelerna och uttaget. De är gjorda för solcellskit från några hundra watt upp till cirka 2 kWp, installeras utan ingrepp i huset och lämnar ut energin via hemmets elnät, inom den effektgräns som gäller för ett uttag. Kapaciteten ligger på ungefär 2–5 kWh per enhet och kan byggas ut med fler moduler.</p>
+<p><strong>Fast installerade batterier</strong> kopplas in i elcentralen och kombineras med en hybridväxelriktare eller med mikroväxelriktare. De är avsedda för solcellsanläggningar på taket på 3–9 kWp och uppåt, har en kapacitet på 5 till över 13 kWh per enhet och en effekt på flera kilowatt, och kan beroende på konfiguration ge riktig reservkraft till hela eller delar av bostaden. De måste installeras av en behörig installatör.</p>
+
+<h2>Så väljer du rätt solcellsbatteri</h2>
+<h3>Kapacitet (kWh) och effekt (kW): blanda inte ihop dem</h3>
+<p><strong>Kapaciteten</strong>, i kilowattimmar, anger hur mycket energi som lagras: det är ”tanken”. <strong>Effekten</strong>, i kilowatt, anger hur mycket batteriet kan leverera i varje ögonblick: det är ”kranen”. Ett batteri på 5 kWh som är begränsat till 800 W tar över sex timmar att tömma och kan inte ensamt driva en ugn eller en spishäll; ett fast installerat batteri med samma kapacitet som levererar flera kilowatt klarar de topparna. När du dimensionerar batteriet utgår du från din förbrukning på kvällen och natten (ofta 3–8 kWh för ett hus) och från det solöverskott som faktiskt finns under dagen.</p>
+<h3>LiFePO4: standarden för hembatterier</h3>
+<p>Alla modeller i jämförelsen använder celler av <strong>litiumjärnfosfat (LiFePO4 eller LFP)</strong>. Den kemin är termiskt stabilare än NMC-kemin i mobiler och äldre batterier, och den klarar flera tusen cykler. Titta på garantitiden, det angivna antalet cykler och den kapacitet som garanteras vid periodens slut snarare än på marknadsföringens siffror om ”livslängd”.</p>
+<h3>AC- eller DC-koppling</h3>
+<p>Ett <strong>DC-kopplat</strong> batteri sitter på likströmssidan, mellan panelerna och växelriktaren (ofta en hybridväxelriktare): solenergin lagras utan extra omvandling, vilket minskar förlusterna. Så fungerar Tesla Powerwall 3 och Huawei LUNA2000 med tillhörande växelriktare. Ett <strong>AC-kopplat</strong> batteri ansluts på växelströmssidan, efter den befintliga växelriktaren: det är lätt att lägga till i en anläggning som redan finns, men kräver fler omvandlingar. Zendure SolarFlow 2400 AC, Marstek Venus E 3.0 och Enphase IQ Battery 5P fungerar på det sättet. Vissa plug-in-batterier, som Anker Solarbank 3 och EcoFlow STREAM Ultra, kombinerar direkta solcellsingångar med en AC-utgång.</p>
+<h3>Nollinmatning och smart energimätare</h3>
+<p>Utan mätning lämnar ett plug-in-batteri ut en fast effekt, oavsett om något förbrukar el just då: en del av den lagrade energin går då gratis ut på elnätet. Med en <strong>smart energimätare</strong> (en läsare för P1-porten, en strömtång eller en mätare från ett annat märke, som Shelly Pro 3EM) anpassar batteriet urladdningen efter husets förbrukning i realtid och siktar på <strong>inmatning nära noll</strong>. Det är tillbehöret som gör störst skillnad för hur stor del av solelen du använder själv. Kontrollera att den fungerar med din elmätare och din elcentral innan du köper.</p>
+<h3>Reservkraft vid strömavbrott</h3>
+<p>Ett batteri som är anslutet till elnätet skyddar inte automatiskt huset vid ett strömavbrott: av säkerhetsskäl stängs utgången mot elnätet av. Plug-in-modeller har oftast ett separat <strong>reservuttag</strong> för några prioriterade apparater (router, kylskåp). Ska hela eller delar av bostaden få reservkraft krävs ett fast installerat batteri och en omkopplare som installeras av en fackman.</p>
+<h3>Utbyggbarhet, app och garanti</h3>
+<p>Välj ett system som går att bygga ut med fler moduler, en tydlig app med historik över produktion och förbrukning, regelbundna uppdateringar och, för fast installerade batterier, minst tio års garanti.</p>
+
+<h2>De bästa hembatterierna för solceller 2026</h2>
+<h3>1. Anker SOLIX Solarbank 3 E2700 Pro: bästa plug-in-batteriet</h3>
+<p><strong>Solarbank 3 E2700 Pro</strong> samlar ett LiFePO4-batteri på cirka 2,7 kWh, solcellsingångar med MPPT-regulatorer och en växelriktare i ett och samma vattentäta IP65-hölje. Panelerna ansluts på ena sidan och ett vägguttag på den andra, och den matar ut upp till 800 W i hemmets elnät. Tillsammans med Ankers smarta energimätare eller en P1-läsare anpassar den urladdningen efter den faktiska förbrukningen. En fristående utgång (off-grid) kan driva apparater på upp till 1 200 W vid strömavbrott, och med extrabatterier når kapaciteten långt över 10 kWh.</p>
+<p><strong>Styrkor:</strong> allt i ett, genomarbetad styrning via energimätare, utbyggbar, kan användas utomhus. <strong>Svagheter:</strong> effekten mot elnätet begränsas av uttaget, väger cirka 29 kg. <strong>Passar för:</strong> dig som har balkongsolceller eller ett litet markmonterat kit och vill ha en enkel installation som kan växa.</p>
+
+<h3>2. Marstek Venus E 3.0: störst kapacitet bland plug-in-batterierna</h3>
+<p><strong>Marstek Venus E 3.0</strong> är ett AC-kopplat LiFePO4-batteri på 5,12 kWh som enligt tillverkaren klarar över 6 000 cykler. Det laddas och laddas ur via hemmets elnät, med upp till 2 500 W beroende på konfiguration, och kan därför läggas till i en befintlig anläggning oavsett paneler eller växelriktare. Det styrs med strömtången Marstek CT002 eller en Shelly Pro 3EM för att sikta på nollinmatning, och har ett inbyggt reservuttag som kan leverera upp till 2 500 W vid strömavbrott. Kapaciteten kan byggas ut till 15,36 kWh.</p>
+<p><strong>Styrkor:</strong> många kWh per enhet, reservuttag med hög effekt, fungerar med alla växelriktare. <strong>Svagheter:</strong> cirka 55 kg, ingen direkt solcellsingång, och mer än 800 W via ett uttag kräver att du kontrollerar de lokala reglerna och ofta en egen grupp. <strong>Passar för:</strong> hushåll som redan har solpaneler och vill lagra så mycket som möjligt.</p>
+
+<h3>3. Zendure SolarFlow 2400 AC: AC-lagring som kan växa</h3>
+<p><strong>SolarFlow 2400 AC</strong> är en AC-kopplad styrenhet som kombineras med batterier av typen AB3000X på 2,88 kWh vardera, upp till sex moduler och 17,28 kWh. Ansluten till ett vanligt uttag levererar den upp till 800 W; inkopplad på en egen grupp av en elektriker kan den gå upp till 2,4 kW. Den använder en smart energimätare (P1-läsare, Zendures strömtänger eller Shelly 3EM och Pro 3EM) för att ladda med överskottet och ladda ur så nära förbrukningen som möjligt. En fristående utgång på 2 400 W tar över vid strömavbrott.</p>
+<p><strong>Styrkor:</strong> modulär, effektiv, fungerar med många energimätare. <strong>Svagheter:</strong> ingen direkt solcellsingång, full effekt kräver en anpassad elinstallation. <strong>Passar för:</strong> dig som redan har solceller, på balkongen eller på taket, och vill lägga till lagring i steg.</p>
+
+<h3>4. EcoFlow STREAM Ultra: kompakt och gjord för balkongen</h3>
+<p><strong>EcoFlow STREAM Ultra</strong> kombinerar ett LFP-batteri på 1,92 kWh, en inbyggd mikroväxelriktare och fyra MPPT-ingångar för upp till 2 000 W paneler totalt. Den matar ut upp till 800 W i hemmets elnät, har ett uttag som driver apparater på upp till 1 200 W och fungerar med en smart energimätare från EcoFlow eller Shelly. Det självuppvärmande IP65-höljet är gjort för utomhusbruk, och fler STREAM-batterier ökar kapaciteten.</p>
+<p><strong>Styrkor:</strong> kompakt, många solcellsingångar, komplett ekosystem från EcoFlow. <strong>Svagheter:</strong> blygsam baskapacitet för ett hus. <strong>Passar för:</strong> lägenheter och mindre hus med balkongsolceller, eller dig som redan har produkter från EcoFlow.</p>
+
+<h3>5. Tesla Powerwall 3: måttstocken för hela huset</h3>
+<p><strong>Tesla Powerwall 3</strong> är ett fast installerat batteri med 13,5 kWh användbar kapacitet och en egen inbyggd solcellsväxelriktare: panelerna ansluts direkt på DC-sidan, utan separat växelriktare. Uteffekten kan ställas in från 3,68 till 11,04 kW beroende på land och anslutning, vilket räcker för effektkrävande apparater. Installerat med Tesla Gateway kan det ge reservkraft till hela eller delar av bostaden vid strömavbrott, och med expansionsenheter når systemet upp till 54 kWh. Det kan monteras både inomhus och utomhus.</p>
+<p><strong>Styrkor:</strong> hög kapacitet och effekt, inbyggd växelriktare, välgjord app. <strong>Svagheter:</strong> cirka 130 kg, får bara installeras av en installatör som är certifierad av Tesla, ligger i premiumsegmentet. <strong>Passar för:</strong> hus med en ny eller renoverad solcellsanläggning på taket, där du vill ha reservkraft och klara dig länge på lagrad el.</p>
+
+<h3>6. Huawei LUNA2000-7-S1: det modulära batteriet för hybridväxelriktare</h3>
+<p><strong>Huawei LUNA2000-7-S1</strong> är en högvoltsmodul med LiFePO4-celler på 6,9 kWh som kan staplas upp till 20,7 kWh per torn, med upp till 3,5 kW laddning och urladdning per modul. Den DC-kopplas till en hybridväxelriktare av typen Huawei SUN2000 och hanteras i appen FusionSolar. Med rätt reservkraftsbox kan den driva prioriterade grupper vid strömavbrott. Tack vare IP66-klassningen kan den monteras i garaget eller skyddat utomhus.</p>
+<p><strong>Styrkor:</strong> kan byggas ut i små steg, mycket vanlig hos europeiska installatörer, hög verkningsgrad på DC-sidan. <strong>Svagheter:</strong> kräver en kompatibel växelriktare från Huawei, måste installeras av en fackman. <strong>Passar för:</strong> takanläggningar som har, eller ska få, en växelriktare från Huawei.</p>
+
+<h3>Andra fasta alternativ: BYD Battery-Box Premium HVS och Enphase IQ Battery 5P</h3>
+<p><strong>BYD Battery-Box Premium HVS</strong> är ett högvoltstorn med LFP-celler på 5,1–12,8 kWh som fungerar med många hybridväxelriktare på marknaden (bland andra Fronius, SMA, Kostal och GoodWe): ett bra val om din installatör redan arbetar med något av de märkena. <strong>Enphase IQ Battery 5P</strong> är ett AC-kopplat batteri på 5 kWh med inbyggda mikroväxelriktare, upp till 3,84 kW kontinuerligt på enfas, utbyggbart och kompatibelt med trefas tack vare tekniken FlexPhase. Det passar naturligt in i befintliga Enphase-anläggningar och kan ge reservkraft med den tillhörande systemstyrenheten.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Baskapacitet</th><th>Koppling</th><th>Styrning via mätare</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Anker SOLIX Solarbank 3 E2700 Pro</td><td>Plug-in</td><td>2,7 kWh</td><td>Solcellsingångar + AC-utgång</td><td>Ankers mätare, P1-läsare</td><td>Balkongsolceller som kan byggas ut</td></tr>
+<tr><td>Marstek Venus E 3.0</td><td>Plug-in</td><td>5,12 kWh</td><td>AC</td><td>CT002, Shelly Pro 3EM</td><td>Stor kapacitet, tillägg till befintlig anläggning</td></tr>
+<tr><td>Zendure SolarFlow 2400 AC</td><td>Modulärt plug-in</td><td>2,88 kWh</td><td>AC</td><td>P1, strömtänger, Shelly 3EM</td><td>Lagring i steg</td></tr>
+<tr><td>EcoFlow STREAM Ultra</td><td>Plug-in</td><td>1,92 kWh</td><td>Solcellsingångar + AC-utgång</td><td>EcoFlows mätare, Shelly</td><td>Lägenhet, liten balkong</td></tr>
+<tr><td>Tesla Powerwall 3</td><td>Fast installerat</td><td>13,5 kWh</td><td>DC (inbyggd växelriktare)</td><td>Tesla Gateway</td><td>Reservkraft för hela huset</td></tr>
+<tr><td>Huawei LUNA2000-7-S1</td><td>Fast, modulärt</td><td>6,9 kWh</td><td>DC (Huawei-växelriktare)</td><td>Huaweis mätare</td><td>Tak med Huawei-växelriktare</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att välja för stor kapacitet:</strong> ett batteri som aldrig blir fullt i brist på solöverskott är pengar som binds upp i onödan. Jämför din produktion sommar och vinter med din förbrukning på kvällen.</li>
+<li><strong>Att strunta i den smarta energimätaren:</strong> utan mätning är urladdningen fast och en del av den lagrade energin går ut på elnätet.</li>
+<li><strong>Att blanda ihop reservkraft och självförsörjning:</strong> ett plug-in-batteri håller inte strömmen igång i hela huset vid ett strömavbrott, bara i apparaterna som är anslutna till dess reservuttag.</li>
+<li><strong>Att ansluta via förlängningssladd eller grenuttag:</strong> ett batteri som matar in el i hemmets elnät ska anslutas till ett lämpligt vägguttag, helst på en grupp i gott skick som inte är överbelastad.</li>
+<li><strong>Att slarva med placeringen:</strong> håll dig inom de angivna temperaturerna, undvik ständig direkt sol och instängda utrymmen, och lämna det ventilationsutrymme som tillverkaren anger.</li>
+</ul>
+
+<h2>Installation, regler och säkerhet</h2>
+<p><strong>Fast installerade batterier</strong> ska installeras av en behörig installatör: anslutning till elcentralen, elektriska skydd, inställning av växelriktaren och, för reservkraft, en anordning som skiljer huset från elnätet. Välj en installatör med erkänd kvalifikation för solceller och energilager, vilket ofta är ett villkor för bidrag och andra stöd.</p>
+<p>För <strong>plug-in-batterier</strong> är försiktighetsregeln enkel: håll dig inom den effekt som är tillåten för ett uttag i ditt land, anslut aldrig flera apparater som matar in el på samma grupp utan att först fråga en elektriker, och låt en elektriker ansluta modeller som är inställda över gränsen till en egen grupp. Reglerna skiljer sig mellan länder och elnätsbolag: i många länder ska en produktionsanläggning som är ansluten till elnätet, även ett balkongkit, anmälas till elnätsbolaget, och i Tyskland är balkongsolceller begränsade till 800 W växelriktareffekt och ska registreras. Kontakta ditt elnätsbolag och ditt försäkringsbolag innan du tar anläggningen i drift.</p>
+<p>Vill du veta mer om energistyrning kan du läsa vår <a href="/sv/blog/guide-domotique-economie-energie-2026">guide till smarta hem och energibesparing</a>. Alla modeller hittar du under <a href="/sv/energie-domotique/batteries-domestiques">hembatterier</a>.</p>
+
+<h2>Omdöme</h2>
+<p>För <strong>balkongsolceller</strong> är <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong> det mest balanserade valet: allt i ett, styrd av energimätare och utbyggbar. Om du redan har solpaneler och vill ha så många kWh som möjligt i en enda enhet erbjuder <strong>Marstek Venus E 3.0</strong> den största plug-in-kapaciteten i jämförelsen, medan <strong>Zendure SolarFlow 2400 AC</strong> passar dig som vill bygga ut lagringen i steg. För en <strong>solcellsanläggning på taket</strong> och riktig reservkraft för huset är <strong>Tesla Powerwall 3</strong> fortfarande måttstocken, och <strong>Huawei LUNA2000</strong> är det självklara valet om din växelriktare redan kommer från Huawei. Oavsett vad du väljer betyder den smarta energimätaren och en korrekt utförd installation lika mycket som själva batteriet.</p>
+`,
+    us: `<p><strong>In 2026, the best home battery for storing your own solar power depends first on your setup: with a balcony solar kit, a plug-in battery such as the Anker SOLIX Solarbank 3 E2700 Pro or the Marstek Venus E 3.0 is enough; with rooftop panels, a hardwired battery installed by a pro, such as the Tesla Powerwall 3 or the Huawei LUNA2000, is the better fit.</strong> Either way, the deciding factor is smart meter control, which lets the battery release stored energy exactly when the house needs it.</p>
+<p>This comparison is based on manufacturer datasheets, published independent reviews and verified owner reviews. It covers the two main types of home solar storage sold in Europe, explains the concepts that really matter (kWh, kW, AC or DC coupling, zero export, backup) and outlines the installation precautions. If you're new to solar, start with our guide to <a href="/us/blog/balkonkraftwerk-panneau-solaire-balcon">balcony solar panels</a>, then come back here to choose your storage.</p>
+
+<h2>Plug-in or hardwired battery: two very different types</h2>
+<p><strong>Plug-in batteries</strong> (often called balcony batteries) plug into an outlet, or sit between the panels and the outlet. They're designed for solar kits from a few hundred watts up to about 2 kW, install without any construction work and send energy back through the home's wiring, within the power limit allowed on an outlet. Their capacity ranges from roughly 2 to 5 kWh per unit, expandable with extra modules.</p>
+<p><strong>Hardwired batteries</strong> are wired into the electrical panel and paired with a hybrid inverter or microinverters. They're aimed at rooftop systems of 3 to 9 kW and up, offer 5 to more than 13 kWh per unit, deliver several kilowatts and, depending on the setup, can provide true backup for all or part of the home. They must be installed by a qualified installer.</p>
+
+<h2>How to choose a solar battery</h2>
+<h3>Capacity (kWh) and power (kW): don't mix them up</h3>
+<p><strong>Capacity</strong>, in kilowatt-hours, is the amount of energy stored: the tank. <strong>Power</strong>, in kilowatts, is how fast the battery can deliver it at any given moment: the faucet. A 5 kWh battery limited to 800 W takes more than six hours to drain and can't run an oven or a cooktop on its own; a hardwired battery of the same capacity that delivers several kilowatts will cover those peaks. To size your system, start from your evening and overnight consumption (often 3 to 8 kWh for a house) and the solar surplus you actually have during the day.</p>
+<h3>LiFePO4 chemistry: the standard for home storage</h3>
+<p>Every model in this comparison uses <strong>lithium iron phosphate (LiFePO4 or LFP)</strong> cells. This chemistry is more thermally stable than the NMC chemistry used in phones and older batteries, and it handles several thousand cycles. Look at the warranty length, the rated cycle count and the guaranteed remaining capacity at the end of the warranty rather than at marketing claims about lifespan.</p>
+<h3>AC or DC coupling</h3>
+<p>A <strong>DC-coupled</strong> battery sits on the direct-current side, between the panels and the inverter (usually a hybrid inverter): solar energy is stored without an extra conversion, which cuts losses. The Tesla Powerwall 3 and the Huawei LUNA2000 with its inverter work this way. An <strong>AC-coupled</strong> battery connects on the alternating-current side, after the existing inverter: it's easy to add to a system you already have, at the cost of extra conversions. The Zendure SolarFlow 2400 AC, the Marstek Venus E 3.0 and the Enphase IQ Battery 5P are AC-coupled. Some plug-in batteries, such as the Anker Solarbank 3 or the EcoFlow STREAM Ultra, combine direct solar inputs with an AC output.</p>
+<h3>Zero export and smart meters</h3>
+<p>Without metering, a plug-in battery discharges at a fixed rate whether or not anything is drawing power, so some of the stored energy flows back to the grid for free. With a <strong>smart meter</strong> (a P1 port reader for European smart meters, a CT clamp or a third-party meter such as the Shelly Pro 3EM), the battery matches its discharge to household demand in real time and aims for <strong>near-zero export</strong>. This accessory makes the biggest difference in how much of your own solar power you actually use. Check compatibility with your meter and electrical panel before you buy.</p>
+<h3>Backup during power outages</h3>
+<p>A grid-tied battery doesn't automatically keep the house running during an outage: for safety reasons, its grid output shuts off. Plug-in models usually offer a separate <strong>backup outlet</strong> for a few priority devices (router, refrigerator). Backup for all or part of the home requires a hardwired battery and a transfer switch installed by a professional.</p>
+<h3>Expandability, app and warranty</h3>
+<p>Choose a system that accepts extra modules, with a clear app that shows production and consumption history, regular updates and, for hardwired batteries, a warranty of at least 10 years.</p>
+
+<h2>The best home batteries for solar in 2026</h2>
+<h3>1. Anker SOLIX Solarbank 3 E2700 Pro: the best plug-in battery</h3>
+<p>The <strong>Solarbank 3 E2700 Pro</strong> packs a LiFePO4 battery of about 2.7 kWh, solar inputs with MPPT controllers and an inverter into one IP65 weatherproof unit. Panels connect on one side and an outlet on the other, and it feeds up to 800 W into the home's wiring. Paired with the Anker smart meter or a P1 reader, it adjusts its discharge to actual demand. An off-grid output can power devices up to 1,200 W during an outage, and expansion batteries take capacity well beyond 10 kWh.</p>
+<p><strong>Pros:</strong> all-in-one, mature smart meter control, expandable, built for outdoor use. <strong>Cons:</strong> grid output capped by the plug-in power limit, weighs about 64 lb (29 kg). <strong>Best for:</strong> owners of a balcony or small ground-mounted kit who want a simple setup that can grow.</p>
+
+<h3>2. Marstek Venus E 3.0: the most plug-in capacity</h3>
+<p>The <strong>Marstek Venus E 3.0</strong> is a 5.12 kWh AC-coupled LiFePO4 battery rated for more than 6,000 cycles. It charges and discharges through the home's wiring, at up to 2,500 W depending on the setup, so you can add it to any existing system regardless of panels or inverter. It works with the Marstek CT002 clamp or a Shelly Pro 3EM meter for zero export, and includes a backup outlet that delivers up to 2,500 W during an outage. Capacity can be expanded to 15.36 kWh.</p>
+<p><strong>Pros:</strong> lots of kWh per unit, powerful backup outlet, works with any inverter. <strong>Cons:</strong> about 121 lb (55 kg), no direct solar input, and running above 800 W on an outlet means checking local rules and often a dedicated circuit. <strong>Best for:</strong> households that already have panels and want to maximize stored capacity.</p>
+
+<h3>3. Zendure SolarFlow 2400 AC: expandable AC storage</h3>
+<p>The <strong>SolarFlow 2400 AC</strong> is an AC-coupled control unit paired with AB3000X batteries of 2.88 kWh each, up to six modules and 17.28 kWh. On a standard outlet it delivers up to 800 W; connected to a dedicated circuit by an electrician, it can reach 2.4 kW. It relies on a smart meter (P1 reader, Zendure clamps or Shelly 3EM and Pro 3EM) to charge from surplus and discharge as close as possible to demand. A 2,400 W off-grid output takes over during a power outage.</p>
+<p><strong>Pros:</strong> modular, efficient, works with a wide range of meters. <strong>Cons:</strong> no direct solar input, full power requires suitable wiring. <strong>Best for:</strong> anyone with an existing solar system, balcony or rooftop, who wants to add storage in stages.</p>
+
+<h3>4. EcoFlow STREAM Ultra: compact and built for balconies</h3>
+<p>The <strong>EcoFlow STREAM Ultra</strong> combines a 1.92 kWh LFP battery, a built-in microinverter and four MPPT inputs for up to 2,000 W of panels. It feeds up to 800 W into the home's wiring, has an outlet that powers devices up to 1,200 W and works with an EcoFlow or Shelly smart meter. Its self-heating IP65 enclosure is designed for outdoor use, and additional STREAM batteries increase capacity.</p>
+<p><strong>Pros:</strong> compact, plenty of solar inputs, complete EcoFlow ecosystem. <strong>Cons:</strong> modest base capacity for a house. <strong>Best for:</strong> apartments and small houses with a balcony kit, or owners of other EcoFlow products.</p>
+
+<h3>5. Tesla Powerwall 3: the benchmark for whole-home storage</h3>
+<p>The <strong>Tesla Powerwall 3</strong> is a hardwired battery with 13.5 kWh of usable energy and its own built-in solar inverter: panels connect to it directly on the DC side, with no separate inverter. Its output can be configured from 3.68 to 11.04 kW depending on the country and connection, enough for power-hungry appliances. Installed with the Tesla Gateway, it can back up all or part of the home during an outage, and expansion units take the system up to 54 kWh. It can be installed indoors or outdoors.</p>
+<p><strong>Pros:</strong> high capacity and power, integrated inverter, polished app. <strong>Cons:</strong> about 285 lb (130 kg), installation only by a Tesla-certified installer, premium price tier. <strong>Best for:</strong> homes with a new or upgraded rooftop system that want backup and long runtime.</p>
+
+<h3>6. Huawei LUNA2000-7-S1: the modular battery for hybrid inverters</h3>
+<p>The <strong>Huawei LUNA2000-7-S1</strong> is a 6.9 kWh high-voltage LiFePO4 module, stackable up to 20.7 kWh per tower, with up to 3.5 kW of charge and discharge per module. It's DC-coupled to a Huawei SUN2000 hybrid inverter and managed in the FusionSolar app. With the matching backup box, it can power priority circuits during an outage. Its IP66 rating means it can go in a garage or a sheltered outdoor spot.</p>
+<p><strong>Pros:</strong> fine-grained modularity, widely used by European installers, high DC efficiency. <strong>Cons:</strong> requires a compatible Huawei inverter, professional installation required. <strong>Best for:</strong> rooftop systems that have, or will have, a Huawei inverter.</p>
+
+<h3>Other hardwired options: BYD Battery-Box Premium HVS and Enphase IQ Battery 5P</h3>
+<p>The <strong>BYD Battery-Box Premium HVS</strong> is a high-voltage LFP tower of 5.1 to 12.8 kWh that works with many hybrid inverters on the market (Fronius, SMA, Kostal and GoodWe, among others): a good choice if your installer already works with one of these brands. The <strong>Enphase IQ Battery 5P</strong> is a 5 kWh AC-coupled battery with integrated microinverters, delivering up to 3.84 kW continuous on single-phase power, expandable and three-phase compatible thanks to FlexPhase. It slots naturally into existing Enphase systems and provides backup with the dedicated system controller.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Base capacity</th><th>Coupling</th><th>Meter control</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Anker SOLIX Solarbank 3 E2700 Pro</td><td>Plug-in</td><td>2.7 kWh</td><td>PV inputs + AC output</td><td>Anker meter, P1 reader</td><td>Balcony kit that can grow</td></tr>
+<tr><td>Marstek Venus E 3.0</td><td>Plug-in</td><td>5.12 kWh</td><td>AC</td><td>CT002, Shelly Pro 3EM</td><td>High capacity, retrofit</td></tr>
+<tr><td>Zendure SolarFlow 2400 AC</td><td>Modular plug-in</td><td>2.88 kWh</td><td>AC</td><td>P1, clamps, Shelly 3EM</td><td>Storage in stages</td></tr>
+<tr><td>EcoFlow STREAM Ultra</td><td>Plug-in</td><td>1.92 kWh</td><td>PV inputs + AC output</td><td>EcoFlow meter, Shelly</td><td>Apartments, small balconies</td></tr>
+<tr><td>Tesla Powerwall 3</td><td>Hardwired</td><td>13.5 kWh</td><td>DC (built-in inverter)</td><td>Tesla Gateway</td><td>Whole-home backup</td></tr>
+<tr><td>Huawei LUNA2000-7-S1</td><td>Modular hardwired</td><td>6.9 kWh</td><td>DC (Huawei inverter)</td><td>Huawei meter</td><td>Rooftop with Huawei inverter</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Oversizing capacity:</strong> a battery that never fills up for lack of solar surplus is money sitting idle. Compare your summer and winter production with your evening consumption.</li>
+<li><strong>Skipping the smart meter:</strong> without metering, discharge is fixed and some of the stored energy goes to the grid.</li>
+<li><strong>Confusing backup with whole-home power:</strong> a plug-in battery doesn't keep the whole house running during an outage, only the devices plugged into its backup outlet.</li>
+<li><strong>Using an extension cord or power strip:</strong> a battery that feeds into the home's wiring must plug into a suitable wall outlet, ideally on a circuit in good condition that isn't overloaded.</li>
+<li><strong>Ignoring placement:</strong> stay within the stated temperature range, avoid constant direct sun and enclosed spaces, and leave the ventilation clearance the manufacturer specifies.</li>
+</ul>
+
+<h2>Installation, regulations and safety</h2>
+<p><strong>Hardwired batteries</strong> must be installed by a qualified installer: connection to the electrical panel, electrical protection, inverter setup and, for backup, a device that isolates the home from the grid. Hire a licensed installer with solar and storage experience, and check your local building code and whether a permit is needed.</p>
+<p>For <strong>plug-in batteries</strong>, the safe rule is simple: stay within the power allowed on an outlet where you live, never connect several feed-in devices to the same circuit without an electrician's advice, and have models set above that limit connected to a dedicated circuit. Models sold in Europe are built for 230 V; check that the version on your Amazon store is rated for 120 V. Rules vary by country and grid operator: in France, any grid-connected generating system, even a balcony kit, must in principle be declared to the grid operator, and in Germany balcony systems are limited to 800 W of inverter output and must be registered. In the US, rules for plug-in solar vary by state and utility, so check with your utility, and with your home insurer, before you switch anything on.</p>
+<p>To go further with energy management, read our <a href="/us/blog/guide-domotique-economie-energie-2026">smart home energy-saving guide</a>, and browse every model in our <a href="/us/energie-domotique/batteries-domestiques">home batteries</a> section.</p>
+
+<h2>The bottom line</h2>
+<p>For a <strong>balcony solar kit</strong>, the <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong> is the most balanced choice: all-in-one, meter-controlled and expandable. If you already have panels and want the most kWh in a single unit, the <strong>Marstek Venus E 3.0</strong> offers the largest plug-in capacity in this comparison, while the <strong>Zendure SolarFlow 2400 AC</strong> suits anyone who wants to expand storage in stages. For a <strong>rooftop system</strong> and true whole-home backup, the <strong>Tesla Powerwall 3</strong> is still the benchmark, and the <strong>Huawei LUNA2000</strong> is the obvious pick if your inverter is already a Huawei. Whatever you choose, the smart meter and a code-compliant installation matter as much as the battery itself.</p>`,
+    ca: `<p><strong>In 2026, the best home battery for solar self-consumption depends first on your setup: with a balcony solar kit, a plug-in battery such as the Anker SOLIX Solarbank 3 E2700 Pro or the Marstek Venus E 3.0 is enough; with rooftop panels, a hardwired battery installed by a professional, such as the Tesla Powerwall 3 or the Huawei LUNA2000, is the better fit.</strong> Either way, the deciding factor is smart meter control, which lets the battery release stored energy exactly when the house needs it.</p>
+<p>This comparison is based on manufacturer datasheets, published independent reviews and verified owner reviews. It covers the two main families of residential solar storage sold in Europe, explains the concepts that really matter (kWh, kW, AC or DC coupling, zero feed-in, backup) and outlines the installation precautions. Models and versions sold in Canada can differ from the European ones: check that the listing is for a North American model. If you’re new to solar, start with our guide to <a href="/ca/blog/balkonkraftwerk-panneau-solaire-balcon">balcony solar panels</a>, then come back here to choose your storage.</p>
+
+<h2>Plug-in battery or hardwired battery: two very different families</h2>
+<p><strong>Plug-in batteries</strong> (often called balcony batteries) plug into an outlet, or sit between the panels and the outlet. They’re designed for solar kits from a few hundred watts up to around 2 kWp, install without any renovation work and feed energy back through the home’s wiring, within the power limit allowed on a standard outlet. Their capacity ranges from roughly 2 to 5 kWh per unit, expandable with extra modules.</p>
+<p><strong>Hardwired batteries</strong> are wired into the electrical panel and paired with a hybrid inverter or microinverters. They target rooftop systems of 3 to 9 kWp and up, offer 5 to more than 13 kWh per unit, deliver several kilowatts and, depending on the configuration, can provide real backup power for all or part of the home. They must be installed by a qualified installer.</p>
+
+<h2>How to choose a solar battery</h2>
+<h3>Capacity (kWh) and power (kW): don't mix them up</h3>
+<p><strong>Capacity</strong>, in kilowatt-hours, is the amount of energy stored: the tank. <strong>Power</strong>, in kilowatts, is how fast the battery can deliver it at any moment: the tap. A 5 kWh battery limited to 800 W takes more than six hours to empty and can’t run an oven or a cooktop on its own; a hardwired battery of the same capacity that delivers several kilowatts will cover those peaks. To size your system, start from your evening and overnight consumption (often 3 to 8 kWh for a house) and the solar surplus actually available during the day.</p>
+<h3>LiFePO4 chemistry: the standard for home storage</h3>
+<p>Every model in this comparison uses <strong>lithium iron phosphate (LiFePO4 or LFP)</strong> cells. This chemistry is more thermally stable than the NMC chemistry used in phones and older batteries, and it handles several thousand cycles. Look at the warranty length, the rated cycle count and the guaranteed remaining capacity at the end of the warranty rather than marketing claims about lifespan.</p>
+<h3>AC or DC coupling</h3>
+<p>A <strong>DC-coupled</strong> battery sits on the direct-current side, between the panels and the inverter (usually a hybrid inverter): solar energy is stored without an extra conversion, which reduces losses. The Tesla Powerwall 3 and the Huawei LUNA2000 with its inverter work this way. An <strong>AC-coupled</strong> battery connects on the alternating-current side, after the existing inverter: it’s easy to add to a system that’s already in place, at the cost of extra conversions. The Zendure SolarFlow 2400 AC, the Marstek Venus E 3.0 and the Enphase IQ Battery 5P are AC-coupled. Some plug-in batteries, such as the Anker Solarbank 3 or the EcoFlow STREAM Ultra, combine direct solar inputs with an AC output.</p>
+<h3>Zero feed-in and smart meters</h3>
+<p>Without metering, a plug-in battery discharges at a fixed rate whether or not anything is drawing power, so part of the stored energy flows back to the grid for free. With a <strong>smart meter</strong> (a reader for the P1 port found on European smart meters, a current clamp or a third-party meter such as the Shelly Pro 3EM), the battery matches its discharge to household demand in real time and aims for <strong>near-zero feed-in</strong>. This accessory makes the biggest difference to how much of your solar power you use yourself. Check compatibility with your meter and electrical panel before you buy.</p>
+<h3>Backup during power outages</h3>
+<p>A grid-tied battery doesn’t automatically keep the house running during an outage: for safety reasons, its grid output switches off. Plug-in models usually offer a separate <strong>backup outlet</strong> for a few priority devices (router, fridge). Backup for all or part of the home requires a hardwired battery and a transfer switch installed by a professional.</p>
+<h3>Expandability, app and warranty</h3>
+<p>Choose a system that accepts extra modules, a clear app with production and consumption history, regular updates and, for hardwired batteries, a warranty of at least ten years.</p>
+
+<h2>The best home batteries for solar in 2026</h2>
+<h3>1. Anker SOLIX Solarbank 3 E2700 Pro: the best plug-in battery</h3>
+<p>The <strong>Solarbank 3 E2700 Pro</strong> packs a LiFePO4 battery of about 2.7 kWh, solar inputs with MPPT controllers and an inverter into one IP65 weatherproof unit. Panels connect on one side, it plugs into an outlet on the other, and it feeds up to 800 W into the home’s wiring. Paired with the Anker smart meter or a P1 reader, it adjusts its discharge to actual demand. An off-grid output can power devices up to 1,200 W during an outage, and expansion batteries take capacity well beyond 10 kWh.</p>
+<p><strong>Strengths:</strong> all-in-one, mature smart meter control, expandable, suitable for outdoor use. <strong>Limitations:</strong> grid output capped by the outlet limit, weighs around 29 kg. <strong>Best for:</strong> owners of a balcony or small ground-mounted kit who want a simple setup that can grow.</p>
+
+<h3>2. Marstek Venus E 3.0: the largest plug-in capacity</h3>
+<p>The <strong>Marstek Venus E 3.0</strong> is a 5.12 kWh AC-coupled LiFePO4 battery rated for more than 6,000 cycles. It charges and discharges through the home’s wiring, at up to 2,500 W depending on the configuration, so you can add it to any existing system regardless of panels or inverter. It works with the Marstek CT002 current clamp or a Shelly Pro 3EM meter for zero feed-in, and includes a backup outlet that delivers up to 2,500 W during an outage. Capacity can be expanded to 15.36 kWh.</p>
+<p><strong>Strengths:</strong> lots of kWh per unit, powerful backup outlet, works with any inverter. <strong>Limitations:</strong> about 55 kg, no direct solar input, and running above 800 W on an outlet means checking local rules and often a dedicated circuit. <strong>Best for:</strong> households that already have panels and want to maximize stored capacity.</p>
+
+<h3>3. Zendure SolarFlow 2400 AC: expandable AC storage</h3>
+<p>The <strong>SolarFlow 2400 AC</strong> is an AC-coupled control unit paired with AB3000X batteries of 2.88 kWh each, up to six modules and 17.28 kWh. On a standard outlet it delivers up to 800 W; connected to a dedicated circuit by an electrician, it can reach 2.4 kW. It relies on a smart meter (P1 reader, Zendure clamps or Shelly 3EM and Pro 3EM) to charge from surplus and discharge as close as possible to demand. A 2,400 W off-grid output takes over during a power outage.</p>
+<p><strong>Strengths:</strong> modular, efficient, broad meter compatibility. <strong>Limitations:</strong> no direct solar input, full power requires suitable wiring. <strong>Best for:</strong> anyone with an existing solar system, balcony or rooftop, who wants to add storage in stages.</p>
+
+<h3>4. EcoFlow STREAM Ultra: compact and built for balconies</h3>
+<p>The <strong>EcoFlow STREAM Ultra</strong> combines a 1.92 kWh LFP battery, a built-in microinverter and four MPPT inputs for up to 2,000 W of panels. It feeds up to 800 W into the home’s wiring, offers an outlet that powers devices up to 1,200 W and works with an EcoFlow or Shelly smart meter. Its self-heating IP65 enclosure is designed for outdoor use, and additional STREAM batteries increase capacity.</p>
+<p><strong>Strengths:</strong> compact, plenty of solar inputs, complete EcoFlow ecosystem. <strong>Limitations:</strong> modest base capacity for a house. <strong>Best for:</strong> apartments and small houses with a balcony kit, or owners of other EcoFlow products.</p>
+
+<h3>5. Tesla Powerwall 3: the benchmark for whole-home storage</h3>
+<p>The <strong>Tesla Powerwall 3</strong> is a hardwired battery with 13.5 kWh of usable energy and its own built-in solar inverter: panels connect to it directly on the DC side, with no separate inverter. Its output can be configured from 3.68 to 11.04 kW depending on the country and connection, enough for power-hungry appliances. Installed with the Tesla Gateway, it can back up all or part of the home during an outage, and expansion units take the system up to 54 kWh. It can be installed indoors or outdoors.</p>
+<p><strong>Strengths:</strong> high capacity and power, integrated inverter, polished app. <strong>Limitations:</strong> around 130 kg, installation only by a Tesla-certified installer, premium tier. <strong>Best for:</strong> homes with a new or upgraded rooftop system that want backup power and long runtime.</p>
+
+<h3>6. Huawei LUNA2000-7-S1: the modular battery for hybrid inverters</h3>
+<p>The <strong>Huawei LUNA2000-7-S1</strong> is a 6.9 kWh high-voltage LiFePO4 module, stackable up to 20.7 kWh per tower, with up to 3.5 kW of charge and discharge per module. It’s DC-coupled to a Huawei SUN2000 hybrid inverter and managed in the FusionSolar app. With the right backup box, it can power priority circuits during an outage. Its IP66 rating allows installation in a garage or a sheltered outdoor spot.</p>
+<p><strong>Strengths:</strong> fine-grained modularity, widely used by European installers, high DC efficiency. <strong>Limitations:</strong> requires a compatible Huawei inverter, professional installation mandatory. <strong>Best for:</strong> rooftop systems that have, or will have, a Huawei inverter.</p>
+
+<h3>Other hardwired options: BYD Battery-Box Premium HVS and Enphase IQ Battery 5P</h3>
+<p>The <strong>BYD Battery-Box Premium HVS</strong> is a high-voltage LFP tower of 5.1 to 12.8 kWh, compatible with many hybrid inverters on the market (Fronius, SMA, Kostal and GoodWe, among others): a good choice if your installer already works with one of these brands. The <strong>Enphase IQ Battery 5P</strong> is a 5 kWh AC-coupled battery with integrated microinverters, delivering up to 3.84 kW continuous on single phase, expandable and three-phase compatible thanks to FlexPhase. It fits naturally into existing Enphase systems and provides backup with the dedicated system controller.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Base capacity</th><th>Coupling</th><th>Meter control</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Anker SOLIX Solarbank 3 E2700 Pro</td><td>Plug-in</td><td>2.7 kWh</td><td>PV inputs + AC output</td><td>Anker meter, P1 reader</td><td>Expandable balcony kit</td></tr>
+<tr><td>Marstek Venus E 3.0</td><td>Plug-in</td><td>5.12 kWh</td><td>AC</td><td>CT002, Shelly Pro 3EM</td><td>High capacity, retrofit</td></tr>
+<tr><td>Zendure SolarFlow 2400 AC</td><td>Modular plug-in</td><td>2.88 kWh</td><td>AC</td><td>P1, clamps, Shelly 3EM</td><td>Storage in stages</td></tr>
+<tr><td>EcoFlow STREAM Ultra</td><td>Plug-in</td><td>1.92 kWh</td><td>PV inputs + AC output</td><td>EcoFlow meter, Shelly</td><td>Apartments, small balconies</td></tr>
+<tr><td>Tesla Powerwall 3</td><td>Hardwired</td><td>13.5 kWh</td><td>DC (built-in inverter)</td><td>Tesla Gateway</td><td>Whole-home backup</td></tr>
+<tr><td>Huawei LUNA2000-7-S1</td><td>Modular hardwired</td><td>6.9 kWh</td><td>DC (Huawei inverter)</td><td>Huawei meter</td><td>Rooftop with Huawei inverter</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Oversizing capacity:</strong> a battery that never fills up for lack of solar surplus is money tied up. Compare your summer and winter production with your evening consumption.</li>
+<li><strong>Skipping the smart meter:</strong> without metering, discharge is fixed and part of the stored energy goes to the grid.</li>
+<li><strong>Confusing backup with whole-home power:</strong> a plug-in battery doesn’t keep the whole house powered during an outage, only the devices plugged into its dedicated outlet.</li>
+<li><strong>Using an extension cord or power bar:</strong> a battery that feeds into the home’s wiring must be connected to a suitable wall outlet, ideally on a circuit in good condition that isn’t overloaded.</li>
+<li><strong>Ignoring placement:</strong> respect the stated temperature range, avoid constant direct sun and confined spaces, and leave the ventilation clearance the manufacturer specifies.</li>
+</ul>
+
+<h2>Installation, regulations and safety</h2>
+<p><strong>Hardwired batteries</strong> must be installed by a qualified installer: connection to the electrical panel, electrical protection, inverter configuration and, for backup, a device that isolates the home from the grid. Choose a professional with a recognized solar and storage qualification, which is often a condition for rebates and incentives where they exist.</p>
+<p>For <strong>plug-in batteries</strong>, the cautious rule is simple: stay within the power allowed on a standard outlet where you live, never connect several feed-in devices to the same circuit without an electrician’s advice, and have models set above that limit connected to a dedicated circuit. Rules vary by country and grid operator: in many countries, any generating system connected to the grid, even a balcony kit, must be reported to the grid operator, and in Germany balcony systems are limited to 800 W of inverter output and must be registered. In Canada, check with your utility, your provincial electrical safety authority and your insurer before switching anything on.</p>
+<p>To go further with energy management, read our <a href="/ca/blog/guide-domotique-economie-energie-2026">smart home energy-saving guide</a>, and browse all models in our <a href="/ca/energie-domotique/batteries-domestiques">home batteries</a> section.</p>
+
+<h2>Verdict</h2>
+<p>For a <strong>balcony solar kit</strong>, the <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong> is the most balanced choice: all-in-one, meter-controlled and expandable. If you already have panels and want the most kWh in a single unit, the <strong>Marstek Venus E 3.0</strong> offers the largest plug-in capacity in this comparison, while the <strong>Zendure SolarFlow 2400 AC</strong> suits anyone who wants to expand storage in stages. For a <strong>rooftop system</strong> and real whole-home backup, the <strong>Tesla Powerwall 3</strong> is still the benchmark, and the <strong>Huawei LUNA2000</strong> is the obvious pick if your inverter is already a Huawei. Whatever you choose, the smart meter and a code-compliant installation matter as much as the battery itself.</p>`,
   },
   faq: [
     {
@@ -612,6 +862,9 @@ export const article: BlogArticle = {
         it: 'Quale capacità di batteria serve per i pannelli solari?',
         nl: 'Welke batterijcapaciteit heb ik nodig voor zonnepanelen?',
         pl: 'Jaką pojemność magazynu energii wybrać do fotowoltaiki?',
+        sv: 'Hur stort batteri behöver man till solceller?',
+        us: 'What size battery do I need for solar panels?',
+        ca: 'What battery capacity do I need for solar panels?',
       },
       answer: {
         fr: 'Visez la consommation de votre soirée et de votre nuit, dans la limite du surplus solaire réel. Pour une centrale de balcon, 2 à 5 kWh suffisent généralement ; pour une maison équipée en toiture, 5 à 13 kWh sont courants. Au-delà, la batterie risque de rarement se remplir, surtout en hiver.',
@@ -621,6 +874,9 @@ export const article: BlogArticle = {
         it: 'Punta ai consumi serali e notturni, nel limite del surplus solare reale. Per un kit da balcone in genere bastano da 2 a 5 kWh; per una casa con pannelli sul tetto sono comuni da 5 a 13 kWh. Oltre, la batteria rischia di riempirsi di rado, soprattutto in inverno.',
         nl: 'Ga uit van je verbruik \'s avonds en \'s nachts, binnen de grens van je werkelijke zonne-overschot. Voor een balkoncentrale volstaat meestal 2 tot 5 kWh; voor een woning met dakpanelen is 5 tot 13 kWh gebruikelijk. Daarboven raakt de batterij zeker in de winter zelden vol.',
         pl: 'Kieruj się swoim zużyciem wieczorem i w nocy, ale w granicach rzeczywistej nadwyżki z paneli. Do elektrowni balkonowej zwykle wystarcza 2–5 kWh, a w domu z instalacją dachową typowe jest 5–13 kWh. Większy magazyn może rzadko się zapełniać, zwłaszcza zimą.',
+        sv: 'Utgå från din förbrukning på kvällen och natten, inom ramen för det solöverskott du faktiskt har. För balkongsolceller räcker oftast 2–5 kWh; för ett hus med solpaneler på taket är 5–13 kWh vanligt. Väljer du ett större batteri riskerar det att sällan bli fullt, särskilt på vintern.',
+        us: 'Size it to your evening and overnight consumption, within the limit of your real solar surplus. For a balcony kit, 2 to 5 kWh is usually enough; for a house with rooftop panels, 5 to 13 kWh is common. Go much bigger and the battery may rarely fill up, especially in winter.',
+        ca: 'Aim for your evening and overnight consumption, within the limit of your real solar surplus. For a balcony kit, 2 to 5 kWh is usually enough; for a house with rooftop panels, 5 to 13 kWh is common. Beyond that, the battery may rarely fill up, especially in winter.',
       },
     },
     {
@@ -632,6 +888,9 @@ export const article: BlogArticle = {
         it: 'Una batteria plug-in si può collegare a una normale presa?',
         nl: 'Mag een plug-in batterij in een gewoon stopcontact?',
         pl: 'Czy magazyn plug-in można podłączyć do zwykłego gniazdka?',
+        sv: 'Kan ett plug-in-batteri anslutas till ett vanligt vägguttag?',
+        us: 'Can a plug-in battery go into a regular outlet?',
+        ca: 'Can a plug-in battery go into a regular outlet?',
       },
       answer: {
         fr: 'Oui, c\'est leur principe, à condition de rester dans la puissance admise sur une prise dans votre pays, souvent 800 W, et d\'utiliser une prise murale en bon état sans rallonge. Les modèles réglés au-delà doivent être raccordés à un circuit dédié par un électricien. Renseignez-vous aussi sur les déclarations exigées par votre gestionnaire de réseau.',
@@ -641,6 +900,9 @@ export const article: BlogArticle = {
         it: 'Sì, è il loro principio, purché si resti entro la potenza ammessa su una presa nel proprio paese, spesso 800 W, e si usi una presa a muro in buono stato senza prolunghe. I modelli impostati oltre vanno collegati a un circuito dedicato da un elettricista. Verifica anche le comunicazioni richieste dal gestore di rete.',
         nl: 'Ja, daar zijn ze voor bedoeld, zolang je binnen het in jouw land toegestane vermogen op een stopcontact blijft, vaak 800 W, en een wandstopcontact in goede staat zonder verlengsnoer gebruikt. Modellen die hoger zijn ingesteld, horen op een aparte groep via een elektricien. Ga ook na welke melding je netbeheerder vraagt.',
         pl: 'Tak, właśnie tak są pomyślane, pod warunkiem że nie przekraczasz mocy dopuszczalnej dla gniazdka w Twoim kraju (często 800 W) i korzystasz ze sprawnego gniazdka ściennego, bez przedłużacza. Modele ustawione na wyższą moc musi podłączyć elektryk do osobnego obwodu. Sprawdź też, jakich zgłoszeń wymaga Twój operator sieci.',
+        sv: 'Ja, det är själva idén, så länge du håller dig inom den effekt som är tillåten för ett uttag i ditt land, ofta 800 W, och använder ett vägguttag i gott skick utan förlängningssladd. Modeller som är inställda över gränsen ska anslutas till en egen grupp av en elektriker. Ta också reda på vilka anmälningar ditt elnätsbolag kräver.',
+        us: 'Yes, that\'s how they work, as long as you stay within the power allowed on an outlet where you live (often 800 W in Europe) and use a wall outlet in good condition, with no extension cord. Models set above that limit should be connected to a dedicated circuit by an electrician. Also check whether your utility or grid operator requires you to notify it.',
+        ca: 'Yes, that’s how they work, as long as you stay within the power allowed on a standard outlet where you live (often 800 W in Europe) and use a wall outlet in good condition, without an extension cord. Models set above that limit should be connected to a dedicated circuit by an electrician. Also check whether your utility or grid operator requires you to report the system.',
       },
     },
     {
@@ -652,6 +914,9 @@ export const article: BlogArticle = {
         it: 'Serve un contatore intelligente con una batteria solare?',
         nl: 'Heb ik een slimme meter nodig bij een thuisbatterij?',
         pl: 'Czy do magazynu energii potrzebny jest dodatkowy licznik energii?',
+        sv: 'Behöver man en smart energimätare till ett solcellsbatteri?',
+        us: 'Do I need a smart meter with a solar battery?',
+        ca: 'Do I need a smart meter with a solar battery?',
       },
       answer: {
         fr: 'C\'est fortement recommandé. Le compteur (lecteur P1, pince ampèremétrique ou Shelly Pro 3EM selon le modèle) indique en temps réel ce que consomme la maison, et la batterie ajuste sa décharge pour éviter de renvoyer gratuitement son énergie sur le réseau. Les batteries fixes intègrent ce pilotage via leur propre compteur.',
@@ -661,6 +926,9 @@ export const article: BlogArticle = {
         it: 'È fortemente consigliato. Il contatore (lettore P1, pinza amperometrica o Shelly Pro 3EM a seconda del modello) rileva in tempo reale i consumi della casa e la batteria adegua la scarica per non cedere gratis la sua energia alla rete. Le batterie fisse integrano questo controllo con il proprio misuratore.',
         nl: 'Dat is sterk aan te raden. De meter (P1-lezer, stroomtang of Shelly Pro 3EM, afhankelijk van het model) meet het verbruik in huis in realtime, en de batterij past haar ontlading aan zodat ze geen energie gratis aan het net geeft. Vaste batterijen hebben deze aansturing via hun eigen meter.',
         pl: 'Zdecydowanie warto go mieć. Licznik (czytnik P1, cęgi prądowe lub Shelly Pro 3EM, zależnie od modelu) pokazuje na bieżąco, ile prądu pobiera dom, a magazyn dopasowuje do tego rozładowanie, żeby nie oddawać energii do sieci za darmo. Magazyny stacjonarne mają takie sterowanie wbudowane i korzystają z własnego licznika.',
+        sv: 'Det rekommenderas starkt. Mätaren (P1-läsare, strömtång eller Shelly Pro 3EM beroende på modell) visar i realtid vad huset förbrukar, och batteriet anpassar urladdningen så att energin inte skickas gratis ut på elnätet. Fast installerade batterier har den styrningen inbyggd via en egen mätare.',
+        us: 'It\'s strongly recommended. The meter (a P1 reader, a CT clamp or a Shelly Pro 3EM, depending on the model) reports household demand in real time, and the battery adjusts its discharge so it doesn\'t send its energy to the grid for free. Hardwired batteries handle this through their own meter.',
+        ca: 'It’s strongly recommended. The meter (P1 reader, current clamp or Shelly Pro 3EM depending on the model) reports household demand in real time, and the battery adjusts its discharge so it doesn’t send its energy to the grid for free. Hardwired batteries handle this through their own meter.',
       },
     },
     {
@@ -672,6 +940,9 @@ export const article: BlogArticle = {
         it: 'Una batteria solare alimenta la casa durante un blackout?',
         nl: 'Voedt een thuisbatterij het huis tijdens een stroomstoring?',
         pl: 'Czy magazyn energii zasila dom podczas przerwy w dostawie prądu?',
+        sv: 'Driver ett solcellsbatteri huset vid strömavbrott?',
+        us: 'Will a solar battery power my home during a power outage?',
+        ca: 'Will a solar battery power my home during a power outage?',
       },
       answer: {
         fr: 'Pas automatiquement. Les batteries plug-in coupent leur sortie réseau et n\'alimentent que les appareils branchés sur leur prise de secours. Une batterie fixe comme la Tesla Powerwall 3 ou la Huawei LUNA2000 peut secourir tout ou partie du logement, à condition d\'installer le dispositif de basculement prévu par le fabricant.',
@@ -681,6 +952,9 @@ export const article: BlogArticle = {
         it: 'Non automaticamente. Le batterie plug-in spengono l\'uscita verso la rete e alimentano solo gli apparecchi collegati alla presa di emergenza. Una batteria fissa come la Tesla Powerwall 3 o la Huawei LUNA2000 può alimentare tutta o parte della casa, se si installa il dispositivo di commutazione previsto dal produttore.',
         nl: 'Niet automatisch. Plug-in batterijen schakelen hun netuitgang uit en voeden alleen apparaten aan hun noodstroomstopcontact. Een vaste batterij zoals de Tesla Powerwall 3 of Huawei LUNA2000 kan het hele huis of een deel ervan voeden, mits de omschakelvoorziening van de fabrikant is geplaatst.',
         pl: 'Nie automatycznie. Magazyny plug-in wyłączają wyjście sieciowe i zasilają tylko urządzenia podłączone do ich gniazda awaryjnego. Magazyn stacjonarny, np. Tesla Powerwall 3 lub Huawei LUNA2000, może zasilać awaryjnie cały dom lub jego część, jeśli zostanie zamontowany odpowiedni układ przełączający producenta.',
+        sv: 'Inte automatiskt. Plug-in-batterier stänger av utgången mot elnätet och driver bara de apparater som är anslutna till reservuttaget. Ett fast installerat batteri som Tesla Powerwall 3 eller Huawei LUNA2000 kan ge reservkraft till hela eller delar av bostaden, förutsatt att omkopplaren som tillverkaren föreskriver är installerad.',
+        us: 'Not automatically. Plug-in batteries shut off their grid output and only power devices plugged into their backup outlet. A hardwired battery such as the Tesla Powerwall 3 or Huawei LUNA2000 can back up all or part of the home, provided the manufacturer\'s transfer equipment (a gateway or backup box) is installed.',
+        ca: 'Not automatically. Plug-in batteries switch off their grid output and only power devices plugged into their backup outlet. A hardwired battery such as the Tesla Powerwall 3 or Huawei LUNA2000 can back up all or part of the home, provided the manufacturer’s transfer equipment is installed.',
       },
     },
     {
@@ -692,6 +966,9 @@ export const article: BlogArticle = {
         it: 'Si può aggiungere una batteria a un impianto solare esistente?',
         nl: 'Kan ik een batterij toevoegen aan een bestaande zonne-installatie?',
         pl: 'Czy do istniejącej instalacji fotowoltaicznej można dodać magazyn energii?',
+        sv: 'Går det att lägga till ett batteri i en befintlig solcellsanläggning?',
+        us: 'Can I add a battery to an existing solar system?',
+        ca: 'Can I add a battery to an existing solar system?',
       },
       answer: {
         fr: 'Oui. Les batteries couplées en AC, comme la Zendure SolarFlow 2400 AC, la Marstek Venus E 3.0 ou l\'Enphase IQ Battery 5P, se raccordent après l\'onduleur existant, quelle que soit sa marque. Une batterie DC exige en général un onduleur hybride compatible, ce qui peut impliquer de le remplacer.',
@@ -701,6 +978,9 @@ export const article: BlogArticle = {
         it: 'Sì. Le batterie accoppiate in AC, come la Zendure SolarFlow 2400 AC, la Marstek Venus E 3.0 o l\'Enphase IQ Battery 5P, si collegano dopo l\'inverter esistente, di qualunque marca sia. Una batteria DC richiede di solito un inverter ibrido compatibile, il che può comportarne la sostituzione.',
         nl: 'Ja. AC-gekoppelde batterijen zoals de Zendure SolarFlow 2400 AC, de Marstek Venus E 3.0 of de Enphase IQ Battery 5P worden na de bestaande omvormer aangesloten, ongeacht het merk. Een DC-batterij vraagt meestal een compatibele hybride omvormer, wat kan betekenen dat je die moet vervangen.',
         pl: 'Tak. Magazyny sprzężone po stronie AC, np. Zendure SolarFlow 2400 AC, Marstek Venus E 3.0 czy Enphase IQ Battery 5P, podłącza się za istniejącym falownikiem, bez względu na jego markę. Magazyn sprzężony po stronie DC zwykle wymaga zgodnego falownika hybrydowego, co może oznaczać konieczność wymiany obecnego.',
+        sv: 'Ja. AC-kopplade batterier som Zendure SolarFlow 2400 AC, Marstek Venus E 3.0 eller Enphase IQ Battery 5P ansluts efter den befintliga växelriktaren, oavsett märke. Ett DC-kopplat batteri kräver i regel en kompatibel hybridväxelriktare, vilket kan innebära att du måste byta ut den du har.',
+        us: 'Yes. AC-coupled batteries such as the Zendure SolarFlow 2400 AC, Marstek Venus E 3.0 or Enphase IQ Battery 5P connect after the existing inverter, whatever its brand. A DC-coupled battery usually requires a compatible hybrid inverter, which may mean replacing yours.',
+        ca: 'Yes. AC-coupled batteries such as the Zendure SolarFlow 2400 AC, Marstek Venus E 3.0 or Enphase IQ Battery 5P connect after the existing inverter, whatever its brand. A DC battery usually requires a compatible hybrid inverter, which may mean replacing yours.',
       },
     },
     {
@@ -712,6 +992,9 @@ export const article: BlogArticle = {
         it: 'Le batterie LiFePO4 sono sicure in casa?',
         nl: 'Zijn LiFePO4-batterijen veilig in huis?',
         pl: 'Czy akumulatory LiFePO4 są bezpieczne w domu?',
+        sv: 'Är LiFePO4-batterier säkra att ha i hemmet?',
+        us: 'Are LiFePO4 batteries safe to use at home?',
+        ca: 'Are LiFePO4 batteries safe to use at home?',
       },
       answer: {
         fr: 'La chimie LiFePO4 est reconnue comme l\'une des plus stables thermiquement pour le stockage domestique. La sécurité dépend toutefois aussi de l\'installation : respectez l\'emplacement, la ventilation et les températures indiquées par le fabricant, et confiez les batteries fixes à un installateur qualifié.',
@@ -721,6 +1004,9 @@ export const article: BlogArticle = {
         it: 'La chimica LiFePO4 è riconosciuta come una delle più stabili termicamente per l\'accumulo domestico. La sicurezza dipende però anche dall\'installazione: rispetta posizione, ventilazione e temperature indicate dal produttore e affida le batterie fisse a un installatore qualificato.',
         nl: 'LiFePO4 geldt als een van de thermisch stabielste chemieën voor thuisopslag. De veiligheid hangt wel ook af van de installatie: volg de aanwijzingen van de fabrikant over plaats, ventilatie en temperatuur en laat vaste batterijen door een gekwalificeerde installateur plaatsen.',
         pl: 'Ogniwa LiFePO4 uchodzą za jedne z najstabilniejszych termicznie spośród stosowanych w domowych magazynach energii. Bezpieczeństwo zależy jednak także od montażu: trzymaj się zaleceń producenta dotyczących miejsca instalacji, wentylacji i temperatur, a montaż magazynu stacjonarnego powierz wykwalifikowanemu instalatorowi.',
+        sv: 'LiFePO4 räknas som en av de termiskt stabilaste kemierna för energilagring i hemmet. Säkerheten beror ändå också på installationen: följ tillverkarens anvisningar om placering, ventilation och temperatur, och låt en behörig installatör sätta upp fast installerade batterier.',
+        us: 'LiFePO4 chemistry is recognized as one of the most thermally stable options for home storage. Safety also depends on the installation, though: follow the manufacturer\'s guidance on location, ventilation and temperature, and have hardwired batteries installed by a qualified installer.',
+        ca: 'LiFePO4 chemistry is recognized as one of the most thermally stable options for home storage. Safety also depends on the installation, though: follow the manufacturer’s guidance on location, ventilation and temperature, and have hardwired batteries installed by a qualified installer.',
       },
     },
   ],

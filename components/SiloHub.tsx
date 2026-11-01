@@ -70,6 +70,24 @@ const uiStrings: Record<Lang, { home: string; comingSoon: string; categoriesTitl
     categoriesTitle: 'Kategorie',
     methodologyCta: 'Poznaj naszą metodologię',
   },
+  sv: {
+    home: 'Hem',
+    comingSoon: 'Kommer snart',
+    categoriesTitle: 'Kategorier',
+    methodologyCta: 'Läs om vår metod',
+  },
+  us: {
+    home: 'Home',
+    comingSoon: 'Coming soon',
+    categoriesTitle: 'Categories',
+    methodologyCta: 'Read our methodology',
+  },
+  ca: {
+    home: 'Home',
+    comingSoon: 'Coming soon',
+    categoriesTitle: 'Categories',
+    methodologyCta: 'Read our methodology',
+  },
 }
 
 interface SiloHubProps {

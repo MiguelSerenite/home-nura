@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Climatizzatore portatile che non raffredda in un soggiorno, tubo di scarico da controllare',
         nl: 'Mobiele airco die niet koelt in een woonkamer, afvoerslang controleren',
         pl: 'Klimatyzator przenośny, który nie chłodzi salonu – do sprawdzenia wąż odprowadzający',
+        sv: 'Portabel AC som inte kyler i vardagsrummet – dags att kontrollera utblåsslangen',
+        us: 'Portable air conditioner that isn\'t cooling in a living room, with its exhaust hose to check',
+        ca: 'Portable air conditioner not cooling in a living room, exhaust hose to check',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Climatizzatore Portatile che Non Raffredda: Cause e Soluzioni 2026',
     nl: 'Mobiele Airco Koelt Niet: Oorzaken en Oplossingen 2026',
     pl: 'Klimatyzator przenośny nie chłodzi: przyczyny i rozwiązania 2026',
+    sv: 'Portabel AC kyler inte: orsaker och lösningar 2026',
+    us: 'Portable AC Not Cooling? 8 Causes and Fixes (2026)',
+    ca: 'Portable Air Conditioner Not Cooling: Causes and Fixes 2026',
   },
   excerpt: {
     fr: 'Votre climatiseur portable ne refroidit pas ou pas assez ? Diagnostic complet : tuyau d\'évacuation, filtre encrassé, BTU insuffisants, mauvais réglage, fuite de gaz. Solutions étape par étape et tableau de dépannage.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Il tuo climatizzatore portatile non raffredda o non abbastanza? Diagnosi completa: tubo di scarico, filtro sporco, BTU insufficienti, modalità sbagliata, perdita di gas. Soluzioni passo passo e tabella guasti.',
     nl: 'Koelt je mobiele airco niet of niet genoeg? Volledige diagnose: afvoerslang, vervuild filter, te weinig BTU, verkeerde stand, gaslek. Stap-voor-stap oplossingen en een storingstabel.',
     pl: 'Klimatyzator przenośny nie chłodzi albo chłodzi za słabo? Sprawdzamy wszystkie możliwe przyczyny: wąż odprowadzający, zabrudzony filtr, zbyt małą moc (BTU), błędne ustawienia i wyciek czynnika chłodniczego. Rozwiązania krok po kroku i tabela usterek.',
+    sv: 'Kyler din portabla AC inte alls, eller för dåligt? Hela felsökningen: utblåsslangen, igensatt filter, för låg kyleffekt (BTU), fel inställning och läckande köldmedium. Lösningar steg för steg och en felsökningstabell.',
+    us: 'Portable air conditioner not cooling, or not cooling enough? A full diagnosis: exhaust hose, clogged filter, too few BTU, wrong setting, refrigerant leak. Step-by-step fixes and a troubleshooting table.',
+    ca: 'Is your portable air conditioner not cooling or not cooling enough? Full diagnosis: exhaust hose, clogged filter, insufficient BTU, wrong setting, gas leak. Step-by-step fixes and a troubleshooting table.',
   },
   content: {
     es: `<h2>Mi aire acondicionado portátil no enfría: por dónde empezar</h2>
@@ -901,6 +910,369 @@ export const article: BlogArticle = {
 
 <h2>Podsumowanie</h2>
 <p>Klimatyzator przenośny, który nie chłodzi, rzadko nadaje się do wyrzucenia. Sprawdź po kolei tryb pracy, wąż odprowadzający, uszczelnienie okna, filtr i zbiornik na skropliny, a także upewnij się, że moc w BTU odpowiada powierzchni pomieszczenia. Te kroki rozwiązują problem w zdecydowanej większości przypadków. Dopiero gdy nie pomogą, warto brać pod uwagę wyciek czynnika i wzywać technika z certyfikatem.</p>`,
+    sv: `<h2>Min portabla AC kyler inte: här börjar du</h2>
+<p>Det är ett av sommarens mest frustrerande problem: du kopplar in apparaten, ställer den på 18 grader, låter den gå i flera timmar – och rummet är lika varmt som förut. Den goda nyheten är att det i de allra flesta fall inte handlar om något allvarligt fel när en portabel AC inte kyler. Oftast beror det på installationen, skötseln eller att apparaten är för liten för rummet, och det kan du i regel åtgärda själv på några minuter.</p>
+<p>Innan du ringer service eller köper en ny apparat lönar det sig att felsöka metodiskt. I den här guiden går vi igenom de verkliga orsakerna, från den vanligaste till den allvarligaste, med konkreta lösningar steg för steg. Funderar du fortfarande på vilket system som passar dig bäst kan du läsa vår <a href="/sv/blog/climatiseur-mobile-vs-ventilateur">jämförelse mellan portabel AC och fläkt</a>.</p>
+<p>Ha en sak i bakhuvudet: en portabel AC, där allt sitter i ett och samma aggregat, fungerar inte som en fast split-AC på väggen. Den är mycket känsligare för hur den installeras, hur stort rummet är och hur varmt det är ute. När apparaten kyler för dåligt är den ofta inte alls trasig – den kämpar mot ogynnsamma förhållanden som är lätta att rätta till. Vi tar dem en i taget och börjar med det som tar en minut att kontrollera. Felen som kräver en fackman sparar vi till sist.</p>
+
+<h2>Snabb felsökningstabell</h2>
+<table>
+<thead>
+<tr><th>Symtom</th><th>Trolig orsak</th><th>Lösning</th></tr>
+</thead>
+<tbody>
+<tr><td>Det blåser, men luften är varken kall eller varm</td><td>Fläktläge i stället för kylläge</td><td>Byt till kylläget (Cool, snöflingan)</td></tr>
+<tr><td>Kyler dåligt och slangen blir varm</td><td>Utblåsslangen sitter fel eller är vikt</td><td>Räta ut slangen och dra den ut genom fönstret</td></tr>
+<tr><td>Mycket svagt luftflöde</td><td>Igensatt filter</td><td>Rengör eller byt filtret</td></tr>
+<tr><td>Stänger av sig själv efter några minuter</td><td>Full vattentank</td><td>Töm vattentanken</td></tr>
+<tr><td>Går, men temperaturen i rummet sjunker inte</td><td>För låg kyleffekt (BTU) för ytan</td><td>Kyl en mindre yta eller välj en kraftfullare modell</td></tr>
+<tr><td>Kyler mycket sämre än förut</td><td>Möjligt läckage av köldmedium</td><td>Anlita en certifierad tekniker</td></tr>
+</tbody>
+</table>
+
+<h2>Orsak 1: fel läge är inställt</h2>
+<p>Det låter banalt, men det är den vanligaste orsaken till skenbara fel. Många apparater startar som standard i fläktläge (Fan) eller avfuktningsläge (Dry). De rör om luften eller tar bort fukt, men sänker inte temperaturen på riktigt. Om kompressorn aldrig startar kommer apparaten aldrig att kyla.</p>
+<ul>
+<li>Tryck på Mode-knappen tills du ser snöflingan eller texten Cool.</li>
+<li>Ställ in en temperatur som ligger flera grader under den temperatur rummet har nu.</li>
+<li>Lyssna efter att kompressorn startar (ett lågt brummande) efter en till två minuter.</li>
+<li>Stäng av timern och Eco-läget medan du felsöker, så att du kan utesluta att effekten begränsas.</li>
+</ul>
+
+<h2>Orsak 2: utblåsslangen är felaktigt installerad</h2>
+<p>Det här är den i särklass vanligaste orsaken. En portabel AC tar upp värmen i rummet och blåser ut den genom utblåsslangen. Om den varma luften inte verkligen kommer ut ur rummet strömmar den tillbaka in och äter upp hela kyleffekten. Det är det vanligaste misstaget – och samtidigt det enklaste att rätta till, helt utan kostnad.</p>
+<p>En detalj som många missar: ju längre och krokigare slangen är, desto varmare blir dess yta och desto mer värme strålar den tillbaka in i rummet. Slangens temperatur säger mycket. Känns den sista biten mycket varm efter en stund är dragningen troligen för lång eller har för många böjar.</p>
+<h3>Så kontrollerar och rättar du till slangen</h3>
+<ul>
+<li>Slangen ska gå raka vägen till ett fönster eller ett utlopp i väggen, aldrig slingra sig runt i rummet.</li>
+<li>Håll den så kort och rak som möjligt: varje böj och varje extra meter försämrar verkningsgraden.</li>
+<li>Se till att den inte är vikt, klämd eller formad som ett U: den varma luften samlas där och strömmar tillbaka in.</li>
+<li>Kontrollera att slangen sitter ordentligt fast på apparatens baksida och inte har lossnat.</li>
+<li>Förläng inte slangen med hemmabyggen och byt inte till en längre: längden är beräknad för apparatens luftflöde.</li>
+</ul>
+
+<h2>Orsak 3: fönstret är dåligt tätat</h2>
+<p>Det är ingen idé att blåsa ut den varma luften om uteluften kommer in igen runt slangen. De flesta apparater levereras med en fönstertätning just av den anledningen.</p>
+<ul>
+<li>Montera fönstertätningen som följer med. Saknas den finns billiga universalpaneler att köpa.</li>
+<li>Täta glipor runt slangen med tejp eller tätningslist av skumgummi.</li>
+<li>Stäng dörrar och fönster och dra ner rullgardinerna under dygnets varmaste timmar.</li>
+<li>Har du ett inåtgående fönster med vädringsläge (tilt and turn) behöver du en tätning som är gjord för just den typen: de trekantiga glipor som bildas i vädringsläget släpper in väldigt mycket värme.</li>
+</ul>
+<p>Ett enkelt sätt att kontrollera tätningen: låt apparaten gå och håll handen nära fönsterkarmen och tätningen runt slangen. Känner du ett varmt luftdrag komma in har du hittat en läcka som förstör apparatens arbete.</p>
+
+<h2>Orsak 4: filtret är igensatt</h2>
+<p>Filtret fångar upp damm. När det sätts igen suger apparaten in mindre luft, luftflödet minskar och kylförmågan rasar. Det är grundläggande skötsel som ofta glöms bort.</p>
+<ul>
+<li>Leta upp filtret (oftast bakom ett galler på baksidan eller sidan) och ta ut det.</li>
+<li>Skölj det i ljummet vatten med lite milt rengöringsmedel, eller dammsug bort dammet.</li>
+<li>Låt det torka helt innan du sätter tillbaka det: ett fuktigt filter gynnar mögel.</li>
+<li>Upprepa rengöringen varannan till var tredje vecka under högsäsong.</li>
+</ul>
+
+<h2>Orsak 5: vattentanken är full</h2>
+<p>När apparaten kyler bildas kondensvatten. Vissa modeller förångar vattnet, andra samlar det i en inbyggd tank. När tanken är full stänger en säkerhetsgivare av kompressorn: fläkten blåser fortfarande men kyler inte längre, och ibland visas koden ”FL” eller ”Full”.</p>
+<ul>
+<li>Töm vattentanken enligt bruksanvisningen.</li>
+<li>Går det på din modell kan du ansluta en dräneringsslang för kontinuerlig tömning, så slipper du tömma tanken för hand.</li>
+<li>Kontrollera att tömningspluggen är ordentligt stängd efteråt.</li>
+</ul>
+
+<h2>Orsak 6: rummet är för stort (för låg kyleffekt)</h2>
+<p>Om apparaten fungerar som den ska men rummet ändå inte blir svalt nog saknar den troligen effekt. Kyleffekten anges i BTU per timme. En liten apparat i ett stort vardagsrum kan gå för fullt utan att någonsin nå den inställda temperaturen – som en liten, fullastad bil som kämpar uppför en backe.</p>
+<p>Det här är en nyckelfråga vid köpet och en vanlig orsak till besvikelse: många väljer modell efter priset och får en apparat som är för klen för vardagsrummet. Rätt dimensionerad kyleffekt är det som skiljer en apparat som verkligen kyler från en som mest låter.</p>
+<h3>Så många BTU behöver du för ytan</h3>
+<table>
+<thead>
+<tr><th>Rummets yta</th><th>Rekommenderad kyleffekt</th></tr>
+</thead>
+<tbody>
+<tr><td>Upp till 15 m²</td><td>7 000–9 000 BTU</td></tr>
+<tr><td>15–25 m²</td><td>9 000–12 000 BTU</td></tr>
+<tr><td>25–35 m²</td><td>12 000–14 000 BTU</td></tr>
+<tr><td>35–45 m²</td><td>14 000–18 000 BTU</td></tr>
+</tbody>
+</table>
+<p>Värdena är riktmärken för ett normalt rum. Ligger rummet i full sol, är det ett vindsrum, har det högt i tak eller står många apparater igång: gå upp ett steg. En för liten apparat når aldrig den inställda temperaturen och drar dessutom mer el. Vill du jämföra kyleffekt och elförbrukning kan du läsa vår <a href="/sv/blog/climatiseur-mobile-vs-ventilateur">jämförelse efter rumsstorlek</a>.</p>
+
+<h2>Orsak 7: extrem utomhustemperatur</h2>
+<p>Under en värmebölja med 40 grader ute tappar även en rätt dimensionerad apparat i effektivitet: den måste göra sig av med värmen i luft som redan är mycket varm. Det är inget fel, utan en fysisk begränsning.</p>
+<ul>
+<li>Dra ner rullgardinerna och dra för gardinerna under dygnets varmaste timmar.</li>
+<li>Starta apparaten innan rummet hunnit bli en bastu.</li>
+<li>Sikta inte på 18 grader till varje pris: att komma 5–8 grader under utomhustemperaturen är realistiskt och känns redan mycket skönare.</li>
+</ul>
+
+<h2>Orsak 8: möjligt läckage av köldmedium</h2>
+<p>Om du har uteslutit allt annat och apparaten kylde bra förut men knappt gör det nu, kan köldmedium ha läckt ut. Utan rätt mängd köldmedium går kompressorn, men den flyttar inte längre någon värme.</p>
+<p>Var försiktig: köldmediet står under tryck och hanteringen är reglerad. Försök aldrig fylla på det eller öppna kylkretsen själv. Det ska alltid göras av en tekniker som är certifierad för att hantera köldmedier. Att ge sig på en kylkrets utan utbildning är inte bara olagligt – det kan också ge köldskador och förstöra kompressorn för gott.</p>
+<p>Tänk på att ett läckage inte är normalt på en ny apparat som används på rätt sätt. Är din bara några månader gammal och verkar redan tappa köldmedium ska du utnyttja garantin hos säljaren i stället för att öppna något själv.</p>
+
+<h2>Dags att kontakta service</h2>
+<p>Du har kontrollerat läget, slangen, tätningen, filtret och tanken, apparaten är rätt dimensionerad – och den kyler ändå inte. Kontakta då service, särskilt om du märker:</p>
+<ul>
+<li>Lukt av bränt, gnistor eller att säkringen löser ut.</li>
+<li>Onormala metalliska ljud från kompressorn.</li>
+<li>Felkoder som inte går att lösa med hjälp av bruksanvisningen.</li>
+<li>Misstänkt läckage av köldmedium (kyleffekten blir gradvis sämre).</li>
+</ul>
+<p>Öppna inte apparaten om den fortfarande har garanti. För ett behagligt inomhusklimat resten av året kan du också läsa vår <a href="/sv/blog/deshumidificateur-connecte-guide">guide till smarta avfuktare</a>.</p>
+
+<h2>Goda vanor för bättre kyla varje sommar</h2>
+<p>Utöver felsökningen finns det några enkla vanor som hjälper din portabla AC att prestera på topp och hålla längre. Tanken är att den inte ska behöva börja jobba i ett redan överhettat rum och att den ska kunna andas fritt.</p>
+<ul>
+<li>Sätt på den i god tid de dagar det väntas bli riktigt varmt, i stället för att vänta tills rummet känns som ett växthus.</li>
+<li>Håll luftintag och utblåsgaller fria: ställ inte apparaten tätt intill väggen och täck inte över den.</li>
+<li>Rengör filtret regelbundet, och ställ undan apparaten ren och torr när säsongen är slut, så slipper du dålig lukt nästa sommar.</li>
+<li>Kombinera AC:n med ett bra värmeskydd: markiser, nerdragna rullgardiner och vädring på natten när det har svalnat.</li>
+<li>Komplettera vid behov med en fläkt som sprider den svala luften i hela rummet, utan att elförbrukningen ökar nämnvärt.</li>
+</ul>
+<p>Med de här vanorna behöver apparaten jobba mindre för samma komfort, och det märks både på temperaturen och på elräkningen.</p>
+
+<h2>Slutsats</h2>
+<p>En portabel AC som inte kyler är sällan förstörd. Kontrollera i tur och ordning läget, utblåsslangen, tätningen, filtret och vattentanken, och se till att kyleffekten (BTU) räcker för ytan. De stegen löser de allra flesta fall. Först därefter blir det aktuellt att misstänka läckande köldmedium och kalla in en certifierad tekniker.</p>`,
+    us: `<h2>Portable air conditioner not cooling? Start here</h2>
+<p>It's one of summer's most frustrating problems: you plug in the unit, set it to 64°F, let it run for hours, and the room stays just as hot. The good news: in the vast majority of cases, when a portable air conditioner isn't cooling, the problem isn't a serious breakdown. It's an installation, maintenance or sizing issue you can fix yourself in a few minutes.</p>
+<p>Before you call for repair or buy a new unit, work through a methodical diagnosis. In this guide we go through the real causes, from the most common to the most serious, with concrete step-by-step fixes. If you're still deciding which kind of cooling suits you, see our <a href="/us/blog/climatiseur-mobile-vs-ventilateur">portable AC vs. fan comparison</a>.</p>
+<p>Keep one thing in mind: a single-hose portable AC doesn't work like a wall-mounted ductless mini-split. It's far more sensitive to how it's installed, the size of the room and the temperature outside. Often, when the unit isn't cooling enough, nothing is broken: it's fighting conditions you can easily improve. Let's go through them one by one, starting with the one-minute checks and saving the problems that need a pro for last.</p>
+
+<h2>Quick troubleshooting table</h2>
+<table>
+<thead>
+<tr><th>Symptom</th><th>Likely cause</th><th>Fix</th></tr>
+</thead>
+<tbody>
+<tr><td>Air blows but it's neither cold nor warm</td><td>Fan mode instead of Cool</td><td>Switch to Cool mode (snowflake icon)</td></tr>
+<tr><td>Barely cools and the hose gets hot</td><td>Exhaust hose badly routed or kinked</td><td>Straighten the hose and run it out the window</td></tr>
+<tr><td>Very weak airflow</td><td>Clogged filter</td><td>Clean or replace the filter</td></tr>
+<tr><td>Shuts off on its own after a few minutes</td><td>Full condensate tank</td><td>Empty the water tank</td></tr>
+<tr><td>Runs, but the room doesn't get cooler</td><td>Not enough BTU for the room</td><td>Cool a smaller area or size up</td></tr>
+<tr><td>Cools much less than it used to</td><td>Possible refrigerant leak</td><td>Call a certified HVAC technician</td></tr>
+</tbody>
+</table>
+
+<h2>Cause 1: the wrong mode is selected</h2>
+<p>It sounds trivial, but it's the number one cause of breakdowns that aren't really breakdowns. Many units default to Fan mode or Dry (dehumidify) mode, which move air or pull out moisture without really lowering the temperature. If the compressor never kicks on, the unit will never truly cool.</p>
+<ul>
+<li>Press the Mode button until you see the snowflake icon or the word Cool.</li>
+<li>Set the target temperature several degrees below the current room temperature.</li>
+<li>Listen for the compressor to start (a low hum) after a minute or two.</li>
+<li>Turn off the timer and Eco mode while you test, to rule out any power limiting.</li>
+</ul>
+
+<h2>Cause 2: the exhaust hose isn't installed correctly</h2>
+<p>This is by far the most common cause. A portable AC pulls heat out of the room and pushes it outside through the exhaust hose. If that hot air doesn't actually leave the room, it comes right back in and cancels out the cooling. It's the most widespread mistake, and also the easiest to fix without spending a dime.</p>
+<p>A detail many people miss: the longer and twistier the hose, the hotter its own surface gets and the more heat it radiates back into the room. The hose itself is a good clue: if the last section feels very hot after a while, the run is probably too long or has too many bends.</p>
+<h3>How to check and fix the hose</h3>
+<ul>
+<li>Run the hose straight to a window or an outside vent; never let it loop around the room.</li>
+<li>Keep it as short and straight as possible: every bend and every extra foot of hose cuts performance.</li>
+<li>Avoid kinks, crushed sections and U-shaped sags: hot air builds up there and flows back inside.</li>
+<li>Make sure the hose is firmly connected to the outlet on the back of the unit and hasn't worked loose.</li>
+<li>Don't extend the hose with DIY parts or swap in a longer one: its length is matched to the unit's airflow.</li>
+</ul>
+
+<h2>Cause 3: the window isn't sealed</h2>
+<p>There's no point pushing hot air out if outside air leaks back in around the hose. Most units come with a window kit for exactly this reason.</p>
+<ul>
+<li>Install the window kit that came with the unit; if it's missing, inexpensive universal panels are available.</li>
+<li>Seal the gaps around the hose with tape or foam weatherstripping.</li>
+<li>Keep doors and windows closed and lower the blinds during the hottest hours.</li>
+<li>On a casement or tilt-and-turn window, get a kit made for that window type: the wedge-shaped gaps left by a cranked-out or tilted sash let in a huge amount of heat.</li>
+</ul>
+<p>A simple test: with the unit running, hold your hand near the window frame and the hose seal. If you feel a stream of warm air coming in, you've found a leak that's undoing the unit's work.</p>
+
+<h2>Cause 4: the filter is clogged</h2>
+<p>The filter traps dust. When it clogs, the unit pulls in less air, airflow drops and cooling capacity falls off a cliff. It's basic maintenance, and it's often forgotten.</p>
+<ul>
+<li>Find the filter (usually behind a grille on the back or side) and pull it out.</li>
+<li>Wash it in lukewarm water with mild soap, or gently vacuum off the dust.</li>
+<li>Let it dry completely before putting it back: a damp filter invites mold.</li>
+<li>Repeat every two to three weeks during heavy use.</li>
+</ul>
+
+<h2>Cause 5: the condensate tank is full</h2>
+<p>As it cools, the unit produces water through condensation. Some models evaporate it; others collect it in an internal tank. When the tank fills up, a safety sensor shuts off the compressor: the fan keeps blowing but stops cooling, sometimes with an "FL" or "Full" code on the display.</p>
+<ul>
+<li>Empty the water tank as described in the manual.</li>
+<li>If your model supports it, connect a drain hose for continuous drainage so you don't have to empty it by hand.</li>
+<li>Make sure the drain plug is closed tight after emptying.</li>
+</ul>
+
+<h2>Cause 6: the room is too big (not enough BTU)</h2>
+<p>If the unit runs fine but the room doesn't cool down enough, it's probably underpowered. Cooling capacity is measured in BTU per hour. A small unit in a big living room can run flat out and never reach the set temperature, like a small car loaded to the roof struggling up a hill.</p>
+<p>This is a key point when you buy, and a common source of disappointment: many people choose on price and end up with a unit that's too small for their living room. Getting the BTU rating right is what separates a unit that really cools from one that just makes noise.</p>
+<h3>How many BTU for your room size</h3>
+<table>
+<thead>
+<tr><th>Room size</th><th>Recommended BTU</th></tr>
+</thead>
+<tbody>
+<tr><td>Up to 160 sq ft (15 m²)</td><td>7,000–9,000 BTU</td></tr>
+<tr><td>160–270 sq ft (15–25 m²)</td><td>9,000–12,000 BTU</td></tr>
+<tr><td>270–375 sq ft (25–35 m²)</td><td>12,000–14,000 BTU</td></tr>
+<tr><td>375–485 sq ft (35–45 m²)</td><td>14,000–18,000 BTU</td></tr>
+</tbody>
+</table>
+<p>These are guideline figures for a typical room. Strong sun, a top-floor room, high ceilings or lots of heat-producing appliances mean stepping up a size. An undersized unit will never reach the set temperature, and it will use more power trying. To compare power and energy use, see our <a href="/us/blog/climatiseur-mobile-vs-ventilateur">comparison by room size</a>.</p>
+
+<h2>Cause 7: extreme heat outside</h2>
+<p>In a heat wave, with 104°F (40°C) outside, even a correctly sized unit loses performance: it has to dump heat into air that's already very hot. That's not a defect, it's a physical limit.</p>
+<ul>
+<li>Close blinds and curtains during the hottest hours.</li>
+<li>Turn the unit on before the room turns into an oven.</li>
+<li>Don't chase 64°F: a realistic 9 to 14°F (5 to 8°C) drop below the outdoor temperature already makes a big difference in comfort.</li>
+</ul>
+
+<h2>Cause 8: a possible refrigerant leak</h2>
+<p>If you've ruled out everything else and the unit used to cool well but barely does now, it may have a refrigerant leak. Without the right refrigerant charge, the compressor runs but no longer moves heat.</p>
+<p>Be careful: refrigerant is under pressure, and handling it is regulated. Never try to recharge it or open the sealed system yourself. This job always belongs to an HVAC technician certified to handle refrigerants. Working on a refrigerant circuit without training isn't just against the rules: it can cause cold burns and permanently damage the compressor.</p>
+<p>Keep in mind that a leak isn't normal on a new unit that's been used properly. If yours is only a few months old and already seems to be losing refrigerant, file a warranty claim through the seller instead of opening anything yourself.</p>
+
+<h2>When to call for repair</h2>
+<p>You've checked the mode, hose, window seal, filter and tank, the unit is correctly sized, and it still won't cool. Time to contact the manufacturer's service team or a repair technician, especially if you notice:</p>
+<ul>
+<li>A burning smell, sparks or a tripped breaker.</li>
+<li>Unusual metallic noises from the compressor.</li>
+<li>Error codes the manual doesn't help you clear.</li>
+<li>A suspected refrigerant leak (cooling that fades over time).</li>
+</ul>
+<p>If the unit is under warranty, don't open it. To stay comfortable year-round, also see our <a href="/us/blog/deshumidificateur-connecte-guide">smart dehumidifier guide</a>.</p>
+
+<h2>Good habits for better cooling every summer</h2>
+<p>Beyond a one-time diagnosis, a few simple habits help your portable AC perform at its best and last longer. The idea: don't make it start from an already overheated room, and let it breathe freely.</p>
+<ul>
+<li>Turn it on early on days when heat is in the forecast, instead of waiting for the room to turn into an oven.</li>
+<li>Keep the air intake and outlet grilles clear: don't push the unit against a wall or cover it.</li>
+<li>Clean the filter regularly, and at the end of the season store the unit clean and dry to avoid musty odors next summer.</li>
+<li>Pair the AC with good heat protection: awnings, closed blinds and open windows at night once it cools off outside.</li>
+<li>If needed, add a fan to spread the cool air around the room for very little extra power.</li>
+</ul>
+<p>With these habits, the unit works less for the same comfort, and you'll notice it in both the room temperature and your electric bill.</p>
+
+<h2>The bottom line</h2>
+<p>A portable air conditioner that isn't cooling can almost always be saved. In order, check the mode, the exhaust hose, the window seal, the filter and the condensate tank, and make sure the BTU rating matches the room size. Those steps solve the vast majority of cases. Only after that do a refrigerant leak and a certified technician come into the picture.</p>`,
+    ca: `<h2>My portable air conditioner is not cooling: where to start</h2>
+<p>It is one of summer's most frustrating issues: you plug in the unit, set it to 18°C, leave it running for hours and the room stays just as hot. The good news is that in the vast majority of cases, when a portable air conditioner is not cooling, the problem is not a serious breakdown but an installation, maintenance or sizing issue you can fix yourself in minutes.</p>
+<p>Before calling a repair service or buying a new unit, run a methodical diagnosis. In this guide we go through the real causes, from the most common to the most serious, with concrete step-by-step fixes. If you are still deciding which system suits you, see our <a href="/ca/blog/climatiseur-mobile-vs-ventilateur">portable AC vs fan comparison</a>.</p>
+<p>Keep one idea in mind: a single-hose portable AC doesn't work like a ductless mini-split. It is far more sensitive to installation, room size and outdoor temperature. Often, when the unit is not cooling enough, it is not broken at all: it is fighting unfavourable conditions that are easy to improve. Let's look at them one by one, starting with the one-minute checks and leaving the faults that need a professional for the end.</p>
+
+<h2>Quick diagnostic table</h2>
+<table>
+<thead>
+<tr><th>Symptom</th><th>Likely cause</th><th>Fix</th></tr>
+</thead>
+<tbody>
+<tr><td>Air comes out but neither cold nor hot</td><td>Fan mode instead of cooling</td><td>Switch to Cool mode (snowflake)</td></tr>
+<tr><td>Cools little and the hose is hot</td><td>Exhaust hose poorly placed or kinked</td><td>Straighten the hose and route it out the window</td></tr>
+<tr><td>Very weak airflow</td><td>Clogged filter</td><td>Clean or replace the filter</td></tr>
+<tr><td>Stops by itself after a few minutes</td><td>Condensate tank full</td><td>Empty the water tank</td></tr>
+<tr><td>Runs but the room does not get cooler</td><td>Insufficient BTU for the area</td><td>Reduce the area or increase power</td></tr>
+<tr><td>Cools much less than before</td><td>Possible refrigerant gas leak</td><td>Call a certified technician</td></tr>
+</tbody>
+</table>
+
+<h2>Cause 1: the mode is set wrong</h2>
+<p>It sounds trivial, but it is the number one cause of false faults. Many units default to fan mode (Fan) or dehumidify mode (Dry), which move air or remove humidity without really lowering the temperature. If the compressor never starts, the unit will never truly cool.</p>
+<ul>
+<li>Press the Mode button until you see the snowflake or the word Cool.</li>
+<li>Set the target temperature several degrees below the current room temperature.</li>
+<li>Check that you hear the compressor start (a low hum) after one or two minutes.</li>
+<li>Disable the timer and Eco mode during the test to rule out any throttling.</li>
+</ul>
+
+<h2>Cause 2: the exhaust hose is poorly installed</h2>
+<p>By far the most common cause. A portable AC extracts heat from the room and expels it outside through the exhaust hose. If that hot air does not really leave the room, it comes back in and cancels the cooling effect. It's the most widespread mistake, and also the easiest to fix without spending a dime.</p>
+<p>A detail many people miss: the longer and more twisted the hose, the more its own surface heats up and radiates heat back into the room. The hose temperature is a good clue: if its final section feels very hot after a while, the route is probably too long or has bends.</p>
+<h3>How to check and fix the hose</h3>
+<ul>
+<li>The hose must run straight to a window or outside vent, never loop inside the room.</li>
+<li>Keep it as short and straight as possible: every bend and extra metre cuts performance.</li>
+<li>Avoid kinks, crushing or U-shapes: hot air builds up and flows back inside.</li>
+<li>Make sure the hose is firmly attached to the rear outlet and has not come loose.</li>
+<li>Do not extend the hose with homemade parts or swap it for a longer one: its length is calculated for the unit's airflow.</li>
+</ul>
+
+<h2>Cause 3: poor window sealing</h2>
+<p>There is no point pushing hot air out if outside air comes back in around the hose. Most units ship with a window sealing kit precisely for this.</p>
+<ul>
+<li>Install the supplied window kit; if it's missing, inexpensive universal panels are available.</li>
+<li>Seal gaps around the hose with tape or foam weatherstripping.</li>
+<li>Close doors and windows and lower blinds during the hottest hours.</li>
+<li>On a casement (crank-out) or tilt-and-turn window, look for a kit made for that window type: the gaps these windows leave around the hose let in a huge amount of heat.</li>
+</ul>
+<p>A simple test: with the unit running, hold your hand near the window frame and the hose seal. If you feel a stream of warm air coming in, you have found a leak that is ruining the unit's work.</p>
+
+<h2>Cause 4: the filter is clogged</h2>
+<p>The filter traps dust. When clogged, the unit draws in less air, airflow drops and cooling capacity collapses. It is basic maintenance that is often forgotten.</p>
+<ul>
+<li>Locate the filter (usually behind a grille at the back or side) and remove it.</li>
+<li>Clean it with lukewarm water and mild soap, or vacuum the dust gently.</li>
+<li>Let it dry completely before putting it back: a damp filter encourages mould.</li>
+<li>Repeat every two to three weeks during heavy use.</li>
+</ul>
+
+<h2>Cause 5: the condensate tank is full</h2>
+<p>While cooling, the unit produces water through condensation. Some models evaporate it, others collect it in an internal tank. When full, a safety sensor stops the compressor: the fan still blows but no longer cools, sometimes showing an "FL" or "Full" code.</p>
+<ul>
+<li>Empty the water tank as per the manual.</li>
+<li>If supported, connect a continuous drain hose to avoid manual emptying.</li>
+<li>Make sure the drain plug is properly closed after emptying.</li>
+</ul>
+
+<h2>Cause 6: the room is too big (insufficient BTU)</h2>
+<p>If the unit runs fine but the room does not cool enough, it likely lacks power. Cooling capacity is measured in BTU per hour. A small unit in a large living room can run flat out without ever reaching the set point, like a small car loaded to the roof struggling up a hill.</p>
+<p>This is a key point when buying and a common cause of disappointment: many people pick the model on price and end up with a unit that is too small for their living room. Sizing the BTU correctly is what separates a unit that really cools from one that just makes noise.</p>
+<h3>How many BTU by area</h3>
+<table>
+<thead>
+<tr><th>Room area</th><th>Recommended BTU</th></tr>
+</thead>
+<tbody>
+<tr><td>Up to 15 m² (160 sq. ft.)</td><td>7,000–9,000 BTU</td></tr>
+<tr><td>15–25 m² (160–270 sq. ft.)</td><td>9,000–12,000 BTU</td></tr>
+<tr><td>25–35 m² (270–380 sq. ft.)</td><td>12,000–14,000 BTU</td></tr>
+<tr><td>35–45 m² (380–480 sq. ft.)</td><td>14,000–18,000 BTU</td></tr>
+</tbody>
+</table>
+<p>These are guideline values for a standard room. Strong sun, top-floor rooms, high ceilings or many appliances mean stepping up a tier. An undersized unit will never reach the set point and will consume more. To compare power and consumption, see our <a href="/ca/blog/climatiseur-mobile-vs-ventilateur">comparison by room size</a>.</p>
+
+<h2>Cause 7: extreme outside temperature</h2>
+<p>In a heat wave, with 40°C outside, even a well-sized unit loses performance: it must dump heat into already very hot air. This is not a fault, but a physical limit.</p>
+<ul>
+<li>Close blinds and curtains during the hottest hours.</li>
+<li>Start the unit before the room becomes an oven.</li>
+<li>Don't aim for 18°C: keeping the room 5 to 8°C below the outdoor temperature is realistic and already makes a big difference.</li>
+</ul>
+
+<h2>Cause 8: possible refrigerant gas leak</h2>
+<p>If everything else is ruled out and the unit cooled well before but barely does now, there may be a refrigerant gas leak. Without the correct gas charge, the compressor runs but no longer transfers heat.</p>
+<p>Be careful: refrigerant gas is pressurized and its handling is regulated. Never try to recharge it or open the circuit yourself. This must always be done by a technician certified to handle refrigerants. Handling a refrigerant circuit without training is not only illegal, it can cause cold burns and irreversibly damage the compressor.</p>
+<p>Remember that a leak is not normal on a new unit that has been used properly. If yours is a few months old and already seems to be losing gas, make a warranty claim through the seller rather than opening anything yourself.</p>
+
+<h2>When to call the repair service</h2>
+<p>You have checked the mode, hose, sealing, filter and tank, the unit is correctly sized and it still does not cool. That is the time to contact the manufacturer or an authorized repair service, especially if you notice:</p>
+<ul>
+<li>Burning smell, sparks or tripping the breaker.</li>
+<li>Abnormal metallic compressor noises.</li>
+<li>Error codes not resolved by the manual.</li>
+<li>Suspected gas leak (progressive performance loss).</li>
+</ul>
+<p>If the unit is under warranty, do not open it. For year-round comfort, also see our <a href="/ca/blog/deshumidificateur-connecte-guide">smart dehumidifier guide</a>.</p>
+
+<h2>Good habits for better cooling every summer</h2>
+<p>Beyond the one-off diagnosis, a few simple habits help your portable AC perform at its best and last longer. The idea is to avoid starting from an already overheated room and to let the unit breathe freely.</p>
+<ul>
+<li>Switch it on ahead of time on days when heat is forecast, rather than waiting for the room to become an oven.</li>
+<li>Keep the air intake and outlet grilles clear: do not push the unit against the wall or cover it.</li>
+<li>Clean the filter regularly and, at the end of the season, store it clean and dry to avoid odours next summer.</li>
+<li>Pair the AC with good heat protection: awnings, lowered blinds and night ventilation when it cools down.</li>
+<li>If needed, combine it with a fan to spread the cool air around the room without raising consumption.</li>
+</ul>
+<p>With these habits the unit works less for the same comfort, which shows in both the temperature and the bill.</p>
+
+<h2>Conclusion</h2>
+<p>A portable air conditioner not cooling is rarely beyond saving. In order, check the mode, exhaust hose, sealing, filter and condensate tank, and make sure the BTU match the area. These steps fix the vast majority of cases. Only after that do a gas leak and a certified technician become relevant.</p>`,
   },
   faq: [
     {
@@ -912,6 +1284,9 @@ export const article: BlogArticle = {
         it: 'Perché il mio climatizzatore portatile non raffredda?',
         nl: 'Waarom koelt mijn mobiele airco niet?',
         pl: 'Dlaczego mój klimatyzator przenośny nie chłodzi?',
+        sv: 'Varför kyler inte min portabla AC?',
+        us: 'Why is my portable air conditioner not cooling?',
+        ca: 'Why is my portable air conditioner not cooling?',
       },
       answer: {
         fr: 'Dans la plupart des cas, c\'est un problème simple : appareil en mode ventilateur au lieu de froid, tuyau d\'évacuation plié ou mal sorti par la fenêtre, filtre encrassé ou bac à condensats plein. Vérifiez ces points dans cet ordre. Si l\'appareil tourne mais que la pièce reste chaude, il manque peut-être des BTU pour la surface.',
@@ -921,6 +1296,9 @@ export const article: BlogArticle = {
         it: 'Nella maggior parte dei casi è qualcosa di semplice: l\'apparecchio è in modalità ventilatore invece che freddo, il tubo di scarico è piegato o mal portato fuori dalla finestra, il filtro è sporco o il serbatoio di condensa è pieno. Controlla questi punti in quest\'ordine. Se funziona ma la stanza resta calda, potrebbero mancare BTU.',
         nl: 'Meestal is het iets eenvoudigs: het apparaat staat in de ventilatorstand in plaats van koelen, de afvoerslang is geknikt of niet goed naar buiten geleid, het filter is vervuild of de condensbak is vol. Controleer deze punten in die volgorde. Draait het apparaat maar blijft de kamer warm, dan ontbreken mogelijk BTU.',
         pl: 'Zwykle przyczyna jest prosta: urządzenie pracuje w trybie wentylatora zamiast chłodzenia, wąż odprowadzający jest zagięty lub źle wyprowadzony przez okno, filtr jest zabrudzony albo zbiornik na skropliny jest pełny. Sprawdź te elementy w tej kolejności. Jeśli urządzenie pracuje, a w pokoju nadal jest gorąco, jego moc w BTU może być za mała w stosunku do powierzchni.',
+        sv: 'Oftast är det något enkelt: apparaten står i fläktläge i stället för kylläge, utblåsslangen är vikt eller inte ordentligt dragen ut genom fönstret, filtret är igensatt eller vattentanken är full. Kontrollera punkterna i den ordningen. Går apparaten men rummet ändå är varmt kan kyleffekten (BTU) vara för låg för ytan.',
+        us: 'Most of the time it\'s something simple: the unit is in Fan mode instead of Cool, the exhaust hose is kinked or not routed properly out the window, the filter is clogged, or the condensate tank is full. Check them in that order. If the unit runs but the room stays hot, it may not have enough BTU for the room size.',
+        ca: 'In most cases it is something simple: the unit is in fan mode instead of cooling, the exhaust hose is kinked or not properly routed out the window, the filter is clogged, or the condensate tank is full. Check these in that order. If the unit runs but the room stays hot, it may lack BTU for the area.',
       },
     },
     {
@@ -932,6 +1310,9 @@ export const article: BlogArticle = {
         it: 'Quanti BTU mi servono per la mia stanza?',
         nl: 'Hoeveel BTU heb ik nodig voor mijn kamer?',
         pl: 'Ile BTU potrzeba do mojego pokoju?',
+        sv: 'Hur många BTU behöver jag för mitt rum?',
+        us: 'How many BTU do I need for my room?',
+        ca: 'How many BTU do I need for my room?',
       },
       answer: {
         fr: 'Comptez environ 7 000 à 9 000 BTU jusqu\'à 15 m2, 9 000 à 12 000 BTU pour 15 à 25 m2, 12 000 à 14 000 BTU pour 25 à 35 m2 et 14 000 à 18 000 BTU pour 35 à 45 m2. Ce sont des repères pour une pièce standard ; montez d\'un cran si la pièce est très ensoleillée, sous les combles ou avec des plafonds hauts.',
@@ -941,6 +1322,9 @@ export const article: BlogArticle = {
         it: 'Calcola circa 7.000 a 9.000 BTU fino a 15 m2, 9.000 a 12.000 BTU per 15-25 m2, 12.000 a 14.000 BTU per 25-35 m2 e 14.000 a 18.000 BTU per 35-45 m2. Sono indicativi per una stanza standard; sali di un livello se è molto soleggiata, in sottotetto o con soffitti alti.',
         nl: 'Reken op ongeveer 7.000 tot 9.000 BTU tot 15 m2, 9.000 tot 12.000 BTU voor 15 tot 25 m2, 12.000 tot 14.000 BTU voor 25 tot 35 m2 en 14.000 tot 18.000 BTU voor 35 tot 45 m2. Dit zijn richtlijnen voor een standaardkamer; ga een stap hoger bij veel zon, een zolderkamer of hoge plafonds.',
         pl: 'Przyjmij około 7000–9000 BTU do 15 m², 9000–12 000 BTU na 15–25 m², 12 000–14 000 BTU na 25–35 m² i 14 000–18 000 BTU na 35–45 m². To orientacyjne wartości dla typowego pomieszczenia. Jeśli pokój jest mocno nasłoneczniony, znajduje się na poddaszu albo ma wysoki sufit, wybierz model o klasę mocniejszy.',
+        sv: 'Räkna med ungefär 7 000–9 000 BTU upp till 15 m², 9 000–12 000 BTU för 15–25 m², 12 000–14 000 BTU för 25–35 m² och 14 000–18 000 BTU för 35–45 m². Det är riktmärken för ett normalt rum. Gå upp ett steg om rummet är mycket soligt, är ett vindsrum eller har högt i tak.',
+        us: 'Roughly 7,000 to 9,000 BTU for up to 160 sq ft (15 m²), 9,000 to 12,000 BTU for 160 to 270 sq ft, 12,000 to 14,000 BTU for 270 to 375 sq ft, and 14,000 to 18,000 BTU for 375 to 485 sq ft. These are guidelines for a typical room; size up if the room gets a lot of sun, is on the top floor or has high ceilings.',
+        ca: 'Roughly 7,000 to 9,000 BTU up to 15 m² (160 sq. ft.), 9,000 to 12,000 BTU for 15 to 25 m² (160 to 270 sq. ft.), 12,000 to 14,000 BTU for 25 to 35 m² (270 to 380 sq. ft.) and 14,000 to 18,000 BTU for 35 to 45 m² (380 to 480 sq. ft.). These are guidelines for a standard room; step up a tier if the room gets a lot of sun, is on the top floor or has high ceilings.',
       },
     },
     {
@@ -952,6 +1336,9 @@ export const article: BlogArticle = {
         it: 'Il tubo di scarico può essere la causa del problema?',
         nl: 'Kan de afvoerslang de oorzaak van het probleem zijn?',
         pl: 'Czy wąż odprowadzający może być przyczyną problemu?',
+        sv: 'Kan utblåsslangen vara orsaken till problemet?',
+        us: 'Could the exhaust hose be causing the problem?',
+        ca: 'Could the exhaust hose be the cause of the problem?',
       },
       answer: {
         fr: 'Oui, c\'est la cause la plus fréquente. Si le tuyau est plié, trop long, ou s\'il ne sort pas vraiment l\'air chaud par la fenêtre, cet air revient dans la pièce et annule le refroidissement. Gardez le tuyau court, droit et bien dirigé vers l\'extérieur, et calfeutrez bien la fenêtre autour.',
@@ -961,6 +1348,9 @@ export const article: BlogArticle = {
         it: 'Sì, è la causa più frequente. Se il tubo è piegato, troppo lungo o non porta davvero l\'aria calda fuori dalla finestra, quell\'aria rientra nella stanza e annulla il raffreddamento. Tieni il tubo corto, dritto e ben diretto all\'esterno, e sigilla bene la finestra attorno.',
         nl: 'Ja, het is de meest voorkomende oorzaak. Als de slang geknikt is, te lang, of de warme lucht niet echt naar buiten leidt, komt die lucht terug de kamer in en heft het koelen op. Houd de slang kort, recht en naar buiten gericht, en dicht het raam er goed omheen af.',
         pl: 'Tak, to najczęstsza przyczyna. Jeśli wąż jest zagięty, za długi albo gorące powietrze nie wychodzi nim faktycznie na zewnątrz, wraca do pokoju i niweczy chłodzenie. Wąż powinien być krótki, prosty i poprowadzony bezpośrednio na zewnątrz, a okno wokół niego – dokładnie uszczelnione.',
+        sv: 'Ja, det är den vanligaste orsaken. Om slangen är vikt, för lång eller inte verkligen leder ut den varma luften genom fönstret strömmar luften tillbaka in i rummet och äter upp kyleffekten. Håll slangen kort och rak, rikta den ordentligt utåt och täta fönstret väl runt den.',
+        us: 'Yes, it\'s the most common cause. If the hose is kinked, too long or doesn\'t actually send the hot air out the window, that air comes back into the room and cancels out the cooling. Keep the hose short, straight and pointed outside, and seal the window well around it.',
+        ca: 'Yes, it is the most common cause. If the hose is kinked, too long, or does not really route hot air out the window, that air returns to the room and cancels the cooling. Keep the hose short, straight and pointed outside, and seal the window well around it.',
       },
     },
     {
@@ -972,6 +1362,9 @@ export const article: BlogArticle = {
         it: 'Ogni quanto va pulito il filtro?',
         nl: 'Hoe vaak moet ik het filter reinigen?',
         pl: 'Jak często czyścić filtr?',
+        sv: 'Hur ofta ska jag rengöra filtret?',
+        us: 'How often should I clean the filter?',
+        ca: 'How often should I clean the filter?',
       },
       answer: {
         fr: 'En pleine saison d\'utilisation, nettoyez le filtre toutes les deux à trois semaines. Un filtre encrassé réduit le débit d\'air et donc la capacité de refroidissement. Lavez-le à l\'eau tiède avec un savon doux ou aspirez la poussière, puis laissez-le sécher complètement avant de le remettre pour éviter moisissures et odeurs.',
@@ -981,6 +1374,9 @@ export const article: BlogArticle = {
         it: 'In piena stagione, pulisci il filtro ogni due o tre settimane. Un filtro sporco riduce il flusso d\'aria e quindi la capacità di raffreddare. Lavalo con acqua tiepida e sapone neutro o aspira la polvere, poi lascialo asciugare del tutto prima di rimetterlo per evitare muffe e odori.',
         nl: 'In het hoogseizoen het filter om de twee à drie weken reinigen. Een vervuild filter vermindert de luchtstroom en dus de koelcapaciteit. Was het met lauw water en milde zeep of zuig het stof op, en laat het volledig drogen voor terugplaatsing om schimmel en geuren te voorkomen.',
         pl: 'W szczycie sezonu czyść filtr co 2–3 tygodnie. Zabrudzony filtr ogranicza przepływ powietrza, a przez to wydajność chłodzenia. Umyj go w letniej wodzie z delikatnym mydłem albo odkurz, a przed włożeniem z powrotem pozwól mu całkowicie wyschnąć – w ten sposób unikniesz pleśni i nieprzyjemnych zapachów.',
+        sv: 'Under högsäsong bör du rengöra filtret varannan till var tredje vecka. Ett igensatt filter minskar luftflödet och därmed kylförmågan. Skölj det i ljummet vatten med lite milt rengöringsmedel eller dammsug bort dammet, och låt det torka helt innan du sätter tillbaka det, så slipper du mögel och dålig lukt.',
+        us: 'During peak season, clean the filter every two to three weeks. A clogged filter reduces airflow and, with it, cooling capacity. Wash it in lukewarm water with mild soap or vacuum off the dust, then let it dry completely before putting it back to prevent mold and odors.',
+        ca: 'During peak use, clean the filter every two to three weeks. A clogged filter reduces airflow and therefore cooling capacity. Wash it with lukewarm water and mild soap or vacuum the dust, then let it dry completely before putting it back to avoid mould and odours.',
       },
     },
     {
@@ -992,6 +1388,9 @@ export const article: BlogArticle = {
         it: 'Quando devo chiamare un tecnico invece di arrangiarmi?',
         nl: 'Wanneer moet ik een technicus bellen in plaats van het zelf te doen?',
         pl: 'Kiedy wezwać technika, zamiast naprawiać na własną rękę?',
+        sv: 'När ska jag ringa en tekniker i stället för att fixa det själv?',
+        us: 'When should I call a technician instead of fixing it myself?',
+        ca: 'When should I call a technician instead of fixing it myself?',
       },
       answer: {
         fr: 'Faites appel à un technicien certifié si vous suspectez une fuite de gaz réfrigérant (refroidissement qui baisse progressivement), en cas d\'odeur de brûlé, d\'étincelles, de bruits anormaux ou de codes d\'erreur non résolus. Ne tentez jamais de recharger le gaz vous-même : il est sous pression et sa manipulation est réglementée. Si l\'appareil est sous garantie, ne l\'ouvrez pas.',
@@ -1001,6 +1400,9 @@ export const article: BlogArticle = {
         it: 'Chiama un tecnico certificato se sospetti una perdita di gas refrigerante (raffreddamento che cala gradualmente), o in caso di odore di bruciato, scintille, rumori anomali o codici di errore irrisolti. Non provare mai a ricaricare il gas da solo: è sotto pressione e la sua manipolazione è regolamentata. Se in garanzia, non aprire l\'apparecchio.',
         nl: 'Bel een gecertificeerde technicus bij vermoeden van een koelgaslek (koeling die geleidelijk afneemt), of bij brandlucht, vonken, abnormale geluiden of onopgeloste foutcodes. Probeer het gas nooit zelf bij te vullen: het staat onder druk en de behandeling is gereguleerd. Open het apparaat niet als het in garantie is.',
         pl: 'Wezwij technika z certyfikatem, jeśli podejrzewasz wyciek czynnika chłodniczego (chłodzenie stopniowo słabnie), czujesz zapach spalenizny, widzisz iskry, słyszysz nietypowe dźwięki albo pojawiają się kody błędów, których nie udaje się usunąć. Nigdy nie próbuj samodzielnie uzupełniać czynnika: jest pod ciśnieniem, a postępowanie z nim regulują przepisy. Jeśli urządzenie jest na gwarancji, nie otwieraj go.',
+        sv: 'Anlita en certifierad tekniker om du misstänker att köldmedium läcker (kyleffekten blir gradvis sämre), eller om du märker lukt av bränt, gnistor, onormala ljud eller felkoder som inte går att lösa. Försök aldrig fylla på köldmedium själv: det står under tryck och hanteringen är reglerad. Öppna inte apparaten om den fortfarande har garanti.',
+        us: 'Call a certified HVAC technician if you suspect a refrigerant leak (cooling that fades over time), or if you notice a burning smell, sparks, unusual noises or error codes you can\'t clear. Never try to recharge the refrigerant yourself: it\'s under pressure and handling it is regulated. If the unit is under warranty, don\'t open it.',
+        ca: 'Call a certified technician if you suspect a refrigerant gas leak (cooling that drops gradually), or if you notice a burning smell, sparks, abnormal noises or error codes you can\'t clear. Never try to recharge the gas yourself: it\'s pressurized and its handling is regulated. If the unit is under warranty, don\'t open it.',
       },
     },
   ],

@@ -154,6 +154,33 @@ const uiStrings: Record<Lang, BestForUi> = {
     methodologyCta: 'Poznaj naszą metodologię',
     primaryCta: 'Zobacz polecane produkty',
   },
+  sv: {
+    home: 'Hem',
+    guides: 'Urval',
+    otherPersonasTitle: 'Andra profiler som passar i kategorin',
+    backToCategoryLabel: 'Tillbaka till kategorin',
+    faqTitle: 'Vanliga frågor',
+    methodologyCta: 'Läs om vår metod',
+    primaryCta: 'Se rekommenderade produkter',
+  },
+  us: {
+    home: 'Home',
+    guides: 'Picks',
+    otherPersonasTitle: 'Other buyer profiles in this category',
+    backToCategoryLabel: 'Back to category',
+    faqTitle: 'Frequently asked questions',
+    methodologyCta: 'Read our methodology',
+    primaryCta: 'See our recommended picks',
+  },
+  ca: {
+    home: 'Home',
+    guides: 'Picks',
+    otherPersonasTitle: 'Other relevant profiles in this category',
+    backToCategoryLabel: 'Back to category',
+    faqTitle: 'Frequently asked questions',
+    methodologyCta: 'Read our methodology',
+    primaryCta: 'See recommended products',
+  },
 }
 
 export async function generateStaticParams() {

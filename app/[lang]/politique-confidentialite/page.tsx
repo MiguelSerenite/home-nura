@@ -513,6 +513,246 @@ const content: Record<string, PrivacyContent> = {
     supervisoryBody: 'Jeśli po kontakcie z nami uważasz, że Twoje prawa nie są przestrzegane, masz prawo wnieść skargę do francuskiego organu ochrony danych — Commission Nationale de l\'Informatique et des Libertés (CNIL): 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 — www.cnil.fr. Możesz też złożyć skargę do organu nadzorczego w państwie UE, w którym mieszkasz.',
     backLink: 'Powrót do strony głównej',
   },
+  sv: {
+    title: 'Integritetspolicy',
+    lastUpdated: 'Senast uppdaterad: april 2026',
+    intro: 'Home Nura (som ges ut av GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 Paris, Frankrike, SIRET 500 511 373 00051) respekterar din integritet och behandlar dina personuppgifter öppet och i full överensstämmelse med dataskyddsförordningen (GDPR – EU-förordning 2016/679) och den franska dataskyddslagen (loi Informatique et Libertés) i dess ändrade lydelse.',
+    sections: [
+      {
+        heading: '1. Personuppgiftsansvarig',
+        body: 'Personuppgiftsansvarig är GROUPE SERENITE, ett franskt bolag med begränsat ansvar (SARL) med ett aktiekapital på 15 000 euro, registrerat i handels- och bolagsregistret i Paris (RCS) under nummer 500 511 373. Ansvarig för publiceringen: Miguel MARIE. Kontakt: contact@homenura.com.',
+      },
+      {
+        heading: '2. Uppgifter som samlas in',
+        body: 'Home Nura är en redaktionell webbplats utan användarkonton och utan registreringsformulär. Vi samlar inte in några personuppgifter direkt. De enda uppgifter som behandlas är: (a) anonymiserade tekniska uppgifter som vår webbhotellsleverantör samlar in (avkortad IP-adress, typ av webbläsare, besökta sidor) för prestanda och säkerhet; (b) anonymiserade uppgifter om hur webbplatsen används (antal besök, tid på sidan) via cookies för besöksstatistik, i förekommande fall; (c) mejl som du själv väljer att skicka till contact@homenura.com.',
+      },
+      {
+        heading: '3. Ändamål och rättslig grund för behandlingen',
+        body: 'Vi behandlar dina uppgifter med stöd av följande rättsliga grunder (artikel 6 i GDPR): (a) berättigat intresse (art. 6.1 f) – webbplatsens säkerhet, upptäckt av bedrägerier, förebyggande av missbruk och anonym statistisk analys; (b) samtycke (art. 6.1 a) – placering av cookies som inte är nödvändiga (besöksstatistik, annonsering), som du kan godkänna eller avvisa i vår cookiebanner; (c) hantering av en förfrågan (art. 6.1 b) – svar på mejl som du skickar till oss.',
+      },
+      {
+        heading: '4. Lagringstid',
+        body: 'Serverloggar (avkortade IP-adresser): högst 12 månader. Mejl till contact@homenura.com: 3 år från den senaste kontakten. Tekniska cookies: så länge sessionen pågår. Cookies för besöksstatistik: högst 13 månader (rekommendation från den franska dataskyddsmyndigheten CNIL). Cookies från Amazons affiliatelänkar: enligt Amazons policy (upp till 24 timmar).',
+      },
+      {
+        heading: '5. Mottagare av uppgifterna',
+        body: 'Dina uppgifter säljs aldrig. De kan delas med: vår webbhotellsleverantör Vercel Inc. (USA, omfattas av EU-kommissionens standardavtalsklausuler) för den tekniska driften av tjänsten; Amazon EU S.à r.l. inom ramen för Amazons partnerprogram, när du klickar på en affiliatelänk; förvaltningsmyndigheter eller rättsliga myndigheter när lagen kräver det.',
+      },
+      {
+        heading: '6. Överföring till länder utanför EU',
+        body: 'Vissa personuppgiftsbiträden (Vercel Inc., Amazon) kan behandla dina uppgifter utanför Europeiska unionen, särskilt i USA. Överföringarna omfattas av de lämpliga skyddsåtgärder som GDPR föreskriver (standardavtalsklausuler och, i förekommande fall, beslut om adekvat skyddsnivå).',
+      },
+      {
+        heading: '7. Säkerhet',
+        body: 'Vi vidtar lämpliga tekniska och organisatoriska åtgärder för att skydda dina uppgifter: TLS/HTTPS-kryptering på hela webbplatsen, HTTP-huvuden för säkerhet (CSP, HSTS, X-Frame-Options), begränsad åtkomst till loggarna och regelbundna uppdateringar av infrastrukturen.',
+      },
+    ],
+    cookiesHeading: '8. Cookies som används',
+    cookiesIntro: 'Tabellen nedan visar vilka cookies som placeras på din enhet. Cookies som inte är nödvändiga placeras först när du har gett ditt samtycke i vår banner. Du kan när som helst återkalla ditt samtycke genom att radera cookies i webbläsaren.',
+    cookiesTable: {
+      headName: 'Cookie',
+      headPurpose: 'Ändamål',
+      headDuration: 'Lagringstid',
+      headProvider: 'Leverantör',
+      rows: [
+        {
+          name: 'cookie_consent',
+          purpose: 'Sparar ditt val om samtycke',
+          duration: '6 månader',
+          provider: 'Home Nura (nödvändig)',
+        },
+        {
+          name: 'NEXT_LOCALE',
+          purpose: 'Sparar det språk du har valt',
+          duration: 'Session',
+          provider: 'Home Nura (nödvändig)',
+        },
+        {
+          name: 'Amazon affiliate',
+          purpose: 'Spårar affiliatelänken så att provisionen kan tillskrivas rätt webbplats',
+          duration: 'Upp till 24 timmar',
+          provider: 'Amazon EU (tredje part)',
+        },
+      ],
+    },
+    rightsHeading: '9. Dina rättigheter',
+    rightsIntro: 'Enligt GDPR (artiklarna 15–22) har du följande rättigheter när det gäller dina personuppgifter:',
+    rights: [
+      'Rätt till tillgång: få bekräftat att dina uppgifter behandlas och få en kopia av dem',
+      'Rätt till rättelse: få felaktiga eller ofullständiga uppgifter korrigerade',
+      'Rätt till radering (”rätten att bli bortglömd”): begära att dina uppgifter raderas',
+      'Rätt till begränsning av behandling: begära att behandlingen tillfälligt stoppas',
+      'Rätt till dataportabilitet: få ut dina uppgifter i ett strukturerat format som går att återanvända',
+      'Rätt att invända: invända mot behandling som grundar sig på berättigat intresse',
+      'Rätt att när som helst återkalla ditt samtycke, utan att det påverkar lagligheten i den behandling som skett dessförinnan',
+      'Rätt att lämna anvisningar om vad som ska hända med dina uppgifter efter din död (en rättighet enligt fransk lag)',
+    ],
+    contactHeading: '10. Så utövar du dina rättigheter',
+    contactBody: 'Vill du utöva dina rättigheter kontaktar du oss på contact@homenura.com och beskriver din begäran. Vi svarar inom högst en månad (tidsfristen kan förlängas med två månader om begäran är komplicerad). Om det finns rimliga tvivel om vem du är kan vi be dig styrka din identitet.',
+    supervisoryHeading: '11. Klagomål till en tillsynsmyndighet',
+    supervisoryBody: 'Om du, efter att ha kontaktat oss, anser att dina rättigheter inte respekteras har du rätt att lämna in ett klagomål till den franska dataskyddsmyndigheten, Commission Nationale de l\'Informatique et des Libertés (CNIL): 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 – www.cnil.fr. Du kan också vända dig till dataskyddsmyndigheten i det EU-land där du bor.',
+    backLink: 'Tillbaka till startsidan',
+  },
+  us: {
+    title: 'Privacy Policy',
+    lastUpdated: 'Last updated: April 2026',
+    intro: 'Home Nura (published by GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 Paris, France, SIRET 500 511 373 00051) respects your privacy and is committed to processing your personal data transparently, in strict compliance with the General Data Protection Regulation (GDPR - EU Regulation 2016/679) and applicable national data protection laws.',
+    sections: [
+      {
+        heading: '1. Data controller',
+        body: 'The data controller is GROUPE SERENITE, a French SARL (limited liability company) with share capital of €15,000, registered with the Paris Trade and Companies Register under no. 500 511 373. Publication director: Miguel MARIE. Contact: contact@homenura.com.',
+      },
+      {
+        heading: '2. Data collected',
+        body: 'Home Nura is an editorial site with no user accounts or registration forms. We do not collect any personal data directly. The only data processed are: (a) anonymized technical data collected by our host (truncated IP address, browser type, pages visited) for performance and security purposes; (b) anonymized browsing data (number of visits, time spent) via audience measurement cookies, where applicable; (c) emails you choose to send to contact@homenura.com.',
+      },
+      {
+        heading: '3. Purposes and legal bases',
+        body: 'We process your data on the following legal bases (GDPR article 6): (a) Legitimate interest (art. 6.1.f) — site security, fraud detection, abuse prevention, anonymous statistical analysis; (b) Consent (art. 6.1.a) — placement of non-essential cookies (audience measurement, advertising), which you can accept or decline via our cookie banner; (c) Performance of a request (art. 6.1.b) — replying to your contact emails.',
+      },
+      {
+        heading: '4. Retention periods',
+        body: 'Server logs (truncated IP addresses): 12 months maximum. Emails received at contact@homenura.com: 3 years from the last interaction. Technical cookies: session duration. Audience measurement cookies: 13 months maximum (CNIL recommendation). Amazon affiliate cookies: according to Amazon\'s policy (up to 24 hours).',
+      },
+      {
+        heading: '5. Data recipients',
+        body: 'Your data is never sold. It may be shared with: our host, Vercel Inc. (United States, covered by the European Commission\'s Standard Contractual Clauses), to deliver the service technically; Amazon EU S.à r.l., as part of the Amazon Associates program, when you click an affiliate link; and administrative or judicial authorities in response to a lawful request.',
+      },
+      {
+        heading: '6. Transfers outside the European Union',
+        body: 'Some processors (Vercel Inc., Amazon) may process your data outside the European Union, particularly in the United States. These transfers are governed by the appropriate safeguards provided by the GDPR (Standard Contractual Clauses, adequacy decisions where applicable).',
+      },
+      {
+        heading: '7. Security',
+        body: 'We implement appropriate technical and organizational measures to protect your data: TLS/HTTPS encryption across the entire site, HTTP security headers (CSP, HSTS, X-Frame-Options), restricted access to logs and regular infrastructure updates.',
+      },
+    ],
+    cookiesHeading: '8. Cookies used',
+    cookiesIntro: 'The table below details the cookies placed on your device. Non-essential cookies are only placed after your consent via our banner. You may withdraw consent at any time by clearing cookies in your browser.',
+    cookiesTable: {
+      headName: 'Cookie',
+      headPurpose: 'Purpose',
+      headDuration: 'Duration',
+      headProvider: 'Issuer',
+      rows: [
+        {
+          name: 'cookie_consent',
+          purpose: 'Stores your consent choice',
+          duration: '6 months',
+          provider: 'Home Nura (essential)',
+        },
+        {
+          name: 'NEXT_LOCALE',
+          purpose: 'Stores your language preference',
+          duration: 'Session',
+          provider: 'Home Nura (essential)',
+        },
+        {
+          name: 'Amazon affiliate',
+          purpose: 'Tracks the affiliate link to attribute the commission',
+          duration: 'Up to 24 hours',
+          provider: 'Amazon EU (third party)',
+        },
+      ],
+    },
+    rightsHeading: '9. Your rights',
+    rightsIntro: 'Under the GDPR (articles 15 to 22), you have the following rights regarding your personal data:',
+    rights: [
+      'Right of access: obtain confirmation that your data is processed and receive a copy',
+      'Right to rectification: correct inaccurate or incomplete data',
+      'Right to erasure ("right to be forgotten"): request deletion of your data',
+      'Right to restriction of processing: request temporary suspension',
+      'Right to data portability: receive your data in a structured, reusable format',
+      'Right to object: object to processing based on legitimate interest',
+      'Right to withdraw consent at any time, without affecting the lawfulness of prior processing',
+      'Right to define post-mortem directives on the fate of your data',
+    ],
+    contactHeading: '10. Exercising your rights',
+    contactBody: 'To exercise these rights, email us at contact@homenura.com and describe your request. We will reply within one month (extendable by two months for complex requests). If there is reasonable doubt about your identity, we may ask for proof of identity.',
+    supervisoryHeading: '11. Complaint to the supervisory authority',
+    supervisoryBody: 'If, after contacting us, you believe your rights have not been respected, you have the right to file a complaint with the French data protection authority (CNIL): 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 — www.cnil.fr. If you live in the EU, you may also contact the supervisory authority in your own country.',
+    backLink: 'Back to home',
+  },
+  ca: {
+    title: 'Privacy Policy',
+    lastUpdated: 'Last updated: April 2026',
+    intro: 'Home Nura (published by GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 Paris, France, SIRET 500 511 373 00051) respects your privacy and is committed to processing your personal data transparently, in strict compliance with the General Data Protection Regulation (GDPR - EU Regulation 2016/679) and applicable national data protection laws.',
+    sections: [
+      {
+        heading: '1. Data controller',
+        body: 'The data controller is GROUPE SERENITE, a French SARL (limited liability company) with share capital of €15,000, registered with the Paris Trade and Companies Register under no. 500 511 373. Publication director: Miguel MARIE. Contact: contact@homenura.com.',
+      },
+      {
+        heading: '2. Data collected',
+        body: 'Home Nura is an editorial site with no user accounts or registration forms. We do not collect any direct personal data. The only data processed are: (a) anonymized technical data collected by our host (truncated IP address, browser type, pages visited) for performance and security purposes; (b) anonymized browsing data (visit count, time spent) via audience measurement cookies where applicable; (c) emails you voluntarily send to contact@homenura.com.',
+      },
+      {
+        heading: '3. Purposes and legal bases',
+        body: 'We process your data on the following legal bases (GDPR article 6): (a) Legitimate interest (art. 6.1.f) — site security, fraud detection, abuse prevention, anonymous statistical analysis; (b) Consent (art. 6.1.a) — placement of non-essential cookies (audience measurement, advertising), which you can accept or decline via our cookie banner; (c) Performance of a request (art. 6.1.b) — replying to your contact emails.',
+      },
+      {
+        heading: '4. Retention periods',
+        body: 'Server logs (truncated IP addresses): 12 months maximum. Emails received at contact@homenura.com: 3 years from the last interaction. Technical cookies: session duration. Audience measurement cookies: 13 months maximum (CNIL recommendation). Amazon affiliate cookies: according to Amazon\'s policy (up to 24 hours).',
+      },
+      {
+        heading: '5. Data recipients',
+        body: 'Your data is never sold. It may be shared with: our host Vercel Inc. (United States, covered by the European Commission Standard Contractual Clauses) for technical service delivery; Amazon EU S.à r.l. under the Partner Program when you click an affiliate link; administrative or judicial authorities upon legal request.',
+      },
+      {
+        heading: '6. Transfers outside the European Union',
+        body: 'Some processors (Vercel Inc., Amazon) may process your data outside the European Union, particularly in the United States. These transfers are governed by the appropriate safeguards provided by the GDPR (Standard Contractual Clauses, adequacy decisions where applicable).',
+      },
+      {
+        heading: '7. Security',
+        body: 'We implement appropriate technical and organizational measures to protect your data: TLS/HTTPS encryption across the entire site, HTTP security headers (CSP, HSTS, X-Frame-Options), restricted log access, and regular infrastructure updates.',
+      },
+    ],
+    cookiesHeading: '8. Cookies used',
+    cookiesIntro: 'The table below details the cookies placed on your device. Non-essential cookies are only placed after your consent via our banner. You may withdraw consent at any time by clearing cookies in your browser.',
+    cookiesTable: {
+      headName: 'Cookie',
+      headPurpose: 'Purpose',
+      headDuration: 'Duration',
+      headProvider: 'Issuer',
+      rows: [
+        {
+          name: 'cookie_consent',
+          purpose: 'Stores your consent choice',
+          duration: '6 months',
+          provider: 'Home Nura (essential)',
+        },
+        {
+          name: 'NEXT_LOCALE',
+          purpose: 'Stores your language preference',
+          duration: 'Session',
+          provider: 'Home Nura (essential)',
+        },
+        {
+          name: 'Amazon affiliate',
+          purpose: 'Tracks affiliate link for commission attribution',
+          duration: 'Up to 24h',
+          provider: 'Amazon EU (third party)',
+        },
+      ],
+    },
+    rightsHeading: '9. Your rights',
+    rightsIntro: 'Under the GDPR (articles 15 to 22), you have the following rights regarding your personal data:',
+    rights: [
+      'Right of access: obtain confirmation that your data is processed and receive a copy',
+      'Right to rectification: correct inaccurate or incomplete data',
+      'Right to erasure ("right to be forgotten"): request deletion of your data',
+      'Right to restriction of processing: request temporary suspension',
+      'Right to data portability: receive your data in a structured, reusable format',
+      'Right to object: object to processing based on legitimate interest',
+      'Right to withdraw consent at any time, without affecting the lawfulness of prior processing',
+      'Right to define post-mortem directives on the fate of your data',
+    ],
+    contactHeading: '10. Exercising your rights',
+    contactBody: 'To exercise these rights, contact us at contact@homenura.com specifying your request. We will reply within one month (extendable by two months for complex requests). Proof of identity may be requested in case of reasonable doubt.',
+    supervisoryHeading: '11. Complaint to the supervisory authority',
+    supervisoryBody: 'If after contacting us you believe your rights are not respected, you have the right to lodge a complaint with the French data protection authority (CNIL): 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 — www.cnil.fr. You may also contact your local EU supervisory authority.',
+    backLink: 'Back to home',
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

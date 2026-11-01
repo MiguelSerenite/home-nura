@@ -59,6 +59,27 @@ const pageContent: Record<string, { title: string; subtitle: string; intro: stri
     intro: 'Wybierz modele, które Cię interesują, i porównaj ich parametry obok siebie: Ocena Nura, pojemność, mocne strony i ograniczenia.',
     breadcrumb: 'Porównywarka',
   },
+  sv: {
+    kicker: 'Jämförelseverktyg',
+    title: 'Jämför airfryrar',
+    subtitle: 'Jämför upp till 3 modeller sida vid sida',
+    intro: 'Välj de modeller du funderar på och se deras data bredvid varandra – Nura Score, volym, styrkor och svagheter.',
+    breadcrumb: 'Jämförelseverktyg',
+  },
+  us: {
+    kicker: 'Comparison tool',
+    title: 'Air fryer comparison tool',
+    subtitle: 'Compare up to 3 models side by side',
+    intro: 'Pick the models you\'re considering and line up their specs — Nura Score, capacity, pros and cons.',
+    breadcrumb: 'Compare',
+  },
+  ca: {
+    kicker: 'Comparison tool',
+    title: 'Air fryer comparison tool',
+    subtitle: 'Compare up to 3 models side by side',
+    intro: 'Pick the models you\'re considering and compare their specs at a glance — Nura score, capacity, strengths and trade-offs.',
+    breadcrumb: 'Compare',
+  },
 }
 
 // SERP title/description, kept apart from the on-page H1 and intro. Written
@@ -92,6 +113,18 @@ const seoMeta: Record<Lang, { title: string; description: string }> = {
   pl: {
     title: 'Porównywarka frytkownic beztłuszczowych 2026: do 3 modeli',
     description: 'Porównaj frytkownice beztłuszczowe obok siebie: wybierz do 3 modeli, zobacz Ocenę Nura, pojemność, mocne strony i ograniczenia oraz ofertę na Amazon.',
+  },
+  sv: {
+    title: 'Jämför airfryrar 2026: upp till 3 modeller sida vid sida',
+    description: 'Jämför airfryrar sida vid sida: välj upp till 3 modeller och se Nura Score, volym, styrkor och svagheter – och var du hittar varje modell på Amazon.',
+  },
+  us: {
+    title: 'Air Fryer Comparison Tool 2026: 3 Models Side by Side',
+    description: 'Compare air fryers side by side: pick up to 3 models and see the Nura Score, capacity, pros and cons, plus where to find each one on Amazon.',
+  },
+  ca: {
+    title: 'Air Fryer Comparison 2026: Up to 3 Models Side by Side',
+    description: 'Air fryers compared side by side: pick up to 3 models and see the Nura score, capacity, strengths and trade-offs, with where to buy each one on Amazon.',
   },
 }
 

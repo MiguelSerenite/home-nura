@@ -51,6 +51,72 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       { question: "Czy oczyszczacz z jonizatorem jest bezpieczny?", answer: "Zazwyczaj tak, ale lepiej wybrać model, który nie wytwarza ozonu albo pozwala wyłączyć jonizator. Ozon podrażnia drogi oddechowe, a niektóre jonizatory i lampy UV wytwarzają go w niewielkich ilościach. Warto szukać deklaracji producenta o braku emisji ozonu lub certyfikatu zgodności z kalifornijskimi limitami CARB. Za oczyszczanie odpowiada filtr HEPA i węgiel aktywny, więc wyłączenie jonizatora niczego nie pogarsza." },
       { question: "Jak często wymieniać filtr w oczyszczaczu powietrza?", answer: "Wtedy, gdy wskaźnik w urządzeniu lub aplikacji to sygnalizuje; producenci podają najczęściej od 6 do 12 miesięcy codziennej pracy. W sezonie smogowym filtr zapycha się szybciej, bo przechwytuje więcej pyłu, a zapchany przepuszcza mniej powietrza i urządzenie pracuje głośniej. Filtr wstępny warto odkurzać co kilka tygodni; filtra HEPA nie należy prać. Przed zakupem warto sprawdzić cenę zamienników, bo w ciągu kilku lat może dorównać cenie urządzenia." },
     ],
+    sv: [
+      {
+        question: "Vilken luftrenare ska jag välja om jag har pollenallergi?",
+        answer: "Välj en luftrenare med ett HEPA-filter av klass H13 och ett CADR-värde (hur mycket renad luft den levererar per timme) som räcker för att byta luften i rummet fyra till fem gånger i timmen. Det är den tumregel som brukar gälla för allergiker. Räkna golvyta × takhöjd × 5: ett sovrum på 20 m² med 2,5 meter i takhöjd behöver 250 m³/h. Lita mer på CADR-värdet än på den största rumsyta som står på kartongen. När pollenprognosen visar höga halter håller du fönstren stängda och låter luftrenaren gå i autoläge.",
+      },
+      {
+        question: "Hur mycket el drar en luftrenare som står på dygnet runt?",
+        answer: "Räkna med några tiotal kronor i månaden för en vanlig modell som går dygnet runt på mellanläget. Räknesättet är effekt × timmar: en luftrenare på 30 W som står på i 24 timmar drar 0,72 kWh per dygn, ungefär 22 kWh i månaden. Med ett exempelpris på 2,20 kr/kWh blir det ca 48 kr. Ditt eget elpris står på elräkningen. Kontrollera i produktbladet hur mycket den drar på varje hastighet: natt- och autoläget förbrukar betydligt mindre än maxläget.",
+      },
+      {
+        question: "Luftrenare eller ventilation: behöver jag välja?",
+        answer: "Nej, de gör olika saker. Ventilationen byter ut luften och för bort fukt och koldioxid, medan luftrenaren bara filtrerar bort partiklar som svävar i luften. En luftrenare sänker alltså inte CO₂-halten och ersätter varken ventilationen eller den dagliga vädringen. Däremot är den ett bra komplement mot pollen, fint damm, djurhår och rök, särskilt när fönstren hålls stängda. Är ventilationen igensatt bör du först rengöra frånluftsdonen.",
+      },
+      {
+        question: "Är luftrenare med jonisator eller UV-lampa säkra?",
+        answer: "De kan vara det, men välj helst en modell som inte avger ozon eller där jonisatorn går att stänga av. Ozon irriterar luftvägarna, och vissa jonisatorer och UV-lampor bildar små mängder av det. Leta efter uppgiften ”ozonfri” eller en certifiering av utsläppen, till exempel enligt Kaliforniens CARB, som många tillverkare anger. Det är HEPA-filtret och kolfiltret som står för reningen, inte de här extrafunktionerna.",
+      },
+      {
+        question: "Hur ofta ska man byta filter i en luftrenare?",
+        answer: "Byt filtret när indikatorn på apparaten säger till. Enligt tillverkarna handlar det oftast om 6–12 månader vid daglig användning. Ett igensatt filter släpper igenom mindre luft och kan börja lukta. Dammsug förfiltret varannan till var fjärde vecka, och om det är tvättbart sköljer du det och låter det torka. Ett vanligt HEPA-filter går inte att tvätta. Kolla vad nya filter kostar innan du köper: på några år kan de gå på lika mycket som själva luftrenaren.",
+      },
+    ],
+    us: [
+      {
+        question: "Which air purifier is best for seasonal allergies?",
+        answer: "Pick one with a true HEPA H13 filter and a CADR high enough to clean the room's air four to five times an hour, the rule of thumb usually given for allergy sufferers. The math: floor area × ceiling height × 5 ÷ 60 gives the CFM you need, so a 215 sq ft (20 m²) bedroom with an 8 ft ceiling needs roughly 143 CFM (about 250 m³/h). Trust the CADR rather than the maximum room size on the box. On high-pollen days, keep the windows shut and leave the purifier on auto.",
+      },
+      {
+        question: "How much does it cost to run an air purifier around the clock?",
+        answer: "Usually just a few dollars a month, even running 24/7. Work it out as watts × hours ÷ 1,000 = kWh: a 30 W purifier left on for 24 hours uses 0.72 kWh a day, about 22 kWh a month. At an example rate of 20 cents per kWh, that's roughly $4.40; check the rate on your utility bill, since prices vary widely by state and utility. Night and auto modes draw far less than turbo, so check the wattage at each speed.",
+      },
+      {
+        question: "Air purifier or ventilation: do you have to choose?",
+        answer: "No, they do different jobs: ventilation (bathroom and kitchen exhaust fans, or a whole-house system) brings in fresh air and removes moisture and CO2, while a purifier only filters airborne particles. So a purifier won't lower CO2, and it doesn't replace ventilation or opening the windows every day. It's a useful extra against pollen, fine dust, pet dander or smoke, especially when the windows stay shut. If your exhaust fans are clogged, clean the vents and grilles first.",
+      },
+      {
+        question: "Are air purifiers with an ionizer or UV lamp safe?",
+        answer: "They can be, but choose a model that produces no ozone or lets you switch the ionizer off. Ozone irritates the airways, and some ionizers and UV lamps give off small amounts of it. Look for a zero-ozone claim or certification against California's CARB emissions limit, which many manufacturers display. The real cleaning is done by the HEPA and activated carbon filters, not by these extras, so you lose nothing by leaving them off.",
+      },
+      {
+        question: "How often should you change an air purifier filter?",
+        answer: "When the filter indicator tells you to: depending on the manufacturer, that's usually every 6 to 12 months of daily use. A clogged filter cuts airflow, makes the fan work harder and can start to smell. Vacuum the pre-filter every two to four weeks, or rinse it and let it dry if it's washable, but never wash a standard HEPA filter. Check what replacement filters cost before you buy: over a few years, they can add up to as much as the purifier itself.",
+      },
+    ],
+    ca: [
+      {
+        question: "Which air purifier is best for seasonal allergies?",
+        answer: "Pick one with a true HEPA H13 filter and a CADR high enough to clean the room's air about five times an hour. The math is floor area × ceiling height × 5, so a 12 m² (about 130 sq. ft.) bedroom with a 2.4 m (8 ft) ceiling needs roughly 145 m³/h. Trust the CADR rather than the maximum room size on the box. On high-pollen days, check your local pollen forecast, keep bedroom windows shut and leave the purifier on auto overnight.",
+      },
+      {
+        question: "How much does an air purifier cost to run?",
+        answer: "Usually just a couple of dollars a month, even running around the clock. Work it out as watts × hours ÷ 1,000 = kWh: a 30 W purifier left on for 24 hours uses 0.72 kWh a day, about 22 kWh a month. At an example rate of 10¢ per kWh that is roughly $2.20; your rate depends on your province and utility, so use the one on your own bill. Night and auto modes draw far less than turbo, so look at the wattage at each speed.",
+      },
+      {
+        question: "Will an air purifier get rid of dampness and mould?",
+        answer: "No, not on its own: a purifier can trap airborne mould spores, but it does nothing about the moisture that lets mould grow. Dampness needs better ventilation, steady heating and, if humidity stays above 60%, a dehumidifier; condensation on windows every morning is the usual warning sign. A purifier is still worth running alongside those fixes if spores trigger allergies. If you rent, report persistent dampness or mould to your landlord or property manager in writing.",
+      },
+      {
+        question: "Are ionizers in air purifiers safe to use?",
+        answer: "Generally yes, but choose a model that produces no ozone or lets you switch the ionizer off. Ozone irritates the lungs, and some ionizers and UV lamps give off small amounts of it. Look for a zero-ozone claim or certification against California's CARB emissions limit, which some brands also display. The cleaning itself is done by the HEPA and carbon filters, so you lose nothing by leaving the ionizer off.",
+      },
+      {
+        question: "How often should you change an air purifier filter?",
+        answer: "When the filter indicator tells you to, which is typically somewhere between 6 and 12 months of daily use. A clogged filter cuts airflow, makes the fan work harder and can start to smell. Vacuum the pre-filter every few weeks, or rinse and dry it if it is washable, but never wash a standard HEPA filter. Before buying, check what replacement filters cost: over a few years they can add up to as much as the purifier itself.",
+      },
+    ],
   },
   "humidificateurs": {
     fr: [
@@ -101,6 +167,72 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       { question: "Ile prądu zużywa nawilżacz powietrza?", answer: "Ultradźwiękowy lub ewaporacyjny zużywa niewiele, parowy nawet kilkanaście razy więcej. Wzór: moc × czas, czyli 30 W przez 10 godzin to 0,3 kWh, około 30 groszy przy cenie 1 zł za kWh. Nawilżacz parowy o mocy 400 W zużyje w tym czasie 4 kWh, czyli około 4 zł. W taryfie dwustrefowej praca nocą wychodzi taniej, bo prąd w strefie nocnej jest tańszy." },
       { question: "Czy nawilżacz powietrza może szkodzić zdrowiu?", answer: "Może, jeśli jest brudny albo nawilża za mocno. Stojąca woda w zbiorniku to pożywka dla bakterii i pleśni, które nawilżacz ultradźwiękowy rozpyla w powietrzu, dlatego wodę warto wymieniać codziennie, a zbiornik myć co tydzień. Wilgotność powyżej 60% sprzyja z kolei pleśni na zimnych ścianach i roztoczom. Przyda się więc higrometr i higrostat ustawiony na 40–50%." },
       { question: "Jak odkamienić nawilżacz i jak często go czyścić?", answer: "Zbiornik najlepiej opróżniać codziennie, a raz w tygodniu odkamieniać roztworem octu lub kwasku cytrynowego i dokładnie wypłukać. Płytkę ultradźwiękową czyści się delikatnie patyczkiem higienicznym, bez skrobania. Filtr w nawilżaczu ewaporacyjnym wymienia się, gdy stwardnieje lub zmieni kolor. Przy twardej wodzie odkamienianie trzeba powtarzać częściej, a woda demineralizowana wyraźnie ogranicza osad." },
+    ],
+    sv: [
+      {
+        question: "Behöver jag en luftfuktare eller en avfuktare?",
+        answer: "Mät först med en hygrometer: under 40 % relativ luftfuktighet kan en luftfuktare hjälpa, över 60 % behöver du snarare en avfuktare. En luftfuktare gör mest nytta i ett väl uppvärmt sovrum när det är kallt och torrt ute. Har du redan kondens på fönstren gör mer fukt bara saken värre, eftersom den ger mögel bättre förutsättningar att växa.",
+      },
+      {
+        question: "Ultraljud, avdunstning eller varm ånga: vilken luftfuktare ska jag välja?",
+        answer: "I ett sovrum är en ultraljudsmodell tystast, en avdunstande modell enklast i vardagen och en ångmodell mest hygienisk, men också mest energikrävande. En ultraljudsluftfuktare sprider mineralerna i kranvattnet ut i rummet, och i områden med hårt vatten syns de som vitt damm på möbler och skärmar; använd då avmineraliserat vatten. En avdunstande luftfuktare med veke reglerar sig själv och lämnar inga beläggningar. En ångluftfuktare kokar vattnet och drar flera hundra watt. Oavsett typ bör du välja en modell med hygrostat, så att luftfuktigheten håller sig mellan 40 och 60 %.",
+      },
+      {
+        question: "Hur mycket el drar en luftfuktare?",
+        answer: "Det beror främst på tekniken: en modell med ultraljud eller avdunstning drar några tiotal watt, en ångluftfuktare flera hundra. Räknat med ett exempelpris på 2,20 kr/kWh blir 30 W i 10 timmar 0,3 kWh, alltså ca 70 öre, medan 400 W i 10 timmar blir 4 kWh, alltså ca 8,80 kr. Över en hel vinter blir skillnaden märkbar. Titta på effekten i produktbladet innan du köper, och på ditt eget elpris på elräkningen.",
+      },
+      {
+        question: "Kan man ha en luftfuktare i bebisens rum?",
+        answer: "Ja, om du väljer en modell med kall ånga, ställer den utom räckhåll och ser till att luftfuktigheten inte går över 60 %. Varm ånga innebär risk för brännskador om barnet välter apparaten eller kommer åt ångutsläppet. Byt vatten varje dag och rengör tanken varje vecka så att bakterier inte får fäste. Tillsätt inga eteriska oljor utan att först ha frågat en läkare: de rekommenderas inte för små barn.",
+      },
+      {
+        question: "Hur rengör och avkalkar man en luftfuktare?",
+        answer: "Töm tanken varje dag och avkalka den en gång i veckan med utspädd ättika eller citronsyra, och skölj sedan ordentligt. I stillastående vatten växer bakterier och mögel, och en ultraljudsluftfuktare sprider dem rakt ut i luften du andas. På en ultraljudsmodell torkar du försiktigt av membranet med en fuktad bomullspinne, utan att skrapa. Byt veken i en avdunstande luftfuktare när den blir hård eller missfärgad. Luktar det unket när den går bör du stänga av den och rengöra den grundligt.",
+      },
+    ],
+    us: [
+      {
+        question: "Which humidifier should you choose: ultrasonic, evaporative or warm mist?",
+        answer: "For a bedroom, ultrasonic is the quietest, evaporative the easiest to live with and warm mist the most hygienic, but also the most power-hungry. Ultrasonic units throw the minerals in tap water into the air; evaporative models use a wick, regulate themselves and leave no white dust; warm-mist units boil the water and draw hundreds of watts. Whichever you pick, get one with a built-in humidistat to keep humidity between 40% and 60%.",
+      },
+      {
+        question: "How much does a humidifier cost to run?",
+        answer: "It depends mostly on the technology: an ultrasonic or evaporative model draws a few dozen watts, a warm-mist one several hundred. The math: 30 W for 10 hours is 0.3 kWh, about 6 cents at an example rate of 20 cents per kWh; 400 W for 10 hours is 4 kWh, about 80 cents. Over a whole winter, that gap adds up. Check the wattage on the spec sheet before you buy, and the rate on your utility bill.",
+      },
+      {
+        question: "Can you use a humidifier in a baby's room?",
+        answer: "Yes, with a cool-mist model placed out of reach and humidity kept at or below 60%. Warm mist carries a burn risk if a child knocks the unit over or gets close to the steam outlet. Change the water every day and clean the tank every week to keep bacteria at bay. Don't add essential oils without checking with your child's doctor: they're not recommended around young children.",
+      },
+      {
+        question: "Why is there white dust around my humidifier?",
+        answer: "It's the minerals in your tap water, sprayed into the air as a fine mist by ultrasonic humidifiers. If you have hard water, the dust quickly shows up on furniture and screens. Use distilled water, a demineralization cartridge if the manufacturer offers one, or switch to an evaporative model, which traps the minerals in its wick. This dust can also bother sensitive airways.",
+      },
+      {
+        question: "How do you descale and clean a humidifier?",
+        answer: "Empty the tank every day and descale it once a week with white vinegar or diluted citric acid, then rinse well. On an ultrasonic model, clean the vibrating disc with a soaked cotton swab, without scratching it. Replace the wick on an evaporative model when it hardens or changes color. Never leave water standing for several days: that's where bacteria and mold grow.",
+      },
+    ],
+    ca: [
+      {
+        question: "Do I need a humidifier or a dehumidifier?",
+        answer: "Measure first with a hygrometer: below 40% a humidifier can help, above 60% you need a dehumidifier. In a cold winter, heating dries out indoor air, and that is when a humidifier earns its place, especially in a bedroom. Dampness is more often a problem in a basement or during humid summer weather. Adding moisture to a home that already has condensation on the windows will only feed mould.",
+      },
+      {
+        question: "Ultrasonic or evaporative humidifier: which is better?",
+        answer: "For most bedrooms an evaporative model is the safer choice, while an ultrasonic one is quieter and cheaper to buy. Ultrasonic units throw the minerals in tap water into the air as fine white dust, which shows up quickly if you have hard water. Evaporative humidifiers trap those minerals in the wick and naturally slow down as the room gets more humid. Either way, pick one with a built-in humidistat.",
+      },
+      {
+        question: "How much does a humidifier cost to run?",
+        answer: "A few cents a day for an ultrasonic or evaporative model, but steam humidifiers cost far more. The math is watts × hours ÷ 1,000 = kWh: 30 W for 10 hours is 0.3 kWh, about 3¢ at an example rate of 10¢ per kWh. A 400 W steam model over the same 10 hours uses 4 kWh, about 40¢ a night. Check the wattage on the spec sheet and the rate on your bill, which depends on your province and utility.",
+      },
+      {
+        question: "Can a dirty humidifier make you sick?",
+        answer: "Yes, it can: water left standing in the tank grows bacteria and mould, and an ultrasonic humidifier sprays them straight into the air you breathe. Empty and refill the tank every day rather than topping it up. Clean and descale it weekly with diluted white vinegar or citric acid, then rinse well. If you notice a musty smell or start coughing when it runs, switch it off and clean it thoroughly.",
+      },
+      {
+        question: "Why did my humidifier stop making mist?",
+        answer: "The usual culprits are mineral scale on the ultrasonic disc, a float stuck in the water tray or a wick clogged with minerals. Clean the disc gently with a cotton swab dipped in vinegar, without scratching it. Check that the tank sits properly and the float moves freely, and replace a hardened wick. If the fan runs but nothing comes out after cleaning, the transducer may have worn out; some brands sell it as a spare part.",
+      },
     ],
   },
   "deshumidificateurs": {
@@ -153,6 +285,72 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       { question: "Osuszacz elektryczny czy pochłaniacz wilgoci z wkładem?", answer: "Przy prawdziwym problemie z wilgocią potrzebny jest osuszacz elektryczny, bo pochłaniacz z wkładem solnym wiąże tylko niewielkie ilości wody. Pochłaniacze sprawdzają się w szafie, spiżarni, kamperze czy małej łazience bez okna, a elektryczny osuszacz usuwa kilka litrów wody na dobę. Żaden z nich nie usunie jednak przyczyny: przy zawilgoconych ścianach trzeba sprawdzić wentylację i nieszczelności, a w bloku zgłosić problem zarządcy lub spółdzielni." },
       { question: "Dlaczego osuszacz nie zbiera wody?", answer: "Najczęściej pomieszczenie jest za zimne dla modelu sprężarkowego albo wilgotność spadła już do ustawionej wartości. Poniżej około 15 °C parownik się oblodza i urządzenie długo się rozmraża. Warto sprawdzić ustawienie higrostatu, odkurzyć filtr powietrza i upewnić się, że pływak w zbiorniku się nie zablokował. Jeśli wentylator pracuje w ciepłym, wilgotnym pokoju, a woda nie kapie, usterka może dotyczyć układu chłodniczego i warto złożyć reklamację u sprzedawcy." },
     ],
+    sv: [
+      {
+        question: "Kompressor eller sorption: vilken avfuktare ska jag välja?",
+        answer: "Välj kompressor för ett uppvärmt rum och sorption för kalla utrymmen som källare, garage eller ett hus som hålls svalt på vintern. En kompressoravfuktare är snålare med el, men effekten sjunker tydligt under ungefär 15 °C och den kan börja frysa på. En sorptionsavfuktare fungerar bra i kyla och blåser ut ljummen luft, men drar i gengäld mer el. Den är också lättare och ofta tystare. Kontrollera drifttemperaturen i produktbladet innan du köper.",
+      },
+      {
+        question: "Hur stor avfuktare behöver jag?",
+        answer: "För ett sovrum eller ett badrum räcker oftast en avfuktningskapacitet på 10–12 liter per dygn. För en källare, ett stort vardagsrum eller om du torkar tvätt bör du sikta på 20 liter eller mer. Den angivna kapaciteten mäts under varma och mycket fuktiga förhållanden, ofta 30 °C och 80 % luftfuktighet, så i ett svalare rum tar apparaten upp betydligt mindre vatten. Vill du slippa tömma tanken väljer du en modell med slang för kontinuerlig dränering.",
+      },
+      {
+        question: "Hur mycket el drar en avfuktare, och lönar det sig att torka tvätt med den?",
+        answer: "Räkna med några kronor per dygn vid normal användning, mer med en sorptionsmodell. Med ett exempelpris på 2,20 kr/kWh drar en kompressoravfuktare på 250 W som går i 8 timmar 2 kWh, ca 4,40 kr, medan en sorptionsmodell på 600 W drar 4,8 kWh på samma tid, ca 11 kr. Med hygrostat stängs den av när önskad luftfuktighet är nådd, så den verkliga kostnaden blir lägre. Torkar du tvätt kan du jämföra med förbrukningen per program på torktumlarens energimärkning; en värmepumpstorktumlare kan vara lika snål.",
+      },
+      {
+        question: "Kan en avfuktare lösa problem med markfukt i väggarna?",
+        answer: "Nej. Den torkar luften i rummet, inte väggen, och fukt som stiger kapillärt från marken fortsätter att komma. Typiska tecken är fläckar längst ner på väggarna, saltutfällningar och färg som bubblar eller flagnar. Då behövs en utredning av en fackman, som kan föreslå dränering, injicering eller en lämplig puts. Under tiden gör avfuktaren ändå nytta genom att minska kondensen och den unkna lukten.",
+      },
+      {
+        question: "Varför samlar inte min avfuktare in något vatten?",
+        answer: "Oftast är rummet för kallt för en kompressormodell, eller så har luftfuktigheten redan nått den nivå du har ställt in. Under ungefär 15 °C kan en kompressoravfuktare frysa på och ägna mycket tid åt avfrostning. Kontrollera hygrostaten, dammsug luftfiltret och se efter att flottören i tanken inte har fastnat. Går fläkten i ett varmt och fuktigt rum utan att en enda droppe kommer ut kan felet sitta i kylkretsen: vänd dig då till säljaren och använd garantin.",
+      },
+    ],
+    us: [
+      {
+        question: "What size dehumidifier do I need for my room?",
+        answer: "For a bedroom or bathroom, 21 to 25 pints a day is usually enough; for a basement, a large living room or drying laundry, aim for 42 pints or more. Capacities on European spec sheets are measured in warm, very humid conditions, often 86°F (30°C) and 80% humidity, so in a cooler room the unit pulls out much less. US ratings are measured under different, cooler conditions, so the two sets of figures aren't directly comparable. If you don't want to empty the bucket, plan for continuous drainage through a hose.",
+      },
+      {
+        question: "Compressor or desiccant dehumidifier: which should you choose?",
+        answer: "Go with a compressor model for a heated room and a desiccant one for a cold space, like a basement, a garage or a house that's barely heated in winter. Compressor units use less power, but their performance drops sharply below about 59°F (15°C). Desiccant models work well in the cold and blow out slightly warm air, at the cost of higher energy use. They're also lighter and often quieter.",
+      },
+      {
+        question: "How much does a dehumidifier cost to run?",
+        answer: "Typically well under a dollar a day in normal use, more for a desiccant model. The math: a 250 W compressor unit running for 8 hours uses 2 kWh, about 40 cents at an example rate of 20 cents per kWh; a 600 W desiccant model uses 4.8 kWh over the same time, about 96 cents. With a humidistat, the unit shuts off as soon as it reaches the target humidity, which lowers the real cost. Check the rate on your utility bill.",
+      },
+      {
+        question: "Will a dehumidifier fix moisture rising through the walls?",
+        answer: "No: it dries the air in the room, not the wall, and moisture wicking up from the ground will keep coming. Typical signs are stains low on the walls, white powdery deposits (efflorescence) and paint that bubbles or flakes. You'll need a professional diagnosis (drainage, resin injection, suitable coatings). In the meantime, a dehumidifier still helps limit condensation and musty odors.",
+      },
+      {
+        question: "Why has my dehumidifier stopped collecting water?",
+        answer: "Most often the room is too cold for a compressor model, or the air has already reached the humidity you set. Below about 59°F (15°C), a compressor unit can ice up and spend much of its time defrosting. Check the humidistat setting, vacuum the air intake filter and make sure the bucket float isn't stuck. If the fan runs in a warm, damp room and still nothing drips, the refrigerant circuit may be at fault: make a warranty claim.",
+      },
+    ],
+    ca: [
+      {
+        question: "Desiccant or compressor dehumidifier for a cold room?",
+        answer: "In unheated rooms, garages or any space kept below about 15°C, such as a cold basement, a desiccant dehumidifier is usually the better choice. Compressor models lose much of their efficiency in the cold and can ice up, while desiccant units keep extracting water and give off gentle warmth, which helps when drying laundry. In a heated home kept around 18 to 21°C, a compressor model removes water for less electricity. Check the operating temperature range on the spec sheet before buying.",
+      },
+      {
+        question: "Is it cheaper to dry clothes with a dehumidifier than a dryer?",
+        answer: "Often yes, especially compared with a standard vented or condenser dryer, though a heat pump dryer can be just as frugal. Work it out: a 250 W compressor dehumidifier running for 6 hours uses 1.5 kWh, about 15¢ at an example rate of 10¢ per kWh; a 650 W desiccant model uses 3.9 kWh, about 39¢. Compare that with your dryer's energy use per load, which you'll find on its spec sheet or in the manual. Close the door, use laundry mode and space the clothes out.",
+      },
+      {
+        question: "What size dehumidifier do I need?",
+        answer: "For a damp bedroom or small apartment, a 10 to 12 L/day model is usually enough; for a larger house, a basement or regular laundry drying, go for 20 L/day or more. Extraction rates are measured in warm, very humid lab conditions, often 30°C and 80% humidity, so expect less in a cool room or basement. A continuous drain hose saves emptying the tank, and a built-in humidistat set to around 50% stops it running needlessly.",
+      },
+      {
+        question: "Will a dehumidifier get rid of black mould and condensation?",
+        answer: "It will cut condensation and stop new mould spreading, but it won't remove mould that is already there. Wipe existing patches with a mould remover, keep humidity between 40 and 60%, and run the dehumidifier in rooms where the windows drip with condensation in the morning. If mould keeps returning, look for a cause such as a leak, poor ventilation or a cold wall. If you rent, raise it in writing with your landlord or property manager as a repair issue.",
+      },
+      {
+        question: "Why did my dehumidifier stop collecting water?",
+        answer: "Most often the room is too cold for a compressor model, or the air has already reached the humidity you set. Below about 15°C a compressor unit can ice up and spend much of its time defrosting. Check the humidistat setting, vacuum the air filter and make sure the tank float isn't stuck. If the fan runs in a warm, damp room and still nothing drips, the refrigerant circuit may be at fault, so contact the retailer or manufacturer about a warranty repair.",
+      },
+    ],
   },
   "climatiseurs-mobiles": {
     fr: [
@@ -203,6 +401,72 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       { question: "Czy klimatyzator przenośny bez rury działa?", answer: "Nie: prawdziwy klimatyzator musi wyrzucić ciepło na zewnątrz, więc zawsze ma rurę wylotową albo otwory w ścianie. Urządzenia sprzedawane jako „klimatyzery” czy schładzacze powietrza bez rury działają na zasadzie odparowania wody. Lekko chłodzą tylko przy suchym powietrzu, a przy tym podnoszą wilgotność, więc w parne dni dają niewielki efekt i potęgują uczucie duchoty." },
       { question: "Klimatyzator przenośny czy split w bloku – czy potrzebna jest zgoda?", answer: "Na klimatyzator przenośny zwykle nie potrzeba niczyjej zgody, bo nie ingeruje w elewację budynku. Montaż jednostki zewnętrznej splitu na elewacji lub balkonie w bloku z reguły wymaga zgody spółdzielni lub wspólnoty mieszkaniowej, a w wynajmowanym mieszkaniu także właściciela. Instalację splitu musi wykonać fachowiec z certyfikatem F-gazowym. Split chłodzi taniej i ciszej, ale na starcie wymaga większego wydatku i formalności." },
       { question: "Dlaczego klimatyzator przenośny słabo chłodzi albo cieknie?", answer: "Słabe chłodzenie to najczęściej ciepłe powietrze wracające przez nieszczelne okno, a wyciek to zwykle pełny zbiornik skroplin lub urządzenie stojące krzywo. Warto dobrze uszczelnić okno, skrócić rurę i unikać jej zagięć, wyczyścić filtry i sprawdzić tryb pracy. Skropliny spuszcza się przez korek lub stały wąż do wiadra, szczególnie przy dużej wilgotności. Po transporcie na leżąco urządzenie powinno postać pionowo kilka godzin przed włączeniem." },
+    ],
+    sv: [
+      {
+        question: "Hur stark portabel AC behöver jag för mitt rum?",
+        answer: "En modell på 9 000 BTU, ungefär 2,6 kW kyleffekt, räcker för ett välisolerat rum på 20–25 m². I ett vindsrum eller ett rum i söderläge behöver du mer. Välj helst en modell med två slangar, som inte drar in varm uteluft i rummet. En modell med en slang skapar undertryck, så att varm luft sugs in genom springor, och tappar en del av effektiviteten. Jämför också energieffektiviteten (EER) och ljudnivån i nattläget.",
+      },
+      {
+        question: "Hur mycket el drar en portabel AC?",
+        answer: "En modell på 9 000 BTU drar ungefär 1 kW el, vilket med ett exempelpris på 2,20 kr/kWh blir ca 2,20 kr i timmen på full effekt. Sex timmar om dagen ger 6 kWh, alltså ca 13 kr per dag. Kompressorn stängs av när den inställda temperaturen är nådd, så den verkliga förbrukningen beror på isoleringen och värmen ute. Ställ in 26 °C i stället för 20 °C, håll gardiner och persienner stängda på dagen och täta fönstret ordentligt. Ditt eget elpris står på elräkningen.",
+      },
+      {
+        question: "Måste en portabel AC ha en slang ut genom fönstret?",
+        answer: "Ja. En AC måste göra sig av med värmen den tar ut ur rummet, och en portabel AC gör det genom utblåsslangen. Apparater som säljs som slanglösa ”luftkylare” är inga AC-aggregat utan avdunstningskylare: de tillför fukt och känns bara svalare när värmen är torr. Köp en fönstertätning som passar din fönstertyp och täta springan väl. Ett hål genom väggen ger bäst tätning, men bor du i hyresrätt behöver du hyresvärdens godkännande.",
+      },
+      {
+        question: "Varför kyler inte min portabla AC?",
+        answer: "Oftast för att varm luft tar sig in igen runt en dåligt tätad fönsteröppning, eller för att rummet är för stort för aggregatet. Täta runt slangen med en fönstertätning, gör slangen så kort som möjligt och undvik böjar. Rengör filtren och kontrollera att den står i kylläge, inte i fläkt- eller avfuktningsläge. Stäng dörrarna och dra för på solsidan. Är luften som blåser ut inte svalare än rummet bör du låta säljaren kontrollera aggregatet inom garantin.",
+      },
+      {
+        question: "Portabel AC eller split-AC i lägenheten: vad ska jag välja?",
+        answer: "En portabel AC kräver ingen installation, medan en split-AC (luft/luft-värmepump med kylfunktion) är effektivare och tystare men behöver en utedel. I ett flerbostadshus kan du behöva föreningens eller hyresvärdens godkännande för att sätta upp utedelen på fasaden eller balkongen. Installationen ska göras av en fackman som är certifierad för att hantera köldmedier. För några varma veckor om året är en portabel AC fortfarande det enklaste.",
+      },
+    ],
+    us: [
+      {
+        question: "What size portable air conditioner do I need for my room?",
+        answer: "A 9,000 BTU model (about 2.6 kW of cooling) suits a well-insulated room of 215 to 270 sq ft (20 to 25 m²). Go bigger for a top-floor room under the roof or one that gets full sun. Pick a dual-hose model if you can, since it doesn't pull hot outside air into the room. A single-hose unit creates negative pressure that draws warm air in through gaps, which costs it some efficiency. Compare the EER and the night-mode noise level too.",
+      },
+      {
+        question: "How much does a portable air conditioner cost to run?",
+        answer: "Expect about 1 kW of power draw for a 9,000 BTU model, or around 20 cents an hour at full power at an example rate of 20 cents per kWh. The math: 1 kW × 6 hours = 6 kWh, about $1.20 a day. The compressor cycles off once the room hits the set temperature, so the real cost depends on your insulation and the heat outside. Aim for 79°F (26°C) rather than 68°F (20°C), close the blinds during the day, seal the window well and check the rate on your utility bill.",
+      },
+      {
+        question: "Why isn't my portable air conditioner cooling enough?",
+        answer: "Most often, hot air is getting back in through a poorly sealed window, or the room is too big for the unit. Install a window seal kit around the hose, keep the hose as short as possible and avoid bends. Clean the filters and check you're in cool mode, not fan or dry. Close doors and blinds on the sunny side. If the air coming out is no cooler than the room, have the unit checked under warranty.",
+      },
+      {
+        question: "Portable AC or ductless mini-split: which is better for an apartment?",
+        answer: "A portable unit needs no installation work, while a mini-split, which is more efficient and quieter, needs an outdoor unit. If you live in a condo or an HOA community, check the rules before mounting that unit on the facade or a balcony, since it often needs approval; renters also need their landlord's OK. A mini-split should be installed by a qualified HVAC technician certified to handle refrigerants. For a few weeks of heat a year, a portable unit is still the simplest option.",
+      },
+      {
+        question: "Why is my portable air conditioner leaking water?",
+        answer: "Most often the condensate tank is full or the unit isn't level. Many models evaporate the water through the exhaust hose, but in very humid weather or in dry mode it builds up inside: empty it through the drain plug or attach a continuous drain hose that runs into a bucket. Make sure the plug is screwed back on tightly with its seal in place. If the unit was moved lying on its side, wait several hours before switching it on, as the manual advises.",
+      },
+    ],
+    ca: [
+      {
+        question: "Is a portable air conditioner worth it for a summer heat wave?",
+        answer: "For a few hot weeks a year, yes: it cools one room without the cost and installation of a ductless mini-split. A 9,000 BTU unit, about 2.6 kW of cooling, suits a bedroom or living room of around 20 to 25 m² (about 220 to 270 sq. ft.); top-floor rooms and south-facing apartments need more. Choose a dual-hose model if you can, and look at the night-mode noise level, because the compressor sits in the room with you.",
+      },
+      {
+        question: "How much does a portable air conditioner cost to run?",
+        answer: "Roughly 10¢ an hour for a typical 9,000 BTU unit drawing about 1 kW, at an example rate of 10¢ per kWh. Over an 8-hour evening that is 8 kWh, about 80¢. The compressor cycles off once the room reaches the set temperature, so a well-sealed window and curtains closed during the day cut the real cost. Set it to 24 to 26°C rather than 18°C, and check the rate on your own bill, since it depends on your province and utility.",
+      },
+      {
+        question: "Does a portable air conditioner need a hose out the window?",
+        answer: "Yes: every real air conditioner has to dump the heat it removes, and a portable one does it through an exhaust hose. Products sold as hoseless “air coolers” are evaporative coolers, which add moisture and only feel cooler in dry heat. For sliding or casement windows, buy a kit designed for your window type and seal the gap well. A hole through the wall gives the best seal, but in a rental it needs your landlord's permission.",
+      },
+      {
+        question: "Why is my portable air conditioner not cooling the room?",
+        answer: "Usually because hot air is getting back in around the window kit, or the unit is too small for the room. Seal the window gap properly, keep the hose as short and straight as possible, and close doors and curtains on the sunny side. Clean the filters and check you are in cool mode, not fan or dry. Single-hose units pull warm outside air in through gaps, so they struggle on very hot days. If the air coming out is no colder than the room, ask the retailer to check it under warranty.",
+      },
+      {
+        question: "Why is my portable air conditioner leaking water?",
+        answer: "Most likely the condensate tank is full or the unit isn't standing level. Many models evaporate condensate through the exhaust hose, but in humid weather or dry mode water collects inside; empty it through the drain plug or attach a continuous drain hose that runs into a bucket. Make sure the plug and its seal are screwed back tightly. If the unit has been carried on its side, leave it upright for several hours before switching it on, as the manual advises.",
+      },
     ],
   },
   "ventilateurs": {
@@ -255,6 +519,72 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       { question: "Czy można zostawić wentylator włączony na całą noc?", answer: "Tak, sprawny wentylator można bezpiecznie zostawić na noc, najlepiej z wyłącznikiem czasowym. Powinien stać stabilnie, z dala od pościeli i zasłon, a przewód nie może być uszkodzony. Nie warto kierować strumienia prosto na twarz czy kark: stały nawiew wysusza oczy i gardło, a u niektórych osób powoduje sztywność karku. Lepiej ustawić tryb oscylacji i niski bieg." },
       { question: "Jak wyczyścić wentylator kolumnowy?", answer: "Po odłączeniu od prądu warto odkurzyć kratki ssawką ze szczotką, a jeśli tylna obudowa się zdejmuje, wyczyścić także wirnik. Kurz między lamelami usuwa się pędzelkiem lub sprężonym powietrzem; wody nie wolno wlewać do środka. Jeśli po czyszczeniu urządzenie stuka, zwykle stoi krzywo albo poluzowała się śruba. Głośne buczenie lub powolny rozruch mogą oznaczać zużyty silnik." },
     ],
+    sv: [
+      {
+        question: "Golvfläkt, tornfläkt eller takfläkt: vilken ska jag välja?",
+        answer: "En golvfläkt flyttar mest luft för pengarna, en tornfläkt tar liten plats och en takfläkt är ofta tystast i sovrum och vardagsrum. En takfläkt kräver tillräcklig takhöjd, i regel minst 2,30 meter under bladen, och ansluts till takuttaget: bryt strömmen i elcentralen först eller låt en behörig elektriker sköta monteringen. I sovrummet gör en DC-motor stor skillnad på låg hastighet, eftersom den är tystare och snålare.",
+      },
+      {
+        question: "Hur mycket el drar en fläkt som står på hela natten?",
+        answer: "Mindre än en krona: en fläkt på 40 W som går i 8 timmar drar 0,32 kWh, vilket blir ca 70 öre med ett exempelpris på 2,20 kr/kWh. Modeller med DC-motor drar ofta under 10 W på låg hastighet. Som jämförelse drar en portabel AC ungefär 1 kW, alltså 25 gånger mer. Använd timern eller avstängningsfunktionen i appen så att fläkten inte går i onödan.",
+      },
+      {
+        question: "Fläkt eller portabel AC när det är värmebölja?",
+        answer: "En fläkt svalkar huden men sänker inte temperaturen i rummet – det är bara en AC som verkligen kyler luften. Under en kraftig värmebölja förblir luften varm och en fläkt räcker inte för att skydda känsliga personer. Kombinera med enkla knep: håll gardiner och persienner stängda på dagen, vädra på natten när det är svalare ute och ställ fläkten vid fönstret så att den drar in sval luft. I ett vindsrum blir en portabel AC ofta nödvändig.",
+      },
+      {
+        question: "Hjälper det att ställa en skål med is framför fläkten?",
+        answer: "Bara lite, och bara precis framför fläkten. Isen kyler luften som passerar en aning, men effekten är liten och avtar när isen smälter. Den kyler inte ett helt rum, och smältvattnet tillför dessutom lite fukt. Du får ut mer av att dra för på solsidan under dagen och ställa fläkten vid ett öppet fönster på natten, så att den drar in svalare uteluft.",
+      },
+      {
+        question: "Hur rengör jag en tornfläkt som har börjat låta?",
+        answer: "Dra ur kontakten och dammsug genom gallret med ett smalt borstmunstycke: det är ofta dammet som gör den högljudd. Om modellen tillåter det kan du öppna bakstycket och rengöra fläkthjulet med tryckluftsspray eller en pensel. Ställ fläkten på ett plant golv, eftersom en fläkt som står snett vibrerar. Ett ihållande klickande kan bero på en lös skruv, medan ett kraftigt brummande eller en trög start tyder på en sliten motor.",
+      },
+    ],
+    us: [
+      {
+        question: "Tower, pedestal or ceiling fan: which should you choose?",
+        answer: "A pedestal fan moves the most air for the money, a tower fan takes up little space and a ceiling fan is often the quietest option for a bedroom or living room. A ceiling fan needs enough height, usually at least 7.5 ft (2.3 m) below the blades, and has to be wired into a ceiling light box: turn off the breaker first or have a licensed electrician install it. In a bedroom, a DC motor, quieter and more efficient, makes a real difference at low speed.",
+      },
+      {
+        question: "How much does it cost to run a fan all night?",
+        answer: "Pennies: a 40 W fan running for 8 hours uses 0.32 kWh, about 6 cents at an example rate of 20 cents per kWh. DC-motor fans often draw under 10 W on low speed. By comparison, a portable air conditioner draws around 1 kW, roughly 25 times as much. Use the timer or the app's auto-off so it doesn't run for nothing, and check the rate on your utility bill.",
+      },
+      {
+        question: "Fan or portable air conditioner during a heat wave?",
+        answer: "A fan cools your skin but doesn't lower the room's temperature; only an air conditioner actually cools the air. In a severe heat wave, the air a fan moves stays hot, and a fan is no longer enough to protect vulnerable people. Combine simple habits: blinds closed during the day, windows open at night when it's cooler outside, and a fan by the window to pull the cooler air in. In a top-floor bedroom under the roof, a portable air conditioner often becomes a necessity.",
+      },
+      {
+        question: "Is a bladeless fan safer for kids?",
+        answer: "Yes for little fingers, since there's no blade to reach, but it's still an electrical appliance to keep out of reach. A standard fan with a fine-mesh grille is already safe, as long as the grille can't come off without tools. Bladeless models are easier to clean, but they aren't necessarily quieter and they cost more. In a child's room, secure the cord and choose a heavy base that won't tip over.",
+      },
+      {
+        question: "How do you clean a noisy tower fan?",
+        answer: "Unplug it, then vacuum the dust through the grilles with a fine brush attachment: dust is often what makes it noisy. If the model allows, open the back cover to clean the blower wheel with canned air or a small brush. Stand the fan on a flat floor, since a wobbly fan vibrates. A persistent rattle can come from a loose screw; a loud hum or a sluggish start can mean the motor is wearing out.",
+      },
+    ],
+    ca: [
+      {
+        question: "How much does it cost to run a fan all night?",
+        answer: "Usually just a few cents a night: a 40 W fan running for 8 hours uses 0.32 kWh, about 3¢ at an example rate of 10¢ per kWh. DC-motor fans can draw under 10 W on low speed, so they cost even less. By comparison, a portable air conditioner draws around 1 kW, roughly 25 times as much. Use the timer or sleep mode so it switches itself off once you're asleep, and check the rate on your own bill.",
+      },
+      {
+        question: "Tower fan or pedestal fan: which is better?",
+        answer: "A pedestal fan moves more air and reaches further, while a tower fan takes up less floor space and spreads a gentler breeze. For a large living room or a stuffy attic bedroom, a pedestal fan usually cools you more effectively. For a small bedroom, a tower fan is tidier and often quieter on low settings, though its narrow grilles collect dust that is harder to clean. Compare the noise level at the lowest speed, not just the top one.",
+      },
+      {
+        question: "Does putting a bowl of ice in front of a fan actually work?",
+        answer: "Only a little, and only right in front of it: the ice slightly cools the air passing over it, but the effect is small and fades as it melts. It will not cool a whole room, and melting ice adds some moisture to the air. You'll get more from shutting curtains on sunny windows during the day and placing the fan by an open window at night to pull in cooler outside air.",
+      },
+      {
+        question: "Is it safe to leave a fan on overnight?",
+        answer: "Yes, a modern fan in good condition is safe to leave on all night. Place it on a stable surface away from bedding and curtains, check the cord and plug for damage, and avoid running it through a coiled extension cord. Use the timer if you can. Some people wake with dry eyes or a dry throat from constant airflow, so let it oscillate rather than blow straight at your face, and dust the blades regularly.",
+      },
+      {
+        question: "Do fans actually cool a room?",
+        answer: "No: a fan cools you, not the room, by moving air across your skin so sweat evaporates faster. The motor even adds a little heat, so switch it off when you leave the room. The exception is at night, when a fan blowing in through an open window, or pushing warm air out, swaps hot indoor air for cooler air from outside. Many ceiling fans can also run in reverse in winter to push warm air back down.",
+      },
+    ],
   },
   "chauffages-appoint": {
     fr: [
@@ -305,6 +635,72 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       { question: "Jaki grzejnik elektryczny do pokoju 15 m²?", answer: "Do pokoju 15 m² zwykle wystarczy urządzenie o mocy około 1500 W – w przeciętnie ocieplonym mieszkaniu przyjmuje się około 100 W na metr kwadratowy. W starym budynku z nieszczelnymi oknami potrzeba więcej. Warto wybrać model z elektronicznym termostatem, programatorem tygodniowym i funkcją wykrywania otwartego okna, a do dogrzewania sypialni raczej grzejnik olejowy lub konwektor niż głośną farelkę. Sterowanie z aplikacji pozwala włączyć ogrzewanie jeszcze przed powrotem do domu." },
       { question: "Czy grzejnik olejowy można zostawić włączony na noc?", answer: "Można, jeśli ma termostat, zabezpieczenie przed przegrzaniem i wyłącznik przechyłowy, choć lepiej zaprogramować jego wyłączenie. Grzejnik powinien stać co najmniej metr od zasłon, łóżka i mebli. Nie wolno suszyć na nim ubrań ani podłączać go przez przedłużacz czy listwę. Do snu wystarczy w sypialni 17–18 °C, a model z aplikacją lub programatorem sam włączy się rano przed pobudką." },
       { question: "Dlaczego grzejnik elektryczny wybija korki?", answer: "Najczęściej z powodu przeciążenia obwodu: grzejnik 2000 W włączony razem z czajnikiem, suszarką lub pralką na tym samym obwodzie przekracza możliwości bezpiecznika. Warto podłączyć grzejnik do gniazdka na innym obwodzie i nie włączać jednocześnie kilku prądożernych urządzeń. Jeśli wybija wyłącznik różnicowoprądowy, i to nawet wtedy, gdy nic innego nie jest włączone, usterka może tkwić w grzejniku lub w instalacji – trzeba wtedy przestać z niego korzystać i wezwać elektryka." },
+    ],
+    sv: [
+      {
+        question: "Vilket elelement passar i vilket rum?",
+        answer: "En värmefläkt värmer snabbt upp ett badrum, ett oljefyllt element passar i sovrummet, en infravärmare värmer en person som sitter still och en konvektor passar i rum du mest går igenom. Räkna med ungefär 100 W per m² i ett normalt isolerat rum, alltså 1 000 W för 10 m². En smart modell med termostat, schemaläggning och avkänning av öppet fönster gör att du inte värmer i onödan, och det betyder mer än vilken typ du väljer.",
+      },
+      {
+        question: "Vad kostar det att köra ett elelement på 2 000 W i en timme?",
+        answer: "Ungefär 4,40 kr i timmen på full effekt, räknat med ett exempelpris på 2,20 kr/kWh. Räknesättet: 2 000 W i en timme är 2 kWh, gånger ditt elpris per kWh. Med termostat stängs elementet av när temperaturen är nådd, så den verkliga kostnaden blir ofta lägre. Tre timmar om dagen på full effekt i en månad blir 180 kWh, alltså ca 400 kr. Ditt eget elpris står på elräkningen.",
+      },
+      {
+        question: "Oljefyllt element eller värmefläkt: vilket är billigast i drift?",
+        answer: "Inget av dem. Alla elelement med motstånd omvandlar 100 % av elen till värme, så vid samma effekt drar de lika mycket. Skillnaden ligger i komforten, och besparingen kommer från styrningen: noggrann termostat, schemaläggning, avkänning av öppet fönster och avstängning när rummet står tomt. Har ditt elavtal olika priser under dygnet, undvik att köra elementet när elen är som dyrast. En luft/luft-värmepump ger däremot flera kWh värme för varje kWh el.",
+      },
+      {
+        question: "Kan man koppla ett elelement till ett grenuttag?",
+        answer: "Nej, koppla det direkt till ett vägguttag: ett element på 2 000 W drar nästan 9 A i sträck och kan få ett grenuttag eller en förlängningssladd att bli varm. Täck aldrig över elementet och håll en meter fritt framför det. I badrummet väljer du en modell som är avsedd för det och respekterar säkerhetszonerna kring badkar och dusch (i Frankrike regleras de av installationsnormen NF C 15-100). Skydd mot överhettning och automatisk avstängning om elementet välter är ett måste.",
+      },
+      {
+        question: "Varför luktar mitt elelement bränt?",
+        answer: "Första gången du sätter på det efter sommaren är det oftast damm som bränns bort, och lukten försvinner efter några minuter. Om den sitter i, stäng av elementet, dra ur kontakten och kontrollera att inget tyg eller föremål ligger mot gallret. Lukt av varm plast, en het stickpropp eller ett uttag som svartnar tyder på dålig kontakt: sluta använda elementet och låt en fackman kontrollera det. Dammsug gallren inför varje säsong.",
+      },
+    ],
+    us: [
+      {
+        question: "Which space heater should you choose for each room?",
+        answer: "A fan heater to warm a bathroom fast, an oil-filled radiator heater for a bedroom, an infrared heater to warm a person sitting still, and a convection heater for a room you only pass through. For sizing, allow about 10 W per sq ft in a reasonably well-insulated room, so 1,000 W for about 110 sq ft (10 m²). A smart model with a thermostat, scheduling and open-window detection avoids heating for nothing, which matters more than the type of heater.",
+      },
+      {
+        question: "How much does a 1,500 W space heater cost to run per hour?",
+        answer: "About 30 cents an hour at full power, at an example rate of 20 cents per kWh. The math: 1,500 W for one hour = 1.5 kWh, multiplied by the rate on your utility bill. With a thermostat, the heater switches off once the room reaches temperature, so the real cost is often lower. Over a month, 3 hours a day at full power adds up to 135 kWh, about $27 at that example rate.",
+      },
+      {
+        question: "Is there such a thing as an energy-efficient electric space heater?",
+        answer: "No: every resistance electric heater turns 100% of its electricity into heat, so at the same wattage they all use the same amount. Savings come from the controls: an accurate thermostat, scheduling, open-window detection and switching off when the room is empty. On a time-of-use rate plan, avoid running a space heater during peak hours, when each kWh costs the most. A heat pump, such as a ductless mini-split, delivers several kWh of heat for every kWh it uses.",
+      },
+      {
+        question: "Can you plug a space heater into a power strip?",
+        answer: "No, plug it straight into a wall outlet: a 1,500 W heater draws about 12.5 A continuously on a 120 V circuit and can overheat a power strip or extension cord. Never cover it, and keep 3 ft (1 m) of clear space in front of it. In a bathroom, use only a model designed for that room, keep it well away from the tub and shower, and plug it into a GFCI-protected outlet. Tip-over and overheat protection are essential.",
+      },
+      {
+        question: "Why does my space heater smell like burning?",
+        answer: "The first time you turn it on each winter, it's usually built-up dust burning off, and the smell fades within minutes. If it lingers, switch the heater off, unplug it and check that no fabric or object is touching the grille. A smell of hot plastic, a plug that's hot to the touch or an outlet that's turning black points to a bad connection: stop using the heater and have it checked. Dust the grilles before each heating season.",
+      },
+    ],
+    ca: [
+      {
+        question: "How much does it cost to run a 1,500 W space heater?",
+        answer: "About 15¢ an hour at full power, at an example rate of 10¢ per kWh. The math is simple: 1.5 kW × 1 hour = 1.5 kWh, multiplied by the rate on your bill, which depends on your province and utility. A thermostat cuts the real cost, because the heater switches off once the room is warm. Three hours a day at full power for a month comes to 135 kWh, about $13.50 at that rate, so heaters suit short, targeted use rather than all-day heating.",
+      },
+      {
+        question: "Is it cheaper to use a space heater than your furnace?",
+        answer: "Only for short spells in one room, because a kWh of electricity usually costs more, often several times more, than the same heat from natural gas. Warming a home office for two hours with a 1.5 kW heater uses 3 kWh, which can still cost less than running a gas furnace for the whole house. Running heaters in several rooms all evening is almost always more expensive. Compare the electricity and natural gas rates on your bills before deciding.",
+      },
+      {
+        question: "Oil-filled heater or ceramic heater: which is cheaper to run?",
+        answer: "Neither: at the same wattage both turn every kWh of electricity into the same amount of heat. The difference is comfort. A ceramic heater uses a fan to warm a small room fast and suits short bursts, like a bathroom before a shower, but it is noisier. An oil-filled heater warms up more slowly, stays warm after its thermostat clicks off and is silent, which suits bedrooms. Savings come from a good thermostat and timer, not from the heater type.",
+      },
+      {
+        question: "Is it safe to plug a space heater into an extension cord?",
+        answer: "It's best not to: plug it straight into a wall outlet. A 1,500 W heater draws about 12.5 A at 120 V, close to the limit of a standard 15 A household circuit and more than many extension cords and power bars are rated for. Never use an extension cord reel without fully unwinding it, and never share the outlet or circuit with other high-power appliances. Keep the heater 1 m (3 ft) from curtains and furniture, don't dry clothes on it and choose one with tip-over and overheat protection.",
+      },
+      {
+        question: "Why does my space heater keep shutting off?",
+        answer: "Usually its overheat protection is kicking in because air can't flow freely around it, or the thermostat has simply reached the set temperature. Move it away from walls, curtains and furniture, and dust the grilles. On a soft carpet the tip-over switch may think it has fallen. If a breaker in your electrical panel or a GFCI outlet trips when it switches on, stop using it and have the heater and circuit checked by a licensed electrician.",
+      },
     ],
   },
   "stations-meteo": {
@@ -357,6 +753,72 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       { question: "Czy stacja pogodowa z Wi-Fi wymaga abonamentu?", answer: "Zwykle nie: aplikacja, bieżące odczyty i historia pomiarów są w cenie urządzenia. Przed zakupem warto jednak sprawdzić, czy niektóre funkcje, np. dłuższe archiwum danych lub rozbudowane alerty, nie są płatne. Dane trafiają do chmury producenta, dlatego dobrze jest przeczytać jego politykę prywatności. Jedyny stały koszt to baterie w czujnikach zewnętrznych, wymieniane co rok lub dwa; zimą lepiej sprawdzają się baterie litowe." },
       { question: "Dlaczego zegar w stacji pogodowej nie ustawia się automatycznie?", answer: "Najczęściej stacja nie odbiera sygnału czasu DCF77, z którego korzystają w Polsce zegary sterowane radiowo; nadajnik znajduje się w Mainflingen pod Frankfurtem. Pomaga przeniesienie stacji bliżej okna, z dala od telewizora, routera i metalowych powierzchni, oraz ponowne wyszukanie sygnału wieczorem lub w nocy, gdy odbiór jest lepszy. W budynkach z wielkiej płyty sygnał bywa słaby. Stacje z Wi-Fi pobierają czas z internetu." },
     ],
+    sv: [
+      {
+        question: "Vilka givare behöver en smart väderstation?",
+        answer: "Du behöver minst en utegivare för temperatur och luftfuktighet och en inomhusenhet. Lägg till regnmätare och vindmätare om du odlar eller bor i ett blåsigt läge. En inomhusenhet som mäter CO₂ visar dessutom när det är dags att vädra. Kontrollera att stationen fungerar med den plattform du använder (Apple Home, Alexa eller Google Home) och att radioräckvidden mellan utegivaren och basenheten räcker: en tjock vägg eller ett långt avstånd kan bryta förbindelsen.",
+      },
+      {
+        question: "Var ska utegivaren till väderstationen sitta?",
+        answer: "I skugga, helst mot norr, 1,25–2 meter över marken och en bit från väggar, precis som på officiella väderstationer. Direkt sol, en varm vägg, ett tak eller en betongplatta kan ge flera grader för högt. Placera givaren över gräs hellre än över altanen, gärna i ett ventilerat strålningsskydd, och långt från utblåset från värmepumpen eller pannan. Regnmätaren ska stå fritt, en bit från träd och stuprännor.",
+      },
+      {
+        question: "Behöver en smart väderstation något abonnemang?",
+        answer: "Oftast inte: hos de flesta märken ingår appen, mätvärdena i realtid och historiken utan extra kostnad. Kontrollera ändå före köpet om vissa funktioner, som lång historik eller avancerade varningar, kostar extra. Mätvärdena går via tillverkarens moln, så läs integritetspolicyn. Driftkostnaden är i stort sett batterierna i givarna, som behöver bytas med ett till två års mellanrum beroende på modell.",
+      },
+      {
+        question: "Smart väderstation eller väderapp: vad är skillnaden?",
+        answer: "Appen ger en prognos, stationen mäter vad som faktiskt händer hemma hos dig. I en trädgård i en sänka, i stan eller på höjd kan skillnaden mot grannorten vara stor: nattfrost, hur mycket regn som har fallit och hur det verkligen blåser. Det är användbart när du ska vattna vid rätt tillfälle, ta in växter före en frostnatt eller styra smarta rullgardiner och smart bevattning. Du kan också dela dina mätvärden i nätverk för väderamatörer, till exempel Weather Underground.",
+      },
+      {
+        question: "Varför visar väderstationen för hög utetemperatur?",
+        answer: "Oftast för att givaren träffas av sol eller värme från en vägg. Även om den står i skugga på morgonen kan den ligga i full sol på eftermiddagen, så titta på den vid olika tider på dygnet. Flytta den från väggar, fönster och mörka ytor och skydda den med ett ventilerat strålningsskydd. Om skillnaden finns kvar, jämför med en pålitlig termometer på samma plats, kontrollera batterierna och lägg in en korrigering i appen om det går.",
+      },
+    ],
+    us: [
+      {
+        question: "What should a good home weather station measure?",
+        answer: "At a minimum, outdoor temperature and humidity plus an indoor module; add a rain gauge and a wind sensor if you garden or live somewhere windy. An indoor module that reads CO2 also tells you when a room needs fresh air. Check that the app works with your smart home platform, whether that's Apple Home, Alexa or Google Home, and that the radio signal from the outdoor sensor can reach the base through your walls and over that distance.",
+      },
+      {
+        question: "Smart weather station or weather app: what's the difference?",
+        answer: "A weather app forecasts; a weather station measures what's actually happening at your house. In a low-lying yard, in the city or at higher elevation, conditions can differ a lot from the next town over: an early-morning frost, how much rain really fell, the actual wind. That helps you water at the right time, bring plants in before a freeze, or trigger smart blinds and sprinklers. You can also share your readings on amateur networks such as Weather Underground, which gives you a free public dashboard and history.",
+      },
+      {
+        question: "Why does my weather station show an outdoor temperature that's too high?",
+        answer: "Most often the sensor is picking up direct sun or heat from a wall. A spot that's shaded in the morning can be in full sun by mid-afternoon, so check on it at different times of day. Move it away from walls, windows and dark surfaces, and protect it with a ventilated radiation shield. If the gap persists, compare it with a reliable thermometer placed in the same spot, check the batteries and, if the app allows it, apply a calibration offset.",
+      },
+      {
+        question: "Where should I put the outdoor sensor?",
+        answer: "In the shade, ideally on the north side, 4 to 6.5 ft (1.25 to 2 m) above grass and away from walls, the way official weather stations are sited. Direct sun, a warm brick wall, a patio or a roof can push readings up by several degrees. Use a ventilated radiation shield if your sensor didn't come with one, and keep it away from heat pump fans and furnace or boiler exhaust vents. Mount the rain gauge level and clear of trees and gutters, and put the wind sensor as high and unobstructed as you safely can.",
+      },
+      {
+        question: "Does a smart weather station need a subscription?",
+        answer: "Usually not: most brands include the app, live readings and history at no extra cost. Before you buy, check whether any features, such as long-term history or advanced alerts, sit behind a paid plan. Running costs come down to batteries for the outdoor sensors, typically replaced every year or two, plus a base station that draws very little power. Your data goes through the manufacturer's cloud, so read the privacy policy if that matters to you.",
+      },
+    ],
+    ca: [
+      {
+        question: "What should a good home weather station measure?",
+        answer: "At minimum, an outdoor temperature and humidity sensor plus an indoor module; add a rain gauge and a wind sensor if you garden or live somewhere exposed. An indoor module with a CO2 reading also tells you when a room needs fresh air. Check that the app works with your smart home setup, whether that's Apple Home, Alexa or Google Home, and that the radio range between the outdoor sensor and the base can handle your walls and the distance.",
+      },
+      {
+        question: "Can I share my weather station data online?",
+        answer: "Yes, through amateur weather networks. Weather Underground, for example, collects readings from home stations around the world and gives you a free public dashboard and history. Some smart stations upload to it automatically; others need a bridge app or weather software running on a computer. Site your sensors properly first, because readings from a badly placed sensor add little value.",
+      },
+      {
+        question: "Why won't my weather station clock set itself?",
+        answer: "It's probably not picking up the radio time signal, or it's set for the wrong one. In North America, radio-controlled clocks sync to the WWVB signal broadcast from Colorado, so a station set for a European signal such as Germany's DCF77 or the UK's MSF won't find it. Move the base away from TVs, routers and metal surfaces, place it near a window and leave it overnight, when reception is usually better. Check the region or signal setting in the manual. Wi-Fi stations take the time from the internet instead, so if the clock is wrong, check the time zone in the app.",
+      },
+      {
+        question: "Where should I put the outdoor sensor?",
+        answer: "In the shade, ideally on a north-facing side, 1.25 to 2 m (about 4 to 6½ ft) above grass and away from walls, as official stations are. Direct sun, a warm brick wall, a deck, a patio or a roof can push readings up by several degrees. Use a ventilated radiation shield if your sensor didn't come with one, and keep it away from furnace and boiler vents and heat pump fans. Mount the rain gauge level and clear of trees and eavestroughs, and the wind sensor as high and unobstructed as you safely can.",
+      },
+      {
+        question: "Does a smart weather station need a subscription?",
+        answer: "Usually not: most brands include the app, live readings and history at no extra cost. Check before buying whether any features, such as long-term history or advanced alerts, sit behind a paid plan. Running costs are just batteries for the outdoor sensors, typically replaced every year or two, and a base station drawing very little power. Your data goes through the maker's cloud, so read the privacy policy if that matters to you.",
+      },
+    ],
   },
   "diffuseurs": {
     fr: [
@@ -407,6 +869,72 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       { question: "Czy dyfuzor z olejkami eterycznymi jest bezpieczny dla kota i dziecka?", answer: "Tylko przy zachowaniu ostrożności: koty są szczególnie wrażliwe na olejki eteryczne, a w pobliżu niemowląt i małych dzieci lepiej ich nie rozpylać. Niektóre olejki, np. z drzewa herbacianego, są toksyczne także dla psów. Dyfuzora nie należy włączać w zamkniętym pomieszczeniu, z którego zwierzę nie może wyjść. Sesje powinny trwać 15–30 minut, a po nich trzeba przewietrzyć pokój. W ciąży, przy astmie lub padaczce lepiej najpierw zapytać lekarza." },
       { question: "Dyfuzor ultradźwiękowy czy nebulizator?", answer: "Ultradźwiękowy wystarczy do delikatnego zapachu na co dzień, a nebulizator daje intensywniejszy aromat bez wody. Dyfuzor ultradźwiękowy zamienia wodę z kilkoma kroplami olejku w drobną mgiełkę – jest cichy i tani. Nebulizator rozpyla czysty olejek, więc zużywa go więcej, a jego pompka może lekko szumieć. Lepiej unikać dyfuzorów z podgrzewaniem, bo pod wpływem ciepła olejki tracą swoje właściwości. Model z aplikacją lub wyłącznikiem czasowym pozwala zaprogramować krótkie sesje." },
       { question: "Jak wyczyścić dyfuzor ultradźwiękowy z osadu i kamienia?", answer: "Po każdym użyciu warto opróżnić i osuszyć zbiornik, a raz w tygodniu umyć go wodą z odrobiną octu lub alkoholu. Płytkę ultradźwiękową przeciera się delikatnie patyczkiem higienicznym, nie skrobiąc jej, bo osad z olejku i kamienia osłabia mgiełkę. Przy twardej wodzie kamień odkłada się szybciej, dlatego można używać wody filtrowanej, o ile producent tego nie odradza. Przed schowaniem dyfuzora zbiornik powinien dobrze wyschnąć przy otwartej pokrywie." },
+    ],
+    sv: [
+      {
+        question: "Ultraljud eller nebulisering: vilken doftspridare ska jag välja?",
+        answer: "Ultraljud för en mild doft och daglig användning, nebulisering för en intensivare doft utan vatten. En ultraljudsmodell sprider några droppar olja i vatten som en fin dimma, tyst och till en låg kostnad. En nebuliserande doftspridare finfördelar ren olja: den är kraftfullare, gör av med mer olja och kan höras lite från pumpen. Undvik doftspridare med värme, som bryter ner oljorna. Med en smart modell kan du schemalägga korta pass.",
+      },
+      {
+        question: "Kan jag använda doftspridare om jag har bebis, är gravid eller har husdjur?",
+        answer: "Bara med försiktighet: undvik att sprida doft nära bebisar och små barn, och fråga läkare eller apotek om du är gravid eller har astma eller epilepsi. Katter är särskilt känsliga för eteriska oljor, och vissa, som teträdsolja, är giftiga även för hundar. Sprid aldrig doft i ett rum som djuret inte kan lämna. Håll utkik efter dregling, hosta, rinnande ögon eller slöhet och stäng av direkt om du ser något av det. Naturligt betyder inte ofarligt.",
+      },
+      {
+        question: "Hur många droppar och hur länge ska doftspridaren vara på?",
+        answer: "Börja med 3–5 droppar per 100 ml vatten i en ultraljudsmodell och följ tillverkarens råd. Kör korta pass på 15–30 minuter och vädra sedan; låt den inte gå hela tiden. Oljorna tillför flyktiga organiska ämnen till inomhusluften – en doftspridare doftsätter, den renar inte. Undvik att köra den i ett sovrum medan någon sover, särskilt i ett barnrum. Med en smart modell eller en smart plugg kan du automatisera korta pass, till exempel 20 minuter innan du går och lägger dig.",
+      },
+      {
+        question: "Kan en doftspridare lösa ut brandvarnaren?",
+        answer: "Ja, om den står nära en optisk brandvarnare kan den täta dimman tas för rök. Ställ doftspridaren en bra bit från brandvarnaren och rikta inte dimman upp mot taket. Täck aldrig över eller koppla bort brandvarnaren för att slippa falsklarm: flytta doftspridaren i stället.",
+      },
+      {
+        question: "Varför slutar doftspridaren att ge ifrån sig dimma?",
+        answer: "Oftast har oljerester eller kalk lagt sig på ultraljudsplattan, eller så är vattennivån fel. Dra ur kontakten, töm tanken och torka försiktigt av plattan med en bomullspinne doppad i ättika eller sprit, utan att skrapa. Fyll till strecket, inte över, och kontrollera att luftintaget under inte är blockerat. Torka ur tanken efter varje användning och rengör den en gång i veckan. Många doftspridare stängs dessutom av automatiskt efter en viss tid eller när vattnet tar slut, så kontrollera timern.",
+      },
+    ],
+    us: [
+      {
+        question: "Is an electric diffuser better than a reed diffuser?",
+        answer: "An electric diffuser gives you more control: you can schedule short sessions and switch scents, while a reed diffuser scents a room nonstop with no power or noise. Reed diffusers suit hallways and bathrooms, but you can't turn them off and they need refills. An ultrasonic diffuser draws anywhere from a few watts to about 20 W, a fraction of a cent per session, plus a few drops of oil. Neither one cleans the air: both add fragrance compounds, so keep the room ventilated.",
+      },
+      {
+        question: "Are essential oil diffusers safe around cats and dogs?",
+        answer: "Use them with real caution: cats are especially sensitive to essential oils, and some oils, such as tea tree, are toxic to dogs too. Never diffuse in a closed room your pet can't leave, keep sessions short, and put the diffuser out of reach so it can't be knocked over and licked. Watch for drooling, coughing, watery eyes or lethargy, and stop right away if you notice any of them. If your pet has breathing problems, ask your vet first.",
+      },
+      {
+        question: "How many drops of essential oil should go in a diffuser?",
+        answer: "Start with 3 to 5 drops per 100 ml (about 3.4 fl oz) of water in an ultrasonic diffuser, and follow the manufacturer's instructions. You can add a drop or two if the scent is too faint, but more isn't better: strong concentrations can irritate your eyes and airways. Nebulizing diffusers use undiluted oil and need no water, so set them to short cycles instead. Use pure essential oils rather than reed-diffuser fragrance oil, which can damage the plastic tank.",
+      },
+      {
+        question: "Can a diffuser set off a smoke alarm?",
+        answer: "Yes, it can if it sits close to a photoelectric (optical) smoke alarm, because the dense mist can be mistaken for smoke. Keep the diffuser well away from the alarm and don't aim the mist up toward the ceiling. Never cover or disconnect a smoke alarm to stop false alarms: move the diffuser instead. If you rent, tell your landlord or property manager about any alarm that keeps going off or stops working.",
+      },
+      {
+        question: "Why has my diffuser stopped misting?",
+        answer: "Usually because oil residue or mineral buildup has coated the ultrasonic plate, or the water level is off. Unplug it, empty the tank and gently wipe the plate with a cotton swab dipped in white vinegar or rubbing alcohol, without scratching it. Make sure you've filled it to the fill line, not above, and that the air intake underneath isn't blocked. Many diffusers shut off automatically after a set time or when the water runs low, so check the timer too.",
+      },
+    ],
+    ca: [
+      {
+        question: "Is an electric diffuser better than a reed diffuser?",
+        answer: "An electric diffuser gives you more control, letting you schedule short sessions and switch scents, while a reed diffuser scents a room continuously with no power or noise. Reed diffusers suit hallways and bathrooms but can't be turned off and need refills. An ultrasonic diffuser draws anywhere from a few watts to about 20 W, a fraction of a cent per session in electricity, plus a few drops of oil. Neither cleans the air: both add fragrance compounds, so keep the room ventilated.",
+      },
+      {
+        question: "Are essential oil diffusers safe around cats and dogs?",
+        answer: "Use them with real caution: cats are especially sensitive to essential oils, and some oils, such as tea tree, are toxic to dogs too. Never diffuse in a closed room your pet can't leave, keep sessions short and put the diffuser out of reach so it can't be knocked over and licked. Watch for drooling, coughing, watery eyes or lethargy, and stop at once if you see them. If your pet has breathing problems, ask your vet first.",
+      },
+      {
+        question: "How many drops of essential oil should go in a diffuser?",
+        answer: "Start with 3 to 5 drops per 100 mL of water in an ultrasonic diffuser and follow the manufacturer's instructions. You can add a drop or two if the scent is too faint, but more isn't better: strong concentrations can irritate eyes and airways. Nebulizing diffusers use undiluted oil and need no water, so set them to short cycles instead. Use pure essential oils rather than reed-diffuser fragrance, which can damage the plastic tank.",
+      },
+      {
+        question: "Can a diffuser set off a smoke alarm?",
+        answer: "Yes, it can if it sits close to a photoelectric (optical) smoke alarm, because the dense mist can be mistaken for smoke. Keep the diffuser well away from the alarm and don't aim the mist up toward the ceiling. Never cover or disconnect a smoke alarm to stop false alarms: move the diffuser instead. If you rent, tell your landlord about any alarm that keeps going off or stops working.",
+      },
+      {
+        question: "Why did my diffuser stop misting?",
+        answer: "Usually because oil residue or mineral buildup has formed on the ultrasonic plate, or the water level is wrong. Unplug it, empty the tank and gently wipe the plate with a cotton swab dipped in white vinegar or rubbing alcohol, without scratching. Make sure you've filled it to the line, not above, and that the air intake underneath isn't blocked. Many diffusers switch off automatically after a set time or when the water runs low, so check the timer too.",
+      },
     ],
   },
   "reveils-lumiere": {
@@ -459,6 +987,72 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       { question: "Jak korzystać z lampy 10 000 luksów, żeby pomogła na jesienną chandrę?", answer: "Najlepiej codziennie rano przez około 30 minut, w odległości podanej przez producenta, bo tylko z tej odległości natężenie światła sięga 10 000 luksów. Nie trzeba patrzeć prosto w lampę: wystarczy, że stoi z boku, np. podczas śniadania czy czytania. Warto zacząć jesienią, gdy dni się skracają, i trzymać się stałej pory. Efekt pojawia się zwykle po kilku dniach, a czasem dopiero po kilku tygodniach regularnego stosowania." },
       { question: "Czy budzik świetlny zadziała po zaniku prądu?", answer: "Tylko wtedy, gdy ma baterię podtrzymującą – bez niej po przerwie w zasilaniu wiele modeli kasuje zegar i ustawienia alarmu. Bateria chroni zwykle tylko zegar i ustawienia, ale nie zasili lampy. Modele z Wi-Fi po powrocie prądu pobiorą czas z internetu, jednak alarm, który przypadnie w czasie przerwy, i tak się nie uruchomi. Jeśli to jedyny budzik w domu, dobrze jest ustawić zapasowy alarm w telefonie." },
     ],
+    sv: [
+      {
+        question: "Hjälper en wake up light dig verkligen att vakna?",
+        answer: "Ja, för många blir uppvaknandet mjukare, särskilt på vintern, men en väckarklocka med ljus väger inte upp sömnbrist. Ljuset ökar sakta under 20–40 minuter före larmet, som en gryning. Effekten märks mest under de mörkaste månaderna, när solen går upp långt efter att du behöver vakna. Håll regelbundna tider, även på helgerna.",
+      },
+      {
+        question: "Väckarklocka med ljus eller dagsljuslampa: vad är skillnaden?",
+        answer: "Väckarklockan med ljus simulerar gryningen så att det blir lättare att kliva upp, medan en dagsljuslampa ger 10 000 lux för att motverka vinterdepression. En väckarklocka med ljus når i regel bara några hundra lux, långt från styrkan i ljusterapi, som görs på morgonen i ungefär 30 minuter på det avstånd tillverkaren anger. Blir du tydligt nedstämd varje vinter är det lampan du behöver, helst efter att du har pratat med en läkare.",
+      },
+      {
+        question: "Finns det risker med ljusterapi?",
+        answer: "Ja, rådfråga en läkare om du har en näthinnesjukdom eller bipolär sjukdom, eller tar läkemedel som gör dig ljuskänslig. De vanligaste biverkningarna är huvudvärk, trötta ögon eller rastlöshet, och de går ofta över om du kortar passen eller sitter längre från lampan. Du behöver inte titta rakt in i ljuset: placera lampan lite åt sidan. Välj en lampa som är CE-märkt som medicinteknisk produkt och har UV-filter, och undvik pass på kvällen, eftersom de kan göra det svårare att somna.",
+      },
+      {
+        question: "Wake up light eller smart lampa med schema: vad ska jag välja?",
+        answer: "En smart lampa kan räcka om du redan har en, men en riktig väckarklocka med ljus ger en mjukare upptrappning och funktioner som är gjorda för ändamålet. Med Philips Hue tänder en väckningsrutin ljuset gradvis, och med Alexa och Google Home går det att skapa liknande rutiner beroende på lampa. Väckarklockan har dessutom solnedgång, ljud, radio och ibland reservbatteri. Kontrollera också lampans lägsta ljusnivå, som ibland är för stark i ett mörkt sovrum.",
+      },
+      {
+        question: "Väcker väckarklockan med ljus min partner också?",
+        answer: "Troligen i viss mån, eftersom ljuset fyller rummet, men det hjälper att vinkla den mot din sida och sänka den högsta ljusstyrkan. Ställ den på ditt nattduksbord riktad mot dig, stäng av ljudet så att bara ljuset väcker dig och välj en kortare gryning om din partner sover längre. Vissa använder sovmask. Litar du på den för att komma upp i tid bör du välja en modell med reservbatteri så att ett strömavbrott inte nollställer larmet.",
+      },
+    ],
+    us: [
+      {
+        question: "Does a sunrise alarm clock help with SAD?",
+        answer: "It can make dark mornings easier, but on its own it isn't a treatment for seasonal affective disorder (SAD). Sunrise alarms usually peak at a few hundred lux, while light therapy for SAD typically uses a 10,000-lux light therapy lamp for about 30 minutes each morning. If your mood drops noticeably every winter, talk to your doctor about light therapy before buying a lamp. A sunrise alarm works well alongside that plan, not instead of it.",
+      },
+      {
+        question: "Sunrise alarm clock or smart bulb: which is better?",
+        answer: "A smart bulb can do the job if you already own one, but a dedicated sunrise alarm usually starts dimmer and brightens more smoothly. Philips Hue's wake-up routine raises your lights gradually, and Alexa or Google Home routines can do something similar with compatible bulbs. A sunrise alarm adds a sunset mode, sounds, a radio and sometimes a battery backup. Check the minimum brightness: a bulb that starts too bright feels harsh in a dark bedroom.",
+      },
+      {
+        question: "Is a light-up “OK to wake” clock good for toddlers?",
+        answer: "Yes, it can help kids who can't tell time yet learn when it's OK to get up, using a color change instead of numbers. These sleep trainers work differently from adult sunrise alarms: they use a dim, warm glow as a signal, not bright light. At first, set the wake-up color slightly before their usual wake time, then push it later in small steps. Keep any night light dim and warm, and put the clock where they can see it from bed.",
+      },
+      {
+        question: "Are SAD lamps safe for your eyes?",
+        answer: "Generally yes, if the lamp filters out UV and you use it as directed, but check with a doctor first if you have an eye condition or bipolar disorder. Some medications make you more sensitive to light, so mention any you take. You don't need to stare into the lamp: place it off to one side, at the distance the manufacturer recommends. Headaches or eye strain usually ease with shorter sessions or more distance. Avoid evening sessions, which can delay sleep.",
+      },
+      {
+        question: "Will a sunrise alarm wake my partner too?",
+        answer: "Probably to some extent, since the light fills the room, but angling it toward your side and lowering the peak brightness helps. Put the clock on your nightstand facing you, turn off the sound so only the light wakes you, and choose a shorter sunrise if your partner sleeps later. Some partners simply wear a sleep mask. If you rely on it to get up, pick one with a battery backup so a power outage doesn't wipe out the alarm.",
+      },
+    ],
+    ca: [
+      {
+        question: "Does a sunrise alarm clock help with SAD?",
+        answer: "It can make dark winter mornings easier, but on its own it isn't a treatment for seasonal affective disorder (SAD). Sunrise alarms usually peak at a few hundred lux, while light therapy for SAD typically uses a 10,000-lux light therapy lamp for around 30 minutes each morning. If low mood comes back every winter, talk to your family doctor about your options. A sunrise alarm works well alongside whatever plan you agree on.",
+      },
+      {
+        question: "Sunrise alarm clock or smart bulb: which is better?",
+        answer: "A smart bulb can do the job if you already have one, but a dedicated sunrise alarm usually starts dimmer and fades up more smoothly. Philips Hue's wake-up routine brightens your lights gradually, and Alexa or Google Home routines can do something similar with compatible bulbs. A sunrise alarm adds a sunset mode, sounds, radio and sometimes a battery backup. Check the minimum brightness: a bulb that starts too bright feels harsh in a dark room.",
+      },
+      {
+        question: "Is a light-up “okay to wake” clock good for toddlers?",
+        answer: "Yes, it can help children who can't tell the time learn when it's okay to get up, using a colour change rather than numbers. These sleep trainers work differently from adult sunrise alarms: they use a dim, warm glow as a signal, not bright light. Set the wake-up colour slightly before their usual waking time at first, then move it later in small steps. Keep any night light dim and warm, and place the clock where they can see it from bed.",
+      },
+      {
+        question: "Are SAD lamps safe for your eyes?",
+        answer: "Generally yes, if the lamp filters UV and you use it as directed, but check with a doctor first if you have an eye condition or bipolar disorder. Some medicines make you more sensitive to light, so mention any you take. You don't need to stare into the lamp: place it to one side, at the distance the maker gives. Headaches or eye strain usually ease with shorter sessions or more distance. Avoid evening sessions, which can delay sleep.",
+      },
+      {
+        question: "Will a sunrise alarm wake my partner too?",
+        answer: "Probably to some extent, since the light fills the room, but angling it toward your side and lowering the peak brightness helps. Put the clock on your nightstand facing you, switch off the sound so only the light wakes you, and pick a shorter sunrise if your partner sleeps later. Some partners wear a sleep mask. If you rely on it, choose one with a battery backup so a power outage doesn't wipe the alarm.",
+      },
+    ],
   },
   "rideaux-automatises": {
     fr: [
@@ -509,6 +1103,72 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       { question: "Czy inteligentnymi zasłonami można sterować głosem po polsku?", answer: "Tak, przez smartfon: Asystent Google i Gemini przyjmują polecenia po polsku, jeśli silnik współpracuje z Google Home bezpośrednio lub przez hub. Głośniki Google Nest oficjalnie nie obsługują jednak polskiego, a nie każdy asystent rozumie ten język, dlatego przed zakupem lepiej to sprawdzić. Bez asystenta zasłony można otwierać z aplikacji, według harmonogramu lub o wschodzie słońca. Silnik z samym Bluetooth potrzebuje do zdalnego sterowania mostka (huba) producenta, a modele Zigbee i Matter łączą się przez odpowiedni hub lub kontroler." },
       { question: "Zasłony automatyczne czy rolety dzień-noc?", answer: "Rolety dzień-noc lepiej regulują światło i zajmują mniej miejsca, a automatyczne zasłony pozwalają zachować ulubione tkaniny i lepiej wyciszają pokój. Rolety dzień-noc z silnikiem montuje się zwykle w miejsce dotychczasowych; są wersje na baterię i zasilane z sieci. Zasłony automatyzuje się silnikiem nakładanym, bez wymiany karnisza. W upały skuteczniejsze od obu rozwiązań są rolety zewnętrzne, które zatrzymują słońce przed szybą." },
       { question: "Dlaczego silnik zasłony zatrzymuje się w połowie?", answer: "Najczęściej zasłona gdzieś się zacina: ciężko chodzące kółka lub żabki, wygięty drążek albo zbyt ciężka tkanina sprawiają, że silnik wykrywa przeszkodę i staje. Warto przesunąć zasłonę ręcznie na całej długości, wyczyścić karnisz i spryskać oporne elementy odrobiną smaru silikonowego, a potem ponownie skalibrować w aplikacji pozycje otwarcia i zamknięcia. Silnik może też stawać przy słabym akumulatorze – wtedy trzeba go w pełni naładować. Przy okazji dobrze jest zaktualizować oprogramowanie." },
+    ],
+    sv: [
+      {
+        question: "Vilken gardinmotor passar min gardinstång eller gardinskena?",
+        answer: "Kontrollera först vad du har: gardinmotorer som monteras på befintlig upphängning finns i versioner för rund gardinstång, U-skena och I-skena, och den ena passar inte den andra. Mät stångens diameter, kontrollera den högsta gardinvikt motorn klarar och se till att ringarna glider utan att haka upp sig. Gardiner som öppnas på mitten kräver i regel två motorer, en per våd. Tunga och mörkläggande gardiner behöver en starkare modell, och i ett burspråk är en måttanpassad motoriserad skena ofta det säkra valet.",
+      },
+      {
+        question: "Kan jag ha smarta gardiner i en hyreslägenhet utan att borra?",
+        answer: "Ja, gardinmotorer som klämmer fast på din befintliga stång eller skena kräver ingen borrning och går att ta bort utan spår när du flyttar. De drivs av laddningsbara batterier, så det behövs ingen kabeldragning heller. En motoriserad skena som skruvas i taket eller väggen är en annan sak: be först hyresvärden om ett skriftligt godkännande. Små solpaneler för laddning fästs på rutan, vilket brukar gå bra, men läs ditt hyresavtal om du är osäker.",
+      },
+      {
+        question: "Gardinmotor på befintlig stång eller motoriserad skena: vilken ska jag välja?",
+        answer: "En gardinmotor på befintlig stång monteras på några minuter utan borrning, medan en motoriserad skena är tystare och stabilare men kräver installation och ström. Den batteridrivna motorn passar hyresgäster och lätta till medeltunga gardiner; batteriet räcker i regel flera månader, laddas via USB och kan på många modeller kompletteras med en liten solpanel på rutan. Den nätdrivna skenan klarar tunga gardiner och stora fönsterpartier, monteras i tak eller vägg och ansluts till ett uttag eller till elinstallationen. Jämför ljudnivån om den ska sitta i sovrummet.",
+      },
+      {
+        question: "Fungerar smarta gardiner utan hubb och abonnemang?",
+        answer: "Utan abonnemang, ja. Utan hubb bara via Bluetooth, inom räckhåll för mobilen. För att styra gardinerna på distans, med rösten eller via automationer (vid soluppgången, när du lämnar hemmet) behöver du i regel en hubb eller wifi-brygga från tillverkaren, eller en Zigbee- eller Matter-hubb beroende på modell. Kontrollera kompatibiliteten med Apple Home, Alexa eller Google Home innan du köper. Grundfunktionerna är gratis.",
+      },
+      {
+        question: "Varför stannar gardinmotorn halvvägs?",
+        answer: "Oftast för att gardinen hakar upp sig: tröga ringar eller glidare, en böjd stång eller en för tung gardin får motorn att tro att den har stött på ett hinder. Dra gardinen för hand längs hela sträckan, rengör stången eller skenan och spraya lite silikon om glidarna kärvar. Kalibrera om ändlägena för öppet och stängt i appen. Ett svagt batteri kan också stoppa motorn mitt i, så ladda det fullt och installera eventuella firmwareuppdateringar.",
+      },
+    ],
+    us: [
+      {
+        question: "Will a smart curtain motor work on a curtain rod or a bay window track?",
+        answer: "On a straight curtain rod or track, usually yes, but bay window tracks are harder: many clip-on robots can't make it around the curves. Clip-on motors come in versions for round rods, U-rails and I-rails, so check the type and the rod diameter before you order. For a bay window, a custom-made motorized track, bent to fit, is often the reliable option. Check the maximum curtain weight too, especially for heavy lined, blackout or thermal curtains.",
+      },
+      {
+        question: "Can I install smart curtains in a rental apartment without drilling?",
+        answer: "Yes, clip-on curtain robots attach to your existing rod or track with no drilling and come off without a trace when you move out. They run on rechargeable batteries, so there's no wiring either. A motorized track that screws into the ceiling or wall is a different story: get your landlord's OK in writing first. The small solar panels that charge some robots stick to the window glass, which is usually fine, but check your lease if you're unsure.",
+      },
+      {
+        question: "Retrofit curtain robot or fully motorized track?",
+        answer: "A retrofit robot costs less and installs in minutes; a motorized track is quieter, handles heavier curtains and looks cleaner. Robots suit light to medium curtains and renters. A plug-in or hardwired motorized track copes with long, heavy curtains and wide windows, but it has to be mounted on the ceiling or wall and needs a nearby outlet or a wired connection, which a licensed electrician should install. For a bedroom, compare noise levels, since some robots are noticeably louder than a track motor.",
+      },
+      {
+        question: "Do smart curtains need a hub or a subscription?",
+        answer: "No subscription is needed, but you usually need a hub or Wi-Fi bridge for remote, voice or scheduled control. Bluetooth-only motors work from your phone when you're within range. Adding the brand's hub, or a Zigbee or Matter hub depending on the model, lets you open the curtains at sunrise, with Alexa or Google Home, or while you're away. Check compatibility with your ecosystem before buying, especially Apple Home, which some motors support only through a bridge.",
+      },
+      {
+        question: "Why does my smart curtain motor stop halfway?",
+        answer: "Usually because the curtain is snagging: stiff rings or gliders, a bent rod or a curtain that's too heavy makes the motor think it has hit an obstacle. Slide the curtain by hand along its full length, clean the rod or track, and add a little silicone spray if the gliders stick. Recalibrate the open and closed positions in the app. A low battery can also stop it mid-run, so charge it fully and install any firmware updates.",
+      },
+    ],
+    ca: [
+      {
+        question: "Will a smart curtain motor work on a curtain rod or a bay window track?",
+        answer: "On a straight curtain rod or track, usually yes, but bay window tracks are harder: many clip-on robots can't get around the bends. Clip-on motors come in versions for round rods, U-rails and I-rails, so check the type and the rod diameter before you order. For a bay window, a made-to-measure motorized track, bent to fit, is often the reliable option. Check the maximum curtain weight too, especially for heavy lined, blackout or thermal curtains.",
+      },
+      {
+        question: "Can I install smart curtains in a rental apartment without drilling?",
+        answer: "Yes, clip-on curtain robots attach to your existing rod or track with no drilling and come off without a trace when you move out. They run on rechargeable batteries, so there's no wiring either. A motorized track that screws into the ceiling or wall is different: get your landlord's permission in writing first. Small solar panels for the robots stick to the glass, which is usually fine, but check your lease if you're unsure.",
+      },
+      {
+        question: "Retrofit curtain robot or fully motorized track?",
+        answer: "A retrofit robot is cheaper and quick to install; a motorized track is quieter, handles heavier curtains and looks neater. Robots suit light to medium curtains and renters. A plug-in or hardwired motorized track copes with long, heavy curtains and wide windows, but it has to be mounted on the ceiling or wall and needs an outlet nearby or a hardwired connection, which a licensed electrician should install. For a bedroom, compare noise levels, since some robots are noticeably louder than a track motor.",
+      },
+      {
+        question: "Do smart curtains need a hub or a subscription?",
+        answer: "No subscription is needed, but you usually need a hub or Wi-Fi bridge for remote, voice or scheduled control. Bluetooth-only motors work from your phone within range. Adding the maker's hub, or a Zigbee or Matter hub depending on the model, lets you open curtains at sunrise, with Alexa or Google Home, or while you're away. Check compatibility with your ecosystem before buying, especially Apple Home, which some motors support only through a bridge.",
+      },
+      {
+        question: "Why does my smart curtain motor stop halfway?",
+        answer: "Usually because the curtain is snagging: stiff rings or gliders, a bent rod or a curtain that's too heavy makes the motor think it has hit an obstacle. Slide the curtain by hand along its whole length, clean the rod or track, and add a little silicone spray if the gliders stick. Recalibrate the open and closed positions in the app. A low battery can also stop it partway, so charge it fully and install any firmware updates.",
+      },
     ],
   },
 }

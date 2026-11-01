@@ -14,6 +14,9 @@ const metaDescriptions: Record<string, string> = {
   it: 'Politica dei cookie di Home Nura: cookie strettamente necessari, cookie di affiliazione Amazon e gestione dal browser. Conforme al GDPR.',
   nl: 'Cookiebeleid van Home Nura: strikt noodzakelijke cookies, Amazon-affiliate cookies en beheer via uw browser. AVG-conform.',
   pl: 'Polityka plików cookie serwisu Home Nura: niezbędne pliki cookie, afiliacyjne pliki cookie Amazon i zarządzanie nimi w przeglądarce. Zgodna z RODO.',
+  sv: 'Home Nuras cookiepolicy: strikt nödvändiga cookies, cookies från Amazons affiliatelänkar och hur du hanterar cookies i din webbläsare. Följer GDPR.',
+  us: 'Home Nura cookie policy: strictly necessary cookies, Amazon affiliate cookies, how to manage cookie preferences in your browser. GDPR compliant.',
+  ca: 'Home Nura cookie policy: strictly necessary cookies, Amazon affiliate cookies, how to manage cookie preferences in your browser. GDPR compliant.',
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -60,6 +63,18 @@ const content: Record<string, { title: string; body: string }> = {
     title: 'Polityka plików cookie',
     body: 'Ostatnia aktualizacja: kwiecień 2026\n\nW tym dokumencie wyjaśniamy, jak serwis Home Nura korzysta z plików cookie.\n\nCzym jest plik cookie?\nPlik cookie to mały plik tekstowy, który zapisuje się na Twoim urządzeniu, gdy odwiedzasz stronę internetową. Dzięki plikom cookie serwis działa prawidłowo i wygodniej się z niego korzysta.\n\nJakich plików cookie używamy\n\nNiezbędne pliki cookie: bez nich serwis nie może działać. Nie można ich wyłączyć.\n\nPliki cookie stron trzecich (Amazon): gdy klikniesz link afiliacyjny prowadzący do sklepu Amazon, Amazon zapisuje pliki cookie, które pozwalają śledzić Twój zakup i przypisać nam prowizję afiliacyjną. Te pliki cookie podlegają polityce plików cookie Amazon.\n\nZarządzanie plikami cookie\nPliki cookie możesz kontrolować i usuwać w ustawieniach przeglądarki. Usunięcie plików cookie może wpłynąć na komfort przeglądania.\n\nWięcej informacji o zarządzaniu plikami cookie znajdziesz w pomocy swojej przeglądarki.\n\nKontakt\nJeśli masz pytania dotyczące plików cookie w naszym serwisie, napisz na adres: contact@homenura.com',
   },
+  sv: {
+    title: 'Cookiepolicy',
+    body: 'Senast uppdaterad: april 2026\n\nDen här policyn förklarar hur Home Nura använder cookies på sin webbplats.\n\nVad är en cookie?\nEn cookie är en liten textfil som sparas på din enhet när du besöker en webbplats. Cookies gör att webbplatsen fungerar som den ska och förbättrar din upplevelse.\n\nCookies vi använder\n\nStrikt nödvändiga cookies: De här cookies behövs för att webbplatsen ska fungera. De går inte att stänga av.\n\nCookies från tredje part (Amazon): När du klickar på en affiliatelänk till Amazon placerar Amazon cookies som spårar ditt köp och tillskriver oss provisionen. De här cookies omfattas av Amazons cookiepolicy.\n\nHantera cookies\nDu kan styra och radera cookies i webbläsarens inställningar. Om du raderar cookies kan det påverka hur webbplatser fungerar när du surfar.\n\nMer information om hur du hanterar cookies hittar du i webbläsarens hjälpavsnitt.\n\nKontakt\nFrågor om hur vi använder cookies: contact@homenura.com',
+  },
+  us: {
+    title: 'Cookie Policy',
+    body: 'Last updated: April 2026\n\nThis policy explains how Home Nura uses cookies on its website.\n\nWhat is a cookie?\nA cookie is a small text file stored on your device when you visit a website. Cookies help the site function properly and improve your experience.\n\nCookies we use\n\nStrictly necessary cookies: These cookies are essential for the site to function. They cannot be disabled.\n\nThird-party cookies (Amazon): When you click an affiliate link to Amazon, cookies are set by Amazon to track your purchase and attribute the affiliate commission to us. These cookies are subject to Amazon\'s cookie policy.\n\nManaging cookies\nYou can control and delete cookies through your browser settings. Deleting cookies may affect your browsing experience.\n\nFor more information on managing cookies, see your browser\'s help documentation.\n\nContact\nFor any questions about our use of cookies: contact@homenura.com',
+  },
+  ca: {
+    title: 'Cookie Policy',
+    body: 'Last updated: April 2026\n\nThis policy explains how Home Nura uses cookies on its website.\n\nWhat is a cookie?\nA cookie is a small text file stored on your device when you visit a website. Cookies help the site function properly and improve your experience.\n\nCookies we use\n\nStrictly necessary cookies: These cookies are essential for the site to function. They cannot be disabled.\n\nThird-party cookies (Amazon): When you click an affiliate link to Amazon, cookies are set by Amazon to track your purchase and attribute the affiliate commission to us. These cookies are subject to Amazon\'s cookie policy.\n\nManaging cookies\nYou can control and delete cookies through your browser settings. Deleting cookies may affect your browsing experience.\n\nFor more information on managing cookies, see your browser\'s help documentation.\n\nContact\nFor any questions about our use of cookies: contact@homenura.com',
+  },
 }
 
 export default async function PolitiqueCookies({ params }: { params: Promise<{ lang: string }> }) {
@@ -87,7 +102,7 @@ export default async function PolitiqueCookies({ params }: { params: Promise<{ l
         </div>
         <div className="mt-12">
           <Link href={`/${lang}`} className="text-brand-600 font-bold hover:underline">
-            &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : lang === 'pl' ? 'Powrót do strony głównej' : 'Back to home'}
+            &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : lang === 'pl' ? 'Powrót do strony głównej' : lang === 'sv' ? 'Tillbaka till startsidan' : lang === 'us' ? 'Back to home' : lang === 'ca' ? 'Back to home' : 'Back to home'}
           </Link>
         </div>
       </main>

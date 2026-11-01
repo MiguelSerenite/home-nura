@@ -51,6 +51,72 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       { question: "Jak długo działa bateria w dzwonku z kamerą zimą?", answer: "Zimą wyraźnie krócej: na mrozie akumulator traci część pojemności, a wiele modeli w ogóle nie ładuje się poniżej 0 °C. Warto zawęzić strefy wykrywania ruchu do samych drzwi, skrócić nagrania i obniżyć czułość detekcji. Jeśli przy drzwiach jest przewód starego dzwonka, lepiej zasilać urządzenie na stałe. Wyjęty akumulator najlepiej ładować w temperaturze pokojowej, a nie na zewnątrz." },
       { question: "Dlaczego dzwonek z kamerą traci połączenie z Wi-Fi?", answer: "Najczęściej z powodu słabego sygnału przy drzwiach wejściowych: stalowe drzwi i żelbetowe ściany bloków mocno tłumią Wi-Fi. Siłę sygnału pokazuje aplikacja; w razie potrzeby pomaga wzmacniacz lub punkt sieci mesh w przedpokoju. Wiele dzwonków obsługuje tylko pasmo 2,4 GHz i nie połączy się z siecią 5 GHz. W modelach na akumulator połączenie często zrywa się też przy słabej baterii." },
     ],
+    sv: [
+      {
+        question: "Videodörrklocka med batteri eller kabel: vilken ska jag välja?",
+        answer: "Välj den kabelanslutna om det redan finns en trådbunden ringklocka med transformator: du slipper ladda och rörelseavkänningen reagerar snabbare. Batteri passar när ingen kabel går fram till dörren, men den angivna batteritiden på flera månader sjunker tydligt när många passerar och när det är kallt. Kontrollera i bruksanvisningen vilken spänning den klarar (ofta 8–24 V växelström): en för svag transformator ger omstarter, och att byta den i elcentralen är ett jobb för en behörig elektriker.",
+      },
+      {
+        question: "Fungerar en videodörrklocka utan abonnemang?",
+        answer: "Ja, om du väljer en modell som spelar in lokalt, på ett microSD-kort eller en basstation, som flera dörrklockor från Eufy, Reolink och TP-Link Tapo. Utan abonnemang visar Ring och de flesta Arlo-modeller bara direktbild och skickar notiser, utan att spara videoklippen, och Google Nest sparar bara en kort historik gratis. Räkna på det innan du köper: på fem år blir några tiotal kronor i månaden ofta mer än vad själva dörrklockan kostar.",
+      },
+      {
+        question: "Får jag ha en videodörrklocka om jag bor i lägenhet?",
+        answer: "Ja, men ställ in den så att den filmar din egen dörr, inte trapphuset eller grannens dörr. GDPR gäller i hela EU, och den franska dataskyddsmyndigheten CNIL påpekar till exempel att en privatperson bara får filma sin egen egendom. Trapphuset är ett gemensamt utrymme, så be föreningen eller hyresvärden om lov innan du borrar i väggen. Med ett digitalt titthål som monteras i själva dörren slipper du problemet, och det går att ta bort om du hyr.",
+      },
+      {
+        question: "Varför tappar videodörrklockan wifi-anslutningen?",
+        answer: "Oftast är wifi-signalen för svag vid ytterdörren: kontrollera signalstyrkan i appen. En metalldörr, en stenvägg eller en router i andra änden av bostaden räcker för att dörrklockan ska tappa anslutningen. Sätt upp en repeater eller en mesh-nod nära entrén, anslut dörrklockan till 2,4 GHz-nätet om den inte klarar 5 GHz och ladda batteriet om det är en batterimodell: låg laddning ger också avbrott.",
+      },
+      {
+        question: "Behöver jag en ringklocka inomhus till videodörrklockan?",
+        answer: "Ja, det är klokt: utan en klocka inomhus hör ingen att det ringer om mobilen är på ljudlös, urladdad eller i ett annat rum. Med en kabelansluten dörrklocka kan den gamla mekaniska klockan ofta sitta kvar, medan vissa elektroniska klockor kräver en modul från tillverkaren. Annars kan du sätta en trådlös klocka av samma märke i ett vägguttag, och en högtalare med Alexa eller Google Home kan meddela att någon står vid dörren.",
+      },
+    ],
+    us: [
+      {
+        question: "Can I get a video doorbell that works without a subscription?",
+        answer: "Yes: choose one that records locally to a microSD card or a home base, as several Eufy, Reolink and TP-Link Tapo doorbells do. Without a plan, Ring and most Arlo models still show live video and send alerts but don't save recordings, and Google Nest keeps only a short free event history. Do the math before you buy: over three to five years, a monthly plan often costs more than the doorbell itself.",
+      },
+      {
+        question: "Can my video doorbell record the street or my neighbor's house?",
+        answer: "Aim it at your own doorstep and walkway, not at your neighbor's door or windows. Privacy rules vary by state and city, and recording audio is often more restricted than recording video, so check what applies where you live. Most doorbells let you black out areas with privacy masking and limit motion zones to your own property, which keeps you on the safe side and also cuts down on pointless alerts.",
+      },
+      {
+        question: "Wired or battery video doorbell: which is better?",
+        answer: "Go wired if you already have a wired doorbell with a transformer: no recharging, and it responds faster to motion. If no wiring reaches the door, a battery model is simpler. Battery life drops with heavy foot traffic and in cold weather, so expect to recharge more often in winter. Check the voltage your doorbell needs, often 8 to 24 V AC: an undersized transformer causes reboots, and replacing it means working on household wiring, so call a licensed electrician.",
+      },
+      {
+        question: "Can I install a video doorbell if I rent or live in an apartment?",
+        answer: "Usually yes with a battery model, but check your lease and ask your landlord before drilling into the door frame. In an apartment building, the hallway is a common area, so building management or the condo association may have rules, and a camera aimed down a shared hallway records your neighbors coming and going. A peephole camera that fits into your door, or a no-drill mounting bracket, lets you take the doorbell down without leaving holes when you move out.",
+      },
+      {
+        question: "Why is my video doorbell battery draining so fast?",
+        answer: "Usually because it's triggered too often: every motion event wakes the camera and the Wi-Fi radio, which uses most of the charge. Narrow the motion zones to your doorstep, lower the sensitivity, shorten the clip length and check the Wi-Fi signal, since a weak connection makes the radio work harder. Cold weather also cuts battery capacity, so expect shorter battery life over the winter; if your door has existing doorbell wiring, connect it to trickle-charge the battery.",
+      },
+    ],
+    ca: [
+      {
+        question: "Can I get a video doorbell that works without a subscription?",
+        answer: "Yes: choose one that records locally to a microSD card or a home base, as several Eufy, Reolink and TP-Link Tapo doorbells do. Without a plan, Ring and most Arlo models still show live video and send alerts but don't save recordings, and Google Nest keeps only a short free event history. Do the math before buying: over three to five years, a monthly plan often costs more than the doorbell itself.",
+      },
+      {
+        question: "Is it legal for my video doorbell to film the street or my neighbour's house?",
+        answer: "Filming your own doorstep is generally fine; the trouble starts when the camera captures more than your property, such as the sidewalk, the street or a neighbour's windows and yard. Privacy rules vary by jurisdiction, so check what applies where you live. Whatever the rules, limit the field of view, use privacy masking to block out neighbouring property and turn off audio recording if you don't need it. In the UK, for example, a 2021 court ruling found that a homeowner's cameras, including a Ring doorbell, breached data protection law by capturing a neighbour's property and conversations.",
+      },
+      {
+        question: "Wired or battery video doorbell: which is better?",
+        answer: "Go wired if there's already a wired doorbell with a transformer; otherwise a battery model is simpler, especially if your home only has a plug-in wireless chime. Battery life drops with heavy foot traffic and in cold weather, so expect to recharge more often in winter. Check the voltage your doorbell needs, often 8 to 24 V AC: installing a new transformer means working on household wiring, so hire a licensed electrician.",
+      },
+      {
+        question: "Can I install a video doorbell if I rent or live in an apartment?",
+        answer: "Usually yes for a battery model, but check your lease and ask your landlord before drilling into the door frame. In an apartment or condo building, the hallway is a common area, so the condo board or property manager may have rules, and a camera looking along a shared hallway raises the same privacy concerns as one facing the street. No-drill mounting brackets let you remove the doorbell without leaving holes.",
+      },
+      {
+        question: "Why is my video doorbell battery draining so quickly?",
+        answer: "Usually because it is triggered too often: every motion event wakes the camera and the Wi-Fi radio, which uses most of the charge. Narrow the motion zones to your doorstep, lower the sensitivity, shorten clip length and check the Wi-Fi signal, since a weak connection makes the radio work harder. Cold weather also cuts battery capacity, so expect shorter life over winter; if bell wiring is available, connect it to trickle-charge the battery.",
+      },
+    ],
   },
   "cameras-interieur": {
     fr: [
@@ -101,6 +167,72 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       { question: "Ile prądu zużywa kamera wewnętrzna działająca całą dobę?", answer: "Bardzo mało: kamera Wi-Fi do wnętrz pobiera zwykle kilka watów, co daje kilkadziesiąt kWh rocznie. Przykład: 3 W × 24 h × 365 dni to około 26 kWh na rok; aby poznać koszt, pomnóż wynik przez cenę 1 kWh z rachunku za prąd. Dokładny pobór mocy producent podaje w danych technicznych kamery." },
       { question: "Kamera Wi-Fi czy niania elektroniczna: co lepsze do pokoju dziecka?", answer: "Do pokoju dziecka pewniejsza jest niania elektroniczna z własnym monitorem, bo działa bez internetu i bez aplikacji. Kamera Wi-Fi daje podgląd z dowolnego miejsca i nagrania, ale zależy od domowej sieci i serwerów producenta. Jeśli wybierzesz kamerę, szukaj modelu z trybem nocnym bez świecącej diody, czujnikiem temperatury i powiadomieniami o płaczu." },
       { question: "Dlaczego kamera przestała nagrywać na kartę microSD?", answer: "Zwykle karta jest pełna i nie ma włączonego nadpisywania, jest źle sformatowana albo zużyła się od ciągłego zapisu. Warto włączyć nagrywanie w pętli, sformatować kartę w aplikacji i wybrać kartę typu endurance, przeznaczoną do monitoringu, o pojemności nie większej, niż dopuszcza producent. Przy powtarzających się błędach kartę należy wymienić, bo zapis przez całą dobę stopniowo ją zużywa." },
+    ],
+    sv: [
+      {
+        question: "Fast eller motoriserad inomhuskamera för att hålla koll på husdjuret?",
+        answer: "För ett husdjur är en motoriserad kamera bäst: den vrider sig 360° och har tvåvägsljud och djurigenkänning. Den följer hunden eller katten från den ena änden av ett öppet rum till den andra, och djurigenkänningen gör att du slipper notiser för varje reflex. En fast vidvinkelkamera räcker för en hall eller en korridor. Är djuret ensamt länge är en varning vid skall eller jamande mer användbar än en godisautomat.",
+      },
+      {
+        question: "Vilka inomhuskameror fungerar utan abonnemang?",
+        answer: "Välj en kamera som spelar in på microSD-kort, som de flesta inomhuskameror från TP-Link Tapo, Eufy och Reolink, så betalar du ingenting per månad. Ring och Arlo visar direktbild utan abonnemang men kräver ett för att spara klipp, och Google Nest sparar bara en kort historik gratis. Vill du ha en kopia utanför kameran ifall den blir stulen är ett abonnemang eller en NAS i hemnätverket det säkrare valet.",
+      },
+      {
+        question: "Hur undviker jag att inomhuskameran blir hackad?",
+        answer: "Slå på tvåstegsverifiering för kontot i appen och använd ett lösenord som du inte använder någon annanstans. Installera firmwareuppdateringarna, byt standardlösenordet på IP-kameror och välj en modell med fysisk lucka eller sekretessläge som stänger av kameran när du är hemma. Ett separat gästnätverk för smarta prylar ger ett extra skydd, och var försiktig med kameror utan märke som kräver att du öppnar portar i routern.",
+      },
+      {
+        question: "Varför spelar kameran inte längre in på microSD-kortet?",
+        answer: "Oftast är kortet fullt utan automatisk överskrivning, felformaterat eller utslitet av den ständiga skrivningen. Slå på loopinspelning, formatera kortet i appen och välj ett ”endurance”-kort som är gjort för kameraövervakning, utan att gå över den maxkapacitet som tillverkaren anger. Ett kort som skriver dag och natt slits till slut ut: byt det så fort samma felmeddelande kommer tillbaka.",
+      },
+      {
+        question: "Hur mycket el drar en inomhuskamera som är igång dygnet runt?",
+        answer: "Väldigt lite: en vanlig inomhuskamera med wifi drar några watt. Exempel: 3 W × 24 timmar × 365 dagar ger ca 26 kWh per år, alltså ca 70 kr med ett exempelpris på 2,75 kr/kWh. Kontrollera effekten i produktbladet och multiplicera med ditt eget elpris, som står på elräkningen.",
+      },
+    ],
+    us: [
+      {
+        question: "Which indoor cameras work without a monthly subscription?",
+        answer: "Pick one that records to a microSD card, as most TP-Link Tapo, Eufy and Reolink indoor cameras do, and you pay nothing per month. Ring and Arlo indoor cameras show live view without a plan but need one to save clips, and Google Nest keeps only a short free event history. If you want an off-site copy in case the camera is stolen, a cloud plan or a NAS on your home network is the safer bet.",
+      },
+      {
+        question: "Is it legal to record a nanny, house cleaner or roommate with an indoor camera?",
+        answer: "Recording video inside your own home is generally allowed, but laws vary by state, so tell anyone you employ or who lives with you where the cameras are and why. Keep cameras out of bathrooms and out of any room where a roommate or live-in nanny sleeps: secretly recording people in places like these can be a crime. Recording audio is more tightly restricted than video in many states, so turn the microphone off unless you really need it.",
+      },
+      {
+        question: "Pan-and-tilt or fixed indoor camera: which is better?",
+        answer: "Pan-and-tilt is better for open-concept rooms or keeping an eye on pets; a fixed wide-angle camera is simpler and more discreet for a hallway or front door. Pan-and-tilt models can track movement and often have a privacy mode that turns the lens toward the wall when you're home. Fixed cameras have no moving parts to wear out. For a small apartment, one well-placed fixed camera covering the entrance is often enough.",
+      },
+      {
+        question: "How much does it cost to run an indoor camera 24/7?",
+        answer: "Very little: a typical indoor Wi-Fi camera draws a few watts, so it costs a few dollars a year to run. For example, 3 W × 24 hours × 365 days = about 26 kWh a year; at an example rate of 20 cents per kWh, that's roughly $5.25. Check the rated power on the spec sheet and multiply by the rate on your own utility bill.",
+      },
+      {
+        question: "How do I keep my indoor camera from being hacked?",
+        answer: "Turn on two-factor authentication in the camera app and use a password you don't use anywhere else, because leaked passwords are a well-known way into camera accounts. Keep the firmware updated, change any default password, choose a camera with a physical shutter or privacy mode, and avoid unbranded cameras that ask you to open ports on your router. Putting your smart-home devices on a guest Wi-Fi network adds one more barrier.",
+      },
+    ],
+    ca: [
+      {
+        question: "Which indoor cameras work without a monthly subscription?",
+        answer: "Pick one that records to a microSD card, as most TP-Link Tapo, Eufy and Reolink indoor cameras do, and you pay nothing per month. Ring and Arlo indoor cameras show live view without a plan but need one to save clips, and Google Nest keeps only a short free event history. If you want an off-site copy in case the camera is stolen, a plan or a NAS on your home network is the safer option.",
+      },
+      {
+        question: "Is it legal to film a nanny, house cleaner or roommate with an indoor camera?",
+        answer: "Filming inside your own home is generally lawful, but anyone you employ or who lives with you should be told where the cameras are and why. Keep cameras out of bathrooms and out of any room where a roommate or live-in nanny sleeps: secretly recording people in such private places can be a criminal offence. Recording audio is more intrusive than video, so turn the microphone off unless you really need it.",
+      },
+      {
+        question: "Pan-and-tilt or fixed indoor camera: which is better?",
+        answer: "Pan-and-tilt is better for open-concept rooms or following pets; a fixed wide-angle camera is simpler and more discreet for a hallway or front door. Pan-and-tilt models can track movement and often have a privacy mode that turns the lens to face the wall when you're home. Fixed cameras have no moving parts to wear out. For a small apartment, one well-placed fixed camera covering the entrance is often enough.",
+      },
+      {
+        question: "How much does it cost to run an indoor camera 24/7?",
+        answer: "Very little: a typical indoor Wi-Fi camera draws a few watts, so it costs a few dollars a year to run. For example, 3 W × 24 hours × 365 days = about 26 kWh a year; at an example rate of 10¢ per kWh, that's roughly $2.60. Check the rated power on the spec sheet and multiply by the rate per kWh on your own electricity bill.",
+      },
+      {
+        question: "How do I stop my indoor camera from being hacked?",
+        answer: "Turn on two-factor authentication in the camera app and use a password you don't use anywhere else, because leaked passwords are a well-known route into camera accounts. Keep the firmware updated, choose a camera with a physical shutter or privacy mode, and avoid unbranded cameras that ask you to open ports on your router. If the camera came with a default password such as “admin”, change it right away, and consider putting smart devices on a separate guest Wi-Fi network.",
+      },
     ],
   },
   "cameras-exterieur": {
@@ -153,6 +285,72 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       { question: "Kamera PoE czy Wi-Fi – co wybrać do domu jednorodzinnego?", answer: "Przy domu jednorodzinnym najpewniejsze są kamery PoE, bo jeden przewód sieciowy zapewnia zasilanie i transmisję, bez zakłóceń Wi-Fi. Kamery Wi-Fi łatwiej zamontować, ale sygnał przez ocieplone ściany i na końcu działki bywa słaby. Przewody najlepiej rozprowadzić na etapie budowy lub remontu elewacji. Kamery PoE z rejestratorem NVR nagrywają w trybie ciągłym i bez abonamentu." },
       { question: "Dlaczego kamera zewnętrzna w nocy pokazuje biały lub rozmyty obraz?", answer: "Najczęściej podczerwień odbija się od pobliskiej ściany, rynny lub pajęczyny przed obiektywem. Kamerę warto przestawić tak, by nic nie znajdowało się tuż przed nią, a szybkę oczyścić z kurzu i pajęczyn. Jeśli kamera stoi za szybą okienną, podczerwień odbija się od szkła, więc trzeba wyłączyć diody IR. Skroplona para wewnątrz obudowy oznacza nieszczelność – najlepiej zgłosić ją w ramach gwarancji." },
     ],
+    sv: [
+      {
+        question: "Behöver en utomhuskamera abonnemang?",
+        answer: "Nej, inte om den spelar in lokalt, på microSD-kort, en basstation eller en nätverksinspelare (NVR): det gör många modeller från Reolink, Eufy och TP-Link Tapo. Ring, Arlo och Google Nest kräver ett månadsabonnemang för videohistoriken, eller för att den ska sparas längre. Lokal lagring har en nackdel: rycks kameran ner följer kortet med. En NVR som står gömd inomhus eller en kopia på en NAS löser det problemet.",
+      },
+      {
+        question: "Utomhuskamera med batteri, solpanel eller kabel: vad ska jag välja?",
+        answer: "En kabelansluten kamera, via elnätet eller PoE (ström och data i samma nätverkskabel), är säkrast för kontinuerlig inspelning; batteri med en liten solpanel passar där ingen kabel når fram. En batteridriven kamera spelar bara in när den känner av rörelse, med en kort fördröjning när den vaknar. I soliga lägen räcker solpanelen ofta, men på vintern eller på en norrvägg hänger den inte alltid med: räkna med att ladda för hand då och då.",
+      },
+      {
+        question: "Vilken upplösning och vilket mörkerseende behöver en utomhuskamera?",
+        answer: "Sikta på minst 2K (4 megapixel) för att känna igen ett ansikte på några meters avstånd, och mörkerseende i färg med strålkastare om du vill både avskräcka och kunna identifiera. Svartvitt infrarött mörkerseende når längre och är diskret. På mer än några meters avstånd hjälper bara optisk zoom på riktigt, inte fler megapixel. Kontrollera också kapslingsklassen: minst IP65, och IP66 för en fasad som utsätts för regn eller saltstänk.",
+      },
+      {
+        question: "Klarar en utomhuskamera regn och minusgrader?",
+        answer: "Ja, om den har minst kapslingsklass IP65, men IP66 eller IP67 är bättre på utsatta väggar som får slagregn. Kontrollera också den angivna drifttemperaturen: batterimodeller laddar dåligt under fryspunkten. Montera kameran under ett takutsprång så att regnet inte når linsen, eftersom vattendroppar gör mörkerseendet suddigt och kan ge falsklarm.",
+      },
+      {
+        question: "Varför skickar utomhuskameran notiser i onödan?",
+        answer: "Falsklarmen kommer oftast från enkel rörelseavkänning som reagerar på grenar, billyktor, regn eller insekter som lockas av det infraröda ljuset på natten. Slå på person- och fordonsigenkänning, begränsa zonerna till din uppfart, sänk känsligheten och undvik att rikta kameran mot en häck som rör sig i vinden. En spindelväv framför objektivet räcker för att ge notiser hela natten: rengör det regelbundet.",
+      },
+    ],
+    us: [
+      {
+        question: "Which outdoor security cameras work with no subscription?",
+        answer: "Cameras that record locally, to a microSD card, a home base or a network video recorder (NVR), work with no subscription; Reolink, Eufy and TP-Link Tapo all sell models like this. Ring, Arlo and Google Nest keep video history behind a monthly plan. The trade-off with local storage is theft: if someone rips the camera off the wall, the card goes with it. An NVR hidden indoors keeps the footage safe.",
+      },
+      {
+        question: "Can my outdoor camera record the street or my neighbor's yard?",
+        answer: "Keep it aimed at your own driveway, yard and front door, and use privacy masks to black out anything beyond your property line, especially a neighbor's windows or backyard. Privacy rules vary by state and city, and audio recording is often more restricted than video, so check what applies where you live. A tight field of view also cuts false alerts from passing cars and people on the sidewalk.",
+      },
+      {
+        question: "Battery, solar or wired: which outdoor camera power option is best?",
+        answer: "Wired, either plug-in or PoE, is best for 24/7 recording; battery cameras with a solar panel suit spots no cable can reach. Battery cameras only record on motion and wake up with a short delay. In midwinter, or on a north-facing wall, a small solar panel may not keep up, so expect the occasional manual recharge. PoE runs power and data over one network cable, which makes sense during a renovation.",
+      },
+      {
+        question: "Will an outdoor camera hold up to rain and freezing weather?",
+        answer: "Yes, if it carries at least an IP65 rating, though IP66 or IP67 is better for exposed walls that take driving rain. Check the rated operating temperature too, especially if your winters get very cold: battery models charge poorly below freezing (32°F). Mount the camera under an eave or soffit to keep rain off the lens, since water droplets blur night vision and can trigger false alerts.",
+      },
+      {
+        question: "Why does my outdoor camera keep sending false motion alerts?",
+        answer: "Most false alerts come from basic motion detection reacting to swaying branches, headlights, rain or insects drawn to the infrared light at night. Turn on person and vehicle detection, draw activity zones that leave out the street, lower the sensitivity and avoid aiming at hedges. Clear cobwebs from around the lens regularly: a single strand moving in the breeze can trigger alerts all night.",
+      },
+    ],
+    ca: [
+      {
+        question: "Which outdoor security cameras work with no subscription?",
+        answer: "Cameras that record locally, to a microSD card, a home base or a network video recorder (NVR), work with no subscription; Reolink, Eufy and TP-Link Tapo all sell such models. Ring, Arlo and Google Nest keep video history behind a monthly plan. The trade-off with local storage is theft: if someone pulls the camera off the wall, the card goes with it. An NVR hidden indoors keeps the footage safe.",
+      },
+      {
+        question: "Do I need a sign if my outdoor camera covers the street?",
+        answer: "It's a good idea: a clear sign tells people they're being recorded and deters intruders. Privacy rules for cameras that capture public space or a neighbour's property vary by jurisdiction, so check what applies where you live. In any case, have a good reason for covering that area and keep footage only as long as you need it. If you can angle or mask the view to stay within your property line, most of these concerns fall away.",
+      },
+      {
+        question: "Battery, solar or wired: which outdoor camera power option is best?",
+        answer: "Wired, either plugged in or PoE, is best for 24/7 recording; battery cameras with a solar panel suit spots where no cable can reach. Battery cameras only record on motion and wake with a short delay. In midwinter, with short days, low sun and the odd layer of snow, a small solar panel may not keep up, especially on a north-facing wall, so expect the occasional manual recharge. PoE runs power and data over one network cable, which suits a renovation.",
+      },
+      {
+        question: "Will an outdoor camera handle rain, snow and freezing cold?",
+        answer: "Yes, if it carries at least an IP65 rating, though IP66 or IP67 is better for exposed walls facing driving rain. Check the stated operating temperature too: a cold winter can drop below the minimum some cameras are rated for, and battery models charge poorly below freezing. Mount the camera under an eave or soffit to keep rain and snow off the lens, as water droplets blur night vision and can trigger false alerts.",
+      },
+      {
+        question: "Why does my outdoor camera keep sending false motion alerts?",
+        answer: "Most false alerts come from basic motion detection reacting to swaying branches, headlights, rain or insects drawn to the infrared light at night. Turn on person and vehicle detection, draw activity zones that leave out the road, lower the sensitivity and avoid pointing at hedges. Clear cobwebs from around the lens regularly: a single strand moving in the breeze can trigger alerts all night.",
+      },
+    ],
   },
   "serrures-connectees": {
     fr: [
@@ -203,6 +401,72 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       { question: "Zamek z klawiaturą, odciskiem palca czy aplikacją: co wybrać?", answer: "Dla rodziny najwygodniejsza jest klawiatura: nie trzeba mieć przy sobie telefonu, a osobie sprzątającej czy gościom można nadać tymczasowy kod. Czytnik linii papilarnych działa szybko, ale bywa zawodny przy mokrych lub zmarzniętych palcach, dlatego najlepiej, gdy zamek ma też klawiaturę. Sama aplikacja wystarczy osobom, które zawsze noszą telefon przy sobie. Niezależnie od wyboru zadbaj o zapasowy klucz lub awaryjne zasilanie na wypadek rozładowania baterii." },
       { question: "Jak długo działają baterie w inteligentnym zamku?", answer: "Od kilku miesięcy do mniej więcej roku, zależnie od tego, jak często otwierasz drzwi i czy zamek jest stale połączony z Wi-Fi. Modele łączące się tylko przez Bluetooth albo przez mostek Thread zwykle działają dłużej niż zamki z wbudowanym Wi-Fi. Aplikacja z wyprzedzeniem ostrzega o słabych bateriach, a zamki z klawiaturą często mają od zewnątrz awaryjne styki na baterię 9 V lub złącze USB." },
       { question: "Czy w wynajmowanym mieszkaniu można zamontować inteligentny zamek?", answer: "Tak, jeśli zamek montuje się od środka na istniejącej wkładce, bez wiercenia: przy wyprowadzce zdejmiesz go bez śladu. Wymianę wkładki uzgodnij z właścicielem, a oryginalną zachowaj, żeby założyć ją z powrotem przy zwrocie mieszkania. Przy wynajmie krótkoterminowym zamek z kodami czasowymi pozwala gościom zameldować się samodzielnie, bez przekazywania kluczy." },
+    ],
+    sv: [
+      {
+        question: "Smart lås med Bluetooth eller wifi: vad är skillnaden?",
+        answer: "Med Bluetooth går låset bara att öppna när mobilen är i närheten; med wifi eller en brygga kan du också låsa upp och se om dörren är låst på distans. Bluetooth sliter mindre på batterierna och är inte beroende av internet. Med wifi eller en Matter/Thread-brygga kan du skicka tillfälliga koder på distans, se historiken i realtid och koppla låset till Alexa, Google Home eller Apple Home, men batterierna räcker kortare tid.",
+      },
+      {
+        question: "Knappsats, fingeravtryck eller app: vilket sätt att låsa upp är bäst?",
+        answer: "För en familj är knappsats det mest praktiska: ingen mobil behövs, och du kan ge tillfälliga koder till städhjälp, hundvakt eller gäster. Fingeravtrycksläsare är snabba men kan krångla med blöta eller kalla fingrar, så välj en som också har knappsats. Lås som bara styrs med app passar den som alltid har mobilen med sig, helst med automatisk upplåsning när du kommer hem. Vad du än väljer: behåll en mekanisk nyckel eller en nödströmslösning för när batterierna tar slut.",
+      },
+      {
+        question: "Kan jag montera ett smart lås om jag hyr?",
+        answer: "Ja, om det monteras utan borrning på den befintliga låscylindern på insidan: du tar bort det när du flyttar och dörren är som förut. Om cylindern måste bytas, spara den gamla och sätt tillbaka den när du flyttar, eller lämna kvar den nya med alla nycklar, och tala om det för hyresvärden. I ett flerbostadshus kan föreningen eller hyresvärden ha regler för hur lägenhetsdörren får se ut från trapphuset: en modell som inte syns utifrån gör att du slipper diskussioner.",
+      },
+      {
+        question: "Vad händer om batterierna i det smarta låset tar slut?",
+        answer: "Du får en varning i god tid: appen signalerar låg batterinivå i flera dagar, och den mekaniska nyckeln öppnar fortfarande dörren. Beroende på användningen håller en uppsättning batterier eller ett batteripaket från några månader till ungefär ett år; ständig wifi-anslutning och många öppningar förkortar tiden. Lås med knappsats eller fingeravtryck har ofta en nödkontakt på utsidan (9 V-batteri eller USB) som ger dem ström igen: kontrollera det före köp.",
+      },
+      {
+        question: "Påverkar ett smart lås hemförsäkringen?",
+        answer: "Oftast inte, eftersom försäkringsbolaget tittar på själva låset, cylindern och låspunkterna, inte på motorn som sitter på insidan. Läs ändå stöldvillkoren i din hemförsäkring: vissa försäkringar kräver ett certifierat lås eller flera låspunkter (i Frankrike t.ex. A2P-certifiering), och många ersätter bara ett inbrott om det finns spår av inbrytning. Öppnas dörren utan spår, med en delad kod eller en stulen mobil, riskerar du alltså att stå utan ersättning.",
+      },
+    ],
+    us: [
+      {
+        question: "Will a smart lock fit my front door?",
+        answer: "It depends on the lock you already have. Retrofit smart locks such as Nuki are designed for euro-profile cylinders, the type common on European doors: they clamp onto the inside of the existing cylinder without replacing the lock. The cylinder needs to stick out slightly on the inside and have an emergency function, so a key still works from outside while the smart lock's own key stays in. Most US exterior doors use a deadbolt instead, so check that the model you pick is made for your door before you buy.",
+      },
+      {
+        question: "Does a smart lock affect my home insurance?",
+        answer: "Usually not, because insurers look at the lock itself, its cylinder or deadbolt, not the motor mounted on it. Still, read the theft section of your policy: some set requirements for the locks on exterior doors, and some only pay out for a burglary when there are signs of forced entry. Entry with a shared code or a stolen phone leaves no trace, so it may not be covered. Retrofit models that turn your existing key leave the original lock in place, which avoids most problems.",
+      },
+      {
+        question: "Can I install a smart lock if I rent?",
+        answer: "Usually only with your landlord's permission, since many leases forbid changing or adding locks without consent. A retrofit model that mounts on the inside of the existing lock, with no drilling, is the easiest to get approved, because it comes off without a trace when you move out. If the cylinder or deadbolt has to be replaced, keep the original to put back later and give your landlord a key to the new one.",
+      },
+      {
+        question: "Keypad, fingerprint or app: which smart lock entry method is best?",
+        answer: "For a family, a keypad is the most practical: no phone needed, and you can give temporary codes to house cleaners, dog walkers or guests. Fingerprint readers are fast but can struggle with wet or cold fingers, so pick one that also has a keypad. App-only locks suit people who always carry a phone, ideally with auto-unlock as you arrive. Whatever you choose, keep a mechanical key or an emergency power option for when the batteries die.",
+      },
+      {
+        question: "How long do smart lock batteries last?",
+        answer: "Anywhere from a few months to around a year, depending on how often the door is used and whether the lock stays connected over Wi-Fi. Bluetooth-only locks, or those using a Thread or Zigbee bridge, generally last longer than models with built-in Wi-Fi. The app warns you when the batteries run low, and keypad models often have emergency contacts for a 9-volt battery or USB power from outside. Rechargeable packs are convenient, but a spare avoids downtime while one charges.",
+      },
+    ],
+    ca: [
+      {
+        question: "Will a smart lock fit a door with a euro cylinder?",
+        answer: "Usually yes: retrofit smart locks such as Nuki clamp onto the inside of a euro cylinder, the lock type found on many European doors. Most Canadian exterior doors use a deadbolt instead, so check that the model you're considering is made for your type of lock. On a euro cylinder, check that it sticks out enough on the inside and has an emergency function, so a key still works from outside while the lock's own key stays in. On many multi-point doors you must lift the handle before the key will turn, which a retrofit lock can't do, so check compatibility first.",
+      },
+      {
+        question: "Does a smart lock affect my home insurance?",
+        answer: "It can: some home insurance policies set requirements for the locks on exterior doors, such as a deadbolt or multi-point locking, and a smart lock on its own may not match that wording. Check your policy's security conditions before replacing anything. Retrofit models that turn your existing key leave the insured lock in place, which avoids the problem. Also check whether theft without forced entry is covered, since entry with a shared code leaves no trace.",
+      },
+      {
+        question: "Can I install a smart lock if I'm renting?",
+        answer: "Usually only with your landlord's permission, as many leases forbid changing or adding locks without consent. A retrofit model that clamps onto the inside of the existing lock, with no drilling, is the easiest to agree on, because it comes off without a trace when you move out. If the lock itself has to change, keep the original to put back later and give the landlord a key to the new one.",
+      },
+      {
+        question: "Keypad, fingerprint or app: which smart lock entry method is best?",
+        answer: "For a family, a keypad is the most practical: no phone needed, and you can give temporary codes to cleaners, dog walkers or guests. Fingerprint readers are quick but can struggle with wet or cold fingers, so pick one that also has a keypad. App-only locks suit people who always carry a phone, ideally with auto-unlock as you arrive. Whatever you choose, keep a mechanical key or an emergency power option for when the batteries die.",
+      },
+      {
+        question: "How long do smart lock batteries last?",
+        answer: "Expect anywhere from a few months to around a year, depending on how often the door is used and whether the lock stays connected over Wi-Fi. Bluetooth-only locks, or those using a Thread or Zigbee bridge, generally last longer than models with built-in Wi-Fi. The app warns you when batteries run low, and keypad models often have emergency contacts for a 9 V battery or USB power from outside. Rechargeable packs are convenient, but a spare avoids downtime while one charges.",
+      },
     ],
   },
   "alarmes": {
@@ -255,6 +519,72 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       { question: "Co się dzieje z alarmem, gdy zabraknie prądu albo internetu?", answer: "Dobry system działa dalej: centrala ma akumulator awaryjny, a gdy przestaje działać Wi-Fi, wysyła powiadomienia przez sieć komórkową. Przed zakupem sprawdź, czy system wykrywa zagłuszanie i sabotaż, czy szyfruje komunikację i jak długo działa na akumulatorze. Włamywacz może wyłączyć bezpieczniki albo router, dlatego zapasowa łączność GSM lub LTE jest tu kluczowa." },
       { question: "Dlaczego alarm włącza się bez powodu?", answer: "Zwykle winny jest źle umieszczony czujnik ruchu, zwierzę albo słaba bateria w którymś z czujników. Nie montuj czujników ruchu nad grzejnikami ani naprzeciw nasłonecznionych okien i ustaw odpowiednią czułość, a jeśli masz psa lub kota, wybierz modele odporne na zwierzęta. Który czujnik wywołał alarm, sprawdzisz w historii zdarzeń w aplikacji. Zimą przyczyną bywają też drzwi tarasowe, które na mrozie „pracują” i odsuwają się od kontaktronu." },
     ],
+    sv: [
+      {
+        question: "Hemlarm med eller utan abonnemang: vad ska jag välja?",
+        answer: "Utan abonnemang varnar larmet dig i mobilen och det är du som får agera; med larmcentral verifieras larmet av personal som skickar en väktare eller kontaktar polisen. Att övervaka själv räcker för en lägenhet eller ett hus där någon snabbt kan reagera. En larmcentral kostar varje månad och är värd pengarna om du ofta är borta eller om ditt försäkringsbolag kräver det. Vissa hemlarm utan abonnemang erbjuder bevakning via larmcentral utan bindningstid, som du kan slå på inför semestern.",
+      },
+      {
+        question: "Kräver försäkringsbolaget ett certifierat hemlarm?",
+        answer: "Inte för ett vanligt hem, men vissa försäkringsbolag kräver det, eller ger rabatt, när du försäkrar föremål av stort värde. En certifiering som den franska NF&A2P, i tre nivåer, visar att utrustningen står emot sabotage och störsändning. Många smarta hemlarm för konsumenter är inte certifierade: be ditt försäkringsbolag om kraven skriftligt innan du köper, särskilt om försäkringen har ett tak för smycken eller konst.",
+      },
+      {
+        question: "Hur många sensorer behöver ett hemlarm?",
+        answer: "Räkna med en magnetkontakt på varje ytterdörr och en rörelsesensor för varje passage på bottenvåningen. Exempel för ett enplanshus: magnetkontakter på entrédörren, dörren till garaget och altandörren, två rörelsesensorer i vardagsrummet och hallen och en siren inomhus. Lägg till en utomhussiren om huset ligger avskilt och, om du har husdjur, husdjursimmuna sensorer anpassade efter djurets vikt.",
+      },
+      {
+        question: "Kan ett trådlöst hemlarm störas ut?",
+        answer: "Ja, en störsändare kan slå ut ett enkelt trådlöst larm, men bra system upptäcker störningen och larmar. Kontrollera att systemet varnar vid störning och när kontakten med en sensor bryts, att kommunikationen är krypterad och att det har en reservanslutning, med 4G-SIM-kort och batteri, om routern eller strömmen slås ut. Det är just det som den franska certifieringen NF&A2P kontrollerar.",
+      },
+      {
+        question: "Varför löser hemlarmet ut utan anledning?",
+        answer: "Falsklarm beror oftast på en felplacerad rörelsesensor, ett husdjur eller ett svagt batteri i en sensor. Placera sensorerna en bit från element, soliga fönster och gardiner som rör sig, justera känsligheten och använd husdjursimmuna modeller om du har katt eller hund. Titta i appens historik för att hitta sensorn som löste ut. En dörr som slår sig när luftfuktigheten ändras kan också flytta en magnetkontakt ur läge.",
+      },
+    ],
+    us: [
+      {
+        question: "Home security system with or without a monthly fee: which should I choose?",
+        answer: "Without a subscription, the system alerts your phone and it's up to you to act, calling 911 if you see signs of a break-in. With professional monitoring, a monitoring center verifies the alarm and contacts the police. Self-monitoring is enough for an apartment or a house where someone can react quickly. Professional monitoring, paid monthly, makes sense if you're often away or your insurer requires it. Some no-fee systems let you add monitoring month to month, for example while you're on vacation.",
+      },
+      {
+        question: "Will a DIY security system lower my home insurance premium?",
+        answer: "Sometimes, but insurers vary: some give a small discount for any working alarm, while policies with high limits for valuables may require a professionally monitored system. Ask before you buy. If your policy requires an alarm, arm it whenever the home is empty, or a burglary claim could be reduced or denied. Keep the app's arming history, since it can show the alarm was set.",
+      },
+      {
+        question: "How many sensors do I need for a home security system?",
+        answer: "Start with a contact sensor on every exterior door and a motion sensor covering each main path through the first floor. For example, a three-bedroom house might use contact sensors on the front, back and sliding patio doors, motion sensors in the hallway and living room, and an outdoor siren. Add sensors to first-floor windows that are easy to reach, and choose pet-immune motion sensors if you have a dog or cat.",
+      },
+      {
+        question: "Can a wireless security system be jammed?",
+        answer: "Yes, a radio jammer can disrupt a cheap wireless system, but good systems detect jamming and send an alert. Check that the system reports jamming and lost contact with its sensors, encrypts its communications and has a backup connection, such as a 4G cellular link plus a backup battery, in case your internet or power goes out. Look for these features on the spec sheet before you buy.",
+      },
+      {
+        question: "Why does my home alarm keep going off for no reason?",
+        answer: "False alarms usually come from a badly placed motion sensor, a pet or a low battery in one of the sensors. Keep motion sensors away from heating vents, radiators, sunny windows and moving curtains, use pet-immune models and check the app's event log to see which sensor triggered. Replace low batteries promptly. A door that swells or shifts with humidity can also pull a contact sensor out of line, so check its alignment.",
+      },
+    ],
+    ca: [
+      {
+        question: "Is a home alarm system with no monthly fee worth it?",
+        answer: "Yes, if someone can react to phone alerts. A self-monitored alarm alerts you and scares intruders off with its siren, but no one checks the alert on your behalf: you call 911 if you see evidence of a break-in. With professional monitoring, a monitoring centre checks each alarm and contacts emergency services when needed, for a monthly fee. Some DIY systems let you add professional monitoring later, month by month.",
+      },
+      {
+        question: "Will a DIY alarm lower my home insurance premium?",
+        answer: "Sometimes, but insurers vary: some give a small discount for any working alarm, while policies with high coverage limits for contents may require a monitored system installed by an approved company. Ask before you buy. If your policy contains an alarm condition, you must arm the alarm whenever the home is empty, or a burglary claim could be reduced or refused. Keep the app's arming history, as it can show the alarm was set.",
+      },
+      {
+        question: "How many sensors do I need for a home alarm?",
+        answer: "Start with a contact sensor on every exterior door and a motion sensor covering each main route through the main floor. As an example, a three-bedroom semi-detached house might use contact sensors on the front, back and patio doors, motion sensors in the front hall and living room, and an outdoor siren. Add sensors to accessible main-floor and basement windows, and choose pet-friendly PIR sensors if you have a dog or cat.",
+      },
+      {
+        question: "Will switching from a landline to internet phone service affect my home alarm?",
+        answer: "It can, if your alarm or its monitoring still relies on a traditional landline dialer: once your phone line moves to internet (VoIP) service, an older dialer may no longer get through reliably. Modern self-monitored alarms that use Wi-Fi or a 4G SIM backup aren't affected. If your system calls a monitoring centre or your phone over a landline, ask your provider to move it to a cellular or dual-path connection, such as internet plus 4G, before you change your phone service.",
+      },
+      {
+        question: "Why does my house alarm go off for no reason?",
+        answer: "False alarms usually come from a badly placed motion sensor, a pet, or a low battery in one of the sensors. Keep PIR sensors away from heating vents, heaters, sunny windows and moving curtains, use pet-friendly models and check the app's event log to see which sensor triggered. Replace low batteries promptly. On a monitored system, repeated false alarms waste the time of the monitoring centre and emergency services, so fix the cause quickly.",
+      },
+    ],
   },
   "detecteurs-fumee-co": {
     fr: [
@@ -303,8 +633,74 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       { question: "Czy czujnik czadu jest obowiązkowy w mieszkaniu?", answer: "Tak, w pomieszczeniach, w których spala się paliwo stałe, ciekłe lub gazowe: w nowych mieszkaniach i domach od 23 grudnia 2024 roku, a w już użytkowanych od 1 stycznia 2030 roku. Wynika to z rozporządzenia MSWiA z 21 listopada 2024 roku (Dz.U. 2024 poz. 1716). Wymóg nie dotyczy pomieszczeń, w których jest tylko kuchenka gazowa lub urządzenie z zamkniętą komorą spalania. Czujnik musi spełniać normę PN-EN 50291-1, a przy piecyku gazowym w łazience czy kotle węglowym warto zamontować go od razu, nie czekając na termin." },
       { question: "Czy czujnik dymu jest obowiązkowy w mieszkaniu?", answer: "Tak. Zgodnie z rozporządzeniem MSWiA z 2024 roku w każdym lokalu mieszkalnym musi być co najmniej jeden autonomiczny czujnik dymu (w przepisach: czujka dymu) zgodny z normą PN-EN 14604. Obowiązek dotyczy nowych lokali od 23 grudnia 2024 roku, lokali już użytkowanych od 1 stycznia 2030 roku, a lokali wynajmowanych krótkoterminowo w ramach usług hotelarskich od 30 czerwca 2026 roku. Czujnik montuje się na suficie, najlepiej w korytarzu przy sypialniach, z dala od kuchni i łazienki." },
       { question: "Czujnik czadu a czujnik dymu: czym się różnią?", answer: "To dwa różne urządzenia: czujnik dymu wykrywa pożar, a czujnik czadu wykrywa tlenek węgla, którego nie widać i nie czuć. Czad powstaje przy niepełnym spalaniu w piecykach gazowych, kotłach węglowych czy kominkach, często bez żadnego dymu. Dlatego tam, gdzie pracuje urządzenie spalające paliwo, potrzebne są oba albo czujnik 2 w 1 (dymu i czadu). Czujnik czadu montuje się w tym samym pomieszczeniu co urządzenie, zgodnie z instrukcją producenta." },
-      { question: "Jak często wymieniać czujnik czadu?", answer: "Zwykle po 5–10 latach, w terminie podanym przez producenta, bo sensor elektrochemiczny z czasem traci czułość. Większość modeli sygnalizuje koniec żywotności osobnym dźwiękiem lub komunikatem na wyświetlaczu. Raz w miesiącu naciśnij przycisk testowy, a baterię wymieniaj, gdy czujnik zgłasza jej rozładowanie. Czujnik dymu wymienia się zwykle po około 10 latach." },
+      { question: "Jak często wymieniać czujnik czadu?", answer: "Zwykle po 5–10 latach, w terminie podanym przez producenta, bo sensor elektrochemiczny z czasem traci czułość. Większość modeli sygnalizuje koniec żywotności osobnym dźwiękiem lub komunikatem na wyświetlaczu. Raz w miesiącu sprawdź alarm przyciskiem kontrolnym, a baterię wymieniaj, gdy czujnik zgłasza jej rozładowanie. Czujnik dymu wymienia się zwykle po około 10 latach." },
       { question: "Dlaczego czujnik czadu piszczy, choć w domu nic się nie dzieje?", answer: "Krótkie, regularne piknięcia zwykle oznaczają słabą baterię lub koniec żywotności czujnika, a nie obecność czadu. Alarm czadu jest głośny i ciągły: wtedy trzeba otworzyć okna, wyłączyć urządzenia grzewcze, wyjść z mieszkania i zadzwonić pod 112. Przy pojedynczych piknięciach warto zajrzeć do instrukcji, bo wiele czujników pokazuje na wyświetlaczu kod błędu lub stężenie CO w ppm." },
+    ],
+    sv: [
+      {
+        question: "Smart eller vanlig brandvarnare: vilken ska jag välja?",
+        answer: "En vanlig brandvarnare enligt EN 14604 gör grundjobbet; en smart brandvarnare ger dessutom notiser i mobilen när du inte är hemma och kan kopplas ihop med de andra varnarna. Sammankopplade brandvarnare larmar alla så fort en av dem känner av rök, vilket är viktigt i ett hus i flera plan, där ett larm på bottenvåningen inte hörs i sovrummen. Kontrollera att den smarta modellen verkligen är certifierad enligt EN 14604.",
+      },
+      {
+        question: "Behöver jag en koloxidvarnare?",
+        answer: "Ja, en koloxidvarnare rekommenderas starkt om du har en panna, kamin, öppen spis eller varmvattenberedare som förbränner bränsle. Välj en modell som uppfyller EN 50291 och placera den i samma rum som apparaten, enligt bruksanvisningen. Den ersätter varken regelbunden service av pannan eller sotning av rökkanalerna, som förebygger riskerna redan vid källan.",
+      },
+      {
+        question: "Var ska koloxidvarnaren sitta?",
+        answer: "I samma rum som pannan, kaminen eller någon annan apparat som förbränner bränsle, ungefär 1–3 meter från den. Montera den högt på väggen eller i taket enligt bruksanvisningen, en bit från fönster, ventiler och köksfläktar. Det är också klokt att sätta en i sovrum som en rökkanal går igenom.",
+      },
+      {
+        question: "Hur länge håller en brandvarnare?",
+        answer: "Byt den efter 10 år, eller vid det datum tillverkaren anger, eftersom sensorn åldras även om varnaren fortfarande larmar. Med ett förseglat 10-årsbatteri slipper du byta batteri; med utbytbart batteri byter du det så fort varnaren piper med jämna mellanrum. Tryck på kontrollknappen en gång i månaden och dammsug gallret enligt bruksanvisningen.",
+      },
+      {
+        question: "Varför piper brandvarnaren?",
+        answer: "Ett kort pip med 30–60 sekunders mellanrum betyder nästan alltid att batteriet är svagt; ett ihållande larm betyder rök, ånga eller damm i detektorkammaren. Byt batteri, eller hela varnaren om batteriet är förseglat. Löser den ut när du lagar mat eller efter en dusch, flytta den längre från köket och badrummet. Vissa modeller ger också en särskild signal när de har nått slutet av sin livslängd på 10 år.",
+      },
+    ],
+    us: [
+      {
+        question: "Are smoke and carbon monoxide alarms required by law?",
+        answer: "Requirements are set by states and local codes, and they often differ for homeowners and landlords, so check what applies to your home; if you rent, ask your landlord who installs and maintains the alarms. Whatever the rules, put a smoke alarm on the ceiling, ideally in the hallway outside the bedrooms. A CO alarm is strongly recommended if you have a furnace, boiler, water heater, fireplace or stove that burns fuel.",
+      },
+      {
+        question: "Interconnected or standalone smoke alarms: which do I need?",
+        answer: "Interconnected alarms are better in any home with more than one floor, because they all sound as soon as one detects smoke, so you hear a downstairs alarm from the bedrooms. Wireless interconnected alarms with sealed 10-year batteries avoid rewiring. Smart alarms add phone alerts when you're out. European models are certified to EN 14604 for smoke or EN 50291 for carbon monoxide; in the US, smoke alarms are listed to UL 217 and CO alarms to UL 2034, so check the listing of the version sold in your country.",
+      },
+      {
+        question: "Where should I put a carbon monoxide alarm?",
+        answer: "Follow the instructions that come with the alarm, since manufacturers specify the distance from the appliance and the mounting height. As a rule, it goes in the room with the furnace, boiler, fireplace, stove or other fuel-burning appliance, away from windows, vents and exhaust fans. Adding one near the bedrooms is wise, so it wakes you at night. A CO alarm doesn't replace a yearly inspection of your heating equipment by a qualified technician or regular chimney cleaning.",
+      },
+      {
+        question: "How often should smoke alarms be replaced?",
+        answer: "Replace smoke alarms every 10 years, or by the date printed on them, because the sensor degrades even if the alarm still sounds. CO alarms typically last 5 to 10 years and give an end-of-life warning. Once a month, hold down each alarm's button until it sounds, vacuum dust from the vents and, on hardwired alarms with a backup battery, replace that battery when it chirps. Models with a sealed 10-year battery skip battery changes altogether.",
+      },
+      {
+        question: "Why is my smoke alarm chirping?",
+        answer: "A single chirp every 30 to 60 seconds almost always means a low battery or, on sealed units, that the alarm has reached the end of its life. Replace the battery or the whole alarm. If it goes off while you're cooking or after a shower, move it farther from the kitchen or bathroom, or install a heat alarm in the kitchen instead. Hardwired alarms that chirp after a power outage may just need resetting with the hush button.",
+      },
+    ],
+    ca: [
+      {
+        question: "Are smoke and carbon monoxide alarms a legal requirement?",
+        answer: "Rules are set by each province and territory, so check the requirements where you live, including who has to install and maintain alarms in a rental home. Whatever the local rules, the safe approach is a smoke alarm on every storey and outside sleeping areas, plus a CO alarm near the bedrooms if your home has a fuel-burning appliance, such as a gas furnace, boiler, water heater, wood stove or fireplace, or an attached garage. Look for a ULC or CSA mark on any alarm you buy.",
+      },
+      {
+        question: "Interconnected or standalone smoke alarms: which do I need?",
+        answer: "Interconnected alarms are better in any home with more than one storey, because they all sound as soon as one detects smoke. Check whether your province or territory requires them; either way, they're worth having. Wireless interconnected alarms with sealed 10-year batteries avoid rewiring. Smart alarms add phone alerts when you're out, but check the certification: look for a ULC or CSA mark, while European models list EN 14604 for smoke or EN 50291 for carbon monoxide.",
+      },
+      {
+        question: "Where should I put a carbon monoxide alarm?",
+        answer: "Put it in the same room as the gas furnace, boiler, water heater, wood stove, fireplace or other fuel-burning appliance, roughly 1 to 3 metres away from it. Mount it high on a wall or on the ceiling as the instructions specify, away from windows, vents, range hoods and exhaust fans. Adding one outside the bedrooms is sensible, especially if a flue runs through them. A CO alarm doesn't replace an annual service of your furnace or boiler by a qualified technician.",
+      },
+      {
+        question: "How often should smoke alarms be replaced?",
+        answer: "Replace smoke alarms every 10 years, or by the date printed on them, because the sensor degrades even if the alarm still sounds. CO alarms typically last 5 to 10 years and give an end-of-life warning. Once a month, hold down each alarm's button until it sounds, vacuum dust from the vents and, on hardwired alarms with a backup battery, replace that battery when it chirps. Write the installation date on each alarm so you know when it's due.",
+      },
+      {
+        question: "Why is my smoke alarm chirping?",
+        answer: "A single chirp every 30 to 60 seconds almost always means a low battery or, on sealed units, that the alarm has reached the end of its life. Replace the battery or the whole alarm. If it goes off while cooking or after a shower, move it farther from the kitchen or bathroom, or install a heat alarm in the kitchen instead. Hardwired alarms that chirp after a power outage may simply need resetting with the hush button.",
+      },
     ],
   },
   "detecteurs-mouvement": {
@@ -357,6 +753,72 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       { question: "Czy kot lub pies uruchomi alarm z czujnikiem ruchu?", answer: "Zwykły czujnik ruchu tak, ale czujnik odporny na zwierzęta ignoruje je do masy podanej przez producenta. Zamontuj go na zalecanej wysokości i nie kieruj na schody, kanapę ani parapet: kot, który wskoczy wyżej, wygląda dla czujnika jak człowiek. Przy dużym psie lepiej korzystać z trybu nocnego, w którym czuwają tylko czujniki otwarcia drzwi i okien." },
       { question: "Czy czujnik ruchu pomaga oszczędzać prąd?", answer: "Trochę: dzięki niemu światło w korytarzu, na schodach i w toalecie nie pali się niepotrzebnie, ale efekt zależy od nawyków domowników. Przykład: trzy żarówki LED po 8 W, które świecą niepotrzebnie 4 godziny dziennie, zużywają 96 Wh na dobę, czyli około 35 kWh rocznie; wynik pomnóż przez cenę 1 kWh ze swojej umowy. Większe oszczędności daje czujnik obecności połączony z inteligentnymi głowicami termostatycznymi, który obniża temperaturę w pustych pokojach." },
     ],
+    sv: [
+      {
+        question: "Rörelsesensor eller närvarosensor: vad är skillnaden?",
+        answer: "En infraröd rörelsesensor (PIR) känner av förflyttningar; en närvarosensor med millimetervågsradar (mmWave) känner också av en person som sitter still eller sover. För att tända ljuset i en hall eller utlösa ett larm räcker PIR, som dessutom håller länge på batteri. För att hålla ljuset tänt på ett kontor eller i ett badrum så länge någon är där väljer du en närvarosensor med mmWave, som oftast drivs via vägguttag eller USB.",
+      },
+      {
+        question: "Behöver en smart rörelsesensor en hubb?",
+        answer: "Ja för Zigbee-, Z-Wave- och Thread-modeller, som går via en hubb; nej för wifi-modeller, som ansluter direkt till routern. Sensorer med hubb drar mycket mindre ström och reagerar snabbare. Som hubb fungerar till exempel Home Assistant, Homey, tillverkarnas egna hubbar eller vissa Amazon Echo-högtalare med inbyggd Zigbee. Med Matter via Thread fungerar samma sensor med Apple Home, Google Home och Alexa.",
+      },
+      {
+        question: "Hur länge räcker batteriet i en smart rörelsesensor?",
+        answer: "Tillverkarna anger ofta ett till två år för en Zigbee- eller Thread-sensor med knappcellsbatteri, och betydligt kortare för en wifi-modell. Batteritiden blir kortare i en hall där många passerar, i kylan i ett garage eller ett förråd, eller om sensorn också rapporterar ljus och temperatur med några minuters mellanrum. Appen visar batterinivån: byt batteri vid 10–20 % så att sensorn inte tystnar utan förvarning.",
+      },
+      {
+        question: "Fungerar en rörelsesensor om jag har katt eller hund?",
+        answer: "Ja, om du väljer en husdjursimmun modell som ignorerar djur upp till den vikt tillverkaren anger. Montera den på den höjd som bruksanvisningen anger och rikta den inte mot en trappa, en soffa eller en fönsterbräda: en katt som sitter högt upp ser ut som en människa för sensorn. För belysning gör det inget om djuret tänder lampan; för ett larm är det en vanlig orsak till falsklarm.",
+      },
+      {
+        question: "Kan en rörelsesensor sänka elräkningen?",
+        answer: "Lite, särskilt i hallar, toaletter och trappor där ljuset ofta lämnas tänt av misstag; hur mycket beror på dina vanor. Exempel: tre LED-lampor på 8 W som glöms tända 4 timmar om dagen förbrukar 96 Wh per dag, ungefär 35 kWh per år. Multiplicera med ditt elpris för att få kostnaden. Kopplad till smarta elelement eller smarta elementtermostater kan en närvarosensor också sänka värmen i ett tomt rum, vilket sparar ännu mer.",
+      },
+    ],
+    us: [
+      {
+        question: "PIR or mmWave presence sensor: which should I buy?",
+        answer: "Buy a PIR motion sensor for hallways, lighting and alarms; choose an mmWave presence sensor when you need to detect someone sitting still, such as in a home office or bathroom. PIR sensors only react to movement and heat changes, run for a long time on a coin cell and cost little. mmWave radar picks up tiny movements such as breathing, so the lights don't switch off on you, but most need plug-in or USB power and can be fooled by fans or moving curtains.",
+      },
+      {
+        question: "Do smart motion sensors need a hub?",
+        answer: "Zigbee, Z-Wave and Thread sensors need a hub or bridge, while Wi-Fi sensors connect straight to your router. Hub-based sensors use far less power and respond faster. Common choices include brand hubs such as Philips Hue or SmartThings, Home Assistant, and Amazon Echo speakers with built-in Zigbee. Matter over Thread lets a single sensor work with Apple Home, Google Home and Alexa.",
+      },
+      {
+        question: "Will pet-immune motion sensors stop my dog from setting off the alarm?",
+        answer: "Usually, if your dog is under the sensor's rated weight limit and the sensor is mounted at the height the manufacturer specifies. Avoid aiming it at stairs, sofas or windowsills, since a cat climbing up looks like a person to the sensor. With a large dog, use the home or night mode most security systems offer, so only the door and window sensors stay armed downstairs.",
+      },
+      {
+        question: "How long do motion sensor batteries last?",
+        answer: "Manufacturers usually quote one to two years for Zigbee or Thread sensors on a coin cell, and much less for Wi-Fi models. Busy hallways, cold garages and sensors that also report light levels every few minutes drain batteries faster. Check battery levels in your app and replace them at around 10% to 20%, so a sensor doesn't go quiet without warning.",
+      },
+      {
+        question: "Can motion sensors cut my electric bill?",
+        answer: "Yes, a little: they keep lights from being left on in hallways, stairways and bathrooms, though the savings depend on your habits. For example, three 8 W LED bulbs left on an extra 4 hours a day use 96 Wh a day, about 35 kWh a year, or roughly $7 at an example rate of 20 cents per kWh (check the rate on your utility bill). Paired with smart radiator valves or smart space heaters, a presence sensor can also turn the heat down in empty rooms, which usually saves far more than lighting.",
+      },
+    ],
+    ca: [
+      {
+        question: "PIR or mmWave presence sensor: which should I buy?",
+        answer: "Buy a PIR motion sensor for hallways, lighting and alarms; choose an mmWave presence sensor when you need to detect someone sitting still, such as in a home office or bathroom. PIR sensors only react to movement and heat changes, run for a long time on a coin cell and cost little. mmWave radar picks up tiny movements such as breathing, so lights don't switch off on you, but most need plug-in or USB power and can be fooled by fans or moving curtains.",
+      },
+      {
+        question: "Do smart motion sensors need a hub?",
+        answer: "Zigbee, Z-Wave and Thread sensors need a hub or bridge, while Wi-Fi sensors connect straight to your router. Hub-based sensors use far less power and respond faster. Common choices include Philips Hue, SmartThings, Home Assistant and Amazon Echo speakers with built-in Zigbee. Matter over Thread lets a single sensor work with Apple Home, Google Home and Alexa.",
+      },
+      {
+        question: "Will pet-friendly PIR sensors stop my dog from setting off the alarm?",
+        answer: "Usually, if your dog is under the sensor's rated weight limit and the sensor is mounted at the height the manufacturer specifies. Avoid aiming it at stairs, sofas or windowsills, as a cat climbing up looks like a person to the sensor. With a large dog, use the stay or night mode most alarm systems offer, so only door and window contacts stay armed downstairs.",
+      },
+      {
+        question: "How long do motion sensor batteries last?",
+        answer: "Manufacturers usually quote one to two years for Zigbee or Thread sensors on a coin cell, and much less for Wi-Fi models. Busy hallways, cold garages and sensors that also report light levels every few minutes drain batteries faster. Check battery levels in your app and replace them at around 10% to 20%, so a sensor doesn't go quiet without warning.",
+      },
+      {
+        question: "Can motion sensors cut my electricity bill?",
+        answer: "Yes, a little: they stop lights from being left on in hallways, stairways and bathrooms, though the saving depends on your habits. For example, three 8 W LED bulbs left on for an extra 4 hours a day use 96 Wh a day, about 35 kWh a year, or roughly $3.50 at an example rate of 10¢ per kWh. Paired with smart heating controls, a presence sensor can also turn the heat down in empty rooms, which usually saves far more than lighting.",
+      },
+    ],
   },
   "trackers-objets": {
     fr: [
@@ -407,6 +869,72 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       { question: "Czy można legalnie śledzić kogoś lokalizatorem?", answer: "Nie. Potajemne śledzenie innej osoby może zostać uznane za uporczywe nękanie, czyli stalking z art. 190a Kodeksu karnego. Lokalizatory są przeznaczone do rzeczy, nie do ludzi. Od 2024 roku iPhone i Android ostrzegają, gdy obcy lokalizator przemieszcza się razem z Tobą: można wtedy odtworzyć na nim dźwięk, odnaleźć go i wyjąć baterię. Jeśli coś Ci grozi, zgłoś się na policję; po numerze seryjnym można ustalić właściciela urządzenia." },
       { question: "Czy lokalizator wymaga abonamentu?", answer: "Lokalizatory Bluetooth, takie jak AirTag czy SmartTag, działają bez abonamentu, natomiast lokalizatory GPS z kartą SIM wymagają opłat za transmisję danych. W przypadku Bluetooth jedynym kosztem jest bateria, zwykle CR2032, wymieniana mniej więcej raz w roku. Przy GPS dochodzi karta SIM lub abonament producenta, dlatego przed zakupem warto porównać opłaty." },
       { question: "Dlaczego lokalizator nie aktualizuje pozycji?", answer: "Zwykle bateria jest rozładowana albo w pobliżu nie było telefonu z tej samej sieci, który mógłby przekazać pozycję. Lokalizatory Bluetooth nie mają GPS, więc na działce, w piwnicy czy na wsi ostatnia znana pozycja może pochodzić sprzed kilku godzin. Wymień baterię, uważając na baterie z gorzką powłoką, których część lokalizatorów nie wykrywa, i sprawdź w telefonie uprawnienia do Bluetooth i lokalizacji." },
+    ],
+    sv: [
+      {
+        question: "AirTag, SmartTag eller Tile: vilken spårare passar min mobil?",
+        answer: "Välj efter mobilen: AirTag till iPhone, Galaxy SmartTag till Samsung Galaxy och en spårare för Googles nätverk Find Hub till andra Android-mobiler. Varje spårare använder mobilerna i sitt eget ekosystem för att rapportera var den finns när du är långt borta: ju tätare nätverk, desto exaktare position. Tile fungerar med både iPhone och Android men har ett mindre nätverk. Vissa spårare kan ställas in för antingen Apples eller Googles nätverk.",
+      },
+      {
+        question: "Hur märker jag om någon spårar mig med en AirTag?",
+        answer: "Sedan 2024 varnar både iPhone och Android när en okänd spårare förflyttar sig tillsammans med dig: då kan du få den att spela upp ett ljud, leta rätt på den och ta ur batteriet. Spårare är gjorda för att hitta saker, inte för att följa människor i smyg. Är du osäker, behåll spåraren och gör en polisanmälan: med serienumret går det att identifiera ägaren.",
+      },
+      {
+        question: "Kan en spårare hjälpa mig att hitta en stulen cykel?",
+        answer: "Ja, den kan hjälpa om den är väl gömd, i ramen eller under sadeln, men det är ingen garanti. En tjuv med iPhone eller Android får till slut en varning om en okänd spårare; en GPS-spårare för cykel med SIM-kort är mer diskret men kräver abonnemang. Hämta inte tillbaka cykeln själv: ge positionen till polisen tillsammans med cykelns ramnummer.",
+      },
+      {
+        question: "Kräver en spårare abonnemang?",
+        answer: "Nej, Bluetooth-spårare som AirTag, SmartTag och spårare för Googles nätverk fungerar utan abonnemang; bara GPS-spårare med SIM-kort kräver ett. Driftkostnaden är bara batteriet, oftast en CR2032-knappcell som byts ungefär en gång om året. Tile erbjuder betalda tillval, som en varning när du glömmer något, men den grundläggande sökfunktionen är gratis. För att följa en bil eller ett husdjur i realtid behövs en GPS-spårare med abonnemang.",
+      },
+      {
+        question: "Varför visar spåraren inte längre var den är?",
+        answer: "Oftast är batteriet slut eller så har ingen kompatibel mobil passerat tillräckligt nära för att rapportera positionen. En Bluetooth-spårare har ingen GPS: på landet eller i en källare kan den senaste positionen vara flera timmar gammal. Byt batteri, och undvik knappceller med bitter beläggning om tillverkaren avråder från dem, kontrollera att Bluetooth och platstjänster är påslagna i mobilen och att spåraren inte har återställts.",
+      },
+    ],
+    us: [
+      {
+        question: "Which item tracker should I get for an iPhone or an Android phone?",
+        answer: "Match it to your phone: AirTag for iPhone, Galaxy SmartTag for Samsung Galaxy phones and a tracker built for Google's Find Hub network for other Android phones. Each relies on its own network of nearby phones to update its location when you're far away, so the denser the network, the better. Tile works on both platforms but has a smaller network. Some trackers can be set up on either Apple's or Google's network, which suits households that use both.",
+      },
+      {
+        question: "Is it illegal to put an AirTag on someone's car or bag?",
+        answer: "Yes: secretly tracking a person can amount to stalking or harassment, which are crimes. Trackers are meant for finding things, not people. Since 2024, iPhones and Android phones alert people when an unknown tracker is traveling with them, so covert use is quickly discovered. If you get an alert, play a sound to find the tracker, note its serial number and contact the police if you feel unsafe (call 911 in an emergency): the serial number can help identify the owner.",
+      },
+      {
+        question: "Can an AirTag help recover a stolen car?",
+        answer: "It can help, but it's no substitute for a dedicated car tracker: thieves with a phone may get an alert about it, and Bluetooth trackers only update when phones pass nearby. Hide it well and never confront the thieves yourself; give the location to the police. For real-time tracking, a GPS tracker with a SIM card and a subscription is more reliable.",
+      },
+      {
+        question: "Do item trackers need a subscription?",
+        answer: "No: Bluetooth trackers such as AirTag, SmartTag and Google network tags work without one; only GPS trackers with a SIM card charge a monthly fee. The only running cost is the battery, often a CR2032 coin cell replaced about once a year. Tile sells optional premium features, such as alerts when you leave something behind, but basic finding stays free.",
+      },
+      {
+        question: "Why isn't my tracker updating its location?",
+        answer: "Usually the battery is dead, or no compatible phone has passed close enough to report it. Bluetooth trackers have no GPS, so in rural areas or a basement the last location can be hours old. Replace the battery, avoiding coin cells with a bitter coating if your tracker's maker warns against them, check Bluetooth and location permissions on your phone, and make sure the tracker hasn't been reset or removed from your account.",
+      },
+    ],
+    ca: [
+      {
+        question: "Which item tracker should I get for an iPhone or an Android phone?",
+        answer: "Match it to your phone: AirTag for iPhone, Galaxy SmartTag for Samsung Galaxy phones, and a tracker built for Google's Find Hub network for other Android phones. Each relies on its own network of nearby phones to update its location when you are far away, so the denser the network, the better. Tile works on both platforms but has a smaller network. Some trackers can be set up on either Apple's or Google's network, which suits households with both.",
+      },
+      {
+        question: "Is it illegal to put an AirTag on someone's car or bag?",
+        answer: "Yes, secretly tracking a person can amount to stalking or harassment, which can be criminal offences. Since 2024, iPhones and Android phones alert people when an unknown tracker is travelling with them, so covert use is quickly discovered. If you get an alert, play a sound to find the tracker, note its serial number and contact the police if you feel unsafe: the serial number can help identify the owner.",
+      },
+      {
+        question: "Can an AirTag help recover a stolen car?",
+        answer: "It can help, but it is no substitute for a proper car tracker: thieves with a phone may be alerted to it, and Bluetooth trackers only update when phones pass nearby. Hide it well and never confront thieves yourself; give the location to the police. For real-time tracking, a GPS tracker with a SIM card and subscription is more reliable, and some insurers recognize approved tracking systems on high-value cars.",
+      },
+      {
+        question: "Do item trackers need a subscription?",
+        answer: "No: Bluetooth trackers such as AirTag, SmartTag and Google network tags work without one; only GPS trackers with a SIM card charge a monthly fee. Running costs are just the battery, often a CR2032 coin cell replaced roughly once a year. Tile sells optional premium features, such as alerts when you leave something behind, but basic finding stays free.",
+      },
+      {
+        question: "Why isn't my tracker updating its location?",
+        answer: "Usually the battery is dead, or no compatible phone has passed close enough to report it. Bluetooth trackers have no GPS, so in rural areas or a basement the last location can be hours old. Replace the battery, avoiding coin cells with a bitter coating if your tracker's maker warns against them, check Bluetooth and location permissions on your phone, and make sure the tracker hasn't been reset or removed from your account.",
+      },
     ],
   },
   "interphones": {
@@ -459,6 +987,72 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       { question: "Czy wideodomofon z aplikacją wymaga abonamentu?", answer: "Zwykle nie: u wielu producentów odbieranie połączeń na telefonie i otwieranie z aplikacji są bezpłatne, choć za nagrania w chmurze trzeba czasem zapłacić. Przed zakupem sprawdź, które funkcje działają bez opłat, zwłaszcza historia odwiedzin i liczba użytkowników. Monitory, które zapisują zdjęcia lub nagrania na karcie microSD, nie wiążą się ze stałymi kosztami." },
       { question: "Dlaczego wideodomofon nie pokazuje obrazu?", answer: "Najczęściej winne jest okablowanie: utlenione zaciski w panelu zewnętrznym, zbyt długi lub niewłaściwy przewód albo słaby zasilacz. Sprawdź zaciski panelu przy furtce, narażone na wilgoć i mróz, i porównaj długość przewodu z maksymalną długością podaną przez producenta. W systemach IP sprawdź też sieć przy furtce. Nocą obraz poprawiają dodatkowe oświetlenie wejścia i czysta szybka kamery." },
     ],
+    sv: [
+      {
+        question: "Kan jag byta porttelefonen i lägenheten mot en smart modell?",
+        answer: "Ja, svarsapparaten inne i lägenheten, förutsatt att den är kompatibel med husets system; panelen vid entrén tillhör föreningen eller fastighetsägaren. Notera märke och modell på din nuvarande svarsapparat: många system, till exempel från Urmet, Comelit, Aiphone eller Legrand, accepterar bara en svarsapparat ur samma serie. Annars kan en modul som Nuki Opener kopplas till många befintliga svarsapparater och skicka samtalen vidare till mobilen.",
+      },
+      {
+        question: "Videoporttelefon med kabel eller wifi till villan?",
+        answer: "Finns det redan en kabel mellan grinden och huset är en tvåtrådsporttelefon fortfarande säkrast; en IP- eller wifi-modell låter dig dessutom svara från mobilen. Tvåtrådssystemet skickar bild, ljud och ström genom den gamla ringklockskabeln, utan att vara beroende av wifi. Wifi måste nå ända ut till grinden, ofta flera tiotals meter bort: då är en nätverkskabel med PoE eller en wifi-brygga för utomhusbruk ett bättre val. Många satser kombinerar en kabelansluten skärm med vidarekoppling av samtal till mobilen.",
+      },
+      {
+        question: "Kan videoporttelefonen öppna grinden och ett elslutbleck?",
+        answer: "Ja, de flesta videoporttelefoner kan styra ett elslutbleck och en motoriserad grind, så länge slutbleckets spänning och motorns kontakttyp stämmer. Ett slutbleck för arbetsström går ofta på 12 V, som porttelefonens nätdel måste kunna ge, medan en grindmotor oftast kräver en potentialfri kontakt. Om du låser upp på distans via appen, välj ett slutbleck som låser igen så fort dörren stängs.",
+      },
+      {
+        question: "Varför är bilden i videoporttelefonen dålig eller borta?",
+        answer: "Oftast är det ett kabelproblem: en oxiderad kopplingsplint i panelen vid entrén, en för lång eller olämplig kabel eller för svag strömförsörjning. Kontrollera plintarna i utomhuspanelen, som utsätts för fukt, och jämför kabellängden med den maxlängd tillverkaren anger för din kabelarea. På en IP-porttelefon kontrollerar du nätverket vid grinden. Är bilden dålig på natten, belys entrén och rengör kamerans glas.",
+      },
+      {
+        question: "Kräver en smart videoporttelefon abonnemang?",
+        answer: "För grundfunktionerna oftast inte: samtal till mobilen och fjärröppning av dörren brukar vara gratis, men molninspelning av besökare kan kosta extra. Kontrollera före köp vad som fungerar utan abonnemang, särskilt besökshistorik och antal användare. System som ringer de boendes mobiler via ett 4G-SIM-kort, som finns i vissa flerbostadshus, har en månadsavgift som fastighetsägaren eller föreningen betalar.",
+      },
+    ],
+    us: [
+      {
+        question: "IP video intercom or a traditional 2-wire system: which should I choose?",
+        answer: "For a house, a 2-wire system is the most reliable if a cable already runs between the gate and the front door; an IP intercom adds full control from your phone. Two-wire kits send video, audio and power over the existing doorbell cable without relying on Wi-Fi. IP intercoms need a solid network connection at the gate, ideally a PoE cable or an outdoor Wi-Fi bridge on a long driveway. Many hybrid kits pair a wired indoor screen with call forwarding to an app.",
+      },
+      {
+        question: "Can I replace the intercom handset in my apartment?",
+        answer: "Usually yes, as long as the new indoor unit is compatible with the building's system; the entry panel at the street door belongs to the building owner or condo association. Note the make and model of your current handset, since many apartment buildings use systems from brands such as Aiphone or Comelit that only accept matching units. Alternatively, an adapter such as Ring Intercom or Nuki Opener connects to many existing handsets and sends calls to your phone. Check your lease before changing any wiring.",
+      },
+      {
+        question: "Can a video intercom open my gate and electric door lock?",
+        answer: "Yes, most video intercoms can trigger an electric strike or maglock and a motorized gate, as long as the voltages and contact types match. An electric strike typically needs 12 V, which the intercom's power supply must provide, while gate openers usually expect a dry contact. If you unlock remotely from the app, choose a strike that relocks automatically once the door shuts.",
+      },
+      {
+        question: "Does a smart video intercom need a subscription?",
+        answer: "Usually not for the basics: calls to your phone and remote door opening are typically free, but cloud recording of visitors may cost extra. Check what works without a plan before you buy, especially visitor history and the number of users. Building intercoms that ring residents' cell phones over a 4G SIM, found in some apartment buildings, carry a monthly fee paid by the building owner or management company.",
+      },
+      {
+        question: "Why is my video intercom picture poor or missing?",
+        answer: "Most picture problems come from the wiring: corroded terminals at the outdoor panel, a cable run that's too long for the system or a weak power supply. Check the outdoor panel's terminals for moisture, and compare the cable length with the manufacturer's maximum for your wire gauge. For IP intercoms, check the network signal at the gate. Poor night images often improve with better lighting at the entrance and a clean camera window.",
+      },
+    ],
+    ca: [
+      {
+        question: "IP video intercom or a traditional 2-wire system: which should I choose?",
+        answer: "For a house, a 2-wire system is the most reliable if a cable already runs between gate and front door; an IP intercom adds full control from your phone. 2-wire kits send video, audio and power over the existing doorbell cable without relying on Wi-Fi. IP intercoms need a solid network connection at the gate, ideally a PoE cable or an outdoor Wi-Fi bridge on a long driveway. Many hybrid kits pair a wired indoor screen with app call forwarding.",
+      },
+      {
+        question: "Can I replace the intercom handset in my apartment?",
+        answer: "Usually yes, as long as the new indoor unit is compatible with the building's system; the entrance panel belongs to the building and is managed by the condo board or property manager. Note the make and model of your current handset, as many buildings use systems from brands such as Videx, BPT or Comelit that only accept matching units. Alternatively, an adapter such as Ring Intercom or Nuki Opener connects to many existing handsets and sends calls to your phone. Check your lease or condo rules before altering any wiring.",
+      },
+      {
+        question: "Can a video intercom open my gate and electric door lock?",
+        answer: "Yes, most video intercoms can trigger an electric strike or maglock and a motorized gate, provided the voltages and contact types match. An electric strike typically needs 12 V, which the intercom's power supply must provide, while gate motors usually expect a dry contact. If you unlock remotely from the app, choose a strike that relocks automatically once the door shuts.",
+      },
+      {
+        question: "Does a smart video intercom need a subscription?",
+        answer: "Usually not for the basics: calls to your phone and remote door opening are typically free, but cloud recording of visitors may cost extra. Check what works without a plan before buying, especially visitor history and the number of users. Systems that call residents' cellphones over a 4G SIM, found in some apartment buildings, carry a monthly fee paid by the building owner or condo corporation.",
+      },
+      {
+        question: "Why is my video intercom picture poor or missing?",
+        answer: "Most picture problems come from wiring: corroded terminals at the outdoor panel, a cable run that is too long for the system, or a weak power supply. Check the outdoor panel's terminals for moisture, and compare the cable length with the manufacturer's maximum for your cable type. For IP intercoms, check the network signal at the gate. Poor night images often improve with better lighting at the entrance and a clean camera window.",
+      },
+    ],
   },
   "coffres-forts-connectes": {
     fr: [
@@ -509,6 +1103,72 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       { question: "Zapomniany kod do sejfu: jak go otworzyć?", answer: "Otwórz go kluczem awaryjnym dołączonym do sejfu lub kodem serwisowym producenta, a potem ustaw nowy kod użytkownika. Jeśli nie masz klucza, skontaktuj się z producentem lub sprzedawcą i podaj dowód zakupu oraz numer seryjny; często udostępniają kod albo procedurę otwarcia. Gdy klawiatura nie reaguje, najpierw wymień baterie albo podłącz zasilanie do zewnętrznych styków awaryjnych. W ostateczności sejf otworzy wyspecjalizowany ślusarz, ale zwykle przy tym go uszkodzi." },
       { question: "Sejf biometryczny czy szyfrowy: który jest pewniejszy?", answer: "W codziennym użytkowaniu pewniejszy jest zamek szyfrowy. Czytnik linii papilarnych działa szybciej, ale bywa zawodny przy suchych, mokrych lub skaleczonych palcach. Jeśli wybierasz model biometryczny, niech ma też kod lub klucz awaryjny; zapisz po kilka palców każdej osoby i wymieniaj baterie przy pierwszym ostrzeżeniu. W inteligentnym sejfie powinna być możliwość wyłączenia zdalnego otwierania, a aplikacja przydaje się głównie do powiadomień o otwarciu i wstrząsach." },
       { question: "Czy inteligentny sejf potrzebuje Wi-Fi albo abonamentu?", answer: "Nie. Sejf otwiera się bez Wi-Fi i bez abonamentu, a łączność służy tylko do powiadomień o otwarciu, błędnych kodach czy próbach włamania. Większość modeli łączy się przez Bluetooth lub mostek Wi-Fi z bezpłatną aplikacją. Realny koszt to baterie, wymieniane mniej więcej raz w roku, zależnie od intensywności użytkowania. Dobrze, gdy sejf ma zewnętrzne styki awaryjne, które pozwalają zasilić klawiaturę po rozładowaniu baterii." },
+    ],
+    sv: [
+      {
+        question: "Vilken certifiering ska värdeskåpet ha för att försäkringen ska gälla?",
+        answer: "Välj ett värdeskåp certifierat enligt EN 1143-1, grad 0 eller högre, eller enligt EN 14450, klass S1 eller S2, och fråga ditt försäkringsbolag hur mycket det ersätter för den klassen. Försäkringsbolagen sätter ett tak för värdesaker per certifieringsnivå och kräver ofta att skåpet är förankrat i golv eller vägg. Ett ocertifierat skåp, smart eller inte, stoppar bara en tillfällighetstjuv. För dokument behöver skåpet dessutom ett certifierat brandskydd enligt EN 15659 eller EN 1047-1.",
+      },
+      {
+        question: "Jag har glömt koden till värdeskåpet: hur öppnar jag det?",
+        answer: "Använd nödnyckeln som följde med skåpet eller tillverkarens masterkod och lägg sedan in en ny användarkod. Utan nyckel kontaktar du tillverkaren med kvitto och serienummer: ofta kan de ge dig en upplåsningskod eller förklara hur du går till väga. Reagerar inte knappsatsen, byt först batterierna eller använd nödkontakten på utsidan. Som sista utväg kan en låssmed som är specialiserad på värdeskåp öppna det, men skåpet skadas ofta. Förvara aldrig nödnyckeln i skåpet.",
+      },
+      {
+        question: "Värdeskåp med fingeravtryck eller kod: vilket är pålitligast?",
+        answer: "Knappsats med kod är det pålitligaste i vardagen; fingeravtryck är snabbare men kan krångla med torra, blöta eller skadade fingrar. Välj en biometrisk modell som har kod eller nyckel i reserv, registrera flera fingrar per person och byt batterierna så fort du får en varning. Har du ett smart värdeskåp, kontrollera att fjärröppningen går att stänga av: appen är främst till för varningar vid öppning och stötar.",
+      },
+      {
+        question: "Var ska värdeskåpet sitta i en lägenhet?",
+        answer: "Skruva fast det i golvet eller en bärande vägg, på ett diskret ställe som en garderob eller ett klädrum. Ställ det aldrig bara löst på golvet: ett skåp som inte är förankrat kan bäras bort i ett stycke. Kontrollera hur mycket bjälklaget tål om modellen är tung, särskilt i ett äldre hus med träbjälklag. De medföljande expanderbultarna är gjorda för betong: på en gipsvägg behöver du en annan placering. Hyr du, prata med hyresvärden innan du borrar.",
+      },
+      {
+        question: "Behöver ett smart värdeskåp wifi eller abonnemang?",
+        answer: "Nej, det går att öppna utan wifi och utan abonnemang; uppkopplingen används för notiser i mobilen vid öppning, felaktig kod eller stötar. De flesta ansluts via Bluetooth eller en wifi-brygga, med en gratis app. Den verkliga driftkostnaden är batterierna, som byts ungefär en gång om året beroende på användningen. Kontrollera att det finns en nödkontakt på utsidan som kan ge knappsatsen ström om batterierna är slut.",
+      },
+    ],
+    us: [
+      {
+        question: "What safe certification do insurers look for?",
+        answer: "In Europe, insurers usually look for a safe certified to EN 1143-1, grade 0 or above, or to EN 14450 at S1 or S2, and set a cash and valuables limit for each grade. Wherever you live, ask your insurer which ratings it recognizes and how much it will cover before you buy, and expect it to require the safe to be bolted down. Certification by a body such as ECB·S or VdS is easy to verify. An uncertified safe, smart or not, only deters opportunistic thieves.",
+      },
+      {
+        question: "What should I do if I've forgotten my safe code?",
+        answer: "Use the emergency override key that came with the safe, or the manufacturer's master code, then set a new user code. If you've lost the key, contact the manufacturer with proof of purchase and the serial number; they can often provide an override code or procedure. If the keypad is dead, replace the batteries or use the external emergency power contact first. As a last resort, a safe technician or locksmith can open it, usually with some damage. Never store the override key inside the safe.",
+      },
+      {
+        question: "Biometric or keypad safe: which is more reliable?",
+        answer: "A keypad is the more reliable everyday option; fingerprint readers are faster but can fail with dry, wet or damaged fingers. Choose a biometric safe that keeps a code or key as a backup, register several fingers per person and change the batteries when the safe warns you. On a smart safe, make sure remote unlocking can be turned off: the app is most useful for opening and tamper alerts.",
+      },
+      {
+        question: "Do smart safes need Wi-Fi or a subscription?",
+        answer: "No, they open without Wi-Fi or a subscription; the connection is there for phone alerts about openings, wrong codes or tampering. Most connect over Bluetooth or a Wi-Fi bridge with a free app. The real running cost is batteries, typically replaced about once a year depending on use. Change them at the first low-battery warning and check that the safe has an external contact for emergency power.",
+      },
+      {
+        question: "Is a fire-resistant safe enough to protect passports and documents?",
+        answer: "Only if it carries a fire rating, such as the European EN 15659 or EN 1047-1 certifications, usually for 30 or 60 minutes; an ordinary steel safe can let paper char inside. Paper ratings, such as LFS 30P under EN 15659, keep the inside cool enough for documents, while USB flash drives and hard drives need a stricter data rating under EN 1047-1. Fire-resistant boxes rarely stop burglars, so a common approach is a certified burglary safe with a small fire box inside it.",
+      },
+    ],
+    ca: [
+      {
+        question: "What safe rating do insurers look for?",
+        answer: "Requirements vary by insurer, so ask yours which ratings it recognizes and what it will cover before you buy. European safes are often certified to EN 1143-1, known as Eurograde 0 or above, or to EN 14450 at S1 or S2, and insurers that use these grades set a cash and valuables limit for each one. Expect to be asked to bolt the safe down. Certification by a body such as ECB·S or VdS is easy to check. An uncertified safe, smart or not, only deters opportunist thieves.",
+      },
+      {
+        question: "What should I do if I've forgotten my safe code?",
+        answer: "Use the emergency override key that came with the safe, or the manufacturer's master code, then set a new user code. If you've lost the key, contact the manufacturer with proof of purchase and the serial number; they can often supply an override code or procedure. If the keypad is dead, replace the batteries or use the external emergency power contact first. As a last resort, a safe technician can open it, usually with some damage. Never store the override key inside the safe.",
+      },
+      {
+        question: "Biometric or keypad safe: which is more reliable?",
+        answer: "A keypad is the more reliable everyday option; fingerprint readers are faster but can fail with dry, wet or damaged fingers. Choose a biometric safe that keeps a code or key as backup, register several fingers per person and change the batteries when warned. On a smart safe, make sure remote unlocking can be switched off: the app is most useful for opening and tamper alerts.",
+      },
+      {
+        question: "Do smart safes need Wi-Fi or a subscription?",
+        answer: "No, they open without Wi-Fi or a subscription; the connection is there for phone alerts about openings, wrong codes or tampering. Most connect over Bluetooth or a Wi-Fi bridge with a free app. The real running cost is batteries, typically replaced around once a year depending on use. Change them at the first low-battery warning and check that the safe has an external contact for emergency power.",
+      },
+      {
+        question: "Is a fire-resistant safe enough to protect passports and documents?",
+        answer: "Only if it carries a fire certification, such as the European EN 15659 or EN 1047-1 standards, usually rated for 30 or 60 minutes; an ordinary steel safe can let paper char inside. Paper ratings, such as LFS 30P under EN 15659, keep the inside cool enough for documents, while USB flash drives and hard drives need a stricter data rating under EN 1047-1. Fire-resistant boxes rarely stop burglars, so a common approach is a certified burglary safe with a small fire box inside it.",
+      },
     ],
   },
 }

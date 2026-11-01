@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
         nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
         pl: 'Duża porcja chrupiących kawałków kurczaka na ruszcie frytkownicy beztłuszczowej',
+        sv: 'En stor omgång krispiga kycklingbitar på gallret i en airfryer',
+        us: 'A large batch of crispy chicken pieces on an air fryer rack',
+        ca: 'A large batch of crispy chicken pieces on an air fryer rack',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Migliore friggitrice ad aria XXL per famiglie numerose: 5 modelli da scegliere nel 2026',
     nl: 'Beste XXL-airfryer voor grote gezinnen: 5 modellen om te kiezen in 2026',
     pl: 'Najlepsza frytkownica beztłuszczowa XXL dla dużej rodziny: 5 modeli na 2026 rok',
+    sv: 'Bästa XXL-airfryer för storfamiljer 2026: 5 modeller att satsa på',
+    us: 'Best XXL Air Fryers for Large Families: 5 Top Picks for 2026',
+    ca: 'Best Large Air Fryer for Big Families: 5 XXL Models for 2026',
   },
   excerpt: {
     fr: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone et Tefal Dual Easy Fry : quel airfryer de 8 litres et plus choisir pour nourrir 5 à 8 personnes en une fournée ?',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone e Tefal Dual Easy Fry: quale friggitrice ad aria da 8 litri in su scegliere per sfamare 5-8 persone in un’unica cottura?',
     nl: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone en Tefal Dual Easy Fry: welke airfryer van 8 liter of meer kies je om 5 tot 8 personen in één keer te voeden?',
     pl: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone i Tefal Dual Easy Fry: jaką frytkownicę beztłuszczową o pojemności od 8 litrów wybrać, żeby za jednym razem nakarmić 5–8 osób?',
+    sv: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone och Tefal Dual Easy Fry: vilken airfryer på 8 liter eller mer ska du välja för att laga mat till 5–8 personer i en enda omgång?',
+    us: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone and Tefal Dual Easy Fry: which extra-large air fryer (8.5 quarts and up) should you buy to feed 5 to 8 people in one batch?',
+    ca: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone and Tefal Dual Easy Fry: which air fryer of 8 L (8.5 qt) or more should you choose to feed 5 to 8 people in one batch?',
   },
   content: {
     fr: `<p><strong>Pour une grande famille en 2026, le meilleur airfryer XXL est le Ninja Foodi FlexDrawer 10.4L Double Zone</strong> : il fonctionne en deux zones indépendantes de 5,2 litres ou, une fois la cloison retirée, en un seul grand tiroir de 10,4 litres pour les grosses pièces. Si votre plan de travail est étroit, le Ninja Double Stack XL 9,5 L superpose ses deux tiroirs, et si vous préférez un seul grand panier connecté avec sonde de cuisson, le Philips Airfryer Combi XXL Connecté 8,3 L est l’alternative la plus complète.</p>
@@ -676,6 +685,276 @@ export const article: BlogArticle = {
 <h2>Nasz werdykt</h2>
 <p>Dla większości dużych rodzin <strong>Ninja Foodi FlexDrawer 10.4L Double Zone</strong> to najlepsza frytkownica beztłuszczowa XXL w 2026 roku: jako jedyna w zestawieniu pozwala zamienić dwie niezależne strefy w jedną dużą szufladę o pojemności 10,4 litra. Jeśli masz mało miejsca na szerokość, <strong>Ninja Double Stack XL 9,5 l</strong> mieści dwie niezależne szuflady na bardzo niewielkiej powierzchni blatu. A jeśli najczęściej przygotowujesz pieczeń i drób, a przy tym lubisz kontrolować pieczenie z telefonu, najwygodniejszym wyborem będzie <strong>Philips Airfryer Combi XXL Connected 8,3 l</strong> z wbudowaną sondą. Ninja Foodi MAX Dual Zone to wciąż pewny wybór, a Tefal Dual Easy Fry – tańsza opcja dla 4–5 osób.</p>
 <p>Jeśli chcesz porównać te modele z tradycyjnym piekarnikiem, zajrzyj do naszego poradnika <a href="/pl/guides/airfryer-vs-four">frytkownica beztłuszczowa czy piekarnik</a>.</p>`,
+    sv: `<p><strong>För en storfamilj 2026 är Ninja Foodi FlexDrawer 10.4L Dual Zone den bästa XXL-airfryern</strong>: den fungerar som två oberoende zoner på 5,2 liter eller, när mellanväggen är borttagen, som en enda stor låda på 10,4 liter för stora köttbitar. Är köksbänken smal staplar Ninja Double Stack XL 9.5L sina två lådor på höjden, och föredrar du en enda stor uppkopplad korg med stektermometer är Philips Airfryer Combi XXL Connected 8.3L det mest kompletta alternativet.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, oberoende utvärderingar och verifierade köparomdömen. Den tar bara med modeller som säljs i Europa 2026. Hela urvalet hittar du på vår sida om <a href="/sv/cuisine-connectee/airfryers">airfryrar</a>.</p>
+
+<h2>Så väljer du en XXL-airfryer</h2>
+<p>”XXL” betyder oftast 8 liter eller mer. I den storleken räcker den angivna volymen inte längre för att jämföra modellerna: hur litrarna är fördelade spelar lika stor roll som hur många de är.</p>
+<ul>
+<li><strong>En stor korg eller två lådor</strong>: med två oberoende lådor kan du laga huvudrätt och tillbehör samtidigt, med olika temperaturer. En enda stor korg passar bättre för en hel kyckling eller en stek. Ninjas FlexDrawer kombinerar båda lösningarna. Läs mer i vår artikel om <a href="/sv/blog/airfryer-simple-vs-double-panier">airfryer med en eller två korgar</a>.</li>
+<li><strong>Tillagningsyta</strong>: för pommes frites eller nuggets är det korgens bottenyta som avgör hur krispigt det blir, inte volymen. En hög och smal korg betyder att du får skaka oftare eller laga maten i två omgångar.</li>
+<li><strong>Storlek</strong>: lådor sida vid sida tar bredd (ofta mer än 40 cm), staplade lådor tar höjd. Mät köksbänken och avståndet upp till väggskåpen.</li>
+<li><strong>Synkronisering</strong>: Sync (båda lådorna blir klara samtidigt) och Match (samma inställningar i båda) är guld värda när alla ska sätta sig vid bordet på en gång.</li>
+<li><strong>Effekt och uttag</strong>: XXL-modellerna har en effekt på ungefär 2 200–2 700 W. Sätt kontakten direkt i ett vägguttag, aldrig i ett grenuttag där annat redan är inkopplat.</li>
+<li><strong>Rengöring</strong>: kontrollera att lådor och galler tål diskmaskin och att non-stick-beläggningen är lätt att torka ren. Med familjeportioner blir det nästan daglig användning.</li>
+</ul>
+
+<h2>De 5 bästa XXL-airfryrarna för storfamiljer 2026</h2>
+
+<h3>1. Ninja Foodi FlexDrawer 10.4L Dual Zone (AF500EU) – bäst totalt</h3>
+<p>FlexDrawer är den mest mångsidiga modellen i urvalet. Den enda lådan på 10,4 liter kan delas med en löstagbar mellanvägg i två zoner på 5,2 liter, var och en med egen temperatur och tid. Ta bort mellanväggen så får du <strong>MegaZone</strong>, ett enda utrymme på 10,4 liter för en stor kyckling, en stek eller en riktigt stor omgång grönsaker. Effekten är enligt tillverkaren 2 470 W, och den har sex funktioner, bland annat Air Fry och Max Crisp, plus Ninjas Sync och Match.</p>
+<p><strong>Styrkor</strong>: växlar mellan två zoner och ett stort utrymme, den största volymen i jämförelsen och mycket positiva användaromdömen om jämn tillagning.</p>
+<p><strong>Svagheter</strong>: runt 45 cm bred och över 9 kg enligt återförsäljarnas produktsidor, så den behöver en egen plats. Den ligger i premiumklassen.</p>
+<p><strong>Passar för</strong>: familjer på 5–8 personer som vill kunna laga både kompletta måltider i två zoner och stora hela köttbitar. Vår <a href="/sv/blog/test-ninja-foodi-flexdrawer">utförliga recension av Ninja FlexDrawer</a> går djupare.</p>
+
+<h3>2. Ninja Double Stack XL 9.5L (SL400EU) – bäst för smala kök</h3>
+<p>Double Stack XL bygger på samma idé med två oberoende lådor på 4,75 liter, men staplar dem på höjden i stället för sida vid sida. Resultatet är en bredd på bara cirka 28 cm för totalt 9,5 liter, med en höjd på runt 38,5 cm som är tänkt att rymmas under väggskåpen. Med de medföljande stapelbara gallren kan du laga mat på fyra nivåer samtidigt. Du får seriens sex funktioner, 2 470 W och lådor som blir klara samtidigt.</p>
+<p><strong>Styrkor</strong>: den minsta ytan på bänken av alla XXL-modeller här, två verkligt oberoende zoner och tillagning på fyra nivåer som ger mer användbar yta.</p>
+<p><strong>Svagheter</strong>: lådorna går inte att slå ihop, så det blir ingen riktigt stor köttbit i ett stycke; att laga mat på staplade galler kräver lite vana när maten ska vändas.</p>
+<p><strong>Passar för</strong>: storfamiljer med ont om bänkbredd som mest lagar mat i portionsbitar (pommes frites, filéer, grönsaker, nuggets).</p>
+
+<h3>3. Philips Airfryer Combi XXL Connected 8.3L (7000 Series) – bästa uppkopplade airfryer</h3>
+<p>Combi XXL i 7000 Series satsar på en enda stor korg på 8,3 liter, 2 200 W och wifi med appen Philips HomeID, som har automatiska program och guidade recept. Det som verkligen sticker ut är den <strong>inbyggda stektermometern</strong>: den följer innertemperaturen i kött eller fisk och avbryter tillagningen vid rätt tidpunkt. Tekniken Rapid CombiAir kombinerar värme och luftflöde för att grilla, steka eller baka som en liten ugn.</p>
+<p><strong>Styrkor</strong>: den stora korgen, stektermometern, den mest genomarbetade appen i urvalet och ett brett utbud av program.</p>
+<p><strong>Svagheter</strong>: inga två zoner, så tillbehören får lagas före eller efter huvudrätten; den är tung och ligger i toppen av prisskalan.</p>
+<p><strong>Passar för</strong>: familjer som ofta lagar stekar, hel fågel eller fisk och gillar att styra tillagningen från mobilen.</p>
+
+<h3>4. Ninja Foodi MAX Dual Zone 9.5L (AF400EU) – den beprövade klassikern</h3>
+<p>Det här är modellen som gjorde airfryrar med två lådor populära: två oberoende lådor på 4,75 liter sida vid sida, 2 470 W, sex funktioner (Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate) plus Sync och Match. Enligt Ninja rymmer en låda en kyckling på runt 2 kg. Den har sålts i flera år och har väldigt många användaromdömen, som i stort sett är mycket positiva.</p>
+<p><strong>Styrkor</strong>: väl beprövad driftsäkerhet, mycket lätt att använda, två lika stora zoner och gott om tillbehör att köpa.</p>
+<p><strong>Svagheter</strong>: tar mycket bänkbredd; lådorna går inte att slå ihop.</p>
+<p><strong>Passar för</strong>: familjer på 4–6 personer som vill ha två lådor utan onödiga extrafunktioner.</p>
+
+<h3>5. Tefal Dual Easy Fry 8.3L (EY9018) – två lådor i en lägre prisklass</h3>
+<p>Tefal Dual Easy Fry har en asymmetrisk lösning: en stor låda på 5,2 liter och en liten på 3,1 liter, totalt 8,3 liter, med pekskärm och sju program (pommes frites, kyckling, grönsaker, fisk, dessert, torkning och manuellt läge). Den lilla lådan passar för ett tillbehör eller en enskild portion, den stora för huvudrätten. De löstagbara delarna tål diskmaskin.</p>
+<p><strong>Styrkor</strong>: en lägre prisklass än modellerna från Ninja och Philips, ett märke med väletablerat servicenät i Europa och en rymlig huvudlåda.</p>
+<p><strong>Svagheter</strong>: lådan på 3,1 liter begränsar den verkliga volymen för en familj på 6 eller fler; flera köpare saknar en varmhållningsfunktion.</p>
+<p><strong>Passar för</strong>: familjer på 4–5 personer som vill ha två lådor till en snävare budget.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Volym</th><th>Utformning</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Ninja Foodi FlexDrawer 10.4L</td><td>10,4 l</td><td>1 låda, 2 zoner på 5,2 l eller MegaZone</td><td>Nej</td><td>Familjer på 5–8 personer, stora köttbitar</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>9,5 l</td><td>2 staplade lådor på 4,75 l</td><td>Nej</td><td>Smala köksbänkar</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>8,3 l</td><td>1 stor korg, inbyggd stektermometer</td><td>Wifi, appen HomeID</td><td>Stekar, fågel, fjärrstyrning</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>9,5 l</td><td>2 lådor på 4,75 l sida vid sida</td><td>Nej</td><td>Kompletta vardagsmåltider</td></tr>
+<tr><td>Tefal Dual Easy Fry EY9018</td><td>8,3 l</td><td>2 lådor, 5,2 l och 3,1 l</td><td>Nej</td><td>Snävare budget, 4–5 personer</td></tr>
+</tbody>
+</table>
+
+<h2>Vilken volym för hur många?</h2>
+<p>Volymen i liter anger hur mycket lådan rymmer, men du fyller aldrig en korg ända upp om du vill att maten ska bli krispig. I praktiken fungerar de här riktmärkena bra:</p>
+<ul>
+<li><strong>4 personer</strong>: 6–8 liter räcker; två lådor gör det lättare att servera huvudrätt och tillbehör samtidigt.</li>
+<li><strong>5–6 personer</strong>: sikta på 8–10 liter, helst fördelat på två oberoende zoner.</li>
+<li><strong>7–8 personer</strong>: en modell på runt 10 liter, som FlexDrawer, eller räkna med att laga en del av maten i två omgångar.</li>
+</ul>
+<p>För pommes frites är det korgens yta snarare än volymen som räknas: ett för tjockt lager ångkokas i stället för att få färg. Vår guide om att <a href="/sv/blog/comment-choisir-airfryer-famille">välja airfryer till hela familjen</a> går igenom riktmärkena mer i detalj.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att välja enbart efter antal liter</strong>: två lådor på 4,75 l och en korg på 8,3 l fyller olika behov. Utgå från de rätter du lagar oftast.</li>
+<li><strong>Att glömma höjden under väggskåpen</strong>: en staplad modell eller en hög korg får kanske inte plats under ett väggskåp, och den varma luften måste kunna komma ut.</li>
+<li><strong>Att överfylla korgen</strong>: den vanligaste orsaken till slappa pommes frites. Två lyckade omgångar är bättre än en misslyckad.</li>
+<li><strong>Att slarva med rengöringen</strong>: fett som samlas i lådan börjar till slut ryka. Rengör lådan efter varje stor omgång, så håller beläggningen längre.</li>
+<li><strong>Att betala för funktioner du inte använder</strong>: uppkoppling är till nytta för guidade recept eller tillagning efter innertemperatur, betydligt mindre för pommes frites och grönsaker.</li>
+</ul>
+
+<h2>Installation, användning och säkerhet</h2>
+<ul>
+<li>Ställ apparaten på ett plant, stabilt och värmetåligt underlag, en bit från bänkkanten.</li>
+<li>Lämna fritt utrymme runt om, särskilt bakom luftutblåset, och ställ den inte direkt under ett väggskåp. Följ avstånden i bruksanvisningen till din modell.</li>
+<li>Sätt kontakten i ett jordat vägguttag, utan förlängningssladd eller grenuttag, eftersom de här apparaterna har hög effekt.</li>
+<li>Ställ ingenting ovanpå apparaten medan den är igång och hantera lådorna varsamt: de är fortfarande mycket varma efter avstängning.</li>
+<li>Har du barn hemma bör apparaten stå utom räckhåll för dem, och sladden får inte hänga över bänkkanten.</li>
+</ul>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta storfamiljer är <strong>Ninja Foodi FlexDrawer 10.4L Dual Zone</strong> den bästa XXL-airfryern 2026: den är den enda i urvalet som kan gå från två oberoende zoner till en stor låda på 10,4 liter. Har du ont om bredd ger <strong>Ninja Double Stack XL 9.5L</strong> dig två oberoende lådor på mycket liten yta. Och lagar du mest stekar och fågel och gillar att styra tillagningen från mobilen är <strong>Philips Airfryer Combi XXL Connected 8.3L</strong> med sin inbyggda stektermometer det bekvämaste valet. Ninja Foodi MAX Dual Zone är fortfarande ett säkert kort, och Tefal Dual Easy Fry ett alternativ i en lägre prisklass för 4–5 personer.</p>
+<p>Vill du jämföra modellerna med en vanlig ugn kan du läsa vår <a href="/sv/guides/airfryer-vs-four">guide om airfryer eller ugn</a>.</p>`,
+    us: `<p><strong>For a large family in 2026, the best XXL air fryer is the Ninja Foodi FlexDrawer 10.4L Dual Zone</strong>: it runs as two independent 5.5-quart (5.2 L) zones or, with the divider removed, as one big 11-quart (10.4 L) drawer for large cuts. If your countertop is narrow, the Ninja Double Stack XL 9.5L stacks its two drawers vertically, and if you'd rather have one large smart basket with a built-in food probe, the Philips Airfryer Combi XXL Connected 8.3L is the most complete alternative.</p>
+<p>This comparison is based on manufacturer specs, independent reviews and verified owner feedback. It only includes models sold in Europe in 2026. You'll find the full selection on our <a href="/us/cuisine-connectee/airfryers">air fryers</a> page.</p>
+
+<h2>How to choose an XXL air fryer</h2>
+<p>"XXL" usually means 8.5 quarts (8 L) and up. At that size, the headline capacity isn't enough to compare models: how the space is laid out matters as much as how much of it there is.</p>
+<ul>
+<li><strong>One large basket or two drawers</strong>: two independent drawers let you cook the main dish and the side at the same time, at different temperatures. A single large basket is better for a whole chicken or a roast. Ninja's FlexDrawer does both. For more, read our article on <a href="/us/blog/airfryer-simple-vs-double-panier">single vs. dual-basket air fryers</a>.</li>
+<li><strong>Cooking surface</strong>: for fries or nuggets, crispiness depends on the floor area of the basket, not its volume. A tall, narrow basket means more shaking or cooking in two rounds.</li>
+<li><strong>Footprint</strong>: side-by-side drawers take up width (often more than 16 in, or 40 cm); stacked drawers take up height. Measure your countertop and the clearance under your upper cabinets.</li>
+<li><strong>Sync features</strong>: Sync (both drawers finish together) and Match (same settings in both) are invaluable when everyone sits down at once.</li>
+<li><strong>Power and outlet</strong>: the European versions of these XXL models are rated at roughly 2,200 to 2,700 W. Plug them straight into a wall outlet, never into a power strip that's already in use. Models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V.</li>
+<li><strong>Cleaning</strong>: check that the drawers and racks are dishwasher-safe and that the nonstick coating wipes clean easily. With family-size batches, you'll be using it almost every day.</li>
+</ul>
+
+<h2>The 5 best XXL air fryers for large families in 2026</h2>
+
+<h3>1. Ninja Foodi FlexDrawer 10.4L Dual Zone (AF500EU) — best overall</h3>
+<p>The FlexDrawer is the most versatile model in this roundup. Its single 11-quart (10.4 L) drawer can be split by a removable divider into two 5.5-quart (5.2 L) zones, each with its own temperature and time. Take the divider out and you get the <strong>MegaZone</strong>, one 11-quart space for a large chicken, a roast or a very big batch of vegetables. Rated power is 2,470 W, with six functions including Air Fry and Max Crisp, plus Ninja's Sync and Match features.</p>
+<p><strong>Pros</strong>: switches between two zones and one large space, the biggest capacity in this comparison, and very positive owner feedback on even cooking.</p>
+<p><strong>Cons</strong>: about 18 in (45 cm) wide and more than 19 lb (9 kg), according to retailer listings, so it needs a dedicated spot. It's also a premium-tier model.</p>
+<p><strong>Best for</strong>: families of 5 to 8 who want both complete two-zone meals and large whole cuts. Our <a href="/us/blog/test-ninja-foodi-flexdrawer">full Ninja FlexDrawer review</a> goes further.</p>
+
+<h3>2. Ninja Double Stack XL 9.5L (SL400EU) — best for narrow kitchens</h3>
+<p>The Double Stack XL keeps the idea of two independent 5-quart (4.75 L) drawers but stacks them vertically instead of side by side. The result: a width of only about 11 in (28 cm) for 10 quarts (9.5 L) in total, with a height of about 15 in (38.5 cm) designed to fit under upper cabinets. Included stacking racks let you cook on four levels at once. You get the lineup's six functions, 2,470 W and synchronized finishing.</p>
+<p><strong>Pros</strong>: the smallest footprint of any XXL model here, two true independent zones, and four-level cooking that multiplies the usable surface.</p>
+<p><strong>Cons</strong>: the drawers can't be combined, so no very large single cut; cooking on stacked racks takes a little practice when it's time to flip the food.</p>
+<p><strong>Best for</strong>: large families short on counter width who mostly cook portion-size foods (fries, fillets, vegetables, nuggets).</p>
+
+<h3>3. Philips Airfryer Combi XXL Connected 8.3L (7000 Series) — best smart air fryer</h3>
+<p>The 7000 Series Combi XXL goes with one large 8.8-quart (8.3 L) basket, 2,200 W and Wi-Fi with the Philips HomeID app, which offers automatic programs and guided recipes. Its standout feature is the <strong>built-in food thermometer</strong>: it tracks the internal temperature of meat or fish and stops cooking at the right moment. Rapid CombiAir technology combines heat and airflow to broil, roast or bake like a small oven.</p>
+<p><strong>Pros</strong>: the large single basket, the food probe, the most polished app in this roundup and a wide range of programs.</p>
+<p><strong>Cons</strong>: no dual zone, so sides cook before or after the main dish; it's heavy and sits at the very top of the price range.</p>
+<p><strong>Best for</strong>: families who often cook roasts, whole birds or fish and like controlling the cooking from their phone.</p>
+
+<h3>4. Ninja Foodi MAX Dual Zone 9.5L (AF400EU) — the proven classic</h3>
+<p>This is the model that made dual-basket air fryers popular: two independent 5-quart (4.75 L) drawers side by side, 2,470 W, six functions (Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate) plus Sync and Match. Ninja says one drawer can hold a chicken of about 4.4 lb (2 kg). On the market for several years, it has racked up a very large number of owner reviews, largely very positive.</p>
+<p><strong>Pros</strong>: proven reliability, very easy to use, two equal-size zones and plenty of accessories available.</p>
+<p><strong>Cons</strong>: takes up counter width; the drawers can't be combined.</p>
+<p><strong>Best for</strong>: families of 4 to 6 who want two baskets without extra frills.</p>
+
+<h3>5. Tefal Dual Easy Fry 8.3L (EY9018) — the most affordable dual-basket pick</h3>
+<p>The Tefal Dual Easy Fry takes an asymmetric approach: one large 5.5-quart (5.2 L) drawer and one small 3.3-quart (3.1 L) drawer, 8.8 quarts (8.3 L) in total, with a touch display and seven programs (fries, chicken, vegetables, fish, dessert, dehydrate and manual). The small drawer suits a side or a single serving, the large one the main dish. Removable parts are dishwasher-safe.</p>
+<p><strong>Pros</strong>: more affordable than the Ninja and Philips models, a brand with a well-established service network in France, and a roomy main drawer.</p>
+<p><strong>Cons</strong>: the 3.3-quart drawer limits real capacity for a family of 6 or more; several owners miss a keep-warm function.</p>
+<p><strong>Best for</strong>: families of 4 to 5 who want two baskets on a tighter budget.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity</th><th>Layout</th><th>Smart features</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Ninja Foodi FlexDrawer 10.4L</td><td>11 qt (10.4 L)</td><td>1 drawer, 2 × 5.5 qt zones or MegaZone</td><td>No</td><td>Families of 5–8, large cuts</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>10 qt (9.5 L)</td><td>2 stacked 5 qt drawers</td><td>No</td><td>Narrow countertops</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>8.8 qt (8.3 L)</td><td>1 large basket, built-in probe</td><td>Wi-Fi, HomeID app</td><td>Roasts, poultry, remote control</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>10 qt (9.5 L)</td><td>2 side-by-side 5 qt drawers</td><td>No</td><td>Everyday complete meals</td></tr>
+<tr><td>Tefal Dual Easy Fry EY9018</td><td>8.8 qt (8.3 L)</td><td>2 drawers, 5.5 qt and 3.3 qt</td><td>No</td><td>Tighter budgets, 4–5 people</td></tr>
+</tbody>
+</table>
+
+<h2>What size air fryer for how many people?</h2>
+<p>Capacity figures describe the volume of the drawer, and you never fill a basket to the top if you want crispy food. In practice, these guidelines work well:</p>
+<ul>
+<li><strong>4 people</strong>: 6.3 to 8.5 quarts (6 to 8 L) is enough; two baskets help you serve the main dish and the side together.</li>
+<li><strong>5 to 6 people</strong>: aim for 8.5 to 11 quarts (8 to 10 L), ideally in two independent zones.</li>
+<li><strong>7 to 8 people</strong>: a model of about 11 quarts (10 L) such as the FlexDrawer, or be ready to cook some foods in two rounds.</li>
+</ul>
+<p>For fries, go by basket surface rather than volume: a layer that's too thick steams instead of browning. Our guide to <a href="/us/blog/comment-choisir-airfryer-famille">choosing a family air fryer</a> walks through these guidelines in more detail.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Choosing on capacity alone</strong>: two 5-quart drawers and one 8.8-quart basket serve different purposes. Start from the dishes you cook most.</li>
+<li><strong>Forgetting cabinet clearance</strong>: a stacked model or a tall basket may not fit under an upper cabinet, and hot air needs somewhere to go.</li>
+<li><strong>Overloading the basket</strong>: the number one cause of soggy fries. Two good batches beat one failed one.</li>
+<li><strong>Skipping cleanup</strong>: grease that builds up in the drawer eventually smokes. Cleaning after every heavy use extends the life of the coating.</li>
+<li><strong>Paying for features you won't use</strong>: app control helps with guided recipes or cooking meat to an internal temperature, much less with fries and vegetables.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<ul>
+<li>Set the appliance on a flat, stable, heat-resistant surface, away from the edge of the countertop.</li>
+<li>Keep space clear all around it, especially behind the air vent; don't put it directly under an upper cabinet. Follow the clearances in your model's manual.</li>
+<li>Plug it into a grounded wall outlet, with no extension cord or power strip, because these appliances draw a lot of power.</li>
+<li>Don't set anything on top while it's cooking, and handle the drawers carefully: they stay very hot after the appliance shuts off.</li>
+<li>With kids around, pick a spot out of their reach and don't let the cord hang over the edge of the counter.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>For most large families, the <strong>Ninja Foodi FlexDrawer 10.4L Dual Zone</strong> is the best XXL air fryer in 2026: it's the only one in this roundup that switches from two independent zones to one large 11-quart (10.4 L) drawer. If you're short on width, the <strong>Ninja Double Stack XL 9.5L</strong> gives you two independent drawers in a very small footprint. And if you mostly cook roasts and poultry and like to control cooking from your phone, the <strong>Philips Airfryer Combi XXL Connected 8.3L</strong>, with its built-in probe, is the most convenient choice. The Ninja Foodi MAX Dual Zone remains a safe bet, and the Tefal Dual Easy Fry a more affordable option for 4 to 5 people.</p>
+<p>To compare these models with a conventional oven, see our <a href="/us/guides/airfryer-vs-four">air fryer vs. oven guide</a>.</p>`,
+    ca: `<p><strong>For a large family in 2026, the best XXL air fryer is the Ninja Foodi FlexDrawer 10.4L Dual Zone</strong>: it runs as two independent 5.2 L (5.5 qt) zones or, once the divider is removed, as one big 10.4 L (11.0 qt) drawer for large cuts. If your counter is narrow, the Ninja Double Stack XL 9.5L stacks its two drawers vertically, and if you would rather have one large Wi-Fi basket with a food probe, the Philips Airfryer Combi XXL Connected 8.3L is the most complete alternative.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer reviews. It only includes models sold in Europe in 2026. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. You will find the full selection on our <a href="/ca/cuisine-connectee/airfryers">air fryers</a> page.</p>
+
+<h2>How to choose an XXL air fryer</h2>
+<p>"XXL" usually means 8 L (8.5 qt) and up. At that size, the headline capacity is no longer enough to compare models: how those litres are organized matters as much as how many there are.</p>
+<ul>
+<li><strong>One large basket or two drawers</strong>: two independent drawers let you cook the main and the side at the same time, at different temperatures. A single large basket is better for a whole chicken or a roast. Ninja's FlexDrawer combines both approaches. For more, read our article on <a href="/ca/blog/airfryer-simple-vs-double-panier">single vs dual basket air fryers</a>.</li>
+<li><strong>Cooking surface</strong>: for fries or nuggets, crispness depends on the floor area of the basket, not its volume. A tall, narrow basket means more shaking or cooking in two batches.</li>
+<li><strong>Footprint</strong>: side-by-side drawers take up width (often more than 40 cm, or 16 in.), stacked drawers take up height. Measure your counter and the clearance under your upper cabinets.</li>
+<li><strong>Synchronization</strong>: Sync (both drawers finish together) and Match (same settings in both) are a big help when everyone sits down at once.</li>
+<li><strong>Power and outlet</strong>: the European versions of these XXL models draw roughly 2,200 to 2,700 W, while a standard 15 A household circuit delivers up to 1,800 W, which is one more reason to check the version. Plug the air fryer straight into a wall outlet, never into a power bar or an extension cord that is already in use.</li>
+<li><strong>Cleaning</strong>: check that drawers and racks are dishwasher-safe and that the non-stick coating wipes clean easily. With family batches, this is close to daily use.</li>
+</ul>
+
+<h2>The 5 best XXL air fryers for large families in 2026</h2>
+
+<h3>1. Ninja Foodi FlexDrawer 10.4L Dual Zone (AF500EU) — best overall</h3>
+<p>The FlexDrawer is the most versatile model in this selection. Its single 10.4 L (11.0 qt) drawer can be split by a removable divider into two 5.2 L zones, each with its own temperature and time. Take the divider out and you get the <strong>MegaZone</strong>, one 10.4 L space for a large chicken, a roast or a very big batch of vegetables. Rated power is 2,470 W, with six functions including Air Fry and Max Crisp, plus Ninja's Sync and Match features.</p>
+<p><strong>Strengths</strong>: switches between two zones and one large space, the highest capacity in this comparison, very positive owner reviews on even cooking.</p>
+<p><strong>Limitations</strong>: around 45 cm (18 in.) wide and over 9 kg according to retailer listings, so it needs a dedicated spot. It sits at the premium end.</p>
+<p><strong>Who it's for</strong>: families of 5 to 8 who want both full two-zone meals and large whole cuts. Our <a href="/ca/blog/test-ninja-foodi-flexdrawer">detailed Ninja FlexDrawer review</a> goes further.</p>
+
+<h3>2. Ninja Double Stack XL 9.5L (SL400EU) — best for narrow kitchens</h3>
+<p>The Double Stack XL keeps the idea of two independent 4.75 L (5.0 qt) drawers but stacks them vertically instead of side by side. The result is a width of only about 28 cm (11 in.) for 9.5 L (10.0 qt) in total, with a height of around 38.5 cm (15 in.) designed to fit under upper cabinets. Included stacking racks let you cook on four levels at once. You get the lineup's six functions, 2,470 W and synchronized finishing.</p>
+<p><strong>Strengths</strong>: the smallest footprint of any XXL model here, two genuine independent zones, four-level cooking to multiply usable surface.</p>
+<p><strong>Limitations</strong>: the drawers cannot be merged, so no very large single cut; cooking on stacked racks takes a little practice when turning food.</p>
+<p><strong>Who it's for</strong>: large families short on counter space who mostly cook portion-sized food (fries, fillets, vegetables, nuggets).</p>
+
+<h3>3. Philips Airfryer Combi XXL Connected 8.3L (7000 Series) — best smart air fryer</h3>
+<p>The 7000 Series Combi XXL goes for one large 8.3 L (8.8 qt) basket, 2,200 W and Wi-Fi connectivity with the Philips HomeID app, which offers auto programs and guided recipes. Its standout feature is the <strong>built-in food thermometer</strong>: it monitors the core temperature of meat or fish and stops cooking at the right moment. Rapid CombiAir technology combines heat and airflow to broil, roast or bake like a small oven.</p>
+<p><strong>Strengths</strong>: the large single basket, the food probe, the most polished app in this selection, a wide range of programs.</p>
+<p><strong>Limitations</strong>: no dual zone, so sides are cooked before or after the main; it is heavy and sits at the very top of the line.</p>
+<p><strong>Who it's for</strong>: families who often cook roasts, whole poultry or fish and like controlling cooking from their phone.</p>
+
+<h3>4. Ninja Foodi MAX Dual Zone 9.5L (AF400EU) — the proven classic</h3>
+<p>This is the model that made dual-drawer air fryers popular: two independent 4.75 L (5.0 qt) drawers side by side, 2,470 W, six functions (Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate) plus Sync and Match. Ninja states that one drawer can hold a chicken of around 2 kg (about 4½ lb). On sale for several years, it has a very large number of owner reviews, broadly very positive.</p>
+<p><strong>Strengths</strong>: well-established reliability, very easy to use, two equal-sized zones, wide availability of accessories.</p>
+<p><strong>Limitations</strong>: takes up counter width; the drawers cannot be merged.</p>
+<p><strong>Who it's for</strong>: families of 4 to 6 who want a dual drawer without extra frills.</p>
+
+<h3>5. Tefal Dual Easy Fry 8.3L (EY9018) — the most affordable dual drawer</h3>
+<p>The Tefal Dual Easy Fry takes an asymmetric approach: one large 5.2 L (5.5 qt) drawer and one small 3.1 L (3.3 qt) drawer, 8.3 L (8.8 qt) in total, with a touch display and seven programs (fries, chicken, vegetables, fish, dessert, dehydrate and manual). The small drawer suits a side or a single portion, the large one the main dish. Removable parts are dishwasher-safe.</p>
+<p><strong>Strengths</strong>: more affordable than the Ninja and Philips models, a brand with a well-established service network in Europe, a roomy main drawer.</p>
+<p><strong>Limitations</strong>: the 3.1-litre drawer limits real capacity for a family of 6 or more; several owners wish it had a keep-warm function.</p>
+<p><strong>Who it's for</strong>: families of 4 to 5 who want a dual drawer on a tighter budget.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity</th><th>Layout</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Ninja Foodi FlexDrawer 10.4L</td><td>10.4 L (11.0 qt)</td><td>1 drawer, 2 × 5.2 L zones or MegaZone</td><td>No</td><td>Families of 5 to 8, large cuts</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>9.5 L (10.0 qt)</td><td>2 stacked 4.75 L drawers</td><td>No</td><td>Narrow counters</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>8.3 L (8.8 qt)</td><td>1 large basket, built-in probe</td><td>Wi-Fi, HomeID app</td><td>Roasts, poultry, remote control</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>9.5 L (10.0 qt)</td><td>2 side-by-side 4.75 L drawers</td><td>No</td><td>Everyday full meals</td></tr>
+<tr><td>Tefal Dual Easy Fry EY9018</td><td>8.3 L (8.8 qt)</td><td>2 drawers, 5.2 L and 3.1 L</td><td>No</td><td>Tighter budget, 4 to 5 people</td></tr>
+</tbody>
+</table>
+
+<h2>What capacity for how many people?</h2>
+<p>Capacities in litres describe the volume of the drawer: you never fill a basket to the top if you want crisp food. In practice, these guidelines work well:</p>
+<ul>
+<li><strong>4 people</strong>: 6 to 8 L (6.3 to 8.5 qt) is enough; a dual drawer helps serve main and side together.</li>
+<li><strong>5 to 6 people</strong>: aim for 8 to 10 L (8.5 to 10.6 qt), ideally in two independent zones.</li>
+<li><strong>7 to 8 people</strong>: a model of around 10 L (10.6 qt) such as the FlexDrawer, or accept cooking some foods in two batches.</li>
+</ul>
+<p>For fries, go by the basket's floor area rather than its volume: a layer that is too thick steams instead of browning. Our guide on <a href="/ca/blog/comment-choisir-airfryer-famille">choosing a family air fryer</a> goes through these guidelines in more detail.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Choosing on litres alone</strong>: two 4.75 L drawers and one 8.3 L basket serve different purposes. Start from the dishes you cook most.</li>
+<li><strong>Forgetting cabinet clearance</strong>: a stacked model or a tall basket may not fit under an upper cabinet, and hot air needs somewhere to go.</li>
+<li><strong>Overloading the basket</strong>: the number one cause of soggy fries. Two good batches beat one failed one.</li>
+<li><strong>Neglecting cleaning</strong>: grease building up in the drawer eventually smokes. Cleaning after each heavy use extends the life of the coating.</li>
+<li><strong>Paying for features you won't use</strong>: connectivity helps with guided recipes or core-temperature cooking, much less for fries and vegetables.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<ul>
+<li>Place the appliance on a flat, stable, heat-resistant surface, away from the edge of the counter.</li>
+<li>Keep space free all around it, especially behind the air outlet; do not place it directly under an upper cabinet. Follow the clearances given in your model's manual.</li>
+<li>Plug it into a grounded wall outlet, without an extension cord or power bar, as these appliances draw a lot of power.</li>
+<li>Do not put anything on top while cooking and handle drawers with care: they stay very hot after switching off.</li>
+<li>With children around, choose a spot out of their reach and do not let the cord hang over the edge.</li>
+</ul>
+
+<h2>Our verdict</h2>
+<p>For most large families, the <strong>Ninja Foodi FlexDrawer 10.4L Dual Zone</strong> is the best XXL air fryer in 2026: it is the only one in this selection that switches from two independent zones to one large 10.4-litre drawer. If you are short on width, the <strong>Ninja Double Stack XL 9.5L</strong> offers two independent drawers in a very small footprint. And if you mostly cook roasts and poultry and like to control cooking from your phone, the <strong>Philips Airfryer Combi XXL Connected 8.3L</strong> with its built-in probe is the most convenient choice. The Ninja Foodi MAX Dual Zone remains a safe bet, and the Tefal Dual Easy Fry a more affordable option for 4 to 5 people.</p>
+<p>To compare these models with a conventional oven, see our <a href="/ca/guides/airfryer-vs-four">air fryer vs oven guide</a>.</p>`,
   },
   faq: [
     {
@@ -687,6 +966,9 @@ export const article: BlogArticle = {
         it: 'Che capacità di friggitrice ad aria serve per una famiglia di 6 persone?',
         nl: 'Welke inhoud heeft een airfryer nodig voor een gezin van 6 personen?',
         pl: 'Jaka pojemność frytkownicy beztłuszczowej dla rodziny 6-osobowej?',
+        sv: 'Hur stor airfryer behöver en familj på sex personer?',
+        us: 'What size air fryer do you need for a family of 6?',
+        ca: 'What air fryer capacity do you need for a family of 6?',
       },
       answer: {
         fr: 'Visez 8 à 10 litres, idéalement répartis en deux zones indépendantes pour cuire le plat et l’accompagnement ensemble. Un modèle d’environ 10 litres comme le Ninja FlexDrawer laisse de la marge pour les grosses pièces.',
@@ -696,6 +978,9 @@ export const article: BlogArticle = {
         it: 'Punta a 8-10 litri, idealmente divisi in due zone indipendenti per cuocere insieme piatto e contorno. Un modello da circa 10 litri come la Ninja FlexDrawer lascia margine per i pezzi grandi.',
         nl: 'Mik op 8 tot 10 liter, het liefst verdeeld over twee onafhankelijke zones zodat hoofd- en bijgerecht tegelijk klaar zijn. Een model van rond de 10 liter zoals de Ninja FlexDrawer biedt ruimte voor grote stukken.',
         pl: 'Wybierz model o pojemności 8–10 litrów, najlepiej z dwiema niezależnymi strefami, żeby jednocześnie przygotować danie główne i dodatek. Frytkownica o pojemności ok. 10 litrów, taka jak Ninja FlexDrawer, zostawia zapas na większe kawałki mięsa.',
+        sv: 'Sikta på 8–10 liter, helst fördelat på två oberoende zoner så att du kan laga huvudrätt och tillbehör samtidigt. En modell på runt 10 liter som Ninja FlexDrawer ger utrymme även för stora köttbitar.',
+        us: 'Aim for 8.5 to 11 quarts (8 to 10 L), ideally split into two independent zones so you can cook the main dish and the side together. A model of about 11 quarts (10 L) such as the Ninja FlexDrawer leaves room for large cuts.',
+        ca: 'Aim for 8 to 10 L (8.5 to 10.6 qt), ideally split into two independent zones so you can cook the main and the side together. A model of around 10 L such as the Ninja FlexDrawer leaves room for large cuts.',
       },
     },
     {
@@ -707,6 +992,9 @@ export const article: BlogArticle = {
         it: 'Meglio un grande cestello unico o due cassetti?',
         nl: 'Is één grote mand of zijn twee lades beter?',
         pl: 'Lepszy jest jeden duży kosz czy dwie szuflady?',
+        sv: 'Vilket är bäst: en stor korg eller två lådor?',
+        us: 'Is one large basket or two drawers better?',
+        ca: 'Is one large basket or two drawers better?',
       },
       answer: {
         fr: 'Deux tiroirs conviennent mieux aux repas complets du quotidien (plat et accompagnement en même temps). Un grand panier unique est préférable pour les volailles entières et les rôtis. Le Ninja FlexDrawer offre les deux grâce à sa cloison amovible.',
@@ -716,6 +1004,9 @@ export const article: BlogArticle = {
         it: 'Due cassetti sono più adatti ai pasti completi di tutti i giorni (piatto e contorno insieme). Un grande cestello unico è preferibile per pollame intero e arrosti. La Ninja FlexDrawer offre entrambe le soluzioni grazie al divisorio rimovibile.',
         nl: 'Twee lades zijn handiger voor complete dagelijkse maaltijden (hoofd- en bijgerecht tegelijk). Eén grote mand is beter voor hele kippen en rollades. De Ninja FlexDrawer biedt beide dankzij zijn uitneembare scheidingswand.',
         pl: 'Dwie szuflady lepiej sprawdzają się przy codziennych pełnych posiłkach (danie główne i dodatek jednocześnie). Jeden duży kosz jest lepszy, gdy pieczesz drób w całości albo większy kawałek mięsa. Ninja FlexDrawer dzięki wyjmowanej przegrodzie łączy oba rozwiązania.',
+        sv: 'Två lådor passar bättre för kompletta vardagsmåltider (huvudrätt och tillbehör samtidigt). En enda stor korg är bättre för hel fågel och stekar. Ninja FlexDrawer klarar båda tack vare den löstagbara mellanväggen.',
+        us: 'Two drawers work better for everyday complete meals (main dish and side at the same time). One large basket is better for whole poultry and roasts. The Ninja FlexDrawer offers both, thanks to its removable divider.',
+        ca: 'Two drawers suit everyday full meals better (main and side at the same time). One large basket is better for whole poultry and roasts. The Ninja FlexDrawer offers both thanks to its removable divider.',
       },
     },
     {
@@ -727,6 +1018,9 @@ export const article: BlogArticle = {
         it: 'Quale friggitrice ad aria XXL scegliere per una cucina piccola?',
         nl: 'Welke XXL-airfryer past in een kleine keuken?',
         pl: 'Jaką frytkownicę beztłuszczową XXL wybrać do małej kuchni?',
+        sv: 'Vilken XXL-airfryer passar i ett litet kök?',
+        us: 'Which XXL air fryer works best in a small kitchen?',
+        ca: 'Which XXL air fryer suits a small kitchen?',
       },
       answer: {
         fr: 'Le Ninja Double Stack XL superpose ses deux tiroirs de 4,75 litres : il ne mesure qu’environ 28 cm de large pour 9,5 litres au total. Vérifiez seulement la hauteur disponible sous vos meubles hauts.',
@@ -736,6 +1030,9 @@ export const article: BlogArticle = {
         it: 'La Ninja Double Stack XL impila i suoi due cassetti da 4,75 litri: è larga solo circa 28 cm per 9,5 litri totali. Verifica solo l’altezza disponibile sotto i pensili.',
         nl: 'De Ninja Double Stack XL stapelt zijn twee lades van 4,75 liter: hij is maar ongeveer 28 cm breed voor 9,5 liter in totaal. Controleer alleen de beschikbare hoogte onder je bovenkastjes.',
         pl: 'Ninja Double Stack XL ma dwie szuflady po 4,75 litra ustawione jedna nad drugą, dzięki czemu przy łącznej pojemności 9,5 litra ma tylko ok. 28 cm szerokości. Sprawdź tylko, ile miejsca masz pod wiszącymi szafkami.',
+        sv: 'Ninja Double Stack XL staplar sina två lådor på 4,75 liter: den är bara cirka 28 cm bred för totalt 9,5 liter. Kontrollera bara hur mycket höjd du har under väggskåpen.',
+        us: 'The Ninja Double Stack XL stacks its two 5-quart (4.75 L) drawers, so it\'s only about 11 in (28 cm) wide for 10 quarts (9.5 L) in total. Just check how much height you have under your upper cabinets.',
+        ca: 'The Ninja Double Stack XL stacks its two 4.75 L drawers: it is only about 28 cm (11 in.) wide for 9.5 L (10.0 qt) in total. Just check the clearance under your upper cabinets.',
       },
     },
     {
@@ -747,6 +1044,9 @@ export const article: BlogArticle = {
         it: 'Una friggitrice ad aria XXL consuma molta elettricità?',
         nl: 'Verbruikt een XXL-airfryer veel stroom?',
         pl: 'Czy frytkownica beztłuszczowa XXL zużywa dużo prądu?',
+        sv: 'Drar en XXL-airfryer mycket el?',
+        us: 'Does an XXL air fryer use a lot of electricity?',
+        ca: 'Does an XXL air fryer use a lot of electricity?',
       },
       answer: {
         fr: 'Sa puissance est élevée (environ 2 200 à 2 700 W), mais elle chauffe un volume bien plus petit qu’un four et sans long préchauffage. Pour des portions familiales, elle reste généralement plus sobre qu’un four classique.',
@@ -756,6 +1056,9 @@ export const article: BlogArticle = {
         it: 'La potenza è elevata (circa 2.200-2.700 W), ma riscalda uno spazio molto più piccolo di un forno e richiede poco o nessun preriscaldamento. Per porzioni familiari è in genere più efficiente di un forno tradizionale.',
         nl: 'Het vermogen is hoog (ongeveer 2.200 tot 2.700 W), maar hij verwarmt een veel kleinere ruimte dan een oven en hoeft nauwelijks voor te verwarmen. Voor gezinsporties is hij doorgaans zuiniger dan een gewone oven.',
         pl: 'Ma dużą moc (ok. 2200–2700 W), ale nagrzewa znacznie mniejszą przestrzeń niż piekarnik i nie wymaga długiego nagrzewania wstępnego. Przy rodzinnych porcjach zwykle zużywa mniej prądu niż tradycyjny piekarnik.',
+        sv: 'Effekten är hög (runt 2 200–2 700 W), men den värmer upp ett mycket mindre utrymme än en ugn och behöver lite eller ingen förvärmning. För familjeportioner är den oftast mer energisnål än en vanlig ugn.',
+        us: 'Its power rating is high (around 2,200 to 2,700 W on these European models), but it heats a much smaller space than an oven and needs little or no preheating. For family-size portions, it\'s generally more economical than a conventional oven.',
+        ca: 'Its power rating is high (around 2,200 to 2,700 W for the European models in this guide), but it heats a much smaller space than an oven and needs little or no preheating. For family portions, it is generally more economical than a conventional oven.',
       },
     },
     {
@@ -767,6 +1070,9 @@ export const article: BlogArticle = {
         it: 'Si può cuocere un pollo intero in una friggitrice ad aria XXL?',
         nl: 'Kun je een hele kip bereiden in een XXL-airfryer?',
         pl: 'Czy we frytkownicy beztłuszczowej XXL można upiec całego kurczaka?',
+        sv: 'Går det att laga en hel kyckling i en XXL-airfryer?',
+        us: 'Can you cook a whole chicken in an XXL air fryer?',
+        ca: 'Can you cook a whole chicken in an XXL air fryer?',
       },
       answer: {
         fr: 'Oui. Ninja indique qu’un tiroir de 4,75 litres accueille un poulet d’environ 2 kg sur le Foodi MAX Dual Zone. Pour les plus grosses volailles, un grand espace unique comme la MegaZone du FlexDrawer ou le panier de 8,3 litres du Philips Combi XXL est plus confortable.',
@@ -776,6 +1082,9 @@ export const article: BlogArticle = {
         it: 'Sì. Ninja indica che un cassetto da 4,75 litri della Foodi MAX Dual Zone contiene un pollo di circa 2 kg. Per volatili più grandi è più comodo un grande spazio unico come la MegaZone della FlexDrawer o il cestello da 8,3 litri della Philips Combi XXL.',
         nl: 'Ja. Volgens Ninja past er in een lade van 4,75 liter van de Foodi MAX Dual Zone een kip van ongeveer 2 kg. Voor grotere vogels is één grote ruimte zoals de MegaZone van de FlexDrawer of de mand van 8,3 liter van de Philips Combi XXL comfortabeler.',
         pl: 'Tak. Ninja podaje, że w 4,75-litrowej szufladzie modelu Foodi MAX Dual Zone zmieści się kurczak o wadze ok. 2 kg. W przypadku większych ptaków wygodniejsza jest jedna duża komora, np. MegaZone w modelu FlexDrawer albo 8,3-litrowy kosz frytkownicy Philips Combi XXL.',
+        sv: 'Ja. Enligt Ninja rymmer en låda på 4,75 liter i Foodi MAX Dual Zone en kyckling på runt 2 kg. För större fågel är ett enda stort utrymme smidigare, till exempel MegaZone i FlexDrawer eller korgen på 8,3 liter i Philips Combi XXL.',
+        us: 'Yes. Ninja says one 5-quart (4.75 L) drawer on the Foodi MAX Dual Zone holds a chicken of about 4.4 lb (2 kg). For bigger birds, one large space such as the FlexDrawer\'s MegaZone or the 8.8-quart (8.3 L) basket on the Philips Combi XXL gives you more room.',
+        ca: 'Yes. Ninja states that a 4.75 L drawer on the Foodi MAX Dual Zone holds a chicken of around 2 kg (about 4½ lb). For larger birds, one large space such as the FlexDrawer MegaZone or the 8.3 L basket of the Philips Combi XXL gives you more room.',
       },
     },
     {
@@ -787,6 +1096,9 @@ export const article: BlogArticle = {
         it: 'Serve una presa particolare per una friggitrice ad aria XXL?',
         nl: 'Heeft een XXL-airfryer een speciaal stopcontact nodig?',
         pl: 'Czy frytkownica beztłuszczowa XXL wymaga specjalnego gniazdka?',
+        sv: 'Behöver en XXL-airfryer ett särskilt uttag?',
+        us: 'Does an XXL air fryer need a special outlet?',
+        ca: 'Does an XXL air fryer need a special outlet?',
       },
       answer: {
         fr: 'Non, une prise murale standard avec terre suffit. En revanche, évitez les rallonges et multiprises, et ne faites pas tourner l’airfryer sur le même circuit qu’un autre gros appareil si votre installation disjoncte facilement.',
@@ -796,6 +1108,9 @@ export const article: BlogArticle = {
         it: 'No, basta una normale presa a muro con messa a terra. Evita però prolunghe e ciabatte e non usare la friggitrice sullo stesso circuito di un altro apparecchio potente se il tuo impianto scatta facilmente.',
         nl: 'Nee, een gewoon geaard wandstopcontact volstaat. Vermijd wel verlengsnoeren en stekkerdozen, en gebruik de airfryer niet op dezelfde groep als een ander zwaar apparaat als je stoppen snel doorslaan.',
         pl: 'Nie, wystarczy zwykłe gniazdko ścienne z uziemieniem. Unikaj jednak przedłużaczy i listew, a jeśli w Twojej instalacji często wybija bezpieczniki, nie włączaj frytkownicy na tym samym obwodzie co inne urządzenie o dużym poborze mocy.',
+        sv: 'Nej, ett vanligt jordat vägguttag räcker. Undvik däremot förlängningssladdar och grenuttag, och kör inte airfryern på samma säkring som en annan apparat med hög effekt om säkringen brukar gå hemma hos dig.',
+        us: 'No, a standard grounded wall outlet is enough, as long as the model is rated for your home\'s voltage: models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V. Avoid extension cords and power strips, though, and don\'t run the air fryer on the same circuit as another high-power appliance if your breaker trips easily.',
+        ca: 'No. An air fryer made for North American homes plugs into a standard grounded 120 V outlet. Just note that the 2,200 to 2,700 W ratings in this guide are for the European 230 V versions, while a standard 15 A household circuit delivers up to 1,800 W. Avoid extension cords and power bars, and don\'t run the air fryer on the same circuit as another high-wattage appliance if your breaker trips easily.',
       },
     },
   ],

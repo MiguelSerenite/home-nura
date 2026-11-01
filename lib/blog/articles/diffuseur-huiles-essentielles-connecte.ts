@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Due diffusori di oli essenziali a ultrasuoni in ceramica, nero e bianco, che emettono vapore in un soggiorno',
         nl: 'Twee keramische ultrasone aromadiffusers, zwart en wit, die nevel verspreiden in een woonkamer',
         pl: 'Dwa ceramiczne ultradźwiękowe dyfuzory olejków eterycznych, czarny i biały, rozpylające mgiełkę w salonie',
+        sv: 'Två keramiska doftspridare med ultraljud, en svart och en vit, som sprider dimma i ett vardagsrum',
+        us: 'Two ceramic ultrasonic essential oil diffusers, one black and one white, releasing mist in a living room',
+        ca: 'Two ceramic ultrasonic essential oil diffusers, black and white, releasing mist in a living room',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Miglior diffusore di oli essenziali smart 2026: modelli Wi-Fi e con app a confronto',
     nl: 'Beste slimme aromadiffuser 2026: wifi- en app-modellen vergeleken',
     pl: 'Inteligentny dyfuzor olejków eterycznych 2026: najlepsze modele z Wi-Fi i aplikacją',
+    sv: 'Bästa aromdiffuser 2026: smarta modeller med wifi och app',
+    us: 'Best Smart Essential Oil Diffusers of 2026: Wi-Fi, App and Voice Picks',
+    ca: 'Best Smart Essential Oil Diffuser 2026: Wi-Fi, App and Voice Models Compared',
   },
   excerpt: {
     fr: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S : quel diffuseur d’huiles essentielles connecté choisir en 2026 ? Ultrasons ou nébulisation, Wi-Fi ou Bluetooth, Alexa ou Apple Maison, et précautions pour les enfants, les femmes enceintes et les chats.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S: quale diffusore di oli essenziali smart scegliere nel 2026? Ultrasuoni o nebulizzazione, Wi-Fi o Bluetooth, Alexa o Apple Casa, e precauzioni per bambini, gravidanza e gatti.',
     nl: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S: welke slimme aromadiffuser kies je in 2026? Ultrasoon of vernevelaar, wifi of Bluetooth, Alexa of Apple Woning, plus voorzorgen voor kinderen, zwangerschap en katten.',
     pl: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S: jaki inteligentny dyfuzor olejków eterycznych wybrać w 2026 roku? Dyfuzor ultradźwiękowy czy nebulizator, Wi-Fi czy Bluetooth, Alexa czy Apple Home – a do tego zasady bezpieczeństwa, gdy w domu są dzieci, kobieta w ciąży lub kot.',
+    sv: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect och Levoit Dual 200S: vilken smart doftspridare ska du välja 2026? Ultraljud eller nebulisering, wifi eller Bluetooth, Alexa eller Apple Home – och vad du bör tänka på med barn, under graviditet och med katt hemma.',
+    us: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S: which smart essential oil diffuser should you buy in 2026? Ultrasonic vs. nebulizer, Wi-Fi vs. Bluetooth, Alexa or Apple Home, plus safety tips for kids, pregnancy and cats.',
+    ca: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S: which smart essential oil diffuser should you buy in 2026? Ultrasonic or nebulizer, Wi-Fi or Bluetooth, Alexa or Apple Home, plus precautions for children, pregnancy and cats.',
   },
   content: {
     fr: `<p>Le meilleur diffuseur d’huiles essentielles connecté pour la plupart des foyers en 2026 est l’<strong>ASAKUKI Smart Wi-Fi Essential Oil Diffuser</strong> : un modèle à ultrasons de 500 ml, piloté par appli et compatible Alexa et Google Home, qui tient une soirée entière sans remplissage. Si vous cherchez avant tout un petit prix, le <strong>Maxcio 400 ml</strong> fait l’essentiel, et si vous préférez une diffusion d’huiles pures sans eau, l’<strong>Aromatherapy Associates Atomiser Connect</strong> est l’un des rares nébuliseurs pilotables depuis un smartphone.</p>
@@ -781,6 +790,321 @@ export const article: BlogArticle = {
 
 <h2>Nasz werdykt</h2>
 <p>W większości domów najlepszą równowagę między pojemnością, harmonogramami i obsługą asystentów głosowych zapewnia <strong>ASAKUKI Smart Wi-Fi 500 ml</strong>. <strong>Maxcio 400 ml</strong> to rozsądny wybór przy małym budżecie, a <strong>Zen’Arôme Prague</strong> spodoba się osobom, które szukają ładnego dyfuzora zgodnego z Apple Home. Zwolennicy aromaterapii bez kompromisów sięgną po <strong>Atomiser Connect</strong>, a jeśli przede wszystkim musisz nawilżyć suche powietrze, oczywistym wyborem jest <strong>Levoit Dual 200S</strong>. Wszystkie polecane modele znajdziesz w kategorii <a href="/pl/confort-air/diffuseurs">dyfuzory</a>, a o kontroli wilgotności w pomieszczeniach przeczytasz w naszym poradniku o <a href="/pl/blog/deshumidificateur-connecte-guide">inteligentnych osuszaczach powietrza</a>.</p>`,
+    sv: `<p>För de flesta hem är <strong>ASAKUKI Smart Wi-Fi Essential Oil Diffuser</strong> den bästa smarta doftspridaren 2026: en ultraljudsmodell på 500 ml som styrs via app, fungerar med Alexa och Google Home och klarar en hel kväll utan påfyllning. Är budgeten viktigast täcker <strong>Maxcio 400 ml</strong> det mesta du behöver, och vill du hellre sprida rena oljor utan vatten är <strong>Aromatherapy Associates Atomiser Connect</strong> en av få nebulisatorer som går att styra från mobilen.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, europeiska återförsäljares produktbeskrivningar, publicerade oberoende utvärderingar och verifierade köparomdömen. Vi skiljer tydligt mellan de modeller som verkligen är uppkopplade och dem som inte är det, och vi avslutar med säkerhetsråden, som är extra viktiga när det gäller eteriska oljor.</p>
+
+<h2>Smart doftspridare: vad appen faktiskt tillför</h2>
+<p>En vanlig doftspridare startas med en knapp och stängs av när en fast timer har gått ut. En uppkopplad modell tillför tre saker som är praktiska i vardagen:</p>
+<ul>
+<li><strong>Schemaläggning</strong>: låt doftspridaren starta på kvällen innan du går och lägger dig, eller begränsa den till korta tidsfönster, utan att du behöver tänka på det.</li>
+<li><strong>Fjärr- och röststyrning</strong>: stäng av doftspridaren med ett röstkommando till Alexa när du har händerna fulla, eller från mobilen om du glömde att stänga av den innan du gick hemifrån.</li>
+<li><strong>Rutiner</strong>: tänd stämningsbelysningen och starta doftspridaren i samma kvällsscen i Alexa, Google Home eller Apple Home, beroende på modell.</li>
+</ul>
+<p>Schemaläggningen är dessutom helt enkelt klok: den gör det lättare att hålla sig till korta omgångar, vilket de flesta aromaterapeuter rekommenderar.</p>
+
+<h2>Ultraljud eller nebulisering: två helt olika tekniker</h2>
+<h3>Doftspridare med ultraljud</h3>
+<p>Det är den vanligaste tekniken bland de smarta modellerna. Du fyller en vattentank, tillsätter några droppar eterisk olja, och ett vibrerande membran skapar en kall dimma. Fördelar: den är tyst, drar lite olja och har lång drifttid. Nackdelar: doften blir utspädd och mindre intensiv, tanken måste tömmas och rengöras regelbundet så att vattnet inte blir stående, och hårt vatten kan lämna en tunn vit beläggning på möbler i närheten.</p>
+<h3>Nebuliserande doftspridare</h3>
+<p>En nebulisator fungerar utan vatten: den rena eteriska oljan finfördelas till mikroskopiska droppar. Doften blir betydligt kraftigare och mer lik oljans egen, men apparaten drar mer olja och kan höras lite mer. Eftersom oljan inte späds ut är det den teknik som kräver störst försiktighet med hur länge du låter den gå.</p>
+<h3>Luftfuktare med doftfack</h3>
+<p>En tredje variant: vissa smarta luftfuktare, som Levoit Dual 200S, har ett fack för några droppar olja. Det är ingen doftspridare i egentlig mening, men ett logiskt val om luften blir torr hos dig på vintern. Häll aldrig olja i tanken på en luftfuktare som inte är gjord för det: det kan skada plasten och göra att garantin upphör att gälla.</p>
+
+<h2>Så väljer du rätt</h2>
+<ul>
+<li><strong>Ekosystem</strong>: de flesta prisvärda modeller använder appen Smart Life eller Tuya Smart och styrs sedan via Alexa eller Google Home. Har du iPhone och Apple Home: kontrollera att modellen uppges fungera med Apple Home innan du köper.</li>
+<li><strong>Wifi på 2,4 GHz</strong>: apparaterna kan oftast inte ansluta till ett nät på 5 GHz. Om routern slår ihop båda banden kan parkopplingen kräva några extra steg.</li>
+<li><strong>Wifi eller Bluetooth</strong>: med Bluetooth fungerar styrningen bara på nära håll. Det är bara med wifi som du kan stänga av doftspridaren när du inte är hemma.</li>
+<li><strong>Tankens volym</strong>: från 120 ml på en dekorativ modell till 500 ml för långa omgångar. En större tank betyder färre påfyllningar, men ingenting tvingar dig att låta den gå i flera timmar i sträck.</li>
+<li><strong>Automatisk avstängning</strong>: ett måste på en modell med ultraljud, så att apparaten stängs av när vattnet tar slut.</li>
+<li><strong>Rummets storlek</strong>: en liten dekorativ doftspridare passar i ett sovrum eller arbetsrum, inte i ett stort öppet vardagsrum.</li>
+<li><strong>Skötsel</strong>: en lättåtkomlig tank med stor öppning gör den veckovisa rengöringen mycket enklare.</li>
+</ul>
+
+<h2>De bästa smarta doftspridarna 2026</h2>
+
+<h3>1. ASAKUKI Smart Wi-Fi Essential Oil Diffuser (500 ml): bäst totalt</h3>
+<p>Asakuki är en av de vanligaste smarta doftspridarna i Europa. Tanken på 500 ml ger lång drifttid, den styrs med appen Tuya Smart (eller Smart Life) och fungerar med Alexa och Google Home. I appen schemalägger du när den ska starta och stängas av, ställer in dimläget och väljer bland sju ljusfärger, och det finns ett nattlampsläge. Den stängs dessutom av automatiskt när vattnet håller på att ta slut.</p>
+<p><strong>Styrkor:</strong> stor volym, det utbredda Tuya-ekosystemet, fullständig schemaläggning, fungerar med flera röstassistenter.</p>
+<p><strong>Svagheter:</strong> bara wifi på 2,4 GHz, mer funktionell än dekorativ, inget inbyggt stöd för Apple Home.</p>
+<p><strong>Passar för:</strong> dig som vill ha en doftspridare som är enkel att automatisera, i ett hem där Alexa eller Google Home redan finns.</p>
+
+<h3>2. Maxcio Smart Essential Oil Diffuser (400 ml): mest prisvärd</h3>
+<p>Maxcio, ett märke som är känt för smarta pluggar och tillbehör, har en doftspridare med ultraljud på 400 ml som också styrs via Smart Life/Tuya och ansluter till wifi på 2,4 GHz. Du får röststyrning med Alexa och Google Home, justerbar dimma, timer och en ljusring i sju färger. Tanken räcker till långa omgångar, även om du i praktiken kommer att dela upp dem.</p>
+<p><strong>Styrkor:</strong> en instegsmodell, kompletta smarta funktioner, passar enkelt in i en befintlig Smart Life-installation.</p>
+<p><strong>Svagheter:</strong> enklare finish, dimman går inte att justera lika noga som på dyrare modeller.</p>
+<p><strong>Passar för:</strong> en första smart doftspridare till sovrummet eller hemmakontoret när budgeten är snäv.</p>
+
+<h3>3. Zen’Arôme Diffuseur connecté Prague: mest dekorativ, fungerar med Apple Home</h3>
+<p>Det franska märket Zen’Arôme står bakom Prague, en doftspridare med ultraljud i genomlysande keramik som bland annat säljs hos återförsäljare som är inriktade på hälsa och välbefinnande. Den ansluts till wifi via appen Smart Life/Tuya Smart och uppges fungera med Apple Home, Alexa och Google Home. I appen skapar och sparar du doftscener (start- och sluttid, intensitet, ljusfärg). Knapparna på framsidan fungerar även utan mobil.</p>
+<p><strong>Styrkor:</strong> ett riktigt snyggt föremål, låg effekt (2 W), scener som går att schemalägga, brett stöd för olika plattformar.</p>
+<p><strong>Svagheter:</strong> liten tank på 120 ml, passar rum på upp till ca 40 m².</p>
+<p><strong>Passar för:</strong> dig som vill ha en snygg inredningsdetalj i vardagsrummet eller sovrummet, särskilt om du har iPhone. Modellen Venise från samma märke har samma funktioner i genombruten keramik.</p>
+
+<h3>4. Aromatherapy Associates Atomiser Connect: den smarta nebulisatorn</h3>
+<p>Atomiser Connect är en nebulisator som varken använder vatten eller värme, utan sprider rena oljor. Det som utmärker den är ett system med två spridarhuvuden, så att du kan växla mellan två blandningar. Den kostnadsfria appen (iOS och Android) ansluter via Bluetooth och används för att ställa in intensitet (standard eller boost), tid (30 minuter, 1 timme eller 3 timmar) och ljusfärg, och för att schemalägga omgångar för varje veckodag. Den fungerar sladdlöst efter laddning via USB och prisbelönades vid Stylist Beauty Awards 2024.</p>
+<p><strong>Styrkor:</strong> intensiv doft som ligger nära oljans egen, två blandningar, går att flytta runt.</p>
+<p><strong>Svagheter:</strong> bara Bluetooth (ingen styrning när du är borta och ingen röstassistent), högre oljeåtgång, ligger i premiumsegmentet. Den är gjord för märkets egna flaskor, så kontrollera kompatibiliteten innan du använder andra.</p>
+<p><strong>Passar för:</strong> aromaterapientusiaster som vill ha ren doftspridning och exakta program, och som inte har något emot att hålla sig till märkets eget sortiment.</p>
+
+<h3>5. Levoit Dual 200S: den smarta luftfuktaren som också sprider doft</h3>
+<p>Dual 200S är i första hand en luftfuktare med ultraljud på 3 liter, avsedd för rum på 10–27 m², med upp till 25 timmars drifttid på lägsta nivån. Den styrs via appen VeSync, fungerar med Alexa och Google Assistant och har ett autoläge som justerar dimman för att hålla en jämn luftfuktighet. Ett par droppar eterisk olja kan tillsättas i det särskilda facket i foten, inte i tanken.</p>
+<p><strong>Styrkor:</strong> två funktioner i en, autoläge som styrs av luftfuktigheten, lätt att fylla på uppifrån.</p>
+<p><strong>Svagheter:</strong> doften förblir diskret och det är ingen riktig doftspridare; den gör ingen nytta om luften redan är fuktig (för hög luftfuktighet gynnar mögel).</p>
+<p><strong>Passar för:</strong> bostäder med torr luft på vintern, i ett sovrum eller barnrum där det framför allt handlar om att fukta luften. Håll koll på luftfuktigheten: vår guide om <a href="/sv/blog/qualite-air-interieur-capteurs">luftkvalitet inomhus och sensorer</a> hjälper dig.</p>
+
+<h3>Alternativ som inte är uppkopplade</h3>
+<p><strong>Pranarôm Diffuseur Edison</strong> (inte uppkopplad): en nebulisator utan vatten i trä och munblåst glas. Den drivs via USB och har två program på 30 eller 60 minuter som automatiskt växlar mellan 2 minuters doftspridning och 1 minuts paus, för rum på upp till ca 30 m². Ingen app, men en genomtänkt intervallcykel.</p>
+<p><strong>MUJI Large Aroma Diffuser</strong> (inte uppkopplad): en doftspridare med ultraljud på 350 ml i avskalad design, med timer på 30, 60, 120 eller 180 minuter och två ljuslägen. Ett säkert kort om du inte behöver någon app.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Teknik</th><th>Uppkoppling</th><th>Viktigaste data</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>ASAKUKI Smart Wi-Fi 500 ml</td><td>Ultraljud</td><td>Wifi, Tuya Smart, Alexa, Google Home</td><td>Tank på 500 ml, 7 färger</td><td>Allsidig och automatiserad användning</td></tr>
+<tr><td>Maxcio 400 ml</td><td>Ultraljud</td><td>Wifi, Smart Life, Alexa, Google Home</td><td>Tank på 400 ml, instegsmodell</td><td>Första smarta doftspridaren</td></tr>
+<tr><td>Zen’Arôme Prague</td><td>Ultraljud</td><td>Wifi, Smart Life, Apple Home, Alexa, Google Home</td><td>Keramik, 120 ml, upp till 40 m²</td><td>Inredning och iPhone</td></tr>
+<tr><td>Atomiser Connect</td><td>Nebulisator utan vatten</td><td>Bluetooth, egen app</td><td>Två spridarhuvuden</td><td>Spridning av rena oljor</td></tr>
+<tr><td>Levoit Dual 200S</td><td>Luftfuktare med ultraljud</td><td>Wifi, VeSync, Alexa, Google Assistant</td><td>3 l, autoläge efter luftfuktighet</td><td>Torr vinterluft</td></tr>
+<tr><td>Pranarôm Edison</td><td>Nebulisator utan vatten</td><td>Inte uppkopplad</td><td>Cykel 2 min på / 1 min paus</td><td>Alternativ utan app</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att låta den gå oavbrutet i timmar</strong>: lång drifttid betyder inte att du ska sprida doft hela natten. Korta, schemalagda omgångar är bättre.</li>
+<li><strong>Att slarva med rengöringen</strong>: en tank med stillastående vatten blir snabbt en grogrund för bakterier. Töm den efter användning och rengör den varje vecka enligt tillverkarens anvisningar.</li>
+<li><strong>Att använda syntetiska doftoljor i en nebulisator</strong>: vissa apparater är bara gjorda för rena eteriska oljor, och tjockare oljor kan sätta igen dem.</li>
+<li><strong>Att glömma bort wifi på 2,4 GHz</strong>: kontrollera att din router har det innan du köper.</li>
+<li><strong>Att hälla olja i en luftfuktare som inte är gjord för det</strong>: använd bara det särskilda facket, om det finns ett.</li>
+</ul>
+
+<h2>Säkerhet: barn, graviditet och husdjur</h2>
+<p>Eteriska oljor är verksamma ämnen, inte bara behagliga dofter. Oavsett vilken doftspridare du väljer gäller några allmänna försiktighetsråd:</p>
+<ul>
+<li><strong>Vädra</strong> rummet regelbundet och begränsa tiden; många farmaceuter föreslår omgångar på ungefär 15–30 minuter, följda av en paus.</li>
+<li><strong>Barn</strong>: vissa eteriska oljor rekommenderas inte till bebisar och små barn. Undvik att sprida doft i rummet där de är, särskilt när de sover.</li>
+<li><strong>Graviditet och amning</strong>: många oljor rekommenderas inte, särskilt inte i början av graviditeten. Fråga en läkare eller farmaceut innan du sprider doft.</li>
+<li><strong>Astma, epilepsi, allergier</strong>: doftspridningen kan vara irriterande, så rådfråga gärna en läkare.</li>
+<li><strong>Husdjur, särskilt katter</strong>: katter har svårt att bryta ned vissa ämnen i eteriska oljor och är särskilt känsliga för dem. Sprid aldrig doft i ett stängt rum där ett djur befinner sig, se alltid till att det kan ta sig därifrån och be din veterinär om råd. Fåglar och små gnagare är också mycket känsliga.</li>
+<li>Placera doftspridaren utom räckhåll för barn och husdjur, på en stabil yta, och förvara flaskorna på ett säkert ställe.</li>
+</ul>
+<p>Informationen är allmän och är ingen medicinsk rådgivning. Är du osäker, rådfråga vårdpersonal.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta hushåll ger <strong>ASAKUKI Smart Wi-Fi 500 ml</strong> den bästa balansen mellan volym, schemaläggning och stöd för röstassistenter. <strong>Maxcio 400 ml</strong> är det smarta budgetvalet, och <strong>Zen’Arôme Prague</strong> tilltalar dig som vill ha ett vackert föremål som fungerar med Apple Home. Purister inom aromaterapi väljer hellre <strong>Atomiser Connect</strong>, medan <strong>Levoit Dual 200S</strong> är det självklara valet om du framför allt behöver fukta torr luft. Hela urvalet hittar du i kategorin <a href="/sv/confort-air/diffuseurs">doftspridare</a>, och håll koll på luftfuktigheten i rummen med vår <a href="/sv/blog/deshumidificateur-connecte-guide">guide till smarta avfuktare</a>.</p>`,
+    us: `<p>For most homes in 2026, the best smart essential oil diffuser is the <strong>ASAKUKI Smart Wi-Fi Essential Oil Diffuser</strong>: a 17 fl oz (500 ml) ultrasonic model you control from an app, compatible with Alexa and Google Home, that runs a whole evening without a refill. If budget comes first, the <strong>Maxcio 400 ml</strong> covers the essentials, and if you’d rather diffuse pure oils without water, the <strong>Aromatherapy Associates Atomiser Connect</strong> is one of the few nebulizers you can control from your phone.</p>
+<p>This comparison is based on manufacturer specs, European retailer listings, published independent reviews and verified owner feedback. We clearly separate the models that are genuinely smart from the ones that aren’t, and we finish with safety precautions, which matter a lot with essential oils.</p>
+
+<h2>Smart diffusers: what the app actually changes</h2>
+<p>A standard diffuser starts with a button and stops after a fixed timer. A smart model adds three things that are useful day to day:</p>
+<ul>
+<li><strong>Scheduling</strong>: start diffusing in the evening before bed, or limit it to short time slots, without having to think about it.</li>
+<li><strong>Remote and voice control</strong>: “Alexa, turn off the diffuser” when your hands are full, or when you forgot to switch it off before leaving the house.</li>
+<li><strong>Routines</strong>: trigger the mood light and the diffuser together with an “evening” scene in Alexa, Google Home or Apple Home, depending on the model.</li>
+</ul>
+<p>Scheduling also has a common-sense benefit: it makes it easier to stick to short diffusion sessions, which most aromatherapy professionals recommend.</p>
+
+<h2>Ultrasonic or nebulizer: two very different technologies</h2>
+<h3>Ultrasonic diffusers</h3>
+<p>This is by far the most common technology among smart models. You fill a water tank, add a few drops of essential oil, and a vibrating plate produces a cool mist. Pros: quiet, economical (it uses little oil) and long-running. Cons: the scent is diluted and less intense, the tank has to be emptied and cleaned regularly so water doesn’t sit, and hard water can leave a light white film on nearby furniture.</p>
+<h3>Nebulizing diffusers</h3>
+<p>A nebulizer works without water: it breaks pure essential oil into micro-droplets. The scent is much stronger and truer to the oil, but it goes through more product and can be slightly louder. Because the oil isn’t diluted, this is the technology that calls for the most care with session length.</p>
+<h3>Humidifiers with an aroma tray</h3>
+<p>There’s a third category: some smart humidifiers, such as the Levoit Dual 200S, have a compartment designed for a few drops of oil. Strictly speaking, it isn’t a diffuser, but it makes sense if your air gets dry in winter. Never put oil in the tank of a humidifier that isn’t designed for it: it can damage the plastic and void the warranty.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Ecosystem</strong>: most affordable models use the Smart Life or Tuya Smart app and are then controlled through Alexa or Google Home. If you’re on iPhone and Apple Home, check the listed compatibility before you buy.</li>
+<li><strong>2.4 GHz Wi-Fi</strong>: these devices usually can’t join a 5 GHz network. If your router combines both bands under one name, pairing may take a few extra steps.</li>
+<li><strong>Wi-Fi or Bluetooth</strong>: with Bluetooth, control only works when you’re nearby; only Wi-Fi lets you switch the diffuser off when you’re out.</li>
+<li><strong>Tank capacity</strong>: from 4 fl oz (120 ml) on a decorative model to 17 fl oz (500 ml) for long sessions. A bigger tank means fewer refills, but nothing says you have to diffuse for hours on end.</li>
+<li><strong>Auto shutoff</strong>: essential on an ultrasonic model, so the unit turns itself off when the water runs out.</li>
+<li><strong>Room size</strong>: a small decorative diffuser suits a bedroom or home office, not a large open-concept living room.</li>
+<li><strong>Maintenance</strong>: an easy-to-reach tank with a wide opening makes weekly cleaning much simpler.</li>
+</ul>
+
+<h2>The best smart essential oil diffusers in 2026</h2>
+
+<h3>1. ASAKUKI Smart Wi-Fi Essential Oil Diffuser (500 ml) — best overall</h3>
+<p>The Asakuki is one of the most widely sold smart diffusers in Europe. Its 17 fl oz (500 ml) tank gives it a long runtime, you control it with the Tuya Smart (or Smart Life) app, and it responds to Alexa and Google Home. The app lets you schedule on and off times, set the mist mode and choose from seven light colors, including a night-light mode. Auto shutoff when the water runs low is built in.</p>
+<p><strong>Pros:</strong> large capacity, the widespread Tuya ecosystem, full scheduling, broad voice assistant support.</p>
+<p><strong>Cons:</strong> 2.4 GHz Wi-Fi only, more functional than decorative, no native Apple Home support.</p>
+<p><strong>Best for:</strong> anyone who wants an easy-to-automate diffuser in a home that already runs on Alexa or Google Home.</p>
+
+<h3>2. Maxcio Smart Essential Oil Diffuser (400 ml) — best value</h3>
+<p>Maxcio, a brand known for smart plugs and accessories, makes a 14 fl oz (400 ml) ultrasonic diffuser that also runs on Smart Life / Tuya over 2.4 GHz Wi-Fi. You get Alexa and Google Home voice control, mist adjustment, a timer and a seven-color light ring. The tank allows long sessions, even if in practice you’ll break them up.</p>
+<p><strong>Pros:</strong> entry-level tier, a complete set of smart features, slots easily into an existing Smart Life setup.</p>
+<p><strong>Cons:</strong> a plainer finish, less mist adjustment than higher-end models.</p>
+<p><strong>Best for:</strong> a first smart diffuser for a bedroom or home office on a tight budget.</p>
+
+<h3>3. Zen’Arôme Diffuseur connecté Prague — most decorative, works with Apple Home</h3>
+<p>French brand Zen’Arôme makes the Prague, an ultrasonic diffuser in translucent ceramic sold mainly through wellness retailers. It connects over Wi-Fi through the Smart Life / Tuya Smart app and is listed as compatible with Apple Home, Alexa and Google Home. The app lets you create and save diffusion scenes (start and end times, intensity, light color). The buttons on the front still work without a phone.</p>
+<p><strong>Pros:</strong> a genuinely attractive piece, low power draw (2 W), programmable scenes, broad compatibility.</p>
+<p><strong>Cons:</strong> a small 4 fl oz (120 ml) tank, suited to rooms up to about 430 sq ft (40 m²).</p>
+<p><strong>Best for:</strong> anyone who wants a decorative piece for a living room or bedroom, especially iPhone users. The Venise model from the same brand offers the same features in openwork ceramic.</p>
+
+<h3>4. Aromatherapy Associates Atomiser Connect — the smart nebulizer</h3>
+<p>The Atomiser Connect is a waterless, heat-free nebulizer that diffuses pure oils. Its standout feature is a dual-pod system that lets you switch between two blends. The free app (iOS and Android) connects over Bluetooth and sets the intensity (standard or boost), the duration (30 minutes, 1 hour or 3 hours) and the light color, and it schedules sessions by day of the week. It runs cordless after a USB charge and was recognized at the Stylist Beauty Awards 2024.</p>
+<p><strong>Pros:</strong> intense diffusion that stays true to the oil, two blends, portable.</p>
+<p><strong>Cons:</strong> Bluetooth only (no control when you’re away and no voice assistant), higher oil consumption, premium tier. It’s designed around the brand’s own bottles, so check compatibility before you use others.</p>
+<p><strong>Best for:</strong> aromatherapy enthusiasts who want pure-oil diffusion and precise programs, and who are happy to stick with the brand’s lineup.</p>
+
+<h3>5. Levoit Dual 200S — the smart humidifier that also diffuses</h3>
+<p>The Dual 200S is first and foremost a 0.8-gallon (3 L) ultrasonic humidifier for rooms of 110 to 290 sq ft (10 to 27 m²), with up to 25 hours of runtime on the lowest setting. You control it through the VeSync app, it works with Alexa and Google Assistant, and its auto mode adjusts the mist to hold your target humidity. A few drops of essential oil go into the dedicated compartment in the base, not into the tank.</p>
+<p><strong>Pros:</strong> two jobs in one, an auto mode based on humidity, easy top filling.</p>
+<p><strong>Cons:</strong> the scent stays subtle, since it isn’t a true diffuser; pointless if your air is already humid (excess humidity encourages mold).</p>
+<p><strong>Best for:</strong> homes with dry winter air, in a bedroom or nursery where humidifying is the main goal. Keep an eye on humidity levels: our guide to <a href="/us/blog/qualite-air-interieur-capteurs">indoor air quality and sensors</a> will help.</p>
+
+<h3>Non-smart alternatives</h3>
+<p><strong>Pranarôm Diffuseur Edison</strong> (not smart): a waterless nebulizer in wood and hand-blown glass, USB-powered, with two 30- or 60-minute programs that automatically alternate 2 minutes of diffusion with 1 minute of rest, for rooms up to about 325 sq ft (30 m²). There’s no app, but the intermittent cycle is well thought out.</p>
+<p><strong>MUJI Large Aroma Diffuser</strong> (not smart): a 12 fl oz (350 ml) ultrasonic diffuser with a minimalist design, a 30-, 60-, 120- or 180-minute timer and two light settings. A safe bet if you don’t need an app.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Technology</th><th>Connectivity</th><th>Key spec</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>ASAKUKI Smart Wi-Fi 500 ml</td><td>Ultrasonic</td><td>Wi-Fi, Tuya Smart, Alexa, Google Home</td><td>17 fl oz (500 ml) tank, 7 colors</td><td>All-around, automated use</td></tr>
+<tr><td>Maxcio 400 ml</td><td>Ultrasonic</td><td>Wi-Fi, Smart Life, Alexa, Google Home</td><td>14 fl oz (400 ml) tank, entry-level</td><td>First smart diffuser</td></tr>
+<tr><td>Zen’Arôme Prague</td><td>Ultrasonic</td><td>Wi-Fi, Smart Life, Apple Home, Alexa, Google Home</td><td>Ceramic, 4 fl oz (120 ml), up to 430 sq ft</td><td>Decor and iPhone users</td></tr>
+<tr><td>Atomiser Connect</td><td>Waterless nebulizer</td><td>Bluetooth, dedicated app</td><td>Dual diffusion pods</td><td>Pure-oil diffusion</td></tr>
+<tr><td>Levoit Dual 200S</td><td>Ultrasonic humidifier</td><td>Wi-Fi, VeSync, Alexa, Google Assistant</td><td>0.8 gal (3 L), humidity auto mode</td><td>Dry winter air</td></tr>
+<tr><td>Pranarôm Edison</td><td>Waterless nebulizer</td><td>Not smart</td><td>2 min on / 1 min off cycle</td><td>No-app alternative</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Diffusing nonstop for hours</strong>: a long runtime doesn’t mean you should diffuse all night. Short, scheduled sessions are better.</li>
+<li><strong>Skipping the cleaning</strong>: a tank of standing water quickly breeds bacteria. Empty it after use and clean it weekly following the manufacturer’s instructions.</li>
+<li><strong>Using synthetic fragrance oils in a nebulizer</strong>: some units are designed for pure essential oils only, and thick oils can clog them.</li>
+<li><strong>Overlooking 2.4 GHz Wi-Fi</strong>: check that your router offers it before you buy.</li>
+<li><strong>Adding oil to a humidifier that isn’t built for it</strong>: only use the dedicated compartment, if there is one.</li>
+</ul>
+
+<h2>Safety: kids, pregnancy and pets</h2>
+<p>Essential oils are active substances, not just pleasant scents. Whichever diffuser you choose, a few general precautions apply:</p>
+<ul>
+<li><strong>Air out</strong> the room regularly and limit diffusion time; many pharmacists suggest sessions of around 15 to 30 minutes followed by a break.</li>
+<li><strong>Children</strong>: some essential oils aren’t recommended for babies and young children. Avoid diffusing in the room they’re in, especially while they sleep.</li>
+<li><strong>Pregnancy and breastfeeding</strong>: many oils aren’t recommended, particularly in early pregnancy. Ask a doctor or pharmacist before diffusing.</li>
+<li><strong>Asthma, epilepsy, allergies</strong>: diffusing can be irritating, so get medical advice first.</li>
+<li><strong>Pets, especially cats</strong>: cats are poor at breaking down certain compounds found in essential oils and are particularly sensitive to them. Never diffuse in a closed room with an animal inside, always leave it a way out, and ask your vet for advice. Birds and small rodents are also very sensitive.</li>
+<li>Place the diffuser out of reach of children and pets, on a stable surface, and store the bottles safely.</li>
+</ul>
+<p>This information is general and isn’t medical advice. If in doubt, talk to your health care provider.</p>
+
+<h2>The bottom line</h2>
+<p>For most households, the <strong>ASAKUKI Smart Wi-Fi 500 ml</strong> offers the best balance of capacity, scheduling and voice assistant support. The <strong>Maxcio 400 ml</strong> is the smart budget choice, and the <strong>Zen’Arôme Prague</strong> will appeal to anyone who wants a beautiful piece that works with Apple Home. Aromatherapy purists will prefer the <strong>Atomiser Connect</strong>, while the <strong>Levoit Dual 200S</strong> makes the most sense if your priority is humidifying dry air. Browse the full selection in our <a href="/us/confort-air/diffuseurs">diffusers</a> section, and keep an eye on indoor humidity with our <a href="/us/blog/deshumidificateur-connecte-guide">smart dehumidifier guide</a>.</p>`,
+    ca: `<p>For most homes in 2026, the best smart essential oil diffuser is the <strong>ASAKUKI Smart Wi-Fi Essential Oil Diffuser</strong>: a 500 mL ultrasonic model you control from an app, compatible with Alexa and Google Home, that lasts a whole evening without a refill. If budget comes first, the <strong>Maxcio 400 ml</strong> covers the essentials, and if you’d rather diffuse pure oils without water, the <strong>Aromatherapy Associates Atomiser Connect</strong> is one of the few nebulizers you can control from your phone.</p>
+<p>This comparison is based on manufacturer specifications, European retailer listings, published independent reviews and verified buyer feedback. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. We clearly separate the models that are genuinely smart from those that aren’t, and we finish with safety precautions, which matter a great deal with essential oils.</p>
+
+<h2>Smart diffusers: what the app actually changes</h2>
+<p>A standard diffuser starts with a button and stops after a fixed timer. A smart model adds three things that are useful day to day:</p>
+<ul>
+<li><strong>Scheduling</strong>: start diffusing in the evening before bed, or limit it to short time slots, without having to think about it.</li>
+<li><strong>Remote and voice control</strong>: “Alexa, turn off the diffuser” when your hands are full or you forgot to switch it off before heading out.</li>
+<li><strong>Routines</strong>: trigger the mood light and diffusion together with an “evening” scene in Alexa, Google Home or Apple Home, depending on the model.</li>
+</ul>
+<p>Scheduling also has a common-sense benefit: it makes it easier to stick to short diffusion sessions, which most aromatherapy professionals recommend.</p>
+
+<h2>Ultrasonic or nebulizer: two very different technologies</h2>
+<h3>Ultrasonic diffusers</h3>
+<p>This is by far the most common technology among smart models. You fill a water tank, add a few drops of essential oil, and a vibrating plate produces a cool mist. Pros: quiet, economical (it uses little oil), long runtime. Cons: the scent is diluted and less intense, the tank has to be emptied and cleaned regularly to avoid stagnant water, and hard water can leave a light white residue on nearby furniture.</p>
+<h3>Nebulizing diffusers</h3>
+<p>A nebulizer works without water: the pure essential oil is broken into micro-droplets. The scent is much stronger and truer to the oil, but it uses more product and can be slightly more audible. Because the oil is undiluted, this is the technology that calls for the most care with session length.</p>
+<h3>Humidifiers with an aroma tray</h3>
+<p>A third family: some smart humidifiers, such as the Levoit Dual 200S, have a compartment designed for a few drops of oil. It isn’t a diffuser strictly speaking, but it makes sense if your air gets dry in winter, as it often does when the heat runs for months. Never put oil in the tank of a humidifier that isn’t designed for it: it can damage the plastics and void the warranty.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Ecosystem</strong>: most affordable models use the Smart Life or Tuya Smart app and are then controlled through Alexa or Google Home. If you’re on iPhone and Apple Home, check the stated compatibility before buying.</li>
+<li><strong>2.4 GHz Wi-Fi</strong>: these devices usually can’t join a 5 GHz network. If your router merges both bands, pairing may take a few extra steps.</li>
+<li><strong>Wi-Fi or Bluetooth</strong>: with Bluetooth, control only works nearby; only Wi-Fi lets you switch the diffuser off when you’re out.</li>
+<li><strong>Tank capacity</strong>: from 120 mL on a decorative model to 500 mL for long sessions. A bigger tank means fewer refills, but nothing says you have to diffuse for hours on end.</li>
+<li><strong>Auto shut-off</strong>: a must on an ultrasonic model, so the unit switches off when the water runs out.</li>
+<li><strong>Room size</strong>: a small decorative diffuser suits a bedroom or home office, not a large open-concept living area.</li>
+<li><strong>Maintenance</strong>: an easy-to-reach tank with a wide opening makes weekly cleaning much simpler.</li>
+</ul>
+
+<h2>The best smart essential oil diffusers in 2026</h2>
+
+<h3>1. ASAKUKI Smart Wi-Fi Essential Oil Diffuser (500 mL) — best overall</h3>
+<p>The Asakuki is one of the best-selling smart diffusers in Europe. Its 500 mL tank gives it a long runtime, it’s controlled with the Tuya Smart (or Smart Life) app and it responds to Alexa and Google Home. The app lets you schedule on and off times, set the mist mode and choose from seven light colours, including a night-light mode. Auto shut-off when the water runs low is built in.</p>
+<p><strong>Strengths:</strong> large capacity, widespread Tuya ecosystem, full scheduling, broad voice compatibility.</p>
+<p><strong>Limitations:</strong> 2.4 GHz Wi-Fi only, more functional than decorative, no native Apple Home support.</p>
+<p><strong>Best for:</strong> anyone who wants an easy-to-automate diffuser in a home that already runs on Alexa or Google Home.</p>
+
+<h3>2. Maxcio Smart Essential Oil Diffuser (400 mL) — best value</h3>
+<p>Maxcio, a brand known for smart plugs and accessories, offers a 400 mL ultrasonic diffuser that also runs on Smart Life / Tuya over 2.4 GHz Wi-Fi. You get Alexa and Google Home voice control, mist adjustment, a timer and a seven-colour light ring. The tank allows long sessions, even if in practice you’ll split them up.</p>
+<p><strong>Strengths:</strong> entry-level tier, complete smart features, slots easily into an existing Smart Life setup.</p>
+<p><strong>Limitations:</strong> simpler finish, less mist adjustment than higher-end models.</p>
+<p><strong>Best for:</strong> a first smart diffuser for a bedroom or home office on a tight budget.</p>
+
+<h3>3. Zen’Arôme Diffuseur connecté Prague — most decorative, Apple Home compatible</h3>
+<p>French brand Zen’Arôme makes the Prague, an ultrasonic diffuser in translucent ceramic sold mainly through wellness retailers. It connects over Wi-Fi via the Smart Life / Tuya Smart app and is listed as compatible with Apple Home, Alexa and Google Home. The app lets you create and save diffusion scenes (start and end times, intensity, light colour). The buttons on the front still work without a phone.</p>
+<p><strong>Strengths:</strong> a genuinely attractive object, low power draw (2 W), programmable scenes, wide compatibility.</p>
+<p><strong>Limitations:</strong> small 120 mL tank, suited to rooms up to about 40 m² (430 sq. ft.).</p>
+<p><strong>Best for:</strong> anyone who wants a decorative piece for a living room or bedroom, especially iPhone users. The Venise model from the same brand offers the same features in openwork ceramic.</p>
+
+<h3>4. Aromatherapy Associates Atomiser Connect — the smart nebulizer</h3>
+<p>The Atomiser Connect is a waterless, heatless nebulizer that diffuses pure oils. Its standout feature is a dual-pod system that lets you switch between two blends. The free app (iOS and Android) connects over Bluetooth and sets the intensity (standard or boost), duration (30 minutes, 1 hour or 3 hours) and light colour, and schedules sessions by day of the week. It runs cordless after USB charging and won Best Diffuser at the Stylist Beauty Awards 2024.</p>
+<p><strong>Strengths:</strong> intense, true-to-oil diffusion, two blends, portable.</p>
+<p><strong>Limitations:</strong> Bluetooth only (no control away from home and no voice assistant), higher oil consumption, premium tier. It’s designed around the brand’s own bottles, so check compatibility before using others.</p>
+<p><strong>Best for:</strong> aromatherapy enthusiasts who want pure diffusion and precise programs, and are happy to stick with the brand’s range.</p>
+
+<h3>5. Levoit Dual 200S — the smart humidifier that also diffuses</h3>
+<p>The Dual 200S is first and foremost a 3-litre ultrasonic humidifier for rooms of 10 to 27 m² (about 110 to 290 sq. ft.), with up to 25 hours of runtime on the lowest setting. It’s controlled through the VeSync app, works with Alexa and Google Assistant, and has an auto mode that adjusts the mist to hold your target humidity. A few drops of essential oil go into the dedicated compartment in the base, not into the tank.</p>
+<p><strong>Strengths:</strong> two jobs in one, humidity-based auto mode, easy top filling.</p>
+<p><strong>Limitations:</strong> the scent stays subtle, since it isn’t a true diffuser; pointless if your air is already humid (excess humidity encourages mould).</p>
+<p><strong>Best for:</strong> homes with dry winter air, for a bedroom or nursery where humidifying is the main goal. Keep an eye on humidity levels: our guide to <a href="/ca/blog/qualite-air-interieur-capteurs">indoor air quality and sensors</a> will help.</p>
+
+<h3>Non-smart alternatives</h3>
+<p><strong>Pranarôm Diffuseur Edison</strong> (not connected): a waterless nebulizer in wood and hand-blown glass, USB-powered, with two 30- or 60-minute programs that automatically alternate 2 minutes of diffusion with 1 minute of rest, for rooms up to about 30 m² (320 sq. ft.). No app, but a well-thought-out intermittent cycle.</p>
+<p><strong>MUJI Large Aroma Diffuser</strong> (not connected): a 350 mL ultrasonic diffuser with a minimalist design, a 30-, 60-, 120- or 180-minute timer and two light settings. A safe bet if you don’t need an app.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Technology</th><th>Connectivity</th><th>Key spec</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>ASAKUKI Smart Wi-Fi 500 ml</td><td>Ultrasonic</td><td>Wi-Fi, Tuya Smart, Alexa, Google Home</td><td>500 mL tank, 7 colours</td><td>All-round, automated use</td></tr>
+<tr><td>Maxcio 400 ml</td><td>Ultrasonic</td><td>Wi-Fi, Smart Life, Alexa, Google Home</td><td>400 mL tank, entry-level</td><td>First smart diffuser</td></tr>
+<tr><td>Zen’Arôme Prague</td><td>Ultrasonic</td><td>Wi-Fi, Smart Life, Apple Home, Alexa, Google Home</td><td>Ceramic, 120 mL, up to 40 m²</td><td>Decor and iPhone users</td></tr>
+<tr><td>Atomiser Connect</td><td>Waterless nebulizer</td><td>Bluetooth, dedicated app</td><td>Dual diffusion pods</td><td>Pure oil diffusion</td></tr>
+<tr><td>Levoit Dual 200S</td><td>Ultrasonic humidifier</td><td>Wi-Fi, VeSync, Alexa, Google Assistant</td><td>3 L, humidity auto mode</td><td>Dry winter air</td></tr>
+<tr><td>Pranarôm Edison</td><td>Waterless nebulizer</td><td>Not connected</td><td>2 min on / 1 min off cycle</td><td>App-free alternative</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Diffusing non-stop for hours</strong>: a long runtime doesn’t mean you should diffuse all night. Short, scheduled sessions are better.</li>
+<li><strong>Skipping cleaning</strong>: a tank of stagnant water quickly breeds bacteria. Empty it after use and clean it weekly, following the manufacturer’s instructions.</li>
+<li><strong>Using synthetic fragrance oils in a nebulizer</strong>: some units are designed for pure essential oils only, and thick oils can clog them.</li>
+<li><strong>Ignoring 2.4 GHz Wi-Fi</strong>: check that your router offers it before you buy.</li>
+<li><strong>Adding oil to a humidifier that isn’t built for it</strong>: only use the dedicated compartment if there is one.</li>
+</ul>
+
+<h2>Safety: children, pregnancy and pets</h2>
+<p>Essential oils are active substances, not just pleasant scents. Whatever diffuser you choose, a few general precautions apply:</p>
+<ul>
+<li><strong>Air out</strong> the room regularly and limit diffusion time; many pharmacists suggest sessions of around 15 to 30 minutes followed by a break.</li>
+<li><strong>Children</strong>: some essential oils aren’t recommended for babies and young children. Avoid diffusing in the room they’re in, especially while they sleep.</li>
+<li><strong>Pregnancy and breastfeeding</strong>: many oils aren’t recommended, particularly in early pregnancy. Ask a doctor or pharmacist before diffusing.</li>
+<li><strong>Asthma, epilepsy, allergies</strong>: diffusion can be irritating, so medical advice is recommended.</li>
+<li><strong>Pets, especially cats</strong>: cats are poor at breaking down certain compounds found in essential oils and are particularly sensitive to them. Never diffuse in a closed room with an animal inside, always leave it a way out, and ask your vet for advice. Birds and small rodents are also very sensitive.</li>
+<li>Place the diffuser out of reach of children and pets, on a stable surface, and store bottles safely.</li>
+</ul>
+<p>This information is general and is not medical advice. If in doubt, talk to a health care professional.</p>
+
+<h2>Our verdict</h2>
+<p>For most households, the <strong>ASAKUKI Smart Wi-Fi 500 ml</strong> offers the best balance of capacity, scheduling and voice compatibility. The <strong>Maxcio 400 ml</strong> is the smart budget choice, and the <strong>Zen’Arôme Prague</strong> will appeal to anyone who wants a beautiful object that works with Apple Home. Aromatherapy purists will prefer the <strong>Atomiser Connect</strong>, while the <strong>Levoit Dual 200S</strong> makes the most sense if your priority is humidifying dry air. Browse the full selection in our <a href="/ca/confort-air/diffuseurs">diffusers</a> section, and keep an eye on room humidity with our <a href="/ca/blog/deshumidificateur-connecte-guide">smart dehumidifier guide</a>.</p>`,
   },
   faq: [
     {
@@ -792,6 +1116,9 @@ export const article: BlogArticle = {
         it: 'Che differenza c’è tra un diffusore a ultrasuoni e un nebulizzatore?',
         nl: 'Wat is het verschil tussen een ultrasone diffuser en een vernevelaar?',
         pl: 'Jaka jest różnica między dyfuzorem ultradźwiękowym a nebulizatorem?',
+        sv: 'Vad är skillnaden mellan en doftspridare med ultraljud och en nebulisator?',
+        us: 'What’s the difference between an ultrasonic diffuser and a nebulizer?',
+        ca: 'What is the difference between an ultrasonic diffuser and a nebulizer?',
       },
       answer: {
         fr: 'Le diffuseur à ultrasons mélange quelques gouttes d’huile à de l’eau et produit une brume froide et douce, économique en huile. Le nébuliseur fonctionne sans eau et pulvérise l’huile pure : la diffusion est plus intense, mais consomme plus d’huile et demande des sessions plus courtes.',
@@ -801,6 +1128,9 @@ export const article: BlogArticle = {
         it: 'Il diffusore a ultrasuoni miscela poche gocce di olio con l’acqua e produce un vapore freddo e delicato, con consumi ridotti. Il nebulizzatore funziona senz’acqua e frammenta l’olio puro: la diffusione è più intensa, ma consuma più olio e richiede sessioni più brevi.',
         nl: 'Een ultrasone diffuser mengt een paar druppels olie met water en maakt een zachte, koele nevel met weinig olieverbruik. Een vernevelaar werkt zonder water en verstuift pure olie: de geur is sterker, maar het verbruik is hoger en sessies moeten korter zijn.',
         pl: 'Dyfuzor ultradźwiękowy rozpyla kilka kropli olejku zmieszanych z wodą w postaci chłodnej, delikatnej mgiełki i zużywa niewiele olejku. Nebulizator działa bez wody i rozpyla czysty olejek: zapach jest intensywniejszy, ale zużycie olejku większe, a sesje powinny być krótsze.',
+        sv: 'En doftspridare med ultraljud blandar några droppar olja med vatten och ger en mild, kall dimma som drar lite olja. En nebulisator fungerar utan vatten och finfördelar ren olja: doften blir starkare, men den drar mer olja och bör köras i kortare omgångar.',
+        us: 'An ultrasonic diffuser mixes a few drops of oil with water and produces a gentle cool mist that uses little oil. A nebulizer works without water and atomizes pure oil: the scent is stronger, but it uses more oil and calls for shorter sessions.',
+        ca: 'An ultrasonic diffuser mixes a few drops of oil with water and produces a gentle cool mist that uses little oil. A nebulizer works without water and atomizes pure oil: the scent is stronger, but it uses more oil and calls for shorter sessions.',
       },
     },
     {
@@ -812,6 +1142,9 @@ export const article: BlogArticle = {
         it: 'Un diffusore smart funziona con Apple Casa (HomeKit)?',
         nl: 'Werkt een slimme diffuser met Apple Woning (HomeKit)?',
         pl: 'Czy inteligentny dyfuzor działa z Apple Home (HomeKit)?',
+        sv: 'Fungerar en smart doftspridare med Apple Home (HomeKit)?',
+        us: 'Does a smart diffuser work with Apple Home (HomeKit)?',
+        ca: 'Does a smart diffuser work with Apple Home (HomeKit)?',
       },
       answer: {
         fr: 'Rarement. La plupart des modèles passent par Smart Life / Tuya et se pilotent avec Alexa ou Google Home. Le Zen’Arôme Prague est annoncé compatible Apple Maison par ses distributeurs ; pour tout autre modèle, vérifiez la mention explicite avant l’achat.',
@@ -821,6 +1154,9 @@ export const article: BlogArticle = {
         it: 'Raramente. La maggior parte dei modelli usa Smart Life / Tuya e si comanda con Alexa o Google Home. Lo Zen’Arôme Prague è indicato dai rivenditori come compatibile con Apple Casa; per gli altri modelli, verifica che la compatibilità sia dichiarata esplicitamente.',
         nl: 'Zelden. De meeste modellen werken via Smart Life / Tuya en worden bediend met Alexa of Google Home. Winkels geven de Zen’Arôme Prague op als compatibel met Apple Woning; controleer bij andere modellen vóór aankoop of dit uitdrukkelijk vermeld staat.',
         pl: 'Rzadko. Większość modeli korzysta z aplikacji Smart Life / Tuya i steruje się nimi przez Alexę lub Google Home. Według dystrybutorów Zen’Arôme Prague jest zgodny z Apple Home; w przypadku innych modeli przed zakupem sprawdź, czy taka zgodność jest wyraźnie zadeklarowana.',
+        sv: 'Sällan. De flesta modeller använder Smart Life/Tuya och styrs med Alexa eller Google Home. Enligt återförsäljarna fungerar Zen’Arôme Prague med Apple Home. För alla andra modeller: kontrollera att stödet uttryckligen anges innan du köper.',
+        us: 'Rarely. Most models run on Smart Life / Tuya and are controlled through Alexa or Google Home. Retailers list the Zen’Arôme Prague as compatible with Apple Home; for any other model, look for an explicit mention before you buy.',
+        ca: 'Rarely. Most models run on Smart Life / Tuya and are controlled through Alexa or Google Home. Retailers list the Zen’Arôme Prague as Apple Home compatible; for any other model, look for an explicit mention of Apple Home before buying.',
       },
     },
     {
@@ -832,6 +1168,9 @@ export const article: BlogArticle = {
         it: 'Per quanto tempo si dovrebbero diffondere gli oli essenziali?',
         nl: 'Hoe lang kun je etherische oliën het beste verspreiden?',
         pl: 'Jak długo powinien pracować dyfuzor olejków eterycznych?',
+        sv: 'Hur länge ska man sprida eteriska oljor åt gången?',
+        us: 'How long should you run an essential oil diffuser?',
+        ca: 'How long should you diffuse essential oils for?',
       },
       answer: {
         fr: 'Il n’existe pas de règle unique, mais de nombreux pharmaciens conseillent des sessions courtes, de l’ordre de 15 à 30 minutes, suivies d’une pause et d’une aération de la pièce. La programmation d’un diffuseur connecté aide justement à respecter ces durées.',
@@ -841,6 +1180,9 @@ export const article: BlogArticle = {
         it: 'Non esiste una regola unica, ma molti farmacisti consigliano sessioni brevi, di circa 15-30 minuti, seguite da una pausa e dall’aerazione della stanza. La programmazione di un diffusore smart aiuta proprio a rispettare questi tempi.',
         nl: 'Er is geen vaste regel, maar veel apothekers adviseren korte sessies van ongeveer 15 tot 30 minuten, gevolgd door een pauze en ventileren. De planning van een slimme diffuser helpt je die tijden aan te houden.',
         pl: 'Nie ma jednej zasady, ale wielu farmaceutów zaleca krótkie sesje, trwające ok. 15–30 minut, a po nich przerwę i wietrzenie pomieszczenia. Harmonogram w inteligentnym dyfuzorze pomaga właśnie w przestrzeganiu tych czasów.',
+        sv: 'Det finns ingen allmängiltig regel, men många farmaceuter rekommenderar korta omgångar på ungefär 15–30 minuter, följda av en paus och vädring av rummet. Med schemaläggningen i en smart doftspridare blir det enkelt att hålla sig till de tiderna.',
+        us: 'There’s no single rule, but many pharmacists recommend short sessions of around 15 to 30 minutes, followed by a break and some fresh air in the room. A smart diffuser’s scheduling makes those limits easy to stick to.',
+        ca: 'There’s no single rule, but many pharmacists recommend short sessions of around 15 to 30 minutes, followed by a break to air out the room. A smart diffuser’s scheduling makes these limits easy to stick to.',
       },
     },
     {
@@ -852,6 +1194,9 @@ export const article: BlogArticle = {
         it: 'Si può usare un diffusore di oli essenziali in casa con un gatto?',
         nl: 'Kun je een aromadiffuser gebruiken als je een kat hebt?',
         pl: 'Czy można używać dyfuzora olejków eterycznych, gdy w domu jest kot?',
+        sv: 'Kan man använda en doftspridare för eteriska oljor när man har katt?',
+        us: 'Is an essential oil diffuser safe to use around a cat?',
+        ca: 'Is it safe to use an essential oil diffuser around a cat?',
       },
       answer: {
         fr: 'Avec beaucoup de prudence. Les chats éliminent mal certains composés des huiles essentielles. Ne diffusez jamais dans une pièce fermée où se trouve l’animal, laissez-lui une porte de sortie, limitez la durée et demandez conseil à votre vétérinaire, notamment sur les huiles à éviter.',
@@ -861,6 +1206,9 @@ export const article: BlogArticle = {
         it: 'Con molta cautela. I gatti smaltiscono male alcuni composti degli oli essenziali. Non diffondere mai in una stanza chiusa con il gatto all’interno, lasciagli sempre una via d’uscita, limita la durata e chiedi al veterinario quali oli evitare.',
         nl: 'Alleen met veel voorzichtigheid. Katten breken bepaalde stoffen uit etherische oliën slecht af. Verspreid nooit in een gesloten ruimte met de kat erin, geef hem altijd een uitweg, houd sessies kort en vraag je dierenarts welke oliën je beter vermijdt.',
         pl: 'Tak, ale z dużą ostrożnością. Organizm kota słabo usuwa niektóre związki zawarte w olejkach eterycznych. Nigdy nie włączaj dyfuzora w zamkniętym pomieszczeniu, w którym przebywa zwierzę, zostaw mu możliwość wyjścia, ograniczaj czas pracy urządzenia i poradź się weterynarza, zwłaszcza w kwestii olejków, których należy unikać.',
+        sv: 'Bara med stor försiktighet. Katter har svårt att bryta ned vissa ämnen i eteriska oljor. Sprid aldrig doft i ett stängt rum där katten finns, se till att den alltid kan ta sig därifrån, håll omgångarna korta och be veterinären om råd, bland annat om vilka oljor du bör undvika.',
+        us: 'Only with great care. Cats are poor at breaking down certain compounds in essential oils. Never diffuse in a closed room with the cat inside, always leave it a way out, keep sessions short and ask your vet for advice, including which oils to avoid.',
+        ca: 'Only with great care. Cats are poor at breaking down certain compounds in essential oils. Never diffuse in a closed room with the cat inside, always leave it a way out, keep sessions short and ask your vet for advice, including which oils to avoid.',
       },
     },
     {
@@ -872,6 +1220,9 @@ export const article: BlogArticle = {
         it: 'Si possono diffondere oli essenziali in gravidanza o vicino a un neonato?',
         nl: 'Mag je etherische oliën verspreiden tijdens de zwangerschap of bij een baby?',
         pl: 'Czy można używać dyfuzora olejków eterycznych w ciąży lub przy niemowlęciu?',
+        sv: 'Kan man sprida eteriska oljor när man är gravid eller nära en bebis?',
+        us: 'Can you diffuse essential oils during pregnancy or near a baby?',
+        ca: 'Can you diffuse essential oils during pregnancy or near a baby?',
       },
       answer: {
         fr: 'De nombreuses huiles sont déconseillées pendant la grossesse, surtout au premier trimestre, ainsi que chez les bébés et jeunes enfants. Demandez l’avis d’un médecin ou d’un pharmacien et évitez de diffuser dans la chambre d’un enfant. Ceci n’est pas un avis médical.',
@@ -881,6 +1232,9 @@ export const article: BlogArticle = {
         it: 'Molti oli sono sconsigliati in gravidanza, soprattutto nel primo trimestre, e per neonati e bambini piccoli. Chiedi il parere di un medico o di un farmacista ed evita di diffondere nella cameretta. Questo non è un parere medico.',
         nl: 'Veel oliën worden afgeraden tijdens de zwangerschap, vooral in het eerste trimester, en bij baby’s en jonge kinderen. Vraag advies aan een arts of apotheker en verspreid niet in een kinderkamer. Dit is geen medisch advies.',
         pl: 'Wiele olejków jest niewskazanych w ciąży, zwłaszcza w pierwszym trymestrze, a także u niemowląt i małych dzieci. Zasięgnij opinii lekarza lub farmaceuty i nie włączaj dyfuzora w pokoju dziecka. To nie jest porada medyczna.',
+        sv: 'Många oljor rekommenderas inte under graviditeten, särskilt inte under första trimestern, och inte heller till bebisar och små barn. Fråga en läkare eller farmaceut, och undvik att sprida doft i barnrummet. Det här är ingen medicinsk rådgivning.',
+        us: 'Many oils aren’t recommended during pregnancy, especially in the first trimester, or around babies and young children. Ask a doctor or pharmacist, and avoid diffusing in a child’s bedroom. This isn’t medical advice.',
+        ca: 'Many oils are not recommended during pregnancy, especially in the first trimester, or for babies and young children. Ask a doctor or pharmacist, and avoid diffusing in a child’s bedroom. This is not medical advice.',
       },
     },
     {
@@ -892,6 +1246,9 @@ export const article: BlogArticle = {
         it: 'Perché il mio diffusore smart non si collega al Wi-Fi?',
         nl: 'Waarom maakt mijn slimme diffuser geen verbinding met wifi?',
         pl: 'Dlaczego mój inteligentny dyfuzor nie łączy się z Wi-Fi?',
+        sv: 'Varför ansluter inte min smarta doftspridare till wifi?',
+        us: 'Why won’t my smart diffuser connect to Wi-Fi?',
+        ca: 'Why won’t my smart diffuser connect to Wi-Fi?',
       },
       answer: {
         fr: 'Dans la grande majorité des cas, l’appareil n’accepte que le Wi-Fi 2,4 GHz. Activez cette bande sur votre box (ou un réseau invité en 2,4 GHz), rapprochez le diffuseur du routeur pendant l’appairage et suivez la procédure de réinitialisation indiquée dans l’appli.',
@@ -901,6 +1258,9 @@ export const article: BlogArticle = {
         it: 'Nella maggior parte dei casi l’apparecchio supporta solo il Wi-Fi a 2,4 GHz. Attiva questa banda sul router (o una rete ospiti a 2,4 GHz), avvicina il diffusore al router durante l’abbinamento e segui la procedura di reset indicata nell’app.',
         nl: 'Meestal ondersteunt het apparaat alleen wifi op 2,4 GHz. Schakel die band in op je router (of een gastnetwerk op 2,4 GHz), zet de diffuser tijdens het koppelen dicht bij de router en volg de resetprocedure in de app.',
         pl: 'W zdecydowanej większości przypadków urządzenie obsługuje tylko Wi-Fi 2,4 GHz. Włącz to pasmo w routerze (albo utwórz sieć dla gości w paśmie 2,4 GHz), na czas parowania postaw dyfuzor bliżej routera i wykonaj procedurę resetu opisaną w aplikacji.',
+        sv: 'I de allra flesta fall klarar apparaten bara wifi på 2,4 GHz. Aktivera det bandet i routern (eller ett gästnätverk på 2,4 GHz), håll doftspridaren nära routern under parkopplingen och följ anvisningarna för återställning i appen.',
+        us: 'In most cases, the device only supports 2.4 GHz Wi-Fi. Turn on that band on your router (or set up a 2.4 GHz guest network), keep the diffuser close to the router while pairing and follow the reset steps shown in the app.',
+        ca: 'In most cases the device only supports 2.4 GHz Wi-Fi. Enable that band on your router (or a 2.4 GHz guest network), keep the diffuser close to the router while pairing and follow the reset procedure shown in the app.',
       },
     },
   ],

@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: "Una friggitrice ad aria Philips a manopole, il formato a cassetto nato con l’Airfryer del 2010",
         nl: "Een Philips-airfryer met draaiknoppen, het ladeformaat dat ontstond met de Airfryer van 2010",
         pl: "Frytkownica Philips Airfryer z pokrętłami – konstrukcja z szufladą, która narodziła się wraz z pierwszym modelem z 2010 roku",
+        sv: "En airfryer från Philips med vred, i det lådformat som Philips Airfryer introducerade 2010",
+        us: "A Philips air fryer with dials, the drawer-style design that debuted with the original 2010 Airfryer",
+        ca: "A Philips air fryer with dials, the drawer format born with the 2010 Airfryer",
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: "Storia della friggitrice ad aria: dall’ActiFry e dalla Philips Airfryer ai modelli del 2026",
     nl: "Geschiedenis van de airfryer: van ActiFry en Philips Airfryer tot de modellen van 2026",
     pl: "Historia frytkownicy beztłuszczowej: od ActiFry i Philips Airfryer do modeli z 2026 roku",
+    sv: "Airfryerns historia: från ActiFry och Philips Airfryer till 2026 års modeller",
+    us: "History of the Air Fryer: From ActiFry and the Philips Airfryer to 2026 Models",
+    ca: "History of the Air Fryer: From ActiFry and the Philips Airfryer to 2026 Models",
   },
   excerpt: {
     fr: "Qui a inventé l’airfryer ? De l’ActiFry de Tefal en 2006 à l’Airfryer de Philips imaginé par Fred van der Weij en 2010, puis la double zone de 2020 : les dates clés et ce qu’elles changent pour choisir en 2026.",
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: "Chi ha inventato la friggitrice ad aria? Dall’ActiFry di Tefal del 2006 all’Airfryer Philips ideata da Fred van der Weij nel 2010, fino alla doppia zona del 2020: le date chiave e cosa significano per scegliere nel 2026.",
     nl: "Wie heeft de airfryer uitgevonden? Van de ActiFry van Tefal in 2006 tot de Philips Airfryer van Fred van der Weij in 2010 en dual zone in 2020: de belangrijkste data en wat ze betekenen voor je keuze in 2026.",
     pl: "Kto wynalazł frytkownicę beztłuszczową? Od ActiFry marki Tefal z 2006 roku, przez Philips Airfryer zaprojektowany przez Freda van der Weija w 2010 roku, po modele z dwiema strefami z 2020 roku: najważniejsze daty i to, co oznaczają przy wyborze frytkownicy w 2026 roku.",
+    sv: "Vem uppfann airfryern? Från Tefals ActiFry 2006 och Philips Airfryer, som Fred van der Weij tog fram 2010, till modellerna med två zoner 2020: de viktigaste årtalen och vad de betyder när du väljer 2026.",
+    us: "Who invented the air fryer? From Tefal’s ActiFry in 2006 to the Philips Airfryer designed by Fred van der Weij in 2010, then dual-zone models in 2020: the key dates and what they mean for buying one in 2026.",
+    ca: "Who invented the air fryer? From Tefal’s ActiFry in 2006 to the Philips Airfryer designed by Fred van der Weij in 2010, then dual zones in 2020: the key dates and what they mean when choosing in 2026.",
   },
   content: {
     fr: `<p><strong>L’airfryer tel qu’on le connaît a été mis au point par l’ingénieur néerlandais Fred van der Weij et présenté par Philips au salon IFA de Berlin en septembre 2010.</strong> Mais il n’était pas le tout premier appareil de friture à air chaud : dès 2006, Tefal (groupe SEB) lançait en France l’ActiFry, qui cuisait les frites avec une seule cuillère d’huile grâce à une pale de brassage.</p>
@@ -825,6 +834,342 @@ export const article: BlogArticle = {
 
 <h2>Werdykt</h2>
 <p>Historię frytkownicy beztłuszczowej można streścić w dwóch datach: <strong>2006</strong>, gdy Tefal wprowadza ActiFry, i <strong>2010</strong>, gdy Philips prezentuje Airfryer zaprojektowany przez Freda van der Weija i ustanawia standard konstrukcji z szufladą. Od tamtej pory urządzenia zyskały większą pojemność, kolejne strefy i łączność z aplikacjami. Rodzinie, która chce skorzystać ze wszystkich tych nowości, najwięcej możliwości da <strong>Ninja Foodi FlexDrawer</strong>. Przy prostym użytkowaniu dla 2–4 osób <strong>Philips Airfryer Seria 3000 XL</strong> pozostaje najbliższym następcą oryginału. A jeśli chcesz robić frytki bez potrząsania koszem, <strong>ActiFry Genius XL 2in1</strong> kontynuuje pomysł z 2006 roku.</p>`,
+    sv: `<p><strong>Airfryern som vi känner den i dag togs fram av den nederländske ingenjören Fred van der Weij och visades upp av Philips på IFA-mässan i Berlin i september 2010.</strong> Den var ändå inte den allra första apparaten som ”friterade” med varmluft: redan 2006 lanserade Tefal (Groupe SEB) ActiFry i Frankrike, som tillagade pommes frites med en enda sked olja tack vare en omrörningsarm.</p>
+<p>Den här artikeln går igenom de viktigaste milstolparna, från efterkrigstidens varmluftsugnar till 2026 års modeller med två zoner och app, och förklarar sedan vad utvecklingen betyder när du väljer apparat i dag. Den bygger på offentliga källor, tillverkarnas produktblad, oberoende utvärderingar och verifierade köparomdömen. Vill du jämföra dagens modeller hittar du dem i vår <a href="/sv/guides/airfryers">köpguide för airfryrar</a>.</p>
+
+<h2>Före airfryern: varmluft är en gammal idé</h2>
+<p>Att låta en fläkt blåsa runt het luft så att maten blir klar snabbare och jämnare är inget nytt. En första ugn med fläkt konstruerades redan 1914 men kom aldrig ut på marknaden, och <strong>Maxson Whirlwind Oven</strong>, som lanserades 1945 för att värma måltider ombord på flygplan, räknas som den första varmluftsugnen i bred användning. Med tiden blev varmluftsugnen standard i vanliga hemkök.</p>
+<p>Utmaningen var hela tiden densamma: att få den krispiga ytan som friterade pommes frites har, fast utan oljebadet. En vanlig ugn är för stor, och luften rör sig för långsamt för att små bitar snabbt ska få färg. Hela poängen med airfryern blev att samla ett snabbt och mycket varmt luftflöde i ett litet utrymme, tätt intill maten.</p>
+
+<h2>2006: Tefals ActiFry, den första fritösen utan oljebad</h2>
+<p>År 2006 lanserade Tefal <strong>ActiFry</strong> i Frankrike. Principen: en rund skål, ett lock som blåser varmluft och en <strong>roterande omrörningsarm</strong> som håller maten i rörelse hela tiden. En sked olja räcker till en portion pommes frites, och du behöver aldrig skaka något.</p>
+<p>ActiFry gjorde idén om en ”fritös utan olja” känd för den breda allmänheten, särskilt i Frankrike och Sydeuropa. Dess styrka, den automatiska omrörningen, är fortfarande seriens kännetecken. Den historiska begränsningen: den passar bra för pommes frites, grönsaker och grytor, men sämre för ömtåliga råvaror som inte tål att röras om.</p>
+
+<h2>2010: Fred van der Weij, Philips och Rapid Air-tekniken</h2>
+<p>I Nederländerna arbetade <strong>Fred van der Weij</strong>, en ingenjör som älskade pommes frites men inte oset och fettet från fritösen, på en egen apparat som tillagade maten med varmluft. De första prototyperna, byggda av trä, aluminium och hönsnät, gav pommes frites som var brända utanpå och fortfarande frysta inuti. Efter flera års utveckling fick han fram ett övertygande resultat och tog med sig idén till <strong>Philips</strong>.</p>
+<p>Philips gjorde en färdig produkt av idén och presenterade den på <strong>IFA i Berlin den 3 september 2010</strong> under namnet <strong>Airfryer</strong>. Tekniken fick namnet <strong>Rapid Air</strong>: ett värmeelement precis ovanför maten kombinerar strålningsvärme med luft som en fläkt driver i hög hastighet runt en perforerad korg. Philips har patent på tekniken.</p>
+<p>Den första modellen, <strong>Airfryer HD9220</strong>, slog fast det format som blev standard: en kompakt apparat för köksbänken, en låda med löstagbar korg samt mekanisk termostat och timer. Den rymde ungefär 800 g pommes frites och passade främst två personer. Philips lyfte fram att maten kunde tillagas med lite eller ingen tillsatt olja, ett hälsoargument som skulle komma att bära hela kategorin.</p>
+
+<h2>2010–2019: från nyhet till vardagsvana</h2>
+<p>Under decenniet tog många märken efter Philips lådformat, från instegsmodeller till premium. Namnet <em>airfryer</em> blev efter hand ett allmänt ord för hela produkttypen, ungefär som termos eller frigolit. Flera förändringar präglade perioden:</p>
+<ul>
+<li><strong>Övergången till digitalt</strong>: pekskärmar, förinställda program och exakt temperaturreglering ersatte vreden.</li>
+<li><strong>Större korgar</strong>: i mitten av 2010-talet lanserade Philips serien <strong>Airfryer XXL</strong>, gjord för att rymma ungefär 1,4 kg pommes frites, en hel kyckling eller en familjemiddag.</li>
+<li><strong>Särskilda tillbehör</strong>: kakformar, galler och grillspett, som visade att apparaten klarade mycket mer än pommes frites.</li>
+<li><strong>Första steget mot uppkoppling</strong>: receptappar (NutriU för Philips, VeSync för Cosori, Xiaomis ekosystem) och, på vissa modeller, fjärrstyrning.</li>
+</ul>
+<p>Konkurrensen pressade också instegspriset. Airfryern, som först såldes som en exklusiv pryl, blev ett vardagsköp, och det förklarar till stor del hur snabbt den spreds i Europa.</p>
+
+<h2>2020: två zoner och pandemieffekten</h2>
+<p>År 2020 lanserade <strong>Ninja</strong> (SharkNinja) sin <strong>Foodi Dual Zone</strong>, som marknadsfördes som den första airfryern med två fristående korgar. Varje låda har eget värmeelement, egen fläkt och egna inställningar. Med en synkfunktion kan du starta två olika tillagningar som blir klara samtidigt: pommes frites på ena sidan, kyckling på den andra.</p>
+<p>Samma år fick nedstängningarna i många länder under covid-19-pandemin miljontals människor att börja laga mer mat hemma. Det gynnade airfryern, som är enkel, snabb och snål jämfört med en stor ugn. Sociala medier gjorde resten: receptvideor gjorde apparaten till ett kulturfenomen och breddade användningen till desserter, rostade grönsaker och uppvärmda rester. Fler vardagsidéer hittar du i vår guide till <a href="/sv/blog/cuisiner-healthy-airfryer">nyttig matlagning i airfryer</a>.</p>
+
+<h2>2023–2026: stora volymer, hybridformat och uppkoppling</h2>
+<p>Sedan 2023 handlar nyheterna mindre om själva tillagningsprincipen och mer om <strong>format</strong> och <strong>användarvänlighet</strong>:</p>
+<ul>
+<li><strong>Den flexibla lådan</strong>: 2023 lanserade Ninja <strong>Foodi FlexDrawer</strong> på 10,4 liter, där en löstagbar skiljevägg ger antingen en stor låda eller två zoner på 5,2 liter.</li>
+<li><strong>Airfryerugnen</strong>: samma år presenterade Philips <strong>Airfryer Combi XXL Connected</strong> på 8,3 liter, som för airfryern närmare en miniugn, med stektermometer och styrning via appen NutriU.</li>
+<li><strong>Staplade lådor</strong>: 2024 placerade <strong>Ninja Foodi MAX Double Stack XL</strong> två lådor ovanpå varandra och fick in 9,5 liter på samma bänkyta som en vanlig apparat.</li>
+<li><strong>Dubbla värmeelement</strong>: modeller som <strong>Cosori Dual Blaze</strong> värmer både ovanifrån och underifrån, vilket minskar behovet av att vända maten.</li>
+</ul>
+<p>Tillverkarna lyfter också allt oftare fram beläggningar som marknadsförs som PFAS-fria, korgar som tål diskmaskin och tittfönster. Påståendena varierar från modell till modell, så kontrollera alltid tillverkarens produktblad i stället för att lita på kartongen. Vår <a href="/sv/blog/comparatif-airfryer-connecte-2026">jämförelse av smarta airfryrar 2026</a> förklarar vad apparna faktiskt tillför.</p>
+
+<h2>Tidslinje: viktiga årtal i airfryerns historia</h2>
+<table>
+<thead>
+<tr><th>År</th><th>Händelse</th><th>Vad det förändrade</th></tr>
+</thead>
+<tbody>
+<tr><td>1945</td><td>Maxson Whirlwind Oven, den första varmluftsugnen i bred användning</td><td>Varmluften gör entré i matlagningen</td></tr>
+<tr><td>2006</td><td>Tefal lanserar ActiFry i Frankrike</td><td>Den första varmluftsfritösen för vanliga konsumenter, med omrörningsarm</td></tr>
+<tr><td>2010</td><td>Philips presenterar Airfryer på IFA i Berlin (uppfunnen av Fred van der Weij)</td><td>Lådformatet och Rapid Air-tekniken föds</td></tr>
+<tr><td>Mitten av 2010-talet</td><td>Serien Philips Airfryer XXL</td><td>Airfryern får familjestorlek</td></tr>
+<tr><td>2020</td><td>Ninja Foodi Dual Zone, den första modellen med två fristående korgar</td><td>Två rätter på en gång som blir klara samtidigt</td></tr>
+<tr><td>2023</td><td>Ninja Foodi FlexDrawer och Philips Airfryer Combi XXL Connected</td><td>Flexibel låda och ett steg mot miniugnen</td></tr>
+<tr><td>2024</td><td>Ninja Foodi MAX Double Stack XL</td><td>Stor volym på liten bänkyta</td></tr>
+</tbody>
+</table>
+
+<h2>Vad historien betyder när du väljer 2026</h2>
+<p>Femton års utveckling har gett upphov till mycket olika typer av apparater. Ställ dig de här frågorna innan du köper:</p>
+<ul>
+<li><strong>Hur många är ni?</strong> En korg på 4–6 liter räcker för 2–4 personer. Är ni fler passar en enda stor låda eller en modell med två zoner bättre.</li>
+<li><strong>En rätt eller två samtidigt?</strong> Två zoner är praktiskt om du ofta lagar en huvudrätt och ett tillbehör. Annars är en enda stor korg mer mångsidig för en hel kyckling eller en gratäng.</li>
+<li><strong>Omrörningsarm eller korg?</strong> Med ActiFrys arm slipper du skaka om pommes frites, men den passar sämre för panerade eller ömtåliga råvaror.</li>
+<li><strong>Hur mycket bänkyta har du?</strong> Modeller med två lådor sida vid sida är breda; staplade modeller är högre.</li>
+<li><strong>Behöver du en app?</strong> Den är mest användbar för guidade recept och för att följa tillagningen på distans. Lagar du enkel mat klarar du dig utan.</li>
+</ul>
+
+<h2>Arvtagarna: 6 aktuella modeller</h2>
+
+<h3>Ninja Foodi FlexDrawer 10.4L Dual Zone</h3>
+<p><strong>Styrkor</strong>: kulmen på idén med två zoner som Ninja lanserade 2020. Med skiljeväggen på plats får du två fristående zoner som kan bli klara samtidigt; utan den en stor låda för en hel kyckling eller en stek. <strong>Svagheter</strong>: bred och tung. <strong>Bäst för</strong>: familjer som vill ha både två tillagningar samtidigt och stor volym.</p>
+
+<h3>Philips Airfryer 3000 Series XL - 6.2L</h3>
+<p><strong>Styrkor</strong>: den direkta arvtagaren till HD9220 från 2010. En enda korg på 6,2 liter, Rapid Air-teknik och mycket enkel hantering. <strong>Svagheter</strong>: en rätt i taget. <strong>Bäst för</strong>: hushåll med 2–4 personer som vill ha en klassisk och pålitlig airfryer.</p>
+
+<h3>Tefal ActiFry Genius XL 2in1 - 1.7kg</h3>
+<p><strong>Styrkor</strong>: ättlingen till ActiFry från 2006. Armen rör om maten av sig själv, och ett övre grillgaller gör att du kan tillaga på två nivåer. Automatiska program förenklar vardagsrätterna. <strong>Svagheter</strong>: passar inte så bra för panerade eller ömtåliga råvaror. <strong>Bäst för</strong>: dig som vill ha pommes frites och stekta grönsaker utan att behöva skaka korgen.</p>
+
+<h3>Philips Airfryer Combi XXL Connected - 8.3L</h3>
+<p><strong>Styrkor</strong>: stor volym på 8,3 liter, stektermometer för kött och styrning via appen NutriU. <strong>Svagheter</strong>: skrymmande och placerad i premiumsegmentet. <strong>Bäst för</strong>: dig som vill ha en mångsidig apparat någonstans mellan airfryer och miniugn.</p>
+
+<h3>Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L</h3>
+<p><strong>Styrkor</strong>: två staplade lådor som ger stor volym på ungefär samma bänkyta som en apparat med en korg. <strong>Svagheter</strong>: högre än genomsnittet, så mät det fria utrymmet under väggskåpen. <strong>Bäst för</strong>: familjer med ont om bredd på köksbänken.</p>
+
+<h3>Cosori Dual Blaze Smart Air Fryer - 6.4L</h3>
+<p><strong>Styrkor</strong>: värmeelement både upptill och nedtill som minskar behovet av att vända maten, plus appen VeSync för recept och uppföljning. <strong>Svagheter</strong>: bara en korg. <strong>Bäst för</strong>: dig som vill ha jämn tillagning och gärna styr från mobilen.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Format</th><th>Volym</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Ninja Foodi FlexDrawer</td><td>Flexibel låda, 1 eller 2 zoner</td><td>10,4 l</td><td>Nej</td><td>Stora familjer</td></tr>
+<tr><td>Philips 3000 Series XL</td><td>En korg</td><td>6,2 l</td><td>Nej</td><td>2–4 personer</td></tr>
+<tr><td>Tefal ActiFry Genius XL 2in1</td><td>Skål med omrörningsarm + grillgaller</td><td>1,7 kg</td><td>Nej</td><td>Pommes frites utan att skaka</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>Stor volym med stektermometer</td><td>8,3 l</td><td>Wifi (NutriU)</td><td>Tillagning som i en miniugn</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>Två staplade lådor</td><td>9,5 l</td><td>Nej</td><td>Små köksbänkar</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>En korg, dubbla värmeelement</td><td>6,4 l</td><td>Wifi (VeSync)</td><td>Jämn tillagning</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att tro att en airfryer alltid kan ersätta ugnen</strong>: för en stor familjerätt eller flera plåtar är ugnen fortfarande bättre. Läs vår artikel om <a href="/sv/blog/airfryer-vs-friteuse-traditionnelle">airfryer eller vanlig fritös</a> för att jämföra användningsområdena.</li>
+<li><strong>Att fylla korgen för mycket</strong>: luften måste kunna cirkulera. En för full korg gör maten slapp.</li>
+<li><strong>Att välja två zoner av ren reflex</strong>: varje zon är mindre än en enda stor korg. Lagar du oftast en rätt i taget är det kanske inte rätt val.</li>
+<li><strong>Att slarva med rengöringen</strong>: en smutsig korg ryker och tillagar sämre. Rengör den efter varje användning, och använd ingen skursvamp på beläggningen.</li>
+<li><strong>Att ställa apparaten mot en vägg eller under ett skåp</strong>: utblåset för varmluften måste vara fritt, precis som det står i bruksanvisningen.</li>
+</ul>
+
+<h2>Omdöme</h2>
+<p>Airfryerns historia kan sammanfattas med två årtal: <strong>2006</strong>, när Tefal lanserade ActiFry, och <strong>2010</strong>, när Philips presenterade Fred van der Weijs Airfryer och gjorde lådformatet till standard. Sedan dess har apparaten fått större volym, fler tillagningszoner och uppkoppling. För en familj som vill dra nytta av alla de här framstegen är <strong>Ninja Foodi FlexDrawer</strong> mest mångsidig. För 2–4 personer som vill ha något enkelt är <strong>Philips Airfryer 3000 Series XL</strong> fortfarande den mest direkta arvtagaren till originalet. Och vill du ha pommes frites utan att skaka korgen är det <strong>ActiFry Genius XL 2in1</strong> som för idén från 2006 vidare.</p>`,
+    us: `<p><strong>The air fryer as we know it was developed by Dutch engineer Fred van der Weij and unveiled by Philips at the IFA trade show in Berlin in September 2010.</strong> It wasn’t the very first hot-air fryer, though: back in 2006, Tefal (Groupe SEB) launched the ActiFry in France, which cooked fries with a single spoonful of oil thanks to a stirring paddle.</p>
+<p>This article traces the key milestones of that story, from postwar convection ovens to the dual-zone and smart models of 2026, then explains what that evolution means when you shop for one today. It draws on public sources, manufacturer specifications, independent reviews and verified owner feedback. To compare current models, see our <a href="/us/guides/airfryers">air fryer guide</a>.</p>
+
+<h2>Before the air fryer: forced hot air is an old idea</h2>
+<p>Using a fan to move hot air so food cooks faster and more evenly is nothing new. A first fan-forced oven was designed as early as 1914 but never went on sale, and the <strong>Maxson Whirlwind Oven</strong>, launched in 1945 to heat meals aboard aircraft, is regarded as the first widely used convection oven. Convection ovens then became standard in home kitchens.</p>
+<p>The challenge never changed: getting the crunchy outside of a deep-fried French fry without the vat of oil. A regular oven is too big, and the air inside moves too slowly to brown small pieces quickly. The whole point of the air fryer was to concentrate a fast stream of very hot air in a small space, right next to the food.</p>
+
+<h2>2006: Tefal’s ActiFry, the first fryer without an oil bath</h2>
+<p>In 2006, Tefal launched the <strong>ActiFry</strong> in France. The concept: a round bowl, a lid that blows hot air and a <strong>rotating paddle</strong> that keeps the food moving. One spoonful of oil is enough for a serving of fries, and you never have to shake anything.</p>
+<p>The ActiFry planted the idea of an “oil-free fryer” in the public mind, especially in France and southern Europe. Its big selling point, automatic stirring, is still the line’s signature today. Its long-standing weakness: it handles fries, vegetables and stews well, but not delicate foods that don’t like being stirred.</p>
+
+<h2>2010: Fred van der Weij, Philips and Rapid Air technology</h2>
+<p>In the Netherlands, <strong>Fred van der Weij</strong>, an engineer who loved fries but not the smell and grease of a deep fryer, was working on his own hot-air cooker. His first prototypes, built from wood, aluminum and chicken wire, turned out fries that were burned outside and still frozen inside. After several years of development he got a convincing result and pitched his concept to <strong>Philips</strong>.</p>
+<p>Philips turned the idea into a product and unveiled it at <strong>IFA Berlin on September 3, 2010</strong>, under the name <strong>Airfryer</strong>. The technology was called <strong>Rapid Air</strong>: a heating element just above the food combines radiant heat with fan-driven air that circulates at high speed around a perforated basket. Philips holds the patents on this technology.</p>
+<p>The first model, the <strong>Airfryer HD9220</strong>, set the format that became the standard: a compact countertop unit, a drawer with a removable basket, and a mechanical thermostat and timer. It held about 1.8 lb (800 g) of fries, which mostly suited two people. Philips stressed cooking with little or no added oil, a health pitch that would carry the whole category.</p>
+
+<h2>2010–2019: from novelty to everyday staple</h2>
+<p>Over the decade, many brands adopted Philips’ drawer format, from entry-level to premium. The term <em>air fryer</em> gradually became a generic name, as ordinary as “fridge” or “vacuum.” Several changes marked this period:</p>
+<ul>
+<li><strong>The switch to digital</strong>: touchscreens, presets and precise temperature control replaced the dials.</li>
+<li><strong>Bigger baskets</strong>: in the mid-2010s, Philips launched its <strong>Airfryer XXL</strong> line, designed to cook about 3 lb (1.4 kg) of fries, a whole chicken or a family meal.</li>
+<li><strong>Dedicated accessories</strong>: cake pans, racks and skewers, proof that the appliance could do far more than fries.</li>
+<li><strong>The first step toward smart features</strong>: recipe apps (NutriU for Philips, VeSync for Cosori, the Xiaomi ecosystem) and, on some models, remote control.</li>
+</ul>
+<p>Competition also brought entry prices down. First sold as a premium gadget, the air fryer became an everyday purchase, which largely explains how fast it spread across Europe.</p>
+
+<h2>2020: dual zones and the pandemic effect</h2>
+<p>In 2020, <strong>Ninja</strong> (SharkNinja) launched its <strong>Foodi Dual Zone</strong>, billed as the first air fryer with two independent baskets. Each drawer has its own heating element, fan and settings. A synchronized finish lets you start two different foods that are done at the same time: fries on one side, chicken on the other.</p>
+<p>That same year, COVID-19 lockdowns sent millions of people back into their kitchens. Simple, quick and thrifty compared with a full-size oven, the air fryer made the most of the home-cooking boom. Social media did the rest: recipe videos turned the appliance into a cultural phenomenon and stretched its use to desserts, roasted vegetables and reheated leftovers. For everyday ideas, read our guide to <a href="/us/blog/cuisiner-healthy-airfryer">healthy cooking with an air fryer</a>.</p>
+
+<h2>2023–2026: big capacities, hybrid formats and smart features</h2>
+<p>Since 2023, innovation has focused less on the cooking principle and more on <strong>format</strong> and <strong>ease of use</strong>:</p>
+<ul>
+<li><strong>The flexible drawer</strong>: in 2023, Ninja launched the 11 qt (10.4 L) <strong>Foodi FlexDrawer</strong>, whose removable divider gives you one large drawer or two 5.5 qt (5.2 L) zones.</li>
+<li><strong>The air fryer oven</strong>: the same year, Philips introduced the 8.8 qt (8.3 L) <strong>Airfryer Combi XXL Connected</strong>, which brings the air fryer closer to a mini oven, with a cooking probe and control through the NutriU app.</li>
+<li><strong>Stacking</strong>: in 2024, the <strong>Ninja Foodi MAX Double Stack XL</strong> put two drawers on top of each other to fit 10 qt (9.5 L) on the footprint of a standard unit.</li>
+<li><strong>Dual heating elements</strong>: models such as the <strong>Cosori Dual Blaze</strong> heat from above and below, so you need to flip food less often.</li>
+</ul>
+<p>Manufacturers also put more emphasis on coatings marketed as PFAS-free, dishwasher-safe baskets and viewing windows. These claims vary from model to model, so always check the manufacturer’s spec sheet rather than the box. Our <a href="/us/blog/comparatif-airfryer-connecte-2026">2026 smart air fryer comparison</a> explains what the apps really add.</p>
+
+<h2>Timeline: key dates in air fryer history</h2>
+<table>
+<thead>
+<tr><th>Year</th><th>Event</th><th>What it changed</th></tr>
+</thead>
+<tbody>
+<tr><td>1945</td><td>Maxson Whirlwind Oven, the first widely used convection oven</td><td>Forced hot air comes to cooking</td></tr>
+<tr><td>2006</td><td>Tefal launches the ActiFry in France</td><td>First mass-market hot-air fryer, with a stirring paddle</td></tr>
+<tr><td>2010</td><td>Philips unveils the Airfryer at IFA Berlin (invented by Fred van der Weij)</td><td>Birth of the drawer format and Rapid Air technology</td></tr>
+<tr><td>Mid-2010s</td><td>Philips Airfryer XXL line</td><td>The air fryer goes family-size</td></tr>
+<tr><td>2020</td><td>Ninja Foodi Dual Zone, first model with two independent baskets</td><td>Two dishes at once, synchronized finish</td></tr>
+<tr><td>2023</td><td>Ninja Foodi FlexDrawer and Philips Airfryer Combi XXL Connected</td><td>Flexible drawer and a step toward the mini oven</td></tr>
+<tr><td>2024</td><td>Ninja Foodi MAX Double Stack XL</td><td>Big capacity on a small footprint</td></tr>
+</tbody>
+</table>
+
+<h2>What this history means when you buy in 2026</h2>
+<p>Fifteen years of evolution have produced very different kinds of appliances. Before you buy, ask yourself:</p>
+<ul>
+<li><strong>How many people?</strong> A 4.2 to 6.3 qt (4 to 6 L) basket is enough for 2 to 4 people. Beyond that, a single large drawer or a dual-zone model is more practical.</li>
+<li><strong>One dish or two at once?</strong> Dual zones help if you often cook a main dish and a side. Otherwise, one large basket is more versatile for a whole chicken or a casserole.</li>
+<li><strong>Paddle or basket?</strong> The ActiFry paddle saves you from shaking the fries, but it’s less suited to breaded or delicate foods.</li>
+<li><strong>How much counter space?</strong> Side-by-side dual-basket models are wide; stacked models are taller.</li>
+<li><strong>Do you need an app?</strong> It’s mostly useful for guided recipes and remote monitoring. If you cook simply, you can do without it.</li>
+</ul>
+
+<h2>The heirs of this story: 6 current models</h2>
+
+<h3>Ninja Foodi FlexDrawer 10.4L Dual Zone</h3>
+<p><strong>Pros</strong>: the culmination of the dual-zone idea Ninja launched in 2020. With the divider in, you get two independent zones and a synchronized finish; without it, one large drawer for a whole chicken or a roast. <strong>Cons</strong>: wide and heavy. <strong>Best for</strong>: families who want two foods cooking at once and a big capacity.</p>
+
+<h3>Philips Airfryer 3000 Series XL - 6.2L</h3>
+<p><strong>Pros</strong>: the direct heir of the 2010 HD9220. A single 6.6 qt (6.2 L) basket, Rapid Air technology and very simple controls. <strong>Cons</strong>: one dish at a time. <strong>Best for</strong>: households of 2 to 4 who want a classic, dependable air fryer.</p>
+
+<h3>Tefal ActiFry Genius XL 2in1 - 1.7kg</h3>
+<p><strong>Pros</strong>: the descendant of the 2006 ActiFry. The paddle stirs the food on its own, and an upper rack lets you cook on two levels. Automatic programs make everyday dishes easier. <strong>Cons</strong>: not a good fit for breaded or delicate foods. <strong>Best for</strong>: people who want fries and stir-fried vegetables without shaking a basket.</p>
+
+<h3>Philips Airfryer Combi XXL Connected - 8.3L</h3>
+<p><strong>Pros</strong>: a large 8.8 qt (8.3 L) capacity, a cooking probe for meat and control through the NutriU app. <strong>Cons</strong>: bulky, and it sits at the premium end of the lineup. <strong>Best for</strong>: anyone who wants a versatile appliance somewhere between an air fryer and a mini oven.</p>
+
+<h3>Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L</h3>
+<p><strong>Pros</strong>: two stacked drawers, so you get a large capacity on a footprint close to that of a single-basket unit. <strong>Cons</strong>: taller than average, so check the clearance under your wall cabinets. <strong>Best for</strong>: families short on counter width.</p>
+
+<h3>Cosori Dual Blaze Smart Air Fryer - 6.4L</h3>
+<p><strong>Pros</strong>: top and bottom heating elements that cut down on flipping, plus the VeSync app for recipes and monitoring. <strong>Cons</strong>: a single basket. <strong>Best for</strong>: cooks who want even results and like to control things from their phone.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Format</th><th>Capacity</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Ninja Foodi FlexDrawer</td><td>Flexible drawer, 1 or 2 zones</td><td>11 qt (10.4 L)</td><td>No</td><td>Large families</td></tr>
+<tr><td>Philips 3000 Series XL</td><td>Single basket</td><td>6.6 qt (6.2 L)</td><td>No</td><td>2 to 4 people</td></tr>
+<tr><td>Tefal ActiFry Genius XL 2in1</td><td>Paddle bowl + upper rack</td><td>3.7 lb (1.7 kg)</td><td>No</td><td>Fries without shaking</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>Large capacity with probe</td><td>8.8 qt (8.3 L)</td><td>Wi-Fi (NutriU)</td><td>Mini-oven-style cooking</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>Two stacked drawers</td><td>10 qt (9.5 L)</td><td>No</td><td>Small countertops</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Single basket, dual heating</td><td>6.8 qt (6.4 L)</td><td>Wi-Fi (VeSync)</td><td>Even cooking</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Assuming an air fryer can always replace your oven</strong>: for a big family dish or several sheet pans, the oven still wins. See our article on <a href="/us/blog/airfryer-vs-friteuse-traditionnelle">air fryer vs. deep fryer</a> to compare uses.</li>
+<li><strong>Overfilling the basket</strong>: air needs room to circulate. An overloaded basket gives you soggy food.</li>
+<li><strong>Defaulting to dual zones</strong>: each zone is smaller than one large basket. If you mostly cook one dish at a time, it may not be the right choice.</li>
+<li><strong>Skipping cleanup</strong>: a dirty basket smokes and cooks less evenly. Clean it after every use, and keep abrasive scouring pads away from the coating.</li>
+<li><strong>Pushing the unit against a wall or under a cabinet</strong>: keep the hot-air vent clear, as the manual specifies.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>The air fryer’s history comes down to two dates: <strong>2006</strong>, when Tefal launched the ActiFry, and <strong>2010</strong>, when Philips unveiled the Airfryer designed by Fred van der Weij and established the drawer format. Since then the appliance has gained capacity, cooking zones and smart features. For a family that wants all of those advances, the <strong>Ninja Foodi FlexDrawer</strong> is the most versatile. For simple cooking for 2 to 4 people, the <strong>Philips Airfryer 3000 Series XL</strong> remains the most direct heir of the original. And for fries without shaking a basket, the <strong>ActiFry Genius XL 2in1</strong> carries on the 2006 idea.</p>`,
+    ca: `<p><strong>The air fryer as we know it was developed by Dutch engineer Fred van der Weij and unveiled by Philips at the IFA trade show in Berlin in September 2010.</strong> It wasn’t the very first hot-air frying appliance, though: back in 2006, Tefal (Groupe SEB) launched the ActiFry in France, which cooked fries with a single spoonful of oil thanks to a stirring paddle.</p>
+<p>This article traces the key milestones of that story, from postwar convection ovens to the dual-zone and smart models of 2026, then explains what this evolution means when you choose an appliance today. It draws on public sources, manufacturer specifications, independent reviews and verified buyer feedback. To compare current models, see our <a href="/ca/guides/airfryers">air fryer guide</a>.</p>
+
+<h2>Before the air fryer: forced hot air is an old idea</h2>
+<p>Using a fan to move hot air so food cooks faster and more evenly is nothing new. A first fan-forced oven was designed as early as 1914 but never sold, and the <strong>Maxson Whirlwind Oven</strong>, launched in 1945 to heat meals on board aircraft, is regarded as the first convection oven in wide use. Convection ovens then became common in home kitchens.</p>
+<p>The challenge stayed the same: getting the crisp outside of a deep-fried French fry without the vat of oil. A regular oven is too big, and its air moves too slowly to brown small pieces quickly. The whole point of the air fryer was to concentrate a fast, very hot airflow in a small space, right next to the food.</p>
+
+<h2>2006: Tefal’s ActiFry, the first fryer without an oil bath</h2>
+<p>In 2006, Tefal launched the <strong>ActiFry</strong> in France. The idea: a round bowl, a lid that blows hot air and a <strong>rotating paddle</strong> that keeps the food moving. One spoonful of oil is enough for a serving of fries, and you never need to shake anything.</p>
+<p>The ActiFry planted the idea of an “oil-free fryer” in the public mind, especially in France and southern Europe. Its strong point, automatic stirring, is still the range’s signature today. Its historical limit: it handles fries, vegetables and stews well, but less so delicate foods that don’t like being stirred.</p>
+
+<h2>2010: Fred van der Weij, Philips and Rapid Air technology</h2>
+<p>In the Netherlands, <strong>Fred van der Weij</strong>, an engineer who loved fries but not the smell and grease of a deep fryer, was working on his own hot-air cooker. His first prototypes, built from wood, aluminum and chicken wire, produced fries that were burnt outside and still frozen inside. After several years of development he got a convincing result and took his concept to <strong>Philips</strong>.</p>
+<p>Philips turned the idea into a product and unveiled it at <strong>IFA Berlin on September 3, 2010</strong> under the name <strong>Airfryer</strong>. The technology was called <strong>Rapid Air</strong>: a heating element just above the food combines radiant heat with fan-driven air that circulates at high speed around a perforated basket. Philips holds the patents for this technology.</p>
+<p>The first model, the <strong>Airfryer HD9220</strong>, set the format that became the standard: a compact countertop unit, a drawer with a removable basket, and a mechanical thermostat and timer. It held about 800 g (1¾ lb) of fries, enough for two people. Philips stressed cooking with little or no added oil, a health argument that would carry the whole category.</p>
+
+<h2>2010–2019: from novelty to everyday habit</h2>
+<p>Over the decade, Philips’ drawer format was picked up by many brands, from entry-level to premium. The term <em>air fryer</em> gradually became a generic name, the way “Kleenex” did for tissues. Several changes marked this period:</p>
+<ul>
+<li><strong>The switch to digital</strong>: touchscreens, presets and precise temperature control replaced the dials.</li>
+<li><strong>Bigger baskets</strong>: in the mid-2010s, Philips launched its <strong>Airfryer XXL</strong> range, designed to cook about 1.4 kg (3 lb) of fries, a whole chicken or a family meal.</li>
+<li><strong>Dedicated accessories</strong>: cake pans, racks and skewers, showing the appliance could do far more than fries.</li>
+<li><strong>The first step toward smart features</strong>: recipe apps (NutriU for Philips, VeSync for Cosori, the Xiaomi ecosystem) and, on some models, remote control.</li>
+</ul>
+<p>Competition also brought the entry price down. First sold as a premium gadget, the air fryer became an everyday purchase, which largely explains how quickly it caught on.</p>
+
+<h2>2020: dual zones and the lockdown effect</h2>
+<p>In 2020, <strong>Ninja</strong> (SharkNinja) launched its <strong>Foodi Dual Zone</strong>, billed as the first air fryer with two independent baskets. Each drawer has its own heating element, fan and settings. A synchronized finish lets you start two different cooks that end at the same time: fries on one side, chicken on the other.</p>
+<p>That same year, COVID-19 lockdowns sent millions of people back to their kitchens. Simple, quick and cheap to run compared with a full-size oven, the air fryer made the most of this return to home cooking. Social media did the rest: recipe videos turned the appliance into a cultural phenomenon and widened its use to desserts, roasted vegetables and reheated leftovers. For everyday ideas, read our guide to <a href="/ca/blog/cuisiner-healthy-airfryer">healthy cooking with an air fryer</a>.</p>
+
+<h2>2023–2026: large capacities, hybrid formats and smart features</h2>
+<p>Since 2023, innovation has focused less on the cooking principle and more on <strong>format</strong> and <strong>ease of use</strong>:</p>
+<ul>
+<li><strong>The flexible drawer</strong>: in 2023, Ninja launched the 10.4 L (11.0 qt) <strong>Foodi FlexDrawer</strong>, whose removable divider gives you one large drawer or two 5.2 L zones.</li>
+<li><strong>The air fryer oven</strong>: the same year, Philips introduced the 8.3 L (8.8 qt) <strong>Airfryer Combi XXL Connected</strong>, which brings the air fryer closer to a countertop oven, with a cooking probe and control through the NutriU app.</li>
+<li><strong>Stacking</strong>: in 2024, the <strong>Ninja Foodi MAX Double Stack XL</strong> put two drawers on top of each other to offer 9.5 L (10.0 qt) on the footprint of a standard unit.</li>
+<li><strong>Dual heating elements</strong>: models such as the <strong>Cosori Dual Blaze</strong> heat from above and below, so you don’t need to turn food as often.</li>
+</ul>
+<p>Manufacturers also put more emphasis on coatings sold as PFAS-free, dishwasher-safe baskets and viewing windows. These claims vary from model to model, so always check the manufacturer’s specifications rather than the box. Our <a href="/ca/blog/comparatif-airfryer-connecte-2026">2026 smart air fryer comparison</a> explains what the apps really add.</p>
+
+<h2>Timeline: key dates in air fryer history</h2>
+<table>
+<thead>
+<tr><th>Year</th><th>Event</th><th>What it changed</th></tr>
+</thead>
+<tbody>
+<tr><td>1945</td><td>Maxson Whirlwind Oven, the first convection oven in wide use</td><td>Forced hot air enters cooking</td></tr>
+<tr><td>2006</td><td>Tefal launches the ActiFry in France</td><td>First mass-market hot-air fryer, with a stirring paddle</td></tr>
+<tr><td>2010</td><td>Philips unveils the Airfryer at IFA Berlin (invented by Fred van der Weij)</td><td>Birth of the drawer format and Rapid Air technology</td></tr>
+<tr><td>Mid-2010s</td><td>Philips Airfryer XXL range</td><td>The air fryer becomes family-size</td></tr>
+<tr><td>2020</td><td>Ninja Foodi Dual Zone, first model with two independent baskets</td><td>Two dishes at once, synchronized finish</td></tr>
+<tr><td>2023</td><td>Ninja Foodi FlexDrawer and Philips Airfryer Combi XXL Connected</td><td>Flexible drawer and a step toward the countertop oven</td></tr>
+<tr><td>2024</td><td>Ninja Foodi MAX Double Stack XL</td><td>Large capacity on a small footprint</td></tr>
+</tbody>
+</table>
+
+<h2>What this history means when choosing in 2026</h2>
+<p>Fifteen years of evolution have produced very different families of appliances. Before you buy, ask yourself:</p>
+<ul>
+<li><strong>How many people?</strong> A 4 to 6 L (4.2 to 6.3 qt) basket is enough for 2 to 4 people. Beyond that, a single large drawer or a dual-zone model is more practical.</li>
+<li><strong>One dish or two at once?</strong> Dual zones help if you often cook a main and a side dish. Otherwise, a single large basket is more versatile for a whole chicken or a casserole.</li>
+<li><strong>Paddle or basket?</strong> The ActiFry paddle saves you shaking the fries, but it’s less suited to breaded or delicate foods.</li>
+<li><strong>How much counter space?</strong> Side-by-side dual-drawer models are wide; stacked models are taller.</li>
+<li><strong>Do you need an app?</strong> It’s mainly useful for guided recipes and remote monitoring. If you cook simply, you can do without it.</li>
+</ul>
+
+<h2>The heirs of this story: 6 current models</h2>
+
+<h3>Ninja Foodi FlexDrawer 10.4L Dual Zone</h3>
+<p><strong>Strengths</strong>: the culmination of the dual-zone idea Ninja launched in 2020. With the divider in, you get two independent zones and a synchronized finish; without it, one large 10.4 L (11.0 qt) drawer for a whole chicken or a roast. <strong>Limitations</strong>: wide and heavy. <strong>Best for</strong>: families who want two simultaneous cooks and a large capacity.</p>
+
+<h3>Philips Airfryer 3000 Series XL - 6.2L</h3>
+<p><strong>Strengths</strong>: the direct heir of the 2010 HD9220. A single 6.2 L (6.6 qt) basket, Rapid Air technology and very simple operation. <strong>Limitations</strong>: one dish at a time. <strong>Best for</strong>: households of 2 to 4 who want a classic, dependable air fryer.</p>
+
+<h3>Tefal ActiFry Genius XL 2in1 - 1.7kg</h3>
+<p><strong>Strengths</strong>: the descendant of the 2006 ActiFry. The paddle stirs the food on its own, and an upper tray lets you cook on two levels. Automatic programs make everyday dishes easier. <strong>Limitations</strong>: not well suited to breaded or delicate foods. <strong>Best for</strong>: people who want fries and stir-fried vegetables without shaking a basket.</p>
+
+<h3>Philips Airfryer Combi XXL Connected - 8.3L</h3>
+<p><strong>Strengths</strong>: a large 8.3 L (8.8 qt) capacity, a cooking probe for meat and control through the NutriU app. <strong>Limitations</strong>: bulky and positioned at the premium end. <strong>Best for</strong>: anyone who wants a versatile appliance somewhere between an air fryer and a countertop oven.</p>
+
+<h3>Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L</h3>
+<p><strong>Strengths</strong>: two stacked drawers, giving 9.5 L (10.0 qt) on a footprint close to that of a single-basket unit. <strong>Limitations</strong>: taller than average, so check the clearance under your upper cabinets. <strong>Best for</strong>: families short on counter width.</p>
+
+<h3>Cosori Dual Blaze Smart Air Fryer - 6.4L</h3>
+<p><strong>Strengths</strong>: top and bottom heating elements, so you turn food less often, plus the VeSync app for recipes and monitoring. <strong>Limitations</strong>: a single 6.4 L (6.8 qt) basket. <strong>Best for</strong>: fans of even cooking who like to control things from their phone.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Format</th><th>Capacity</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Ninja Foodi FlexDrawer</td><td>Flexible drawer, 1 or 2 zones</td><td>10.4 L (11.0 qt)</td><td>No</td><td>Large families</td></tr>
+<tr><td>Philips 3000 Series XL</td><td>Single basket</td><td>6.2 L (6.6 qt)</td><td>No</td><td>2 to 4 people</td></tr>
+<tr><td>Tefal ActiFry Genius XL 2in1</td><td>Paddle bowl + upper tray</td><td>1.7 kg</td><td>No</td><td>Fries without shaking</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>Large capacity with probe</td><td>8.3 L (8.8 qt)</td><td>Wi-Fi (NutriU)</td><td>Countertop-oven-style cooking</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>Two stacked drawers</td><td>9.5 L (10.0 qt)</td><td>No</td><td>Small countertops</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Single basket, dual heating</td><td>6.4 L (6.8 qt)</td><td>Wi-Fi (VeSync)</td><td>Even cooking</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Assuming an air fryer always replaces an oven</strong>: for a large family dish or several baking sheets, the oven is still better. See our article on <a href="/ca/blog/airfryer-vs-friteuse-traditionnelle">air fryer vs traditional deep fryer</a> to compare uses.</li>
+<li><strong>Overfilling the basket</strong>: air needs to circulate. An overloaded basket gives you soggy food.</li>
+<li><strong>Choosing dual zones by default</strong>: each zone is smaller than one large basket. If you mostly cook one dish, it may not be the right choice.</li>
+<li><strong>Skipping cleaning</strong>: a dirty basket smokes and cooks less well. Clean it after each use, and keep abrasive scrubbers away from the coating.</li>
+<li><strong>Placing the unit against a wall or under a cabinet</strong>: the hot-air vent must stay clear, as the manual specifies.</li>
+</ul>
+
+<h2>Verdict</h2>
+<p>The air fryer’s history comes down to two dates: <strong>2006</strong>, when Tefal launched the ActiFry, and <strong>2010</strong>, when Philips unveiled the Airfryer designed by Fred van der Weij and established the drawer format. Since then the appliance has gained capacity, cooking zones and smart features. For a family that wants all of these advances, the <strong>Ninja Foodi FlexDrawer</strong> is the most versatile. For simple use for 2 to 4 people, the <strong>Philips Airfryer 3000 Series XL</strong> remains the most direct heir of the original. And for fries without shaking a basket, the <strong>ActiFry Genius XL 2in1</strong> carries on the 2006 idea.</p>`,
   },
   faq: [
     {
@@ -836,6 +1181,9 @@ export const article: BlogArticle = {
         it: "Chi ha inventato la friggitrice ad aria?",
         nl: "Wie heeft de airfryer uitgevonden?",
         pl: "Kto wynalazł frytkownicę beztłuszczową?",
+        sv: "Vem uppfann airfryern?",
+        us: "Who invented the air fryer?",
+        ca: "Who invented the air fryer?",
       },
       answer: {
         fr: "L’airfryer à tiroir a été mis au point par l’ingénieur néerlandais Fred van der Weij, puis industrialisé et commercialisé par Philips à partir de 2010 sous le nom Airfryer, avec la technologie Rapid Air. Tefal avait toutefois lancé dès 2006 l’ActiFry, une friteuse à air chaud avec pale de brassage.",
@@ -845,6 +1193,9 @@ export const article: BlogArticle = {
         it: "La friggitrice ad aria a cassetto è stata messa a punto dall’ingegnere olandese Fred van der Weij e poi prodotta e commercializzata da Philips dal 2010 con il nome Airfryer e la tecnologia Rapid Air. Tefal aveva però già lanciato nel 2006 l’ActiFry, una friggitrice ad aria calda con pala mescolatrice.",
         nl: "De airfryer met lade is ontwikkeld door de Nederlandse ingenieur Fred van der Weij en vanaf 2010 door Philips geproduceerd en verkocht onder de naam Airfryer, met Rapid Air-technologie. Tefal had echter al in 2006 de ActiFry uitgebracht, een heteluchtfriteuse met roerarm.",
         pl: "Frytkownicę beztłuszczową z szufladą opracował holenderski inżynier Fred van der Weij. Philips wdrożył ją do produkcji i od 2010 roku sprzedaje pod nazwą Airfryer, z technologią Rapid Air. Już w 2006 roku Tefal wprowadził jednak ActiFry – frytkownicę na gorące powietrze z łopatką mieszającą.",
+        sv: "Airfryern med utdragbar låda utvecklades av den nederländske ingenjören Fred van der Weij. Philips gjorde den till en serieprodukt och sålde den från 2010 under namnet Airfryer, med Rapid Air-teknik. Tefal hade dock redan 2006 lanserat ActiFry, en varmluftsfritös med omrörningsarm.",
+        us: "The drawer-style air fryer was developed by Dutch engineer Fred van der Weij, then brought to market by Philips in 2010 under the Airfryer name, with Rapid Air technology. Tefal, however, had already launched the ActiFry in 2006: a hot-air fryer with a stirring paddle.",
+        ca: "The drawer-style air fryer was developed by Dutch engineer Fred van der Weij, then brought to market by Philips in 2010 under the Airfryer name, with Rapid Air technology. Tefal, however, had already launched the ActiFry in 2006: a hot-air fryer with a stirring paddle.",
       },
     },
     {
@@ -856,6 +1207,9 @@ export const article: BlogArticle = {
         it: "Quando è uscita la prima Philips Airfryer?",
         nl: "Wanneer kwam de eerste Philips Airfryer uit?",
         pl: "Kiedy na rynku pojawił się pierwszy Philips Airfryer?",
+        sv: "När kom Philips första Airfryer?",
+        us: "When did the first Philips Airfryer come out?",
+        ca: "When did the first Philips Airfryer come out?",
       },
       answer: {
         fr: "Philips a présenté l’Airfryer au salon IFA de Berlin le 3 septembre 2010. Le premier modèle, l’Airfryer HD9220, avait un tiroir d’environ 800 g de frites, un thermostat et une minuterie mécaniques, et a fixé le format à tiroir repris ensuite par presque toutes les marques.",
@@ -865,6 +1219,9 @@ export const article: BlogArticle = {
         it: "Philips ha presentato l’Airfryer all’IFA di Berlino il 3 settembre 2010. Il primo modello, l’Airfryer HD9220, aveva un cassetto da circa 800 g di patatine, termostato e timer meccanici, e ha fissato il formato a cassetto poi adottato da quasi tutti i marchi.",
         nl: "Philips presenteerde de Airfryer op 3 september 2010 op de IFA in Berlijn. Het eerste model, de Airfryer HD9220, had een lade voor zo’n 800 g friet, een mechanische thermostaat en timer, en legde het ladeformaat vast dat later bijna alle merken overnamen.",
         pl: "Philips zaprezentował Airfryer na targach IFA w Berlinie 3 września 2010 roku. Pierwszy model, Airfryer HD9220, miał szufladę mieszczącą ok. 800 g frytek oraz mechaniczny termostat i minutnik. To ten model wyznaczył standard konstrukcji z szufladą, który później przejęły niemal wszystkie marki.",
+        sv: "Philips presenterade Airfryer på IFA i Berlin den 3 september 2010. Den första modellen, Airfryer HD9220, hade en låda som rymde ungefär 800 g pommes frites, mekanisk termostat och timer, och slog fast det lådformat som nästan alla märken sedan har tagit efter.",
+        us: "Philips unveiled the Airfryer at IFA Berlin on September 3, 2010. The first model, the Airfryer HD9220, had a drawer that held about 1.8 lb (800 g) of fries, plus a mechanical thermostat and timer, and it set the drawer format that almost every brand later adopted.",
+        ca: "Philips unveiled the Airfryer at IFA Berlin on September 3, 2010. The first model, the Airfryer HD9220, had a drawer that held about 800 g (1¾ lb) of fries, a mechanical thermostat and timer, and it set the drawer format that almost every brand later adopted.",
       },
     },
     {
@@ -876,6 +1233,9 @@ export const article: BlogArticle = {
         it: "L’ActiFry è più vecchia dell’Airfryer di Philips?",
         nl: "Is de ActiFry ouder dan de Philips Airfryer?",
         pl: "Czy ActiFry jest starsza od frytkownicy Philips Airfryer?",
+        sv: "Är ActiFry äldre än Philips Airfryer?",
+        us: "Is the ActiFry older than the Philips Airfryer?",
+        ca: "Is the ActiFry older than the Philips Airfryer?",
       },
       answer: {
         fr: "Oui. Tefal a lancé l’ActiFry en France en 2006, quatre ans avant l’Airfryer de Philips. Elle fonctionne différemment : une pale remue les aliments dans une cuve ronde, alors que l’Airfryer fait circuler l’air chaud autour d’un panier fixe dans un tiroir.",
@@ -885,6 +1245,9 @@ export const article: BlogArticle = {
         it: "Sì. Tefal ha lanciato l’ActiFry in Francia nel 2006, quattro anni prima dell’Airfryer di Philips. Funziona in modo diverso: una pala mescola il cibo in una vasca rotonda, mentre l’Airfryer fa circolare l’aria calda intorno a un cestello fisso in un cassetto.",
         nl: "Ja. Tefal bracht de ActiFry in 2006 in Frankrijk uit, vier jaar vóór de Philips Airfryer. Hij werkt anders: een roerarm schept het eten om in een ronde kom, terwijl de Airfryer hete lucht rond een vaste mand in een lade laat circuleren.",
         pl: "Tak. Tefal wprowadził ActiFry we Francji w 2006 roku, cztery lata przed debiutem frytkownicy Philips Airfryer. ActiFry działa jednak inaczej: łopatka miesza jedzenie w okrągłej misie, a w modelu Airfryer gorące powietrze krąży wokół nieruchomego kosza umieszczonego w szufladzie.",
+        sv: "Ja. Tefal lanserade ActiFry i Frankrike 2006, fyra år före Philips Airfryer. Den fungerar annorlunda: en arm rör om maten i en rund skål, medan Airfryer låter varmluft cirkulera runt en fast korg i en låda.",
+        us: "Yes. Tefal launched the ActiFry in France in 2006, four years before the Philips Airfryer. It works differently: a paddle stirs the food in a round bowl, while the Airfryer circulates hot air around a fixed basket in a drawer.",
+        ca: "Yes. Tefal launched the ActiFry in France in 2006, four years before the Philips Airfryer. It works differently: a paddle stirs the food in a round bowl, whereas the Airfryer circulates hot air around a fixed basket in a drawer.",
       },
     },
     {
@@ -896,6 +1259,9 @@ export const article: BlogArticle = {
         it: "Qual è stata la prima friggitrice ad aria a doppio cestello?",
         nl: "Wat was de eerste airfryer met twee manden?",
         pl: "Jaka była pierwsza frytkownica beztłuszczowa z dwoma koszami?",
+        sv: "Vilken var den första airfryern med två korgar?",
+        us: "What was the first dual-basket air fryer?",
+        ca: "What was the first dual-basket air fryer?",
       },
       answer: {
         fr: "Ninja a lancé en 2020 le Foodi Dual Zone, présenté comme le premier airfryer à deux paniers indépendants, chacun avec sa résistance, son ventilateur et ses réglages. Ninja a ensuite décliné l’idée avec le FlexDrawer en 2023 et le Double Stack en 2024.",
@@ -905,6 +1271,9 @@ export const article: BlogArticle = {
         it: "Nel 2020 Ninja ha lanciato la Foodi Dual Zone, presentata come la prima friggitrice ad aria con due cestelli indipendenti, ciascuno con resistenza, ventola e impostazioni proprie. Ha poi ampliato l’idea con la FlexDrawer nel 2023 e la Double Stack nel 2024.",
         nl: "Ninja bracht in 2020 de Foodi Dual Zone uit, aangeprezen als de eerste airfryer met twee onafhankelijke manden, elk met een eigen verwarmingselement, ventilator en instellingen. Daarna volgden de FlexDrawer in 2023 en de Double Stack in 2024.",
         pl: "W 2020 roku marka Ninja wprowadziła model Foodi Dual Zone, przedstawiany jako pierwsza frytkownica beztłuszczowa z dwoma niezależnymi koszami – każdy z własną grzałką, wentylatorem i ustawieniami. Później Ninja rozwinęła ten pomysł w modelach FlexDrawer (2023) i Double Stack (2024).",
+        sv: "2020 lanserade Ninja Foodi Dual Zone, som marknadsfördes som den första airfryern med två fristående korgar, var och en med eget värmeelement, egen fläkt och egna inställningar. Ninja byggde sedan vidare på idén med FlexDrawer 2023 och Double Stack 2024.",
+        us: "In 2020, Ninja launched the Foodi Dual Zone, billed as the first air fryer with two independent baskets, each with its own heating element, fan and settings. Ninja then took the idea further with the FlexDrawer in 2023 and the Double Stack in 2024.",
+        ca: "In 2020 Ninja launched the Foodi Dual Zone, billed as the first air fryer with two independent baskets, each with its own heating element, fan and settings. Ninja then extended the idea with the FlexDrawer in 2023 and the Double Stack in 2024.",
       },
     },
     {
@@ -916,6 +1285,9 @@ export const article: BlogArticle = {
         it: "La friggitrice ad aria è davvero una friggitrice?",
         nl: "Is een airfryer echt een friteuse?",
         pl: "Czy frytkownica beztłuszczowa naprawdę smaży?",
+        sv: "Är en airfryer egentligen en fritös?",
+        us: "Is an air fryer really a fryer?",
+        ca: "Is an air fryer really a fryer?",
       },
       answer: {
         fr: "Pas au sens strict. C’est un petit four à convection très puissant : une résistance et un ventilateur font circuler de l’air très chaud autour des aliments. Le résultat imite le croustillant de la friture avec peu ou pas d’huile, sans bain d’huile.",
@@ -925,6 +1297,9 @@ export const article: BlogArticle = {
         it: "Non in senso stretto. È un piccolo forno a convezione molto potente: una resistenza e una ventola fanno circolare aria caldissima intorno al cibo. Il risultato imita la croccantezza della frittura con poco o nessun olio, senza bagno d’olio.",
         nl: "Niet in strikte zin. Het is een kleine, zeer krachtige heteluchtoven: een verwarmingselement en een ventilator laten zeer hete lucht rond het eten circuleren. Het resultaat lijkt op de krokantheid van frituren, met weinig of geen olie en zonder oliebad.",
         pl: "Nie w ścisłym sensie. To mały piekarnik konwekcyjny o bardzo dużej mocy: grzałka i wentylator wprawiają w ruch bardzo gorące powietrze, które krąży wokół jedzenia. Daje to chrupkość podobną do smażenia, ale przy niewielkiej ilości oleju albo zupełnie bez niego – bez kąpieli w tłuszczu.",
+        sv: "Inte i strikt mening. Det är en liten varmluftsugn med mycket hög effekt: ett värmeelement och en fläkt låter mycket het luft cirkulera runt maten. Resultatet efterliknar krispigheten från fritering med lite eller ingen olja, och helt utan oljebad.",
+        us: "Not really. It’s a small, very powerful convection oven: a heating element and a fan blow very hot air around the food. The result mimics the crunch of deep-frying using little or no oil instead of a vat of hot oil.",
+        ca: "Not strictly. It is a small, very powerful convection oven: a heating element and a fan circulate very hot air around the food. The result imitates the crispness of frying with little or no oil, and no oil bath.",
       },
     },
     {
@@ -936,6 +1311,9 @@ export const article: BlogArticle = {
         it: "Quale friggitrice ad aria scegliere oggi?",
         nl: "Welke airfryer kies je vandaag?",
         pl: "Jaką frytkownicę beztłuszczową wybrać dziś?",
+        sv: "Vilken airfryer ska du välja i dag?",
+        us: "Which air fryer should you buy today?",
+        ca: "Which air fryer should you choose today?",
       },
       answer: {
         fr: "Pour une famille, le Ninja Foodi FlexDrawer combine un grand tiroir et deux zones. Pour 2 à 4 personnes, le Philips Airfryer Série 3000 XL reste simple et efficace. Pour des frites sans secouer le panier, la Tefal ActiFry Genius XL 2in1 garde la pale de brassage.",
@@ -945,6 +1323,9 @@ export const article: BlogArticle = {
         it: "Per una famiglia, la Ninja Foodi FlexDrawer unisce un grande cassetto e due zone. Per 2-4 persone, la Philips Airfryer Serie 3000 XL resta semplice ed efficace. Per patatine senza scuotere il cestello, la Tefal ActiFry Genius XL 2in1 mantiene la pala mescolatrice.",
         nl: "Voor een gezin combineert de Ninja Foodi FlexDrawer één grote lade met twee zones. Voor 2 tot 4 personen blijft de Philips Airfryer 3000 Serie XL eenvoudig en effectief. Voor friet zonder schudden houdt de Tefal ActiFry Genius XL 2in1 vast aan de roerarm.",
         pl: "Rodzinie najwięcej możliwości da Ninja Foodi FlexDrawer, który łączy dużą szufladę z dwiema strefami. Dla 2–4 osób prostym i skutecznym wyborem pozostaje Philips Airfryer Seria 3000 XL. Jeśli chcesz robić frytki bez potrząsania koszem, wybierz Tefal ActiFry Genius XL 2in1 z charakterystyczną łopatką mieszającą.",
+        sv: "För en familj kombinerar Ninja Foodi FlexDrawer en stor låda med två zoner. För 2–4 personer är Philips Airfryer 3000 Series XL fortfarande enkel och effektiv. Vill du slippa skaka korgen när du gör pommes frites har Tefal ActiFry Genius XL 2in1 kvar omrörningsarmen.",
+        us: "For a family, the Ninja Foodi FlexDrawer gives you both one large drawer and two zones. For 2 to 4 people, the Philips Airfryer 3000 Series XL keeps things simple and effective. For fries without shaking the basket, the Tefal ActiFry Genius XL 2in1 keeps the stirring paddle.",
+        ca: "For a family, the Ninja Foodi FlexDrawer combines one large drawer and two zones. For 2 to 4 people, the Philips Airfryer 3000 Series XL stays simple and effective. For fries without shaking the basket, the Tefal ActiFry Genius XL 2in1 keeps the stirring paddle.",
       },
     },
   ],

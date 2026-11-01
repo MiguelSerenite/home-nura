@@ -157,4 +157,70 @@ export const BEAN_TO_CUP_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  sv: {
+    name: 'Helautomatiska kaffemaskiner',
+    h1: `Black Friday ${Y}: helautomatiska kaffemaskiner att hålla koll på`,
+    metaTitle: `Black Friday ${Y}: helautomatiska kaffemaskiner`,
+    metaDescription: `Helautomatiska kaffemaskiner att hålla koll på inför Black Friday ${Y}: De'Longhi, Philips och Krups. Kontrollera mjölksystem, skötsel och vattentank.`,
+    blurb: "De'Longhi, Philips, Krups: mjölksystemet och skötseln väger tyngst.",
+    intro: 'En helautomatisk kaffemaskin köper du för att ha i många år. När du går igenom Black Friday-erbjudandena, jämför först mjölksystemet och hur lätt maskinen är att rengöra: i vardagen betyder de mer än antalet drycker i menyn.',
+    faq: [
+      {
+        question: 'Mjölkkanna eller ångrör?',
+        answer: 'En mjölkkanna eller ett automatiskt mjölksystem gör cappuccino och latte macchiato med en knapptryckning. Ett ångrör kräver lite övning men är lätt att rengöra. Dricker du mest espresso spelar mjölksystemet liten roll.',
+      },
+      {
+        question: 'Gör en app någon nytta på en kaffemaskin?',
+        answer: 'Den är sällan nödvändig: den används mest för att spara favoritdrycker eller hålla koll på skötseln. Maskinerna i det här urvalet är lätta att ställa in direkt på apparaten.',
+      },
+      {
+        question: 'Vilken skötsel kräver maskinen?',
+        answer: 'Skölj mjölksystemet efter användning, töm sumpbehållaren och avkalka efter hur hårt ditt vatten är. Ett mjölksystem utan slangar, som Philips LatteGo, är snabbare att ta isär och diska.',
+      },
+    ],
+  },
+  us: {
+    name: 'Super-automatic espresso machines',
+    h1: `Black Friday ${Y}: The Super-Automatic Espresso Machines Worth Watching`,
+    metaTitle: `Black Friday ${Y}: Best Super-Automatic Espresso Machines`,
+    metaDescription: `Super-automatic espresso machines worth watching this Black Friday ${Y}: De'Longhi, Philips and Krups. Milk system, cleaning, water tank: what to check.`,
+    blurb: "De'Longhi, Philips, Krups: the milk system and cleaning come first.",
+    intro: "A super-automatic espresso machine is a purchase you'll live with for years. This Black Friday, compare the milk system and how easy the machine is to clean before anything else: day to day, they matter more than the length of the drink menu.",
+    faq: [
+      {
+        question: 'Milk carafe or steam wand?',
+        answer: 'A carafe or automatic milk system makes cappuccinos and latte macchiatos at the touch of a button. A steam wand takes a little practice but is easy to clean. If you mostly drink espresso, the milk system hardly matters.',
+      },
+      {
+        question: 'Is an app useful on an espresso machine?',
+        answer: 'Rarely essential: it mostly saves your favorite drinks or tracks maintenance. The models in this roundup are easy to adjust right from the control panel.',
+      },
+      {
+        question: 'What maintenance should I expect?',
+        answer: 'Rinse the milk circuit after each use, empty the grounds container and descale as often as your water hardness calls for. A tube-free milk system, such as Philips LatteGo, comes apart and washes faster.',
+      },
+    ],
+  },
+  ca: {
+    name: 'Super-automatic espresso machines',
+    h1: `Black Friday ${Y}: the super-automatic espresso machines worth watching`,
+    metaTitle: `Black Friday ${Y}: Super-Automatic Espresso Machines`,
+    metaDescription: `Super-automatic espresso machines worth watching this Black Friday ${Y}: De'Longhi, Philips and Krups. Milk system, cleaning, water tank: what to check.`,
+    blurb: "De'Longhi, Philips, Krups: the milk system and cleaning come first.",
+    intro: "A super-automatic espresso machine is something you'll use for years. During Black Friday, start by comparing the milk system and how easy the machine is to clean. Day to day, those matter more than the number of drinks on the menu.",
+    faq: [
+      {
+        question: 'Milk carafe or steam wand?',
+        answer: 'A carafe or automatic milk system makes cappuccinos and latte macchiatos at the touch of a button. A steam wand takes a little practice but is easy to clean. If you mostly drink espresso, the milk system hardly matters.',
+      },
+      {
+        question: 'Is an app useful on an espresso machine?',
+        answer: "It's rarely essential: it's mainly for saving your favourite drinks or keeping track of maintenance. The machines in this selection are easy to adjust right on the machine.",
+      },
+      {
+        question: 'What maintenance should I expect?',
+        answer: 'Rinse the milk system after each use, empty the grounds container and descale as often as your water hardness requires. A tube-free milk system, such as Philips LatteGo, comes apart and washes faster.',
+      },
+    ],
+  },
 }

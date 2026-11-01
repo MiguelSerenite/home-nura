@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: "Bottiglie di vino coricate sui ripiani, conservate al riparo dalla luce",
         nl: "Wijnflessen liggend op rekken, bewaard uit het licht",
         pl: "Butelki wina leżące na półkach winiarki, chronione przed światłem",
+        sv: "Liggande vinflaskor på hyllor, skyddade från ljus",
+        us: "Wine bottles lying on racks, stored away from the light",
+        ca: "Wine bottles lying on racks, stored away from the light",
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: "Cantinetta vino smart 2026: guida all’acquisto e migliori modelli",
     nl: "Slimme wijnkast 2026: koopgids en beste modellen",
     pl: "Inteligentna winiarka 2026: poradnik zakupowy i najlepsze modele",
+    sv: "Smart vinkyl 2026: köpguide och de bästa modellerna",
+    us: "Smart Wine Fridges 2026: Buying Guide and Best Models",
+    ca: "Smart Wine Fridge 2026: Buying Guide and Best Models",
   },
   excerpt: {
     fr: "Cave de service, de vieillissement ou polyvalente : comment choisir une cave à vin connectée en 2026. Comparatif de La Sommelière ECELLAR185, Haier Wine Bank 50 et Liebherr GrandCru Selection, d’après les fiches techniques et les avis d’acheteurs.",
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: "Servizio, invecchiamento o polivalente: come scegliere una cantinetta vino smart nel 2026. Confronto tra La Sommelière ECELLAR185, Haier Wine Bank 50 e Liebherr GrandCru Selection basato su schede tecniche e pareri degli acquirenti.",
     nl: "Serveren, rijpen of allebei: zo kies je in 2026 een slimme wijnkast. We vergelijken de La Sommelière ECELLAR185, Haier Wine Bank 50 en Liebherr GrandCru Selection op basis van specificaties en ervaringen van kopers.",
     pl: "Winiarka do serwowania, do leżakowania czy uniwersalna – jak wybrać inteligentną winiarkę w 2026 roku? Porównujemy modele La Sommelière ECELLAR185, Haier Wine Bank 50 i Liebherr GrandCru Selection na podstawie kart katalogowych i opinii kupujących.",
+    sv: "Vinkyl för servering, lagring eller båda: så väljer du en smart vinkyl 2026. Vi jämför La Sommelière ECELLAR185, Haier Wine Bank 50 och Liebherr GrandCru Selection utifrån produktblad och köparomdömen.",
+    us: "Serving, aging or multipurpose: how to choose a smart wine fridge in 2026. We compare the La Sommelière ECELLAR185, Haier Wine Bank 50 and Liebherr GrandCru Selection using manufacturer specs and owner feedback.",
+    ca: "Serving, aging or dual-purpose: how to choose a smart wine fridge in 2026. We compare the La Sommelière ECELLAR185, Haier Wine Bank 50 and Liebherr GrandCru Selection using manufacturer specs and buyer reviews.",
   },
   content: {
     fr: `<p>La meilleure cave à vin connectée en 2026 est, pour la plupart des amateurs, la <strong>La Sommelière ECELLAR185</strong> : 185 bouteilles, deux zones et surtout des clayettes intelligentes qui savent quelles bouteilles sont présentes et où elles se trouvent. Avec un budget plus serré, la <strong>Haier Wine Bank 50 HWS77GDAU1</strong> offre deux zones, une gestion de l’humidité et l’application hOn dans un format de 77 bouteilles, tandis que la <strong>Liebherr WPbli 5231 GrandCru Selection</strong> vise les collections importantes destinées au vieillissement.</p>
@@ -592,6 +601,240 @@ export const article: BlogArticle = {
 
 <h2>Nasz werdykt</h2>
 <p>Jeśli szukasz winiarki, która naprawdę pomaga zarządzać kolekcją, wyróżnia się <strong>La Sommelière ECELLAR185</strong> z inteligentnymi półkami i aplikacją Vinotag – to model, który w tym zestawieniu najlepiej wykorzystuje łączność. Jeśli chcesz wino zarówno serwować, jak i przechowywać, a budżet jest skromniejszy, najlepiej wyważonym wyborem jest <strong>Haier HWS77GDAU1</strong>, a jej mniejsza siostra <strong>HWS42GDAU1</strong> sprawdzi się tam, gdzie brakuje miejsca. Jeśli potrzebujesz dużej, jednostrefowej winiarki do leżakowania, najlepiej sprawdzi się <strong>Liebherr WPbli 5231 GrandCru Selection</strong>, która oferuje największą pojemność i najbardziej rozbudowane alarmy. W każdym przypadku najpierw sprawdź rzeczywistą pojemność, dostępne miejsce i temperaturę pomieszczenia: aplikacja jedynie uzupełnia dobre warunki przechowywania.</p>`,
+    sv: `<p>För de flesta vinälskare är den bästa smarta vinkylen 2026 <strong>La Sommelière ECELLAR185</strong>: 185 flaskor, två zoner och framför allt smarta hyllor som vet vilka flaskor som finns i skåpet och exakt var de ligger. Med en snävare budget ger <strong>Haier Wine Bank 50 HWS77GDAU1</strong> två zoner, fuktreglering och appen hOn i ett format för 77 flaskor, medan <strong>Liebherr WPbli 5231 GrandCru Selection</strong> är byggd för stora samlingar som ska lagras länge.</p>
+<p>Guiden jämför modellerna utifrån tillverkarnas produktblad, oberoende utvärderingar och verifierade köparomdömen. Den hjälper dig att välja rätt typ av vinkyl, förstå vad wifi-uppkopplingen faktiskt tillför och undvika de vanligaste misstagen vid installationen. Vill du se hur vinkylen passar in bland resten av köksutrustningen kan du också läsa vår <a href="/sv/blog/guide-cuisine-connectee-2026">guide till det smarta köket 2026</a> och utforska området <a href="/sv/cuisine-connectee">Smart kök</a>.</p>
+
+<h2>Servering, lagring eller båda: ta reda på vad du behöver</h2>
+<p>Innan du jämför appar behöver du veta vad vinkylen ska klara. Det finns tre huvudtyper.</p>
+<h3>Serveringsvinkylen</h3>
+<p>Den håller flaskorna vid rätt serveringstemperatur, ofta med flera zoner (svalare för vita och mousserande viner, varmare för röda). Den passar för viner som du dricker inom några veckor eller månader efter köpet. Små vinkylar med två zoner, som Haier HWS42GDAU1, hör till den här kategorin.</p>
+<h3>Lagringsvinkylen</h3>
+<p>Den återskapar förhållandena i en riktig vinkällare under jord: en enda stabil temperatur, oftast runt 12 °C, tillräcklig luftfuktighet, mörker och så få vibrationer som möjligt. Det är valet för dig som köper lagringsviner och vill låta dem utvecklas i flera år. Liebherr WPbli 5231, med en enda temperaturzon, är ett bra exempel.</p>
+<h3>Den kombinerade vinkylen</h3>
+<p>Den har både en lagringszon och en serveringszon, eller låter dig växla mellan lägena. Det är den mest flexibla lösningen för ett hushåll som lagrar några viner men ändå alltid vill ha en flaska redo att servera. La Sommelière ECELLAR185, som kan köras med en eller flera temperaturer, och Haier HWS77GDAU1 med två zoner bygger på den idén.</p>
+
+<h2>Så väljer du rätt smart vinkyl</h2>
+<h3>Stabil temperatur</h3>
+<p>Vid lagring är stabiliteten viktigare än den exakta temperaturen. Upprepade temperatursvängningar får korken att arbeta och påskyndar vinets utveckling. Kontrollera vilket inställningsintervall som anges (5–20 °C på de flesta modellerna i guiden) och framför allt att vinkylen klarar temperaturen i rummet där den ska stå: en vinkyl i ett garage där det fryser på vintern eller blir stekhett på sommaren har svårt att hålla temperaturen stabil, hur påkostad den än är.</p>
+<h3>Vibrationer</h3>
+<p>En kompressor ger upphov till små vibrationer. Tillverkarna dämpar dem genom att montera kompressorn på vibrationsdämpare eller med egna tekniker (VibrateSafe hos Liebherr, vibrationsdämpare hos Haier och La Sommelière). Undvik också att ställa vinkylen intill en tvättmaskin eller diskmaskin.</p>
+<h3>Luftfuktighet</h3>
+<p>En luftfuktighet på ungefär 50–70 % gör att korkarna inte torkar ut. Vinkylarna i guiden reglerar fukten passivt: Haiers system Natural Airflow med vattenbehållare, Liebherrs vattenskål och funktionen HumidityControl, och styrda kylcykler hos La Sommelière. Ingen av dem ersätter en aktiv luftfuktare, men alla siktar på det intervallet.</p>
+<h3>Skydd mot ljus</h3>
+<p>UV-ljus skadar vinet. Alla modeller i urvalet har en UV-behandlad glasdörr. Står vinkylen i direkt solljus är en dörr utan glas ändå det säkrare valet.</p>
+<h3>Hur många flaskor som verkligen får plats</h3>
+<p>Antalet anges i bordeauxflaskor på 75 cl. Bourgogneflaskor, höga alsaceflaskor och champagneflaskor minskar rejält hur många flaskor som faktiskt får plats. Räkna med minst 20–30 % mer utrymme än ditt nuvarande lager.</p>
+<h3>Vad uppkopplingen faktiskt tillför</h3>
+<p>Beroende på modell kan du i appen följa och ställa in temperaturen på distans, få en varning om dörren står öppen eller om temperaturen avviker, och föra en lagerlista över dina flaskor. Det är på den sista punkten skillnaderna är störst: de flesta vinkylar bygger på en lista som du för in för hand eller genom att skanna etiketter, medan ECELLAR185 fysiskt känner av flaskor som läggs in på eller tas bort från hyllorna.</p>
+<h3>Ljudnivå och elförbrukning</h3>
+<p>Ljudnivån varierar från ungefär 37 dB (Haier) till 41 dB (ECELLAR185): den stör knappt i ett kök eller grovkök men hörs mer i ett öppet vardagsrum. Vinkylar hamnar ofta i de lägre klasserna i EU:s nuvarande energimärkning (klass G för båda Haier-modellerna och ECELLAR185), så jämför hellre den årliga förbrukningen i kWh som anges i produktbladet.</p>
+
+<h2>De bästa smarta vinkylarna 2026</h2>
+<h3>La Sommelière ECELLAR185: bäst koll på vinlagret</h3>
+<p><strong>ECELLAR185</strong> från den franska tillverkaren La Sommelière är en lagringsvinkyl för 185 flaskor med två zoner som kan köras med en eller flera temperaturer, inställbara mellan 5 och 20 °C. Det som utmärker den är 14 uppkopplade hyllor med 12 sensorer vardera, alltså 168 platser som automatiskt känner av när flaskor läggs in eller tas ut. LED-lampor visar var flaskan du letar efter ligger.</p>
+<p>Appen Vinotag håller lagerlistan uppdaterad i realtid, skannar etiketter för att identifiera ett vin och föreslår en plats utifrån vintyp och hur länge vinet bör lagras. Via wifi kan du också ställa in temperatur och belysning på distans. För förvaringen finns ett aktivt kolfilter, vibrationsdämpare, en UV-skyddad dörr av härdat treglas, ett lås samt ljus- och ljudlarm.</p>
+<p><strong>Styrkor:</strong> automatisk inventering som ingen annan modell i urvalet har, rymmer många flaskor, två zoner, komplett app.<br><strong>Svagheter:</strong> skrymmande (över 2 m hög och 72 cm bred), 41 dB, högre elförbrukning än mindre modeller.<br><strong>Passar för:</strong> samlare som vill veta exakt vad som finns i vinkylen utan att föra ett kalkylark.</p>
+
+<h3>Haier Wine Bank 50 HWS77GDAU1: mest utrustning för pengarna</h3>
+<p><strong>HWS77GDAU1</strong> hör till Haiers Wine Bank 50 Series 7. Den rymmer 77 flaskor fördelade på två separata zoner: 5–10 °C för vita och mousserande viner, 10–18 °C för röda. Systemet Natural Airflow och en vattenbehållare ska tillsammans hålla luftfuktigheten på 50–70 %, och ett aktivt kolfilter renar luften.</p>
+<p>Den är uppkopplad via wifi och Bluetooth och styrs med Haiers app hOn, där du också kan föra en lagerlista. Funktionen Find Your Wine, som tagits fram tillsammans med Vivino, identifierar ett vin när du skannar etiketten. Funktionen Four Seasons anpassar driften efter rumstemperaturen. En låsbar UV-skyddad glasdörr, hyllor av bok, en kompressor på vibrationsdämpare och en ljudnivå på 37 dB gör paketet komplett.</p>
+<p><strong>Styrkor:</strong> två tydligt åtskilda zoner, fuktreglering, tyst, kompakt (1,27 m hög).<br><strong>Svagheter:</strong> lagerlistan förs för hand eller genom skanning, rymmer för få flaskor för seriös lagring, klass G.<br><strong>Passar för:</strong> dig som dricker vin regelbundet och vill både servera och lagra utan att offra ett helt rum.</p>
+
+<h3>Liebherr WPbli 5231 GrandCru Selection: lagring i stor skala</h3>
+<p><strong>WPbli 5231</strong> i serien GrandCru Selection är en lagringsvinkyl med en temperaturzon för 229 flaskor, inställbar mellan 5 och 20 °C. Den drar nytta av Liebherrs kunnande inom kyla: en tyst kompressor med tekniken VibrateSafe, ett aktivt kolfilter (FreshAir), funktionen HumidityControl med vattenskål för torra miljöer, hyllor av massiv bok och en glasdörr med trefaldigt UV-skydd.</p>
+<p>Den fungerar med Liebherrs app SmartDevice, där du kan se och ändra inställningarna på distans, och den skickar säkerhetsinformation: dörrlarm, temperaturlarm med dubbla givare (TempProtect Plus) och varning vid strömavbrott. Dörren stänger sig själv och stannar kvar i öppet läge när den öppnas mer än 90°, vilket gör det lättare att lasta in flaskor.</p>
+<p><strong>Styrkor:</strong> rymmer många flaskor, byggd för lång lagring, mycket kompletta säkerhetslarm.<br><strong>Svagheter:</strong> bara en zon och alltså ingen servering vid två temperaturer, ingen automatisk inventering, stora mått (188 cm hög, 76 cm djup).<br><strong>Passar för:</strong> samlare som främst köper lagringsviner och sätter tillförlitligheten först.</p>
+
+<h3>Haier Wine Bank 50 HWS42GDAU1: den lilla uppkopplade vinkylen</h3>
+<p><strong>HWS42GDAU1</strong> är en mindre systermodell till HWS77GDAU1 och har samma styrkor i ett format för 42 flaskor: två separata zoner, systemet Natural Airflow (50–70 % luftfuktighet), aktivt kolfilter, låsbar UV-skyddad dörr, kompressor på vibrationsdämpare, 37 dB och appen hOn med Find Your Wine.</p>
+<p><strong>Styrkor:</strong> tar liten plats, två zoner, samma uppkopplade funktioner som de större modellerna i serien.<br><strong>Svagheter:</strong> blir snabbt full, mer en serveringsvinkyl än en lagringsvinkyl.<br><strong>Passar för:</strong> lägenheter och vinälskare som vill ha ett trettiotal flaskor nära till hands.</p>
+
+<p>Bra att veta: EuroCave, en annan välrenommerad fransk tillverkare, erbjuder appen EuroCave Connect till vinmöbeln Harmonie, en sideboard med två fack som satsar mer på design än på att rymma många flaskor.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Antal flaskor</th><th>Zoner och intervall</th><th>App</th><th>Passar bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>La Sommelière ECELLAR185</strong></td><td>Lagring / kombinerad</td><td>185 flaskor</td><td>2 zoner, 5–20 °C</td><td>Vinotag (automatisk inventering)</td><td>En samling som följs flaska för flaska</td></tr>
+<tr><td><strong>Haier HWS77GDAU1</strong></td><td>Kombinerad</td><td>77 flaskor</td><td>2 zoner: 5–10 °C och 10–18 °C</td><td>hOn (wifi + Bluetooth, skanning med Vivino)</td><td>Servering och lagring i mellanstorlek</td></tr>
+<tr><td><strong>Liebherr WPbli 5231</strong></td><td>Lagring</td><td>229 flaskor</td><td>1 zon, 5–20 °C</td><td>SmartDevice (larm, inställningar)</td><td>En stor lagringsvinkyl</td></tr>
+<tr><td><strong>Haier HWS42GDAU1</strong></td><td>Servering / kombinerad</td><td>42 flaskor</td><td>2 zoner</td><td>hOn (wifi + Bluetooth, skanning med Vivino)</td><td>Litet utrymme</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att lagra vin i en serveringsvinkyl:</strong> ska flaskorna ligga i flera år, välj en zon som är inställd på runt 12 °C och någon form av fuktreglering.</li>
+<li><strong>Att underskatta hur många flaskor du behöver plats för:</strong> flaskor som inte har bordeauxform tar mer plats, och en samling växer snabbt.</li>
+<li><strong>Att köpa enbart för appens skull:</strong> en dåligt isolerad eller bullrig vinkyl är fortfarande en dålig vinkyl, uppkopplad eller inte. Förvaringsegenskaperna kommer först.</li>
+<li><strong>Att glömma wifi-täckningen:</strong> en vinkyl i källaren eller längst in i garaget kan hamna utom räckhåll för routern. Kontrollera signalen innan du installerar den, annars fungerar inte larmen på distans.</li>
+<li><strong>Att strunta i rumstemperaturen:</strong> varje vinkyl är gjord för ett visst intervall av rumstemperaturer. Läs bruksanvisningen innan du ställer den i ett ouppvärmt utrymme.</li>
+</ul>
+
+<h2>Installation och användning</h2>
+<p>Ställ vinkylen på ett plant och stabilt golv, på avstånd från värmekällor (ugn, element, fönster i söderläge), och lämna det fria utrymme för ventilation som tillverkaren anger. Det är särskilt viktigt för fristående modeller som de i guiden, som inte är gjorda för att byggas in. Efter transporten ska vinkylen stå upprätt så länge som bruksanvisningen anger innan du kopplar in den.</p>
+<p>Anslut den till ett jordat uttag och undvik förlängningssladdar och grenuttag – det brukar tillverkare av kylapparater rekommendera. Låt temperaturen stabilisera sig innan du lägger in flaskorna och fyll sedan på lite i taget. Aktivera åtminstone larmen för temperatur och dörr i appen: det är de som gör uppkopplingen värd besväret, särskilt när du är bortrest. Kom också ihåg att byta kolfiltret så ofta som anges (ungefär var sjätte månad hos Liebherr) och att fylla på vattenbehållaren på de modeller som har en.</p>
+
+<h2>Vårt omdöme</h2>
+<p>Vill du ha en vinkyl som verkligen håller ordning på din samling sticker <strong>La Sommelière ECELLAR185</strong> ut med sina uppkopplade hyllor och appen Vinotag: det är den modell i urvalet som får ut mest av uppkopplingen. För en blandning av servering och lagring i en mer överkomlig prisklass är <strong>Haier HWS77GDAU1</strong> det mest balanserade valet, och den mindre systermodellen <strong>HWS42GDAU1</strong> passar där utrymmet är begränsat. För en stor lagringsvinkyl med en enda temperatur ger <strong>Liebherr WPbli 5231 GrandCru Selection</strong> plats för många flaskor och de mest kompletta säkerhetslarmen. Oavsett vilken du väljer: kontrollera först hur många flaskor som faktiskt får plats, hur mycket utrymme du har och vilken temperatur det är i rummet. Appen är bara ett komplement till goda förvaringsförhållanden.</p>`,
+    us: `<p>For most wine lovers, the best smart wine fridge of 2026 is the <strong>La Sommelière ECELLAR185</strong>: 185 bottles, two zones and, above all, smart shelves that know which bottles are inside and exactly where each one sits. On a tighter budget, the <strong>Haier Wine Bank 50 HWS77GDAU1</strong> gives you two zones, humidity control and the hOn app in a 77-bottle size, while the <strong>Liebherr WPbli 5231 GrandCru Selection</strong> is built for large collections you plan to age.</p>
+<p>This guide compares the models using manufacturer specs, independent reviews and verified owner reviews. It will help you pick the right type of wine fridge, understand what Wi-Fi actually adds and avoid the most common installation mistakes. To see how a wine fridge fits in with the rest of your kitchen, read our <a href="/us/blog/guide-cuisine-connectee-2026">2026 smart kitchen guide</a> and browse the <a href="/us/cuisine-connectee">smart kitchen section</a>.</p>
+
+<h2>Serving, aging or dual-purpose: figure out what you need</h2>
+<p>Before you compare apps, decide what the wine fridge has to do. There are three main types.</p>
+<h3>The serving cabinet</h3>
+<p>It keeps bottles at drinking temperature, often with several zones (cooler for whites and sparkling wines, warmer for reds). It’s the right fit for wines you’ll open within weeks or months of buying them. Small two-zone units such as the Haier HWS42GDAU1 fall into this category.</p>
+<h3>The aging (storage) cabinet</h3>
+<p>It recreates the conditions of an underground cellar: one steady temperature, usually around 54°F (12°C), enough humidity, darkness and as little vibration as possible. This is the one to buy if you collect wines to cellar for years. The single-zone Liebherr WPbli 5231 is a good example.</p>
+<h3>The dual-purpose cabinet</h3>
+<p>It combines a storage zone and a serving zone, or lets you switch between modes. It’s the most flexible option for a household that lays down a few bottles to age but always wants one ready to pour. The La Sommelière ECELLAR185, which runs in single- or multi-temperature mode, and the two-zone Haier HWS77GDAU1 take this approach.</p>
+
+<h2>How to choose a smart wine fridge</h2>
+<h3>Temperature stability</h3>
+<p>For long-term storage, stability matters more than the exact number. Repeated swings work the cork and speed up the wine’s development. Check the adjustable range (41 to 68°F, or 5 to 20°C, on most models in this guide) and, above all, make sure the unit suits the room it will live in: a wine fridge in a garage that freezes in winter or bakes in summer will struggle to hold steady, however premium it is.</p>
+<h3>Vibration</h3>
+<p>Every compressor produces micro-vibrations. Manufacturers reduce them with compressors on rubber anti-vibration mounts or with dedicated designs (VibrateSafe at Liebherr, rubber mounts at Haier and La Sommelière). Also avoid pushing the wine fridge right up against a washer or dishwasher.</p>
+<h3>Humidity</h3>
+<p>Relative humidity of roughly 50 to 70% keeps corks from drying out. The wine fridges in this guide manage humidity passively: Haier’s Natural Airflow system with a water reservoir, Liebherr’s water tray and HumidityControl function, and controlled cooling cycles at La Sommelière. None of them replaces an active humidifier, but all of them aim for that range.</p>
+<h3>Protection from light</h3>
+<p>UV light damages wine. Every model here has a UV-treated glass door; if the unit will sit in direct sunlight, a solid door is still the safer choice.</p>
+<h3>Real capacity</h3>
+<p>Capacity ratings assume standard 750 ml Bordeaux-style bottles. Wider Burgundy bottles, tall Alsace flutes and Champagne bottles cut the real count considerably. Plan on at least 20 to 30% more space than your current stock.</p>
+<h3>What the smart features really add</h3>
+<p>Depending on the model, the app lets you check and adjust the temperature remotely, get an alert if the door is left open or the temperature drifts, and keep an inventory of your bottles. Inventory is where the differences are biggest: most wine fridges rely on a list you enter by hand or by scanning labels, while the ECELLAR185 physically detects bottles placed on or removed from its shelves.</p>
+<h3>Noise and energy use</h3>
+<p>Noise ranges from about 37 dB (Haier) to 41 dB (ECELLAR185): barely noticeable in a kitchen or laundry room, more audible in an open-plan living area. Wine fridges often land in the lower classes of the current EU energy label (class G for both Haier models and the ECELLAR185), so compare the annual kWh figure on the spec sheet instead.</p>
+
+<h2>The best smart wine fridges of 2026</h2>
+<h3>La Sommelière ECELLAR185: the most complete collection management</h3>
+<p>The <strong>ECELLAR185</strong> from French maker La Sommelière is a 185-bottle aging cabinet with two zones that can run in single- or multi-temperature mode, adjustable from 41 to 68°F (5 to 20°C). What sets it apart are its 14 smart shelves, each with 12 sensors, for a total of 168 positions that automatically detect bottles going in or coming out. LED indicators show where the bottle you’re looking for is stored.</p>
+<p>The Vinotag app keeps the inventory up to date in real time, scans labels to identify a wine and suggests a slot based on the type of wine and how long it should be kept. Over Wi-Fi you can also adjust the temperature and lighting remotely. On the storage side, you get an activated carbon filter, rubber anti-vibration mounts, a triple-pane, UV-protected tempered glass door, a lock, and visual and audible alarms.</p>
+<p><strong>Pros:</strong> automatic inventory (unique in this lineup), large capacity, two zones, full-featured app.<br><strong>Cons:</strong> bulky (more than 6.5 ft tall and 28 in wide, or 2 m by 72 cm), 41 dB, higher energy use than smaller models.<br><strong>Best for:</strong> collectors who want to know what’s in their wine fridge at any moment without keeping a spreadsheet.</p>
+
+<h3>Haier Wine Bank 50 HWS77GDAU1: the most features for the money</h3>
+<p>The <strong>HWS77GDAU1</strong> belongs to the Wine Bank 50 Series 7 line. It holds 77 bottles across two independent zones: 41 to 50°F (5 to 10°C) for whites and sparkling wines, 50 to 64°F (10 to 18°C) for reds. The Natural Airflow system, paired with a water reservoir, targets 50 to 70% humidity, and an activated carbon filter keeps the air clean.</p>
+<p>With Wi-Fi and Bluetooth built in, it’s controlled through Haier’s hOn app, which can also hold an inventory; the Find Your Wine feature, developed with Vivino, identifies a wine when you scan its label. The Four Seasons function adjusts operation to the room temperature. A locking UV-protected glass door, beech shelves, a compressor on rubber mounts and a 37 dB noise level round out the package.</p>
+<p><strong>Pros:</strong> two clearly separated zones, humidity control, quiet, compact (50 in, or 1.27 m, tall).<br><strong>Cons:</strong> inventory is manual or by label scan, capacity is limited for serious aging, class G on the EU energy label.<br><strong>Best for:</strong> regular wine drinkers who want to serve and store without giving a whole room over to it.</p>
+
+<h3>Liebherr WPbli 5231 GrandCru Selection: storage on a large scale</h3>
+<p>The <strong>WPbli 5231</strong> from the GrandCru Selection line is a single-zone, 229-bottle aging cabinet adjustable from 41 to 68°F (5 to 20°C). It draws on Liebherr’s refrigeration know-how: a quiet compressor with VibrateSafe technology, a FreshAir activated charcoal filter, HumidityControl with a water tray for dry rooms, solid beech shelves and a glass door with triple UV protection.</p>
+<p>It works with Liebherr’s SmartDevice app, so you can view and change settings remotely and get safety notifications: a door alarm, a dual-sensor temperature alarm (TempProtect Plus) and a power-outage alert. The door closes by itself and stays open past 90° to make loading easier.</p>
+<p><strong>Pros:</strong> large capacity, designed for long-term aging, very complete safety alarms.<br><strong>Cons:</strong> one zone only, so no two-temperature serving; no automatic inventory; large footprint (74 in tall and 30 in deep, or 188 by 76 cm).<br><strong>Best for:</strong> collectors who mainly store wines for aging and value reliability above everything else.</p>
+
+<h3>Haier Wine Bank 50 HWS42GDAU1: the compact smart option</h3>
+<p>The smaller sibling of the HWS77GDAU1, the <strong>HWS42GDAU1</strong> offers the same strengths in a 42-bottle size: two independent zones, the Natural Airflow system (50 to 70% humidity), an activated carbon filter, a locking UV-protected door, a compressor on rubber mounts, 37 dB and the hOn app with Find Your Wine.</p>
+<p><strong>Pros:</strong> small footprint, two zones, the same smart features as the larger models in the line.<br><strong>Cons:</strong> fills up fast, more of a serving cabinet than an aging one.<br><strong>Best for:</strong> apartments, and wine lovers who keep about 30 bottles close at hand.</p>
+
+<p>Worth knowing: EuroCave, another respected French brand, offers its EuroCave Connect app on the Harmonie wine credenza, a two-compartment sideboard that’s more about interior design than big capacity.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Capacity</th><th>Zones and range</th><th>App</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>La Sommelière ECELLAR185</strong></td><td>Aging / dual-purpose</td><td>185 bottles</td><td>2 zones, 41–68°F (5–20°C)</td><td>Vinotag (automatic inventory)</td><td>Tracking a collection bottle by bottle</td></tr>
+<tr><td><strong>Haier HWS77GDAU1</strong></td><td>Dual-purpose</td><td>77 bottles</td><td>2 zones: 41–50°F and 50–64°F</td><td>hOn (Wi-Fi + Bluetooth, Vivino scan)</td><td>Serving and storing in a midsize unit</td></tr>
+<tr><td><strong>Liebherr WPbli 5231</strong></td><td>Aging</td><td>229 bottles</td><td>1 zone, 41–68°F (5–20°C)</td><td>SmartDevice (alarms, settings)</td><td>A large aging collection</td></tr>
+<tr><td><strong>Haier HWS42GDAU1</strong></td><td>Serving / dual-purpose</td><td>42 bottles</td><td>2 zones</td><td>hOn (Wi-Fi + Bluetooth, Vivino scan)</td><td>Small spaces</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Using a serving cabinet to age wine:</strong> to keep bottles for several years, choose a zone set around 54°F (12°C) with some humidity control.</li>
+<li><strong>Underestimating capacity:</strong> non-Bordeaux bottles take up more room, and collections grow fast.</li>
+<li><strong>Buying for the app alone:</strong> a poorly insulated or noisy cabinet is still a poor cabinet, smart or not. Storage basics come first.</li>
+<li><strong>Ignoring Wi-Fi coverage:</strong> a wine fridge in a basement or at the back of a garage may be out of your router’s range. Check the signal before you install it, or remote alerts won’t work.</li>
+<li><strong>Forgetting the room temperature:</strong> each unit is designed for a specific ambient range. Read the manual before you install it in an unheated space.</li>
+</ul>
+
+<h2>Installation and everyday use</h2>
+<p>Set the wine fridge on a flat, stable floor, away from heat sources (oven, heater or radiator, south-facing window), and leave the ventilation clearances the manufacturer specifies: this matters especially for freestanding models like the ones in this guide, which aren’t designed to be built in. After delivery, let the unit stand upright for the time the manual recommends before you plug it in.</p>
+<p>Plug it into a grounded outlet and skip extension cords and power strips, as refrigeration manufacturers generally advise. Models sold in Europe are built for 230 V; check that the version on your Amazon store is rated for 120 V. Let the temperature settle before you load bottles, then fill it gradually. In the app, turn on at least the temperature and door alerts: they’re what make the smart features worthwhile, especially while you’re away. Finally, replace the charcoal filter at the recommended interval (about every six months on the Liebherr) and top off the water reservoir on models that have one.</p>
+
+<h2>The bottom line</h2>
+<p>If you want a wine fridge that actually manages your collection, the <strong>La Sommelière ECELLAR185</strong> stands out with its smart shelves and Vinotag app: it’s the model in this lineup that gets the most out of being connected. For a mix of serving and storage at a more accessible tier, the <strong>Haier HWS77GDAU1</strong> is the most balanced choice, and its little sibling, the <strong>HWS42GDAU1</strong>, suits small spaces. For a large single-temperature aging cabinet, the <strong>Liebherr WPbli 5231 GrandCru Selection</strong> offers the capacity and the most complete safety alarms. Whichever you choose, check real capacity, available space and room temperature first: the app only adds to good storage conditions, it can’t replace them.</p>`,
+    ca: `<p>For most wine lovers, the best smart wine fridge in 2026 is the <strong>La Sommelière ECELLAR185</strong>: 185 bottles, two zones and, above all, smart shelves that know which bottles are inside and exactly where each one sits. On a tighter budget, the <strong>Haier Wine Bank 50 HWS77GDAU1</strong> brings two zones, humidity control and the hOn app in a 77-bottle format, while the <strong>Liebherr WPbli 5231 GrandCru Selection</strong> is built for large collections laid down to age.</p>
+<p>This guide compares the models using manufacturer specifications, independent reviews and verified buyer feedback. It will help you pick the right type of wine fridge, understand what Wi-Fi actually adds and avoid the most common installation mistakes. To see how a wine fridge fits in with the rest of your kitchen, read our <a href="/ca/blog/guide-cuisine-connectee-2026">2026 smart kitchen guide</a> and browse the <a href="/ca/cuisine-connectee">smart kitchen section</a>.</p>
+
+<h2>Serving, aging or dual-purpose: know what you need</h2>
+<p>Before you compare apps, decide what the wine fridge has to do. There are three main types.</p>
+<h3>The serving wine fridge</h3>
+<p>It keeps bottles at serving temperature, often with several zones (cooler for whites and sparkling wines, warmer for reds). It suits wines you’ll open within weeks or months of buying them. Small two-zone units such as the Haier HWS42GDAU1 fall into this category.</p>
+<h3>The aging (storage) wine fridge</h3>
+<p>It recreates the conditions of an underground wine cellar: one stable temperature, usually around 12°C, enough humidity, darkness and as little vibration as possible. This is the choice for anyone buying wines to cellar for years. The single-zone Liebherr WPbli 5231 is a good example.</p>
+<h3>The dual-purpose wine fridge</h3>
+<p>It combines a storage zone and a serving zone, or lets you switch between modes. It’s the most flexible option for a household that keeps a few bottles to age but always wants one ready to pour. The La Sommelière ECELLAR185, which runs in single- or multi-temperature mode, and the two-zone Haier HWS77GDAU1 follow this approach.</p>
+
+<h2>How to choose a smart wine fridge</h2>
+<h3>Temperature stability</h3>
+<p>For long-term storage, stability matters more than the exact figure. Repeated swings work the cork and speed up the wine’s development. Check the adjustable range (5 to 20°C on most models in this guide) and, above all, that the unit is rated for the temperature of the room it will sit in: a wine fridge in a garage that freezes in winter or bakes in summer will struggle to stay stable, however premium it is.</p>
+<h3>Vibration</h3>
+<p>Every compressor produces micro-vibrations. Manufacturers reduce them with compressors on anti-vibration mounts or dedicated designs (VibrateSafe at Liebherr, rubber mounts at Haier and La Sommelière). Also avoid placing the wine fridge right next to a washer or dishwasher.</p>
+<h3>Humidity</h3>
+<p>Relative humidity of roughly 50 to 70% keeps corks from drying out, which matters in a heated home, where winter air gets very dry. The wine fridges in this guide manage humidity passively: Haier’s Natural Airflow system with a water reservoir, Liebherr’s water tray and HumidityControl function, and controlled cooling cycles at La Sommelière. None of them replaces an active humidifier, but all aim for that range.</p>
+<h3>Protection from light</h3>
+<p>UV light damages wine. Every model here has a UV-treated glass door; if the wine fridge will sit in direct sunlight, a solid door is still the safer choice.</p>
+<h3>Real capacity</h3>
+<p>Capacities are based on standard 750 mL Bordeaux bottles. Burgundy shapes, tall Alsace flutes and Champagne bottles cut the real number considerably. Allow at least 20 to 30% more space than your current stock.</p>
+<h3>What connectivity really adds</h3>
+<p>Depending on the model, the app lets you check and adjust the temperature remotely, get an alert if the door is left open or the temperature drifts, and keep an inventory of your bottles. The inventory is where the differences are greatest: most wine fridges rely on a list you enter by hand or by scanning labels, whereas the ECELLAR185 physically detects bottles placed on or removed from its shelves.</p>
+<h3>Noise and energy use</h3>
+<p>Noise ranges from about 37 dB (Haier) to 41 dB (ECELLAR185): barely noticeable in a kitchen or laundry room, more audible in an open-concept living area. Wine fridges often sit in the lower classes of the current EU energy label (class G for both Haier models and the ECELLAR185), so compare the annual kWh figure on the spec sheet instead.</p>
+
+<h2>The best smart wine fridges in 2026</h2>
+<h3>La Sommelière ECELLAR185: the most complete collection management</h3>
+<p>The <strong>ECELLAR185</strong> from French maker La Sommelière is a 185-bottle aging wine fridge with two zones that can run in single- or multi-temperature mode, adjustable from 5 to 20°C. What sets it apart are its 14 smart shelves, each with 12 sensors, giving 168 positions that automatically detect bottles being added or removed. LED indicators show where the bottle you’re looking for is stored.</p>
+<p>The Vinotag app keeps the inventory up to date in real time, scans labels to identify a wine and suggests a position based on the wine type and how long it should be kept. Over Wi-Fi you can also adjust temperature and lighting remotely. For storage, there is an activated carbon filter, anti-vibration mounts, a triple-pane UV-protected tempered glass door, a lock, and visual and audible alarms.</p>
+<p><strong>Strengths:</strong> automatic inventory unique in this selection, large capacity, two zones, full-featured app.<br><strong>Limitations:</strong> bulky at over 2 m (about 6½ ft) tall and 72 cm (28 in.) wide, 41 dB, higher energy use than smaller models.<br><strong>Best for:</strong> collectors who want to know what’s in their collection at any moment without keeping a spreadsheet.</p>
+
+<h3>Haier Wine Bank 50 HWS77GDAU1: best value for features</h3>
+<p>The <strong>HWS77GDAU1</strong> belongs to the Wine Bank 50 Series 7 range. It holds 77 bottles across two independent zones: 5 to 10°C for whites and sparkling wines, 10 to 18°C for reds. The Natural Airflow system, together with a water reservoir, targets 50 to 70% humidity, and an activated carbon filter keeps the air clean.</p>
+<p>Connected via Wi-Fi and Bluetooth, it is controlled through Haier’s hOn app, which can also hold an inventory; the Find Your Wine feature, developed with Vivino, identifies a wine by scanning its label. The Four Seasons function adapts operation to the room temperature. A lockable UV-protected glass door, beech shelves, a compressor on anti-vibration mounts and a 37 dB noise level round out the package.</p>
+<p><strong>Strengths:</strong> two clearly separated zones, humidity management, quiet, compact at 1.27 m (50 in.) tall.<br><strong>Limitations:</strong> inventory is manual or by scanning, capacity is limited for serious aging, class G on the EU label.<br><strong>Best for:</strong> regular wine drinkers who want to serve and store without dedicating a room to it.</p>
+
+<h3>Liebherr WPbli 5231 GrandCru Selection: storage on a large scale</h3>
+<p>The <strong>WPbli 5231</strong> from the GrandCru Selection range is a single-zone, 229-bottle aging wine fridge adjustable from 5 to 20°C. It draws on Liebherr’s refrigeration expertise: a quiet compressor with VibrateSafe technology, a FreshAir activated charcoal filter, HumidityControl with a water tray for dry rooms, solid beech shelves and a glass door with triple UV protection.</p>
+<p>Compatible with Liebherr’s SmartDevice app, it lets you view and change settings remotely and sends safety information: a door alarm, a dual-sensor temperature alarm (TempProtect Plus) and a power-failure alert. The door closes by itself and stays open beyond 90° to make loading easier.</p>
+<p><strong>Strengths:</strong> large capacity, designed for long-term aging, very complete safety alarms.<br><strong>Limitations:</strong> one zone only, so no two-temperature serving; no automatic inventory; large footprint at 188 cm (74 in.) tall and 76 cm (30 in.) deep.<br><strong>Best for:</strong> collectors who mainly store wines to age and value reliability above all.</p>
+
+<h3>Haier Wine Bank 50 HWS42GDAU1: the compact smart option</h3>
+<p>The younger sibling of the HWS77GDAU1, the <strong>HWS42GDAU1</strong> offers the same strengths in a 42-bottle format: two independent zones, the Natural Airflow system (50 to 70% humidity), an activated carbon filter, a lockable UV-protected door, a compressor on anti-vibration mounts, 37 dB and the hOn app with Find Your Wine.</p>
+<p><strong>Strengths:</strong> small footprint, two zones, the same smart features as the larger models in the range.<br><strong>Limitations:</strong> fills up quickly, more of a serving fridge than an aging one.<br><strong>Best for:</strong> apartments and wine lovers who keep 30 or so bottles close at hand.</p>
+
+<p>Worth knowing: EuroCave, another respected French brand, offers its EuroCave Connect app on the Harmonie wine credenza, a two-compartment sideboard aimed more at interior design than at large capacity.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Capacity</th><th>Zones and range</th><th>App</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>La Sommelière ECELLAR185</strong></td><td>Aging / dual-purpose</td><td>185 bottles</td><td>2 zones, 5–20°C</td><td>Vinotag (automatic inventory)</td><td>Tracking a collection bottle by bottle</td></tr>
+<tr><td><strong>Haier HWS77GDAU1</strong></td><td>Dual-purpose</td><td>77 bottles</td><td>2 zones: 5–10°C and 10–18°C</td><td>hOn (Wi-Fi + Bluetooth, Vivino scan)</td><td>Serving and storing in a mid-size format</td></tr>
+<tr><td><strong>Liebherr WPbli 5231</strong></td><td>Aging</td><td>229 bottles</td><td>1 zone, 5–20°C</td><td>SmartDevice (alarms, settings)</td><td>A large collection to age</td></tr>
+<tr><td><strong>Haier HWS42GDAU1</strong></td><td>Serving / dual-purpose</td><td>42 bottles</td><td>2 zones</td><td>hOn (Wi-Fi + Bluetooth, Vivino scan)</td><td>Small spaces</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Using a serving wine fridge to age wine:</strong> to keep bottles for several years, choose a zone set around 12°C with some humidity control.</li>
+<li><strong>Underestimating capacity:</strong> non-Bordeaux bottles take more room, and collections grow quickly.</li>
+<li><strong>Buying for the app alone:</strong> a poorly insulated or noisy wine fridge is still a poor wine fridge, smart or not. Storage criteria come first.</li>
+<li><strong>Ignoring Wi-Fi coverage:</strong> a wine fridge in the basement or at the back of a garage may be out of the router’s reach. Check the signal before installing, or remote alerts will not work.</li>
+<li><strong>Forgetting the room temperature:</strong> each model is designed for a given ambient range. Read the manual before installing it in an unheated space such as a garage or cold room.</li>
+</ul>
+
+<h2>Installation and everyday use</h2>
+<p>Install the wine fridge on a flat, stable floor, away from heat sources (oven, heating vent or radiator, south-facing window), and leave the ventilation clearances the manufacturer specifies: this matters especially for freestanding models like those in this guide, which are not designed to be built in. After transport, leave the appliance standing upright for the time recommended in the manual before plugging it in.</p>
+<p>Plug it into a grounded outlet and avoid extension cords and power bars, as refrigeration manufacturers generally advise. Let the temperature settle before loading bottles, then fill it gradually. In the app, enable at least the temperature and door alerts: they are what make the connection worthwhile, especially while you are away. Finally, replace the charcoal filter at the recommended interval (about every six months on the Liebherr) and top up the water reservoir on models that have one.</p>
+
+<h2>Our verdict</h2>
+<p>If you want a wine fridge that genuinely manages your collection, the <strong>La Sommelière ECELLAR185</strong> stands out with its smart shelves and Vinotag app: it is the model in this selection that makes the most of connectivity. For mixed serving and storage at a more accessible tier, the <strong>Haier HWS77GDAU1</strong> is the most balanced choice, and its little sister, the <strong>HWS42GDAU1</strong>, suits small spaces. For a large single-temperature aging fridge, the <strong>Liebherr WPbli 5231 GrandCru Selection</strong> offers the capacity and the most complete safety alarms. Whatever you choose, check real capacity, available space and room temperature first: the app only complements good storage conditions.</p>`,
   },
   faq: [
     {
@@ -603,6 +846,9 @@ export const article: BlogArticle = {
         it: "Qual è la differenza tra una cantinetta di servizio e una d’invecchiamento?",
         nl: "Wat is het verschil tussen een serveerkast en een rijpingskast?",
         pl: "Czym różni się winiarka do serwowania od winiarki do leżakowania?",
+        sv: "Vad är skillnaden mellan en serveringsvinkyl och en lagringsvinkyl?",
+        us: "What’s the difference between a serving cabinet and an aging cabinet?",
+        ca: "What’s the difference between a serving wine fridge and an aging wine fridge?",
       },
       answer: {
         fr: "La cave de service garde les vins à leur température de dégustation, souvent sur plusieurs zones, pour des bouteilles bues dans les mois qui suivent. La cave de vieillissement maintient une température unique et stable, autour de 12 °C, avec une hygrométrie suffisante pour une garde de plusieurs années. Une cave polyvalente combine les deux.",
@@ -612,6 +858,9 @@ export const article: BlogArticle = {
         it: "La cantinetta di servizio mantiene i vini alla temperatura di consumo, spesso su più zone, per bottiglie da aprire nei mesi successivi. Quella d’invecchiamento mantiene un’unica temperatura stabile, intorno ai 12 °C, con umidità sufficiente per una conservazione di anni. Una polivalente unisce le due funzioni.",
         nl: "Een serveerkast houdt wijnen op drinktemperatuur, vaak in meerdere zones, voor flessen die je binnen enkele maanden opent. Een rijpingskast houdt één stabiele temperatuur rond 12 °C aan, met voldoende luchtvochtigheid om jaren te bewaren. Een multifunctionele kast combineert beide.",
         pl: "Winiarka do serwowania utrzymuje wina w temperaturze podawania, często w kilku strefach, i jest przeznaczona do butelek, które wypijesz w ciągu kilku miesięcy. Winiarka do leżakowania utrzymuje jedną stałą temperaturę, ok. 12 °C, i odpowiednią wilgotność, dzięki czemu wino może w niej dojrzewać przez kilka lat. Winiarka uniwersalna łączy obie funkcje.",
+        sv: "En serveringsvinkyl håller vinerna vid serveringstemperatur, ofta i flera zoner, för flaskor som du dricker inom några månader. En lagringsvinkyl håller en enda stabil temperatur, runt 12 °C, med tillräcklig luftfuktighet för att vinet ska kunna lagras i flera år. En kombinerad vinkyl klarar båda.",
+        us: "A serving cabinet keeps wines at drinking temperature, often across several zones, for bottles you’ll open within months. An aging cabinet holds one steady temperature, around 54°F (12°C), with enough humidity for storage over several years. A dual-purpose cabinet does both.",
+        ca: "A serving wine fridge keeps wine at drinking temperature, often across several zones, for bottles you’ll open within months. An aging wine fridge holds one stable temperature, around 12°C, with enough humidity to store bottles for several years. A dual-purpose model combines both.",
       },
     },
     {
@@ -623,6 +872,9 @@ export const article: BlogArticle = {
         it: "Una cantinetta vino connessa è davvero utile?",
         nl: "Is een verbonden wijnkast echt nuttig?",
         pl: "Czy warto kupić inteligentną winiarkę?",
+        sv: "Gör en smart vinkyl verkligen nytta?",
+        us: "Is a smart wine fridge really worth it?",
+        ca: "Is a smart wine fridge really worth it?",
       },
       answer: {
         fr: "Elle l’est surtout si vous conservez des vins de valeur ou si vous vous absentez souvent : les alertes de température, de porte ouverte ou de coupure de courant permettent de réagir avant que les bouteilles ne souffrent. La gestion d’inventaire est un plus pour les grandes collections. Pour quelques bouteilles bues rapidement, une cave non connectée suffit.",
@@ -632,6 +884,9 @@ export const article: BlogArticle = {
         it: "Lo è soprattutto se conservi vini di valore o sei spesso fuori casa: gli avvisi di temperatura, porta aperta o interruzione di corrente permettono di intervenire prima che le bottiglie ne risentano. La gestione dell’inventario è un vantaggio per le grandi collezioni. Per poche bottiglie bevute in fretta basta una cantinetta non connessa.",
         nl: "Vooral als je waardevolle wijnen bewaart of vaak weg bent: meldingen bij temperatuurafwijking, open deur of stroomuitval laten je ingrijpen voordat de flessen schade oplopen. Inventarisbeheer is een pluspunt voor grote collecties. Voor een paar flessen die je snel drinkt, volstaat een kast zonder verbinding.",
         pl: "Tak, zwłaszcza jeśli przechowujesz cenne wina lub często wyjeżdżasz: alerty o zmianie temperatury, otwartych drzwiach czy przerwie w zasilaniu pozwalają zareagować, zanim butelki ucierpią. Przy dużych kolekcjach dodatkowym atutem jest spis butelek w aplikacji. Jeśli trzymasz tylko kilka butelek, które szybko wypijasz, wystarczy zwykła winiarka bez Wi-Fi.",
+        sv: "Framför allt om du lagrar värdefulla viner eller ofta är bortrest: larm vid temperaturavvikelser, öppen dörr eller strömavbrott gör att du hinner agera innan flaskorna tar skada. Lagerhanteringen i appen är ett plus för stora samlingar. För några flaskor som dricks snabbt räcker en vinkyl utan uppkoppling.",
+        us: "It mainly pays off if you store valuable wines or travel often: temperature, open-door and power-outage alerts let you act before the bottles suffer. Inventory management is a bonus for large collections. For a few bottles you drink quickly, a standard (non-smart) wine fridge is enough.",
+        ca: "It mainly pays off if you store valuable wines or are often away: temperature, open-door and power-failure alerts let you react before the bottles suffer. Inventory management is a bonus for large collections. If you only keep a few bottles and drink them quickly, a regular wine fridge is enough.",
       },
     },
     {
@@ -643,6 +898,9 @@ export const article: BlogArticle = {
         it: "A quale temperatura impostare una cantinetta vino?",
         nl: "Op welke temperatuur stel je een wijnkast in?",
         pl: "Na jaką temperaturę ustawić winiarkę?",
+        sv: "Vilken temperatur ska vinkylen ställas på?",
+        us: "What temperature should a wine fridge be set to?",
+        ca: "What temperature should a wine fridge be set to?",
       },
       answer: {
         fr: "Pour la conservation longue, une température stable d’environ 12 °C convient à tous les vins. Pour le service, comptez en général 6 à 8 °C pour les effervescents, 8 à 12 °C pour les blancs et rosés, et 14 à 18 °C pour les rouges selon leur structure. Avec une cave à deux zones, réglez l’une pour la garde et l’autre pour le service.",
@@ -652,6 +910,9 @@ export const article: BlogArticle = {
         it: "Per la conservazione prolungata, una temperatura stabile di circa 12 °C va bene per tutti i vini. Per il servizio si considerano in genere 6-8 °C per gli spumanti, 8-12 °C per bianchi e rosati e 14-18 °C per i rossi a seconda della struttura. Con due zone, impostane una per la conservazione e l’altra per il servizio.",
         nl: "Voor lange bewaring is een stabiele temperatuur van ongeveer 12 °C geschikt voor alle wijnen. Om te serveren reken je meestal op 6 tot 8 °C voor mousserende wijn, 8 tot 12 °C voor wit en rosé en 14 tot 18 °C voor rood, afhankelijk van de body. Met twee zones stel je er één in voor bewaren en één voor serveren.",
         pl: "Przy długim przechowywaniu wszystkim winom służy stała temperatura ok. 12 °C. Do podawania przyjmuje się zwykle 6–8 °C dla win musujących, 8–12 °C dla białych i różowych oraz 14–18 °C dla czerwonych, zależnie od ich struktury. W winiarce dwustrefowej ustaw jedną strefę do leżakowania, a drugą do serwowania.",
+        sv: "För lång lagring passar en stabil temperatur på ungefär 12 °C alla viner. För servering brukar man räkna med 6–8 °C för mousserande viner, 8–12 °C för vita viner och roséviner samt 14–18 °C för röda, beroende på hur fylliga de är. Har vinkylen två zoner ställer du in den ena för lagring och den andra för servering.",
+        us: "For long-term storage, a steady temperature of about 54°F (12°C) suits all wines. For serving, allow roughly 43 to 46°F (6 to 8°C) for sparkling wines, 46 to 54°F (8 to 12°C) for whites and rosés, and 57 to 64°F (14 to 18°C) for reds, depending on their body. With a two-zone unit, set one zone for storage and the other for serving.",
+        ca: "For long-term storage, a stable temperature of about 12°C suits all wines. For serving, allow roughly 6 to 8°C for sparkling wines, 8 to 12°C for whites and rosés, and 14 to 18°C for reds, depending on their body. With a two-zone model, set one zone for storage and the other for serving.",
       },
     },
     {
@@ -663,6 +924,9 @@ export const article: BlogArticle = {
         it: "Quale capacità scegliere per una cantinetta vino?",
         nl: "Welke capaciteit kies je voor een wijnkast?",
         pl: "Jaką pojemność winiarki wybrać?",
+        sv: "Hur många flaskor ska vinkylen rymma?",
+        us: "What size wine fridge should I buy?",
+        ca: "What size wine fridge should I choose?",
       },
       answer: {
         fr: "Partez de votre stock actuel et ajoutez au moins 20 à 30 % : les capacités sont annoncées en bouteilles bordelaises de 75 cl, et les bourguignonnes ou bouteilles de champagne prennent plus de place. Une cave de 40 bouteilles convient à un usage de service, 70 à 80 bouteilles à un amateur régulier, et plus de 150 bouteilles à une vraie collection.",
@@ -672,6 +936,9 @@ export const article: BlogArticle = {
         it: "Parti dalla tua scorta attuale e aggiungi almeno il 20-30 %: la capacità è indicata in bottiglie bordolesi da 75 cl, e borgognotte o bottiglie di champagne occupano più spazio. Circa 40 bottiglie bastano per il servizio, 70-80 per un appassionato abituale e oltre 150 per una vera collezione.",
         nl: "Ga uit van je huidige voorraad en tel er minstens 20 tot 30% bij: de capaciteit wordt opgegeven in bordeauxflessen van 75 cl, en bourgogne- of champagneflessen nemen meer ruimte in. Zo’n 40 flessen volstaat om te serveren, 70 tot 80 voor een regelmatige wijndrinker en meer dan 150 voor een echte collectie.",
         pl: "Wyjdź od liczby butelek, które masz obecnie, i dodaj co najmniej 20–30%: producenci podają pojemność w butelkach bordoskich 0,75 l, a butelki burgundzkie czy szampana zajmują więcej miejsca. Winiarka na 40 butelek wystarczy do serwowania, model na 70–80 butelek sprawdzi się u osoby regularnie pijącej wino, a ponad 150 butelek to pojemność dla prawdziwej kolekcji.",
+        sv: "Utgå från ditt nuvarande lager och lägg till minst 20–30 %: antalet anges i bordeauxflaskor på 75 cl, och bourgogne- och champagneflaskor tar mer plats. Runt 40 flaskor räcker för servering, 70–80 flaskor passar den som dricker vin regelbundet och över 150 flaskor en riktig samling.",
+        us: "Start from your current stock and add at least 20 to 30%: capacity ratings assume standard 750 ml Bordeaux-style bottles, and Burgundy or Champagne bottles take up more room. About 40 bottles suits serving use, 70 to 80 bottles a regular wine drinker, and more than 150 bottles a real collection.",
+        ca: "Start from your current stock and add at least 20 to 30%: capacities are based on 750 mL Bordeaux bottles, and Burgundy or Champagne bottles take up more room. About 40 bottles suits serving use, 70 to 80 bottles a regular wine drinker and more than 150 bottles a real collection.",
       },
     },
     {
@@ -683,6 +950,9 @@ export const article: BlogArticle = {
         it: "Dove installare una cantinetta vino smart?",
         nl: "Waar plaats je een slimme wijnkast?",
         pl: "Gdzie ustawić inteligentną winiarkę?",
+        sv: "Var ska en smart vinkyl stå?",
+        us: "Where should you put a smart wine fridge?",
+        ca: "Where should you put a smart wine fridge?",
       },
       answer: {
         fr: "Dans une pièce dont la température reste dans la plage prévue par le fabricant, loin des sources de chaleur et du soleil direct, sur un sol plan, avec les dégagements de ventilation indiqués dans la notice. Vérifiez aussi que le Wi-Fi y est bien capté : sans connexion, les alertes à distance ne fonctionnent pas.",
@@ -692,6 +962,9 @@ export const article: BlogArticle = {
         it: "In un locale la cui temperatura resti nell’intervallo indicato dal produttore, lontano da fonti di calore e dal sole diretto, su un pavimento in piano e con le distanze di ventilazione riportate nel manuale. Verifica anche la copertura Wi-Fi: senza connessione, gli avvisi a distanza non funzionano.",
         nl: "In een ruimte waarvan de temperatuur binnen het door de fabrikant opgegeven bereik blijft, uit de buurt van warmtebronnen en direct zonlicht, op een vlakke vloer en met de ventilatieafstanden uit de handleiding. Controleer ook het wifisignaal: zonder verbinding werken de meldingen op afstand niet.",
         pl: "W pomieszczeniu, w którym temperatura nie wychodzi poza zakres podany przez producenta, z dala od źródeł ciepła i bezpośredniego słońca, na równej podłodze i z zachowaniem odstępów wentylacyjnych podanych w instrukcji. Sprawdź też, czy w tym miejscu jest dobry zasięg Wi-Fi: bez połączenia zdalne alerty nie działają.",
+        sv: "I ett rum där temperaturen håller sig inom det intervall som tillverkaren uppger, på avstånd från värmekällor och direkt solljus, på ett plant golv och med det utrymme för ventilation som bruksanvisningen anger. Kontrollera också att wifi-signalen når dit: utan uppkoppling fungerar inte larmen på distans.",
+        us: "In a room whose temperature stays within the manufacturer’s stated range, away from heat sources and direct sunlight, on a level floor, with the ventilation clearances listed in the manual. Also check the Wi-Fi signal there: without a connection, remote alerts won’t work.",
+        ca: "In a room whose temperature stays within the manufacturer’s stated range, away from heat sources and direct sunlight, on a level floor, with the ventilation clearances given in the manual. Also check the Wi-Fi signal there: without a connection, remote alerts will not work.",
       },
     },
     {
@@ -703,6 +976,9 @@ export const article: BlogArticle = {
         it: "Serve un abbonamento per usare l’app di una cantinetta connessa?",
         nl: "Heb je een abonnement nodig voor de app van een slimme wijnkast?",
         pl: "Czy do korzystania z aplikacji inteligentnej winiarki potrzebny jest abonament?",
+        sv: "Behövs ett abonnemang för att använda appen till en smart vinkyl?",
+        us: "Do you need a subscription to use a smart wine fridge’s app?",
+        ca: "Do you need a subscription to use a smart wine fridge’s app?",
       },
       answer: {
         fr: "Les applications des fabricants présentées ici (Vinotag, hOn, SmartDevice) se téléchargent gratuitement sur iOS et Android pour piloter la cave. Les conditions d’éventuels services complémentaires pouvant évoluer, vérifiez-les sur la fiche du fabricant avant l’achat.",
@@ -712,6 +988,9 @@ export const article: BlogArticle = {
         it: "Le app dei produttori presentate qui (Vinotag, hOn, SmartDevice) si scaricano gratuitamente su iOS e Android per controllare la cantinetta. Poiché le condizioni di eventuali servizi aggiuntivi possono cambiare, verificale sul sito del produttore prima dell’acquisto.",
         nl: "De apps van de fabrikanten in deze gids (Vinotag, hOn, SmartDevice) zijn gratis te downloaden voor iOS en Android om de kast te bedienen. Omdat de voorwaarden van eventuele extra diensten kunnen veranderen, controleer je die vóór aankoop op de site van de fabrikant.",
         pl: "Aplikacje producentów omówione w tym przewodniku (Vinotag, hOn, SmartDevice) są bezpłatne na iOS i Androida i pozwalają sterować winiarką. Warunki ewentualnych usług dodatkowych mogą się zmieniać, dlatego przed zakupem sprawdź je na stronie producenta.",
+        sv: "Tillverkarnas appar i guiden (Vinotag, hOn, SmartDevice) är gratis att ladda ner för iOS och Android och används för att styra vinkylen. Villkoren för eventuella extratjänster kan ändras, så kontrollera dem på tillverkarens produktsida före köpet.",
+        us: "The manufacturer apps covered here (Vinotag, hOn, SmartDevice) are free to download on iOS and Android and let you control the wine fridge. Since the terms of any extra services can change, check them on the manufacturer’s product page before you buy.",
+        ca: "The manufacturer apps covered here (Vinotag, hOn, SmartDevice) are free to download on iOS and Android and let you control the wine fridge. Because the terms of any extra services can change, check them on the manufacturer’s page before you buy.",
       },
     },
   ],

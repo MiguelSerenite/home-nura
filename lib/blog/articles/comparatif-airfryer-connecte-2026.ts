@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
         nl: 'Zwarte airfryer op een aanrecht in de keuken',
         pl: 'Czarna frytkownica beztłuszczowa na kuchennym blacie',
+        sv: 'Svart airfryer på en köksbänk',
+        us: 'Black air fryer on a kitchen countertop',
+        ca: 'Black air fryer on a kitchen counter',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Friggitrice ad aria connessa WiFi 2026: confronto dei migliori modelli',
     nl: 'Slimme wifi-airfryer 2026: de beste modellen vergeleken',
     pl: 'Frytkownica beztłuszczowa z Wi-Fi 2026: porównanie najlepszych modeli',
+    sv: 'Bästa airfryer med wifi 2026: jämförelse av toppmodellerna',
+    us: 'Best Smart Air Fryers of 2026: Top Wi-Fi Models Compared',
+    ca: 'Best Smart Air Fryers 2026: Top Wi-Fi Models Compared',
   },
   excerpt: {
     fr: 'Philips Combi XXL Connecté, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L et 6.5L : quel airfryer connecté choisir en 2026 ? Applications, assistants vocaux, capacité et profils d’usage comparés.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L e 6.5L: quale friggitrice ad aria connessa scegliere nel 2026? App, assistenti vocali, capienza e usi a confronto.',
     nl: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L en 6.5L: welke slimme airfryer kies je in 2026? Apps, spraakassistenten, inhoud en gebruik vergeleken.',
     pl: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L i 6.5L: którą frytkownicę beztłuszczową z Wi-Fi wybrać w 2026 roku? Porównujemy aplikacje, asystentów głosowych, pojemność i przeznaczenie.',
+    sv: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L och 6.5L: vilken uppkopplad airfryer ska du välja 2026? Vi jämför appar, röstassistenter, volym och vem varje modell passar för.',
+    us: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L and 6.5L: which smart air fryer should you buy in 2026? We compare apps, voice assistants, capacity and who each one suits.',
+    ca: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L and 6.5L: which smart air fryer should you buy in 2026? Apps, voice assistants, capacity and best uses compared.',
   },
   content: {
     fr: `<p><strong>Le meilleur airfryer connecté en 2026 pour la plupart des foyers est le Philips Airfryer Combi XXL Connecté (8,3 L)</strong> : grande capacité, 22 modes de cuisson, sonde de température intégrée et application HomeID qui envoie les réglages des recettes à l’appareil. Pour un petit budget ou un petit foyer, le Xiaomi Smart Air Fryer Pro 4L offre l’essentiel du pilotage par application, et le Cosori Dual Blaze 6,4 L est le meilleur compromis pour une famille de quatre.</p>
@@ -648,6 +657,264 @@ export const article: BlogArticle = {
 
 <h2>Werdykt</h2>
 <p>Dla większości gospodarstw domowych <strong>Philips Airfryer Combi XXL Connected</strong> to najbardziej kompletny wybór: duża pojemność, wbudowana sonda, wiele trybów i aplikacja HomeID. Przy ograniczonym budżecie albo gdy gotujesz dla 1–3 osób, <strong>Xiaomi Smart Air Fryer Pro 4L</strong> zapewnia najważniejsze funkcje sterowania z aplikacji w niskiej cenie. Czteroosobowej rodzinie, której zależy na równomiernym smażeniu i sterowaniu głosowym przez Alexę lub Asystenta Google, najlepiej posłuży <strong>Cosori Dual Blaze 6,4 l</strong>. Jeśli chcesz porównać te modele z frytkownicami bez Wi-Fi, zajrzyj do naszego <a href="/pl/guides/airfryers">poradnika o frytkownicach beztłuszczowych</a>.</p>`,
+    sv: `<p><strong>Den bästa uppkopplade airfryern 2026 för de flesta hushåll är Philips Airfryer Combi XXL Connected (8,3 liter)</strong>: stor volym, 22 tillagningsfunktioner, inbyggd stektermometer och appen HomeID, som skickar receptets inställningar direkt till apparaten. Har du en snäv budget eller ett litet hushåll täcker Xiaomi Smart Air Fryer Pro 4L de viktigaste appfunktionerna, och Cosori Dual Blaze på 6,4 liter är det bästa allroundvalet för en familj på fyra.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, oberoende utvärderingar och verifierade köparomdömen. Den tar bara med modeller som säljs i Europa. Hela urvalet hittar du på vår sida om <a href="/sv/cuisine-connectee/airfryers">airfryrar</a>.</p>
+
+<h2>Vad en uppkopplad airfryer egentligen tillför</h2>
+<p>En uppkopplad airfryer lagar mat precis som en vanlig: en fläkt blåser mycket het luft runt maten. Wifi påverkar inte hur bra maten blir. Det som ändras är hur du använder apparaten:</p>
+<ul>
+<li><strong>Guidade recept</strong>: du väljer ett recept i appen, och temperatur och tid skickas till airfryern. Det är den verkliga fördelen för nybörjare.</li>
+<li><strong>Övervakning på distans</strong>: återstående tid och en notis när maten är klar dyker upp i mobilen, ibland med en påminnelse om att skaka korgen.</li>
+<li><strong>Schemaläggning</strong>: vissa modeller låter dig skjuta upp starten, upp till 24 timmar på Xiaomis modeller.</li>
+<li><strong>Röststyrning</strong>: beroende på märke via Amazon Alexa eller Google Assistant.</li>
+</ul>
+<p>Å andra sidan kräver appen nästan alltid ett användarkonto, för de flesta modeller ett wifi-nät på 2,4 GHz och att du godkänner en datapolicy. Lockar inget av det här lagar en airfryer utan uppkoppling maten precis lika bra.</p>
+
+<h2>Så väljer du rätt</h2>
+<ul>
+<li><strong>Volym</strong>: runt 4 liter för 1–3 personer, 6–7 liter för 4 personer, 8 liter eller mer för en storfamilj eller en hel kyckling.</li>
+<li><strong>Appen</strong>: Philips använder HomeID (tidigare NutriU), Cosori använder VeSync och Xiaomi använder Xiaomi Home. Receptens kvalitet och ett tydligt gränssnitt betyder mer än hur många recept som finns.</li>
+<li><strong>Röstassistenter</strong>: kontrollera att airfryern fungerar med det ekosystem du redan använder (Alexa eller Google). Ingen av modellerna här säljs som kompatibel med Apple Home eller Matter.</li>
+<li><strong>Tillagningslägen</strong>: från 11 förinställda program hos Xiaomi till 22 funktioner hos Philips (lågtemperaturtillagning, torkning, jäsning, långkok m.m.).</li>
+<li><strong>Rengöring</strong>: en korg och en låda med non-stick-beläggning som tål diskmaskin gör stor skillnad i vardagen.</li>
+</ul>
+
+<h2>De 5 bästa uppkopplade airfryrarna 2026</h2>
+
+<h3>1. Philips Airfryer Combi XXL Connected (HD9880/90): bäst totalt</h3>
+<p>Philips toppmodell (7000 Series) kombinerar en volym på 8,3 liter, en effekt på 2 200 W och 22 tillagningsfunktioner, bland annat lågtemperaturtillagning, grillning, torkning och jäsning. En inbyggd stektermometer mäter kärntemperaturen, vilket är praktiskt för kött och stekar. Den har fler än 100 automatiska program, och appen HomeID skickar receptens inställningar till apparaten och följer tillagningen. I vår <a href="/sv/blog/test-philips-combi-xxl-connected">utförliga recension av Philips Combi XXL Connected</a> går vi djupare.</p>
+<p><strong>Styrkor:</strong> mycket stor volym, inbyggd givare, mångsidighet, innehållsrik app som köparna ger bra betyg.</p>
+<p><strong>Svagheter:</strong> den högsta prisklassen i jämförelsen, tung och skrymmande, Philips lyfter inte fram röststyrning för den här modellen.</p>
+<p><strong>Bäst för:</strong> familjer och dig som vill låta den ta över en del av det du annars gör i ugnen.</p>
+
+<h3>2. Cosori Dual Blaze 6,4 liter: bäst för en familj på fyra</h3>
+<p>Cosori Dual Blaze sticker ut med två värmeelement, ett ovanför och ett under korgen (tekniken 360 ThermoIQ). Enligt oberoende utvärderingar och köparomdömen blir tillagningen jämnare och du behöver skaka eller vända maten mer sällan. Lådan på 6,4 liter räcker till 4–6 personer och har 12 funktioner. I appen VeSync kan du följa tillagningen, låta receptens inställningar laddas automatiskt, spara egna program och röststyra med Alexa eller Google Assistant. Läs vår <a href="/sv/blog/test-cosori-dual-blaze">fullständiga recension av Cosori Dual Blaze</a>.</p>
+<p><strong>Styrkor:</strong> jämn tillagning, bra balans mellan volym och hur mycket plats den tar, fungerar med båda röstassistenterna.</p>
+<p><strong>Svagheter:</strong> bara en låda, en del köpare tycker att appen är långsam.</p>
+<p><strong>Bäst för:</strong> hushåll med 3–5 personer som vill ha en uppkopplad modell i mellanklassen.</p>
+
+<h3>3. Xiaomi Smart Air Fryer Pro 4L: mest prisvärd</h3>
+<p>Xiaomi Smart Air Fryer Pro 4L är en av de mest prisvärda airfryrarna med wifi. Den har 1 600 W, ett temperaturspann på 40–200 °C, 11 förinställda program och ett tittfönster, så att du kan kika på maten utan att dra ut lådan. Appen Xiaomi Home har fler än 100 recept, schemaläggning upp till 24 timmar i förväg och röststyrning via Google Assistant. Det låga temperaturspannet gör att den också kan tina och jäsa.</p>
+<p><strong>Styrkor:</strong> pris på instegsnivå, tittfönster, tydlig app, enkel att komma igång med om du redan har produkter från Xiaomi.</p>
+<p><strong>Svagheter:</strong> 4 liter blir trångt för fler än 3 personer, ingen dubbelkorg.</p>
+<p><strong>Bäst för:</strong> par, studenter och små hushåll.</p>
+
+<h3>4. Philips Airfryer 5000 Series XXL Connected (HD9285): det enklare Philips-alternativet</h3>
+<p>5000 XXL Connected är mindre mångsidig än Combi, men har en volym på 7,2 liter (upp till 6 portioner enligt Philips), 2 000 W, 16 funktioner och ett temperaturspann på 40–200 °C. Även den använder appen HomeID för att skicka recept och följa tillagningen, och Philips anger röststyrning med Amazon Alexa.</p>
+<p><strong>Styrkor:</strong> stor volym, appen HomeID, fungerar med Alexa.</p>
+<p><strong>Svagheter:</strong> ingen inbyggd givare, färre lägen än Combi.</p>
+<p><strong>Bäst för:</strong> familjer som vill ha Philips ekosystem utan att gå upp i premiumklassen.</p>
+
+<h3>5. Xiaomi Smart Air Fryer 6.5L: den prisvärda stora modellen med wifi</h3>
+<p>Den här modellen (europeisk artikelbeteckning BHR7358EU) har samma app, Xiaomi Home, i ett större format: 6,5 liter och 1 800 W. Schemaläggning upp till 24 timmar i förväg finns kvar, liksom recept som skickas från appen, varmhållning och röststyrning via Google Assistant.</p>
+<p><strong>Styrkor:</strong> stor volym för prisklassen, enkel app.</p>
+<p><strong>Svagheter:</strong> enklare byggkvalitet än Philips modeller, färre avancerade funktioner.</p>
+<p><strong>Bäst för:</strong> familjer med stram budget.</p>
+
+<h2>HomeID, VeSync eller Xiaomi Home: vilken app passar dig?</h2>
+<p>Att välja en uppkopplad airfryer innebär ofta att välja en app. <strong>Philips HomeID</strong> handlar helt om matlagning: guidade recept steg för steg, program anpassade för varje Philips-modell och uppföljning av tillagningen. Den passar dig som främst vill ha vägledning i köket. <strong>VeSync</strong>, Cosoris app, styr även andra apparater från samma koncern (t.ex. luftrenare, vågar och luftfuktare från Levoit) och låter dig spara egna program. <strong>Xiaomi Home</strong> är en allmän app för smarta hem: där hamnar airfryern bredvid märkets lampor, robotdammsugare och kameror, vilket är smidigt om du redan har sådana.</p>
+<p>Läs färska omdömen i appbutiken på din mobil innan du köper: de säger mycket om hur stabil uppkopplingen är och hur bra uppdateringarna är. Tänk också långsiktigt: en app kan förändras, byta namn (NutriU blev HomeID) eller be om nya behörigheter. Som tur är fungerar knapparna på apparaten utan den.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Volym</th><th>App</th><th>Röstassistent</th><th>Största styrka</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips Combi XXL Connected</td><td>8,3 l</td><td>HomeID</td><td>Lyfts inte fram</td><td>22 lägen, inbyggd givare</td><td>Storfamiljer</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6,4 l</td><td>VeSync</td><td>Alexa, Google</td><td>Dubbla värmeelement</td><td>Familjer på 4</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 l</td><td>Xiaomi Home</td><td>Google</td><td>Tittfönster, schemaläggning 24 tim</td><td>Små hushåll</td></tr>
+<tr><td>Philips 5000 XXL Connected</td><td>7,2 l</td><td>HomeID</td><td>Alexa</td><td>16 funktioner</td><td>Familjer</td></tr>
+<tr><td>Xiaomi Smart Air Fryer 6.5L</td><td>6,5 l</td><td>Xiaomi Home</td><td>Google</td><td>Stor och prisvärd</td><td>Familjer med stram budget</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att betala för uppkoppling du inte använder</strong>: tänker du inte använda appen kostar en vanlig modell i samma storlek mindre.</li>
+<li><strong>Att tro att allt fungerar med allt</strong>: kontrollera vilken röstassistent varje modell stöder. Produktsidor blandar ibland ihop versioner från olika länder.</li>
+<li><strong>Att underskatta volymen</strong>: en överfylld korg ger ojämnt resultat. Hellre lite för stor än lite för liten.</li>
+<li><strong>Att glömma wifi på 2,4 GHz</strong>: de flesta små uppkopplade apparater kan inte ansluta till ett nät på 5 GHz. Se till att din router sänder ett nät på 2,4 GHz.</li>
+<li><strong>Att strunta i måtten</strong>: modeller på 7–8 liter är höga och tunga. Mät utrymmet under väggskåpen.</li>
+</ul>
+
+<h2>Säkerhet och vardagsbruk</h2>
+<p>Fjärrstyrning ersätter inte sunt förnuft. Starta bara tillagningen när maten ligger i korgen och inget blockerar apparaten. Ställ airfryern på en stabil och värmetålig yta, med fritt utrymme runt luftutblåsen. Koppla helst in den direkt i ett vägguttag i stället för i en förlängningssladd, eftersom de här apparaterna drar mellan 1 600 och 2 200 W. Installera slutligen de uppdateringar av appen och den inbyggda programvaran som tillverkaren erbjuder, och stäng av frivillig datadelning i appen om du inte vill ha den.</p>
+
+<h2>Omdöme</h2>
+<p>För de flesta hushåll är <strong>Philips Airfryer Combi XXL Connected</strong> det mest kompletta valet: stor volym, inbyggd givare, många lägen och appen HomeID. Har du en stram budget eller lagar mat till 1–3 personer ger <strong>Xiaomi Smart Air Fryer Pro 4L</strong> det viktigaste en uppkopplad airfryer kan erbjuda, till ett lågt pris. För en familj på fyra som vill ha jämn tillagning och röststyrning med Alexa eller Google är <strong>Cosori Dual Blaze 6,4 liter</strong> den bästa kompromissen. Vill du jämföra med modeller utan uppkoppling kan du läsa vår <a href="/sv/guides/airfryers">guide till airfryrar</a>.</p>`,
+    us: `<p><strong>The best smart air fryer of 2026 for most households is the Philips Airfryer Combi XXL Connected (8.8 qt, 8.3 L)</strong>: big capacity, 22 cooking functions, a built-in food thermometer and the HomeID app, which sends recipe settings straight to the appliance. On a tight budget or for a small household, the Xiaomi Smart Air Fryer Pro 4L covers the app essentials, and the Cosori Dual Blaze (6.8 qt, 6.4 L) is the best all-rounder for a family of four.</p>
+<p>This comparison draws on manufacturer specs, independent test results and verified owner reviews. It only includes models sold in Europe. You can browse the full lineup on our <a href="/us/cuisine-connectee/airfryers">air fryers</a> page.</p>
+
+<h2>What a smart air fryer actually adds</h2>
+<p>A smart air fryer cooks exactly like a regular one: a fan blows very hot air around the food. Wi-Fi doesn’t change how well it cooks. It changes how you use it:</p>
+<ul>
+<li><strong>Guided recipes</strong>: pick a recipe in the app and the temperature and time go straight to the air fryer. That’s the real payoff for beginners.</li>
+<li><strong>Remote monitoring</strong>: time remaining and done-cooking alerts show up on your phone, sometimes with a shake reminder.</li>
+<li><strong>Scheduling</strong>: some models let you delay the start, up to 24 hours ahead on the Xiaomi models.</li>
+<li><strong>Voice control</strong>: depending on the brand, through Amazon Alexa or Google Assistant.</li>
+</ul>
+<p>The catch: the app almost always requires a user account, a 2.4 GHz Wi-Fi network for most models and agreeing to a data policy. If none of that appeals to you, a regular air fryer will cook just as well.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Capacity</strong>: about 4.2 qt (4 L) for one to three people, 6.3 to 7.4 qt (6 to 7 L) for four, and 8.5 qt (8 L) or more for a large family or a whole chicken.</li>
+<li><strong>The app</strong>: Philips uses HomeID (formerly NutriU), Cosori uses VeSync and Xiaomi uses Xiaomi Home. Good recipes and a clear interface matter more than the sheer number of recipes.</li>
+<li><strong>Voice assistants</strong>: check that the model works with the ecosystem you already use (Alexa or Google). None of the models here is sold as compatible with Apple Home or Matter.</li>
+<li><strong>Cooking modes</strong>: from 11 presets on the Xiaomi to 22 functions on the Philips (low-temperature cooking, dehydrating, proofing, slow cooking…).</li>
+<li><strong>Cleaning</strong>: a nonstick, dishwasher-safe basket and drawer make a real difference day to day.</li>
+</ul>
+
+<h2>The 5 best smart air fryers of 2026</h2>
+
+<h3>1. Philips Airfryer Combi XXL Connected (HD9880/90): best overall</h3>
+<p>Philips’ flagship (7000 Series) pairs an 8.8-quart (8.3 L) capacity with 2,200 W and 22 cooking functions, including low-temperature cooking, broiling, dehydrating and proofing. A built-in food thermometer reads the internal temperature, which is handy for meat and roasts. It has more than 100 auto-cook programs, and the HomeID app sends recipe settings to the appliance and tracks progress. Our <a href="/us/blog/test-philips-combi-xxl-connected">detailed Philips Combi XXL Connected review</a> goes deeper.</p>
+<p><strong>Pros:</strong> very large capacity, built-in probe, versatility, a full-featured app that owners rate well.</p>
+<p><strong>Cons:</strong> the highest price tier in this comparison, heavy and bulky, and Philips doesn’t highlight voice control for this model.</p>
+<p><strong>Best for:</strong> families and anyone who wants it to take over some oven jobs.</p>
+
+<h3>2. Cosori Dual Blaze 6.4 L: best for a family of four</h3>
+<p>The Cosori Dual Blaze stands out with two heating elements, one above the basket and one below (360 ThermoIQ technology). Independent test results and owner reviews point to more even cooking and less need to shake or flip food. Its 6.8-quart (6.4 L) drawer feeds four to six people and offers 12 functions. The VeSync app lets you monitor cooking, load recipe settings automatically, save your own presets and use voice control with Alexa or Google Assistant. See our <a href="/us/blog/test-cosori-dual-blaze">full Cosori Dual Blaze review</a>.</p>
+<p><strong>Pros:</strong> even cooking, a good balance of capacity and footprint, works with both voice assistants.</p>
+<p><strong>Cons:</strong> single drawer, and some owners find the app slow.</p>
+<p><strong>Best for:</strong> households of three to five people who want a midrange smart model.</p>
+
+<h3>3. Xiaomi Smart Air Fryer Pro 4L: best value</h3>
+<p>The Xiaomi Smart Air Fryer Pro 4L is one of the most affordable smart air fryers. It offers 1,600 W, a 105°F to 390°F (40°C to 200°C) range, 11 presets and a viewing window, so you can check the food without opening the drawer. The Xiaomi Home app has more than 100 recipes, scheduling up to 24 hours ahead and voice control through Google Assistant. The low end of the temperature range also handles defrosting and proofing.</p>
+<p><strong>Pros:</strong> entry-level price tier, viewing window, clear app, easy setup if you already own Xiaomi products.</p>
+<p><strong>Cons:</strong> 4.2 quarts (4 L) is tight for more than three people, no dual basket.</p>
+<p><strong>Best for:</strong> couples, students and small households.</p>
+
+<h3>4. Philips Airfryer 5000 Series XXL Connected (HD9285): the simpler Philips option</h3>
+<p>Less versatile than the Combi, the 5000 XXL Connected has a 7.6-quart (7.2 L) capacity (up to six servings, according to Philips), 2,000 W, 16 functions and a 105°F to 390°F (40°C to 200°C) range. It also uses the HomeID app to send recipes and monitor cooking, and Philips lists voice control with Amazon Alexa.</p>
+<p><strong>Pros:</strong> large capacity, HomeID app, works with Alexa.</p>
+<p><strong>Cons:</strong> no built-in probe, fewer modes than the Combi.</p>
+<p><strong>Best for:</strong> families who want the Philips ecosystem without going premium.</p>
+
+<h3>5. Xiaomi Smart Air Fryer 6.5L: the affordable big smart model</h3>
+<p>This model (European model number BHR7358EU) brings the Xiaomi Home app to a bigger size: 6.9 quarts (6.5 L) and 1,800 W. It keeps scheduling up to 24 hours ahead, recipes sent from the app, a keep-warm function and voice control through Google Assistant.</p>
+<p><strong>Pros:</strong> large capacity for its price tier, simple app.</p>
+<p><strong>Cons:</strong> more basic build quality than the Philips models, fewer advanced functions.</p>
+<p><strong>Best for:</strong> families on a budget.</p>
+
+<h2>HomeID, VeSync or Xiaomi Home: which app?</h2>
+<p>Choosing a smart air fryer often means choosing an app. <strong>Philips HomeID</strong> is all about cooking: step-by-step guided recipes, programs tailored to each Philips model and progress tracking. It suits people who mostly want a hand in the kitchen. <strong>VeSync</strong>, Cosori’s app, also runs other devices from the same company (Levoit air purifiers, scales and humidifiers, for example) and lets you save your own presets. <strong>Xiaomi Home</strong> is a general-purpose smart home app: the air fryer sits alongside the brand’s bulbs, robot vacuums and cameras, which is handy if you already own them.</p>
+<p>Before you buy, read recent reviews in your phone’s app store: they tell you a lot about connection stability and how good the updates are. Think long term, too: an app can change, get renamed (NutriU became HomeID) or ask for new permissions. Fortunately, the controls on the appliance keep working without it.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity</th><th>App</th><th>Voice assistant</th><th>Standout feature</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips Combi XXL Connected</td><td>8.8 qt (8.3 L)</td><td>HomeID</td><td>Not highlighted</td><td>22 modes, built-in probe</td><td>Large families</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6.8 qt (6.4 L)</td><td>VeSync</td><td>Alexa, Google</td><td>Dual heating elements</td><td>Families of 4</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4.2 qt (4 L)</td><td>Xiaomi Home</td><td>Google</td><td>Window, 24-hour scheduling</td><td>Small households</td></tr>
+<tr><td>Philips 5000 XXL Connected</td><td>7.6 qt (7.2 L)</td><td>HomeID</td><td>Alexa</td><td>16 functions</td><td>Families</td></tr>
+<tr><td>Xiaomi Smart Air Fryer 6.5L</td><td>6.9 qt (6.5 L)</td><td>Xiaomi Home</td><td>Google</td><td>Affordable large size</td><td>Families on a budget</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Paying for smart features you won’t use</strong>: if you don’t plan to use the app, a regular model of the same size costs less.</li>
+<li><strong>Assuming everything works with everything</strong>: check which voice assistant each model supports. Product listings sometimes mix up versions from different countries.</li>
+<li><strong>Underestimating capacity</strong>: an overfilled basket cooks unevenly. A little too big beats a little too small.</li>
+<li><strong>Forgetting about 2.4 GHz Wi-Fi</strong>: most small smart appliances can’t join a 5 GHz network. Make sure your router broadcasts a 2.4 GHz network.</li>
+<li><strong>Ignoring the footprint</strong>: 7.4- to 8.5-quart (7 to 8 L) models are tall and heavy. Measure the space under your upper cabinets.</li>
+</ul>
+
+<h2>Safety and everyday use</h2>
+<p>Remote control is no substitute for common sense. Only start cooking once the food is in the basket and nothing is blocking the appliance. Set the air fryer on a stable, heat-resistant surface, with room around the air vents. Ideally, plug it straight into a wall outlet rather than an extension cord or power strip, since these appliances draw 1,600 to 2,200 W. Models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V. Finally, install the app and firmware updates the manufacturer offers, and turn off optional data sharing in the app if you don’t want it.</p>
+
+<h2>The bottom line</h2>
+<p>For most households, the <strong>Philips Airfryer Combi XXL Connected</strong> is the most complete choice: big capacity, a built-in probe, plenty of modes and the HomeID app. If your budget is tight or you cook for one to three people, the <strong>Xiaomi Smart Air Fryer Pro 4L</strong> delivers the smart essentials for less. For a family of four that wants even cooking and Alexa or Google voice control, the <strong>Cosori Dual Blaze 6.4 L</strong> is the best compromise. To compare with regular models, see our <a href="/us/guides/airfryers">air fryer guide</a>.</p>`,
+    ca: `<p><strong>The best smart air fryer in 2026 for most households is the Philips Airfryer Combi XXL Connected (8.3 L / 8.8 qt)</strong>: large capacity, 22 cooking functions, a built-in food thermometer and the HomeID app, which sends recipe settings straight to the appliance. On a tight budget or for a small household, the Xiaomi Smart Air Fryer Pro 4L covers the app essentials, and the Cosori Dual Blaze 6.4 L is the best all-rounder for a family of four.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer feedback. It only includes models sold in Europe. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. You can browse the full selection on our <a href="/ca/cuisine-connectee/airfryers">air fryers</a> page.</p>
+
+<h2>What a smart air fryer really adds</h2>
+<p>A smart air fryer cooks exactly like a regular one: a fan blows very hot air around the food. Wi-Fi doesn’t change how well it cooks. It changes how you use the appliance:</p>
+<ul>
+<li><strong>Guided recipes</strong>: pick a recipe in the app and the temperature and time are sent to the air fryer. This is the real benefit for beginners.</li>
+<li><strong>Remote monitoring</strong>: the time remaining and end-of-cooking alerts show up on your phone, sometimes with a shake reminder.</li>
+<li><strong>Scheduling</strong>: some models let you delay the start, by up to 24 hours on the Xiaomi models.</li>
+<li><strong>Voice control</strong>: depending on the brand, through Amazon Alexa or Google Assistant.</li>
+</ul>
+<p>On the other hand, the app almost always requires a user account, a 2.4 GHz Wi-Fi network for most models and accepting a data policy. If none of that appeals to you, a regular air fryer will cook just as well.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Capacity</strong>: around 4 L (4.2 qt) for 1 to 3 people, 6 to 7 L (6.3 to 7.4 qt) for 4 people, and 8 L (8.5 qt) or more for a large family or a whole chicken.</li>
+<li><strong>The app</strong>: Philips uses HomeID (formerly NutriU), Cosori uses VeSync and Xiaomi uses Xiaomi Home. Good recipes and a clear interface matter more than the sheer number of recipes.</li>
+<li><strong>Voice assistants</strong>: check compatibility with the ecosystem you already use (Alexa or Google). None of the models here is sold as Apple Home or Matter compatible.</li>
+<li><strong>Cooking modes</strong>: from 11 presets on the Xiaomi to 22 functions on the Philips (low-temperature cooking, dehydrating, fermenting, slow cooking…).</li>
+<li><strong>Cleaning</strong>: a non-stick, dishwasher-safe basket and drawer make a real difference day to day.</li>
+</ul>
+
+<h2>The 5 best smart air fryers in 2026</h2>
+
+<h3>1. Philips Airfryer Combi XXL Connected (HD9880/90): best overall</h3>
+<p>Philips’ flagship (7000 Series) combines an 8.3 L (8.8 qt) capacity, 2,200 W of power and 22 cooking functions, including low-temperature cooking, broiling, dehydrating and fermenting. A built-in food thermometer measures the internal temperature, which is handy for meat and roasts. It offers more than 100 auto-cook programs, and the HomeID app sends recipe settings to the appliance and tracks progress. Our <a href="/ca/blog/test-philips-combi-xxl-connected">detailed Philips Combi XXL Connected review</a> goes further.</p>
+<p><strong>Strengths:</strong> very large capacity, built-in probe, versatility, a full-featured app that buyers rate well.</p>
+<p><strong>Limitations:</strong> the highest price tier in this comparison, heavy and bulky, and Philips doesn’t highlight voice control for this model.</p>
+<p><strong>Best for:</strong> families and anyone who wants it to take over some oven jobs.</p>
+
+<h3>2. Cosori Dual Blaze 6.4 L: best for a family of four</h3>
+<p>The Cosori Dual Blaze stands out with two heating elements, one above and one below the basket (360 ThermoIQ technology). Independent reviews and buyer feedback point to more even cooking and less need to shake or flip food. Its 6.4 L (6.8 qt) drawer serves 4 to 6 people and offers 12 functions. The VeSync app lets you monitor cooking, load recipe settings automatically, save your own programs and use voice control with Alexa or Google Assistant. See our <a href="/ca/blog/test-cosori-dual-blaze">full Cosori Dual Blaze review</a>.</p>
+<p><strong>Strengths:</strong> even cooking, a good balance between capacity and footprint, works with both voice assistants.</p>
+<p><strong>Limitations:</strong> single drawer, and some buyers find the app slow.</p>
+<p><strong>Best for:</strong> households of 3 to 5 people who want a mid-range smart model.</p>
+
+<h3>3. Xiaomi Smart Air Fryer Pro 4L: best value</h3>
+<p>The Xiaomi Smart Air Fryer Pro 4L is one of the most affordable smart air fryers. It offers 1,600 W, a range of 40°C to 200°C (105°F to 400°F), 11 presets and a viewing window, so you can check on food without opening the drawer. The Xiaomi Home app provides more than 100 recipes, scheduling up to 24 hours ahead and voice control through Google Assistant. The low end of the temperature range also lets you defrost and ferment.</p>
+<p><strong>Strengths:</strong> entry-level price, viewing window, clear app, easy setup if you already own Xiaomi products.</p>
+<p><strong>Limitations:</strong> 4 L (4.2 qt) is tight for more than 3 people, and there’s no dual basket.</p>
+<p><strong>Best for:</strong> couples, students and small households.</p>
+
+<h3>4. Philips Airfryer 5000 Series XXL Connected (HD9285): the simpler Philips option</h3>
+<p>Less versatile than the Combi, the 5000 XXL Connected has a 7.2 L (7.6 qt) capacity (up to 6 servings, according to Philips), 2,000 W, 16 functions and a range of 40°C to 200°C (105°F to 400°F). It also uses the HomeID app to send recipes and monitor cooking, and Philips lists voice control with Amazon Alexa.</p>
+<p><strong>Strengths:</strong> large capacity, HomeID app, Alexa support.</p>
+<p><strong>Limitations:</strong> no built-in probe, fewer modes than the Combi.</p>
+<p><strong>Best for:</strong> families who want the Philips ecosystem without going premium.</p>
+
+<h3>5. Xiaomi Smart Air Fryer 6.5L: the affordable large smart model</h3>
+<p>This model (European model number BHR7358EU) brings the Xiaomi Home app to a bigger format: 6.5 L (6.9 qt) and 1,800 W. It keeps scheduling up to 24 hours ahead, recipes sent from the app, a keep-warm function and voice control through Google Assistant.</p>
+<p><strong>Strengths:</strong> large capacity for its price tier, simple app.</p>
+<p><strong>Limitations:</strong> more basic build than the Philips models, fewer advanced functions.</p>
+<p><strong>Best for:</strong> families on a budget.</p>
+
+<h2>HomeID, VeSync or Xiaomi Home: which app?</h2>
+<p>Choosing a smart air fryer often means choosing an app. <strong>Philips HomeID</strong> is all about cooking: step-by-step guided recipes, programs tailored to each Philips model and progress tracking. It suits people who mainly want guidance in the kitchen. <strong>VeSync</strong>, Cosori’s app, also runs other devices from the same group (Levoit air purifiers, scales and humidifiers, for example) and lets you save your own programs. <strong>Xiaomi Home</strong> is a general smart home app: the air fryer sits alongside the brand’s bulbs, robot vacuums or cameras, which is handy if you already own them.</p>
+<p>Before you buy, read recent reviews in your phone’s app store: they tell you a lot about connection stability and update quality. Think long term too: an app can change, be renamed (NutriU became HomeID) or ask for new permissions. Fortunately, the controls on the appliance itself keep working without it.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity</th><th>App</th><th>Voice assistant</th><th>Key feature</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips Combi XXL Connected</td><td>8.3 L (8.8 qt)</td><td>HomeID</td><td>Not highlighted</td><td>22 modes, built-in probe</td><td>Large families</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6.4 L (6.8 qt)</td><td>VeSync</td><td>Alexa, Google</td><td>Dual heating elements</td><td>Families of 4</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L (4.2 qt)</td><td>Xiaomi Home</td><td>Google</td><td>Window, 24 h scheduling</td><td>Small households</td></tr>
+<tr><td>Philips 5000 XXL Connected</td><td>7.2 L (7.6 qt)</td><td>HomeID</td><td>Alexa</td><td>16 functions</td><td>Families</td></tr>
+<tr><td>Xiaomi Smart Air Fryer 6.5L</td><td>6.5 L (6.9 qt)</td><td>Xiaomi Home</td><td>Google</td><td>Affordable large size</td><td>Families on a budget</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Paying for connectivity you won’t use</strong>: if you don’t plan to use the app, a regular model of the same size costs less.</li>
+<li><strong>Assuming everything works with everything</strong>: check which voice assistant each model supports. Product listings sometimes mix up versions from different countries.</li>
+<li><strong>Underestimating capacity</strong>: an overfilled basket cooks unevenly. Slightly too big is better than slightly too small.</li>
+<li><strong>Forgetting about 2.4 GHz Wi-Fi</strong>: most small smart appliances can’t join a 5 GHz network. Make sure your router broadcasts a 2.4 GHz network.</li>
+<li><strong>Ignoring the footprint</strong>: 7 to 8 L models are tall and heavy. Measure the space under your upper cabinets.</li>
+</ul>
+
+<h2>Safety and everyday use</h2>
+<p>Remote control is no substitute for common sense. Only start cooking when the food is in the basket and nothing is blocking the appliance. Set the air fryer on a stable, heat-resistant surface, with space around the air vents. Ideally, plug it straight into a wall outlet rather than an extension cord or power bar: these appliances draw a lot of power (1,600 to 2,200 W for the models in this comparison), so avoid running another high-wattage appliance on the same circuit. Finally, install the app and firmware updates the manufacturer offers, and turn off optional data sharing in the app if you don’t want it.</p>
+
+<h2>Verdict</h2>
+<p>For most households, the <strong>Philips Airfryer Combi XXL Connected</strong> is the most complete choice: large capacity, built-in probe, plenty of modes and the HomeID app. If your budget is tight or you cook for one to three people, the <strong>Xiaomi Smart Air Fryer Pro 4L</strong> delivers the smart essentials at a low price. For a family of four that wants even cooking and Alexa or Google voice control, the <strong>Cosori Dual Blaze 6.4 L</strong> is the best compromise. To compare with regular models, see our <a href="/ca/guides/airfryers">air fryer guide</a>.</p>`,
   },
   faq: [
     {
@@ -659,6 +926,9 @@ export const article: BlogArticle = {
         it: 'Qual è la migliore friggitrice ad aria connessa nel 2026?',
         nl: 'Wat is de beste slimme airfryer in 2026?',
         pl: 'Jaka frytkownica beztłuszczowa z Wi-Fi jest najlepsza w 2026 roku?',
+        sv: 'Vilken airfryer med wifi är bäst 2026?',
+        us: 'What is the best smart air fryer in 2026?',
+        ca: 'What’s the best smart air fryer in 2026?',
       },
       answer: {
         fr: 'Pour la plupart des foyers, le Philips Airfryer Combi XXL Connecté : 8,3 L, 22 modes, sonde intégrée et application HomeID. Le Xiaomi Smart Air Fryer Pro 4L est le meilleur choix petit budget, et le Cosori Dual Blaze 6,4 L le meilleur compromis pour quatre personnes.',
@@ -668,6 +938,9 @@ export const article: BlogArticle = {
         it: 'Per la maggior parte delle famiglie, la Philips Airfryer Combi XXL Connected: 8,3 L, 22 modalità, sonda integrata e app HomeID. La Xiaomi Smart Air Fryer Pro 4L è la scelta migliore a basso budget, la Cosori Dual Blaze da 6,4 L il miglior compromesso per quattro persone.',
         nl: 'Voor de meeste huishoudens de Philips Airfryer Combi XXL Connected: 8,3 L, 22 standen, ingebouwde thermometer en de HomeID-app. De Xiaomi Smart Air Fryer Pro 4L is de beste budgetkeuze en de Cosori Dual Blaze van 6,4 L de beste allrounder voor vier personen.',
         pl: 'Dla większości gospodarstw domowych – Philips Airfryer Combi XXL Connected: 8,3 l, 22 tryby, wbudowana sonda i aplikacja HomeID. Przy małym budżecie najlepszym wyborem jest Xiaomi Smart Air Fryer Pro 4L, a najlepszym kompromisem dla czterech osób – Cosori Dual Blaze 6,4 l.',
+        sv: 'För de flesta hushåll är det Philips Airfryer Combi XXL Connected: 8,3 liter, 22 lägen, inbyggd temperaturgivare och appen HomeID. Xiaomi Smart Air Fryer Pro 4L är det bästa budgetvalet, och Cosori Dual Blaze på 6,4 liter är det bästa allroundvalet för fyra personer.',
+        us: 'For most households, the Philips Airfryer Combi XXL Connected: 8.8 qt (8.3 L), 22 modes, a built-in probe and the HomeID app. The Xiaomi Smart Air Fryer Pro 4L is the best budget pick, and the 6.8-quart (6.4 L) Cosori Dual Blaze is the best all-rounder for a family of four.',
+        ca: 'For most households, the Philips Airfryer Combi XXL Connected: 8.3 L (8.8 qt), 22 modes, a built-in probe and the HomeID app. The Xiaomi Smart Air Fryer Pro 4L is the best budget pick, and the Cosori Dual Blaze 6.4 L is the best all-rounder for four people.',
       },
     },
     {
@@ -679,6 +952,9 @@ export const article: BlogArticle = {
         it: 'Una friggitrice connessa cuoce meglio di un modello classico?',
         nl: 'Bereidt een slimme airfryer beter dan een gewone?',
         pl: 'Czy frytkownica z Wi-Fi smaży lepiej niż zwykła?',
+        sv: 'Blir maten bättre i en airfryer med wifi än i en vanlig?',
+        us: 'Does a smart air fryer cook better than a regular one?',
+        ca: 'Does a smart air fryer cook better than a regular one?',
       },
       answer: {
         fr: 'Non. La cuisson dépend de la résistance, du ventilateur et de la capacité, pas du WiFi. La connexion apporte des recettes guidées, le suivi sur smartphone, la programmation et parfois la commande vocale.',
@@ -688,6 +964,9 @@ export const article: BlogArticle = {
         it: 'No. La cottura dipende da resistenza, ventola e capienza, non dal WiFi. La connessione aggiunge ricette guidate, monitoraggio da smartphone, programmazione e a volte il controllo vocale.',
         nl: 'Nee. Het resultaat hangt af van het verwarmingselement, de ventilator en de inhoud, niet van wifi. De verbinding voegt begeleide recepten, volgen via de telefoon, uitgestelde start en soms spraakbediening toe.',
         pl: 'Nie. O efektach smażenia decydują grzałka, wentylator i pojemność, a nie Wi-Fi. Łączność daje za to przepisy krok po kroku, podgląd postępu w smartfonie, programowanie startu i czasem sterowanie głosowe.',
+        sv: 'Nej. Resultatet beror på värmeelementet, fläkten och volymen, inte på wifi. Uppkopplingen ger guidade recept, koll via mobilen, schemaläggning och ibland röststyrning.',
+        us: 'No. Cooking results depend on the heating element, the fan and the capacity, not on Wi-Fi. Connectivity adds guided recipes, monitoring from your phone, scheduling and sometimes voice control.',
+        ca: 'No. How well it cooks depends on the heating element, the fan and the capacity, not on Wi-Fi. Connectivity adds guided recipes, monitoring from your phone, scheduling and sometimes voice control.',
       },
     },
     {
@@ -699,6 +978,9 @@ export const article: BlogArticle = {
         it: 'Quali friggitrici connesse funzionano con Alexa o Google Assistant?',
         nl: 'Welke slimme airfryers werken met Alexa of Google Assistant?',
         pl: 'Które frytkownice z Wi-Fi działają z Alexą lub Asystentem Google?',
+        sv: 'Vilka airfryrar med wifi fungerar med Alexa eller Google Assistant?',
+        us: 'Which smart air fryers work with Alexa or Google Assistant?',
+        ca: 'Which smart air fryers work with Alexa or Google Assistant?',
       },
       answer: {
         fr: 'Dans ce comparatif, le Cosori Dual Blaze prend en charge Alexa et Google Assistant, les Xiaomi Google Assistant, et le Philips 5000 XXL Connected Alexa. Vérifiez toujours la fiche du modèle exact vendu dans votre pays.',
@@ -708,6 +990,9 @@ export const article: BlogArticle = {
         it: 'In questo confronto, la Cosori Dual Blaze supporta Alexa e Google Assistant, le Xiaomi Google Assistant e la Philips 5000 XXL Connected Alexa. Controlla sempre la scheda del modello esatto venduto nel tuo Paese.',
         nl: 'In deze vergelijking ondersteunt de Cosori Dual Blaze Alexa en Google Assistant, de Xiaomi-modellen Google Assistant en de Philips 5000 XXL Connected Alexa. Controleer altijd de productinformatie van het exacte model in jouw land.',
         pl: 'Spośród modeli z tego porównania Cosori Dual Blaze obsługuje Alexę i Asystenta Google, modele Xiaomi – Asystenta Google, a Philips 5000 XXL Connected – Alexę. Zawsze sprawdź specyfikację dokładnie tej wersji, która jest sprzedawana w Twoim kraju.',
+        sv: 'I den här jämförelsen fungerar Cosori Dual Blaze med både Alexa och Google Assistant, Xiaomis modeller med Google Assistant och Philips 5000 XXL Connected med Alexa. Kontrollera alltid produktbladet för exakt den modell som säljs i ditt land.',
+        us: 'In this comparison, the Cosori Dual Blaze works with both Alexa and Google Assistant, the Xiaomi models work with Google Assistant, and the Philips 5000 XXL Connected works with Alexa. Always check the listing for the exact model sold in your country.',
+        ca: 'In this comparison, the Cosori Dual Blaze supports Alexa and Google Assistant, the Xiaomi models support Google Assistant and the Philips 5000 XXL Connected supports Alexa. Always check the listing for the exact version you’re buying.',
       },
     },
     {
@@ -719,6 +1004,9 @@ export const article: BlogArticle = {
         it: 'Serve un WiFi particolare per una friggitrice connessa?',
         nl: 'Heb je een speciaal wifinetwerk nodig voor een slimme airfryer?',
         pl: 'Czy frytkownica z Wi-Fi wymaga specjalnej sieci?',
+        sv: 'Behöver en airfryer med wifi ett särskilt wifi-nät?',
+        us: 'Do you need a special Wi-Fi network for a smart air fryer?',
+        ca: 'Do you need a special Wi-Fi network for a smart air fryer?',
       },
       answer: {
         fr: 'La plupart des petits appareils connectés utilisent uniquement le WiFi 2,4 GHz. Vérifiez que votre box diffuse ce réseau et que le signal est correct dans la cuisine. Un compte dans l’application du fabricant est aussi nécessaire.',
@@ -728,6 +1016,9 @@ export const article: BlogArticle = {
         it: 'La maggior parte dei piccoli elettrodomestici connessi usa solo il WiFi a 2,4 GHz. Verifica che il router trasmetta questa banda e che il segnale arrivi bene in cucina. Serve anche un account nell’app del produttore.',
         nl: 'De meeste kleine slimme apparaten werken alleen met wifi op 2,4 GHz. Controleer of je router die band uitzendt en of het signaal in de keuken goed is. Je hebt ook een account nodig in de app van de fabrikant.',
         pl: 'Większość małych urządzeń z Wi-Fi działa wyłącznie w paśmie 2,4 GHz. Sprawdź, czy Twój router nadaje sieć w tym paśmie i czy w kuchni jest dobry zasięg. Potrzebne będzie też konto w aplikacji producenta.',
+        sv: 'De flesta små uppkopplade apparater använder bara wifi på 2,4 GHz. Se till att din router sänder på det bandet och att signalen är bra i köket. Du behöver också ett konto i tillverkarens app.',
+        us: 'Most small smart appliances only connect to 2.4 GHz Wi-Fi. Make sure your router broadcasts that band and that the signal reaches the kitchen. You’ll also need an account in the manufacturer’s app.',
+        ca: 'Most small smart appliances only use 2.4 GHz Wi-Fi. Make sure your router broadcasts this band and that the signal is decent in the kitchen. You’ll also need an account in the manufacturer’s app.',
       },
     },
     {
@@ -739,6 +1030,9 @@ export const article: BlogArticle = {
         it: 'Una friggitrice connessa funziona senza app né internet?',
         nl: 'Werkt een slimme airfryer zonder app of internet?',
         pl: 'Czy frytkownica z Wi-Fi działa bez aplikacji i internetu?',
+        sv: 'Fungerar en airfryer med wifi utan app eller internet?',
+        us: 'Does a smart air fryer work without the app or internet?',
+        ca: 'Does a smart air fryer work without the app or the internet?',
       },
       answer: {
         fr: 'Oui. Tous les modèles de ce comparatif gardent des commandes sur l’appareil et leurs programmes intégrés. Sans connexion, vous perdez seulement les fonctions de l’application : recettes envoyées, suivi à distance et commande vocale.',
@@ -748,6 +1042,9 @@ export const article: BlogArticle = {
         it: 'Sì. Tutti i modelli di questo confronto mantengono i comandi sull’apparecchio e i programmi integrati. Senza connessione perdi solo le funzioni dell’app: ricette inviate, monitoraggio a distanza e controllo vocale.',
         nl: 'Ja. Alle modellen in deze vergelijking hebben bediening op het apparaat en ingebouwde programma’s. Zonder verbinding verlies je alleen de app-functies: verstuurde recepten, volgen op afstand en spraakbediening.',
         pl: 'Tak. Wszystkie modele z tego porównania mają panel sterowania na obudowie i wbudowane programy. Bez połączenia tracisz tylko funkcje aplikacji: przesyłanie przepisów, zdalny podgląd i sterowanie głosowe.',
+        sv: 'Ja. Alla modeller i jämförelsen har kvar knapparna på apparaten och de inbyggda programmen. Utan uppkoppling förlorar du bara appens funktioner: recept som skickas till apparaten, övervakning på distans och röststyrning.',
+        us: 'Yes. Every model in this comparison keeps its on-device controls and built-in presets. Without a connection, you only lose the app features: recipes sent to the appliance, remote monitoring and voice control.',
+        ca: 'Yes. All the models in this comparison keep their on-device controls and built-in programs. Without a connection, you only lose the app features: recipes sent from the app, remote monitoring and voice control.',
       },
     },
     {
@@ -759,6 +1056,9 @@ export const article: BlogArticle = {
         it: 'Che capienza scegliere per una famiglia di quattro persone?',
         nl: 'Welke inhoud kiest een gezin van vier?',
         pl: 'Jaką pojemność frytkownicy z Wi-Fi wybrać dla czteroosobowej rodziny?',
+        sv: 'Hur stor airfryer med wifi passar en familj på fyra?',
+        us: 'What size smart air fryer is best for a family of four?',
+        ca: 'What size smart air fryer does a family of four need?',
       },
       answer: {
         fr: 'Comptez au moins 6 L. Le Cosori Dual Blaze 6,4 L et le Xiaomi Smart Air Fryer 6.5L conviennent bien. Si vous cuisinez souvent des plats complets ou un poulet entier, visez 7 à 8 L, comme le Philips 5000 XXL Connected ou le Combi XXL.',
@@ -768,6 +1068,9 @@ export const article: BlogArticle = {
         it: 'Punta ad almeno 6 L. La Cosori Dual Blaze da 6,4 L e la Xiaomi Smart Air Fryer 6.5L vanno bene. Se cucini spesso piatti completi o un pollo intero, scegli 7-8 L, come la Philips 5000 XXL Connected o la Combi XXL.',
         nl: 'Reken op minstens 6 L. De Cosori Dual Blaze van 6,4 L en de Xiaomi Smart Air Fryer 6.5L passen goed. Maak je vaak complete maaltijden of een hele kip, kies dan 7 tot 8 L, zoals de Philips 5000 XXL Connected of de Combi XXL.',
         pl: 'Wybierz co najmniej 6 l. Dobrze sprawdzą się Cosori Dual Blaze 6,4 l i Xiaomi Smart Air Fryer 6.5L. Jeśli często przygotowujesz całe obiady lub pieczesz całego kurczaka, celuj w 7–8 l – na przykład w model Philips 5000 XXL Connected lub Combi XXL.',
+        sv: 'Räkna med minst 6 liter. Cosori Dual Blaze på 6,4 liter och Xiaomi Smart Air Fryer 6.5L passar bra. Lagar du ofta hela måltider eller en hel kyckling bör du välja 7–8 liter, till exempel Philips 5000 XXL Connected eller Combi XXL.',
+        us: 'Aim for at least 6.3 quarts (6 L). The Cosori Dual Blaze (6.8 qt, 6.4 L) and the Xiaomi Smart Air Fryer 6.5L are a good fit. If you often cook full meals or a whole chicken, step up to 7.4 to 8.5 quarts (7 to 8 L), such as the Philips 5000 XXL Connected or the Combi XXL.',
+        ca: 'Aim for at least 6 L (6.3 qt). The Cosori Dual Blaze 6.4 L and the Xiaomi Smart Air Fryer 6.5L are a good fit. If you often cook full meals or a whole chicken, go for 7 to 8 L (7.4 to 8.5 qt), such as the Philips 5000 XXL Connected or the Combi XXL.',
       },
     },
   ],

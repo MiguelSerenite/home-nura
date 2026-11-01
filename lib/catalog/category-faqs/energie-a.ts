@@ -156,6 +156,72 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
         answer: "Najczęściej powodem jest nieudana kalibracja albo źle dobrany adapter do zaworu. Trzeba wtedy zdjąć głowicę, sprawdzić, czy adapter pasuje do marki zaworu, i ponownie uruchomić kalibrację w aplikacji. Jeśli grzejnik pozostaje zimny, trzpień zaworu mógł się zablokować po sezonie letnim – zwykle wystarczy kilka razy nacisnąć go ręcznie. Krótki szum silnika podczas regulacji jest normalny, natomiast ciągła praca silnika lub piszczenie często oznaczają słabe baterie.",
       },
     ],
+    sv: [
+      {
+        question: "Vilken smart termostat passar till en värmepump?",
+        answer: "Säkrast är termostaten från värmepumpens eget märke, eller en modell som tillverkaren uttryckligen anger som kompatibel. En luft/vatten-värmepump styr vattentemperaturen efter en värmekurva, och en enkel termostat som bara slår av och på får den att starta och stoppa hela tiden, vilket försämrar verkningsgraden. Till en luft/luft-värmepump räcker en smart IR-styrning som härmar fjärrkontrollen. Undvik i alla lägen stora nattsänkningar: 1–2 °C räcker.",
+      },
+      {
+        question: "Hur mycket sparar man på att sänka inomhustemperaturen en grad?",
+        answer: "Runt 7 % av energin till uppvärmningen per grad, enligt den franska myndigheten ADEME. Myndigheten rekommenderar 19 °C i de rum där man vistas mest och lägre temperatur i sovrummen. Exempel: kostar uppvärmningen 13 000 kr per år ger en sänkning från 21 till 19 °C cirka 14 %, alltså drygt 1 800 kr. Den smarta termostaten sparar ingenting i sig själv, men den hjälper dig att hålla de här temperaturerna, sänka när ingen är hemma och stänga av värmen när ett fönster står öppet.",
+      },
+      {
+        question: "Smart rumstermostat eller smarta elementtermostater: vad ska jag välja?",
+        answer: "Har du panna eller värmepump börjar du med en rumstermostat, som styr själva värmeproduktionen. Smarta elementtermostater kompletterar den så att varje rum får sin egen temperatur, t.ex. svalare sovrum eller ett arbetsrum som bara värms på dagtid. I en lägenhet med gemensam uppvärmning, där du inte styr värmesystemet själv, är elementtermostater det enda som gör nytta. Har du elelement behövs i stället en styrning som är gjord för elvärme.",
+      },
+      {
+        question: "Lönar det sig att ha värmen på lågt hela dagen?",
+        answer: "Nej, med en vanlig värmepanna är det oftast billigare att bara värma när du behöver det, med hjälp av ett schema. Bostaden läcker hela tiden värme till omgivningen, och ju varmare det är inne, desto snabbare försvinner värmen. Att värma ett tomt hus är därför slöseri med energi. Värmepumpar är undantaget: de går effektivast med en jämn, lägre framledningstemperatur, så med en värmepump bör du undvika långa avstängningar och stora sänkningar.",
+      },
+      {
+        question: "Varför värmer min smarta elementtermostat dåligt eller fastnar?",
+        answer: "Oftast passar adaptern inte till ventilhuset, eller så har kalibreringen (inlärningen av ventilens slaglängd) inte gått klart. Gängan M30 × 1,5 är vanligast, medan andra ventiler, som vissa från Danfoss, kräver en särskild adapter. Kör kalibreringen igen efter monteringen, byt batterier om appen varnar för låg spänning och kontrollera att ventilstiftet inte kärvar. Rör på stiftet för hand i slutet av sommaren så att det inte fastnar.",
+      },
+    ],
+    us: [
+      {
+        question: "Which smart thermostat works best with a heat pump?",
+        answer: "The safest pick is the thermostat made by your heat pump's brand, or a model the manufacturer explicitly lists as compatible. An air-to-water heat pump adjusts its water temperature on an outdoor reset (weather compensation) curve, and a basic on/off thermostat makes it start and stop constantly, which hurts its efficiency. For an air-to-air heat pump such as a ductless mini-split, an infrared smart controller that mimics the remote is enough. Either way, avoid deep setbacks at night: about 2 to 4°F (1 to 2°C) is plenty.",
+      },
+      {
+        question: "Is it cheaper to leave the heat on low all day?",
+        answer: "No, with a furnace or boiler it's usually cheaper to heat your home only when you need it, on a schedule. Your home loses heat to the outdoors all the time, and the warmer you keep it, the faster it loses heat, so heating an empty house wastes energy. Heat pumps are the exception: they run most efficiently at a steady, moderate output, so long shutoffs and big setbacks are best avoided.",
+      },
+      {
+        question: "How much can a smart thermostat save on my energy bill?",
+        answer: "It depends on your habits: the savings come from heating fewer hours and to lower temperatures, not from the device itself. France's energy agency ADEME estimates that every 1°C (about 2°F) you turn down cuts heating use by about 7%. If the heat already goes off whenever you're out, gains will be modest; if it runs on a fixed schedule whether you're home or not, geofencing and room-by-room control make a real difference. To estimate, start from your yearly heating bill: every 5% cut on $1,400 a year saves $70.",
+      },
+      {
+        question: "Can I install a smart thermostat myself?",
+        answer: "Often, yes: installing a thermostat isn't gas work, but some wired models run at line voltage and connect to your heating system's wiring. Swapping in a battery-powered wireless thermostat, or setting up a kit with a plug-in receiver, is a common DIY job. If the wiring means opening the boiler or furnace casing, or you're not sure what you're looking at, hire a licensed HVAC technician or electrician; many brands also offer installation. If you rent, ask your landlord before changing the heating controls.",
+      },
+      {
+        question: "Why does my smart thermostat keep going offline?",
+        answer: "Usually because the Wi-Fi signal where the thermostat or its hub sits is too weak, or because your router or Wi-Fi password has changed. Most thermostats only use the 2.4 GHz band, so a mesh system that combines bands under one network name can confuse setup. Move the hub closer to the router or add an access point, then reconnect it in the app. Many models keep running the last schedule or temperature while offline, so your heating doesn't simply stop.",
+      },
+    ],
+    ca: [
+      {
+        question: "Will a smart thermostat work with my furnace or boiler?",
+        answer: "Almost certainly: most smart thermostats work with furnaces and hot-water boilers, usually as a simple on/off switch. Some, mainly European models, also support OpenTherm, which lets the thermostat turn a boiler's output down instead of just switching it on and off, helping a condensing boiler run more efficiently. Check your system on the thermostat maker's compatibility list. Electric baseboard heaters are different: they run on line voltage and need a smart thermostat designed for them.",
+      },
+      {
+        question: "Is it cheaper to leave the heat on low all day?",
+        answer: "No, with a gas furnace or boiler it's usually cheaper to heat your home only when you need it, using a schedule. Your home loses heat to the outside all the time, and the warmer it's kept, the faster it loses heat, so heating an empty house wastes energy. Heat pumps are the exception: they run most efficiently at a steady, moderate output, so avoid long switch-offs and keep setbacks to 1 or 2°C.",
+      },
+      {
+        question: "How much can a smart thermostat save on my energy bill?",
+        answer: "It depends on your habits: the savings come from heating fewer hours and to lower temperatures, not from the device itself. If the heat already goes down whenever you're out, gains will be modest; if it runs on a fixed schedule whether you're home or not, features like geofencing and room-by-room control make a real difference. To estimate, add up a year of heating use from your bills, in cubic metres or gigajoules for gas or kWh for electricity, and multiply it by your rate: every 5% you cut takes about 5% off that cost.",
+      },
+      {
+        question: "Do I need a pro to install a smart thermostat?",
+        answer: "Not always: installing a thermostat isn't gas work, and most furnace and boiler thermostats use low-voltage wiring, so swapping one is a common DIY job. Turn off the power to the system first and label the wires before you disconnect the old unit. If the wiring means opening the furnace or boiler, or your heaters run on line voltage, hire a licensed electrician or a heating technician; many brands also offer installation. If you rent, ask your landlord before changing the heating controls.",
+      },
+      {
+        question: "Why does my smart thermostat keep going offline?",
+        answer: "Usually because the Wi-Fi signal where the thermostat or its hub sits is too weak, or because the router or its password has changed. Most thermostats only use the 2.4 GHz band, so a mesh system that merges bands can confuse the setup. Move the hub closer to the router or add an access point, then reconnect it in the app. Many models keep the last schedule or temperature running while offline, so the heating doesn't simply stop.",
+      },
+    ],
   },
   "compteurs-energie": {
     fr: [
@@ -310,6 +376,72 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       {
         question: "Dlaczego gniazdko z pomiarem pokazuje dziwne lub zerowe zużycie?",
         answer: "Najczęściej chodzi o bardzo małe obciążenia: wiele gniazdek mierzy niedokładnie poniżej kilku watów, więc pobór w trybie czuwania może się wyświetlać jako zero. Wahania przy lodówce czy pralce są normalne, bo sprężarka i grzałka włączają się cyklicznie – liczy się suma kWh z kilku dni. Warto też sprawdzić w aplikacji ustawioną cenę prądu i zaktualizować oprogramowanie. Do gniazdka nie podłącza się urządzeń o mocy większej niż jego dopuszczalne obciążenie (przy 16 A to 3680 W), a przegrzane gniazdko może się samo wyłączać.",
+      },
+    ],
+    sv: [
+      {
+        question: "Behöver jag en energimätare om elmätaren redan mäter förbrukningen?",
+        answer: "Inte nödvändigtvis: elmätaren registrerar redan din förbrukning, och den går ofta att följa hos elnätsbolaget eller elhandelsbolaget, men sällan i realtid. En energimätare ger det som saknas: effekten just nu, historik i en app, larm och, tillsammans med smarta pluggar, förbrukningen per apparat. Vill du bara veta vad en viss apparat drar räcker en smart plugg med energimätning.",
+      },
+      {
+        question: "Smart plugg med energimätning eller mätare i elcentralen: vad ska jag välja?",
+        answer: "Välj en smart plugg för att se vad en enskild apparat drar, och en mätare i elcentralen för att se hela bostadens förbrukning. Pluggen fungerar bara för apparater med vanlig stickpropp, och bara upp till pluggens maxström, ofta 16 A. Ugn, häll, varmvattenberedare och fast anslutna element mäts i stället med strömtänger eller en mätare per grupp i elcentralen. Många använder båda: mätaren i elcentralen för att se när förbrukningen rusar, pluggarna för att hitta boven.",
+      },
+      {
+        question: "Hur räknar jag ut hur många kWh en apparat drar?",
+        answer: "Multiplicera effekten i kilowatt med drifttiden i timmar: en apparat på 2 000 W som går i en och en halv timme drar 3 kWh. Multiplicera sedan med ditt elpris per kWh, som står på elräkningen. För apparater som går i cykler, som kylskåp, frys eller avfuktare, ger effekten på typskylten en överdriven bild: mät i stället en hel vecka med en smart plugg och multiplicera med 52.",
+      },
+      {
+        question: "Kan jag själv installera en energimätare i elcentralen?",
+        answer: "Helst inte: låt en behörig elektriker sköta allt som kräver att elcentralen öppnas, som strömtänger eller en mätare på DIN-skenan. Där finns spänningsförande delar. Elmätaren och huvudsäkringarna har elnätsbolaget plomberat, och dem ska du aldrig röra. En smart plugg med energimätning kräver däremot ingen installation alls. Tänk också på integriteten: välj gärna en mätare som fungerar lokalt om du inte vill att dina förbrukningskurvor hamnar i molnet.",
+      },
+      {
+        question: "Varför får jag luckor eller ingen data alls från energimätaren?",
+        answer: "Oftast beror det på räckvidden eller batterierna. Elcentralen sitter ofta en bra bit från routern eller Zigbee-hubben, så signalen når inte fram: flytta hubben närmare, eller placera en nätdriven Zigbee-enhet eller en repeater emellan. Har mätaren en batteridriven sändare är urladdade batterier en vanlig orsak till luckor i mätningarna. Kontrollera också i appen att mätaren fortfarande är ansluten, särskilt om du har bytt router eller wifi-lösenord.",
+      },
+    ],
+    us: [
+      {
+        question: "Do I need an energy monitor if I already have a smart meter?",
+        answer: "Not necessarily: if your utility has installed a smart meter, it may already show your usage for free in its app or online account, though often with a delay of about a day. An energy monitor adds what the utility's app doesn't: real-time readings, app history, alerts, and appliance-level data when paired with smart plugs. For whole-home readings, CT clamps go in your electrical panel; in France, a module can read the Linky smart meter's data port instead. To see what one appliance uses, a smart plug with energy monitoring is still the simplest tool.",
+      },
+      {
+        question: "How do I figure out what an appliance costs to run?",
+        answer: "Multiply its power in kilowatts by the hours it runs, then by your electricity rate: a 2,000 W appliance running for 1.5 hours uses 3 kWh. At an example rate of 20 cents per kWh, that's 60 cents; check the rate on your utility bill, and use the rate for those hours if you're on a time-of-use rate plan. For appliances that cycle on and off, such as refrigerators, freezers or dehumidifiers, the rating plate overstates use, so measure a full week with a smart plug and multiply by 52. Any fixed monthly charge stays the same however much you use.",
+      },
+      {
+        question: "Smart plug with energy monitoring or a whole-home CT clamp monitor?",
+        answer: "Use a smart plug to find out what one appliance uses, and a CT clamp monitor to see your whole home's consumption in real time. A plug only works for appliances that plug into a standard outlet, within its maximum rating, so it can't measure a water heater, a wall oven, a cooktop or anything hardwired or on a 240 V circuit. Clamps installed around the main cables in your electrical panel capture everything, including those big loads. Many people use both: the clamps to spot when usage jumps, then plugs to track down the culprit.",
+      },
+      {
+        question: "Can I install a CT clamp energy monitor myself?",
+        answer: "Clamps that fit around cables inside your electrical panel are a job for a licensed electrician: opening the panel exposes live parts, and the incoming service cables stay live even with the main breaker off. Never open or tamper with the meter or any utility seal. Monitors that need no panel work, such as smart plugs with energy monitoring, are fine to set up yourself, as are modules that plug into France's Linky smart meter. For privacy, prefer a monitor that works locally if you don't want your usage data sent to the cloud.",
+      },
+      {
+        question: "Why isn't my energy monitor showing any readings?",
+        answer: "Most often it's a connection problem: the transmitter is too far from your Wi-Fi router or Zigbee hub, which is common when the electrical panel or meter is in a basement, garage or hallway. Move the hub closer or add a repeater, check that each clamp is fully closed and plugged into the right input, and replace the transmitter's batteries, since dead batteries are a common cause of gaps. A module that reads France's Linky meter must also match the meter's data mode (“historique” by default, or “standard”), which the supplier can switch on request.",
+      },
+    ],
+    ca: [
+      {
+        question: "Do I need an energy monitor if I already have a smart meter?",
+        answer: "Not necessarily: if your utility has installed a smart meter, its app or online account may already show your usage by the hour or by the day, at no extra charge. An energy monitor adds what the utility's app usually doesn't: live readings, alerts and appliance-level readings when paired with smart plugs. Some monitors can read data straight from a compatible smart meter, so there's no clamp to install, but whether that works depends on your utility.",
+      },
+      {
+        question: "How do I work out what an appliance costs to run?",
+        answer: "Multiply its power in kilowatts by the hours it runs, then by your rate per kWh: a 2 kW appliance running for 1.5 hours uses 3 kWh. At an example rate of 10¢ per kWh, that's 30¢. For appliances that cycle on and off, such as fridges, freezers or dehumidifiers, the rating plate overstates use, so measure a full week with a smart plug and multiply by 52. Your rate depends on your province and utility, so check your bill; fixed monthly charges stay the same however much you use.",
+      },
+      {
+        question: "Smart plug with energy monitoring or a whole-home clamp monitor?",
+        answer: "Use a smart plug to find out what one appliance uses, and a clamp monitor to see your whole home's consumption in real time. A plug only works for appliances that plug into a standard outlet, so it can't measure a range, a dryer, an electric water heater or any other 240 V appliance. A clamp monitor installed in your electrical panel, around the main service wires, captures everything, including those big loads. Many people use both: the clamp to spot when usage jumps, then plugs to track down the culprit.",
+      },
+      {
+        question: "Is it safe to install a clamp energy monitor myself?",
+        answer: "Be careful: the clamps themselves don't cut or disconnect anything, but they usually clip on inside the electrical panel, where the main wires stay live even with the main breaker off. Electrical work rules are set by each province and territory; when in doubt, hire a licensed electrician. Never open the meter or break its seal, as it belongs to your utility. Keep the transmitter's batteries fresh, as dead batteries are a common cause of gaps in readings.",
+      },
+      {
+        question: "Why isn't my energy monitor showing my usage?",
+        answer: "Usually the monitor has lost its link to your Wi-Fi or to its sensor. First move the gateway closer to the router, check it's powered and restart it. For a clamp monitor, check that the clamps are still fully closed around the cables and that the transmitter has fresh batteries. If your monitor reads a smart meter directly and the link has never worked, ask your utility whether the meter needs to be paired or authorized first. In the meantime, your bills still show your actual usage.",
       },
     ],
   },
@@ -468,6 +600,72 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
         answer: "Najważniejsze jest mocowanie: standardowy panel waży często około 20 kg i przy wietrze działa jak żagiel, dlatego potrzebne są uchwyty przeznaczone do danego typu balustrady. Przed montażem trzeba sprawdzić stan balustrady. Panelu nigdy nie zostawia się opartego luzem nad pustą przestrzenią, a śruby i obejmy kontroluje się raz w roku i po każdej wichurze. Kabel należy poprowadzić tak, by nie przycinały go drzwi ani okno. Do czyszczenia wystarczą woda i miękka ściereczka.",
       },
     ],
+    sv: [
+      {
+        question: "Vad ska jag kontrollera innan jag köper balkongsolceller?",
+        answer: "Kontakta ditt elnätsbolag innan du köper, eftersom reglerna skiljer sig mellan länderna. I Frankrike ska anläggningen t.ex. anmälas kostnadsfritt till nätbolaget Enedis via ett så kallat CACSI-avtal, även om du inte säljer någon el. I ett flerbostadshus kan du behöva föreningens eller hyresvärdens godkännande innan något fästs i balkongräcket. Att ansluta solcellerna till ett vanligt vägguttag är omdiskuterat, så låt en behörig elektriker kontrollera elgruppen.",
+      },
+      {
+        question: "Hur mycket kan jag spara med balkongsolceller?",
+        answer: "Du sparar de kWh du själv använder i samma stund som de produceras, gånger ditt elpris; överskottet går ut på elnätet, oftast utan ersättning. Exempel: producerar solcellerna 450 kWh per år och du använder 70 % av dem, sparar du 315 kWh, alltså cirka 700 kr med ett exempelpris på 2,20 kr/kWh. Uppskatta vad just din balkong kan ge med EU-kommissionens kostnadsfria verktyg PVGIS och dela sedan priset för kitet med den årliga besparingen, så får du återbetalningstiden.",
+      },
+      {
+        question: "Hur stor effekt ska balkongsolcellerna ha?",
+        answer: "Anpassa effekten efter din grundförbrukning dagtid – kylskåp, router och apparater i standby – eftersom det är den som använder solelen direkt, utan att något går till spillo. Ligger grundförbrukningen runt 150 W räcker en eller två paneler; med fler paneler går det mesta av tillskottet ut på elnätet utan ersättning, om du inte kör apparaterna när solen skiner. Grundförbrukningen kan du se med en energimätare. Söderläge ger mest, och paneler som hänger lodrätt producerar mindre än paneler som lutar.",
+      },
+      {
+        question: "Balkongsolceller med eller utan batteri?",
+        answer: "Utan batteri i de flesta fall: det gör bara nytta om du är borta på dagarna och solcellerna producerar betydligt mer än din grundförbrukning. Ett batteri kan kosta lika mycket som panelerna, vilket förlänger återbetalningstiden rejält. Börja med att flytta förbrukningen till dagtid: kör tvätt- och diskmaskinen när solen skiner, eller låt varmvattenberedaren gå på timer. Mät sedan ditt verkliga överskott i några månader med en energimätare innan du funderar på att lagra el.",
+      },
+      {
+        question: "Hur monterar jag balkongsolceller säkert?",
+        answer: "Det viktigaste är infästningen: en vanlig panel väger ofta runt 20 kg och tar mycket vind, så använd fästen som är gjorda för just din typ av räcke. Kontrollera att räcket är stabilt, låt aldrig en panel stå oförankrad där den kan falla ner och efterdra skruvar och band en gång om året och efter varje storm. Skölj panelerna med rent vatten när det har samlats damm eller pollen. Sjunker produktionen plötsligt beror det ofta på en lös kabel eller en ny skugga.",
+      },
+    ],
+    us: [
+      {
+        question: "Is plug-in balcony solar allowed where I live?",
+        answer: "It depends on where you live: rules for plug-in solar vary by state and utility, so check with your utility before you connect a kit. In France, for example, it's allowed, but a kit must be declared, free of charge, to Enedis, France's grid operator, even if you don't sell any power. If you rent or live in a condo, check your lease or HOA rules and get approval before attaching anything to a railing. Plugging a kit into an ordinary outlet is still debated, even in France, so have a licensed electrician check the circuit first.",
+      },
+      {
+        question: "How much can a balcony solar panel save?",
+        answer: "Your savings equal the solar electricity you use as it's produced, multiplied by your electricity rate; anything you don't use flows to the grid, usually unpaid. Example: if a kit produces 450 kWh a year and you use 70% of it, that's 315 kWh, worth about $63 at an example rate of 20 cents per kWh. Output depends heavily on orientation, tilt and shade, so estimate yours with a free solar calculator such as the European Commission's PVGIS, then divide the kit's price by the yearly savings to get the payback time.",
+      },
+      {
+        question: "Will balcony solar work on a north-facing or shaded balcony?",
+        answer: "It will produce something, but a north-facing or heavily shaded balcony rarely makes it worthwhile; a south, southeast or southwest exposure gives the best results. Panels hung vertically on a railing produce less than tilted ones, especially in summer when the sun is high. Shade on part of a panel can cut its output sharply, so before you buy, watch where shadows from balconies above, trees or neighboring buildings fall during the day.",
+      },
+      {
+        question: "Plug-in solar with or without a battery?",
+        answer: "Without, in most cases: a battery only pays off if you're out during the day and the kit produces well beyond your home's baseline use. It can cost as much as the panels and stretch the payback period considerably. Start by running the washer, dishwasher or other flexible loads when the sun is out, then measure your real surplus over a few months, using your utility's usage data or a smart plug with energy monitoring, before you consider storage. A professionally installed home battery is a separate project.",
+      },
+      {
+        question: "How should I mount balcony solar panels safely?",
+        answer: "Use a mounting kit made for your type of railing or wall, because a panel can weigh 44 lb (20 kg) or more and acts like a sail in strong wind. Make sure the railing is solid, never leave a panel resting loose over a drop, and check bolts and straps once a year and after storms. Route the cable so it can't get pinched by a door or window. Cleaning is simple: rinse with plain water when dust, pollen or bird droppings build up.",
+      },
+    ],
+    ca: [
+      {
+        question: "Is plug-in balcony solar legal?",
+        answer: "It depends on where you live. In Great Britain, for example, plug-in solar has been legal since August 27, 2026, for approved kits of up to 800 W, plugged straight into a fixed outlet without an extension cord or adapter and notified to the network operator. Rules for plug-in solar differ by country and utility; check with your utility and your provincial electrical safety authority before connecting anything. In an apartment or condo, check your lease or condo bylaws and ask your landlord or condo board first.",
+      },
+      {
+        question: "How much can a balcony solar panel save?",
+        answer: "Your saving is the solar electricity you use as it's generated, multiplied by your rate per kWh; anything you don't use flows to the grid, usually unpaid. Example: if a kit produces 400 kWh a year and you use 70% of it, that's 280 kWh, worth $28 at an example rate of 10¢ per kWh. Output depends heavily on orientation, tilt and shading, so estimate yours with a free solar calculator such as the European Commission's PVGIS, then divide the kit's price by the yearly saving to get the payback time.",
+      },
+      {
+        question: "Will balcony solar work on a north-facing or shaded balcony?",
+        answer: "It will produce something, but a north-facing or heavily shaded balcony rarely makes it worthwhile; facing south, southeast or southwest gives the best results. Panels hung vertically on a railing produce less than tilted ones, especially in summer when the sun is high. Shade on part of a panel can cut its output sharply, so watch where shadows from balconies above, trees or neighbouring buildings fall during the day before you buy.",
+      },
+      {
+        question: "Plug-in solar with or without a battery?",
+        answer: "Without, in most cases: a battery mainly helps if you're out during the day, but it can cost as much as the panels and stretch the payback period considerably. Where plug-in solar is allowed, the rules may not cover batteries at all: in Great Britain, they apply to solar-only kits, not batteries connected through an outlet. Start by running the washer, dishwasher or other flexible loads when the sun is out, then check your surplus over a few months with an energy monitor. A professionally installed home battery is a separate project.",
+      },
+      {
+        question: "How should I mount balcony solar panels safely?",
+        answer: "Use a mounting kit made for your type of railing or wall, because a panel can weigh over 20 kg and acts like a sail in strong wind. Make sure the railing is sound, never leave a panel resting loose over a drop, and check bolts and straps once a year and after storms or heavy snow. Route the cable so it can't be pinched by a door or window. Cleaning is simple: rinse with plain water when dust or bird droppings build up.",
+      },
+    ],
   },
   "batteries-domestiques": {
     fr: [
@@ -622,6 +820,72 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       {
         question: "Czy magazyn energii działa podczas awarii prądu?",
         answer: "Tylko wtedy, gdy ma funkcję zasilania awaryjnego (backup, EPS) i instalacja została do tego przygotowana; większość magazynów współpracujących z siecią wyłącza się razem z nią. Układ z backupem odcina dom od sieci przełącznikiem i zasila wybrane obwody, np. lodówkę, oświetlenie, router czy pompę obiegową kotła. Warto zapytać instalatora, które obwody będą zasilane, ile trwa przełączenie i czy panele ładują magazyn podczas awarii. W aplikacji można też ustawić rezerwę pojemności na wypadek przerwy w dostawie prądu.",
+      },
+    ],
+    sv: [
+      {
+        question: "Lönar sig ett hembatteri om jag har solceller?",
+        answer: "Det kan göra det om du får mindre betalt för överskottet än du betalar för köpt el, eftersom varje lagrad kWh då ersätter ett köp till fullt pris. Räkna så här: årlig besparing = flyttade kWh per år × (köppris − ersättning för överskottet). Med 1 500 flyttade kWh och en skillnad på 1,65 kr blir besparingen cirka 2 500 kr per år. Dela batteriets pris inklusive installation med det beloppet och jämför med garantitiden: blir återbetalningstiden längre än garantin går kalkylen inte ihop.",
+      },
+      {
+        question: "Hur stort hembatteri behöver jag?",
+        answer: "Utgå ungefär från din förbrukning på kvällen och natten, inte hela dygnets förbrukning: det är den delen batteriet ska täcka med överskottet från dagen. Exempel: förbrukar du 5 kWh mellan kl. 18 och 08 räcker ett batteri med 5–6 kWh användbar kapacitet. Köp inte större än solcellerna kan ladda, eftersom överskottet på vintern ofta är för litet för att fylla ett stort batteri. Jämför användbar kapacitet och urladdningseffekt, inte bara bruttokapaciteten.",
+      },
+      {
+        question: "Lönar sig ett hembatteri utan solceller?",
+        answer: "Sällan: skillnaden mellan billiga och dyra timmar är oftast liten jämfört med vad en lagrad kWh kostar, och laddförlusterna äter upp en del av vinsten. Räkna själv: prisskillnad × flyttade kWh per dag × antal dagar per år, minus ungefär 10 % i förluster. Jämför sedan med batteriets pris delat med antalet garanterade laddcykler. Ju större skillnaden är mellan dygnets dyra och billiga timmar, desto bättre blir kalkylen.",
+      },
+      {
+        question: "Fungerar ett hembatteri vid strömavbrott?",
+        answer: "Bara om det har en reservkraftfunktion och är installerat för det; de flesta nätanslutna batterier stängs av vid strömavbrott, precis som solcellernas växelriktare. En reservkraftlösning har en omkopplare som kopplar bort bostaden från elnätet, och batteriet driver sedan antingen några viktiga grupper eller hela huset. Omkopplingen kan ta en kort stund, så kontrollera det om du är beroende av medicinsk utrustning. Ställ in en lägsta laddnivå i appen som reserv för strömavbrott.",
+      },
+      {
+        question: "Hur länge håller ett hembatteri, och var ska det stå?",
+        answer: "Räkna i laddcykler snarare än år: dagens batterier med litiumjärnfosfat (LFP) har ofta runt tio års garanti eller flera tusen cykler. Garantin anger i regel en lägsta kvarvarande kapacitet vid periodens slut, t.ex. 70 %, inte att batteriet är fritt från slitage. Värme påskyndar åldrandet, så placera det i ett torrt och tempererat utrymme som garage eller förråd, aldrig på en het vind, i ett sovrum eller i en utrymningsväg. Låt en behörig elektriker ansluta det och håll programvaran uppdaterad.",
+      },
+    ],
+    us: [
+      {
+        question: "Is a home battery worth it without solar panels?",
+        answer: "It can be, but the math is often tight. On a time-of-use rate plan, the battery charges with cheaper off-peak power overnight and runs your home at peak times instead. Work it out: kWh shifted per day × (peak rate − off-peak rate) × 365, minus about 10% for charging losses. With example rates of 20 cents peak and 10 cents off-peak, shifting 8 kWh a day saves about $290 a year, or roughly $260 after losses. Compare that with the installed price divided by the warranty years.",
+      },
+      {
+        question: "What size home battery do I need?",
+        answer: "Size it to your evening and overnight use, not your total daily consumption, because that's the part a battery covers. Your utility's app or online account may show your usage hour by hour: add up what you use from about 4 p.m. to 7 a.m., for example. If that's 6 kWh, a battery with 6 to 8 kWh of usable capacity is a sensible start. With solar panels, don't buy more than they can refill in winter, and check the power rating in kW too.",
+      },
+      {
+        question: "Where should a home battery go, and who should install it?",
+        answer: "A battery that connects to your electrical panel should be installed by a qualified professional. Put it in a dry space that stays at a moderate temperature, such as a garage or utility room, not a bedroom or an escape route. Prefer lithium iron phosphate (LFP) chemistry, which is more thermally stable, follow the manufacturer's clearance and ventilation requirements, check whether your area requires a permit, and let your home insurer know. Plug-in batteries sold with balcony solar kits need no electrician, but keep them away from any heat source.",
+      },
+      {
+        question: "Hybrid inverter or AC-coupled battery?",
+        answer: "If you're installing solar and a battery together, a hybrid inverter is usually simpler and slightly more efficient; if you already have solar, an AC-coupled battery is the easier retrofit. A hybrid inverter stores solar power without converting it twice, but replacing a working inverter just to add a battery rarely makes sense. An AC-coupled battery has its own inverter and connects to your electrical panel, leaving the existing solar system untouched. Either way, ask whether it can also charge at off-peak rates.",
+      },
+      {
+        question: "Will a home battery keep the lights on during a power outage?",
+        answer: "Only if it has a backup function and has been wired for it; most grid-connected batteries shut off during an outage, just like solar inverters. Backup setups use a transfer switch that isolates your home from the grid, then power either a few essential circuits or the whole house. The switchover can take a moment, so check this if you rely on medical equipment. In the app, set a backup reserve so some charge is always kept for outages.",
+      },
+    ],
+    ca: [
+      {
+        question: "Is a home battery worth it without solar panels?",
+        answer: "It can be, if your utility offers time-of-use rates: the battery charges with cheaper off-peak electricity overnight and powers your home at peak times instead. Work it out: kWh shifted per day × (peak rate − off-peak rate) × 365, minus around 10% for charging losses. With an example gap of 10¢ per kWh, shifting 8 kWh a day is worth about $290 a year, or roughly $260 after losses. Compare that with the installed price divided by the warranty years.",
+      },
+      {
+        question: "What size home battery do I need?",
+        answer: "Size it to your evening and overnight use, not your total daily consumption, because that's the part a battery covers. Your utility's app or online account may show your usage by the hour: add up what you use from about 4 p.m. to 7 a.m., for example. If that's 6 kWh, a battery with 6 to 8 kWh of usable capacity is a sensible start. With solar panels, don't buy more than they can refill in winter, and check the power rating in kW too.",
+      },
+      {
+        question: "Are there rebates for home batteries?",
+        answer: "Possibly, but programs and rebates change often and depend on where you live, so check current federal, provincial and utility programs before you buy. Some programs only cover professionally installed systems, so a battery you buy online and install yourself may not qualify. Read the conditions before you sign, and make sure any rebate or incentive your installer promises appears clearly on the quote.",
+      },
+      {
+        question: "Hybrid inverter or AC-coupled battery?",
+        answer: "If you're installing solar and a battery together, a hybrid inverter is usually simpler and slightly more efficient; if you already have solar, an AC-coupled battery is the easier retrofit. A hybrid inverter stores solar power without converting it twice, but replacing a working inverter just to add a battery rarely makes sense. An AC-coupled battery has its own inverter and connects to your electrical panel, leaving the existing solar system untouched. Either way, ask whether it can also charge at off-peak rates.",
+      },
+      {
+        question: "Will a home battery keep the lights on in a power outage?",
+        answer: "Only if it has a backup function and has been wired for it; most grid-connected batteries switch off during an outage, just like solar inverters. Backup setups use a transfer switch that isolates your home from the grid, then power either a few essential circuits or the whole house. Switchover can take a moment, so check this if you rely on medical equipment. Set a minimum charge in the app to keep in reserve for outages.",
       },
     ],
   },
@@ -780,6 +1044,72 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
         answer: "Najczęściej dlatego, że ktoś wyłączył ją włącznikiem, sygnał Wi-Fi jest za słaby albo zmienił się router lub hasło. Większość żarówek działa tylko w paśmie 2,4 GHz, więc jeśli router nadaje oba pasma pod jedną nazwą, warto utworzyć osobną sieć 2,4 GHz. W sieci Zigbee zasięg wzmacniają urządzenia stale zasilane z sieci elektrycznej, np. inteligentne gniazdka. Reset polega zwykle na kilkukrotnym włączeniu i wyłączeniu żarówki, a dokładną sekwencję podaje instrukcja.",
       },
     ],
+    sv: [
+      {
+        question: "Smarta lampor med wifi, Zigbee eller Matter: vilket ska jag välja?",
+        answer: "Till två eller tre lampor räcker wifi, och då behövs ingen brygga. Har du fler än ett tiotal är Zigbee eller Matter via Thread stabilare, och routern belastas inte. Zigbee går via en brygga, som den från Philips Hue eller IKEA, och fungerar lokalt. Matter är en gemensam standard som gör att samma lampa fungerar med Alexa, Google Home och Apple Home. Thread kräver en styrenhet, som ofta finns inbyggd i en nyare smart högtalare eller brygga.",
+      },
+      {
+        question: "IKEA DIRIGERA eller Philips Hue Bridge: vilken ska jag välja?",
+        answer: "Välj Hue Bridge för det största utbudet av lampor, LED-slingor och armaturer i ett mycket komplett ekosystem, och DIRIGERA om du satsar på IKEA:s billigare produkter och på Matter. Båda styr Zigbee-lampor lokalt och kan kopplas till Alexa, Google Home och Apple Home via Matter. Hue Bridge fungerar i regel även med Zigbee-lampor från andra märken, bland annat IKEA:s. DIRIGERA fungerar dessutom som Thread-router för IKEA:s nya Matter-kompatibla produkter.",
+      },
+      {
+        question: "Hur mycket el drar en smart lampa, även i standby?",
+        answer: "Tänd drar den lika mycket som en vanlig LED-lampa med samma ljusstyrka, och i standby högst 0,5 W, som är gränsen i EU:s ekodesignregler för ljuskällor. Räkna så här: 0,5 W × 24 tim × 365 dagar = 4,4 kWh per år och lampa, vilket med ett exempelpris på 2,20 kr/kWh blir knappt 10 kr. En lampa på 9 W som lyser fyra timmar om dagen drar ungefär 13 kWh per år. Med tjugo smarta lampor börjar standbyförbrukningen alltså märkas.",
+      },
+      {
+        question: "Måste strömbrytaren alltid vara påslagen med smarta lampor?",
+        answer: "Ja: slår du av väggbrytaren får lampan ingen ström och svarar inte längre på appen, röstassistenten eller automationerna. Vill du ändå ha en knapp på väggen kan du sätta en trådlös fjärrkontroll på eller bredvid strömbrytaren, eller byta till en smart strömbrytare, men då ska du inte använda en smart lampa i samma armatur. Koppla aldrig en smart lampa till en vanlig dimmer: den kan surra, blinka eller gå sönder.",
+      },
+      {
+        question: "Varför tappar min smarta lampa anslutningen eller blinkar?",
+        answer: "Oftast för att lampan har slagits av med väggbrytaren, för att wifi-signalen är för svag eller för att det sitter en vanlig dimmer i kretsen. Kontrollera att en lampa med wifi ansluter på 2,4 GHz, och flytta routern närmare eller lägg till en repeater. Med Zigbee blir nätet starkare om en nätdriven enhet står mellan bryggan och lampan. För att återställa lampan brukar man behöva slå av och på den flera gånger i rad; exakt hur står i bruksanvisningen.",
+      },
+    ],
+    us: [
+      {
+        question: "Tapo or Govee smart bulbs: which should I choose?",
+        answer: "Choose Govee if you mainly want color effects, light strips and TV backlighting, and Tapo if you want simple, affordable bulbs managed alongside Tapo plugs and cameras. Both are Wi-Fi brands that work without a hub and connect to Alexa and Google Assistant, and some models from each support Matter, which also opens up Apple Home. Wi-Fi bulbs are fine for a few rooms; for dozens of lights, a Zigbee or Thread system is usually more reliable.",
+      },
+      {
+        question: "IKEA Dirigera or Philips Hue Bridge: which should I choose?",
+        answer: "Get the Hue Bridge for the widest choice of bulbs, light strips and fixtures in a very complete ecosystem, and Dirigera if you're going with IKEA's lower-priced products and Matter. Both run Zigbee bulbs locally and connect to Alexa, Google Home or Apple Home through Matter. The Hue Bridge generally accepts Zigbee bulbs from other brands, including IKEA, and Dirigera also acts as a Thread border router for IKEA's newer Matter products. Whichever you pick, compare bulbs by lumens rather than watts: about 800 lumens replaces an old 60 W bulb.",
+      },
+      {
+        question: "How much electricity does a smart bulb use on standby?",
+        answer: "No more than 0.5 W, the limit set by the EU's ecodesign rules for connected light sources, which works out to about 4.4 kWh a year per bulb. At an example rate of 20 cents per kWh, that's at most about 90 cents a year per bulb. When it's on, a smart LED uses the same as a regular LED of equal brightness: a 9 W bulb lit four hours a day uses about 13 kWh a year. Turning it off at the wall switch saves standby power but leaves the bulb unreachable from the app.",
+      },
+      {
+        question: "Do smart bulbs need an app account or cloud connection?",
+        answer: "Most Wi-Fi bulbs need the brand's app and a cloud account for setup and remote control, while Zigbee, Thread and Matter systems can run locally inside your home. If privacy matters, look for Matter support or a hub that works locally, such as Philips Hue or a Home Assistant setup, so your lights still respond if the internet goes down. Check what data the app collects and turn off optional usage sharing. Keep the firmware updated, since updates patch security flaws.",
+      },
+      {
+        question: "Why do my smart bulbs keep becoming unresponsive?",
+        answer: "Most often because they've been turned off at the wall switch, the Wi-Fi signal is weak, or the router has changed. Smart bulbs need constant power, so add a wireless remote or a smart switch instead of using the regular light switch. Wi-Fi bulbs usually need the 2.4 GHz band, and Zigbee bulbs benefit from a plug-in device, such as a smart plug, between the hub and the bulb. Bulbs in enclosed fixtures can also overheat, so check that the packaging says they're rated for enclosed fixtures.",
+      },
+    ],
+    ca: [
+      {
+        question: "Tapo or Govee smart bulbs: which should I choose?",
+        answer: "Choose Govee if you mainly want colour effects, light strips and TV backlighting, and Tapo if you want simple, affordable bulbs managed alongside Tapo plugs and cameras. Both are Wi-Fi brands that work without a hub and connect to Alexa and Google Assistant, and some models of each support Matter, which also opens up Apple Home. Wi-Fi bulbs are fine for a few rooms; for dozens of lights, a Zigbee or Thread system is usually more reliable.",
+      },
+      {
+        question: "E26 or E12: which smart bulb base do I need?",
+        answer: "Check the old bulb: most ceiling fixtures and lamps use the standard E26 screw base, while E12 candelabra bases are common in chandeliers and decorative fixtures, and GU10 is used in some spotlights. Smart bulbs are easiest to find in E26, so the E12 version can be harder to track down; avoid adapters where possible, as they add length and can leave a bulb sticking out of the shade. Compare brightness in lumens rather than watts: around 800 lumens replaces an old 60 W bulb.",
+      },
+      {
+        question: "How much electricity does a smart bulb use on standby?",
+        answer: "Usually 0.5 W or less, the limit EU ecodesign rules set for connected light sources, which works out at about 4.4 kWh a year per bulb. At an example rate of 10¢ per kWh, that's at most about 44¢ a year per bulb. When it's on, a smart LED uses the same as a regular LED of equal brightness: a 9 W bulb lit for four hours a day uses about 13 kWh a year. Switching off at the wall saves standby power but makes the bulb unreachable.",
+      },
+      {
+        question: "Do smart bulbs need an app account or cloud connection?",
+        answer: "Most Wi-Fi bulbs need the maker's app and a cloud account for setup and remote control, while Zigbee, Thread and Matter systems can run locally inside your home. If privacy matters, look for Matter support or a hub that works locally, such as Philips Hue or a Home Assistant setup, so lights still respond if the internet goes down. Check what data the app collects and switch off optional usage sharing. Keep firmware updated, since updates patch security flaws.",
+      },
+      {
+        question: "Why do my smart bulbs keep becoming unresponsive?",
+        answer: "Most often because they've been switched off at the wall, the Wi-Fi signal is weak, or the router has changed. Smart bulbs need constant power, so install a wireless switch or a smart switch rather than using the light switch. Wi-Fi bulbs usually need the 2.4 GHz band, and Zigbee bulbs benefit from a plug-in or hardwired device between the hub and the bulb. Bulbs in enclosed fixtures can also overheat, so check the packaging says they're rated for enclosed fixtures.",
+      },
+    ],
   },
   "interrupteurs": {
     fr: [
@@ -934,6 +1264,72 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       {
         question: "Dlaczego żarówki LED migają po zamontowaniu inteligentnego włącznika?",
         answer: "Najczęściej dlatego, że włącznik działa bez przewodu N, a prąd, który go zasila, płynie przez żarówki LED i powoduje ich żarzenie lub miganie. Pomaga kondensator (bypass) zalecany przez producenta i montowany przy oprawie, żarówki ściemnialne o nieco większej mocy albo – jeśli w puszce jest przewód N – model, który z niego korzysta. Buczenie przy ściemnianiu oznacza zwykle żarówkę bez funkcji ściemniania lub niewłaściwy tryb ściemniania, który można zmienić w aplikacji.",
+      },
+    ],
+    sv: [
+      {
+        question: "Går det att installera en smart strömbrytare utan nolledare?",
+        answer: "Ja, det finns strömbrytare och moduler gjorda för installationer utan nolledare, men de fungerar sämre med LED-lampor med låg effekt. Utan nolla drivs modulen av en svag ström som går genom lampan, vilket kan få LED-lampor att blinka eller glöda svagt när de är avstängda; en liten kondensator (bypass) vid armaturen löser ofta problemet. I äldre bostäder saknas ofta nolledaren i dosan, så kontrollera med strömmen avslagen om där finns en blå ledare innan du köper.",
+      },
+      {
+        question: "Modul bakom strömbrytaren eller komplett smart strömbrytare: vad ska jag välja?",
+        answer: "Modulen är diskretast: den göms bakom din befintliga strömbrytare, som du behåller, medan en komplett smart strömbrytare ersätter mekanismen och finns i en matchande design. Med en modul behöver dosan vara tillräckligt djup för både modulen och ledningarna, och modellen bör ha en ingång för tryckknapp eller strömbrytare. Kompletta serier, som Legrand med Netatmo, passar bra vid en renovering och klarar trappkoppling med trådlösa knappar.",
+      },
+      {
+        question: "Smart strömbrytare eller smarta lampor: vad är bäst?",
+        answer: "Välj smarta strömbrytare när ett rum har flera lampor eller spotlights på samma krets. Välj smarta lampor när du vill ha färg eller justerbart vitt ljus i en bords- eller golvlampa eller en enskild taklampa. En strömbrytare gör hela kretsen smart med en enda enhet, fungerar som en vanlig brytare för gästerna och låter dig använda valfria kompatibla lampor. Smarta lampor kräver att väggbrytaren står på, men ger dimring och färg utan att du rör elinstallationen. Kombinera inte båda för samma lampa.",
+      },
+      {
+        question: "Hur mycket el drar en smart strömbrytare i standby?",
+        answer: "Oftast under en watt, alltså några kWh per år och strömbrytare: 0,5 W dygnet runt blir 4,4 kWh per år. Multiplicera med ditt elpris och antalet brytare. Med ett exempelpris på 2,20 kr/kWh kostar tio strömbrytare på 0,5 W knappt 100 kr per år. Zigbee- och Thread-modeller drar i regel mindre än modeller med wifi. I gengäld ser timer och scener till att lampor inte lyser i onödan.",
+      },
+      {
+        question: "Varför blinkar mina LED-lampor med en smart strömbrytare?",
+        answer: "Oftast för att strömbrytaren saknar nolledare och den lilla ström som driver den går genom LED-lamporna, som då lyser svagt eller blinkar när de borde vara släckta. En kondensator (bypass) vid armaturen, av den typ tillverkaren rekommenderar, brukar lösa det, liksom dimbara lampor med något högre effekt. Kontrollera också brytarens minsta last mot lampornas sammanlagda effekt: fem LED-lampor på 5 W blir bara 25 W. Finns nolledare i dosan löser en modell med nolla problemet. Surrar lampan i dimmerläge passar den troligen inte för dimring.",
+      },
+    ],
+    us: [
+      {
+        question: "Can I install a smart light switch without a neutral wire?",
+        answer: "Yes, many smart switches are designed for switch boxes with no neutral, which is common in older wiring, but they can struggle with low-wattage LED bulbs. No-neutral switches power themselves by drawing a tiny current through the bulb, which can make LEDs flicker or glow when they're off; most come with a small bypass or list a minimum load. With the power off, look inside the box: in US wiring a neutral is usually a white wire (blue on European wiring). If you find only the line and load wires, buy a no-neutral model.",
+      },
+      {
+        question: "Will a smart switch fit in my existing electrical box?",
+        answer: "Not always: smart switches are deeper than standard ones, so a shallow or crowded box may not leave room for the switch and its wires. Before buying, take off the cover plate, measure the box depth and compare it with the switch's stated requirement. Swapping in a deeper box is straightforward in drywall, but in plaster or masonry it's a bigger job. Metal boxes and metal cover plates can also weaken wireless signals.",
+      },
+      {
+        question: "Do I need an electrician to install a smart switch?",
+        answer: "Not necessarily: many homeowners replace a light switch themselves, but the work still has to follow your local electrical code, and some areas require a permit or a licensed electrician, so check first. Turn off the circuit at the breaker panel and confirm it's dead with a voltage detector, not just by flipping the light, and photograph the original wiring before you disconnect anything. A 3-way setup, a missing ground wire or unclear wiring are good reasons to call a licensed electrician. If you rent, ask your landlord first.",
+      },
+      {
+        question: "Smart switch or smart bulbs: which is better?",
+        answer: "Choose a smart switch when a room has several bulbs or recessed lights on one circuit, and smart bulbs when you want color or tunable white in a lamp or a single pendant. A switch makes the whole circuit smart for the price of one device, still works like a regular switch for guests, and lets you use any compatible bulbs. Smart bulbs need the wall switch left on, but they give you dimming and color without touching the wiring. Don't combine both on the same light.",
+      },
+      {
+        question: "Why does my smart switch make LED lights flicker or hum?",
+        answer: "Usually because the LEDs draw less than the switch's minimum load or aren't compatible with its dimmer, which is especially common with no-neutral switches. Compare the switch's minimum load with the bulbs' total wattage: five 5 W LEDs add up to only 25 W. Installing the bypass supplied by the manufacturer, adding another bulb or choosing bulbs marked as dimmable usually fixes it. If the switch dims, set the minimum brightness in the app and pick the right dimming mode, leading-edge or trailing-edge.",
+      },
+    ],
+    ca: [
+      {
+        question: "Can I install a smart light switch without a neutral wire?",
+        answer: "Yes, many smart switches are made for homes without a neutral at the switch, which is common in older wiring, but they can struggle with low-wattage LED bulbs. No-neutral switches draw a tiny current through the bulb to power themselves, which can make LEDs flicker or glow when off; most come with a small bypass or state a minimum load. With the power off, look inside the switch box: a neutral is usually a bundle of white wires capped together at the back. If there's no neutral in the box, buy a no-neutral model.",
+      },
+      {
+        question: "Will a smart switch fit in my existing electrical box?",
+        answer: "Not always: smart switches are deeper than standard ones, and a shallow or crowded box may not leave enough room for the switch and its wires. Measure the depth with the cover plate off before buying, and check the switch's stated minimum. Swapping in a deeper box is fairly simple in drywall, but in an older plaster wall it's a bigger job. Metal boxes and metal cover plates can also weaken wireless signals.",
+      },
+      {
+        question: "Do I need an electrician to install a smart switch?",
+        answer: "Not always, but check first: electrical work rules are set by each province and territory, so find out what applies where you live, and when in doubt, hire a licensed electrician. If you do it yourself, turn off the lighting circuit's breaker at the electrical panel and confirm it's dead with a proper voltage detector, not just by flicking the light. Three-way switching, a missing ground or unclear wiring are good reasons to call a licensed electrician. If you rent, ask your landlord first.",
+      },
+      {
+        question: "Smart switch or smart bulbs: which is better?",
+        answer: "Choose smart switches when a room has several bulbs or spotlights on one circuit, and smart bulbs when you want colour or tunable white in a lamp or single pendant. A switch makes the whole circuit smart for the price of one device, keeps working like a normal switch for guests, and lets you use any compatible bulbs. Smart bulbs need the wall switch left on, but give dimming and colour without touching the wiring. Don't combine both on the same light.",
+      },
+      {
+        question: "Why does my smart switch make LED lights flicker or hum?",
+        answer: "Usually because the LEDs draw less than the switch's minimum load or don't suit its dimmer, which is especially common with no-neutral switches. Check the switch's minimum load against the bulbs' total wattage: five 5 W LEDs only make 25 W. Installing the bypass supplied by the manufacturer, adding another bulb or choosing bulbs marked as dimmable usually solves it. If the switch dims, set the minimum brightness in the app and pick the right dimming mode, leading or trailing edge.",
       },
     ],
   },

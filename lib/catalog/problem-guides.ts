@@ -133,6 +133,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Zamknij drzwi i okna w pomieszczeniu, wyczyść filtr i rozważ dopasowaną otulinę izolacyjną na wąż, która ograniczy oddawanie przez niego ciepła.",
       ],
       "replaceWhen": "Jeśli wąż, uszczelnienia i filtr są w dobrym stanie, a w pomieszczeniu nadal robi się gorąco, klimatyzator może mieć za małą moc albo słabnie jego układ chłodniczy. Starego modelu jednowężowego zwykle nie opłaca się naprawiać, skoro nowsze urządzenie jest wydajniejsze.",
+    },
+    "sv": {
+      "intro": "Utblåsslangen på en portabel AC är varm eftersom den för bort värmen som tagits ut ur rummet, men om den läcker, är vikt eller saknar isolering kommer en del av värmen tillbaka in. Den vanligaste orsaken är en koppling som inte sitter ordentligt eller en fönstertätning med glipor.",
+      "causes": [
+        "Kopplingen sitter inte ordentligt – varm luft läcker ut vid anslutningen till aggregatet eller fönsteradaptern, och det känns om du håller handen där.",
+        "Glipor i fönstertätningen – varm uteluft letar sig in genom springorna, och det drar runt panelen.",
+        "Slangen är vikt eller för lång – luftflödet minskar, slangen blir het och strålar ut värme i rummet.",
+        "Modell med en slang – aggregatet suger ut rumsluft, och varm luft från andra rum ersätter den via dörrar och springor.",
+      ],
+      "steps": [
+        "Stäng av aggregatet och dra ur sladden, och låt slangen svalna innan du rör den eller ändrar en koppling.",
+        "Kontrollera att slangen sitter ordentligt fast i båda ändar, vid aggregatet och vid fönsteradaptern, utan synliga glipor.",
+        "Korta och räta ut slangen så mycket det går, utan skarpa böjar, så att den varma luften snabbt kommer ut och motorn inte överhettas.",
+        "Täta springorna i fönstret med den medföljande panelen, tätningslist eller isolerande skumlist, så att uteluften inte kan komma tillbaka in.",
+        "Stäng dörrar och fönster i rummet, rengör filtret och överväg en isoleringsstrumpa avsedd för slangen, så att den strålar ut mindre värme.",
+      ],
+      "replaceWhen": "Om slangen, tätningarna och filtret är i gott skick och rummet ändå blir varmt kan aggregatet vara underdimensionerat, eller så har kylkretsen börjat försämras; en äldre modell med en slang är sällan värd att reparera jämfört med ett nyare och effektivare aggregat.",
+    },
+    "us": {
+      "intro": "A portable air conditioner's exhaust hose feels hot because it carries the heat pulled out of your room, and if it leaks, is kinked or isn't insulated, some of that heat comes back inside. The most common cause is a loose connection or a gap around the window kit, so check the airflow path first.",
+      "causes": [
+        "Loose hose connection — hot air escapes at the unit or the window adapter, and you can feel warm air around the joints.",
+        "Gaps in the window seal — warm outdoor air gets pulled back in, and you can feel a draft around the panel.",
+        "Kinked or overly long hose — airflow is restricted, so the hose gets very hot and radiates heat into the room.",
+        "Single-hose design — the unit pushes room air outside, so warm air from other rooms is drawn in through doors and gaps.",
+      ],
+      "steps": [
+        "Turn the unit off and unplug it, then let the hose cool before you touch it or change any connection.",
+        "Check that both ends of the hose are fully clicked or screwed in, at the unit and at the window adapter, with no visible gaps.",
+        "Shorten and straighten the hose as much as you can, avoiding sharp bends, so hot air exits quickly and the motor doesn't overheat.",
+        "Seal gaps around the window with the supplied panel plus foam tape or weatherstripping so outdoor air can't flow back in.",
+        "Close the doors and windows in the room, clean the filter and consider an insulated hose cover made for your model to cut the heat radiating from the hose.",
+      ],
+      "replaceWhen": "If the hose, seals and filter all check out and the room still warms up, the unit may be undersized or its cooling system may be losing capacity; an older single-hose model is rarely worth repairing compared with a newer, more efficient one.",
+    },
+    "ca": {
+      "intro": "A portable air conditioner's hose feels hot because it carries the heat removed from your room, and if it is leaking, kinked or uninsulated, part of that heat returns indoors. The most common cause is a loose connection or a gap at the window kit, so check the airflow path first.",
+      "causes": [
+        "Loose hose connection — hot air escapes at the unit or window adapter, and you can feel warm air around the joints.",
+        "Gaps in the window seal — warm outdoor air is drawn back in, and you can feel a draft around the panel.",
+        "Kinked or overly long hose — airflow is restricted, the hose gets very hot and radiates heat into the room.",
+        "Single-hose design — the unit pulls room air out, so warm air from other rooms is drawn in through doors and cracks.",
+      ],
+      "steps": [
+        "Switch the unit off and unplug it, then let the hose cool down before touching it or changing any connection.",
+        "Check both hose ends are fully clicked or screwed in, at the unit and at the window adapter, with no visible gaps.",
+        "Shorten and straighten the hose as much as possible, avoiding sharp bends, so hot air leaves quickly and the motor does not overheat.",
+        "Seal gaps around the window with the supplied panel plus foam strip or weatherstripping so outdoor air cannot flow back in.",
+        "Close doors and windows in the room, clean the filter, and consider a purpose-made insulating sleeve to reduce heat radiating from the hose.",
+      ],
+      "replaceWhen": "If the hose, seals and filter are all fine and the room still warms up, the unit may be undersized or its cooling circuit may be weakening; an older single-hose model is rarely worth repairing compared with a modern, more efficient replacement.",
     }
   },
   "climatiseur-mobile-compresseur-cycle-court": {
@@ -254,6 +305,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Obniż temperaturę zadaną o kilka stopni lub wypróbuj inny tryb i sprawdź, czy cykle pracy się wydłużają; jeśli nie, skontaktuj się z serwisem producenta.",
       ],
       "replaceWhen": "Jeśli krótkie cykle nie ustępują mimo pełnej konserwacji, prawdopodobnie brakuje czynnika chłodniczego albo sprężarka jest zużyta. Takie naprawy wymagają fachowca i często kosztują więcej, niż wart jest stary klimatyzator, więc rozsądniej go wymienić.",
+    },
+    "sv": {
+      "intro": "När kompressorn i en portabel AC stannar och startar om varannan minut beror det nästan alltid på överhettning eller på att regleringen luras, ofta av ett igensatt filter eller en utblåsslang som stryper luftflödet. Åtgärda de här enkla orsakerna innan du misstänker ett fel i kylkretsen.",
+      "causes": [
+        "Igensatt filter eller galler – luften cirkulerar dåligt, aggregatet överhettas och överhettningsskyddet stänger av kompressorn gång på gång.",
+        "Vikt eller blockerad utblåsslang – värmen kommer inte ut, trycket stiger och aggregatet går in i skyddsläge.",
+        "Temperaturgivaren luras – kall luft från aggregatet når givaren, så den inställda temperaturen verkar nås alldeles för snabbt.",
+        "Full vattentank eller en flottör som har fastnat – aggregatet stannar en kort stund och startar sedan om, utan att kylningen någonsin stabiliseras.",
+      ],
+      "steps": [
+        "Dra ur sladden och vänta minst trettio minuter, så att överhettningsskyddet återställs och trycket i kylkretsen hinner jämna ut sig.",
+        "Ta ut filtret och rengör det i ljummet vatten, låt det torka helt och damma sedan försiktigt av gallren för luftintag och utblås.",
+        "Kontrollera att slangen är rak, kort och ordentligt ansluten, och att öppningen utomhus inte blockeras av en rulljalusi eller en markis.",
+        "Flytta aggregatet en bit från väggar och gardiner, håll det borta från värmekällor och töm vattentanken eller dräneringsslangen.",
+        "Sänk den inställda temperaturen flera grader eller prova ett annat läge och se om driftcyklerna blir längre; annars kontaktar du tillverkarens service.",
+      ],
+      "replaceWhen": "Om de korta cyklerna fortsätter trots fullständig skötsel är det troligen brist på köldmedium eller en sliten kompressor; båda kräver en kyltekniker och kostar ofta mer än ett äldre aggregat är värt, så då är det klokare att byta.",
+    },
+    "us": {
+      "intro": "A portable air conditioner whose compressor shuts off and restarts every couple of minutes is almost always overheating or getting a false reading from its temperature sensor, usually because of a clogged filter or a restricted exhaust hose. Fix these simple causes before you suspect the refrigerant circuit.",
+      "causes": [
+        "Clogged filter or grille — airflow is poor, the unit overheats and its thermal protection keeps shutting the compressor off.",
+        "Kinked or blocked exhaust hose — heat can't escape, pressure rises and the unit shuts itself down for protection.",
+        "Fooled temperature sensor — cold air from the unit hits the sensor, so it thinks the set temperature has been reached far too soon.",
+        "Full condensate tank or stuck float switch — the unit pauses briefly, then restarts without ever settling into steady cooling.",
+      ],
+      "steps": [
+        "Unplug the unit and wait at least 30 minutes so the thermal protection resets and the refrigerant pressure settles.",
+        "Remove the filter, wash it in lukewarm water and let it dry completely, then gently dust the air intake and outlet grilles.",
+        "Make sure the exhaust hose is short, straight and firmly connected, and that its outdoor end isn't blocked by a shutter or blind.",
+        "Move the unit away from walls and curtains, keep it clear of heat sources, and empty the condensate tank or drain hose.",
+        "Lower the set temperature several degrees or try another mode and see whether the cycles get longer; if not, contact the manufacturer's customer support.",
+      ],
+      "replaceWhen": "If short cycling continues after a full cleanup, low refrigerant or a worn compressor is the likely cause; both need a qualified technician and often cost more than an older unit is worth, so replacing it is usually the smart move.",
+    },
+    "ca": {
+      "intro": "A portable air conditioner whose compressor stops and restarts every two minutes is almost always overheating or being fooled by its temperature sensor, usually because of a clogged filter or a restricted exhaust hose. These simple causes are worth fixing before suspecting the refrigerant circuit.",
+      "causes": [
+        "Clogged filter or grille — airflow is poor, the unit overheats and its thermal protection keeps switching the compressor off.",
+        "Kinked or blocked exhaust hose — heat cannot escape, pressure rises and the unit trips into a protective shutdown.",
+        "Misled temperature sensor — cold air from the unit hits the probe, so the target temperature seems reached far too soon.",
+        "Full condensate tank or stuck float switch — the unit pauses briefly then restarts without ever settling into steady cooling.",
+      ],
+      "steps": [
+        "Unplug the unit and wait at least thirty minutes so the thermal protection resets and the refrigerant pressures can settle.",
+        "Remove the filter, wash it in lukewarm water, dry it completely, then gently dust the air intake and outlet grilles.",
+        "Check the exhaust hose is short, straight and firmly connected, and that its outdoor opening is not blocked by a shutter or blind.",
+        "Move the unit away from walls and curtains, keep it clear of heat sources, and empty the condensate tank or drain hose.",
+        "Lower the set temperature by several degrees or try another mode and see whether the run cycles lengthen; if not, contact the manufacturer's support team.",
+      ],
+      "replaceWhen": "If short cycling continues after full maintenance, low refrigerant or a worn compressor is likely; both need a qualified technician and often cost more than an older unit is worth, so replacement is usually the sensible choice.",
     }
   },
   "balai-aspirateur-led-clignote": {
@@ -375,6 +477,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Włącz odkurzacz bez końcówki z napędem; jeśli dioda nadal miga, odczytaj kod w instrukcji i skontaktuj się z producentem.",
       ],
       "replaceWhen": "Jeśli dioda miga dalej mimo czyszczenia i pełnego naładowania, winny jest prawdopodobnie akumulator albo płytka sterująca. Gdy nowy akumulator kosztuje prawie tyle co nowy odkurzacz albo nie jest już dostępny, rozsądniej kupić nowe urządzenie.",
+    },
+    "sv": {
+      "intro": "En röd LED-lampa som blinkar på en sladdlös dammsugare betyder oftast att ett skydd har löst ut: överhettning, en borste eller ett filter som är igensatt, eller ett batteriproblem. Leta upp koden i bruksanvisningen, eftersom betydelsen varierar mellan modellerna, och börja med att leta efter stopp.",
+      "causes": [
+        "Igensatt filter eller dammbehållare – motorn går tungt och blir varm, och överhettningsskyddet stänger av dammsugaren medan lampan blinkar.",
+        "Borsten är blockerad av hår eller ett föremål – borstmotorn överbelastas och löser ut ett skydd på många modeller.",
+        "Batteriet sitter inte ordentligt eller kontakterna är smutsiga – strömförsörjningen blir ojämn och elektroniken vägrar starta.",
+        "Batteriet är djupurladdat eller slitet – det kan inte längre leverera tillräckligt med ström, och dammsugaren signalerar ett laddningsfel.",
+      ],
+      "steps": [
+        "Ta ur batteriet om det är löstagbart, eller låt dammsugaren svalna i minst trettio minuter innan du försöker igen.",
+        "Töm dammbehållaren, rengör eller byt filtret enligt bruksanvisningen och låt det torka helt innan du sätter tillbaka det.",
+        "Ta loss borsten enligt bruksanvisningen, ta bort hår och trådar som lindats runt den och kontrollera att inget föremål sitter fast i röret eller munstycket.",
+        "Torka av batterikontakterna med en torr trasa, tryck in batteriet ända tills det klickar och ladda sedan med originalladdaren.",
+        "Prova dammsugaren utan motoriserade tillbehör; blinkar lampan fortfarande, leta upp koden i bruksanvisningen och kontakta tillverkaren.",
+      ],
+      "replaceWhen": "Om lampan fortsätter att blinka efter rengöring och full laddning är det troligen batteriet eller kretskortet som är felet. När ett nytt batteri kostar nästan lika mycket som en ny dammsugare, eller inte längre går att få tag på, är det klokare att byta hela dammsugaren.",
+    },
+    "us": {
+      "intro": "A flashing red light on a cordless stick vacuum usually means a protection feature has kicked in: overheating, a blocked brush roll or filter, or a battery problem. What it means exactly varies by model, so look up the code in the manual, and start by checking for clogs.",
+      "causes": [
+        "Clogged filter or dust bin — the motor strains and overheats, and the thermal protection shuts the vacuum off while the light flashes.",
+        "Brush roll jammed with hair or debris — the brush motor overloads and trips a safety shutoff on many models.",
+        "Battery not seated properly or dirty contacts — the power supply is unstable and the electronics won't start.",
+        "Deeply drained or worn-out battery — it can no longer deliver enough current, so the vacuum signals a power fault.",
+      ],
+      "steps": [
+        "Remove the battery if it's detachable, or let the vacuum cool for at least 30 minutes before you try again.",
+        "Empty the dust bin, clean or replace the filter as the manual describes, and let it dry completely before you put it back.",
+        "Remove the brush roll following the instructions, cut away wrapped hair and thread, and make sure nothing is stuck in the wand or floor head.",
+        "Wipe the battery contacts with a dry cloth, push the battery in until it clicks, then recharge it with the original charger.",
+        "Test the vacuum without any motorized attachment; if the light still flashes red, look up the code in the manual and contact the manufacturer.",
+      ],
+      "replaceWhen": "If the red flashing continues after cleaning and a full charge, the battery or control board is the likely culprit. When a replacement battery costs almost as much as a new vacuum, or is no longer sold, replacing the whole vacuum makes more sense.",
+    },
+    "ca": {
+      "intro": "A flashing red LED on a stick vacuum usually means a protection has kicked in: overheating, a blocked brush or filter, or a battery problem. The exact meaning varies between models, so check the manual for the code, and start by looking for blockages.",
+      "causes": [
+        "Clogged filter or dust bin — the motor strains and overheats, and the thermal protection stops the unit while the LED flashes.",
+        "Brush bar jammed by hair or debris — the brush motor overloads and triggers a safety cut-out on many models.",
+        "Poorly seated battery or dirty contacts — the power supply is unstable and the electronics refuse to start.",
+        "Deeply discharged or worn battery — it can no longer deliver enough current, and the unit signals a power fault.",
+      ],
+      "steps": [
+        "Remove the battery if it is detachable, or let the unit cool for at least thirty minutes before trying again.",
+        "Empty the bin, then clean or replace the filter as the manual describes, and let it dry completely before putting it back.",
+        "Take the brush bar off following the instructions, cut away wrapped hair and thread, and check nothing is jammed in the tube or nozzle.",
+        "Wipe the battery contacts with a dry cloth, push the battery in until it clicks, then recharge with the original charger.",
+        "Test the vacuum without any motorized attachment; if the LED still flashes red, note the code in the manual and contact the manufacturer.",
+      ],
+      "replaceWhen": "If the red flashing continues after cleaning and a full recharge, the battery or control board is the likely culprit. When a replacement battery costs nearly as much as a new vacuum, or is no longer available, replacing the whole unit makes more sense.",
     }
   },
   "tiroir-ne-ferme-pas": {
@@ -496,6 +649,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Nigdy nie obchodź wyłącznika bezpieczeństwa: frytkownica grzeje tylko przy dobrze zamkniętej szufladzie i to zabezpieczenie musi działać.",
       ],
       "replaceWhen": "Jeśli szuflada jest wygięta, uchwyt pęknięty albo obudowa tak odkształcona, że szuflada się nie domyka, naprawa rzadko daje trwały efekt. Łuszcząca się powłoka to również powód do wymiany, ze względu na higienę i bezpieczeństwo.",
+    },
+    "sv": {
+      "intro": "När lådan i en airfryer inte går att stänga ordentligt är det oftast något som är i vägen: för mycket mat, bakplåtspapper som har vikt sig uppåt eller fett som har hårdnat på skenorna. Att lådan eller korgen har blivit skev är ovanligare, men kan hända efter stötar eller kraftig värme.",
+      "causes": [
+        "Överfylld korg eller mat som sticker upp – innehållet tar i värmeelementet eller höljet och hindrar lådan från att glida in helt.",
+        "Bakplåtspapper eller folie som har vikt sig – det fastnar längst bak eller under korgen och blockerar lådan.",
+        "Förkolnat fett på skenorna – hårda beläggningar gör att lådan går trögt och inte kommer ända in.",
+        "Korgen sitter inte i ordentligt eller handtaget är böjt – korgen är inte låst i lådan och sticker ut en aning över kanten.",
+      ],
+      "steps": [
+        "Dra ut kontakten och låt apparaten svalna helt innan du rör lådan, korgen eller insidan av höljet.",
+        "Ta ut lådan och korgen, plocka bort papper, folie eller mat som har fastnat och kontrollera att inget ligger kvar längst in.",
+        "Rengör skenorna, kanterna och öppningen med en svamp som inte repar och varmt vatten med diskmedel, och torka sedan allt noga.",
+        "Sätt tillbaka korgen i lådan tills det klickar, fördela maten i ett jämnt lager under maxmarkeringen och skjut in lådan försiktigt.",
+        "Koppla aldrig förbi säkerhetsbrytaren: apparaten värmer bara när lådan är helt stängd, och det skyddet måste fortsätta att fungera.",
+      ],
+      "replaceWhen": "Om lådan är böjd, handtaget trasigt eller höljet så deformerat att lådan inte går att stänga är en reparation sällan pålitlig. En non-stick-beläggning som flagnar är också ett tecken på att det är dags att byta, av både hygien- och säkerhetsskäl.",
+    },
+    "us": {
+      "intro": "An air fryer drawer that won't close properly is usually blocked by something: too much food, parchment paper that has lifted or hardened grease on the runners. A warped drawer or basket is less common, but it can happen after a knock or repeated high heat.",
+      "causes": [
+        "Overfilled basket or food sticking up — the food hits the heating element or housing and keeps the drawer from sliding all the way in.",
+        "Lifted parchment paper or foil — it gets caught at the back or under the basket and jams the drawer.",
+        "Baked-on grease on the runners — hardened buildup adds friction and stops the drawer before the end of its travel.",
+        "Basket not clicked in, or a bent handle — the basket isn't locked into the drawer and sticks out slightly past the edge.",
+      ],
+      "steps": [
+        "Unplug the air fryer and let it cool completely before you touch the drawer, the basket or the inside of the housing.",
+        "Pull out the drawer and basket, remove any trapped paper, foil or food, and make sure nothing is left at the back of the cavity.",
+        "Clean the runners, rims and opening with a nonabrasive sponge and hot, soapy water, then dry everything thoroughly.",
+        "Put the basket back until it clicks, spread the food in a flat layer below the max fill line and push the drawer closed gently.",
+        "Never bypass the safety switch: the air fryer heats only when the drawer is fully closed, and that protection has to keep working.",
+      ],
+      "replaceWhen": "If the drawer is bent, the handle is broken or the housing is warped so the drawer won't shut, a repair is rarely reliable. A flaking nonstick coating is another reason to replace the air fryer, for both hygiene and safety.",
+    },
+    "ca": {
+      "intro": "An air fryer drawer that no longer closes properly is most often blocked by something in the way: too much food, lifted parchment paper or hardened grease on the runners. A warped drawer or basket is rarer but can follow knocks or heavy heat exposure.",
+      "causes": [
+        "Overfilled basket or food sticking up — the contents hit the heating element or housing and keep the drawer from sliding all the way in.",
+        "Lifted parchment paper or foil — it gets caught at the back or under the basket and jams the drawer.",
+        "Carbonized grease on the runners — hardened deposits add friction and keep the drawer from reaching the end of its travel.",
+        "Basket not clicked in, or a bent handle — the basket is not locked into the drawer and sticks out slightly past the edge.",
+      ],
+      "steps": [
+        "Unplug the appliance and let it cool completely before touching the drawer, basket or the inside of the housing.",
+        "Pull out the drawer and basket, remove any trapped paper, foil or food, and check nothing is left at the back of the cavity.",
+        "Clean the runners, rims and opening with a non-abrasive sponge and hot soapy water, then dry everything thoroughly.",
+        "Put the basket back in until it clicks, spread food flat below the fill line, and push the drawer closed gently.",
+        "Never bypass the safety switch: the unit heats only when the drawer is fully closed, and that protection must stay working.",
+      ],
+      "replaceWhen": "If the drawer is bent, the handle is broken or the housing is distorted so the drawer will not shut, repair is rarely reliable. A flaking non-stick coating is another reason to replace the appliance for hygiene and safety.",
     }
   },
   "station-meteo-sonde-ext-hs": {
@@ -617,6 +821,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Osusz i wyczyść styki w komorze baterii, a potem zamocuj czujnik w miejscu osłoniętym od deszczu, z dala od dużych metalowych powierzchni.",
       ],
       "replaceWhen": "Jeśli do czujnika dostała się woda, płytka jest skorodowana albo połączenie nie wraca mimo nowych baterii, naprawa raczej nie ma sensu. Gdy do starszej stacji nie da się już kupić czujnika zamiennego, warto wymienić cały zestaw.",
+    },
+    "sv": {
+      "intro": "När utegivaren till en väderstation slutar skicka data beror det oftast på svaga batterier, särskilt när det är kallt, eller på att radiokontakten med basstationen har brutits. Nya batterier och en ny synkronisering löser de flesta fall.",
+      "causes": [
+        "Svaga batterier i givaren – kyla minskar kapaciteten ytterligare, så sändaren slutar skicka eller sänder för svagt.",
+        "Radiokontakten bröts efter ett avbrott – givaren och basstationen är inte längre parkopplade efter ett batteribyte eller strömavbrott.",
+        "Avstånd, väggar eller metallföremål – radiosignalen dämpas på vägen mellan givaren och basstationen och når inte fram.",
+        "Fukt eller korrosion i batterifacket – kontakterna oxiderar och strömmen glappar eller försvinner helt.",
+      ],
+      "steps": [
+        "Flytta givaren till några meter från basstationen, utan hinder emellan, för att se om data kommer tillbaka när räckvidden inte spelar in.",
+        "Byt batterierna i givaren mot nya batterier av god kvalitet och av den typ som anges i bruksanvisningen, med plus och minus åt rätt håll.",
+        "Ta ut batterierna ur både basstationen och givaren, och sätt sedan i givarens batterier först och basstationens efteråt, så startar parkopplingen om.",
+        "Kontrollera kanal- eller id-inställningen om den går att ändra, och flytta basstationen en bit från routrar, tv-apparater och andra källor till radiostörningar.",
+        "Torka och rengör kontakterna i batterifacket, och sätt sedan upp givaren skyddad från direkt regn och en bit från stora metallytor.",
+      ],
+      "replaceWhen": "Om vatten har trängt in i givaren, kretskortet har korroderat eller kontakten aldrig kommer tillbaka trots nya batterier är en reparation inte realistisk. Går det inte att få tag på en ny givare till en äldre station är det rimligt att byta ut hela stationen.",
+    },
+    "us": {
+      "intro": "An outdoor weather station sensor that stops reporting usually has weak batteries, especially in cold weather, or has lost its radio link with the main console. Fresh batteries and re-syncing the two fix most cases.",
+      "causes": [
+        "Weak sensor batteries — cold cuts their capacity even further, so the transmitter stops sending or sends too weak a signal.",
+        "Radio link lost after a power interruption — the sensor and console are no longer paired after a battery change or power outage.",
+        "Distance, walls or metal obstacles — the radio signal weakens between the sensor and the console and no longer gets through.",
+        "Moisture or corrosion in the battery compartment — the contacts corrode and power becomes intermittent or cuts out.",
+      ],
+      "steps": [
+        "Bring the sensor close to the console, a few feet away with nothing in between, to check whether data comes back when range isn't a factor.",
+        "Replace the sensor batteries with fresh, good-quality ones of the type the manual specifies, matching the polarity.",
+        "Remove the batteries from both the console and the sensor, then put the sensor's back in first and the console's second to restart pairing.",
+        "Check the channel or ID setting if it's adjustable, and move the console away from routers, TVs and other sources of radio interference.",
+        "Dry and clean the battery contacts, then mount the sensor out of direct rain and away from large metal surfaces.",
+      ],
+      "replaceWhen": "If water has gotten into the sensor, the circuit board is corroded or the link never comes back even with new batteries, a repair isn't realistic. If you can't find a replacement sensor for an older station, replacing the whole set makes sense.",
+    },
+    "ca": {
+      "intro": "An outdoor weather-station sensor that stops reporting usually has weak batteries, especially in cold weather, or has lost its radio link with the main console. Putting in fresh batteries and re-syncing the pair fixes most cases.",
+      "causes": [
+        "Weak sensor batteries — cold further reduces their capacity, so the transmitter stops sending or sends too weakly.",
+        "Radio link lost after a power gap — the sensor and console are no longer paired after a battery change or outage.",
+        "Distance, walls or metal obstacles — the radio signal is attenuated between sensor and console and no longer arrives.",
+        "Moisture or corrosion in the battery compartment — contacts oxidize and the power supply becomes intermittent or fails.",
+      ],
+      "steps": [
+        "Bring the sensor close to the console, a few metres apart with no obstacles, to check data returns when range is not a factor.",
+        "Replace the sensor batteries with fresh, good-quality ones of the type the manual specifies, observing the correct polarity.",
+        "Remove the batteries from both console and sensor, then insert the sensor's first and the console's afterwards to restart pairing.",
+        "Check the channel or ID setting if adjustable, and move the console away from routers, televisions and other sources of radio interference.",
+        "Dry and clean the battery contacts, then mount the sensor sheltered from direct rain and away from large metal surfaces.",
+      ],
+      "replaceWhen": "If water has entered the sensor, the board is corroded or the link never re-establishes even with new batteries, repair is unrealistic. If a replacement sensor is unobtainable for an older station, replacing the whole set makes sense.",
     }
   },
   "nettoyage-residus-brules": {
@@ -738,6 +993,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Opłucz i dokładnie osusz wszystkie części, a potem złóż frytkownicę. Do czyszczenia powłoki nigdy nie używaj druciaka ani środków ściernych.",
       ],
       "replaceWhen": "Jeśli powłoka nieprzywierająca się łuszczy, pojawia się rdza albo zapach spalenizny nie znika mimo gruntownego czyszczenia, frytkownica staje się mniej bezpieczna i mniej higieniczna. Wtedy lepiej ją wymienić, niż dalej w niej przyrządzać jedzenie.",
+    },
+    "sv": {
+      "intro": "För att få bort fastbrända rester ur en airfryer låter du den svalna, lägger lådan och korgen i blöt i varmt vatten med diskmedel och skrubbar sedan med en svamp som inte repar. En pasta av bikarbonat och vatten biter på envisa rester utan att skada non-stick-beläggningen.",
+      "causes": [
+        "Fett som droppar och förkolnas – dropparna hamnar i botten av lådan och svartnar för varje tillagning om du inte rengör lådan.",
+        "Söta marinader eller tjocka såser – sockret karamelliseras, bränns sedan fast på korgen och sitter hårt mot ytan.",
+        "Rengöringen skjuts upp mellan gångerna – lager på lager av fett byggs upp och hårdnar av den upprepade värmen.",
+        "Högsta temperatur utan olja eller lämpligt bakplåtspapper – maten fastnar i korgen och lämnar svarta skorpor som är svåra att få bort.",
+      ],
+      "steps": [
+        "Dra ut kontakten och låt apparaten svalna helt innan du tar ut lådan och korgen för att rengöra dem.",
+        "Lägg lådan och korgen i blöt i femton till trettio minuter i varmt vatten med diskmedel, så att beläggningarna mjukas upp.",
+        "Skrubba med en mjuk svamp eller borste; på envisa rester stryker du på en pasta av bikarbonat och vatten och låter den verka.",
+        "Torka av insidan av höljet och värmeelementet med en väl urvriden, fuktig trasa eller en mjuk borste när apparaten är kall, utan att hälla in vatten.",
+        "Skölj, torka alla delar noga och sätt ihop apparaten igen. Använd aldrig stålull eller skurmedel på beläggningen.",
+      ],
+      "replaceWhen": "Om non-stick-beläggningen flagnar, rost dyker upp eller en bränd lukt sitter kvar efter en grundlig rengöring blir apparaten mindre säker och mindre hygienisk. Då är det bättre att byta ut den än att fortsätta laga mat i den.",
+    },
+    "us": {
+      "intro": "To clean burned-on residue from an air fryer, let it cool, soak the drawer and basket in hot, soapy water, then scrub with a nonabrasive sponge. A baking soda paste helps with stubborn buildup without damaging the nonstick coating.",
+      "causes": [
+        "Grease drips that carbonize — drops fall to the bottom of the drawer and blacken with each use if it isn't cleaned.",
+        "Sugary marinades or thick sauces — the sugar caramelizes, then burns onto the basket and bonds firmly to the surface.",
+        "Putting off cleaning between uses — layers of grease build up and harden under repeated heat.",
+        "High heat with no oil or suitable liner — food sticks to the basket and leaves black crusts that are hard to lift off.",
+      ],
+      "steps": [
+        "Unplug the air fryer and let it cool completely before you take out the drawer and basket for cleaning.",
+        "Soak the drawer and basket for 15 to 30 minutes in hot water with dish soap to soften the buildup.",
+        "Scrub with a soft sponge or brush; for stubborn residue, spread on a paste of baking soda and water and let it sit.",
+        "With the air fryer cold, wipe the inside of the housing and the heating element with a well-wrung damp cloth or a soft brush, without pouring water in.",
+        "Rinse, dry every part thoroughly and reassemble. Never use steel wool or abrasive cleaners on the coating.",
+      ],
+      "replaceWhen": "If the nonstick coating is flaking, rust appears or a burning smell lingers after a deep clean, the air fryer becomes less safe and less hygienic. At that point, replace it rather than keep cooking in it.",
+    },
+    "ca": {
+      "intro": "To clean burnt residue from an air fryer, let it cool, soak the drawer and basket in hot soapy water, then scrub with a non-abrasive sponge. A baking soda paste helps with stubborn deposits without harming the non-stick coating.",
+      "causes": [
+        "Dripping grease that carbonizes — drops fall to the bottom of the drawer and blacken with each cook if it is not cleaned.",
+        "Sugary marinades or thick sauces — the sugar caramelizes then burns onto the basket and bonds firmly to the surface.",
+        "Cleaning put off between uses — layers of grease build up and harden under repeated heat.",
+        "High temperature with no oil or suitable liner — food sticks to the basket and leaves black crusts that are hard to lift.",
+      ],
+      "steps": [
+        "Unplug the appliance and let it cool completely before taking out the drawer and basket for cleaning.",
+        "Soak the drawer and basket for fifteen to thirty minutes in hot water with dish soap to soften the deposits.",
+        "Scrub with a soft sponge or brush; for stubborn residue, spread on a paste of baking soda and water and let it work.",
+        "With the unit cold, wipe the inside of the housing and heating element with a well-wrung damp cloth or soft brush, without pouring water in.",
+        "Rinse, dry every part thoroughly and reassemble. Never use steel wool or abrasive cleaners on the coating.",
+      ],
+      "replaceWhen": "If the non-stick coating is flaking, rust appears, or a burnt smell persists after a deep clean, the appliance becomes less safe and less hygienic. In that case it is better to replace it than to keep cooking on it.",
     }
   },
   "purificateur-voyant-rouge": {
@@ -859,6 +1165,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Po wymianie filtra wyzeruj licznik zgodnie z instrukcją, często przez dłuższe przytrzymanie przeznaczonego do tego przycisku.",
       ],
       "replaceWhen": "Jeśli po wymianie filtra, wyczyszczeniu czujnika i wyzerowaniu licznika kontrolka nadal świeci na czerwono, prawdopodobnie uszkodzona jest płytka sterująca albo sam czujnik. Gdy filtry nie są już dostępne albo urządzenie jest stare i głośne, rozsądniej kupić nowe.",
+    },
+    "sv": {
+      "intro": "En röd lampa som lyser hela tiden på en luftrenare betyder oftast att sensorn upptäcker dålig luftkvalitet, eller att en påminnelse om filterbyte inte har nollställts. Betydelsen skiljer sig mellan modeller, så läs bruksanvisningen innan du utgår från att något är trasigt.",
+      "causes": [
+        "Luften är faktiskt förorenad – rök från matlagning, damm eller sprej får sensorn att visa sin varningsfärg tills luften har renats.",
+        "Filterpåminnelsen har inte nollställts – drifträknaren fortsätter att räkna även efter ett filterbyte om du inte har återställt den.",
+        "Smutsig partikelsensor – damm på sensorn ger felaktiga mätvärden och gör att lampan fortsätter att visa dålig luftkvalitet.",
+        "Filtret eller locket sitter fel – luftrenaren upptäcker ett monteringsfel och låter varningslampan lysa.",
+      ],
+      "steps": [
+        "Dra ut kontakten, öppna locket och kontrollera att filtret sitter rätt och åt rätt håll, och stäng sedan locket ordentligt.",
+        "Läs i bruksanvisningen vad den röda lampan betyder på din modell, vilken färg som är varningsfärgen och hur du nollställer filterindikatorn.",
+        "Dammsug eller damma av förfiltret med kontakten urdragen, och rengör sedan sensorn med en torr bomullspinne eller en mjuk borste.",
+        "Vädra rummet, ta bort föroreningskällor i närheten som rök eller sprej, och låt luftrenaren gå på hög hastighet i några timmar.",
+        "När du har satt i ett nytt filter nollställer du räknaren enligt bruksanvisningen, ofta genom att hålla in en särskild knapp i några sekunder.",
+      ],
+      "replaceWhen": "Om lampan fortsätter att lysa rött efter filterbyte, rengöring av sensorn och nollställning har styrkortet eller sensorn troligen gått sönder. När det inte längre går att köpa filter, eller när luftrenaren är gammal och högljudd, är det mer rimligt att byta ut den.",
+    },
+    "us": {
+      "intro": "A solid red light on an air purifier most often means the sensor is detecting poor air quality, or a filter-replacement reminder hasn't been reset. The meaning varies by model, so check the manual before you assume something is broken.",
+      "causes": [
+        "Genuinely polluted air — cooking smoke, dust or aerosol sprays make the sensor show its alert color until the air clears.",
+        "Filter reminder not reset — the usage counter keeps running after a replacement if the reset step was skipped.",
+        "Dirty particle sensor — dust on the sensor skews the reading and keeps a poor air quality warning on.",
+        "Filter or cover not seated properly — the purifier detects an assembly problem and keeps the warning light on.",
+      ],
+      "steps": [
+        "Unplug the purifier, open the cover and make sure the filter is installed correctly and facing the right way, then close the cover firmly.",
+        "Check the manual for what the red light means on your model, its alert color and how to reset the filter indicator.",
+        "With the purifier unplugged, vacuum or dust the pre-filter, then clean the sensor with a dry cotton swab or a soft brush.",
+        "Air out the room, remove nearby sources of pollution such as smoke or aerosol sprays, and run the purifier on a high speed for a few hours.",
+        "After installing a new filter, reset the counter following the manual, often by holding a dedicated button for a few seconds.",
+      ],
+      "replaceWhen": "If the light stays red after a filter change, a sensor cleaning and a reset, the control board or sensor has probably failed. When filters are no longer available or the purifier is old and noisy, replacing it makes more sense.",
+    },
+    "ca": {
+      "intro": "A permanent red light on an air purifier most often means the sensor detects poor air quality, or that a filter-replacement reminder has not been reset. The meaning varies by model, so check the manual before assuming a fault.",
+      "causes": [
+        "Genuinely polluted air — cooking smoke, dust or aerosols make the sensor show its alert colour until the air has cleared.",
+        "Filter reminder not reset — the usage counter stays active even after a replacement if the reset was not carried out.",
+        "Dirty particle sensor — dust on the sensor skews the reading and keeps a poor air quality indication showing.",
+        "Filter or cover seated badly — the unit detects an assembly fault and keeps the warning light on.",
+      ],
+      "steps": [
+        "Unplug the unit, open the cover and check that the filter is installed correctly and facing the right way, then close the cover properly.",
+        "Check the manual for what the red light means on your model, its alert colour and how to reset the filter indicator.",
+        "With the unit unplugged, vacuum or dust the pre-filter, then clean the sensor with a dry cotton swab or soft brush.",
+        "Ventilate the room, remove nearby sources of pollution such as smoke or aerosols, and run the unit on a high speed for a few hours.",
+        "After installing a new filter, reset the counter following the manual, often by holding a dedicated button for a few seconds.",
+      ],
+      "replaceWhen": "If the light stays red after a filter change, sensor cleaning and a reset, the control board or sensor has probably failed. When filters are no longer available or the unit is old and noisy, replacing it makes more sense.",
     }
   },
   "centrale-vapeur-voyant-anti-calc": {
@@ -980,6 +1337,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Wyzeruj kontrolkę zgodnie z instrukcją, często przez dłuższe przytrzymanie przycisku, a jeśli Twój model ma wkład antywapienny, wymień go.",
       ],
       "replaceWhen": "Jeśli kontrolka świeci mimo starannego odkamienienia i wyzerowania albo bojler jest mocno zakamieniony, naprawa jest kosztowna. Starszą stację używaną z bardzo twardą wodą często lepiej po prostu wymienić.",
+    },
+    "sv": {
+      "intro": "Avkalkningslampan på en ångstation lyser ofta kvar efter avkalkningen för att underhållsräknaren inte har nollställts, eller för att det fortfarande finns kalk eller rester av avkalkningsmedel i ångpannan. Skölj ordentligt och följ sedan anvisningarna för nollställning i bruksanvisningen.",
+      "causes": [
+        "Underhållsräknaren har inte nollställts – påminnelsen bygger på en räknare som fortsätter att lysa tills du aktivt nollställer den.",
+        "Ofullständig avkalkning – det finns kalk kvar i ångpannan och ångstationen fortsätter att signalera att den behöver underhåll.",
+        "För dålig sköljning – rester av avkalkningsmedel ligger kvar i ångpannan och kan hålla varningen tänd eller påverka ångan.",
+        "Utsliten avkalkningspatron eller kassett – det inbyggda filtret är mättat och skyddar inte längre apparaten.",
+      ],
+      "steps": [
+        "Dra ut kontakten, låt ångstationen svalna helt och skruva aldrig av locket på ångpannan medan den är varm eller under tryck.",
+        "Läs avkalkningsavsnittet i bruksanvisningen igen: vilket medel som får användas, dosering, verkningstid och hur många sköljningar som rekommenderas.",
+        "Skölj ångpannan flera gånger med rent vatten genom att fylla den, skaka om och tömma den, tills inga rester kommer ut.",
+        "Gör om hela avkalkningen om det fortfarande rinner ut kalkhaltigt vatten, och skölj igen innan du använder ångstationen.",
+        "Nollställ lampan enligt bruksanvisningen, ofta genom att hålla in en knapp, och byt avkalkningspatronen om din modell har en.",
+      ],
+      "replaceWhen": "Om lampan lyser kvar efter en noggrann avkalkning och nollställning, eller om ångpannan är kraftigt förkalkad, blir reparationen dyr. En äldre ångstation som används med mycket hårt vatten är ofta bättre att byta ut.",
+    },
+    "us": {
+      "intro": "The anti-scale light on a steam generator iron often stays on after descaling because the maintenance counter wasn't reset, or because the boiler still holds scale or descaler residue. Rinse it thoroughly, then follow the reset steps in the manual.",
+      "causes": [
+        "Maintenance counter not reset — the reminder runs on a counter that stays lit until you reset it.",
+        "Incomplete descaling — scale is still in the boiler, so the iron keeps signaling that it needs maintenance.",
+        "Not rinsed enough — descaler residue left in the boiler can keep the alert on or affect steam output.",
+        "Worn anti-scale cartridge or cassette — the built-in filter is saturated and no longer protects the iron.",
+      ],
+      "steps": [
+        "Unplug the iron, let it cool completely and never unscrew the boiler cap while it's hot or under pressure.",
+        "Reread the descaling instructions in the manual: approved product, dosage, soaking time and the recommended number of rinses.",
+        "Rinse the boiler several times with clean water, filling, swirling and emptying it until no residue comes out.",
+        "Repeat a full descale if water full of scale still drains out, then rinse again before you use the iron.",
+        "Reset the light as the manual describes, often by holding a button, and replace the anti-scale cartridge if your model has one.",
+      ],
+      "replaceWhen": "If the light stays on after careful descaling and a reset, or the boiler is heavily scaled, a repair is costly. On an older unit used with very hard water, replacing it is often the better choice.",
+    },
+    "ca": {
+      "intro": "A steam generator's anti-scale light often stays on after descaling because the maintenance counter was not reset, or because the boiler still holds scale or descaler residue. Rinse thoroughly, then follow the reset procedure in the manual.",
+      "causes": [
+        "Maintenance counter not reset — the reminder relies on a counter that stays lit until it is deliberately reset.",
+        "Incomplete descaling — scale remains in the boiler and the appliance keeps signalling that maintenance is needed.",
+        "Insufficient rinsing — descaler residue is left in the boiler and can keep the alert on or affect steam output.",
+        "Worn anti-scale cartridge or cassette — the built-in filter is saturated and no longer protects the unit.",
+      ],
+      "steps": [
+        "Unplug the unit, let it cool completely and never unscrew the boiler cap while it is hot or under pressure.",
+        "Re-read the manual's descaling procedure: approved product, dosage, soaking time and the recommended number of rinse cycles.",
+        "Rinse the boiler several times with clean water by filling, swirling and emptying it until no residue comes out.",
+        "Repeat a full descale if scale-laden water still drains out, then rinse again before putting the appliance back into use.",
+        "Reset the light as the manual describes, often by holding a button, and replace the anti-scale cartridge if your model has one.",
+      ],
+      "replaceWhen": "If the light stays on after careful descaling and a reset, or the boiler is heavily scaled, repair is costly. On an older unit used with very hard water, replacing it is often the better choice.",
     }
   },
   "nettoyeur-vapeur-ne-projette-plus": {
@@ -1101,6 +1509,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Odkamień myjkę dozwolonym środkiem zgodnie z instrukcją, dobrze przepłucz i, jeśli producent na to pozwala, używaj odtąd wody demineralizowanej.",
       ],
       "replaceWhen": "Jeśli para nie wraca mimo odkamienienia i sprawdzenia akcesoriów, prawdopodobnie uszkodzona jest pompa lub grzałka. W starszej lub mocno zakamienionej myjce taka naprawa często kosztuje więcej niż nowe urządzenie i nie zawsze jest bezpieczna.",
+    },
+    "sv": {
+      "intro": "När en ångtvätt inte ger någon ånga trots full tank beror det oftast på ett lock som inte är ordentligt låst, kalk som täpper till munstycket eller ångpannan, eller att den inte har fått värmas upp tillräckligt länge. Kontrollera de här enkla sakerna innan du misstänker pumpen eller värmeelementet.",
+      "causes": [
+        "Locket eller säkerhetsspärren är inte helt låst – trycket byggs inte upp, eller så hindrar säkerhetsspärren ångan från att komma ut.",
+        "Kalk i munstycket eller ångpannan – beläggningarna gör passagen för vatten och ånga allt smalare tills den täpps igen.",
+        "Uppvärmningen är inte klar eller ångan står på minimum – ångan kommer först när klarlampan lyser och reglaget står tillräckligt högt.",
+        "Slangen, tillbehöret eller avtryckaren är blockerad – ett veck, ett igensatt munstycke eller en aktiverad säkerhetsspärr stoppar ångan.",
+      ],
+      "steps": [
+        "Dra ut kontakten och låt ångtvätten svalna helt; öppna aldrig locket på ångpannan medan den är varm eller under tryck.",
+        "Kontrollera att tanken är rätt fylld, att locket är ordentligt låst och att vattennivån inte går över maxmarkeringen.",
+        "Sätt i kontakten igen, vänta tills klarlampan lyser, kontrollera ångreglaget och lossa sedan säkerhetsspärren på avtryckaren.",
+        "Ta av tillbehöret, kontrollera att slangen inte är vikt eller igentäppt och rensa munstyckena med en mjuk borste eller en tunn nål.",
+        "Avkalka enligt bruksanvisningen med det medel som får användas, skölj noga och använd avjoniserat vatten om tillverkaren tillåter det.",
+      ],
+      "replaceWhen": "Om ångan inte kommer tillbaka efter avkalkning och kontroll av tillbehören är pumpen eller värmeelementet troligen trasigt. På en äldre eller kraftigt förkalkad ångtvätt kostar sådana reparationer ofta mer än en ny, och de är inte alltid säkra.",
+    },
+    "us": {
+      "intro": "A steam cleaner that puts out no steam even with a full tank most often has a cap that isn't locked, scale blocking the nozzle or boiler, or hasn't had enough time to heat up. Check these simple things before you suspect the pump or heating element.",
+      "causes": [
+        "Cap or safety lock not fully engaged — pressure can't build, or the safety feature keeps steam from coming out.",
+        "Scale in the nozzle or boiler — buildup narrows the path for water and steam until it's blocked.",
+        "Not fully heated or steam set to minimum — steam only comes once the ready light is on and the dial is turned up high enough.",
+        "Hose, attachment or trigger blocked — a kink, a clogged nozzle or an engaged safety lock keeps the steam from getting through.",
+      ],
+      "steps": [
+        "Unplug the unit and let it cool completely; never open the boiler cap while it's hot or under pressure.",
+        "Make sure the tank is filled correctly, the cap is locked firmly and the water doesn't go above the max line.",
+        "Plug it back in, wait for the ready light, check the steam control dial, then release the trigger's safety lock.",
+        "Remove the attachment, make sure the hose isn't kinked or blocked, and clear the nozzles with a soft brush or a fine pin.",
+        "Descale following the manual with the approved product, rinse well, and use distilled water if the manufacturer allows it.",
+      ],
+      "replaceWhen": "If the steam doesn't come back after descaling and checking the accessories, a faulty pump or heating element is likely. On an older or heavily scaled unit, these repairs often cost more than a replacement and aren't always safe.",
+    },
+    "ca": {
+      "intro": "A steam cleaner that produces no steam despite a full tank most often has a badly locked cap, scale blocking the nozzle or boiler, or too short a heat-up. Check these simple points before suspecting the pump or heating element.",
+      "causes": [
+        "Cap or safety lock not fully engaged — pressure cannot build or the safety prevents steam from leaving.",
+        "Scale in the nozzle or boiler — deposits narrow the path for water and steam until it is blocked.",
+        "Heat-up unfinished or steam set to minimum — steam only appears once the ready light is on and the dial is set high enough.",
+        "Hose, attachment or trigger blocked — a kink, a clogged nozzle or an engaged safety lock stops the steam from getting through.",
+      ],
+      "steps": [
+        "Unplug the unit and let it cool completely; never open the boiler cap while it is hot or under pressure.",
+        "Check the tank is filled correctly, the cap is locked firmly and the water level does not exceed the maximum mark.",
+        "Plug in again, wait for the ready indicator, check the steam-flow dial, then release the trigger safety lock.",
+        "Remove the attachment, check the hose is not kinked or blocked, and clear the nozzles with a soft brush or a fine pin.",
+        "Descale following the manual with the approved product, rinse well, and use demineralized water if the manufacturer allows it.",
+      ],
+      "replaceWhen": "If steam does not return after descaling and checking the accessories, a faulty pump or heating element is likely. On an older or heavily scaled unit these repairs often cost more than a replacement and are not always safe.",
     }
   },
   "ventilateur-telecommande-perdue": {
@@ -1229,6 +1688,60 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "W modelu radiowym zamów pilot o dokładnie takim oznaczeniu, jakie podaje tabliczka znamionowa, a potem sparuj go zgodnie z instrukcją.",
       ],
       "replaceWhen": "Wymiana wentylatora ma sens tylko wtedy, gdy oryginalnego pilota nie da się już kupić, a urządzeniem nie można sterować ani przyciskami, ani z aplikacji, ani przez asystenta. W każdym innym przypadku zamienny pilot kosztuje znacznie mniej niż nowy wentylator.",
+    },
+    "sv": {
+      "intro": "Att tappa bort fjärrkontrollen till en smart fläkt är sällan något stort problem, eftersom de flesta modeller också går att styra med appen, knapparna på fläkten eller en röstassistent. Det snabbaste är att använda tillverkarens app och sedan beställa en ny fjärrkontroll om du fortfarande vill ha en.",
+      "causes": [
+        "Fjärrkontrollen har bara kommit bort – fläkten reagerar fortfarande på knapparna på foten eller huvudet, vilket visar att själva fläkten fungerar.",
+        "Urladdade eller borttagna batterier – fjärrkontrollen du har hittat gör ingenting och lampan på den förblir släckt när du trycker på en knapp.",
+        "Fläkten har aldrig kopplats till wifi – appen hittar den inte, eftersom bara IR- eller radiofjärrkontrollen har använts hittills.",
+        "Radiofjärrkontrollen har tappat parkopplingen – efter ett strömavbrott ignorerar fläkten fjärrkontrollen du har hittat tills den parkopplas igen.",
+      ],
+      "steps": [
+        "Leta först under kuddar, i lådor och runt fläkten, och prova sedan knapparna på fläkten för att se att den fungerar.",
+        "Dra ut kontakten, vänta tio sekunder och sätt i den igen, och följ sedan bruksanvisningen för att starta wifi-parkopplingen om din modell har wifi.",
+        "Installera tillverkarens app, skapa ett konto och lägg till fläkten på ett nätverk på 2,4 GHz; sedan kan du ställa in hastighet, svängfunktion och timer.",
+        "Om fläkten stöder det kan du koppla den till en röstassistent eller en smart plugg, så att du kan slå på och av den utan fjärrkontroll.",
+        "Använd en universalfjärrkontroll eller en smart IR-sändare om fläkten styrs med infrarött, och välj den kod som motsvarar märket.",
+        "Har du en modell med radiofjärrkontroll beställer du exakt den ersättningsfjärrkontroll som anges på typskylten och gör om parkopplingen enligt bruksanvisningen.",
+      ],
+      "replaceWhen": "Att byta ut fläkten är bara motiverat om originalfjärrkontrollen inte längre säljs och det inte går att styra fläkten med knappar, app eller röstassistent. Annars kostar en ny fjärrkontroll betydligt mindre än en ny fläkt.",
+    },
+    "us": {
+      "intro": "Losing the remote for a smart fan is rarely a real problem, because most models can also be controlled from the app, the buttons on the fan or a voice assistant. The quickest fix is to use the manufacturer's app, then order a replacement remote if you still want one.",
+      "causes": [
+        "Remote just misplaced — the fan still responds to the buttons on its base or head, which shows the fan itself works.",
+        "Dead or missing batteries — the remote you found does nothing and its indicator light stays off when you press a button.",
+        "Fan never connected to Wi-Fi — the app can't see it, because only the infrared or radio remote has ever been used.",
+        "Radio remote lost its pairing — after a power outage, the fan ignores the remote you found until it's paired again.",
+      ],
+      "steps": [
+        "Check under cushions, in drawers and around the fan first, then try the buttons on the fan to confirm that it works.",
+        "Unplug the fan, wait 10 seconds and plug it back in, then follow the manual to turn on Wi-Fi pairing if yours is a smart model.",
+        "Install the manufacturer's app, create an account and add the fan on a 2.4 GHz network; you can then set the speed, oscillation and timer.",
+        "If the fan supports it, link it to a voice assistant or a smart plug so you can turn it on and off without the remote.",
+        "Use a universal remote or a smart IR blaster if your fan uses infrared, and choose the code that matches the brand.",
+        "For a radio-controlled model, order the exact replacement remote listed on the rating label, then repeat the pairing steps in the manual.",
+      ],
+      "replaceWhen": "Replacing the fan only makes sense if the original remote is no longer sold and no button, app or voice assistant can control it. Otherwise, a spare remote costs far less than a new fan.",
+    },
+    "ca": {
+      "intro": "Losing the remote for a smart fan is rarely a real problem, because most models can also be controlled from the app, the buttons on the unit or a voice assistant. The quickest fix is to use the manufacturer's app, then order a replacement remote if you still want one.",
+      "causes": [
+        "Remote simply misplaced — the fan still responds to the buttons on its base or head, which confirms the appliance itself is working.",
+        "Dead or missing batteries — a remote you have found does nothing and its indicator light stays dark when you press a key.",
+        "Fan never paired with Wi-Fi — the app cannot see it, because only the infrared or radio remote had ever been used.",
+        "Radio remote lost its pairing — after a power outage the fan ignores the remote you found until it is paired again.",
+      ],
+      "steps": [
+        "Search under cushions, in drawers and around the fan first, then test the buttons on the unit to confirm that the fan itself works.",
+        "Unplug the fan, wait ten seconds and plug it back in, then follow the manual to switch on Wi-Fi pairing if your model is a smart one.",
+        "Install the manufacturer's app, create an account and add the fan on a 2.4 GHz network; you can then set speed, oscillation and timer.",
+        "If the fan is compatible, link it to a voice assistant or a smart plug so you can switch it on and off without the remote.",
+        "Use a universal remote or a smart infrared (IR) blaster if your fan works by infrared, and pick the code that matches the brand.",
+        "For a radio model, order the exact replacement remote shown on the rating label, then repeat the pairing procedure in the manual.",
+      ],
+      "replaceWhen": "Replacing the fan only makes sense if the original remote is no longer sold and no button, app or voice assistant can control it. Otherwise a spare remote costs far less than a new appliance.",
     }
   },
   "station-meteo-ecran-clignote": {
@@ -1364,6 +1877,63 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Zmniejsz jasność podświetlenia lub je wyłącz: jeśli miganie wtedy ustępuje, zasilanie jest zbyt słabe.",
       ],
       "replaceWhen": "Jeśli ekran nadal miga przy nowych bateriach, innym zasilaczu i po resecie, prawdopodobnie uszkodzony jest wyświetlacz lub płytka sterująca. W budżetowym modelu, do którego nie ma części zamiennych, wymiana zwykle ma więcej sensu niż naprawa.",
+    },
+    "sv": {
+      "intro": "En blinkande skärm på en smart väderstation beror nästan alltid på strömförsörjningen: svaga batterier i basstationen eller givaren, eller en nätadapter som inte passar. Börja med att sätta i nya batterier och prova ett annat uttag innan du misstänker själva skärmen.",
+      "causes": [
+        "Svaga batterier i basstationen – blinkandet blir värre när bakgrundsbelysningen tänds, särskilt om stationen bara går på batterier.",
+        "Trasig nätadapter eller fel spänning – skärmen flimrar då och då, även med nya batterier eller helt utan batterier.",
+        "Dålig kontakt i batterifacket – skärmen startar om när du rör vid eller flyttar basstationen.",
+        "Radiostörningar eller instabil signal från givaren – skärmen uppdateras om och om igen medan basstationen söker efter utegivaren.",
+        "Fel på skärmen eller kretskortet – blinkandet fortsätter trots rätt strömförsörjning och nya batterier.",
+      ],
+      "steps": [
+        "Ta ut batterierna ur basstationen och utegivaren, vänta en minut och sätt sedan i nya alkaliska batterier med plus och minus åt rätt håll.",
+        "Använder du nätadaptern ska du kontrollera att den har den spänning och ström som står på basstationen och prova ett annat uttag.",
+        "Torka av batterikontakterna med en torr trasa; byt en rostig eller böjd fjäder bara om den går att ta loss utan specialverktyg.",
+        "Flytta basstationen en bit från routrar, mikrovågsugnar och telefoner, och placera sedan utegivaren närmare för att se om blinkandet upphör.",
+        "Återställ stationen med resetknappen om den har en, och synkronisera sedan om givaren enligt bruksanvisningen med båda enheterna bredvid varandra.",
+        "Sänk eller stäng av bakgrundsbelysningen i inställningarna; är det den som utlöser blinkandet är strömförsörjningen för svag.",
+      ],
+      "replaceWhen": "Om skärmen fortsätter att blinka med nya batterier, en annan strömkälla och efter en återställning håller skärmen eller kretskortet troligen på att gå sönder. På en enklare modell utan tillgängliga reservdelar är det oftast klokare att byta ut den än att reparera den.",
+    },
+    "us": {
+      "intro": "A flickering weather station display is almost always a power problem: weak batteries in the console or sensor, or the wrong power adapter. Start with fresh batteries and a different outlet before you assume the screen itself is faulty.",
+      "causes": [
+        "Weak batteries in the console — the flicker gets worse when the backlight comes on, especially if the station runs on batteries alone.",
+        "Faulty or wrong-voltage power adapter — the screen flickers on and off even with new batteries or none at all.",
+        "Poor contact in the battery compartment — the display restarts when you touch or move the console.",
+        "Radio interference or an unstable sensor signal — the screen keeps refreshing while the console searches for the outdoor sensor.",
+        "Faulty display or circuit board — the flicker continues even with proper power and fresh batteries.",
+      ],
+      "steps": [
+        "Remove the batteries from the console and outdoor sensor, wait a minute, then put in fresh alkaline batteries with the polarity the right way around.",
+        "If you use the power adapter, make sure it matches the voltage and current printed on the console, and try a different outlet.",
+        "Wipe the battery contacts with a dry cloth; replace a rusty or bent spring only if it comes out without special tools.",
+        "Move the console away from routers, microwaves and phones, then bring the outdoor sensor closer to see whether the flicker stops.",
+        "Reset the station with its reset button if it has one, then re-sync the sensor as the manual describes, with both units side by side.",
+        "Dim or turn off the backlight in the settings; if that stops the flicker, the power supply is too weak.",
+      ],
+      "replaceWhen": "If the flicker continues with new batteries, a different power source and a reset, the display or circuit board is probably failing. On an entry-level station with no spare parts available, replacing it usually makes more sense than repairing it.",
+    },
+    "ca": {
+      "intro": "A flickering weather station display is almost always a power problem: weak batteries in the console or sensor, or an unsuitable power adapter. Start by putting in fresh batteries and trying another outlet before assuming the screen itself is faulty.",
+      "causes": [
+        "Weak batteries in the console — the flicker gets worse when the backlight comes on, especially if the station runs on batteries alone.",
+        "Faulty or wrong-voltage power adapter — the screen shimmers intermittently even with new batteries or none installed.",
+        "Poor contact in the battery compartment — the display restarts when you touch or move the console.",
+        "Radio interference or unstable sensor signal — the screen refreshes repeatedly while the console keeps searching for the outdoor sensor.",
+        "Faulty display or circuit board — the flicker continues despite correct power and fresh batteries.",
+      ],
+      "steps": [
+        "Remove the batteries from the console and outdoor sensor, wait a minute, then insert fresh alkaline batteries matching the polarity marks.",
+        "If you use the power adapter, check it matches the voltage and current printed on the console, and try a different outlet.",
+        "Wipe the battery contacts with a dry cloth; replace a rusty or bent spring only if it comes out without special tools.",
+        "Move the console away from routers, microwaves and phones, then place the outdoor sensor closer to see whether the flicker stops.",
+        "Reset the station with its reset button if it has one, then re-sync the sensor as the manual describes, with both units side by side.",
+        "Lower or switch off the backlight in the settings; if that is the trigger, the power supply is too weak.",
+      ],
+      "replaceWhen": "If the flicker persists with new batteries, another power source and a reset, the display or circuit board is probably failing. On an entry-level unit with no spare parts available, replacing it is usually more sensible than repairing it.",
     }
   },
   "laveur-rouleau-ne-tourne-plus": {
@@ -1499,6 +2069,63 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Jeśli wałek nadal stoi, sprawdź w instrukcji, które części eksploatacyjne możesz wymienić samodzielnie, a potem skontaktuj się z serwisem w ramach gwarancji.",
       ],
       "replaceWhen": "Jeśli czysty i prawidłowo założony wałek wciąż się nie obraca, winny jest prawdopodobnie silnik szczotki albo płytka sterująca. Przy starszym urządzeniu ze zużytym akumulatorem kosztowna naprawa raczej przemawia za zakupem nowego.",
+    },
+    "sv": {
+      "intro": "När valsen på en golvtvätt (våt- och torrdammsugare) slutar snurra är den vanligaste orsaken att något har fastnat: hår, trådar eller skräp som har lindats runt axeln. Stäng av golvtvätten och ta den ur laddstationen, ta ut valsen och rengör den innan du misstänker ett motorfel.",
+      "causes": [
+        "Hår och trådar lindade runt valsens ändar – valsen snurrar ryckigt och går tungt, och sedan stannar golvtvätten eller ger ifrån sig ett skrapande ljud.",
+        "Valsen sitter inte rätt – den greppar inte i drivningen och står still medan motorn surrar.",
+        "Ett främmande föremål har fastnat i borsthuset – en liten sak blockerar rotationen och valsen tar emot när du vrider den för hand.",
+        "Svagt batteri eller utlöst överhettningsskydd – rotationen avtar eller stannar efter intensiv användning och kommer tillbaka efter en paus.",
+        "Utsliten drivrem eller borstmotor – valsen går lätt att vrida för hand men drivs inte längre, trots att den är ren och rätt monterad.",
+      ],
+      "steps": [
+        "Stäng av golvtvätten, ta den ur laddstationen och ta ut valsen enligt bruksanvisningen, och vrid den sedan för hand för att känna efter om den kärvar någonstans.",
+        "Klipp av hår och trådar som har lindats runt ändarna med en sax och dra bort dem, utan att låta bladen komma åt valsens mjuka material.",
+        "Lys in i valsfacket och ändlocken med en ficklampa och ta bort skräp som har fastnat, med fingrarna eller en pincett.",
+        "Skölj valsen i ljummet vatten, låt den torka helt och sätt sedan tillbaka den, och kontrollera att den klickar fast i drivningen på motorsidan.",
+        "Ladda batteriet fullt, låt golvtvätten svalna en stund och kör sedan en kort rengöring för att se om valsen snurrar igen.",
+        "Står valsen fortfarande still, se efter i bruksanvisningen vilka slitdelar du kan byta själv, och kontakta sedan kundtjänst om golvtvätten har garanti kvar.",
+      ],
+      "replaceWhen": "Om en ren och rätt monterad vals fortfarande inte snurrar är det troligen borstmotorn eller kretskortet som är problemet. En dyr reparation på en äldre golvtvätt med ett trött batteri talar oftast för att byta ut den.",
+    },
+    "us": {
+      "intro": "When the roller on a wet-dry vacuum stops spinning, the most common cause is a mechanical jam from hair, thread or debris wrapped around the shaft. Turn the machine off and unplug it, then remove and clean the roller before you suspect a motor problem.",
+      "causes": [
+        "Hair and thread wrapped around the roller ends — the roller turns in jerks and strains, then the machine stops or makes a scraping noise.",
+        "Roller not seated properly — it doesn't engage the drive and stays still while the motor hums.",
+        "Foreign object stuck in the brush housing — a small item blocks rotation, and the roller resists when you turn it by hand.",
+        "Low battery or thermal protection tripped — the roller slows or stops after heavy use, then starts again after a rest.",
+        "Worn belt or brush motor — the roller turns freely by hand but is no longer driven, even when it's clean and correctly installed.",
+      ],
+      "steps": [
+        "Turn the machine off, take it off the dock and remove the roller as the manual shows, then turn it by hand to feel for any stiff spots.",
+        "Snip the hair and thread wrapped around the ends with scissors and pull it away, keeping the blades clear of the soft roller material.",
+        "Shine a flashlight into the roller compartment and end caps, and remove any trapped debris by hand or with tweezers.",
+        "Rinse the roller in lukewarm water, let it dry completely, then put it back, making sure it clicks onto the drive on the motor side.",
+        "Fully charge the battery, let the machine cool for a while, then do a short cleaning run to see whether the roller spins again.",
+        "If it still won't spin, check the manual for user-replaceable wear parts, then contact customer support if the machine is under warranty.",
+      ],
+      "replaceWhen": "If a clean, correctly installed roller still won't turn, the brush motor or circuit board is probably at fault. A costly repair on an older machine with a tired battery usually points toward replacement.",
+    },
+    "ca": {
+      "intro": "When the roller on a wet dry vacuum stops spinning, the most common cause is a mechanical jam from hair, thread or debris wound around the shaft. Switch off and unplug the machine, remove the roller and clean it before suspecting a motor fault.",
+      "causes": [
+        "Hair and thread wound around the roller ends — the roller turns in jerks, strains, then the machine stops or makes a scraping noise.",
+        "Roller not seated properly — it fails to engage the drive and stays still while the motor hums.",
+        "Foreign object trapped in the brush housing — a small item blocks rotation and the roller resists when turned by hand.",
+        "Low battery or thermal protection tripped — spinning weakens or stops after heavy use, then returns after a rest.",
+        "Worn belt or brush motor — the roller turns freely by hand but is no longer driven, even when clean and correctly installed.",
+      ],
+      "steps": [
+        "Switch the machine off, take it off the dock and remove the roller as the manual shows, then turn it by hand to feel for any stiff spot.",
+        "Snip the hair and thread wound around the ends with scissors and pull it away, keeping blades clear of the soft roller material.",
+        "Look into the roller bay and end caps with a flashlight, and remove any trapped debris by hand or with tweezers.",
+        "Rinse the roller in lukewarm water, let it dry completely, then put it back, checking it clicks onto the drive on the motor side.",
+        "Recharge the battery fully, let the machine cool for a while, then run a short clean to see whether the roller spins again.",
+        "If it still will not spin, check the manual for user-replaceable wear parts, then contact after-sales support if the machine is under warranty.",
+      ],
+      "replaceWhen": "If a clean, correctly installed roller still does not turn, the brush motor or circuit board is probably at fault. A costly repair on an older machine with a tired battery usually points toward replacement.",
     }
   },
   "diffuseur-ne-vaporise-plus": {
@@ -1634,6 +2261,63 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Używaj wody demineralizowanej lub filtrowanej i czyść dyfuzor co kilka użyć, żeby kamień nie wracał.",
       ],
       "replaceWhen": "Jeśli mimo starannego czyszczenia mgiełka nie wraca, a płytka jest pęknięta, poczerniała albo elektronika nie reaguje, naprawa rzadko jest możliwa. Takie urządzenia są niedrogie, więc zwykle rozsądniej kupić nowe.",
+    },
+    "sv": {
+      "intro": "En doftspridare som har slutat ge dimma är oftast igensatt: ultraljudsplattan är täckt av kalk eller oljerester. En rengöring med utspädd ättika och lite sprit, följd av en ordentlig sköljning, löser de flesta fall.",
+      "causes": [
+        "Förkalkad eller oljig ultraljudsplatta – lampan och pumpen fungerar, men det kommer lite eller ingen dimma.",
+        "För lite eller för mycket vatten – skyddet mot låg vattennivå stänger av dimman, eller så hindrar överfyllningen plattan från att vibrera ordentligt.",
+        "För mycket eterisk olja eller en tjock olja – en kladdig hinna dämpar plattans vibrationer.",
+        "Mycket hårt vatten – vita beläggningar bildas snabbt på plattan och i dimutloppet.",
+        "Fel på strömförsörjningen eller kretsen – ingen lampa och inget ljud alls, eller så tänds lampan men det blir aldrig någon dimma, inte ens efter rengöring.",
+      ],
+      "steps": [
+        "Dra ut kontakten, häll ut vattnet som är kvar och låt doftspridaren torka några minuter innan du hanterar den.",
+        "Fyll den till hälften med vatten och lite ättika, låt det stå i tio minuter utan att slå på den, och töm och skölj sedan noga.",
+        "Torka försiktigt av ultraljudsplattan med en bomullspinne fuktad med ättika eller sprit, utan att repa eller trycka hårt.",
+        "Skölj med rent vatten, torka av dimutloppet och fyll sedan på så mycket vatten som anges mellan min- och maxmarkeringarna.",
+        "Tillsätt bara några droppar eterisk olja av god kvalitet, slå på doftspridaren och se om det kommer dimma inom en minut.",
+        "Använd destillerat eller filtrerat vatten och rengör doftspridaren efter några användningar, så att kalken inte kommer tillbaka.",
+      ],
+      "replaceWhen": "Om dimman inte kommer tillbaka efter en noggrann rengöring och plattan är sprucken eller svartnad, eller om kretsen inte reagerar, går det sällan att reparera. Eftersom doftspridare inte kostar så mycket är det oftast klokare att byta ut den.",
+    },
+    "us": {
+      "intro": "An essential oil diffuser that has stopped misting is usually clogged: the ultrasonic plate is coated with mineral scale or oil residue. Cleaning it with diluted white vinegar and a little rubbing alcohol, then rinsing thoroughly, solves most cases.",
+      "causes": [
+        "Ultrasonic plate scaled up or coated in oil — the light and pump work, but little or no mist comes out.",
+        "Water level too low or too high — the low-water shutoff stops the mist, or overfilling keeps the plate from vibrating properly.",
+        "Too much essential oil or a thick oil — a sticky film dampens the plate's vibration.",
+        "Very hard water — white mineral deposits build up quickly on the plate and in the mist outlet.",
+        "Power or circuit fault — no light or sound at all, or the light comes on but no mist ever forms, even after cleaning.",
+      ],
+      "steps": [
+        "Unplug the diffuser, empty any remaining water and let it dry for a few minutes before you handle it.",
+        "Fill it halfway with water and a little white vinegar, leave it for 10 minutes without turning it on, then empty it and rinse thoroughly.",
+        "Gently wipe the ultrasonic plate with a cotton swab dipped in white vinegar or rubbing alcohol, without scratching it or pressing hard.",
+        "Rinse with clean water, wipe the mist outlet, then refill with water to a level between the min and max lines.",
+        "Add just a few drops of good-quality essential oil, turn it on and see whether mist appears within a minute.",
+        "Use distilled or filtered water and clean the diffuser every few uses to keep scale from coming back.",
+      ],
+      "replaceWhen": "If the mist doesn't come back after a careful cleaning and the plate is cracked or blackened, or the circuit doesn't respond, repair is rarely possible. Diffusers are inexpensive, so replacing one is usually the more sensible choice.",
+    },
+    "ca": {
+      "intro": "An essential-oil diffuser that has stopped misting is usually clogged: the ultrasonic plate is coated with mineral scale or oil residue. A clean with diluted white vinegar and a little alcohol, followed by a thorough rinse, solves most cases.",
+      "causes": [
+        "Ultrasonic plate scaled up or coated in oil — the light and pump work, but little or no mist comes out.",
+        "Water level too low or too high — the low-water safety cuts the mist, or an overfill keeps the plate from vibrating properly.",
+        "Too much essential oil or a thick oil — a sticky film dampens the vibration of the plate.",
+        "Very hard water — white deposits build up quickly on the plate and in the mist outlet.",
+        "Power or circuit fault — no light or sound at all, or the light comes on but no mist ever forms even after cleaning.",
+      ],
+      "steps": [
+        "Unplug the diffuser, empty any remaining water and let it dry for a few minutes before you handle it.",
+        "Fill halfway with water and a little white vinegar, leave for ten minutes without switching on, then empty and rinse thoroughly.",
+        "Gently wipe the ultrasonic plate with a cotton swab soaked in white vinegar or alcohol, without scratching or pressing hard.",
+        "Rinse with clean water, wipe the mist outlet, then refill with the amount of water shown between the min and max marks.",
+        "Add only a few drops of good-quality essential oil, switch on and check whether mist appears within a minute.",
+        "Use distilled or filtered water and clean the unit after a few uses to keep mineral buildup from coming back.",
+      ],
+      "replaceWhen": "If the mist does not return after a careful clean and the plate is cracked or blackened, or the circuit does not respond, repair is rarely possible. These units are inexpensive, so replacing is usually the more sensible choice.",
     }
   },
   "climatiseur-mobile-fuite-eau": {
@@ -1769,6 +2453,63 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Włącz klimatyzator na krótszy czas i obserwuj podłogę; jeśli woda znów się pojawi, zanotuj, skąd wypływa, zanim skontaktujesz się z serwisem.",
       ],
       "replaceWhen": "Jeśli woda wypływa gdzieś ze środka, choć zbiornik, wąż, filtr i ustawienie urządzenia są w porządku, prawdopodobnie nieszczelny jest układ chłodniczy lub jego lutowania, a tego nie naprawisz w domu. Przy starszym klimatyzatorze wymiana zwykle wychodzi taniej niż wizyta technika.",
+    },
+    "sv": {
+      "intro": "En portabel AC som läcker vatten står oftast fel, eller har en full vattentank eller en dåligt ansluten dräneringsslang. Stäng av den, dra ut kontakten och kontrollera lutningen, tanken och slangen innan du letar efter något annat.",
+      "causes": [
+        "Full vattentank – vattnet svämmar över vid foten, särskilt när det är fuktigt ute, och AC:n kan visa ett meddelande om full tank.",
+        "AC:n lutar eller står på ett ojämnt golv – vattnet samlas åt ena sidan och rinner utanför uppsamlingsområdet.",
+        "Dräneringsslangen är vikt, igentäppt eller sitter löst – vattnet blir stående i slangen och droppar sedan vid kopplingen eller under AC:n.",
+        "Smutsigt filter eller blockerat luftintag – förångaren isar igen och tinar sedan, vilket ger mer vatten än tanken klarar av.",
+        "Avtappningspluggen eller packningen har satts tillbaka fel – ett jämnt läckage syns i botten av höljet efter att du har tömt AC:n för hand.",
+      ],
+      "steps": [
+        "Stäng av AC:n, dra ut kontakten och torka upp vattnet på golvet så att ingen halkar och inget vatten kommer nära stickkontakten.",
+        "Ställ AC:n upprätt på ett plant golv med fritt utrymme runt om, och kontrollera att den inte har legat på sidan under transporten.",
+        "Töm vattentanken via avtappningspluggen med ett kärl under, och sätt sedan tillbaka pluggen och packningen ordentligt.",
+        "Kontrollera dräneringsslangen: inga veck, jämnt fall nedåt hela vägen, en ordentligt intryckt koppling och ett utlopp till ett lämpligt avlopp.",
+        "Tvätta filtret i ljummet vatten, låt det torka, sätt tillbaka det och ta bort damm från luftintagen.",
+        "Kör AC:n en kortare stund och håll koll på golvet; kommer vattnet tillbaka, notera var det kommer ifrån innan du kontaktar kundtjänst.",
+      ],
+      "replaceWhen": "Om vattnet kommer från en punkt inuti AC:n trots att tank, slang, filter och placering är i ordning är det troligen fel på kretsen eller en lödfog, och det går inte att åtgärda hemma. På en äldre AC är det oftast billigare att byta ut den än att ta hit en tekniker.",
+    },
+    "us": {
+      "intro": "A portable air conditioner that leaks water is usually not level, has a full condensate tank or has a poorly connected drain hose. Turn it off, unplug it and make sure it's level, then check the tank and the drain hose before you look for anything else.",
+      "causes": [
+        "Full condensate tank — water overflows at the base, especially in humid weather, and the unit may show a tank-full alert.",
+        "Unit tilted or on an uneven floor — water collects on one side and runs outside the collection area.",
+        "Drain hose kinked, clogged or loosely attached — water sits in the hose, then drips at the connector or from the bottom of the unit.",
+        "Dirty filter or blocked intake grille — the evaporator coil ices up and then thaws, producing more water than the tank can handle.",
+        "Drain plug or seal put back incorrectly — a steady leak appears at the bottom of the housing after manual draining.",
+      ],
+      "steps": [
+        "Turn the unit off, unplug it and wipe up the floor so no one slips and no water is near the plug.",
+        "Stand the unit upright on a level floor with clear space around it, and make sure it wasn't laid on its side during transport.",
+        "Empty the condensate tank through the drain plug with a container underneath, then put the plug and its seal back correctly.",
+        "Check the drain hose: no kinks, a steady downward slope, a connector pushed on firmly and an outlet that leads to a suitable drain.",
+        "Wash the filter in lukewarm water, let it dry, put it back and clear the dust from the intake grilles.",
+        "Run the unit for a short time and watch the floor; if water comes back, note where it's coming from before you contact customer support.",
+      ],
+      "replaceWhen": "If water comes from inside the unit while the tank, hose, filter and setup are all correct, an internal circuit or seal fault is likely and can't be fixed at home. On an older unit, replacing it usually costs less than a service call.",
+    },
+    "ca": {
+      "intro": "A portable air conditioner that leaks water is usually badly positioned, or has a full condensate tank or a poorly connected drain hose. Switch it off, unplug it and check its tilt, the tank and the hose before looking for anything else.",
+      "causes": [
+        "Condensate tank full — water overflows at the base, particularly in humid weather, and the unit may show a tank-full message.",
+        "Unit tilted or standing on an uneven floor — water collects to one side and runs outside the collection area.",
+        "Drain hose kinked, blocked or loosely attached — water stays in the hose and then drips at the connector or the bottom of the unit.",
+        "Dirty filter or blocked intake grille — the evaporator ices up then thaws, producing more water than the tank can handle.",
+        "Drain plug or seal not put back properly — a steady leak appears at the bottom of the casing after manual draining.",
+      ],
+      "steps": [
+        "Switch the unit off, unplug it and mop up the floor so there is no slipping risk or water near the plug.",
+        "Stand the unit upright on a level floor with clear space around it, and make sure it was not laid on its side during transport.",
+        "Empty the condensate tank through the drain plug with a container underneath, then put the plug and its seal back correctly.",
+        "Check the drain hose: no kinks, a continuous downward slope, a firmly pushed-on connector and an outlet leading to a suitable drain.",
+        "Wash the filter in lukewarm water, let it dry, put it back and clear dust from the intake grilles.",
+        "Run the unit for a short time and watch the floor; if water returns, note where it comes from before contacting support.",
+      ],
+      "replaceWhen": "If water comes from an internal point while the tank, hose, filter and setup are all correct, a circuit or joint fault is likely and cannot be fixed at home. On an older unit, replacing it is usually cheaper than a technician's service call.",
     }
   },
   "lave-vaisselle-code-erreur-e15": {
@@ -1904,6 +2645,63 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Jeśli E15 wraca lub wyciek nie ustępuje, nie odkręcaj zaworu, zostaw zmywarkę odłączoną od prądu i wezwij technika albo skontaktuj się z serwisem.",
       ],
       "replaceWhen": "Jeśli wanna ociekowa znowu napełnia się wodą, choć uszczelki i złączki są całe, przecieka któraś z wewnętrznych części, a jej wymiana bywa kosztowna. W przypadku starszej zmywarki zakup nowej często wychodzi korzystniej niż naprawa.",
+    },
+    "sv": {
+      "intro": "På många diskmaskiner betyder felkod E15 att läckageskyddet har löst ut: det har upptäckts vatten i bottentråget och vattentillförseln har stängts av. Kontrollera i bruksanvisningen att det stämmer för din modell, och leta sedan reda på var läckan kommer ifrån innan du startar maskinen igen.",
+      "causes": [
+        "Vatten i bottentråget efter en läcka – säkerhetsflottören stänger av vattentillförseln och maskinen vägrar starta.",
+        "För mycket lödder eller spolglans – löddret svämmar över ner i bottentråget och utlöser läckageskyddet.",
+        "Lucktätningen eller en spolarm släpper ut vatten – det syns vattenspår runt luckan eller under maskinen.",
+        "Tilloppsslangen eller en koppling droppar – det syns fukt på baksidan eller vid vattenkranen.",
+        "Bottensensorn eller flottören har fastnat – koden står kvar trots att tråget är torrt, även efter rengöring och torkning.",
+      ],
+      "steps": [
+        "Stäng av diskmaskinen, dra ut kontakten och stäng vattenkranen; kontrollera i bruksanvisningen vad E15 betyder på din modell.",
+        "Ta ut disken och korgarna, sug upp vattnet i botten av diskutrymmet med en svamp och kontrollera sedan spolarmarna och filtret.",
+        "Om du kan göra det på ett säkert sätt, luta maskinen försiktigt enligt bruksanvisningen för att tömma bottentråget, eller låt den torka över natten.",
+        "Kontrollera lucktätningen, tilloppsslangen och dess kopplingar efter fukt; dra bara åt synliga kopplingar för hand.",
+        "Använd mindre diskmedel, undvik vanligt handdiskmedel och kör sedan ett kort program utan disk för att se om koden kommer tillbaka.",
+        "Om E15 kommer tillbaka eller läckan fortsätter ska du låta vattenkranen vara stängd och kontakten urdragen och ringa en tekniker eller tillverkarens kundtjänst.",
+      ],
+      "replaceWhen": "Om bottentråget fylls igen trots att tätningar och kopplingar är hela kommer läckan från en inre del som kan vara dyr att byta. För en äldre diskmaskin lönar det sig ofta mer att köpa en ny än att betala för reparationen.",
+    },
+    "us": {
+      "intro": "On many dishwashers, error code E15 means the leak-protection system has tripped: water has been detected in the base pan and the water inlet is shut off. Check your manual to confirm, then find the source of the leak before you restart it.",
+      "causes": [
+        "Water in the base pan after a leak — the safety float shuts off the water inlet and the dishwasher won't start.",
+        "Too much foam or rinse aid — suds overflow into the base and trigger leak detection.",
+        "Door seal or spray arm letting water out — water marks show up around the door or under the dishwasher.",
+        "Dripping inlet hose or connector — you'll see moisture at the back or at the water supply valve.",
+        "Stuck base sensor or float — the code stays on even though the pan is dry, even after cleaning and drying.",
+      ],
+      "steps": [
+        "Turn off the dishwasher, unplug it or switch off its circuit breaker and shut off the water supply valve; check the manual to confirm what E15 means on your model.",
+        "Take out the dishes and racks, soak up any water in the tub with a sponge, then check the spray arms and the filter.",
+        "If you can do it safely, tilt the dishwasher gently as the manual allows to drain the base pan, or let it dry overnight.",
+        "Check the door seal, the inlet hose and its connectors for moisture; tighten visible connectors by hand only.",
+        "Use less detergent, never use regular dish soap, then run a short empty cycle and watch whether the code comes back.",
+        "If E15 comes back or the leak continues, keep the water off and the power disconnected, and call a technician or the manufacturer's support line.",
+      ],
+      "replaceWhen": "If the base pan fills again even though the seals and connectors are intact, the leak comes from an internal part that can be expensive to replace. On an older dishwasher, replacing it often beats paying for the repair.",
+    },
+    "ca": {
+      "intro": "On many dishwashers, error code E15 commonly means the leak-protection system has tripped: water has been detected in the base tray and the water inlet is shut off. Check your manual to confirm this, then find the source of the leak before restarting.",
+      "causes": [
+        "Water in the base tray after a leak — the safety float shuts off the inlet and the machine refuses to start.",
+        "Too much foam or rinse aid — suds overflow into the base and trigger the leak detection.",
+        "Door seal or spray arm letting water out — water marks appear around the door or under the machine.",
+        "Dripping inlet hose or connector — dampness is visible at the back or at the water supply valve.",
+        "Stuck base sensor or float — the code stays on although the tray is dry, even after cleaning and drying.",
+      ],
+      "steps": [
+        "Switch the dishwasher off, unplug it and turn off the water supply; check the manual to confirm what E15 means on your model.",
+        "Remove the dishes and racks, soak up any water in the tub with a sponge, then check the spray arms and the filter.",
+        "If you can do it safely, tilt the machine gently as the manual allows to drain the base tray, or leave it to dry overnight.",
+        "Check the door seal, the inlet hose and its connectors for damp; tighten visible connectors by hand only.",
+        "Use less detergent, avoid regular dish soap, then run a short empty cycle and watch whether the code returns.",
+        "If E15 returns or the leak persists, keep the water supply off and the machine unplugged and call a technician or the manufacturer's support.",
+      ],
+      "replaceWhen": "If the base tray fills again even though seals and connectors are intact, the leak comes from an internal part that can be costly to replace. On an older dishwasher, replacing it often beats the cost of repair.",
     }
   },
   "laveur-reservoir-eau-fuit": {
@@ -2039,6 +2837,63 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Jeśli uszczelka jest uszkodzona albo zbiornik pęknięty, zamów oryginalną część; nie klej zbiornika na wodę w urządzeniu elektrycznym.",
       ],
       "replaceWhen": "Jeśli zbiornik jest pęknięty, a części nie ma już w sprzedaży, albo woda dostała się do stacji lub w okolice elektroniki, dalsze używanie urządzenia staje się ryzykowne. Wtedy bezpieczniej wymienić cały zestaw, niż naprawiać go prowizorycznie.",
+    },
+    "sv": {
+      "intro": "När rentvattentanken läcker under laddningen beror det oftast på en sliten eller felplacerad packning eller kork, eller på en sprucken tank. Ta bort tanken från laddstationen, torka allt och kontrollera packningarna och om det finns sprickor innan du laddar igen.",
+      "causes": [
+        "Sliten, förskjuten eller smutsig packning i korken eller ventilen – vattnet sipprar ut vid korken eller utloppsventilen.",
+        "Tanken sitter inte helt fast i laddstationen – vattnet rinner ut genom kopplingen i stället för att gå till borsten.",
+        "Sprucken eller skev tank – vattnet läcker längs en tunn linje, ofta efter en stöt eller för att vattnet var för varmt.",
+        "Överfylld tank eller tank fylld med ett skummande medel – tryck och skum pressar ut vatten genom ventilationshålen.",
+        "Utloppsventilen är blockerad av kalk eller rester – den stänger inte helt längre och droppar även när apparaten står stilla.",
+      ],
+      "steps": [
+        "Stäng av apparaten, dra ut laddstationens kontakt och torka upp vattnet runt de elektriska kontakterna innan du gör något annat.",
+        "Ta ut tanken, töm den helt och torka den; ställ inte tillbaka apparaten i laddstationen förrän kontakterna och stationen är torra.",
+        "Granska packningen i korken och ventilen, torka av dem med en mjuk trasa och tryck tillbaka dem plant i sina säten.",
+        "Håll tanken mot ljuset och leta efter sprickor, och prova den sedan fylld över diskhon utan att luta den.",
+        "Fyll bara med kallt eller ljummet vatten upp till maxmarkeringen, och använd inget annat skummande medel än det som tillverkaren rekommenderar.",
+        "Är packningen skadad eller tanken sprucken, beställ originaldelen; använd aldrig lim på vattentanken till en elektrisk apparat.",
+      ],
+      "replaceWhen": "Om tanken är sprucken och reservdelen inte längre säljs, eller om vatten har kommit in i laddstationen eller elektroniken, är apparaten inte längre säker att använda. Då är det klokare att byta ut hela apparaten än att lappa ihop den.",
+    },
+    "us": {
+      "intro": "A clean water tank that leaks while the machine is charging usually comes down to a worn or out-of-place seal or cap, or a cracked tank. Take the tank off the dock, dry everything and check the seals and look for cracks before charging again.",
+      "causes": [
+        "Worn, shifted or dirty cap or valve seal — water seeps out around the cap or the outlet valve.",
+        "Tank not fully seated on the dock — water runs out through the connector instead of feeding the brush.",
+        "Cracked or warped tank — water leaks along a fine line, often after a knock or from using water that was too hot.",
+        "Tank overfilled or filled with a foaming cleaner — pressure and suds push water out through the vent holes.",
+        "Outlet valve clogged with mineral scale or residue — it no longer closes fully and drips even when the machine isn't in use.",
+      ],
+      "steps": [
+        "Turn the machine off, unplug the charging dock and wipe up any water around the electrical contacts before you do anything else.",
+        "Remove the tank, empty it completely and dry it; only put the machine back on the dock once the contacts and the dock are dry.",
+        "Inspect the cap and valve seal, wipe them with a soft cloth and press them back flat into their seat.",
+        "Hold the tank up to the light to look for cracks, then test it filled over a sink without tilting it.",
+        "Fill it with cold or lukewarm water only, up to the max line, and use no foaming product other than the one the manufacturer recommends.",
+        "If the seal is damaged or the tank is cracked, order the original part; don't use glue on the water tank of an electrical appliance.",
+      ],
+      "replaceWhen": "If the tank is cracked and the part is no longer sold, or water has gotten into the dock or the electronics, the machine is no longer safe to use. Replacing the whole unit is then smarter than a makeshift repair.",
+    },
+    "ca": {
+      "intro": "A clean water tank that leaks while the machine is charging is most often caused by a worn or misplaced seal or cap, or a cracked tank. Take the tank off the dock, dry everything and check the seals and any cracks before charging again.",
+      "causes": [
+        "Worn, shifted or dirty cap or valve seal — water seeps from the cap or the outlet valve.",
+        "Tank not clicked fully onto the dock — water runs out through the connector instead of feeding the brush.",
+        "Cracked or warped tank — water leaks along a fine line, often after a knock or from using water that was too hot.",
+        "Tank overfilled or filled with a foaming product — pressure and suds force water out through the vent holes.",
+        "Outlet valve blocked by limescale or residue — it no longer closes fully and drips even when idle.",
+      ],
+      "steps": [
+        "Switch the machine off, unplug the charging dock and mop up water around the electrical contacts before doing anything else.",
+        "Remove the tank, empty it completely and dry it; only put the machine back on the dock once the contacts and dock are dry.",
+        "Examine the cap and valve seal, wipe them with a soft cloth and press them back flat into their seat.",
+        "Hold the tank up to the light to look for cracks, then test it filled over a sink without tilting it.",
+        "Fill with cold or lukewarm water only, up to the maximum mark, and no foaming product other than the one the manufacturer recommends.",
+        "If the seal is damaged or the tank cracked, order the original part; do not use glue on the water tank of an electrical appliance.",
+      ],
+      "replaceWhen": "If the tank is cracked and the part is no longer sold, or water has gotten into the dock or electronics area, the machine becomes unsafe to use. Replacing the whole unit is then wiser than a makeshift repair.",
     }
   },
   "laveur-vitres-tombe": {
@@ -2174,6 +3029,63 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Uszkodzoną uszczelkę wymień na oryginalną; dopóki ssanie nie działa niezawodnie, nie myj robotem zewnętrznej strony okien na wyższych piętrach.",
       ],
       "replaceWhen": "Jeśli mimo nowej uszczelki, czystego robota i naładowanego akumulatora ssanie pozostaje słabe, uszkodzona jest pompa lub akumulator, a ryzyko upadku jest realne. Bezpieczniej wtedy wymienić robota, niż dalej z niego korzystać.",
+    },
+    "sv": {
+      "intro": "En fönsterputsrobot som tappar greppet har oftast tappat sugkraft: en smutsig ruta eller undersida, en sliten tätning, ett svagt batteri till pumpen eller en luftläcka. Använd den aldrig utan att säkerhetslinan är fäst, och ta bort den från rutan så fort sugkraftslarmet ljuder.",
+      "causes": [
+        "Smutsig ruta eller undersida – damm och fett hindrar tätningskanten från att suga fast, och sugkraften sjunker snabbt.",
+        "Sliten eller skev sugtätning – luft läcker in vid kanterna och roboten piper regelbundet som varning.",
+        "Svagt reservbatteri eller pumpbatteri – efter ett strömavbrott eller en otillräcklig laddning minskar sugkraften gradvis.",
+        "Karm, fönsterlist eller strukturerad yta – roboten kör över en kant, tappar tätningen och glider eller fastnar.",
+        "Genomblöt duk eller halt rengöringsmedel – ytan blir hal och roboten slirar i stället för att greppa.",
+      ],
+      "steps": [
+        "Fäst alltid säkerhetslinan i en stadig punkt inomhus innan du sätter upp roboten, och kör den aldrig utan lina.",
+        "Ladda roboten och dess reservenhet fullt, och kontrollera att sugkraften startar innan du släpper roboten på rutan.",
+        "Rengör rutan först och torka av undersidan och sugtätningen med en fuktig, luddfri trasa, och torka dem sedan torra.",
+        "Byt putsduken så fort den är genomblöt eller smutsig, och använd inte för mycket rengöringsmedel, eftersom det gör rutan hal.",
+        "Ta bort roboten från rutan så fort den piper eller tappar sugkraft, och luta dig aldrig ut genom ett högt beläget fönster för att hämta den.",
+        "Är tätningen skadad, sätt i originaldelen, och använd inte roboten på utsidan av fönster högt upp förrän sugkraften är pålitlig.",
+      ],
+      "replaceWhen": "Om sugkraften förblir svag med ny tätning, ren robot och laddat batteri håller pumpen eller batteriet på att ge upp, och risken att roboten faller är verklig. Det är säkrare att byta ut den än att fortsätta använda den.",
+    },
+    "us": {
+      "intro": "A window cleaning robot that loses its grip has usually lost suction: dirty glass or a dirty base, a worn seal, a weak backup or pump battery, or an air leak. Never use it without its safety rope attached, and take it off the glass as soon as the suction alarm sounds.",
+      "causes": [
+        "Dirty glass or base — dust and grease keep the sealing edge from gripping, and suction drops fast.",
+        "Worn or warped suction seal — air escapes at the edges and the robot beeps a regular warning.",
+        "Weak backup or pump battery — after a power outage or an incomplete charge, suction fades gradually.",
+        "Window frame, seal or textured glass — the robot rides over a ridge, loses the seal, then slips or stalls.",
+        "Soaked pad or slippery cleaning solution — the surface turns slick and the robot skids instead of gripping.",
+      ],
+      "steps": [
+        "Always tie the safety rope to a solid anchor point indoors before placing the robot, and never run it without the rope.",
+        "Fully charge the robot and its backup battery, then check that suction starts before you let go of it on the glass.",
+        "Clean the glass first and wipe the base and suction seal with a damp lint-free cloth, then dry them.",
+        "Swap in a fresh cleaning pad as soon as it's soaked or dirty, and don't overdo the cleaner, which makes the glass slippery.",
+        "Take the robot off the glass as soon as it beeps or loses suction, and never lean out of an upper-story window to retrieve it.",
+        "If the seal is damaged, install the original replacement part, and don't use the robot on upper-story exterior windows until suction is reliable.",
+      ],
+      "replaceWhen": "If suction stays weak with a new seal, a clean robot and a charged battery, the pump or battery is failing and the risk of a fall is real. Replacing the robot is safer than continuing to use it.",
+    },
+    "ca": {
+      "intro": "A window-cleaning robot that loses grip has usually lost suction: a dirty pane or base, a worn seal, a weak pump battery or an air leak. Never use it without its safety rope attached, and take it off the glass as soon as the suction alarm sounds.",
+      "causes": [
+        "Dirty pane or base — dust and grease keep the sealing edge from gripping, and suction drops quickly.",
+        "Worn or warped suction seal — air escapes at the edges and the unit gives a regular warning beep.",
+        "Weak backup or pump battery — after a power outage or an incomplete charge, suction fades gradually.",
+        "Frame, window seal or textured surface — the robot rides over a ridge, loses the seal, then slips or stalls.",
+        "Saturated cloth or slippery cleaning fluid — the surface becomes slick and the robot skids instead of gripping.",
+      ],
+      "steps": [
+        "Always tie the safety rope to a solid anchor point indoors before placing the robot, and never run it without the rope.",
+        "Fully charge the robot and its backup unit, then check the suction starts up before you let it go on the glass.",
+        "Clean the glass first and wipe the base and suction seal with a damp lint-free cloth, then dry them.",
+        "Replace the cleaning cloth as soon as it is saturated or dirty, and avoid too much cleaner, which makes the glass slippery.",
+        "Take the robot off the glass as soon as it beeps or loses suction, and never lean out of a high window to retrieve it.",
+        "If the seal is damaged, install the original part, and do not use the robot on high-level outside glass until suction is reliable.",
+      ],
+      "replaceWhen": "If suction stays weak with a new seal, a clean unit and a charged battery, the pump or battery is failing and the risk of a fall is real. It is safer to replace the appliance than to keep using it.",
     }
   },
   "laveur-vitres-trace-centrale": {
@@ -2295,6 +3207,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Uruchom drugi cykl w trybie mycia na krzyż, a potem przetrzyj bieżnik gąsienicy i uszczelkę ssącą wilgotnym wacikiem.",
       ],
       "replaceWhen": "Jeśli ściereczka jest zużyta, a smuga nie znika mimo dokładnego czyszczenia, wymień ściereczkę, a nie robota. Robota wymień dopiero wtedy, gdy siła ssania trwale słabnie albo gąsienica się ślizga, bo naprawa często kosztuje więcej niż nowe urządzenie.",
+    },
+    "sv": {
+      "intro": "En rand mitt på rutan beror nästan alltid på en smutsig putsduk eller på smuts som samlas längs robotens mittlinje. Roboten drar dammet inåt och smetar sedan ut det varje gång den åker fram och tillbaka, i stället för att föra det ut mot kanterna.",
+      "causes": [
+        "Putsduken är full av smuts – den torkar sämre mitt under roboten, där trycket är som störst, och lämnar ett mörkt band efter sig.",
+        "Putsduken sitter löst eller har veckat sig – ett veck lämnar en skarp linje som återkommer på exakt samma ställe varje gång roboten passerar.",
+        "Mycket dammig ruta från början – roboten samlar smutsen i en sträng i mitten och kör över den gång på gång utan att kunna ta upp den.",
+        "För lite rengöringsmedel – duken torkar ut halvvägs och gnider runt smutsen i stället för att lösa upp den.",
+      ],
+      "steps": [
+        "Stäng av roboten och dra ut kontakten, ta av putsduken och handtvätta den i ljummet tvålvatten utan sköljmedel, och låt den torka helt innan du använder den igen.",
+        "Kontrollera att duken är sträckt och slät över hela bredden, enligt monteringsbilden i bruksanvisningen.",
+        "Torka först av fönstrets kanter och karm med en fuktig trasa, så att roboten inte drar in damm och grus mot mitten.",
+        "Spraya det rengöringsmedel som tillverkaren rekommenderar jämnt över duken eller rutan, utan att dränka den, så att roboten fortfarande greppar ordentligt.",
+        "Kör en andra omgång i korsmönster, och rengör sedan drivbanden och sugtätningen med en fuktig bomullspinne.",
+      ],
+      "replaceWhen": "Om duken är utsliten och randen sitter kvar efter en grundlig rengöring är det duken som behöver bytas, inte roboten. Byt ut roboten bara om sugkraften fortsätter att försämras eller drivbanden slirar, eftersom en reparation oftast kostar mer än en ny robot.",
+    },
+    "us": {
+      "intro": "A streak down the middle of the glass is almost always caused by a dirty cleaning pad or grime collecting along the robot's center line. The robot drags dust inward, then smears it back and forth on every pass instead of pushing it out to the edges.",
+      "causes": [
+        "Pad saturated with dirt — it wipes poorly at the robot's center, where pressure is highest, and leaves a dark band behind.",
+        "Pad attached loosely or creased — a fold leaves a sharp line that repeats in exactly the same spot on every pass.",
+        "Very dusty glass to start with — the robot gathers the dirt into a ridge down the middle and keeps running over it without picking it up.",
+        "Too little cleaning solution — the pad dries out mid-run and pushes the dirt around instead of dissolving it.",
+      ],
+      "steps": [
+        "Turn off and unplug the robot, remove the pad and hand-wash it in warm, soapy water without fabric softener, then let it dry completely before reusing it.",
+        "Make sure the pad is stretched tight and flat across its full width, following the diagram in the manual.",
+        "Wipe the edges and frame of the window with a damp cloth first, so the robot doesn't carry dust and grit into the middle.",
+        "Spray the manufacturer's recommended cleaner evenly over the pad or glass without soaking it, so the robot can still grip properly.",
+        "Run a second cycle in the crisscross cleaning pattern, then clean the drive tracks and the suction seal with a damp cotton swab.",
+      ],
+      "replaceWhen": "If the pad is worn out and the streak is still there after a thorough cleaning, it's the pad that needs replacing, not the robot. Only replace the robot if suction keeps weakening or the tracks slip, because a repair usually costs more than buying a new one.",
+    },
+    "ca": {
+      "intro": "A streak down the middle of the glass is almost always caused by a dirty cleaning pad or by grime collecting along the robot's centre line. The robot drags dust inward and then smears it back and forth on every pass instead of pushing it out to the edges.",
+      "causes": [
+        "Pad saturated with dirt — it wipes poorly at the robot's centre, where pressure is highest, and leaves a dark band behind.",
+        "Pad attached loosely or creased — a fold leaves a sharp line that repeats in exactly the same spot on every pass.",
+        "Very dusty glass to begin with — the robot gathers the dirt into a central ridge and keeps running over it without absorbing it.",
+        "Too little cleaning liquid — the pad dries out mid-run and rubs the dirt around instead of dissolving it.",
+      ],
+      "steps": [
+        "Switch off and unplug the robot, remove the pad and hand-wash it in warm soapy water without fabric softener, then let it dry fully before reuse.",
+        "Check the pad is stretched tight and flat across its full width, following the diagram in the manual.",
+        "Wipe the edges and frame of the window with a damp cloth first, so dust and grit are not carried into the middle by the robot.",
+        "Spray the manufacturer's recommended cleaner evenly over the pad or glass, without soaking it, so the robot can still grip properly.",
+        "Run a second cycle in the criss-cross cleaning pattern, then clean the drive track and the suction seal with a damp cotton swab.",
+      ],
+      "replaceWhen": "If the pad is worn out and the streak stays after a thorough clean, the pad needs replacing, not the robot. Only replace the robot if suction keeps weakening or the tracks slip, because a repair usually costs more than buying a new one.",
     }
   },
   "ne-chauffe-plus": {
@@ -2416,6 +3379,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Jeśli wentylator pracuje, ale powietrze wciąż jest zimne, na tym poprzestań: nie otwieraj obudowy, tylko skontaktuj się z serwisem lub zgłoś usterkę w ramach gwarancji.",
       ],
       "replaceWhen": "Jeśli winna jest grzałka lub bezpiecznik termiczny, a frytkownica nie ma już gwarancji, naprawa zwykle się nie opłaca w porównaniu z zakupem nowej. Wymień ją także wtedy, gdy przewód jest uszkodzony, obudowa nienaturalnie się nagrzała albo czuć zapach spalenizny.",
+    },
+    "sv": {
+      "intro": "En airfryer som inte blir varm längre har oftast ett problem med strömförsörjningen, en korg som inte sitter i ordentligt eller ett överhettningsskydd som har löst ut. Om fläkten går men luften förblir kall är det oftast värmeelementet eller dess termosäkring som är boven.",
+      "causes": [
+        "Korgen sitter inte i helt – en säkerhetsbrytare stänger av värmen tills lådan är helt inskjuten.",
+        "Trasigt uttag eller trasig förlängningssladd – apparaten startar knappt eller inte alls i ett slitet eller överbelastat grenuttag.",
+        "Överhettningsskyddet har löst ut – efter överhettning på grund av fettbeläggningar eller igensatta ventilationshål stänger termosäkringen av värmen.",
+        "Trasigt värmeelement eller trasig temperaturgivare – fläkten snurrar och displayen tänds, men luften förblir sval eller bara ljummen.",
+      ],
+      "steps": [
+        "Dra ut kontakten, låt apparaten svalna och sätt sedan i den direkt i ett vägguttag som du har kontrollerat med en annan apparat, utan förlängningssladd.",
+        "Ta ut lådan och skjut in den ordentligt igen tills det klickar, och kontrollera att inga smulor blockerar stängningsbrytaren.",
+        "Rengör botten av lådan, gallret och ventilationshålen, eftersom fettbeläggningar kan få överhettningsskyddet att lösa ut.",
+        "Låt apparaten vara urkopplad i en timme så att skydden hinner återställas, och kör sedan ett tomt program på 180 °C i tio minuter.",
+        "Om fläkten går men luften förblir kall ska du sluta där: öppna inte höljet, utan kontakta butiken eller tillverkaren om garantin.",
+      ],
+      "replaceWhen": "Om värmeelementet eller termosäkringen har gått sönder och garantin har gått ut är reparationen ofta inte värd pengarna jämfört med en ny modell. Byt också ut den om sladden är skadad, höljet blir onormalt varmt eller du känner en bränd lukt.",
+    },
+    "us": {
+      "intro": "An air fryer that stops heating usually has a power problem, a basket that isn't latched or a tripped thermal cutoff. If the fan runs but the air stays cold, the heating element or its thermal fuse is the most likely culprit.",
+      "causes": [
+        "Basket not fully latched — a safety switch cuts the heat until the drawer is pushed all the way in.",
+        "Faulty outlet or extension cord — the air fryer barely powers on, or not at all, on a worn or overloaded power strip.",
+        "Thermal cutoff tripped — after overheating caused by grease buildup or blocked vents, the safety fuse shuts off the heat.",
+        "Failed heating element or temperature sensor — the fan spins and the display lights up, but the air stays cool or only lukewarm.",
+      ],
+      "steps": [
+        "Unplug the air fryer, let it cool, then plug it straight into a wall outlet you've checked with another appliance, with no extension cord.",
+        "Take the drawer out and slide it back in firmly until it clicks, making sure no crumbs are jamming the closing switch.",
+        "Clean the bottom of the drawer, the crisper plate and the air vents, because built-up grease can trip the thermal protection.",
+        "Leave the air fryer unplugged for an hour so any protection can reset, then run it empty at 350°F (180°C) for 10 minutes.",
+        "If the fan runs but the air stays cold, stop there: don't open the housing, and contact the retailer or manufacturer about the warranty.",
+      ],
+      "replaceWhen": "If the heating element or thermal fuse has failed and the air fryer is out of warranty, the repair often costs more than a new model. Replace it too if the cord is damaged, the housing gets abnormally hot or you notice a burning smell.",
+    },
+    "ca": {
+      "intro": "An air fryer that stops heating usually has a power supply problem, a basket that isn't latched, or a tripped thermal cut-out. If the fan runs but the air stays cold, the heating element or its thermal fuse is the most likely culprit.",
+      "causes": [
+        "Basket not fully latched — a safety switch cuts the heating until the drawer is pushed all the way in.",
+        "Faulty outlet or extension cord — the unit barely powers up, or not at all, on a worn or overloaded power bar.",
+        "Thermal cut-out tripped — after overheating caused by grease buildup or blocked vents, the safety fuse switches the heating off.",
+        "Failed heating element or temperature sensor — the fan spins and the display lights up, but the air stays cool or only lukewarm.",
+      ],
+      "steps": [
+        "Unplug the unit, let it cool, then plug it straight into a wall outlet you have tested with another appliance, without an extension cord.",
+        "Take the drawer out and slide it back in firmly until it clicks, checking that no crumbs are jamming the closing switch.",
+        "Clean the bottom of the drawer, the rack and the air vents, because built-up grease can trip the thermal protection.",
+        "Leave the unit unplugged for an hour so any protection can reset, then run an empty cycle at 180°C (350°F) for ten minutes.",
+        "If the fan runs but the air stays cold, stop there: do not open the casing, and contact the retailer or manufacturer about the warranty.",
+      ],
+      "replaceWhen": "If the element or thermal fuse has failed and the fryer is out of warranty, the repair cost often outweighs the value of a new model. Replace it too if the cable is damaged, the housing overheats abnormally, or you notice a burning smell.",
     }
   },
   "nettoyeur-vapeur-crachotement": {
@@ -2537,6 +3551,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Rozwiń cały wąż, nie używaj mokrych końcówek i zmniejsz moc pary, jeśli urządzenie ma regulację.",
       ],
       "replaceWhen": "Jeśli woda znowu pryska tuż po prawidłowym odkamienieniu, kocioł lub zawór są prawdopodobnie uszkodzone. W starszym urządzeniu wymiana części często kosztuje prawie tyle co nowy model, który będzie przy tym bezpieczniejszy.",
+    },
+    "sv": {
+      "intro": "En ångtvätt som spottar vatten ger egentligen fuktig ånga, dvs. vattnet kondenserar innan det lämnar munstycket. De vanligaste orsakerna är att ångtvätten inte har värmts upp helt, att tanken är överfylld eller att kalk stör uppvärmningen.",
+      "causes": [
+        "Den används innan den har nått full temperatur – ångan är ännu inte torr, så det kommer vattendroppar ur munstycket.",
+        "Tanken är fylld över maxmarkeringen – vatten följer med ångan i stället för att stanna i ångpannan.",
+        "Kalk i ångpannan eller munstycket – den försämrar uppvärmningen och gör öppningen smalare, så att ångtvätten spottar ojämnt.",
+        "Lång eller kall slang, eller blött tillbehör – ångan kondenserar på vägen och kommer ut som vatten.",
+      ],
+      "steps": [
+        "Dra ut kontakten och låt ångtvätten svalna helt innan du fyller på; skruva aldrig av locket medan den är varm eller under tryck.",
+        "Fyll bara upp till maxmarkeringen med den typ av vatten som anges i bruksanvisningen, och vänta sedan tills klarlampan lyser.",
+        "Rikta de första sekundernas ånga mot en trasa för att få ut kondensvattnet innan du börjar rengöra ytan.",
+        "Avkalka ångpannan och munstycket enligt metoden i bruksanvisningen, med det medel och de sköljtider som anges där.",
+        "Rulla ut slangen helt, undvik blöta tillbehör och sänk ångnivån om din modell har ett reglage för det.",
+      ],
+      "replaceWhen": "Om ångtvätten börjar spotta vatten igen direkt efter en ordentlig avkalkning är ångpannan eller ventilen troligen skadad. På en äldre ångtvätt kostar reservdelarna ofta nästan lika mycket som en ny modell, som dessutom är säkrare.",
+    },
+    "us": {
+      "intro": "A steam cleaner that spits water is really producing wet steam: the water condenses before it leaves the nozzle. The most common causes are a unit that hasn't fully heated up, an overfilled tank or scale buildup that disrupts heating.",
+      "causes": [
+        "Used before it reaches full temperature — the steam isn't dry yet, so drops of water come out of the nozzle.",
+        "Tank filled past the max line — water gets carried out with the steam instead of staying in the boiler.",
+        "Scale in the boiler or nozzle — it reduces heating and narrows the outlet, causing uneven spitting.",
+        "Long or cold hose, or a wet attachment — steam condenses on the way and comes out as water.",
+      ],
+      "steps": [
+        "Unplug the unit and let it cool completely before refilling; never unscrew the cap while it's hot or under pressure.",
+        "Fill only to the max line, using the type of water the manual specifies, then wait for the ready light.",
+        "Point the first few seconds of steam at a cloth to clear condensed water before you clean the surface.",
+        "Descale the boiler and nozzle using the method in the manual, sticking to the approved product and rinse times.",
+        "Uncoil the hose fully, avoid wet attachments and switch to a lower steam setting if your model has one.",
+      ],
+      "replaceWhen": "If the spitting returns right after a proper descale, the boiler or valve is probably damaged. On an older unit, replacement parts often cost nearly as much as a new model, which would also be safer.",
+    },
+    "ca": {
+      "intro": "A steam cleaner that spits water is really producing wet steam, meaning the water condenses before it leaves the nozzle. The most common causes are an appliance that has not fully heated, an overfilled tank, or limescale that disrupts the heating.",
+      "causes": [
+        "Used before it reaches full temperature — the steam is not yet dry, so droplets of water come out of the nozzle.",
+        "Tank filled above the maximum — water is carried out with the steam instead of staying in the boiler.",
+        "Limescale in the boiler or nozzle — it reduces heating and narrows the outlet, causing uneven spitting.",
+        "Long or cold hose, or wet attachment — steam condenses on the way and arrives as water.",
+      ],
+      "steps": [
+        "Unplug the unit and let it cool completely before refilling; never unscrew the cap while it is hot or under pressure.",
+        "Fill only to the maximum mark, using the type of water the manual specifies, then wait for the ready-to-use light.",
+        "Aim the first few seconds of steam at a cloth to clear condensed water before cleaning the surface you want.",
+        "Descale the boiler and nozzle using the method in the manual, sticking to the approved product and rinse times.",
+        "Unroll the hose fully, avoid wet attachments, and drop to a lower steam setting if your model has one.",
+      ],
+      "replaceWhen": "If water spitting returns straight after a proper descale, the boiler or valve is probably damaged. On an older unit, replacement parts often cost nearly as much as a new model, which would also be safer.",
     }
   },
   "humidificateur-odeur": {
@@ -2658,6 +3723,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Opróżniaj i osuszaj nawilżacz codziennie oraz przed każdą dłuższą przerwą w używaniu, a raz w tygodniu dokładnie go myj.",
       ],
       "replaceWhen": "Jeśli mimo regularnego czyszczenia zapach szybko wraca albo pleśń wżarła się w miejsca, do których nie sięgniesz, urządzenie trudno będzie skutecznie zdezynfekować. Wymień je również wtedy, gdy zbiornik jest pęknięty lub głęboko porysowany.",
+    },
+    "sv": {
+      "intro": "En luftfuktare som luktar illa har nästan alltid stillastående vatten i sig, där bakterier, mögel och kalkavlagringar växer till. En tank som har fått stå full, ett igensatt filter eller för sällan rengöring räcker för att sprida en unken lukt i rummet.",
+      "causes": [
+        "Stillastående vatten i tanken – får det stå i flera dagar bildas en slemmig hinna och en instängd eller unken lukt.",
+        "Mögel eller biofilm på insidan – syns som rosa eller svarta fläckar, eller som en hal beläggning som du känner med fingret.",
+        "Kalk på foten eller på den del som bildar dimman – kalken binder föroreningar och ger ifrån sig en stickande lukt när apparaten värmer eller bildar dimma.",
+        "Mättat filter eller mättad veke – ett utslitet filter, eller ett som aldrig får torka, håller kvar fukten och avger en ihållande lukt.",
+      ],
+      "steps": [
+        "Dra ut kontakten, töm tanken och foten helt, och fyll från och med nu bara på med friskt vatten precis innan du använder luftfuktaren.",
+        "Rengör tanken och foten med utspädd ättika om bruksanvisningen tillåter det, och skrubba försiktigt med en mjuk borste.",
+        "Skölj ordentligt med rent vatten tills ättikslukten är helt borta, och låt sedan alla delar lufttorka innan du sätter ihop dem igen.",
+        "Byt filtret eller veken så ofta som anges, och kör aldrig luftfuktaren utan filter om modellen är gjord för att ha ett.",
+        "Töm och torka luftfuktaren varje dag eller innan den ska stå oanvänd en tid, och gör en grundlig rengöring en gång i veckan.",
+      ],
+      "replaceWhen": "Om lukten snabbt kommer tillbaka trots regelbunden rengöring, eller om möglet har satt sig på ställen som du inte kommer åt, är det svårt att hålla luftfuktaren hygienisk. Byt också ut den om tanken är sprucken eller har djupa repor.",
+    },
+    "us": {
+      "intro": "A smelly humidifier almost always has stagnant water inside, where bacteria, mold and mineral deposits build up. A tank left full, a clogged filter or infrequent cleaning is enough to fill the room with a musty smell.",
+      "causes": [
+        "Stagnant water in the tank — left for several days, it forms a slimy film and a stale or musty smell.",
+        "Mold or biofilm on the walls — you'll spot pink or black marks, or feel a slippery coating with your finger.",
+        "Mineral scale on the base or mist element — it traps impurities and gives off a sharp smell when heating or misting.",
+        "Saturated filter or wick — a worn filter, or one that never dries out, holds moisture and releases a lingering odor.",
+      ],
+      "steps": [
+        "Unplug the humidifier, empty the tank and base completely and, from now on, fill it only with fresh water right when you use it.",
+        "Clean the tank and base with a diluted white vinegar solution if the manual allows it, scrubbing gently with a soft brush.",
+        "Rinse thoroughly with clean water until the vinegar smell is gone, then let every part air-dry before reassembling.",
+        "Replace the filter or wick at the recommended interval, and never run the humidifier without a filter if the model is designed to use one.",
+        "Empty and dry the humidifier every day, or before you put it away, and give it a deep cleaning once a week.",
+      ],
+      "replaceWhen": "If the smell comes back quickly despite regular cleaning, or mold is ingrained in spots you can't reach, the humidifier is hard to keep clean. Replace it too if the tank is cracked or deeply scratched.",
+    },
+    "ca": {
+      "intro": "A smelly humidifier almost always has stagnant water in it, where bacteria, mould and limescale deposits build up. A tank left full, a clogged filter or infrequent cleaning is enough to spread a musty smell through the room.",
+      "causes": [
+        "Stagnant water in the tank — left for several days, it forms a slimy film and a stale or musty smell.",
+        "Mould or biofilm on the walls — spotted as pink or black marks, or as a slippery coating you can feel with a finger.",
+        "Limescale on the base or mist element — it traps impurities and gives off a sharp smell during heating or misting.",
+        "Saturated filter or wick — a worn filter, or one that never dries, holds moisture and releases a persistent odour.",
+      ],
+      "steps": [
+        "Unplug the unit, empty the tank and base completely, and from now on fill only with fresh water at the moment you use it.",
+        "Clean the tank and base with a diluted white vinegar solution if the manual allows it, scrubbing gently with a soft brush.",
+        "Rinse thoroughly with clean water until the vinegar smell has gone, then let every part air-dry before reassembling.",
+        "Replace the filter or wick at the interval stated, and never run the unit without a filter if the model is designed to use one.",
+        "Empty and dry the humidifier every day or before any period of non-use, and give it a deep clean once a week.",
+      ],
+      "replaceWhen": "If the smell comes back quickly despite regular cleaning, or mould is ingrained in places you cannot reach, the unit is hard to keep hygienic. Replace it too if the tank is cracked or deeply scratched.",
     }
   },
   "laveur-vitres-traces": {
@@ -2779,6 +3895,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Umyj czystą wodą gąsienice napędowe i uszczelkę ssącą oraz sprawdź, czy ściereczka jest dobrze naciągnięta na mocowaniu.",
       ],
       "replaceWhen": "Jeśli smugi zostają nawet przy nowej ściereczce i odpowiednim płynie, sprawdź siłę ssania i stan uszczelki. Gdy robot trwale traci moc albo ma odkształconą uszczelkę, naprawa przestaje się opłacać i lepiej go wymienić.",
+    },
+    "sv": {
+      "intro": "En fönsterputsrobot som lämnar ränder har nästan alltid en smutsig eller sliten putsduk, eller fel mängd rengöringsmedel. Ränderna uppstår när smutsen bara flyttas runt och vattnet torkar för snabbt, särskilt på varmt glas eller glas med mycket kalkfläckar.",
+      "causes": [
+        "Smutsig eller sliten duk – den håller inte längre kvar smutsen utan lägger tillbaka den i tunna linjer varje gång roboten passerar.",
+        "För mycket vatten eller rengöringsmedel – överskottet rinner ner, torkar i droppar och lämnar ringar eller rinnmärken längst ner på rutan.",
+        "Rutan står i direkt solljus – vätskan torkar innan den hinner torkas bort och lämnar vita ränder av kalk eller tvål.",
+        "Mycket smutsig ruta eller en fet hinna – en omgång räcker inte, och smutsen smetas ut utan att tas upp.",
+      ],
+      "steps": [
+        "Ta av duken, handtvätta den i ljummet tvålvatten utan sköljmedel, skölj den väl och låt den torka innan du sätter tillbaka den.",
+        "Torka först av karmen och kanterna med en fuktig trasa, så att roboten inte smetar ut damm och grus över rutan.",
+        "Putsa fönstren i skuggan eller en mulen dag, och spraya en måttlig mängd av det rengöringsmedel som tillverkaren rekommenderar.",
+        "Är rutan mycket smutsig eller fet, kör först en omgång med lite rengöringsmedel och sedan en till med en ren duk.",
+        "Skölj drivbanden och sugtätningen med rent vatten, och kontrollera att duken sitter sträckt i sina fästen.",
+      ],
+      "replaceWhen": "Om ränderna finns kvar med en ny duk och ett lämpligt rengöringsmedel ska du kontrollera sugkraften och tätningens skick. En robot som har tappat sugkraft för gott eller har en skev tätning är sällan värd att reparera och bör hellre bytas ut.",
+    },
+    "us": {
+      "intro": "A window cleaning robot that leaves streaks nearly always has a dirty or worn pad, or is using the wrong amount of cleaning solution. Streaks appear when dirt just gets moved around and the water dries too fast, especially on warm glass or glass with hard-water stains.",
+      "causes": [
+        "Dirty or worn pad — it no longer holds on to grime and redeposits it as fine lines on every pass.",
+        "Too much water or cleaner — the excess runs down, dries in drops and leaves rings or drips along the bottom of the glass.",
+        "Glass in direct sun — the solution dries before it's wiped and leaves white streaks of mineral scale or soap.",
+        "Very dirty glass or a greasy film — one pass isn't enough, and the dirt gets spread around instead of picked up.",
+      ],
+      "steps": [
+        "Remove the pad, hand-wash it in warm, soapy water without fabric softener, rinse it well and let it dry before putting it back.",
+        "Wipe the frame and sills with a damp cloth first, so the robot doesn't smear dust and grit across the glass.",
+        "Clean windows in the shade or on a cloudy day, and spray a moderate amount of the manufacturer's recommended cleaner.",
+        "For very dirty or greasy glass, run a first cycle with little cleaner, then a second with a clean pad.",
+        "Rinse the drive tracks and suction seal with clean water, and check that the pad is held taut by its fasteners.",
+      ],
+      "replaceWhen": "If streaks persist with a new pad and a suitable cleaner, check the suction and the condition of the seal. A robot that keeps losing power or has a warped seal is rarely worth repairing and is better replaced.",
+    },
+    "ca": {
+      "intro": "A window-cleaning robot that leaves streaks nearly always has a dirty or worn pad, or the wrong amount of cleaning liquid. Streaks appear when dirt is just moved around and the water dries too fast, especially on warm or very hard-water-stained glass.",
+      "causes": [
+        "Dirty or worn pad — it no longer holds onto grime and redeposits it as fine lines on every pass.",
+        "Too much water or cleaner — the excess runs down, dries in drops and leaves rings or runs along the bottom of the glass.",
+        "Glass in direct sun — the liquid dries before it is wiped and leaves white streaks of limescale or soap.",
+        "Very dirty glass or a greasy film — one pass is not enough and the dirt is spread out without being absorbed.",
+      ],
+      "steps": [
+        "Remove the pad, hand-wash it in warm soapy water without fabric softener, rinse it well and let it dry before putting it back on.",
+        "Wipe the frame and ledges with a damp cloth first, so the robot does not smear dust and grit across the glass.",
+        "Clean windows in the shade or on an overcast day, and spray a moderate amount of the manufacturer's recommended cleaner.",
+        "For very dirty or greasy glass, do a first cycle with little cleaner, then a second with a clean pad.",
+        "Rinse the drive track and suction seal with clear water, and check that the pad is held taut by its fasteners.",
+      ],
+      "replaceWhen": "If streaks persist with a new pad and a suitable cleaner, check the suction and the condition of the seal. A robot that keeps losing power or has a warped seal is rarely worth repairing and is better replaced.",
     }
   },
   "deshumidificateur-bruit-compresseur": {
@@ -2900,6 +4067,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Po wyłączeniu odczekaj trzy minuty przed ponownym włączeniem. Jeśli hałas nie ustępuje, nie rozbieraj układu chłodniczego, tylko skontaktuj się z serwisem.",
       ],
       "replaceWhen": "Jeśli hałas nie ustępuje mimo wypoziomowania, wyczyszczenia i rozmrożenia urządzenia, a do tego spada wydajność lub osuszacz co chwilę się wyłącza, sprężarka prawdopodobnie dobiega końca żywotności. Po upływie gwarancji jej wymiana kosztuje prawie tyle co nowe urządzenie.",
+    },
+    "sv": {
+      "intro": "När en avfuktare har börjat låta mycket beror det oftare på att den står ostadigt, på ett igensatt filter eller på is på förångaren än på en kompressor som verkligen håller på att gå sönder. Ett metalliskt skrammel eller ett brummande som blir allt värre med tiden bör ändå kontrolleras noggrannare.",
+      "causes": [
+        "Avfuktaren står inte plant eller står på ett hårt golv – kompressorns vibrationer fortplantar sig i golvet och förstärker ljudet.",
+        "Igensatt luftfilter eller smutsig fläkt – luften flödar dåligt, motorn får jobba hårdare och brummandet blir högre.",
+        "Is på förångaren eller en vattentank som inte sitter rätt – delar skaver, klickar eller tar emot vid varje omstart.",
+        "Slitna fästen eller sliten kompressor – ljudet blir dovt, gällt eller bankande, särskilt efter några års användning.",
+      ],
+      "steps": [
+        "Dra ut kontakten, kontrollera att avfuktaren står plant och ställ den på en gummimatta eller en vibrationsdämpande matta.",
+        "Ta ut och tvätta luftfiltret i ljummet vatten, och dammsug sedan gallren och baksidan med ett mjukt borstmunstycke.",
+        "Töm vattentanken, sätt tillbaka den ordentligt tills det klickar och kontrollera att ingen panel eller lucka har lossnat.",
+        "Ser du is, stäng av avfuktaren och låt den tina i rumstemperatur, och starta den sedan i ett varmare rum.",
+        "Vänta tre minuter efter varje stopp innan du slår på den igen, och fortsätter ljudet ska du inte öppna kylkretsen: kontakta tillverkarens kundtjänst.",
+      ],
+      "replaceWhen": "Om ljudet finns kvar efter att du har ställt avfuktaren plant, rengjort och avfrostat den, och den samtidigt avfuktar sämre eller stänger av sig gång på gång, är kompressorn troligen i slutet av sin livslängd. Utan garanti kostar ett kompressorbyte nästan lika mycket som en ny avfuktare.",
+    },
+    "us": {
+      "intro": "A dehumidifier that has gotten noisy is more likely to have an unsteady base, a clogged filter or frost on the coil than a failing compressor. A metallic rattle or a hum that keeps getting louder over time, however, deserves a closer look.",
+      "causes": [
+        "Unit not level or sitting on a hard floor — compressor vibrations travel into the floor and amplify the noise.",
+        "Clogged air filter or dirty fan — air flows poorly, the motor strains and the hum gets louder.",
+        "Frost on the coil or bucket not seated — parts rub, click or strain every time it restarts.",
+        "Worn mounts or compressor — the sound turns dull, shrill or knocking, especially after several years of use.",
+      ],
+      "steps": [
+        "Unplug the dehumidifier, make sure it stands level and set it on a rubber mat or anti-vibration pad.",
+        "Remove and wash the air filter in lukewarm water, then dust the grilles and the back with a vacuum and a soft brush.",
+        "Empty the bucket, push it back in firmly until it clicks and make sure no panel or cover has worked loose.",
+        "If you see frost, turn it off and let it defrost at room temperature, then restart it in a warmer room.",
+        "After any stop, wait 3 minutes before turning it back on, and if the noise continues, don't open the refrigerant circuit: contact the manufacturer.",
+      ],
+      "replaceWhen": "If the noise remains after leveling, cleaning and defrosting, and comes with weaker performance or repeated shutdowns, the compressor is probably near the end of its life. Out of warranty, replacing the compressor costs nearly as much as a new dehumidifier.",
+    },
+    "ca": {
+      "intro": "A dehumidifier that has become noisy more often has an unstable stand, a clogged filter or frost on the coil than a genuinely failing compressor. A metallic rattle or a drone that keeps getting worse over time, however, deserves a closer check.",
+      "causes": [
+        "Unit not level or standing on a hard floor — the compressor's vibrations travel into the floor and amplify the noise.",
+        "Blocked air filter or dirty fan — air flows poorly, the motor strains and the drone gets louder.",
+        "Frost on the coil or reservoir not seated — parts rub, click or strain on every restart.",
+        "Worn mounts or compressor — the sound becomes dull, shrill or knocking, especially after several years of use.",
+      ],
+      "steps": [
+        "Unplug the unit, check it stands flat and place it on a rubber mat or anti-vibration pad.",
+        "Remove and wash the air filter in lukewarm water, then dust the grilles and the back with a vacuum and soft brush.",
+        "Empty the reservoir, put it back firmly until it clicks and make sure no panel or cover has worked loose.",
+        "If frost is visible, switch off and let it defrost at room temperature, then restart it in a warmer room.",
+        "After any stop, wait three minutes before switching on again, and if the noise continues, do not open the cooling circuit: contact the manufacturer.",
+      ],
+      "replaceWhen": "If the noise remains after levelling, cleaning and defrosting, and comes with weaker performance or repeated shutdowns, the compressor is probably near the end of its life. Out of warranty, replacing it costs nearly as much as a new unit.",
     }
   },
   "fer-semelle-accroche": {
@@ -3021,6 +4239,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Ustaw temperaturę podaną na metce ubrania, a delikatne tkaniny prasuj przez ściereczkę.",
       ],
       "replaceWhen": "Jeśli stopa jest głęboko porysowana, łuszczy się lub jest odkształcona, czyszczenie nie przywróci jej poślizgu, a żelazko będzie niszczyć Twoje ubrania. Stare żelazko z uszkodzoną stopą lepiej wymienić niż naprawiać.",
+    },
+    "sv": {
+      "intro": "En stryksula som fastnar i tyget är oftast smutsig av stärkelse, kalk eller smälta syntetfibrer. Ytan glider då inte längre, och för hög temperatur eller en repig stryksula gör saken värre.",
+      "causes": [
+        "Rester av stärkelse, strykspray eller kalk – de bränns fast på stryksulan och bildar ett strävt lager som tar emot.",
+        "Smälta syntetfibrer – ett för varmt drag över polyester eller nylon lämnar en kladdig, knappt synlig hinna.",
+        "Ånghål igensatta av kalk – vattnet droppar ojämnt, lämnar fläckar och gör att stryksulan glider sämre.",
+        "Repig eller flagnande beläggning – ett fall eller en dragkedja ger ojämnheter som fastnar i tyget.",
+      ],
+      "steps": [
+        "Dra ut kontakten, låt strykjärnet svalna helt och torka sedan av stryksulan med en mjuk, fuktig trasa och en droppe diskmedel.",
+        "Sitter beläggningen kvar kan du stryka på en mild pasta av bikarbonat och vatten om bruksanvisningen tillåter det, och torka av utan att skrapa metallen.",
+        "Använd aldrig stålull, rakblad eller skurmedel, som repar beläggningen och gör att stryksulan fastnar ännu mer.",
+        "Töm vattentanken och kör den avkalknings- eller självrengöringsfunktion som beskrivs i bruksanvisningen för att rensa ånghålen.",
+        "Stryk på den temperatur som anges på plaggets tvättrådsetikett och använd en pressduk på ömtåliga tyger.",
+      ],
+      "replaceWhen": "Om stryksulan har djupa repor, flagnar eller är skev kommer rengöring inte att få den att glida igen, och strykjärnet riskerar att förstöra dina kläder. Ett äldre strykjärn med skadad stryksula är bättre att byta ut än att reparera.",
+    },
+    "us": {
+      "intro": "An iron soleplate that drags on fabric is most often coated with starch, mineral scale or melted synthetic fibers. The surface loses its glide, and a temperature set too high or a scratched soleplate makes it worse.",
+      "causes": [
+        "Starch, ironing spray or mineral residue — it scorches onto the soleplate and forms a rough layer that drags.",
+        "Melted synthetic fibers — a pass that's too hot over polyester or nylon leaves a sticky, barely visible film.",
+        "Steam vents clogged with scale — water drips unevenly, leaves marks and makes the soleplate less slippery.",
+        "Scratched or flaking coating — a drop or contact with a zipper creates rough spots that catch the fabric.",
+      ],
+      "steps": [
+        "Unplug the iron, let it cool completely, then wipe the soleplate with a soft damp cloth and a drop of dish soap.",
+        "If the residue won't budge, apply a gentle paste of baking soda and water if the manual allows it, and wipe without scraping the metal.",
+        "Never use steel wool, blades or abrasive cleaners, which scratch the coating and make the soleplate catch even more.",
+        "Empty the water tank and run the anti-scale or self-clean function described in the manual to clear the steam vents.",
+        "Iron at the temperature shown on the garment's care label and use a pressing cloth on delicate fabrics.",
+      ],
+      "replaceWhen": "If the soleplate is deeply scratched, flaking or warped, cleaning won't bring back the glide, and the iron will damage your clothes. An older iron with a damaged soleplate is better replaced than repaired.",
+    },
+    "ca": {
+      "intro": "An iron soleplate that snags fabric is most often fouled with starch, limescale or melted synthetic fibres. The surface then loses its glide, and a temperature set too high or a scratched soleplate makes things worse.",
+      "causes": [
+        "Starch, ironing-spray or limescale residue — it scorches onto the soleplate and forms a rough layer that drags.",
+        "Melted synthetic fibres — an overly hot pass over polyester or nylon leaves a sticky, barely visible film.",
+        "Steam holes clogged with scale — water drips unevenly, leaves marks and makes the soleplate less slippery.",
+        "Scratched or flaking coating — a drop or contact with a zipper creates rough spots that catch the fabric.",
+      ],
+      "steps": [
+        "Unplug the iron, let it cool completely, then wipe the soleplate with a soft damp cloth and a drop of dish soap.",
+        "If the deposit resists, apply a gentle paste of baking soda and water if the manual allows, and wipe without scraping the metal.",
+        "Never use steel wool, blades or abrasive cleaners, which scratch the coating and make the soleplate catch even more.",
+        "Empty the tank and run the anti-scale or self-clean function described in the manual to clear the steam holes.",
+        "Iron at the temperature shown on the garment label and use a pressing cloth on delicate fabrics.",
+      ],
+      "replaceWhen": "If the soleplate is deeply scratched, flaking or warped, cleaning will not restore the glide and the iron will damage your clothes. An older iron with a damaged soleplate is better replaced than repaired.",
     }
   },
   "nettoyeur-vapeur-fuite": {
@@ -3142,6 +4411,57 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Jeśli wyciek wraca, przestań używać urządzenia i zamów oryginalny korek lub uszczelkę albo skontaktuj się z serwisem.",
       ],
       "replaceWhen": "Jeśli uszkodzony jest korek, jego gwint lub zawór bezpieczeństwa albo wyciek nie ustępuje mimo nowej uszczelki, urządzenie nie jest już bezpieczne. Lepiej je wymienić niż naprawiać na własną rękę, zwłaszcza jeśli jest stare lub ma pęknięty kocioł.",
+    },
+    "sv": {
+      "intro": "Ett läckage vid locket under uppvärmningen tyder ofta på en sliten packning, ett lock som inte är ordentligt påskruvat eller kalk på locksätet. Eftersom ångpannan står under tryck ska du stänga av ångtvätten och aldrig skruva av locket medan den är varm – risken för skållning är verklig.",
+      "causes": [
+        "Lockets packning har hårdnat, spruckit eller blivit skev – den tätar inte längre när trycket byggs upp i ångpannan.",
+        "Locket är inte helt eller rakt påskruvat – gängorna går snett eller säkerhetsspärren har inte gått i lås helt.",
+        "Kalk på locksätet eller i gängorna – beläggningarna hindrar packningen från att ligga plant mot ångpannan.",
+        "Ångpannan är fylld över maxmarkeringen – överskottsvattnet trycks mot locket när temperaturen och trycket stiger.",
+      ],
+      "steps": [
+        "Dra genast ut kontakten och låt ångtvätten svalna i flera timmar; rör aldrig locket och öppna det inte medan det är varmt.",
+        "När den har svalnat skruvar du av locket enligt bruksanvisningen och undersöker packningen: den ska vara mjuk, hel och sitta rätt.",
+        "Rengör sätet och gängorna med en fuktig trasa och ta bort kalkavlagringar utan att repa metallen.",
+        "Fyll bara upp till maxmarkeringen och skruva på locket ordentligt, och kontrollera att det sitter rakt och att säkerhetsspärren är låst.",
+        "Kommer läckan tillbaka, sluta använda ångtvätten och beställ ett originallock eller en originalpackning, eller kontakta tillverkarens kundtjänst.",
+      ],
+      "replaceWhen": "Om locket, gängorna eller säkerhetsventilen är skadade, eller om läckan fortsätter med en ny packning, är ångtvätten inte längre säker. Byt ut den i stället för att försöka reparera den själv, särskilt om den är gammal eller om ångpannan har spruckit.",
+    },
+    "us": {
+      "intro": "A leak from the cap while the unit heats up usually points to a worn seal, a cap that isn't screwed on properly or scale on its seat. Because the boiler is under pressure, turn the unit off and never unscrew the cap while it's hot: the risk of scalding is real.",
+      "causes": [
+        "Cap seal hardened, cracked or warped — it no longer seals watertight when pressure builds in the boiler.",
+        "Cap not fully or squarely screwed on — the threads are misaligned, or the safety lock hasn't fully engaged.",
+        "Mineral scale on the cap seat or threads — buildup keeps the seal from pressing flat against the boiler.",
+        "Boiler filled past the max line — the extra water gets pushed toward the cap as temperature and pressure rise.",
+      ],
+      "steps": [
+        "Unplug the unit right away and let it cool for several hours; never touch or open the cap while it's hot.",
+        "Once it's cold, unscrew the cap following the manual and inspect the seal: it should be flexible, intact and properly seated.",
+        "Clean the seat and threads with a damp cloth, removing mineral deposits without scratching the metal.",
+        "Fill only to the max line and screw the cap on all the way, checking the alignment and the safety lock.",
+        "If the leak comes back, stop using the unit and order an original cap or seal, or contact the manufacturer.",
+      ],
+      "replaceWhen": "If the cap, its threads or the safety valve are damaged, or the leak continues with a new seal, the unit is no longer safe. Replace it rather than trying to repair it yourself, especially if it's old or the boiler is cracked.",
+    },
+    "ca": {
+      "intro": "A leak from the cap while heating usually points to a worn seal, a cap that is not screwed on properly, or scale on its seat. Because the boiler is under pressure, switch the unit off and never unscrew the cap while it is hot, as the scald risk is real.",
+      "causes": [
+        "Cap seal hardened, cracked or warped — it no longer closes watertight when pressure builds in the boiler.",
+        "Cap not fully or squarely screwed on — the thread is misaligned or the safety lock has not engaged all the way.",
+        "Limescale on the cap seat or thread — deposits keep the seal from pressing flat against the boiler.",
+        "Boiler filled above the maximum — the excess water is pushed toward the cap as temperature and pressure rise.",
+      ],
+      "steps": [
+        "Unplug the unit immediately and leave it to cool for several hours; never touch or open the cap while it is hot.",
+        "Once cold, unscrew the cap following the manual and examine the seal: it should be flexible, intact and properly seated.",
+        "Clean the seat and thread with a damp cloth, removing limescale deposits without scratching the metal.",
+        "Fill only to the maximum mark and screw the cap on all the way, checking the alignment and the safety lock.",
+        "If the leak returns, stop using the unit and order an original cap or seal, or contact the manufacturer.",
+      ],
+      "replaceWhen": "If the cap, its thread or the safety valve is damaged, or the leak continues with a new seal, the unit is no longer safe. Replace it rather than attempting your own repair, especially if it is old or the boiler is cracked.",
     }
   }
 }

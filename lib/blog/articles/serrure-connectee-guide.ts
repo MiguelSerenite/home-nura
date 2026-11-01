@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Serratura smart montata sul cilindro interno di una porta e comandata da un’app per smartphone',
         nl: 'Slim slot op de binnenkant van een deurcilinder, bediend via een smartphone-app',
         pl: 'Inteligentny zamek zamontowany od wewnątrz na wkładce drzwi, sterowany z aplikacji w smartfonie',
+        sv: 'Smart lås monterat över låscylinderns insida på en dörr, styrt från en app i mobilen',
+        us: 'Smart lock mounted over the inside of a door cylinder and controlled from a smartphone app',
+        ca: 'Smart lock installed over the inside of a door cylinder and controlled from a smartphone app',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Serratura smart 2026: guida completa e i 6 migliori modelli per l’Europa',
     nl: 'Slim deurslot 2026: complete gids en de 6 beste modellen voor Europa',
     pl: 'Inteligentny zamek 2026: kompletny poradnik i 6 najlepszych modeli dostępnych w Europie',
+    sv: 'Smart lås 2026: köpguide och de 6 bästa modellerna för Europa',
+    us: 'Best Smart Locks of 2026: Buying Guide for Euro-Profile Cylinders',
+    ca: 'Smart Lock Guide 2026: How to Choose and the 6 Best Euro-Cylinder Models',
   },
   excerpt: {
     fr: 'Comment choisir une serrure connectée pour un cylindre européen en 2026 : compatibilité, Matter et Thread, alimentation, clavier à empreinte. Nuki, Tedee, Aqara, Yale et SwitchBot comparées sur fiches techniques et avis d’acheteurs.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Come scegliere una serratura smart per cilindro europeo nel 2026: compatibilità, Matter e Thread, alimentazione, tastierino con impronta. Nuki, Tedee, Aqara, Yale e SwitchBot a confronto su schede tecniche e opinioni degli acquirenti.',
     nl: 'Zo kies je in 2026 een slim slot voor een Europrofielcilinder: compatibiliteit, Matter en Thread, voeding, vingerafdrukklavier. Nuki, Tedee, Aqara, Yale en SwitchBot vergeleken op specificaties en ervaringen van kopers.',
     pl: 'Jak wybrać inteligentny zamek do wkładki europejskiej w 2026 roku: zgodność z wkładką, Matter i Thread, zasilanie, klawiatura z czytnikiem linii papilarnych. Porównujemy Nuki, Tedee, Aqara, Yale i SwitchBot na podstawie specyfikacji i opinii kupujących.',
+    sv: 'Så väljer du ett smart lås till en europrofilcylinder 2026: kompatibilitet, Matter och Thread, strömförsörjning och knappsats med fingeravtryck. Nuki, Tedee, Aqara, Yale och SwitchBot jämförda utifrån produktblad och köparomdömen.',
+    us: 'How to choose a smart lock for a euro-profile cylinder in 2026: compatibility, Matter and Thread, power and fingerprint keypads. Nuki, Tedee, Aqara, Yale and SwitchBot compared on specs and owner reviews.',
+    ca: 'How to choose a smart lock for a Euro-profile cylinder in 2026: compatibility, Matter and Thread, power, fingerprint keypads. Nuki, Tedee, Aqara, Yale and SwitchBot compared on specifications and buyer feedback.',
   },
   content: {
     fr: `<p><strong>La meilleure serrure connectée pour la plupart des portes européennes en 2026 est la Nuki Smart Lock Pro (5e génération)</strong> : elle se pose sur votre cylindre existant sans le changer, combine Wi-Fi, Bluetooth et Matter over Thread, et fonctionne sur batterie rechargeable. Pour un budget plus serré, la Nuki Smart Lock Go garde Wi-Fi et Matter ; si vous voulez un clavier à empreinte fourni d’office, l’Aqara Smart Lock U200 est la plus complète.</p>
@@ -641,6 +650,262 @@ export const article: BlogArticle = {
 
 <h2>Nasz werdykt</h2>
 <p><strong>Nuki Smart Lock Pro (5. generacji) to najbardziej wszechstronny inteligentny zamek 2026 roku</strong>: montuje się na istniejącej wkładce, ma wbudowane Wi-Fi i Matter over Thread, akumulator oraz rozbudowaną aplikację. <strong>Nuki Smart Lock Go</strong> daje te same podstawowe możliwości w cenie modelu z niższej półki. <strong>Aqara Smart Lock U200</strong> to najlepsza opcja, jeśli od początku chcesz mieć klawiaturę z czytnikiem linii papilarnych. <strong>Tedee GO 2</strong> jest najbardziej dyskretny, <strong>Yale Linus L2</strong> to najprostsze rozwiązanie z Wi-Fi, a <strong>SwitchBot Lock Ultra</strong> najdłużej działa na jednym ładowaniu. Jeśli chcesz kompleksowo wyposażyć wejście do domu, zajrzyj do naszego poradnika o <a href="/pl/blog/sonnette-video-sans-abonnement">dzwonkach wideo bez abonamentu</a>.</p>`,
+    sv: `<p><strong>Det bästa smarta låset för de flesta europeiska dörrar 2026 är Nuki Smart Lock Pro (5:e generationen)</strong>: det monteras över din befintliga cylinder utan att den behöver bytas, kombinerar wifi, Bluetooth och Matter via Thread och drivs av ett laddningsbart batteri. Är budgeten snävare behåller Nuki Smart Lock Go både wifi och Matter, och vill du ha en knappsats med fingeravtrycksläsare direkt i kartongen är Aqara Smart Lock U200 det mest kompletta paketet.</p>
+<p>Guiden bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Den tar bara med modeller som säljs i Europa 2026 och som fungerar med europrofilcylindrar. Hela urvalet hittar du på vår sida om <a href="/sv/securite-maison/serrures-connectees">smarta lås</a>.</p>
+
+<h2>Hur fungerar ett smart lås på en europeisk dörr?</h2>
+<p>På kontinenten har de flesta ytterdörrar ett infällt lås med en <strong>europrofilcylinder</strong>. Låsen i den här guiden är gjorda för eftermontering: en motoriserad enhet sätts fast på insidan, över cylindern, och vrider om nyckeln eller en adapter åt dig. På utsidan ändras ingenting, så din nyckel fungerar som vanligt.</p>
+<p>Vissa märken säljer också modeller som ersätter cylindern (till exempel Nuki Smart Lock Ultra). De är mindre och snabbare, men du måste byta ut en del av låset, vilket är mindre praktiskt om du hyr.</p>
+
+<h2>Så väljer du rätt</h2>
+<ul>
+<li><strong>En cylinder med nödfunktion</strong>: det här är punkten som flest missar. De flesta lås för eftermontering kräver en cylinder som går att öppna utifrån även när en nyckel sitter i på insidan (kallas ofta nödfunktion eller nödöppningsfunktion). Utan den kanske du inte kommer in med din nyckel. Fråga cylinderns tillverkare, eller låt en låssmed byta cylindern.</li>
+<li><strong>Cylinderns längd på insidan</strong>: den måste sticka ut tillräckligt för att adaptern ska få grepp. Alla tillverkare har ett kompatibilitetsverktyg eller en guide.</li>
+<li><strong>Uppkoppling</strong>: Bluetooth när du är i närheten, inbyggt wifi eller en brygga för fjärråtkomst och <strong>Matter</strong> för att styra låset från Apple Home, Google Home, Alexa eller SmartThings. Matter via Thread kräver en Thread Border Router (gränsrouter för Thread), till exempel vissa Apple TV-modeller, HomePod mini eller nyare högtalare och skärmar från Google eller Amazon.</li>
+<li><strong>Strömförsörjning</strong>: ett laddningsbart batteri (laddas med några månaders mellanrum) eller utbytbara batterier (CR123 eller alkaliska). En varning i appen om låg batterinivå är ett måste.</li>
+<li><strong>Knappsats</strong>: en knappsats med kod eller fingeravtrycksläsare på utsidan gör att du kan öppna dörren utan mobil. Vissa modeller har en med i kartongen, andra säljer den separat.</li>
+<li><strong>Flerpunktslås</strong>: på ett trögt lås med 3 eller 5 låspunkter ska du välja en stark motor och se till att dörren går att stänga utan att du behöver ta i.</li>
+</ul>
+
+<h2>De 6 bästa smarta låsen 2026</h2>
+
+<h3>1. Nuki Smart Lock Pro (5:e generationen) – bäst totalt</h3>
+<p>Femte generationens Smart Lock Pro lanserades i mars 2025 och för över tekniken från Nuki Ultra till en modell som monteras över din befintliga cylinder. Den har inbyggt wifi, Bluetooth och Matter via Thread, utan någon extra brygga. Den borstlösa motorn har tre lägen, bland annat ett snabbläge som enligt tillverkaren tar under 1,5 sekunder och ett tystare läge som heter ”Gentle”.</p>
+<p><strong>Styrkor</strong>: fjärråtkomst utan brygga; fungerar med Apple Home, Google Home, Alexa och Home Assistant via Matter; laddningsbart litiumbatteri (ca två timmars laddning enligt Nuki); en mogen app med tillfällig, återkommande eller permanent åtkomst och full historik; brett utbud av tillbehör (Keypad 2 med fingeravtrycksläsare, dörrsensor).</p>
+<p><strong>Svagheter</strong>: ganska stor enhet på insidan; knappsatsen säljs separat; kräver en cylinder med nödfunktion.</p>
+<p><strong>Passar för</strong>: de flesta hushåll som vill ha ett hållbart lås som fungerar med alla stora ekosystem, utan att röra cylindern.</p>
+
+<h3>2. Nuki Smart Lock Go – det mest prisvärda</h3>
+<p>Smart Lock Go är Nukis instegsmodell och kom samtidigt som femte generationens Pro. Den behåller det viktigaste: inbyggt wifi, Bluetooth och Matter via Thread, med samma app som de dyrare modellerna.</p>
+<p><strong>Styrkor</strong>: ett av de mest prisvärda sätten att få ett Matter-lås med fjärråtkomst; ingen brygga att köpa; hela Nukis ekosystem (delad åtkomst, knappsats, aktivitetslogg).</p>
+<p><strong>Svagheter</strong>: drivs med alkaliska batterier (ett laddningsbart Power Pack finns som tillval); mindre avancerad motor än Pro; enklare utförande.</p>
+<p><strong>Passar för</strong>: ett första smart lås, en lägenhet eller korttidsuthyrning som sköts på distans.</p>
+
+<h3>3. Aqara Smart Lock U200 – mest komplett, knappsats ingår</h3>
+<p>U200 kombinerar en motor för eftermontering på insidan med en <strong>medföljande knappsats för utsidan</strong>, med fingeravtrycksläsare, NFC och PIN-kod. Låset använder Bluetooth och Thread, har stöd för Matter via Thread och fungerar utan Aqara-hubb för grundläggande användning. För mindre budgetar finns versionen U200 Lite utan knappsats.</p>
+<p><strong>Styrkor</strong>: knappsats ingår, med fingeravtryck och NFC-kort; stöd för Apple Home Key (nyckeln i Apples Wallet) via knappsatsens NFC-läsare; laddningsbart batteri med USB-C för motorenheten; fungerar med europrofilcylindrar.</p>
+<p><strong>Svagheter</strong>: fjärråtkomst och avancerade automationer kräver en gränsrouter för Thread eller en Aqara-hubb; knappsatsen drivs med AAA-batterier (eller fast strömmatning); installationen tar lite längre tid på grund av knappsatsen.</p>
+<p><strong>Passar för</strong>: familjer som vill kunna gå in utan mobil, och iPhone-användare som vill ha Home Key.</p>
+
+<h3>4. Tedee GO 2 – mest kompakt</h3>
+<p>Det polska märket Tedee är känt för mycket kompakta lås. GO 2 fästs med tre skruvar på cylinderadaptern, använder Bluetooth och har stöd för Matter via Thread. Tedee Bridge är fortfarande användbar för molnintegrationer och fjärråtkomst utanför Matter.</p>
+<p><strong>Styrkor</strong>: diskret utformning; Matter via Thread utan brygga; automatisk låsning och upplåsning, virtuella nycklar och aktivitetslogg; fungerar med Tedee Keypad PRO (fingeravtryck och PIN-kod).</p>
+<p><strong>Svagheter</strong>: tre utbytbara CR123-batterier som enligt Tedee räcker i ungefär sex månader (som mest åtta); bara för europrofilcylindrar med platta nycklar och nödfunktion.</p>
+<p><strong>Passar för</strong>: lägenheter och dörrar där en stor enhet skulle vara i vägen.</p>
+
+<h3>5. Yale Linus Smart Lock L2 – det klassiska låsmärket</h3>
+<p>Linus L2 är Yales lås för eftermontering på europrofilcylindrar. Det har inbyggt wifi och har haft stöd för Matter via wifi sedan en uppdatering av programvaran, så du behöver varken brygga eller Thread-router. Den medföljande sensorn DoorSense visar om dörren verkligen är stängd.</p>
+<p><strong>Styrkor</strong>: inbyggt wifi; fungerar med Apple Home, Google Home, Alexa och SmartThings via Matter; DoorSense ingår; laddningsbart batteri med USB-C; brett nät av återförsäljare och service.</p>
+<p><strong>Svagheter</strong>: batteritid på upp till ungefär sex månader; batteriet måste tas ut för att laddas; den billigare L2 Lite saknar wifi och behöver en brygga för fjärråtkomst.</p>
+<p><strong>Passar för</strong>: dig som vill ha ett stort låsmärke och en direkt wifi-anslutning.</p>
+
+<h3>6. SwitchBot Lock Ultra – längst batteritid</h3>
+<p>Lock Ultra är SwitchBots senaste lås för eftermontering som säljs i Europa. Det är betydligt smalare än det äldre Lock Pro och har ett laddningsbart batteri på 4 200 mAh som enligt tillverkaren räcker i 9–12 månader, plus ett CR123A-reservbatteri för när huvudbatteriet är tomt eller laddas.</p>
+<p><strong>Styrkor</strong>: utmärkt uppgiven batteritid; snabb och tyst motor enligt tillverkaren; många sätt att låsa upp med SwitchBots knappsatser (PIN-kod, fingeravtryck, NFC och ansiktsigenkänning på vissa modeller); fungerar med många olika cylindrar.</p>
+<p><strong>Svagheter</strong>: Matter och Apple Home kräver en SwitchBot-hubb med Matter-stöd; inget inbyggt stöd för Thread.</p>
+<p><strong>Passar för</strong>: hem som redan använder SwitchBot, och alla som vill ladda så sällan som möjligt.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Uppkoppling</th><th>Matter</th><th>Strömförsörjning</th><th>Knappsats</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Nuki Smart Lock Pro (5:e gen.)</td><td>Wifi + Bluetooth + Thread</td><td>Ja, inbyggt (Thread)</td><td>Laddningsbart batteri</td><td>Tillval</td><td>De flesta hushåll</td></tr>
+<tr><td>Nuki Smart Lock Go</td><td>Wifi + Bluetooth + Thread</td><td>Ja, inbyggt (Thread)</td><td>Alkaliska batterier (Power Pack som tillval)</td><td>Tillval</td><td>Snävare budget</td></tr>
+<tr><td>Aqara Smart Lock U200</td><td>Bluetooth + Thread</td><td>Ja, inbyggt (Thread)</td><td>Laddningsbart batteri</td><td>Ingår (fingeravtryck, NFC, PIN)</td><td>Gå in utan mobil</td></tr>
+<tr><td>Tedee GO 2</td><td>Bluetooth + Thread</td><td>Ja, inbyggt (Thread)</td><td>3 × CR123</td><td>Tillval</td><td>Kompakt format</td></tr>
+<tr><td>Yale Linus Smart Lock L2</td><td>Wifi + Bluetooth</td><td>Ja, via wifi</td><td>Laddningsbart batteri</td><td>Tillval</td><td>Direkt wifi</td></tr>
+<tr><td>SwitchBot Lock Ultra</td><td>Bluetooth (+ hubb)</td><td>Via SwitchBot-hubb</td><td>Laddningsbart batteri + reservbatteri</td><td>Tillval</td><td>Batteritid</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa utan att kontrollera cylindern</strong>: utan nödfunktion kan adaptern blockera nyckeln från utsidan. Det är den vanligaste orsaken till returer.</li>
+<li><strong>Att räkna med Matter utan Thread-router</strong>: modeller med Matter via Thread behöver en gränsrouter som passar ditt ekosystem.</li>
+<li><strong>Att glömma att ladda</strong>: slå på notiser om låg batterinivå och ha den vanliga nyckeln med dig eller hos någon i närheten.</li>
+<li><strong>Att klistra fast låset på en smutsig dörr</strong>: monteras låset med tejp ska du rengöra ytan först och låta tejpen härda så länge som anges.</li>
+<li><strong>Att slå på automatisk upplåsning utan att finjustera den</strong>: upplåsning när du närmar dig dörren måste ställas in noga, så börja med en notis där du själv bekräftar.</li>
+</ul>
+
+<h2>Installation, hyresboende och säkerhet</h2>
+<p>Alla sex modellerna monteras på insidan, de flesta utan att du borrar i dörren, och går att ta bort utan att lämna märken, så de passar oftast bra i en hyresbostad. Meddela ändå hyresvärden eller fastighetsförvaltaren, särskilt om en knappsats ska sättas upp på utsidan.</p>
+<p>Ett smart lås gör inte dörren fysiskt starkare: det är cylindern och själva låset som står emot ett inbrott. Till en ytterdörr är en certifierad säkerhetscylinder fortfarande en bra grund. På den digitala sidan väljer du ett märke som släpper regelbundna uppdateringar, slår på tvåfaktorsautentisering för ditt konto och tar bort gäståtkomst som inte längre behövs. Vill du gå vidare kan du läsa vår <a href="/sv/blog/guide-securite-maison-connectee-2026">guide till säkerhet i det smarta hemmet</a>.</p>
+
+<h2>Vårt omdöme</h2>
+<p><strong>Nuki Smart Lock Pro (5:e generationen) är det mest balanserade smarta låset 2026</strong>: det monteras över din befintliga cylinder, har inbyggt wifi och Matter via Thread, ett laddningsbart batteri och en komplett app. <strong>Nuki Smart Lock Go</strong> har samma grund på instegsnivå. <strong>Aqara Smart Lock U200</strong> är bästa alternativet om du vill ha en knappsats med fingeravtrycksläsare från första dagen, <strong>Tedee GO 2</strong> är mest diskret, <strong>Yale Linus L2</strong> enklast med wifi och <strong>SwitchBot Lock Ultra</strong> håller längst mellan laddningarna. Vill du komplettera entrén kan du läsa vår guide till <a href="/sv/blog/sonnette-video-sans-abonnement">videodörrklockor utan abonnemang</a>.</p>
+`,
+    us: `<p><strong>The best smart lock for most European doors in 2026 is the Nuki Smart Lock Pro (5th generation)</strong>: it mounts over your existing cylinder without replacing it, combines Wi-Fi, Bluetooth and Matter over Thread, and runs on a rechargeable battery. On a tighter budget, the Nuki Smart Lock Go keeps Wi-Fi and Matter; if you want a fingerprint keypad in the box, the Aqara Smart Lock U200 is the most complete package.</p>
+<p>This guide is based on manufacturer specs, independent reviews and verified owner reviews. It covers only models sold in Europe in 2026 that work with euro-profile cylinders. You’ll find our full selection on our <a href="/us/securite-maison/serrures-connectees">smart locks</a> page.</p>
+
+<h2>How does a smart lock work on a European door?</h2>
+<p>In continental Europe, most front doors use a mortise lock with a <strong>euro-profile cylinder</strong>. The locks in this guide are retrofit models: a motorized unit mounts on the inside, over the cylinder, and turns the key or an adapter for you. Nothing changes on the outside, so your key still works. Most US exterior doors use a deadbolt instead, so check that a lock fits your door before you buy.</p>
+<p>Some brands also sell models that replace the cylinder (the Nuki Smart Lock Ultra, for example). They’re smaller and faster, but you have to swap out part of the lock, which is less convenient if you rent.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>A cylinder with an emergency function</strong>: this is the point most people miss. Most retrofit locks need a cylinder that can be opened from outside even when a key is inserted on the inside (often called an emergency or anti-blocking function). Without it, you may not be able to get in with your key. Check with the cylinder manufacturer, or have a locksmith replace the cylinder.</li>
+<li><strong>Cylinder length on the inside</strong>: it has to stick out far enough for the adapter to grip it. Every manufacturer publishes a compatibility checker or guide.</li>
+<li><strong>Connectivity</strong>: Bluetooth for use up close, built-in Wi-Fi or a bridge for remote access, and <strong>Matter</strong> to control the lock from Apple Home, Google Home, Alexa or SmartThings. Matter over Thread requires a Thread border router (some Apple TV models, the HomePod mini, recent Google or Amazon speakers and smart displays).</li>
+<li><strong>Power</strong>: a rechargeable battery (recharged every few months) or replaceable batteries (CR123 or alkaline). A low-battery alert in the app is a must.</li>
+<li><strong>Keypad</strong>: a PIN or fingerprint keypad mounted outside lets you unlock the door without your phone. Some models include one; others sell it separately.</li>
+<li><strong>Multipoint doors</strong>: on a stiff 3- or 5-point lock, pick a strong motor and make sure the door closes without having to force it.</li>
+</ul>
+
+<h2>The 6 best smart locks of 2026</h2>
+
+<h3>1. Nuki Smart Lock Pro (5th generation) — best overall</h3>
+<p>Launched in March 2025, the fifth-generation Smart Lock Pro brings the Nuki Ultra’s technology to a model that mounts over your existing cylinder. It has Wi-Fi, Bluetooth and Matter over Thread built in, with no extra bridge. Its brushless motor offers three modes, including a fast mode rated at under 1.5 seconds and a quieter "Gentle" mode.</p>
+<p><strong>Pros</strong>: remote access without a bridge; works with Apple Home, Google Home, Alexa and Home Assistant through Matter; rechargeable lithium battery (about two hours to charge, according to Nuki); a mature app with temporary, recurring or permanent access and a full activity log; a wide range of accessories (Keypad 2 with fingerprint reader, door sensor).</p>
+<p><strong>Cons</strong>: fairly bulky on the inside; the keypad is sold separately; requires a cylinder with an emergency function.</p>
+<p><strong>Best for</strong>: most households that want a long-lasting lock that works with every major ecosystem, without touching the cylinder.</p>
+
+<h3>2. Nuki Smart Lock Go — best value</h3>
+<p>The Smart Lock Go is Nuki’s entry-level model, released alongside the fifth-generation Pro. It keeps the essentials: built-in Wi-Fi, Bluetooth and Matter over Thread, with the same app as the pricier models.</p>
+<p><strong>Pros</strong>: one of the most affordable ways to get a Matter lock with remote access; no bridge to buy; the full Nuki ecosystem (access sharing, keypad, activity log).</p>
+<p><strong>Cons</strong>: runs on alkaline batteries (an optional rechargeable Power Pack is available); a less advanced motor than the Pro; simpler finish.</p>
+<p><strong>Best for</strong>: a first smart lock, an apartment, or a short-term rental you manage remotely.</p>
+
+<h3>3. Aqara Smart Lock U200 — most complete, keypad included</h3>
+<p>The U200 pairs a retrofit motor on the inside with an <strong>outdoor keypad in the box</strong> that has a fingerprint reader, NFC and PIN codes. It uses Bluetooth and Thread, supports Matter over Thread and works without an Aqara hub for basic use. A U200 Lite version without the keypad is available for tighter budgets.</p>
+<p><strong>Pros</strong>: keypad included, with fingerprint and NFC card unlocking; Apple Home Key support through the keypad’s NFC reader; USB-C rechargeable battery for the motor unit; works with euro-profile cylinders.</p>
+<p><strong>Cons</strong>: remote access and advanced automations need a Thread border router or an Aqara hub; the keypad runs on AAA batteries (or can be hardwired); installation takes a little longer because of the keypad.</p>
+<p><strong>Best for</strong>: families who want to get in without a phone, and iPhone users who want Home Key.</p>
+
+<h3>4. Tedee GO 2 — most compact</h3>
+<p>Tedee, a Polish brand, is known for very compact locks. The GO 2 attaches to the cylinder adapter with three screws, uses Bluetooth and supports Matter over Thread. The Tedee Bridge is still useful for cloud integrations and remote access outside Matter.</p>
+<p><strong>Pros</strong>: low-profile design; Matter over Thread without a bridge; auto-lock and auto-unlock, virtual keys and an activity log; works with the Tedee Keypad PRO (fingerprint and PIN).</p>
+<p><strong>Cons</strong>: three replaceable CR123 batteries that last about six months according to Tedee (eight at most); only for euro-profile cylinders with flat keys and an emergency function.</p>
+<p><strong>Best for</strong>: apartments and doors where a bulky unit would get in the way.</p>
+
+<h3>5. Yale Linus Smart Lock L2 — the established lock brand</h3>
+<p>The Linus L2 is Yale’s retrofit lock for euro-profile cylinders. It has built-in Wi-Fi and has supported Matter over Wi-Fi since a firmware update, so you need neither a bridge nor a Thread router. The included DoorSense sensor tells you whether the door is actually closed.</p>
+<p><strong>Pros</strong>: built-in Wi-Fi; works with Apple Home, Google Home, Alexa and SmartThings via Matter; DoorSense included; USB-C rechargeable battery; wide retail and service network.</p>
+<p><strong>Cons</strong>: rated battery life of up to about six months; you have to remove the battery to charge it; the cheaper L2 Lite has no Wi-Fi and needs a bridge for remote access.</p>
+<p><strong>Best for</strong>: buyers who want a major lock brand and a direct Wi-Fi connection.</p>
+
+<h3>6. SwitchBot Lock Ultra — longest battery life</h3>
+<p>The Lock Ultra is SwitchBot’s newest retrofit lock sold in Europe. It’s much slimmer than the older Lock Pro and has a 4,200 mAh rechargeable battery rated for 9 to 12 months, plus a backup CR123A battery for when the main battery is dead or charging.</p>
+<p><strong>Pros</strong>: excellent rated battery life; fast, quiet motor according to the manufacturer; many ways to unlock with SwitchBot keypads (PIN, fingerprint, NFC, face recognition on some models); broad cylinder compatibility.</p>
+<p><strong>Cons</strong>: Matter and Apple Home require a Matter-enabled SwitchBot hub; no native Thread.</p>
+<p><strong>Best for</strong>: homes already using SwitchBot, or anyone who wants to charge as rarely as possible.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Connectivity</th><th>Matter</th><th>Power</th><th>Keypad</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Nuki Smart Lock Pro (5th gen)</td><td>Wi-Fi + Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>Rechargeable battery</td><td>Optional</td><td>Most households</td></tr>
+<tr><td>Nuki Smart Lock Go</td><td>Wi-Fi + Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>Alkaline batteries (Power Pack optional)</td><td>Optional</td><td>Tighter budgets</td></tr>
+<tr><td>Aqara Smart Lock U200</td><td>Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>Rechargeable battery</td><td>Included (fingerprint, NFC, PIN)</td><td>Phone-free entry</td></tr>
+<tr><td>Tedee GO 2</td><td>Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>3 × CR123</td><td>Optional</td><td>Compact size</td></tr>
+<tr><td>Yale Linus Smart Lock L2</td><td>Wi-Fi + Bluetooth</td><td>Yes, over Wi-Fi</td><td>Rechargeable battery</td><td>Optional</td><td>Direct Wi-Fi</td></tr>
+<tr><td>SwitchBot Lock Ultra</td><td>Bluetooth (+ hub)</td><td>Via SwitchBot hub</td><td>Rechargeable battery + backup battery</td><td>Optional</td><td>Battery life</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying without checking the cylinder</strong>: without an emergency function, the adapter can keep your key from working on the outside. It’s the No. 1 reason for returns.</li>
+<li><strong>Counting on Matter without a Thread router</strong>: Matter over Thread models need a border router that matches your ecosystem.</li>
+<li><strong>Forgetting to charge</strong>: turn on low-battery notifications and keep your physical key on you or with someone nearby.</li>
+<li><strong>Sticking it onto a dirty door</strong>: for adhesive mounts, clean the surface first and allow the full curing time.</li>
+<li><strong>Turning on auto-unlock without fine-tuning it</strong>: proximity unlocking takes some adjusting; start with a confirmation notification.</li>
+</ul>
+
+<h2>Installation, renting and security</h2>
+<p>All six models go on the inside, mostly without drilling into the door, and come off without leaving a mark, so they generally work for renters. Still, let your landlord or building management know, especially if an outdoor keypad has to be mounted.</p>
+<p>A smart lock doesn’t make the door physically stronger: the cylinder and the lock itself are what stand up to a break-in. For a front door, a certified high-security cylinder is still a solid starting point. On the digital side, choose a brand that ships regular updates, turn on two-factor authentication for your account and revoke guest access you no longer need. To go further, read our <a href="/us/blog/guide-securite-maison-connectee-2026">smart home security guide</a>.</p>
+
+<h2>The bottom line</h2>
+<p><strong>The Nuki Smart Lock Pro (5th generation) is the most well-rounded smart lock of 2026</strong>: it mounts over your existing cylinder, has Wi-Fi and Matter over Thread built in, a rechargeable battery and a complete app. The <strong>Nuki Smart Lock Go</strong> offers the same foundation at an entry-level price tier. The <strong>Aqara Smart Lock U200</strong> is the best option if you want a fingerprint keypad from day one, the <strong>Tedee GO 2</strong> is the most low-profile, the <strong>Yale Linus L2</strong> is the simplest on Wi-Fi, and the <strong>SwitchBot Lock Ultra</strong> lasts longest between charges. To round out your front door setup, see our guide to <a href="/us/blog/sonnette-video-sans-abonnement">video doorbells with no subscription</a>.</p>`,
+    ca: `<p><strong>The best smart lock for most European doors in 2026 is the Nuki Smart Lock Pro (5th generation)</strong>: it fits over your existing cylinder without replacing it, combines Wi-Fi, Bluetooth and Matter over Thread, and runs on a rechargeable battery. On a tighter budget, the Nuki Smart Lock Go keeps Wi-Fi and Matter; if you want a fingerprint keypad in the box, the Aqara Smart Lock U200 is the most complete package.</p>
+<p>This guide is based on manufacturer specifications, independent reviews and verified buyer feedback. It only covers models sold in Europe in 2026 that work with Euro-profile cylinders. Most Canadian exterior doors use a deadbolt rather than a Euro cylinder, so check your lock before you buy. You’ll find the full selection on our <a href="/ca/securite-maison/serrures-connectees">smart locks</a> page.</p>
+
+<h2>How does a smart lock work on a European door?</h2>
+<p>In continental Europe, most front doors use a mortise lock with a <strong>Euro-profile cylinder</strong>. The locks in this guide are retrofit models: a motorized unit fits on the inside, over the cylinder, and turns the key or an adapter for you. Nothing changes on the outside, so your key still works.</p>
+<p>Some brands also sell models that replace the cylinder (the Nuki Smart Lock Ultra, for example). They are smaller and faster, but you have to swap part of the lock, which is less convenient if you rent.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>A cylinder with an emergency function</strong>: this is the point most people miss. Most retrofit locks require a cylinder that can be opened from outside even when a key is inserted on the inside (often called an emergency or anti-blocking function). Without it, you may not be able to get in with your key. Check with the cylinder maker, or have a locksmith replace it.</li>
+<li><strong>Cylinder length on the inside</strong>: it must protrude enough for the adapter to grip. Every manufacturer publishes a compatibility checker or guide.</li>
+<li><strong>Connectivity</strong>: Bluetooth for nearby use, built-in Wi-Fi or a bridge for remote access, and <strong>Matter</strong> to control the lock from Apple Home, Google Home, Alexa or SmartThings. Matter over Thread needs a Thread border router (some Apple TV models, HomePod mini, recent Google or Amazon speakers and displays).</li>
+<li><strong>Power</strong>: a rechargeable battery (charged every few months) or replaceable batteries (CR123 or alkaline). A low-battery alert in the app is essential.</li>
+<li><strong>Keypad</strong>: a code or fingerprint keypad mounted outside lets you open the door without a phone. Some models include one, others sell it separately.</li>
+<li><strong>Multi-point doors</strong>: on a stiff 3- or 5-point lock, choose a strong motor and make sure the door closes without forcing.</li>
+</ul>
+
+<h2>The 6 best smart locks in 2026</h2>
+
+<h3>1. Nuki Smart Lock Pro (5th generation) — best overall</h3>
+<p>Launched in March 2025, the fifth-generation Smart Lock Pro brings the technology of the Nuki Ultra to a model that fits over your existing cylinder. It has built-in Wi-Fi, Bluetooth and Matter over Thread, with no extra bridge. Its brushless motor offers three modes, including a fast mode rated at under 1.5 seconds and a quieter "Gentle" mode.</p>
+<p><strong>Strengths</strong>: remote access without a bridge; works with Apple Home, Google Home, Alexa and Home Assistant through Matter; rechargeable lithium battery (around two hours to charge, according to Nuki); a mature app with temporary, recurring or permanent access and a full log; a wide range of accessories (Keypad 2 with fingerprint, door sensor).</p>
+<p><strong>Limitations</strong>: fairly bulky on the inside; the keypad is sold separately; needs a cylinder with an emergency function.</p>
+<p><strong>Best for</strong>: most households that want a long-lasting lock compatible with every major ecosystem, without touching the cylinder.</p>
+
+<h3>2. Nuki Smart Lock Go — best value</h3>
+<p>The Smart Lock Go is Nuki’s entry model, released alongside the fifth-generation Pro. It keeps the essentials: built-in Wi-Fi, Bluetooth and Matter over Thread, with the same app as the more expensive models.</p>
+<p><strong>Strengths</strong>: one of the most affordable ways to get a Matter lock with remote access; no bridge to buy; the full Nuki ecosystem (access sharing, keypad, activity log).</p>
+<p><strong>Limitations</strong>: runs on alkaline batteries (an optional rechargeable Power Pack is available); a less advanced motor than the Pro; simpler finish.</p>
+<p><strong>Best for</strong>: a first smart lock, an apartment or a short-term rental you manage remotely.</p>
+
+<h3>3. Aqara Smart Lock U200 — most complete, keypad included</h3>
+<p>The U200 pairs a retrofit motor on the inside with an <strong>outdoor keypad in the box</strong>, featuring a fingerprint reader, NFC and PIN codes. It uses Bluetooth and Thread, supports Matter over Thread and works without an Aqara hub for basic use. A U200 Lite version without the keypad is available for smaller budgets.</p>
+<p><strong>Strengths</strong>: keypad included, with fingerprint and NFC cards; Apple Home Key support through the keypad’s NFC reader; USB-C rechargeable battery for the motor unit; compatible with Euro cylinders.</p>
+<p><strong>Limitations</strong>: remote access and advanced automations need a Thread border router or an Aqara hub; the keypad runs on AAA batteries (or a wired supply); installation takes a little longer because of the keypad.</p>
+<p><strong>Best for</strong>: families who want to get in without a phone, and iPhone users who want Home Key.</p>
+
+<h3>4. Tedee GO 2 — most compact</h3>
+<p>Tedee, a Polish brand, is known for very compact locks. The GO 2 attaches with three screws to the cylinder adapter, uses Bluetooth and supports Matter over Thread. The Tedee Bridge is still useful for cloud integrations and remote access outside Matter.</p>
+<p><strong>Strengths</strong>: discreet design; Matter over Thread without a bridge; auto-lock and auto-unlock, virtual keys and an activity log; works with the Tedee Keypad PRO (fingerprint and PIN).</p>
+<p><strong>Limitations</strong>: three replaceable CR123 batteries, lasting around six months according to Tedee (eight at most); only for Euro cylinders with flat keys and an emergency function.</p>
+<p><strong>Best for</strong>: apartments and doors where a bulky unit would get in the way.</p>
+
+<h3>5. Yale Linus Smart Lock L2 — the heritage brand</h3>
+<p>The Linus L2 is Yale’s retrofit lock for Euro cylinders. It has built-in Wi-Fi and has supported Matter over Wi-Fi since a firmware update, so you need neither a bridge nor a Thread router. The included DoorSense sensor tells you whether the door is actually closed.</p>
+<p><strong>Strengths</strong>: built-in Wi-Fi; works with Apple Home, Google Home, Alexa and SmartThings via Matter; DoorSense included; USB-C rechargeable battery; wide retail and after-sales network.</p>
+<p><strong>Limitations</strong>: battery life of up to about six months; the battery has to be removed to charge it; the cheaper L2 Lite has no Wi-Fi and needs a bridge for remote access.</p>
+<p><strong>Best for</strong>: buyers who want a major lock brand and a direct Wi-Fi connection.</p>
+
+<h3>6. SwitchBot Lock Ultra — longest battery life</h3>
+<p>The Lock Ultra is SwitchBot’s latest retrofit lock sold in Europe. It is much slimmer than the older Lock Pro, has a 4,200 mAh rechargeable battery rated for 9 to 12 months, and a backup CR123A cell for when the main battery is dead or charging.</p>
+<p><strong>Strengths</strong>: excellent rated battery life; fast, quiet motor according to the manufacturer; many ways to unlock with SwitchBot keypads (PIN, fingerprint, NFC, face recognition on some models); broad cylinder compatibility.</p>
+<p><strong>Limitations</strong>: Matter and Apple Home require a Matter-enabled SwitchBot hub; no native Thread.</p>
+<p><strong>Best for</strong>: homes already using SwitchBot, or anyone who wants to charge as rarely as possible.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Connectivity</th><th>Matter</th><th>Power</th><th>Keypad</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Nuki Smart Lock Pro (5th gen)</td><td>Wi-Fi + Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>Rechargeable battery</td><td>Optional</td><td>Most households</td></tr>
+<tr><td>Nuki Smart Lock Go</td><td>Wi-Fi + Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>Alkaline batteries (Power Pack optional)</td><td>Optional</td><td>Tighter budgets</td></tr>
+<tr><td>Aqara Smart Lock U200</td><td>Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>Rechargeable battery</td><td>Included (fingerprint, NFC, PIN)</td><td>Phone-free entry</td></tr>
+<tr><td>Tedee GO 2</td><td>Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>3 × CR123</td><td>Optional</td><td>Compact size</td></tr>
+<tr><td>Yale Linus Smart Lock L2</td><td>Wi-Fi + Bluetooth</td><td>Yes, over Wi-Fi</td><td>Rechargeable battery</td><td>Optional</td><td>Direct Wi-Fi</td></tr>
+<tr><td>SwitchBot Lock Ultra</td><td>Bluetooth (+ hub)</td><td>Via SwitchBot hub</td><td>Rechargeable battery + backup cell</td><td>Optional</td><td>Battery life</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying without checking the cylinder</strong>: without an emergency function, the adapter can block the key from outside. It is the main reason for returns.</li>
+<li><strong>Counting on Matter without a Thread router</strong>: Matter over Thread models need a border router that matches your ecosystem.</li>
+<li><strong>Forgetting to charge</strong>: turn on low-battery notifications and keep your physical key with you or with someone nearby.</li>
+<li><strong>Sticking onto a dirty door</strong>: for adhesive mounts, clean the surface first and respect the curing time.</li>
+<li><strong>Turning on auto-unlock without tuning it</strong>: proximity unlocking needs fine-tuning; start with a confirmation notification.</li>
+</ul>
+
+<h2>Installation, renting and security</h2>
+<p>All six models fit on the inside, mostly without drilling the door, and come off without leaving a mark, so they generally suit renters. Still, let your landlord or building management know, especially if an outdoor keypad has to be mounted.</p>
+<p>A smart lock does not make the door physically stronger: the cylinder and the lock itself are what resist a break-in. For a front door, a certified security cylinder remains a sound basis. On the digital side, choose a brand that ships regular updates, enable two-factor authentication on your account and revoke guest access you no longer need. To go further, read our <a href="/ca/blog/guide-securite-maison-connectee-2026">smart home security guide</a>.</p>
+
+<h2>Our verdict</h2>
+<p><strong>The Nuki Smart Lock Pro (5th generation) is the most balanced smart lock in 2026</strong>: it fits over your existing cylinder, has Wi-Fi and Matter over Thread built in, a rechargeable battery and a complete app. The <strong>Nuki Smart Lock Go</strong> offers the same foundations at an entry-level price. The <strong>Aqara Smart Lock U200</strong> is the best option if you want a fingerprint keypad from day one, the <strong>Tedee GO 2</strong> is the most discreet, the <strong>Yale Linus L2</strong> the simplest on Wi-Fi, and the <strong>SwitchBot Lock Ultra</strong> lasts longest between charges. To complete your entrance, see our guide to <a href="/ca/blog/sonnette-video-sans-abonnement">video doorbells without a subscription</a>.</p>`,
   },
   faq: [
     {
@@ -652,6 +917,9 @@ export const article: BlogArticle = {
         it: 'La mia porta è compatibile con una serratura smart?',
         nl: 'Is mijn deur geschikt voor een slim slot?',
         pl: 'Czy inteligentny zamek pasuje do moich drzwi?',
+        sv: 'Passar min dörr för ett smart lås?',
+        us: 'Will a smart lock fit my door?',
+        ca: 'Is my door compatible with a smart lock?',
       },
       answer: {
         fr: 'Dans la plupart des cas, oui, si votre porte a un cylindre à profil européen. Vérifiez deux points : le cylindre doit dépasser assez côté intérieur, et il doit avoir une fonction de secours (ouverture possible de l’extérieur avec une clé engagée à l’intérieur). Les fabricants proposent des outils de compatibilité en ligne.',
@@ -661,6 +929,9 @@ export const article: BlogArticle = {
         it: 'Nella maggior parte dei casi sì, se la porta ha un cilindro a profilo europeo. Verificate due cose: il cilindro deve sporgere abbastanza all’interno e avere la funzione di emergenza (si apre dall’esterno anche con una chiave inserita dentro). I produttori offrono strumenti di compatibilità online.',
         nl: 'Meestal wel, als je deur een Europrofielcilinder heeft. Controleer twee dingen: de cilinder moet binnen ver genoeg uitsteken en een noodfunctie hebben (hij gaat van buitenaf open, ook als er binnen een sleutel in zit). Fabrikanten bieden online compatibiliteitschecks.',
         pl: 'W większości przypadków tak, jeśli drzwi mają wkładkę o profilu europejskim. Sprawdź dwie rzeczy: wkładka musi wystarczająco wystawać z drzwi od wewnątrz i mieć funkcję awaryjną (da się ją otworzyć kluczem z zewnątrz, nawet gdy od środka tkwi w niej klucz). Producenci udostępniają w internecie narzędzia do sprawdzania zgodności.',
+        sv: 'I de flesta fall, ja, om dörren har en europrofilcylinder. Kontrollera två saker: cylindern måste sticka ut tillräckligt på insidan, och den måste ha nödfunktion (gå att öppna utifrån även när en nyckel sitter i på insidan). Tillverkarna har kompatibilitetsverktyg på nätet.',
+        us: 'In most cases, yes, if your door has a euro-profile cylinder. Check two things: the cylinder has to stick out far enough on the inside, and it needs an emergency function (it opens from outside even with a key inserted on the inside). Manufacturers offer online compatibility checkers. Most US exterior doors use a deadbolt instead, so confirm the fit for your door.',
+        ca: 'If your door has a Euro-profile cylinder, usually yes: the models in this guide are designed for that type of lock. Most Canadian exterior doors use a deadbolt instead, so check your lock first. With a Euro cylinder, check two things: it must stick out far enough on the inside, and it must have an emergency function (it opens from outside even with a key inserted inside). Manufacturers offer online compatibility checkers.',
       },
     },
     {
@@ -672,6 +943,9 @@ export const article: BlogArticle = {
         it: 'Posso installare una serratura smart in una casa in affitto?',
         nl: 'Kan ik een slim slot plaatsen in een huurwoning?',
         pl: 'Czy można zamontować inteligentny zamek w wynajmowanym mieszkaniu?',
+        sv: 'Kan jag sätta upp ett smart lås om jag hyr?',
+        us: 'Can you install a smart lock if you rent?',
+        ca: 'Can I install a smart lock if I rent?',
       },
       answer: {
         fr: 'Généralement oui. Les modèles à rétrofit se posent côté intérieur, sur le cylindre existant, souvent sans percer, et se retirent sans trace. Prévenez tout de même votre propriétaire, surtout si un clavier doit être fixé à l’extérieur. Les modèles qui remplacent le cylindre sont moins adaptés à la location.',
@@ -681,6 +955,9 @@ export const article: BlogArticle = {
         it: 'In genere sì. I modelli retrofit si montano all’interno, sul cilindro esistente, spesso senza forare, e si rimuovono senza lasciare segni. Avvisate comunque il proprietario, soprattutto se va fissato un tastierino esterno. I modelli che sostituiscono il cilindro sono meno adatti all’affitto.',
         nl: 'Meestal wel. Retrofitmodellen komen binnen op de bestaande cilinder, vaak zonder boren, en zijn spoorloos te verwijderen. Laat het je verhuurder wel weten, zeker als er buiten een klavier komt. Modellen die de cilinder vervangen zijn minder geschikt voor huurders.',
         pl: 'Zazwyczaj tak. Modele nakładkowe montuje się od wewnątrz na istniejącej wkładce, często bez wiercenia, a po zdjęciu nie zostawiają śladów. Mimo to uprzedź właściciela mieszkania, zwłaszcza jeśli na zewnątrz ma zostać zamocowana klawiatura. Modele, które zastępują wkładkę, gorzej nadają się do wynajmowanych lokali.',
+        sv: 'Oftast, ja. Lås för eftermontering sätts på insidan, över den befintliga cylindern, ofta utan borrning, och går att ta bort utan att lämna märken. Meddela ändå hyresvärden, särskilt om en knappsats ska sättas upp på utsidan. Modeller som ersätter cylindern passar sämre om du hyr.',
+        us: 'Usually, yes. Retrofit models go on the inside, over the existing cylinder, often without drilling, and come off without leaving a mark. Still, let your landlord know, especially if a keypad has to be mounted outside. Models that replace the cylinder are a worse fit for renters.',
+        ca: 'Usually, yes. Retrofit models fit on the inside, over the existing cylinder, often without drilling, and come off without leaving a mark. Still let your landlord know, especially if a keypad has to be mounted outside. Models that replace the cylinder are less suited to renting.',
       },
     },
     {
@@ -692,6 +969,9 @@ export const article: BlogArticle = {
         it: 'Cosa succede se la batteria si scarica?',
         nl: 'Wat gebeurt er als de batterij leeg is?',
         pl: 'Co się stanie, gdy bateria się rozładuje?',
+        sv: 'Vad händer om batteriet tar slut?',
+        us: 'What happens if the battery dies?',
+        ca: 'What happens if the battery runs out?',
       },
       answer: {
         fr: 'Vous ouvrez avec votre clé physique, qui reste utilisable de l’extérieur avec un cylindre à fonction de secours. Les applications préviennent bien avant que la batterie soit vide. La SwitchBot Lock Ultra ajoute une pile de secours CR123A.',
@@ -701,6 +981,9 @@ export const article: BlogArticle = {
         it: 'Aprite con la chiave fisica, che resta utilizzabile dall’esterno con un cilindro dotato di funzione di emergenza. Le app avvisano con largo anticipo prima che la batteria si scarichi. La SwitchBot Lock Ultra aggiunge una pila CR123A di riserva.',
         nl: 'Je opent met je fysieke sleutel, die met een cilinder met noodfunctie van buitenaf blijft werken. De apps waarschuwen ruim voordat de batterij leeg is. De SwitchBot Lock Ultra heeft daarnaast een CR123A-reservebatterij.',
         pl: 'Otwierasz drzwi tradycyjnym kluczem, który przy wkładce z funkcją awaryjną nadal działa od zewnątrz. Aplikacje ostrzegają na długo przed całkowitym rozładowaniem baterii. SwitchBot Lock Ultra ma dodatkowo zapasową baterię CR123A.',
+        sv: 'Då öppnar du med din vanliga nyckel, som fortfarande fungerar utifrån om cylindern har nödfunktion. Apparna varnar i god tid innan batteriet är tomt. SwitchBot Lock Ultra har dessutom ett CR123A-reservbatteri.',
+        us: 'You unlock the door with your physical key, which still works from outside as long as the cylinder has an emergency function. The apps warn you well before the battery runs out. The SwitchBot Lock Ultra also has a backup CR123A battery.',
+        ca: 'You open the door with your physical key, which still works from outside with an emergency-function cylinder. The apps warn you well before the battery is empty. The SwitchBot Lock Ultra adds a backup CR123A cell.',
       },
     },
     {
@@ -712,6 +995,9 @@ export const article: BlogArticle = {
         it: 'Serve un router Thread per usare Matter?',
         nl: 'Heb ik een Thread-router nodig voor Matter?',
         pl: 'Czy do obsługi Matter potrzebny jest router Thread?',
+        sv: 'Behöver jag en Thread-router för att använda Matter?',
+        us: 'Do you need a Thread router to use Matter?',
+        ca: 'Do I need a Thread router to use Matter?',
       },
       answer: {
         fr: 'Pour les modèles Matter over Thread (Nuki Pro et Go, Tedee GO 2, Aqara U200), oui : un routeur de bordure Thread compatible avec votre écosystème est nécessaire. Le Yale Linus L2 passe par le Wi-Fi, et la SwitchBot Lock Ultra par un hub SwitchBot compatible Matter.',
@@ -721,6 +1007,9 @@ export const article: BlogArticle = {
         it: 'Per i modelli Matter over Thread (Nuki Pro e Go, Tedee GO 2, Aqara U200) sì: serve un border router Thread compatibile con il vostro ecosistema. La Yale Linus L2 usa il Wi-Fi, mentre la SwitchBot Lock Ultra passa da un hub SwitchBot compatibile Matter.',
         nl: 'Voor modellen met Matter over Thread (Nuki Pro en Go, Tedee GO 2, Aqara U200) wel: je hebt een Thread-borderrouter nodig die bij je ecosysteem past. De Yale Linus L2 werkt via wifi en de SwitchBot Lock Ultra via een SwitchBot-hub met Matter.',
         pl: 'W modelach Matter over Thread (Nuki Pro i Go, Tedee GO 2, Aqara U200) tak: potrzebny jest router brzegowy Thread zgodny z Twoim ekosystemem. Yale Linus L2 korzysta z Wi-Fi, a SwitchBot Lock Ultra – z huba SwitchBot zgodnego z Matter.',
+        sv: 'För modeller med Matter via Thread (Nuki Pro och Go, Tedee GO 2, Aqara U200), ja: du behöver en gränsrouter för Thread som fungerar med ditt ekosystem. Yale Linus L2 använder wifi, och SwitchBot Lock Ultra går via en SwitchBot-hubb med Matter-stöd.',
+        us: 'For Matter over Thread models (Nuki Pro and Go, Tedee GO 2, Aqara U200), yes: you need a Thread border router that works with your ecosystem. The Yale Linus L2 connects over Wi-Fi, and the SwitchBot Lock Ultra goes through a Matter-enabled SwitchBot hub.',
+        ca: 'For Matter over Thread models (Nuki Pro and Go, Tedee GO 2, Aqara U200), yes: you need a Thread border router that works with your ecosystem. The Yale Linus L2 uses Wi-Fi, and the SwitchBot Lock Ultra goes through a Matter-enabled SwitchBot hub.',
       },
     },
     {
@@ -732,6 +1021,9 @@ export const article: BlogArticle = {
         it: 'Una serratura smart funziona senza internet?',
         nl: 'Werkt een slim slot zonder internet?',
         pl: 'Czy inteligentny zamek działa bez internetu?',
+        sv: 'Fungerar ett smart lås utan internet?',
+        us: 'Does a smart lock work without an internet connection?',
+        ca: 'Does a smart lock work without internet?',
       },
       answer: {
         fr: 'Oui, en local. Le Bluetooth permet d’ouvrir avec votre téléphone à proximité, et les claviers fonctionnent sans connexion. Internet sert à l’accès à distance, aux notifications, à la synchronisation de l’historique et aux mises à jour.',
@@ -741,6 +1033,9 @@ export const article: BlogArticle = {
         it: 'Sì, in locale. Il Bluetooth permette di aprire con il telefono nelle vicinanze e i tastierini funzionano senza connessione. Internet serve per l’accesso remoto, le notifiche, la sincronizzazione della cronologia e gli aggiornamenti.',
         nl: 'Ja, lokaal. Via Bluetooth open je de deur met je telefoon in de buurt, en klavieren werken zonder verbinding. Internet is nodig voor toegang op afstand, meldingen, het synchroniseren van het logboek en updates.',
         pl: 'Tak, w trybie lokalnym. Przez Bluetooth otworzysz drzwi telefonem, gdy jesteś w pobliżu, a klawiatury działają bez połączenia z siecią. Internet jest potrzebny do zdalnego dostępu, powiadomień, synchronizacji historii zdarzeń i aktualizacji.',
+        sv: 'Ja, lokalt. Med Bluetooth kan du låsa upp med mobilen när du är i närheten, och knappsatserna fungerar utan uppkoppling. Internet behövs för fjärråtkomst, notiser, synkning av aktivitetsloggen och uppdateringar.',
+        us: 'Yes, locally. Bluetooth lets you unlock with your phone when you’re nearby, and keypads work without a connection. You need the internet for remote access, notifications, syncing the activity log and updates.',
+        ca: 'Yes, locally. Bluetooth lets you unlock with your phone nearby, and keypads work without a connection. The internet is needed for remote access, notifications, log syncing and updates.',
       },
     },
     {
@@ -752,6 +1047,9 @@ export const article: BlogArticle = {
         it: 'Una serratura smart è più facile da forzare?',
         nl: 'Is een slim slot makkelijker te kraken?',
         pl: 'Czy inteligentny zamek ułatwia włamanie?',
+        sv: 'Är ett smart lås lättare att bryta upp?',
+        us: 'Is a smart lock easier to break into?',
+        ca: 'Is a smart lock easier to break into?',
       },
       answer: {
         fr: 'Non, la résistance à l’effraction dépend toujours du cylindre et de la serrure, que le module ne modifie pas. Côté numérique, choisissez une marque qui publie des mises à jour, protégez votre compte par double authentification et supprimez les accès inutiles.',
@@ -761,6 +1059,9 @@ export const article: BlogArticle = {
         it: 'No. La resistenza allo scasso dipende sempre da cilindro e serratura, che il modulo non modifica. Sul piano digitale scegliete un marchio che rilascia aggiornamenti, proteggete l’account con l’autenticazione a due fattori ed eliminate gli accessi inutili.',
         nl: 'Nee. De inbraakwerendheid hangt nog steeds af van de cilinder en het slot, die de motorunit niet verandert. Kies digitaal een merk dat updates uitbrengt, beveilig je account met tweestapsverificatie en verwijder toegang die je niet meer nodig hebt.',
         pl: 'Nie. Odporność na włamanie nadal zależy od wkładki i zamka, a moduł z silnikiem ich nie zmienia. Od strony cyfrowej wybierz markę, która publikuje aktualizacje, zabezpiecz konto uwierzytelnianiem dwuskładnikowym i usuwaj dostępy, których już nie potrzebujesz.',
+        sv: 'Nej. Hur väl dörren står emot inbrott beror fortfarande på cylindern och låset, och de påverkas inte av motorenheten. På den digitala sidan väljer du ett märke som släpper uppdateringar, skyddar kontot med tvåfaktorsautentisering och tar bort åtkomst som inte längre behövs.',
+        us: 'No. How well a door resists a break-in still depends on the cylinder and the lock, and the motor unit doesn’t change either one. On the digital side, pick a brand that ships regular updates, protect your account with two-factor authentication and remove access you no longer need.',
+        ca: 'No. Resistance to break-ins still depends on the cylinder and the lock, which the motor unit does not change. On the digital side, pick a brand that ships updates, protect your account with two-factor authentication and remove access you no longer need.',
       },
     },
   ],

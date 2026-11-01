@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Climatizzatore portatile senza tubo e raffrescatore evaporativo in un soggiorno soleggiato',
         nl: 'Draagbare airco zonder slang en verdampingskoeler in een zonnige woonkamer',
         pl: 'Klimatyzator przenośny bez węża i schładzacz ewaporacyjny w nasłonecznionym salonie',
+        sv: 'Portabel AC utan slang och luftkylare med vattenavdunstning i ett soligt vardagsrum',
+        us: 'Portable air conditioner without a hose next to an evaporative cooler in a sunny living room',
+        ca: 'Portable air conditioner without a hose and evaporative air cooler in a sunny living room',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Climatizzatore Portatile Senza Tubo 2026: Verità, Limiti e Cosa Comprare',
     nl: 'Draagbare Airco Zonder Slang 2026: Waarheid, Grenzen en Wat te Kopen',
     pl: 'Klimatyzator przenośny bez rury 2026: cała prawda, ograniczenia i co kupić',
+    sv: 'Portabel AC utan slang 2026: sanningen, begränsningarna och vad du bör köpa',
+    us: 'Portable Air Conditioner Without a Hose (2026): Truth, Limits and What to Buy',
+    ca: 'Portable Air Conditioner Without a Hose 2026: Truth, Limits and What to Buy',
   },
   excerpt: {
     fr: 'La vérité sur les climatiseurs portables sans tuyau : rafraîchisseurs évaporatifs contre vraie climatisation, pour qui chaque solution convient, consommation, formats courants et tableau comparatif complet.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'La verità sui climatizzatori portatili senza tubo: raffrescatori evaporativi vs vera climatizzazione, per chi è adatta ogni soluzione, consumi, formati comuni e tabella comparativa.',
     nl: 'De waarheid over draagbare airco\'s zonder slang: verdampingskoelers vs echte airconditioning, voor wie elke oplossing geschikt is, verbruik, gangbare types en een vergelijkingstabel.',
     pl: 'Cała prawda o klimatyzatorach przenośnych bez węża: schładzacze ewaporacyjne kontra prawdziwa klimatyzacja, dla kogo które rozwiązanie, zużycie energii, popularne typy urządzeń i pełna tabela porównawcza.',
+    sv: 'Sanningen om portabel AC utan slang: luftkylare mot riktig luftkonditionering, vem som har nytta av vad, elförbrukning, vanliga utföranden och en komplett jämförelsetabell.',
+    us: 'The truth about portable air conditioners without a hose: evaporative coolers vs. real air conditioning, who each one suits, power use, common formats and a full comparison table.',
+    ca: 'The truth about portable air conditioners without a hose (ventless models): evaporative coolers vs real air conditioning, who each solution suits, energy use, common formats and a full comparison table.',
   },
   content: {
     es: `<h2>Aire acondicionado portátil sin tubo: la verdad antes de comprar</h2>
@@ -619,6 +628,240 @@ export const article: BlogArticle = {
 
 <h2>Podsumowanie</h2>
 <p>Żaden <strong>klimatyzator przenośny bez węża</strong> nie chłodzi tak jak klimatyzator split – nie pozwalają na to prawa fizyki. Za to <strong>schładzacz ewaporacyjny</strong> nie wymaga montażu, zużywa mało energii i rzeczywiście daje ochłodę, gdy powietrze jest suche. Jeśli mieszkasz w wilgotnym klimacie albo potrzebujesz gwarantowanego chłodu, wybierz klimatyzator z wężem lub mocny wentylator.</p>`,
+    sv: `<h2>Portabel AC utan slang: sanningen innan du köper</h2>
+<p>Har du letat efter en <strong>portabel AC utan slang</strong> har du säkert sett mängder av apparater som lovar kyla direkt och <strong>utan installation</strong>. Innan du lägger pengar på en bör du känna till en obekväm sanning: en <em>riktig</em> luftkonditionering – en som faktiskt kyler ett rum som en split-AC på väggen – måste blåsa ut den varma luften utomhus. Det är fysik, inte marknadsföring. Därför är nästan allt som säljs som ”AC utan slang” inte någon luftkonditionering alls, utan en <strong>luftkylare</strong> som kyler med hjälp av vatten som avdunstar.</p>
+<p>Den här guiden förklarar ärligt vad du kan förvänta dig av varje typ av apparat, vem varje lösning passar och var gränserna går. Då slipper du köpa något i tron att det är en billig split-AC, bara för att upptäcka att det är en fläkt med vattentank. Vill du ha en bredare bild kan du läsa vår <a href="/sv/blog/climatiseur-mobile-vs-ventilateur">jämförelse mellan portabel AC, fläkt och luftkylare</a>.</p>
+
+<h2>Därför måste en riktig AC alltid blåsa ut luft</h2>
+<p>En AC med kompressor ”skapar” inte kyla: den <strong>flyttar värme</strong> från ett ställe till ett annat. Den tar upp värmen ur luften i rummet och släpper ut den utomhus. Värmen måste ta vägen någonstans – ut, genom utblåsslangen eller via utedelen på en fast split-AC.</p>
+<p>Utan slang stannar värmen kvar i samma rum. Temperaturen sjunker inte, den kan till och med stiga en aning, eftersom kompressorn drar el som också blir till värme. Alla löften om en ”riktig portabel AC utan slang som kyler som en split-AC” är alltså falska.</p>
+<p>Det betyder inte att apparaterna ”utan slang” är bluff: de gör <strong>något annat</strong>, och det kan vara användbart om du förstår begränsningarna.</p>
+<p>En annan vanlig förväxling: tornfläktar med vattendimma och små USB-prylar för skrivbordet är inte heller några AC-apparater. De ger svalka genom att luften rör sig mot huden eller genom en fin vattendimma, men de sänker inte temperaturen i rummet. Om termometern inte har rört sig efter en timme har du fått en känsla av svalka, inte riktig kylning.</p>
+
+<h2>Vad är en luftkylare?</h2>
+<p>En <strong>luftkylare</strong> (kallas också evaporativ kylare) är den apparat som verkligen fungerar <strong>utan slang</strong> och <strong>utan installation</strong>. Den bygger på en naturlig princip: när vatten avdunstar tar det upp värme.</p>
+<p>Inuti finns en vattentank och en fuktig kylkassett med bikakestruktur. En fläkt drar den varma, torra luften genom den blöta kassetten. En del av vattnet avdunstar och kyler luften, normalt med <strong>3–6 grader</strong> under goda förhållanden.</p>
+<ul>
+<li><strong>Utan installation:</strong> koppla in, fyll på vatten, klart. Ingen slang och inget hål i väggen.</li>
+<li><strong>Låg elförbrukning:</strong> 60–150 W, jämfört med 800–1 400 W för en riktig portabel AC.</li>
+<li><strong>Verkligen portabel:</strong> 6–12 kg, ofta på hjul.</li>
+<li><strong>Fuktar luften:</strong> skönt när luften är mycket torr.</li>
+</ul>
+
+<h3>Den stora begränsningen: luftfuktigheten</h3>
+<p>En luftkylare fungerar bara bra i torr luft. Ju torrare luften är, desto mer vatten kan avdunsta och desto bättre svalkar apparaten. Över 60–70 % luftfuktighet är luften nästan mättad och kyleffekten rasar, samtidigt som apparaten fortsätter att tillföra fukt och gör luften ännu klibbigare. Den passar utmärkt i torrt klimat men gör besviken i fuktiga kustområden.</p>
+<p>En enkel tumregel: ta reda på den genomsnittliga relativa luftfuktigheten på sommareftermiddagarna där du bor. Under 45 % gör en luftkylare bra ifrån sig, mellan 45 och 60 % ger den en viss lindring, och över 60 % märker du knappt någon skillnad.</p>
+
+<h2>Portabel AC i ett aggregat: så hanterar den luften</h2>
+<p>Ytterligare en kategori marknadsförs ibland missvisande som ”utan slang”: den portabla AC:n där allt sitter i ett och samma aggregat (monoblock). Den har en kompressor och kyler på riktigt, men den <strong>måste fortfarande blåsa ut den varma luften</strong>. Skillnaden ligger i hur den gör det:</p>
+<ul>
+<li><strong>Monoblock med en slang:</strong> en flexibel slang leder ut den varma luften genom ett fönster på glänt, med en fönstertätning. Det är den portabla lösning som faktiskt kyler.</li>
+<li><strong>Modeller med två slangar:</strong> effektivare, eftersom apparaten tar in uteluft för att kyla kompressorn, men den behöver fortfarande ett utlopp.</li>
+<li><strong>Felmärkta modeller ”utan slang”:</strong> ofta luftkylare i förklädnad. Läs produktbladet: ingen kompressor, inget köldmedium och ingen uppgift i BTU betyder en luftkylare.</li>
+</ul>
+<p>Den säkraste ledtråden är <strong>kyleffekten i BTU</strong>. En riktig AC för ett rum anger oftast mellan 7 000 och 12 000 BTU och drar flera hundra watt. En luftkylare anger aldrig BTU, eftersom den saknar kompressor.</p>
+
+<h2>Jämförelsetabell: luftkylare, portabel AC och fläkt</h2>
+<table>
+<thead>
+<tr><th>Kriterium</th><th>Luftkylare</th><th>Portabel AC (med slang)</th><th>Fläkt</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Verklig kylning</strong></td><td>Ja, i torr luft (−3 till −6 °C)</td><td>Ja, alltid (−5 till −12 °C)</td><td>Nej (bara en känsla av svalka)</td></tr>
+<tr><td><strong>Slang/installation</strong></td><td>Nej</td><td>Ja (utlopp genom fönstret)</td><td>Nej</td></tr>
+<tr><td><strong>Effekt</strong></td><td>60–150 W</td><td>800–1 400 W</td><td>30–75 W</td></tr>
+<tr><td><strong>Förbrukning per dag (8 tim)*</strong></td><td>0,5–1,2 kWh</td><td>6–11 kWh</td><td>0,2–0,6 kWh</td></tr>
+<tr><td><strong>Ljudnivå</strong></td><td>40–55 dB</td><td>50–65 dB</td><td>30–55 dB</td></tr>
+<tr><td><strong>Vikt</strong></td><td>6–12 kg (hjul)</td><td>25–40 kg</td><td>2–6 kg</td></tr>
+<tr><td><strong>Luftfuktighet</strong></td><td>Tillför fukt</td><td>Avfuktar</td><td>Påverkar inte</td></tr>
+<tr><td><strong>Värmebölja, 40 °C och mer</strong></td><td>Bara om luften är torr</td><td>Ja</td><td>Räcker inte</td></tr>
+</tbody>
+</table>
+<p>*Beräknat på märkeffekt i 8 timmar. En kompressor som slår av och på drar något mindre; siffrorna varierar med modell och hur länge apparaten används.</p>
+
+<h2>Vem passar vilken lösning?</h2>
+<ul>
+<li><strong>Luftkylare:</strong> torrt klimat, när du inte kan installera något (hyresbostad, strikta regler från föreningen eller hyresvärden), lägsta möjliga elförbrukning, svalka i en avgränsad del av rummet.</li>
+<li><strong>Portabel AC med slang:</strong> garanterad kyla även under en värmebölja, fuktiga områden, möjlighet att dra ut en slang, behov av att avfukta.</li>
+<li><strong>Fläkt:</strong> måttlig värme (sällan över 32–33 °C), lätt att flytta runt, minimal elförbrukning. Läs vår <a href="/sv/blog/ventilateur-connecte-comparatif">jämförelse av smarta fläktar</a>.</li>
+</ul>
+
+<h2>Vanliga utföranden</h2>
+<ul>
+<li><strong>Kompakt luftkylare för skrivbordet:</strong> skapar en personlig bubbla av svalka, men kyler inte ett helt rum.</li>
+<li><strong>Luftkylare i tornformat med stor tank:</strong> tank på 6–10 liter, flera hastigheter, ofta timer och fjärrkontroll. Det mest balanserade alternativet i torrt klimat.</li>
+<li><strong>Luftkylare med kylklampar:</strong> förstärker effekten i några timmar, men är fortfarande beroende av torr luft.</li>
+<li><strong>Portabel AC i ett aggregat (med slang):</strong> den enda som verkligen kyler utan att du behöver bygga om, i utbyte mot en slang i fönstret och hög elförbrukning.</li>
+</ul>
+<p>På produktbladet för en luftkylare ska du titta på tre uppgifter: <strong>tankens volym</strong> (6 liter eller mer för ett sovrum), <strong>luftflödet i m³/h</strong> och om det finns en timer – praktiskt för att svalka sovrummet före läggdags utan att låta apparaten gå hela natten. Var skeptisk mot pyttesmå apparater som lovar att kyla ett helt rum.</p>
+
+<h2>Tips för att få ut mest av en apparat utan slang</h2>
+<ul>
+<li>Använd kallt vatten eller isbitar i tanken.</li>
+<li>Håll rullgardinerna nere på dagen och vädra på natten.</li>
+<li>Ställ apparaten nära dig och rikta luftströmmen mot platsen där du sitter.</li>
+<li>Rengör filter och tank för att undvika mögel och dålig lukt, och töm tanken när apparaten inte används.</li>
+<li>Håll koll på temperatur och luftfuktighet med en <a href="/sv/blog/qualite-air-interieur-capteurs">luftkvalitetsmätare</a>.</li>
+</ul>
+
+<h2>Slutsats</h2>
+<p>Ingen <strong>portabel AC utan slang</strong> kyler som en split-AC – fysiken sätter stopp för det. Däremot är <strong>luftkylaren</strong> en lösning utan installation och med låg elförbrukning som verkligen svalkar när luften är torr. I fuktiga områden, eller om du vill ha garanterad kyla, ska du välja en AC med slang eller en kraftfull fläkt.</p>`,
+    us: `<h2>Portable air conditioner without a hose: the truth before you buy</h2>
+<p>If you've searched for a <strong>portable air conditioner without a hose</strong>, you've probably seen dozens of devices promising instant cold air with <strong>no installation</strong>. Before you spend a dollar, here's an uncomfortable truth: a <em>real</em> air conditioner — one that actually cools a room the way a mini-split does — has to push hot air outside. That's physics, not marketing. That's why almost everything sold as a "ventless" or "hoseless" air conditioner isn't an air conditioner at all. It's an <strong>evaporative cooler</strong>, often called a swamp cooler.</p>
+<p>This guide explains honestly what to expect from each type of device, who each one suits and where it falls short, so you don't buy what you think is a budget mini-split and end up with a fan that uses water. For the bigger picture, read our <a href="/us/blog/climatiseur-mobile-vs-ventilateur">portable AC vs. fan vs. evaporative cooler comparison</a>.</p>
+
+<h2>Why a real air conditioner always has to vent</h2>
+<p>A compressor-based AC doesn't "make" cold; it <strong>moves heat</strong> from one place to another. It pulls heat out of the air in your room and dumps it outdoors. That heat has to go somewhere: outside, through the exhaust hose of a portable unit or the outdoor unit of a mini-split.</p>
+<p>Without a hose, the heat it removes stays in the same room. The temperature doesn't drop; it can even creep up, because the compressor draws electricity that also ends up as heat. So any promise of a "real hose-free portable AC that cools like a mini-split" is simply false.</p>
+<p>That doesn't make hose-free devices a scam: they do <strong>something different</strong>, and it's useful as long as you understand the limits.</p>
+<p>Another common mix-up: tower fans with a mister and little USB desk gadgets aren't air conditioners either. They cool you with air moving across your skin or a fine water mist, but they don't lower the actual air temperature in the room. If the thermometer hasn't moved after an hour, you're getting a feeling of freshness, not real cooling.</p>
+
+<h2>What an evaporative cooler really is</h2>
+<p>The <strong>evaporative cooler</strong> is the device that genuinely works <strong>without a hose</strong> and <strong>without installation</strong>. The principle is a natural one: water absorbs heat as it evaporates.</p>
+<p>Inside, there's a water tank and a wet honeycomb pad. A fan pushes hot, dry air through the pad. Some of the water evaporates and cools the air, typically by <strong>5 to 11°F (3 to 6°C)</strong> in good conditions.</p>
+<ul>
+<li><strong>No installation:</strong> plug it in, add water, done. No hose, no hole in the wall.</li>
+<li><strong>Low power draw:</strong> 60–150 W, versus 800–1,400 W for a real portable AC.</li>
+<li><strong>Truly portable:</strong> 13–26 lb (6–12 kg), usually on casters.</li>
+<li><strong>Adds moisture to the air:</strong> pleasant in very dry climates.</li>
+</ul>
+
+<h3>Its big limitation: humidity</h3>
+<p>An evaporative cooler only works well in dry air. The drier the air, the more water it can evaporate and the more it cools. Above 60–70% humidity, the air is close to saturated and cooling falls off sharply, while the device keeps adding moisture and makes the room feel even muggier. It's ideal in dry climates and disappointing in humid coastal areas.</p>
+<p>A simple rule of thumb: check the average relative humidity on summer afternoons where you live. Below 45%, a cooler works well; between 45% and 60%, it gives moderate relief; above 60%, you'll barely notice a difference.</p>
+
+<h2>Single-unit portable ACs: how they handle hot air</h2>
+<p>Another category is sometimes confusingly marketed as "hose-free": the single-unit portable AC. It does have a compressor and it does cool, but it <strong>still has to vent hot air</strong>. The difference is in how:</p>
+<ul>
+<li><strong>Single-hose portable AC:</strong> one flexible hose vents hot air through a slightly open window fitted with a window kit. This is the truly portable option that actually cools.</li>
+<li><strong>Dual-hose models:</strong> more efficient because they pull in outside air to cool the compressor, but they still need a window outlet.</li>
+<li><strong>Mislabeled "hose-free" models:</strong> often evaporative coolers in disguise. Check the spec sheet: no compressor, no refrigerant and no BTU rating means it's a cooler.</li>
+</ul>
+<p>The most reliable clue is the <strong>BTU rating</strong>. A real room AC usually lists 7,000 to 12,000 BTU and draws several hundred watts. A cooler never lists BTU, because it has no compressor.</p>
+
+<h2>Comparison table: evaporative cooler vs. portable AC vs. fan</h2>
+<table>
+<thead>
+<tr><th>Criterion</th><th>Evaporative cooler</th><th>Portable AC (with hose)</th><th>Fan</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Real cooling</strong></td><td>Yes, in dry air (5–11°F cooler)</td><td>Yes, always (9–22°F cooler)</td><td>No (only feels cooler)</td></tr>
+<tr><td><strong>Hose / installation</strong></td><td>No</td><td>Yes (window vent)</td><td>No</td></tr>
+<tr><td><strong>Power</strong></td><td>60–150 W</td><td>800–1,400 W</td><td>30–75 W</td></tr>
+<tr><td><strong>Daily use (8 hr)*</strong></td><td>0.5–1.2 kWh</td><td>6–11 kWh</td><td>0.2–0.6 kWh</td></tr>
+<tr><td><strong>Noise</strong></td><td>40–55 dB</td><td>50–65 dB</td><td>30–55 dB</td></tr>
+<tr><td><strong>Weight</strong></td><td>13–26 lb (on casters)</td><td>55–88 lb</td><td>4–13 lb</td></tr>
+<tr><td><strong>Humidity</strong></td><td>Adds moisture</td><td>Dehumidifies</td><td>No effect</td></tr>
+<tr><td><strong>Heat wave, 104°F+</strong></td><td>Only if the air is dry</td><td>Yes</td><td>Not enough</td></tr>
+</tbody>
+</table>
+<p>*Calculated at rated power for 8 hours. A compressor that cycles on and off uses somewhat less; figures vary by model and hours of use.</p>
+
+<h2>Who each option suits</h2>
+<ul>
+<li><strong>Evaporative cooler:</strong> dry climates, homes where you can't install anything (rentals, strict condo or HOA rules), the lowest running costs, cooling one specific spot.</li>
+<li><strong>Portable AC with hose:</strong> guaranteed cooling even in a heat wave, humid regions, a window you can vent through, a need to dehumidify.</li>
+<li><strong>Fan:</strong> moderate heat (rarely above about 90°F, or 32–33°C), maximum portability, minimal power use. See our <a href="/us/blog/ventilateur-connecte-comparatif">smart fan comparison</a>.</li>
+</ul>
+
+<h2>Common formats</h2>
+<ul>
+<li><strong>Compact desktop cooler:</strong> creates a personal bubble of cool air, not a cool room.</li>
+<li><strong>Tower cooler with a large tank:</strong> a 1.6- to 2.6-gallon (6–10 L) tank, several fan speeds, often a timer and remote. The most balanced format for dry climates.</li>
+<li><strong>Cooler with ice packs:</strong> boosts the effect for a few hours, but still depends on dry air.</li>
+<li><strong>Single-unit portable AC (with hose):</strong> the only one that truly cools without any construction work, in exchange for a hose out the window and high power use.</li>
+</ul>
+<p>On an evaporative cooler's spec sheet, look at three things: <strong>tank capacity</strong> (1.6 gallons, or 6 L, or more for a bedroom), <strong>airflow in CFM or m³/h</strong> and a timer, which lets you cool the bedroom before bed without running the unit all night. Be wary of tiny devices that claim to cool an entire room.</p>
+
+<h2>Tips to get the most from a hose-free device</h2>
+<ul>
+<li>Fill the tank with cold water or add ice.</li>
+<li>Keep blinds closed during the day and open the windows at night.</li>
+<li>Place the device close to you and aim the airflow where you sit.</li>
+<li>Clean the filter and tank to prevent mold and odors; empty the tank when you're not using it.</li>
+<li>Track temperature and humidity with an <a href="/us/blog/qualite-air-interieur-capteurs">indoor air quality monitor</a>.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>No <strong>hose-free portable air conditioner</strong> cools like a mini-split — physics won't allow it. But an <strong>evaporative cooler</strong> is a no-installation, low-power option that genuinely cools the air when it's dry. In humid regions, or if you need guaranteed cooling, choose a portable AC with a hose or a powerful fan.</p>`,
+    ca: `<h2>Portable air conditioner without a hose: the truth before you buy</h2>
+<p>If you've searched for a <strong>portable air conditioner without a hose</strong> (often sold as "ventless"), you've probably seen dozens of devices promising instant cold air with <strong>no installation</strong>. Before spending your money, an uncomfortable truth: a <em>real</em> air conditioner — one that actually cools a room like a ductless mini-split — must expel hot air outside. That is physics, not marketing. This is why almost everything sold as a "hose-free air conditioner" is not an air conditioner at all, but an <strong>evaporative air cooler</strong>.</p>
+<p>This guide honestly explains what to expect from each device, who each solution suits, and its limits, so you don't buy what you think is a budget mini-split and end up with a fan that uses water. For a wider view, read our <a href="/ca/blog/climatiseur-mobile-vs-ventilateur">portable AC vs fan vs cooler comparison</a>.</p>
+
+<h2>Why a real air conditioner must always exhaust air</h2>
+<p>A compressor-based AC does not "create" cold; it <strong>moves heat</strong> from one place to another. It extracts heat from your room's air and dumps it outside. That heat has to go somewhere — outdoors, through the exhaust hose or the outdoor unit of a mini-split.</p>
+<p>Without a hose, the extracted heat stays in the same room. The temperature does not drop; it may even rise slightly, since the compressor consumes electricity that also becomes heat. So any promise of a "real hose-free portable AC that cools like a mini-split" is simply false.</p>
+<p>This does not mean hose-free devices are a scam: they do <strong>something different</strong>, which is useful if you understand the limits.</p>
+<p>Another common mix-up: tower fans with a mister and small USB desk gadgets are not air conditioners either. They cool you through moving air on your skin, or a fine water mist, but they do not lower the room's actual air temperature. If the thermometer does not move after an hour, you have a feeling of freshness, not real cooling.</p>
+
+<h2>What an evaporative air cooler really is</h2>
+<p>The <strong>evaporative cooler</strong> is the device that genuinely works <strong>without a hose</strong> and <strong>without installation</strong>. Its principle is natural: evaporating water absorbs heat.</p>
+<p>Inside there is a water tank and a wet honeycomb pad. A fan pushes hot, dry air through the wet pad. Some water evaporates, cooling the air, typically by <strong>3 to 6°C</strong> in good conditions.</p>
+<ul>
+<li><strong>No installation:</strong> plug in, add water, done. No hose, no hole in the wall.</li>
+<li><strong>Low power use:</strong> 60 to 150 W versus 800 to 1,400 W for a real portable AC.</li>
+<li><strong>Truly portable:</strong> 6 to 12 kg, usually on wheels.</li>
+<li><strong>Humidifies the air:</strong> pleasant in very dry environments.</li>
+</ul>
+
+<h3>Its big limit: humidity</h3>
+<p>An evaporative cooler only works well with dry air. The drier the air, the more water it can evaporate and the more it cools. Above 60 to 70% humidity, the air is close to saturation and cooling collapses, while the device adds even more moisture, worsening the muggy feeling. It is ideal in dry climates and disappointing in humid coastal areas.</p>
+<p>A simple rule of thumb: check the average relative humidity on summer afternoons where you live. Below 45%, a cooler works well; between 45% and 60%, it gives moderate relief; above 60%, you will barely notice a difference.</p>
+
+<h2>The standard portable AC: how it handles hot air</h2>
+<p>Another category is sometimes confusingly sold as "hose-free": the standard single-unit portable AC. It does have a compressor and does cool, but it <strong>still has to exhaust hot air</strong>. The difference lies in how:</p>
+<ul>
+<li><strong>Single-hose models:</strong> one flexible hose vents hot air through a slightly open window sealed with a window kit. The real portable solution that cools.</li>
+<li><strong>Dual-hose models:</strong> more efficient because they draw outside air to cool the compressor, but still need an outlet.</li>
+<li><strong>Mislabeled "hose-free" models:</strong> often evaporative coolers in disguise. Check the spec sheet: no compressor, no refrigerant, no BTU rating = a cooler.</li>
+</ul>
+<p>The most reliable clue is the <strong>BTU rating</strong>. A real room AC usually lists 7,000 to 12,000 BTU and draws several hundred watts. A cooler never mentions BTU because it has no compressor.</p>
+
+<h2>Comparison table: cooler vs portable AC vs fan</h2>
+<table>
+<thead>
+<tr><th>Criterion</th><th>Evaporative cooler</th><th>Portable AC (with hose)</th><th>Fan</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Real cooling</strong></td><td>Yes, in dry air (3 to 6°C cooler)</td><td>Yes, always (5 to 12°C cooler)</td><td>No (sensation only)</td></tr>
+<tr><td><strong>Hose / install</strong></td><td>No</td><td>Yes (window outlet)</td><td>No</td></tr>
+<tr><td><strong>Power</strong></td><td>60 – 150 W</td><td>800 – 1,400 W</td><td>30 – 75 W</td></tr>
+<tr><td><strong>Daily use (8 h)*</strong></td><td>0.5 – 1.2 kWh</td><td>6 – 11 kWh</td><td>0.2 – 0.6 kWh</td></tr>
+<tr><td><strong>Noise</strong></td><td>40 – 55 dB</td><td>50 – 65 dB</td><td>30 – 55 dB</td></tr>
+<tr><td><strong>Weight</strong></td><td>6 – 12 kg (wheels)</td><td>25 – 40 kg</td><td>2 – 6 kg</td></tr>
+<tr><td><strong>Humidity</strong></td><td>Adds humidity</td><td>Dehumidifies</td><td>Neutral</td></tr>
+<tr><td><strong>Heat wave (40°C+)</strong></td><td>Only if air is dry</td><td>Yes</td><td>Insufficient</td></tr>
+</tbody>
+</table>
+<p>*Calculated at rated power for 8 hours. A compressor that cycles on and off uses somewhat less; figures vary by model and hours of use.</p>
+
+<h2>Who each solution suits</h2>
+<ul>
+<li><strong>Evaporative cooler:</strong> dry climates, no installation possible (rentals, strict condo or building rules), lowest running costs, cooling a targeted zone.</li>
+<li><strong>Portable AC with hose:</strong> guaranteed cold even in a heat wave, humid areas, ability to vent a hose, need to dehumidify.</li>
+<li><strong>Fan:</strong> moderate heat (rarely above 32–33°C), maximum mobility, minimal power use. See our <a href="/ca/blog/ventilateur-connecte-comparatif">smart fan comparison</a>.</li>
+</ul>
+
+<h2>Common formats</h2>
+<ul>
+<li><strong>Compact desktop cooler:</strong> creates a personal bubble of cool air, not a cooled room.</li>
+<li><strong>Tower cooler with large tank:</strong> 6 to 10 L tank, several speeds, often a timer and remote. The most balanced format for dry climates.</li>
+<li><strong>Cooler with ice packs:</strong> boosts the effect for a few hours, but still relies on dry air.</li>
+<li><strong>Standard portable AC (with hose):</strong> the only one that truly cools without renovations, in exchange for a window hose and high power use.</li>
+</ul>
+<p>On a cooler's spec sheet, look at three things: <strong>tank capacity</strong> (6 litres or more for a bedroom), <strong>airflow in m³/h</strong> and a timer, which lets you cool the bedroom before bed without running the unit all night. Be wary of tiny devices that claim to cool a whole room.</p>
+
+<h2>Tips to get the most from a hose-free device</h2>
+<ul>
+<li>Use cold water or ice in the tank.</li>
+<li>Close blinds by day, ventilate at night.</li>
+<li>Place the device near you and aim the airflow at where you sit.</li>
+<li>Clean the filter and tank to avoid mould and odours; empty the tank when not in use.</li>
+<li>Track temperature and humidity with an <a href="/ca/blog/qualite-air-interieur-capteurs">indoor air quality monitor</a>.</li>
+</ul>
+
+<h2>Conclusion</h2>
+<p>No <strong>hose-free portable air conditioner</strong> cools like a mini-split — physics forbids it. But the <strong>evaporative cooler</strong> is a no-installation, low-consumption solution that genuinely refreshes when the air is dry. In humid areas or for guaranteed cold, choose a hosed AC or a powerful fan.</p>`,
   },
   faq: [
     {
@@ -630,6 +873,9 @@ export const article: BlogArticle = {
         it: 'Esistono veri climatizzatori portatili senza tubo?',
         nl: 'Bestaan er echte draagbare airco\'s zonder slang?',
         pl: 'Czy istnieją prawdziwe klimatyzatory przenośne bez węża?',
+        sv: 'Finns det någon riktig portabel AC utan slang?',
+        us: 'Are there truly hose-free portable air conditioners?',
+        ca: 'Do truly hose-free portable air conditioners exist?',
       },
       answer: {
         es: 'No, no como tal. Un aire acondicionado con compresor necesita siempre expulsar el aire caliente al exterior; sin tubo, el calor se queda en la habitación y la temperatura no baja. Lo que se vende como "sin tubo" es casi siempre un climatizador evaporativo (enfriador de aire), que refresca de otra forma pero no es un aire acondicionado real.',
@@ -639,6 +885,9 @@ export const article: BlogArticle = {
         it: 'No, non davvero. Un climatizzatore a compressore deve sempre espellere l\'aria calda all\'esterno; senza tubo il calore resta nella stanza. Ciò che si vende "senza tubo" è quasi sempre un raffrescatore evaporativo, che rinfresca in altro modo ma non è un vero climatizzatore.',
         nl: 'Nee, niet echt. Een airco met compressor moet altijd warme lucht naar buiten afvoeren; zonder slang blijft de warmte in de kamer. Wat als "slangloos" wordt verkocht is bijna altijd een verdampingskoeler, die op een andere manier verfrist maar geen echte airco is.',
         pl: 'Nie – przynajmniej nie w ścisłym tego słowa znaczeniu. Klimatyzator ze sprężarką zawsze musi wyrzucać gorące powietrze na zewnątrz; bez węża ciepło zostaje w pomieszczeniu. Urządzenia sprzedawane jako „bez węża” to prawie zawsze schładzacze ewaporacyjne, które chłodzą w inny sposób, ale nie są prawdziwymi klimatyzatorami.',
+        sv: 'Nej, inte i egentlig mening. En AC med kompressor måste alltid blåsa ut den varma luften utomhus; utan slang stannar värmen kvar i rummet. Det som säljs ”utan slang” är nästan alltid en luftkylare, som svalkar på ett annat sätt men inte är någon riktig luftkonditionering.',
+        us: 'Not really. A compressor-based AC always has to vent hot air outside; without a hose, the heat stays in the room. Almost everything sold as "hose-free" or "ventless" is an evaporative cooler, which cools differently and isn\'t true air conditioning.',
+        ca: 'No, not really. A compressor-based AC must always exhaust hot air outside; without a hose, the heat stays in the room. What is sold as "hose-free" is almost always an evaporative cooler, which refreshes differently but is not real air conditioning.',
       },
     },
     {
@@ -650,6 +899,9 @@ export const article: BlogArticle = {
         it: 'Che differenza c\'è tra un raffrescatore evaporativo e un climatizzatore?',
         nl: 'Wat is het verschil tussen een verdampingskoeler en een airco?',
         pl: 'Czym różni się schładzacz ewaporacyjny od klimatyzatora?',
+        sv: 'Vad är skillnaden mellan en luftkylare och en AC?',
+        us: 'What\'s the difference between an evaporative cooler and an air conditioner?',
+        ca: 'What is the difference between an evaporative cooler and an air conditioner?',
       },
       answer: {
         es: 'El aire acondicionado tiene compresor y gas refrigerante: extrae el calor y lo expulsa fuera por un tubo, por eso enfría de verdad y deshumidifica. El climatizador evaporativo no tiene compresor: hace pasar aire por agua y lo enfría solo unos grados, sin tubo y con muy bajo consumo, pero añade humedad y solo funciona bien con aire seco.',
@@ -659,6 +911,9 @@ export const article: BlogArticle = {
         it: 'Il climatizzatore ha compressore e gas refrigerante: estrae il calore e lo espelle con un tubo, quindi raffredda davvero e deumidifica. Il raffrescatore evaporativo non ha compressore: fa passare l\'aria nell\'acqua, senza tubo e a bassissimo consumo, ma aggiunge umidità e funziona bene solo con aria secca.',
         nl: 'Een airco heeft een compressor en koudemiddel: hij haalt warmte weg en voert die af via een slang, dus koelt echt en ontvochtigt. Een verdampingskoeler heeft geen compressor: hij leidt lucht door water, slangloos en zeer zuinig, maar voegt vocht toe en werkt alleen goed bij droge lucht.',
         pl: 'Klimatyzator ma sprężarkę i czynnik chłodniczy: odbiera ciepło z pomieszczenia i odprowadza je wężem na zewnątrz, dlatego naprawdę chłodzi i przy okazji osusza powietrze. Schładzacz ewaporacyjny nie ma sprężarki: przepuszcza powietrze przez zwilżony wodą wkład, nie potrzebuje węża i zużywa bardzo mało prądu, ale nawilża powietrze i dobrze działa tylko wtedy, gdy jest ono suche.',
+        sv: 'En AC har kompressor och köldmedium: den tar upp värmen och blåser ut den genom en slang, så den kyler på riktigt och avfuktar dessutom. En luftkylare har ingen kompressor: den leder luften genom vatten, utan slang och med mycket låg elförbrukning, men den tillför fukt och fungerar bara bra i torr luft.',
+        us: 'An AC has a compressor and refrigerant: it pulls heat out of the room and vents it through a hose, so it truly cools and dehumidifies. An evaporative cooler has no compressor: it blows air through water, needs no hose and uses very little power, but it adds humidity and only works well in dry air.',
+        ca: 'An AC has a compressor and refrigerant: it extracts heat and exhausts it through a hose, so it truly cools and dehumidifies. An evaporative cooler has no compressor: it passes air through water, hose-free and very low power, but it adds humidity and only works well with dry air.',
       },
     },
     {
@@ -670,6 +925,9 @@ export const article: BlogArticle = {
         it: 'Un raffrescatore evaporativo funziona bene in Spagna?',
         nl: 'Werkt een verdampingskoeler goed in Spanje?',
         pl: 'Czy schładzacz ewaporacyjny sprawdzi się w Hiszpanii?',
+        sv: 'Fungerar en luftkylare bra i Spanien?',
+        us: 'Does an evaporative cooler work in my climate?',
+        ca: 'Does an evaporative cooler work well in every climate?',
       },
       answer: {
         es: 'Depende mucho de la zona. En el interior seco (Madrid, Castilla, Aragón, Extremadura) funciona muy bien porque la humedad es baja y el efecto refrescante es notable. En la costa mediterránea y el norte, donde la humedad es alta, rinde poco y puede dar sensación de bochorno. Antes de comprar, ten en cuenta la humedad típica de tu ciudad.',
@@ -679,6 +937,9 @@ export const article: BlogArticle = {
         it: 'Dipende molto dalla zona. Nell\'interno secco della Spagna (Madrid, Castiglia, Aragona) funziona molto bene perché l\'umidità è bassa. Sulla costa mediterranea e al nord, con umidità alta, rende poco e può dare una sensazione di afa.',
         nl: 'Dat hangt sterk van de regio af. In het droge binnenland van Spanje (Madrid, Castilië, Aragón) werkt hij goed omdat de luchtvochtigheid laag is. Aan de Middellandse Zeekust en in het noorden, met hoge vochtigheid, presteert hij slecht en kan het benauwd aanvoelen.',
         pl: 'To w dużej mierze zależy od regionu. W suchych regionach w głębi Hiszpanii (Madryt, Kastylia, Aragonia) działa bardzo dobrze, bo wilgotność jest tam niska. Na wybrzeżu Morza Śródziemnego i na północy kraju, gdzie powietrze jest wilgotne, daje niewiele i może potęgować uczucie duchoty.',
+        sv: 'Det beror mycket på var i landet du är. I det torra spanska inlandet (Madrid, Kastilien, Aragonien) fungerar den mycket bra eftersom luftfuktigheten är låg. Längs Medelhavskusten och i norr, där luftfuktigheten är hög, gör den liten nytta och kan ge en klibbig känsla.',
+        us: 'It depends on how humid your summers are. In dry climates, such as the desert Southwest, it works very well because humidity is low. In humid regions, such as the Gulf Coast or the Southeast, it performs poorly and can make the room feel muggy.',
+        ca: 'It depends heavily on where you live. In a dry climate it works very well, because humidity is low. In humid regions, or during a muggy summer heat wave, it performs poorly and can make the air feel even stickier.',
       },
     },
     {
@@ -690,6 +951,9 @@ export const article: BlogArticle = {
         it: 'Quanto consuma un raffrescatore rispetto a un climatizzatore?',
         nl: 'Hoeveel verbruikt een luchtkoeler vergeleken met een airco?',
         pl: 'Ile prądu zużywa schładzacz w porównaniu z klimatyzatorem?',
+        sv: 'Hur mycket el drar en luftkylare jämfört med en AC?',
+        us: 'How much power does an evaporative cooler use compared with an air conditioner?',
+        ca: 'How much power does an air cooler use versus an air conditioner?',
       },
       answer: {
         es: 'Muy poco: un climatizador evaporativo gasta entre 60 y 150 W, parecido a un ventilador. Un aire acondicionado portátil con compresor consume entre 800 y 1.400 W, es decir, hasta diez veces más. Por eso el enfriador de aire es la opción de bajo consumo si tu clima es seco; el aire acondicionado es más caro de usar pero enfría siempre.',
@@ -699,6 +963,9 @@ export const article: BlogArticle = {
         it: 'Pochissimo: un raffrescatore evaporativo consuma 60-150 W, come un ventilatore. Un climatizzatore portatile a compressore consuma 800-1.400 W, fino a dieci volte di più. Il raffrescatore è l\'opzione a basso consumo in clima secco; il climatizzatore costa di più in uso ma raffredda sempre.',
         nl: 'Heel weinig: een verdampingskoeler verbruikt 60-150 W, vergelijkbaar met een ventilator. Een airco met compressor verbruikt 800-1.400 W, tot tien keer meer. De koeler is de zuinige optie in een droog klimaat; de airco kost meer in gebruik maar koelt altijd.',
         pl: 'Bardzo mało: schładzacz ewaporacyjny pobiera 60–150 W, tyle co wentylator. Przenośny klimatyzator ze sprężarką pobiera 800–1400 W, czyli nawet dziesięć razy więcej. W suchym klimacie schładzacz jest więc rozwiązaniem energooszczędnym; klimatyzator jest droższy w eksploatacji, ale chłodzi zawsze.',
+        sv: 'Mycket lite: en luftkylare drar 60–150 W, ungefär som en fläkt. En portabel AC med kompressor drar 800–1 400 W, alltså upp till tio gånger mer. Luftkylaren är därför det strömsnåla alternativet i torrt klimat, medan AC:n kostar mer i drift men alltid kyler.',
+        us: 'Very little: an evaporative cooler draws 60–150 W, about the same as a fan. A compressor-based portable AC draws 800–1,400 W, up to ten times more. So in a dry climate the cooler is the low-power option; the AC costs more to run but always cools.',
+        ca: 'Very little: an evaporative cooler uses 60 to 150 W, similar to a fan. A compressor portable AC uses 800 to 1,400 W, up to ten times more. So the cooler is the low-consumption option in a dry climate; the AC costs more to run but always cools.',
       },
     },
     {
@@ -710,6 +977,9 @@ export const article: BlogArticle = {
         it: 'Posso usare un climatizzatore portatile senza far uscire il tubo dalla finestra?',
         nl: 'Kan ik een draagbare airco gebruiken zonder de slang uit het raam te leiden?',
         pl: 'Czy mogę używać klimatyzatora przenośnego bez wyprowadzania węża przez okno?',
+        sv: 'Kan jag använda en portabel AC utan att dra ut slangen genom fönstret?',
+        us: 'Can I use a portable AC without venting the hose out a window?',
+        ca: 'Can I use a portable AC without venting the hose out a window?',
       },
       answer: {
         es: 'No de forma eficaz. Si no sacas el tubo, el aire caliente se devuelve a la misma habitación y el aparato deja de enfriar (incluso puede calentar un poco por el consumo del compresor). Si no puedes sacar el tubo por una ventana, la única solución realista sin instalación es un climatizador evaporativo o un ventilador potente.',
@@ -719,6 +989,9 @@ export const article: BlogArticle = {
         it: 'Non in modo efficace. Senza far uscire il tubo, l\'aria calda torna nella stanza e l\'apparecchio smette di raffreddare (può persino scaldare un po\'). Se non puoi far uscire il tubo, l\'unica soluzione realistica senza installazione è un raffrescatore evaporativo o un ventilatore potente.',
         nl: 'Niet effectief. Zonder de slang af te voeren keert de warme lucht terug in de kamer en stopt het apparaat met koelen (het kan zelfs iets opwarmen). Als je geen slang kunt afvoeren, is een verdampingskoeler of krachtige ventilator de enige realistische oplossing zonder installatie.',
         pl: 'Nie da się tego zrobić skutecznie. Jeśli wąż nie jest wyprowadzony na zewnątrz, gorące powietrze wraca do pomieszczenia i urządzenie przestaje chłodzić (może je nawet lekko ogrzewać). Jeśli nie masz możliwości wyprowadzenia węża, jedynym realnym rozwiązaniem bez montażu jest schładzacz ewaporacyjny albo mocny wentylator.',
+        sv: 'Inte på något effektivt sätt. Om slangen inte leds ut strömmar den varma luften tillbaka in i rummet och apparaten slutar kyla (den kan till och med värma en aning). Kan du inte dra ut en slang är det enda realistiska alternativet utan installation en luftkylare eller en kraftfull fläkt.',
+        us: 'Not effectively. Without venting the hose, hot air goes right back into the room and the unit stops cooling (it can even warm the room slightly because of the compressor). If you can\'t vent a hose, your only realistic no-installation options are an evaporative cooler or a powerful fan.',
+        ca: 'Not effectively. Without venting the hose, hot air returns to the room and the device stops cooling (it may even warm slightly from compressor use). If you cannot vent a hose, the only realistic no-install solution is an evaporative cooler or a powerful fan.',
       },
     },
   ],

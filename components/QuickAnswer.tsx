@@ -23,6 +23,9 @@ const LABELS: Record<string, { title: string; button: string; disclosure: string
   it: { title: 'Risposta rapida', button: 'Vedi su Amazon', disclosure: 'Link di affiliazione Amazon: commissione senza costi aggiuntivi per te.' },
   nl: { title: 'Snel antwoord', button: 'Bekijk op Amazon', disclosure: 'Amazon-affiliatelinks: commissie zonder extra kosten voor jou.' },
   pl: { title: 'Szybka odpowiedź', button: 'Zobacz na Amazon', disclosure: 'Linki afiliacyjne Amazon: prowizja bez dodatkowych kosztów dla Ciebie.' },
+  sv: { title: 'Snabbt svar', button: 'Visa på Amazon', disclosure: 'Affiliatelänkar till Amazon: provision utan extra kostnad för dig.' },
+  us: { title: 'Quick answer', button: 'View on Amazon', disclosure: 'Amazon affiliate links: we earn a commission at no extra cost to you.' },
+  ca: { title: 'Quick answer', button: 'View on Amazon', disclosure: 'Amazon affiliate links: commission at no extra cost to you.' },
 }
 
 /**

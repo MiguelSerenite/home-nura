@@ -59,6 +59,27 @@ const pageContent: Record<string, { title: string; subtitle: string; intro: stri
     intro: 'Odpowiedz na 3 proste pytania i sprawdź, który model najlepiej pasuje do liczby domowników, Twojego budżetu i priorytetów.',
     breadcrumb: 'Quiz',
   },
+  sv: {
+    kicker: 'Personligt quiz',
+    title: 'Vilken airfryer passar mig?',
+    subtitle: 'En skräddarsydd rekommendation efter 3 frågor',
+    intro: 'Svara på 3 enkla frågor och se vilken modell som passar ditt hushåll, din budget och det som är viktigast för dig.',
+    breadcrumb: 'Quiz',
+  },
+  us: {
+    kicker: 'Personalized quiz',
+    title: 'Which air fryer is right for you?',
+    subtitle: 'A tailored recommendation in 3 questions',
+    intro: 'Answer 3 quick questions to find the model that fits your household, budget and priorities.',
+    breadcrumb: 'Quiz',
+  },
+  ca: {
+    kicker: 'Personalized quiz',
+    title: 'Which air fryer for me?',
+    subtitle: 'Tailored recommendation in 3 questions',
+    intro: 'Answer 3 simple questions and discover the model that matches your household, budget and priorities.',
+    breadcrumb: 'Quiz',
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

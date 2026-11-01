@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Friggitrice ad aria nera su un piano di lavoro in legno accanto a una ciotola di pomodori',
         nl: 'Zwarte airfryer op een houten aanrecht naast een schaal tomaten',
         pl: 'Czarna frytkownica beztłuszczowa na drewnianym blacie, obok miski z pomidorami',
+        sv: 'Svart airfryer på en köksbänk i trä, bredvid en skål med tomater',
+        us: 'Black air fryer on a wooden kitchen countertop next to a bowl of tomatoes',
+        ca: 'Black air fryer on a wooden kitchen countertop next to a bowl of tomatoes',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Cucinare Sano con la Friggitrice ad Aria: Guida Nutrizione e Benessere',
     nl: 'Gezond Koken met de Airfryer: Voedings- en Welzijnsgids',
     pl: 'Zdrowa kuchnia z frytkownicą beztłuszczową: poradnik o odżywianiu i dobrym samopoczuciu',
+    sv: 'Laga nyttig mat i airfryer: guide till kost och välmående',
+    us: 'Healthy Cooking With an Air Fryer: A Nutrition and Wellness Guide',
+    ca: 'Healthy Cooking with an Air Fryer: Nutrition and Wellness Guide',
   },
   excerpt: {
     fr: 'Ce que l\'airfryer change vraiment dans votre alimentation : moins d\'huile, acrylamide, nutriments, aliments à privilégier, idées de repas sains et limites à connaître.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Cosa cambia davvero la friggitrice ad aria nella tua alimentazione: meno olio, acrilammide, nutrienti, alimenti consigliati, idee per pasti sani e limiti da conoscere.',
     nl: 'Wat de airfryer echt verandert aan je voeding: minder olie, acrylamide, voedingsstoffen, geschikte ingrediënten, gezonde maaltijdideeën en de grenzen ervan.',
     pl: 'Co frytkownica beztłuszczowa naprawdę zmienia w Twojej diecie: mniej oleju, akrylamid, składniki odżywcze, produkty, po które warto sięgać, pomysły na zdrowe posiłki i ograniczenia, które trzeba znać.',
+    sv: 'Vad en airfryer faktiskt förändrar i din kost: mindre olja, akrylamid, näringsämnen, livsmedel som passar bäst, idéer till nyttiga måltider och begränsningarna du bör känna till.',
+    us: 'What an air fryer really changes in your diet: less oil, acrylamide, nutrient retention, the best foods to cook, healthy meal ideas and the limits worth knowing.',
+    ca: 'What an air fryer really changes in your diet: less oil, acrylamide, nutrients, the best foods to cook, healthy meal ideas and the limits worth knowing.',
   },
   content: {
     fr: `<h2>L'airfryer est-il vraiment plus sain ?</h2>
@@ -767,6 +776,315 @@ export const article: BlogArticle = {
 <h2>Podsumowanie: praktyczne urządzenie, a nie cudowne rozwiązanie</h2>
 <p>Frytkownica używana ze świeżymi składnikami i niewielką ilością oleju ułatwia przygotowywanie lżejszych posiłków na co dzień – zwłaszcza gdy zastępuje smażenie w głębokim tłuszczu. Jej zalety są realne, ale zależą od wybranych produktów i sposobu przyrządzania: złocisty, a nie brązowy kolor, nieprzepełniony kosz, mało przetworzone produkty.</p>
 <p>Więcej znajdziesz w naszym <a href="/pl/guides/airfryers">kompletnym poradniku o frytkownicach beztłuszczowych</a> oraz w <a href="/pl/guides/airfryer-vs-four">porównaniu frytkownicy beztłuszczowej z tradycyjnym piekarnikiem</a>.</p>`,
+    sv: `<h2>Är airfryern verkligen nyttigare?</h2>
+<p>Ja, jämfört med att fritera i ett oljebad kan du laga mat med betydligt mindre fett i en airfryer, eftersom en sked olja (eller bara en spray) ersätter flera deciliter. Däremot gör den inte en onyttig råvara nyttig: vinsten beror framför allt på vad du lägger i korgen.</p>
+<p>Den här guiden sammanfattar vad man faktiskt vet, utifrån publicerad forskning och livsmedelsmyndigheternas råd, och ger sedan förslag på livsmedel, knep och måltidsidéer så att du får ut så mycket som möjligt av din airfryer. Den ersätter inte råd från en läkare eller dietist om du följer en särskild kost.</p>
+
+<h3>Mindre olja: här uppstår skillnaden</h3>
+<p>I en vanlig fritös ligger råvaran helt under oljan och suger upp en del av den under tillagningen. I en airfryer är det i stället mycket het luft från en fläkt som steker ytan. Till hemgjorda pommes frites räcker det oftast med en tesked olja för att få en gyllene yta. Som jämförelse ger en matsked olja ungefär 120 kcal: det är mängden olja du tillsätter som gör skillnaden, mycket mer än själva apparaten.</p>
+<p><strong>Se upp med förfriterade frysprodukter:</strong> färdiga pommes frites, nuggets och friterade snacks har ofta friterats redan innan de frystes. Gör du dem i airfryern slipper du tillsätta mer olja, men fetthalten är fortfarande den som står på förpackningen. Läs näringsdeklarationen.</p>
+
+<h3>Tillagningsmetoderna jämförda</h3>
+<table>
+<thead>
+<tr><th>Tillagningsmetod</th><th>Tillsatt olja</th><th>Konsistens</th><th>Bra att veta</th></tr>
+</thead>
+<tbody>
+<tr><td>Airfryer</td><td>Mycket lite (spray eller 1 tsk)</td><td>Krispig yta</td><td>Snabb tillagning, fyll inte korgen för mycket</td></tr>
+<tr><td>Fritös med oljebad</td><td>Helt oljebad</td><td>Mycket krispig</td><td>Råvaran suger upp en del av oljan</td></tr>
+<tr><td>Vanlig ugn</td><td>Lite till måttligt</td><td>Gyllene, ibland mindre krispig</td><td>Längre förvärmning, stor volym</td></tr>
+<tr><td>Stekpanna</td><td>Måttligt</td><td>Stekt, gyllene</td><td>Måste passas</td></tr>
+<tr><td>Ångkokning</td><td>Ingen</td><td>Mjuk, utan skorpa</td><td>Ingen direkt kontakt med kokvattnet</td></tr>
+</tbody>
+</table>
+<p>En mer utförlig genomgång hittar du i vår <a href="/sv/blog/airfryer-vs-friteuse-traditionnelle">jämförelse mellan airfryer och vanlig fritös</a>.</p>
+
+<h2>Akrylamid: lägre i vissa studier, men inte borta</h2>
+<p>Akrylamid bildas när stärkelserika livsmedel (potatis, bröd, spannmål) tillagas i hög temperatur. Europeiska myndigheten för livsmedelssäkerhet (Efsa) kom 2015 fram till att ämnet kan öka risken för cancer och rekommenderar att exponeringen begränsas; EU har dessutom regler som kräver att livsmedelsindustrin minskar halterna.</p>
+<p>En studie i <em>Journal of Food Science</em> från 2015 (Sansano m.fl.) uppmätte vid 180 °C ungefär 90 % mindre akrylamid i pommes frites tillagade med varmluft än i pommes frites friterade i olja. Andra studier, som sammanställts i en vetenskaplig översikt från 2024, visar dock varierande resultat beroende på temperatur, tid och hur potatisen förbereds. Goda vanor betyder alltså mer än att enbart lita på apparaten.</p>
+
+<h3>Så minskar du akrylamiden i airfryern</h3>
+<ul>
+<li><strong>Sikta på en gyllengul färg:</strong> det är rådet från europeiska livsmedelsmyndigheter. Ju brunare pommes frites, desto mer akrylamid innehåller de.</li>
+<li><strong>Håll dig kring 170–180 °C för potatis</strong> och undvik att förlänga tillagningen ”för att få det krispigare”.</li>
+<li><strong>Lägg råa pommes frites i blöt</strong> i kallt vatten i 15–30 minuter och torka dem sedan ordentligt: blötläggningen minskar mängden socker på ytan.</li>
+<li><strong>Följ anvisningarna på förpackningen</strong> för frysta produkter, och gå inte över den angivna tiden.</li>
+</ul>
+
+<h2>Näringsämnen: det här kan man säga</h2>
+<p>Hur mycket vitaminer som finns kvar efter tillagningen beror på tre faktorer: temperatur, tid och kontakt med vatten. Vattenlösliga vitaminer (C-vitamin, B-vitaminer) läcker delvis ut i kokvattnet när du kokar grönsaker. Precis som ugn och ångkokning undviker airfryern den kontakten, och eftersom tillagningen ofta går snabbare än i en vanlig ugn utsätts maten för värme under kortare tid.</p>
+<p>Resultaten varierar ändå mycket mellan olika livsmedel, och ingen metod är bäst för alla näringsämnen. Det viktigaste att ta med sig: tillaga grönsakerna precis lagom i stället för att torka ut dem, och variera tillagningssätten.</p>
+
+<h2>De bästa livsmedlen för nyttig mat i airfryern</h2>
+
+<h3>1. Grönsaker: krispiga och smakrika</h3>
+<p>Den torra värmen karamelliserar grönsakernas yta och koncentrerar smaken, samtidigt som insidan förblir mjuk. Fler idéer hittar du i våra <a href="/sv/blog/recettes-legumes-grilles-airfryer">recept på rostade grönsaker i airfryer</a>.</p>
+<ul>
+<li><strong>Broccoli:</strong> 180 °C, 10–12 min, med en tesked olja.</li>
+<li><strong>Zucchini:</strong> 200 °C, 8–10 min i skivor.</li>
+<li><strong>Blomkål:</strong> 190 °C, 15–18 min. Buketterna blir gyllene och krispiga.</li>
+<li><strong>Sötpotatis:</strong> 190 °C, 15–20 min som pommes frites. Innehåller betakaroten.</li>
+<li><strong>Svamp:</strong> 190 °C, 10–12 min. Saftig och full av umami.</li>
+</ul>
+
+<h3>2. Magert protein: krispigt utan tjock panering</h3>
+<p>Airfryern ger en krispig yta utan att det behövs ett tjockt lager panering. Ta en titt på våra <a href="/sv/blog/recettes-poulet-croustillant-airfryer">recept på krispig kyckling</a>.</p>
+<ul>
+<li><strong>Kycklingfilé:</strong> 180 °C, 18–22 min beroende på tjocklek. Kontrollera att den är genomstekt.</li>
+<li><strong>Lax:</strong> 200 °C, 8–10 min. En fet fisk och en källa till omega-3.</li>
+<li><strong>Tofu:</strong> 190 °C, 15–18 min, ordentligt avrunnen. Perfekt till vegetariska måltider.</li>
+<li><strong>Räkor:</strong> 200 °C, 6–8 min. Klara på nolltid.</li>
+</ul>
+
+<h3>3. Baljväxter och spannmål</h3>
+<ul>
+<li><strong>Rostade kikärter:</strong> 190 °C, 15–20 min, väl torkade. Ett krispigt mellanmål med mycket fibrer.</li>
+<li><strong>Falafel:</strong> 180 °C, 12–15 min, lätt oljade. Mjuka inuti, helt utan fritering.</li>
+<li><strong>Quinoabiffar:</strong> 180 °C, 10–12 min. Krispiga och mättande.</li>
+</ul>
+
+<h2>Idéer till nyttiga airfryermåltider för veckan</h2>
+<ul>
+<li><strong>Måndag:</strong> kycklingfilé marinerad i citron och örter, broccoli med vitlök.</li>
+<li><strong>Tisdag:</strong> laxfilé och sötpotatispommes.</li>
+<li><strong>Onsdag:</strong> bowl med krispig tofu, blandade rostade grönsaker och fullkornsris.</li>
+<li><strong>Torsdag:</strong> vitlöksräkor, grillad zucchini.</li>
+<li><strong>Fredag:</strong> hemgjord falafel, rostad paprika och lök, fullkornspitabröd.</li>
+<li><strong>Lördag:</strong> kyckling panerad med havregryn, rostad svamp.</li>
+<li><strong>Söndag:</strong> rostade rotfrukter, bakade ägg i portionsform (cirka 160 °C, 8 min).</li>
+</ul>
+<p>Vill du planera måltiderna i förväg kan du läsa vår guide till <a href="/sv/blog/meal-prep-airfryer-semaine">matlådor (meal prep) i airfryer för hela veckan</a>.</p>
+
+<h2>5 knep för nyttigare mat i airfryern</h2>
+<ul>
+<li><strong>1. Dosera oljan med en sprayflaska:</strong> ett par tryck räcker till de flesta recept, betydligt mindre än en matsked som hälls i på en höft.</li>
+<li><strong>2. Välj en olja som tål hög värme:</strong> raffinerade oljor klarar höga temperaturer bättre. Låt inte oljan börja ryka.</li>
+<li><strong>3. Gör paneringen lättare:</strong> mixade havregryn, sesamfrön, hackade nötter eller lite parmesan ger en krispig yta.</li>
+<li><strong>4. Satsa på marinader utan tillsatt socker:</strong> citron, örter, vitlök, ingefära och kryddor ger smak. Söta marinader bränns dessutom fortare.</li>
+<li><strong>5. Fyll inte korgen för mycket:</strong> fyll den till högst två tredjedelar och skaka den halvvägs genom tillagningen så blir resultatet jämnt.</li>
+</ul>
+
+<h2>Det här gör airfryern inte</h2>
+<p>En airfryer förvandlar inte en munk till hälsokost. Den minskar mängden tillsatt olja, vilket kan göra vissa rätter lättare, men kosten som helhet (portionsstorlekar, variation, frukt och grönsaker, lite processade livsmedel) spelar mycket större roll än vilken apparat du lagar maten i. Har du ett specifikt hälsomål (vikt, kolesterol, diabetes) bör du be vårdpersonal om råd i stället för att förlita dig på en köksapparat.</p>
+
+<h2>5 enkla och nyttiga recept i airfryer</h2>
+<ul>
+<li><strong>Zucchinipommes med parmesan:</strong> zucchinistavar täckta med ett tunt lager ströbröd och parmesan. 180 °C, 12–14 minuter.</li>
+<li><strong>Krispiga kryddade kikärter:</strong> avrunna och torkade kikärter, 1 tsk olja, spiskummin och rökt paprikapulver. 200 °C, 15 minuter, skaka korgen då och då.</li>
+<li><strong>Lax med örtskorpa:</strong> laxfilé, ströbröd och färska örter. 190 °C, 10–12 minuter.</li>
+<li><strong>Auberginechips:</strong> tunna skivor, en lätt spray olja, salt och timjan. 180 °C, cirka 10 minuter, håll ett öga på färgen.</li>
+<li><strong>Chicken tikka:</strong> kycklingfilé marinerad i yoghurt och kryddor. 190 °C, cirka 18 minuter.</li>
+</ul>
+
+<h2>Slutsats: ett praktiskt redskap, inget mirakel</h2>
+<p>Med färska råvaror och lite olja gör airfryern det enklare att laga lättare mat i vardagen, särskilt om den ersätter fritering i oljebad. Fördelarna är verkliga men beror på vilka livsmedel du väljer och hur du tillagar dem: gyllene färg i stället för brun, en korg som inte är överfull och lite processade råvaror.</p>
+<p>Läs mer i vår <a href="/sv/guides/airfryers">kompletta guide till airfryrar</a> och vår <a href="/sv/guides/airfryer-vs-four">jämförelse mellan airfryer och vanlig ugn</a>.</p>`,
+    us: `<h2>Is an air fryer really healthier?</h2>
+<p>Yes. Compared with deep frying, an air fryer lets you cook with far less fat, because a spoonful of oil (or just a quick spray) replaces the few cups a deep fryer needs. It won’t make an unhealthy food healthy, though: the benefit depends mostly on what you put in the basket.</p>
+<p>This guide sums up what is actually known, based on published research and the advice of food safety authorities, then suggests foods, tips and meal ideas to get the most out of your air fryer. It doesn’t replace advice from a doctor or dietitian if you follow a specific diet.</p>
+
+<h3>Less oil: where the difference comes from</h3>
+<p>In a deep fryer, food is submerged and soaks up some of the oil as it cooks. In an air fryer, very hot air circulated by a fan crisps the surface. For homemade fries, a teaspoon of oil is usually enough for a golden finish. For reference, one tablespoon of oil packs about 120 calories: how much oil you add matters far more than the appliance itself.</p>
+<p><strong>Watch out for frozen foods that are already fried:</strong> store-bought fries, nuggets and fritters have often been fried before freezing. Air frying them avoids adding more oil, but their fat content stays what the package says. Check the Nutrition Facts label.</p>
+
+<h3>Cooking methods compared</h3>
+<table>
+<thead>
+<tr><th>Cooking method</th><th>Added oil</th><th>Texture</th><th>Good to know</th></tr>
+</thead>
+<tbody>
+<tr><td>Air fryer</td><td>Very little (spray or 1 tsp)</td><td>Crispy surface</td><td>Cooks fast; don’t overfill the basket</td></tr>
+<tr><td>Deep fryer</td><td>Full oil bath</td><td>Very crispy</td><td>Food soaks up some of the oil</td></tr>
+<tr><td>Conventional oven</td><td>Low to moderate</td><td>Golden, sometimes less crispy</td><td>Longer preheat, large capacity</td></tr>
+<tr><td>Skillet</td><td>Moderate</td><td>Seared, golden</td><td>Needs watching</td></tr>
+<tr><td>Steaming</td><td>None</td><td>Tender, no crust</td><td>No direct contact with cooking water</td></tr>
+</tbody>
+</table>
+<p>For the full breakdown, see our <a href="/us/blog/airfryer-vs-friteuse-traditionnelle">air fryer vs. deep fryer comparison</a>.</p>
+
+<h2>Acrylamide: lower in some studies, not eliminated</h2>
+<p>Acrylamide forms when starchy foods (potatoes, bread, cereals) are cooked at high temperatures. In 2015, the European Food Safety Authority (EFSA) concluded that it potentially increases the risk of cancer and advised limiting exposure; EU rules also require the food industry to reduce it.</p>
+<p>A 2015 study in the <em>Journal of Food Science</em> (Sansano et al.) measured about 90% less acrylamide in air-fried fries than in deep-fried ones at 350°F (180°C). Other research, gathered in a 2024 scientific review, shows mixed results depending on temperature, cooking time and how the potatoes are prepped. So good habits matter more than the appliance alone.</p>
+
+<h3>How to limit acrylamide in an air fryer</h3>
+<ul>
+<li><strong>Aim for golden yellow:</strong> that’s the advice from European food safety authorities. The browner the fries, the more acrylamide they contain.</li>
+<li><strong>Stay around 340 to 350°F (170 to 180°C) for potatoes</strong>, and don’t extend the cooking time “for extra crunch.”</li>
+<li><strong>Soak raw fries</strong> in cold water for 15 to 30 minutes, then dry them well: soaking reduces the sugars on the surface.</li>
+<li><strong>Follow the package directions</strong> for frozen foods, without going past them.</li>
+</ul>
+
+<h2>Nutrient retention: what we can say</h2>
+<p>How many vitamins survive cooking depends on three things: temperature, time and contact with water. Water-soluble vitamins (vitamin C, B vitamins) partly leach into the water when you boil vegetables. An air fryer, like an oven or a steamer, avoids that contact, and its cooking time is often shorter than a conventional oven’s, which limits heat exposure.</p>
+<p>Results still vary a lot from one food to another, and no method is best for every nutrient. The main takeaway: cook vegetables until just tender rather than drying them out, and mix up your cooking methods.</p>
+
+<h2>The best foods for healthy air frying</h2>
+
+<h3>1. Vegetables: crisp and flavorful</h3>
+<p>Dry heat caramelizes the surface of vegetables and concentrates their flavor while keeping the inside tender. See our <a href="/us/blog/recettes-legumes-grilles-airfryer">roasted vegetable recipes</a>.</p>
+<ul>
+<li><strong>Broccoli:</strong> 350°F (180°C), 10 to 12 min, with a teaspoon of oil.</li>
+<li><strong>Zucchini:</strong> 400°F (200°C), 8 to 10 min, sliced into rounds.</li>
+<li><strong>Cauliflower:</strong> 375°F (190°C), 15 to 18 min. The florets turn golden and crunchy.</li>
+<li><strong>Sweet potato:</strong> 375°F (190°C), 15 to 20 min, cut into fries. A good source of beta-carotene.</li>
+<li><strong>Mushrooms:</strong> 375°F (190°C), 10 to 12 min. Juicy and full of umami.</li>
+</ul>
+
+<h3>2. Lean proteins: crispy without heavy breading</h3>
+<p>The air fryer builds a crust without a thick coating. See our <a href="/us/blog/recettes-poulet-croustillant-airfryer">crispy chicken recipes</a>.</p>
+<ul>
+<li><strong>Chicken breast:</strong> 350°F (180°C), 18 to 22 min, depending on thickness. Check that the thickest part reaches 165°F (74°C).</li>
+<li><strong>Salmon:</strong> 400°F (200°C), 8 to 10 min. An oily fish and a source of omega-3s.</li>
+<li><strong>Tofu:</strong> 375°F (190°C), 15 to 18 min, well pressed. Ideal for vegetarian meals.</li>
+<li><strong>Shrimp:</strong> 400°F (200°C), 6 to 8 min. Very quick to cook.</li>
+</ul>
+
+<h3>3. Beans, legumes and grains</h3>
+<ul>
+<li><strong>Roasted chickpeas:</strong> 375°F (190°C), 15 to 20 min, patted dry. A crunchy, high-fiber snack.</li>
+<li><strong>Falafel:</strong> 350°F (180°C), 12 to 15 min, lightly oiled. Soft inside with no deep frying.</li>
+<li><strong>Quinoa patties:</strong> 350°F (180°C), 10 to 12 min. Crispy and filling.</li>
+</ul>
+
+<h2>Healthy air fryer meal ideas for the week</h2>
+<ul>
+<li><strong>Monday:</strong> lemon-herb chicken, garlic broccoli.</li>
+<li><strong>Tuesday:</strong> salmon fillet, sweet potato fries.</li>
+<li><strong>Wednesday:</strong> crispy tofu bowl with mixed roasted vegetables and brown rice.</li>
+<li><strong>Thursday:</strong> garlic shrimp, roasted zucchini.</li>
+<li><strong>Friday:</strong> homemade falafel, roasted bell peppers and onions, whole-wheat pita.</li>
+<li><strong>Saturday:</strong> oat-crusted chicken, roasted mushrooms.</li>
+<li><strong>Sunday:</strong> roasted root vegetables, baked eggs (about 320°F, or 160°C, for 8 min).</li>
+</ul>
+<p>To plan these meals ahead, see our <a href="/us/blog/meal-prep-airfryer-semaine">weekly air fryer meal prep guide</a>.</p>
+
+<h2>5 tips for healthier air frying</h2>
+<ul>
+<li><strong>1. Measure oil with a mister:</strong> a few sprays are enough for most recipes, far less than a tablespoon poured by eye.</li>
+<li><strong>2. Choose an oil that handles high heat:</strong> refined oils hold up better at high temperatures. Don’t let the oil smoke.</li>
+<li><strong>3. Go lighter on the breading:</strong> ground oats, sesame seeds, crushed nuts or a little Parmesan add crunch.</li>
+<li><strong>4. Use marinades with no added sugar:</strong> lemon, herbs, garlic, ginger and spices bring the flavor. Sugary marinades also burn faster.</li>
+<li><strong>5. Don’t overload the basket:</strong> fill it two-thirds full at most and shake it halfway through for even cooking.</li>
+</ul>
+
+<h2>What an air fryer doesn’t do</h2>
+<p>An air fryer won’t turn a doughnut into health food. It cuts down on added oil, which can help lighten some dishes, but your overall diet (portions, variety, fruits and vegetables, minimally processed foods) matters far more than the appliance you cook with. If you have a specific health goal (weight, cholesterol, diabetes), talk to your health care provider rather than relying on a kitchen gadget.</p>
+
+<h2>5 easy healthy air fryer recipes</h2>
+<ul>
+<li><strong>Parmesan zucchini fries:</strong> zucchini sticks coated in a thin layer of breadcrumbs and Parmesan. 350°F (180°C), 12 to 14 minutes.</li>
+<li><strong>Crispy spiced chickpeas:</strong> drained, dried chickpeas, 1 tsp oil, cumin and smoked paprika. 400°F (200°C), 15 minutes, shaking the basket.</li>
+<li><strong>Herb-crusted salmon:</strong> salmon fillet, breadcrumbs and fresh herbs. 375°F (190°C), 10 to 12 minutes.</li>
+<li><strong>Eggplant chips:</strong> thin slices, one spray of oil, salt and thyme. 350°F (180°C), about 10 minutes, keeping an eye on the color.</li>
+<li><strong>Chicken tikka:</strong> chicken breast marinated in yogurt and spices. 375°F (190°C), about 18 minutes.</li>
+</ul>
+
+<h2>The bottom line: a handy tool, not a miracle</h2>
+<p>Used with fresh ingredients and a little oil, an air fryer makes lighter everyday cooking easier, especially if it replaces deep frying. The benefits are real, but they depend on the foods you choose and how you cook them: golden rather than brown, a basket that isn’t crowded, minimally processed ingredients.</p>
+<p>To go further, explore our <a href="/us/guides/airfryers">complete air fryer guide</a> and our <a href="/us/guides/airfryer-vs-four">air fryer vs. oven comparison</a>.</p>`,
+    ca: `<h2>Is an air fryer really healthier?</h2>
+<p>Yes, compared with deep frying, an air fryer lets you cook with far less fat, because a spoonful of oil (or just a spray) replaces several hundred millilitres. It won't, however, make an unhealthy food healthy: the benefit depends mostly on what you put in the basket.</p>
+<p>This guide sums up what is actually known, based on published research and the advice of food safety authorities, then suggests foods, tips and meal ideas to get the most out of your air fryer. It doesn't replace advice from a doctor or dietitian if you follow a specific diet.</p>
+
+<h3>Less oil: where the difference comes from</h3>
+<p>In a deep fryer, food is submerged and absorbs some of the oil as it cooks. In an air fryer, very hot air circulated by a fan crisps the surface. For homemade fries, a teaspoon (5 mL) of oil is usually enough for a golden finish. As a benchmark, one tablespoon of oil provides around 120 kcal: the amount of oil you add matters far more than the appliance itself.</p>
+<p><strong>Watch out for pre-fried frozen foods:</strong> store-bought fries, nuggets and fritters have often been fried before freezing. Air frying them avoids adding more oil, but their fat content stays as listed on the package. Check the Nutrition Facts table.</p>
+
+<h3>Cooking methods compared</h3>
+<table>
+<thead>
+<tr><th>Cooking method</th><th>Added oil</th><th>Texture</th><th>Good to know</th></tr>
+</thead>
+<tbody>
+<tr><td>Air fryer</td><td>Very little (spray or 1 tsp)</td><td>Crispy surface</td><td>Fast cooking, don't overfill the basket</td></tr>
+<tr><td>Deep fryer</td><td>Full oil bath</td><td>Very crispy</td><td>Food absorbs some of the oil</td></tr>
+<tr><td>Conventional oven</td><td>Low to moderate</td><td>Golden, sometimes less crispy</td><td>Longer preheating, large capacity</td></tr>
+<tr><td>Frying pan</td><td>Moderate</td><td>Seared, golden</td><td>Needs watching</td></tr>
+<tr><td>Steaming</td><td>None</td><td>Tender, no crust</td><td>No direct contact with cooking water</td></tr>
+</tbody>
+</table>
+<p>For a full breakdown, see our <a href="/ca/blog/airfryer-vs-friteuse-traditionnelle">air fryer vs deep fryer comparison</a>.</p>
+
+<h2>Acrylamide: lower in some studies, not eliminated</h2>
+<p>Acrylamide forms when starchy foods (potatoes, bread, cereals) are cooked at high temperatures. In 2015 the European Food Safety Authority (EFSA) concluded that it potentially increases the risk of cancer and advised limiting exposure; EU rules also require the food industry to reduce it.</p>
+<p>A 2015 study in the <em>Journal of Food Science</em> (Sansano et al.) measured around 90% less acrylamide in air-fried fries than in deep-fried ones at 180°C (350°F). Other research, gathered in a 2024 scientific review, shows mixed results depending on temperature, time and how the potatoes are prepared. So good habits matter more than the appliance alone.</p>
+
+<h3>How to limit acrylamide in an air fryer</h3>
+<ul>
+<li><strong>Aim for golden yellow:</strong> this is the advice shared by European food safety authorities. The browner the fries, the more acrylamide they contain.</li>
+<li><strong>Stay around 170 to 180°C (340 to 350°F) for potatoes</strong> and avoid extending the cooking time "for extra crunch."</li>
+<li><strong>Soak raw-cut fries</strong> in cold water for 15 to 30 minutes, then dry them well: soaking reduces surface sugars.</li>
+<li><strong>Follow the package directions</strong> for frozen products, without going beyond them.</li>
+</ul>
+
+<h2>Nutrient retention: what we can say</h2>
+<p>How many vitamins survive cooking depends on three factors: temperature, time and contact with water. Water-soluble vitamins (vitamin C, B vitamins) partly leach into the water when vegetables are boiled. An air fryer, like an oven or a steamer, avoids that contact, and its cooking time is often shorter than a conventional oven's, which limits heat exposure.</p>
+<p>Results still vary a lot from one food to another, and no method is best for every nutrient. The main takeaway: cook vegetables until just tender rather than drying them out, and vary your cooking methods.</p>
+
+<h2>The best foods for healthy air frying</h2>
+
+<h3>1. Vegetables: crisp and flavourful</h3>
+<p>Dry heat caramelizes the surface of vegetables and concentrates their flavour while keeping the inside tender. See our <a href="/ca/blog/recettes-legumes-grilles-airfryer">roasted vegetable recipes</a>.</p>
+<ul>
+<li><strong>Broccoli:</strong> 180°C (350°F), 10–12 min, with a teaspoon of oil.</li>
+<li><strong>Zucchini:</strong> 200°C (400°F), 8–10 min, sliced.</li>
+<li><strong>Cauliflower:</strong> 190°C (375°F), 15–18 min. The florets turn golden and crunchy.</li>
+<li><strong>Sweet potato:</strong> 190°C (375°F), 15–20 min as fries. A source of beta-carotene.</li>
+<li><strong>Mushrooms:</strong> 190°C (375°F), 10–12 min. Juicy and full of umami.</li>
+</ul>
+
+<h3>2. Lean proteins: crispy without heavy breading</h3>
+<p>The air fryer builds a crust without a thick coating. See our <a href="/ca/blog/recettes-poulet-croustillant-airfryer">crispy chicken recipes</a>.</p>
+<ul>
+<li><strong>Chicken breast:</strong> 180°C (350°F), 18–22 min depending on thickness. Check that the centre reaches 74°C (165°F).</li>
+<li><strong>Salmon:</strong> 200°C (400°F), 8–10 min. An oily fish and a source of omega-3s.</li>
+<li><strong>Tofu:</strong> 190°C (375°F), 15–18 min, well pressed. Ideal for vegetarian meals.</li>
+<li><strong>Shrimp:</strong> 200°C (400°F), 6–8 min. Very quick to cook.</li>
+</ul>
+
+<h3>3. Legumes and grains</h3>
+<ul>
+<li><strong>Roasted chickpeas:</strong> 190°C (375°F), 15–20 min, well dried. A crunchy, fibre-rich snack.</li>
+<li><strong>Falafel:</strong> 180°C (350°F), 12–15 min, lightly oiled. Soft inside without deep frying.</li>
+<li><strong>Quinoa patties:</strong> 180°C (350°F), 10–12 min. Crispy and filling.</li>
+</ul>
+
+<h2>Healthy air fryer meal ideas for the week</h2>
+<ul>
+<li><strong>Monday:</strong> lemon and herb chicken, garlic broccoli.</li>
+<li><strong>Tuesday:</strong> salmon fillet, sweet potato fries.</li>
+<li><strong>Wednesday:</strong> crispy tofu bowl with mixed roasted vegetables and brown rice.</li>
+<li><strong>Thursday:</strong> garlic shrimp, roasted zucchini.</li>
+<li><strong>Friday:</strong> homemade falafel, roasted peppers and onions, whole wheat pita.</li>
+<li><strong>Saturday:</strong> oat-crusted chicken, roasted mushrooms.</li>
+<li><strong>Sunday:</strong> roasted root vegetables, baked eggs at 160°C (325°F) for about 8 min.</li>
+</ul>
+<p>To plan these meals ahead, see our <a href="/ca/blog/meal-prep-airfryer-semaine">weekly air fryer meal prep guide</a>.</p>
+
+<h2>5 tips for healthier air frying</h2>
+<ul>
+<li><strong>1. Measure oil with a sprayer:</strong> a few sprays are enough for most recipes, far less than a tablespoon poured by eye.</li>
+<li><strong>2. Choose an oil suited to high heat:</strong> refined oils cope better with high temperatures. Don't let the oil smoke.</li>
+<li><strong>3. Lighten the coating:</strong> ground oats, sesame seeds, crushed nuts or a little Parmesan add crunch.</li>
+<li><strong>4. Use marinades without added sugar:</strong> lemon, herbs, garlic, ginger and spices bring flavour. Sugary marinades also burn faster.</li>
+<li><strong>5. Don't overload the basket:</strong> fill it two-thirds at most and shake halfway for even cooking.</li>
+</ul>
+
+<h2>What an air fryer doesn't do</h2>
+<p>An air fryer won't turn a doughnut into health food. It reduces added oil, which can help lighten some dishes, but your overall diet (portions, variety, fruit and vegetables, minimally processed foods) matters far more than the cooking appliance. If you have a specific health goal (weight, cholesterol, diabetes), ask a health professional for advice rather than relying on a kitchen gadget.</p>
+
+<h2>5 easy healthy air fryer recipes</h2>
+<ul>
+<li><strong>Parmesan zucchini fries:</strong> zucchini sticks coated in a thin layer of breadcrumbs and Parmesan. 180°C (350°F), 12–14 minutes.</li>
+<li><strong>Crispy spiced chickpeas:</strong> drained and dried chickpeas, 1 tsp oil, cumin, smoked paprika. 200°C (400°F), 15 minutes, shaking the basket.</li>
+<li><strong>Herb-crusted salmon:</strong> salmon fillet, breadcrumbs and fresh herbs. 190°C (375°F), 10–12 minutes.</li>
+<li><strong>Eggplant chips:</strong> thin slices, one spray of oil, salt and thyme. 180°C (350°F), about 10 minutes, keeping an eye on the colour.</li>
+<li><strong>Chicken tikka:</strong> chicken breast marinated in yogurt and spices. 190°C (375°F), about 18 minutes.</li>
+</ul>
+
+<h2>Conclusion: a handy tool, not a miracle</h2>
+<p>Used with fresh ingredients and little oil, an air fryer makes lighter everyday cooking easier, especially if it replaces deep frying. Its benefits are real but depend on the food you choose and how you cook it: golden rather than brown, an uncrowded basket, minimally processed ingredients.</p>
+<p>To go further, explore our <a href="/ca/guides/airfryers">complete air fryer guide</a> and our <a href="/ca/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>`,
   },
   faq: [
     {
@@ -778,6 +1096,9 @@ export const article: BlogArticle = {
         it: 'La friggitrice ad aria è davvero più sana della frittura tradizionale?',
         nl: 'Is de airfryer echt gezonder dan traditioneel frituren?',
         pl: 'Czy frytkownica beztłuszczowa jest naprawdę zdrowsza niż smażenie w głębokim tłuszczu?',
+        sv: 'Är en airfryer verkligen nyttigare än vanlig fritering?',
+        us: 'Is an air fryer really healthier than deep frying?',
+        ca: 'Is an air fryer really healthier than traditional deep frying?',
       },
       answer: {
         fr: "Par rapport à la friture dans un bain d'huile, oui : on utilise beaucoup moins d'huile, souvent une cuillère à café ou quelques pulvérisations. L'écart réel dépend de la recette, et un produit surgelé déjà pré-frit garde la teneur en matières grasses indiquée sur son emballage.",
@@ -787,6 +1108,9 @@ export const article: BlogArticle = {
         it: 'Rispetto alla frittura a immersione, sì: si usa molto meno olio, spesso un cucchiaino o qualche spruzzo. La differenza reale dipende dalla ricetta, e un surgelato prefritto mantiene il contenuto di grassi indicato sulla confezione.',
         nl: 'Vergeleken met frituren in olie wel: je gebruikt veel minder olie, vaak een theelepel of een paar keer sprayen. Het echte verschil hangt af van het recept, en een voorgebakken diepvriesproduct houdt het vetgehalte dat op de verpakking staat.',
         pl: 'Tak, jeśli porównujemy ją ze smażeniem w głębokim tłuszczu: oleju potrzeba znacznie mniej, często wystarczy łyżeczka lub kilka psiknięć. Faktyczna różnica zależy od przepisu, a wstępnie podsmażona mrożonka i tak zawiera tyle tłuszczu, ile podano na opakowaniu.',
+        sv: 'Jämfört med fritering i oljebad, ja: du använder mycket mindre olja, ofta en tesked eller några tryck med sprayflaskan. Den verkliga skillnaden beror på receptet, och en förfriterad frysprodukt har fortfarande den fetthalt som står på förpackningen.',
+        us: 'Compared with deep frying, yes: you use far less oil, often a teaspoon or a few sprays. The real difference depends on the recipe, and a frozen product that was fried before freezing keeps the fat content shown on its package.',
+        ca: 'Compared with deep frying, yes: you use far less oil, often a teaspoon or a few sprays. The real difference depends on the recipe, and a pre-fried frozen product keeps the fat content shown on its package.',
       },
     },
     {
@@ -798,6 +1122,9 @@ export const article: BlogArticle = {
         it: 'Bisogna usare olio nella friggitrice ad aria?',
         nl: 'Moet je olie gebruiken in een airfryer?',
         pl: 'Czy do frytkownicy beztłuszczowej trzeba dodawać olej?',
+        sv: 'Måste man använda olja i en airfryer?',
+        us: 'Do you need to use oil in an air fryer?',
+        ca: 'Do you need to use oil in an air fryer?',
       },
       answer: {
         fr: "Ce n'est pas obligatoire, mais un peu d'huile aide les aliments frais à dorer et à ne pas se dessécher. Quelques pulvérisations ou une cuillère à café suffisent généralement. Préférez une huile raffinée qui supporte la chaleur et évitez de la laisser fumer.",
@@ -807,6 +1134,9 @@ export const article: BlogArticle = {
         it: "Non è obbligatorio, ma un po' d'olio aiuta gli alimenti freschi a dorarsi e a non seccarsi. Di solito bastano pochi spruzzi o un cucchiaino. Preferisci un olio raffinato che regge il calore e non lasciarlo fumare.",
         nl: 'Het is niet verplicht, maar een beetje olie helpt vers eten te bruinen en niet uit te drogen. Een paar keer sprayen of een theelepel is meestal genoeg. Kies een geraffineerde olie die tegen hitte kan en laat hem niet roken.',
         pl: 'Nie trzeba, ale odrobina oleju pomaga świeżym produktom się zrumienić i chroni je przed wysuszeniem. Zwykle wystarczy kilka psiknięć lub łyżeczka. Wybieraj olej rafinowany, odporny na wysoką temperaturę, i nie dopuszczaj do tego, by zaczął dymić.',
+        sv: 'Det är inget måste, men lite olja hjälper färska råvaror att få färg och hindrar dem från att torka ut. Några tryck med sprayflaskan eller en tesked räcker oftast. Välj helst en raffinerad olja som tål värme, och låt den inte börja ryka.',
+        us: 'It isn’t required, but a little oil helps fresh food brown and keeps it from drying out. A few sprays or a teaspoon is usually enough. Choose a refined oil that handles high heat, and don’t let it smoke.',
+        ca: 'It isn\'t mandatory, but a little oil helps fresh food brown and keeps it from drying out. A few sprays or a teaspoon is usually enough. Choose a refined oil that handles high heat and don\'t let it smoke.',
       },
     },
     {
@@ -818,6 +1148,9 @@ export const article: BlogArticle = {
         it: 'Quante calorie si risparmiano con una friggitrice ad aria?',
         nl: 'Hoeveel calorieën bespaar je met een airfryer?',
         pl: 'Ile kalorii można zaoszczędzić dzięki frytkownicy beztłuszczowej?',
+        sv: 'Hur många kalorier sparar man med en airfryer?',
+        us: 'How many calories do you save with an air fryer?',
+        ca: 'How many calories do you save with an air fryer?',
       },
       answer: {
         fr: "Il n'existe pas de chiffre unique : tout dépend de l'aliment et de la quantité d'huile qu'il aurait absorbée en friture. Le levier principal est l'huile ajoutée, sachant qu'une cuillère à soupe apporte environ 120 kcal. Pour un objectif de poids précis, demandez conseil à un professionnel de santé.",
@@ -827,6 +1160,9 @@ export const article: BlogArticle = {
         it: "Non esiste un numero unico: dipende dall'alimento e da quanto olio avrebbe assorbito con la frittura. La leva principale è l'olio aggiunto, e un cucchiaio apporta circa 120 kcal. Per un obiettivo di peso preciso, chiedi consiglio a un professionista sanitario.",
         nl: 'Er is geen vast getal: het hangt af van het product en hoeveel olie het bij frituren zou hebben opgenomen. De belangrijkste factor is toegevoegde olie, en een eetlepel levert ongeveer 120 kcal. Heb je een concreet gewichtsdoel, vraag dan advies aan een zorgverlener.',
         pl: 'Nie ma jednej odpowiedzi: wszystko zależy od produktu i od tego, ile oleju wchłonąłby podczas smażenia w głębokim tłuszczu. Najwięcej zmienia ilość dodanego oleju – łyżka to ok. 120 kcal. Jeśli masz konkretny cel związany z masą ciała, poradź się lekarza lub dietetyka.',
+        sv: 'Det finns ingen enskild siffra: allt beror på livsmedlet och hur mycket olja det skulle ha sugit upp vid fritering. Det som påverkar mest är oljan du tillsätter, och en matsked ger ungefär 120 kcal. Har du ett specifikt viktmål bör du be vårdpersonal om råd.',
+        us: 'There’s no single number: it depends on the food and how much oil it would have soaked up in a deep fryer. The main lever is added oil, and one tablespoon packs about 120 calories. For a specific weight goal, talk to your health care provider.',
+        ca: 'There is no single figure: it depends on the food and how much oil it would have absorbed in a deep fryer. The main lever is added oil, and one tablespoon provides around 120 kcal. For a specific weight goal, ask a health professional for advice.',
       },
     },
     {
@@ -838,6 +1174,9 @@ export const article: BlogArticle = {
         it: 'La friggitrice ad aria preserva i nutrienti degli alimenti?',
         nl: 'Behoudt de airfryer de voedingsstoffen in het eten?',
         pl: 'Czy frytkownica beztłuszczowa pozwala zachować składniki odżywcze?',
+        sv: 'Bevarar airfryern näringsämnena i maten?',
+        us: 'Does an air fryer preserve the nutrients in food?',
+        ca: 'Does an air fryer preserve the nutrients in food?',
       },
       answer: {
         fr: "Comme le four ou la vapeur, l'airfryer évite que les vitamines hydrosolubles passent dans l'eau de cuisson, ce qui arrive quand on fait bouillir des légumes. Sa cuisson souvent courte limite aussi l'exposition à la chaleur. Les résultats varient toutefois selon les aliments : évitez simplement de trop cuire.",
@@ -847,6 +1186,9 @@ export const article: BlogArticle = {
         it: "Come il forno o il vapore, la friggitrice ad aria evita che le vitamine idrosolubili passino nell'acqua di cottura, come succede lessando le verdure. La cottura spesso breve limita anche l'esposizione al calore. I risultati variano però da alimento ad alimento: evita semplicemente di cuocere troppo.",
         nl: 'Net als de oven of het stomen voorkomt de airfryer dat wateroplosbare vitamines in kookwater terechtkomen, wat gebeurt als je groenten kookt. De vaak korte bereidingstijd beperkt ook de blootstelling aan hitte. De resultaten verschillen per product: vermijd vooral te lang garen.',
         pl: 'Podobnie jak piekarnik czy gotowanie na parze, frytkownica nie wypłukuje witamin rozpuszczalnych w wodzie, a tak właśnie dzieje się przy gotowaniu warzyw. Krótki zwykle czas obróbki dodatkowo ogranicza działanie wysokiej temperatury. Wyniki różnią się jednak w zależności od produktu, więc po prostu nie przetrzymuj potraw zbyt długo.',
+        sv: 'Precis som ugn och ångkokning hindrar airfryern vattenlösliga vitaminer från att läcka ut i kokvattnet, vilket händer när du kokar grönsaker. Den ofta korta tillagningstiden gör också att maten utsätts för värme under kortare tid. Resultaten varierar dock mellan olika livsmedel, så undvik helt enkelt att tillaga maten för länge.',
+        us: 'Like an oven or a steamer, an air fryer keeps water-soluble vitamins from leaching into cooking water, which is what happens when you boil vegetables. Its often short cooking time also limits heat exposure. Results vary from food to food, so the simple rule is not to overcook.',
+        ca: 'Like an oven or a steamer, an air fryer keeps water-soluble vitamins from leaching into the cooking water, which happens when vegetables are boiled. Its often short cooking time also limits heat exposure. Results vary from food to food, so simply avoid overcooking.',
       },
     },
     {
@@ -858,6 +1200,9 @@ export const article: BlogArticle = {
         it: 'Quali sono i migliori alimenti da cucinare nella friggitrice ad aria per mangiare sano?',
         nl: 'Wat zijn de beste voedingsmiddelen om gezond te koken in de airfryer?',
         pl: 'Jakie produkty najlepiej przygotowywać we frytkownicy beztłuszczowej, żeby jeść zdrowo?',
+        sv: 'Vilka livsmedel passar bäst i airfryern om man vill äta nyttigt?',
+        us: 'What are the best foods to cook in an air fryer for healthy eating?',
+        ca: 'What are the best foods to cook in an air fryer for healthy eating?',
       },
       answer: {
         fr: "Les légumes (brocoli, courgettes, poivrons, chou-fleur), le poulet, le poisson, le tofu et les pois chiches se prêtent très bien à l'airfryer avec un minimum d'huile. La patate douce fait d'excellentes frites. Limitez les produits surgelés pré-frits, qui restent riches en matières grasses.",
@@ -867,6 +1212,9 @@ export const article: BlogArticle = {
         it: 'Verdure (broccoli, zucchine, peperoni, cavolfiore), pollo, pesce, tofu e ceci riescono molto bene con pochissimo olio. La patata dolce dà ottimi bastoncini. Limita i surgelati prefritti, che restano ricchi di grassi.',
         nl: 'Groenten (broccoli, courgette, paprika, bloemkool), kip, vis, tofu en kikkererwten lukken heel goed met minimale olie. Zoete aardappel geeft uitstekende friet. Beperk voorgebakken diepvriesproducten, want die blijven vetrijk.',
         pl: 'Warzywa (brokuły, cukinia, papryka, kalafior), kurczak, ryby, tofu i ciecierzyca świetnie wychodzą we frytkownicy przy minimalnej ilości oleju. Z batatów zrobisz doskonałe frytki. Ograniczaj natomiast wstępnie podsmażane mrożonki – nadal zawierają dużo tłuszczu.',
+        sv: 'Grönsaker (broccoli, zucchini, paprika, blomkål), kyckling, fisk, tofu och kikärter blir mycket bra i airfryern med ett minimum av olja. Av sötpotatis blir det utmärkta pommes frites. Dra ner på förfriterade frysprodukter, som fortfarande innehåller mycket fett.',
+        us: 'Vegetables (broccoli, zucchini, bell peppers, cauliflower), chicken, fish, tofu and chickpeas all work very well with minimal oil. Sweet potatoes make excellent fries. Go easy on frozen products that were fried before freezing, which stay high in fat.',
+        ca: 'Vegetables (broccoli, zucchini, peppers, cauliflower), chicken, fish, tofu and chickpeas all work very well with minimal oil. Sweet potato makes excellent fries. Limit pre-fried frozen products, which stay high in fat.',
       },
     },
   ],

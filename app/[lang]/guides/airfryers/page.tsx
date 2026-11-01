@@ -568,6 +568,228 @@ const guideContent: Record<string, {
     ],
     verdict_title: 'Nasz werdykt',
     verdict_text: 'Frytkownica to rozsądna inwestycja dla każdej rodziny, która ceni zdrowie, wygodę i oszczędność energii. Jeśli wybierzesz pojemność dopasowaną do liczby domowników, wystarczającą moc (co najmniej 1400 W) i funkcje naprawdę potrzebne zamiast zbędnych, frytkownica całkowicie zmieni Twoje podejście do codziennego gotowania. Domowe frytki dorównują tym z głębokiego oleju, a są gotowe o 2 minuty szybciej i bez wszechobecnego zapachu smażenia. Warzywa z gorącego powietrza są wyjątkowo smaczne. Przygotowanie posiłków trwa znacznie krócej. W ciągu pięciu lat użytkowania zaoszczędzisz na prądzie i oleju ponad 100 € (według cen we Francji). Owszem, w niektórych zastosowaniach (duże ilości, chleb, bardziej wymagające wypieki) frytkownica nie zastąpi w pełni tradycyjnego piekarnika, ale szybko staje się głównym urządzeniem przy 70–80% codziennych posiłków. Dla mieszkańców miast z niewielką kuchnią, rodzin, które zwracają uwagę na zużycie energii, i każdego, kto lubi dobrą, prostą i szybką kuchnię, frytkownica to zakup, którego nie pożałujesz.',
+  },
+  sv: {
+    intro_title: 'Så fungerar en airfryer',
+    intro_text: 'Airfryern, även kallad varmluftsfritös, har förändrat matlagningen i många hem de senaste åren. Tekniken bygger på snabbt cirkulerande het luft (upp till 200 °C) som tillagar maten jämnt och ger en krispig yta utan att något friteras i olja. 2026 har airfryrar blivit ett vanligt inslag i europeiska kök – ett hälsosammare, snabbare och smidigare alternativ till traditionella tillagningssätt. Tvärtemot vad många tror fungerar en airfryer inte med strålning eller mikrovågor: den är i grunden en liten och effektiv varmluftsugn. Luften cirkulerar runt maten i mycket hög hastighet och sätter igång Maillardreaktionen, som ger den gyllene, krispiga ytan som så många uppskattar. I vardagen betyder det krispiga hemgjorda pommes frites på under 15 minuter, en gyllenbrun kyckling på 25 minuter och perfekt karamelliserade grönsaker – utan den envisa frityrlukten som annars sätter sig i köket och kläderna i flera timmar.',
+    how_to_choose_title: 'Så väljer du rätt airfryer',
+    how_to_choose_intro: 'Det finns i dag hundratals airfryrar på marknaden, i prisklasser från cirka 450 kr till över 5 500 kr. Vilken modell som passar dig beror helt på din situation: hur många ni är i hushållet, din budget, hur mycket plats du har och vilka rätter du vill laga. Här går vi igenom allt du behöver tänka på inför beslutet.',
+    capacity_title: 'Volymen: den avgörande faktorn',
+    capacity_text: 'Volymen är förmodligen det viktigaste att tänka på när du köper en airfryer, eftersom den direkt avgör vad du kan laga. För en person eller ett par räcker en airfryer på 2–3 liter (ungefär 1,2–1,8 kg pommes frites) gott och väl. De här kompakta modellerna, som ofta kallas airfryrar för en person, tar liten plats på bänken och drar mindre el. Tefal och Moulinex har utmärkta modeller i den här klassen, perfekta för små kök. För en familj på tre till fyra personer passar 4–5 liter (2–3 kg). De ger en bra balans mellan bekvämlighet och elförbrukning: du kan laga en hel kyckling, pommes frites till hela familjen och till och med flera portioner samtidigt. För en storfamilj på fem personer eller fler är det värt att satsa på en airfryer på 6–8 liter eller en modell med två korgar. De stora modellerna från Philips och Cosori har den volymen utan att bli orimligt stora. Airfryrar på över 9 liter (”maxi”-klassen) passar främst restauranger eller hushåll som ofta lagar mat till många. Tänk på att den volym du faktiskt kan använda oftast är 80–90 % av den angivna totalvolymen, eftersom luften behöver utrymme att cirkulera.',
+    power_title: 'Effekt och värmeteknik',
+    power_text: 'Effekten, som anges i watt (W), påverkar direkt hur snabbt maten blir klar och hur väl den får stekyta. De flesta moderna airfryrar har en effekt på 800–2 000 W. En modell på 1 200–1 500 W är en bra kompromiss för vanligt hemmabruk. Toppmodellerna, särskilt de professionella och semiprofessionella, kan komma upp i 2 200 W eller mer, vilket ger betydligt snabbare tillagning och jämnare resultat. Leta efter airfryrar med Rapid Air-teknik eller motsvarande, till exempel varmluft med två zoner. Tefal och Moulinex använder sina egna system för optimerad luftcirkulation, medan Philips lovar extra snabb uppvärmning med sin QuickCook-teknik. Vissa toppmodeller har dubbla värmeelement (upptill och nedtill) eller till och med fyra värmezoner, vilket ger jämnare tillagning – särskilt viktigt när bitarna är olika stora. Lagar du ofta mat till hela familjen ger en effekt på minst 1 400 W rimliga tillagningstider, även med full korg.',
+    features_title: 'Funktioner och uppkoppling',
+    features_text: 'Moderna airfryrar har mycket mer än enkla manuella reglage. De bästa modellerna har 10–50 förinställda program för olika livsmedel: pommes frites, kycklingvingar, grillade grönsaker, munkar, torkning av frukt och mycket annat. Programmen minskar risken att något blir fel, eftersom de automatiskt ställer in rätt temperatur och tid. Wifi och appar blir allt vanligare 2026. Med en app kan du starta tillagningen på distans, följa hur det går och få en notis när maten är klar. Det är särskilt praktiskt i hushåll där alla kommer hem vid olika tider. Uppkopplingen höjer dock priset med i snitt 550–1 700 kr. Är du pragmatisk räcker det gott med en enkel pekskärm med LED-display och en programmerbar timer. Modeller med varmhållningsfunktion är utmärkta när ni äter vid olika tider. Kontrollera också om det finns snabbförvärmning och om du kan spara egna program för dina favoritrecept.',
+    materials_title: 'Material och byggkvalitet',
+    materials_text: 'En airfryer är en investering som bör hålla i 5–8 år om du sköter den rätt. Materialen spelar stor roll. Korgen ska ha en säker och hållbar non-stick-beläggning, helst utan PTFE och BPA, eller åtminstone vara CE-märkt enligt de europeiska säkerhetskraven. De bästa märkena använder keramiska eller vattenbaserade beläggningar som håller längre utan att flagna. Själva höljet ska vara robust: rostfritt stål eller plast som tål höga temperaturer. Rostfritt stål är tåligare men tyngre och oftast dyrare. Värmetålig plast av livsmedelskvalitet (ABS) duger om den är tillräckligt tjock och kommer från en seriös tillverkare. Handtagen ska vara ergonomiska och värmeisolerade så att du inte bränner dig. Kontrollera att korgen och tillbehören tål diskmaskin – det sparar mycket tid. Tyska märken som Siemens och Bosch ger ofta 3–5 års garanti, medan de franska märkena Tefal och Moulinex ofta ger 2–3 år, vilket speglar olika syn på hållbarhet.',
+    noise_title: 'Ljudnivån',
+    noise_text: 'En faktor som många glömmer tills de har köpt: ljudet. En airfryer har en fläkt som går på högvarv, och den låter oundvikligen. De flesta modeller ligger på 65–80 decibel (dB) under tillagningen. Som jämförelse ligger ett vanligt samtal runt 60 dB, trafikbuller på 70 dB och en dammsugare på 75 dB. En airfryer på 65 dB är relativt tyst för den här typen av apparat, medan 80 dB börjar bli störande, särskilt tidigt på morgonen eller sent på kvällen. Vissa dyrare modeller, bland annat versioner med ”EcoMode” eller tyst läge från Philips och Moulinex, sänker ljudet till 62–65 dB mot att tillagningen tar något längre tid. Bor du i lägenhet eller stör du dig lätt på ljud är det värt att kontrollera den angivna ljudnivån innan du köper. Hushåll med små barn eller ljudkänsliga husdjur bör särskilt tänka på det här.',
+    energy_title: 'Elförbrukning och besparingar',
+    energy_text: 'I Frankrike kostar elen 2026 mellan 0,18 och 0,25 € per kWh beroende på region och avtal (ca 2–2,75 kr), och då blir airfryerns elförbrukning en kalkyl värd att göra. En airfryer på 1 500 W som går i 30 minuter drar 0,75 kWh, vilket med de priserna kostar ungefär 1,70 kr. En vanlig ugn (2 500–3 500 W) som används i 45 minuter för samma måltid kostar 2,20–2,90 kr, så airfryern är redan snålare. Använder du airfryern 5 gånger i veckan (ett ungefärligt snitt för en familj) blir det cirka 195 gånger per år, eller 146,25 kWh, vilket kostar ungefär 300 kr i el. En vanlig ugn som bara används 3 gånger i veckan skulle kosta 550–650 kr per år i el för samma resultat. För en genomsnittlig fransk familj blir den faktiska besparingen 300–350 kr per år, plus det du sparar på matolja (som du kan sluta använda eller dra ner kraftigt på) och den tid du vinner. På 5 år betalar en airfryer nästan hela sitt inköpspris med de här elbesparingarna. Ditt eget elpris står på elräkningen.',
+    mistakes_title: 'Vanliga misstag att undvika',
+    mistakes_intro: 'Många köper en airfryer med orealistiska förväntningar eller använder den för lite, eftersom de inte känner till knepen. Här är de vanligaste misstagen bland nya användare – och hur du undviker dem.',
+    mistakes: [
+      {
+        title: 'Fylla korgen till brädden',
+        desc: 'Misstag nummer ett: att överfylla korgen. Luften måste kunna cirkulera fritt runt varje bit. Fyller du korgen till max blir resultatet sämre: det som ligger i mitten och längst ner blir mjukt, medan det som ligger överst bränns. Fyll till högst 70–80 % eller laga i två omgångar om det behövs. Gör du pommes frites, skaka om korgen halvvägs för ett jämnare resultat.',
+      },
+      {
+        title: 'Hoppa över förvärmningen',
+        desc: 'Till skillnad från en vanlig ugn går det fort att förvärma en airfryer: högst 3–5 minuter. Ändå hoppar många över det steget, vilket ger längre tillagningstid och en sämre yta. Förvärmningen ger en stabil värme där Maillardreaktionen kan sätta igång direkt.',
+      },
+      {
+        title: 'Använda för lite eller för mycket olja',
+        desc: 'Det är en myt att en airfryer klarar sig helt utan olja. Lite olja (1–2 tsk) gör tillagningen klart bättre och maten krispigare. För lite olja ger en torr och blek yta, för mycket ger fett som samlas i botten. En oljesprej är perfekt för att fördela oljan jämnt.',
+      },
+      {
+        title: 'Strunta i tillverkarens anvisningar',
+        desc: 'Varje airfryer fungerar lite olika. Tillagningstider, rätt temperatur och hur korgen ska placeras varierar. Läs bruksanvisningen, följ de föreslagna programmen i början och anpassa sedan efter din egen smak. Tefal och Moulinex har utförliga guider med tillagningstabeller.',
+      },
+      {
+        title: 'Slarva med rengöringen',
+        desc: 'Rester av olja och mat samlas snabbt. En airfryer som inte rengörs börjar ryka, luktar illa och fungerar sämre. Rengör den efter varje användning: korgen och uppsamlingsskålen tål diskmaskin på de flesta modeller. Utsidan torkar du av med en fuktig trasa.',
+      },
+      {
+        title: 'Laga mycket blöt mat utan att förbereda den',
+        desc: 'Vatten och olja blandas inte. Tinar du fisk eller kyckling ska du torka av den ordentligt innan den tillagas. För mycket fukt ger ånga i stället för den torra värme som behövs för att laga mat med varmluft. Låt marinerade råvaror rinna av ordentligt först.',
+      },
+    ],
+    maintenance_title: 'Skötsel och rengöring för lång livslängd',
+    maintenance_text: 'Regelbunden skötsel avgör hur länge en airfryer håller. Låt den svalna i 10–15 minuter efter varje användning och ta sedan ut korgen och uppsamlingsskålen. Diska dem i ljummet vatten med diskmedel eller i diskmaskinen. Non-stick-beläggningen kan slitas med tiden, särskilt om du skurar hårt med slipande medel. Använd en mjuk svamp och milda medel. Själva apparaten får aldrig sänkas ner i vatten. Torka av insidan med en fuktig trasa och lite ättika om det har samlats rester. Var tredje eller fjärde månad bör du försiktigt borsta av det övre värmeelementet med en mjuk borste för att få bort damm. Kontrollera att ventilationsgallren inte är igensatta. Förvara airfryern torrt och skyddat mot damm. Tefal och Moulinex säljer särskilda rengöringskit och prisvärda reservkorgar för när den gamla har blivit sliten. En välskött airfryer håller lätt i 7–10 år.',
+    recipes_title: 'Populära recept att börja med',
+    recipes_intro: 'Här är fem självklara recept för att få ut det mesta av din airfryer – perfekta när du precis har börjat använda den.',
+    recipes: [
+      {
+        title: 'Krispiga hemgjorda pommes frites',
+        desc: 'Klassikern. Skär medelstora potatisar i stavar på 6–7 mm. Lägg dem i kallt vatten i 20 minuter för att få bort stärkelsen och torka dem sedan ordentligt. Blanda med 1 tsk jordnötsolja, salt och paprikapulver. Tillaga i 200 °C i 18–22 minuter beroende på storlek. Skaka om halvvägs. Resultat: gyllene pommes frites, krispiga utanpå och mjuka inuti, utan någon kvardröjande frityrlukt.',
+      },
+      {
+        title: 'Gyllenbrun helstekt kyckling',
+        desc: 'Söndagsmiddagen i ny tappning. En hel kyckling (1,5–2 kg) tillagas i 180 °C i 45–50 minuter. Pensla den först med rumsvarmt smör blandat med provensalska örter (timjan, rosmarin, persilja). Resultat: krispig utanpå och saftig inuti, utan den torrhet som ugnen ofta ger. Laga rotfrukter (morötter, rovor) i en separat form.',
+      },
+      {
+        title: 'Grillade grönsaker',
+        desc: 'Zucchini, aubergine samt röd och gul paprika: skär i jämna tärningar på 2 cm. Ringla över lite olivolja och smaka av med salt och peppar. Tillaga i 190 °C i 15–18 minuter. Resultat: mjuka grönsaker med lätt karamelliserade kanter och en smak som förstärks av den torra, intensiva värmen. Passar som tillbehör till alla huvudrätter.',
+      },
+      {
+        title: 'Kroketter med ost och skinka',
+        desc: 'Ingredienser: 200 g béchamelsås, 100 g riven ost (emmentaler), 50 g finhackad skinka och muskotnöt. Forma till små rullar, doppa dem i uppvispat ägg och sedan i fint ströbröd. Ställ dem i kylen i 30 minuter. Tillaga i 190 °C i 12–14 minuter. Resultat: gyllene och krispiga utanpå, krämiga och smältande inuti. Servera med tomatsås eller majonnäs.',
+      },
+      {
+        title: 'Hemgjorda grönsakschips',
+        desc: 'Skiva potatis, rödbetor och morötter tunt (2–3 mm) med ett mandolinjärn. Lägg skivorna i vatten i 10 minuter och torka dem ordentligt. Blanda med lite olja och salt. Tillaga i 180 °C i 10–12 minuter, i två omgångar. Resultat: papperstunna, krispiga chips – nyttigare och utan mättat frityrfett. Förvara dem i en burk med lock och ta fram när småsuget kommer.',
+      },
+    ],
+    verdict_title: 'Vårt omdöme',
+    verdict_text: 'En airfryer är en klok investering för alla hushåll som värdesätter hälsa, bekvämlighet och låg elförbrukning. Med en volym som passar ditt hushåll, tillräcklig effekt (minst 1 400 W) och de funktioner du faktiskt behöver i stället för onödiga extrafunktioner förändrar en airfryer hur du lagar mat i vardagen. Hemgjorda pommes frites från airfryern står sig väl mot friterade, är klara 2 minuter snabbare och sprider ingen påträngande frityrlukt. Grönsaker blir riktigt goda tillagade i varmluft. Tiden vid spisen minskar rejält. På fem år sparar du över 1 000 kr på el och matolja. En airfryer ersätter visserligen inte en vanlig ugn helt för vissa rätter (stora mängder, bröd, avancerade bakverk), men den blir snabbt din viktigaste köksapparat och används till 70–80 % av vardagsmåltiderna. För dig som bor i en liten lägenhet, för familjer som vill hålla nere elförbrukningen och för alla som uppskattar god, enkel och snabb mat är en airfryer ett köp du inte kommer att ångra.',
+  },
+  us: {
+    intro_title: 'What an air fryer really does',
+    intro_text: 'The air fryer, also known as a hot-air fryer, has transformed home cooking in recent years. It cooks food evenly by rapidly circulating very hot air (up to 400°F, or 200°C), creating a crispy texture without submerging anything in oil. By 2026, the air fryer has gone from novelty to kitchen staple: a healthier, faster and more convenient alternative to traditional cooking methods. Contrary to a common misconception, an air fryer doesn\'t use radiation or microwaves: it\'s essentially a compact, high-performance convection oven. Air moves around the food at very high speed, triggering the Maillard reaction that produces the golden, crispy crust everyone loves. For families, that means crispy homemade fries in under 15 minutes, a golden roast chicken in 25 minutes and perfectly caramelized roasted vegetables, without the lingering fried-food smell that clings to your kitchen and your clothes for hours. Today\'s models add Wi-Fi, app control and up to 50 presets.',
+    how_to_choose_title: 'How to choose the right air fryer',
+    how_to_choose_intro: 'In 2026 the air fryer market offers hundreds of options, from about $50 for budget models to more than $600 for premium machines. The right one depends entirely on your situation: household size, budget, counter space and the kinds of meals you cook most often. This guide walks you through the decision step by step.',
+    capacity_title: 'Capacity: the deciding factor',
+    capacity_text: 'Capacity is arguably the most important spec when you buy an air fryer, because it determines what you can cook. For one person or a couple, an air fryer of about 2 to 3 quarts (2–3 L), which holds roughly 2.6 to 4 lb (1.2–1.8 kg) of fries, is plenty. These compact models take up little counter space and use less electricity. Brands like Philips and Cosori offer excellent options in this category, ideal for small apartments and studios. For a family of three or four, go for about 4 to 5 quarts (4–5 L), or 4.4 to 6.6 lb (2–3 kg) of food. These models strike a great balance between convenience and energy use: you can cook a whole chicken, make fries for the whole family and even cook several portions at once. For larger families of five or more, invest in a 6.3- to 8.5-quart (6–8 L) model or consider a dual-basket design. Premium models like the Philips Airfryer XXL offer that capacity while keeping a reasonable footprint. Air fryers over 9.5 quarts (9 L) are best for households that regularly cook for big gatherings, or even for restaurants. Keep in mind that usable capacity is typically 80 to 90% of the advertised total, since you need to leave room for air to circulate around the food.',
+    power_title: 'Power and heating technology',
+    power_text: 'Power, measured in watts (W), has a direct effect on cooking speed and on how well food sears. Most modern air fryers draw between 800 W and 2,000 W. A 1,200 to 1,500 W model is a good fit for everyday home use. Premium models, especially professional-grade or semi-pro air fryers, can reach 2,200 W or more, for noticeably faster cooking and more even heat. Look for air fryers with Rapid Air technology or an equivalent system, such as dual-zone convection. Philips promises ultra-fast heating with its QuickCook technology, while other manufacturers use their own optimized airflow systems. Some high-end models have dual heating elements (top and bottom) or even four heating zones for more even cooking, which matters most when you cook pieces of different sizes. If you cook often, a minimum of 1,400 W keeps cooking times reasonable even with a full basket. Knowing the wattage also helps you predict cooking times and your electric bill. Models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V.',
+    features_title: 'Features and smart connectivity',
+    features_text: 'Modern air fryers go well beyond simple manual dials. The best models include 10 to 50 presets for different foods: fries, chicken wings, roasted vegetables, fritters, dehydrated fruit and much more. Presets take the guesswork out of cooking by setting the right temperature and time automatically. Wi-Fi and dedicated smartphone apps are increasingly common in 2026. With an app, you can start cooking remotely, check progress in real time and get a notification when dinner is ready. That\'s especially handy in busy households where people get home at different times. However, connectivity typically adds $60 to $150 to the price. If you\'re practical, a simple touch panel with an LED display and a programmable timer is all you need. Models with a keep-warm function are great for serving people at different times. Also look for a rapid-preheat program and the ability to save custom settings for your favorite recipes. The best apps also offer recipe ideas and step-by-step cooking guidance.',
+    materials_title: 'Materials and build quality',
+    materials_text: 'An air fryer is an investment that should last 5 to 8 years with proper care, so materials matter. The cooking basket needs a safe, durable nonstick coating, ideally PTFE-free and BPA-free, or at a minimum one that meets European safety requirements (CE marking); in the US, also look for a UL or ETL listing mark. The best brands use ceramic or water-based coatings that last longer and resist peeling. The outer housing should be sturdy: stainless steel or heat-resistant plastic. Stainless steel is more durable but heavier and usually pricier. High-quality, heat-resistant food-grade plastic (ABS) is fine if it\'s thick enough and comes from a reputable manufacturer. Handles should be ergonomic and insulated to prevent burns. Check that the basket and accessories are dishwasher-safe: it saves a lot of time. German brands like Siemens and Bosch typically offer 3- to 5-year warranties, a sign of confidence in their durability, while other European manufacturers often offer 2 to 3 years. Warranty terms vary by country, so check the one that applies where you buy. Read independent reviews from appliance testing organizations to get a sense of real-world longevity.',
+    noise_title: 'Noise level',
+    noise_text: 'Noise is often overlooked until the day you bring the air fryer home: these appliances run a high-speed fan, so some sound is unavoidable. Most models produce 65 to 80 decibels (dB) while cooking. For reference, normal conversation is about 60 dB, street traffic about 70 dB and a vacuum cleaner about 75 dB. An air fryer at 65 dB is fairly quiet for this type of appliance, while 80 dB gets genuinely annoying, especially early in the morning or late at night. Some premium models, including the “EcoMode” or quiet versions from Philips and other manufacturers, bring noise down to 62–65 dB by giving up a little cooking speed. If you live in an apartment or you\'re sensitive to noise, it\'s worth checking the decibel rating before you buy. Households with young children or noise-sensitive pets should pay particular attention. Owner reviews that mention noise give you a real-world picture that spec sheets can\'t.',
+    energy_title: 'Energy use and savings',
+    energy_text: 'An air fryer\'s energy use is worth running the numbers on. We use an example rate of 20 cents per kWh here; check the rate on your utility bill, since it varies widely by state and utility. A 1,500 W air fryer running for 30 minutes uses 0.75 kWh, or about 15 cents of electricity. A traditional oven (2,500 to 3,500 W) running for 45 minutes for the same meal costs about 38 to 53 cents, so the air fryer is already cheaper to run. Over a year, if you use your air fryer five times a week (a typical family estimate), that\'s about 195 uses and 146.25 kWh, or roughly $29 in electricity. An oven used just three times a week would cost about $60 to $80 a year for the same results. Actual savings depend on how much oven cooking the air fryer really replaces, and you also save on cooking oil (cut out or sharply reduced) and prep time. Over five years of ownership, an air fryer can come close to paying for itself through energy savings alone.',
+    mistakes_title: 'Common mistakes to avoid',
+    mistakes_intro: 'Many people buy an air fryer with unrealistic expectations, or underuse it because they don\'t know the best practices. Here are the most common mistakes new owners make, and how to avoid them.',
+    mistakes: [
+      {
+        title: 'Overfilling the basket',
+        desc: 'Mistake number one: overcrowding. Air needs to circulate freely around every piece of food. Filling the basket to the brim seriously hurts cooking quality: food in the middle and at the bottom stays soggy while the top burns. Fill it to about 70 to 80% at most, or cook in two batches. For fries, shake the basket halfway through for more even results.',
+      },
+      {
+        title: 'Skipping the preheat',
+        desc: 'Unlike an oven, an air fryer preheats fast: 3 to 5 minutes at most. Still, many people skip this step and end up with longer cooking times and a less-than-ideal texture. Preheating creates a stable, hot environment where the Maillard reaction starts the moment food goes in.',
+      },
+      {
+        title: 'Using the wrong amount of oil',
+        desc: 'It\'s a myth that air fryers need no oil at all. A small amount (1 to 2 teaspoons) makes a big difference and gives you crispier results. Too little oil leaves food dry and pale; too much leaves grease pooling at the bottom of the basket. An oil spray spreads it evenly.',
+      },
+      {
+        title: 'Ignoring the manufacturer\'s instructions',
+        desc: 'Every air fryer behaves a little differently. Cooking times, ideal temperatures and basket placement vary from model to model. Read the manual, start with the suggested presets, then adjust to your taste. Premium manufacturers include detailed guides with cooking charts.',
+      },
+      {
+        title: 'Skipping regular cleaning',
+        desc: 'Oil and food residue build up fast. An air fryer that isn\'t cleaned starts to smoke, develops odors and loses performance. Clean it after every use: on most models the basket and tray are dishwasher-safe. Wipe the outside with a damp cloth. A monthly deep clean with a vinegar solution removes stubborn buildup.',
+      },
+      {
+        title: 'Cooking wet food without prepping it',
+        desc: 'Water and oil don\'t mix. If you\'re thawing fish or chicken, pat it dry thoroughly before cooking. Excess moisture creates steam instead of the dry heat that air frying needs. Let marinated foods drain well before they go in.',
+      },
+    ],
+    maintenance_title: 'Care and cleaning for a longer life',
+    maintenance_text: 'Regular care determines how long an air fryer lasts. After each use, let it cool for 10 to 15 minutes, then remove the basket and drip tray. Rinse them in warm, soapy water or put them in the dishwasher. The nonstick coating can wear over time, especially if you scrub hard with abrasive cleaners, so use a soft sponge and gentle products. Never submerge the main unit in water. If residue builds up inside, wipe it with a damp cloth and a little white vinegar. Every 3 to 4 months, gently brush the upper heating element with a soft brush to remove dust. Make sure the vents stay clear. Store the air fryer in a dry, dust-free spot. Many manufacturers sell affordable replacement baskets for when the original coating eventually wears out. A well-maintained air fryer can easily last 7 to 10 years, which makes it excellent value over its lifetime.',
+    recipes_title: 'Easy recipes to get started',
+    recipes_intro: 'These five essential recipes show off what your air fryer can do, and they\'re perfect if you\'re just getting to know the appliance.',
+    recipes: [
+      {
+        title: 'Crispy homemade fries',
+        desc: 'The essential classic. Cut medium potatoes into sticks about 1/4 inch (6–7 mm) thick. Soak them in cold water for 20 minutes to remove the starch, then dry them thoroughly. Toss with 1 teaspoon of peanut oil, salt and paprika. Cook at 400°F (200°C) for 18 to 22 minutes, depending on thickness, shaking the basket halfway through. The result: golden fries, crisp outside and fluffy inside, without the fried smell lingering in your kitchen.',
+      },
+      {
+        title: 'Golden roast chicken',
+        desc: 'The classic Sunday dinner, reinvented. A whole chicken (3.3 to 4.4 lb, or 1.5–2 kg) cooks at 350°F (180°C) for 45 to 50 minutes. Rub it first with softened butter mixed with fresh herbs (thyme, rosemary, parsley). The result: a crisp, golden outside and a juicy inside, without the dryness you often get in a conventional oven. Roast root vegetables (carrots, parsnips) separately.',
+      },
+      {
+        title: 'Roasted mixed vegetables',
+        desc: 'Zucchini, eggplant, red and yellow bell peppers: cut them into even 3/4-inch (2 cm) cubes. Drizzle lightly with olive oil and season with salt and pepper. Cook at 375°F (190°C) for 15 to 18 minutes. The result: tender insides with lightly caramelized edges and flavor concentrated by the intense dry heat. A great side for any main course.',
+      },
+      {
+        title: 'Crispy ham and cheese croquettes',
+        desc: 'You\'ll need 7 oz (200 g) of béchamel sauce, 3.5 oz (100 g) of grated Swiss cheese (Emmental), 1.8 oz (50 g) of diced ham and a pinch of nutmeg. Shape into small logs, dip in beaten egg, then coat in fine breadcrumbs. Refrigerate for 30 minutes. Cook at 375°F (190°C) for 12 to 14 minutes. The result: a crisp, golden outside and a rich, melty center. Serve with tomato sauce or mayonnaise.',
+      },
+      {
+        title: 'Homemade veggie chips',
+        desc: 'Use a mandoline to slice potatoes, beets and carrots thin (about 1/8 inch, or 2–3 mm). Soak for 10 minutes, then dry completely. Toss with a mix of oil and salt. Cook at 350°F (180°C) for 10 to 12 minutes, in two batches. The result: paper-thin, crunchy chips, a healthier snack with no saturated frying oil. Store them in an airtight jar for easy snacking.',
+      },
+    ],
+    verdict_title: 'The bottom line',
+    verdict_text: 'An air fryer is a smart buy for any household that values health, convenience and energy efficiency. Choose a capacity that fits your household, enough power (1,400 W minimum) and the features you\'ll actually use rather than extras you won\'t, and it will change the way you cook every day. Homemade fries rival the deep-fried kind, cook a couple of minutes faster and leave no lingering smell. Vegetables become genuinely delicious. Prep time drops dramatically. Over five years, you can save well over $100 in electricity and cooking oil at our example rate of 20 cents per kWh. Granted, an air fryer doesn\'t fully replace an oven for some jobs (big batches, bread, elaborate pastries), but it quickly becomes your go-to appliance for 70 to 80% of everyday meals. For apartment dwellers short on space, energy-conscious families and anyone who loves simple, fast, genuinely good food, an air fryer is a purchase you won\'t regret.',
+  },
+  ca: {
+    intro_title: 'Understanding the Air Fryer Revolution',
+    intro_text: 'The air fryer has transformed home cooking since it went mainstream. This kitchen appliance cooks food evenly by circulating superheated air at high speed, up to 200°C (400°F), creating a crisp texture without deep-frying in oil. By 2026, air fryers have become a staple in millions of households, offering a healthier, faster and more convenient alternative to traditional cooking methods. Despite a common misconception, an air fryer doesn\'t work by radiation or microwaves: it\'s essentially a compact, high-performance convection oven. Air moves around your food at very high speed, triggering the Maillard reaction that produces the golden, crisp exterior everyone loves. For a busy family, that means homemade fries that rival takeout in under 15 minutes, a perfectly roasted chicken in 25 minutes and beautifully caramelized roasted vegetables, without the fried smell that clings to clothes and curtains for hours. The technology has matured dramatically, with models now offering Wi-Fi connectivity, preset programs for hundreds of foods and energy consumption 30 to 40% lower than a traditional oven.',
+    how_to_choose_title: 'How to Choose the Right Air Fryer',
+    how_to_choose_intro: 'The air fryer market in 2026 offers hundreds of options, from budget models around $60 to premium models over $800. The right one depends entirely on your situation: household size, budget, available counter space and the kinds of meals you make most often. This guide will help you decide with confidence.',
+    capacity_title: 'Capacity: The Primary Decision Factor',
+    capacity_text: 'Capacity is arguably the most important criterion when you buy an air fryer, because it determines what you can cook. For one person or a couple, a 2 to 3 L (2.1 to 3.2 qt) air fryer, enough for about 1.2 to 1.8 kg (2.5 to 4 lb) of fries, is plenty. These compact models take up little counter space and use less electricity. Brands like Philips and Cosori offer excellent options in this category, ideal for condos and studio apartments. For a family of three or four, choose 4 to 5 L (4.2 to 5.3 qt), about 2 to 3 kg (4.5 to 6.5 lb) of food. These air fryers strike a good balance between convenience and energy use: you can cook a whole chicken, make fries for the whole family and even cook several portions at once. For larger families of five or more, invest in a 6 to 8 L (6.3 to 8.5 qt) model or consider a dual-basket design. Premium models like the Philips Airfryer XXL offer this capacity while keeping reasonable dimensions. Air fryers over 9 L (9.5 qt) mainly suit restaurants or households that regularly cook for big gatherings. Keep in mind that usable capacity is typically 80 to 90% of the advertised capacity, since you need to leave room for air to circulate around the food.',
+    power_title: 'Power and Heating Technology',
+    power_text: 'Power, measured in watts (W), directly affects cooking speed and how well food browns. Most modern air fryers draw between 800 and 2,000 W. A 1,200 to 1,500 W model is excellent value for everyday home use. Premium models, especially professional-grade ones, can reach 2,200 W or more, for much faster cooking and better heat distribution. Keep in mind that a standard Canadian household circuit (120 V, 15 A) delivers up to 1,800 W, so check the wattage on the listing. Look for air fryers with Rapid Air technology or an equivalent system such as dual-zone convection heating. Philips pioneered QuickCook technology, which promises ultra-fast heating, while other manufacturers offer their own proprietary systems. Some top-tier models have two heating elements (top and bottom) or even four heating zones for evenly cooked food, which matters when you cook pieces of different sizes. If you cook often, look for at least 1,400 W to keep cooking times reasonable even with a full basket. Understanding wattage helps you predict cooking times and your electricity bill accurately.',
+    features_title: 'Features and Smart Connectivity',
+    features_text: 'Modern air fryers go far beyond simple manual controls. The best models include 10 to 50 preset programs for different foods: fries, chicken wings, roasted vegetables, fish, dehydrating and much more. These programs take the guesswork out of cooking by setting the right temperature and time automatically. Wi-Fi and dedicated smartphone apps are increasingly common in 2026. With an app, you can start cooking remotely, monitor progress in real time and get a notification when the meal is ready. That\'s a real plus in busy households where people get home at different times. However, smart connectivity typically adds $80 to $250 to the price. For practical users, a simple touch panel with an LED display and a programmable timer is all you need. Keep-warm functions are great when people eat at different times. Also check for a rapid preheat program and the ability to save custom settings for your favourite recipes. The best apps also offer recipe suggestions and cooking guidance.',
+    materials_title: 'Materials and Build Quality',
+    materials_text: 'An air fryer is an investment that should last five to eight years with proper care, so materials matter. The cooking basket needs a safe, durable non-stick coating, ideally PFOA-free and BPA-free, and the appliance should at least carry the required safety marks (CE in Europe; in Canada, look for a recognized certification mark such as CSA, cUL or cETL). Premium brands use ceramic or water-based coatings that outlast traditional PTFE and resist peeling. The outer housing should be sturdy: either stainless steel or heat-resistant, food-grade plastic. Stainless steel is more durable but adds weight and cost. High-quality, heat-resistant ABS plastic is acceptable if it\'s thick enough and comes from a reputable manufacturer. Handles should be ergonomic and insulated to prevent burns. Check that the basket and accessories are dishwasher-safe: it saves a lot of time. German brands like Siemens and Bosch typically offer three- to five-year warranties, a sign of confidence in their durability, while other European manufacturers often offer two to three years. Read reviews from independent appliance testing organizations to gauge real-world longevity.',
+    noise_title: 'Noise Level Considerations',
+    noise_text: 'Noise is often overlooked until the day you buy: air fryers rely on high-speed fans, so some sound is unavoidable. Most models produce 65 to 80 decibels (dB) while cooking. For reference, normal conversation is about 60 dB, traffic noise 70 dB and a vacuum cleaner 75 dB. An air fryer at 65 dB is relatively quiet for this type of appliance, while 80 dB gets genuinely annoying, especially early in the morning or late in the evening. Some premium models, particularly "EcoMode" or "silent" versions from Philips and other manufacturers, bring noise down to 62 to 65 dB by giving up a little cooking speed. If you live in an apartment or are sensitive to noise, check the decibel rating before you buy. Households with young children or noise-sensitive pets should pay particular attention. Owner reviews that mention noise give you a real-world picture that spec sheets can\'t.',
+    energy_title: 'Energy Consumption and Cost Savings',
+    energy_text: 'In 2026, an air fryer\'s energy use is worth a quick calculation. A 1,500 W air fryer running for 30 minutes uses 0.75 kWh, or about 8¢ of electricity at an example rate of 10¢ per kWh. A traditional oven (2,500 to 3,500 W) running for 45 minutes to cook the same meal uses about 1.9 to 2.6 kWh, or 19¢ to 26¢, so the air fryer is clearly cheaper to run. Over a year, using your air fryer five times a week (a typical family estimate) adds up to about 195 sessions and 146.25 kWh, or roughly $15 of electricity. An oven used just three times a week for the same results costs about $30 to $40 a year. That\'s a saving of about $15 to $25 a year, plus savings on cooking oil (cut out or greatly reduced) and prep time. Your actual rate depends on your province and your utility, so check your electricity bill. Over five years, the energy savings alone can cover much of the cost of a budget model.',
+    mistakes_title: 'Common Mistakes to Avoid',
+    mistakes_intro: 'Many new owners start out with unrealistic expectations or underuse their air fryer because they don\'t know how to get the most out of it. Here are the most common beginner mistakes and how to avoid them.',
+    mistakes: [
+      {
+        title: 'Overfilling the basket',
+        desc: 'Mistake number one: overcrowding. Air has to circulate freely around every piece of food. Filling the basket to the brim dramatically reduces cooking quality: food in the middle and at the bottom stays soggy while the top burns. Fill it to about 70 to 80% at most, or cook in two batches. For fries, shake the basket halfway through for more even results.',
+      },
+      {
+        title: 'Skipping the preheat',
+        desc: 'Unlike traditional ovens, air fryer preheating is rapid: 3-5 minutes maximum. However, many users skip this step, resulting in longer cooking times and suboptimal texture. Preheating creates a stable thermal environment where the Maillard reaction initiates immediately upon food contact.',
+      },
+      {
+        title: 'Using incorrect oil quantities',
+        desc: 'It\'s a myth that air fryers need no oil at all. A small amount (1 to 2 teaspoons) noticeably improves results and makes food crispier. Too little oil gives dry, pale results; too much leaves grease pooling at the bottom of the basket. An oil mister or spray bottle spreads it evenly.',
+      },
+      {
+        title: 'Ignoring manufacturer instructions',
+        desc: 'Every air fryer has its own quirks. Cooking times, ideal temperatures and basket positions vary from model to model. Read the manual, start with the suggested programs, then adjust to your taste. Premium manufacturers provide detailed booklets with cooking charts.',
+      },
+      {
+        title: 'Neglecting regular cleaning',
+        desc: 'Oil and food residue accumulate rapidly. Uncleaned air fryers produce smoke, develop odours, and performance diminishes. Clean after each use: most baskets and trays are dishwasher-safe. The external body cleans with a damp cloth. Deep cleaning monthly with vinegar solution eliminates stubborn buildup.',
+      },
+      {
+        title: 'Cooking wet foods without preparation',
+        desc: 'Water and oil don\'t mix. If defrosting fish or poultry, dry thoroughly before cooking. Excess moisture creates steam rather than the dry heat necessary for optimal cooking. Marinated foods must drain thoroughly before preparation.',
+      },
+    ],
+    maintenance_title: 'Maintenance and Cleaning for Maximum Lifespan',
+    maintenance_text: 'Regular maintenance determines an air fryer\'s longevity. After each use, allow 10-15 minutes cooling, then remove basket and collection tray. Rinse with warm soapy water or place in the dishwasher. The non-stick coating can deteriorate over time, especially with vigorous abrasive scrubbing. Use soft sponges and gentle cleaning products. Never immerse the main body in water. Wipe interior surfaces with a damp cloth and white vinegar solution if residue accumulates. Every 3-4 months, clean the upper heating element gently with a soft brush to remove dust. Ensure ventilation grilles remain unobstructed. Store in a dry, dust-protected location. Many manufacturers offer affordable replacement basket kits when original coatings eventually wear. A well-maintained air fryer easily lasts 7-10 years, providing excellent value across its lifespan.',
+    recipes_title: 'Essential Recipes for Getting Started',
+    recipes_intro: 'These five essential recipes show off your air fryer\'s versatility and are perfect if you\'re just getting started.',
+    recipes: [
+      {
+        title: 'Homemade Crispy Fries',
+        desc: 'The essential classic. Cut medium potatoes into sticks about 6 to 7 mm (¼ in.) thick. Soak them in cold water for 20 minutes to remove the starch, then dry them thoroughly. Toss with 1 teaspoon of peanut oil, salt and paprika. Cook at 200°C (400°F) for 18 to 22 minutes depending on thickness, shaking the basket halfway through. The result: golden fries, crisp outside and fluffy inside, that rival your favourite takeout, without the fried smell lingering in your kitchen.',
+      },
+      {
+        title: 'Golden Roasted Chicken',
+        desc: 'Sunday dinner, reimagined. A whole chicken (1.5 to 2 kg, about 3¼ to 4½ lb) cooks at 180°C (350°F) for 45 to 50 minutes. Rub it first with softened butter mixed with fresh herbs (thyme, rosemary, parsley). The result: crisp, golden skin and juicy, tender meat, without the dryness you often get from oven roasting. Cook root vegetables (carrots, parsnips) separately on another tray.',
+      },
+      {
+        title: 'Roasted Mixed Vegetables',
+        desc: 'Zucchini, eggplant, red and yellow peppers: cut them into even 2 cm (¾ in.) cubes. Drizzle lightly with olive oil and season with salt and pepper. Cook at 190°C (375°F) for 15 to 18 minutes. The result: tender inside with lightly caramelized edges, the flavour intensified by the strong, dry heat. A great side for any main course.',
+      },
+      {
+        title: 'Crispy Cheese and Ham Croquettes',
+        desc: 'Mix 200 g of béchamel sauce, 100 g of grated old cheddar, 50 g of diced ham and a pinch of nutmeg. Shape into small logs, dip in beaten egg, then coat in fine breadcrumbs. Refrigerate for 30 minutes. Cook at 190°C (375°F) for 12 to 14 minutes. The result: a golden, crisp outside and a rich, melting centre. Serve with tomato sauce or mayonnaise.',
+      },
+      {
+        title: 'Homemade Vegetable Chips',
+        desc: 'Use a mandoline to slice potatoes, beets and carrots thinly (2 to 3 mm, about ⅛ in.). Soak for 10 minutes, then dry completely. Toss with a little oil and salt. Cook at 180°C (350°F) for 10 to 12 minutes, in two batches. The result: paper-thin, crispy chips, healthier and without saturated frying oil. Store them in airtight jars for easy snacking.',
+      },
+    ],
+    verdict_title: 'Our Final Verdict',
+    verdict_text: 'An air fryer is a smart investment for any household that values health, convenience and energy efficiency. With a capacity that suits your household, enough power (at least 1,400 W) and the features you\'ll actually use rather than unnecessary extras, an air fryer changes the way you cook every day. Homemade fries rival takeout, cook a couple of minutes faster and leave no lingering smell. Vegetables become genuinely delicious when air-fried. Prep times drop dramatically. Over five years, the savings on electricity and cooking oil can reach $100 or more at an example rate of 10¢/kWh. Of course, an air fryer doesn\'t fully replace a traditional oven for some things (cooking in large quantities, breads, complex pastries), but it quickly becomes your main cooking appliance for 70 to 80% of everyday meals. For apartment and condo dwellers short on space, energy-conscious families and anyone who appreciates simple, fast, genuinely good food, an air fryer is a purchase you won\'t regret.',
   }
 }
 
@@ -730,7 +952,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* SEO Guide Content - Intro (editorial opening) */}
       <section className="max-w-3xl mx-auto px-6 pt-16 pb-16 md:pt-24 md:pb-20">
         <Kicker className="mb-6">
-          {lang === 'fr' ? 'L\'Édito' : lang === 'de' ? 'Editorial' : lang === 'es' ? 'Editorial' : lang === 'it' ? 'Editoriale' : lang === 'nl' ? 'Redactioneel' : lang === 'pl' ? 'Od redakcji' : 'Editorial'}
+          {lang === 'fr' ? 'L\'Édito' : lang === 'de' ? 'Editorial' : lang === 'es' ? 'Editorial' : lang === 'it' ? 'Editoriale' : lang === 'nl' ? 'Redactioneel' : lang === 'pl' ? 'Od redakcji' : lang === 'sv' ? 'Redaktionellt' : lang === 'us' ? 'Editor\'s note' : lang === 'ca' ? 'Editorial' : 'Editorial'}
         </Kicker>
         <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">{content.intro_title}</h2>
         <div className="h-[2px] w-16 bg-brand-600 mb-10"></div>
@@ -777,7 +999,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-3xl mx-auto px-6 pt-16 md:pt-20 pb-10">
         <div className="text-center mb-14">
           <Kicker className="mb-5">
-            {lang === 'fr' ? 'Le Guide d\'Achat' : lang === 'de' ? 'Der Kaufratgeber' : lang === 'es' ? 'La Guía de Compra' : lang === 'it' ? 'La Guida all\'Acquisto' : lang === 'nl' ? 'De Koopgids' : lang === 'pl' ? 'Poradnik zakupowy' : 'The Buyer\'s Guide'}
+            {lang === 'fr' ? 'Le Guide d\'Achat' : lang === 'de' ? 'Der Kaufratgeber' : lang === 'es' ? 'La Guía de Compra' : lang === 'it' ? 'La Guida all\'Acquisto' : lang === 'nl' ? 'De Koopgids' : lang === 'pl' ? 'Poradnik zakupowy' : lang === 'sv' ? 'Köpguiden' : lang === 'us' ? 'Buying guide' : lang === 'ca' ? 'The Buyer\'s Guide' : 'The Buyer\'s Guide'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.how_to_choose_title}</h2>
           <div className="h-[2px] w-16 bg-brand-600 mx-auto mb-8"></div>
@@ -809,7 +1031,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-4xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
         <div className="text-center mb-14">
           <Kicker variant="amber" className="mb-5">
-            {lang === 'fr' ? 'Les Pièges' : lang === 'de' ? 'Die Fallen' : lang === 'es' ? 'Las Trampas' : lang === 'it' ? 'Le Insidie' : lang === 'nl' ? 'De Valkuilen' : lang === 'pl' ? 'Pułapki' : 'The Pitfalls'}
+            {lang === 'fr' ? 'Les Pièges' : lang === 'de' ? 'Die Fallen' : lang === 'es' ? 'Las Trampas' : lang === 'it' ? 'Le Insidie' : lang === 'nl' ? 'De Valkuilen' : lang === 'pl' ? 'Pułapki' : lang === 'sv' ? 'Fallgropar' : lang === 'us' ? 'Mistakes to avoid' : lang === 'ca' ? 'The Pitfalls' : 'The Pitfalls'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.mistakes_title}</h2>
           <div className="h-[2px] w-16 bg-amber-600 mx-auto mb-8"></div>
@@ -834,7 +1056,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* Maintenance Section — editorial feature */}
       <section className="max-w-3xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
         <Kicker className="mb-6">
-          {lang === 'fr' ? 'L\'Entretien' : lang === 'de' ? 'Die Pflege' : lang === 'es' ? 'El Mantenimiento' : lang === 'it' ? 'La Manutenzione' : lang === 'nl' ? 'Het Onderhoud' : lang === 'pl' ? 'Konserwacja' : 'Maintenance'}
+          {lang === 'fr' ? 'L\'Entretien' : lang === 'de' ? 'Die Pflege' : lang === 'es' ? 'El Mantenimiento' : lang === 'it' ? 'La Manutenzione' : lang === 'nl' ? 'Het Onderhoud' : lang === 'pl' ? 'Konserwacja' : lang === 'sv' ? 'Skötsel' : lang === 'us' ? 'Care and cleaning' : lang === 'ca' ? 'Maintenance' : 'Maintenance'}
         </Kicker>
         <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">{content.maintenance_title}</h2>
         <div className="h-[2px] w-16 bg-brand-600 mb-10"></div>
@@ -845,7 +1067,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-5xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
         <div className="text-center mb-14">
           <Kicker className="mb-5">
-            {lang === 'fr' ? 'Le Cahier Recettes' : lang === 'de' ? 'Das Rezeptbuch' : lang === 'es' ? 'El Recetario' : lang === 'it' ? 'Il Ricettario' : lang === 'nl' ? 'Het Receptenboek' : lang === 'pl' ? 'Przepisy' : 'The Recipe Book'}
+            {lang === 'fr' ? 'Le Cahier Recettes' : lang === 'de' ? 'Das Rezeptbuch' : lang === 'es' ? 'El Recetario' : lang === 'it' ? 'Il Ricettario' : lang === 'nl' ? 'Het Receptenboek' : lang === 'pl' ? 'Przepisy' : lang === 'sv' ? 'Receptboken' : lang === 'us' ? 'Recipes' : lang === 'ca' ? 'The Recipe Book' : 'The Recipe Book'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.recipes_title}</h2>
           <div className="h-[2px] w-16 bg-brand-600 mx-auto mb-8"></div>
@@ -874,7 +1096,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-brand-500/10 blur-3xl"></div>
           <div className="relative">
             <Kicker variant="blue-light" className="mb-6">
-              {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : lang === 'pl' ? 'Werdykt' : 'Verdict'}
+              {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : lang === 'pl' ? 'Werdykt' : lang === 'sv' ? 'Omdöme' : lang === 'us' ? 'Verdict' : lang === 'ca' ? 'Verdict' : 'Verdict'}
             </Kicker>
             <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] mb-6 max-w-2xl">{content.verdict_title}</h2>
             <div className="h-[2px] w-16 bg-brand-400 mb-8"></div>
@@ -921,7 +1143,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-5xl mx-auto px-6 py-16 md:py-20">
         <div className="text-center mb-14">
           <Kicker className="mb-5">
-            {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : lang === 'pl' ? 'Nasz wybór' : 'The Selection'}
+            {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : lang === 'pl' ? 'Nasz wybór' : lang === 'sv' ? 'Urvalet' : lang === 'us' ? 'Our picks' : lang === 'ca' ? 'The Selection' : 'The Selection'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">{dict.section_title}</h2>
           <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto">{dict.section_subtitle}</p>
@@ -969,10 +1191,10 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-5xl mx-auto px-6 py-20 md:py-24 border-t border-slate-200">
         <div className="text-center mb-14">
           <Kicker className="mb-4">
-            {lang === 'fr' ? 'À lire aussi' : lang === 'de' ? 'Auch lesen' : lang === 'es' ? 'Leer también' : lang === 'it' ? 'Leggi anche' : lang === 'nl' ? 'Lees ook' : lang === 'pl' ? 'Przeczytaj też' : 'Also read'}
+            {lang === 'fr' ? 'À lire aussi' : lang === 'de' ? 'Auch lesen' : lang === 'es' ? 'Leer también' : lang === 'it' ? 'Leggi anche' : lang === 'nl' ? 'Lees ook' : lang === 'pl' ? 'Przeczytaj też' : lang === 'sv' ? 'Läs också' : lang === 'us' ? 'Read next' : lang === 'ca' ? 'Also read' : 'Also read'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-4">
-            {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : lang === 'pl' ? 'Powiązane poradniki' : 'Related Guides'}
+            {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : lang === 'pl' ? 'Powiązane poradniki' : lang === 'sv' ? 'Relaterade guider' : lang === 'us' ? 'Related guides' : lang === 'ca' ? 'Related Guides' : 'Related Guides'}
           </h2>
           <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
         </div>
@@ -981,26 +1203,26 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             {
               href: `/${lang}/guides/airfryer-vs-four`,
               num: '01',
-              title: lang === 'fr' ? 'Airfryer vs Four traditionnel' : lang === 'de' ? 'Heißluftfritteuse vs Backofen' : lang === 'es' ? 'Freidora de aire vs Horno' : lang === 'it' ? 'Friggitrice ad aria vs Forno' : lang === 'nl' ? 'Airfryer vs Oven' : lang === 'pl' ? 'Frytkownica beztłuszczowa czy tradycyjny piekarnik' : 'Air Fryer vs Traditional Oven',
-              desc: lang === 'fr' ? 'Comparatif détaillé pour savoir lequel choisir.' : lang === 'de' ? 'Detaillierter Vergleich, welcher besser ist.' : lang === 'es' ? 'Comparativa detallada para saber cuál elegir.' : lang === 'it' ? 'Confronto dettagliato per sapere quale scegliere.' : lang === 'nl' ? 'Gedetailleerde vergelijking om te weten welke te kiezen.' : lang === 'pl' ? 'Szczegółowe porównanie, które pomoże Ci wybrać.' : 'Detailed comparison to help you choose.',
+              title: lang === 'fr' ? 'Airfryer vs Four traditionnel' : lang === 'de' ? 'Heißluftfritteuse vs Backofen' : lang === 'es' ? 'Freidora de aire vs Horno' : lang === 'it' ? 'Friggitrice ad aria vs Forno' : lang === 'nl' ? 'Airfryer vs Oven' : lang === 'pl' ? 'Frytkownica beztłuszczowa czy tradycyjny piekarnik' : lang === 'sv' ? 'Airfryer eller vanlig ugn' : lang === 'us' ? 'Air Fryer vs. Traditional Oven' : lang === 'ca' ? 'Air Fryer vs Traditional Oven' : 'Air Fryer vs Traditional Oven',
+              desc: lang === 'fr' ? 'Comparatif détaillé pour savoir lequel choisir.' : lang === 'de' ? 'Detaillierter Vergleich, welcher besser ist.' : lang === 'es' ? 'Comparativa detallada para saber cuál elegir.' : lang === 'it' ? 'Confronto dettagliato per sapere quale scegliere.' : lang === 'nl' ? 'Gedetailleerde vergelijking om te weten welke te kiezen.' : lang === 'pl' ? 'Szczegółowe porównanie, które pomoże Ci wybrać.' : lang === 'sv' ? 'En detaljerad jämförelse som hjälper dig att välja.' : lang === 'us' ? 'A detailed comparison to help you choose.' : lang === 'ca' ? 'Detailed comparison to help you choose.' : 'Detailed comparison to help you choose.',
             },
             {
               href: `/${lang}/a-propos`,
               num: '02',
-              title: lang === 'fr' ? 'Notre méthodologie' : lang === 'de' ? 'Unsere Methodik' : lang === 'es' ? 'Nuestra metodología' : lang === 'it' ? 'La nostra metodologia' : lang === 'nl' ? 'Onze methodologie' : lang === 'pl' ? 'Nasza metodologia' : 'Our Methodology',
-              desc: lang === 'fr' ? 'Comment nous comparons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse vergleichen und bewerten.' : lang === 'es' ? 'Cómo comparamos y calificamos cada freidora.' : lang === 'it' ? 'Come confrontiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer vergelijken en beoordelen.' : lang === 'pl' ? 'Jak porównujemy i oceniamy każdą frytkownicę beztłuszczową.' : 'How we compare and rate every air fryer.',
+              title: lang === 'fr' ? 'Notre méthodologie' : lang === 'de' ? 'Unsere Methodik' : lang === 'es' ? 'Nuestra metodología' : lang === 'it' ? 'La nostra metodologia' : lang === 'nl' ? 'Onze methodologie' : lang === 'pl' ? 'Nasza metodologia' : lang === 'sv' ? 'Vår metod' : lang === 'us' ? 'Our Methodology' : lang === 'ca' ? 'Our Methodology' : 'Our Methodology',
+              desc: lang === 'fr' ? 'Comment nous comparons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse vergleichen und bewerten.' : lang === 'es' ? 'Cómo comparamos y calificamos cada freidora.' : lang === 'it' ? 'Come confrontiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer vergelijken en beoordelen.' : lang === 'pl' ? 'Jak porównujemy i oceniamy każdą frytkownicę beztłuszczową.' : lang === 'sv' ? 'Så jämför och betygsätter vi varje airfryer.' : lang === 'us' ? 'How we compare and rate every air fryer.' : lang === 'ca' ? 'How we compare and rate every air fryer.' : 'How we compare and rate every air fryer.',
             },
             {
               href: `/${lang}`,
               num: '03',
-              title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : lang === 'pl' ? 'Ranking najlepszych frytkownic beztłuszczowych 2026' : 'Best Air Fryers 2026 Ranking',
-              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et scores Nura.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Nura Scores.' : lang === 'es' ? 'Nuestro top 9 con comparativa y puntuaciones Nura.' : lang === 'it' ? 'La nostra top 9 con confronto e punteggi Nura.' : lang === 'nl' ? 'Onze top 9 met vergelijking en Nura Scores.' : lang === 'pl' ? 'Nasze top 9 z porównaniem i ocenami Nura.' : 'Our top 9 with comparison and Nura scores.',
+              title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : lang === 'pl' ? 'Ranking najlepszych frytkownic beztłuszczowych 2026' : lang === 'sv' ? 'Topplista: de bästa airfryrarna 2026' : lang === 'us' ? 'Best Air Fryers of 2026: Our Ranking' : lang === 'ca' ? 'Best Air Fryers 2026 Ranking' : 'Best Air Fryers 2026 Ranking',
+              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et scores Nura.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Nura Scores.' : lang === 'es' ? 'Nuestro top 9 con comparativa y puntuaciones Nura.' : lang === 'it' ? 'La nostra top 9 con confronto e punteggi Nura.' : lang === 'nl' ? 'Onze top 9 met vergelijking en Nura Scores.' : lang === 'pl' ? 'Nasze top 9 z porównaniem i ocenami Nura.' : lang === 'sv' ? 'Vår topp 9 med jämförelse och Nura Score-betyg.' : lang === 'us' ? 'Our top 9, compared, with Nura Scores.' : lang === 'ca' ? 'Our top 9 with comparison and Nura scores.' : 'Our top 9 with comparison and Nura scores.',
             },
             {
               href: `/${lang}/cuisine-connectee/prises-connectees`,
               num: '04',
-              title: lang === 'fr' ? 'Piloter son airfryer à distance' : lang === 'de' ? 'Heißluftfritteuse per Fernbedienung' : lang === 'es' ? 'Controla tu freidora a distancia' : lang === 'it' ? 'Controlla la friggitrice da remoto' : lang === 'nl' ? 'Airfryer op afstand bedienen' : lang === 'pl' ? 'Steruj frytkownicą zdalnie' : 'Control your air fryer remotely',
-              desc: lang === 'fr' ? 'Les prises connectées compatibles avec votre airfryer.' : lang === 'de' ? 'Smarte Steckdosen, die zu Ihrer Heißluftfritteuse passen.' : lang === 'es' ? 'Los enchufes inteligentes compatibles con tu freidora.' : lang === 'it' ? 'Le prese smart compatibili con la tua friggitrice.' : lang === 'nl' ? 'Slimme stekkers die werken met uw airfryer.' : lang === 'pl' ? 'Inteligentne wtyczki zgodne z Twoją frytkownicą.' : 'The smart plugs that work with your air fryer.',
+              title: lang === 'fr' ? 'Piloter son airfryer à distance' : lang === 'de' ? 'Heißluftfritteuse per Fernbedienung' : lang === 'es' ? 'Controla tu freidora a distancia' : lang === 'it' ? 'Controlla la friggitrice da remoto' : lang === 'nl' ? 'Airfryer op afstand bedienen' : lang === 'pl' ? 'Steruj frytkownicą zdalnie' : lang === 'sv' ? 'Styr airfryern på distans' : lang === 'us' ? 'Control Your Air Fryer Remotely' : lang === 'ca' ? 'Control your air fryer remotely' : 'Control your air fryer remotely',
+              desc: lang === 'fr' ? 'Les prises connectées compatibles avec votre airfryer.' : lang === 'de' ? 'Smarte Steckdosen, die zu Ihrer Heißluftfritteuse passen.' : lang === 'es' ? 'Los enchufes inteligentes compatibles con tu freidora.' : lang === 'it' ? 'Le prese smart compatibili con la tua friggitrice.' : lang === 'nl' ? 'Slimme stekkers die werken met uw airfryer.' : lang === 'pl' ? 'Inteligentne wtyczki zgodne z Twoją frytkownicą.' : lang === 'sv' ? 'Smarta pluggar som fungerar med din airfryer.' : lang === 'us' ? 'The smart plugs that work with your air fryer.' : lang === 'ca' ? 'The smart plugs that work with your air fryer.' : 'The smart plugs that work with your air fryer.',
             },
           ].map((item) => (
             <Link
@@ -1013,7 +1235,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
               <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition-colors">{item.title}</h3>
               <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
               <div className="mt-5 flex items-center text-sm font-semibold text-brand-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : lang === 'pl' ? 'Czytaj' : 'Read'}</span>
+                <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : lang === 'pl' ? 'Czytaj' : lang === 'sv' ? 'Läs' : lang === 'us' ? 'Read' : lang === 'ca' ? 'Read' : 'Read'}</span>
                 <span className="ml-2 transition-transform group-hover:translate-x-1">&rarr;</span>
               </div>
             </Link>

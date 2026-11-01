@@ -80,6 +80,30 @@ const pageContent: Record<string, QuizPageContent> = {
     breadcrumb: 'Quiz',
     breadcrumbRoot: 'Inteligentna kuchnia',
   },
+  sv: {
+    kicker: 'Quiz om smart kök',
+    title: 'Var ska jag börja med mitt smarta kök?',
+    subtitle: 'En träffsäker rekommendation på 2 frågor',
+    intro: 'Svara på 2 enkla frågor så får du veta vilken kategori som gör störst skillnad hemma hos dig – med våra 3 utvalda modeller som du kan köpa direkt.',
+    breadcrumb: 'Quiz',
+    breadcrumbRoot: 'Smart kök',
+  },
+  us: {
+    kicker: 'Smart kitchen quiz',
+    title: 'Where should you start with a smart kitchen?',
+    subtitle: 'A tailored recommendation in 2 questions',
+    intro: 'Answer 2 quick questions to find the category that will make the biggest difference in your kitchen — with our 3 top models, ready to shop.',
+    breadcrumb: 'Quiz',
+    breadcrumbRoot: 'Smart kitchen',
+  },
+  ca: {
+    kicker: 'Smart kitchen quiz',
+    title: 'Where should I start my smart kitchen?',
+    subtitle: 'Targeted recommendation in 2 questions',
+    intro: 'Answer 2 simple questions and discover the category that will have the biggest impact at home — with our 3 selected models ready to buy.',
+    breadcrumb: 'Quiz',
+    breadcrumbRoot: 'Smart kitchen',
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

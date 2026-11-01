@@ -346,6 +346,147 @@ export const HUB_COPY: Record<Lang, BlackFridayHubCopy> = {
       },
     ],
   },
+  sv: {
+    metaTitle: `Black Friday ${Y}: vårt urval för det smarta hemmet`,
+    metaDescription: `Black Friday ${Y} infaller den 27 november: modellerna att hålla koll på i 6 kategorier för smarta hem och hur du känner igen ett riktigt bra erbjudande.`,
+    h1: `Black Friday ${Y}: produkter för smarta hem att hålla koll på`,
+    intro: `Black Friday infaller fredagen den 27 november ${Y}. Amazon brukar dra i gång sina erbjudanden ungefär en vecka innan, så kontrollera de exakta datumen på Amazons Black Friday-sida. I stället för en lista med kampanjer som ändras från timme till timme hittar du här modellerna som våra köpguider redan rekommenderar, kategori för kategori, och ett enkelt sätt att bedöma ett erbjudande.`,
+    dealTitle: 'Så känner du igen ett riktigt bra erbjudande',
+    dealTips: [
+      {
+        title: 'Titta på referenspriset, inte procentsatsen',
+        text: 'Inom EU ska en annonserad prissänkning räknas från det lägsta priset under de senaste 30 dagarna, och Amazon visar det priset vid erbjudandet. Är skillnaden liten är besparingen det också.',
+      },
+      {
+        title: 'Välj modellen före rabatten',
+        text: 'En stor prissänkning på en apparat som inte passar din bostad eller dina behov är ingen besparing. Bestäm först vilken modell som är rätt för dig (det är vad våra guider är till för) och se sedan om den är nedsatt.',
+      },
+      {
+        title: 'Kontrollera den exakta versionen',
+        text: 'Snarlika namn kan dölja olika innehåll: ”Complete”-, ”Plus”- eller ”Ultra”-versioner, paket och tillbehör. Se till att erbjudandet gäller den version du vill ha.',
+      },
+      {
+        title: 'Kolla vem som säljer',
+        text: 'Säljs och skickas av Amazon eller av en tredjepartssäljare: villkoren för retur och garanti kan skilja sig åt.',
+      },
+    ],
+    categoriesTitle: 'Kategorierna att hålla koll på',
+    amazonTitle: 'Amazons Black Friday-sida',
+    amazonText: 'Alla aktuella erbjudanden under hela kampanjen. Amazon brukar dra i gång sina erbjudanden ungefär en vecka före Black Friday.',
+    amazonCta: 'Se Black Friday-erbjudandena på Amazon',
+    faq: [
+      {
+        question: `När är Black Friday ${Y}?`,
+        answer: `Fredagen den 27 november ${Y}, följd av Cyber Monday måndagen den 30 november. Amazon brukar dra i gång sina erbjudanden ungefär en vecka innan, och de exakta datumen för kampanjen publiceras på Amazons Black Friday-sida.`,
+      },
+      {
+        question: 'Ska jag vänta till Black Friday med att köpa en robotdammsugare eller en airfryer?',
+        answer: 'Inte nödvändigtvis. Båda kategorierna syns mycket under kampanjen, men en prissänkning är bara intressant på rätt modell. Kostar apparaten du behöver redan vad du är beredd att betala finns det ingen anledning att vänta.',
+      },
+      {
+        question: 'Hur vet jag om en rabatt är äkta?',
+        answer: 'Jämför erbjudandepriset med det lägsta priset de senaste 30 dagarna, som Amazon visar intill rabatten, och kontrollera att det verkligen gäller samma version av modellen. En hög procentsats säger ingenting om referenspriset var uppblåst.',
+      },
+      {
+        question: 'Varför visar ni inga priser?',
+        answer: 'Under Black Friday ändras priserna flera gånger om dagen. I stället för en siffra som snabbt blir inaktuell nämner vi de modeller som är värda en titt och länkar till Amazon, där priset som visas är det aktuella.',
+      },
+    ],
+  },
+  us: {
+    metaTitle: `Black Friday ${Y}: Best Smart Home Devices to Watch`,
+    metaDescription: `Black Friday ${Y} is Friday, November 27. The models worth watching in six smart home categories, and how to tell a real discount from an inflated one.`,
+    h1: `Black Friday ${Y}: The Smart Home Devices Worth Watching`,
+    intro: `Black Friday falls on Friday, November 27, ${Y}, the day after Thanksgiving. Amazon usually opens its deals about a week earlier, so check the exact dates on its Black Friday page. Instead of a list of offers that changes by the hour, here are the models our buying guides already recommend, category by category, plus a simple way to judge a deal.`,
+    dealTitle: 'How to spot a real deal',
+    dealTips: [
+      {
+        title: 'Look past the percentage off',
+        text: 'Check which reference price the discount is based on (the info icon next to the deal explains it) and compare the deal price with what the model usually sells for.',
+      },
+      {
+        title: 'Pick the model before the discount',
+        text: "A deep discount on an appliance that doesn't suit your home or your habits saves you nothing. Decide which model fits first (that's what our guides are for), then see whether it's on sale.",
+      },
+      {
+        title: 'Check the exact version',
+        text: 'Similar names can hide different bundles: “Complete,” “Plus” or “Ultra” editions, kits and accessories. Make sure the deal is on the version you actually want.',
+      },
+      {
+        title: "Check who's selling it",
+        text: 'Sold and shipped by Amazon, or by a third-party seller: return and warranty terms can differ.',
+      },
+    ],
+    categoriesTitle: 'Categories to watch',
+    amazonTitle: "Amazon's Black Friday page",
+    amazonText: 'Every current offer, updated as the event unfolds. Amazon usually opens its deals about a week before Black Friday.',
+    amazonCta: "Browse Amazon's Black Friday page",
+    faq: [
+      {
+        question: `When is Black Friday ${Y}?`,
+        answer: `Friday, November 27, ${Y}, the day after Thanksgiving, followed by Cyber Monday on Monday, November 30. Amazon usually opens its deals about a week earlier; the exact dates of its event are posted on its Black Friday page.`,
+      },
+      {
+        question: 'Should I wait for Black Friday to buy a robot vacuum or an air fryer?',
+        answer: "Not necessarily. Both categories are front and center during the event, but a discount only matters on the right model. If the appliance you need is already at a price you're happy with, there's no reason to wait.",
+      },
+      {
+        question: 'How can I tell if a discount is real?',
+        answer: 'Check the reference price Amazon bases the discount on (the info icon next to the deal explains it), and make sure the offer is on the exact version of the model you want. A big percentage off means little if the reference price was inflated.',
+      },
+      {
+        question: "Why don't you show prices?",
+        answer: "Prices change several times a day during Black Friday. Rather than a figure that goes stale fast, we name the models worth watching and link to Amazon, where the price you see is the current one.",
+      },
+    ],
+  },
+  ca: {
+    metaTitle: `Black Friday ${Y}: Smart Home Devices Worth Watching`,
+    metaDescription: `Black Friday ${Y} is Friday, November 27. The models worth watching in six smart home categories, and how to tell a real deal from an inflated discount.`,
+    h1: `Black Friday ${Y}: the smart home devices worth watching`,
+    intro: `Black Friday falls on Friday, November 27, ${Y}. Amazon usually opens its deals about a week earlier, so check the exact dates on its Black Friday page. Instead of a list of offers that changes by the hour, here are the models our buying guides already recommend, category by category, plus a simple way to judge a deal.`,
+    dealTitle: 'How to spot a real deal',
+    dealTips: [
+      {
+        title: 'Look past the percentage off',
+        text: 'Check which reference price the discount is calculated from (the info icon next to the deal explains it) and compare the deal price with what the model usually sells for.',
+      },
+      {
+        title: 'Choose the model before the discount',
+        text: "A big markdown on an appliance that doesn't suit your home or your habits doesn't save you anything. Decide which model fits first (that's what our guides are for), then see whether it's on sale.",
+      },
+      {
+        title: 'Check the exact version',
+        text: 'Similar names can hide different bundles: “Complete,” “Plus” or “Ultra” editions, kits and accessories. Make sure the deal is on the version you actually want.',
+      },
+      {
+        title: "Check who's selling it",
+        text: 'Sold and shipped by Amazon, or by a third-party seller? Return and warranty terms can differ.',
+      },
+    ],
+    categoriesTitle: 'Categories to watch',
+    amazonTitle: "Amazon's Black Friday page",
+    amazonText: 'Every current offer, updated as the event unfolds. Amazon usually opens its deals about a week before Black Friday.',
+    amazonCta: 'See Black Friday deals on Amazon',
+    faq: [
+      {
+        question: `When is Black Friday ${Y}?`,
+        answer: `Friday, November 27, ${Y}, followed by Cyber Monday on Monday, November 30. Amazon usually opens its deals about a week earlier; the exact dates of its event are posted on its Black Friday page.`,
+      },
+      {
+        question: 'Should I wait for Black Friday to buy a robot vacuum or an air fryer?',
+        answer: "Not necessarily. Both are front and centre during the event, but a discount only matters on the right model. If the appliance you need is already at a price you're comfortable with, there's no reason to wait.",
+      },
+      {
+        question: 'How can I tell whether a discount is real?',
+        answer: 'Check the reference price Amazon bases the discount on (the info icon next to the deal explains it), and make sure the offer is on the exact version of the model you want. A big percentage off means little if the reference price was inflated.',
+      },
+      {
+        question: "Why don't you show prices?",
+        answer: 'Prices change several times a day during Black Friday. Rather than a figure that goes out of date quickly, we name the models worth watching and link to Amazon, where the price you see is the current one.',
+      },
+    ],
+  },
 }
 
 /** Prime free-trial block: French pages only (see primeTrialUrl in ../config). */

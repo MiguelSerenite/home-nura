@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
         nl: 'Zwarte airfryer op een aanrecht in de keuken',
         pl: 'Czarna frytkownica beztłuszczowa na kuchennym blacie',
+        sv: 'Svart airfryer på en köksbänk',
+        us: 'Black air fryer on a kitchen countertop',
+        ca: 'Black air fryer on a kitchen countertop',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Guida Completa alla Manutenzione e Pulizia della Friggitrice ad Aria',
     nl: 'Complete Onderhouds- en Schoonmaakgids voor je Airfryer',
     pl: 'Czyszczenie i konserwacja frytkownicy beztłuszczowej: kompletny poradnik',
+    sv: 'Så rengör och sköter du din airfryer: komplett guide',
+    us: 'How to Clean an Air Fryer: The Complete Care Guide',
+    ca: 'Complete Air Fryer Maintenance and Cleaning Guide',
   },
   excerpt: {
     fr: 'Apprenez à nettoyer et entretenir votre airfryer correctement : routine quotidienne, nettoyage profond mensuel, élimination de la graisse et astuces pour prolonger sa durée de vie.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Impara a pulire e mantenere la tua friggitrice ad aria correttamente: routine quotidiana, pulizia profonda mensile, rimozione del grasso e consigli per prolungarne la durata.',
     nl: 'Leer hoe je je airfryer goed schoonmaakt en onderhoudt: dagelijkse routine, maandelijkse grondige reiniging, vetverwijdering en tips om de levensduur te verlengen.',
     pl: 'Dowiedz się, jak prawidłowo czyścić frytkownicę beztłuszczową i o nią dbać: szybkie mycie po każdym użyciu, gruntowne czyszczenie raz w miesiącu, usuwanie tłuszczu i sposoby na dłuższą żywotność urządzenia.',
+    sv: 'Så rengör och sköter du airfryern rätt: en daglig rutin, en grundlig rengöring varje månad, hur du får bort fett och tips som förlänger livslängden.',
+    us: 'How to clean and care for your air fryer the right way: a quick routine after every use, a monthly deep clean, how to get rid of built-up grease, and tips to make it last longer.',
+    ca: 'Learn how to clean and maintain your air fryer properly: daily routine, monthly deep clean, grease removal, and tips to extend its lifespan.',
   },
   content: {
     fr: `<h2>Pourquoi le nettoyage de votre airfryer est crucial</h2>
@@ -747,6 +756,315 @@ export const article: BlogArticle = {
 <tr><td>Zmywarka (program delikatny)</td><td>Kosz i szuflada</td><td>Dobra</td><td>Sprawdź instrukcję – tylko niektóre modele</td></tr>
 </tbody>
 </table>`,
+    sv: `<h2>Därför är det viktigt att rengöra airfryern</h2>
+<p>En dåligt skött airfryer luktar inte bara illa. Fett som samlas i lådan och på värmeelementet ryker, ger dålig lukt varje gång du lagar mat och kan i värsta fall börja brinna. Non-stick-beläggningen slits dessutom mycket snabbare om den behandlas hårdhänt med skursvampar eller starka rengöringsmedel.</p>
+<p>Här får du en enkel rengöringsrutin i tre nivåer: varje dag, varje vecka och varje månad.</p>
+
+<h2>Daglig rengöring: 5 minuter efter varje användning</h2>
+<h3>Rutinen i 4 steg</h3>
+<ul>
+<li><strong>Steg 1 – Dra ur sladden och låt svalna (5–10 min):</strong> rengör aldrig en het airfryer. Vänta tills den är varm men går att hantera (ca 50 °C).</li>
+<li><strong>Steg 2 – Töm ut resterna:</strong> ta ut korgen och lådan och släng smulor och matrester. Har det samlats fett i lådan häller du det i en burk eller liknande, aldrig direkt i diskhon.</li>
+<li><strong>Steg 3 – Diska korgen och lådan:</strong> varmt vatten, några droppar diskmedel och en mjuk svamp. Rester som sitter fast får ligga i blöt i varmt diskvatten i 10 minuter.</li>
+<li><strong>Steg 4 – Torka av insidan:</strong> torka ur utrymmet där lådan sitter med en fuktig trasa och torka efter med en ren trasa.</li>
+</ul>
+
+<h3>Diskmaskin eller handdisk?</h3>
+<p>De flesta moderna korgar och lådor tål diskmaskin (kontrollera i bruksanvisningen till din modell). Ställ dem i överkorgen. Handdisk gör ändå att non-stick-beläggningen håller längre. Vill du skona beläggningen diskar du alltså för hand till vardags och tar diskmaskinen bara då och då.</p>
+
+<h2>Varje vecka: värmeelementet (10 minuter)</h2>
+<p>Värmeelementet högst upp i tillagningsutrymmet är den del som oftast glöms bort. Där samlas fettstänk som bränns fast och ger rök och dålig lukt.</p>
+<ul>
+<li><strong>Vänd airfryern upp och ner</strong> (urkopplad och helt avsvalnad) så kommer du åt elementet.</li>
+<li><strong>Borsta försiktigt</strong> med en mjuk borste (en gammal tandborste eller en <a href="/sv/blog/top-10-accessoires-airfryer">särskild rengöringsborste för airfryer</a>).</li>
+<li><strong>Torka av</strong> med en väl urvriden trasa, knappt fuktad med varmt vatten och en droppe diskmedel.</li>
+<li><strong>Låt torka helt</strong> innan du vänder tillbaka apparaten.</li>
+<li><strong>Skrapa aldrig</strong> på elementet med metallföremål eller skursvampar.</li>
+</ul>
+
+<h2>Grundlig rengöring varje månad: hela rutinen (30 minuter)</h2>
+
+<h3>Steg 1: avfettande blötläggning (15 min)</h3>
+<p>Fyll diskhon med varmt vatten och tillsätt 2 msk bikarbonat, 1 msk diskmedel och en skvätt ättika. Låt korgen och lådan ligga helt under vattnet i 15 minuter. Bikarbonatet bryter ner fastbränt fett, och ättikan löser kalkavlagringar.</p>
+
+<h3>Steg 2: skrubba varsamt (5 min)</h3>
+<p>Efter blötläggningen går du över alla ytor med en mjuk borste eller en svamp utan slipsida. Var extra noga med hörnen och hålen i korgen, där fettet gärna samlas.</p>
+
+<h3>Steg 3: elementet och utrymmet (5 min)</h3>
+<p>Rengör värmeelementet som ovan. Torka sedan av hela insidan med en trasa fuktad med ättika.</p>
+
+<h3>Steg 4: utsidan (3 min)</h3>
+<p>Torka av utsidan med en fuktig trasa. Fingeravtryck på rostfritt stål försvinner med en lätt fuktad mikrofiberduk. Rengör ventilationsöppningarna på baksidan med en liten borste.</p>
+
+<h3>Steg 5: låt allt torka ordentligt (2 min)</h3>
+<p>Torka alla delar med en ren kökshandduk. Låt lådan stå öppen i 30 minuter så att allt hinner torka helt innan du ställer undan apparaten. Sätt aldrig ihop den medan den är fuktig – kvarvarande fukt kan ge mögel och dålig lukt.</p>
+
+<h2>Så får du bort fastbränt fett</h2>
+<h3>Metod 1: bikarbonatpasta</h3>
+<p>Rör ihop 3 msk bikarbonat med 1 msk vatten till en tjock pasta. Stryk den på de feta partierna, låt verka i 20–30 minuter, skrubba med en mjuk svamp och skölj.</p>
+
+<h3>Metod 2: varmt ättikbad</h3>
+<p>Fyll lådan med lika delar varmt vatten och ättika (50/50). Låt stå i 30 minuter, häll ut och skrubba.</p>
+
+<h3>Metod 3: lång blötläggning</h3>
+<p>Lägg lådan och korgen i en diskho med varmt diskvatten och låt dem ligga i några timmar, eller över natten om avlagringarna är gamla. Skrubba sedan med en mjuk svamp och skölj. Värm däremot inte vatten i lådan för att lösa upp fettet: de flesta bruksanvisningar säger att lådan aldrig får fyllas med olja eller annan vätska medan apparaten är igång.</p>
+
+<h2>Det här ska du ALDRIG göra</h2>
+<ul>
+<li><strong>Stålull eller skursvampar av metall:</strong> förstör non-stick-beläggningen för gott.</li>
+<li><strong>Slipande rengöringsmedel eller starka avfettningsmedel:</strong> kan angripa beläggningen och lämna kemiska rester.</li>
+<li><strong>Sänka ner själva apparaten i vatten:</strong> delen med motorn och elektroniken får aldrig bli blöt.</li>
+<li><strong>Skrapa med kniv eller stekspade av metall:</strong> repar beläggningen.</li>
+</ul>
+
+<h2>Så håller airfryern längre</h2>
+<p>Använd <a href="/sv/blog/top-10-accessoires-airfryer">perforerat bakplåtspapper eller silikonformar</a> så att maten har mindre direktkontakt med korgen. Undvik köksredskap av metall i korgen och ställ inga tunga saker i den när den står undan. Kontrollera lådans skenor och gummitätningarna en gång i kvartalet: en matbit som kilats fast kan belasta mekanismen, och sluter lådan inte längre tätt kan du kontakta kundtjänst för att få nya tätningar.</p>
+
+<h3>Det här slits först</h3>
+<p>Non-stick-beläggningen på korgen och lådan är oftast den första delen som visar slitage (repor, flagor). Börjar den flagna ska du byta delen i stället för att fortsätta laga mat i den: de stora märkena säljer nya korgar och lådor som reservdelar. Värmeelementet och fläkten tar framför allt skada av fett som byggs på, och därför lönar det sig att rengöra regelbundet.</p>
+
+<h2>Skötselschema i korthet</h2>
+<table>
+<thead>
+<tr><th>Hur ofta</th><th>Vad du gör</th><th>Tid</th></tr>
+</thead>
+<tbody>
+<tr><td>Efter varje användning</td><td>Diska korg och låda, torka av insidan</td><td>5 min</td></tr>
+<tr><td>Varje vecka</td><td>Rengör värmeelementet</td><td>10 min</td></tr>
+<tr><td>Varje månad</td><td>Grundlig rengöring av hela apparaten</td><td>30 min</td></tr>
+<tr><td>Varje kvartal</td><td>Kontrollera tätningar, skenor och ventilation</td><td>5 min</td></tr>
+</tbody>
+</table>
+
+<p>En välskött airfryer behåller sin tillagningsförmåga längre och ger mindre rök och os. Det tar inte mycket tid: 5 minuter om dagen och 10 minuter i veckan. Undvik de <a href="/sv/blog/erreurs-courantes-airfryer">vanligaste misstagen</a> och läs vår <a href="/sv/guides/airfryers">stora guide till airfryrar</a> och vår <a href="/sv/guides/airfryer-vs-four">jämförelse mellan airfryer och ugn</a>, så får du ut mesta möjliga av apparaten.</p>
+
+<h2>De 5 ställen som oftast glöms bort</h2>
+<ul>
+<li><strong>Undersidan av korgen</strong>: fett samlas mellan innerkorgen och den yttre lådan, och där får det ofta ligga kvar i veckor. Resultatet blir envis lukt och rök nästa gång du lagar något fett. Lösning: diska hela lådan, inte bara korgen, varje gång du har tillagat kött.</li>
+<li><strong>Värmeelementet</strong>: du ser det när du vänder apparaten upp och ner, och där fastnar fettstänk. Sänk aldrig ner det i vatten. Rengör det varsamt med en torr borste eller en lätt fuktad trasa, när apparaten är kall och urkopplad.</li>
+<li><strong>Ventilationsgallren</strong>: damm och fettånga lägger sig på luftintag och luftutlopp. Damma av dem med en liten mjuk borste varannan till var tredje månad, med sladden urdragen. Skruva aldrig isär höljet för att komma åt fläkten.</li>
+<li><strong>Tätningarna</strong>: på modeller med lock eller tätning runt lådan tränger fett ner i spåren. Rengör med en tandpetare eller ett smalt verktyg doppat i diskmedel.</li>
+<li><strong>Botten av utrymmet (under korgen)</strong>: fett och stekskyn droppar ner här och bränns fast nästa gång du använder airfryern. Torka av efter varje användning med lätt fuktat hushållspapper när apparaten har svalnat.</li>
+</ul>
+
+<h2>Rengöringsmedel: vad ska du använda (och undvika)?</h2>
+<table>
+<thead><tr><th>Medel</th><th>Används till</th><th>Effekt</th><th>Skonsamt mot beläggningen?</th></tr></thead>
+<tbody>
+<tr><td>Vanligt diskmedel + mjuk svamp</td><td>Daglig rengöring</td><td>Utmärkt</td><td>Ja, för alla beläggningar</td></tr>
+<tr><td>Bikarbonat + varmt vatten</td><td>Envisa fläckar, 20 min blötläggning</td><td>Mycket bra</td><td>Ja, slipar inte</td></tr>
+<tr><td>Utspädd ättika (50/50)</td><td>Tar bort lukt och kalk</td><td>Bra</td><td>Ja, skölj ordentligt</td></tr>
+<tr><td>Avfettningsspray för kök</td><td>Bara utsidan, sprayad på en trasa</td><td>Bra</td><td>Använd INTE på värmeelementet eller i korgen</td></tr>
+<tr><td>Skursvamp/stålull</td><td>UNDVIK helt</td><td>–</td><td>NEJ – repar beläggningen</td></tr>
+<tr><td>Diskmaskin (skonsamt program)</td><td>Korg och låda</td><td>Bra</td><td>Kontrollera bruksanvisningen – gäller bara vissa modeller</td></tr>
+</tbody>
+</table>`,
+    us: `<h2>Why cleaning your air fryer matters</h2>
+<p>A neglected air fryer does more than smell bad. Grease that builds up in the drawer and on the heating element smokes, gives off odors every time you cook and, in extreme cases, can catch fire. The nonstick coating also wears out much faster when you go at it with abrasive pads or harsh cleaners.</p>
+<p>This guide gives you a simple cleaning routine on three levels: daily, weekly and monthly.</p>
+
+<h2>Daily cleaning: 5 minutes after each use</h2>
+<h3>A 4-step routine</h3>
+<ul>
+<li><strong>Step 1 — Unplug it and let it cool (5–10 min):</strong> never clean an air fryer while it's hot. Wait until it's warm but safe to handle (about 120°F, or 50°C).</li>
+<li><strong>Step 2 — Empty out the residue:</strong> take out the basket and drawer, and toss the crumbs and food scraps. Pour any grease that has collected into a container (never straight down the sink).</li>
+<li><strong>Step 3 — Wash the basket and drawer:</strong> hot water, a few drops of dish soap and a soft sponge. For stuck-on food, let them soak for 10 minutes in hot, soapy water.</li>
+<li><strong>Step 4 — Wipe down the inside:</strong> wipe the inside of the housing with a damp cloth, then dry it with a clean one.</li>
+</ul>
+
+<h3>Can it go in the dishwasher?</h3>
+<p>Most modern baskets and drawers are dishwasher-safe (check your manual). Put them on the top rack. Hand washing, though, makes the nonstick coating last longer. To go easy on the coating, wash by hand day to day and save the dishwasher for an occasional cleanup.</p>
+
+<h2>Weekly cleaning: the heating element (10 minutes)</h2>
+<p>The heating element at the top of the cooking chamber is the part people neglect most. Grease spatters build up on it and burn on, which causes smoke and bad smells.</p>
+<ul>
+<li><strong>Turn the air fryer upside down</strong> (unplugged and completely cool) to get at the element.</li>
+<li><strong>Brush it gently</strong> with a soft-bristle brush (an old toothbrush or a <a href="/us/blog/top-10-accessoires-airfryer">dedicated air fryer cleaning brush</a>).</li>
+<li><strong>Wipe it</strong> with a well-wrung cloth that's barely damp with hot water and a drop of dish soap.</li>
+<li><strong>Let it dry completely</strong> before you turn the appliance right side up.</li>
+<li><strong>Never scrape</strong> the element with anything metal or with an abrasive pad.</li>
+</ul>
+
+<h2>Monthly deep clean: the full routine (30 minutes)</h2>
+
+<h3>Step 1: Degreasing soak (15 min)</h3>
+<p>Fill your sink with hot water and add 2 tablespoons of baking soda, 1 tablespoon of dish soap and a splash of white vinegar. Submerge the basket and drawer for 15 minutes.</p>
+
+<h3>Step 2: Gentle scrubbing (5 min)</h3>
+<p>After the soak, go over every surface with a soft brush or a nonabrasive sponge. Focus on the corners and the holes in the basket, where grease collects.</p>
+
+<h3>Step 3: Element and cooking chamber (5 min)</h3>
+<p>Clean the heating element as described above. Wipe down the entire inside of the chamber with a cloth dampened with vinegar.</p>
+
+<h3>Step 4: Exterior (3 min)</h3>
+<p>Wipe the outside with a damp cloth. For fingerprints on stainless steel, use a slightly damp microfiber cloth. Clean the vents on the back with a small brush.</p>
+
+<h3>Step 5: Dry everything (2 min)</h3>
+<p>Dry every part with a clean dish towel. Leave the drawer open for 30 minutes so everything airs out before you put it away. Never put it back together while it's damp — leftover moisture encourages mold and odors.</p>
+
+<h2>How to remove stubborn grease</h2>
+<h3>Method 1: Baking soda paste</h3>
+<p>Mix 3 tbsp of baking soda with 1 tbsp of water into a thick paste. Spread it on the greasy spots, leave it for 20 to 30 minutes, then scrub with a soft sponge and rinse.</p>
+
+<h3>Method 2: Hot vinegar bath</h3>
+<p>Fill the drawer with a 50/50 mix of hot water and white vinegar. Let it sit for 30 minutes, pour it out and scrub.</p>
+
+<h3>Method 3: Long soak</h3>
+<p>Put the drawer and basket in a sink of hot, soapy water and leave them for a few hours, or overnight for old buildup. Then scrub with a soft sponge and rinse. Don't heat water in the drawer to loosen grease: most manuals say never to fill the drawer with oil or any other liquid while the appliance is running.</p>
+
+<h2>What never to do</h2>
+<ul>
+<li><strong>Steel wool or metal scouring pads:</strong> they ruin the nonstick coating for good.</li>
+<li><strong>Abrasive cleaners or heavy-duty degreasers:</strong> they can eat into the coating and leave chemical residue.</li>
+<li><strong>Submerging the base:</strong> the part that houses the motor and electrical components must never get wet.</li>
+<li><strong>Scraping with a knife or metal spatula:</strong> it scratches the coating.</li>
+</ul>
+
+<h2>How to make your air fryer last longer</h2>
+<p>Use <a href="/us/blog/top-10-accessoires-airfryer">perforated parchment liners or silicone molds</a> so food doesn't sit directly on the basket. Keep metal utensils out of the basket. Check the drawer rails and rubber seals every three months.</p>
+
+<h3>What wears out first</h3>
+<p>The nonstick coating on the basket and drawer is usually the first thing to show wear (scratches, flaking). Once it starts flaking, replace the part instead of continuing to cook in it: the major brands sell replacement baskets and drawers. The heating element and fan suffer mostly from built-up grease, which is why regular cleaning matters.</p>
+
+<h2>Cleaning schedule at a glance</h2>
+<table>
+<thead>
+<tr><th>How often</th><th>What to do</th><th>Time</th></tr>
+</thead>
+<tbody>
+<tr><td>After each use</td><td>Wash the basket and drawer, wipe the inside</td><td>5 min</td></tr>
+<tr><td>Weekly</td><td>Clean the heating element</td><td>10 min</td></tr>
+<tr><td>Monthly</td><td>Full deep clean</td><td>30 min</td></tr>
+<tr><td>Every 3 months</td><td>Check the seals, rails and vents</td><td>5 min</td></tr>
+</tbody>
+</table>
+
+<p>A well-maintained air fryer keeps cooking at its best for longer, with less smoke and fewer odors. Steer clear of the most <a href="/us/blog/erreurs-courantes-airfryer">common air fryer mistakes</a>, and see our <a href="/us/guides/airfryers">complete air fryer guide</a> and our <a href="/us/guides/airfryer-vs-four">air fryer vs. oven comparison</a>.</p>
+
+<h2>The 5 spots people forget to clean</h2>
+<ul>
+<li><strong>The underside of the basket</strong>: grease builds up between the inner basket and the outer drawer, and this spot often gets ignored for weeks. The result: lingering odors and smoke the next time you cook something fatty. The fix: clean the whole drawer, not just the basket, every time you cook meat.</li>
+<li><strong>The heating element</strong>: you can see it when you flip the appliance over, and it collects grease spatters. Never submerge it in water. Clean it gently with a dry brush or a slightly damp cloth, with the appliance cold and unplugged.</li>
+<li><strong>The air vents</strong>: dust and greasy vapor settle on the air intake and exhaust vents. Dust them with a small soft brush, with the unit unplugged, every 2 to 3 months. Never open the housing to reach the fan.</li>
+<li><strong>The seals</strong>: on models with a lid or a drawer gasket, grease works its way into the grooves. Clean them with a toothpick or a thin tool dipped in dish soap.</li>
+<li><strong>The floor of the cooking chamber (under the basket)</strong>: fat and juices drip down here and burn on the next time you cook. Once the unit has cooled, wipe it after every use with a slightly damp paper towel.</li>
+</ul>
+
+<h2>Cleaning products: what to use (and what to avoid)</h2>
+<table>
+<thead><tr><th>Product</th><th>Use</th><th>How well it works</th><th>Safe for the coating?</th></tr></thead>
+<tbody>
+<tr><td>Dish soap + soft sponge</td><td>Daily cleaning</td><td>Excellent</td><td>Safe for all coatings</td></tr>
+<tr><td>Baking soda + hot water</td><td>Stubborn stains, 20-minute soak</td><td>Very good</td><td>Safe, nonabrasive</td></tr>
+<tr><td>Diluted white vinegar (50/50)</td><td>Removing odors and mineral deposits</td><td>Good</td><td>Safe, rinse thoroughly</td></tr>
+<tr><td>Kitchen degreaser spray</td><td>Exterior only, sprayed onto a cloth</td><td>Good</td><td>Never use on the heating element or inside the basket</td></tr>
+<tr><td>Abrasive sponge / steel wool</td><td>Avoid entirely</td><td>—</td><td>Not safe — scratches the coating</td></tr>
+<tr><td>Dishwasher (gentle cycle)</td><td>Basket and drawer</td><td>Good</td><td>Check the manual — some models only</td></tr>
+</tbody>
+</table>`,
+    ca: `<h2>Why cleaning your air fryer matters</h2>
+<p>A poorly maintained air fryer doesn't just smell bad: grease that builds up in the drawer and on the heating element smokes, leaves odours every time you cook and, in extreme cases, can catch fire. The non-stick coating also wears out much faster when you attack it with abrasive pads or harsh cleaners.</p>
+<p>This guide gives you a simple three-level cleaning routine: daily, weekly and monthly.</p>
+
+<h2>Daily cleaning: 5 minutes after each use</h2>
+<h3>A 4-step routine</h3>
+<ul>
+<li><strong>Step 1 — Unplug and let it cool (5–10 min):</strong> never clean a hot air fryer. Wait until it's warm but safe to handle, about 50°C (120°F).</li>
+<li><strong>Step 2 — Empty out the residue:</strong> remove the basket and drawer. Throw out crumbs and food scraps. Pour the collected grease into a container (never straight down the sink).</li>
+<li><strong>Step 3 — Wash the basket and drawer:</strong> hot water + a few drops of dish soap + a soft sponge. For stuck-on residue, soak for 10 minutes in hot soapy water.</li>
+<li><strong>Step 4 — Wipe the interior:</strong> wipe the inside of the housing with a damp cloth, then dry it with a clean cloth.</li>
+</ul>
+
+<h3>Can it go in the dishwasher?</h3>
+<p>Most modern baskets and drawers are dishwasher-safe (check your manual). Put them on the top rack. That said, washing by hand makes the non-stick coating last longer. To spare the coating, hand wash day to day and save the dishwasher for an occasional clean.</p>
+
+<h2>Weekly cleaning: the heating element (10 minutes)</h2>
+<p>The heating element at the top of the cooking chamber is the most neglected part. Grease splatters build up and carbonize, causing smoke and bad odours.</p>
+<ul>
+<li><strong>Turn the air fryer upside down</strong> (unplugged and completely cool) to reach the element.</li>
+<li><strong>Brush gently</strong> with a soft-bristle brush (an old toothbrush or a <a href="/ca/blog/top-10-accessoires-airfryer">dedicated cleaning brush</a>).</li>
+<li><strong>Wipe</strong> with a well-wrung cloth, barely damp with hot water and a drop of dish soap.</li>
+<li><strong>Let it dry completely</strong> before turning it right side up.</li>
+<li><strong>Never scrape</strong> the element with metal objects or abrasive pads.</li>
+</ul>
+
+<h2>Monthly deep clean: the full routine (30 minutes)</h2>
+
+<h3>Step 1: Degreasing soak (15 min)</h3>
+<p>Fill your sink with hot water and add 2 tablespoons of baking soda, 1 tablespoon of dish soap and a splash of white vinegar. Submerge the basket and drawer for 15 minutes.</p>
+
+<h3>Step 2: Gentle scrubbing (5 min)</h3>
+<p>After soaking, go over every surface with a soft brush or a non-scratch sponge. Pay attention to the corners and the holes in the basket, where grease builds up.</p>
+
+<h3>Step 3: Element and cooking chamber (5 min)</h3>
+<p>Clean the heating element as described above. Wipe the entire inside of the cooking chamber with a cloth dampened with vinegar.</p>
+
+<h3>Step 4: Exterior (3 min)</h3>
+<p>Wipe the outside with a damp cloth. For fingerprints on stainless steel, use a slightly damp microfibre cloth. Clean the rear vents with a small brush.</p>
+
+<h3>Step 5: Complete drying (2 min)</h3>
+<p>Dry every part with a clean dish towel. Leave the drawer open for 30 minutes so it airs out fully before you put it away. Never reassemble it while it's still damp — leftover moisture breeds mould and odours.</p>
+
+<h2>Removing stubborn grease</h2>
+<h3>Method 1: Baking soda paste</h3>
+<p>Mix 3 tbsp baking soda with 1 tbsp water. Spread it on the greasy areas, leave it for 20 to 30 minutes, scrub with a soft sponge and rinse.</p>
+
+<h3>Method 2: Hot vinegar bath</h3>
+<p>Fill the drawer with equal parts hot water and white vinegar. Leave it for 30 minutes, drain and scrub.</p>
+
+<h3>Method 3: Long soak</h3>
+<p>Put the drawer and basket in a sink of hot soapy water and leave them for a few hours, or overnight for old buildup. Then scrub with a soft sponge and rinse. Don't heat water in the drawer to loosen grease: most manuals say never to fill the drawer with oil or any other liquid while the appliance is running.</p>
+
+<h2>What NEVER to do</h2>
+<ul>
+<li><strong>Steel wool or metal scouring pads:</strong> they permanently destroy the non-stick coating.</li>
+<li><strong>Abrasive or harsh degreasers:</strong> they can attack the coating and leave chemical residue.</li>
+<li><strong>Submerging the base unit:</strong> the part with the motor and electrical components must never get wet.</li>
+<li><strong>Scraping with knives or metal spatulas:</strong> it scratches the coating.</li>
+</ul>
+
+<h2>Extending your air fryer's lifespan</h2>
+<p>Use <a href="/ca/blog/top-10-accessoires-airfryer">perforated parchment liners or silicone liners</a> to minimize direct contact between the food and the basket. Avoid metal utensils in the basket. Check the drawer rails and rubber seals every three months.</p>
+
+<h3>What wears out first</h3>
+<p>The non-stick coating on the basket and drawer is usually the first part to show wear (scratches, flaking). If it starts flaking, replace the part rather than keep cooking in it: the major brands sell replacement baskets and drawers. The heating element and fan suffer mainly from grease buildup, which is why regular cleaning matters.</p>
+
+<h2>Maintenance schedule</h2>
+<table>
+<thead>
+<tr><th>How often</th><th>What to do</th><th>Time</th></tr>
+</thead>
+<tbody>
+<tr><td>After each use</td><td>Wash basket + drawer, wipe interior</td><td>5 min</td></tr>
+<tr><td>Weekly</td><td>Clean the heating element</td><td>10 min</td></tr>
+<tr><td>Monthly</td><td>Full deep clean</td><td>30 min</td></tr>
+<tr><td>Every 3 months</td><td>Inspect seals, rails and vents</td><td>5 min</td></tr>
+</tbody>
+</table>
+
+<p>A well-maintained air fryer keeps cooking well for longer and produces less smoke and fewer odours. Steer clear of the most common <a href="/ca/blog/erreurs-courantes-airfryer">air fryer mistakes</a>, and see our <a href="/ca/guides/airfryers">complete air fryer guide</a> and <a href="/ca/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>
+
+<h2>The 5 most overlooked spots to clean</h2>
+<ul>
+<li><strong>The underside of the outer basket</strong>: grease builds up between the inner basket and the outer drawer, and it often gets ignored for weeks. The result: lingering odours and smoke the next time you cook something fatty. The fix: clean the whole drawer every time you cook meat.</li>
+<li><strong>The heating element</strong>: you can see it when you flip the appliance over, and it collects grease splatters. Never submerge it in water. Clean it gently with a dry brush or a slightly damp cloth, with the appliance cold and unplugged.</li>
+<li><strong>The air vents</strong>: dust and greasy vapour settle on the air intakes and outlets. Dust them with a small soft brush, unplugged, every 2 to 3 months. Never open the housing to reach the fan.</li>
+<li><strong>The seals</strong>: on models with a lid or drawer seals, grease seeps into the grooves. Clean them with a toothpick or a narrow tool dipped in dish soap.</li>
+<li><strong>The floor of the cooking chamber (under the basket)</strong>: fat and juices drip here and carbonize the next time you cook. Once it has cooled, wipe it after each use with a slightly damp paper towel.</li>
+</ul>
+
+<h2>Cleaning products: what to use and what to avoid</h2>
+<table>
+<thead><tr><th>Product</th><th>Use</th><th>Effectiveness</th><th>Coating Compatibility</th></tr></thead>
+<tbody>
+<tr><td>Dish soap + soft sponge</td><td>Daily cleaning</td><td>Excellent</td><td>Safe for all coatings</td></tr>
+<tr><td>Baking soda + hot water</td><td>Stubborn stains, 20 min soak</td><td>Very good</td><td>Safe, non-abrasive</td></tr>
+<tr><td>Diluted white vinegar (50/50)</td><td>Odours and mineral deposits</td><td>Good</td><td>Safe, rinse thoroughly</td></tr>
+<tr><td>Kitchen degreaser spray</td><td>Exterior only, sprayed onto a cloth</td><td>Good</td><td>Do NOT use on the heating element or inside the basket</td></tr>
+<tr><td>Abrasive sponge / steel wool</td><td>AVOID completely</td><td>—</td><td>NOT SAFE — scratches the coating</td></tr>
+<tr><td>Dishwasher (gentle cycle)</td><td>Basket and drawer</td><td>Good</td><td>Check the manual — some models only</td></tr>
+</tbody>
+</table>`,
   },
   faq: [
     {
@@ -758,6 +1076,9 @@ export const article: BlogArticle = {
         it: 'Con quale frequenza bisogna pulire la friggitrice ad aria?',
         nl: 'Hoe vaak moet je je airfryer schoonmaken?',
         pl: 'Jak często czyścić frytkownicę beztłuszczową?',
+        sv: 'Hur ofta ska du rengöra airfryern?',
+        us: 'How often should you clean your air fryer?',
+        ca: 'How often should you clean your air fryer?',
       },
       answer: {
         fr: 'Nettoyez le panier et le tiroir après chaque utilisation avec une éponge douce et de l\'eau savonneuse (5 minutes). Faites un nettoyage hebdomadaire de la résistance avec une brosse douce. Un nettoyage profond mensuel du boîtier entier et des grilles est recommandé pour maintenir les performances optimales.',
@@ -767,6 +1088,9 @@ export const article: BlogArticle = {
         it: 'Pulisci il cestello e il cassetto dopo ogni utilizzo con una spugna morbida e acqua saponata (5 minuti). Fai una pulizia settimanale della resistenza con una spazzola morbida. Una pulizia profonda mensile dell\'intero alloggiamento e delle griglie è consigliata per prestazioni ottimali.',
         nl: 'Maak de mand en lade na elk gebruik schoon met een zachte spons en sop (5 minuten). Doe wekelijks een reiniging van het verwarmingselement met een zachte borstel. Een maandelijkse grondige reiniging van de hele behuizing en rekjes wordt aanbevolen voor optimale prestaties.',
         pl: 'Po każdym użyciu myj kosz i szufladę miękką gąbką w ciepłej wodzie z płynem do naczyń (5 minut). Raz w tygodniu czyść grzałkę miękką szczotką. Raz w miesiącu warto gruntownie wyczyścić całą obudowę i kratki wentylacyjne – dzięki temu frytkownica zachowa pełną wydajność.',
+        sv: 'Diska korgen och lådan efter varje användning med en mjuk svamp och diskvatten – det tar ungefär 5 minuter. Rengör värmeelementet med en mjuk borste en gång i veckan. En gång i månaden är det bra att göra en grundlig rengöring av hela apparaten och gallren, så att den fortsätter att fungera som den ska.',
+        us: 'Clean the basket and drawer after every use with a soft sponge and soapy water; it takes about 5 minutes. Once a week, clean the heating element with a soft brush. Once a month, deep clean the whole housing and the racks to keep the appliance performing at its best.',
+        ca: 'Clean the basket and drawer after every use with a soft sponge and soapy water, which takes about 5 minutes. Clean the heating element once a week with a soft brush. A monthly deep clean of the entire housing and racks keeps it performing at its best.',
       },
     },
     {
@@ -778,6 +1102,9 @@ export const article: BlogArticle = {
         it: 'Quali parti della friggitrice ad aria sono lavabili in lavastoviglie?',
         nl: 'Welke onderdelen van de airfryer zijn vaatwasmachinebestendig?',
         pl: 'Które części frytkownicy beztłuszczowej można myć w zmywarce?',
+        sv: 'Vilka delar av airfryern tål diskmaskin?',
+        us: 'Which air fryer parts are dishwasher safe?',
+        ca: 'Which air fryer parts are dishwasher safe?',
       },
       answer: {
         fr: 'Le panier amovible et le tiroir sont généralement compatibles lave-vaisselle sur la plupart des modèles. Vérifiez le manuel de votre modèle. N\'y mettez jamais le boîtier principal ni les composants électriques. Attention : le lave-vaisselle peut accélérer l\'usure du revêtement antiadhésif sur le long terme.',
@@ -787,6 +1114,9 @@ export const article: BlogArticle = {
         it: 'Il cestello estraibile e il cassetto sono generalmente lavabili in lavastoviglie nella maggior parte dei modelli. Controlla il manuale del tuo modello. Non mettere mai il corpo principale o i componenti elettrici in lavastoviglie. L\'uso frequente della lavastoviglie può accelerare l\'usura del rivestimento antiaderente.',
         nl: 'De uitneembare mand en lade zijn bij de meeste modellen vaatwasmachinebestendig. Controleer altijd de handleiding van jouw model. Zet nooit de hoofdbehuizing of elektrische onderdelen in de vaatwasser. Frequente vaatwasser kan de slijtage van de antiaanbaklaag op den duur versnellen.',
         pl: 'W większości modeli wyjmowany kosz i szufladę można myć w zmywarce – sprawdź to w instrukcji swojego urządzenia. Nigdy nie wkładaj do zmywarki korpusu frytkownicy ani elementów elektrycznych. Uwaga: na dłuższą metę zmywarka może przyspieszać zużycie powłoki nieprzywierającej.',
+        sv: 'Den löstagbara korgen och lådan tål diskmaskin på de flesta modeller, men kontrollera alltid i bruksanvisningen till just din modell. Lägg aldrig själva apparaten eller elektriska delar i diskmaskinen. Tänk också på att täta maskindiskar i längden kan få non-stick-beläggningen att slitas snabbare.',
+        us: 'The removable basket and drawer are dishwasher-safe on most models, but always check your model\'s manual. Never put the main housing or any electrical parts in the dishwasher. Keep in mind that frequent dishwasher use can wear down the nonstick coating faster over time.',
+        ca: 'The removable basket and drawer are generally dishwasher-safe on most models. Always check your specific model\'s manual. Never put the main housing or electrical components in the dishwasher. Note that frequent dishwasher use can accelerate wear on the non-stick coating over time.',
       },
     },
     {
@@ -798,6 +1128,9 @@ export const article: BlogArticle = {
         it: 'Come eliminare i cattivi odori dalla mia friggitrice ad aria?',
         nl: 'Hoe verwijder ik nare geurtjes uit mijn airfryer?',
         pl: 'Jak pozbyć się nieprzyjemnego zapachu z frytkownicy beztłuszczowej?',
+        sv: 'Hur får jag bort dålig lukt ur airfryern?',
+        us: 'How do I remove bad smells from my air fryer?',
+        ca: 'How do I remove bad smells from my air fryer?',
       },
       answer: {
         fr: 'Placez un mélange de jus de citron et vinaigre blanc dans un ramequin résistant à la chaleur dans le panier. Faites tourner l\'airfryer à 180°C pendant 5 minutes. Vous pouvez aussi frotter l\'intérieur avec une pâte de bicarbonate de soude. Pour les odeurs persistantes, laissez du marc de café dans le panier fermé toute une nuit.',
@@ -807,6 +1140,9 @@ export const article: BlogArticle = {
         it: 'Metti un mix di succo di limone e aceto bianco in un ramequin resistente al calore nel cestello. Fai funzionare la friggitrice a 180°C per 5 minuti. Puoi anche strofinare l\'interno con una pasta di bicarbonato. Per odori persistenti, lascia fondi di caffè nel cestello chiuso tutta la notte.',
         nl: 'Zet een mix van citroensap en witte azijn in een hittebestendig schaaltje in de mand. Laat de airfryer 5 minuten op 180°C draaien. Je kunt de binnenkant ook schrobben met een pasta van baking soda. Voor hardnekkige geuren laat je koffiedik een nacht in de gesloten mand staan.',
         pl: 'Włóż do kosza żaroodporną miseczkę z sokiem z cytryny wymieszanym z octem spirytusowym. Włącz frytkownicę na 5 minut w temperaturze 180 °C. Możesz też przetrzeć wnętrze pastą z sody oczyszczonej. Jeśli zapach nie znika, zostaw na noc fusy z kawy w koszu zamkniętej frytkownicy.',
+        sv: 'Ställ en liten ugnsfast form med citronsaft och ättika i korgen och kör airfryern på 180 °C i 5 minuter. Du kan också skrubba insidan med en pasta av bikarbonat och vatten. Sitter lukten i kan du låta kaffesump stå i den stängda korgen över natten, så suger den upp det som är kvar.',
+        us: 'Put a mix of lemon juice and white vinegar in a heat-safe ramekin inside the basket and run the air fryer at 350°F (180°C) for 5 minutes. You can also scrub the inside with a baking soda paste. For odors that linger, leave coffee grounds in the closed basket overnight to absorb what\'s left.',
+        ca: 'Put a mixture of lemon juice and white vinegar in a heat-safe ramekin inside the basket and run the air fryer at 180°C (350°F) for 5 minutes. You can also scrub the interior with a baking soda paste. For odours that linger, leave coffee grounds in the closed basket overnight to absorb what\'s left.',
       },
     },
     {
@@ -818,6 +1154,9 @@ export const article: BlogArticle = {
         it: 'Qual è la durata media di una friggitrice ad aria?',
         nl: 'Wat is de gemiddelde levensduur van een airfryer?',
         pl: 'Jaka jest średnia żywotność frytkownicy beztłuszczowej?',
+        sv: 'Hur länge håller en airfryer?',
+        us: 'What is the average lifespan of an air fryer?',
+        ca: 'What is the average lifespan of an air fryer?',
       },
       answer: {
         fr: 'Il n\'existe pas de durée de vie standard : elle dépend de la qualité de fabrication, de la fréquence d\'utilisation et de l\'entretien. Le revêtement antiadhésif est en général le premier élément à s\'user, et les paniers ou tiroirs de rechange permettent souvent de prolonger l\'appareil. Nettoyer régulièrement la résistance et les grilles d\'aération limite fumée, odeurs et surchauffe.',
@@ -827,6 +1166,9 @@ export const article: BlogArticle = {
         it: 'Non esiste una durata standard: dipende dalla qualità costruttiva, dalla frequenza d\'uso e dalla manutenzione. Il rivestimento antiaderente è di solito il primo a usurarsi, e cestelli o cassetti di ricambio permettono spesso di prolungare la vita dell\'apparecchio. Pulire regolarmente resistenza e griglie di aerazione limita fumo, odori e surriscaldamento.',
         nl: 'Er is geen vaste levensduur: die hangt af van de bouwkwaliteit, hoe vaak je hem gebruikt en het onderhoud. De antiaanbaklaag slijt meestal als eerste, en losse manden of lades verlengen vaak de levensduur van het apparaat. Het verwarmingselement en de ventilatieroosters regelmatig reinigen beperkt rook, geurtjes en oververhitting.',
         pl: 'Nie ma jednej standardowej wartości: żywotność zależy od jakości wykonania, częstotliwości używania i konserwacji. Zwykle jako pierwsza zużywa się powłoka nieprzywierająca, a dzięki zapasowym koszom lub szufladom często można przedłużyć życie urządzenia. Regularne czyszczenie grzałki i kratek wentylacyjnych ogranicza dym, zapachy i ryzyko przegrzewania.',
+        sv: 'Det finns ingen given livslängd: den beror på byggkvaliteten, hur ofta du använder apparaten och hur väl du sköter den. Non-stick-beläggningen är oftast det som slits först, och med en ny korg eller låda går det ofta att förlänga apparatens liv. Rengör du värmeelementet och ventilationsgallren regelbundet minskar risken för rök, lukt och överhettning.',
+        us: 'There\'s no standard lifespan: it depends on build quality, how often you use it and how well you take care of it. The nonstick coating is usually the first part to wear out, and replacement baskets or drawers can often extend the appliance\'s life. Cleaning the heating element and air vents regularly cuts down on smoke, odors and overheating.',
+        ca: 'There is no standard lifespan: it depends on build quality, how often you use it and how well you look after it. The non-stick coating is usually the first part to wear, and replacement baskets or drawers can often extend the appliance\'s life. Cleaning the heating element and air vents regularly limits smoke, odours and overheating.',
       },
     },
     {
@@ -838,6 +1180,9 @@ export const article: BlogArticle = {
         it: 'Dove trovare pezzi di ricambio per una friggitrice ad aria?',
         nl: 'Waar vind je vervangende onderdelen voor een airfryer?',
         pl: 'Gdzie znaleźć części zamienne do frytkownicy beztłuszczowej?',
+        sv: 'Var hittar jag reservdelar till min airfryer?',
+        us: 'Where can I find replacement parts for an air fryer?',
+        ca: 'Where can I find replacement parts for an air fryer?',
       },
       answer: {
         fr: 'Contactez d\'abord le service après-vente du fabricant : Philips, Ninja et Moulinex proposent des paniers et grilles de remplacement. Amazon vend aussi des pièces compatibles pour les modèles populaires. Pour les marques moins connues, vérifiez la disponibilité des pièces avant l\'achat : c\'est un critère souvent négligé.',
@@ -847,6 +1192,9 @@ export const article: BlogArticle = {
         it: 'Contatta prima il servizio clienti del produttore: Philips, Ninja e Moulinex offrono cestelli e griglie di ricambio. Amazon vende anche parti compatibili per i modelli più diffusi. Per marchi meno noti, verifica la disponibilità dei ricambi prima dell\'acquisto: è un criterio spesso trascurato.',
         nl: 'Neem eerst contact op met de klantenservice van de fabrikant: Philips, Ninja en Moulinex bieden vervangende manden en rekjes aan. Amazon verkoopt ook compatibele onderdelen voor populaire modellen. Controleer voor minder bekende merken de beschikbaarheid van onderdelen vóór aankoop.',
         pl: 'Najpierw skontaktuj się z serwisem producenta: Philips, Ninja i Moulinex oferują zamienne kosze i ruszty. W sklepie Amazon znajdziesz też zgodne części do popularnych modeli. W przypadku mniej znanych marek sprawdź dostępność części jeszcze przed zakupem – to kryterium, o którym wiele osób zapomina.',
+        sv: 'Börja med att kontakta tillverkarens kundtjänst: Philips, Ninja och Moulinex säljer nya korgar och galler. På Amazon finns också kompatibla reservdelar till populära modeller. Gäller det ett mindre känt märke är det klokt att kontrollera tillgången på reservdelar före köpet – det glöms ofta bort när man väljer airfryer.',
+        us: 'Start with the manufacturer\'s customer service: Philips, Ninja and Moulinex sell replacement baskets and racks. Amazon also carries compatible parts for popular models. For lesser-known brands, check that replacement parts are available before you buy, since it\'s a factor many shoppers overlook when choosing an air fryer.',
+        ca: 'Start with the manufacturer\'s customer service: Philips, Ninja and Moulinex sell replacement baskets and racks. Amazon also sells compatible parts for popular models. For lesser-known brands, check that parts are available before you buy: it\'s an often-overlooked criterion when choosing an air fryer.',
       },
     },
   ],

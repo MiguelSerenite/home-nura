@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Vialetto del giardino illuminato di notte, tra ortensie e lampioni',
         nl: 'Tuinpad dat \'s nachts verlicht is, omzoomd door hortensia\'s en lantaarns',
         pl: 'Oświetlona nocą alejka w ogrodzie, wzdłuż której rosną hortensje i stoją latarnie ogrodowe',
+        sv: 'Trädgårdsgång upplyst om natten, kantad av hortensior och lyktstolpar',
+        us: 'Garden path lit at night, lined with hydrangeas and lampposts',
+        ca: 'Garden path lit at night, lined with hydrangeas and lamp posts',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Illuminazione esterna solare smart 2026: come scegliere bene',
     nl: 'Slimme buitenverlichting op zonne-energie 2026: zo kies je goed',
     pl: 'Solarne i inteligentne oświetlenie zewnętrzne 2026: jak wybrać?',
+    sv: 'Solcellslampor och smart utomhusbelysning 2026: så väljer du rätt',
+    us: 'Smart Outdoor and Solar Lighting 2026: How to Choose the Right Lights',
+    ca: 'Solar and Smart Outdoor Lights 2026: How to Choose the Right Ones',
   },
   excerpt: {
     fr: 'Solaire autonome ou basse tension connectée ? Comment choisir son éclairage extérieur en 2026, avec eufy S120, Govee, Philips Hue Lily et Calla, et Steinel XSolar comparés sur l\'usage, la puissance et la connectivité.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Solare autonoma o bassa tensione connessa? Come scegliere l\'illuminazione esterna nel 2026, con eufy S120, Govee, Philips Hue Lily e Calla e Steinel XSolar a confronto per uso, potenza e connettività.',
     nl: 'Autonome zonne-energie of verbonden laagspanning? Zo kies je in 2026 je buitenverlichting, met de eufy S120, Govee, Philips Hue Lily en Calla en Steinel XSolar vergeleken op gebruik, lichtsterkte en connectiviteit.',
     pl: 'Lampy solarne bez kabli czy niskonapięciowe z aplikacją? Jak wybrać oświetlenie zewnętrzne w 2026 roku – porównujemy eufy S120, Govee, Philips Hue Lily i Calla oraz Steinel XSolar pod kątem zastosowania, mocy i łączności.',
+    sv: 'Fristående solcellsbelysning eller uppkopplad lågvoltsbelysning? Så väljer du utomhusbelysning 2026, med eufy S120, Govee, Philips Hue Lily och Calla samt Steinel XSolar jämförda på användning, ljusstyrka och uppkoppling.',
+    us: 'Standalone solar or smart low-voltage lighting? How to choose outdoor lights in 2026, with the eufy S120, Govee, Philips Hue Lily and Calla, and Steinel XSolar compared on use, brightness and connectivity.',
+    ca: 'Standalone solar or smart low-voltage lighting? How to choose outdoor lights in 2026, comparing the eufy S120, Govee, Philips Hue Lily and Calla, and Steinel XSolar on use, brightness and connectivity.',
   },
   content: {
     fr: `<p><strong>Pour un éclairage extérieur à la fois solaire et connecté, le meilleur compromis en 2026 est une applique solaire avec caméra comme l'eufy Solar Wall Light Cam S120 pour la sécurité, complétée par une guirlande solaire pilotable comme la Govee Outdoor Solar String Lights pour l'ambiance.</strong> Si vous voulez une lumière puissante, colorée et programmable au quotidien, un système basse tension connecté comme Philips Hue Lily reste la référence, mais il demande une prise et un câble.</p>
@@ -711,6 +720,291 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 <p>Krótko mówiąc, lampy solarne nie mają sobie równych, gdy chcesz szybko i bez prac instalacyjnych oświetlić wejście, wiatę lub taras. Jeśli zależy Ci na mocnym i równym świetle przez cały rok, lepiej sprawdzi się przewodowy system sterowany z aplikacji. W wielu ogrodach najlepiej działa połączenie obu rozwiązań.</p>`,
+    sv: `<p><strong>Vill du ha utomhusbelysning som är både solcellsdriven och smart är den bästa kombinationen 2026 en vägglampa med solcell och kamera för säkerheten, till exempel eufy Solar Wall Light Cam S120, och en appstyrd ljusslinga med solcell för stämningen, till exempel Govee Outdoor Solar String Lights.</strong> Vill du ha starkt, färgat och schemalagt ljus varje kväll året runt är ett uppkopplat lågvoltssystem som Philips Hue Lily fortfarande riktmärket, men det kräver ett uttag och en kabel.</p>
+<p>Guiden jämför de två huvudtyperna, fristående solcellsbelysning och nätansluten smart belysning, utifrån tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. För helhetsbilden kan du läsa vår <a href="/sv/blog/guide-jardin-connecte-2026">guide till den smarta trädgården 2026</a>, och hela urvalet hittar du i kategorin <a href="/sv/outdoor-connecte/eclairage-exterieur">smart utomhusbelysning</a>.</p>
+
+<h2>Solceller eller nätansluten smart belysning: den egentliga frågan</h2>
+<p>En solcellslampa lagrar energin den samlar in under dagen i ett batteri och lyser med den på natten. Den sätts upp på några minuter, utan att du behöver gräva eller anlita en elektriker, och syns inte alls på elräkningen. Baksidan är en begränsad ljusstyrka, som avgörs av panelens och batteriets storlek, och en märkbart kortare drifttid på vintern, när dagarna är korta och solen står lågt.</p>
+<p>Nätansluten smart belysning, på 230 V eller med 24 V lågvolt, ger jämnt ljus året runt, mer effekt, miljontals färger och avancerad integration med Alexa, Google Home, Apple Home eller Home Assistant. Å andra sidan kräver den strömförsörjning utomhus och i vissa fall en elektriker.</p>
+<table>
+<thead>
+<tr><th>Kriterium</th><th>Fristående solcellsbelysning</th><th>Nätansluten smart belysning (24 V eller 230 V)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Installation</strong></td><td>Ingen kabel, klart på några minuter</td><td>Utomhusuttag, kabel, ibland elektriker</td></tr>
+<tr><td><strong>Förbrukning</strong></td><td>Ingen från elnätet</td><td>Låg med LED</td></tr>
+<tr><td><strong>Ljusstyrka</strong></td><td>Låg till medel</td><td>Medel till hög</td></tr>
+<tr><td><strong>Pålitlighet på vintern</strong></td><td>Sämre</td><td>Jämn</td></tr>
+<tr><td><strong>Uppkoppling</strong></td><td>Ovanlig (Bluetooth eller wifi på vissa modeller)</td><td>Zigbee, wifi, Bluetooth, Matter beroende på märke</td></tr>
+<tr><td><strong>Färger</strong></td><td>Ofta bara varmvitt</td><td>Justerbart vitt och färg</td></tr>
+</tbody>
+</table>
+
+<h2>Så väljer du rätt</h2>
+<h3>Syftet: säkerhet, markeringsljus eller stämning</h3>
+<p>Börja med vad belysningen ska användas till. För <strong>säkerhet</strong> behövs en rörelsesensor och ett vitt ljus som direkt tänds med full styrka, helst med en notis i mobilen. För att <strong>markera</strong> en gång eller en trappa räcker ett svagt men jämnt sken. För <strong>stämning</strong> på altanen vill du ha färger, scener och schemaläggning vid solnedgången.</p>
+<h3>Ljusstyrka i lumen</h3>
+<p>Några tiotal lumen räcker för att markera en gång. En vägglampa vid entrén ligger på runt 150–300 lumen. En spotlight som riktas mot ett träd eller en fasad gör sig bäst med mer än 500 lumen. Var skeptisk till de mycket höga siffror som vissa enklare solcellsstrålkastare uppger: oberoende utvärderingar visar ofta en stor skillnad mellan löfte och verklighet.</p>
+<h3>IP-klass</h3>
+<p>IP-klassen anger hur väl armaturen tål damm och vatten. IP44 skyddar mot stänk och passar på en skyddad vägg. IP65 tål vattenstrålar och klarar direkt regn. IP67 klarar att tillfälligt stå under vatten, vilket är bra för markbelysning i områden som kan översvämmas.</p>
+<h3>Uppkoppling och ekosystem</h3>
+<p>En Bluetooth-modell styrs från mobilen när du är i närheten. En wifi-modell går att nå på distans och skickar notiser. Ett Zigbee-system som Philips Hue går via en brygga, men det är mycket stabilt och fungerar med nästan alla plattformar för smarta hem. Har du redan Hue-lampor inomhus blir livet enklare om du håller dig till samma ekosystem.</p>
+<h3>Batteri och solpanel</h3>
+<p>För solcellslampor betyder batteriets kvalitet mer än antalet lysdioder. Litiumjärnfosfatbatterier (LiFePO4) klarar kyla och upprepade laddcykler bättre. En separat panel med kabel gör att du kan sätta lampan i skuggan och panelen i full sol, vilket är en verklig fördel på en norrvägg.</p>
+
+<h2>Modellerna värda att känna till 2026</h2>
+<h3>eufy Solar Wall Light Cam S120: uppkopplad säkerhet med solceller</h3>
+<p>Modellen eufy S120 kombinerar en vägglampa på 300 lumen, en 2K-kamera med mörkerseende i färg, en PIR-rörelsesensor och en siren. Alltihop drivs av en inbyggd solpanel och ett batteri på 5 200 mAh. Den ansluter via wifi på 2,4 GHz, skickar notiser till mobilen och fungerar med Alexa och Google Assistant. Den är IP65-klassad.</p>
+<p><strong>Styrkor:</strong> ingen kabeldragning alls, ljus och kamera i en och samma enhet, en välutrustad app (eufy Security). <strong>Svagheter:</strong> ljuset räcker för en entré men inte för en stor trädgård, och laddningen beror mycket på hur mycket sol lampan får. <strong>Passar för:</strong> att säkra en dörr, ett förråd eller en uppfart utan några byggarbeten.</p>
+
+<h3>Govee Outdoor Solar String Lights: stämning med solceller som du styr i appen</h3>
+<p>Den här solcellsslingan på 10 meter har 8 RGBICW-lampor som kan visa flera färger samtidigt, och vitt ljus från varmt till kallt. Den styrs via Bluetooth i appen Govee Home, med förinställda scener, musiksynk, schemaläggning och batterinivå. Solpanelen är separat och lamporna är IP67-klassade.</p>
+<p><strong>Styrkor:</strong> en av få solcellsslingor som verkligen går att styra, snygga färgeffekter, snabbt uppsatt på en pergola eller ett staket. <strong>Svagheter:</strong> med Bluetooth måste du vara i närheten för att styra den, och ljuset är dekorativt. <strong>Passar för:</strong> en altan eller balkong utan utomhusuttag.</p>
+
+<h3>Philips Hue Lily Outdoor Spot (startpaket): riktmärket bland nätanslutna premiumsystem</h3>
+<p>Startpaketet för Hue Lily innehåller tre spotlights på 600 lumen vardera, med justerbart vitt ljus på 2 000–6 500 K och 16 miljoner färger, plus en nätdel för 24 V. Alla tre är IP65-klassade och kan stickas ned i gräsmattan eller monteras på väggen. Full styrning sker via Hue Bridge, som fungerar med Alexa, Google Home, Apple Home och Home Assistant. För ett träd eller en fasad kommer Lily XL upp i 1 050 lumen.</p>
+<p><strong>Styrkor:</strong> ljuskvalitet som får mycket beröm, automationer vid solnedgången, ett mycket brett och stabilt ekosystem. <strong>Svagheter:</strong> kräver ett utomhusuttag och Hue Bridge, och kostar betydligt mer än solcellsalternativen. <strong>Passar för:</strong> dig som redan använder Hue inomhus eller planerar en långsiktig trädgårdsbelysning.</p>
+
+<h3>Philips Hue Calla Outdoor Pedestal: uppkopplad gångbelysning</h3>
+<p>Den lilla pollaren Calla ansluts till samma lågvoltssystem på 24 V som Lily. Den sprider vitt eller färgat ljus nedåt, perfekt för att markera en gång eller kanten av altanen, och använder samma scener och automationer som resten av din Hue-installation. Den är IP65-klassad.</p>
+<p><strong>Styrkor:</strong> samma formspråk som Lily, central styrning. <strong>Svagheter:</strong> beroende av Hues nätdel och av hur mycket kabel som finns att tillgå. <strong>Passar för:</strong> att bygga ut en Lily-installation längs en gång.</p>
+
+<h3>Steinel XSolar L-S ONE: ingen app, men pålitlig solcellsbelysning</h3>
+<p>XSolar L-S ONE från den tyska tillverkaren Steinel är en solcellsdriven vägglampa på 150 lumen i varmvitt (3 000 K), med en IR-sensor på 140° och 8 meters räckvidd. Den monokristallina panelen sitter separat från lampan, och litiumjärnfosfatbatteriet är gjort för att klara låga temperaturer. En grundljusfunktion ger ett svagt sken under nattens första och sista timmar. Den är IP44-klassad.</p>
+<p><strong>Styrkor:</strong> gedigen tillverkning, separat panel, robust batteri. <strong>Svagheter:</strong> ingen uppkoppling, och ljusstyrkan passar en entré snarare än en stor yta. <strong>Passar för:</strong> automatisk belysning utan app eller konto att skapa.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Strömförsörjning</th><th>Ljusstyrka</th><th>Uppkoppling</th><th>Rörelsesensor</th><th>IP</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>eufy Solar Wall Light Cam S120</strong></td><td>Vägglampa + kamera</td><td>Solcell + batteri</td><td>300 lm</td><td>Wifi 2,4 GHz</td><td>Ja (PIR)</td><td>IP65</td><td>Säkra entrén</td></tr>
+<tr><td><strong>Govee Outdoor Solar String Lights</strong></td><td>Slinga, 10 m</td><td>Solcell + batteri</td><td>Dekorativ</td><td>Bluetooth</td><td>Nej</td><td>IP67 (lamporna)</td><td>Stämning på altanen</td></tr>
+<tr><td><strong>Philips Hue Lily (startpaket)</strong></td><td>3 spotlights</td><td>24 V</td><td>600 lm per spotlight</td><td>Zigbee (Hue Bridge)</td><td>Via Hue-sensor</td><td>IP65</td><td>Trädgårdsbelysning</td></tr>
+<tr><td><strong>Philips Hue Calla Outdoor Pedestal</strong></td><td>Pollare</td><td>24 V</td><td>Markering</td><td>Zigbee (Hue Bridge)</td><td>Via Hue-sensor</td><td>IP65</td><td>Uppkopplade gångar</td></tr>
+<tr><td><strong>Steinel XSolar L-S ONE</strong></td><td>Vägglampa</td><td>Solcell + batteri</td><td>150 lm</td><td>Ingen</td><td>Ja (140°, 8 m)</td><td>IP44</td><td>Entrébelysning utan app</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att placera panelen i skuggan:</strong> ett träd, ett takutsprång eller en norrvägg kan räcka för att drifttiden ska krympa kraftigt. Välj en modell med separat panel om lampan måste sitta i skugga.</li>
+<li><strong>Att lita på lumensiffrorna för solcellsstrålkastare utan känt märke:</strong> de verkliga värdena är ofta betydligt lägre. Köparomdömen och oberoende utvärderingar är mer tillförlitliga än produktbeskrivningen.</li>
+<li><strong>Att glömma vintern:</strong> solcellsbelysning räcker för sommarstämning, men en entré måste vara upplyst året runt. För viktiga platser bör du komplettera med nätansluten belysning.</li>
+<li><strong>Att välja Bluetooth för fjärrstyrning:</strong> vill du tända i trädgården från kontoret eller få notiser behöver du wifi eller en brygga.</li>
+<li><strong>Att rikta ljuset mot grannarna eller gatan:</strong> varmvitt ljus som riktas nedåt lyser upp bättre, bländar mindre och stör nattens djurliv mindre.</li>
+</ul>
+
+<h2>Installation och säkerhet</h2>
+<p>Solcellslampor kan du sätta upp själv: två skruvar för en vägglampa, ett markspett för en gånglampa. Rengör panelen några gånger om året, eftersom damm och pollen minskar laddningen. Batterierna tappar lite kapacitet i sträng kyla och återhämtar sig när det blir mildare.</p>
+<p>Lågvoltssystem som Hue Lily kopplas in i ett skyddat utomhusuttag. Kabeln för 24 V kan grävas ned grunt eller döljas längs rabatterna, inom den maxlängd som tillverkaren anger. Nya utomhusuttag och alla anslutningar på 230 V ska göras av en behörig elektriker, enligt de elföreskrifter som gäller där du bor och med lämpligt jordfelsskydd.</p>
+<p>Kombinerar du belysning och övervakning bör du bara rikta kamerorna mot din egen tomt. Mer om det läser du i vår <a href="/sv/blog/comparatif-camera-surveillance-exterieure">jämförelse av utomhuskameror</a>.</p>
+
+<h2>Vårt omdöme</h2>
+<table>
+<thead>
+<tr><th>Behov</th><th>Vårt val</th><th>Varför</th></tr>
+</thead>
+<tbody>
+<tr><td>Uppkopplad säkerhet med solceller</td><td><strong>eufy Solar Wall Light Cam S120</strong></td><td>Ljus, 2K-kamera och notiser via wifi helt utan kabel</td></tr>
+<tr><td>Styrbar stämning med solceller</td><td><strong>Govee Outdoor Solar String Lights</strong></td><td>Färger, scener och schemaläggning utan uttag</td></tr>
+<tr><td>Trädgårdsbelysning i premiumklass</td><td><strong>Philips Hue Lily (startpaket)</strong></td><td>Ljuskvalitet, färger och ett mycket komplett ekosystem</td></tr>
+<tr><td>Uppkopplad gångbelysning</td><td><strong>Philips Hue Calla Outdoor Pedestal</strong></td><td>Passar in i en befintlig Lily-installation</td></tr>
+<tr><td>Enkel solcellsbelysning utan app</td><td><strong>Steinel XSolar L-S ONE</strong></td><td>Separat panel, robust batteri, pålitlig rörelsedetektering</td></tr>
+</tbody>
+</table>
+<p>Kort sagt är solceller oslagbara när du snabbt och utan byggarbeten vill få ljus vid entrén, förrådet eller altanen. Så fort du vill ha starkt och jämnt ljus under alla årstider passar ett nätanslutet smart system bättre. Många trädgårdar vinner på att kombinera båda.</p>`,
+    us: `<p><strong>For outdoor lighting that's both solar and smart, the best combination in 2026 is a solar wall light with a built-in camera, such as the eufy Solar Wall Light Cam S120, for security, plus app-controlled solar string lights such as the Govee Outdoor Solar String Lights for ambiance.</strong> If you want bright, colorful, programmable light every night of the year, a smart low-voltage system like Philips Hue Lily is still the benchmark, but it needs an outlet and a cable run.</p>
+<p>This guide compares the two main categories, standalone solar and wired smart lighting, based on manufacturer specs, published independent reviews and verified owner feedback. For the bigger picture, see our <a href="/us/blog/guide-jardin-connecte-2026">2026 smart yard guide</a>, and browse the full selection in our <a href="/us/outdoor-connecte/eclairage-exterieur">smart outdoor lighting</a> category.</p>
+
+<h2>Solar or wired smart lighting: the real question</h2>
+<p>A solar light stores the energy it collects during the day in a battery and uses it at night. It goes up in minutes, with no trenching and no electrician, and adds nothing to your electric bill. The trade-off is limited brightness, set by the size of the panel and battery, and noticeably shorter runtimes in winter, when the days are short and the sun stays low.</p>
+<p>Wired smart lighting, on line voltage or 24 V low voltage, gives you steady light year-round, more output, millions of colors and deep integration with Alexa, Google Home, Apple Home or Home Assistant. In return, it needs an outdoor power source and, depending on the job, an electrician.</p>
+<table>
+<thead>
+<tr><th>Criterion</th><th>Standalone solar</th><th>Wired smart (24 V or line voltage)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Installation</strong></td><td>No cable, done in minutes</td><td>Outdoor outlet, cable, sometimes an electrician</td></tr>
+<tr><td><strong>Power use</strong></td><td>None from the grid</td><td>Low with LEDs</td></tr>
+<tr><td><strong>Brightness</strong></td><td>Low to medium</td><td>Medium to high</td></tr>
+<tr><td><strong>Winter reliability</strong></td><td>Reduced</td><td>Steady</td></tr>
+<tr><td><strong>Connectivity</strong></td><td>Rare (Bluetooth or Wi-Fi on some models)</td><td>Zigbee, Wi-Fi, Bluetooth, Matter, depending on the brand</td></tr>
+<tr><td><strong>Colors</strong></td><td>Often warm white only</td><td>Tunable white and color</td></tr>
+</tbody>
+</table>
+
+<h2>How to choose</h2>
+<h3>Purpose: security, path lighting or ambiance</h3>
+<p>Start with what the light is for. For <strong>security</strong>, you need a motion sensor and a crisp white light that comes on decisively, ideally with a notification on your phone. To <strong>mark</strong> a path or steps, a low but steady glow is enough. For <strong>ambiance</strong> on a patio or deck, you want colors, scenes and sunset scheduling.</p>
+<h3>Brightness in lumens</h3>
+<p>A few dozen lumens are enough to mark a path. A wall light by the front door sits around 150 to 300 lumens. A spotlight aimed at a tree or the front of the house works best above 500 lumens. Be wary of the very high figures some entry-level solar floodlights claim: independent reviews often find a big gap between the claim and reality.</p>
+<h3>IP rating</h3>
+<p>The IP rating describes resistance to dust and water. IP44 protects against splashes and suits a sheltered wall. IP65 stands up to water jets and handles direct rain. IP67 survives temporary immersion, which helps for ground-level lights in areas that can flood.</p>
+<h3>Connectivity and ecosystem</h3>
+<p>A Bluetooth model is controlled from your phone when you're nearby. A Wi-Fi model can be reached remotely and sends alerts. A Zigbee system such as Philips Hue goes through a bridge, but it's very stable and works with almost every smart home platform. If you already have Hue bulbs indoors, staying in the same ecosystem makes life easier.</p>
+<h3>Battery and solar panel</h3>
+<p>With solar lights, battery quality matters more than the number of LEDs. Lithium iron phosphate (LiFePO4) batteries handle cold and repeated charge cycles better. A separate panel on a cable lets you put the light in the shade and the panel in full sun, which is a real advantage on a north-facing wall.</p>
+
+<h2>Models worth knowing in 2026</h2>
+<h3>eufy Solar Wall Light Cam S120: smart solar security</h3>
+<p>The eufy S120 combines a 300-lumen wall light, a 2K camera with color night vision, a PIR motion sensor and a siren, all powered by a built-in solar panel and a 5,200 mAh battery. It connects over 2.4 GHz Wi-Fi, sends notifications to your phone and works with Alexa and Google Assistant. It's rated IP65.</p>
+<p><strong>Pros:</strong> no wiring at all, light and camera in one device, a full-featured eufy Security app. <strong>Cons:</strong> bright enough for a doorway but not for a large yard, and charging depends heavily on how much sun it gets. <strong>Best for:</strong> securing a door, shed or driveway without any construction.</p>
+
+<h3>Govee Outdoor Solar String Lights: app-controlled solar ambiance</h3>
+<p>This 33 ft (10 m) solar string carries 8 RGBICW bulbs that can show several colors at once, plus warm to cool whites. It's controlled over Bluetooth in the Govee Home app, with preset scenes, music sync, schedules and a battery level readout. The solar panel is separate, and the bulbs are rated IP67.</p>
+<p><strong>Pros:</strong> a rare solar string that's genuinely controllable, attractive color effects, instant setup on a pergola or fence. <strong>Cons:</strong> Bluetooth means you have to be nearby to control it, and the light is decorative. <strong>Best for:</strong> a patio, deck or balcony with no outdoor outlet.</p>
+
+<h3>Philips Hue Lily Outdoor Spot (base kit): the premium wired benchmark</h3>
+<p>The Hue Lily base kit includes three 600-lumen spotlights with tunable white from 2,000 to 6,500 K and 16 million colors, plus their 24 V power supply. The spots are rated IP65 and can be staked into the lawn or mounted on a wall. Full control runs through the Hue Bridge, which works with Alexa, Google Home, Apple Home and Home Assistant. For a tree or the front of the house, the Lily XL reaches 1,050 lumens.</p>
+<p><strong>Pros:</strong> widely praised light quality, sunset automations, a very broad and stable ecosystem. <strong>Cons:</strong> it needs an outdoor outlet and the Hue Bridge, and it costs considerably more than solar. <strong>Best for:</strong> anyone already using Hue indoors or planning permanent landscape lighting.</p>
+
+<h3>Philips Hue Calla Outdoor Pedestal: smart path lighting</h3>
+<p>The small Calla pedestal connects to the same 24 V low-voltage system as the Lily spots. It casts white or colored light downward, which is ideal for marking a path or the edge of a patio, and uses the same scenes and automations as the rest of your Hue setup. It's rated IP65.</p>
+<p><strong>Pros:</strong> matches the Lily design, central control. <strong>Cons:</strong> depends on the Hue power kit and the available cable length. <strong>Best for:</strong> extending a Lily setup along a path.</p>
+
+<h3>Steinel XSolar L-S ONE: no app, but dependable solar</h3>
+<p>German manufacturer Steinel's XSolar L-S ONE is a 150-lumen warm white (3,000 K) solar wall light with a 140° infrared sensor and a range of 26 ft (8 m). Its monocrystalline panel is separate from the light, and its lithium iron phosphate battery is designed to handle low temperatures. A basic light function gives a dim glow in the early and late hours of the night. It's rated IP44.</p>
+<p><strong>Pros:</strong> solid build, remote panel, a tough battery. <strong>Cons:</strong> no connectivity, and brightness suited to an entryway rather than a large area. <strong>Best for:</strong> automatic lighting with no app or account to set up.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Power</th><th>Brightness</th><th>Connectivity</th><th>Motion</th><th>IP</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>eufy Solar Wall Light Cam S120</strong></td><td>Wall light + camera</td><td>Solar + battery</td><td>300 lm</td><td>2.4 GHz Wi-Fi</td><td>Yes (PIR)</td><td>IP65</td><td>Securing an entryway</td></tr>
+<tr><td><strong>Govee Outdoor Solar String Lights</strong></td><td>33 ft (10 m) string</td><td>Solar + battery</td><td>Decorative</td><td>Bluetooth</td><td>No</td><td>IP67 (bulbs)</td><td>Patio ambiance</td></tr>
+<tr><td><strong>Philips Hue Lily (base kit)</strong></td><td>3 spotlights</td><td>24 V</td><td>600 lm per spot</td><td>Zigbee (Hue Bridge)</td><td>Via Hue sensor</td><td>IP65</td><td>Landscape lighting</td></tr>
+<tr><td><strong>Philips Hue Calla Outdoor Pedestal</strong></td><td>Pedestal</td><td>24 V</td><td>Path marking</td><td>Zigbee (Hue Bridge)</td><td>Via Hue sensor</td><td>IP65</td><td>Smart path lighting</td></tr>
+<tr><td><strong>Steinel XSolar L-S ONE</strong></td><td>Wall light</td><td>Solar + battery</td><td>150 lm</td><td>None</td><td>Yes (140°, 26 ft/8 m)</td><td>IP44</td><td>No-app entryway light</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Putting the panel in the shade:</strong> a tree, an overhang or a north-facing wall can slash runtime. Choose a model with a remote panel if the light has to stay in the shade.</li>
+<li><strong>Trusting the lumen claims on no-name solar floodlights:</strong> real-world output is often far lower. Owner feedback and independent reviews are more reliable than the product listing.</li>
+<li><strong>Forgetting about winter:</strong> solar is fine for summer ambiance, but an entryway has to stay lit year-round. For critical areas, add a wired option.</li>
+<li><strong>Choosing Bluetooth for remote use:</strong> if you want to turn on the yard lights from work or get alerts, you need Wi-Fi or a bridge.</li>
+<li><strong>Aiming light at the neighbors or the street:</strong> warm white light pointed downward lights things better, bothers people less and disturbs wildlife less.</li>
+</ul>
+
+<h2>Installation and safety</h2>
+<p>Solar lights are DIY-friendly: two screws for a wall light, a stake for a path light. Clean the panel a few times a year, since dust and pollen cut charging. Batteries lose some capacity in a hard freeze and recover when it warms up.</p>
+<p>Low-voltage systems such as Hue Lily plug into a protected outdoor outlet. The 24 V cable can be buried shallowly or tucked along flower beds, within the maximum length the manufacturer specifies. Models sold in Europe are built for 230 V; check that the version on your Amazon store is rated for 120 V. Any new outdoor outlet or line-voltage connection should be handled by a licensed electrician, with GFCI protection; check your local building code and whether a permit is needed.</p>
+<p>If you combine lighting and security cameras, aim the cameras at your own property only. For more on that, read our <a href="/us/blog/comparatif-camera-surveillance-exterieure">outdoor security camera comparison</a>.</p>
+
+<h2>The bottom line</h2>
+<table>
+<thead>
+<tr><th>Need</th><th>Our pick</th><th>Why</th></tr>
+</thead>
+<tbody>
+<tr><td>Smart solar security</td><td><strong>eufy Solar Wall Light Cam S120</strong></td><td>Light, a 2K camera and Wi-Fi alerts with no cable at all</td></tr>
+<tr><td>Controllable solar ambiance</td><td><strong>Govee Outdoor Solar String Lights</strong></td><td>Colors, scenes and schedules without an outlet</td></tr>
+<tr><td>Premium landscape lighting</td><td><strong>Philips Hue Lily (base kit)</strong></td><td>Light quality, colors and a very complete ecosystem</td></tr>
+<tr><td>Smart path lighting</td><td><strong>Philips Hue Calla Outdoor Pedestal</strong></td><td>Fits into an existing Lily setup</td></tr>
+<tr><td>Simple solar, no app</td><td><strong>Steinel XSolar L-S ONE</strong></td><td>Remote panel, tough battery, reliable detection</td></tr>
+</tbody>
+</table>
+<p>In short, solar is unbeatable for quickly lighting an entryway, shed or patio with no construction. As soon as you want strong, steady light in every season, a wired smart system is the better fit. Many yards benefit from a mix of both.</p>`,
+    ca: `<p><strong>For outdoor lighting that's both solar and smart, the best combination in 2026 is a solar wall light with a camera, such as the eufy Solar Wall Light Cam S120, for security, plus an app-controlled solar string such as the Govee Outdoor Solar String Lights for ambience.</strong> If you want bright, colourful, programmable light every night of the year, a smart low-voltage system like Philips Hue Lily is still the benchmark, but it needs an outdoor outlet and a cable.</p>
+<p>This guide compares the two main families, standalone solar and wired smart lighting, based on manufacturer specifications, published independent reviews and verified buyer feedback. For the bigger picture, see our <a href="/ca/blog/guide-jardin-connecte-2026">smart backyard guide 2026</a>, and browse the full selection in the <a href="/ca/outdoor-connecte/eclairage-exterieur">smart outdoor lighting</a> category.</p>
+
+<h2>Solar or wired smart lighting: the real question</h2>
+<p>A solar light stores the energy it collects during the day in a battery and releases it at night. It goes up in minutes, with no trench and no electrician, and adds nothing to your electricity bill. The trade-off is limited brightness, set by the size of the panel and battery, and noticeably shorter runtimes in winter, when days are short and the sun stays low.</p>
+<p>Wired smart lighting, whether on household current (120 V) or 24 V low voltage, gives steady light all year, more power, millions of colours and deep integration with Alexa, Google Home, Apple Home or Home Assistant. In return, it needs an outdoor power source and, depending on the job, an electrician.</p>
+<table>
+<thead>
+<tr><th>Criterion</th><th>Standalone solar</th><th>Wired smart (24 V or 120 V)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Installation</strong></td><td>No cable, done in minutes</td><td>Outdoor outlet, cable, sometimes an electrician</td></tr>
+<tr><td><strong>Energy use</strong></td><td>None from the grid</td><td>Low with LEDs</td></tr>
+<tr><td><strong>Brightness</strong></td><td>Modest to medium</td><td>Medium to high</td></tr>
+<tr><td><strong>Winter reliability</strong></td><td>Reduced</td><td>Constant</td></tr>
+<tr><td><strong>Connectivity</strong></td><td>Rare (Bluetooth or Wi-Fi on some models)</td><td>Zigbee, Wi-Fi, Bluetooth, Matter depending on brand</td></tr>
+<tr><td><strong>Colours</strong></td><td>Often warm white only</td><td>Tunable white and colour</td></tr>
+</tbody>
+</table>
+
+<h2>How to choose</h2>
+<h3>Purpose: security, path lighting or ambience</h3>
+<p>Start with what the light is for. For <strong>security</strong>, you need a motion sensor and a clear white light that comes on decisively, ideally with a phone notification. For <strong>marking</strong> a path or steps, a low but steady glow is enough. For <strong>ambience</strong> on a patio or deck, you want colours, scenes and sunset scheduling.</p>
+<h3>Brightness in lumens</h3>
+<p>A few dozen lumens are enough to mark a path. An entrance wall light sits around 150 to 300 lumens. A spotlight aimed at a tree or the front of the house works best above 500 lumens. Be wary of the very high figures claimed by some entry-level solar floodlights: independent reviews often find a big gap between the claim and reality.</p>
+<h3>IP rating</h3>
+<p>The IP rating describes resistance to dust and water. IP44 protects against splashes and suits a sheltered wall. IP65 withstands water jets and handles direct rain. IP67 survives temporary immersion, which helps for ground-level lights in areas that can flood.</p>
+<h3>Connectivity and ecosystem</h3>
+<p>A Bluetooth model is controlled from your phone when you're nearby. A Wi-Fi model can be reached remotely and sends alerts. A Zigbee system such as Philips Hue goes through a bridge, but it's very stable and works with almost every smart home platform. If you already have Hue bulbs indoors, staying in the same ecosystem makes life easier.</p>
+<h3>Battery and solar panel</h3>
+<p>With solar lights, battery quality matters more than LED count. Lithium iron phosphate (LiFePO4) batteries cope better with cold and repeated charge cycles. A separate panel on a cable lets you put the light in the shade and the panel in full sun, which is a real advantage on a north-facing wall.</p>
+
+<h2>Models worth knowing in 2026</h2>
+<h3>eufy Solar Wall Light Cam S120: smart solar security</h3>
+<p>The eufy S120 combines a 300-lumen wall light, a 2K camera with colour night vision, a PIR motion sensor and a siren, all powered by a built-in solar panel and a 5,200 mAh battery. It connects over 2.4 GHz Wi-Fi, sends notifications to your phone and works with Alexa and Google Assistant. It's rated IP65.</p>
+<p><strong>Strengths:</strong> no wiring at all, light and camera in one device, a full-featured eufy Security app. <strong>Limitations:</strong> bright enough for a doorway but not for a large yard, and charging depends heavily on sun exposure. <strong>Best for:</strong> securing a door, shed or driveway without any construction work.</p>
+
+<h3>Govee Outdoor Solar String Lights: app-controlled solar ambience</h3>
+<p>This 10-metre solar string carries 8 RGBICW bulbs that can show several colours at once, plus warm to cool whites. It's controlled over Bluetooth in the Govee Home app, with preset scenes, music sync, schedules and battery level. The solar panel is separate and the bulbs are rated IP67.</p>
+<p><strong>Strengths:</strong> a rare solar string that's genuinely controllable, attractive colour effects, instant setup on a pergola or fence. <strong>Limitations:</strong> Bluetooth means you have to be nearby to control it, and the light is decorative. <strong>Best for:</strong> a patio or balcony with no outdoor outlet.</p>
+
+<h3>Philips Hue Lily Outdoor Spot (base kit): the premium wired benchmark</h3>
+<p>The Hue Lily base kit includes three 600-lumen spotlights with tunable white from 2,000 to 6,500 K and 16 million colours, plus their 24 V power supply. The spots are rated IP65 and can be staked into the lawn or mounted on a wall. Full control runs through the Hue Bridge, which works with Alexa, Google Home, Apple Home and Home Assistant. For a tree or the front of the house, the Lily XL reaches 1,050 lumens.</p>
+<p><strong>Strengths:</strong> widely praised light quality, sunset automations, a very broad and stable ecosystem. <strong>Limitations:</strong> needs an outdoor outlet and the Hue Bridge, and costs considerably more than solar. <strong>Best for:</strong> anyone already using Hue indoors or planning long-term landscape lighting.</p>
+
+<h3>Philips Hue Calla Outdoor Pedestal: smart path lighting</h3>
+<p>The small Calla pedestal connects to the same 24 V low-voltage system as the Lily spots. It casts white or coloured light downward, ideal for marking a path or the edge of a patio, and uses the same scenes and automations as the rest of your Hue setup. It's rated IP65.</p>
+<p><strong>Strengths:</strong> matches the Lily design, central control. <strong>Limitations:</strong> depends on the Hue power kit and the available cable length. <strong>Best for:</strong> extending a Lily installation along a path.</p>
+
+<h3>Steinel XSolar L-S ONE: no app, but dependable solar</h3>
+<p>German manufacturer Steinel's XSolar L-S ONE is a 150-lumen warm white (3,000 K) solar wall light with a 140° infrared sensor and an 8-metre range. Its monocrystalline panel is separate from the light and its lithium iron phosphate battery is designed to handle low temperatures. A basic light function gives a dim glow in the early and late hours of the night. It's rated IP44.</p>
+<p><strong>Strengths:</strong> solid build, remote panel, robust battery. <strong>Limitations:</strong> no connectivity, and brightness suited to an entrance rather than a large area. <strong>Best for:</strong> automatic lighting with no app or account to set up.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Power</th><th>Brightness</th><th>Connectivity</th><th>Motion</th><th>IP</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>eufy Solar Wall Light Cam S120</strong></td><td>Wall light + camera</td><td>Solar + battery</td><td>300 lm</td><td>2.4 GHz Wi-Fi</td><td>Yes (PIR)</td><td>IP65</td><td>Securing an entrance</td></tr>
+<tr><td><strong>Govee Outdoor Solar String Lights</strong></td><td>10 m string</td><td>Solar + battery</td><td>Decorative</td><td>Bluetooth</td><td>No</td><td>IP67 (bulbs)</td><td>Patio ambience</td></tr>
+<tr><td><strong>Philips Hue Lily (base kit)</strong></td><td>3 spotlights</td><td>24 V</td><td>600 lm per spot</td><td>Zigbee (Hue Bridge)</td><td>Via Hue sensor</td><td>IP65</td><td>Landscape lighting</td></tr>
+<tr><td><strong>Philips Hue Calla Outdoor Pedestal</strong></td><td>Pedestal</td><td>24 V</td><td>Path marking</td><td>Zigbee (Hue Bridge)</td><td>Via Hue sensor</td><td>IP65</td><td>Smart path lighting</td></tr>
+<tr><td><strong>Steinel XSolar L-S ONE</strong></td><td>Wall light</td><td>Solar + battery</td><td>150 lm</td><td>None</td><td>Yes (140°, 8 m)</td><td>IP44</td><td>App-free entrance light</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Putting the panel in the shade:</strong> a tree, an overhang or a north-facing wall can slash runtime. Choose a model with a remote panel if the light has to stay in the shade.</li>
+<li><strong>Trusting lumen claims on unbranded solar floodlights:</strong> real-world figures are often far lower. Buyer feedback and independent reviews are more reliable than the product listing.</li>
+<li><strong>Forgetting about winter:</strong> solar is fine for summer ambience, but an entrance has to stay lit all year. For critical areas, add a wired solution.</li>
+<li><strong>Choosing Bluetooth for remote use:</strong> if you want to turn on the backyard lights from work or get alerts, you need Wi-Fi or a bridge.</li>
+<li><strong>Aiming light at the neighbours or the street:</strong> warm white light pointed downward lights better, bothers people less and disturbs wildlife less.</li>
+</ul>
+
+<h2>Installation and safety</h2>
+<p>Solar lights are DIY-friendly: two screws for a wall light, a stake for a path light. Clean the panel a few times a year, since dust and pollen reduce charging, and brush off snow after a snowfall in winter. Batteries lose some capacity in deep cold and recover when it warms up.</p>
+<p>Low-voltage systems such as Hue Lily plug into a protected outdoor outlet. The 24 V cable can be buried shallowly or hidden along garden beds, within the maximum length specified by the manufacturer. Any new outdoor outlet or connection to your home's wiring should be handled by a licensed electrician, with suitable ground-fault (GFCI) protection. Electrical work rules are set by each province and territory, so check what applies where you live.</p>
+<p>If you combine lighting and surveillance, aim cameras at your own property only. For more on that, read our <a href="/ca/blog/comparatif-camera-surveillance-exterieure">outdoor security camera comparison</a>.</p>
+
+<h2>Our verdict</h2>
+<table>
+<thead>
+<tr><th>Need</th><th>Our pick</th><th>Why</th></tr>
+</thead>
+<tbody>
+<tr><td>Smart solar security</td><td><strong>eufy Solar Wall Light Cam S120</strong></td><td>Light, 2K camera and Wi-Fi alerts with no cable at all</td></tr>
+<tr><td>Controllable solar ambience</td><td><strong>Govee Outdoor Solar String Lights</strong></td><td>Colours, scenes and schedules without an outlet</td></tr>
+<tr><td>Premium landscape lighting</td><td><strong>Philips Hue Lily (base kit)</strong></td><td>Light quality, colours and a very complete ecosystem</td></tr>
+<tr><td>Smart path lighting</td><td><strong>Philips Hue Calla Outdoor Pedestal</strong></td><td>Fits into an existing Lily setup</td></tr>
+<tr><td>Simple solar, no app</td><td><strong>Steinel XSolar L-S ONE</strong></td><td>Remote panel, robust battery, reliable detection</td></tr>
+</tbody>
+</table>
+<p>In short, solar is hard to beat for quickly equipping an entrance, shed or patio with no construction work. As soon as you want strong, steady light in every season, a wired smart system is the better fit. Many yards benefit from a mix of both.</p>`,
   },
   faq: [
     {
@@ -722,6 +1016,9 @@ export const article: BlogArticle = {
         it: 'L\'illuminazione solare esterna funziona in inverno?',
         nl: 'Werkt buitenverlichting op zonne-energie in de winter?',
         pl: 'Czy zewnętrzne oświetlenie solarne działa zimą?',
+        sv: 'Fungerar solcellsbelysning utomhus på vintern?',
+        us: 'Do solar outdoor lights work in winter?',
+        ca: 'Does solar outdoor lighting work in winter?',
       },
       answer: {
         fr: 'Oui, mais avec une autonomie nettement plus courte, car les journées sont brèves et le soleil reste bas. Installez le panneau en plein sud, sans ombre, et choisissez si possible un modèle à panneau déporté et batterie LiFePO4, plus tolérante au froid. Pour une entrée qui doit rester éclairée toute l\'année, prévoyez une solution filaire en complément.',
@@ -731,6 +1028,9 @@ export const article: BlogArticle = {
         it: 'Sì, ma con un\'autonomia sensibilmente più breve, perché le giornate sono corte e il sole è basso. Orientate il pannello a sud, senza ombre, e se possibile scegliete un modello con pannello separato e batteria LiFePO4, più resistente al freddo. Per un ingresso che deve restare illuminato tutto l\'anno, aggiungete una soluzione cablata.',
         nl: 'Ja, maar met een duidelijk kortere brandduur, omdat de dagen kort zijn en de zon laag staat. Richt het paneel schaduwvrij op het zuiden en kies zo mogelijk een model met los paneel en LiFePO4-accu, die beter tegen kou kan. Voor een voordeur die het hele jaar verlicht moet zijn, voeg je een bekabelde oplossing toe.',
         pl: 'Tak, ale świeci wyraźnie krócej, bo dni są krótkie, a słońce stoi nisko. Zamontuj panel od strony południowej, w miejscu bez cienia, i w miarę możliwości wybierz model z oddzielnym panelem i akumulatorem LiFePO4, który lepiej znosi mróz. Jeśli wejście ma być oświetlone przez cały rok, zaplanuj dodatkowo oświetlenie przewodowe.',
+        sv: 'Ja, men med betydligt kortare drifttid, eftersom dagarna är korta och solen står lågt. Placera panelen mot söder, utan skugga, och välj om möjligt en modell med separat panel och LiFePO4-batteri, som tål kyla bättre. För en entré som ska vara upplyst året runt bör du komplettera med nätansluten belysning.',
+        us: 'Yes, but with noticeably shorter runtimes, because the days are short and the sun stays low. Point the panel south with no shade, and if possible choose a model with a remote panel and a LiFePO4 battery, which handles cold better. For an entryway that has to stay lit year-round, add a wired option.',
+        ca: 'Yes, but with noticeably shorter runtimes, because days are short and the sun stays low. Face the panel south with no shade, brush off any snow, and if possible choose a model with a remote panel and a LiFePO4 battery, which copes better with cold. For an entrance that has to stay lit all year, add a wired solution.',
       },
     },
     {
@@ -742,6 +1042,9 @@ export const article: BlogArticle = {
         it: 'Esistono luci solari davvero smart?',
         nl: 'Bestaan er solarlampen die echt slim zijn?',
         pl: 'Czy istnieją naprawdę inteligentne lampy solarne?',
+        sv: 'Finns det solcellslampor som verkligen är smarta?',
+        us: 'Are there solar lights that are actually smart?',
+        ca: 'Are there solar lights that are genuinely smart?',
       },
       answer: {
         fr: 'Oui, mais elles restent rares. L\'eufy Solar Wall Light Cam S120 se connecte en Wi-Fi et envoie des alertes, tandis que la guirlande Govee Outdoor Solar String Lights se pilote en Bluetooth depuis l\'application. La plupart des lampes solaires, y compris les bons modèles comme la Steinel XSolar L-S ONE, fonctionnent seules, avec un capteur crépusculaire et un détecteur de mouvement.',
@@ -751,6 +1054,9 @@ export const article: BlogArticle = {
         it: 'Sì, ma sono ancora rare. La eufy Solar Wall Light Cam S120 si collega al Wi-Fi e invia avvisi, mentre le Govee Outdoor Solar String Lights si controllano via Bluetooth dall\'app. La maggior parte delle luci solari, comprese quelle valide come la Steinel XSolar L-S ONE, funziona in autonomia con sensore crepuscolare e rilevatore di movimento.',
         nl: 'Ja, maar ze zijn nog zeldzaam. De eufy Solar Wall Light Cam S120 maakt verbinding via wifi en stuurt meldingen, terwijl je de Govee Outdoor Solar String Lights via Bluetooth in de app bedient. De meeste solarlampen, ook goede zoals de Steinel XSolar L-S ONE, werken zelfstandig met een schemersensor en bewegingsmelder.',
         pl: 'Tak, choć wciąż jest ich niewiele. Model eufy Solar Wall Light Cam S120 łączy się przez Wi-Fi i wysyła powiadomienia, a girlandą Govee Outdoor Solar String Lights sterujesz przez Bluetooth z aplikacji. Większość lamp solarnych, także dobre modele, takie jak Steinel XSolar L-S ONE, działa samodzielnie – z czujnikiem zmierzchu i czujnikiem ruchu.',
+        sv: 'Ja, men de är fortfarande ovanliga. Vägglampan eufy Solar Wall Light Cam S120 ansluter via wifi och skickar notiser, medan ljusslingan Govee Outdoor Solar String Lights styrs via Bluetooth i appen. De flesta solcellslampor, även bra modeller som Steinel XSolar L-S ONE, fungerar på egen hand med skymningssensor och rörelsesensor.',
+        us: 'Yes, but they\'re still rare. The eufy Solar Wall Light Cam S120 connects over Wi-Fi and sends alerts, while the Govee Outdoor Solar String Lights are controlled over Bluetooth from the app. Most solar lights, including good ones like the Steinel XSolar L-S ONE, work on their own with a dusk-to-dawn sensor and a motion detector.',
+        ca: 'Yes, but they are still rare. The eufy Solar Wall Light Cam S120 connects over Wi-Fi and sends alerts, while the Govee Outdoor Solar String Lights are controlled over Bluetooth from the app. Most solar lights, including good ones like the Steinel XSolar L-S ONE, work on their own with a dusk sensor and motion detector.',
       },
     },
     {
@@ -762,6 +1068,9 @@ export const article: BlogArticle = {
         it: 'Quale grado IP serve per una luce da esterno?',
         nl: 'Welke IP-waarde heeft buitenverlichting nodig?',
         pl: 'Jaki stopień ochrony IP wybrać do oświetlenia zewnętrznego?',
+        sv: 'Vilken IP-klass behöver utomhusbelysning?',
+        us: 'What IP rating do outdoor lights need?',
+        ca: 'Which IP rating do outdoor lights need?',
       },
       answer: {
         fr: 'IP44 suffit pour une applique sous un avant-toit, protégée de la pluie directe. Pour un luminaire exposé aux intempéries ou planté dans le jardin, visez IP65. IP67 est utile pour les éclairages posés au sol dans une zone qui peut être inondée.',
@@ -771,6 +1080,9 @@ export const article: BlogArticle = {
         it: 'IP44 basta per un\'applique sotto una gronda, riparata dalla pioggia diretta. Per una luce esposta alle intemperie o piantata in giardino, puntate a IP65. IP67 è utile per le luci a terra in zone che possono allagarsi.',
         nl: 'IP44 volstaat voor een wandlamp onder een dakrand, beschut tegen directe regen. Voor verlichting die aan weer en wind is blootgesteld of in de tuin staat, kies je IP65. IP67 is handig voor grondspots op plekken die onder water kunnen lopen.',
         pl: 'IP44 wystarczy w przypadku kinkietu pod okapem, osłoniętego przed deszczem. Do oprawy wystawionej na działanie warunków atmosferycznych lub wbijanej w ziemię w ogrodzie wybierz IP65. IP67 przydaje się w przypadku lamp stojących na ziemi w miejscu, które może zostać zalane.',
+        sv: 'IP44 räcker för en vägglampa under ett takutsprång, skyddad från direkt regn. För armaturer som står utsatta för väder och vind eller sitter nedstuckna i trädgården bör du välja IP65. IP67 är bra för markbelysning i områden som kan översvämmas.',
+        us: 'IP44 is enough for a wall light under an overhang, sheltered from direct rain. For a fixture exposed to the weather or staked in the yard, aim for IP65. IP67 helps for ground-level lights in an area that can flood.',
+        ca: 'IP44 is enough for a wall light under an overhang, sheltered from direct rain. For a fixture exposed to the weather or staked in the yard, aim for IP65. IP67 helps for ground-level lights in an area that can flood.',
       },
     },
     {
@@ -782,6 +1094,9 @@ export const article: BlogArticle = {
         it: 'Si può controllare l\'illuminazione esterna con Alexa o Google Home?',
         nl: 'Kun je buitenverlichting bedienen met Alexa of Google Home?',
         pl: 'Czy oświetleniem zewnętrznym można sterować przez Alexę lub Google Home?',
+        sv: 'Kan man styra utomhusbelysningen med Alexa eller Google Home?',
+        us: 'Can you control outdoor lighting with Alexa or Google Home?',
+        ca: 'Can you control outdoor lighting with Alexa or Google Home?',
       },
       answer: {
         fr: 'Oui avec les modèles connectés. Philips Hue Lily et Calla fonctionnent avec Alexa, Google Home, Apple Home et Home Assistant via le pont Hue. L\'eufy S120 est compatible avec Alexa et Google Assistant. La guirlande Govee solaire se pilote en Bluetooth depuis son application, et les lampes solaires autonomes comme la Steinel XSolar L-S ONE ne se connectent pas.',
@@ -791,6 +1106,9 @@ export const article: BlogArticle = {
         it: 'Sì, con i modelli connessi. Philips Hue Lily e Calla funzionano con Alexa, Google Home, Apple Home e Home Assistant tramite l\'Hue Bridge. La eufy S120 è compatibile con Alexa e Google Assistant. La catena solare Govee si controlla via Bluetooth dalla sua app, mentre le luci solari autonome come la Steinel XSolar L-S ONE non si collegano.',
         nl: 'Ja, met verbonden modellen. Philips Hue Lily en Calla werken via de Hue Bridge met Alexa, Google Home, Apple Home en Home Assistant. De eufy S120 ondersteunt Alexa en Google Assistent. Het Govee-solarsnoer bedien je via Bluetooth in de app, en autonome solarlampen zoals de Steinel XSolar L-S ONE maken geen verbinding.',
         pl: 'Tak, jeśli są to modele inteligentne. Philips Hue Lily i Calla współpracują z Alexą, Google Home, Apple Home i Home Assistant przez mostek Hue. Model eufy S120 jest zgodny z Alexą i Asystentem Google. Solarną girlandą Govee sterujesz przez Bluetooth z jej aplikacji, a samodzielne lampy solarne, takie jak Steinel XSolar L-S ONE, w ogóle nie łączą się z siecią.',
+        sv: 'Ja, med uppkopplade modeller. Philips Hue Lily och Calla fungerar med Alexa, Google Home, Apple Home och Home Assistant via Hue Bridge. Kameralampan eufy S120 fungerar med Alexa och Google Assistant. Govees solcellsslinga styrs via Bluetooth i sin app, och fristående solcellslampor som Steinel XSolar L-S ONE går inte att ansluta.',
+        us: 'Yes, with smart models. Philips Hue Lily and Calla work with Alexa, Google Home, Apple Home and Home Assistant through the Hue Bridge. The eufy S120 supports Alexa and Google Assistant. The Govee solar string lights are controlled over Bluetooth from their app, and standalone solar lights like the Steinel XSolar L-S ONE don\'t connect at all.',
+        ca: 'Yes, with smart models. Philips Hue Lily and Calla work with Alexa, Google Home, Apple Home and Home Assistant via the Hue Bridge. The eufy S120 supports Alexa and Google Assistant. The Govee solar string is controlled over Bluetooth from its app, and standalone solar lights like the Steinel XSolar L-S ONE don\'t connect at all.',
       },
     },
     {
@@ -802,6 +1120,9 @@ export const article: BlogArticle = {
         it: 'Serve un elettricista per installare l\'illuminazione esterna smart?',
         nl: 'Heb je een elektricien nodig voor slimme buitenverlichting?',
         pl: 'Czy do montażu inteligentnego oświetlenia zewnętrznego potrzebny jest elektryk?',
+        sv: 'Behöver man en elektriker för att installera smart utomhusbelysning?',
+        us: 'Do you need an electrician to install smart outdoor lighting?',
+        ca: 'Do you need an electrician to install smart outdoor lighting?',
       },
       answer: {
         fr: 'Pas pour le solaire, ni pour un système basse tension comme Hue Lily qui se branche sur une prise extérieure existante. En revanche, la création d\'une prise extérieure ou tout raccordement en 230 V doit être confié à un électricien qualifié, avec une protection différentielle adaptée.',
@@ -811,6 +1132,9 @@ export const article: BlogArticle = {
         it: 'Non per il solare, né per un sistema a bassa tensione come Hue Lily che si collega a una presa esterna esistente. Invece, una nuova presa esterna o qualsiasi collegamento a 230 V va affidato a un elettricista qualificato, con un\'adeguata protezione differenziale.',
         nl: 'Niet voor solarlampen en ook niet voor een laagspanningssysteem als Hue Lily dat je op een bestaand buitenstopcontact aansluit. Een nieuw buitenstopcontact of elke aansluiting op 230 V laat je wel over aan een erkende elektricien, met een geschikte aardlekschakelaar.',
         pl: 'Nie w przypadku lamp solarnych ani systemu niskonapięciowego, takiego jak Hue Lily, który podłącza się do istniejącego gniazdka zewnętrznego. Montaż nowego gniazdka zewnętrznego lub każde podłączenie do sieci 230 V zleć jednak wykwalifikowanemu elektrykowi, który zastosuje odpowiednie zabezpieczenie różnicowoprądowe.',
+        sv: 'Inte för solcellslampor, och inte heller för ett lågvoltssystem som Hue Lily som kopplas in i ett befintligt utomhusuttag. Ett nytt utomhusuttag eller en anslutning på 230 V ska däremot göras av en behörig elektriker, med lämpligt jordfelsskydd.',
+        us: 'Not for solar lights, and not for a low-voltage system like Hue Lily that plugs into an existing outdoor outlet. However, adding an outdoor outlet or making any line-voltage connection is a job for a licensed electrician, with GFCI protection.',
+        ca: 'Not for solar lights, nor for a low-voltage system like Hue Lily that plugs into an existing outdoor outlet. However, adding an outdoor outlet or making any connection to your home\'s wiring should be done by a licensed electrician, with suitable ground-fault (GFCI) protection. Electrical work rules are set by each province and territory.',
       },
     },
   ],

@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
         nl: 'Zwarte airfryer op een aanrecht in de keuken',
         pl: 'Czarna frytkownica beztłuszczowa na kuchennym blacie',
+        sv: 'Svart airfryer på en köksbänk',
+        us: 'Black air fryer on a kitchen countertop',
+        ca: 'Black air fryer on a kitchen counter',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Ricette di Dolci e Pasticcini nella Friggitrice ad Aria: 8 Ricette Golose',
     nl: 'Desserts en Gebak uit de Airfryer: 8 Heerlijke Recepten',
     pl: 'Desery i wypieki z frytkownicy beztłuszczowej: 8 smakowitych przepisów',
+    sv: 'Baka i airfryer: 8 goda recept på desserter och bakverk',
+    us: 'Air Fryer Desserts: 8 Recipes From Brownies to Lava Cake',
+    ca: 'Air Fryer Dessert Recipes: 8 Indulgent Baked Treats',
   },
   excerpt: {
     fr: 'Découvrez 8 recettes de desserts à l\'airfryer : brownies, muffins, chips de pomme, churros, cookies, banana bread, cinnamon rolls et lava cake. Temps, températures et ingrédients pour des desserts parfaits.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Scopri 8 ricette di dolci nella friggitrice ad aria: brownies, muffin, chips di mela, churros, cookies, banana bread, rotoli alla cannella e lava cake.',
     nl: 'Ontdek 8 airfryer-dessertrecepten: brownies, muffins, appelchips, churros, koekjes, bananenbrood, kaneelbroodjes en lava cake.',
     pl: 'Poznaj 8 przepisów na desery z frytkownicy beztłuszczowej: brownie, muffinki, chipsy jabłkowe, churrosy, ciasteczka, chlebek bananowy, cinnamon rolls i lava cake. Czasy pieczenia, temperatury i składniki, dzięki którym desery wyjdą idealne.',
+    sv: '8 recept på desserter i airfryer: brownies, muffins, äppelchips, churros, cookies, bananbröd, cinnamon rolls och lava cake. Tider, temperaturer och ingredienser för lyckade desserter.',
+    us: 'Eight air fryer dessert recipes: brownies, muffins, apple chips, churros, cookies, banana bread, cinnamon rolls and lava cake, with times, temperatures and ingredients for each.',
+    ca: 'Eight air fryer dessert recipes: brownies, muffins, apple chips, churros, cookies, banana bread, cinnamon rolls and lava cake, with times, temperatures in °C and °F, and ingredients for perfect desserts.',
   },
   content: {
     fr: `<h2>Introduction</h2>
@@ -1394,6 +1403,613 @@ export const article: BlogArticle = {
 <li><strong>Napełniaj foremki najwyżej do ¾</strong> – ciasto rośnie bardziej niż w piekarniku.</li>
 <li><strong>Sprawdzaj stopień upieczenia wykałaczką</strong> – z zewnątrz ciasto może wyglądać na gotowe, choć w środku wciąż jest płynne.</li>
 </ul>`,
+    sv: `<h2>Inledning</h2>
+<p>Airfryern är inte bara till för pommes frites och kyckling – den fungerar också utmärkt för bakning. Tack vare den cirkulerande värmen och det lilla utrymmet gräddar den desserter snabbare än en vanlig ugn, med <strong>nästan ingen förvärmningstid</strong> och ett jämnare resultat. Från kladdiga brownies till krispiga churros: de här 8 recepten visar att airfryern är en riktig tillgång när sötsuget slår till.</p>
+<p>Den största fördelen med att baka i airfryer är att du sparar tid: du behöver inte förvärma ugnen i 15 minuter för en liten efterrätt. Den mindre korgen samlar dessutom värmen, vilket ofta ger ett bättre resultat än ugnen när du bakar små mängder. Använd gärna <a href="/sv/blog/top-10-accessoires-airfryer">formar som passar i airfryern</a> så blir det enklare.</p>
+
+<h2>1. Kladdiga chokladbrownies</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>100 g mörk choklad (70 % kakao), 80 g smör</li>
+<li>100 g strösocker, 2 ägg</li>
+<li>50 g vetemjöl, en nypa salt, 1 tsk vaniljextrakt</li>
+<li>50 g grovhackade valnötter (valfritt)</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Smält choklad och smör i mikron, 30 sekunder i taget, och rör om mellan varje gång (det går också bra i vattenbad).</li>
+<li>Rör ner sockret, sedan äggen ett i taget och till sist vaniljen.</li>
+<li>Sikta ner mjöl och salt och vänd försiktigt ihop. Tillsätt valnötterna om du vill.</li>
+<li>Häll smeten i en smord rund eller fyrkantig form på ca <strong>18 cm</strong> som får plats i din airfryer.</li>
+<li>Grädda på <strong>160 °C i 18–22 minuter</strong> (förvärm gärna airfryern i 3 minuter först). En provsticka ska komma ut med några fuktiga smulor, inte med rinnig smet.</li>
+<li>Låt kakan svalna i formen i <strong>10 minuter</strong> innan du stjälper upp den.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Hemligheten bakom kladdiga brownies är att <strong>inte grädda dem för länge</strong>. Ta ut dem när de fortfarande ser lite lösa ut – eftervärmen fortsätter att grädda dem i formen. Lägg aluminiumfolie över om ytan får färg för fort.</p>
+
+<h2>2. Blåbärsmuffins</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>200 g vetemjöl, 100 g strösocker, 11 g bakpulver, en nypa salt</li>
+<li>1 ägg, 1,2 dl mjölk, 0,6 dl neutral olja, 1 tsk vaniljextrakt</li>
+<li>120 g färska eller frysta blåbär</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Blanda de torra ingredienserna. Vispa ihop de flytande i en annan skål.</li>
+<li>Rör ihop allt <strong>precis så mycket</strong> att det blandas – klumpar är helt i sin ordning, till och med önskvärda.</li>
+<li>Vänd försiktigt ner blåbären. Frysta bär behöver inte tinas först.</li>
+<li>Fyll muffinsformar i silikon till <strong>¾</strong>.</li>
+<li>Grädda på <strong>170 °C i 12–15 minuter</strong> (4–6 muffins åt gången, beroende på airfryerns storlek). En provsticka ska komma ut torr.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Hemligheten bakom luftiga muffins är att <strong>inte arbeta smeten för mycket</strong>. Rör du för mycket utvecklas glutenet, och muffinsen blir sega och gummiaktiga. Vänd blåbären i lite mjöl innan du rör ner dem, så sjunker de inte till botten.</p>
+
+<h2>3. Äppelchips med kanel</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>2 äpplen (Gala, Fuji eller Pink Lady)</li>
+<li>1 tsk kanel, 1 tsk socker (valfritt)</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Kärna ur äpplena och skär dem i <strong>2 mm tunna skivor</strong> med en mandolin.</li>
+<li>Torka skivorna med hushållspapper och strö över kanel och socker.</li>
+<li>Lägg skivorna i <strong>ett enda lager</strong> i korgen, utan att de överlappar varandra.</li>
+<li>Kör på <strong>150 °C i 10–12 minuter</strong> och vänd dem halvvägs.</li>
+<li>Chipsen är mjuka när de är varma – de blir krispiga när de svalnar.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Tjockleken är avgörande: är skivorna för tjocka förblir de mjuka, är de för tunna bränns de. <strong>2 mm</strong> är perfekt. I en lufttät burk i rumstemperatur håller sig chipsen i 3–5 dagar.</p>
+
+<h2>4. Krispiga churros</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>1 ¼ dl vatten, 50 g smör, 1 msk socker, en nypa salt</li>
+<li>75 g vetemjöl, 1 ägg, ½ tsk vaniljextrakt, olja i sprayflaska</li>
+<li><strong>Att rulla i:</strong> 50 g strösocker + 1 tsk kanel</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Koka upp vatten, smör, socker och salt i en kastrull.</li>
+<li>Dra kastrullen från värmen och tillsätt allt mjöl på en gång. Rör kraftigt tills degen blir en slät klump som släpper från kanterna.</li>
+<li>Låt svalna i <strong>5 minuter</strong> och arbeta sedan in ägget och vaniljen tills degen blir slät och blank.</li>
+<li>Spritsa <strong>10 cm</strong> långa stänger på remsor av bakplåtspapper, med spritspåse och stjärntyll.</li>
+<li>Spraya lätt med olja. Lägg churrosen i den förvärmda airfryern, med papperet kvar.</li>
+<li>Grädda på <strong>190 °C i 8–10 minuter</strong> tills de är gyllenbruna.</li>
+<li>Rulla de varma churrosen i kanelsockret.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Churros från airfryern blir mycket mindre flottiga än friterade, men lika krispiga utanpå. Servera med chokladsås (100 g choklad + 0,6 dl varm grädde). Låt vattnet koka ordentligt innan du häller i mjölet, så lyckas degen.</p>
+
+<h2>5. Cookies med chokladbitar</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>100 g rumsvarmt smör, 80 g farinsocker, 30 g strösocker</li>
+<li>1 ägg, 1 tsk vaniljextrakt</li>
+<li>150 g vetemjöl, ½ tsk bikarbonat, en nypa salt</li>
+<li>100 g mörka chokladbitar</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Vispa smör, farinsocker och strösocker pösigt i <strong>3–4 minuter</strong>.</li>
+<li>Tillsätt ägg och vanilj. Rör ner mjöl, bikarbonat och salt och vänd sist ner chokladbitarna.</li>
+<li>Forma <strong>bollar på 30 g</strong> och platta till dem lätt. Lägg 4–5 åt gången på bakplåtspapper, med <strong>3 cm</strong> mellanrum.</li>
+<li>Grädda på <strong>170 °C i 8–10 minuter</strong>. Kanterna ska vara gyllene och mitten mjuk.</li>
+<li>Låt kakorna svalna i <strong>5 minuter</strong> på papperet innan du flyttar dem.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Cookies fortsätter att gräddas medan de svalnar – ta ut dem när mitten fortfarande ser lite ogräddad ut. Ställ degen i kylen i <strong>30 minuter</strong> innan du formar den, så blir resultatet ännu bättre.</p>
+
+<h2>6. Bananbröd</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>3 mycket mogna bananer (ca 300 g), 80 g strösocker, 1 ägg, 0,6 dl neutral olja</li>
+<li>180 g vetemjöl, 1 tsk bikarbonat, en nypa salt, 1 tsk kanel</li>
+<li>50 g grovhackade valnötter (valfritt)</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Mosa bananerna och blanda i socker, ägg och olja.</li>
+<li>Vänd ner mjöl, bikarbonat, salt och kanel. Tillsätt valnötterna.</li>
+<li>Häll smeten i en smord brödform (<strong>20 × 10 cm</strong>) som får plats i din airfryer.</li>
+<li>Grädda på <strong>160 °C i 35–40 minuter</strong>. Lägg folie över efter 20 minuter om ytan får färg för fort.</li>
+<li>En provsticka ska komma ut torr. Låt brödet svalna i formen i <strong>15 minuter</strong>.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Ju mognare bananerna är (svarta, prickiga skal), desto godare och sötare blir brödet – då kan du dra ner sockret till 50 g. Inslaget i plastfolie håller det sig i 4 dagar.</p>
+
+<h2>7. Cinnamon rolls (amerikanska kanelbullar)</h2>
+<h3>Ingredienser</h3>
+<p><strong>Deg:</strong> 250 g vetemjöl, 30 g socker, 7 g torrjäst, ½ tsk salt, 1,2 dl fingervarm mjölk, 30 g smält smör, 1 ägg</p>
+<p><strong>Fyllning:</strong> 50 g rumsvarmt smör, 80 g farinsocker, 2 tsk kanel</p>
+<p><strong>Glasyr:</strong> 100 g färskost (t.ex. Philadelphia), 50 g florsocker, ½ tsk vaniljextrakt</p>
+<h3>Gör så här</h3>
+<ol>
+<li>Blanda mjöl, socker, jäst och salt. Tillsätt mjölk, smör och ägg och knåda i <strong>8–10 minuter</strong>.</li>
+<li>Täck över och låt jäsa på ett varmt ställe i <strong>1 timme</strong>, tills degen har fördubblats.</li>
+<li>Kavla ut degen till en rektangel på <strong>30 × 20 cm</strong>. Bred på smöret och strö över farinsocker och kanel.</li>
+<li>Rulla ihop degen hårt från långsidan och skär den i <strong>8 lika stora bitar</strong>.</li>
+<li>Lägg bitarna i en smord rund form så att de nuddar varandra. Låt jäsa <strong>20 minuter till</strong>.</li>
+<li>Grädda på <strong>170 °C i 12–15 minuter</strong> tills de är gyllenbruna.</li>
+<li>Rör ihop glasyren och bred den över de ljumma bullarna.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Färskostglasyren är kännetecknet för amerikanska cinnamon rolls. Bred på den medan bullarna fortfarande är ljumma, så smälter den lite. Lägg folie över om ytan får färg för snabbt.</p>
+
+<h2>8. Lava cake (chokladfondant med rinnande kärna)</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>100 g mörk choklad (70 %), 80 g smör</li>
+<li>2 hela ägg + 2 äggulor, 60 g strösocker, 30 g vetemjöl</li>
+<li>Smör och kakao till formarna</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Smält choklad och smör tillsammans och låt svalna något.</li>
+<li>Vispa ägg, äggulor och socker i <strong>3 minuter</strong> tills smeten är ljus och skummig.</li>
+<li>Vänd ner chokladsmeten och sikta sedan ner mjölet.</li>
+<li>Smörj 4 portionsformar (ca <strong>8 cm i diameter</strong>) och pudra dem med kakao. Fyll till <strong>¾</strong>.</li>
+<li>Grädda på <strong>190 °C i 8–10 minuter</strong>. Utsidan ska vara fast, men mitten ska dallra när du knackar lätt på formen.</li>
+<li>Låt vila i <strong>1 minut</strong> och stjälp sedan upp på tallrikar.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Tiden är allt – <strong>en minut för länge och kärnan rinner inte längre</strong>: gott, men inte samma sak. Prova med en form först för att lära känna din airfryer. Smeten kan stå i kylen i upp till <strong>24 timmar</strong> – lägg då till 1–2 minuter, eftersom smeten är kall. Servera direkt med vaniljglass.</p>
+
+<h2>Tider och temperaturer i sammandrag</h2>
+<table>
+<thead>
+<tr><th>Dessert</th><th>Temperatur</th><th>Tid</th><th>Form</th></tr>
+</thead>
+<tbody>
+<tr><td>Brownies</td><td>160 °C</td><td>18–22 min</td><td>Rund/fyrkantig, 18 cm</td></tr>
+<tr><td>Blåbärsmuffins</td><td>170 °C</td><td>12–15 min</td><td>Silikonformar</td></tr>
+<tr><td>Äppelchips</td><td>150 °C</td><td>10–12 min</td><td>Direkt i korgen</td></tr>
+<tr><td>Churros</td><td>190 °C</td><td>8–10 min</td><td>Bakplåtspapper</td></tr>
+<tr><td>Cookies</td><td>170 °C</td><td>8–10 min</td><td>Bakplåtspapper</td></tr>
+<tr><td>Bananbröd</td><td>160 °C</td><td>35–40 min</td><td>Brödform, 20 cm</td></tr>
+<tr><td>Cinnamon rolls</td><td>170 °C</td><td>12–15 min</td><td>Smord rund form</td></tr>
+<tr><td>Lava cake</td><td>190 °C</td><td>8–10 min</td><td>Portionsformar, 8 cm</td></tr>
+</tbody>
+</table>
+
+<h2>Allmänna tips för bakning i airfryer</h2>
+<ul>
+<li><strong>Sänk temperaturen med 10–20 °C</strong> jämfört med vanliga ugnsrecept.</li>
+<li><strong>Använd formar som passar</strong> – se till att det är 1 cm fritt runt formen. Läs vår <a href="/sv/blog/top-10-accessoires-airfryer">guide till de bästa tillbehören</a>.</li>
+<li><strong>Täck vid behov</strong> – folie hindrar ytan från att bli för mörk.</li>
+<li><strong>Fyll inte formarna för mycket</strong> – högst till ¾, eftersom smeten jäser.</li>
+</ul>
+<p>Läs vår artikel om <a href="/sv/blog/erreurs-courantes-airfryer">vanliga misstag med airfryer</a>, så slipper du nybörjarmissarna.</p>
+
+<h2>Sammanfattande tabell: tider, temperaturer och kalorier</h2>
+<table>
+<thead><tr><th>Dessert</th><th>Temperatur</th><th>Gräddningstid</th><th>Kalorier (ca per portion)</th><th>Svårighetsgrad</th></tr></thead>
+<tbody>
+<tr><td>Kladdiga brownies</td><td>160 °C</td><td>18–22 min</td><td>ca 285 kcal</td><td>Lätt</td></tr>
+<tr><td>Blåbärsmuffins</td><td>170 °C</td><td>12–15 min</td><td>ca 220 kcal</td><td>Lätt</td></tr>
+<tr><td>Äppelchips</td><td>150 °C</td><td>10–12 min</td><td>ca 45 kcal</td><td>Mycket lätt</td></tr>
+<tr><td>Churros</td><td>190 °C</td><td>8–10 min</td><td>ca 195 kcal</td><td>Medel</td></tr>
+<tr><td>Mjuka cookies</td><td>170 °C</td><td>8–10 min</td><td>ca 140 kcal</td><td>Lätt</td></tr>
+<tr><td>Bananbröd</td><td>160 °C</td><td>35–40 min</td><td>ca 210 kcal</td><td>Lätt</td></tr>
+<tr><td>Cinnamon rolls</td><td>170 °C</td><td>12–15 min</td><td>ca 315 kcal</td><td>Medel</td></tr>
+<tr><td>Lava cake</td><td>190 °C</td><td>8–10 min</td><td>ca 450 kcal</td><td>Medel</td></tr>
+</tbody>
+</table>
+
+<h2>5 tips för perfekta desserter i airfryer</h2>
+<ul>
+<li><strong>Sänk temperaturen med 10–20 °C</strong> jämfört med vanliga ugnsrecept – airfryern värmer intensivare.</li>
+<li><strong>Använd formar som passar</strong> – formar i silikon eller tunn aluminium som lämnar 1 cm fritt runt om, så att luften kan cirkulera.</li>
+<li><strong>Täck vid behov</strong> – ett ark aluminiumfolie ovanpå hindrar ytan från att bli för mörk.</li>
+<li><strong>Fyll formarna högst till ¾</strong> – smeten jäser mer än i en vanlig ugn.</li>
+<li><strong>Kontrollera med en provsticka</strong> – utsidan kan se färdig ut fast insidan fortfarande är rinnig.</li>
+</ul>
+`,
+    us: `<h2>Introduction</h2>
+<p>An air fryer isn't just for fries and chicken — it's also a surprisingly good baking tool. With its circulating hot air and compact cavity, it bakes desserts faster than a regular oven, with <strong>almost no preheat time</strong> and more even results. From fudgy brownies to crispy churros, these eight recipes show what your air fryer can do for your sweet tooth.</p>
+<p>The biggest advantage of baking in an air fryer is the time you save: no waiting 15 minutes for a full-size oven to preheat for one small dessert. For best results, use <a href="/us/blog/top-10-accessoires-airfryer">air fryer-safe baking pans and molds</a>.</p>
+
+<h2>1. Fudgy chocolate brownies</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>3.5 oz (100 g) dark chocolate (70% cacao), 5½ tbsp (80 g) butter</li>
+<li>3.5 oz (100 g) granulated sugar, 2 eggs</li>
+<li>1.8 oz (50 g) all-purpose flour, pinch of salt, 1 teaspoon vanilla extract</li>
+<li>1.8 oz (50 g) chopped walnuts (optional)</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Melt the chocolate and butter in the microwave in 30-second bursts, stirring after each one.</li>
+<li>Stir in the sugar, then the eggs one at a time, then the vanilla.</li>
+<li>Fold in the sifted flour and salt. Add the walnuts, if using.</li>
+<li>Pour into a greased <strong>7-inch (18 cm)</strong> round or square pan that fits your air fryer.</li>
+<li>Bake at <strong>320°F (160°C) for 18 to 22 minutes</strong>. A toothpick should come out with moist crumbs, not wet batter.</li>
+<li>Let cool <strong>10 minutes</strong> in the pan before lifting them out.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>The key to fudgy brownies is <strong>not overbaking</strong>. Pull them when they still look slightly underdone — residual heat keeps cooking them. Tent with foil if the top browns too fast.</p>
+
+<h2>2. Blueberry muffins</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>7 oz (200 g) all-purpose flour, 3.5 oz (100 g) sugar, 2½ teaspoons (11 g) baking powder, pinch of salt</li>
+<li>1 egg, ½ cup (120 ml) milk, ¼ cup (60 ml) vegetable oil, 1 teaspoon vanilla</li>
+<li>4.2 oz (120 g) fresh or frozen blueberries</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Mix the dry ingredients. Whisk the wet ingredients in a separate bowl.</li>
+<li>Stir them together <strong>just until combined</strong> — lumps are fine, even desirable.</li>
+<li>Fold in the blueberries. If they're frozen, add them straight from the freezer.</li>
+<li>Fill silicone muffin cups <strong>¾ full</strong>.</li>
+<li>Bake at <strong>340°F (170°C) for 12 to 15 minutes</strong> (4 to 6 at a time). A toothpick should come out clean.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>The secret to tender muffins is <strong>not overmixing</strong>. Overmixing develops the gluten and makes muffins tough and rubbery. Toss the blueberries in a little flour before folding them in so they don't sink.</p>
+
+<h2>3. Cinnamon apple chips</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>2 apples (Gala, Fuji or Pink Lady)</li>
+<li>1 teaspoon cinnamon, 1 teaspoon sugar (optional)</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Core the apples. Slice them into <strong>1/16-inch (2 mm) rounds</strong> on a mandoline.</li>
+<li>Pat dry with paper towels. Sprinkle with cinnamon and sugar.</li>
+<li>Arrange in a <strong>single layer</strong> with no overlap.</li>
+<li>Air fry at <strong>300°F (150°C) for 10 to 12 minutes</strong>, flipping halfway through.</li>
+<li>The chips will still be soft when hot — they crisp up as they cool.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Slice thickness is everything: too thick and they stay soft, too thin and they burn. <strong>About 1/16 inch (2 mm)</strong> is the sweet spot. They keep 3 to 5 days in an airtight container.</p>
+
+<h2>4. Crispy churros</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>½ cup (125 ml) water, 3½ tbsp (50 g) butter, 1 tablespoon sugar, pinch of salt</li>
+<li>2.6 oz (75 g) all-purpose flour, 1 egg, ½ teaspoon vanilla, cooking spray</li>
+<li><strong>Coating:</strong> 1.8 oz (50 g) sugar + 1 teaspoon cinnamon</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Bring the water, butter, sugar and salt to a full boil.</li>
+<li>Take the pan off the heat and add the flour all at once. Stir hard until a smooth ball of dough forms.</li>
+<li>Let cool <strong>5 minutes</strong>, then beat in the egg and vanilla until smooth and glossy.</li>
+<li>Using a star tip, pipe <strong>4-inch (10 cm)</strong> lengths onto strips of parchment paper.</li>
+<li>Mist with cooking spray. Place in the preheated air fryer, paper and all; the paper will release on its own after 2 to 3 minutes.</li>
+<li>Air fry at <strong>375°F (190°C) for 8 to 10 minutes</strong>, until golden.</li>
+<li>Roll the hot churros in the cinnamon sugar.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Air fryer churros are far less greasy than deep-fried ones but keep the same crispy outside. Serve with a chocolate dipping sauce (3.5 oz/100 g chocolate melted into ¼ cup/60 ml warm heavy cream).</p>
+
+<h2>5. Chocolate chip cookies</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>7 tbsp (100 g) softened butter, 2.8 oz (80 g) brown sugar, 1 oz (30 g) granulated sugar</li>
+<li>1 egg, 1 teaspoon vanilla</li>
+<li>5.3 oz (150 g) all-purpose flour, ½ teaspoon baking soda, pinch of salt</li>
+<li>3.5 oz (100 g) dark chocolate chips</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Cream the butter and both sugars for <strong>3 to 4 minutes</strong>, until light and fluffy.</li>
+<li>Beat in the egg and vanilla. Mix in the flour, baking soda and salt. Fold in the chocolate chips.</li>
+<li>Shape into <strong>1 oz (30 g) balls</strong> (about 2 heaping tablespoons each) and flatten them slightly. Place 4 or 5 on parchment, <strong>1¼ inches (3 cm)</strong> apart.</li>
+<li>Bake at <strong>340°F (170°C) for 8 to 10 minutes</strong>: golden edges, soft center.</li>
+<li>Let cool <strong>5 minutes</strong> on the paper before moving them.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Cookies keep baking as they cool — take them out while the centers still look a little underdone. For even better cookies, chill the dough <strong>30 minutes</strong> before shaping.</p>
+
+<h2>6. Banana bread</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>3 very ripe bananas (10.6 oz/300 g), 2.8 oz (80 g) sugar, 1 egg, ¼ cup (60 ml) vegetable oil</li>
+<li>6.3 oz (180 g) all-purpose flour, 1 teaspoon baking soda, pinch of salt, 1 teaspoon cinnamon</li>
+<li>1.8 oz (50 g) chopped walnuts (optional)</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Mash the bananas. Stir in the sugar, egg and oil.</li>
+<li>Fold in the flour, baking soda, salt and cinnamon. Add the walnuts.</li>
+<li>Pour into a greased <strong>8 x 4-inch (20 x 10 cm)</strong> loaf pan that fits your air fryer.</li>
+<li>Bake at <strong>320°F (160°C) for 35 to 40 minutes</strong>. Tent with foil after 20 minutes if the top browns too fast.</li>
+<li>A toothpick should come out clean. Let cool <strong>15 minutes</strong> in the pan.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>The riper the bananas (black, spotty peels), the sweeter and more flavorful the bread — you can cut the sugar to 1.8 oz (50 g). It keeps 4 days wrapped in plastic wrap.</p>
+
+<h2>7. Cinnamon rolls</h2>
+<h3>Ingredients</h3>
+<p><strong>Dough:</strong> 8.8 oz (250 g) all-purpose flour, 1 oz (30 g) sugar, 1 packet (7 g) instant yeast, ½ teaspoon salt, ½ cup (120 ml) warm milk, 2 tbsp (30 g) melted butter, 1 egg</p>
+<p><strong>Filling:</strong> 3½ tbsp (50 g) softened butter, 2.8 oz (80 g) brown sugar, 2 teaspoons cinnamon</p>
+<p><strong>Frosting:</strong> 3.5 oz (100 g) cream cheese, 1.8 oz (50 g) powdered sugar, ½ teaspoon vanilla</p>
+<h3>Instructions</h3>
+<ol>
+<li>Mix the flour, sugar, yeast and salt. Add the milk, butter and egg. Knead <strong>8 to 10 minutes</strong>.</li>
+<li>Cover and let rise in a warm spot for <strong>1 hour</strong>, until doubled in size.</li>
+<li>Roll out into a <strong>12 x 8-inch (30 x 20 cm)</strong> rectangle. Spread with the butter, then sprinkle with the brown sugar and cinnamon.</li>
+<li>Roll up tightly from the long side and cut into <strong>8 equal slices</strong>.</li>
+<li>Place in a greased round pan (the rolls should touch). Let rise <strong>20 more minutes</strong>.</li>
+<li>Bake at <strong>340°F (170°C) for 12 to 15 minutes</strong>, until golden.</li>
+<li>Mix the frosting ingredients and spread over the warm rolls.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Spread the cream cheese frosting while the rolls are still warm so it melts slightly. Tent with foil if the tops brown too quickly.</p>
+
+<h2>8. Chocolate lava cake</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>3.5 oz (100 g) dark chocolate (70% cacao), 5½ tbsp (80 g) butter</li>
+<li>2 whole eggs + 2 yolks, 2.1 oz (60 g) sugar, 1 oz (30 g) all-purpose flour</li>
+<li>Butter and cocoa powder for the ramekins</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Melt the chocolate and butter together. Let cool slightly.</li>
+<li>Whisk the eggs, yolks and sugar for <strong>3 minutes</strong>, until pale and foamy.</li>
+<li>Fold in the chocolate mixture, then the sifted flour.</li>
+<li>Butter 4 ramekins (<strong>3 inches/8 cm across</strong>) and dust with cocoa. Fill them <strong>¾ full</strong>.</li>
+<li>Bake at <strong>375°F (190°C) for 8 to 10 minutes</strong>. The outside should be set, and the center should jiggle when you tap the ramekin.</li>
+<li>Let rest <strong>1 minute</strong>, then invert onto plates.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Timing is everything — <strong>one minute too long and you get a fudgy chocolate cake, not a lava cake</strong>. Test one ramekin first. You can refrigerate the batter for up to <strong>24 hours</strong>; add 1 to 2 minutes if it goes in cold. Serve right away with vanilla ice cream.</p>
+
+<h2>Temperature and time cheat sheet</h2>
+<table>
+<thead>
+<tr><th>Dessert</th><th>Temperature</th><th>Time</th><th>Pan</th></tr>
+</thead>
+<tbody>
+<tr><td>Brownies</td><td>320°F (160°C)</td><td>18–22 min</td><td>7 in (18 cm) round/square</td></tr>
+<tr><td>Blueberry muffins</td><td>340°F (170°C)</td><td>12–15 min</td><td>Silicone muffin cups</td></tr>
+<tr><td>Apple chips</td><td>300°F (150°C)</td><td>10–12 min</td><td>Straight in the basket</td></tr>
+<tr><td>Churros</td><td>375°F (190°C)</td><td>8–10 min</td><td>Parchment paper</td></tr>
+<tr><td>Cookies</td><td>340°F (170°C)</td><td>8–10 min</td><td>Parchment paper</td></tr>
+<tr><td>Banana bread</td><td>320°F (160°C)</td><td>35–40 min</td><td>8 x 4 in (20 x 10 cm) loaf pan</td></tr>
+<tr><td>Cinnamon rolls</td><td>340°F (170°C)</td><td>12–15 min</td><td>Greased round pan</td></tr>
+<tr><td>Lava cake</td><td>375°F (190°C)</td><td>8–10 min</td><td>3 in (8 cm) ramekins</td></tr>
+</tbody>
+</table>
+
+<h2>General baking tips</h2>
+<ul>
+<li><strong>Lower the temperature by about 20 to 35°F (10 to 20°C)</strong> compared with a conventional oven recipe.</li>
+<li><strong>Use the right pans and molds</strong> — leave about ½ inch (1 cm) of space around the pan. See our <a href="/us/blog/top-10-accessoires-airfryer">best accessories guide</a>.</li>
+<li><strong>Cover if needed</strong> — foil keeps the top from overbrowning.</li>
+<li><strong>Don't overfill</strong> — fill pans and molds no more than ¾ full, since the batter rises.</li>
+</ul>
+<p>To avoid beginner errors, read our article on <a href="/us/blog/erreurs-courantes-airfryer">common air fryer mistakes</a>.</p>
+
+<h2>Summary table: times, temperatures and calories</h2>
+<table>
+<thead><tr><th>Dessert</th><th>Temperature</th><th>Cook time</th><th>Calories (approx. per serving)</th><th>Difficulty</th></tr></thead>
+<tbody>
+<tr><td>Fudgy brownies</td><td>320°F (160°C)</td><td>18–22 min</td><td>~285</td><td>Easy</td></tr>
+<tr><td>Blueberry muffins</td><td>340°F (170°C)</td><td>12–15 min</td><td>~220</td><td>Easy</td></tr>
+<tr><td>Apple chips</td><td>300°F (150°C)</td><td>10–12 min</td><td>~45</td><td>Very easy</td></tr>
+<tr><td>Churros</td><td>375°F (190°C)</td><td>8–10 min</td><td>~195</td><td>Medium</td></tr>
+<tr><td>Chewy cookies</td><td>340°F (170°C)</td><td>8–10 min</td><td>~140</td><td>Easy</td></tr>
+<tr><td>Banana bread</td><td>320°F (160°C)</td><td>35–40 min</td><td>~210</td><td>Easy</td></tr>
+<tr><td>Cinnamon rolls</td><td>340°F (170°C)</td><td>12–15 min</td><td>~315</td><td>Medium</td></tr>
+<tr><td>Lava cake</td><td>375°F (190°C)</td><td>8–10 min</td><td>~450</td><td>Medium</td></tr>
+</tbody>
+</table>
+
+<h2>5 tips for perfect air fryer desserts</h2>
+<ul>
+<li><strong>Lower the temperature by 20 to 35°F (10 to 20°C)</strong> compared with a conventional oven recipe — an air fryer heats more intensely.</li>
+<li><strong>Use the right pans and molds</strong> — silicone or thin aluminum molds that leave ½ inch (1 cm) of space on all sides for airflow.</li>
+<li><strong>Cover if needed</strong> — a sheet of foil laid on top keeps the top from browning too much.</li>
+<li><strong>Fill molds no more than ¾ full</strong> — batters rise more than they do in a conventional oven.</li>
+<li><strong>Test with a toothpick</strong> — the outside can look done while the inside is still runny.</li>
+</ul>`,
+    ca: `<h2>Introduction</h2>
+<p>The air fryer isn't just for fries and chicken — it's also a great little baking tool. Thanks to its circulating hot air and compact cavity, it bakes desserts faster than a regular oven, with <strong>almost no preheating</strong> and more even results. From fudgy brownies to crispy churros, these eight indulgent recipes show that your air fryer can take care of your sweet tooth too.</p>
+<p>The big advantage of baking in an air fryer is the time you save: no need to preheat a full-size oven for 15 minutes for one small dessert. For the best results, use <a href="/ca/blog/top-10-accessoires-airfryer">air fryer-safe pans and moulds</a>.</p>
+
+<h2>1. Fudgy Chocolate Brownies</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>100 g dark chocolate (70% cocoa), 80 g butter</li>
+<li>100 g granulated sugar, 2 eggs</li>
+<li>50 g all-purpose flour, pinch of salt, 1 teaspoon vanilla extract</li>
+<li>50 g chopped walnuts (optional)</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Melt the chocolate and butter in the microwave in 30-second bursts, stirring after each one.</li>
+<li>Stir in the sugar, then the eggs one at a time, then the vanilla.</li>
+<li>Fold in the sifted flour and salt. Add the walnuts if you like.</li>
+<li>Pour into a greased <strong>18 cm (7 in.)</strong> round or square pan that fits your air fryer.</li>
+<li>Bake at <strong>160°C (325°F) for 18 to 22 minutes</strong>. A toothpick should come out with moist crumbs, not wet batter.</li>
+<li>Let cool for <strong>10 minutes</strong> in the pan before turning out.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>The key to fudgy brownies is <strong>not overbaking</strong>. Take them out when they still look slightly underdone — the residual heat keeps cooking them. Cover with foil if the top browns too fast.</p>
+
+<h2>2. Blueberry Muffins</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>200 g all-purpose flour, 100 g sugar, 11 g baking powder (about 2½ teaspoons), pinch of salt</li>
+<li>1 egg, 120 mL (½ cup) milk, 60 mL (¼ cup) vegetable oil, 1 teaspoon vanilla</li>
+<li>120 g fresh or frozen blueberries</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Mix the dry ingredients. Whisk the wet ingredients in a separate bowl.</li>
+<li>Stir them together <strong>just until combined</strong> — lumps are fine, even desirable.</li>
+<li>Fold in the blueberries. If they're frozen, add them without thawing.</li>
+<li>Fill silicone muffin cups <strong>¾ full</strong>.</li>
+<li>Bake at <strong>170°C (340°F) for 12 to 15 minutes</strong> (4 to 6 at a time). A toothpick should come out clean.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>The secret to fluffy muffins is <strong>not overmixing</strong>. Overmixing develops the gluten and makes muffins tough and rubbery. Toss the blueberries in a little flour before folding them in so they don't sink.</p>
+
+<h2>3. Cinnamon Apple Chips</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>2 apples (Gala, Fuji or Pink Lady)</li>
+<li>1 teaspoon cinnamon, 1 teaspoon sugar (optional)</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Core the apples. Slice them into <strong>2 mm rounds</strong> with a mandoline.</li>
+<li>Pat dry with paper towels. Dust with the cinnamon and sugar.</li>
+<li>Arrange in a <strong>single layer</strong> without overlapping.</li>
+<li>Bake at <strong>150°C (300°F) for 10 to 12 minutes</strong>, flipping halfway.</li>
+<li>The chips will be soft when hot — they crisp up as they cool.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Slice thickness is crucial: too thick and they stay soft, too thin and they burn. <strong>2 mm</strong> is ideal. Store in an airtight container for 3 to 5 days.</p>
+
+<h2>4. Crispy Churros</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>125 mL (½ cup) water, 50 g butter, 1 tablespoon sugar, pinch of salt</li>
+<li>75 g all-purpose flour, 1 egg, ½ teaspoon vanilla, cooking spray</li>
+<li><strong>Coating:</strong> 50 g sugar + 1 teaspoon cinnamon</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Bring the water, butter, sugar and salt to a boil.</li>
+<li>Remove from the heat and add the flour all at once. Stir hard until a smooth ball forms.</li>
+<li>Let cool for <strong>5 minutes</strong>, then beat in the egg and vanilla until smooth and glossy.</li>
+<li>Using a star tip, pipe <strong>10 cm (4 in.)</strong> lengths onto strips of parchment paper.</li>
+<li>Spray with oil. Place in the preheated air fryer, paper and all.</li>
+<li>Bake at <strong>190°C (375°F) for 8 to 10 minutes</strong> until golden.</li>
+<li>Roll the hot churros in the cinnamon sugar.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Air fryer churros are far less greasy than deep-fried ones and keep the same crispy outside. Serve with a chocolate dipping sauce: 100 g chocolate melted into 60 mL (¼ cup) warm whipping cream.</p>
+
+<h2>5. Chocolate Chip Cookies</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>100 g softened butter, 80 g brown sugar, 30 g white sugar</li>
+<li>1 egg, 1 teaspoon vanilla</li>
+<li>150 g all-purpose flour, ½ teaspoon baking soda, pinch of salt</li>
+<li>100 g dark chocolate chips</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Cream the butter and sugars for <strong>3 to 4 minutes</strong> until fluffy.</li>
+<li>Add the egg and vanilla. Mix in the flour, baking soda and salt. Fold in the chocolate chips.</li>
+<li>Shape into <strong>30 g balls</strong> and flatten slightly. Place 4 or 5 on parchment paper, <strong>3 cm (1¼ in.)</strong> apart.</li>
+<li>Bake at <strong>170°C (340°F) for 8 to 10 minutes</strong>: golden edges, soft centre.</li>
+<li>Let cool for <strong>5 minutes</strong> on the paper before handling.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Cookies keep baking as they cool — take them out while the centre still looks slightly underdone. Chill the dough for <strong>30 minutes</strong> before shaping for even better results.</p>
+
+<h2>6. Banana Bread</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>3 very ripe bananas (300 g), 80 g sugar, 1 egg, 60 mL (¼ cup) vegetable oil</li>
+<li>180 g all-purpose flour, 1 teaspoon baking soda, pinch of salt, 1 teaspoon cinnamon</li>
+<li>50 g chopped walnuts (optional)</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Mash the bananas. Stir in the sugar, egg and oil.</li>
+<li>Fold in the flour, baking soda, salt and cinnamon. Add the walnuts.</li>
+<li>Pour into a greased loaf pan (<strong>20 x 10 cm / 8 x 4 in.</strong>) that fits your air fryer.</li>
+<li>Bake at <strong>160°C (325°F) for 35 to 40 minutes</strong>. Cover with foil after 20 minutes if the top browns too fast.</li>
+<li>A toothpick must come out clean. Let cool for <strong>15 minutes</strong> in the pan.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>The riper the bananas (skins covered in black spots), the tastier and sweeter the bread — you can cut the sugar to 50 g. It keeps for 4 days wrapped in plastic wrap.</p>
+
+<h2>7. Cinnamon Rolls</h2>
+<h3>Ingredients</h3>
+<p><strong>Dough:</strong> 250 g all-purpose flour, 30 g sugar, 7 g instant yeast (about 2¼ teaspoons), ½ teaspoon salt, 120 mL (½ cup) warm milk, 30 g melted butter, 1 egg</p>
+<p><strong>Filling:</strong> 50 g soft butter, 80 g brown sugar, 2 teaspoons cinnamon</p>
+<p><strong>Glaze:</strong> 100 g cream cheese, 50 g icing sugar, ½ teaspoon vanilla</p>
+<h3>Preparation</h3>
+<ol>
+<li>Mix the flour, sugar, yeast and salt. Add the milk, butter and egg. Knead for <strong>8 to 10 minutes</strong>.</li>
+<li>Cover and let rise in a warm spot for <strong>1 hour</strong>, until doubled in size.</li>
+<li>Roll out into a <strong>30 x 20 cm (12 x 8 in.)</strong> rectangle. Spread with the butter, then sprinkle with the sugar and cinnamon.</li>
+<li>Roll up tightly from the long side and cut into <strong>8 equal slices</strong>.</li>
+<li>Place in a greased round pan (the rolls should touch). Let rise for <strong>20 more minutes</strong>.</li>
+<li>Bake at <strong>170°C (340°F) for 12 to 15 minutes</strong> until golden.</li>
+<li>Mix the glaze ingredients and spread over the warm rolls.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Spread the cream cheese glaze while the rolls are still warm so it melts slightly. Cover with foil if the tops brown too quickly.</p>
+
+<h2>8. Chocolate Lava Cake</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>100 g dark chocolate (70%), 80 g butter</li>
+<li>2 whole eggs + 2 yolks, 60 g sugar, 30 g all-purpose flour</li>
+<li>Butter and cocoa powder for the ramekins</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Melt the chocolate and butter together. Let cool slightly.</li>
+<li>Whisk the eggs, yolks and sugar for <strong>3 minutes</strong> until pale and foamy.</li>
+<li>Fold in the chocolate mixture, then the sifted flour.</li>
+<li>Grease 4 ramekins (<strong>8 cm / 3¼ in. across</strong>) and dust with cocoa. Fill them <strong>¾</strong> full.</li>
+<li>Bake at <strong>190°C (375°F) for 8 to 10 minutes</strong>. The outside should be firm and the centre should wobble when tapped.</li>
+<li>Let rest for <strong>1 minute</strong>, then turn out onto plates.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Timing is everything — <strong>one minute too long and you get a plain chocolate cake, not a molten centre</strong>. Test with one ramekin first. The batter keeps in the fridge for up to <strong>24 hours</strong> — add 1 to 2 minutes if it's cold. Serve right away with vanilla ice cream.</p>
+
+<h2>Temperature and Time Summary</h2>
+<table>
+<thead>
+<tr><th>Dessert</th><th>Temperature</th><th>Time</th><th>Pan</th></tr>
+</thead>
+<tbody>
+<tr><td>Brownies</td><td>160°C (325°F)</td><td>18–22 min</td><td>18 cm (7 in.) round/square</td></tr>
+<tr><td>Blueberry muffins</td><td>170°C (340°F)</td><td>12–15 min</td><td>Silicone muffin cups</td></tr>
+<tr><td>Apple chips</td><td>150°C (300°F)</td><td>10–12 min</td><td>Straight in the basket</td></tr>
+<tr><td>Churros</td><td>190°C (375°F)</td><td>8–10 min</td><td>Parchment paper</td></tr>
+<tr><td>Cookies</td><td>170°C (340°F)</td><td>8–10 min</td><td>Parchment paper</td></tr>
+<tr><td>Banana bread</td><td>160°C (325°F)</td><td>35–40 min</td><td>20 cm (8 in.) loaf pan</td></tr>
+<tr><td>Cinnamon rolls</td><td>170°C (340°F)</td><td>12–15 min</td><td>Greased round pan</td></tr>
+<tr><td>Lava cake</td><td>190°C (375°F)</td><td>8–10 min</td><td>8 cm (3¼ in.) ramekins</td></tr>
+</tbody>
+</table>
+
+<h2>General Baking Tips</h2>
+<ul>
+<li><strong>Lower the temperature by 10 to 20°C (about 20 to 35°F)</strong> compared with regular oven recipes.</li>
+<li><strong>Use the right pans</strong> — leave 1 cm (about ½ in.) of clearance around the pan. See our <a href="/ca/blog/top-10-accessoires-airfryer">best accessories guide</a>.</li>
+<li><strong>Cover if needed</strong> — foil keeps the top from overbrowning.</li>
+<li><strong>Don't overfill</strong> — fill pans ¾ full at most, since the batter rises.</li>
+</ul>
+<p>Read our <a href="/ca/blog/erreurs-courantes-airfryer">common air fryer mistakes</a> article to avoid beginner errors.</p>
+
+<h2>Summary table: times, temperatures and calories</h2>
+<table>
+<thead><tr><th>Dessert</th><th>Temperature</th><th>Baking time</th><th>Calories (approx. per serving)</th><th>Difficulty</th></tr></thead>
+<tbody>
+<tr><td>Fudgy brownies</td><td>160°C (325°F)</td><td>18–22 min</td><td>~285 kcal</td><td>Easy</td></tr>
+<tr><td>Blueberry muffins</td><td>170°C (340°F)</td><td>12–15 min</td><td>~220 kcal</td><td>Easy</td></tr>
+<tr><td>Apple chips</td><td>150°C (300°F)</td><td>10–12 min</td><td>~45 kcal</td><td>Very easy</td></tr>
+<tr><td>Churros</td><td>190°C (375°F)</td><td>8–10 min</td><td>~195 kcal</td><td>Medium</td></tr>
+<tr><td>Soft cookies</td><td>170°C (340°F)</td><td>8–10 min</td><td>~140 kcal</td><td>Easy</td></tr>
+<tr><td>Banana bread</td><td>160°C (325°F)</td><td>35–40 min</td><td>~210 kcal</td><td>Easy</td></tr>
+<tr><td>Cinnamon rolls</td><td>170°C (340°F)</td><td>12–15 min</td><td>~315 kcal</td><td>Medium</td></tr>
+<tr><td>Lava cake</td><td>190°C (375°F)</td><td>8–10 min</td><td>~450 kcal</td><td>Medium</td></tr>
+</tbody>
+</table>
+
+<h2>5 tips for perfect air fryer desserts</h2>
+<ul>
+<li><strong>Lower the temperature by 10 to 20°C (about 20 to 35°F)</strong> compared with regular oven recipes — the air fryer's heat is more intense.</li>
+<li><strong>Use the right pans</strong> — silicone moulds or thin aluminum pans that leave 1 cm (about ½ in.) of clearance on all sides for air circulation.</li>
+<li><strong>Cover if needed</strong> — a sheet of foil on top prevents too much browning.</li>
+<li><strong>Fill pans no more than ¾ full</strong> — batters rise more than in a regular oven.</li>
+<li><strong>Test with a toothpick</strong> — the outside may look done while the inside is still runny.</li>
+</ul>`,
   },
   faq: [
     {
@@ -1405,6 +2021,9 @@ export const article: BlogArticle = {
         it: 'Si possono davvero fare dolci nella friggitrice ad aria?',
         nl: 'Kun je echt gebak maken in een airfryer?',
         pl: 'Czy we frytkownicy beztłuszczowej da się naprawdę piec ciasta?',
+        sv: 'Går det verkligen att baka i en airfryer?',
+        us: 'Can you really bake desserts in an air fryer?',
+        ca: 'Can you really bake in an air fryer?',
       },
       answer: {
         fr: 'Oui, l\'airfryer est un excellent mini-four pour la pâtisserie. Il excelle pour les brownies, muffins, cookies, banana bread et petits gâteaux. La chaleur circulante produit une cuisson uniforme et rapide. Réduisez la température de 10-20°C par rapport aux recettes de four classique et surveillez la cuisson attentivement.',
@@ -1414,6 +2033,9 @@ export const article: BlogArticle = {
         it: 'Sì, la friggitrice ad aria è un eccellente mini forno per la pasticceria. Eccelle con brownies, muffin, cookies, banana bread e piccole torte. Il calore circolante produce una cottura uniforme e rapida. Riduci la temperatura di 10-20°C rispetto alle ricette da forno classiche e monitora attentamente.',
         nl: 'Ja, de airfryer is een uitstekende mini-oven voor gebak. Hij blinkt uit bij brownies, muffins, koekjes, bananenbrood en kleine cakes. De circulerende warmte zorgt voor gelijkmatig en snel bakken. Verlaag de temperatuur 10-20°C ten opzichte van traditionele ovenrecepten en houd het goed in de gaten.',
         pl: 'Tak. Frytkownica beztłuszczowa to świetny minipiekarnik do wypieków. Najlepiej sprawdza się przy brownie, muffinkach, ciasteczkach, chlebku bananowym i małych ciastach. Dzięki krążącemu gorącemu powietrzu ciasto piecze się szybko i równomiernie. Obniż temperaturę o 10–20 °C w porównaniu z przepisem na zwykły piekarnik i uważnie obserwuj ciasto.',
+        sv: 'Ja, airfryern fungerar utmärkt som en liten ugn för bakning. Den passar särskilt bra för brownies, muffins, cookies, bananbröd och små kakor. Den cirkulerande värmen ger en jämn och snabb gräddning. Sänk temperaturen med 10–20 °C jämfört med vanliga ugnsrecept och håll noga koll på gräddningen för bästa resultat.',
+        us: 'Yes. An air fryer works like a mini convection oven, and it\'s great for brownies, muffins, cookies, banana bread and small cakes. The circulating hot air bakes quickly and evenly. Lower the temperature by about 20 to 35°F (10 to 20°C) compared with a regular oven recipe, and keep a close eye on it.',
+        ca: 'Yes, an air fryer works like a small convection oven for baking. It excels at brownies, muffins, cookies, banana bread and small cakes. The circulating hot air bakes quickly and evenly. Lower the temperature by 10 to 20°C (about 20 to 35°F) compared with regular oven recipes and keep a close eye on your baking for the best results.',
       },
     },
     {
@@ -1425,6 +2047,9 @@ export const article: BlogArticle = {
         it: 'Quali stampi usare per i dolci nella friggitrice ad aria?',
         nl: 'Welke vormen gebruik je voor desserts in de airfryer?',
         pl: 'Jakie foremki sprawdzą się do deserów we frytkownicy beztłuszczowej?',
+        sv: 'Vilka formar ska du använda till desserter i airfryer?',
+        us: 'What pans and molds work best for air fryer desserts?',
+        ca: 'What pans should you use for air fryer desserts?',
       },
       answer: {
         fr: 'Privilégiez les moules en silicone résistants jusqu\'à 230°C : ils sont souples, antiadhésifs et faciles à démouler. Les ramequins en céramique conviennent aussi pour les lava cakes et crèmes. Assurez-vous que le moule laisse au moins 1 cm d\'espace autour pour la circulation d\'air. Évitez les moules trop hauts.',
@@ -1434,6 +2059,9 @@ export const article: BlogArticle = {
         it: 'Scegli stampi in silicone resistenti fino a 230°C: sono flessibili, antiaderenti e facili da sformare. I ramequin in ceramica vanno bene per lava cake e creme. Assicurati che lo stampo lasci almeno 1 cm di spazio intorno per la circolazione dell\'aria. Evita stampi troppo alti.',
         nl: 'Kies siliconenvormen bestand tot 230°C: flexibel, antiaanbak en makkelijk los te maken. Keramische ramekins werken ook goed voor lava cakes en crèmes. Zorg dat de vorm minstens 1 cm ruimte overlaat voor luchtcirculatie. Vermijd te hoge vormen voor de mand.',
         pl: 'Najlepiej sprawdzają się foremki silikonowe odporne na temperaturę do 230 °C: są elastyczne, nieprzywierające, a wypieki łatwo z nich wyjąć. Do lava cake i kremów nadają się też ceramiczne kokilki. Zadbaj o to, by wokół foremki zostało co najmniej 1 cm wolnego miejsca na obieg powietrza. Unikaj zbyt wysokich foremek.',
+        sv: 'Välj silikonformar som tål upp till 230 °C: de är böjliga, ingenting fastnar och kakan släpper lätt. Portionsformar i keramik fungerar också bra till lava cake och krämiga efterrätter. Se till att formen lämnar minst 1 cm fritt runt om så att luften kan cirkulera, och undvik formar som är för höga för korgen.',
+        us: 'Go for silicone molds rated to 445°F (230°C): they\'re flexible, nonstick and release easily. Ceramic ramekins also work well for lava cakes and custards. Leave at least ½ inch (1 cm) of space around the mold for airflow, and skip molds that are too tall for the basket.',
+        ca: 'Choose silicone moulds rated to 230°C (450°F): they are flexible, non-stick and release easily. Ceramic ramekins also work well for lava cakes and custards. Make sure the pan leaves at least 1 cm (about ½ in.) of clearance all around for air circulation, and avoid pans that are too tall for the basket.',
       },
     },
     {
@@ -1445,6 +2073,9 @@ export const article: BlogArticle = {
         it: 'Si può fare una vera torta nella friggitrice ad aria?',
         nl: 'Kun je een echte cake bakken in de airfryer?',
         pl: 'Czy we frytkownicy beztłuszczowej można upiec prawdziwe ciasto?',
+        sv: 'Går det att baka en riktig kaka i en airfryer?',
+        us: 'Can you bake a real cake in an air fryer?',
+        ca: 'Can you bake a real cake in an air fryer?',
       },
       answer: {
         fr: 'Oui, pour les gâteaux de petite taille. Un moule rond de 15-18 cm entre dans la plupart des airfryers. Réglez à 160°C et prévoyez 25-35 minutes selon la recette. Couvrez le dessus de papier aluminium si le gâteau dore trop vite. Le résultat est moelleux et bien levé, parfait pour un dessert rapide.',
@@ -1454,6 +2085,9 @@ export const article: BlogArticle = {
         it: 'Sì, per torte di piccole dimensioni. Uno stampo rotondo da 15-18 cm entra nella maggior parte delle friggitrici. Imposta a 160°C e prevedi 25-35 minuti secondo la ricetta. Copri la parte superiore con foglio di alluminio se la torta dora troppo in fretta. Il risultato è morbido e ben lievitato.',
         nl: 'Ja, voor kleine cakes. Een ronde bakvorm van 15-18 cm past in de meeste airfryers. Stel in op 160°C en reken op 25-35 minuten afhankelijk van het recept. Bedek de bovenkant met aluminiumfolie als de cake te snel bruint. Het resultaat is luchtig en goed gerezen, perfect voor een snel dessert.',
         pl: 'Tak, o ile jest niewielkie. Okrągła forma o średnicy 15–18 cm mieści się w większości frytkownic. Ustaw 160 °C i licz się z czasem pieczenia 25–35 minut, zależnie od przepisu. Jeśli wierzch zbyt szybko się rumieni, przykryj go folią aluminiową. Ciasto wychodzi puszyste i dobrze wyrośnięte – idealne na szybki deser.',
+        sv: 'Ja, så länge kakan är liten. En rund form på 15–18 cm får plats i de flesta airfryrar. Ställ in 160 °C och räkna med 25–35 minuter beroende på recept. Lägg aluminiumfolie över om kakan får färg för fort. Kakan blir saftig och reser sig fint – perfekt för en snabb efterrätt utan att du behöver värma upp hela ugnen.',
+        us: 'Yes, as long as it\'s a small one. A 6- to 7-inch (15 to 18 cm) round pan fits in most air fryers. Set it to 320°F (160°C) and plan on 25 to 35 minutes, depending on the recipe. Cover the top with aluminum foil if the cake browns too quickly. It comes out moist and well risen, a perfect quick dessert without heating up a full-size oven.',
+        ca: 'Yes, as long as it\'s a small cake. A 15 to 18 cm (6 to 7 in.) round pan fits in most air fryers. Set it to 160°C (325°F) and allow 25 to 35 minutes, depending on the recipe. Cover the top with aluminum foil if the cake browns too quickly. The result is moist and well risen, perfect for a quick dessert without heating up a full-size oven.',
       },
     },
     {
@@ -1465,6 +2099,9 @@ export const article: BlogArticle = {
         it: 'I cookies vengono bene nella friggitrice ad aria?',
         nl: 'Bakken koekjes goed in de airfryer?',
         pl: 'Czy ciasteczka dobrze się pieką we frytkownicy beztłuszczowej?',
+        sv: 'Blir cookies bra i en airfryer?',
+        us: 'Do cookies bake well in an air fryer?',
+        ca: 'Do cookies bake well in an air fryer?',
       },
       answer: {
         fr: 'Oui, les cookies à l\'airfryer sont même supérieurs au four pour les petites quantités. Réglez à 170°C pendant 8-10 minutes. Utilisez un papier perforé ou un moule en silicone pour éviter que la pâte ne coule. Espacez les cookies de 3 cm minimum. Ils sont croustillants à l\'extérieur et moelleux au centre.',
@@ -1474,6 +2111,9 @@ export const article: BlogArticle = {
         it: 'Sì, i cookies nella friggitrice ad aria sono anche migliori del forno per piccole quantità. Imposta a 170°C per 8-10 minuti. Usa un foglio perforato o un tappetino in silicone per evitare che l\'impasto coli. Distanzia i cookies di almeno 3 cm. Risultano croccanti fuori e morbidi dentro.',
         nl: 'Ja, koekjes uit de airfryer zijn voor kleine hoeveelheden zelfs beter dan uit de oven. Stel in op 170°C voor 8-10 minuten. Gebruik een geperforeerd vel of siliconenmat om te voorkomen dat deeg erdoor druipt. Houd minstens 3 cm afstand. Ze worden krokant van buiten en zacht van binnen.',
         pl: 'Tak – przy małych porcjach ciasteczka z frytkownicy wychodzą nawet lepiej niż z piekarnika. Ustaw 170 °C na 8–10 minut. Użyj perforowanego papieru do pieczenia lub formy silikonowej, żeby ciasto się nie rozlewało. Zostaw między ciasteczkami co najmniej 3 cm odstępu. Wychodzą chrupiące z zewnątrz i miękkie w środku.',
+        sv: 'Ja, för små satser blir cookies i airfryer till och med bättre än i ugnen. Ställ in 170 °C i 8–10 minuter. Använd perforerat bakplåtspapper eller en silikonmatta så att degen inte rinner igenom, och lägg kakorna minst 3 cm från varandra. De blir krispiga utanpå och mjuka och sega i mitten.',
+        us: 'Yes, and for small batches they often turn out better than in the oven. Set the air fryer to 340°F (170°C) for 8 to 10 minutes. Use a perforated parchment liner or a silicone mat so the dough doesn\'t drip through. Space the cookies at least 1¼ inches (3 cm) apart. They come out crisp at the edges and chewy in the center.',
+        ca: 'Yes, for small batches, air fryer cookies are even better than oven-baked ones. Set it to 170°C (340°F) for 8 to 10 minutes. Use a perforated liner or silicone mat so the dough doesn\'t drip through. Space the cookies at least 3 cm (1¼ in.) apart. They come out crisp on the outside and chewy in the centre.',
       },
     },
     {
@@ -1485,6 +2125,9 @@ export const article: BlogArticle = {
         it: 'A quale temperatura cuocere i dolci nella friggitrice ad aria?',
         nl: 'Op welke temperatuur bak je desserts in de airfryer?',
         pl: 'W jakiej temperaturze piec desery we frytkownicy beztłuszczowej?',
+        sv: 'Vilken temperatur ska du baka desserter på i en airfryer?',
+        us: 'What temperature should you bake desserts at in an air fryer?',
+        ca: 'What temperature should you bake desserts at in an air fryer?',
       },
       answer: {
         fr: 'La plage idéale est de 150 à 170°C pour la plupart des desserts. Les brownies et le banana bread cuisent à 160°C, les muffins, cookies et cinnamon rolls à 170°C, tandis que les churros et les lava cakes demandent 190°C. Réduisez toujours de 10-20°C par rapport au four traditionnel car l\'airfryer concentre la chaleur dans un espace réduit et cuit plus rapidement.',
@@ -1494,6 +2137,9 @@ export const article: BlogArticle = {
         it: 'L\'intervallo ideale è 150-170°C per la maggior parte dei dolci. Brownies e banana bread a 160°C, muffin, cookies e rotoli alla cannella a 170°C, churros e lava cake a 190°C. Riduci sempre di 10-20°C rispetto al forno tradizionale perché la friggitrice concentra il calore in uno spazio ridotto e cuoce più velocemente.',
         nl: 'Het ideale bereik is 150 tot 170°C voor de meeste desserts. Brownies en bananenbrood op 160°C, muffins, koekjes en kaneelbroodjes op 170°C, churros en lava cakes op 190°C. Verlaag altijd 10-20°C ten opzichte van de traditionele oven omdat de airfryer warmte in een kleinere ruimte concentreert en sneller bakt.',
         pl: 'Dla większości deserów idealny zakres to 150–170 °C. Brownie i chlebek bananowy piecze się w 160 °C, muffinki, ciasteczka i cinnamon rolls w 170 °C, a churrosy i lava cake wymagają 190 °C. Zawsze obniżaj temperaturę o 10–20 °C w porównaniu z tradycyjnym piekarnikiem, bo frytkownica skupia ciepło w małej komorze i piecze szybciej.',
+        sv: 'För de flesta desserter ligger det bästa spannet på 150–170 °C. Brownies och bananbröd gräddas på 160 °C, muffins, cookies och cinnamon rolls på 170 °C, medan churros och lava cake behöver 190 °C. Sänk alltid med 10–20 °C jämfört med en vanlig ugn, eftersom airfryern samlar värmen i ett mindre utrymme och gräddar snabbare.',
+        us: 'Most desserts bake best between 300 and 340°F (150 to 170°C). Brownies and banana bread bake at 320°F (160°C); muffins, cookies and cinnamon rolls at 340°F (170°C); churros and lava cakes need 375°F (190°C). Always go about 20 to 35°F (10 to 20°C) lower than a conventional oven recipe, because an air fryer concentrates the heat in a small space and bakes faster.',
+        ca: 'The ideal range is 150 to 170°C (300 to 340°F) for most desserts. Brownies and banana bread bake at 160°C (325°F); muffins, cookies and cinnamon rolls at 170°C (340°F); churros and lava cakes need 190°C (375°F). Always lower the temperature by 10 to 20°C (about 20 to 35°F) compared with a regular oven, because the air fryer concentrates the heat in a smaller space and bakes faster.',
       },
     },
   ],

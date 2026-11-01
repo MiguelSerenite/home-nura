@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Tende bianche leggere su binario a soffitto attraversate dalla luce del mattino',
         nl: 'Witte vitrages aan een plafondrail met ochtendzon die erdoorheen schijnt',
         pl: 'Białe firany na szynie sufitowej, przez które przebija poranne światło',
+        sv: 'Vita, skira gardiner på en takskena med morgonljus som silar in',
+        us: 'White sheer curtains on a ceiling track with morning sunlight shining through',
+        ca: 'White sheer curtains on a ceiling track with morning sunlight shining through',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Tende Motorizzate Smart 2026: Robot, Binari e Tende a Rullo a Confronto',
     nl: 'Slimme Gordijnen 2026: Gordijnrobots, Rails en Rolgordijnen Vergeleken',
     pl: 'Inteligentne zasłony z napędem 2026: porównanie robotów, szyn i rolet',
+    sv: 'Smarta gardiner 2026: gardinmotorer, skenor och rullgardiner jämförda',
+    us: 'Best Smart Curtains of 2026: Curtain Robots, Tracks and Shades Compared',
+    ca: 'Best Smart Curtains 2026: Curtain Openers, Tracks and Blinds Compared',
   },
   excerpt: {
     fr: 'SwitchBot Curtain 3, Aqara Curtain Driver E1, Somfy Glydea Ultra 35, Aqara Roller Shade Driver E1, stores IKEA et Eve MotionBlinds : quel système choisir selon votre tringle ou votre rail, le poids des rideaux, la batterie et Matter.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'SwitchBot Curtain 3, Aqara Curtain Driver E1, Somfy Glydea Ultra 35, Aqara Roller Shade Driver E1, tende IKEA ed Eve MotionBlinds: quale sistema scegliere in base a bastone o binario, peso delle tende, batteria e Matter.',
     nl: 'SwitchBot Curtain 3, Aqara Curtain Driver E1, Somfy Glydea Ultra 35, Aqara Roller Shade Driver E1, IKEA-rolgordijnen en Eve MotionBlinds: welk systeem past bij uw roede of rail, gordijngewicht, batterij en Matter?',
     pl: 'SwitchBot Curtain 3, Aqara Curtain Driver E1, Somfy Glydea Ultra 35, Aqara Roller Shade Driver E1, rolety IKEA i Eve MotionBlinds: jaki system wybrać? Liczy się rodzaj karnisza lub szyny, ciężar zasłon, zasilanie bateryjne i obsługa standardu Matter.',
+    sv: 'SwitchBot Curtain 3, Aqara Curtain Driver E1, Somfy Glydea Ultra 35, Aqara Roller Shade Driver E1, rullgardiner från IKEA och Eve MotionBlinds: vilket system ska du välja utifrån gardinstång eller skena, gardinernas vikt, batteri och Matter?',
+    us: 'SwitchBot Curtain 3, Aqara Curtain Driver E1, Somfy Glydea Ultra 35, Aqara Roller Shade Driver E1, IKEA smart blinds and Eve MotionBlinds: how to pick the right system for your rod or track, curtain weight, battery life and Matter.',
+    ca: 'SwitchBot Curtain 3, Aqara Curtain Driver E1, Somfy Glydea Ultra 35, Aqara Roller Shade Driver E1, IKEA blinds and Eve MotionBlinds: which system to choose for your rod or track, curtain weight, battery and Matter.',
   },
   content: {
     fr: `<p>Pour motoriser des rideaux existants sans travaux, le <strong>SwitchBot Curtain 3</strong> est le choix le plus polyvalent en 2026 : il se pose en quelques minutes sur une tringle, un rail en U ou un rail en I, et devient compatible Matter avec un hub SwitchBot. Si votre maison fonctionne déjà en Zigbee, l'<strong>Aqara Curtain Driver E1</strong> est l'alternative la plus abordable, tandis que l'<strong>Eve MotionBlinds Upgrade Kit</strong> rend un store enrouleur existant compatible Matter over Thread.</p>
@@ -606,6 +615,246 @@ export const article: BlogArticle = {
 
 <h2>Nasz werdykt</h2>
 <p>W zdecydowanej większości domów najlepszym punktem wyjścia jest <strong>SwitchBot Curtain 3</strong>: pasuje do wszystkich trzech rodzajów zawieszenia, pracuje cicho, długo działa na akumulatorze, a z hubem obsługuje Matter. <strong>Aqara Curtain Driver E1</strong> to oczywisty wybór, jeśli korzystasz już z Zigbee. Do rolet zwijanych <strong>Eve MotionBlinds Upgrade Kit</strong> zapewnia najlepiej dopracowaną integrację z Matter, <strong>Aqara Roller Shade Driver E1</strong> pozwala zachować rolety na łańcuszek, a rolety <strong>IKEA</strong> to najprostszy sposób, by wyposażyć okna od zera. Do ciężkich zasłon albo przy remoncie najtrwalszym rozwiązaniem pozostaje <strong>Somfy Glydea Ultra 35</strong>. Wszystkie te produkty znajdziesz w kategorii <a href="/pl/confort-air/rideaux-automatises">automatyczne zasłony</a>.</p>`,
+    sv: `<p>Vill du motorisera dina befintliga gardiner utan att bygga om är <strong>SwitchBot Curtain 3</strong> det mest mångsidiga valet 2026: den monteras på några minuter på en gardinstång, en U-skena eller en I-skena och blir kompatibel med Matter tillsammans med en SwitchBot-hubb. Bygger ditt hem redan på Zigbee är <strong>Aqara Curtain Driver E1</strong> det mest budgetvänliga alternativet, medan <strong>Eve MotionBlinds Upgrade Kit</strong> gör en befintlig rullgardin kompatibel med Matter via Thread.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, oberoende utvärderingar publicerade i fackpressen och verifierade köparomdömen. Här går vi igenom de tre huvudtyperna av lösningar, det som verkligen spelar roll (typ av stång eller skena, gardinens vikt, strömförsörjning, protokoll) och vilka modeller vi rekommenderar för olika bostäder. Alla modeller hittar du på vår sida om <a href="/sv/confort-air/rideaux-automatises">motoriserade gardiner</a>.</p>
+
+<h2>Tre sätt att motorisera fönstren</h2>
+<p><strong>Eftermonterade gardinmotorer</strong> hakas fast på den befintliga stången eller i skenan och drar gardinen åt dig. Ingen borrning och ingen fast elanslutning: den perfekta lösningen om du hyr. SwitchBot Curtain 3 och Aqara Curtain Driver E1 hör till den här kategorin.</p>
+<p><strong>Motoriserade gardinskenor</strong> ersätter stången med en skena som har en inbyggd motor och drivs med 230 V. De syns mindre, är starkare och tystare och passar tunga gardiner och stora fönsterpartier, men kräver noggrann montering. Somfy Glydea Ultra 35 är referensmodellen, och Somfy har även serien Movelite 35 för lätta till medeltunga gardiner.</p>
+<p><strong>Smarta rull-, plissé- och cellgardiner</strong> har antingen en inbyggd batteridriven motor eller kan motoriseras i efterhand med en rörmotor eller en motor som drar i kulkedjan. Hit hör IKEA:s gardiner PRAKTLYSING, TREDANSEN och KADRILJ, Eve MotionBlinds Upgrade Kit och Aqara Roller Shade Driver E1. Har fönstren utvändiga rulljalusier är det i stället vår <a href="/sv/blog/volets-roulants-connectes-guide">guide till smarta rulljalusier</a> du ska läsa.</p>
+
+<h2>De viktigaste köpkriterierna</h2>
+<h3>Stång, U-skena eller I-skena: kontrollera innan du köper</h3>
+<p>Här görs det vanligaste misstaget. Eftermonterade gardinmotorer finns i flera versioner som inte är utbytbara. En <strong>gardinstång</strong> är rund, och gardinen hänger i ringar eller maljer som glider längs den. En <strong>U-skena</strong> är en profil som är öppen nedåt, med glidare som löper inuti. En <strong>I-skena</strong> (eller T-skena) har en mittdel där hjulen rullar på båda sidor. SwitchBot Curtain 3 finns i alla tre versionerna. Aqara Curtain Driver E1 finns i en version för stång (Rod) och en för skena (Track), och den senare passar både U- och I-skenor. Fota skenans profil och jämför den med tillverkarens skisser innan du beställer.</p>
+<h3>Gardinens vikt och längd</h3>
+<p>En fodrad mörkläggningsgardin kan väga flera kilo per gardinlängd. SwitchBot anger upp till 15 kg för Curtain 3 och Aqara upp till 12 kg för E1, värden som förutsätter att gardinen glider lätt. Är gardinen tyngre än så, eller kärvar den, får motorn det tungt. Motoriserade skenor spelar i en annan liga: enligt Somfy klarar Glydea Ultra 35 upp till 35 kg och skenor på upp till 10 m.</p>
+<h3>Batteri, sladd eller solpanel</h3>
+<p>Gardinmotorerna drivs med laddningsbara batterier: upp till 8 månader enligt tillverkaren för SwitchBot Curtain 3 och upp till 12 månader för Aqara E1, beroende på hur de används. Båda kan också sitta inkopplade permanent via USB-C. <strong>SwitchBot Solar Panel 3</strong>, som säljs separat, fästs på fönsterrutan och håller Curtain 3 laddad hela tiden (versionerna för stång och U-skena). Motoriserade skenor är däremot fast anslutna till elnätet: ingen laddning, men en fast installation.</p>
+<h3>Protokoll, hubb och Matter</h3>
+<p>SwitchBot Curtain 3 styrs via Bluetooth från mobilen. En SwitchBot-hubb som Hub 2 ger fjärrstyrning, röstassistenter och stöd för Matter. Aqaras produkter använder Zigbee 3.0 och behöver en Aqara-hubb, som kan göra dem tillgängliga i Matter. IKEA:s gardiner går via hubben DIRIGERA, som fungerar som Matter-brygga mot Apple Home, Google Home eller Alexa. Eve MotionBlinds använder Thread och Matter direkt. Vill du förstå standarderna bättre kan du läsa vår <a href="/sv/blog/maison-connectee-matter-thread-2026">guide till Matter och Thread</a>.</p>
+<h3>Ljudnivå och att vakna med dagsljus</h3>
+<p>I sovrummet är det viktigt att motorn är tyst: SwitchBot Curtain 3 har ett tyst läge, QuietDrift, som anges ligga under 25 dB, och Glydea Ultra 35 ett tyst läge på 38 dB. Att låta gardinerna öppnas vid soluppgången, eller när väckarklockan ringer, är en av de mest uppskattade funktionerna: dagsljuset släpps in gradvis och gör det lättare att vakna. Aqara Curtain Driver E1 har en inbyggd ljussensor, medan SwitchBot har placerat sensorn i solpanelen. En väckarklocka med ljus är ett bra komplement till motoriserade gardiner: se vår <a href="/sv/blog/reveil-lumiere-simulateur-aube-comparatif">jämförelse av väckarklockor med ljus</a>.</p>
+
+<h2>De bästa motoriserade gardinerna och smarta rullgardinerna 2026</h2>
+<h3>SwitchBot Curtain 3: den mest mångsidiga gardinmotorn</h3>
+<p><strong>Styrkor:</strong> tre versioner (stång, U-skena, I-skena), en motor som enligt tillverkaren är dubbelt så stark som föregående generation och klarar upp till 15 kg, läget QuietDrift under 25 dB, batteri på 3 350 mAh, solpanel som tillval och Matter via hubb. Utvärderingar i fackpressen lyfter fram att den är enklare att montera och går tystare än Curtain 2.</p>
+<p><strong>Svagheter:</strong> utan hubb sker styrningen bara lokalt via Bluetooth; en gardin som delas i mitten kräver en enhet per gardinlängd; solpanelen är inte avsedd för versionen för I-skena.</p>
+<p><strong>Bäst för:</strong> hyresgäster och alla som snabbt vill automatisera befintliga gardiner, oavsett hur de hänger.</p>
+
+<h3>Aqara Curtain Driver E1: mest prisvärd med Zigbee</h3>
+<p><strong>Styrkor:</strong> versioner för stång och skena, batteri på 6 000 mAh som anges räcka i upp till 12 månader, kan drivas permanent via USB-C, inbyggd ljussensor och klarar upp till 12 kg. Fungerar med Apple Home, Alexa, Google Home och Home Assistant via en Aqara-hubb.</p>
+<p><strong>Svagheter:</strong> kräver en Zigbee-hubb från Aqara; större än en SwitchBot; lägre maxlast.</p>
+<p><strong>Bäst för:</strong> hem som redan har en Aqara-hubb eller ett Zigbee-nätverk och vill ha en gardinmotor med lång batteritid till ett rimligt pris.</p>
+
+<h3>Somfy Glydea Ultra 35: den motoriserade skenan i premiumklassen</h3>
+<p><strong>Styrkor:</strong> aluminiumskena med inbyggd motor, upp till 35 kg gardin och 10 m skena enligt Somfy, tyst läge på 38 dB, motorn kan sitta till vänster eller höger och skenan kan monteras infälld i taket. Versionerna med RTS-radio styrs med en fjärrkontroll från Somfy eller med TaHoma-boxen. En enda motor drar en gardin med två längder.</p>
+<p><strong>Svagheter:</strong> kräver 230 V och montering, helst av en installatör; en måttanpassad lösning som passar dåligt i en hyresbostad.</p>
+<p><strong>Bäst för:</strong> renovering, nybygge, stora glaspartier och tunga gardiner, när du vill ha en hållbar installation som inte syns.</p>
+
+<h3>Aqara Roller Shade Driver E1: för rullgardiner med kulkedja</h3>
+<p><strong>Styrkor:</strong> motoriserar en befintlig rullgardin med kulkedja (kulor på 3–6 mm i plast eller metall, adaptrar medföljer) utan kablar: den skruvas fast i väggen och går på sitt laddningsbara batteri eller sitter inkopplad via USB-C. Favoritlägen kan sparas.</p>
+<p><strong>Svagheter:</strong> kräver en Aqara-hubb; fungerar bara med kedjedrivna rullgardiner; enheten syns på väggen.</p>
+<p><strong>Bäst för:</strong> dig som redan har rullgardiner med kulkedja och inte vill byta ut dem.</p>
+
+<h3>IKEA PRAKTLYSING, TREDANSEN och KADRILJ: färdiga smarta gardiner</h3>
+<p><strong>Styrkor:</strong> trådlösa gardiner i standardstorlekar med laddningsbart batteri. PRAKTLYSING är en ljusfiltrerande cellgardin, TREDANSEN den mörkläggande versionen och KADRILJ en ljusfiltrerande rullgardin. De styrs med fjärrkontroll eller via hubben DIRIGERA och appen IKEA Home smart, och fungerar med Apple Home, Google Home och Alexa tack vare Matter-bryggan.</p>
+<p><strong>Svagheter:</strong> Zigbee-protokoll, och hubben DIRIGERA behövs för de smarta funktionerna; begränsat urval av storlekar och färger; säljs främst av IKEA.</p>
+<p><strong>Bäst för:</strong> sovrum och hemmakontor som ska få nya gardiner utan att budgeten skenar.</p>
+
+<h3>Eve MotionBlinds Upgrade Kit: Matter via Thread för rullgardiner</h3>
+<p><strong>Styrkor:</strong> en batteridriven motor som skjuts in i röret på en befintlig rullgardin. En version för smala rör passar ytterdiametrar på 25–30 mm (minsta bredd 57 cm). Inbyggt stöd för Thread och Matter utan tillverkarspecifik brygga, och batteritid på upp till ett år enligt tillverkaren. På iPhone lägger Eve-appen till funktionen Adaptive Shading, som anpassar rullgardinen efter solens läge.</p>
+<p><strong>Svagheter:</strong> kräver en Matter-styrenhet med Thread Border Router (gränsrouter för Thread), till exempel HomePod mini, en nyare Apple TV eller vissa Nest- och Echo-enheter; rullgardinen måste monteras ned; kontrollera att ditt rör är kompatibelt.</p>
+<p><strong>Bäst för:</strong> dig som använder Apple Home och Matter och vill ha ett lokalt, snabbt och framtidssäkert system.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Passar till</th><th>Viktigaste data</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>SwitchBot Curtain 3</td><td>Eftermonterad motor</td><td>Stång, U-skena, I-skena</td><td>Upp till 15 kg, solpanel som tillval</td><td>Bluetooth, Matter via hubb</td><td>Hyresbostad, mångsidighet</td></tr>
+<tr><td>Aqara Curtain Driver E1</td><td>Eftermonterad motor</td><td>Stång eller skena (U/I)</td><td>Upp till 12 kg, batteri 6 000 mAh</td><td>Zigbee 3.0, Matter via hubb</td><td>Aqaras ekosystem</td></tr>
+<tr><td>Somfy Glydea Ultra 35</td><td>Motoriserad skena</td><td>Somfy-skena medföljer</td><td>Upp till 35 kg, 10 m skena</td><td>RTS, trådbunden, potentialfri kontakt</td><td>Tunga gardiner, stora fönster</td></tr>
+<tr><td>Aqara Roller Shade Driver E1</td><td>Motor för kulkedja</td><td>Rullgardiner med kulkedja 3–6 mm</td><td>Inga kablar, USB-C</td><td>Zigbee 3.0, Matter via hubb</td><td>Befintliga rullgardiner med kedja</td></tr>
+<tr><td>IKEA TREDANSEN / PRAKTLYSING / KADRILJ</td><td>Smart gardin</td><td>IKEA:s standardstorlekar</td><td>Laddningsbart batteri</td><td>Zigbee, Matter via DIRIGERA</td><td>Nya gardiner, liten budget</td></tr>
+<tr><td>Eve MotionBlinds Upgrade Kit</td><td>Rörmotor</td><td>Rullgardiner (kompatibelt rör)</td><td>Upp till 1 års batteritid</td><td>Thread, inbyggt Matter</td><td>Apple Home, Matter</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att beställa fel version</strong>: versionerna för stång och skena är inte utbytbara. Mät och fota din upphängning.</li>
+<li><strong>Att underskatta vikten</strong>: en fodrad mörkläggningsgardin på en stång som kärvar tömmer batteriet och får motorn att stanna. Smörj skenan eller byt ut ringar som tar emot.</li>
+<li><strong>Att glömma hubben</strong>: utan hubb går de flesta gardinmotorer bara att styra på nära håll, utan automationer på distans och utan röststyrning.</li>
+<li><strong>En motor till två gardinlängder</strong>: till en gardin som delas i mitten behöver du två motorer som parkopplas med varandra.</li>
+<li><strong>Att inte tänka på utrymmet</strong>: motorn tar några centimeter extra i änden av gardinen, så kontrollera att den inte slår i en vägg eller en gardinhållare.</li>
+</ul>
+
+<h2>Installation, användning och säkerhet</h2>
+<p>Eftermonterade gardinmotorer och batteridrivna rullgardiner monteras utan specialverktyg. Ladda dem med en godkänd USB-laddare och följ tillverkarens anvisningar. Motoriserade skenor som drivs med 230 V ska anslutas enligt gällande regler för elinstallationer: låt en behörig elektriker sköta anslutningen om du inte har utbildning för det. Snören och kedjor på rullgardiner innebär strypningsrisk för små barn: håll dem sträckta, fästa i väggen enligt bruksanvisningen och utom räckhåll. I vardagen kan du kombinera öppning vid soluppgången, stängning vid solnedgången och en ”borta”-scen som öppnar och stänger gardinerna så att det ser ut som att någon är hemma. På sommaren hjälper det också att dra för gardinerna på solsidan under de varmaste timmarna, så att det inte blir lika varmt inne.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta hushåll är <strong>SwitchBot Curtain 3</strong> den bästa utgångspunkten: den passar alla tre typerna av upphängning, är tyst, har lång batteritid och kan användas med Matter via en hubb. <strong>Aqara Curtain Driver E1</strong> är det självklara valet om du redan använder Zigbee. För rullgardiner ger <strong>Eve MotionBlinds Upgrade Kit</strong> den smidigaste Matter-integrationen, <strong>Aqara Roller Shade Driver E1</strong> ger rullgardiner med kulkedja nytt liv, och gardinerna från <strong>IKEA</strong> är fortfarande det enklaste alternativet om du ska köpa nya. För tunga gardiner eller ett renoveringsprojekt är slutligen <strong>Somfy Glydea Ultra 35</strong> den mest hållbara lösningen. Alla produkterna hittar du på vår sida om <a href="/sv/confort-air/rideaux-automatises">motoriserade gardiner</a>.</p>`,
+    us: `<p>If you want to motorize the curtains you already have without drilling or wiring, the <strong>SwitchBot Curtain 3</strong> is the most versatile choice in 2026: it installs in minutes on a curtain rod, a U-rail or an I-rail, and becomes Matter-compatible once you add a SwitchBot hub. If your home already runs on Zigbee, the <strong>Aqara Curtain Driver E1</strong> is the most affordable alternative, while the <strong>Eve MotionBlinds Upgrade Kit</strong> turns an existing roller shade into a Matter-over-Thread device.</p>
+<p>We based this comparison on manufacturer specs, independent reviews from specialist outlets and verified owner feedback. Below you'll find the three main ways to automate a window, the criteria that actually matter (rod or track type, curtain weight, power source, protocol) and our picks for each kind of home. Every model is listed in our <a href="/us/confort-air/rideaux-automatises">smart curtains</a> section.</p>
+
+<h2>Three ways to motorize your windows</h2>
+<p><strong>Retrofit curtain robots</strong> clip onto your existing rod or slide into your track and pull the curtain open and closed. No drilling, no wiring: it's the ideal setup for renters. The SwitchBot Curtain 3 and the Aqara Curtain Driver E1 fall into this category.</p>
+<p><strong>Motorized tracks</strong> replace your rod with a track that has a built-in motor that runs on household power (the European versions use 230 V). They're more discreet, stronger and quieter, so they suit heavy curtains and wide windows, but they need a careful install. The Somfy Glydea Ultra 35 is the benchmark; Somfy also makes the Movelite 35 lineup for light to medium curtains.</p>
+<p><strong>Smart shades and blinds</strong> (roller, pleated, cellular) either come with a battery-powered motor built in or can be motorized later with a tubular motor or a bead-chain driver. That covers the IKEA PRAKTLYSING, TREDANSEN and KADRILJ blinds, the Eve MotionBlinds Upgrade Kit and the Aqara Roller Shade Driver E1. If your windows have exterior rolling shutters, see our <a href="/us/blog/volets-roulants-connectes-guide">smart rolling shutters guide</a> instead.</p>
+
+<h2>What to look for</h2>
+<h3>Rod, U-rail or I-rail: check before you buy</h3>
+<p>This is the most common mistake. Retrofit robots come in several versions, and they aren't interchangeable. A <strong>rod</strong> is a round pole with rings or grommets that slide along it. A <strong>U-rail</strong> is a channel that's open at the bottom, with gliders running inside it. An <strong>I-rail</strong> (or T-rail) has a center spine with gliders rolling along either side. The SwitchBot Curtain 3 comes in all three versions; the Aqara Curtain Driver E1 comes in a Rod version and a Track version, which covers both U- and I-rails. Snap a photo of your track profile and compare it with the manufacturer's diagrams before you order.</p>
+<h3>Curtain weight and length</h3>
+<p>A lined blackout curtain can weigh 5 lb or more per panel. SwitchBot rates the Curtain 3 for up to 33 lb (15 kg) and Aqara rates the E1 for up to 26 lb (12 kg), figures reached on smooth-running hardware. Go heavier, or let the curtain drag, and the robot struggles. Motorized tracks are in a different league: according to Somfy, the Glydea Ultra 35 handles up to 77 lb (35 kg) of curtain on tracks up to 33 ft (10 m) long.</p>
+<h3>Battery, hardwired or solar</h3>
+<p>Curtain robots run on rechargeable batteries: SwitchBot claims up to 8 months for the Curtain 3 and Aqara up to 12 months for the E1, depending on use. Both can also stay plugged in over USB-C. The <strong>SwitchBot Solar Panel 3</strong>, sold separately, sticks to the window glass and keeps the Curtain 3 topped up (Rod and U-rail versions). Motorized tracks are wired to household power instead: you never recharge anything, but the installation is permanent.</p>
+<h3>Protocol, hub and Matter</h3>
+<p>You control the SwitchBot Curtain 3 over Bluetooth from your phone; adding a SwitchBot hub such as the Hub 2 brings remote access, voice assistants and Matter compatibility. Aqara products use Zigbee 3.0 and need an Aqara hub, which can expose them to Matter. IKEA blinds connect through the DIRIGERA hub, which acts as a Matter bridge to Apple Home, Google Home or Alexa. Eve MotionBlinds speaks Thread and Matter directly. For a primer on these standards, read our <a href="/us/blog/maison-connectee-matter-thread-2026">Matter and Thread guide</a>.</p>
+<h3>Noise and waking up to daylight</h3>
+<p>In a bedroom, quiet matters: the SwitchBot Curtain 3 has a QuietDrift mode rated below 25 dB, and the Glydea Ultra 35 a quiet mode at 38 dB. Scheduling the curtains to open at sunrise, or when your alarm goes off, is one of the most popular automations: natural light comes in gradually and makes it easier to get up. The Aqara Curtain Driver E1 has a built-in light sensor; with SwitchBot, the sensor is in the solar panel. If you like the idea, our <a href="/us/blog/reveil-lumiere-simulateur-aube-comparatif">sunrise alarm clock comparison</a> pairs well with motorized curtains.</p>
+
+<h2>The best smart curtains and smart blinds of 2026</h2>
+<h3>SwitchBot Curtain 3: the most versatile curtain robot</h3>
+<p><strong>Pros:</strong> three versions (rod, U-rail, I-rail), a motor SwitchBot says is twice as strong as the previous generation, loads up to 33 lb (15 kg), QuietDrift mode below 25 dB, a 3,350 mAh battery, an optional solar panel, Matter via a hub. Independent reviews praise an easier install and quieter operation than the Curtain 2.</p>
+<p><strong>Cons:</strong> without a hub, control stays local over Bluetooth; center-opening curtains need one unit per panel; the solar panel isn't designed for the I-rail version.</p>
+<p><strong>Best for:</strong> renters and anyone who wants to automate existing curtains fast, whatever the hanging hardware.</p>
+
+<h3>Aqara Curtain Driver E1: best value for Zigbee homes</h3>
+<p><strong>Pros:</strong> Rod and Track versions, a 6,000 mAh battery rated for up to 12 months, optional always-on USB-C power, a built-in light sensor, loads up to 26 lb (12 kg). Works with Apple Home, Alexa, Google Home and Home Assistant through an Aqara hub.</p>
+<p><strong>Cons:</strong> you can't skip the Aqara Zigbee hub; bulkier than a SwitchBot; lower maximum load.</p>
+<p><strong>Best for:</strong> homes that already have an Aqara hub or a Zigbee network and want a long-lasting robot at a reasonable price.</p>
+
+<h3>Somfy Glydea Ultra 35: the premium motorized track</h3>
+<p><strong>Pros:</strong> an aluminum track with a built-in motor, up to 77 lb (35 kg) of curtain and 33 ft (10 m) of track according to Somfy, a quiet mode at 38 dB, and a motor that can sit on the left or right and be recessed into the ceiling. RTS radio versions work with a Somfy remote or the TaHoma hub. A single motor drives a two-panel curtain.</p>
+<p><strong>Cons:</strong> needs household power (230 V on the European versions) and a proper install, ideally by a pro; it's a custom-sized setup that isn't a good fit for renters.</p>
+<p><strong>Best for:</strong> remodels, new construction, large picture windows or sliding glass doors and heavy curtains, when you want a durable, invisible installation.</p>
+
+<h3>Aqara Roller Shade Driver E1: for bead-chain shades</h3>
+<p><strong>Pros:</strong> motorizes an existing roller shade with a bead chain (beads 1/8 to 1/4 in, or 3 to 6 mm, plastic or metal, adapters included) with no wiring: it screws to the wall and runs on its rechargeable battery or stays plugged in over USB-C. You can save favorite positions.</p>
+<p><strong>Cons:</strong> requires an Aqara hub; works with bead-chain shades only; the unit stays visible on the wall.</p>
+<p><strong>Best for:</strong> anyone who already has chain-operated shades and doesn't want to replace them.</p>
+
+<h3>IKEA PRAKTLYSING, TREDANSEN and KADRILJ: ready-made smart blinds</h3>
+<p><strong>Pros:</strong> cordless blinds with rechargeable batteries in standard sizes. PRAKTLYSING is a light-filtering cellular blind, TREDANSEN is its blackout version and KADRILJ is a light-filtering roller blind. Control them with the included remote or through the DIRIGERA hub and the IKEA Home smart app, with Apple Home, Google Home and Alexa support thanks to the Matter bridge.</p>
+<p><strong>Cons:</strong> Zigbee protocol, so smart features require the DIRIGERA hub; limited sizes and colors; sold mainly by IKEA.</p>
+<p><strong>Best for:</strong> bedrooms and home offices that need new blinds on a modest budget.</p>
+
+<h3>Eve MotionBlinds Upgrade Kit: Matter over Thread for roller shades</h3>
+<p><strong>Pros:</strong> a battery-powered motor that slides into the tube of an existing roller shade; a small-tube version fits outer diameters of 1 to 1.2 in (25–30 mm), with a minimum shade width of 22.4 in (57 cm). Native Thread and Matter with no proprietary bridge, and battery life rated at up to a year. On iPhone, the Eve app adds Adaptive Shading based on the sun's position.</p>
+<p><strong>Cons:</strong> needs a Matter controller with a Thread border router (HomePod mini, a recent Apple TV, some Nest or Echo devices); you have to take the shade down to install it; check that your tube is compatible.</p>
+<p><strong>Best for:</strong> Apple Home and Matter users who want a local, responsive, future-proof system.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Fits</th><th>Key spec</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>SwitchBot Curtain 3</td><td>Retrofit robot</td><td>Rod, U-rail, I-rail</td><td>Up to 33 lb (15 kg), optional solar panel</td><td>Bluetooth, Matter via hub</td><td>Renters, versatility</td></tr>
+<tr><td>Aqara Curtain Driver E1</td><td>Retrofit robot</td><td>Rod or track (U/I)</td><td>Up to 26 lb (12 kg), 6,000 mAh battery</td><td>Zigbee 3.0, Matter via hub</td><td>Aqara ecosystem</td></tr>
+<tr><td>Somfy Glydea Ultra 35</td><td>Motorized track</td><td>Somfy track included</td><td>Up to 77 lb (35 kg), 33 ft (10 m) track</td><td>RTS, wired, dry contact</td><td>Heavy curtains, wide windows</td></tr>
+<tr><td>Aqara Roller Shade Driver E1</td><td>Bead-chain driver</td><td>Bead-chain shades, 1/8–1/4 in (3–6 mm)</td><td>No wiring, USB-C</td><td>Zigbee 3.0, Matter via hub</td><td>Existing chain shades</td></tr>
+<tr><td>IKEA TREDANSEN / PRAKTLYSING / KADRILJ</td><td>Smart blind</td><td>IKEA standard sizes</td><td>Rechargeable battery</td><td>Zigbee, Matter via DIRIGERA</td><td>New blinds, tight budget</td></tr>
+<tr><td>Eve MotionBlinds Upgrade Kit</td><td>Tubular motor</td><td>Roller shades (compatible tube)</td><td>Up to 1 year of battery life</td><td>Thread, native Matter</td><td>Apple Home, Matter</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Ordering the wrong version</strong>: rod and track versions aren't interchangeable. Measure and photograph your hanging hardware first.</li>
+<li><strong>Underestimating weight</strong>: a lined blackout curtain on a rod that snags drains the battery and stalls the motor. Lubricate the track or replace rings that drag.</li>
+<li><strong>Forgetting the hub</strong>: without one, most robots can only be controlled up close, with no remote automations or voice control.</li>
+<li><strong>One robot for two panels</strong>: for a center-opening curtain, plan on two paired robots.</li>
+<li><strong>Ignoring clearance</strong>: a robot adds a few inches at the end of the curtain, so make sure it won't bump into a wall or a bracket.</li>
+</ul>
+
+<h2>Installation, everyday use and safety</h2>
+<p>Retrofit robots and battery-powered blinds go up without special tools. Charge them with a certified USB charger and follow the manufacturer's instructions. Hardwired motorized tracks should be connected by a licensed electrician; check your local building code and whether a permit is needed. Window covering cords and bead chains are a strangulation hazard for young children: keep them taut, anchored to the wall as the instructions describe and out of reach. Day to day, combine opening at sunrise, closing at sunset and an "away" scene that opens and closes the curtains so the house looks lived in. In summer, closing the curtains on the sunny side of the house during the hottest part of the day also keeps rooms cooler.</p>
+
+<h2>The bottom line</h2>
+<p>For most homes, the <strong>SwitchBot Curtain 3</strong> is the best place to start: it fits all three types of hanging hardware and it's quiet, long-lasting and ready for Matter with a hub. The <strong>Aqara Curtain Driver E1</strong> is the obvious pick if you already use Zigbee. For roller shades, the <strong>Eve MotionBlinds Upgrade Kit</strong> offers the cleanest Matter integration, the <strong>Aqara Roller Shade Driver E1</strong> brings bead-chain shades into the smart home and the <strong>IKEA</strong> blinds remain the simplest way to start from scratch. Finally, for heavy curtains or a remodel, the <strong>Somfy Glydea Ultra 35</strong> is the most durable solution. You'll find all of these products in our <a href="/us/confort-air/rideaux-automatises">smart curtains</a> section.</p>`,
+    ca: `<p>To motorize existing curtains without any renovation work, the <strong>SwitchBot Curtain 3</strong> is the most versatile choice in 2026: it installs in minutes on a rod, a U-rail or an I-rail, and becomes Matter-compatible with a SwitchBot hub. If your home already runs on Zigbee, the <strong>Aqara Curtain Driver E1</strong> is the most affordable alternative, while the <strong>Eve MotionBlinds Upgrade Kit</strong> turns an existing roller blind into a Matter-over-Thread device.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews published by specialist outlets and verified buyer feedback. You'll find the three main types of solutions, the criteria that really matter (rod or track type, curtain weight, power source, protocol) and our recommendations for each type of home. All models are grouped in our <a href="/ca/confort-air/rideaux-automatises">smart curtains</a> section.</p>
+
+<h2>Three ways to motorize your windows</h2>
+<p><strong>Retrofit robots</strong> clip onto your existing rod or into your track and pull the curtain. No drilling, no wiring: the ideal solution for renters. The SwitchBot Curtain 3 and the Aqara Curtain Driver E1 belong to this category.</p>
+<p><strong>Motorized tracks</strong> replace your rod with a track that has a built-in motor wired to household power. More discreet, stronger and quieter, they suit heavy curtains and large windows, but they need careful installation. The Somfy Glydea Ultra 35 is the benchmark; Somfy also offers the Movelite 35 range for light to medium curtains.</p>
+<p><strong>Smart blinds</strong> (roller, pleated, cellular) either have a built-in battery motor or can be motorized later with a tubular motor or a chain driver. This covers the IKEA PRAKTLYSING, TREDANSEN and KADRILJ blinds, the Eve MotionBlinds Upgrade Kit and the Aqara Roller Shade Driver E1. For windows with exterior roller shutters, see our <a href="/ca/blog/volets-roulants-connectes-guide">smart roller shutter guide</a> instead.</p>
+
+<h2>Key buying criteria</h2>
+<h3>Rod, U-rail or I-rail: check before you buy</h3>
+<p>This is the most common mistake. Retrofit robots come in several versions that are not interchangeable. A <strong>rod</strong> is a round pole with rings or grommets sliding along it. A <strong>U-rail</strong> is a channel open at the bottom, with runners travelling inside it. An <strong>I-rail</strong> (or T-rail) has a central web with runners rolling on either side. The SwitchBot Curtain 3 comes in all three versions; the Aqara Curtain Driver E1 comes in a Rod version and a Track version, the latter covering U- and I-rails. Take a photo of your track profile and compare it with the manufacturer's diagrams before you order.</p>
+<h3>Curtain weight and length</h3>
+<p>A lined blackout curtain can weigh several kilograms per panel. SwitchBot quotes up to 15 kg (33 lb) for the Curtain 3 and Aqara up to 12 kg (26 lb) for the E1, figures achieved with smooth-running hardware. Beyond that, or if the curtain drags, the robot struggles. Motorized tracks play in another league: according to Somfy, the Glydea Ultra 35 handles up to 35 kg (77 lb) of curtain and tracks up to 10 m (about 33 ft) long.</p>
+<h3>Battery, wired or solar panel</h3>
+<p>Robots run on rechargeable batteries: up to 8 months claimed for the SwitchBot Curtain 3 and up to 12 months for the Aqara E1, depending on use. Both can also stay plugged in via USB-C. The <strong>SwitchBot Solar Panel 3</strong>, sold separately, sticks to the window and keeps the Curtain 3 charged (Rod and U-rail versions). Motorized tracks are hardwired: no recharging, but a permanent installation.</p>
+<h3>Protocol, hub and Matter</h3>
+<p>The SwitchBot Curtain 3 is controlled over Bluetooth from your phone; a SwitchBot hub such as the Hub 2 adds remote control, voice assistants and Matter compatibility. Aqara products use Zigbee 3.0 and need an Aqara hub, which can expose them to Matter. IKEA blinds go through the DIRIGERA hub, which acts as a Matter bridge to Apple Home, Google Home or Alexa. Eve MotionBlinds uses Thread and Matter directly. To understand these standards, read our <a href="/ca/blog/maison-connectee-matter-thread-2026">Matter and Thread guide</a>.</p>
+<h3>Noise and waking up with light</h3>
+<p>In a bedroom, quiet matters: the SwitchBot Curtain 3 offers a QuietDrift mode rated below 25 dB, and the Glydea Ultra 35 a silent mode at 38 dB. Scheduled opening at sunrise, or at your alarm time, is one of the most popular uses: natural light comes in gradually and makes waking up easier. The Aqara Curtain Driver E1 has a built-in light sensor; with SwitchBot, the sensor sits in the solar panel. To take it further, our <a href="/ca/blog/reveil-lumiere-simulateur-aube-comparatif">sunrise alarm clock comparison</a> pairs well with motorized curtains.</p>
+
+<h2>The best motorized curtains and smart blinds in 2026</h2>
+<h3>SwitchBot Curtain 3: the most versatile robot</h3>
+<p><strong>Strengths:</strong> three versions (rod, U-rail, I-rail), a motor claimed to be twice as strong as the previous generation with loads up to 15 kg, QuietDrift mode below 25 dB, 3,350 mAh battery, optional solar panel, Matter via hub. Specialist reviews praise easier installation and quieter running than the Curtain 2.</p>
+<p><strong>Limitations:</strong> without a hub, control stays local over Bluetooth; you need one unit per panel for centre-opening curtains; the solar panel is not designed for the I-rail version.</p>
+<p><strong>Best for:</strong> renters and anyone who wants to automate existing curtains quickly, whatever the hanging system.</p>
+
+<h3>Aqara Curtain Driver E1: best value on Zigbee</h3>
+<p><strong>Strengths:</strong> Rod and Track versions, 6,000 mAh battery rated up to 12 months, optional permanent USB-C power, built-in light sensor, loads up to 12 kg. Works with Apple Home, Alexa, Google Home and Home Assistant via an Aqara hub.</p>
+<p><strong>Limitations:</strong> an Aqara Zigbee hub is a must; bulkier than a SwitchBot; lower maximum load.</p>
+<p><strong>Best for:</strong> homes that already have an Aqara hub or a Zigbee network and want a long-lasting robot at a reasonable price.</p>
+
+<h3>Somfy Glydea Ultra 35: the premium motorized track</h3>
+<p><strong>Strengths:</strong> aluminum track with built-in motor, up to 35 kg of curtain and 10 m of track according to Somfy, silent mode at 38 dB, motor that mounts on the left or right and can be recessed into the ceiling. RTS radio versions work with a Somfy remote or the TaHoma hub. A single motor drives a two-panel curtain.</p>
+<p><strong>Limitations:</strong> needs a hardwired 230 V connection, ideally installed by a professional; made to measure, so a poor fit for rentals.</p>
+<p><strong>Best for:</strong> renovations, new construction, large windows and patio doors, and heavy curtains, for a durable, invisible installation.</p>
+
+<h3>Aqara Roller Shade Driver E1: for chain-operated blinds</h3>
+<p><strong>Strengths:</strong> motorizes an existing bead-chain roller blind (3 to 6 mm beads, plastic or metal, adapters included) with no wiring: it screws to the wall and runs on its rechargeable battery or stays plugged in via USB-C. Favourite positions can be saved.</p>
+<p><strong>Limitations:</strong> Aqara hub required; chain-operated blinds only; the unit stays visible on the wall.</p>
+<p><strong>Best for:</strong> people who already own chain blinds and don't want to replace them.</p>
+
+<h3>IKEA PRAKTLYSING, TREDANSEN and KADRILJ: ready-made smart blinds</h3>
+<p><strong>Strengths:</strong> wireless blinds with rechargeable batteries in standard sizes. PRAKTLYSING is a light-filtering cellular blind, TREDANSEN its blackout version, KADRILJ a light-filtering roller blind. Controlled by remote or via the DIRIGERA hub and the IKEA Home smart app, with Apple Home, Google Home and Alexa thanks to the Matter bridge.</p>
+<p><strong>Limitations:</strong> Zigbee protocol, DIRIGERA hub needed for smart features; limited sizes and colours; sold mainly by IKEA.</p>
+<p><strong>Best for:</strong> bedrooms and home offices that need new blinds on a modest budget.</p>
+
+<h3>Eve MotionBlinds Upgrade Kit: Matter over Thread for roller blinds</h3>
+<p><strong>Strengths:</strong> a battery motor that slides into the tube of an existing roller blind; a small-tube version accepts outer diameters of 25 to 30 mm (minimum width 57 cm, or about 22 in.). Native Thread and Matter with no proprietary bridge, battery life rated up to a year. On iPhone, the Eve app adds Adaptive Shading based on the sun's position.</p>
+<p><strong>Limitations:</strong> needs a Matter controller with a Thread border router (HomePod mini, recent Apple TV, some Nest or Echo devices); the blind has to come down; check your tube compatibility.</p>
+<p><strong>Best for:</strong> Apple Home and Matter users who want a local, responsive and future-proof system.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Compatibility</th><th>Key spec</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>SwitchBot Curtain 3</td><td>Retrofit robot</td><td>Rod, U-rail, I-rail</td><td>Up to 15 kg, optional solar panel</td><td>Bluetooth, Matter via hub</td><td>Renters, versatility</td></tr>
+<tr><td>Aqara Curtain Driver E1</td><td>Retrofit robot</td><td>Rod or track (U/I)</td><td>Up to 12 kg, 6,000 mAh battery</td><td>Zigbee 3.0, Matter via hub</td><td>Aqara ecosystem</td></tr>
+<tr><td>Somfy Glydea Ultra 35</td><td>Motorized track</td><td>Somfy track supplied</td><td>Up to 35 kg, 10 m track</td><td>RTS, wired, dry contact</td><td>Heavy curtains, large windows</td></tr>
+<tr><td>Aqara Roller Shade Driver E1</td><td>Chain driver</td><td>Bead-chain blinds 3–6 mm</td><td>No wiring, USB-C</td><td>Zigbee 3.0, Matter via hub</td><td>Existing chain blinds</td></tr>
+<tr><td>IKEA TREDANSEN / PRAKTLYSING / KADRILJ</td><td>Smart blind</td><td>IKEA standard sizes</td><td>Rechargeable battery</td><td>Zigbee, Matter via DIRIGERA</td><td>New blinds, tight budget</td></tr>
+<tr><td>Eve MotionBlinds Upgrade Kit</td><td>Tubular motor</td><td>Roller blinds (compatible tube)</td><td>Up to 1 year battery</td><td>Thread, native Matter</td><td>Apple Home, Matter</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Ordering the wrong version</strong>: rod and track versions are not interchangeable. Measure and photograph your hanging system.</li>
+<li><strong>Underestimating weight</strong>: a lined blackout curtain on a rod that snags drains the battery and stalls the motor. Lubricate the track or replace rings that drag.</li>
+<li><strong>Forgetting the hub</strong>: without one, most robots can only be controlled up close, with no remote automation or voice control.</li>
+<li><strong>One robot for two panels</strong>: for a centre-opening curtain, plan for two paired robots.</li>
+<li><strong>Ignoring available space</strong>: a robot adds a few centimetres (an inch or two) at the end of the curtain; make sure it does not hit a wall or bracket.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<p>Retrofit robots and battery blinds install without special tools. Charge them with a certified USB charger (look for a recognized certification mark such as CSA, cUL or cETL) and follow the manufacturer's instructions. Hardwired motorized tracks must be connected according to the electrical rules where you live, which are set by each province and territory: if you are not qualified, hire a licensed electrician for the connection. Blind cords and chains pose a strangulation risk for young children: keep them taut, fastened to the wall as instructed and out of reach. Day to day, combine opening at sunrise, closing at sunset and an "away" scene that opens and closes the curtains to make the home look occupied. In summer, closing sun-facing curtains during the hottest hours also helps limit heat build-up.</p>
+
+<h2>Our verdict</h2>
+<p>For most households, the <strong>SwitchBot Curtain 3</strong> is the best starting point: compatible with all three hanging types, quiet, long-lasting and open to Matter with a hub. The <strong>Aqara Curtain Driver E1</strong> is the obvious pick if you already use Zigbee. For roller blinds, the <strong>Eve MotionBlinds Upgrade Kit</strong> offers the cleanest Matter integration, the <strong>Aqara Roller Shade Driver E1</strong> rescues chain blinds and the <strong>IKEA</strong> blinds remain the simplest way to start from scratch. Finally, for heavy curtains or a renovation project, the <strong>Somfy Glydea Ultra 35</strong> is the most durable solution. Find all these products in our <a href="/ca/confort-air/rideaux-automatises">smart curtains</a> section.</p>`,
   },
   faq: [
     {
@@ -617,6 +866,9 @@ export const article: BlogArticle = {
         it: "Si possono motorizzare le tende esistenti senza lavori?",
         nl: "Kan ik mijn bestaande gordijnen zonder verbouwing motoriseren?",
         pl: "Czy można zautomatyzować obecne zasłony bez remontu?",
+        sv: "Går det att motorisera befintliga gardiner utan att bygga om?",
+        us: "Can I motorize my existing curtains without drilling or wiring?",
+        ca: "Can I motorize my existing curtains without any renovation work?",
       },
       answer: {
         fr: "Oui. Les robots à poser comme le SwitchBot Curtain 3 ou l'Aqara Curtain Driver E1 s'accrochent sur la tringle ou dans le rail existant, sans perçage ni câblage, et fonctionnent sur batterie. Il suffit de choisir la version adaptée à votre système (tringle, rail en U ou rail en I).",
@@ -626,6 +878,9 @@ export const article: BlogArticle = {
         it: "Sì. I robot da applicare come lo SwitchBot Curtain 3 o l'Aqara Curtain Driver E1 si agganciano al bastone o al binario esistente senza fori né cavi e funzionano a batteria. Basta scegliere la versione adatta al proprio sistema (bastone, binario a U o binario a I).",
         nl: "Ja. Opzetrobots zoals de SwitchBot Curtain 3 of de Aqara Curtain Driver E1 worden zonder boren of bekabeling op de bestaande roede of rail geplaatst en werken op een batterij. U hoeft alleen de juiste versie voor uw systeem te kiezen (roede, U-rail of I-rail).",
         pl: "Tak. Nakładane roboty do zasłon, takie jak SwitchBot Curtain 3 czy Aqara Curtain Driver E1, zaczepia się na karniszu lub w szynie, które już masz – bez wiercenia i prowadzenia przewodów. Działają na akumulatorze. Wystarczy wybrać wersję pasującą do Twojego systemu (karnisz, szyna typu U lub typu I).",
+        sv: "Ja. Eftermonterade gardinmotorer som SwitchBot Curtain 3 eller Aqara Curtain Driver E1 hakas fast på den befintliga stången eller i skenan, utan borrning eller kablar, och drivs med batteri. Du behöver bara välja den version som passar din upphängning (stång, U-skena eller I-skena).",
+        us: "Yes. Retrofit robots such as the SwitchBot Curtain 3 or the Aqara Curtain Driver E1 attach to your existing rod or track with no drilling or wiring and run on batteries. Just pick the version that matches your hardware (rod, U-rail or I-rail).",
+        ca: "Yes. Retrofit robots such as the SwitchBot Curtain 3 or the Aqara Curtain Driver E1 attach to your existing rod or track with no drilling or wiring and run on batteries. You just need to choose the version that matches your system (rod, U-rail or I-rail).",
       },
     },
     {
@@ -637,6 +892,9 @@ export const article: BlogArticle = {
         it: "Quanto dura la batteria di un robot per tende?",
         nl: "Hoe lang gaat de batterij van een gordijnrobot mee?",
         pl: "Jak długo działa akumulator robota do zasłon?",
+        sv: "Hur länge räcker batteriet i en gardinmotor?",
+        us: "How long does a curtain robot's battery last?",
+        ca: "How long does the battery of a curtain robot last?",
       },
       answer: {
         fr: "Selon les fabricants, comptez jusqu'à 8 mois pour le SwitchBot Curtain 3 et jusqu'à 12 mois pour l'Aqara Curtain Driver E1, avec une à deux ouvertures par jour. Un rideau lourd ou qui frotte réduit nettement l'autonomie. Le panneau solaire SwitchBot ou une alimentation USB-C permanente évitent les recharges.",
@@ -646,6 +904,9 @@ export const article: BlogArticle = {
         it: "Secondo i produttori, fino a 8 mesi per lo SwitchBot Curtain 3 e fino a 12 mesi per l'Aqara Curtain Driver E1, con una o due aperture al giorno. Una tenda pesante o che fa attrito riduce sensibilmente l'autonomia. Il pannello solare SwitchBot o un'alimentazione USB-C permanente evitano le ricariche.",
         nl: "Volgens de fabrikanten tot 8 maanden voor de SwitchBot Curtain 3 en tot 12 maanden voor de Aqara Curtain Driver E1, bij een of twee bewegingen per dag. Een zwaar of haperend gordijn verkort de batterijduur flink. Het SwitchBot-zonnepaneel of permanente USB-C-voeding maakt opladen overbodig.",
         pl: "Według producentów do 8 miesięcy w przypadku SwitchBot Curtain 3 i do 12 miesięcy w przypadku Aqara Curtain Driver E1 – przy jednym lub dwóch cyklach otwierania dziennie. Ciężka zasłona albo taka, która się ociera, wyraźnie skraca ten czas. Ładowania można uniknąć dzięki panelowi słonecznemu SwitchBot lub stałemu zasilaniu przez USB-C.",
+        sv: "Enligt tillverkarna kan du räkna med upp till 8 månader för SwitchBot Curtain 3 och upp till 12 månader för Aqara Curtain Driver E1, med en till två öppningar om dagen. En tung gardin eller en gardin som kärvar ger klart kortare batteritid. Med solpanelen från SwitchBot eller permanent ström via USB-C slipper du ladda.",
+        us: "According to the manufacturers, expect up to 8 months for the SwitchBot Curtain 3 and up to 12 months for the Aqara Curtain Driver E1, with one or two open-and-close cycles a day. A heavy curtain, or one that drags, cuts battery life noticeably. The SwitchBot solar panel or always-on USB-C power means you never have to recharge.",
+        ca: "According to the manufacturers, expect up to 8 months for the SwitchBot Curtain 3 and up to 12 months for the Aqara Curtain Driver E1, with one or two cycles a day. A heavy or dragging curtain shortens battery life noticeably. The SwitchBot solar panel or permanent USB-C power removes the need to recharge.",
       },
     },
     {
@@ -657,6 +918,9 @@ export const article: BlogArticle = {
         it: "Serve un hub per comandare una tenda smart?",
         nl: "Heb ik een hub nodig om slimme gordijnen te bedienen?",
         pl: "Czy do sterowania inteligentną zasłoną potrzebny jest hub?",
+        sv: "Behövs en hubb för att styra smarta gardiner?",
+        us: "Do I need a hub to control smart curtains?",
+        ca: "Do I need a hub to control smart curtains?",
       },
       answer: {
         fr: "Souvent, oui. Le SwitchBot Curtain 3 fonctionne en Bluetooth sans hub, mais le Hub 2 est nécessaire pour le contrôle à distance, la voix et Matter. Les produits Aqara exigent un hub Zigbee Aqara, les stores IKEA le hub DIRIGERA. L'Eve MotionBlinds n'a pas de hub propriétaire mais requiert un routeur de bordure Thread.",
@@ -666,6 +930,9 @@ export const article: BlogArticle = {
         it: "Di solito sì. Lo SwitchBot Curtain 3 funziona via Bluetooth senza hub, ma l'Hub 2 serve per il controllo remoto, la voce e Matter. I prodotti Aqara richiedono un hub Zigbee Aqara, le tende IKEA l'hub DIRIGERA. Eve MotionBlinds non ha un hub proprietario ma richiede un border router Thread.",
         nl: "Meestal wel. De SwitchBot Curtain 3 werkt via Bluetooth zonder hub, maar de Hub 2 is nodig voor bediening op afstand, spraak en Matter. Aqara-producten vereisen een Aqara Zigbee-hub en IKEA-raambekleding de DIRIGERA-hub. Eve MotionBlinds heeft geen eigen hub, maar vraagt een Thread-borderrouter.",
         pl: "W większości przypadków tak. SwitchBot Curtain 3 działa przez Bluetooth bez huba, ale do sterowania zdalnego i głosowego oraz obsługi Matter potrzebny jest Hub 2. Urządzenia Aqara wymagają huba Zigbee Aqara, a rolety IKEA – huba DIRIGERA. Eve MotionBlinds nie potrzebuje huba producenta, ale wymaga routera brzegowego Thread.",
+        sv: "Oftast, ja. SwitchBot Curtain 3 fungerar via Bluetooth utan hubb, men Hub 2 krävs för fjärrstyrning, röststyrning och Matter. Aqaras produkter kräver en Zigbee-hubb från Aqara och IKEA:s gardiner hubben DIRIGERA. Eve MotionBlinds har ingen egen hubb men kräver en Thread Border Router (gränsrouter för Thread).",
+        us: "Usually, yes. The SwitchBot Curtain 3 works over Bluetooth without a hub, but the Hub 2 is needed for remote control, voice and Matter. Aqara products require an Aqara Zigbee hub and IKEA blinds the DIRIGERA hub. Eve MotionBlinds has no proprietary hub but needs a Thread border router.",
+        ca: "Usually, yes. The SwitchBot Curtain 3 works over Bluetooth without a hub, but the Hub 2 is needed for remote control, voice and Matter. Aqara products require an Aqara Zigbee hub and IKEA blinds the DIRIGERA hub. Eve MotionBlinds has no proprietary hub but needs a Thread border router.",
       },
     },
     {
@@ -677,6 +944,9 @@ export const article: BlogArticle = {
         it: "Un robot per tende riesce a muovere tende oscuranti pesanti?",
         nl: "Kan een gordijnrobot zware verduisterende gordijnen trekken?",
         pl: "Czy robot do zasłon uciągnie ciężkie zasłony zaciemniające?",
+        sv: "Klarar en gardinmotor tunga mörkläggningsgardiner?",
+        us: "Can a curtain robot pull heavy blackout curtains?",
+        ca: "Can a curtain robot pull heavy blackout curtains?",
       },
       answer: {
         fr: "Jusqu'à un certain point : le SwitchBot Curtain 3 est annoncé pour 15 kg et l'Aqara Curtain Driver E1 pour 12 kg, sur un rail qui glisse bien. Pour des rideaux très lourds, de grandes longueurs ou une ouverture quotidienne intensive, un rail motorisé filaire comme le Somfy Glydea Ultra 35 (jusqu'à 35 kg) est plus adapté.",
@@ -686,6 +956,9 @@ export const article: BlogArticle = {
         it: "Fino a un certo punto: lo SwitchBot Curtain 3 è dichiarato per 15 kg e l'Aqara Curtain Driver E1 per 12 kg, su un binario scorrevole. Per tende molto pesanti, grandi lunghezze o un uso quotidiano intenso, è più adatto un binario motorizzato cablato come il Somfy Glydea Ultra 35 (fino a 35 kg).",
         nl: "Tot op zekere hoogte: de SwitchBot Curtain 3 is geschikt voor 15 kg en de Aqara Curtain Driver E1 voor 12 kg, op een soepel lopende rail. Voor zeer zware gordijnen, lange rails of intensief dagelijks gebruik is een bedrade gemotoriseerde rail zoals de Somfy Glydea Ultra 35 (tot 35 kg) beter geschikt.",
         pl: "Do pewnego stopnia. Według producentów SwitchBot Curtain 3 przesuwa zasłony do 15 kg, a Aqara Curtain Driver E1 do 12 kg – pod warunkiem że szyna działa płynnie. Do bardzo ciężkich lub długich zasłon albo przy intensywnym codziennym użytkowaniu lepiej sprawdzi się przewodowa szyna z napędem, np. Somfy Glydea Ultra 35 (do 35 kg).",
+        sv: "Upp till en viss gräns: SwitchBot Curtain 3 uppges klara 15 kg och Aqara Curtain Driver E1 12 kg, på en skena där gardinen glider lätt. För mycket tunga gardiner, långa skenor eller intensiv daglig användning passar en trådbunden motoriserad skena som Somfy Glydea Ultra 35 (upp till 35 kg) bättre.",
+        us: "Up to a point: the SwitchBot Curtain 3 is rated for 33 lb (15 kg) and the Aqara Curtain Driver E1 for 26 lb (12 kg), on a smooth-running track. For very heavy curtains, long runs or heavy daily use, a wired motorized track such as the Somfy Glydea Ultra 35 (up to 77 lb, or 35 kg) is a better fit.",
+        ca: "Up to a point: the SwitchBot Curtain 3 is rated for 15 kg and the Aqara Curtain Driver E1 for 12 kg, on a smooth-running track. For very heavy curtains, long runs or intensive daily use, a wired motorized track such as the Somfy Glydea Ultra 35 (up to 35 kg) is a better fit.",
       },
     },
     {
@@ -697,6 +970,9 @@ export const article: BlogArticle = {
         it: "Le tende motorizzate sono compatibili con Matter e Apple Casa?",
         nl: "Zijn gemotoriseerde gordijnen compatibel met Matter en Apple Woning?",
         pl: "Czy zasłony z napędem współpracują z Matter i Apple Home?",
+        sv: "Fungerar motoriserade gardiner med Matter och Apple Home?",
+        us: "Do motorized curtains work with Matter and Apple Home?",
+        ca: "Are motorized curtains compatible with Matter and Apple Home?",
       },
       answer: {
         fr: "La plupart, oui, mais souvent via un pont. Le SwitchBot Curtain 3 passe par un hub SwitchBot, les produits Aqara par un hub Aqara et les stores IKEA par le hub DIRIGERA. L'Eve MotionBlinds Upgrade Kit est le seul de cette sélection à parler Matter over Thread nativement.",
@@ -706,6 +982,9 @@ export const article: BlogArticle = {
         it: "La maggior parte sì, ma spesso tramite un bridge. Lo SwitchBot Curtain 3 passa da un hub SwitchBot, i prodotti Aqara da un hub Aqara e le tende IKEA dall'hub DIRIGERA. L'Eve MotionBlinds Upgrade Kit è l'unico di questa selezione a supportare Matter over Thread in modo nativo.",
         nl: "De meeste wel, maar vaak via een bridge. De SwitchBot Curtain 3 loopt via een SwitchBot-hub, Aqara-producten via een Aqara-hub en IKEA-raambekleding via de DIRIGERA-hub. De Eve MotionBlinds Upgrade Kit is in deze selectie de enige die native Matter over Thread spreekt.",
         pl: "Większość tak, ale często przez mostek. SwitchBot Curtain 3 łączy się przez hub SwitchBot, urządzenia Aqara przez hub Aqara, a rolety IKEA przez hub DIRIGERA. Eve MotionBlinds Upgrade Kit jako jedyny w tym zestawieniu obsługuje Matter over Thread natywnie.",
+        sv: "De flesta gör det, men ofta via en brygga. SwitchBot Curtain 3 går via en SwitchBot-hubb, Aqaras produkter via en Aqara-hubb och IKEA:s gardiner via hubben DIRIGERA. Eve MotionBlinds Upgrade Kit är den enda i urvalet som har inbyggt stöd för Matter via Thread.",
+        us: "Most do, but often through a bridge. The SwitchBot Curtain 3 goes through a SwitchBot hub, Aqara products through an Aqara hub and IKEA blinds through the DIRIGERA hub. The Eve MotionBlinds Upgrade Kit is the only model on our list that speaks Matter over Thread natively.",
+        ca: "Most are, but often through a bridge. The SwitchBot Curtain 3 goes through a SwitchBot hub, Aqara products through an Aqara hub and IKEA blinds through the DIRIGERA hub. The Eve MotionBlinds Upgrade Kit is the only one in this selection that speaks Matter over Thread natively.",
       },
     },
     {
@@ -717,6 +996,9 @@ export const article: BlogArticle = {
         it: "Servono uno o due motori per una tenda a due teli?",
         nl: "Heb ik één of twee motoren nodig voor een gordijn met twee banen?",
         pl: "Czy do zasłony dwuczęściowej potrzebny jest jeden silnik, czy dwa?",
+        sv: "Behövs en eller två motorer till en gardin med två längder?",
+        us: "Do I need one or two motors for a two-panel curtain?",
+        ca: "Do I need one or two motors for a two-panel curtain?",
       },
       answer: {
         fr: "Avec un robot à poser, il faut en général un appareil par pan ; les deux s'appairent dans l'application pour bouger ensemble. Un rail motorisé comme le Somfy Glydea Ultra 35 entraîne les deux pans avec un seul moteur, puisque le mécanisme est intégré au rail.",
@@ -726,6 +1008,9 @@ export const article: BlogArticle = {
         it: "Con un robot da applicare serve in genere un dispositivo per telo; i due si abbinano nell'app per muoversi insieme. Un binario motorizzato come il Somfy Glydea Ultra 35 muove entrambi i teli con un solo motore, perché il meccanismo è integrato nel binario.",
         nl: "Met een opzetrobot hebt u meestal één apparaat per baan nodig; de twee worden in de app gekoppeld zodat ze samen bewegen. Een gemotoriseerde rail zoals de Somfy Glydea Ultra 35 beweegt beide banen met één motor, omdat het mechanisme in de rail zit.",
         pl: "W przypadku robota nakładanego zwykle potrzebne jest osobne urządzenie do każdej części zasłony; oba paruje się w aplikacji, by poruszały się jednocześnie. Szyna z napędem, np. Somfy Glydea Ultra 35, przesuwa obie części jednym silnikiem, bo mechanizm jest wbudowany w szynę.",
+        sv: "Med eftermonterade gardinmotorer behövs i regel en enhet per gardinlängd. De två parkopplas i appen så att de rör sig samtidigt. En motoriserad skena som Somfy Glydea Ultra 35 drar båda längderna med en enda motor, eftersom mekanismen är inbyggd i skenan.",
+        us: "With a retrofit robot, you generally need one unit per panel; you pair the two in the app so they move together. A motorized track such as the Somfy Glydea Ultra 35 drives both panels with a single motor, because the mechanism is built into the track.",
+        ca: "With a retrofit robot you generally need one unit per panel; the two are paired in the app so they move together. A motorized track such as the Somfy Glydea Ultra 35 drives both panels with a single motor, because the mechanism is built into the track.",
       },
     },
   ],

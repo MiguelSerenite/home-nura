@@ -112,6 +112,27 @@ const heroTemplates: Record<Lang, HeroTemplate> = {
       `Przewodnik „${keyword}”: porównujemy ${lowerFirst(cat)} z działu „${silo}” według kryteriów, które liczą się w Europie: roczny koszt energii, europejska etykieta energetyczna, zgodność z RODO, dostępność części zamiennych przez pięć lat i obsługa standardu Matter. Odrzucamy modele, które obiecują więcej, niż dają, a zostawiamy te, które wytrzymują próbę czasu.`,
     buyCtaLabel: 'Sprawdź cenę na Amazon',
   },
+  sv: {
+    title: (cat) => `${cat} 2026: de bästa modellerna`,
+    subtitle: (silo) => `${silo}: modeller utvalda och jämförda för europeiska hem`,
+    intro: (cat, silo, keyword) =>
+      `Köpguide för dig som söker ”${keyword}”: vi har valt ut modeller i kategorin ${lowerFirst(cat)} inom området ${lowerFirst(silo)} och bedömt dem efter det som verkligen spelar roll i Europa – årlig energikostnad, EU:s energimärkning, dataskydd enligt GDPR, tillgång till reservdelar i fem år och stöd för Matter. Modeller som är mer marknadsföring än substans sorterar vi bort, och kvar blir de som håller i längden.`,
+    buyCtaLabel: 'Se priset på Amazon',
+  },
+  us: {
+    title: (cat) => `Best ${cat} of 2026`,
+    subtitle: (silo) => `Compared model by model in our ${silo} section`,
+    intro: (cat, silo, keyword) =>
+      `Searching for “${keyword}”? Our ${cat} guide in the ${silo} section ranks every model on what still matters after years of ownership: annual energy cost, the EU energy label (A to G), data privacy under the EU's GDPR, replacement parts for five years and Matter support. Models that lean on marketing claims get cut; the ones built to last make the list.`,
+    buyCtaLabel: 'Check price on Amazon',
+  },
+  ca: {
+    title: (cat) => `The best ${cat.toLowerCase()} of 2026`,
+    subtitle: (silo) => `Models compared for your home — ${silo}`,
+    intro: (cat, silo, keyword) =>
+      `Searching for “${keyword}”? This guide brings together our picks in the ${cat} category, part of our ${silo} section. We grade every model on what really matters over the life of a product: annual energy cost, the EU energy label, data privacy under the EU's GDPR, spare parts available for five years and Matter support. Models that promise more than they deliver are dropped, and the ones built to last make the cut.`,
+    buyCtaLabel: 'Check price on Amazon',
+  },
 }
 
 export function getCategoryHero(lang: Lang, category: Category): CategoryHero {
@@ -301,6 +322,72 @@ const faqTemplates: Record<Lang, FaqTemplate> = {
       answer: `Europa wciąż ma poważnych producentów – często z siedzibą w Niemczech, Francji, we Włoszech lub w Holandii – którzy przestrzegają norm CE, publikują rzeczywiste zużycie energii i gwarantują lokalny serwis przez pięć lat. Przy każdym produkcie z naszego rankingu podajemy kraj projektowania i dostępność obsługi klienta na poszczególnych rynkach.`,
     },
   ],
+  sv: (cat, silo) => [
+    {
+      question: `${cat} 2026: hur väljer du rätt?`,
+      answer: `Home Nuras metod bedömer varje modell i kategorin ${lowerFirst(cat)} efter fem europeiska kriterier: verklig årlig energikostnad, EU:s energimärkning, dataskydd enligt GDPR (för uppkopplade produkter), tillgång till reservdelar i fem år och stöd för Matter. Modeller som inte håller i längden väljer vi bort, utan undantag.`,
+    },
+    {
+      question: `Vilka europeiska kriterier är viktigast för ${lowerFirst(cat)}?`,
+      answer: `I Europa är de viktigaste kriterierna CE-märkning, EU:s obligatoriska energimärkning, dataskydd enligt GDPR för uppkopplade produkter, tillgång till reservdelar enligt EU:s reparationsdirektiv från 2026 och rätt stickpropp (EU- eller UK-kontakt). De fem punkterna ligger till grund för det betyg av 10 som varje modell i området ${lowerFirst(silo)} får i Nura Score.`,
+    },
+    {
+      question: `Instegsmodell eller premium: var ligger den verkliga skillnaden?`,
+      answer: `Instegsmodellerna sparar in på hållbarheten: mindre tålig plast, reservdelar som sällan finns kvar efter två år och en optimistiskt angiven förbrukning. Premiummodellerna tar betalt för lång livslängd och service efter köpet. Vårt urval i området ${lowerFirst(silo)} håller isär de två utan kompromisser – precis det som vår offentliga metodbeskrivning går igenom.`,
+    },
+    {
+      question: `Hur länge håller ${lowerFirst(cat)} egentligen i ett europeiskt hushåll?`,
+      answer: `I ett vanligt europeiskt hushåll bör en bra modell i kategorin ${lowerFirst(cat)} hålla i 6–8 år utan att prestandan försämras – förutsatt att det fortfarande finns reservdelar. EU:s reparationsdirektiv från 2026 ställer nu krav på den livslängden hos tillverkare som säljer i Europa, och vi kontrollerar tillgången på reservdelar innan vi rekommenderar något i området ${lowerFirst(silo)}.`,
+    },
+    {
+      question: `Vilka europeiska märken spelar verkligen roll när det gäller ${lowerFirst(cat)}?`,
+      answer: `Europa har fortfarande seriösa tillverkare – ofta med säte i Tyskland, Frankrike, Italien eller Nederländerna – som uppfyller CE-kraven, redovisar sin verkliga förbrukning och garanterar lokal service i fem år. För varje modell i vår topplista över ${lowerFirst(cat)} anger vi i vilket land den har konstruerats och hur lätt det är att nå kundtjänsten på varje marknad.`,
+    },
+  ],
+  us: (cat, silo) => [
+    {
+      question: `What should I look for when shopping for ${cat.toLowerCase()} in 2026?`,
+      answer: `Our Home Nura methodology scores ${cat.toLowerCase()} on five criteria: real-world annual energy cost, the EU energy label (A to G), GDPR compliance for smart models, replacement parts available for five years and Matter support. Models that aren't built to last get cut right away.`,
+    },
+    {
+      question: `Which criteria really matter when you compare ${cat.toLowerCase()}?`,
+      answer: `For models sold in Europe, the essentials are CE marking, the mandatory EU energy label, GDPR compliance on smart devices, parts availability under the EU's 2026 repairability directive and plug compatibility. These five criteria feed the Nura Score /10 of every model in our ${silo} section. In the US, also look for a UL or ETL listing mark, and check that the version you buy is rated for 120 V.`,
+    },
+    {
+      question: `Budget or premium: where's the real difference?`,
+      answer: `Entry-level models cut corners on durability: cheaper plastics, replacement parts that are rarely available past two years and optimistic energy figures. Premium models charge for longevity and customer support. Our ${silo} picks keep the two clearly apart, exactly as our public methodology lays out.`,
+    },
+    {
+      question: `How long should ${cat.toLowerCase()} last?`,
+      answer: `With regular use, a good model should last 6 to 8 years without losing performance, as long as replacement parts stay available. In the EU, the 2026 repairability directive now holds manufacturers that sell there to that minimum, and we check parts stock before we recommend anything in our ${silo} section.`,
+    },
+    {
+      question: `Which brands are worth a look for ${cat.toLowerCase()}?`,
+      answer: `Europe still has serious manufacturers, often based in Germany, France, Italy or the Netherlands, that meet CE standards, publish honest energy data and guarantee five years of service and support in Europe. For every model in our ranking, we list the country of design and where customer service is available, market by market. Before you buy, check that the brand offers support in the US.`,
+    },
+  ],
+  ca: (cat, silo) => [
+    {
+      question: `${cat}: how do I choose the right model in 2026?`,
+      answer: `Our Home Nura methodology scores ${cat.toLowerCase()} on five criteria: real annual energy cost, the EU energy label, GDPR compliance (for smart products), spare parts available for five years and Matter support. Models that can't go the distance are dropped right away.`,
+    },
+    {
+      question: `Which criteria really matter when you compare ${cat.toLowerCase()}?`,
+      answer: `Five checks feed the Nura Score /10 of every model in our ${silo} section: CE marking, the EU energy label, GDPR compliance for smart devices, spare-part availability under the EU's 2026 repairability rules and plug compatibility. Models and versions sold in Canada can differ from the European ones, so check that the listing is for a 120 V North American model and look for a recognized Canadian certification mark such as CSA, cUL or cETL.`,
+    },
+    {
+      question: `Budget or premium: where is the real difference?`,
+      answer: `Entry-level models cut corners on durability: cheaper plastics, spare parts that are rarely available past two years and optimistic energy figures. Premium models charge for longevity and after-sales service. Our picks in the ${silo} section keep the two clearly apart, exactly as our public methodology explains.`,
+    },
+    {
+      question: `How long should ${cat.toLowerCase()} really last?`,
+      answer: `With everyday use, a good model should last 6 to 8 years without losing performance, as long as spare parts stay available. That's why we check that spare parts are in stock before recommending anything in our ${silo} section. How long a brand keeps supplying parts varies, so it's worth checking before you buy.`,
+    },
+    {
+      question: `Which brands really matter for ${cat.toLowerCase()}?`,
+      answer: `Europe still has serious manufacturers, often based in Germany, France, Italy or the Netherlands, that meet CE standards, publish honest energy data and guarantee five years of local after-sales support in Europe. For every model in our ranking, we list the country of design and where customer service is available, market by market. Before you buy, check that the brand offers service in Canada.`,
+    },
+  ],
 }
 
 export function getCategoryFaq(lang: Lang, category: Category): CategoryFaqEntry[] {
@@ -446,6 +533,51 @@ const personaGuideTemplates: Record<Lang, PersonaGuideTemplate> = {
         `Przy profilu użytkowania „${label}” niezawodność w codziennym działaniu liczy się bardziej niż karta katalogowa. Nasze rekomendacje pomijają modele, które robią wrażenie po rozpakowaniu, ale z czasem tracą formę. Każda pozycja zawiera realistyczny roczny koszt energii obliczony dla rynku europejskiego.`,
       constraint: (label) =>
         `Wymóg „${label}” radykalnie zawęża wybór. Nasza metodologia Home Nura stosuje ten filtr jeszcze przed otwarciem rankingu, a potem sortuje według zwykłych kryteriów europejskich: etykieta energetyczna UE, zgodność z RODO, części zamienne na pięć lat i obsługa standardu Matter.`,
+    },
+  },
+  sv: {
+    kicker: 'Köpguide',
+    title: (label) => `De bästa produkterna för profilen ”${label}”`,
+    subtitle: (label) => `Home Nuras urval 2026 för profilen ”${label}”, anpassat för europeiska hem`,
+    intros: {
+      household: (label) =>
+        `För profilen ”${label}” prioriterar vi det som verkligen spelar roll i vardagen: rätt storlek, smidig användning, enkel skötsel och hållbarhet i fem år. Varje rekommenderad produkt bedöms också efter sin årliga energikostnad och efter hur väl den följer de europeiska regler som gäller 2026.`,
+      budget: (label) =>
+        `Med profilen ”${label}” är det budgeten som avgör. Home Nuras metod viktar kriterierna olika beroende på prisklass: med en snäv budget väger reparerbarhet och angiven förbrukning tyngre än premiumfunktioner, och i den övre prisklassen måste livslängden och servicen i Europa vara oklanderliga.`,
+      usage: (label) =>
+        `För profilen ”${label}” är det viktigare att produkten fungerar pålitligt varje gång än att den har imponerande tekniska data. Vi väljer bort modeller som glänser när de packas upp men tappar med tiden. För varje produkt i urvalet redovisar vi en realistisk årlig energikostnad, beräknad för den europeiska marknaden.`,
+      constraint: (label) =>
+        `Kravet ”${label}” gallrar kraftigt bland alternativen. Home Nuras metod använder det som filter redan innan topplistan tas fram och sorterar sedan efter de vanliga europeiska kriterierna: EU:s energimärkning, dataskydd enligt GDPR, reservdelar i fem år och stöd för Matter.`,
+    },
+  },
+  us: {
+    kicker: 'Buying guide',
+    title: (label) => `Best Home Tech Picks: ${label}`,
+    subtitle: (label) => `${label}: the Home Nura shortlist for 2026, category by category`,
+    intros: {
+      household: (label) =>
+        `Household: ${label}. Our picks put everyday criteria first: capacity that fits the household, ease of use, easy cleaning and five-year durability. Every product here is also scored on its annual energy cost and its compliance with the EU rules in force in 2026.`,
+      budget: (label) =>
+        `Price tier: ${label}. That's your hard limit, and our Home Nura methodology shifts its weighting from one tier to the next: on a tight budget, repairability and rated energy use count for more than premium features; at the top end, longevity and customer support have to be flawless.`,
+      usage: (label) =>
+        `Use case: ${label}. Here, day-to-day reliability beats the spec sheet. Our picks drop models that impress out of the box but slip over time, and every entry comes with a realistic annual energy cost.`,
+      constraint: (label) =>
+        `The “${label}” filter narrows the field fast. Our Home Nura methodology applies it before the ranking even starts, then sorts what's left on our usual criteria: the EU energy label, GDPR compliance, replacement parts for five years and Matter support.`,
+    },
+  },
+  ca: {
+    kicker: 'Buying guide',
+    title: (label) => `Best Products for Your Profile: ${label}`,
+    subtitle: (label) => `Home Nura's 2026 picks for the “${label}” profile`,
+    intros: {
+      household: (label) =>
+        `For the “${label}” profile, our picks put the criteria that matter day to day first: the right capacity, ergonomics, easy maintenance and five-year durability. Every product here is also graded on its annual energy cost and on whether it meets the EU product rules in force in 2026.`,
+      budget: (label) =>
+        `For the “${label}” profile, your budget is the deciding factor. Our Home Nura methodology weights the criteria differently for each price tier: on a tight budget, repairability and declared energy use count for more than premium features; at the top end, longevity and after-sales service have to be flawless.`,
+      usage: (label) =>
+        `For the “${label}” profile, everyday reliability matters more than the spec sheet. We drop models that impress out of the box but slip over time. Every pick comes with a realistic estimate of its annual energy cost; your actual cost depends on your province and utility.`,
+      constraint: (label) =>
+        `The “${label}” profile narrows the field sharply. Our Home Nura methodology applies this filter before the ranking even starts, then sorts what's left on our usual criteria: the EU energy label, GDPR compliance, spare parts available for five years and Matter support.`,
     },
   },
 }
@@ -621,6 +753,72 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     {
       question: 'Jak oceniacie produkty pod kątem warunków europejskich?',
       answer: `Nie testujemy produktów samodzielnie. Porównujemy zużycie energii deklarowane zgodnie z normami EN, opublikowane niezależne testy i opinie zweryfikowanych kupujących. Żadna rekomendacja nie opiera się wyłącznie na karcie katalogowej – szczegółową procedurę opisuje nasza publiczna metodologia.`,
+    },
+  ],
+  sv: [
+    {
+      question: 'Hur väljer Home Nura ut produkter per profil?',
+      answer: 'Vår publicerade metod väger ihop användarprofilen (hushåll, budget, begränsningar) med fem europeiska kriterier: årlig energikostnad, EU:s energimärkning, GDPR-efterlevnad, tillgång till reservdelar i fem år och stöd för Matter. Modeller som inte håller i längden sorteras bort.',
+    },
+    {
+      question: 'Är rekommendationerna oberoende?',
+      answer: 'Ja. Home Nura är en oberoende europeisk utgivare, och våra rankningar går aldrig att köpa. Länkarna till Amazon är affiliatelänkar, men urvalet bestäms innan länkarna läggs in, och vår publicerade metod gör varje beslut spårbart.',
+    },
+    {
+      question: 'Hur ofta uppdateras rankningarna?',
+      answer: 'En gång i kvartalet. Varje område granskas var tredje månad: modeller som har tagit slut i lager tas bort, budgetintervallen ses över och energikostnader och energimärkningar uppdateras. Datumet för senaste uppdatering visas på varje sida.',
+    },
+    {
+      question: 'Varför ett urval per profil i stället för en klassisk topp 10?',
+      answer: 'En allmän topplista tvingar in alla profiler i samma rankning och missgynnar hushåll som inte passar mallen – små budgetar, ont om plats, hushåll som är noga med GDPR. Våra urval per profil speglar vad produkten verkligen kostar för just det hushållet: beräknad årlig förbrukning, hur väl den passar vanorna och om det finns service på den lokala marknaden.',
+    },
+    {
+      question: 'Hur bedömer ni produkterna för europeiska förhållanden?',
+      answer: 'Vi provar inte produkterna själva. Vi jämför förbrukningsvärden som anges enligt EN-standarder, publicerade oberoende utvärderingar och verifierade köparomdömen. Ingen rekommendation bygger enbart på produktbladet – vår publicerade metod beskriver tillvägagångssättet i detalj.',
+    },
+  ],
+  us: [
+    {
+      question: 'How does Home Nura pick products by profile?',
+      answer: 'Our public methodology matches each usage profile (household, budget, constraints) against five European criteria: annual energy cost, EU energy label, GDPR compliance, five-year spare-parts availability and Matter support. We rule out models that won\'t last.',
+    },
+    {
+      question: 'Are the recommendations independent?',
+      answer: 'Yes. Home Nura is an independent European publisher, and our rankings are never paid for. Amazon links are affiliate links, but the shortlist is set before any links are added, and our public methodology documents every decision.',
+    },
+    {
+      question: 'How often are the rankings updated?',
+      answer: 'Every quarter. Each section is reviewed every three months: out-of-stock models are pulled, budget ranges rechecked, and energy costs and EU labels updated. The “Last updated” date is shown on every page.',
+    },
+    {
+      question: 'Why picks by profile instead of a classic top 10 list?',
+      answer: 'A generic top 10 forces everyone into the same ranking and penalizes households that don\'t fit the mold — tight budgets, small spaces, privacy-first users. Our profile-based picks reflect the real cost of ownership for that household: actual annual energy figures, fit with daily habits and local after-sales support.',
+    },
+    {
+      question: 'How do you evaluate products for each market?',
+      answer: 'We don\'t test products ourselves. We compare energy figures declared under European (EN) standards, published independent test results and verified buyer reviews. No recommendation rests on a spec sheet alone — our public methodology lays out the process.',
+    },
+  ],
+  ca: [
+    {
+      question: 'How does Home Nura pick products by profile?',
+      answer: 'Our public methodology cross-references the usage profile (household, budget, constraint) with five European criteria: annual energy cost, EU energy label, GDPR compliance, five-year spare-part availability and Matter support. Models that can\'t go the distance are excluded.',
+    },
+    {
+      question: 'Are the recommendations independent?',
+      answer: 'Yes. Home Nura is an independent European publisher; our rankings are never paid. Amazon links are affiliate, but the shortlist is decided before the links are wired in, and our public methodology traces every decision.',
+    },
+    {
+      question: 'How often are the rankings refreshed?',
+      answer: 'Quarterly. Every silo is audited every three months: out-of-stock models pulled, budget ranges reviewed, energy costs and EU labels updated. The "last updated" stamp is visible on every page.',
+    },
+    {
+      question: 'Why a profile-based selection instead of a classic top 10?',
+      answer: 'A generic top 10 forces every profile into the same ranking and penalizes atypical households — tight budgets, space-constrained homes, privacy-first users. Our profile-based picks reflect the real cost of ownership for that household: real annual energy figures, fit to daily habits and local after-sales availability.',
+    },
+    {
+      question: 'How do you assess products for European conditions?',
+      answer: 'We do not test products ourselves. We compare energy figures declared under EN standards, published independent tests and verified buyer feedback. No recommendation is based on a spec sheet alone — the public methodology lays out the protocol.',
     },
   ],
 }
@@ -995,6 +1193,147 @@ const problemTemplates: Record<Lang, ProblemUi> = {
       {
         question: `Co dokładnie mówi dyrektywa UE 2019/771 o takiej awarii?`,
         answer: `Dyrektywa przewiduje dwuletnią ustawową gwarancję zgodności z domniemaniem, że wada istniała już w chwili dostawy, w ciągu pierwszych dwunastu miesięcy – to sprzedawca musi udowodnić, że było inaczej. Jeśli produkt z kategorii „${cat}” zepsuje się w tym okresie, przysługuje Ci bezpłatna naprawa lub wymiana, bez szczególnych warunków dotyczących sposobu użytkowania.`,
+      },
+    ],
+  },
+  sv: {
+    kicker: 'Felsökning',
+    subtitlePrefix: 'Home Nuras guide – kategori:',
+    severityLabels: {
+      minor: 'Allvarlighetsgrad: låg',
+      moderate: 'Allvarlighetsgrad: måttlig',
+      critical: 'Allvarlighetsgrad: kritisk',
+    },
+    diagnoses: {
+      minor: `Det här symtomet är vanligt och oftast ofarligt. I de flesta fall löser du problemet på under tio minuter genom att rengöra rätt del eller ändra något i hur du använder apparaten.`,
+      moderate: `Det här symtomet ska inte viftas bort, men i de flesta fall går det att åtgärda utan hjälp av en fackman. Följ stegen nedan i tur och ordning och sluta så fort problemet är borta.`,
+      critical: `Varning: det här symtomet kan tyda på ett allvarligt fel på apparaten. Använd den inte förrän orsaken är klarlagd. Kontakta tillverkaren eller en auktoriserad serviceverkstad innan du försöker ta den i bruk igen.`,
+    },
+    quickFixes: {
+      minor: `Dra ur kontakten, låt apparaten svalna och rengör sedan den berörda delen med ljummet vatten och lite milt diskmedel (använd aldrig skursvamp på non-stick-beläggningar). Sätt ihop allt igen, koppla in apparaten och provkör en kort stund utan innehåll.`,
+      moderate: `1. Dra ur kontakten och låt apparaten svalna. 2. Titta efter synliga fel på de delar du kommer åt. 3. Följ tillverkarens anvisningar (bruksanvisningen eller den officiella webbplatsen). 4. Om åtgärden kräver att du plockar isär apparaten: avbryt och kontakta kundtjänst, med tanke på garantin enligt EU-reglerna.`,
+      critical: `Dra ur kontakten direkt och fortsätt inte att använda apparaten. Dokumentera symtomet (foto, video, ljud) och kontakta sedan tillverkarens kundtjänst. I EU omfattas den här typen av fel av den lagstadgade garantin (reklamationsrätten) i minst två år.`,
+    },
+    fallbackCtas: {
+      minor: 'Läs om vår metod',
+      moderate: 'Se garanti och reservdelar',
+      critical: 'Kontakta tillverkaren',
+    },
+    backToCategory: 'Tillbaka till kategorin',
+    faq: (cat) => [
+      {
+        question: `Omfattas problemet av den lagstadgade garantin i EU?`,
+        answer: `I EU har du minst två års lagstadgad garanti (reklamationsrätt) på varje ny produkt i kategorin ${lowerFirst(cat)} som du har köpt hos en auktoriserad återförsäljare, enligt direktiv (EU) 2019/771. Den gäller fel som fanns redan vid leveransen, oavsett när de sedan visar sig.`,
+      },
+      {
+        question: `Ska jag kontakta tillverkarens kundtjänst eller lämna tillbaka produkten i butiken?`,
+        answer: `Du väljer själv: enligt EU-rätten är det säljaren, inte tillverkaren, som ansvarar för den lagstadgade garantin. I praktiken går det ofta snabbare att vända sig till butiken, men tillverkaren kan reparera om skadan inte omfattas av garantin. Spara kvittot.`,
+      },
+      {
+        question: `Hur tar Home Nura hänsyn till sådana fel?`,
+        answer: `Enligt vår offentliga metod får en modell i kategorin ${lowerFirst(cat)} avdrag i Nura Score (betyg av 10) om återkommande fel finns dokumenterade i omdömen från europeiska användare. En modell som går sönder för ofta hamnar aldrig i topp, oavsett märke.`,
+      },
+      {
+        question: `Kan jag laga det själv utan att förlora garantin?`,
+        answer: `Ja, inom ramen för EU:s ”rätt till reparation”: vanlig skötsel (rengöring, byte av packning, kalibrering) gör aldrig att du förlorar den lagstadgade garantin. Det är bara ingrepp i apparaten som inte går att återställa som kan bli ett problem. För produkter i kategorin ${lowerFirst(cat)} omfattas allt som beskrivs i tillverkarens bruksanvisning fortfarande av skyddet.`,
+      },
+      {
+        question: `Vad säger EU-direktivet 2019/771 egentligen om den här typen av fel?`,
+        answer: `Direktivet ger två års lagstadgad garanti, och under de första tolv månaderna antas felet ha funnits redan vid leveransen – det är säljaren som måste bevisa motsatsen. Går en produkt i kategorin ${lowerFirst(cat)} sönder under den perioden har du rätt till kostnadsfri reparation eller ett nytt exemplar, utan särskilda krav på hur den har använts.`,
+      },
+    ],
+  },
+  us: {
+    kicker: 'Troubleshooting',
+    subtitlePrefix: 'Home Nura guide — category:',
+    severityLabels: {
+      minor: 'Severity: minor',
+      moderate: 'Severity: moderate',
+      critical: 'Severity: critical',
+    },
+    diagnoses: {
+      minor: `This symptom is common and usually harmless. Most of the time, a targeted cleaning or a small change in how you use the device fixes it in under 10 minutes.`,
+      moderate: `This symptom isn't trivial, but in most cases you can fix it without calling in a pro. Work through the steps below in order and stop as soon as the problem clears up.`,
+      critical: `Warning: this symptom can point to a serious hardware defect. Stop using the device until you know the cause. We recommend contacting the manufacturer or an authorized repair service before you try to use it again.`,
+    },
+    quickFixes: {
+      minor: `Unplug the device, let it cool down, then clean the affected part with warm water and mild dish soap (never an abrasive scrubber on nonstick coatings). Put it back together, plug it in and run a short empty cycle to make sure it works.`,
+      moderate: `1. Unplug it and let it cool. 2. Inspect the parts you can reach. 3. Follow the manufacturer's procedure (owner's manual or official website). 4. If the fix means taking the unit apart, stop and contact customer support so you don't put the warranty at risk.`,
+      critical: `Unplug it right away and stop using it. Document the symptom (photos, video, the sounds it makes), then contact the manufacturer's support team. Keep your proof of purchase handy: any warranty claim starts there.`,
+    },
+    fallbackCtas: {
+      minor: 'See how we pick',
+      moderate: 'Check warranty and replacement parts',
+      critical: 'Contact the manufacturer',
+    },
+    backToCategory: 'Back to category',
+    faq: (cat) => [
+      {
+        question: `Is this problem covered by the warranty?`,
+        answer: `Check the manufacturer's warranty first: how long it lasts and what it covers vary by brand and model, so read the terms for yours and keep your proof of purchase. If you bought it new in the EU, a two-year legal guarantee also applies (Directive (EU) 2019/771), covering defects present at delivery, whenever they first show up.`,
+      },
+      {
+        question: `Should I contact customer support or return it to the store?`,
+        answer: `If you're still within the seller's return window, a return or exchange is usually the fastest fix. After that, go through the manufacturer's support team: it handles warranty claims and can often repair the unit even after the warranty has run out. Either way, keep your proof of purchase.`,
+      },
+      {
+        question: `How does Home Nura factor these failures into its picks?`,
+        answer: `Our public methodology lowers the Nura Score /10 of any model in our ${cat} guide whose recurring failures show up in owner reviews. A model that breaks down too often never makes it to the top, whatever the brand.`,
+      },
+      {
+        question: `Can I fix it myself without voiding the warranty?`,
+        answer: `Generally, yes, if you stick to routine maintenance: cleaning, replacing a gasket, recalibrating. Irreversible changes to the hardware are what can cause problems, so read your warranty terms before you open anything up. Anything the manufacturer's manual walks you through is the safe zone.`,
+      },
+      {
+        question: `What should I have ready before I contact support?`,
+        answer: `Your proof of purchase, the exact model name and a record of the symptom: photos, a short video, the sound it makes and any error code. Note when the problem started and what you've already tried. With all that in hand, support can pin down the problem much faster.`,
+      },
+    ],
+  },
+  ca: {
+    kicker: 'Troubleshooting',
+    subtitlePrefix: 'Home Nura guide — category:',
+    severityLabels: {
+      minor: 'Severity: minor',
+      moderate: 'Severity: moderate',
+      critical: 'Severity: critical',
+    },
+    diagnoses: {
+      minor: `This symptom is common and usually harmless. In most cases, a targeted clean or a small change in how you use the device fixes it in under 10 minutes.`,
+      moderate: `This symptom isn't trivial, but in most cases you can still fix it without calling in a technician. Work through the steps below in order and stop as soon as the problem clears.`,
+      critical: `Warning: this symptom can point to a serious hardware defect. Stop using the device until the cause is found. We recommend contacting the manufacturer or an authorized repair centre before you try to use it again.`,
+    },
+    quickFixes: {
+      minor: `Unplug the device and let it cool down, then clean the affected part with warm water and mild dish soap (never use an abrasive sponge on a non-stick coating). Put it back together, plug it in and run a short empty cycle to make sure it works.`,
+      moderate: `1. Unplug the device and let it cool. 2. Look over the parts you can reach for visible damage. 3. Follow the manufacturer's procedure (manual or official website). 4. If the fix means taking the device apart, stop and contact customer support so you don't void the warranty.`,
+      critical: `Unplug it right away and stop using the device. Document the symptom (photos, video, sounds), then contact the manufacturer's support. If the device is still under warranty, keep your proof of purchase handy: this kind of failure is exactly what the warranty is for.`,
+    },
+    fallbackCtas: {
+      minor: 'Read our methodology',
+      moderate: 'Check warranty and spare parts',
+      critical: 'Contact the manufacturer',
+    },
+    backToCategory: 'Back to category',
+    faq: (cat) => [
+      {
+        question: `Is this problem covered by the warranty?`,
+        answer: `Usually, yes, if the failure shows up during the warranty period and isn't caused by misuse. A product in the ${cat} category bought new from an authorized retailer normally comes with a manufacturer's warranty: check its length in the manual or on the brand's website. Consumer protection rules also vary by province and territory, so keep your proof of purchase.`,
+      },
+      {
+        question: `Should I contact after-sales support or go back to the store?`,
+        answer: `If you're still within the store's return window, a return or exchange is usually the fastest fix. After that, the manufacturer's warranty takes over: its customer support can arrange a repair or a replacement. Even outside the warranty, the manufacturer can often repair the device for a fee. Either way, keep your proof of purchase.`,
+      },
+      {
+        question: `How does Home Nura factor these failures into its reviews?`,
+        answer: `Our public methodology lowers the Nura Score /10 of any model in the ${cat} category whose recurring failures are documented in owner reviews. A model that breaks down too often never tops our rankings, whatever the brand.`,
+      },
+      {
+        question: `Can I fix this myself without voiding the warranty?`,
+        answer: `Generally, yes. Routine maintenance, such as cleaning, replacing a gasket or recalibrating, is part of normal use and doesn't usually affect your warranty. Irreversible changes to the hardware are what can cause problems. For a product in the ${cat} category, stick to the steps described in the manufacturer's manual and read the warranty terms before going any further.`,
+      },
+      {
+        question: `What if the failure happens in the first few months?`,
+        answer: `When a product fails in its first few months of normal use, the cause is usually a manufacturing defect. Contact the seller or the manufacturer with your proof of purchase and a description of the symptom: for a model in the ${cat} category that is still under warranty, this is the typical case for a free repair or replacement. Warranty terms vary by brand, so read yours.`,
       },
     ],
   },
@@ -1549,6 +1888,216 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
       {
         question: `Czym ten ranking różni się od ogólnego rankingu w kategorii „${cat}”?`,
         answer: `Ranking ogólny jest optymalizowany pod przeciętnego kupującego; nasz ranking dla profilu „${persona}” zmienia wagi kryteriów: pojemność, roczny koszt użytkowania i trwałość w długim okresie liczą się bardziej niż marka czy surowa moc. Model nr 1 tutaj może być na 5. miejscu w rankingu ogólnym – i to celowo.`,
+      },
+    ],
+  },
+  sv: {
+    kicker: 'Urval efter profil',
+    title: (cat, persona) =>
+      `${cat} 2026: bäst för profilen ”${persona}”`,
+    subtitle: (cat, silo) =>
+      `Home Nuras urval – ${lowerFirst(cat)} inom området ${lowerFirst(silo)}`,
+    intros: {
+      household: (cat, persona) =>
+        `Letar du efter det bästa valet i kategorin ${lowerFirst(cat)} för profilen ”${persona}”? I vårt urval för 2026 väger storlek, smidighet i vardagen och hållbarhet i fem år tyngst – de tre kriterier som verkligen spelar roll för den här typen av hushåll. Därefter avgör den årliga energikostnaden och hur väl produkten följer EU-reglerna.`,
+      budget: (cat, persona) =>
+        `För profilen ”${persona}” i kategorin ${lowerFirst(cat)} sorterar vi först bort varje modell vars totala kostnad över fem år (inköp + energi + delar) hamnar utanför prisklassen. Sedan rangordnar vi efter reparerbarhet och service i Europa. En bra produkt i kategorin ${lowerFirst(cat)} ska löna sig under hela sin livslängd.`,
+      usage: (cat, persona) =>
+        `För profilen ”${persona}” går pålitligheten före allt annat i våra rekommendationer i kategorin ${lowerFirst(cat)}. En modell som ser bra ut i produktbladet men börjar krångla efter sex månader kommer aldrig med i urvalet. Varje produkt nedan är vald för att den håller i längden, och den årliga energikostnaden är beräknad för den europeiska marknaden.`,
+      constraint: (cat, persona) =>
+        `Kravet ”${persona}” gallrar kraftigt i utbudet av ${lowerFirst(cat)}. Home Nuras metod använder det som första filter och rangordnar sedan de modeller som klarar det efter de fem vanliga europeiska kriterierna: EU:s energimärkning, årlig kostnad, dataskydd enligt GDPR, reservdelar i fem år och stöd för Matter.`,
+    },
+    criteriaHeading: 'Kriterierna som spelar roll för den här profilen',
+    criteria: {
+      household: (cat, persona) => [
+        `Storlek som passar profilen ”${persona}” (varken för stor eller för liten)`,
+        `Smidig i vardagen – ${lowerFirst(cat)} som används flera gånger i veckan ska fungera utan krångel`,
+        `Enkel skötsel (avtagbara delar som tål diskmaskin, där det är relevant)`,
+        `Årlig energikostnad – beräknad på EU:s genomsnittliga elpris 2026`,
+        `Hållbarhet i fem år och tillgång till reservdelar`,
+      ],
+      budget: () => [
+        `Total kostnad över fem år (inköp + energi + förbrukningsmaterial) inom prisklassen`,
+        `Kontrollerad reparerbarhet – reparerbarhetsindex ≥ 7/10 där en sådan märkning finns`,
+        `Angiven förbrukning som stämmer med produktens storlek`,
+        `Europeisk kundtjänst som går att nå utan extra kostnad`,
+        `Reservdelar som finns under hela den lagstadgade garantitiden`,
+      ],
+      usage: (cat) => [
+        `Pålitlighet bedömd utifrån 6–12 månaders omdömen från europeiska användare`,
+        `Låg andel fel under det första året`,
+        `Programvara och firmware som hålls uppdaterade – ingen produkt som lämnas utan stöd i förtid`,
+        `Realistisk årlig energikostnad för ${lowerFirst(cat)} som används regelbundet`,
+        `Stöd för Matter och för de smarthemssystem som är vanliga lokalt, när det är relevant`,
+      ],
+      constraint: (cat, persona) => [
+        `Kravet ”${persona}” uppfylls fullt ut – inga kompromisser`,
+        `EU:s energimärkning väl synlig och daterad`,
+        `Dokumenterat dataskydd enligt GDPR (lokal lagring eller europeiskt moln)`,
+        `Årlig energikostnad redovisad i siffror för ${lowerFirst(cat)}`,
+        `Reservdelar garanterade under hela den lagstadgade garantitiden`,
+      ],
+    },
+    faq: (cat, persona) => [
+      {
+        question: `Varför ska du välja ${lowerFirst(cat)} utifrån profilen ”${persona}”?`,
+        answer: `Därför att den som köper en produkt i kategorin ${lowerFirst(cat)} utan att utgå från sin egen profil får en modell i fel storlek i fyra fall av fem. Det som är ”bäst” i kategorin är inte detsamma för profilen ”${persona}”: vi viktar om kriterierna så att de speglar det som verkligen spelar roll i din situation.`,
+      },
+      {
+        question: `Skiljer sig urvalet mellan olika europeiska marknader?`,
+        answer: `Ja, ibland. En modell som rekommenderas i Frankrike är inte nödvändigtvis bäst i Tyskland, till exempel om energimärkningen där skiljer sig eller om tillverkaren saknar service i landet. I varje topplista över ${lowerFirst(cat)} kontrollerar Home Nura tillgång och pris, marknad för marknad.`,
+      },
+      {
+        question: `Hur ofta uppdateras urvalet?`,
+        answer: `Vi går igenom urvalet varje kvartal. En produkt som faller ur Home Nuras topplista över ${lowerFirst(cat)} för 2026 tas bort direkt och ersätts med en tydlig länk till ett alternativ. Datumet för den senaste uppdateringen står högst upp på varje sida.`,
+      },
+      {
+        question: `Vilka märken dominerar egentligen i kategorin ${lowerFirst(cat)} för profilen ”${persona}”?`,
+        answer: `I just den här kombinationen hamnar europeiska tillverkare (från Tyskland, Frankrike, Italien och Nederländerna) ofta i topp – inte för att de är europeiska i sig, utan för att de lättare klarar kraven i profilen ”${persona}”. De asiatiska märken som dominerar den allmänna marknaden för ${lowerFirst(cat)} är ofta sämre anpassade för den här typen av användning.`,
+      },
+      {
+        question: `Hur skiljer sig den här topplistan från en allmän topplista över ${lowerFirst(cat)}?`,
+        answer: `En allmän topplista är gjord för den genomsnittliga köparen. Vår lista för profilen ”${persona}” viktar om kriterierna: storlek, årlig driftskostnad och hållbarhet på lång sikt väger tyngre än märke eller ren effekt. Modellen som är nr 1 här kan ligga på plats 5 i en allmän topplista – och det är avsiktligt.`,
+      },
+    ],
+  },
+  us: {
+    kicker: 'Picks by profile',
+    title: (cat, persona) =>
+      `Best ${cat} of 2026: ${persona}`,
+    subtitle: (cat, silo) =>
+      `Home Nura picks — ${cat} in our ${silo} section`,
+    intros: {
+      household: (cat, persona) =>
+        `Household: ${persona}. For this kind of home, our 2026 selection in the ${cat} category weighs capacity, everyday ease of use and five-year durability first (the three criteria that really matter here), then breaks ties on annual energy cost and compliance with EU rules.`,
+      budget: (cat, persona) =>
+        `Price tier: ${persona}. Before we rank anything in the ${cat} category, we cut every model whose five-year total cost (purchase price, energy and parts) falls outside that tier, then rank the rest on repairability and customer support. A good pick has to stay worth the money for its entire life.`,
+      usage: (cat, persona) =>
+        `Use case: ${persona}. Here, day-to-day reliability beats the spec sheet: a model that shines on paper but slips within six months never makes our shortlist. Every entry below was chosen for its long-term reliability and comes with an estimated annual energy cost.`,
+      constraint: (cat, persona) =>
+        `The “${persona}” filter rules out much of the ${cat} category. Our Home Nura methodology applies it first, then ranks the models that pass on our five usual criteria: the EU energy label, annual energy cost, GDPR compliance, replacement parts for five years and Matter support.`,
+    },
+    criteriaHeading: 'What matters for this profile',
+    criteria: {
+      household: (cat, persona) => [
+        `${persona}: capacity that fits, neither oversized nor undersized`,
+        `Everyday ease of use: a model you reach for several times a week should never be a hassle`,
+        `Easy upkeep (removable parts, dishwasher-safe where it makes sense)`,
+        `Annual energy cost, estimated at an average electricity rate (check the rate on your utility bill)`,
+        `Five-year durability and replacement parts you can actually get`,
+      ],
+      budget: () => [
+        `Five-year total cost (purchase + energy + consumables) within the tier`,
+        `Verified repairability: a score of 7/10 or higher where a repairability index exists, such as France's`,
+        `Rated energy use in line with the product's size`,
+        `Customer support you can reach at no extra charge`,
+        `Replacement parts available for the full warranty period`,
+      ],
+      usage: (cat) => [
+        `Reliability judged on 6 to 12 months of owner reviews`,
+        `Low failure rate in the first year`,
+        `Software and firmware updates that keep coming, with no early end of support`,
+        `Realistic annual energy cost for regular use across the ${cat} category`,
+        `Matter support and compatibility with your existing smart home platform, where relevant`,
+      ],
+      constraint: (cat, persona) => [
+        `Fully meets the “${persona}” filter, no compromises`,
+        `EU energy label displayed and dated`,
+        `Documented GDPR compliance (local storage or an EU-based cloud)`,
+        `A stated annual energy cost for every model on the list`,
+        `Replacement parts guaranteed for the full warranty period`,
+      ],
+    },
+    faq: (cat, persona) => [
+      {
+        question: `Why a separate ranking for “${persona}”?`,
+        answer: `Because buying without thinking about your profile leaves you with the wrong-size model four times out of five. The “best” model in a category isn't the same for “${persona}” as for the average buyer: our weights shift to reflect what actually matters in your situation.`,
+      },
+      {
+        question: `Do your picks change from one market to another?`,
+        answer: `Yes, sometimes. A model we recommend in France may not be the best choice in Germany if its local energy label differs or if the brand has no service network there. Every Home Nura ranking checks availability and pricing market by market. Models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V.`,
+      },
+      {
+        question: `How often do you update these picks?`,
+        answer: `We review them every quarter. When a model drops out of the Home Nura 2026 rankings, it comes off the page right away, with a link to its replacement. The “last updated” date sits at the top of every page.`,
+      },
+      {
+        question: `Which brands lead the ${cat} category for “${persona}”?`,
+        answer: `For this particular match, European manufacturers (from Germany, France, Italy and the Netherlands) often come out on top, not because they're European, but because they handle the demands of the “${persona}” profile better. The Asian brands that dominate the category overall are often less well tuned for this kind of use.`,
+      },
+      {
+        question: `How is this ranking different from a general top 10?`,
+        answer: `A general top 10 is built for the average buyer. Our “${persona}” ranking reweights the criteria: capacity, annual running cost and long-term durability count for more than brand or raw power. The No. 1 model here might rank No. 5 on a general list, and that's by design.`,
+      },
+    ],
+  },
+  ca: {
+    kicker: 'Picks by profile',
+    title: (cat, persona) =>
+      `Best ${cat} 2026 for Your Profile: ${persona}`,
+    subtitle: (cat, silo) =>
+      `Home Nura picks — ${cat} in our ${silo} section`,
+    intros: {
+      household: (cat, persona) =>
+        `Looking for the best model in the ${cat} category for the “${persona}” profile? Our 2026 picks weight capacity, everyday ergonomics and five-year durability first — the three criteria that really matter for this kind of household — then break ties on annual energy cost and on whether each model meets EU product rules.`,
+      budget: (cat, persona) =>
+        `For the “${persona}” profile in the ${cat} category, we first rule out any model whose five-year total cost (purchase + energy + parts) falls outside the price range, then rank the rest on repairability and after-sales service. A good buy has to stay worth it over its whole life.`,
+      usage: (cat, persona) =>
+        `For the “${persona}” profile, our picks in the ${cat} category put everyday reliability first. A model that looks great on paper but starts slipping within six months never makes our shortlist. Every pick below was chosen for long-term reliability, with an estimate of its annual energy cost (your actual cost depends on your province and utility).`,
+      constraint: (cat, persona) =>
+        `The “${persona}” profile sharply narrows the field in the ${cat} category. Our Home Nura methodology applies this filter first, then ranks the models that pass on our five usual criteria: the EU energy label, annual energy cost, GDPR compliance, spare parts for five years and Matter support.`,
+    },
+    criteriaHeading: 'Criteria that matter for this profile',
+    criteria: {
+      household: (cat, persona) => [
+        `Capacity sized for the “${persona}” profile (neither too big nor too small)`,
+        `Everyday ergonomics: in the ${cat} category, a product you use several times a week has to stay hassle-free`,
+        `Simple maintenance (removable parts, dishwasher-safe where relevant)`,
+        `Annual energy cost, estimated from declared energy use (your rate depends on your province and utility)`,
+        `Five-year durability and spare-part availability`,
+      ],
+      budget: () => [
+        `Five-year total cost (purchase + energy + consumables) within the price range`,
+        `Verified repairability: a score of 7/10 or higher where a repairability label exists`,
+        `Declared energy use consistent with the product's size`,
+        `After-sales service you can reach without extra charges`,
+        `Spare parts available for the full warranty period`,
+      ],
+      usage: (cat) => [
+        `Reliability judged on 6 to 12 months of owner reviews`,
+        `Low failure rate in the first year`,
+        `Software and firmware kept up to date, with no early end of support`,
+        `Realistic annual energy cost for regular use in the ${cat} category`,
+        `Matter support and compatibility with the ecosystems you already use, where relevant`,
+      ],
+      constraint: (cat, persona) => [
+        `Strict fit with the “${persona}” profile, no compromises`,
+        `EU energy label shown and dated`,
+        `Documented GDPR compliance (local storage or an EU-based cloud)`,
+        `Annual energy cost stated for each model in the ${cat} category`,
+        `Spare parts guaranteed for the full warranty period`,
+      ],
+    },
+    faq: (cat, persona) => [
+      {
+        question: `Why does the “${persona}” profile get its own ranking in the ${cat} category?`,
+        answer: `Because shopping in the ${cat} category without thinking about your profile often ends with a model that's the wrong size. “Best” doesn't mean the same thing for the “${persona}” profile as it does for everyone else, so our weights shift to reflect what really matters in your situation.`,
+      },
+      {
+        question: `Do your picks change from one market to another?`,
+        answer: `Yes, sometimes. A model recommended in France might not be the best choice in Germany if its energy label or after-sales coverage differs there. Every Home Nura ranking checks availability and pricing market by market in the ${cat} category. Models and versions sold in Canada can also differ from the European ones, so check that the listing is for a 120 V North American model.`,
+      },
+      {
+        question: `How often is this selection updated?`,
+        answer: `We review our picks every quarter. A model in the ${cat} category that drops out of the Home Nura 2026 top list is removed right away, and a replacement link takes its place. The “last updated” date appears at the top of every page.`,
+      },
+      {
+        question: `Which brands lead the ${cat} category for the “${persona}” profile?`,
+        answer: `For this particular combination, European manufacturers (from Germany, France, Italy or the Netherlands) often come out on top. That's not because they're European, but because they handle the needs of the “${persona}” profile better. The Asian brands that dominate the wider market in the ${cat} category are often less well tuned for this kind of use.`,
+      },
+      {
+        question: `How is this ranking different from a generic top 10 in the ${cat} category?`,
+        answer: `A generic top 10 is built for the average buyer. Our ranking for the “${persona}” profile reweights the criteria: capacity, annual running cost and long-term durability count for more than brand or raw power. The No. 1 model here may sit at No. 5 in a generic ranking, and that's by design.`,
       },
     ],
   },

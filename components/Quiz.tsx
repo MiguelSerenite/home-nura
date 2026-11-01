@@ -400,6 +400,291 @@ const L: Record<string, QuizLabels> = {
       },
     },
   },
+  sv: {
+    kicker: 'Personligt quiz',
+    title: 'Vilken airfryer passar dig?',
+    subtitle: '3 frågor – en rekommendation på 30 sekunder',
+    progress: 'Fråga',
+    back: 'Tillbaka',
+    restart: 'Börja om',
+    recommend: 'Vår rekommendation',
+    ourPick: 'Nuras val',
+    whyTitle: 'Därför den här modellen',
+    seePrice: 'Se priset på Amazon',
+    questions: {
+      household: {
+        title: 'Hur många personer lagar du mat till?',
+        options: [
+          {
+            value: 'solo',
+            label: 'Bara jag',
+            desc: '1 person',
+            icon: '👤',
+          },
+          {
+            value: 'couple',
+            label: 'Par',
+            desc: '2 personer',
+            icon: '👥',
+          },
+          {
+            value: 'family',
+            label: 'Familj',
+            desc: '3–4 personer',
+            icon: '👨‍👩‍👧',
+          },
+          {
+            value: 'large',
+            label: 'Storfamilj',
+            desc: '5+ personer',
+            icon: '👨‍👩‍👧‍👦',
+          },
+        ],
+      },
+      budget: {
+        title: 'Vilken budget har du?',
+        options: [
+          {
+            value: 'low',
+            label: 'Budget',
+            desc: 'Under 1 200 kr',
+            icon: '🪙',
+          },
+          {
+            value: 'mid',
+            label: 'Mellanklass',
+            desc: '1 200–2 000 kr',
+            icon: '💰',
+          },
+          {
+            value: 'high',
+            label: 'Premium',
+            desc: 'Över 2 000 kr',
+            icon: '💎',
+          },
+        ],
+      },
+      priority: {
+        title: 'Vad är viktigast för dig?',
+        options: [
+          {
+            value: 'capacity',
+            label: 'Volym',
+            desc: 'Laga mycket på en gång',
+            icon: '🍟',
+          },
+          {
+            value: 'value',
+            label: 'Prisvärdhet',
+            desc: 'Mest för pengarna',
+            icon: '⚖️',
+          },
+          {
+            value: 'premium',
+            label: 'Toppmodell',
+            desc: 'Det bästa, utan kompromisser',
+            icon: '⭐',
+          },
+          {
+            value: 'compact',
+            label: 'Kompakt',
+            desc: 'För ett litet kök',
+            icon: '📏',
+          },
+        ],
+      },
+    },
+  },
+  us: {
+    kicker: 'Personalized quiz',
+    title: 'Which air fryer is right for you?',
+    subtitle: '3 questions — your recommendation in 30 seconds',
+    progress: 'Question',
+    back: 'Back',
+    restart: 'Restart',
+    recommend: 'Our recommendation',
+    ourPick: 'Our pick',
+    whyTitle: 'Why this model',
+    seePrice: 'Check price on Amazon',
+    questions: {
+      household: {
+        title: 'How many people do you cook for?',
+        options: [
+          {
+            value: 'solo',
+            label: 'Solo',
+            desc: '1 person',
+            icon: '👤',
+          },
+          {
+            value: 'couple',
+            label: 'Couple',
+            desc: '2 people',
+            icon: '👥',
+          },
+          {
+            value: 'family',
+            label: 'Family',
+            desc: '3 to 4 people',
+            icon: '👨‍👩‍👧',
+          },
+          {
+            value: 'large',
+            label: 'Large family',
+            desc: '5+ people',
+            icon: '👨‍👩‍👧‍👦',
+          },
+        ],
+      },
+      budget: {
+        title: 'What\'s your budget?',
+        options: [
+          {
+            value: 'low',
+            label: 'Budget',
+            desc: 'Under $150',
+            icon: '💵',
+          },
+          {
+            value: 'mid',
+            label: 'Midrange',
+            desc: '$150 to $250',
+            icon: '💰',
+          },
+          {
+            value: 'high',
+            label: 'Premium',
+            desc: 'Over $250',
+            icon: '💎',
+          },
+        ],
+      },
+      priority: {
+        title: 'What matters most to you?',
+        options: [
+          {
+            value: 'capacity',
+            label: 'Capacity',
+            desc: 'Cook a lot at once',
+            icon: '🍟',
+          },
+          {
+            value: 'value',
+            label: 'Best value',
+            desc: 'The most bang for your buck',
+            icon: '⚖️',
+          },
+          {
+            value: 'premium',
+            label: 'Top of the line',
+            desc: 'The best, no compromises',
+            icon: '⭐',
+          },
+          {
+            value: 'compact',
+            label: 'Compact',
+            desc: 'For a small kitchen',
+            icon: '📏',
+          },
+        ],
+      },
+    },
+  },
+  ca: {
+    kicker: 'Personalized quiz',
+    title: 'Which air fryer is right for you?',
+    subtitle: '3 questions — recommendation in 30 seconds',
+    progress: 'Question',
+    back: 'Back',
+    restart: 'Restart',
+    recommend: 'Our recommendation',
+    ourPick: 'The Nura pick',
+    whyTitle: 'Why this model',
+    seePrice: 'See price on Amazon',
+    questions: {
+      household: {
+        title: 'How many people do you cook for?',
+        options: [
+          {
+            value: 'solo',
+            label: 'Solo',
+            desc: '1 person',
+            icon: '👤',
+          },
+          {
+            value: 'couple',
+            label: 'Couple',
+            desc: '2 people',
+            icon: '👥',
+          },
+          {
+            value: 'family',
+            label: 'Family',
+            desc: '3 to 4 people',
+            icon: '👨‍👩‍👧',
+          },
+          {
+            value: 'large',
+            label: 'Large family',
+            desc: '5+ people',
+            icon: '👨‍👩‍👧‍👦',
+          },
+        ],
+      },
+      budget: {
+        title: 'What\'s your budget?',
+        options: [
+          {
+            value: 'low',
+            label: 'Budget',
+            desc: 'Under $200',
+            icon: '💵',
+          },
+          {
+            value: 'mid',
+            label: 'Mid-range',
+            desc: '$200 to $300',
+            icon: '💰',
+          },
+          {
+            value: 'high',
+            label: 'Premium',
+            desc: 'Over $300',
+            icon: '💎',
+          },
+        ],
+      },
+      priority: {
+        title: 'What matters most to you?',
+        options: [
+          {
+            value: 'capacity',
+            label: 'Capacity',
+            desc: 'Cook a lot at once',
+            icon: '🍟',
+          },
+          {
+            value: 'value',
+            label: 'Value for money',
+            desc: 'Best bang for the buck',
+            icon: '⚖️',
+          },
+          {
+            value: 'premium',
+            label: 'Top of the line',
+            desc: 'The best, no compromise',
+            icon: '⭐',
+          },
+          {
+            value: 'compact',
+            label: 'Compact',
+            desc: 'For a small kitchen',
+            icon: '📏',
+          },
+        ],
+      },
+    },
+  },
 }
 
 function parseCapacityLitres(cap: string): number {

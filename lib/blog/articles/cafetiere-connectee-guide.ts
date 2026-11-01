@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Macchina per espresso in acciaio inox che eroga caffè in una tazza bianca sul piano di lavoro della cucina',
         nl: 'Roestvrijstalen espressomachine die koffie in een wit kopje schenkt op het aanrecht',
         pl: 'Kawa wypływająca z ekspresu ze stali nierdzewnej do białej filiżanki na kuchennym blacie',
+        sv: 'Espressomaskin i rostfritt stål som häller upp kaffe i en vit kopp på en köksbänk',
+        us: 'Stainless steel espresso machine pouring coffee into a white cup on a kitchen countertop',
+        ca: 'Stainless steel espresso machine pouring coffee into a white cup on a kitchen counter',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: "Macchina caffè smart 2026: guida per scegliere la superautomatica giusta",
     nl: "Slim koffiezetapparaat 2026: zo kies je de juiste volautomaat",
     pl: "Inteligentny ekspres do kawy 2026: jak wybrać model na ziarna",
+    sv: "Smart kaffemaskin 2026: så väljer du rätt helautomatisk modell",
+    us: "Smart Coffee Makers 2026: How to Choose a Super-Automatic Machine",
+    ca: "Smart Coffee Maker 2026: How to Choose a Super-Automatic Espresso Machine",
   },
   excerpt: {
     fr: "Cafetière connectée ou simple machine à grain ? Ce que l'application apporte vraiment, les critères de choix et six modèles comparés (De'Longhi, Philips, Krups, Melitta, Jura), d'après les fiches fabricants, des avis indépendants et les retours d'acheteurs.",
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: "Macchina caffè smart o superautomatica classica? Cosa aggiunge davvero l'app, i criteri di scelta e sei modelli a confronto (De'Longhi, Philips, Krups, Melitta, Jura), in base a schede tecniche, recensioni indipendenti e opinioni degli acquirenti.",
     nl: "Slim koffiezetapparaat of gewone volautomaat? Wat de app echt toevoegt, de keuzecriteria en zes modellen vergeleken (De'Longhi, Philips, Krups, Melitta, Jura), op basis van fabrieksspecificaties, onafhankelijke reviews en ervaringen van kopers.",
     pl: "Inteligentny ekspres do kawy czy zwykły ekspres automatyczny? Wyjaśniamy, co naprawdę daje aplikacja, podpowiadamy, na co zwrócić uwagę, i porównujemy sześć modeli (De'Longhi, Philips, Krups, Melitta, Jura) na podstawie danych producentów, niezależnych recenzji i opinii kupujących.",
+    sv: "Smart kaffemaskin eller vanlig helautomat? Det här tillför appen på riktigt, vad du ska tänka på och sex modeller jämförda (De'Longhi, Philips, Krups, Melitta, Jura), utifrån tillverkarnas produktblad, oberoende utvärderingar och köparomdömen.",
+    us: "Smart coffee maker or a plain super-automatic espresso machine? What the app really adds, what to look for and six models compared (De'Longhi, Philips, Krups, Melitta, Jura), based on manufacturer specs, independent reviews and owner feedback.",
+    ca: "Smart coffee maker or a plain super-automatic espresso machine? What the app really adds, the buying criteria and six models compared (De'Longhi, Philips, Krups, Melitta, Jura), based on manufacturer specs, independent reviews and buyer reviews.",
   },
   content: {
     fr: `<p><strong>En 2026, la plupart des machines à café à grain ne sont pas réellement connectées : pour lancer un café ou régler ses recettes depuis un smartphone, il faut viser des modèles précis comme la De'Longhi Rivelia, la Melitta Barista TS Smart ou une Jura E8 équipée de son module de connexion.</strong> Si l'application n'est pas indispensable, la De'Longhi Magnifica Evo ECAM290.51.B reste le meilleur choix global, la Philips 5500 LatteGo la plus simple à entretenir et la Krups Evidence One la plus adaptée aux familles.</p>
@@ -746,6 +755,306 @@ export const article: BlogArticle = {
 <li><strong>Jeśli chcesz ekspresu naprawdę sterowanego z aplikacji:</strong> De'Longhi Rivelia – za najbardziej rozbudowaną aplikację, Melitta Barista TS Smart – za możliwości personalizacji, Jura E8 z modułem łączności – jeśli szukasz modelu z wyższej półki.</li>
 </ul>
 <p>Krótko mówiąc: najpierw wybierz system mleczny i pojemność, które Ci odpowiadają; o łączności myśl dopiero potem – i tylko wtedy, gdy naprawdę z niej skorzystasz. Wszystkie polecane modele znajdziesz na stronie <a href="/pl/cuisine-connectee/cafetieres">inteligentne ekspresy do kawy</a>.</p>`,
+    sv: `<p><strong>2026 är de flesta helautomatiska kaffemaskiner inte uppkopplade på riktigt: vill du brygga en kopp eller justera recepten från mobilen behöver du välja vissa modeller, som De'Longhi Rivelia, Melitta Barista TS Smart eller en Jura E8 med tillhörande uppkopplingsmodul.</strong> Om appen inte är ett måste är De'Longhi Magnifica Evo ECAM290.51.B fortfarande bäst totalt, Philips 5500 LatteGo lättast att hålla ren och Krups Evidence One den som passar familjer bäst.</p>
+<p>Guiden bygger på tillverkarnas produktblad, oberoende utvärderingar och verifierade köparomdömen. Den tar bara upp maskiner som säljs i Europa 2026. Hela urvalet hittar du på vår sida om <a href="/sv/cuisine-connectee/cafetieres">smarta kaffemaskiner</a>, och en överblick över hela köket i vår <a href="/sv/blog/guide-cuisine-connectee-2026">guide till det smarta köket 2026</a>.</p>
+
+<h2>Smart kaffemaskin: det här tillför appen på riktigt</h2>
+<p>”Smart kaffemaskin” kan betyda väldigt olika saker. På en helautomatisk kaffemaskin menar man att maskinen kommunicerar med en mobilapp via Bluetooth eller wifi. Appen kan användas för att:</p>
+<ul>
+<li><strong>starta en dryck på distans</strong>, förutsatt att det redan står en kopp på plats och att vattentanken är fylld;</li>
+<li><strong>skapa och spara egna recept</strong> (kaffemängd, vattenmängd, mjölkmängd och i vilken ordning allt tillreds);</li>
+<li><strong>hantera flera profiler</strong>, så att alla i hushållet får sina egna inställningar;</li>
+<li><strong>hålla koll på skötseln</strong>: påminnelser om avkalkning, rengöring och filterbyte.</li>
+</ul>
+<p>Vad appen däremot inte ger är godare kaffe. Kvaliteten i koppen beror på kvarnen, bryggenheten, mjölksystemet och framför allt på bönorna du använder. En välkonstruerad maskin utan uppkoppling gör bättre espresso än en medelmåttig uppkopplad. Många nyare modeller har dessutom användarprofiler direkt i displayen, helt utan mobil.</p>
+<p>Bra att veta: med Bluetooth måste du befinna dig inom några meter från maskinen. Det är smidigt när du justerar recepten från soffan, men inte alls lika smidigt när du vill brygga en kopp från sovrummet en våning upp. Wifi ger större frihet, men är fortfarande ovanligt på den här typen av maskiner.</p>
+
+<h2>Så väljer du rätt</h2>
+<ul>
+<li><strong>Mjölksystemet</strong>: en automatisk mjölkkaraff (LatteCrema hos De'Longhi, LatteGo hos Philips) gör cappuccino och latte macchiato med en knapptryckning. En slang som du sticker ned i mjölkpaketet är enklare men behöver sköljas regelbundet. Ett manuellt ångrör ger mer kontroll, men kräver lite övning.</li>
+<li><strong>Antal och typ av drycker</strong>: utöver espresso och cappuccino, kolla om maskinen gör längre kaffe (lungo, americano), hetvatten till te eller kalla drycker om du gärna dricker iskaffe på sommaren.</li>
+<li><strong>Kvarnen</strong>: keramik eller stål – det viktigaste är hur många malningsgrader som finns och hur jämnt resultatet blir. Ju fler steg, desto lättare är det att anpassa maskinen till ett nytt paket bönor.</li>
+<li><strong>Volymen</strong>: vattentanken och bönbehållaren avgör hur ofta du behöver fylla på. I ett hushåll på fyra personer slipper du fylla på varje dag om tanken rymmer mer än 2 liter.</li>
+<li><strong>Användarprofiler</strong>: praktiskt så fort flera personer har olika smak (styrka, koppstorlek, mängd mjölk).</li>
+<li><strong>Uppkopplingen</strong>: ingen, Bluetooth eller wifi. Fråga dig ärligt om du verkligen kommer att starta kaffet från mobilen.</li>
+<li><strong>Skötseln</strong>: om bryggenheten går att ta ut, hur många delar mjölksystemet har och vilka automatiska program för rengöring och avkalkning som finns.</li>
+<li><strong>Mått och ljudnivå</strong>: mät höjden under överskåpen och räkna med att locket på bönbehållaren ska kunna öppnas.</li>
+</ul>
+
+<h2>6 helautomatiska kaffemaskiner värda att känna till 2026</h2>
+
+<h3>De'Longhi Magnifica Evo ECAM290.51.B: bäst totalt</h3>
+<p>Magnifica Evo ECAM290.51.B är den version av Magnifica Evo som har mjölksystemet <strong>LatteCrema Hot</strong>, som gör cappuccino och latte macchiato automatiskt. Den har <strong>7 direktval</strong> via färgade ikoner, med tre styrkor, tre koppstorlekar och tre temperaturer. Kvarnen har <strong>13 malningsgrader</strong>, vattentanken rymmer 1,8 liter och bönbehållaren 250 g.</p>
+<p><strong>Styrkor:</strong> enkla och tydliga reglage, ett tätt mjölkskum som köparna berömmer, en kvarn som är lätt att justera och en löstagbar bryggenhet som går att skölja.</p>
+<p><strong>Svagheter:</strong> ingen app eller uppkoppling, färre recept än på toppmodellerna och en bönbehållare som är lite liten för ett stort hushåll.</p>
+<p><strong>Passar för:</strong> par och små hushåll som vill ha riktigt god espresso och mjölkdrycker utan krångel, och som inte behöver styra maskinen från mobilen.</p>
+
+<h3>Philips 5500 LatteGo Series EP5541/50: lättast att sköta</h3>
+<p>Philips 5500 Series LatteGo har <strong>20 varma och kalla drycker</strong>, från espresso till latte, däribland flera sorters iskaffe. Det stora pluset är <strong>LatteGo</strong>-systemet: två delar utan slang som du sköljer under kranen eller diskar i diskmaskinen, på under tio sekunder enligt Philips. Keramikkvarnen har <strong>12 malningsgrader</strong>, tekniken SilentBrew gör bryggningen tystare och i displayen kan du spara <strong>4 användarprofiler</strong>.</p>
+<p><strong>Styrkor:</strong> den enklaste rengöringen av mjölksystemet i det här urvalet, ett brett utbud av drycker med bl.a. iskaffe och en ganska tyst gång.</p>
+<p><strong>Svagheter:</strong> går inte att starta från mobilen (appen Philips HomeID är främst en guide med recept och bruksanvisning), och en del köpare tycker att mjölkskummet blir mindre varmt än med en karaff från De'Longhi.</p>
+<p><strong>Passar för:</strong> dig som gillar cappuccino och iskaffe och vill lägga så lite tid som möjligt på att rengöra maskinen.</p>
+
+<h3>Krups Evidence One EA895N10: perfekt för familjer</h3>
+<p>Krups Evidence One satsar på volym och enkelhet. <strong>Vattentanken på 2,3 liter</strong> är störst i urvalet, och bönbehållaren rymmer 260 g. Den har <strong>12 drycker</strong>, bland dem tre lägen för hetvatten till te, och kan göra två cappuccino eller två latte macchiato samtidigt tack vare det automatiska mjölksystemet med slang. OLED-displayen visar färgade ikoner som är lätta att förstå.</p>
+<p><strong>Styrkor:</strong> räcker länge mellan påfyllningarna, två koppar samtidigt för mjölkdrycker, tydlig display och hetvatten till te.</p>
+<p><strong>Svagheter:</strong> ingen app, mindre möjlighet till finjustering än De'Longhi för espressopuristen och en mjölkslang som måste sköljas efter varje användning.</p>
+<p><strong>Passar för:</strong> familjer och hushåll där det görs flera drycker i rad på morgonen, tedrickare inräknade.</p>
+
+<h3>De'Longhi Rivelia EXAM440.55.B: en uppkopplad maskin på riktigt</h3>
+<p>Rivelia är en av få konsumentmaskiner som verkligen går att styra från mobilen. Med appen <strong>De'Longhi Coffee Link</strong> kan du starta en dryck på distans, skapa recept, hantera profiler och hålla koll på skötseln. Maskinen har <strong>16 anpassningsbara recept</strong> och <strong>4 profiler</strong>. Det som utmärker den är <strong>Bean Switch</strong>-systemet: två utbytbara bönbehållare, t.ex. en kraftig rostning och ett koffeinfritt kaffe, och funktionen Bean Adapt som föreslår malningsgrad, mängd och temperatur utifrån bönorna.</p>
+<p><strong>Styrkor:</strong> en komplett app, byte av bönor utan att tömma maskinen, stor pekskärm och karaffen LatteCrema Hot.</p>
+<p><strong>Svagheter:</strong> en maskin i ett högre prissegment, och appen kräver lite inställningar i början.</p>
+<p><strong>Passar för:</strong> dig som vill ha en riktigt uppkopplad kaffemaskin och växlar mellan flera sorters kaffe, t.ex. koffeinfritt på kvällen.</p>
+
+<h3>Melitta Barista TS Smart: mest anpassningsbar</h3>
+<p>Melitta Barista TS Smart ansluts via Bluetooth till appen <strong>Melitta Connect</strong>. Den har <strong>21 specialiteter</strong> och kan spara upp till <strong>8 användarprofiler</strong>, flest i det här urvalet. I läget ”freestyle” komponerar du ditt eget recept: du väljer mängden kaffe, mjölkskum och vatten och i vilken ordning allt ska tillredas.</p>
+<p><strong>Styrkor:</strong> mycket långtgående anpassning, många profiler och en app som speglar de flesta av maskinens inställningar.</p>
+<p><strong>Svagheter:</strong> bara Bluetooth, så du måste vara nära maskinen; gränssnittet på själva maskinen är plottrigare än hos De'Longhi och Philips.</p>
+<p><strong>Passar för:</strong> storfamiljer och kaffeentusiaster som gillar att finjustera varje detalj i sin dryck.</p>
+
+<h3>Jura E8: kompakt premiummodell</h3>
+<p>Jura E8 har <strong>17 specialiteter med en knapptryckning</strong>. Den använder extraktionsprocessen <strong>P.E.P.</strong> för korta kaffedrycker, kvarnen <strong>Professional Aroma Grinder</strong> och en teknik för finporigt mjölkskum till mjölkdryckerna. Uppkopplingen är inte inbyggd: för att använda appen J.O.E. måste du lägga till modulen <strong>Smart Connect</strong> (Bluetooth) eller WiFi Connect, som säljs separat.</p>
+<p><strong>Styrkor:</strong> välrenommerad byggkvalitet, espresso och ristretto som ägarna uppskattar mycket och kompletta skötselprogram.</p>
+<p><strong>Svagheter:</strong> ligger i premiumsegmentet, uppkoppling som tillval samt filterpatroner och rengöringsmedel som är specifika för märket.</p>
+<p><strong>Passar för:</strong> kräsna kaffeälskare som sätter kvaliteten i koppen och hållbarheten främst och vill kunna lägga till uppkoppling senare.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Drycker</th><th>Mjölksystem</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>De'Longhi Magnifica Evo ECAM290.51.B</td><td>7 direktval</td><td>LatteCrema Hot (karaff)</td><td>Ingen</td><td>Bäst totalt</td></tr>
+<tr><td>Philips 5500 LatteGo EP5541/50</td><td>20 varma och kalla</td><td>LatteGo (2 delar)</td><td>Ingen fjärrstyrning</td><td>Minimal skötsel</td></tr>
+<tr><td>Krups Evidence One EA895N10</td><td>12, inkl. hetvatten</td><td>Automatiskt med slang</td><td>Ingen</td><td>Familjer</td></tr>
+<tr><td>De'Longhi Rivelia EXAM440.55.B</td><td>16 recept</td><td>LatteCrema Hot (karaff)</td><td>Appen Coffee Link</td><td>Uppkoppling och två bönsorter</td></tr>
+<tr><td>Melitta Barista TS Smart</td><td>21 specialiteter</td><td>Automatiskt med slang</td><td>Bluetooth, Melitta Connect</td><td>Anpassning, 8 profiler</td></tr>
+<tr><td>Jura E8</td><td>17 specialiteter</td><td>Automatiskt finporigt skum</td><td>Tillval (Smart Connect, WiFi Connect)</td><td>Premiumkvalitet</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att betala för en app du inte kommer att använda</strong>: många köpare öppnar den de första dagarna och går sedan tillbaka till knapparna på maskinen. Startar du kaffet när du ändå står vid maskinen räcker det med en Magnifica Evo eller en Philips 5500.</li>
+<li><strong>Att tro att ”smart” betyder wifi</strong>: på Melitta Barista TS Smart och på en Jura med Smart Connect går anslutningen via Bluetooth, och du måste vara i närheten.</li>
+<li><strong>Att slarva med rengöringen av mjölksystemet</strong>: ett dåligt sköljt mjölksystem sätter igen maskinen och förstör smaken. Välj ett system som passar hur mycket rengöring du orkar med.</li>
+<li><strong>Att använda smaksatta eller mycket oljiga bönor</strong>: de sätter igen kvarnen. Välj hellre naturella, medelrostade bönor.</li>
+<li><strong>Att glömma måtten</strong>: höjden med öppet lock och djupet inklusive vattentanken ställer ofta till det under överskåpen.</li>
+</ul>
+
+<h2>Skötsel och säkerhet</h2>
+<p>Oavsett maskin finns det några vanor som förlänger livslängden: töm sumpbehållaren och droppbrickan så fort displayen ber om det, skölj bryggenheten varje vecka om den går att ta ut och avkalka så ofta som maskinen anger – det beror på hur hårt vattnet är där du bor. En kompatibel filterpatron minskar kalkavlagringarna och gör att det dröjer längre mellan avkalkningarna. Använd bara de avkalkningsmedel som tillverkaren rekommenderar: ett olämpligt medel kan skada packningarna och göra att garantin inte längre gäller.</p>
+<p>När det gäller säkerheten: koppla in maskinen direkt i ett vägguttag i stället för i ett grenuttag där mycket annat redan är inkopplat, eftersom de här maskinerna drar mycket ström när de värms upp. Startar du kaffet på distans, kontrollera innan du går hemifrån att det står en kopp på plats. Vill du komplettera köket tar vår <a href="/sv/blog/comparatif-multicuiseur-connecte">jämförelse av smarta multikokare</a> upp apparater som bygger på samma tänk.</p>
+
+<h2>Vårt omdöme</h2>
+<ul>
+<li><strong>Bäst totalt:</strong> De'Longhi Magnifica Evo ECAM290.51.B, tack vare kvarnen med 13 malningsgrader, karaffen LatteCrema Hot och att den är så enkel att använda.</li>
+<li><strong>Lättast att sköta:</strong> Philips 5500 LatteGo Series EP5541/50, med sitt mjölksystem i två delar och 20 drycker, bland dem iskaffe.</li>
+<li><strong>Perfekt för familjer:</strong> Krups Evidence One EA895N10, tack vare tanken på 2,3 liter och mjölkdrycker i två koppar samtidigt.</li>
+<li><strong>Om du vill ha en riktigt uppkopplad kaffemaskin:</strong> De'Longhi Rivelia för den mest kompletta appen, Melitta Barista TS Smart för anpassningen och Jura E8 med sin modul i premiumsegmentet.</li>
+</ul>
+<p>Kort sagt: välj först det mjölksystem och den volym som passar dig. Uppkopplingen kommer i andra hand, och bara om den fyller ett verkligt behov. Alla våra val finns samlade på sidan <a href="/sv/cuisine-connectee/cafetieres">smarta kaffemaskiner</a>.</p>`,
+    us: `<p><strong>In 2026, most super-automatic espresso machines still aren't truly smart: to start a coffee or tweak recipes from your phone, you need specific models such as the De'Longhi Rivelia, the Melitta Barista TS Smart or a Jura E8 fitted with its connectivity module.</strong> If you can live without the app, the De'Longhi Magnifica Evo ECAM290.51.B remains the best all-around choice, the Philips 5500 LatteGo is the easiest to keep clean and the Krups Evidence One is the best fit for families.</p>
+<p>This guide is based on manufacturer specs, independent reviews and verified owner feedback. It only covers machines sold in Europe in 2026. To see the full selection, visit our <a href="/us/cuisine-connectee/cafetieres">smart coffee makers</a> page, and for the bigger picture, our <a href="/us/blog/guide-cuisine-connectee-2026">smart kitchen guide 2026</a>.</p>
+
+<h2>Smart coffee makers: what the app really adds</h2>
+<p>"Smart coffee maker" covers very different things. On a super-automatic espresso machine, it means the appliance talks to a phone app over Bluetooth or Wi-Fi. That app can be used to:</p>
+<ul>
+<li><strong>start a drink remotely</strong>, as long as a cup is already in place and the water tank is full;</li>
+<li><strong>create and save custom recipes</strong> (coffee dose, water volume, amount of milk, order of preparation);</li>
+<li><strong>manage several profiles</strong> so everyone in the household gets their own settings;</li>
+<li><strong>keep track of maintenance</strong>: reminders for descaling, cleaning or changing the filter.</li>
+</ul>
+<p>What the app won't give you is better coffee. Cup quality depends on the grinder, the brew unit, the milk system and, above all, the beans you use. A well-designed machine without an app will make better espresso than a mediocre smart one. Many recent models also offer user profiles right on their display, no phone required.</p>
+<p>One more thing worth knowing: Bluetooth means staying within a few yards of the machine. It's handy for adjusting recipes from the couch, much less so for starting a coffee from an upstairs bedroom. Wi-Fi gives you more freedom, but it's still rare on this type of appliance.</p>
+
+<h2>How to choose: what to look for</h2>
+<ul>
+<li><strong>Milk system</strong>: an automatic carafe (LatteCrema on De'Longhi, LatteGo on Philips) makes a cappuccino or latte macchiato at the touch of a button. A tube dipped into a milk carton is simpler but needs regular rinsing. A manual steam wand gives you more control, at the cost of a little practice.</li>
+<li><strong>Number and type of drinks</strong>: beyond espresso and cappuccino, check for longer drinks (lungo, americano), hot water for tea, or iced drinks if you like them in summer.</li>
+<li><strong>Grinder</strong>: ceramic or steel, what matters most is the number of grind settings and how consistent the grind is. More settings make it easier to dial the machine in to a new bag of beans.</li>
+<li><strong>Capacity</strong>: the water tank and bean hopper decide how often you refill. For a household of four, a tank of more than 68 fl oz (2 L) saves you a daily refill.</li>
+<li><strong>User profiles</strong>: useful as soon as several people have different tastes (strength, cup size, amount of milk).</li>
+<li><strong>Connectivity</strong>: none, Bluetooth or Wi-Fi. Ask yourself honestly whether you'll really start your coffee from your phone.</li>
+<li><strong>Maintenance</strong>: removable brew unit or not, number of parts in the milk circuit, automatic cleaning and descaling programs.</li>
+<li><strong>Footprint and noise</strong>: measure the clearance under your upper cabinets, allowing for the bean hopper lid when it's open.</li>
+</ul>
+
+<h2>6 super-automatic espresso machines worth knowing in 2026</h2>
+
+<h3>De'Longhi Magnifica Evo ECAM290.51.B: best overall</h3>
+<p>The Magnifica Evo ECAM290.51.B is the Magnifica Evo version fitted with the <strong>LatteCrema Hot</strong> milk system, which makes cappuccino and latte macchiato automatically. It offers <strong>7 one-touch recipes</strong> through color-coded icons, with three strengths, three cup sizes and three temperatures. Its grinder has <strong>13 grind settings</strong>, the water tank holds 61 fl oz (1.8 L) and the bean hopper 8.8 oz (250 g).</p>
+<p><strong>Pros:</strong> simple, clear controls, dense milk foam that owners praise, an easy-to-adjust grinder, a removable brew unit for rinsing.</p>
+<p><strong>Cons:</strong> no app or connectivity, a shorter recipe list than high-end models, a bean hopper that's a little small for a large household.</p>
+<p><strong>Best for:</strong> couples and small households who want very good espresso and milk drinks without fuss, and don't need to control their machine from a phone.</p>
+
+<h3>Philips 5500 LatteGo Series EP5541/50: easiest to maintain</h3>
+<p>The Philips 5500 Series LatteGo offers <strong>20 hot and iced drinks</strong>, from espresso to latte, including several iced coffees. Its main selling point is the <strong>LatteGo</strong> system: two tube-free parts that rinse under the faucet or go in the dishwasher, in under ten seconds according to Philips. The ceramic grinder has <strong>12 grind settings</strong>, SilentBrew technology makes brewing quieter and the display can store <strong>4 user profiles</strong>.</p>
+<p><strong>Pros:</strong> the simplest milk-circuit cleaning in this lineup, a wide choice of drinks including iced coffees, fairly quiet operation.</p>
+<p><strong>Cons:</strong> no remote brewing from a phone (the Philips HomeID app is mainly a recipe and user-manual guide), and some owners find the milk foam less hot than with a De'Longhi carafe.</p>
+<p><strong>Best for:</strong> cappuccino and iced-coffee lovers who want to spend as little time as possible cleaning their machine.</p>
+
+<h3>Krups Evidence One EA895N10: best for families</h3>
+<p>The Krups Evidence One focuses on capacity and simplicity. Its <strong>78 fl oz (2.3 L) water tank</strong> is the largest in this lineup, with a 9.2 oz (260 g) bean hopper. It offers <strong>12 drinks</strong>, including three hot-water settings for tea, and can make two cappuccinos or two latte macchiatos at once thanks to its automatic milk system with a tube. The OLED display shows easy-to-read color icons.</p>
+<p><strong>Pros:</strong> lots of drinks between refills, two cups at once for milk drinks, a clear display, hot water for tea.</p>
+<p><strong>Cons:</strong> no app, less fine-tuning than the De'Longhi for espresso purists, a milk tube to rinse after each use.</p>
+<p><strong>Best for:</strong> families and households that make several drinks back to back in the morning, tea drinkers included.</p>
+
+<h3>De'Longhi Rivelia EXAM440.55.B: a truly smart machine</h3>
+<p>The Rivelia is one of the few mainstream machines you can really control from a phone. The <strong>De'Longhi Coffee Link</strong> app lets you start a drink remotely, create recipes, manage profiles and track maintenance. The machine offers <strong>16 customizable recipes</strong> and <strong>4 profiles</strong>. Its standout feature is the <strong>Bean Switch</strong> system: two interchangeable bean hoppers, for example a bold roast and a decaf, plus Bean Adapt, which suggests the grind, dose and temperature for the beans you use.</p>
+<p><strong>Pros:</strong> a complete app, switching beans without emptying the machine, a large touchscreen, the LatteCrema Hot carafe.</p>
+<p><strong>Cons:</strong> a more upscale machine, and an app that takes a little setting up at first.</p>
+<p><strong>Best for:</strong> anyone who wants a truly smart coffee maker and switches between several coffees, especially a decaf in the evening.</p>
+
+<h3>Melitta Barista TS Smart: most customizable</h3>
+<p>The Melitta Barista TS Smart connects over Bluetooth to the <strong>Melitta Connect</strong> app. It offers <strong>21 specialty drinks</strong> and can store up to <strong>8 user profiles</strong>, the most in this lineup. Its freestyle mode lets you build your own recipe by choosing the amount of coffee, frothed milk and water, as well as the order in which they're poured.</p>
+<p><strong>Pros:</strong> very deep customization, plenty of profiles, an app that mirrors most of the machine's settings.</p>
+<p><strong>Cons:</strong> Bluetooth only, so you need to be near the machine; the on-machine interface is busier than on a De'Longhi or Philips.</p>
+<p><strong>Best for:</strong> large families and coffee enthusiasts who like to fine-tune every detail of their drink.</p>
+
+<h3>Jura E8: compact premium pick</h3>
+<p>The Jura E8 offers <strong>17 one-touch specialty drinks</strong>. It uses the <strong>P.E.P.</strong> extraction process for short coffees, the <strong>Professional Aroma Grinder</strong> and fine-foam technology for milk drinks. Connectivity isn't built in: you need to add the <strong>Smart Connect</strong> (Bluetooth) or WiFi Connect module, sold separately, to use the J.O.E. app.</p>
+<p><strong>Pros:</strong> renowned build quality, espresso and ristretto that owners rate highly, comprehensive maintenance programs.</p>
+<p><strong>Cons:</strong> premium price, connectivity as an add-on, brand-specific filter cartridges and cleaning products.</p>
+<p><strong>Best for:</strong> demanding coffee lovers who put cup quality and durability first and want the option to add connectivity later.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Drinks</th><th>Milk system</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>De'Longhi Magnifica Evo ECAM290.51.B</td><td>7 one-touch recipes</td><td>LatteCrema Hot (carafe)</td><td>None</td><td>Best overall</td></tr>
+<tr><td>Philips 5500 LatteGo EP5541/50</td><td>20 hot and iced</td><td>LatteGo (2 parts)</td><td>No remote control</td><td>Minimal maintenance</td></tr>
+<tr><td>Krups Evidence One EA895N10</td><td>12, including hot water</td><td>Automatic with tube</td><td>None</td><td>Families</td></tr>
+<tr><td>De'Longhi Rivelia EXAM440.55.B</td><td>16 recipes</td><td>LatteCrema Hot (carafe)</td><td>Coffee Link app</td><td>App control, two bean hoppers</td></tr>
+<tr><td>Melitta Barista TS Smart</td><td>21 specialty drinks</td><td>Automatic with tube</td><td>Bluetooth, Melitta Connect</td><td>Customization, 8 profiles</td></tr>
+<tr><td>Jura E8</td><td>17 specialty drinks</td><td>Automatic fine foam</td><td>Optional (Smart Connect, WiFi Connect)</td><td>Premium quality</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Paying for an app you won't use</strong>: many owners open it in the first few days, then go back to the machine's buttons. If you start your coffee standing in front of the machine, a Magnifica Evo or a Philips 5500 is all you need.</li>
+<li><strong>Assuming "smart" means Wi-Fi</strong>: on the Melitta Barista TS Smart or a Jura with Smart Connect, the link is Bluetooth and you need to be close by.</li>
+<li><strong>Neglecting milk-circuit cleaning</strong>: a poorly rinsed milk system clogs the machine and spoils the taste. Choose a system that matches how much cleaning you're willing to do.</li>
+<li><strong>Using flavored or very oily beans</strong>: they clog the grinder. Stick to plain, medium-roast beans.</li>
+<li><strong>Forgetting the dimensions</strong>: height with the lid open and depth including the tank often cause problems under upper cabinets.</li>
+</ul>
+
+<h2>Maintenance and safety</h2>
+<p>Whatever the machine, a few habits extend its life: empty the grounds container and drip tray as soon as the display asks, rinse the brew unit every week if it's removable, and descale as often as the machine tells you to, which depends on how hard your water is. A compatible water filter cartridge cuts scale buildup, so you'll descale less often. Only use the descaling products the manufacturer recommends: the wrong product can damage the seals and void the warranty.</p>
+<p>For safety, plug the machine directly into a wall outlet rather than a power strip that's already loaded, since these appliances draw a lot of power while heating up. Models sold in Europe are built for 230 V; check that the version on your Amazon store is rated for 120 V. If you start a coffee remotely, make sure a cup is in place before you leave. To round out your kitchen, our <a href="/us/blog/comparatif-multicuiseur-connecte">smart multicooker comparison</a> covers appliances that follow the same approach.</p>
+
+<h2>The bottom line</h2>
+<ul>
+<li><strong>Best overall:</strong> De'Longhi Magnifica Evo ECAM290.51.B, for its 13-setting grinder, LatteCrema Hot carafe and sheer simplicity.</li>
+<li><strong>Easiest to maintain:</strong> Philips 5500 LatteGo Series EP5541/50, with its two-part milk system and 20 drinks including iced coffees.</li>
+<li><strong>Best for families:</strong> Krups Evidence One EA895N10, for its 78 fl oz (2.3 L) tank and two-at-a-time milk drinks.</li>
+<li><strong>If you want a truly smart machine:</strong> De'Longhi Rivelia for the most complete app, Melitta Barista TS Smart for customization, Jura E8 with its module at the premium end.</li>
+</ul>
+<p>In short, start by choosing the milk system and capacity that suit you; connectivity comes second, and only if it meets a real need. All our picks are gathered on the <a href="/us/cuisine-connectee/cafetieres">smart coffee makers</a> page.</p>`,
+    ca: `<p><strong>In 2026, most super-automatic espresso machines aren't truly smart: to start a coffee or tweak recipes from your phone, you need specific models such as the De'Longhi Rivelia, the Melitta Barista TS Smart or a Jura E8 equipped with its connectivity module.</strong> If the app isn't a must, the De'Longhi Magnifica Evo ECAM290.51.B remains the best all-round choice, the Philips 5500 LatteGo is the easiest to keep clean and the Krups Evidence One is the best fit for families.</p>
+<p>This guide is based on manufacturer specifications, independent reviews and verified buyer reviews. It only covers machines sold in Europe in 2026. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. To see the full selection, visit our <a href="/ca/cuisine-connectee/cafetieres">smart coffee makers</a> page, and for the bigger picture, our <a href="/ca/blog/guide-cuisine-connectee-2026">smart kitchen guide 2026</a>.</p>
+
+<h2>Smart coffee makers: what the app really adds</h2>
+<p>"Smart coffee maker" covers very different things. On a super-automatic espresso machine, it means the appliance talks to a mobile app over Bluetooth or Wi-Fi. You can use that app to:</p>
+<ul>
+<li><strong>start a drink remotely</strong>, as long as a cup is already in place and the tank is full;</li>
+<li><strong>create and save custom recipes</strong> (coffee dose, water volume, amount of milk, order of preparation);</li>
+<li><strong>manage several profiles</strong> so each member of the household gets their own settings;</li>
+<li><strong>keep track of maintenance</strong>: reminders for descaling, cleaning or changing the filter.</li>
+</ul>
+<p>What the app doesn't deliver is better coffee. Cup quality depends on the grinder, the brew unit, the milk system and above all the beans you use. A well-designed machine without an app will make better espresso than a mediocre smart one. Many recent models also offer user profiles right on their display, no phone required.</p>
+<p>Something else worth knowing: Bluetooth means staying within a few metres of the machine. It's handy for adjusting recipes from the couch, much less so for starting a coffee from an upstairs bedroom. Wi-Fi gives you more freedom, but it's still rare on this type of appliance.</p>
+
+<h2>How to choose: the key criteria</h2>
+<ul>
+<li><strong>Milk system</strong>: an automatic carafe (LatteCrema on De'Longhi, LatteGo on Philips) makes a cappuccino or latte macchiato at the touch of a button. A tube dipped into a milk carton is simpler but needs regular rinsing. A manual steam wand gives you more control, at the cost of a little practice.</li>
+<li><strong>Number and type of drinks</strong>: beyond espresso and cappuccino, check for long drinks (lungo, americano), hot water for tea, or iced drinks if you like them in summer.</li>
+<li><strong>Grinder</strong>: ceramic or steel, what matters most is the number of grind settings and how consistent the grind is. More settings make it easier to adapt the machine to a new bag of beans.</li>
+<li><strong>Capacity</strong>: the water tank and bean hopper decide how often you refill. For a household of four, a tank of more than 2 litres means you won't refill it every day.</li>
+<li><strong>User profiles</strong>: useful as soon as several people have different tastes (strength, cup size, amount of milk).</li>
+<li><strong>Connectivity</strong>: none, Bluetooth or Wi-Fi. Ask yourself honestly whether you'll really start your coffee from your phone.</li>
+<li><strong>Maintenance</strong>: removable brew unit or not, number of parts in the milk circuit, automatic cleaning and descaling programs.</li>
+<li><strong>Footprint and noise</strong>: measure the clearance under your upper cabinets, allowing for the bean hopper lid when it's open.</li>
+</ul>
+
+<h2>6 super-automatic espresso machines worth a look in 2026</h2>
+
+<h3>De'Longhi Magnifica Evo ECAM290.51.B: best all-round choice</h3>
+<p>The Magnifica Evo ECAM290.51.B is the Magnifica Evo version equipped with the <strong>LatteCrema Hot</strong> milk system, which makes cappuccino and latte macchiato automatically. It offers <strong>7 one-touch recipes</strong> through coloured icons, with three strengths, three cup sizes and three temperatures. Its grinder has <strong>13 grind settings</strong>, the water tank holds 1.8 litres and the bean hopper 250 g.</p>
+<p><strong>Strengths:</strong> simple, clear controls, dense milk foam praised by buyers, easy-to-adjust grinder, removable brew unit for rinsing.</p>
+<p><strong>Limitations:</strong> no app or connectivity, a shorter recipe list than high-end models, a bean hopper that's a little small for a large household.</p>
+<p><strong>Who it's for:</strong> couples and small households who want very good espresso and milk drinks without fuss, and don't need to control their machine from a phone.</p>
+
+<h3>Philips 5500 LatteGo Series EP5541/50: easiest to maintain</h3>
+<p>The Philips 5500 Series LatteGo offers <strong>20 hot and iced drinks</strong>, from espresso to latte, including several iced coffees. Its main selling point is the <strong>LatteGo</strong> system: two tube-free parts that rinse under the faucet or go in the dishwasher, in under ten seconds according to Philips. The ceramic grinder has <strong>12 grind settings</strong>, SilentBrew technology makes brewing quieter and the display can store <strong>4 user profiles</strong>.</p>
+<p><strong>Strengths:</strong> the simplest milk-circuit cleaning in this selection, a wide choice of drinks including iced coffees, fairly quiet operation.</p>
+<p><strong>Limitations:</strong> no remote brewing from a phone (the Philips HomeID app is mainly a recipe and user-manual guide), and some buyers find the milk foam less hot than with a De'Longhi carafe.</p>
+<p><strong>Who it's for:</strong> cappuccino and iced-coffee lovers who want to spend as little time as possible cleaning their machine.</p>
+
+<h3>Krups Evidence One EA895N10: ideal for families</h3>
+<p>The Krups Evidence One focuses on capacity and simplicity. Its <strong>2.3-litre water tank</strong> is the largest in this selection, with a 260 g bean hopper. It offers <strong>12 drinks</strong>, including three hot-water settings for tea, and can make two cappuccinos or two latte macchiatos at once thanks to its automatic milk system with a tube. The OLED display shows easy-to-read coloured icons.</p>
+<p><strong>Strengths:</strong> fewer water refills, two cups at once for milk drinks, clear display, hot water for tea.</p>
+<p><strong>Limitations:</strong> no app, less fine-tuning than the De'Longhi for espresso purists, a milk tube to rinse after each use.</p>
+<p><strong>Who it's for:</strong> families and households where several drinks are made back to back in the morning, tea drinkers included.</p>
+
+<h3>De'Longhi Rivelia EXAM440.55.B: a genuinely smart machine</h3>
+<p>The Rivelia is one of the few mainstream machines you can really control from a phone. The <strong>De'Longhi Coffee Link</strong> app lets you start a drink remotely, create recipes, manage profiles and track maintenance. The machine offers <strong>16 customizable recipes</strong> and <strong>4 profiles</strong>. Its standout feature is the <strong>Bean Switch</strong> system: two interchangeable bean hoppers, for example a bold roast and a decaf, plus Bean Adapt, which suggests grind, dose and temperature depending on the beans.</p>
+<p><strong>Strengths:</strong> a complete app, switching beans without emptying the machine, large touchscreen, LatteCrema Hot carafe.</p>
+<p><strong>Limitations:</strong> a higher-end machine, and an app that takes a little setting up at first.</p>
+<p><strong>Who it's for:</strong> anyone who wants a truly smart coffee maker and switches between several coffees, especially a decaf in the evening.</p>
+
+<h3>Melitta Barista TS Smart: the most customizable</h3>
+<p>The Melitta Barista TS Smart connects over Bluetooth to the <strong>Melitta Connect</strong> app. It offers <strong>21 specialty drinks</strong> and can store up to <strong>8 user profiles</strong>, the most in this selection. Its freestyle mode lets you build your own recipe by choosing the amount of coffee, frothed milk and water, as well as the order in which they're poured.</p>
+<p><strong>Strengths:</strong> very deep customization, many profiles, an app that mirrors most of the machine's settings.</p>
+<p><strong>Limitations:</strong> Bluetooth only, so you need to be near the machine; the on-machine interface is busier than on a De'Longhi or Philips.</p>
+<p><strong>Who it's for:</strong> large families and enthusiasts who like to fine-tune every detail of their drink.</p>
+
+<h3>Jura E8: compact premium</h3>
+<p>The Jura E8 offers <strong>17 one-touch specialty drinks</strong>. It uses the <strong>P.E.P.</strong> extraction process for short coffees, the <strong>Professional Aroma Grinder</strong> and fine-foam technology for milk drinks. Connectivity isn't built in: you need to add the <strong>Smart Connect</strong> (Bluetooth) or WiFi Connect module, sold separately, to use the J.O.E. app.</p>
+<p><strong>Strengths:</strong> renowned build quality, espresso and ristretto highly rated by owners, comprehensive maintenance programs.</p>
+<p><strong>Limitations:</strong> premium positioning, connectivity as an add-on, brand-specific filter cartridge and cleaning products.</p>
+<p><strong>Who it's for:</strong> demanding coffee lovers who put cup quality and durability first, and want the option to add connectivity later.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Drinks</th><th>Milk system</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>De'Longhi Magnifica Evo ECAM290.51.B</td><td>7 one-touch recipes</td><td>LatteCrema Hot (carafe)</td><td>None</td><td>Best all-round</td></tr>
+<tr><td>Philips 5500 LatteGo EP5541/50</td><td>20 hot and iced</td><td>LatteGo (2 parts)</td><td>No remote control</td><td>Minimal maintenance</td></tr>
+<tr><td>Krups Evidence One EA895N10</td><td>12, including hot water</td><td>Automatic with tube</td><td>None</td><td>Families</td></tr>
+<tr><td>De'Longhi Rivelia EXAM440.55.B</td><td>16 recipes</td><td>LatteCrema Hot (carafe)</td><td>Coffee Link app</td><td>App control, two bean hoppers</td></tr>
+<tr><td>Melitta Barista TS Smart</td><td>21 specialty drinks</td><td>Automatic with tube</td><td>Bluetooth, Melitta Connect</td><td>Customization, 8 profiles</td></tr>
+<tr><td>Jura E8</td><td>17 specialty drinks</td><td>Automatic fine foam</td><td>Optional (Smart Connect, WiFi Connect)</td><td>Premium quality</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Paying for an app you won't use</strong>: many buyers open it in the first few days, then go back to the machine's buttons. If you start your coffee standing in front of the machine, a Magnifica Evo or a Philips 5500 is enough.</li>
+<li><strong>Assuming "smart" means Wi-Fi</strong>: on the Melitta Barista TS Smart or a Jura with Smart Connect, the link is Bluetooth and you need to be close by.</li>
+<li><strong>Neglecting milk-circuit cleaning</strong>: a poorly rinsed milk system clogs the machine and spoils the taste. Choose a system that matches how much cleaning you're willing to do.</li>
+<li><strong>Using flavoured or very oily beans</strong>: they clog the grinder. Stick to plain, medium-roast beans.</li>
+<li><strong>Forgetting the dimensions</strong>: the height with the lid open and the depth including the tank often cause problems under upper cabinets.</li>
+</ul>
+
+<h2>Maintenance and safety</h2>
+<p>Whatever the machine, a few habits extend its life: empty the grounds container and drip tray as soon as the display asks, rinse the brew unit every week if it's removable, and descale as often as the machine indicates, which depends on your water hardness. A compatible filter cartridge reduces scale buildup and spaces out descaling. Only use the descaling products recommended by the manufacturer: an unsuitable product can damage the seals and void the warranty.</p>
+<p>For safety, plug the machine directly into a wall outlet rather than a power bar or extension cord that's already in use, because these appliances draw a lot of power while heating. If you start a coffee remotely, check before you leave that a cup is in place. To round out your kitchen, our <a href="/ca/blog/comparatif-multicuiseur-connecte">smart multicooker comparison</a> covers appliances that fit the same approach.</p>
+
+<h2>Our verdict</h2>
+<ul>
+<li><strong>Best all-round choice:</strong> De'Longhi Magnifica Evo ECAM290.51.B, for its 13-setting grinder, LatteCrema Hot carafe and sheer simplicity.</li>
+<li><strong>Easiest to maintain:</strong> Philips 5500 LatteGo Series EP5541/50, with its two-part milk system and 20 drinks including iced coffees.</li>
+<li><strong>Ideal for families:</strong> Krups Evidence One EA895N10, for its 2.3-litre tank and two-cup milk drinks.</li>
+<li><strong>If you want a genuinely smart machine:</strong> De'Longhi Rivelia for the most complete app, Melitta Barista TS Smart for customization, Jura E8 with its module for the premium end.</li>
+</ul>
+<p>In short, start by choosing the milk system and capacity that suit you; connectivity should only come next, if it meets a real need. All our picks are gathered on the <a href="/ca/cuisine-connectee/cafetieres">smart coffee makers</a> page.</p>`,
   },
   faq: [
     {
@@ -757,6 +1066,9 @@ export const article: BlogArticle = {
         it: "Serve davvero una macchina caffè smart?",
         nl: "Heb ik echt een slim koffiezetapparaat nodig?",
         pl: "Czy naprawdę warto kupić inteligentny ekspres do kawy?",
+        sv: "Behöver jag verkligen en smart kaffemaskin?",
+        us: "Do I really need a smart coffee maker?",
+        ca: "Do I really need a smart coffee maker?",
       },
       answer: {
         fr: "Pas forcément. L'application est utile pour lancer un café à distance, gérer de nombreux profils ou créer des recettes très personnalisées. Si vous préparez votre café en étant devant la machine, un bon modèle sans connexion comme la De'Longhi Magnifica Evo ou la Philips 5500 LatteGo offre la même qualité en tasse.",
@@ -766,6 +1078,9 @@ export const article: BlogArticle = {
         it: "Non necessariamente. L'app è utile per avviare un caffè a distanza, gestire molti profili o creare ricette molto personalizzate. Se prepari il caffè davanti alla macchina, un buon modello senza connessione come la De'Longhi Magnifica Evo o la Philips 5500 LatteGo offre la stessa qualità in tazza.",
         nl: "Niet per se. De app is handig om op afstand koffie te starten, veel profielen te beheren of heel persoonlijke recepten te maken. Sta je toch voor de machine, dan geeft een goed model zonder verbinding zoals de De'Longhi Magnifica Evo of de Philips 5500 LatteGo dezelfde kwaliteit in het kopje.",
         pl: "Niekoniecznie. Aplikacja przydaje się, gdy chcesz zaparzać kawę zdalnie, obsługiwać wiele profili albo tworzyć bardzo dopracowane własne przepisy. Jeśli kawę robisz, stojąc przy ekspresie, dobry model bez łączności, np. De'Longhi Magnifica Evo czy Philips 5500 LatteGo, zaparzy równie dobrą kawę.",
+        sv: "Inte nödvändigtvis. Appen är praktisk om du vill starta kaffet på distans, hantera många profiler eller skapa mycket personliga recept. Gör du kaffet när du står vid maskinen ger en bra modell utan uppkoppling, som De'Longhi Magnifica Evo eller Philips 5500 LatteGo, samma kvalitet i koppen.",
+        us: "Not necessarily. The app is useful for starting a coffee remotely, managing lots of profiles or creating highly customized recipes. If you make your coffee standing in front of the machine, a good model without connectivity, such as the De'Longhi Magnifica Evo or Philips 5500 LatteGo, delivers the same cup quality.",
+        ca: "Not necessarily. The app is useful for starting a coffee remotely, managing many profiles or creating highly customized recipes. If you make your coffee standing in front of the machine, a good model without connectivity such as the De'Longhi Magnifica Evo or Philips 5500 LatteGo delivers the same cup quality.",
       },
     },
     {
@@ -777,6 +1092,9 @@ export const article: BlogArticle = {
         it: "Bluetooth o Wi-Fi: che differenza fa per una macchina da caffè?",
         nl: "Bluetooth of wifi: wat is het verschil bij een koffiezetapparaat?",
         pl: "Ekspres do kawy z Bluetooth czy z Wi-Fi: jaka jest różnica?",
+        sv: "Bluetooth eller wifi: vad är skillnaden för en kaffemaskin?",
+        us: "Bluetooth or Wi-Fi: what difference does it make for a coffee maker?",
+        ca: "Bluetooth or Wi-Fi: what difference does it make for an espresso machine?",
       },
       answer: {
         fr: "Le Bluetooth ne fonctionne qu'à quelques mètres de la machine : pratique pour régler ses recettes depuis la cuisine ou le salon, mais pas pour lancer un café depuis l'étage. Le Wi-Fi passe par votre box et offre plus de liberté. Sur la Jura E8, les deux options existent sous forme de modules vendus séparément.",
@@ -786,6 +1104,9 @@ export const article: BlogArticle = {
         it: "Il Bluetooth funziona solo a pochi metri dalla macchina: comodo per regolare le ricette dalla cucina o dal soggiorno, ma non per avviare un caffè dal piano di sopra. Il Wi-Fi passa dal router e offre più libertà. Sulla Jura E8 entrambe le opzioni sono disponibili come moduli venduti separatamente.",
         nl: "Bluetooth werkt alleen binnen enkele meters van de machine: handig om vanuit de keuken of woonkamer recepten aan te passen, maar niet om vanaf boven koffie te starten. Wifi loopt via je router en geeft meer vrijheid. Voor de Jura E8 bestaan beide opties als apart verkrijgbare modules.",
         pl: "Bluetooth działa tylko w promieniu kilku metrów od ekspresu: wystarczy, by ustawiać przepisy z kuchni lub salonu, ale nie, by zaparzyć kawę z piętra. Wi-Fi łączy ekspres przez Twój router i daje więcej swobody. W ekspresie Jura E8 dostępne są obie opcje w postaci modułów sprzedawanych osobno.",
+        sv: "Bluetooth fungerar bara inom några meter från maskinen: smidigt för att justera recept från köket eller vardagsrummet, men inte för att starta kaffet från övervåningen. Wifi går via din router och ger större frihet. Till Jura E8 finns båda alternativen som moduler som säljs separat.",
+        us: "Bluetooth only works within a few yards of the machine: handy for adjusting recipes from the kitchen or living room, but not for starting a coffee from upstairs. Wi-Fi goes through your router and gives you more freedom. On the Jura E8, both options are available as modules sold separately.",
+        ca: "Bluetooth only works within a few metres of the machine: handy for adjusting recipes from the kitchen or living room, but not for starting a coffee from upstairs. Wi-Fi goes through your router and offers more freedom. On the Jura E8, both options are available as modules sold separately.",
       },
     },
     {
@@ -797,6 +1118,9 @@ export const article: BlogArticle = {
         it: "Quale sistema latte è il più facile da pulire?",
         nl: "Welk melksysteem is het makkelijkst schoon te maken?",
         pl: "Który system mleczny najłatwiej wyczyścić?",
+        sv: "Vilket mjölksystem är lättast att rengöra?",
+        us: "Which milk system is the easiest to clean?",
+        ca: "Which milk system is the easiest to clean?",
       },
       answer: {
         fr: "Le LatteGo de Philips est le plus simple : deux pièces sans tube, à rincer sous le robinet ou au lave-vaisselle. Les carafes LatteCrema de De'Longhi se nettoient bien aussi, avec un rinçage automatique. Les systèmes à tube, comme sur la Krups Evidence One ou la Melitta Barista TS Smart, demandent un rinçage après chaque usage.",
@@ -806,6 +1130,9 @@ export const article: BlogArticle = {
         it: "Il LatteGo di Philips è il più semplice: due pezzi senza tubi da sciacquare sotto il rubinetto o in lavastoviglie. Anche le caraffe LatteCrema di De'Longhi si puliscono bene, con risciacquo automatico. I sistemi a tubo, come sulla Krups Evidence One o sulla Melitta Barista TS Smart, vanno risciacquati dopo ogni uso.",
         nl: "De LatteGo van Philips is het eenvoudigst: twee onderdelen zonder slangetjes die je onder de kraan of in de vaatwasser schoonmaakt. De LatteCrema-karaffen van De'Longhi zijn ook makkelijk schoon te houden, met automatische spoeling. Systemen met een slangetje, zoals bij de Krups Evidence One of de Melitta Barista TS Smart, moeten na elk gebruik gespoeld worden.",
         pl: "Najprostszy jest LatteGo Philipsa: dwie części bez rurek, które wystarczy opłukać pod kranem lub umyć w zmywarce. Dzbanki LatteCrema De'Longhi też łatwo utrzymać w czystości dzięki automatycznemu płukaniu. Systemy z rurką, takie jak w ekspresach Krups Evidence One czy Melitta Barista TS Smart, trzeba płukać po każdym użyciu.",
+        sv: "Philips LatteGo är enklast: två delar utan slang som du sköljer under kranen eller diskar i diskmaskinen. De'Longhis LatteCrema-karaffer är också lätta att rengöra och har automatisk sköljning. System med slang, som på Krups Evidence One och Melitta Barista TS Smart, behöver sköljas efter varje användning.",
+        us: "Philips' LatteGo is the simplest: two tube-free parts to rinse under the faucet or put in the dishwasher. De'Longhi's LatteCrema carafes are also easy to clean, with an automatic rinse. Tube-based systems, as on the Krups Evidence One or Melitta Barista TS Smart, need rinsing after every use.",
+        ca: "Philips' LatteGo is the simplest: two tube-free parts to rinse under the faucet or put in the dishwasher. De'Longhi's LatteCrema carafes are also easy to clean, with an automatic rinse. Tube-based systems, as on the Krups Evidence One or Melitta Barista TS Smart, need rinsing after every use.",
       },
     },
     {
@@ -817,6 +1144,9 @@ export const article: BlogArticle = {
         it: "Una macchina caffè smart funziona senza Internet?",
         nl: "Werkt een slim koffiezetapparaat zonder internet?",
         pl: "Czy inteligentny ekspres do kawy działa bez internetu?",
+        sv: "Fungerar en smart kaffemaskin utan internet?",
+        us: "Does a smart coffee maker work without internet?",
+        ca: "Does a smart coffee maker work without the internet?",
       },
       answer: {
         fr: "Oui. Toutes les machines de ce guide se commandent directement depuis leur écran ou leurs boutons. L'application ajoute des fonctions (lancement à distance, recettes, suivi de l'entretien), mais une panne de connexion n'empêche pas de préparer son café.",
@@ -826,6 +1156,9 @@ export const article: BlogArticle = {
         it: "Sì. Tutte le macchine di questa guida si usano direttamente dal display o dai tasti. L'app aggiunge funzioni (avvio a distanza, ricette, monitoraggio della manutenzione), ma un'interruzione della connessione non impedisce di preparare il caffè.",
         nl: "Ja. Alle machines in deze gids bedien je rechtstreeks via het display of de knoppen. De app voegt functies toe (op afstand starten, recepten, onderhoud opvolgen), maar een verbindingsstoring houdt je niet tegen om koffie te zetten.",
         pl: "Tak. Wszystkie ekspresy z tego poradnika obsłużysz bezpośrednio z wyświetlacza lub przycisków. Aplikacja daje dodatkowe funkcje (zdalne uruchamianie, przepisy, przypomnienia o konserwacji), ale bez połączenia z internetem kawę zrobisz tak samo.",
+        sv: "Ja. Alla maskiner i den här guiden kan styras direkt från displayen eller knapparna. Appen ger extra funktioner (start på distans, recept, koll på skötseln), men ett avbrott i uppkopplingen hindrar dig inte från att göra kaffe.",
+        us: "Yes. Every machine in this guide can be operated directly from its display or buttons. The app adds features (remote start, recipes, maintenance tracking), but losing your connection won't stop you from making coffee.",
+        ca: "Yes. Every machine in this guide can be operated directly from its display or buttons. The app adds features (remote start, recipes, maintenance tracking), but a connection outage does not stop you from making coffee.",
       },
     },
     {
@@ -837,6 +1170,9 @@ export const article: BlogArticle = {
         it: "Si può usare qualsiasi chicco di caffè?",
         nl: "Kan ik elke koffieboon gebruiken?",
         pl: "Czy można używać dowolnych ziaren kawy?",
+        sv: "Kan man använda vilka kaffebönor som helst?",
+        us: "Can I use any type of coffee bean?",
+        ca: "Can I use any type of coffee bean?",
       },
       answer: {
         fr: "Presque. Arabica, robusta, mélange ou origine unique fonctionnent tous. Évitez en revanche les grains aromatisés et les torréfactions très foncées et huileuses, qui encrassent le broyeur. Après un changement de paquet, ajustez la mouture progressivement, un cran à la fois.",
@@ -846,6 +1182,9 @@ export const article: BlogArticle = {
         it: "Quasi. Arabica, robusta, miscele e monorigine funzionano tutti. Evita però i chicchi aromatizzati e le tostature molto scure e oleose, che intasano il macinacaffè. Dopo aver cambiato pacco, regola la macinatura gradualmente, un livello alla volta.",
         nl: "Bijna. Arabica, robusta, blends en single origins werken allemaal. Vermijd wel gearomatiseerde bonen en zeer donkere, olieachtige brandingen, want die verstoppen de molen. Pas na een nieuwe zak de maalgraad geleidelijk aan, telkens één stand.",
         pl: "Prawie. Arabika, robusta, mieszanki czy kawy single origin sprawdzą się bez problemu. Unikaj natomiast ziaren aromatyzowanych oraz bardzo ciemno palonych i oleistych, bo zapychają młynek. Po otwarciu nowej paczki zmieniaj stopień zmielenia stopniowo, o jedną pozycję naraz.",
+        sv: "Nästan. Arabica, robusta, blandningar och single origin fungerar alla. Undvik däremot smaksatta bönor och mycket mörka, oljiga rostningar, som sätter igen kvarnen. När du byter till ett nytt paket justerar du malningsgraden gradvis, ett steg i taget.",
+        us: "Almost. Arabica, robusta, blends and single origins all work. Avoid flavored beans and very dark, oily roasts, though, since they clog the grinder. After switching to a new bag, adjust the grind gradually, one setting at a time.",
+        ca: "Almost. Arabica, robusta, blends and single origins all work. Avoid flavoured beans and very dark, oily roasts, though, as they clog the grinder. After switching to a new bag, adjust the grind gradually, one setting at a time.",
       },
     },
     {
@@ -857,6 +1196,9 @@ export const article: BlogArticle = {
         it: "Ogni quanto bisogna decalcificare una superautomatica?",
         nl: "Hoe vaak moet je een volautomaat ontkalken?",
         pl: "Jak często odkamieniać ekspres automatyczny?",
+        sv: "Hur ofta ska man avkalka en helautomatisk kaffemaskin?",
+        us: "How often should you descale a super-automatic espresso machine?",
+        ca: "How often should you descale a super-automatic espresso machine?",
       },
       answer: {
         fr: "Cela dépend de la dureté de votre eau et du nombre de cafés préparés : la machine affiche une alerte lorsqu'il est temps. Une cartouche filtrante compatible espace nettement les détartrages. Utilisez toujours le détartrant recommandé par le fabricant pour préserver les joints et la garantie.",
@@ -866,6 +1208,9 @@ export const article: BlogArticle = {
         it: "Dipende dalla durezza dell'acqua e da quanti caffè prepari: la macchina mostra un avviso quando è il momento. Una cartuccia filtrante compatibile dirada sensibilmente le decalcificazioni. Usa sempre il decalcificante consigliato dal produttore per proteggere guarnizioni e garanzia.",
         nl: "Dat hangt af van de hardheid van je water en hoeveel koffie je zet: de machine geeft een melding als het tijd is. Een passend waterfilter zorgt dat je duidelijk minder vaak hoeft te ontkalken. Gebruik altijd de ontkalker die de fabrikant aanbeveelt, om de afdichtingen en de garantie te beschermen.",
         pl: "To zależy od twardości wody i liczby przygotowanych kaw – ekspres sam przypomni o odkamienianiu, gdy przyjdzie na nie pora. Zgodny wkład filtrujący wyraźnie wydłuża odstępy między kolejnymi odkamienianiami. Zawsze używaj odkamieniacza zalecanego przez producenta: ochronisz uszczelki i nie stracisz gwarancji.",
+        sv: "Det beror på hur hårt vattnet är och hur många koppar du gör: maskinen visar en varning när det är dags. Med en kompatibel filterpatron dröjer det betydligt längre mellan avkalkningarna. Använd alltid det avkalkningsmedel som tillverkaren rekommenderar, så skyddar du packningarna och behåller garantin.",
+        us: "It depends on how hard your water is and how many coffees you make: the machine shows an alert when it's time. A compatible water filter cartridge means you'll descale noticeably less often. Always use the descaler the manufacturer recommends to protect the seals and the warranty.",
+        ca: "It depends on your water hardness and how many coffees you make: the machine shows an alert when it is time. A compatible filter cartridge noticeably spaces out descaling. Always use the descaler recommended by the manufacturer to protect the seals and the warranty.",
       },
     },
   ],

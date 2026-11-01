@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: "Unità interna di un condizionatore split Inverter a parete",
         nl: "Binnenunit van een inverter-splitairco aan de wand",
         pl: "Jednostka wewnętrzna ściennego klimatyzatora split z technologią Inverter",
+        sv: "Inomhusdelen till en väggmonterad, inverterstyrd split-AC",
+        us: "Indoor unit of a wall-mounted inverter mini-split air conditioner",
+        ca: "Indoor unit of a wall-mounted Inverter ductless mini-split air conditioner",
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: "Miglior condizionatore a basso consumo 2026: 5 split Inverter a confronto",
     nl: "Beste zuinige airco 2026: 5 inverter-splitunits vergeleken",
     pl: "Najlepszy energooszczędny klimatyzator 2026: porównanie 5 splitów z inwerterem",
+    sv: "Bästa energisnåla AC 2026: 5 inverterstyrda split-AC jämförda",
+    us: "Most Energy-Efficient Air Conditioners of 2026: 5 Mini-Splits Compared",
+    ca: "Most Energy-Efficient Air Conditioner 2026: 5 Mini-Splits Compared",
   },
   excerpt: {
     fr: "Quel climatiseur basse consommation choisir en 2026 ? Classe A+++, SEER, SCOP, Inverter et puissance : comparatif de 5 splits muraux Mitsubishi Electric, Haier, Daikin et LG d’après les données officielles.",
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: "Quale condizionatore a basso consumo scegliere nel 2026? Classe A+++, SEER, SCOP, Inverter e potenza: confronto di 5 split a parete Mitsubishi Electric, Haier, Daikin e LG sulla base dei dati ufficiali.",
     nl: "Welke zuinige airco kies je in 2026? Energieklasse A+++, SEER, SCOP, inverter en het juiste vermogen uitgelegd, met 5 splitunits van Mitsubishi Electric, Haier, Daikin en LG vergeleken op basis van officiële gegevens.",
     pl: "Jaki energooszczędny klimatyzator wybrać w 2026 roku? Klasa A+++, współczynniki SEER i SCOP, inwerter i dobór mocy: porównujemy 5 klimatyzatorów ściennych typu split marek Mitsubishi Electric, Haier, Daikin i LG na podstawie oficjalnych danych.",
+    sv: "Vilken energisnål AC ska du köpa 2026? Vi förklarar energiklass A+++, SEER, SCOP, inverterteknik och rätt dimensionering, och jämför 5 väggmonterade split-AC från Mitsubishi Electric, Haier, Daikin och LG utifrån officiella uppgifter.",
+    us: "Which energy-efficient air conditioner should you buy in 2026? The EU A+++ class, SEER, SCOP, inverter technology and sizing explained, with 5 ductless mini-splits from Mitsubishi Electric, Haier, Daikin and LG compared on official data.",
+    ca: "Which energy-efficient air conditioner should you buy in 2026? EU A+++ class, SEER, SCOP, Inverter and sizing explained, with 5 wall-mounted mini-splits from Mitsubishi Electric, Haier, Daikin and LG compared on official data.",
   },
   content: {
     es: `<p><strong>El mejor aire acondicionado bajo consumo en 2026 es un split Inverter de pared con clase A+++ en frío y un SEER de 8,5 o más</strong>, como el Mitsubishi Electric MSZ-AY35VGK, el Haier Flexis Plus o el Daikin Perfera FTXM35R. Si además vas a usarlo como calefacción en invierno, mira el SCOP: el Daikin Perfera es el único de esta selección con clase A+++ también en calor.</p>
@@ -916,6 +925,381 @@ export const article: BlogArticle = {
 
 <h2>Werdykt</h2>
 <p>W większości domów najlepiej sprawdzi się <strong>Mitsubishi Electric MSZ-AY35VGK</strong> – najbardziej uniwersalny klimatyzator energooszczędny w zestawieniu: klasa A+++ w chłodzeniu, bardzo cicha praca i opinia niezawodnego sprzętu. <strong>Haier Flexis Plus</strong> oferuje tę samą klasę A+++ w chłodzeniu za mniejsze pieniądze, a jeśli chcesz też ogrzewać, logicznym wyborem jest <strong>Daikin Perfera FTXM35R</strong> z podwójną klasą A+++. <strong>LG DUALCOOL AI Air</strong> przekonuje automatyką, a <strong>Daikin Sensira</strong> wystarczy przy umiarkowanym użytkowaniu i ograniczonym budżecie. Niezależnie od wybranego modelu prawidłowy montaż, rozsądnie ustawiona temperatura i czyste filtry znaczą tyle samo co etykieta.</p>`,
+    sv: `<p><strong>Den bästa energisnåla AC:n 2026 är en väggmonterad split-AC med inverter, klassad A+++ för kyla och med ett SEER på 8,5 eller högre</strong>, till exempel Mitsubishi Electric MSZ-AY35VGK, Haier Flexis Plus eller Daikin Perfera FTXM35R. Ska du även värma med den på vintern bör du titta på SCOP: Daikin Perfera är den enda i urvalet som har A+++ även för värme.</p>
+<p>Jämförelsen bygger på tillverkarnas officiella produktblad och energimärkningar, publicerade oberoende utvärderingar och verifierade köparomdömen. Vi gör inga egna mätningar: alla effektivitetssiffror vi anger kommer från tillverkarnas dokumentation eller från Eurovent-certifieringen. Vi har fokuserat på aggregat på ungefär 3,5 kW (12 000 BTU), den vanligaste storleken för ett vardagsrum eller ett stort sovrum.</p>
+
+<h2>Så känner du igen en energisnål AC</h2>
+<p>Ingen luftkonditionering kyler gratis: att flytta värme från inomhus till utomhus kräver alltid el. Det som skiljer en <strong>energisnål AC</strong> från andra är hur mycket el den behöver för att ge samma kyla. Fyra kriterier säger det mesta.</p>
+
+<h3>Energimärkningen: en klass för kyla, en för värme</h3>
+<p>För split-aggregat upp till 12 kW visar EU:s energimärkning två klasser, eftersom ett aggregat inte arbetar på samma sätt när det kyler som när det värmer:</p>
+<ul>
+<li><strong>Klass för kyla</strong>, som räknas fram ur SEER. För A+++ krävs ett SEER på minst 8,5; A++ gäller från 6,1 till 8,5.</li>
+<li><strong>Klass för värme</strong>, som räknas fram ur SCOP i medelklimat. För A+++ krävs ett SCOP på minst 5,1; A++ gäller från 4,6 till 5,1 och A+ från 4,0 till 4,6.</li>
+</ul>
+<p>Ett vanligt misstag är att bara titta på klassen för kyla. Om aggregatet också kan värma (en luft/luft-värmepump) och du använder det på vintern väger värmeklassen minst lika tungt på elräkningen, ofta tyngre, eftersom det i regel är betydligt fler timmar med uppvärmning än med kylning.</p>
+
+<h3>SEER och SCOP: effektiviteten över en hel säsong</h3>
+<p><strong>SEER</strong> (Seasonal Energy Efficiency Ratio) anger hur mycket kyla aggregatet ger per förbrukad kWh under en normal sommar. <strong>SCOP</strong> gör samma sak för värme på vintern. Ett SEER på 8,5 betyder att aggregatet i genomsnitt levererar 8,5 kWh kyla per kWh el. Går du från ett SEER på 6,5 till 8,7 minskar elförbrukningen för kyla med ungefär en fjärdedel, med samma komfort.</p>
+
+<h3>Inverter: ett måste</h3>
+<p>En äldre on/off-AC kör kompressorn på full effekt, stänger av när den inställda temperaturen är nådd och startar sedan om för fullt igen. Med <strong>inverterteknik</strong> varvtalsstyrs kompressorn steglöst: när rummet har rätt temperatur saktar den ner i stället för att stanna. Resultatet blir färre effekttoppar, jämnare temperatur och mindre ljud. Alla split-aggregat av god kvalitet har i dag inverter, även de fem i den här jämförelsen.</p>
+
+<h3>Köldmediet R-32</h3>
+<p>Dagens split-aggregat använder <strong>R-32</strong>, som har en global uppvärmningspotential (GWP) på 675, jämfört med 2 088 för det äldre R-410A. Det överför värme bättre och kräver en mindre fyllning. Alla modeller i urvalet använder det.</p>
+
+<h2>Split eller portabel: split-AC:n drar betydligt mindre el</h2>
+<p>I samma rum är en <strong>split-AC</strong> (väggmonterad inomhusdel och kompressorn utomhus) klart effektivare än en portabel AC med en slang. Den portabla har kompressorn kvar i rummet, och utblåsslangen skapar ett undertryck som drar in varm uteluft, så den behöver betydligt mer el för samma kyla. Dess energimärkning bygger dessutom på en annan skala, så ett ”A+++” på en portabel AC går inte att jämföra med samma klass på en split-AC.</p>
+<p>Bor du i hyresrätt eller kan du inte borra i fasaden är en portabel AC ändå ett rimligt alternativ: de bästa hittar du i vårt urval av <a href="/sv/confort-air/climatiseurs-mobiles">portabel luftkonditionering med app</a>, och tvekar du fortfarande kan du läsa vår guide <a href="/sv/blog/climatiseur-mobile-vs-ventilateur">portabel AC eller fläkt</a>.</p>
+
+<h2>Välj rätt kyleffekt: varken för mycket eller för lite</h2>
+<p>Fel effekt äter upp en stor del av besparingen. Ett överdimensionerat aggregat går nästan hela tiden på lägsta effekt med korta cykler; ett underdimensionerat går för fullt utan att nå den inställda temperaturen. Som tumregel kan du räkna med ungefär <strong>100 W kyleffekt per kvadratmeter</strong>, med extra marginal om rummet är mycket soligt, ligger direkt under taket eller har stora fönsterytor.</p>
+<table>
+<thead>
+<tr><th>Yta</th><th>Kyleffekt</th><th>Ungefärlig motsvarighet</th></tr>
+</thead>
+<tbody>
+<tr><td>10–15 m² (sovrum)</td><td>2,5 kW</td><td>9 000 BTU/h</td></tr>
+<tr><td>15–25 m² (litet vardagsrum)</td><td>3,5 kW</td><td>12 000 BTU/h</td></tr>
+<tr><td>25–35 m² (stort vardagsrum)</td><td>5,0 kW</td><td>18 000 BTU/h</td></tr>
+<tr><td>35–50 m² (öppen planlösning)</td><td>7,0 kW</td><td>24 000 BTU/h</td></tr>
+</tbody>
+</table>
+<p>Alla fem serierna i jämförelsen finns i flera effekter; siffrorna gäller versionen på ungefär 3,5 kW.</p>
+
+<h2>De 5 bästa energisnåla AC-aggregaten 2026</h2>
+
+<h3>1. Mitsubishi Electric MSZ-AY35VGK: bäst allround</h3>
+<p>AY-serien från Mitsubishi Electric är ett riktmärke för effektivitet i sin klass. I utförandet på 3,5 kW anger tillverkaren ett <strong>SEER på 8,7 (A+++)</strong> och ett <strong>SCOP på 4,7 (A++)</strong>, med R-32 och värmedrift ner till −20 °C utomhus. Inomhusdelen går ner till 18 dB(A) på lägsta fläkthastighet, vilket är mycket tyst för ett sovrum. Versionen ”VGK” har inbyggt wifi-gränssnitt för styrning via appen MELCloud.</p>
+<ul>
+<li><strong>Styrkor:</strong> kyleffektivitet bland de högsta på marknaden, tyst gång, gott rykte för driftsäkerhet och ett brett nät av installatörer.</li>
+<li><strong>Svagheter:</strong> bara A++ för värme; ligger i premiumsegmentet.</li>
+<li><strong>Passar för:</strong> dig som vill spara så mycket som möjligt på sommaren och vill ha ett aggregat som håller länge, även vid flitig användning.</li>
+</ul>
+
+<h3>2. Haier Flexis Plus 3,5 kW: A+++ till lägre pris</h3>
+<p>Haier Flexis Plus (inomhusdel AS35S2SF1FA) når ett <strong>SEER på 8,5 (A+++)</strong> och ett <strong>SCOP på 4,6 (A++)</strong> enligt tillverkarens produktblad, med en årlig elförbrukning för kyla på 144 kWh enligt energimärkningen. Den använder R-32, har inbyggt wifi med appen hOn och sticker ut med sin platta design i vitt, mattsvart eller silver.</p>
+<ul>
+<li><strong>Styrkor:</strong> A+++ för kyla i mellanprisklassen, genomarbetad design, wifi som standard.</li>
+<li><strong>Svagheter:</strong> något lägre SCOP än Daikin Perfera; glesare servicenät än de japanska märkena.</li>
+<li><strong>Passar för:</strong> dig som söker den bästa balansen mellan effektivitet och pris för att kyla vardagsrummet.</li>
+</ul>
+
+<h3>3. Daikin Perfera FTXM35R: bäst om du också värmer</h3>
+<p>Daikin Perfera (FTXM35R med utomhusdelen RXM35R9) är den enda i urvalet som har <strong>A+++ för både kyla och värme</strong>: Eurovent certifierar ett <strong>SEER på 8,65</strong> och ett <strong>SCOP på 5,10</strong>, med 137 kWh per år för kyla och värmedrift ner till −20 °C utomhus. Den styrs med appen Onecta och har Daikins luftreningsteknik Flash Streamer.</p>
+<ul>
+<li><strong>Styrkor:</strong> jämförelsens bästa effektivitet för värme, perfekt som huvudsaklig värmepump i ett rum; ett ledande märke inom luftkonditionering.</li>
+<li><strong>Svagheter:</strong> dyrast i gruppen; försprånget mot Mitsubishi märks egentligen bara om den används mycket på vintern.</li>
+<li><strong>Passar för:</strong> dig som bor där vintrarna är kalla, eller som vill ersätta elelement med en luft/luft-värmepump.</li>
+</ul>
+
+<h3>4. LG DUALCOOL AI Air 3,5 kW: smartast</h3>
+<p>LG DUALCOOL AI Air anger ett <strong>SEER på 7,6</strong> och ett <strong>SCOP på 4,6</strong>, alltså <strong>A++ för både kyla och värme</strong>, med ungefär 161 kWh per år för kyla enligt energimärkningen. Den största fördelen är en radarsensor som känner av om någon är i rummet och var personerna befinner sig, för att rikta luftflödet och anpassa effekten. Därtill kommer joniseraren Plasmaster Ionizer++ och styrning via appen LG ThinQ.</p>
+<ul>
+<li><strong>Styrkor:</strong> smarta funktioner som gör att du slipper kyla ett tomt rum, bra balans mellan kyla och värme, enkel att koppla in i ett smart hem.</li>
+<li><strong>Svagheter:</strong> lägre SEER än de tre första, och därmed något högre elförbrukning på sommaren.</li>
+<li><strong>Passar för:</strong> dig som vill ha ett uppkopplat aggregat som sparar energi genom automatik snarare än enbart genom höga effektivitetssiffror.</li>
+</ul>
+
+<h3>5. Daikin Sensira FTXF35E: instegsmodellen från ett stort märke</h3>
+<p>Sensira är Daikins instegsserie. FTXF35E anger ett <strong>SEER på 6,5 (A++)</strong> och ett <strong>SCOP på 4,2 (A+)</strong>, med 188 kWh per år för kyla enligt energimärkningen. Den använder R-32 och har Daikins servicenät i ryggen, men saknar de mer avancerade funktionerna i Perfera.</p>
+<ul>
+<li><strong>Styrkor:</strong> kvalitet från ett ledande märke till en mindre budget, enkel och pålitlig.</li>
+<li><strong>Svagheter:</strong> lägst effektivitet i urvalet, särskilt för värme (A+).</li>
+<li><strong>Passar för:</strong> ett sovrum eller ett fritidshus med måttlig användning, främst på sommaren.</li>
+</ul>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell (3,5 kW)</th><th>Kyla: SEER/klass</th><th>Värme: SCOP/klass</th><th>Årsförbrukning kyla (energimärkning)</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Mitsubishi Electric MSZ-AY35VGK</strong></td><td>8,7 / A+++</td><td>4,7 / A++</td><td>≈ 141 kWh</td><td>Största besparingen på sommaren</td></tr>
+<tr><td><strong>Haier Flexis Plus 3,5 kW</strong></td><td>8,5 / A+++</td><td>4,6 / A++</td><td>144 kWh</td><td>A+++ i mellanprisklassen</td></tr>
+<tr><td><strong>Daikin Perfera FTXM35R</strong></td><td>8,65 / A+++</td><td>5,10 / A+++</td><td>137 kWh</td><td>Året runt, även värme</td></tr>
+<tr><td><strong>LG DUALCOOL AI Air 3,5 kW</strong></td><td>7,6 / A++</td><td>4,6 / A++</td><td>161 kWh</td><td>Smarta funktioner</td></tr>
+<tr><td><strong>Daikin Sensira FTXF35E</strong></td><td>6,5 / A++</td><td>4,2 / A+</td><td>188 kWh</td><td>Snäv budget, måttlig användning</td></tr>
+</tbody>
+</table>
+<p><em>Tillverkarens uppgifter eller Eurovent-certifiering för versionen på ungefär 3,5 kW. Förbrukningen för Mitsubishi är beräknad med energimärkningens metod (effekt × 350 tim ÷ SEER).</em></p>
+
+<h2>Verklig elförbrukning: så läser du kWh-siffran på energimärkningen</h2>
+<p>Den årliga elförbrukningen för kyla på energimärkningen räknas fram på ett standardiserat sätt: den motsvarar ungefär 350 timmar per år på full effekt, delat med SEER. Siffran är till för att jämföra modeller, inte för att förutsäga exakt vad det kostar dig. I varmare klimat längre söderut, med långa somrar och ett aggregat som går de flesta kvällar, kan den verkliga förbrukningen bli betydligt högre; med svala somrar blir den lägre.</p>
+<p>Vill du uppskatta kostnaden multiplicerar du kWh-siffran med kWh-priset i ditt elavtal och justerar efter hur många timmar du kör aggregatet. Det viktiga är skillnaden mellan modellerna: mellan Daikin Sensira (188 kWh) och Daikin Perfera (137 kWh) skiljer det ungefär 50 kWh per år bara för kyla. För värme är skillnaden större: enligt produktbladen anger Sensira ungefär 867 kWh per år för värme mot 686 kWh för Perfera, alltså nästan 180 kWh skillnad varje vinter.</p>
+
+<h2>Misstagen som driver upp elförbrukningen</h2>
+<ul>
+<li><strong>Att ställa termostaten för lågt.</strong> 25–27 °C är en behaglig inställning på sommaren; energisparguider uppskattar att varje grad lägre ökar förbrukningen med ungefär 7–8 %. Att ställa in 18 °C kyler inte snabbare, det får bara aggregatet att arbeta hårdare.</li>
+<li><strong>Att bara välja efter pris.</strong> Ett billigt aggregat med lågt SEER kostar lite i inköp men mer varje sommar.</li>
+<li><strong>Att överdimensionera effekten</strong> i tron att det kyler bättre: det ger korta cykler och gör att du går miste om fördelen med invertern.</li>
+<li><strong>Att glömma filtren.</strong> Smutsiga filter minskar luftflödet och tvingar aggregatet att jobba hårdare. Rengör dem med några veckors mellanrum under säsongen.</li>
+<li><strong>Att kyla med öppna dörrar och fönster</strong> eller med solen rakt in: dra ner persienner och rullgardiner under dagens varmaste timmar.</li>
+<li><strong>Att låta den gå i ett tomt hem.</strong> Använd schemaläggning eller appen så att den startar strax innan du kommer hem; vår <a href="/sv/blog/guide-domotique-economie-energie-2026">guide till energisparande i det smarta hemmet</a> visar hur du automatiserar det.</li>
+</ul>
+<p>Ett enkelt knep: kombinera luftkonditioneringen med en takfläkt eller golvfläkt. Luft som rör sig känns svalare, så du kan höja den inställda temperaturen en eller två grader utan att det blir mindre behagligt.</p>
+
+<h2>Installation, skötsel och säkerhet</h2>
+<p>En split-AC håller bara det den lovar om den är rätt installerad. Hantering av köldmedium får enligt EU:s F-gasförordning bara utföras av certifierade tekniker, och elanslutningen ska följa de installationsregler som gäller där du bor: låt alltid en behörig installatör sköta monteringen, så får du också de handlingar som krävs för garantin.</p>
+<ul>
+<li><strong>Utomhusdelen:</strong> helst i skugga och med fritt utrymme runt om; instängd i en vrå utan ventilation tappar den i effektivitet.</li>
+<li><strong>Inomhusdelen:</strong> högt upp, en bit från värmekällor och riktad så att luften sprids i hela rummet, utan att blåsa rakt mot sängen eller soffan.</li>
+<li><strong>Skötsel:</strong> rengör filtren regelbundet och låt en fackman göra återkommande service (värmeväxlare, kondensavlopp, kretsens täthet), särskilt nära havet eller i dammiga miljöer.</li>
+<li><strong>Tillstånd:</strong> i ett flerbostadshus kan du behöva föreningens eller hyresvärdens godkännande. Kontrollera också vilka regler som gäller för fasaden innan du sätter upp en utomhusdel där.</li>
+</ul>
+
+<h2>Omdöme</h2>
+<p>För de flesta hem är <strong>Mitsubishi Electric MSZ-AY35VGK</strong> den mest balanserade energisnåla AC:n: A+++ för kyla, mycket tyst och känd för att vara driftsäker. <strong>Haier Flexis Plus</strong> ger samma A+++ för kyla till en mindre budget, och <strong>Daikin Perfera FTXM35R</strong> är det självklara valet om du också ska värma med den, tack vare dubbla A+++. <strong>LG DUALCOOL AI Air</strong> lockar med sin automatik, och <strong>Daikin Sensira</strong> räcker för måttlig användning när budgeten är snäv. Oavsett vad du väljer betyder en bra installation, en rimlig temperaturinställning och rena filter lika mycket som energimärkningen.</p>`,
+    us: `<p><strong>The most energy-efficient air conditioner you can buy in 2026 is a wall-mounted inverter mini-split rated A+++ for cooling on the European energy label, with a SEER of 8.5 or higher</strong>, such as the Mitsubishi Electric MSZ-AY35VGK, the Haier Flexis Plus or the Daikin Perfera FTXM35R. If you also plan to heat with it in winter, check the SCOP: the Daikin Perfera is the only model in this roundup rated A+++ for heating too.</p>
+<p>This comparison is based on manufacturers’ official spec sheets and energy labels, published independent reviews and verified owner feedback. We don’t take our own measurements: every efficiency figure quoted comes from manufacturer documentation or Eurovent certification. We focus on units of about 3.5 kW (12,000 BTU/h, or 1 ton), the most common size for a living room or a large bedroom.</p>
+
+<h2>How to spot an energy-efficient air conditioner</h2>
+<p>No air conditioner cools for free: moving heat from inside to outside always takes electricity. What sets an <strong>energy-efficient air conditioner</strong> apart is how little electricity it needs to deliver the same amount of cooling. Four things sum it up.</p>
+
+<h3>The energy label: one class for cooling, one for heating</h3>
+<p>For mini-splits up to 12 kW, the European energy label shows two separate classes, because a unit performs differently when cooling and when heating:</p>
+<ul>
+<li><strong>Cooling class</strong>, based on SEER. A+++ requires a SEER of at least 8.5; A++ covers 6.1 to 8.5.</li>
+<li><strong>Heating class</strong>, based on SCOP in the average climate zone. A+++ requires a SCOP of at least 5.1; A++ covers 4.6 to 5.1; A+ covers 4.0 to 4.6.</li>
+</ul>
+<p>A common mistake is looking only at the cooling class. If the unit is a heat pump and you’ll use it in winter, the heating class matters just as much for your bill, often more, because heating hours usually far outnumber cooling hours. In the US, look for the yellow EnergyGuide label or Energy Star certification instead.</p>
+
+<h3>SEER and SCOP: efficiency over a whole season</h3>
+<p><strong>SEER</strong> (Seasonal Energy Efficiency Ratio) tells you how much cooling the unit delivers per kWh of electricity over a typical summer. <strong>SCOP</strong> does the same for heating in winter. A SEER of 8.5 means the unit delivers, on average, 8.5 kWh of cooling for every kWh of electricity. Going from a SEER of 6.5 to 8.7 cuts cooling consumption by roughly a quarter for the same comfort. Keep in mind that these are European figures, a straight kWh-to-kWh ratio: they aren’t on the same scale as the SEER ratings on US spec sheets, which are expressed in BTU per watt-hour, so don’t compare the two directly.</p>
+
+<h3>Inverter technology: a must</h3>
+<p>An old single-speed unit runs the compressor at full power, shuts off once the room reaches the set temperature, then kicks back on at full blast. <strong>Inverter technology</strong> varies the compressor speed continuously: once the room is at temperature, the compressor slows down instead of stopping. The result is fewer power spikes, a steadier temperature and less noise. Every quality mini-split today uses an inverter, including all five in this comparison.</p>
+
+<h3>R-32 refrigerant</h3>
+<p>Current mini-splits use <strong>R-32</strong>, which has a global warming potential (GWP) of 675, versus 2,088 for the older R-410A. It transfers heat more effectively and needs a smaller charge. Every model in this roundup uses it.</p>
+
+<h2>Mini-split or portable: the mini-split uses far less energy</h2>
+<p>For the same room, a <strong>ductless mini-split</strong> (a wall-mounted indoor unit with the compressor outside) is far more efficient than a single-hose portable unit. A portable keeps its compressor in the room, and its exhaust hose creates negative pressure that pulls warm outdoor air back in, so it needs considerably more electricity for the same cooling. Its label also uses a different scale, so a portable’s “A+++” isn’t comparable with a mini-split’s.</p>
+<p>If you rent or can’t drill through an exterior wall, a portable is still a sensible option: the best ones are in our roundup of <a href="/us/confort-air/climatiseurs-mobiles">smart portable air conditioners</a>, and if you’re not sure you need air conditioning at all, read our <a href="/us/blog/climatiseur-mobile-vs-ventilateur">portable air conditioner vs. fan</a> guide.</p>
+
+<h2>Choosing the right capacity: not too big, not too small</h2>
+<p>The wrong capacity wipes out much of the savings. An oversized unit spends most of its time at minimum output with short cycles; an undersized one runs flat out without ever reaching the set point. As a rough guide, plan on about <strong>30 BTU/h of cooling per square foot (100 W per m²)</strong>, with extra margin for a very sunny room, an attic room or large windows.</p>
+<table>
+<thead>
+<tr><th>Room size</th><th>Cooling capacity</th><th>Approximate equivalent</th></tr>
+</thead>
+<tbody>
+<tr><td>Bedroom: 110–160 sq ft (10–15 m²)</td><td>2.5 kW</td><td>9,000 BTU/h</td></tr>
+<tr><td>Small living room: 160–270 sq ft (15–25 m²)</td><td>3.5 kW</td><td>12,000 BTU/h</td></tr>
+<tr><td>Large living room: 270–375 sq ft (25–35 m²)</td><td>5.0 kW</td><td>18,000 BTU/h</td></tr>
+<tr><td>Open-concept space: 375–540 sq ft (35–50 m²)</td><td>7.0 kW</td><td>24,000 BTU/h</td></tr>
+</tbody>
+</table>
+<p>All five lines in this comparison come in several sizes; the figures given are for the roughly 3.5 kW version.</p>
+
+<h2>The 5 best energy-efficient air conditioners of 2026</h2>
+
+<h3>1. Mitsubishi Electric MSZ-AY35VGK: best overall</h3>
+<p>Mitsubishi Electric’s AY line is a benchmark for efficiency in its class. The 3.5 kW version is rated at a <strong>SEER of 8.7 (A+++)</strong> and a <strong>SCOP of 4.7 (A++)</strong>, uses R-32 and can heat at outdoor temperatures down to −4°F (−20°C). The indoor unit runs as quietly as 18 dB(A) on its lowest fan speed, very discreet for a bedroom. The “VGK” version includes the Wi-Fi interface for control through the MELCloud app.</p>
+<ul>
+<li><strong>Pros:</strong> cooling efficiency among the highest on the market, quiet operation, a reputation for reliability and a wide installer network.</li>
+<li><strong>Cons:</strong> only A++ for heating; priced at the premium end of the market.</li>
+<li><strong>Best for:</strong> anyone who wants the biggest summer savings and a durable unit for heavy daily use.</li>
+</ul>
+
+<h3>2. Haier Flexis Plus 3.5 kW: A+++ for less</h3>
+<p>The Haier Flexis Plus (indoor unit AS35S2SF1FA) reaches a <strong>SEER of 8.5 (A+++)</strong> and a <strong>SCOP of 4.6 (A++)</strong> according to the manufacturer’s data, with an annual cooling consumption of 144 kWh on the label. It runs on R-32, has built-in Wi-Fi with the hOn app and stands out for its flat design in white, matte black or silver.</p>
+<ul>
+<li><strong>Pros:</strong> A+++ cooling at a midrange price, attractive design, Wi-Fi as standard.</li>
+<li><strong>Cons:</strong> SCOP slightly behind the Daikin Perfera; a smaller service network than the Japanese brands.</li>
+<li><strong>Best for:</strong> buyers looking for the best balance of efficiency and price to cool a living room.</li>
+</ul>
+
+<h3>3. Daikin Perfera FTXM35R: best if you also heat with it</h3>
+<p>The Daikin Perfera (FTXM35R with the RXM35R9 outdoor unit) is the only model in this roundup <strong>rated A+++ for both cooling and heating</strong>: Eurovent certifies a <strong>SEER of 8.65</strong> and a <strong>SCOP of 5.10</strong>, with 137 kWh a year for cooling, and it can heat with outdoor temperatures down to −4°F (−20°C). It’s controlled through Daikin’s Onecta app and includes the brand’s Flash Streamer air-purification technology.</p>
+<ul>
+<li><strong>Pros:</strong> the best heating efficiency in this comparison, ideal as a room’s main heat pump; a leading air conditioning brand.</li>
+<li><strong>Cons:</strong> the most expensive of the group; its edge over the Mitsubishi only really shows with heavy winter use.</li>
+<li><strong>Best for:</strong> homes with cold winters, or anyone replacing electric heaters with an air-to-air heat pump.</li>
+</ul>
+
+<h3>4. LG DUALCOOL AI Air 3.5 kW: the smartest</h3>
+<p>The LG DUALCOOL AI Air is rated at a <strong>SEER of 7.6</strong> and a <strong>SCOP of 4.6</strong>, which means <strong>A++ for both cooling and heating</strong>, with about 161 kWh a year for cooling on the label. Its headline feature is a radar sensor that detects whether people are in the room and where, to aim the airflow and adjust output, plus the Plasmaster Ionizer++ and control through the LG ThinQ app.</p>
+<ul>
+<li><strong>Pros:</strong> smart features that avoid cooling an empty room, a good balance between cooling and heating, easy smart home integration.</li>
+<li><strong>Cons:</strong> a lower SEER than the top three, so slightly higher summer consumption.</li>
+<li><strong>Best for:</strong> anyone who wants a smart unit that saves through automation rather than headline efficiency alone.</li>
+</ul>
+
+<h3>5. Daikin Sensira FTXF35E: a major brand’s entry-level model</h3>
+<p>Sensira is Daikin’s entry-level line. The FTXF35E is rated at a <strong>SEER of 6.5 (A++)</strong> and a <strong>SCOP of 4.2 (A+)</strong>, with 188 kWh a year for cooling on the label. It uses R-32 and benefits from Daikin’s support network, without the Perfera’s advanced features.</p>
+<ul>
+<li><strong>Pros:</strong> the quality of a leading brand on a tighter budget, simple and dependable.</li>
+<li><strong>Cons:</strong> the lowest efficiency in this roundup, especially for heating (A+).</li>
+<li><strong>Best for:</strong> a bedroom or vacation home with moderate, mostly summer use.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model (3.5 kW)</th><th>Cooling: SEER (EU) / class</th><th>Heating: SCOP (EU) / class</th><th>Annual cooling use (label)</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Mitsubishi Electric MSZ-AY35VGK</strong></td><td>8.7 / A+++</td><td>4.7 / A++</td><td>≈ 141 kWh</td><td>Maximum summer savings</td></tr>
+<tr><td><strong>Haier Flexis Plus 3.5 kW</strong></td><td>8.5 / A+++</td><td>4.6 / A++</td><td>144 kWh</td><td>A+++ at a midrange price</td></tr>
+<tr><td><strong>Daikin Perfera FTXM35R</strong></td><td>8.65 / A+++</td><td>5.10 / A+++</td><td>137 kWh</td><td>Year-round use, heating</td></tr>
+<tr><td><strong>LG DUALCOOL AI Air 3.5 kW</strong></td><td>7.6 / A++</td><td>4.6 / A++</td><td>161 kWh</td><td>Smart features</td></tr>
+<tr><td><strong>Daikin Sensira FTXF35E</strong></td><td>6.5 / A++</td><td>4.2 / A+</td><td>188 kWh</td><td>Tight budget, moderate use</td></tr>
+</tbody>
+</table>
+<p><em>Manufacturer or Eurovent data for the roughly 3.5 kW version. The Mitsubishi figure is calculated with the label method (capacity × 350 h ÷ SEER).</em></p>
+
+<h2>Real-world consumption: how to read the kWh on the label</h2>
+<p>The annual cooling consumption on the label is calculated in a standard way: about 350 hours a year at full output, divided by the SEER. It’s meant for comparing models, not for predicting your exact bill. In hot climates, with long summers and a unit running most evenings, real consumption can be much higher; in a mild climate, lower.</p>
+<p>To estimate your cost, multiply the kWh by your electricity rate and adjust for your hours of use. What matters is the relative gap: between the Daikin Sensira (188 kWh) and the Daikin Perfera (137 kWh), there are about 50 kWh a year for cooling alone, or about $10 at an example rate of 20 cents per kWh (check the rate on your utility bill). For heating, the gap is wider: according to the spec sheets, the Sensira is rated at about 867 kWh a year for heating versus 686 kWh for the Perfera, a difference of close to 180 kWh every winter (about $36 at the same example rate).</p>
+
+<h2>Mistakes that drive up consumption</h2>
+<ul>
+<li><strong>Setting the thermostat too low.</strong> Between 77 and 81°F (25 and 27°C) is a comfortable summer setting; energy-saving guides estimate that each 1°C (about 2°F) lower raises consumption by around 7 to 8%. Setting it to 64°F (18°C) doesn’t cool the room any faster; it just makes the unit work harder.</li>
+<li><strong>Buying on price alone.</strong> A cheap unit with a low SEER costs little up front and more every summer.</li>
+<li><strong>Oversizing the unit</strong> in the hope of better cooling: it causes short cycling and wastes the inverter advantage.</li>
+<li><strong>Neglecting the filters.</strong> Dirty filters reduce airflow and make the unit strain. Clean them every few weeks during the cooling season.</li>
+<li><strong>Cooling with doors and windows open</strong> or with full sun pouring in: close the blinds, shades or shutters during the hottest hours.</li>
+<li><strong>Leaving it on in an empty house.</strong> Use scheduling or the app to turn it on shortly before you get home; our <a href="/us/blog/guide-domotique-economie-energie-2026">smart home energy-saving guide</a> explains how to automate it.</li>
+</ul>
+<p>A simple trick: pair the air conditioner with a ceiling fan or pedestal fan. The cooling effect of moving air lets you raise the set point by 2 to 4°F (1 to 2°C) without losing comfort.</p>
+
+<h2>Installation, maintenance and safety</h2>
+<p>A mini-split only delivers its rated efficiency if it’s installed properly. Refrigerant work is for certified technicians only (in Europe, under the EU F-gas rules), and the electrical hookup must meet your local building code: always have it installed by a licensed HVAC contractor, who will also give you the paperwork you need for the warranty. Models sold in Europe are built for 230 V, 50 Hz power, so check that the version on your Amazon store is designed for the US grid.</p>
+<ul>
+<li><strong>Outdoor unit:</strong> in the shade if possible, with open airflow around it; boxed into a corner with no ventilation, it loses efficiency.</li>
+<li><strong>Indoor unit:</strong> mounted high on the wall, away from heat sources and positioned to spread air across the room, without blowing straight at the bed or couch.</li>
+<li><strong>Maintenance:</strong> regular filter cleaning and periodic professional service (heat exchangers, condensate drain, refrigerant leak check), especially in coastal or dusty areas.</li>
+<li><strong>Approvals:</strong> check your HOA or condo association rules, your lease and any local requirements before mounting an outdoor unit on an exterior wall.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>For most homes, the <strong>Mitsubishi Electric MSZ-AY35VGK</strong> is the best all-around energy-efficient air conditioner: A+++ for cooling, very quiet and known for reliability. The <strong>Haier Flexis Plus</strong> offers the same A+++ cooling class for less money, and the <strong>Daikin Perfera FTXM35R</strong> is the logical choice if you’ll heat with it too, thanks to its double A+++. The <strong>LG DUALCOOL AI Air</strong> stands out for its automation, and the <strong>Daikin Sensira</strong> is enough for moderate use on a tight budget. Whichever you choose, a good installation, a sensible set point and clean filters matter as much as the label.</p>`,
+    ca: `<p><strong>The most energy-efficient air conditioner in 2026 is a wall-mounted Inverter ductless mini-split rated A+++ for cooling on the EU energy label, with a European SEER of 8.5 or higher</strong>, such as the Mitsubishi Electric MSZ-AY35VGK, the Haier Flexis Plus or the Daikin Perfera FTXM35R. If you also plan to heat with it in winter, check the SCOP: the Daikin Perfera is the only model in this selection rated A+++ for heating as well.</p>
+<p>This comparison is based on manufacturers’ official spec sheets and energy labels, published independent reviews and verified buyer reviews. We do not take our own measurements: every efficiency figure quoted comes from manufacturer documentation or Eurovent certification. We focus on units of around 3.5 kW (12,000 BTU), the most common size for a living room or a large bedroom.</p>
+
+<h2>How to spot an energy-efficient air conditioner</h2>
+<p>No air conditioner cools for free: moving heat from inside to outside always takes electricity. What sets an <strong>energy-efficient air conditioner</strong> apart is how much electricity it needs to deliver the same amount of cooling. Four things sum it up.</p>
+
+<h3>The energy label: one class for cooling, one for heating</h3>
+<p>For mini-splits up to 12 kW, the European energy label (which you won’t find on Canadian packaging) shows two separate classes, because a unit performs differently when cooling and when heating:</p>
+<ul>
+<li><strong>Cooling class</strong>, based on SEER. A+++ requires a SEER of at least 8.5; A++ covers 6.1 to 8.5.</li>
+<li><strong>Heating class</strong>, based on SCOP in the EU’s “average” reference climate, which is milder than many Canadian winters. A+++ requires a SCOP of at least 5.1; A++ covers 4.6 to 5.1; A+ covers 4.0 to 4.6.</li>
+</ul>
+<p>A common mistake is to look only at the cooling class. If the unit is a heat pump and you will use it in winter, the heating class matters just as much for your bill, often more, because heating hours usually far outnumber cooling hours.</p>
+
+<h3>SEER and SCOP: efficiency over a whole season</h3>
+<p><strong>SEER</strong> (Seasonal Energy Efficiency Ratio) tells you how much cooling the unit delivers per kWh consumed over a typical summer. <strong>SCOP</strong> does the same for heating in winter. A SEER of 8.5 means the unit delivers, on average, 8.5 kWh of cooling for every kWh of electricity. Moving from a SEER of 6.5 to 8.7 cuts cooling consumption by roughly a quarter for the same comfort. These are European ratings: North American spec sheets use SEER2 and HSPF2, which are calculated differently, so the numbers can’t be compared directly.</p>
+
+<h3>Inverter technology: a must</h3>
+<p>An old on/off unit runs the compressor at full power, switches off once the set temperature is reached, then restarts at full blast. <strong>Inverter technology</strong> varies the compressor speed continuously: once the room is at temperature, it slows down instead of stopping. The result is fewer consumption peaks, a steadier temperature and less noise. Every quality mini-split today uses Inverter technology, including all five in this comparison.</p>
+
+<h3>R-32 refrigerant</h3>
+<p>Current mini-splits in Europe use <strong>R-32</strong>, with a global warming potential (GWP) of 675, versus 2,088 for the older R-410A. It transfers heat more effectively and needs a smaller charge. Every model in this selection uses it.</p>
+
+<h2>Mini-split or portable: the mini-split uses far less energy</h2>
+<p>For the same room, a <strong>ductless mini-split</strong> (wall-mounted indoor unit with the compressor outside) is clearly more efficient than a single-hose portable unit. A portable keeps its compressor in the room, and its exhaust hose creates negative pressure that draws warm outdoor air back in, so it needs considerably more electricity for the same cooling. Its label also uses a different scale, so a portable’s “A+++” is not comparable with a mini-split’s.</p>
+<p>If you rent or cannot drill through the wall, a portable is still a sensible option: the best ones are in our selection of <a href="/ca/confort-air/climatiseurs-mobiles">smart portable air conditioners</a>, and if you are unsure you need air conditioning at all, read our guide <a href="/ca/blog/climatiseur-mobile-vs-ventilateur">portable air conditioner or fan</a>.</p>
+
+<h2>Choosing the right capacity: not too much, not too little</h2>
+<p>The wrong capacity wipes out much of the saving. An oversized unit spends most of its time at minimum output with short cycles; an undersized one runs flat out without reaching the set point. As a rough guide, allow about <strong>100 W of cooling per square metre</strong> (roughly 30 BTU/h per square foot), with extra margin for a very sunny room, an attic room or large windows.</p>
+<table>
+<thead>
+<tr><th>Room size</th><th>Cooling capacity</th><th>Approximate equivalent</th></tr>
+</thead>
+<tbody>
+<tr><td>10–15 m² (110–160 sq. ft.), bedroom</td><td>2.5 kW</td><td>9,000 BTU/h</td></tr>
+<tr><td>15–25 m² (160–270 sq. ft.), small living room</td><td>3.5 kW</td><td>12,000 BTU/h</td></tr>
+<tr><td>25–35 m² (270–380 sq. ft.), large living room</td><td>5.0 kW</td><td>18,000 BTU/h</td></tr>
+<tr><td>35–50 m² (380–540 sq. ft.), open-concept space</td><td>7.0 kW</td><td>24,000 BTU/h</td></tr>
+</tbody>
+</table>
+<p>All five series in this comparison come in several sizes; the figures given are for the roughly 3.5 kW version.</p>
+
+<h2>The 5 most energy-efficient air conditioners in 2026</h2>
+
+<h3>1. Mitsubishi Electric MSZ-AY35VGK: the best all-rounder</h3>
+<p>Mitsubishi Electric’s AY series is a benchmark for efficiency in its class. The 3.5 kW version is rated at a <strong>SEER of 8.7 (A+++)</strong> and a <strong>SCOP of 4.7 (A++)</strong>, uses R-32 and can heat at outdoor temperatures down to −20°C. The indoor unit starts at 18 dB(A) on its lowest fan speed, very discreet for a bedroom. The “VGK” version includes the Wi-Fi interface for control through the MELCloud app.</p>
+<ul>
+<li><strong>Strengths:</strong> cooling efficiency among the highest on the market, quiet operation, a reputation for reliability and a wide installer network.</li>
+<li><strong>Limitations:</strong> only A++ for heating; sits at the premium end of the market.</li>
+<li><strong>Best for:</strong> anyone who wants the biggest summer savings and a durable unit for long daily use.</li>
+</ul>
+
+<h3>2. Haier Flexis Plus 3.5 kW: A+++ for less</h3>
+<p>The Haier Flexis Plus (indoor unit AS35S2SF1FA) reaches a <strong>SEER of 8.5 (A+++)</strong> and a <strong>SCOP of 4.6 (A++)</strong> according to the manufacturer’s data, with a labelled annual cooling consumption of 144 kWh. It runs on R-32, has built-in Wi-Fi with the hOn app and stands out for its flat design in white, matte black or silver.</p>
+<ul>
+<li><strong>Strengths:</strong> A+++ cooling in the mid-price segment, attractive design, Wi-Fi as standard.</li>
+<li><strong>Limitations:</strong> SCOP slightly behind the Daikin Perfera; a smaller service network than the Japanese brands.</li>
+<li><strong>Best for:</strong> buyers looking for the best balance of efficiency and price to cool a living room.</li>
+</ul>
+
+<h3>3. Daikin Perfera FTXM35R: the best if you also heat</h3>
+<p>The Daikin Perfera (FTXM35R with the RXM35R9 outdoor unit) is the only model in this selection <strong>rated A+++ for both cooling and heating</strong>: Eurovent certifies a <strong>SEER of 8.65</strong> and a <strong>SCOP of 5.10</strong>, with 137 kWh a year for cooling and heating operation down to −20°C outside. It is controlled through Daikin’s Onecta app and includes the brand’s Flash Streamer air-purification technology.</p>
+<ul>
+<li><strong>Strengths:</strong> the best heating efficiency in the comparison, ideal as a room’s main heat pump; a leading air-conditioning brand.</li>
+<li><strong>Limitations:</strong> the most expensive of the group; its edge over the Mitsubishi only really shows with heavy winter use.</li>
+<li><strong>Best for:</strong> homes with cold winters, or anyone replacing electric heaters with an air-to-air heat pump.</li>
+</ul>
+
+<h3>4. LG DUALCOOL AI Air 3.5 kW: the smartest</h3>
+<p>The LG DUALCOOL AI Air is rated at a <strong>SEER of 7.6</strong> and a <strong>SCOP of 4.6</strong>, meaning <strong>A++ for both cooling and heating</strong>, with about 161 kWh a year for cooling on the label. Its headline feature is a radar sensor that detects whether people are present and where they are, to direct the airflow and adjust output, plus the Plasmaster Ionizer++ and control through the LG ThinQ app.</p>
+<ul>
+<li><strong>Strengths:</strong> smart features that avoid cooling an empty room, good balance between cooling and heating, easy smart home integration.</li>
+<li><strong>Limitations:</strong> lower SEER than the top three, so slightly higher summer consumption.</li>
+<li><strong>Best for:</strong> anyone who wants a smart unit that saves through automation rather than headline efficiency alone.</li>
+</ul>
+
+<h3>5. Daikin Sensira FTXF35E: a major brand’s entry model</h3>
+<p>Sensira is Daikin’s entry-level line. The FTXF35E is rated at a <strong>SEER of 6.5 (A++)</strong> and a <strong>SCOP of 4.2 (A+)</strong>, with 188 kWh a year for cooling on the label. It uses R-32 and benefits from Daikin’s support network, without the Perfera’s advanced features.</p>
+<ul>
+<li><strong>Strengths:</strong> the quality of a leading brand on a tighter budget, simple and dependable.</li>
+<li><strong>Limitations:</strong> the lowest efficiency in the selection, especially for heating (A+).</li>
+<li><strong>Best for:</strong> a bedroom or cottage with moderate, mostly summer use.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model (3.5 kW)</th><th>Cooling: SEER / class</th><th>Heating: SCOP / class</th><th>Annual cooling use (label)</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Mitsubishi Electric MSZ-AY35VGK</strong></td><td>8.7 / A+++</td><td>4.7 / A++</td><td>≈ 141 kWh</td><td>Maximum summer savings</td></tr>
+<tr><td><strong>Haier Flexis Plus 3.5 kW</strong></td><td>8.5 / A+++</td><td>4.6 / A++</td><td>144 kWh</td><td>A+++ at a mid-range price</td></tr>
+<tr><td><strong>Daikin Perfera FTXM35R</strong></td><td>8.65 / A+++</td><td>5.10 / A+++</td><td>137 kWh</td><td>Year-round use, heating</td></tr>
+<tr><td><strong>LG DUALCOOL AI Air 3.5 kW</strong></td><td>7.6 / A++</td><td>4.6 / A++</td><td>161 kWh</td><td>Smart features</td></tr>
+<tr><td><strong>Daikin Sensira FTXF35E</strong></td><td>6.5 / A++</td><td>4.2 / A+</td><td>188 kWh</td><td>Tight budget, moderate use</td></tr>
+</tbody>
+</table>
+<p><em>Manufacturer or Eurovent data for the roughly 3.5 kW version. The Mitsubishi figure is calculated with the label method (capacity × 350 h ÷ SEER).</em></p>
+
+<h2>Real consumption: how to read the kWh on the label</h2>
+<p>The annual cooling consumption on the label is calculated in a standard way: it corresponds to about 350 hours a year at full output, divided by the SEER. It is meant for comparing models, not for predicting your exact bill. In a hot climate, with long summers and a unit running most evenings, real consumption can be much higher; in a mild climate, lower.</p>
+<p>To estimate your cost, multiply the kWh by your rate per kWh (it depends on your province and utility, so check your bill) and adjust for your hours of use. What matters is the relative gap: between the Daikin Sensira (188 kWh) and the Daikin Perfera (137 kWh) there are about 50 kWh a year for cooling alone. For heating the gap is wider: according to the spec sheets, the Sensira declares about 867 kWh a year for heating versus 686 kWh for the Perfera, a difference of close to 180 kWh every winter.</p>
+
+<h2>Mistakes that push consumption up</h2>
+<ul>
+<li><strong>Setting the thermostat too low.</strong> Between 25°C and 27°C is a comfortable summer setting; energy-saving guides estimate that each degree lower raises consumption by around 7 to 8%. Setting it to 18°C does not cool the room faster; it only makes the unit work harder.</li>
+<li><strong>Buying on price alone.</strong> A cheap unit with a low SEER costs little to buy and more every summer.</li>
+<li><strong>Oversizing the capacity</strong> in the hope of better cooling: it causes short cycles and wastes the Inverter advantage.</li>
+<li><strong>Neglecting the filters.</strong> Dirty filters reduce airflow and make the unit strain. Clean them every few weeks during the season.</li>
+<li><strong>Cooling with doors and windows open</strong> or with full sun pouring in: close blinds, curtains or shutters during the hottest hours.</li>
+<li><strong>Leaving it on in an empty home.</strong> Use scheduling or the app to turn it on shortly before you get home; our <a href="/ca/blog/guide-domotique-economie-energie-2026">smart home energy-saving guide</a> explains how to automate it.</li>
+</ul>
+<p>A simple trick: pair the air conditioner with a ceiling or pedestal fan. The cooling effect of moving air lets you raise the set point by one or two degrees without losing comfort.</p>
+
+<h2>Installation, maintenance and safety</h2>
+<p>A mini-split only delivers its rated efficiency if it is installed properly. Leave the refrigerant to a certified technician (in Europe, the F-gas rules require it), and keep in mind that electrical work rules are set by each province and territory: always have the unit installed by a licensed HVAC contractor, who will also provide the paperwork needed for the warranty.</p>
+<ul>
+<li><strong>Outdoor unit:</strong> in the shade if possible, with free airflow around it; boxed into a corner with no ventilation, it loses efficiency.</li>
+<li><strong>Indoor unit:</strong> mounted high, away from heat sources and positioned to spread air across the room, without blowing straight at the bed or sofa.</li>
+<li><strong>Maintenance:</strong> regular filter cleaning and periodic professional servicing (heat exchangers, condensate drain, refrigerant leak check), especially near the coast or in dusty areas.</li>
+<li><strong>Permissions:</strong> check your condo board’s, landlord’s or municipality’s rules before mounting an outdoor unit on an exterior wall.</li>
+</ul>
+
+<h2>Verdict</h2>
+<p>For most homes, the <strong>Mitsubishi Electric MSZ-AY35VGK</strong> is the best all-round energy-efficient air conditioner: A+++ for cooling, very quiet and known for reliability. The <strong>Haier Flexis Plus</strong> offers the same A+++ cooling class on a smaller budget, and the <strong>Daikin Perfera FTXM35R</strong> is the logical choice if you will heat with it too, thanks to its double A+++. The <strong>LG DUALCOOL AI Air</strong> appeals with its automation, and the <strong>Daikin Sensira</strong> is enough for moderate use on a tight budget. Whatever you choose, good installation, a sensible set point and clean filters matter as much as the label.</p>`,
   },
   faq: [
     {
@@ -927,6 +1311,9 @@ export const article: BlogArticle = {
         it: "Quanto consuma un condizionatore a basso consumo?",
         nl: "Hoeveel stroom verbruikt een zuinige airco?",
         pl: "Ile prądu zużywa energooszczędny klimatyzator?",
+        sv: "Hur mycket el drar en energisnål AC?",
+        us: "How much electricity does an energy-efficient air conditioner use?",
+        ca: "How much electricity does an energy-efficient air conditioner use?",
       },
       answer: {
         fr: "Pour un split de 3,5 kW, l’étiquette indique de 137 à 188 kWh par an en refroidissement selon les modèles de ce comparatif. Ce chiffre normalisé correspond à environ 350 heures à pleine puissance : votre consommation réelle dépend du climat, de l’isolation et de vos heures d’utilisation.",
@@ -936,6 +1323,9 @@ export const article: BlogArticle = {
         it: "Per uno split da 3,5 kW, l’etichetta indica tra 137 e 188 kWh l’anno in raffrescamento a seconda del modello di questo confronto. Il dato normalizzato corrisponde a circa 350 ore alla massima potenza: il consumo reale dipende da clima, isolamento e ore di utilizzo.",
         nl: "Voor een splitunit van 3,5 kW vermeldt het label 137 tot 188 kWh per jaar voor koelen, afhankelijk van het model in deze vergelijking. Dat genormeerde cijfer komt overeen met ongeveer 350 uur op vol vermogen; je werkelijke verbruik hangt af van klimaat, isolatie en gebruiksuren.",
         pl: "W przypadku splitu o mocy 3,5 kW etykiety modeli z tego porównania podają od 137 do 188 kWh rocznie na chłodzenie. To wartość znormalizowana, odpowiadająca ok. 350 godzinom pracy z pełną mocą – rzeczywiste zużycie zależy od klimatu, izolacji budynku i czasu korzystania z klimatyzatora.",
+        sv: "För en split-AC på 3,5 kW anger energimärkningen 137–188 kWh per år för kyla, beroende på modell i den här jämförelsen. Den standardiserade siffran motsvarar ungefär 350 timmar på full effekt, så din verkliga förbrukning beror på klimatet, isoleringen och hur många timmar du använder den.",
+        us: "For a 3.5 kW (12,000 BTU/h) mini-split, the European energy label shows 137 to 188 kWh a year for cooling across the models in this comparison. That standard figure assumes about 350 hours at full output, so your real usage depends on your climate, insulation and hours of use.",
+        ca: "For a 3.5 kW mini-split, the EU energy label shows between 137 and 188 kWh a year for cooling across the models in this comparison. That standard figure corresponds to about 350 hours at full output, so your real consumption depends on climate, insulation and hours of use.",
       },
     },
     {
@@ -947,6 +1337,9 @@ export const article: BlogArticle = {
         it: "Cosa significa A+++ su un condizionatore?",
         nl: "Wat betekent A+++ bij een airco?",
         pl: "Co oznacza klasa A+++ w klimatyzatorze?",
+        sv: "Vad betyder A+++ på en AC?",
+        us: "What does A+++ mean on an air conditioner?",
+        ca: "What does A+++ mean on an air conditioner?",
       },
       answer: {
         fr: "Sur un split, l’étiquette affiche une classe pour le froid et une pour le chaud. A+++ en froid correspond à un SEER d’au moins 8,5 ; A+++ en chaud, à un SCOP d’au moins 5,1 en climat moyen. Beaucoup de modèles sont A+++ en froid mais A++ en chaud.",
@@ -956,6 +1349,9 @@ export const article: BlogArticle = {
         it: "Su uno split l’etichetta riporta una classe per il freddo e una per il caldo. A+++ in raffrescamento corrisponde a un SEER di almeno 8,5; A+++ in riscaldamento a uno SCOP di almeno 5,1 nel clima medio. Molti modelli sono A+++ in freddo ma A++ in caldo.",
         nl: "Bij een splitunit toont het label een klasse voor koelen en een voor verwarmen. A+++ voor koelen betekent een SEER van minstens 8,5; A+++ voor verwarmen een SCOP van minstens 5,1 in het gemiddelde klimaat. Veel modellen zijn A+++ voor koelen maar A++ voor verwarmen.",
         pl: "Etykieta splitu podaje osobną klasę dla chłodzenia i osobną dla grzania. A+++ w chłodzeniu oznacza SEER co najmniej 8,5, a A+++ w grzaniu – SCOP co najmniej 5,1 w klimacie umiarkowanym. Wiele modeli ma klasę A+++ w chłodzeniu, ale tylko A++ w grzaniu.",
+        sv: "På en split-AC visar energimärkningen en klass för kyla och en för värme. A+++ för kyla innebär ett SEER på minst 8,5; A+++ för värme ett SCOP på minst 5,1 i medelklimat. Många modeller har A+++ för kyla men A++ för värme.",
+        us: "On a mini-split, the European energy label shows one class for cooling and one for heating. A+++ for cooling means a SEER of at least 8.5; A+++ for heating means a SCOP of at least 5.1 in the average climate zone. Many models are A+++ for cooling but A++ for heating.",
+        ca: "On a mini-split, the EU energy label shows one class for cooling and one for heating. A+++ for cooling means a European SEER of at least 8.5; A+++ for heating means a SCOP of at least 5.1 in the EU’s average reference climate. Many models are A+++ for cooling but A++ for heating. You won’t see these classes on Canadian packaging.",
       },
     },
     {
@@ -967,6 +1363,9 @@ export const article: BlogArticle = {
         it: "A che temperatura impostare il condizionatore per risparmiare?",
         nl: "Op welke temperatuur zet je de airco om te besparen?",
         pl: "Na jaką temperaturę ustawić klimatyzator, żeby oszczędzać?",
+        sv: "Vilken temperatur ska AC:n stå på för att spara el?",
+        us: "What temperature should I set my AC to save energy?",
+        ca: "What temperature should I set to save energy?",
       },
       answer: {
         fr: "Entre 25 et 27 °C en été. Les guides d’économies d’énergie estiment que chaque degré en moins augmente la consommation d’environ 7 à 8 %. Un ventilateur en complément permet de relever la consigne d’un ou deux degrés sans perte de confort.",
@@ -976,6 +1375,9 @@ export const article: BlogArticle = {
         it: "Tra 25 e 27 °C d’estate. Le guide al risparmio energetico stimano che ogni grado in meno aumenti il consumo di circa il 7-8%. Un ventilatore in aggiunta permette di alzare la temperatura impostata di uno o due gradi senza perdere comfort.",
         nl: "In de zomer tussen 25 en 27 °C. Energiebespaargidsen schatten dat elke graad lager het verbruik met ongeveer 7 tot 8% verhoogt. Met een extra ventilator kun je de ingestelde temperatuur een of twee graden verhogen zonder comfortverlies.",
         pl: "Latem na 25–27 °C. Według poradników oszczędzania energii każdy stopień mniej zwiększa zużycie o ok. 7–8%. Jeśli dodatkowo włączysz wentylator, możesz podnieść ustawioną temperaturę o jeden–dwa stopnie bez utraty komfortu.",
+        sv: "25–27 °C på sommaren. Energisparguider uppskattar att varje grad lägre ökar förbrukningen med ungefär 7–8 %. Kompletterar du med en fläkt kan du höja den inställda temperaturen en eller två grader utan att det blir mindre behagligt.",
+        us: "Between 77 and 81°F (25 and 27°C) in summer. Energy-saving guides estimate that each 1°C (about 2°F) lower raises consumption by around 7 to 8%. Adding a fan lets you raise the set point by 2 to 4°F (1 to 2°C) without losing comfort.",
+        ca: "Between 25°C and 27°C in summer. Energy-saving guides estimate that each degree lower raises consumption by around 7 to 8%. Adding a fan lets you raise the set point by one or two degrees without losing comfort.",
       },
     },
     {
@@ -987,6 +1389,9 @@ export const article: BlogArticle = {
         it: "Quanti BTU servono per la mia stanza?",
         nl: "Welk vermogen heb ik nodig voor mijn kamer?",
         pl: "Jaką moc klimatyzatora wybrać do pokoju?",
+        sv: "Hur stor effekt behöver jag för mitt rum?",
+        us: "What size air conditioner do I need for my room?",
+        ca: "What capacity do I need for my room?",
       },
       answer: {
         fr: "Comptez environ 2,5 kW (9 000 BTU) pour 10 à 15 m², 3,5 kW (12 000 BTU) pour 15 à 25 m² et 5 kW (18 000 BTU) pour 25 à 35 m², avec une marge pour une pièce très ensoleillée ou sous les toits. Un appareil surdimensionné consomme plus, pas moins.",
@@ -996,6 +1401,9 @@ export const article: BlogArticle = {
         it: "Calcola circa 2,5 kW (9.000 BTU) per 10-15 m², 3,5 kW (12.000 BTU) per 15-25 m² e 5 kW (18.000 BTU) per 25-35 m², con un margine per stanze molto soleggiate o sottotetti. Un apparecchio sovradimensionato consuma di più, non di meno.",
         nl: "Reken op ongeveer 2,5 kW (9.000 BTU) voor 10 tot 15 m², 3,5 kW (12.000 BTU) voor 15 tot 25 m² en 5 kW (18.000 BTU) voor 25 tot 35 m², met extra marge voor een erg zonnige kamer of zolderkamer. Een te zwaar toestel verbruikt meer, niet minder.",
         pl: "Przyjmij ok. 2,5 kW (9000 BTU) na 10–15 m², 3,5 kW (12 000 BTU) na 15–25 m² i 5 kW (18 000 BTU) na 25–35 m², a przy mocno nasłonecznionym pokoju lub pomieszczeniu pod dachem dolicz zapas. Urządzenie o zbyt dużej mocy zużywa więcej prądu, a nie mniej.",
+        sv: "Räkna med ungefär 2,5 kW (9 000 BTU) för 10–15 m², 3,5 kW (12 000 BTU) för 15–25 m² och 5 kW (18 000 BTU) för 25–35 m², med extra marginal för ett mycket soligt rum eller ett rum direkt under taket. Ett överdimensionerat aggregat drar mer el, inte mindre.",
+        us: "Plan on about 2.5 kW (9,000 BTU/h) for 110 to 160 sq ft (10 to 15 m²), 3.5 kW (12,000 BTU/h) for 160 to 270 sq ft (15 to 25 m²) and 5 kW (18,000 BTU/h) for 270 to 375 sq ft (25 to 35 m²), with extra margin for a very sunny room or an attic room. An oversized unit uses more energy, not less.",
+        ca: "Allow about 2.5 kW (9,000 BTU) for 10 to 15 m² (about 110 to 160 sq. ft.), 3.5 kW (12,000 BTU) for 15 to 25 m² (160 to 270 sq. ft.) and 5 kW (18,000 BTU) for 25 to 35 m² (270 to 380 sq. ft.), with extra margin for a very sunny or attic room. An oversized unit uses more energy, not less.",
       },
     },
     {
@@ -1007,6 +1415,9 @@ export const article: BlogArticle = {
         it: "Split o portatile: quale consuma meno?",
         nl: "Splitunit of mobiele airco: wat verbruikt minder?",
         pl: "Split czy klimatyzator przenośny: który zużywa mniej prądu?",
+        sv: "Split eller portabel AC: vilken drar minst el?",
+        us: "Mini-split or portable air conditioner: which uses less energy?",
+        ca: "Ductless mini-split or portable air conditioner: which uses less energy?",
       },
       answer: {
         fr: "Le split, nettement. Son compresseur est à l’extérieur et les meilleurs modèles dépassent un SEER de 8,5. Un mobile monobloc garde le compresseur dans la pièce et sa gaine fait entrer de l’air chaud, ce qui demande bien plus d’électricité pour le même froid.",
@@ -1016,6 +1427,9 @@ export const article: BlogArticle = {
         it: "Lo split, nettamente. Il suo compressore è all’esterno e i modelli migliori superano un SEER di 8,5. Un portatile monoblocco tiene il compressore nella stanza e il tubo richiama aria calda, quindi serve molta più elettricità per lo stesso freddo.",
         nl: "De splitunit, met afstand. De compressor staat buiten en de beste modellen halen een SEER boven 8,5. Een mobiele monoblok-airco heeft de compressor in de kamer en de slang trekt warme lucht naar binnen, waardoor hij veel meer stroom nodig heeft voor dezelfde koeling.",
         pl: "Zdecydowanie split. Jego sprężarka pracuje na zewnątrz, a najlepsze modele osiągają SEER powyżej 8,5. Przenośny monoblok ma sprężarkę w pokoju, a wyrzucanie powietrza przez wąż sprawia, że do środka zasysane jest ciepłe powietrze z zewnątrz – dlatego na ten sam chłód potrzebuje znacznie więcej prądu.",
+        sv: "Split-AC:n, med klar marginal. Kompressorn sitter utomhus och de bästa modellerna har ett SEER över 8,5. En portabel AC med en slang har kompressorn kvar i rummet och slangen drar in varm luft, så den behöver betydligt mer el för samma kyla.",
+        us: "The mini-split, by a wide margin. Its compressor sits outside, and the best models top a seasonal efficiency rating (SEER) of 8.5 on the European scale. A single-hose portable unit keeps the compressor in the room, and its hose pulls warm air back inside, so it needs far more electricity for the same cooling.",
+        ca: "The mini-split, by a clear margin. Its compressor sits outside, and the best models exceed a SEER of 8.5 on the European scale. A single-hose portable AC keeps the compressor in the room, and the air it vents outside is replaced by warm outdoor air leaking back in, so it needs much more electricity for the same cooling.",
       },
     },
     {
@@ -1027,6 +1441,9 @@ export const article: BlogArticle = {
         it: "Posso installare da solo un condizionatore split?",
         nl: "Kan ik een splitairco zelf installeren?",
         pl: "Czy klimatyzator split można zamontować samodzielnie?",
+        sv: "Kan jag installera en split-AC själv?",
+        us: "Can I install a mini-split air conditioner myself?",
+        ca: "Can I install a ductless mini-split myself?",
       },
       answer: {
         fr: "Non pour un split classique : la mise en service du circuit frigorifique est réservée à un professionnel certifié pour la manipulation des fluides frigorigènes, et le fabricant l’exige généralement pour la garantie. Faites aussi vérifier le raccordement électrique.",
@@ -1036,6 +1453,9 @@ export const article: BlogArticle = {
         it: "Per uno split tradizionale no: la messa in funzione del circuito frigorifero è riservata a un tecnico certificato per la manipolazione dei gas refrigeranti, e il produttore in genere lo richiede per la garanzia. Fai controllare anche il collegamento elettrico.",
         nl: "Bij een klassieke splitunit niet: het in bedrijf stellen van het koudemiddelcircuit is voorbehouden aan een vakman die gecertificeerd is voor koudemiddelen, en fabrikanten eisen dat meestal voor de garantie. Laat ook de elektrische aansluiting controleren.",
         pl: "Klasycznego splitu – nie. Uruchomienie układu chłodniczego może przeprowadzić wyłącznie fachowiec z certyfikatem uprawniającym do pracy z czynnikami chłodniczymi, a producenci zwykle wymagają tego jako warunku gwarancji. Zleć też sprawdzenie podłączenia elektrycznego.",
+        sv: "Nej, inte en vanlig split-AC: idrifttagningen av köldmediekretsen får bara göras av en tekniker som är certifierad för att hantera köldmedier, och tillverkarna kräver det oftast för att garantin ska gälla. Låt också en behörig elektriker kontrollera elanslutningen.",
+        us: "Not a standard mini-split. Commissioning the refrigerant lines is a job for a technician certified to handle refrigerants, and manufacturers generally require professional installation to honor the warranty. Have the electrical hookup checked, too.",
+        ca: "Not a standard mini-split: commissioning the refrigerant circuit has to be done by a technician certified to handle refrigerants, and manufacturers generally require it for the warranty. Have a licensed electrician check the electrical connection too.",
       },
     },
   ],

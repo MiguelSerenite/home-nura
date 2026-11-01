@@ -156,6 +156,9 @@ export const lastUpdatedLabel: Record<string, string> = {
   it: 'Aggiornato il',
   nl: 'Bijgewerkt op',
   pl: 'Zaktualizowano',
+  sv: 'Senast uppdaterad',
+  us: 'Updated',
+  ca: 'Updated',
   en: 'Updated',
 }
 

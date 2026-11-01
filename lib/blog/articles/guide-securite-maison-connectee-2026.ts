@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Telecamera di sorveglianza Wi-Fi bianca fissata su un muro esterno intonacato',
         nl: 'Witte wifi-beveiligingscamera aan een gestucte buitenmuur',
         pl: 'Biała kamera monitoringu Wi-Fi zamontowana na zewnętrznej, tynkowanej ścianie',
+        sv: 'Vit övervakningskamera med wifi monterad på en putsad yttervägg',
+        us: 'White Wi-Fi security camera mounted on a stucco exterior wall',
+        ca: 'White Wi-Fi security camera mounted on a stucco exterior wall',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Sicurezza della casa intelligente 2026: la guida completa (allarme, telecamere, serratura)',
     nl: 'Slimme huisbeveiliging 2026: de complete gids (alarm, camera’s, slot)',
     pl: 'Bezpieczeństwo inteligentnego domu 2026: kompletny przewodnik (alarm, kamery, zamek)',
+    sv: 'Smart hemsäkerhet 2026: komplett guide till larm, kameror och lås',
+    us: 'Smart Home Security 2026: The Complete Guide to Alarms, Cameras and Locks',
+    ca: 'Smart Home Security 2026: The Complete Guide (Alarm, Cameras, Lock)',
   },
   excerpt: {
     fr: 'Alarme, sonnette vidéo, serrure connectée, caméras et détecteur de fumée : comment construire en 2026 un système de sécurité maison connectée cohérent, sans abonnement obligatoire, avec les modèles à retenir pour chaque poste.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Allarme, videocampanello, serratura smart, telecamere e rilevatore di fumo: come costruire nel 2026 un sistema di sicurezza connesso coerente, senza abbonamento obbligatorio, con i modelli da scegliere per ogni ruolo.',
     nl: 'Alarm, videodeurbel, slim slot, camera’s en rookmelder: zo bouw je in 2026 een samenhangend slim beveiligingssysteem zonder verplicht abonnement, met de modellen die per onderdeel de moeite waard zijn.',
     pl: 'Alarm, wideodzwonek, inteligentny zamek, kamery i czujnik dymu – jak w 2026 roku zbudować spójny system zabezpieczeń inteligentnego domu bez obowiązkowego abonamentu. Do tego modele warte uwagi w każdej kategorii.',
+    sv: 'Larm, videodörrklocka, smart lås, kameror och brandvarnare: så bygger du ett genomtänkt smart säkerhetssystem för hemmet 2026, utan obligatoriskt abonnemang, med de modeller som är värda att välja för varje del.',
+    us: 'Security system, video doorbell, smart lock, cameras and smoke detectors: how to build a smart home security setup that works together in 2026, with no required subscription, plus the models worth buying for each job.',
+    ca: 'Alarm, video doorbell, smart lock, cameras and smoke alarm: how to build a coherent smart home security system in 2026, with no mandatory subscription, and the models worth choosing for each role.',
   },
   content: {
     fr: `<p><strong>Pour sécuriser une maison connectée en 2026, la base la plus solide est une alarme sans fil avec secours cellulaire, comme l’Ajax StarterKit 4G, complétée par une sonnette vidéo à stockage local (Eufy Video Doorbell E340) et une serrure connectée (Nuki Smart Lock Pro de 5e génération).</strong> Ajoutez ensuite des caméras qui enregistrent chez vous plutôt que dans le cloud, et des détecteurs de fumée connectés : vous obtenez un système complet, sans abonnement obligatoire.</p>
@@ -802,6 +811,330 @@ export const article: BlogArticle = {
 
 <h2>Nasz werdykt</h2>
 <p>W większości domów najrozsądniej kupować w tej kolejności: najpierw <strong>Ajax StarterKit 4G</strong> jako podstawę alarmu, potem <strong>Eufy Video Doorbell E340</strong> przy drzwiach wejściowych i <strong>Nuki Smart Lock Pro (5. generacji)</strong> do zarządzania dostępem. Na koniec dodaj <strong>eufyCam S3 Pro</strong> na zewnątrz, <strong>Eufy Indoor Cam E220</strong> w środku i po jednym czujniku <strong>Netatmo Smart Smoke Alarm</strong> na każdej kondygnacji. W ten sposób zbudujesz spójny system bez obowiązkowego abonamentu, który możesz rozbudowywać pomieszczenie po pomieszczeniu.</p>`,
+    sv: `<p><strong>Vill du skydda ditt smarta hem 2026 är den stabilaste grunden ett trådlöst larm med reservanslutning via mobilnätet, som Ajax StarterKit 4G, kompletterat med en videodörrklocka som sparar filmerna lokalt (Eufy Video Doorbell E340) och ett smart lås (Nuki Smart Lock Pro, femte generationen).</strong> Lägg sedan till smarta brandvarnare och kameror som spelar in hemma i stället för i molnet, så har du ett komplett system utan krav på abonnemang.</p>
+<p>Guiden bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Den tar bara med modeller som säljs i Europa 2026. Alla våra urval hittar du under <a href="/sv/securite-maison">hemsäkerhet</a>.</p>
+
+<h2>De fem lagren i ett smart säkerhetssystem</h2>
+<p>Ett bra system hänger aldrig på en enda apparat. Varje del täcker en egen risk, och det är kombinationen som verkligen skyddar hemmet.</p>
+<ul>
+<li><strong>Larmet</strong> upptäcker intrång (en dörr som öppnas, rörelse i ett rum), utlöser sirenen och skickar varningar. Det är det viktigaste lagret, eftersom det reagerar även när ingen tittar på mobilen.</li>
+<li><strong>Videodörrklockan</strong> visar vem som står vid dörren, låter dig svara på distans och sparar en logg över besök och leveranser.</li>
+<li><strong>Det smarta låset</strong> gör slut på borttappade eller kopierade nycklar, låter dig öppna för någon på distans och sparar en historik över vem som har låst upp och när.</li>
+<li><strong>Kamerorna</strong> utomhus avskräcker och ger användbara bilder; inomhuskamerorna låter dig snabbt se om larmet är på riktigt när det går.</li>
+<li><strong>Brandvarnare och koloxidvarnare</strong> skyddar mot den allvarligaste risken för dem som bor i hemmet: brand och förgiftning.</li>
+</ul>
+
+<h2>Så väljer du rätt</h2>
+<h3>Abonnemang och lagring av filmer</h3>
+<p>För många hushåll är det här den första frågan. Vissa märken gör ett abonnemang nästan nödvändigt för att du ska kunna se inspelningshistoriken; andra sparar inspelningarna på ett microSD-kort, i ett inbyggt minne eller på en lokal basstation. Modellerna i den här guiden fungerar utan månadsavgift, men hos vissa tillverkare går det ändå att teckna abonnemang för bevakning via larmcentral eller säkerhetskopiering i molnet.</p>
+<h3>Motståndskraft vid internet- och strömavbrott</h3>
+<p>En erfaren inbrottstjuv kan slå ut strömmen eller internetuppkopplingen. Ett seriöst larm behöver därför ett reservbatteri och helst en andra kommunikationsväg (ett SIM-kort för 4G utöver Ethernet eller wifi). De trådlösa sensorerna bör använda ett robust radioprotokoll i stället för hemmets wifi.</p>
+<h3>Ekosystem och kompatibilitet</h3>
+<p>Att jonglera fem olika appar blir snabbt tröttsamt. Kontrollera att produkterna fungerar med det du redan använder: Apple Home, Google Home, Alexa eller Matter. Nyare lås med stöd för Matter via Thread fungerar smidigt med de flesta plattformar.</p>
+<h3>Smart detektering</h3>
+<p>På kameror och dörrklockor minskar igenkänning av personer, fordon eller paket kraftigt antalet falsklarm från löv, katter eller billyktor. Har du hund eller katt bör du välja husdjursimmuna rörelsesensorer till larmet.</p>
+<h3>Strömförsörjning och installation</h3>
+<p>Batteri, solpanel, kabel eller PoE: valet beror på placeringen och på hur händig du är. En batteridriven apparat sätter du upp på några minuter; en trådbunden modell slipper laddning men kräver att du drar kabel.</p>
+
+<h2>Utrustningen att satsa på 2026</h2>
+
+<h3>1. Ajax StarterKit 4G: bästa grunden för larmet</h3>
+<p>Paketet innehåller centralenheten Hub 2 (4G), rörelsesensorn MotionProtect, magnetkontakten DoorProtect och fjärrkontrollen SpaceControl med panikknapp. Centralenheten kommunicerar via Ethernet och mobilnätet (4G) och varnar dig med pushnotis, sms och samtal. Sensorerna använder Ajax egna radioprotokoll, som är känt för lång räckvidd och hög driftsäkerhet.</p>
+<p><strong>Styrkor</strong>: två kommunikationsvägar; husdjursimmun rörelsesensor; app utan krav på abonnemang; ett mycket brett utbud av sensorer (glaskross, vattenläckage, detektorer som tar foto för larmverifiering); bevakning via larmcentral är möjlig genom godkända partner.</p>
+<p><strong>Svagheter</strong>: sirenen ingår inte i paketet; ingen inbyggd integration med Apple Home eller Google Home; utrustningen ligger i den övre prisklassen.</p>
+<p><strong>Passar för</strong>: hus och lägenheter där du vill ha ett larm i proffsklass som du installerar själv. Föredrar du ett annat ekosystem jämför vi Somfy Home Alarm Advanced och Ring Alarm Pack M (andra generationen) i vår guide till <a href="/sv/blog/alarme-maison-sans-abonnement">hemlarm utan abonnemang</a>.</p>
+
+<h3>2. Eufy Video Doorbell E340: dörrklockan utan abonnemang</h3>
+<p>E340 har två kameror: en framåtriktad 2K-kamera för besökare och en som pekar nedåt för att hålla koll på paket som lämnas vid dörren. Filmerna sparas i 8 GB inbyggt minne, utan månadsavgift, och kan även lagras på en HomeBase S380.</p>
+<p><strong>Styrkor</strong>: inget abonnemang behövs för historiken; mörkerseende i färg; igenkänning av personer och paket; drivs med batteri eller via de befintliga ledningarna till dörrklockan.</p>
+<p><strong>Svagheter</strong>: på batteri sjunker batteritiden märkbart vid en entré med mycket spring; eufys app är full av funktioner men kan kännas snårig för en nybörjare.</p>
+<p><strong>Passar för</strong>: hus med entré mot gatan eller en grind, och alla som ofta får paket.</p>
+
+<h3>3. Nuki Smart Lock Pro (femte generationen): referensen bland smarta lås</h3>
+<p>Låset monteras på dörrens insida, över den befintliga cylindern, så du behöver inte byta lås. Det har inbyggt wifi, Bluetooth och Matter via Thread, och därför behövs ingen brygga för att öppna på distans. Batteriet är laddningsbart och den borstlösa motorn låser snabbt.</p>
+<p><strong>Styrkor</strong>: fungerar med Apple Home, Google Home, Alexa och Home Assistant via Matter; tillfällig eller återkommande åtkomst för familjen, städhjälpen eller hyresgäster; fullständig historik över alla öppningar.</p>
+<p><strong>Svagheter</strong>: cylindern måste ha nödfunktion (den ska gå att öppna utifrån med nyckel även när en nyckel sitter i på insidan); knappsatsen säljs separat; låsenheten är ganska skrymmande. Är budgeten snävare har Nuki Smart Lock Go det viktigaste, och Aqara U200 levereras med knappsats.</p>
+<p><strong>Passar för</strong>: de flesta hem med en låscylinder av europrofiltyp. Jämför modellerna i vår <a href="/sv/blog/serrure-connectee-guide">guide till smarta lås</a>.</p>
+
+<h3>4. eufyCam S3 Pro: den självförsörjande utomhuskameran</h3>
+<p>Kameran filmar i 4K med en stor bildsensor och mörkerseende i färg (MaxColor Vision). Den har inbyggd solpanel och rörelsedetektering med radar, och den är IP67-klassad. Den fungerar bara tillsammans med HomeBase S380, som sparar filmerna lokalt och har plats för en hårddisk.</p>
+<p><strong>Styrkor</strong>: mycket bra nattbilder enligt oberoende utvärderingar; sällan eller aldrig någon laddning tack vare solpanelen; lokal lagring utan abonnemang; inbyggd siren.</p>
+<p><strong>Svagheter</strong>: HomeBase är ett måste; hur väl solpanelen fungerar beror på hur mycket sol fasaden får.</p>
+<p><strong>Passar för</strong>: hus med trädgård där du vill slippa kablar. Vill du ha en trådbunden PoE-installation eller har du en snävare budget, läs vår <a href="/sv/blog/comparatif-camera-surveillance-exterieure">jämförelse av utomhuskameror</a>.</p>
+
+<h3>5. Eufy Indoor Cam E220: den mångsidiga inomhuskameran</h3>
+<p>Den motoriserade 2K-kameran vrider sig 360° och lutar 96°, och den följer rörelser automatiskt. Den spelar in på ett microSD-kort på upp till 128 GB och skiljer människor från djur. Den fungerar med Apple Home.</p>
+<p><strong>Styrkor</strong>: en enda kamera täcker ett helt rum; lokal lagring; tvåvägsljud så att du kan prata med ett barn eller lugna ett husdjur.</p>
+<p><strong>Svagheter</strong>: använd den bara i vardagsrum och andra gemensamma utrymmen, aldrig i sovrum eller badrum, och ställ in den så att den stängs av automatiskt när du är hemma. Reolink E1 Pro är ett närliggande alternativ.</p>
+<p><strong>Passar för</strong>: att kontrollera vad som utlöste ett larm och att hålla koll på ett husdjur eller en entré.</p>
+
+<h3>6. Netatmo Smart Smoke Alarm: den smarta brandvarnaren</h3>
+<p>Den är certifierad enligt EN 14604, larmar med 85 dB och skickar en notis till mobilen när den känner av rök, även när du inte är hemma. Det inbyggda batteriet håller i 10 år och brandvarnaren ansluts via wifi, utan hubb.</p>
+<p><strong>Styrkor</strong>: trådlös installation på några minuter; sirenen fungerar även utan internet; fungerar med Apple Home och Google Home.</p>
+<p><strong>Svagheter</strong>: brandvarnarna är inte sammankopplade med varandra; den känner inte av koloxid. Reglerna för brandvarnare skiljer sig mellan länder (i Frankrike är en brandvarnare obligatorisk i varje bostad sedan 2015), så kontrollera vad som gäller där du bor. Fler alternativ hittar du i vår <a href="/sv/blog/detecteur-fumee-connecte-comparatif">jämförelse av smarta brandvarnare</a>.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Utrustning</th><th>Roll</th><th>Viktigaste data</th><th>Uppkoppling</th><th>Lagring/abonnemang</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Ajax StarterKit 4G</td><td>Larm</td><td>4G-central + rörelsesensor och magnetkontakt</td><td>Ethernet, 4G, Ajax egen radio</td><td>Inget krav på abonnemang</td><td>Grunden i varje system</td></tr>
+<tr><td>Eufy Video Doorbell E340</td><td>Videodörrklocka</td><td>Två kameror (besökare + paket)</td><td>Wifi</td><td>8 GB inbyggt, inget abonnemang</td><td>Entré och leveranser</td></tr>
+<tr><td>Nuki Smart Lock Pro (femte generationen)</td><td>Åtkomst</td><td>Monteras på befintlig cylinder</td><td>Wifi, Bluetooth, Matter via Thread</td><td>Inget abonnemang</td><td>Dela åtkomst utan nyckel</td></tr>
+<tr><td>eufyCam S3 Pro</td><td>Utomhuskamera</td><td>4K, solpanel, radar</td><td>Via HomeBase S380</td><td>Lokalt på HomeBase</td><td>Trädgård och fasad</td></tr>
+<tr><td>Eufy Indoor Cam E220</td><td>Inomhuskamera</td><td>2K, motoriserad 360°</td><td>Wifi</td><td>microSD upp till 128 GB</td><td>Larmverifiering</td></tr>
+<tr><td>Netatmo Smart Smoke Alarm</td><td>Brand</td><td>EN 14604, 10-årsbatteri</td><td>Wifi</td><td>Inget abonnemang</td><td>Varningar på distans</td></tr>
+</tbody>
+</table>
+
+<h2>Bygg systemet efter din bostad</h2>
+<h3>Lägenhet</h3>
+<p>Ett smart lås, en inomhuskamera riktad mot hallen och en brandvarnare täcker det viktigaste. En magnetkontakt på lägenhetsdörren, kopplad till ett litet larm, ger ett verkligt skydd. Kontrollera husets regler innan du sätter upp en videodörrklocka i trapphuset – i ett flerbostadshus kan du behöva föreningens eller hyresvärdens godkännande.</p>
+<h3>Villa</h3>
+<p>Börja med larmet: en magnetkontakt på varje ytterdörr och en rörelsesensor där en inkräktare måste passera (hall, trappa). Lägg sedan till videodörrklockan, en eller två utomhuskameror som täcker entréerna och en brandvarnare på varje våningsplan.</p>
+<h3>Fritidshus</h3>
+<p>Satsa på motståndskraft: ett larm med SIM-kort för 4G och reservbatteri, plus vattenlarm om vattnet är påslaget medan du är borta. Det smarta låset gör det enkelt att släppa in en hantverkare eller en granne när du inte är där.</p>
+
+<h2>Installation och goda råd</h2>
+<ul>
+<li><strong>Kameror</strong>: montera dem på cirka 2,5 meters höjd, utom räckhåll, riktade mot entréerna och inte mot solen.</li>
+<li><strong>Nätverk</strong>: byt standardlösenorden, aktivera tvåfaktorsautentisering i varje app och installera alla firmwareuppdateringar.</li>
+<li><strong>Lås</strong>: ha alltid en mekanisk reservnyckel på ett säkert ställe och håll koll på batterinivån i appen.</li>
+<li><strong>Larm</strong>: gör ett provlarm efter installationen och kontrollera att sirenen hörs i hela huset.</li>
+<li><strong>El</strong>: arbete i elcentralen eller en ny elkrets ska utföras av en behörig elektriker.</li>
+</ul>
+
+<h2>Integritet: det här måste du tänka på</h2>
+<p>Du får filma inne i din bostad och på din egen tomt. Däremot ska kamerorna varken filma allmän gata eller grannarnas tomt: använd de integritetszoner som de flesta appar erbjuder för att maskera trottoaren eller fönstret mittemot. Har du någon anställd i hemmet (barnvakt, städhjälp) ska personen informeras om att det finns kameror. I Frankrike ger dataskyddsmyndigheten CNIL ut praktiska råd i frågan, och varje EU-land har en egen dataskyddsmyndighet. Lokal lagring begränsar dessutom hur mycket av dina filmer som hamnar på andras servrar.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att satsa allt på kameror</strong>: en kamera spelar in, men bara ett larm skrämmer bort inkräktaren under själva inbrottet.</li>
+<li><strong>Att blanda många märken</strong> utan att kontrollera kompatibiliteten: du får fem appar och inga automationer.</li>
+<li><strong>Att glömma internetavbrott</strong>: utan batteri eller 4G tystnar ett wifi-larm när det behövs som mest.</li>
+<li><strong>Att glömma koloxiden</strong> om du har panna, kamin eller öppen spis: då behövs en separat koloxidvarnare.</li>
+<li><strong>Att behålla fabriksinställningarna</strong>: standardlösenord och för stora detekteringszoner ger säkerhetsluckor och falsklarm.</li>
+</ul>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta hushåll är den här köpordningen mest effektiv: <strong>Ajax StarterKit 4G</strong> som grund för larmet, sedan <strong>Eufy Video Doorbell E340</strong> för entrén och <strong>Nuki Smart Lock Pro (femte generationen)</strong> för att styra åtkomsten. Komplettera med <strong>eufyCam S3 Pro</strong> utomhus, <strong>Eufy Indoor Cam E220</strong> inomhus och en <strong>Netatmo Smart Smoke Alarm</strong> på varje våningsplan. Då får du ett sammanhängande system utan krav på abonnemang, som du kan bygga ut rum för rum.</p>`,
+    us: `<p><strong>To secure a smart home in 2026, the strongest foundation is a wireless security system with cellular backup, like the Ajax StarterKit 4G, paired with a video doorbell that stores footage locally (Eufy Video Doorbell E340) and a smart lock (Nuki Smart Lock Pro, 5th generation).</strong> Then add cameras that record at home instead of in the cloud, plus smart smoke detectors, and you have a complete system with no required subscription.</p>
+<p>This guide is based on manufacturer specifications, independent reviews and verified owner feedback. It only includes models sold in Europe in 2026. You’ll find all our picks in the <a href="/us/securite-maison">home security</a> section.</p>
+
+<h2>The five layers of a smart security system</h2>
+<p>A good system never depends on a single device. Each piece covers a different risk, and it’s the combination that actually protects your home.</p>
+<ul>
+<li><strong>The alarm system</strong> detects a break-in (a door opening, movement in a room) and sets off a siren and alerts. It’s the most important layer, because it reacts even when nobody is looking at their phone.</li>
+<li><strong>The video doorbell</strong> shows you who’s at the door, lets you answer from anywhere and keeps a record of visitors and deliveries.</li>
+<li><strong>The smart lock</strong> ends the problem of lost or copied keys, lets you unlock the door for someone remotely and keeps a log of who came and went.</li>
+<li><strong>Cameras</strong> outside deter intruders and capture usable footage; indoor cameras let you see what’s actually happening when the alarm goes off.</li>
+<li><strong>Smoke and CO detectors</strong> guard against the most serious risks to the people inside: fire and carbon monoxide poisoning.</li>
+</ul>
+
+<h2>What to look for</h2>
+<h3>Subscription and video storage</h3>
+<p>For many households, this is the first question. Some brands all but require a subscription to see your video history; others save recordings to a microSD card, built-in storage or a local base station. The models picked here work with no monthly fee; some manufacturers still offer a paid plan for professional monitoring or cloud backup.</p>
+<h3>Resilience: internet and power outages</h3>
+<p>An experienced burglar may cut the power or the internet line. A serious alarm system needs a backup battery and, ideally, a second communication path (a 4G SIM card on top of Ethernet or Wi-Fi). Wireless sensors should use a robust radio protocol rather than your home Wi-Fi.</p>
+<h3>Ecosystem and compatibility</h3>
+<p>Juggling five different apps gets old fast. Check compatibility with what you already use: Apple Home, Google Home, Alexa or Matter. Recent locks that support Matter over Thread slot easily into most platforms.</p>
+<h3>Smart detection</h3>
+<p>On cameras and doorbells, person, vehicle and package detection sharply cuts false alerts set off by leaves, cats or headlights. For motion sensors on an alarm system, look for pet immunity if you have a dog or cat.</p>
+<h3>Power and installation</h3>
+<p>Battery, solar panel, hardwired or PoE: the right choice depends on where the device goes and how handy you are. A battery-powered device installs in minutes; a wired one never needs recharging but requires running a cable.</p>
+
+<h2>The gear worth buying in 2026</h2>
+
+<h3>1. Ajax StarterKit 4G — the best security system foundation</h3>
+<p>The kit includes a Hub 2 (4G) control panel, a MotionProtect motion sensor, a DoorProtect door/window sensor and a SpaceControl key fob with a panic button. The hub connects over Ethernet and a 4G cellular network, and alerts you by push notification, text message and phone call. The sensors use Ajax’s proprietary radio protocol, known for its range and reliability.</p>
+<p><strong>Pros</strong>: two communication paths; pet-immune motion sensor; an app with no required subscription; a very wide range of sensors (glass break, water leak, motion sensors with photo verification); professional monitoring available through approved partners.</p>
+<p><strong>Cons</strong>: no siren in the kit; no native Apple Home or Google Home integration; premium-priced hardware.</p>
+<p><strong>Best for</strong>: houses and apartments that want a professional-grade, DIY-installed security system. If you prefer another ecosystem, the Somfy Home Alarm Advanced and the Ring Alarm Pack M (Gen 2) are compared in our guide to <a href="/us/blog/alarme-maison-sans-abonnement">home security systems with no monthly fee</a>.</p>
+
+<h3>2. Eufy Video Doorbell E340 — the no-subscription doorbell</h3>
+<p>The E340 has two cameras: a 2K front-facing camera for visitors and a second one pointing down to keep an eye on packages left at the door. Video is saved to 8 GB of built-in storage with no monthly fee, and can also be stored on a HomeBase S380.</p>
+<p><strong>Pros</strong>: no subscription needed for video history; color night vision; person and package detection; runs on battery or on existing doorbell wiring.</p>
+<p><strong>Cons</strong>: on battery power, runtime drops noticeably at a very busy front door; the eufy app is packed with features but overwhelming for beginners.</p>
+<p><strong>Best for</strong>: homes with a front door or gate facing the street, and anyone who gets a lot of packages.</p>
+
+<h3>3. Nuki Smart Lock Pro (5th generation) — the benchmark smart lock</h3>
+<p>It mounts on the inside of the door, over the existing cylinder, so you keep your lock. It has built-in Wi-Fi, Bluetooth and Matter over Thread, so you don’t need a bridge to unlock it remotely. The battery is rechargeable, and the brushless motor locks quickly.</p>
+<p><strong>Pros</strong>: works with Apple Home, Google Home, Alexa and Home Assistant via Matter; temporary or recurring access for family, a house cleaner or vacation-rental guests; a full log of every lock and unlock.</p>
+<p><strong>Cons</strong>: the cylinder needs an emergency function (so it can be opened from outside with a key even when another key is left in the inside); the keypad is sold separately; the housing is fairly bulky. On a tighter budget, the Nuki Smart Lock Go keeps the essentials, and the Aqara U200 comes with its keypad.</p>
+<p><strong>Best for</strong>: most homes with a euro-profile cylinder lock. Check that the lock fits your door: most US exterior doors use a deadbolt. Compare models in our <a href="/us/blog/serrure-connectee-guide">smart lock guide</a>.</p>
+
+<h3>4. eufyCam S3 Pro — the self-sufficient outdoor camera</h3>
+<p>This camera records in 4K with a large sensor and color night vision (MaxColor Vision). It has a built-in solar panel, radar motion detection and an IP67 rating. It works only with the HomeBase S380, which stores footage locally and can take a hard drive.</p>
+<p><strong>Pros</strong>: very good nighttime footage, according to independent reviews; little or no recharging thanks to solar; local storage with no subscription; built-in siren.</p>
+<p><strong>Cons</strong>: the HomeBase is required; solar charging depends on how much sun that wall gets.</p>
+<p><strong>Best for</strong>: homes with a yard that want to avoid running cables. For a wired PoE setup or a tighter budget, see our <a href="/us/blog/comparatif-camera-surveillance-exterieure">outdoor security camera comparison</a>.</p>
+
+<h3>5. Eufy Indoor Cam E220 — the versatile indoor camera</h3>
+<p>A motorized 2K camera, it pans 360° and tilts 96°, with automatic motion tracking. It records to a microSD card of up to 128 GB and can tell people from pets. It works with Apple Home.</p>
+<p><strong>Pros</strong>: one camera covers an entire room; local storage; two-way audio to talk to a child or calm a pet.</p>
+<p><strong>Cons</strong>: keep it to shared living spaces, never bedrooms or bathrooms; set it to turn off automatically when you’re home. The Reolink E1 Pro is a close alternative.</p>
+<p><strong>Best for</strong>: checking what set off an alert, keeping an eye on a pet or an entryway.</p>
+
+<h3>6. Netatmo Smart Smoke Alarm — the smart smoke detector</h3>
+<p>Certified to the European EN 14604 standard, it sounds an 85 dB alarm and alerts your smartphone when it detects smoke, even when you’re away. Its built-in battery lasts 10 years, and it connects over Wi-Fi with no hub. In the US, smoke alarms are listed to UL 217 and CO alarms to UL 2034; check the listing of the version sold in your country.</p>
+<p><strong>Pros</strong>: wire-free installation in minutes; the siren works even without internet; works with Apple Home and Google Home.</p>
+<p><strong>Cons</strong>: the alarms don’t interconnect with each other; no carbon monoxide detection. In France, every home has been required to have a smoke alarm since 2015. More options in our <a href="/us/blog/detecteur-fumee-connecte-comparatif">smart smoke detector comparison</a>.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Device</th><th>Role</th><th>Key spec</th><th>Connectivity</th><th>Storage / subscription</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Ajax StarterKit 4G</td><td>Security system</td><td>4G hub + motion and door/window sensors</td><td>Ethernet, 4G, Ajax radio</td><td>No required subscription</td><td>The base of any system</td></tr>
+<tr><td>Eufy Video Doorbell E340</td><td>Video doorbell</td><td>Dual camera (visitors + packages)</td><td>Wi-Fi</td><td>8 GB built in, no subscription</td><td>Front door and deliveries</td></tr>
+<tr><td>Nuki Smart Lock Pro (5th generation)</td><td>Access</td><td>Fits over existing cylinder</td><td>Wi-Fi, Bluetooth, Matter over Thread</td><td>No subscription</td><td>Keyless shared access</td></tr>
+<tr><td>eufyCam S3 Pro</td><td>Outdoor camera</td><td>4K, solar, radar</td><td>Via HomeBase S380</td><td>Local on HomeBase</td><td>Yard and exterior walls</td></tr>
+<tr><td>Eufy Indoor Cam E220</td><td>Indoor camera</td><td>2K, 360° pan</td><td>Wi-Fi</td><td>microSD up to 128 GB</td><td>Checking alerts</td></tr>
+<tr><td>Netatmo Smart Smoke Alarm</td><td>Fire</td><td>EN 14604, 10-year battery</td><td>Wi-Fi</td><td>No subscription</td><td>Alerts when you’re away</td></tr>
+</tbody>
+</table>
+
+<h2>Building a system for your home</h2>
+<h3>Apartment</h3>
+<p>A smart lock, an indoor camera facing the entry and a smoke detector cover the essentials. A contact sensor on your front door, linked to a small alarm system, adds real protection. Check your lease or your condo association’s rules before mounting a video doorbell in a shared hallway.</p>
+<h3>House</h3>
+<p>Start with the security system: a contact sensor on every exterior door and a motion sensor in the spots an intruder has to pass through (hallway, stairs). Then add the video doorbell, one or two outdoor cameras covering the entrances and a smoke detector on every floor.</p>
+<h3>Vacation home</h3>
+<p>Prioritize resilience: a security system with a 4G SIM and a backup battery, plus water leak sensors if the water stays on. A smart lock makes it easy to let in a contractor or a neighbor while you’re away.</p>
+
+<h2>Installation and best practices</h2>
+<ul>
+<li><strong>Cameras</strong>: mount them about 8 ft (2.5 m) up, out of reach, aimed at entry points and away from direct sun.</li>
+<li><strong>Network</strong>: change default passwords, turn on two-factor authentication in every app and install firmware updates.</li>
+<li><strong>Lock</strong>: always keep a spare physical key somewhere safe, and check the battery level in the app.</li>
+<li><strong>Alarm system</strong>: run a test alert after installation and make sure the siren can be heard throughout the house.</li>
+<li><strong>Wiring</strong>: any work inside your electrical panel or on a new circuit is a job for a licensed electrician; check whether your area requires a permit.</li>
+</ul>
+
+<h2>Privacy: what to keep in mind</h2>
+<p>Filming inside your home and on your own property is generally fine. Pointing cameras at the street or your neighbors’ property is where problems start (in France, it isn’t allowed, and rules vary elsewhere), so use the privacy zones most apps offer to mask the sidewalk or the house across the street. If you employ someone in your home, such as a nanny or a house cleaner, tell them there are cameras; in France, that’s a legal requirement, and France’s data protection authority (CNIL) publishes practical guides on the subject. Elsewhere, check the rules where you live. Local storage also limits how much of your footage ends up on third-party servers.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Relying on cameras alone</strong>: a camera records, but only an alarm scares off an intruder while the break-in is happening.</li>
+<li><strong>Mixing brands</strong> without checking compatibility: you’ll end up with five apps and no automations.</li>
+<li><strong>Ignoring internet outages</strong>: without a backup battery or 4G, a Wi-Fi alarm goes silent at the worst possible moment.</li>
+<li><strong>Forgetting carbon monoxide</strong> if you have a furnace or boiler, a wood stove or a fireplace: you need a dedicated CO detector.</li>
+<li><strong>Sticking with factory settings</strong>: default passwords and oversized detection zones open security holes and trigger false alerts.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>For most households, the smartest buying order is the <strong>Ajax StarterKit 4G</strong> as the security system foundation, then the <strong>Eufy Video Doorbell E340</strong> for the front door and the <strong>Nuki Smart Lock Pro (5th generation)</strong> to manage access. Round it out with the <strong>eufyCam S3 Pro</strong> outside, the <strong>Eufy Indoor Cam E220</strong> inside and a <strong>Netatmo Smart Smoke Alarm</strong> on each floor. The result is a system that works together, with no required subscription, and that you can expand one room at a time.</p>`,
+    ca: `<p><strong>To secure a smart home in 2026, the strongest foundation is a wireless alarm with cellular backup, such as the Ajax StarterKit 4G, paired with a video doorbell that stores footage locally (Eufy Video Doorbell E340) and a smart lock (Nuki Smart Lock Pro, 5th generation).</strong> Add cameras that record at home rather than in the cloud, plus smart smoke alarms, and you have a complete system with no mandatory subscription.</p>
+<p>This guide is based on manufacturer specifications, independent reviews and verified buyer reviews. It only includes models sold in Europe in 2026; models and versions sold in Canada can differ from the European ones, so check that the listing is for a 120 V North American model. You’ll find all our picks in the <a href="/ca/securite-maison">home security</a> section.</p>
+
+<h2>The five layers of a smart security system</h2>
+<p>A good system never relies on a single device. Each piece of equipment covers a different risk, and it is the combination that actually protects your home.</p>
+<ul>
+<li><strong>The alarm</strong> detects an intrusion (a door opening, movement in a room) and triggers a siren and alerts. It is the most important layer, because it reacts even when nobody is looking at their phone.</li>
+<li><strong>The video doorbell</strong> shows who is at the door, lets you answer remotely and keeps a record of visitors and deliveries.</li>
+<li><strong>The smart lock</strong> ends the problem of lost or copied keys, lets you unlock the door for someone remotely and keeps an access history.</li>
+<li><strong>Outdoor cameras</strong> deter intruders and provide usable footage; indoor cameras let you check what is happening when the alarm goes off.</li>
+<li><strong>Smoke and CO alarms</strong> protect against the most serious risks to the people inside: fire and carbon monoxide poisoning.</li>
+</ul>
+
+<h2>How to choose</h2>
+<h3>Subscription and video storage</h3>
+<p>For many households, this is the first question. Some brands make a subscription almost essential to view your video history; others store recordings on a microSD card, built-in memory or a local base station. The models selected here work with no monthly fees, although some manufacturers still offer a paid plan for professional monitoring or cloud backup.</p>
+<h3>Resilience: internet and power outages</h3>
+<p>An experienced burglar may cut the power or the internet line. A serious alarm therefore needs a backup battery and, ideally, a second communication channel (a 4G SIM card alongside Ethernet or Wi-Fi). Wireless sensors should use a robust radio protocol rather than your home Wi-Fi.</p>
+<h3>Ecosystem and compatibility</h3>
+<p>Juggling five different apps quickly gets tiresome. Check compatibility with what you already use: Apple Home, Google Home, Alexa or Matter. Recent locks that support Matter over Thread fit easily into most platforms.</p>
+<h3>Smart detection</h3>
+<p>On cameras and doorbells, recognizing people, vehicles or packages sharply reduces false alerts caused by leaves, cats or headlights. For alarm motion detectors, look for pet immunity if you have a dog or cat.</p>
+<h3>Power and installation</h3>
+<p>Battery, solar panel, hardwired power or PoE: the choice depends on the location and your DIY skills. A battery-powered device installs in minutes; a wired one never needs recharging but requires running a cable.</p>
+
+<h2>The equipment worth choosing in 2026</h2>
+
+<h3>1. Ajax StarterKit 4G — the best alarm foundation</h3>
+<p>The kit includes a Hub 2 (4G) control panel, a MotionProtect motion detector, a DoorProtect door and window sensor and a SpaceControl key fob with a panic button. The hub communicates over Ethernet and 4G, and alerts you by push notification, text message and phone call. The sensors use Ajax’s proprietary radio protocol, known for its range and reliability.</p>
+<p><strong>Strengths</strong>: two communication channels; pet-immune motion detector; an app with no mandatory subscription; a very wide range of sensors (glass break, flood, detectors with photo verification); professional monitoring available through approved partners.</p>
+<p><strong>Limitations</strong>: no siren in the kit; no native Apple Home or Google Home integration; premium hardware.</p>
+<p><strong>Best for</strong>: houses and apartments that want a professional-grade alarm the owner can install. If you prefer another ecosystem, the Somfy Home Alarm Advanced and the Ring Alarm Pack M (Gen 2) are compared in our guide to <a href="/ca/blog/alarme-maison-sans-abonnement">home alarms without subscription</a>.</p>
+
+<h3>2. Eufy Video Doorbell E340 — the subscription-free doorbell</h3>
+<p>The E340 combines two cameras: a 2K front camera for visitors and a second one pointing down to watch packages left at the door. Video is saved to 8 GB of built-in storage with no monthly fees, and can also be stored on a HomeBase S380.</p>
+<p><strong>Strengths</strong>: no subscription needed for video history; colour night vision; person and package detection; runs on battery or on existing doorbell wiring.</p>
+<p><strong>Limitations</strong>: on battery, runtime drops noticeably at a very busy entrance; the eufy app is feature-rich but dense for beginners.</p>
+<p><strong>Best for</strong>: homes with a street-facing door or gate, and anyone who gets a lot of deliveries.</p>
+
+<h3>3. Nuki Smart Lock Pro (5th generation) — the benchmark smart lock</h3>
+<p>It mounts on the inside of the door, over the existing euro cylinder, without replacing the lock. It has built-in Wi-Fi, Bluetooth and Matter over Thread, so no bridge is needed for remote access. The battery is rechargeable, and its brushless motor locks quickly.</p>
+<p><strong>Strengths</strong>: works with Apple Home, Google Home, Alexa and Home Assistant via Matter; temporary or recurring access for family, a cleaner or guests; full access history.</p>
+<p><strong>Limitations</strong>: the cylinder needs an emergency function (it can be opened from outside with a key even when a key is left in the lock on the inside); the keypad is sold separately; the housing is fairly bulky. On a tighter budget, the Nuki Smart Lock Go keeps the essentials, and the Aqara U200 comes with its keypad.</p>
+<p><strong>Best for</strong>: homes with a euro-profile cylinder lock; most Canadian exterior doors use a deadbolt instead, so check your door first. Compare models in our <a href="/ca/blog/serrure-connectee-guide">smart lock guide</a>.</p>
+
+<h3>4. eufyCam S3 Pro — the self-sufficient outdoor camera</h3>
+<p>This camera records in 4K with a large sensor and colour night vision (MaxColor Vision). It has a built-in solar panel, radar motion detection and an IP67 rating. It works only with the HomeBase S380, which stores footage locally and can take a hard drive.</p>
+<p><strong>Strengths</strong>: very good night images, according to independent reviews; little or no recharging thanks to solar; local storage with no subscription; built-in siren.</p>
+<p><strong>Limitations</strong>: the HomeBase is mandatory; solar performance depends on how much sun the wall gets.</p>
+<p><strong>Best for</strong>: houses with a yard that want to avoid running cables. For a wired PoE setup or a tighter budget, see our <a href="/ca/blog/comparatif-camera-surveillance-exterieure">outdoor camera comparison</a>.</p>
+
+<h3>5. Eufy Indoor Cam E220 — the versatile indoor camera</h3>
+<p>This motorized 2K camera pans 360° and tilts 96°, with automatic motion tracking. It records to a microSD card of up to 128 GB and can tell people from pets. It is compatible with Apple Home.</p>
+<p><strong>Strengths</strong>: one camera covers a whole room; local storage; two-way audio to talk to a child or reassure a pet.</p>
+<p><strong>Limitations</strong>: keep it to living areas, never bedrooms or bathrooms, and set it to switch off automatically when you are home. The Reolink E1 Pro is a close alternative.</p>
+<p><strong>Best for</strong>: checking what triggered an alert, or keeping an eye on a pet or an entrance.</p>
+
+<h3>6. Netatmo Smart Smoke Alarm — the smart smoke alarm</h3>
+<p>Certified to the European EN 14604 standard, it sounds at 85 dB and alerts your smartphone when it detects smoke, even when you are away. Its built-in battery lasts 10 years, and it connects over Wi-Fi with no hub.</p>
+<p><strong>Strengths</strong>: wireless installation in minutes; the siren works even without internet; compatible with Apple Home and Google Home.</p>
+<p><strong>Limitations</strong>: the alarms are not interconnected with each other; no carbon monoxide detection. Smoke alarm requirements vary, so check the rules in your province or territory and look for a ULC or CSA mark on any alarm you install in a Canadian home. More options in our <a href="/ca/blog/detecteur-fumee-connecte-comparatif">smart smoke detector comparison</a>.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Device</th><th>Role</th><th>Key spec</th><th>Connectivity</th><th>Storage / subscription</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Ajax StarterKit 4G</td><td>Alarm</td><td>4G hub + motion and door/window sensors</td><td>Ethernet, 4G, Ajax radio</td><td>No mandatory subscription</td><td>Foundation of any system</td></tr>
+<tr><td>Eufy Video Doorbell E340</td><td>Video doorbell</td><td>Dual camera (visitors + packages)</td><td>Wi-Fi</td><td>8 GB built in, no subscription</td><td>Front door and deliveries</td></tr>
+<tr><td>Nuki Smart Lock Pro (5th generation)</td><td>Access</td><td>Fits existing euro cylinder</td><td>Wi-Fi, Bluetooth, Matter over Thread</td><td>No subscription</td><td>Keyless shared access</td></tr>
+<tr><td>eufyCam S3 Pro</td><td>Outdoor camera</td><td>4K, solar, radar</td><td>Via HomeBase S380</td><td>Local on HomeBase</td><td>Yard and exterior</td></tr>
+<tr><td>Eufy Indoor Cam E220</td><td>Indoor camera</td><td>2K, 360° pan</td><td>Wi-Fi</td><td>microSD up to 128 GB</td><td>Alarm verification</td></tr>
+<tr><td>Netatmo Smart Smoke Alarm</td><td>Fire</td><td>EN 14604, 10-year battery</td><td>Wi-Fi</td><td>No subscription</td><td>Remote alerts</td></tr>
+</tbody>
+</table>
+
+<h2>Building a system for your home</h2>
+<h3>Apartment or condo</h3>
+<p>A smart lock, an indoor camera facing the entrance and a smoke alarm cover the essentials. A door sensor on the front door, linked to a small alarm, adds real protection. Check your building’s or condo board’s rules before installing a video doorbell in a shared hallway.</p>
+<h3>House</h3>
+<p>Start with the alarm: a door sensor on every exterior door and a motion detector in the areas an intruder has to cross (hallway, stairs). Then add the video doorbell, one or two outdoor cameras covering the entrances and a smoke alarm on every floor.</p>
+<h3>Cottage</h3>
+<p>Prioritize resilience: an alarm with a 4G SIM and a backup battery, plus water leak sensors if the water stays on. A smart lock makes it easy to let in a contractor or a neighbour while you are away.</p>
+
+<h2>Installation and good practice</h2>
+<ul>
+<li><strong>Cameras</strong>: mount them at around 2.5 m (about 8 ft), out of reach, aimed at entry points and away from direct sun.</li>
+<li><strong>Network</strong>: change default passwords, turn on two-factor authentication in each app and install firmware updates.</li>
+<li><strong>Lock</strong>: always keep a mechanical spare key somewhere safe, and check the battery level in the app.</li>
+<li><strong>Alarm</strong>: trigger a test alert after installation and make sure the siren can be heard throughout the house.</li>
+<li><strong>Electrical work</strong>: any work on the electrical panel or a new circuit should be done by a licensed electrician; the rules are set by each province and territory.</li>
+</ul>
+
+<h2>Privacy: the rules to respect</h2>
+<p>You can film inside your home and on your own property. However, your cameras shouldn’t cover the public street or your neighbours’ property: use the privacy zones most apps offer to mask the sidewalk or the house across the street. If you employ someone in your home (a nanny or a cleaner), tell them that cameras are in use. Privacy rules differ from one country and province to another, so check the guidance that applies where you live. Local storage also limits how much of your footage ends up on third-party servers.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Relying only on cameras</strong>: a camera records, but only an alarm drives an intruder away during a break-in.</li>
+<li><strong>Mixing brands</strong> without checking compatibility: you’ll end up with five apps and no automation.</li>
+<li><strong>Ignoring internet outages</strong>: without a battery or 4G, a Wi-Fi alarm goes silent at the worst moment.</li>
+<li><strong>Forgetting carbon monoxide</strong> if you have a gas furnace, boiler, water heater, wood stove or fireplace: you need a dedicated CO alarm.</li>
+<li><strong>Keeping factory settings</strong>: default passwords and oversized detection zones create security gaps and false alerts.</li>
+</ul>
+
+<h2>Our verdict</h2>
+<p>For most households, the most effective buying order is: the <strong>Ajax StarterKit 4G</strong> as the alarm foundation, then the <strong>Eufy Video Doorbell E340</strong> for the front door and the <strong>Nuki Smart Lock Pro (5th generation)</strong> to manage access. Round it out with the <strong>eufyCam S3 Pro</strong> outside, the <strong>Eufy Indoor Cam E220</strong> inside and a <strong>Netatmo Smart Smoke Alarm</strong> on each floor. The result is a coherent system with no mandatory subscription that you can expand room by room.</p>`,
   },
   faq: [
     {
@@ -813,6 +1146,9 @@ export const article: BlogArticle = {
         it: 'Serve un abbonamento per un sistema di sicurezza connesso?',
         nl: 'Heb je een abonnement nodig voor een slim beveiligingssysteem?',
         pl: 'Czy system bezpieczeństwa inteligentnego domu wymaga abonamentu?',
+        sv: 'Behövs det abonnemang för ett smart säkerhetssystem i hemmet?',
+        us: 'Do I need a subscription for a smart home security system?',
+        ca: 'Do I need a subscription for a smart home security system?',
       },
       answer: {
         fr: 'Non. L’Ajax StarterKit 4G, la Eufy Video Doorbell E340, l’eufyCam S3 Pro et l’Eufy Indoor Cam E220 fonctionnent sans frais mensuels, avec un stockage local des vidéos. Un abonnement n’est utile que pour la télésurveillance par un centre ou une sauvegarde dans le cloud.',
@@ -822,6 +1158,9 @@ export const article: BlogArticle = {
         it: 'No. Ajax StarterKit 4G, Eufy Video Doorbell E340, eufyCam S3 Pro ed Eufy Indoor Cam E220 funzionano senza costi mensili e archiviano i video in locale. Un abbonamento serve solo per la vigilanza professionale o il backup nel cloud.',
         nl: 'Nee. De Ajax StarterKit 4G, Eufy Video Doorbell E340, eufyCam S3 Pro en Eufy Indoor Cam E220 werken zonder maandelijkse kosten en slaan video lokaal op. Een abonnement is alleen nuttig voor meldkamerbewaking of cloudback-up.',
         pl: 'Nie. Ajax StarterKit 4G, Eufy Video Doorbell E340, eufyCam S3 Pro i Eufy Indoor Cam E220 działają bez miesięcznych opłat, a nagrania wideo są zapisywane lokalnie. Abonament przydaje się tylko wtedy, gdy chcesz profesjonalnego monitoringu lub kopii zapasowej w chmurze.',
+        sv: 'Nej. Ajax StarterKit 4G, Eufy Video Doorbell E340, eufyCam S3 Pro och Eufy Indoor Cam E220 fungerar alla utan månadsavgift och sparar filmerna lokalt. Ett abonnemang behövs bara om du vill ha bevakning via larmcentral eller säkerhetskopiering i molnet.',
+        us: 'No. The Ajax StarterKit 4G, Eufy Video Doorbell E340, eufyCam S3 Pro and Eufy Indoor Cam E220 all work with no monthly fees and store video locally. A subscription is only useful for professional monitoring or cloud backup.',
+        ca: 'No. The Ajax StarterKit 4G, Eufy Video Doorbell E340, eufyCam S3 Pro and Eufy Indoor Cam E220 all work with no monthly fees and store video locally. A subscription is only useful for professional monitoring or cloud backup.',
       },
     },
     {
@@ -833,6 +1172,9 @@ export const article: BlogArticle = {
         it: 'Da quale dispositivo conviene iniziare?',
         nl: 'Met welk apparaat begin je het best?',
         pl: 'Od jakiego urządzenia zacząć?',
+        sv: 'Vilken utrustning ska jag börja med?',
+        us: 'Which device should I start with?',
+        ca: 'Which device should I start with?',
       },
       answer: {
         fr: 'Par l’alarme, avec un détecteur d’ouverture sur chaque porte extérieure et un détecteur de mouvement dans un passage. C’est elle qui réagit pendant l’effraction. Ajoutez ensuite la sonnette vidéo, la serrure connectée, les caméras et les détecteurs de fumée.',
@@ -842,6 +1184,9 @@ export const article: BlogArticle = {
         it: 'Dall’allarme: un contatto di apertura su ogni porta esterna e un rilevatore di movimento in un corridoio. È l’allarme a reagire durante l’effrazione. Poi aggiungete videocampanello, serratura smart, telecamere e rilevatori di fumo.',
         nl: 'Met het alarm: een openingsmelder op elke buitendeur en een bewegingsmelder in een gang. Het alarm reageert tijdens de inbraak. Voeg daarna de videodeurbel, het slimme slot, camera’s en rookmelders toe.',
         pl: 'Od alarmu: z czujnikiem otwarcia na każdych drzwiach zewnętrznych i czujnikiem ruchu w korytarzu. To właśnie alarm reaguje w trakcie włamania. Potem dodaj wideodzwonek, inteligentny zamek, kamery i czujniki dymu.',
+        sv: 'Med larmet: en magnetkontakt på varje ytterdörr och en rörelsesensor i en passage, till exempel hallen. Det är larmet som reagerar under själva inbrottet. Lägg sedan till videodörrklockan, det smarta låset, kamerorna och brandvarnarna.',
+        us: 'With the security system: a contact sensor on every exterior door and a motion sensor in a hallway. The alarm is what reacts during a break-in. Then add the video doorbell, smart lock, cameras and smoke detectors.',
+        ca: 'With the alarm: a door sensor on every exterior door and a motion detector in a hallway. The alarm is what reacts during a break-in. Then add the video doorbell, smart lock, cameras and smoke alarms.',
       },
     },
     {
@@ -853,6 +1198,9 @@ export const article: BlogArticle = {
         it: 'Un allarme connesso funziona senza internet?',
         nl: 'Werkt een slim alarm zonder internet?',
         pl: 'Czy inteligentny alarm działa bez internetu?',
+        sv: 'Fungerar ett smart larm utan internet?',
+        us: 'Does a smart security system work without internet?',
+        ca: 'Does a smart alarm work without internet?',
       },
       answer: {
         fr: 'Cela dépend du modèle. La centrale Hub 2 (4G) de l’Ajax StarterKit 4G bascule sur le réseau cellulaire si la box est coupée et dispose d’une batterie de secours. Une alarme uniquement en Wi-Fi peut continuer à sonner localement, mais ne vous prévient plus à distance.',
@@ -862,6 +1210,9 @@ export const article: BlogArticle = {
         it: 'Dipende dal modello. La centrale Hub 2 (4G) dell’Ajax StarterKit 4G passa alla rete cellulare se il router si spegne e ha una batteria tampone. Un allarme solo Wi-Fi può continuare a suonare in casa, ma non vi avvisa più a distanza.',
         nl: 'Dat hangt van het model af. De Hub 2 (4G) van de Ajax StarterKit 4G schakelt over op het mobiele netwerk als de router uitvalt en heeft een noodaccu. Een alarm dat alleen op wifi werkt, kan lokaal nog afgaan, maar waarschuwt je niet meer op afstand.',
         pl: 'To zależy od modelu. Centrala Hub 2 (4G) z zestawu Ajax StarterKit 4G przełącza się na sieć komórkową, gdy router przestanie działać, i ma akumulator awaryjny. Alarm, który korzysta wyłącznie z Wi-Fi, może nadal włączyć syrenę na miejscu, ale nie powiadomi Cię już zdalnie.',
+        sv: 'Det beror på modellen. Centralenheten Hub 2 (4G) i Ajax StarterKit 4G växlar över till mobilnätet om routern slutar fungera, och den har ett reservbatteri. Ett larm som bara använder wifi kan fortfarande tjuta på plats, men kan inte längre varna dig på distans.',
+        us: 'It depends on the model. The Hub 2 (4G) in the Ajax StarterKit 4G switches to the cellular network if the router goes down and has a backup battery. A Wi-Fi-only alarm may still sound locally but can no longer alert you remotely.',
+        ca: 'It depends on the model. The Hub 2 (4G) in the Ajax StarterKit 4G switches to the cellular network if the router goes down and has a backup battery. A Wi-Fi-only alarm may still sound locally but can no longer alert you remotely.',
       },
     },
     {
@@ -873,6 +1224,9 @@ export const article: BlogArticle = {
         it: 'Una serratura smart è sicura quanto una tradizionale?',
         nl: 'Is een slim slot even veilig als een gewoon slot?',
         pl: 'Czy inteligentny zamek jest tak samo bezpieczny jak zwykły?',
+        sv: 'Är ett smart lås lika säkert som ett vanligt lås?',
+        us: 'Is a smart lock as secure as a traditional lock?',
+        ca: 'Is a smart lock as secure as a traditional lock?',
       },
       answer: {
         fr: 'Un modèle comme la Nuki Smart Lock Pro (5e génération) se pose sur votre cylindre existant : la résistance mécanique reste celle du cylindre et de la porte. Choisissez donc un cylindre de bonne qualité avec fonction de secours, activez la double authentification et gardez une clé de secours.',
@@ -882,6 +1236,9 @@ export const article: BlogArticle = {
         it: 'Un modello come la Nuki Smart Lock Pro (5ª generazione) si monta sul cilindro esistente: la resistenza meccanica dipende sempre da cilindro e porta. Scegliete un cilindro di qualità con funzione di emergenza, attivate l’autenticazione a due fattori e tenete una chiave di riserva.',
         nl: 'Een model als het Nuki Smart Lock Pro (5e generatie) komt op je bestaande cilinder: de mechanische sterkte blijft afhangen van cilinder en deur. Kies dus een goede cilinder met noodfunctie, zet tweestapsverificatie aan en houd een reservesleutel achter de hand.',
         pl: 'Zamek taki jak Nuki Smart Lock Pro (5. generacji) montuje się na istniejącej wkładce, więc o odporności mechanicznej nadal decydują wkładka i drzwi. Wybierz zatem porządną wkładkę z funkcją awaryjną, włącz uwierzytelnianie dwuskładnikowe i miej zawsze zapasowy klucz.',
+        sv: 'En modell som Nuki Smart Lock Pro (femte generationen) monteras över din befintliga cylinder, så det mekaniska skyddet avgörs fortfarande av cylindern och dörren. Välj därför en cylinder av god kvalitet med nödfunktion, aktivera tvåfaktorsautentisering och ha en reservnyckel.',
+        us: 'A model like the Nuki Smart Lock Pro (5th generation) fits over your existing cylinder, so its physical security still comes down to the cylinder and the door. Choose a good-quality cylinder with an emergency function, turn on two-factor authentication and keep a spare key.',
+        ca: 'A model like the Nuki Smart Lock Pro (5th generation) fits over your existing euro cylinder, so its mechanical resistance still depends on the cylinder and the door. Choose a good-quality cylinder with an emergency function, turn on two-factor authentication and keep a spare key.',
       },
     },
     {
@@ -893,6 +1250,9 @@ export const article: BlogArticle = {
         it: 'Posso riprendere davanti a casa mia?',
         nl: 'Mag ik voor mijn huis filmen?',
         pl: 'Czy wolno nagrywać teren przed swoim domem?',
+        sv: 'Får jag filma utanför mitt hem?',
+        us: 'Can I point a security camera outside my home?',
+        ca: 'Am I allowed to film outside my home?',
       },
       answer: {
         fr: 'Vous pouvez filmer votre propriété, mais pas la voie publique ni chez vos voisins. Utilisez les zones de confidentialité de l’application pour masquer le trottoir et informez les personnes que vous employez à domicile. La CNIL détaille ces règles sur son site.',
@@ -902,6 +1262,9 @@ export const article: BlogArticle = {
         it: 'Potete riprendere la vostra proprietà, ma non la strada pubblica né quella dei vicini. Usate le zone di privacy dell’app per oscurare il marciapiede e informate chi lavora in casa vostra. Il Garante privacy pubblica le regole dettagliate.',
         nl: 'Je mag je eigen terrein filmen, maar niet de openbare weg of het eigendom van de buren. Scherm de stoep af met de privacyzones van de app en informeer iedereen die bij je thuis werkt. De Autoriteit Persoonsgegevens legt de regels uit.',
         pl: 'Możesz filmować własną posesję, ale nie drogę publiczną ani teren sąsiadów. Zasłoń chodnik strefami prywatności w aplikacji i poinformuj o kamerach osoby, które zatrudniasz w domu. We Francji szczegółowe zasady opisuje na swojej stronie urząd ochrony danych CNIL.',
+        sv: 'Du får filma din egen tomt, men inte allmän gata eller grannarnas tomt. Använd appens integritetszoner för att maskera trottoaren, och informera dem du har anställda i hemmet. Dataskyddsmyndigheten i ditt land beskriver reglerna närmare.',
+        us: 'Filming your own property is generally fine; the public street and your neighbors’ property are another matter (in France, you can’t film them). Use the app’s privacy zones to mask the sidewalk, and tell anyone you employ in your home that there are cameras. France’s data protection authority (CNIL) spells out the French rules on its website; elsewhere, check the rules where you live.',
+        ca: 'You can film your own property, but not the public street or your neighbours’ property. Use the app’s privacy zones to mask the sidewalk, and tell anyone you employ in your home that cameras are in use. Privacy rules vary by country and province, so check the guidance that applies where you live.',
       },
     },
     {
@@ -913,6 +1276,9 @@ export const article: BlogArticle = {
         it: 'Un rilevatore di fumo connesso può sostituire quello tradizionale?',
         nl: 'Kan een slimme rookmelder een gewone rookmelder vervangen?',
         pl: 'Czy inteligentny czujnik dymu może zastąpić zwykły czujnik dymu?',
+        sv: 'Kan en smart brandvarnare ersätta en vanlig brandvarnare?',
+        us: 'Can a smart smoke detector replace a regular smoke alarm?',
+        ca: 'Can a smart smoke alarm replace a standard one?',
       },
       answer: {
         fr: 'Oui, s’il est certifié NF EN 14604, comme le Netatmo Smart Smoke Alarm. Il sonne comme un détecteur classique et vous prévient en plus sur votre téléphone. Il ne détecte pas le monoxyde de carbone : ajoutez un détecteur de CO si vous avez un appareil à combustion.',
@@ -922,6 +1288,9 @@ export const article: BlogArticle = {
         it: 'Sì, se è certificato EN 14604, come il Netatmo Smart Smoke Alarm. Suona come un rilevatore classico e in più avvisa lo smartphone. Non rileva il monossido di carbonio: aggiungete un rilevatore di CO se avete un apparecchio a combustione.',
         nl: 'Ja, als hij volgens EN 14604 is gecertificeerd, zoals de Netatmo Smart Smoke Alarm. Hij gaat af als een gewone melder en waarschuwt daarnaast je telefoon. Koolmonoxide detecteert hij niet, dus voeg een CO-melder toe bij een verbrandingstoestel.',
         pl: 'Tak, jeśli ma certyfikat zgodności z normą EN 14604 – tak jak Netatmo Smart Smoke Alarm. Alarmuje syreną jak zwykły czujnik, a dodatkowo wysyła powiadomienie na telefon. Nie wykrywa jednak tlenku węgla, więc jeśli masz w domu urządzenie, w którym spala się paliwo (np. kocioł gazowy, piec lub kominek), dodaj czujnik czadu.',
+        sv: 'Ja, om den är certifierad enligt EN 14604, som Netatmo Smart Smoke Alarm. Den larmar precis som en vanlig brandvarnare och varnar dessutom i mobilen. Den känner inte av koloxid, så komplettera med en koloxidvarnare om du har en kamin, panna eller annan apparat med förbränning.',
+        us: 'Yes, if it’s certified to the European EN 14604 standard, like the Netatmo Smart Smoke Alarm. It sounds just like a regular smoke alarm and also alerts your phone. In the US, smoke alarms are listed to UL 217, so check the listing of the version sold in your country. It doesn’t detect carbon monoxide, so add a CO detector if you have a fuel-burning appliance.',
+        ca: 'In Europe, yes, if it is certified to the EN 14604 standard, like the Netatmo Smart Smoke Alarm, which sounds like a standard alarm and also alerts your phone. It does not detect carbon monoxide, so add a CO alarm if you have a gas furnace, boiler, water heater, wood stove or fireplace. In Canada, look for a ULC or CSA mark and check the requirements in your province or territory.',
       },
     },
   ],

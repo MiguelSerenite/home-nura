@@ -800,6 +800,342 @@ export const smartKitchenFaqs: FaqData = {
       },
     ],
   },
+  sv: {
+    multicuiseurs: [
+      {
+        question: 'Kan en smart multikokare verkligen ersätta en gjutjärnsgryta och en tryckkokare?',
+        answer: 'Ja, för 80 % av vardagsmatlagningen: bräserade rätter, soppor, risotto, ångkokning, yoghurt och långkok. Modellerna på 6–8 liter (Instant Pot, Cosori) har i snitt 10–15 automatprogram. För bakning i ugn eller stora stekar behåller du din vanliga gjutjärnsgryta, men multikokaren frigör spisen och sköter tillagningen åt dig.',
+      },
+      {
+        question: 'Hur stor multikokare behöver mitt hushåll?',
+        answer: 'Räkna med 1 liter per person som grund och lägg sedan till 2 liter för grytor och rester. Ett par: 3–5 liter. En familj på fyra: 6 liter. En storfamilj, eller du som gör storkok på söndagen: 8 liter. Med en ännu större kokare tar det för lång tid att bygga upp trycket.',
+      },
+      {
+        question: 'Gör multikokarnas appar verkligen nytta?',
+        answer: 'Ja, i tre fall: när du vill starta ett recept på distans på väg hem, när du vill använda förinställda recept utan att knappa in temperatur och tid själv, och när du vill få en notis när maten är klar. Lagar du alltid samma rätter gör appen mindre nytta, och då räcker knapparna på apparaten.',
+      },
+      {
+        question: 'Vad är skillnaden mellan en multikokare och en köksmaskin med kokfunktion av Thermomix-typ?',
+        answer: 'Multikokaren tryckkokar och småkokar, medan köksmaskinen med kokfunktion dessutom mixar, väger och knådar. För 2 200–3 300 kr klarar en multikokare 90 % av alla långkok. För 10 000 kr och uppåt sköter köksmaskinen även förberedelserna, men den klarar sig sämre när stora mängder ska tryckkokas.',
+      },
+      {
+        question: 'Kan man använda en multikokare för inkokning och hemkonservering?',
+        answer: 'Rent tekniskt ja, med tryckkokande modeller som når 115–118 °C, men volymen begränsar dig till 3–5 burkar åt gången. Ska du konservera i större mängder är en särskild inkokningsapparat mer lönsam. Multikokaren passar perfekt för en första provomgång eller en liten sats varje vecka.',
+      },
+    ],
+    cafetieres: [
+      {
+        question: 'Är en smart kaffemaskin värd merkostnaden jämfört med en vanlig?',
+        answer: 'Ja, om du dricker kaffe varje morgon vid samma tid: med automatisk start via wifi sparar du 5 minuter om dagen. På ett år blir det 30 timmar. Dricker du kaffe bara då och då räcker en vanlig programmerbar kaffemaskin för runt 650 kr gott och väl.',
+      },
+      {
+        question: 'Vad är skillnaden mellan en smart kaffebryggare och en helautomatisk kaffemaskin?',
+        answer: 'Kaffebryggaren gör en stor mängd kaffe (1–1,5 liter) till flera koppar på en gång, perfekt till familjens frukost. Den helautomatiska kaffemaskinen maler bönorna till varje kopp espresso och ger bättre kaffe, men instegspriset är 3–4 gånger högre.',
+      },
+      {
+        question: 'Är wifi och Alexa eller Google Home pålitliga för att styra en kaffemaskin?',
+        answer: 'Ja, i 95 % av fallen hos etablerade märken (Smarter, Philips, De\'Longhi Connect). De 5 % som strular beror nästan alltid på routern (de flesta modeller kräver wifi på 2,4 GHz) eller på en firmwareuppdatering som du bör vänta med. Prova i verklig användning under de första 30 dagarna.',
+      },
+      {
+        question: 'Kan man använda malet kaffe i en smart kaffemaskin?',
+        answer: 'Ja, i kaffebryggare och i de flesta kapselmaskiner som har stöd för det. Bland de helautomatiska maskinerna har vissa modeller (Jura, De\'Longhi) ett extra fack för malet koffeinfritt kaffe. Kontrollera det före köpet om du växlar mellan bönor och malet.',
+      },
+      {
+        question: 'Hur avkalkar jag en smart kaffemaskin utan att skada elektroniken?',
+        answer: 'Använd bara de avkalkningstabletter eller avkalkningsmedel som tillverkaren rekommenderar, eftersom ren citronsyra kan angripa vissa packningar. De smarta modellerna påminner själva om avkalkning efter 150–200 cykler. Räkna med att avkalka var sjätte till åttonde vecka om du använder maskinen dagligen.',
+      },
+    ],
+    balances: [
+      {
+        question: 'Blir mina recept verkligen bättre med en smart köksvåg?',
+        answer: 'Ja, när du bakar bröd och kakor, där 10 gram hit eller dit kan ändra resultatet. Appen guidar dig steg för steg, räknar om måttenheter automatiskt och justerar proportionerna om du ändrar antalet portioner. Lagar du mat på känn räcker en enkel våg för runt 150 kr.',
+      },
+      {
+        question: 'Hur noggrann bör en köksvåg vara?',
+        answer: 'För 99 % av alla recept räcker en noggrannhet på 1 gram från 5 g upp till 5 kg. För precisionsbakning (macarons, surdegsbröd) behövs 0,1 gram för små mängder som jäst och salt. De smarta vågarna i premiumklassen har båda lägena.',
+      },
+      {
+        question: 'Bluetooth eller wifi: vilken uppkoppling ska jag välja?',
+        answer: 'Bluetooth räcker i 95 % av fallen: 10 meters räckvidd, inget molnkonto och ett batteri som håller i 6–12 månader. Wifi är bara intressant om du vill synka mätningarna med en näringsapp på distans eller dela data mellan olika hushåll.',
+      },
+      {
+        question: 'Kräver smarta köksvågar ett abonnemang?',
+        answer: 'Nej, inte för grundfunktionerna (vägning, tarering och omräkning av måttenheter). Vissa appar har en betald premiumversion för detaljerad koll på näringsintaget eller för guidade recept utöver de 20–30 som ingår gratis. Kontrollera det före köpet om du vill slippa återkommande kostnader.',
+      },
+      {
+        question: 'Hur rengör jag en smart köksvåg utan att skada sensorerna?',
+        answer: 'Torka bara av vågplattan med en fuktig trasa och mild tvål. Blötlägg den aldrig och kör den inte i diskmaskinen: lastcellerna under plattan tål inte fukt. Eftertorka genast. Gör du rent vågen efter varje användning håller den i 5–8 år.',
+      },
+    ],
+    'thermometres-viande': [
+      {
+        question: 'Är en smart stektermometer verkligen noggrannare än en vanlig?',
+        answer: 'Själva noggrannheten är densamma (± 0,5–1 °C) hos bra modeller. Vinsten ligger i varningen på distans: du sätter in en stek i ugnen och får en notis i mobilen när kärntemperaturen når 58 °C, utan att öppna ugnsluckan. Perfekt för långsam tillagning på låg värme, så kallad low and slow (grill, sous vide).',
+      },
+      {
+        question: 'En eller flera givare: vilken stektermometer ska jag välja?',
+        answer: 'En givare räcker om du då och då använder termometern i ugnen eller stekpannan: enkel, robust och runt 550–900 kr. Flera givare (2–6 kanaler) passar för grill, rökugn och sous vide, eller för kvällar när du tillagar flera köttbitar samtidigt: räkna med 1 700–3 300 kr.',
+      },
+      {
+        question: 'Vilken kärntemperatur ska jag sikta på för de vanligaste köttsorterna?',
+        answer: 'Nötkött: rare 52–54 °C, medium 58–60 °C, välstekt 65–70 °C. Fläsk: 63–65 °C. Fågel: 74 °C rakt igenom. Lamm: 55–58 °C för rosa. De smarta apparna har värdena förinställda efter köttsort och stekgrad.',
+      },
+      {
+        question: 'Klarar smarta stektermometrar ugn och grill?',
+        answer: 'Ja, givare med sladd klarar 250–300 °C. De helt trådlösa modellerna (som Meater) tål en omgivningstemperatur på upp till 275 °C inne i ugnen eller grillen och 100 °C i sändardelen, vilket räcker för 95 % av all användning i ugn och på grill.',
+      },
+      {
+        question: 'Hur lång batteritid har en smart stektermometer?',
+        answer: '15–50 timmar per laddning, beroende på modell och hur ofta den sänder via Bluetooth. Modeller med givare på sladd drivs av AAA-batterier eller knappcellsbatterier av typen CR2032 och håller i 100–500 timmar. Ladda termometern innan du ger dig på en lång brisket eller en tillagning över natten.',
+      },
+    ],
+    'prises-connectees': [
+      {
+        question: 'Varför en smart plugg just i köket?',
+        answer: 'Den har tre viktiga användningsområden: att sätta på kaffebryggaren eller vattenkokaren på distans när du vaknar, att från jobbet stänga av ett strykjärn eller en apparat du har glömt på, och att följa den faktiska förbrukningen hos ugnen, airfryern eller mikron för att se vad som drar mest på elräkningen.',
+      },
+      {
+        question: 'Fungerar en smart plugg med alla apparater?',
+        answer: 'Ja, med alla apparater som har en mekanisk av/på-knapp och som startar igen av sig själva när strömmen slås på. Den fungerar inte med apparater med pekskärm som måste startas med ett knapptryck (vissa ugnar och nyare mikrovågsugnar). Kontrollera det innan du köper.',
+      },
+      {
+        question: 'Hur hög effekt klarar en smart plugg?',
+        answer: 'Modeller för hemmabruk klarar 10–16 ampere, alltså 2 200–3 500 watt. En ugn eller induktionshäll på 3 000 W ligger på gränsen: välj då en modell för 16 A och ett eget vägguttag. Airfryrar (1 500–2 000 W) klarar den utan problem.',
+      },
+      {
+        question: 'Gör smarta pluggar mitt wifi sårbart för säkerhetshål?',
+        answer: 'Risken är liten med etablerade märken (TP-Link, Xiaomi, Eve) som regelbundet släpper firmwareuppdateringar. För bästa säkerhet kan du lägga de smarta prylarna på ett eget VLAN eller ett gästnätverk. Undvik okända märken som säljs för under 50 kr: de har ofta kända säkerhetshål (CVE) som aldrig har åtgärdats.',
+      },
+      {
+        question: 'Hur använder jag en smart plugg i automationer för det smarta hemmet?',
+        answer: 'Via rutiner i Alexa, skript i Google Home, Home Assistant eller Matter/Thread i nyare modeller. Exempel: ”kaffet startar 5 min innan väckarklockan ringer”, ”strykjärnet stängs av automatiskt efter 30 min”, ”varning om frysens förbrukning plötsligt sjunker (troligen strömavbrott)”.',
+      },
+    ],
+  },
+  us: {
+    multicuiseurs: [
+      {
+        question: 'Does a smart multicooker really replace a Dutch oven and a pressure cooker?',
+        answer: 'Yes, for about 80% of everyday cooking: braises, soups, risotto, steaming, yogurt and long-simmered stews. Models in the 6.3 to 8.5 qt (6 to 8 L) range, such as Instant Pot and Cosori, typically offer 10 to 15 automatic programs. For baking or big roasts, you\'ll still want a classic Dutch oven, but a multicooker frees up your burners and runs the cooking for you.',
+      },
+      {
+        question: 'What capacity do I need for my household?',
+        answer: 'Start with about 1 quart (1 L) per person, then add 2 quarts for stews and leftovers. A couple: 3.2 to 5.3 qt (3 to 5 L). A family of four: 6.3 qt (6 L). A large family or Sunday meal prep: 8.5 qt (8 L). Go bigger and the time it takes to come up to pressure becomes a real drawback.',
+      },
+      {
+        question: 'Are multicooker apps actually useful?',
+        answer: 'They\'re useful in three cases: starting a recipe remotely on your way home, using preset recipes without entering the temperature and time yourself, and getting an alert when the food is done. They\'re less useful if you always cook the same dishes — the buttons on the unit are all you need.',
+      },
+      {
+        question: 'What\'s the difference between a multicooker and a Thermomix-style cooking machine?',
+        answer: 'A multicooker pressure-cooks and simmers. An all-in-one cooking machine also blends, weighs and kneads on top of cooking. For $250 to $350, a multicooker covers 90% of long, slow cooking. From $1,200 up, an all-in-one cooking machine adds built-in prep but is less capable with big pressure-cooked batches.',
+      },
+      {
+        question: 'Can I use a multicooker for canning?',
+        answer: 'Technically yes, with pressure models that reach 239 to 244°F (115 to 118°C), but you\'re limited to 3 to 5 jars at a time, and only do it if the manual explicitly approves the model for canning. For canning in bulk, a dedicated canner is more cost-effective. A multicooker is ideal for a test run or a small weekly batch.',
+      },
+    ],
+    cafetieres: [
+      {
+        question: 'Is a smart coffee maker worth paying more for?',
+        answer: 'If you drink coffee every morning at the same time, yes: starting the brew automatically over Wi-Fi saves you 5 minutes a day. Over a year, that\'s 30 hours. For occasional use, a regular programmable coffee maker around $70 is plenty.',
+      },
+      {
+        question: 'What\'s the difference between a smart drip coffee maker and a super-automatic espresso machine?',
+        answer: 'A drip coffee maker brews a big batch (34 to 51 fl oz, or 1 to 1.5 L) for several cups at once, which is ideal for a family breakfast. A super-automatic espresso machine grinds beans on demand for single espresso drinks and makes better coffee, but it costs three to four times as much to get started.',
+      },
+      {
+        question: 'Are Wi-Fi and Alexa/Google Home reliable for controlling a coffee maker?',
+        answer: 'They work about 95% of the time with established brands (Smarter, Philips, De\'Longhi Connect). The other 5% almost always comes down to the router (most models require 2.4 GHz) or a firmware update you should hold off on. Put it through its paces in everyday use during the first 30 days.',
+      },
+      {
+        question: 'Can I use pre-ground coffee in a smart coffee maker?',
+        answer: 'Yes, in drip models and most compatible pod machines. Among super-automatic espresso machines, some models (Jura, De\'Longhi) have a bypass doser for pre-ground decaf. Check for that feature before you buy if you switch between the two.',
+      },
+      {
+        question: 'How do I descale a smart coffee maker without damaging the electronics?',
+        answer: 'Use only the descaling tablets or solutions the manufacturer recommends — straight citric acid can damage some seals. Smart models remind you on their own every 150 to 200 cycles. With daily use, plan on descaling every 6 to 8 weeks.',
+      },
+    ],
+    balances: [
+      {
+        question: 'Does a smart kitchen scale really improve my recipes?',
+        answer: 'Yes, for baking and bread, where being off by 10 grams (about 0.35 oz) changes the result. The app walks you through each step, converts units automatically and rescales the recipe if you change the number of servings. If you cook by eye, a basic $15 scale is enough.',
+      },
+      {
+        question: 'How precise should a kitchen scale be?',
+        answer: 'For 99% of recipes: precise to 1 gram (0.04 oz) across a 5 g to 5 kg (0.2 oz to 11 lb) range. For precision baking (macarons, sourdough): 0.1 gram for small amounts such as yeast and salt. High-end smart scales offer both modes.',
+      },
+      {
+        question: 'Bluetooth or Wi-Fi: which should I choose?',
+        answer: 'Bluetooth is enough 95% of the time — about 33 feet (10 m) of range, no cloud account and a battery that lasts 6 to 12 months. Wi-Fi only matters if you want to sync your measurements with a nutrition app remotely or share data across households.',
+      },
+      {
+        question: 'Do smart scales require a subscription?',
+        answer: 'Not for the basics (weighing, tare, unit conversions). Some apps offer a paid premium tier for detailed nutrition tracking or for guided recipes beyond the 20 to 30 free ones. Check this before you buy if you want to avoid recurring fees.',
+      },
+      {
+        question: 'How do I clean a smart scale without damaging the sensors?',
+        answer: 'Use a damp cloth and mild soap on the platform only — never soak it or put it in the dishwasher, because the load cells under the platform don\'t tolerate moisture. Dry it right away. Wiping it down after each use helps it last 5 to 8 years.',
+      },
+    ],
+    'thermometres-viande': [
+      {
+        question: 'Is a smart meat thermometer really more accurate than a regular one?',
+        answer: 'Raw accuracy is the same (about ±1 to 2°F, or ±0.5 to 1°C) on reputable models. The real advantage is remote alerts: you put a roast in the oven and get a notification on your phone when the center hits 136°F (58°C), without opening the oven door. It\'s ideal for low-and-slow cooking (barbecue, sous vide).',
+      },
+      {
+        question: 'Single probe or multiple probes: which should I choose?',
+        answer: 'A single probe for occasional oven or stovetop cooking — simple, sturdy, $60 to $90. Multiple probes (2 to 6 channels) for grilling, smoking, sous vide or nights when you\'re cooking several cuts at once — plan on $150 to $350.',
+      },
+      {
+        question: 'What internal temperature should I aim for with common meats?',
+        answer: 'Beef: rare 126 to 129°F (52 to 54°C), medium 136 to 140°F (58 to 60°C), well done 149 to 158°F (65 to 70°C). Pork: 145 to 149°F (63 to 65°C). Poultry: 165°F (74°C) throughout. Lamb: 131 to 136°F (55 to 58°C) for pink. Smart thermometer apps have these values preset by type of meat and doneness.',
+      },
+      {
+        question: 'Can smart meat thermometers handle the oven and the grill?',
+        answer: 'Yes. Wired probes are rated to 480 to 570°F (250 to 300°C). Fully wireless models (like Meater) handle ambient temperatures up to 525°F (275°C) in the oven or grill and 212°F (100°C) at the transmitter end, which covers 95% of oven and grill cooking.',
+      },
+      {
+        question: 'What\'s the typical battery life of a smart meat thermometer?',
+        answer: '15 to 50 hours per charge, depending on the model and how often it broadcasts over Bluetooth. Wired-probe models run on AAA batteries or CR2032 coin cells for 100 to 500 hours. Charge it before a long brisket or an overnight cook.',
+      },
+    ],
+    'prises-connectees': [
+      {
+        question: 'Why use a smart plug in the kitchen?',
+        answer: 'Three key uses: switching on the coffee maker or electric kettle remotely when you wake up, cutting power to a forgotten iron or appliance from the office, and tracking the real energy use of an oven, air fryer or microwave to find the biggest items on your electric bill.',
+      },
+      {
+        question: 'Does a smart plug work with any appliance?',
+        answer: 'It works with any appliance that has a mechanical on/off switch and turns back on by itself when power is restored. It won\'t work with touch-control appliances that need a button press to start (some ovens and newer microwaves). Check this before you buy.',
+      },
+      {
+        question: 'What\'s the maximum load a smart plug can handle?',
+        answer: 'Smart plugs sold in Europe are rated for 10 to 16 amps, or 2,200 to 3,500 watts at 230 V. That covers an air fryer (1,500 to 2,000 W), while a 3,000 W oven or induction cooktop is right at the limit and needs a 16 A model on a dedicated wall outlet. On a standard 120 V US outlet, the same current carries only about half as many watts (a 15 A plug tops out at 1,800 W), so always check the plug\'s maximum wattage against the appliance\'s label.',
+      },
+      {
+        question: 'Do smart plugs open my Wi-Fi network to security flaws?',
+        answer: 'The risk is low with established brands (TP-Link, Xiaomi, Eve) that ship regular firmware updates. For maximum security, put your smart devices on a VLAN or a guest network. Avoid no-name brands selling for under $5, which often have a history of unpatched security flaws (CVEs).',
+      },
+      {
+        question: 'How do I add a smart plug to a home automation routine?',
+        answer: 'Through Alexa Routines, Google Home scripts, Home Assistant, or Matter/Thread on newer models. Examples: "start the coffee 5 minutes before the alarm goes off," "cut power to the iron after 30 minutes," "send an alert if the freezer\'s power draw drops (likely a power outage)."',
+      },
+    ],
+  },
+  ca: {
+    multicuiseurs: [
+      {
+        question: 'Does a smart multicooker really replace a Dutch oven and a pressure cooker?',
+        answer: 'Yes, for 80% of everyday cooking: braises, soups, risottos, steaming, yogurt and slow-cooked stews. Models from 6 to 8 L (6.3 to 8.5 qt), such as Instant Pot and Cosori, typically combine 10 to 15 automatic programs. For baking or large roasts, you\'ll still want a classic Dutch oven — but the multicooker frees up your burners and keeps an eye on the cooking for you.',
+      },
+      {
+        question: 'What capacity should I pick for my household size?',
+        answer: 'Start with 1 L (about 1 qt) per person, then add 2 L for stews and leftovers. For a couple: 3 to 5 L (3.2 to 5.3 qt). A family of four: 6 L (6.3 qt). A large family or weekend batch cooking: 8 L (8.5 qt). Any bigger, and the time it takes to come up to pressure becomes a drawback.',
+      },
+      {
+        question: 'Are multicooker mobile apps actually useful?',
+        answer: 'They\'re useful in three cases: starting a recipe remotely on your way home, using preset recipes without entering the temperature and time yourself, and getting an alert when cooking is done. They\'re less useful if you always cook the same dishes — the buttons on the unit are enough.',
+      },
+      {
+        question: 'What\'s the difference between a multicooker and a Thermomix-style cooking machine?',
+        answer: 'A multicooker pressure-cooks and simmers. A cooking machine also mixes, weighs and kneads. For $300 to $500, a multicooker handles 90% of long, slow cooking. At $1,500 and up, a cooking machine adds built-in prep but does less well with large pressure-cooked dishes.',
+      },
+      {
+        question: 'Can I use a multicooker for canning and home preserves?',
+        answer: 'Technically yes, with pressure models that reach 115°C to 118°C (239°F to 244°F), but capacity limits you to 3 to 5 jars at a time. For large batches, a dedicated canner is more cost-effective. A multicooker is ideal for a trial run or a small weekly batch.',
+      },
+    ],
+    cafetieres: [
+      {
+        question: 'Is a smart coffee maker worth paying more for than a regular one?',
+        answer: 'If you drink coffee every morning at the same time, yes: automatic start over Wi-Fi saves you 5 minutes a day. Over a year, that\'s 30 hours. For occasional use, a basic programmable coffee maker at around $100 is more than enough.',
+      },
+      {
+        question: 'What\'s the difference between a smart drip coffee maker and a super-automatic espresso machine?',
+        answer: 'A drip coffee maker brews a large volume (1 to 1.5 L) for several cups at once, ideal for a family breakfast. A super-automatic grinds beans on demand for single espressos and makes better coffee, but its entry price is 3 to 4 times higher.',
+      },
+      {
+        question: 'Are Wi-Fi and Alexa/Google Home reliable for controlling a coffee maker?',
+        answer: '95% reliable with established brands (Smarter, Philips, De\'Longhi Connect). The remaining 5% of failures almost always come from the router (most models require 2.4 GHz) or a firmware update you should hold off on. Test it in everyday use during the first 30 days.',
+      },
+      {
+        question: 'Can I use ground coffee in a smart coffee maker?',
+        answer: 'Yes, in drip models and most compatible pod machines. On super-automatic machines, some models (Jura, De\'Longhi) have a bypass doser for pre-ground decaf. Check for this before you buy if you switch between the two.',
+      },
+      {
+        question: 'How do I descale a smart coffee maker without damaging the electronics?',
+        answer: 'Use only the tablets or liquids the manufacturer recommends — pure citric acid can damage some seals. Smart models send the reminder themselves every 150 to 200 cycles. Expect to descale every 6 to 8 weeks with daily use.',
+      },
+    ],
+    balances: [
+      {
+        question: 'Does a smart kitchen scale really improve my recipes?',
+        answer: 'Yes, for baking and bread-making, where a 10-gram difference changes the result. The app guides you step by step, converts units automatically and recalculates quantities if you change the number of servings. For cooking by eye, a basic $25 scale is enough.',
+      },
+      {
+        question: 'How precise should a kitchen scale be?',
+        answer: 'For 99% of recipes: 1 g precision over a 5 g to 5 kg range. For precision baking (macarons, sourdough): 0.1 g for small quantities (yeast, salt). High-end smart scales offer both modes.',
+      },
+      {
+        question: 'Bluetooth or Wi-Fi: which should I choose?',
+        answer: 'Bluetooth is enough 95% of the time — 10 m range, no cloud account and a battery that lasts 6 to 12 months. Wi-Fi only matters if you want to sync measurements with a nutrition app remotely or share data between households.',
+      },
+      {
+        question: 'Do smart scales require a subscription?',
+        answer: 'Not for the basics (weighing, tare, conversions). Some apps offer a paid premium tier for detailed nutrition tracking or guided recipes beyond the 20 to 30 free ones. Check before you buy if you want to avoid recurring fees.',
+      },
+      {
+        question: 'How do I clean a smart scale without damaging the sensors?',
+        answer: 'Use a damp cloth and mild soap on the platform only — never soak it or put it in the dishwasher, because the load cells under the platform are sensitive to moisture. Dry it right away. Wiping it down after each use extends its lifespan to 5 to 8 years.',
+      },
+    ],
+    'thermometres-viande': [
+      {
+        question: 'Is a smart meat thermometer really more accurate than a regular one?',
+        answer: 'Raw accuracy is the same (±0.5°C to 1°C, or about 1°F to 2°F) on reputable models. The gain is remote alerts: you start a roast in the oven and get a notification on your phone when the centre hits 58°C (136°F), without opening the door. Ideal for low-and-slow cooking (barbecue, sous vide).',
+      },
+      {
+        question: 'Single or multiple probes: which should I choose?',
+        answer: 'A single probe for occasional oven or pan use — simple, sturdy, $80 to $120. Multiple probes (2 to 6 channels) for barbecue, smoking, sous vide or evenings when you cook several cuts at once — expect $250 to $500.',
+      },
+      {
+        question: 'What internal temperature should I aim for with the main meats?',
+        answer: 'Beef: rare 52°C to 54°C (126°F to 129°F), medium 58°C to 60°C (136°F to 140°F), well done 65°C to 70°C (149°F to 158°F). Pork: 63°C to 65°C (145°F to 149°F). Poultry: 74°C (165°F) throughout. Lamb: 55°C to 58°C (131°F to 136°F) for pink. Smart apps have these values preset by type of meat and doneness.',
+      },
+      {
+        question: 'Can smart thermometers handle the oven and the barbecue?',
+        answer: 'Yes, wired probes handle 250°C to 300°C (480°F to 570°F). Fully wireless models (such as Meater) handle ambient heat up to 275°C (527°F) and up to 100°C (212°F) at the transmitter end, which covers 95% of oven and barbecue uses.',
+      },
+      {
+        question: 'What\'s the typical battery life of a smart thermometer?',
+        answer: '15 to 50 hours per charge, depending on the model and how often it broadcasts over Bluetooth. Units with wired probes run on AAA batteries or CR2032 coin cells for 100 to 500 hours. Charge it before a long brisket or an overnight cook.',
+      },
+    ],
+    'prises-connectees': [
+      {
+        question: 'Why use a smart plug in the kitchen rather than elsewhere?',
+        answer: 'Three key uses: turning on the coffee maker or kettle remotely when you wake up, cutting power to a forgotten iron or appliance from the office, and monitoring the actual consumption of a countertop oven, air fryer or microwave to see what\'s driving up your electricity bill.',
+      },
+      {
+        question: 'Does a smart plug work with any appliance?',
+        answer: 'Yes, with any device that has a mechanical on/off switch and restarts automatically when the power comes back. It won\'t work with touch-control appliances that need a button press to start (some recent ovens and microwaves). Check this before you buy.',
+      },
+      {
+        question: 'What maximum power can a smart plug handle?',
+        answer: 'Plugs sold in Europe accept 10 to 16 amps, or 2,200 to 3,500 watts at 230 V. In Canada, a standard 120 V outlet on a 15 A circuit delivers up to 1,800 W, so look for a plug rated for 15 A and compare its wattage with the appliance\'s label. A wall oven, a range or a built-in induction cooktop runs on a dedicated 240 V circuit, so it can\'t go on a smart plug. Countertop appliances such as air fryers are designed for a standard outlet, so a 15 A plug can handle them.',
+      },
+      {
+        question: 'Do smart plugs expose my Wi-Fi network to security flaws?',
+        answer: 'The risk is low with established brands (TP-Link, Xiaomi, Eve) that release regular firmware updates. For maximum security, put smart devices on a VLAN or guest network. Avoid unknown brands selling for under $10 — they often have a history of unpatched vulnerabilities (CVEs).',
+      },
+      {
+        question: 'How do I add a smart plug to a smart home routine?',
+        answer: 'Through Alexa Routines, Google Home Scripts, Home Assistant or, on recent models, Matter/Thread. Examples: "start the coffee 5 minutes before the alarm," "turn the iron off automatically after 30 minutes," "send an alert if the freezer\'s power draw drops (likely a power outage)."',
+      },
+    ],
+  },
 }
 
 export function getSmartKitchenFaqs(lang: string, category: SmartKitchenCategory): FaqItem[] {
@@ -818,4 +1154,7 @@ export const faqSectionTitles: Record<string, string> = {
   it: 'Domande frequenti',
   nl: 'Veelgestelde vragen',
   pl: 'Najczęstsze pytania',
+  sv: 'Vanliga frågor',
+  us: 'Frequently asked questions',
+  ca: 'Frequently asked questions',
 }

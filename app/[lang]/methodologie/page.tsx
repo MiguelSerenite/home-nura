@@ -518,6 +518,174 @@ const content: Record<Lang, Content> = {
     ctaLabel: 'Zobacz nasze zestawienie urządzeń do inteligentnej kuchni',
     ctaHref: '/cuisine-connectee',
   },
+  sv: {
+    kicker: 'Metod',
+    title: 'Så jämför och betygsätter Home Nura',
+    subtitle: 'Hela bedömningsmallen – källor, viktning, uppdateringar, oberoende. Inget hemlighetsmakeri.',
+    intro: 'Home Nura är en oberoende europeisk utgivare. Vi jämför smarta apparater för hemmet på 7 marknader (Frankrike, Tyskland, Storbritannien, Spanien, Italien, Nederländerna, Polen) med samma bedömningsmall i varje kategori. Här beskriver vi hur vi arbetar, vad vi väger in och vad vi inte gör.',
+    breadcrumbHome: 'Hem',
+    breadcrumbCurrent: 'Metod',
+    pillarsTitle: 'De 5 grundpelarna i vår metod',
+    pillars: [
+      {
+        title: '01 · Källor som går att kontrollera',
+        body: 'För varje produkt stämmer vi av tre källor mot varandra: tillverkarnas produktblad, användaromdömen på Amazon och Google (minst 500 viktade omdömen under 12 månader) och oberoende utvärderingar i europeisk fackpress (Que Choisir, Stiftung Warentest, Which?, OCU, Altroconsumo, Consumentenbond). En produkt som inte får samstämmiga omdömen i alla tre källorna kommer inte med i urvalet.',
+      },
+      {
+        title: '02 · Bedömningsmallen Nura Score /10',
+        body: 'Varje kategori har sin egen viktning, men Nura Score följer alltid samma skala från 0 till 10. Huvudkriterierna är faktisk prestanda (30 %), prisvärdhet på den egna marknaden (25 %), ergonomi och användarvänlighet (15 %), årlig energikostnad i euro (15 %) samt hållbarhet och byggkvalitet (15 %). Detaljerna för varje kategori publiceras på respektive kategorisida.',
+      },
+      {
+        title: '03 · Europeiska data, inte amerikanska',
+        body: 'Vi använder inga recensioner som översatts från amerikanska sajter. Priser, tillgänglighet, förbrukning, GDPR-efterlevnad, kompatibilitet med EU-kontakt och EU:s energimärkning hämtar vi direkt från de lokala marknaderna. En produkt kan mycket väl vara nr 1 i USA och ändå saknas i vår europeiska rankning.',
+      },
+      {
+        title: '04 · Uppdatering minst varje kvartal',
+        body: 'Priserna ändras. ASIN-nummer försvinner. Märkena släpper reviderade versioner. Varje kategori gås igenom minst var tredje månad. Sidor som inte har uppdaterats inom den tiden visar en tydlig banner om det. Datumet för senaste uppdatering syns högst upp i varje jämförelse.',
+      },
+      {
+        title: '05 · Oberoende och öppenhet kring affiliatelänkar',
+        body: 'Home Nura finansieras genom Amazons partnerprogram (provision på köp, utan extra kostnad för dig). Alla våra Amazon-länkar går via ett och samma partnerkonto, med ett eget spårnings-id för varje språkversion. De leder till Amazon.fr, utom i den italienska versionen, som länkar till Amazon.it. Läsare i andra länder som klickar på en länk till Amazon.fr skickas via Amazons program ”Global Earning” vidare till Amazonbutiken i sitt eget land, och provisionen går till samma konto. Provisionerna påverkar aldrig rankningen: en produkt med lågt betyg behåller sitt låga betyg även om den ger mer i provision. Ingen tillverkare betalar oss för en pallplats. Om det finns en intressekonflikt skriver vi det högst upp på sidan.',
+      },
+    ],
+    faqTitle: 'Vanliga frågor',
+    faq: [
+      {
+        question: 'Varför en europeisk sajt och inte en global?',
+        answer: 'Priser, energimärkning, certifieringar och tillgänglighet skiljer sig från marknad till marknad. En global jämförelse blir ett genomsnitt av allt och stämmer till slut ingenstans. Vi föredrar rekommendationer som gäller i ditt land, även om det kräver sex olika utgåvor.',
+      },
+      {
+        question: 'Vad betyder Nura Score /10?',
+        answer: 'Det är ett sammanvägt betyg från 0 till 10 som bygger på faktisk prestanda, prisvärdhet på den egna marknaden, ergonomi, årlig förbrukning och hållbarhet, med en viktning som är anpassad till varje kategori. Betyget 8/10 i en krävande kategori (airfryrar) motsvarar inte 8/10 i en enklare – bedömningsmallen balanseras om kategori för kategori.',
+      },
+      {
+        question: 'Hur hanterar ni intressekonflikter?',
+        answer: 'Ingen tillverkare betalar för en placering. Amazons provision är densamma oavsett var produkten hamnar i rankningen, så affärsmodellen ger oss inget skäl att lyfta fram en viss produkt. Om en tillverkare lånar ut en produkt till oss skriver vi det tydligt i artikeln.',
+      },
+      {
+        question: 'Hur ofta uppdaterar ni priserna?',
+        answer: 'Vi visar inga produktpriser: Amazon ändrar sina priser flera gånger om dagen och tillåter bara att de visas via sitt officiella produktgränssnitt. Våra jämförelser anger prisklasser (till exempel ”under 1 000 kr”), aldrig priset på en enskild modell. Klicka på länken för att se aktuellt pris och tillgänglighet på Amazon – du hamnar i Amazonbutiken i ditt land.',
+      },
+      {
+        question: 'Vad gör ni om en produkt tas bort från marknaden?',
+        answer: 'Vi tar bort ASIN-numret från våra jämförelser inom 48 timmar, arkiverar produktsidan med bannern ”produkten har utgått” och ersätter produkten i rankningen med det bästa likvärdiga alternativet som finns kvar. Ingen sida får stå kvar med en död köplänk.',
+      },
+    ],
+    ctaLabel: 'Se vårt urval för smart kök',
+    ctaHref: '/cuisine-connectee',
+  },
+  us: {
+    kicker: 'Methodology',
+    title: 'How Home Nura Compares and Rates Products',
+    subtitle: 'The full scoring grid — sources, weighting, update schedule, independence. Nothing hidden.',
+    intro: 'Home Nura is an independent publisher based in Europe that compares smart home devices with the same scoring grid in every category, across 7 markets (France, Germany, UK, Spain, Italy, Netherlands, Poland). This page explains exactly how we work, what we weigh and what we refuse to do.',
+    breadcrumbHome: 'Home',
+    breadcrumbCurrent: 'Methodology',
+    pillarsTitle: 'The 5 pillars of our method',
+    pillars: [
+      {
+        title: '01 · Verifiable sources',
+        body: 'For every product, we cross-check three sources: manufacturer spec sheets, Amazon and Google owner reviews (minimum 500 weighted reviews over 12 months), and independent test results from European consumer magazines (Which?, Stiftung Warentest, Que Choisir, OCU, Altroconsumo, Consumentenbond). If those three sources don\'t agree on a product, it doesn\'t make our shortlist.',
+      },
+      {
+        title: '02 · The Nura Score /10 grid',
+        body: 'Each category has its own weighting, but the Nura Score always uses the same 0–10 scale. Core criteria: real-world performance (30%), value for the money in your market (25%), ergonomics and ease of use (15%), annual energy cost (15%), and durability and build quality (15%). The breakdown for each category is published on its category page.',
+      },
+      {
+        title: '03 · Local market data first',
+        body: 'We don\'t base our picks on reviews translated from other sites. Prices, availability, energy use, privacy compliance (GDPR in Europe), plug type and energy labels are collected directly from each local market. A product can be No. 1 in one country and not make the cut in another.',
+      },
+      {
+        title: '04 · Refreshed at least quarterly',
+        body: 'Prices move. ASINs get pulled. Brands release revised models. Every category is reviewed at least every 3 months. Pages that haven\'t been updated within that window display a clear notice. The “last updated” date appears at the top of every comparison.',
+      },
+      {
+        title: '05 · Independence and affiliate transparency',
+        body: 'Home Nura is funded through the Amazon Associates program (we earn a commission on purchases, at no extra cost to you). All our Amazon links run through a single Associates account, with one tracking ID for each edition of the site. They point to Amazon.fr, except on the Italian edition, which links to Amazon.it. Through Amazon\'s Global Earning program, readers in other countries, the US included, who click an Amazon.fr link are redirected to their local Amazon store, and the commission is credited to that same account. Commissions never influence the ranking: a product with a poor score keeps its poor score even if it pays more. No manufacturer pays us for a top spot. When a conflict of interest arises, we disclose it at the top of the page.',
+      },
+    ],
+    faqTitle: 'Frequently asked questions',
+    faq: [
+      {
+        question: 'Why separate editions for each market instead of one global site?',
+        answer: 'Because prices, energy labels, certifications and availability change from one market to the next. A “global” comparison averages everything out and ends up accurate nowhere. We\'d rather give you recommendations that hold up in your country, even if that means maintaining six editions.',
+      },
+      {
+        question: 'What does the Nura Score /10 actually mean?',
+        answer: 'It\'s a composite score from 0 to 10 that combines real-world performance, value for the money in your market, ergonomics, annual energy cost and durability, weighted by category. An 8/10 in a demanding category (air fryers) isn\'t the same as an 8/10 in a simpler one: the grid is rebalanced for each category.',
+      },
+      {
+        question: 'How do you handle conflicts of interest?',
+        answer: 'No manufacturer pays for placement. Amazon affiliate commissions are the same regardless of ranking, so our business model gives us no reason to push a particular product. If a brand ever lends us a product, we say so clearly in the article.',
+      },
+      {
+        question: 'How often do you update prices?',
+        answer: 'We don\'t display product prices: Amazon changes its prices several times a day and only allows them to be shown through its official product interface. Our comparisons talk about budget ranges (for example, “under $100”), never the price of a specific model. Click the link to see the live price and availability on Amazon: you\'ll land on your country\'s Amazon store.',
+      },
+      {
+        question: 'What happens if a product is discontinued?',
+        answer: 'We remove the ASIN from our comparisons within 48 hours, archive the product page with a “product discontinued” banner and replace it in the ranking with the best available equivalent. No page is ever left with a dead buy link.',
+      },
+    ],
+    ctaLabel: 'Explore our smart kitchen picks',
+    ctaHref: '/cuisine-connectee',
+  },
+  ca: {
+    kicker: 'Methodology',
+    title: 'How We Compare and Rate Smart Home Products',
+    subtitle: 'Our full scoring system — sources, weighting, update schedule, independence. Nothing hidden.',
+    intro: 'Home Nura is an independent European publisher. We compare smart home devices across 7 markets (France, Germany, UK, Spain, Italy, Netherlands, Poland) with the same scoring system in every category. This page explains exactly how we work, how we weight each criterion and what we refuse to do.',
+    breadcrumbHome: 'Home',
+    breadcrumbCurrent: 'Methodology',
+    pillarsTitle: 'The five pillars of our method',
+    pillars: [
+      {
+        title: '01 · Verifiable sources',
+        body: 'For every product, we cross-check three sources: manufacturer spec sheets, Amazon and Google user reviews (a minimum of 500 weighted reviews over 12 months) and independent tests from European consumer and specialist publications (Which?, Stiftung Warentest, Que Choisir, OCU, Altroconsumo, Consumentenbond). If the three sources don\'t agree on a product, it doesn\'t make our shortlist.',
+      },
+      {
+        title: '02 · How the Nura Score /10 works',
+        body: 'Each category has its own weighting, but the Nura Score always uses the same 0–10 scale. The core criteria are real-world performance (30%), value for money in each market (25%), ergonomics and ease of use (15%), annual energy cost (15%) and durability and build quality (15%). The breakdown for each category is published on its category page.',
+      },
+      {
+        title: '03 · European data, not American',
+        body: 'We don\'t recycle reviews translated from US sites. Prices, availability, energy use, compliance with the EU\'s GDPR, EU plug compatibility and EU energy labels are collected directly from the European markets we cover. A product can easily be No. 1 in the United States and missing from our European rankings. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model.',
+      },
+      {
+        title: '04 · Updated at least every quarter',
+        body: 'Prices change. ASINs get pulled. Brands release revised versions. Every category is reviewed at least every three months, and any page that hasn\'t been updated within that window shows a clear banner saying so. The “last updated” date appears at the top of every comparison.',
+      },
+      {
+        title: '05 · Independence and affiliate transparency',
+        body: 'Home Nura is funded through the Amazon Associates program (we earn a commission on purchases, at no extra cost to you). All our Amazon links run through a single Associates account, with one tracking ID for each edition of the site. They point to Amazon\'s French store, except on the Italian edition, which links to Amazon\'s Italian store. Through Amazon\'s Global Earning program, readers in other countries, Canada included, who click a link to the French store are redirected to their local Amazon store, and the commission is credited to that same account. Commissions never influence the ranking: a product with a poor score keeps its poor score even if it pays more. No manufacturer pays us for a top spot. When a conflict of interest arises, we disclose it at the top of the page.',
+      },
+    ],
+    faqTitle: 'Frequently asked questions',
+    faq: [
+      {
+        question: 'Why build the site market by market instead of globally?',
+        answer: 'Because prices, energy labels, certifications and availability change from one market to the next. A “global” comparison averages everything out and ends up accurate nowhere. We\'d rather make recommendations that hold up market by market, even if that means maintaining six editions.',
+      },
+      {
+        question: 'What does the Nura Score /10 actually mean?',
+        answer: 'It\'s a composite score from 0 to 10 that combines real-world performance, value for money in each market, ergonomics, annual energy cost and durability, weighted by category. An 8/10 in a demanding category (air fryers) isn\'t the same as an 8/10 in a simpler one: the scoring is rebalanced for each category.',
+      },
+      {
+        question: 'How do you handle conflicts of interest?',
+        answer: 'No manufacturer pays for placement. Amazon affiliate commissions are the same regardless of ranking, so our business model gives us no reason to push a particular product. If a brand lends us a review sample, we say so clearly in the article.',
+      },
+      {
+        question: 'How often do you update prices?',
+        answer: 'We don\'t display product prices: Amazon changes its prices several times a day and only allows them to be shown through its official product interface. Our comparisons talk about budget ranges (for example, “under $150”), never the price of a specific model. Click the link to see the current price and availability on Amazon: you\'ll land on your local Amazon store.',
+      },
+      {
+        question: 'What happens when a product is discontinued?',
+        answer: 'We remove the ASIN from our comparisons within 48 hours, archive the product page with a “product discontinued” banner and replace the product in the ranking with the best equivalent still available. No page is ever left with a dead buy link.',
+      },
+    ],
+    ctaLabel: 'Explore our smart kitchen shortlist',
+    ctaHref: '/cuisine-connectee',
+  },
 }
 
 export async function generateMetadata({

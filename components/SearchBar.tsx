@@ -23,6 +23,9 @@ const placeholders: Record<string, string> = {
   it: 'Cerca una friggitrice…',
   nl: 'Zoek een airfryer…',
   pl: 'Szukaj frytkownicy…',
+  sv: 'Sök en airfryer…',
+  us: 'Search air fryers…',
+  ca: 'Search for an air fryer…',
 }
 
 const emptyLabels: Record<string, string> = {
@@ -33,6 +36,9 @@ const emptyLabels: Record<string, string> = {
   it: 'Nessun modello trovato',
   nl: 'Geen model gevonden',
   pl: 'Nie znaleziono modelu',
+  sv: 'Ingen modell hittades',
+  us: 'No models found',
+  ca: 'No model found',
 }
 
 const hintLabels: Record<string, string> = {
@@ -43,6 +49,9 @@ const hintLabels: Record<string, string> = {
   it: 'Prova con "Ninja", "Philips" o "9.5L"',
   nl: 'Probeer "Ninja", "Philips" of "9.5L"',
   pl: 'Wpisz np. „Ninja”, „Philips” lub „9.5L”',
+  sv: 'Prova ”Ninja”, ”Philips” eller ”9.5L”',
+  us: 'Try "Ninja", "Philips" or "9.5L"',
+  ca: 'Try "Ninja", "Philips" or "9.5L"',
 }
 
 const searchLabel: Record<string, string> = {
@@ -53,6 +62,9 @@ const searchLabel: Record<string, string> = {
   it: 'Cerca',
   nl: 'Zoeken',
   pl: 'Szukaj',
+  sv: 'Sök',
+  us: 'Search',
+  ca: 'Search',
 }
 
 const closeLabel: Record<string, string> = {
@@ -63,6 +75,9 @@ const closeLabel: Record<string, string> = {
   it: 'Chiudi ricerca',
   nl: 'Zoeken sluiten',
   pl: 'Zamknij wyszukiwarkę',
+  sv: 'Stäng sökningen',
+  us: 'Close search',
+  ca: 'Close search',
 }
 
 export default function SearchBar({

@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Auto elettrica in ricarica da una wallbox montata sulla facciata di una casa',
         nl: 'Elektrische auto die laadt aan een laadpaal aan de gevel van een woning',
         pl: 'Samochód elektryczny ładujący się z wallboxa zamontowanego na elewacji domu',
+        sv: 'Elbil som laddas från en väggmonterad laddbox på husfasaden',
+        us: 'An electric car charging from a wall-mounted home charger on the front of a house',
+        ca: 'Electric car charging from a wall-mounted home charger on the front of a house',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Migliore wallbox per casa 2026: 6 colonnine di ricarica smart a confronto',
     nl: 'Beste laadpaal voor thuis 2026: 6 slimme wallboxen vergeleken',
     pl: 'Wallbox do domu 2026: 6 najlepszych ładowarek z aplikacją',
+    sv: 'Bästa laddbox för hemmet 2026: 6 smarta laddboxar jämförda',
+    us: 'Best Home EV Chargers of 2026: 6 Smart Wall Chargers Compared',
+    ca: 'Best Home EV Charger 2026: 6 Smart Chargers Compared',
   },
   excerpt: {
     fr: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC et ABB Terra AC : comparatif des bornes de recharge domestiques, de 7,4 à 22 kW, avec équilibrage de charge, recharge solaire, RFID et OCPP.',
@@ -39,6 +45,9 @@ export const article: BlogArticle = {
     it: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC e ABB Terra AC: confronto tra wallbox domestiche da 7,4 a 22 kW con bilanciamento dei carichi, ricarica solare, RFID e OCPP.',
     nl: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC en ABB Terra AC: thuisladers van 7,4 tot 22 kW vergeleken, met load balancing, laden op zonne-overschot, RFID en OCPP.',
     pl: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC i ABB Terra AC: porównanie domowych ładowarek do samochodów elektrycznych o mocy od 7,4 do 22 kW, z równoważeniem obciążenia, ładowaniem z fotowoltaiki, RFID i OCPP.',
+    sv: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC och ABB Terra AC: vi jämför laddboxar för hemmet från 7,4 till 22 kW, med lastbalansering, laddning med solel, RFID och OCPP.',
+    us: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC and ABB Terra AC: home EV chargers from 7.4 to 22 kW compared on load balancing, solar charging, RFID and OCPP.',
+    ca: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC and ABB Terra AC: a comparison of home EV chargers from 7.4 to 22 kW, with load balancing, solar charging, RFID and OCPP.',
   },
   content: {
     fr: `<p><strong>Pour la plupart des foyers européens, la meilleure borne de recharge connectée en 2026 est la Wallbox Pulsar Max : compacte, disponible en 7,4, 11 et 22 kW, pilotable en Wi-Fi et Bluetooth, compatible OCPP et capable d’équilibrer la charge ou de rouler au solaire avec son compteur dédié.</strong> Si vous cherchez un modèle plus abordable avec badge RFID et connexion cellulaire intégrée, l’Easee Charge Lite est le meilleur rapport qualité-prix, tandis que la Zaptec Go 2 vise ceux qui veulent du 22 kW, un écran et un compteur certifié MID dans un boîtier minuscule.</p>
@@ -746,6 +755,306 @@ export const article: BlogArticle = {
 
 <h2>Werdykt</h2>
 <p><strong>Wallbox Pulsar Max</strong> to ładowarka, którą najłatwiej polecić: jest kompaktowa, dostępna we wszystkich wariantach mocy, otwarta dzięki OCPP i można ją rozbudować o równoważenie obciążenia oraz ładowanie z fotowoltaiki. <strong>Easee Charge Lite</strong> z RFID i 4G daje najwięcej w swojej cenie, o ile wystarczy Ci 11 kW. <strong>Zaptec Go 2</strong> to wybór premium dla tych, którzy potrzebują 22 kW i licznika MID. Właściciele licznika Linky we Francji powinni przyjrzeć się modelowi <strong>Hager witty one</strong>, a przy wspólnym użytkowaniu warto rozważyć <strong>Schneider EVlink Pro AC</strong> lub <strong>ABB Terra AC</strong>.</p>`,
+    sv: `<p><strong>För de flesta hushåll i Europa är Wallbox Pulsar Max den bästa smarta laddboxen 2026: den är kompakt, finns i 7,4, 11 och 22 kW, styrs via wifi och Bluetooth, är kompatibel med OCPP och kan både lastbalansera och ladda med solel med hjälp av sin tillhörande energimätare.</strong> Vill du ha en billigare modell med RFID-läsare och inbyggd mobiluppkoppling är Easee Charge Lite mest prisvärd, medan Zaptec Go 2 passar dig som vill ha 22 kW, en display och en MID-certifierad mätare i ett mycket litet hölje.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Den tar upp sex laddboxar som faktiskt säljs i Europa, och de flesta finns på Amazon. Hela urvalet hittar du i vår kategori <a href="/sv/energie-domotique/bornes-recharge-ve">laddboxar</a>.</p>
+
+<h2>Så väljer du rätt laddbox</h2>
+<h3>7,4, 11 eller 22 kW: vilken effekt behöver du?</h3>
+<p>Vilken effekt laddboxen ska ha beror först och främst på hur stor huvudsäkring du har och om bostaden har enfas eller trefas:</p>
+<ul>
+<li><strong>7,4 kW (enfas, 32 A)</strong>: rätt val när huset har enfasanslutning. Ger ungefär 35–45 km räckvidd per laddtimme beroende på bil, vilket räcker gott för laddning över natten.</li>
+<li><strong>11 kW (trefas, 16 A)</strong>: den bästa kompromissen om bostaden har trefas. De flesta nyare elbilar kan ta emot 11 kW växelström.</li>
+<li><strong>22 kW (trefas, 32 A)</strong>: är bara meningsfullt om bilen tar emot 22 kW växelström, vilket fortfarande är ovanligt, och om elinstallationen klarar det.</li>
+</ul>
+<p>En sak som ofta förbises: det är <strong>bilens inbyggda laddare</strong> som sätter gränsen. En laddbox på 22 kW som är kopplad till en bil som klarar högst 11 kW laddar med 11 kW. Kontrollera bilens maximala laddeffekt för växelström innan du köper.</p>
+
+<h3>Enfas eller trefas</h3>
+<p>Med enfas finns det ingen anledning att sikta högre än 7,4 kW. Med trefas är en laddbox på 11 kW ofta det förnuftigaste valet. Många modeller (Pulsar Max, Zaptec Go 2, ABB Terra AC) finns i flexibla versioner som fungerar med båda anslutningstyperna, vilket är praktiskt om du planerar att gå över till trefas senare.</p>
+
+<h3>Dynamisk lastbalansering</h3>
+<p>En laddbox som drar 32 A samtidigt som ugnen, spishällen och värmepumpen är igång kan få huvudsäkringen att gå. <strong>Dynamisk lastbalansering</strong> mäter husets elförbrukning i realtid och sänker laddboxens effekt så att du håller dig under huvudsäkringens gräns. Beroende på märke sker det via en separat energimätare (Wallbox, Easee Equalizer), ett tillbehör för energistyrning (Zaptec Sense) eller, i Frankrike, dataporten på elmätaren Linky (Hager).</p>
+
+<h3>Laddning med överskott från solceller</h3>
+<p>Har du solceller kan en laddbox som följer produktionen ladda bilen med din egen el i stället för att du säljer elen billigt till elnätet. Det är vad funktionen Eco-Smart gör hos Wallbox, liksom solladdningen via Easee Equalizer. Ett <a href="/sv/blog/balkonkraftwerk-panneau-solaire-balcon">solcellskit för balkongen</a> räcker inte ensamt för att driva en laddbox, men en solcellsanläggning på taket klarar det dagtid.</p>
+
+<h3>RFID, app och OCPP</h3>
+<ul>
+<li><strong>RFID/NFC</strong>: en bricka eller ett kort som startar laddningen, ett måste om laddboxen går att nå från gatan eller delas med andra.</li>
+<li><strong>App</strong>: schemalägg laddningen till timmar när elen är som billigast, följ förbrukningen och lås laddboxen på distans. Wifi är standard; med inbyggt 4G slipper du problem med täckningen längst in i garaget.</li>
+<li><strong>OCPP</strong>: ett öppet protokoll som gör att laddboxen kan kopplas till annan programvara än tillverkarens (system för fordonsflottor, smarthemssystem, ersättning från arbetsgivaren). Det gör laddboxen mer framtidssäker.</li>
+</ul>
+
+<h3>Fast kabel eller Typ 2-uttag</h3>
+<p>En laddbox med <strong>fast kabel</strong> är bekvämast i vardagen: du tar kabeln från hållaren och kopplar in. En laddbox med <strong>Typ 2-uttag</strong> (i Frankrike ofta av typen T2S, med skyddsluckor) är diskretare, låter dig välja kabellängd och gör att ingen kabel hänger ute, men du måste ta fram din egen kabel varje gång du laddar. Vissa uttag kan låsa fast kabeln, så att den i praktiken fungerar som en fast kabel.</p>
+
+<h2>De 6 bästa laddboxarna för hemmet</h2>
+
+<h3>1. Wallbox Pulsar Max: bäst totalt</h3>
+<p>Som efterträdare till den mycket populära Pulsar Plus behåller <strong>Wallbox Pulsar Max</strong> märkets kompakta format, men i ett tåligare hölje som är gjort för både inomhus- och utomhusbruk. Den finns i 7,4, 11 och 22 kW, med en fast Typ 2-kabel på 5 eller 7 meter.</p>
+<p><strong>Styrkor:</strong> wifi och Bluetooth via appen myWallbox, stöd för OCPP, schemaläggning till timmar med billig el och stöd för röstassistenter. Med energimätaren från Wallbox, som säljs separat, får den Power Boost (dynamisk lastbalansering mot husets förbrukning) och Eco-Smart (laddning med 100 % solel eller en blandning). Med Power Sharing kan flera laddboxar dela på samma krets.</p>
+<p><strong>Svagheter:</strong> ingen inbyggd RFID-läsare, inget 4G, och mätaren som krävs för de avancerade funktionerna måste köpas till.</p>
+<p><strong>Passar för:</strong> dig som bor i villa med garage eller egen uppfart, med enfas eller trefas, och vill ha en enkel och uppkopplad laddbox som går att bygga ut.</p>
+
+<h3>2. Easee Charge Lite: mest prisvärd</h3>
+<p>Med <strong>Charge Lite</strong> erbjuder norska Easee en laddbox med Typ 2-uttag som är mycket välutrustad för sin prisklass: upp till 7,4 kW med enfas och 11 kW med trefas.</p>
+<p><strong>Styrkor:</strong> wifi, Bluetooth och inbyggt eSIM för mobilnätet, RFID/NFC-läsare och OCPP 1.6. Tillsammans med Easee Equalizer klarar den dynamisk lastbalansering och laddning med överskottsel från solceller.</p>
+<p><strong>Svagheter:</strong> max 11 kW; installationen kräver en lämplig extern jordfelsbrytare som elektrikern måste planera in; ingen kabel ingår.</p>
+<p><strong>Passar för:</strong> hushåll med enfas, eller med trefas och 11 kW, som vill ha RFID och 4G utan att betala för en premiummodell.</p>
+
+<h3>3. Zaptec Go 2: mest komplett i miniformat</h3>
+<p><strong>Zaptec Go 2</strong> efterträder den designprisbelönade Zaptec Go. Den ger upp till 22 kW med trefas och 7,4 kW med enfas, i ett hölje som knappt är större än en surfplatta.</p>
+<p><strong>Styrkor:</strong> wifi, 4G och Bluetooth, RFID-läsare, bakgrundsbelyst display, MID-certifierad energimätare i klass B, stöd för OCPP och hårdvara som är förberedd för standarden ISO 15118 (Plug &amp; Charge). IP54 och IK10 för utomhusbruk. Energistyrningen mot huset sköts via tillbehöret Zaptec Sense.</p>
+<p><strong>Svagheter:</strong> Typ 2-uttag utan medföljande kabel; ligger i premiumsegmentet; tillgängligheten varierar mellan länder och återförsäljare.</p>
+<p><strong>Passar för:</strong> dig som vill ha den tekniskt mest genomarbetade laddboxen, eller som behöver en MID-mätare för att få ersättning från arbetsgivaren för laddningen hemma.</p>
+
+<h3>4. Hager witty one: bäst för den franska elmätaren Linky</h3>
+<p>Den franska tillverkaren Hager kan elcentraler för bostäder utan och innan, och det märks på <strong>witty one</strong>. Den finns som 7,4 kW enfas och som 11 kW, med ett T2S-uttag.</p>
+<p><strong>Styrkor:</strong> beroende på variant ett TIC-kort för dynamisk lastbalansering via dataporten på Linky-mätaren, enkel optimering för solel, start med RFID-bricka, app via Bluetooth, kommunikationskort för OCPP och MID-mätare. Kapslingsklass IP55.</p>
+<p><strong>Svagheter:</strong> funktionerna skiljer sig mycket mellan varianterna, så kontrollera exakt vilken din installatör erbjuder. Den är i första hand utvecklad för den franska marknaden.</p>
+<p><strong>Passar för:</strong> hushåll med en Linky-mätare som vill ha enkel lastbalansering utan extra mätare.</p>
+
+<h3>5. Schneider Electric EVlink Pro AC: tåligast för delad användning</h3>
+<p><strong>EVlink Pro AC</strong> är byggd för krävande bruk i hemmet men också för mindre företag, och finns från 7,4 till 22 kW, med T2S-uttag eller fast kabel.</p>
+<p><strong>Styrkor:</strong> RFID/NFC-läsare, OCPP 1.6J, Bluetooth, Ethernet och Modbus, detektering av likströmsläckage på 6 mA (beroende på version), hölje i IP54/IP55 och IK10 samt versioner med MID-mätare.</p>
+<p><strong>Svagheter:</strong> konsumentappen är mindre genomarbetad än hos Wallbox och Easee; inställningarna är snarare gjorda för installatören.</p>
+<p><strong>Passar för:</strong> delade parkeringsplatser, mindre flerbostadshus och egenföretagare som vill ha en laddbox i proffsklass.</p>
+
+<h3>6. ABB Terra AC Wallbox: mest mångsidig uppkoppling</h3>
+<p><strong>ABB Terra AC Wallbox</strong> finns i många versioner: 7,4 kW enfas eller upp till 22 kW trefas, Typ 2-uttag med skyddslucka eller fast kabel på 5 meter, med eller utan display och 4G.</p>
+<p><strong>Styrkor:</strong> identifiering med RFID-kort eller appen ChargerSync, wifi, Ethernet, Bluetooth och 4G beroende på version, OCPP 1.6, inbyggd detektering av likströmsläckage och MID-certifierade versioner. Klarar ett brett temperaturintervall.</p>
+<p><strong>Svagheter:</strong> ett snårigt sortiment med många varianter; en mer bruksbetonad design.</p>
+<p><strong>Passar för:</strong> dig som vill ha ett etablerat industrimärke och en mycket komplett uppkoppling.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Maxeffekt</th><th>Kabel/uttag</th><th>Uppkoppling</th><th>RFID</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Wallbox Pulsar Max</td><td>7,4/11/22 kW</td><td>Fast kabel 5 eller 7 m</td><td>Wifi, Bluetooth, OCPP</td><td>Nej</td><td>Villa, solel</td></tr>
+<tr><td>Easee Charge Lite</td><td>11 kW</td><td>Typ 2-uttag</td><td>Wifi, Bluetooth, 4G, OCPP</td><td>Ja</td><td>Mest prisvärd</td></tr>
+<tr><td>Zaptec Go 2</td><td>22 kW</td><td>Typ 2-uttag</td><td>Wifi, Bluetooth, 4G, OCPP</td><td>Ja</td><td>22 kW, MID-mätare</td></tr>
+<tr><td>Hager witty one</td><td>7,4/11 kW</td><td>T2S-uttag</td><td>Bluetooth, OCPP (tillval)</td><td>Beror på version</td><td>Lastbalansering via Linky</td></tr>
+<tr><td>Schneider EVlink Pro AC</td><td>7,4–22 kW</td><td>Uttag eller kabel</td><td>Bluetooth, Ethernet, OCPP</td><td>Ja</td><td>Delad användning</td></tr>
+<tr><td>ABB Terra AC Wallbox</td><td>7,4–22 kW</td><td>Uttag eller kabel 5 m</td><td>Wifi, Ethernet, Bluetooth, 4G (beroende på version), OCPP</td><td>Ja</td><td>Komplett uppkoppling</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa 22 kW av princip</strong>: helt i onödan om bilen klarar högst 11 kW eller om du har enfas.</li>
+<li><strong>Att glömma lastbalanseringen</strong>: utan den behöver du ofta en större huvudsäkring, och det kostar varje månad.</li>
+<li><strong>Att underskatta avståndet till bilen</strong>: en kabel på 5 meter kan bli för kort om du backar in eller har två parkeringsplatser.</li>
+<li><strong>Att strunta i OCPP</strong>: en sluten laddbox är helt beroende av tillverkarens app.</li>
+<li><strong>Att ladda bilen i ett vanligt vägguttag varje dag</strong>: de uttagen är inte gjorda för långa laddpass med hög ström.</li>
+</ul>
+
+<h2>Installation och säkerhet</h2>
+<p>En laddbox ska installeras av en <strong>behörig elektriker</strong>, på en egen grupp och med rätt jordfelsskydd och kabelarea. I Frankrike måste en laddbox på mer än 3,7 kW installeras av en yrkesperson med behörigheten <strong>IRVE</strong>, och den behörigheten är också ett villkor för flera offentliga stöd i landet. I andra europeiska länder kan elnätsbolaget behöva underrättas; din installatör vet vad som gäller där du bor.</p>
+<p>Innan du begär offert: anteckna om du har enfas eller trefas, hur stor huvudsäkring du har och hur långt det är mellan elcentralen och platsen där laddboxen ska sitta. För att få ned elräkningen kan du schemalägga laddningen till timmar när elen är som billigast och kombinera det med de andra knepen i vår <a href="/sv/blog/guide-domotique-economie-energie-2026">guide om hur du sparar energi med ett smart hem</a>.</p>
+
+<h2>Omdöme</h2>
+<p><strong>Wallbox Pulsar Max</strong> är den laddbox som är lättast att rekommendera: kompakt, finns i alla effektnivåer, öppen tack vare OCPP och går att bygga ut med lastbalansering och solladdning. <strong>Easee Charge Lite</strong> har bäst utrustning för sin prisklass med RFID och 4G, förutsatt att 11 kW räcker för dig. <strong>Zaptec Go 2</strong> är premiumvalet för 22 kW och MID-mätare. Har du en fransk Linky-mätare är <strong>Hager witty one</strong> värd en titt, och för delad användning passar <strong>Schneider EVlink Pro AC</strong> eller <strong>ABB Terra AC</strong>.</p>`,
+    us: `<p><strong>Among the home chargers sold in Europe, the best smart EV charger in 2026 is the Wallbox Pulsar Max: it’s compact, comes in 7.4, 11 and 22 kW versions, runs over Wi-Fi and Bluetooth, supports OCPP, and can balance its load with the rest of the house or charge on solar power once you add its dedicated meter.</strong> If you want a more affordable model with an RFID reader and a built-in cellular connection, the Easee Charge Lite is the best value, while the Zaptec Go 2 suits drivers who want 22 kW, a display and an MID-certified meter in a tiny enclosure.</p>
+<p>This comparison is based on manufacturer spec sheets, published independent reviews and verified owner feedback. It covers six chargers genuinely sold in Europe, most of them on Amazon. All six are European models built around the Type 2 connector. Most EVs in North America use a J1772 or NACS connector, with Level 1 charging on a 120 V outlet and Level 2 on a 240 V circuit, so check the connector and the version before you buy. You can browse the full selection in our <a href="/us/energie-domotique/bornes-recharge-ve">home EV chargers</a> category.</p>
+
+<h2>How to choose a home EV charger</h2>
+<h3>7.4, 11 or 22 kW: how much power do you need?</h3>
+<p>The right power level depends first on your home’s electrical capacity and on your supply type:</p>
+<ul>
+<li><strong>7.4 kW (single-phase, 32 A)</strong>: the most common setup for a house. It adds roughly 22 to 28 miles (35 to 45 km) of range per hour, depending on the car, which is more than enough for overnight charging.</li>
+<li><strong>11 kW (three-phase, 16 A)</strong>: the sweet spot if your home has a three-phase supply. Most recent EVs accept 11 kW on AC.</li>
+<li><strong>22 kW (three-phase, 32 A)</strong>: only useful if your car accepts 22 kW on AC, which is still uncommon, and if your electrical installation can handle it.</li>
+</ul>
+<p>Here’s the point most buyers miss: the <strong>car’s on-board charger</strong> sets the limit. A 22 kW charger connected to a car limited to 11 kW will charge at 11 kW. Check your car’s maximum AC charging power before you buy.</p>
+
+<h3>Single-phase or three-phase</h3>
+<p>On a single-phase supply, there’s no point going above 7.4 kW. On three-phase, an 11 kW charger is usually the most sensible choice. Many models (Pulsar Max, Zaptec Go 2, ABB Terra AC) come in versatile versions that work on both supply types, which is useful if you plan to switch to three-phase later.</p>
+
+<h3>Load balancing</h3>
+<p>A charger drawing 32 A while the oven, cooktop and heat pump are running can trip your main breaker. <strong>Dynamic load balancing</strong> measures your home’s consumption in real time and lowers the charger’s output so you stay under your supply limit. Depending on the brand, it relies on a dedicated energy meter (Wallbox, Easee Equalizer), an energy-management accessory (Zaptec Sense) or, in France, the data output of the Linky smart meter (Hager).</p>
+
+<h3>Solar surplus charging</h3>
+<p>If you have solar panels, a charger that tracks production lets you charge the car with your own electricity instead of exporting it to the grid for very little. That’s what Wallbox’s Eco-Smart feature and solar charging with the Easee Equalizer do. A plug-in <a href="/us/blog/balkonkraftwerk-panneau-solaire-balcon">balcony solar kit</a> can’t run a charger on its own, but a rooftop system can during the day.</p>
+
+<h3>RFID, app and OCPP</h3>
+<ul>
+<li><strong>RFID / NFC</strong>: a card or tag to start charging, essential if the charger can be reached from the street or is shared, in a condo building for example.</li>
+<li><strong>App</strong>: off-peak scheduling, energy tracking, remote locking. Wi-Fi is standard; built-in 4G avoids dead spots at the back of a garage.</li>
+<li><strong>OCPP</strong>: an open protocol that lets you connect the charger to software other than the manufacturer’s (a fleet manager, a home automation system, employer reimbursement). It’s your insurance for the long term.</li>
+</ul>
+
+<h3>Tethered cable or Type 2 socket</h3>
+<p>A <strong>tethered</strong> charger is more convenient day to day: unhook the cable and plug in. A <strong>Type 2 socket</strong> charger (in France, often a “T2S” socket with shutters) looks neater, lets you pick your cable length and avoids leaving a cable outdoors, but you have to get your own cable out every time. Some sockets can lock the cable in place, which makes them effectively tethered.</p>
+
+<h2>The 6 best home EV chargers</h2>
+
+<h3>1. Wallbox Pulsar Max: best overall</h3>
+<p>The successor to the hugely popular Pulsar Plus, the <strong>Wallbox Pulsar Max</strong> keeps the brand’s compact format in a tougher housing designed for indoor and outdoor use. It comes in 7.4, 11 and 22 kW versions, with a 16 or 23 ft (5 or 7 m) tethered Type 2 cable.</p>
+<p><strong>Pros:</strong> Wi-Fi and Bluetooth through the myWallbox app, OCPP compatibility, off-peak scheduling and voice assistant support. Add the separately sold Wallbox energy meter and it gains Power Boost (dynamic load balancing with the house) and Eco-Smart (100% solar or mixed charging). Power Sharing lets several chargers share one circuit.</p>
+<p><strong>Cons:</strong> no built-in RFID reader, no 4G, and the meter required for the advanced features costs extra.</p>
+<p><strong>Best for:</strong> houses with a garage or private driveway, on single- or three-phase, that want a simple smart charger they can build on later.</p>
+
+<h3>2. Easee Charge Lite: best value</h3>
+<p>With the <strong>Charge Lite</strong>, Norwegian brand Easee offers a Type 2 socket charger that’s very well equipped for the money: up to 7.4 kW on single-phase and 11 kW on three-phase.</p>
+<p><strong>Pros:</strong> Wi-Fi, Bluetooth and a built-in cellular eSIM, an RFID/NFC reader, OCPP 1.6. Paired with the Easee Equalizer, it handles dynamic load balancing and solar surplus charging.</p>
+<p><strong>Cons:</strong> capped at 11 kW; installation requires a suitable external residual current device (RCD), which your electrician has to plan for; no cable included.</p>
+<p><strong>Best for:</strong> homes on 11 kW three-phase or on single-phase that want RFID and 4G without paying for a premium model.</p>
+
+<h3>3. Zaptec Go 2: best-equipped compact charger</h3>
+<p>The <strong>Zaptec Go 2</strong> follows the design-award-winning Zaptec Go. It delivers up to 22 kW on three-phase and 7.4 kW on single-phase, in a housing barely bigger than a tablet.</p>
+<p><strong>Pros:</strong> Wi-Fi, 4G and Bluetooth, an RFID reader, a backlit display, an MID Class B certified energy meter, OCPP support and hardware ready for ISO 15118 (Plug &amp; Charge). Rated IP54 and IK10 for outdoor use. Home energy management runs through the Zaptec Sense accessory.</p>
+<p><strong>Cons:</strong> Type 2 socket with no cable included; premium price tier; availability varies by country and retailer.</p>
+<p><strong>Best for:</strong> drivers who want the most technically advanced charger, or who need a certified MID meter so their employer can reimburse home charging.</p>
+
+<h3>4. Hager witty one: best for French Linky meters</h3>
+<p>French manufacturer Hager knows residential electrical panels inside out, and its <strong>witty one</strong> shows it. It comes in 7.4 kW single-phase and 11 kW versions, with a T2S socket.</p>
+<p><strong>Pros:</strong> depending on the model number, a TIC card for dynamic load shedding based on the data output of France’s Linky smart meter, basic solar optimization, RFID access, a Bluetooth app, an OCPP communication card and an MID meter. Rated IP55.</p>
+<p><strong>Cons:</strong> features vary a lot from one model number to the next, so check exactly which one your installer is quoting. Designed mainly for the French market.</p>
+<p><strong>Best for:</strong> homes in France with a Linky meter that want simple load management with no extra meter.</p>
+
+<h3>5. Schneider Electric EVlink Pro AC: toughest for shared use</h3>
+<p>Built for demanding residential use as well as small businesses, the <strong>EVlink Pro AC</strong> ranges from 7.4 to 22 kW, with a T2S socket or a tethered cable.</p>
+<p><strong>Pros:</strong> RFID/NFC reader, OCPP 1.6J, Bluetooth, Ethernet and Modbus, 6 mA DC leakage detection on the relevant versions, IP54/IP55 and IK10 housing, versions with an MID meter.</p>
+<p><strong>Cons:</strong> the consumer app is less polished than Wallbox’s or Easee’s; setup is geared toward installers.</p>
+<p><strong>Best for:</strong> shared parking spaces, small condo buildings and self-employed users who want a professional-grade unit.</p>
+
+<h3>6. ABB Terra AC Wallbox: best for connectivity</h3>
+<p>The <strong>ABB Terra AC Wallbox</strong> comes in many versions: 7.4 kW single-phase or up to 22 kW three-phase, a Type 2 socket with shutter or a 16 ft (5 m) cable, with or without a display and 4G.</p>
+<p><strong>Pros:</strong> authentication by RFID card or the ChargerSync app, Wi-Fi, Ethernet, Bluetooth and 4G depending on the version, OCPP 1.6, built-in DC leakage detection, MID-certified versions. A wide operating temperature range.</p>
+<p><strong>Cons:</strong> a crowded lineup with many model numbers; a more utilitarian design.</p>
+<p><strong>Best for:</strong> buyers who want an established industrial brand and very complete connectivity.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Max power</th><th>Cable / socket</th><th>Connectivity</th><th>RFID</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Wallbox Pulsar Max</td><td>7.4 / 11 / 22 kW</td><td>Tethered, 16 or 23 ft (5 or 7 m)</td><td>Wi-Fi, Bluetooth, OCPP</td><td>No</td><td>Houses, solar</td></tr>
+<tr><td>Easee Charge Lite</td><td>11 kW</td><td>Type 2 socket</td><td>Wi-Fi, Bluetooth, 4G, OCPP</td><td>Yes</td><td>Best value</td></tr>
+<tr><td>Zaptec Go 2</td><td>22 kW</td><td>Type 2 socket</td><td>Wi-Fi, Bluetooth, 4G, OCPP</td><td>Yes</td><td>22 kW, MID meter</td></tr>
+<tr><td>Hager witty one</td><td>7.4 / 11 kW</td><td>T2S socket</td><td>Bluetooth, OCPP (optional)</td><td>Depends on version</td><td>Linky load shedding (France)</td></tr>
+<tr><td>Schneider EVlink Pro AC</td><td>7.4–22 kW</td><td>Socket or cable</td><td>Bluetooth, Ethernet, OCPP</td><td>Yes</td><td>Shared use</td></tr>
+<tr><td>ABB Terra AC Wallbox</td><td>7.4–22 kW</td><td>Socket or 16 ft (5 m) cable</td><td>Wi-Fi, Ethernet, Bluetooth, 4G (by version), OCPP</td><td>Yes</td><td>Full connectivity</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying 22 kW on principle</strong>: it’s pointless if your car tops out at 11 kW or your home is on single-phase.</li>
+<li><strong>Forgetting load balancing</strong>: without it, you often need more electrical capacity, which in France means a higher-power contract that costs more every month.</li>
+<li><strong>Underestimating cable reach</strong>: a 16 ft (5 m) cable can come up short if you back in or have two parking spaces.</li>
+<li><strong>Ignoring OCPP</strong>: a closed charger depends entirely on the manufacturer’s app.</li>
+<li><strong>Relying on an ordinary household outlet for daily charging</strong>: standard outlets aren’t designed for long, high-current charging sessions.</li>
+</ul>
+
+<h2>Installation and safety</h2>
+<p>A home charger must be installed by a <strong>licensed electrician</strong>, on a dedicated circuit, with the right ground-fault protection and correctly sized wiring. In France, chargers above 3.7 kW must be installed by a professional holding the <strong>IRVE</strong> qualification, which is also a condition for several French public incentives. In other European countries, the grid operator may need to be notified. Wherever you live, check your local building code and whether a permit is needed; your installer will know the local rules.</p>
+<p>Before you ask for a quote, note your supply type (single- or three-phase), your home’s electrical capacity and the distance between your electrical panel and the spot where the charger will go. To cut your bill, schedule charging for off-peak hours if you’re on a time-of-use rate plan, and combine it with the other measures in our <a href="/us/blog/guide-domotique-economie-energie-2026">smart home energy-saving guide</a>.</p>
+
+<h2>The bottom line</h2>
+<p>The <strong>Wallbox Pulsar Max</strong> is the easiest charger to recommend: compact, available in every power rating, open thanks to OCPP and upgradable to load balancing and solar charging. The <strong>Easee Charge Lite</strong> packs the most equipment for the money, with RFID and 4G, as long as 11 kW is enough for you. The <strong>Zaptec Go 2</strong> is the premium pick for 22 kW and an MID meter. In France, homes with a Linky meter should look at the <strong>Hager witty one</strong>, and shared setups at the <strong>Schneider EVlink Pro AC</strong> or the <strong>ABB Terra AC</strong>.</p>`,
+    ca: `<p><strong>Of the smart EV chargers sold in Europe, the best home charger in 2026 is the Wallbox Pulsar Max: compact, available in 7.4, 11 and 22 kW, controlled over Wi-Fi and Bluetooth, OCPP-compatible and able to balance the load or charge on solar power with its dedicated meter.</strong> If you want a more affordable model with an RFID reader and a built-in cellular connection, the Easee Charge Lite is the best value, while the Zaptec Go 2 suits drivers who want 22 kW, a display and an MID-certified meter in a tiny enclosure.</p>
+<p>This comparison is based on manufacturer spec sheets, published independent reviews and verified owner reviews. It covers six chargers that are genuinely sold in Europe, most of them on Amazon. Models and versions sold in Canada can differ from the European ones: check that the listing is for a North American model with a J1772 or NACS connector. You can browse the full selection in our <a href="/ca/energie-domotique/bornes-recharge-ve">home EV chargers</a> category.</p>
+
+<h2>How to choose a home EV charger</h2>
+<h3>7.4, 11 or 22 kW: how much power do you need?</h3>
+<p>The right power rating depends first on your electrical service and your supply type:</p>
+<ul>
+<li><strong>7.4 kW (single-phase, 32 A)</strong>: the most common setup for a house in Europe. It adds roughly 35 to 45 km of range per hour depending on the car, more than enough for overnight charging.</li>
+<li><strong>11 kW (three-phase, 16 A)</strong>: the sweet spot if your home has a three-phase supply. Most recent EVs accept 11 kW on AC.</li>
+<li><strong>22 kW (three-phase, 32 A)</strong>: only useful if your car accepts 22 kW on AC, which is still uncommon, and if your electrical installation can handle it.</li>
+</ul>
+<p>One point people often overlook: the <strong>car’s on-board charger</strong> sets the limit. A 22 kW charger connected to a car limited to 11 kW will charge at 11 kW. Check your car’s maximum AC charging power before you buy.</p>
+
+<h3>Single-phase or three-phase</h3>
+<p>On a European single-phase supply, there’s no point going above 7.4 kW. On three-phase, an 11 kW charger is often the most sensible choice. Many models (Pulsar Max, Zaptec Go 2, ABB Terra AC) come in versatile versions that work on both supply types, which is handy if you plan to switch to three-phase later.</p>
+
+<h3>Load balancing</h3>
+<p>A charger drawing 32 A while the oven, cooktop and heat pump are running can trip your main breaker. <strong>Dynamic load balancing</strong> measures household consumption in real time and lowers the charger’s output to keep you under your supply limit. Depending on the brand, it relies on a dedicated energy meter (Wallbox, Easee Equalizer), an energy-management accessory (Zaptec Sense) or, in France, the data output of the Linky smart meter (Hager).</p>
+
+<h3>Solar surplus charging</h3>
+<p>If you have solar panels, a charger that follows production lets you charge the car with your own electricity instead of sending it to the grid for little in return. That’s what Wallbox’s Eco-Smart feature and solar charging with the Easee Equalizer do. A <a href="/ca/blog/balkonkraftwerk-panneau-solaire-balcon">balcony solar kit</a> can’t power a charger on its own, but a rooftop system can during the day.</p>
+
+<h3>RFID, app and OCPP</h3>
+<ul>
+<li><strong>RFID / NFC</strong>: a card or tag to start charging, essential if the charger can be reached from the street or is shared in a condo building.</li>
+<li><strong>App</strong>: off-peak scheduling, consumption tracking, remote locking. Wi-Fi is standard; built-in 4G avoids coverage problems at the back of a garage.</li>
+<li><strong>OCPP</strong>: an open protocol that lets you connect the charger to software other than the manufacturer’s (fleet management, a smart home system, employer reimbursement). It’s insurance for the long term.</li>
+</ul>
+
+<h3>Tethered cable or Type 2 socket</h3>
+<p>A <strong>tethered</strong> charger is more convenient day to day: unhook the connector and plug in. A <strong>Type 2 socket</strong> charger is tidier, lets you choose your cable length and avoids leaving a cable outdoors, but you have to get your own cable out every time. Some sockets can lock the cable in place, which makes them effectively tethered. Keep in mind that Type 2 is the European standard: North American EVs use J1772 or NACS connectors.</p>
+
+<h2>The 6 best home EV chargers</h2>
+
+<h3>1. Wallbox Pulsar Max: best overall</h3>
+<p>Successor to the very popular Pulsar Plus, the <strong>Wallbox Pulsar Max</strong> keeps the brand’s compact format in a tougher housing designed for indoor and outdoor use. It comes in 7.4, 11 and 22 kW versions, with a 5 or 7 m tethered Type 2 cable.</p>
+<p><strong>Strengths:</strong> Wi-Fi and Bluetooth through the myWallbox app, OCPP compatibility, off-peak scheduling and voice-assistant integration. Add the Wallbox energy meter (sold separately) and it gains Power Boost (dynamic load balancing with the house) and Eco-Smart (100% solar or mixed charging). Power Sharing lets several chargers share one circuit.</p>
+<p><strong>Limitations:</strong> no built-in RFID reader, no 4G, and the meter required for the advanced features is an extra purchase.</p>
+<p><strong>Best for:</strong> houses with a garage or private driveway, on single- or three-phase, that want a simple, smart and upgradable charger.</p>
+
+<h3>2. Easee Charge Lite: best value</h3>
+<p>With the <strong>Charge Lite</strong>, Norwegian brand Easee offers a Type 2 socket charger that is very well equipped for its price tier: up to 7.4 kW on single-phase and 11 kW on three-phase.</p>
+<p><strong>Strengths:</strong> Wi-Fi, Bluetooth and a built-in cellular eSIM, RFID/NFC reader, OCPP 1.6. Paired with the Easee Equalizer, it handles dynamic load balancing and solar surplus charging.</p>
+<p><strong>Limitations:</strong> capped at 11 kW; installation requires a suitable external residual current device, which your electrician needs to plan for; no cable included.</p>
+<p><strong>Best for:</strong> homes on 11 kW three-phase or single-phase that want RFID and 4G without paying for a premium model.</p>
+
+<h3>3. Zaptec Go 2: the most complete compact charger</h3>
+<p>The <strong>Zaptec Go 2</strong> follows the design-award-winning Zaptec Go. It delivers up to 22 kW on three-phase and 7.4 kW on single-phase, in a housing barely bigger than a tablet.</p>
+<p><strong>Strengths:</strong> Wi-Fi, 4G and Bluetooth, RFID reader, backlit display, MID Class B certified energy meter, OCPP support and hardware ready for ISO 15118 (Plug &amp; Charge). IP54 and IK10 rated for outdoor use. Home energy management runs through the Zaptec Sense accessory.</p>
+<p><strong>Limitations:</strong> Type 2 socket with no cable included; premium positioning; availability varies by country and retailer.</p>
+<p><strong>Best for:</strong> drivers who want the most technically advanced charger, or who need an MID meter so their employer can reimburse home charging.</p>
+
+<h3>4. Hager witty one: best match for French Linky meters</h3>
+<p>French manufacturer Hager knows residential electrical panels inside out, and its <strong>witty one</strong> shows it. It comes in 7.4 kW single-phase and 11 kW versions, with a T2S socket (the shuttered Type 2 socket common in France).</p>
+<p><strong>Strengths:</strong> depending on the version, a TIC card for dynamic load shedding using the Linky meter’s data output, basic solar optimization, RFID access, a Bluetooth app, an OCPP communication card and an MID meter. IP55 rated.</p>
+<p><strong>Limitations:</strong> options vary a lot from one version to the next, so check the exact one your installer offers. Designed mainly for the French market.</p>
+<p><strong>Best for:</strong> homes in France with a Linky meter that want simple load management with no extra meter.</p>
+
+<h3>5. Schneider Electric EVlink Pro AC: toughest for shared use</h3>
+<p>Built for demanding residential use as well as small businesses, the <strong>EVlink Pro AC</strong> ranges from 7.4 to 22 kW, with a T2S socket or a tethered cable.</p>
+<p><strong>Strengths:</strong> RFID/NFC reader, OCPP 1.6J, Bluetooth, Ethernet and Modbus, 6 mA DC leakage detection on the relevant versions, IP54/IP55 and IK10 housing, versions with an MID meter.</p>
+<p><strong>Limitations:</strong> the consumer app is less polished than Wallbox’s or Easee’s; setup is geared toward installers.</p>
+<p><strong>Best for:</strong> shared parking spaces, small condo buildings and self-employed users who want a professional-grade unit.</p>
+
+<h3>6. ABB Terra AC Wallbox: most versatile connectivity</h3>
+<p>The <strong>ABB Terra AC Wallbox</strong> comes in many versions: 7.4 kW single-phase or up to 22 kW three-phase, a Type 2 socket with shutter or a 5 m cable, with or without a display and 4G.</p>
+<p><strong>Strengths:</strong> authentication by RFID card or the ChargerSync app, Wi-Fi, Ethernet, Bluetooth and 4G depending on the version, OCPP 1.6, built-in DC leakage detection, MID-certified versions. Wide operating temperature range.</p>
+<p><strong>Limitations:</strong> a crowded lineup with many versions; a more utilitarian design.</p>
+<p><strong>Best for:</strong> buyers who want an established industrial brand and very complete connectivity.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Max power</th><th>Cable / socket</th><th>Connectivity</th><th>RFID</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Wallbox Pulsar Max</td><td>7.4 / 11 / 22 kW</td><td>Tethered 5 or 7 m</td><td>Wi-Fi, Bluetooth, OCPP</td><td>No</td><td>Houses, solar</td></tr>
+<tr><td>Easee Charge Lite</td><td>11 kW</td><td>Type 2 socket</td><td>Wi-Fi, Bluetooth, 4G, OCPP</td><td>Yes</td><td>Best value</td></tr>
+<tr><td>Zaptec Go 2</td><td>22 kW</td><td>Type 2 socket</td><td>Wi-Fi, Bluetooth, 4G, OCPP</td><td>Yes</td><td>22 kW, MID meter</td></tr>
+<tr><td>Hager witty one</td><td>7.4 / 11 kW</td><td>T2S socket</td><td>Bluetooth, OCPP (option)</td><td>Depends on version</td><td>French Linky load shedding</td></tr>
+<tr><td>Schneider EVlink Pro AC</td><td>7.4 to 22 kW</td><td>Socket or cable</td><td>Bluetooth, Ethernet, OCPP</td><td>Yes</td><td>Shared use</td></tr>
+<tr><td>ABB Terra AC Wallbox</td><td>7.4 to 22 kW</td><td>Socket or 5 m cable</td><td>Wi-Fi, Ethernet, Bluetooth, 4G (by version), OCPP</td><td>Yes</td><td>Full connectivity</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying 22 kW on principle</strong>: pointless if your car tops out at 11 kW or you’re on single-phase.</li>
+<li><strong>Forgetting load balancing</strong>: without it you often have to upgrade your electrical service, which in France also means a pricier supply contract every month.</li>
+<li><strong>Underestimating cable reach</strong>: a 5 m cable can be too short if you back in or have two parking spaces.</li>
+<li><strong>Ignoring OCPP</strong>: a closed charger depends entirely on the manufacturer’s app.</li>
+<li><strong>Relying on an ordinary household outlet every day</strong>: these outlets aren’t designed for long, high-current charging sessions, and Level 1 charging at 120 V is slow.</li>
+</ul>
+
+<h2>Installation and safety</h2>
+<p>A home charger must be installed by a <strong>licensed electrician</strong> on a dedicated circuit, with suitable ground-fault protection and correctly sized wiring. In France, chargers above 3.7 kW must be installed by a professional holding the <strong>IRVE</strong> qualification, which is also a condition for several French incentives. In Canada, a Level 2 charger runs on a dedicated 240 V circuit, and electrical work rules are set by each province and territory, so check the requirements with your electrician before you install.</p>
+<p>Before you ask for a quote, note your supply type (single- or three-phase), the capacity of your electrical panel and the distance between the panel and where the charger will go. To cut your bill, schedule charging for off-peak hours if your utility offers time-of-use rates, and combine it with the other measures in our <a href="/ca/blog/guide-domotique-economie-energie-2026">smart home energy-saving guide</a>.</p>
+
+<h2>Verdict</h2>
+<p>The <strong>Wallbox Pulsar Max</strong> is the easiest charger to recommend: compact, available in every power rating, open thanks to OCPP and upgradable to load balancing and solar charging. The <strong>Easee Charge Lite</strong> offers the best features for its tier with RFID and 4G, as long as 11 kW is enough for you. The <strong>Zaptec Go 2</strong> is the premium pick for 22 kW and an MID meter. Owners of a French Linky meter should look at the <strong>Hager witty one</strong>, and shared setups at the <strong>Schneider EVlink Pro AC</strong> or <strong>ABB Terra AC</strong>.</p>`,
   },
   faq: [
     {
@@ -757,6 +1066,9 @@ export const article: BlogArticle = {
         it: 'Meglio una wallbox da 7,4, 11 o 22 kW?',
         nl: 'Kies ik een laadpaal van 7,4, 11 of 22 kW?',
         pl: 'Ładowarka 7,4 kW, 11 kW czy 22 kW – którą wybrać?',
+        sv: 'Ska jag välja en laddbox på 7,4, 11 eller 22 kW?',
+        us: 'Do I need a 7.4 kW, 11 kW or 22 kW charger?',
+        ca: 'Should I choose a 7.4 kW, 11 kW or 22 kW charger?',
       },
       answer: {
         fr: 'En monophasé, 7,4 kW est le maximum utile. En triphasé, 11 kW convient à la plupart des voitures. Le 22 kW n’a d’intérêt que si votre véhicule accepte 22 kW en courant alternatif, car c’est le chargeur embarqué de la voiture qui limite la puissance réelle.',
@@ -766,6 +1078,9 @@ export const article: BlogArticle = {
         it: 'In monofase 7,4 kW è il massimo utile. In trifase 11 kW va bene per la maggior parte delle auto. I 22 kW servono solo se l’auto accetta 22 kW in AC, perché è il caricatore di bordo a limitare la potenza reale.',
         nl: 'Op 1-fase is 7,4 kW het nuttige maximum. Op 3-fase volstaat 11 kW voor de meeste auto’s. 22 kW heeft alleen zin als je auto 22 kW AC aankan, want de ingebouwde lader van de auto bepaalt het echte laadvermogen.',
         pl: 'Przy zasilaniu jednofazowym nie ma sensu wybierać więcej niż 7,4 kW. Przy trójfazowym większości samochodów wystarczy 11 kW. Model 22 kW opłaca się tylko wtedy, gdy Twój samochód przyjmuje 22 kW prądu przemiennego (AC), bo rzeczywistą moc ładowania ogranicza ładowarka pokładowa auta.',
+        sv: 'Med enfas är 7,4 kW det högsta som är meningsfullt. Med trefas passar 11 kW de flesta bilar. 22 kW är bara motiverat om bilen tar emot 22 kW växelström, eftersom det är bilens inbyggda laddare som begränsar den verkliga laddeffekten.',
+        us: 'On a single-phase supply, 7.4 kW is the useful maximum. On three-phase, 11 kW suits most cars. 22 kW only makes sense if your car accepts 22 kW on AC, because the car’s on-board charger caps the actual charging power.',
+        ca: 'On a European single-phase supply, 7.4 kW is the useful maximum. On three-phase, 11 kW suits most cars. 22 kW only makes sense if your car accepts 22 kW on AC, because the car’s on-board charger limits the real charging power.',
       },
     },
     {
@@ -777,6 +1092,9 @@ export const article: BlogArticle = {
         it: 'Posso installare da solo la wallbox?',
         nl: 'Mag ik mijn laadpaal zelf installeren?',
         pl: 'Czy ładowarkę do samochodu można zamontować samodzielnie?',
+        sv: 'Kan jag installera laddboxen själv?',
+        us: 'Can I install a home EV charger myself?',
+        ca: 'Can I install a home EV charger myself?',
       },
       answer: {
         fr: 'Non, c’est déconseillé et souvent interdit. Une borne doit être raccordée par un électricien qualifié sur un circuit dédié avec les protections adaptées. En France, une borne de plus de 3,7 kW doit être posée par un installateur qualifié IRVE.',
@@ -786,6 +1104,9 @@ export const article: BlogArticle = {
         it: 'No, è sconsigliato e spesso non consentito. La wallbox va collegata da un elettricista qualificato su una linea dedicata con le protezioni adeguate. In Francia, oltre 3,7 kW serve un installatore con qualifica IRVE.',
         nl: 'Nee, dat is af te raden en vaak niet toegestaan. Een laadpaal moet door een erkende elektricien op een eigen groep met de juiste beveiliging worden aangesloten. In Frankrijk is boven 3,7 kW een installateur met IRVE-kwalificatie verplicht.',
         pl: 'Nie. To niewskazane, a często wręcz niedozwolone. Ładowarkę musi podłączyć wykwalifikowany elektryk do osobnego obwodu z odpowiednimi zabezpieczeniami. We Francji ładowarkę o mocy powyżej 3,7 kW może zamontować wyłącznie instalator z uprawnieniami IRVE.',
+        sv: 'Nej, det är inte att rekommendera och ofta inte ens tillåtet. En laddbox ska anslutas av en behörig elektriker, på en egen grupp och med rätt skydd. I Frankrike måste en laddbox på mer än 3,7 kW installeras av en installatör med IRVE-behörighet.',
+        us: 'No. It’s not recommended and often not allowed. A charger has to be connected by a licensed electrician on a dedicated circuit with the right protection. In France, chargers above 3.7 kW must be installed by an IRVE-qualified professional; elsewhere, check your local building code and whether a permit is needed.',
+        ca: 'No. It’s not recommended and often not allowed. A charger must be connected by a licensed electrician on a dedicated circuit with suitable protection. In France, chargers above 3.7 kW must be installed by an IRVE-qualified professional; in Canada, electrical work rules are set by each province and territory.',
       },
     },
     {
@@ -797,6 +1118,9 @@ export const article: BlogArticle = {
         it: 'A cosa serve il bilanciamento dinamico dei carichi?',
         nl: 'Wat doet dynamische load balancing?',
         pl: 'Do czego służy dynamiczne równoważenie obciążenia?',
+        sv: 'Vad gör dynamisk lastbalansering?',
+        us: 'What does dynamic load balancing do?',
+        ca: 'What does dynamic load balancing do?',
       },
       answer: {
         fr: 'Il mesure la consommation de la maison en temps réel et réduit la puissance de la borne quand d’autres appareils fonctionnent. Vous évitez ainsi les coupures et, souvent, une augmentation de votre puissance d’abonnement.',
@@ -806,6 +1130,9 @@ export const article: BlogArticle = {
         it: 'Misura in tempo reale i consumi di casa e riduce la potenza della wallbox quando altri apparecchi sono accesi. Eviti così il distacco del contatore e spesso un aumento della potenza contrattuale.',
         nl: 'Het meet het verbruik van de woning in realtime en verlaagt het laadvermogen als andere apparaten aanstaan. Zo voorkom je dat de hoofdzekering springt en vaak ook een zwaardere aansluiting.',
         pl: 'Na bieżąco mierzy pobór mocy w domu i zmniejsza moc ładowania, gdy pracują inne urządzenia. Dzięki temu unikasz wybijania zabezpieczeń, a często także konieczności podniesienia mocy umownej.',
+        sv: 'Den mäter husets elförbrukning i realtid och sänker laddboxens effekt när andra apparater är igång. På så vis undviker du att huvudsäkringen går, och du slipper ofta byta till en större huvudsäkring.',
+        us: 'It measures your home’s consumption in real time and lowers the charger’s output when other appliances are running. That keeps the main breaker from tripping and often saves you from having to upgrade your electrical service.',
+        ca: 'It measures household consumption in real time and lowers the charger’s output when other appliances are running. This keeps you from tripping the main breaker and often saves you from having to upgrade your electrical service.',
       },
     },
     {
@@ -817,6 +1144,9 @@ export const article: BlogArticle = {
         it: 'Posso ricaricare l’auto con i pannelli solari?',
         nl: 'Kan ik mijn auto laden met mijn zonnepanelen?',
         pl: 'Czy można ładować samochód z własnych paneli słonecznych?',
+        sv: 'Kan jag ladda bilen med mina solceller?',
+        us: 'Can I charge my car with my solar panels?',
+        ca: 'Can I charge my car with my solar panels?',
       },
       answer: {
         fr: 'Oui, avec une borne compatible et un compteur ou un module de gestion : la Wallbox Pulsar Max avec Eco-Smart ou l’Easee Charge Lite avec l’Equalizer suivent la production pour charger sur le surplus solaire.',
@@ -826,6 +1156,9 @@ export const article: BlogArticle = {
         it: 'Sì, con una wallbox compatibile e un contatore o modulo di gestione: la Wallbox Pulsar Max con Eco-Smart o la Easee Charge Lite con l’Equalizer seguono la produzione per ricaricare con il surplus solare.',
         nl: 'Ja, met een geschikte laadpaal en een meter of energiebeheermodule: de Wallbox Pulsar Max met Eco-Smart of de Easee Charge Lite met de Equalizer volgen de opwek om op zonne-overschot te laden.',
         pl: 'Tak, jeśli masz zgodną ładowarkę oraz licznik lub moduł do zarządzania energią. Wallbox Pulsar Max z funkcją Eco-Smart i Easee Charge Lite z modułem Equalizer dostosowują moc do bieżącej produkcji i ładują auto nadwyżkami energii z paneli.',
+        sv: 'Ja, med en kompatibel laddbox och en mätare eller en styrmodul: Wallbox Pulsar Max med Eco-Smart och Easee Charge Lite med Equalizer följer produktionen och laddar bilen med överskottselen från solcellerna.',
+        us: 'Yes, with a compatible charger plus a meter or energy-management module: the Wallbox Pulsar Max with Eco-Smart and the Easee Charge Lite with the Equalizer both track production so they can charge on solar surplus.',
+        ca: 'Yes, with a compatible charger plus a meter or energy-management module: the Wallbox Pulsar Max with Eco-Smart or the Easee Charge Lite with the Equalizer follow production to charge on solar surplus.',
       },
     },
     {
@@ -837,6 +1170,9 @@ export const article: BlogArticle = {
         it: 'Cavo fisso o presa: cosa scegliere?',
         nl: 'Vaste kabel of contactdoos: wat kies ik?',
         pl: 'Ładowarka z kablem na stałe czy z gniazdem: co wybrać?',
+        sv: 'Laddbox med fast kabel eller uttag: vilken ska jag välja?',
+        us: 'Tethered cable or Type 2 socket: which is better?',
+        ca: 'Tethered cable or Type 2 socket: which should I choose?',
       },
       answer: {
         fr: 'Le câble attaché est le plus pratique au quotidien pour une place privée. La prise Type 2 convient mieux si la borne est visible depuis la rue, si plusieurs véhicules la partagent ou si vous voulez choisir la longueur du câble.',
@@ -846,6 +1182,9 @@ export const article: BlogArticle = {
         it: 'Il cavo fisso è il più pratico per un posto auto privato. La presa Tipo 2 è preferibile se la wallbox è visibile dalla strada, condivisa da più veicoli o se vuoi scegliere la lunghezza del cavo.',
         nl: 'Een vaste kabel is het handigst bij een eigen oprit. Een type 2-contactdoos is beter als de laadpaal vanaf de straat zichtbaar is, door meerdere auto’s wordt gebruikt of als je zelf de kabellengte wilt kiezen.',
         pl: 'Przy prywatnym miejscu postojowym na co dzień najwygodniejszy jest kabel na stałe. Gniazdo Type 2 lepiej się sprawdzi, gdy ładowarkę widać z ulicy, gdy korzysta z niej kilka samochodów albo gdy chcesz dobrać długość kabla.',
+        sv: 'Fast kabel är smidigast i vardagen om du har en egen parkeringsplats. Ett Typ 2-uttag passar bättre om laddboxen syns från gatan, om flera bilar delar på den eller om du vill välja kabellängd själv.',
+        us: 'A tethered cable is the most convenient for everyday charging in a private driveway. A Type 2 socket is better if the charger is visible from the street or shared by several vehicles, or if you want to choose your own cable length.',
+        ca: 'A tethered cable is the most convenient for a private driveway. A Type 2 socket is better if the charger is visible from the street, shared by several vehicles, or if you want to pick your own cable length.',
       },
     },
     {
@@ -857,6 +1196,9 @@ export const article: BlogArticle = {
         it: 'L’OCPP è davvero utile per un privato?',
         nl: 'Is OCPP echt nuttig voor particulieren?',
         pl: 'Czy OCPP naprawdę ma znaczenie w ładowarce domowej?',
+        sv: 'Är OCPP verkligen användbart för en privatperson?',
+        us: 'Is OCPP really worth it for a home charger?',
+        ca: 'Is OCPP really useful for a home charger?',
       },
       answer: {
         fr: 'Oui, surtout sur le long terme. L’OCPP permet de piloter la borne avec un autre logiciel que celui du fabricant, par exemple pour un remboursement par l’employeur ou une intégration domotique, et la protège si l’application d’origine évolue.',
@@ -866,6 +1208,9 @@ export const article: BlogArticle = {
         it: 'Sì, soprattutto nel lungo periodo. L’OCPP consente di gestire la wallbox con software diversi da quello del produttore, per esempio per il rimborso aziendale o la domotica, e ti tutela se l’app originale cambia.',
         nl: 'Ja, vooral op de lange termijn. Met OCPP beheer je de laadpaal met andere software dan die van de fabrikant, bijvoorbeeld voor vergoeding door je werkgever of domotica, en ben je niet afhankelijk van de oorspronkelijke app.',
         pl: 'Tak, zwłaszcza w dłuższej perspektywie. Dzięki OCPP ładowarką można sterować z oprogramowania innego niż aplikacja producenta – na przykład na potrzeby zwrotu kosztów ładowania przez pracodawcę albo integracji z systemem inteligentnego domu. To także zabezpieczenie na wypadek, gdyby oryginalna aplikacja się zmieniła.',
+        sv: 'Ja, särskilt på lång sikt. Med OCPP kan laddboxen styras av en annan programvara än tillverkarens, t.ex. för ersättning från arbetsgivaren eller i ett smarthemssystem, och du är inte låst till tillverkarens app om den skulle förändras.',
+        us: 'Yes, especially in the long run. OCPP lets you manage the charger with software other than the manufacturer’s, for example for employer reimbursement or home automation, and protects you if the original app changes.',
+        ca: 'Yes, especially in the long run. OCPP lets you manage the charger with software other than the manufacturer’s, for example for employer reimbursement or a smart home system, and protects you if the original app changes.',
       },
     },
   ],

@@ -156,6 +156,72 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
         answer: "Zwykle jest to bateria guzikowa CR2032 albo dwie baterie AAA, a typ jest podany na klapce lub w instrukcji. Waga ładowana przez USB-C opłaca się przy codziennym ważeniu albo gdy ma podświetlany ekran lub Bluetooth, bo to one najszybciej wyczerpują baterie. Jej wadą jest akumulator wbudowany na stałe, którego nie zawsze da się wymienić. Gdy na ekranie pojawia się „Lo” albo cyfry skaczą, najpierw trzeba wymienić baterię, a przed dłuższym przechowywaniem wagi – wyjąć ją, żeby nie wyciekła.",
       },
     ],
+    sv: [
+      {
+        question: "Köksvåg med 1 g eller 0,1 g noggrannhet: vilken passar för bakning?",
+        answer: "För de flesta kakor räcker en våg som väger på grammet när. Noggrannheten 0,1 g blir användbar för små mängder som jäst, salt, gelatin, kryddor eller kaffe. På 3 g jäst motsvarar ett fel på ett gram en tredjedel av mängden, och det märks på en brioche eller ett surdegsbröd. Precisionsvågar som visar 0,1 g har ofta en låg maxvikt, från några hundra gram upp till 2–3 kg. För både macarons och bröd är det bäst med en våg på 5 kg som väger på grammet när, kompletterad med en liten precisionsvåg.",
+      },
+      {
+        question: "Är en smart köksvåg verkligen bra för att räkna kalorier?",
+        answer: "Ja, det är den största fördelen: du väljer livsmedlet i appen, lägger det på vågen och kalorier, protein och kolhydrater räknas ut automatiskt. Hur pålitligt det blir beror på databasen: en officiell livsmedelsdatabas från en myndighet är säkrare än poster som användarna själva har lagt in. Kontrollera om appen kräver konto eller abonnemang för historiken, och vad den gör med uppgifterna om vad du äter. En vanlig köksvåg och en kostapp ger samma resultat om du skriver in grammen själv.",
+      },
+      {
+        question: "Behöver jag en köksvåg om köksmaskinen redan väger?",
+        answer: "Inte för att följa köksmaskinens recept, men en separat våg är fortfarande praktisk till allt annat. En Thermomix eller Monsieur Cuisine väger ingredienserna direkt i bunken, och det räcker för de guidade recepten. Däremot kan du inte väga en deg på bänken, en form som ska in i ugnen eller några gram jäst på en tiondels gram när. En platt köksvåg som väger på grammet när och får plats i en låda är därför ett bra komplement till köksmaskinen, särskilt om du bakar.",
+      },
+      {
+        question: "Varför visar min köksvåg fel vikt?",
+        answer: "Oftast beror det på svaga batterier, ett ostadigt underlag eller en felaktig tarering. Byt batterier, ställ vågen på en hård och plan yta, slå på den utan något på vågplattan och vänta på noll innan du väger. Kontrollera sedan med något som har en känd vikt, till exempel euromynt om du har några hemma: ett 1-euromynt väger 7,5 g och ett 2-euromynt 8,5 g, så tio 1-euromynt ska visa ca 75 g. Vissa precisionsvågar har också ett kalibreringsläge med referensvikt. Kvarstår felet kan en stöt eller överbelastning ha skadat vägcellen.",
+      },
+      {
+        question: "Köksvåg med batterier eller laddning via USB-C: vad är bäst?",
+        answer: "Till en enkel våg räcker batterier. Till en smart våg, en våg med bakgrundsbelysning eller en som används varje dag är laddning via USB-C smidigare, eftersom du slipper köpa nya batterier hela tiden. Ett knappcellsbatteri CR2032 eller AAA-batterier räcker länge i en enkel modell, men Bluetooth och skärmen tömmer dem snabbare. Ett inbyggt batteri går å andra sidan inte alltid att byta, så kontrollera det innan du köper. Ska vågen ligga oanvänd i flera månader bör du ta ur batterierna så att de inte läcker.",
+      },
+    ],
+    us: [
+      {
+        question: "What accuracy do I need from a digital kitchen scale for baking?",
+        answer: "For most cakes and breads, a scale that reads to 1 g is enough; 0.1 g is only worth it for small amounts such as yeast, salt, spices or coffee. On a 7 g (1/4 oz) packet of yeast, a 1 g error is about 14% of the dose. Weigh in grams even when a recipe gives ounces: 1 oz is about 28 g, so the gram setting is far more precise. Precision scales that read to 0.1 g often have a lower maximum capacity, so keep a standard 11 lb (5 kg) model for big bakes.",
+      },
+      {
+        question: "Do I need a smart scale and an app subscription to count calories?",
+        answer: "No, any kitchen scale will do: weigh the food and log the grams in a free tracking app. A smart scale saves you the typing: you pick the food in the app, set it on the platform and the calories are calculated for you. Most pair with their own app over Bluetooth, sometimes behind an account or a paid tier for history and meal plans. Check that before you buy, and read the privacy policy, since a food diary can reveal health information.",
+      },
+      {
+        question: "Can a kitchen scale measure milk and water in ml or fl oz?",
+        answer: "Yes, many have a liquid mode, which is accurate for water because 1 ml of water weighs about 1 g. Milk is slightly heavier and oil lighter, so expect a small error unless the scale has a separate milk setting. For fluid ounces, check which kind the scale uses: a US fl oz is about 29.6 ml, while a UK (imperial) fl oz is about 28.4 ml, and a scale designed for Europe may use either. For recipes written in cups, converting to grams gives more reliable results.",
+      },
+      {
+        question: "How do I check that my kitchen scale is accurate?",
+        answer: "Weigh a few coins of known weight: a US nickel weighs 5 g, so ten nickels should read about 50 g. Coins in circulation are slightly worn, so allow a gram or so of difference on a scale that reads to 1 g. If the reading is clearly off, replace the battery first, since a low battery often makes the numbers drift. Then set the scale on a hard, level surface and turn it on with nothing on it. Some precision models also have a calibration mode that uses a reference weight.",
+      },
+      {
+        question: "Rechargeable or battery-powered kitchen scale: which is better?",
+        answer: "Coin-cell or AAA batteries are fine for a basic scale, while USB-C charging makes more sense for smart, backlit or everyday models. Bluetooth and bright displays drain batteries faster, so a rechargeable model saves you buying replacements. The downside is that a built-in battery can't always be swapped once it wears out, so check whether it's replaceable. If your scale lives in a drawer for months, take the batteries out so they don't leak, and choose a wipe-clean platform with no gaps where flour collects.",
+      },
+    ],
+    ca: [
+      {
+        question: "What accuracy do I need from a digital kitchen scale for baking?",
+        answer: "For most cakes and bread, a scale that reads to 1 g is enough; 0.1 g is only worth it for small amounts such as yeast, salt, spices or coffee. On 7 g of yeast, a 1 g error is about 14% of the dose. Weigh in grams even when a recipe gives cups or ounces: 1 oz is roughly 28 g, so the gram setting is far finer. Precision scales that read to 0.1 g often have a lower maximum capacity, so keep a standard 5 kg scale for big batches.",
+      },
+      {
+        question: "Do I need a smart scale and an app subscription to count calories?",
+        answer: "No, any kitchen scale will do: weigh the food, then log the grams in a free tracking app, which works out the calories from its database. A smart scale saves typing: you pick the food in the app, put it on the platform and the calories are worked out for you. Most link to their own app over Bluetooth, sometimes behind an account or a paid tier for history and meal plans. Check that before buying, and read the privacy policy, since a food diary can reveal health information.",
+      },
+      {
+        question: "Can a kitchen scale measure milk and water in mL or fl oz?",
+        answer: "Yes, many have a liquid mode, which is accurate for water because 1 mL of water weighs about 1 g. Milk is slightly heavier and oil lighter, so expect a small error unless the scale offers a separate milk setting. For fluid ounces, check which kind the scale uses: a US fl oz is about 29.6 mL, while an imperial (UK) fl oz is about 28.4 mL. That matters with recipes that also use cups, as many North American ones do; converting them to grams gives more reliable results.",
+      },
+      {
+        question: "How do I check that my kitchen scale is accurate?",
+        answer: "Weigh a few coins of known weight: quarters minted since 2000 weigh 4.4 g each, so ten of them should read about 44 g. Coins in circulation are slightly worn, so allow a gram or so of difference on a 1 g model. If the reading is clearly off, replace the battery first, as a low battery often causes drifting figures. Then place the scale on a hard, level surface and switch it on empty. Some precision models also have a calibration mode using a reference weight.",
+      },
+      {
+        question: "Rechargeable or battery-powered kitchen scale: which is better?",
+        answer: "Coin-cell or AAA batteries are fine for a basic scale, while USB-C charging makes more sense for smart, backlit or daily-use models. Bluetooth and bright displays drain batteries faster, so a rechargeable model saves buying replacements. The downside is that a built-in battery can't always be swapped once it wears out, so check whether it's replaceable. If your scale lives in a drawer for months, take the batteries out to stop them leaking, and choose a wipe-clean platform without gaps where flour collects.",
+      },
+    ],
   },
   "thermometres-viande": {
     fr: [
@@ -312,6 +378,72 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
         answer: "W zmywarce tylko wtedy, gdy instrukcja wyraźnie na to pozwala; wiele sond myje się ręcznie ciepłą wodą z płynem, bez zanurzania części z elektroniką ani kabla. Dokładność łatwo sprawdzić w szklance wypełnionej pokruszonym lodem i zimną wodą: termometr powinien pokazać około 0 °C, z tolerancją mniej więcej jednego stopnia. Większe odchylenie lub skaczące odczyty oznaczają zwykle uszkodzoną sondę albo przegrzany lub załamany kabel. Akumulator sondy bezprzewodowej najlepiej naładować przed każdym długim pieczeniem lub wędzeniem.",
       },
     ],
+    sv: [
+      {
+        question: "Vilken innertemperatur ska nötkött, lamm, fläsk och fågel ha?",
+        answer: "Räkna med 50–55 °C för blodig nötstek, 55–60 °C för rosa lamm, 63–68 °C för fläsk och minst 70–75 °C för fågel. Temperaturen stiger några grader till medan köttet vilar, så ta ut rostbiffen eller lammsteken lite innan den når måltemperaturen. Stick in givaren mitt i den tjockaste delen utan att komma åt benet; på en kyckling siktar du på den övre delen av låret. Apparna har de här riktvärdena och du kan justera dem efter smak, utom för fågel och köttfärs, som alltid ska vara genomstekta (den franska myndigheten Anses anger en innertemperatur på över 65 °C).",
+      },
+      {
+        question: "Trådlös stektermometer eller givare med sladd: vilken ska jag välja?",
+        answer: "Den trådlösa är smidigast i ugnen och på grillspettet, medan en givare med sladd ofta håller bättre på grillen, i rökgrillen och vid långa tillagningar. En trådlös givare har ingen sladd att dra, men det lilla batteriet måste räcka hela tillagningen och signalen går dåligt igenom metallväggar. En modell med sladd och en display som står utanför drivs med vanliga batterier, klarar ofta flera givare och mäter också temperaturen inne i grillen eller ugnen. Kontrollera i bruksanvisningen hur mycket värme sladden tål.",
+      },
+      {
+        question: "Varför tappar den trådlösa stektermometern anslutningen i ugnen?",
+        answer: "För att metallen skärmar av Bluetooth-signalen: när givaren sitter i en stängd ugn eller under ett grillock av metall räcker signalen oftast bara några meter, även om produktbladet lovar betydligt mer i fritt fält. Laddstationen eller repeatern ska därför stå nära ugnen, så att den fångar upp givaren och skickar signalen vidare. Vill du följa tillagningen från trädgården eller när du inte är hemma väljer du en modell med wifi-brygga. Kontrollera också om appen kräver konto och om notiserna kommer fram när mobilen är låst.",
+      },
+      {
+        question: "Kan givaren sitta kvar i ugnen vid pyrolysrengöring eller i mikron?",
+        answer: "Nej. Ta alltid ut givaren före pyrolysrengöring och sätt aldrig in en givare av metall i mikron, om inte ugnstillverkaren uttryckligen tillåter det. Vid pyrolys blir det runt 500 °C, långt mer än en givare tål, och i mikron kan metall orsaka gnistor. Vid vanlig tillagning följer du den högsta omgivningstemperatur som bruksanvisningen anger, ofta 250–300 °C. Stick in en trådlös givare minst till markeringen: elektroniken skyddas av köttet och tål i regel bara runt 100 °C.",
+      },
+      {
+        question: "Tål givaren diskmaskin, och hur kontrollerar jag att den visar rätt?",
+        answer: "Bara om bruksanvisningen säger det. Många givare, särskilt trådlösa, ska diskas för hand i varmt vatten med diskmedel, utan att elektroniken blir blöt. På en modell med sladd ska varken sladden eller kontakten bli våt. Kontrollera noggrannheten genom att ställa givaren i ett glas fyllt med krossad is och kallt vatten: den ska visa ungefär 0 °C, på en grad när. Större avvikelse eller värden som hoppar tyder på en skadad givare, ofta av värme, fukt eller en sladd som har klämts i ugnsluckan.",
+      },
+    ],
+    us: [
+      {
+        question: "What temperature should chicken and turkey reach in the middle?",
+        answer: "The standard US food safety target for chicken and turkey is 165°F (74°C) in the thickest part. On a whole chicken or a Thanksgiving turkey, push the probe into the thickest part of the thigh, near but not touching the bone, and check the breast too. The juices should run clear, with no pink left in the meat. Stuffing cooked inside the bird slows things down, so it's simpler to bake it separately. Let the bird rest before carving, since the temperature keeps climbing slightly.",
+      },
+      {
+        question: "What internal temperature for roast beef, lamb and pork?",
+        answer: "As a guide, pull beef at about 122 to 131°F (50 to 55°C) for rare and 131 to 140°F (55 to 60°C) for medium. Take lamb out at 131 to 140°F (55 to 60°C) for pink, and pork at 145 to 154°F (63 to 68°C). Whole cuts of beef and lamb can be served pink as long as the outside is well seared, but rolled roasts, burgers and sausages should be cooked through. The temperature climbs a few degrees while the roast rests, so take it out a little early. Measure in the center of the thickest part, away from bone and fat.",
+      },
+      {
+        question: "Wireless or wired meat thermometer for a grill or smoker?",
+        answer: "For long smokes and kettle grills, a wired probe with a base unit outside the lid is usually the sturdier choice; wireless probes shine in the oven and on a rotisserie. Wired models run on ordinary batteries, often take several probes at once, can read the temperature inside the grill and don't rely on a signal getting through a metal lid. Wireless probes have no cable to pinch, but their small built-in battery has to last the whole cook, and the electronics in the handle end tolerate only limited heat. Check the maximum ambient temperature before you sear.",
+      },
+      {
+        question: "Why does my wireless meat thermometer keep losing connection?",
+        answer: "Usually because the metal oven door or grill lid blocks the Bluetooth signal, leaving your phone or base unit simply too far away. Keep the charger or repeater right next to the oven or grill so it can relay the signal to your phone or over Wi-Fi. Battery-saver modes on your phone can also stop the app from running in the background, so allow background activity and notifications. Charge the probe fully before a long cook, insert it up to the marked line, and keep the app and firmware up to date.",
+      },
+      {
+        question: "Can a meat thermometer probe go in the dishwasher?",
+        answer: "Only if the manual says so; many wireless and wired probes must be washed by hand in warm, soapy water, without soaking the handle end, cable or connector. Dishwasher heat and moisture can ruin the electronics. To check accuracy, stand the probe in a glass packed with crushed ice and topped up with cold water: it should read 32°F (0°C), give or take a degree or two. If it's clearly off, or the readings jump around, the probe or its cable is probably damaged and should be replaced.",
+      },
+    ],
+    ca: [
+      {
+        question: "What internal temperature should chicken and turkey reach?",
+        answer: "Canadian food-safety guidance calls for 82°C (180°F) for a whole bird and 74°C (165°F) for pieces such as breasts, thighs or wings. On a whole chicken or a Thanksgiving or Christmas turkey, push the probe into the thickest part of the thigh, near but not touching the bone, and check the breast too. The juices should run clear, with no pink in the meat. Stuffing inside the bird slows cooking and should reach 74°C (165°F) itself, so it's simpler to cook it separately. Rest the bird before carving, as the temperature keeps rising slightly.",
+      },
+      {
+        question: "What internal temperature for roast beef, lamb and pork?",
+        answer: "As a guide, take beef out at about 50 to 55°C (120 to 130°F) for rare and 55 to 60°C (130 to 140°F) for medium. Take lamb out at 55 to 60°C (130 to 140°F) for pink, and cook pork to 71°C (160°F). Whole cuts of beef and lamb are often served pink as long as the outside is well browned, but Canadian food-safety guidance sets 63°C (145°F), medium-rare, as the minimum. Rolled roasts, burgers and sausages must be cooked through. The temperature climbs a few degrees while the roast rests, so take it out slightly early. Measure in the centre of the thickest part, away from bone and fat.",
+      },
+      {
+        question: "Wireless or wired meat thermometer for a barbecue or smoker?",
+        answer: "For long smokes and kettle grills, a wired probe with a base unit outside the lid is usually the sturdier choice; wireless probes shine in the oven and on rotisseries. Wired models run on ordinary batteries, often take several probes at once, can read the temperature inside the barbecue and don't rely on a signal passing through a metal lid. Wireless probes have no cable to pinch, but their small built-in battery must last the whole cook and the electronics in the tail tolerate limited heat. Check the maximum ambient temperature before searing.",
+      },
+      {
+        question: "Why does my wireless meat thermometer keep losing connection?",
+        answer: "Usually because the metal oven door or barbecue lid blocks the Bluetooth signal, leaving the phone or base unit simply too far away. Keep the charger or repeater right next to the oven or grill so it can relay the signal to your phone or over Wi-Fi. Phone battery-saving modes can also stop the app running in the background, so allow background activity and notifications. Charge the probe fully before a long cook, push it in up to the marked line, and keep the app and firmware up to date.",
+      },
+      {
+        question: "Can a meat thermometer probe go in the dishwasher?",
+        answer: "Only if the manual says so; many wireless and wired probes must be washed by hand in warm, soapy water, without soaking the tail, cable or connector. Dishwasher heat and moisture can ruin the electronics. To check accuracy, stand the probe in a glass packed with crushed ice and topped up with cold water: it should read 0°C (32°F), give or take about a degree. If it's clearly off, or readings jump around, the probe or its cable is probably damaged and should be replaced.",
+      },
+    ],
   },
   "prises-connectees": {
     fr: [
@@ -466,6 +598,72 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
       {
         question: "Co robi gniazdko smart po zaniku prądu?",
         answer: "To zależy od ustawień: w wielu aplikacjach można wybrać, czy po powrocie zasilania gniazdko ma się włączyć, pozostać wyłączone, czy wrócić do ostatniego stanu. Ma to znaczenie zwłaszcza przy lodówce na działce czy pompce w akwarium, które powinny ruszyć same. Urządzenia z elektronicznymi przyciskami, takie jak ekspres do kawy czy pralka, po powrocie prądu zwykle same się nie włączą. Jeśli po awarii gniazdko nie łączy się z Wi-Fi, pomaga najczęściej ponowne uruchomienie routera; większość gniazdek obsługuje tylko pasmo 2,4 GHz.",
+      },
+    ],
+    sv: [
+      {
+        question: "Hur stor effekt klarar en smart plugg?",
+        answer: "Aldrig mer än den strömstyrka som står på pluggen, 10 eller 16 A, alltså ungefär 2,3 eller 3,7 kW vid 230 V – och betydligt mindre för en apparat som värmer länge. En vattenkokare eller en airfryer går bra, men en apparat som drar nära maxgränsen i flera timmar gör att pluggen blir varm. Köp också rätt utförande: en modell för jordade uttag av typ F (Schuko), som är standard i Sverige; varianter för andra länders uttag passar inte alltid. Koppla aldrig in ett fullastat grenuttag i den.",
+      },
+      {
+        question: "Kan man koppla ett elelement till en smart plugg?",
+        answer: "Helst inte. Många bruksanvisningar för elelement och värmefläktar förbjuder att de startas med timer eller fjärrstyrning, eftersom det finns brandrisk om de är övertäckta eller har vält. Ett element på 2 000 W som går i timmar belastar dessutom pluggen och dess relä hårt. För fast monterade elelement är en smart termostat eller styrmodul avsedd för elementet rätt lösning, installerad av en behörig elektriker vid behov. Ett flyttbart element styr du med dess egen termostat och timer, och startar det på plats.",
+      },
+      {
+        question: "Sparar en smart plugg el?",
+        answer: "Inte i sig själv. Både en smart plugg och en vanlig timer stänger av en apparat vid en viss tid, men den smarta pluggen drar själv runt 1 W hela tiden, nästan 9 kWh per år. Vinsten kommer från apparaterna du stänger av: en tv-box, en spelkonsol och en soundbar som tillsammans drar 15 W i standby och stängs av 16 timmar om dygnet gör 15 × 16 × 365 = 88 kWh per år – multiplicera med ditt elpris. En vanlig timer är billigare och klarar sig utan wifi om du bara vill ha fasta tider. Den smarta pluggen ger fjärrstyrning, automationer och ibland energimätning.",
+      },
+      {
+        question: "Vilken smart plugg fungerar med Alexa, Google Home och Apple Home?",
+        answer: "Välj en plugg med stöd för Matter: den fungerar med Alexa, Google Home, Apple Home och SmartThings, och du kan byta röstassistent utan att byta plugg. Du behöver en Matter-styrenhet, ofta en högtalare, en skärm eller en tv-box från den assistent du väljer. För en Thread-version måste den också fungera som Thread Border Router (gränsrouter för Thread), som vissa HomePod-, Nest- och Echo-enheter. En Zigbee-plugg kräver en hubb men stärker Zigbee-nätet, eftersom den i regel fungerar som repeater. Sedan den 1 augusti 2025 måste uppkopplade radioprodukter som släpps ut på EU-marknaden uppfylla krav på cybersäkerhet.",
+      },
+      {
+        question: "Varför startar inte apparaten när den smarta pluggen slås på?",
+        answer: "För att många apparater med elektroniska knappar går i standby när strömmen kommer tillbaka: pluggen ger dem ström men kan inte trycka på startknappen. Så är det med många kaffemaskiner med knappar, tvättmaskiner och portabla AC. Bara apparater med en mekanisk strömbrytare som står i läge på startar av sig själva. Kontrollera också i appen vilket läge pluggen ska ha efter ett strömavbrott (på, av eller senaste läget), om ett schema ligger kvar eller om överhettningsskyddet har löst ut. Tappar pluggen anslutningen kan du flytta den närmare routern: de flesta smarta pluggar använder bara wifi på 2,4 GHz.",
+      },
+    ],
+    us: [
+      {
+        question: "Can I plug a space heater or other high-power appliance into a smart plug?",
+        answer: "Not a space heater: many heater manuals forbid starting them with timers or remote controls, because a covered or tipped-over heater could start a fire. For hardwired electric heaters, the right answer is a dedicated smart thermostat or control module, installed by a licensed electrician if needed. For other appliances, stay within the rating printed on the plug (amps × 120 V gives you watts, so 15 A works out to 1,800 W), and avoid loads that run near that limit for hours. Never plug a power strip or extension cord into a smart plug.",
+      },
+      {
+        question: "Why doesn't my coffee maker turn on when the smart plug does?",
+        answer: "Because many machines with electronic buttons stay in standby when power comes back: the plug supplies electricity but can't press the start button. Only appliances with a mechanical switch left in the on position, such as a basic lamp, fan or drip coffee maker, start up on their own. Check the plug's power-on behavior in the app too, since some let you choose on, off or last state after a power outage. If the plug keeps dropping offline instead, move the router or add a mesh node nearby, because most smart plugs only use 2.4 GHz Wi-Fi.",
+      },
+      {
+        question: "Tapo vs. Govee smart plug: which should I buy?",
+        answer: "Choose Tapo if you want energy monitoring and a wide range of plugs, including Matter versions; Govee mainly makes sense if you already use its lights and want everything in one app. Both connect over 2.4 GHz Wi-Fi without a hub, work with Alexa and Google Assistant, and need no subscription for basic on/off control and schedules. Compare exact models rather than brands: whether the plug measures energy, its maximum load, whether it supports Matter for Apple Home, and whether its body blocks the second outlet. Whichever you choose, keep the firmware updated.",
+      },
+      {
+        question: "How much does a smart plug cost to run?",
+        answer: "Very little: a typical smart plug draws about 1 W or less on standby, which is under 9 kWh a year, or roughly $1.80 at an example rate of 20 cents per kWh. The savings come from what it turns off: cutting a TV, game console and soundbar that draw 15 W on standby for 16 hours a day saves 15 × 16 × 365 = 88 kWh, about $17.60 a year at the same rate. Check the rate on your utility bill, since it varies widely. Don't cut power to refrigerators, freezers or anything that needs to stay on to work properly.",
+      },
+      {
+        question: "Are smart plugs safe from hackers?",
+        answer: "Plugs from reputable brands are reasonably safe if you keep them updated. Before you buy, check how long the brand commits to security updates and whether it offers a way to report vulnerabilities; in the EU, connected radio devices placed on the market since August 1, 2025 must meet cybersecurity requirements. Change any default password, keep the firmware current, use a strong Wi-Fi password and consider a guest network for smart devices. A hacked plug can only switch its outlet on and off, but it can give an attacker a foothold on your network.",
+      },
+    ],
+    ca: [
+      {
+        question: "Can I plug a heater or other high-power appliance into a smart plug?",
+        answer: "Not a heater: many space heater manuals forbid switching them on with timers or remote controls, because a covered or knocked-over heater could start a fire. For other appliances, stay within the rating printed on the plug (a standard 15 A household circuit delivers at most 1,800 W anyway) and avoid loads that run near that limit for hours. An electric water heater can't go on a plug at all, as it's hardwired: use a smart controller made for water heaters, installed by a licensed electrician. Never plug an extension cord or power bar into a smart plug.",
+      },
+      {
+        question: "Why doesn't my coffee machine turn on when the smart plug does?",
+        answer: "Because many machines with electronic buttons stay in standby when power returns: the plug supplies electricity but can't press the start button. Only appliances with a mechanical switch left in the on position, such as a basic lamp, fan or drip coffee maker, start by themselves. Check the plug's power-on behaviour in the app too, since some let you choose on, off or last state after a power outage. If the plug keeps going offline instead, move the router or add a mesh point nearby, as most smart plugs only use 2.4 GHz Wi-Fi.",
+      },
+      {
+        question: "Tapo vs Govee smart plug: which should I buy?",
+        answer: "Choose Tapo if you want energy monitoring and a wide range of plugs, including Matter versions; Govee mainly makes sense if you already use its lights and want everything in one app. Both connect over 2.4 GHz Wi-Fi without a hub, work with Alexa and Google Assistant, and need no subscription for basic switching and schedules. Check the exact model rather than the brand: whether it measures energy, its maximum load, whether it supports Matter for Apple Home, and whether its body blocks the second outlet. Whichever you choose, keep its firmware updated.",
+      },
+      {
+        question: "How much does a smart plug cost to run?",
+        answer: "Very little: a typical smart plug draws around 1 W or less on standby, which is under 9 kWh a year, or about 90¢ at an example rate of 10¢ per kWh. The saving comes from what it switches off: cutting a TV, game console and soundbar drawing 15 W on standby for 16 hours a day saves 15 × 16 × 365 = 88 kWh, about $9 a year at the same rate. Your rate depends on your province and utility, so check your bill. Avoid switching off fridges, freezers or anything that needs to stay on to work properly.",
+      },
+      {
+        question: "Are smart plugs safe from hackers?",
+        answer: "Reputable ones are reasonably safe, as long as you keep them updated. Choose a brand that says how long it will provide security updates and offers a way to report vulnerabilities, and avoid devices that ship with a shared default password. Keep firmware updated, use a strong Wi-Fi password and consider a guest network for smart devices. A hacked plug can only switch its outlet, but it can be a foothold on your network.",
       },
     ],
   },
