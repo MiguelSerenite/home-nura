@@ -5,26 +5,9 @@ import Image from 'next/image'
 import { useState, useEffect, useRef, type MouseEvent as ReactMouseEvent } from 'react'
 import { usePathname } from 'next/navigation'
 import SearchBar from './SearchBar'
+import CountrySelector from './CountrySelector'
 import { Shield, Sparkles, Trees, Wind, Zap } from 'lucide-react'
-import { HTML_LANG, isLocaleHome, switchLocalePath, type Lang } from '@/lib/i18n'
-
-const countries: ReadonlyArray<{ code: Lang; flag: string; label: string; name: string }> = [
-  { code: 'fr', flag: '🇫🇷', label: 'FR', name: 'Français' },
-  { code: 'de', flag: '🇩🇪', label: 'DE', name: 'Deutsch' },
-  { code: 'en', flag: '🇬🇧', label: 'UK', name: 'English (UK)' },
-  { code: 'es', flag: '🇪🇸', label: 'ES', name: 'Español' },
-  { code: 'it', flag: '🇮🇹', label: 'IT', name: 'Italiano' },
-  { code: 'nl', flag: '🇳🇱', label: 'NL', name: 'Nederlands' },
-  { code: 'pl', flag: '🇵🇱', label: 'PL', name: 'Polski' },
-  { code: 'sv', flag: '🇸🇪', label: 'SE', name: 'Svenska' },
-  { code: 'us', flag: '🇺🇸', label: 'US', name: 'English (US)' },
-  { code: 'ca', flag: '🇨🇦', label: 'CA', name: 'English (Canada)' },
-]
-
-function rememberLocale(code: string) {
-  if (typeof document === 'undefined') return
-  document.cookie = `NEXT_LOCALE=${code}; path=/; max-age=${60 * 60 * 24 * 365}; SameSite=Lax`
-}
+import { isLocaleHome, resolveLang } from '@/lib/i18n'
 
 /* ── i18n labels ─────────────────────────────────────────── */
 const t: Record<string, Record<string, string>> = {
@@ -38,7 +21,6 @@ const t: Record<string, Record<string, string>> = {
   about:        { fr: 'À propos', de: 'Über uns', es: 'Sobre nosotros', it: 'Chi siamo', nl: 'Over ons', pl: 'O nas', sv: 'Om oss', us: 'About', ca: 'About', en: 'About' },
   openMenu:     { fr: 'Ouvrir le menu', de: 'Menü öffnen', es: 'Abrir menú', it: 'Apri menu', nl: 'Menu openen', pl: 'Otwórz menu', sv: 'Öppna menyn', us: 'Open menu', ca: 'Open menu', en: 'Open menu' },
   closeMenu:    { fr: 'Fermer le menu', de: 'Menü schließen', es: 'Cerrar menú', it: 'Chiudi menu', nl: 'Menu sluiten', pl: 'Zamknij menu', sv: 'Stäng menyn', us: 'Close menu', ca: 'Close menu', en: 'Close menu' },
-  langue:       { fr: 'Langue / Région', de: 'Sprache / Region', es: 'Idioma / Región', it: 'Lingua / Regione', nl: 'Taal / Regio', pl: 'Język / region', sv: 'Språk/region', us: 'Language / Region', ca: 'Language / Region', en: 'Language / Region' },
   /* Silo labels */
   securite:   { fr: 'Sécurité maison', de: 'Haussicherheit', es: 'Seguridad hogar', it: 'Sicurezza casa', nl: 'Huisbeveiliging', pl: 'Bezpieczeństwo', sv: 'Hemsäkerhet', us: 'Home security', ca: 'Home security', en: 'Home security' },
   energie:    { fr: 'Énergie & domotique', de: 'Energie & Smart Home', es: 'Energía & domótica', it: 'Energia & domotica', nl: 'Energie & domotica', pl: 'Energia', sv: 'Energi & smarta hem', us: 'Energy & smart home', ca: 'Energy & smart home', en: 'Energy & smart home' },
@@ -60,15 +42,19 @@ const silos = [
   { key: 'outdoor',   path: 'outdoor-connecte',   Icon: Trees },
 ]
 
-export default function Navbar({ currentLang }: { currentLang: string }) {
+interface NavbarProps {
+  currentLang: string
+  /** Market pages: their main category hub, where the country selector sends the other versions. */
+  marketHub?: string | null
+}
+
+export default function Navbar({ currentLang, marketHub }: NavbarProps) {
   const lang = currentLang
   // The language switcher keeps the reader on the same page.
   const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
   const [maisonOpen, setMaisonOpen] = useState(false)
-  const [langOpen, setLangOpen] = useState(false)
   const maisonRef = useRef<HTMLDivElement>(null)
-  const langRef = useRef<HTMLDivElement>(null)
 
 
   // Lock body scroll on mobile drawer
@@ -99,7 +85,6 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
   useEffect(() => {
     function handler(e: MouseEvent) {
       if (maisonRef.current && !maisonRef.current.contains(e.target as Node)) setMaisonOpen(false)
-      if (langRef.current && !langRef.current.contains(e.target as Node)) setLangOpen(false)
     }
     document.addEventListener('mousedown', handler)
     return () => document.removeEventListener('mousedown', handler)
@@ -117,18 +102,19 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' })
   }
-  const currentCountry = countries.find(c => c.code === lang)
 
   const navLinkCls = 'whitespace-nowrap text-[13px] font-medium text-slate-600 hover:text-slate-900 transition-colors rounded px-2 py-1 hover:bg-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500'
 
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 md:h-20 grid grid-cols-[auto_1fr_auto] items-center gap-3">
+      {/* The logo column shrinks on narrow phones so search, the country
+          selector and the menu button always fit. */}
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 h-16 md:h-20 grid grid-cols-[minmax(0,auto)_1fr_auto] items-center gap-2 sm:gap-3">
 
         {/* ── Logo ── */}
         <Link
           href={`/${lang}`}
-          className="shrink-0 flex items-center"
+          className="flex min-w-0 items-center"
           aria-label="Home Nura"
           onClick={onLogoClick}
         >
@@ -141,7 +127,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             height={112}
             sizes="(min-width: 768px) 263px, 210px"
             priority
-            className="h-8 md:h-10 w-auto"
+            className="h-auto max-h-8 w-auto max-w-full md:max-h-10"
           />
         </Link>
 
@@ -191,64 +177,22 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
           <Link href={`/${lang}/blog`} className={navLinkCls}>Blog</Link>
         </div>
 
-        {/* ── Desktop right: Search + Lang ── */}
-        <div className="hidden lg:flex items-center gap-2 shrink-0">
-          <SearchBar currentLang={lang} variant="desktop" />
-
-          {/* Language dropdown */}
-          <div ref={langRef} className="relative">
-            <button
-              type="button"
-              onClick={() => setLangOpen(v => !v)}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 hover:bg-slate-100 transition-colors text-[13px] font-semibold text-slate-700"
-              aria-expanded={langOpen}
-              aria-haspopup="true"
-              aria-label={`${currentCountry?.label ?? ''} · ${l('langue', lang)}`}
-            >
-              <span className="text-base leading-none" aria-hidden="true">{currentCountry?.flag}</span>
-              <span>{currentCountry?.label}</span>
-              <svg className={`w-3 h-3 text-slate-400 transition-transform ${langOpen ? 'rotate-180' : ''}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </button>
-            {langOpen && (
-              <div className="absolute top-full right-0 mt-1.5 w-48 bg-white rounded-xl shadow-lg border border-slate-200 py-1.5 z-50">
-                {countries.map((c) => (
-                  <Link
-                    key={c.code}
-                    href={switchLocalePath(pathname, c.code)}
-                    hrefLang={HTML_LANG[c.code]}
-                    onClick={() => { rememberLocale(c.code); setLangOpen(false) }}
-                    className={`flex items-center gap-2.5 px-4 py-2 text-[13px] transition-colors ${
-                      lang === c.code
-                        ? 'bg-brand-50 text-brand-700 font-semibold'
-                        : 'text-slate-700 hover:bg-slate-50'
-                    }`}
-                  >
-                    <span className="text-base" aria-hidden="true">{c.flag}</span>
-                    <span>{c.name}</span>
-                    {lang === c.code && (
-                      <svg className="w-3.5 h-3.5 ml-auto text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M20 6 9 17l-5-5"/>
-                      </svg>
-                    )}
-                  </Link>
-                ))}
-              </div>
-            )}
+        {/* ── Right: search, country selector (every width), mobile menu ── */}
+        <div className="flex items-center gap-1.5 sm:gap-2 justify-self-end col-start-3">
+          <div className="hidden lg:block">
+            <SearchBar currentLang={lang} variant="desktop" />
           </div>
-        </div>
-
-        {/* ── Mobile right: Search icon + hamburger ── */}
-        <div className="flex lg:hidden items-center gap-2 justify-self-end col-start-3">
-          <SearchBar currentLang={lang} variant="desktop" onNavigate={close} />
+          <div className="lg:hidden">
+            <SearchBar currentLang={lang} variant="desktop" onNavigate={close} />
+          </div>
+          <CountrySelector lang={resolveLang(lang)} marketHub={marketHub} onOpen={close} />
           <button
             type="button"
             onClick={() => setIsOpen(v => !v)}
             aria-label={isOpen ? l('closeMenu', lang) : l('openMenu', lang)}
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
-            className="flex shrink-0 items-center justify-center w-11 h-11 min-w-11 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100 transition-colors"
+            className="lg:hidden flex shrink-0 items-center justify-center w-11 h-11 min-w-11 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100 transition-colors"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               {isOpen ? <path d="M18 6 6 18M6 6l12 12" /> : <><path d="M3 6h18"/><path d="M3 12h18"/><path d="M3 18h18"/></>}
@@ -320,28 +264,6 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
 
-              {/* Language grid */}
-              <div className="mt-3 pt-3 border-t border-slate-100">
-                <div className="text-xs font-bold tracking-widest uppercase text-slate-500 mb-2 px-1">{l('langue', lang)}</div>
-                <div className="grid grid-cols-3 gap-1.5">
-                  {countries.map((c) => (
-                    <Link
-                      key={c.code}
-                      href={switchLocalePath(pathname, c.code)}
-                      hrefLang={HTML_LANG[c.code]}
-                      onClick={() => { rememberLocale(c.code); close() }}
-                      className={`flex items-center justify-center gap-1.5 py-2.5 rounded-xl border text-sm font-semibold transition-colors ${
-                        lang === c.code
-                          ? 'bg-brand-50 border-brand-500 text-brand-700'
-                          : 'border-slate-200 text-slate-600 hover:bg-slate-50'
-                      }`}
-                    >
-                      <span className="text-lg">{c.flag}</span>
-                      <span>{c.label}</span>
-                    </Link>
-                  ))}
-                </div>
-              </div>
             </div>
           </div>
         </>

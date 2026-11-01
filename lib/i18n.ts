@@ -143,22 +143,69 @@ export function isSingleLocalePath(pathInLocale: string): boolean {
   return guide !== undefined && !(SHARED_GUIDE_SLUGS as readonly string[]).includes(guide)
 }
 
-/**
- * The same page in another locale. Slugs are not translated (every locale
- * serves /{lang}/methodologie, /{lang}/guides/probleme/…), so only the
- * locale prefix changes. A path without a supported locale prefix has no
- * known equivalent and falls back to the target locale's home; a section
- * the target locale lacks (LOCALE_LIMITED_SECTIONS) to its stand-in page;
- * a market page (one locale only) to the target locale's home.
- */
-export function switchLocalePath(pathname: string | null | undefined, target: Lang): string {
-  const match = pathname?.match(LOCALE_PREFIX)
-  if (!match || !isValidLang(match[1])) return `/${target}`
-  const rest = (match[2] ?? '').replace(/\/+$/, '')
+/** Why switching locale lands on another page than the one being read. */
+export type SwitchReason = 'market' | 'black-friday' | 'cleaning' | 'home'
+
+export interface LocaleSwitch {
+  /** The page to open in the target locale, with its locale prefix ('/de/black-friday'). */
+  path: string
+  /** Null when it is the same page; else why the reader lands elsewhere (announced on arrival). */
+  reason: SwitchReason | null
+}
+
+export interface SwitchContext {
+  /**
+   * Main category hub of the market page being read, inside the locale
+   * prefix ('/guides/airfryers'): its first related hub
+   * (lib/market-pages/hubs.ts primaryHub). Market pages exist in one
+   * locale only; the other locales get that hub instead.
+   */
+  marketHub?: string | null
+}
+
+/** Reason announced when a locale-limited section falls back to its stand-in page. */
+const FALLBACK_REASONS: Readonly<Record<string, SwitchReason>> = {
+  '/entretien-maison': 'cleaning',
+  '/black-friday': 'black-friday',
+}
+
+function limitedSwitch(rest: string, target: Lang): LocaleSwitch {
   const limited = LOCALE_LIMITED_SECTIONS.find(({ prefix }) => rest === prefix || rest.startsWith(`${prefix}/`))
-  if (limited && !limited.langs.includes(target)) return `/${target}${limited.fallback}`
-  if (target !== match[1] && isSingleLocalePath(rest)) return `/${target}`
-  return `/${target}${rest}`
+  if (limited && !limited.langs.includes(target)) {
+    return { path: `/${target}${limited.fallback}`, reason: FALLBACK_REASONS[limited.fallback] ?? 'home' }
+  }
+  return { path: `/${target}${rest}`, reason: null }
+}
+
+/**
+ * The page a reader switching to `target` should land on, and why when it
+ * is not the same page. Slugs are not translated (every locale serves
+ * /{lang}/methodologie, /{lang}/guides/probleme/…), so the same page keeps
+ * its path and only the locale prefix changes. A section the target locale
+ * lacks (LOCALE_LIMITED_SECTIONS) goes to its stand-in page (a Black Friday
+ * category → that locale's Black Friday hub, a floor-care guide → the
+ * cleaning hub); a market page (one locale only) to its main category hub
+ * in the target locale (`context.marketHub`, through the same rules), or
+ * the target home when it has none. A path without a supported locale
+ * prefix has no known equivalent: the target home, nothing to announce.
+ */
+export function switchLocale(pathname: string | null | undefined, target: Lang, context: SwitchContext = {}): LocaleSwitch {
+  const match = pathname?.match(LOCALE_PREFIX)
+  if (!match || !isValidLang(match[1])) return { path: `/${target}`, reason: null }
+  const rest = (match[2] ?? '').replace(/\/+$/, '')
+  const limited = limitedSwitch(rest, target)
+  if (limited.reason) return limited
+  if (target !== match[1] && isSingleLocalePath(rest)) {
+    const hub = context.marketHub?.replace(/\/+$/, '')
+    if (!hub || !hub.startsWith('/') || isSingleLocalePath(hub)) return { path: `/${target}`, reason: 'home' }
+    return { path: limitedSwitch(hub, target).path, reason: 'market' }
+  }
+  return limited
+}
+
+/** The page path of switchLocale, without the reason. */
+export function switchLocalePath(pathname: string | null | undefined, target: Lang, context: SwitchContext = {}): string {
+  return switchLocale(pathname, target, context).path
 }
 
 /**
@@ -210,6 +257,58 @@ export function suggestLocaleForCountry(country: string | undefined | null, curr
   const langs = country ? COUNTRY_LANGS[country.toUpperCase()] : undefined
   if (!langs || (langs as readonly string[]).includes(currentLang)) return null
   return langs[0]
+}
+
+/**
+ * Locales to suggest to a visitor reading `currentLang` from `country`:
+ * every version the country reads (COUNTRY_LANGS order, Belgium fr then
+ * nl, Switzerland de, fr, it), or none when they already read one of them
+ * or the country has no version of its own.
+ */
+export function suggestLocalesForCountry(country: string | undefined | null, currentLang: string): Lang[] {
+  const langs = country ? COUNTRY_LANGS[country.toUpperCase()] : undefined
+  if (!langs || (langs as readonly string[]).includes(currentLang)) return []
+  return [...langs]
+}
+
+/**
+ * The ten versions as the country selector, the entry page (/) and the
+ * locale notices name them: flag, short code, the country and language in
+ * their own language, the edition name ("Home Nura US"; the brand is never
+ * translated) and the edition's home country. Display order of the lists.
+ */
+export interface MarketVersion {
+  code: Lang
+  flag: string
+  /** Short code on the selector button ('UK' for /en, 'SE' for /sv). */
+  label: string
+  /** The country, in its version's language. */
+  country: string
+  /** The language, in itself. */
+  language: string
+  /** "Home Nura France", "Home Nura UK"… */
+  edition: string
+  /** ISO 3166-1 country the version is written for. */
+  homeCountry: string
+}
+
+export const MARKET_VERSIONS: readonly MarketVersion[] = [
+  { code: 'fr', flag: '🇫🇷', label: 'FR', country: 'France', language: 'Français', edition: 'Home Nura France', homeCountry: 'FR' },
+  { code: 'de', flag: '🇩🇪', label: 'DE', country: 'Deutschland', language: 'Deutsch', edition: 'Home Nura Deutschland', homeCountry: 'DE' },
+  { code: 'en', flag: '🇬🇧', label: 'UK', country: 'United Kingdom', language: 'English', edition: 'Home Nura UK', homeCountry: 'GB' },
+  { code: 'es', flag: '🇪🇸', label: 'ES', country: 'España', language: 'Español', edition: 'Home Nura España', homeCountry: 'ES' },
+  { code: 'it', flag: '🇮🇹', label: 'IT', country: 'Italia', language: 'Italiano', edition: 'Home Nura Italia', homeCountry: 'IT' },
+  { code: 'nl', flag: '🇳🇱', label: 'NL', country: 'Nederland', language: 'Nederlands', edition: 'Home Nura Nederland', homeCountry: 'NL' },
+  { code: 'pl', flag: '🇵🇱', label: 'PL', country: 'Polska', language: 'Polski', edition: 'Home Nura Polska', homeCountry: 'PL' },
+  { code: 'sv', flag: '🇸🇪', label: 'SE', country: 'Sverige', language: 'Svenska', edition: 'Home Nura Sverige', homeCountry: 'SE' },
+  { code: 'us', flag: '🇺🇸', label: 'US', country: 'United States', language: 'English', edition: 'Home Nura US', homeCountry: 'US' },
+  { code: 'ca', flag: '🇨🇦', label: 'CA', country: 'Canada', language: 'English', edition: 'Home Nura Canada', homeCountry: 'CA' },
+]
+
+const VERSION_BY_CODE = new Map(MARKET_VERSIONS.map((version) => [version.code, version]))
+
+export function marketVersion(lang: Lang): MarketVersion {
+  return VERSION_BY_CODE.get(lang) as MarketVersion
 }
 
 /**

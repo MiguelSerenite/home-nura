@@ -50,6 +50,34 @@ npx tsx scripts/analytics/affiliate-clicks.ts clicks.jsonl
 
 Vercel Web Analytics (onglet *Analytics* → *Events* → `click_affiliate`) ne reçoit que 2 propriétés sur le plan Pro : `placement` et `market` (raisons dans `VERCEL_PROPERTIES`, `lib/analytics.ts`). Le détail complet (modèle, page, boutique, identifiant de suivi) est dans les logs.
 
+## Liens de communication : toujours la version du pays
+
+Le site a dix versions (France, UK, Deutschland, España, Italia, Nederland, Polska, Sverige, US, Canada). Dans une campagne, une newsletter, un post ou un e-mail, **lien direct vers la version du pays visé**, jamais vers `https://homenura.com/` :
+
+| Public visé | Lien à utiliser |
+| --- | --- |
+| Acheteurs américains, comparatif Ring / Blink | `https://homenura.com/us/vs/ring-vs-blink` |
+| Lecteurs italiens, friggitrici ad aria | `https://homenura.com/it/guides/airfryers` |
+| Allemagne, Black Friday | `https://homenura.com/de/black-friday` |
+| Canada, aspirateurs (floor care) | `https://homenura.com/ca/guides/floor-care` |
+| France, page d'accueil | `https://homenura.com/fr` |
+
+Pourquoi : un lien direct ouvre exactement la page demandée, sans redirection (les liens vers `/{pays}/…` ne redirigent jamais, quel que soit le pays de l'IP ou le choix mémorisé). `https://homenura.com/` est la page d'entrée internationale (choix du pays, x-default des pages d'accueil) : elle ajoute une étape et le visiteur doit choisir. Si un visiteur venu d'un autre pays lit le lien, un bandeau discret lui propose sa version, sans le déplacer.
+
+- Le partage (OpenGraph, `og:url`) et l'URL canonique de chaque page sont toujours l'URL localisée (`lib/seo.ts`, `buildPageMetadata`).
+- Ne jamais ajouter `?switched=…` à un lien : ce paramètre sert seulement à l'annonce affichée après un changement de pays et disparaît de la barre d'adresse.
+- Les liens Amazon suivent la version affichée (`lib/amazon.ts`) : un lien `/it/…` envoie vers amazon.it avec l'identifiant de suivi italien, un lien `/us/…` vers amazon.fr avec l'identifiant US.
+
+**Lire la page d'entrée et le bandeau dans Vercel Web Analytics** (onglet *Analytics* → *Events*) :
+
+| Événement | Propriétés | Lecture |
+| --- | --- | --- |
+| `entry_view` | `basis` (`country` / `browser` / `none`), `proposed` (version proposée en premier, `none` sans pays) | vues de la page d'entrée (`/`) |
+| `entry_choose` | `locale` (version choisie), `proposed` (`true` si c'était une version proposée) | taux de passage = `entry_choose` ÷ `entry_view` ; part des choix « proposés » = `proposed = true` ÷ `entry_choose` |
+| `locale_suggestion` | `action` (`show` / `accept` / `dismiss`), `locale` (version suggérée ; acceptée pour `accept`) | taux d'acceptation = `accept` ÷ `show`, refus = `dismiss` ÷ `show` |
+
+Les visiteurs qui ont déjà choisi un pays ne voient plus `/` (redirection 302 vers leur version, cookie `hn_market`) : la page vue `/` dans *Pages* et `entry_view` ne comptent que les nouveaux visiteurs.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

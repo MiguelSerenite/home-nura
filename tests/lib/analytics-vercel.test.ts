@@ -41,6 +41,22 @@ describe('trackEvent → Vercel Web Analytics', () => {
     expect(track).toHaveBeenCalledWith(EVENTS.CLICK_AFFILIATE, { placement: 'sticky_bar', market: 'se' })
   })
 
+  it('records the country choice: entry page views and choices, suggestion shown / accepted / dismissed', () => {
+    trackEvent(EVENTS.ENTRY_VIEW, { basis: 'country', proposed: 'us' })
+    expect(track).toHaveBeenLastCalledWith('entry_view', { basis: 'country', proposed: 'us' })
+    trackEvent(EVENTS.ENTRY_CHOOSE, { locale: 'nl', proposed: true })
+    expect(track).toHaveBeenLastCalledWith('entry_choose', { locale: 'nl', proposed: true })
+    trackEvent(EVENTS.LOCALE_SUGGESTION, { action: 'dismiss', locale: 'es' })
+    expect(track).toHaveBeenLastCalledWith('locale_suggestion', { action: 'dismiss', locale: 'es' })
+  })
+
+  it('queues an event sent before the Vercel script is ready instead of dropping it', () => {
+    const win: { va?: unknown; vaq?: unknown[] } = {}
+    vi.stubGlobal('window', win)
+    trackEvent(EVENTS.ENTRY_VIEW, { basis: 'none', proposed: 'none' })
+    expect(typeof win.va).toBe('function')
+  })
+
   it('never lets an analytics failure break the click', () => {
     track.mockImplementation(() => {
       throw new Error('blocked by an ad blocker')

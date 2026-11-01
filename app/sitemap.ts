@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/blog'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { HTML_LANG, LANGUAGES, type Lang } from '@/lib/i18n'
-import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
+import { BASE_URL, SITE_LAST_UPDATED_ISO, xDefaultUrl } from '@/lib/seo'
 import { AUTHORS_UPDATED_ISO } from '@/lib/authors'
 import { categoryModifiedIso } from '@/lib/catalog/category-faqs'
 import {
@@ -124,7 +124,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Keyed by language tag (en-US for /us, en-CA for /ca), never the market code.
     const languages: Record<string, string> = {
       ...Object.fromEntries(langs.map((l) => [HTML_LANG[l], `${BASE_URL}/${l}${path}`])),
-      ...(xDefault ? { 'x-default': `${BASE_URL}/${langs.includes('fr') ? 'fr' : langs[0]}${path}` } : {}),
+      ...(xDefault ? { 'x-default': langs.includes('fr') ? xDefaultUrl(path) : `${BASE_URL}/${langs[0]}${path}` } : {}),
     }
     return langs.map((lang) => {
       const pageImages = images?.(lang) ?? []
@@ -137,18 +137,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   }
 
-  const entries: MetadataRoute.Sitemap = pages.flatMap((page) =>
-    localized(
-      page.path,
-      LANGUAGES,
-      {
-        lastModified: new Date(page.lastModified),
-        changeFrequency: page.changeFrequency,
-        priority: page.priority,
-      },
-      'images' in page ? page.images : undefined,
+  const homes = localized('', LANGUAGES, { lastModified: new Date(today), changeFrequency: 'weekly', priority: 1.0 })
+  const entries: MetadataRoute.Sitemap = [
+    // The entry page (/): the country choice, x-default of the home pages,
+    // in their hreflang cluster.
+    { url: `${BASE_URL}/`, lastModified: new Date(today), changeFrequency: 'monthly', priority: 0.9, alternates: homes[0].alternates },
+    ...pages.flatMap((page) =>
+      localized(
+        page.path,
+        LANGUAGES,
+        {
+          lastModified: new Date(page.lastModified),
+          changeFrequency: page.changeFrequency,
+          priority: page.priority,
+        },
+        'images' in page ? page.images : undefined,
+      ),
     ),
-  )
+  ]
 
   // Blog articles: only the locales the article is translated into (the
   // other locales 404, see app/[lang]/blog/[slug]/page.tsx).
