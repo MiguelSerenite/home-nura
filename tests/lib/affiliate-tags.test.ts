@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { amazonMarket } from '@/lib/amazon'
-import { amazonBlackFridayUrl, BLACK_FRIDAY_CATEGORIES, getBlackFridayPicks, primeTrialUrl } from '@/lib/black-friday'
+import { amazonBlackFridayUrl, getBlackFridayPages, getBlackFridayPicks, primeTrialUrl } from '@/lib/black-friday'
 import { getAllArticles } from '@/lib/blog'
 import { getArticleAffiliateModels, getArticleRecommendations } from '@/lib/blog/article-products'
 import { enrichArticleHtml } from '@/lib/blog/enrichContent'
@@ -164,7 +164,7 @@ describe('generated Amazon links', () => {
 
   it('Black Friday picks, event page and Prime trial link to the locale market', () => {
     const problems = LANGUAGES.flatMap((lang) => [
-      ...BLACK_FRIDAY_CATEGORIES.flatMap((category) =>
+      ...getBlackFridayPages(lang).flatMap(({ category }) =>
         getBlackFridayPicks(category, lang).flatMap((p) =>
           wrongStoreOrTag(p.url, lang, `${lang}/black-friday/${category.slug}`),
         ),

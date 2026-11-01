@@ -5,7 +5,7 @@ import sharp from 'sharp'
 import sitemap from '@/app/sitemap'
 import { ARTICLE_MODELS } from '@/lib/blog/article-models'
 import { QUICK_ANSWERS } from '@/lib/blog/quick-answers'
-import { BLACK_FRIDAY_CATEGORIES } from '@/lib/black-friday'
+import { allBlackFridayPickRefs, BLACK_FRIDAY_CATEGORIES } from '@/lib/black-friday'
 import { LANGUAGES } from '@/lib/i18n'
 import {
   PRODUCT_IMAGES,
@@ -55,7 +55,7 @@ const SITE_MODEL_NAMES = new Set<string>([
   ...[...staticProducts, ...smartKitchenStaticProducts].map((p) => p.title.fr),
   ...Object.values(ARTICLE_MODELS).flat(),
   ...Object.values(QUICK_ANSWERS).flatMap((qa) => qa.picks.map((p) => p.model)),
-  ...BLACK_FRIDAY_CATEGORIES.flatMap((c) => c.picks.map((p) => p.model)),
+  ...BLACK_FRIDAY_CATEGORIES.flatMap((c) => allBlackFridayPickRefs(c).map((p) => p.model)),
 ])
 const CATALOG = new Map([...staticProducts, ...smartKitchenStaticProducts].map((p) => [p.asin, p]))
 

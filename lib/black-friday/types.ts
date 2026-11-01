@@ -36,14 +36,25 @@ export interface BlackFridayPickRef {
 }
 
 export interface BlackFridayCategory {
-  /** URL segment under /[lang]/black-friday/ (French, like every route of the site). */
+  /** URL segment under /[lang]/black-friday/ (French, like every route of the site; often the catalog slug). */
   slug: string
   /** Existing category hubs covering the same products. */
   hubs: readonly { silo: MetaSiloSlug; category: string }[]
   /** Existing blog guides behind the picks, most useful first. */
   guides: readonly string[]
   picks: readonly BlackFridayPickRef[]
+  /**
+   * A market whose copy names other models than the default picks (e.g. the
+   * US air purifier page, which adds the Winix and Coway picks of a second
+   * verdict). Same rule: every ref points at an existing verdict pick.
+   */
+  localPicks?: Partial<Record<Lang, readonly BlackFridayPickRef[]>>
   /** Icon of the neutral card shown for a pick without an official photo (US and Canadian equivalents). */
   visual: ProductVisualKind
-  copy: Record<Lang, BlackFridayCategoryCopy>
+  /**
+   * The page exists in the locales that have its copy: the six original
+   * pages in every locale, the newer ones only where a market's list
+   * (./markets.ts) carries them.
+   */
+  copy: Partial<Record<Lang, BlackFridayCategoryCopy>>
 }
