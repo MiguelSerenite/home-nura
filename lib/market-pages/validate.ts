@@ -6,8 +6,8 @@
  * non-compliant page. Beyond the shape it enforces the site's rules:
  * - unknown keys are rejected (keys starting with "_" are comments;
  *   `_fixture` marks a placeholder page);
- * - no prices next to Amazon products (no currency amount in picks, specs,
- *   comparison tables or tester notes; no price spec);
+ * - no prices next to Amazon products (no currency amount in picks, specs
+ *   or comparison tables; no price spec);
  * - no Amazon ratings, review counts, bestseller ranks or own-test claims;
  * - specs, sources and tester links never point to Amazon;
  * - section bodies use the allowed tags only (lib/rich-text.ts);
@@ -165,11 +165,14 @@ function isEmptyTable(value: unknown): boolean {
   return Array.isArray(c.columns) && c.columns.length === 0 && Array.isArray(c.rows) && c.rows.length === 0
 }
 
-/** Duel orientation: one spec per row, the two picks as columns 2 and 3. */
+/**
+ * Duel orientation: one spec per row, each of the two picks heading one
+ * column after the first (more columns may follow, e.g. a model "for
+ * reference": they get no Amazon link).
+ */
 function specRowsDuel(columns: readonly string[], list: readonly MarketPagePick[]): boolean {
-  if (columns.length !== 3) return false
   const named = columns.slice(1).map((column) => findPick(list, column))
-  return named.every(Boolean) && named[0] !== named[1]
+  return list.every((p) => named.filter((n) => n === p).length === 1)
 }
 
 function checkModelRows(rows: readonly (readonly string[])[], list: readonly MarketPagePick[], type: MarketPageType, fail: Fail): void {
@@ -199,7 +202,7 @@ function comparison(value: unknown, type: MarketPageType, list: readonly MarketP
   if (type === 'duel' && !list.every((p) => rows.some((row) => findPick(list, row[0]) === p))) {
     fail(
       'comparison',
-      `a duel table has one spec per row with the two picks as columns 2 and 3 (["…", "${pickName(list[0])}", "${pickName(list[1])}"]), or one row per pick (first cell = the pick)`,
+      `a duel table has one spec per row with each pick heading a column after the first (["…", "${pickName(list[0])}", "${pickName(list[1])}"]), or one row per pick (first cell = the pick)`,
     )
   }
   if (type === 'guide' && (rows.length < GUIDE_TABLE_MODELS.min || rows.length > GUIDE_TABLE_MODELS.max)) {
@@ -243,7 +246,7 @@ function faq(value: unknown, path: string, fail: Fail): MarketPageFaq {
 
 function tester(value: unknown, path: string, fail: Fail): IndependentTester {
   const t = object(value, path, ['name', 'url', 'note'], fail)
-  return { name: prose(t.name, `${path}.name`, fail), url: referenceUrl(t.url, `${path}.url`, fail), note: noPrice(t.note, `${path}.note`, fail) }
+  return { name: prose(t.name, `${path}.name`, fail), url: referenceUrl(t.url, `${path}.url`, fail), note: prose(t.note, `${path}.note`, fail) }
 }
 
 /** A site path of the page's own locale ('/it/guides/airfryers'); existence is checked by the loader. */

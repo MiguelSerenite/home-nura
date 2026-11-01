@@ -131,7 +131,8 @@ describe('parseMarketPage: picks', () => {
     expect(errorOf(rawGuide(), (p) => (p.picks[0].specs.Prezzo = 'n/d'))).toMatch(/specs\.Prezzo: no price spec/)
     expect(errorOf(rawGuide(), (p) => (p.picks[0].specs.Capacity = '6.5 L (£89)'))).toMatch(/specs\.Capacity: .* looks like a price/)
     expect(errorOf(rawGuide(), (p) => (p.comparison.rows[3][2] = '1 299 kr'))).toMatch(/comparison\.rows\[3\]\[2\]: .* looks like a price/)
-    expect(errorOf(rawGuide(), (p) => (p.independentTesters[0].note = 'Best Buy at 89 euro'))).toMatch(/independentTesters\[0\]\.note: .* looks like a price/)
+    // Tester notes sit away from buy buttons: an energy cost they quote may stay.
+    expect(parse({ ...rawGuide(), independentTesters: [{ name: 'OCU', url: 'https://www.ocu.org/x', note: '5 horas cuestan unos 0,49 € (24,59 c/kWh, 10/2026).' }] }).independentTesters).toHaveLength(1)
   })
 
   it('never takes specs or sources from Amazon', () => {
@@ -164,6 +165,11 @@ describe('parseMarketPage: wording', () => {
     expect(wordingProblem('We tested both for a month.')).toMatch(/own-test/)
     expect(wordingProblem('Nei nostri test scalda in fretta.')).toMatch(/own-test/)
     expect(wordingProblem('Wir haben beide Geräte getestet.')).toMatch(/own-test/)
+    // Saying we did not test is the disclosure, not a claim.
+    expect(wordingProblem('Fonti: schede dei produttori; non abbiamo testato i prodotti.')).toBeNull()
+    expect(wordingProblem('Wir haben die Geräte nicht selbst getestet.')).toBeNull()
+    expect(wordingProblem('No hemos probado los aparatos.')).toBeNull()
+    expect(wordingProblem('Non testato da noi. Nei nostri test scalda in fretta.')).toMatch(/own-test/)
     expect(wordingProblem('Stiftung Warentest rated it "gut" (2.1) in 10/2026.')).toBeNull()
     expect(wordingProblem('Rated 8.5/10 by RTINGS, Amazon carries it.')).toBeNull()
     expect(errorOf(rawGuide(), (p) => (p.sections[0].h2 = 'The best-selling fryer'))).toMatch(/sections\[0\]\.h2: .*bestseller wording/)
@@ -181,9 +187,21 @@ describe('parseMarketPage: comparison table', () => {
     expect(errorOf(rawGuide(), (p) => p.comparison.rows.push(['Bolt Mini C3', '1', '2']))).toMatch(/row "bolt mini c3" is listed twice/)
   })
 
+  it('matches column and row names to picks loosely, never ambiguously', () => {
+    const raw = rawDuel()
+    raw.comparison = {
+      columns: ['Spec', 'Fryer A1 (Acme)', 'B2 Dual', 'Acme Fryer C3, for reference'],
+      rows: [
+        ['Capacity', '6.5 L', '2 × 4 L', '5 L'],
+        ['Power', '1,700 W', '2,400 W', '1,500 W'],
+      ],
+    }
+    expect(parse(raw).comparison.rowsAreModels).toBe(false)
+  })
+
   it('compares the duel’s two picks, by spec or by model', () => {
     expect(errorOf(rawDuel(), (p) => (p.comparison.columns = ['Spec', 'Acme Fryer A1', 'Other Z9']))).toMatch(
-      /comparison: a duel table has one spec per row with the two picks as columns 2 and 3/,
+      /comparison: a duel table has one spec per row with each pick heading a column after the first/,
     )
     expect(
       errorOf(rawDuel(), (p) => (p.comparison = { columns: ['Model', 'Capacity'], rows: [['Acme Fryer A1', '6.5 L'], ['Other Z9', '5 L']] })),

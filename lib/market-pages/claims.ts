@@ -29,7 +29,20 @@ const BESTSELLER = /best[\s-]?sell(?:er|ing)|meilleures? ventes?|pi[uù] vendut[
 const RATING_OR_REVIEWS = /\d(?:[.,]\d)?\s?(?:\/\s?5|out of 5|stars?|stelle|étoiles|sterne|estrellas|sterren|gwiazdk|stjärn)|\d[\d\s.,]*\s?(?:reviews?|ratings?|avis|recensioni|valutazioni|bewertungen|rezensionen|opiniones|valoraciones|reseñas|beoordelingen|recenzj|omdömen|recensioner)|#\s?1\b|\bn[°º]\s?1\b|\bno\.\s?1\b/i
 
 /** First-person test claims: Home Nura compares, it never tests products itself. */
-const OWN_TEST_CLAIM = /\bwe(?:'ve| have)? tested\b|\bour (?:own )?(?:tests?|testing|lab)\b|\bin our tests?\b|nous avons test|\bnos (?:propres )?tests\b|\bnotre (?:propre )?test\b|abbiamo (?:testato|provato)|\bnei nostri test\b|\bnel nostro test\b|wir haben [\p{L}\s]{0,30}getestet|\bunser(?:em|en)? (?:eigenen? )?(?:test|praxistest)\b|hemos (?:probado|testado)|\bnuestras pruebas\b|\bnuestro test\b|we hebben getest|\bonze test\b|przetestowaliśmy|\bnasz test\b|vi har testat|\bvårt test\b/iu
+const OWN_TEST_CLAIM_SOURCE = /\bwe(?:'ve| have)? tested\b|\bour (?:own )?(?:tests?|testing|lab)\b|\bin our tests?\b|nous avons test|\bnos (?:propres )?tests\b|\bnotre (?:propre )?test\b|abbiamo (?:testato|provato)|\bnei nostri test\b|\bnel nostro test\b|wir haben [\p{L}\s]{0,30}getestet|\bunser(?:em|en)? (?:eigenen? )?(?:test|praxistest)\b|hemos (?:probado|testado)|\bnuestras pruebas\b|\bnuestro test\b|we hebben getest|\bonze test\b|przetestowaliśmy|\bnasz test\b|vi har testat|\bvårt test\b/iu
+
+const OWN_TEST_CLAIM = new RegExp(OWN_TEST_CLAIM_SOURCE.source, 'giu')
+/** A negation just before or inside the claim: "non abbiamo testato", "wir haben sie nicht getestet". */
+const NEGATION = /(?:^|[^\p{L}])(?:not|never|no|non|ne|n'|nicht|nie|niet|nooit|inte|aldrig|pas|jamais|mai|nunca|kein\p{L}*)(?=[^\p{L}]|$)/iu
+const NEGATION_WINDOW = 25
+
+function claimsOwnTest(value: string): boolean {
+  return [...value.matchAll(OWN_TEST_CLAIM)].some((match) => {
+    // The words just before, within the same sentence.
+    const before = value.slice(Math.max(0, (match.index ?? 0) - NEGATION_WINDOW), match.index).split(/[.!?;:]/).at(-1) ?? ''
+    return !NEGATION.test(`${before} ${match[0]}`)
+  })
+}
 
 /** Why `value` breaks a wording rule, or null. */
 export function wordingProblem(value: string): string | null {
@@ -37,6 +50,6 @@ export function wordingProblem(value: string): string | null {
   if (/amazon/i.test(value) && RATING_OR_REVIEWS.test(value)) {
     return 'Amazon rating, review count or rank: never shown (quote independent testers instead)'
   }
-  if (OWN_TEST_CLAIM.test(value)) return 'own-test claim: Home Nura compares specifications and published results, it does not test products'
+  if (claimsOwnTest(value)) return 'own-test claim: Home Nura compares specifications and published results, it does not test products'
   return null
 }

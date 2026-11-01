@@ -1,8 +1,8 @@
 /**
  * The indexed pages of each locale, as app/sitemap.ts lists them (market
  * pages apart), with the label a market page's `related` link shows.
- * Utility pages (home, quiz, comparator, blog index, about, methodology,
- * author) exist but carry no label: `related` links content of the same
+ * Utility pages (home, quiz, comparator, blog index, about, author) exist
+ * but carry no label: `related` links content of the same
  * family (study § 2.6.3), never them. tests/lib/market-pages/seo.test.ts
  * keeps the paths equal to the sitemap.
  */
@@ -13,9 +13,10 @@ import { PROBLEMS, getCategory, getIndexableCategories, getIndexableSilos, getMe
 import { FLOOR_CARE_GUIDES, FLOOR_CARE_LABELS, FLOOR_CARE_MARKETS, floorCarePath } from '@/lib/floor-care/config'
 import type { Lang } from '@/lib/i18n'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
+import { MARKET_PAGE_UI } from './ui'
 
 /** Pages every locale serves that a related link may not name. */
-const UTILITY_PATHS = ['', '/comparateur', '/cuisine-connectee/comparateur', '/cuisine-connectee/quiz', '/quiz', '/blog', '/a-propos', '/methodologie', '/auteur'] as const
+const UTILITY_PATHS = ['', '/comparateur', '/cuisine-connectee/comparateur', '/cuisine-connectee/quiz', '/quiz', '/blog', '/a-propos', '/auteur'] as const
 
 /** Labels of the shared guides that have no catalog title. */
 const GUIDE_LABELS: Readonly<Record<string, Readonly<Record<Lang, string>>>> = {
@@ -41,6 +42,8 @@ function sharedPages(lang: Lang): [string, string | null][] {
   const kitchen = getMetaSilo('cuisine-connectee')
   return [
     ...UTILITY_PATHS.map((path): [string, null] => [path, null]),
+    // How the ranking is made: linked from every ranking box too.
+    ['/methodologie', MARKET_PAGE_UI[lang].methodologyLink],
     ['/guides/airfryers', getCategory('airfryers')?.title[lang] ?? null],
     ...Object.entries(GUIDE_LABELS).map(([path, label]): [string, string] => [path, label[lang]]),
     ['/cuisine-connectee', kitchen ? kitchen.title[lang] : null],
