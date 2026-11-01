@@ -76,13 +76,15 @@ describe('loadMarketPages', () => {
     expect(() => loadMarketPages([file(fixture)], SITE)).toThrow(/placeholder pages in a production build: data\/market-pages\/en\/one\.json/)
   })
 
-  it('lists the pages that name a hub, newest first', () => {
+  it('lists the pages whose main (first) hub it is, newest first', () => {
     const older = { ...rawGuide('en', 'older'), updated: '2026-10-01' }
     const newer = rawDuel('en', 'newer')
+    const secondary = { ...rawGuide('en', 'secondary'), related: ['/en/cuisine-connectee/multicuiseurs', '/en/guides/airfryers'] }
     const elsewhere = { ...rawGuide('it', 'altro'), related: ['/it/guides/airfryers'] }
-    const pages = loadMarketPages([file(older), file(newer), file(elsewhere)], SITE)
+    const pages = loadMarketPages([file(older), file(newer), file(elsewhere), file(secondary)], SITE)
     expect(marketPagesLinkingTo('en', '/guides/airfryers', pages).map((p) => p.slug)).toEqual(['newer', 'older'])
-    expect(marketPagesLinkingTo('en', '/cuisine-connectee/multicuiseurs', pages)).toEqual([])
+    expect(marketPagesLinkingTo('en', '/cuisine-connectee/multicuiseurs', pages).map((p) => p.slug)).toEqual(['secondary'])
+    expect(marketPagesLinkingTo('en', '/confort-air/ventilateurs', pages)).toEqual([])
     expect(marketPagesLinkingTo('it', '/guides/airfryers', pages).map((p) => p.slug)).toEqual(['altro'])
   })
 })

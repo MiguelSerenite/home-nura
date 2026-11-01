@@ -13,6 +13,7 @@
 import { CATEGORIES, categoryPath } from '@/lib/catalog'
 import type { Lang } from '@/lib/i18n'
 import { MARKET_PAGE_TYPES, marketPageFile, marketPagePath, type MarketPageType } from './config'
+import { primaryHub } from './hubs'
 import { MARKET_PAGE_FILES } from './registry'
 import { sitePagesFor } from './site-paths'
 import type { MarketPage, RawMarketPageFile } from './types'
@@ -94,13 +95,13 @@ export function findMarketPage(locale: string, type: MarketPageType, slug: strin
 }
 
 /**
- * Market pages of `locale` that list `pathInLocale` among their related
- * links ('/guides/airfryers'): the category hub links them back, newest first.
+ * Market pages of `locale` whose main category hub (their first related
+ * hub, lib/market-pages/hubs.ts) is `pathInLocale` ('/guides/airfryers'):
+ * that hub links them back, newest first.
  */
 export function marketPagesLinkingTo(locale: string, pathInLocale: string, pages: readonly MarketPage[] = PAGES): MarketPage[] {
-  const href = `/${locale}${pathInLocale}`
   return pages
-    .filter((page) => page.locale === locale && page.related.includes(href))
+    .filter((page) => page.locale === locale && primaryHub(page)?.path === pathInLocale)
     .sort((a, b) => b.updated.localeCompare(a.updated) || a.h1.localeCompare(b.h1))
 }
 

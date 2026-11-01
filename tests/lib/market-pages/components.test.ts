@@ -9,17 +9,26 @@ import { getMarketPages, marketPageHref } from '@/lib/market-pages/data'
 import type { MarketPage } from '@/lib/market-pages/types'
 import { MARKET_PAGE_UI } from '@/lib/market-pages/ui'
 import { pickName } from '@/lib/pick-names'
-import itDict from '@/dictionaries/it.json'
-import usDict from '@/dictionaries/us.json'
+import type { Lang } from '@/lib/i18n'
+import ca from '@/dictionaries/ca.json'
+import de from '@/dictionaries/de.json'
+import en from '@/dictionaries/en.json'
+import es from '@/dictionaries/es.json'
+import fr from '@/dictionaries/fr.json'
+import it_ from '@/dictionaries/it.json'
+import nl from '@/dictionaries/nl.json'
+import pl from '@/dictionaries/pl.json'
+import sv from '@/dictionaries/sv.json'
+import us from '@/dictionaries/us.json'
 
-const DICTS = { it: itDict, us: usDict } as const
+const DICTS: Record<Lang, { buy_button: string; faq_title: string }> = { ca, de, en, es, fr, it: it_, nl, pl, sv, us }
 /** Text as React escapes it in the markup. */
 const escaped = (text: string) => renderToStaticMarkup(createElement(Fragment, null, text))
 const AMAZON_LINK = /<a [^>]*href="https:\/\/www\.amazon\.(?:fr|it)\/[^"]*"[^>]*>/g
 const AMAZON_IMAGE_HOST = /media-amazon\.com|images-amazon\.com|ssl-images-amazon/i
 
 function render(page: MarketPage): string {
-  const dict = DICTS[page.locale as keyof typeof DICTS]
+  const dict = DICTS[page.locale]
   return renderToStaticMarkup(createElement(MarketPageView, { page, buyLabel: dict.buy_button, faqTitle: dict.faq_title }))
 }
 
@@ -31,15 +40,26 @@ function block(html: string, id: string): string {
   return next === -1 ? html.slice(start) : html.slice(start, start + 1 + next)
 }
 
-const pages = getMarketPages().filter((page) => page.locale in DICTS)
+const pages = getMarketPages()
 
 describe.each(pages.map((page) => [marketPageHref(page), page] as const))('%s', (_href, page) => {
   const html = render(page)
-  const dict = DICTS[page.locale as keyof typeof DICTS]
+  const dict = DICTS[page.locale]
+  /** Blocks of Amazon links this page has. */
+  const amazonBlocks = [...(page.picks.length > 0 ? ['picks'] : []), ...(page.comparison.rows.length > 0 && page.picks.length > 0 ? ['comparison'] : [])]
 
   it('puts the answer first, then picks, table, ranking, body, testers, FAQ, sources and related links', () => {
-    const order = ['id="answer"', 'id="picks"', 'id="comparison"', 'id="ranking"', 'id="section-1"', 'FAQPage', 'id="sources"', 'id="related-title"']
-    if (page.independentTesters.length > 0) order.splice(5, 0, 'id="testers"')
+    const order = [
+      'id="answer"',
+      ...(page.picks.length > 0 ? ['id="picks"'] : []),
+      ...(page.comparison.rows.length > 0 ? ['id="comparison"'] : []),
+      ...(page.criteria.length > 0 ? ['id="ranking"'] : []),
+      'id="section-1"',
+      ...(page.independentTesters.length > 0 ? ['id="testers"'] : []),
+      ...(page.faq.length > 0 ? ['FAQPage'] : []),
+      'id="sources"',
+      ...(page.related.length > 0 ? ['id="related-title"'] : []),
+    ]
     const positions = order.map((marker) => html.indexOf(marker))
     expect(positions.every((p) => p > -1), order.filter((_, i) => positions[i] === -1).join(', ')).toBe(true)
     expect([...positions].sort((a, b) => a - b)).toEqual(positions)
@@ -53,7 +73,7 @@ describe.each(pages.map((page) => [marketPageHref(page), page] as const))('%s', 
   })
 
   it('puts Amazon’s disclosure under every block of Amazon links, with the store-neutral button', () => {
-    for (const id of ['picks', 'comparison']) {
+    for (const id of amazonBlocks) {
       const part = block(html, id)
       expect(part.match(AMAZON_LINK)?.length ?? 0, id).toBeGreaterThan(0)
       expect(part, id).toContain('data-amazon-disclosure')
@@ -72,14 +92,13 @@ describe.each(pages.map((page) => [marketPageHref(page), page] as const))('%s', 
   })
 
   it('fixes the table’s first column and ships the FAQ as FAQPage', () => {
-    expect(block(html, 'comparison')).toMatch(/<th scope="row" class="sticky left-0/)
-    expect(html).toContain('"@type":"FAQPage"')
+    if (page.comparison.rows.length > 0) expect(block(html, 'comparison')).toMatch(/<th scope="row" class="sticky left-0/)
+    if (page.faq.length > 0) expect(html).toContain('"@type":"FAQPage"')
   })
 
   it('shows no Amazon image and no price next to a pick', () => {
     expect(html).not.toMatch(AMAZON_IMAGE_HOST)
-    expect(block(html, 'picks')).not.toMatch(/\d\s?[€£$]|[€£$]\s?\d/)
-    expect(block(html, 'comparison')).not.toMatch(/\d\s?[€£$]|[€£$]\s?\d/)
+    for (const id of amazonBlocks) expect(block(html, id), id).not.toMatch(/\d\s?[€£$]|[€£$]\s?\d/)
   })
 
   it('sets a duel side by side with "Choose … if"', () => {
@@ -91,14 +110,19 @@ describe.each(pages.map((page) => [marketPageHref(page), page] as const))('%s', 
 })
 
 describe('MarketPagesHubList', () => {
-  it('lists the locale’s market pages on the hubs their related links name, and nothing elsewhere', () => {
+  it('lists each market page on its main hub only, in its own locale', () => {
     for (const page of getMarketPages()) {
       const hub = page.related[0].slice(`/${page.locale}`.length)
       const html = renderToStaticMarkup(createElement(MarketPagesHubList, { lang: page.locale, path: hub }))
       expect(html).toContain(`href="${marketPageHref(page)}"`)
       expect(html).toContain(escaped(MARKET_PAGE_UI[page.locale].hubListTitle))
       const other = page.locale === 'it' ? 'de' : 'it'
-      expect(renderToStaticMarkup(createElement(MarketPagesHubList, { lang: other, path: hub }))).toBe('')
+      expect(renderToStaticMarkup(createElement(MarketPagesHubList, { lang: other, path: hub }))).not.toContain(`href="${marketPageHref(page)}"`)
+      // A secondary hub of the page does not list it.
+      for (const secondary of page.related.slice(1)) {
+        const path = secondary.slice(`/${page.locale}`.length)
+        expect(renderToStaticMarkup(createElement(MarketPagesHubList, { lang: page.locale, path })), secondary).not.toContain(`href="${marketPageHref(page)}"`)
+      }
     }
     expect(renderToStaticMarkup(createElement(MarketPagesHubList, { lang: 'fr', path: '/confort-air/ventilateurs' }))).toBe('')
   })

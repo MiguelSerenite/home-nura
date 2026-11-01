@@ -5,8 +5,8 @@ import { MARKET_PAGE_UI } from '@/lib/market-pages/ui'
 
 /**
  * "Comparisons & guides" on a category hub: the market pages of this
- * locale whose related links name the hub (lib/market-pages/hubs.ts).
- * Nothing when there are none.
+ * locale whose main hub it is (their first related hub,
+ * lib/market-pages/hubs.ts). Nothing when there are none.
  */
 export default function MarketPagesHubList({ lang, path }: { lang: string; path: string }) {
   if (!isValidLang(lang)) return null

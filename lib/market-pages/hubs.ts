@@ -1,10 +1,10 @@
 /**
  * Category hubs of the market pages: the category landing pages
  * (/{silo}/{category}, /cuisine-connectee/{category}, /guides/airfryers)
- * and, in the US and Canada, the floor-care guides. A market page whose
- * `related` links name a hub appears in that hub's "Comparisons & guides"
- * list (components/market-pages/HubList.tsx); its first hub is its
- * breadcrumb parent.
+ * and, in the US and Canada, the floor-care guides. A market page's first
+ * related hub is its main one: its breadcrumb parent, and the hub whose
+ * "Comparisons & guides" list (components/market-pages/HubList.tsx)
+ * shows it. Writers put the main category hub first.
  */
 
 import { CATEGORIES, categoryPath } from '@/lib/catalog'
