@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { AMAZON_OWN_STORE_MARKETS, amazonMarket, amazonMarketModelUrl } from '@/lib/amazon'
-import { CLICK_SURFACES, parseAffiliateClick } from '@/lib/affiliate-click'
+import { CLICK_PLACEMENTS, CLICK_SURFACES, parseAffiliateClick } from '@/lib/affiliate-click'
 import { LANGUAGES } from '@/lib/i18n'
 import { getMarketPages, marketPageHref } from '@/lib/market-pages/data'
 import { marketPageVisualKind, marketPickUrl } from '@/lib/market-pages/picks'
@@ -54,11 +54,21 @@ describe('market page Amazon links', () => {
     expect(problems).toEqual([])
   })
 
-  it('record clicks under the market_page surface', () => {
+  it('record clicks under the market_page placement and surface', () => {
+    expect(CLICK_PLACEMENTS).toContain('market_page')
     expect(CLICK_SURFACES).toContain('market_page')
     for (const lang of LANGUAGES) {
-      const marketplace = new URL(marketPickUrl(pick('B0TESTAAA1'), lang)).hostname.replace(/^www\./, '')
-      expect(parseAffiliateClick({ path: `/${lang}/vs/acme-a1-vs-b2`, lang, surface: 'market_page', model: 'Acme Fryer A1', marketplace }), lang).not.toBeNull()
+      const url = new URL(marketPickUrl(pick('B0TESTAAA1'), lang))
+      const beacon = {
+        path: `/${lang}/vs/acme-a1-vs-b2`,
+        lang,
+        placement: 'market_page',
+        surface: 'market_page',
+        model: 'Acme Fryer A1',
+        store: url.hostname.replace(/^www\./, ''),
+        tag: url.searchParams.get('tag'),
+      }
+      expect(parseAffiliateClick(beacon), lang).toMatchObject({ lang, placement: 'market_page', surface: 'market_page', market: amazonMarket(lang).market })
     }
   })
 

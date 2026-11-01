@@ -14,9 +14,12 @@ import AmazonEventBlock from '@/components/black-friday/AmazonEventBlock'
 import PickList from '@/components/black-friday/PickList'
 import ComparisonSection from '@/components/floor-care/ComparisonSection'
 import PickCards from '@/components/floor-care/PickCards'
+import MarketComparisonTable from '@/components/market-pages/ComparisonTable'
+import MarketPickCards from '@/components/market-pages/PickCards'
 import { CLICK_PLACEMENTS } from '@/lib/affiliate-click'
 import { BLACK_FRIDAY_CATEGORIES, getBlackFridayPicks } from '@/lib/black-friday'
 import { getFloorCareMarket } from '@/lib/floor-care/data'
+import { getMarketPages } from '@/lib/market-pages/data'
 import { getStaticProducts } from '@/lib/products'
 
 // Every affiliate link names the block it sits in (lib/affiliate-click.ts
@@ -170,5 +173,14 @@ describe('placement in rendered blocks', () => {
     const data = getFloorCareMarket('us').dry
     expectAll(renderedPlacements(createElement(PickCards, { market: 'us', guide: 'dry', picks: data.picks, buyLabel: 'View on Amazon' })), 'floor_care')
     expectAll(renderedPlacements(createElement(ComparisonSection, { data, buyLabel: 'View on Amazon' })), 'floor_care')
+  })
+
+  it('market page pick cards and comparison tables', () => {
+    const pages = getMarketPages().filter((page) => page.picks.length > 0)
+    expect(pages.length).toBeGreaterThan(0)
+    for (const page of pages) {
+      expectAll(renderedPlacements(createElement(MarketPickCards, { page, buyLabel: 'Amazon' })), 'market_page')
+      expectAll(renderedPlacements(createElement(MarketComparisonTable, { page, buyLabel: 'Amazon' })), 'market_page')
+    }
   })
 })
