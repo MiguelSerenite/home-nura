@@ -84,6 +84,8 @@ test.describe('Floor-care guides (US and Canada only)', () => {
     await page.getByRole('textbox', { name: /Clearance under your furniture \(inches\)/ }).fill('3.5')
     const section = page.locator('#clearance')
     await expect(section.locator('[role="status"]')).toContainText('3.5 in (88.9 mm)')
+    // The slim robot mop of the US hard-floor guide (Roborock Saros 20, 79.8 mm) fits; 99 mm robots do not.
+    await expect(section.getByRole('list', { name: 'Fits under' }).getByRole('link', { name: 'Roborock Saros 20', exact: true })).toBeVisible()
     for (const robot of robots('us')) {
       const name = robot.model.toLowerCase().startsWith(robot.brand.toLowerCase()) ? robot.model : `${robot.brand} ${robot.model}`
       const group = (robot.heightMm as number) <= clearanceMm ? 'Fits under' : 'Too tall'

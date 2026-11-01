@@ -133,7 +133,8 @@ function ui(market: FloorCareMarket): FloorCareUi {
     bestFor: 'Best for',
     height: 'Height',
     manufacturerPage: 'Manufacturer’s page',
-    notOnAmazon: market === 'us' ? 'Not listed on Amazon in the US when we checked.' : 'Not listed on Amazon in Canada when we checked.',
+    // True both for a model Amazon does not sell there and for one whose listing could not be confirmed.
+    notOnAmazon: market === 'us' ? 'No Amazon listing confirmed in the US when we checked.' : 'No Amazon listing confirmed in Canada when we checked.',
     disclosureNote:
       market === 'us'
         ? 'Amazon affiliate links: we earn a commission at no extra cost to you.'
