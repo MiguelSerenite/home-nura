@@ -1,7 +1,7 @@
 // Shared SEO helpers: site-wide "last updated" date and schema builders.
 
 import type { Metadata } from 'next'
-import { BCP47_LOCALE, HTML_LANG, LANGUAGES, type Lang, isValidLang, ogLocale, resolveLang } from './i18n'
+import { BCP47_LOCALE, DEFAULT_LANG, HTML_LANG, LANGUAGES, type Lang, isValidLang, ogLocale, resolveLang } from './i18n'
 import { productPhotoPath, type ProductPhoto } from './product-photo'
 import { AUTHOR_PATH, getAuthor } from './authors'
 
@@ -28,6 +28,12 @@ interface BuildPageMetadataInput {
   authors?: string[]
   /** Set to false to noindex the page (e.g. search result pages). Defaults to true. */
   index?: boolean
+  /**
+   * Locales the page exists in, when not all of them (the US/Canada-only
+   * floor-care guides): hreflang then lists these only, and x-default only
+   * when the French default is among them.
+   */
+  locales?: readonly Lang[]
 }
 
 /**
@@ -67,6 +73,7 @@ export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
     modifiedTime,
     authors,
     index = true,
+    locales = LANGUAGES,
   } = input
 
   const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
@@ -77,13 +84,13 @@ export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
   const ogImage = image ?? `${BASE_URL}/og-image.png`
   const ogImageAlt = imageAlt ?? title
 
-  // hreflang: map every locale to its equivalent URL at the same path,
-  // keyed by its language tag (en-US for /us, never the market code).
+  // hreflang: map every locale the page exists in to its URL at the same
+  // path, keyed by its language tag (en-US for /us, never the market code).
   // x-default points to the French variant (site default language).
   const languages: Record<string, string> = Object.fromEntries(
-    LANGUAGES.map((l) => [HTML_LANG[l], `${BASE_URL}/${l}${normalizedPath}`])
+    locales.map((l) => [HTML_LANG[l], `${BASE_URL}/${l}${normalizedPath}`])
   )
-  languages['x-default'] = `${BASE_URL}/fr${normalizedPath}`
+  if (locales.includes(DEFAULT_LANG)) languages['x-default'] = `${BASE_URL}/${DEFAULT_LANG}${normalizedPath}`
 
   return {
     title,

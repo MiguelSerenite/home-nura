@@ -2,6 +2,9 @@
 
 import type { ReactNode } from 'react'
 import { trackAffiliateClick } from '@/lib/analytics'
+import type { ClickSurface } from '@/lib/affiliate-click'
+
+type ClickLocation = Parameters<typeof trackAffiliateClick>[0]['location']
 
 interface AffiliateLinkProps {
   href: string
@@ -9,8 +12,10 @@ interface AffiliateLinkProps {
   productName: string
   priceNumeric?: number
   position?: number
-  location: 'comparison_table' | 'article_inline' | 'article_bottom' | 'comparator' | 'product_card' | 'smart_kitchen'
+  location: ClickLocation
   lang: string
+  /** First-party click beacon surface (/api/click); the link's own store is then recorded from its URL. */
+  surface?: ClickSurface
   className?: string
   children: ReactNode
   ariaLabel?: string
@@ -39,6 +44,7 @@ export default function AffiliateLink({
   className,
   children,
   ariaLabel,
+  surface,
 }: AffiliateLinkProps) {
   return (
     <a
@@ -54,6 +60,7 @@ export default function AffiliateLink({
           position,
           location,
           lang,
+          ...(surface ? { surface, url: href } : {}),
         })
       }
       className={className}

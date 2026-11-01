@@ -24,4 +24,13 @@ describe('switchLocalePath', () => {
     expect(switchLocalePath(null, 'en')).toBe('/en')
     expect(switchLocalePath(undefined, 'en')).toBe('/en')
   })
+
+  it('sends readers of the US/Canada-only floor-care pages to the other market, or to the cleaning hub elsewhere', () => {
+    expect(switchLocalePath('/us/guides/floor-care/vacuums', 'ca')).toBe('/ca/guides/floor-care/vacuums')
+    expect(switchLocalePath('/ca/guides/floor-care', 'us')).toBe('/us/guides/floor-care')
+    expect(switchLocalePath('/us/guides/floor-care/hard-floor-washers', 'fr')).toBe('/fr/entretien-maison')
+    expect(switchLocalePath('/ca/guides/floor-care/', 'en')).toBe('/en/entretien-maison')
+    // Another guide whose slug merely starts the same way is not affected.
+    expect(switchLocalePath('/us/guides/floor-careers', 'de')).toBe('/de/guides/floor-careers')
+  })
 })

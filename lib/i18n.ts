@@ -93,15 +93,28 @@ export function resolveLang(value: string | undefined | null): Lang {
 const LOCALE_PREFIX = /^\/([a-z]{2})(\/.*)?$/
 
 /**
+ * Sections that exist in some locales only, with the page every other
+ * locale offers instead. The floor-care guides are US and Canadian only
+ * (lib/floor-care/config.ts, kept in step by tests/lib/floor-care/routes.test.ts):
+ * elsewhere the reader lands on the cleaning hub, not on a 404.
+ */
+export const LOCALE_LIMITED_SECTIONS: ReadonlyArray<{ readonly prefix: string; readonly langs: readonly Lang[]; readonly fallback: string }> = [
+  { prefix: '/guides/floor-care', langs: ['us', 'ca'], fallback: '/entretien-maison' },
+]
+
+/**
  * The same page in another locale. Slugs are not translated (every locale
  * serves /{lang}/methodologie, /{lang}/guides/probleme/…), so only the
  * locale prefix changes. A path without a supported locale prefix has no
- * known equivalent and falls back to the target locale's home.
+ * known equivalent and falls back to the target locale's home; a section
+ * the target locale lacks (LOCALE_LIMITED_SECTIONS) to its stand-in page.
  */
 export function switchLocalePath(pathname: string | null | undefined, target: Lang): string {
   const match = pathname?.match(LOCALE_PREFIX)
   if (!match || !isValidLang(match[1])) return `/${target}`
   const rest = (match[2] ?? '').replace(/\/+$/, '')
+  const limited = LOCALE_LIMITED_SECTIONS.find(({ prefix }) => rest === prefix || rest.startsWith(`${prefix}/`))
+  if (limited && !limited.langs.includes(target)) return `/${target}${limited.fallback}`
   return `/${target}${rest}`
 }
 

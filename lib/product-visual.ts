@@ -18,6 +18,12 @@ export type ProductVisualKind =
   | 'kitchen-scale'
   | 'meat-thermometer'
   | 'smart-plug'
+  // Floor-care guides (US and Canada): robot and stick/upright vacuums,
+  // hard-floor washers, carpet and upholstery cleaners.
+  | 'robot-vacuum'
+  | 'vacuum'
+  | 'floor-washer'
+  | 'carpet-cleaner'
 
 export interface ProductVisualData {
   brand: string

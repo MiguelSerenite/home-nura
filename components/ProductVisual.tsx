@@ -1,4 +1,4 @@
-import { ChefHat, Coffee, CookingPot, PlugZap, Thermometer, Weight, type LucideIcon } from 'lucide-react'
+import { Bot, ChefHat, Coffee, CookingPot, Mop, PlugZap, SprayCan, Thermometer, Weight, Wind, type LucideIcon } from 'lucide-react'
 import type { ProductVisualData, ProductVisualKind } from '@/lib/product-visual'
 import ProductPhotoImage from './ProductPhotoImage'
 import ProductScenePhoto, { scenePhotoOf } from './ProductScenePhoto'
@@ -10,6 +10,10 @@ const ICONS: Record<ProductVisualKind, LucideIcon> = {
   'kitchen-scale': Weight,
   'meat-thermometer': Thermometer,
   'smart-plug': PlugZap,
+  'robot-vacuum': Bot,
+  vacuum: Wind,
+  'floor-washer': Mop,
+  'carpet-cleaner': SprayCan,
 }
 
 type VisualSize = 'thumb' | 'card' | 'hero'
