@@ -8,8 +8,8 @@
  *
  * Behaviour:
  *   - Shows silo title, description and a grid of category cards.
- *   - Categories with `indexable: false` render as "coming soon"
- *     placeholders, not clickable — prevents broken internal links.
+ *   - Only categories with a page (`indexable: true`) are shown: the
+ *     site never announces a guide that does not exist yet.
  *   - Always emits BreadcrumbList JSON-LD (via Phase Y builder).
  *   - ItemList JSON-LD only includes categories that are currently
  *     indexable, so SERP ItemList results never point at dead URLs.
@@ -27,64 +27,54 @@ import { getSiloFaq, SILO_FAQ_TITLE } from '@/lib/catalog/silo-faqs'
 import { ChevronRight } from 'lucide-react'
 import { BlackFridaySiloLinks } from '@/components/black-friday/Promos'
 
-const uiStrings: Record<Lang, { home: string; comingSoon: string; categoriesTitle: string; methodologyCta: string }> = {
+const uiStrings: Record<Lang, { home: string; categoriesTitle: string; methodologyCta: string }> = {
   fr: {
     home: 'Accueil',
-    comingSoon: 'Bientôt disponible',
     categoriesTitle: 'Catégories',
     methodologyCta: 'Lire notre méthodologie',
   },
   en: {
     home: 'Home',
-    comingSoon: 'Coming soon',
     categoriesTitle: 'Categories',
     methodologyCta: 'Read our methodology',
   },
   de: {
     home: 'Start',
-    comingSoon: 'Demnächst',
     categoriesTitle: 'Kategorien',
     methodologyCta: 'Zur Methodik',
   },
   es: {
     home: 'Inicio',
-    comingSoon: 'Próximamente',
     categoriesTitle: 'Categorías',
     methodologyCta: 'Leer nuestra metodología',
   },
   it: {
     home: 'Home',
-    comingSoon: 'Prossimamente',
     categoriesTitle: 'Categorie',
     methodologyCta: 'Leggi la nostra metodologia',
   },
   nl: {
     home: 'Home',
-    comingSoon: 'Binnenkort',
     categoriesTitle: 'Categorieën',
     methodologyCta: 'Lees onze methodologie',
   },
   pl: {
     home: 'Strona główna',
-    comingSoon: 'Wkrótce',
     categoriesTitle: 'Kategorie',
     methodologyCta: 'Poznaj naszą metodologię',
   },
   sv: {
     home: 'Hem',
-    comingSoon: 'Kommer snart',
     categoriesTitle: 'Kategorier',
     methodologyCta: 'Läs om vår metod',
   },
   us: {
     home: 'Home',
-    comingSoon: 'Coming soon',
     categoriesTitle: 'Categories',
     methodologyCta: 'Read our methodology',
   },
   ca: {
     home: 'Home',
-    comingSoon: 'Coming soon',
     categoriesTitle: 'Categories',
     methodologyCta: 'Read our methodology',
   },
@@ -184,52 +174,23 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {categories.map((cat, index) => {
-              const catTitle = cat.title[safeLang]
-              const catDesc = cat.description[safeLang]
-
-              // Indexable → clickable card. Otherwise → static
-              // placeholder card marked "coming soon".
-              if (cat.indexable) {
-                return (
-                  <Link
-                    key={cat.slug}
-                    href={`/${safeLang}/${silo.slug}/${cat.slug}`}
-                    className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1 hover:border-brand-200"
-                  >
-                    <Kicker size="sm" className="mb-3">
-                      {String(index + 1).padStart(2, '0')}
-                    </Kicker>
-                    <h3 className="text-xl font-bold text-slate-900 leading-tight mb-3 group-hover:text-brand-700 transition-colors">
-                      {catTitle}
-                    </h3>
-                    <p className="text-sm text-slate-500 leading-relaxed flex-1">
-                      {catDesc}
-                    </p>
-                  </Link>
-                )
-              }
-              return (
-                <div
-                  key={cat.slug}
-                  className="relative flex flex-col rounded-3xl border border-dashed border-slate-200 bg-slate-50/60 p-6"
-                  aria-disabled="true"
-                >
-                  <Kicker size="sm" className="mb-3">
-                    {String(index + 1).padStart(2, '0')}
-                  </Kicker>
-                  <h3 className="text-xl font-bold text-slate-700 leading-tight mb-3">
-                    {catTitle}
-                  </h3>
-                  <p className="text-sm text-slate-500 leading-relaxed flex-1">
-                    {catDesc}
-                  </p>
-                  <div className="mt-5 inline-flex self-start rounded-full bg-white border border-slate-200 px-3 py-1 text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                    {ui.comingSoon}
-                  </div>
-                </div>
-              )
-            })}
+            {indexableCats.map((cat, index) => (
+              <Link
+                key={cat.slug}
+                href={`/${safeLang}/${silo.slug}/${cat.slug}`}
+                className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1 hover:border-brand-200"
+              >
+                <Kicker size="sm" className="mb-3">
+                  {String(index + 1).padStart(2, '0')}
+                </Kicker>
+                <h3 className="text-xl font-bold text-slate-900 leading-tight mb-3 group-hover:text-brand-700 transition-colors">
+                  {cat.title[safeLang]}
+                </h3>
+                <p className="text-sm text-slate-500 leading-relaxed flex-1">
+                  {cat.description[safeLang]}
+                </p>
+              </Link>
+            ))}
           </div>
 
           {/* Methodology CTA — every silo links to the cornerstone */}
