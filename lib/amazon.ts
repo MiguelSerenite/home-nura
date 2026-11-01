@@ -34,6 +34,11 @@
  *   (amazonMarketModelUrl); their amazon.com / amazon.ca ASIN is kept for a
  *   later direct link, switched off in AMAZON_DIRECT_MODEL_STORES. A catalog
  *   product the market sells as is keeps its amazon.fr product page.
+ * - Models a market page picks (lib/market-pages, any locale) go through
+ *   the same builder: on the two markets whose links reach the reader's
+ *   own store (AMAZON_OWN_STORE_MARKETS: amazon.fr for French, amazon.it
+ *   for Italian) an ASIN seen there links its product page; everywhere
+ *   else, or without an ASIN, a search for the exact model.
  */
 
 import type { Lang } from '@/lib/i18n'
@@ -145,19 +150,31 @@ export const AMAZON_DIRECT_MODEL_STORES: Readonly<Partial<Record<Lang, string | 
 }
 
 /**
+/**
+ * Markets whose link store is the reader's own store: French links go to
+ * amazon.fr, Italian links to amazon.it (lib/amazon.ts market table). An
+ * ASIN an editor saw on that store links its product page. Every other
+ * market links to amazon.fr for Global Earning, where an ASIN of the
+ * reader's own store (amazon.de, amazon.com…) means nothing.
+ */
+export const AMAZON_OWN_STORE_MARKETS: readonly Lang[] = ['fr', 'it']
+
+/**
  * Link for a model sold in the reader's market (floor-care guides, US and
- * Canadian picks of lib/market-models): an
- * amazon.fr search for the exact model name with the market's tracking ID
- * (Global Earning sends US and Canadian shoppers to their local store),
- * or a direct product page once AMAZON_DIRECT_MODEL_STORES enables that
- * market and the model has an ASIN there. The ASIN stays in the data for
- * that switch.
+ * Canadian picks of lib/market-models, market pages): on a market of
+ * AMAZON_OWN_STORE_MARKETS with an ASIN, that product page on the reader's
+ * store (amazonProductUrl); else an amazon.fr search for the exact model
+ * name with the market's tracking ID (amazon.it for Italian; Global
+ * Earning sends other shoppers to their local store), or a direct product
+ * page once AMAZON_DIRECT_MODEL_STORES enables that market and the model
+ * has an ASIN there. The ASIN stays in the data for that switch.
  */
 export function amazonMarketModelUrl(
   { model, asin }: { readonly model: string; readonly asin: string | null },
   lang: Lang,
   directStores: Readonly<Partial<Record<Lang, string | null>>> = AMAZON_DIRECT_MODEL_STORES,
 ): string {
+  if (asin && AMAZON_OWN_STORE_MARKETS.includes(lang)) return amazonProductUrl(asin, lang)
   const directStore = directStores[lang]
   if (directStore && asin) return `${directStore}/dp/${encodeURIComponent(asin)}?tag=${AMAZON_MARKETS[lang].tag}`
   return amazonSearchUrl(model, lang)

@@ -30,7 +30,9 @@ import { LANGUAGES, type Lang } from '@/lib/i18n'
  * - `quiz`: result of a quiz;
  * - `black_friday`: every link of the Black Friday pages (picks, Amazon
  *   event page, Prime trial);
- * - `floor_care`: every link of the US and Canadian floor-care guides.
+ * - `floor_care`: every link of the US and Canadian floor-care guides;
+ * - `market_page`: every link of the single-locale duels, guides and news
+ *   (lib/market-pages): pick cards and comparison tables.
  */
 export const CLICK_PLACEMENTS = [
   'quick_answer',
@@ -44,6 +46,7 @@ export const CLICK_PLACEMENTS = [
   'quiz',
   'black_friday',
   'floor_care',
+  'market_page',
 ] as const
 export type ClickPlacement = (typeof CLICK_PLACEMENTS)[number]
 
@@ -51,8 +54,9 @@ export type ClickPlacement = (typeof CLICK_PLACEMENTS)[number]
  * Position of the link on an article page, recorded before placements
  * (log lines up to 01/11/2026 have a surface and no placement): verdict
  * box, after an H2, table, in-text, bottom block, sticky bar, plus
- * `problem_picks`, `black_friday` and `floor_care`. Optional; it still
- * splits an article's product blocks between mid-article and bottom.
+ * `problem_picks`, `black_friday`, `floor_care` and `market_page`.
+ * Optional; it still splits an article's product blocks between
+ * mid-article and bottom.
  */
 export const CLICK_SURFACES = [
   'verdict',
@@ -64,6 +68,7 @@ export const CLICK_SURFACES = [
   'problem_picks',
   'black_friday',
   'floor_care',
+  'market_page',
 ] as const
 export type ClickSurface = (typeof CLICK_SURFACES)[number]
 

@@ -1,0 +1,75 @@
+{
+  "_fixture": "Placeholder duel for the market-page template (fictional models, example.com links). Removed when the writers' pages land; a production build refuses it.",
+  "locale": "us",
+  "type": "duel",
+  "slug": "fixture-robot-a-vs-robot-b",
+  "updated": "2026-11-01",
+  "metaTitle": "Fixture Robot A100 vs B200: which robot vacuum fits?",
+  "metaDescription": "Placeholder duel of two fictional robot vacuums, used to check the market-page template: answer first, side-by-side picks, sourced specs and an FAQ.",
+  "kicker": "Robot vacuum duel",
+  "h1": "Fixture Robot A100 vs Fixture Robot B200: which one should you buy?",
+  "answer": "Pick the Fixture Robot A100 if your home is mostly carpet and you share it with a shedding pet: it has the stronger suction and a self-emptying dock. Pick the Fixture Robot B200 if low sofas and beds are the problem: it is the slimmer of the two. Both are fictional placeholders, dated November 1, 2026.",
+  "picks": [
+    {
+      "brand": "Fixture",
+      "model": "Robot A100",
+      "role": "Best for pet hair",
+      "why": "Stronger suction and a self-emptying dock mean fewer bin trips on carpet. It is the taller robot, so check the gap under your sofa first.",
+      "bestFor": "your floors are mostly carpet and a pet sheds year-round.",
+      "asin": "B0FIXTURE1",
+      "manufacturerUrl": "https://example.com/fixture-robot-a100",
+      "specs": {
+        "Suction": "5,000 Pa",
+        "Height": "3.9 in (99 mm)",
+        "Self-empty dock": "Yes"
+      }
+    },
+    {
+      "brand": "Fixture",
+      "model": "Robot B200",
+      "role": "Best for low furniture",
+      "why": "The slimmer body slides under low beds and sofas that stop taller robots. Its bin is emptied by hand.",
+      "bestFor": "you have hard floors and furniture with little clearance.",
+      "asin": null,
+      "manufacturerUrl": "https://example.com/fixture-robot-b200",
+      "specs": {
+        "Suction": "4,000 Pa",
+        "Height": "3.1 in (79 mm)",
+        "Self-empty dock": "No"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": ["Spec", "Fixture Robot A100", "Fixture Robot B200"],
+    "rows": [
+      ["Suction", "5,000 Pa", "4,000 Pa"],
+      ["Height", "3.9 in (99 mm)", "3.1 in (79 mm)"],
+      ["Self-empty dock", "Yes", "No"],
+      ["Mopping", "Pad, no lift", "None"]
+    ]
+  },
+  "criteria": [
+    { "name": "Pickup on carpet", "weight": 40, "explanation": "Suction and brush design decide how much pet hair a single pass lifts from carpet." },
+    { "name": "Fits under furniture", "weight": 30, "explanation": "A robot that cannot reach under the bed leaves the dustiest spot untouched." },
+    { "name": "Upkeep", "weight": 30, "explanation": "A self-emptying dock and washable parts cut the weekly chores." }
+  ],
+  "sections": [
+    {
+      "h2": "Three differences that matter at home",
+      "html": "<p>The two placeholders differ where owners notice it most.</p><ul><li><strong>Carpet:</strong> the A100 has the stronger suction.</li><li><strong>Clearance:</strong> the B200 is 0.8 in slimmer.</li><li><strong>Upkeep:</strong> only the A100 empties itself.</li></ul>"
+    },
+    {
+      "h2": "Accessories and subscriptions",
+      "html": "<p>Neither placeholder needs an app subscription. <em>Replacement bags</em> apply to the A100 dock only.</p>"
+    }
+  ],
+  "faq": [
+    { "q": "Which fixture robot is quieter?", "a": "This placeholder does not say: a real duel answers from the manufacturers' published noise levels." },
+    { "q": "Do I need to measure under my sofa?", "a": "Yes. Measure the gap and compare it with each robot's published height." }
+  ],
+  "independentTesters": [
+    { "name": "Example Testing Lab", "url": "https://example.org/robot-vacuums", "note": "Placeholder for a tester's published result, quoted and dated (November 1, 2026)." }
+  ],
+  "sources": ["https://example.com/fixture-robot-a100", "https://example.com/fixture-robot-b200"],
+  "related": ["/us/entretien-maison/aspirateurs-robots", "/us/guides/floor-care/vacuums"]
+}

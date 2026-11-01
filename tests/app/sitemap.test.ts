@@ -7,6 +7,7 @@ import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import { PROBLEMS } from '@/lib/catalog'
 import { BLACK_FRIDAY_PATHS } from '@/lib/black-friday'
 import { FLOOR_CARE_MARKETS, FLOOR_CARE_PATHS } from '@/lib/floor-care/config'
+import { getMarketPages, marketPageHref } from '@/lib/market-pages/data'
 
 /** hreflang URL of `lang` in a sitemap entry (alternates are keyed by language tag). */
 const hreflang = (entry: MetadataRoute.Sitemap[number] | undefined, lang: Lang) =>
@@ -14,12 +15,14 @@ const hreflang = (entry: MetadataRoute.Sitemap[number] | undefined, lang: Lang) 
 
 /** The US/Canada-only floor-care pages ('/us/guides/floor-care/vacuums'…). */
 const isFloorCareUrl = (url: string) => FLOOR_CARE_PATHS.some((path) => FLOOR_CARE_MARKETS.some((m) => url === `${BASE_URL}/${m}${path}`))
+/** Market pages: one locale each (tests/lib/market-pages/seo.test.ts). */
+const MARKET_PAGE_URLS = new Set(getMarketPages().map((page) => `${BASE_URL}${marketPageHref(page)}`))
 
 describe('app/sitemap.ts', () => {
   const entries = sitemap()
   const LANGS = LANGUAGES
   // Pages that exist in every locale (blog articles: every translation).
-  const everyLocale = entries.filter((e) => !isFloorCareUrl(e.url))
+  const everyLocale = entries.filter((e) => !isFloorCareUrl(e.url) && !MARKET_PAGE_URLS.has(e.url))
 
   it('returns at least one entry per core route', () => {
     // One entry per page and per locale (home + content routes + blog).

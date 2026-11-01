@@ -28,6 +28,8 @@ export type ProductVisualKind =
   // North-American equivalent): thermostats and space heaters.
   | 'thermostat'
   | 'heater'
+  // Market pages (lib/market-pages) of a category without its own icon.
+  | 'appliance'
 
 export interface ProductVisualData {
   brand: string
