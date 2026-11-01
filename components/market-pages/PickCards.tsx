@@ -17,11 +17,11 @@ interface PickCardProps {
 }
 
 /**
- * Specs behind a toggle. On phones the pick's "why" moves in there too,
- * so the comparison table stays within the first two screens; from
- * tablets up it is shown on the card (WhyText).
+ * Specs behind a toggle. On phones the pick's "why" (and, on a guide,
+ * who it is for) moves in there too, so the comparison table stays within
+ * the first two screens; from tablets up they are shown on the card.
  */
-function Details({ pick, page }: { pick: MarketPagePick; page: MarketPage }) {
+function Details({ pick, page, withBestFor = false }: { pick: MarketPagePick; page: MarketPage; withBestFor?: boolean }) {
   const ui = MARKET_PAGE_UI[page.locale]
   return (
     <details className="mt-2 text-sm md:mt-3">
@@ -29,6 +29,11 @@ function Details({ pick, page }: { pick: MarketPagePick; page: MarketPage }) {
         <span className="md:hidden">{ui.details}</span>
         <span className="hidden md:inline">{ui.specs}</span>
       </summary>
+      {withBestFor && (
+        <p className="mt-2 text-slate-700 md:hidden">
+          <strong className="font-semibold text-slate-900">{ui.bestFor}:</strong> {pick.bestFor}
+        </p>
+      )}
       <p className="mt-2 leading-relaxed text-slate-700 md:hidden">{pick.why}</p>
       <dl className="mt-2 grid grid-cols-1 gap-x-3 gap-y-1 sm:grid-cols-[auto_1fr]">
         {Object.entries(pick.specs).map(([spec, value]) => (
@@ -102,7 +107,7 @@ function DuelCard(props: PickCardProps) {
   )
 }
 
-/** A guide pick: a compact row on phones (the table stays within two screens), a card from tablets up. */
+/** A guide pick: a compact row on phones (role, name, details, links: the table stays within two screens), a card from tablets up. */
 function GuideCard(props: PickCardProps) {
   const { page, pick } = props
   const ui = MARKET_PAGE_UI[page.locale]
@@ -121,10 +126,10 @@ function GuideCard(props: PickCardProps) {
           <p className="text-[11px] font-bold uppercase tracking-widest text-brand-700">{pick.role}</p>
           <h3 className="mt-1 text-base font-bold leading-snug text-slate-900 md:text-lg">{name}</h3>
           <WhyText pick={pick} />
-          <p className="mt-1 text-sm text-slate-700 md:mt-2">
+          <p className="mt-2 hidden text-sm text-slate-700 md:block">
             <strong className="font-semibold text-slate-900">{ui.bestFor}:</strong> {pick.bestFor}
           </p>
-          <Details pick={pick} page={page} />
+          <Details pick={pick} page={page} withBestFor />
           <Actions {...props} />
         </div>
       </div>

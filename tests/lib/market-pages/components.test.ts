@@ -3,6 +3,8 @@ import { renderToStaticMarkup } from 'react-dom/server'
 import { Fragment, createElement } from 'react'
 import MarketPageView from '@/components/market-pages/MarketPageView'
 import MarketPagesHubList from '@/components/market-pages/HubList'
+import RichText from '@/components/RichText'
+import { rankingSectionIndex } from '@/lib/market-pages/ranking'
 import { amazonAssociateDisclosure } from '@/lib/affiliate-disclosure'
 import { AUTHORS } from '@/lib/authors'
 import { getMarketPages, marketPageHref } from '@/lib/market-pages/data'
@@ -54,7 +56,7 @@ describe.each(pages.map((page) => [marketPageHref(page), page] as const))('%s', 
       ...(page.picks.length > 0 ? ['id="picks"'] : []),
       ...(page.comparison.rows.length > 0 ? ['id="comparison"'] : []),
       ...(page.criteria.length > 0 ? ['id="ranking"'] : []),
-      'id="section-1"',
+      'id="section-',
       ...(page.independentTesters.length > 0 ? ['id="testers"'] : []),
       ...(page.faq.length > 0 ? ['FAQPage'] : []),
       'id="sources"',
@@ -89,6 +91,21 @@ describe.each(pages.map((page) => [marketPageHref(page), page] as const))('%s', 
   it('keeps the testers box free of buy buttons', () => {
     if (page.independentTesters.length === 0) return
     expect(block(html, 'testers')).not.toMatch(AMAZON_LINK)
+  })
+
+  it('shows the writer’s "why this ranking" section once, inside the ranking box', () => {
+    if (page.criteria.length === 0) return
+    const ui = MARKET_PAGE_UI[page.locale]
+    const headings = [ui.rankingTitle, ...(ui.rankingAliases ?? [])]
+    const count = (text: string) => html.split(`>${escaped(text)}</h2>`).length - 1
+    expect(count(ui.rankingTitle)).toBe(1)
+    for (const alias of ui.rankingAliases ?? []) expect(count(alias), alias).toBe(0)
+    const index = rankingSectionIndex(page)
+    expect(index).toBe(page.sections.findIndex((section) => headings.includes(section.h2)))
+    if (index >= 0) {
+      const body = renderToStaticMarkup(createElement(RichText, { blocks: page.sections[index].blocks }))
+      expect(block(html, 'ranking')).toContain(body)
+    }
   })
 
   it('fixes the table’s first column and ships the FAQ as FAQPage', () => {

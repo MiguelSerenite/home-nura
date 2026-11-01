@@ -24,6 +24,8 @@ export interface MarketPageUi {
   comparisonTitle: string
   tableHint: string
   rankingTitle: string
+  /** Other headings writers give their own "why this ranking" section. */
+  rankingAliases?: readonly string[]
   rankingIntro: string
   methodologyLink: string
   testersTitle: string
@@ -119,6 +121,7 @@ export const MARKET_PAGE_UI: Readonly<Record<Lang, MarketPageUi>> = {
     comparisonTitle: 'Tabla comparativa',
     tableHint: 'Desliza la tabla para ver todas las columnas.',
     rankingTitle: 'Por qué este orden',
+    rankingAliases: ['Por qué esta clasificación'],
     rankingIntro: 'Ordenamos los modelos solo con criterios de producto, ponderados como se indica abajo. El precio y los clics no cuentan.',
     methodologyLink: 'Cómo comparamos',
     testersTitle: 'Lo que han encontrado los analistas independientes',

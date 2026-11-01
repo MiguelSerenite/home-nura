@@ -5,6 +5,7 @@ import RichText from '@/components/RichText'
 import Kicker from '@/components/ui/Kicker'
 import { BCP47_LOCALE } from '@/lib/i18n'
 import type { RelatedLink } from '@/lib/market-pages/data'
+import { rankingSectionIndex } from '@/lib/market-pages/ranking'
 import { marketPageBreadcrumbs, marketPageSchemas } from '@/lib/market-pages/schema'
 import type { MarketPage } from '@/lib/market-pages/types'
 import { MARKET_PAGE_UI } from '@/lib/market-pages/ui'
@@ -31,7 +32,8 @@ export function PageHeader({ page }: { page: MarketPage }) {
       <nav aria-label={ui.breadcrumb} className="text-xs text-slate-500">
         <ol className="flex flex-wrap items-center gap-2">
           {crumbs.map((crumb, i) => (
-            <li key={crumb.path} className="flex items-center gap-2">
+            // On a phone the current page's crumb repeats the H1 right below it.
+            <li key={crumb.path} className={`items-center gap-2 ${i === crumbs.length - 1 ? 'hidden md:flex' : 'flex'}`}>
               {i > 0 && <ChevronRight className="h-3.5 w-3.5 text-slate-400" aria-hidden="true" />}
               {i < crumbs.length - 1 ? (
                 <Link href={`/${page.locale}${crumb.path}`} className="transition-colors hover:text-brand-600">
@@ -49,7 +51,7 @@ export function PageHeader({ page }: { page: MarketPage }) {
       <div className="mt-3 md:mt-4">
         <Kicker>{page.kicker}</Kicker>
       </div>
-      <h1 className="mt-2 text-[1.75rem] font-bold leading-tight tracking-tight text-slate-900 md:mt-3 md:text-5xl">{page.h1}</h1>
+      <h1 className="mt-2 text-2xl font-bold leading-tight tracking-tight text-slate-900 md:mt-3 md:text-5xl">{page.h1}</h1>
       <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-slate-500">
         <time dateTime={page.updated}>
           {lastUpdatedLabel[page.locale]} {formatLastUpdated(page.locale, page.updated)}
@@ -70,17 +72,18 @@ export function AnswerBox({ page }: { page: MarketPage }) {
         <h2 id="answer-title" className="text-xs font-bold uppercase tracking-widest text-brand-700">
           {ui.answerTitle}
         </h2>
-        <p className="mt-1.5 text-base leading-relaxed text-slate-800 md:mt-2 md:text-[17px]">{page.answer}</p>
+        <p className="mt-1.5 text-[15px] leading-relaxed text-slate-800 md:mt-2 md:text-[17px]">{page.answer}</p>
       </div>
     </section>
   )
 }
 
-/** "Why this ranking": the weighted product criteria, and how we compare. */
+/** "Why this ranking": the weighted product criteria, the writer's own explanation, and how we compare. */
 export function Ranking({ page }: { page: MarketPage }) {
   if (page.criteria.length === 0) return null
   const ui = MARKET_PAGE_UI[page.locale]
   const percent = new Intl.NumberFormat(BCP47_LOCALE[page.locale], { style: 'percent' })
+  const explanation = page.sections[rankingSectionIndex(page)]
   return (
     <section id="ranking" aria-labelledby="ranking-title" className="mx-auto max-w-3xl scroll-mt-24 px-4 py-8 md:px-6 md:py-12">
       <h2 id="ranking-title" className={H2}>
@@ -101,6 +104,11 @@ export function Ranking({ page }: { page: MarketPage }) {
           </li>
         ))}
       </ol>
+      {explanation && (
+        <div className="mt-6">
+          <RichText blocks={explanation.blocks} />
+        </div>
+      )}
       <p className="mt-5">
         <Link href={`/${page.locale}/methodologie`} className="text-sm font-semibold text-brand-700 underline-offset-2 hover:text-brand-800 hover:underline">
           {ui.methodologyLink} →
@@ -110,10 +118,12 @@ export function Ranking({ page }: { page: MarketPage }) {
   )
 }
 
+/** The writer's sections, the "why this ranking" one apart (shown in the ranking box). */
 export function Sections({ page }: { page: MarketPage }) {
+  const inRanking = rankingSectionIndex(page)
   return (
     <div className="mx-auto max-w-3xl space-y-10 px-4 py-8 md:px-6 md:py-12">
-      {page.sections.map((section, i) => (
+      {page.sections.map((section, i) => i === inRanking ? null : (
         <section key={i} aria-labelledby={`section-${i + 1}`}>
           <h2 id={`section-${i + 1}`} className={`mb-4 ${H2}`}>
             {section.h2}
