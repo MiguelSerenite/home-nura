@@ -117,7 +117,7 @@ export default function CountrySelector({ lang, marketHub, onOpen }: CountrySele
                   >
                     <span className="text-base leading-none" aria-hidden="true">{version.flag}</span>
                     <span className="flex-1">
-                      {version.country} <span className="font-normal text-slate-500">· {version.language}</span>
+                      {version.country} <span className="font-normal text-slate-600">· {version.language}</span>
                     </span>
                     {isCurrent && (
                       <svg className="h-3.5 w-3.5 text-brand-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

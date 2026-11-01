@@ -63,12 +63,14 @@ test.describe('entry page (/)', () => {
     expect(await page.locator('img').count()).toBe(1)
   })
 
-  test('orders the list by browser language, nothing preselected, for an unserved country', async ({ page }) => {
-    await page.setExtraHTTPHeaders({ 'x-vercel-ip-country': 'JP', 'accept-language': 'ja-JP,de;q=0.8,en-US;q=0.6' })
-    await page.goto('/')
-    await expect(page.locator('section[aria-labelledby="entry-suggested"]')).toHaveCount(0)
-    expect((await choices(page, 'entry-all')).slice(0, 2)).toEqual(['de', 'en'])
-    await expect(page.locator('html')).toHaveAttribute('lang', 'de')
+  test('orders the list by browser language, nothing preselected, for an unserved country', async ({ request }) => {
+    // The browser's own Accept-Language (its locale) cannot be overridden reliably: send the request directly.
+    const response = await request.get('/', { headers: { 'x-vercel-ip-country': 'JP', 'accept-language': 'ja-JP,de;q=0.8,en-US;q=0.6' }, maxRedirects: 0 })
+    expect(response.status()).toBe(200)
+    const html = await response.text()
+    expect(html).not.toContain('aria-labelledby="entry-suggested"')
+    expect([...html.matchAll(/data-entry-choice="([a-z]+)"/g)].map((m) => m[1]).slice(0, 2)).toEqual(['de', 'en'])
+    expect(html).toMatch(/<html lang="de"/)
   })
 
   test('gives crawlers the plain indexable list, x-default of the home pages', async ({ browser, baseURL }) => {
@@ -79,11 +81,12 @@ test.describe('entry page (/)', () => {
     await expect(page.locator('html')).toHaveAttribute('lang', 'en')
     await expect(page.locator('section[aria-labelledby="entry-suggested"]')).toHaveCount(0)
     expect(await choices(page, 'entry-all')).toEqual(['fr', 'de', 'en', 'es', 'it', 'nl', 'pl', 'sv', 'us', 'ca'])
-    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://homenura.com/')
+    // Next.js serializes the root URL without its trailing slash: the same URL.
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', /^https:\/\/homenura\.com\/?$/)
     await expect(page.locator('meta[name="robots"]')).not.toHaveAttribute('content', /noindex/)
     const alternates = await page.locator('link[rel="alternate"][hreflang]').evaluateAll((links) => links.map((l) => `${l.getAttribute('hreflang')} ${l.getAttribute('href')}`))
     expect(alternates).toHaveLength(11)
-    expect(alternates).toContain('x-default https://homenura.com/')
+    expect(alternates.filter((a) => /^x-default https:\/\/homenura\.com\/?$/.test(a))).toHaveLength(1)
     expect(alternates).toContain('en-US https://homenura.com/us')
     await context.close()
   })
@@ -110,7 +113,7 @@ test.describe('entry page (/)', () => {
 test.describe('home pages: hreflang', () => {
   test('name the entry page as x-default, and deep pages keep the French one', async ({ page }) => {
     await page.goto('/fr')
-    await expect(page.locator('link[rel="alternate"][hreflang="x-default"]')).toHaveAttribute('href', 'https://homenura.com/')
+    await expect(page.locator('link[rel="alternate"][hreflang="x-default"]')).toHaveAttribute('href', /^https:\/\/homenura\.com\/?$/)
     await page.goto('/us/guides/airfryers')
     await expect(page.locator('link[rel="alternate"][hreflang="x-default"]')).toHaveAttribute('href', 'https://homenura.com/fr/guides/airfryers')
     await expect(page.locator('meta[property="og:url"]')).toHaveAttribute('content', 'https://homenura.com/us/guides/airfryers')
