@@ -24,10 +24,10 @@
  *   product (else a search) on their local store, and the commission goes
  *   to this same French account; the tracking ID reports it per market.
  *   Direct links to the other local stores are not verified yet.
- *
- * Reserved for locales added in a separate change (not used yet):
- * homavisese-21 (Swedish, sv), homaviseus-21 (United States) and
- * homaviseca-21 (Canada).
+ * - The Swedish (sv, homavisese-21), US (us, homaviseus-21) and Canadian
+ *   (ca, homaviseca-21) versions are among them: their links go to
+ *   amazon.fr and Global Earning sends readers on to amazon.se, amazon.com
+ *   and amazon.ca. Direct links to those three stores are not verified.
  */
 
 import type { Lang } from '@/lib/i18n'
@@ -56,6 +56,9 @@ export const AMAZON_MARKETS: Readonly<Record<Lang, AmazonMarket>> = {
   it: { ...AMAZON_IT, tag: 'homaviseit-21' },
   nl: { ...AMAZON_FR, tag: 'homavisenl-21' },
   pl: { ...AMAZON_FR, tag: 'homavisepl-21' },
+  sv: { ...AMAZON_FR, tag: 'homavisese-21' },
+  us: { ...AMAZON_FR, tag: 'homaviseus-21' },
+  ca: { ...AMAZON_FR, tag: 'homaviseca-21' },
 }
 
 /**
