@@ -20,6 +20,7 @@ import type { Metadata } from 'next'
 import { Kicker, SiteFooter } from '@/components/ui'
 import { BlackFridayHubLink } from '@/components/black-friday/Promos'
 import { resolveLang } from '@/lib/i18n'
+import { CRITERION_LABEL, EXPERT_GUIDE_LABEL, romanNumeral } from '@/lib/editorial-labels'
 import { getCategoryHead } from '@/lib/catalog/category-heads'
 import { categoryModifiedIso, getCategorySpecificFaq } from '@/lib/catalog/category-faqs'
 
@@ -902,7 +903,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="relative px-6 py-20 lg:py-28 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-600 uppercase bg-brand-50 rounded-full">
-            Guide Expert 2026
+            {EXPERT_GUIDE_LABEL[resolveLang(lang)]}
           </span>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-slate-900">
             {head?.h1 ?? dict.guide_title}
@@ -1017,7 +1018,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           ].map((chap, i) => (
             <article key={i} className="py-12 md:py-14 first:pt-10">
               <Kicker className="mb-4">
-                {['Critère · I', 'Critère · II', 'Critère · III', 'Critère · IV', 'Critère · V', 'Critère · VI'][i]}
+                {CRITERION_LABEL[resolveLang(lang)]} · {romanNumeral(i)}
               </Kicker>
               <h3 className="text-2xl md:text-[1.75rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">{chap.title}</h3>
               <div className="h-px w-10 bg-brand-600 mb-6"></div>

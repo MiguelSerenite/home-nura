@@ -12,6 +12,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
 import { resolveLang } from '@/lib/i18n'
+import { CHAPTER_LABEL } from '@/lib/editorial-labels'
 
 const pageContent: Record<string, {
   title: string
@@ -882,7 +883,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
         <div className="divide-y divide-slate-200">
           {chapters.map((chapter, i) => (
             <article key={i} className="py-14 md:py-16 first:pt-10">
-              <Kicker className="mb-4">Chapitre · {roman[i]}</Kicker>
+              <Kicker className="mb-4">{CHAPTER_LABEL[resolveLang(lang)]} · {roman[i]}</Kicker>
               <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
                 {chapter.title}
               </h3>

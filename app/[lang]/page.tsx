@@ -11,7 +11,8 @@ import ComparisonTable from '@/components/ComparisonTable'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
 import { productKicker } from '@/lib/product-types'
-import { HTML_LANG, resolveLang } from '@/lib/i18n'
+import { HTML_LANG, resolveLang, type Lang } from '@/lib/i18n'
+import { CHAPTER_LABEL } from '@/lib/editorial-labels'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import Link from 'next/link'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
@@ -28,6 +29,20 @@ const HERO_CTA: Record<string, { primary: string; secondary: string }> = {
   sv: { primary: 'Se vår topp 3', secondary: 'Hitta min airfryer på 1 minut' },
   us: { primary: 'See our top 3', secondary: 'Find my air fryer in 1 minute' },
   ca: { primary: 'See our top 3', secondary: 'Find my air fryer in 1 min' },
+}
+
+/** Hero badge: the edition of each language version (its market, in its own language). */
+const HERO_EDITION: Record<Lang, string> = {
+  fr: 'Europe 2026',
+  en: 'Europe 2026',
+  de: 'Europa 2026',
+  es: 'Europa 2026',
+  it: 'Europa 2026',
+  nl: 'Europa 2026',
+  pl: 'Europa 2026',
+  sv: 'Europa 2026',
+  us: 'USA 2026',
+  ca: 'Canada 2026',
 }
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
@@ -135,7 +150,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="relative px-4 sm:px-6 py-12 sm:py-20 lg:py-28 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-600 uppercase bg-brand-50 rounded-full">
-            Europe 2026
+            {HERO_EDITION[safeLang]}
           </span>
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6 text-slate-900">
             {dict.welcome}
@@ -323,7 +338,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           ].map((chapter, i) => (
             <article key={i} className="py-14 md:py-16 first:pt-10">
               <Kicker className="mb-4">
-                Chapitre · {chapter.num}
+                {CHAPTER_LABEL[safeLang]} · {chapter.num}
               </Kicker>
               <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
                 {chapter.title}
