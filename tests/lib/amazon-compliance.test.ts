@@ -160,9 +160,7 @@ describe('store-neutral Amazon CTAs', () => {
   const STORE_NAME = /\bAmazon\.(?:fr|de|co\.uk|es|it|nl|com|be|pl|se|ca)\b/i
 
   it('buy buttons say "Amazon" in every locale', () => {
-    // sv, us and ca: pinned once their native dictionaries land; until then
-    // the label only has to say "Amazon" without naming a store.
-    const expected: Partial<Record<Lang, string>> = {
+    const expected: Record<Lang, string> = {
       fr: 'Voir sur Amazon',
       de: 'Auf Amazon ansehen',
       en: 'View on Amazon',
@@ -170,11 +168,13 @@ describe('store-neutral Amazon CTAs', () => {
       es: 'Ver en Amazon',
       nl: 'Bekijk op Amazon',
       pl: 'Zobacz na Amazon',
+      sv: 'Visa på Amazon',
+      us: 'View on Amazon',
+      ca: 'View on Amazon',
     }
     for (const lang of LANGUAGES) {
       const dict = JSON.parse(readFileSync(join(ROOT, 'dictionaries', `${lang}.json`), 'utf8'))
-      if (expected[lang]) expect(dict.buy_button, lang).toBe(expected[lang])
-      else expect(dict.buy_button, lang).toMatch(/\bAmazon\b(?!\.)/)
+      expect(dict.buy_button, lang).toBe(expected[lang])
     }
   })
 
