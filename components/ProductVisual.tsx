@@ -2,6 +2,7 @@ import { Bot, ChefHat, Coffee, CookingPot, Gauge, Heater, House, Mop, PlugZap, S
 import type { ProductVisualData, ProductVisualKind } from '@/lib/product-visual'
 import ProductPhotoImage from './ProductPhotoImage'
 import ProductScenePhoto, { scenePhotoOf } from './ProductScenePhoto'
+import { AirVent, AlarmSmoke, BatteryCharging, BellRing, Cctv, Droplet, Droplets, EvCharger, Lock, Phone, Zap } from 'lucide-react'
 
 const ICONS: Record<ProductVisualKind, LucideIcon> = {
   airfryer: ChefHat,
@@ -10,6 +11,17 @@ const ICONS: Record<ProductVisualKind, LucideIcon> = {
   'kitchen-scale': Weight,
   'meat-thermometer': Thermometer,
   'smart-plug': PlugZap,
+  'air-purifier': AirVent,
+  humidifier: Droplets,
+  dehumidifier: Droplet,
+  doorbell: BellRing,
+  'smart-lock': Lock,
+  'smoke-alarm': AlarmSmoke,
+  'outdoor-camera': Cctv,
+  intercom: Phone,
+  'home-battery': BatteryCharging,
+  'power-station': Zap,
+  'ev-charger': EvCharger,
   'robot-vacuum': Bot,
   vacuum: Wind,
   'floor-washer': Mop,

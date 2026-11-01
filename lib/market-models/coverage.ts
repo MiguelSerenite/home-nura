@@ -10,6 +10,7 @@
  */
 
 import { BLACK_FRIDAY_CATEGORIES } from '@/lib/black-friday/categories'
+import { allBlackFridayPickRefs } from '@/lib/black-friday/pick-refs'
 import { ARTICLE_MODELS } from '@/lib/blog/article-models'
 import { QUICK_ANSWERS } from '@/lib/blog/quick-answers'
 import { staticProducts } from '@/lib/products'
@@ -31,7 +32,7 @@ export function europeanModelReferences(): ReadonlyMap<string, readonly string[]
     ...[...staticProducts, ...smartKitchenStaticProducts].map((p) => [p.title.fr, `catalog ${p.asin}`] as const),
     ...Object.entries(ARTICLE_MODELS).flatMap(([slug, models]) => models.map((model) => [model, `ARTICLE_MODELS["${slug}"]`] as const)),
     ...Object.entries(QUICK_ANSWERS).flatMap(([slug, qa]) => qa.picks.map((pick) => [pick.model, `QUICK_ANSWERS["${slug}"]`] as const)),
-    ...BLACK_FRIDAY_CATEGORIES.flatMap((c) => c.picks.map((ref) => [ref.model, `Black Friday "${c.slug}"`] as const)),
+    ...BLACK_FRIDAY_CATEGORIES.flatMap((c) => allBlackFridayPickRefs(c).map((ref) => [ref.model, `Black Friday "${c.slug}"`] as const)),
   ]
   return refs.reduce(
     (map, [model, where]) => new Map([...map, [model, [...(map.get(model) ?? []), where]]]),
@@ -53,7 +54,7 @@ export function findMarketCoverageProblems(): string[] {
       .filter((slug) => !(slug in QUICK_ANSWERS))
       .map((slug) => `${marketPicksFile(market)}: "${slug}" has no verdict in lib/blog/quick-answers.ts`)
     const blackFriday = BLACK_FRIDAY_CATEGORIES.flatMap((category) =>
-      category.picks.flatMap((ref) => {
+      allBlackFridayPickRefs(category).flatMap((ref) => {
         if (!hasMarketDecision(market, ref.model)) return []
         const { name } = marketDecision(market, ref.model)
         if (name === null || marketPicks(market, ref.article).some((p) => p.model === name)) return []

@@ -2,10 +2,11 @@ import { HTML_LANG, LANGUAGES, type Lang } from '@/lib/i18n'
 import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/blog'
 import { describe, it, expect } from 'vitest'
+import { GIFT_GUIDES, giftGuidePath } from '@/lib/gift-guides'
 import sitemap from '@/app/sitemap'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import { PROBLEMS } from '@/lib/catalog'
-import { BLACK_FRIDAY_PATHS } from '@/lib/black-friday'
+import { BLACK_FRIDAY_CATEGORIES, blackFridayLocales, blackFridayPath } from '@/lib/black-friday'
 import { FLOOR_CARE_MARKETS, FLOOR_CARE_PATHS } from '@/lib/floor-care/config'
 import { getMarketPages, marketPageHref } from '@/lib/market-pages/data'
 
@@ -17,6 +18,13 @@ const hreflang = (entry: MetadataRoute.Sitemap[number] | undefined, lang: Lang) 
 const isFloorCareUrl = (url: string) => FLOOR_CARE_PATHS.some((path) => FLOOR_CARE_MARKETS.some((m) => url === `${BASE_URL}/${m}${path}`))
 /** Market pages: one locale each (tests/lib/market-pages/seo.test.ts). */
 const MARKET_PAGE_URLS = new Set(getMarketPages().map((page) => `${BASE_URL}${marketPageHref(page)}`))
+
+/** Black Friday pages of some markets only, and the single-locale gift guides. */
+const PARTIAL_PATHS = [
+  ...BLACK_FRIDAY_CATEGORIES.filter((c) => blackFridayLocales(c).length < LANGUAGES.length).map((c) => blackFridayPath(c.slug)),
+  ...GIFT_GUIDES.map(giftGuidePath),
+]
+const isPartialUrl = (url: string) => PARTIAL_PATHS.some((path) => LANGUAGES.some((lang) => url === `${BASE_URL}/${lang}${path}`))
 
 describe('app/sitemap.ts', () => {
   const entries = sitemap()
@@ -43,7 +51,7 @@ describe('app/sitemap.ts', () => {
   })
 
   it('every entry ships hreflang alternates for every locale', () => {
-    for (const e of everyLocale) {
+    for (const e of everyLocale.filter((entry) => !isPartialUrl(entry.url))) {
       const langs = e.alternates?.languages ?? {}
       expect(Object.keys(langs).sort()).toEqual([...LANGS.map((l) => HTML_LANG[l]), 'x-default'].sort())
     }
@@ -72,7 +80,7 @@ describe('app/sitemap.ts', () => {
   it('lists every page once per locale, with no duplicate URL', () => {
     const urls = entries.map((e) => e.url)
     expect(new Set(urls).size).toBe(urls.length)
-    const shared = everyLocale.map((e) => e.url)
+    const shared = everyLocale.filter((e) => !isPartialUrl(e.url)).map((e) => e.url)
     const countFor = (lang: string) =>
       shared.filter((u) => u === `${BASE_URL}/${lang}` || u.startsWith(`${BASE_URL}/${lang}/`)).length
     for (const lang of LANGS) expect(countFor(lang), lang).toBe(countFor('fr'))
@@ -122,18 +130,32 @@ describe('app/sitemap.ts', () => {
     }
   })
 
-  it('lists the Black Friday hub and every category page in every locale, with hreflang', () => {
-    expect(BLACK_FRIDAY_PATHS.length).toBeGreaterThan(1)
-    for (const path of BLACK_FRIDAY_PATHS) {
+  it('lists the Black Friday hub in every locale and each category page in the locales that have it, with hreflang', () => {
+    const pages = [
+      { path: blackFridayPath(), langs: LANGS },
+      ...BLACK_FRIDAY_CATEGORIES.map((c) => ({ path: blackFridayPath(c.slug), langs: blackFridayLocales(c) })),
+    ]
+    expect(pages.some((p) => p.langs.length < LANGS.length)).toBe(true)
+    for (const { path, langs } of pages) {
       for (const entryLang of LANGS) {
         const url = `${BASE_URL}/${entryLang}${path}`
         const hit = entries.find((e) => e.url === url)
-        expect(hit, url).toBeDefined()
+        expect(Boolean(hit), url).toBe(langs.includes(entryLang))
+        if (!hit) continue
         for (const lang of LANGS) {
-          expect(hreflang(hit, lang), `${url} hreflang ${lang}`).toBe(`${BASE_URL}/${lang}${path}`)
+          expect(hreflang(hit, lang), `${url} hreflang ${lang}`).toBe(langs.includes(lang) ? `${BASE_URL}/${lang}${path}` : undefined)
         }
-        expect(hit?.alternates?.languages?.['x-default'], url).toBe(`${BASE_URL}/fr${path}`)
+        // x-default only with a French version, like the page's own hreflang tags.
+        expect(hit.alternates?.languages?.['x-default'], url).toBe(langs.includes('fr') ? `${BASE_URL}/fr${path}` : undefined)
       }
+    }
+  })
+
+  it('lists each gift guide once, in its own locale, without x-default', () => {
+    for (const guide of GIFT_GUIDES) {
+      const url = `${BASE_URL}/${guide.lang}${giftGuidePath(guide)}`
+      expect(entries.filter((e) => e.url.endsWith(giftGuidePath(guide))).map((e) => e.url)).toEqual([url])
+      expect(entries.find((e) => e.url === url)?.alternates?.languages).toEqual({ [HTML_LANG[guide.lang]]: url })
     }
   })
 

@@ -18,6 +18,18 @@ export type ProductVisualKind =
   | 'kitchen-scale'
   | 'meat-thermometer'
   | 'smart-plug'
+  // Black Friday market pages (US and Canadian neutral cards; one icon per page).
+  | 'air-purifier'
+  | 'humidifier'
+  | 'dehumidifier'
+  | 'doorbell'
+  | 'smart-lock'
+  | 'smoke-alarm'
+  | 'outdoor-camera'
+  | 'intercom'
+  | 'home-battery'
+  | 'power-station'
+  | 'ev-charger'
   // Floor-care guides (US and Canada): robot and stick/upright vacuums,
   // hard-floor washers, carpet and upholstery cleaners.
   | 'robot-vacuum'
