@@ -1,8 +1,8 @@
 import { amazonProductUrl, amazonSearchUrl } from '@/lib/amazon'
 import { getArticleBySlug } from '@/lib/blog'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
-import { getCategory, type MetaSiloSlug } from '@/lib/catalog'
-import type { Lang } from '@/lib/i18n'
+import { categoryPath, getCategory, type MetaSiloSlug } from '@/lib/catalog'
+import { LANGUAGES, type Lang } from '@/lib/i18n'
 import { isNorthAmericanMarket, isSoldAsIs, marketBrand, marketDecision, marketPicks, type NorthAmericanMarket } from '@/lib/market-models'
 import { offerForMarketName } from '@/lib/market-models/offers'
 import { productPhoto } from '@/lib/product-images'
@@ -10,9 +10,13 @@ import type { ProductPhoto } from '@/lib/product-photo'
 import { productVisual, type ProductVisualData } from '@/lib/product-visual'
 import { BLACK_FRIDAY_CATEGORIES } from './categories'
 import { BLACK_FRIDAY_HUB_PATH } from './config'
-import type { BlackFridayCategory, BlackFridayPickRef } from './types'
+import { BLACK_FRIDAY_MARKET_LISTS, DEFAULT_BLACK_FRIDAY_LIST } from './markets'
+import { blackFridayPickRefs } from './pick-refs'
+import type { BlackFridayCategory, BlackFridayCategoryCopy, BlackFridayPickRef } from './types'
 
 export { BLACK_FRIDAY_CATEGORIES } from './categories'
+export { BLACK_FRIDAY_MARKET_LISTS, DEFAULT_BLACK_FRIDAY_LIST } from './markets'
+export { allBlackFridayPickRefs, blackFridayPickRefs } from './pick-refs'
 export * from './config'
 export type * from './types'
 
@@ -25,23 +29,76 @@ export function blackFridayPath(slug?: string): string {
   return slug ? `${BLACK_FRIDAY_HUB_PATH}/${slug}` : BLACK_FRIDAY_HUB_PATH
 }
 
+/** A category page in one locale: it exists there only if the category has that locale's copy. */
+export interface BlackFridayPage {
+  category: BlackFridayCategory
+  copy: BlackFridayCategoryCopy
+  /** Language-relative path ('/black-friday/airfryers'). */
+  path: string
+}
+
+export function getBlackFridayPage(slug: string, lang: Lang): BlackFridayPage | undefined {
+  const category = getBlackFridayCategory(slug)
+  const copy = category?.copy[lang]
+  return category && copy ? { category, copy, path: blackFridayPath(category.slug) } : undefined
+}
+
+/** The locales a category page exists in (hreflang cluster, sitemap). */
+export function blackFridayLocales(category: BlackFridayCategory): Lang[] {
+  return LANGUAGES.filter((lang) => category.copy[lang] !== undefined)
+}
+
+/** Slugs of the market's list (./markets.ts), or the six original pages for a locale without one. */
+export function blackFridayListSlugs(lang: Lang): readonly string[] {
+  return BLACK_FRIDAY_MARKET_LISTS[lang] ?? DEFAULT_BLACK_FRIDAY_LIST
+}
+
 /**
- * Every Black Friday URL, language-relative (same path under each of the
- * 6 language prefixes). Listed in app/sitemap.ts for every locale.
+ * The categories a market puts forward, in its hub order: hub cards, home
+ * banner, silo link blocks, "other categories" links. A listed slug with no
+ * page in that locale is a data error, never skipped.
+ */
+export function getListedBlackFridayPages(lang: Lang): BlackFridayPage[] {
+  return blackFridayListSlugs(lang).map((slug) => {
+    const page = getBlackFridayPage(slug, lang)
+    if (!page) throw new Error(`lib/black-friday/markets.ts: "${slug}" is listed for ${lang} but has no ${lang} page`)
+    return page
+  })
+}
+
+/** Every category page of a locale: its list first, then the pages left out of it (still online). */
+export function getBlackFridayPages(lang: Lang): BlackFridayPage[] {
+  const listed = getListedBlackFridayPages(lang)
+  const others = BLACK_FRIDAY_CATEGORIES.flatMap((c) =>
+    listed.some((p) => p.category === c) ? [] : (getBlackFridayPage(c.slug, lang) ?? []),
+  )
+  return [...listed, ...others]
+}
+
+/**
+ * Every Black Friday URL, language-relative: the hub (every locale) and each
+ * category page (the locales of blackFridayLocales). Listed in app/sitemap.ts.
  */
 export const BLACK_FRIDAY_PATHS: readonly string[] = [
   blackFridayPath(),
   ...BLACK_FRIDAY_CATEGORIES.map((c) => blackFridayPath(c.slug)),
 ]
 
-/** The Black Friday page covering a catalog category hub, if any. */
-export function getBlackFridayCategoryForHub(categorySlug: string): BlackFridayCategory | undefined {
-  return BLACK_FRIDAY_CATEGORIES.find((c) => c.hubs.some((h) => h.category === categorySlug))
+/**
+ * The Black Friday page covering a catalog category hub in this locale, if
+ * any: the page named like the hub first (aspirateurs-balais, not the French
+ * floor-washer page that also links that hub), then the market's own list.
+ */
+export function getBlackFridayCategoryForHub(categorySlug: string, lang: Lang): BlackFridayPage | undefined {
+  const matches = getBlackFridayPages(lang).filter((p) => p.category.hubs.some((h) => h.category === categorySlug))
+  return matches.find((p) => p.category.slug === categorySlug) ?? matches[0]
 }
 
-export function getBlackFridayCategoriesForSilo(silo: MetaSiloSlug): BlackFridayCategory[] {
-  return BLACK_FRIDAY_CATEGORIES.filter((c) => c.hubs.some((h) => h.silo === silo))
+/** The listed Black Friday pages of a silo's categories, in the market's order. */
+export function getBlackFridayCategoriesForSilo(silo: MetaSiloSlug, lang: Lang): BlackFridayPage[] {
+  return getListedBlackFridayPages(lang).filter((p) => p.category.hubs.some((h) => h.silo === silo))
 }
+
 
 export interface BlackFridayPick {
   model: string
@@ -117,13 +174,14 @@ function resolveMarketPick(ref: BlackFridayPickRef, category: BlackFridayCategor
 }
 
 export function getBlackFridayPicks(category: BlackFridayCategory, lang: Lang): BlackFridayPick[] {
+  const refs = blackFridayPickRefs(category, lang)
   if (isNorthAmericanMarket(lang)) {
-    return category.picks
+    return refs
       .flatMap((ref) => resolveMarketPick(ref, category, lang) ?? [])
       // Two European models can share one North-American equivalent.
       .filter((pick, i, all) => all.findIndex((p) => p.model === pick.model) === i)
   }
-  return category.picks.flatMap((ref) => resolvePick(ref, lang) ?? [])
+  return refs.flatMap((ref) => resolvePick(ref, lang) ?? [])
 }
 
 export interface BlackFridayLink {
@@ -136,8 +194,9 @@ export interface BlackFridayLink {
 export function getBlackFridayLinks(category: BlackFridayCategory, lang: Lang): BlackFridayLink[] {
   const hubs = category.hubs.flatMap(({ silo, category: slug }) => {
     const cat = getCategory(slug)
+    // categoryPath: the landing page itself (air fryers: /guides/airfryers, not a redirect).
     return cat && cat.indexable && cat.metaSilo === silo
-      ? [{ href: `/${lang}/${silo}/${slug}`, title: cat.title[lang], kind: 'category' as const }]
+      ? [{ href: `/${lang}${categoryPath(cat)}`, title: cat.title[lang], kind: 'category' as const }]
       : []
   })
   const guides = category.guides.flatMap((slug) => {

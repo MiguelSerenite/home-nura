@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { amazonMarketModelUrl, amazonProductUrl } from '@/lib/amazon'
-import { BLACK_FRIDAY_CATEGORIES, getBlackFridayPicks } from '@/lib/black-friday'
+import { blackFridayPickRefs, getBlackFridayPages, getBlackFridayPicks } from '@/lib/black-friday'
 import { getAllArticles, getArticleBySlug } from '@/lib/blog'
 import { getArticleAffiliateModels, getArticleProducts, getArticleRecommendations } from '@/lib/blog/article-products'
 import { enrichArticleHtml } from '@/lib/blog/enrichContent'
@@ -75,7 +75,7 @@ function shownLinks(market: NorthAmericanMarket): ShownLink[] {
   const categories = Object.keys(CATEGORY_GUIDES).flatMap((slug) =>
     getCategoryGuides(slug, market).picks.map((p) => ({ where: `category ${slug}`, label: p.model, url: p.url, photoId: p.photo?.id })),
   )
-  const blackFriday = BLACK_FRIDAY_CATEGORIES.flatMap((c) =>
+  const blackFriday = getBlackFridayPages(market).flatMap(({ category: c }) =>
     getBlackFridayPicks(c, market).map((p) => ({ where: `black friday ${c.slug}`, label: p.model, url: p.url, photoId: p.photo?.id })),
   )
   return [...catalog, ...perArticle, ...categories, ...blackFriday]
@@ -147,9 +147,9 @@ describe.each(NORTH_AMERICAN_MARKETS)('%s: products and links follow the market 
   })
 
   it('drops "none" models from Black Friday and gives substitutes a neutral card', () => {
-    for (const category of BLACK_FRIDAY_CATEGORIES) {
+    for (const { category } of getBlackFridayPages(market)) {
       for (const pick of getBlackFridayPicks(category, market)) {
-        const sources = category.picks.filter((ref) => marketDecision(market, ref.model).name === pick.model)
+        const sources = blackFridayPickRefs(category, market).filter((ref) => marketDecision(market, ref.model).name === pick.model)
         expect(sources.length, pick.model).toBeGreaterThan(0)
         if (!pick.photo) expect(pick.visual, pick.model).toMatchObject({ kind: category.visual })
       }
@@ -158,13 +158,14 @@ describe.each(NORTH_AMERICAN_MARKETS)('%s: products and links follow the market 
 
   it('names in the Black Friday copy only brands and models the page shows', () => {
     const unsold = marketModelKeys(market).filter((model) => !isSoldAsIs(marketDecision(market, model)))
-    for (const category of BLACK_FRIDAY_CATEGORIES) {
-      const c = category.copy[market]
+    for (const { category, copy: c } of getBlackFridayPages(market)) {
       const copy = [c.name, c.h1, c.metaTitle, c.metaDescription, c.blurb, c.intro, ...c.faq.flatMap((f) => [f.question, f.answer])]
       expect(unsold.filter((model) => copy.some((text) => text.includes(model))), category.slug).toEqual([])
       const picks = getBlackFridayPicks(category, market).map((p) => p.model)
       const blurbBrands = c.blurb.split(':')[0].split(/,\s*|\s+and\s+/)
-      expect(blurbBrands.filter((brand) => !picks.some((model) => model.startsWith(brand))), `${category.slug}: ${c.blurb}`).toEqual([])
+      // "Tapo" names the TP-Link Tapo pick: a brand word of the model, not only its first word.
+      const names = (model: string, brand: string) => model.startsWith(brand) || model.split(/\s+/).includes(brand)
+      expect(blurbBrands.filter((brand) => !picks.some((model) => names(model, brand))), `${category.slug}: ${c.blurb}`).toEqual([])
     }
   })
 

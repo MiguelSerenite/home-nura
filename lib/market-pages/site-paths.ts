@@ -8,7 +8,8 @@
  */
 
 import { getAllArticles } from '@/lib/blog'
-import { BLACK_FRIDAY_CATEGORIES, BLACK_FRIDAY_PATHS, blackFridayPath } from '@/lib/black-friday'
+import { blackFridayPath, getBlackFridayPages } from '@/lib/black-friday'
+import { giftGuidePath, giftGuidesFor } from '@/lib/gift-guides'
 import { PROBLEMS, getCategory, getIndexableCategories, getIndexableSilos, getMetaSilo } from '@/lib/catalog'
 import { FLOOR_CARE_GUIDES, FLOOR_CARE_LABELS, FLOOR_CARE_MARKETS, floorCarePath } from '@/lib/floor-care/config'
 import type { Lang } from '@/lib/i18n'
@@ -55,10 +56,11 @@ function sharedPages(lang: Lang): [string, string | null][] {
       .filter((category) => category.metaSilo !== 'cuisine-connectee')
       .map((category): [string, string] => [`/${category.metaSilo}/${category.slug}`, category.title[lang]]),
     ...PROBLEMS.map((problem): [string, string] => [`/guides/probleme/${problem.slug}`, problem.query[lang]]),
-    ...BLACK_FRIDAY_PATHS.map((path): [string, string] => [
-      path,
-      BLACK_FRIDAY_CATEGORIES.find((category) => blackFridayPath(category.slug) === path)?.copy[lang].name ?? 'Black Friday',
-    ]),
+    // The hub, then the Black Friday pages this locale has (some markets only).
+    [blackFridayPath(), 'Black Friday'],
+    ...getBlackFridayPages(lang).map((page): [string, string] => [page.path, page.copy.name]),
+    // Gift guides: one locale each (Sinterklaas, Boxing Day, Reyes).
+    ...giftGuidesFor(lang).map((guide): [string, string] => [giftGuidePath(guide), guide.label]),
   ]
 }
 

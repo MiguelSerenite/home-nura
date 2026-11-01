@@ -100,6 +100,25 @@ const LOCALE_PREFIX = /^\/([a-z]{2})(\/.*)?$/
  */
 export const LOCALE_LIMITED_SECTIONS: ReadonlyArray<{ readonly prefix: string; readonly langs: readonly Lang[]; readonly fallback: string }> = [
   { prefix: '/guides/floor-care', langs: ['us', 'ca'], fallback: '/entretien-maison' },
+  // Black Friday pages of some markets only (lib/black-friday/markets.ts) and
+  // the gift guides (lib/gift-guides): elsewhere, that locale's Black Friday
+  // hub. Kept in step by tests/lib/black-friday.test.ts.
+  { prefix: '/black-friday/aspirateurs-laveurs', langs: ['fr'], fallback: '/black-friday' },
+  { prefix: '/black-friday/deshumidificateurs', langs: ['fr', 'en', 'de', 'es', 'nl', 'sv'], fallback: '/black-friday' },
+  { prefix: '/black-friday/multicuiseurs', langs: ['fr'], fallback: '/black-friday' },
+  { prefix: '/black-friday/sonnettes-video', langs: ['en', 'it', 'us'], fallback: '/black-friday' },
+  { prefix: '/black-friday/serrures-connectees', langs: ['de', 'us'], fallback: '/black-friday' },
+  { prefix: '/black-friday/stations-recharge-outdoor', langs: ['de'], fallback: '/black-friday' },
+  { prefix: '/black-friday/humidificateurs', langs: ['es', 'pl', 'sv', 'us', 'ca'], fallback: '/black-friday' },
+  { prefix: '/black-friday/cameras-exterieur', langs: ['es'], fallback: '/black-friday' },
+  { prefix: '/black-friday/interphones', langs: ['it'], fallback: '/black-friday' },
+  { prefix: '/black-friday/batteries-domestiques', langs: ['nl'], fallback: '/black-friday' },
+  { prefix: '/black-friday/purificateurs-air', langs: ['pl', 'us'], fallback: '/black-friday' },
+  { prefix: '/black-friday/detecteurs-fumee-co', langs: ['pl', 'ca'], fallback: '/black-friday' },
+  { prefix: '/black-friday/bornes-recharge-ve', langs: ['sv'], fallback: '/black-friday' },
+  { prefix: '/sinterklaas', langs: ['nl'], fallback: '/black-friday' },
+  { prefix: '/boxing-day', langs: ['ca'], fallback: '/black-friday' },
+  { prefix: '/regalos-de-reyes', langs: ['es'], fallback: '/black-friday' },
 ]
 
 /**

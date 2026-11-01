@@ -10,7 +10,7 @@ import {
   getIndexableCategories,
   PROBLEMS,
 } from '@/lib/catalog'
-import { BLACK_FRIDAY_CATEGORIES, BLACK_FRIDAY_PATHS, blackFridayPath } from '@/lib/black-friday'
+import { BLACK_FRIDAY_CATEGORIES, blackFridayLocales, blackFridayPath } from '@/lib/black-friday'
 import { FLOOR_CARE_HUB_PATH, FLOOR_CARE_MARKETS, FLOOR_CARE_PATHS, FLOOR_CARE_UPDATED_ISO } from '@/lib/floor-care/config'
 import { getMarketPages } from '@/lib/market-pages/data'
 import {
@@ -21,6 +21,7 @@ import {
   problemImages,
   smartKitchenCategoryImages,
 } from '@/lib/sitemap-images'
+import { GIFT_GUIDES, giftGuidePath } from '@/lib/gift-guides'
 
 /** Manufacturer photos a page renders, per locale (<image:image> entries). */
 type PageImages = (lang: Lang) => string[]
@@ -93,18 +94,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: today,
       images: (lang: Lang) => problemImages(lang, p),
     })),
-    // Black Friday hub + category pages: evergreen URLs (no year), in every
-    // locale. Weekly so the yearly copy refresh is picked up before the event.
-    ...BLACK_FRIDAY_PATHS.map((path) => {
-      const category = BLACK_FRIDAY_CATEGORIES.find((c) => blackFridayPath(c.slug) === path)
-      return {
-        path,
-        priority: 0.7,
-        changeFrequency: 'weekly' as const,
-        lastModified: today,
-        ...(category ? { images: (lang: Lang) => blackFridayImages(lang, category) } : {}),
-      }
-    }),
+    // Black Friday hub: evergreen URL (no year), in every locale. Weekly so
+    // the yearly copy refresh is picked up before the event. The category
+    // pages follow below (each in the locales that have it).
+    { path: blackFridayPath(), priority: 0.7, changeFrequency: 'weekly' as const, lastModified: today },
     // Persona buyer guides and best-for pages are built
     // from shared templates (near-duplicate copy at scale, no products,
     // best-for: 0.5% CTR spread over 771 URLs):
@@ -176,6 +169,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
           priority,
         },
         (lang) => articleImages(lang, article),
+      ),
+    )
+  }
+
+  // Black Friday category pages: the six original ones in every locale, the
+  // market pages only where a market lists them (lib/black-friday). x-default
+  // only when the page has a French version, as in its hreflang tags.
+  for (const category of BLACK_FRIDAY_CATEGORIES) {
+    const langs = blackFridayLocales(category)
+    entries.push(
+      ...localized(
+        blackFridayPath(category.slug),
+        langs,
+        { lastModified: new Date(today), changeFrequency: 'weekly', priority: 0.7 },
+        (lang) => blackFridayImages(lang, category),
+        { xDefault: langs.includes('fr') },
+      ),
+    )
+  }
+
+  // Gift guides (Sinterklaas, Boxing Day, Reyes): one locale each, no x-default.
+  for (const guide of GIFT_GUIDES) {
+    entries.push(
+      ...localized(
+        giftGuidePath(guide),
+        [guide.lang],
+        { lastModified: new Date(today), changeFrequency: 'weekly', priority: 0.7 },
+        undefined,
+        { xDefault: false },
       ),
     )
   }

@@ -10,7 +10,7 @@
  */
 
 import { createHash } from 'node:crypto'
-import { getBlackFridayPicks, BLACK_FRIDAY_CATEGORIES } from '@/lib/black-friday'
+import { DEFAULT_BLACK_FRIDAY_LIST, getBlackFridayCategory, getBlackFridayPicks } from '@/lib/black-friday'
 import { getArticleBySlug } from '@/lib/blog'
 import { getArticleAffiliateModels, getArticleRecommendations } from '@/lib/blog/article-products'
 import { enrichArticleHtml } from '@/lib/blog/enrichContent'
@@ -83,8 +83,10 @@ export function euSnapshot(): Record<string, unknown> {
           }),
         ),
         categories: Object.fromEntries(SNAPSHOT_CATEGORIES.map((slug) => [slug, getCategoryGuides(slug, lang).picks.map((p) => link(p))])),
+        // The six pages of the fixture (every locale has them); the market
+        // pages added since resolve the same verdict picks, covered above.
         blackFriday: Object.fromEntries(
-          BLACK_FRIDAY_CATEGORIES.map((c) => [c.slug, getBlackFridayPicks(c, lang).map((p) => `${link(p)} | ${p.role} | ${p.asin ?? '-'}`)]),
+          DEFAULT_BLACK_FRIDAY_LIST.map((slug) => [slug, getBlackFridayPicks(getBlackFridayCategory(slug)!, lang).map((p) => `${link(p)} | ${p.role} | ${p.asin ?? '-'}`)]),
         ),
       },
     ]),

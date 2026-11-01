@@ -18,11 +18,13 @@ import BlackFridayBreadcrumb from '@/components/black-friday/Breadcrumb'
 import PickList from '@/components/black-friday/PickList'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import {
-  BLACK_FRIDAY_CATEGORIES,
+  blackFridayLocales,
   blackFridayPath,
-  getBlackFridayCategory,
   getBlackFridayLinks,
+  getBlackFridayPage,
+  getBlackFridayPages,
   getBlackFridayPicks,
+  getListedBlackFridayPages,
 } from '@/lib/black-friday'
 import { UI } from '@/lib/black-friday/copy/ui'
 import { LANGUAGES, isValidLang } from '@/lib/i18n'
@@ -30,33 +32,37 @@ import { buildBreadcrumbListSchema, buildPageMetadata } from '@/lib/seo'
 
 type Params = Promise<{ lang: string; category: string }>
 
+/** A page exists only in the locales that have its copy; any other locale 404s. */
+export const dynamicParams = false
+
 export async function generateStaticParams() {
-  return LANGUAGES.flatMap((lang) => BLACK_FRIDAY_CATEGORIES.map((c) => ({ lang, category: c.slug })))
+  return LANGUAGES.flatMap((lang) => getBlackFridayPages(lang).map((p) => ({ lang, category: p.category.slug })))
 }
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { lang, category: slug } = await params
-  const category = getBlackFridayCategory(slug)
-  if (!isValidLang(lang) || !category) return {}
-  const copy = category.copy[lang]
+  const page = isValidLang(lang) ? getBlackFridayPage(slug, lang) : undefined
+  if (!isValidLang(lang) || !page) return {}
   return buildPageMetadata({
     lang,
-    path: blackFridayPath(category.slug),
-    title: `${copy.metaTitle} | Home Nura`,
-    description: copy.metaDescription,
+    path: page.path,
+    title: `${page.copy.metaTitle} | Home Nura`,
+    description: page.copy.metaDescription,
+    locales: blackFridayLocales(page.category),
   })
 }
 
 export default async function BlackFridayCategoryPage({ params }: { params: Params }) {
   const { lang, category: slug } = await params
-  const category = getBlackFridayCategory(slug)
-  if (!isValidLang(lang) || !category) notFound()
+  const page = isValidLang(lang) ? getBlackFridayPage(slug, lang) : undefined
+  if (!isValidLang(lang) || !page) notFound()
 
-  const copy = category.copy[lang]
+  const { category, copy } = page
   const ui = UI[lang]
   const picks = getBlackFridayPicks(category, lang)
   const links = getBlackFridayLinks(category, lang)
-  const others = BLACK_FRIDAY_CATEGORIES.filter((c) => c.slug !== category.slug)
+  // The market's own list (a page left out of it still links to all of it).
+  const others = getListedBlackFridayPages(lang).filter((p) => p.category !== category)
 
   const breadcrumbSchema = buildBreadcrumbListSchema(lang, [
     { name: ui.home, path: '' },
@@ -118,13 +124,13 @@ export default async function BlackFridayCategoryPage({ params }: { params: Para
         <nav aria-labelledby="bf-others" className="max-w-5xl mx-auto px-4 md:px-6 pb-6">
           <h2 id="bf-others" className="mb-4 text-lg font-bold text-slate-900">{ui.otherCategories}</h2>
           <ul className="flex flex-wrap gap-2">
-            {others.map((c) => (
-              <li key={c.slug}>
+            {others.map((p) => (
+              <li key={p.category.slug}>
                 <Link
-                  href={`/${lang}${blackFridayPath(c.slug)}`}
+                  href={`/${lang}${p.path}`}
                   className="inline-flex min-h-10 items-center rounded-full border border-slate-300 px-4 text-sm font-semibold text-slate-700 transition-colors hover:border-brand-600 hover:text-brand-700"
                 >
-                  {c.copy[lang].name}
+                  {p.copy.name}
                 </Link>
               </li>
             ))}

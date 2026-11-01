@@ -4,7 +4,7 @@ import { getIndexableSilos } from '@/lib/catalog'
 import { HTML_LANG, LANGUAGES, baseLanguage } from '@/lib/i18n'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { BASE_URL } from '@/lib/seo'
-import { BLACK_FRIDAY_CATEGORIES, BLACK_FRIDAY_YEAR, blackFridayPath } from '@/lib/black-friday'
+import { BLACK_FRIDAY_YEAR, blackFridayPath, getBlackFridayPages } from '@/lib/black-friday'
 import { HUB_COPY } from '@/lib/black-friday/copy/hub'
 
 /**
@@ -62,8 +62,9 @@ export function buildLlmsTxt(): string {
     '',
     `## Black Friday ${BLACK_FRIDAY_YEAR}`,
     link(HUB_COPY.fr.h1, `/fr${blackFridayPath()}`, HUB_COPY.en.metaDescription),
-    ...BLACK_FRIDAY_CATEGORIES.map((c) =>
-      link(c.copy.fr.h1, `/fr${blackFridayPath(c.slug)}`, c.copy.en.metaDescription),
+    // French pages (the French market's list, then the pages left out of it).
+    ...getBlackFridayPages('fr').map((p) =>
+      link(p.copy.h1, `/fr${p.path}`, p.category.copy.en?.metaDescription ?? p.copy.metaDescription),
     ),
     '',
     '## Optional',
