@@ -1,0 +1,302 @@
+{
+  "locale": "en",
+  "type": "duel",
+  "slug": "ninja-vs-tower-air-fryer",
+  "updated": "2026-11-01",
+  "metaTitle": "Ninja vs Tower Air Fryer UK 2026: DZ400UK or T17138?",
+  "metaDescription": "Ninja MAX Dual Zone DZ400UK or Tower Vortx Elite T17138? We compare power, top heat, capacity, dishwasher-safe drawers, running costs and guarantees.",
+  "kicker": "Air fryer duel · Two-drawer models",
+  "h1": "Ninja vs Tower air fryer: Ninja DZ400UK or Tower Vortx Elite T17138?",
+  "answer": "For most households, the Ninja MAX Dual Zone DZ400UK is the better buy: 2,470 W, a 240°C Max Crisp setting and drawers that go in the dishwasher. Pick the Tower Vortx Elite T17138 if you want 10.4 litres, a lower 1,700 W draw and up to three years’ guarantee, and don’t mind washing its baskets by hand.",
+  "picks": [
+    {
+      "brand": "Ninja",
+      "model": "Ninja MAX 6-in-1 Dual Zone Air Fryer 9.5L (DZ400UK)",
+      "role": "Our pick for most households",
+      "why": "More power (2,470 W) and more heat (240°C on Max Crisp) than the Tower, six clearly labelled functions, and drawers and crisper plates that go in the dishwasher. Ninja also sells replacement left and right drawers for the DZ400 series on its UK site.",
+      "bestFor": "Families who cook from frozen most nights, want crisp chips and wings quickly, and would rather load the dishwasher than scrub baskets.",
+      "asin": "B0F4KKN7BD",
+      "manufacturerUrl": "https://www.sharkninja.co.uk/ninja-max-6-in-1-dual-zone-air-fryer-9.5l-dz400uk/DZ400UK.html",
+      "specs": {
+        "Capacity": "9.5 litres: two 4.75-litre drawers; Ninja says it feeds up to 8 and fits a 2 kg chicken in each drawer",
+        "Cooking functions": "6: Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate",
+        "Two-drawer modes": "Sync (different settings, same finish time) and Match (same settings in both drawers)",
+        "Top temperature": "240°C on Max Crisp, preset and not adjustable (DZ400UK instruction booklet); Air Fry is preset to 200°C",
+        "Power": "2,470 W, 240 V, 11 A",
+        "Size and weight": "H 32.5 × W 41.5 × D 27 cm, 8.8 kg in Ninja’s product description (the spec table on the same page gives 43.41 × 37.21 × 32.69 cm and 12 kg)",
+        "Dishwasher-safe parts": "Drawers and crisper plates, according to SharkNinja’s UK spec table and the instruction booklet; Ninja recommends hand-washing the drawers to make them last longer",
+        "Drawer removed mid-cook": "Cooking pauses and resumes when the drawer goes back in; in Sync, a drawer left out for more than 2 minutes cancels the programme (booklet)",
+        "In the box": "2 non-stick drawers, 2 non-stick crisper plates, instruction booklet, inspiration guide",
+        "UK colours": "Gun Metal Grey (DZ400UK), Onyx Black (DZ400UKBK)",
+        "Ninja’s own claims": "Up to 75% faster than a fan oven (fish fingers and sausages, preheat included) and up to 65% off your oven energy bill (based on sausages)",
+        "Guarantee": "1 year as standard, 2 years if you register within 28 days (automatic when you buy direct from Ninja), per the instruction booklet; the product page shows 2 years"
+      }
+    },
+    {
+      "brand": "Tower",
+      "model": "Tower Vortx Elite 10.4L Duo Basket Digital Air Fryer (T17138)",
+      "role": "Best for capacity and the longest guarantee",
+      "why": "The larger stated capacity of the two (two 5.2-litre baskets), a lower 1,700 W draw, a shake reminder and eight food presets. The trade-offs: 200°C is the ceiling, the baskets are hand-wash only, and the three-year cover depends on registering within 28 days.",
+      "bestFor": "Households that cook big batches of roast veg, drumsticks and bakes at moderate temperatures and want the longest guarantee.",
+      "asin": "B0CM43QN7V",
+      "manufacturerUrl": "https://www.towerhousewares.co.uk/air-fryers/vortx-elite-104l-duo-basket-digital-air-fryer",
+      "specs": {
+        "Capacity": "10.4 litres: two 5.2-litre baskets; Tower says it suits families of up to 6",
+        "Presets": "8: Steak, Drumsticks, Fish, Prawns, Fries, Pizza, Cake, Dehydrate",
+        "Two-drawer modes": "Sync (same finish time) and Dual Cook (same settings in both baskets)",
+        "Temperature range": "35–200°C in the instruction manual (35–80°C on Dehydrate); the product page says 40–200°C",
+        "Timer": "1–60 minutes; 1–24 hours on Dehydrate",
+        "Power": "1,700 W, 220–240 V",
+        "Size": "H 36.3 × W 45 × D 48.8 cm, as Tower lists it (Which? gives 31 × 40 × 43 cm)",
+        "Dishwasher-safe parts": "No: Tower’s manual says never to put the baskets in the dishwasher (Which?’s spec table says yes; we go by the maker)",
+        "Shake reminder": "Yes: SHK shows on the display two-thirds of the way through",
+        "Basket removed mid-cook": "Cooking stops, “Pot” shows on the display, and it resumes when the basket goes back in (manual)",
+        "In the box": "2 crisper grill plates",
+        "Spare parts": "The manual lists a grill plate (T1714401) and left and right baskets (T1714402, T1714403); on 1 November 2026 Tower’s online shop listed no baskets for this model",
+        "Guarantee": "1 year, extended to 3 years if you register online with Tower within 28 days of purchase"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Spec",
+      "Ninja DZ400UK",
+      "Tower T17138"
+    ],
+    "rows": [
+      [
+        "Capacity",
+        "9.5 litres (2 × 4.75 L)",
+        "10.4 litres (2 × 5.2 L)"
+      ],
+      [
+        "Maker’s serving claim",
+        "Up to 8 people; a 2 kg chicken per drawer",
+        "Families of up to 6"
+      ],
+      [
+        "Which? capacity figure",
+        "2.2 kg for the earlier AF400UK, same 2 × 4.75 L drawers (DZ400UK not reviewed)",
+        "2.4 kg"
+      ],
+      [
+        "Power",
+        "2,470 W",
+        "1,700 W"
+      ],
+      [
+        "Top temperature",
+        "240°C (Max Crisp)",
+        "200°C"
+      ],
+      [
+        "Functions or presets",
+        "6 functions",
+        "8 food presets"
+      ],
+      [
+        "Two-drawer modes",
+        "Sync and Match",
+        "Sync and Dual Cook"
+      ],
+      [
+        "Drawers or baskets in the dishwasher",
+        "Yes (Ninja advises hand-washing to extend their life)",
+        "No, hand-wash only (Tower’s manual)"
+      ],
+      [
+        "Pauses when you pull a drawer out",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Shake reminder",
+        "No (the booklet suggests shaking)",
+        "Yes"
+      ],
+      [
+        "Most it can cost per hour at 26.32p/kWh",
+        "65.0p",
+        "44.7p"
+      ],
+      [
+        "Guarantee",
+        "1 year, or 2 if registered within 28 days",
+        "1 year, or 3 if registered within 28 days"
+      ],
+      [
+        "Spare drawers or baskets",
+        "Left and right DZ400 drawers on Ninja’s UK site",
+        "Baskets and grill plate listed in the manual; no baskets for this model in Tower’s online shop"
+      ],
+      [
+        "Size as the maker lists it (H × W × D)",
+        "32.5 × 41.5 × 27 cm",
+        "36.3 × 45 × 48.8 cm"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Heat and power",
+      "weight": 30,
+      "explanation": "Crisp chips and wings depend on how hot the air gets and how quickly the fryer recovers when you load cold food. Which? has reviewed only the Tower of these two, and its results are for members, so we compare what the makers publish: wattage, top temperature and watts per litre of drawer space."
+    },
+    {
+      "name": "Cleaning",
+      "weight": 20,
+      "explanation": "Air fryer drawers need washing after every use (Tower’s own manual says so), so whether they can go in the dishwasher matters every single day. We read it from each maker’s product page and instruction manual."
+    },
+    {
+      "name": "Usable capacity",
+      "weight": 15,
+      "explanation": "We compare the claimed litres, Which?’s published capacity figures and each maker’s serving claim, because Which? warns that claimed litres don’t always match how much food really fits."
+    },
+    {
+      "name": "Guarantee and spare parts",
+      "weight": 15,
+      "explanation": "Length of cover, what you have to do to get it, and whether the maker sells replacement drawers or baskets for this model in the UK. Baskets and trays wear out long before the fan does."
+    },
+    {
+      "name": "Running cost",
+      "weight": 10,
+      "explanation": "Rated wattage multiplied by Ofgem’s average unit rate of 26.32p/kWh (1 October to 31 December 2026). It is a ceiling, not a measured figure, so it carries less weight than heat and cleaning."
+    },
+    {
+      "name": "Everyday controls",
+      "weight": 10,
+      "explanation": "Presets, a shake reminder and what happens when you pull a drawer out mid-cook, as each maker documents them."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Ninja or Tower: which one to choose",
+      "html": "<p><strong>Choose the Ninja DZ400UK if</strong> you mostly cook chips, nuggets, wings and other frozen food, want the hottest setting (240°C on Max Crisp) and the most power (2,470 W), and want to put the drawers and crisper plates straight in the dishwasher.</p><p><strong>Choose the Tower T17138 if</strong> you cook big batches at normal roasting and baking temperatures, want a little more basket space (10.4 litres), a reminder to shake and the lowest maximum draw (1,700 W), and will register it for the full three years of cover.</p><p>Both cook two foods at once, both have a <em>Sync</em> mode that finishes them together, and both pause when you pull a drawer out. Neither maker lists a viewing window on these two models.</p>"
+    },
+    {
+      "h2": "Why these two models",
+      "html": "<p>From Ninja we picked the MAX 6-in-1 Dual Zone 9.5L, the updated version of its two-drawer Dual Zone design, sold as the DZ400UK in Gun Metal Grey and the DZ400UKBK in Onyx Black. From Tower we picked the Vortx Elite 10.4L Duo Basket (T17138), a two-basket model in the same size class: on sale in Tower’s own shop on 1 November 2026, sold on Amazon and reviewed by Which? (first reviewed November 2024).</p><p>If you have the older Tower Vortx 9L Dual Basket (T17088) in mind, we cover it under “Other Ninja and Tower options” below: Amazon and other retailers still sell it, but on 1 November 2026 Tower’s own shop showed it as out of stock.</p>"
+    },
+    {
+      "h2": "Power and heat: 2,470 W and 240°C against 1,700 W and 200°C",
+      "html": "<p>This is the biggest difference between the two. The Ninja draws <strong>2,470 W</strong> and its Max Crisp function runs at a fixed <strong>240°C</strong>, a setting made for frozen chips and nuggets. The Tower draws <strong>1,700 W</strong> and tops out at <strong>200°C</strong> on every preset; its manual sets Fries and Chicken to 200°C by default.</p><p>Spread over the drawer space, that is about 260 W per litre for the Ninja and about 163 W per litre for the Tower. It is a rough guide, not a test result, but more power per litre usually means faster recovery after you load cold food and crisper edges on frozen food. Tower’s manual also tells you to add 3 minutes if the fryer is cold; Ninja’s booklet says its fryer doesn’t need preheating.</p><p>Where the Tower’s lower ceiling matters least: roasting vegetables, drumsticks and fish, and baking, for which its manual suggests 150°C.</p>"
+    },
+    {
+      "h2": "Capacity: 10.4 litres against 9.5, closer than it looks",
+      "html": "<p>On paper the Tower is bigger: two <strong>5.2-litre</strong> baskets against the Ninja’s two <strong>4.75-litre</strong> drawers, about 9% more space. The makers’ own serving claims run the other way: Ninja says the DZ400UK feeds up to 8 people and takes a 2 kg chicken in each drawer; Tower says the T17138 suits families of up to 6.</p><p>Which? warns in its guide to dual air fryers (1 October 2026) that claimed litres don’t always match how much food really fits. Its review of the T17138 gives a maximum cooking capacity of <strong>2.4 kg</strong>. It hasn’t reviewed the DZ400UK, but for the earlier Ninja AF400UK, which has the same two 4.75-litre drawers, it gives <strong>2.2 kg</strong>: eight to ten portions of chips or six chicken thighs. On those figures the Tower holds slightly more, roughly one extra portion of chips.</p><ul><li><strong>A household of 2 to 4:</strong> either is plenty; one drawer handles most weeknight meals.</li><li><strong>5 or more, or batch cooking:</strong> both work; the Ninja’s heat helps with large loads of frozen food, the Tower’s bigger baskets with roast veg in a single layer.</li></ul>"
+    },
+    {
+      "h2": "Cleaning: dishwasher or sink",
+      "html": "<p>SharkNinja’s UK spec table and the DZ400UK instruction booklet list the drawers and crisper plates as dishwasher safe, although Ninja recommends washing the drawers by hand to make them last longer. Tower’s T17138 manual is blunt: the cooking baskets are <strong>not</strong> dishwasher-proof, and you should wash them and the grill plates with hot soapy water and a non-abrasive sponge. Which?’s specification table for the T17138 says dishwasher safe; we go by the maker’s own manual.</p><p>Tower also asks you to clean the fryer after every use and warns that metal utensils and abrasive pads damage the non-stick coating. If you air-fry most days, that is a real chore to weigh against the longer guarantee.</p>"
+    },
+    {
+      "h2": "What they cost to run at the 26.32p price cap",
+      "html": "<p>Ofgem’s price cap for <strong>1 October to 31 December 2026</strong> sets an average electricity unit rate of <strong>26.32p per kWh</strong> for Direct Debit customers on a standard variable tariff in England, Scotland and Wales (announced 26 August 2026). That rate already reflects the government’s removal of VAT from electricity bills from 1 October 2026 to 31 March 2027. The standing charge is paid whatever you cook, so we leave it out.</p><ul><li><strong>Ninja DZ400UK, 2,470 W:</strong> at most 65.0p an hour, or 21.7p for a 20-minute cook.</li><li><strong>Tower T17138, 1,700 W:</strong> at most 44.7p an hour, or 14.9p for a 20-minute cook.</li></ul><p>These are ceilings: both fryers cycle their heaters once they reach temperature, so real use costs less, and a less powerful fryer can need longer to cook the same food. Either way the gap is a few pence a meal. Ofgem announces the next cap on <strong>25 November 2026</strong>, for 1 January to 31 March 2027, and we will update these figures then. On a fixed or time-of-use tariff, or in Northern Ireland, use the unit rate on your own bill.</p>"
+    },
+    {
+      "h2": "Guarantee, spare parts and safety recalls",
+      "html": "<p><strong>Guarantee.</strong> Ninja’s DZ400UK booklet gives 1 year as standard, or 2 years if you register within 28 days; buying direct from Ninja registers it automatically. SharkNinja’s product page simply shows 2 years. Tower’s T17138 manual gives 12 months, extended to 3 years if you register online within 28 days of purchase, and says the warranty is void if you fit non-Tower spare parts.</p><p><strong>Spare parts.</strong> SharkNinja’s UK site sells replacement left and right drawers for the DZ400 series. Tower’s manual lists a replacement grill plate (T1714401) and left and right baskets (T1714402 and T1714403), to order through its website or customer support line; on 1 November 2026 Tower’s online shop listed baskets for other models, such as the T17088 and T17136, but none for the T17138.</p><p><strong>Recalls.</strong> The Office for Product Safety and Standards published a recall of six Tower air fryers on <strong>8 April 2025</strong> (updated 24 July 2025 and 9 March 2026) because they could overheat and catch fire: the T17023, T17061BLK, T17067, T17087, T17129L (sold by Lidl) and T17129 (sold by Argos), made between January 2022 and April 2023. Neither the T17138 nor the T17088 is on that list. A search of the GOV.UK product safety alerts on 1 November 2026 found no Ninja air fryer recall.</p>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>We give each criterion to the model that comes out clearly ahead on the makers’ published specs and independent sources, and split it when the gap is too small to matter or the sources point different ways.</p><ul><li><strong>Heat and power (30):</strong> Ninja, with 2,470 W against 1,700 W and 240°C against 200°C.</li><li><strong>Cleaning (20):</strong> Ninja, whose drawers go in the dishwasher; Tower’s manual says its baskets are hand-wash only.</li><li><strong>Usable capacity (15):</strong> split. The Tower has about 9% more litres and Which?’s figure for it is 0.2 kg higher, roughly one portion of chips; Ninja claims more servings and a 2 kg chicken per drawer.</li><li><strong>Guarantee and spare parts (15):</strong> Tower, narrowly: up to 3 years against 2, and its manual lists replacement baskets, although only Ninja sells drawers for this model online.</li><li><strong>Running cost (10):</strong> Tower, with the lower maximum draw.</li><li><strong>Everyday controls (10):</strong> Tower, with a shake reminder and eight food presets; both pause when you pull a drawer out.</li></ul><p>That gives the Ninja 50 points outright, the Tower 35, with 15 shared: the Ninja comes first. If you never put cookware in the dishwasher and mostly roast rather than crisp, the Tower’s strengths count for more.</p>"
+    },
+    {
+      "h2": "Other Ninja and Tower options",
+      "html": "<ul><li><strong>Tower Vortx 9L Dual Basket (T17088):</strong> the Tower many people mean by “Ninja vs Tower”. Tower lists two 4.5-litre baskets, 2,600 W, 50 to 200°C and a 60-minute timer. On 1 November 2026 Tower’s own shop showed it as out of stock, while Amazon and other retailers still sold it; check which model you are getting before you buy.</li><li><strong>Tower Vortx Vizion 8 Litre Digital Dual Basket (T17151):</strong> two 4-litre baskets with viewing windows and internal lights, if you want to watch food cook without opening a drawer.</li><li><strong>Ninja 6-in-1 Dual Zone 7.6L (DZ300UK):</strong> the smaller two-drawer Ninja; SharkNinja says the DZ400UK cooks up to 25% more.</li><li><strong>Ninja Double Stack (SL300UK, 7.6 litres, or SL400UK, 9.5 litres):</strong> two drawers stacked one above the other, for narrow worktops.</li></ul>"
+    },
+    {
+      "h2": "How we compared",
+      "html": "<p>We don’t test air fryers ourselves. We compared the specifications on SharkNinja’s and Tower’s UK websites and in both makers’ instruction manuals, read the published findings of Which?, the UK consumer association, and checked the GOV.UK product safety alerts and Ofgem’s price cap. Where a maker’s pages, its manual or Which? disagree, we say so. Specs and pages were read on 1 November 2026.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Ninja better than Tower for air fryers?",
+      "a": "Between the Ninja DZ400UK and the Tower T17138, the Ninja is the better choice for most kitchens: more power (2,470 W against 1,700 W), a hotter top setting (240°C against 200°C) and dishwasher-safe drawers. The Tower offers more litres, a lower maximum draw and up to three years’ guarantee."
+    },
+    {
+      "q": "Can Tower air fryer baskets go in the dishwasher?",
+      "a": "Not according to Tower. Its T17138 instruction manual says the cooking baskets are not dishwasher-proof and should be washed with hot soapy water and a non-abrasive sponge. The Ninja DZ400UK’s drawers and crisper plates are dishwasher safe, although Ninja recommends hand-washing the drawers to make them last longer."
+    },
+    {
+      "q": "Which uses less electricity, Ninja or Tower?",
+      "a": "The Tower T17138 has the lower maximum draw: 1,700 W, or at most 44.7p an hour at Ofgem’s 26.32p/kWh cap, against 2,470 W and 65.0p for the Ninja DZ400UK. Real use costs less than that for both, and the gap is a few pence per meal."
+    },
+    {
+      "q": "Has Tower recalled any air fryers?",
+      "a": "Yes. On 8 April 2025 the Office for Product Safety and Standards published a recall for fire risk covering the T17023, T17061BLK, T17067, T17087, T17129L (Lidl) and T17129 (Argos), made between January 2022 and April 2023. The T17138 and T17088 are not affected. Check the model number on the rating label."
+    },
+    {
+      "q": "Is Tower a British brand?",
+      "a": "Tower describes itself as a British brand with more than 100 years behind it, and its website is run from Stoke-on-Trent. Ninja belongs to SharkNinja, whose UK arm, SharkNinja Europe Ltd, gives a Leeds postal address."
+    },
+    {
+      "q": "What does Sync do on a dual air fryer?",
+      "a": "Sync lets you set a different time and temperature in each drawer and still have both finish together. Ninja pairs it with Match, which copies one drawer’s settings to the other; Tower’s equivalent of Match is called Dual Cook."
+    },
+    {
+      "q": "Do Ninja and Tower air fryers stop when you open the drawer?",
+      "a": "Yes, both do. The Ninja DZ400UK pauses when you pull a drawer out and carries on when it goes back in; in Sync, a drawer left out for more than 2 minutes cancels the programme. The Tower T17138 stops, shows “Pot” on the display and resumes when the basket is back in."
+    },
+    {
+      "q": "How long is the guarantee on Ninja and Tower air fryers?",
+      "a": "Ninja gives 1 year as standard on the DZ400UK, or 2 years if you register within 28 days (automatic when you buy direct from Ninja). Tower gives 1 year on the T17138, extended to 3 years if you register online within 28 days of purchase."
+    },
+    {
+      "q": "Is the Tower Vortx 9L (T17088) the same as the T17138?",
+      "a": "No. The T17088 has two 4.5-litre baskets and 2,600 W, according to Tower; the T17138 has two 5.2-litre baskets and 1,700 W. The model number is on the rating label and in every retailer’s listing."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Which?",
+      "url": "https://www.which.co.uk/reviews/air-fryers/article/philips-airfryer-vs-tefal-actifry-which-one-should-you-buy-aLVyo0N2eBJv",
+      "note": "Ninja vs Tower vs Tefal air fryers (Jamie Mayne, 1 October 2026): compares the brands’ average lab test scores, score ranges and star ratings for chips, chicken and ease of use (data from June 2026, members only). Which? says Tower’s three-year warranty is longer than Ninja’s and Tefal’s, and that most Ninja air fryers have no viewing window."
+    },
+    {
+      "name": "Which?",
+      "url": "https://www.which.co.uk/reviews/air-fryers/tower-t17138",
+      "note": "Lab review of the Tower Vortx Elite 10.4L Duo Basket T17138, first reviewed in November 2024 (model released April 2024). Its test score, chip and cooking-time results are for members, so we don’t reproduce them. Its public spec table gives a maximum cooking capacity of 2.4 kg and marks the fryer dishwasher safe, which Tower’s own manual contradicts. On 1 November 2026 we found no Which? review of the Ninja DZ400UK; its review of the earlier AF400UK gives 2.2 kg."
+    },
+    {
+      "name": "Which?",
+      "url": "https://www.which.co.uk/reviews/air-fryers/article/best-dual-air-fryer-am6QL1l58eZN",
+      "note": "Best dual air fryers (1 October 2026): Which? warns that manufacturers’ claimed litres don’t always match usable cooking space, and estimates the 9.5-litre Ninja AF400UK at 2.2 kg of food, eight to ten portions of chips or six chicken thighs."
+    },
+    {
+      "name": "Which?",
+      "url": "https://www.which.co.uk/reviews/air-fryers/article/which-air-fryer-brand-to-buy-afid98U6UDPM",
+      "note": "Which air fryer brand is the most reliable? (20 August 2025): survey of 8,659 air fryer owners in April 2025, with Ninja and Tower among the brands in its fault and customer-score tables (results for members). Which? notes Ninja sells baskets and racks but no internal parts, and gives each brand’s guarantee terms."
+    }
+  ],
+  "sources": [
+    "https://www.sharkninja.co.uk/ninja-max-6-in-1-dual-zone-air-fryer-9.5l-dz400uk/DZ400UK.html",
+    "https://www.sharkninja.co.uk/ninja-max-6-in-1-dual-zone-air-fryer-9.5l-onyx-black/DZ400UKBK.html",
+    "https://www.ninjakitchen.ie/cdn/shop/files/DZ400UK_IB_MP_250120_Mv1_LR.pdf?v=9040816212007847145",
+    "https://www.towerhousewares.co.uk/air-fryers/vortx-elite-104l-duo-basket-digital-air-fryer",
+    "https://rkwwholesale-static.myshopblocks.com/uploads/feec4f562a16dd1982a0cdca8c207285/T17138-IM.pdf",
+    "https://www.towerhousewares.co.uk/air-fryer-accessories-and-spares",
+    "https://www.towerhousewares.co.uk/products/dual-basket-air-fryers",
+    "https://www.towerhousewares.co.uk/kettles-ymkjv3/vortx-9l-dual-basket-air-fryer",
+    "https://www.towerhousewares.co.uk/air-fryers/vortx-vizion-8-litre-digital-dual-basket-air-fryer",
+    "https://www.towerhousewares.co.uk/pages/air-fryer-recall",
+    "https://www.gov.uk/product-safety-alerts-reports-recalls/product-recall-tower-air-fryers-2503-0044",
+    "https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026",
+    "https://www.which.co.uk/reviews/air-fryers/article/philips-airfryer-vs-tefal-actifry-which-one-should-you-buy-aLVyo0N2eBJv",
+    "https://www.which.co.uk/reviews/air-fryers/tower-t17138",
+    "https://www.which.co.uk/reviews/air-fryers/article/best-dual-air-fryer-am6QL1l58eZN",
+    "https://www.which.co.uk/reviews/air-fryers/article/which-air-fryer-brand-to-buy-afid98U6UDPM",
+    "https://www.which.co.uk/reviews/air-fryers/ninja-foodi-max-dual-zone-af400uk-rt"
+  ],
+  "related": [
+    "/en/guides/airfryers",
+    "/en/blog/ninja-vs-philips-quel-choisir",
+    "/en/blog/airfryer-simple-vs-double-panier",
+    "/en/blog/meilleur-airfryer-xxl-grande-famille",
+    "/en/blog/airfryer-economies-energie",
+    "/en/blog/entretien-nettoyage-airfryer",
+    "/en/black-friday/airfryers",
+    "/en/methodologie"
+  ]
+}

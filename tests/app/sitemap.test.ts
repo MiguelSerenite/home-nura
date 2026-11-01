@@ -296,7 +296,7 @@ describe('app/sitemap.ts', () => {
       }
       expect(hubModifiedIso(slug, 'us')).toBe('2026-11-01')
       expect(hubModifiedIso(slug, 'ca')).toBe('2026-11-01')
-      expect(hubModifiedIso(slug, 'fr')).toBe(categoryModifiedIso(slug, SITE_LAST_UPDATED_ISO))
+      expect(hubModifiedIso(slug, 'fr')).toBe(categoryModifiedIso(slug, SITE_LAST_UPDATED_ISO, 'fr'))
     }
   })
 })

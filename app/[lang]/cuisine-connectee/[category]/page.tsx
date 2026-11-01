@@ -604,7 +604,7 @@ export default async function CategoryPage({
   const products = getSmartKitchenProductsByCategory(safeLang, safeCat)
   const faqs = getSmartKitchenFaqs(safeLang, safeCat)
   const faqTitle = faqSectionTitles[safeLang] || faqSectionTitles.fr
-  const faqModifiedIso = categoryModifiedIso(safeCat, SITE_LAST_UPDATED_ISO)
+  const faqModifiedIso = categoryModifiedIso(safeCat, SITE_LAST_UPDATED_ISO, safeLang)
   const faqUpdatedText = `${lastUpdatedLabel[safeLang]} ${formatLastUpdated(safeLang, faqModifiedIso)}`
 
   // "Answer first" (lib/catalog/answer-first): picks, table and ranking

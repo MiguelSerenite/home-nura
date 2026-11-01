@@ -14,8 +14,6 @@ export interface MarketPageUi {
   sections: Readonly<Record<MarketPageType, string>>
   answerTitle: string
   picksTitle: Readonly<Record<MarketPageType, string>>
-  /** Duel column heading over a pick's `bestFor`. */
-  chooseIf: (name: string) => string
   bestFor: string
   specs: string
   /** Phone toggle over a pick's why and specs. */
@@ -42,7 +40,6 @@ const ENGLISH = {
   sections: { duel: 'Comparisons', guide: 'Guides', news: 'News' },
   answerTitle: 'The short answer',
   picksTitle: { duel: 'Which one should you choose?', guide: 'Our three picks', news: 'Models affected' },
-  chooseIf: (name: string) => `Choose the ${name} if…`,
   bestFor: 'Best for',
   specs: 'Specifications',
   details: 'Details',
@@ -65,8 +62,7 @@ export const MARKET_PAGE_UI: Readonly<Record<Lang, MarketPageUi>> = {
     sections: { duel: 'Duels', guide: 'Guides', news: 'Actualités' },
     answerTitle: 'La réponse courte',
     picksTitle: { duel: 'Lequel choisir ?', guide: 'Nos trois choix', news: 'Les modèles concernés' },
-    chooseIf: (name) => `Choisissez ${name} si…`,
-    bestFor: 'Pour qui',
+    bestFor: 'Idéal pour',
     specs: 'Caractéristiques',
     details: 'Détails',
     manufacturerPage: 'Page du fabricant',
@@ -91,7 +87,6 @@ export const MARKET_PAGE_UI: Readonly<Record<Lang, MarketPageUi>> = {
     sections: { duel: 'Vergleiche', guide: 'Ratgeber', news: 'Aktuelles' },
     answerTitle: 'Die kurze Antwort',
     picksTitle: { duel: 'Welches Gerät passt zu Ihnen?', guide: 'Unsere drei Empfehlungen', news: 'Betroffene Modelle' },
-    chooseIf: (name) => `Wählen Sie ${name}, wenn …`,
     bestFor: 'Ideal für',
     specs: 'Technische Daten',
     details: 'Details',
@@ -113,7 +108,6 @@ export const MARKET_PAGE_UI: Readonly<Record<Lang, MarketPageUi>> = {
     sections: { duel: 'Comparativas', guide: 'Guías', news: 'Noticias' },
     answerTitle: 'La respuesta corta',
     picksTitle: { duel: '¿Cuál elegir?', guide: 'Nuestras tres opciones', news: 'Modelos afectados' },
-    chooseIf: (name) => `Elige ${name} si…`,
     bestFor: 'Ideal para',
     specs: 'Características',
     details: 'Detalles',
@@ -136,7 +130,6 @@ export const MARKET_PAGE_UI: Readonly<Record<Lang, MarketPageUi>> = {
     sections: { duel: 'Confronti', guide: 'Guide', news: 'Notizie' },
     answerTitle: 'La risposta in breve',
     picksTitle: { duel: 'Quale scegliere?', guide: 'Le nostre tre scelte', news: 'Modelli interessati' },
-    chooseIf: (name) => `Scegli ${name} se…`,
     bestFor: 'Ideale per',
     specs: 'Caratteristiche',
     details: 'Dettagli',
@@ -158,7 +151,6 @@ export const MARKET_PAGE_UI: Readonly<Record<Lang, MarketPageUi>> = {
     sections: { duel: 'Vergelijkingen', guide: 'Gidsen', news: 'Nieuws' },
     answerTitle: 'Het korte antwoord',
     picksTitle: { duel: 'Welke kies je?', guide: 'Onze drie keuzes', news: 'Betrokken modellen' },
-    chooseIf: (name) => `Kies de ${name} als…`,
     bestFor: 'Ideaal voor',
     specs: 'Specificaties',
     details: 'Details',
@@ -180,7 +172,6 @@ export const MARKET_PAGE_UI: Readonly<Record<Lang, MarketPageUi>> = {
     sections: { duel: 'Porównania', guide: 'Poradniki', news: 'Aktualności' },
     answerTitle: 'Krótka odpowiedź',
     picksTitle: { duel: 'Który wybrać?', guide: 'Nasze trzy propozycje', news: 'Modele, których to dotyczy' },
-    chooseIf: (name) => `Wybierz ${name}, jeśli…`,
     bestFor: 'Dla kogo',
     specs: 'Specyfikacja',
     details: 'Szczegóły',
@@ -202,7 +193,6 @@ export const MARKET_PAGE_UI: Readonly<Record<Lang, MarketPageUi>> = {
     sections: { duel: 'Jämförelser', guide: 'Guider', news: 'Nyheter' },
     answerTitle: 'Det korta svaret',
     picksTitle: { duel: 'Vilken ska du välja?', guide: 'Våra tre val', news: 'Berörda modeller' },
-    chooseIf: (name) => `Välj ${name} om…`,
     bestFor: 'Passar för',
     specs: 'Specifikationer',
     details: 'Detaljer',

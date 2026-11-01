@@ -53,7 +53,7 @@ export function getHubChangelog(categorySlug: string, lang: Lang, log: readonly 
  * site-wide date), or its newest changelog entry when that is later.
  */
 export function hubModifiedIso(categorySlug: string, lang: Lang, log: readonly HubChangelogEntry[] = HUB_CHANGELOG): string {
-  const base = categoryModifiedIso(categorySlug, SITE_LAST_UPDATED_ISO)
+  const base = categoryModifiedIso(categorySlug, SITE_LAST_UPDATED_ISO, lang)
   const latest = getHubChangelog(categorySlug, lang, log)[0]?.date
   return latest && latest > base ? latest : base
 }

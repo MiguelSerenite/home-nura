@@ -1,0 +1,335 @@
+{
+  "locale": "en",
+  "type": "duel",
+  "slug": "shark-vs-dyson-cordless-vacuum",
+  "updated": "2026-11-01",
+  "metaTitle": "Shark vs Dyson Cordless: PowerDetect Speed or V10 Konical?",
+  "metaDescription": "Shark PowerDetect Speed Clean & Empty or Dyson V10 Konical with Auto-empty Dok? Docks, carpet, pet hair, battery life and guarantees compared for UK homes.",
+  "kicker": "Duel · Cordless vacuums",
+  "h1": "Shark vs Dyson cordless: PowerDetect Speed Clean & Empty or V10 Konical with Auto-empty Dok?",
+  "answer": "For most UK homes we put the Shark PowerDetect Speed Clean & Empty first: it adjusts its own power to the floor and the dirt, its dock empties into a bin rather than a bag, and Shark’s registered guarantee runs five years against Dyson’s two. The Dyson V10 Konical with Auto-empty Dok is lighter and shines on hard floors and long hair. Specifications checked on 1 November 2026.",
+  "picks": [
+    {
+      "brand": "Shark",
+      "model": "PowerDetect Speed Clean & Empty Pet Pro (IA3241UKT)",
+      "role": "Our pick: carpets, automatic power and a dock with no bags to buy",
+      "why": "It is the one of the two that sets its own suction, sensing floor type, dirt, edges and the direction you push, and TechRadar scored its cleaning 4.5 out of 5. Its dock empties into a reusable bin rather than a liner, and Shark covers the vacuum for five years once registered.",
+      "bestFor": "Carpeted homes and rugs, moulting pets, anyone who wants a long guarantee and no dock bags to buy",
+      "asin": "B0GNSQTYHY",
+      "manufacturerUrl": "https://www.sharkninja.co.uk/shark-powerdetect-speed-clean-and-empty-pet-pro-cordless-vacuum-ultramarine-ia3241ukt/IA3241UKT.html",
+      "specs": {
+        "Model number": "IA3241UKT (Ultramarine)",
+        "Weight": "3.22 kg as a stick and 1.59 kg as a handheld (Shark’s figures for the dock-free IA1241UK); 6.44 kg listed for the bundle with the dock",
+        "Run time": "up to 60 minutes (Eco mode, non-motorised tool)",
+        "Charge time": "5 hours",
+        "Dust cup": "0.47 L",
+        "Self-emptying dock": "Auto-Empty Charging Dock with anti-odour: empties and charges after every clean, up to 45 days of dust and debris",
+        "Size on the dock": "37.49 × 26.01 × 114 cm (L × W × H)",
+        "Automatic power": "four PowerDetect technologies: Dirt Detect, Edge Detect, Floor Detect and Direction Detect (picks up on forward and backward strokes)",
+        "Dust light": "Reveal Technology: angled cyan beam on hard floors",
+        "Hair": "anti-hair wrap brush-roll (Shark calls it self-cleaning on the dock-free IA1241UK page)",
+        "Bending wand": "Flexology: bends to reach under furniture and folds for storage",
+        "Filtration": "Anti-Allergen Complete Seal and HEPA filtration: locks away up to 99.97% of allergens (Shark cites ASTM F3150, particles of 0.3 microns or larger)",
+        "Cleaning path": "21.08 cm",
+        "Power rating": "350 W (no air-watt figure published)",
+        "Battery": "removable lithium-ion; a handheld battery pack, XIABTR540EU, is listed among the add-ons",
+        "In the box": "Auto-Empty Charging Dock, 20 cm Duster-Crevice Tool, motorised pet tool, lithium-ion battery",
+        "Guarantee": "5 years on registration with Shark (2 years for the battery)"
+      }
+    },
+    {
+      "brand": "Dyson",
+      "model": "V10 Konical + Auto-empty Dok",
+      "role": "The alternative: lighter, superb on hard floors and long hair",
+      "why": "At 2.65 kg it is the lighter stick, its two conical brush bars are built so long hair cannot wrap, and its green light picks out fine dust on hard floors. Testers liked the vacuum a lot; Ideal Home and TechRadar found the Dok very tall and saw it leave hair in the bin.",
+      "bestFor": "Mostly hard floors, long hair, buyers who want the lightest stick, owners of a Dyson V8 Cyclone (the Dok fits it and the tools swap)",
+      "asin": "B0GR5PGML1",
+      "manufacturerUrl": "https://www.dyson.co.uk/vacuum-cleaners/cordless/v10-konical/black-copper-auto-empty-dok",
+      "specs": {
+        "Weight": "2.65 kg (Dyson’s launch specifications; the UK page for the V10 Konical on its own gives 2.73 kg)",
+        "Suction": "150 AW (IEC 62885-4:2023, Boost mode, at the inlet)",
+        "Run time": "up to 60 minutes (Eco mode, handheld)",
+        "Charge time": "4 hours",
+        "Bin": "0.5 L (0.54 L in Dyson’s launch specifications)",
+        "Self-emptying dock": "Auto-empty Dok: empties and charges after every clean, sealed 2.5 L liner holding up to 60 days of dust, HEPA filtration, storage for three tools",
+        "Dok size and weight": "337 × 292 × 1,206 mm (L × W × H), 7.2 kg",
+        "Cleaner head": "All Floor Cones: two rotating conical brush bars (tested with hair up to 60 cm), nylon bristles and soft fibres, laser-like green light",
+        "Power modes": "Eco, Medium and MAX on a single button (no trigger to hold)",
+        "Filtration": "fully sealed five-stage HEPA: 99.99% of particles down to 0.1 microns (ASTM F3150)",
+        "Motor and cyclones": "up to 110,000 rpm, 15 cyclones",
+        "Battery": "seven-cell lithium-ion, click-in and swappable",
+        "In the box": "Auto-empty Dok, All Floor Cones head, Mini Motorised Tool, Crevice tool, Wall Dok",
+        "Compatibility": "Dok also works with the Dyson V8 Cyclone; tools swap between V8, V8 Cyclone and V10 Konical",
+        "Guarantee": "2 years, battery included"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Spec",
+      "Shark PowerDetect Speed Clean & Empty",
+      "Dyson V10 Konical + Auto-empty Dok"
+    ],
+    "rows": [
+      [
+        "Weight as a stick",
+        "3.22 kg",
+        "2.65 kg (2.73 kg on the product page)"
+      ],
+      [
+        "Claimed run time",
+        "up to 60 min (Eco, non-motorised tool)",
+        "up to 60 min (Eco, handheld)"
+      ],
+      [
+        "Run time at full power, as measured",
+        "14 min (Which?); 10 min 38 s (TechRadar)",
+        "6 min 25 s on Boost (Trusted Reviews); up to 7 min in MAX on carpet (Good Housekeeping UK)"
+      ],
+      [
+        "Charge time",
+        "5 h (Shark); 4 h 6 min measured by Which?",
+        "4 h"
+      ],
+      [
+        "Battery gauge",
+        "screen shows mode, battery left and dirt level (TechRadar)",
+        "none: a light flashes shortly before it stops (Trusted Reviews)"
+      ],
+      [
+        "Automatic power",
+        "yes: floor, dirt, edge and direction sensing",
+        "no: Eco, Medium or MAX chosen by hand"
+      ],
+      [
+        "Dust light",
+        "cyan Reveal beam",
+        "green laser-like light"
+      ],
+      [
+        "Anti-tangle",
+        "anti-hair wrap brush-roll",
+        "two conical brush bars"
+      ],
+      [
+        "Bending wand",
+        "yes (Flexology)",
+        "no"
+      ],
+      [
+        "Bin on the vacuum",
+        "0.47 L",
+        "0.5 L"
+      ],
+      [
+        "Dock capacity",
+        "up to 45 days; 2-litre bin you empty and reuse (TechRadar)",
+        "up to 60 days in a sealed 2.5 L liner"
+      ],
+      [
+        "Dock size",
+        "37.49 × 26.01 × 114 cm, 6.44 kg with the vacuum docked",
+        "33.7 × 29.2 × 120.6 cm, 7.2 kg"
+      ],
+      [
+        "Filtration",
+        "HEPA, up to 99.97% of allergens (0.3 microns and larger)",
+        "HEPA, 99.99% down to 0.1 microns"
+      ],
+      [
+        "Tools in the box",
+        "Duster-Crevice Tool, motorised pet tool",
+        "Crevice tool, Mini Motorised Tool, Wall Dok"
+      ],
+      [
+        "Guarantee",
+        "5 years on registration (battery 2 years)",
+        "2 years, battery included"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Cleaning on carpet, hard floors and hair",
+      "weight": 35,
+      "explanation": "It is what you buy a vacuum for. We compare the cleaner heads, whether the power adjusts by itself and what UK testers measured. Slight edge: Shark. Its sensors raise suction on carpet and dirt, TechRadar scored its cleaning 4.5 out of 5 (4 out of 5 for the Dyson) and WIRED’s side-by-side test put it one point ahead. The Dyson is excellent on hard floors (all the rice in Trusted Reviews’ test) but Good Housekeeping UK saw it lift only around 75% of the dust on carpet."
+    },
+    {
+      "name": "The self-emptying dock",
+      "weight": 20,
+      "explanation": "Both bundles exist to spare you emptying the bin. We compare capacity, what you have to keep buying, the size and how reliably testers saw each one empty. Advantage: Shark. Its dock holds up to 45 days of dust by Shark’s count, in a 2-litre bin (TechRadar’s figure) that you empty and reuse. Dyson’s holds up to 60 days but in 2.5 L liners, stands 1.2 metres tall, and both Ideal Home and TechRadar saw it leave hair behind."
+    },
+    {
+      "name": "Weight and handling",
+      "weight": 15,
+      "explanation": "A stick vacuum gets carried upstairs and held at arm’s length. We compare listed weights, the controls and how each reaches under furniture. Advantage: Dyson, at 2.65 kg against 3.22 kg, with one button and no trigger to hold. The Shark replies with a wand that bends under beds and sofas."
+    },
+    {
+      "name": "Battery and charging",
+      "weight": 15,
+      "explanation": "Both claim up to 60 minutes, but only in Eco mode with a light tool. We compare measured run times, charge times and whether you can see what is left. Even: at full power testers got roughly 6 to 14 minutes from the two; the Dyson recharges in 4 hours against 5, while only the Shark shows the battery left on a screen."
+    },
+    {
+      "name": "Guarantee and running costs",
+      "weight": 15,
+      "explanation": "Batteries and docks are the parts that wear out or need consumables. We compare the guarantee and what you must keep buying. Advantage: Shark, with five years on registration (two for the battery) against Dyson’s two years including the battery, and no dock liners."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Shark or Dyson: which to choose",
+      "html": "<p>Both are 2026 launches and both come with a dock that empties and charges the vacuum: Shark released the PowerDetect Speed in the UK in spring 2026, and Dyson put the V10 Konical on sale at the end of April, with its first self-emptying dock, the Auto-empty Dok, following in July.</p><p><strong>Choose the Shark PowerDetect Speed Clean &amp; Empty if</strong> your home is mostly carpet and rugs, you want the vacuum to raise and lower its own power, and you would rather tip out a dock bin than buy liners. Its five-year guarantee, once registered, is the longer of the two.</p><p><strong>Choose the Dyson V10 Konical with Auto-empty Dok if</strong> you mainly have hard floors and long hair in the house, and you want the lightest machine with one-button control. It also suits owners of a Dyson V8 Cyclone: the Dok works with it and the tools swap between the two.</p><p><strong>Skip the docks if</strong> space is tight. Both vacuums are sold on their own with a wall mount, and several testers liked the Dyson vacuum far more than its Dok.</p>"
+    },
+    {
+      "h2": "Three differences you will notice at home",
+      "html": "<ul><li><strong>Who decides the power.</strong> The Shark’s PowerDetect sensors read the floor type, the dirt, the edges and the direction you push, and raise suction on their own; it also picks up on the backward stroke. On the Dyson you choose Eco, Medium or MAX yourself, and Trusted Reviews notes it has no dirt-sensing mode.</li><li><strong>Weight versus reach.</strong> The Dyson weighs 2.65 kg against 3.22 kg for the Shark, which you feel on the stairs and when hoovering cobwebs. The Shark’s Flexology wand bends, so the floor head slides under a bed or sofa without you kneeling.</li><li><strong>Knowing when you will run out.</strong> The Shark’s screen shows the mode, the battery left and how much dirt it is picking up. The Dyson has no battery gauge: as Trusted Reviews points out, a light only starts flashing shortly before it stops.</li></ul>"
+    },
+    {
+      "h2": "The docks: 45 days in a bin or 60 days in a liner",
+      "html": "<p>This is where the two bundles differ most. Shark’s Auto-Empty Charging Dock pulls the dust out after every clean into a bin that holds up to 45 days of debris, by Shark’s count; TechRadar puts that bin at 2 litres. When it is full you tip it out and put it back, so there are no bags to buy. TechRadar found it worked well and kept mess down; T3 found it fairly noisy and warns that the dust can come out in a cloud when you tip the bin.</p><p>Dyson’s Auto-empty Dok seals the dust in a 2.5 L liner said to hold up to 60 days. That means longer between emptyings, but liners to replace: Ideal Home found two in the box and, when it reviewed the Dok in August, could not find replacements on Dyson’s site. The Dok is also 1,206 mm tall and weighs 7.2 kg. In a home with a dog and long hair, Ideal Home found it failed to pull all the hair out of the vacuum’s bin on most occasions; TechRadar had two failures with carpet fibres and Labrador hair, and none on hard floors.</p><p><strong>In short:</strong> with a moulting pet or long hair, the Shark’s dock is the safer bet. With mostly hard floors and a utility room to hide it in, the Dok’s 60 days between emptyings make more sense.</p>"
+    },
+    {
+      "h2": "Carpet, hard floors and hair: what the testers measured",
+      "html": "<ul><li><strong>Shark, TechRadar (23 May 2026):</strong> fine dust and large debris picked up well on carpet and hard floors once on high power, with edge cleaning among the best the reviewer had seen from a stick vacuum; on low power a single pass left debris behind. Long and pet hair caused no tangling.</li><li><strong>Dyson, Trusted Reviews (12 August 2026):</strong> all the rice collected on a hard floor, 94.9% of the dust along a skirting board (the V8 Cyclone managed 85.9%), but carpet dust pick-up below the reviewer’s expectations.</li><li><strong>Dyson, Good Housekeeping UK (list updated 26 August 2026):</strong> almost every speck of dust collected on hard floors, most pet hair removed in one sweep, around 75% of the dust lifted from carpet, and a score of 89/100 for the bundle with the Dok.</li><li><strong>Both, WIRED (US edition, 6 August 2026):</strong> tested side by side with Dyson’s current range, the Shark scored 15 out of 20 across the reviewer’s five tests and the V10 Konical 14 out of 20.</li></ul><p>Neither tangled with hair in any of these reviews. The Shark’s advantage is carpet and automatic power; the Dyson’s is fine dust on hard floors.</p>"
+    },
+    {
+      "h2": "Battery life in real use",
+      "html": "<p>Both makers claim up to 60 minutes, measured in Eco mode with a non-motorised tool or as a handheld, not with the floor head on carpet. Testers found:</p><ul><li><strong>Shark:</strong> 53 minutes on minimum power and 14 minutes on maximum, with 4 h 6 min to recharge (Which?); 54 min 5 s and 10 min 38 s, with 5 h 19 min to recharge (TechRadar, which called the battery its weak point).</li><li><strong>Dyson:</strong> 21 min 28 s on standard power and 6 min 25 s on Boost (Trusted Reviews); 21 min 30 s in Medium on carpet with the floor head (TechRadar); up to 7 minutes in MAX on carpet (Good Housekeeping UK).</li></ul><p>Both batteries click out. Shark lists a handheld battery pack (XIABTR540EU) among this model’s add-ons, but TechRadar, reviewing in May, could not find a spare that fitted, so check compatibility before buying one. Dyson says a second swappable battery doubles the run time. With either dock, the vacuum is recharged every time you put it back.</p>"
+    },
+    {
+      "h2": "Guarantee and running costs",
+      "html": "<ul><li><strong>Shark:</strong> five years once you register the vacuum with Shark, two years for the battery.</li><li><strong>Dyson:</strong> two years on cordless vacuums, battery included; under guarantee Dyson collects the machine free of charge for repair, according to its guarantee page.</li><li><strong>Consumables:</strong> the Shark’s dock bin is emptied and reused; the Dyson Dok needs new 2.5 L liners.</li></ul><p>Either way, the guarantee comes on top of your statutory rights against the retailer.</p>"
+    },
+    {
+      "h2": "Buying without a dock",
+      "html": "<p>Both vacuums are sold on their own. The <strong>Shark PowerDetect Speed IA1241UK</strong> comes with a charging base and a wall mount; the <strong>Dyson V10 Konical</strong> comes with a Wall Dok, and TechRadar notes the Auto-empty Dok is sold separately too, so you can add it later. Ideal Home and Woman &amp; Home both recommend the Dyson vacuum even without the Dok.</p><p>One catch on the Shark: Shark’s own listing for the Royal Grey version, IA1241UKPU, lists three PowerDetect technologies in its product details (dirt, floor type and direction, with no Edge Detect), although the same page later describes four; the Ultramarine IA1241UK and the Clean &amp; Empty IA3241UKT list all four. Check the model number before you buy.</p>"
+    },
+    {
+      "h2": "Other Shark and Dyson cordless options",
+      "html": "<ul><li><strong>Shark PowerDetect Clean &amp; Empty IP3251UKT:</strong> Shark’s heavier flagship (3.71 kg) with two brush-rolls (DuoClean Detect), up to 70 minutes measured at the handheld in Eco mode, and a dock holding up to 45 days.</li><li><strong>Dyson V15 Detect Absolute:</strong> no dock, but a dust sensor that counts particles on an LCD screen, a 0.77 L bin, 240 AW and a separate Fluffy Optic head for hard floors, at 3.1 kg.</li><li><strong>Dyson V8 Cyclone:</strong> the simpler Dyson that shares the V10 Konical’s tools and also works with the Auto-empty Dok.</li></ul>"
+    },
+    {
+      "h2": "What Which? says",
+      "html": "<p>Which? first reviewed the dock-free Shark PowerDetect Speed IA1241UK, the same vacuum as in the Clean &amp; Empty bundle, in August 2026. Its scores are for members, but its specification table is public: 3.3 kg, 0.7 litres of dust capacity (Shark states 0.47 L), 53 minutes on minimum power, 14 minutes on maximum and 4 h 6 min to recharge. We could not find a Which? review of the V10 Konical when we checked on 1 November 2026.</p>"
+    },
+    {
+      "h2": "Where to buy in the UK",
+      "html": "<p>On 1 November 2026 both bundles were listed on Amazon’s UK store as sold and dispatched by Amazon, and both makers also sell direct. TechRadar lists Argos, John Lewis and AO for the Dyson bundle; Which? lists B&amp;Q and Currys among the retailers for the dock-free Shark.</p><p>Prices on both brands move a lot in the run-up to Black Friday (27 November 2026). Which? judges a deal against six months of prices and suggests checking PriceSpy or PriceRunner for the same history.</p>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>Our five criteria add up to 100 points. The Shark wins three of them: cleaning (35), the dock (20) and the guarantee and running costs (15), so 70 points lean its way. The Dyson wins weight and handling (15), and the battery is a draw (15). That puts the Shark first for most homes, with the Dyson the better choice when hard floors, long hair and a light machine matter more than carpets and a long guarantee.</p>"
+    },
+    {
+      "h2": "How we compared",
+      "html": "<p>Homenura does not test products itself. We compared the specifications Shark and Dyson publish on their UK sites (sharkninja.co.uk and dyson.co.uk, read on 1 November 2026) with the results UK testers published between May and August 2026: Which?, TechRadar, T3, Trusted Reviews, Ideal Home, Good Housekeeping UK and Woman &amp; Home, plus WIRED’s side-by-side test. Run times and pick-up figures are theirs, quoted with their dates, and their methods differ, so compare figures from the same tester where you can.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Shark or Dyson better for pet hair?",
+      "a": "Both are built to stop hair wrapping: the Shark with a self-cleaning brush-roll, the Dyson with two conical brush bars Dyson tested with hair up to 60 cm, and testers saw no tangles on either. The difference is the dock: Ideal Home and TechRadar saw the Dyson Dok leave hair in the bin, so with a moulting dog the Shark bundle is the safer choice."
+    },
+    {
+      "q": "Which is lighter, the Shark PowerDetect Speed or the Dyson V10 Konical?",
+      "a": "The Dyson: 2.65 kg as a stick by Dyson’s launch figures (its UK product page says 2.73 kg), against 3.22 kg for the Shark. As a handheld the Shark weighs 1.59 kg; Dyson does not give a handheld weight on its UK page."
+    },
+    {
+      "q": "Does the Dyson Auto-empty Dok need bags?",
+      "a": "Yes. It seals the dust in a 2.5 L liner that Dyson says holds up to 60 days, and Ideal Home found two liners in the box. The Shark dock empties into a reusable bin, so there are no bags to buy."
+    },
+    {
+      "q": "Will the Auto-empty Dok work with my older Dyson?",
+      "a": "Dyson lists two compatible vacuums: the V10 Konical and the V8 Cyclone. Tools also swap between the V8, the V8 Cyclone and the V10 Konical, according to Dyson’s UK launch announcement of 1 May 2026."
+    },
+    {
+      "q": "Is the Shark’s 350 W more powerful than the Dyson’s 150 AW?",
+      "a": "Those figures cannot be compared. Dyson quotes suction in air watts, measured at the inlet under IEC 62885-4; Shark’s UK page gives a 350 W power rating and no air-watt figure (TechRadar lists 150 AW for the Shark, but that is not a figure Shark publishes in the UK). Testers’ pick-up results are a better guide, and they put the two close together."
+    },
+    {
+      "q": "How long do the batteries really last?",
+      "a": "In Eco with a light tool both claim up to 60 minutes, and Which? measured 53 minutes for the Shark. At full power on carpet expect far less: 10 to 14 minutes for the Shark (TechRadar, Which?) and 6 to 7 minutes for the Dyson (Trusted Reviews, Good Housekeeping UK). Both batteries are removable."
+    },
+    {
+      "q": "Which has the better guarantee?",
+      "a": "The Shark: five years once registered with Shark, two years for the battery. Dyson gives two years on its cordless vacuums, battery included."
+    },
+    {
+      "q": "Can I buy either cordless hoover without the dock?",
+      "a": "Yes. The Shark PowerDetect Speed IA1241UK comes with a charging base and wall mount, and the Dyson V10 Konical with a Wall Dok; the Dok can be added later. On the Shark, check the model number: Shark’s listing for the Royal Grey IA1241UKPU names three PowerDetect technologies rather than four."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Which?",
+      "url": "https://www.which.co.uk/reviews/cordless-vacuum-cleaners/shark-powerdetect-speed-ia1241uk",
+      "note": "Shark PowerDetect Speed IA1241UK (the dock-free version of the same vacuum), first reviewed in August 2026. Test scores are for members; the public specification table lists 3.3 kg, 0.7 litres of dust capacity, 53 minutes on minimum power, 14 minutes on maximum and 4 h 6 min to recharge."
+    },
+    {
+      "name": "TechRadar (Shark PowerDetect Speed Clean & Empty)",
+      "url": "https://www.techradar.com/home/vacuums/shark-powerdetect-speed-upright-vacuum-review",
+      "note": "Review by Tim Gee, 23 May 2026: Recommended, performance 4.5/5 and battery life 3/5. Excellent pick-up on carpet and hard floors on high power and no hair tangling; 10 min 38 s at full power, 54 min 5 s on minimum and 5 h 19 min to recharge; the dock worked well and reduced mess."
+    },
+    {
+      "name": "T3",
+      "url": "https://www.t3.com/home-living/vacuum-cleaners/shark-powerdetect-speed-review-the-cordless-vacuum-to-beat-in-2026",
+      "note": "Review of 14 May 2026, titled “the cordless vacuum to beat in 2026”: the reviewer’s personal pick, praising its detection technology and suction; downsides noted were a fairly noisy dock and a battery display with no percentage readout."
+    },
+    {
+      "name": "TechRadar (Dyson V10 Konical + Auto-empty Dok)",
+      "url": "https://www.techradar.com/home/vacuums/dyson-konica-plus-auto-empty-dok",
+      "note": "Review by Derek Adams, 10 August 2026: performance 4/5, value 3.5/5. Strong suction and anti-tangle head; 21 min 30 s in Medium on carpet; the 120 cm Dok failed twice to empty a bin clogged with carpet fibres and Labrador hair, but always emptied after hard-floor cleans."
+    },
+    {
+      "name": "Trusted Reviews",
+      "url": "https://www.trustedreviews.com/reviews/dyson-v10-konical",
+      "note": "Review by David Ludlow, 12 August 2026: excellent on hard floors (all the rice collected), 94.9% of dust picked up along a skirting board against 85.9% for the V8 Cyclone, carpet dust pick-up weaker than hoped (90.15%), 21 min 28 s on standard power and 6 min 25 s on Boost, and no battery meter."
+    },
+    {
+      "name": "Ideal Home",
+      "url": "https://www.idealhome.co.uk/house-manual/floorcare/dyson-v10-konical-cordless-vacuum-and-auto-empty-dok-review",
+      "note": "Review by Lauren Bradbury, 3 August 2026: the vacuum performed very well with no hair tangles, but the Dok was too big for the reviewer’s home, struggled to expel hair on almost every emptying, and replacement bags were hard to find at the time."
+    },
+    {
+      "name": "Good Housekeeping UK",
+      "url": "https://www.goodhousekeeping.com/uk/product-reviews/house-garden/g70604721/best-dyson-vacuums/",
+      "note": "Best Dyson vacuums, list updated 26 August 2026 (named best self-emptying cordless vacuum): the V10 Konical with Auto-empty Dok scored 89/100, excellent on hard floors and pet hair, around 75% of carpet dust collected, and up to 7 minutes in MAX mode on carpet."
+    },
+    {
+      "name": "WIRED (US edition)",
+      "url": "https://www.wired.com/review/shark-powerdetect-speed/",
+      "note": "Review by Nena Farrell, 6 August 2026: the PowerDetect Speed tested side by side with Dyson’s range scored 15/20 on the reviewer’s five tests, one point ahead of the V10 Konical; it needed more passes than some Dysons on litter on hard floors."
+    }
+  ],
+  "sources": [
+    "https://www.sharkninja.co.uk/shark-powerdetect-speed-clean-and-empty-pet-pro-cordless-vacuum-ultramarine-ia3241ukt/IA3241UKT.html",
+    "https://www.sharkninja.co.uk/shark-powerdetect-speed-cordless-vacuum-ultramarine-ia1241uk/IA1241UK.html",
+    "https://www.sharkninja.co.uk/shark-powerdetect-speed-cordless-vacuum-royal-grey/IA1241UKPU.html",
+    "https://www.sharkninja.co.uk/shark-powerdetect-clean-empty-cordless-pet-vacuum-cleaner-ip3251ukt/IP3251UKT.html",
+    "https://www.dyson.co.uk/vacuum-cleaners/cordless/v10-konical/black-copper-auto-empty-dok",
+    "https://www.dyson.co.uk/vacuum-cleaners/cordless/v10-konical/black-copper",
+    "https://www.dyson.co.uk/discover/news/latest/introducing-v10-konical",
+    "https://www.dyson.co.uk/inside-dyson/terms/the-dyson-guarantee",
+    "https://www.dyson.co.uk/vacuum-cleaners/cordless/v15/detect-yellow-nickel",
+    "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/dyson-unveils-its-first-self-emptying-vacuum-cleaner",
+    "https://www.which.co.uk/reviews/cordless-vacuum-cleaners/shark-powerdetect-speed-ia1241uk",
+    "https://www.which.co.uk/reviews/cordless-vacuum-cleaners/article/best-vacuum-cleaner-deals-aGE9M3O76L1w",
+    "https://www.techradar.com/home/vacuums/shark-powerdetect-speed-upright-vacuum-review",
+    "https://www.techradar.com/home/vacuums/dyson-konica-plus-auto-empty-dok",
+    "https://www.t3.com/home-living/vacuum-cleaners/shark-powerdetect-speed-review-the-cordless-vacuum-to-beat-in-2026",
+    "https://www.trustedreviews.com/reviews/dyson-v10-konical",
+    "https://www.idealhome.co.uk/house-manual/floorcare/dyson-v10-konical-cordless-vacuum-and-auto-empty-dok-review",
+    "https://www.goodhousekeeping.com/uk/product-reviews/house-garden/g70604721/best-dyson-vacuums/",
+    "https://www.womanandhome.com/homes/cleaning--decluttering/dyson-v10-konical-cordless-vacuum-cleaner-review/",
+    "https://www.wired.com/review/shark-powerdetect-speed/"
+  ],
+  "related": [
+    "/en/entretien-maison/aspirateurs-balais",
+    "/en/blog/aspirateur-sans-fil-comparatif-2026",
+    "/en/blog/robot-aspirateur-vs-balai",
+    "/en/guides/probleme/aspirateur-balai-autonomie-chute",
+    "/en/guides/probleme/aspirateur-balai-coupe",
+    "/en/black-friday/aspirateurs-balais",
+    "/en/methodologie"
+  ]
+}

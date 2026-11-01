@@ -1,0 +1,315 @@
+{
+  "locale": "it",
+  "type": "duel",
+  "slug": "dreame-o-roborock",
+  "updated": "2026-11-01",
+  "metaTitle": "Dreame o Roborock: quale robot scegliere nel 2026",
+  "metaDescription": "Dreame vs Roborock: X60 Pro Ultra Complete o Saros 20? Soglie, bordi, mobili bassi, lavaggio e base a confronto sulle schede italiane dei produttori.",
+  "kicker": "Confronto · Robot aspirapolvere lavapavimenti",
+  "h1": "Dreame o Roborock: X60 Pro Ultra Complete o Saros 20, quale scegliere nel 2026",
+  "answer": "Per la maggior parte delle case italiane, con soglie tra le stanze e pavimenti duri da lavare, scegli il Dreame X60 Pro Ultra Complete: supera gradini doppi fino a 10 cm e allunga il mocio di 18 cm verso battiscopa e angoli. Prendi il Roborock Saros 20 se hai mobili bassi e tappeti: è alto 7,98 cm e alza il telaio per pulire tappeti con pelo fino a 3 cm.",
+  "picks": [
+    {
+      "brand": "Dreame",
+      "model": "X60 Pro Ultra Complete",
+      "role": "La nostra scelta",
+      "why": "Supera i dislivelli più alti del confronto e arriva più lontano su bordi e battiscopa grazie ai due bracci estensibili. Lava con più giri e più pressione, la base raccoglie la polvere fino a 100 giorni e il kit di allacciamento all'acqua è venduto a parte.",
+      "bestFor": "Case con soglie in marmo, gradini tra le stanze o binari delle portefinestre, molti battiscopa e pavimenti duri da lavare spesso.",
+      "asin": "B0GSWYM8Q2",
+      "manufacturerUrl": "https://it.dreametech.com/products/dreame-robot-aspirapolvere-x60-pro-ultra-complete",
+      "specs": {
+        "Aspirazione massima": "42.000 Pa (dati del laboratorio interno Dreame)",
+        "Dimensioni robot": "350 × 350 × 89 mm con il sensore VersaLift ritratto, 111 mm con il sensore sollevato",
+        "Dimensioni base": "390 × 456 × 499 mm",
+        "Peso": "robot 4,6 kg, base 10,8 kg",
+        "Soglie e gradini": "gradino singolo fino a 5,2 cm; gradino doppio fino a 10 cm, se il gradino più basso è largo almeno 23 cm (sistema ProLeap)",
+        "Navigazione": "DToF VersaLift, con sensore laser a scomparsa",
+        "Riconoscimento ostacoli": "2 telecamere con IA a 120°, luce strutturata 3D laterale e LED; oltre 320 tipi di oggetti, oggetti piccoli fino a 10 mm",
+        "Bordi e angoli": "spazzola laterale estensibile di 12 cm e mocio estensibile di 18 cm; con i moduli estesi raggiunge spazi alti 6 cm",
+        "Lavaggio": "due moci rotanti Omni-Scrub, 280 giri/min, pressione 15 N; panni in materiale a cambiamento di fase che restano caldi per alcuni minuti (tra 30 e 40 °C, picco di 40 °C); inclinazione di 12° sui pavimenti irregolari",
+        "Tappeti": "moci sollevabili di 10,5 mm, 21,5 mm dal pavimento con il sollevamento del telaio; rimozione automatica dei moci sui tappeti a pelo lungo",
+        "Spazzola principale": "doppia spazzola antigroviglio HyperStream DuoBrush 2.0, capelli fino a 40 cm",
+        "Base": "lavaggio dei moci con acqua calda a 100 °C, asciugatura ad aria calda, auto-pulizia del vassoio di lavaggio (AceClean DryBoard), aggiunta automatica del detergente, riempimento automatico del serbatoio del robot",
+        "Serbatoi della base": "4,2 L acqua pulita, 3,0 L acqua sporca",
+        "Svuotamento automatico": "fino a 100 giorni (sacchetto)",
+        "Contenitore polvere del robot": "310 ml",
+        "Kit di allacciamento all'acqua": "acquistabile separatamente",
+        "Batteria": "5.000 mAh, ricarica rapida a 11 A: 24% in 5,5 minuti",
+        "Copertura dichiarata": "fino a 1.000 m² per sessione secondo Dreame: 700 m² senza interruzioni grazie alle ricariche durante i lavaggi, ricalcolati sulla superficie mostrata nell'app",
+        "Casa connessa": "assistente vocale integrato; Alexa, Siri e Google Home; Matter con un prossimo aggiornamento OTA; app per Apple Watch",
+        "Aggiornamenti di sicurezza": "impegno di Dreame per la serie X60: 3 anni dalla prima immissione sul mercato per i prodotti immessi entro l'11 dicembre 2027, 5 anni per quelli immessi dopo"
+      }
+    },
+    {
+      "brand": "Roborock",
+      "model": "Saros 20",
+      "role": "Più sottile, per mobili bassi e tappeti",
+      "why": "Alto 7,98 cm e senza torretta laser, passa sotto divani e letti dove il Dreame non entra. Il telaio AdaptiLift si alza sui tappeti fino a 3 cm di pelo e la batteria è la più capiente del confronto.",
+      "bestFor": "Case con mobili bassi, molti tappeti e soglie fino a 4,5 cm, per chi vuole Matter già indicato tra le funzioni e un assistente vocale che risponde anche senza Wi-Fi.",
+      "asin": "B0G4NBBZLG",
+      "manufacturerUrl": "https://it.roborock.com/pages/roborock-saros-20",
+      "specs": {
+        "Aspirazione massima": "36.000 Pa HyperForce (test interni Roborock)",
+        "Dimensioni robot": "353 × 350 × 79,8 mm; con una leggera compressione passa sotto mobili alti 7,95 cm (Roborock avverte che possono verificarsi graffi)",
+        "Dimensioni base": "381 × 475 × 488 mm",
+        "Peso": "robot 5,05 kg, base 10,54 kg",
+        "Soglie e gradini": "soglia singola fino a 4,5 cm; soglia doppia fino a 4,5 + 4,3 cm, 8,8 cm in tutto, con 12–14 cm tra i due gradini (AdaptiLift Chassis 3.0)",
+        "Navigazione": "StarSight Autonomous System 2.0 (3D ToF), senza torretta LiDAR; laser laterale VertiBeam",
+        "Riconoscimento ostacoli": "oltre 300 tipi; oggetti da 2 cm di larghezza e 2 cm di altezza; videocamera RGB per riconoscere le macchie (DirTect)",
+        "Bordi e angoli": "spazzola laterale ad arco FlexiArm e panno laterale estensibili (estensione non indicata); pulisce sotto i battiscopa con fessure fino a 2 cm",
+        "Lavaggio": "doppio panno rotante a 200 giri/min; pressione 8 N, 13 N sulle macchie ostinate con la funzione «Pulizia profonda per sporco ostinato o macchie» attivata nell'app",
+        "Tappeti": "pulizia dinamica dei tappeti fino a 3 cm di pelo con il telaio che si solleva (da attivare nell'app); sgancio automatico dei panni",
+        "Spazzola principale": "DuoDivide con doppio sistema anti-groviglio (spazzola principale e spazzola laterale)",
+        "Base (RockDock)": "lavaggio dei panni con acqua fino a 100 °C, auto-pulizia della base a 100 °C, asciugatura ad aria calda a 55 °C, asciugatura del sacchetto con aria fresca, erogatore automatico di detergente, rabbocco del robot con acqua calda, base rimovibile",
+        "Serbatoi della base": "capacità non indicata sulla scheda italiana",
+        "Svuotamento automatico": "fino a 65 giorni",
+        "Kit di allacciamento all'acqua": "non menzionato sulla scheda italiana",
+        "Batteria": "6.400 mAh agli ioni di litio; ricarica rapida in 2,5 ore",
+        "Casa connessa": "assistente vocale «Hello Rocky» anche senza Wi-Fi; supporto Matter; Alexa, Siri e Google Home; videochiamata con la videocamera del robot"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Criterio",
+      "Dreame X60 Pro Ultra Complete",
+      "Roborock Saros 20"
+    ],
+    "rows": [
+      [
+        "Soglia singola / doppia",
+        "5,2 cm / 10 cm",
+        "4,5 cm / 8,8 cm (4,5 + 4,3 cm)"
+      ],
+      [
+        "Altezza del robot",
+        "8,9 cm con sensore ritratto, 11,1 cm sollevato",
+        "7,98 cm (passa a 7,95 cm comprimendosi)"
+      ],
+      [
+        "Estensione su bordi e angoli",
+        "mocio fino a 18 cm, spazzola laterale fino a 12 cm",
+        "FlexiArm su spazzola e panno, estensione non indicata"
+      ],
+      [
+        "Panni: velocità e pressione",
+        "280 giri/min, 15 N",
+        "200 giri/min, 8 N (13 N con «Pulizia profonda» attiva)"
+      ],
+      [
+        "Tappeti",
+        "moci sollevati fino a 21,5 mm con il telaio, rimozione automatica",
+        "telaio che si alza per tappeti fino a 3 cm di pelo, sgancio automatico dei panni"
+      ],
+      [
+        "Riconoscimento ostacoli",
+        "oltre 320 tipi, oggetti da 10 mm, 2 telecamere con IA",
+        "oltre 300 tipi, oggetti da 2 × 2 cm, 3D ToF e videocamera RGB"
+      ],
+      [
+        "Aspirazione dichiarata",
+        "42.000 Pa",
+        "36.000 Pa"
+      ],
+      [
+        "Acqua calda / asciugatura",
+        "100 °C / aria calda (temperatura non indicata)",
+        "fino a 100 °C / aria calda a 55 °C"
+      ],
+      [
+        "Svuotamento automatico",
+        "fino a 100 giorni",
+        "fino a 65 giorni"
+      ],
+      [
+        "Serbatoi della base",
+        "4,2 L pulita, 3,0 L sporca",
+        "non indicati"
+      ],
+      [
+        "Allacciamento all'acqua",
+        "kit acquistabile separatamente",
+        "non menzionato"
+      ],
+      [
+        "Batteria e ricarica",
+        "5.000 mAh, 24% in 5,5 minuti",
+        "6.400 mAh, ricarica in 2,5 ore"
+      ],
+      [
+        "Dimensioni della base",
+        "390 × 456 × 499 mm",
+        "381 × 475 × 488 mm"
+      ],
+      [
+        "Peso robot / base",
+        "4,6 kg / 10,8 kg",
+        "5,05 kg / 10,54 kg"
+      ],
+      [
+        "Matter",
+        "con un prossimo aggiornamento OTA",
+        "indicato tra le funzioni"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Soglie e dislivelli",
+      "weight": 20,
+      "explanation": "Soglie in marmo tra le stanze, binari delle portefinestre e piccoli gradini sono il primo motivo per cui un robot si blocca in casa. Confrontiamo l'altezza massima dichiarata per un gradino singolo e per un gradino doppio, con le condizioni che ciascun produttore indica."
+    },
+    {
+      "name": "Mobili bassi e tappeti",
+      "weight": 20,
+      "explanation": "Conta l'altezza del robot, perché decide dove passa, e il modo in cui tratta i tappeti: sollevamento del telaio, sollevamento o sgancio dei panni. Leggiamo altezza, sollevamenti in millimetri e lunghezza del pelo dichiarata."
+    },
+    {
+      "name": "Bordi, angoli e battiscopa",
+      "weight": 15,
+      "explanation": "La polvere si ferma lungo le pareti e sotto i battiscopa. Premiamo l'estensione di spazzola laterale e mocio quando il produttore la quantifica."
+    },
+    {
+      "name": "Lavaggio dei pavimenti",
+      "weight": 15,
+      "explanation": "Velocità di rotazione e pressione dei panni, temperatura dell'acqua di lavaggio e quanto i panni restano caldi, insieme alle osservazioni pubblicate dai tester italiani."
+    },
+    {
+      "name": "Navigazione e ostacoli",
+      "weight": 10,
+      "explanation": "Tipi di oggetti riconosciuti e dimensione minima dichiarata, corretti con quanto hanno osservato i tester: un robot che si ferma su un cavo o una ciabatta pulisce meno."
+    },
+    {
+      "name": "Base e manutenzione",
+      "weight": 10,
+      "explanation": "Giorni di svuotamento automatico, litri dei serbatoi, possibilità di collegare la base all'acqua di casa, asciugatura e pulizia automatica del vassoio: tutto ciò che decide quanto spesso devi intervenire tu."
+    },
+    {
+      "name": "Casa connessa e batteria",
+      "weight": 10,
+      "explanation": "Matter, assistente vocale e compatibilità con Alexa, Siri e Google Home, capacità della batteria e tempi di ricarica dichiarati."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Dreame o Roborock: il verdetto in 3 righe",
+      "html": "<p><strong>Scegli il Dreame X60 Pro Ultra Complete</strong> se in casa hai soglie alte, gradini tra le stanze o binari delle portefinestre e vuoi battiscopa e angoli puliti a fondo: dichiara gradini doppi fino a 10 cm, un mocio che si allunga di 18 cm e 15 N di pressione sui pavimenti.</p><p><strong>Scegli il Roborock Saros 20</strong> se hai divani e letti bassi o molti tappeti: è alto 7,98 cm, non ha la torretta laser e alza il telaio per pulire tappeti fino a 3 cm di pelo.</p><p><strong>Su aspirazione, acqua calda e svuotamento automatico</strong> sono tutti e due al vertice delle rispettive gamme: le differenze che pesano davvero sono soglie, bordi e altezza.</p>"
+    },
+    {
+      "h2": "Due modi diversi di fare un top di gamma",
+      "html": "<p>Dreame e Roborock vogliono la stessa cosa, un robot che aspira, lava e si mantiene quasi da solo, ma ci arrivano con due idee diverse.</p><ul><li><strong>Dreame X60 Pro Ultra Complete</strong>: punta sui bracci. Spazzola laterale e mocio escono dal corpo del robot di 12 e 18 cm, e il sistema ProLeap con due gambe retrattili lo aiuta a salire i gradini. Il sensore laser VersaLift si abbassa per passare sotto i mobili.</li><li><strong>Roborock Saros 20</strong>: punta sul profilo basso. Al posto della classica torretta LiDAR usa il sistema StarSight 2.0 con sensori 3D ToF, e il telaio AdaptiLift Chassis 3.0 si solleva su soglie e tappeti.</li></ul><p>Tutti i dati tecnici di questa pagina vengono dalle schede italiane di Dreame e Roborock, consultate il 1° novembre 2026. Sono dati di laboratorio dei produttori: servono a confrontare i due modelli, non a prevedere il risultato esatto a casa tua.</p>"
+    },
+    {
+      "h2": "Le 3 differenze che contano nell'uso",
+      "html": "<ul><li><strong>Soglie e gradini</strong>: Dreame dichiara 5,2 cm per un gradino singolo e 10 cm per un gradino doppio, se il gradino più basso è largo almeno 23 cm. Roborock dichiara 4,5 cm per una soglia singola e 8,8 cm per una doppia (4,5 + 4,3 cm, con 12–14 cm tra i due gradini), come i binari di un balcone. Con le soglie più comuni bastano tutti e due; sui dislivelli più alti il Dreame ha più margine.</li><li><strong>Bordi, angoli e battiscopa</strong>: sul Dreame il mocio si allunga fino a 18 cm e la spazzola laterale fino a 12 cm, e i moduli estesi entrano in spazi alti 6 cm. Il Saros 20 estende spazzola e panno con la tecnologia FlexiArm e pulisce sotto i battiscopa con fessure fino a 2 cm, ma Roborock non dice di quanto si allunghino.</li><li><strong>Mobili bassi</strong>: il Saros 20 è alto 7,98 cm e, comprimendosi leggermente, passa sotto mobili alti 7,95 cm; Roborock avverte che possono comparire graffi. Il corpo del Dreame è alto 8,9 cm con il sensore abbassato e 11,1 cm con il sensore alzato: sotto i mobili più bassi arrivano solo i suoi bracci.</li></ul>"
+    },
+    {
+      "h2": "Lavaggio: pressione, giri e acqua calda",
+      "html": "<p>Tutti e due lavano con due panni rotanti e li sciacquano nella base con acqua calda fino a 100 °C. Cambiano forza e velocità:</p><ul><li><strong>Dreame</strong>: 280 giri/min e 15 N di pressione. I panni in materiale a cambiamento di fase restano caldi per alcuni minuti dopo il lavaggio, tra 30 e 40 °C secondo Dreame, per sciogliere l'unto, e si inclinano di 12° sui pavimenti irregolari.</li><li><strong>Roborock</strong>: 200 giri/min e 8 N, che salgono a 13 N quando il robot rileva una macchia ostinata e hai attivato nell'app la funzione «Pulizia profonda per sporco ostinato o macchie».</li></ul><p>Su parquet e legno conta anche quanta acqua resta sul pavimento. SmartWorld, nella recensione del Saros 20, ha notato che nei primi secondi dopo il lavaggio dei panni il robot bagnava più del necessario, forse un difetto che un aggiornamento può correggere. Se il lavaggio è la tua priorità, guarda anche le versioni a rullo indicate più sotto.</p>"
+    },
+    {
+      "h2": "Base e manutenzione: cosa resta da fare a te",
+      "html": "<ul><li><strong>Svuotamento della polvere</strong>: fino a 100 giorni per il Dreame, fino a 65 per il Saros 20, secondo i produttori; il ritmo reale dipende dalla casa e da quanto spesso pulisci.</li><li><strong>Acqua</strong>: la base Dreame ha serbatoi da 4,2 L (pulita) e 3,0 L (sporca) e si collega all'impianto di casa con un kit venduto a parte. Roborock non indica i litri sulla scheda italiana e non cita un kit di allacciamento; SmartWorld mette tra i difetti del Saros 20 proprio l'impossibilità di collegarlo all'impianto idraulico.</li><li><strong>Asciugatura e igiene</strong>: tutte e due asciugano i panni ad aria calda (55 °C dichiarati da Roborock, temperatura non indicata da Dreame) e puliscono da sole il vassoio di lavaggio con acqua calda. Il Saros 20 asciuga anche il sacchetto della polvere con aria fresca e ha la base rimovibile da lavare.</li><li><strong>Detergente</strong>: dosaggio automatico su entrambe le basi.</li><li><strong>Ingombro</strong>: misure simili, 390 × 456 × 499 mm per il Dreame e 381 × 475 × 488 mm per il Roborock. Tom's Hardware giudica ingombrante la base del Dreame, che va sistemata vicino a una presa.</li></ul>"
+    },
+    {
+      "h2": "Costi nel tempo: sacchetti, panni, detergente e corrente",
+      "html": "<p>Non indichiamo prezzi, che cambiano di settimana in settimana, ma ecco che cosa ricomprerai nel tempo:</p><ul><li><strong>Sacchetti della polvere</strong>: con gli intervalli dichiarati, al massimo uno ogni 100 giorni sul Dreame e uno ogni 65 sul Roborock, cioè circa 4 contro 6 all'anno nel caso migliore.</li><li><strong>Panni, spazzole, filtri e detergente</strong>: si consumano su entrambi. Tom's Hardware segnala che i consumabili originali Dreame costano più della media.</li><li><strong>Corrente</strong>: nessuno dei due produttori pubblica il consumo annuo sulla scheda italiana. Le fasi che consumano di più sono il riscaldamento dell'acqua per i panni e l'asciugatura ad aria calda: con una tariffa bioraria conviene programmare le pulizie la sera o nel fine settimana.</li></ul>"
+    },
+    {
+      "h2": "Casa connessa, voce e privacy",
+      "html": "<ul><li><strong>Voce</strong>: il Saros 20 risponde a «Hello Rocky» anche senza Wi-Fi; il Dreame ha un assistente vocale integrato e un'app per Apple Watch. Tutti e due si comandano con Alexa, Siri e Google Home.</li><li><strong>Matter</strong>: Roborock indica il supporto Matter tra le funzioni del Saros 20; per l'X60 Dreame lo promette con un prossimo aggiornamento OTA.</li><li><strong>Telecamere</strong>: entrambi permettono di guardare casa e animali da remoto con videochiamata. Dreame cita le certificazioni UL Diamond e TÜV e dichiara di tenere i dati fuori dal cloud.</li><li><strong>Aggiornamenti</strong>: per la serie X60 Dreame si impegna a fornire aggiornamenti di sicurezza per 3 anni dalla prima immissione sul mercato, se avvenuta entro l'11 dicembre 2027 (5 anni dopo quella data); Roborock non indica un periodo sulla scheda italiana.</li></ul>"
+    },
+    {
+      "h2": "Cosa dicono i tester italiani",
+      "html": "<ul><li><strong>Tom's Hardware</strong> (recensione dell'11 agosto 2026) considera l'X60 Pro Ultra Complete uno dei migliori robot aspirapolvere del 2026. Lodati aspirazione, lavaggio con acqua calda, braccio estensibile del mocio e navigazione; tra i contro il prezzo, la base ingombrante, l'app inizialmente complessa e il riconoscimento incerto di oggetti bassi o trasparenti. Lo sconsiglia a chi ha un budget contenuto o poco spazio per la base.</li><li><strong>SmartWorld</strong> (recensione del 2 marzo 2026, campione fornito da Roborock) apprezza del Saros 20 lo spessore ridotto, mappatura e navigazione eccellenti, una pulizia precisa e una base completa ma non troppo grande. Tra i difetti, oltre al prezzo: bagna un po' più del dovuto, non si collega all'impianto idraulico e non riconosce sempre le macchie più ostinate.</li><li><strong>Altroconsumo</strong> ha pubblicato 91 risultati di prove sui robot aspirapolvere, 66 dei quali con stazione. Nelle pagine pubbliche consultate il 1° novembre 2026 non compaiono i risultati di questi due modelli: i dettagli dei test sono riservati ai soci. Nell'articolo del 19 ottobre 2026 sui robot lavapavimenti ricorda che il 93% dei prodotti provati lava anche i pavimenti.</li></ul>"
+    },
+    {
+      "h2": "Le alternative: budget più contenuto, lavaggio a vibrazione o a rullo",
+      "html": "<ul><li><strong>Dreame L60 Ultra</strong>: stessa impostazione con meno estremi. 35.000 Pa, alto 8,9 cm, gradini doppi fino a 4 cm e singoli fino a 2,2 cm, serbatoi da 4,5 e 4,0 L, svuotamento fino a 100 giorni, batteria da 5.200 mAh.</li><li><strong>Roborock Qrevo Curv 2 Pro</strong>: profilo da 7,98 cm come il Saros, 25.000 Pa, soglie a due livelli fino a 4 cm, panni a 200 giri/min e 12 N, acqua fino a 100 °C, asciugatura a 55 °C, svuotamento fino a 65 giorni.</li><li><strong>Roborock Saros 20 Sonic</strong>: stessa aspirazione da 36.000 Pa, stesse soglie doppie da 8,8 cm e stesso lavaggio dei panni a 100 °C del Saros 20, ma lavaggio a vibrazione VibraRise 5.0 con panno estensibile e 14 N di pressione, e riconoscimento ostacoli Reactive AI 3.0 a luce strutturata invece di StarSight, secondo le FAQ di Roborock.</li><li><strong>Versioni a rullo</strong>: chi preferisce un rullo ai panni rotanti può guardare il Roborock Saros 20 Flow Complete e il Dreame Aqua10 Ultra Roller Complete, entrambi a listino sui siti italiani dei produttori.</li></ul>"
+    },
+    {
+      "h2": "Perché questo verdetto",
+      "html": "<p>Confrontiamo i due modelli su sette criteri pesati, descritti qui sotto. Il <strong>Dreame X60 Pro Ultra Complete</strong> vince su soglie e dislivelli (20%), su bordi, angoli e battiscopa (15%), sul lavaggio (15%) e su base e manutenzione (10%): 60 punti su 100. Il <strong>Roborock Saros 20</strong> vince su mobili bassi e tappeti (20%), su navigazione e ostacoli (10%), dove i dati dichiarati favoriscono il Dreame ma i tester segnalano i suoi limiti con oggetti bassi o trasparenti, e su casa connessa e batteria (10%): 40 punti.</p><p>Il verdetto si basa sulle schede tecniche italiane di Dreame e Roborock e sulle recensioni pubblicate da Tom's Hardware e SmartWorld; Homenura non prova i robot di persona. Se in casa hai soprattutto mobili bassi e tappeti, il punteggio conta poco: prendi il Saros 20.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Meglio Dreame o Roborock?",
+      "a": "Dipende dalla casa più che dal marchio. Tra i due top di gamma 2026, il Dreame X60 Pro Ultra Complete è più forte su soglie, bordi e lavaggio; il Roborock Saros 20 è più sottile e più adatto a mobili bassi e tappeti."
+    },
+    {
+      "q": "Quale robot passa sotto i mobili più bassi?",
+      "a": "Il Roborock Saros 20: è alto 7,98 cm e, comprimendosi leggermente, passa sotto mobili alti 7,95 cm, con il rischio di qualche graffio segnalato da Roborock. Il Dreame X60 è alto 8,9 cm con il sensore abbassato; sotto spazi di 6 cm arrivano solo i suoi bracci estesi."
+    },
+    {
+      "q": "Quale supera le soglie più alte?",
+      "a": "Il Dreame X60 Pro Ultra Complete: 5,2 cm su un gradino singolo e 10 cm su un gradino doppio, se il gradino più basso è largo almeno 23 cm. Il Saros 20 dichiara 4,5 cm su una soglia singola e 8,8 cm su una doppia (4,5 + 4,3 cm)."
+    },
+    {
+      "q": "Si possono collegare all'acqua di casa?",
+      "a": "Il Dreame sì, con un kit di allacciamento per il riempimento e lo svuotamento automatici acquistabile separatamente. Per il Saros 20 la scheda italiana di Roborock non cita un kit, e SmartWorld segnala che non si può collegare all'impianto idraulico."
+    },
+    {
+      "q": "Funzionano senza Wi-Fi?",
+      "a": "Roborock dichiara che l'assistente vocale «Hello Rocky» del Saros 20 risponde anche senza connessione a Internet. Dreame non lo specifica per l'X60. Mappe, programmazioni e aggiornamenti passano comunque dall'app, quindi serve il Wi-Fi almeno per la configurazione."
+    },
+    {
+      "q": "Vanno bene sul parquet?",
+      "a": "Sì, se dosi l'acqua: sul legno conviene un lavaggio poco bagnato. SmartWorld ha notato che il Saros 20 bagnava più del necessario nei primi secondi dopo il lavaggio dei panni. Verifica anche che il tuo parquet tolleri il lavaggio a umido."
+    },
+    {
+      "q": "Con cani, gatti e capelli lunghi quale scegliere?",
+      "a": "Su questo punto si equivalgono: Dreame dichiara 0% di grovigli con capelli fino a 40 cm, Roborock un doppio sistema anti-groviglio su spazzola principale e laterale. Tutti e due riconoscono gli animali, li fotografano e permettono di vederli da remoto."
+    },
+    {
+      "q": "Quanto dura la batteria?",
+      "a": "Nessuno dei due indica sulla scheda italiana l'autonomia di una singola carica in minuti. Il Saros 20 ha una batteria da 6.400 mAh che si ricarica in 2,5 ore. L'X60 ha 5.000 mAh ma una ricarica rapida a 11 A (24% in 5,5 minuti): secondo Dreame pulisce 300 m² in 232 minuti senza interruzioni e copre fino a 1.000 m² per sessione, ricaricandosi durante i lavaggi dei moci."
+    },
+    {
+      "q": "Altroconsumo ha provato questi due robot?",
+      "a": "Altroconsumo ha pubblicato 91 risultati sui robot aspirapolvere, ma nelle pagine pubbliche consultate il 1° novembre 2026 non compaiono i risultati di X60 Pro Ultra Complete e Saros 20: i dettagli sono riservati ai soci."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Tom's Hardware Italia",
+      "url": "https://www.tomshw.it/altro/dreame-x60-pro-ultra-complete-la-recensione",
+      "note": "Recensione del Dreame X60 Pro Ultra Complete pubblicata l'11 agosto 2026: «uno dei migliori robot aspirapolvere del 2026»; contro: prezzo, base ingombrante, app inizialmente complessa, riconoscimento incerto di oggetti bassi o trasparenti, consumabili originali più cari della media."
+    },
+    {
+      "name": "SmartWorld",
+      "url": "https://www.smartworld.it/recensioni/roborock-saros-20",
+      "note": "Recensione del Roborock Saros 20 pubblicata il 2 marzo 2026, campione fornito da Roborock: pro spessore ridotto, mappatura e navigazione, pulizia precisa, base completa non troppo grande; contro prezzo alto, pavimento bagnato un po' più del dovuto, nessun allacciamento all'impianto idraulico, riconoscimento non perfetto delle macchie più ostinate."
+    },
+    {
+      "name": "Altroconsumo",
+      "url": "https://www.altroconsumo.it/elettrodomestici/robot-aspirapolvere",
+      "note": "91 risultati di prove sui robot aspirapolvere (66 con stazione, 25 senza), dettagli riservati ai soci; nessun risultato pubblico per questi due modelli al 1° novembre 2026. Articolo del 19 ottobre 2026 sui robot lavapavimenti: il 93% dei prodotti provati ha la funzione di lavaggio."
+    }
+  ],
+  "sources": [
+    "https://it.dreametech.com/products/dreame-robot-aspirapolvere-x60-pro-ultra-complete",
+    "https://it.roborock.com/pages/roborock-saros-20",
+    "https://it.dreametech.com/products/dreame-robot-aspirapolvere-x60-pro-ultra-matrix-grigio",
+    "https://it.roborock.com/products/roborock-saros-20-robot-aspirapolvere",
+    "https://it.dreametech.com/products/dreame-l60-ultra-bianco-robot-aspirapolvere",
+    "https://it.roborock.com/pages/roborock-qrevo-curv-2-pro",
+    "https://it.roborock.com/",
+    "https://it.dreametech.com/",
+    "https://it.roborock.com/pages/roborock-saros-20-flow-complete",
+    "https://it.dreametech.com/products/dreame-robot-aspirapolvere-aqua10-ultra-roller-complete",
+    "https://www.tomshw.it/altro/dreame-x60-pro-ultra-complete-la-recensione",
+    "https://www.smartworld.it/recensioni/roborock-saros-20",
+    "https://www.altroconsumo.it/elettrodomestici/robot-aspirapolvere",
+    "https://www.altroconsumo.it/elettrodomestici/robot-aspirapolvere/news/migliori-robot-aspirapolveri-lavapavimenti"
+  ],
+  "related": [
+    "/it/entretien-maison/aspirateurs-laveurs",
+    "/it/entretien-maison/aspirateurs-robots",
+    "/it/blog/comparatif-robot-aspirateur-laveur",
+    "/it/blog/guide-robot-aspirateur-2026",
+    "/it/blog/robot-aspirateur-poils-animaux",
+    "/it/black-friday/aspirateurs-robots",
+    "/it/guides/probleme/robot-aspirateur-capteur-falaise-bloque"
+  ]
+}

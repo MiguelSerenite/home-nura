@@ -209,7 +209,7 @@ export default async function CategoryHub({
   const faqEntries = getCategoryFaq(safeLang, category)
   // The FAQ keeps its own review date; the page's date (header, Article
   // dateModified) also counts the answer-first changelog.
-  const faqModifiedIso = categoryModifiedIso(category.slug, SITE_LAST_UPDATED_ISO)
+  const faqModifiedIso = categoryModifiedIso(category.slug, SITE_LAST_UPDATED_ISO, safeLang)
   const updatedText = `${lastUpdatedLabel[safeLang]} ${formatLastUpdated(safeLang, faqModifiedIso)}`
   const answerFirst = getAnswerFirstHub(category.slug, safeLang)
   const modifiedIso = answerFirst?.modifiedIso ?? faqModifiedIso

@@ -1,0 +1,283 @@
+{
+  "locale": "es",
+  "type": "duel",
+  "slug": "thermomix-o-monsieur-cuisine",
+  "updated": "2026-11-01",
+  "metaTitle": "Thermomix o Monsieur Cuisine de Lidl: cuál elegir en 2026",
+  "metaDescription": "Thermomix TM7 o Monsieur Cuisine smart de Lidl: capacidad, potencia, temperatura y recetas. Diferencias reales, datos de la OCU y para quién es cada uno.",
+  "kicker": "Duelo · Robots de cocina",
+  "h1": "Thermomix o Monsieur Cuisine de Lidl: TM7 frente a smart, ¿cuál elegir?",
+  "answer": "Elige la Thermomix TM7 si cocinas a diario y buscas triturados muy finos, dorar a alta temperatura y el apoyo de un agente: llega a 10.700 rpm y 160 °C. Elige el Monsieur Cuisine smart de Lidl si cocinas para cuatro o más y no quieres pagar suscripción: admite 3 litros útiles frente a 2,2 y trae más de 1.000 recetas gratuitas, con menos potencia de triturado.",
+  "picks": [
+    {
+      "brand": "Thermomix",
+      "model": "TM7",
+      "role": "Nuestra elección para cocinar a diario",
+      "why": "Es el robot con más margen del duelo: motor síncrono de 500 W que llega a 10.700 rpm, hasta 160 °C para dorar, pantalla multitáctil de 10 pulgadas y 20 modos de cocina. La OCU lo ve sólido, aunque con pocas mejoras frente a la TM6, y su recetario guiado, Cookidoo, es de pago tras 30 días de prueba.",
+      "bestFor": "Quien cocina casi todos los días para dos a cuatro personas, quiere triturados finos y masas sin esfuerzo, y valora la demostración y el seguimiento de un agente Thermomix.",
+      "asin": null,
+      "manufacturerUrl": "https://www.vorwerk.com/es/es/productos/thermomix/thermomix-tm7",
+      "specs": {
+        "Capacidad del vaso": "2,2 l (marca «max»)",
+        "Temperatura": "hasta 160 °C; modo Sin tapa hasta 100 °C",
+        "Motor": "síncrono sin mantenimiento, 500 W de potencia nominal",
+        "Velocidad": "de 40 a 10.700 rpm",
+        "Calentamiento": "1.000 W",
+        "Consumo máximo": "2.000 W; 0 W en espera; apagado automático a los 15 minutos",
+        "Pantalla": "multitáctil de 10 pulgadas",
+        "Modos": "20, entre ellos Dorar, Sin tapa, Al vapor, Fermentar, Al vacío, Cocción lenta y Puntos del azúcar",
+        "Báscula integrada": "de 1 a 3.000 g",
+        "Varoma": "6,8 l de capacidad total con la bandeja",
+        "Conectividad": "wifi de 2,4 y 5 GHz; Bluetooth 5.4 Low Energy para el Thermomix Sensor",
+        "Medidas con el vaso (an × pr × al)": "25,3 × 40,5 × 33,6 cm",
+        "Peso": "unidad central 6,5 kg; vaso 2,1 kg; Varoma 840 g",
+        "Cable": "1 m, enrollable",
+        "Recetas": "más de 100.000 en Cookidoo, con suscripción (30 días de prueba gratuita al registrarse)",
+        "Dónde se compra": "tienda online de Vorwerk España o agente Thermomix, con demostración gratuita"
+      }
+    },
+    {
+      "brand": "Lidl",
+      "model": "Monsieur Cuisine smart SKMS 1200 C1",
+      "role": "La alternativa con más capacidad y recetas gratis",
+      "why": "Su vaso de 4,5 l admite 3 l de llenado, casi un litro más que la TM7, y trae báscula de hasta 5 kg, pantalla de 8 pulgadas y más de 1.000 recetas paso a paso sin suscripción. A cambio, gira a unas 5.500 rpm como máximo y no pasa de 130 °C; la OCU puntuó el smart con 68 sobre 100 en 2022, con el amasado como punto débil.",
+      "bestFor": "Familias de cuatro a seis personas, quien cocina en tandas para toda la semana y quien no quiere pagar por las recetas.",
+      "asin": null,
+      "manufacturerUrl": "https://www.lidl.es/p/silvercrest-monsieur-cuisine-smart-skms-1200-c1-negro/p100405422",
+      "specs": {
+        "Marca": "Silvercrest, marca propia de Lidl",
+        "Versiones": "SKMS 1200 C1 (negro y antracita mate) y SKMS 1200 A1 (blanco), con la misma ficha técnica en lidl.es",
+        "Capacidad del vaso": "4,5 l (3 l de llenado)",
+        "Temperatura": "de 37 a 130 °C",
+        "Potencia": "máx. 1.200 W; 1.050 W en la función de cocción y 1.000 W al batir",
+        "Velocidad": "aprox. de 125 a 5.500 rpm; 10 niveles y función turbo",
+        "Giro": "a la derecha para trocear y a la izquierda para remover sin picar",
+        "Pantalla": "táctil en color de 8 pulgadas",
+        "Programas automáticos": "amasar, cocinar al vapor, dorar, batidos, purés, limpieza, cocer huevos, fermentar, cocción lenta y sous-vide",
+        "Báscula integrada": "hasta 5 kg",
+        "Temporizador": "99 minutos",
+        "Cocina al vapor": "accesorio de vaporera con tapa y bandeja, incluido",
+        "Conectividad": "wifi; control por voz con Google Assistant (con wifi activo)",
+        "Medidas": "aprox. 45,7 × 37 × 29 cm",
+        "Recetas": "más de 1.000 preinstaladas, gratuitas, con instrucciones paso a paso; vídeo guiado en recetas seleccionadas",
+        "Accesorios": "sin BPA y aptos para el lavavajillas",
+        "Dónde se compra": "lidl.es (disponible online el 1/11/2026)"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Característica",
+      "Thermomix TM7",
+      "Monsieur Cuisine smart"
+    ],
+    "rows": [
+      [
+        "Capacidad útil del vaso",
+        "2,2 l",
+        "3 l (vaso de 4,5 l)"
+      ],
+      [
+        "Velocidad máxima",
+        "10.700 rpm",
+        "aprox. 5.500 rpm"
+      ],
+      [
+        "Temperatura máxima",
+        "160 °C",
+        "130 °C"
+      ],
+      [
+        "Potencia",
+        "Motor de 500 W; calentamiento de 1.000 W; consumo máx. 2.000 W",
+        "Máx. 1.200 W (1.050 W al cocinar, 1.000 W al batir)"
+      ],
+      [
+        "Pantalla",
+        "10 pulgadas, multitáctil",
+        "8 pulgadas, táctil en color"
+      ],
+      [
+        "Báscula",
+        "De 1 a 3.000 g",
+        "Hasta 5 kg"
+      ],
+      [
+        "Cocina al vapor",
+        "Varoma de 6,8 l en total",
+        "Vaporera con tapa y bandeja, incluida"
+      ],
+      [
+        "Modos y programas",
+        "20 modos",
+        "16 funciones y programas automáticos, según Lidl"
+      ],
+      [
+        "Recetas guiadas",
+        "Cookidoo: más de 100.000, con suscripción (30 días gratis)",
+        "Más de 1.000, gratuitas"
+      ],
+      [
+        "Análisis de la OCU",
+        "Analizado en laboratorio: rendimiento sólido, poco salto frente a la TM6",
+        "68/100, buena calidad (ensayo de junio de 2022)"
+      ],
+      [
+        "Dónde se compra",
+        "Vorwerk: tienda online o agente, con demostración",
+        "lidl.es, online"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Resultados al cocinar y triturar",
+      "weight": 30,
+      "explanation": "Es para lo que se compra un robot de cocina: picar, triturar, amasar, sofreír y cocer sin vigilar el fuego. Lo valoramos con los resultados publicados por la OCU y con lo que declara cada fabricante sobre revoluciones, temperatura máxima y potencia."
+    },
+    {
+      "name": "Recetas y cocina guiada",
+      "weight": 20,
+      "explanation": "La mitad del atractivo de estos robots es que te llevan paso a paso. Comparamos cuántas recetas guiadas ofrece cada uno, si vienen en español, qué herramientas incluyen (planificador, lista de la compra) y si exigen una suscripción de pago."
+    },
+    {
+      "name": "Capacidad útil",
+      "weight": 15,
+      "explanation": "Cuenta lo que se puede cocinar de una vez, no el volumen del vaso vacío. Usamos la capacidad de llenado que indica cada fabricante: decide si un guiso para seis sale en una tanda o en dos."
+    },
+    {
+      "name": "Funciones y accesorios",
+      "weight": 15,
+      "explanation": "Modos y programas automáticos (dorar, vapor, fermentar, cocción lenta, al vacío), báscula, accesorio de vapor incluido y conectividad, según la ficha de Vorwerk y la de Lidl para España."
+    },
+    {
+      "name": "Fiabilidad documentada",
+      "weight": 10,
+      "explanation": "Un robot de cocina se usa durante años. Tenemos en cuenta la encuesta de fiabilidad de la OCU y la nota de fiabilidad de marca de sus fichas; no usamos opiniones de tiendas."
+    },
+    {
+      "name": "Uso diario, compra y servicio",
+      "weight": 10,
+      "explanation": "Limpieza, ruido y almacenaje cuando la OCU los ha medido, además de cómo se compra en España: demostración y agente, o compra online con disponibilidad cambiante."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Thermomix o Monsieur Cuisine: el veredicto en tres frases",
+      "html": "<ul><li><strong>Elige la Thermomix TM7 si</strong> cocinas casi a diario, quieres triturados muy finos, dorar hasta 160 °C y que un agente te enseñe a sacarle partido, y asumes que el recetario guiado de Cookidoo es de pago después de los 30 días de prueba.</li><li><strong>Elige el Monsieur Cuisine smart si</strong> cocinas para cuatro a seis personas, te importa la capacidad (3 l útiles frente a 2,2 l) y prefieres un recetario gratuito, aunque gire a la mitad de revoluciones y no pase de 130 °C.</li><li><strong>En los dos casos</strong>, hablamos de robots que pican, remueven, sofríen, cuecen, cocinan al vapor y amasan en el mismo vaso; ninguno sustituye al horno.</li></ul>"
+    },
+    {
+      "h2": "Qué modelos comparamos y cuáles no conviene confundir",
+      "html": "<p>La <strong>Thermomix TM7</strong> es el modelo que Vorwerk vende nuevo en España. En su tienda online, la TM6 ya solo se vende reacondicionada por Vorwerk, en la sección «Thermomix reacondicionados».</p><p>El <strong>Monsieur Cuisine smart</strong> se vende en lidl.es en tres acabados: SKMS 1200 C1 negro, SKMS 1200 C1 antracita mate y SKMS 1200 A1 blanco, con la misma ficha técnica. Silvercrest es la marca propia de Lidl.</p><ul><li><strong>Monsieur Cuisine connect y édition plus:</strong> modelos anteriores. El connect tiene pantalla táctil de 7 pulgadas, báscula y wifi; el édition plus, pantalla LC y 3 programas automáticos, según la web de Monsieur Cuisine.</li><li><strong>Monsieur Cuisine compact (SMCC 1100 A1):</strong> el pequeño de la familia, con vaso de 2,5 l y 1,5 l útiles, pensado por Lidl para una a tres raciones.</li></ul>"
+    },
+    {
+      "h2": "Las cuatro diferencias que se notan en la cocina",
+      "html": "<ul><li><strong>Capacidad:</strong> el vaso del Monsieur Cuisine smart mide 4,5 l y admite 3 l de llenado; el de la TM7 se llena hasta 2,2 l. Para un cocido o una crema para seis, el de Lidl va más holgado. Con la TM7 toca hacer dos tandas o aprovechar el Varoma, que suma 6,8 l con la bandeja para cocinar al vapor a la vez que el vaso.</li><li><strong>Triturado y amasado:</strong> la TM7 llega a 10.700 rpm con un motor síncrono de 500 W; el smart, a unas 5.500 rpm con 1.000 W al batir. En el ensayo de la OCU de 2022, el amasado fue el punto más flojo del smart (2 sobre 5).</li><li><strong>Temperatura:</strong> la TM7 sube hasta 160 °C, tiene un modo Dorar para sellar y caramelizar, y cocina sin tapa hasta 100 °C; el smart regula de 37 a 130 °C, suficiente para rehogar y sofreír. Para dorar, la TM7 tiene más margen.</li><li><strong>Pantalla y báscula:</strong> 10 pulgadas multitáctiles y báscula de 1 a 3.000 g en la TM7; 8 pulgadas y báscula de hasta 5 kg en el smart, que además anuncia control por voz con Google Assistant.</li></ul>"
+    },
+    {
+      "h2": "Recetas y suscripción: el coste que no viene en la caja",
+      "html": "<p>La TM7 está pensada para cocinar con <strong>Cookidoo</strong>, la plataforma oficial de recetas de Thermomix. Vorwerk indica en el manual que, para usar todas las funciones, hacen falta wifi y una cuenta Cookidoo, pero no detalla qué queda disponible sin suscripción. La suscripción da acceso a más de 100.000 recetas en varios idiomas, con miles en español, planificador semanal, lista de la compra y cocina guiada. Se prueba gratis 30 días al registrarse; después es de pago.</p><p>Lidl, en cambio, anuncia para el Monsieur Cuisine smart una base de <strong>más de 1.000 recetas gratuitas</strong> paso a paso, vídeo guiado en algunas de ellas, planificador semanal y lista de la compra en su aplicación. Su ficha advierte de que puede suspender en cualquier momento la entrega mensual de recetas gratuitas.</p><p><strong>En la práctica:</strong> si piensas cocinar casi todo con receta guiada y aprovechar el catálogo, Cookidoo es mucho más amplio. Si cocinas a tu manera y usas el robot como ayudante, el recetario gratuito de Lidl basta.</p>"
+    },
+    {
+      "h2": "Dónde se compran en España",
+      "html": "<ul><li><strong>Thermomix TM7:</strong> la vende Vorwerk de forma directa, en su tienda online o a través de un agente Thermomix, que ofrece una demostración gratuita en casa. Vorwerk anuncia también pago financiado.</li><li><strong>Monsieur Cuisine smart:</strong> se vende en lidl.es; el 1/11/2026 figuraba como disponible online. La disponibilidad cambia, así que conviene comprobar el stock antes de decidir.</li><li><strong>Precio:</strong> la diferencia entre los dos es grande y cambia con las campañas; consulta el precio del día en la web de cada fabricante.</li><li><strong>Garantía:</strong> en España, la garantía legal de un aparato nuevo comprado a una empresa es de tres años desde la entrega, para los dos robots.</li></ul>"
+    },
+    {
+      "h2": "Qué dicen la OCU y otros análisis independientes",
+      "html": "<p>La OCU es la referencia en España para este duelo. Ha analizado en laboratorio la Thermomix TM7: su experto concluye que mantiene un rendimiento sólido, con mejoras puntuales como unas claras montadas más firmes, pero sin un gran salto frente a la TM6. La puntuación completa está reservada a los socios.</p><p>El Monsieur Cuisine smart obtuvo 68 sobre 100, «buena calidad», en su ensayo de junio de 2022: muy bien en puré infantil (5 sobre 5) y mayonesa (4), regular al picar y al montar claras (3) y flojo al amasar (2). En facilidad de uso, la OCU puntúa bajo la limpieza, la visibilidad durante el uso y el ruido (2 sobre 5), y el transporte y almacenaje (1). En cambio, da la nota máxima a la calidad de los materiales, la durabilidad y la fiabilidad de la marca. La ficha no indica el código de modelo y figura como descatalogada, así que tómala como orientación.</p><p>En fiabilidad, la encuesta de la OCU publicada el 18/07/2023, con respuestas de 84.252 hogares europeos, sitúa a Thermomix en cabeza de los robots de cocina, tanto en fiabilidad como en satisfacción; Lidl no aparece en esa nota.</p>"
+    },
+    {
+      "h2": "Alternativas si ninguno te encaja",
+      "html": "<ul><li><strong>Monsieur Cuisine compact (SMCC 1100 A1):</strong> para una a tres raciones. Vaso de 2,5 l con 1,5 l útiles, 1.100 W, motor de 500 W (hasta 500 g de masa), báscula de hasta 3 kg, pantalla LCD táctil y cocina guiada a través de la aplicación; pesa unos 3,73 kg sin accesorios. La vaporera se vende aparte.</li><li><strong>Una TM6 reacondicionada por Vorwerk:</strong> la OCU no ve un gran salto de la TM6 a la TM7, y la TM6 también accede a Cookidoo. Vorwerk la vende en su tienda online, en la sección de reacondicionados; revisa qué incluye cada pack antes de decidir.</li><li><strong>Otras marcas:</strong> Cecotec, con su gama Mambo, y Moulinex también venden robots de cocina con calor en España; no entran en este duelo.</li></ul>"
+    },
+    {
+      "h2": "Por qué este orden",
+      "html": "<p>Comparamos los dos robots con seis criterios ponderados, a partir de las fichas de Vorwerk y de Lidl para España y de los resultados publicados por la OCU. Homenura no prueba los aparatos por su cuenta, y el precio no entra en la nota.</p><ul><li><strong>Resultados al cocinar y triturar (30 %):</strong> TM7 27, smart 21. Más revoluciones y más temperatura, y un rendimiento que la OCU califica de sólido; el smart flojea al amasar en el ensayo de 2022.</li><li><strong>Recetas y cocina guiada (20 %):</strong> TM7 13, smart 17. Cookidoo es mucho más amplio, pero de pago; el recetario de Lidl es gratuito.</li><li><strong>Capacidad útil (15 %):</strong> TM7 9, smart 14. 2,2 l frente a 3 l.</li><li><strong>Funciones y accesorios (15 %):</strong> TM7 14, smart 11. 20 modos, Varoma de 6,8 l y sonda Bluetooth opcional, frente a las 16 funciones y programas que anuncia Lidl y su vaporera; el smart gana en báscula (5 kg).</li><li><strong>Fiabilidad documentada (10 %):</strong> TM7 9, smart 8. Thermomix encabeza la encuesta de fiabilidad de la OCU de 2023; en la ficha del smart, la OCU da a la marca la nota máxima en fiabilidad.</li><li><strong>Uso diario, compra y servicio (10 %):</strong> TM7 9, smart 6. Demostración y agente de Vorwerk; en el smart, la OCU puntúa bajo la limpieza, el ruido y el almacenaje, y la compra es solo online.</li></ul><p><strong>Resultado:</strong> Thermomix TM7, 81 sobre 100; Monsieur Cuisine smart, 77 sobre 100. Es un duelo ajustado: la TM7 gana por resultados y funciones, y el smart, por capacidad y recetas gratis.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es mejor, Thermomix o Monsieur Cuisine?",
+      "a": "Depende de cómo cocines. La Thermomix TM7 gira más rápido (10.700 rpm frente a unas 5.500), sube a 160 °C y tiene más modos; el Monsieur Cuisine smart de Lidl admite más comida (3 l frente a 2,2 l) y sus recetas son gratuitas. En nuestra comparación, la TM7 queda por delante, 81 a 77."
+    },
+    {
+      "q": "¿Hay que pagar Cookidoo para usar la Thermomix TM7?",
+      "a": "Vorwerk indica que para usar todas las funciones de la TM7 hacen falta wifi y una cuenta Cookidoo. La suscripción, con más de 100.000 recetas, se prueba gratis 30 días al registrarse y después es de pago. Vorwerk no detalla en su ficha qué queda disponible sin suscripción."
+    },
+    {
+      "q": "¿El Monsieur Cuisine smart tiene cuotas o suscripción?",
+      "a": "No, según Lidl: anuncia más de 1.000 recetas gratuitas con instrucciones paso a paso y una aplicación gratuita. Eso sí, se reserva el derecho de suspender en cualquier momento la entrega mensual de recetas gratuitas."
+    },
+    {
+      "q": "¿Las recetas de Thermomix sirven para el Monsieur Cuisine?",
+      "a": "Como guía, sí; tal cual, no siempre. Velocidades y temperaturas no coinciden: la TM7 llega a 10.700 rpm y 160 °C, y el smart, a unas 5.500 rpm y 130 °C, con un vaso más grande. Ajusta tiempos y velocidades o usa las recetas propias de Monsieur Cuisine."
+    },
+    {
+      "q": "¿Dónde se compra cada robot en España?",
+      "a": "La TM7 la vende Vorwerk de forma directa, en su tienda online o con un agente Thermomix, que ofrece una demostración gratuita. El Monsieur Cuisine smart se vende en lidl.es; el 1/11/2026 estaba disponible online."
+    },
+    {
+      "q": "¿Merece la pena cambiar de TM6 a TM7?",
+      "a": "Si tu TM6 funciona bien, no es urgente: la OCU concluye que la TM7 no supone un gran salto frente a la TM6. La TM7 aporta pantalla de 10 pulgadas, un Varoma un 45 % más grande según Vorwerk y modos como Sin tapa; la TM6 también accede a Cookidoo."
+    },
+    {
+      "q": "¿Cuánta luz gasta un robot de cocina?",
+      "a": "Depende sobre todo del tiempo que caliente. El calentamiento de la TM7 consume 1.000 W y el aparato admite hasta 2.000 W en total; la función de cocción del smart es de 1.050 W. Una hora a 1.000 W son 1 kWh, pero un guiso no calienta a plena potencia todo el tiempo. En espera, la TM7 declara 0 W y se apaga sola a los 15 minutos."
+    },
+    {
+      "q": "¿Qué pasó con el juicio entre Thermomix y Lidl?",
+      "a": "Según la OCU (10/02/2022), un juzgado de lo mercantil de Barcelona dio la razón a Thermomix en primera instancia y el robot de Lidl estuvo más de un año sin venderse en España. En apelación, la Audiencia de Barcelona concluyó que Lidl no había copiado elementos de Thermomix, y Lidl pudo volver a venderlo. Hoy lidl.es vende el Monsieur Cuisine smart."
+    },
+    {
+      "q": "¿Qué garantía tienen la Thermomix y el Monsieur Cuisine?",
+      "a": "En España, la garantía legal de un aparato nuevo comprado a una empresa es de tres años desde la entrega (artículo 120 de la Ley General para la Defensa de los Consumidores y Usuarios). Se aplica a los dos robots."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "OCU — Thermomix TM7 (comparador de robots de cocina)",
+      "url": "https://www.ocu.org/electrodomesticos/robots-cocina/comparador/thermomix-tm7/28567_115493",
+      "note": "Ficha consultada el 1/11/2026, marcada como analizada en laboratorio; la puntuación y el detalle de las pruebas son solo para socios. El comentario del experto resume que la TM7 mantiene un rendimiento sólido, con mejoras puntuales como unas claras montadas más firmes, pero sin un gran salto frente a la TM6. La OCU mide un peso de 8.454 g y 2.286 ml hasta la marca superior del vaso."
+    },
+    {
+      "name": "OCU — Silvercrest (Lidl) Monsieur Cuisine smart",
+      "url": "https://www.ocu.org/electrodomesticos/robots-cocina/comparador/silvercrest-lidl-monsieur-cuisine-smart/28567_86543",
+      "note": "Ensayo de junio de 2022: 68 sobre 100, «buena calidad». Notas de 1 a 5: puré infantil 5, mayonesa 4, picar 3, montar claras 3 y amasar 2; resultados al cocinar 4; limpieza 2, ruido 2 y transporte y almacenaje 1; calidad de materiales, durabilidad y fiabilidad de la marca 5. La OCU no indica el código de modelo y lo marca como descatalogado, aunque lidl.es vende hoy las versiones SKMS 1200 A1 y C1."
+    },
+    {
+      "name": "OCU — encuesta de fiabilidad del pequeño electrodoméstico",
+      "url": "https://www.ocu.org/organizacion/prensa/notas-de-prensa/2023/fiabilidadpeqelec180723",
+      "note": "Nota de prensa del 18/07/2023, con respuestas de 84.252 hogares europeos: Thermomix (Vorwerk) encabeza los robots de cocina en fiabilidad y satisfacción, seguida de Moulinex y Kenwood. Las averías más citadas son botones e interruptores (14 %), accesorios (11 %) y báscula (10 %). Lidl no aparece en la nota."
+    },
+    {
+      "name": "OCU — el litigio entre Thermomix y Lidl",
+      "url": "https://www.ocu.org/electrodomesticos/robots-cocina/noticias/juicio-thermomix-lidl",
+      "note": "Artículo del 10/02/2022: un tribunal mercantil de Barcelona había dado la razón a Thermomix en primera instancia y el robot de Lidl estuvo más de un año sin venderse en España; en apelación, la Audiencia de Barcelona concluyó que Lidl no había copiado elementos de Thermomix y el robot pudo volver a venderse."
+    }
+  ],
+  "sources": [
+    "https://www.vorwerk.com/es/es/productos/thermomix/thermomix-tm7",
+    "https://www.vorwerk.com/language-master/es/download/service/manual/tm7/manualtm7julio.pdf",
+    "https://www.vorwerk.com/es/es/shop/categorias/thermomix/thermomix-reacondicionados",
+    "https://cookidoo.es/foundation/es-ES/membership",
+    "https://www.lidl.es/p/silvercrest-monsieur-cuisine-smart-skms-1200-c1-negro/p100405422",
+    "https://www.lidl.es/p/silvercrest-monsieur-cuisine-smart-skms-1200-c1-antracita-mate/p100401349",
+    "https://www.lidl.es/p/silvercrest-monsieur-cuisine-smart-skms-1200-a1-blanco/p100401327",
+    "https://www.lidl.es/p/silvercrest-monsieur-cuisine-compact-smcc-1100-a1-antracita/p100410128",
+    "https://www.monsieur-cuisine.com/es/monsieur-cuisine-smart/",
+    "https://www.monsieur-cuisine.com/es/productos/",
+    "https://shop.monsieur-cuisine.com/es/monsieur-cuisine-smart/400-monsieur-cuisine-smart-negro.html",
+    "https://www.ocu.org/electrodomesticos/robots-cocina/comparador/thermomix-tm7/28567_115493",
+    "https://www.ocu.org/electrodomesticos/robots-cocina/comparador/silvercrest-lidl-monsieur-cuisine-smart/28567_86543",
+    "https://www.ocu.org/organizacion/prensa/notas-de-prensa/2023/fiabilidadpeqelec180723",
+    "https://www.ocu.org/electrodomesticos/robots-cocina/noticias/juicio-thermomix-lidl",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555"
+  ],
+  "related": [
+    "/es/cuisine-connectee/robots-multifonctions",
+    "/es/cuisine-connectee/multicuiseurs",
+    "/es/cuisine-connectee/balances",
+    "/es/guides/cuisine-connectee",
+    "/es/guides/airfryers"
+  ]
+}

@@ -89,7 +89,7 @@ describe.each(CASES)('%s hub in %s', (slug, lang) => {
   it('dates the page with its newest change, never before its FAQ date', () => {
     const iso = hubModifiedIso(slug, lang)
     expect(iso).toMatch(ISO_DAY)
-    expect(iso >= categoryModifiedIso(slug, SITE_LAST_UPDATED_ISO)).toBe(true)
+    expect(iso >= categoryModifiedIso(slug, SITE_LAST_UPDATED_ISO, lang)).toBe(true)
     const newest = getHubChangelog(slug, lang)[0]?.date
     if (newest) expect(iso >= newest).toBe(true)
     expect(getAnswerFirstHub(slug, lang)?.modifiedIso).toBe(iso)
@@ -172,7 +172,7 @@ describe('changelog', () => {
     ]
     expect(getHubChangelog('thermostats', 'fr', log).map((c) => c.date)).toEqual(['2027-01-15', '2026-12-01'])
     expect(hubModifiedIso('thermostats', 'fr', log)).toBe('2027-01-15')
-    expect(hubModifiedIso('thermostats', 'de', log)).toBe(categoryModifiedIso('thermostats', SITE_LAST_UPDATED_ISO))
+    expect(hubModifiedIso('thermostats', 'de', log)).toBe(categoryModifiedIso('thermostats', SITE_LAST_UPDATED_ISO, 'de'))
   })
 })
 

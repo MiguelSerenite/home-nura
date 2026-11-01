@@ -81,8 +81,15 @@ describe('cuisine FAQs', () => {
 })
 
 describe('categoryModifiedIso', () => {
-  it('uses the FAQ review date for hubs with a written FAQ', () => {
-    expect(categoryModifiedIso(GENERIC_HUBS[0].slug, '2026-01-01')).toBe(CATEGORY_FAQS_UPDATED_ISO)
+  it("uses the locale's FAQ review date for hubs with a written FAQ", () => {
+    for (const lang of FAQ_LOCALES) {
+      expect(categoryModifiedIso(GENERIC_HUBS[0].slug, '2026-01-01', lang)).toBe(CATEGORY_FAQS_UPDATED_ISO[lang])
+    }
+  })
+
+  it('uses the newest review without a locale', () => {
+    const newest = Object.values(CATEGORY_FAQS_UPDATED_ISO).toSorted().at(-1)
+    expect(categoryModifiedIso(GENERIC_HUBS[0].slug, '2026-01-01')).toBe(newest)
   })
 
   it('keeps a newer site date and the site date for hubs without FAQ', () => {
