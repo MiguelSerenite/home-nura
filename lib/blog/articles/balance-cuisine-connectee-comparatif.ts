@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Bilancia da cucina digitale con timer integrato che pesa chicchi di caffè in una ciotolina',
         nl: 'Digitale keukenweegschaal met ingebouwde timer die koffiebonen in een schaaltje weegt',
         pl: 'Cyfrowa waga kuchenna z wbudowanym minutnikiem, na której w miseczce leżą ziarna kawy',
+        sv: 'Kaffebönor vägs i en liten skål på en digital köksvåg med inbyggd timer',
+        us: 'Digital kitchen scale with a built-in timer weighing coffee beans in a small dish',
+        ca: 'Digital kitchen scale with a built-in timer weighing coffee beans in a small dish',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Bilancia da cucina smart 2026: confronto dei migliori modelli',
     nl: 'Slimme keukenweegschaal 2026: de beste modellen vergeleken',
     pl: 'Inteligentna waga kuchenna 2026: porównanie najlepszych modeli',
+    sv: 'Köksvåg med app 2026: de bästa modellerna jämförda',
+    us: 'Best Smart Kitchen Scales of 2026: 4 Food Scales Compared',
+    ca: 'Best Smart Kitchen Scales 2026: 4 Food Scales Compared',
   },
   excerpt: {
     fr: 'Etekcity ESN00, balance connectée Renpho, Beurer KS 34 XL et Acaia Pearl : notre comparatif 2026 des balances de cuisine, entre suivi nutritionnel par application, grande capacité et précision au dixième de gramme pour le café.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'Etekcity ESN00, báscula inteligente Renpho, Beurer KS 34 XL y Acaia Pearl: nuestra comparativa 2026 de básculas de cocina, del seguimiento nutricional con app a la gran capacidad y la precisión de 0,1 g para café.',
     it: 'Etekcity ESN00, bilancia smart Renpho, Beurer KS 34 XL e Acaia Pearl: il nostro confronto 2026 delle bilance da cucina, dal monitoraggio nutrizionale via app alla grande portata e alla precisione di 0,1 g per il caffè.',
     nl: 'Etekcity ESN00, de slimme Renpho-weegschaal, Beurer KS 34 XL en Acaia Pearl: onze vergelijking 2026 van keukenweegschalen, van voedingstracking via een app tot groot draagvermogen en 0,1 g precisie voor koffie.',
-    pl: 'Etekcity ESN00, inteligentna waga Renpho, Beurer KS 34 XL i Acaia Pearl: nasze porównanie wag kuchennych na 2026 rok, od śledzenia wartości odżywczych w aplikacji, przez duży udźwig, po dokładność do dziesiątej części grama przy parzeniu kawy.',
+    pl: 'Etekcity ESN00, inteligentna waga Renpho, Beurer KS 34 XL i Acaia Pearl: nasze porównanie wag kuchennych 2026 – od liczenia wartości odżywczych w aplikacji, przez ważenie dużych ilości, po dokładność do 0,1 g przy parzeniu kawy.',
+    sv: 'Etekcity ESN00, Renphos smarta köksvåg, Beurer KS 34 XL och Acaia Pearl: vår jämförelse av köksvågar 2026 – näringsberäkning i appen, hög maxvikt eller en tiondels grams noggrannhet för kaffe.',
+    us: 'Etekcity ESN00, Renpho smart food scale, Beurer KS 34 XL and Acaia Pearl compared for 2026: app-based nutrition tracking, big capacity for batch cooking and 0.1 g precision for coffee.',
+    ca: 'Etekcity ESN00, Renpho smart food scale, Beurer KS 34 XL and Acaia Pearl: our 2026 comparison of kitchen scales, from app-based nutrition tracking to large capacity and 0.1 g precision for coffee.',
   },
   content: {
     fr: `<p><strong>La meilleure balance de cuisine connectée en 2026 pour la plupart des foyers est l’Etekcity Smart Nutrition Scale</strong> : elle pèse jusqu’à 5 kg au gramme près et son application VeSync calcule jusqu’à 19 nutriments pour chaque aliment pesé. La balance connectée de Renpho est l’alternative d’entrée de gamme, la Beurer KS 34 XL convient si vous voulez peser lourd sans application, et l’Acaia Pearl s’adresse aux amateurs de café qui veulent le dixième de gramme.</p>
@@ -538,88 +547,334 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste keukens is de <strong>Etekcity Smart Nutrition Scale</strong> de beste keuze: stevig, eenvoudig en ondersteund door een complete, goed onderhouden app. De <strong>slimme weegschaal van Renpho</strong> is de meest betaalbare optie, zeker als je al een personenweegschaal van het merk gebruikt. Heb je geen app nodig maar weeg je vaak grote hoeveelheden, dan is de <strong>Beurer KS 34 XL</strong> het handigst. En voor koffie blijft de <strong>Acaia Pearl</strong> de referentie.</p>`,
-    pl: `<p><strong>Najlepszą inteligentną wagą kuchenną 2026 roku dla większości domów jest Etekcity Smart Nutrition Scale</strong>: waży do 5 kg z dokładnością do grama, a jej aplikacja VeSync oblicza do 19 składników odżywczych dla każdego zważonego produktu. Inteligentna waga Renpho to alternatywa z niższej półki, Beurer KS 34 XL sprawdzi się, jeśli chcesz ważyć duże ciężary bez aplikacji, a Acaia Pearl jest dla miłośników kawy, którzy potrzebują dziesiątej części grama.</p>
-<p>To porównanie opiera się na kartach technicznych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku. Cały wybór znajdziesz na naszej stronie <a href="/pl/cuisine-connectee/balances">inteligentne wagi kuchenne</a>.</p>
+    pl: `<p><strong>Dla większości domów najlepszą inteligentną wagą kuchenną w 2026 roku jest Etekcity Smart Nutrition Scale</strong>: waży do 5 kg z dokładnością do 1 g, a aplikacja VeSync wylicza do 19 składników odżywczych każdego zważonego produktu. Tańszą alternatywą jest inteligentna waga Renpho, Beurer KS 34 XL sprawdzi się, jeśli chcesz ważyć duże ilości bez aplikacji, a Acaia Pearl to propozycja dla miłośników kawy, którym potrzebna jest dokładność do 0,1 g.</p>
+<p>Porównanie powstało na podstawie kart katalogowych producentów, niezależnych recenzji i opinii zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku. Pełne zestawienie znajdziesz na naszej stronie <a href="/pl/cuisine-connectee/balances">inteligentne wagi kuchenne</a>.</p>
 
-<h2>Co robi (a czego nie robi) inteligentna waga kuchenna</h2>
-<p>Inteligentna waga to przede wszystkim waga: pokazuje ciężar na swoim ekranie, z telefonem lub bez. Różnica tkwi w aplikacji. Gdy waga jest połączona przez Bluetooth, wskazujesz produkt, który ważysz, a aplikacja mnoży zmierzoną wagę przez wartości odżywcze z bazy danych: kalorie, białko, węglowodany, tłuszcze, a czasem błonnik, sód lub witaminy.</p>
-<p>Ważna uwaga: waga <strong>nie rozpoznaje</strong>, co na niej kładziesz. To Ty wybierasz produkt w aplikacji. Jakość śledzenia zależy więc od bazy danych, łatwości wyszukiwania i Twojej systematyczności.</p>
+<h2>Co potrafi (a czego nie potrafi) inteligentna waga kuchenna</h2>
+<p>Inteligentna waga to przede wszystkim waga: pokazuje wynik na własnym wyświetlaczu, z telefonem lub bez. Różnicę robi aplikacja. Po połączeniu wagi przez Bluetooth wskazujesz, jaki produkt ważysz, a aplikacja mnoży zmierzoną masę przez wartości odżywcze ze swojej bazy danych: kalorie, białko, węglowodany, tłuszcze, a czasem także błonnik, sód czy witaminy.</p>
+<p>Ważne: waga <strong>nie rozpoznaje</strong>, co na niej kładziesz. To Ty wybierasz produkt w aplikacji. Dokładność wyliczeń zależy więc od bazy danych, wygody wyszukiwania i Twojej systematyczności.</p>
 
 <h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Dokładność wskazania</strong>: większość wag kuchennych pokazuje ciężar z dokładnością do grama, co wystarcza do gotowania i liczenia kalorii. Dziesiąta część grama (0,1 g) jest przydatna tylko przy kawie specialty, przyprawach lub drożdżach w bardzo małych ilościach.</li>
-<li><strong>Udźwig</strong>: 5 kg pokrywa niemal wszystkie zastosowania. Udźwig 15 kg przydaje się przy dużych garnkach, większych ilościach ciasta chlebowego lub dżemach.</li>
-<li><strong>Aplikacja i baza produktów</strong>: sprawdź liczbę śledzonych składników odżywczych, obecność historii, trybu posiłku i synchronizację z Apple Zdrowie lub innymi usługami.</li>
-<li><strong>Trwałość aplikacji</strong>: inteligentna waga zależy od usługi online. Wybieraj markę, która rozwija swoją aplikację od kilku lat.</li>
-<li><strong>Zasilanie</strong>: baterie AAA (łatwe do wymiany) lub akumulator ładowany przez USB-C.</li>
-<li><strong>Platforma ważąca</strong>: stal nierdzewna i szkło łatwo się czyszczą; sprawdź, czy platforma jest wystarczająco szeroka na Twoje miski.</li>
+<li><strong>Dokładność</strong>: większość wag kuchennych pokazuje wynik z dokładnością do 1 g, co wystarcza do gotowania i liczenia kalorii. Dokładność 0,1 g przydaje się tylko przy kawie specialty oraz przy odważaniu bardzo małych ilości przypraw czy drożdży.</li>
+<li><strong>Maksymalne obciążenie</strong>: 5 kg wystarcza niemal do wszystkiego. Zakres do 15 kg przydaje się przy dużych garnkach, większych porcjach ciasta na chleb czy przy robieniu dżemów.</li>
+<li><strong>Aplikacja i baza produktów</strong>: sprawdź, ile składników odżywczych śledzi aplikacja, czy ma historię i tryb posiłków oraz czy synchronizuje dane z Apple Zdrowie lub innymi usługami.</li>
+<li><strong>Żywotność aplikacji</strong>: inteligentna waga zależy od usługi online. Wybieraj markę, która od kilku lat utrzymuje i aktualizuje swoją aplikację.</li>
+<li><strong>Zasilanie</strong>: baterie AAA (łatwe do wymiany) albo akumulator ładowany przez USB-C.</li>
+<li><strong>Płyta ważąca</strong>: stal nierdzewna i szkło łatwo się czyszczą; sprawdź też, czy płyta jest na tyle duża, by zmieściły się na niej Twoje miski.</li>
 </ul>
 
-<h2>4 wagi, które warto znać w 2026 roku</h2>
+<h2>Modele warte uwagi w 2026 roku</h2>
 
-<h3>1. Etekcity Smart Nutrition Scale: najlepszy wybór ogólny</h3>
-<p>Etekcity ESN00 to najbardziej dopracowana waga żywieniowa w tym zestawieniu. Waży do 5 kg z podziałką 1 g (lub 1 ml dla płynów), na platformie ze <strong>stali nierdzewnej 304</strong> o wymiarach 23,5 × 16 cm, łatwej do przetarcia. Działa na 3 baterie AAA.</p>
-<p>Jej siłą jest bezpłatna aplikacja <strong>VeSync</strong>: śledzi do <strong>19 składników odżywczych</strong>, tworzy raporty dzienne, tygodniowe i miesięczne i może synchronizować dane z Apple Zdrowie i Fitbit. Podświetlenie ekranu reguluje się z poziomu aplikacji. Opinie kupujących chwalą przede wszystkim stabilność połączenia i czytelność podsumowań.</p>
-<p><strong>Ograniczenia</strong>: podziałka co gram nie nadaje się do bardzo precyzyjnego ważenia, połączenie odbywa się wyłącznie przez Bluetooth, a śledzenie wartości odżywczych wymaga wpisywania każdego produktu w aplikacji.</p>
-<p><strong>Dla kogo</strong>: dla każdego, kto chce na co dzień śledzić kalorie lub makroskładniki, przygotowywać posiłki z wyprzedzeniem albo po prostu lepiej wiedzieć, co je.</p>
+<h3>1. Etekcity Smart Nutrition Scale: najlepszy wybór dla większości</h3>
+<p>Etekcity ESN00 to najbardziej dopracowana waga dietetyczna w tym zestawieniu. Waży do 5 kg z dokładnością do 1 g (lub 1 ml w przypadku płynów), a płyta ze <strong>stali nierdzewnej 304</strong> o wymiarach 23,5 × 16 cm łatwo się przeciera. Zasilają ją 3 baterie AAA.</p>
+<p>Jej największym atutem jest bezpłatna aplikacja <strong>VeSync</strong>: śledzi do <strong>19 składników odżywczych</strong>, przygotowuje raporty dzienne, tygodniowe i miesięczne, a dane może synchronizować z Apple Zdrowie i Fitbit. Podświetlenie wyświetlacza reguluje się w aplikacji. Kupujący chwalą przede wszystkim stabilne połączenie i czytelne podsumowania.</p>
+<p><strong>Ograniczenia</strong>: dokładność do 1 g nie wystarczy do bardzo precyzyjnego ważenia, łączność ogranicza się do Bluetooth, a żeby liczyć wartości odżywcze, trzeba wprowadzać każdy produkt w aplikacji.</p>
+<p><strong>Dla kogo</strong>: dla każdego, kto chce na co dzień liczyć kalorie lub makroskładniki, przygotowywać posiłki z wyprzedzeniem albo po prostu lepiej wiedzieć, co je.</p>
 
-<h3>2. Inteligentna waga kuchenna Renpho: najbardziej przystępna alternatywa</h3>
-<p>Renpho, znane z inteligentnych wag łazienkowych, oferuje też żywieniową wagę Bluetooth, która waży do 5 kg z dokładnością do grama. Steruje się nią aplikacją <strong>Renpho Health</strong>, tą samą co wagi łazienkowe marki, z bazą produktów opartą m.in. na danych USDA, czytnikiem kodów kreskowych dla produktów paczkowanych i synchronizacją z Apple Zdrowie. Ma też funkcję ważenia do kawy.</p>
-<p><strong>Ograniczenia</strong>: baza produktów, pochodząca z USA, jest uboższa w typowe produkty europejskie, a aplikacja wymaga założenia konta. Niektórzy kupujący uważają aplikację za wolniejszą niż Etekcity.</p>
-<p><strong>Dla kogo</strong>: dla ograniczonych budżetów i osób, które już używają wagi łazienkowej Renpho i chcą połączyć masę ciała i odżywianie w jednej aplikacji.</p>
+<h3>2. Inteligentna waga kuchenna Renpho: najbardziej przystępna cenowo alternatywa</h3>
+<p>Renpho, marka znana z inteligentnych wag łazienkowych, oferuje też kuchenną wagę dietetyczną z Bluetooth, która waży do 5 kg z dokładnością do 1 g. Obsługuje się ją w aplikacji <strong>Renpho Health</strong> – tej samej, z której korzystają wagi łazienkowe marki. Aplikacja ma bazę produktów opartą m.in. na danych amerykańskiej agencji USDA, czytnik kodów kreskowych do produktów paczkowanych i synchronizację z Apple Zdrowie. Waga ma też funkcję ważenia kawy.</p>
+<p><strong>Ograniczenia</strong>: baza produktów pochodzi z USA, więc brakuje w niej wielu typowych produktów europejskich, a aplikacja wymaga założenia konta. Część kupujących uważa ją za wolniejszą od aplikacji Etekcity.</p>
+<p><strong>Dla kogo</strong>: dla osób z ograniczonym budżetem oraz dla tych, którzy używają już wagi łazienkowej Renpho i chcą mieć masę ciała i dietę w jednej aplikacji.</p>
 
-<h3>3. Beurer KS 34 XL: duży udźwig, bez aplikacji</h3>
-<p>Beurer KS 34 XL nie jest inteligentna, ale odpowiada na potrzebę, której wagi żywieniowe słabo zaspokajają: ważenie dużych ciężarów. Przyjmuje do <strong>15 kg</strong> z podziałką 1 g, na dużej szklanej platformie o wymiarach 20 × 26,3 cm. Jej ekran „Magic” pojawia się tylko podczas ważenia, funkcja <em>hold</em> zatrzymuje wskazanie, gdy duże naczynie zasłania ekran, a tarowanie włącza się przyciskami dotykowymi. Działa na 4 baterie AAA, dołączone do zestawu.</p>
-<p><strong>Ograniczenia</strong>: brak aplikacji i śledzenia wartości odżywczych, a podziałka co gram pozostaje mało odpowiednia do bardzo małych ilości.</p>
-<p><strong>Dla kogo</strong>: dla rodzin, miłośników domowego chleba, przetworów lub gotowania na zapas w dużych ilościach oraz tych, którzy wolą zapisywać posiłki samodzielnie, w wybranej aplikacji.</p>
+<h3>3. Beurer KS 34 XL: do dużych ilości, bez aplikacji</h3>
+<p>Beurer KS 34 XL nie łączy się z telefonem, ale odpowiada na potrzebę, z którą wagi dietetyczne radzą sobie słabo: ważenie dużych ilości. Waży do <strong>15 kg</strong> z dokładnością do 1 g, na dużej szklanej płycie o wymiarach 20 × 26,3 cm. Wyświetlacz „Magic” pojawia się tylko podczas ważenia, funkcja <em>hold</em> zatrzymuje wynik na ekranie, gdy duże naczynie zasłania wyświetlacz, a tarę ustawia się przyciskami dotykowymi. Działa na 4 baterie AAA, które są w zestawie.</p>
+<p><strong>Ograniczenia</strong>: brak aplikacji i liczenia wartości odżywczych, a dokładność do 1 g nie sprawdza się przy bardzo małych ilościach.</p>
+<p><strong>Dla kogo</strong>: dla rodzin, dla osób, które pieką chleb, robią przetwory albo gotują na zapas w dużych ilościach, oraz dla tych, którzy wolą samodzielnie zapisywać posiłki w wybranej aplikacji.</p>
 
-<h3>4. Acaia Pearl: inteligentny wzorzec do kawy</h3>
-<p>Acaia Pearl jest przeznaczona do konkretnego zastosowania: kawy specialty. Waży do 2 kg z rozdzielczością <strong>0,1 g</strong>, ma wbudowany minutnik i łączy się przez Bluetooth z aplikacjami Acaia, które zapisują wagę, czas i tempo ekstrakcji, by odtworzyć przepis. Akumulator ładuje się przez USB-C.</p>
-<p><strong>Ograniczenia</strong>: udźwig ograniczony do 2 kg, brak śledzenia wartości odżywczych i pozycjonowanie w wysokim segmencie.</p>
-<p><strong>Dla kogo</strong>: dla miłośników espresso i kawy przelewowej, którzy chcą dokładnych proporcji i historii swoich ekstrakcji. Aby dowiedzieć się więcej, zajrzyj do naszego <a href="/pl/blog/cafetiere-connectee-guide">poradnika o inteligentnych ekspresach do kawy</a>.</p>
+<h3>4. Acaia Pearl: klasyka wśród inteligentnych wag do kawy</h3>
+<p>Acaia Pearl ma konkretne przeznaczenie: kawę specialty. Waży do 2 kg z rozdzielczością <strong>0,1 g</strong>, ma wbudowany minutnik i łączy się przez Bluetooth z aplikacjami Acaia, które zapisują masę, czas i przepływ podczas ekstrakcji, dzięki czemu łatwo powtórzyć przepis. Akumulator ładuje się przez USB-C.</p>
+<p><strong>Ograniczenia</strong>: maksymalne obciążenie to tylko 2 kg, brak liczenia wartości odżywczych, model z wyższej półki.</p>
+<p><strong>Dla kogo</strong>: dla miłośników espresso i kawy z przelewu, którzy chcą trzymać się dokładnych proporcji i zapisywać historię parzenia. Więcej znajdziesz w naszym <a href="/pl/blog/cafetiere-connectee-guide">poradniku o inteligentnych ekspresach do kawy</a>.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Udźwig i podziałka</th><th>Łączność i aplikacja</th><th>Zasilanie</th><th>Idealny do</th></tr>
+<tr><th>Model</th><th>Maks. obciążenie i dokładność</th><th>Łączność i aplikacja</th><th>Zasilanie</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Etekcity ESN00</td><td>5 kg, 1 g</td><td>Bluetooth, VeSync (19 składników)</td><td>3 baterie AAA</td><td>Codziennego śledzenia wartości odżywczych</td></tr>
-<tr><td>Renpho (waga żywieniowa)</td><td>5 kg, 1 g</td><td>Bluetooth, Renpho Health</td><td>Zależnie od wersji</td><td>Małego budżetu, ekosystemu Renpho</td></tr>
-<tr><td>Beurer KS 34 XL</td><td>15 kg, 1 g</td><td>Brak</td><td>4 baterie AAA</td><td>Dużych ilości</td></tr>
-<tr><td>Acaia Pearl</td><td>2 kg, 0,1 g</td><td>Bluetooth, aplikacje Acaia</td><td>Akumulator USB-C</td><td>Kawy specialty</td></tr>
+<tr><td>Etekcity ESN00</td><td>5 kg, 1 g</td><td>Bluetooth, VeSync (19 składników)</td><td>3 baterie AAA</td><td>Codzienne liczenie wartości odżywczych</td></tr>
+<tr><td>Renpho (waga dietetyczna)</td><td>5 kg, 1 g</td><td>Bluetooth, Renpho Health</td><td>Zależnie od wersji</td><td>Mały budżet, ekosystem Renpho</td></tr>
+<tr><td>Beurer KS 34 XL</td><td>15 kg, 1 g</td><td>Brak</td><td>4 baterie AAA</td><td>Duże ilości</td></tr>
+<tr><td>Acaia Pearl</td><td>2 kg, 0,1 g</td><td>Bluetooth, aplikacje Acaia</td><td>Akumulator USB-C</td><td>Kawa specialty</td></tr>
 </tbody>
 </table>
 
 <h2>Jaka waga do jakiego zastosowania?</h2>
 <ul>
-<li><strong>Liczenie kalorii lub śledzenie makroskładników</strong>: Etekcity ESN00, ze względu na bogactwo śledzenia i raporty. Renpho robi to, co najważniejsze, taniej.</li>
-<li><strong>Wypieki</strong>: waga co do grama wystarcza do mąki, cukru czy masła. Przy drożdżach lub soli w małych ilościach zważ większą porcję ciasta albo użyj wagi z dokładnością do dziesiątej części grama.</li>
-<li><strong>Kawa</strong>: Acaia Pearl, dzięki rozdzielczości 0,1 g i minutnikowi.</li>
-<li><strong>Duże przygotowania</strong>: Beurer KS 34 XL z udźwigiem 15 kg.</li>
+<li><strong>Liczenie kalorii i makroskładników</strong>: Etekcity ESN00 – za rozbudowane funkcje i raporty. Renpho zapewnia to, co najważniejsze, za mniejsze pieniądze.</li>
+<li><strong>Wypieki</strong>: do mąki, cukru czy masła wystarczy waga z dokładnością do 1 g. Jeśli odważasz małe ilości drożdży lub soli, odmierz je na większą porcję ciasta albo użyj wagi z dokładnością do 0,1 g.</li>
+<li><strong>Kawa</strong>: Acaia Pearl – za rozdzielczość 0,1 g i minutnik.</li>
+<li><strong>Gotowanie w dużych ilościach</strong>: Beurer KS 34 XL z zakresem do 15 kg.</li>
 </ul>
-<p>Aby wyposażyć resztę kuchni, nasz <a href="/pl/blog/guide-cuisine-connectee-2026">poradnik o inteligentnej kuchni 2026</a> omawia przydatne urządzenia.</p>
+<p>Jeśli chcesz wyposażyć resztę kuchni, zajrzyj do naszego <a href="/pl/blog/guide-cuisine-connectee-2026">przewodnika po inteligentnej kuchni 2026</a>, w którym omawiamy przydatne urządzenia.</p>
 
-<h2>Inteligentna waga czy zwykła waga z aplikacją?</h2>
-<p>Inteligentna waga nie jest niezbędna do kontrolowania żywienia: można ważyć dowolną wagą co do grama, a następnie ręcznie wpisać ciężar w aplikacji żywieniowej. Wersja inteligentna daje przede wszystkim wygodę. Ciężar trafia bezpośrednio do aplikacji, bez przepisywania i ryzyka pomyłki, a każdy składnik posiłku dodaje się do sumy w kilka sekund.</p>
-<p>Ta wygoda ma znaczenie, jeśli ważysz kilka razy dziennie, na przykład przy śledzeniu makroskładników lub przygotowywaniu posiłków na cały tydzień. Jeśli ważysz głównie do wypieków lub od czasu do czasu, dobra zwykła waga, jak Beurer KS 34 XL, w zupełności wystarczy i nie zależy od żadnej usługi online.</p>
-<p>Przed zakupem sprawdź też zgodność z telefonem: aplikacje VeSync, Renpho Health i Acaia istnieją na iOS i Androida, ale funkcje synchronizacji (Apple Zdrowie, Fitbit) różnią się zależnie od platformy.</p>
+<h2>Inteligentna waga czy zwykła waga i aplikacja?</h2>
+<p>Do kontrolowania diety nie potrzebujesz inteligentnej wagi: możesz ważyć na dowolnej wadze z dokładnością do 1 g, a potem ręcznie wpisać wynik do aplikacji dietetycznej. Waga z łącznością daje przede wszystkim wygodę. Wynik trafia prosto do aplikacji, bez przepisywania i ryzyka pomyłki, a każdy składnik posiłku dodajesz do sumy w kilka sekund.</p>
+<p>Ta wygoda ma znaczenie, jeśli ważysz kilka razy dziennie, np. licząc makroskładniki albo przygotowując posiłki na cały tydzień. Jeśli ważysz głównie do wypieków lub od czasu do czasu, dobra zwykła waga, taka jak Beurer KS 34 XL, w zupełności wystarczy i nie zależy od żadnej usługi online.</p>
+<p>Przed zakupem sprawdź też, czy aplikacja współpracuje z Twoim telefonem: VeSync, Renpho Health i aplikacje Acaia są dostępne na iOS i Androida, ale funkcje synchronizacji (Apple Zdrowie, Fitbit) różnią się w zależności od systemu.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Wiara, że waga rozpoznaje produkty</strong>: żaden model z tego zestawienia tego nie robi. Musisz wybrać produkt w aplikacji.</li>
-<li><strong>Kupno wagi, której aplikacja zniknęła</strong>: Yummly Smart Scale i waga Drop, często wymieniane w starszych porównaniach, nie są już sprzedawane, a aplikacja Yummly została zamknięta pod koniec 2024 roku. Na rynku wtórnym zawsze sprawdź, czy aplikacja nadal działa.</li>
-<li><strong>Płacenie za dziesiątą część grama bez potrzeby</strong>: do gotowania i liczenia kalorii wystarcza gram.</li>
-<li><strong>Zapominanie o tarze</strong>: połóż naczynie, wyzeruj wagę, a potem dodaj produkt. W przeciwnym razie ciężar miski zafałszuje obliczenia żywieniowe.</li>
-<li><strong>Ważenie na niestabilnej powierzchni</strong>: płaski i sztywny blat jest niezbędny do wiarygodnego pomiaru.</li>
+<li><strong>Przekonanie, że waga sama rozpoznaje produkty</strong>: żaden model z tego zestawienia tego nie potrafi. Produkt trzeba wybrać w aplikacji.</li>
+<li><strong>Kupowanie wagi, której aplikacja przestała działać</strong>: Yummly Smart Scale i waga Drop, często wymieniane w starszych porównaniach, nie są już w sprzedaży, a aplikację Yummly wyłączono pod koniec 2024 roku. Kupując używaną wagę, zawsze sprawdź, czy jej aplikacja nadal działa.</li>
+<li><strong>Przepłacanie za dokładność 0,1 g bez potrzeby</strong>: do gotowania i liczenia kalorii wystarczy dokładność do 1 g.</li>
+<li><strong>Zapominanie o tarowaniu</strong>: postaw naczynie, wyzeruj wagę, a dopiero potem dodaj produkt. Inaczej masa miski zafałszuje wyliczenie wartości odżywczych.</li>
+<li><strong>Ważenie na niestabilnej powierzchni</strong>: wiarygodny pomiar wymaga płaskiego i sztywnego blatu.</li>
 </ul>
 
-<h2>Użytkowanie i konserwacja</h2>
-<p>Postaw wagę na płaskiej powierzchni, z dala od płyty grzewczej. Czyść platformę wilgotną szmatką, nie zanurzając wagi i nie myjąc jej w zmywarce, i nie pozwól, by woda przedostała się w pobliże ekranu lub komory na baterie. Wyjmij baterie, jeśli nie używasz wagi przez kilka miesięcy.</p>
-<p>Wyświetlane wartości odżywcze są szacunkami pochodzącymi z baz danych. Przydają się orientacyjnie, ale waga kuchenna nie jest wyrobem medycznym: przy diecie zaleconej medycznie (cukrzyca, niewydolność nerek, alergia) stosuj się do wskazówek lekarza lub dietetyka.</p>
+<h2>Użytkowanie i czyszczenie</h2>
+<p>Ustaw wagę na płaskiej powierzchni, z dala od kuchenki. Płytę wagi czyść wilgotną ściereczką: nie zanurzaj urządzenia w wodzie, nie myj go w zmywarce i uważaj, by woda nie dostała się w okolice wyświetlacza lub komory na baterie. Jeśli nie korzystasz z wagi przez kilka miesięcy, wyjmij baterie.</p>
+<p>Wyświetlane wartości odżywcze to szacunki oparte na bazach danych. Pomagają się zorientować, ale waga kuchenna nie jest wyrobem medycznym: jeśli stosujesz dietę zaleconą przez lekarza (np. przy cukrzycy, niewydolności nerek czy alergii), kieruj się wskazówkami lekarza lub dietetyka.</p>
 
 <h2>Nasz werdykt</h2>
-<p>Dla większości kuchni <strong>Etekcity Smart Nutrition Scale</strong> to najlepszy wybór: solidna, prosta i oparta na kompletnej, rozwijanej aplikacji. <strong>Inteligentna waga Renpho</strong> jest najbardziej przystępną opcją, zwłaszcza jeśli już używasz wagi łazienkowej tej marki. Jeśli nie potrzebujesz aplikacji, ale często ważysz duże ilości, najpraktyczniejsza jest <strong>Beurer KS 34 XL</strong>. Wreszcie do kawy <strong>Acaia Pearl</strong> pozostaje wzorcem.</p>`,
+<p>Dla większości kuchni najlepszym wyborem jest <strong>Etekcity Smart Nutrition Scale</strong>: solidna, prosta w obsłudze i oparta na rozbudowanej, stale aktualizowanej aplikacji. <strong>Inteligentna waga Renpho</strong> to opcja najbardziej przystępna cenowo, szczególnie jeśli masz już wagę łazienkową tej marki. Jeśli nie potrzebujesz aplikacji, a często ważysz duże ilości, najpraktyczniejsza będzie <strong>Beurer KS 34 XL</strong>. Do kawy niezmiennie najlepszym wyborem pozostaje <strong>Acaia Pearl</strong>.</p>`,
+    sv: `<p><strong>Den bästa smarta köksvågen 2026 för de flesta hushåll är Etekcity Smart Nutrition Scale</strong>: den väger upp till 5 kg på grammet när, och appen VeSync räknar fram upp till 19 näringsämnen för varje livsmedel du väger. Renphos smarta köksvåg är instegsalternativet, Beurer KS 34 XL passar om du vill väga tungt utan app, och Acaia Pearl riktar sig till kaffeentusiaster som vill väga på tiondels gram.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen, och tar bara med modeller som säljs i Europa 2026. Hela urvalet hittar du på vår sida om <a href="/sv/cuisine-connectee/balances">smarta köksvågar</a>.</p>
+
+<h2>Vad en smart köksvåg gör – och inte gör</h2>
+<p>En smart köksvåg är först och främst en våg: den visar vikten på sin egen display, med eller utan mobil. Skillnaden sitter i appen. När vågen är parkopplad via Bluetooth anger du vilket livsmedel du väger, och appen multiplicerar den uppmätta vikten med näringsvärdena i sin databas: kalorier, protein, kolhydrater, fett och ibland fibrer, natrium eller vitaminer.</p>
+<p>En viktig sak: vågen <strong>känner inte igen</strong> det du lägger på den. Det är du som väljer livsmedlet i appen. Hur bra uppföljningen blir beror alltså på databasen, hur lätt det är att söka i den och hur konsekvent du är.</p>
+
+<h2>Så väljer du rätt</h2>
+<ul>
+<li><strong>Gradering</strong>: de flesta köksvågar visar vikten på grammet när, vilket räcker för matlagning och kaloriräkning. Tiondels gram (0,1 g) behövs bara för specialkaffe, kryddor eller jäst i mycket små mängder.</li>
+<li><strong>Maxvikt</strong>: 5 kg räcker till nästan allt. En maxvikt på 15 kg blir användbar för stora grytor, rejäla satser bröddeg eller sylt.</li>
+<li><strong>App och livsmedelsdatabas</strong>: kolla hur många näringsämnen som följs, om det finns historik och ett måltidsläge och om appen synkar med Apple Hälsa eller andra tjänster.</li>
+<li><strong>Appens livslängd</strong>: en smart köksvåg är beroende av en onlinetjänst. Välj ett märke som har underhållit sin app i flera år.</li>
+<li><strong>Strömförsörjning</strong>: AAA-batterier (lätta att byta) eller ett uppladdningsbart batteri med USB-C.</li>
+<li><strong>Vågplatta</strong>: rostfritt stål och glas är lätta att rengöra. Kontrollera att plattan är tillräckligt stor för dina bunkar.</li>
+</ul>
+
+<h2>De 4 köksvågar som är värda att känna till 2026</h2>
+
+<h3>1. Etekcity Smart Nutrition Scale: bäst totalt</h3>
+<p>Etekcity ESN00 är den mest kompletta näringsvågen i urvalet. Den väger upp till 5 kg i steg om 1 g (eller 1 ml för vätskor), på en vågplatta i <strong>rostfritt stål av typ 304</strong> som mäter 23,5 × 16 cm och är lätt att torka av. Den drivs med 3 AAA-batterier.</p>
+<p>Styrkan är den kostnadsfria appen <strong>VeSync</strong>: den följer upp till <strong>19 näringsämnen</strong>, ger dagliga, veckovisa och månatliga rapporter och kan synka dina data med Apple Hälsa och Fitbit. Displayens bakgrundsbelysning ställs in i appen. Köparna berömmer framför allt den stabila uppkopplingen och de tydliga sammanställningarna.</p>
+<p><strong>Svagheter</strong>: graderingen på 1 g räcker inte för mycket fina vägningar, uppkopplingen sker bara via Bluetooth, och för att följa näringsintaget måste du lägga in varje livsmedel i appen.</p>
+<p><strong>Passar för</strong>: alla som vill hålla koll på kalorier eller makronäringsämnen i vardagen, laga matlådor i förväg eller helt enkelt veta mer om vad de äter.</p>
+
+<h3>2. Renphos smarta köksvåg: det prisvärda instegsvalet</h3>
+<p>Renpho, känt för sina smarta personvågar, gör också en köksvåg med Bluetooth som väger upp till 5 kg på grammet när. Den styrs med appen <strong>Renpho Health</strong>, samma app som märkets personvågar använder, med en livsmedelsdatabas som bland annat bygger på data från USDA (det amerikanska jordbruksdepartementet), en streckkodsläsare för förpackade varor och synkning med Apple Hälsa. Den har också en funktion för att väga kaffe.</p>
+<p><strong>Svagheter</strong>: databasen har amerikanskt ursprung och innehåller färre vanliga europeiska basvaror, och appen kräver att du skapar ett konto. Vissa köpare tycker att appen är långsammare än Etekcitys.</p>
+<p><strong>Passar för</strong>: dig med snäv budget och dig som redan har en personvåg från Renpho och vill samla kroppsvikt och mat i en och samma app.</p>
+
+<h3>3. Beurer KS 34 XL: hög maxvikt, ingen app</h3>
+<p>Beurer KS 34 XL är inte uppkopplad, men den fyller ett behov som näringsvågarna klarar dåligt: att väga tungt. Den klarar upp till <strong>15 kg</strong> i steg om 1 g, på en stor glasplatta som mäter 20 × 26,3 cm. Displayen av typen ”Magic” syns bara medan du väger, en hold-funktion låser vikten när en stor skål skymmer displayen, och tarafunktionen styrs med touchknappar. Den drivs med 4 AAA-batterier, som ingår.</p>
+<p><strong>Svagheter</strong>: ingen app och ingen näringsuppföljning, och graderingen på 1 g passar inte riktigt för mycket små mängder.</p>
+<p><strong>Passar för</strong>: familjer, dig som bakar eget bröd, syltar och konserverar eller lagar storkok, och dig som hellre för in måltiderna själv i den app du föredrar.</p>
+
+<h3>4. Acaia Pearl: den smarta kaffevågen som andra mäts mot</h3>
+<p>Acaia Pearl har ett tydligt användningsområde: specialkaffe. Den väger upp till 2 kg med en upplösning på <strong>0,1 g</strong>, har inbyggd timer och ansluts via Bluetooth till Acaias appar, som registrerar vikt, tid och flöde under extraktionen så att du kan upprepa ett recept. Batteriet laddas via USB-C.</p>
+<p><strong>Svagheter</strong>: maxvikt på bara 2 kg, ingen näringsuppföljning och en placering i premiumsegmentet.</p>
+<p><strong>Passar för</strong>: espresso- och filterkaffeentusiaster som vill ha exakta proportioner och en historik över sina bryggningar. Vill du gå vidare, läs vår <a href="/sv/blog/cafetiere-connectee-guide">guide till smarta kaffemaskiner</a>.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Maxvikt och gradering</th><th>Uppkoppling och app</th><th>Strömförsörjning</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Etekcity ESN00</td><td>5 kg, 1 g</td><td>Bluetooth, VeSync (19 näringsämnen)</td><td>3 AAA-batterier</td><td>Daglig koll på näringsintaget</td></tr>
+<tr><td>Renpho (köksvåg)</td><td>5 kg, 1 g</td><td>Bluetooth, Renpho Health</td><td>Beroende på version</td><td>Snäv budget, Renphos ekosystem</td></tr>
+<tr><td>Beurer KS 34 XL</td><td>15 kg, 1 g</td><td>Ingen</td><td>4 AAA-batterier</td><td>Stora mängder</td></tr>
+<tr><td>Acaia Pearl</td><td>2 kg, 0,1 g</td><td>Bluetooth, Acaias appar</td><td>USB-C-batteri</td><td>Specialkaffe</td></tr>
+</tbody>
+</table>
+
+<h2>Vilken våg passar för vad?</h2>
+<ul>
+<li><strong>Räkna kalorier eller följa makros</strong>: Etekcity ESN00, tack vare den detaljerade uppföljningen och rapporterna. Renpho klarar grunderna för mindre pengar.</li>
+<li><strong>Bakning</strong>: en våg som väger på grammet när räcker för mjöl, socker och smör. För små mängder jäst eller salt kan du baka en större sats eller använda en våg med 0,1 g noggrannhet.</li>
+<li><strong>Kaffe</strong>: Acaia Pearl, för upplösningen på 0,1 g och timern.</li>
+<li><strong>Stora satser</strong>: Beurer KS 34 XL med sina 15 kg.</li>
+</ul>
+<p>Vill du utrusta resten av köket går vår <a href="/sv/blog/guide-cuisine-connectee-2026">guide till det smarta köket 2026</a> igenom de apparater som är värda att ha.</p>
+
+<h2>Smart köksvåg eller vanlig våg plus app?</h2>
+<p>Du behöver ingen smart köksvåg för att hålla koll på vad du äter: vilken våg som helst som väger på grammet när duger, och sedan skriver du själv in vikten i en kostapp. Den uppkopplade varianten handlar främst om bekvämlighet. Vikten hamnar direkt i appen, utan att du behöver skriva av den och utan risk för felskrivningar, och varje ingrediens i en måltid läggs till totalen på några sekunder.</p>
+<p>Den bekvämligheten spelar roll om du väger flera gånger om dagen, till exempel för att följa makros eller förbereda en veckas matlådor. Väger du mest när du bakar, eller bara då och då, gör en bra vanlig våg som Beurer KS 34 XL jobbet utmärkt, och den är inte beroende av någon onlinetjänst.</p>
+<p>Kontrollera också att vågen fungerar med din mobil innan du köper: apparna VeSync, Renpho Health och Acaia finns för iOS och Android, men synkfunktionerna (Apple Hälsa, Fitbit) skiljer sig mellan plattformarna.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att tro att vågen känner igen livsmedlen</strong>: ingen modell i urvalet gör det. Du måste välja livsmedlet i appen.</li>
+<li><strong>Att köpa en våg vars app har försvunnit</strong>: Yummly Smart Scale och Drop-vågen, som ofta nämns i äldre jämförelser, säljs inte längre, och appen Yummly stängdes i slutet av 2024. Köper du begagnat, kontrollera alltid att appen fortfarande fungerar.</li>
+<li><strong>Att betala för tiondels gram utan att behöva det</strong>: för matlagning och kaloriräkning räcker grammet.</li>
+<li><strong>Att glömma taran</strong>: ställ på skålen, nollställ vågen och lägg sedan i livsmedlet. Annars blir näringsberäkningen fel eftersom skålens vikt räknas med.</li>
+<li><strong>Att väga på ett ostadigt underlag</strong>: en plan och stabil bänkskiva är ett måste för en tillförlitlig vägning.</li>
+</ul>
+
+<h2>Användning och skötsel</h2>
+<p>Ställ vågen på ett plant underlag, en bit från spishällen. Torka av vågplattan med en fuktig trasa, sänk aldrig ner vågen i vatten och diska den inte i diskmaskin, och se till att inget vatten tränger in vid displayen eller batterifacket. Ta ur batterierna om du inte ska använda vågen på flera månader.</p>
+<p>Näringsvärdena som visas är uppskattningar från databaser. De är bra som vägledning, men en köksvåg är ingen medicinteknisk produkt: har du en ordinerad kost (t.ex. vid diabetes, njursvikt eller allergi) ska du följa råden från din läkare eller en dietist.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta kök är <strong>Etekcity Smart Nutrition Scale</strong> det bästa valet: robust, enkel och med en komplett app som underhålls väl. <strong>Renphos smarta köksvåg</strong> är det prisvärda instegsvalet, särskilt om du redan använder en personvåg från märket. Behöver du ingen app men väger ofta stora mängder är <strong>Beurer KS 34 XL</strong> den mest praktiska. Och för kaffe är <strong>Acaia Pearl</strong> fortfarande måttstocken.</p>`,
+    us: `<p><strong>The best smart kitchen scale of 2026 for most households is the Etekcity Smart Nutrition Scale</strong>: it weighs up to 11 lb (5 kg) in 1 g (0.04 oz) increments, and its VeSync app calculates up to 19 nutrients for every food you weigh. Renpho’s smart food scale is the entry-level alternative, the Beurer KS 34 XL handles heavy loads without an app, and the Acaia Pearl is built for coffee lovers who want 0.1 g resolution.</p>
+<p>This comparison draws on manufacturer specs, independent reviews and verified owner reviews, and only includes models sold in Europe in 2026. You can browse the full lineup on our <a href="/us/cuisine-connectee/balances">smart kitchen scales</a> page.</p>
+
+<h2>What a smart scale does (and doesn’t do)</h2>
+<p>A smart scale is still a scale first: it shows the weight on its own display, with or without your phone. The difference is the app. Once the scale is paired over Bluetooth, you tell the app what you’re weighing, and it multiplies the measured weight by the nutrition values in its database: calories, protein, carbs, fat and sometimes fiber, sodium or vitamins.</p>
+<p>One key point: the scale does <strong>not recognize</strong> what you put on it. You pick the food in the app, so how well tracking works depends on the database, how easy it is to search and how consistent you are.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Resolution</strong>: most kitchen scales read to the nearest gram (0.04 oz), which is plenty for cooking and calorie counting. A 0.1 g resolution only matters for specialty coffee, spices or tiny amounts of yeast.</li>
+<li><strong>Capacity</strong>: 11 lb (5 kg) covers almost everything. A 33 lb (15 kg) capacity helps with big pots, large batches of bread dough or jam.</li>
+<li><strong>App and food database</strong>: check how many nutrients it tracks, whether there’s a history and a meal mode, and whether it syncs with Apple Health or other services.</li>
+<li><strong>App track record</strong>: a smart scale depends on an online service. Choose a brand that has kept its app up and running for years.</li>
+<li><strong>Power</strong>: AAA batteries (easy to replace) or a rechargeable battery that charges over USB-C.</li>
+<li><strong>Platform</strong>: stainless steel and glass are easy to clean; make sure the platform is big enough for your bowls.</li>
+</ul>
+
+<h2>The 4 scales worth considering in 2026</h2>
+
+<h3>1. Etekcity Smart Nutrition Scale: best overall</h3>
+<p>The Etekcity ESN00 is the most complete nutrition scale in this lineup. It weighs up to 11 lb (5 kg) in 1 g increments (or 1 ml for liquids) on a 9.3 × 6.3 in (23.5 × 16 cm) <strong>304 stainless steel</strong> platform that wipes clean easily. It runs on three AAA batteries.</p>
+<p>Its strength is the free <strong>VeSync</strong> app: it tracks up to <strong>19 nutrients</strong>, generates daily, weekly and monthly reports, and can sync your data with Apple Health and Fitbit. You can adjust the display backlight from the app. Owners mostly praise the stable connection and the clear reports.</p>
+<p><strong>Cons</strong>: 1 g resolution isn’t suited to very fine weighing, the connection is Bluetooth only, and nutrition tracking means logging each food in the app.</p>
+<p><strong>Best for</strong>: anyone who wants to track calories or macros day to day, meal prep ahead of time or simply understand what they eat.</p>
+
+<h3>2. Renpho smart kitchen scale: the most affordable option</h3>
+<p>Renpho, best known for its smart bathroom scales, also makes a Bluetooth food scale that weighs up to 11 lb (5 kg) to the nearest gram. It works with the <strong>Renpho Health</strong> app, the same one the brand’s body scales use, with a food database that draws on USDA data, a barcode scanner for packaged foods and Apple Health sync. It also has a coffee-weighing mode.</p>
+<p><strong>Cons</strong>: the food database is built mainly on US data, so it’s thinner on foods from other countries, and the app requires an account. Some owners find the app slower than Etekcity’s.</p>
+<p><strong>Best for</strong>: tight budgets and people who already own a Renpho body scale and want body weight and food in one app.</p>
+
+<h3>3. Beurer KS 34 XL: high capacity, no app</h3>
+<p>The Beurer KS 34 XL isn’t a smart scale, but it covers a need nutrition scales handle poorly: weighing heavy loads. It takes up to <strong>33 lb (15 kg)</strong> in 1 g increments on a large 7.9 × 10.4 in (20 × 26.3 cm) glass platform. Its “Magic” display only lights up while you weigh, a hold function freezes the reading when a large bowl hides the screen, and the tare works with touch buttons. It runs on four AAA batteries, included.</p>
+<p><strong>Cons</strong>: no app or nutrition tracking, and 1 g resolution isn’t ideal for very small amounts.</p>
+<p><strong>Best for</strong>: families, home bakers, anyone who makes jam or cooks in big batches, and people who’d rather log meals in the app of their choice.</p>
+
+<h3>4. Acaia Pearl: the benchmark smart scale for coffee</h3>
+<p>The Acaia Pearl is built for one job: specialty coffee. It weighs up to 4.4 lb (2 kg) with <strong>0.1 g</strong> resolution, has a built-in timer and connects over Bluetooth to Acaia’s apps, which log weight, time and flow rate so you can repeat a recipe. Its battery charges over USB-C.</p>
+<p><strong>Cons</strong>: 4.4 lb (2 kg) capacity, no nutrition tracking and a premium price tier.</p>
+<p><strong>Best for</strong>: espresso and pour-over fans who want exact brew ratios and a history of their brews. To go further, see our <a href="/us/blog/cafetiere-connectee-guide">smart coffee maker guide</a>.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity and resolution</th><th>Connectivity and app</th><th>Power</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Etekcity ESN00</td><td>11 lb (5 kg), 1 g</td><td>Bluetooth, VeSync (19 nutrients)</td><td>3 AAA batteries</td><td>Daily nutrition tracking</td></tr>
+<tr><td>Renpho (food scale)</td><td>11 lb (5 kg), 1 g</td><td>Bluetooth, Renpho Health</td><td>Depends on version</td><td>Tight budgets, Renpho ecosystem</td></tr>
+<tr><td>Beurer KS 34 XL</td><td>33 lb (15 kg), 1 g</td><td>None</td><td>4 AAA batteries</td><td>Large quantities</td></tr>
+<tr><td>Acaia Pearl</td><td>4.4 lb (2 kg), 0.1 g</td><td>Bluetooth, Acaia apps</td><td>USB-C rechargeable</td><td>Specialty coffee</td></tr>
+</tbody>
+</table>
+
+<h2>Which scale for which use?</h2>
+<ul>
+<li><strong>Counting calories or tracking macros</strong>: the Etekcity ESN00, for its detailed tracking and reports. The Renpho covers the basics for less.</li>
+<li><strong>Baking</strong>: a 1 g scale is fine for flour, sugar or butter. For small amounts of yeast or salt, weigh a larger batch or use a 0.1 g scale.</li>
+<li><strong>Coffee</strong>: the Acaia Pearl, for its 0.1 g resolution and timer.</li>
+<li><strong>Big batches</strong>: the Beurer KS 34 XL and its 33 lb (15 kg) capacity.</li>
+</ul>
+<p>To outfit the rest of your kitchen, our <a href="/us/blog/guide-cuisine-connectee-2026">2026 smart kitchen guide</a> covers the appliances worth having.</p>
+
+<h2>Smart scale or regular scale plus an app?</h2>
+<p>You don’t need a smart scale to track what you eat: any scale that reads to the gram will do, and you can type the weight into a nutrition app yourself. The smart version is mostly about convenience. The weight goes straight into the app, with no copying and no typos, and each ingredient in a meal is added to the total in seconds.</p>
+<p>That convenience pays off if you weigh food several times a day, for example to track macros or prep a week of meals. If you mostly weigh for baking or only now and then, a good regular scale such as the Beurer KS 34 XL does the job perfectly and doesn’t depend on any online service.</p>
+<p>Before you buy, also check compatibility with your phone: the VeSync, Renpho Health and Acaia apps are available on iOS and Android, but sync features (Apple Health, Fitbit) vary by platform.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Assuming the scale identifies food</strong>: none of the models here do. You have to pick the food in the app.</li>
+<li><strong>Buying a scale whose app is gone</strong>: the Yummly Smart Scale and the Drop scale, often listed in older roundups, are no longer sold, and the Yummly app shut down at the end of 2024. If you’re buying used, always check that the app still works.</li>
+<li><strong>Paying for 0.1 g when you don’t need it</strong>: for cooking and calorie counting, 1 g is enough.</li>
+<li><strong>Forgetting to tare</strong>: set the bowl down, zero the scale, then add the food. Otherwise the bowl’s weight throws off the nutrition numbers.</li>
+<li><strong>Weighing on an unstable surface</strong>: a flat, rigid countertop is essential for an accurate reading.</li>
+</ul>
+
+<h2>Use and care</h2>
+<p>Set the scale on a flat surface away from the stove. Clean the platform with a damp cloth, never submerge the scale or put it in the dishwasher, and keep water away from the display and battery compartment. Take the batteries out if you won’t use the scale for several months.</p>
+<p>The nutrition values shown are estimates drawn from databases. They’re a useful guide, but a kitchen scale isn’t a medical device: if you follow a prescribed diet (for diabetes, kidney disease or allergies), follow the advice of your doctor or a registered dietitian.</p>
+
+<h2>The bottom line</h2>
+<p>For most kitchens, the <strong>Etekcity Smart Nutrition Scale</strong> is the best choice: sturdy, simple and backed by a complete, well-maintained app. The <strong>Renpho smart kitchen scale</strong> is the most affordable option, especially if you already use the brand’s body scale. If you don’t need an app but often weigh large quantities, the <strong>Beurer KS 34 XL</strong> is the most practical. And for coffee, the <strong>Acaia Pearl</strong> is still the benchmark.</p>`,
+    ca: `<p><strong>The best smart kitchen scale in 2026 for most households is the Etekcity Smart Nutrition Scale</strong>: it weighs up to 5 kg (11 lb) in 1 g steps, and its VeSync app works out up to 19 nutrients for every food you weigh. Renpho’s smart food scale is the entry-level alternative, the Beurer KS 34 XL handles heavy weighing without an app, and the Acaia Pearl is aimed at coffee lovers who want 0.1 g resolution.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews and verified owner reviews, and only includes models sold in Europe in 2026. You can browse the full selection on our <a href="/ca/cuisine-connectee/balances">smart kitchen scales</a> page.</p>
+
+<h2>What a smart scale does (and doesn’t do)</h2>
+<p>A smart scale is still a scale first: it shows the weight on its own display, with or without a phone. The difference is the app. Once the scale is paired over Bluetooth, you tell the app what you’re weighing and it multiplies the measured weight by the nutrition values in its database: calories, protein, carbs, fat and sometimes fibre, sodium or vitamins.</p>
+<p>One key point: the scale does <strong>not recognize</strong> what you put on it. You pick the food in the app. So the quality of your tracking depends on the database, how easy it is to search and how consistent you are.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Resolution</strong>: most kitchen scales read to the nearest gram, which is enough for cooking and calorie counting. A 0.1 g resolution only matters for specialty coffee, spices or tiny amounts of yeast.</li>
+<li><strong>Capacity</strong>: 5 kg covers almost every use. A 15 kg capacity helps with large pots, big batches of bread dough or jam.</li>
+<li><strong>App and food database</strong>: check how many nutrients are tracked, whether there’s a history and a meal mode, and whether it syncs with Apple Health or other services.</li>
+<li><strong>App longevity</strong>: a smart scale relies on an online service. Choose a brand that has kept its app going for years.</li>
+<li><strong>Power</strong>: AAA batteries (easy to replace) or a USB-C rechargeable battery.</li>
+<li><strong>Platform</strong>: stainless steel and glass are easy to clean; make sure the platform is big enough for your bowls.</li>
+</ul>
+
+<h2>The 4 scales worth considering in 2026</h2>
+
+<h3>1. Etekcity Smart Nutrition Scale: best overall</h3>
+<p>The Etekcity ESN00 is the most complete nutrition scale in this selection. It weighs up to 5 kg in 1 g steps (or 1 mL for liquids) on a 23.5 × 16 cm (about 9¼ × 6¼ in.) <strong>304 stainless steel</strong> platform that wipes clean easily. It runs on 3 AAA batteries.</p>
+<p>Its strength is the free <strong>VeSync</strong> app: it tracks up to <strong>19 nutrients</strong>, produces daily, weekly and monthly reports, and can sync your data with Apple Health and Fitbit. You can adjust the display backlight from the app. Owners mostly praise the stable connection and the clear reports.</p>
+<p><strong>Limitations</strong>: 1 g resolution isn’t suited to very fine weighing, the connection is Bluetooth only, and nutrition tracking means logging each food in the app.</p>
+<p><strong>Who it’s for</strong>: anyone who wants to track calories or macros day to day, meal prep ahead or simply understand what they eat.</p>
+
+<h3>2. Renpho smart kitchen scale: the most affordable option</h3>
+<p>Renpho, known for its smart bathroom scales, also makes a Bluetooth food scale that weighs up to 5 kg to the nearest gram. It works with the <strong>Renpho Health</strong> app, the same one the brand’s body scales use, with a food database that draws on USDA data, a barcode scanner for packaged products and Apple Health sync. It also has a coffee weighing function.</p>
+<p><strong>Limitations</strong>: the food database leans on US data, and the app requires an account. Some owners find the app slower than Etekcity’s.</p>
+<p><strong>Who it’s for</strong>: tight budgets, and people who already own a Renpho body scale and want body weight and food in one app.</p>
+
+<h3>3. Beurer KS 34 XL: high capacity, no app</h3>
+<p>The Beurer KS 34 XL isn’t a smart scale, but it meets a need that nutrition scales handle poorly: weighing heavy loads. It takes up to <strong>15 kg</strong> (33 lb) in 1 g steps on a large 20 × 26.3 cm (about 8 × 10¼ in.) glass platform. Its “Magic” display only lights up while you weigh, a hold function freezes the reading when a large bowl hides the screen, and the tare works with touch buttons. It runs on 4 AAA batteries, included.</p>
+<p><strong>Limitations</strong>: no app or nutrition tracking, and 1 g resolution isn’t ideal for very small amounts.</p>
+<p><strong>Who it’s for</strong>: families, home bakers, people who do canning or batch cook in large quantities, and anyone who prefers to log meals in the app of their choice.</p>
+
+<h3>4. Acaia Pearl: the smart benchmark for coffee</h3>
+<p>The Acaia Pearl targets one use: specialty coffee. It weighs up to 2 kg with <strong>0.1 g</strong> resolution, has a built-in timer and connects over Bluetooth to Acaia’s apps, which log weight, time and flow rate so you can repeat a recipe. Its battery charges over USB-C.</p>
+<p><strong>Limitations</strong>: 2 kg capacity, no nutrition tracking and a premium price point.</p>
+<p><strong>Who it’s for</strong>: espresso and pour-over fans who want exact ratios and a history of their brews. To go further, see our <a href="/ca/blog/cafetiere-connectee-guide">smart coffee maker guide</a>.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity and resolution</th><th>Connectivity and app</th><th>Power</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Etekcity ESN00</td><td>5 kg, 1 g</td><td>Bluetooth, VeSync (19 nutrients)</td><td>3 AAA batteries</td><td>Daily nutrition tracking</td></tr>
+<tr><td>Renpho (food scale)</td><td>5 kg, 1 g</td><td>Bluetooth, Renpho Health</td><td>Depends on version</td><td>Tight budget, Renpho ecosystem</td></tr>
+<tr><td>Beurer KS 34 XL</td><td>15 kg, 1 g</td><td>None</td><td>4 AAA batteries</td><td>Large quantities</td></tr>
+<tr><td>Acaia Pearl</td><td>2 kg, 0.1 g</td><td>Bluetooth, Acaia apps</td><td>USB-C battery</td><td>Specialty coffee</td></tr>
+</tbody>
+</table>
+
+<h2>Which scale for which use?</h2>
+<ul>
+<li><strong>Counting calories or tracking macros</strong>: the Etekcity ESN00, for its detailed tracking and reports. The Renpho covers the basics for less.</li>
+<li><strong>Baking</strong>: a 1 g scale is fine for flour, sugar or butter. For small amounts of yeast or salt, weigh a larger batch or use a 0.1 g scale.</li>
+<li><strong>Coffee</strong>: the Acaia Pearl, for its 0.1 g resolution and timer.</li>
+<li><strong>Large batches</strong>: the Beurer KS 34 XL and its 15 kg capacity.</li>
+</ul>
+<p>To equip the rest of your kitchen, our <a href="/ca/blog/guide-cuisine-connectee-2026">2026 smart kitchen guide</a> covers the appliances worth having.</p>
+
+<h2>Smart scale or regular scale plus an app?</h2>
+<p>You don’t need a smart scale to track what you eat: any scale that reads to the gram will do, and you can type the weight into a nutrition app yourself. The smart version is mainly about convenience. The weight goes straight into the app, with no copying and no typos, and each ingredient of a meal is added to the total in seconds.</p>
+<p>That convenience matters if you weigh several times a day, for example to track macros or prep a week of meals. If you mostly weigh for baking or only now and then, a good regular scale such as the Beurer KS 34 XL does the job perfectly well and doesn’t depend on any online service.</p>
+<p>Before you buy, also check compatibility with your phone: the VeSync, Renpho Health and Acaia apps are available on iOS and Android, but sync features (Apple Health, Fitbit) vary by platform.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Assuming the scale identifies food</strong>: none of the models here do. You have to pick the food in the app.</li>
+<li><strong>Buying a scale whose app is gone</strong>: the Yummly Smart Scale and the Drop scale, often listed in older roundups, are no longer sold, and the Yummly app closed at the end of 2024. If you buy used, always check that the app still works.</li>
+<li><strong>Paying for 0.1 g when you don’t need it</strong>: for cooking and calorie counting, 1 g is enough.</li>
+<li><strong>Forgetting the tare</strong>: set down the bowl, zero the scale, then add the food. Otherwise the bowl’s weight skews the nutrition figures.</li>
+<li><strong>Weighing on an unstable surface</strong>: you need a flat, rigid countertop for a reliable reading.</li>
+</ul>
+
+<h2>Use and care</h2>
+<p>Set the scale on a flat surface away from the stovetop. Clean the platform with a damp cloth, never submerge the scale or put it in the dishwasher, and keep water away from the display and battery compartment. Take the batteries out if you won’t use the scale for several months.</p>
+<p>The nutrition values shown are estimates drawn from databases. They’re a useful guide, but a kitchen scale isn’t a medical device: if you follow a prescribed diet (diabetes, kidney disease, allergies), follow the advice of your doctor or a registered dietitian.</p>
+
+<h2>Our verdict</h2>
+<p>For most kitchens, the <strong>Etekcity Smart Nutrition Scale</strong> is the best choice: sturdy, simple and backed by a complete, well-maintained app. The <strong>Renpho smart kitchen scale</strong> is the most affordable option, especially if you already use the brand’s body scale. If you don’t need an app but often weigh large quantities, the <strong>Beurer KS 34 XL</strong> is the most practical. And for coffee, the <strong>Acaia Pearl</strong> is still the benchmark.</p>`,
   },
   faq: [
     {
@@ -631,6 +886,9 @@ export const article: BlogArticle = {
         it: 'Una bilancia da cucina smart funziona senza smartphone?',
         nl: 'Werkt een slimme keukenweegschaal zonder smartphone?',
         pl: 'Czy inteligentna waga kuchenna działa bez smartfona?',
+        sv: 'Fungerar en smart köksvåg utan mobil?',
+        us: 'Does a smart kitchen scale work without a smartphone?',
+        ca: 'Does a smart kitchen scale work without a smartphone?',
       },
       answer: {
         fr: 'Oui. Elle affiche le poids sur son propre écran comme une balance classique. Le smartphone ne sert qu’au suivi nutritionnel, à l’historique et à la synchronisation des données.',
@@ -639,7 +897,10 @@ export const article: BlogArticle = {
         es: 'Sí. Muestra el peso en su propia pantalla como una báscula normal. El móvil solo es necesario para el seguimiento nutricional, el historial y la sincronización de datos.',
         it: 'Sì. Mostra il peso sul proprio display come una bilancia normale. Lo smartphone serve solo per il monitoraggio nutrizionale, lo storico e la sincronizzazione dei dati.',
         nl: 'Ja. Hij toont het gewicht op zijn eigen display, net als een gewone weegschaal. De telefoon is alleen nodig voor voedingstracking, geschiedenis en synchronisatie.',
-        pl: 'Tak. Pokazuje ciężar na własnym ekranie jak zwykła waga. Smartfon służy tylko do śledzenia wartości odżywczych, historii i synchronizacji danych.',
+        pl: 'Tak. Wynik pokazuje na własnym wyświetlaczu, jak każda zwykła waga. Smartfon jest potrzebny tylko do liczenia wartości odżywczych, przeglądania historii i synchronizacji danych.',
+        sv: 'Ja. Den visar vikten på sin egen display, precis som en vanlig våg. Mobilen behövs bara för näringsuppföljningen, historiken och synkningen av data.',
+        us: 'Yes. It shows the weight on its own display, just like a regular scale. You only need your phone for nutrition tracking, history and syncing your data.',
+        ca: 'Yes. It shows the weight on its own display like a regular scale. The phone is only needed for nutrition tracking, history and data sync.',
       },
     },
     {
@@ -651,6 +912,9 @@ export const article: BlogArticle = {
         it: 'La bilancia riconosce automaticamente gli alimenti?',
         nl: 'Herkent de weegschaal producten automatisch?',
         pl: 'Czy waga automatycznie rozpoznaje produkty?',
+        sv: 'Känner vågen igen livsmedlen automatiskt?',
+        us: 'Does the scale recognize foods automatically?',
+        ca: 'Does the scale recognize foods automatically?',
       },
       answer: {
         fr: 'Non. Vous choisissez l’aliment dans l’application (par recherche ou, sur certains modèles comme celui de Renpho, par scan du code-barres), puis l’application calcule les valeurs nutritionnelles d’après le poids mesuré.',
@@ -659,7 +923,10 @@ export const article: BlogArticle = {
         es: 'No. Eliges el alimento en la app (buscándolo o, en algunos modelos como el de Renpho, escaneando el código de barras) y la app calcula los valores nutricionales según el peso medido.',
         it: 'No. Scegli l’alimento nell’app (cercandolo o, su alcuni modelli come quello Renpho, scansionando il codice a barre) e l’app calcola i valori nutrizionali in base al peso misurato.',
         nl: 'Nee. Je kiest het product in de app (via zoeken of, bij sommige modellen zoals die van Renpho, via een barcodescan) en de app berekent de voedingswaarden op basis van het gemeten gewicht.',
-        pl: 'Nie. Produkt wybierasz w aplikacji (przez wyszukiwanie lub, w niektórych modelach, jak ten od Renpho, przez zeskanowanie kodu kreskowego), a następnie aplikacja oblicza wartości odżywcze na podstawie zmierzonego ciężaru.',
+        pl: 'Nie. Produkt wybierasz w aplikacji – wyszukując go albo, w niektórych modelach, np. w wadze Renpho, skanując kod kreskowy. Aplikacja wylicza potem wartości odżywcze na podstawie zważonej ilości.',
+        sv: 'Nej. Du väljer livsmedlet i appen (genom att söka eller, på vissa modeller som Renphos, genom att skanna streckkoden), och sedan räknar appen ut näringsvärdena utifrån den uppmätta vikten.',
+        us: 'No. You pick the food in the app (by searching or, on some models such as Renpho’s, by scanning the barcode), and the app then calculates the nutrition values from the measured weight.',
+        ca: 'No. You pick the food in the app (by searching or, on some models such as Renpho’s, by scanning the barcode), then the app calculates the nutrition values from the measured weight.',
       },
     },
     {
@@ -671,6 +938,9 @@ export const article: BlogArticle = {
         it: 'Serve una precisione di 0,1 g per cucinare?',
         nl: 'Heb je 0,1 g precisie nodig om te koken?',
         pl: 'Czy do gotowania potrzebna jest dokładność 0,1 g?',
+        sv: 'Behöver jag en noggrannhet på 0,1 g när jag lagar mat?',
+        us: 'Do I need 0.1 g precision for cooking?',
+        ca: 'Do I need 0.1 g precision for cooking?',
       },
       answer: {
         fr: 'Rarement. Le gramme suffit pour la cuisine, la pâtisserie courante et le comptage de calories. Le dixième de gramme sert surtout au café de spécialité et aux très petites quantités d’épices ou de levure.',
@@ -679,7 +949,10 @@ export const article: BlogArticle = {
         es: 'Rara vez. El gramo basta para cocinar, la repostería habitual y contar calorías. La décima de gramo sirve sobre todo para el café de especialidad y cantidades mínimas de especias o levadura.',
         it: 'Raramente. Il grammo basta per cucinare, la pasticceria di tutti i giorni e il conteggio delle calorie. Il decimo di grammo serve soprattutto per il caffè specialty e per quantità minime di spezie o lievito.',
         nl: 'Zelden. 1 g volstaat om te koken, voor gewoon bakwerk en om calorieën te tellen. 0,1 g is vooral nuttig voor specialty koffie en heel kleine hoeveelheden kruiden of gist.',
-        pl: 'Rzadko. Do gotowania, zwykłych wypieków i liczenia kalorii wystarcza gram. Dziesiąta część grama przydaje się głównie przy kawie specialty i bardzo małych ilościach przypraw lub drożdży.',
+        pl: 'Rzadko. Do gotowania, codziennych wypieków i liczenia kalorii wystarczy dokładność do 1 g. Dokładność 0,1 g przydaje się głównie przy parzeniu kawy specialty i odważaniu bardzo małych ilości przypraw czy drożdży.',
+        sv: 'Sällan. En noggrannhet på 1 g räcker för matlagning, vanlig bakning och kaloriräkning. Tiondels gram behövs främst för specialkaffe och mycket små mängder kryddor eller jäst.',
+        us: 'Rarely. A 1 g resolution is enough for cooking, everyday baking and calorie counting. Precision to 0.1 g mainly matters for specialty coffee and tiny amounts of spices or yeast.',
+        ca: 'Rarely. 1 g is enough for cooking, everyday baking and calorie counting. 0.1 g mainly matters for specialty coffee and tiny amounts of spices or yeast.',
       },
     },
     {
@@ -691,6 +964,9 @@ export const article: BlogArticle = {
         it: 'I valori nutrizionali mostrati sono affidabili?',
         nl: 'Zijn de getoonde voedingswaarden betrouwbaar?',
         pl: 'Czy wyświetlane wartości odżywcze są wiarygodne?',
+        sv: 'Kan jag lita på näringsvärdena som visas?',
+        us: 'How accurate are the nutrition values in the app?',
+        ca: 'Are the nutrition values shown reliable?',
       },
       answer: {
         fr: 'Ce sont des estimations tirées de bases de données. Le poids, lui, est précis, mais la composition d’un aliment varie selon la variété et la cuisson. Pour un régime médical, demandez conseil à un professionnel de santé.',
@@ -699,7 +975,10 @@ export const article: BlogArticle = {
         es: 'Son estimaciones procedentes de bases de datos. El peso es preciso, pero la composición de un alimento varía según la variedad y la cocción. Para una dieta médica, consulta a un profesional sanitario.',
         it: 'Sono stime tratte da database. Il peso è preciso, ma la composizione di un alimento varia a seconda della varietà e della cottura. Per una dieta medica, chiedi consiglio a un professionista sanitario.',
         nl: 'Het zijn schattingen uit databases. Het gewicht zelf is nauwkeurig, maar de samenstelling van een product verschilt per variëteit en bereiding. Vraag bij een medisch dieet advies aan een zorgprofessional.',
-        pl: 'To szacunki pochodzące z baz danych. Sam ciężar jest dokładny, ale skład produktu zależy od odmiany i sposobu obróbki. W przypadku diety medycznej poproś o radę specjalistę ochrony zdrowia.',
+        pl: 'To szacunki oparte na bazach danych. Sam pomiar masy jest dokładny, ale skład produktu zależy od odmiany i sposobu przyrządzenia. Jeśli stosujesz dietę leczniczą, poradź się lekarza lub dietetyka.',
+        sv: 'De är uppskattningar från databaser. Själva vikten är exakt, men ett livsmedels sammansättning varierar med sort och tillagning. Om du följer en kost av medicinska skäl bör du rådfråga vårdpersonal.',
+        us: 'They’re estimates drawn from databases. The weight itself is accurate, but a food’s makeup varies with the variety and how it’s cooked. If you’re on a medically prescribed diet, ask your health care provider.',
+        ca: 'They are estimates drawn from databases. The weight itself is accurate, but a food’s composition varies with variety and cooking. For a medical diet, ask a healthcare professional.',
       },
     },
     {
@@ -710,7 +989,10 @@ export const article: BlogArticle = {
         es: '¿Se puede seguir usando una Yummly Smart Scale o una báscula Drop?',
         it: 'Si può ancora usare una Yummly Smart Scale o una bilancia Drop?',
         nl: 'Kun je een Yummly Smart Scale of Drop-weegschaal nog gebruiken?',
-        pl: 'Czy można nadal korzystać z Yummly Smart Scale lub wagi Drop?',
+        pl: 'Czy można jeszcze korzystać z wagi Yummly Smart Scale lub Drop?',
+        sv: 'Går det fortfarande att använda en Yummly Smart Scale eller en Drop-våg?',
+        us: 'Can you still use a Yummly Smart Scale or a Drop scale?',
+        ca: 'Can you still use a Yummly Smart Scale or a Drop scale?',
       },
       answer: {
         fr: 'Ces deux modèles ne sont plus vendus neufs. L’application Yummly a fermé fin 2024, ce qui prive sa balance de ses fonctions connectées. Si vous en trouvez une d’occasion, vérifiez que l’application associée fonctionne encore avant d’acheter.',
@@ -719,7 +1001,10 @@ export const article: BlogArticle = {
         es: 'Ninguno de los dos se vende ya nuevo. La app Yummly cerró a finales de 2024, por lo que su báscula pierde las funciones conectadas. Si encuentras una de segunda mano, comprueba que la app asociada siga funcionando antes de comprarla.',
         it: 'Nessuno dei due modelli è più venduto nuovo. L’app Yummly ha chiuso a fine 2024, privando la sua bilancia delle funzioni smart. Se ne trovi una usata, verifica che l’app associata funzioni ancora prima di acquistarla.',
         nl: 'Geen van beide modellen wordt nog nieuw verkocht. De Yummly-app is eind 2024 gestopt, waardoor de weegschaal zijn slimme functies kwijt is. Vind je er een tweedehands, controleer dan vóór aankoop of de bijbehorende app nog werkt.',
-        pl: 'Te dwa modele nie są już sprzedawane jako nowe. Aplikacja Yummly została zamknięta pod koniec 2024 roku, co pozbawia jej wagę funkcji inteligentnych. Jeśli znajdziesz używaną, przed zakupem sprawdź, czy powiązana aplikacja nadal działa.',
+        pl: 'Obu modeli nie kupisz już jako nowych. Aplikację Yummly wyłączono pod koniec 2024 roku, więc waga Yummly straciła funkcje dostępne przez aplikację. Jeśli trafisz na używany egzemplarz, przed zakupem sprawdź, czy współpracująca z nim aplikacja nadal działa.',
+        sv: 'Ingen av dem säljs längre som ny. Appen Yummly stängdes i slutet av 2024, vilket gör att vågen förlorar sina uppkopplade funktioner. Hittar du en begagnad bör du kontrollera att den tillhörande appen fortfarande fungerar innan du köper.',
+        us: 'Neither model is sold new anymore. The Yummly app shut down at the end of 2024, so its scale lost its smart features. If you find one used, check that the companion app still works before you buy.',
+        ca: 'Neither model is sold new anymore. The Yummly app closed at the end of 2024, which removes its scale’s smart features. If you find one used, check that the companion app still works before you buy.',
       },
     },
     {
@@ -731,6 +1016,9 @@ export const article: BlogArticle = {
         it: 'Come si pulisce una bilancia da cucina smart?',
         nl: 'Hoe maak je een slimme keukenweegschaal schoon?',
         pl: 'Jak czyścić inteligentną wagę kuchenną?',
+        sv: 'Hur rengör jag en smart köksvåg?',
+        us: 'How do I clean a smart kitchen scale?',
+        ca: 'How do I clean a smart kitchen scale?',
       },
       answer: {
         fr: 'Essuyez le plateau avec un chiffon humide et un peu de liquide vaisselle, puis séchez-le. Ne plongez jamais la balance dans l’eau et ne la mettez pas au lave-vaisselle : l’électronique n’est pas étanche.',
@@ -739,7 +1027,10 @@ export const article: BlogArticle = {
         es: 'Limpia la plataforma con un paño húmedo y un poco de lavavajillas, y sécala. Nunca sumerjas la báscula ni la metas en el lavavajillas: la electrónica no es estanca.',
         it: 'Pulisci il piatto con un panno umido e un po’ di detersivo per piatti, poi asciugalo. Non immergere mai la bilancia e non metterla in lavastoviglie: l’elettronica non è impermeabile.',
         nl: 'Veeg het plateau af met een vochtige doek en een beetje afwasmiddel en droog het daarna. Dompel de weegschaal nooit onder en zet hem niet in de vaatwasser: de elektronica is niet waterdicht.',
-        pl: 'Przetrzyj platformę wilgotną szmatką z odrobiną płynu do mycia naczyń, a następnie wysusz. Nigdy nie zanurzaj wagi w wodzie ani nie myj jej w zmywarce: elektronika nie jest wodoszczelna.',
+        pl: 'Przetrzyj płytę wagi wilgotną ściereczką z odrobiną płynu do naczyń, a potem wytrzyj do sucha. Nigdy nie zanurzaj wagi w wodzie i nie myj jej w zmywarce: elektronika nie jest odporna na wodę.',
+        sv: 'Torka av vågplattan med en fuktig trasa och lite diskmedel, och torka den sedan torr. Sänk aldrig ner vågen i vatten och diska den inte i diskmaskin: elektroniken är inte vattentät.',
+        us: 'Wipe the platform with a damp cloth and a little dish soap, then dry it. Never submerge the scale or put it in the dishwasher: the electronics aren’t waterproof.',
+        ca: 'Wipe the platform with a damp cloth and a little dish soap, then dry it. Never submerge the scale or put it in the dishwasher: the electronics aren’t waterproof.',
       },
     },
   ],

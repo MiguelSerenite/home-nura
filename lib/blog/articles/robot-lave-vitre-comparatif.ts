@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Limpieza manual de una ventana con esponja, la tarea que automatiza un robot limpiacristales',
         it: 'Pulizia manuale di una finestra con la spugna, il lavoro che un robot lavavetri automatizza',
         nl: 'Raam met de hand schoonmaken met een spons, het klusje dat een raamwasrobot overneemt',
-        pl: 'Ręczne mycie okna gąbką, czyli obowiązek, który automatyzuje robot do mycia okien',
+        pl: 'Ręczne mycie okna gąbką, czyli żmudne zajęcie, które może przejąć robot do mycia okien',
+        sv: 'Fönster som putsas för hand med en svamp, sysslan som en fönsterputsrobot sköter åt dig',
+        us: 'Cleaning a window by hand with a sponge, the chore a window cleaning robot automates',
+        ca: 'Cleaning a window by hand with a sponge, the chore a window cleaning robot automates',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Miglior Robot Lavavetri 2026: Confronto tra 6 Modelli',
     nl: 'Beste Raamwasrobot 2026: 6 Modellen Vergeleken',
     pl: 'Najlepszy robot do mycia okien 2026: porównanie 6 modeli, które warto znać',
+    sv: 'Bästa fönsterputsrobot 2026: 6 modeller värda att känna till',
+    us: 'Best Window Cleaning Robots of 2026: 6 Models Compared',
+    ca: 'Best Window Cleaning Robot 2026: The 6 Models Worth Knowing',
   },
   excerpt: {
     fr: 'Ecovacs Winbot W2 Omni et W2S Omni, Winbot W1 Pro, Hobot 2S, Cecotec Conga WinDroid 1090 et Mamibot W120-T comparés : aspiration, corde de sécurité, batterie de secours, pulvérisation, vitres sans cadre et lavage côté extérieur.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'Ecovacs Winbot W2 Omni y W2S Omni, Winbot W1 Pro, Hobot 2S, Cecotec Conga WinDroid 1090 y Mamibot W120-T comparados: succión, cuerda de seguridad, batería de emergencia, pulverización, cristales sin marco y limpieza exterior.',
     it: 'Ecovacs Winbot W2 Omni e W2S Omni, Winbot W1 Pro, Hobot 2S, Cecotec Conga WinDroid 1090 e Mamibot W120-T a confronto: aspirazione, corda di sicurezza, batteria di emergenza, spruzzo, vetri senza telaio e pulizia esterna.',
     nl: 'Ecovacs Winbot W2 Omni en W2S Omni, Winbot W1 Pro, Hobot 2S, Cecotec Conga WinDroid 1090 en Mamibot W120-T vergeleken: zuigkracht, veiligheidskoord, noodaccu, sproeisysteem, kaderloos glas en buitenkant wassen.',
-    pl: 'Ecovacs Winbot W2 Omni i W2S Omni, Winbot W1 Pro, Hobot 2S, Cecotec Conga WinDroid 1090 i Mamibot W120-T w porównaniu: ssanie, linka bezpieczeństwa, zasilanie awaryjne, spryskiwanie, szyby bez ramy i mycie od zewnątrz.',
+    pl: 'Porównanie modeli Ecovacs Winbot W2 Omni i W2S Omni, Winbot W1 Pro, Hobot 2S, Cecotec Conga WinDroid 1090 i Mamibot W120-T: siła ssania, linka bezpieczeństwa, zasilanie awaryjne, spryskiwanie, szyby bez ramy i mycie od zewnątrz.',
+    sv: 'Ecovacs Winbot W2 Omni och W2S Omni, Winbot W1 Pro, Hobot 2S, Cecotec Conga WinDroid 1090 och Mamibot W120-T jämförda: sugkraft, säkerhetslina, reservbatteri, spray, ramlösa glas och putsning på utsidan.',
+    us: 'Ecovacs Winbot W2 Omni and W2S Omni, Winbot W1 Pro, Hobot 2S, Cecotec Conga WinDroid 1090 and Mamibot W120-T compared: suction, safety tether, backup battery, spraying, frameless glass and cleaning the outside of your windows.',
+    ca: 'Ecovacs Winbot W2 Omni and W2S Omni, Winbot W1 Pro, Hobot 2S, Cecotec Conga WinDroid 1090 and Mamibot W120-T compared: suction, safety rope, backup battery, spraying, frameless glass and cleaning the outside.',
   },
   content: {
     fr: `<p><strong>En 2026, le robot lave-vitre le plus complet est l’Ecovacs Winbot W2 Omni (ou son successeur W2S Omni), grâce à sa station-batterie qui libère de la prise murale et à son câble de sécurité qui se range tout seul.</strong> Pour un budget plus serré, le Cecotec Conga WinDroid 1090 Double Spray Connected offre la double pulvérisation et une batterie de maintien, tandis que le Hobot 2S reste la référence compacte pour les vitres sans cadre grâce à ses buses à ultrasons.</p>
@@ -568,93 +577,354 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste huishoudens met grote glasoppervlakken is de <strong>Ecovacs Winbot W2 Omni</strong> de meest comfortabele keuze: accustation, zelfoprollende kabel en effectief sproeien. De <strong>W2S Omni</strong> is de moeite waard als je perfect schone randen wilt. De <strong>Cecotec Conga WinDroid 1090</strong> is met dubbel sproeien en houd-accu de meest redelijke instap, en de <strong>Hobot 2S</strong> blijft de specialist voor kaderloos glas. Welk model je ook kiest: op hoogte zijn een vastgemaakt koord en toezicht verplicht. Wil je ook je vloeren automatiseren, bekijk dan onze <a href="/nl/blog/comparatif-robot-aspirateur-laveur">vergelijking van robotstofzuigers met dweilfunctie</a>.</p>`,
-    pl: `<p><strong>W 2026 roku najpełniejszym robotem do mycia okien jest Ecovacs Winbot W2 Omni (lub jego następca W2S Omni), dzięki stacji z akumulatorem, która uwalnia od gniazdka, i linki bezpieczeństwa, która zwija się sama.</strong> Przy ciaśniejszym budżecie Cecotec Conga WinDroid 1090 Double Spray Connected oferuje podwójne spryskiwanie i akumulator podtrzymujący, a Hobot 2S pozostaje kompaktowym wzorcem do szyb bez ramy dzięki dyszom ultradźwiękowym.</p>
-<p>Robot do mycia okien nie zastępuje w pełni mycia ręcznego: sprawdza się na dużych oknach panoramicznych, w werandach i oknach trudno dostępnych, ale wymaga minimum przygotowania i środków ostrożności, zwłaszcza od zewnątrz. To porównanie opiera się na kartach katalogowych producentów, testach opublikowanych przez prasę branżową i zweryfikowanych opiniach kupujących. Cały wybór znajdziesz w naszej kategorii <a href="/pl/entretien-maison/laveurs-vitres">roboty do mycia okien</a>.</p>
+    pl: `<p><strong>W 2026 roku najlepiej wyposażonym robotem do mycia okien jest Ecovacs Winbot W2 Omni (lub jego następca W2S Omni) – dzięki stacji z akumulatorem, która uniezależnia go od gniazdka, i linki bezpieczeństwa, która sama się zwija.</strong> Przy mniejszym budżecie warto rozważyć Cecotec Conga WinDroid 1090 Double Spray Connected z podwójnym spryskiwaniem i akumulatorem podtrzymującym, a Hobot 2S z dyszami ultradźwiękowymi pozostaje punktem odniesienia wśród kompaktowych robotów do szyb bez ramy.</p>
+<p>Robot do mycia okien nie zastąpi całkowicie mycia ręcznego. Świetnie sprawdza się na dużych przeszkleniach, w ogrodach zimowych i na trudno dostępnych oknach, ale wymaga odrobiny przygotowania i zachowania ostrożności, zwłaszcza przy myciu od zewnątrz. To porównanie opiera się na kartach katalogowych producentów, testach opublikowanych przez prasę branżową i opiniach zweryfikowanych kupujących. Wszystkie modele znajdziesz w naszej kategorii <a href="/pl/entretien-maison/laveurs-vitres">roboty do mycia okien</a>.</p>
 
 <h2>Jak wybrać robota do mycia okien: kryteria, które się liczą</h2>
-<h3>Ssanie czy magnes: dwie bardzo różne technologie</h3>
-<p>Niemal wszystkie obecne roboty trzymają się szyby dzięki <strong>ssaniu</strong>: silnik tworzy podciśnienie pod urządzeniem, które dociska się do szkła i porusza po jednej stronie. Modele z tego porównania często deklarują ssanie rzędu 2 800 Pa. Zaleta: działają na pojedynczej szybie lub podwójnej szybie zespolonej, niezależnie od grubości, i myją też lustra oraz gładkie płytki.</p>
-<p>Systemy <strong>magnetyczne</strong> składają się z dwóch części, jednej wewnątrz i jednej na zewnątrz, utrzymywanych magnesami przez szkło. Myją obie strony jednocześnie, ale grubość oszklenia musi odpowiadać sile magnesów: gruba szyba podwójna lub potrójna może być niezgodna. Dziś pozostają niszowe i głównie ręczne; w robocie autonomicznym normą jest ssanie.</p>
+<h3>Ssanie czy magnesy: dwie zupełnie różne technologie</h3>
+<p>Niemal wszystkie dostępne dziś roboty trzymają się szyby dzięki <strong>sile ssania</strong>: silnik wytwarza pod urządzeniem podciśnienie, dzięki któremu robot przywiera do szkła i jeździ po jednej jego stronie. Modele z tego porównania często deklarują siłę ssania rzędu 2800 Pa. Ich zaletą jest to, że działają zarówno na pojedynczej szybie, jak i na szybie zespolonej, niezależnie od grubości, a do tego myją lustra i gładkie płytki.</p>
+<p>Systemy <strong>magnetyczne</strong> składają się z dwóch części – wewnętrznej i zewnętrznej – które przez szkło trzymają się dzięki magnesom. Myją obie strony jednocześnie, ale grubość szyby musi pasować do siły magnesów, dlatego z grubym pakietem dwu- lub trzyszybowym mogą nie działać. Dziś to rozwiązanie niszowe i najczęściej ręczne; w samodzielnie pracujących robotach standardem jest ssanie.</p>
 
 <h3>Linka bezpieczeństwa i zasilanie awaryjne (UPS)</h3>
-<p>Robot ssący zależy od zasilania: jeśli prąd zostanie odcięty, może się odkleić. Niezbędne są dwa zabezpieczenia. Po pierwsze <strong>linka bezpieczeństwa</strong>, którą przypina się do stałego punktu wewnątrz, zatrzymująca urządzenie w razie upadku. Po drugie <strong>zasilanie awaryjne</strong> (często nazywane UPS), które utrzymuje ssanie przez kilka minut po zaniku prądu, tyle, by zdążyć odzyskać robota. Producenci deklarują na przykład do 20 minut w Hobot 2S i Mamibot W120-T oraz około 30 minut w Cecotec WinDroid 1090.</p>
+<p>Robot ssący jest zależny od zasilania: gdy zabraknie prądu, może odpaść od szyby. Dlatego niezbędne są dwa zabezpieczenia. Pierwsze to <strong>linka bezpieczeństwa</strong> przypinana do stałego punktu wewnątrz pomieszczenia, która przytrzyma urządzenie, jeśli spadnie. Drugie to <strong>zasilanie awaryjne</strong> (często nazywane UPS), które po zaniku prądu przez kilka minut utrzymuje ssanie – tyle, ile trzeba, by zdjąć robota z szyby. Producenci deklarują na przykład do 20 minut w modelach Hobot 2S i Mamibot W120-T oraz około 30 minut w Cecotec WinDroid 1090.</p>
 
 <h3>Automatyczne spryskiwanie</h3>
-<p>Robot bez spryskiwania pracuje z ręcznie zwilżoną nakładką, która szybko wysycha i zostawia smugi na dużych powierzchniach. Nowsze modele mają mały zbiorniczek i jedną lub kilka dysz: dysze ultradźwiękowe tworzące bardzo drobną mgiełkę (Hobot 2S), dwukierunkowe spryskiwanie krzyżowe (Winbot W1 Pro), szerokokątne spryskiwanie trzema dyszami (Winbot W2 Omni) lub podwójny spray (Cecotec 1090). Używaj wyłącznie wody lub środka zalecanego przez producenta, aby nie zatkać dysz.</p>
+<p>Robot bez spryskiwania pracuje na ręcznie zwilżonej nakładce, która szybko wysycha i na dużych powierzchniach zostawia smugi. Nowsze modele mają mały zbiornik i jedną lub kilka dysz: ultradźwiękowe, które wytwarzają bardzo drobną mgiełkę (Hobot 2S), dwukierunkowe spryskiwanie krzyżowe (Winbot W1 Pro), szerokokątne spryskiwanie z trzech dysz (Winbot W2 Omni) lub podwójne spryskiwanie (Cecotec 1090). Do zbiornika wlewaj wyłącznie wodę lub środek zalecany przez producenta, żeby nie zatkać dysz.</p>
 
 <h3>Szyby bez ramy i wykrywanie krawędzi</h3>
-<p>Na zwykłym oknie robot wykrywa ramę, dotykając jej. Na ściance prysznica, szklanej balustradzie lub oknie bez ramy musi rozpoznać krawędź czujnikiem: Winbot W1 Pro, W2 Omni i Hobot 2S deklarują wykrywanie krawędzi zgodne ze szkłem bez ramy. Bez tej funkcji robot może dojechać do krawędzi, stracić ssanie i spaść.</p>
+<p>Na zwykłym oknie robot wykrywa ramę, gdy na nią natrafi. Na kabinie prysznicowej, szklanej balustradzie czy przeszkleniu bez ramy krawędź musi rozpoznać czujnik: według producentów Winbot W1 Pro, W2 Omni i Hobot 2S wykrywają krawędzie szkła bez ramy. Bez tej funkcji robot może dojechać do krawędzi, stracić podciśnienie i spaść.</p>
 
 <h3>Kształt kwadratowy czy okrągły</h3>
-<p>Roboty <strong>kwadratowe</strong>, gąsienicowe lub kołowe, jeżdżą trasą w kształcie litery Z lub N i lepiej docierają do rogów: taki kształt mają wszystkie modele z tego porównania. Roboty <strong>okrągłe lub owalne z dwiema obrotowymi tarczami</strong> poruszają się, „chodząc” na swoich nakładkach; dobrze znoszą nierówne powierzchnie, ale łatwiej zostawiają niedomyty róg. Do standardowych okien kwadrat jest najbardziej uniwersalnym wyborem.</p>
+<p>Roboty <strong>kwadratowe</strong>, na gąsienicach lub kołach, jeżdżą po trasie w kształcie litery Z lub N i lepiej docierają do narożników – taki kształt mają wszystkie modele z tego porównania. Roboty <strong>okrągłe lub owalne z dwiema obrotowymi tarczami</strong> przemieszczają się, „krocząc” na swoich nakładkach; dobrze radzą sobie z nierównymi powierzchniami, ale łatwiej zostawiają niedomyty róg. Do standardowych okien najbardziej uniwersalny jest kształt kwadratowy.</p>
 
 <h3>Minimalny rozmiar szyby i czas pracy</h3>
-<p>Robot potrzebuje miejsca do manewrowania: licz minimalną powierzchnię około 40 × 40 cm dla Hobot 2S i mniej więcej 30 × 30 cm dla Winbot W2 Omni według opublikowanych testów. Małe szyby ze szprosami to sprawa dla mycia ręcznego.</p>
+<p>Robot potrzebuje miejsca na manewry: licz się z minimalną powierzchnią około 40 × 40 cm w przypadku modelu Hobot 2S i – według opublikowanych testów – mniej więcej 30 × 30 cm w przypadku modelu Winbot W2 Omni. Małe szybki w oknach ze szprosami nadal trzeba myć ręcznie.</p>
 
 <h2>6 robotów do mycia okien, które warto znać w 2026 roku</h2>
-<h3>1. Ecovacs Winbot W2 Omni: najpełniejszy</h3>
-<p><strong>Winbot W2 Omni</strong> wyróżnia się przenośną stacją: ma wbudowany akumulator o dużej pojemności, który zasila robota podczas mycia, więc nie musisz szukać gniazdka przy każdym oknie. Linka bezpieczeństwa i kabel zasilający są połączone w jeden przewód o długości około 5,5 m, zwijany automatycznie przez stację. Pod względem mycia: deklarowane ssanie 2 800 Pa, szerokokątne spryskiwanie trzema dyszami, planowanie trasy WIN-SLAM 4.0 i wykrywanie krawędzi dla szyb bez ramy, a całością steruje aplikacja ECOVACS HOME.</p>
-<p><strong>Słabe strony:</strong> to model z wyższej półki, stacja jest nieporęczna, a opublikowane testy wskazują, że nakładki szybko się brudzą przy bardzo zabrudzonych szybach.<br><strong>Dla kogo:</strong> domy z kilkoma dużymi oknami panoramicznymi lub werandą.</p>
+<h3>1. Ecovacs Winbot W2 Omni: najlepiej wyposażony</h3>
+<p><strong>Winbot W2 Omni</strong> wyróżnia się przenośną stacją z wbudowanym akumulatorem o dużej pojemności, który zasila robota podczas mycia – nie trzeba więc szukać gniazdka przy każdym oknie. Linka bezpieczeństwa i przewód zasilający tworzą jeden kabel o długości około 5,5 m, który stacja zwija automatycznie. Jeśli chodzi o samo mycie: deklarowana siła ssania 2800 Pa, szerokokątne spryskiwanie z trzech dysz, planowanie trasy WIN-SLAM 4.0 i wykrywanie krawędzi szyb bez ramy, a wszystkim steruje się z aplikacji ECOVACS HOME.</p>
+<p><strong>Słabe strony:</strong> to model z wyższej półki, stacja zajmuje sporo miejsca, a według opublikowanych testów nakładki szybko się brudzą na bardzo zabrudzonych szybach.<br><strong>Dla kogo:</strong> domy z kilkoma dużymi przeszkleniami lub ogrodem zimowym.</p>
 
-<h3>2. Ecovacs Winbot W2S Omni: następca z czystszymi krawędziami</h3>
-<p>Model <strong>Winbot W2S Omni</strong>, który trafił do Europy w 2025 roku, przejmuje koncepcję stacji z W2 Omni i dodaje technologię <strong>TrueEdge</strong>: małe szczotki na zewnętrznych kołach opuszczają się przy kontakcie z krawędziami, a potem podnoszą, aby lepiej czyścić wzdłuż uszczelek. Działa na akumulatorze lub z sieci, a jego stacja mocuje się przyssawkami z automatycznym zwijaniem kabla.</p>
-<p><strong>Słabe strony:</strong> pozycjonowany jeszcze wyżej niż W2 Omni; sens TrueEdge zależy od czystości Twoich uszczelek.<br><strong>Dla kogo:</strong> dla tych, którzy chcą najnowszy model Ecovacs i nienagannych krawędzi.</p>
+<h3>2. Ecovacs Winbot W2S Omni: następca, który dokładniej myje krawędzie</h3>
+<p><strong>Winbot W2S Omni</strong>, który trafił do Europy w 2025 roku, przejmuje stację znaną z modelu W2 Omni i dodaje technologię <strong>TrueEdge</strong>: małe szczoteczki przy zewnętrznych kołach opuszczają się, gdy robot dotrze do krawędzi, a potem się podnoszą, dzięki czemu lepiej domywają szybę wzdłuż uszczelek. Robot działa na akumulatorze lub z sieci, a jego stację mocuje się przyssawkami; kabel zwija się automatycznie.</p>
+<p><strong>Słabe strony:</strong> z jeszcze wyższej półki niż W2 Omni; korzyść z TrueEdge zależy od tego, jak czyste są Twoje uszczelki.<br><strong>Dla kogo:</strong> osoby, które chcą mieć najnowszy model Ecovacs i idealnie czyste krawędzie.</p>
 
-<h3>3. Hobot 2S: kompakt z ultradźwiękami</h3>
-<p><strong>Hobot 2S</strong> to kwadratowy robot o wymiarach 24 × 24 cm i wadze około 1,3 kg, wyposażony w dwie dysze ultradźwiękowe rozpylające bardzo drobną mgiełkę. Jego linka bezpieczeństwa o długości 4,5 m ma według producenta wytrzymywać obciążenie 200 kg, a zasilanie awaryjne utrzymuje go do 20 minut w razie przerwy w dostawie prądu. Czujnik ucieczki powietrza rozpoznaje krawędzie szyb bez ramy. Producent podaje około 2,4 minuty na metr kwadratowy.</p>
-<p><strong>Słabe strony:</strong> musi pozostać podłączony podczas mycia i wymaga szyby o wymiarach co najmniej 40 × 40 cm.<br><strong>Dla kogo:</strong> ścianki prysznicowe, balustrady i okna bez ramy oraz ci, którzy chcą lekkiego robota.</p>
+<h3>3. Hobot 2S: kompaktowy, z dyszami ultradźwiękowymi</h3>
+<p><strong>Hobot 2S</strong> to kwadratowy robot o wymiarach 24 × 24 cm i wadze około 1,3 kg, z dwiema dyszami ultradźwiękowymi, które rozpylają bardzo drobną mgiełkę. Jego linka bezpieczeństwa o długości 4,5 m według producenta wytrzymuje obciążenie 200 kg, a zasilanie awaryjne utrzymuje robota na szybie do 20 minut po zaniku prądu. Czujnik wykrywający ucieczkę powietrza rozpoznaje krawędzie szyb bez ramy. Producent podaje, że umycie metra kwadratowego zajmuje około 2,4 minuty.</p>
+<p><strong>Słabe strony:</strong> podczas mycia musi być podłączony do prądu i wymaga szyby o wymiarach co najmniej 40 × 40 cm.<br><strong>Dla kogo:</strong> kabiny prysznicowe, balustrady i przeszklenia bez ramy oraz osoby, które chcą lekkiego robota.</p>
 
 <h3>4. Ecovacs Winbot W1 Pro: sprawdzony wybór</h3>
-<p>Starszy od serii W2 <strong>Winbot W1 Pro</strong> pozostaje punktem odniesienia: deklarowane ssanie 2 800 Pa, dwukierunkowe spryskiwanie krzyżowe ze zbiorniczkiem 60 ml, czuły czujnik krawędzi dla okien bez ramy, linka bezpieczeństwa i zabezpieczenie na wypadek zaniku prądu. Nie ma stacji z akumulatorem, jaką mają modele Omni.</p>
-<p><strong>Słabe strony:</strong> obowiązkowe zasilanie z sieci, kabel trzeba ogarniać samemu.<br><strong>Dla kogo:</strong> dla tych, którzy chcą technologii Ecovacs bez stacji.</p>
+<p><strong>Winbot W1 Pro</strong> jest starszy niż seria W2, ale wciąż pozostaje punktem odniesienia: deklarowana siła ssania 2800 Pa, dwukierunkowe spryskiwanie krzyżowe ze zbiornikiem 60 ml, czuły czujnik krawędzi do okien bez ramy, linka bezpieczeństwa i zabezpieczenie na wypadek zaniku prądu. Nie ma stacji z akumulatorem, w którą wyposażone są modele Omni.</p>
+<p><strong>Słabe strony:</strong> musi być podłączony do gniazdka, a przewód trzeba prowadzić samodzielnie.<br><strong>Dla kogo:</strong> osoby, które chcą technologii Ecovacs, ale nie potrzebują stacji.</p>
 
 <h3>5. Cecotec Conga WinDroid 1090 Double Spray Connected: najlepszy stosunek jakości do ceny</h3>
-<p><strong>Conga WinDroid 1090 Double Spray Connected</strong> marki Cecotec spryskuje z każdej strony dzięki podwójnemu sprayowi, oferuje 8 trybów mycia (na sucho lub na mokro) i steruje się aplikacją lub pilotem. Jego zbiorniczek ma około 75 ml, w zestawie jest linka bezpieczeństwa, a akumulator o czasie pracy około 30 minut utrzymuje go na szybie w razie zaniku prądu. Przewód ma zasięg około 7,5 m.</p>
-<p><strong>Słabe strony:</strong> według opinii kupujących wykończenie i nawigacja są mniej dopracowane niż u Ecovacs.<br><strong>Dla kogo:</strong> pierwsze doświadczenie z robotem do mycia okien ze spryskiwaniem, przy rozsądnym budżecie.</p>
+<p><strong>Conga WinDroid 1090 Double Spray Connected</strong> marki Cecotec dzięki podwójnemu spryskiwaczowi rozpyla płyn po obu stronach, oferuje 8 trybów mycia (na sucho lub na mokro), a sterować nim można z aplikacji lub pilotem. Zbiornik ma pojemność około 75 ml, w zestawie jest linka bezpieczeństwa, a akumulator utrzymuje robota na szybie przez około 30 minut po zaniku prądu. Przewód ma zasięg około 7,5 m.</p>
+<p><strong>Słabe strony:</strong> według opinii kupujących wykończenie i nawigacja są mniej dopracowane niż w robotach Ecovacs.<br><strong>Dla kogo:</strong> pierwszy robot do mycia okien ze spryskiwaniem przy rozsądnym budżecie.</p>
 
 <h3>6. Mamibot W120-T: prosty i sprawdzony</h3>
-<p><strong>Mamibot W120-T</strong> stawia na prostotę: 1,35 kg, deklarowane ssanie 2 800 Pa, trasy w kształcie Z i N, żyroskop do powrotu do punktu startu, sterowanie aplikacją, pilotem lub bezpośrednio na urządzeniu. Jego zasilanie awaryjne UPS zapewnia do 20 minut podtrzymania w razie zaniku prądu, a robot ostrzega Cię o incydencie.</p>
-<p><strong>Słabe strony:</strong> brak deklarowanego automatycznego spryskiwania, starszy model.<br><strong>Dla kogo:</strong> okazjonalne użycie na standardowych oknach.</p>
+<p><strong>Mamibot W120-T</strong> stawia na prostotę: waży 1,35 kg, ma deklarowaną siłę ssania 2800 Pa, jeździ po trasach w kształcie liter Z i N, a żyroskop pozwala mu wrócić do punktu startu. Można nim sterować z aplikacji, pilotem lub przyciskami na obudowie. Zasilanie awaryjne UPS utrzymuje go na szybie do 20 minut po zaniku prądu, a robot powiadamia Cię o awarii zasilania.</p>
+<p><strong>Słabe strony:</strong> producent nie deklaruje automatycznego spryskiwania, to starszy model.<br><strong>Dla kogo:</strong> okazjonalne mycie standardowych okien.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Mocna strona</th><th>Spryskiwanie</th><th>Bezpieczeństwo</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Mocna strona</th><th>Spryskiwanie</th><th>Bezpieczeństwo</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td>Ecovacs Winbot W2 Omni</td><td>Przenośna stacja z akumulatorem</td><td>3 szerokokątne dysze</td><td>Kabel 5,5 m ze zwijaczem, zabezpieczenia przed upadkiem</td><td>Duże okna, weranda</td></tr>
-<tr><td>Ecovacs Winbot W2S Omni</td><td>TrueEdge przy krawędziach</td><td>Automatyczne</td><td>Stacja na przyssawki, kabel zwijany automatycznie</td><td>Nienaganne wykończenie</td></tr>
-<tr><td>Hobot 2S</td><td>Kompaktowy, 1,3 kg</td><td>2 dysze ultradźwiękowe</td><td>Linka 4,5 m, UPS 20 min</td><td>Szyby bez ramy, prysznice</td></tr>
-<tr><td>Ecovacs Winbot W1 Pro</td><td>Czuły czujnik krawędzi</td><td>Dwukierunkowe krzyżowe</td><td>Linka, zabezpieczenie na wypadek zaniku prądu</td><td>Regularne użycie bez stacji</td></tr>
-<tr><td>Cecotec Conga WinDroid 1090</td><td>8 trybów, pilot</td><td>Podwójny spray</td><td>Linka, akumulator 30 min</td><td>Rozsądny budżet</td></tr>
-<tr><td>Mamibot W120-T</td><td>Prostota, żyroskop</td><td>Nie</td><td>UPS 20 min z alertem</td><td>Okazjonalne użycie</td></tr>
+<tr><td>Ecovacs Winbot W2 Omni</td><td>Przenośna stacja z akumulatorem</td><td>3 dysze szerokokątne</td><td>Kabel 5,5 m ze zwijaczem, zabezpieczenia przed upadkiem</td><td>Duże przeszklenia, ogród zimowy</td></tr>
+<tr><td>Ecovacs Winbot W2S Omni</td><td>TrueEdge do krawędzi</td><td>Automatyczne</td><td>Stacja na przyssawki, automatycznie zwijany kabel</td><td>Idealnie czyste krawędzie</td></tr>
+<tr><td>Hobot 2S</td><td>Kompaktowy, 1,3 kg</td><td>2 dysze ultradźwiękowe</td><td>Linka 4,5 m, UPS 20 min</td><td>Szyby bez ramy, kabiny prysznicowe</td></tr>
+<tr><td>Ecovacs Winbot W1 Pro</td><td>Czuły czujnik krawędzi</td><td>Krzyżowe, dwukierunkowe</td><td>Linka, ochrona przy zaniku prądu</td><td>Regularne mycie bez stacji</td></tr>
+<tr><td>Cecotec Conga WinDroid 1090</td><td>8 trybów, pilot</td><td>Podwójne</td><td>Linka, akumulator 30 min</td><td>Rozsądny budżet</td></tr>
+<tr><td>Mamibot W120-T</td><td>Prostota, żyroskop</td><td>Brak</td><td>UPS 20 min z powiadomieniem</td><td>Okazjonalne mycie</td></tr>
 </tbody>
 </table>
 
-<h2>Mycie okien od zewnątrz: instrukcja i bezpieczeństwo</h2>
-<p>Robot ssący myje tylko jedną stronę naraz. Aby umyć zewnętrzną stronę, ustawiasz go na zewnątrz, przy oknie otwartym lub uchylonym, a następnie zamykasz okno na lince, jeśli model na to pozwala. Kilka zasad:</p>
+<h2>Mycie okien od zewnątrz: instrukcja i zasady bezpieczeństwa</h2>
+<p>Robot ssący myje tylko jedną stronę szyby naraz. Aby umyć okno od zewnątrz, umieść robota na zewnętrznej stronie szyby przy otwartym lub uchylonym oknie, a następnie, jeśli model na to pozwala, przymknij okno na lince. Kilka zasad:</p>
 <ul>
-<li><strong>Zawsze przypinaj linkę</strong> do stałego i solidnego punktu wewnątrz, nigdy do klamki okna, które mogłoby się otworzyć.</li>
-<li><strong>Nigdy nie zostawiaj robota bez nadzoru</strong> na wysokości i trzymaj dzieci oraz zwierzęta z dala od strefy pod oknem.</li>
+<li><strong>Zawsze przypinaj linkę</strong> do stałego, solidnego punktu wewnątrz, nigdy do klamki okna, które mogłoby się otworzyć.</li>
+<li><strong>Nigdy nie zostawiaj robota bez nadzoru</strong> na wysokości i nie pozwalaj dzieciom ani zwierzętom przebywać pod oknem.</li>
 <li><strong>Unikaj deszczu, silnego wiatru i mrozu</strong>: wilgoć i zimno pogarszają przyczepność i szkodzą elektronice.</li>
-<li><strong>Najpierw odkurz</strong> bardzo zabrudzoną szybę (pyłki, pajęczyny): inaczej nakładka nasyci się w kilka minut.</li>
-<li><strong>Nie używaj robota na pękniętej szybie</strong>, na szkle matowym lub fakturowanym ani na zbyt małej powierzchni.</li>
+<li><strong>Najpierw oczyść z kurzu</strong> bardzo zabrudzoną szybę (pyłki, pajęczyny), bo inaczej nakładka nasiąknie brudem w kilka minut.</li>
+<li><strong>Nie używaj robota na pękniętej szybie</strong>, na szkle matowym lub ornamentowym ani na zbyt małej powierzchni.</li>
 </ul>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Kupowanie bez zasilania awaryjnego</strong>: bez UPS wystarczy przerwa w dostawie prądu lub wyrwany kabel, by robot spadł.</li>
-<li><strong>Ignorowanie minimalnego rozmiaru</strong>: na małych szybach robot kręci się w kółko i traci czas.</li>
-<li><strong>Użycie zwykłego płynu do szyb w zbiorniczku</strong>: niektóre środki zatykają dysze. Przestrzegaj zaleceń producenta.</li>
-<li><strong>Ponowne użycie brudnej nakładki</strong>: wymień ją, gdy tylko zrobi się szara, inaczej robot rozsmaruje brud. Przewidź kilka nakładek do prania.</li>
-<li><strong>Wiara, że robot czyści ramy</strong>: myje szkło, a nie uszczelki ani prowadnice.</li>
+<li><strong>Kupowanie robota bez zasilania awaryjnego</strong>: bez UPS wystarczy zanik prądu lub wyrwany kabel, by robot spadł.</li>
+<li><strong>Ignorowanie minimalnego rozmiaru szyby</strong>: na małych szybkach robot kręci się w kółko i traci czas.</li>
+<li><strong>Wlewanie zwykłego płynu do szyb do zbiornika</strong>: niektóre środki zapychają dysze. Stosuj się do zaleceń producenta.</li>
+<li><strong>Używanie brudnej nakładki</strong>: wymień ją, gdy tylko zszarzeje, bo inaczej robot będzie rozmazywał brud. Warto mieć w zapasie kilka nakładek, które można prać.</li>
+<li><strong>Zakładanie, że robot umyje też ramy</strong>: myje szkło, ale nie uszczelki ani prowadnice.</li>
 </ul>
 
-<h2>Alternatywa ręczna: myjka do okien Kärcher</h2>
-<p>Jeśli Twoje okna są małe lub liczne i ze szprosami, <strong>bezprzewodowa myjka do okien</strong>, taka jak <strong>Kärcher WV 6 Plus</strong>, może być skuteczniejsza: spryskujesz, szorujesz, a następnie ściągaczka zasysa brudną wodę bez zacieków. Kärcher podaje około 100 minut pracy z wyświetlaniem pozostałego czasu. Wymaga Twojej obecności, ale równie dobrze myje lustra, płytki i ścianki prysznicowe, i jest idealnym uzupełnieniem robota przy wykończeniu. Jeśli chodzi o podłogi, zobacz też nasz <a href="/pl/blog/nettoyeur-vapeur-connecte">poradnik o parownicach</a>.</p>
+<h2>Ręczna alternatywa: myjka do okien Kärcher</h2>
+<p>Jeśli masz małe okna albo wiele okien ze szprosami, skuteczniejsza może okazać się <strong>bezprzewodowa myjka do okien</strong>, taka jak <strong>Kärcher WV 6 Plus</strong>: spryskujesz szybę, przecierasz ją, a ściągaczka zasysa brudną wodę, nie zostawiając zacieków. Kärcher deklaruje około 100 minut pracy i wyświetlanie pozostałego czasu. Myjka wymaga Twojej obecności, ale równie dobrze radzi sobie z lustrami, płytkami i kabinami prysznicowymi, a przy wykończeniu idealnie uzupełnia robota. Jeśli chodzi o podłogi, zajrzyj też do naszego <a href="/pl/blog/nettoyeur-vapeur-connecte">poradnika o myjkach parowych</a>.</p>
 
-<h2>Podsumowanie</h2>
-<p>W większości domów z dużymi przeszkleniami <strong>Ecovacs Winbot W2 Omni</strong> to najwygodniejszy wybór: stacja z akumulatorem, automatycznie zwijany kabel i skuteczne spryskiwanie. <strong>W2S Omni</strong> ma sens, jeśli zależy Ci na idealnie czystych krawędziach. <strong>Cecotec Conga WinDroid 1090</strong> to najrozsądniejszy początek z podwójnym sprayem i akumulatorem podtrzymującym, a <strong>Hobot 2S</strong> pozostaje specjalistą od szyb bez ramy. Niezależnie od modelu przypięta linka i nadzór są obowiązkowe na wysokości. Aby zautomatyzować także podłogi, zajrzyj do naszego <a href="/pl/blog/comparatif-robot-aspirateur-laveur">porównania robotów sprzątających z mopem</a>.</p>`,
+<h2>Nasz werdykt</h2>
+<p>W większości domów z dużymi przeszkleniami najwygodniejszym wyborem jest <strong>Ecovacs Winbot W2 Omni</strong>: stacja z akumulatorem, automatycznie zwijany kabel i skuteczne spryskiwanie. <strong>W2S Omni</strong> ma sens, jeśli zależy Ci na idealnie czystych krawędziach. <strong>Cecotec Conga WinDroid 1090</strong> to najrozsądniejszy wybór na początek – z podwójnym spryskiwaniem i akumulatorem podtrzymującym – a <strong>Hobot 2S</strong> pozostaje specjalistą od szyb bez ramy. Niezależnie od modelu przy myciu na wysokości przypięta linka i nadzór są obowiązkowe. Jeśli chcesz zautomatyzować także sprzątanie podłóg, zajrzyj do naszego <a href="/pl/blog/comparatif-robot-aspirateur-laveur">porównania robotów sprzątających z mopem</a>.</p>`,
+    sv: `<p><strong>Den mest kompletta fönsterputsroboten 2026 är Ecovacs Winbot W2 Omni (eller efterföljaren W2S Omni), tack vare en batteristation som gör dig oberoende av vägguttaget och en säkerhetskabel som rullar upp sig själv.</strong> Med en stramare budget ger Cecotec Conga WinDroid 1090 Double Spray Connected dubbel spray och ett reservbatteri som håller roboten kvar på glaset, medan Hobot 2S fortfarande är det kompakta förstahandsvalet för ramlösa glas tack vare sina ultraljudsmunstycken.</p>
+<p>En fönsterputsrobot ersätter inte helt putsning för hand: den gör sig bäst på stora glaspartier, uterum och fönster som är svåra att nå, men den kräver lite förberedelser och ordentliga säkerhetsåtgärder, särskilt på utsidan. Jämförelsen bygger på tillverkarnas produktblad, utvärderingar som fackpressen har publicerat och verifierade köparomdömen. Hela urvalet hittar du i vår kategori <a href="/sv/entretien-maison/laveurs-vitres">fönsterputsrobotar</a>.</p>
+
+<h2>Så väljer du fönsterputsrobot: kriterierna som spelar roll</h2>
+<h3>Sugkraft eller magneter: två helt olika tekniker</h3>
+<p>Nästan alla robotar på marknaden i dag håller sig kvar på glaset med hjälp av <strong>sugkraft</strong>: en motor skapar undertryck under roboten, som pressas mot rutan medan den rör sig över ena sidan. För modellerna i jämförelsen uppges ofta en sugkraft på runt 2 800 Pa. Fördelen är att de fungerar på enkelglas och isolerglas oavsett tjocklek, och att de även putsar speglar och släta kakelväggar.</p>
+<p><strong>Magnetiska</strong> system består av två delar, en på insidan och en på utsidan, som hålls ihop genom glaset med magneter. De putsar båda sidor samtidigt, men glasets tjocklek måste passa magneternas styrka, så de fungerar inte alltid på tjocka två- eller treglasfönster. De är i dag ovanliga och oftast manuella; för en självgående robot är sugkraft standard.</p>
+
+<h3>Säkerhetslina och reservbatteri (UPS)</h3>
+<p>En robot som hålls fast med sugkraft är beroende av strömmen: bryts den, kan roboten lossna från glaset. Två skydd är nödvändiga. Det första är <strong>säkerhetslinan</strong>, som fästs i en fast punkt inomhus och fångar upp roboten om den faller. Det andra är <strong>reservbatteriet</strong> (ofta kallat UPS), som håller suget igång i flera minuter efter ett strömavbrott, så att du hinner ta ner roboten. Tillverkarna uppger till exempel upp till 20 minuter för Hobot 2S och Mamibot W120-T, och runt 30 minuter för Cecotec WinDroid 1090.</p>
+
+<h3>Automatisk spray</h3>
+<p>En robot utan spray arbetar med en duk som du fuktar för hand; den torkar snabbt och lämnar ränder på stora ytor. Nyare modeller har en liten tank och ett eller flera munstycken: ultraljudsmunstycken som skapar en mycket fin dimma (Hobot 2S), dubbelriktad korsspray (Winbot W1 Pro), vidvinkelspray med tre munstycken (Winbot W2 Omni) eller dubbel spray (Cecotec 1090). Använd bara vatten eller det medel som tillverkaren rekommenderar, så att munstyckena inte täpps till.</p>
+
+<h3>Ramlösa glas och kantavkänning</h3>
+<p>På ett vanligt fönster känner roboten av ramen genom att stöta emot den. På en duschvägg, ett glasräcke eller ett ramlöst glasparti måste den upptäcka kanten med en sensor: Winbot W1 Pro, W2 Omni och Hobot 2S uppger alla en kantavkänning som fungerar på ramlöst glas. Utan den funktionen kan roboten köra ut till kanten, tappa suget och falla.</p>
+
+<h3>Fyrkantig eller rund</h3>
+<p><strong>Fyrkantiga</strong> robotar, med larvband eller hjul, rör sig i Z- eller N-mönster och kommer bättre åt hörnen: det är formatet på alla modeller i jämförelsen. <strong>Runda eller ovala robotar med två roterande skivor</strong> ”går” fram på sina dukar; de klarar ojämna ytor bra men lämnar lättare ett hörn oputsat. För vanliga fönster är den fyrkantiga formen det mest mångsidiga valet.</p>
+
+<h3>Minsta rutstorlek och drifttid</h3>
+<p>En robot behöver utrymme att manövrera: räkna med minst cirka 40 × 40 cm för Hobot 2S och ungefär 30 × 30 cm för Winbot W2 Omni, enligt publicerade utvärderingar. Små spröjsade rutor är fortfarande ett jobb för handputsning.</p>
+
+<h2>6 fönsterputsrobotar värda att känna till 2026</h2>
+<h3>1. Ecovacs Winbot W2 Omni: den mest kompletta</h3>
+<p><strong>Winbot W2 Omni</strong> sticker ut med sin bärbara station: den rymmer ett batteri med hög kapacitet som driver roboten medan den putsar, så du slipper leta efter ett uttag vid varje fönster. Säkerhetslinan och strömkabeln är samlade i en enda sladd på cirka 5,5 m, som stationen rullar upp automatiskt. När det gäller själva putsningen får du en uppgiven sugkraft på 2 800 Pa, vidvinkelspray med tre munstycken, ruttplanering med WIN-SLAM 4.0 och kantavkänning för ramlösa glas, allt styrt från appen ECOVACS HOME.</p>
+<p><strong>Svagheter:</strong> det är en premiummodell, stationen är skrymmande och publicerade utvärderingar noterar att dukarna snabbt blir smutsiga när glaset är riktigt smutsigt.<br><strong>Bäst för:</strong> hem med flera stora glaspartier eller ett uterum.</p>
+
+<h3>2. Ecovacs Winbot W2S Omni: efterföljaren med renare kanter</h3>
+<p><strong>Winbot W2S Omni</strong> lanserades i Europa 2025 och behåller stationskonceptet från W2 Omni, men lägger till tekniken <strong>TrueEdge</strong>: små borstar vid de yttre hjulen fälls ner när roboten når en kant och lyfts sedan upp igen, så att det blir renare längs tätningslisterna. Den går på batteri eller nätström, och stationen fästs med sugkoppar och rullar in kabeln automatiskt.</p>
+<p><strong>Svagheter:</strong> ligger i en ännu högre prisklass än W2 Omni; hur mycket TrueEdge tillför beror på hur rena tätningslisterna är.<br><strong>Bäst för:</strong> dig som vill ha Ecovacs senaste modell och skinande rena kanter.</p>
+
+<h3>3. Hobot 2S: den kompakta med ultraljud</h3>
+<p><strong>Hobot 2S</strong> är en fyrkantig robot på 24 × 24 cm som väger cirka 1,3 kg, med två ultraljudsmunstycken som sprayar en mycket fin dimma. Säkerhetslinan på 4,5 m uppges tåla en dragkraft på 200 kg, och reservbatteriet håller roboten kvar i upp till 20 minuter efter ett strömavbrott. En sensor som känner av luftläckage hittar kanterna på ramlösa glas. Tillverkaren uppger cirka 2,4 minuter per kvadratmeter.</p>
+<p><strong>Svagheter:</strong> den måste vara inkopplad under putsningen och kräver en ruta på minst 40 × 40 cm.<br><strong>Bäst för:</strong> duschväggar, glasräcken och ramlösa glaspartier, och dig som vill ha en lätt robot.</p>
+
+<h3>4. Ecovacs Winbot W1 Pro: det säkra kortet</h3>
+<p><strong>Winbot W1 Pro</strong> är äldre än W2-serien men fortfarande en referens: en uppgiven sugkraft på 2 800 Pa, dubbelriktad korsspray med en tank på 60 ml, en snabbreagerande kantsensor för ramlösa fönster, säkerhetslina och skydd vid strömavbrott. Den saknar batteristationen som Omni-modellerna har.</p>
+<p><strong>Svagheter:</strong> måste vara ansluten till elnätet, och kabeln får du hantera själv.<br><strong>Bäst för:</strong> dig som vill ha Ecovacs teknik utan stationen.</p>
+
+<h3>5. Cecotec Conga WinDroid 1090 Double Spray Connected: mest prisvärd</h3>
+<p>Cecotecs <strong>Conga WinDroid 1090 Double Spray Connected</strong> sprayar åt båda sidor med sin dubbla spray, har 8 putslägen (torrt eller vått) och styrs med app eller fjärrkontroll. Tanken rymmer cirka 75 ml, en säkerhetslina följer med och vid strömavbrott håller batteriet roboten kvar på glaset i cirka 30 minuter. Sladden ger en räckvidd på cirka 7,5 m.</p>
+<p><strong>Svagheter:</strong> finish och navigering är mindre genomarbetade än hos Ecovacs, enligt köparomdömen.<br><strong>Bäst för:</strong> en första fönsterputsrobot med spray, till en rimlig budget.</p>
+
+<h3>6. Mamibot W120-T: enkel och beprövad</h3>
+<p><strong>Mamibot W120-T</strong> satsar på enkelhet: 1,35 kg, en uppgiven sugkraft på 2 800 Pa, putsmönster i Z och N, ett gyroskop för att hitta tillbaka till startpunkten och styrning via app, fjärrkontroll eller direkt på roboten. UPS-batteriet håller den kvar i upp till 20 minuter efter ett strömavbrott, och roboten varnar dig om problemet.</p>
+<p><strong>Svagheter:</strong> ingen automatisk spray enligt specifikationerna, äldre modell.<br><strong>Bäst för:</strong> putsning då och då av vanliga fönster.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Största styrka</th><th>Spray</th><th>Säkerhet</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Ecovacs Winbot W2 Omni</td><td>Bärbar batteristation</td><td>3 vidvinkelmunstycken</td><td>Självupprullande kabel 5,5 m, fallskydd</td><td>Stora glaspartier, uterum</td></tr>
+<tr><td>Ecovacs Winbot W2S Omni</td><td>TrueEdge för kanterna</td><td>Automatisk</td><td>Station med sugkoppar, kabel som rullas in automatiskt</td><td>Perfekt finish</td></tr>
+<tr><td>Hobot 2S</td><td>Kompakt, 1,3 kg</td><td>2 ultraljudsmunstycken</td><td>Lina 4,5 m, UPS 20 min</td><td>Ramlösa glas, duschväggar</td></tr>
+<tr><td>Ecovacs Winbot W1 Pro</td><td>Snabbreagerande kantsensor</td><td>Dubbelriktad korsspray</td><td>Lina, skydd vid strömavbrott</td><td>Regelbunden användning utan station</td></tr>
+<tr><td>Cecotec Conga WinDroid 1090</td><td>8 lägen, fjärrkontroll</td><td>Dubbel spray</td><td>Lina, batteri 30 min</td><td>Rimlig budget</td></tr>
+<tr><td>Mamibot W120-T</td><td>Enkelhet, gyroskop</td><td>Nej</td><td>UPS 20 min med varning</td><td>Användning då och då</td></tr>
+</tbody>
+</table>
+
+<h2>Putsa fönstren på utsidan: så gör du det säkert</h2>
+<p>En robot som sitter fast med sug putsar bara en sida i taget. För utsidan placerar du den på glasets utsida med fönstret öppet eller på glänt, och stänger sedan fönstret mot linan om modellen tillåter det. Några regler:</p>
+<ul>
+<li><strong>Fäst alltid linan</strong> i en stadig, fast punkt inomhus, aldrig i handtaget på ett fönster som kan öppnas.</li>
+<li><strong>Lämna aldrig roboten utan uppsikt</strong> högt upp, och håll barn och husdjur borta från området under fönstret.</li>
+<li><strong>Undvik regn, hård vind och frost</strong>: fukt och kyla försämrar greppet och är dåligt för elektroniken.</li>
+<li><strong>Damma av riktigt smutsiga rutor först</strong> (pollen, spindelväv), annars är duken mättad efter några minuter.</li>
+<li><strong>Använd inte roboten på spruckna glas</strong>, på frostat eller mönstrat glas eller på en för liten ruta.</li>
+</ul>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa en modell utan reservbatteri</strong>: utan UPS räcker det med ett strömavbrott eller en kabel som dras ut för att roboten ska falla.</li>
+<li><strong>Att strunta i minsta rutstorlek</strong>: på små rutor kör roboten runt i cirklar och slösar tid.</li>
+<li><strong>Att hälla vanligt fönsterputsmedel i tanken</strong>: vissa medel täpper till munstyckena. Följ tillverkarens anvisningar.</li>
+<li><strong>Att återanvända en smutsig duk</strong>: byt den så fort den blir grå, annars smetar roboten bara ut smutsen. Ha flera tvättbara dukar.</li>
+<li><strong>Att tro att roboten putsar karmarna</strong>: den tvättar glaset, inte tätningslisterna eller skenorna.</li>
+</ul>
+
+<h2>Det manuella alternativet: en fönstertvätt från Kärcher</h2>
+<p>Har du små fönster eller många spröjsade rutor, kan en <strong>sladdlös fönstertvätt</strong> som <strong>Kärcher WV 6 Plus</strong> vara effektivare: du sprayar och skrubbar, och sedan suger skrapan upp smutsvattnet utan att det rinner. Kärcher uppger cirka 100 minuters drifttid och en display som visar återstående tid. Den kräver att du är med, men klarar även speglar, kakel och duschväggar, och är ett perfekt komplement till en robot för finputsen. För golven kan du också läsa vår <a href="/sv/blog/nettoyeur-vapeur-connecte">guide till ångtvättar</a>.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta hushåll med stora glasytor är <strong>Ecovacs Winbot W2 Omni</strong> det bekvämaste valet: batteristation, kabel som rullar upp sig själv och effektiv spray. <strong>W2S Omni</strong> är värd att välja om du vill ha helt rena kanter. <strong>Cecotec Conga WinDroid 1090</strong> är det förnuftigaste instegsvalet, med dubbel spray och reservbatteri, och <strong>Hobot 2S</strong> är fortfarande specialisten på ramlösa glas. Oavsett modell måste linan vara fäst och roboten övervakas när den arbetar högt upp. Vill du automatisera golvstädningen också, läs vår <a href="/sv/blog/comparatif-robot-aspirateur-laveur">jämförelse av robotdammsugare med mopp</a>.</p>`,
+    us: `<p><strong>In 2026, the most complete window cleaning robot is the Ecovacs Winbot W2 Omni (or its successor, the W2S Omni), thanks to a battery-powered station that frees you from the wall outlet and a safety cable that reels itself in.</strong> On a tighter budget, the Cecotec Conga WinDroid 1090 Double Spray Connected gives you dual spraying and a backup battery, while the Hobot 2S remains the compact go-to for frameless glass, with its ultrasonic nozzles.</p>
+<p>A window cleaning robot won’t completely replace cleaning by hand: it shines on large sliding glass doors, sunrooms and hard-to-reach windows, but it takes a little prep and proper safety precautions, especially on the outside. This comparison is based on manufacturer specs, reviews published by specialist outlets and verified owner feedback. You’ll find the full lineup in our <a href="/us/entretien-maison/laveurs-vitres">window cleaning robots</a> section.</p>
+
+<h2>How to choose a window cleaning robot: what matters</h2>
+<h3>Suction or magnets: two very different technologies</h3>
+<p>Almost every robot on the market today stays on the glass by <strong>suction</strong>: a motor creates a vacuum underneath, pressing the unit against the pane as it moves across one side. The models here often claim around 2,800 Pa of suction. The upside: they work on single-pane or double-pane windows of any thickness, and they also clean mirrors and smooth tile.</p>
+<p><strong>Magnetic</strong> systems come in two parts, one inside and one outside, held together through the glass by magnets. They clean both sides at once, but the glass thickness has to match the strength of the magnets, so thick double- or triple-pane windows may not work. They’re still a niche product and mostly manual; for a self-driving robot, suction is the standard.</p>
+
+<h3>Safety tether and backup battery (UPS)</h3>
+<p>A suction robot depends on its power supply: if the power goes out, it can come off the glass. Two safeguards are essential. First, the <strong>safety tether</strong>, tied to a fixed point indoors, which catches the unit if it falls. Second, the <strong>backup battery</strong> (often called a UPS), which keeps the suction running for several minutes after a power outage, giving you time to retrieve the robot. Manufacturers claim, for example, up to 20 minutes on the Hobot 2S and Mamibot W120-T, and around 30 minutes on the Cecotec WinDroid 1090.</p>
+
+<h3>Automatic spraying</h3>
+<p>A robot without a sprayer works with a pad you dampen by hand, which dries out quickly and leaves streaks on large windows. Recent models have a small tank and one or more nozzles: ultrasonic nozzles that create a very fine mist (Hobot 2S), two-way cross spraying (Winbot W1 Pro), three-nozzle wide-angle spraying (Winbot W2 Omni) or a double spray (Cecotec 1090). Use only water or the cleaning solution the manufacturer recommends, so the nozzles don’t clog.</p>
+
+<h3>Frameless glass and edge detection</h3>
+<p>On a standard window, the robot finds the frame by bumping into it. On a glass shower door, a glass railing or a frameless pane, it has to sense the edge with a sensor: the Winbot W1 Pro, W2 Omni and Hobot 2S all claim edge detection that works on frameless glass. Without it, the robot can reach the edge, lose suction and fall.</p>
+
+<h3>Square or round</h3>
+<p><strong>Square</strong> robots, on tracks or wheels, follow a Z- or N-shaped path and get into corners better: every model here uses that design. <strong>Round or oval robots with two spinning pads</strong> “walk” across the glass on their pads; they handle uneven surfaces well but are more likely to miss a corner. For standard windows, square is the most versatile choice.</p>
+
+<h3>Minimum pane size and runtime</h3>
+<p>A robot needs room to maneuver: plan on a pane of at least about 16 × 16 in (40 × 40 cm) for the Hobot 2S, and roughly 12 × 12 in (30 × 30 cm) for the Winbot W2 Omni, according to published reviews. Small divided panes, like windows with grilles, are still a job for cleaning by hand.</p>
+
+<h2>The 6 window cleaning robots worth knowing in 2026</h2>
+<h3>1. Ecovacs Winbot W2 Omni: the most complete</h3>
+<p>The <strong>Winbot W2 Omni</strong> stands out for its portable station: it holds a high-capacity battery that powers the robot while it cleans, so you don’t have to hunt for an outlet next to every window. The safety tether and power cable are combined into a single cord about 18 ft (5.5 m) long, which the station reels in automatically. On the cleaning side: a claimed 2,800 Pa of suction, three-nozzle wide-angle spraying, WIN-SLAM 4.0 path planning and edge detection for frameless glass, all controlled from the ECOVACS HOME app.</p>
+<p><strong>Cons:</strong> it’s a premium model, the station is bulky and published reviews note that the pads get dirty fast on very grimy glass.<br><strong>Best for:</strong> homes with several large glass doors or a sunroom.</p>
+
+<h3>2. Ecovacs Winbot W2S Omni: the successor with cleaner edges</h3>
+<p>Launched in Europe in 2025, the <strong>Winbot W2S Omni</strong> keeps the W2 Omni’s station concept and adds <strong>TrueEdge</strong> technology: small scrubbers on the outer wheels drop down when they reach an edge, then lift back up, to clean better along the window seals. It runs on battery or plugged into an outlet, and its station attaches with suction cups and retracts the cable automatically.</p>
+<p><strong>Cons:</strong> priced even higher than the W2 Omni; how much TrueEdge helps depends on how dirty your window seals get.<br><strong>Best for:</strong> anyone who wants the latest Ecovacs model and spotless edges.</p>
+
+<h3>3. Hobot 2S: the compact ultrasonic pick</h3>
+<p>The <strong>Hobot 2S</strong> is a square robot measuring 9.4 × 9.4 in (24 × 24 cm) and weighing about 2.9 lb (1.3 kg), with two ultrasonic nozzles that spray a very fine mist. Its 15 ft (4.5 m) safety tether is rated for 440 lb (200 kg) of pulling force, and its backup battery keeps it on the glass for up to 20 minutes after a power outage. An air-leak sensor detects the edges of frameless glass. The manufacturer claims about 22 minutes per 100 sq ft (2.4 minutes per square meter).</p>
+<p><strong>Cons:</strong> it has to stay plugged in while it cleans, and it needs a pane of at least 16 × 16 in (40 × 40 cm).<br><strong>Best for:</strong> glass shower doors, glass railings and frameless windows, and anyone who wants a lightweight robot.</p>
+
+<h3>4. Ecovacs Winbot W1 Pro: the safe bet</h3>
+<p>Older than the W2 lineup, the <strong>Winbot W1 Pro</strong> is still a benchmark: a claimed 2,800 Pa of suction, two-way cross spraying with a 2 fl oz (60 ml) tank, a fast-reacting edge sensor for frameless windows, a safety tether and power-outage protection. It doesn’t have the battery-powered station of the Omni models.</p>
+<p><strong>Cons:</strong> it has to be plugged into an outlet, and you manage the cable yourself.<br><strong>Best for:</strong> anyone who wants Ecovacs technology without the station.</p>
+
+<h3>5. Cecotec Conga WinDroid 1090 Double Spray Connected: best value</h3>
+<p>Cecotec’s <strong>Conga WinDroid 1090 Double Spray Connected</strong> sprays from both sides of the unit with its double spray, offers 8 cleaning modes (dry or wet) and works with an app or a remote. Its tank holds about 2.5 fl oz (75 ml), it comes with a safety tether and its battery, rated for about 30 minutes, keeps it on the glass during a power outage. The cord gives it a reach of about 25 ft (7.5 m).</p>
+<p><strong>Cons:</strong> owner reviews say the build quality and navigation are less polished than on the Ecovacs models.<br><strong>Best for:</strong> a first window cleaning robot with a sprayer, on a sensible budget.</p>
+
+<h3>6. Mamibot W120-T: simple and proven</h3>
+<p>The <strong>Mamibot W120-T</strong> keeps things simple: 3 lb (1.35 kg), a claimed 2,800 Pa of suction, Z- and N-shaped cleaning paths, a gyroscope to return to its starting point, and control by app, remote or the buttons on the unit itself. Its UPS battery holds it in place for up to 20 minutes after a power outage, and the robot alerts you when that happens.</p>
+<p><strong>Cons:</strong> no automatic spraying listed, and it’s an older model.<br><strong>Best for:</strong> occasional use on standard windows.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Key strength</th><th>Spraying</th><th>Safety</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Ecovacs Winbot W2 Omni</td><td>Portable battery station</td><td>3 wide-angle nozzles</td><td>18 ft (5.5 m) self-reeling cable, fall protection</td><td>Large glass doors, sunrooms</td></tr>
+<tr><td>Ecovacs Winbot W2S Omni</td><td>TrueEdge for edges</td><td>Automatic</td><td>Suction-cup station, auto-retracting cable</td><td>Flawless finish</td></tr>
+<tr><td>Hobot 2S</td><td>Compact, 2.9 lb (1.3 kg)</td><td>2 ultrasonic nozzles</td><td>15 ft (4.5 m) tether, 20 min UPS</td><td>Frameless glass, showers</td></tr>
+<tr><td>Ecovacs Winbot W1 Pro</td><td>Fast-reacting edge sensor</td><td>Two-way cross spray</td><td>Tether, power-outage protection</td><td>Regular use without a station</td></tr>
+<tr><td>Cecotec Conga WinDroid 1090</td><td>8 modes, remote</td><td>Double spray</td><td>Tether, 30 min battery</td><td>Sensible budget</td></tr>
+<tr><td>Mamibot W120-T</td><td>Simplicity, gyroscope</td><td>No</td><td>20 min UPS with alert</td><td>Occasional use</td></tr>
+</tbody>
+</table>
+
+<h2>Cleaning the outside of your windows safely</h2>
+<p>A suction robot only cleans one side at a time. For the outside, you set it on the exterior face with the window open or cracked, then close the window on the tether if the model allows it. A few ground rules:</p>
+<ul>
+<li><strong>Always tie the tether</strong> to a solid fixed point indoors, never to the handle of a window that could swing open.</li>
+<li><strong>Never leave the robot unattended</strong> on an upper-floor window, and keep kids and pets away from the area below.</li>
+<li><strong>Skip rainy, windy or freezing days</strong>: moisture and cold hurt both grip and electronics.</li>
+<li><strong>Dust off very dirty glass first</strong> (pollen, cobwebs), or the pad will be saturated within minutes.</li>
+<li><strong>Don’t use the robot on cracked glass</strong>, frosted or textured glass, or on a pane that’s too small.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a model without a backup battery</strong>: without a UPS, a power outage or a yanked cable is all it takes to make the robot fall.</li>
+<li><strong>Ignoring the minimum pane size</strong>: on small panes, the robot goes around in circles and wastes time.</li>
+<li><strong>Putting regular glass cleaner in the tank</strong>: some products clog the nozzles. Follow the manufacturer’s instructions.</li>
+<li><strong>Reusing a dirty pad</strong>: swap it out as soon as it turns gray, or the robot just smears the dirt around. Keep several washable pads on hand.</li>
+<li><strong>Expecting the robot to clean the frames</strong>: it washes the glass, not the seals or the tracks.</li>
+</ul>
+
+<h2>The manual alternative: a Kärcher window vac</h2>
+<p>If your windows are small or divided into lots of panes, a <strong>cordless window vac</strong> such as the <strong>Kärcher WV 6 Plus</strong> can get the job done faster: you spray, wipe, then the squeegee vacuums up the dirty water with no drips. Kärcher claims about 100 minutes of runtime, with a display that shows the time remaining. You have to do the work yourself, but it also handles mirrors, tile and shower doors, and it’s the ideal sidekick to a robot for touch-ups. For floors, see our <a href="/us/blog/nettoyeur-vapeur-connecte">steam cleaner guide</a>.</p>
+
+<h2>The bottom line</h2>
+<p>For most homes with large expanses of glass, the <strong>Ecovacs Winbot W2 Omni</strong> is the most convenient choice: a battery-powered station, a self-reeling cable and effective spraying. The <strong>W2S Omni</strong> is worth it if you want perfectly clean edges. The <strong>Cecotec Conga WinDroid 1090</strong> is the most sensible way in, with a double spray and a backup battery, and the <strong>Hobot 2S</strong> remains the frameless-glass specialist. Whatever the model, a tied-off tether and supervision are a must on upper-floor windows. To automate your floors too, check out our <a href="/us/blog/comparatif-robot-aspirateur-laveur">robot vacuum and mop combo comparison</a>.</p>`,
+    ca: `<p><strong>In 2026, the most complete window cleaning robot is the Ecovacs Winbot W2 Omni (or its successor, the W2S Omni), thanks to a battery station that frees you from the wall outlet and a safety cable that reels itself in.</strong> On a tighter budget, the Cecotec Conga WinDroid 1090 Double Spray Connected brings dual spraying and a backup battery to hold it on the glass, while the Hobot 2S remains the compact go-to for frameless glass with its ultrasonic nozzles.</p>
+<p>A window robot won’t completely replace cleaning by hand: it shines on large patio doors, sunrooms and hard-to-reach windows, but it needs a little preparation and proper safety precautions, especially on the outside. This comparison is based on manufacturer specifications, reviews published by specialist media and verified buyer feedback. You’ll find the full selection in our <a href="/ca/entretien-maison/laveurs-vitres">window cleaning robots</a> section.</p>
+
+<h2>How to choose a window cleaning robot: the criteria that matter</h2>
+<h3>Suction or magnets: two very different technologies</h3>
+<p>Almost every current robot stays on the glass through <strong>suction</strong>: a motor creates a vacuum underneath, pressing the unit against the pane while it moves over one side. Models in this comparison often quote suction of around 2,800 Pa. The upside: they work on single-pane or double-pane windows whatever the thickness, and also clean mirrors and smooth tile.</p>
+<p><strong>Magnetic</strong> systems come in two parts, one inside and one outside, held together through the glass by magnets. They clean both sides at once, but the thickness of the glass must match the magnet strength, so thick double- or triple-pane windows may be incompatible. They remain niche and mostly manual; for an autonomous robot, suction is the standard.</p>
+
+<h3>Safety rope and backup battery (UPS)</h3>
+<p>A suction robot depends on its power supply: if the power goes out, it can come off the glass. Two safeguards are essential. First, the <strong>safety rope</strong>, tied to a fixed point indoors, which catches the unit if it falls. Second, the <strong>backup battery</strong> (often called a UPS) that keeps the suction running for several minutes after a power outage, giving you time to retrieve the robot. Manufacturers quote, for example, up to 20 minutes on the Hobot 2S and Mamibot W120-T, and around 30 minutes on the Cecotec WinDroid 1090.</p>
+
+<h3>Automatic spraying</h3>
+<p>A robot without spraying works with a pad you dampen by hand, which dries quickly and leaves streaks on large surfaces. Recent models include a small tank and one or more nozzles: ultrasonic nozzles that create a very fine mist (Hobot 2S), bidirectional cross spraying (Winbot W1 Pro), three-nozzle wide-angle spraying (Winbot W2 Omni) or double spray (Cecotec 1090). Only use water or the product recommended by the manufacturer so the nozzles don’t clog.</p>
+
+<h3>Frameless glass and edge detection</h3>
+<p>On a standard window, the robot detects the frame by bumping into it. On a glass shower door, a glass railing or a frameless pane, it has to sense the edge with a sensor: the Winbot W1 Pro, W2 Omni and Hobot 2S all claim edge detection that works on frameless glass. Without it, the robot can reach the edge, lose suction and fall.</p>
+
+<h3>Square or round</h3>
+<p><strong>Square</strong> robots, on tracks or wheels, follow a Z or N path and reach corners better: that is the format of every model here. <strong>Round or oval robots with two rotating discs</strong> “walk” on their pads; they cope well with uneven surfaces but more easily leave a corner untouched. For standard windows, square is the most versatile choice.</p>
+
+<h3>Minimum pane size and runtime</h3>
+<p>A robot needs room to manoeuvre: allow a minimum of about 40 × 40 cm (16 × 16 in.) for the Hobot 2S, and roughly 30 × 30 cm (12 × 12 in.) for the Winbot W2 Omni according to published reviews. Small panes divided by grilles, as on colonial-style windows, are still a job for cleaning by hand.</p>
+
+<h2>The 6 window cleaning robots worth knowing in 2026</h2>
+<h3>1. Ecovacs Winbot W2 Omni: the most complete</h3>
+<p>The <strong>Winbot W2 Omni</strong> stands out with its portable station: it holds a high-capacity battery that powers the robot while it cleans, so you don’t have to hunt for an outlet next to every window. The safety and power cables are combined into a single cord of about 5.5 m, wound in automatically by the station. On the cleaning side: a claimed 2,800 Pa of suction, three-nozzle wide-angle spraying, WIN-SLAM 4.0 path planning and edge detection for frameless glass, all controlled from the ECOVACS HOME app.</p>
+<p><strong>Drawbacks:</strong> it’s a premium model, the station is bulky and published reviews note that the pads get dirty quickly on very grimy glass.<br><strong>Best for:</strong> homes with several large patio doors or a sunroom.</p>
+
+<h3>2. Ecovacs Winbot W2S Omni: the successor with cleaner edges</h3>
+<p>Launched in Europe in 2025, the <strong>Winbot W2S Omni</strong> keeps the station concept of the W2 Omni and adds <strong>TrueEdge</strong> technology: small scrubbers on the outer wheels lower when they reach the edges, then retract, to clean better along the seals. It runs on battery or plug-in power, and its station attaches with suction cups and retracts the cable automatically.</p>
+<p><strong>Drawbacks:</strong> priced even higher than the W2 Omni; how much TrueEdge helps depends on the condition of your seals.<br><strong>Best for:</strong> anyone who wants the latest Ecovacs model and spotless edges.</p>
+
+<h3>3. Hobot 2S: the compact ultrasonic option</h3>
+<p>The <strong>Hobot 2S</strong> is a square 24 × 24 cm (9½ × 9½ in.) robot weighing about 1.3 kg (2.9 lb), fitted with two ultrasonic nozzles that spray a very fine mist. Its 4.5 m safety rope is rated for 200 kg (440 lb) of pulling force, and its backup battery keeps it in place for up to 20 minutes after a power outage. An air-leakage sensor detects the edges of frameless glass. The manufacturer quotes about 2.4 minutes per square metre (about 11 sq. ft.).</p>
+<p><strong>Drawbacks:</strong> it must stay plugged in while cleaning and needs a pane of at least 40 × 40 cm (16 × 16 in.).<br><strong>Best for:</strong> glass shower doors, glass railings and frameless glass, and anyone who wants a light robot.</p>
+
+<h3>4. Ecovacs Winbot W1 Pro: the safe bet</h3>
+<p>Older than the W2 range, the <strong>Winbot W1 Pro</strong> is still a benchmark: a claimed 2,800 Pa of suction, bidirectional cross spraying with a 60 mL tank, a fast edge sensor for frameless windows, a safety tether and power-outage protection. It doesn’t have the battery station of the Omni models.</p>
+<p><strong>Drawbacks:</strong> it has to stay plugged into an outlet, and you manage the cable yourself.<br><strong>Best for:</strong> anyone who wants Ecovacs technology without the station.</p>
+
+<h3>5. Cecotec Conga WinDroid 1090 Double Spray Connected: best value</h3>
+<p>Cecotec’s <strong>Conga WinDroid 1090 Double Spray Connected</strong> sprays on both sides with its double spray, offers 8 cleaning modes (dry or wet) and can be controlled by app or remote. Its tank holds about 75 mL, it comes with a safety cord and its roughly 30-minute battery keeps it on the glass during a power outage. The cord gives a reach of about 7.5 m.</p>
+<p><strong>Drawbacks:</strong> build quality and navigation are less polished than Ecovacs, according to buyer reviews.<br><strong>Best for:</strong> a first window robot with spraying on a sensible budget.</p>
+
+<h3>6. Mamibot W120-T: simple and proven</h3>
+<p>The <strong>Mamibot W120-T</strong> keeps things simple: 1.35 kg, a claimed 2,800 Pa of suction, Z and N cleaning paths, a gyroscope to return to its starting point, and control by app, remote or on the unit itself. Its UPS battery holds it in place for up to 20 minutes after a power outage, and the robot alerts you to the problem.</p>
+<p><strong>Drawbacks:</strong> no automatic spraying advertised, older model.<br><strong>Best for:</strong> occasional use on standard windows.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Key strength</th><th>Spraying</th><th>Safety</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Ecovacs Winbot W2 Omni</td><td>Portable battery station</td><td>3 wide-angle nozzles</td><td>5.5 m self-winding cable, anti-fall protection</td><td>Large windows, sunroom</td></tr>
+<tr><td>Ecovacs Winbot W2S Omni</td><td>TrueEdge for edges</td><td>Automatic</td><td>Suction-cup station, auto-retracting cable</td><td>Flawless finish</td></tr>
+<tr><td>Hobot 2S</td><td>Compact, 1.3 kg</td><td>2 ultrasonic nozzles</td><td>4.5 m rope, 20 min UPS</td><td>Frameless glass, showers</td></tr>
+<tr><td>Ecovacs Winbot W1 Pro</td><td>Fast edge sensor</td><td>Bidirectional cross spray</td><td>Tether, power-outage protection</td><td>Regular use without station</td></tr>
+<tr><td>Cecotec Conga WinDroid 1090</td><td>8 modes, remote</td><td>Double spray</td><td>Cord, 30 min battery</td><td>Sensible budget</td></tr>
+<tr><td>Mamibot W120-T</td><td>Simplicity, gyroscope</td><td>No</td><td>20 min UPS with alert</td><td>Occasional use</td></tr>
+</tbody>
+</table>
+
+<h2>Cleaning the outside of windows: how to do it safely</h2>
+<p>A suction robot only cleans one side at a time. For the outside, you place it on the outer face with the window open or ajar, then close the window onto the rope if the model allows it. A few rules:</p>
+<ul>
+<li><strong>Always tie the rope</strong> to a solid fixed point indoors, never to the handle of a window that could open.</li>
+<li><strong>Never leave the robot unattended</strong> at height, and keep children and pets away from the area below the window.</li>
+<li><strong>Avoid rain, strong wind and freezing temperatures</strong>: moisture and cold affect grip and electronics.</li>
+<li><strong>Dust off very dirty glass first</strong> (pollen, cobwebs), otherwise the pad will be saturated within minutes.</li>
+<li><strong>Don’t use the robot on cracked glass</strong>, frosted or textured glass, or on a pane that’s too small.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying without a backup battery</strong>: without a UPS, a power outage or a pulled cable is enough to make the robot fall.</li>
+<li><strong>Ignoring the minimum size</strong>: on small panes, the robot goes around in circles and wastes time.</li>
+<li><strong>Putting ordinary glass cleaner in the tank</strong>: some products clog the nozzles. Follow the manufacturer’s instructions.</li>
+<li><strong>Reusing a dirty pad</strong>: change it as soon as it turns grey, or the robot just spreads the dirt around. Keep several washable pads on hand.</li>
+<li><strong>Expecting the robot to clean frames</strong>: it washes the glass, not the seals or tracks.</li>
+</ul>
+
+<h2>The manual alternative: a Kärcher window vac</h2>
+<p>If your windows are small or split into many panes, a <strong>cordless window vac</strong> such as the <strong>Kärcher WV 6 Plus</strong> can be more efficient: you spray, wipe, then the squeegee sucks up the dirty water without drips. Kärcher quotes about 100 minutes of runtime with a remaining-time display. It needs you there, but it also handles mirrors, tile and glass shower doors, and makes an ideal partner to a robot for finishing touches. For floors, see our <a href="/ca/blog/nettoyeur-vapeur-connecte">steam cleaner guide</a>.</p>
+
+<h2>Our verdict</h2>
+<p>For most households with lots of large windows, the <strong>Ecovacs Winbot W2 Omni</strong> is the most convenient choice: battery station, self-winding cable and effective spraying. The <strong>W2S Omni</strong> is worth it if you want perfectly clean edges. The <strong>Cecotec Conga WinDroid 1090</strong> is the most reasonable entry point, with double spray and a backup battery, and the <strong>Hobot 2S</strong> remains the frameless-glass specialist. Whatever the model, a tied rope and supervision are a must at height. To automate your floors as well, check out our <a href="/ca/blog/comparatif-robot-aspirateur-laveur">robot vacuum and mop comparison</a>.</p>`,
   },
   faq: [
     {
@@ -666,6 +936,9 @@ export const article: BlogArticle = {
         it: "Un robot lavavetri può cadere dalla finestra?",
         nl: "Kan een raamwasrobot van het raam vallen?",
         pl: "Czy robot do mycia okien może spaść z okna?",
+        sv: "Kan en fönsterputsrobot ramla ner från fönstret?",
+        us: "Can a window cleaning robot fall off the window?",
+        ca: "Can a window cleaning robot fall off the window?",
       },
       answer: {
         fr: "Oui, c’est possible en cas de coupure de courant, de vitre trop sale ou de bord non détecté. C’est pourquoi il faut toujours attacher la corde de sécurité à un point fixe intérieur et privilégier un modèle avec batterie de secours (UPS), qui maintient l’aspiration plusieurs minutes, le temps de récupérer le robot.",
@@ -674,7 +947,10 @@ export const article: BlogArticle = {
         es: "Sí, puede ocurrir tras un corte de corriente, en un cristal muy sucio o si no detecta un borde. Por eso hay que atar siempre la cuerda de seguridad a un punto fijo interior y elegir un modelo con batería de emergencia (SAI), que mantiene la succión varios minutos para que puedas recuperar el robot.",
         it: "Sì, può succedere in caso di blackout, vetro molto sporco o bordo non rilevato. Per questo bisogna sempre legare la corda di sicurezza a un punto fisso interno e preferire un modello con batteria di emergenza (UPS), che mantiene l’aspirazione per alcuni minuti, il tempo di recuperare il robot.",
         nl: "Ja, dat kan bij een stroomstoring, erg vuil glas of een niet-gedetecteerde rand. Maak daarom altijd het veiligheidskoord vast aan een vast punt binnen en kies een model met noodaccu (UPS), die de zuigkracht enkele minuten in stand houdt zodat je de robot kunt weghalen.",
-        pl: "Tak, jest to możliwe w razie zaniku prądu, zbyt brudnej szyby lub niewykrytej krawędzi. Dlatego zawsze należy przypiąć linkę bezpieczeństwa do stałego punktu wewnątrz i wybrać model z zasilaniem awaryjnym (UPS), które utrzymuje ssanie przez kilka minut, tyle by odzyskać robota.",
+        pl: "Tak, może się to zdarzyć przy zaniku prądu, zbyt brudnej szybie lub niewykrytej krawędzi. Dlatego linkę bezpieczeństwa zawsze przypinaj do stałego punktu wewnątrz i wybieraj model z zasilaniem awaryjnym (UPS), które przez kilka minut utrzymuje ssanie – tyle, ile trzeba, by zdjąć robota z szyby.",
+        sv: "Ja, det kan hända vid ett strömavbrott, på mycket smutsigt glas eller om roboten inte upptäcker en kant. Därför ska du alltid fästa säkerhetslinan i en fast punkt inomhus och välja en modell med reservbatteri (UPS), som håller suget igång i flera minuter så att du hinner ta ner roboten.",
+        us: "Yes, it can happen during a power outage, on very dirty glass or if the robot misses an edge. That’s why you should always tie the safety tether to a fixed point indoors and choose a model with a backup battery (UPS), which keeps the suction going for several minutes so you can retrieve the robot.",
+        ca: "Yes, it can happen after a power outage, on very dirty glass or if an edge isn’t detected. That’s why you should always tie the safety rope to a fixed point indoors and choose a model with a backup battery (UPS), which keeps suction going for several minutes so you can retrieve the robot.",
       },
     },
     {
@@ -686,6 +962,9 @@ export const article: BlogArticle = {
         it: "Un robot lavavetri pulisce entrambi i lati contemporaneamente?",
         nl: "Wast een raamwasrobot beide kanten tegelijk?",
         pl: "Czy robot do mycia okien czyści obie strony jednocześnie?",
+        sv: "Putsar en fönsterputsrobot båda sidorna samtidigt?",
+        us: "Does a window cleaning robot clean both sides at once?",
+        ca: "Does a window cleaning robot clean both sides at once?",
       },
       answer: {
         fr: "Non, les robots à aspiration comme les Winbot, Hobot, Cecotec ou Mamibot lavent une face à la fois : il faut les déplacer de l’intérieur vers l’extérieur. Seuls les systèmes magnétiques en deux parties traitent les deux faces simultanément, mais ils dépendent de l’épaisseur du vitrage.",
@@ -694,7 +973,10 @@ export const article: BlogArticle = {
         es: "No, los robots de succión como Winbot, Hobot, Cecotec o Mamibot limpian una cara cada vez, así que hay que cambiarlos del interior al exterior. Solo los sistemas magnéticos de dos piezas tratan ambas caras a la vez, y dependen del grosor del acristalamiento.",
         it: "No, i robot ad aspirazione come Winbot, Hobot, Cecotec o Mamibot puliscono una faccia alla volta, quindi vanno spostati dall’interno all’esterno. Solo i sistemi magnetici in due parti trattano entrambe le facce insieme, ma dipendono dallo spessore del vetro.",
         nl: "Nee, zuigrobots zoals Winbot, Hobot, Cecotec of Mamibot wassen één kant tegelijk; je verplaatst ze dus van binnen naar buiten. Alleen tweedelige magnetische systemen doen beide kanten tegelijk, en die zijn afhankelijk van de glasdikte.",
-        pl: "Nie, roboty ssące, takie jak Winbot, Hobot, Cecotec czy Mamibot, myją jedną stronę naraz: trzeba je przenieść z wewnątrz na zewnątrz. Tylko systemy magnetyczne dwuczęściowe obsługują obie strony jednocześnie, ale zależą od grubości oszklenia.",
+        pl: "Nie. Roboty ssące, takie jak Winbot, Hobot, Cecotec czy Mamibot, myją jedną stronę naraz, więc trzeba je przełożyć z wewnętrznej strony szyby na zewnętrzną. Obie strony jednocześnie myją tylko dwuczęściowe systemy magnetyczne, ale ich działanie zależy od grubości szyby.",
+        sv: "Nej, robotar som fäster med sugkraft, till exempel Winbot, Hobot, Cecotec eller Mamibot, putsar en sida i taget, så du får flytta dem från insidan till utsidan. Bara magnetiska system i två delar tar båda sidorna samtidigt, men de är beroende av glasets tjocklek.",
+        us: "No, suction robots such as Winbot, Hobot, Cecotec or Mamibot clean one side at a time, so you move them from the inside to the outside. Only two-part magnetic systems clean both sides at once, and they depend on how thick the glass is.",
+        ca: "No, suction robots such as Winbot, Hobot, Cecotec or Mamibot clean one side at a time, so you move them from inside to outside. Only two-part magnetic systems handle both sides at once, and they depend on the thickness of the glass.",
       },
     },
     {
@@ -705,7 +987,10 @@ export const article: BlogArticle = {
         es: "¿Se puede usar un robot limpiacristales en cristales sin marco?",
         it: "Si può usare un robot lavavetri su vetri senza telaio?",
         nl: "Kun je een raamwasrobot gebruiken op kaderloos glas?",
-        pl: "Czy można używać robota do mycia okien na szybach bez ramy?",
+        pl: "Czy robota do mycia okien można używać na szybach bez ramy?",
+        sv: "Går det att använda en fönsterputsrobot på ramlösa glas?",
+        us: "Can you use a window cleaning robot on frameless glass?",
+        ca: "Can you use a window cleaning robot on frameless glass?",
       },
       answer: {
         fr: "Oui, à condition que le modèle dispose d’une détection des bords adaptée. Les Ecovacs Winbot W1 Pro et W2 Omni ainsi que le Hobot 2S l’annoncent. Commencez au centre de la vitre, gardez la corde attachée et surveillez les premiers passages.",
@@ -714,7 +999,10 @@ export const article: BlogArticle = {
         es: "Sí, siempre que el modelo tenga una detección de bordes adecuada. Los Ecovacs Winbot W1 Pro y W2 Omni y el Hobot 2S la anuncian. Empieza en el centro del cristal, mantén la cuerda atada y vigila las primeras pasadas.",
         it: "Sì, purché il modello abbia un rilevamento dei bordi adeguato. Ecovacs Winbot W1 Pro e W2 Omni e Hobot 2S lo dichiarano. Parti dal centro del vetro, tieni la corda legata e sorveglia i primi passaggi.",
         nl: "Ja, als het model geschikte randdetectie heeft. De Ecovacs Winbot W1 Pro en W2 Omni en de Hobot 2S beloven dat. Begin in het midden van de ruit, houd het koord vast en let op bij de eerste banen.",
-        pl: "Tak, pod warunkiem że model ma odpowiednie wykrywanie krawędzi. Deklarują je Ecovacs Winbot W1 Pro i W2 Omni oraz Hobot 2S. Zacznij od środka szyby, trzymaj linkę przypiętą i obserwuj pierwsze przejazdy.",
+        pl: "Tak, jeśli model ma odpowiednie wykrywanie krawędzi. Producenci deklarują je w modelach Ecovacs Winbot W1 Pro i W2 Omni oraz Hobot 2S. Zacznij od środka szyby, nie odpinaj linki i obserwuj robota podczas pierwszych przejazdów.",
+        sv: "Ja, så länge modellen har en kantavkänning som klarar det. Ecovacs Winbot W1 Pro och W2 Omni samt Hobot 2S uppger alla att de gör det. Börja mitt på rutan, ha linan fastsatt och håll uppsikt under de första varven.",
+        us: "Yes, as long as the model has the right kind of edge detection. The Ecovacs Winbot W1 Pro and W2 Omni and the Hobot 2S all claim it. Start in the middle of the pane, keep the tether tied and keep an eye on the first few passes.",
+        ca: "Yes, as long as the model has suitable edge detection. The Ecovacs Winbot W1 Pro and W2 Omni and the Hobot 2S all claim it. Start in the middle of the pane, keep the rope tied and watch the first passes.",
       },
     },
     {
@@ -725,7 +1013,10 @@ export const article: BlogArticle = {
         es: "¿Qué producto se pone en el depósito de un robot limpiacristales?",
         it: "Cosa mettere nel serbatoio di un robot lavavetri?",
         nl: "Wat doe je in het reservoir van een raamwasrobot?",
-        pl: "Co wlać do zbiorniczka robota do mycia okien?",
+        pl: "Co wlać do zbiornika robota do mycia okien?",
+        sv: "Vad ska du ha i tanken på en fönsterputsrobot?",
+        us: "What should you put in a window robot’s tank?",
+        ca: "What should you put in a window robot’s tank?",
       },
       answer: {
         fr: "De l’eau, idéalement déminéralisée pour limiter les traces de calcaire, ou la solution fournie par le fabricant. Évitez les nettoyants vitres classiques, alcoolisés ou moussants, qui peuvent boucher les buses ou laisser des traces.",
@@ -734,7 +1025,10 @@ export const article: BlogArticle = {
         es: "Agua, a ser posible desmineralizada para evitar marcas de cal, o la solución que suministra el fabricante. Evita los limpiacristales convencionales, con alcohol o que hacen espuma, porque pueden obstruir las boquillas o dejar marcas.",
         it: "Acqua, possibilmente demineralizzata per limitare gli aloni di calcare, oppure la soluzione fornita dal produttore. Evita i detergenti per vetri tradizionali, alcolici o schiumogeni, che possono intasare gli ugelli o lasciare aloni.",
         nl: "Water, bij voorkeur gedemineraliseerd om kalkvlekken te beperken, of de oplossing die de fabrikant meelevert. Vermijd gewone, alcoholhoudende of schuimende glasreinigers, die de sproeiers kunnen verstoppen of strepen achterlaten.",
-        pl: "Wodę, najlepiej demineralizowaną, aby ograniczyć osad z kamienia, albo roztwór dostarczony przez producenta. Unikaj zwykłych płynów do szyb, zawierających alkohol lub pianę, które mogą zatkać dysze lub zostawić smugi.",
+        pl: "Wodę, najlepiej demineralizowaną, aby ograniczyć osady z kamienia, albo płyn dostarczony przez producenta. Unikaj zwykłych płynów do szyb, środków z alkoholem i pieniących się, bo mogą zatkać dysze albo zostawić smugi.",
+        sv: "Vatten, helst avjoniserat för att minska risken för kalkfläckar, eller det medel som följer med från tillverkaren. Undvik vanliga fönsterputsmedel och medel som innehåller alkohol eller löddrar, eftersom de kan täppa till munstyckena eller lämna ränder.",
+        us: "Water, ideally distilled to avoid hard-water spots, or the solution supplied by the manufacturer. Avoid regular, alcohol-based or foaming glass cleaners, which can clog the nozzles or leave streaks.",
+        ca: "Water, ideally distilled or demineralized to limit hard-water spots, or the solution supplied by the manufacturer. Avoid standard, alcohol-based or foaming glass cleaners, which can clog the nozzles or leave streaks.",
       },
     },
     {
@@ -746,6 +1040,9 @@ export const article: BlogArticle = {
         it: "Robot lavavetri o lavavetri Kärcher: cosa scegliere?",
         nl: "Raamwasrobot of Kärcher ramenwasser: wat kies je?",
         pl: "Robot do mycia okien czy myjka do okien Kärcher: co wybrać?",
+        sv: "Fönsterputsrobot eller fönstertvätt från Kärcher: vilken ska du välja?",
+        us: "Window cleaning robot or Kärcher window vac: which should you choose?",
+        ca: "Window cleaning robot or Kärcher window vac: which to choose?",
       },
       answer: {
         fr: "Le robot est idéal pour les grandes baies et les vitres difficiles d’accès, car il travaille seul. Le nettoyeur de vitres Kärcher, comme le WV 6 Plus, est plus rapide sur les petits carreaux, les miroirs et les parois de douche, mais demande votre présence. Beaucoup de foyers combinent les deux.",
@@ -754,7 +1051,10 @@ export const article: BlogArticle = {
         es: "El robot es ideal para grandes ventanales y cristales de difícil acceso, porque trabaja solo. La limpiadora Kärcher, como la WV 6 Plus, es más rápida en cristales pequeños, espejos y mamparas, pero requiere tu intervención. Muchos hogares combinan ambos.",
         it: "Il robot è ideale per grandi vetrate e vetri difficili da raggiungere, perché lavora da solo. Il lavavetri Kärcher, come il WV 6 Plus, è più rapido su vetri piccoli, specchi e box doccia, ma richiede la tua presenza. Molte famiglie li usano entrambi.",
         nl: "Een robot is ideaal voor grote glaspartijen en moeilijk bereikbaar glas, omdat hij zelfstandig werkt. Een Kärcher ramenwasser zoals de WV 6 Plus is sneller op kleine ruitjes, spiegels en douchewanden, maar vraagt dat je zelf aan de slag gaat. Veel huishoudens combineren beide.",
-        pl: "Robot jest idealny do dużych okien i szyb trudno dostępnych, bo pracuje sam. Myjka do okien Kärcher, taka jak WV 6 Plus, jest szybsza na małych szybach, lustrach i ściankach prysznicowych, ale wymaga Twojej obecności. Wiele domów łączy oba rozwiązania.",
+        pl: "Robot najlepiej sprawdza się przy dużych przeszkleniach i trudno dostępnych oknach, bo pracuje sam. Myjka do okien Kärcher, na przykład WV 6 Plus, jest szybsza przy małych szybach, lustrach i kabinach prysznicowych, ale wymaga Twojej obecności. W wielu domach używa się obu urządzeń.",
+        sv: "Roboten passar perfekt för stora glaspartier och glas som är svåra att nå, eftersom den jobbar på egen hand. En fönstertvätt från Kärcher, som WV 6 Plus, går snabbare på små rutor, speglar och duschväggar, men då gör du jobbet själv. Många hushåll använder båda.",
+        us: "A robot is ideal for picture windows, sliding glass doors and hard-to-reach glass because it works on its own. A Kärcher window vac such as the WV 6 Plus is faster on small panes, mirrors and glass shower doors, but you have to do the work yourself. Many households end up using both.",
+        ca: "A robot is ideal for large picture windows, patio doors and hard-to-reach glass because it works on its own. A Kärcher window vac such as the WV 6 Plus is faster on small panes, mirrors and shower doors, but you have to do the work yourself. Many households use both.",
       },
     },
     {
@@ -766,6 +1066,9 @@ export const article: BlogArticle = {
         it: "Serve una presa elettrica vicino a ogni finestra?",
         nl: "Heb je bij elk raam een stopcontact nodig?",
         pl: "Czy przy każdym oknie potrzebne jest gniazdko elektryczne?",
+        sv: "Behövs det ett eluttag vid varje fönster?",
+        us: "Do you need an outlet near every window?",
+        ca: "Do you need an outlet near every window?",
       },
       answer: {
         fr: "Pour la plupart des modèles, oui : ils fonctionnent branchés au secteur, la batterie ne servant qu’à la sécurité en cas de coupure. Les Ecovacs Winbot W2 Omni et W2S Omni font exception grâce à leur station-batterie portable, qui alimente le robot pendant le nettoyage.",
@@ -774,7 +1077,10 @@ export const article: BlogArticle = {
         es: "En la mayoría de modelos, sí: funcionan enchufados y la batería solo sirve de seguridad ante un corte. Los Ecovacs Winbot W2 Omni y W2S Omni son la excepción gracias a su estación portátil con batería, que alimenta al robot durante la limpieza.",
         it: "Per la maggior parte dei modelli sì: funzionano collegati alla rete e la batteria serve solo per la sicurezza in caso di blackout. Gli Ecovacs Winbot W2 Omni e W2S Omni fanno eccezione grazie alla stazione portatile con batteria, che alimenta il robot durante la pulizia.",
         nl: "Bij de meeste modellen wel: ze werken op netstroom en de accu dient alleen als beveiliging bij stroomuitval. De Ecovacs Winbot W2 Omni en W2S Omni zijn de uitzondering dankzij hun draagbare accustation, die de robot tijdens het wassen voedt.",
-        pl: "W większości modeli tak: pracują podłączone do sieci, a akumulator służy tylko zabezpieczeniu w razie zaniku prądu. Wyjątkiem są Ecovacs Winbot W2 Omni i W2S Omni dzięki przenośnej stacji z akumulatorem, która zasila robota podczas mycia.",
+        pl: "W większości modeli tak: pracują podłączone do sieci, a akumulator służy tylko jako zabezpieczenie na wypadek zaniku prądu. Wyjątkiem są Ecovacs Winbot W2 Omni i W2S Omni z przenośną stacją z akumulatorem, która zasila robota podczas mycia.",
+        sv: "För de flesta modeller, ja: de drivs med nätström, och batteriet är bara en säkerhetsreserv vid strömavbrott. Ecovacs Winbot W2 Omni och W2S Omni är undantaget tack vare sin bärbara batteristation, som driver roboten medan den putsar.",
+        us: "For most models, yes: they run plugged into a wall outlet, and the battery is only there as a safety backup in case of a power outage. The Ecovacs Winbot W2 Omni and W2S Omni are the exception: their portable battery station powers the robot while it cleans.",
+        ca: "For most models, yes: they run plugged into a wall outlet, and the battery is only there as a safety backup during a power outage. The Ecovacs Winbot W2 Omni and W2S Omni are the exception thanks to their portable battery station, which powers the robot while it cleans.",
       },
     },
   ],

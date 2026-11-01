@@ -1,4 +1,4 @@
-import { amazonAssociateDisclosure } from '@/lib/affiliate-disclosure'
+import { amazonAssociateDisclosure, amazonDisclosureLanguage } from '@/lib/affiliate-disclosure'
 
 interface AmazonDisclosureProps {
   lang: string
@@ -9,9 +9,11 @@ interface AmazonDisclosureProps {
 
 /** Amazon's required Associates statement, plus an optional affiliate-link label. */
 export default function AmazonDisclosure({ lang, note, className = 'text-xs text-slate-600' }: AmazonDisclosureProps) {
+  const statement = amazonAssociateDisclosure(lang)
+  const statementLang = amazonDisclosureLanguage(lang)
   return (
     <p data-amazon-disclosure className={className}>
-      {amazonAssociateDisclosure(lang)}
+      {statementLang ? <span lang={statementLang}>{statement}</span> : statement}
       {note ? ` ${note}` : null}
     </p>
   )

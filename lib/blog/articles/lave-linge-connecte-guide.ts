@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: "Lavadora de carga frontal en un lavadero luminoso con estanterías y cestas",
         it: "Lavatrice a carica frontale in una lavanderia luminosa con scaffali e cesti",
         nl: "Voorlader-wasmachine in een lichte wasruimte met rekken en manden",
-        pl: "Pralka z ładowaniem od przodu w jasnej pralni z półkami i koszami",
+        pl: "Pralka ładowana od frontu w jasnej pralni z półkami i koszami",
+        sv: "Frontmatad tvättmaskin i en ljus tvättstuga med hyllor och korgar",
+        us: "Front-load washer in a bright laundry room with shelves and baskets",
+        ca: "Front-loading washing machine in a bright laundry room with shelves and baskets",
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: "Mejor Lavadora Conectada 2026: 6 Modelos Comparados (Bosch, Miele, Samsung…)",
     it: "Migliore Lavatrice Connessa 2026: 6 Modelli a Confronto (Bosch, Miele, Samsung…)",
     nl: "Beste Slimme Wasmachine 2026: 6 Modellen Vergeleken (Bosch, Miele, Samsung…)",
-    pl: "Najlepsza inteligentna pralka 2026: 6 modeli w porównaniu (Bosch, Miele, Samsung…)",
+    pl: "Najlepsza inteligentna pralka 2026: porównanie 6 modeli (Bosch, Miele, Samsung…)",
+    sv: "Bästa smarta tvättmaskin 2026: 6 modeller jämförda (Bosch, Miele, Samsung…)",
+    us: "Best Smart Washers of 2026: 6 Models Compared (Bosch, Miele, Samsung…)",
+    ca: "Best Smart Washing Machine 2026: 6 Models Compared (Bosch, Miele, Samsung…)",
   },
   excerpt: {
     fr: "Quel lave-linge connecté choisir en 2026 ? Bosch Serie 8, Siemens iQ700, Miele W1, Samsung Bespoke AI, LG et Haier comparés : étiquette énergie A–G, capacité, essorage, bruit, dosage automatique, vapeur, application et lave-linge séchant.",
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: "¿Qué lavadora conectada elegir en 2026? Bosch Serie 8, Siemens iQ700, Miele W1, Samsung Bespoke AI, LG y Haier comparadas: etiqueta energética A–G, capacidad, centrifugado, ruido, dosificación automática, vapor, app y lavasecadoras.",
     it: "Quale lavatrice connessa scegliere nel 2026? Bosch Serie 8, Siemens iQ700, Miele W1, Samsung Bespoke AI, LG e Haier a confronto: etichetta energetica A–G, capacità, centrifuga, rumore, dosaggio automatico, vapore, app e lavasciuga.",
     nl: "Welke slimme wasmachine kies je in 2026? Bosch Serie 8, Siemens iQ700, Miele W1, Samsung Bespoke AI, LG en Haier vergeleken: energielabel A–G, capaciteit, centrifuge, geluid, automatische dosering, stoom, app en was-droogcombinaties.",
-    pl: "Jaką inteligentną pralkę wybrać w 2026 roku? Porównanie Bosch Serie 8, Siemens iQ700, Miele W1, Samsung Bespoke AI, LG i Haier: etykieta energetyczna A–G, pojemność, wirowanie, hałas, automatyczne dozowanie, para, aplikacja i pralko-suszarka.",
+    pl: "Jaką inteligentną pralkę wybrać w 2026 roku? Porównujemy Bosch Serie 8, Siemens iQ700, Miele W1, Samsung Bespoke AI, LG i Haier: etykieta energetyczna A–G, pojemność, wirowanie, hałas, automatyczne dozowanie, para, aplikacja i pralko-suszarki.",
+    sv: "Vilken smart tvättmaskin ska du köpa 2026? Bosch Serie 8, Siemens iQ700, Miele W1, Samsung Bespoke AI, LG och Haier jämförda: EU:s energimärkning A–G, kapacitet, centrifugering, ljudnivå, automatisk dosering, ånga, appar och kombimaskiner.",
+    us: "Which smart washer should you buy in 2026? Bosch Series 8, Siemens iQ700, Miele W1, Samsung Bespoke AI, LG and Haier compared on the EU A–G energy label, capacity, spin, noise, auto-dosing, steam, apps and washer-dryer combos.",
+    ca: "Which smart washing machine should you buy in 2026? Bosch Series 8, Siemens iQ700, Miele W1, Samsung Bespoke AI, LG and Haier compared: EU energy label (A–G), capacity, spin, noise, auto-dosing, steam, apps and washer-dryer combos.",
   },
   content: {
     fr: `<p>Le meilleur lave-linge connecté en 2026 est, pour la plupart des foyers, le <strong>Bosch Serie 8 WGB256A40</strong> : 10 kg, classe énergétique A, essorage à 1 600 tr/min, dosage automatique i-DOS et application Home Connect complète. Si votre budget est plus serré, le <strong>Haier I-Pro Series 7 HW100-B14979</strong> offre 10 kg, la classe A et l'application hOn, et si vous manquez de place pour un sèche-linge, la lavante-séchante <strong>LG W4WR70E6Y</strong> (11 kg lavage / 6 kg séchage) est l'option la plus logique.</p>
@@ -563,67 +572,67 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste huishoudens is de <strong>Bosch Serie 8 WGB256A40</strong> de meest evenwichtige keuze: 10 kg, centrifugeren op 1.600 tpm, i-DOS-dosering en een app die echt iets toevoegt. De <strong>Siemens iQ700 WG44B2A40</strong> past beter als stilte en zuinigheid voorop staan, de <strong>Samsung WW11DB8B95GB</strong> als je veel wast en het laagste verbruik wilt, en de <strong>Miele WWR 860 WPS</strong> als je een premium apparaat zoekt dat lang meegaat. Met een kleiner budget levert de <strong>Haier I-Pro Series 7 HW100-B14979</strong> de slimme basis zonder franje. En past er maar één machine in huis, dan is de <strong>LG W4WR70E6Y</strong> de was-droogcombinatie om te kiezen; anders combineer je een wasmachine met een warmtepompdroger.</p>`,
-    pl: `<p>Najlepsza inteligentna pralka 2026 roku to dla większości gospodarstw domowych <strong>Bosch Serie 8 WGB256A40</strong>: 10 kg, klasa energetyczna A, wirowanie 1600 obr./min, automatyczne dozowanie i-DOS i rozbudowana aplikacja Home Connect. Jeśli masz mniejszy budżet, <strong>Haier I-Pro Series 7 HW100-B14979</strong> oferuje 10 kg, klasę A i aplikację hOn, a jeśli brakuje Ci miejsca na suszarkę, najbardziej logicznym wyborem jest pralko-suszarka <strong>LG W4WR70E6Y</strong> (11 kg prania / 6 kg suszenia).</p>
-<p>To porównanie opiera się na kartach katalogowych producentów, europejskiej etykiecie energetycznej i zweryfikowanych opiniach kupujących. Przegląda sześć modeli sprzedawanych w Europie marek Bosch, Siemens, Miele, Samsung, LG i Haier oraz pomaga zdecydować między pralko-suszarką a osobnym zestawem pralka + suszarka. Wszystkie nasze modele zebraliśmy w sekcji <a href="/pl/entretien-maison/lave-linge-connectes">inteligentne pralki</a>.</p>
+    pl: `<p>Dla większości domów najlepszą inteligentną pralką w 2026 roku jest <strong>Bosch Serie 8 WGB256A40</strong>: 10 kg, klasa energetyczna A, wirowanie 1600 obr./min, automatyczne dozowanie i-DOS i rozbudowana aplikacja Home Connect. Przy skromniejszym budżecie warto rozważyć <strong>Haier I-Pro Series 7 HW100-B14979</strong> (10 kg, klasa A, aplikacja hOn), a jeśli brakuje Ci miejsca na suszarkę, najrozsądniejszym wyborem jest pralko-suszarka <strong>LG W4WR70E6Y</strong> (11 kg prania / 6 kg suszenia).</p>
+<p>Porównanie opiera się na kartach katalogowych producentów, europejskiej etykiecie energetycznej i opiniach zweryfikowanych kupujących. Omawiamy sześć dostępnych w Europie modeli marek Bosch, Siemens, Miele, Samsung, LG i Haier oraz pomagamy zdecydować, czy lepsza będzie pralko-suszarka, czy osobny zestaw złożony z pralki i suszarki. Wszystkie nasze modele znajdziesz w kategorii <a href="/pl/entretien-maison/lave-linge-connectes">inteligentne pralki</a>.</p>
 
-<h2>Kryteria, które naprawdę mają znaczenie</h2>
+<h2>Kryteria, które naprawdę się liczą</h2>
 <h3>Europejska etykieta energetyczna (od A do G)</h3>
-<p>Od marca 2021 roku pralki są klasyfikowane w skali od <strong>A do G</strong>, bez dawnych oznaczeń „A+++”. Klasę wylicza się na podstawie programu <strong>Eco 40-60</strong>, a etykieta podaje ważone zużycie w <strong>kWh na 100 cykli</strong>, zużycie wody na cykl, pojemność znamionową, czas trwania programu Eco, klasę skuteczności wirowania i poziom hałasu. Wszystkie modele w tym porównaniu mają klasę A w praniu, ale różnica jest realna: od 32 kWh/100 cykli w Samsungu do 51 kWh w Boschu. Producenci często zapisują to jako „A -20 %” lub „A -40 %”, czyli 20 % lub 40 % poniżej progu klasy A.</p>
+<p>Od marca 2021 roku pralki klasyfikuje się w skali od <strong>A do G</strong>, bez dawnych oznaczeń „A+++”. Klasę wylicza się dla programu <strong>Eco 40-60</strong>, a etykieta podaje ważone zużycie energii w <strong>kWh na 100 cykli</strong>, zużycie wody na cykl, pojemność znamionową, czas trwania programu Eco, klasę efektywności wirowania i poziom hałasu. Wszystkie modele w tym porównaniu mają klasę A w praniu, ale różnice są wyraźne: od 32 kWh/100 cykli w modelu Samsung do 51 kWh w modelu Bosch. Producenci często podają to w formie „A -20%” lub „A -40%”, czyli o 20% lub 40% poniżej progu klasy A.</p>
 <p>W przypadku pralko-suszarki etykieta podaje <strong>dwie klasy</strong>: jedną dla samego prania i drugą dla pełnego cyklu pranie + suszenie. Ta druga wartość jest prawie zawsze wyraźnie gorsza (często D lub E).</p>
 <h3>Pojemność w kg</h3>
-<p>Pojemność znamionowa (9, 10 lub 11 kg) dotyczy bawełny w programie standardowym. Dla jednej lub dwóch osób wystarczy 8–9 kg; dla czteroosobowej rodziny lub większej 10–11 kg pozwala wyprać kołdrę albo połączyć kilka prań w jedno. Programy syntetyczne i delikatne przyjmują znacznie mniej prania, niż wynosi podana pojemność.</p>
+<p>Pojemność znamionowa (9, 10 lub 11 kg) dotyczy bawełny w programie standardowym. Dla jednej lub dwóch osób wystarczy 8–9 kg, a w rodzinie czteroosobowej lub większej 10–11 kg pozwala wyprać kołdrę albo zrobić jedno pranie zamiast dwóch. W programach do syntetyków i tkanin delikatnych wsad jest znacznie mniejszy niż podana pojemność.</p>
 <h3>Wirowanie i klasa wirowania</h3>
-<p>Prędkość <strong>1400 obr./min</strong> wystarcza w większości przypadków. Prędkość 1600 obr./min w Boschu i Mielu pozostawia w praniu nieco mniej wody, co skraca suszenie, a to szczególnie przydatne, jeśli potem korzystasz z suszarki. <strong>Klasa skuteczności wirowania</strong> (od A do G) na etykiecie jest bardziej wymowna niż sama prędkość.</p>
+<p>W większości przypadków wystarczy <strong>1400 obr./min</strong>. Przy 1600 obr./min, jakie oferują modele Bosch i Miele, w praniu zostaje nieco mniej wody, więc szybciej schnie – to przydaje się zwłaszcza wtedy, gdy potem używasz suszarki. <strong>Klasa efektywności wirowania</strong> (od A do G) podana na etykiecie mówi więcej niż sama prędkość.</p>
 <h3>Hałas</h3>
-<p>Etykieta podaje hałas w dB(A) podczas wirowania, wraz z klasą od A do D. Między 69 a 74 dB różnica wydaje się niewielka, ale skala jest logarytmiczna: o 3 dB więcej oznacza mniej więcej dwukrotnie większą energię akustyczną. Jeśli pralka stoi w otwartej kuchni lub w pobliżu sypialni, celuj w klasę A.</p>
+<p>Etykieta podaje poziom hałasu podczas wirowania w dB(A) wraz z klasą od A do D. Różnica między 69 a 74 dB wydaje się niewielka, ale skala jest logarytmiczna: 3 dB więcej to mniej więcej dwa razy większa energia akustyczna. Jeśli pralka stoi w otwartej kuchni lub blisko sypialni, wybierz model w klasie A.</p>
 <h3>Automatyczne dozowanie i para</h3>
-<p><strong>Automatyczne dozowanie</strong> (i-DOS w Boschu, i-Dos w Siemensie, TwinDos w Mielu, Auto Dose w Samsungu) pobiera płynny środek piorący ze zbiornika i dozuje go w zależności od załadunku, a w niektórych modelach także od stopnia zabrudzenia. W praktyce zbiornik uzupełnia się co kilka tygodni i unika się przedawkowania, które marnuje środek piorący i zostawia osady. <strong>Para</strong> służy głównie do wygładzania i odświeżania mało zabrudzonego prania oraz do programów higienicznych dla alergików. To dodatek, a nie kryterium rozstrzygające.</p>
+<p><strong>Automatyczne dozowanie</strong> (i-DOS u Boscha, i-Dos u Siemensa, TwinDos u Miele, Auto Dose u Samsunga) pobiera detergent w płynie ze zbiornika i odmierza go w zależności od wielkości wsadu, a w niektórych modelach także od stopnia zabrudzenia. W praktyce zbiornik uzupełniasz co kilka tygodni i unikasz przedozowania, przez które marnuje się detergent, a w praniu zostają jego resztki. Funkcja <strong>pary</strong> służy głównie do wygładzania i odświeżania lekko zabrudzonych ubrań oraz w programach higienicznych dla alergików. To przydatny dodatek, ale nie kryterium decydujące o wyborze.</p>
 <h3>Do czego naprawdę służy aplikacja?</h3>
-<p>Aplikacja nie sprawia, że pranie jest lepsze, ale oddaje kilka konkretnych usług:</p>
+<p>Aplikacja nie sprawi, że pralka będzie lepiej prać, ale w kilku sytuacjach naprawdę się przydaje:</p>
 <ul>
-<li><strong>Powiadomienie o końcu cyklu</strong>: najczęściej używana funkcja, żeby nie zapomnieć o wilgotnym praniu w bębnie.</li>
-<li><strong>Opóźniony start i zdalne uruchomienie</strong>: przydatne do włączenia pralki w godzinach tańszej taryfy lub wtedy, gdy produkują Twoje panele słoneczne. Pranie trzeba załadować wcześniej.</li>
-<li><strong>Dodatkowe programy</strong> do pobrania (kurtki puchowe, koszule, odzież sportowa, zależnie od marki).</li>
-<li><strong>Śledzenie zużycia</strong> wody i energii oraz alerty o poziomie środka piorącego w modelach z automatycznym dozowaniem.</li>
-<li><strong>Diagnostyka</strong>: wyjaśnione kody błędów i wskazówki dotyczące konserwacji (czyszczenie filtra, bębna).</li>
+<li><strong>Powiadomienie o zakończeniu prania</strong>: najczęściej używana funkcja – dzięki niej nie zapomnisz o mokrym praniu w bębnie.</li>
+<li><strong>Opóźniony start i zdalne uruchamianie</strong>: pozwalają włączyć pralkę w godzinach tańszego prądu albo wtedy, gdy Twoje panele fotowoltaiczne produkują energię. Pranie trzeba załadować wcześniej.</li>
+<li><strong>Dodatkowe programy</strong> do pobrania (zależnie od marki np. do kurtek puchowych, koszul czy odzieży sportowej).</li>
+<li><strong>Monitorowanie zużycia</strong> wody i prądu oraz powiadomienia o kończącym się detergencie w modelach z automatycznym dozowaniem.</li>
+<li><strong>Diagnostyka</strong>: objaśnienia kodów błędów i wskazówki dotyczące konserwacji (czyszczenie filtra i bębna).</li>
 </ul>
-<p>Ekosystemy się różnią: Home Connect w przypadku Bosch i Siemens, aplikacja Miele, SmartThings u Samsunga, LG ThinQ oraz hOn u Haiera. Jeśli masz już inne urządzenia jednej marki, pozostanie w tym samym ekosystemie ułatwia życie.</p>
+<p>Każda marka ma własny ekosystem: Home Connect (Bosch i Siemens), aplikacja Miele, SmartThings (Samsung), LG ThinQ i hOn (Haier). Jeśli masz już inne urządzenia jednej marki, trzymanie się tego samego ekosystemu ułatwia życie.</p>
 
 <h2>6 najlepszych inteligentnych pralek 2026 roku</h2>
-<h3>1. Bosch Serie 8 WGB256A40: najlepszy wybór ogólny</h3>
-<p><strong>Bosch Serie 8 WGB256A40</strong> to pralka z ładowaniem od przodu o pojemności <strong>10 kg</strong>, z wirowaniem do <strong>1600 obr./min</strong>, klasą energetyczną <strong>A</strong> (51 kWh/100 cykli) i klasą wirowania A. Jego <strong>i-DOS ze skanowaniem środka piorącego</strong> automatycznie dozuje wodę i środek piorący, a aplikacja Home Connect upraszcza początkowe ustawienie dozowania. Funkcja <strong>Iron Assist</strong> wykorzystuje parę do zmniejszenia zagnieceń nawet o 50 % według Bosch, a Home Connect dodaje programy (kurtki puchowe, koszule…).</p>
-<p><strong>Mocne strony:</strong> duża pojemność, bardzo skuteczne wirowanie, precyzyjne automatyczne dozowanie, dojrzała aplikacja.<br><strong>Ograniczenia:</strong> 74 dB(A) podczas wirowania (klasa hałasu B), głośniejszy niż Siemens czy Samsung; zużycie nieco wyższe niż u najlepszych w klasie A.<br><strong>Dla kogo:</strong> rodziny, które chcą kompletnego, niezawodnego urządzenia dobrze zintegrowanego z inteligentnym domem.</p>
+<h3>1. Bosch Serie 8 WGB256A40: najlepszy wybór dla większości</h3>
+<p><strong>Bosch Serie 8 WGB256A40</strong> to pralka ładowana od frontu o pojemności <strong>10 kg</strong>, z wirowaniem do <strong>1600 obr./min</strong>, klasą energetyczną <strong>A</strong> (51 kWh/100 cykli) i klasą wirowania A. System <strong>i-DOS ze skanowaniem detergentu</strong> automatycznie dozuje wodę i detergent, a aplikacja Home Connect ułatwia wstępne ustawienie dozowania. Funkcja <strong>Iron Assist</strong> wykorzystuje parę, by – według Boscha – zmniejszyć zagniecenia nawet o 50%, a Home Connect udostępnia dodatkowe programy (do kurtek puchowych, koszul…).</p>
+<p><strong>Mocne strony:</strong> duża pojemność, bardzo skuteczne wirowanie, precyzyjne automatyczne dozowanie, dopracowana aplikacja.<br><strong>Ograniczenia:</strong> 74 dB(A) podczas wirowania (klasa hałasu B), czyli głośniej niż w modelach Siemens i Samsung; zużycie energii nieco wyższe niż w najoszczędniejszych pralkach klasy A.<br><strong>Dla kogo:</strong> rodziny, które szukają kompletnego, niezawodnego urządzenia dobrze współpracującego z inteligentnym domem.</p>
 
-<h3>2. Siemens iQ700 WG44B2A40: najbardziej oszczędny model BSH</h3>
-<p>Techniczny kuzyn Boscha, <strong>Siemens iQ700 WG44B2A40</strong>, oferuje <strong>9 kg</strong>, <strong>1400 obr./min</strong> i klasę <strong>A -20 %</strong> (40 kWh/100 cykli). Ma wbudowane <strong>i-Dos ze skanowaniem środka piorącego</strong>, <strong>speedPack XL</strong> przyspieszający programy (nawet do prania w 15 minut) oraz funkcję <strong>smartFinish</strong>, która według Siemens zmniejsza zagniecenia nawet o 50 %. Poziom hałasu 70 dB(A) plasuje go w klasie hałasu A.</p>
-<p><strong>Mocne strony:</strong> cichszy i bardziej oszczędny niż Bosch, ta sama aplikacja Home Connect.<br><strong>Ograniczenia:</strong> o 1 kg mniejsza pojemność, wirowanie ograniczone do 1400 obr./min (klasa wirowania B).<br><strong>Dla kogo:</strong> pary i małe rodziny, zwłaszcza jeśli pralka stoi blisko pomieszczeń dziennych.</p>
+<h3>2. Siemens iQ700 WG44B2A40: najoszczędniejszy model z grupy BSH</h3>
+<p><strong>Siemens iQ700 WG44B2A40</strong> jest technicznie spokrewniony z pralką Bosch: ma pojemność <strong>9 kg</strong>, wirowanie <strong>1400 obr./min</strong> i klasę <strong>A -20%</strong> (40 kWh/100 cykli). Wyposażono go w system <strong>i-Dos ze skanowaniem detergentu</strong>, funkcję <strong>speedPack XL</strong>, która skraca programy (pranie może trwać zaledwie 15 minut), oraz <strong>smartFinish</strong>, która według Siemensa zmniejsza zagniecenia nawet o 50%. Przy poziomie hałasu 70 dB(A) mieści się w klasie hałasu A.</p>
+<p><strong>Mocne strony:</strong> cichszy i oszczędniejszy od modelu Bosch, ta sama aplikacja Home Connect.<br><strong>Ograniczenia:</strong> o 1 kg mniejsza pojemność, wirowanie ograniczone do 1400 obr./min (klasa wirowania B).<br><strong>Dla kogo:</strong> pary i małe rodziny, zwłaszcza gdy pralka stoi blisko pomieszczeń mieszkalnych.</p>
 
 <h3>3. Miele WWR 860 WPS: trwały model z najwyższej półki</h3>
-<p><strong>Miele WWR 860 WPS</strong> (seria W1) oferuje <strong>9 kg</strong>, <strong>1600 obr./min</strong> i klasę <strong>A</strong> (49 kWh/100 cykli). Jego dozowanie <strong>TwinDos</strong> jest zaprojektowane dla kartuszy ze środkiem piorącym Miele UltraPhase 1 i 2, czyli dwóch składników wstrzykiwanych w różnych momentach cyklu. Znajdziesz tu także <strong>QuickPowerWash</strong> (do 4 kg w 49 minut), bęben o strukturze plastra miodu, który oszczędza tkaniny, system zabezpieczenia przed wyciekiem <strong>WaterProof</strong> i połączenie Wi-Fi z aplikacją Miele.</p>
-<p><strong>Mocne strony:</strong> marka ceniona za trwałość, doskonała dbałość o tkaniny, wbudowane zabezpieczenie przed wyciekiem.<br><strong>Ograniczenia:</strong> pozycjonowanie premium, TwinDos działa najlepiej z kartuszami tej marki, co zwiększa koszt jednego prania.<br><strong>Dla kogo:</strong> osoby, które kupują na lata i często piorą delikatne tkaniny.</p>
+<p><strong>Miele WWR 860 WPS</strong> (seria W1) oferuje <strong>9 kg</strong>, <strong>1600 obr./min</strong> i klasę <strong>A</strong> (49 kWh/100 cykli). System dozowania <strong>TwinDos</strong> jest przeznaczony do kartuszy z detergentem Miele UltraPhase 1 i 2 – dwóch składników podawanych w różnych fazach prania. Pralka ma też program <strong>QuickPowerWash</strong> (do 4 kg w 49 minut), delikatny dla tkanin bęben o strukturze plastra miodu, system ochrony przed wyciekiem <strong>WaterProof</strong> i łączność Wi-Fi z aplikacją Miele.</p>
+<p><strong>Mocne strony:</strong> marka słynąca z trwałości, bardzo delikatne traktowanie tkanin, wbudowane zabezpieczenie przed wyciekiem.<br><strong>Ograniczenia:</strong> model z najwyższej półki; TwinDos najlepiej działa z kartuszami Miele, co podnosi koszt jednego prania.<br><strong>Dla kogo:</strong> osoby, które kupują na lata i często piorą delikatne tkaniny.</p>
 
-<h3>4. Samsung WW11DB8B95GB Bespoke AI: najoszczędniejszy pod względem energii</h3>
-<p><strong>Samsung WW11DB8B95GB</strong> z serii Bespoke AI Series 8 łączy <strong>11 kg</strong>, <strong>1400 obr./min</strong> i klasę <strong>A -40 %</strong>: 32 kWh/100 cykli, czyli najniższe zużycie w tym porównaniu. Technologia <strong>AI Ecobubble</strong> miesza powietrze, wodę i środek piorący, aby skutecznie prać w niskiej temperaturze, <strong>AI Wash</strong> szacuje wagę i stopień zabrudzenia prania, <strong>Auto Dose</strong> dozuje środek piorący, a <strong>Hygiene Steam</strong> poddaje pranie działaniu pary. Przy 72 dB(A) pozostaje w klasie hałasu A, a <strong>QuickDrive</strong> skraca cykle.</p>
-<p><strong>Mocne strony:</strong> rekordowo niskie zużycie, duża pojemność, bardzo rozbudowana aplikacja SmartThings (śledzenie energii, diagnostyka).<br><strong>Ograniczenia:</strong> dużo funkcji i menu, ekosystem SmartThings jest interesujący głównie wtedy, gdy masz inne urządzenia Samsunga.<br><strong>Dla kogo:</strong> duże rodziny, które dużo piorą i chcą obniżyć rachunki.</p>
+<h3>4. Samsung WW11DB8B95GB Bespoke AI: najniższe zużycie energii</h3>
+<p><strong>Samsung WW11DB8B95GB</strong> z serii Bespoke AI Series 8 łączy pojemność <strong>11 kg</strong>, wirowanie <strong>1400 obr./min</strong> i klasę <strong>A -40%</strong>: 32 kWh/100 cykli to najniższe zużycie w tym zestawieniu. Technologia <strong>AI Ecobubble</strong> miesza powietrze, wodę i detergent, dzięki czemu pralka skutecznie pierze w niskiej temperaturze; <strong>AI Wash</strong> szacuje wagę wsadu i stopień zabrudzenia, <strong>Auto Dose</strong> odmierza detergent, a <strong>Hygiene Steam</strong> poddaje pranie działaniu pary. Przy 72 dB(A) wciąż mieści się w klasie hałasu A, a funkcja <strong>QuickDrive</strong> skraca czas prania.</p>
+<p><strong>Mocne strony:</strong> rekordowo niskie zużycie energii, duża pojemność, bardzo rozbudowana aplikacja SmartThings (monitorowanie zużycia energii, diagnostyka).<br><strong>Ograniczenia:</strong> mnóstwo funkcji i rozbudowane menu; ekosystem SmartThings ma sens głównie wtedy, gdy masz inne urządzenia Samsung.<br><strong>Dla kogo:</strong> duże rodziny, które dużo piorą i chcą obniżyć rachunki.</p>
 
 <h3>5. LG W4WR70E6Y: najlepsza pralko-suszarka</h3>
-<p><strong>LG W4WR70E6Y</strong> to pralko-suszarka <strong>11 kg prania / 6 kg suszenia</strong>, z wirowaniem <strong>1360 obr./min</strong>, w klasie <strong>A</strong> w praniu i <strong>D</strong> w cyklu pranie + suszenie. Silnik <strong>AI DD</strong> wykrywa załadunek i rodzaj tkanin, aby dopasować ruchy bębna, <strong>TurboWash 360°</strong> skraca cykle, funkcja <strong>Steam</strong> poddaje pranie działaniu pary, a aplikacja <strong>ThinQ</strong> pozwala śledzić i sterować pralką. Hałas podczas wirowania: 71 dB(A).</p>
-<p><strong>Mocne strony:</strong> dwa urządzenia w jednym miejscu, duża pojemność prania, para.<br><strong>Ograniczenia:</strong> suszenie kondensacyjne (bez pompy ciepła), jednorazowo można wysuszyć tylko 6 kg, brak automatycznego dozowania.<br><strong>Dla kogo:</strong> mieszkania, w których jest miejsce tylko na jedno urządzenie.</p>
+<p><strong>LG W4WR70E6Y</strong> to pralko-suszarka o pojemności <strong>11 kg prania / 6 kg suszenia</strong>, z wirowaniem <strong>1360 obr./min</strong>, klasą <strong>A</strong> w praniu i <strong>D</strong> w cyklu pranie + suszenie. Silnik <strong>AI DD</strong> rozpoznaje wielkość wsadu i rodzaj tkanin, aby dopasować ruchy bębna, <strong>TurboWash 360°</strong> skraca cykle, funkcja <strong>Steam</strong> poddaje pranie działaniu pary, a aplikacja <strong>ThinQ</strong> pozwala monitorować pracę pralki i nią sterować. Hałas podczas wirowania: 71 dB(A).</p>
+<p><strong>Mocne strony:</strong> dwa urządzenia w miejscu jednego, duży wsad przy praniu, funkcja pary.<br><strong>Ograniczenia:</strong> suszenie kondensacyjne (bez pompy ciepła), jednorazowo można wysuszyć tylko 6 kg, brak automatycznego dozowania.<br><strong>Dla kogo:</strong> mieszkania, w których jest miejsce tylko na jedno urządzenie.</p>
 
 <h3>6. Haier I-Pro Series 7 HW100-B14979: najlepszy stosunek jakości do ceny</h3>
-<p><strong>Haier I-Pro Series 7 HW100-B14979</strong> oferuje <strong>10 kg</strong>, <strong>1400 obr./min</strong>, klasę <strong>A</strong> (46 kWh/100 cykli), bezszczotkowy silnik <strong>Direct Motion</strong> i poziom hałasu 69 dB(A) podczas wirowania. Program <strong>Refresh</strong> wykorzystuje delikatną parę do odświeżania prania, a aplikacja <strong>hOn</strong> daje dostęp do kilkudziesięciu dodatkowych cykli i śledzenia zużycia.</p>
-<p><strong>Mocne strony:</strong> najcichszy w zestawieniu, dobra wydajność, cena z niższej półki jak na 10 kg z łącznością.<br><strong>Ograniczenia:</strong> brak automatycznego dozowania, klasa wirowania B, sieć serwisowa mniej gęsta niż u marek niemieckich.<br><strong>Dla kogo:</strong> rodziny, które chcą dużej, inteligentnej pralki bez dopłacania za opcje premium.</p>
+<p><strong>Haier I-Pro Series 7 HW100-B14979</strong> oferuje <strong>10 kg</strong>, <strong>1400 obr./min</strong>, klasę <strong>A</strong> (46 kWh/100 cykli), bezszczotkowy silnik <strong>Direct Motion</strong> i poziom hałasu 69 dB(A) podczas wirowania. Program <strong>Refresh</strong> odświeża pranie delikatną mgiełką parową, a aplikacja <strong>hOn</strong> daje dostęp do kilkudziesięciu dodatkowych programów i monitorowania zużycia.</p>
+<p><strong>Mocne strony:</strong> najcichszy w zestawieniu, dobra efektywność, cena z niższej półki jak na inteligentną pralkę 10 kg.<br><strong>Ograniczenia:</strong> brak automatycznego dozowania, klasa wirowania B, mniej rozbudowana sieć serwisowa niż u marek niemieckich.<br><strong>Dla kogo:</strong> rodziny, które chcą dużej inteligentnej pralki bez dopłacania za funkcje premium.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Pojemność</th><th>Wirowanie</th><th>Energia</th><th>Hałas</th><th>Auto dozowanie</th><th>Aplikacja</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Pojemność</th><th>Wirowanie</th><th>Energia</th><th>Hałas</th><th>Automatyczne dozowanie</th><th>Aplikacja</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Bosch Serie 8 WGB256A40</td><td>10 kg</td><td>1600 obr./min</td><td>A (51 kWh)</td><td>74 dB (B)</td><td>i-DOS</td><td>Home Connect</td><td>Wybór ogólny</td></tr>
-<tr><td>Siemens iQ700 WG44B2A40</td><td>9 kg</td><td>1400 obr./min</td><td>A -20 % (40 kWh)</td><td>70 dB (A)</td><td>i-Dos</td><td>Home Connect</td><td>Cisza i oszczędność</td></tr>
+<tr><td>Bosch Serie 8 WGB256A40</td><td>10 kg</td><td>1600 obr./min</td><td>A (51 kWh)</td><td>74 dB (B)</td><td>i-DOS</td><td>Home Connect</td><td>Wybór dla większości</td></tr>
+<tr><td>Siemens iQ700 WG44B2A40</td><td>9 kg</td><td>1400 obr./min</td><td>A -20% (40 kWh)</td><td>70 dB (A)</td><td>i-Dos</td><td>Home Connect</td><td>Cisza i oszczędność</td></tr>
 <tr><td>Miele WWR 860 WPS</td><td>9 kg</td><td>1600 obr./min</td><td>A (49 kWh)</td><td>b.d.</td><td>TwinDos</td><td>Miele app</td><td>Trwałość, delikatne tkaniny</td></tr>
-<tr><td>Samsung WW11DB8B95GB</td><td>11 kg</td><td>1400 obr./min</td><td>A -40 % (32 kWh)</td><td>72 dB (A)</td><td>Auto Dose</td><td>SmartThings</td><td>Duże rodziny</td></tr>
+<tr><td>Samsung WW11DB8B95GB</td><td>11 kg</td><td>1400 obr./min</td><td>A -40% (32 kWh)</td><td>72 dB (A)</td><td>Auto Dose</td><td>SmartThings</td><td>Duże rodziny</td></tr>
 <tr><td>LG W4WR70E6Y</td><td>11 / 6 kg</td><td>1360 obr./min</td><td>A / D (pranie + suszenie)</td><td>71 dB</td><td>Nie</td><td>LG ThinQ</td><td>Mało miejsca</td></tr>
 <tr><td>Haier HW100-B14979</td><td>10 kg</td><td>1400 obr./min</td><td>A (46 kWh)</td><td>69 dB</td><td>Nie</td><td>hOn</td><td>Stosunek jakości do ceny</td></tr>
 </tbody>
@@ -631,25 +640,286 @@ export const article: BlogArticle = {
 <p><em>Zużycie podane w kWh na 100 cykli programu Eco 40-60, na podstawie kart katalogowych producentów.</em></p>
 
 <h2>Pralko-suszarka czy osobna suszarka z pompą ciepła?</h2>
-<p>Pralko-suszarka oszczędza miejsce, ale ma trzy wady: suszy <strong>mniej prania, niż pierze</strong> (6 kg z 11 w przypadku LG), najczęściej wykorzystuje <strong>kondensację</strong> (bardziej energochłonną, a w wielu modelach zużywającą wodę do schładzania powietrza), a jej klasa dla cyklu pranie + suszenie zwykle nie przekracza około D. Istnieją nieliczne modele z najwyższej półki z pompą ciepła, ale pozostają wyjątkiem.</p>
-<p>Zestaw pralka + <strong>suszarka z pompą ciepła</strong> zużywa wyraźnie mniej energii na suszenie, pozwala prać i suszyć jednocześnie, a przy braku powierzchni można go ustawić jedno nad drugim za pomocą zestawu łączącego. Jeśli masz odpowiednią wysokość, to najlepsza opcja na dłuższą metę. Aby wybrać suszarkę, zajrzyj do naszego <a href="/pl/blog/waermepumpentrockner-vergleich">porównania suszarek z pompą ciepła</a>. Pralko-suszarka pozostaje sensowna w kawalerce, wąskiej łazience lub jako urządzenie pomocnicze.</p>
+<p>Pralko-suszarka oszczędza miejsce, ale ma trzy wady: suszy <strong>mniej prania, niż pierze</strong> (w modelu LG 6 kg z 11), najczęściej wykorzystuje <strong>kondensację</strong> (bardziej energochłonną, a w wielu modelach zużywającą wodę do schładzania powietrza), a w cyklu pranie + suszenie osiąga zwykle co najwyżej klasę D. Zdarzają się modele z najwyższej półki z pompą ciepła, ale to wyjątki.</p>
+<p>Zestaw pralka + <strong>suszarka z pompą ciepła</strong> zużywa znacznie mniej energii na suszenie, pozwala prać i suszyć jednocześnie, a gdy brakuje miejsca na podłodze, oba urządzenia można ustawić w słupku za pomocą łącznika. Jeśli pozwala na to wysokość pomieszczenia, na dłuższą metę to najlepsze rozwiązanie. Przy wyborze suszarki pomoże Ci nasze <a href="/pl/blog/waermepumpentrockner-vergleich">porównanie suszarek z pompą ciepła</a>. Pralko-suszarka nadal ma sens w kawalerce, w wąskiej łazience albo jako rozwiązanie do okazjonalnego suszenia.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Wybór wyłącznie na podstawie prędkości wirowania</strong>: zwróć uwagę na klasę wirowania i poziom hałasu na etykiecie.</li>
-<li><strong>Przeładowywanie pralki</strong>: pojemność znamionowa dotyczy bawełny; zbyt pełna pralka gorzej pierze i płucze.</li>
-<li><strong>Wiara, że zdalny start zwalnia z przygotowań</strong>: pranie i środek piorący muszą być na miejscu przed wyjściem z domu.</li>
-<li><strong>Zapomnienie o wymiarach</strong>: głębokość jest różna (około 59 cm w Boschu, 64 cm w Mielu); zmierz też szerokość drzwi do pomieszczenia.</li>
-<li><strong>Używanie nieodpowiedniego środka piorącego w zbiorniku</strong>: systemy automatycznego dozowania są przewidziane dla płynnych środków piorących; stosuj się do zaleceń producenta.</li>
-<li><strong>Zaniedbanie konserwacji</strong>: regularnie czyść filtr pompy odpływowej i uszczelkę drzwi, a od czasu do czasu uruchamiaj program czyszczenia bębna.</li>
+<li><strong>Kierowanie się wyłącznie prędkością wirowania</strong>: zwróć uwagę na klasę wirowania i poziom hałasu podane na etykiecie.</li>
+<li><strong>Przeładowywanie pralki</strong>: pojemność znamionowa dotyczy bawełny; przepełniona pralka gorzej pierze i płucze.</li>
+<li><strong>Przekonanie, że zdalny start zwalnia z przygotowań</strong>: pranie i detergent musisz włożyć przed wyjściem z domu.</li>
+<li><strong>Zapominanie o wymiarach</strong>: głębokość bywa różna (ok. 59 cm w modelu Bosch, 64 cm w modelu Miele); zmierz też szerokość drzwi do pomieszczenia.</li>
+<li><strong>Wlewanie nieodpowiedniego detergentu do zbiornika</strong>: systemy automatycznego dozowania są przeznaczone do detergentów w płynie; stosuj się do zaleceń producenta.</li>
+<li><strong>Zaniedbywanie konserwacji</strong>: regularnie czyść filtr pompy odpływowej i uszczelkę drzwi, a od czasu do czasu uruchamiaj program czyszczenia bębna.</li>
 </ul>
 
 <h2>Instalacja, użytkowanie i bezpieczeństwo</h2>
-<p>Podłącz pralkę do <strong>dedykowanego gniazdka z uziemieniem</strong>, bez przedłużacza ani listwy zasilającej: pralka pobiera ponad 2000 W podczas grzania. Przy tworzeniu nowego obwodu lub zmianach w tablicy elektrycznej skorzystaj z pomocy <strong>wykwalifikowanego elektryka</strong>. Ustaw urządzenie dokładnie w poziomie i przed pierwszym użyciem zdejmij zabezpieczenia transportowe, bo grożą wibracje i uszkodzenia.</p>
-<p>Jeśli uruchamiasz cykle pod swoją nieobecność, wybierz model z zabezpieczeniem przed wyciekiem (aquaStop w Boschu i Siemensie, WaterProof w Mielu) i uzupełnij je o <a href="/pl/blog/detection-fuite-eau-connectee">inteligentny czujnik zalania</a> położony na podłodze. Jeśli chodzi o połączenie, większość sprzętu AGD łączy się przez Wi-Fi 2,4 GHz: przed zakupem sprawdź, czy sygnał dociera do pralni.</p>
+<p>Podłącz pralkę do <strong>osobnego gniazdka z uziemieniem</strong>, bez przedłużacza i listwy zasilającej: podczas podgrzewania wody pralka pobiera ponad 2000 W. Jeśli trzeba poprowadzić nowy obwód lub zmienić coś w rozdzielnicy, zleć to <strong>wykwalifikowanemu elektrykowi</strong>. Wypoziomuj urządzenie i przed pierwszym użyciem wykręć śruby transportowe – inaczej będzie mocno wibrować i może się uszkodzić.</p>
+<p>Jeśli włączasz pranie pod swoją nieobecność, wybierz model z zabezpieczeniem przed wyciekiem (aquaStop u Boscha i Siemensa, WaterProof u Miele) i dodatkowo połóż na podłodze <a href="/pl/blog/detection-fuite-eau-connectee">inteligentny czujnik zalania</a>. Większość sprzętu AGD łączy się z siecią Wi-Fi 2,4 GHz, więc przed zakupem sprawdź, czy sygnał dociera do pralni.</p>
 
 <h2>Nasz werdykt</h2>
-<p>Dla większości gospodarstw domowych <strong>Bosch Serie 8 WGB256A40</strong> to najbardziej wyważony wybór: 10 kg, wirowanie 1600 obr./min, dozowanie i-DOS i aplikacja, która daje prawdziwe korzyści. <strong>Siemens iQ700 WG44B2A40</strong> sprawdzi się lepiej, jeśli liczą się cisza i oszczędność, <strong>Samsung WW11DB8B95GB</strong>, jeśli dużo pierzesz i chcesz uzyskać najniższe zużycie, a <strong>Miele WWR 860 WPS</strong>, jeśli chcesz urządzenie premium stworzone z myślą o trwałości. Pod względem budżetu <strong>Haier I-Pro Series 7 HW100-B14979</strong> oferuje to, co najważniejsze w wersji z łącznością, bez zbędnych dodatków. Wreszcie, jeśli w Twoim domu zmieści się tylko jedno urządzenie, najlepszą pralko-suszarką jest <strong>LG W4WR70E6Y</strong>; w przeciwnym razie połącz pralkę z suszarką z pompą ciepła.</p>`,
+<p>Dla większości domów najbardziej wyważonym wyborem jest <strong>Bosch Serie 8 WGB256A40</strong>: 10 kg, wirowanie 1600 obr./min, dozowanie i-DOS i aplikacja, która naprawdę się przydaje. <strong>Siemens iQ700 WG44B2A40</strong> sprawdzi się lepiej, jeśli najważniejsze są cisza i oszczędność, <strong>Samsung WW11DB8B95GB</strong> – jeśli dużo pierzesz i zależy Ci na najniższym zużyciu energii, a <strong>Miele WWR 860 WPS</strong> – jeśli szukasz sprzętu z najwyższej półki zaprojektowanego na lata. Przy ograniczonym budżecie <strong>Haier I-Pro Series 7 HW100-B14979</strong> zapewnia najważniejsze funkcje inteligentnej pralki bez zbędnych dodatków. Jeśli zaś zmieścisz tylko jedno urządzenie, wybierz pralko-suszarkę <strong>LG W4WR70E6Y</strong>; w przeciwnym razie połącz pralkę z suszarką z pompą ciepła.</p>`,
+    sv: `<p>För de flesta hushåll är <strong>Bosch Serie 8 WGB256A40</strong> den bästa smarta tvättmaskinen 2026: 10 kg, energiklass A, centrifugering på 1 600 varv/min, automatisk dosering med i-DOS och en genomarbetad Home Connect-app. Är budgeten snävare ger <strong>Haier I-Pro Series 7 HW100-B14979</strong> dig 10 kg, energiklass A och appen hOn. Och saknar du plats för en separat torktumlare är kombimaskinen <strong>LG W4WR70E6Y</strong> (11 kg tvätt / 6 kg torkning) det klokaste valet.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, EU:s energimärkning och verifierade köparomdömen. Den går igenom sex modeller som säljs i Europa, från Bosch, Siemens, Miele, Samsung, LG och Haier, och hjälper dig att välja mellan en kombimaskin och en tvättmaskin med separat torktumlare. Alla modeller hittar du under <a href="/sv/entretien-maison/lave-linge-connectes">smarta tvättmaskiner</a>.</p>
+
+<h2>Det som verkligen spelar roll</h2>
+<h3>EU:s energimärkning (A till G)</h3>
+<p>Sedan mars 2021 klassas tvättmaskiner på en skala från <strong>A till G</strong>, utan de gamla plusklasserna som ”A+++”. Klassen beräknas utifrån programmet <strong>Eco 40-60</strong>, och etiketten visar den viktade energiförbrukningen i <strong>kWh per 100 tvättcykler</strong>, vattenförbrukningen per cykel, den angivna kapaciteten, Eco-programmets längd, centrifugeringsklassen och ljudnivån. Alla modeller i jämförelsen har energiklass A för tvätt, men skillnaden är ändå tydlig: från 32 kWh per 100 cykler för Samsung till 51 kWh för Bosch. Tillverkarna anger det ofta som ”A -20 %” eller ”A -40 %”, vilket betyder 20 respektive 40 % under gränsen för klass A.</p>
+<p>På en kombimaskin visar etiketten <strong>två klasser</strong>: en för enbart tvätt och en för hela programmet med tvätt och torkning. Den andra är nästan alltid betydligt sämre (ofta D eller E).</p>
+<h3>Kapacitet i kilo</h3>
+<p>Den angivna kapaciteten (9, 10 eller 11 kg) gäller bomull på standardprogrammet. För en eller två personer räcker 8–9 kg. I en familj på fyra eller fler kan du med 10–11 kg tvätta ett täcke eller köra färre tvättar. Program för syntet och fintvätt rymmer betydligt mindre tvätt än den angivna kapaciteten.</p>
+<h3>Centrifugering och centrifugeringsklass</h3>
+<p>En centrifugering på <strong>1 400 varv/min</strong> räcker i de flesta fall. De 1 600 varven hos Bosch och Miele lämnar lite mindre vatten kvar i tvätten, vilket kortar torktiden – mest användbart om du kör tvätten i torktumlaren efteråt. <strong>Centrifugeringsklassen</strong> (A till G) på etiketten säger mer än varvtalet ensamt.</p>
+<h3>Ljudnivå</h3>
+<p>Etiketten anger ljudet vid centrifugering i dB(A), med en klass från A till D. Mellan 69 och 74 dB verkar skillnaden liten, men skalan är logaritmisk: 3 dB mer motsvarar ungefär dubbelt så mycket ljudenergi. Står maskinen i ett kök med öppen planlösning eller nära ett sovrum är det klokt att sikta på ljudklass A.</p>
+<h3>Automatisk dosering och ånga</h3>
+<p><strong>Automatisk dosering</strong> (i-DOS hos Bosch, i-Dos hos Siemens, TwinDos hos Miele, Auto Dose hos Samsung) hämtar flytande tvättmedel ur en tank och doserar efter mängden tvätt och, på vissa modeller, efter hur smutsig den är. I praktiken fyller du på tanken med några veckors mellanrum och slipper överdosering, som slösar tvättmedel och lämnar rester i kläderna. <strong>Ånga</strong> används mest för att släta ut skrynklor, fräscha upp kläder som bara använts lite och för hygienprogram för allergiker. Det är en bonus, inte en avgörande funktion.</p>
+<h3>Vad är appen egentligen bra för?</h3>
+<p>Appen tvättar inte bättre, men den gör några saker som faktiskt är användbara:</p>
+<ul>
+<li><strong>Notis när programmet är klart</strong>: den mest använda funktionen, så att den fuktiga tvätten inte blir liggande i trumman.</li>
+<li><strong>Fördröjd start och fjärrstart</strong>: praktiskt för att köra maskinen när elen är som billigast eller när solcellerna producerar. Tvätten måste ligga i maskinen innan.</li>
+<li><strong>Extra program att ladda ner</strong> (dunjackor, skjortor, träningskläder beroende på märke).</li>
+<li><strong>Uppföljning av vatten- och elförbrukning</strong>, plus en varning när tvättmedlet börjar ta slut på modeller med automatisk dosering.</li>
+<li><strong>Felsökning</strong>: felkoderna förklaras och du får skötselråd (rengöring av filter och trumma).</li>
+</ul>
+<p>Ekosystemen skiljer sig åt: Home Connect för Bosch och Siemens, Miele app, SmartThings för Samsung, LG ThinQ och hOn för Haier. Har du redan andra apparater från samma märke blir vardagen enklare om du håller dig till samma ekosystem.</p>
+
+<h2>De 6 bästa smarta tvättmaskinerna 2026</h2>
+<h3>1. Bosch Serie 8 WGB256A40: bäst totalt</h3>
+<p><strong>Bosch Serie 8 WGB256A40</strong> är en frontmatad tvättmaskin för <strong>10 kg</strong> med centrifugering upp till <strong>1 600 varv/min</strong>, energiklass <strong>A</strong> (51 kWh per 100 cykler) och centrifugeringsklass A. <strong>i-DOS med tvättmedelsigenkänning</strong> doserar vatten och tvättmedel automatiskt, och Home Connect-appen gör den första inställningen av doseringen enkel. <strong>Iron Assist</strong> använder ånga för att minska skrynklorna med upp till 50 % enligt Bosch, och via Home Connect får du extra program, till exempel för dunplagg och skjortor.</p>
+<p><strong>Styrkor:</strong> stor kapacitet, mycket effektiv centrifugering, exakt automatisk dosering, en app som hunnit mogna.<br><strong>Svagheter:</strong> 74 dB(A) vid centrifugering (ljudklass B), alltså högljuddare än Siemens och Samsung; något högre förbrukning än de bästa maskinerna i klass A.<br><strong>Passar för:</strong> familjer som vill ha en komplett och pålitlig maskin som passar bra in i ett smart hem.</p>
+
+<h3>2. Siemens iQ700 WG44B2A40: snålast i BSH-koncernen</h3>
+<p>Rent tekniskt är <strong>Siemens iQ700 WG44B2A40</strong> en nära släkting till Bosch-maskinen (båda kommer från BSH). Den tar <strong>9 kg</strong>, centrifugerar i <strong>1 400 varv/min</strong> och har klassningen <strong>A -20 %</strong> (40 kWh per 100 cykler). Här finns <strong>i-Dos med tvättmedelsigenkänning</strong>, <strong>speedPack XL</strong> som snabbar upp programmen (ända ner till en tvätt på 15 minuter) och <strong>smartFinish</strong>, som minskar skrynklorna med upp till 50 % enligt Siemens. Med 70 dB(A) hamnar den i ljudklass A.</p>
+<p><strong>Styrkor:</strong> tystare och snålare än Bosch, samma Home Connect-app.<br><strong>Svagheter:</strong> 1 kg mindre kapacitet, centrifugering begränsad till 1 400 varv/min (centrifugeringsklass B).<br><strong>Passar för:</strong> par och små familjer, särskilt om maskinen står nära vardagsrummet eller sovrummen.</p>
+
+<h3>3. Miele WWR 860 WPS: premiumvalet som håller länge</h3>
+<p><strong>Miele WWR 860 WPS</strong> (W1-serien) tar <strong>9 kg</strong>, centrifugerar i <strong>1 600 varv/min</strong> och har energiklass <strong>A</strong> (49 kWh per 100 cykler). Doseringssystemet <strong>TwinDos</strong> är gjort för Mieles patroner UltraPhase 1 och 2, ett tvättmedel i två delar som tillsätts i olika skeden av programmet. Dessutom finns <strong>QuickPowerWash</strong> (upp till 4 kg på 49 minuter), den skonsamma vaxkakstrumman, läckageskyddet <strong>WaterProof</strong> och wifi-anslutning till Miele-appen.</p>
+<p><strong>Styrkor:</strong> märkets rykte för lång livslängd, mycket skonsam mot kläderna, inbyggt läckageskydd.<br><strong>Svagheter:</strong> ligger i premiumklassen, och TwinDos fungerar bäst med Mieles egna patroner, vilket gör varje tvätt dyrare.<br><strong>Passar för:</strong> dig som köper för lång tid framåt och ofta tvättar ömtåliga textilier.</p>
+
+<h3>4. Samsung WW11DB8B95GB Bespoke AI: mest energisnål</h3>
+<p><strong>Samsung WW11DB8B95GB</strong> ur serien Bespoke AI Series 8 kombinerar <strong>11 kg</strong>, <strong>1 400 varv/min</strong> och klassningen <strong>A -40 %</strong>: 32 kWh per 100 cykler, den lägsta förbrukningen i jämförelsen. <strong>AI Ecobubble</strong> blandar luft, vatten och tvättmedel för att tvätta effektivt på låga temperaturer, <strong>AI Wash</strong> uppskattar tvättens vikt och hur smutsig den är, <strong>Auto Dose</strong> sköter doseringen och <strong>Hygiene Steam</strong> behandlar tvätten med ånga. Med 72 dB(A) ligger den kvar i ljudklass A, och <strong>QuickDrive</strong> kortar programtiderna.</p>
+<p><strong>Styrkor:</strong> rekordlåg förbrukning, stor kapacitet, mycket komplett SmartThings-app (energiuppföljning, felsökning).<br><strong>Svagheter:</strong> många funktioner och menyer; SmartThings ger mest om du har andra apparater från Samsung.<br><strong>Passar för:</strong> storfamiljer som tvättar mycket och vill sänka elräkningen.</p>
+
+<h3>5. LG W4WR70E6Y: bästa kombimaskinen</h3>
+<p><strong>LG W4WR70E6Y</strong> är en kombimaskin för <strong>11 kg tvätt / 6 kg torkning</strong> som centrifugerar i <strong>1 360 varv/min</strong> och har klass <strong>A</strong> för tvätt och <strong>D</strong> för tvätt och torkning. Motorn <strong>AI DD</strong> känner av mängden tvätt och typen av textil och anpassar trummans rörelser efter det, <strong>TurboWash 360°</strong> kortar programmen, funktionen <strong>Steam</strong> behandlar tvätten med ånga och i appen <strong>ThinQ</strong> kan du följa och styra maskinen. Ljudnivå vid centrifugering: 71 dB(A).</p>
+<p><strong>Styrkor:</strong> två maskiner på samma yta, stor tvättkapacitet, ångfunktion.<br><strong>Svagheter:</strong> kondenstorkning (ingen värmepump), bara 6 kg kan torkas åt gången, ingen automatisk dosering.<br><strong>Passar för:</strong> lägenheter där det bara finns plats för en maskin.</p>
+
+<h3>6. Haier I-Pro Series 7 HW100-B14979: mest prisvärd</h3>
+<p><strong>Haier I-Pro Series 7 HW100-B14979</strong> tar <strong>10 kg</strong>, centrifugerar i <strong>1 400 varv/min</strong> och har energiklass <strong>A</strong> (46 kWh per 100 cykler), en borstlös <strong>Direct Motion</strong>-motor och 69 dB(A) vid centrifugering. Programmet <strong>Refresh</strong> fräschar upp kläder med mikroånga, och appen <strong>hOn</strong> ger tillgång till dussintals extra program och uppföljning av förbrukningen.</p>
+<p><strong>Styrkor:</strong> tystast i urvalet, god energieffektivitet, instegspris för en uppkopplad maskin på 10 kg.<br><strong>Svagheter:</strong> ingen automatisk dosering, centrifugeringsklass B, glesare servicenät än de tyska märkena.<br><strong>Passar för:</strong> familjer som vill ha stor kapacitet och uppkoppling utan att betala för premiumfunktioner.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Kapacitet</th><th>Centrifugering</th><th>Energi</th><th>Ljud</th><th>Autodosering</th><th>App</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Bosch Serie 8 WGB256A40</td><td>10 kg</td><td>1 600 varv/min</td><td>A (51 kWh)</td><td>74 dB (B)</td><td>i-DOS</td><td>Home Connect</td><td>Bäst totalt</td></tr>
+<tr><td>Siemens iQ700 WG44B2A40</td><td>9 kg</td><td>1 400 varv/min</td><td>A -20 % (40 kWh)</td><td>70 dB (A)</td><td>i-Dos</td><td>Home Connect</td><td>Tyst och snål</td></tr>
+<tr><td>Miele WWR 860 WPS</td><td>9 kg</td><td>1 600 varv/min</td><td>A (49 kWh)</td><td>Ej angivet</td><td>TwinDos</td><td>Miele app</td><td>Lång livslängd, fintvätt</td></tr>
+<tr><td>Samsung WW11DB8B95GB</td><td>11 kg</td><td>1 400 varv/min</td><td>A -40 % (32 kWh)</td><td>72 dB (A)</td><td>Auto Dose</td><td>SmartThings</td><td>Storfamiljer</td></tr>
+<tr><td>LG W4WR70E6Y</td><td>11 / 6 kg</td><td>1 360 varv/min</td><td>A / D (tvätt + torkning)</td><td>71 dB</td><td>Nej</td><td>LG ThinQ</td><td>Litet utrymme</td></tr>
+<tr><td>Haier HW100-B14979</td><td>10 kg</td><td>1 400 varv/min</td><td>A (46 kWh)</td><td>69 dB</td><td>Nej</td><td>hOn</td><td>Mest prisvärd</td></tr>
+</tbody>
+</table>
+<p><em>Förbrukningen anges i kWh per 100 cykler med programmet Eco 40-60, enligt tillverkarnas produktblad.</em></p>
+
+<h2>Kombimaskin eller separat värmepumpstorktumlare?</h2>
+<p>En kombimaskin sparar plats, men den har tre nackdelar: den <strong>torkar mindre än den tvättar</strong> (6 av 11 kg för LG), den använder oftast <strong>kondenstorkning</strong> (som drar mer energi och på många modeller förbrukar vatten för att kyla luften), och klassen för tvätt och torkning stannar i regel runt D. Det finns ett fåtal kombimaskiner med värmepump i premiumklassen, men de är fortfarande undantag.</p>
+<p>En tvättmaskin ihop med en <strong>värmepumpstorktumlare</strong> drar betydligt mindre energi vid torkning, låter dig tvätta och torka samtidigt och kan staplas med en staplingssats om golvytan är begränsad. Har du utrymme på höjden är det här det bästa valet i längden. Inför valet av torktumlare kan du läsa vår <a href="/sv/blog/waermepumpentrockner-vergleich">jämförelse av värmepumpstorktumlare</a>. En kombimaskin är fortfarande vettig i en etta, i ett smalt badrum eller om du bara torkar tvätt då och då.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att välja bara efter varvtalet</strong>: titta på centrifugeringsklassen och ljudnivån i energimärkningen.</li>
+<li><strong>Att överfylla trumman</strong>: den angivna kapaciteten gäller bomull, och en proppfull maskin tvättar och sköljer sämre.</li>
+<li><strong>Att tro att fjärrstart betyder att du inte behöver förbereda något</strong>: tvätten och tvättmedlet måste vara på plats innan du går hemifrån.</li>
+<li><strong>Att glömma måtten</strong>: djupet varierar (ca 59 cm för Bosch, 64 cm för Miele). Mät också dörröppningen in till rummet.</li>
+<li><strong>Att hälla fel tvättmedel i tanken</strong>: systemen för automatisk dosering är gjorda för flytande tvättmedel. Följ tillverkarens anvisningar.</li>
+<li><strong>Att slarva med skötseln</strong>: rengör pumpfiltret och dörrtätningen regelbundet och kör ett trumrengöringsprogram då och då.</li>
+</ul>
+
+<h2>Installation, användning och säkerhet</h2>
+<p>Anslut maskinen till ett <strong>eget jordat uttag</strong>, utan förlängningssladd eller grenuttag: en tvättmaskin drar över 2 000 W när den värmer vattnet. Ska en ny grupp dras eller elcentralen ändras anlitar du en <strong>behörig elektriker</strong>. Ställ maskinen noga i våg och ta bort transportbultarna innan du kör den första gången, annars riskerar du vibrationer och skador.</p>
+<p>Startar du maskinen när du inte är hemma är det klokt att välja en modell med läckageskydd (aquaStop hos Bosch och Siemens, WaterProof hos Miele) och att komplettera med ett <a href="/sv/blog/detection-fuite-eau-connectee">smart vattenlarm</a> på golvet. De flesta hushållsapparater ansluter via wifi på 2,4 GHz, så kontrollera att signalen räcker ända till tvättstugan innan du köper.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta hushåll är <strong>Bosch Serie 8 WGB256A40</strong> det mest balanserade valet: 10 kg, centrifugering på 1 600 varv/min, dosering med i-DOS och en app som faktiskt tillför något. <strong>Siemens iQ700 WG44B2A40</strong> passar bättre om tystnad och låg förbrukning går först, <strong>Samsung WW11DB8B95GB</strong> om du tvättar mycket och vill ha den lägsta energiförbrukningen, och <strong>Miele WWR 860 WPS</strong> om du vill ha en premiummaskin byggd för att hålla. Med en mindre budget täcker <strong>Haier I-Pro Series 7 HW100-B14979</strong> de viktigaste smarta funktionerna utan krusiduller. Och får bara en maskin plats hemma är <strong>LG W4WR70E6Y</strong> kombimaskinen att välja; annars är en tvättmaskin ihop med en värmepumpstorktumlare det bättre alternativet.</p>`,
+    us: `<p>For most households, the best smart washer in 2026 is the <strong>Bosch Series 8 WGB256A40</strong>: a 10 kg (22 lb) capacity, energy class A, a 1,600 rpm spin, i-DOS automatic dosing and a full-featured Home Connect app. On a tighter budget, the <strong>Haier I-Pro Series 7 HW100-B14979</strong> delivers 10 kg (22 lb), class A and the hOn app, and if you have no room for a separate dryer, the <strong>LG W4WR70E6Y</strong> washer-dryer combo (11 kg wash / 6 kg dry) is the most sensible pick.</p>
+<p>This comparison is based on manufacturer spec sheets, the EU energy label and verified owner feedback. It covers six models sold in Europe from Bosch, Siemens, Miele, Samsung, LG and Haier, and helps you decide between a washer-dryer combo and a washer paired with a separate dryer. You'll find all the models in our <a href="/us/entretien-maison/lave-linge-connectes">smart washers</a> section.</p>
+
+<h2>The criteria that really matter</h2>
+<h3>The EU energy label (A to G)</h3>
+<p>Since March 2021, washing machines sold in the EU have been rated on an <strong>A to G</strong> scale, without the old "A+++" grades. The class is based on the <strong>Eco 40-60</strong> program, and the label shows weighted consumption in <strong>kWh per 100 cycles</strong>, water per cycle, rated capacity, Eco program duration, spin-drying efficiency class and noise level. Every model here is class A for washing, but the gap is still real: from 32 kWh per 100 cycles for the Samsung to 51 kWh for the Bosch. Brands often write this as "A -20%" or "A -40%" to mean 20% or 40% below the class A threshold. In the US, look for the yellow EnergyGuide label or Energy Star certification instead; the two systems can't be compared directly.</p>
+<p>A washer-dryer combo's label shows <strong>two classes</strong>: one for washing only and one for the full wash-and-dry cycle. The second is almost always much weaker (often D or E).</p>
+<h3>Capacity in kg</h3>
+<p>Rated capacity (9, 10 or 11 kg, about 20 to 24 lb) applies to cotton on the standard cycle. European washers are rated by the weight of dry laundry they take, not by drum volume in cubic feet like US models, so one figure doesn't convert into the other. One or two people will manage with 8 to 9 kg (18 to 20 lb); for a family of four or more, 10 to 11 kg (22 to 24 lb) lets you wash a comforter or combine loads. Synthetic and delicate cycles take far less than the headline figure.</p>
+<h3>Spin speed and spin class</h3>
+<p>A <strong>1,400 rpm</strong> spin is enough in most cases. The 1,600 rpm of the Bosch and Miele leaves a little less water in the laundry, which shortens drying time, mainly useful if you use a dryer afterward. The <strong>spin-drying efficiency class</strong> (A to G) on the label tells you more than the rpm figure alone.</p>
+<h3>Noise</h3>
+<p>The label gives spin noise in dB(A), with a class from A to D. Between 69 and 74 dB the difference looks small, but the scale is logarithmic: 3 dB more is roughly twice the sound energy. If the machine sits in an open-concept kitchen or near a bedroom, aim for noise class A.</p>
+<h3>Auto-dosing and steam</h3>
+<p><strong>Automatic dosing</strong> (i-DOS at Bosch, i-Dos at Siemens, TwinDos at Miele, Auto Dose at Samsung) draws from a liquid detergent reservoir and doses according to the load and, on some models, how dirty it is. In practice, you top up the reservoir every few weeks and avoid overdosing, which wastes detergent and leaves residue. <strong>Steam</strong> is mostly for reducing wrinkles, refreshing lightly worn clothes and running hygiene cycles for allergy sufferers. It's a bonus, not a deal-breaker.</p>
+<h3>What is the app actually useful for?</h3>
+<p>The app doesn't wash any better, but it does a few genuinely useful things:</p>
+<ul>
+<li><strong>End-of-cycle notification</strong>: the most used feature, so damp laundry doesn't sit in the drum.</li>
+<li><strong>Delay start and remote start</strong>: handy for running the machine during off-peak hours on a time-of-use rate plan or when your solar panels are producing. The laundry must be loaded beforehand.</li>
+<li><strong>Extra downloadable cycles</strong> (down jackets, shirts, activewear, depending on the brand).</li>
+<li><strong>Water and energy tracking</strong>, plus detergent level alerts on auto-dosing models.</li>
+<li><strong>Diagnostics</strong>: error codes explained and maintenance tips (filter and drum cleaning).</li>
+</ul>
+<p>Ecosystems differ: Home Connect for Bosch and Siemens, the Miele app, SmartThings for Samsung, LG ThinQ and hOn for Haier. If you already own other appliances from one brand, staying in the same ecosystem makes life easier.</p>
+
+<h2>The 6 best smart washers in 2026</h2>
+<h3>1. Bosch Series 8 WGB256A40: best overall</h3>
+<p>The <strong>Bosch Series 8 WGB256A40</strong> is a <strong>10 kg</strong> (22 lb) front-loader with a spin of up to <strong>1,600 rpm</strong>, energy class <strong>A</strong> (51 kWh per 100 cycles) and spin class A. Its <strong>i-DOS with detergent scan</strong> doses water and detergent automatically, and the Home Connect app makes the initial dosing setup simple. <strong>Iron Assist</strong> uses steam to cut wrinkles by up to 50% according to Bosch, and Home Connect adds extra cycles such as down and shirts.</p>
+<p><strong>Pros:</strong> large capacity, very efficient spin, precise auto-dosing, mature app.<br><strong>Cons:</strong> 74 dB(A) on spin (noise class B), louder than the Siemens or Samsung; slightly higher energy use than the best class A machines.<br><strong>Best for:</strong> families who want a complete, dependable appliance that fits neatly into a smart home.</p>
+
+<h3>2. Siemens iQ700 WG44B2A40: the most frugal BSH model</h3>
+<p>A technical sibling of the Bosch, the <strong>Siemens iQ700 WG44B2A40</strong> offers <strong>9 kg</strong> (20 lb), <strong>1,400 rpm</strong> and an <strong>A -20%</strong> rating (40 kWh per 100 cycles). It includes <strong>i-Dos with detergent scan</strong>, <strong>speedPack XL</strong> to speed up cycles (down to a 15-minute wash) and <strong>smartFinish</strong>, which reduces wrinkles by up to 50% according to Siemens. At 70 dB(A), it's in noise class A.</p>
+<p><strong>Pros:</strong> quieter and more economical than the Bosch, same Home Connect app.<br><strong>Cons:</strong> 1 kg (2.2 lb) less capacity, spin limited to 1,400 rpm (spin class B).<br><strong>Best for:</strong> couples and small families, especially when the machine is close to living areas.</p>
+
+<h3>3. Miele WWR 860 WPS: the long-lasting premium choice</h3>
+<p>The <strong>Miele WWR 860 WPS</strong> (W1 line) offers <strong>9 kg</strong> (20 lb), <strong>1,600 rpm</strong> and class <strong>A</strong> (49 kWh per 100 cycles). Its <strong>TwinDos</strong> system is designed for Miele UltraPhase 1 and 2 cartridges, a two-part detergent released at different stages of the cycle. You also get <strong>QuickPowerWash</strong> (up to 4 kg, about 9 lb, in 49 minutes), the honeycomb drum that's gentle on fabrics, the <strong>WaterProof</strong> leak protection system and a Wi-Fi connection to the Miele app.</p>
+<p><strong>Pros:</strong> the brand's reputation for longevity, excellent fabric care, built-in leak protection.<br><strong>Cons:</strong> a premium model, and TwinDos works best with Miele's own cartridges, which raises the cost per load.<br><strong>Best for:</strong> buyers who want a machine for the long haul and often wash delicate fabrics.</p>
+
+<h3>4. Samsung WW11DB8B95GB Bespoke AI: the most energy-efficient</h3>
+<p>The <strong>Samsung WW11DB8B95GB</strong> from the Bespoke AI Series 8 line combines <strong>11 kg</strong> (24 lb), <strong>1,400 rpm</strong> and an <strong>A -40%</strong> rating: 32 kWh per 100 cycles, the lowest energy use in this comparison. <strong>AI Ecobubble</strong> mixes air, water and detergent to clean effectively at low temperatures, <strong>AI Wash</strong> estimates load weight and soil level, <strong>Auto Dose</strong> handles the detergent and <strong>Hygiene Steam</strong> treats laundry with steam. At 72 dB(A), it stays in noise class A, and <strong>QuickDrive</strong> shortens cycles.</p>
+<p><strong>Pros:</strong> record-low energy use, large capacity, very complete SmartThings app (energy tracking, diagnostics).<br><strong>Cons:</strong> lots of functions and menus; SmartThings pays off most if you own other Samsung devices.<br><strong>Best for:</strong> large families who do a lot of laundry and want to cut their energy bill.</p>
+
+<h3>5. LG W4WR70E6Y: the best washer-dryer combo</h3>
+<p>The <strong>LG W4WR70E6Y</strong> is a washer-dryer combo with <strong>11 kg wash / 6 kg dry</strong> capacity (about 24 lb / 13 lb), a <strong>1,360 rpm</strong> spin, rated <strong>A</strong> for washing and <strong>D</strong> for wash and dry. Its <strong>AI DD</strong> motor detects load size and fabric type to adapt the drum's movements, <strong>TurboWash 360°</strong> shortens cycles, the <strong>Steam</strong> function treats laundry with steam and the <strong>ThinQ</strong> app lets you monitor and control the machine. Spin noise: 71 dB(A).</p>
+<p><strong>Pros:</strong> two appliances in one footprint, large wash capacity, steam.<br><strong>Cons:</strong> condenser drying (no heat pump), only 6 kg (13 lb) can be dried at once, no auto-dosing.<br><strong>Best for:</strong> apartments with room for just one machine.</p>
+
+<h3>6. Haier I-Pro Series 7 HW100-B14979: best value</h3>
+<p>The <strong>Haier I-Pro Series 7 HW100-B14979</strong> offers <strong>10 kg</strong> (22 lb), <strong>1,400 rpm</strong>, class <strong>A</strong> (46 kWh per 100 cycles), a brushless <strong>Direct Motion</strong> motor and 69 dB(A) on spin. The <strong>Refresh</strong> cycle uses micro-steam to freshen clothes, and the <strong>hOn</strong> app unlocks dozens of extra cycles plus energy tracking.</p>
+<p><strong>Pros:</strong> the quietest in this selection, good efficiency, entry-level pricing for a 10 kg smart washer.<br><strong>Cons:</strong> no auto-dosing, spin class B, a thinner service network than the German brands.<br><strong>Best for:</strong> families who want a large smart drum without paying for premium extras.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity</th><th>Spin</th><th>Energy</th><th>Noise</th><th>Auto-dosing</th><th>App</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Bosch Series 8 WGB256A40</td><td>10 kg (22 lb)</td><td>1,600 rpm</td><td>A (51 kWh)</td><td>74 dB (B)</td><td>i-DOS</td><td>Home Connect</td><td>Best overall</td></tr>
+<tr><td>Siemens iQ700 WG44B2A40</td><td>9 kg (20 lb)</td><td>1,400 rpm</td><td>A -20% (40 kWh)</td><td>70 dB (A)</td><td>i-Dos</td><td>Home Connect</td><td>Quiet and frugal</td></tr>
+<tr><td>Miele WWR 860 WPS</td><td>9 kg (20 lb)</td><td>1,600 rpm</td><td>A (49 kWh)</td><td>n/a</td><td>TwinDos</td><td>Miele app</td><td>Longevity, delicates</td></tr>
+<tr><td>Samsung WW11DB8B95GB</td><td>11 kg (24 lb)</td><td>1,400 rpm</td><td>A -40% (32 kWh)</td><td>72 dB (A)</td><td>Auto Dose</td><td>SmartThings</td><td>Large families</td></tr>
+<tr><td>LG W4WR70E6Y</td><td>11 / 6 kg (24 / 13 lb)</td><td>1,360 rpm</td><td>A / D (wash + dry)</td><td>71 dB</td><td>No</td><td>LG ThinQ</td><td>Small spaces</td></tr>
+<tr><td>Haier HW100-B14979</td><td>10 kg (22 lb)</td><td>1,400 rpm</td><td>A (46 kWh)</td><td>69 dB</td><td>No</td><td>hOn</td><td>Best value</td></tr>
+</tbody>
+</table>
+<p><em>Energy use shown in kWh per 100 cycles of the Eco 40-60 program, from manufacturer spec sheets.</em></p>
+
+<h2>Washer-dryer combo or a separate heat pump dryer?</h2>
+<p>A washer-dryer combo saves space, but it has three drawbacks: it <strong>dries less than it washes</strong> (6 kg out of 11 for the LG), it usually relies on <strong>condenser drying</strong> (more energy-hungry and, on many models, using water to cool the air), and its wash-and-dry class generally tops out around D. A handful of premium heat pump washer-dryers exist, but they remain the exception.</p>
+<p>A washer paired with a <strong>heat pump dryer</strong> uses far less energy to dry, lets you wash and dry at the same time, and can be stacked with a stacking kit if floor space is tight. If you have the height, it's the better long-term option. To choose the dryer, see our <a href="/us/blog/waermepumpentrockner-vergleich">heat pump dryer comparison</a>. A washer-dryer combo still makes sense for a studio apartment, a narrow laundry closet or occasional use.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Choosing on spin speed alone</strong>: check the spin class and noise level on the label.</li>
+<li><strong>Overloading the drum</strong>: rated capacity applies to cotton; an overstuffed machine washes and rinses less well.</li>
+<li><strong>Thinking remote start means no prep</strong>: laundry and detergent must be in place before you leave.</li>
+<li><strong>Forgetting the dimensions</strong>: depth varies, from about 23 in (59 cm) for the Bosch to 25 in (64 cm) for the Miele; also measure the doorway into the room.</li>
+<li><strong>Putting the wrong detergent in the reservoir</strong>: auto-dosing systems are designed for liquid detergent; follow the manufacturer's instructions.</li>
+<li><strong>Neglecting maintenance</strong>: clean the drain pump filter and door gasket regularly, and run a drum-clean cycle from time to time.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<p>Plug the machine into a <strong>dedicated grounded outlet</strong>, with no extension cord or power strip: these European machines draw over 2,000 W when they heat water. Models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V. For any new circuit or change to your electrical panel, call a <strong>licensed electrician</strong>. Level the appliance carefully and remove the shipping bolts before first use, or you risk vibration and damage.</p>
+<p>If you run cycles while you're out, choose a model with leak protection (aquaStop at Bosch and Siemens, WaterProof at Miele) and add a <a href="/us/blog/detection-fuite-eau-connectee">smart water leak detector</a> on the floor. For connectivity, most home appliances connect over 2.4 GHz Wi-Fi: check that the signal reaches your laundry room before you buy.</p>
+
+<h2>The bottom line</h2>
+<p>For most households, the <strong>Bosch Series 8 WGB256A40</strong> is the most balanced choice: 10 kg (22 lb), a 1,600 rpm spin, i-DOS dosing and an app that adds real value. The <strong>Siemens iQ700 WG44B2A40</strong> is better if quiet operation and low energy use come first, the <strong>Samsung WW11DB8B95GB</strong> if you do a lot of laundry and want the lowest energy use, and the <strong>Miele WWR 860 WPS</strong> if you want a premium machine built to last. On a budget, the <strong>Haier I-Pro Series 7 HW100-B14979</strong> covers the smart essentials without frills. Finally, if only one machine fits in your home, the <strong>LG W4WR70E6Y</strong> is the washer-dryer combo to go for; otherwise, pair a washer with a heat pump dryer.</p>`,
+    ca: `<p>For most households, the best smart washing machine in 2026 is the <strong>Bosch Series 8 WGB256A40</strong>: 10 kg, energy class A, a 1,600 rpm spin, i-DOS automatic dosing and a full-featured Home Connect app. On a tighter budget, the <strong>Haier I-Pro Series 7 HW100-B14979</strong> delivers 10 kg, class A and the hOn app, and if you have no room for a separate dryer, the <strong>LG W4WR70E6Y</strong> washer-dryer combo (11 kg wash / 6 kg dry) is the most sensible pick.</p>
+<p>This comparison is based on manufacturer spec sheets, the EU energy label and verified buyer feedback. It covers six models sold in Europe from Bosch, Siemens, Miele, Samsung, LG and Haier, and helps you decide between a washer-dryer combo and a washing machine paired with a separate dryer. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. You'll find all the models in our <a href="/ca/entretien-maison/lave-linge-connectes">smart washing machines</a> section.</p>
+
+<h2>The criteria that really matter</h2>
+<h3>The EU energy label (A to G)</h3>
+<p>In the EU, washing machines have been rated on an <strong>A to G</strong> scale since March 2021, without the old "A+++" grades. The class is based on the <strong>Eco 40-60</strong> program, and the label shows weighted consumption in <strong>kWh per 100 cycles</strong>, water per cycle, rated capacity, Eco program duration, spin-drying efficiency class and noise level. Every model here is class A for washing, but the gap is still real: from 32 kWh per 100 cycles for the Samsung to 51 kWh for the Bosch. Brands often express this as "A -20%" or "A -40%", meaning 20% or 40% below the class A threshold. Canada uses the EnerGuide label for major appliances, so the EU class won't appear on Canadian packaging.</p>
+<p>A washer-dryer combo's label shows <strong>two classes</strong>: one for washing only and one for the full wash-and-dry cycle. The second figure is almost always much weaker (often D or E).</p>
+<h3>Capacity in kg</h3>
+<p>Rated capacity (9, 10 or 11 kg) applies to cotton on the standard program. One or two people will manage with 8 to 9 kg; for a family of four or more, 10 to 11 kg lets you wash a duvet or comforter, or combine loads. Synthetic and delicate cycles take far less than the headline figure.</p>
+<h3>Spin speed and spin class</h3>
+<p>A <strong>1,400 rpm</strong> spin is enough in most cases. The 1,600 rpm of the Bosch and Miele leaves a little less water in the laundry, which shortens drying time, mainly useful if you put everything in the dryer afterward. The <strong>spin-drying efficiency class</strong> (A to G) on the label tells you more than the rpm figure alone.</p>
+<h3>Noise</h3>
+<p>The label gives spin noise in dB(A), with a class from A to D. Between 69 and 74 dB the difference looks small, but the scale is logarithmic: 3 dB more is roughly twice the sound energy. If the machine sits in an open-concept kitchen or near a bedroom, aim for noise class A.</p>
+<h3>Auto-dosing and steam</h3>
+<p><strong>Automatic dosing</strong> (i-DOS at Bosch, i-Dos at Siemens, TwinDos at Miele, Auto Dose at Samsung) draws from a liquid detergent tank and doses according to the load and, on some models, how dirty it is. In practice, you top up the tank every few weeks and avoid overdosing, which wastes detergent and leaves residue. <strong>Steam</strong> is mostly for smoothing wrinkles, refreshing lightly worn clothes and hygiene programs for allergy sufferers. It's a bonus, not a deal-breaker.</p>
+<h3>What is the app actually useful for?</h3>
+<p>The app doesn't wash any better, but it does a few genuinely useful things:</p>
+<ul>
+<li><strong>End-of-cycle notification</strong>: the most used feature, so damp laundry doesn't sit in the drum.</li>
+<li><strong>Delay start and remote start</strong>: handy for running the machine during off-peak hours if your utility has time-of-use rates, or when your solar panels are producing. The laundry must be loaded beforehand.</li>
+<li><strong>Extra downloadable programs</strong> (down jackets, shirts, sportswear depending on the brand).</li>
+<li><strong>Water and energy tracking</strong>, plus detergent level alerts on auto-dosing models.</li>
+<li><strong>Diagnostics</strong>: error codes explained and maintenance tips (filter and drum cleaning).</li>
+</ul>
+<p>Ecosystems differ: Home Connect for Bosch and Siemens, the Miele app, SmartThings for Samsung, LG ThinQ and hOn for Haier. If you already own other appliances from one brand, staying in the same ecosystem makes life easier.</p>
+
+<h2>The 6 best smart washing machines in 2026</h2>
+<h3>1. Bosch Series 8 WGB256A40: best overall</h3>
+<p>The <strong>Bosch Series 8 WGB256A40</strong> is a <strong>10 kg</strong> front loader with a spin of up to <strong>1,600 rpm</strong>, energy class <strong>A</strong> (51 kWh per 100 cycles) and spin class A. Its <strong>i-DOS with detergent scan</strong> doses water and detergent automatically, and the Home Connect app makes the initial dosing setup simple. <strong>Iron Assist</strong> uses steam to cut wrinkles by up to 50% according to Bosch, and Home Connect adds extra programs such as down and shirts.</p>
+<p><strong>Strengths:</strong> large capacity, very efficient spin, precise auto-dosing, mature app.<br><strong>Limitations:</strong> 74 dB(A) on spin (noise class B), louder than the Siemens or Samsung; slightly higher consumption than the best class A machines.<br><strong>Who it's for:</strong> families who want a complete, dependable appliance that fits well into a smart home.</p>
+
+<h3>2. Siemens iQ700 WG44B2A40: the most efficient BSH model</h3>
+<p>A technical sibling of the Bosch, the <strong>Siemens iQ700 WG44B2A40</strong> offers <strong>9 kg</strong>, <strong>1,400 rpm</strong> and an <strong>A -20%</strong> rating (40 kWh per 100 cycles). It includes <strong>i-Dos with detergent scan</strong>, <strong>speedPack XL</strong> to speed up programs (down to a 15-minute wash) and <strong>smartFinish</strong>, which reduces wrinkles by up to 50% according to Siemens. At 70 dB(A) it sits in noise class A.</p>
+<p><strong>Strengths:</strong> quieter and more economical than the Bosch, same Home Connect app.<br><strong>Limitations:</strong> 1 kg less capacity, spin limited to 1,400 rpm (spin class B).<br><strong>Who it's for:</strong> couples and small families, especially when the machine is close to living areas.</p>
+
+<h3>3. Miele WWR 860 WPS: the long-lasting premium choice</h3>
+<p>The <strong>Miele WWR 860 WPS</strong> (W1 range) offers <strong>9 kg</strong>, <strong>1,600 rpm</strong> and class <strong>A</strong> (49 kWh per 100 cycles). Its <strong>TwinDos</strong> system is designed for Miele UltraPhase 1 and 2 cartridges, a two-part detergent injected at different stages of the cycle. You also get <strong>QuickPowerWash</strong> (up to 4 kg in 49 minutes), the honeycomb drum that is gentle on fabrics, the <strong>WaterProof</strong> leak protection system and a Wi-Fi connection to the Miele app.</p>
+<p><strong>Strengths:</strong> the brand's reputation for longevity, excellent fabric care, built-in leak protection.<br><strong>Limitations:</strong> premium positioning, and TwinDos works best with Miele's own cartridges, which raises the cost per load.<br><strong>Who it's for:</strong> buyers who want a machine for the long haul and often wash delicate fabrics.</p>
+
+<h3>4. Samsung WW11DB8B95GB Bespoke AI: the most energy-efficient</h3>
+<p>The <strong>Samsung WW11DB8B95GB</strong> from the Bespoke AI Series 8 range combines <strong>11 kg</strong>, <strong>1,400 rpm</strong> and an <strong>A -40%</strong> rating: 32 kWh per 100 cycles, the lowest consumption in this comparison. <strong>AI Ecobubble</strong> mixes air, water and detergent to clean effectively at low temperatures, <strong>AI Wash</strong> estimates load weight and soil level, <strong>Auto Dose</strong> handles the detergent and <strong>Hygiene Steam</strong> treats laundry with steam. At 72 dB(A) it stays in noise class A, and <strong>QuickDrive</strong> shortens cycles.</p>
+<p><strong>Strengths:</strong> record-low consumption, large capacity, very complete SmartThings app (energy tracking, diagnostics).<br><strong>Limitations:</strong> lots of functions and menus; SmartThings pays off most if you own other Samsung devices.<br><strong>Who it's for:</strong> large families who do a lot of laundry and want to cut their energy bill.</p>
+
+<h3>5. LG W4WR70E6Y: the best washer-dryer combo</h3>
+<p>The <strong>LG W4WR70E6Y</strong> is a washer-dryer combo with <strong>11 kg wash / 6 kg dry</strong> capacity, a <strong>1,360 rpm</strong> spin, rated <strong>A</strong> for washing and <strong>D</strong> for wash and dry. Its <strong>AI DD</strong> motor detects load size and fabric type to adapt drum movements, <strong>TurboWash 360°</strong> shortens cycles, the <strong>Steam</strong> function treats laundry with steam and the <strong>ThinQ</strong> app lets you monitor and control the machine. Spin noise: 71 dB(A).</p>
+<p><strong>Strengths:</strong> two appliances in one footprint, large wash capacity, steam.<br><strong>Limitations:</strong> condenser drying (no heat pump), only 6 kg can be dried at once, no auto-dosing.<br><strong>Who it's for:</strong> apartments and condos with room for just one machine.</p>
+
+<h3>6. Haier I-Pro Series 7 HW100-B14979: best value</h3>
+<p>The <strong>Haier I-Pro Series 7 HW100-B14979</strong> offers <strong>10 kg</strong>, <strong>1,400 rpm</strong>, class <strong>A</strong> (46 kWh per 100 cycles), a brushless <strong>Direct Motion</strong> motor and 69 dB(A) on spin. The <strong>Refresh</strong> program uses micro-steam to freshen clothes, and the <strong>hOn</strong> app unlocks dozens of extra cycles plus consumption tracking.</p>
+<p><strong>Strengths:</strong> the quietest in this selection, good efficiency, entry-level pricing for a smart 10 kg machine.<br><strong>Limitations:</strong> no auto-dosing, spin class B, a thinner service network than the German brands.<br><strong>Who it's for:</strong> families who want a large-capacity smart washer without paying for premium extras.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity</th><th>Spin</th><th>Energy</th><th>Noise</th><th>Auto-dosing</th><th>App</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Bosch Series 8 WGB256A40</td><td>10 kg</td><td>1,600 rpm</td><td>A (51 kWh)</td><td>74 dB (B)</td><td>i-DOS</td><td>Home Connect</td><td>Best overall</td></tr>
+<tr><td>Siemens iQ700 WG44B2A40</td><td>9 kg</td><td>1,400 rpm</td><td>A -20% (40 kWh)</td><td>70 dB (A)</td><td>i-Dos</td><td>Home Connect</td><td>Quiet and efficient</td></tr>
+<tr><td>Miele WWR 860 WPS</td><td>9 kg</td><td>1,600 rpm</td><td>A (49 kWh)</td><td>n/a</td><td>TwinDos</td><td>Miele app</td><td>Longevity, delicates</td></tr>
+<tr><td>Samsung WW11DB8B95GB</td><td>11 kg</td><td>1,400 rpm</td><td>A -40% (32 kWh)</td><td>72 dB (A)</td><td>Auto Dose</td><td>SmartThings</td><td>Large families</td></tr>
+<tr><td>LG W4WR70E6Y</td><td>11 / 6 kg</td><td>1,360 rpm</td><td>A / D (wash + dry)</td><td>71 dB</td><td>No</td><td>LG ThinQ</td><td>Small spaces</td></tr>
+<tr><td>Haier HW100-B14979</td><td>10 kg</td><td>1,400 rpm</td><td>A (46 kWh)</td><td>69 dB</td><td>No</td><td>hOn</td><td>Value for money</td></tr>
+</tbody>
+</table>
+<p><em>Consumption shown in kWh per 100 cycles of the Eco 40-60 program, from manufacturer spec sheets.</em></p>
+
+<h2>Washer-dryer combo or a separate heat pump dryer?</h2>
+<p>A washer-dryer combo saves space, but it has three drawbacks: it <strong>dries less than it washes</strong> (6 kg out of 11 for the LG), it usually relies on <strong>condenser drying</strong> (more energy-hungry and, on many models, using water to cool the air), and its wash-and-dry class generally tops out around D. A handful of premium heat pump washer-dryers exist, but they remain the exception.</p>
+<p>A washing machine paired with a <strong>heat pump dryer</strong> uses far less energy to dry, lets you wash and dry at the same time, and can be stacked with a stacking kit if floor space is tight. If you have the height, it's the better long-term option. To choose the dryer, see our <a href="/ca/blog/waermepumpentrockner-vergleich">heat pump dryer comparison</a>. A washer-dryer combo still makes sense for a studio apartment, a tight laundry closet or occasional use.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Choosing on spin speed alone</strong>: check the spin class and noise level on the label.</li>
+<li><strong>Overloading the drum</strong>: rated capacity applies to cotton; an overfilled machine washes and rinses less well.</li>
+<li><strong>Thinking remote start means no preparation</strong>: laundry and detergent must be in place before you leave.</li>
+<li><strong>Forgetting the dimensions</strong>: depth varies: about 59 cm (23 in.) for the Bosch and 64 cm (25 in.) for the Miele. Also measure the doorways on the way to the laundry room.</li>
+<li><strong>Putting the wrong detergent in the tank</strong>: auto-dosing systems are designed for liquid detergent; follow the manufacturer's instructions.</li>
+<li><strong>Neglecting maintenance</strong>: clean the drain filter and door gasket regularly, and run a drum-clean cycle from time to time.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<p>Plug the machine into a <strong>dedicated grounded outlet</strong>, with no extension cord or power bar: a washing machine can draw over 2,000 W when heating water. For any new circuit or change to your electrical panel, call a <strong>licensed electrician</strong>; electrical work rules are set by each province and territory. Level the appliance carefully and remove the shipping bolts before first use, or you risk vibration and damage.</p>
+<p>If you run cycles while you're out, choose a model with leak protection (aquaStop at Bosch and Siemens, WaterProof at Miele) and add a <a href="/ca/blog/detection-fuite-eau-connectee">smart water leak detector</a> on the floor. For connectivity, most home appliances connect over 2.4 GHz Wi-Fi: check that the signal reaches your laundry room before you buy.</p>
+
+<h2>Our verdict</h2>
+<p>For most households, the <strong>Bosch Series 8 WGB256A40</strong> is the most balanced choice: 10 kg, a 1,600 rpm spin, i-DOS dosing and an app that adds real value. The <strong>Siemens iQ700 WG44B2A40</strong> is better if quiet operation and low consumption come first, the <strong>Samsung WW11DB8B95GB</strong> if you do a lot of laundry and want the lowest energy use, and the <strong>Miele WWR 860 WPS</strong> if you want a premium machine built to last. On a budget, the <strong>Haier I-Pro Series 7 HW100-B14979</strong> covers the smart essentials without frills. Finally, if only one machine fits in your home, the <strong>LG W4WR70E6Y</strong> is the washer-dryer combo to go for; otherwise, pair a washing machine with a heat pump dryer.</p>`,
   },
   faq: [
     {
@@ -661,6 +931,9 @@ export const article: BlogArticle = {
         it: "Una lavatrice connessa consuma più elettricità?",
         nl: "Verbruikt een slimme wasmachine meer stroom?",
         pl: "Czy inteligentna pralka zużywa więcej prądu?",
+        sv: "Drar en smart tvättmaskin mer el?",
+        us: "Does a smart washer use more electricity?",
+        ca: "Does a smart washing machine use more electricity?",
       },
       answer: {
         fr: "Non, de façon significative. Le module Wi-Fi consomme très peu en veille, et la consommation officielle par cycle est mesurée sur l'étiquette énergie. L'application peut même aider à économiser en lançant les cycles en heures creuses ou quand vos panneaux solaires produisent. Vous pouvez aussi désactiver le Wi-Fi si vous ne l'utilisez pas.",
@@ -669,7 +942,10 @@ export const article: BlogArticle = {
         es: "No de forma significativa. El módulo wifi consume muy poco en espera, y el consumo oficial por ciclo se mide para la etiqueta energética. La app incluso puede ayudarte a ahorrar lanzando ciclos en horas valle o cuando tus placas solares producen. También puedes desactivar el wifi si no lo usas.",
         it: "Non in modo significativo. Il modulo Wi-Fi consuma pochissimo in standby e il consumo ufficiale per ciclo è misurato per l'etichetta energetica. L'app può persino aiutare a risparmiare, avviando i cicli nelle fasce orarie convenienti o quando producono i pannelli solari. Potete anche disattivare il Wi-Fi se non lo usate.",
         nl: "Niet noemenswaardig. De wifimodule verbruikt in stand-by heel weinig, en het officiële verbruik per cyclus wordt gemeten voor het energielabel. De app kan je zelfs helpen besparen door programma's in daluren of bij zonnestroom te starten. Je kunt wifi ook uitschakelen als je het niet gebruikt.",
-        pl: "Nie, w istotny sposób nie. Moduł Wi-Fi pobiera bardzo mało energii w trybie czuwania, a oficjalne zużycie na cykl jest mierzone na potrzeby etykiety energetycznej. Aplikacja może nawet pomóc zaoszczędzić, uruchamiając cykle w godzinach tańszej taryfy lub wtedy, gdy produkują Twoje panele słoneczne. Możesz też wyłączyć Wi-Fi, jeśli z niego nie korzystasz.",
+        pl: "Nie, a przynajmniej nie w odczuwalnym stopniu. Moduł Wi-Fi w trybie czuwania pobiera bardzo mało energii, a oficjalne zużycie na cykl podaje etykieta energetyczna. Aplikacja może nawet pomóc oszczędzać, uruchamiając pranie w godzinach tańszego prądu albo wtedy, gdy Twoje panele fotowoltaiczne produkują energię. Jeśli nie korzystasz z Wi-Fi, możesz je wyłączyć.",
+        sv: "Nej, inte så att det märks. Wifi-modulen drar mycket lite i viloläge, och den officiella förbrukningen per program mäts för energimärkningen. Appen kan till och med hjälpa dig att spara genom att starta programmen när elen är som billigast eller när solcellerna producerar. Du kan också stänga av wifi om du inte använder det.",
+        us: "Not in any meaningful way. The Wi-Fi module draws very little on standby, and official per-cycle energy use is measured for the energy label. The app can even help you save by running cycles during off-peak hours on a time-of-use rate plan or when your solar panels are producing. You can also turn Wi-Fi off if you don't use it.",
+        ca: "Not in any meaningful way. The Wi-Fi module draws very little on standby, and official per-cycle consumption is measured for the energy label. The app can even help you save by running cycles during off-peak hours, if your utility has time-of-use rates, or when your solar panels are producing. You can also switch Wi-Fi off if you don't use it.",
       },
     },
     {
@@ -680,7 +956,10 @@ export const article: BlogArticle = {
         es: "¿Merece la pena la dosificación automática de detergente?",
         it: "Il dosaggio automatico del detersivo conviene?",
         nl: "Is automatische wasmiddeldosering de moeite waard?",
-        pl: "Czy automatyczne dozowanie środka piorącego się opłaca?",
+        pl: "Czy warto mieć automatyczne dozowanie detergentu?",
+        sv: "Lönar det sig med automatisk dosering av tvättmedel?",
+        us: "Is automatic detergent dosing worth it?",
+        ca: "Is automatic detergent dosing worth it?",
       },
       answer: {
         fr: "Oui, si vous lavez souvent. Le réservoir évite de doser à chaque lavage et limite le surdosage, qui gaspille de la lessive et laisse des résidus. Il fonctionne avec de la lessive liquide. Chez Miele, le TwinDos est conçu pour les cartouches de la marque, ce qui pèse sur le coût par lavage.",
@@ -689,7 +968,10 @@ export const article: BlogArticle = {
         es: "Sí, si lavas a menudo. El depósito evita dosificar en cada lavado y limita la sobredosis, que desperdicia detergente y deja residuos. Funciona con detergente líquido. En Miele, TwinDos está pensado para los cartuchos de la marca, lo que influye en el coste por lavado.",
         it: "Sì, se lavate spesso. Il serbatoio evita di dosare a ogni lavaggio e limita il sovradosaggio, che spreca detersivo e lascia residui. Funziona con detersivo liquido. Su Miele, TwinDos è pensato per le cartucce del marchio, il che incide sul costo per lavaggio.",
         nl: "Ja, als je vaak wast. Het reservoir bespaart je het doseren bij elke wasbeurt en voorkomt overdosering, die wasmiddel verspilt en resten achterlaat. Het werkt met vloeibaar wasmiddel. Bij Miele is TwinDos ontworpen voor de eigen patronen, wat de kosten per wasbeurt beïnvloedt.",
-        pl: "Tak, jeśli często pierzesz. Zbiornik oszczędza dozowania przy każdym praniu i ogranicza przedawkowanie, które marnuje środek piorący i zostawia osady. Działa z płynnym środkiem piorącym. W Mielu TwinDos jest przeznaczony do kartuszy tej marki, co wpływa na koszt jednego prania.",
+        pl: "Tak, jeśli często pierzesz. Dzięki zbiornikowi nie musisz odmierzać detergentu przy każdym praniu i unikasz przedozowania, przez które marnuje się środek, a na ubraniach zostają jego resztki. System działa z detergentem w płynie. W pralkach Miele TwinDos jest przeznaczony do kartuszy tej marki, co podnosi koszt jednego prania.",
+        sv: "Ja, om du tvättar ofta. Med tanken slipper du dosera vid varje tvätt, och risken för överdosering minskar – den slösar tvättmedel och lämnar rester. Systemet fungerar med flytande tvättmedel. På Mieles maskiner är TwinDos gjort för märkets egna patroner, vilket påverkar kostnaden per tvätt.",
+        us: "Yes, if you do a lot of laundry. The reservoir saves you from measuring detergent for every load and prevents overdosing, which wastes detergent and leaves residue. It works with liquid detergent. On Miele machines, TwinDos is designed for the brand's own cartridges, which affects the cost per load.",
+        ca: "Yes, if you wash often. The tank saves you dosing every load and limits overdosing, which wastes detergent and leaves residue. It works with liquid detergent. On Miele machines, TwinDos is designed for the brand's own cartridges, which affects the cost per wash.",
       },
     },
     {
@@ -701,6 +983,9 @@ export const article: BlogArticle = {
         it: "Lavasciuga o lavatrice più asciugatrice: cosa scegliere?",
         nl: "Was-droogcombinatie of wasmachine plus droger: wat kies je?",
         pl: "Pralko-suszarka czy pralka + suszarka: co wybrać?",
+        sv: "Kombimaskin eller tvättmaskin och torktumlare: vad ska jag välja?",
+        us: "Washer-dryer combo or separate washer and dryer: which should I choose?",
+        ca: "Washer-dryer combo or separate washer and dryer: which should I choose?",
       },
       answer: {
         fr: "Si vous avez la place, même en colonne, un lave-linge associé à un sèche-linge à pompe à chaleur consomme beaucoup moins pour sécher et permet de laver et sécher en même temps. Le lave-linge séchant se justifie quand une seule machine peut entrer, en acceptant de sécher par plus petites charges.",
@@ -709,7 +994,10 @@ export const article: BlogArticle = {
         es: "Si tienes espacio, aunque sea en columna, una lavadora con secadora de bomba de calor consume mucho menos para secar y permite lavar y secar a la vez. La lavasecadora se justifica cuando solo cabe una máquina, aceptando secar en cargas más pequeñas.",
         it: "Se avete spazio, anche a colonna, una lavatrice abbinata a un'asciugatrice a pompa di calore consuma molto meno per asciugare e permette di lavare e asciugare in contemporanea. La lavasciuga ha senso quando c'è posto per una sola macchina, accettando di asciugare carichi più piccoli.",
         nl: "Als je de ruimte hebt, ook gestapeld, verbruikt een wasmachine met warmtepompdroger veel minder energie om te drogen en kun je tegelijk wassen en drogen. Een was-droogcombinatie is zinvol als er maar één machine past en je kleinere droogladingen accepteert.",
-        pl: "Jeśli masz miejsce, nawet ustawione w kolumnie, pralka połączona z suszarką z pompą ciepła zużywa znacznie mniej energii na suszenie i pozwala prać i suszyć jednocześnie. Pralko-suszarka ma sens, gdy zmieści się tylko jedno urządzenie, pod warunkiem że zaakceptujesz suszenie mniejszych porcji.",
+        pl: "Jeśli masz miejsce na dwa urządzenia (choćby ustawione w słupku), pralka w zestawie z suszarką z pompą ciepła zużywa znacznie mniej energii na suszenie i pozwala jednocześnie prać i suszyć. Pralko-suszarka ma sens, gdy zmieści się tylko jedno urządzenie i akceptujesz suszenie mniejszymi porcjami.",
+        sv: "Har du plats, även om maskinerna måste staplas på varandra, drar en tvättmaskin ihop med en värmepumpstorktumlare mycket mindre energi vid torkning, och du kan tvätta och torka samtidigt. En kombimaskin är rimlig när bara en maskin får plats, om du kan leva med att torka mindre mängder åt gången.",
+        us: "If you have the space, even stacked, a washer paired with a heat pump dryer uses far less energy to dry and lets you wash and dry at the same time. A washer-dryer combo makes sense when only one machine fits, as long as you're OK with drying in smaller loads.",
+        ca: "If you have the space, even stacked, a washing machine paired with a heat pump dryer uses far less energy to dry and lets you wash and dry at the same time. A washer-dryer combo makes sense when only one machine fits, as long as you accept drying in smaller loads.",
       },
     },
     {
@@ -721,6 +1009,9 @@ export const article: BlogArticle = {
         it: "Si può avviare da remoto una lavatrice connessa in sicurezza?",
         nl: "Kun je een slimme wasmachine veilig op afstand starten?",
         pl: "Czy można bezpiecznie uruchamiać inteligentną pralkę zdalnie?",
+        sv: "Är det säkert att fjärrstarta en smart tvättmaskin?",
+        us: "Is it safe to start a smart washer remotely?",
+        ca: "Is it safe to start a smart washing machine remotely?",
       },
       answer: {
         fr: "Oui, à condition que l'installation soit saine : arrivée d'eau en bon état, tuyau de vidange bien fixé, prise dédiée. Les protections anti-fuite (aquaStop chez Bosch et Siemens, WaterProof chez Miele) et un détecteur de fuite d'eau connecté au sol réduisent nettement le risque de dégât des eaux.",
@@ -729,7 +1020,10 @@ export const article: BlogArticle = {
         es: "Sí, siempre que la instalación esté en buen estado: manguera de entrada sana, desagüe bien sujeto y enchufe propio. Las protecciones antifugas (aquaStop en Bosch y Siemens, WaterProof en Miele) y un detector de fugas conectado en el suelo reducen mucho el riesgo de inundación.",
         it: "Sì, purché l'impianto sia in ordine: tubo di carico in buono stato, tubo di scarico ben fissato, presa dedicata. I sistemi antiallagamento (aquaStop su Bosch e Siemens, WaterProof su Miele) e un rilevatore di perdite connesso a pavimento riducono molto il rischio di danni da acqua.",
         nl: "Ja, mits de installatie in orde is: toevoerslang in goede staat, afvoerslang goed vastgezet, eigen stopcontact. Lekbeveiliging (aquaStop bij Bosch en Siemens, WaterProof bij Miele) en een slimme waterlekmelder op de vloer verkleinen het risico op waterschade aanzienlijk.",
-        pl: "Tak, o ile instalacja jest w dobrym stanie: wąż doprowadzający wodę w dobrym stanie, dobrze zamocowany wąż odpływowy, dedykowane gniazdko. Zabezpieczenia przed wyciekiem (aquaStop w Boschu i Siemensie, WaterProof w Mielu) oraz inteligentny czujnik zalania na podłodze wyraźnie zmniejszają ryzyko zalania.",
+        pl: "Tak, pod warunkiem że instalacja jest sprawna: wąż doprowadzający wodę jest w dobrym stanie, wąż odpływowy jest solidnie zamocowany, a pralka ma osobne gniazdko. Zabezpieczenia przed wyciekiem (aquaStop w pralkach Bosch i Siemens, WaterProof w pralkach Miele) oraz inteligentny czujnik zalania położony na podłodze wyraźnie zmniejszają ryzyko zalania mieszkania.",
+        sv: "Ja, förutsatt att installationen är i gott skick: hel tilloppsslang, ordentligt fastsatt avloppsslang och ett eget uttag. Läckageskydd (aquaStop hos Bosch och Siemens, WaterProof hos Miele) och ett smart vattenlarm på golvet minskar risken för vattenskador avsevärt.",
+        us: "Yes, as long as the installation is sound: fill hose in good condition, drain hose secured, dedicated outlet. Leak protection (aquaStop at Bosch and Siemens, WaterProof at Miele) and a smart water leak detector on the floor significantly reduce the risk of water damage.",
+        ca: "Yes, as long as the installation is sound: water inlet hose in good condition, drain hose secured, dedicated outlet. Leak protection (aquaStop at Bosch and Siemens, WaterProof at Miele) and a smart water leak detector on the floor significantly reduce the risk of water damage.",
       },
     },
     {
@@ -741,6 +1035,9 @@ export const article: BlogArticle = {
         it: "Quale capacità di lavatrice serve a una famiglia?",
         nl: "Welke capaciteit heeft een gezin nodig?",
         pl: "Jaką pojemność pralki wybrać dla rodziny?",
+        sv: "Vilken kapacitet ska tvättmaskinen ha för en familj?",
+        us: "What washer capacity does a family need?",
+        ca: "What washing machine capacity does a family need?",
       },
       answer: {
         fr: "Pour une à deux personnes, 8 à 9 kg suffisent. Pour quatre personnes ou plus, 10 à 11 kg permettent de laver une couette et de faire moins de cycles. Gardez en tête que la capacité nominale concerne le coton : les programmes délicats acceptent beaucoup moins.",
@@ -749,7 +1046,10 @@ export const article: BlogArticle = {
         es: "Para una o dos personas bastan 8 o 9 kg. Para cuatro o más, 10 u 11 kg permiten lavar un edredón y hacer menos coladas. Recuerda que la capacidad nominal se refiere al algodón: los programas delicados admiten mucho menos.",
         it: "Per una o due persone bastano 8-9 kg. Per quattro o più, 10-11 kg permettono di lavare un piumone e fare meno cicli. Ricordate che la capacità nominale si riferisce al cotone: i programmi delicati accettano molto meno.",
         nl: "Voor één of twee personen volstaat 8 à 9 kg. Vanaf vier personen kun je met 10 à 11 kg een dekbed wassen en minder vaak draaien. Onthoud dat de nominale capaciteit voor katoen geldt: programma's voor fijne was nemen veel minder.",
-        pl: "Dla jednej lub dwóch osób wystarczy 8–9 kg. Dla czterech osób lub więcej 10–11 kg pozwala wyprać kołdrę i uruchamiać mniej cykli. Pamiętaj, że pojemność znamionowa dotyczy bawełny: programy delikatne przyjmują znacznie mniej.",
+        pl: "Dla jednej lub dwóch osób wystarczy 8–9 kg. W rodzinie czteroosobowej lub większej lepiej sprawdzi się 10–11 kg: zmieścisz kołdrę i zrobisz mniej prań. Pamiętaj, że pojemność znamionowa dotyczy bawełny – w programach do tkanin delikatnych wsad jest znacznie mniejszy.",
+        sv: "För en eller två personer räcker 8–9 kg. För fyra personer eller fler kan du med 10–11 kg tvätta ett täcke och köra färre tvättar. Tänk på att den angivna kapaciteten gäller bomull: program för fintvätt tar betydligt mindre.",
+        us: "For one or two people, 8 to 9 kg (18 to 20 lb) is enough. For four or more, 10 to 11 kg (22 to 24 lb) lets you wash a comforter and run fewer loads. Keep in mind that rated capacity refers to cotton: delicate cycles take much less.",
+        ca: "For one or two people, 8 to 9 kg is enough. For four or more, 10 to 11 kg lets you wash a duvet or comforter and run fewer loads. Remember that rated capacity refers to cotton: delicate cycles take much less.",
       },
     },
     {
@@ -761,6 +1061,9 @@ export const article: BlogArticle = {
         it: "Cosa succede se il Wi-Fi o l'app smettono di funzionare?",
         nl: "Wat gebeurt er als de wifi of de app niet meer werkt?",
         pl: "Co się stanie, gdy Wi-Fi lub aplikacja przestanie działać?",
+        sv: "Vad händer om wifi eller appen slutar fungera?",
+        us: "What happens if the Wi-Fi or the app stops working?",
+        ca: "What happens if the Wi-Fi or the app stops working?",
       },
       answer: {
         fr: "La machine continue de laver normalement : tous les programmes principaux restent accessibles depuis le bandeau de commande. Vous perdez seulement les fonctions à distance (notifications, départ à distance, programmes téléchargés, suivi de consommation).",
@@ -769,7 +1072,10 @@ export const article: BlogArticle = {
         es: "La lavadora sigue lavando con normalidad: todos los programas principales siguen disponibles desde el panel de control. Solo pierdes las funciones a distancia (avisos, arranque remoto, programas descargados, seguimiento del consumo).",
         it: "La lavatrice continua a lavare normalmente: tutti i programmi principali restano disponibili dal pannello comandi. Si perdono solo le funzioni da remoto (notifiche, avvio a distanza, programmi scaricati, monitoraggio dei consumi).",
         nl: "De machine blijft gewoon wassen: alle hoofdprogramma's blijven beschikbaar via het bedieningspaneel. Je verliest alleen de functies op afstand (meldingen, starten op afstand, gedownloade programma's, verbruiksoverzicht).",
-        pl: "Pralka nadal pierze normalnie: wszystkie główne programy pozostają dostępne z panelu sterowania. Tracisz tylko funkcje zdalne (powiadomienia, zdalny start, pobrane programy, śledzenie zużycia).",
+        pl: "Pralka nadal normalnie pierze: wszystkie główne programy są dostępne z panelu sterowania. Tracisz tylko funkcje zdalne (powiadomienia, zdalny start, programy pobrane z aplikacji, monitorowanie zużycia).",
+        sv: "Maskinen tvättar som vanligt: alla huvudprogram går att välja på kontrollpanelen. Du förlorar bara fjärrfunktionerna (notiser, fjärrstart, nedladdade program och uppföljning av förbrukningen).",
+        us: "The machine keeps washing normally: all the main cycles are still available from the control panel. You only lose the remote features (notifications, remote start, downloaded cycles, energy tracking).",
+        ca: "The machine keeps washing normally: all the main programs remain available from the control panel. You only lose the remote features (notifications, remote start, downloaded programs, consumption tracking).",
       },
     },
   ],

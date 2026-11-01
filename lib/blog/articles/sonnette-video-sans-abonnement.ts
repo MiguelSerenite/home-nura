@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: "Timbre con vídeo inteligente blanco fijado en una pared junto a la puerta de entrada",
         it: "Videocampanello smart bianco fissato su un muro intonacato accanto alla porta d'ingresso",
         nl: "Witte slimme videodeurbel aan een gepleisterde muur naast de voordeur",
-        pl: "Biały dzwonek wideo z aplikacją zamontowany na tynkowanej ścianie obok drzwi wejściowych",
+        pl: "Biały inteligentny dzwonek wideo zamontowany na otynkowanej ścianie obok drzwi wejściowych",
+        sv: "Vit smart videodörrklocka monterad på en putsad vägg bredvid en ytterdörr",
+        us: "White smart video doorbell mounted on a stucco wall next to a front door",
+        ca: "White smart video doorbell mounted on a stucco wall beside a front door",
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: "Mejor Timbre con Vídeo sin Suscripción 2026: los 5 Mejores con Almacenamiento Local",
     it: "Miglior Videocampanello senza Abbonamento 2026: i 5 Migliori con Archiviazione Locale",
     nl: "Beste Videodeurbel zonder Abonnement 2026: de 5 Beste met Lokale Opslag",
-    pl: "Dzwonek wideo bez abonamentu 2026: 5 najlepszych z lokalnym zapisem",
+    pl: "Dzwonek wideo bez abonamentu 2026: 5 najlepszych modeli z zapisem lokalnym",
+    sv: "Bästa videodörrklocka utan abonnemang 2026: topp 5 med lokal lagring",
+    us: "Best Video Doorbells With No Subscription (2026): 5 Picks With Local Storage",
+    ca: "Best Video Doorbell Without Subscription 2026: Top 5 with Local Storage",
   },
   excerpt: {
     fr: "Les 5 meilleures sonnettes vidéo sans abonnement en 2026 : Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi et Reolink Battery Doorbell. Stockage local, batterie ou filaire, détection et vie privée comparés.",
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: "Los 5 mejores timbres con vídeo sin suscripción en 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi y Reolink Battery Doorbell. Almacenamiento local, batería o cable, detección y privacidad comparados.",
     it: "I 5 migliori videocampanelli senza abbonamento nel 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi e Reolink Battery Doorbell. Archiviazione locale, batteria o cavo, rilevamento e privacy a confronto.",
     nl: "De 5 beste videodeurbellen zonder abonnement in 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi en Reolink Battery Doorbell. Lokale opslag, accu of bedraad, detectie en privacy vergeleken.",
-    pl: "5 najlepszych dzwonków wideo bez abonamentu w 2026 roku: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi i Reolink Battery Doorbell. Porównanie zapisu lokalnego, zasilania, detekcji i prywatności.",
+    pl: "5 najlepszych dzwonków wideo bez abonamentu w 2026 roku: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi i Reolink Battery Doorbell. Porównujemy zapis lokalny, zasilanie bateryjne i przewodowe, wykrywanie oraz ochronę prywatności.",
+    sv: "De 5 bästa videodörrklockorna utan abonnemang 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi och Reolink Battery Doorbell. Lokal lagring, batteri eller kabel, detektering och integritet jämförda.",
+    us: "The 5 best video doorbells with no subscription in 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi and Reolink Battery Doorbell, compared on local storage, battery or wired power, detection and privacy.",
+    ca: "The 5 best video doorbells without a subscription in 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi and Reolink Battery Doorbell. Local storage, battery or wired power, detection and privacy compared.",
   },
   content: {
     fr: `<p><strong>La meilleure sonnette vidéo sans abonnement en 2026 est l'Eufy Video Doorbell E340 : double caméra (visiteur et colis au sol), 8 Go de stockage intégré et fonctionnement sur batterie ou sur le câblage existant, sans aucun frais mensuel. Pour un budget plus serré, la TP-Link Tapo D235 offre une image 2K de 5 mégapixels, un enregistrement sur carte microSD et un carillon fourni.</strong></p>
@@ -514,84 +523,319 @@ export const article: BlogArticle = {
 
 <h2>Eindoordeel</h2>
 <p>De <strong>Eufy Video Doorbell E340</strong> is de meest complete keuze: dubbele camera voor pakketjes, ingebouwde opslag en voeding via accu of bedrading, zonder maandelijkse kosten. De <strong>TP-Link Tapo D235</strong> biedt de beste prijs-kwaliteitverhouding met zijn beeld van 5 megapixel, grote accu en meegeleverde gong. Apple-huishoudens kiezen de <strong>Aqara Video Doorbell G4</strong>, terwijl de <strong>Reolink Video Doorbell WiFi</strong> past bij huizen met bestaande bedrading en de <strong>Reolink Battery Doorbell</strong> bij wie een beeld van top tot teen op accu wil.</p>`,
-    pl: `<p><strong>Najlepszym dzwonkiem wideo bez abonamentu w 2026 roku jest Eufy Video Doorbell E340: podwójna kamera (odwiedzający i paczki na ziemi), 8 GB pamięci wbudowanej oraz praca na akumulatorze lub na istniejącym okablowaniu, bez żadnych opłat miesięcznych. Przy ciaśniejszym budżecie TP-Link Tapo D235 oferuje obraz 2K o rozdzielczości 5 megapikseli, zapis na karcie microSD i dołączony gong.</strong></p>
-<p>To porównanie opiera się na kartach katalogowych producentów, testach opublikowanych przez prasę branżową i zweryfikowanych opiniach kupujących. Wszystkie wybrane dzwonki nagrywają lokalnie: filmy zostają u Ciebie, na pamięci wbudowanej, karcie microSD lub rejestratorze. Oferty chmurowe producentów istnieją, ale pozostają opcjonalne.</p>
-<p>Aby zobaczyć wszystkie dostępne modele, zajrzyj do naszego <a href="/pl/securite-maison/sonnettes-video">wyboru dzwonków wideo</a>.</p>
+    pl: `<p><strong>Najlepszy dzwonek wideo bez abonamentu w 2026 roku to Eufy Video Doorbell E340: ma dwie kamery (jedna pokazuje gościa, druga paczki pod drzwiami), 8 GB wbudowanej pamięci i może działać na akumulatorze albo z istniejącej instalacji dzwonkowej, bez żadnych miesięcznych opłat. Przy mniejszym budżecie warto sięgnąć po TP-Link Tapo D235: obraz 2K o rozdzielczości 5 megapikseli, zapis na karcie microSD i gong w zestawie.</strong></p>
+<p>Porównanie opiera się na kartach katalogowych producentów, testach publikowanych przez prasę branżową i opiniach zweryfikowanych kupujących. Wszystkie wybrane dzwonki zapisują nagrania lokalnie, więc zostają one u Ciebie: w pamięci wbudowanej, na karcie microSD lub w rejestratorze. Producenci oferują też plany w chmurze, ale korzystanie z nich nie jest obowiązkowe.</p>
+<p>Wszystkie dostępne modele znajdziesz w kategorii <a href="/pl/securite-maison/sonnettes-video">dzwonki wideo</a>.</p>
 
 <h2>Dlaczego warto wybrać dzwonek wideo bez abonamentu?</h2>
-<p>W wielu inteligentnych dzwonkach sam zakup urządzenia nie wystarcza. Bez abonamentu dzwonek Ring pozwala zobaczyć podgląd na żywo, otrzymywać powiadomienia i rozmawiać z odwiedzającym, ale nie zapisuje żadnego nagrania: nie sprawdzisz, kiedy w Twojej nieobecności pojawił się kurier. Google Nest Doorbell (na akumulator) bezpłatnie przechowuje 3 godziny historii zdarzeń; dalej trzeba wykupić Nest Aware. W perspektywie kilku lat te opłaty przekraczają cenę dzwonka.</p>
-<p>Dzwonek z zapisem lokalnym eliminuje ten stały koszt. Ogranicza też przepływ Twoich nagrań na serwery stron trzecich, co jest realnym plusem dla prywatności zarówno gości, jak i Twojej.</p>
+<p>W przypadku wielu inteligentnych dzwonków na zakupie urządzenia się nie kończy. Bez abonamentu dzwonek Ring pokazuje obraz na żywo, wysyła powiadomienia i pozwala porozmawiać z gościem, ale niczego nie nagrywa: nie obejrzysz potem, jak kurier zostawiał paczkę pod Twoją nieobecność. Google Nest Doorbell (wersja na akumulator) bezpłatnie przechowuje historię zdarzeń z ostatnich 3 godzin; dłuższa wymaga wykupienia subskrypcji Nest Aware. W ciągu kilku lat takie opłaty przewyższają cenę samego dzwonka.</p>
+<p>Dzwonek z lokalnym zapisem eliminuje ten stały koszt. Sprawia też, że mniej Twoich nagrań trafia na zewnętrzne serwery, co jest realną korzyścią dla prywatności – zarówno Twojej, jak i Twoich gości.</p>
 
-<h2>Kryteria dobrego wyboru</h2>
-<h3>Rodzaj zapisu lokalnego</h3>
-<p>Są trzy rozwiązania. Pamięć wbudowana (8 GB w Eufy E340) działa od razu po montażu, bez kupowania karty. Karta microSD, włożona do dzwonka lub do gongu, daje większą pojemność: do 512 GB zależnie od modelu. Wreszcie niektóre marki, jak Reolink, pozwalają nagrywać na rejestratorze sieciowym (NVR), który centralizuje wszystkie Twoje kamery. Zawsze sprawdź, czy żadna kluczowa funkcja (wykrywanie osób, historia) nie jest zarezerwowana dla płatnej oferty.</p>
-<h3>Akumulator czy istniejące okablowanie</h3>
-<p>Dzwonek na akumulator montuje się w kilka minut, bez układania przewodów, ale trzeba go regularnie ładować. Czas pracy deklarowany przez producentów mocno zależy od liczby wyzwoleń, temperatury i jakości Wi-Fi. Jeśli masz już dzwonek przewodowy, większość modeli podłącza się do istniejącego transformatora (zwykle 8–24 V prądu przemiennego): akumulator pozostaje naładowany, a niektóre funkcje, takie jak wstępne nagrywanie sekund poprzedzających ruch, stają się dostępne.</p>
-<h3>Pole widzenia i kadrowanie</h3>
-<p>Klasyczny dzwonek nagrywa w formacie poziomym: widać twarz, ale niekoniecznie paczkę leżącą pod drzwiami. Modele w formacie „od głowy do stóp” (proporcje 4:3 lub 1:1) albo z podwójną kamerą rozwiązują ten problem. Kąt 160–180° obejmuje też boki ganku.</p>
-<h3>Inteligentna detekcja</h3>
-<p>Zwykłe wykrywanie ruchu wywołuje alerty przy każdym przejeżdżającym samochodzie czy poruszającej się gałęzi. Wybieraj dzwonek, który rozpoznaje osoby, a nawet paczki, zwierzęta i pojazdy oraz pozwala wyznaczać strefy detekcji. W wybranych modelach funkcje te są dostępne bez abonamentu.</p>
+<h2>Kryteria wyboru</h2>
+<h3>Sposób zapisu nagrań</h3>
+<p>Do wyboru są trzy rozwiązania. Pamięć wbudowana (8 GB w modelu Eufy E340) działa od razu po montażu i nie trzeba kupować karty. Karta microSD, wkładana do dzwonka lub do gongu, mieści więcej: zależnie od modelu nawet 512 GB. Niektóre marki, np. Reolink, pozwalają też zapisywać nagrania w sieciowym rejestratorze wideo (NVR), który zbiera obraz ze wszystkich Twoich kamer w jednym miejscu. Zawsze sprawdź, czy żadna ważna funkcja (wykrywanie osób, historia zdarzeń) nie jest dostępna wyłącznie w płatnym planie.</p>
+<h3>Akumulator czy istniejąca instalacja</h3>
+<p>Dzwonek na akumulator zamontujesz w kilka minut, bez prowadzenia przewodów, ale trzeba go regularnie ładować. Czas pracy deklarowany przez producentów w dużej mierze zależy od liczby zarejestrowanych zdarzeń, temperatury i jakości sygnału Wi-Fi. Jeśli masz już dzwonek przewodowy, większość modeli podłączysz do istniejącego transformatora (zwykle 8–24 V AC). Akumulator jest wtedy stale doładowywany, a niektóre funkcje, np. zapis kilku sekund poprzedzających wykrycie ruchu, działają dopiero przy takim zasilaniu.</p>
+<h3>Pole widzenia i kadr</h3>
+<p>Typowy dzwonek nagrywa obraz w poziomie: widać twarz, ale nie zawsze paczkę leżącą pod drzwiami. Ten problem rozwiązują modele z kadrem „od stóp do głów” (proporcje 4:3 lub 1:1) lub z dwiema kamerami. Kąt widzenia 160–180° obejmuje też boki ganku.</p>
+<h3>Inteligentne wykrywanie</h3>
+<p>Zwykłe wykrywanie ruchu oznacza powiadomienie przy każdym przejeżdżającym samochodzie i każdej kołyszącej się gałęzi. Postaw na dzwonek, który rozpoznaje ludzi, a najlepiej także paczki, zwierzęta i pojazdy, i pozwala wyznaczyć strefy wykrywania. W modelach z tego zestawienia funkcje te są dostępne bez abonamentu.</p>
 <h3>Ekosystem inteligentnego domu</h3>
-<p>Sprawdź zgodność ze swoim asystentem: Amazon Alexa i Asystent Google są szeroko obsługiwane, Apple Home znacznie mniej. Pomyśl też o gongu wewnątrz domu: niektóre modele go zawierają, inne sprzedają osobno lub korzystają z Twojego istniejącego gongu.</p>
+<p>Sprawdź, czy dzwonek współpracuje z asystentem, którego używasz: Amazon Alexa i Asystent Google są obsługiwane powszechnie, Apple Home – znacznie rzadziej. Pamiętaj też o gongu w domu: niektóre modele mają go w zestawie, do innych trzeba go dokupić, a jeszcze inne korzystają z dotychczasowego gongu.</p>
 
 <h2>5 najlepszych dzwonków wideo bez abonamentu w 2026 roku</h2>
-<h3>1. Eufy Video Doorbell E340: najlepszy ogólnie</h3>
-<p><strong>Eufy Video Doorbell E340</strong> wyróżnia się podwójną kamerą: główny obiektyw nagrywa odwiedzającego, a druga kamera skierowana na ziemię pilnuje paczek zostawionych przed drzwiami. 8 GB pamięci wbudowanej przechowuje klipy bez karty microSD i bez stacji bazowej, a także bez abonamentu. Dzwonek działa na akumulatorze lub na istniejącym okablowaniu.</p>
-<p>W zestawie są kolorowe widzenie nocne, dwukierunkowy dźwięk oraz wykrywanie osób i paczek. Steruje się nim z aplikacji eufy Security, a obraz wyświetla się na ekranach z Amazon Alexa i Asystentem Google. Aby rozszerzyć pamięć, można go połączyć ze stacją HomeBase S380.</p>
-<p><strong>Mocne strony:</strong> podwójna kamera, jedyna w tym zestawieniu, wbudowana pamięć gotowa do użycia, podwójne zasilanie: akumulator lub przewód.<br><strong>Ograniczenia:</strong> brak zgodności z Apple Home, dość gruba obudowa. Eufy było krytykowane w 2022 roku za miniatury przesyłane do jego chmury; marka zmieniła od tego czasu aplikację i praktyki, ale osoby najbardziej dbające o prywatność będą o tym pamiętać.<br><strong>Dla kogo:</strong> większość domów, do których przychodzą paczki i które chcą kompletnego rozwiązania bez dokupowania czegokolwiek.</p>
+<h3>1. Eufy Video Doorbell E340: najlepszy wybór dla większości</h3>
+<p><strong>Eufy Video Doorbell E340</strong> wyróżnia się dwiema kamerami: główna rejestruje gościa, a druga, skierowana w dół, pilnuje paczek zostawionych pod drzwiami. Nagrania trafiają do 8 GB wbudowanej pamięci, więc nie potrzebujesz karty microSD, stacji bazowej ani abonamentu. Dzwonek może działać na akumulatorze lub być zasilany z istniejącej instalacji.</p>
+<p>W standardzie dostajesz kolorowe widzenie nocne, dwukierunkowe audio oraz wykrywanie osób i paczek. Dzwonkiem steruje się w aplikacji eufy Security, a obraz z kamery można wyświetlić na inteligentnych ekranach z Alexą i Asystentem Google. Jeśli potrzebujesz więcej miejsca na nagrania, możesz połączyć go ze stacją HomeBase S380.</p>
+<p><strong>Mocne strony:</strong> jedyny model z dwiema kamerami w tym zestawieniu, wbudowana pamięć gotowa do użycia od razu, dwa sposoby zasilania (akumulator lub przewód).<br><strong>Ograniczenia:</strong> brak obsługi Apple Home, dość gruba obudowa. W 2022 roku Eufy krytykowano za przesyłanie miniatur nagrań do chmury firmy; od tamtej pory marka zmieniła aplikację i swoje praktyki, ale osoby szczególnie dbające o prywatność mogą chcieć wziąć to pod uwagę.<br><strong>Dla kogo:</strong> większość gospodarstw domowych, które odbierają paczki i chcą kompletnego rozwiązania bez montowania dodatkowych urządzeń.</p>
 
 <h3>2. TP-Link Tapo D235: najlepszy stosunek jakości do ceny</h3>
-<p><strong>TP-Link Tapo D235</strong> nagrywa w 2K o rozdzielczości 5 megapikseli (2560 × 1920) z polem widzenia 180°, które obejmuje odwiedzającego od głowy do stóp. Jej akumulator 10 000 mAh ma według TP-Link wystarczać na nawet 210 dni, a dzwonek można też podłączyć do okablowania 8–24 V. Zapis odbywa się na karcie microSD do 512 GB.</p>
-<p>Wykrywanie osób, pojazdów, zwierząt i paczek jest bezpłatne, tak jak powiadomienia. Gong jest w zestawie, kolorowe widzenie nocne korzysta z wbudowanego reflektora, a obudowa ma certyfikat IP66. Działa z Alexą i Asystentem Google.</p>
-<p><strong>Mocne strony:</strong> bardzo szczegółowy obraz, duża deklarowana autonomia, dołączony gong, pełne wykrywanie bez abonamentu.<br><strong>Ograniczenia:</strong> kartę microSD trzeba dokupić, brak zgodności z Apple Home, oferta Tapo Care jest nadal promowana w aplikacji.<br><strong>Dla kogo:</strong> dla tych, którzy chcą podstaw zrobionych dobrze, w cenie z niższej półki.</p>
+<p><strong>TP-Link Tapo D235</strong> nagrywa obraz 2K o rozdzielczości 5 megapikseli (2560 × 1920), a dzięki polu widzenia 180° obejmuje gościa od stóp do głów. Według TP-Link akumulator 10 000 mAh wystarcza nawet na 210 dni, a dzwonek można też podłączyć do instalacji 8–24 V. Nagrania trafiają na kartę microSD o pojemności do 512 GB.</p>
+<p>Wykrywanie osób, pojazdów, zwierząt i paczek jest bezpłatne, podobnie jak powiadomienia. Gong znajduje się w zestawie, kolorowe widzenie nocne zapewnia wbudowany reflektor, a obudowa ma stopień ochrony IP66. Dzwonek współpracuje z Alexą i Asystentem Google.</p>
+<p><strong>Mocne strony:</strong> bardzo szczegółowy obraz, długi deklarowany czas pracy na akumulatorze, gong w zestawie, pełne wykrywanie bez abonamentu.<br><strong>Ograniczenia:</strong> kartę microSD trzeba dokupić, brak obsługi Apple Home, aplikacja nadal promuje subskrypcję Tapo Care.<br><strong>Dla kogo:</strong> osoby, które chcą dobrze dopracowanych podstawowych funkcji w cenie z niższej półki.</p>
 
-<h3>3. Aqara Video Doorbell G4: wybór dla Apple Home</h3>
-<p><strong>Aqara Video Doorbell G4</strong> to jeden z nielicznych dzwonków zgodnych z HomeKit Secure Video. Nagrywa w 1080p z kątem 162° i zasila się do wyboru sześcioma bateriami AA albo z okablowania 12–24 V. Dołączony gong ma slot na kartę microSD do 512 GB do zapisu lokalnego, a Aqara podkreśla rozpoznawanie twarzy przetwarzane lokalnie.</p>
-<p>Uwaga na szczegół: nagrywanie przez HomeKit Secure Video wymaga planu pamięci iCloud+ od Apple. Bez niego dzwonek można nadal używać bez abonamentu dzięki karcie microSD w gongu. Działa też z Alexą i Asystentem Google.</p>
-<p><strong>Mocne strony:</strong> głęboka integracja z aplikacją Apple Home, gong z pamięcią lokalną, zasilanie wymiennymi bateriami.<br><strong>Ograniczenia:</strong> rozdzielczość ograniczona do Full HD, baterie AA do wymiany zamiast akumulatora.<br><strong>Dla kogo:</strong> domy wyposażone w iPhone'a, iPada lub Apple TV.</p>
+<h3>3. Aqara Video Doorbell G4: wybór dla użytkowników Apple Home</h3>
+<p><strong>Aqara Video Doorbell G4</strong> to jeden z nielicznych dzwonków obsługujących HomeKit Secure Video. Nagrywa w rozdzielczości 1080p z kątem widzenia 162°, a zasilać go można sześcioma bateriami AA albo z instalacji 12–24 V. W dołączonym gongu jest gniazdo na kartę microSD (do 512 GB) do lokalnego zapisu nagrań, a Aqara podkreśla, że rozpoznawanie twarzy odbywa się lokalnie.</p>
+<p>Warto jednak wiedzieć, że zapis przez HomeKit Secure Video wymaga wykupienia planu iCloud+ u Apple. Bez niego dzwonek nadal działa bez abonamentu, bo nagrania trafiają na kartę microSD w gongu. Współpracuje też z Alexą i Asystentem Google.</p>
+<p><strong>Mocne strony:</strong> ścisła integracja z aplikacją Dom (Apple Home), gong z lokalnym zapisem, zasilanie wymiennymi bateriami.<br><strong>Ograniczenia:</strong> rozdzielczość tylko Full HD, baterie AA, które trzeba wymieniać, zamiast akumulatora.<br><strong>Dla kogo:</strong> gospodarstwa domowe korzystające z iPhone'a, iPada lub Apple TV.</p>
 
-<h3>4. Reolink Video Doorbell WiFi: najdokładniejszy model przewodowy</h3>
-<p><strong>Reolink Video Doorbell WiFi</strong> nagrywa w 5 megapikselach (2560 × 1920) w formacie 4:3, z kątem przekątnym 180°. Łączy się przez dwupasmowe Wi-Fi (2,4 i 5 GHz) i zapisuje na karcie microSD do 256 GB. Zasila się wyłącznie przewodem, 12–24 V prądu przemiennego. Dostępna jest też wersja PoE, zasilana kablem Ethernet.</p>
-<p>Jego atutem jest ekosystem Reolink: dzwonek może nagrywać na rejestratorze sieciowym Reolink razem z Twoimi innymi kamerami. Działa z Alexą i Asystentem Google.</p>
-<p><strong>Mocne strony:</strong> doskonała rozdzielczość, Wi-Fi 5 GHz, integracja z kompletnym systemem monitoringu.<br><strong>Ograniczenia:</strong> brak akumulatora, aplikacja mniej intuicyjna niż w Eufy czy Tapo.<br><strong>Dla kogo:</strong> domy z gotowym okablowaniem oraz osoby, które mają lub planują kamery Reolink.</p>
+<h3>4. Reolink Video Doorbell WiFi: najostrzejszy obraz wśród modeli przewodowych</h3>
+<p><strong>Reolink Video Doorbell WiFi</strong> nagrywa obraz o rozdzielczości 5 megapikseli (2560 × 1920) w proporcjach 4:3, z kątem widzenia 180° po przekątnej. Łączy się z dwupasmowym Wi-Fi (2,4 i 5 GHz), a nagrania zapisuje na karcie microSD o pojemności do 256 GB. Wymaga zasilania przewodowego 12–24 V AC. Jest też wersja PoE, zasilana przez kabel Ethernet.</p>
+<p>Jego atutem jest ekosystem Reolink: dzwonek może zapisywać nagrania w rejestratorze sieciowym Reolink razem z pozostałymi Twoimi kamerami. Współpracuje z Alexą i Asystentem Google.</p>
+<p><strong>Mocne strony:</strong> bardzo wysoka rozdzielczość, Wi-Fi 5 GHz, możliwość włączenia do pełnego systemu monitoringu.<br><strong>Ograniczenia:</strong> brak akumulatora, aplikacja mniej intuicyjna niż aplikacje Eufy i Tapo.<br><strong>Dla kogo:</strong> domy z istniejącą instalacją dzwonkową oraz osoby, które mają już kamery Reolink lub planują ich zakup.</p>
 
-<h3>5. Reolink Battery Doorbell: kwadratowy kadr na akumulatorze</h3>
-<p><strong>Reolink Battery Doorbell</strong>, wprowadzony pod koniec 2024 roku, nagrywa w 2K o rozdzielczości 4 megapikseli w kwadratowym formacie 1:1: odwiedzający jest widoczny w całości, a paczka na ziemi pozostaje w kadrze. Zapisuje na karcie microSD do 256 GB, łączy się przez dwupasmowe Wi-Fi i można go podłączyć do istniejącego gongu przewodowego.</p>
-<p><strong>Mocne strony:</strong> kadr od głowy do stóp, Wi-Fi 5 GHz, brak zależności od chmury.<br><strong>Ograniczenia:</strong> trzeba przewidzieć kartę microSD, ekosystem inteligentnego domu mniej bogaty niż w Eufy czy Tapo.<br><strong>Dla kogo:</strong> dla tych, którzy chcą bezprzewodowego dzwonka z pionowym kadrem, bez stacji bazowej.</p>
+<h3>5. Reolink Battery Doorbell: kwadratowy kadr i zasilanie z akumulatora</h3>
+<p><strong>Reolink Battery Doorbell</strong> trafił do sprzedaży pod koniec 2024 roku. Nagrywa obraz 2K o rozdzielczości 4 megapikseli w kwadratowym formacie 1:1, dzięki czemu gość jest widoczny w całości, a paczka leżąca pod drzwiami nie wypada z kadru. Nagrania zapisuje na karcie microSD o pojemności do 256 GB, łączy się z dwupasmowym Wi-Fi i można go podłączyć do istniejącego gongu przewodowego.</p>
+<p><strong>Mocne strony:</strong> kadr od stóp do głów, Wi-Fi 5 GHz, pełna niezależność od chmury.<br><strong>Ograniczenia:</strong> kartę microSD trzeba dokupić, uboższa współpraca z systemami inteligentnego domu niż w przypadku Eufy czy Tapo.<br><strong>Dla kogo:</strong> osoby, które chcą bezprzewodowego dzwonka z pionowym kadrem i bez stacji bazowej.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Obraz</th><th>Zapis lokalny</th><th>Zasilanie</th><th>Zgodność</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Obraz</th><th>Zapis lokalny</th><th>Zasilanie</th><th>Zgodność</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Eufy Video Doorbell E340</td><td>Podwójna kamera (odwiedzający + ziemia)</td><td>8 GB wbudowane</td><td>Akumulator lub przewód</td><td>Alexa, Asystent Google</td><td>Paczki i wszechstronne użycie</td></tr>
-<tr><td>TP-Link Tapo D235</td><td>2K 5 Mpx, 180°</td><td>microSD do 512 GB</td><td>Akumulator 10 000 mAh lub przewód</td><td>Alexa, Asystent Google</td><td>Najlepszy stosunek jakości do ceny</td></tr>
+<tr><td>Eufy Video Doorbell E340</td><td>Dwie kamery (gość + paczki)</td><td>Pamięć wbudowana 8 GB</td><td>Akumulator lub przewód</td><td>Alexa, Asystent Google</td><td>Pilnowanie paczek, wszechstronne użycie</td></tr>
+<tr><td>TP-Link Tapo D235</td><td>2K 5 Mpx, 180°</td><td>microSD do 512 GB</td><td>Akumulator 10 000 mAh lub przewód</td><td>Alexa, Asystent Google</td><td>Najlepszy stosunek jakości do ceny</td></tr>
 <tr><td>Aqara Video Doorbell G4</td><td>1080p, 162°</td><td>microSD w gongu</td><td>6 baterii AA lub przewód</td><td>Apple Home, Alexa, Google</td><td>Domy z urządzeniami Apple</td></tr>
-<tr><td>Reolink Video Doorbell WiFi</td><td>5 Mpx, 180° po przekątnej</td><td>microSD do 256 GB, NVR</td><td>Tylko przewód</td><td>Alexa, Asystent Google</td><td>Domy z okablowaniem</td></tr>
-<tr><td>Reolink Battery Doorbell</td><td>2K 4 Mpx, format 1:1</td><td>microSD do 256 GB</td><td>Akumulator</td><td>Aplikacja Reolink</td><td>Kadr od głowy do stóp</td></tr>
+<tr><td>Reolink Video Doorbell WiFi</td><td>5 Mpx, 180° po przekątnej</td><td>microSD do 256 GB, NVR</td><td>Tylko przewód</td><td>Alexa, Asystent Google</td><td>Domy z instalacją dzwonkową</td></tr>
+<tr><td>Reolink Battery Doorbell</td><td>2K 4 Mpx, format 1:1</td><td>microSD do 256 GB</td><td>Akumulator</td><td>Aplikacja Reolink</td><td>Kadr od stóp do głów</td></tr>
 </tbody>
 </table>
 
-<h2>A Ring lub Google Nest?</h2>
-<p>Ring i Google Nest są bardzo obecne w sklepach, ale nie spełniają obietnicy „bez abonamentu”. Bez planu dzwonek Ring daje dostęp do podglądu na żywo, alertów i rozmowy, ale nie przechowuje żadnych nagrań. Google Nest Doorbell (na akumulator) bezpłatnie zachowuje 3 godziny historii zdarzeń, a dalej wymaga Nest Aware. Te dzwonki mają sens, jeśli masz już abonament i jesteś mocno związany z ekosystemem Alexa lub Google, ale nie ma ich w naszym zestawieniu.</p>
+<h2>A co z dzwonkami Ring i Google Nest?</h2>
+<p>Dzwonki Ring i Google Nest są powszechnie dostępne w sklepach, ale trudno uznać je za rozwiązania „bez abonamentu”. Bez płatnego planu dzwonek Ring pokazuje obraz na żywo, wysyła powiadomienia i pozwala porozmawiać z gościem, ale nie przechowuje żadnych nagrań. Google Nest Doorbell (wersja na akumulator) bezpłatnie zachowuje historię zdarzeń z ostatnich 3 godzin, a dłuższa wymaga subskrypcji Nest Aware. Te dzwonki mają sens, jeśli już płacisz abonament i nie chcesz rezygnować z ekosystemu Alexy lub Google, ale nie znalazły się w naszym zestawieniu.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Zapomnienie o karcie microSD:</strong> w większości modeli nie jest dołączona. Bez karty dzwonek niczego nie nagrywa.</li>
-<li><strong>Lekceważenie Wi-Fi przy drzwiach:</strong> sprawdź sygnał na progu telefonem. Słaby sygnał spowalnia podgląd na żywo i szybciej rozładowuje akumulator; może być potrzebny wzmacniacz.</li>
-<li><strong>Nagrywanie ulicy:</strong> ustaw strefy prywatności, aby zasłonić chodnik i drogę publiczną.</li>
-<li><strong>Wiara w deklarowaną autonomię:</strong> odpowiada ona umiarkowanemu użyciu. Ruchliwa ulica lub zima mogą ją wyraźnie skrócić.</li>
-<li><strong>Zapomnienie o gongu:</strong> bez gongu w domu dzwonek słyszysz tylko na telefonie.</li>
+<li><strong>Zapominanie o karcie microSD:</strong> w większości modeli nie ma jej w zestawie. Bez karty dzwonek niczego nie nagrywa.</li>
+<li><strong>Lekceważenie zasięgu Wi-Fi przy drzwiach:</strong> sprawdź telefonem siłę sygnału na progu. Słaby sygnał spowalnia podgląd na żywo i szybciej rozładowuje akumulator; czasem potrzebny jest wzmacniacz sygnału.</li>
+<li><strong>Nagrywanie ulicy:</strong> ustaw strefy prywatności, które zasłonią chodnik i drogę publiczną.</li>
+<li><strong>Bezkrytyczne ufanie deklarowanemu czasowi pracy:</strong> producenci podają go dla umiarkowanego użytkowania. Przy ruchliwej ulicy lub zimą może być wyraźnie krótszy.</li>
+<li><strong>Zapominanie o gongu:</strong> bez gongu w domu dzwonek usłyszysz tylko w telefonie.</li>
 </ul>
 
 <h2>Montaż i prywatność</h2>
-<p>Dzwonek na akumulator mocuje się dwiema śrubami i uchwytem, w około kwadrans. Przy podłączaniu do istniejącego okablowania wyłącz prąd w rozdzielnicy przed jakąkolwiek ingerencją, a następnie sprawdź, czy napięcie transformatora mieści się w zakresie podanym przez producenta. W razie wątpliwości lub gdy trzeba podłączyć nowy transformator do 230 V, skorzystaj z pomocy wykwalifikowanego elektryka.</p>
-<p>Jeśli chodzi o prywatność, we Francji CNIL przypomina, że osoba prywatna powinna filmować tylko wnętrze własnej posesji, a nie drogę publiczną ani posesję sąsiada. Zasady mogą się różnić w zależności od kraju, więc sprawdź przepisy obowiązujące w miejscu zamieszkania. Skieruj kamerę na swój próg, korzystaj z masek prywatności i informuj odwiedzających. Włącz uwierzytelnianie dwuskładnikowe na koncie i zmień domyślne hasło.</p>
-<p>Aby uzupełnić instalację, zobacz nasze porównanie <a href="/pl/blog/interphone-video-connecte">wideodomofonów z aplikacją</a>, przeznaczonych do bram i budynków wielorodzinnych, oraz nasz wybór <a href="/pl/blog/camera-interieure-sans-abonnement">kamer wewnętrznych bez abonamentu</a>.</p>
+<p>Dzwonek na akumulator mocuje się do ściany za pomocą uchwytu i dwóch śrub – zajmuje to około kwadransa. Jeśli podłączasz go do istniejącej instalacji, przed rozpoczęciem prac wyłącz zasilanie w rozdzielnicy, a potem sprawdź, czy napięcie transformatora mieści się w zakresie podanym przez producenta. W razie wątpliwości albo gdy trzeba podłączyć nowy transformator do sieci 230 V, wezwij wykwalifikowanego elektryka.</p>
+<p>Jeśli chodzi o prywatność, francuski urząd ochrony danych osobowych CNIL przypomina, że osoba prywatna powinna filmować tylko teren własnej posesji, a nie drogę publiczną czy działkę sąsiada. W innych krajach zasady mogą wyglądać inaczej, dlatego sprawdź przepisy obowiązujące tam, gdzie mieszkasz. Skieruj kamerę na własny próg, korzystaj z masek prywatności i poinformuj gości o nagrywaniu. Włącz na koncie uwierzytelnianie dwuskładnikowe i zmień domyślne hasło.</p>
+<p>Jeśli chcesz rozbudować swój system, zajrzyj do naszego porównania <a href="/pl/blog/interphone-video-connecte">wideodomofonów z aplikacją</a>, które sprawdzają się przy bramach i furtkach oraz w budynkach wielorodzinnych, a także do zestawienia <a href="/pl/blog/camera-interieure-sans-abonnement">kamer wewnętrznych bez abonamentu</a>.</p>
 
-<h2>Podsumowanie</h2>
-<p><strong>Eufy Video Doorbell E340</strong> to najpełniejszy wybór: podwójna kamera do paczek, pamięć wbudowana i podwójne zasilanie, bez opłat miesięcznych. <strong>TP-Link Tapo D235</strong> oferuje najlepszy stosunek jakości do ceny dzięki obrazowi 5 megapikseli, dużemu akumulatorowi i dołączonemu gongowi. Domy z urządzeniami Apple zwrócą się ku <strong>Aqara Video Doorbell G4</strong>, a <strong>Reolink Video Doorbell WiFi</strong> pasuje do domów z gotowym okablowaniem, <strong>Reolink Battery Doorbell</strong> zaś do tych, którzy chcą kadru od głowy do stóp na akumulatorze.</p>`,
+<h2>Werdykt</h2>
+<p><strong>Eufy Video Doorbell E340</strong> to najbardziej kompletny wybór: ma dodatkową kamerę do pilnowania paczek, wbudowaną pamięć i dwa sposoby zasilania, a przy tym nie wymaga miesięcznych opłat. <strong>TP-Link Tapo D235</strong> zapewnia najlepszy stosunek jakości do ceny dzięki obrazowi 5 megapikseli, pojemnemu akumulatorowi i gongowi w zestawie. Osoby korzystające ze sprzętu Apple powinny rozważyć <strong>Aqara Video Doorbell G4</strong>. <strong>Reolink Video Doorbell WiFi</strong> sprawdzi się w domach z istniejącą instalacją dzwonkową, a <strong>Reolink Battery Doorbell</strong> – u osób, które chcą kadru od stóp do głów i zasilania z akumulatora.</p>`,
+    sv: `<p><strong>Den bästa videodörrklockan utan abonnemang 2026 är Eufy Video Doorbell E340: dubbla kameror (besökaren och paketen på marken), 8 GB inbyggt minne och valet mellan batteri och befintlig ringklockskabel, helt utan månadsavgift. Är budgeten snävare ger TP-Link Tapo D235 2K-video med 5 megapixlar, inspelning på microSD-kort och en medföljande ringklocka för inomhusbruk.</strong></p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, utvärderingar publicerade av fackmedier och verifierade köparomdömen. Alla utvalda dörrklockor spelar in lokalt: dina videoklipp stannar hemma, i ett inbyggt minne, på ett microSD-kort eller i en inspelare. Tillverkarna säljer visserligen molnabonnemang, men de är frivilliga.</p>
+<p>Alla tillgängliga modeller hittar du i vårt <a href="/sv/securite-maison/sonnettes-video">urval av videodörrklockor</a>.</p>
+
+<h2>Varför välja en videodörrklocka utan abonnemang?</h2>
+<p>För många smarta dörrklockor är köpet bara början. Utan abonnemang kan du med en dörrklocka från Ring se livebilden, få notiser och prata med besökaren, men den spelar inte in något: du kan inte i efterhand se en leverans som kom medan du var borta. Google Nest Doorbell (batteri) sparar 3 timmars händelsehistorik gratis; vill du ha mer krävs Nest Aware. På några år kan de här avgifterna bli dyrare än själva dörrklockan.</p>
+<p>En dörrklocka med lokal lagring tar bort den löpande kostnaden. Den begränsar också hur mycket av ditt videomaterial som skickas till tredje parts servrar, vilket är en verklig fördel för både dina besökares integritet och din egen.</p>
+
+<h2>Så väljer du rätt</h2>
+<h3>Typ av lokal lagring</h3>
+<p>Det finns tre alternativ. Inbyggt minne (8 GB på Eufy E340) fungerar direkt, utan något kort att köpa. Ett microSD-kort i dörrklockan eller i ringklockan ger mer utrymme: upp till 512 GB beroende på modell. Vissa märken, som Reolink, kan dessutom spela in på en nätverksvideoinspelare (NVR) som samlar alla dina kameror. Kontrollera alltid att ingen viktig funktion (persondetektering, händelsehistorik) är låst bakom ett betalabonnemang.</p>
+<h3>Batteri eller befintlig kabel</h3>
+<p>En batteridriven dörrklocka sätter du upp på några minuter utan att dra någon kabel, men den måste laddas regelbundet. Batteritiden som tillverkarna uppger beror mycket på antalet händelser, temperaturen och hur bra wifi-signalen är. Har du redan en trådbunden dörrklocka kan de flesta modeller kopplas till den befintliga transformatorn (oftast 8–24 V växelström): då hålls batteriet laddat och vissa funktioner blir tillgängliga, till exempel förinspelning av sekunderna innan en rörelse.</p>
+<h3>Bildvinkel och bildutsnitt</h3>
+<p>En vanlig dörrklocka filmar i liggande format: du ser ansiktet men inte alltid paketet som står vid dörren. Modeller som visar besökaren ”från topp till tå” (bildformat 4:3 eller 1:1) eller har dubbla kameror löser det. En bildvinkel på 160–180° täcker också sidorna av entrén.</p>
+<h3>Smart detektering</h3>
+<p>En enkel rörelsedetektering larmar för varje bil som kör förbi och varje gren som rör sig i vinden. Välj en dörrklocka som känner igen personer, gärna även paket, djur och fordon, och där du kan rita upp detekteringszoner. På modellerna i det här urvalet ingår de funktionerna utan abonnemang.</p>
+<h3>Ekosystem för smarta hem</h3>
+<p>Kontrollera att dörrklockan fungerar med din röstassistent: Amazon Alexa och Google Assistant stöds brett, Apple Home betydligt mer sällan. Tänk också på ringklockan inomhus: vissa modeller har en med i kartongen, andra säljer den separat eller använder din befintliga ringklocka.</p>
+
+<h2>De 5 bästa videodörrklockorna utan abonnemang 2026</h2>
+<h3>1. Eufy Video Doorbell E340: bäst totalt</h3>
+<p><strong>Eufy Video Doorbell E340</strong> sticker ut med sina dubbla kameror: huvudobjektivet filmar besökaren medan en andra kamera riktad nedåt håller koll på paket som lämnats vid dörren. Det inbyggda minnet på 8 GB sparar klippen utan microSD-kort eller basstation, och utan abonnemang. Dörrklockan drivs med laddningsbart batteri eller via den befintliga ringklockskabeln.</p>
+<p>Mörkerseende i färg, tvåvägsljud och detektering av personer och paket ingår. Den styrs via appen eufy Security och visas på skärmar med Amazon Alexa och Google Assistant. Vill du ha mer lagringsutrymme kan den kopplas ihop med en HomeBase S380.</p>
+<p><strong>Styrkor:</strong> den enda med dubbla kameror i urvalet, inbyggd lagring som är klar att använda, batteri eller kabel.<br><strong>Svagheter:</strong> inget stöd för Apple Home, ganska tjockt hölje. Eufy fick kritik 2022 för miniatyrbilder som skickades till molnet; märket har sedan dess ändrat sin app och sina rutiner, men är du mån om din integritet kan det vara värt att ha i bakhuvudet.<br><strong>Passar för:</strong> de flesta hushåll som tar emot paket och vill ha en komplett lösning utan att behöva installera något mer.</p>
+
+<h3>2. TP-Link Tapo D235: mest prisvärd</h3>
+<p><strong>TP-Link Tapo D235</strong> spelar in 2K-video med 5 megapixlar (2560 × 1920) och har en bildvinkel på 180° som visar besökaren från topp till tå. Batteriet på 10 000 mAh räcker enligt TP-Link i upp till 210 dagar, och dörrklockan kan också kopplas till en strömmatning på 8–24 V. Videon sparas på ett microSD-kort på upp till 512 GB.</p>
+<p>Detektering av personer, fordon, djur och paket är gratis, liksom notiserna. Ringklockan ingår i kartongen, mörkerseendet i färg använder en inbyggd strålkastare och höljet har klassningen IP66. Den fungerar med Alexa och Google Assistant.</p>
+<p><strong>Styrkor:</strong> mycket detaljerad bild, lång uppgiven batteritid, ringklocka ingår, full detektering utan abonnemang.<br><strong>Svagheter:</strong> microSD-kortet köps separat, inget stöd för Apple Home, abonnemanget Tapo Care marknadsförs fortfarande i appen.<br><strong>Passar för:</strong> dig som vill ha grunderna väl utförda till ett instegspris.</p>
+
+<h3>3. Aqara Video Doorbell G4: valet för Apple Home</h3>
+<p><strong>Aqara Video Doorbell G4</strong> är en av få dörrklockor med stöd för HomeKit Secure Video. Den spelar in i 1080p med en bildvinkel på 162° och drivs med sex AA-batterier eller via kabel på 12–24 V. Den medföljande ringklockan tar ett microSD-kort på upp till 512 GB för lokal inspelning, och Aqara lyfter fram ansiktsigenkänning som sker i själva enheten.</p>
+<p>En detalj att hålla koll på: inspelning via HomeKit Secure Video kräver ett iCloud+-abonnemang för lagring hos Apple. Utan det fungerar dörrklockan ändå utan abonnemang tack vare microSD-kortet i ringklockan. Den fungerar också med Alexa och Google Assistant.</p>
+<p><strong>Styrkor:</strong> djup integrering i Apple Home, ringklocka med lokal lagring, utbytbara batterier.<br><strong>Svagheter:</strong> upplösningen stannar vid Full HD, AA-batterier som måste bytas i stället för ett laddningsbart batteri.<br><strong>Passar för:</strong> hushåll med iPhone, iPad eller Apple TV.</p>
+
+<h3>4. Reolink Video Doorbell WiFi: skarpaste bilden med kabel</h3>
+<p><strong>Reolink Video Doorbell WiFi</strong> spelar in med 5 megapixlar (2560 × 1920) i formatet 4:3 och har en diagonal bildvinkel på 180°. Den ansluts via wifi med två band (2,4 och 5 GHz) och spelar in på ett microSD-kort på upp till 256 GB. Den drivs bara via kabel, med 12–24 V växelström. Det finns också en PoE-version som får ström via en ethernetkabel.</p>
+<p>Styrkan ligger i Reolinks ekosystem: dörrklockan kan spela in på en Reolink-NVR tillsammans med dina andra kameror. Den fungerar med Alexa och Google Assistant.</p>
+<p><strong>Styrkor:</strong> utmärkt upplösning, wifi på 5 GHz, passar in i ett komplett kamerasystem.<br><strong>Svagheter:</strong> inget batteri, appen är mindre intuitiv än Eufys och Tapos.<br><strong>Passar för:</strong> hem med befintlig kabeldragning, och dig som redan har eller planerar att skaffa Reolink-kameror.</p>
+
+<h3>5. Reolink Battery Doorbell: kvadratisk bild och batteridrift</h3>
+<p><strong>Reolink Battery Doorbell</strong> lanserades i slutet av 2024 och spelar in 2K-video med 4 megapixlar i kvadratiskt format (1:1): besökaren syns i helfigur och paket på marken hamnar i bild. Den spelar in på ett microSD-kort på upp till 256 GB, ansluts via wifi med två band och kan kopplas till en befintlig trådbunden ringklocka.</p>
+<p><strong>Styrkor:</strong> bild från topp till tå, wifi på 5 GHz, inget beroende av molnet.<br><strong>Svagheter:</strong> kräver microSD-kort, mindre ekosystem för smarta hem än Eufy och Tapo.<br><strong>Passar för:</strong> dig som vill ha en trådlös dörrklocka med ett bildutsnitt som visar mer på höjden och utan basstation.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Bild</th><th>Lokal lagring</th><th>Strömförsörjning</th><th>Kompatibilitet</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Eufy Video Doorbell E340</td><td>Dubbla kameror (besökare + mark)</td><td>8 GB inbyggt</td><td>Batteri eller kabel</td><td>Alexa, Google Assistant</td><td>Paket och allsidig användning</td></tr>
+<tr><td>TP-Link Tapo D235</td><td>2K 5 MP, 180°</td><td>microSD upp till 512 GB</td><td>Batteri 10 000 mAh eller kabel</td><td>Alexa, Google Assistant</td><td>Mest prisvärd</td></tr>
+<tr><td>Aqara Video Doorbell G4</td><td>1080p, 162°</td><td>microSD i ringklockan</td><td>6 AA-batterier eller kabel</td><td>Apple Home, Alexa, Google</td><td>Hem med Apple-enheter</td></tr>
+<tr><td>Reolink Video Doorbell WiFi</td><td>5 MP, 180° diagonalt</td><td>microSD upp till 256 GB, NVR</td><td>Bara kabel</td><td>Alexa, Google Assistant</td><td>Hem med kabeldragning</td></tr>
+<tr><td>Reolink Battery Doorbell</td><td>2K 4 MP, format 1:1</td><td>microSD upp till 256 GB</td><td>Batteri</td><td>Reolinks app</td><td>Bild från topp till tå</td></tr>
+</tbody>
+</table>
+
+<h2>Och Ring eller Google Nest?</h2>
+<p>Ring och Google Nest finns i nästan varje butik, men de lever inte riktigt upp till löftet ”utan abonnemang”. Utan abonnemang ger en dörrklocka från Ring dig livebild, notiser och tvåvägssamtal, men den sparar inga inspelningar. Google Nest Doorbell (batteri) sparar 3 timmars händelsehistorik gratis och kräver sedan Nest Aware för mer. De är fortfarande rimliga val om du redan har ett abonnemang och har satsat på Alexa eller Google, men de ingår inte i vårt urval.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att glömma microSD-kortet:</strong> på de flesta modeller ingår det inte. Utan kort spelar dörrklockan inte in något.</li>
+<li><strong>Att strunta i wifi-signalen vid dörren:</strong> kontrollera signalen på trappan med mobilen. En svag signal gör livebilden seg och tömmer batteriet snabbare; du kan behöva en räckviddsförlängare.</li>
+<li><strong>Att filma gatan:</strong> ställ in integritetszoner som döljer trottoaren och vägen.</li>
+<li><strong>Att lita blint på den uppgivna batteritiden:</strong> den förutsätter måttlig användning. En livlig gata eller vinterväder kan korta den betydligt.</li>
+<li><strong>Att glömma ringklockan:</strong> utan en ringklocka inomhus hör du bara att det ringer på i mobilen.</li>
+</ul>
+
+<h2>Installation och integritet</h2>
+<p>En batteridriven dörrklocka sätts upp med två skruvar och ett fäste på ungefär en kvart. Ska den kopplas till befintlig kabel bryter du först strömmen i elcentralen och kontrollerar sedan att transformatorns spänning ligger inom det intervall som tillverkaren anger. Är du osäker, eller om en ny transformator måste anslutas till 230 V, ska du anlita en behörig elektriker.</p>
+<p>När det gäller integriteten råder dataskyddsmyndigheter runt om i Europa, bland annat den franska CNIL, privatpersoner att i möjligaste mån bara filma den egna tomten. Fångar kameran allmän plats kan dataskyddsreglerna gälla även dig. Rikta kameran mot din egen entré, använd integritetsmasker och informera dina besökare. Slå på tvåfaktorsautentisering för ditt konto och byt alla standardlösenord.</p>
+<p>Vill du bygga vidare kan du läsa vår jämförelse av <a href="/sv/blog/interphone-video-connecte">smarta videoporttelefoner</a>, som passar för grindar och flerbostadshus, och vårt urval av <a href="/sv/blog/camera-interieure-sans-abonnement">inomhuskameror utan abonnemang</a>.</p>
+
+<h2>Omdöme</h2>
+<p><strong>Eufy Video Doorbell E340</strong> är det mest kompletta valet: dubbla kameror för paketen, inbyggd lagring och batteri eller kabel, utan månadsavgifter. <strong>TP-Link Tapo D235</strong> är mest prisvärd, med sin bild på 5 megapixlar, sitt stora batteri och den medföljande ringklockan. Har du Apple-enheter hemma bör du titta på <strong>Aqara Video Doorbell G4</strong>, medan <strong>Reolink Video Doorbell WiFi</strong> passar hem med färdig kabeldragning och <strong>Reolink Battery Doorbell</strong> dig som vill ha bild från topp till tå på batteri.</p>
+`,
+    us: `<p><strong>The best video doorbell with no subscription in 2026 is the Eufy Video Doorbell E340: a dual camera (one for visitors, one for packages on the ground), 8 GB of built-in storage and the choice of battery power or your existing doorbell wiring, with no monthly fee at all. On a tighter budget, the TP-Link Tapo D235 delivers 5-megapixel 2K video, microSD recording and an included chime.</strong></p>
+<p>This comparison is based on manufacturer specs, reviews published by specialist outlets and verified owner reviews. Every doorbell we picked records locally: your footage stays at home, on built-in memory, a microSD card or a recorder. Manufacturers do sell cloud plans, but they're optional.</p>
+<p>To browse every available model, see our <a href="/us/securite-maison/sonnettes-video">video doorbell picks</a>.</p>
+
+<h2>Why choose a video doorbell with no subscription?</h2>
+<p>With many smart doorbells, buying the device is only the beginning. Without a plan, a Ring doorbell lets you watch the live view, get notifications and talk to visitors, but it doesn't record anything: you can't replay a delivery that happened while you were out. The Google Nest Doorbell (battery) keeps 3 hours of event history for free; beyond that, you need Nest Aware. Over a few years, those fees can add up to more than the doorbell itself.</p>
+<p>A doorbell with local storage gets rid of that recurring cost. It also limits how much of your footage ends up on third-party servers, which is a real plus for your visitors' privacy as well as your own.</p>
+
+<h2>How to choose</h2>
+<h3>Type of local storage</h3>
+<p>You have three options. Built-in memory (8 GB on the Eufy E340) works right out of the box, with no card to buy. A microSD card, inserted in the doorbell or in the chime, gives you more space: up to 512 GB depending on the model. And some brands, such as Reolink, can record to a network video recorder (NVR) that ties all your cameras together. Always make sure no essential feature (person detection, event history) is locked behind the paid plan.</p>
+<h3>Battery or existing wiring</h3>
+<p>A battery doorbell goes up in minutes with no wires to run, but you'll need to recharge it regularly. The battery life manufacturers quote depends heavily on how often it's triggered, the temperature and the strength of your Wi-Fi. If you already have a wired doorbell, most models connect to the existing transformer (usually 8 to 24 V AC): the battery stays topped off, and some features, such as pre-roll recording of the seconds before motion, become available.</p>
+<h3>Field of view and framing</h3>
+<p>A conventional doorbell records in landscape: you see the visitor's face, but not always the package at the foot of the door. Head-to-toe models (4:3 or 1:1 aspect ratio) and dual-camera models solve that. A 160 to 180° field of view also covers the sides of the porch.</p>
+<h3>Smart detection</h3>
+<p>Basic motion detection sends an alert for every car that drives by or branch that sways. Choose a doorbell that recognizes people, and ideally packages, pets and vehicles, and that lets you draw detection zones. On the models we picked, these features are included with no subscription.</p>
+<h3>Smart home ecosystem</h3>
+<p>Check compatibility with your voice assistant: Amazon Alexa and Google Assistant are widely supported, Apple Home far less so. Think about the indoor chime too: some models include one, others sell it separately or work with your existing chime.</p>
+
+<h2>The 5 best video doorbells with no subscription in 2026</h2>
+<h3>1. Eufy Video Doorbell E340: best overall</h3>
+<p>The <strong>Eufy Video Doorbell E340</strong> stands out with its dual camera: the main lens records the visitor, while a second, downward-facing camera keeps an eye on packages left at the door. The 8 GB of built-in memory stores clips with no microSD card, no base station and no subscription. It runs on a rechargeable battery or on existing doorbell wiring.</p>
+<p>Color night vision, two-way audio and person and package detection are all included. You manage it in the eufy Security app, and it shows up on Amazon Alexa and Google Assistant smart displays. For extra storage, you can pair it with a HomeBase S380.</p>
+<p><strong>Pros:</strong> the only dual camera among our picks, built-in storage ready to go, battery or wired power.<br><strong>Cons:</strong> no Apple Home support, fairly thick housing. Eufy was criticized in 2022 for sending thumbnails to its cloud; the brand has since changed its app and practices, but privacy-minded buyers may want to keep this in mind.<br><strong>Best for:</strong> most households that get packages delivered and want a complete setup with nothing else to install.</p>
+
+<h3>2. TP-Link Tapo D235: best value</h3>
+<p>The <strong>TP-Link Tapo D235</strong> records 5-megapixel 2K video (2560 × 1920) with a 180° field of view that frames visitors from head to toe. TP-Link rates its 10,000 mAh battery for up to 210 days, and it can also be wired to an 8 to 24 V supply. Footage is saved to a microSD card of up to 512 GB.</p>
+<p>Person, vehicle, pet and package detection is free, and so are notifications. The indoor chime comes in the box, color night vision relies on a built-in spotlight and the housing is rated IP66. It works with Alexa and Google Assistant.</p>
+<p><strong>Pros:</strong> very detailed image, long rated battery life, chime included, full detection with no subscription.<br><strong>Cons:</strong> microSD card sold separately, no Apple Home support, the Tapo Care plan is still pushed in the app.<br><strong>Best for:</strong> anyone who wants the essentials done well at an entry-level price point.</p>
+
+<h3>3. Aqara Video Doorbell G4: the Apple Home pick</h3>
+<p>The <strong>Aqara Video Doorbell G4</strong> is one of the few doorbells that support HomeKit Secure Video. It records in 1080p with a 162° field of view and runs on six AA batteries or 12 to 24 V doorbell wiring. The included chime takes a microSD card of up to 512 GB for local recording, and Aqara highlights face recognition processed on the device.</p>
+<p>One detail to keep in mind: recording through HomeKit Secure Video requires an iCloud+ storage plan from Apple. Without one, the doorbell still works subscription-free thanks to the microSD card in the chime. It also works with Alexa and Google Assistant.</p>
+<p><strong>Pros:</strong> deep integration with Apple's Home app, chime with local storage, replaceable batteries.<br><strong>Cons:</strong> resolution tops out at Full HD, AA batteries to replace rather than a rechargeable pack.<br><strong>Best for:</strong> households with iPhones, iPads or an Apple TV.</p>
+
+<h3>4. Reolink Video Doorbell WiFi: the sharpest wired option</h3>
+<p>The <strong>Reolink Video Doorbell WiFi</strong> records 5-megapixel video (2560 × 1920) in 4:3 format with a 180° diagonal field of view. It connects over dual-band Wi-Fi (2.4 and 5 GHz) and records to a microSD card of up to 256 GB. It's hardwired only, on 12 to 24 V AC. A PoE version, powered over an Ethernet cable, is also available.</p>
+<p>Its big advantage is the Reolink ecosystem: the doorbell can record to a Reolink NVR alongside your other cameras. It works with Alexa and Google Assistant.</p>
+<p><strong>Pros:</strong> excellent resolution, 5 GHz Wi-Fi, fits into a complete security camera system.<br><strong>Cons:</strong> no battery, app less intuitive than Eufy's or Tapo's.<br><strong>Best for:</strong> homes with existing doorbell wiring, and anyone who already owns Reolink cameras or plans to.</p>
+
+<h3>5. Reolink Battery Doorbell: square framing on battery power</h3>
+<p>The <strong>Reolink Battery Doorbell</strong>, launched in late 2024, records 4-megapixel 2K video in a square 1:1 format: visitors appear head to toe and packages on the ground stay in frame. It records to a microSD card of up to 256 GB, connects over dual-band Wi-Fi and can be hooked up to an existing wired chime.</p>
+<p><strong>Pros:</strong> head-to-toe framing, 5 GHz Wi-Fi, no reliance on the cloud.<br><strong>Cons:</strong> you'll need to buy a microSD card, smaller smart home ecosystem than Eufy or Tapo.<br><strong>Best for:</strong> anyone who wants a wire-free doorbell with tall framing and no base station.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Image</th><th>Local storage</th><th>Power</th><th>Compatibility</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Eufy Video Doorbell E340</td><td>Dual camera (visitor + ground)</td><td>8 GB built in</td><td>Battery or wired</td><td>Alexa, Google Assistant</td><td>Packages and all-around use</td></tr>
+<tr><td>TP-Link Tapo D235</td><td>2K 5 MP, 180°</td><td>microSD up to 512 GB</td><td>10,000 mAh battery or wired</td><td>Alexa, Google Assistant</td><td>Best value</td></tr>
+<tr><td>Aqara Video Doorbell G4</td><td>1080p, 162°</td><td>microSD in the chime</td><td>6 AA batteries or wired</td><td>Apple Home, Alexa, Google</td><td>Apple households</td></tr>
+<tr><td>Reolink Video Doorbell WiFi</td><td>5 MP, 180° diagonal</td><td>microSD up to 256 GB, NVR</td><td>Wired only</td><td>Alexa, Google Assistant</td><td>Homes with doorbell wiring</td></tr>
+<tr><td>Reolink Battery Doorbell</td><td>2K 4 MP, 1:1 format</td><td>microSD up to 256 GB</td><td>Battery</td><td>Reolink app</td><td>Head-to-toe framing</td></tr>
+</tbody>
+</table>
+
+<h2>What about Ring or Google Nest?</h2>
+<p>Ring and Google Nest are everywhere in stores, but they don't really deliver on the "no subscription" promise. Without a plan, a Ring doorbell gives you live view, alerts and two-way talk, but saves no recordings. The Google Nest Doorbell (battery) keeps 3 hours of event history for free, then requires Nest Aware for anything more. They still make sense if you already pay for a plan and are committed to the Alexa or Google ecosystem, but they didn't make our list.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Forgetting the microSD card:</strong> most models don't include one. Without a card, the doorbell records nothing.</li>
+<li><strong>Ignoring the Wi-Fi signal at the door:</strong> check the signal at your front door with your phone. A weak signal slows down the live view and drains the battery faster; you may need a Wi-Fi extender.</li>
+<li><strong>Recording the street:</strong> set up privacy zones to block out the sidewalk and the road.</li>
+<li><strong>Trusting the rated battery life:</strong> it assumes moderate use. A busy street or winter weather can cut it considerably.</li>
+<li><strong>Forgetting the chime:</strong> without an indoor chime, you'll only hear the doorbell on your phone.</li>
+</ul>
+
+<h2>Installation and privacy</h2>
+<p>A battery doorbell mounts with two screws and a bracket in about 15 minutes. To connect it to existing wiring, turn off the power at the breaker panel first, then check that the transformer's voltage matches the range the manufacturer specifies. If you're unsure, or if a new transformer has to be wired into your home's electrical system, hire a licensed electrician.</p>
+<p>On privacy, keep the camera on your own property wherever you can: France's data protection authority (CNIL), for example, advises homeowners not to film the street or a neighbor's property. Rules on recording public space vary from place to place, so check what applies where you live. Aim the camera at your front step, use privacy masks and let visitors know they're on camera. Turn on two-factor authentication for your account and change any default password.</p>
+<p>To round out your setup, see our comparison of <a href="/us/blog/interphone-video-connecte">smart video intercoms</a>, made for gates and apartment buildings, and our picks for <a href="/us/blog/camera-interieure-sans-abonnement">indoor cameras with no subscription</a>.</p>
+
+<h2>The bottom line</h2>
+<p>The <strong>Eufy Video Doorbell E340</strong> is the most complete choice: a dual camera for packages, built-in storage and battery or wired power, with no monthly fees. The <strong>TP-Link Tapo D235</strong> is the best value, with its 5-megapixel image, big battery and included chime. Apple households should look at the <strong>Aqara Video Doorbell G4</strong>, while the <strong>Reolink Video Doorbell WiFi</strong> suits homes that already have doorbell wiring and the <strong>Reolink Battery Doorbell</strong> anyone who wants head-to-toe framing on battery power.</p>`,
+    ca: `<p><strong>The best video doorbell without a subscription in 2026 is the Eufy Video Doorbell E340: a dual camera (visitor and packages on the ground), 8 GB of built-in storage and the choice of battery or existing doorbell wiring, with no monthly fee at all. On a tighter budget, the TP-Link Tapo D235 delivers 5-megapixel 2K video, microSD recording and an included chime.</strong></p>
+<p>This comparison is based on manufacturer specifications, reviews published by specialist outlets and verified buyer feedback. Every doorbell selected records locally: your footage stays at home, on built-in memory, a microSD card or a recorder. Manufacturers do sell cloud plans, but they are optional.</p>
+<p>To browse every model available, see our <a href="/ca/securite-maison/sonnettes-video">video doorbell selection</a>.</p>
+
+<h2>Why choose a video doorbell without a subscription?</h2>
+<p>With many smart doorbells, buying the device is only the start. Without a plan, a Ring doorbell lets you watch the live view, receive notifications and talk to visitors, but it records nothing: you cannot replay a delivery that happened while you were out. The Google Nest Doorbell (battery) keeps 3 hours of event history for free; beyond that you need Nest Aware. Over a few years, these fees can end up costing more than the doorbell itself.</p>
+<p>A doorbell with local storage removes that recurring cost. It also limits how much of your footage travels to third-party servers, which is a real plus for your visitors' privacy as well as your own.</p>
+
+<h2>How to choose</h2>
+<h3>Type of local storage</h3>
+<p>There are three options. Built-in memory (8 GB on the Eufy E340) works straight away, with no card to buy. A microSD card, inserted in the doorbell or the chime, offers more space: up to 512 GB depending on the model. Finally, some brands such as Reolink can record to a network video recorder (NVR) that brings all your cameras together. Always check that no essential feature (person detection, event history) is locked behind the paid plan.</p>
+<h3>Battery or existing wiring</h3>
+<p>A battery doorbell goes up in minutes with no cable to run, but it needs recharging regularly. The battery life quoted by manufacturers depends heavily on the number of events, the temperature and Wi-Fi quality. If you already have a wired doorbell, most models connect to the existing transformer (usually 8 to 24 V AC): the battery stays topped up and some features, such as pre-roll of the seconds before motion, become available.</p>
+<h3>Field of view and framing</h3>
+<p>A conventional doorbell films in landscape: you see the face, but not always the package at the foot of the door. Head-to-toe models (4:3 or 1:1 aspect ratio) or dual-camera models solve this. A 160 to 180° angle also covers the sides of the porch.</p>
+<h3>Smart detection</h3>
+<p>Basic motion detection fires alerts for every passing car or swaying branch. Choose a doorbell that recognizes people, and ideally packages, pets and vehicles, and lets you draw detection zones. On the models selected here, these features are included without a subscription.</p>
+<h3>Smart home ecosystem</h3>
+<p>Check compatibility with your assistant: Amazon Alexa and Google Assistant are widely supported, Apple Home far less so. Think about the indoor chime too: some models include one, others sell it separately or rely on your existing chime.</p>
+
+<h2>The 5 best video doorbells without a subscription in 2026</h2>
+<h3>1. Eufy Video Doorbell E340: best overall</h3>
+<p>The <strong>Eufy Video Doorbell E340</strong> stands out with its dual camera: the main lens films the visitor while a second, downward-facing camera keeps an eye on packages left at the door. The 8 GB of built-in memory stores clips without a microSD card or base station, and without a subscription. It runs on a rechargeable battery or on existing doorbell wiring.</p>
+<p>Colour night vision, two-way audio and person and package detection are all included. It is managed through the eufy Security app and shows up on Amazon Alexa and Google Assistant displays. For extra storage, it can be paired with a HomeBase S380.</p>
+<p><strong>Strengths:</strong> the only dual camera in this selection, built-in storage ready to go, battery or wired power.<br><strong>Limitations:</strong> no Apple Home support, fairly thick housing. Eufy was criticized in 2022 for thumbnails sent to its cloud; the brand has since changed its app and practices, but privacy-minded buyers may want to keep this in mind.<br><strong>Best for:</strong> most households that receive packages and want a complete setup with nothing else to install.</p>
+
+<h3>2. TP-Link Tapo D235: best value</h3>
+<p>The <strong>TP-Link Tapo D235</strong> records 5-megapixel 2K video (2560 × 1920) with a 180° field of view that frames visitors from head to toe. Its 10,000 mAh battery is rated by TP-Link for up to 210 days, and it can also be wired to an 8 to 24 V supply. Footage is saved to a microSD card of up to 512 GB.</p>
+<p>Person, vehicle, pet and package detection is free, as are notifications. The indoor chime comes in the box, colour night vision uses a built-in spotlight and the housing is rated IP66. It works with Alexa and Google Assistant.</p>
+<p><strong>Strengths:</strong> very detailed image, long rated battery life, chime included, full detection with no subscription.<br><strong>Limitations:</strong> microSD card sold separately, no Apple Home support, the Tapo Care plan is still promoted in the app.<br><strong>Best for:</strong> anyone who wants the essentials done well at an entry-level price.</p>
+
+<h3>3. Aqara Video Doorbell G4: the Apple Home choice</h3>
+<p>The <strong>Aqara Video Doorbell G4</strong> is one of the few doorbells that support HomeKit Secure Video. It records in 1080p with a 162° field of view and runs on six AA batteries or 12 to 24 V wiring. The included chime takes a microSD card of up to 512 GB for local recording, and Aqara highlights face recognition processed on the device.</p>
+<p>One detail to note: recording through HomeKit Secure Video requires an iCloud+ storage plan from Apple. Without it, the doorbell still works subscription-free thanks to the microSD card in the chime. It also works with Alexa and Google Assistant.</p>
+<p><strong>Strengths:</strong> deep integration with Apple's Home app, chime with local storage, replaceable batteries.<br><strong>Limitations:</strong> resolution limited to Full HD, AA batteries to replace rather than a rechargeable pack.<br><strong>Best for:</strong> households with iPhones, iPads or an Apple TV.</p>
+
+<h3>4. Reolink Video Doorbell WiFi: the sharpest wired option</h3>
+<p>The <strong>Reolink Video Doorbell WiFi</strong> records 5-megapixel video (2560 × 1920) in 4:3 format with a 180° diagonal field of view. It connects over dual-band Wi-Fi (2.4 and 5 GHz) and records to a microSD card of up to 256 GB. It runs on existing doorbell wiring only, at 12 to 24 V AC. A PoE version, powered over an Ethernet cable, is also available.</p>
+<p>Its strength is the Reolink ecosystem: the doorbell can record to a Reolink NVR alongside your other cameras. It works with Alexa and Google Assistant.</p>
+<p><strong>Strengths:</strong> excellent resolution, 5 GHz Wi-Fi, fits into a complete security camera system.<br><strong>Limitations:</strong> no battery, app less intuitive than Eufy's or Tapo's.<br><strong>Best for:</strong> homes with existing wiring, and anyone who already owns or plans Reolink cameras.</p>
+
+<h3>5. Reolink Battery Doorbell: square framing on battery</h3>
+<p>The <strong>Reolink Battery Doorbell</strong>, launched in late 2024, records 4-megapixel 2K video in a square 1:1 format: visitors appear in full and packages on the ground stay in the frame. It records to a microSD card of up to 256 GB, connects over dual-band Wi-Fi and can be linked to an existing wired chime.</p>
+<p><strong>Strengths:</strong> head-to-toe framing, 5 GHz Wi-Fi, no reliance on the cloud.<br><strong>Limitations:</strong> microSD card needed, smaller smart home ecosystem than Eufy or Tapo.<br><strong>Best for:</strong> anyone who wants a wireless doorbell with tall framing and no base station.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Image</th><th>Local storage</th><th>Power</th><th>Compatibility</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Eufy Video Doorbell E340</td><td>Dual camera (visitor + ground)</td><td>8 GB built in</td><td>Battery or wired</td><td>Alexa, Google Assistant</td><td>Packages and all-round use</td></tr>
+<tr><td>TP-Link Tapo D235</td><td>2K 5 MP, 180°</td><td>microSD up to 512 GB</td><td>10,000 mAh battery or wired</td><td>Alexa, Google Assistant</td><td>Best value</td></tr>
+<tr><td>Aqara Video Doorbell G4</td><td>1080p, 162°</td><td>microSD in the chime</td><td>6 AA batteries or wired</td><td>Apple Home, Alexa, Google</td><td>Apple households</td></tr>
+<tr><td>Reolink Video Doorbell WiFi</td><td>5 MP, 180° diagonal</td><td>microSD up to 256 GB, NVR</td><td>Wired only</td><td>Alexa, Google Assistant</td><td>Wired homes</td></tr>
+<tr><td>Reolink Battery Doorbell</td><td>2K 4 MP, 1:1 format</td><td>microSD up to 256 GB</td><td>Battery</td><td>Reolink app</td><td>Head-to-toe framing</td></tr>
+</tbody>
+</table>
+
+<h2>What about Ring or Google Nest?</h2>
+<p>Ring and Google Nest are in just about every store, but they do not really deliver on the "no subscription" promise. Without a plan, a Ring doorbell gives you live view, alerts and two-way talk, but keeps no recordings. The Google Nest Doorbell (battery) keeps 3 hours of event history for free, then asks for Nest Aware to go further. They remain sensible if you already subscribe and are committed to the Alexa or Google ecosystem, but they are not part of our selection.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Forgetting the microSD card:</strong> on most models it is not included. Without a card, the doorbell records nothing.</li>
+<li><strong>Ignoring Wi-Fi at the door:</strong> check the signal on the doorstep with your phone. A weak signal slows the live view and drains the battery faster; an extender may be needed.</li>
+<li><strong>Filming the street:</strong> set privacy zones to mask the sidewalk and the road.</li>
+<li><strong>Trusting rated battery life:</strong> it assumes moderate use. A busy street or a cold winter can cut it considerably.</li>
+<li><strong>Forgetting the chime:</strong> without an indoor chime, you only hear the doorbell on your phone.</li>
+</ul>
+
+<h2>Installation and privacy</h2>
+<p>A battery doorbell mounts with two screws and a bracket in about 15 minutes. To connect to existing wiring, turn off the power at the breaker panel first, then check that the transformer voltage matches the range given by the manufacturer. If in doubt, or if a new transformer has to be connected to your household wiring, call a licensed electrician: electrical work rules are set by each province and territory.</p>
+<p>On privacy, European data protection authorities, including France's CNIL and the UK's ICO, advise filming only your own property where possible. If your camera captures public space, privacy rules may apply to you, so check what applies where you live. Point the camera at your doorstep, use privacy masks and let visitors know. Turn on two-factor authentication for your account and change any default password.</p>
+<p>To complete your setup, see our comparison of <a href="/ca/blog/interphone-video-connecte">smart video intercoms</a>, suited to gates and apartment buildings, and our selection of <a href="/ca/blog/camera-interieure-sans-abonnement">indoor cameras without a subscription</a>.</p>
+
+<h2>Verdict</h2>
+<p>The <strong>Eufy Video Doorbell E340</strong> is the most complete choice: a dual camera for packages, built-in storage and battery or wired power, with no monthly fees. The <strong>TP-Link Tapo D235</strong> is the best value, with its 5-megapixel image, large battery and included chime. Apple households should look at the <strong>Aqara Video Doorbell G4</strong>, while the <strong>Reolink Video Doorbell WiFi</strong> suits pre-wired homes and the <strong>Reolink Battery Doorbell</strong> anyone who wants head-to-toe framing on battery.</p>`,
   },
   faq: [
     {
@@ -603,6 +847,9 @@ export const article: BlogArticle = {
         it: "Un videocampanello può davvero funzionare senza abbonamento?",
         nl: "Kan een videodeurbel echt werken zonder abonnement?",
         pl: "Czy dzwonek wideo naprawdę może działać bez abonamentu?",
+        sv: "Kan en videodörrklocka verkligen fungera utan abonnemang?",
+        us: "Can a video doorbell really work with no subscription?",
+        ca: "Can a video doorbell really work without a subscription?",
       },
       answer: {
         fr: "Oui, à condition qu'elle dispose d'un stockage local. L'Eufy E340 enregistre sur 8 Go de mémoire intégrée, la Tapo D235 et les sonnettes Reolink sur carte microSD, l'Aqara G4 sur la microSD de son carillon. Direct, notifications et détection de personnes restent gratuits sur ces modèles.",
@@ -611,7 +858,10 @@ export const article: BlogArticle = {
         es: "Sí, siempre que tenga almacenamiento local. El Eufy E340 graba en 8 GB de memoria interna, el Tapo D235 y los timbres Reolink en tarjeta microSD, y el Aqara G4 en la microSD de su carillón. El directo, las notificaciones y la detección de personas son gratuitos en estos modelos.",
         it: "Sì, purché disponga di archiviazione locale. L'Eufy E340 registra su 8 GB di memoria integrata, il Tapo D235 e i campanelli Reolink su scheda microSD, l'Aqara G4 sulla microSD del ricevitore. Diretta, notifiche e rilevamento persone restano gratuiti su questi modelli.",
         nl: "Ja, zolang hij lokale opslag heeft. De Eufy E340 neemt op in 8 GB intern geheugen, de Tapo D235 en de Reolink-deurbellen op een microSD-kaart en de Aqara G4 op de microSD-kaart in de gong. Livebeeld, meldingen en persoonsdetectie blijven bij deze modellen gratis.",
-        pl: "Tak, pod warunkiem że ma zapis lokalny. Eufy E340 nagrywa na 8 GB pamięci wbudowanej, Tapo D235 i dzwonki Reolink na karcie microSD, a Aqara G4 na karcie microSD w gongu. Podgląd na żywo, powiadomienia i wykrywanie osób pozostają w tych modelach bezpłatne.",
+        pl: "Tak, o ile zapisuje nagrania lokalnie. Eufy E340 zapisuje je w 8 GB wbudowanej pamięci, Tapo D235 i dzwonki Reolink – na karcie microSD, a Aqara G4 – na karcie microSD w gongu. Podgląd na żywo, powiadomienia i wykrywanie osób są w tych modelach bezpłatne.",
+        sv: "Ja, om den har lokal lagring. Eufy E340 spelar in på 8 GB inbyggt minne, Tapo D235 och Reolinks dörrklockor på ett microSD-kort och Aqara G4 på microSD-kortet i ringklockan. Livebild, notiser och persondetektering ingår gratis på de här modellerna.",
+        us: "Yes, as long as it has local storage. The Eufy E340 records to 8 GB of built-in memory, the Tapo D235 and the Reolink doorbells to a microSD card, and the Aqara G4 to the microSD card in its chime. Live view, notifications and person detection stay free on all of these models.",
+        ca: "Yes, as long as it has local storage. The Eufy E340 records to 8 GB of built-in memory, the Tapo D235 and Reolink doorbells to a microSD card, and the Aqara G4 to the microSD card in its chime. Live view, notifications and person detection stay free on these models.",
       },
     },
     {
@@ -623,6 +873,9 @@ export const article: BlogArticle = {
         it: "Cosa fa un campanello Ring senza abbonamento?",
         nl: "Wat doet een Ring-deurbel zonder abonnement?",
         pl: "Co potrafi dzwonek Ring bez abonamentu?",
+        sv: "Vad kan en dörrklocka från Ring göra utan abonnemang?",
+        us: "What does a Ring doorbell do without a subscription?",
+        ca: "What does a Ring doorbell do without a subscription?",
       },
       answer: {
         fr: "Sans forfait, une sonnette Ring permet de voir le direct, de recevoir les alertes et de parler au visiteur, mais elle ne conserve aucune vidéo. Pour revoir un événement passé, il faut souscrire un abonnement Ring.",
@@ -631,7 +884,10 @@ export const article: BlogArticle = {
         es: "Sin plan, un timbre Ring permite ver el directo, recibir alertas y hablar con el visitante, pero no guarda ningún vídeo. Para revisar un evento pasado, hace falta una suscripción de Ring.",
         it: "Senza piano, un campanello Ring consente di vedere la diretta, ricevere avvisi e parlare con il visitatore, ma non conserva alcun video. Per rivedere un evento passato serve un abbonamento Ring.",
         nl: "Zonder abonnement kun je met een Ring-deurbel het livebeeld bekijken, meldingen ontvangen en met de bezoeker praten, maar er worden geen video's bewaard. Om een gebeurtenis terug te kijken, heb je een Ring-abonnement nodig.",
-        pl: "Bez planu dzwonek Ring pozwala zobaczyć podgląd na żywo, otrzymywać alerty i rozmawiać z odwiedzającym, ale nie przechowuje żadnego nagrania. Aby obejrzeć wcześniejsze zdarzenie, trzeba wykupić abonament Ring.",
+        pl: "Bez płatnego planu dzwonek Ring pokazuje obraz na żywo, wysyła powiadomienia i pozwala porozmawiać z gościem, ale nie zapisuje żadnych nagrań. Żeby obejrzeć wcześniejsze zdarzenie, trzeba wykupić abonament Ring.",
+        sv: "Utan abonnemang kan du se livebilden, få notiser och prata med besökaren via en dörrklocka från Ring, men ingen video sparas. Vill du se en tidigare händelse i efterhand krävs ett Ring-abonnemang.",
+        us: "Without a plan, a Ring doorbell lets you watch the live view, get alerts and talk to visitors, but it doesn't save any video. To replay a past event, you need a Ring subscription.",
+        ca: "Without a plan, a Ring doorbell lets you watch the live view, receive alerts and talk to visitors, but it keeps no video. To replay a past event, you need a Ring subscription.",
       },
     },
     {
@@ -642,7 +898,10 @@ export const article: BlogArticle = {
         es: "Batería o cable: ¿qué elegir?",
         it: "Batteria o cavo: cosa scegliere?",
         nl: "Accu of bedraad: wat kies je?",
-        pl: "Akumulator czy przewód: co wybrać?",
+        pl: "Akumulator czy zasilanie przewodowe: co wybrać?",
+        sv: "Batteridriven eller trådbunden: vilken ska jag välja?",
+        us: "Battery or wired: which should you choose?",
+        ca: "Battery or wired: which should I choose?",
       },
       answer: {
         fr: "La batterie est idéale sans câblage existant : la pose prend un quart d'heure, mais il faut recharger. Si vous avez déjà une sonnette filaire, le raccordement garde la batterie chargée et active parfois la pré-capture. L'Eufy E340 et la Tapo D235 acceptent les deux modes.",
@@ -651,7 +910,10 @@ export const article: BlogArticle = {
         es: "La batería es ideal si no tienes cableado: se instala en un cuarto de hora, pero hay que recargarla. Si ya tienes un timbre con cable, conectarlo mantiene la batería cargada y a veces activa la pregrabación. El Eufy E340 y el Tapo D235 admiten ambos modos.",
         it: "La batteria è ideale senza cablaggio esistente: si monta in un quarto d'ora, ma va ricaricata. Se hai già un campanello cablato, il collegamento mantiene carica la batteria e talvolta attiva la preregistrazione. Eufy E340 e Tapo D235 supportano entrambe le modalità.",
         nl: "Een accu is ideaal zonder bestaande bedrading: ophangen kost een kwartier, maar je moet opladen. Heb je al een bedrade deurbel, dan houdt aansluiten de accu vol en maakt het soms vooraf opnemen mogelijk. De Eufy E340 en Tapo D235 ondersteunen beide.",
-        pl: "Akumulator sprawdza się, gdy nie ma okablowania: montaż trwa kwadrans, ale trzeba ładować. Jeśli masz już dzwonek przewodowy, podłączenie utrzymuje akumulator naładowany i czasem włącza wstępne nagrywanie. Eufy E340 i Tapo D235 obsługują oba tryby.",
+        pl: "Akumulator to najlepsze rozwiązanie, jeśli nie masz instalacji dzwonkowej: montaż zajmuje około kwadransa, ale dzwonek trzeba regularnie ładować. Jeśli masz już dzwonek przewodowy, podłączenie go do instalacji utrzymuje akumulator w stanie naładowania, a czasem odblokowuje też zapis kilku sekund sprzed wykrycia ruchu. Eufy E340 i Tapo D235 obsługują oba sposoby zasilania.",
+        sv: "En batteridriven dörrklocka passar bäst om det saknas ledningar sedan tidigare: monteringen tar en kvart, men batteriet måste laddas med jämna mellanrum. Har du redan en trådbunden dörrklocka håller anslutningen till den batteriet laddat och aktiverar ibland förinspelning. Eufy E340 och Tapo D235 klarar båda alternativen.",
+        us: "Battery power is ideal if you don't have existing doorbell wiring: installation takes about 15 minutes, but you'll have to recharge it. If you already have a wired doorbell, hooking into it keeps the battery charged and sometimes unlocks pre-roll recording. The Eufy E340 and Tapo D235 support both options.",
+        ca: "Battery power is ideal if you have no existing wiring: installation takes about 15 minutes, but you have to recharge it. If you already have a wired doorbell, connecting to it keeps the battery charged and sometimes enables pre-roll. The Eufy E340 and Tapo D235 support both modes.",
       },
     },
     {
@@ -662,7 +924,10 @@ export const article: BlogArticle = {
         es: "¿Qué timbre con vídeo sin suscripción es compatible con Apple Home?",
         it: "Quale videocampanello senza abbonamento è compatibile con Apple Casa?",
         nl: "Welke videodeurbel zonder abonnement werkt met Apple Woning?",
-        pl: "Który dzwonek wideo bez abonamentu jest zgodny z Apple Home?",
+        pl: "Który dzwonek wideo bez abonamentu współpracuje z Apple Home?",
+        sv: "Vilken videodörrklocka utan abonnemang fungerar med Apple Home?",
+        us: "Which video doorbell with no subscription works with Apple Home?",
+        ca: "Which subscription-free video doorbell works with Apple Home?",
       },
       answer: {
         fr: "Dans cette sélection, l'Aqara Video Doorbell G4 est la seule compatible HomeKit Secure Video. L'enregistrement via HomeKit nécessite un forfait iCloud+, mais la sonnette peut aussi enregistrer gratuitement sur la carte microSD de son carillon.",
@@ -671,7 +936,10 @@ export const article: BlogArticle = {
         es: "En esta selección, el Aqara Video Doorbell G4 es el único compatible con HomeKit Secure Video. Grabar mediante HomeKit requiere un plan iCloud+, pero el timbre también puede grabar gratis en la microSD de su carillón.",
         it: "In questa selezione, l'Aqara Video Doorbell G4 è l'unico compatibile con HomeKit Secure Video. La registrazione tramite HomeKit richiede un piano iCloud+, ma il campanello può anche registrare gratis sulla microSD del ricevitore.",
         nl: "In deze selectie ondersteunt alleen de Aqara Video Doorbell G4 HomeKit Secure Video. Opnemen via HomeKit vereist een iCloud+-abonnement, maar de deurbel kan ook gratis opnemen op de microSD-kaart in de gong.",
-        pl: "W tym zestawieniu tylko Aqara Video Doorbell G4 jest zgodny z HomeKit Secure Video. Nagrywanie przez HomeKit wymaga planu iCloud+, ale dzwonek może też nagrywać bezpłatnie na karcie microSD w swoim gongu.",
+        pl: "W tym zestawieniu HomeKit Secure Video obsługuje tylko Aqara Video Doorbell G4. Zapis przez HomeKit wymaga planu iCloud+, ale dzwonek może też bezpłatnie zapisywać nagrania na karcie microSD w gongu.",
+        sv: "I det här urvalet är Aqara Video Doorbell G4 den enda som stöder HomeKit Secure Video. Inspelning via HomeKit kräver ett iCloud+-abonnemang, men dörrklockan kan också spela in gratis på microSD-kortet i den tillhörande ringklockan.",
+        us: "Of our picks, the Aqara Video Doorbell G4 is the only one that supports HomeKit Secure Video. Recording through HomeKit requires an iCloud+ plan, but the doorbell can also record for free to the microSD card in its chime.",
+        ca: "In this selection, the Aqara Video Doorbell G4 is the only one that supports HomeKit Secure Video. Recording through HomeKit requires an iCloud+ plan, but the doorbell can also record for free to the microSD card in its chime.",
       },
     },
     {
@@ -682,7 +950,10 @@ export const article: BlogArticle = {
         es: "¿Puedo grabar delante de mi casa con un timbre con vídeo?",
         it: "Posso riprendere davanti a casa con un videocampanello?",
         nl: "Mag ik voor mijn huis filmen met een videodeurbel?",
-        pl: "Czy mogę nagrywać teren przed domem dzwonkiem wideo?",
+        pl: "Czy wolno mi nagrywać teren przed domem dzwonkiem wideo?",
+        sv: "Får jag filma utanför mitt hem med en videodörrklocka?",
+        us: "Can you record outside your home with a video doorbell?",
+        ca: "Am I allowed to film outside my home with a video doorbell?",
       },
       answer: {
         fr: "Oui, mais uniquement votre propriété. La CNIL rappelle qu'un particulier ne doit filmer ni la voie publique ni la propriété voisine. Orientez la caméra vers votre seuil, utilisez les zones de confidentialité et informez vos visiteurs.",
@@ -691,7 +962,10 @@ export const article: BlogArticle = {
         es: "Sí, pero solo tu propiedad. La AEPD recuerda que un particular no debe grabar la vía pública ni la propiedad vecina. Orienta la cámara hacia tu entrada, usa zonas de privacidad e informa a tus visitantes.",
         it: "Sì, ma solo la tua proprietà. Il Garante privacy ricorda che un privato non dovrebbe riprendere la strada pubblica né la proprietà dei vicini. Orienta la telecamera verso il tuo ingresso, usa le zone di privacy e informa i visitatori.",
         nl: "Ja, maar alleen je eigen terrein. De Autoriteit Persoonsgegevens raadt af de openbare weg of het terrein van de buren te filmen. Richt de camera op je voordeur, gebruik privacyzones en informeer bezoekers.",
-        pl: "Tak, ale wyłącznie własną posesję. We Francji CNIL przypomina, że osoba prywatna nie powinna filmować drogi publicznej ani posesji sąsiada; zasady mogą się różnić w zależności od kraju, więc sprawdź przepisy obowiązujące w miejscu zamieszkania. Skieruj kamerę na swój próg, korzystaj ze stref prywatności i informuj odwiedzających.",
+        pl: "Tak, ale tylko własną posesję. Francuski urząd ochrony danych osobowych CNIL przypomina, że osoba prywatna nie powinna filmować drogi publicznej ani posesji sąsiada. W innych krajach zasady mogą być inne, więc sprawdź przepisy obowiązujące tam, gdzie mieszkasz. Skieruj kamerę na własny próg, ustaw strefy prywatności i poinformuj gości o nagrywaniu.",
+        sv: "Ja, men håll dig i möjligaste mån till din egen tomt. Dataskyddsmyndigheter, bland dem den franska CNIL, avråder privatpersoner från att filma gatan eller grannens fastighet. Rikta kameran mot din egen entré, använd integritetszoner och upplys besökarna om kameran.",
+        us: "Yes, but stick to your own property where you can. Privacy regulators such as France's CNIL advise against filming the street or a neighbor's property, and the rules vary by location. Aim the camera at your front step, use privacy zones and let visitors know.",
+        ca: "Yes, but stick to your own property where possible. European data protection authorities, including France's CNIL and the UK's ICO, advise against filming the street or a neighbour's property. Point the camera at your doorstep, use privacy zones and let visitors know. Privacy rules vary, so check what applies where you live.",
       },
     },
     {
@@ -703,6 +977,9 @@ export const article: BlogArticle = {
         it: "Quale scheda microSD scegliere per un videocampanello?",
         nl: "Welke microSD-kaart kies je voor een videodeurbel?",
         pl: "Jaką kartę microSD wybrać do dzwonka wideo?",
+        sv: "Vilket microSD-kort ska jag välja till en videodörrklocka?",
+        us: "Which microSD card should you use in a video doorbell?",
+        ca: "Which microSD card should I use in a video doorbell?",
       },
       answer: {
         fr: "Choisissez une carte d'une marque reconnue, de préférence en version « endurance » conçue pour la vidéosurveillance, et respectez la capacité maximale indiquée : 256 Go pour les Reolink, 512 Go pour la Tapo D235 et le carillon de l'Aqara G4. Formatez-la depuis l'application.",
@@ -711,7 +988,10 @@ export const article: BlogArticle = {
         es: "Elige una tarjeta de una marca reconocida, preferiblemente de alta resistencia pensada para videovigilancia, y respeta la capacidad máxima: 256 GB en los Reolink, 512 GB en el Tapo D235 y en el carillón del Aqara G4. Formatéala desde la app.",
         it: "Scegli una scheda di una marca affidabile, preferibilmente di tipo high endurance pensata per la videosorveglianza, e rispetta la capacità massima: 256 GB per i Reolink, 512 GB per il Tapo D235 e il ricevitore dell'Aqara G4. Formattala dall'app.",
         nl: "Kies een kaart van een bekend merk, bij voorkeur een high-endurance-uitvoering voor camerabewaking, en blijf binnen de maximale capaciteit: 256 GB voor de Reolink-deurbellen, 512 GB voor de Tapo D235 en de gong van de Aqara G4. Formatteer hem via de app.",
-        pl: "Wybierz kartę uznanej marki, najlepiej w wersji „endurance”, przeznaczonej do monitoringu, i przestrzegaj maksymalnej podanej pojemności: 256 GB dla Reolink, 512 GB dla Tapo D235 i gongu Aqara G4. Sformatuj ją z poziomu aplikacji.",
+        pl: "Wybierz kartę renomowanej marki, najlepiej w wersji o podwyższonej wytrzymałości (tzw. endurance), przeznaczonej do monitoringu, i nie przekraczaj maksymalnej pojemności podanej przez producenta: 256 GB w dzwonkach Reolink, 512 GB w Tapo D235 i w gongu Aqara G4. Kartę sformatuj w aplikacji.",
+        sv: "Välj ett kort från ett välkänt märke, helst en ”endurance”-modell som är gjord för videoövervakning, och håll dig inom den angivna maxkapaciteten: 256 GB för Reolinks dörrklockor, 512 GB för Tapo D235 och för ringklockan till Aqara G4. Formatera kortet i appen.",
+        us: "Pick a card from a reputable brand, ideally a high-endurance card designed for security cameras, and stay within the rated maximum: 256 GB for the Reolink doorbells, 512 GB for the Tapo D235 and the Aqara G4 chime. Format it in the app.",
+        ca: "Pick a card from a reputable brand, ideally a high-endurance model designed for surveillance, and stay within the stated maximum: 256 GB for the Reolink doorbells, 512 GB for the Tapo D235 and the Aqara G4 chime. Format it from the app.",
       },
     },
   ],

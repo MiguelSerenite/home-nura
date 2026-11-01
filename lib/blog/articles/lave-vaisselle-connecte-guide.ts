@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Lavavajillas abierto con la cesta superior cargada de vasos y tazas en una cocina',
         it: 'Lavastoviglie aperta con il cestello superiore carico di bicchieri e tazze in cucina',
         nl: 'Geopende vaatwasser met bovenkorf vol glazen en kopjes in een keuken',
-        pl: 'Górny kosz otwartej zmywarki załadowany szklankami i filiżankami w kuchni',
+        pl: 'Górny kosz otwartej zmywarki ze szklankami i filiżankami w kuchni',
+        sv: 'Öppen diskmaskin med överkorgen full av glas och koppar i ett kök',
+        us: 'Open dishwasher upper rack loaded with glasses and mugs in a home kitchen',
+        ca: 'Open dishwasher upper rack loaded with glasses and cups in a home kitchen',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Miglior lavastoviglie 2026: confronto tra 5 modelli connessi',
     nl: 'Beste slimme vaatwasser 2026: 5 modellen vergeleken',
     pl: 'Najlepsza inteligentna zmywarka 2026: porównanie 5 modeli',
+    sv: 'Bästa smarta diskmaskin 2026: 5 modeller jämförda',
+    us: 'Best Smart Dishwashers of 2026: 5 Wi-Fi Models Compared',
+    ca: 'Best Smart Dishwasher 2026: 5 Wi-Fi Models Compared',
   },
   excerpt: {
     fr: 'Bosch Serie 6, Miele G 7000 AutoDos, Siemens iQ500, LG QuadWash, Haier hOn : quel lave-vaisselle connecté choisir en 2026 ? Étiquette énergie A–G, bruit, couverts, dosage automatique et vraie utilité de l’application.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'Bosch Serie 6, Miele G 7000 AutoDos, Siemens iQ500, LG QuadWash, Haier hOn: ¿cuál es el mejor lavavajillas de 2026? Etiqueta energética A–G, ruido, cubiertos, dosificación automática y para qué sirve de verdad la app.',
     it: 'Bosch Serie 6, Miele G 7000 AutoDos, Siemens iQ500, LG QuadWash, Haier hOn: qual è la miglior lavastoviglie del 2026? Etichetta energetica A–G, rumorosità, coperti, dosaggio automatico e a cosa serve davvero l’app.',
     nl: 'Bosch Serie 6, Miele G 7000 AutoDos, Siemens iQ500, LG QuadWash, Haier hOn: welke slimme vaatwasser kies je in 2026? Energielabel A–G, geluid, couverts, automatische dosering en wat de app echt oplevert.',
-    pl: 'Bosch Serie 6, Miele G 7000 AutoDos, Siemens iQ500, LG QuadWash, Haier hOn: jaką zmywarkę z aplikacją wybrać w 2026 roku? Etykieta energetyczna A–G, hałas, komplety naczyń, automatyczne dozowanie i prawdziwa przydatność aplikacji.',
+    pl: 'Bosch Serie 6, Miele G 7000 AutoDos, Siemens iQ500, LG QuadWash, Haier hOn: jaką zmywarkę z aplikacją wybrać w 2026 roku? Etykieta energetyczna A–G, hałas, liczba kompletów naczyń, automatyczne dozowanie i to, na ile aplikacja naprawdę się przydaje.',
+    sv: 'Bosch Serie 6, Miele G 7000 AutoDos, Siemens iQ500, LG QuadWash, Haier hOn: vilken smart diskmaskin ska du välja 2026? EU:s energimärkning A–G, ljudnivå, antal kuvert, automatisk dosering och vad appen faktiskt är bra för.',
+    us: 'Bosch Series 6, Miele G 7000 AutoDos, Siemens iQ500, LG QuadWash and Haier hOn: which smart dishwasher should you buy in 2026? The EU A–G energy label, noise, place settings, auto-dosing and what the app is really good for.',
+    ca: 'Bosch Series 6, Miele G 7000 AutoDos, Siemens iQ500, LG QuadWash, Haier hOn: which smart dishwasher should you buy in 2026? EU energy label A–G, noise, place settings, auto-dosing and what the app is really good for.',
   },
   content: {
     fr: `<p><strong>Le meilleur lave-vaisselle connecté en 2026 pour la plupart des foyers est le Bosch Serie 6 SMS6ZCI42E</strong> : 14 couverts, séchage à la zéolithe, troisième panier, 44 dB et une application Home Connect complète. Si vous voulez ne plus jamais doser de détergent, le Miele G 7110 SC AutoDos est le choix le plus abouti ; pour une cuisine équipée à petit budget, le Haier XS 6B0S3FSB offre 16 couverts et 40 dB.</p>
@@ -671,111 +680,426 @@ export const article: BlogArticle = {
 
 <h2>Eindoordeel</h2>
 <p>De <strong>Bosch Serie 6 SMS6ZCI42E</strong> blijft de meest evenwichtige keuze: zeolietdroging, een derde lade en een volwassen Home Connect-app. De <strong>Miele G 7110 SC AutoDos</strong> is de premiumoptie voor wie automatische dosering en bewezen levensduur wil. In een inbouwkeuken blinkt de <strong>Siemens iQ500 SN65ZX07CE</strong> uit door zijn stilte, terwijl de <strong>Haier XS 6B0S3FSB</strong> 16 couverts biedt voor een redelijke prijs. De <strong>LG DF455HSS</strong> spreekt liefhebbers van stoom en het ThinQ-ecosysteem aan.</p>`,
-    pl: `<p><strong>Najlepszą inteligentną zmywarką w 2026 roku dla większości gospodarstw domowych jest Bosch Serie 6 SMS6ZCI42E</strong>: 14 kompletów naczyń, suszenie zeolitem, trzeci kosz, 44 dB i kompletna aplikacja Home Connect. Jeśli chcesz nigdy więcej nie dozować detergentu, najbardziej dopracowanym wyborem jest Miele G 7110 SC AutoDos; do kuchni z zabudową przy niewielkim budżecie Haier XS 6B0S3FSB oferuje 16 kompletów i 40 dB.</p>
-<p>To porównanie opiera się na kartach katalogowych producentów, kartach produktów z europejskiej etykiety energetycznej (baza EPREL), testach opublikowanych przez prasę branżową i zweryfikowanych opiniach kupujących. Obejmuje pięć ekosystemów, które się liczą w Europie: Home Connect (Bosch, Siemens), Miele@home, LG ThinQ i Haier hOn. Aby zobaczyć całą gamę, zajrzyj do naszej kategorii <a href="/pl/entretien-maison/lave-vaisselle-connectes">inteligentne zmywarki</a>.</p>
+    pl: `<p><strong>Dla większości gospodarstw domowych najlepszą inteligentną zmywarką w 2026 roku jest Bosch Serie 6 SMS6ZCI42E</strong>: 14 kompletów naczyń, suszenie zeolitowe, trzeci kosz, 44 dB i rozbudowana aplikacja Home Connect. Jeśli chcesz raz na zawsze zapomnieć o dozowaniu detergentu, najbardziej dopracowanym wyborem jest Miele G 7110 SC AutoDos. Do kuchni w zabudowie przy niewielkim budżecie warto rozważyć model Haier XS 6B0S3FSB: 16 kompletów i 40 dB.</p>
+<p>Zestawienie opiera się na kartach katalogowych producentów, kartach informacyjnych produktów z unijnej bazy etykiet energetycznych EPREL, testach publikowanych w prasie branżowej oraz zweryfikowanych opiniach kupujących. Uwzględnia pięć ekosystemów, które liczą się w Europie: Home Connect (Bosch, Siemens), Miele@home, LG ThinQ i Haier hOn. Wszystkie modele znajdziesz w kategorii <a href="/pl/entretien-maison/lave-vaisselle-connectes">inteligentne zmywarki</a>.</p>
 
-<h2>Kryteria, które naprawdę się liczą przy wyborze</h2>
+<h2>Kryteria wyboru, które naprawdę się liczą</h2>
 
-<h3>Etykieta energetyczna A–G (wersja 2021)</h3>
-<p>Od 1 marca 2021 roku etykieta energetyczna zmywarek została przeskalowana: klasy od A+++ do D zniknęły na rzecz skali od A do G, znacznie bardziej wymagającej. Dawne A+++ trafia dziś często do klasy C lub D. W praktyce <strong>klasa B lub C to już dobry wynik</strong>, a klasa A pozostaje rzadkością. Etykieta podaje też zużycie w kWh na 100 cykli programu Eco, ilość wody na cykl, czas trwania programu Eco, liczbę kompletów naczyń oraz hałas wraz z jego klasą (A do D). Kod QR odsyła do oficjalnej karty modelu w europejskiej bazie EPREL.</p>
+<h3>Etykieta energetyczna A–G (od 2021 roku)</h3>
+<p>Od 1 marca 2021 roku zmywarki mają nową, przeskalowaną etykietę energetyczną: klasy od A+++ do D zastąpiła znacznie bardziej wymagająca skala od A do G. Model, który miał dawniej klasę A+++, dziś często trafia do klasy C lub D. W praktyce <strong>klasa B lub C to już dobry wynik</strong>, a klasa A wciąż jest rzadkością. Etykieta podaje też zużycie energii w kWh na 100 cykli programu Eco, zużycie wody na cykl, czas trwania programu Eco, liczbę kompletów naczyń oraz poziom hałasu wraz z klasą emisji hałasu (od A do D). Kod QR prowadzi do oficjalnej karty modelu w unijnej bazie EPREL.</p>
 
 <h3>Hałas w decybelach</h3>
-<p>W kuchni otwartej na salon to kryterium, którego najbardziej żałuje się, że zostało zlekceważone. Poniżej 42 dB zmywarka staje się dyskretna; około 44 dB jest poprawna; powyżej 46 dB słychać ją wyraźnie podczas rozmowy. Wiele modeli ma dodatkowo program cichy (około 39 dB), przydatny w nocy.</p>
+<p>W kuchni otwartej na salon to właśnie zlekceważenia tego parametru kupujący żałują najczęściej. Poniżej 42 dB zmywarka pracuje naprawdę cicho, przy około 44 dB – akceptowalnie, a powyżej 46 dB wyraźnie słychać ją podczas rozmowy. Wiele modeli ma też program cichy (ok. 39 dB), przydatny w nocy.</p>
 
 <h3>Liczba kompletów naczyń</h3>
-<p>Standardowy format 60 cm mieści 13–14 kompletów, co wystarcza dla czteroosobowej rodziny. Modele na 15 lub 16 kompletów zyskują miejsce dzięki wyższej komorze i zoptymalizowanemu trzeciemu koszowi: ciekawe, jeśli dużo gotujesz lub uruchamiasz tylko jedną zmywarkę dziennie.</p>
+<p>Standardowa zmywarka o szerokości 60 cm mieści 13–14 kompletów, co wystarcza czteroosobowej rodzinie. Modele na 15 lub 16 kompletów zyskują dodatkowe miejsce dzięki wyższej komorze i lepiej rozplanowanemu trzeciemu koszowi. To dobry wybór, jeśli dużo gotujesz albo włączasz zmywarkę tylko raz dziennie.</p>
 
 <h3>Wolnostojąca czy do zabudowy</h3>
-<p>Model <strong>wolnostojący</strong> ma własną obudowę i blat; wiele z nich, jak Bosch z tego porównania, można wsunąć pod blat kuchenny po zdjęciu wierzchu. Model <strong>do pełnej zabudowy</strong> znika za frontem meblowym kuchni, sprzedawanym osobno. Zmierz wnękę (szerokość, wysokość, głębokość) przed jakimkolwiek zakupem.</p>
+<p>Model <strong>wolnostojący</strong> ma własną obudowę i górną pokrywę. Wiele takich zmywarek, w tym Bosch z tego zestawienia, po zdjęciu pokrywy można wsunąć pod blat kuchenny. Model <strong>do pełnej zabudowy</strong> chowa się za frontem meblowym, który kupuje się osobno. Przed zakupem zmierz wnękę: szerokość, wysokość i głębokość.</p>
 
 <h3>Automatyczne dozowanie</h3>
-<p>Automatyczne dozowanie przechowuje detergent na kilka tygodni i wstrzykuje odpowiednią ilość przy każdym cyklu. Miele robi to z AutoDos i kartridżami PowerDisk. Pozostałe wybrane tu modele używają klasycznego pojemnika na detergent, z asystentem dozowania u Boscha i Siemensa. Zaleta: koniec z przedawkowaniem i białymi śladami. Wada: materiał eksploatacyjny przypisany do marki.</p>
+<p>System automatycznego dozowania mieści zapas detergentu na kilka tygodni i przy każdym cyklu podaje odpowiednią porcję. W Miele odpowiada za to AutoDos z wkładami PowerDisk. Pozostałe modele z zestawienia mają klasyczny pojemnik na detergent, a w zmywarkach Bosch i Siemens wspiera go asystent dozowania. Zaletą jest brak przedawkowania i białego nalotu, wadą – konieczność kupowania wkładów tej konkretnej marki.</p>
 
 <h3>Trzeci kosz i czas programu Eco</h3>
-<p>Trzeci kosz (szuflada na sztućce) zwalnia dolny kosz i ułatwia układanie sztućców i przyborów. Program Eco trwa często od 3 do 4 godzin: to normalne. Przepisy dotyczące etykiety energetycznej narzucają go jako program referencyjny, a energię oszczędza właśnie dzięki dłuższemu myciu w niższej temperaturze.</p>
+<p>Trzeci kosz (szuflada na sztućce) odciąża dolny kosz i ułatwia układanie sztućców oraz przyborów kuchennych. Program Eco często trwa 3–4 godziny – to normalne. Zgodnie z przepisami to on jest programem odniesienia dla etykiety energetycznej, a energię oszczędza właśnie dzięki temu, że myje dłużej w niższej temperaturze.</p>
 
 <h3>Do czego naprawdę służy aplikacja</h3>
 <ul>
-<li><strong>Zdalny start</strong>: ładujesz rano, uruchamiasz z biura lub w godzinach tańszej taryfy. W większości modeli trzeba włączyć zdalny start na urządzeniu, przy zamkniętych drzwiach.</li>
-<li><strong>Alerty o materiałach eksploatacyjnych</strong>: sól, płyn nabłyszczający oraz poziom detergentu w modelach z automatycznym dozowaniem.</li>
-<li><strong>Diagnostyka</strong>: wyjaśnienie komunikatu o błędzie, wskazówki naprawcze, czasem przekazanie danych do serwisu.</li>
-<li><strong>Asystent programów</strong>: aplikacja poleca cykl w zależności od załadunku i stopnia zabrudzenia.</li>
-<li><strong>Śledzenie zużycia</strong> i aktualizacje oprogramowania.</li>
+<li><strong>Zdalny start</strong>: ładujesz zmywarkę rano, a włączasz ją z biura albo w godzinach tańszej taryfy. W większości modeli zdalny start trzeba najpierw aktywować na samym urządzeniu, przy zamkniętych drzwiach.</li>
+<li><strong>Przypomnienia o środkach do zmywarki</strong>: o soli, płynie nabłyszczającym, a w modelach z automatycznym dozowaniem także o poziomie detergentu.</li>
+<li><strong>Diagnostyka</strong>: objaśnienie komunikatu o błędzie, wskazówki, jak usunąć usterkę, a czasem przesłanie danych do serwisu.</li>
+<li><strong>Asystent programów</strong>: aplikacja podpowiada program na podstawie załadunku i stopnia zabrudzenia naczyń.</li>
+<li><strong>Monitorowanie zużycia</strong> i aktualizacje oprogramowania.</li>
 </ul>
-<p>Natomiast aplikacja nie myje lepiej: inteligentna zmywarka pozostaje w pełni użyteczna bez smartfona.</p>
+<p>Aplikacja nie sprawi jednak, że naczynia będą czystsze: z inteligentnej zmywarki można bez przeszkód korzystać także bez smartfona.</p>
 
 <h2>5 najlepszych inteligentnych zmywarek w 2026 roku</h2>
 
-<h3>1. Bosch Serie 6 SMS6ZCI42E: najlepszy wybór ogólny</h3>
-<p><strong>Bosch Serie 6 SMS6ZCI42E</strong> to wolnostojąca zmywarka 60 cm ze stali nierdzewnej odpornej na odciski, klasy C, z 14 kompletami, 44 dB i programem Eco 50 °C trwającym 3 h 55. Jej największym atutem jest suszenie <strong>PerfectDry z zeolitem</strong>: minerałem, który oddaje ciepło i suszy także plastiki, będące słabym punktem wielu konkurentów.</p>
+<h3>1. Bosch Serie 6 SMS6ZCI42E: najlepszy wybór dla większości</h3>
+<p><strong>Bosch Serie 6 SMS6ZCI42E</strong> to wolnostojąca zmywarka o szerokości 60 cm w obudowie ze stali nierdzewnej z powłoką chroniącą przed odciskami palców. Ma klasę C, mieści 14 kompletów, pracuje z głośnością 44 dB, a program Eco 50 °C trwa 3 h 55 min. Jej największym atutem jest suszenie <strong>PerfectDry z zeolitem</strong> – minerałem, który oddaje ciepło i dosusza nawet plastikowe naczynia, z czym wiele konkurencyjnych modeli sobie nie radzi.</p>
 <ul>
-<li><strong>Mocne strony</strong>: znakomite suszenie, trzeci kosz VarioDrawer, strefa ExtraClean do garnków, AquaStop przeciw wyciekom objęty przez Bosch dożywotnią gwarancją, bogata aplikacja Home Connect (zdalny start, Cisza na żądanie, sugestia programu).</li>
-<li><strong>Ograniczenia</strong>: tylko klasa C, 9,5 litra na cykl Eco, brak automatycznego dozowania.</li>
-<li><strong>Dla kogo</strong>: rodziny, które chcą suchych naczyń bez wycierania i niezawodnej aplikacji, bez zobowiązania do konkretnego materiału eksploatacyjnego.</li>
+<li><strong>Mocne strony</strong>: znakomite suszenie, trzeci kosz VarioDrawer, strefa ExtraClean do garnków, zabezpieczenie przed wyciekiem AquaStop z dożywotnią gwarancją Boscha, rozbudowana aplikacja Home Connect (zdalny start, funkcja Silence on demand, podpowiedzi programów).</li>
+<li><strong>Ograniczenia</strong>: tylko klasa C, 9,5 l wody na cykl Eco, brak automatycznego dozowania.</li>
+<li><strong>Dla kogo</strong>: rodziny, które chcą wyjmować suche naczynia bez wycierania i mieć niezawodną aplikację, a przy tym nie chcą być skazane na wkłady jednej marki.</li>
 </ul>
 
-<h3>2. Miele G 7110 SC AutoDos: najlepszy, by nie dozować</h3>
-<p><strong>Miele G 7110 SC AutoDos</strong> należy do serii G 7000. Wolnostojąca, 14 kompletów, klasa B (64 kWh na 100 cykli), 8,4 litra wody na cykl Eco i 43 dB. Jej system <strong>AutoDos</strong> czerpie z kartridża PowerDisk umieszczonego w drzwiach, który według Miele wystarcza na około dwadzieścia cykli.</p>
+<h3>2. Miele G 7110 SC AutoDos: najlepszy, jeśli chcesz zapomnieć o dozowaniu</h3>
+<p><strong>Miele G 7110 SC AutoDos</strong> należy do serii G 7000. To zmywarka wolnostojąca na 14 kompletów w klasie B (64 kWh na 100 cykli), która zużywa 8,4 l wody na cykl Eco i pracuje z głośnością 43 dB. System <strong>AutoDos</strong> pobiera detergent z wkładu PowerDisk umieszczonego w drzwiach. Według Miele jeden wkład wystarcza na około dwadzieścia cykli.</p>
 <ul>
-<li><strong>Mocne strony</strong>: wbudowane automatyczne dozowanie, automatyczne otwieranie drzwi (AutoOpen) dla suszenia, szuflada na sztućce 3D MultiFlex, program QuickPowerWash trwający poniżej godziny, program ExtraQuiet przy 39 dB, możliwość podłączenia do ciepłej wody. Aplikacja Miele@home pokazuje poziomy napełnienia, panel zużycia, powiadomienia i asystenta diagnostyki.</li>
-<li><strong>Ograniczenia</strong>: model z wyższej półki, kartridże PowerDisk dostępne tylko od Miele, program Eco trwający 3 h 19.</li>
-<li><strong>Dla kogo</strong>: dla tych, którzy chcą urządzenia zaprojektowanego na lata (Miele deklaruje komponenty sprawdzone na odpowiednik 20 lat użytkowania) i nie chcą już myśleć o tabletkach.</li>
+<li><strong>Mocne strony</strong>: wbudowane automatyczne dozowanie, automatyczne otwieranie drzwi (AutoOpen) wspomagające suszenie, szuflada na sztućce 3D MultiFlex, program QuickPowerWash trwający krócej niż godzinę, program ExtraQuiet (39 dB), możliwość podłączenia do ciepłej wody. Aplikacja Miele@home pokazuje stan napełnienia, statystyki zużycia, powiadomienia i asystenta diagnostyki.</li>
+<li><strong>Ograniczenia</strong>: model z wyższej półki, wkłady PowerDisk tylko od Miele, program Eco trwa 3 h 19 min.</li>
+<li><strong>Dla kogo</strong>: osoby, które szukają sprzętu na lata (według Miele podzespoły przeszły próby odpowiadające 20 latom użytkowania) i nie chcą już pamiętać o tabletkach.</li>
 </ul>
 
 <h3>3. Siemens iQ500 SN65ZX07CE: najlepszy do pełnej zabudowy</h3>
-<p><strong>Siemens iQ500 SN65ZX07CE</strong> to zmywarka do pełnej zabudowy 60 cm, klasa B, 14 kompletów, z programem Eco 3 h 35 i zaledwie 40 dB (39 dB w programie cichym). Przejmuje suszenie zeolitem z platformy Bosch-Siemens.</p>
+<p><strong>Siemens iQ500 SN65ZX07CE</strong> to zmywarka do pełnej zabudowy o szerokości 60 cm: klasa B, 14 kompletów, program Eco trwający 3 h 35 min i zaledwie 40 dB (39 dB w programie cichym). Korzysta z suszenia zeolitowego opracowanego na wspólnej platformie Boscha i Siemensa.</p>
 <ul>
-<li><strong>Mocne strony</strong>: bardzo cicha, suszenie zeolitem, szuflada varioSchublade, zdalny start i opcje przez aplikację Home Connect (HygienePlus, Cisza na żądanie), aquaStop.</li>
-<li><strong>Ograniczenia</strong>: trzeba przewidzieć front meblowy, montaż bardziej techniczny niż w modelu wolnostojącym, brak automatycznego dozowania.</li>
-<li><strong>Dla kogo</strong>: kuchnia z zabudową otwarta na salon, gdzie liczą się cisza i estetyka.</li>
+<li><strong>Mocne strony</strong>: bardzo cicha praca, suszenie zeolitowe, szuflada varioSchublade, zdalny start i dodatkowe opcje w aplikacji Home Connect (HygienePlus, Silence on demand), zabezpieczenie aquaStop.</li>
+<li><strong>Ograniczenia</strong>: trzeba dokupić front meblowy, montaż trudniejszy niż w przypadku modelu wolnostojącego, brak automatycznego dozowania.</li>
+<li><strong>Dla kogo</strong>: do kuchni w zabudowie otwartej na salon, w której liczą się cisza i wygląd.</li>
 </ul>
 
-<h3>4. LG QuadWash Steam DF455HSS: najlepszy do higieny parowej</h3>
-<p><strong>LG DF455HSS</strong> to wolnostojąca zmywarka 60 cm, klasa C, 14 kompletów rozłożonych na trzech koszach EasyRack Plus i 41 dB dzięki silnikowi Inverter Direct Drive. Wyróżnia się systemem <strong>QuadWash</strong>, czyli ramionami myjącymi o ruchu wielokierunkowym, oraz <strong>TrueSteam</strong>, fazą parową, która pomaga oderwać resztki i ograniczyć smugi na szklankach.</p>
+<h3>4. LG QuadWash Steam DF455HSS: najlepszy z funkcją pary</h3>
+<p><strong>LG DF455HSS</strong> to wolnostojąca zmywarka o szerokości 60 cm w klasie C, która mieści 14 kompletów w trzech koszach EasyRack Plus. Dzięki silnikowi Inverter Direct Drive pracuje z głośnością 41 dB. Wyróżniają ją system <strong>QuadWash</strong>, czyli ramiona spryskujące poruszające się w wielu kierunkach, oraz <strong>TrueSteam</strong> – faza parowa, która pomaga usunąć przywarte resztki i ogranicza smugi na szkle.</p>
 <ul>
-<li><strong>Mocne strony</strong>: bardzo dyskretna jak na model wolnostojący, automatyczne otwieranie drzwi pod koniec cyklu, aplikacja LG ThinQ (zdalny start, śledzenie cyklu, pobieranie programów, diagnostyka).</li>
-<li><strong>Ograniczenia</strong>: klasa C, 9,5 litra na cykl, brak automatycznego dozowania.</li>
-<li><strong>Dla kogo</strong>: domy już wyposażone w LG ThinQ lub te, które myją dużo szklanek i butelek dla niemowląt.</li>
+<li><strong>Mocne strony</strong>: bardzo cicha jak na model wolnostojący, automatyczne otwieranie drzwi po zakończeniu cyklu, aplikacja LG ThinQ (zdalny start, podgląd przebiegu cyklu, pobieranie programów, diagnostyka).</li>
+<li><strong>Ograniczenia</strong>: klasa C, 9,5 l wody na cykl, brak automatycznego dozowania.</li>
+<li><strong>Dla kogo</strong>: domy, w których działa już ekosystem LG ThinQ, oraz osoby, które myją dużo szkła i butelek dla niemowląt.</li>
 </ul>
 
 <h3>5. Haier XS 6B0S3FSB: najlepszy stosunek pojemności do ceny</h3>
-<p><strong>Haier XS 6B0S3FSB</strong> (seria Washlens Plus) to zmywarka do pełnej zabudowy 60 cm, która mieści <strong>16 kompletów</strong>, w klasie B, z 40 dB i programem Eco 3 h 55. Jest wyraźnie tańsza od marek niemieckich.</p>
+<p><strong>Haier XS 6B0S3FSB</strong> (seria Washlens Plus) to zmywarka do pełnej zabudowy o szerokości 60 cm, która mieści <strong>16 kompletów</strong>. Ma klasę B, pracuje z głośnością 40 dB, a program Eco trwa 3 h 55 min. Cenowo plasuje się wyraźnie poniżej niemieckich marek.</p>
 <ul>
-<li><strong>Mocne strony</strong>: duża pojemność dzięki komorze Maxi, trzeci kosz, składane kosze, bezszczotkowy silnik Inverter, automatyczne otwieranie drzwi, aplikacja hOn z funkcją Shoot&amp;Wash, która poleca program na podstawie zdjęcia załadunku.</li>
-<li><strong>Ograniczenia</strong>: sieć serwisowa mniej gęsta niż u Boscha czy Miele, brak automatycznego dozowania.</li>
-<li><strong>Dla kogo</strong>: duże rodziny urządzające kuchnię z zabudową przy rozsądnym budżecie.</li>
+<li><strong>Mocne strony</strong>: duża pojemność dzięki komorze Maxi, trzeci kosz, składane ząbki w koszach, bezszczotkowy silnik Inverter, automatyczne otwieranie drzwi, aplikacja hOn z funkcją Shoot&amp;Wash, która dobiera program na podstawie zdjęcia załadunku.</li>
+<li><strong>Ograniczenia</strong>: rzadsza sieć serwisowa niż w przypadku Boscha czy Miele, brak automatycznego dozowania.</li>
+<li><strong>Dla kogo</strong>: duże rodziny, które urządzają kuchnię w zabudowie i chcą zmieścić się w rozsądnym budżecie.</li>
 </ul>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Montaż</th><th>Komplety</th><th>Klasa energetyczna</th><th>Hałas</th><th>Czas Eco</th><th>Aplikacja</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Montaż</th><th>Liczba kompletów</th><th>Klasa energetyczna</th><th>Hałas</th><th>Program Eco</th><th>Aplikacja</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Bosch Serie 6 SMS6ZCI42E</td><td>Wolnostojąca</td><td>14</td><td>C</td><td>44 dB</td><td>3 h 55</td><td>Home Connect</td><td>Doskonałe suszenie, użytek rodzinny</td></tr>
-<tr><td>Miele G 7110 SC AutoDos</td><td>Wolnostojąca</td><td>14</td><td>B</td><td>43 dB</td><td>3 h 19</td><td>Miele@home</td><td>Automatyczne dozowanie, trwałość</td></tr>
-<tr><td>Siemens iQ500 SN65ZX07CE</td><td>Do pełnej zabudowy</td><td>14</td><td>B</td><td>40 dB</td><td>3 h 35</td><td>Home Connect</td><td>Kuchnia otwarta, cisza</td></tr>
-<tr><td>LG DF455HSS</td><td>Wolnostojąca</td><td>14</td><td>C</td><td>41 dB</td><td>n.d.</td><td>LG ThinQ</td><td>Higiena parowa, szklanki</td></tr>
-<tr><td>Haier XS 6B0S3FSB</td><td>Do pełnej zabudowy</td><td>16</td><td>B</td><td>40 dB</td><td>3 h 55</td><td>Haier hOn</td><td>Duża rodzina, budżet</td></tr>
+<tr><td>Bosch Serie 6 SMS6ZCI42E</td><td>Wolnostojąca</td><td>14</td><td>C</td><td>44 dB</td><td>3 h 55 min</td><td>Home Connect</td><td>Rodzina, idealnie suche naczynia</td></tr>
+<tr><td>Miele G 7110 SC AutoDos</td><td>Wolnostojąca</td><td>14</td><td>B</td><td>43 dB</td><td>3 h 19 min</td><td>Miele@home</td><td>Automatyczne dozowanie, trwałość</td></tr>
+<tr><td>Siemens iQ500 SN65ZX07CE</td><td>Do pełnej zabudowy</td><td>14</td><td>B</td><td>40 dB</td><td>3 h 35 min</td><td>Home Connect</td><td>Kuchnia otwarta na salon, cisza</td></tr>
+<tr><td>LG DF455HSS</td><td>Wolnostojąca</td><td>14</td><td>C</td><td>41 dB</td><td>b.d.</td><td>LG ThinQ</td><td>Higiena dzięki parze, szkło</td></tr>
+<tr><td>Haier XS 6B0S3FSB</td><td>Do pełnej zabudowy</td><td>16</td><td>B</td><td>40 dB</td><td>3 h 55 min</td><td>Haier hOn</td><td>Duża rodzina, rozsądny budżet</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Mylenie modelu wolnostojącego z zabudową</strong>: zmywarka do pełnej zabudowy bez frontu meblowego nie ma dekoracyjnych drzwi, a model wolnostojący nie chowa się za frontem.</li>
-<li><strong>Uznawanie klasy C za słabą</strong>: w skali 2021 C to dobry poziom. Porównuj raczej kWh na 100 cykli podane na etykiecie.</li>
-<li><strong>Unikanie programu Eco, bo jest długi</strong>: to najbardziej oszczędny program. Skorzystaj ze startu opóźnionego lub zdalnego, aby działał podczas Twojej nieobecności.</li>
-<li><strong>Przedawkowanie detergentu</strong>: zostawia osady i niszczy uszczelki. Model z automatycznym dozowaniem rozwiązuje problem.</li>
-<li><strong>Kupowanie wyłącznie dla aplikacji</strong>: najpierw sprawdź hałas, pojemność i suszenie; łączność jest bonusem.</li>
-<li><strong>Zapominanie o soli i płynie nabłyszczającym</strong> przy twardej wodzie: alerty w aplikacji właśnie temu zapobiegają.</li>
+<li><strong>Mylenie zmywarki wolnostojącej z modelem do zabudowy</strong>: zmywarka do pełnej zabudowy bez frontu meblowego nie ma ozdobnych drzwi, a modelu wolnostojącego nie schowasz za frontem.</li>
+<li><strong>Uznawanie klasy C za słabą</strong>: na skali obowiązującej od 2021 roku C to dobry wynik. Lepiej porównuj zużycie energii w kWh na 100 cykli podane na etykiecie.</li>
+<li><strong>Omijanie programu Eco, bo trwa długo</strong>: to najoszczędniejszy program. Ustaw opóźniony start albo włącz zmywarkę zdalnie, żeby pracowała, gdy nie ma Cię w domu.</li>
+<li><strong>Używanie za dużej ilości detergentu</strong>: zostaje osad, a uszczelki szybciej się zużywają. Model z automatycznym dozowaniem rozwiązuje ten problem.</li>
+<li><strong>Kupowanie zmywarki tylko ze względu na aplikację</strong>: najpierw sprawdź poziom hałasu, pojemność i skuteczność suszenia, a łączność traktuj jako dodatek.</li>
+<li><strong>Zapominanie o soli i płynie nabłyszczającym</strong> przy twardej wodzie: właśnie przed tym chronią powiadomienia z aplikacji.</li>
 </ul>
 
 <h2>Montaż, użytkowanie i bezpieczeństwo</h2>
-<p>Zmywarkę podłącza się do dopływu zimnej wody (lub ciepłej w niektórych modelach Miele), do odpływu i do gniazdka z uziemieniem, najlepiej na dedykowanym obwodzie. Unikaj przedłużaczy i listw zasilających. Jeśli gniazdko lub obwód trzeba wykonać, skorzystaj z wykwalifikowanego elektryka; przy zabudowie instalator ustawi front i założy taśmę ochronną przed parą pod blatem.</p>
-<p>Systemy zabezpieczające przed wyciekiem, takie jak AquaStop, odcinają dopływ wody w razie problemu, ale <a href="/pl/blog/detection-fuite-eau-connectee">inteligentny czujnik zalania</a> umieszczony pod zlewem użytecznie uzupełnia ochronę. Jeśli chodzi o aplikację, połączenie Wi-Fi konfiguruje się w kilka minut; pamiętaj o aktualizowaniu oprogramowania i włączaj zdalny start dopiero po dokładnym zamknięciu drzwi. Aby dowiedzieć się więcej o oszczędzaniu, przeczytaj nasz <a href="/pl/blog/guide-domotique-economie-energie-2026">poradnik o inteligentnym domu i oszczędzaniu energii</a>.</p>
+<p>Zmywarkę podłącza się do zimnej wody (niektóre modele Miele także do ciepłej), do odpływu oraz do gniazdka z uziemieniem, najlepiej na osobnym obwodzie. Unikaj przedłużaczy i listew zasilających. Jeśli trzeba poprowadzić nowe gniazdko lub obwód, zleć to wykwalifikowanemu elektrykowi. Przy modelu do pełnej zabudowy instalator wyreguluje front i przyklei pod blatem taśmę chroniącą przed parą.</p>
+<p>Systemy ochrony przed zalaniem, takie jak AquaStop, w razie awarii odcinają dopływ wody, ale warto dodatkowo umieścić pod zlewem <a href="/pl/blog/detection-fuite-eau-connectee">inteligentny czujnik zalania</a>. Połączenie z Wi-Fi skonfigurujesz w kilka minut. Pamiętaj o aktualizowaniu oprogramowania i włączaj zdalny start dopiero wtedy, gdy drzwi są dobrze zamknięte. Więcej o oszczędzaniu przeczytasz w naszym <a href="/pl/blog/guide-domotique-economie-energie-2026">poradniku o inteligentnym domu i oszczędzaniu energii</a>.</p>
 
-<h2>Podsumowanie</h2>
-<p><strong>Bosch Serie 6 SMS6ZCI42E</strong> pozostaje najbardziej wyważonym wyborem: suszenie zeolitem, trzeci kosz i dojrzała aplikacja Home Connect. <strong>Miele G 7110 SC AutoDos</strong> to opcja premium dla tych, którzy chcą automatycznego dozowania i sprawdzonej trwałości. W zabudowie kuchennej <strong>Siemens iQ500 SN65ZX07CE</strong> błyszczy ciszą, a <strong>Haier XS 6B0S3FSB</strong> oferuje 16 kompletów w umiarkowanej cenie. <strong>LG DF455HSS</strong> przypadnie do gustu miłośnikom pary i ekosystemu ThinQ.</p>`,
+<h2>Werdykt</h2>
+<p><strong>Bosch Serie 6 SMS6ZCI42E</strong> to wciąż najbardziej wyważony wybór: suszenie zeolitowe, trzeci kosz i dopracowana aplikacja Home Connect. <strong>Miele G 7110 SC AutoDos</strong> to propozycja premium dla osób, które chcą automatycznego dozowania i sprawdzonej trwałości. W kuchni w zabudowie <strong>Siemens iQ500 SN65ZX07CE</strong> wyróżnia się cichą pracą, a <strong>Haier XS 6B0S3FSB</strong> mieści 16 kompletów za rozsądną cenę. <strong>LG DF455HSS</strong> przypadnie do gustu osobom, które cenią funkcję pary i korzystają z ekosystemu ThinQ.</p>`,
+    sv: `<p><strong>Den bästa smarta diskmaskinen 2026 för de flesta hushåll är Bosch Serie 6 SMS6ZCI42E</strong>: 14 kuvert, torkning med zeolit, tredje korg, 44 dB och en välutrustad Home Connect-app. Vill du aldrig mer behöva dosera diskmedel är Miele G 7110 SC AutoDos det mest genomarbetade alternativet. Ska maskinen byggas in i köket och budgeten är snävare ger Haier XS 6B0S3FSB plats för 16 kuvert vid 40 dB.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, officiella uppgifter från EU:s energimärkning (databasen EPREL), utvärderingar publicerade av fackpress och verifierade köparomdömen. Den täcker de fem märken och ekosystem som spelar roll i Europa: Home Connect (Bosch, Siemens), Miele@home, LG ThinQ och Haier hOn. Hela sortimentet hittar du under <a href="/sv/entretien-maison/lave-vaisselle-connectes">smarta diskmaskiner</a>.</p>
+
+<h2>Köpkriterierna som verkligen spelar roll</h2>
+
+<h3>Energimärkningen A–G (2021 års version)</h3>
+<p>Sedan den 1 mars 2021 har EU:s energimärkning för diskmaskiner en ny skala: de gamla klasserna A+++ till D har ersatts av en betydligt strängare skala från A till G. En maskin som tidigare var A+++ hamnar i dag ofta i klass C eller D. I praktiken är <strong>klass B eller C redan ett bra resultat</strong>, och klass A är fortfarande ovanlig. Etiketten visar också energiförbrukningen i kWh per 100 cykler med Eco-programmet, vattenförbrukningen per cykel, Eco-programmets längd, antal kuvert och ljudnivån med en egen klass (A till D). En QR-kod leder till modellens officiella produktblad i EU-databasen EPREL.</p>
+
+<h3>Ljudnivå i decibel</h3>
+<p>I ett kök med öppen planlösning är ljudnivån det man oftast ångrar att man inte tog hänsyn till. Under 42 dB är en diskmaskin diskret, runt 44 dB är den godtagbar, och över 46 dB hörs den tydligt mitt i ett samtal. Många modeller har dessutom ett tyst program (runt 39 dB) för att diska på natten.</p>
+
+<h3>Antal kuvert</h3>
+<p>En vanlig diskmaskin på 60 cm rymmer 13–14 kuvert, vilket räcker för en familj på fyra. Modeller för 15 eller 16 kuvert får plats med mer tack vare ett högre diskutrymme och en optimerad tredje korg: värt det om du lagar mycket mat eller hellre kör en enda maskin om dagen.</p>
+
+<h3>Fristående eller inbyggd</h3>
+<p>En <strong>fristående</strong> modell har eget hölje och egen toppskiva. Många, som Bosch-maskinen i den här guiden, kan skjutas in under en bänkskiva när toppskivan har tagits bort. En <strong>helintegrerad</strong> modell döljs bakom en lucka som matchar köksskåpen och som köps separat. Mät nischen (bredd, höjd, djup) innan du köper något.</p>
+
+<h3>Automatisk dosering</h3>
+<p>Automatisk dosering lagrar diskmedel för flera veckor och tillsätter rätt mängd vid varje disk. Miele gör det med AutoDos och patronerna PowerDisk. Övriga modeller här har ett vanligt diskmedelsfack, med en doseringsassistent hos Bosch och Siemens. Fördelen: ingen överdosering och inga vita beläggningar. Nackdelen: en förbrukningsvara som bara märket säljer.</p>
+
+<h3>Tredje korg och Eco-programmets längd</h3>
+<p>En tredje korg (besticklåda) frigör plats i underkorgen och gör det lättare att få in bestick och köksredskap. Eco-programmet tar ofta mellan 3 och 4 timmar, och det är helt normalt. Det är regelverket som gör det till referensprogram, och det sparar energi just genom att diska längre på lägre temperatur.</p>
+
+<h3>Vad appen faktiskt är bra för</h3>
+<ul>
+<li><strong>Fjärrstart</strong>: ställ in disken på morgonen och starta maskinen från jobbet eller när elen är som billigast. På de flesta modeller måste du aktivera fjärrstart på själva maskinen, med luckan stängd.</li>
+<li><strong>Påminnelser om förbrukningsvaror</strong>: salt, sköljmedel och, på modeller med automatisk dosering, nivån på diskmedlet.</li>
+<li><strong>Felsökning</strong>: felkoderna förklaras, du får tips för att lösa problemet och ibland delas data med servicen.</li>
+<li><strong>Programassistent</strong>: appen föreslår ett program utifrån mängden disk och hur smutsig den är.</li>
+<li><strong>Uppföljning av förbrukningen</strong> och programuppdateringar.</li>
+</ul>
+<p>Däremot diskar appen inte renare: en smart diskmaskin fungerar alldeles utmärkt utan mobil.</p>
+
+<h2>De 5 bästa smarta diskmaskinerna 2026</h2>
+
+<h3>1. Bosch Serie 6 SMS6ZCI42E: bäst totalt</h3>
+<p><strong>Bosch Serie 6 SMS6ZCI42E</strong> är en fristående modell på 60 cm i rostfritt stål med fingeravtrycksskydd, energiklass C, 14 kuvert, 44 dB och ett Eco 50 °C-program på 3 tim 55 min. Det som sticker ut är <strong>PerfectDry med zeolit</strong>: ett mineral som avger värme och torkar även plast, en svag punkt hos många konkurrenter.</p>
+<ul>
+<li><strong>Styrkor</strong>: utmärkt torkning, tredje korgen VarioDrawer, ExtraClean-zon för kastruller, läckageskyddet AquaStop med livstidsgaranti från Bosch, funktionsrik Home Connect-app (fjärrstart, Silence on demand, programförslag).</li>
+<li><strong>Svagheter</strong>: bara klass C, 9,5 liter per Eco-program, ingen automatisk dosering.</li>
+<li><strong>Passar för</strong>: familjer som vill ha en pålitlig app och torr disk utan att behöva ta fram handduken, men inte vill binda sig till en särskild förbrukningsvara.</li>
+</ul>
+
+<h3>2. Miele G 7110 SC AutoDos: bäst för dig som vill slippa dosera</h3>
+<p><strong>Miele G 7110 SC AutoDos</strong> hör till G 7000-serien. Fristående, 14 kuvert, klass B (64 kWh per 100 cykler), 8,4 liter vatten per Eco-program och 43 dB. Systemet <strong>AutoDos</strong> hämtar diskmedel ur en PowerDisk-patron i luckan, som enligt Miele räcker till ungefär 20 diskar.</p>
+<ul>
+<li><strong>Styrkor</strong>: inbyggd automatisk dosering, luckan öppnas automatiskt (AutoOpen) för bättre torkning, besticklådan 3D MultiFlex, QuickPowerWash på under en timme, programmet ExtraQuiet på 39 dB och möjlighet att ansluta till varmvatten. Appen Miele@home visar påfyllnadsnivåerna, en översikt över förbrukningen, notiser och en felsökningsassistent.</li>
+<li><strong>Svagheter</strong>: premiummodell, PowerDisk-patroner som bara Miele säljer, Eco-program på 3 tim 19 min.</li>
+<li><strong>Passar för</strong>: dig som vill ha en maskin byggd för att hålla (Miele uppger att komponenterna är konstruerade för motsvarande 20 års användning) och aldrig mer vill behöva tänka på disktabletter.</li>
+</ul>
+
+<h3>3. Siemens iQ500 SN65ZX07CE: bästa helintegrerade</h3>
+<p><strong>Siemens iQ500 SN65ZX07CE</strong> är en helintegrerad diskmaskin på 60 cm, klass B, 14 kuvert, med ett Eco-program på 3 tim 35 min och bara 40 dB (39 dB i programmet Silence). Den har samma zeolittorkning som de andra maskinerna på Bosch-Siemens-plattformen.</p>
+<ul>
+<li><strong>Styrkor</strong>: mycket tyst, zeolittorkning, varioDrawer, fjärrstart och extrafunktioner i Home Connect-appen (HygienePlus, Silence on demand), aquaStop.</li>
+<li><strong>Svagheter</strong>: kräver en lucka som matchar köksskåpen, installationen är mer krävande än för en fristående maskin, ingen automatisk dosering.</li>
+<li><strong>Passar för</strong>: ett kök med inbyggda vitvaror i öppen planlösning, där tystnad och ett enhetligt utseende går först.</li>
+</ul>
+
+<h3>4. LG QuadWash Steam DF455HSS: bäst för ånghygien</h3>
+<p><strong>LG DF455HSS</strong> är en fristående modell på 60 cm, klass C, med 14 kuvert fördelade på tre EasyRack Plus-korgar och 41 dB tack vare motorn Inverter Direct Drive. Det som utmärker den är <strong>QuadWash</strong>, spolarmar som rör sig i flera riktningar, och <strong>TrueSteam</strong>, en ångfas som hjälper till att lösa upp matrester och minska fläckar på glasen.</p>
+<ul>
+<li><strong>Styrkor</strong>: mycket tyst för att vara fristående, luckan öppnas automatiskt när programmet är klart, appen LG ThinQ (fjärrstart, uppföljning av programmet, nedladdningsbara program, felsökning).</li>
+<li><strong>Svagheter</strong>: klass C, 9,5 liter per cykel, ingen automatisk dosering.</li>
+<li><strong>Passar för</strong>: hem som redan använder LG ThinQ, eller som diskar mycket glas och nappflaskor.</li>
+</ul>
+
+<h3>5. Haier XS 6B0S3FSB: mest kapacitet för pengarna</h3>
+<p><strong>Haier XS 6B0S3FSB</strong> (serien Washlens Plus) är en helintegrerad diskmaskin på 60 cm som rymmer <strong>16 kuvert</strong>, med klass B, 40 dB och ett Eco-program på 3 tim 55 min. Prismässigt ligger den klart under de tyska märkena.</p>
+<ul>
+<li><strong>Styrkor</strong>: stor kapacitet tack vare det rymliga Maxi-diskutrymmet, tredje korg, fällbara piggar, borstlös invertermotor, automatisk luckåpning, appen hOn med Shoot&amp;Wash, som föreslår ett program utifrån ett foto av disken.</li>
+<li><strong>Svagheter</strong>: glesare servicenät än Bosch och Miele, ingen automatisk dosering.</li>
+<li><strong>Passar för</strong>: storfamiljer som inreder ett kök med inbyggda vitvaror och vill hålla budgeten i schack.</li>
+</ul>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Installation</th><th>Kuvert</th><th>Energiklass</th><th>Ljudnivå</th><th>Eco-programmets längd</th><th>App</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Bosch Serie 6 SMS6ZCI42E</td><td>Fristående</td><td>14</td><td>C</td><td>44 dB</td><td>3 tim 55 min</td><td>Home Connect</td><td>Bra torkning, familjer</td></tr>
+<tr><td>Miele G 7110 SC AutoDos</td><td>Fristående</td><td>14</td><td>B</td><td>43 dB</td><td>3 tim 19 min</td><td>Miele@home</td><td>Automatisk dosering, lång livslängd</td></tr>
+<tr><td>Siemens iQ500 SN65ZX07CE</td><td>Helintegrerad</td><td>14</td><td>B</td><td>40 dB</td><td>3 tim 35 min</td><td>Home Connect</td><td>Öppen planlösning, tystnad</td></tr>
+<tr><td>LG DF455HSS</td><td>Fristående</td><td>14</td><td>C</td><td>41 dB</td><td>Ej angivet</td><td>LG ThinQ</td><td>Ånghygien, glas</td></tr>
+<tr><td>Haier XS 6B0S3FSB</td><td>Helintegrerad</td><td>16</td><td>B</td><td>40 dB</td><td>3 tim 55 min</td><td>Haier hOn</td><td>Storfamilj, budget</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att blanda ihop fristående och inbyggd</strong>: en helintegrerad modell saknar egen front, och en fristående går inte att dölja bakom en skåplucka.</li>
+<li><strong>Att tro att klass C är dåligt</strong>: på 2021 års skala är C en bra nivå. Jämför hellre förbrukningen i kWh per 100 cykler som anges på etiketten.</li>
+<li><strong>Att undvika Eco-programmet för att det tar lång tid</strong>: det är det snålaste. Använd fördröjd start eller fjärrstart så att det går medan du är borta.</li>
+<li><strong>Att överdosera diskmedlet</strong>: det lämnar beläggningar och sliter på tätningarna. En modell med automatisk dosering löser problemet.</li>
+<li><strong>Att köpa enbart för appens skull</strong>: kontrollera ljudnivå, kapacitet och torkning först; uppkopplingen är en bonus.</li>
+<li><strong>Att glömma salt och sköljmedel</strong> om du har hårt vatten: det är precis det appens påminnelser är till för.</li>
+</ul>
+
+<h2>Installation, användning och säkerhet</h2>
+<p>En diskmaskin ansluts till kallvatten (eller varmvatten för vissa Miele-modeller), till avlopp och till ett jordat uttag, helst på en egen grupp. Undvik förlängningssladdar och grenuttag. Behöver ett nytt uttag eller en ny grupp dras ska du anlita en behörig elektriker. För en helintegrerad modell justerar en installatör luckan och monterar ångskyddslisten under bänkskivan.</p>
+<p>Läckageskydd som AquaStop stänger av vattentillförseln om något går fel, men ett <a href="/sv/blog/detection-fuite-eau-connectee">smart vattenlarm</a> under diskbänken är ett bra extra skydd. I appen tar det bara några minuter att ställa in wifi. Håll programvaran uppdaterad och aktivera fjärrstart först när luckan är ordentligt stängd. Vill du spara mer energi kan du läsa vår <a href="/sv/blog/guide-domotique-economie-energie-2026">guide om smarta hem och energisparande</a>.</p>
+
+<h2>Omdöme</h2>
+<p><strong>Bosch Serie 6 SMS6ZCI42E</strong> är fortfarande det mest balanserade valet: zeolittorkning, tredje korg och en mogen Home Connect-app. <strong>Miele G 7110 SC AutoDos</strong> är premiumvalet för dig som vill ha automatisk dosering och beprövad livslängd. I ett kök med inbyggda vitvaror glänser <strong>Siemens iQ500 SN65ZX07CE</strong> med sin tystnad, medan <strong>Haier XS 6B0S3FSB</strong> ger plats för 16 kuvert till ett rimligt pris. <strong>LG DF455HSS</strong> passar dig som gillar ångfunktioner eller redan använder ThinQ.</p>`,
+    us: `<p><strong>The best smart dishwasher in 2026 for most households is the Bosch Series 6 SMS6ZCI42E</strong>: 14 place settings, zeolite drying, a third rack, 44 dB and a full-featured Home Connect app. If you never want to measure detergent again, the Miele G 7110 SC AutoDos is the most polished option; for a panel-ready installation on a tighter budget, the Haier XS 6B0S3FSB fits 16 place settings at 40 dB.</p>
+<p>This comparison is based on manufacturer spec sheets, official EU energy label data (the EPREL database), reviews published by specialist outlets and verified owner feedback. It covers the five ecosystems that matter in Europe: Home Connect (Bosch, Siemens), Miele@home, LG ThinQ and Haier hOn. To browse the full lineup, see our <a href="/us/entretien-maison/lave-vaisselle-connectes">smart dishwashers</a> section.</p>
+
+<h2>The buying criteria that really matter</h2>
+
+<h3>The EU’s A–G energy label (2021 version)</h3>
+<p>Since March 1, 2021, the EU dishwasher energy label has been rescaled: the old A+++ to D classes were replaced by a much stricter A to G scale. A machine that used to be A+++ is often rated C or D today. In practice, <strong>a B or C rating is already a good result</strong>, and class A remains rare. The label also shows energy use in kWh per 100 Eco cycles, water per cycle, Eco cycle length, the number of place settings, and noise with its own class (A to D). A QR code links to the model’s official listing in the EU’s EPREL database. In the US, look for the yellow EnergyGuide label or Energy Star certification instead.</p>
+
+<h3>Noise in decibels</h3>
+<p>In an open-concept kitchen, this is the spec people most regret ignoring. Below 42 dB a dishwasher is discreet; around 44 dB it’s acceptable; above 46 dB you’ll clearly hear it during a conversation. Many models also offer a quiet cycle (around 39 dB) for overnight runs.</p>
+
+<h3>Place settings</h3>
+<p>A standard 24-inch (60 cm) dishwasher holds 13 or 14 place settings, which suits a family of four. Models with 15 or 16 place settings gain space with a taller tub and an optimized third rack: worthwhile if you cook a lot or prefer to run one load a day.</p>
+
+<h3>Freestanding or built-in</h3>
+<p>A <strong>freestanding</strong> model has its own cabinet and top; many, like the Bosch in this guide, can slide under a counter once the top is removed. A <strong>fully integrated</strong> (panel-ready) model hides behind a custom cabinet panel, sold separately. Measure the opening (width, height, depth) before you buy anything.</p>
+
+<h3>Auto-dosing</h3>
+<p>Auto-dosing stores several weeks’ worth of detergent and releases the right amount for each cycle. Miele does this with AutoDos and its PowerDisk cartridges. The other models here use a conventional detergent dispenser, with a dosing assistant on the Bosch and Siemens. The upside: no more overdosing and white residue. The catch: a brand-specific consumable.</p>
+
+<h3>Third rack and Eco cycle length</h3>
+<p>A third rack (silverware drawer) frees up the lower rack and makes silverware and utensils easier to load. As for the Eco cycle, it often runs 3 to 4 hours, and that’s normal. EU rules make it the reference program, and it saves energy precisely by washing longer at a lower temperature.</p>
+
+<h3>What the app is really useful for</h3>
+<ul>
+<li><strong>Remote start</strong>: load it in the morning, then start it from work or during off-peak hours on a time-of-use rate plan. On most models you have to enable remote start on the machine itself, with the door closed.</li>
+<li><strong>Consumable alerts</strong>: salt (for the built-in water softener), rinse aid, and detergent level on auto-dosing models.</li>
+<li><strong>Diagnostics</strong>: error codes explained, troubleshooting tips, and sometimes data shared with the manufacturer’s repair service.</li>
+<li><strong>Cycle assistant</strong>: the app recommends a cycle based on the load and how dirty it is.</li>
+<li><strong>Energy and water tracking</strong>, plus software updates.</li>
+</ul>
+<p>The app doesn’t wash any better, though: a smart dishwasher works perfectly well without a phone.</p>
+
+<h2>The 5 best smart dishwashers in 2026</h2>
+
+<h3>1. Bosch Series 6 SMS6ZCI42E: best overall</h3>
+<p>The <strong>Bosch Series 6 SMS6ZCI42E</strong> is a 24-inch (60 cm) freestanding model in fingerprint-resistant stainless steel, rated C, with 14 place settings, 44 dB and an Eco cycle at 120°F (50°C) that runs 3 hours 55 minutes. Its standout feature is <strong>PerfectDry zeolite drying</strong>: a mineral that releases heat and dries plastics too, a weak point for many competitors.</p>
+<ul>
+<li><strong>Pros</strong>: excellent drying, VarioDrawer third rack, ExtraClean zone for pots and pans, AquaStop leak protection with a lifetime guarantee from Bosch, a rich Home Connect app (remote start, Silence on demand, cycle suggestions).</li>
+<li><strong>Cons</strong>: only class C, 2.5 gallons (9.5 L) per Eco cycle, no auto-dosing.</li>
+<li><strong>Best for</strong>: families who want dry dishes without towel-drying and a reliable app, without committing to a proprietary consumable.</li>
+</ul>
+
+<h3>2. Miele G 7110 SC AutoDos: best for hands-free dosing</h3>
+<p>The <strong>Miele G 7110 SC AutoDos</strong> belongs to the G 7000 series. Freestanding, 14 place settings, class B (64 kWh per 100 cycles), 2.2 gallons (8.4 L) of water per Eco cycle and 43 dB. Its <strong>AutoDos</strong> system draws from a PowerDisk cartridge in the door, which Miele says lasts about 20 cycles.</p>
+<ul>
+<li><strong>Pros</strong>: built-in auto-dosing, automatic door opening (AutoOpen) for drying, 3D MultiFlex silverware tray, QuickPowerWash in under an hour, an ExtraQuiet cycle at 39 dB, optional hot-water hookup. The Miele@home app shows fill levels, an energy and water dashboard, push notifications and a diagnostics assistant.</li>
+<li><strong>Cons</strong>: a premium model, Miele-only PowerDisk cartridges, an Eco cycle of 3 hours 19 minutes.</li>
+<li><strong>Best for</strong>: buyers who want a machine built to last (Miele says its components are designed for the equivalent of 20 years of use) and never want to think about dishwasher pods again.</li>
+</ul>
+
+<h3>3. Siemens iQ500 SN65ZX07CE: best fully integrated</h3>
+<p>The <strong>Siemens iQ500 SN65ZX07CE</strong> is a 24-inch (60 cm) fully integrated dishwasher, class B, with 14 place settings, an Eco cycle of 3 hours 35 minutes and just 40 dB (39 dB on the Silence cycle). It shares the zeolite drying of the Bosch-Siemens platform.</p>
+<ul>
+<li><strong>Pros</strong>: very quiet, zeolite drying, varioDrawer, remote start and extra options in the Home Connect app (HygienePlus, Silence on demand), aquaStop.</li>
+<li><strong>Cons</strong>: you need a matching cabinet panel, installation is more involved than with a freestanding unit, no auto-dosing.</li>
+<li><strong>Best for</strong>: a kitchen with built-in cabinetry that opens onto the living room, where quiet operation and a seamless look come first.</li>
+</ul>
+
+<h3>4. LG QuadWash Steam DF455HSS: best for steam cleaning</h3>
+<p>The <strong>LG DF455HSS</strong> is a 24-inch (60 cm) freestanding model, class C, with 14 place settings across three EasyRack Plus racks and 41 dB thanks to its Inverter Direct Drive motor. It stands out with <strong>QuadWash</strong>, multi-motion spray arms, and <strong>TrueSteam</strong>, a steam phase that helps loosen residue and reduce spotting on glasses.</p>
+<ul>
+<li><strong>Pros</strong>: very quiet for a freestanding unit, automatic door opening at the end of the cycle, LG ThinQ app (remote start, cycle monitoring, downloadable cycles, diagnostics).</li>
+<li><strong>Cons</strong>: class C, 2.5 gallons (9.5 L) per cycle, no auto-dosing.</li>
+<li><strong>Best for</strong>: homes already using LG ThinQ, or that wash a lot of glassware and baby bottles.</li>
+</ul>
+
+<h3>5. Haier XS 6B0S3FSB: best capacity for the money</h3>
+<p>The <strong>Haier XS 6B0S3FSB</strong> (Washlens Plus line) is a 24-inch (60 cm) fully integrated dishwasher that holds <strong>16 place settings</strong>, rated B, with 40 dB and an Eco cycle of 3 hours 55 minutes. It’s priced well below the German brands.</p>
+<ul>
+<li><strong>Pros</strong>: large capacity thanks to its Maxi tub, third rack, fold-down tines, brushless inverter motor, automatic door opening, hOn app with Shoot&amp;Wash, which recommends a cycle from a photo of the load.</li>
+<li><strong>Cons</strong>: a thinner service network than Bosch or Miele, no auto-dosing.</li>
+<li><strong>Best for</strong>: large families outfitting a kitchen with built-in cabinetry on a tighter budget.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Installation</th><th>Place settings</th><th>Energy class</th><th>Noise</th><th>Eco cycle</th><th>App</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Bosch Series 6 SMS6ZCI42E</td><td>Freestanding</td><td>14</td><td>C</td><td>44 dB</td><td>3 hr 55 min</td><td>Home Connect</td><td>Drying, family use</td></tr>
+<tr><td>Miele G 7110 SC AutoDos</td><td>Freestanding</td><td>14</td><td>B</td><td>43 dB</td><td>3 hr 19 min</td><td>Miele@home</td><td>Auto-dosing, longevity</td></tr>
+<tr><td>Siemens iQ500 SN65ZX07CE</td><td>Fully integrated</td><td>14</td><td>B</td><td>40 dB</td><td>3 hr 35 min</td><td>Home Connect</td><td>Open-concept kitchen, quiet</td></tr>
+<tr><td>LG DF455HSS</td><td>Freestanding</td><td>14</td><td>C</td><td>41 dB</td><td>n/a</td><td>LG ThinQ</td><td>Steam cleaning, glassware</td></tr>
+<tr><td>Haier XS 6B0S3FSB</td><td>Fully integrated</td><td>16</td><td>B</td><td>40 dB</td><td>3 hr 55 min</td><td>Haier hOn</td><td>Large family, budget</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Mixing up freestanding and built-in</strong>: a fully integrated model has no finished door of its own, and a freestanding one can’t hide behind a cabinet panel.</li>
+<li><strong>Treating class C as poor</strong>: on the 2021 EU scale, C is a good level. Compare the kWh per 100 cycles shown on the label instead.</li>
+<li><strong>Skipping the Eco cycle because it’s long</strong>: it’s the most economical. Use delay start or remote start so it runs while you’re out.</li>
+<li><strong>Using too much detergent</strong>: it leaves deposits and wears out the seals. An auto-dosing model solves the problem.</li>
+<li><strong>Buying for the app alone</strong>: check noise, capacity and drying first; smart features are a bonus.</li>
+<li><strong>Forgetting salt and rinse aid</strong> if you have hard water: this is exactly what the app alerts are for.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<p>A dishwasher connects to a cold water supply (or hot water for some Miele models), a drain and a grounded outlet, ideally on a dedicated circuit. Avoid extension cords and power strips. Models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V. If an outlet or circuit has to be added, hire a licensed electrician; for a fully integrated model, an installer will adjust the door panel and fit the steam-protection strip under the countertop.</p>
+<p>Leak protection systems such as AquaStop shut off the water supply if something goes wrong, but a <a href="/us/blog/detection-fuite-eau-connectee">smart water leak detector</a> under the sink adds a useful extra layer. On the app side, Wi-Fi setup takes a few minutes; keep the software up to date and only enable remote start once the door is properly closed. For more ways to save, read our <a href="/us/blog/guide-domotique-economie-energie-2026">smart home energy-saving guide</a>.</p>
+
+<h2>The bottom line</h2>
+<p>The <strong>Bosch Series 6 SMS6ZCI42E</strong> remains the most balanced choice: zeolite drying, a third rack and a mature Home Connect app. The <strong>Miele G 7110 SC AutoDos</strong> is the premium pick for anyone who wants auto-dosing and proven longevity. In a kitchen with built-in cabinetry, the <strong>Siemens iQ500 SN65ZX07CE</strong> stands out for how quiet it is, while the <strong>Haier XS 6B0S3FSB</strong> fits 16 place settings at a reasonable price. The <strong>LG DF455HSS</strong> will appeal to fans of steam cleaning and the ThinQ ecosystem.</p>`,
+    ca: `<p><strong>The best smart dishwasher in 2026 for most households is the Bosch Series 6 SMS6ZCI42E</strong>: 14 place settings, zeolite drying, a third rack, 44 dB and a full-featured Home Connect app. If you never want to measure detergent again, the Miele G 7110 SC AutoDos is the most polished option; for a built-in look on a tighter budget, the panel-ready Haier XS 6B0S3FSB offers 16 place settings at 40 dB.</p>
+<p>This comparison is based on manufacturer specification sheets, official EU energy label data (the EPREL database), reviews published by specialist outlets and verified buyer feedback. It covers five brands and their app ecosystems: Home Connect (Bosch, Siemens), Miele@home, LG ThinQ and Haier hOn. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. To browse the full range, see our <a href="/ca/entretien-maison/lave-vaisselle-connectes">smart dishwashers</a> section.</p>
+
+<h2>The buying criteria that really matter</h2>
+
+<h3>The A–G energy label (2021 version)</h3>
+<p>Since March 1, 2021, the EU dishwasher energy label has been rescaled: the old A+++ to D classes were replaced by a much stricter A to G scale. A machine that used to be A+++ is often rated C or D today. In practice, <strong>a B or C rating is already a good result</strong>, and class A remains rare. The label also shows energy use in kWh per 100 Eco cycles, water per cycle, Eco program duration, the number of place settings, and noise with its own class (A to D). A QR code links to the model’s official sheet in the EU EPREL database. Canada uses the EnerGuide label for major appliances, so the EU class won’t appear on Canadian packaging.</p>
+
+<h3>Noise in decibels</h3>
+<p>In an open-concept kitchen, this is the spec people most regret ignoring. Below 42 dB a dishwasher is discreet; around 44 dB it’s acceptable; above 46 dB you’ll clearly hear it during a conversation. Many models also offer a quiet program (around 39 dB) for overnight runs.</p>
+
+<h3>Place settings</h3>
+<p>A standard 60 cm (24 in.) dishwasher holds 13 to 14 place settings, which suits a family of four. Models with 15 or 16 place settings gain space through a taller tub and an optimized third rack: worthwhile if you cook a lot or prefer to run one load a day.</p>
+
+<h3>Freestanding or panel-ready</h3>
+<p>A <strong>freestanding</strong> model has its own finished casing and top; many, like the Bosch in this guide, can slide under a counter once the top is removed. A <strong>panel-ready</strong> (fully integrated) model hides behind a cabinet door panel, sold separately. Measure your space (width, height, depth) before buying anything.</p>
+
+<h3>Auto-dosing</h3>
+<p>Auto-dosing stores detergent for several weeks and releases the right amount for each cycle. Miele does this with AutoDos and its PowerDisk cartridges. The other models here use a conventional detergent dispenser, with a dosing assistant on the Bosch and Siemens. The benefit: no more overdosing and white residue. The catch: a brand-specific consumable.</p>
+
+<h3>Third rack and Eco program duration</h3>
+<p>A third rack (cutlery drawer) frees up the lower rack and makes cutlery and utensils easier to load. As for the Eco program, it often runs between 3 and 4 hours, and that’s normal. EU rules make it the reference program, and it saves energy precisely by washing longer at a lower temperature.</p>
+
+<h3>What the app is really useful for</h3>
+<ul>
+<li><strong>Remote start</strong>: load in the morning, start from the office or during off-peak hours. On most models you must enable remote start on the machine itself, with the door closed.</li>
+<li><strong>Consumable alerts</strong>: salt, rinse aid, and detergent level on auto-dosing models.</li>
+<li><strong>Diagnostics</strong>: error codes explained, troubleshooting tips, and sometimes data shared with the service department.</li>
+<li><strong>Program assistant</strong>: the app recommends a cycle based on the load and how dirty it is.</li>
+<li><strong>Consumption tracking</strong> and software updates.</li>
+</ul>
+<p>The app doesn’t wash any better, though: a smart dishwasher works perfectly well without a smartphone.</p>
+
+<h2>The 5 best smart dishwashers in 2026</h2>
+
+<h3>1. Bosch Series 6 SMS6ZCI42E: best overall</h3>
+<p>The <strong>Bosch Series 6 SMS6ZCI42E</strong> is a 60 cm (24 in.) freestanding model in anti-fingerprint stainless steel, rated C, with 14 place settings, 44 dB and an Eco 50°C program lasting 3 h 55 min. Its standout feature is <strong>PerfectDry zeolite drying</strong>: a mineral that releases heat and dries plastics too, a weak point for many competitors.</p>
+<ul>
+<li><strong>Strengths</strong>: excellent drying, VarioDrawer third rack, ExtraClean zone for pots and pans, AquaStop leak protection with a lifetime warranty from Bosch, rich Home Connect app (remote start, Silence on demand, program suggestions).</li>
+<li><strong>Limitations</strong>: only class C, 9.5 litres per Eco cycle, no auto-dosing.</li>
+<li><strong>Best for</strong>: families who want dishes that come out dry, with no towel-drying, and a reliable app, without committing to a proprietary consumable.</li>
+</ul>
+
+<h3>2. Miele G 7110 SC AutoDos: best for hands-free dosing</h3>
+<p>The <strong>Miele G 7110 SC AutoDos</strong> belongs to the G 7000 series. Freestanding, 14 place settings, class B (64 kWh per 100 cycles), 8.4 litres of water per Eco cycle and 43 dB. Its <strong>AutoDos</strong> system draws from a PowerDisk cartridge in the door, which Miele says lasts about 20 cycles.</p>
+<ul>
+<li><strong>Strengths</strong>: built-in auto-dosing, automatic door opening (AutoOpen) for drying, 3D MultiFlex cutlery tray, QuickPowerWash in under an hour, ExtraQuiet program at 39 dB, optional hot-water connection. The Miele@home app shows fill levels, a consumption dashboard, push notifications and a diagnostics assistant.</li>
+<li><strong>Limitations</strong>: premium model, Miele-only PowerDisk cartridges, 3 h 19 min Eco program.</li>
+<li><strong>Best for</strong>: buyers who want a machine built to last (Miele says its components are designed for the equivalent of 20 years of use) and never want to think about dishwasher pods again.</li>
+</ul>
+
+<h3>3. Siemens iQ500 SN65ZX07CE: best panel-ready</h3>
+<p>The <strong>Siemens iQ500 SN65ZX07CE</strong> is a 60 cm (24 in.) panel-ready dishwasher, class B, 14 place settings, with a 3 h 35 min Eco program and just 40 dB (39 dB in the Silence program). It shares the zeolite drying of the Bosch-Siemens platform.</p>
+<ul>
+<li><strong>Strengths</strong>: very quiet, zeolite drying, varioDrawer, remote start and extra options in the Home Connect app (HygienePlus, Silence on demand), aquaStop.</li>
+<li><strong>Limitations</strong>: you need a matching cabinet door panel, installation is more involved than for a freestanding unit, no auto-dosing.</li>
+<li><strong>Best for</strong>: a kitchen with custom cabinetry that opens onto the living room, where silence and a seamless look come first.</li>
+</ul>
+
+<h3>4. LG QuadWash Steam DF455HSS: best for steam hygiene</h3>
+<p>The <strong>LG DF455HSS</strong> is a 60 cm (24 in.) freestanding model, class C, with 14 place settings across three EasyRack Plus racks and 41 dB thanks to its Inverter Direct Drive motor. It stands out with <strong>QuadWash</strong>, multi-motion spray arms, and <strong>TrueSteam</strong>, a steam phase that helps loosen residue and reduce spotting on glasses.</p>
+<ul>
+<li><strong>Strengths</strong>: very quiet for a freestanding unit, automatic door opening at the end of the cycle, LG ThinQ app (remote start, cycle monitoring, downloadable programs, diagnostics).</li>
+<li><strong>Limitations</strong>: class C, 9.5 litres per cycle, no auto-dosing.</li>
+<li><strong>Best for</strong>: homes already using LG ThinQ, or that wash a lot of glassware and baby bottles.</li>
+</ul>
+
+<h3>5. Haier XS 6B0S3FSB: best capacity for the money</h3>
+<p>The <strong>Haier XS 6B0S3FSB</strong> (Washlens Plus range) is a 60 cm (24 in.) panel-ready dishwasher that holds <strong>16 place settings</strong>, rated B, with 40 dB and a 3 h 55 min Eco program. It sits well below the German brands in price.</p>
+<ul>
+<li><strong>Strengths</strong>: large capacity thanks to its Maxi tub, third rack, fold-down tines, brushless inverter motor, automatic door opening, hOn app with Shoot&amp;Wash, which recommends a program from a photo of the load.</li>
+<li><strong>Limitations</strong>: a smaller service network than Bosch or Miele, no auto-dosing.</li>
+<li><strong>Best for</strong>: large families outfitting a kitchen with built-in appliances on a set budget.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Installation</th><th>Place settings</th><th>Energy class</th><th>Noise</th><th>Eco duration</th><th>App</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Bosch Series 6 SMS6ZCI42E</td><td>Freestanding</td><td>14</td><td>C</td><td>44 dB</td><td>3 h 55 min</td><td>Home Connect</td><td>Drying, family use</td></tr>
+<tr><td>Miele G 7110 SC AutoDos</td><td>Freestanding</td><td>14</td><td>B</td><td>43 dB</td><td>3 h 19 min</td><td>Miele@home</td><td>Auto-dosing, longevity</td></tr>
+<tr><td>Siemens iQ500 SN65ZX07CE</td><td>Panel-ready</td><td>14</td><td>B</td><td>40 dB</td><td>3 h 35 min</td><td>Home Connect</td><td>Open-concept kitchen, silence</td></tr>
+<tr><td>LG DF455HSS</td><td>Freestanding</td><td>14</td><td>C</td><td>41 dB</td><td>n/a</td><td>LG ThinQ</td><td>Steam hygiene, glassware</td></tr>
+<tr><td>Haier XS 6B0S3FSB</td><td>Panel-ready</td><td>16</td><td>B</td><td>40 dB</td><td>3 h 55 min</td><td>Haier hOn</td><td>Large family, budget</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Mixing up freestanding and panel-ready</strong>: a panel-ready model has no finished door of its own, and a freestanding one can’t hide behind a cabinet panel.</li>
+<li><strong>Treating class C as poor</strong>: on the 2021 EU scale, C is a good level. Compare the kWh per 100 cycles shown on the label instead.</li>
+<li><strong>Avoiding the Eco program because it’s long</strong>: it’s the most economical. Use delay start or remote start so it runs while you’re out.</li>
+<li><strong>Overdosing detergent</strong>: it leaves deposits and wears out seals. An auto-dosing model solves the problem.</li>
+<li><strong>Buying for the app alone</strong>: check noise, capacity and drying first; connectivity is a bonus.</li>
+<li><strong>Forgetting salt and rinse aid</strong> if your water is hard: this is exactly what the app alerts are for.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<p>A dishwasher connects to a cold water supply (or hot water for some Miele models), a drain and a grounded outlet, ideally on a dedicated circuit. Avoid extension cords and power bars. If an outlet or circuit has to be added, hire a licensed electrician (electrical work rules are set by each province and territory); for a panel-ready model, an installer will adjust the door panel and fit the steam-protection strip under the countertop.</p>
+<p>Leak protection systems such as AquaStop shut off the water supply if something goes wrong, but a <a href="/ca/blog/detection-fuite-eau-connectee">smart water leak detector</a> under the sink adds a useful extra layer. On the app side, Wi-Fi setup takes a few minutes; keep the software up to date and only enable remote start once the door is properly closed. For more ways to save, read our <a href="/ca/blog/guide-domotique-economie-energie-2026">smart home energy-saving guide</a>.</p>
+
+<h2>Verdict</h2>
+<p>The <strong>Bosch Series 6 SMS6ZCI42E</strong> remains the most balanced choice: zeolite drying, a third rack and a mature Home Connect app. The <strong>Miele G 7110 SC AutoDos</strong> is the premium pick for anyone who wants auto-dosing and proven longevity. Behind custom cabinetry, the <strong>Siemens iQ500 SN65ZX07CE</strong> shines for its silence, while the <strong>Haier XS 6B0S3FSB</strong> offers 16 place settings at a sensible price. The <strong>LG DF455HSS</strong> will appeal to fans of steam cleaning and the ThinQ ecosystem.</p>`,
   },
   faq: [
     {
@@ -787,6 +1111,9 @@ export const article: BlogArticle = {
         it: `Una lavastoviglie connessa conviene davvero?`,
         nl: `Is een slimme vaatwasser echt de moeite waard?`,
         pl: `Czy inteligentna zmywarka naprawdę się opłaca?`,
+        sv: `Är en smart diskmaskin verkligen värd pengarna?`,
+        us: `Is a smart dishwasher really worth it?`,
+        ca: `Is a smart dishwasher really worth it?`,
       },
       answer: {
         fr: `Oui si vous utilisez le démarrage à distance pour profiter des heures creuses, les alertes de sel, de liquide de rinçage ou de détergent, et le diagnostic en cas de panne. La qualité de lavage dépend avant tout de la machine : choisissez d’abord sur le bruit, la capacité et le séchage, la connectivité vient en plus.`,
@@ -795,7 +1122,10 @@ export const article: BlogArticle = {
         es: `Sí, si aprovechas el inicio remoto para lavar en horas valle, los avisos de sal, abrillantador o detergente y el diagnóstico en caso de avería. La calidad de lavado depende de la máquina: elige primero por ruido, capacidad y secado; la conectividad es un extra.`,
         it: `Sì, se sfruttate l’avvio remoto nelle fasce orarie convenienti, gli avvisi su sale, brillantante o detersivo e la diagnostica in caso di guasto. La qualità di lavaggio dipende dalla macchina: scegliete prima per rumorosità, capienza e asciugatura; la connettività è un plus.`,
         nl: `Ja, als je starten op afstand gebruikt om in de daluren te wassen, de meldingen voor zout, glansspoelmiddel of vaatwasmiddel, en de diagnose bij een storing. De wasprestaties hangen af van het toestel zelf: kies eerst op geluid, capaciteit en droging; connectiviteit is een extra.`,
-        pl: `Tak, jeśli korzystasz ze zdalnego startu, by wykorzystać godziny tańszej taryfy, z alertów o soli, płynie nabłyszczającym lub detergencie oraz z diagnostyki w razie awarii. Jakość mycia zależy przede wszystkim od samego urządzenia: wybieraj najpierw według hałasu, pojemności i suszenia, a łączność jest dodatkiem.`,
+        pl: `Tak, jeśli będziesz uruchamiać ją zdalnie w godzinach tańszej taryfy, korzystać z przypomnień o soli, płynie nabłyszczającym czy detergencie oraz z diagnostyki w razie awarii. Jakość mycia zależy jednak przede wszystkim od samej zmywarki: wybieraj ją najpierw pod kątem hałasu, pojemności i suszenia, a łączność traktuj jako dodatek.`,
+        sv: `Ja, om du använder fjärrstart för att diska när elen är som billigast, påminnelserna om salt, sköljmedel och diskmedel och felsökningen när något krånglar. Diskresultatet beror framför allt på själva maskinen: välj först efter ljudnivå, kapacitet och torkning; uppkopplingen kommer i andra hand.`,
+        us: `Yes, if you use remote start to run it during off-peak hours on a time-of-use rate plan, plus the salt, rinse-aid or detergent alerts and the diagnostics when something goes wrong. Cleaning performance depends on the machine itself, so choose on noise, capacity and drying first; smart features come on top.`,
+        ca: `Yes, if you use remote start to run during off-peak hours, the salt, rinse-aid or detergent alerts, and the diagnostics when something goes wrong. Cleaning quality depends on the machine itself, so choose on noise, capacity and drying first; connectivity comes on top.`,
       },
     },
     {
@@ -807,6 +1137,9 @@ export const article: BlogArticle = {
         it: `Una lavastoviglie in classe C consuma molto?`,
         nl: `Verbruikt een vaatwasser met klasse C veel energie?`,
         pl: `Czy zmywarka klasy C zużywa dużo energii?`,
+        sv: `Drar en diskmaskin i energiklass C mycket el?`,
+        us: `Is a dishwasher rated C on the EU energy label inefficient?`,
+        ca: `Is a class C dishwasher energy-hungry?`,
       },
       answer: {
         fr: `Non. Depuis la nouvelle étiquette de mars 2021 (échelle A à G), la classe C correspond à un bon niveau, souvent l’équivalent d’un ancien A+++. Pour comparer deux modèles, regardez la consommation en kWh pour 100 cycles Eco indiquée sur l’étiquette : par exemple 64 kWh pour le Miele G 7110 SC AutoDos contre 75 kWh pour le Bosch SMS6ZCI42E.`,
@@ -815,7 +1148,10 @@ export const article: BlogArticle = {
         es: `No. Desde la nueva etiqueta de marzo de 2021 (escala de la A a la G), la clase C es un buen nivel, a menudo equivalente a un antiguo A+++. Para comparar dos modelos, fíjate en los kWh por 100 ciclos Eco de la etiqueta: por ejemplo, 64 kWh en el Miele G 7110 SC AutoDos frente a 75 kWh en el Bosch SMS6ZCI42E.`,
         it: `No. Con la nuova etichetta di marzo 2021 (scala dalla A alla G), la classe C è un buon livello, spesso equivalente a una vecchia A+++. Per confrontare due modelli guardate i kWh ogni 100 cicli Eco in etichetta: ad esempio 64 kWh per la Miele G 7110 SC AutoDos contro 75 kWh per la Bosch SMS6ZCI42E.`,
         nl: `Nee. Sinds het nieuwe label van maart 2021 (schaal A tot G) is klasse C een goed niveau, vaak vergelijkbaar met een vroegere A+++. Vergelijk twee modellen op het verbruik in kWh per 100 Eco-cycli op het label: bijvoorbeeld 64 kWh voor de Miele G 7110 SC AutoDos tegenover 75 kWh voor de Bosch SMS6ZCI42E.`,
-        pl: `Nie. Od nowej etykiety z marca 2021 roku (skala A do G) klasa C oznacza dobry poziom, często odpowiednik dawnego A+++. Aby porównać dwa modele, spójrz na zużycie w kWh na 100 cykli Eco podane na etykiecie: na przykład 64 kWh dla Miele G 7110 SC AutoDos wobec 75 kWh dla Bosch SMS6ZCI42E.`,
+        pl: `Nie. Na nowej etykiecie, obowiązującej od marca 2021 roku (skala od A do G), klasa C oznacza dobry wynik i często odpowiada dawnej klasie A+++. Porównując dwa modele, patrz na zużycie energii w kWh na 100 cykli programu Eco podane na etykiecie: na przykład 64 kWh w przypadku Miele G 7110 SC AutoDos wobec 75 kWh w przypadku Bosch SMS6ZCI42E.`,
+        sv: `Nej. Med den nya energimärkningen från mars 2021 (skala A till G) är klass C ett bra betyg, ofta motsvarande ett gammalt A+++. Jämför två modeller genom att titta på förbrukningen i kWh per 100 Eco-program på etiketten: till exempel 64 kWh för Miele G 7110 SC AutoDos mot 75 kWh för Bosch SMS6ZCI42E.`,
+        us: `No. Since the EU label was rescaled in March 2021 (A to G), class C is a good level, often equivalent to an old A+++. To compare two models, look at the kWh per 100 Eco cycles on the label: for example, 64 kWh for the Miele G 7110 SC AutoDos vs. 75 kWh for the Bosch SMS6ZCI42E.`,
+        ca: `No. Since the EU’s new label of March 2021 (A to G scale), class C is a good level, often equivalent to an old A+++. To compare two models, look at the kWh per 100 Eco cycles on the label: for example 64 kWh for the Miele G 7110 SC AutoDos versus 75 kWh for the Bosch SMS6ZCI42E.`,
       },
     },
     {
@@ -827,6 +1163,9 @@ export const article: BlogArticle = {
         it: `Perché il programma Eco dura quasi 4 ore?`,
         nl: `Waarom duurt het Eco-programma bijna 4 uur?`,
         pl: `Dlaczego program Eco trwa prawie 4 godziny?`,
+        sv: `Varför tar Eco-programmet nästan 4 timmar?`,
+        us: `Why does the Eco cycle take almost 4 hours?`,
+        ca: `Why does the Eco program take almost 4 hours?`,
       },
       answer: {
         fr: `Parce qu’il lave à plus basse température et compense par un temps de trempage et de lavage plus long, ce qui réduit fortement la consommation d’énergie. C’est le programme de référence de l’étiquette énergie. Avec le démarrage différé ou à distance, sa durée devient sans importance.`,
@@ -835,7 +1174,10 @@ export const article: BlogArticle = {
         es: `Porque lava a menor temperatura y lo compensa con más tiempo de remojo y lavado, lo que reduce mucho el consumo de energía. Es el programa de referencia de la etiqueta energética. Con el inicio diferido o remoto, su duración deja de importar.`,
         it: `Perché lava a temperatura più bassa e compensa con tempi di ammollo e lavaggio più lunghi, riducendo molto il consumo di energia. È il programma di riferimento dell’etichetta energetica. Con la partenza ritardata o l’avvio remoto, la durata diventa irrilevante.`,
         nl: `Omdat het op lagere temperatuur wast en dat compenseert met langer weken en wassen, wat het energieverbruik flink verlaagt. Het is het referentieprogramma van het energielabel. Met uitgestelde start of starten op afstand maakt de duur nauwelijks uit.`,
-        pl: `Ponieważ myje w niższej temperaturze i rekompensuje to dłuższym czasem moczenia i mycia, co mocno ogranicza zużycie energii. To program referencyjny etykiety energetycznej. Przy starcie opóźnionym lub zdalnym jego czas trwania przestaje mieć znaczenie.`,
+        pl: `Ponieważ myje w niższej temperaturze, a nadrabia to dłuższym namaczaniem i myciem, co znacznie zmniejsza zużycie energii. To na jego podstawie wyznacza się parametry podawane na etykiecie energetycznej. Jeśli korzystasz z opóźnionego lub zdalnego startu, długość programu przestaje mieć znaczenie.`,
+        sv: `För att det diskar på lägre temperatur och kompenserar med längre blötläggning och disktid, vilket sänker energiförbrukningen kraftigt. Det är referensprogrammet för energimärkningen. Med fördröjd start eller fjärrstart spelar längden knappt någon roll.`,
+        us: `Because it washes at a lower temperature and makes up for it with longer soaking and washing, which significantly cuts energy use. It’s the reference program for the EU energy label. With delay start or remote start, its length hardly matters.`,
+        ca: `Because it washes at a lower temperature and makes up for it with longer soaking and washing time, which significantly cuts energy use. It’s the reference program for the EU energy label. With delay start or remote start, its length hardly matters.`,
       },
     },
     {
@@ -846,7 +1188,10 @@ export const article: BlogArticle = {
         es: `¿Merece la pena la dosificación automática AutoDos de Miele?`,
         it: `Il dosaggio automatico AutoDos di Miele conviene?`,
         nl: `Is de automatische dosering AutoDos van Miele de moeite waard?`,
-        pl: `Czy automatyczne dozowanie AutoDos od Miele się opłaca?`,
+        pl: `Czy automatyczne dozowanie Miele AutoDos się opłaca?`,
+        sv: `Lönar sig Mieles automatiska dosering AutoDos?`,
+        us: `Is Miele’s AutoDos auto-dosing worth it?`,
+        ca: `Is Miele’s AutoDos auto-dosing worth it?`,
       },
       answer: {
         fr: `C’est surtout un gain de confort : la cartouche PowerDisk se recharge environ tous les 20 cycles selon Miele, et la machine dose seule selon le programme, ce qui évite le surdosage. La contrepartie est l’achat de cartouches propres à la marque. Si vous oubliez souvent les pastilles ou dosez à l’œil, c’est un vrai plus.`,
@@ -855,7 +1200,10 @@ export const article: BlogArticle = {
         es: `Sobre todo gana en comodidad: según Miele, el cartucho PowerDisk se cambia cada unos 20 lavados, y la máquina dosifica sola según el programa, lo que evita la sobredosis. La contrapartida es comprar cartuchos propios de la marca. Si sueles olvidar las pastillas o dosificas a ojo, es una gran ventaja.`,
         it: `È soprattutto una questione di comodità: secondo Miele la cartuccia PowerDisk va sostituita circa ogni 20 lavaggi, e la macchina dosa da sola in base al programma, evitando il sovradosaggio. In cambio servono cartucce specifiche del marchio. Se dimenticate spesso le pastiglie o dosate a occhio, è un vero vantaggio.`,
         nl: `Het is vooral comfortwinst: het PowerDisk-patroon moet volgens Miele ongeveer om de 20 spoelbeurten vervangen worden, en het toestel doseert zelf per programma, wat overdosering voorkomt. Daar staat tegenover dat je merkgebonden patronen koopt. Vergeet je vaak tabletten of doseer je op het oog, dan is het een echte plus.`,
-        pl: `To przede wszystkim wygoda: kartridż PowerDisk uzupełnia się mniej więcej co 20 cykli według Miele, a urządzenie samo dozuje zależnie od programu, co zapobiega przedawkowaniu. Wadą jest zakup kartridży dostępnych tylko od marki. Jeśli często zapominasz o tabletkach lub dozujesz na oko, to prawdziwy plus.`,
+        pl: `Przede wszystkim zyskujesz wygodę: według Miele wkład PowerDisk wymienia się mniej więcej co 20 cykli, a zmywarka sama dobiera dawkę do programu, więc nie ma ryzyka przedawkowania. Minusem jest konieczność kupowania wkładów tej marki. Jeśli często zapominasz o tabletkach albo dozujesz detergent na oko, to realna korzyść.`,
+        sv: `Det handlar främst om bekvämlighet: PowerDisk-patronen räcker till ungefär 20 diskar enligt Miele, och maskinen doserar själv efter programmet, vilket förhindrar överdosering. Nackdelen är att du måste köpa Mieles egna patroner. Glömmer du ofta tabletterna eller doserar på en höft är det ett klart plus.`,
+        us: `It’s mainly about convenience: the PowerDisk cartridge needs replacing roughly every 20 cycles according to Miele, and the machine doses on its own for each cycle, which prevents overdosing. The trade-off is buying brand-specific cartridges. If you often forget to add pods or measure detergent by eye, it’s a real plus.`,
+        ca: `It’s mainly a convenience gain: the PowerDisk cartridge needs replacing roughly every 20 cycles according to Miele, and the machine doses by itself for each program, which avoids overdosing. The trade-off is buying brand-specific cartridges. If you often forget to add pods or tend to dose by eye, it’s a real plus.`,
       },
     },
     {
@@ -867,6 +1215,9 @@ export const article: BlogArticle = {
         it: `Una lavastoviglie connessa funziona senza Wi-Fi?`,
         nl: `Werkt een slimme vaatwasser zonder wifi?`,
         pl: `Czy inteligentna zmywarka działa bez Wi-Fi?`,
+        sv: `Fungerar en smart diskmaskin utan wifi?`,
+        us: `Does a smart dishwasher work without Wi-Fi?`,
+        ca: `Does a smart dishwasher work without Wi-Fi?`,
       },
       answer: {
         fr: `Oui. Tous les programmes restent accessibles depuis le bandeau de commande. Sans connexion, vous perdez seulement les fonctions de l’application : démarrage à distance, notifications, assistant de programme, diagnostic à distance et mises à jour.`,
@@ -875,7 +1226,10 @@ export const article: BlogArticle = {
         es: `Sí. Todos los programas siguen disponibles desde el panel de mandos. Sin conexión solo pierdes las funciones de la app: inicio remoto, notificaciones, asistente de programas, diagnóstico a distancia y actualizaciones.`,
         it: `Sì. Tutti i programmi restano disponibili dal pannello comandi. Senza connessione si perdono solo le funzioni dell’app: avvio remoto, notifiche, assistente programmi, diagnostica a distanza e aggiornamenti.`,
         nl: `Ja. Alle programma’s blijven beschikbaar via het bedieningspaneel. Zonder verbinding verlies je alleen de app-functies: starten op afstand, meldingen, programma-assistent, diagnose op afstand en updates.`,
-        pl: `Tak. Wszystkie programy pozostają dostępne z panelu sterowania. Bez połączenia tracisz tylko funkcje aplikacji: zdalny start, powiadomienia, asystenta programów, zdalną diagnostykę i aktualizacje.`,
+        pl: `Tak. Każdy program można uruchomić z panelu sterowania. Bez połączenia tracisz jedynie funkcje aplikacji: zdalny start, powiadomienia, asystenta programów, zdalną diagnostykę i aktualizacje.`,
+        sv: `Ja. Alla program går att välja på kontrollpanelen. Utan uppkoppling förlorar du bara appens funktioner: fjärrstart, notiser, programassistent, felsökning på distans och uppdateringar.`,
+        us: `Yes. All cycles are still available from the control panel. Without a connection you only lose the app features: remote start, notifications, the cycle assistant, remote diagnostics and updates.`,
+        ca: `Yes. All programs remain available from the control panel. Without a connection you only lose the app features: remote start, notifications, program assistant, remote diagnostics and updates.`,
       },
     },
     {
@@ -886,7 +1240,10 @@ export const article: BlogArticle = {
         es: `¿Cuántos servicios necesita una familia?`,
         it: `Quanti coperti servono per una famiglia?`,
         nl: `Hoeveel couverts heeft een gezin nodig?`,
-        pl: `Ile kompletów naczyń potrzeba dla rodziny?`,
+        pl: `Ile kompletów naczyń powinna mieścić zmywarka dla rodziny?`,
+        sv: `Hur många kuvert behöver en familj?`,
+        us: `How many place settings does a family need?`,
+        ca: `How many place settings does a family need?`,
       },
       answer: {
         fr: `Un modèle de 60 cm à 13 ou 14 couverts convient à un foyer de 3 à 5 personnes avec un cycle par jour. Au-delà, ou si vous cuisinez beaucoup avec de grands plats, un modèle à 16 couverts comme le Haier XS 6B0S3FSB évite de lancer deux cycles. Pour un studio, un modèle de 45 cm suffit souvent.`,
@@ -895,7 +1252,10 @@ export const article: BlogArticle = {
         es: `Un modelo de 60 cm con 13 o 14 servicios encaja en un hogar de 3 a 5 personas con un lavado al día. Si sois más, o cocináis mucho con fuentes grandes, un modelo de 16 servicios como el Haier XS 6B0S3FSB evita poner dos lavados. Para un estudio, suele bastar un modelo de 45 cm.`,
         it: `Un modello da 60 cm con 13 o 14 coperti è adatto a una famiglia di 3-5 persone con un lavaggio al giorno. Oltre, o se cucinate molto con teglie grandi, un modello da 16 coperti come la Haier XS 6B0S3FSB evita di fare due cicli. Per un monolocale spesso basta un modello da 45 cm.`,
         nl: `Een model van 60 cm met 13 of 14 couverts past bij een huishouden van 3 tot 5 personen met één cyclus per dag. Daarboven, of als je veel kookt met grote schalen, bespaart een model met 16 couverts zoals de Haier XS 6B0S3FSB je een tweede cyclus. Voor een studio volstaat vaak een smal model van 45 cm.`,
-        pl: `Model 60 cm na 13 lub 14 kompletów pasuje do gospodarstwa 3–5 osób z jednym cyklem dziennie. Powyżej tego lub jeśli dużo gotujesz w dużych naczyniach, model na 16 kompletów, jak Haier XS 6B0S3FSB, pozwala uniknąć dwóch cykli. Do kawalerki często wystarcza model 45 cm.`,
+        pl: `Zmywarka o szerokości 60 cm na 13 lub 14 kompletów wystarczy gospodarstwu 3–5-osobowemu, które włącza ją raz dziennie. W większej rodzinie albo jeśli często gotujesz w dużych naczyniach, model na 16 kompletów, taki jak Haier XS 6B0S3FSB, oszczędzi Ci drugiego cyklu. Do kawalerki często wystarcza model o szerokości 45 cm.`,
+        sv: `En modell på 60 cm för 13 eller 14 kuvert passar ett hushåll på 3–5 personer som diskar en gång om dagen. För större hushåll, eller om du ofta lagar mat i stora formar och kastruller, slipper du köra två omgångar med en modell för 16 kuvert som Haier XS 6B0S3FSB. I en etta räcker det ofta med en smal modell på 45 cm.`,
+        us: `A 24-inch (60 cm) model with 13 or 14 place settings suits a household of 3 to 5 people running one cycle a day. Beyond that, or if you cook a lot with large dishes, a 16-place-setting model such as the Haier XS 6B0S3FSB saves you from running two cycles. For a studio apartment, an 18-inch (45 cm) compact model is often enough.`,
+        ca: `A 60 cm (24 in.) model with 13 or 14 place settings suits a household of 3 to 5 people running one cycle a day. Beyond that, or if you cook a lot with large dishes, a 16-place model such as the Haier XS 6B0S3FSB saves you running two cycles. For a studio apartment, a 45 cm (18 in.) slimline model is often enough.`,
       },
     },
   ],

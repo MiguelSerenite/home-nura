@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Patatine dorate e croccanti in un cestello di metallo',
         nl: 'Goudbruine, krokante friet in een metalen bakmand',
         pl: 'Złociste, chrupiące frytki w metalowym koszu do smażenia',
+        sv: 'Gyllene, krispiga pommes frites i en korg av metall',
+        us: 'Golden, crispy fries in a metal cooking basket',
+        ca: 'Golden, crispy fries in a metal cooking basket',
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: 'Recetas de Patatas Fritas Perfectas en Freidora de Aire: 7 Variantes Crujientes',
     it: 'Ricette di Patatine Fritte Perfette nella Friggitrice ad Aria: 7 Varianti Croccanti',
     nl: 'Perfecte Frietjes uit de Airfryer: 7 Krokante Variaties',
-    pl: 'Przepisy na idealne frytki z frytkownicy beztłuszczowej: 7 chrupiących wariantów',
+    pl: 'Idealne frytki z frytkownicy beztłuszczowej: 7 chrupiących przepisów',
+    sv: 'Pommes frites i airfryer: 7 krispiga varianter',
+    us: 'Air Fryer Fries: 7 Crispy Recipes, From Classic to Truffle',
+    ca: 'Perfect Air Fryer French Fries: 7 Crispy Variations',
   },
   excerpt: {
     fr: 'Découvrez 7 recettes de frites à l\'airfryer : classiques, patates douces, polenta, courgettes, avocat, truffées et à la belge. Temps, températures et astuces pour un résultat croustillant à chaque fois.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'Descubre 7 recetas de patatas fritas en freidora de aire: clásicas, boniato, polenta, calabacín, aguacate, trufa y estilo belga. Tiempos, temperaturas y trucos para un resultado crujiente.',
     it: 'Scopri 7 ricette di patatine fritte nella friggitrice ad aria: classiche, patata dolce, polenta, zucchine, avocado, tartufo e stile belga. Tempi, temperature e consigli per risultati croccanti.',
     nl: 'Ontdek 7 airfryer frietjesrecepten: klassiek, zoete aardappel, polenta, courgette, avocado, truffel en Belgische stijl. Tijden, temperaturen en tips voor krokante resultaten.',
-    pl: 'Poznaj 7 przepisów na frytki z frytkownicy beztłuszczowej: klasyczne, ze słodkich ziemniaków, z polenty, cukinii, awokado, truflowe i po belgijsku. Czasy, temperatury i wskazówki na chrupiący efekt za każdym razem.',
+    pl: 'Poznaj 7 przepisów na frytki z frytkownicy beztłuszczowej: klasyczne, z batatów, z polenty, z cukinii, z awokado, truflowe i po belgijsku. Czasy, temperatury i wskazówki, dzięki którym frytki zawsze wyjdą chrupiące.',
+    sv: '7 recept på pommes frites i airfryer: klassiska, sötpotatis-, polenta-, zucchini- och avokadopommes, tryffelpommes och belgiska. Tider, temperaturer och knep för krispigt resultat varje gång.',
+    us: 'Seven air fryer fries recipes: classic, sweet potato, polenta, zucchini, avocado, truffle and Belgian-style, with times, temperatures and tips for crispy fries every time.',
+    ca: 'Seven air fryer fries recipes: classic, sweet potato, polenta, zucchini, avocado, truffle and Belgian-style, with times, temperatures in °C and °F and tips for crispy results every time.',
   },
   content: {
     fr: `<h2>Introduction</h2>
@@ -1125,13 +1134,13 @@ export const article: BlogArticle = {
 <li><strong>Pittige tomatensaus:</strong> passata + chilivlokken + verse basilicum. Klassiek bij courgettefrietjes.</li>
 </ul>`,
     pl: `<h2>Wstęp</h2>
-<p>Frytki z frytkownicy beztłuszczowej to prawdziwa rewolucja w kuchni. Przy <strong>znacznie mniejszej ilości tłuszczu</strong> niż w tradycyjnej frytownicy (producenci deklarują nawet do 80% mniej) dostajesz frytki chrupiące z zewnątrz i miękkie w środku. Niezależnie od tego, czy używasz <a href="/pl/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a>, czy <a href="/pl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, te 7 przepisów na frytki pozwoli Ci urozmaicić codzienne menu.</p>
-<p>Sekret udanych frytek z frytkownicy beztłuszczowej opiera się na trzech filarach: równym pokrojeniu, wcześniejszym moczeniu, które usuwa nadmiar skrobi, oraz dwuetapowym smażeniu. W tym artykule opisujemy każdy przepis z dokładnymi ilościami, temperaturami i orientacyjnymi czasami smażenia, które warto dostosować do mocy Twojego urządzenia.</p>
+<p>Frytki z frytkownicy beztłuszczowej to zupełnie nowe podejście do tego klasyka. Zużywasz <strong>znacznie mniej tłuszczu</strong> niż w tradycyjnej frytkownicy olejowej (producenci deklarują nawet do 80% mniej), a frytki i tak wychodzą chrupiące z zewnątrz i miękkie w środku. Niezależnie od tego, czy korzystasz z modelu <a href="/pl/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a>, czy <a href="/pl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, tych 7 przepisów pozwoli Ci urozmaicić codzienne menu.</p>
+<p>Sekret udanych frytek z frytkownicy beztłuszczowej tkwi w trzech rzeczach: równym krojeniu, wcześniejszym moczeniu, które usuwa nadmiar skrobi, i smażeniu w dwóch etapach. Przy każdym przepisie podajemy dokładne ilości i temperatury oraz orientacyjne czasy smażenia – dostosuj je do mocy swojego urządzenia.</p>
 
 <h2>1. Klasyczne frytki ziemniaczane</h2>
 <h3>Składniki</h3>
 <ul>
-<li>500 g ziemniaków odmiany nadającej się na frytki (Bintje lub Agria)</li>
+<li>500 g ziemniaków na frytki (Bintje lub Agria)</li>
 <li>1 łyżka oliwy z oliwek (15 ml)</li>
 <li>1 łyżeczka drobnej soli</li>
 <li>½ łyżeczki wędzonej papryki (opcjonalnie)</li>
@@ -1139,21 +1148,21 @@ export const article: BlogArticle = {
 <h3>Przygotowanie</h3>
 <ol>
 <li>Obierz ziemniaki i pokrój je w równe słupki o <strong>grubości 1 cm</strong>.</li>
-<li>Namocz słupki w zimnej wodzie przez <strong>minimum 30 minut</strong> (najlepiej 1 godzinę), aby usunąć skrobię.</li>
-<li>Odsącz frytki i dokładnie osusz czystą ściereczką lub ręcznikiem papierowym. <strong>Ten etap jest kluczowy</strong>: mokre frytki nigdy nie będą chrupiące.</li>
+<li>Namocz słupki w zimnej wodzie przez <strong>co najmniej 30 minut</strong> (najlepiej godzinę), aby wypłukać skrobię.</li>
+<li>Odcedź frytki i dokładnie osusz je czystą ściereczką lub ręcznikiem papierowym. <strong>Ten etap jest kluczowy</strong>: mokre frytki nigdy nie będą chrupiące.</li>
 <li>W misce wymieszaj frytki z oliwą i solą.</li>
-<li>Rozgrzej frytkownicę do <strong>180 °C przez 3 minuty</strong>.</li>
-<li>Ułóż frytki w jednej warstwie w koszu, nie układając ich jedna na drugiej.</li>
-<li>Smaż w <strong>180 °C przez 10 minut</strong>, wstrząśnij koszem, a następnie zwiększ temperaturę do <strong>200 °C na kolejne 8 do 10 minut</strong>.</li>
-<li>Po wyjęciu posyp wędzoną papryką i podaj od razu.</li>
+<li>Rozgrzej frytkownicę: <strong>180 °C przez 3 minuty</strong>.</li>
+<li>Rozłóż frytki w koszu w jednej warstwie, tak by nie leżały jedna na drugiej.</li>
+<li>Smaż w <strong>180 °C przez 10 minut</strong>, potrząśnij koszem, a potem zwiększ temperaturę do <strong>200 °C i smaż jeszcze 8–10 minut</strong>.</li>
+<li>Po wyjęciu posyp frytki wędzoną papryką i od razu podawaj.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Aby frytki były jeszcze bardziej chrupiące, dodaj <strong>½ łyżeczki skrobi kukurydzianej</strong> do mieszanki oliwy i soli. Skrobia tworzy cienką powłoczkę, która wzmacnia chrupkość. Nigdy nie przepełniaj kosza: w razie potrzeby smaż w dwóch partiach. W naszym przewodniku o <a href="/pl/blog/erreurs-courantes-airfryer">najczęstszych błędach przy użyciu frytkownicy beztłuszczowej</a> znajdziesz sposoby na uniknięcie typowych pułapek.</p>
+<p>Jeśli chcesz, żeby frytki były jeszcze bardziej chrupiące, dodaj do oliwy z solą <strong>½ łyżeczki skrobi kukurydzianej</strong>. Skrobia tworzy cienką warstewkę, dzięki której frytki lepiej chrupią. Nigdy nie przepełniaj kosza – w razie potrzeby smaż w dwóch partiach. Jak uniknąć typowych pułapek, przeczytasz w naszym poradniku o <a href="/pl/blog/erreurs-courantes-airfryer">najczęstszych błędach przy korzystaniu z frytkownicy beztłuszczowej</a>.</p>
 
-<h2>2. Frytki ze słodkich ziemniaków</h2>
+<h2>2. Frytki z batatów</h2>
 <h3>Składniki</h3>
 <ul>
-<li>500 g słodkich ziemniaków (batatów)</li>
+<li>500 g batatów (słodkich ziemniaków)</li>
 <li>1 łyżka roztopionego oleju kokosowego (15 ml)</li>
 <li>1 łyżeczka mielonego cynamonu</li>
 <li>½ łyżeczki soli</li>
@@ -1162,15 +1171,15 @@ export const article: BlogArticle = {
 <h3>Przygotowanie</h3>
 <ol>
 <li>Obierz bataty i pokrój je w słupki o <strong>grubości 0,8 cm</strong> (cieńsze niż klasyczne frytki, bo szybciej miękną).</li>
-<li>Namocz w zimnej wodzie przez <strong>20 minut</strong>.</li>
-<li>Odsącz i dokładnie osusz.</li>
+<li>Namocz je w zimnej wodzie przez <strong>20 minut</strong>.</li>
+<li>Odcedź i bardzo dokładnie osusz.</li>
 <li>Wymieszaj z roztopionym olejem kokosowym, cynamonem, solą i pieprzem cayenne.</li>
-<li>Rozgrzej frytkownicę do <strong>190 °C przez 3 minuty</strong>.</li>
-<li>Ułóż w jednej warstwie w koszu.</li>
-<li>Smaż w <strong>190 °C przez 8 minut</strong>, wstrząśnij, a następnie kontynuuj w <strong>200 °C przez 5 do 7 minut</strong>.</li>
+<li>Rozgrzej frytkownicę: <strong>190 °C przez 3 minuty</strong>.</li>
+<li>Rozłóż bataty w koszu w jednej warstwie.</li>
+<li>Smaż w <strong>190 °C przez 8 minut</strong>, potrząśnij koszem, a potem smaż dalej w <strong>200 °C przez 5–7 minut</strong>.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Bataty zawierają więcej cukru niż zwykłe ziemniaki, przez co szybciej się rumienią. Uważnie pilnuj ostatnich minut smażenia. Mieszanka cynamonu i cayenne daje wyjątkowy kontrast słodko-ostry. Podaj z sosem z jogurtu greckiego i szczypiorku.</p>
+<p>Bataty zawierają więcej cukru niż zwykłe ziemniaki, dlatego szybciej się rumienią – pod koniec smażenia nie spuszczaj ich z oka. Połączenie cynamonu i cayenne daje wyrazisty, słodko-pikantny kontrast. Podawaj z sosem z jogurtu greckiego ze szczypiorkiem.</p>
 
 <h2>3. Frytki z polenty</h2>
 <h3>Składniki</h3>
@@ -1185,16 +1194,16 @@ export const article: BlogArticle = {
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Zagotuj osoloną wodę w garnku. Wsypuj polentę cienkim strumieniem, ciągle mieszając, przez <strong>5 minut</strong>.</li>
-<li>Zdejmij z ognia i wmieszaj masło oraz parmezan. Dobrze wymieszaj.</li>
-<li>Przelej polentę do prostokątnej formy wyłożonej papierem do pieczenia, tworząc warstwę o <strong>grubości 1,5 cm</strong>. Schładzaj w lodówce <strong>minimum 2 godziny</strong>.</li>
-<li>Wyjmij z formy i pokrój w słupki o wymiarach <strong>1,5 cm x 8 cm</strong>.</li>
-<li>Posmaruj oliwą i posyp ziołami prowansalskimi.</li>
-<li>Rozgrzej frytkownicę do <strong>200 °C przez 3 minuty</strong>.</li>
-<li>Smaż w <strong>200 °C przez 12 do 15 minut</strong>, obracając słupki w połowie czasu.</li>
+<li>W garnku zagotuj osoloną wodę. Wsyp polentę cienkim strumieniem i gotuj, ciągle mieszając, przez <strong>5 minut</strong>.</li>
+<li>Zdejmij garnek z ognia, dodaj masło i parmezan i dokładnie wymieszaj.</li>
+<li>Przełóż polentę do prostokątnej formy wyłożonej papierem do pieczenia i rozprowadź ją warstwą o <strong>grubości 1,5 cm</strong>. Wstaw do lodówki na <strong>co najmniej 2 godziny</strong>.</li>
+<li>Wyjmij polentę z formy i pokrój w słupki o wymiarach <strong>1,5 × 8 cm</strong>.</li>
+<li>Posmaruj je oliwą i posyp ziołami prowansalskimi.</li>
+<li>Rozgrzej frytkownicę: <strong>200 °C przez 3 minuty</strong>.</li>
+<li>Smaż w <strong>200 °C przez 12–15 minut</strong>, w połowie czasu obracając słupki.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Przed krojeniem polenta musi być dobrze stężała. Jeśli jest zbyt miękka, wydłuż czas w lodówce. Te frytki są z natury bezglutenowe i świetnie pasują do grillowanego mięsa.</p>
+<p>Przed krojeniem polenta musi dobrze stężeć. Jeśli jest zbyt miękka, potrzymaj ją dłużej w lodówce. Te frytki są z natury bezglutenowe i świetnie pasują do grillowanego mięsa.</p>
 
 <h2>4. Frytki z cukinii</h2>
 <h3>Składniki</h3>
@@ -1210,20 +1219,20 @@ export const article: BlogArticle = {
 <h3>Przygotowanie</h3>
 <ol>
 <li>Pokrój cukinie w słupki o <strong>długości 7 cm i grubości 1 cm</strong>.</li>
-<li>Lekko posól słupki i odstaw na <strong>15 minut</strong> na ręcznik papierowy, aby puściły wodę.</li>
-<li>Przygotuj trzy głębokie talerze: mąka, roztrzepane jajka oraz mieszanka bułki tartej, parmezanu i czosnku granulowanego.</li>
-<li>Każdy słupek obtocz kolejno w mące, jajku, a potem w bułce tartej, dobrze dociskając.</li>
-<li>Lekko spryskaj olejem lub posmaruj pędzelkiem.</li>
-<li>Rozgrzej frytkownicę do <strong>200 °C przez 3 minuty</strong>.</li>
-<li>Smaż w <strong>200 °C przez 10 do 12 minut</strong>, obracając w połowie czasu.</li>
+<li>Lekko posól słupki i odłóż je na <strong>15 minut</strong> na ręcznik papierowy, żeby puściły wodę.</li>
+<li>Przygotuj trzy głębokie talerze: z mąką, z roztrzepanymi jajkami i z mieszanką bułki tartej, parmezanu i czosnku granulowanego.</li>
+<li>Każdy słupek obtocz kolejno w mące, w jajku, a na końcu w bułce tartej, dobrze ją dociskając.</li>
+<li>Lekko spryskaj słupki olejem albo posmaruj je nim pędzelkiem.</li>
+<li>Rozgrzej frytkownicę: <strong>200 °C przez 3 minuty</strong>.</li>
+<li>Smaż w <strong>200 °C przez 10–12 minut</strong>, w połowie czasu obracając słupki.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Sekret tkwi w dokładnym odciągnięciu wody z cukinii. Wilgoć to wróg chrupkości. W <a href="/pl/blog/cuisiner-healthy-airfryer">lżejszej wersji</a> zastąp bułkę tartą mielonymi migdałami. Podaj z ciepłym sosem marinara.</p>
+<p>Cały sekret polega na tym, by dokładnie odciągnąć wodę z cukinii, bo wilgoć to wróg chrupkości. Jeśli wolisz <a href="/pl/blog/cuisiner-healthy-airfryer">lżejszą wersję</a>, zastąp bułkę tartą mielonymi migdałami. Podawaj z ciepłym sosem marinara.</p>
 
 <h2>5. Frytki z awokado</h2>
 <h3>Składniki</h3>
 <ul>
-<li>2 awokado, jędrne, ale dojrzałe</li>
+<li>2 jędrne, ale dojrzałe awokado</li>
 <li>60 g bułki tartej panko</li>
 <li>1 roztrzepane jajko</li>
 <li>30 g mąki</li>
@@ -1234,16 +1243,16 @@ export const article: BlogArticle = {
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Przekrój awokado na pół, wyjmij pestkę i obierz. Każdą połówkę pokrój na <strong>6 cząstek</strong> (łącznie 24 frytki).</li>
-<li>Od razu polej sokiem z limonki, aby awokado nie ciemniało.</li>
-<li>Przygotuj trzy talerze: mąka doprawiona kminem i papryką, roztrzepane jajko, bułka tarta panko.</li>
-<li>Panieruj każdą cząstkę, obtaczając ją w mące, jajku, a potem w panko.</li>
-<li>Rozgrzej frytkownicę do <strong>190 °C przez 3 minuty</strong>.</li>
-<li>Ułóż frytki z awokado w jednej warstwie tak, aby się nie stykały.</li>
-<li>Smaż w <strong>190 °C przez 8 do 10 minut</strong>, aż panierka się zezłoci.</li>
+<li>Przekrój awokado na pół, wyjmij pestkę i obierz owoc. Każdą połówkę pokrój na <strong>6 cząstek</strong> (łącznie 24 frytki).</li>
+<li>Od razu skrop cząstki sokiem z limonki, żeby nie ściemniały.</li>
+<li>Przygotuj trzy talerze: z mąką doprawioną kminem i papryką, z roztrzepanym jajkiem i z bułką tartą panko.</li>
+<li>Obtocz każdą cząstkę w mące, w jajku, a na końcu w panko.</li>
+<li>Rozgrzej frytkownicę: <strong>190 °C przez 3 minuty</strong>.</li>
+<li>Rozłóż frytki z awokado w jednej warstwie, tak by się nie stykały.</li>
+<li>Smaż w <strong>190 °C przez 8–10 minut</strong>, aż panierka się zezłoci.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Wybieraj awokado <strong>jędrne</strong>: zbyt dojrzałe rozgniecie się podczas panierowania. Japońska bułka tarta panko daje lepszą chrupkość niż zwykła. Podaj z kremem z awokado i wasabi albo z sosem sojowo-sezamowym.</p>
+<p>Wybieraj <strong>jędrne</strong> awokado – zbyt dojrzałe rozpadnie się przy panierowaniu. Japońska bułka tarta panko daje bardziej chrupiącą panierkę niż zwykła. Podawaj z kremem z awokado i wasabi albo z sosem sojowo-sezamowym.</p>
 
 <h2>6. Frytki truflowe</h2>
 <h3>Składniki</h3>
@@ -1252,21 +1261,21 @@ export const article: BlogArticle = {
 <li>1 łyżka oleju truflowego (15 ml)</li>
 <li>1 łyżka oliwy z oliwek (15 ml)</li>
 <li>30 g drobno startego parmezanu</li>
-<li>1 łyżka posiekanej świeżej pietruszki</li>
-<li>Fleur de sel</li>
+<li>1 łyżka posiekanej świeżej natki pietruszki</li>
+<li>Kwiat soli (fleur de sel)</li>
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Umyj ziemniaki bez obierania (skórka dodaje chrupkości). Pokrój w słupki o <strong>grubości 0,8 cm</strong>.</li>
-<li>Namocz w zimnej wodzie przez <strong>30 minut</strong>, odsącz i osusz.</li>
-<li>Wymieszaj wyłącznie z oliwą (olej truflowy dodasz po smażeniu).</li>
-<li>Rozgrzej frytkownicę do <strong>180 °C przez 3 minuty</strong>.</li>
-<li>Smaż w <strong>180 °C przez 10 minut</strong>, wstrząśnij, a następnie <strong>200 °C przez 8 minut</strong>.</li>
-<li>Zaraz po wyjęciu z kosza polej olejem truflowym, posyp parmezanem i pietruszką.</li>
-<li>Dopraw fleur de sel i podaj bez zwłoki.</li>
+<li>Umyj ziemniaki, ale ich nie obieraj (dzięki skórce frytki są bardziej chrupiące). Pokrój je w słupki o <strong>grubości 0,8 cm</strong>.</li>
+<li>Namocz je w zimnej wodzie przez <strong>30 minut</strong>, a potem odcedź i osusz.</li>
+<li>Wymieszaj je z samą oliwą (olej truflowy dodasz po smażeniu).</li>
+<li>Rozgrzej frytkownicę: <strong>180 °C przez 3 minuty</strong>.</li>
+<li>Smaż w <strong>180 °C przez 10 minut</strong>, potrząśnij koszem i smaż dalej w <strong>200 °C przez 8 minut</strong>.</li>
+<li>Zaraz po wyjęciu z kosza skrop frytki olejem truflowym i posyp parmezanem oraz natką.</li>
+<li>Dopraw kwiatem soli i od razu podawaj.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p><strong>Nigdy</strong> nie poddawaj oleju truflowego obróbce cieplnej: wysoka temperatura niszczy jego delikatne aromaty. Dodawaj go zawsze na koniec smażenia. Odmiana Ratte, o zwartym miąższu i orzechowym smaku, idealnie nadaje się do tego wykwintnego przepisu.</p>
+<p><strong>Nigdy</strong> nie podgrzewaj oleju truflowego – wysoka temperatura niszczy jego delikatny aromat. Zawsze dodawaj go na samym końcu. Odmiana Ratte, o zwartym miąższu i orzechowym smaku, idealnie nadaje się do tej wykwintnej wersji frytek.</p>
 
 <h2>7. Frytki po belgijsku (podwójne smażenie)</h2>
 <h3>Składniki</h3>
@@ -1277,65 +1286,702 @@ export const article: BlogArticle = {
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Obierz i pokrój ziemniaki w grube słupki o <strong>grubości 1,2 do 1,5 cm</strong>: frytki belgijskie są grubsze niż francuskie.</li>
-<li>Namocz w zimnej wodzie przez <strong>1 godzinę</strong>, wymień wodę po 30 minutach.</li>
-<li>Odsącz i bardzo dokładnie osusz.</li>
+<li>Obierz ziemniaki i pokrój je w słupki o <strong>grubości 1,2–1,5 cm</strong> – frytki belgijskie są grubsze niż francuskie.</li>
+<li>Namocz je w zimnej wodzie przez <strong>godzinę</strong>, po 30 minutach wymieniając wodę.</li>
+<li>Odcedź i bardzo dokładnie osusz.</li>
 <li>Wymieszaj z 1 łyżką oleju.</li>
-<li><strong>Pierwsze smażenie:</strong> rozgrzej do <strong>160 °C</strong>, a następnie smaż przez <strong>15 minut</strong>. Frytki powinny być ugotowane, ale jeszcze nie złote.</li>
+<li><strong>Pierwsze smażenie:</strong> rozgrzej frytkownicę do <strong>160 °C</strong> i smaż przez <strong>15 minut</strong>. Frytki powinny być już miękkie, ale jeszcze nie złociste.</li>
 <li>Wyjmij frytki z kosza i zostaw je na <strong>10 minut</strong> w temperaturze pokojowej.</li>
 <li>Dodaj drugą łyżkę oleju.</li>
-<li><strong>Drugie smażenie:</strong> zwiększ temperaturę do <strong>200 °C</strong> i smaż przez <strong>8 do 10 minut</strong>, aż uzyskasz równomierny złoty kolor.</li>
+<li><strong>Drugie smażenie:</strong> zwiększ temperaturę do <strong>200 °C</strong> i smaż przez <strong>8–10 minut</strong>, aż frytki równomiernie się zezłocą.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Podwójne smażenie to sekret autentycznych belgijskich frytkarni. Pierwsze smażenie dopieka środek, drugie nadaje chrupkości zewnętrznej warstwie. Odpoczynek między etapami pozwala wilgoci z wnętrza przejść na powierzchnię, co gwarantuje ultrachrupiący efekt. Do tradycyjnego dodatku przygotuj domowy majonez.</p>
+<p>Podwójne smażenie to sekret prawdziwych belgijskich frytkarni. Pierwsze smażenie sprawia, że środek mięknie, drugie – że skórka robi się chrupiąca. Przerwa między etapami pozwala wilgoci z wnętrza przedostać się na powierzchnię, dzięki czemu frytki wychodzą wyjątkowo chrupiące. Tradycyjnie podaje się je z domowym majonezem.</p>
 
-<h2>Tabela zbiorcza czasów i temperatur</h2>
+<h2>Zestawienie czasów i temperatur</h2>
 <table>
 <thead>
-<tr><th>Przepis</th><th>Temperatura</th><th>Całkowity czas</th><th>Ilość</th></tr>
+<tr><th>Przepis</th><th>Temperatura</th><th>Łączny czas</th><th>Ilość</th></tr>
 </thead>
 <tbody>
-<tr><td>Frytki klasyczne</td><td>180 °C, potem 200 °C</td><td>18-20 min</td><td>500 g</td></tr>
-<tr><td>Słodkie ziemniaki</td><td>190 °C, potem 200 °C</td><td>13-15 min</td><td>500 g</td></tr>
-<tr><td>Polenta</td><td>200 °C</td><td>12-15 min</td><td>250 g polenty</td></tr>
-<tr><td>Cukinia</td><td>200 °C</td><td>10-12 min</td><td>600 g</td></tr>
-<tr><td>Awokado</td><td>190 °C</td><td>8-10 min</td><td>2 awokado</td></tr>
-<tr><td>Truflowe</td><td>180 °C, potem 200 °C</td><td>18 min</td><td>500 g</td></tr>
-<tr><td>Belgijskie (podwójne smażenie)</td><td>160 °C, potem 200 °C</td><td>23-25 min + odpoczynek</td><td>600 g</td></tr>
+<tr><td>Frytki klasyczne</td><td>180 °C, potem 200 °C</td><td>18–20 min</td><td>500 g</td></tr>
+<tr><td>Bataty</td><td>190 °C, potem 200 °C</td><td>13–15 min</td><td>500 g</td></tr>
+<tr><td>Polenta</td><td>200 °C</td><td>12–15 min</td><td>250 g polenty</td></tr>
+<tr><td>Cukinia</td><td>200 °C</td><td>10–12 min</td><td>600 g</td></tr>
+<tr><td>Awokado</td><td>190 °C</td><td>8–10 min</td><td>2 awokado</td></tr>
+<tr><td>Frytki truflowe</td><td>180 °C, potem 200 °C</td><td>18 min</td><td>500 g</td></tr>
+<tr><td>Frytki belgijskie (podwójne smażenie)</td><td>160 °C, potem 200 °C</td><td>23–25 min + przerwa</td><td>600 g</td></tr>
 </tbody>
 </table>
 
-<h2>Ogólne wskazówki na idealne frytki z frytkownicy beztłuszczowej</h2>
-<p>Niezależnie od wybranego przepisu obowiązuje kilka uniwersalnych zasad, które pozwalają uzyskać idealne frytki z frytkownicy beztłuszczowej:</p>
+<h2>Ogólne zasady przygotowania idealnych frytek we frytkownicy beztłuszczowej</h2>
+<p>Bez względu na wybrany przepis kilka uniwersalnych zasad pozwala uzyskać idealne frytki:</p>
 <ul>
-<li><strong>Zawsze susz frytki</strong>: wilgoć blokuje reakcję Maillarda, która tworzy złotą chrupiącą skórkę.</li>
-<li><strong>Nie przepełniaj kosza</strong>: gorące powietrze musi swobodnie krążyć wokół każdej frytki. W razie potrzeby smaż w kilku partiach.</li>
-<li><strong>Wstrząśnij koszem w połowie smażenia</strong>: dzięki temu frytki zrumienią się równomiernie ze wszystkich stron.</li>
-<li><strong>Zawsze rozgrzewaj frytkownicę</strong>: zwykle wystarczą 3 minuty.</li>
-<li><strong>Używaj mało oleju</strong>: 1 łyżka na 500 g w zupełności wystarczy. Spray do oleju zapewnia równomierniejsze rozprowadzenie.</li>
+<li><strong>Zawsze osuszaj frytki</strong> – wilgoć hamuje reakcję Maillarda, która odpowiada za złocistą, chrupiącą skórkę.</li>
+<li><strong>Nie przepełniaj kosza</strong> – gorące powietrze musi swobodnie krążyć wokół każdej frytki. W razie potrzeby smaż w kilku partiach.</li>
+<li><strong>Potrząsaj koszem w połowie smażenia</strong> – dzięki temu frytki zrumienią się równomiernie ze wszystkich stron.</li>
+<li><strong>Zawsze rozgrzewaj frytkownicę</strong> – zwykle wystarczą 3 minuty.</li>
+<li><strong>Używaj mało oleju</strong> – 1 łyżka na 500 g w zupełności wystarczy. Olej w sprayu łatwiej rozprowadzić równomiernie.</li>
 </ul>
-<p>Chcesz więcej? Zobacz nasze <a href="/pl/blog/recettes-poulet-croustillant-airfryer">przepisy na chrupiącego kurczaka z frytkownicy beztłuszczowej</a>, które doskonale pasują do tych frytek, albo przewodnik o <a href="/pl/blog/cuisiner-healthy-airfryer">lekkim gotowaniu we frytkownicy beztłuszczowej</a>. Sprawdź też <a href="/pl/blog/top-10-accessoires-airfryer">10 najlepszych akcesoriów do frytkownicy beztłuszczowej</a>, które ułatwią przygotowanie potraw.</p>
+<p>Chcesz więcej? Zajrzyj do naszych <a href="/pl/blog/recettes-poulet-croustillant-airfryer">przepisów na chrupiącego kurczaka z frytkownicy beztłuszczowej</a>, który świetnie pasuje do tych frytek, albo do poradnika o <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowych i lekkich potrawach z frytkownicy</a>. Sprawdź też <a href="/pl/blog/top-10-accessoires-airfryer">10 najlepszych akcesoriów do frytkownicy beztłuszczowej</a>, które ułatwią Ci przygotowywanie potraw.</p>
 
-<h2>Porównanie wartości odżywczych: frytkownica beztłuszczowa i tradycyjna frytownica</h2>
+<h2>Wartości odżywcze: frytkownica beztłuszczowa a tradycyjna frytkownica olejowa</h2>
 <table>
-<thead><tr><th>Przepis (200 g)</th><th>Kalorie – beztłuszczowa</th><th>Kalorie – tradycyjna</th><th>Tłuszcz – beztłuszczowa</th><th>Tłuszcz – tradycyjna</th><th>Oszczędność kalorii</th></tr></thead>
+<thead><tr><th>Przepis (200 g)</th><th>Kalorie: frytkownica beztłuszczowa</th><th>Kalorie: frytkownica olejowa</th><th>Tłuszcz: frytkownica beztłuszczowa</th><th>Tłuszcz: frytkownica olejowa</th><th>Mniej kalorii</th></tr></thead>
 <tbody>
 <tr><td>Frytki klasyczne</td><td>290 kcal</td><td>580 kcal</td><td>8 g</td><td>30 g</td><td>-50%</td></tr>
-<tr><td>Słodkie ziemniaki</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>-50%</td></tr>
+<tr><td>Bataty</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>-50%</td></tr>
 <tr><td>Panierowana cukinia</td><td>230 kcal</td><td>420 kcal</td><td>8 g</td><td>26 g</td><td>-45%</td></tr>
 <tr><td>Frytki truflowe</td><td>330 kcal</td><td>600 kcal</td><td>14 g</td><td>32 g</td><td>-45%</td></tr>
 <tr><td>Frytki belgijskie</td><td>300 kcal</td><td>580 kcal</td><td>9 g</td><td>30 g</td><td>-48%</td></tr>
 </tbody>
 </table>
-<p><em>Wartości orientacyjne, szacowane dla porcji 200 g i wyliczone na podstawie ilości oleju w przepisach: zależą od odmiany, sposobu krojenia i ilości wchłoniętego oleju.</em></p>
+<p><em>Wartości orientacyjne dla porcji 200 g, wyliczone na podstawie ilości oleju podanej w przepisach. Zależą od odmiany warzyw, sposobu krojenia i ilości wchłoniętego oleju.</em></p>
 
 <h2>Domowe sosy w 5 minut: najlepsze dodatki</h2>
 <ul>
-<li><strong>Lekki aioli:</strong> 2 łyżki jogurtu greckiego + 1 starty ząbek czosnku + sól. Idealny do klasycznych frytek.</li>
-<li><strong>Sos chipotle:</strong> lekki majonez + chipotle w proszku + sok z limonki. Doskonały do frytek ze słodkich ziemniaków.</li>
-<li><strong>Sos truflowo-parmezanowy:</strong> gęsta śmietana + kilka kropel oleju truflowego + starty parmezan. Wyłącznie do frytek truflowych.</li>
-<li><strong>Sos wasabi-sezam:</strong> serek homogenizowany + wasabi + prażony sezam. Doskonale pasuje do frytek z awokado.</li>
-<li><strong>Pikantny sos pomidorowy:</strong> passata pomidorowa + płatki chili + świeża bazylia. Klasyk do frytek z cukinii.</li>
+<li><strong>Lekki sos aioli:</strong> 2 łyżki jogurtu greckiego + 1 starty ząbek czosnku + sól. Idealny do klasycznych frytek.</li>
+<li><strong>Sos chipotle:</strong> lekki majonez + chipotle w proszku + sok z limonki. Doskonały do frytek z batatów.</li>
+<li><strong>Sos truflowo-parmezanowy:</strong> gęsta śmietana + kilka kropel oleju truflowego + starty parmezan. Tylko do frytek truflowych.</li>
+<li><strong>Sos wasabi z sezamem:</strong> serek homogenizowany naturalny + wasabi + prażony sezam. Świetnie pasuje do frytek z awokado.</li>
+<li><strong>Pikantny sos pomidorowy:</strong> passata pomidorowa + płatki chili + świeża bazylia. Klasyczny dodatek do frytek z cukinii.</li>
+</ul>`,
+    sv: `<h2>Inledning</h2>
+<p>Pommes frites i airfryer har blivit en vardagsfavorit i många kök. Med <strong>betydligt mindre fett</strong> än i en vanlig frityrgryta (tillverkarna anger upp till 80 % mindre) får du pommes frites som är krispiga utanpå och mjuka inuti. Oavsett om du har en <a href="/sv/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> eller en <a href="/sv/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> ger de här 7 recepten omväxling i vardagen.</p>
+<p>Perfekta pommes frites i airfryer vilar på tre grundpelare: jämnt skurna stavar, blötläggning som tar bort överflödig stärkelse och tillagning i två steg. Här går vi igenom varje recept med exakta mängder och temperaturer och ungefärliga tider, som du justerar efter din airfryers effekt.</p>
+
+<h2>1. Klassiska pommes frites</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>500 g mjölig potatis som passar för pommes frites (Bintje eller Agria)</li>
+<li>1 msk olivolja (15 ml)</li>
+<li>1 tsk fint salt</li>
+<li>½ tsk rökt paprikapulver (valfritt)</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Skala potatisen och skär den i jämna stavar, ca <strong>1 cm tjocka</strong>.</li>
+<li>Lägg stavarna i kallt vatten i <strong>minst 30 minuter</strong> (helst 1 timme) så att stärkelsen sköljs bort.</li>
+<li>Låt rinna av och torka noga med en ren kökshandduk eller hushållspapper. <strong>Det här steget är avgörande</strong>: blöta pommes blir aldrig krispiga.</li>
+<li>Blanda stavarna med olivolja och salt i en skål.</li>
+<li>Förvärm airfryern på <strong>180 °C i 3 minuter</strong>.</li>
+<li>Lägg pommesen i ett enda lager, utan att de ligger på varandra.</li>
+<li>Kör på <strong>180 °C i 10 minuter</strong>, skaka korgen och höj sedan till <strong>200 °C i 8–10 minuter</strong>.</li>
+<li>Strö över rökt paprika och servera direkt.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Vill du ha ännu krispigare pommes kan du röra ner <strong>½ tsk majsstärkelse</strong> i oljan och saltet. Stärkelsen bildar en tunn hinna som ger extra krisp. Fyll aldrig korgen för mycket – dela hellre upp i två omgångar. Läs vår guide om <a href="/sv/blog/erreurs-courantes-airfryer">vanliga misstag med airfryer</a>, så undviker du de klassiska fällorna.</p>
+
+<h2>2. Sötpotatispommes</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>500 g sötpotatis</li>
+<li>1 msk smält kokosolja (15 ml)</li>
+<li>1 tsk malen kanel</li>
+<li>½ tsk salt</li>
+<li>En nypa cayennepeppar</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Skala sötpotatisen och skär den i stavar, <strong>0,8 cm tjocka</strong> (tunnare än vanliga pommes, eftersom sötpotatis mjuknar fortare).</li>
+<li>Lägg stavarna i kallt vatten i <strong>20 minuter</strong>.</li>
+<li>Låt rinna av och torka noga.</li>
+<li>Blanda med kokosolja, kanel, salt och cayennepeppar.</li>
+<li>Förvärm airfryern på <strong>190 °C i 3 minuter</strong>.</li>
+<li>Lägg stavarna i ett enda lager.</li>
+<li>Kör på <strong>190 °C i 8 minuter</strong>, skaka och fortsätt sedan på <strong>200 °C i 5–7 minuter</strong>.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Sötpotatis innehåller mer socker än vanlig potatis och får därför färg snabbare. Håll ett öga på pommesen de sista minuterna. Kanel och cayenne ger en härlig kontrast mellan sött och starkt. Servera med en sås på grekisk yoghurt och gräslök.</p>
+
+<h2>3. Polentapommes</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>250 g snabbpolenta</li>
+<li>7,5 dl vatten</li>
+<li>50 g riven parmesan</li>
+<li>1 msk smör (15 g)</li>
+<li>1 tsk salt</li>
+<li>1 msk olivolja</li>
+<li>1 tsk provensalska örter</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Koka upp saltat vatten. Häll i polentan under ständig omrörning och låt koka i <strong>5 minuter</strong>.</li>
+<li>Dra kastrullen från värmen och rör ner smör och parmesan.</li>
+<li>Bred ut polentan i en avlång form klädd med bakplåtspapper, ca <strong>1,5 cm</strong> tjockt. Ställ i kylen i <strong>minst 2 timmar</strong>.</li>
+<li>Stjälp upp och skär i stavar på <strong>1,5 × 8 cm</strong>.</li>
+<li>Pensla med olivolja och strö över provensalska örter.</li>
+<li>Förvärm airfryern på <strong>200 °C i 3 minuter</strong>.</li>
+<li>Kör på <strong>200 °C i 12–15 minuter</strong> och vänd stavarna halvvägs.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Polentan måste vara riktigt fast innan du skär den. Är den för mjuk får den stå längre i kylen. Stavarna är naturligt glutenfria och passar utmärkt till grillat kött.</p>
+
+<h2>4. Zucchinipommes</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>3 medelstora zucchini (ca 600 g)</li>
+<li>80 g fint ströbröd</li>
+<li>40 g riven parmesan</li>
+<li>2 uppvispade ägg</li>
+<li>50 g vetemjöl</li>
+<li>1 tsk vitlökspulver</li>
+<li>Salt och peppar</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Skär zucchinin i stavar, <strong>7 cm långa och 1 cm tjocka</strong>.</li>
+<li>Salta lätt och låt stavarna ligga på hushållspapper i <strong>15 minuter</strong> så att vätskan dras ut.</li>
+<li>Ställ fram tre djupa tallrikar: mjöl, uppvispade ägg och en blandning av ströbröd, parmesan och vitlökspulver.</li>
+<li>Vänd varje stav först i mjöl, sedan i ägg och sist i ströbrödsblandningen, och tryck till ordentligt.</li>
+<li>Spraya eller pensla lätt med olja.</li>
+<li>Förvärm airfryern på <strong>200 °C i 3 minuter</strong>.</li>
+<li>Kör på <strong>200 °C i 10–12 minuter</strong> och vänd halvvägs.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Det viktigaste är att zucchinin hinner släppa sin vätska ordentligt. Fukt är krispighetens värsta fiende. Vill du ha en <a href="/sv/blog/cuisiner-healthy-airfryer">nyttigare variant</a> kan du byta ströbrödet mot mandelmjöl. Servera med ljummen marinarasås.</p>
+
+<h2>5. Avokadopommes</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>2 fasta men mogna avokador</li>
+<li>60 g panko (japanskt ströbröd)</li>
+<li>1 uppvispat ägg</li>
+<li>30 g vetemjöl</li>
+<li>1 tsk malen spiskummin</li>
+<li>½ tsk piment d’Espelette (eller chiliflakes)</li>
+<li>Saften från en halv lime</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Dela avokadorna, ta bort kärnan och skala dem. Skär varje halva i <strong>6 klyftor</strong> (24 bitar totalt).</li>
+<li>Ringla genast över limesaft så att de inte mörknar.</li>
+<li>Ställ fram tre tallrikar: mjöl kryddat med spiskummin och chili, uppvispat ägg och panko.</li>
+<li>Panera varje klyfta: mjöl, ägg, panko.</li>
+<li>Förvärm airfryern på <strong>190 °C i 3 minuter</strong>.</li>
+<li>Lägg klyftorna i ett enda lager så att de inte nuddar varandra.</li>
+<li>Kör på <strong>190 °C i 8–10 minuter</strong> tills paneringen är gyllenbrun.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Välj <strong>fasta</strong> avokador – är de för mogna blir de mos när du panerar dem. Panko ger ett krispigare resultat än vanligt ströbröd.</p>
+
+<h2>6. Tryffelpommes</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>500 g fast potatis av sorten Ratte (eller Charlotte)</li>
+<li>1 msk tryffelolja (15 ml)</li>
+<li>1 msk olivolja (15 ml)</li>
+<li>30 g fint riven parmesan</li>
+<li>1 msk hackad färsk persilja</li>
+<li>Flingsalt</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Skrubba potatisen men skala den inte (skalet ger extra krisp). Skär i stavar, <strong>0,8 cm tjocka</strong>.</li>
+<li>Lägg i kallt vatten i <strong>30 minuter</strong>, låt rinna av och torka.</li>
+<li>Blanda bara med olivoljan (tryffeloljan tillsätts efter tillagningen).</li>
+<li>Förvärm på <strong>180 °C i 3 minuter</strong>.</li>
+<li>Kör på <strong>180 °C i 10 minuter</strong>, skaka och fortsätt på <strong>200 °C i 8 minuter</strong>.</li>
+<li>Ta ut pommesen, ringla genast över tryffeloljan och strö över parmesan och persilja.</li>
+<li>Smaka av med flingsalt och servera direkt.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Värm <strong>aldrig</strong> tryffeloljan – värmen förstör den känsliga aromen. Tillsätt den alltid efter tillagningen.</p>
+
+<h2>7. Belgiska pommes frites (tillagas två gånger)</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>600 g potatis av sorten Bintje</li>
+<li>2 msk solrosolja (30 ml)</li>
+<li>1 tsk salt</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Skala potatisen och skär den i tjocka stavar, <strong>1,2–1,5 cm</strong> – belgiska pommes frites är tjockare än franska.</li>
+<li>Lägg i kallt vatten i <strong>1 timme</strong> och byt vatten efter 30 minuter.</li>
+<li>Låt rinna av och torka mycket noga.</li>
+<li>Blanda med 1 msk av oljan.</li>
+<li><strong>Första omgången:</strong> förvärm till <strong>160 °C</strong> och kör i <strong>15 minuter</strong>. Pommesen ska vara mjuka rakt igenom men inte ha fått färg.</li>
+<li>Ta ut dem och låt vila i <strong>10 minuter</strong> i rumstemperatur.</li>
+<li>Blanda i den andra matskeden olja.</li>
+<li><strong>Andra omgången:</strong> höj till <strong>200 °C</strong> och kör i <strong>8–10 minuter</strong> tills de är jämnt gyllene.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Att tillaga pommesen två gånger är hemligheten bakom de äkta belgiska pommesstånden. Första omgången gör insidan mjuk, den andra gör utsidan krispig. Under vilan mellan omgångarna vandrar fukten inifrån ut mot ytan, och det ger ett riktigt krispigt resultat.</p>
+
+<h2>Tider och temperaturer i sammandrag</h2>
+<table>
+<thead>
+<tr><th>Recept</th><th>Temperatur</th><th>Total tid</th><th>Mängd</th></tr>
+</thead>
+<tbody>
+<tr><td>Klassiska pommes frites</td><td>180 °C, sedan 200 °C</td><td>18–20 min</td><td>500 g</td></tr>
+<tr><td>Sötpotatis</td><td>190 °C, sedan 200 °C</td><td>13–15 min</td><td>500 g</td></tr>
+<tr><td>Polenta</td><td>200 °C</td><td>12–15 min</td><td>250 g polenta</td></tr>
+<tr><td>Zucchini</td><td>200 °C</td><td>10–12 min</td><td>600 g</td></tr>
+<tr><td>Avokado</td><td>190 °C</td><td>8–10 min</td><td>2 avokador</td></tr>
+<tr><td>Tryffel</td><td>180 °C, sedan 200 °C</td><td>18 min</td><td>500 g</td></tr>
+<tr><td>Belgiska (två omgångar)</td><td>160 °C, sedan 200 °C</td><td>23–25 min + vila</td><td>600 g</td></tr>
+</tbody>
+</table>
+
+<h2>Så lyckas du med pommes frites i airfryer</h2>
+<p>Oavsett recept gäller några grundregler:</p>
+<ul>
+<li><strong>Torka alltid pommesen</strong> – fukt hindrar Maillardreaktionen, som ger den gyllene krispigheten.</li>
+<li><strong>Fyll inte korgen för mycket</strong> – den varma luften måste kunna cirkulera fritt runt varje stav.</li>
+<li><strong>Skaka korgen halvvägs</strong> – då blir pommesen jämnt tillagade på alla sidor.</li>
+<li><strong>Förvärm alltid airfryern</strong> – 3 minuter brukar räcka.</li>
+<li><strong>Använd lite olja</strong> – 1 msk per 500 g räcker.</li>
+</ul>
+<p>Vill du gå vidare kan du prova våra <a href="/sv/blog/recettes-poulet-croustillant-airfryer">recept på krispig kyckling i airfryer</a>, som passar perfekt till pommesen, eller läsa vår guide till <a href="/sv/blog/cuisiner-healthy-airfryer">nyttig matlagning i airfryer</a>.</p>
+
+<h2>Näringsjämförelse: airfryer eller frityrgryta</h2>
+<table>
+<thead><tr><th>Recept (200 g)</th><th>Kalorier, airfryer</th><th>Kalorier, frityrgryta</th><th>Fett, airfryer</th><th>Fett, frityrgryta</th><th>Färre kalorier</th></tr></thead>
+<tbody>
+<tr><td>Klassiska pommes frites</td><td>290 kcal</td><td>580 kcal</td><td>8 g</td><td>30 g</td><td>−50 %</td></tr>
+<tr><td>Sötpotatis</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>−50 %</td></tr>
+<tr><td>Panerad zucchini</td><td>230 kcal</td><td>420 kcal</td><td>8 g</td><td>26 g</td><td>−45 %</td></tr>
+<tr><td>Tryffelpommes</td><td>330 kcal</td><td>600 kcal</td><td>14 g</td><td>32 g</td><td>−45 %</td></tr>
+<tr><td>Belgiska pommes frites</td><td>300 kcal</td><td>580 kcal</td><td>9 g</td><td>30 g</td><td>−48 %</td></tr>
+</tbody>
+</table>
+<p><em>Ungefärliga värden för en portion på 200 g, beräknade utifrån oljemängderna i recepten: de faktiska värdena varierar med sort, hur du skär och hur mycket olja som sugs upp.</em></p>
+
+<h2>Hemgjorda dippsåser på 5 minuter: de bästa kombinationerna</h2>
+<ul>
+<li><strong>Lätt aioli:</strong> 2 msk grekisk yoghurt + 1 riven vitlöksklyfta + salt. Perfekt till klassiska pommes frites.</li>
+<li><strong>Chipotlesås:</strong> lätt majonnäs + chipotlepulver + limesaft. Passar perfekt till sötpotatispommes.</li>
+<li><strong>Tryffel- och parmesansås:</strong> crème fraiche + några droppar tryffelolja + riven parmesan. Bara till tryffelpommes.</li>
+<li><strong>Wasabi- och sesamsås:</strong> kvarg + wasabi + rostade sesamfrön. Gör sig perfekt till avokadopommes.</li>
+<li><strong>Kryddig tomatsås:</strong> passerade tomater + chiliflakes + färsk basilika. En klassiker till zucchinipommes.</li>
+</ul>
+`,
+    us: `<h2>Introduction</h2>
+<p>Fries are one of the best reasons to own an air fryer. With <strong>far less fat</strong> than a deep fryer (manufacturers claim up to 80% less), you get fries that are crispy on the outside and fluffy on the inside. Whether you cook in a <a href="/us/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> or a <a href="/us/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, these seven recipes will keep fry night interesting.</p>
+<p>Perfect air fryer fries come down to three things: an even cut, a soak to rinse off excess starch, and a two-stage cook. Each recipe below gives precise quantities, exact temperatures and approximate cook times; adjust them to your air fryer's wattage.</p>
+
+<h2>1. Classic potato fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>1.1 lb (500 g) starchy frying potatoes, such as russets (or Bintje or Agria)</li>
+<li>1 tablespoon (15 ml) olive oil</li>
+<li>1 teaspoon fine salt</li>
+<li>½ teaspoon smoked paprika (optional)</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Peel the potatoes and cut them into even sticks about <strong>⅜ inch (1 cm) thick</strong>.</li>
+<li>Soak in cold water for <strong>at least 30 minutes</strong> (ideally 1 hour) to rinse off the starch.</li>
+<li>Drain and dry thoroughly with a clean dish towel or paper towels. <strong>Don't skip this step</strong>: wet fries will never crisp up.</li>
+<li>Toss the fries with the olive oil and salt in a bowl.</li>
+<li>Preheat the air fryer to <strong>350°F (180°C) for 3 minutes</strong>.</li>
+<li>Spread the fries in a single layer, without overlapping.</li>
+<li>Air fry at <strong>350°F (180°C) for 10 minutes</strong>, shake the basket, then raise the heat to <strong>400°F (200°C) for 8 to 10 minutes</strong>.</li>
+<li>Sprinkle with smoked paprika and serve right away.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>For extra crunch, add <strong>½ teaspoon of cornstarch</strong> to the oil and salt. The starch forms a thin coating that makes the fries even crispier. Never overcrowd the basket — cook in two batches if you need to. See our guide to <a href="/us/blog/erreurs-courantes-airfryer">common air fryer mistakes</a> to avoid the classic pitfalls.</p>
+
+<h2>2. Sweet potato fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>1.1 lb (500 g) sweet potatoes</li>
+<li>1 tablespoon (15 ml) melted coconut oil</li>
+<li>1 teaspoon ground cinnamon</li>
+<li>½ teaspoon salt</li>
+<li>Pinch of cayenne pepper</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Peel the sweet potatoes and cut them into sticks about <strong>⅓ inch (0.8 cm) thick</strong> (thinner than classic fries, since they soften faster).</li>
+<li>Soak in cold water for <strong>20 minutes</strong>.</li>
+<li>Drain and dry thoroughly.</li>
+<li>Toss with the coconut oil, cinnamon, salt and cayenne.</li>
+<li>Preheat the air fryer to <strong>375°F (190°C) for 3 minutes</strong>.</li>
+<li>Spread in a single layer.</li>
+<li>Air fry at <strong>375°F (190°C) for 8 minutes</strong>, shake, then finish at <strong>400°F (200°C) for 5 to 7 minutes</strong>.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Sweet potatoes have more sugar than regular potatoes, so they brown faster. Keep a close eye on them in the last few minutes. The cinnamon-cayenne combo gives a great sweet-and-spicy contrast. Serve with a Greek yogurt and chive dip.</p>
+
+<h2>3. Polenta fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>8.8 oz (250 g) instant polenta</li>
+<li>3 cups (750 ml) water</li>
+<li>1.8 oz (50 g) grated Parmesan</li>
+<li>1 tablespoon (15 g) butter</li>
+<li>1 teaspoon salt</li>
+<li>1 tablespoon olive oil</li>
+<li>1 teaspoon herbes de Provence</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Bring the salted water to a boil. Pour in the polenta in a steady stream, stirring constantly for <strong>5 minutes</strong>.</li>
+<li>Take off the heat and stir in the butter and Parmesan.</li>
+<li>Spread in a parchment-lined rectangular pan, a generous <strong>½ inch (1.5 cm) thick</strong>. Refrigerate for <strong>at least 2 hours</strong>.</li>
+<li>Turn out of the pan and cut into <strong>½ x 3-inch (1.5 x 8 cm)</strong> sticks.</li>
+<li>Brush with olive oil and sprinkle with herbes de Provence.</li>
+<li>Preheat the air fryer to <strong>400°F (200°C) for 3 minutes</strong>.</li>
+<li>Air fry at <strong>400°F (200°C) for 12 to 15 minutes</strong>, flipping halfway through.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>The polenta has to be very firm before you cut it. If it's still too soft, give it more time in the fridge. These fries are naturally gluten-free and make a great side for grilled meats.</p>
+
+<h2>4. Zucchini fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>3 medium zucchini (about 1.3 lb/600 g)</li>
+<li>2.8 oz (80 g) fine dry breadcrumbs</li>
+<li>1.4 oz (40 g) grated Parmesan</li>
+<li>2 eggs, beaten</li>
+<li>1.8 oz (50 g) all-purpose flour</li>
+<li>1 teaspoon garlic powder</li>
+<li>Salt and pepper</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Cut the zucchini into sticks about <strong>3 inches (7 cm) long and ⅜ inch (1 cm) thick</strong>.</li>
+<li>Salt lightly and let drain on paper towels for <strong>15 minutes</strong>.</li>
+<li>Set up three shallow dishes: flour, beaten eggs, and the breadcrumb, Parmesan and garlic mix.</li>
+<li>Coat each stick in flour, then egg, then the breadcrumb mixture, pressing firmly.</li>
+<li>Lightly mist or brush with oil.</li>
+<li>Preheat the air fryer to <strong>400°F (200°C) for 3 minutes</strong>.</li>
+<li>Air fry at <strong>400°F (200°C) for 10 to 12 minutes</strong>, flipping halfway through.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>The key is draining the zucchini well: moisture is the enemy of crispy. For a <a href="/us/blog/cuisiner-healthy-airfryer">healthier version</a>, swap the breadcrumbs for almond flour. Serve with warm marinara sauce.</p>
+
+<h2>5. Avocado fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>2 firm but ripe avocados</li>
+<li>2.1 oz (60 g) panko breadcrumbs</li>
+<li>1 egg, beaten</li>
+<li>1 oz (30 g) all-purpose flour</li>
+<li>1 teaspoon ground cumin</li>
+<li>½ teaspoon Espelette pepper (or red pepper flakes)</li>
+<li>Juice of half a lime</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Halve the avocados, remove the pits and peel. Cut each half into <strong>6 wedges</strong> (24 fries total).</li>
+<li>Drizzle right away with lime juice so they don't brown.</li>
+<li>Set up three dishes: flour seasoned with the cumin and pepper, beaten egg, and panko.</li>
+<li>Bread each wedge: flour, egg, then panko.</li>
+<li>Preheat the air fryer to <strong>375°F (190°C) for 3 minutes</strong>.</li>
+<li>Arrange in a single layer, not touching.</li>
+<li>Air fry at <strong>375°F (190°C) for 8 to 10 minutes</strong>, until the coating is golden.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Choose <strong>firm</strong> avocados — overripe ones get crushed while you bread them. Japanese panko gives you a much better crunch than standard breadcrumbs.</p>
+
+<h2>6. Truffle fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>1.1 lb (500 g) Ratte fingerlings or Charlotte potatoes</li>
+<li>1 tablespoon (15 ml) truffle oil</li>
+<li>1 tablespoon (15 ml) olive oil</li>
+<li>1 oz (30 g) finely grated Parmesan</li>
+<li>1 tablespoon chopped fresh parsley</li>
+<li>Flaky sea salt</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Scrub the potatoes but don't peel them (the skin adds crunch). Cut into <strong>⅓-inch (0.8 cm) sticks</strong>.</li>
+<li>Soak in cold water for <strong>30 minutes</strong>, then drain and dry.</li>
+<li>Toss with the olive oil only (the truffle oil goes on after cooking).</li>
+<li>Preheat to <strong>350°F (180°C) for 3 minutes</strong>.</li>
+<li>Air fry at <strong>350°F (180°C) for 10 minutes</strong>, shake, then <strong>400°F (200°C) for 8 minutes</strong>.</li>
+<li>Take them out and drizzle right away with the truffle oil, then top with the Parmesan and parsley.</li>
+<li>Season with flaky sea salt and serve immediately.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p><strong>Never</strong> cook truffle oil — heat destroys its delicate aroma. Always add it after cooking.</p>
+
+<h2>7. Belgian-style fries (double-cooked)</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>1.3 lb (600 g) Bintje or russet potatoes</li>
+<li>2 tablespoons (30 ml) sunflower oil</li>
+<li>1 teaspoon salt</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Peel and cut into thick sticks, <strong>½ to ⅝ inch (1.2 to 1.5 cm)</strong> — Belgian frites are thicker than standard fries.</li>
+<li>Soak in cold water for <strong>1 hour</strong>, changing the water after 30 minutes.</li>
+<li>Drain and dry very thoroughly.</li>
+<li>Toss with 1 tablespoon of the oil.</li>
+<li><strong>First cook:</strong> preheat to <strong>320°F (160°C)</strong>, then air fry for <strong>15 minutes</strong>. The fries should be cooked through but not golden.</li>
+<li>Take them out and let them rest for <strong>10 minutes</strong> at room temperature.</li>
+<li>Toss with the second tablespoon of oil.</li>
+<li><strong>Second cook:</strong> raise the heat to <strong>400°F (200°C)</strong> and air fry for <strong>8 to 10 minutes</strong>, until evenly golden.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Cooking twice is the secret of real Belgian fry shops (friteries). The first round cooks the inside, the second crisps the outside. The rest in between lets moisture inside the fries move to the surface, which guarantees an ultra-crispy finish.</p>
+
+<h2>Temperature and time cheat sheet</h2>
+<table>
+<thead>
+<tr><th>Recipe</th><th>Temperature</th><th>Total time</th><th>Quantity</th></tr>
+</thead>
+<tbody>
+<tr><td>Classic fries</td><td>350°F, then 400°F (180°C, then 200°C)</td><td>18–20 min</td><td>1.1 lb (500 g)</td></tr>
+<tr><td>Sweet potato</td><td>375°F, then 400°F (190°C, then 200°C)</td><td>13–15 min</td><td>1.1 lb (500 g)</td></tr>
+<tr><td>Polenta</td><td>400°F (200°C)</td><td>12–15 min</td><td>8.8 oz (250 g) polenta</td></tr>
+<tr><td>Zucchini</td><td>400°F (200°C)</td><td>10–12 min</td><td>1.3 lb (600 g)</td></tr>
+<tr><td>Avocado</td><td>375°F (190°C)</td><td>8–10 min</td><td>2 avocados</td></tr>
+<tr><td>Truffle</td><td>350°F, then 400°F (180°C, then 200°C)</td><td>18 min</td><td>1.1 lb (500 g)</td></tr>
+<tr><td>Belgian (double-cooked)</td><td>320°F, then 400°F (160°C, then 200°C)</td><td>23–25 min + rest</td><td>1.3 lb (600 g)</td></tr>
+</tbody>
+</table>
+
+<h2>General tips for perfect air fryer fries</h2>
+<p>Whatever the recipe, these rules always apply:</p>
+<ul>
+<li><strong>Always dry your fries</strong> — moisture blocks the Maillard reaction that gives you a golden, crispy crust.</li>
+<li><strong>Don't overcrowd the basket</strong> — hot air has to circulate freely around every fry.</li>
+<li><strong>Shake the basket halfway through</strong> — that's how every side cooks evenly.</li>
+<li><strong>Always preheat your air fryer</strong> — 3 minutes is usually enough.</li>
+<li><strong>Go easy on the oil</strong> — 1 tablespoon per 1.1 lb (500 g) of potatoes is plenty.</li>
+</ul>
+<p>Next, try our <a href="/us/blog/recettes-poulet-croustillant-airfryer">crispy air fryer chicken recipes</a>, which pair perfectly with these fries, or read our guide to <a href="/us/blog/cuisiner-healthy-airfryer">healthy air fryer cooking</a>.</p>
+
+<h2>Nutrition comparison: air fryer vs. deep fryer</h2>
+<table>
+<thead><tr><th>Recipe (7 oz/200 g serving)</th><th>Air fryer calories</th><th>Deep fryer calories</th><th>Air fryer fat</th><th>Deep fryer fat</th><th>Calories saved</th></tr></thead>
+<tbody>
+<tr><td>Classic fries</td><td>290</td><td>580</td><td>8 g</td><td>30 g</td><td>-50%</td></tr>
+<tr><td>Sweet potato</td><td>260</td><td>520</td><td>7 g</td><td>26 g</td><td>-50%</td></tr>
+<tr><td>Breaded zucchini</td><td>230</td><td>420</td><td>8 g</td><td>26 g</td><td>-45%</td></tr>
+<tr><td>Truffle fries</td><td>330</td><td>600</td><td>14 g</td><td>32 g</td><td>-45%</td></tr>
+<tr><td>Belgian-style</td><td>300</td><td>580</td><td>9 g</td><td>30 g</td><td>-48%</td></tr>
+</tbody>
+</table>
+<p><em>Rough estimates for a 7 oz (200 g) serving, based on the amount of oil in each recipe: actual values vary with the potato variety, the cut and how much oil is absorbed.</em></p>
+
+<h2>5-minute homemade dipping sauces: the best pairings</h2>
+<ul>
+<li><strong>Light aioli:</strong> 2 tbsp Greek yogurt + 1 grated garlic clove + salt. Perfect with classic fries.</li>
+<li><strong>Chipotle sauce:</strong> light mayo + chipotle powder + lime juice. Ideal with sweet potato fries.</li>
+<li><strong>Truffle-Parmesan sauce:</strong> sour cream + a few drops of truffle oil + grated Parmesan. For truffle fries only.</li>
+<li><strong>Wasabi-sesame sauce:</strong> plain yogurt + wasabi + toasted sesame seeds. A perfect match for avocado fries.</li>
+<li><strong>Spicy tomato sauce:</strong> strained tomatoes (passata) + red pepper flakes + fresh basil. A classic with zucchini fries.</li>
+</ul>`,
+    ca: `<h2>Introduction</h2>
+<p>Air fryer fries are one of the best reasons to own an air fryer. With <strong>far less fat</strong> than a traditional deep fryer (manufacturers claim up to 80% less), you get fries that are crispy outside and fluffy inside. Whether you use a <a href="/ca/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> or a <a href="/ca/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, these seven fries recipes will add some variety to your meals.</p>
+<p>Perfect air fryer fries come down to three things: even cutting, soaking to remove excess starch, and cooking in two stages. Below, each recipe comes with precise quantities, exact temperatures and guideline cooking times to adjust to the power of your appliance.</p>
+
+<h2>1. Classic Potato Fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>500 g (about 1 lb) potatoes that are good for frying, such as russet or Yukon Gold</li>
+<li>1 tablespoon (15 mL) olive oil</li>
+<li>1 teaspoon fine salt</li>
+<li>½ teaspoon smoked paprika (optional)</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Peel the potatoes and cut them into even sticks about <strong>1 cm (½ in.) thick</strong>.</li>
+<li>Soak in cold water for <strong>at least 30 minutes</strong> (ideally 1 hour) to remove the starch.</li>
+<li>Drain and dry thoroughly with a clean dish towel or paper towels. <strong>This step is crucial</strong>: damp fries will never crisp up.</li>
+<li>Toss the fries with the olive oil and salt in a bowl.</li>
+<li>Preheat the air fryer to <strong>180°C (350°F) for 3 minutes</strong>.</li>
+<li>Arrange the fries in a single layer without overlapping.</li>
+<li>Cook at <strong>180°C (350°F) for 10 minutes</strong>, shake the basket, then increase to <strong>200°C (400°F) for 8 to 10 minutes</strong>.</li>
+<li>Sprinkle with smoked paprika and serve right away.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>For extra crispiness, add <strong>½ teaspoon of cornstarch</strong> to the oil and salt mixture. The starch forms a thin coating that boosts the crunch. Never overcrowd the basket — cook in two batches if you need to. See our guide to <a href="/ca/blog/erreurs-courantes-airfryer">common air fryer mistakes</a> to avoid the classic pitfalls.</p>
+
+<h2>2. Sweet Potato Fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>500 g (about 1 lb) sweet potatoes</li>
+<li>1 tablespoon (15 mL) melted coconut oil</li>
+<li>1 teaspoon ground cinnamon</li>
+<li>½ teaspoon salt</li>
+<li>Pinch of cayenne pepper</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Peel the sweet potatoes and cut them into sticks <strong>0.8 cm (about ⅓ in.) thick</strong> (thinner than classic fries, since they soften faster).</li>
+<li>Soak in cold water for <strong>20 minutes</strong>.</li>
+<li>Drain and dry thoroughly.</li>
+<li>Toss with the coconut oil, cinnamon, salt and cayenne pepper.</li>
+<li>Preheat the air fryer to <strong>190°C (375°F) for 3 minutes</strong>.</li>
+<li>Arrange in a single layer.</li>
+<li>Cook at <strong>190°C (375°F) for 8 minutes</strong>, shake, then continue at <strong>200°C (400°F) for 5 to 7 minutes</strong>.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Sweet potatoes contain more sugar and brown faster, so watch them closely in the last few minutes. The cinnamon-cayenne combination gives a great sweet-and-spicy contrast. Serve with a Greek yogurt and chive dip.</p>
+
+<h2>3. Polenta Fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>250 g instant polenta</li>
+<li>750 mL (3 cups) water</li>
+<li>50 g grated Parmesan</li>
+<li>1 tablespoon (15 g) butter</li>
+<li>1 teaspoon salt</li>
+<li>1 tablespoon olive oil</li>
+<li>1 teaspoon herbes de Provence</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Bring the salted water to a boil. Pour in the polenta, stirring constantly for <strong>5 minutes</strong>.</li>
+<li>Remove from the heat and stir in the butter and Parmesan.</li>
+<li>Pour into a lined rectangular pan to a depth of <strong>1.5 cm (just over ½ in.)</strong>. Refrigerate for <strong>at least 2 hours</strong>.</li>
+<li>Turn out and cut into sticks of <strong>1.5 x 8 cm (about ½ x 3¼ in.)</strong>.</li>
+<li>Brush with olive oil and sprinkle with herbes de Provence.</li>
+<li>Preheat the air fryer to <strong>200°C (400°F) for 3 minutes</strong>.</li>
+<li>Cook at <strong>200°C (400°F) for 12 to 15 minutes</strong>, flipping halfway through.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>The polenta must be very firm before you cut it. If it's too soft, chill it longer. These fries are naturally gluten-free and make an excellent side for grilled meats.</p>
+
+<h2>4. Zucchini Fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>3 medium zucchini (about 600 g / 1⅓ lb)</li>
+<li>80 g fine breadcrumbs</li>
+<li>40 g grated Parmesan</li>
+<li>2 beaten eggs</li>
+<li>50 g all-purpose flour</li>
+<li>1 teaspoon garlic powder</li>
+<li>Salt and pepper</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Cut the zucchini into sticks <strong>7 cm (2¾ in.) long and 1 cm (½ in.) thick</strong>.</li>
+<li>Salt lightly and let drain on paper towels for <strong>15 minutes</strong>.</li>
+<li>Set up three shallow dishes: flour, beaten eggs, and the breadcrumb, Parmesan and garlic mix.</li>
+<li>Coat each stick in flour, then egg, then the breadcrumb mixture, pressing firmly.</li>
+<li>Lightly spray or brush with oil.</li>
+<li>Preheat the air fryer to <strong>200°C (400°F) for 3 minutes</strong>.</li>
+<li>Cook at <strong>200°C (400°F) for 10 to 12 minutes</strong>, flipping halfway through.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>The key is draining the zucchini well: moisture is the enemy of crispiness. For a <a href="/ca/blog/cuisiner-healthy-airfryer">healthier version</a>, swap the breadcrumbs for almond flour. Serve with warm marinara sauce.</p>
+
+<h2>5. Avocado Fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>2 firm but ripe avocados</li>
+<li>60 g panko breadcrumbs</li>
+<li>1 beaten egg</li>
+<li>30 g all-purpose flour</li>
+<li>1 teaspoon ground cumin</li>
+<li>½ teaspoon Espelette pepper (or chili flakes)</li>
+<li>Juice of half a lime</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Halve the avocados, remove the pit and peel. Cut each half into <strong>6 wedges</strong> (24 fries in total).</li>
+<li>Drizzle with lime juice right away to prevent browning.</li>
+<li>Set up three dishes: seasoned flour (cumin, pepper), beaten egg, panko.</li>
+<li>Bread each wedge: flour, egg, panko.</li>
+<li>Preheat the air fryer to <strong>190°C (375°F) for 3 minutes</strong>.</li>
+<li>Place in a single layer, not touching.</li>
+<li>Cook at <strong>190°C (375°F) for 8 to 10 minutes</strong> until the coating is golden.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Choose <strong>firm</strong> avocados — overripe ones get crushed when you bread them. Panko gives a much better crunch than regular breadcrumbs.</p>
+
+<h2>6. Truffle Fries</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>500 g (about 1 lb) fingerling or other small waxy potatoes</li>
+<li>1 tablespoon (15 mL) truffle oil</li>
+<li>1 tablespoon (15 mL) olive oil</li>
+<li>30 g finely grated Parmesan</li>
+<li>1 tablespoon chopped fresh parsley</li>
+<li>Flaky sea salt</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Wash the potatoes but don't peel them (the skin adds crunch). Cut into <strong>0.8 cm (about ⅓ in.) sticks</strong>.</li>
+<li>Soak in cold water for <strong>30 minutes</strong>, then drain and dry.</li>
+<li>Toss with the olive oil only (the truffle oil goes on after cooking).</li>
+<li>Preheat to <strong>180°C (350°F) for 3 minutes</strong>.</li>
+<li>Cook at <strong>180°C (350°F) for 10 minutes</strong>, shake, then cook at <strong>200°C (400°F) for 8 minutes</strong>.</li>
+<li>Remove and immediately drizzle with the truffle oil, then top with the Parmesan and parsley.</li>
+<li>Season with flaky sea salt and serve right away.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p><strong>Never</strong> cook truffle oil — heat destroys its delicate aroma. Always add it after cooking.</p>
+
+<h2>7. Belgian-Style Fries (Double Cook)</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>600 g (about 1⅓ lb) russet or Bintje potatoes</li>
+<li>2 tablespoons (30 mL) sunflower oil</li>
+<li>1 teaspoon salt</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Peel and cut into thick sticks of <strong>1.2 to 1.5 cm (about ½ in.)</strong> — Belgian frites are thicker than French fries.</li>
+<li>Soak in cold water for <strong>1 hour</strong>, changing the water after 30 minutes.</li>
+<li>Drain and dry very thoroughly.</li>
+<li>Toss with 1 tablespoon of the oil.</li>
+<li><strong>First cook:</strong> preheat to <strong>160°C (325°F)</strong> and cook for <strong>15 minutes</strong>. The fries should be cooked through but not golden.</li>
+<li>Remove and let rest for <strong>10 minutes</strong> at room temperature.</li>
+<li>Add the second tablespoon of oil.</li>
+<li><strong>Second cook:</strong> increase to <strong>200°C (400°F)</strong> and cook for <strong>8 to 10 minutes</strong> until evenly golden.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>The double cook is the classic secret of Belgian fry shops (friteries). The first cook softens the inside, the second crisps the outside. Resting between the two lets the moisture inside move to the surface, for an ultra-crispy result.</p>
+
+<h2>Temperature and Time Summary</h2>
+<table>
+<thead>
+<tr><th>Recipe</th><th>Temperature</th><th>Total Time</th><th>Quantity</th></tr>
+</thead>
+<tbody>
+<tr><td>Classic fries</td><td>180°C (350°F), then 200°C (400°F)</td><td>18–20 min</td><td>500 g</td></tr>
+<tr><td>Sweet potato</td><td>190°C (375°F), then 200°C (400°F)</td><td>13–15 min</td><td>500 g</td></tr>
+<tr><td>Polenta</td><td>200°C (400°F)</td><td>12–15 min</td><td>250 g polenta</td></tr>
+<tr><td>Zucchini</td><td>200°C (400°F)</td><td>10–12 min</td><td>600 g</td></tr>
+<tr><td>Avocado</td><td>190°C (375°F)</td><td>8–10 min</td><td>2 avocados</td></tr>
+<tr><td>Truffle</td><td>180°C (350°F), then 200°C (400°F)</td><td>18 min</td><td>500 g</td></tr>
+<tr><td>Belgian (double cook)</td><td>160°C (325°F), then 200°C (400°F)</td><td>23–25 min + rest</td><td>600 g</td></tr>
+</tbody>
+</table>
+
+<h2>General Tips for Perfect Air Fryer Fries</h2>
+<p>Whatever the recipe, these rules always apply:</p>
+<ul>
+<li><strong>Always dry your fries</strong> — moisture gets in the way of the Maillard reaction that creates golden crispiness.</li>
+<li><strong>Don't overcrowd the basket</strong> — hot air must circulate freely around each fry.</li>
+<li><strong>Shake the basket halfway through</strong> — for even cooking on all sides.</li>
+<li><strong>Always preheat your air fryer</strong> — 3 minutes is usually enough.</li>
+<li><strong>Use as little oil as possible</strong> — 1 tablespoon per 500 g (about 1 lb) is plenty.</li>
+</ul>
+<p>To go further, try our <a href="/ca/blog/recettes-poulet-croustillant-airfryer">crispy air fryer chicken recipes</a>, which pair perfectly with these fries, or read our guide to <a href="/ca/blog/cuisiner-healthy-airfryer">healthy air fryer cooking</a>.</p>
+
+<h2>Nutritional comparison: air fryer vs traditional deep fryer</h2>
+<table>
+<thead><tr><th>Recipe (200 g)</th><th>Air fryer calories</th><th>Deep fryer calories</th><th>Air fryer fat</th><th>Deep fryer fat</th><th>Calories saved</th></tr></thead>
+<tbody>
+<tr><td>Classic fries</td><td>290 kcal</td><td>580 kcal</td><td>8 g</td><td>30 g</td><td>-50%</td></tr>
+<tr><td>Sweet potato</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>-50%</td></tr>
+<tr><td>Breaded zucchini</td><td>230 kcal</td><td>420 kcal</td><td>8 g</td><td>26 g</td><td>-45%</td></tr>
+<tr><td>Truffle fries</td><td>330 kcal</td><td>600 kcal</td><td>14 g</td><td>32 g</td><td>-45%</td></tr>
+<tr><td>Belgian-style</td><td>300 kcal</td><td>580 kcal</td><td>9 g</td><td>30 g</td><td>-48%</td></tr>
+</tbody>
+</table>
+<p><em>Estimates for a 200 g serving, based on the oil quantities in the recipes: actual values vary with the potato variety, the cut and how much oil is absorbed.</em></p>
+
+<h2>5-minute homemade dipping sauces: the best pairings</h2>
+<ul>
+<li><strong>Light aioli:</strong> 2 tbsp Greek yogurt + 1 grated garlic clove + salt. Perfect with classic fries.</li>
+<li><strong>Chipotle sauce:</strong> light mayo + chipotle powder + lime juice. Ideal with sweet potato fries.</li>
+<li><strong>Truffle-Parmesan sauce:</strong> sour cream + a few drops of truffle oil + grated Parmesan. For truffle fries only.</li>
+<li><strong>Wasabi-sesame sauce:</strong> plain yogurt + wasabi + toasted sesame seeds. Pairs perfectly with avocado fries.</li>
+<li><strong>Spicy tomato sauce:</strong> strained tomatoes (passata) + chili flakes + fresh basil. A classic with zucchini fries.</li>
 </ul>`,
   },
   faq: [
@@ -1348,6 +1994,9 @@ export const article: BlogArticle = {
         it: 'È meglio usare patatine surgelate o fresche nella friggitrice ad aria?',
         nl: 'Is het beter om diepvriesfrietjes of verse frietjes te gebruiken in de airfryer?',
         pl: 'Czy lepiej używać mrożonych, czy świeżych frytek we frytkownicy beztłuszczowej?',
+        sv: 'Är frysta eller färska pommes frites bäst i airfryern?',
+        us: 'Are fresh or frozen fries better in an air fryer?',
+        ca: 'Is it better to use frozen or fresh fries in the air fryer?',
       },
       answer: {
         fr: 'Les deux fonctionnent très bien. Les frites fraîches offrent un meilleur goût et une texture supérieure, surtout après trempage dans l\'eau. Les surgelées sont plus pratiques et cuisent directement sans préparation. Ajoutez 2-3 minutes au temps de cuisson pour les surgelées et secouez le panier à mi-cuisson.',
@@ -1356,7 +2005,10 @@ export const article: BlogArticle = {
         es: 'Ambas funcionan muy bien. Las frescas ofrecen mejor sabor y textura superior, especialmente tras remojarlas. Las congeladas son más prácticas y se cocinan directamente sin preparación. Añade 2-3 minutos al tiempo de cocción para las congeladas y agita la cesta a mitad de cocción.',
         it: 'Entrambe funzionano molto bene. Le patatine fresche offrono gusto migliore e texture superiore, soprattutto dopo ammollo in acqua. Le surgelate sono più pratiche e cuociono direttamente senza preparazione. Aggiungi 2-3 minuti al tempo di cottura per le surgelate e scuoti il cestello a metà.',
         nl: 'Beide werken prima. Verse frietjes bieden betere smaak en superieure textuur, vooral na weken in water. Diepvriesfrietjes zijn praktischer en bereid je direct zonder voorbereiding. Voeg 2-3 minuten toe aan de baktijd voor diepvries en schud de mand halverwege voor gelijkmatige krokant.',
-        pl: 'Obie opcje sprawdzają się bardzo dobrze. Świeże frytki mają lepszy smak i lepszą teksturę, zwłaszcza po namoczeniu w wodzie. Mrożone są wygodniejsze i smaży się je od razu, bez przygotowania. W przypadku mrożonych dodaj 2-3 minuty do czasu smażenia i wstrząśnij koszem w połowie.',
+        pl: 'Jedne i drugie sprawdzają się bardzo dobrze. Świeże frytki są smaczniejsze i mają lepszą konsystencję, zwłaszcza jeśli wcześniej namoczysz je w wodzie. Mrożone są wygodniejsze – wkładasz je do kosza bez żadnego przygotowania. W przypadku mrożonych wydłuż czas smażenia o 2–3 minuty i w połowie potrząśnij koszem.',
+        sv: 'Båda fungerar mycket bra. Färska pommes frites ger bättre smak och struktur, särskilt om de har legat i blöt först. Frysta är smidigare och kan tillagas direkt, utan förberedelser. Lägg till 2–3 minuter för frysta pommes och skaka korgen halvvägs, så blir de jämnt krispiga.',
+        us: 'Both work well. Fresh-cut fries taste better and have a better texture, especially after a soak in water. Frozen fries are more convenient and go straight into the basket with no prep. Add 2 to 3 minutes to the cook time for frozen fries, and shake the basket halfway through so they crisp evenly.',
+        ca: 'Both work very well. Fresh fries have better flavour and texture, especially after a soak in water. Frozen fries are more convenient and go straight into the basket with no prep. Add 2 to 3 minutes to the cooking time for frozen fries and shake the basket halfway through for even crispiness.',
       },
     },
     {
@@ -1368,6 +2020,9 @@ export const article: BlogArticle = {
         it: 'Quanto tempo bisogna mettere a bagno le patate prima di cuocerle?',
         nl: 'Hoe lang moet je aardappelen weken voordat je ze bakt?',
         pl: 'Jak długo moczyć ziemniaki przed smażeniem?',
+        sv: 'Hur länge ska potatisen ligga i blöt innan den åker in i airfryern?',
+        us: 'How long should you soak potatoes before air frying?',
+        ca: 'How long should you soak potatoes before air frying?',
       },
       answer: {
         fr: 'Trempez les frites coupées dans l\'eau froide pendant 30 minutes minimum, idéalement 1 à 2 heures. Cela élimine l\'amidon de surface qui empêche le croustillant. Pour un résultat optimal, changez l\'eau quand elle devient trouble. Séchez soigneusement les frites avant de les huiler et de les enfourner.',
@@ -1376,7 +2031,10 @@ export const article: BlogArticle = {
         es: 'Remoja las patatas cortadas en agua fría durante 30 minutos mínimo, idealmente 1-2 horas. Esto elimina el almidón superficial que impide lo crujiente. Para un resultado óptimo, cambia el agua cuando se enturbie. Seca las patatas cuidadosamente antes de aceitarlas y meterlas en la cesta.',
         it: 'Metti a bagno le patatine tagliate in acqua fredda per almeno 30 minuti, idealmente 1-2 ore. Questo rimuove l\'amido superficiale che impedisce la croccantezza. Per risultati ottimali, cambia l\'acqua quando diventa torbida. Asciuga accuratamente le patatine prima di oliarle e infornarle.',
         nl: 'Week gesneden frietjes minimaal 30 minuten in koud water, idealiter 1-2 uur. Dit verwijdert het oppervlaktezetmeel dat krokant worden verhindert. Voor optimaal resultaat vervang je het water als het troebel wordt. Dep de frietjes grondig droog voordat je ze oliet en in de mand legt.',
-        pl: 'Pokrojone frytki moczy się w zimnej wodzie minimum 30 minut, najlepiej 1 do 2 godzin. Usuwa to skrobię z powierzchni, która przeszkadza w uzyskaniu chrupkości. Dla najlepszego efektu zmień wodę, gdy zrobi się mętna. Przed natłuszczeniem i włożeniem do urządzenia dokładnie osusz frytki.',
+        pl: 'Pokrojone frytki namocz w zimnej wodzie na co najmniej 30 minut, a najlepiej na 1–2 godziny. Woda wypłukuje z powierzchni skrobię, która utrudnia uzyskanie chrupkości. Najlepszy efekt osiągniesz, wymieniając wodę, gdy zrobi się mętna. Zanim posmarujesz frytki olejem i włożysz je do frytkownicy, dokładnie je osusz.',
+        sv: 'Lägg de skurna stavarna i kallt vatten i minst 30 minuter, helst 1–2 timmar. Då sköljs ytstärkelsen bort – den hindrar annars stavarna från att bli krispiga. Bäst resultat får du om du byter vatten när det blir grumligt. Torka stavarna noga innan du blandar dem med olja och lägger dem i korgen.',
+        us: 'Soak the cut potatoes in cold water for at least 30 minutes, ideally 1 to 2 hours. This rinses off the surface starch that keeps fries from crisping. For best results, change the water when it turns cloudy. Pat the fries completely dry before you toss them with oil and put them in the basket.',
+        ca: 'Soak cut fries in cold water for at least 30 minutes, ideally 1 to 2 hours. This removes the surface starch that keeps them from crisping. For the best results, change the water when it turns cloudy. Pat the fries completely dry before tossing them with oil and putting them in the air fryer basket.',
       },
     },
     {
@@ -1387,7 +2045,10 @@ export const article: BlogArticle = {
         es: '¿Qué variedades de patata son mejores para las fritas en freidora de aire?',
         it: 'Quali varietà di patate sono migliori per le patatine nella friggitrice ad aria?',
         nl: 'Welke aardappelrassen zijn het beste voor frietjes uit de airfryer?',
-        pl: 'Jakie odmiany ziemniaków są najlepsze na frytki z frytkownicy beztłuszczowej?',
+        pl: 'Jakie odmiany ziemniaków najlepiej nadają się na frytki z frytkownicy beztłuszczowej?',
+        sv: 'Vilka potatissorter passar bäst till pommes frites i airfryer?',
+        us: 'Which potato varieties are best for air fryer fries?',
+        ca: 'Which potato varieties are best for air fryer fries?',
       },
       answer: {
         fr: 'Les variétés spéciales frites comme la Bintje et l\'Agria sont idéales : riches en amidon, elles deviennent croustillantes à l\'extérieur et moelleuses à l\'intérieur. La Maris Piper fonctionne aussi très bien. Évitez les pommes de terre nouvelles, trop aqueuses. Pour les frites de patate douce, choisissez des tubercules fermes et réguliers.',
@@ -1396,7 +2057,10 @@ export const article: BlogArticle = {
         es: 'Las variedades aptas para freír como Bintje y Agria son ideales: quedan crujientes por fuera y tiernas por dentro. La Maris Piper también funciona muy bien. Evita las patatas nuevas, con demasiada agua. Para las de boniato, elige tubérculos firmes y regulares.',
         it: 'Le varietà adatte alla frittura come Bintje e Agria sono ideali: restano croccanti fuori e morbide dentro. La Maris Piper funziona molto bene. Evita le patate novelle, troppo ricche d\'acqua. Per le patatine di patata dolce, scegli tuberi sodi e regolari.',
         nl: 'Kruimige frietrassen zoals Bintje en Agria zijn ideaal: krokant van buiten en zacht van binnen. Maris Piper werkt ook uitstekend. Vermijd nieuwe aardappelen, die te veel water bevatten. Voor zoete aardappelfrietjes kies je stevige, regelmatig gevormde knollen.',
-        pl: 'Idealne są odmiany przeznaczone na frytki, jak Bintje i Agria: bogate w skrobię, stają się chrupiące z zewnątrz i miękkie w środku. Bardzo dobrze sprawdza się też Maris Piper. Unikaj młodych ziemniaków, które są zbyt wodniste. Do frytek ze słodkich ziemniaków wybieraj jędrne, równe bulwy.',
+        pl: 'Idealne są typowo frytkowe odmiany, takie jak Bintje i Agria: mają dużo skrobi, więc frytki wychodzą chrupiące z zewnątrz i puszyste w środku. Bardzo dobrze sprawdza się też Maris Piper. Unikaj młodych ziemniaków – są zbyt wodniste. Na frytki z batatów wybieraj jędrne bulwy o regularnym kształcie.',
+        sv: 'Mjöliga sorter som Bintje och Agria är perfekta: den höga stärkelsehalten ger pommes frites som blir krispiga utanpå och mjuka inuti. Maris Piper fungerar också mycket bra. Undvik färskpotatis, som innehåller för mycket vatten. Till sötpotatispommes väljer du fasta sötpotatisar med jämn form.',
+        us: 'Starchy frying potatoes are ideal: russets, or Bintje and Agria if you can find them, give fries that are crisp outside and fluffy inside. Yukon Gold is a good all-purpose option, too. Avoid new potatoes, which hold too much water. For sweet potato fries, pick firm, evenly shaped sweet potatoes.',
+        ca: 'Starchy potatoes such as russets are ideal for frying: they give fries that are crispy outside and fluffy inside. Yukon Gold is a good all-round option, and in Europe, Bintje and Agria (and Maris Piper in the UK) are the classic choices. Avoid new potatoes, which hold too much water. For sweet potato fries, choose firm, evenly shaped sweet potatoes.',
       },
     },
     {
@@ -1407,7 +2071,10 @@ export const article: BlogArticle = {
         es: '¿Cómo conseguir patatas ultra crujientes en la freidora de aire?',
         it: 'Come ottenere patatine ultra croccanti nella friggitrice ad aria?',
         nl: 'Hoe krijg je ultra krokante frietjes in de airfryer?',
-        pl: 'Jak uzyskać ultrachrupiące frytki z frytkownicy beztłuszczowej?',
+        pl: 'Jak zrobić wyjątkowo chrupiące frytki we frytkownicy beztłuszczowej?',
+        sv: 'Hur får du riktigt krispiga pommes frites i airfryern?',
+        us: 'How do you get extra-crispy fries in an air fryer?',
+        ca: 'How do you get ultra-crispy fries in the air fryer?',
       },
       answer: {
         fr: 'Cinq secrets pour des frites ultra croustillantes : trempage d\'au moins 30 minutes, séchage parfait, fine couche d\'huile au spray, cuisson en deux temps (160°C puis 200°C), et panier jamais rempli à plus des deux tiers. La double cuisson est la technique qui fait la plus grande différence dans le résultat final.',
@@ -1416,7 +2083,10 @@ export const article: BlogArticle = {
         es: 'Cinco secretos para patatas ultra crujientes: remojo de al menos 30 minutos, secado perfecto, fina capa de spray de aceite, cocción en dos tiempos (160°C luego 200°C) y cesta nunca más de dos tercios llena. La doble cocción marca la mayor diferencia en el resultado final.',
         it: 'Cinque segreti per patatine ultra croccanti: ammollo di almeno 30 minuti, asciugatura perfetta, sottile strato di spray d\'olio, cottura in due fasi (160°C poi 200°C) e cestello mai riempito oltre i due terzi. La doppia cottura fa la differenza più grande nel risultato finale.',
         nl: 'Vijf geheimen voor ultra krokante frietjes: minstens 30 minuten weken, perfect drogen, dunne laag oliespray, bakken in twee fasen (160°C dan 200°C) en de mand nooit meer dan tweederde vullen. De dubbele baktechniek maakt het grootste verschil in het eindresultaat.',
-        pl: 'Pięć sekretów ultrachrupiących frytek: moczenie przez co najmniej 30 minut, idealne osuszenie, cienka warstwa oleju z sprayu, smażenie dwuetapowe (160°C, potem 200°C) i kosz wypełniony najwyżej do dwóch trzecich. Podwójne smażenie to technika, która najbardziej wpływa na końcowy efekt.',
+        pl: 'Oto pięć sposobów na wyjątkowo chrupiące frytki: moczenie przez co najmniej 30 minut, dokładne osuszenie, cienka warstwa oleju ze sprayu, smażenie w dwóch etapach (160 °C, potem 200 °C) i kosz wypełniony najwyżej do dwóch trzecich. Największą różnicę w efekcie końcowym daje podwójne smażenie.',
+        sv: 'Fem knep för riktigt krispiga pommes frites: blötlägg i minst 30 minuter, torka ordentligt, spraya på ett tunt lager olja, tillaga i två steg (160 °C och sedan 200 °C) och fyll aldrig korgen mer än till två tredjedelar. Det är tillagningen i två steg som gör störst skillnad för slutresultatet.',
+        us: 'Five secrets for extra-crispy fries: soak them for at least 30 minutes, dry them completely, use a thin coat of oil spray, cook in two stages (first at 320°F/160°C, then at 400°F/200°C), and never fill the basket more than two-thirds full. The two-stage cook makes the biggest difference.',
+        ca: 'Five secrets for ultra-crispy fries: soak them for at least 30 minutes, dry them perfectly, apply a thin coat of cooking spray, cook in two stages, first at 160°C (325°F) and then at 200°C (400°F), and never fill the basket more than two-thirds full. The two-stage technique makes the biggest difference to the final crunch.',
       },
     },
     {
@@ -1428,6 +2098,9 @@ export const article: BlogArticle = {
         it: 'Si possono riscaldare le patatine nella friggitrice ad aria?',
         nl: 'Kun je frietjes opwarmen in de airfryer?',
         pl: 'Czy można odgrzewać frytki we frytkownicy beztłuszczowej?',
+        sv: 'Kan du värma upp pommes frites i airfryern?',
+        us: 'Can you reheat fries in an air fryer?',
+        ca: 'Can you reheat fries in the air fryer?',
       },
       answer: {
         fr: 'Oui, l\'airfryer est la meilleure méthode pour réchauffer des frites. Réglez à 180°C pendant 3 à 5 minutes. Les frites retrouvent leur croustillant comme si elles venaient d\'être cuites, contrairement au micro-ondes qui les ramollit. Pas besoin d\'ajouter d\'huile. Cette technique fonctionne aussi pour les restes de restaurant.',
@@ -1436,7 +2109,10 @@ export const article: BlogArticle = {
         es: 'Sí, la freidora de aire es el mejor método para recalentar patatas. Pon a 180°C durante 3-5 minutos. Las patatas recuperan su crujiente como recién hechas, a diferencia del microondas que las ablanda. No hace falta añadir aceite. También funciona perfectamente con sobras de restaurante.',
         it: 'Sì, la friggitrice ad aria è il metodo migliore per riscaldare le patatine. Imposta a 180°C per 3-5 minuti. Le patatine ritrovano la loro croccantezza come appena cotte, a differenza del microonde che le ammorbidisce. Non serve aggiungere olio. Funziona perfettamente anche con gli avanzi del ristorante.',
         nl: 'Ja, de airfryer is de beste methode om frietjes op te warmen. Stel in op 180°C voor 3-5 minuten. De frietjes worden weer krokant alsof ze net gebakken zijn, in tegenstelling tot de magnetron die ze slap maakt. Geen olie nodig. Dit werkt ook perfect voor restjes van het restaurant.',
-        pl: 'Tak, frytkownica beztłuszczowa to najlepszy sposób na odgrzanie frytek. Ustaw 180°C na 3 do 5 minut. Frytki odzyskują chrupkość, jakby dopiero co je usmażono, w przeciwieństwie do mikrofalówki, która je rozmiękcza. Nie trzeba dodawać oleju. Ta metoda działa też na resztki z restauracji.',
+        pl: 'Tak – frytkownica beztłuszczowa to najlepszy sposób na odgrzanie frytek. Ustaw 180 °C na 3–5 minut. Frytki znów będą chrupiące, jakby dopiero co je usmażono – w przeciwieństwie do mikrofalówki, po której robią się miękkie. Nie trzeba dodawać oleju. Ten sposób sprawdza się też przy frytkach przyniesionych z restauracji.',
+        sv: 'Ja, airfryern är det bästa sättet att värma upp pommes frites. Ställ in 180 °C i 3–5 minuter. De blir krispiga igen, nästan som nygjorda, till skillnad från i mikron där de blir sladdriga. Du behöver inte tillsätta någon olja. Knepet fungerar lika bra för rester som du tagit med hem från restaurangen.',
+        us: 'Yes, an air fryer is the best way to reheat fries. Set it to 350°F (180°C) for 3 to 5 minutes. They crisp back up as if they were just made, unlike in the microwave, which makes them soggy. No extra oil needed. It works great for restaurant leftovers and takeout, too.',
+        ca: 'Yes, the air fryer is the best way to reheat fries. Set it to 180°C (350°F) for 3 to 5 minutes. The fries get their crunch back as if freshly cooked, unlike in the microwave, which makes them soggy. No need to add oil. This also works perfectly for leftover takeout fries.',
       },
     },
   ],

@@ -157,4 +157,70 @@ export const THERMOSTATS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  sv: {
+    name: 'Smarta termostater och elementtermostater',
+    h1: `Black Friday ${Y}: smarta termostater att hålla koll på`,
+    metaTitle: `Black Friday ${Y}: smarta termostater värda att bevaka`,
+    metaDescription: `Smarta termostater och elementtermostater att hålla koll på inför Black Friday ${Y} (tado, Netatmo, Honeywell) – kontrollera kompatibiliteten först.`,
+    blurb: 'tado, Netatmo, Honeywell: kontrollera först att de fungerar med pannan eller värmepumpen.',
+    intro: 'En smart termostat gör bara nytta om den fungerar med din uppvärmning. Innan du slår till på ett erbjudande bör du kontrollera vilket system du har (panna, värmepump, vattenburna element) och, om du har värmepump, hur den styrs: via en på/av-kontakt eller OpenTherm.',
+    faq: [
+      {
+        question: 'Smart termostat eller smarta elementtermostater?',
+        answer: 'Termostaten styr pannan eller värmepumpen för hela bostaden. Elementtermostaterna sitter på de vattenburna elementen och reglerar varje rum för sig. Det går att kombinera båda.',
+      },
+      {
+        question: 'Fungerar en smart termostat med värmepump?',
+        answer: 'Ja, om den passar värmepumpens styrning: på/av för de flesta, OpenTherm för vissa. tado Heat Pump Optimizer X ansluts direkt till värmepumpar av flera märken.',
+      },
+      {
+        question: 'Är installationen krånglig?',
+        answer: 'Elementtermostater monteras utan verktyg på de flesta element. En trådbunden termostat ersätter den gamla. Är du osäker på hur pannan eller värmepumpen ska kopplas, ta hjälp av en fackman.',
+      },
+    ],
+  },
+  us: {
+    name: 'Smart thermostats and radiator valves',
+    h1: `Black Friday ${Y}: The Smart Thermostats Worth Watching`,
+    metaTitle: `Black Friday ${Y}: Best Smart Thermostats to Watch`,
+    metaDescription: `Smart thermostats and smart radiator valves worth watching this Black Friday ${Y} (tado, Netatmo, Honeywell), and the compatibility to check first.`,
+    blurb: 'tado, Netatmo, Honeywell: check boiler or heat pump compatibility first.',
+    intro: "A smart thermostat only pays off if it works with your heating system. Before you look at any deal, check what you have (a boiler, a heat pump, hot-water radiators) and, for a heat pump, how it's controlled: an on/off contact or OpenTherm.",
+    faq: [
+      {
+        question: 'Smart thermostat or smart radiator valves?',
+        answer: 'A thermostat controls the boiler or heat pump for the whole home. Smart radiator valves fit on hot-water radiators and set each room separately; you can combine the two.',
+      },
+      {
+        question: 'Does a smart thermostat work with a heat pump?',
+        answer: 'Yes, if it matches how the heat pump is controlled: on/off for most, OpenTherm for some. The tado Heat Pump Optimizer X connects directly to several heat pump brands.',
+      },
+      {
+        question: 'Is installation difficult?',
+        answer: "Smart radiator valves go on most radiators without tools. A wired thermostat replaces your old one; if you're unsure about the boiler or heat pump wiring, call in an HVAC technician.",
+      },
+    ],
+  },
+  ca: {
+    name: 'Smart thermostats and radiator valves',
+    h1: `Black Friday ${Y}: the smart thermostats worth watching`,
+    metaTitle: `Black Friday ${Y}: Smart Thermostats Worth Watching`,
+    metaDescription: `Smart thermostats and radiator valves worth watching this Black Friday ${Y}: tado, Netatmo, Honeywell. Furnace, boiler or heat pump: check compatibility.`,
+    blurb: 'tado, Netatmo, Honeywell: check compatibility with your furnace, boiler or heat pump first.',
+    intro: "A smart thermostat is only useful if it works with your heating system. Before you look at any deal, check what you have (furnace, boiler with hot-water radiators, heat pump) and, for a heat pump, how it's controlled: on/off contact or OpenTherm.",
+    faq: [
+      {
+        question: 'Smart thermostat or smart radiator valves?',
+        answer: 'A thermostat controls the furnace, boiler or heat pump for the whole home. Smart radiator valves go on hot-water radiators and set each room separately; you can combine the two.',
+      },
+      {
+        question: 'Does a smart thermostat work with a heat pump?',
+        answer: 'Yes, if it matches how the heat pump is controlled: on/off for most, OpenTherm for some. The tado Heat Pump Optimizer X connects directly to several heat pump brands.',
+      },
+      {
+        question: 'Is installation difficult?',
+        answer: "Smart radiator valves fit most radiators without tools, but check that your valve is compatible first. A wired thermostat replaces your old one; if you're unsure about the furnace, boiler or heat pump wiring, call in an HVAC technician.",
+      },
+    ],
+  },
 }

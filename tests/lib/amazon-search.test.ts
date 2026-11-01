@@ -17,7 +17,8 @@ import { smartKitchenStaticProducts } from '@/lib/smart-kitchen-products'
 // Tracking IDs of the French Associates account (store homenuraen05-21),
 // read in Associates Central on 31/10/2026. Italian links go straight to
 // amazon.it (homaviseit-21 offered by SiteStripe there); every other
-// locale links to amazon.fr and relies on Global Earning.
+// locale, Swedish, US and Canadian included, links to amazon.fr and relies
+// on Global Earning (amazon.se / amazon.com / amazon.ca are not verified).
 const EXPECTED: Record<Lang, { origin: string; tag: string }> = {
   fr: { origin: 'https://www.amazon.fr', tag: 'homenuraen05-21' },
   en: { origin: 'https://www.amazon.fr', tag: 'homaviseuk-21' },
@@ -26,6 +27,9 @@ const EXPECTED: Record<Lang, { origin: string; tag: string }> = {
   it: { origin: 'https://www.amazon.it', tag: 'homaviseit-21' },
   nl: { origin: 'https://www.amazon.fr', tag: 'homavisenl-21' },
   pl: { origin: 'https://www.amazon.fr', tag: 'homavisepl-21' },
+  sv: { origin: 'https://www.amazon.fr', tag: 'homavisese-21' },
+  us: { origin: 'https://www.amazon.fr', tag: 'homaviseus-21' },
+  ca: { origin: 'https://www.amazon.fr', tag: 'homaviseca-21' },
 }
 
 const ASSOCIATES_TAG = /^[a-z0-9]+-21$/

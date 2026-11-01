@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Limpiador de suelos inalámbrico pasando por un suelo duro hasta debajo de un mueble bajo',
         it: 'Pulitore per pavimenti senza fili usato su un pavimento duro fin sotto un mobile basso',
         nl: 'Snoerloze vloerreiniger op een harde vloer die tot onder een laag meubel reikt',
-        pl: 'Bezprzewodowe urządzenie czyszczące przesuwane po twardej podłodze aż pod niską szafkę',
+        pl: 'Bezprzewodowe urządzenie do mycia podłóg wsunięte pod niską szafkę na twardej podłodze',
+        sv: 'Sladdlös golvtvätt som används på ett hårt golv och når in under en låg möbel',
+        us: 'Cordless floor cleaner used on a hard floor and reaching under a low piece of furniture',
+        ca: 'Cordless floor cleaner used on a hard floor and reaching under a low piece of furniture',
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: 'Mejor aspirador fregasuelos 2026: 6 modelos a conocer y cómo elegir',
     it: 'Miglior aspirapolvere lavapavimenti 2026: 6 modelli da conoscere e come scegliere',
     nl: 'Beste nat-droogzuiger 2026: 6 vloerreinigers vergeleken en hoe je kiest',
-    pl: 'Najlepszy odkurzacz mopujący 2026: 6 modeli wartych uwagi i jak wybrać',
+    pl: 'Najlepszy odkurzacz mopujący 2026: 6 modeli wartych uwagi i porady, jak wybrać',
+    sv: 'Bästa golvtvätt 2026: 6 modeller att känna till och så väljer du rätt',
+    us: 'Best Wet Dry Vacuums of 2026: 6 Floor Cleaners and How to Choose',
+    ca: 'Best Wet Dry Vacuum 2026: 6 Cordless Floor Cleaners and How to Choose',
   },
   excerpt: {
     fr: 'Dreame H15 Pro, Dreame H14 Pro, Tineco Floor One S7 Pro, Roborock Flexi Pro, Dyson WashG1 et Kärcher FC 7 Cordless : notre guide 2026 des aspirateurs laveurs, basé sur les fiches techniques, des avis indépendants et les retours d’acheteurs.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'Dreame H15 Pro, Dreame H14 Pro, Tineco Floor One S7 Pro, Roborock Flexi Pro, Dyson WashG1 y Kärcher FC 7 Cordless: nuestra guía 2026 de aspiradores fregasuelos, basada en fichas técnicas, reseñas independientes y opiniones de compradores.',
     it: 'Dreame H15 Pro, Dreame H14 Pro, Tineco Floor One S7 Pro, Roborock Flexi Pro, Dyson WashG1 e Kärcher FC 7 Cordless: la nostra guida 2026 agli aspirapolvere lavapavimenti, basata su schede tecniche, recensioni indipendenti e opinioni degli acquirenti.',
     nl: 'Dreame H15 Pro, Dreame H14 Pro, Tineco Floor One S7 Pro, Roborock Flexi Pro, Dyson WashG1 en Kärcher FC 7 Cordless: onze gids 2026 voor nat-droogzuigers, gebaseerd op fabrieksspecificaties, onafhankelijke reviews en ervaringen van kopers.',
-    pl: 'Dreame H15 Pro, Dreame H14 Pro, Tineco Floor One S7 Pro, Roborock Flexi Pro, Dyson WashG1 i Kärcher FC 7 Cordless: nasz poradnik 2026 po odkurzaczach mopujących, oparty na kartach katalogowych, niezależnych recenzjach i opiniach kupujących.',
+    pl: 'Dreame H15 Pro, Dreame H14 Pro, Tineco Floor One S7 Pro, Roborock Flexi Pro, Dyson WashG1 i Kärcher FC 7 Cordless: nasz przewodnik po odkurzaczach mopujących na 2026 rok, oparty na kartach katalogowych, niezależnych recenzjach i opiniach kupujących.',
+    sv: 'Dreame H15 Pro, Dreame H14 Pro, Tineco Floor One S7 Pro, Roborock Flexi Pro, Dyson WashG1 och Kärcher FC 7 Cordless: vår guide till golvtvättar 2026, baserad på tillverkarnas produktblad, oberoende utvärderingar och köparomdömen.',
+    us: 'Dreame H15 Pro, Dreame H14 Pro, Tineco Floor One S7 Pro, Roborock Flexi Pro, Dyson WashG1 and Kärcher FC 7 Cordless: our 2026 guide to wet dry vacuums, based on manufacturer specs, independent reviews and owner feedback.',
+    ca: 'Dreame H15 Pro, Dreame H14 Pro, Tineco Floor One S7 Pro, Roborock Flexi Pro, Dyson WashG1 and Kärcher FC 7 Cordless: our 2026 wet dry vacuum guide, based on manufacturer specs, independent reviews and buyer feedback.',
   },
   content: {
     fr: `<p><strong>Le meilleur aspirateur laveur en 2026 pour la plupart des foyers est le Dreame H15 Pro</strong> : il lave sa brosse dans une eau à 100 °C, la sèche à l’air chaud, se couche à plat sous les meubles et descend un bras articulé pour nettoyer le long des plinthes. Si vous voulez l’essentiel de ces fonctions dans une gamme plus accessible, le Dreame H14 Pro reste la valeur sûre, et si les cheveux et poils d’animaux sont votre principal problème, le Dyson WashG1 se distingue par son système de rouleaux sans aspiration.</p>
@@ -604,99 +613,378 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p><strong>Voor de meeste huishoudens is de Dreame H15 Pro de meest complete nat-droogzuiger van 2026</strong>, dankzij zelfreiniging op 100 °C, de randarm en 180° kantelen. De Dreame H14 Pro biedt de meeste van die voordelen in een toegankelijker segment, en de Dyson WashG1 is de beste keuze als haren en dierenharen je prioriteit zijn. Lees verder in onze <a href="/nl/blog/comparatif-robot-aspirateur-laveur">vergelijking van robotstofzuigers met dweilfunctie</a>, handig voor het dagelijks onderhoud tussen twee handmatige dweilbeurten.</p>`,
-    pl: `<p><strong>Najlepszym odkurzaczem mopującym w 2026 roku dla większości domów jest Dreame H15 Pro</strong>: myje szczotkę w wodzie o temperaturze 100 °C, suszy ją gorącym powietrzem, kładzie się płasko pod meblami i opuszcza ramię przegubowe, aby czyścić wzdłuż listew przypodłogowych. Jeśli chcesz większość tych funkcji w bardziej przystępnej serii, Dreame H14 Pro pozostaje pewnym wyborem, a jeśli głównym problemem są włosy i sierść zwierząt, wyróżnia się Dyson WashG1 z systemem rolek bez ssania.</p>
-<p>Ten poradnik dotyczy ręcznych, bezprzewodowych odkurzaczy mopujących, czyli urządzeń, które odkurzają i myją twarde podłogi w jednym przejściu, a nie robotów. Opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących oraz uwzględnia wyłącznie modele sprzedawane w Europie. Jeśli wolisz całkowicie zlecić sprzątanie, zajrzyj raczej do naszego wyboru <a href="/pl/entretien-maison/aspirateurs-laveurs">robotów odkurzających z mopem</a>.</p>
+    pl: `<p><strong>Dla większości gospodarstw domowych najlepszym odkurzaczem mopującym w 2026 roku jest Dreame H15 Pro</strong>: myje szczotkę w wodzie o temperaturze 100 °C, suszy ją gorącym powietrzem, kładzie się płasko, by wjechać pod meble, i opuszcza przegubowe ramię, które czyści wzdłuż listew przypodłogowych. Jeśli wystarczą Ci najważniejsze z tych funkcji w niższej cenie, pewnym wyborem pozostaje Dreame H14 Pro. Gdy największym problemem są włosy i sierść zwierząt, warto zwrócić uwagę na model Dyson WashG1, który zamiast ssania wykorzystuje system rolek.</p>
+<p>Poradnik dotyczy ręcznych bezprzewodowych odkurzaczy mopujących (nazywanych też odkurzaczami myjącymi), czyli urządzeń, które za jednym przejściem odkurzają i myją twarde podłogi. Nie omawiamy tu robotów. Zestawienie powstało na podstawie kart katalogowych producentów, niezależnych recenzji i opinii zweryfikowanych kupujących; uwzględniamy w nim tylko modele sprzedawane w Europie. Jeśli wolisz, żeby sprzątanie w całości przejął robot, zajrzyj raczej do naszego zestawienia <a href="/pl/entretien-maison/aspirateurs-laveurs">robotów sprzątających z mopem</a>.</p>
 
 <h2>Jak działa odkurzacz mopujący?</h2>
-<p>Odkurzacz mopujący łączy trzy elementy: zbiornik czystej wody, który stale nawilża szczotkę walcową, silnik (lub rolki) odbierający brudną wodę i zanieczyszczenia oraz osobny zbiornik brudnej wody. Podłoga jest więc myta czystą wodą od początku do końca, w przeciwieństwie do mopa, który rozprowadza brud. Okruchy, kurz i rozlane płyny są zbierane jednym ruchem.</p>
-<p>Po użyciu urządzenie wraca na stację, która je ładuje i uruchamia cykl samooczyszczania: szczotka jest płukana, czasem gorącą wodą, a następnie suszona, aby ograniczyć zapachy. To w tej kwestii nowsze modele zrobiły największy postęp.</p>
+<p>Odkurzacz mopujący składa się z trzech głównych elementów: zbiornika czystej wody, z którego woda stale nawilża szczotkę walcową, silnika (albo rolek), który zbiera brudną wodę i zanieczyszczenia, oraz osobnego zbiornika na brudną wodę. Dzięki temu podłoga przez cały czas jest myta czystą wodą – w przeciwieństwie do zwykłego mopa, który rozmazuje brud. Okruchy, kurz i rozlane płyny zbiera się za jednym pociągnięciem.</p>
+<p>Po sprzątaniu urządzenie odstawia się do stacji, która je ładuje i uruchamia cykl samooczyszczania: szczotka zostaje wypłukana – czasem gorącą wodą – a potem wysuszona, żeby nie powstawał nieprzyjemny zapach. Właśnie pod tym względem nowsze modele zrobiły największy postęp.</p>
 
 <h2>Kryteria wyboru</h2>
 <h3>Samooczyszczanie i suszenie szczotki</h3>
-<p>Szczotka, która pozostaje wilgotna w stacji, w końcu zaczyna brzydko pachnieć. Wybieraj model, który płucze szczotkę gorącą wodą, a potem suszy ją gorącym powietrzem. Producenci deklarują temperatury mycia od 60 °C (Dreame H14 Pro, Roborock Flexi Pro) do 100 °C (Dreame H15 Pro).</p>
-<h3>Czyszczenie przy krawędziach</h3>
-<p>Listwy przypodłogowe i kuchenne narożniki gromadzą najwięcej brudu. Głowice zaprojektowane do czyszczenia po obu stronach lub ramię przegubowe Dreame H15 Pro zmniejszają niewymyty pas wzdłuż ścian. Kupujący zgłaszają, że to często najbardziej widoczna różnica na co dzień.</p>
-<h3>Możliwość położenia się płasko</h3>
-<p>Urządzenie, które pochyla się do 180°, wchodzi pod kanapę lub niskie łóżko. Dreame H14 Pro i H15 Pro kładą się całkowicie, a Roborock Flexi Pro według producenta schodzi do wysokości około 15 cm. Jeśli masz niskie meble, to kryterium liczy się bardziej niż moc.</p>
+<p>Szczotka, która stoi mokra w stacji, prędzej czy później zaczyna brzydko pachnieć. Wybierz model, który płucze ją gorącą wodą, a potem suszy gorącym powietrzem. Producenci podają temperaturę mycia od 60 °C (Dreame H14 Pro, Roborock Flexi Pro) do 100 °C (Dreame H15 Pro).</p>
+<h3>Sprzątanie przy krawędziach</h3>
+<p>Najwięcej brudu zbiera się przy listwach przypodłogowych i w kuchennych narożnikach. Głowice, które czyszczą przy krawędzi z obu stron, albo przegubowe ramię modelu Dreame H15 Pro sprawiają, że niedomyty pas wzdłuż ścian jest węższy. Według kupujących to często różnica, którą na co dzień widać najbardziej.</p>
+<h3>Możliwość położenia na płasko</h3>
+<p>Urządzenie, które można odchylić o 180°, zmieści się pod kanapą czy niskim łóżkiem. Dreame H14 Pro i H15 Pro kładą się całkowicie płasko, a Roborock Flexi Pro według producenta obniża się do wysokości ok. 15 cm. Jeśli masz niskie meble, to kryterium jest ważniejsze niż moc ssania.</p>
 <h3>Czas pracy i zbiorniki</h3>
-<p>Licz od 35 do 60 minut, zależnie od modelu i trybu. Przy mieszkaniu powyżej 100 m² zwróć też uwagę na pojemność zbiornika czystej wody: przy 400 ml (Kärcher FC 7 Cordless) trzeba będzie dolewać częściej niż przy 1 litrze (Dyson WashG1).</p>
+<p>Czas pracy wynosi od 35 do 60 minut, zależnie od modelu i trybu. Jeśli mieszkanie lub dom ma ponad 100 m², sprawdź też pojemność zbiornika czystej wody: przy 400 ml (Kärcher FC 7 Cordless) trzeba ją dolewać częściej niż przy 1 litrze (Dyson WashG1).</p>
 <h3>Waga i zwrotność</h3>
-<p>Te urządzenia ważą często od 4 do 6 kg, ponieważ noszą wodę i akumulator. Wiele z nich ma napęd, co ułatwia prowadzenie, ale waga daje się we znaki na schodach i podczas przechowywania.</p>
+<p>Takie urządzenia ważą często od 4 do 6 kg, bo oprócz akumulatora mieszczą też zapas wody. Wiele z nich ma napęd wspomagający, który ułatwia prowadzenie, ale ciężar daje się odczuć na schodach i przy odkładaniu urządzenia na miejsce.</p>
 
 <h2>6 najlepszych odkurzaczy mopujących w 2026 roku</h2>
-<h3>1. Dreame H15 Pro: najbardziej kompletny</h3>
-<p>Wprowadzony w 2025 roku Dreame H15 Pro to topowy model marki. Dreame deklaruje do 21 000 Pa ssania, mycie szczotki przez zanurzenie w wodzie o temperaturze 100 °C (system ThermoTub) i suszenie gorącym powietrzem w około 5 minut. Jego ramię robotyczne opuszcza się, aby podążać wzdłuż listew przypodłogowych, a skrobak do cięcia włosów ogranicza zaplątywanie się ich na szczotce. Urządzenie kładzie się do 180° pod meblami.</p>
+<h3>1. Dreame H15 Pro: najlepiej wyposażony</h3>
+<p>Dreame H15 Pro, który trafił na rynek w 2025 roku, to flagowy model marki. Producent deklaruje siłę ssania do 21 000 Pa, mycie szczotki przez zanurzenie w wodzie o temperaturze 100 °C (system ThermoTub) i suszenie gorącym powietrzem w ok. 5 minut. Zrobotyzowane ramię opuszcza się i prowadzi szczotkę wzdłuż listew przypodłogowych, a skrobak tnący włosy ogranicza ich nawijanie się na szczotkę. Urządzenie można odchylić o 180° i wsunąć pod meble.</p>
 <ul>
-<li><strong>Mocne strony:</strong> higiena szczotki, czyszczenie przy krawędziach, radzenie sobie z włosami, deklarowany czas pracy do 60 minut.</li>
-<li><strong>Ograniczenia:</strong> najwyższa półka, duża stacja, funkcje, których mały dom niekoniecznie potrzebuje.</li>
-<li><strong>Dla kogo:</strong> dla rodzin z twardymi podłogami, które są często używane (kuchnia, przedpokój, zwierzęta) i chcą jak najmniej pielęgnacji.</li>
+<li><strong>Mocne strony:</strong> higieniczne czyszczenie szczotki, sprzątanie przy krawędziach, ochrona przed nawijaniem się włosów, deklarowany czas pracy do 60 minut.</li>
+<li><strong>Ograniczenia:</strong> najwyższa półka cenowa, duża stacja, funkcje, których w małym mieszkaniu nie zawsze się potrzebuje.</li>
+<li><strong>Dla kogo:</strong> dla rodzin, w których domach twarde podłogi szybko się brudzą (kuchnia, przedpokój, zwierzęta) i które chcą jak najmniej zajmować się konserwacją urządzenia.</li>
 </ul>
 <h3>2. Dreame H14 Pro: najlepszy stosunek jakości do ceny</h3>
-<p>Dreame H14 Pro zachowuje to, co najważniejsze: według producenta 18 000 Pa ssania, mycie szczotki w temperaturze 60 °C, suszenie gorącym powietrzem w 5 minut, czyszczenie krawędzi po obu stronach i pochylenie do 180°. Deklarowany czas pracy sięga 40 minut.</p>
+<p>Dreame H14 Pro ma wszystko, co najważniejsze: według producenta siłę ssania 18 000 Pa, mycie szczotki w temperaturze 60 °C, suszenie gorącym powietrzem w 5 minut, czyszczenie przy krawędziach z obu stron i możliwość odchylenia o 180°. Deklarowany czas pracy to do 40 minut.</p>
 <ul>
-<li><strong>Mocne strony:</strong> bardzo bogate wyposażenie jak na swoją półkę, wchodzenie pod meble, skuteczne samooczyszczanie według opinii kupujących.</li>
-<li><strong>Ograniczenia:</strong> wyczuwalna waga podczas użytkowania, zbiorniki, które trzeba regularnie opróżniać i płukać.</li>
-<li><strong>Dla kogo:</strong> dla większości mieszkań i domów, jeśli chcesz nowego modelu bez celowania w najwyższą półkę.</li>
+<li><strong>Mocne strony:</strong> bardzo bogate wyposażenie jak na tę półkę cenową, możliwość wsunięcia pod meble, skuteczne samooczyszczanie (według opinii kupujących).</li>
+<li><strong>Ograniczenia:</strong> odczuwalny ciężar podczas sprzątania, konieczność regularnego opróżniania i płukania zbiorników.</li>
+<li><strong>Dla kogo:</strong> do większości mieszkań i domów, jeśli chcesz nowego modelu, ale nie potrzebujesz najwyższej półki.</li>
 </ul>
-<h3>3. Tineco Floor One S7 Pro: najprostszy na co dzień</h3>
-<p>Tineco spopularyzowało tę kategorię, a Floor One S7 Pro pozostaje punktem odniesienia. Jego czujnik iLoop wykrywa poziom zabrudzenia i automatycznie dostosowuje ssanie i przepływ wody, a wyświetlacz LED pokazuje stan podłogi. Czyszczenie krawędzi odbywa się po obu stronach, deklarowany czas pracy sięga 40 minut, a samooczyszczanie uruchamia się jednym dotknięciem.</p>
+<h3>3. Tineco Floor One S7 Pro: najprostszy w codziennym użyciu</h3>
+<p>To marka Tineco spopularyzowała tę kategorię, a Floor One S7 Pro wciąż jest jednym z najważniejszych modeli w tej kategorii. Czujnik iLoop wykrywa stopień zabrudzenia i automatycznie dostosowuje siłę ssania oraz ilość podawanej wody, a wyświetlacz LED pokazuje, jak brudna jest podłoga. Głowica czyści przy krawędziach z obu stron, deklarowany czas pracy to do 40 minut, a samooczyszczanie uruchamia się jednym przyciskiem.</p>
 <ul>
-<li><strong>Mocne strony:</strong> automatyczna regulacja, czytelny wyświetlacz, aplikacja do monitorowania, marka dobrze obecna w Europie.</li>
-<li><strong>Ograniczenia:</strong> starsza konstrukcja niż nowe modele Dreame i Roborock, raczej ciężkie urządzenie (około 5 kg).</li>
-<li><strong>Dla kogo:</strong> dla tych, którzy chcą urządzenia dostosowującego się samodzielnie, bez ustawiania trybów.</li>
+<li><strong>Mocne strony:</strong> automatyczne dostosowanie ustawień, czytelny wyświetlacz, aplikacja do śledzenia pracy, marka z mocną pozycją w Europie.</li>
+<li><strong>Ograniczenia:</strong> starsza konstrukcja niż najnowsze modele Dreame i Roborock, dość duży ciężar (ok. 5 kg).</li>
+<li><strong>Dla kogo:</strong> dla osób, które chcą, żeby urządzenie samo dobierało ustawienia, bez przełączania trybów.</li>
 </ul>
 <h3>4. Roborock Flexi Pro: najlepiej radzi sobie pod meblami</h3>
-<p>Roborock Flexi Pro stawia na elastyczność: technologia FlatReach pozwala mu zejść do wysokości około 15 cm. Roborock deklaruje 17 000 Pa ssania, wzmocniony docisk szczotki do podłogi, płukanie szczotki w 60 °C i suszenie gorącym powietrzem. Niezależne recenzje chwalą jakość mycia i czas pracy, który według sprzedawców może sięgać 50 minut.</p>
+<p>Roborock Flexi Pro stawia na elastyczność – technologia FlatReach pozwala mu obniżyć się do wysokości ok. 15 cm. Producent podaje siłę ssania 17 000 Pa, mocniejszy docisk szczotki do podłogi, płukanie szczotki wodą o temperaturze 60 °C i suszenie gorącym powietrzem. Niezależne recenzje chwalą jakość mycia i czas pracy, który według sprzedawców sięga nawet 50 minut.</p>
 <ul>
-<li><strong>Mocne strony:</strong> zwrotność, wchodzenie pod niskie meble, aplikacja Roborock.</li>
-<li><strong>Ograniczenia:</strong> dość małe zbiorniki (około 730 ml czystej wody i 450 ml brudnej), słyszalny cykl samooczyszczania.</li>
-<li><strong>Dla kogo:</strong> do wnętrz z niskimi meblami oraz dla właścicieli robota Roborock, którzy chcą jednej aplikacji.</li>
+<li><strong>Mocne strony:</strong> zwrotność, łatwe sprzątanie pod niskimi meblami, aplikacja Roborock.</li>
+<li><strong>Ograniczenia:</strong> dość małe zbiorniki (ok. 730 ml czystej wody i 450 ml brudnej), wyraźnie słyszalny cykl samooczyszczania.</li>
+<li><strong>Dla kogo:</strong> do wnętrz z niskimi meblami oraz dla właścicieli robotów Roborock, którzy chcą mieć wszystko w jednej aplikacji.</li>
 </ul>
 <h3>5. Dyson WashG1: specjalista od włosów i dużych powierzchni</h3>
-<p>Dyson WashG1 działa inaczej: nie zasysa. Dwie przeciwbieżne rolki z mikrofibry zbierają suche i mokre zanieczyszczenia, a osobny system usuwa z rolek włosy i większe resztki. Jego zbiornik czystej wody o pojemności 1 litra jest największy w tym zestawieniu, a cykl samooczyszczania płucze obieg podczas ładowania.</p>
+<p>Dyson WashG1 działa inaczej niż pozostałe modele: nie ma funkcji ssania. Dwie obracające się w przeciwnych kierunkach rolki z mikrofibry zbierają suche i mokre zabrudzenia, a osobny mechanizm usuwa z nich włosy i większe zanieczyszczenia. Zbiornik czystej wody o pojemności 1 litra jest największy w zestawieniu, a cykl samooczyszczania przepłukuje układ wodny podczas ładowania.</p>
 <ul>
-<li><strong>Mocne strony:</strong> brak zaplątanych włosów, duży zbiornik, kilka poziomów nawilżania.</li>
-<li><strong>Ograniczenia:</strong> tylko do twardych podłóg, waga około 4,9 kg, pozycja premium.</li>
-<li><strong>Dla kogo:</strong> dla domów z długimi włosami lub zwierzętami oraz dużych powierzchni wyłożonych płytkami.</li>
+<li><strong>Mocne strony:</strong> włosy nie nawijają się na rolki, duży zbiornik, kilka poziomów nawilżania.</li>
+<li><strong>Ograniczenia:</strong> tylko do twardych podłóg, waga ok. 4,9 kg, półka premium.</li>
+<li><strong>Dla kogo:</strong> dla domowników z długimi włosami, właścicieli zwierząt i osób, które mają do umycia duże powierzchnie wyłożone płytkami.</li>
 </ul>
 <h3>6. Kärcher FC 7 Cordless: najcichszy</h3>
-<p>Kärcher FC 7 Cordless wykorzystuje cztery przeciwbieżne rolki na szerokości 30 cm. Kärcher deklaruje około 45 minut pracy, czyli około 175 m² na jednym ładowaniu, poziom hałasu 59 dB(A) i suchą podłogę po około dwóch minutach. Rolki można prać w pralce.</p>
+<p>Kärcher FC 7 Cordless ma cztery przeciwbieżne rolki, które obejmują pas o szerokości 30 cm. Producent deklaruje ok. 45 minut pracy, czyli ok. 175 m² na jednym ładowaniu, poziom hałasu 59 dB(A) i podłogę suchą już po ok. dwóch minutach. Rolki można prać w pralce.</p>
 <ul>
-<li><strong>Mocne strony:</strong> dyskretna praca, raczej lekkie urządzenie (4,3 kg), szybkie schnięcie podłogi.</li>
+<li><strong>Mocne strony:</strong> cicha praca, stosunkowo niewielka waga (4,3 kg), szybko schnąca podłoga.</li>
 <li><strong>Ograniczenia:</strong> małe zbiorniki (400 ml czystej wody, 200 ml brudnej), brak mycia szczotki gorącą wodą.</li>
-<li><strong>Dla kogo:</strong> dla mieszkań, osób wrażliwych na hałas i tych, którzy często myją, ale niewielką powierzchnię naraz.</li>
+<li><strong>Dla kogo:</strong> do mieszkań, dla osób wrażliwych na hałas i dla tych, którzy myją podłogi często, ale za każdym razem niewielki fragment.</li>
 </ul>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Kluczowa cecha (według producenta)</th><th>Samooczyszczanie</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Najważniejszy parametr (według producenta)</th><th>Samooczyszczanie</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Dreame H15 Pro</td><td>21 000 Pa, ramię do krawędzi, 180°</td><td>Woda 100 °C + gorące powietrze</td><td>Rodzin, mocno używanych podłóg</td></tr>
-<tr><td>Dreame H14 Pro</td><td>18 000 Pa, 180°, do 40 min</td><td>Woda 60 °C + gorące powietrze</td><td>Najlepszej równowagi</td></tr>
-<tr><td>Tineco Floor One S7 Pro</td><td>Czujnik iLoop, wyświetlacz LED</td><td>Samooczyszczanie jednym przyciskiem</td><td>Prostej obsługi</td></tr>
-<tr><td>Roborock Flexi Pro</td><td>17 000 Pa, schodzi do 15 cm</td><td>Woda 60 °C + gorące powietrze</td><td>Niskich mebli</td></tr>
-<tr><td>Dyson WashG1</td><td>Rolki bez ssania, zbiornik 1 L</td><td>Płukanie podczas ładowania</td><td>Włosów, sierści, dużych powierzchni</td></tr>
-<tr><td>Kärcher FC 7 Cordless</td><td>4 rolki, 59 dB(A)</td><td>Rolki do prania w pralce</td><td>Mieszkań, ciszy</td></tr>
+<tr><td>Dreame H15 Pro</td><td>21 000 Pa, ramię do krawędzi, 180°</td><td>Woda 100 °C + gorące powietrze</td><td>Rodziny, intensywnie używane podłogi</td></tr>
+<tr><td>Dreame H14 Pro</td><td>18 000 Pa, 180°, do 40 min</td><td>Woda 60 °C + gorące powietrze</td><td>Najlepszy kompromis</td></tr>
+<tr><td>Tineco Floor One S7 Pro</td><td>Czujnik iLoop, wyświetlacz LED</td><td>Samooczyszczanie jednym przyciskiem</td><td>Prosta obsługa</td></tr>
+<tr><td>Roborock Flexi Pro</td><td>17 000 Pa, obniża się do 15 cm</td><td>Woda 60 °C + gorące powietrze</td><td>Niskie meble</td></tr>
+<tr><td>Dyson WashG1</td><td>Rolki bez ssania, zbiornik 1 l</td><td>Płukanie podczas ładowania</td><td>Włosy, sierść, duże powierzchnie</td></tr>
+<tr><td>Kärcher FC 7 Cordless</td><td>4 rolki, 59 dB(A)</td><td>Rolki do prania w pralce</td><td>Mieszkania, cicha praca</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Używanie na dywanie lub wykładzinie:</strong> te urządzenia są przeznaczone do twardych podłóg. Do tekstyliów zachowaj klasyczny odkurzacz, na przykład model z naszego <a href="/pl/blog/aspirateur-sans-fil-comparatif-2026">porównania odkurzaczy bezprzewodowych</a>.</li>
-<li><strong>Wlewanie do zbiornika byle jakiego środka:</strong> używaj roztworu zalecanego przez producenta lub samej wody. Wybielacz, oleje i środki mocno pieniące mogą uszkodzić uszczelki i unieważnić gwarancję.</li>
-<li><strong>Zostawianie brudnej wody w zbiorniku:</strong> opróżnij go i przepłucz po każdym użyciu, nawet jeśli urządzenie suszy szczotkę.</li>
-<li><strong>Zapominanie o parkietach niezabezpieczonych lakierem:</strong> parkiet olejowany lub woskowany źle znosi wilgoć. Sprawdź zgodność u producenta podłogi.</li>
-<li><strong>Wybór wyłącznie na podstawie paskali:</strong> powyżej pewnego poziomu samooczyszczanie, krawędzie i waga zmieniają doświadczenie użytkowania bardziej niż moc ssania.</li>
+<li><strong>Używanie na dywanach i wykładzinach:</strong> te urządzenia są przeznaczone do twardych podłóg. Do dywanów i wykładzin zostaw zwykły odkurzacz, np. jeden z modeli z naszego <a href="/pl/blog/aspirateur-sans-fil-comparatif-2026">porównania odkurzaczy bezprzewodowych</a>.</li>
+<li><strong>Wlewanie do zbiornika przypadkowych środków:</strong> używaj płynu zalecanego przez producenta albo samej wody. Wybielacze z chlorem, oleje i mocno pieniące się środki mogą uszkodzić uszczelki i doprowadzić do utraty gwarancji.</li>
+<li><strong>Zostawianie brudnej wody w zbiorniku:</strong> opróżniaj go i płucz po każdym użyciu, nawet jeśli urządzenie samo suszy szczotkę.</li>
+<li><strong>Ignorowanie wykończenia parkietu:</strong> parkiet olejowany lub woskowany źle znosi wilgoć. Zapytaj producenta podłogi, czy można ją myć takim urządzeniem.</li>
+<li><strong>Kierowanie się wyłącznie liczbą paskali:</strong> powyżej pewnego poziomu samooczyszczanie, sprzątanie przy krawędziach i waga mają większy wpływ na wygodę użytkowania niż siła ssania.</li>
 </ul>
 
-<h2>Użytkowanie, pielęgnacja i bezpieczeństwo</h2>
-<p>Przesuwaj urządzenie powoli, po linii prostej, aby szczotka zdążyła nawilżyć podłogę, a potem odebrać wodę. Przy zaschniętej plamie zwykle wystarczy bardziej wilgotny tryb lub drugie przejście. Czyść filtr i skrobak co tydzień, a szczotkę wymieniaj, gdy jej włosie się spłaszcza lub zostawia smugi, zgodnie z częstotliwością podaną przez producenta.</p>
-<p>Jeśli chodzi o bezpieczeństwo, stacje modeli z gorącą wodą osiągają wysokie temperatury: nie dotykaj strefy mycia podczas cyklu i pozwól jej ostygnąć przed czyszczeniem. Podłączaj stację do sprawnego gniazdka, z dala od rozprysków wody, i nie pozwalaj małym dzieciom obsługiwać urządzenia podczas ładowania.</p>
+<h2>Użytkowanie, konserwacja i bezpieczeństwo</h2>
+<p>Prowadź urządzenie powoli i w linii prostej, aby szczotka zdążyła zwilżyć podłogę, a potem zebrać wodę. Na zaschnięte plamy zwykle wystarczy tryb z większą ilością wody albo drugie przejście. Co tydzień czyść filtr i skrobak, a szczotkę wymieniaj, gdy jej włosie się spłaszczy albo zacznie zostawiać smugi, zgodnie z zaleceniami producenta.</p>
+<p>Stacje modeli, które myją szczotkę gorącą wodą, mocno się nagrzewają: nie dotykaj strefy mycia w trakcie cyklu i przed czyszczeniem poczekaj, aż ostygnie. Podłącz stację do sprawnego gniazdka, z dala od miejsc, gdzie może pryskać woda, i nie pozwalaj małym dzieciom ruszać ładującego się urządzenia.</p>
 
 <h2>Nasz werdykt</h2>
-<p><strong>Dla większości domów Dreame H15 Pro to najbardziej kompletny odkurzacz mopujący w 2026 roku</strong> dzięki samooczyszczaniu w 100 °C, ramieniu do krawędzi i pochyleniu do 180°. Dreame H14 Pro oferuje większość tych zalet w bardziej przystępnej serii, a Dyson WashG1 to najlepszy wybór, jeśli priorytetem są włosy i sierść. Na uzupełnienie zobacz nasze <a href="/pl/blog/comparatif-robot-aspirateur-laveur">porównanie robotów odkurzających z mopem</a>, przydatnych w codziennym utrzymaniu czystości między ręcznymi myciami.</p>`,
+<p><strong>Dla większości gospodarstw domowych Dreame H15 Pro to najlepiej wyposażony odkurzacz mopujący w 2026 roku</strong> dzięki samooczyszczaniu w temperaturze 100 °C, ramieniu do sprzątania przy krawędziach i możliwości odchylenia o 180°. Dreame H14 Pro oferuje większość tych zalet w niższej cenie, a Dyson WashG1 to najlepszy wybór, jeśli najbardziej przeszkadzają Ci włosy i sierść. Warto też zajrzeć do naszego <a href="/pl/blog/comparatif-robot-aspirateur-laveur">porównania robotów sprzątających z mopem</a> – takie roboty dbają o czystość na co dzień, między gruntownym myciem podłóg odkurzaczem mopującym.</p>`,
+    sv: `<p><strong>Den bästa golvtvätten 2026 för de flesta hem är Dreame H15 Pro</strong>: den tvättar sin borste i 100 °C varmt vatten, torkar den med varmluft, kan läggas helt platt under möbler och fäller ner en ledad arm som rengör längs golvlisterna. Vill du ha de flesta av funktionerna i en lägre prisklass är Dreame H14 Pro det säkra valet, och är hår och djurhår ditt största problem sticker Dyson WashG1 ut med sitt valssystem som klarar sig utan sugkraft.</p>
+<p>Guiden handlar om sladdlösa golvtvättar som du styr själv, alltså apparater som dammsuger och våttorkar hårda golv i ett enda drag, inte om robotar. Den bygger på tillverkarnas produktblad, oberoende utvärderingar och verifierade köparomdömen och tar bara med modeller som säljs i Europa. Vill du hellre lämna över jobbet helt kan du i stället titta på vårt urval av <a href="/sv/entretien-maison/aspirateurs-laveurs">robotdammsugare med mopp</a>.</p>
+
+<h2>Hur fungerar en golvtvätt?</h2>
+<p>En golvtvätt består av tre delar: en tank med rent vatten som hela tiden fuktar en borstvals, en motor (eller valsar) som samlar upp smutsvatten och skräp, och en separat tank för smutsvattnet. Golvet tvättas alltså med rent vatten från början till slut, till skillnad från en mopp som bara flyttar runt smutsen. Smulor, damm och spill tas upp i samma rörelse.</p>
+<p>Efter användningen ställer du tillbaka apparaten i en station som laddar den och startar ett självrengöringsprogram: borsten sköljs, ibland med varmt vatten, och torkas sedan för att motverka dålig lukt. Det är här de senaste modellerna har förbättrats mest.</p>
+
+<h2>Köpkriterier</h2>
+<h3>Självrengöring och torkning av borsten</h3>
+<p>En borste som står fuktig i stationen börjar till slut lukta illa. Välj helst en modell som sköljer borsten med varmt vatten och sedan torkar den med varmluft. Tillverkarna anger tvättemperaturer från 60 °C (Dreame H14 Pro, Roborock Flexi Pro) till 100 °C (Dreame H15 Pro).</p>
+<h3>Rengöring längs kanterna</h3>
+<p>Golvlister och hörn i köket samlar mest smuts. Munstycken som rengör på båda sidor, eller den ledade armen på Dreame H15 Pro, gör den otvättade remsan längs väggarna smalare. Köparna nämner ofta det som den skillnad som syns mest i vardagen.</p>
+<h3>Platt under möblerna</h3>
+<p>En apparat som kan fällas ner till 180° kommer in under en soffa eller en låg säng. Dreame H14 Pro och H15 Pro kan läggas helt platt, och Roborock Flexi Pro kommer ner till cirka 15 cm höjd enligt tillverkaren. Har du låga möbler spelar det större roll än ren sugkraft.</p>
+<h3>Drifttid och tankar</h3>
+<p>Räkna med 35–60 minuter beroende på modell och läge. I en bostad på mer än 100 m² är det också värt att titta på tanken för rent vatten: med 400 ml (Kärcher FC 7 Cordless) får du fylla på oftare än med 1 liter (Dyson WashG1).</p>
+<h3>Vikt och smidighet</h3>
+<p>De här apparaterna väger ofta mellan 4 och 6 kg, eftersom de bär på både vatten och batteri. Många är självgående, vilket gör dem lättare att skjuta framför sig, men vikten märks i trappor och när du ska ställa undan dem.</p>
+
+<h2>De 6 bästa golvtvättarna 2026</h2>
+<h3>1. Dreame H15 Pro: den mest kompletta</h3>
+<p>Dreame H15 Pro lanserades 2025 och är märkets toppmodell. Dreame anger upp till 21 000 Pa i sugkraft, tvätt av borsten genom nedsänkning i 100 °C varmt vatten (systemet ThermoTub) och torkning med varmluft på cirka 5 minuter. Robotarmen fälls ner och följer golvlisterna, och en skrapa som klipper av hår minskar trasslet på borsten. Apparaten kan fällas ner till 180° under möbler.</p>
+<ul>
+<li><strong>Styrkor:</strong> borsthygienen, rengöringen längs kanterna, hanteringen av hår och en drifttid på upp till 60 minuter enligt tillverkaren.</li>
+<li><strong>Svagheter:</strong> ligger i toppen av prisskalan, har en skrymmande station och funktioner som ett litet hem kanske inte behöver.</li>
+<li><strong>Bäst för:</strong> familjer med hårda golv som används flitigt (kök, hall, husdjur) och som vill ha så lite skötsel som möjligt.</li>
+</ul>
+<h3>2. Dreame H14 Pro: mest prisvärd</h3>
+<p>Dreame H14 Pro behåller det viktigaste: 18 000 Pa i sugkraft enligt tillverkaren, tvätt av borsten i 60 °C, torkning med varmluft på 5 minuter, rengöring längs kanterna på båda sidor, och den kan fällas ner till 180°. Den angivna drifttiden är upp till 40 minuter.</p>
+<ul>
+<li><strong>Styrkor:</strong> mycket komplett utrustning för prisklassen, kommer in under möblerna och effektiv självrengöring enligt köparomdömen.</li>
+<li><strong>Svagheter:</strong> vikten märks när du använder den, och tankarna behöver tömmas och sköljas regelbundet.</li>
+<li><strong>Bäst för:</strong> de flesta lägenheter och villor, om du vill ha en ny modell utan att gå upp i toppklassen.</li>
+</ul>
+<h3>3. Tineco Floor One S7 Pro: den enklaste i vardagen</h3>
+<p>Tineco gjorde kategorin populär, och Floor One S7 Pro är fortfarande ett riktmärke. Sensorn iLoop känner av hur smutsigt golvet är och anpassar automatiskt sugkraften och vattenflödet, och en LED-display visar golvets status. Kanterna rengörs på båda sidor, den angivna drifttiden är upp till 40 minuter och självrengöringen startar med en knapptryckning.</p>
+<ul>
+<li><strong>Styrkor:</strong> automatisk anpassning, tydlig display, tillhörande app och ett väletablerat märke i Europa.</li>
+<li><strong>Svagheter:</strong> äldre konstruktion än de nyare modellerna från Dreame och Roborock, ganska tung (runt 5 kg).</li>
+<li><strong>Bäst för:</strong> dig som vill ha en apparat som anpassar sig själv, utan att behöva pilla med olika lägen.</li>
+</ul>
+<h3>4. Roborock Flexi Pro: bäst under möbler</h3>
+<p>Roborock Flexi Pro satsar på smidighet: med tekniken FlatReach kommer den ner till cirka 15 cm höjd. Roborock anger 17 000 Pa i sugkraft, ökat tryck från borsten mot golvet, sköljning av borsten i 60 °C och torkning med varmluft. Oberoende utvärderingar berömmer tvättresultatet och drifttiden, som enligt återförsäljare kan uppgå till 50 minuter.</p>
+<ul>
+<li><strong>Styrkor:</strong> smidigheten, kommer in under låga möbler och Roborocks app.</li>
+<li><strong>Svagheter:</strong> ganska små tankar (cirka 730 ml rent och 450 ml smutsigt vatten) och ett självrengöringsprogram som hörs.</li>
+<li><strong>Bäst för:</strong> hem med låga möbler, och dig som redan har en robot från Roborock och vill ha allt i en och samma app.</li>
+</ul>
+<h3>5. Dyson WashG1: specialisten på hår och stora ytor</h3>
+<p>Dyson WashG1 fungerar på ett annat sätt: den använder ingen sugkraft. Två motroterande valsar av mikrofiber tar upp både vått och torrt skräp, medan ett separat system tar bort hår och större skräp från valsarna. Tanken för rent vatten rymmer 1 liter och är den största i urvalet, och självrengöringsprogrammet spolar igenom systemet medan apparaten laddas.</p>
+<ul>
+<li><strong>Styrkor:</strong> inget hår som lindar sig runt valsarna, stor tank och flera nivåer för hur mycket vatten som används.</li>
+<li><strong>Svagheter:</strong> bara för hårda golv, väger runt 4,9 kg och ligger i premiumklassen.</li>
+<li><strong>Bäst för:</strong> hem med långt hår eller husdjur, och stora ytor med klinker.</li>
+</ul>
+<h3>6. Kärcher FC 7 Cordless: den tystaste</h3>
+<p>Kärcher FC 7 Cordless har fyra motroterande valsar och en arbetsbredd på 30 cm. Kärcher anger cirka 45 minuters drifttid, ungefär 175 m² per laddning, en ljudnivå på 59 dB(A) och ett golv som är torrt efter ungefär två minuter. Valsarna kan tvättas i tvättmaskin.</p>
+<ul>
+<li><strong>Styrkor:</strong> tyst gång, relativt lätt (4,3 kg) och golvet torkar snabbt.</li>
+<li><strong>Svagheter:</strong> små tankar (400 ml rent, 200 ml smutsigt vatten) och ingen tvätt av borsten med varmt vatten.</li>
+<li><strong>Bäst för:</strong> lägenheter, ljudkänsliga hushåll och dig som ofta rengör mindre ytor.</li>
+</ul>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Viktigaste data (tillverkaren)</th><th>Självrengöring</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Dreame H15 Pro</td><td>21 000 Pa, kantarm, 180°</td><td>Vatten 100 °C + varmluft</td><td>Familjer, flitigt använda golv</td></tr>
+<tr><td>Dreame H14 Pro</td><td>18 000 Pa, 180°, upp till 40 min</td><td>Vatten 60 °C + varmluft</td><td>Bäst balans totalt</td></tr>
+<tr><td>Tineco Floor One S7 Pro</td><td>Sensorn iLoop, LED-display</td><td>Självrengöring med en knapptryckning</td><td>Enkel vardagsanvändning</td></tr>
+<tr><td>Roborock Flexi Pro</td><td>17 000 Pa, ner till 15 cm</td><td>Vatten 60 °C + varmluft</td><td>Låga möbler</td></tr>
+<tr><td>Dyson WashG1</td><td>Valsar utan sugkraft, tank på 1 l</td><td>Spolning under laddning</td><td>Hår, djurhår, stora ytor</td></tr>
+<tr><td>Kärcher FC 7 Cordless</td><td>4 valsar, 59 dB(A)</td><td>Valsar som tål tvättmaskin</td><td>Lägenheter, tyst rengöring</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att använda den på mattor:</strong> de här apparaterna är gjorda för hårda golv. Behåll en vanlig dammsugare för mattor och heltäckningsmattor, till exempel en modell ur vår <a href="/sv/blog/aspirateur-sans-fil-comparatif-2026">jämförelse av sladdlösa dammsugare</a>.</li>
+<li><strong>Att hälla vilket medel som helst i tanken:</strong> använd tillverkarens rekommenderade rengöringsmedel eller bara vatten. Klorin, oljor och skummande medel kan skada packningarna och göra att garantin upphör att gälla.</li>
+<li><strong>Att låta smutsvattnet stå kvar i tanken:</strong> töm och skölj den efter varje användning, även om apparaten torkar sin borste.</li>
+<li><strong>Att glömma bort känsliga trägolv:</strong> oljade eller vaxade trägolv tål fukt dåligt. Kontrollera med golvtillverkaren att golvet tål våttorkning.</li>
+<li><strong>Att välja enbart efter antal pascal:</strong> över en viss nivå gör självrengöring, kantrengöring och vikt större skillnad i vardagen än sugkraften.</li>
+</ul>
+
+<h2>Användning, skötsel och säkerhet</h2>
+<p>För apparaten långsamt i raka drag så att borsten hinner fukta golvet och sedan suga upp vattnet igen. På en intorkad fläck räcker det oftast med ett blötare läge eller ett extra drag. Rengör filtret och skrapan varje vecka och byt borsten när borststråna har lagt sig platt eller lämnar ränder, med det intervall som tillverkaren rekommenderar.</p>
+<p>Tänk också på säkerheten: i modeller som tvättar borsten med varmt vatten blir stationen mycket varm. Rör inte tvättytan medan programmet pågår och låt den svalna innan du rengör den. Sätt stationens kontakt i ett vägguttag i gott skick, en bit från vattenstänk, och låt inte små barn hantera apparaten medan den laddas.</p>
+
+<h2>Vårt omdöme</h2>
+<p><strong>För de flesta hem är Dreame H15 Pro den mest kompletta golvtvätten 2026</strong>, tack vare självrengöringen i 100 °C, kantarmen och att den kan fällas ner till 180°. Dreame H14 Pro ger de flesta av fördelarna i en lägre prisklass, och Dyson WashG1 är det bästa valet om hår och djurhår är det du främst vill komma åt. Läs gärna också vår <a href="/sv/blog/comparatif-robot-aspirateur-laveur">jämförelse av robotdammsugare med mopp</a>: en sådan robot sköter det dagliga underhållet mellan tvättarna med golvtvätten.</p>`,
+    us: `<p><strong>The best wet dry vacuum in 2026 for most homes is the Dreame H15 Pro</strong>: it washes its brush roll in 212°F (100°C) water, dries it with hot air, lies flat to reach under furniture and lowers an articulated arm to clean along baseboards. If you want most of those features in a more affordable tier, the Dreame H14 Pro is the safe choice, and if hair and pet fur are your main problem, the Dyson WashG1 stands out with its suction-free roller system.</p>
+<p>This guide covers cordless upright wet dry vacuums, the floor cleaners that vacuum and wash hard floors in a single pass, not robots. It’s based on manufacturer specs, independent reviews and verified owner feedback, and only includes models sold in Europe. If you’d rather hand off the job completely, see our picks for <a href="/us/entretien-maison/aspirateurs-laveurs">robot vacuum and mop combos</a> instead.</p>
+
+<h2>How does a wet dry vacuum work?</h2>
+<p>A wet dry vacuum has three main parts: a clean water tank that keeps a roller brush damp, a motor (or rollers) that picks up dirty water and debris, and a separate dirty water tank. That means the floor gets washed with clean water from start to finish, unlike a mop, which just pushes dirt around. Crumbs, dust and spills are picked up in the same pass.</p>
+<p>When you’re done, the machine goes back on a dock that charges it and runs a self-cleaning cycle: the brush is rinsed, sometimes with hot water, then dried to keep odors down. This is where recent models have improved the most.</p>
+
+<h2>What to look for</h2>
+<h3>Self-cleaning and brush drying</h3>
+<p>A brush that stays damp in its dock will eventually smell. Look for a model that rinses the brush with hot water and then dries it with hot air. Manufacturers list wash temperatures from 140°F/60°C (Dreame H14 Pro, Roborock Flexi Pro) to 212°F/100°C (Dreame H15 Pro).</p>
+<h3>Edge cleaning</h3>
+<p>Baseboards and kitchen corners collect the most dirt. Heads designed to clean right up to the edge on both sides, or the articulated arm on the Dreame H15 Pro, shrink the unwashed strip along walls. Owners often call this the most noticeable difference day to day.</p>
+<h3>Lying flat</h3>
+<p>A machine that tilts back to 180° fits under a couch or a low bed. The Dreame H14 Pro and H15 Pro lie completely flat, and the Roborock Flexi Pro gets down to about 6 in (15 cm) high, according to the manufacturer. If your furniture sits low, this matters more than raw power.</p>
+<h3>Runtime and tanks</h3>
+<p>Expect 35 to 60 minutes, depending on the model and mode. For homes over about 1,100 sq ft (100 m²), check the clean water tank too: with the 14 fl oz (400 ml) tank on the Kärcher FC 7 Cordless, you’ll refill more often than with the 34 fl oz (1 L) tank on the Dyson WashG1.</p>
+<h3>Weight and handling</h3>
+<p>These machines often weigh 9 to 13 lb (4 to 6 kg), because they carry water and a battery. Many are self-propelled, which makes them easier to push, but you’ll feel the weight on stairs and when you put them away.</p>
+
+<h2>The 6 best wet dry vacuums of 2026</h2>
+<h3>1. Dreame H15 Pro: the most complete</h3>
+<p>Launched in 2025, the Dreame H15 Pro is the brand’s flagship. Dreame lists up to 21,000 Pa of suction, brush washing by immersion in 212°F (100°C) water (its ThermoTub system) and hot-air drying in about 5 minutes. Its robotic arm drops down to follow baseboards, and a hair-cutting scraper keeps hair from tangling on the brush. It lies flat at 180° to get under furniture.</p>
+<ul>
+<li><strong>Pros:</strong> brush hygiene, edge cleaning, hair handling and a listed runtime of up to 60 minutes.</li>
+<li><strong>Cons:</strong> priced at the very top of the market, a bulky dock, and features a small home may not need.</li>
+<li><strong>Best for:</strong> families with high-traffic hard floors (kitchen, entryway, pets) who want as little upkeep as possible.</li>
+</ul>
+<h3>2. Dreame H14 Pro: best value</h3>
+<p>The Dreame H14 Pro keeps what matters most: 18,000 Pa of suction according to the manufacturer, 140°F (60°C) brush washing, 5-minute hot-air drying, edge cleaning on both sides and a 180° tilt. Listed runtime is up to 40 minutes.</p>
+<ul>
+<li><strong>Pros:</strong> a very complete feature set for its tier, reaches under furniture, and effective self-cleaning according to owner feedback.</li>
+<li><strong>Cons:</strong> you feel the weight in use, and the tanks need regular emptying and rinsing.</li>
+<li><strong>Best for:</strong> most apartments and houses, if you want a recent model without going top tier.</li>
+</ul>
+<h3>3. Tineco Floor One S7 Pro: the easiest for everyday use</h3>
+<p>Tineco popularized the category, and the Floor One S7 Pro is still a benchmark. Its iLoop sensor detects how dirty the floor is and automatically adjusts suction and water flow, with an LED display that shows the floor’s status. Edge cleaning works on both sides, listed runtime is up to 40 minutes and self-cleaning starts at the push of a button.</p>
+<ul>
+<li><strong>Pros:</strong> automatic adjustment, easy-to-read display, companion app, a well-established brand in Europe.</li>
+<li><strong>Cons:</strong> an older design than recent Dreame and Roborock models, and fairly heavy (about 11 lb, or 5 kg).</li>
+<li><strong>Best for:</strong> anyone who wants a machine that adapts on its own, without fiddling with modes.</li>
+</ul>
+<h3>4. Roborock Flexi Pro: best under furniture</h3>
+<p>The Roborock Flexi Pro is all about flexibility: its FlatReach technology lets it get down to about 6 in (15 cm) high. Roborock lists 17,000 Pa of suction, increased brush pressure on the floor, 140°F (60°C) brush rinsing and hot-air drying. Independent reviews praise its washing performance and its runtime, which can reach 50 minutes according to retailers.</p>
+<ul>
+<li><strong>Pros:</strong> maneuverability, reaches under low furniture, Roborock app.</li>
+<li><strong>Cons:</strong> fairly small tanks (about 25 fl oz/730 ml of clean water and 15 fl oz/450 ml of dirty water), noisy self-cleaning cycle.</li>
+<li><strong>Best for:</strong> homes with low furniture, and Roborock robot owners who want everything in one app.</li>
+</ul>
+<h3>5. Dyson WashG1: the specialist for hair and large areas</h3>
+<p>The Dyson WashG1 works differently: it doesn’t use suction. Two counter-rotating microfiber rollers pick up wet and dry debris, while a separate system strips hair and large debris from the rollers. Its 34 fl oz (1 L) clean water tank is the largest in this roundup, and the self-cleaning cycle flushes the system while it charges.</p>
+<ul>
+<li><strong>Pros:</strong> no hair wrapping around the rollers, a big tank, several water-flow levels.</li>
+<li><strong>Cons:</strong> hard floors only, weighs about 10.8 lb (4.9 kg), premium price tier.</li>
+<li><strong>Best for:</strong> homes with long hair or pets, and large tile floors.</li>
+</ul>
+<h3>6. Kärcher FC 7 Cordless: the quietest</h3>
+<p>The Kärcher FC 7 Cordless uses four counter-rotating rollers across a 12-inch (30 cm) cleaning path. Kärcher lists about 45 minutes of runtime, or roughly 1,900 sq ft (175 m²) per charge, a noise level of 59 dB(A) and floors that dry in about two minutes. The rollers are machine-washable.</p>
+<ul>
+<li><strong>Pros:</strong> quiet operation, fairly light (9.5 lb, or 4.3 kg), fast-drying floors.</li>
+<li><strong>Cons:</strong> small tanks (14 fl oz/400 ml of clean water, 7 fl oz/200 ml of dirty water), no hot-water brush washing.</li>
+<li><strong>Best for:</strong> apartments, noise-sensitive households, and frequent touch-ups of smaller areas.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Key spec (manufacturer)</th><th>Self-cleaning</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Dreame H15 Pro</td><td>21,000 Pa, edge arm, 180°</td><td>212°F (100°C) water + hot air</td><td>Families, high-traffic floors</td></tr>
+<tr><td>Dreame H14 Pro</td><td>18,000 Pa, 180°, up to 40 min</td><td>140°F (60°C) water + hot air</td><td>Best all-around balance</td></tr>
+<tr><td>Tineco Floor One S7 Pro</td><td>iLoop sensor, LED display</td><td>One-touch self-cleaning</td><td>Simple everyday use</td></tr>
+<tr><td>Roborock Flexi Pro</td><td>17,000 Pa, down to 6 in (15 cm)</td><td>140°F (60°C) water + hot air</td><td>Low furniture</td></tr>
+<tr><td>Dyson WashG1</td><td>Suction-free rollers, 34 fl oz (1 L) tank</td><td>Flushes while charging</td><td>Hair, pet fur, large areas</td></tr>
+<tr><td>Kärcher FC 7 Cordless</td><td>4 rollers, 59 dB(A)</td><td>Machine-washable rollers</td><td>Apartments, quiet cleaning</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Using it on rugs or carpet:</strong> these machines are made for hard floors. Keep a regular vacuum for rugs and carpet, for example a model from our <a href="/us/blog/aspirateur-sans-fil-comparatif-2026">cordless vacuum comparison</a>.</li>
+<li><strong>Putting just any product in the tank:</strong> use the manufacturer’s recommended solution or plain water. Bleach, oils and foaming cleaners can damage seals and void the warranty.</li>
+<li><strong>Leaving dirty water in the tank:</strong> empty and rinse it after every use, even if the machine dries its brush.</li>
+<li><strong>Forgetting about unsealed hardwood:</strong> oiled or waxed wood floors don’t handle moisture well. Check with your flooring manufacturer.</li>
+<li><strong>Choosing on suction (Pa) alone:</strong> past a certain point, self-cleaning, edge cleaning and weight change the experience more than suction power.</li>
+</ul>
+
+<h2>Use, maintenance and safety</h2>
+<p>Move the machine slowly in straight lines so the brush can wet the floor and then pick the water back up. On a dried-on stain, a wetter mode or a second pass usually does the trick. Clean the filter and scraper every week, and replace the brush roll when the bristles flatten or leave streaks, following the manufacturer’s recommended schedule.</p>
+<p>For safety, the docks on hot-water models get very hot: don’t touch the wash area during the cycle, and let it cool before you clean it. Plug the dock into an outlet in good condition, away from splashing water, and don’t let young children handle the machine while it’s charging. Models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V.</p>
+
+<h2>The bottom line</h2>
+<p><strong>For most homes, the Dreame H15 Pro is the most complete wet dry vacuum in 2026</strong>, thanks to its 212°F (100°C) self-cleaning, its edge arm and its 180° tilt. The Dreame H14 Pro offers most of those advantages in a more affordable tier, and the Dyson WashG1 is the best choice if hair and pet fur are your priority. To go further, see our <a href="/us/blog/comparatif-robot-aspirateur-laveur">robot vacuum and mop comparison</a>, handy for daily upkeep between deep cleans.</p>`,
+    ca: `<p><strong>The best wet dry vacuum in 2026 for most homes is the Dreame H15 Pro</strong>: it washes its brush in 100°C water, dries it with hot air, lies flat under furniture and lowers an articulated arm to clean along baseboards. If you want most of those features at a more accessible tier, the Dreame H14 Pro is the safe choice, and if hair and pet fur are your main problem, the Dyson WashG1 stands out with its suction-free roller system.</p>
+<p>This guide covers cordless handheld wet dry vacuums, the machines that vacuum and wash hard floors in a single pass, not robots. It is based on manufacturer specifications, independent reviews and verified buyer reviews, and only includes models sold in Europe. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. If you would rather hand the job over completely, see our selection of <a href="/ca/entretien-maison/aspirateurs-laveurs">robot vacuum and mop combos</a> instead.</p>
+
+<h2>How does a wet dry vacuum work?</h2>
+<p>A wet dry vacuum combines three parts: a clean water tank that continuously dampens a roller brush, a motor (or rollers) that collects dirty water and debris, and a separate dirty water tank. The floor is washed with clean water from start to finish, unlike a mop that spreads dirt around. Crumbs, dust and spills are picked up in the same movement.</p>
+<p>After use, the machine goes back on a dock that charges it and starts a self-cleaning cycle: the brush is rinsed, sometimes with hot water, then dried to limit odours. This is where recent models have improved the most.</p>
+
+<h2>Buying criteria</h2>
+<h3>Self-cleaning and brush drying</h3>
+<p>A brush that stays damp in its dock will eventually smell. Look for a model that rinses the brush with hot water and then dries it with hot air. Manufacturers quote wash temperatures from 60°C (Dreame H14 Pro, Roborock Flexi Pro) to 100°C (Dreame H15 Pro).</p>
+<h3>Edge cleaning</h3>
+<p>Baseboards and kitchen corners collect the most dirt. Heads designed to clean on both sides, or the articulated arm of the Dreame H15 Pro, reduce the unwashed strip along walls. Buyers often report this as the most visible difference day to day.</p>
+<h3>Lying flat</h3>
+<p>A machine that tilts to 180° fits under a sofa or a low bed. The Dreame H14 Pro and H15 Pro lie fully flat, and the Roborock Flexi Pro gets down to about 15 cm (6 in.) high according to the manufacturer. If your furniture is low, this matters more than raw power.</p>
+<h3>Runtime and tanks</h3>
+<p>Expect 35 to 60 minutes depending on the model and mode. For homes over 100 m² (about 1,100 sq. ft.), also check the clean water tank: with 400 mL (Kärcher FC 7 Cordless), you will refill more often than with 1 L (Dyson WashG1).</p>
+<h3>Weight and handling</h3>
+<p>These machines often weigh between 4 and 6 kg (9 to 13 lb), because they carry water and a battery. Many are self-propelled, which makes them easier to push, but the weight is noticeable on stairs and when putting them away.</p>
+
+<h2>The 6 best wet dry vacuums in 2026</h2>
+<h3>1. Dreame H15 Pro: the most complete</h3>
+<p>Launched in 2025, the Dreame H15 Pro is the brand’s flagship. Dreame quotes up to 21,000 Pa of suction, brush washing by immersion in 100°C water (ThermoTub system) and hot air drying in around 5 minutes. Its robotic arm lowers to follow baseboards, and a hair-cutting scraper limits tangles on the brush. It lies flat at 180° under furniture.</p>
+<ul>
+<li><strong>Strengths:</strong> brush hygiene, edge cleaning, hair handling, runtime quoted at up to 60 minutes.</li>
+<li><strong>Limitations:</strong> top-of-the-line tier, bulky dock, features a small home may not need.</li>
+<li><strong>Best for:</strong> families with heavily used hard floors (kitchen, entryway, pets) who want minimal maintenance.</li>
+</ul>
+<h3>2. Dreame H14 Pro: best value</h3>
+<p>The Dreame H14 Pro keeps what matters most: 18,000 Pa of suction according to the manufacturer, 60°C brush washing, 5-minute hot air drying, edge cleaning on both sides and a 180° tilt. Quoted runtime reaches 40 minutes.</p>
+<ul>
+<li><strong>Strengths:</strong> very complete feature set for its tier, reaches under furniture, effective self-cleaning according to buyer reviews.</li>
+<li><strong>Limitations:</strong> weight is noticeable in use, tanks need regular emptying and rinsing.</li>
+<li><strong>Best for:</strong> most apartments and houses, if you want a recent model without going top tier.</li>
+</ul>
+<h3>3. Tineco Floor One S7 Pro: the easiest day to day</h3>
+<p>Tineco popularized the category, and the Floor One S7 Pro is still a benchmark. Its iLoop sensor detects how dirty the floor is and automatically adjusts suction and water flow, with an LED display showing floor status. Edge cleaning works on both sides, quoted runtime reaches 40 minutes and self-cleaning starts at the press of a button.</p>
+<ul>
+<li><strong>Strengths:</strong> automatic adjustment, clear display, companion app, well-established brand in Europe.</li>
+<li><strong>Limitations:</strong> older design than recent Dreame and Roborock models, fairly heavy (around 5 kg, or 11 lb).</li>
+<li><strong>Best for:</strong> anyone who wants a machine that adapts by itself, without fiddling with modes.</li>
+</ul>
+<h3>4. Roborock Flexi Pro: best under furniture</h3>
+<p>The Roborock Flexi Pro is all about flexibility: its FlatReach technology lets it get down to about 15 cm (6 in.) high. Roborock quotes 17,000 Pa of suction, increased brush pressure on the floor, 60°C brush rinsing and hot air drying. Independent reviews praise the washing quality and the runtime, which can reach 50 minutes according to retailers.</p>
+<ul>
+<li><strong>Strengths:</strong> manoeuvrability, reaches under low furniture, Roborock app.</li>
+<li><strong>Limitations:</strong> fairly small tanks (about 730 mL clean and 450 mL dirty water), audible self-cleaning cycle.</li>
+<li><strong>Best for:</strong> homes with low furniture, and Roborock robot owners who want a single app.</li>
+</ul>
+<h3>5. Dyson WashG1: the hair and large-area specialist</h3>
+<p>The Dyson WashG1 works differently: it does not use suction. Two counter-rotating microfibre rollers pick up wet and dry debris, while a separate system removes hair and large debris from the rollers. Its 1-litre clean water tank is the largest in this selection, and the self-cleaning cycle flushes the system while charging.</p>
+<ul>
+<li><strong>Strengths:</strong> no hair wrapping around the rollers, large tank, several hydration levels.</li>
+<li><strong>Limitations:</strong> hard floors only, weighs around 4.9 kg (10.8 lb), premium tier.</li>
+<li><strong>Best for:</strong> homes with long hair or pets, and large tiled areas.</li>
+</ul>
+<h3>6. Kärcher FC 7 Cordless: the quietest</h3>
+<p>The Kärcher FC 7 Cordless uses four counter-rotating rollers across a 30 cm (11¾ in.) cleaning width. Kärcher quotes about 45 minutes of runtime, roughly 175 m² (about 1,900 sq. ft.) per charge, a noise level of 59 dB(A) and a floor that is dry in about two minutes. The rollers are machine washable.</p>
+<ul>
+<li><strong>Strengths:</strong> quiet operation, fairly light (4.3 kg, or 9.5 lb), fast floor drying.</li>
+<li><strong>Limitations:</strong> small tanks (400 mL clean, 200 mL dirty water), no hot water brush washing.</li>
+<li><strong>Best for:</strong> apartments, noise-sensitive households and frequent cleanups of smaller areas.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Key spec (manufacturer)</th><th>Self-cleaning</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Dreame H15 Pro</td><td>21,000 Pa, edge arm, 180°</td><td>100°C water + hot air</td><td>Families, busy floors</td></tr>
+<tr><td>Dreame H14 Pro</td><td>18,000 Pa, 180°, up to 40 min</td><td>60°C water + hot air</td><td>Best all-round balance</td></tr>
+<tr><td>Tineco Floor One S7 Pro</td><td>iLoop sensor, LED display</td><td>One-touch self-cleaning</td><td>Simple everyday use</td></tr>
+<tr><td>Roborock Flexi Pro</td><td>17,000 Pa, down to 15 cm (6 in.)</td><td>60°C water + hot air</td><td>Low furniture</td></tr>
+<tr><td>Dyson WashG1</td><td>Suction-free rollers, 1 L tank</td><td>Flush while charging</td><td>Hair, pet fur, large areas</td></tr>
+<tr><td>Kärcher FC 7 Cordless</td><td>4 rollers, 59 dB(A)</td><td>Machine-washable rollers</td><td>Apartments, quiet cleaning</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Using it on rugs or carpet:</strong> these machines are designed for hard floors. Keep a regular vacuum for textiles, for example a model from our <a href="/ca/blog/aspirateur-sans-fil-comparatif-2026">cordless vacuum comparison</a>.</li>
+<li><strong>Putting any product in the tank:</strong> use the manufacturer’s recommended solution or plain water. Bleach, oils and foaming products can damage seals and void the warranty.</li>
+<li><strong>Leaving dirty water in the tank:</strong> empty and rinse it after every use, even if the machine dries its brush.</li>
+<li><strong>Forgetting about unsealed wood:</strong> oiled or waxed hardwood floors do not cope well with moisture. Check compatibility with your flooring manufacturer.</li>
+<li><strong>Choosing on pascals alone:</strong> beyond a certain level, self-cleaning, edges and weight change the experience more than suction power.</li>
+</ul>
+
+<h2>Use, maintenance and safety</h2>
+<p>Move the machine slowly in straight lines so the brush can dampen the floor and then pick the water back up. On a dried stain, a wetter mode or a second pass is usually enough. Clean the filter and scraper weekly, and replace the brush when the bristles flatten or leave streaks, following the manufacturer’s recommended interval.</p>
+<p>On safety, the docks of hot water models reach high temperatures: do not touch the washing area during the cycle and let it cool before cleaning it. Plug the dock into an outlet in good condition, away from water splashes, and do not let young children handle the machine while it charges.</p>
+
+<h2>Our verdict</h2>
+<p><strong>For most homes, the Dreame H15 Pro is the most complete wet dry vacuum in 2026</strong>, thanks to its 100°C self-cleaning, its edge arm and its 180° tilt. The Dreame H14 Pro offers most of those advantages at a more accessible tier, and the Dyson WashG1 is the best choice if hair and pet fur are your priority. To go further, see our <a href="/ca/blog/comparatif-robot-aspirateur-laveur">robot vacuum and mop comparison</a>, handy for daily upkeep between manual washes.</p>`,
   },
   faq: [
     {
@@ -707,7 +995,10 @@ export const article: BlogArticle = {
         es: '¿Un aspirador fregasuelos sustituye a un aspirador normal y a una fregona?',
         it: 'Un aspirapolvere lavapavimenti sostituisce un aspirapolvere classico e il mocio?',
         nl: 'Vervangt een nat-droogzuiger een gewone stofzuiger en een dweil?',
-        pl: 'Czy odkurzacz mopujący zastępuje zwykły odkurzacz i mop?',
+        pl: 'Czy odkurzacz mopujący zastąpi zwykły odkurzacz i mop?',
+        sv: 'Kan en golvtvätt ersätta både dammsugaren och moppen?',
+        us: 'Can a wet dry vacuum replace a regular vacuum and a mop?',
+        ca: 'Can a wet dry vacuum replace a regular vacuum and a mop?',
       },
       answer: {
         fr: 'Sur les sols durs (carrelage, vinyle, parquet vitrifié), oui : il aspire les débris et lave en un seul passage. En revanche, il ne convient pas aux tapis ni aux moquettes, pour lesquels un aspirateur classique reste nécessaire.',
@@ -716,7 +1007,10 @@ export const article: BlogArticle = {
         es: 'En suelos duros (baldosa, vinilo, parquet sellado), sí: recoge la suciedad y friega en una sola pasada. En cambio, no sirve para alfombras ni moquetas, que siguen necesitando un aspirador clásico.',
         it: 'Sui pavimenti duri (piastrelle, vinile, parquet verniciato) sì: raccoglie lo sporco e lava in un solo passaggio. Non è invece adatto a tappeti e moquette, per i quali serve ancora un aspirapolvere classico.',
         nl: 'Op harde vloeren (tegels, vinyl, gelakt parket) wel: hij neemt vuil op en dweilt in één beweging. Voor vloerkleden en tapijt is hij echter niet geschikt, daarvoor blijft een gewone stofzuiger nodig.',
-        pl: 'Na twardych podłogach (płytki, winyl, parkiet lakierowany) tak: zbiera zanieczyszczenia i myje w jednym przejściu. Nie nadaje się natomiast do dywanów i wykładzin, do których nadal potrzebny jest klasyczny odkurzacz.',
+        pl: 'Na twardych podłogach (płytki, winyl, lakierowany parkiet) tak: za jednym przejściem zbiera zabrudzenia i myje podłogę. Nie nadaje się jednak do dywanów i wykładzin – do nich nadal potrzebny jest zwykły odkurzacz.',
+        sv: 'Ja, på hårda golv (klinker, vinyl, lackat trägolv): den tar upp skräp och tvättar i ett och samma drag. Däremot passar den inte på mattor eller heltäckningsmattor, där du fortfarande behöver en vanlig dammsugare.',
+        us: 'On hard floors (tile, vinyl, sealed hardwood), yes: it picks up debris and washes in a single pass. It’s not suitable for rugs or carpet, though, which still need a regular vacuum.',
+        ca: 'On hard floors (tiles, vinyl, sealed wood), yes: it picks up debris and washes in a single pass. However, it is not suitable for rugs or carpets, which still need a regular vacuum.',
       },
     },
     {
@@ -728,6 +1022,9 @@ export const article: BlogArticle = {
         it: 'Si può usare un aspirapolvere lavapavimenti sul parquet?',
         nl: 'Kun je een nat-droogzuiger op parket gebruiken?',
         pl: 'Czy odkurzacza mopującego można używać na parkiecie?',
+        sv: 'Går det att använda en golvtvätt på trägolv?',
+        us: 'Can you use a wet dry vacuum on hardwood floors?',
+        ca: 'Can you use a wet dry vacuum on hardwood floors?',
       },
       answer: {
         fr: 'Sur un parquet vitrifié ou un stratifié, oui, en mode peu humide et en évitant de stationner au même endroit. Les parquets huilés ou cirés supportent mal l’humidité : vérifiez les recommandations du fabricant du sol.',
@@ -736,7 +1033,10 @@ export const article: BlogArticle = {
         es: 'En parquet sellado o laminado, sí, con un modo de poca humedad y sin detenerse en el mismo punto. El parquet aceitado o encerado tolera mal la humedad: consulta las recomendaciones del fabricante del suelo.',
         it: 'Su parquet verniciato o laminato sì, con una modalità poco umida ed evitando di fermarsi nello stesso punto. Il parquet oliato o cerato sopporta male l’umidità: verifica le indicazioni del produttore del pavimento.',
         nl: 'Op gelakt parket of laminaat wel, in een stand met weinig vocht en zonder op één plek te blijven staan. Geolied of gewaxt parket verdraagt vocht slecht: volg de aanwijzingen van de vloerfabrikant.',
-        pl: 'Na parkiecie lakierowanym lub panelach laminowanych tak, w trybie o niewielkiej wilgotności i bez zatrzymywania się w jednym miejscu. Parkiety olejowane lub woskowane źle znoszą wilgoć: sprawdź zalecenia producenta podłogi.',
+        pl: 'Na lakierowanym parkiecie lub panelach podłogowych tak, pod warunkiem że używasz trybu z małą ilością wody i nie zatrzymujesz się długo w jednym miejscu. Parkiet olejowany lub woskowany źle znosi wilgoć, więc sprawdź zalecenia producenta podłogi.',
+        sv: 'På lackat trägolv eller laminat, ja, i ett läge med lite vatten och utan att stå still på samma ställe. Oljade eller vaxade trägolv tål fukt dåligt, så kontrollera vad golvtillverkaren rekommenderar.',
+        us: 'On sealed hardwood or laminate, yes, using a low-moisture mode and without lingering in one spot. Oiled or waxed wood doesn’t handle moisture well, so check your flooring manufacturer’s guidance.',
+        ca: 'On sealed wood or laminate, yes, using a low-moisture mode and without lingering in one spot. Oiled or waxed wood copes poorly with moisture, so check your flooring manufacturer’s guidance.',
       },
     },
     {
@@ -748,6 +1048,9 @@ export const article: BlogArticle = {
         it: 'L’autopulizia con acqua calda è davvero utile?',
         nl: 'Is zelfreiniging met heet water echt nuttig?',
         pl: 'Czy samooczyszczanie gorącą wodą naprawdę się przydaje?',
+        sv: 'Gör självrengöring med varmt vatten verkligen nytta?',
+        us: 'Is hot water self-cleaning really useful?',
+        ca: 'Is hot water self-cleaning really useful?',
       },
       answer: {
         fr: 'Elle aide à dissoudre les résidus gras sur la brosse, et le séchage à l’air chaud qui suit limite les mauvaises odeurs, l’un des reproches les plus fréquents des acheteurs. Il faut tout de même vider et rincer le réservoir d’eau sale.',
@@ -756,7 +1059,10 @@ export const article: BlogArticle = {
         es: 'Ayuda a disolver los restos grasos del cepillo, y el secado con aire caliente posterior limita los malos olores, una de las quejas más habituales de los compradores. Aun así, hay que vaciar y aclarar el depósito de agua sucia.',
         it: 'Aiuta a sciogliere i residui grassi sulla spazzola, e l’asciugatura ad aria calda che segue limita i cattivi odori, uno dei difetti più segnalati dagli acquirenti. Il serbatoio dell’acqua sporca va comunque svuotato e risciacquato.',
         nl: 'Het helpt vettige resten op de borstel op te lossen, en het drogen met hete lucht daarna beperkt nare geurtjes, een van de meest gehoorde klachten van kopers. De vuilwatertank moet je wel nog steeds legen en spoelen.',
-        pl: 'Pomaga rozpuścić tłuste resztki na szczotce, a następujące po nim suszenie gorącym powietrzem ogranicza nieprzyjemne zapachy, jeden z najczęstszych zarzutów kupujących. Nadal trzeba jednak opróżnić i przepłukać zbiornik brudnej wody.',
+        pl: 'Gorąca woda pomaga rozpuścić tłuste osady na szczotce, a późniejsze suszenie gorącym powietrzem ogranicza nieprzyjemny zapach – jedną z najczęstszych skarg kupujących. Zbiornik brudnej wody i tak trzeba jednak opróżnić i wypłukać.',
+        sv: 'Den hjälper till att lösa upp fettrester på borsten, och torkningen med varmluft efteråt motverkar dålig lukt, ett av de vanligaste klagomålen från köpare. Du behöver ändå tömma och skölja tanken för smutsvatten.',
+        us: 'It helps dissolve greasy residue on the brush, and the hot-air drying that follows keeps bad smells down, one of the most common owner complaints. You still need to empty and rinse the dirty water tank.',
+        ca: 'It helps dissolve greasy residue on the brush, and the hot air drying that follows limits bad smells, one of the most common buyer complaints. You still need to empty and rinse the dirty water tank.',
       },
     },
     {
@@ -767,7 +1073,10 @@ export const article: BlogArticle = {
         es: '¿Qué diferencia hay con un robot aspirador-fregasuelos?',
         it: 'Che differenza c’è con un robot aspirapolvere lavapavimenti?',
         nl: 'Wat is het verschil met een robotstofzuiger met dweilfunctie?',
-        pl: 'Czym różni się od robota odkurzającego z mopem?',
+        pl: 'Czym odkurzacz mopujący różni się od robota sprzątającego z mopem?',
+        sv: 'Vad är skillnaden mot en robotdammsugare med mopp?',
+        us: 'How is it different from a robot vacuum and mop?',
+        ca: 'How is it different from a robot vacuum mop?',
       },
       answer: {
         fr: 'L’aspirateur laveur se manie à la main et lave en profondeur, avec une brosse rouleau humide qui frotte le sol. Le robot travaille seul et entretient au quotidien. Beaucoup de foyers combinent les deux : le robot chaque jour, l’aspirateur laveur pour les zones sales.',
@@ -776,7 +1085,10 @@ export const article: BlogArticle = {
         es: 'El aspirador fregasuelos se maneja a mano y friega a fondo, con un cepillo rodillo húmedo que frota el suelo. El robot trabaja solo para el mantenimiento diario. Muchos hogares combinan ambos: el robot cada día y el fregasuelos para las zonas más sucias.',
         it: 'L’aspirapolvere lavapavimenti si usa a mano e lava a fondo, con una spazzola a rullo umida che strofina il pavimento. Il robot lavora da solo per la pulizia quotidiana. Molte famiglie li combinano: il robot ogni giorno, il lavapavimenti per le zone più sporche.',
         nl: 'Een nat-droogzuiger bedien je met de hand en hij reinigt grondig, met een vochtige rolborstel die de vloer schrobt. Een robot werkt zelfstandig voor het dagelijks onderhoud. Veel huishoudens combineren beide: de robot elke dag, de nat-droogzuiger voor vuilere plekken.',
-        pl: 'Odkurzacz mopujący prowadzi się ręcznie i myje dokładnie, wilgotną szczotką walcową szorującą podłogę. Robot pracuje samodzielnie i utrzymuje czystość na co dzień. Wiele domów łączy oba: robot codziennie, odkurzacz mopujący do brudnych stref.',
+        pl: 'Odkurzacz mopujący prowadzi się ręcznie, a jego wilgotna szczotka walcowa szoruje podłogę, dzięki czemu myje ją gruntownie. Robot pracuje samodzielnie i utrzymuje czystość na co dzień. W wielu domach używa się obu: robota codziennie, a odkurzacza mopującego tam, gdzie brudu jest najwięcej.',
+        sv: 'En golvtvätt styr du själv, och den tvättar på djupet med en fuktig borstvals som skrubbar golvet. En robot arbetar på egen hand och sköter det dagliga underhållet. Många hem kombinerar båda: roboten varje dag och golvtvätten för de smutsigaste ytorna.',
+        us: 'A wet dry vacuum is a machine you push yourself, and it cleans more deeply, with a damp roller brush scrubbing the floor. A robot works on its own for daily upkeep. Many homes use both: the robot every day, the wet dry vacuum for the dirtiest areas.',
+        ca: 'A wet dry vacuum is handheld and washes deeply, with a damp roller brush scrubbing the floor. A robot works on its own for daily upkeep. Many homes combine both: the robot every day, the wet dry vacuum for dirtier areas.',
       },
     },
     {
@@ -788,6 +1100,9 @@ export const article: BlogArticle = {
         it: 'Quale prodotto mettere nel serbatoio?',
         nl: 'Welk schoonmaakmiddel doe je in de tank?',
         pl: 'Jaki środek wlewać do zbiornika?',
+        sv: 'Vilket rengöringsmedel ska man ha i tanken?',
+        us: 'What cleaning solution should go in the tank?',
+        ca: 'What cleaning product should go in the tank?',
       },
       answer: {
         fr: 'De l’eau seule ou la solution recommandée par le fabricant, à la dose indiquée. Évitez l’eau de Javel, le vinaigre pur, les huiles et les produits très moussants, qui peuvent abîmer les joints, gêner les capteurs et annuler la garantie.',
@@ -796,7 +1111,10 @@ export const article: BlogArticle = {
         es: 'Agua sola o la solución recomendada por el fabricante, en la dosis indicada. Evita la lejía, el vinagre puro, los aceites y los productos que hacen mucha espuma, que pueden dañar las juntas, interferir con los sensores y anular la garantía.',
         it: 'Solo acqua o la soluzione consigliata dal produttore, nella dose indicata. Evita candeggina, aceto puro, oli e prodotti molto schiumogeni, che possono danneggiare le guarnizioni, disturbare i sensori e invalidare la garanzia.',
         nl: 'Alleen water of de door de fabrikant aanbevolen oplossing, in de aangegeven dosering. Vermijd bleek, pure azijn, oliën en sterk schuimende middelen, die afdichtingen kunnen beschadigen, sensoren kunnen storen en de garantie kunnen laten vervallen.',
-        pl: 'Samą wodę lub roztwór zalecany przez producenta, w podanej dawce. Unikaj wybielacza, czystego octu, olejów i środków mocno pieniących, które mogą uszkodzić uszczelki, zakłócić czujniki i unieważnić gwarancję.',
+        pl: 'Samą wodę albo płyn zalecany przez producenta, w podanej dawce. Unikaj wybielaczy z chlorem, nierozcieńczonego octu, olejów i mocno pieniących się środków: mogą uszkodzić uszczelki, zakłócić pracę czujników i doprowadzić do utraty gwarancji.',
+        sv: 'Bara vatten eller tillverkarens rekommenderade rengöringsmedel, i angiven dos. Undvik klorin, ren ättika, oljor och kraftigt skummande medel, som kan skada packningarna, störa sensorerna och göra att garantin upphör att gälla.',
+        us: 'Plain water or the manufacturer’s recommended solution, at the stated dose. Avoid bleach, undiluted vinegar, oils and high-sudsing products, which can damage seals, interfere with sensors and void the warranty.',
+        ca: 'Plain water or the manufacturer’s recommended solution, at the stated dose. Avoid bleach, undiluted vinegar, oils and high-foaming products, which can damage seals, interfere with sensors and void the warranty.',
       },
     },
     {
@@ -808,6 +1126,9 @@ export const article: BlogArticle = {
         it: 'Un aspirapolvere lavapavimenti va bene se si hanno animali?',
         nl: 'Is een nat-droogzuiger een goede keuze als je huisdieren hebt?',
         pl: 'Czy odkurzacz mopujący sprawdzi się w domu ze zwierzętami?',
+        sv: 'Är en golvtvätt ett bra val om du har husdjur?',
+        us: 'Is a wet dry vacuum a good choice if you have pets?',
+        ca: 'Is a wet dry vacuum a good choice if you have pets?',
       },
       answer: {
         fr: 'Oui, pour les traces de pattes et les petits accidents sur sol dur. Privilégiez un modèle qui limite l’enroulement des poils, comme le Dyson WashG1 ou le Dreame H15 Pro avec son racloir coupe-cheveux, et nettoyez la brosse régulièrement.',
@@ -816,7 +1137,10 @@ export const article: BlogArticle = {
         es: 'Sí, para las huellas de patas y los pequeños accidentes en suelo duro. Elige un modelo que limite el enredo del pelo, como el Dyson WashG1 o el Dreame H15 Pro con su rascador cortapelos, y limpia el cepillo con regularidad.',
         it: 'Sì, per impronte di zampe e piccoli incidenti sui pavimenti duri. Preferisci un modello che limiti l’avvolgimento dei peli, come il Dyson WashG1 o il Dreame H15 Pro con il raschietto tagliacapelli, e pulisci regolarmente la spazzola.',
         nl: 'Ja, voor pootafdrukken en kleine ongelukjes op harde vloeren. Kies bij voorkeur een model dat het opwinden van haren beperkt, zoals de Dyson WashG1 of de Dreame H15 Pro met zijn haarsnijdende schraper, en maak de borstel regelmatig schoon.',
-        pl: 'Tak, przy śladach łap i drobnych wypadkach na twardej podłodze. Wybierz model, który ogranicza zaplątywanie się sierści, jak Dyson WashG1 albo Dreame H15 Pro ze skrobakiem do cięcia włosów, i regularnie czyść szczotkę.',
+        pl: 'Tak, przy śladach łap i drobnych wpadkach na twardej podłodze. Wybierz model, który ogranicza nawijanie się sierści, np. Dyson WashG1 albo Dreame H15 Pro ze skrobakiem tnącym włosy, i regularnie czyść szczotkę.',
+        sv: 'Ja, för tassavtryck och små olyckor på hårda golv. Välj en modell som motverkar att hår lindar sig runt borsten, till exempel Dyson WashG1 eller Dreame H15 Pro med sin hårklippande skrapa, och rengör borsten regelbundet.',
+        us: 'Yes, for paw prints and small accidents on hard floors. Look for a model that limits hair wrap, such as the Dyson WashG1 or the Dreame H15 Pro with its hair-cutting scraper, and clean the brush regularly.',
+        ca: 'Yes, for paw prints and small accidents on hard floors. Choose a model that limits hair wrapping, such as the Dyson WashG1 or the Dreame H15 Pro with its hair-cutting scraper, and clean the brush regularly.',
       },
     },
   ],

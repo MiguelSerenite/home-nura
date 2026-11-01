@@ -10,7 +10,10 @@ const texts: Record<string, { title: string; desc: string; button: string }> = {
   es: { title: 'Página no encontrada', desc: 'La página que buscas no existe o ha sido movida.', button: 'Volver al inicio' },
   it: { title: 'Pagina non trovata', desc: 'La pagina che stai cercando non esiste o è stata spostata.', button: 'Torna alla home' },
   nl: { title: 'Pagina niet gevonden', desc: 'De pagina die u zoekt bestaat niet of is verplaatst.', button: 'Terug naar home' },
-  pl: { title: 'Nie znaleziono strony', desc: 'Strona, której szukasz, nie istnieje lub została przeniesiona.', button: 'Strona główna' },
+  pl: { title: 'Nie znaleziono strony', desc: 'Strona, której szukasz, nie istnieje lub została przeniesiona.', button: 'Wróć na stronę główną' },
+  sv: { title: 'Sidan hittades inte', desc: 'Sidan du letar efter finns inte eller har flyttats.', button: 'Tillbaka till startsidan' },
+  us: { title: 'Page not found', desc: 'The page you are looking for does not exist or has been moved.', button: 'Back to home' },
+  ca: { title: 'Page not found', desc: 'The page you are looking for does not exist or has been moved.', button: 'Back to home' },
 }
 
 export default function NotFound() {

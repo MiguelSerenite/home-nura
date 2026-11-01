@@ -45,7 +45,7 @@ describe('category heads', () => {
   })
 
   it('return undefined for an unknown locale or category', () => {
-    expect(getCategoryHead('airfryers', 'sv')).toBeUndefined()
+    expect(getCategoryHead('airfryers', 'xx')).toBeUndefined()
     expect(getCategoryHead('no-such-category', 'fr')).toBeUndefined()
   })
 })

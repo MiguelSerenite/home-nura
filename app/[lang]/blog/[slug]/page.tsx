@@ -19,7 +19,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { SiteFooter } from '@/components/ui'
 import { buildPageMetadata, buildArticleSchema, buildProductImageObject } from '@/lib/seo'
-import { LANGUAGES, isValidLang } from '@/lib/i18n'
+import { BCP47_LOCALE, LANGUAGES, isValidLang } from '@/lib/i18n'
 import { BLOG_SEO_META } from '@/lib/blog/seo-meta'
 import { ChevronRight } from 'lucide-react'
 import AuthorByline from '@/components/AuthorByline'
@@ -192,13 +192,16 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     it: 'Domande frequenti',
     nl: 'Veelgestelde vragen',
     pl: 'Najczęstsze pytania',
+    sv: 'Vanliga frågor',
+    us: 'Frequently asked questions',
+    ca: 'Frequently Asked Questions',
   }
 
   const dateFormatted = new Date(article.datePublished).toLocaleDateString(
-    lang === 'en' ? 'en-GB' : lang, { day: 'numeric', month: 'long', year: 'numeric' }
+    BCP47_LOCALE[lang], { day: 'numeric', month: 'long', year: 'numeric' }
   )
   const modifiedFormatted = new Date(article.dateModified).toLocaleDateString(
-    lang === 'en' ? 'en-GB' : lang, { day: 'numeric', month: 'long', year: 'numeric' }
+    BCP47_LOCALE[lang], { day: 'numeric', month: 'long', year: 'numeric' }
   )
 
   return (
@@ -230,11 +233,11 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
           {/* Meta */}
           <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 border-t border-b border-slate-100 py-4">
             <AuthorByline lang={lang} />
-            <span>{lang === 'fr' ? 'Publié le' : lang === 'de' ? 'Veröffentlicht am' : lang === 'es' ? 'Publicado el' : lang === 'it' ? 'Pubblicato il' : lang === 'nl' ? 'Gepubliceerd op' : lang === 'pl' ? 'Opublikowano' : 'Published'} {dateFormatted}</span>
+            <span>{lang === 'fr' ? 'Publié le' : lang === 'de' ? 'Veröffentlicht am' : lang === 'es' ? 'Publicado el' : lang === 'it' ? 'Pubblicato il' : lang === 'nl' ? 'Gepubliceerd op' : lang === 'pl' ? 'Opublikowano' : lang === 'sv' ? 'Publicerad' : lang === 'us' ? 'Published' : lang === 'ca' ? 'Published' : 'Published'} {dateFormatted}</span>
             {article.dateModified !== article.datePublished && (
-              <span>{lang === 'fr' ? 'Mis à jour le' : lang === 'de' ? 'Aktualisiert am' : lang === 'es' ? 'Actualizado el' : lang === 'it' ? 'Aggiornato il' : lang === 'nl' ? 'Bijgewerkt op' : lang === 'pl' ? 'Zaktualizowano' : 'Updated'} {modifiedFormatted}</span>
+              <span>{lang === 'fr' ? 'Mis à jour le' : lang === 'de' ? 'Aktualisiert am' : lang === 'es' ? 'Actualizado el' : lang === 'it' ? 'Aggiornato il' : lang === 'nl' ? 'Bijgewerkt op' : lang === 'pl' ? 'Zaktualizowano' : lang === 'sv' ? 'Uppdaterad' : lang === 'us' ? 'Updated' : lang === 'ca' ? 'Updated' : 'Updated'} {modifiedFormatted}</span>
             )}
-            <span>{article.readingTime} min {lang === 'fr' ? 'de lecture' : lang === 'de' ? 'Lesezeit' : lang === 'es' ? 'de lectura' : lang === 'it' ? 'di lettura' : lang === 'nl' ? 'leestijd' : lang === 'pl' ? 'czytania' : 'read'}</span>
+            <span>{article.readingTime} min {lang === 'fr' ? 'de lecture' : lang === 'de' ? 'Lesezeit' : lang === 'es' ? 'de lectura' : lang === 'it' ? 'di lettura' : lang === 'nl' ? 'leestijd' : lang === 'pl' ? 'czytania' : lang === 'sv' ? 'läsning' : lang === 'us' ? 'read' : lang === 'ca' ? 'read' : 'read'}</span>
           </div>
         </header>
 
@@ -288,12 +291,12 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         {/* Pillar Link */}
         <div className="mt-12 p-6 bg-gradient-to-br from-brand-50 to-accent-50 rounded-2xl border border-brand-100">
           <p className="text-sm font-bold text-brand-900 mb-2">
-            {lang === 'fr' ? 'Article issu de notre guide complet' : lang === 'de' ? 'Artikel aus unserem umfassenden Ratgeber' : lang === 'es' ? 'Artículo de nuestra guía completa' : lang === 'it' ? 'Articolo dalla nostra guida completa' : lang === 'nl' ? 'Artikel uit onze complete gids' : lang === 'pl' ? 'Artykuł z naszego kompletnego poradnika' : 'Article from our comprehensive guide'}
+            {lang === 'fr' ? 'Article issu de notre guide complet' : lang === 'de' ? 'Artikel aus unserem umfassenden Ratgeber' : lang === 'es' ? 'Artículo de nuestra guía completa' : lang === 'it' ? 'Articolo dalla nostra guida completa' : lang === 'nl' ? 'Artikel uit onze complete gids' : lang === 'pl' ? 'Artykuł z naszego kompletnego poradnika' : lang === 'sv' ? 'Artikel ur vår stora guide' : lang === 'us' ? 'From our complete guide' : lang === 'ca' ? 'Article from our comprehensive guide' : 'Article from our comprehensive guide'}
           </p>
           <Link href={`/${lang}/${article.pillar}`} className="inline-flex min-h-11 items-center text-brand-700 font-bold hover:underline text-lg">
             {pillarSilo
               ? `${pillarSilo.title[lang] ?? pillarSilo.title.fr} →`
-              : lang === 'fr' ? 'Voir le guide complet des airfryers 2026 →' : lang === 'de' ? 'Zum kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Ver la guía completa de freidoras 2026 →' : lang === 'it' ? 'Vai alla guida completa 2026 →' : lang === 'nl' ? 'Naar de complete airfryer-gids 2026 →' : lang === 'pl' ? 'Zobacz kompletny poradnik po frytkownicach beztłuszczowych 2026 →' : 'See the complete air fryer guide 2026 →'}
+              : lang === 'fr' ? 'Voir le guide complet des airfryers 2026 →' : lang === 'de' ? 'Zum kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Ver la guía completa de freidoras 2026 →' : lang === 'it' ? 'Vai alla guida completa 2026 →' : lang === 'nl' ? 'Naar de complete airfryer-gids 2026 →' : lang === 'pl' ? 'Zobacz kompletny poradnik po frytkownicach beztłuszczowych 2026 →' : lang === 'sv' ? 'Se hela airfryerguiden 2026 →' : lang === 'us' ? 'See the complete 2026 air fryer guide →' : lang === 'ca' ? 'See the complete air fryer guide 2026 →' : 'See the complete air fryer guide 2026 →'}
           </Link>
         </div>
 
@@ -309,7 +312,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         {related.length > 0 && (
           <section className="mt-16 border-t border-slate-100 pt-12">
             <h2 className="text-2xl font-bold mb-8">
-              {lang === 'fr' ? 'Articles connexes' : lang === 'de' ? 'Verwandte Artikel' : lang === 'es' ? 'Artículos relacionados' : lang === 'it' ? 'Articoli correlati' : lang === 'nl' ? 'Gerelateerde artikelen' : lang === 'pl' ? 'Powiązane artykuły' : 'Related Articles'}
+              {lang === 'fr' ? 'Articles connexes' : lang === 'de' ? 'Verwandte Artikel' : lang === 'es' ? 'Artículos relacionados' : lang === 'it' ? 'Articoli correlati' : lang === 'nl' ? 'Gerelateerde artikelen' : lang === 'pl' ? 'Powiązane artykuły' : lang === 'sv' ? 'Relaterade artiklar' : lang === 'us' ? 'Related articles' : lang === 'ca' ? 'Related Articles' : 'Related Articles'}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {related.map(r => (

@@ -2,7 +2,7 @@
 
 import { useState, useSyncExternalStore } from 'react'
 import { usePathname } from 'next/navigation'
-import { COUNTRY_COOKIE, suggestLocaleForCountry, switchLocalePath, type Lang } from '@/lib/i18n'
+import { COUNTRY_COOKIE, HTML_LANG, suggestLocaleForCountry, switchLocalePath, type Lang } from '@/lib/i18n'
 
 const DISMISS_COOKIE = 'hn_geo_dismissed'
 const DISMISS_MAX_AGE = 60 * 60 * 24 * 30 // 30 days
@@ -16,7 +16,10 @@ const COPY: Record<Lang, { text: string; cta: string; close: string }> = {
   es: { text: '¿Estás en España? Ver la web en español.', cta: 'Ver en español', close: 'Cerrar' },
   it: { text: 'Sei in Italia? Vedi il sito in italiano.', cta: 'Vai in italiano', close: 'Chiudi' },
   nl: { text: 'In Nederland? Bekijk de Nederlandse site.', cta: 'Naar Nederlands', close: 'Sluiten' },
-  pl: { text: 'Jesteś w Polsce? Zobacz stronę po polsku.', cta: 'Przełącz na polski', close: 'Zamknij' },
+  pl: { text: 'Jesteś w Polsce? Zobacz stronę po polsku.', cta: 'Przejdź na polską wersję', close: 'Zamknij' },
+  sv: { text: 'Är du i Sverige? Se sajten på svenska.', cta: 'Byt till svenska', close: 'Stäng' },
+  us: { text: 'In the US? See the US edition.', cta: 'Switch to the US edition', close: 'Close' },
+  ca: { text: 'In Canada? Read the Canadian edition.', cta: 'Switch to the Canadian edition', close: 'Close' },
 }
 
 function readCookie(name: string): string | null {
@@ -55,7 +58,7 @@ export default function GeoLocaleSuggestion({ lang }: { lang: string }) {
   }
 
   return (
-    <div lang={suggested} className="bg-brand-900 text-white">
+    <div lang={HTML_LANG[suggested]} className="bg-brand-900 text-white">
       <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-2 sm:px-6">
         <p className="flex-1 text-sm">{copy.text}</p>
         <a

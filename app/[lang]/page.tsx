@@ -11,7 +11,8 @@ import ComparisonTable from '@/components/ComparisonTable'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
 import { productKicker } from '@/lib/product-types'
-import { resolveLang } from '@/lib/i18n'
+import { HTML_LANG, resolveLang, type Lang } from '@/lib/i18n'
+import { CHAPTER_LABEL } from '@/lib/editorial-labels'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import Link from 'next/link'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
@@ -24,7 +25,24 @@ const HERO_CTA: Record<string, { primary: string; secondary: string }> = {
   es: { primary: 'Ver nuestro top 3', secondary: 'Encontrar mi freidora en 1 min' },
   it: { primary: 'Vedi la nostra top 3', secondary: 'Trova la mia friggitrice in 1 min' },
   nl: { primary: 'Bekijk onze top 3', secondary: 'Vind mijn airfryer in 1 min' },
-  pl: { primary: 'Zobacz nasze top 3', secondary: 'Znajdź swoją frytkownicę w 1 min' },
+  pl: { primary: 'Zobacz TOP 3', secondary: 'Znajdź frytkownicę dla siebie w minutę' },
+  sv: { primary: 'Se vår topp 3', secondary: 'Hitta min airfryer på 1 minut' },
+  us: { primary: 'See our top 3', secondary: 'Find my air fryer in 1 minute' },
+  ca: { primary: 'See our top 3', secondary: 'Find my air fryer in 1 min' },
+}
+
+/** Hero badge: the edition of each language version (its market, in its own language). */
+const HERO_EDITION: Record<Lang, string> = {
+  fr: 'Europe 2026',
+  en: 'Europe 2026',
+  de: 'Europa 2026',
+  es: 'Europa 2026',
+  it: 'Europa 2026',
+  nl: 'Europa 2026',
+  pl: 'Europa 2026',
+  sv: 'Europa 2026',
+  us: 'USA 2026',
+  ca: 'Canada 2026',
 }
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
@@ -58,7 +76,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     url: `https://homenura.com/${lang}`,
     datePublished: '2024-06-01',
     dateModified: SITE_LAST_UPDATED_ISO,
-    inLanguage: lang,
+    inLanguage: HTML_LANG[safeLang],
     isPartOf: {
       '@type': 'WebSite',
       name: 'Home Nura',
@@ -132,7 +150,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="relative px-4 sm:px-6 py-12 sm:py-20 lg:py-28 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-600 uppercase bg-brand-50 rounded-full">
-            Europe 2026
+            {HERO_EDITION[safeLang]}
           </span>
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6 text-slate-900">
             {dict.welcome}
@@ -227,7 +245,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               <p className="text-sm text-slate-600 font-medium">{dict.stat_hours_testing}</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-black text-brand-600 mb-1">6</div>
+              <div className="text-3xl font-black text-brand-600 mb-1">10</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_european_markets}</p>
             </div>
           </div>
@@ -238,7 +256,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="max-w-7xl mx-auto px-4 pb-20">
         <div className="text-center mb-14 md:mb-16 px-4">
           <Kicker className="mb-5">
-            {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : lang === 'pl' ? 'Nasz wybór' : 'The Selection'}
+            {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : lang === 'pl' ? 'Nasz wybór' : lang === 'sv' ? 'Urvalet' : lang === 'us' ? 'Our picks' : lang === 'ca' ? 'The Selection' : 'The Selection'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">{dict.section_title}</h2>
           <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto">{dict.section_subtitle}</p>
@@ -279,10 +297,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="max-w-3xl mx-auto px-6 pt-24 md:pt-28">
         <div className="text-center mb-16">
           <Kicker className="mb-5">
-            {lang === 'fr' ? 'Le Dossier' : lang === 'de' ? 'Das Dossier' : lang === 'es' ? 'El Dossier' : lang === 'it' ? 'Il Dossier' : lang === 'nl' ? 'Het Dossier' : lang === 'pl' ? 'Temat numeru' : 'The Dossier'}
+            {lang === 'fr' ? 'Le Dossier' : lang === 'de' ? 'Das Dossier' : lang === 'es' ? 'El Dossier' : lang === 'it' ? 'Il Dossier' : lang === 'nl' ? 'Het Dossier' : lang === 'pl' ? 'Temat numeru' : lang === 'sv' ? 'Fördjupning' : lang === 'us' ? 'In depth' : lang === 'ca' ? 'The Dossier' : 'The Dossier'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-5">
-            {lang === 'fr' ? 'Tout savoir sur l\'airfryer en 2026' : lang === 'de' ? 'Alles über den Airfryer 2026' : lang === 'es' ? 'Todo sobre la freidora de aire en 2026' : lang === 'it' ? 'Tutto sulla friggitrice ad aria nel 2026' : lang === 'nl' ? 'Alles over de airfryer in 2026' : lang === 'pl' ? 'Wszystko o frytkownicach beztłuszczowych w 2026' : 'Everything About the Air Fryer in 2026'}
+            {lang === 'fr' ? 'Tout savoir sur l\'airfryer en 2026' : lang === 'de' ? 'Alles über den Airfryer 2026' : lang === 'es' ? 'Todo sobre la freidora de aire en 2026' : lang === 'it' ? 'Tutto sulla friggitrice ad aria nel 2026' : lang === 'nl' ? 'Alles over de airfryer in 2026' : lang === 'pl' ? 'Wszystko o frytkownicach beztłuszczowych w 2026' : lang === 'sv' ? 'Allt du behöver veta om airfryrar 2026' : lang === 'us' ? 'Everything you need to know about air fryers in 2026' : lang === 'ca' ? 'Everything About the Air Fryer in 2026' : 'Everything About the Air Fryer in 2026'}
           </h2>
           <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
         </div>
@@ -294,33 +312,33 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               title: dict.trust_section_title,
               body: dict.trust_section_content,
               href: `/${lang}/a-propos`,
-              cta: lang === 'fr' ? 'En savoir plus sur notre équipe et notre méthodologie' : lang === 'de' ? 'Mehr über unser Team und unsere Methodik erfahren' : lang === 'es' ? 'Más información sobre nuestro equipo y metodología' : lang === 'it' ? 'Scopri di più sul nostro team e la nostra metodologia' : lang === 'nl' ? 'Meer over ons team en onze methodologie' : lang === 'pl' ? 'Poznaj nasz zespół i metodologię' : 'Learn more about our team and methodology',
+              cta: lang === 'fr' ? 'En savoir plus sur notre équipe et notre méthodologie' : lang === 'de' ? 'Mehr über unser Team und unsere Methodik erfahren' : lang === 'es' ? 'Más información sobre nuestro equipo y metodología' : lang === 'it' ? 'Scopri di più sul nostro team e la nostra metodologia' : lang === 'nl' ? 'Meer over ons team en onze methodologie' : lang === 'pl' ? 'Poznaj nasz zespół i metodologię' : lang === 'sv' ? 'Läs mer om vår redaktion och vår metod' : lang === 'us' ? 'Learn more about our team and methodology' : lang === 'ca' ? 'Learn more about our team and methodology' : 'Learn more about our team and methodology',
             },
             {
               num: 'II',
               title: dict.market_section_title,
               body: dict.market_section_content,
               href: `/${lang}/guides/airfryers`,
-              cta: lang === 'fr' ? 'Consultez notre guide complet des airfryers 2026' : lang === 'de' ? 'Lesen Sie unseren kompletten Airfryer-Ratgeber 2026' : lang === 'es' ? 'Consulta nuestra guía completa de freidoras de aire 2026' : lang === 'it' ? 'Consulta la nostra guida completa alle friggitrici ad aria 2026' : lang === 'nl' ? 'Bekijk onze complete airfryer-gids 2026' : lang === 'pl' ? 'Zobacz nasz kompletny poradnik po frytkownicach beztłuszczowych 2026' : 'See our complete air fryer guide 2026',
+              cta: lang === 'fr' ? 'Consultez notre guide complet des airfryers 2026' : lang === 'de' ? 'Lesen Sie unseren kompletten Airfryer-Ratgeber 2026' : lang === 'es' ? 'Consulta nuestra guía completa de freidoras de aire 2026' : lang === 'it' ? 'Consulta la nostra guida completa alle friggitrici ad aria 2026' : lang === 'nl' ? 'Bekijk onze complete airfryer-gids 2026' : lang === 'pl' ? 'Zobacz nasz kompletny poradnik po frytkownicach beztłuszczowych 2026' : lang === 'sv' ? 'Läs vår stora airfryerguide 2026' : lang === 'us' ? 'Read our complete 2026 air fryer guide' : lang === 'ca' ? 'See our complete air fryer guide 2026' : 'See our complete air fryer guide 2026',
             },
             {
               num: 'III',
               title: dict.testing_section_title,
               body: dict.testing_section_content,
               href: `/${lang}/guides/airfryer-vs-four`,
-              cta: lang === 'fr' ? 'Airfryer vs four traditionnel : notre comparatif détaillé' : lang === 'de' ? 'Heißluftfritteuse vs. Backofen: unser detaillierter Vergleich' : lang === 'es' ? 'Freidora de aire vs horno tradicional: nuestra comparativa detallada' : lang === 'it' ? 'Friggitrice ad aria vs forno tradizionale: il nostro confronto dettagliato' : lang === 'nl' ? 'Airfryer vs traditionele oven: onze gedetailleerde vergelijking' : lang === 'pl' ? 'Frytkownica beztłuszczowa czy tradycyjny piekarnik: szczegółowe porównanie' : 'Air fryer vs traditional oven: our detailed comparison',
+              cta: lang === 'fr' ? 'Airfryer vs four traditionnel : notre comparatif détaillé' : lang === 'de' ? 'Heißluftfritteuse vs. Backofen: unser detaillierter Vergleich' : lang === 'es' ? 'Freidora de aire vs horno tradicional: nuestra comparativa detallada' : lang === 'it' ? 'Friggitrice ad aria vs forno tradizionale: il nostro confronto dettagliato' : lang === 'nl' ? 'Airfryer vs traditionele oven: onze gedetailleerde vergelijking' : lang === 'pl' ? 'Frytkownica beztłuszczowa czy tradycyjny piekarnik: szczegółowe porównanie' : lang === 'sv' ? 'Airfryer eller vanlig ugn: vår detaljerade jämförelse' : lang === 'us' ? 'Air fryer vs. traditional oven: our detailed comparison' : lang === 'ca' ? 'Air fryer vs traditional oven: our detailed comparison' : 'Air fryer vs traditional oven: our detailed comparison',
             },
             {
               num: 'IV',
               title: dict.recommendation_section_title,
               body: dict.recommendation_section_content,
               href: `/${lang}/guides/airfryers`,
-              cta: lang === 'fr' ? 'Voir notre classement complet des 9 meilleurs airfryers' : lang === 'de' ? 'Unsere komplette Rangliste der 9 besten Heißluftfritteusen ansehen' : lang === 'es' ? 'Ver nuestro ranking completo de las 9 mejores freidoras de aire' : lang === 'it' ? 'Scopri la nostra classifica completa delle 9 migliori friggitrici ad aria' : lang === 'nl' ? 'Bekijk onze complete ranking van de 9 beste airfryers' : lang === 'pl' ? 'Zobacz pełny ranking 9 najlepszych frytkownic beztłuszczowych' : 'See our complete ranking of the 9 best air fryers',
+              cta: lang === 'fr' ? 'Voir notre classement complet des 9 meilleurs airfryers' : lang === 'de' ? 'Unsere komplette Rangliste der 9 besten Heißluftfritteusen ansehen' : lang === 'es' ? 'Ver nuestro ranking completo de las 9 mejores freidoras de aire' : lang === 'it' ? 'Scopri la nostra classifica completa delle 9 migliori friggitrici ad aria' : lang === 'nl' ? 'Bekijk onze complete ranking van de 9 beste airfryers' : lang === 'pl' ? 'Zobacz pełny ranking 9 najlepszych frytkownic beztłuszczowych' : lang === 'sv' ? 'Se hela vår topplista med de 9 bästa airfryrarna' : lang === 'us' ? 'See our complete ranking of the 9 best air fryers' : lang === 'ca' ? 'See our complete ranking of the 9 best air fryers' : 'See our complete ranking of the 9 best air fryers',
             },
           ].map((chapter, i) => (
             <article key={i} className="py-14 md:py-16 first:pt-10">
               <Kicker className="mb-4">
-                Chapitre · {chapter.num}
+                {CHAPTER_LABEL[safeLang]} · {chapter.num}
               </Kicker>
               <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
                 {chapter.title}
@@ -347,7 +365,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <span aria-hidden="true">&rarr;</span>
           </Button>
           <Button href={`/${lang}/blog`} variant="ghost" size="lg">
-            <span className="tracking-wide">{lang === 'fr' ? 'Nos articles & recettes' : lang === 'de' ? 'Artikel & Rezepte' : lang === 'es' ? 'Artículos y recetas' : lang === 'it' ? 'Articoli e ricette' : lang === 'nl' ? 'Artikelen & recepten' : lang === 'pl' ? 'Artykuły i przepisy' : 'Articles & recipes'}</span>
+            <span className="tracking-wide">{lang === 'fr' ? 'Nos articles & recettes' : lang === 'de' ? 'Artikel & Rezepte' : lang === 'es' ? 'Artículos y recetas' : lang === 'it' ? 'Articoli e ricette' : lang === 'nl' ? 'Artikelen & recepten' : lang === 'pl' ? 'Artykuły i przepisy' : lang === 'sv' ? 'Våra artiklar och recept' : lang === 'us' ? 'Articles & recipes' : lang === 'ca' ? 'Articles & recipes' : 'Articles & recipes'}</span>
             <span aria-hidden="true">&rarr;</span>
           </Button>
         </div>
@@ -362,18 +380,18 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div className="flex-1">
               <Kicker className="mb-3">
-                {lang === 'fr' ? 'Au-delà de l\'airfryer' : lang === 'de' ? 'Jenseits des Airfryers' : lang === 'es' ? 'Más allá de la freidora' : lang === 'it' ? 'Oltre la friggitrice ad aria' : lang === 'nl' ? 'Voorbij de airfryer' : lang === 'pl' ? 'Nie tylko frytkownica' : 'Beyond the air fryer'}
+                {lang === 'fr' ? 'Au-delà de l\'airfryer' : lang === 'de' ? 'Jenseits des Airfryers' : lang === 'es' ? 'Más allá de la freidora' : lang === 'it' ? 'Oltre la friggitrice ad aria' : lang === 'nl' ? 'Voorbij de airfryer' : lang === 'pl' ? 'Nie tylko frytkownica' : lang === 'sv' ? 'Mer än bara airfryrar' : lang === 'us' ? 'Beyond the air fryer' : lang === 'ca' ? 'Beyond the air fryer' : 'Beyond the air fryer'}
               </Kicker>
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-3">
-                {lang === 'fr' ? 'Découvrez la cuisine connectée' : lang === 'de' ? 'Entdecken Sie die smarte Küche' : lang === 'es' ? 'Descubre la cocina conectada' : lang === 'it' ? 'Scopri la cucina connessa' : lang === 'nl' ? 'Ontdek de slimme keuken' : lang === 'pl' ? 'Odkryj inteligentną kuchnię' : 'Discover the smart kitchen'}
+                {lang === 'fr' ? 'Découvrez la cuisine connectée' : lang === 'de' ? 'Entdecken Sie die smarte Küche' : lang === 'es' ? 'Descubre la cocina conectada' : lang === 'it' ? 'Scopri la cucina connessa' : lang === 'nl' ? 'Ontdek de slimme keuken' : lang === 'pl' ? 'Odkryj inteligentną kuchnię' : lang === 'sv' ? 'Upptäck det smarta köket' : lang === 'us' ? 'Discover the smart kitchen' : lang === 'ca' ? 'Discover the smart kitchen' : 'Discover the smart kitchen'}
               </h2>
               <p className="text-base text-slate-600 leading-relaxed max-w-2xl">
-                {lang === 'fr' ? 'Multicuiseurs, cafetières intelligentes, balances, thermomètres, prises connectées — 15 modèles comparés pour transformer votre cuisine.' : lang === 'de' ? 'Multikocher, smarte Kaffeemaschinen, Waagen, Thermometer, smarte Steckdosen — 15 verglichene Modelle für Ihre Küche.' : lang === 'es' ? 'Ollas, cafeteras inteligentes, básculas, termómetros, enchufes conectados — 15 modelos comparados para tu cocina.' : lang === 'it' ? 'Multicottura, macchine da caffè intelligenti, bilance, termometri, prese connesse — 15 modelli confrontati per la tua cucina.' : lang === 'nl' ? 'Multicookers, slimme koffiemachines, weegschalen, thermometers, slimme stekkers — 15 vergeleken modellen voor uw keuken.' : lang === 'pl' ? 'Multicookery, inteligentne ekspresy do kawy, wagi, termometry, inteligentne wtyczki — 15 porównanych modeli, które odmienią Twoją kuchnię.' : 'Multicookers, smart coffee machines, scales, thermometers, smart plugs — 15 compared models to upgrade your kitchen.'}
+                {lang === 'fr' ? 'Multicuiseurs, cafetières intelligentes, balances, thermomètres, prises connectées — 15 modèles comparés pour transformer votre cuisine.' : lang === 'de' ? 'Multikocher, smarte Kaffeemaschinen, Waagen, Thermometer, smarte Steckdosen — 15 verglichene Modelle für Ihre Küche.' : lang === 'es' ? 'Ollas, cafeteras inteligentes, básculas, termómetros, enchufes conectados — 15 modelos comparados para tu cocina.' : lang === 'it' ? 'Multicottura, macchine da caffè intelligenti, bilance, termometri, prese connesse — 15 modelli confrontati per la tua cucina.' : lang === 'nl' ? 'Multicookers, slimme koffiemachines, weegschalen, thermometers, slimme stekkers — 15 vergeleken modellen voor uw keuken.' : lang === 'pl' ? 'Multicookery, inteligentne ekspresy do kawy, wagi, termometry, inteligentne wtyczki — 15 porównanych modeli, które odmienią Twoją kuchnię.' : lang === 'sv' ? 'Multikokare, smarta kaffemaskiner, köksvågar, stektermometrar, smarta pluggar – 15 jämförda modeller för ett smartare kök.' : lang === 'us' ? 'Multicookers, smart coffee makers, scales, thermometers and smart plugs — 15 models compared to upgrade your kitchen.' : lang === 'ca' ? 'Multicookers, smart coffee makers, scales, thermometers, smart plugs — 15 models compared to upgrade your kitchen.' : 'Multicookers, smart coffee machines, scales, thermometers, smart plugs — 15 compared models to upgrade your kitchen.'}
               </p>
             </div>
             <div className="flex items-center gap-2 text-sm font-semibold text-brand-600 shrink-0">
               <span className="uppercase tracking-[0.15em] text-[11px]">
-                {lang === 'fr' ? 'Explorer le silo' : lang === 'de' ? 'Silo erkunden' : lang === 'es' ? 'Explorar silo' : lang === 'it' ? 'Esplora silo' : lang === 'nl' ? 'Silo verkennen' : lang === 'pl' ? 'Odkryj dział' : 'Explore silo'}
+                {lang === 'fr' ? 'Explorer le silo' : lang === 'de' ? 'Silo erkunden' : lang === 'es' ? 'Explorar silo' : lang === 'it' ? 'Esplora silo' : lang === 'nl' ? 'Silo verkennen' : lang === 'pl' ? 'Odkryj dział' : lang === 'sv' ? 'Utforska området' : lang === 'us' ? 'Explore this section' : lang === 'ca' ? 'Explore this section' : 'Explore silo'}
               </span>
               <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
             </div>

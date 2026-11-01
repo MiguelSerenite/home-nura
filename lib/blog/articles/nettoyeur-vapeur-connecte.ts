@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Baño alicatado con mampara de cristal, superficies típicas de la limpieza a vapor',
         it: 'Bagno piastrellato con doccia in vetro, superfici tipiche della pulizia a vapore',
         nl: 'Betegelde badkamer met glazen douche, typische oppervlakken voor stoomreiniging',
-        pl: 'Łazienka z płytkami i przeszkloną kabiną prysznicową, czyli powierzchnie typowe dla czyszczenia parą',
+        pl: 'Wyłożona płytkami łazienka z przeszkloną kabiną prysznicową – typowe powierzchnie do czyszczenia parą',
+        sv: 'Kaklat badrum med duschvägg i glas, typiska ytor för rengöring med ånga',
+        us: 'Tiled bathroom with a glass shower, the kind of surfaces steam cleaning is made for',
+        ca: 'Tiled bathroom with a glass shower, typical surfaces for steam cleaning',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Pulitore a vapore 2026: guida completa e confronto dei 5 migliori modelli',
     nl: 'Stoomreiniger 2026: complete gids en vergelijking van de 5 beste modellen',
     pl: 'Myjka parowa 2026: kompletny poradnik i porównanie 5 najlepszych modeli',
+    sv: 'Ångtvätt 2026: komplett guide och jämförelse av de 5 bästa modellerna',
+    us: 'Best Steam Cleaners of 2026: Buying Guide and 5 Top Picks',
+    ca: 'Best Steam Cleaners 2026: Complete Buying Guide and 5 Models Compared',
   },
   excerpt: {
     fr: 'Kärcher SC 5 EasyFix, Kärcher SC 3 EasyFix, Polti Vaporetto Smart 100_T, Black+Decker BHSM1610DSM et Bissell PowerFresh Slim Steam : quel nettoyeur vapeur choisir en 2026, et pourquoi presque aucun n’est vraiment connecté.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'Kärcher SC 5 EasyFix, Kärcher SC 3 EasyFix, Polti Vaporetto Smart 100_T, Black+Decker BHSM1610DSM y Bissell PowerFresh Slim Steam: qué limpiador a vapor elegir en 2026 y por qué casi ninguno está realmente conectado.',
     it: 'Kärcher SC 5 EasyFix, Kärcher SC 3 EasyFix, Polti Vaporetto Smart 100_T, Black+Decker BHSM1610DSM e Bissell PowerFresh Slim Steam: quale pulitore a vapore scegliere nel 2026 e perché quasi nessuno è davvero connesso.',
     nl: 'Kärcher SC 5 EasyFix, Kärcher SC 3 EasyFix, Polti Vaporetto Smart 100_T, Black+Decker BHSM1610DSM en Bissell PowerFresh Slim Steam: welke stoomreiniger je in 2026 kiest, en waarom bijna geen enkele echt slim is.',
-    pl: 'Kärcher SC 5 EasyFix, Kärcher SC 3 EasyFix, Polti Vaporetto Smart 100_T, Black+Decker BHSM1610DSM i Bissell PowerFresh Slim Steam: jaką myjkę parową wybrać w 2026 roku i dlaczego prawie żadna nie jest naprawdę połączona z siecią.',
+    pl: 'Kärcher SC 5 EasyFix, Kärcher SC 3 EasyFix, Polti Vaporetto Smart 100_T, Black+Decker BHSM1610DSM i Bissell PowerFresh Slim Steam: jaką myjkę parową wybrać w 2026 roku i dlaczego prawie żadna nie ma aplikacji ani Wi-Fi.',
+    sv: 'Kärcher SC 5 EasyFix, Kärcher SC 3 EasyFix, Polti Vaporetto Smart 100_T, Black+Decker BHSM1610DSM och Bissell PowerFresh Slim Steam: vilken ångtvätt ska du välja 2026, och varför är nästan ingen av dem verkligen uppkopplad?',
+    us: 'Kärcher SC 5 EasyFix, Kärcher SC 3 EasyFix, Polti Vaporetto Smart 100_T, Black+Decker BHSM1610DSM and Bissell PowerFresh Slim Steam: which steam cleaner to buy in 2026, and why almost none of them are actually smart.',
+    ca: 'Kärcher SC 5 EasyFix, Kärcher SC 3 EasyFix, Polti Vaporetto Smart 100_T, Black+Decker BHSM1610DSM and Bissell PowerFresh Slim Steam: which steam cleaner to choose in 2026, and why almost none of them are truly smart.',
   },
   content: {
     fr: `<p>Le meilleur nettoyeur vapeur pour la plupart des foyers en 2026 est le <strong>Kärcher SC 5 EasyFix</strong>, un appareil à chaudière sous pression (4,2 bars) qui nettoie sols, joints, cuisine et salle de bain sans produit chimique. Pour un budget serré, un balai vapeur 2-en-1 comme le <strong>Black+Decker BHSM1610DSM</strong> suffit à l’entretien quotidien des sols durs, et le <strong>Bissell PowerFresh Slim Steam</strong> est le plus pratique dans un petit appartement.</p>
@@ -586,96 +595,366 @@ export const article: BlogArticle = {
 <h2>Ons oordeel</h2>
 <p>Voor het hele huis is de <strong>Kärcher SC 5 EasyFix</strong> de meest veelzijdige keuze: drukketel, VapoHydro en een continu bijvulbare tank. De <strong>Kärcher SC 3 EasyFix</strong> is een uitstekend alternatief als je een ketel wilt die in 30 seconden klaar is, en de <strong>Polti Vaporetto Smart 100_T</strong> spreekt wie een grote tank zoekt aan.</p>
 <p>Voor dagelijks vloeronderhoud tegen lagere kosten biedt de <strong>Black+Decker BHSM1610DSM</strong> de beste balans, en de <strong>Bissell PowerFresh Slim Steam</strong> is het prettigst in een klein appartement. Is een slim apparaat voor jou het belangrijkst, kijk dan eerder naar een <a href="/nl/blog/meilleur-aspirateur-laveur-2026">nat-droogzuiger</a>, en voor de was naar onze <a href="/nl/blog/centrale-vapeur-comparatif">vergelijking van stoomgeneratoren</a>.</p>`,
-    pl: `<p>Najlepsza myjka parowa dla większości domów w 2026 roku to <strong>Kärcher SC 5 EasyFix</strong>, urządzenie z kotłem pod ciśnieniem (4,2 bara), które czyści podłogi, fugi, kuchnię i łazienkę bez chemii. Przy ograniczonym budżecie mop parowy 2 w 1, taki jak <strong>Black+Decker BHSM1610DSM</strong>, wystarcza do codziennej pielęgnacji twardych podłóg, a <strong>Bissell PowerFresh Slim Steam</strong> jest najwygodniejszy w małym mieszkaniu.</p>
-<p>Ten poradnik porównuje pięć modeli faktycznie sprzedawanych w Europie, na podstawie kart katalogowych producentów, niezależnych opinii i opinii zweryfikowanych kupujących. Wyjaśnia też, czego można (lub nie można) oczekiwać od „inteligentnej” myjki parowej.</p>
+    pl: `<p>Najlepsza myjka parowa dla większości domów w 2026 roku to <strong>Kärcher SC 5 EasyFix</strong> – urządzenie z kotłem ciśnieniowym (4,2 bara), które bez chemii czyści podłogi, fugi, kuchnię i łazienkę. Przy ograniczonym budżecie do codziennego mycia twardych podłóg wystarczy mop parowy 2 w 1, np. <strong>Black+Decker BHSM1610DSM</strong>, a w małym mieszkaniu najwygodniejszy będzie <strong>Bissell PowerFresh Slim Steam</strong>.</p>
+<p>W tym poradniku porównujemy pięć modeli, które naprawdę można kupić w Europie. Opieramy się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Wyjaśniamy też, czego można – a czego nie – oczekiwać od „inteligentnej” myjki parowej.</p>
 
-<h2>Inteligentna myjka parowa: czy to naprawdę istnieje?</h2>
-<p>Powiedzmy jasno: w 2026 roku <strong>klasyczne myjki parowe nie są połączone z siecią</strong>. Ani Kärcher SC, ani Polti Vaporetto, ani mopy parowe Black+Decker czy Bissell nie mają aplikacji, Wi-Fi ani zgodności z asystentem głosowym. Ich działanie jest czysto mechaniczne: grzałka podgrzewa wodę, a przycisk uwalnia parę.</p>
-<p>Łączność pojawia się głównie w innej grupie urządzeń: <strong>bezprzewodowych odkurzaczach myjących z funkcją pary</strong>, takich jak seria Tineco Floor One S7 Steam, które odkurzają, myją i podają gorącą parę na podłogę. Niektóre wersje steruje się z aplikacji (dziennik sprzątania, ustawienia, aktualizacje), inne nie: przed zakupem sprawdź dokładny numer modelu. Te urządzenia myją podłogi, ale nie zastąpią myjki z kotłem do fug, armatury czy piekarnika. Jeśli interesuje Cię ten typ urządzeń, zajrzyj do naszego <a href="/pl/blog/meilleur-aspirateur-laveur-2026">poradnika o odkurzaczach myjących</a>.</p>
-<p>W praktyce użyteczna „łączność” myjki parowej leży więc gdzie indziej: w jakości pary, pojemności zbiornika i akcesoriach.</p>
+<h2>Inteligentna myjka parowa: czy w ogóle istnieje?</h2>
+<p>Od razu wyjaśnijmy: w 2026 roku <strong>klasyczne myjki parowe nie mają żadnej łączności</strong>. Ani myjki Kärcher SC, ani Polti Vaporetto, ani mopy parowe Black+Decker czy Bissell nie oferują aplikacji, Wi-Fi ani współpracy z asystentem głosowym. Działają czysto mechanicznie: grzałka podgrzewa wodę, a przycisk wypuszcza parę.</p>
+<p>Łączność spotkasz raczej w innej kategorii sprzętu: w <strong>bezprzewodowych odkurzaczach myjących z funkcją pary</strong>, takich jak seria Tineco Floor One S7 Steam, które jednocześnie odkurzają, myją podłogę i kierują na nią gorącą parę. Niektóre wersje obsługuje się z aplikacji (historia sprzątania, ustawienia, aktualizacje), inne nie – przed zakupem sprawdź dokładne oznaczenie modelu. Takie urządzenia myją podłogi, ale przy fugach, armaturze czy piekarniku nie zastąpią myjki z kotłem. Jeśli interesuje Cię ten rodzaj sprzętu, zajrzyj do naszego <a href="/pl/blog/meilleur-aspirateur-laveur-2026">poradnika o odkurzaczach myjących</a>.</p>
+<p>W praktyce w myjce parowej liczy się więc co innego niż łączność: jakość pary, pojemność zbiornika i akcesoria.</p>
 
-<h2>Kryteria, które naprawdę mają znaczenie</h2>
-<h3>Kocioł pod ciśnieniem czy para natychmiastowa</h3>
-<p>Myjki z <strong>kotłem</strong> (Kärcher SC 3 i SC 5, Polti Vaporetto) wytwarzają parę pod ciśnieniem, od 3,5 do 4,2 bara w naszym zestawieniu. Lepiej odrywa ona przypalony tłuszcz, kamień i poczerniałe fugi. <strong>Mopy parowe</strong> (Black+Decker, Bissell) podgrzewają wodę na żądanie, bez kotła: są gotowe po kilkudziesięciu sekundach, lżejsze, ale mniej skuteczne na zaschniętych zabrudzeniach.</p>
-<h3>Czas nagrzewania i autonomia</h3>
-<p>Mop parowy startuje w 20–30 sekund. Kocioł potrzebuje od 30 sekund (SC 3, dzięki systemowi szybkiego nagrzewania) do około 3 minut (SC 5). Jeśli chodzi o autonomię, kluczowy jest <strong>zbiornik z możliwością dolewania w trakcie pracy</strong>: w Kärcher SC 3, SC 5 i Polti Smart 100_T dolewasz wody bez czekania na ostygnięcie.</p>
+<h2>Kryteria, które naprawdę się liczą</h2>
+<h3>Kocioł ciśnieniowy czy para wytwarzana na bieżąco</h3>
+<p>Myjki z <strong>kotłem</strong> (Kärcher SC 3 i SC 5, Polti Vaporetto) wytwarzają parę pod ciśnieniem – w naszym zestawieniu od 3,5 do 4,2 bara. Taka para skuteczniej usuwa przypalony tłuszcz, kamień i brud z poczerniałych fug. <strong>Mopy parowe</strong> (Black+Decker, Bissell) nie mają kotła i podgrzewają wodę na bieżąco: są gotowe do pracy po kilkudziesięciu sekundach i są lżejsze, ale gorzej radzą sobie z zaschniętym brudem.</p>
+<h3>Czas nagrzewania i czas pracy</h3>
+<p>Mop parowy jest gotowy do pracy po 20–30 sekundach. Myjka z kotłem potrzebuje od 30 sekund (SC 3 z systemem szybkiego nagrzewania) do ok. 3 minut (SC 5). O tym, jak długo popracujesz bez przerwy, decyduje przede wszystkim <strong>zbiornik z możliwością dolewania wody w trakcie pracy</strong>: w modelach Kärcher SC 3, SC 5 i Polti Smart 100_T dolewasz wody bez czekania, aż urządzenie ostygnie.</p>
 <h3>Akcesoria</h3>
-<p>Szczotka do fug, dysza turbo, ściągaczka do szyb, nakładka z mikrofibry, końcówka do piekarnika: to one sprawiają, że myjka parowa staje się narzędziem do całego domu. Sam mop parowy czyści tylko podłogi; model 2 w 1 (z odpinanym urządzeniem ręcznym) obejmuje też łazienkę i kuchnię.</p>
+<p>Szczotka do fug, dysza mocy, ściągaczka do szyb, nakładka z mikrofibry, końcówka do piekarnika – to dzięki nim myjka parowa przydaje się w całym domu. Zwykły mop parowy myje tylko podłogi; model 2 w 1 (z odpinaną częścią ręczną) poradzi sobie także w łazience i kuchni.</p>
 <h3>Waga i gabaryty</h3>
-<p>Myjka z kotłem na kółkach waży od 3 do 6 kg, ale jedzie po podłodze; mop parowy trzyma się w wyciągniętej ręce. W małym mieszkaniu wysokość głowicy i zwrotność liczą się bardziej niż ciśnienie.</p>
+<p>Myjka z kotłem na kółkach waży od 3 do 6 kg, ale toczy się po podłodze; mop parowy cały czas trzymasz w ręku. W małym mieszkaniu wysokość głowicy i zwrotność liczą się bardziej niż ciśnienie.</p>
 
 <h2>5 najlepszych myjek parowych 2026</h2>
-<h3>1. Kärcher SC 5 EasyFix: najpełniejsza</h3>
-<p><strong>Kärcher SC 5 EasyFix</strong> to najwyższy model serii SC marki Kärcher. Według karty producenta łączy kocioł o pojemności 0,5 litra z odłączanym zbiornikiem 1,5 litra, który można dolewać w trakcie pracy, dając ciśnienie pary 4,2 bara i moc 2 250 W. Jest gotowa po około 3 minutach.</p>
-<p><strong>Mocne strony:</strong> funkcja VapoHydro, która dodaje do pary gorącą wodę, by spłukać uporczywe zabrudzenia; dysza podłogowa EasyFix z szybkim mocowaniem ściereczek; deklarowana powierzchnia około 150 m² na jedno napełnienie; gniazdo do żelazka parowego (żelazko w zestawie zależnie od wersji).</p>
-<p><strong>Ograniczenia:</strong> około 6 kg bez akcesoriów, urządzenie zajmuje dużo miejsca przy przechowywaniu, a nagrzewanie trwa dłużej niż w mopie parowym.</p>
-<p><strong>Dla kogo:</strong> dla domów z dużą ilością płytek, fug i powierzchni kuchennych oraz dla tych, którzy chcą jednego urządzenia do wszystkiego.</p>
+<h3>1. Kärcher SC 5 EasyFix: najlepiej wyposażona</h3>
+<p><strong>Kärcher SC 5 EasyFix</strong> to najbardziej zaawansowany model w serii SC marki Kärcher. Według karty producenta łączy kocioł o pojemności 0,5 litra z wyjmowanym zbiornikiem 1,5 litra, do którego można dolewać wody w trakcie pracy. Ciśnienie pary wynosi 4,2 bara, a moc – 2250 W. Urządzenie jest gotowe do pracy po ok. 3 minutach.</p>
+<p><strong>Mocne strony:</strong> funkcja VapoHydro, która dodaje do pary gorącą wodę, by spłukać uporczywy brud; dysza podłogowa EasyFix z szybkim mocowaniem ściereczki; według producenta ok. 150 m² na jednym napełnieniu; gniazdo do podłączenia żelazka parowego (w niektórych wersjach żelazko jest w zestawie).</p>
+<p><strong>Ograniczenia:</strong> ok. 6 kg bez akcesoriów, zajmuje sporo miejsca w schowku, a nagrzewa się dłużej niż mop parowy.</p>
+<p><strong>Dla kogo:</strong> domy, w których jest dużo płytek, fug i blatów kuchennych, oraz osoby, które chcą mieć jedno urządzenie do wszystkiego.</p>
 
-<h3>2. Kärcher SC 3 EasyFix: najszybszy kocioł</h3>
-<p><strong>Kärcher SC 3 EasyFix</strong> przejmuje zasadę SC 5 w lżejszej formie: ciśnienie 3,5 bara, 1 900 W, odłączany zbiornik 1 litr z możliwością dolewania w trakcie pracy, a przede wszystkim deklarowane nagrzewanie w 30 sekund. Kärcher podaje około 75 m² wyczyszczonej powierzchni na jedno napełnienie i wagę 3,1 kg bez akcesoriów.</p>
-<p><strong>Mocne strony:</strong> szybki start jak w mopie parowym przy wszechstronności urządzenia na kółkach z akcesoriami; ta sama dysza EasyFix co w SC 5.</p>
-<p><strong>Ograniczenia:</strong> brak funkcji VapoHydro i gniazda do żelazka, niższe ciśnienie niż w SC 5 przy bardzo zaschniętych zabrudzeniach.</p>
-<p><strong>Dla kogo:</strong> dla średnich mieszkań i domów, które chcą prawdziwej myjki do wielu powierzchni bez czekania na duży kocioł.</p>
+<h3>2. Kärcher SC 3 EasyFix: najszybciej nagrzewający się kocioł</h3>
+<p><strong>Kärcher SC 3 EasyFix</strong> działa na tej samej zasadzie co SC 5, ale jest lżejszy: ciśnienie 3,5 bara, moc 1900 W, wyjmowany zbiornik 1 litr z możliwością dolewania wody w trakcie pracy, a przede wszystkim – według producenta – nagrzewanie w 30 sekund. Kärcher podaje, że na jednym napełnieniu wyczyścisz ok. 75 m², a urządzenie bez akcesoriów waży 3,1 kg.</p>
+<p><strong>Mocne strony:</strong> start tak szybki jak w mopie parowym, a przy tym wszechstronność myjki na kółkach z kompletem akcesoriów; ta sama dysza EasyFix co w SC 5.</p>
+<p><strong>Ograniczenia:</strong> brak funkcji VapoHydro i gniazda do żelazka, niższe niż w SC 5 ciśnienie, odczuwalne przy mocno zaschniętym brudzie.</p>
+<p><strong>Dla kogo:</strong> średniej wielkości mieszkania i domy – gdy potrzebujesz prawdziwej myjki do wielu powierzchni, ale nie chcesz czekać, aż nagrzeje się duży kocioł.</p>
 
 <h3>3. Polti Vaporetto Smart 100_T: włoska alternatywa</h3>
-<p>Polti, włoski pionier czyszczenia parą, rozwija serię Vaporetto Smart w kilku modelach. <strong>Vaporetto Smart 100_T</strong> to urządzenie na kółkach o mocy 1 500 W, które daje do 4 barów, z odłączanym zbiornikiem 2 litry, który można dolewać w dowolnej chwili. Jest gotowe po około 2 minutach i dostarczane z 9 akcesoriami, w tym szczotką Vaporforce.</p>
-<p><strong>Mocne strony:</strong> duży zbiornik, ciśnienie zbliżone do SC 5, znak British Allergy Foundation eksponowany przez markę dla osób uczulonych na roztocza.</p>
-<p><strong>Ograniczenia:</strong> mniej akcesoriów w pudełku niż w Kärcherach i seria Smart z licznymi wariantami (100_T, 100_B, 110 Eco…), w której trzeba dokładnie sprawdzić konkretny model.</p>
-<p><strong>Dla kogo:</strong> dla tych, którzy sprzątają duże powierzchnie za jednym razem i cenią pojemny zbiornik.</p>
+<p>Włoska marka Polti, pionier czyszczenia parą, oferuje serię Vaporetto Smart w kilku wariantach. <strong>Vaporetto Smart 100_T</strong> to myjka na kółkach o mocy 1500 W, wytwarzająca parę o ciśnieniu do 4 barów, z wyjmowanym zbiornikiem 2 litry, do którego w każdej chwili można dolać wody. Nagrzewa się w ok. 2 minuty, a w zestawie jest 9 akcesoriów, w tym szczotka Vaporforce.</p>
+<p><strong>Mocne strony:</strong> duży zbiornik, ciśnienie zbliżone do SC 5, znak British Allergy Foundation, który producent podkreśla jako zaletę dla osób uczulonych na roztocza.</p>
+<p><strong>Ograniczenia:</strong> mniej akcesoriów w zestawie niż w modelach Kärcher; seria Smart obejmuje wiele wersji (100_T, 100_B, 110 Eco…), więc trzeba dokładnie sprawdzić, który model się kupuje.</p>
+<p><strong>Dla kogo:</strong> osoby, które sprzątają duże powierzchnie za jednym podejściem i cenią pojemny zbiornik.</p>
 
 <h3>4. Black+Decker BHSM1610DSM: najlepszy stosunek jakości do ceny</h3>
-<p><strong>Black+Decker BHSM1610DSM</strong> to mop parowy 2 w 1 o mocy 1 600 W: środkowa część odpina się i staje się urządzeniem ręcznym. Nagrzewa się w około 20 sekund, podaje parę do 120 °C według producenta i ma zbiornik 0,5 litra (około 20 minut pary). Wersja DSM jest dostarczana z trójkątną głowicą Delta, rękawicą SteaMitt i 15 akcesoriami oraz systemem antykamieniowym Calc-clean.</p>
-<p><strong>Mocne strony:</strong> zaskakująca wszechstronność jak na urządzenie z niższej półki, 8-metrowy kabel, niemal natychmiastowy start.</p>
-<p><strong>Ograniczenia:</strong> brak kotła pod ciśnieniem, więc mniej skuteczny na bardzo zabrudzonych fugach; 2,9 kg do noszenia, co męczy podczas długiego sprzątania.</p>
-<p><strong>Dla kogo:</strong> na pierwszy kontakt z czyszczeniem parą, do cotygodniowej pielęgnacji podłóg i poprawek w łazience.</p>
+<p><strong>Black+Decker BHSM1610DSM</strong> to mop parowy 2 w 1 o mocy 1600 W: środkową część można odpiąć i używać jako ręcznej myjki parowej. Według producenta nagrzewa się w ok. 20 sekund, wytwarza parę o temperaturze do 120 °C i ma zbiornik 0,5 litra (ok. 20 minut pracy). Wersja DSM ma w zestawie trójkątną głowicę Delta, rękawicę SteaMitt i 15 akcesoriów, a także system odkamieniania Calc-clean.</p>
+<p><strong>Mocne strony:</strong> zaskakująca wszechstronność jak na urządzenie z niższej półki, przewód o długości 8 m, niemal natychmiastowa gotowość do pracy.</p>
+<p><strong>Ograniczenia:</strong> brak kotła ciśnieniowego, więc gorzej radzi sobie z mocno zabrudzonymi fugami; 2,9 kg, które cały czas trzymasz w ręku – przy dłuższym sprzątaniu to męczy.</p>
+<p><strong>Dla kogo:</strong> osoby, które dopiero zaczynają przygodę z czyszczeniem parą – do cotygodniowego mycia podłóg i doczyszczania łazienki.</p>
 
 <h3>5. Bissell PowerFresh Slim Steam: najwygodniejszy w mieszkaniu</h3>
-<p><strong>Bissell PowerFresh Slim Steam</strong> to mop parowy 1 500 W zaprojektowany z myślą o zwrotności: niska, obrotowa głowica, nagrzewanie w 30 sekund, kabel 7,5 m. Jego zbiornik jest kompaktowy (około 0,3 litra), co wystarcza na podłogi małego mieszkania.</p>
-<p><strong>Mocne strony:</strong> wsuwa się pod niskie meble i w rogi, łatwo go przechowywać, bardzo prosty w codziennym użyciu.</p>
-<p><strong>Ograniczenia:</strong> mniejszy zbiornik niż w innych modelach, zastosowanie ograniczone do twardych podłóg, brak akcesoriów do kuchni czy fug.</p>
-<p><strong>Dla kogo:</strong> dla kawalerek i mieszkań oraz tych, którzy chcą lekkiego mopa parowego do wyjęcia w dwie sekundy.</p>
+<p><strong>Bissell PowerFresh Slim Steam</strong> to mop parowy o mocy 1500 W, w którym postawiono na zwrotność: niska, obrotowa głowica, nagrzewanie w 30 sekund, przewód o długości 7,5 m. Zbiornik jest niewielki (ok. 0,3 litra), ale wystarcza na podłogi w małym mieszkaniu.</p>
+<p><strong>Mocne strony:</strong> wjeżdża pod niskie meble i w narożniki, łatwo go schować, jest bardzo prosty w codziennej obsłudze.</p>
+<p><strong>Ograniczenia:</strong> mniejszy zbiornik niż w pozostałych modelach, nadaje się tylko do twardych podłóg, brak akcesoriów do kuchni i fug.</p>
+<p><strong>Dla kogo:</strong> kawalerki i mieszkania oraz osoby, które chcą lekkiego mopa parowego, gotowego do użycia w dwie sekundy.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Typ</th><th>Ciśnienie / para</th><th>Zbiornik</th><th>Czas nagrzewania</th><th>Łączność</th><th>Idealny do</th></tr>
+<tr><th>Model</th><th>Typ</th><th>Ciśnienie / para</th><th>Zbiornik</th><th>Czas nagrzewania</th><th>Łączność</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Kärcher SC 5 EasyFix</td><td>Na kółkach, z kotłem</td><td>4,2 bara + VapoHydro</td><td>1,5 L + kocioł 0,5 L</td><td>≈ 3 min</td><td>Brak</td><td>Kompleksowe sprzątanie domu</td></tr>
-<tr><td>Kärcher SC 3 EasyFix</td><td>Na kółkach, z kotłem</td><td>3,5 bara</td><td>1 L, ciągłe uzupełnianie</td><td>≈ 30 s</td><td>Brak</td><td>Wszechstronność i szybkość</td></tr>
-<tr><td>Polti Vaporetto Smart 100_T</td><td>Na kółkach, z kotłem</td><td>4 bary</td><td>2 L, ciągłe uzupełnianie</td><td>≈ 2 min</td><td>Brak</td><td>Duże powierzchnie, alergie</td></tr>
-<tr><td>Black+Decker BHSM1610DSM</td><td>Mop parowy 2 w 1</td><td>Para bez kotła, do 120 °C</td><td>0,5 L</td><td>≈ 20 s</td><td>Brak</td><td>Mały budżet, podłogi i łazienka</td></tr>
-<tr><td>Bissell PowerFresh Slim Steam</td><td>Mop parowy</td><td>Para bez kotła</td><td>≈ 0,3 L</td><td>≈ 30 s</td><td>Brak</td><td>Małe mieszkania</td></tr>
+<tr><td>Kärcher SC 5 EasyFix</td><td>Na kółkach, z kotłem</td><td>4,2 bara + VapoHydro</td><td>1,5 l + kocioł 0,5 l</td><td>≈ 3 min</td><td>Brak</td><td>Sprzątanie całego domu</td></tr>
+<tr><td>Kärcher SC 3 EasyFix</td><td>Na kółkach, z kotłem</td><td>3,5 bara</td><td>1 l, dolewanie w trakcie pracy</td><td>≈ 30 s</td><td>Brak</td><td>Wszechstronność i szybkość</td></tr>
+<tr><td>Polti Vaporetto Smart 100_T</td><td>Na kółkach, z kotłem</td><td>4 bary</td><td>2 l, dolewanie w trakcie pracy</td><td>≈ 2 min</td><td>Brak</td><td>Duże powierzchnie, alergie</td></tr>
+<tr><td>Black+Decker BHSM1610DSM</td><td>Mop parowy 2 w 1</td><td>Para bez kotła, do 120 °C</td><td>0,5 l</td><td>≈ 20 s</td><td>Brak</td><td>Mały budżet, podłogi i łazienka</td></tr>
+<tr><td>Bissell PowerFresh Slim Steam</td><td>Mop parowy</td><td>Para bez kotła</td><td>≈ 0,3 l</td><td>≈ 30 s</td><td>Brak</td><td>Małe mieszkania</td></tr>
 </tbody>
 </table>
-<p>Wszystkie modele z tej kategorii znajdziesz na stronie <a href="/pl/entretien-maison/nettoyeurs-vapeur">myjki parowe</a>.</p>
+<p>Wszystkie modele z tej kategorii znajdziesz w dziale <a href="/pl/entretien-maison/nettoyeurs-vapeur">myjki parowe</a>.</p>
 
-<h2>Co para robi (a czego nie robi)</h2>
-<p>Ciepło pary zmiękcza tłuszcz i kamień oraz niszczy dużą część drobnoustrojów i roztoczy w kontakcie. Producenci deklarują skuteczność rzędu 99,9–99,99% w usuwaniu domowych bakterii, mierzoną w laboratorium i w ściśle określonych warunkach: powolne przesuwanie, dysza przy powierzchni, urządzenie nagrzane do temperatury roboczej. W codziennym użyciu zapamiętaj przede wszystkim, że trzeba <strong>przesuwać powoli</strong>: para bardzo szybko stygnie po wyjściu z dyszy.</p>
-<p>Para nie zastępuje wszystkiego: nie usuwa plam rdzy, nie zmywa śladów farby i nie dezynfekuje powierzchni, nad którą przejedziesz w dwie sekundy.</p>
+<h2>Co potrafi para (a czego nie)</h2>
+<p>Gorąca para zmiękcza tłuszcz i kamień, a przy bezpośrednim kontakcie zabija dużą część drobnoustrojów i roztoczy. Producenci deklarują, że para usuwa 99,9–99,99% bakterii występujących w domu, ale te wartości zmierzono w laboratorium i w ściśle określonych warunkach: przy powolnym przesuwaniu, z dyszą przy samej powierzchni i w pełni nagrzanym urządzeniem. Na co dzień zapamiętaj przede wszystkim jedno: <strong>prowadź dyszę powoli</strong>, bo zaraz po wyjściu z dyszy para bardzo szybko stygnie.</p>
+<p>Para nie załatwi wszystkiego: nie usunie plam rdzy ani śladów farby i nie zdezynfekuje powierzchni, po której przejedziesz w dwie sekundy.</p>
 
-<h2>Powierzchnie odpowiednie i nieodpowiednie</h2>
+<h2>Co można czyścić parą, a czego nie</h2>
 <ul>
-<li><strong>Odpowiednie:</strong> płytki i gres, fugi, winyl i laminat dobrej jakości (zależnie od producenta podłogi), parkiet lakierowany z dobrze dopasowanymi połączeniami (szybkie przesunięcie), sanitariaty, armatura, szyby, zimne płyty ceramiczne i indukcyjne, okap, wytrzymałe tkaniny z odpowiednim akcesorium.</li>
-<li><strong>Należy unikać:</strong> parkietu surowego, olejowanego i źle pielęgnowanego lub z otwartymi łączeniami, laminatu niskiej jakości, powierzchni malowanych lub woskowanych, skóry, cienkich tworzyw sztucznych, ekranów i urządzeń elektrycznych, marmuru nieimpregnowanego.</li>
+<li><strong>Można czyścić:</strong> płytki ceramiczne i gres, fugi, winyl i dobrej jakości panele laminowane (jeśli dopuszcza to producent podłogi), szczelny parkiet lakierowany (szybkimi ruchami), ceramikę sanitarną, armaturę, szyby, zimne płyty ceramiczne i indukcyjne, okap, a z odpowiednią nakładką także wytrzymałe tkaniny.</li>
+<li><strong>Lepiej unikać:</strong> surowego parkietu, parkietu olejowanego, jeśli jest zaniedbany lub ma szczeliny, tanich paneli laminowanych, powierzchni malowanych lub woskowanych, skóry, cienkich tworzyw sztucznych, ekranów i urządzeń elektrycznych, nieimpregnowanego marmuru.</li>
 </ul>
-<p>W razie wątpliwości wypróbuj na ukrytym fragmencie i zajrzyj do instrukcji pokrycia podłogowego.</p>
+<p>W razie wątpliwości zrób próbę w niewidocznym miejscu i sprawdź zalecenia producenta podłogi lub okładziny.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Używanie bardzo twardej wody bez środków ostrożności:</strong> stosuj się do zaleceń producenta (niektóre modele akceptują wodę z kranu, inne zalecają zmieszanie z wodą demineralizowaną lub kartridż antykamieniowy) i regularnie odkamieniaj.</li>
-<li><strong>Dodawanie środka czyszczącego do zbiornika:</strong> o ile marka nie wskazuje inaczej, jest to zabronione; może uszkodzić kocioł i unieważnić gwarancję.</li>
-<li><strong>Zostawianie głowicy w jednym miejscu na parkiecie:</strong> skoncentrowane ciepło i wilgoć mogą spowodować pęcznienie desek.</li>
-<li><strong>Wybór mopa parowego do szorowania fug:</strong> bez ciśnienia efekt będzie rozczarowujący; potrzebny jest kocioł i szczotka do fug.</li>
-<li><strong>Wiara w „inteligentny” model:</strong> żadna klasyczna myjka parowa nie ma aplikacji. Nie przepłacaj za obietnicę marketingową.</li>
+<li><strong>Używanie bardzo twardej wody bez żadnych zabezpieczeń:</strong> trzymaj się zaleceń producenta (niektóre modele można napełniać wodą z kranu, przy innych zaleca się mieszanie jej z wodą demineralizowaną albo wkład odkamieniający) i regularnie odkamieniaj urządzenie.</li>
+<li><strong>Dodawanie środka czyszczącego do zbiornika:</strong> jeśli producent wyraźnie na to nie pozwala, nie rób tego – możesz uszkodzić kocioł i stracić gwarancję.</li>
+<li><strong>Zatrzymywanie głowicy w jednym miejscu na parkiecie:</strong> skupione w jednym punkcie ciepło i wilgoć mogą sprawić, że klepki napęcznieją.</li>
+<li><strong>Kupowanie mopa parowego do szorowania fug:</strong> bez ciśnienia efekt rozczaruje; do tego potrzebna jest myjka z kotłem i szczotka do fug.</li>
+<li><strong>Szukanie „inteligentnej” myjki parowej:</strong> żadna klasyczna myjka parowa nie ma aplikacji. Nie przepłacaj za chwyt marketingowy.</li>
 </ul>
 
 <h2>Bezpieczeństwo i konserwacja</h2>
-<p>Para parzy: nigdy nie kieruj jej na osobę, zwierzę ani gniazdko elektryczne i trzymaj urządzenie poza zasięgiem dzieci. W modelach z kotłem otwieraj korek bezpieczeństwa tylko przy odłączonym i ostygniętym urządzeniu, zgodnie z instrukcją. Regularnie pierz ściereczki z mikrofibry i opróżniaj zbiornik po użyciu, aby ograniczyć kamień i zapachy.</p>
+<p>Para parzy: nigdy nie kieruj jej na ludzi, zwierzęta ani gniazdka elektryczne i przechowuj urządzenie poza zasięgiem dzieci. W modelach z kotłem odkręcaj korek bezpieczeństwa dopiero po odłączeniu urządzenia od prądu i jego ostygnięciu, zgodnie z instrukcją. Regularnie pierz ściereczki z mikrofibry i po każdym użyciu opróżniaj zbiornik, żeby ograniczyć osadzanie się kamienia i nieprzyjemne zapachy.</p>
 
-<h2>Podsumowanie</h2>
-<p>Do kompleksowego sprzątania domu <strong>Kärcher SC 5 EasyFix</strong> to najbardziej wszechstronny wybór: kocioł pod ciśnieniem, VapoHydro i zbiornik z możliwością dolewania w trakcie pracy. <strong>Kärcher SC 3 EasyFix</strong> to doskonała alternatywa, jeśli chcesz kotła gotowego w 30 sekund, a <strong>Polti Vaporetto Smart 100_T</strong> przypadnie do gustu tym, którzy chcą dużego zbiornika.</p>
-<p>Do bieżącej pielęgnacji podłóg niskim kosztem <strong>Black+Decker BHSM1610DSM</strong> daje najlepszą równowagę, a <strong>Bissell PowerFresh Slim Steam</strong> jest najprzyjemniejszy w małym mieszkaniu. Jeśli zależy Ci przede wszystkim na urządzeniu z łącznością, sięgnij raczej po <a href="/pl/blog/meilleur-aspirateur-laveur-2026">odkurzacz myjący</a>, a do prania i prasowania zajrzyj do naszego <a href="/pl/blog/centrale-vapeur-comparatif">porównania stacji parowych</a>.</p>`,
+<h2>Nasz werdykt</h2>
+<p>Jeśli chcesz sprzątać parą cały dom, najbardziej wszechstronnym wyborem jest <strong>Kärcher SC 5 EasyFix</strong>: kocioł ciśnieniowy, funkcja VapoHydro i zbiornik, do którego dolewasz wody w trakcie pracy. <strong>Kärcher SC 3 EasyFix</strong> to świetna alternatywa, jeśli zależy Ci na kotle gotowym do pracy po 30 sekundach, a <strong>Polti Vaporetto Smart 100_T</strong> przypadnie do gustu osobom, które cenią duży zbiornik.</p>
+<p>Do regularnego mycia podłóg przy niewielkim budżecie najlepiej wypada <strong>Black+Decker BHSM1610DSM</strong>, a w małym mieszkaniu najwygodniej korzysta się z modelu <strong>Bissell PowerFresh Slim Steam</strong>. Jeśli szukasz przede wszystkim urządzenia sterowanego z aplikacji, sięgnij raczej po <a href="/pl/blog/meilleur-aspirateur-laveur-2026">odkurzacz myjący</a>, a jeśli chodzi o prasowanie ubrań, zajrzyj do naszego <a href="/pl/blog/centrale-vapeur-comparatif">porównania stacji parowych</a>.</p>`,
+    sv: `<p>Den bästa ångtvätten för de flesta hem 2026 är <strong>Kärcher SC 5 EasyFix</strong>, en modell med tryckpanna (4,2 bar) som rengör golv, fogar, kök och badrum utan kemikalier. Är budgeten snävare räcker en 2-i-1-ångmopp som <strong>Black+Decker BHSM1610DSM</strong> för den vardagliga rengöringen av hårda golv, och <strong>Bissell PowerFresh Slim Steam</strong> är smidigast i en liten lägenhet.</p>
+<p>Guiden jämför fem modeller som faktiskt säljs i Europa, utifrån tillverkarnas produktblad, oberoende utvärderingar och verifierade köparomdömen. Den förklarar också vad du kan (och inte kan) förvänta dig av en så kallad ”uppkopplad” ångtvätt.</p>
+
+<h2>Uppkopplad ångtvätt: finns det verkligen?</h2>
+<p>Låt oss vara tydliga: 2026 är <strong>vanliga ångtvättar inte uppkopplade</strong>. Varken Kärchers SC-modeller, Poltis Vaporetto eller ångmopparna från Black+Decker och Bissell har app, wifi eller stöd för röstassistenter. De fungerar helt mekaniskt: ett värmeelement värmer vattnet och en knapp släpper ut ångan.</p>
+<p>Uppkoppling finns framför allt i en annan produktgrupp: <strong>sladdlösa golvtvättar med ånga</strong>, till exempel serien Tineco Floor One S7 Steam, som dammsuger, våttorkar och sprutar het ånga på golvet. Vissa versioner går att styra med en app (städlogg, inställningar, uppdateringar), andra inte, så kontrollera exakt modellbeteckning innan du köper. De här maskinerna tvättar golv, men de ersätter inte en ångtvätt med panna när det gäller fogar, blandare eller ugnen. Är det en sådan apparat du är ute efter kan du läsa vår <a href="/sv/blog/meilleur-aspirateur-laveur-2026">guide till golvtvättar</a>.</p>
+<p>I praktiken är det alltså helt andra saker som avgör hur bra en ångtvätt är: ångans kvalitet, tankens storlek och tillbehören.</p>
+
+<h2>Det som verkligen spelar roll</h2>
+<h3>Tryckpanna eller direktånga</h3>
+<p>Ångtvättar med <strong>panna</strong> (Kärcher SC 3 och SC 5, Polti Vaporetto) ger ånga under tryck, 3,5–4,2 bar i vårt urval. Den lossar inbränt fett, kalk och svarta fogar betydligt bättre. <strong>Ångmoppar</strong> (Black+Decker, Bissell) värmer vattnet direkt vid behov, utan panna: de är lättare och klara att använda efter några tiotal sekunder, men biter sämre på intorkad smuts.</p>
+<h3>Uppvärmningstid och drifttid</h3>
+<p>En ångmopp är klar på 20–30 sekunder. En modell med panna behöver allt från 30 sekunder (SC 3, tack vare snabbuppvärmningen) till ungefär 3 minuter (SC 5). För drifttiden är det viktigaste en <strong>tank som kan fyllas på under drift</strong>: på Kärcher SC 3, SC 5 och Polti Smart 100_T fyller du på vatten utan att behöva vänta på att apparaten svalnar.</p>
+<h3>Tillbehör</h3>
+<p>Fogborste, kraftmunstycke, fönsterskrapa, textilöverdrag, munstycke för ugnen: det är tillbehören som gör en ångtvätt till ett verktyg för hela hemmet. En ångmopp utan tillbehör rengör bara golv; en 2-i-1-modell (med löstagbar handenhet) klarar även badrum och kök.</p>
+<h3>Vikt och förvaring</h3>
+<p>En ångtvätt med panna på hjul väger 3–6 kg men rullar på golvet; en ångmopp bär du i handen. I en liten bostad betyder munstyckets höjd och hur lätt apparaten är att manövrera mer än trycket.</p>
+
+<h2>De 5 bästa ångtvättarna 2026</h2>
+<h3>1. Kärcher SC 5 EasyFix: mest komplett</h3>
+<p><strong>Kärcher SC 5 EasyFix</strong> är toppmodellen i Kärchers SC-serie. Enligt tillverkarens produktblad kombinerar den en panna på 0,5 liter med en löstagbar tank på 1,5 liter som kan fyllas på när som helst, och ger ett ångtryck på 4,2 bar med en effekt på 2 250 W. Den är klar att använda efter ungefär 3 minuter.</p>
+<p><strong>Styrkor:</strong> funktionen VapoHydro, som tillsätter hett vatten i ångan för att skölja bort envis smuts; golvmunstycket EasyFix med snabbfäste för golvdukarna; en angiven yta på ungefär 150 m² per tankfyllning; uttag för ångstrykjärn (strykjärnet ingår i vissa versioner).</p>
+<p><strong>Svagheter:</strong> ungefär 6 kg utan tillbehör, skrymmande att förvara och längre uppvärmningstid än en ångmopp.</p>
+<p><strong>Passar för:</strong> hem med mycket kakel, fogar och köksytor, och dig som vill ha en enda apparat till allt.</p>
+
+<h3>2. Kärcher SC 3 EasyFix: snabbast av pannmodellerna</h3>
+<p><strong>Kärcher SC 3 EasyFix</strong> bygger på samma princip som SC 5 men i ett lättare format: 3,5 bar, 1 900 W, en löstagbar tank på 1 liter som kan fyllas på under drift och framför allt en angiven uppvärmningstid på 30 sekunder. Kärcher anger att den räcker till ungefär 75 m² per tankfyllning och att den väger 3,1 kg utan tillbehör.</p>
+<p><strong>Styrkor:</strong> en ångmopps snabba start kombinerad med mångsidigheten hos en hjulförsedd modell med tillbehör; samma golvmunstycke EasyFix som SC 5.</p>
+<p><strong>Svagheter:</strong> varken VapoHydro eller uttag för strykjärn, och lägre tryck än SC 5 på riktigt intorkad smuts.</p>
+<p><strong>Passar för:</strong> lägenheter och medelstora hus där du vill ha en riktig ångtvätt för alla ytor utan att vänta på en stor panna.</p>
+
+<h3>3. Polti Vaporetto Smart 100_T: det italienska alternativet</h3>
+<p>Polti, den italienska pionjären inom ångrengöring, har flera varianter i sin serie Vaporetto Smart. <strong>Vaporetto Smart 100_T</strong> är en hjulförsedd ångtvätt på 1 500 W som ger upp till 4 bar, med en löstagbar tank på 2 liter som kan fyllas på när som helst. Den är klar efter ungefär 2 minuter och levereras med 9 tillbehör, bland annat borsten Vaporforce.</p>
+<p><strong>Styrkor:</strong> stor tank, tryck nära SC 5 och en märkning från British Allergy Foundation som tillverkaren lyfter fram för den som är allergisk mot kvalster.</p>
+<p><strong>Svagheter:</strong> färre tillbehör i kartongen än Kärcher-modellerna, och en Smart-serie med många varianter (100_T, 100_B, 110 Eco…) där du noga måste kontrollera exakt vilken modell du köper.</p>
+<p><strong>Passar för:</strong> dig som rengör stora ytor i ett svep och uppskattar en rejäl tank.</p>
+
+<h3>4. Black+Decker BHSM1610DSM: mest prisvärd</h3>
+<p><strong>Black+Decker BHSM1610DSM</strong> är en 2-i-1-ångmopp på 1 600 W: mittdelen lossas och blir en handhållen ångtvätt. Den värms upp på ungefär 20 sekunder, ger ånga på upp till 120 °C enligt tillverkaren och har en tank på 0,5 liter (ungefär 20 minuters ånga). DSM-versionen levereras med ett triangelformat Delta-munstycke, en SteaMitt-handske och 15 tillbehör samt avkalkningssystemet Calc-clean.</p>
+<p><strong>Styrkor:</strong> förvånansvärt mångsidig för en instegsmodell, 8 m sladd och nästan omedelbar start.</p>
+<p><strong>Svagheter:</strong> ingen tryckpanna och därför sämre på mycket smutsiga fogar; 2,9 kg att bära, vilket blir tröttsamt under långa städpass.</p>
+<p><strong>Passar för:</strong> en första bekantskap med ångrengöring, för den veckovisa golvrengöringen och snabba insatser i badrummet.</p>
+
+<h3>5. Bissell PowerFresh Slim Steam: smidigast i lägenhet</h3>
+<p><strong>Bissell PowerFresh Slim Steam</strong> är en ångmopp på 1 500 W som är gjord för att vara lättmanövrerad: lågt och vridbart munstycke, uppvärmning på 30 sekunder och 7,5 m sladd. Tanken är liten (ungefär 0,3 liter), men räcker till golven i en mindre bostad.</p>
+<p><strong>Styrkor:</strong> kommer in under låga möbler och i hörn, lätt att förvara, mycket enkel att använda i vardagen.</p>
+<p><strong>Svagheter:</strong> mindre tank än de andra modellerna, bara för hårda golv, inga tillbehör för kök eller fogar.</p>
+<p><strong>Passar för:</strong> ettor och mindre lägenheter, och dig som vill ha en lätt ångmopp som du plockar fram på ett par sekunder.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Tryck/ånga</th><th>Tank</th><th>Uppvärmning</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Kärcher SC 5 EasyFix</td><td>Ångtvätt med panna</td><td>4,2 bar + VapoHydro</td><td>1,5 l + panna 0,5 l</td><td>≈ 3 min</td><td>Ingen</td><td>Storstädning av hela hemmet</td></tr>
+<tr><td>Kärcher SC 3 EasyFix</td><td>Ångtvätt med panna</td><td>3,5 bar</td><td>1 l, påfyllning under drift</td><td>≈ 30 s</td><td>Ingen</td><td>Mångsidighet och snabbhet</td></tr>
+<tr><td>Polti Vaporetto Smart 100_T</td><td>Ångtvätt med panna</td><td>4 bar</td><td>2 l, påfyllning under drift</td><td>≈ 2 min</td><td>Ingen</td><td>Stora ytor, allergi</td></tr>
+<tr><td>Black+Decker BHSM1610DSM</td><td>2-i-1-ångmopp</td><td>Ånga utan panna, upp till 120 °C</td><td>0,5 l</td><td>≈ 20 s</td><td>Ingen</td><td>Liten budget, golv och badrum</td></tr>
+<tr><td>Bissell PowerFresh Slim Steam</td><td>Ångmopp</td><td>Ånga utan panna</td><td>≈ 0,3 l</td><td>≈ 30 s</td><td>Ingen</td><td>Små lägenheter</td></tr>
+</tbody>
+</table>
+<p>Alla modeller i kategorin hittar du på vår sida om <a href="/sv/entretien-maison/nettoyeurs-vapeur">ångtvättar</a>.</p>
+
+<h2>Vad ångan klarar (och inte klarar)</h2>
+<p>Värmen i ångan mjukar upp fett och kalk och dödar en stor del av mikroberna och kvalstren vid kontakt. Tillverkarna anger att ungefär 99,9–99,99 % av vanliga hushållsbakterier avlägsnas, mätt i laboratorium under noga angivna förhållanden: långsamma drag, munstycket mot ytan och apparaten fullt uppvärmd. I vardagen är huvudregeln att <strong>föra munstycket långsamt</strong>: ångan svalnar mycket snabbt när den har lämnat munstycket.</p>
+<p>Ånga löser inte allt: den tar inte bort rostfläckar eller färgstänk och desinficerar inte en yta som du bara sveper över på två sekunder.</p>
+
+<h2>Ytor som tål ånga och ytor som inte gör det</h2>
+<ul>
+<li><strong>Tål ånga:</strong> kakel och klinker, fogar, vinyl och laminat av god kvalitet (enligt golvtillverkarens råd), lackade trägolv med täta skarvar (snabba drag), sanitetsporslin, blandare, fönster, kalla glaskeramik- och induktionshällar, köksfläkt, tåliga textilier med rätt tillbehör.</li>
+<li><strong>Undvik:</strong> obehandlat trägolv, oljade golv som inte underhållits eller har öppna skarvar, billigt laminat, målade eller vaxade ytor, läder, tunn plast, skärmar och elektriska apparater, obehandlad marmor.</li>
+</ul>
+<p>Är du osäker, prova först på ett ställe som inte syns och läs golvtillverkarens skötselråd.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att använda mycket hårt vatten utan att tänka efter:</strong> följ tillverkarens råd (vissa modeller klarar kranvatten, andra rekommenderar att du blandar med avjoniserat vatten eller använder en avkalkningspatron) och avkalka regelbundet.</li>
+<li><strong>Att hälla rengöringsmedel i tanken:</strong> låt bli, om inte tillverkaren uttryckligen tillåter det; det kan skada pannan och göra att garantin upphör att gälla.</li>
+<li><strong>Att låta munstycket stå still på ett trägolv:</strong> den koncentrerade värmen och fukten kan få golvbrädorna att svälla.</li>
+<li><strong>Att välja en ångmopp för att skrubba fogar:</strong> utan tryck blir resultatet en besvikelse; du behöver en modell med panna och en fogborste.</li>
+<li><strong>Att tro på en ”uppkopplad” modell:</strong> ingen vanlig ångtvätt har en app. Betala inte mer för ett marknadsföringslöfte.</li>
+</ul>
+
+<h2>Säkerhet och skötsel</h2>
+<p>Ånga bränns: rikta den aldrig mot en person, ett husdjur eller ett eluttag, och förvara apparaten utom räckhåll för barn. På modeller med panna ska du bara öppna säkerhetslocket när apparaten är urkopplad och har svalnat, enligt bruksanvisningen. Tvätta mikrofiberdukarna regelbundet och töm tanken efter användning, så minskar du kalkavlagringar och lukt.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För storstädning av hela hemmet är <strong>Kärcher SC 5 EasyFix</strong> det mest mångsidiga valet: tryckpanna, VapoHydro och en tank som kan fyllas på under drift. <strong>Kärcher SC 3 EasyFix</strong> är ett utmärkt alternativ om du vill ha en panna som är klar på 30 sekunder, och <strong>Polti Vaporetto Smart 100_T</strong> passar dig som vill ha en stor tank.</p>
+<p>För den vardagliga golvrengöringen till en lägre kostnad ger <strong>Black+Decker BHSM1610DSM</strong> den bästa balansen, och <strong>Bissell PowerFresh Slim Steam</strong> är trevligast att använda i en liten lägenhet. Är en uppkopplad apparat det viktigaste för dig är en <a href="/sv/blog/meilleur-aspirateur-laveur-2026">golvtvätt</a> ett bättre val, och för kläderna har vi en <a href="/sv/blog/centrale-vapeur-comparatif">jämförelse av ångstationer</a>.</p>`,
+    us: `<p>The best steam cleaner for most homes in 2026 is the <strong>Kärcher SC 5 EasyFix</strong>, a canister unit with a pressurized boiler (4.2 bar, about 61 psi) that cleans floors, grout, kitchens and bathrooms without chemicals. On a tighter budget, a 2-in-1 steam mop such as the <strong>Black+Decker BHSM1610DSM</strong> handles everyday hard-floor cleaning, and the <strong>Bissell PowerFresh Slim Steam</strong> is the easiest to live with in a small apartment.</p>
+<p>This guide compares five models actually sold in Europe, based on manufacturer specifications, independent reviews and verified owner feedback. These European models are built for 230 V; check that the version on your Amazon store is rated for 120 V. The guide also explains what you can (and can’t) expect from a so-called “smart” steam cleaner.</p>
+
+<h2>Smart steam cleaners: do they really exist?</h2>
+<p>Let’s be clear: in 2026, <strong>conventional steam cleaners aren’t smart</strong>. Kärcher SC units, Polti Vaporetto models and Black+Decker or Bissell steam mops have no app, no Wi-Fi and no voice-assistant support. They work mechanically: a heating element boils the water and a button releases the steam.</p>
+<p>App control shows up mainly in a different category: <strong>cordless wet-dry vacuums with steam</strong>, such as the Tineco Floor One S7 Steam lineup, which vacuum, wash and apply hot steam to the floor. Some versions can be controlled from an app (cleaning logs, settings, updates) and others can’t, so check the exact model number before you buy. These machines wash floors, but they don’t replace a canister steam cleaner for grout, faucets or the oven. If that’s what you’re after, see our <a href="/us/blog/meilleur-aspirateur-laveur-2026">wet-dry vacuum guide</a>.</p>
+<p>In practice, what really matters on a steam cleaner is the quality of the steam, the size of the tank and the accessories.</p>
+
+<h2>What really matters</h2>
+<h3>Pressurized boiler or instant steam</h3>
+<p>Canister units with a <strong>boiler</strong> (Kärcher SC 3 and SC 5, Polti Vaporetto) produce pressurized steam, from 3.5 to 4.2 bar (about 51 to 61 psi) in our lineup. It breaks down baked-on grease, mineral deposits and blackened grout far better. <strong>Steam mops</strong> (Black+Decker, Bissell) heat water on demand, with no boiler: they’re ready in well under a minute and lighter, but less effective on ground-in dirt.</p>
+<h3>Heat-up time and run time</h3>
+<p>A steam mop is ready in 20 to 30 seconds. A boiler takes anywhere from 30 seconds (the SC 3, thanks to its rapid-heat system) to about 3 minutes (the SC 5). For run time, the feature to look for is a <strong>continuously refillable tank</strong>: on the Kärcher SC 3 and SC 5 and the Polti Smart 100_T, you can top up the water without waiting for the unit to cool down.</p>
+<h3>Accessories</h3>
+<p>Grout brush, power nozzle, window squeegee, fabric cover, oven nozzle: the accessories are what turn a steam cleaner into a whole-house tool. A basic steam mop only cleans floors; a 2-in-1 model with a detachable handheld unit also covers the bathroom and kitchen.</p>
+<h3>Weight and storage</h3>
+<p>A canister unit with a boiler weighs about 7 to 13 lb (3 to 6 kg) but rolls along the floor; a steam mop is something you carry. In a small home, how low the head sits and how easily it maneuvers matter more than pressure.</p>
+
+<h2>The 5 best steam cleaners of 2026</h2>
+<h3>1. Kärcher SC 5 EasyFix: the most complete</h3>
+<p>The <strong>Kärcher SC 5 EasyFix</strong> sits at the top of Kärcher’s SC series. According to the manufacturer, it pairs a 17 fl oz (0.5 L) boiler with a 51 fl oz (1.5 L) removable tank you can refill at any time, delivering 4.2 bar of steam pressure from 2,250 W. It’s ready in about 3 minutes.</p>
+<p><strong>Pros:</strong> the VapoHydro function, which adds hot water to the steam to rinse away stubborn dirt; the EasyFix floor nozzle with a quick-attach cleaning cloth; a stated coverage of about 1,600 sq ft (150 m²) per tank; a connection for a steam iron (iron included with some versions).</p>
+<p><strong>Cons:</strong> about 13 lb (6 kg) without accessories, bulky to store, and slower to heat up than a steam mop.</p>
+<p><strong>Best for:</strong> homes with lots of tile, grout and kitchen surfaces, and anyone who wants one machine for everything.</p>
+
+<h3>2. Kärcher SC 3 EasyFix: the fastest boiler</h3>
+<p>The <strong>Kärcher SC 3 EasyFix</strong> brings the SC 5 concept to a lighter package: 3.5 bar, 1,900 W, a 34 fl oz (1 L) removable tank you can refill continuously and, above all, a stated heat-up time of 30 seconds. Kärcher quotes about 800 sq ft (75 m²) per tank and a weight of 6.8 lb (3.1 kg) without accessories.</p>
+<p><strong>Pros:</strong> the quick start of a steam mop with the versatility of a canister unit and its accessories; the same EasyFix floor nozzle as the SC 5.</p>
+<p><strong>Cons:</strong> no VapoHydro and no steam iron connection, and less pressure than the SC 5 on heavily ground-in dirt.</p>
+<p><strong>Best for:</strong> apartments and midsize houses that want a real multi-surface cleaner without waiting on a big boiler.</p>
+
+<h3>3. Polti Vaporetto Smart 100_T: the Italian alternative</h3>
+<p>Polti, the Italian steam-cleaning pioneer, sells its Vaporetto Smart line in several versions. The <strong>Vaporetto Smart 100_T</strong> is a 1,500 W canister unit delivering up to 4 bar, with a 68 fl oz (2 L) removable tank you can refill at any time. It’s ready in about 2 minutes and comes with 9 accessories, including the Vaporforce brush.</p>
+<p><strong>Pros:</strong> a big tank, pressure close to the SC 5’s, and the British Allergy Foundation seal the brand highlights for people with dust mite allergies.</p>
+<p><strong>Cons:</strong> fewer accessories in the box than the Kärcher units, and a Smart line with lots of model numbers (100_T, 100_B, 110 Eco…), so double-check the exact model.</p>
+<p><strong>Best for:</strong> people who clean large areas in one go and appreciate a generous tank.</p>
+
+<h3>4. Black+Decker BHSM1610DSM: best value</h3>
+<p>The <strong>Black+Decker BHSM1610DSM</strong> is a 1,600 W 2-in-1 steam mop: the center unit detaches to become a handheld steamer. It heats up in about 20 seconds, puts out steam at up to 250°F (120°C) according to the manufacturer and has a 17 fl oz (0.5 L) tank (about 20 minutes of steam). The DSM version comes with a triangular Delta head, a SteaMitt glove and 15 accessories, plus a Calc-clean descaling system.</p>
+<p><strong>Pros:</strong> surprising versatility for an entry-level appliance, a 26 ft (8 m) cord and a near-instant start.</p>
+<p><strong>Cons:</strong> no pressurized boiler, so it’s less effective on heavily soiled grout; 6.4 lb (2.9 kg) to carry, which gets tiring during long sessions.</p>
+<p><strong>Best for:</strong> a first step into steam cleaning, for weekly floor care and quick bathroom touch-ups.</p>
+
+<h3>5. Bissell PowerFresh Slim Steam: best for apartments</h3>
+<p>The <strong>Bissell PowerFresh Slim Steam</strong> is a 1,500 W steam mop built for maneuverability: a low, swiveling head, a 30-second heat-up and a 25 ft (7.5 m) cord. Its tank is compact (about 10 fl oz, or 0.3 L), which is enough for the floors of a small home.</p>
+<p><strong>Pros:</strong> slides under low furniture and into corners, easy to store, very simple to use every day.</p>
+<p><strong>Cons:</strong> a smaller tank than the other models, hard floors only, no accessories for the kitchen or grout.</p>
+<p><strong>Best for:</strong> studio and one-bedroom apartments, and anyone who wants a light steam mop that’s ready in seconds.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Pressure / steam</th><th>Tank</th><th>Heat-up</th><th>App control</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Kärcher SC 5 EasyFix</td><td>Canister with boiler</td><td>4.2 bar + VapoHydro</td><td>51 fl oz (1.5 L) + 17 fl oz (0.5 L) boiler</td><td>≈ 3 min</td><td>None</td><td>Deep cleaning the whole house</td></tr>
+<tr><td>Kärcher SC 3 EasyFix</td><td>Canister with boiler</td><td>3.5 bar</td><td>34 fl oz (1 L), continuous refill</td><td>≈ 30 sec</td><td>None</td><td>Versatility and speed</td></tr>
+<tr><td>Polti Vaporetto Smart 100_T</td><td>Canister with boiler</td><td>4 bar</td><td>68 fl oz (2 L), continuous refill</td><td>≈ 2 min</td><td>None</td><td>Large areas, allergies</td></tr>
+<tr><td>Black+Decker BHSM1610DSM</td><td>2-in-1 steam mop</td><td>Boilerless steam, up to 250°F (120°C)</td><td>17 fl oz (0.5 L)</td><td>≈ 20 sec</td><td>None</td><td>Tight budgets, floors and bathrooms</td></tr>
+<tr><td>Bissell PowerFresh Slim Steam</td><td>Steam mop</td><td>Boilerless steam</td><td>≈ 10 fl oz (0.3 L)</td><td>≈ 30 sec</td><td>None</td><td>Small apartments</td></tr>
+</tbody>
+</table>
+<p>See every model in the category on our <a href="/us/entretien-maison/nettoyeurs-vapeur">steam cleaners</a> page.</p>
+
+<h2>What steam can (and can’t) do</h2>
+<p>Hot steam loosens grease and mineral deposits and kills a large share of germs and dust mites on contact. Manufacturers claim it eliminates about 99.9% to 99.99% of household bacteria, measured in the lab under specific conditions: a slow pass, the nozzle touching the surface and the unit at full temperature. In everyday use, the main rule is to <strong>move slowly</strong>: steam cools very quickly once it leaves the nozzle.</p>
+<p>Steam doesn’t fix everything: it won’t lift rust stains, remove paint marks or sanitize a surface you skim over in two seconds.</p>
+
+<h2>Surfaces that can and can’t take steam</h2>
+<ul>
+<li><strong>Safe to steam:</strong> ceramic and porcelain tile, grout, good-quality vinyl and laminate (check the flooring manufacturer’s advice), well-sealed hardwood with a polyurethane finish (quick passes only), toilets, sinks and tubs, faucets, windows, cool glass-ceramic and induction cooktops, range hoods, and sturdy fabrics with the right accessory.</li>
+<li><strong>Avoid:</strong> unfinished wood, poorly maintained oiled floors or floors with gaps between the boards, cheap laminate, painted or waxed surfaces, leather, thin plastics, screens and electrical appliances, and unsealed marble.</li>
+</ul>
+<p>If you’re not sure, test a hidden spot first and check the flooring manufacturer’s care instructions.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Using very hard water without precautions:</strong> follow the manufacturer’s advice (some models accept tap water, others recommend mixing it with distilled water or using an anti-scale cartridge) and descale regularly.</li>
+<li><strong>Adding a cleaning product to the tank:</strong> unless the brand says otherwise, don’t; it can damage the boiler and void the warranty.</li>
+<li><strong>Letting the head sit still on a hardwood floor:</strong> concentrated heat and moisture can make the boards swell.</li>
+<li><strong>Buying a steam mop to scrub grout:</strong> without pressure, the results will disappoint; you need a boiler and a grout brush.</li>
+<li><strong>Paying extra for “smart”:</strong> no conventional steam cleaner has an app, so don’t pay more for a marketing promise.</li>
+</ul>
+
+<h2>Safety and maintenance</h2>
+<p>Steam burns: never point it at a person, a pet or an electrical outlet, and keep the appliance out of children’s reach. On boiler models, only open the safety cap when the unit is unplugged and has cooled down, as the manual instructs. Wash the microfiber pads regularly and empty the tank after each use to limit scale buildup and odors.</p>
+
+<h2>The bottom line</h2>
+<p>For cleaning the whole house, the <strong>Kärcher SC 5 EasyFix</strong> is the most versatile pick: a pressurized boiler, VapoHydro and a continuously refillable tank. The <strong>Kärcher SC 3 EasyFix</strong> is an excellent alternative if you want a boiler that’s ready in 30 seconds, and the <strong>Polti Vaporetto Smart 100_T</strong> suits anyone who wants a big tank.</p>
+<p>For everyday floor care on a smaller budget, the <strong>Black+Decker BHSM1610DSM</strong> strikes the best balance, and the <strong>Bissell PowerFresh Slim Steam</strong> is the most pleasant to use in a small apartment. If app control is your priority, look at a <a href="/us/blog/meilleur-aspirateur-laveur-2026">cordless wet-dry vacuum</a> instead, and for clothes, see our <a href="/us/blog/centrale-vapeur-comparatif">steam generator iron comparison</a>.</p>`,
+    ca: `<p>The best steam cleaner for most homes in 2026 is the <strong>Kärcher SC 5 EasyFix</strong>, a pressurized boiler unit (4.2 bar) that cleans floors, grout, kitchens and bathrooms without chemicals. On a tighter budget, a 2-in-1 steam mop such as the <strong>Black+Decker BHSM1610DSM</strong> handles everyday hard-floor cleaning, and the <strong>Bissell PowerFresh Slim Steam</strong> is the easiest to live with in a small apartment.</p>
+<p>This guide compares five models actually sold in Europe, based on manufacturer specifications, independent reviews and verified owner reviews. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. The guide also explains what you can (and can’t) expect from a so-called “smart” steam cleaner.</p>
+
+<h2>Smart steam cleaners: do they really exist?</h2>
+<p>Let’s be clear: in 2026, <strong>conventional steam cleaners aren’t smart</strong>. Kärcher SC units, Polti Vaporetto models and Black+Decker or Bissell steam mops have no app, no Wi-Fi and no voice-assistant support. They work mechanically: a heating element boils the water and a button releases the steam.</p>
+<p>Connectivity mostly shows up in a different family: <strong>cordless wet dry vacuums with a steam function</strong>, such as the Tineco Floor One S7 Steam lineup, which vacuum, wash and apply hot steam to the floor. Some versions can be controlled from an app (cleaning history, settings, updates) and others can’t, so check the exact model number before you buy. These machines wash floors, but they don’t replace a boiler steam cleaner for grout, faucets or the oven. If a floor washer is what you’re after, see our <a href="/ca/blog/meilleur-aspirateur-laveur-2026">wet dry vacuum guide</a>.</p>
+<p>In practice, what really matters in a steam cleaner is the quality of the steam, the tank size and the accessories.</p>
+
+<h2>The criteria that really matter</h2>
+<h3>Pressurized boiler or instant steam</h3>
+<p><strong>Boiler</strong> units (Kärcher SC 3 and SC 5, Polti Vaporetto) produce pressurized steam, from 3.5 to 4.2 bar in our selection. It breaks down baked-on grease, limescale and blackened grout far better. <strong>Steam mops</strong> (Black+Decker, Bissell) heat water on demand without a boiler: they’re ready in under a minute and lighter, but less effective on ground-in dirt.</p>
+<h3>Heat-up time and running time</h3>
+<p>A steam mop starts in 20 to 30 seconds. A boiler takes anywhere from 30 seconds (the SC 3, thanks to its rapid-heat system) to about 3 minutes (SC 5). For running time, the key feature is a <strong>continuously refillable tank</strong>: on the Kärcher SC 3, SC 5 and Polti Smart 100_T, you top up the water without waiting for the unit to cool down.</p>
+<h3>Accessories</h3>
+<p>Grout brush, power nozzle, window squeegee, fabric cover, oven nozzle: the accessories are what turn a steam cleaner into a whole-home tool. A basic steam mop only cleans floors; a 2-in-1 model with a detachable handheld unit also covers the bathroom and kitchen.</p>
+<h3>Weight and storage</h3>
+<p>A canister boiler unit weighs 3 to 6 kg (about 7 to 13 lb) but rolls along the floor; a steam mop is carried in your hand. In a small home, a low-profile head and easy manoeuvring matter more than pressure.</p>
+
+<h2>The 5 best steam cleaners in 2026</h2>
+<h3>1. Kärcher SC 5 EasyFix: the most complete</h3>
+<p>The <strong>Kärcher SC 5 EasyFix</strong> sits at the top of Kärcher’s SC series. According to the manufacturer, it pairs a 0.5-litre boiler with a 1.5-litre removable tank you can refill at any time, delivering 4.2 bar of steam pressure from 2,250 W. It’s ready in about 3 minutes.</p>
+<p><strong>Strengths:</strong> the VapoHydro function, which adds hot water to the steam to rinse away stubborn dirt; the EasyFix floor nozzle with quick cloth attachment; a stated coverage of about 150 m² (1,600 sq. ft.) per tank; a connection for a steam iron (iron included depending on the version).</p>
+<p><strong>Limitations:</strong> about 6 kg without accessories, bulky to store and slower to heat up than a steam mop.</p>
+<p><strong>Best for:</strong> homes with lots of tile, grout and kitchen surfaces, and anyone who wants one machine for everything.</p>
+
+<h3>2. Kärcher SC 3 EasyFix: the quickest boiler</h3>
+<p>The <strong>Kärcher SC 3 EasyFix</strong> brings the SC 5 concept to a lighter format: 3.5 bar, 1,900 W, a 1-litre removable tank you can refill continuously and, above all, a stated heat-up time of 30 seconds. Kärcher quotes about 75 m² (810 sq. ft.) per tank and a weight of 3.1 kg without accessories.</p>
+<p><strong>Strengths:</strong> the quick start of a steam mop combined with the versatility of a canister unit with accessories; the same EasyFix floor nozzle as the SC 5.</p>
+<p><strong>Limitations:</strong> no VapoHydro and no iron connection, and less pressure than the SC 5 on heavily ground-in dirt.</p>
+<p><strong>Best for:</strong> apartments and medium-sized houses that want a proper multi-surface cleaner without waiting for a big boiler.</p>
+
+<h3>3. Polti Vaporetto Smart 100_T: the Italian alternative</h3>
+<p>Polti, the Italian steam-cleaning pioneer, offers its Vaporetto Smart lineup in several versions. The <strong>Vaporetto Smart 100_T</strong> is a 1,500 W canister unit delivering up to 4 bar, with a 2-litre removable tank you can refill at any time. It’s ready in about 2 minutes and comes with 9 accessories, including the Vaporforce brush.</p>
+<p><strong>Strengths:</strong> large tank, pressure close to the SC 5, and the British Allergy Foundation seal the brand highlights for people allergic to dust mites.</p>
+<p><strong>Limitations:</strong> fewer accessories in the box than the Kärcher units, and a Smart lineup with many model numbers (100_T, 100_B, 110 Eco…), so double-check the exact model.</p>
+<p><strong>Best for:</strong> people who clean large areas in one go and value a generous tank.</p>
+
+<h3>4. Black+Decker BHSM1610DSM: best value</h3>
+<p>The <strong>Black+Decker BHSM1610DSM</strong> is a 1,600 W 2-in-1 steam mop: the central unit detaches to become a handheld steamer. It heats up in about 20 seconds, produces steam up to 120°C (250°F) according to the manufacturer and has a 0.5-litre tank (about 20 minutes of steam). The DSM version comes with a triangular Delta head, a SteaMitt glove and 15 accessories, plus a Calc-clean descaling system.</p>
+<p><strong>Strengths:</strong> surprising versatility for an entry-level appliance, an 8 m cord and an almost instant start.</p>
+<p><strong>Limitations:</strong> no pressurized boiler, so less effective on heavily soiled grout; 2.9 kg (6.4 lb) to carry, which gets tiring on long sessions.</p>
+<p><strong>Best for:</strong> a first step into steam cleaning, for weekly floor care and quick touch-ups in the bathroom.</p>
+
+<h3>5. Bissell PowerFresh Slim Steam: best for apartments</h3>
+<p>The <strong>Bissell PowerFresh Slim Steam</strong> is a 1,500 W steam mop designed for manoeuvrability: a low, swivelling head, a 30-second heat-up and a 7.5 m cord. Its tank is compact (about 0.3 litres), which is enough for the floors of a small home.</p>
+<p><strong>Strengths:</strong> slides under low furniture and into corners, easy to store, very simple to use every day.</p>
+<p><strong>Limitations:</strong> smaller tank than the other models, hard floors only, no accessories for the kitchen or grout.</p>
+<p><strong>Best for:</strong> studios and small apartments, and anyone who wants a light steam mop ready in seconds.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Pressure / steam</th><th>Tank</th><th>Heat-up</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Kärcher SC 5 EasyFix</td><td>Boiler canister</td><td>4.2 bar + VapoHydro</td><td>1.5 L + 0.5 L boiler</td><td>≈ 3 min</td><td>None</td><td>Whole-home deep cleaning</td></tr>
+<tr><td>Kärcher SC 3 EasyFix</td><td>Boiler canister</td><td>3.5 bar</td><td>1 L, continuous refill</td><td>≈ 30 s</td><td>None</td><td>Versatility and speed</td></tr>
+<tr><td>Polti Vaporetto Smart 100_T</td><td>Boiler canister</td><td>4 bar</td><td>2 L, continuous refill</td><td>≈ 2 min</td><td>None</td><td>Large areas, allergies</td></tr>
+<tr><td>Black+Decker BHSM1610DSM</td><td>2-in-1 steam mop</td><td>Boilerless steam, up to 120°C</td><td>0.5 L</td><td>≈ 20 s</td><td>None</td><td>Tight budget, floors and bathroom</td></tr>
+<tr><td>Bissell PowerFresh Slim Steam</td><td>Steam mop</td><td>Boilerless steam</td><td>≈ 0.3 L</td><td>≈ 30 s</td><td>None</td><td>Small apartments</td></tr>
+</tbody>
+</table>
+<p>See every model in the category on our <a href="/ca/entretien-maison/nettoyeurs-vapeur">steam cleaners</a> page.</p>
+
+<h2>What steam does (and doesn’t do)</h2>
+<p>Hot steam softens grease and limescale and kills a large share of germs and dust mites on contact. Manufacturers claim elimination rates of around 99.9% to 99.99% of household bacteria, measured in the lab under precise conditions: a slow pass, the nozzle touching the surface and the unit at full temperature. In everyday use, the main rule is to <strong>move slowly</strong>: steam cools very quickly once it leaves the nozzle.</p>
+<p>Steam doesn’t solve everything: it won’t lift rust stains, remove paint marks or sanitize a surface you skim over in two seconds.</p>
+
+<h2>Surfaces to steam and surfaces to avoid</h2>
+<ul>
+<li><strong>Safe to steam:</strong> ceramic and porcelain tile, grout, good-quality vinyl and laminate (check the flooring maker’s advice), well-sealed hardwood with a hard finish (quick passes), toilets, sinks and tubs, faucets, windows, cool glass-ceramic and induction cooktops, range hoods, sturdy fabrics with the right accessory.</li>
+<li><strong>Avoid:</strong> unsealed wood, poorly maintained oiled floors or boards with gaps, cheap laminate, painted or waxed surfaces, leather, thin plastics, screens and electrical appliances, untreated marble.</li>
+</ul>
+<p>When in doubt, test a hidden spot first and read the flooring instructions.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Using very hard water without precautions:</strong> follow the manufacturer’s advice (some models accept tap water, others recommend mixing it with distilled or demineralized water or using an anti-scale cartridge) and descale regularly.</li>
+<li><strong>Adding a cleaning product to the tank:</strong> unless the brand says otherwise, don’t; it can damage the boiler and void the warranty.</li>
+<li><strong>Leaving the head still on a wood floor:</strong> concentrated heat and moisture can make the boards swell.</li>
+<li><strong>Buying a steam mop to scrub grout:</strong> without pressure, the results will disappoint; you need a boiler and a grout brush.</li>
+<li><strong>Paying extra for “smart”:</strong> no conventional steam cleaner has an app, so don’t pay more for a marketing promise.</li>
+</ul>
+
+<h2>Safety and maintenance</h2>
+<p>Steam burns: never point it at a person, a pet or an electrical outlet, and keep the appliance out of children’s reach. On boiler models, only open the safety cap when the unit is unplugged and cool, as the manual instructs. Wash microfibre cloths regularly and empty the tank after use to limit scale and odours.</p>
+
+<h2>Our verdict</h2>
+<p>For whole-home cleaning, the <strong>Kärcher SC 5 EasyFix</strong> is the most versatile choice: pressurized boiler, VapoHydro and a continuously refillable tank. The <strong>Kärcher SC 3 EasyFix</strong> is an excellent alternative if you want a boiler ready in 30 seconds, and the <strong>Polti Vaporetto Smart 100_T</strong> suits anyone who wants a large tank.</p>
+<p>For everyday floor care at a lower cost, the <strong>Black+Decker BHSM1610DSM</strong> offers the best balance, and the <strong>Bissell PowerFresh Slim Steam</strong> is the most pleasant to use in a small apartment. If a smart, app-controlled appliance is your priority, look at a <a href="/ca/blog/meilleur-aspirateur-laveur-2026">wet dry vacuum</a> instead, and for laundry, see our <a href="/ca/blog/centrale-vapeur-comparatif">steam generator iron comparison</a>.</p>`,
   },
   faq: [
     {
@@ -687,6 +966,9 @@ export const article: BlogArticle = {
         it: 'Esiste un pulitore a vapore connesso con app?',
         nl: 'Bestaat er een slimme stoomreiniger met app?',
         pl: 'Czy istnieje inteligentna myjka parowa z aplikacją?',
+        sv: 'Finns det en uppkopplad ångtvätt med app?',
+        us: 'Is there a smart steam cleaner with an app?',
+        ca: 'Is there a smart steam cleaner with an app?',
       },
       answer: {
         fr: 'Pas parmi les nettoyeurs vapeur classiques : Kärcher, Polti, Black+Decker et Bissell n’ont ni application ni Wi-Fi. La connectivité existe sur certains aspirateurs-laveurs à vapeur sans fil (par exemple certaines versions de la gamme Tineco Floor One S7 Steam), qui lavent les sols mais ne remplacent pas un nettoyeur à chaudière pour les joints ou la cuisine.',
@@ -695,7 +977,10 @@ export const article: BlogArticle = {
         es: 'No entre los limpiadores a vapor convencionales: Kärcher, Polti, Black+Decker y Bissell no tienen aplicación ni wifi. La conectividad existe en algunas fregonas aspiradoras inalámbricas con vapor (por ejemplo, ciertas versiones de la gama Tineco Floor One S7 Steam), que friegan suelos pero no sustituyen a un limpiador con caldera para juntas o cocina.',
         it: 'Non tra i pulitori a vapore tradizionali: Kärcher, Polti, Black+Decker e Bissell non hanno né app né Wi-Fi. La connettività esiste su alcune lavapavimenti senza filo con vapore (ad esempio alcune versioni della gamma Tineco Floor One S7 Steam), che lavano i pavimenti ma non sostituiscono un pulitore con caldaia per fughe o cucina.',
         nl: 'Niet bij klassieke stoomreinigers: Kärcher, Polti, Black+Decker en Bissell hebben geen app of wifi. Connectiviteit bestaat bij sommige draadloze nat-droogzuigers met stoom (bijvoorbeeld bepaalde versies van de Tineco Floor One S7 Steam-reeks), die vloeren dweilen maar geen ketelstoomreiniger vervangen voor voegen of de keuken.',
-        pl: 'Wśród klasycznych myjek parowych nie: Kärcher, Polti, Black+Decker i Bissell nie mają ani aplikacji, ani Wi-Fi. Łączność jest dostępna w niektórych bezprzewodowych odkurzaczach myjących z funkcją pary (na przykład w niektórych wersjach serii Tineco Floor One S7 Steam), które myją podłogi, ale nie zastępują myjki z kotłem do fug czy kuchni.',
+        pl: 'Nie wśród klasycznych myjek parowych: modele Kärcher, Polti, Black+Decker i Bissell nie mają ani aplikacji, ani Wi-Fi. Łączność oferują niektóre bezprzewodowe odkurzacze myjące z funkcją pary (np. wybrane wersje serii Tineco Floor One S7 Steam), które myją podłogi, ale przy fugach czy w kuchni nie zastąpią myjki z kotłem.',
+        sv: 'Inte bland vanliga ångtvättar: Kärcher, Polti, Black+Decker och Bissell har varken app eller wifi. Uppkoppling finns på vissa sladdlösa golvtvättar med ånga (till exempel vissa versioner i serien Tineco Floor One S7 Steam), som tvättar golv men inte ersätter en ångtvätt med panna för fogar eller köket.',
+        us: 'Not among conventional steam cleaners: Kärcher, Polti, Black+Decker and Bissell models have no app and no Wi-Fi. You’ll find app control on some cordless wet-dry vacuums with steam (certain versions of the Tineco Floor One S7 Steam lineup, for example), which wash floors but don’t replace a canister steam cleaner with a boiler for grout or kitchen cleaning.',
+        ca: 'Not among conventional steam cleaners: Kärcher, Polti, Black+Decker and Bissell offer neither an app nor Wi-Fi. Connectivity does exist on some cordless wet dry vacuums with a steam function (for example, certain versions of the Tineco Floor One S7 Steam lineup), which wash floors but don’t replace a boiler steam cleaner for grout or the kitchen.',
       },
     },
     {
@@ -707,6 +992,9 @@ export const article: BlogArticle = {
         it: 'Scopa a vapore o pulitore con caldaia: quale scegliere?',
         nl: 'Stoomzwabber of stoomreiniger met ketel: wat kies ik?',
         pl: 'Mop parowy czy myjka z kotłem: co wybrać?',
+        sv: 'Ångmopp eller ångtvätt med panna: vilken ska jag välja?',
+        us: 'Steam mop or canister steam cleaner: which should I buy?',
+        ca: 'Steam mop or boiler steam cleaner: which should I choose?',
       },
       answer: {
         fr: 'Le balai vapeur (Black+Decker BHSM1610DSM, Bissell PowerFresh Slim Steam) est idéal pour l’entretien rapide des sols durs. Le nettoyeur à chaudière (Kärcher SC 3 ou SC 5, Polti Vaporetto Smart 100_T) produit une vapeur sous pression bien plus efficace sur les joints, la graisse et le calcaire, et nettoie toute la maison grâce à ses accessoires.',
@@ -715,7 +1003,10 @@ export const article: BlogArticle = {
         es: 'La mopa de vapor (Black+Decker BHSM1610DSM, Bissell PowerFresh Slim Steam) es ideal para el mantenimiento rápido de suelos duros. El limpiador con caldera (Kärcher SC 3 o SC 5, Polti Vaporetto Smart 100_T) produce vapor a presión mucho más eficaz en juntas, grasa y cal, y limpia toda la casa gracias a sus accesorios.',
         it: 'La scopa a vapore (Black+Decker BHSM1610DSM, Bissell PowerFresh Slim Steam) è ideale per la pulizia rapida dei pavimenti duri. Il pulitore con caldaia (Kärcher SC 3 o SC 5, Polti Vaporetto Smart 100_T) produce vapore in pressione molto più efficace su fughe, grasso e calcare, e pulisce tutta la casa grazie agli accessori.',
         nl: 'Een stoomzwabber (Black+Decker BHSM1610DSM, Bissell PowerFresh Slim Steam) is ideaal voor snel onderhoud van harde vloeren. Een toestel met ketel (Kärcher SC 3 of SC 5, Polti Vaporetto Smart 100_T) maakt stoom onder druk die veel beter werkt op voegen, vet en kalk, en reinigt dankzij de accessoires het hele huis.',
-        pl: 'Mop parowy (Black+Decker BHSM1610DSM, Bissell PowerFresh Slim Steam) jest idealny do szybkiej pielęgnacji twardych podłóg. Myjka z kotłem (Kärcher SC 3 lub SC 5, Polti Vaporetto Smart 100_T) wytwarza parę pod ciśnieniem, znacznie skuteczniejszą na fugach, tłuszczu i kamieniu, a dzięki akcesoriom czyści cały dom.',
+        pl: 'Mop parowy (Black+Decker BHSM1610DSM, Bissell PowerFresh Slim Steam) świetnie nadaje się do szybkiego mycia twardych podłóg. Myjka z kotłem (Kärcher SC 3 lub SC 5, Polti Vaporetto Smart 100_T) wytwarza parę pod ciśnieniem, która znacznie lepiej radzi sobie z fugami, tłuszczem i kamieniem, a dzięki akcesoriom sprawdza się w całym domu.',
+        sv: 'En ångmopp (Black+Decker BHSM1610DSM, Bissell PowerFresh Slim Steam) är perfekt för snabb rengöring av hårda golv. En ångtvätt med panna (Kärcher SC 3 eller SC 5, Polti Vaporetto Smart 100_T) ger ånga under tryck som är betydligt effektivare mot smutsiga fogar, fett och kalk, och med tillbehören rengör den hela hemmet.',
+        us: 'A steam mop (Black+Decker BHSM1610DSM, Bissell PowerFresh Slim Steam) is ideal for quick cleanups on hard floors. A canister steam cleaner with a boiler (Kärcher SC 3 or SC 5, Polti Vaporetto Smart 100_T) puts out pressurized steam that’s far more effective on grout, grease and mineral buildup, and its accessories let it clean the whole house.',
+        ca: 'A steam mop (Black+Decker BHSM1610DSM, Bissell PowerFresh Slim Steam) is ideal for quick hard-floor care. A boiler steam cleaner (Kärcher SC 3 or SC 5, Polti Vaporetto Smart 100_T) produces pressurized steam that’s far more effective on grout, grease and limescale, and cleans the whole home thanks to its accessories.',
       },
     },
     {
@@ -727,6 +1018,9 @@ export const article: BlogArticle = {
         it: 'Un pulitore a vapore rovina il parquet?',
         nl: 'Beschadigt een stoomreiniger parket?',
         pl: 'Czy myjka parowa niszczy parkiet?',
+        sv: 'Kan en ångtvätt skada trägolv?',
+        us: 'Does a steam cleaner damage hardwood floors?',
+        ca: 'Can a steam cleaner damage hardwood floors?',
       },
       answer: {
         fr: 'Il peut l’abîmer s’il est brut, mal protégé ou si ses joints sont ouverts. Sur un parquet vitrifié bien jointif, utilisez le débit de vapeur minimal, une lingette sèche et un passage rapide, sans jamais laisser la tête immobile. Vérifiez toujours les recommandations du fabricant du sol.',
@@ -735,7 +1029,10 @@ export const article: BlogArticle = {
         es: 'Puede dañarlo si la madera está sin tratar, mal protegida o con juntas abiertas. En un parquet barnizado bien sellado, usa el nivel mínimo de vapor, una bayeta seca y pasadas rápidas, sin dejar nunca el cabezal quieto. Consulta siempre las recomendaciones del fabricante del suelo.',
         it: 'Può rovinarlo se il legno è grezzo, poco protetto o con fughe aperte. Su un parquet verniciato ben sigillato usa il livello minimo di vapore, un panno asciutto e passaggi rapidi, senza mai lasciare ferma la testa. Verifica sempre le indicazioni del produttore del pavimento.',
         nl: 'Dat kan als het hout onbehandeld of slecht beschermd is of open naden heeft. Gebruik op goed afgewerkt gelakt parket de laagste stoomstand, een droge doek en snelle bewegingen, en laat de kop nooit stilstaan. Volg altijd het advies van de vloerfabrikant.',
-        pl: 'Może go uszkodzić, jeśli jest surowy, źle zabezpieczony lub ma otwarte łączenia. Na dobrze dopasowanym parkiecie lakierowanym stosuj minimalny strumień pary, suchą ściereczkę i szybkie przesunięcie, nigdy nie zostawiając głowicy w miejscu. Zawsze sprawdź zalecenia producenta podłogi.',
+        pl: 'Może, jeśli drewno jest surowe, słabo zabezpieczone albo między deskami są szczeliny. Na szczelnym, lakierowanym parkiecie ustaw najmniejszy strumień pary, używaj suchej ściereczki, prowadź głowicę szybko i nigdy nie zatrzymuj jej w jednym miejscu. Zawsze sprawdź też zalecenia producenta podłogi.',
+        sv: 'Ja, om golvet är obehandlat, dåligt skyddat eller har öppna skarvar. På ett lackat golv med täta skarvar använder du lägsta ångläget, en torr duk och snabba drag, och låter aldrig munstycket stå still. Kontrollera alltid vad golvtillverkaren rekommenderar.',
+        us: 'It can if the wood is unfinished, poorly sealed or has gaps between the boards. On a well-sealed hardwood floor with a polyurethane finish, use the lowest steam setting, a dry pad and quick passes, and never let the head sit in one spot. Always check the flooring manufacturer’s recommendations.',
+        ca: 'It can if the wood is unsealed, poorly protected or has gaps between the boards. On well-sealed hardwood with a hard finish, use the lowest steam setting, a dry cloth and quick passes, and never leave the head sitting in one spot. Always check the flooring manufacturer’s advice.',
       },
     },
     {
@@ -747,6 +1044,9 @@ export const article: BlogArticle = {
         it: 'Che acqua usare nel pulitore a vapore?',
         nl: 'Welk water doe je in een stoomreiniger?',
         pl: 'Jaką wodę wlewać do myjki parowej?',
+        sv: 'Vilket vatten ska jag ha i ångtvätten?',
+        us: 'What kind of water should I use in a steam cleaner?',
+        ca: 'What water should I put in a steam cleaner?',
       },
       answer: {
         fr: 'Suivez la notice de votre modèle : beaucoup acceptent l’eau du robinet, d’autres recommandent de la mélanger avec de l’eau déminéralisée ou d’utiliser une cartouche anticalcaire. N’ajoutez jamais de produit ménager ni de parfum sauf si le fabricant le prévoit, et détartrez régulièrement si votre eau est calcaire.',
@@ -755,7 +1055,10 @@ export const article: BlogArticle = {
         es: 'Sigue el manual de tu modelo: muchos admiten agua del grifo y otros recomiendan mezclarla con agua desmineralizada o usar un cartucho antical. No añadas nunca productos de limpieza ni perfume salvo que el fabricante lo permita, y descalcifica con regularidad si el agua es dura.',
         it: 'Segui il manuale del tuo modello: molti accettano l’acqua del rubinetto, altri consigliano di miscelarla con acqua demineralizzata o di usare una cartuccia anticalcare. Non aggiungere mai detersivi o profumi se il produttore non lo prevede, e decalcifica regolarmente se l’acqua è dura.',
         nl: 'Volg de handleiding van je model: veel toestellen verdragen kraanwater, andere raden een mengsel met gedemineraliseerd water of een antikalkpatroon aan. Voeg nooit schoonmaakmiddel of geur toe tenzij de fabrikant dat toestaat, en ontkalk regelmatig als je water hard is.',
-        pl: 'Postępuj zgodnie z instrukcją swojego modelu: wiele z nich akceptuje wodę z kranu, inne zalecają zmieszanie jej z wodą demineralizowaną lub użycie kartridża antykamieniowego. Nigdy nie dodawaj środka czyszczącego ani zapachu, chyba że przewiduje to producent, i regularnie odkamieniaj, jeśli masz twardą wodę.',
+        pl: 'Kieruj się instrukcją swojego modelu: wiele urządzeń można napełniać wodą z kranu, przy innych producent zaleca mieszanie jej z wodą demineralizowaną albo stosowanie wkładu odkamieniającego. Nigdy nie dodawaj środków czyszczących ani zapachowych, chyba że producent na to pozwala, a jeśli masz twardą wodę, regularnie odkamieniaj urządzenie.',
+        sv: 'Följ bruksanvisningen till din modell: många klarar kranvatten, medan andra rekommenderar att du blandar det med avjoniserat vatten eller använder en avkalkningspatron. Tillsätt aldrig rengöringsmedel eller doftämnen om inte tillverkaren tillåter det, och avkalka regelbundet om du har hårt vatten.',
+        us: 'Follow your model’s manual: many accept tap water, while others recommend mixing it with distilled water or using an anti-scale cartridge. Never add cleaning products or fragrance unless the manufacturer allows it, and descale regularly if you have hard water.',
+        ca: 'Follow your model’s manual: many accept tap water, while others recommend mixing it with distilled or demineralized water or using an anti-scale cartridge. Never add cleaning products or fragrance unless the manufacturer allows it, and descale regularly if you have hard water.',
       },
     },
     {
@@ -767,6 +1070,9 @@ export const article: BlogArticle = {
         it: 'Il vapore uccide acari e batteri?',
         nl: 'Doodt stoom huisstofmijten en bacteriën?',
         pl: 'Czy para zabija roztocza i bakterie?',
+        sv: 'Dödar ånga kvalster och bakterier?',
+        us: 'Does steam kill dust mites and bacteria?',
+        ca: 'Does steam kill dust mites and bacteria?',
       },
       answer: {
         fr: 'La chaleur de la vapeur détruit une grande partie des bactéries et des acariens au contact, et les fabricants annoncent jusqu’à 99,99 % des bactéries domestiques éliminées en laboratoire. Ce résultat suppose un passage lent, buse au contact de la surface : un passage rapide est beaucoup moins efficace.',
@@ -775,7 +1081,10 @@ export const article: BlogArticle = {
         es: 'El calor del vapor elimina al contacto buena parte de las bacterias y los ácaros, y los fabricantes anuncian hasta un 99,99 % de bacterias domésticas eliminadas en laboratorio. Eso exige pasar despacio con la boquilla en contacto con la superficie; una pasada rápida es mucho menos eficaz.',
         it: 'Il calore del vapore elimina al contatto buona parte di batteri e acari, e i produttori dichiarano fino al 99,99 % dei batteri domestici eliminati in laboratorio. Ciò presuppone un passaggio lento con la bocchetta a contatto con la superficie; un passaggio rapido è molto meno efficace.',
         nl: 'De hitte van stoom doodt bij contact een groot deel van de bacteriën en huisstofmijten, en fabrikanten noemen tot 99,99 % verwijderde huishoudbacteriën onder labomstandigheden. Dat vraagt langzaam bewegen met het mondstuk tegen het oppervlak; snel overgaan werkt veel minder goed.',
-        pl: 'Ciepło pary niszczy dużą część bakterii i roztoczy w kontakcie, a producenci deklarują usunięcie nawet 99,99% domowych bakterii w warunkach laboratoryjnych. Taki wynik zakłada powolne przesuwanie, z dyszą przy powierzchni: szybkie przesunięcie jest znacznie mniej skuteczne.',
+        pl: 'Gorąca para zabija przy kontakcie dużą część bakterii i roztoczy, a producenci deklarują, że w warunkach laboratoryjnych usuwa nawet 99,99% bakterii występujących w domu. Taki wynik wymaga jednak powolnego prowadzenia dyszy przy samej powierzchni – szybkie przesunięcie jest dużo mniej skuteczne.',
+        sv: 'Värmen i ångan dödar en stor del av bakterierna och kvalstren vid kontakt, och tillverkarna anger att upp till 99,99 % av vanliga hushållsbakterier avlägsnas i laboratorium. Det förutsätter att du för munstycket långsamt och mot ytan; ett snabbt drag är mycket mindre effektivt.',
+        us: 'The heat of the steam kills a large share of bacteria and dust mites on contact, and manufacturers claim it eliminates up to 99.99% of household bacteria in lab conditions. That assumes a slow pass with the nozzle touching the surface; a quick pass is much less effective.',
+        ca: 'Steam heat kills a large share of bacteria and dust mites on contact, and manufacturers claim up to 99.99% of household bacteria eliminated in lab conditions. That assumes a slow pass with the nozzle touching the surface; a quick pass is much less effective.',
       },
     },
     {
@@ -786,7 +1095,10 @@ export const article: BlogArticle = {
         es: '¿Se puede usar un limpiador a vapor en la placa de cocina o en los cristales?',
         it: 'Si può usare il pulitore a vapore sul piano cottura o sui vetri?',
         nl: 'Kun je een stoomreiniger op een kookplaat of ramen gebruiken?',
-        pl: 'Czy można używać myjki parowej na płycie kuchennej lub szybach?',
+        pl: 'Czy myjką parową można czyścić płytę grzewczą i szyby?',
+        sv: 'Går det att använda en ångtvätt på spishällen eller fönstren?',
+        us: 'Can I use a steam cleaner on a cooktop or windows?',
+        ca: 'Can I use a steam cleaner on a stovetop or windows?',
       },
       answer: {
         fr: 'Oui, avec un nettoyeur à chaudière et les bons accessoires : buse et brosse pour une plaque vitrocéramique ou à induction froide, raclette pour les vitres. Évitez de projeter de la vapeur sur une vitre très froide en hiver (choc thermique) et sur les commandes électroniques.',
@@ -795,7 +1107,10 @@ export const article: BlogArticle = {
         es: 'Sí, con un limpiador con caldera y los accesorios adecuados: boquilla y cepillo para una vitrocerámica o placa de inducción fría, rasqueta para los cristales. Evita aplicar vapor sobre un cristal muy frío en invierno (choque térmico) y sobre los mandos electrónicos.',
         it: 'Sì, con un pulitore a caldaia e gli accessori giusti: bocchetta e spazzola per un piano in vetroceramica o a induzione freddo, tergivetro per i vetri. Evita di dirigere il vapore su un vetro molto freddo d’inverno (shock termico) e sui comandi elettronici.',
         nl: 'Ja, met een stoomreiniger met ketel en de juiste accessoires: mondstuk en borstel voor een afgekoelde keramische of inductiekookplaat, raamwisser voor ramen. Stoom geen erg koude ruit in de winter (thermische schok) en geen elektronische bediening.',
-        pl: 'Tak, z myjką z kotłem i odpowiednimi akcesoriami: dysza i szczotka do zimnej płyty ceramicznej lub indukcyjnej, ściągaczka do szyb. Unikaj kierowania pary na bardzo zimną szybę zimą (szok termiczny) oraz na elektroniczne panele sterowania.',
+        pl: 'Tak, jeśli masz myjkę z kotłem i odpowiednie akcesoria: do zimnej płyty ceramicznej lub indukcyjnej dyszę ze szczotką, do szyb ściągaczkę. Nie kieruj pary na bardzo zimną szybę zimą (grozi to szokiem termicznym) ani na elektroniczne panele sterowania.',
+        sv: 'Ja, med en ångtvätt med panna och rätt tillbehör: munstycke och borste för en kall glaskeramik- eller induktionshäll, fönsterskrapa för fönstren. Undvik att spruta ånga på en mycket kall fönsterruta på vintern (risk för temperaturchock) och på elektroniska reglage.',
+        us: 'Yes, with a canister steam cleaner and the right accessories: a nozzle and brush for a cool glass-ceramic or induction cooktop, and a squeegee for windows. Don’t steam a very cold window in winter (the thermal shock can crack the glass), and keep steam away from electronic controls.',
+        ca: 'Yes, with a boiler steam cleaner and the right accessories: a nozzle and brush for a cool glass-ceramic or induction cooktop, a squeegee for windows. Avoid steaming a very cold window in winter (thermal shock) and electronic controls.',
       },
     },
   ],

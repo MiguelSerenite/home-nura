@@ -71,10 +71,31 @@ const ctaLabels: Record<string, { title: string; subtitle: string; button: strin
   },
   pl: {
     title: 'Nasze rekomendacje',
-    subtitle: 'Najwyżej oceniane modele z naszego wyboru',
+    subtitle: 'Najwyżej oceniane modele z naszego zestawienia',
     button: 'Sprawdź cenę na Amazon',
-    seeAll: 'Zobacz cały wybór',
+    seeAll: 'Zobacz całe zestawienie',
     disclosure: 'Link afiliacyjny Amazon: otrzymujemy prowizję, bez dodatkowych kosztów dla Ciebie.',
+  },
+  sv: {
+    title: 'Våra rekommendationer',
+    subtitle: 'De högst rankade modellerna i vårt urval',
+    button: 'Se priset på Amazon',
+    seeAll: 'Se hela urvalet',
+    disclosure: 'Affiliatelänk till Amazon: vi får provision, utan extra kostnad för dig.',
+  },
+  us: {
+    title: 'Our recommendations',
+    subtitle: 'The top-rated models in our selection',
+    button: 'Check price on Amazon',
+    seeAll: 'See all our picks',
+    disclosure: 'Amazon affiliate link: we earn a commission at no extra cost to you.',
+  },
+  ca: {
+    title: 'Our recommendations',
+    subtitle: 'The top-rated models in our selection',
+    button: 'Check price on Amazon',
+    seeAll: 'See the full selection',
+    disclosure: 'Amazon affiliate link: we earn a commission at no extra cost to you.',
   },
 }
 

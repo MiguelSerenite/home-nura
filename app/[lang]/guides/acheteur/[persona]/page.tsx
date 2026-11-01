@@ -47,7 +47,6 @@ interface GuideUi {
   guides: string
   applicableSilosTitle: string
   relatedCategoriesTitle: string
-  noRelated: string
   methodologyCta: string
   faqTitle: string
   bestForPrefix: string
@@ -59,7 +58,6 @@ const uiStrings: Record<Lang, GuideUi> = {
     guides: 'Guides',
     applicableSilosTitle: 'Univers pertinents pour ce profil',
     relatedCategoriesTitle: 'Sélections ciblées pour ce profil',
-    noRelated: 'Les catégories dédiées à ce profil arrivent bientôt.',
     methodologyCta: 'Lire notre méthodologie',
     faqTitle: 'Questions fréquentes',
     bestForPrefix: 'Le meilleur',
@@ -69,7 +67,6 @@ const uiStrings: Record<Lang, GuideUi> = {
     guides: 'Guides',
     applicableSilosTitle: 'Relevant silos for this profile',
     relatedCategoriesTitle: 'Targeted picks for this profile',
-    noRelated: 'Dedicated categories for this profile are coming soon.',
     methodologyCta: 'Read our methodology',
     faqTitle: 'Frequently asked questions',
     bestForPrefix: 'The best',
@@ -79,7 +76,6 @@ const uiStrings: Record<Lang, GuideUi> = {
     guides: 'Ratgeber',
     applicableSilosTitle: 'Relevante Silos für dieses Profil',
     relatedCategoriesTitle: 'Gezielte Auswahl für dieses Profil',
-    noRelated: 'Eigene Kategorien für dieses Profil folgen bald.',
     methodologyCta: 'Zur Methodik',
     faqTitle: 'Häufige Fragen',
     bestForPrefix: 'Das Beste',
@@ -89,7 +85,6 @@ const uiStrings: Record<Lang, GuideUi> = {
     guides: 'Guías',
     applicableSilosTitle: 'Silos relevantes para este perfil',
     relatedCategoriesTitle: 'Selecciones dirigidas para este perfil',
-    noRelated: 'Las categorías dedicadas a este perfil llegan pronto.',
     methodologyCta: 'Leer nuestra metodología',
     faqTitle: 'Preguntas frecuentes',
     bestForPrefix: 'El mejor',
@@ -99,7 +94,6 @@ const uiStrings: Record<Lang, GuideUi> = {
     guides: 'Guide',
     applicableSilosTitle: 'Silo rilevanti per questo profilo',
     relatedCategoriesTitle: 'Selezioni mirate per questo profilo',
-    noRelated: 'Le categorie dedicate a questo profilo arrivano presto.',
     methodologyCta: 'Leggi la nostra metodologia',
     faqTitle: 'Domande frequenti',
     bestForPrefix: 'Il migliore',
@@ -109,7 +103,6 @@ const uiStrings: Record<Lang, GuideUi> = {
     guides: 'Gidsen',
     applicableSilosTitle: 'Relevante silo\'s voor dit profiel',
     relatedCategoriesTitle: 'Gerichte selecties voor dit profiel',
-    noRelated: 'Specifieke categorieën voor dit profiel komen binnenkort.',
     methodologyCta: 'Lees onze methodologie',
     faqTitle: 'Veelgestelde vragen',
     bestForPrefix: 'De beste',
@@ -117,12 +110,38 @@ const uiStrings: Record<Lang, GuideUi> = {
   pl: {
     home: 'Strona główna',
     guides: 'Poradniki',
-    applicableSilosTitle: 'Obszary odpowiednie dla tego profilu',
-    relatedCategoriesTitle: 'Wybrane kategorie dla tego profilu',
-    noRelated: 'Kategorie dla tego profilu pojawią się wkrótce.',
+    applicableSilosTitle: 'Działy przydatne dla tego profilu',
+    relatedCategoriesTitle: 'Zestawienia dobrane do tego profilu',
     methodologyCta: 'Poznaj naszą metodologię',
     faqTitle: 'Najczęstsze pytania',
-    bestForPrefix: 'Najlepszy',
+    bestForPrefix: 'Najlepsze',
+  },
+  sv: {
+    home: 'Hem',
+    guides: 'Guider',
+    applicableSilosTitle: 'Relevanta områden för den här profilen',
+    relatedCategoriesTitle: 'Riktade urval för den här profilen',
+    methodologyCta: 'Läs om vår metod',
+    faqTitle: 'Vanliga frågor',
+    bestForPrefix: 'Bästa',
+  },
+  us: {
+    home: 'Home',
+    guides: 'Guides',
+    applicableSilosTitle: 'Relevant sections for this profile',
+    relatedCategoriesTitle: 'Targeted picks for this profile',
+    methodologyCta: 'Read our methodology',
+    faqTitle: 'Frequently asked questions',
+    bestForPrefix: 'The best',
+  },
+  ca: {
+    home: 'Home',
+    guides: 'Guides',
+    applicableSilosTitle: 'Relevant sections for this profile',
+    relatedCategoriesTitle: 'Targeted picks for this profile',
+    methodologyCta: 'Read our methodology',
+    faqTitle: 'Frequently asked questions',
+    bestForPrefix: 'The best',
   },
 }
 
@@ -263,12 +282,12 @@ export default async function PersonaGuidePage({
           </div>
         </section>
 
-        {/* Related indexable categories */}
-        <section className="max-w-6xl mx-auto px-4 md:px-6 pb-16">
-          <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-6">
-            {ui.relatedCategoriesTitle}
-          </h2>
-          {relatedCategories.length > 0 ? (
+        {/* Related indexable categories (hidden when there are none: nothing is announced) */}
+        {relatedCategories.length > 0 && (
+          <section className="max-w-6xl mx-auto px-4 md:px-6 pb-16">
+            <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-6">
+              {ui.relatedCategoriesTitle}
+            </h2>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {relatedCategories.map(({ silo, category }) => (
                 <li key={`${silo.slug}/${category.slug}`}>
@@ -286,10 +305,8 @@ export default async function PersonaGuidePage({
                 </li>
               ))}
             </ul>
-          ) : (
-            <p className="text-sm text-slate-500">{ui.noRelated}</p>
-          )}
-        </section>
+          </section>
+        )}
 
         {/* FAQ (emits FAQPage JSON-LD) */}
         <FaqSection faqs={faqEntries} title={ui.faqTitle} />

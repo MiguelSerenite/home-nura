@@ -157,4 +157,70 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  sv: {
+    name: 'Smarta elelement',
+    h1: `Black Friday ${Y}: smarta elelement att hålla koll på`,
+    metaTitle: `Black Friday ${Y}: smarta elelement värda att bevaka`,
+    metaDescription: `Smarta elelement att hålla koll på inför Black Friday ${Y}: Thermor, Sauter och Mill. Fast eller flyttbart, sensorer och app – det här ska du kontrollera.`,
+    blurb: 'Thermor, Sauter, Mill: väggmonterat eller flyttbart, efter din bostad.',
+    intro: 'Det finns två sorter att skilja på: väggmonterade, värmelagrande element som ersätter ett gammalt konvektorelement, och flyttbara element som du bara sätter i ett vägguttag, utan installation. Kontrollera också om elementet känner av öppna fönster och går att styra via app.',
+    faq: [
+      {
+        question: 'Väggmonterat eller flyttbart element?',
+        answer: 'Ett väggmonterat, värmelagrande element värmer rummet jämnt och ersätter en konvektor. Ett flyttbart element sätter du i ett vägguttag när ett rum behöver extra värme, utan installationsarbete och utan elektriker.',
+      },
+      {
+        question: 'Sänker ett smart elelement elräkningen?',
+        answer: 'Främst genom att du slipper värma i onödan: schemaläggning, avkänning av frånvaro och öppna fönster, styrning på distans. Hur mycket du sparar beror på dina vanor och på hur väl bostaden är isolerad.',
+      },
+      {
+        question: 'Behöver jag en elektriker?',
+        answer: 'Ett väggmonterat element ansluts till en egen grupp i elcentralen: låt en behörig elektriker sköta det om du är osäker. Ett flyttbart element som Mill Gentle Air WiFi sätter du bara i ett vägguttag.',
+      },
+    ],
+  },
+  us: {
+    name: 'Smart electric heaters',
+    h1: `Black Friday ${Y}: The Smart Electric Heaters Worth Watching`,
+    metaTitle: `Black Friday ${Y}: Best Smart Electric Heaters to Watch`,
+    metaDescription: `Smart electric heaters worth watching this Black Friday ${Y}: Thermor, Sauter and Mill. Wall-mounted or portable, sensors, app control: what to check.`,
+    blurb: 'Thermor, Sauter, Mill: wall-mounted or portable, depending on your home.',
+    intro: 'There are two kinds to tell apart: wall-mounted thermal-mass heaters, which replace an old convector heater, and portable plug-in space heaters that need no installation. Also look for open-window detection and app control.',
+    faq: [
+      {
+        question: 'Wall-mounted or portable heater?',
+        answer: 'A wall-mounted thermal-mass heater warms a room evenly and takes the place of a convector. A portable space heater plugs into an outlet and helps out in one room when you need it, with no installation and no electrician.',
+      },
+      {
+        question: 'Will a smart heater lower my energy bill?',
+        answer: "Mostly by not heating when there's no need: scheduling, away and open-window detection, and control from your phone. How much you save depends on your habits and how well your home is insulated.",
+      },
+      {
+        question: 'Do I need an electrician?',
+        answer: 'A wall-mounted heater connects to a dedicated circuit, so hire a licensed electrician if you have any doubt. A portable heater such as the Mill Gentle Air WiFi simply plugs into an outlet; models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V.',
+      },
+    ],
+  },
+  ca: {
+    name: 'Smart electric heaters',
+    h1: `Black Friday ${Y}: the smart electric heaters worth watching`,
+    metaTitle: `Black Friday ${Y}: Smart Electric Heaters Worth Watching`,
+    metaDescription: `Smart electric heaters worth watching this Black Friday ${Y}: Thermor, Sauter and Mill. Wall-mounted or portable, sensors, app control: what to check.`,
+    blurb: 'Thermor, Sauter, Mill: wall-mounted or portable, depending on your home.',
+    intro: 'There are two kinds to tell apart: wall-mounted thermal-mass (inertia) heaters, which replace an old convection heater, and portable plug-in heaters that need no installation. Also check for open-window detection and app control.',
+    faq: [
+      {
+        question: 'Wall-mounted or portable heater?',
+        answer: 'A wall-mounted thermal-mass heater warms a room evenly and replaces a convection heater. A portable heater simply plugs in and gives one room a boost when you need it, with no installation work and no electrician.',
+      },
+      {
+        question: 'Does a smart heater lower your electricity bill?',
+        answer: "Mainly by not heating when there's no need: schedules, away and open-window detection, remote control. How much you save depends on your habits and how well your home is insulated.",
+      },
+      {
+        question: 'Do I need an electrician?',
+        answer: 'A wall-mounted heater is wired to a dedicated circuit. Electrical work rules are set by each province and territory, so when in doubt, hire a licensed electrician. A portable heater such as the Mill Gentle Air WiFi simply plugs in, with no wiring.',
+      },
+    ],
+  },
 }

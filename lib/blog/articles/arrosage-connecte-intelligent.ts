@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Aspersores emergentes regando un césped al atardecer, gestionados por un programador de riego inteligente',
         it: 'Irrigatori a scomparsa che bagnano un prato al tramonto, gestiti da una centralina di irrigazione smart',
         nl: 'Pop-up sproeiers die een gazon besproeien bij zonsondergang, aangestuurd door een slimme besproeiingscomputer',
-        pl: 'Wynurzalne zraszacze podlewające trawnik o zachodzie słońca, sterowane przez inteligentny sterownik nawadniania',
+        pl: 'Zraszacze wynurzalne podlewające trawnik o zachodzie słońca, uruchamiane przez inteligentny sterownik nawadniania',
+        sv: 'Pop up-spridare som vattnar en gräsmatta i solnedgången, styrda av en smart bevattningsdator',
+        us: 'Pop-up sprinklers watering a lawn at sunset, run by a smart irrigation controller',
+        ca: 'Pop-up sprinklers watering a lawn at sunset, run by a smart sprinkler controller',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Irrigazione smart connessa 2026: guida e migliori modelli',
     nl: 'Slimme tuinbesproeiing 2026: koopgids en beste modellen',
     pl: 'Inteligentne nawadnianie 2026: poradnik i najlepsze modele',
+    sv: 'Smart bevattning 2026: köpguide och de bästa modellerna',
+    us: 'Smart Sprinkler Controllers and Hose Timers 2026: Buying Guide and Best Picks',
+    ca: 'Smart Irrigation 2026: Best Hose Timers and Sprinkler Controllers',
   },
   excerpt: {
     fr: "Quel arrosage connecté choisir en 2026 ? Programmateur sur robinet ou centrale multizone : Gardena smart, Eve Aqua, LinkTap et Hunter comparés selon la connexion, les capteurs et le type de jardin.",
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: '¿Qué riego inteligente elegir en 2026? Programador de grifo o controlador multizona: Gardena smart, Eve Aqua, LinkTap y Hunter comparados por conectividad, sensores y tipo de jardín.',
     it: "Quale irrigazione smart scegliere nel 2026? Programmatore da rubinetto o centralina multizona: Gardena smart, Eve Aqua, LinkTap e Hunter a confronto per connettività, sensori e tipo di giardino.",
     nl: 'Welke slimme besproeiing kies je in 2026? Kraancomputer of meerzonecontroller: Gardena smart, Eve Aqua, LinkTap en Hunter vergeleken op verbinding, sensoren en type tuin.',
-    pl: 'Jakie inteligentne nawadnianie wybrać w 2026 roku? Sterownik na kran czy wielostrefowa centrala: Gardena smart, Eve Aqua, LinkTap i Hunter porównane pod kątem łączności, czujników i rodzaju ogrodu.',
+    pl: 'Jaki system inteligentnego nawadniania wybrać w 2026 roku? Sterownik na kran czy wielostrefowy sterownik z elektrozaworami? Porównujemy Gardena smart, Eve Aqua, LinkTap i Hunter pod kątem łączności, czujników i rodzaju ogrodu.',
+    sv: 'Vilken smart bevattning ska du välja 2026? Bevattningsdator på kranen eller styrenhet för flera zoner: Gardena smart, Eve Aqua, LinkTap och Hunter jämförda på uppkoppling, sensorer och typ av trädgård.',
+    us: 'Which smart irrigation system should you choose in 2026? Smart hose timer or multi-zone sprinkler controller: Gardena smart, Eve Aqua, LinkTap and Hunter compared on connectivity, sensors and yard type.',
+    ca: 'Which smart irrigation system should you choose in 2026? Hose timer or multi-zone sprinkler controller: Gardena smart, Eve Aqua, LinkTap and Hunter compared on connectivity, sensors and yard type.',
   },
   content: {
     fr: `<p><strong>Pour la plupart des jardins européens, le meilleur arrosage connecté intelligent en 2026 est le GARDENA smart Water Control Set</strong> : il se visse sur le robinet extérieur, adapte l'arrosage aux prévisions de pluie et peut s'appuyer sur un capteur d'humidité du sol. Si vous voulez un programmateur sans passerelle compatible Matter, l'<strong>Eve Aqua</strong> est l'alternative la plus simple ; pour un réseau enterré avec électrovannes, la <strong>GARDENA smart Irrigation Control</strong> pilote jusqu'à six zones.</p>
@@ -635,105 +644,402 @@ export const article: BlogArticle = {
 <h2>Conclusie</h2>
 <p>De <strong>GARDENA smart Water Control Set</strong> blijft de meest evenwichtige keuze voor een tuin die vanaf de kraan besproeid wordt. De <strong>Eve Aqua</strong> past bij wie een lokaal apparaat zonder gateway wil in Apple Home of Matter. Voor een ingegraven systeem moderniseert de <strong>GARDENA smart Irrigation Control</strong> tot zes zones, neemt de <strong>Hunter Pro-HC</strong> het over op grote percelen en valt de <strong>LinkTap G2S</strong> op als lekdetectie je prioriteit is.</p>
 <p>Om de rest van je buitenruimte uit te rusten, lees je onze <a href="/nl/blog/guide-jardin-connecte-2026">gids voor de slimme tuin 2026</a>.</p>`,
-    pl: `<p><strong>W większości europejskich ogrodów najlepszym inteligentnym nawadnianiem w 2026 roku jest GARDENA smart Water Control Set</strong>: wkręca się go w zewnętrzny kran, dostosowuje podlewanie do prognozy opadów i może współpracować z czujnikiem wilgotności gleby. Jeśli szukasz sterownika bez bramki, zgodnego z Matter, najprostszą alternatywą jest <strong>Eve Aqua</strong>; do podziemnej instalacji z elektrozaworami <strong>GARDENA smart Irrigation Control</strong> obsługuje do sześciu stref.</p>
-<p>Poradnik opiera się na kartach technicznych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie. Cały wybór znajdziesz na stronie <a href="/pl/outdoor-connecte/arrosage-connecte">inteligentne nawadnianie</a>.</p>
+    pl: `<p><strong>W większości europejskich ogrodów najlepszym systemem inteligentnego nawadniania w 2026 roku jest GARDENA smart Water Control Set</strong>: sterownik wkręcany w kran ogrodowy dopasowuje podlewanie do prognozy opadów i może współpracować z czujnikiem wilgotności gleby. Jeśli szukasz sterownika zgodnego z Matter, który nie wymaga bramki, najprostszą alternatywą jest <strong>Eve Aqua</strong>. Do podziemnej instalacji z elektrozaworami wybierz sterownik <strong>GARDENA smart Irrigation Control</strong>, który obsługuje do sześciu stref.</p>
+<p>Poradnik powstał na podstawie kart katalogowych producentów, niezależnych recenzji i opinii zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie. Pełne zestawienie znajdziesz na naszej stronie <a href="/pl/outdoor-connecte/arrosage-connecte">inteligentne nawadnianie</a>.</p>
 
 <h2>Jak działa inteligentne nawadnianie?</h2>
-<p>Inteligentne nawadnianie zastępuje mechaniczny zegar urządzeniem sterowanym z aplikacji. Ustawiasz przedziały podlewania, a system dostosowuje je na podstawie kilku źródeł:</p>
+<p>W inteligentnym nawadnianiu miejsce mechanicznego programatora zajmuje urządzenie sterowane z aplikacji. Ustalasz harmonogram podlewania, a system koryguje go na podstawie kilku źródeł danych:</p>
 <ul>
-<li><strong>Lokalna prognoza pogody</strong>: podlewanie jest przekładane lub odwoływane, gdy zapowiadany jest deszcz.</li>
-<li><strong>Wilgotność gleby</strong>: dzięki czujnikowi wbitemu w strefę podlewanie włącza się tylko wtedy, gdy ziemia jest naprawdę sucha.</li>
-<li><strong>Rodzaj strefy</strong>: trawnik, rabaty, warzywnik czy żywopłot mają różne potrzeby.</li>
+<li><strong>Lokalna prognoza pogody</strong>: gdy zapowiadany jest deszcz, podlewanie zostaje przesunięte lub odwołane.</li>
+<li><strong>Wilgotność gleby</strong>: jeśli w strefie jest czujnik wbity w ziemię, podlewanie rusza tylko wtedy, gdy gleba jest naprawdę sucha.</li>
+<li><strong>Rodzaj strefy</strong>: trawnik, rabaty, warzywnik i żywopłot mają różne potrzeby.</li>
 </ul>
-<p>Oszczędność wody zależy w dużej mierze od klimatu, wielkości ogrodu i dotychczasowych nawyków. Ogród podlewany „na oko” według stałego zegara zyskuje bardzo dużo; ogrodnik, który już pilnuje wilgotności, zyskuje przede wszystkim wygodę. Uważaj na uniwersalne wartości procentowe: żadna liczba nie sprawdza się w każdym ogrodzie.</p>
+<p>Ile wody zaoszczędzisz, zależy w dużej mierze od klimatu, wielkości ogrodu i Twoich dotychczasowych nawyków. Ogród podlewany „na oko” według sztywnego harmonogramu może zyskać bardzo dużo; jeśli już teraz podlewasz z rozwagą, zyskasz przede wszystkim wygodę. Nie ufaj uniwersalnym wartościom procentowym: żadna liczba nie pasuje do każdego ogrodu.</p>
 
 <h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Sterownik na kran czy centrala wielostrefowa</strong>. Sterownik wkręca się między kran a wąż: idealny do ogrodu podlewanego wężem, linią kroplującą lub zraszaczem. Centrala steruje podziemnymi elektrozaworami 24 V, po jednym na strefę: to rozwiązanie dla wbudowanych systemów nawadniania.</li>
-<li><strong>Łączność</strong>. Wi-Fi słabo sięga w głąb ogrodu. Dlatego Gardena i LinkTap korzystają z radiowej bramki dalekiego zasięgu podłączonej do routera, a Eve Aqua łączy się przez Thread lub Bluetooth.</li>
-<li><strong>Czujniki</strong>. Czujnik wilgotności gleby sprawia, że podlewanie jest trafniejsze niż samo uwzględnianie pogody. Wbudowany przepływomierz pozwala wykryć wyciek, odłączony wąż lub zamknięty kran.</li>
-<li><strong>Ekosystem inteligentnego domu</strong>. Sprawdź zgodność z Apple Home, Google Home, Alexa lub Home Assistant, jeśli chcesz tworzyć scenariusze.</li>
-<li><strong>Praca offline</strong>. Najlepsze modele zapamiętują program i podlewają dalej, gdy zniknie internet.</li>
-<li><strong>Zima</strong>. Sterowniki na kran demontuje się przed przymrozkami; zaplanuj ich schowanie.</li>
+<li><strong>Sterownik na kran czy sterownik wielostrefowy</strong>. Sterownik na kran montuje się między kranem a wężem: to idealne rozwiązanie, jeśli podlewasz wężem, linią kroplującą lub zraszaczem. Sterownik wielostrefowy obsługuje zakopane w ziemi elektrozawory 24 V, po jednym na strefę – tak działają stałe, wbudowane systemy nawadniania.</li>
+<li><strong>Łączność</strong>. Zasięg Wi-Fi w głębi ogrodu bywa słaby. Dlatego Gardena i LinkTap stosują bramkę radiową dalekiego zasięgu podłączoną do routera, a Eve Aqua łączy się przez Thread lub Bluetooth.</li>
+<li><strong>Czujniki</strong>. Z czujnikiem wilgotności gleby podlewanie jest lepiej dopasowane niż przy samej prognozie pogody. Wbudowany przepływomierz pozwala wykryć wyciek, odłączony wąż albo zakręcony kran.</li>
+<li><strong>Ekosystem inteligentnego domu</strong>. Jeśli chcesz tworzyć scenariusze, sprawdź zgodność z Apple Home, Google Home, Alexą lub Home Assistant.</li>
+<li><strong>Praca offline</strong>. Najlepsze modele przechowują program w pamięci i podlewają dalej, nawet gdy zniknie internet.</li>
+<li><strong>Zima</strong>. Sterowniki na kran trzeba zdjąć przed przymrozkami i schować do pomieszczenia.</li>
 </ul>
 
-<h2>Najlepsze inteligentne systemy nawadniania w 2026 roku</h2>
+<h2>Najlepsze systemy inteligentnego nawadniania w 2026 roku</h2>
 
-<h3>GARDENA smart Water Control Set: najlepszy wybór ogólny</h3>
-<p>Zestaw łączy sterownik <strong>smart Water Control</strong>, wkręcany w kran, oraz <strong>smart Gateway</strong>, która łączy się z routerem przez Wi-Fi lub kabel sieciowy i komunikuje się z ogrodem drogą radiową na duży dystans. W aplikacji GARDENA smart tworzysz przedziały podlewania; aplikacja może uwzględniać prognozę opadów, a z opcjonalnym <strong>smart Sensor</strong> także wilgotność gleby, temperaturę i natężenie światła. Sterownik zasilany jest bateriami AA i ostrzega przed ryzykiem mrozu.</p>
-<p><strong>Mocne strony</strong>: kompletny ekosystem (węże, nawadnianie kropelkowe, zraszacze, roboty koszące SILENO i pompy z tej samej serii), zgodność z Apple Home, Alexa i Google Assistant przez bramkę, marka bardzo obecna w Europie z dobrze ugruntowanym serwisem posprzedażowym.</p>
-<p><strong>Ograniczenia</strong>: tylko jedno wyjście wody; bramka jest niezbędna; brak wbudowanego przepływomierza.</p>
-<p><strong>Dla kogo</strong>: dla większości ogrodów podlewanych z zewnętrznego kranu, zwłaszcza jeśli masz już sprzęt Gardena.</p>
+<h3>GARDENA smart Water Control Set: najlepszy wybór dla większości</h3>
+<p>Zestaw składa się ze sterownika <strong>smart Water Control</strong>, który wkręca się w kran, oraz bramki <strong>smart Gateway</strong>. Bramka łączy się z routerem przez Wi-Fi lub kabel sieciowy, a z urządzeniami w ogrodzie komunikuje się drogą radiową na duże odległości. Harmonogram podlewania ustawiasz w aplikacji GARDENA smart; aplikacja może uwzględniać prognozę opadów, a z opcjonalnym czujnikiem <strong>smart Sensor</strong> także wilgotność gleby, temperaturę i nasłonecznienie. Sterownik działa na bateriach AA i ostrzega, gdy grozi mróz.</p>
+<p><strong>Mocne strony</strong>: kompletny ekosystem (węże, nawadnianie kropelkowe, zraszacze, roboty koszące SILENO i pompy z tej samej linii), zgodność z Apple Home, Alexą i Asystentem Google przez bramkę, marka bardzo popularna w Europie, z dobrze zorganizowanym serwisem.</p>
+<p><strong>Ograniczenia</strong>: tylko jedno wyjście wody; bez bramki się nie obejdzie; brak wbudowanego przepływomierza.</p>
+<p><strong>Dla kogo</strong>: dla większości ogrodów podlewanych z kranu zewnętrznego, zwłaszcza jeśli masz już sprzęt Gardena.</p>
 
 <h3>Eve Aqua: najprostszy, bez bramki, zgodny z Matter</h3>
-<p><strong>Eve Aqua</strong> również wkręca się w kran (gwint 26,5 mm, czyli 3/4"). Komunikuje się przez Bluetooth i Thread oraz obsługuje <strong>Matter</strong>: działa z Apple Home, Google Home, Alexa lub SmartThings, pod warunkiem że masz kontroler Matter i router graniczny Thread. Programy zapisane są w urządzeniu, do siedmiu przedziałów dziennie, a podlewanie trwa dalej bez internetu. Zasilają go dwie baterie AA, a obudowa ma stopień ochrony IPX4.</p>
-<p><strong>Mocne strony</strong>: brak własnościowej bramki i obowiązkowego konta w chmurze, praca lokalna, instalacja w kilka minut.</p>
-<p><strong>Ograniczenia</strong>: jedno wyjście, brak własnego czujnika wilgotności gleby; dostosowanie do pogody odbywa się przez automatyzacje w inteligentnym domu. Dopuszczalne ciśnienie wody to od 1 do 5 barów.</p>
-<p><strong>Dla kogo</strong>: dla domów już wyposażonych w Apple Home lub ekosystem Matter oraz dla tych, którzy wolą urządzenie niezależne od chmury.</p>
+<p><strong>Eve Aqua</strong> również wkręca się w kran (gwint 26,5 mm, czyli 3/4"). Komunikuje się przez Bluetooth i Thread oraz obsługuje standard <strong>Matter</strong>, więc działa z Apple Home, Google Home, Alexą i SmartThings – pod warunkiem że masz kontroler Matter i router brzegowy Thread. Programy zapisuje w pamięci urządzenia (do siedmiu okien czasowych dziennie), więc podlewa także bez internetu. Zasilają go dwie baterie AA, a obudowa ma stopień ochrony IPX4.</p>
+<p><strong>Mocne strony</strong>: nie wymaga bramki producenta ani konta w chmurze, działa lokalnie, a montaż zajmuje kilka minut.</p>
+<p><strong>Ograniczenia</strong>: jedno wyjście; marka nie oferuje własnego czujnika wilgotności gleby, a dopasowanie podlewania do pogody wymaga automatyzacji w systemie inteligentnego domu. Sterownik pracuje przy ciśnieniu wody od 1 do 5 barów.</p>
+<p><strong>Dla kogo</strong>: dla domów, w których działa już Apple Home lub inny ekosystem Matter, oraz dla osób, które wolą urządzenie niezależne od chmury.</p>
 
 <h3>GARDENA smart Irrigation Control: najlepszy do instalacji podziemnej</h3>
-<p><strong>smart Irrigation Control</strong> steruje do <strong>sześciu elektrozaworów 24 V</strong>, marki Gardena lub większości innych producentów. Zastępuje sterownik w istniejącej instalacji i pozwala obsługiwać ją z tej samej aplikacji co resztę systemu Gardena. Jest dostępny w zestawie z bramką i smart Sensor, dzięki czemu podlewanie włącza się według rzeczywistej wilgotności gleby przy korzeniach.</p>
-<p><strong>Mocne strony</strong>: sześć niezależnych stref, szeroka zgodność z zaworami dostępnymi na rynku, integracja z systemem smart Gardena i z Apple Home przez bramkę.</p>
-<p><strong>Ograniczenia</strong>: wymaga już założonej sieci elektrozaworów; maksymalnie sześć stref.</p>
-<p><strong>Dla kogo</strong>: dla ogrodów z podziemnym nawadnianiem do unowocześnienia, bez przechodzenia na profesjonalną centralę.</p>
+<p><strong>smart Irrigation Control</strong> steruje maksymalnie <strong>sześcioma elektrozaworami 24 V</strong> marki Gardena lub większości innych producentów. Zastępuje sterownik w istniejącej instalacji, dzięki czemu obsługujesz ją z tej samej aplikacji co pozostałe urządzenia Gardena. Jest też dostępny w zestawie z bramką i czujnikiem smart Sensor – wtedy podlewanie uruchamia się na podstawie rzeczywistej wilgotności gleby na głębokości korzeni.</p>
+<p><strong>Mocne strony</strong>: sześć niezależnych stref, zgodność z większością zaworów dostępnych na rynku, integracja z systemem GARDENA smart i – przez bramkę – z Apple Home.</p>
+<p><strong>Ograniczenia</strong>: wymaga gotowej instalacji z elektrozaworami; maksymalnie sześć stref.</p>
+<p><strong>Dla kogo</strong>: dla ogrodów z instalacją podziemną, którą chcesz unowocześnić bez przechodzenia na profesjonalny sterownik.</p>
 
 <h3>LinkTap G2S: najlepszy do monitorowania wycieków</h3>
-<p><strong>LinkTap G2S</strong> to sterownik na kran wyróżniający się <strong>wbudowanym przepływomierzem i czujnikiem nachylenia</strong>. Wysyła alert w razie wycieku, zatkanego węża, przerwy w dopływie wody lub wadliwego zaworu i może pominąć podlewanie w zależności od pogody. Ma certyfikat IP66. Wymaga bramki LinkTap, sprzedawanej osobno lub w zestawie, która oferuje też lokalny interfejs ceniony przez użytkowników Home Assistant.</p>
-<p><strong>Mocne strony</strong>: śledzenie zużycia przy każdym podlewaniu, szczegółowe alerty, dobra lokalna integracja z inteligentnym domem.</p>
-<p><strong>Ograniczenia</strong>: obowiązkowa bramka; marka mniej znana i węższa sieć dystrybucji niż Gardena.</p>
-<p><strong>Dla kogo</strong>: dla domków letniskowych i wszystkich, którzy chcą od razu wiedzieć, że coś jest nie tak. Wnętrze domu zabezpieczysz według naszego poradnika o <a href="/pl/blog/detection-fuite-eau-connectee">inteligentnym wykrywaniu zalania</a>.</p>
+<p><strong>LinkTap G2S</strong> to sterownik na kran, który wyróżnia się <strong>wbudowanym przepływomierzem i czujnikiem przechyłu</strong>. Wysyła powiadomienie, gdy wykryje wyciek, zatkany wąż, przerwę w dopływie wody lub awarię zaworu, a w zależności od pogody może pominąć zaplanowane podlewanie. Ma stopień ochrony IP66. Do działania wymaga bramki LinkTap (sprzedawanej osobno lub w zestawie), która oferuje też lokalny interfejs ceniony przez użytkowników Home Assistant.</p>
+<p><strong>Mocne strony</strong>: pomiar zużycia wody przy każdym podlewaniu, szczegółowe powiadomienia, dobra lokalna integracja z systemami inteligentnego domu.</p>
+<p><strong>Ograniczenia</strong>: bramka jest obowiązkowa; marka jest mniej znana niż Gardena i trudniej dostępna w sklepach.</p>
+<p><strong>Dla kogo</strong>: dla domków letniskowych i wszystkich, którzy chcą od razu wiedzieć, że coś jest nie tak. Jeśli chcesz zabezpieczyć także wnętrze domu, zajrzyj do naszego poradnika o <a href="/pl/blog/detection-fuite-eau-connectee">inteligentnym wykrywaniu wycieków wody</a>.</p>
 
-<h3>Hunter Pro-HC: centrala dla dużych ogrodów</h3>
-<p><strong>Hunter Pro-HC</strong> to centrala Wi-Fi sterowana aplikacją Hydrawise. Występuje w wersjach 6, 12 i 24 stacji, z wariantami 230 V dla Europy. Funkcja Predictive Watering dostosowuje programy na podstawie lokalnych danych pogodowych, a centrala obsługuje czujniki deszczu, mrozu, przepływu i wilgotności gleby.</p>
-<p><strong>Mocne strony</strong>: do 24 stref, bardzo precyzyjne zarządzanie, narzędzie referencyjne wśród instalatorów.</p>
-<p><strong>Ograniczenia</strong>: przewymiarowana do małego ogrodu; uruchomienie bardziej techniczne, często powierzane fachowcowi.</p>
+<h3>Hunter Pro-HC: sterownik do dużych ogrodów</h3>
+<p><strong>Hunter Pro-HC</strong> to sterownik z Wi-Fi obsługiwany przez aplikację Hydrawise. Występuje w wersjach na 6, 12 i 24 sekcje, w tym z zasilaniem 230 V na rynek europejski. Funkcja Predictive Watering koryguje programy na podstawie lokalnych danych pogodowych, a do sterownika można podłączyć czujniki deszczu, mrozu, przepływu i wilgotności gleby.</p>
+<p><strong>Mocne strony</strong>: do 24 stref, bardzo precyzyjne ustawienia, sprzęt uznawany za standard wśród instalatorów.</p>
+<p><strong>Ograniczenia</strong>: zbyt rozbudowany jak na mały ogród; uruchomienie jest bardziej techniczne i często zleca się je fachowcowi.</p>
 <p><strong>Dla kogo</strong>: dla dużych działek z wieloma strefami i kompletną instalacją podziemną.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Typ</th><th>Strefy</th><th>Łączność</th><th>Czujniki</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Typ</th><th>Strefy</th><th>Łączność</th><th>Czujniki</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>GARDENA smart Water Control Set</td><td>Sterownik na kran</td><td>1</td><td>Bramka radiowa + Wi-Fi/Ethernet</td><td>smart Sensor opcjonalnie</td><td>Większość ogrodów</td></tr>
+<tr><td>GARDENA smart Water Control Set</td><td>Sterownik na kran</td><td>1</td><td>Bramka radiowa + Wi-Fi/Ethernet</td><td>Opcjonalnie smart Sensor</td><td>Większość ogrodów</td></tr>
 <tr><td>Eve Aqua</td><td>Sterownik na kran</td><td>1</td><td>Thread, Bluetooth, Matter</td><td>Brak</td><td>Apple Home i Matter</td></tr>
-<tr><td>GARDENA smart Irrigation Control</td><td>Centrala elektrozaworów 24 V</td><td>6</td><td>Bramka radiowa + Wi-Fi/Ethernet</td><td>smart Sensor (zależnie od zestawu)</td><td>Istniejąca instalacja podziemna</td></tr>
+<tr><td>GARDENA smart Irrigation Control</td><td>Sterownik elektrozaworów 24 V</td><td>6</td><td>Bramka radiowa + Wi-Fi/Ethernet</td><td>smart Sensor (zależnie od zestawu)</td><td>Istniejąca instalacja podziemna</td></tr>
 <tr><td>LinkTap G2S</td><td>Sterownik na kran</td><td>1</td><td>Bramka LinkTap</td><td>Wbudowany przepływomierz</td><td>Monitorowanie wycieków</td></tr>
-<tr><td>Hunter Pro-HC</td><td>Centrala elektrozaworów 24 V</td><td>6, 12 lub 24</td><td>Wi-Fi (Hydrawise)</td><td>Deszcz, przepływ, gleba opcjonalnie</td><td>Duże ogrody</td></tr>
+<tr><td>Hunter Pro-HC</td><td>Sterownik elektrozaworów 24 V</td><td>6, 12 lub 24</td><td>Wi-Fi (Hydrawise)</td><td>Opcjonalnie: deszcz, przepływ, gleba</td><td>Duże ogrody</td></tr>
 </tbody>
 </table>
 
 <h2>Czujnik wilgotności gleby: przydatny czy gadżet?</h2>
-<p>Pogoda mówi, czy będzie padać; czujnik mówi, czy ziemia jest spragniona. Wbity na wysokości korzeni w najbardziej reprezentatywnej strefie, pozwala nie podlewać gleby wciąż wilgotnej po burzy lub w zacienionym kącie. To najbardziej przydatne uzupełnienie sterownika, zwłaszcza przy trawniku. Żeby porównać modele i dowiedzieć się, gdzie je umieścić, przeczytaj nasz poradnik o <a href="/pl/blog/capteur-sol-humidite-jardin">czujniku wilgotności gleby</a>.</p>
+<p>Prognoza pogody mówi, czy będzie padać, a czujnik – czy ziemia potrzebuje wody. Umieszcza się go na głębokości korzeni, w miejscu najbardziej typowym dla danej strefy. Dzięki niemu system nie podlewa gleby, która po burzy wciąż jest wilgotna, ani zacienionego zakątka, gdzie ziemia długo nie wysycha. To najbardziej przydatne uzupełnienie sterownika, zwłaszcza przy trawniku. Porównanie modeli i wskazówki, gdzie je umieścić, znajdziesz w naszym poradniku o <a href="/pl/blog/capteur-sol-humidite-jardin">czujnikach wilgotności gleby</a>.</p>
 
-<h2>Instalacja: kolejne kroki</h2>
+<h2>Montaż krok po kroku</h2>
 <ul>
-<li><strong>Sterownik na kran</strong>: wkręć go w zewnętrzny kran, podłącz wąż, sparuj go w aplikacji. Wystarczy kilka minut, bez narzędzi. Zostaw kran otwarty: to sterownik otwiera i zamyka wodę.</li>
-<li><strong>Bramka</strong>: ustaw ją przy oknie od strony ogrodu, podłączoną do routera, dla lepszego zasięgu radiowego.</li>
-<li><strong>Centrala wielostrefowa</strong>: zastępuje stary sterownik; wystarczy przenieść przewody każdego elektrozaworu oraz przewód wspólny. Zanotuj sposób podłączenia, zanim zdemontujesz stare urządzenie.</li>
-<li><strong>Konfiguracja</strong>: nazwij każdą strefę, wskaż rodzaj nasadzeń i włącz dostosowanie do pogody oraz powiadomienia.</li>
+<li><strong>Sterownik na kran</strong>: wkręć go w kran ogrodowy, podłącz wąż i sparuj urządzenie w aplikacji. Zajmuje to kilka minut i nie wymaga narzędzi. Zostaw kran odkręcony: to sterownik otwiera i zamyka przepływ wody.</li>
+<li><strong>Bramka</strong>: podłącz ją do routera i ustaw przy oknie od strony ogrodu, żeby uzyskać lepszy zasięg radiowy.</li>
+<li><strong>Sterownik wielostrefowy</strong>: zastępuje dotychczasowy sterownik; wystarczy przełożyć przewody każdego elektrozaworu i przewód wspólny. Zanim zdemontujesz stare urządzenie, zanotuj, jak były podłączone przewody.</li>
+<li><strong>Konfiguracja</strong>: nadaj nazwę każdej strefie, wybierz rodzaj roślin i włącz dostosowanie do pogody oraz powiadomienia.</li>
 </ul>
 
 <h2>Bezpieczeństwo i dobre praktyki</h2>
 <ul>
-<li><strong>Elektryczność</strong>: centralę podłączoną do sieci należy zainstalować zgodnie z instrukcją, w gniazdku zabezpieczonym wyłącznikiem różnicowoprądowym 30 mA. Przy każdym stałym podłączeniu lub tworzeniu zewnętrznego obwodu skorzystaj z pomocy wykwalifikowanego elektryka.</li>
-<li><strong>Woda deszczowa</strong>: jeśli podlewasz ze zbiornika, nigdy nie łącz tego obiegu z siecią wody pitnej; oba muszą pozostać oddzielone.</li>
-<li><strong>Mróz</strong>: przed zimą zdemontuj sterowniki na kran i opróżnij węże.</li>
-<li><strong>Baterie</strong>: wymień je na początku sezonu i włącz alert o niskim poziomie naładowania.</li>
+<li><strong>Instalacja elektryczna</strong>: sterownik zasilany z sieci zainstaluj zgodnie z instrukcją, w gniazdku zabezpieczonym wyłącznikiem różnicowoprądowym 30 mA. Stałe podłączenie do instalacji czy nowy obwód na zewnątrz zleć wykwalifikowanemu elektrykowi.</li>
+<li><strong>Deszczówka</strong>: jeśli podlewasz wodą ze zbiornika, nigdy nie łącz tej instalacji z instalacją wody pitnej – obie muszą pozostać rozdzielone.</li>
+<li><strong>Mróz</strong>: przed zimą zdejmij sterowniki z kranów i spuść wodę z węży.</li>
+<li><strong>Baterie</strong>: wymieniaj je na początku sezonu i włącz powiadomienie o niskim poziomie naładowania.</li>
 </ul>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Wybór modelu zaprojektowanego dla Ameryki Północnej</strong>: niektóre centrale popularne w Stanach Zjednoczonych nie są oficjalnie sprzedawane w Europie ani przystosowane do 230 V.</li>
+<li><strong>Wybór modelu przeznaczonego na rynek północnoamerykański</strong>: niektóre sterowniki popularne w USA nie są oficjalnie sprzedawane w Europie ani przystosowane do napięcia 230 V.</li>
 <li><strong>Poleganie na Wi-Fi w głębi ogrodu</strong> bez sprawdzenia zasięgu.</li>
-<li><strong>Podlewanie w środku dnia</strong>: parowanie jest wtedy największe. Ustaw program na wczesny ranek.</li>
-<li><strong>Jeden program dla całego ogrodu</strong>: rozdziel trawnik, rabaty i warzywnik.</li>
-<li><strong>Zapominanie o ograniczeniach w poborze wody</strong>: w okresie suszy lokalne przepisy mogą ograniczać podlewanie. W razie potrzeby wstrzymaj programy.</li>
+<li><strong>Podlewanie w środku dnia</strong>: woda paruje wtedy najszybciej. Zaplanuj podlewanie na wczesny ranek.</li>
+<li><strong>Jeden program dla całego ogrodu</strong>: trawnik, rabaty i warzywnik zaprogramuj osobno.</li>
+<li><strong>Zapominanie o ograniczeniach w zużyciu wody</strong>: w czasie suszy lokalne władze mogą ograniczać podlewanie. W razie potrzeby wstrzymaj programy.</li>
 </ul>
 
 <h2>Werdykt</h2>
-<p><strong>GARDENA smart Water Control Set</strong> pozostaje najbardziej wyważonym wyborem do ogrodu podlewanego z kranu. <strong>Eve Aqua</strong> pasuje tym, którzy chcą urządzenia lokalnego, bez bramki, w Apple Home lub Matter. Przy instalacji podziemnej <strong>GARDENA smart Irrigation Control</strong> unowocześni do sześciu stref, <strong>Hunter Pro-HC</strong> przejmuje pałeczkę na dużych działkach, a <strong>LinkTap G2S</strong> wygrywa, gdy priorytetem jest wykrywanie wycieków.</p>
-<p>Żeby wyposażyć resztę terenu na zewnątrz, zajrzyj do naszego <a href="/pl/blog/guide-jardin-connecte-2026">poradnika o inteligentnym ogrodzie 2026</a>.</p>`,
+<p><strong>GARDENA smart Water Control Set</strong> to wciąż najlepiej wyważony wybór do ogrodu podlewanego z kranu. <strong>Eve Aqua</strong> przypadnie do gustu osobom, które chcą urządzenia działającego lokalnie, bez bramki, w ekosystemie Apple Home lub Matter. Przy instalacji podziemnej <strong>GARDENA smart Irrigation Control</strong> unowocześni do sześciu stref, na dużych działkach lepiej sprawdzi się <strong>Hunter Pro-HC</strong>, a jeśli priorytetem jest wykrywanie wycieków, wybierz <strong>LinkTap G2S</strong>.</p>
+<p>Pomysły na wyposażenie reszty ogrodu znajdziesz w naszym <a href="/pl/blog/guide-jardin-connecte-2026">przewodniku po inteligentnym ogrodzie 2026</a>.</p>`,
+    sv: `<p><strong>Det bästa smarta bevattningssystemet 2026 för de flesta trädgårdar i Europa är GARDENA smart Water Control Set</strong>: det skruvas fast på utekranen, anpassar bevattningen efter regnprognosen och kan använda en markfuktighetssensor. Vill du ha en bevattningsdator med Matter och utan gateway är <strong>Eve Aqua</strong> det enklaste alternativet. För ett nedgrävt system med magnetventiler styr <strong>GARDENA smart Irrigation Control</strong> upp till sex zoner.</p>
+<p>Guiden bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Den tar bara med modeller som säljs i Europa. Hela urvalet hittar du på vår sida om <a href="/sv/outdoor-connecte/arrosage-connecte">smart bevattning</a>.</p>
+
+<h2>Hur fungerar smart bevattning?</h2>
+<p>Ett smart bevattningssystem ersätter det mekaniska tiduret med en enhet som du styr i en app. Du lägger upp tider för bevattningen, och sedan justerar systemet dem utifrån flera källor:</p>
+<ul>
+<li><strong>Lokala väderprognoser</strong>: bevattningen skjuts upp eller ställs in när det väntas regn.</li>
+<li><strong>Markfuktigheten</strong>: med en sensor nedstucken i zonen startar bevattningen bara när jorden verkligen är torr.</li>
+<li><strong>Typ av zon</strong>: gräsmatta, rabatter, köksträdgård och häck har olika behov.</li>
+</ul>
+<p>Hur mycket vatten du sparar beror till stor del på klimatet, trädgårdens storlek och hur du vattnar i dag. En trädgård som vattnas på en höft med ett fast tidur har mycket att vinna, medan den som redan vattnar noggrant främst vinner bekvämlighet. Var skeptisk mot procentsatser som sägs gälla alla: ingen enskild siffra stämmer för varje trädgård.</p>
+
+<h2>Så väljer du rätt</h2>
+<ul>
+<li><strong>Bevattningsdator på kranen eller styrenhet för flera zoner</strong>. En bevattningsdator skruvas fast mellan kranen och slangen och passar perfekt när du vattnar med slang, droppbevattning eller spridare. En styrenhet sköter nedgrävda magnetventiler på 24 V, en per zon: det är lösningen för fast installerade bevattningssystem.</li>
+<li><strong>Uppkoppling</strong>. Wifi når sällan längst ner i trädgården. Därför använder Gardena och LinkTap en gateway som kopplas till din router och når ut i trädgården via radio med lång räckvidd, medan Eve Aqua använder Thread eller Bluetooth.</li>
+<li><strong>Sensorer</strong>. En markfuktighetssensor gör bevattningen mer träffsäker än enbart väderdata. En inbyggd flödesmätare hjälper dig att upptäcka en läcka, en slang som lossnat eller en kran som fortfarande är stängd.</li>
+<li><strong>Smarthemsplattform</strong>. Kontrollera att systemet fungerar med Apple Home, Google Home, Alexa eller Home Assistant om du vill skapa automationer.</li>
+<li><strong>Funktion utan internet</strong>. De bästa modellerna sparar schemat i enheten och fortsätter vattna om internet går ner.</li>
+<li><strong>Vinter</strong>. Bevattningsdatorer på kranen ska monteras bort innan frosten kommer och tas in över vintern.</li>
+</ul>
+
+<h2>De bästa smarta bevattningssystemen 2026</h2>
+
+<h3>GARDENA smart Water Control Set: bäst totalt</h3>
+<p>Kitet består av bevattningsdatorn <strong>smart Water Control</strong>, som skruvas på kranen, och <strong>smart Gateway</strong>, som ansluts till din router via wifi eller nätverkskabel och kommunicerar med trädgården via radio med lång räckvidd. I appen GARDENA smart lägger du upp bevattningstiderna. Appen kan ta hänsyn till regnprognoser och, med tillvalet <strong>smart Sensor</strong>, även till markfuktighet, temperatur och ljus. Bevattningsdatorn drivs med AA-batterier och varnar när det finns risk för frost.</p>
+<p><strong>Styrkor</strong>: ett komplett ekosystem (slangar, droppbevattning, spridare, robotgräsklippare i SILENO-serien och pumpar i samma sortiment), fungerar med Apple Home, Alexa och Google Assistant via gatewayen, ett märke som är lätt att hitta i hela Europa, med väletablerad service.</p>
+<p><strong>Svagheter</strong>: bara ett utlopp, gatewayen krävs, ingen inbyggd flödesmätare.</p>
+<p><strong>Passar för</strong>: de flesta trädgårdar som vattnas från en utekran, särskilt om du redan har utrustning från Gardena.</p>
+
+<h3>Eve Aqua: enklast, utan gateway och med Matter</h3>
+<p><strong>Eve Aqua</strong> skruvas också fast på kranen (gänga 26,5 mm, dvs. 3/4"). Den kommunicerar via Bluetooth och Thread och har stöd för <strong>Matter</strong>: den fungerar med Apple Home, Google Home, Alexa eller SmartThings, förutsatt att du har en Matter-controller och en Thread Border Router (gränsrouter för Thread). Programmen sparas i själva enheten, upp till sju bevattningstider per dag, och den fortsätter vattna utan internet. Den drivs med två AA-batterier och har kapslingsklass IPX4.</p>
+<p><strong>Styrkor</strong>: ingen tillverkarspecifik gateway och inget obligatoriskt molnkonto, fungerar lokalt, installerad på några minuter.</p>
+<p><strong>Svagheter</strong>: bara ett utlopp och ingen egen markfuktighetssensor. Väderanpassningen får du sköta med automationer i ditt smarta hem. Klarar ett vattentryck på 1–5 bar.</p>
+<p><strong>Passar för</strong>: hem som redan använder Apple Home eller ett Matter-ekosystem, och alla som föredrar en enhet som inte är beroende av molnet.</p>
+
+<h3>GARDENA smart Irrigation Control: bäst för nedgrävda system</h3>
+<p>Med <strong>smart Irrigation Control</strong> styr du upp till <strong>sex magnetventiler på 24 V</strong>, från Gardena eller de flesta andra märken. Den ersätter styrenheten i en befintlig installation, så att du kan styra bevattningen i samma app som resten av Gardena-systemet. Den finns också som kit med gateway och smart Sensor, för bevattning som startar utifrån den faktiska markfuktigheten vid rötterna.</p>
+<p><strong>Styrkor</strong>: sex oberoende zoner, fungerar med de flesta ventiler på marknaden, integreras i Gardena smart system och i Apple Home via gatewayen.</p>
+<p><strong>Svagheter</strong>: förutsätter att det redan finns ett nät av magnetventiler, högst sex zoner.</p>
+<p><strong>Passar för</strong>: trädgårdar med ett nedgrävt bevattningssystem som behöver moderniseras, utan att gå över till en professionell styrenhet.</p>
+
+<h3>LinkTap G2S: bäst för att upptäcka läckor</h3>
+<p><strong>LinkTap G2S</strong> är en bevattningsdator för kranen som sticker ut med sin <strong>inbyggda flödesmätare och lutningssensor</strong>. Den varnar vid läcka, igensatt slang, vattenavbrott eller ventilfel och kan hoppa över en bevattning beroende på vädret. Den har kapslingsklass IP66 och kräver LinkTaps gateway, som säljs separat eller i kit och som även har ett lokalt gränssnitt som är populärt bland dem som använder Home Assistant.</p>
+<p><strong>Styrkor</strong>: visar vattenförbrukningen för varje bevattning, detaljerade varningar, bra lokal integration i smarta hem.</p>
+<p><strong>Svagheter</strong>: gateway krävs, ett mindre känt märke som finns hos färre återförsäljare än Gardena.</p>
+<p><strong>Passar för</strong>: fritidshus och alla som vill få veta direkt när något inte står rätt till. För läckor inomhus kan du läsa vår guide om <a href="/sv/blog/detection-fuite-eau-connectee">smarta vattenlarm</a>.</p>
+
+<h3>Hunter Pro-HC: styrenheten för stora trädgårdar</h3>
+<p><strong>Hunter Pro-HC</strong> är en styrenhet med wifi som styrs via appen Hydrawise. Den finns i versioner för 6, 12 och 24 stationer, även i 230 V-utförande för Europa. Funktionen Predictive Watering justerar schemat utifrån lokala väderdata, och styrenheten kan kopplas till sensorer för regn, frost, flöde och markfuktighet.</p>
+<p><strong>Styrkor</strong>: upp till 24 zoner, mycket detaljerad styrning, något av en standard bland installatörer.</p>
+<p><strong>Svagheter</strong>: överdimensionerad för en liten trädgård, idrifttagningen är mer teknisk och sköts ofta av ett proffs.</p>
+<p><strong>Passar för</strong>: stora tomter med många zoner och ett komplett nedgrävt system.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Zoner</th><th>Uppkoppling</th><th>Sensorer</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>GARDENA smart Water Control Set</td><td>Bevattningsdator för kran</td><td>1</td><td>Radiogateway + wifi/Ethernet</td><td>smart Sensor som tillval</td><td>De flesta trädgårdar</td></tr>
+<tr><td>Eve Aqua</td><td>Bevattningsdator för kran</td><td>1</td><td>Thread, Bluetooth, Matter</td><td>Nej</td><td>Apple Home och Matter</td></tr>
+<tr><td>GARDENA smart Irrigation Control</td><td>Styrenhet för 24 V-ventiler</td><td>6</td><td>Radiogateway + wifi/Ethernet</td><td>smart Sensor (beroende på kit)</td><td>Befintligt nedgrävt system</td></tr>
+<tr><td>LinkTap G2S</td><td>Bevattningsdator för kran</td><td>1</td><td>LinkTap-gateway</td><td>Inbyggd flödesmätare</td><td>Läckövervakning</td></tr>
+<tr><td>Hunter Pro-HC</td><td>Styrenhet för 24 V-ventiler</td><td>6, 12 eller 24</td><td>Wifi (Hydrawise)</td><td>Regn, flöde, markfukt som tillval</td><td>Stora trädgårdar</td></tr>
+</tbody>
+</table>
+
+<h2>Markfuktighetssensor: nyttig eller bara en pryl?</h2>
+<p>Väderprognosen säger om det kommer att regna, sensorn säger om jorden är törstig. Placerad på rotdjup i den zon som är mest representativ gör den att du slipper vattna jord som fortfarande är fuktig efter ett åskväder eller i ett skuggigt hörn. Det är det mest användbara tillägget till en bevattningsdator, särskilt för gräsmattan. Vill du jämföra modeller och veta var de ska sitta, läs vår guide om <a href="/sv/blog/capteur-sol-humidite-jardin">markfuktighetssensorer</a>.</p>
+
+<h2>Installation steg för steg</h2>
+<ul>
+<li><strong>Bevattningsdator på kranen</strong>: skruva fast den på utekranen, anslut slangen och parkoppla den i appen. Det tar några minuter och kräver inga verktyg. Låt kranen stå öppen: det är bevattningsdatorn som slår på och stänger av vattnet.</li>
+<li><strong>Gateway</strong>: placera den nära ett fönster som vetter mot trädgården, ansluten till routern, så blir radioräckvidden bättre.</li>
+<li><strong>Styrenhet för flera zoner</strong>: den ersätter den gamla styrenheten, och du flyttar helt enkelt över ledningen från varje magnetventil plus den gemensamma ledaren. Anteckna hur allt är kopplat innan du monterar ner den gamla enheten.</li>
+<li><strong>Inställningar</strong>: namnge varje zon, ange vad som växer där och aktivera väderjusteringen och notiserna.</li>
+</ul>
+
+<h2>Säkerhet och goda råd</h2>
+<ul>
+<li><strong>El</strong>: en styrenhet som drivs från elnätet ska installeras enligt bruksanvisningen, i ett uttag som skyddas av en jordfelsbrytare på 30 mA. Ska den anslutas fast eller behövs en ny elkrets utomhus, anlita en behörig elektriker.</li>
+<li><strong>Regnvatten</strong>: om du vattnar från en regnvattentank får den kretsen aldrig kopplas ihop med dricksvattennätet – de två ska alltid hållas åtskilda.</li>
+<li><strong>Frost</strong>: montera bort bevattningsdatorerna från kranarna och töm slangarna före vintern.</li>
+<li><strong>Batterier</strong>: byt dem i början av säsongen och aktivera varningen för låg batterinivå.</li>
+</ul>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att välja en modell som är gjord för Nordamerika</strong>: vissa styrenheter som är populära i USA säljs inte officiellt i Europa och är inte byggda för 230 V.</li>
+<li><strong>Att lita på wifi längst ner i trädgården</strong> utan att kontrollera räckvidden.</li>
+<li><strong>Att vattna mitt på dagen</strong>: då är avdunstningen som störst. Schemalägg bevattningen tidigt på morgonen.</li>
+<li><strong>Ett enda schema för hela trädgården</strong>: dela upp gräsmatta, rabatter och köksträdgård.</li>
+<li><strong>Att glömma bevattningsförbud</strong>: under torrperioder kan lokala restriktioner begränsa bevattningen. Pausa dina scheman när det behövs.</li>
+</ul>
+
+<h2>Omdöme</h2>
+<p><strong>GARDENA smart Water Control Set</strong> är fortfarande det mest balanserade valet för en trädgård som vattnas från kranen. <strong>Eve Aqua</strong> passar dig som vill ha en lokal enhet utan gateway i Apple Home eller Matter. För nedgrävda system moderniserar <strong>GARDENA smart Irrigation Control</strong> upp till sex zoner, <strong>Hunter Pro-HC</strong> tar över på stora tomter och <strong>LinkTap G2S</strong> är det givna valet om läckvarning är viktigast för dig.</p>
+<p>Vill du utrusta resten av trädgården, läs vår <a href="/sv/blog/guide-jardin-connecte-2026">guide till den smarta trädgården 2026</a>.</p>`,
+    us: `<p><strong>For most yards watered from an outdoor faucet, the best smart irrigation system in 2026 is the GARDENA smart Water Control Set</strong>: it screws onto the faucet, adjusts watering to the rain forecast and can work with a soil moisture sensor. If you want a Matter-compatible hose timer with no gateway, the <strong>Eve Aqua</strong> is the simplest alternative; for an in-ground system with solenoid valves, the <strong>GARDENA smart Irrigation Control</strong> runs up to six zones.</p>
+<p>This guide is based on manufacturer specs, independent reviews and verified owner feedback. It only includes models sold in Europe. You'll find the full lineup on our <a href="/us/outdoor-connecte/arrosage-connecte">smart irrigation</a> page.</p>
+
+<h2>How does smart irrigation work?</h2>
+<p>A smart irrigation system replaces the mechanical timer with a device you control from an app. You set watering windows, and the system adjusts them based on several inputs:</p>
+<ul>
+<li><strong>Local weather forecasts</strong>: watering is delayed or skipped when rain is in the forecast.</li>
+<li><strong>Soil moisture</strong>: with a sensor in the ground, watering only starts when the soil is genuinely dry.</li>
+<li><strong>Zone type</strong>: the lawn, flower beds, vegetable garden and hedges all have different needs.</li>
+</ul>
+<p>Water savings depend heavily on your climate, the size of your yard and your current habits. A yard watered on a rough fixed schedule stands to gain a lot; a careful gardener mostly gains convenience. Be wary of one-size-fits-all percentages: no single figure applies to every yard.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Hose timer or multi-zone controller</strong>. A smart hose timer sits between the faucet and the hose: ideal for yards watered with a hose, drip line or sprinkler. A controller runs in-ground 24 V solenoid valves, one per zone: the solution for built-in sprinkler systems.</li>
+<li><strong>Connectivity</strong>. Wi-Fi rarely reaches the back of the yard. That's why Gardena and LinkTap use a long-range radio gateway connected to your router, and the Eve Aqua uses Thread or Bluetooth.</li>
+<li><strong>Sensors</strong>. A soil moisture sensor makes watering more accurate than weather data alone. A built-in flow meter helps you spot a leak, a disconnected hose or a faucet that's been turned off.</li>
+<li><strong>Smart home platform</strong>. Check compatibility with Apple Home, Google Home, Alexa or Home Assistant if you want automations.</li>
+<li><strong>Offline operation</strong>. The best models store their schedule and keep watering if the internet goes down.</li>
+<li><strong>Winter</strong>. Hose timers have to come off before the first frost; plan to bring them indoors.</li>
+</ul>
+
+<h2>The best smart irrigation systems of 2026</h2>
+
+<h3>GARDENA smart Water Control Set: best overall</h3>
+<p>The kit combines the <strong>smart Water Control</strong> hose timer and the <strong>smart Gateway</strong>, which connects to your router over Wi-Fi or Ethernet and talks to the yard over long-range radio. In the GARDENA smart app you set up watering windows; the app can factor in rain forecasts and, with the optional <strong>smart Sensor</strong>, soil moisture, temperature and light. The timer runs on AA batteries and warns you when there's a risk of frost.</p>
+<p><strong>Pros</strong>: a complete ecosystem (hoses, drip irrigation, sprinklers, SILENO robot mowers and pumps from the same lineup), works with Apple Home, Alexa and Google Assistant through the gateway, and the brand is widely available in Europe with well-established customer support.</p>
+<p><strong>Cons</strong>: a single outlet; the gateway is required; no built-in flow meter.</p>
+<p><strong>Best for</strong>: most yards watered from an outdoor faucet, especially if you already own Gardena gear.</p>
+
+<h3>Eve Aqua: simplest, no gateway, Matter-compatible</h3>
+<p>The <strong>Eve Aqua</strong> also screws onto the faucet (26.5 mm thread, i.e., 3/4 in). It uses Bluetooth and Thread and supports <strong>Matter</strong>: it works with Apple Home, Google Home, Alexa or SmartThings, as long as you have a Matter controller and a Thread border router. Schedules are stored on the device, up to seven windows a day, and it keeps watering without internet. It runs on two AA batteries and is rated IPX4.</p>
+<p><strong>Pros</strong>: no proprietary gateway or required cloud account, local operation, installs in minutes.</p>
+<p><strong>Cons</strong>: a single outlet and no soil moisture sensor of its own; weather adjustments depend on your smart home automations. Supported water pressure is about 15 to 73 psi (1 to 5 bar). Faucet threads differ between Europe and North America, so check that the version you buy fits your outdoor faucet.</p>
+<p><strong>Best for</strong>: homes already using Apple Home or a Matter ecosystem, and anyone who prefers a device that doesn't depend on the cloud.</p>
+
+<h3>GARDENA smart Irrigation Control: best for in-ground systems</h3>
+<p>The <strong>smart Irrigation Control</strong> runs up to <strong>six 24 V solenoid valves</strong>, from Gardena or most other brands. It replaces the controller of an existing system and brings it into the same app as the rest of the Gardena lineup. It's also sold as a kit with the gateway and the smart Sensor, so watering can be triggered by actual soil moisture at root level.</p>
+<p><strong>Pros</strong>: six independent zones, broad compatibility with the valves on the market, integration with the Gardena smart system and Apple Home through the gateway.</p>
+<p><strong>Cons</strong>: requires an existing network of solenoid valves; six zones max.</p>
+<p><strong>Best for</strong>: yards with an in-ground system that needs an upgrade, without moving to a professional controller.</p>
+
+<h3>LinkTap G2S: best for leak monitoring</h3>
+<p>The <strong>LinkTap G2S</strong> is a hose timer that stands out for its <strong>built-in flow meter and tilt sensor</strong>. It sends alerts for leaks, blocked hoses, water shutoffs or valve failure, and can skip watering based on the weather. It's rated IP66. It requires the LinkTap gateway, sold separately or in a kit, which also offers a local interface popular with Home Assistant users.</p>
+<p><strong>Pros</strong>: water usage tracking for every session, detailed alerts, good local smart home integration.</p>
+<p><strong>Cons</strong>: gateway required; a smaller brand with less retail presence than Gardena.</p>
+<p><strong>Best for</strong>: vacation homes and anyone who wants to know right away when something goes wrong. For indoors, see our guide to <a href="/us/blog/detection-fuite-eau-connectee">smart water leak detection</a>.</p>
+
+<h3>Hunter Pro-HC: the controller for large yards</h3>
+<p>The <strong>Hunter Pro-HC</strong> is a Wi-Fi sprinkler controller run through the Hydrawise app. It comes in 6-, 12- and 24-station versions, including 230 V models for Europe. Its Predictive Watering feature adjusts schedules using local weather data, and it accepts rain, freeze, flow and soil moisture sensors.</p>
+<p><strong>Pros</strong>: up to 24 zones, very fine control, a go-to tool for irrigation installers.</p>
+<p><strong>Cons</strong>: overkill for a small yard; setup is more technical and often handled by a pro.</p>
+<p><strong>Best for</strong>: large lots with many zones and a full in-ground system.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Zones</th><th>Connectivity</th><th>Sensors</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>GARDENA smart Water Control Set</td><td>Hose timer</td><td>1</td><td>Radio gateway + Wi-Fi/Ethernet</td><td>Optional smart Sensor</td><td>Most yards</td></tr>
+<tr><td>Eve Aqua</td><td>Hose timer</td><td>1</td><td>Thread, Bluetooth, Matter</td><td>No</td><td>Apple Home and Matter</td></tr>
+<tr><td>GARDENA smart Irrigation Control</td><td>24 V valve controller</td><td>6</td><td>Radio gateway + Wi-Fi/Ethernet</td><td>smart Sensor (depends on kit)</td><td>Existing in-ground system</td></tr>
+<tr><td>LinkTap G2S</td><td>Hose timer</td><td>1</td><td>LinkTap gateway</td><td>Built-in flow meter</td><td>Leak monitoring</td></tr>
+<tr><td>Hunter Pro-HC</td><td>24 V valve controller</td><td>6, 12 or 24</td><td>Wi-Fi (Hydrawise)</td><td>Optional rain, flow, soil</td><td>Large yards</td></tr>
+</tbody>
+</table>
+
+<h2>Soil moisture sensors: useful or a gimmick?</h2>
+<p>The forecast tells you whether it will rain; the sensor tells you whether the soil is thirsty. Placed at root depth in the most representative zone, it keeps you from watering soil that's still damp after a storm or sitting in a shady corner. It's the most useful add-on for a smart timer, especially for lawns. To compare models and learn where to place them, read our <a href="/us/blog/capteur-sol-humidite-jardin">soil moisture sensor guide</a>.</p>
+
+<h2>Installation steps</h2>
+<ul>
+<li><strong>Hose timer</strong>: screw it onto the outdoor faucet, connect the hose and pair it in the app. It takes a few minutes and no tools. Leave the faucet open: the timer turns the water on and off.</li>
+<li><strong>Gateway</strong>: place it near a window that faces the yard, connected to your router, for better radio range.</li>
+<li><strong>Multi-zone controller</strong>: it replaces the old unit; you simply move each valve wire and the common wire over. Label or photograph the wiring before you remove the old controller.</li>
+<li><strong>Setup</strong>: name each zone, set the plant type and turn on weather adjustments and notifications.</li>
+</ul>
+
+<h2>Safety and best practices</h2>
+<ul>
+<li><strong>Electricity</strong>: a plug-in controller must be installed according to the manual, on a GFCI-protected outlet. For any hardwired connection or new outdoor circuit, hire a licensed electrician and check whether your area requires a permit.</li>
+<li><strong>Rainwater</strong>: if you water from a rain barrel or tank, never connect that line to your household drinking water supply; the two must stay separate.</li>
+<li><strong>Frost</strong>: remove hose timers and drain your hoses before winter.</li>
+<li><strong>Batteries</strong>: replace them at the start of the season and turn on low-battery alerts.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a controller built for another market</strong>: plug-in controllers are designed for one grid voltage. Models sold in Europe are built for 230 V; check that the version on your Amazon store is rated for 120 V.</li>
+<li><strong>Counting on Wi-Fi at the back of the yard</strong> without checking the range.</li>
+<li><strong>Watering in the middle of the day</strong>: that's when evaporation peaks. Schedule watering for early morning.</li>
+<li><strong>One schedule for the whole yard</strong>: set up separate zones for the lawn, flower beds and vegetables.</li>
+<li><strong>Ignoring watering restrictions</strong>: during droughts, your water utility or local government may limit watering. Pause your schedules when needed.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>The <strong>GARDENA smart Water Control Set</strong> is still the most balanced choice for a yard watered from the faucet. The <strong>Eve Aqua</strong> suits anyone who wants a local, gateway-free device in Apple Home or Matter. For in-ground systems, the <strong>GARDENA smart Irrigation Control</strong> upgrades up to six zones, the <strong>Hunter Pro-HC</strong> takes over on large lots, and the <strong>LinkTap G2S</strong> stands out if leak detection is your priority.</p>
+<p>To equip the rest of your outdoor space, see our <a href="/us/blog/guide-jardin-connecte-2026">2026 smart yard guide</a>.</p>`,
+    ca: `<p><strong>For most yards, the best smart irrigation system in 2026 is the GARDENA smart Water Control Set</strong>: it screws onto the outdoor faucet, adapts watering to the rain forecast and can use a soil moisture sensor. If you want a Matter-compatible hose timer with no gateway, the <strong>Eve Aqua</strong> is the simplest alternative; for an in-ground sprinkler system with solenoid valves, the <strong>GARDENA smart Irrigation Control</strong> runs up to six zones.</p>
+<p>This guide is based on manufacturer specifications, independent reviews and verified buyer reviews. It only includes models sold in Europe. You'll find the full selection on our <a href="/ca/outdoor-connecte/arrosage-connecte">smart irrigation</a> page.</p>
+
+<h2>How does smart irrigation work?</h2>
+<p>A smart irrigation system replaces the mechanical timer with a device you control from an app. You set watering windows, and the system adjusts them using several inputs:</p>
+<ul>
+<li><strong>Local weather forecasts</strong>: watering is delayed or skipped when rain is expected.</li>
+<li><strong>Soil moisture</strong>: with a sensor in the bed, watering only starts when the soil is genuinely dry.</li>
+<li><strong>Zone type</strong>: lawn, flower beds, vegetable garden and hedges all have different needs.</li>
+</ul>
+<p>Water savings depend heavily on climate, yard size and your current habits. A yard watered on a rough fixed schedule gains a lot; a careful gardener mostly gains convenience. Be wary of universal percentages: no single figure applies to every yard.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Hose timer or multi-zone controller</strong>. A hose timer sits between the outdoor faucet and the hose: ideal for yards watered with a hose, drip line or sprinkler. A sprinkler controller drives 24 V solenoid valves buried in the ground, one per zone: the solution for in-ground sprinkler systems.</li>
+<li><strong>Connectivity</strong>. Wi-Fi rarely reaches the back of the yard. That's why Gardena and LinkTap use a long-range radio gateway connected to your router, and the Eve Aqua uses Thread or Bluetooth.</li>
+<li><strong>Sensors</strong>. A soil moisture sensor makes watering more accurate than weather data alone. A built-in flow meter helps you spot a leak, a disconnected hose or a closed faucet.</li>
+<li><strong>Smart home platform</strong>. Check compatibility with Apple Home, Google Home, Alexa or Home Assistant if you want automations.</li>
+<li><strong>Offline operation</strong>. The best models store their schedule and keep watering if the internet goes down.</li>
+<li><strong>Winter</strong>. Hose timers must be removed before the first frost; plan to bring them indoors for the winter.</li>
+</ul>
+
+<h2>The best smart irrigation systems in 2026</h2>
+
+<h3>GARDENA smart Water Control Set: best overall</h3>
+<p>The kit combines the <strong>smart Water Control</strong> hose timer and the <strong>smart Gateway</strong>, which connects to your router over Wi-Fi or Ethernet and talks to the devices in your yard over long-range radio. In the GARDENA smart app you create watering windows; the app can take rain forecasts into account and, with the optional <strong>smart Sensor</strong>, soil moisture, temperature and light. The timer runs on AA batteries and warns you of frost risk.</p>
+<p><strong>Strengths</strong>: complete ecosystem (hoses, drip irrigation, sprinklers, SILENO robot mowers and pumps from the same range), works with Apple Home, Alexa and Google Assistant through the gateway, widely available in Europe with established after-sales support.</p>
+<p><strong>Limitations</strong>: a single water outlet; the gateway is required; no built-in flow meter.</p>
+<p><strong>Best for</strong>: most yards watered from an outdoor faucet, especially if you already own Gardena gear.</p>
+
+<h3>Eve Aqua: simplest, no gateway, Matter-compatible</h3>
+<p>The <strong>Eve Aqua</strong> also screws onto the outdoor faucet (26.5 mm thread, i.e. 3/4"; check that it matches your faucet, or plan on an adapter). It uses Bluetooth and Thread and supports <strong>Matter</strong>: it works with Apple Home, Google Home, Alexa or SmartThings, provided you have a Matter controller and a Thread border router. Schedules are stored on the device, up to seven windows a day, and it keeps watering without internet. It runs on two AA batteries and is rated IPX4.</p>
+<p><strong>Strengths</strong>: no proprietary gateway or mandatory cloud account, local operation, installation in minutes.</p>
+<p><strong>Limitations</strong>: a single water outlet and no soil moisture sensor of its own; weather adaptation relies on your smart home automations. Supported water pressure is 1 to 5 bar.</p>
+<p><strong>Best for</strong>: homes already using Apple Home or a Matter ecosystem, and anyone who prefers a device that doesn't depend on the cloud.</p>
+
+<h3>GARDENA smart Irrigation Control: best for in-ground systems</h3>
+<p>The <strong>smart Irrigation Control</strong> drives up to <strong>six 24 V solenoid valves</strong>, from Gardena or most other brands. It replaces the control unit of an existing system and brings it into the same app as the rest of the Gardena range. It is also sold as a kit with the gateway and the smart Sensor, so watering can be triggered by actual soil moisture at root level.</p>
+<p><strong>Strengths</strong>: six independent zones, broad compatibility with valves on the market, integration with the Gardena smart system and Apple Home through the gateway.</p>
+<p><strong>Limitations</strong>: requires an existing solenoid valve network; six zones maximum.</p>
+<p><strong>Best for</strong>: yards with an in-ground sprinkler system that needs upgrading, without moving to a professional controller.</p>
+
+<h3>LinkTap G2S: best for leak monitoring</h3>
+<p>The <strong>LinkTap G2S</strong> is a hose timer that stands out for its <strong>built-in flow meter and tilt sensor</strong>. It sends alerts for leaks, blocked hoses, water cut-offs or valve failure, and can skip watering based on the weather. It is rated IP66. It requires the LinkTap gateway, sold separately or in a kit, which also offers a local interface popular with Home Assistant users.</p>
+<p><strong>Strengths</strong>: per-session water usage tracking, detailed alerts, good local smart home integration.</p>
+<p><strong>Limitations</strong>: gateway required; a smaller brand with less retail presence than Gardena.</p>
+<p><strong>Best for</strong>: cottages and anyone who wants to know right away when something goes wrong. For indoors, see our guide to <a href="/ca/blog/detection-fuite-eau-connectee">smart water leak detection</a>.</p>
+
+<h3>Hunter Pro-HC: the controller for large yards</h3>
+<p>The <strong>Hunter Pro-HC</strong> is a Wi-Fi controller run through the Hydrawise app. It comes in 6, 12 and 24 station versions, including 230 V models for Europe. Its Predictive Watering feature adjusts schedules using local weather data, and it accepts rain, freeze, flow and soil moisture sensors.</p>
+<p><strong>Strengths</strong>: up to 24 zones, very fine control, a reference tool among installers.</p>
+<p><strong>Limitations</strong>: oversized for a small yard; setup is more technical and often handled by a professional.</p>
+<p><strong>Best for</strong>: large properties with many zones and a full in-ground system.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Zones</th><th>Connectivity</th><th>Sensors</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>GARDENA smart Water Control Set</td><td>Hose timer</td><td>1</td><td>Radio gateway + Wi-Fi/Ethernet</td><td>Optional smart Sensor</td><td>Most yards</td></tr>
+<tr><td>Eve Aqua</td><td>Hose timer</td><td>1</td><td>Thread, Bluetooth, Matter</td><td>No</td><td>Apple Home and Matter</td></tr>
+<tr><td>GARDENA smart Irrigation Control</td><td>24 V valve controller</td><td>6</td><td>Radio gateway + Wi-Fi/Ethernet</td><td>smart Sensor (kit dependent)</td><td>Existing in-ground system</td></tr>
+<tr><td>LinkTap G2S</td><td>Hose timer</td><td>1</td><td>LinkTap gateway</td><td>Built-in flow meter</td><td>Leak monitoring</td></tr>
+<tr><td>Hunter Pro-HC</td><td>24 V valve controller</td><td>6, 12 or 24</td><td>Wi-Fi (Hydrawise)</td><td>Optional rain, flow, soil</td><td>Large yards</td></tr>
+</tbody>
+</table>
+
+<h2>Soil moisture sensors: useful or a gimmick?</h2>
+<p>The forecast tells you whether it will rain; the sensor tells you whether the soil is thirsty. Placed at root depth in the most representative zone, it prevents watering soil that is still damp after a storm or in a shady corner. It is the most useful add-on for a smart timer, especially for lawns. To compare models and learn where to place them, read our <a href="/ca/blog/capteur-sol-humidite-jardin">soil moisture sensor guide</a>.</p>
+
+<h2>Installation steps</h2>
+<ul>
+<li><strong>Hose timer</strong>: screw it onto the outdoor faucet, connect the hose and pair it in the app. It takes a few minutes and no tools. Leave the faucet open: the timer turns the water on and off.</li>
+<li><strong>Gateway</strong>: place it near a window facing the yard, connected to your router, for better radio range.</li>
+<li><strong>Multi-zone controller</strong>: it replaces the old unit; you simply move each valve wire and the common wire across. Note the wiring before removing the old device.</li>
+<li><strong>Setup</strong>: name each zone, set the planting type and turn on weather adjustment and notifications.</li>
+</ul>
+
+<h2>Safety and good practice</h2>
+<ul>
+<li><strong>Electricity</strong>: a plug-in controller must be installed according to the manual, on an outlet protected by a GFCI (ground fault circuit interrupter). Electrical work rules are set by each province and territory; for any hardwired connection or new outdoor circuit, hire a licensed electrician.</li>
+<li><strong>Rainwater</strong>: if you water from a rain barrel or cistern, never connect that circuit to the drinking water supply; the two must stay separate.</li>
+<li><strong>Frost</strong>: remove hose timers, drain your hoses and shut off the outdoor faucet before winter.</li>
+<li><strong>Batteries</strong>: replace them at the start of the season and enable low-battery alerts.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying the wrong regional version</strong>: the models in this guide are sold in Europe, where homes run on 230 V. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model, with a hose thread that fits your outdoor faucet.</li>
+<li><strong>Relying on Wi-Fi at the back of the yard</strong> without checking the range.</li>
+<li><strong>Watering in the middle of the day</strong>: evaporation is at its highest. Schedule early morning.</li>
+<li><strong>One schedule for the whole yard</strong>: separate lawn, flower beds and vegetables.</li>
+<li><strong>Ignoring watering restrictions</strong>: during dry spells, your municipality may limit lawn watering to certain days or hours. Adjust or pause your schedules when needed.</li>
+</ul>
+
+<h2>Verdict</h2>
+<p>The <strong>GARDENA smart Water Control Set</strong> remains the most balanced choice for a yard watered from an outdoor faucet. The <strong>Eve Aqua</strong> suits those who want a local, gateway-free device in Apple Home or Matter. For in-ground systems, the <strong>GARDENA smart Irrigation Control</strong> upgrades up to six zones, the <strong>Hunter Pro-HC</strong> takes over on large properties, and the <strong>LinkTap G2S</strong> stands out if leak detection is your priority.</p>
+<p>To equip the rest of your outdoor space, see our <a href="/ca/blog/guide-jardin-connecte-2026">smart backyard guide 2026</a>.</p>`,
   },
   faq: [
     {
@@ -745,6 +1051,9 @@ export const article: BlogArticle = {
         it: "Serve un idraulico per installare un'irrigazione smart?",
         nl: 'Heb je een loodgieter nodig voor slimme besproeiing?',
         pl: 'Czy do montażu inteligentnego nawadniania potrzebny jest hydraulik?',
+        sv: 'Behöver jag en rörmokare för att installera smart bevattning?',
+        us: 'Do you need a plumber to install smart irrigation?',
+        ca: 'Do you need a plumber to install smart irrigation?',
       },
       answer: {
         fr: "Non, pas pour un programmateur de robinet : il se visse entre le robinet extérieur et le tuyau en quelques minutes. Remplacer le boîtier d'une installation à électrovannes existante reste accessible à un bricoleur. Un professionnel n'est utile que pour créer un réseau enterré complet ou un nouveau circuit électrique extérieur.",
@@ -753,7 +1062,10 @@ export const article: BlogArticle = {
         es: 'No para un programador de grifo: se enrosca entre el grifo exterior y la manguera en pocos minutos. Sustituir el programador de una instalación con electroválvulas también está al alcance de un aficionado al bricolaje. Un profesional solo es útil para crear una red enterrada completa o un nuevo circuito eléctrico exterior.',
         it: "Non per un programmatore da rubinetto: si avvita tra rubinetto esterno e tubo in pochi minuti. Anche sostituire la centralina di un impianto con elettrovalvole esistente è alla portata di chi ha un po' di manualità. Un professionista serve solo per realizzare una rete interrata completa o un nuovo circuito elettrico esterno.",
         nl: 'Niet voor een kraancomputer: die schroef je in een paar minuten tussen buitenkraan en slang. Ook de bediening van een bestaand systeem met magneetventielen vervangen lukt een handige doe-het-zelver. Een vakman is alleen nuttig voor een volledig nieuw ingegraven netwerk of een nieuw elektrisch buitencircuit.',
-        pl: 'Nie, nie w przypadku sterownika na kran: wkręca się go między zewnętrzny kran a wąż w kilka minut. Wymiana sterownika w istniejącej instalacji z elektrozaworami jest w zasięgu majsterkowicza. Fachowiec jest potrzebny dopiero przy zakładaniu kompletnej instalacji podziemnej lub nowego zewnętrznego obwodu elektrycznego.',
+        pl: 'Nie, jeśli chodzi o sterownik na kran: montaż między kranem ogrodowym a wężem zajmuje kilka minut. Z wymianą sterownika w istniejącej instalacji z elektrozaworami poradzi sobie każdy, kto lubi majsterkować. Fachowiec przyda się dopiero przy budowie kompletnej instalacji podziemnej albo nowego obwodu elektrycznego na zewnątrz.',
+        sv: 'Nej, inte för en bevattningsdator på kranen: den skruvas fast mellan utekranen och slangen på några minuter. Att byta styrenhet i en befintlig installation med magnetventiler klarar också en händig hemmafixare. Ett proffs behövs egentligen bara om du ska bygga ett helt nedgrävt system eller dra en ny elkrets utomhus.',
+        us: 'Not for a hose timer: it screws on between the outdoor faucet and the hose in a few minutes. Replacing the controller of an existing solenoid valve system is also doable for a DIYer. A pro is only worth calling to build a complete in-ground system or to add a new outdoor electrical circuit.',
+        ca: 'Not for a hose timer: it screws between the outdoor faucet and the hose in a few minutes. Replacing the control unit of an existing solenoid valve system is also manageable for a DIYer. A professional is only useful to build a complete in-ground sprinkler system or a new outdoor electrical circuit.',
       },
     },
     {
@@ -765,6 +1077,9 @@ export const article: BlogArticle = {
         it: "L'irrigazione smart funziona senza internet?",
         nl: 'Werkt slimme besproeiing zonder internet?',
         pl: 'Czy inteligentne nawadnianie działa bez internetu?',
+        sv: 'Fungerar smart bevattning utan internet?',
+        us: 'Does smart irrigation work without internet?',
+        ca: 'Does smart irrigation work without internet?',
       },
       answer: {
         fr: "En grande partie. L'Eve Aqua garde ses programmes en mémoire et fonctionne en local. Les autres modèles continuent en général leurs programmes enregistrés, mais perdent l'ajustement météo et le pilotage à distance tant que la connexion est coupée.",
@@ -773,7 +1088,10 @@ export const article: BlogArticle = {
         es: 'En gran parte, sí. El Eve Aqua guarda sus programas y funciona en local. Los demás modelos suelen seguir ejecutando sus programas guardados, pero pierden el ajuste meteorológico y el control remoto mientras falte la conexión.',
         it: "In gran parte sì. L'Eve Aqua memorizza i programmi e funziona in locale. Gli altri modelli in genere continuano a eseguire i programmi salvati, ma perdono l'adattamento al meteo e il controllo remoto finché manca la connessione.",
         nl: 'Grotendeels wel. De Eve Aqua bewaart zijn schema\'s en werkt lokaal. De andere modellen voeren hun opgeslagen schema\'s meestal gewoon uit, maar verliezen weeraanpassing en bediening op afstand zolang de verbinding wegvalt.',
-        pl: 'W dużej mierze tak. Eve Aqua zapamiętuje programy i działa lokalnie. Pozostałe modele zazwyczaj kontynuują zapisane programy, ale bez połączenia tracą dostosowanie do pogody i zdalne sterowanie.',
+        pl: 'W dużej mierze tak. Eve Aqua przechowuje programy w pamięci i działa lokalnie. Pozostałe modele zwykle realizują dalej zapisane programy, ale dopóki nie ma połączenia, nie dostosowują podlewania do pogody i nie dają się sterować zdalnie.',
+        sv: 'Till stor del, ja. Eve Aqua sparar sina program i minnet och fungerar lokalt. De andra modellerna fortsätter i regel att köra de sparade programmen, men tappar väderanpassningen och fjärrstyrningen så länge uppkopplingen ligger nere.',
+        us: 'Largely, yes. The Eve Aqua stores its schedules and runs locally. The other models generally keep running their saved schedules but lose weather adjustments and remote control while the connection is down.',
+        ca: 'Largely, yes. The Eve Aqua stores its schedules and runs locally. The other models generally keep running their saved schedules, but lose weather adjustment and remote control while the connection is down.',
       },
     },
     {
@@ -785,6 +1103,9 @@ export const article: BlogArticle = {
         it: 'Quale irrigazione smart funziona con Apple Home?',
         nl: 'Welke slimme besproeiing werkt met Apple Home?',
         pl: 'Jakie inteligentne nawadnianie wybrać do Apple Home?',
+        sv: 'Vilken smart bevattning ska jag välja för Apple Home?',
+        us: 'Which smart irrigation system works with Apple Home?',
+        ca: 'Which smart irrigation system works with Apple Home?',
       },
       answer: {
         fr: "L'Eve Aqua s'intègre directement à Apple Home, en Thread ou via Matter, sans passerelle. Les produits GARDENA smart (Water Control, Irrigation Control, Sensor) sont aussi compatibles Apple Home, à condition de passer par la smart Gateway.",
@@ -793,7 +1114,10 @@ export const article: BlogArticle = {
         es: 'El Eve Aqua se integra directamente en Apple Home, por Thread o mediante Matter, sin pasarela. Los productos GARDENA smart (Water Control, Irrigation Control, Sensor) también son compatibles con Apple Home a través de la smart Gateway.',
         it: "L'Eve Aqua si integra direttamente in Apple Home, via Thread o tramite Matter, senza gateway. Anche i prodotti GARDENA smart (Water Control, Irrigation Control, Sensor) sono compatibili con Apple Home, passando dallo smart Gateway.",
         nl: 'De Eve Aqua integreert rechtstreeks in Apple Home, via Thread of Matter, zonder gateway. Ook de GARDENA smart-producten (Water Control, Irrigation Control, Sensor) werken met Apple Home, via de smart Gateway.',
-        pl: 'Eve Aqua integruje się bezpośrednio z Apple Home przez Thread lub Matter, bez bramki. Produkty GARDENA smart (Water Control, Irrigation Control, Sensor) również są zgodne z Apple Home, o ile korzystasz z bramki smart Gateway.',
+        pl: 'Eve Aqua łączy się z Apple Home bezpośrednio, przez Thread lub Matter, bez żadnej bramki. Produkty GARDENA smart (Water Control, Irrigation Control, Sensor) też współpracują z Apple Home, ale wymagają bramki smart Gateway.',
+        sv: 'Eve Aqua integreras direkt i Apple Home, via Thread eller Matter, utan gateway. Produkterna i serien GARDENA smart (Water Control, Irrigation Control, Sensor) fungerar också med Apple Home, men då via smart Gateway.',
+        us: 'The Eve Aqua integrates directly with Apple Home, over Thread or via Matter, with no gateway. GARDENA smart products (Water Control, Irrigation Control, Sensor) also work with Apple Home, through the smart Gateway.',
+        ca: 'The Eve Aqua integrates directly with Apple Home, over Thread or via Matter, with no gateway. GARDENA smart products (Water Control, Irrigation Control, Sensor) also work with Apple Home, through the smart Gateway.',
       },
     },
     {
@@ -805,6 +1129,9 @@ export const article: BlogArticle = {
         it: 'Un sensore di umidità del terreno è indispensabile?',
         nl: 'Is een bodemvochtsensor onmisbaar?',
         pl: 'Czy czujnik wilgotności gleby jest niezbędny?',
+        sv: 'Behövs verkligen en markfuktighetssensor?',
+        us: 'Is a soil moisture sensor essential?',
+        ca: 'Is a soil moisture sensor essential?',
       },
       answer: {
         fr: "Non, mais c'est l'ajout le plus utile. La météo seule ne sait pas si votre sol est encore humide après un orage ou dans une zone ombragée. Avec un capteur, l'arrosage ne se déclenche que lorsque la terre en a réellement besoin.",
@@ -813,7 +1140,10 @@ export const article: BlogArticle = {
         es: 'No, pero es el complemento más útil. La meteorología por sí sola no sabe si el suelo sigue húmedo tras una tormenta o en una zona de sombra. Con un sensor, el riego solo arranca cuando la tierra realmente lo necesita.',
         it: "No, ma è l'aggiunta più utile. Il solo meteo non sa se il terreno è ancora umido dopo un temporale o in una zona d'ombra. Con un sensore, l'irrigazione parte solo quando la terra ne ha davvero bisogno.",
         nl: 'Nee, maar het is de nuttigste aanvulling. Weergegevens alleen weten niet of je grond na een onweer of in de schaduw nog vochtig is. Met een sensor start het sproeien alleen als de grond het echt nodig heeft.',
-        pl: 'Nie, ale to najbardziej przydatny dodatek. Sama pogoda nie wie, czy gleba jest jeszcze wilgotna po burzy lub w zacienionej strefie. Z czujnikiem podlewanie włącza się tylko wtedy, gdy ziemia naprawdę tego potrzebuje.',
+        pl: 'Nie, ale to najbardziej przydatny dodatek. Sama prognoza pogody nie powie, czy gleba jest jeszcze wilgotna po burzy albo w zacienionym miejscu. Z czujnikiem podlewanie włącza się tylko wtedy, gdy ziemia naprawdę potrzebuje wody.',
+        sv: 'Nej, men det är det mest användbara tillägget. Enbart väderdata kan inte avgöra om jorden fortfarande är fuktig efter ett åskväder eller i en skuggig del av trädgården. Med en sensor startar bevattningen bara när jorden faktiskt behöver vatten.',
+        us: 'No, but it\'s the most useful add-on. Weather data alone can\'t tell whether your soil is still damp after a storm or in a shady spot. With a sensor, watering only starts when the soil actually needs it.',
+        ca: 'No, but it is the most useful add-on. Weather data alone cannot tell whether your soil is still damp after a storm or in a shady area. With a sensor, watering only starts when the soil actually needs it.',
       },
     },
     {
@@ -825,6 +1155,9 @@ export const article: BlogArticle = {
         it: "Si può irrigare con l'acqua di una cisterna di recupero?",
         nl: 'Kun je sproeien met water uit een regenwatertank?',
         pl: 'Czy można podlewać wodą ze zbiornika na deszczówkę?',
+        sv: 'Kan jag vattna med regnvatten från en tank?',
+        us: 'Can I water with rainwater from a rain barrel?',
+        ca: 'Can I water with rainwater from a rain barrel or cistern?',
       },
       answer: {
         fr: "Oui, avec une pompe qui fournit une pression suffisante : un programmateur de robinet se branche à la sortie de la pompe. Vérifiez la plage de pression admise par l'appareil, et ne reliez jamais le circuit d'eau de pluie au réseau d'eau potable.",
@@ -833,7 +1166,10 @@ export const article: BlogArticle = {
         es: 'Sí, con una bomba que dé presión suficiente: el programador de grifo se conecta a la salida de la bomba. Compruebe el rango de presión que admite el aparato y no conecte nunca el circuito de agua de lluvia a la red de agua potable.',
         it: "Sì, con una pompa che fornisca una pressione sufficiente: il programmatore si collega all'uscita della pompa. Verificate l'intervallo di pressione ammesso dal dispositivo e non collegate mai il circuito dell'acqua piovana alla rete dell'acqua potabile.",
         nl: 'Ja, met een pomp die voldoende druk levert: de kraancomputer sluit je aan op de uitgang van de pomp. Controleer het drukbereik van het apparaat en verbind het regenwatercircuit nooit met het drinkwaternet.',
-        pl: 'Tak, jeśli pompa zapewnia wystarczające ciśnienie: sterownik na kran podłącza się do wyjścia pompy. Sprawdź dopuszczalny zakres ciśnienia urządzenia i nigdy nie łącz obiegu wody deszczowej z siecią wody pitnej.',
+        pl: 'Tak, jeśli pompa zapewnia odpowiednie ciśnienie – sterownik na kran podłącza się wtedy do jej wyjścia. Sprawdź, w jakim zakresie ciśnienia pracuje urządzenie, i nigdy nie łącz instalacji z deszczówką z instalacją wody pitnej.',
+        sv: 'Ja, med en pump som ger tillräckligt tryck: bevattningsdatorn ansluts då till pumpens utlopp. Kontrollera vilket tryckintervall enheten klarar, och koppla aldrig ihop regnvattenkretsen med dricksvattennätet.',
+        us: 'Yes, with a pump that delivers enough pressure: a hose timer connects to the pump outlet. Check the pressure range the device accepts, and never connect the rainwater line to your household drinking water supply.',
+        ca: 'Yes, with a pump that delivers enough pressure: a hose timer connects to the pump outlet. Check the pressure range the device accepts, and never connect the rainwater circuit to the drinking water supply.',
       },
     },
     {
@@ -845,6 +1181,9 @@ export const article: BlogArticle = {
         it: 'Qual è il momento migliore per irrigare?',
         nl: 'Wat is het beste moment om te sproeien?',
         pl: 'Jaka jest najlepsza pora na podlewanie?',
+        sv: 'När är det bäst att vattna?',
+        us: 'When is the best time to water?',
+        ca: 'When is the best time to water?',
       },
       answer: {
         fr: "Tôt le matin, quand il fait frais et que le vent est faible : l'eau pénètre dans le sol au lieu de s'évaporer. Évitez le milieu de journée. Le soir reste possible, mais un feuillage humide toute la nuit favorise certaines maladies.",
@@ -853,7 +1192,10 @@ export const article: BlogArticle = {
         es: 'A primera hora de la mañana, con fresco y poco viento: el agua penetra en el suelo en lugar de evaporarse. Evite el mediodía. Por la tarde-noche también es posible, pero un follaje húmedo toda la noche favorece algunas enfermedades.',
         it: "Al mattino presto, quando fa fresco e c'è poco vento: l'acqua penetra nel terreno invece di evaporare. Evitate le ore centrali. La sera è possibile, ma un fogliame umido per tutta la notte favorisce alcune malattie.",
         nl: 'Vroeg in de ochtend, als het koel is en weinig waait: het water trekt de grond in in plaats van te verdampen. Vermijd het midden van de dag. \'s Avonds kan ook, maar blad dat de hele nacht nat blijft, bevordert sommige ziekten.',
-        pl: 'Wczesnym rankiem, gdy jest chłodno, a wiatr słaby: woda wsiąka w glebę zamiast parować. Unikaj środka dnia. Wieczór też jest możliwy, ale liście mokre przez całą noc sprzyjają niektórym chorobom.',
+        pl: 'Wczesnym rankiem, gdy jest chłodno i słabo wieje: woda wsiąka wtedy w glebę, zamiast parować. Unikaj podlewania w środku dnia. Wieczorem też można podlewać, ale liście mokre przez całą noc sprzyjają niektórym chorobom roślin.',
+        sv: 'Tidigt på morgonen, när det är svalt och vinden är svag: då tränger vattnet ner i jorden i stället för att avdunsta. Undvik mitt på dagen. Det går också att vattna på kvällen, men blad som är blöta hela natten kan gynna vissa växtsjukdomar.',
+        us: 'Early morning, when it\'s cool and the wind is light: water soaks into the soil instead of evaporating. Avoid the middle of the day. Evening watering works too, but foliage that stays wet overnight can encourage some plant diseases.',
+        ca: 'Early morning, when it is cool and the wind is light: water soaks into the soil instead of evaporating. Avoid the middle of the day. Evening watering is possible, but foliage that stays wet overnight can encourage some diseases.',
       },
     },
   ],

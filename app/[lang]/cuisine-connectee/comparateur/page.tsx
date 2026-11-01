@@ -67,11 +67,35 @@ const pageContent: Record<string, {
   },
   pl: {
     kicker: 'Narzędzie porównawcze',
-    title: 'Porównywarka inteligentnej kuchni',
+    title: 'Porównywarka urządzeń do inteligentnej kuchni',
     subtitle: 'Porównaj do 3 modeli obok siebie',
-    intro: 'Multicookery, ekspresy do kawy, wagi, termometry, inteligentne wtyczki — wybierz interesujące Cię modele i zobacz ich parametry obok siebie. Ocena Nura, pojemność, mocne strony i ograniczenia.',
+    intro: 'Multicookery, ekspresy do kawy, wagi, termometry, inteligentne gniazdka — wybierz modele, które Cię interesują, i porównaj ich parametry obok siebie: Ocena Nura, pojemność, mocne strony i ograniczenia.',
     breadcrumbRoot: 'Inteligentna kuchnia',
     breadcrumb: 'Porównywarka',
+  },
+  sv: {
+    kicker: 'Jämförelseverktyg',
+    title: 'Jämförelseverktyg för smart kök',
+    subtitle: 'Jämför upp till 3 modeller sida vid sida',
+    intro: 'Multikokare, kaffemaskiner, köksvågar, stektermometrar, smarta pluggar – välj de modeller du funderar på och se deras data bredvid varandra. Nura Score, volym, styrkor och svagheter.',
+    breadcrumbRoot: 'Smart kök',
+    breadcrumb: 'Jämförelseverktyg',
+  },
+  us: {
+    kicker: 'Comparison tool',
+    title: 'Smart kitchen comparison tool',
+    subtitle: 'Compare up to 3 models side by side',
+    intro: 'Multicookers, coffee makers, scales, thermometers, smart plugs — pick the models you\'re considering and line up their specs: Nura Score, capacity, pros and cons.',
+    breadcrumbRoot: 'Smart kitchen',
+    breadcrumb: 'Compare',
+  },
+  ca: {
+    kicker: 'Comparison tool',
+    title: 'Smart kitchen comparison tool',
+    subtitle: 'Compare up to 3 models side by side',
+    intro: 'Multicookers, coffee makers, scales, thermometers, smart plugs — pick the models you\'re considering and compare their specs at a glance: Nura score, capacity, strengths and trade-offs.',
+    breadcrumbRoot: 'Smart kitchen',
+    breadcrumb: 'Compare',
   },
 }
 

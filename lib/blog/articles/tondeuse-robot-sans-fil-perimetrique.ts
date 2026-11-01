@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Robot tagliaerba su un prato al crepuscolo, accanto a una terrazza in legno',
         nl: 'Robotmaaier op een gazon bij schemering, naast een houten terras',
         pl: 'Robot koszący na trawniku o zmierzchu, obok drewnianego tarasu',
+        sv: 'Robotgräsklippare på en gräsmatta i skymningen, bredvid en altan i trä',
+        us: 'Robot lawn mower on a lawn at dusk, next to a wooden deck',
+        ca: 'Robot lawn mower on a lawn at dusk, next to a wooden deck',
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: 'Robot cortacésped sin cable perimetral 2026: comparativa de los 5 mejores',
     it: 'Robot tagliaerba senza filo perimetrale 2026: confronto dei 5 migliori',
     nl: 'Robotmaaier zonder begrenzingsdraad 2026: de 5 beste modellen vergeleken',
-    pl: 'Robot koszący bez kabla obwodowego 2026: porównanie 5 najlepszych modeli',
+    pl: 'Robot koszący bez przewodu ograniczającego 2026: 5 najlepszych modeli',
+    sv: 'Robotgräsklippare utan begränsningskabel 2026: de 5 bästa',
+    us: 'Best Robot Mowers Without Boundary Wire (2026): Top 5',
+    ca: 'Best Wire-Free Robot Lawn Mowers 2026: 5 Models Compared',
   },
   excerpt: {
     fr: 'ECOVACS GOAT A1600 RTK, Segway Navimow i105E, Mammotion LUBA 2 AWD, Husqvarna 310E NERA et Worx Landroid Vision : notre comparatif 2026 des tondeuses robots sans fil périmétrique, entre RTK, LiDAR et caméra.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'ECOVACS GOAT A1600 RTK, Segway Navimow i105E, Mammotion LUBA 2 AWD, Husqvarna 310E NERA y Worx Landroid Vision: nuestra comparativa 2026 de robots cortacésped sin cable perimetral, entre RTK, LiDAR y cámara.',
     it: 'ECOVACS GOAT A1600 RTK, Segway Navimow i105E, Mammotion LUBA 2 AWD, Husqvarna 310E NERA e Worx Landroid Vision: il nostro confronto 2026 dei robot tagliaerba senza filo perimetrale, tra RTK, LiDAR e telecamera.',
     nl: 'ECOVACS GOAT A1600 RTK, Segway Navimow i105E, Mammotion LUBA 2 AWD, Husqvarna 310E NERA en Worx Landroid Vision: onze vergelijking 2026 van robotmaaiers zonder begrenzingsdraad, van RTK tot LiDAR en camera.',
-    pl: 'ECOVACS GOAT A1600 RTK, Segway Navimow i105E, Mammotion LUBA 2 AWD, Husqvarna 310E NERA i Worx Landroid Vision: porównanie robotów koszących bez kabla obwodowego w 2026 roku, z technologiami RTK, LiDAR i kamerą.',
+    pl: 'ECOVACS GOAT A1600 RTK, Segway Navimow i105E, Mammotion LUBA 2 AWD, Husqvarna 310E NERA i Worx Landroid Vision: porównanie robotów koszących bez przewodu ograniczającego na 2026 rok – nawigacja RTK, LiDAR i kamera.',
+    sv: 'ECOVACS GOAT A1600 RTK, Segway Navimow i105E, Mammotion LUBA 2 AWD, Husqvarna 310E NERA och Worx Landroid Vision: vår jämförelse 2026 av robotgräsklippare utan begränsningskabel, med navigering via RTK, LiDAR eller kamera.',
+    us: 'ECOVACS GOAT A1600 RTK, Segway Navimow i105E, Mammotion LUBA 2 AWD, Husqvarna 310E NERA and Worx Landroid Vision: our 2026 comparison of robot lawn mowers that need no boundary wire, from RTK to LiDAR and camera navigation.',
+    ca: 'ECOVACS GOAT A1600 RTK, Segway Navimow i105E, Mammotion LUBA 2 AWD, Husqvarna 310E NERA and Worx Landroid Vision: our 2026 comparison of wire-free robot mowers, from RTK to LiDAR and camera navigation.',
   },
   content: {
     fr: `<p><strong>La meilleure tondeuse robot sans fil périmétrique en 2026 pour la plupart des jardins est l’ECOVACS GOAT A1600 RTK</strong> : elle combine le positionnement RTK et un LiDAR, couvre jusqu’à 1 600 m² et gravit des pentes jusqu’à 50 % selon le fabricant. Pour une petite pelouse et un budget d’entrée de gamme, la Segway Navimow i105E est la plus simple ; pour un grand terrain en pente, la Mammotion LUBA 2 AWD 3000X s’impose grâce à ses quatre roues motrices.</p>
@@ -598,98 +607,374 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste middelgrote tuinen biedt de <strong>ECOVACS GOAT A1600 RTK</strong> dankzij de combinatie RTK + LiDAR de beste balans tussen precisie, oppervlakte en klimvermogen. Op een klein, open gazon doet de <strong>Segway Navimow i105E</strong> het belangrijkste voor een kleiner budget. Voor een groot, heuvelachtig perceel heeft de <strong>Mammotion LUBA 2 AWD 3000X</strong> geen gelijke in deze selectie. De Husqvarna 310E NERA stelt wie waarde hecht aan een sterk servicenetwerk gerust, en de Worx Landroid Vision M600 past bij kleine, schaduwrijke tuinen met duidelijke randen. Lees verder in onze <a href="/nl/blog/guide-jardin-connecte-2026">gids voor de slimme tuin 2026</a>.</p>`,
-    pl: `<p><strong>Najlepszy robot koszący bez kabla obwodowego w 2026 roku dla większości ogrodów to ECOVACS GOAT A1600 RTK</strong>: łączy pozycjonowanie RTK z LiDAR-em, obsługuje trawniki do 1600 m² i według producenta pokonuje nachylenia do 50%. Na mały trawnik i przy niewielkim budżecie najprostszy będzie Segway Navimow i105E, a na duży, pochyły teren najlepiej sprawdzi się Mammotion LUBA 2 AWD 3000X dzięki czterem napędzanym kołom.</p>
-<p>Porównanie opiera się na kartach katalogowych producentów, opublikowanych niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku. Cały wybór znajdziesz na naszej stronie <a href="/pl/outdoor-connecte/tondeuses-robots">roboty koszące</a>.</p>
+    pl: `<p><strong>Najlepszym robotem koszącym bez przewodu ograniczającego dla większości ogrodów w 2026 roku jest ECOVACS GOAT A1600 RTK</strong>: łączy pozycjonowanie RTK z LiDAR-em, obsługuje trawniki do 1600 m² i według producenta pokonuje nachylenia do 50%. Na mały trawnik i przy niewielkim budżecie najprostszym wyborem będzie Segway Navimow i105E, a na dużą działkę ze spadkiem najlepiej nada się Mammotion LUBA 2 AWD 3000X z napędem na cztery koła.</p>
+<p>Porównanie powstało na podstawie kart katalogowych producentów, opublikowanych niezależnych recenzji i opinii zweryfikowanych kupujących. Uwzględniamy w nim wyłącznie modele sprzedawane w Europie w 2026 roku. Wszystkie modele znajdziesz w kategorii <a href="/pl/outdoor-connecte/tondeuses-robots">roboty koszące</a>.</p>
 
-<h2>Bez kabla obwodowego: skąd te roboty wiedzą, gdzie kosić</h2>
-<p>Klasyczny robot koszący trzyma się trawnika dzięki kablowi zakopanemu lub przypiętemu szpilkami wzdłuż krawędzi. Modele bez kabla obwodowego zastępują go <strong>wirtualną mapą</strong>, którą rysujesz w aplikacji, często prowadząc robota wzdłuż granic za pomocą smartfona. Współistnieją trzy technologie:</p>
+<h2>Bez przewodu ograniczającego: skąd te roboty wiedzą, gdzie kosić</h2>
+<p>Klasyczny robot koszący nie wyjeżdża poza trawnik dzięki przewodowi zakopanemu w ziemi lub przypiętemu szpilkami wzdłuż krawędzi. Modele bez przewodu zastępują go <strong>wirtualną mapą</strong>, którą rysujesz w aplikacji – najczęściej prowadząc robota wzdłuż granic trawnika za pomocą smartfona. Stosuje się trzy technologie:</p>
 <ul>
-<li><strong>RTK (korygowane pozycjonowanie satelitarne)</strong>: stała antena referencyjna koryguje sygnał GNSS w czasie rzeczywistym i daje dokładność rzędu centymetra. Potrzebny jest dobry widok na niebo; gęste drzewa i wysokie mury osłabiają sygnał.</li>
-<li><strong>Kamera i wizja AI</strong>: kamera rozpoznaje trawę, krawędzie i przeszkody. Samodzielnie pozwala uniknąć anteny, ale zależy od wyraźnego kontrastu między trawnikiem a otoczeniem.</li>
-<li><strong>LiDAR</strong>: czujnik laserowy mapuje otoczenie w 3D. W połączeniu z RTK pomaga robotowi utrzymać pozycję przy domu lub pod drzewami, tam gdzie sygnał satelitarny słabnie.</li>
+<li><strong>RTK (satelitarne pozycjonowanie z korekcją)</strong>: nieruchoma antena referencyjna na bieżąco koryguje sygnał GNSS, co daje dokładność rzędu centymetra. Antena potrzebuje dobrego widoku na niebo; gęste drzewa i wysokie mury osłabiają sygnał.</li>
+<li><strong>Kamera i rozpoznawanie obrazu przez AI</strong>: kamera rozpoznaje trawę, krawędzie i przeszkody. Sama nie wymaga żadnej anteny, ale potrzebuje wyraźnego kontrastu między trawnikiem a otoczeniem.</li>
+<li><strong>LiDAR</strong>: czujnik laserowy tworzy trójwymiarową mapę otoczenia. W połączeniu z RTK pomaga robotowi utrzymać pozycję przy domu i pod drzewami, gdzie sygnał satelitarny słabnie.</li>
 </ul>
-<p>Większość nowych modeli łączy dwie z tych technologii. To pierwsze kryterium wyboru, jeszcze przed powierzchnią.</p>
+<p>Większość nowych modeli łączy dwie z tych technologii. Od tego wyboru warto zacząć – jeszcze przed powierzchnią trawnika.</p>
 
-<h2>Kryteria dobrego wyboru</h2>
+<h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Rzeczywista powierzchnia trawnika</strong>: wybierz model, którego zalecana powierzchnia przekracza Twój trawnik o co najmniej 20–30%, aby mieć zapas w lata intensywnego wzrostu.</li>
-<li><strong>Widok na niebo</strong>: w otwartym ogrodzie wystarczy samo RTK. W ogrodzie z drzewami lub otoczonym murami wybierz RTK + LiDAR albo RTK + kamerę.</li>
-<li><strong>Maksymalne nachylenie</strong>: sprawdź największe nachylenie na swojej działce. Powyżej 30–35% dobrze radzi sobie tylko kilka modeli, w tym wersje z napędem na wszystkie koła.</li>
-<li><strong>Szerokość koszenia</strong>: od 18 cm w małych modelach do 40 cm w dużych. Szerokie koszenie wyraźnie skraca czas pracy na dużych powierzchniach.</li>
-<li><strong>Wąskie przejścia i wiele stref</strong>: jeśli trawnik jest podzielony (z przodu i z tyłu domu), sprawdź, czy aplikacja obsługuje wiele stref i ścieżki łączące.</li>
-<li><strong>Zabezpieczenie przed kradzieżą</strong>: kod PIN, alarm po podniesieniu i w niektórych modelach lokalizacja. Czujnik uniesienia zatrzymujący noże jest niezbędny.</li>
-<li><strong>Koszenie przy krawędziach</strong>: żaden robot nie skosi idealnie przy samym murze. Niektóre podjeżdżają na kilka centymetrów; i tak zaplanuj wykończenie podkaszarką.</li>
+<li><strong>Rzeczywista powierzchnia trawnika</strong>: wybierz model, którego zalecana powierzchnia jest o co najmniej 20–30% większa od Twojego trawnika – wtedy zachowasz zapas w latach, gdy trawa rośnie wyjątkowo szybko.</li>
+<li><strong>Odsłonięte niebo</strong>: w otwartym ogrodzie wystarczy samo RTK. W ogrodzie z drzewami albo otoczonym murami postaw na RTK + LiDAR lub RTK + kamerę.</li>
+<li><strong>Maksymalne nachylenie</strong>: sprawdź najbardziej stromy fragment działki. Powyżej 30–35% dobrze radzi sobie tylko kilka modeli, m.in. wersje z napędem na wszystkie koła.</li>
+<li><strong>Szerokość koszenia</strong>: od 18 cm w małych modelach do 40 cm w dużych. Na dużych powierzchniach większa szerokość wyraźnie skraca czas koszenia.</li>
+<li><strong>Wąskie przejścia i kilka stref</strong>: jeśli trawnik jest podzielony (np. przed domem i za domem), sprawdź, czy aplikacja obsługuje kilka stref i ścieżki łączące.</li>
+<li><strong>Zabezpieczenie przed kradzieżą i bezpieczeństwo</strong>: kod PIN, alarm po podniesieniu robota, a w niektórych modelach lokalizacja. Niezbędny jest czujnik podniesienia, który zatrzymuje noże.</li>
+<li><strong>Koszenie przy krawędziach</strong>: żaden robot nie skosi trawy idealnie przy samym murze. Niektóre podjeżdżają na kilka centymetrów, ale i tak przygotuj się na wykończenie krawędzi podkaszarką.</li>
 </ul>
 
-<h2>5 najlepszych robotów koszących bez kabla obwodowego w 2026 roku</h2>
+<h2>5 najlepszych robotów koszących bez przewodu ograniczającego w 2026 roku</h2>
 
-<h3>1. ECOVACS GOAT A1600 RTK — najlepszy wybór ogólny</h3>
-<p>GOAT A1600 RTK łączy stację RTK i LiDAR do określania pozycji oraz wizję 3D do rozpoznawania przeszkód. ECOVACS deklaruje trawniki do 1600 m², dwie tarcze tnące o szerokości 33 cm, elektrycznie regulowaną wysokość koszenia od 30 do 90 mm i nachylenia do 50%.</p>
-<p><strong>Mocne strony:</strong> pozycjonowanie stabilniejsze niż samo RTK w pobliżu drzew i budynków, komfortowa szerokość koszenia, deklarowane wykończenie krawędzi na około 5 cm, aplikacja ECOVACS Home dobrze oceniana przez kupujących.</p>
-<p><strong>Ograniczenia:</strong> antenę RTK trzeba zamontować w miejscu z otwartym widokiem; robot jest większy niż model podstawowy.</p>
-<p><strong>Dla kogo:</strong> ogrody od 500 do 1500 m², z drzewami lub lekkim spadkiem, dla osób chcących instalacji bez kabla i bez kompromisów.</p>
+<h3>1. ECOVACS GOAT A1600 RTK – najlepszy wybór dla większości</h3>
+<p>GOAT A1600 RTK ustala swoją pozycję dzięki stacji RTK i LiDAR-owi, a przeszkody rozpoznaje za pomocą systemu wizyjnego 3D. ECOVACS deklaruje obsługę trawników do 1600 m², dwie tarcze tnące na szerokości 33 cm, elektryczną regulację wysokości koszenia w zakresie 30–90 mm i pokonywanie nachyleń do 50%.</p>
+<p><strong>Mocne strony:</strong> w pobliżu drzew i budynków pozycjonowanie stabilniejsze niż przy samym RTK, wygodna szerokość koszenia, deklarowane koszenie do ok. 5 cm od krawędzi, dobrze oceniana przez kupujących aplikacja ECOVACS Home.</p>
+<p><strong>Ograniczenia:</strong> antenę RTK trzeba zamontować w miejscu z odsłoniętym niebem; robot zajmuje więcej miejsca niż modele z niższej półki.</p>
+<p><strong>Dla kogo:</strong> ogrody o powierzchni 500–1500 m², z drzewami lub lekkim spadkiem – dla osób, które chcą robota bez przewodu i bez kompromisów.</p>
 
-<h3>2. Segway Navimow i105E — najlepszy stosunek jakości do ceny</h3>
-<p>Navimow i105E wykorzystuje system EFLS 2.0 firmy Segway: RTK z anteną referencyjną, uzupełnione kamerą VisionFence do wykrywania przeszkód. Jest przeznaczony do małych ogrodów, do 500 m², z szerokością koszenia 18 cm, wysokością 20–60 mm i nachyleniami do 30%. Niemal identyczny model i108E obsługuje do 800 m² dzięki większemu akumulatorowi.</p>
-<p><strong>Mocne strony:</strong> prowadzona konfiguracja w aplikacji, mapowanie przez obejście trawnika, cicha praca, koszenie w regularnych pasach.</p>
-<p><strong>Ograniczenia:</strong> mała szerokość koszenia, ograniczone nachylenie, powierzchnia zarezerwowana dla małych działek. Jak każde RTK, antena musi widzieć niebo.</p>
-<p><strong>Dla kogo:</strong> pierwszy robot koszący bez kabla na trawnik w mieście lub na osiedlu domów.</p>
+<h3>2. Segway Navimow i105E – najlepszy stosunek jakości do ceny</h3>
+<p>Navimow i105E korzysta z systemu EFLS 2.0 firmy Segway: RTK z anteną referencyjną uzupełnia kamera VisionFence, która wykrywa przeszkody. Model jest przeznaczony do małych ogrodów (do 500 m²), kosi pasem o szerokości 18 cm, wysokość koszenia reguluje w zakresie 20–60 mm i pokonuje nachylenia do 30%. Niemal identyczny i108E dzięki większemu akumulatorowi obsłuży do 800 m².</p>
+<p><strong>Mocne strony:</strong> konfiguracja krok po kroku w aplikacji, mapowanie przez obejście trawnika z robotem, cicha praca, koszenie w równych, regularnych pasach.</p>
+<p><strong>Ograniczenia:</strong> wąski pas koszenia, ograniczone możliwości na pochyłościach, zalecana powierzchnia odpowiednia tylko dla małych działek. Jak w każdym modelu RTK antena musi mieć widok na niebo.</p>
+<p><strong>Dla kogo:</strong> pierwszy robot koszący bez przewodu na trawnik w mieście lub na osiedlu domów jednorodzinnych.</p>
 
-<h3>3. Mammotion LUBA 2 AWD 3000X — na duże, pochyłe tereny</h3>
-<p>LUBA 2 AWD 3000X jest stworzona na trudne tereny: cztery napędzane koła, deklarowane nachylenia do 80% (około 38°), szerokość koszenia 40 cm i wysokość 25–70 mm. Łączy RTK z wizją UltraSense AI firmy Mammotion, przy zalecanej powierzchni 3000 m².</p>
-<p><strong>Mocne strony:</strong> najlepsza zdolność pokonywania wzniesień w tym porównaniu, wysoka wydajność na dużych trawnikach, pełna obsługa wielu stref w aplikacji.</p>
-<p><strong>Ograniczenia:</strong> ciężki i duży robot, głośniejszy niż mały model, a na trawnik o kilkuset metrach kwadratowych za duży.</p>
-<p><strong>Dla kogo:</strong> duże tereny pagórkowate lub nierówne. Zależnie od powierzchni dostępne są też wersje 1000 i 5000.</p>
+<h3>3. Mammotion LUBA 2 AWD 3000X – na duże działki ze spadkiem</h3>
+<p>Model LUBA 2 AWD 3000X powstał z myślą o trudnym terenie: ma napęd na cztery koła, według producenta pokonuje nachylenia do 80% (ok. 38°), kosi pasem o szerokości 40 cm, a wysokość koszenia reguluje w zakresie 25–70 mm. Łączy RTK z systemem wizyjnym UltraSense AI firmy Mammotion; zalecana powierzchnia to 3000 m².</p>
+<p><strong>Mocne strony:</strong> najlepiej w tym porównaniu radzi sobie ze wzniesieniami, wysoka wydajność na dużych trawnikach, pełna obsługa wielu stref w aplikacji.</p>
+<p><strong>Ograniczenia:</strong> robot ciężki i duży, głośniejszy niż małe modele, a do trawnika o powierzchni kilkuset metrów kwadratowych – zdecydowanie za duży.</p>
+<p><strong>Dla kogo:</strong> duże działki pagórkowate lub o nierównym terenie. W zależności od powierzchni dostępne są też wersje 1000 i 5000.</p>
 
-<h3>4. Husqvarna Automower 310E NERA — sprawdzony wybór z możliwością rozbudowy</h3>
-<p>Model 310E NERA można zainstalować z klasycznym kablem albo, z zestawem <strong>EPOS Plug-in</strong> i stacją referencyjną EPOS sprzedawanymi osobno, zupełnie bez kabla. Husqvarna deklaruje około 1000 m², szerokość koszenia 22 cm i nachylenia do 30% wewnątrz strefy. Sterowanie odbywa się w aplikacji Automower Connect.</p>
-<p><strong>Mocne strony:</strong> bardzo gęsta sieć sprzedawców i serwisów w Europie, uznana trwałość serii Automower, łatwe tworzenie stref tymczasowych i wyłączonych.</p>
-<p><strong>Ograniczenia:</strong> działanie bez kabla wymaga dokupienia zestawu EPOS i jego stacji poza samym robotem; brak LiDAR-u i wizji w nawigacji.</p>
-<p><strong>Dla kogo:</strong> dla tych, którzy chcą znanej marki i serwisu w pobliżu, nawet kosztem opcji EPOS.</p>
+<h3>4. Husqvarna Automower 310E NERA – sprawdzony wybór z możliwością rozbudowy</h3>
+<p>Model 310E NERA można zainstalować z klasycznym przewodem ograniczającym albo – z zestawem <strong>EPOS Plug-in</strong> i stacją referencyjną EPOS, sprzedawanymi osobno – zupełnie bez przewodu. Husqvarna deklaruje obsługę ok. 1000 m², szerokość koszenia 22 cm i nachylenia do 30% w obrębie strefy koszenia. Robotem steruje się w aplikacji Automower Connect.</p>
+<p><strong>Mocne strony:</strong> bardzo gęsta sieć sprzedawców i serwisów w Europie, uznana trwałość serii Automower, łatwe tworzenie stref tymczasowych i stref wyłączonych z koszenia.</p>
+<p><strong>Ograniczenia:</strong> praca bez przewodu wymaga dokupienia zestawu EPOS i stacji referencyjnej; w nawigacji brak LiDAR-u i systemu wizyjnego.</p>
+<p><strong>Dla kogo:</strong> osoby, które chcą marki z długą tradycją i serwisu w pobliżu, nawet jeśli trzeba dopłacić do opcji EPOS.</p>
 
-<h3>5. Worx Landroid Vision M600 — w pełni kamerowy, bez anteny</h3>
-<p>Landroid Vision M600 (WR206E) obywa się bez kabla i anteny: szerokokątna kamera HDR i sieć neuronowa rozpoznają trawę oraz przeszkody. Worx przeznacza go na trawniki do 600 m², z szerokością koszenia 18 cm i wysokością 30–60 mm.</p>
-<p><strong>Mocne strony:</strong> najprostsza instalacja w tym porównaniu (ustawiasz bazę i uruchamiasz koszenie), brak problemów z odbiorem satelitarnym pod drzewami.</p>
-<p><strong>Ograniczenia:</strong> robot kosi tam, gdzie „widzi” trawę; jeśli trawnik graniczy z łąką lub słabo kontrastującą rabatą, potrzebne są wyraźne krawędzie. Opinie kupujących wskazują też na mniej systematyczne koszenie niż w modelu RTK.</p>
-<p><strong>Dla kogo:</strong> małe, dobrze ograniczone ogrody (krawężniki, alejki, tarasy), zwłaszcza zacienione.</p>
+<h3>5. Worx Landroid Vision M600 – tylko kamera, bez anteny</h3>
+<p>Landroid Vision M600 (WR206E) nie potrzebuje ani przewodu, ani anteny: trawę i przeszkody rozpoznają szerokokątna kamera HDR i sieć neuronowa. Worx przeznacza go na trawniki do 600 m²; szerokość koszenia wynosi 18 cm, a wysokość koszenia 30–60 mm.</p>
+<p><strong>Mocne strony:</strong> najprostsza instalacja w tym porównaniu (wystarczy ustawić stację bazową i uruchomić koszenie), brak problemów z sygnałem satelitarnym pod drzewami.</p>
+<p><strong>Ograniczenia:</strong> robot kosi tam, gdzie „widzi” trawę; jeśli trawnik przechodzi w łąkę albo w rabatę o podobnym kolorze, potrzebne są wyraźne obrzeża. Kupujący zwracają też uwagę, że kosi mniej systematycznie niż modele RTK.</p>
+<p><strong>Dla kogo:</strong> małe ogrody z wyraźnymi granicami (obrzeża, alejki, tarasy), zwłaszcza zacienione.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Nawigacja</th><th>Zalecana powierzchnia</th><th>Maks. nachylenie (producent)</th><th>Szerokość koszenia</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Nawigacja</th><th>Zalecana powierzchnia</th><th>Maks. nachylenie (wg producenta)</th><th>Szerokość koszenia</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td>ECOVACS GOAT A1600 RTK</td><td>RTK + LiDAR + wizja 3D</td><td>1600 m²</td><td>50%</td><td>33 cm</td><td>Średnich ogrodów z drzewami</td></tr>
-<tr><td>Segway Navimow i105E</td><td>RTK + kamera VisionFence</td><td>500 m²</td><td>30%</td><td>18 cm</td><td>Małych trawników, pierwszego zakupu</td></tr>
-<tr><td>Mammotion LUBA 2 AWD 3000X</td><td>RTK + wizja AI</td><td>3000 m²</td><td>80%</td><td>40 cm</td><td>Dużych terenów ze spadkiem</td></tr>
-<tr><td>Husqvarna Automower 310E NERA</td><td>EPOS (RTK) opcjonalnie lub kabel</td><td>1000 m²</td><td>30%</td><td>22 cm</td><td>Znanej marki, lokalnego serwisu</td></tr>
-<tr><td>Worx Landroid Vision M600</td><td>Wyłącznie kamera AI</td><td>600 m²</td><td>brak danych</td><td>18 cm</td><td>Małych, zacienionych, dobrze ograniczonych ogrodów</td></tr>
+<tr><td>ECOVACS GOAT A1600 RTK</td><td>RTK + LiDAR + system wizyjny 3D</td><td>1600 m²</td><td>50%</td><td>33 cm</td><td>Średnie ogrody z drzewami</td></tr>
+<tr><td>Segway Navimow i105E</td><td>RTK + kamera VisionFence</td><td>500 m²</td><td>30%</td><td>18 cm</td><td>Małe trawniki, pierwszy robot</td></tr>
+<tr><td>Mammotion LUBA 2 AWD 3000X</td><td>RTK + system wizyjny AI</td><td>3000 m²</td><td>80%</td><td>40 cm</td><td>Duże działki ze spadkiem</td></tr>
+<tr><td>Husqvarna Automower 310E NERA</td><td>EPOS (RTK) w opcji lub przewód</td><td>1000 m²</td><td>30%</td><td>22 cm</td><td>Osoby ceniące znaną markę i serwis w pobliżu</td></tr>
+<tr><td>Worx Landroid Vision M600</td><td>Wyłącznie kamera AI</td><td>600 m²</td><td>brak danych</td><td>18 cm</td><td>Małe, zacienione ogrody z wyraźnymi granicami</td></tr>
 </tbody>
 </table>
 
-<h2>Instalacja: kluczowe etapy</h2>
+<h2>Instalacja krok po kroku</h2>
 <ol>
-<li><strong>Przygotuj trawnik</strong>: ostatni raz skoś ręcznie na docelową wysokość, zbierz gałęzie, zabawki i węże.</li>
-<li><strong>Ustaw bazę</strong>: na płaskim podłożu, blisko wodoodpornego i osłoniętego gniazdka zewnętrznego. Jeśli trzeba wykonać nowe gniazdko, zleć to wykwalifikowanemu elektrykowi.</li>
-<li><strong>Zamontuj antenę RTK</strong> (zależnie od modelu): wysoko, z dala od murów i drzew, z jak najszerszym widokiem na niebo. Maszt lub uchwyt ścienny często są dostępne jako akcesorium.</li>
-<li><strong>Zmapuj teren</strong>: w aplikacji prowadź robota wzdłuż krawędzi, a następnie narysuj strefy wyłączone (rabaty, warzywnik, basen) i przejścia między strefami.</li>
-<li><strong>Pierwszy cykl pod nadzorem</strong>: obserwuj zachowanie przy krawędziach i w wąskich przejściach, a następnie popraw mapę.</li>
+<li><strong>Przygotuj trawnik</strong>: ostatni raz skoś go zwykłą kosiarką na docelową wysokość i zbierz gałęzie, zabawki oraz węże ogrodowe.</li>
+<li><strong>Ustaw stację bazową</strong>: na płaskim podłożu, w pobliżu hermetycznego, osłoniętego gniazdka zewnętrznego. Jeśli trzeba zamontować nowe gniazdko, zleć to wykwalifikowanemu elektrykowi.</li>
+<li><strong>Zamontuj antenę RTK</strong> (zależnie od modelu): wysoko, z dala od murów i drzew, tak by miała jak najszerszy widok na niebo. Maszt lub uchwyt ścienny często można dokupić jako akcesorium.</li>
+<li><strong>Zmapuj teren</strong>: w aplikacji przeprowadź robota wzdłuż krawędzi trawnika, a potem wyznacz strefy wyłączone z koszenia (rabaty, warzywnik, basen) i przejścia między strefami.</li>
+<li><strong>Nadzoruj pierwsze koszenie</strong>: obserwuj, jak robot radzi sobie przy krawędziach i w wąskich przejściach, a potem popraw mapę.</li>
 </ol>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Kupno modelu RTK do bardzo zadrzewionego ogrodu</strong> bez LiDAR-u ani pomocniczej kamery: robot będzie regularnie gubić pozycję.</li>
-<li><strong>Wybór zbyt małej powierzchni</strong>: na wiosnę robot nie nadąży za wzrostem trawy.</li>
-<li><strong>Ignorowanie rzeczywistego nachylenia</strong>: deklarowane 30% mierzy się na suchej trawie; na mokrej zapas maleje.</li>
-<li><strong>Programowanie koszenia w nocy</strong>: wiele organizacji chroniących zwierzęta zaleca koszenie w dzień, aby oszczędzić jeże i inne małe zwierzęta.</li>
-<li><strong>Pozostawianie dzieci i zwierząt przy pracującym robocie</strong>: czujniki zmniejszają ryzyko, ale go nie eliminują.</li>
+<li><strong>Kupowanie modelu RTK do mocno zadrzewionego ogrodu</strong> bez LiDAR-u czy kamery pomocniczej: robot będzie regularnie gubić pozycję.</li>
+<li><strong>Wybieranie modelu o powierzchni „na styk”</strong>: wiosną robot nie nadąży za rosnącą trawą.</li>
+<li><strong>Ignorowanie rzeczywistego nachylenia</strong>: deklarowane 30% dotyczy suchej trawy; na mokrej zapas się zmniejsza.</li>
+<li><strong>Programowanie koszenia na noc</strong>: wiele organizacji zajmujących się ochroną przyrody zaleca koszenie w dzień, by chronić jeże i inne małe zwierzęta.</li>
+<li><strong>Zostawianie dzieci i zwierząt w pobliżu pracującego robota</strong>: czujniki zmniejszają ryzyko, ale go nie eliminują.</li>
 </ul>
 
 <h2>Konserwacja i bezpieczeństwo</h2>
-<p>Regularnie czyść spód robota i sprawdzaj stan noży: stępione noże wyrywają trawę zamiast ją ciąć. Wymieniaj je zgodnie z zaleceniami producenta. Włącz kod PIN i alarm antykradzieżowy. Zimą przechowuj robota czystego i naładowanego w suchym pomieszczeniu, jak podaje większość instrukcji. Aby uzupełnić pielęgnację ogrodu, zajrzyj też do naszego <a href="/pl/blog/arrosage-connecte-intelligent">poradnika o inteligentnym nawadnianiu</a>.</p>
+<p>Regularnie czyść spód robota i sprawdzaj stan noży: tępe noże wyrywają trawę, zamiast ją ciąć. Wymieniaj je zgodnie z zaleceniami producenta. Włącz kod PIN i alarm antykradzieżowy. Na zimę schowaj robota – czystego i naładowanego – w suchym pomieszczeniu, jak zaleca większość instrukcji. Jeśli chcesz zadbać o resztę ogrodu, zajrzyj też do naszego <a href="/pl/blog/arrosage-connecte-intelligent">poradnika o inteligentnym nawadnianiu</a>.</p>
 
-<h2>Werdykt</h2>
-<p>Dla większości ogrodów średniej wielkości <strong>ECOVACS GOAT A1600 RTK</strong> oferuje najlepszą równowagę między precyzją, powierzchnią i pokonywaniem wzniesień, dzięki duetowi RTK + LiDAR. Na małym, otwartym trawniku <strong>Segway Navimow i105E</strong> robi to, co najważniejsze, przy skromniejszym budżecie. Na duży, pagórkowaty teren <strong>Mammotion LUBA 2 AWD 3000X</strong> nie ma w tym zestawieniu odpowiednika. Husqvarna 310E NERA uspokoi tych, którzy stawiają na sieć serwisową, a Worx Landroid Vision M600 pasuje do małych, zacienionych ogrodów z wyraźnymi krawędziami. Aby pójść dalej, zajrzyj do naszego <a href="/pl/blog/guide-jardin-connecte-2026">poradnika o inteligentnym ogrodzie 2026</a>.</p>`,
+<h2>Nasz werdykt</h2>
+<p>W większości ogrodów średniej wielkości najlepszy kompromis między precyzją, obsługiwaną powierzchnią i pokonywaniem wzniesień zapewnia <strong>ECOVACS GOAT A1600 RTK</strong> – dzięki połączeniu RTK z LiDAR-em. Na małym, otwartym trawniku <strong>Segway Navimow i105E</strong> zrobi to, co najważniejsze, za mniejsze pieniądze. Na dużej, pagórkowatej działce <strong>Mammotion LUBA 2 AWD 3000X</strong> nie ma w tym zestawieniu konkurencji. Husqvarna 310E NERA to spokojny wybór dla osób, które cenią sieć serwisową, a Worx Landroid Vision M600 sprawdzi się w małych, zacienionych ogrodach z wyraźnymi obrzeżami. Więcej informacji znajdziesz w naszym <a href="/pl/blog/guide-jardin-connecte-2026">przewodniku po inteligentnym ogrodzie na 2026 rok</a>.</p>`,
+    sv: `<p><strong>Den bästa robotgräsklipparen utan begränsningskabel 2026 för de flesta trädgårdar är ECOVACS GOAT A1600 RTK</strong>: den kombinerar RTK-positionering med LiDAR, klarar gräsmattor på upp till 1 600 m² och tar sig uppför lutningar på upp till 50 % enligt tillverkaren. För en liten gräsmatta och en mer begränsad budget är Segway Navimow i105E det enklaste valet. För en stor, sluttande tomt är fyrhjulsdrivna Mammotion LUBA 2 AWD 3000X den du ska välja.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Den tar bara med modeller som säljs i Europa 2026. Hela urvalet hittar du på vår sida om <a href="/sv/outdoor-connecte/tondeuses-robots">robotgräsklippare</a>.</p>
+
+<h2>Utan begränsningskabel: så vet robotarna var de ska klippa</h2>
+<p>En vanlig robotgräsklippare håller sig på gräsmattan tack vare en kabel som grävs ner eller fästs med märlor längs kanterna. Modellerna utan begränsningskabel ersätter kabeln med en <strong>virtuell karta</strong> som du ritar upp i appen, oftast genom att styra roboten runt kanterna med mobilen. Tre tekniker förekommer:</p>
+<ul>
+<li><strong>RTK (korrigerad satellitpositionering)</strong>: en fast referensantenn korrigerar GNSS-signalen i realtid och ger en noggrannhet på ungefär centimeternivå. Den kräver fri sikt mot himlen; täta träd och höga murar försvagar signalen.</li>
+<li><strong>Kamera med AI-bildigenkänning</strong>: kameran känner igen gräs, kanter och hinder. Används kameran ensam behövs ingen antenn alls, men den är beroende av en tydlig kontrast mellan gräsmattan och omgivningen.</li>
+<li><strong>LiDAR</strong>: en lasersensor kartlägger omgivningen i 3D. Tillsammans med RTK hjälper den roboten att hålla reda på sin position nära huset eller under träd, där satellitsignalen blir svagare.</li>
+</ul>
+<p>De flesta nya modeller kombinerar två av de här teknikerna. Det är det första du ska ta ställning till, redan innan du tittar på gräsmattans storlek.</p>
+
+<h2>Så väljer du rätt</h2>
+<ul>
+<li><strong>Gräsmattans verkliga yta</strong>: välj en modell som är avsedd för minst 20–30 % större yta än din gräsmatta, så att den hinner med även de år när gräset växer extra mycket.</li>
+<li><strong>Fri sikt mot himlen</strong>: i en öppen trädgård räcker RTK. Med träd eller höga murar är RTK + LiDAR eller RTK + kamera ett säkrare val.</li>
+<li><strong>Maximal lutning</strong>: mät den brantaste delen av tomten. Över 30–35 % är det bara ett fåtal modeller, bland dem de fyrhjulsdrivna versionerna, som klarar sig bra.</li>
+<li><strong>Klippbredd</strong>: från 18 cm på små modeller till 40 cm på de stora. Med större klippbredd går klippningen betydligt snabbare på stora gräsmattor.</li>
+<li><strong>Smala passager och flera zoner</strong>: om gräsmattan är uppdelad (framför och bakom huset), kontrollera att appen hanterar flera zoner och passager mellan dem.</li>
+<li><strong>Stöldskydd och säkerhet</strong>: PIN-kod, larm när roboten lyfts och, på vissa modeller, positionsspårning. En lyftsensor som stoppar knivarna är ett måste.</li>
+<li><strong>Kantklippning</strong>: ingen robot klipper perfekt ända intill en mur. Vissa kommer inom några centimeter, men räkna ändå med en snabb efterputs med grästrimmer.</li>
+</ul>
+
+<h2>De 5 bästa robotgräsklipparna utan begränsningskabel 2026</h2>
+
+<h3>1. ECOVACS GOAT A1600 RTK: bäst totalt</h3>
+<p>GOAT A1600 RTK kombinerar en RTK-station och LiDAR för positioneringen, plus 3D-baserad hinderigenkänning. ECOVACS anger upp till 1 600 m² gräsmatta, två klippskivor med 33 cm klippbredd, en elektriskt justerbar klipphöjd på 30–90 mm och lutningar på upp till 50 %.</p>
+<p><strong>Styrkor:</strong> stabilare positionering än enbart RTK nära träd och byggnader, generös klippbredd, klippning ända till ungefär 5 cm från kanten enligt tillverkaren och appen ECOVACS Home, som får bra betyg av köparna.</p>
+<p><strong>Svagheter:</strong> RTK-antennen måste placeras med fri sikt mot himlen, och roboten är mer skrymmande än en instegsmodell.</p>
+<p><strong>Passar för:</strong> trädgårdar på 500–1 500 m², med träd eller svag lutning, för dig som vill ha en installation utan kabel och utan kompromisser.</p>
+
+<h3>2. Segway Navimow i105E: mest prisvärd</h3>
+<p>Navimow i105E använder Segways system EFLS 2.0: RTK med referensantenn, kompletterat med kameran VisionFence som upptäcker hinder. Den är tänkt för små trädgårdar på upp till 500 m², med 18 cm klippbredd, en klipphöjd på 20–60 mm och lutningar på upp till 30 %. Den nästan identiska i108E klarar 800 m² tack vare ett större batteri.</p>
+<p><strong>Styrkor:</strong> guidad installation i appen, kartläggning medan du går runt gräsmattan, tyst gång och jämna, raka klipprader.</p>
+<p><strong>Svagheter:</strong> smal klippbredd, begränsad förmåga i lutningar och en yta som bara räcker till små tomter. Som alla RTK-modeller behöver antennen fri sikt mot himlen.</p>
+<p><strong>Passar för:</strong> den första robotgräsklipparen utan kabel, till en gräsmatta i stan eller i ett villaområde.</p>
+
+<h3>3. Mammotion LUBA 2 AWD 3000X: för stora, sluttande tomter</h3>
+<p>LUBA 2 AWD 3000X är byggd för svår terräng: fyrhjulsdrift, lutningar på upp till 80 % (ungefär 38°) enligt tillverkaren, 40 cm klippbredd och en klipphöjd på 25–70 mm. Den kombinerar RTK med Mammotions bildigenkänning UltraSense AI och är avsedd för 3 000 m².</p>
+<p><strong>Styrkor:</strong> bäst framkomlighet i den här jämförelsen, hög kapacitet på stora gräsmattor och fullständig hantering av flera zoner i appen.</p>
+<p><strong>Svagheter:</strong> tung och stor robot, mer högljudd än en liten modell och överdimensionerad för en gräsmatta på några hundra kvadratmeter.</p>
+<p><strong>Passar för:</strong> stora, kuperade eller ojämna tomter. Det finns även versionerna 1000 och 5000, beroende på hur stor yta du har.</p>
+
+<h3>4. Husqvarna Automower 310E NERA: det trygga valet som kan byggas ut</h3>
+<p>310E NERA kan installeras med en vanlig begränsningskabel eller, med satsen <strong>EPOS Plug-in</strong> och en EPOS-referensstation som säljs separat, helt utan kabel. Husqvarna anger ungefär 1 000 m², 22 cm klippbredd och lutningar på upp till 30 % inom arbetsområdet. Den styrs via appen Automower Connect.</p>
+<p><strong>Styrkor:</strong> ett mycket tätt nät av återförsäljare och serviceverkstäder i Europa, Automower-seriens välkända tålighet och enkelt att skapa tillfälliga zoner och zoner som roboten ska undvika.</p>
+<p><strong>Svagheter:</strong> för att slippa kabeln måste du köpa EPOS-satsen och referensstationen utöver roboten, och den har varken LiDAR eller kamera för navigeringen.</p>
+<p><strong>Passar för:</strong> dig som vill ha ett väletablerat märke och service nära hemmet, och som accepterar att betala för EPOS-tillvalet.</p>
+
+<h3>5. Worx Landroid Vision M600: bara kamera, ingen antenn</h3>
+<p>Landroid Vision M600 (WR206E) klarar sig utan både kabel och antenn: en vidvinkelkamera med HDR och ett neuralt nätverk känner igen gräs och hinder. Worx anger den för gräsmattor på upp till 600 m², med 18 cm klippbredd och en klipphöjd på 30–60 mm.</p>
+<p><strong>Styrkor:</strong> enklast att installera i den här jämförelsen (du ställer ut basstationen och startar klippningen) och inga problem med satellitmottagningen under träd.</p>
+<p><strong>Svagheter:</strong> roboten klipper där den ”ser” gräs, så om gräsmattan gränsar till en äng eller en rabatt med svag kontrast behövs tydliga kanter. Köparna rapporterar också att den klipper mindre metodiskt än en RTK-modell.</p>
+<p><strong>Passar för:</strong> små trädgårdar med tydliga gränser (kantsten, gångar, uteplatser), särskilt skuggiga.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Navigering</th><th>Rekommenderad yta</th><th>Max lutning (tillverkaren)</th><th>Klippbredd</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>ECOVACS GOAT A1600 RTK</td><td>RTK + LiDAR + 3D-hinderigenkänning</td><td>1 600 m²</td><td>50 %</td><td>33 cm</td><td>Mellanstora trädgårdar med träd</td></tr>
+<tr><td>Segway Navimow i105E</td><td>RTK + kameran VisionFence</td><td>500 m²</td><td>30 %</td><td>18 cm</td><td>Små gräsmattor, första köpet</td></tr>
+<tr><td>Mammotion LUBA 2 AWD 3000X</td><td>RTK + AI-bildigenkänning</td><td>3 000 m²</td><td>80 %</td><td>40 cm</td><td>Stora, sluttande tomter</td></tr>
+<tr><td>Husqvarna Automower 310E NERA</td><td>EPOS (RTK) som tillval eller kabel</td><td>1 000 m²</td><td>30 %</td><td>22 cm</td><td>Etablerat märke, service nära dig</td></tr>
+<tr><td>Worx Landroid Vision M600</td><td>Enbart AI-kamera</td><td>600 m²</td><td>anges inte här</td><td>18 cm</td><td>Små, skuggiga trädgårdar med tydliga kanter</td></tr>
+</tbody>
+</table>
+
+<h2>Installation: steg för steg</h2>
+<ol>
+<li><strong>Förbered gräsmattan</strong>: klipp en sista gång med vanlig gräsklippare på den höjd du vill ha och plocka bort grenar, leksaker och slangar.</li>
+<li><strong>Placera basstationen</strong>: på plan mark, nära ett vädertåligt och skyddat uttag utomhus. Behövs ett nytt uttag ska det installeras av en behörig elektriker.</li>
+<li><strong>Montera RTK-antennen</strong> (beroende på modell): högt upp, en bit från väggar och träd, med så fri sikt mot himlen som möjligt. En stolpe eller ett väggfäste finns ofta som tillbehör.</li>
+<li><strong>Kartlägg gräsmattan</strong>: styr roboten längs kanterna i appen och rita sedan in förbudszoner (rabatter, köksland, pool) och passager mellan zonerna.</li>
+<li><strong>Håll koll på första körningen</strong>: se hur roboten klarar kanterna och de smala passagerna, och finjustera sedan kartan.</li>
+</ol>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa en ren RTK-modell till en trädgård med många träd</strong>: utan LiDAR eller en kompletterande kamera tappar roboten positionen gång på gång.</li>
+<li><strong>Att välja en modell med för snålt tilltagen yta</strong>: på våren hinner roboten inte med när gräset växer.</li>
+<li><strong>Att strunta i den verkliga lutningen</strong>: en angiven lutning på 30 % gäller torrt gräs. På blött gräs krymper marginalen.</li>
+<li><strong>Att schemalägga klippningen på natten</strong>: många organisationer som arbetar för vilda djur rekommenderar att du klipper på dagen för att skona igelkottar och andra små djur.</li>
+<li><strong>Att låta barn och husdjur vara nära roboten när den kör</strong>: sensorerna minskar risken, men de tar inte bort den.</li>
+</ul>
+
+<h2>Skötsel och säkerhet</h2>
+<p>Rengör undersidan regelbundet och kontrollera knivarna: slöa knivar sliter av gräset i stället för att klippa det. Byt dem enligt tillverkarens rekommendationer. Aktivera PIN-koden och stöldlarmet. Inför vintern ställer du in roboten rengjord och laddad på en torr plats, som de flesta bruksanvisningar rekommenderar. Vill du ta hand om resten av trädgården också? Läs vår <a href="/sv/blog/arrosage-connecte-intelligent">guide till smart bevattning</a>.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta mellanstora trädgårdar ger <strong>ECOVACS GOAT A1600 RTK</strong> den bästa balansen mellan precision, yta och framkomlighet, tack vare kombinationen RTK + LiDAR. På en liten, öppen gräsmatta klarar <strong>Segway Navimow i105E</strong> det viktigaste till en lägre budget. För en stor, kuperad tomt har <strong>Mammotion LUBA 2 AWD 3000X</strong> ingen motsvarighet i det här urvalet. Husqvarna 310E NERA är det trygga valet för dig som sätter servicenätet främst, och Worx Landroid Vision M600 passar små, skuggiga trädgårdar med tydliga kanter. Vill du veta mer? Läs vår <a href="/sv/blog/guide-jardin-connecte-2026">guide till den smarta trädgården 2026</a>.</p>`,
+    us: `<p><strong>For most yards, the best robot lawn mower without a boundary wire in 2026 is the ECOVACS GOAT A1600 RTK</strong>: it combines RTK positioning with LiDAR, covers up to 0.4 acre (1,600 m²) and climbs slopes of up to 50%, according to the manufacturer. For a small lawn on an entry-level budget, the Segway Navimow i105E is the easiest to live with; for a big, sloping lot, the all-wheel-drive Mammotion LUBA 2 AWD 3000X is the one to get.</p>
+<p>This comparison draws on manufacturer specs, published independent reviews and verified owner feedback. It only includes models sold in Europe in 2026. You’ll find our full lineup on our <a href="/us/outdoor-connecte/tondeuses-robots">robot lawn mowers</a> page.</p>
+
+<h2>No boundary wire: how these robots know where to mow</h2>
+<p>A traditional robot mower stays on the lawn thanks to a wire buried or staked along the edges. Wire-free models replace that wire with a <strong>virtual map</strong> you draw in the app, usually by steering the robot around the edges with your phone. Three technologies are in play:</p>
+<ul>
+<li><strong>RTK (corrected satellite positioning)</strong>: a fixed reference antenna corrects the GNSS signal in real time, for accuracy down to about a centimeter (under half an inch). It needs a clear view of the sky; dense trees and tall walls weaken the signal.</li>
+<li><strong>Camera and AI vision</strong>: the camera recognizes grass, edges and obstacles. On its own, it needs no antenna, but it depends on clear contrast between the lawn and whatever surrounds it.</li>
+<li><strong>LiDAR</strong>: a laser sensor builds a 3D map of the surroundings. Paired with RTK, it helps the robot keep track of where it is near the house or under trees, where the satellite signal fades.</li>
+</ul>
+<p>Most recent models combine two of these technologies. That’s the first thing to decide, even before lawn size.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Actual lawn area</strong>: pick a model rated for at least 20 to 30% more than your lawn, so it keeps up in years when the grass grows fast.</li>
+<li><strong>Open sky</strong>: in an open yard, RTK alone is enough. With trees or high walls, go for RTK + LiDAR or RTK + camera.</li>
+<li><strong>Maximum slope</strong>: measure your steepest section. Beyond 30 to 35%, only a few models, including all-wheel-drive versions, handle it comfortably.</li>
+<li><strong>Cutting width</strong>: from 7 in (18 cm) on small models to 16 in (40 cm) on big ones. A wider cut shortens mowing time considerably on large lawns.</li>
+<li><strong>Narrow passages and multiple zones</strong>: if your lawn is split up (front yard and backyard, say), check that the app handles several zones and the paths between them.</li>
+<li><strong>Anti-theft and safety</strong>: a PIN code, a lift alarm and, on some models, location tracking. A lift sensor that stops the blades is a must.</li>
+<li><strong>Edge cutting</strong>: no robot cuts perfectly flush against a wall. Some get within an inch or two, but plan on a quick pass with a string trimmer.</li>
+</ul>
+
+<h2>The 5 best robot mowers without a boundary wire in 2026</h2>
+
+<h3>1. ECOVACS GOAT A1600 RTK — best overall</h3>
+<p>The GOAT A1600 RTK pairs an RTK station with LiDAR for positioning, plus 3D vision to recognize obstacles. ECOVACS rates it for lawns up to 0.4 acre (1,600 m²), with two cutting discs across a 13-inch (33 cm) width, a cutting height you adjust electronically from 1.2 to 3.5 in (30 to 90 mm), and slopes of up to 50%.</p>
+<p><strong>Pros:</strong> steadier positioning than RTK alone near trees and buildings, a generous cutting width, edges trimmed to within about 2 in (5 cm) according to the brand, and an ECOVACS Home app that owners rate well.</p>
+<p><strong>Cons:</strong> the RTK antenna needs a clear view of the sky, and the robot is bulkier than an entry-level model.</p>
+<p><strong>Best for:</strong> yards from about 5,400 sq ft to 0.4 acre (500 to 1,500 m²), with trees or gentle slopes, for anyone who wants a wire-free setup with no compromises.</p>
+
+<h3>2. Segway Navimow i105E — best value</h3>
+<p>The Navimow i105E uses Segway’s EFLS 2.0 system: RTK with a reference antenna, backed up by the VisionFence camera for obstacle detection. It’s built for small yards up to 5,400 sq ft (500 m²), with a 7-inch (18 cm) cut, a cutting height of 0.8 to 2.4 in (20 to 60 mm) and slopes of up to 30%. The nearly identical i108E stretches to 8,600 sq ft (800 m²) thanks to a bigger battery.</p>
+<p><strong>Pros:</strong> guided setup in the app, mapping by walking the edge of the lawn, quiet operation and neat, parallel mowing lines.</p>
+<p><strong>Cons:</strong> a narrow cutting width, limited slope handling and a small rated area. Like any RTK model, its antenna needs to see the sky.</p>
+<p><strong>Best for:</strong> a first wire-free robot mower for a city or suburban lawn.</p>
+
+<h3>3. Mammotion LUBA 2 AWD 3000X — for big, sloping lots</h3>
+<p>The LUBA 2 AWD 3000X is built for tough terrain: all-wheel drive, slopes rated up to 80% (about 38°), a 16-inch (40 cm) cutting width and a height range of 1 to 2.8 in (25 to 70 mm). It combines RTK with Mammotion’s UltraSense AI vision and is rated for 0.75 acre (3,000 m²).</p>
+<p><strong>Pros:</strong> the best climbing ability in this comparison, high output on large lawns and full multi-zone management in the app.</p>
+<p><strong>Cons:</strong> a heavy, bulky robot, louder than a small model, and overkill for a lawn of a few thousand square feet.</p>
+<p><strong>Best for:</strong> large, hilly or uneven properties. There are also 1000 and 5000 versions for different lawn sizes.</p>
+
+<h3>4. Husqvarna Automower 310E NERA — the trusted, upgradable pick</h3>
+<p>The 310E NERA can be installed with a traditional boundary wire or, with the <strong>EPOS Plug-in</strong> kit and an EPOS reference station sold separately, with no wire at all. Husqvarna rates it for about 0.25 acre (1,000 m²), with an 8.7-inch (22 cm) cut and slopes of up to 30% inside the work area. You control it through the Automower Connect app.</p>
+<p><strong>Pros:</strong> a very dense dealer and service network across Europe, the Automower line’s well-earned reputation for durability, and temporary and stay-out zones that are easy to set up.</p>
+<p><strong>Cons:</strong> going wire-free means buying the EPOS kit and station on top of the robot, and there’s no LiDAR or vision for navigation.</p>
+<p><strong>Best for:</strong> buyers who want a long-established brand and local service, and don’t mind paying for the EPOS add-on.</p>
+
+<h3>5. Worx Landroid Vision M600 — camera only, no antenna</h3>
+<p>The Landroid Vision M600 (WR206E) needs neither a wire nor an antenna: a wide-angle HDR camera and a neural network recognize grass and obstacles. Worx rates it for lawns up to 6,500 sq ft (600 m²), with a 7-inch (18 cm) cut and a cutting height of 1.2 to 2.4 in (30 to 60 mm).</p>
+<p><strong>Pros:</strong> the easiest setup in this comparison (set down the base and start mowing) and no satellite reception problems under trees.</p>
+<p><strong>Cons:</strong> the robot mows wherever it “sees” grass, so if your lawn runs into a field or a low-contrast flower bed, you need clearly defined edges. Owners also report less methodical mowing than with an RTK model.</p>
+<p><strong>Best for:</strong> small yards with clear borders (edging, paths, patios), especially shady ones.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Navigation</th><th>Rated area</th><th>Max slope (manufacturer)</th><th>Cutting width</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>ECOVACS GOAT A1600 RTK</td><td>RTK + LiDAR + 3D vision</td><td>0.4 acre (1,600 m²)</td><td>50%</td><td>13 in (33 cm)</td><td>Midsize yards with trees</td></tr>
+<tr><td>Segway Navimow i105E</td><td>RTK + VisionFence camera</td><td>5,400 sq ft (500 m²)</td><td>30%</td><td>7 in (18 cm)</td><td>Small lawns, first robot mower</td></tr>
+<tr><td>Mammotion LUBA 2 AWD 3000X</td><td>RTK + AI vision</td><td>0.75 acre (3,000 m²)</td><td>80%</td><td>16 in (40 cm)</td><td>Big, sloping lots</td></tr>
+<tr><td>Husqvarna Automower 310E NERA</td><td>Optional EPOS (RTK) or wire</td><td>0.25 acre (1,000 m²)</td><td>30%</td><td>8.7 in (22 cm)</td><td>Established brand, local service</td></tr>
+<tr><td>Worx Landroid Vision M600</td><td>AI camera only</td><td>6,500 sq ft (600 m²)</td><td>Not listed here</td><td>7 in (18 cm)</td><td>Small, shady, well-edged yards</td></tr>
+</tbody>
+</table>
+
+<h2>Installation: the key steps</h2>
+<ol>
+<li><strong>Prep the lawn</strong>: give it one last mow at your target height, and clear away branches, toys and hoses.</li>
+<li><strong>Place the base</strong>: on level ground, near a weatherproof, covered outdoor outlet. If you need a new outlet, have a licensed electrician install it.</li>
+<li><strong>Install the RTK antenna</strong> (on models that use one): mounted high, away from walls and trees, with the widest possible view of the sky. A pole or wall mount is often sold as an accessory.</li>
+<li><strong>Map the lawn</strong>: in the app, steer the robot along the edges, then draw no-go zones (flower beds, vegetable garden, pool) and the paths between zones.</li>
+<li><strong>Watch the first run</strong>: see how it handles the edges and narrow passages, then fine-tune the map.</li>
+</ol>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying an RTK-only model for a heavily wooded yard</strong>: without LiDAR or a backup camera, the robot will regularly lose track of where it is.</li>
+<li><strong>Choosing a rated area that’s too tight</strong>: in spring, the robot won’t be able to keep up with the growth.</li>
+<li><strong>Ignoring the real slope</strong>: a 30% slope rating assumes dry grass; on wet grass, the margin shrinks.</li>
+<li><strong>Scheduling mowing at night</strong>: many wildlife groups in Europe recommend mowing during the day to protect hedgehogs and other small animals that come out after dark.</li>
+<li><strong>Letting kids and pets near a running robot</strong>: sensors reduce the risk; they don’t eliminate it.</li>
+</ul>
+
+<h2>Maintenance and safety</h2>
+<p>Clean the underside regularly and check the blades: dull blades tear the grass instead of cutting it. Replace them as often as the manufacturer recommends. Turn on the PIN code and the anti-theft alarm. In winter, store the robot clean and charged in a dry place, as most manuals advise. To round out your yard setup, see our <a href="/us/blog/arrosage-connecte-intelligent">smart irrigation guide</a>.</p>
+
+<h2>The bottom line</h2>
+<p>For most midsize yards, the <strong>ECOVACS GOAT A1600 RTK</strong> offers the best balance of accuracy, coverage and climbing ability, thanks to its RTK + LiDAR combo. On a small, open lawn, the <strong>Segway Navimow i105E</strong> covers the basics on a tighter budget. For a big, hilly lot, nothing else in this lineup matches the <strong>Mammotion LUBA 2 AWD 3000X</strong>. The Husqvarna 310E NERA will reassure buyers who value a strong service network, and the Worx Landroid Vision M600 suits small, shady yards with clear edges. To go further, read our <a href="/us/blog/guide-jardin-connecte-2026">2026 smart yard and garden guide</a>.</p>`,
+    ca: `<p><strong>The best wire-free robot mower in 2026 for most yards is the ECOVACS GOAT A1600 RTK</strong>: it combines RTK positioning with LiDAR, covers up to 1,600 m² (about 17,000 sq. ft.) and climbs slopes of up to 50%, according to the manufacturer. For a small lawn on an entry-level budget, the Segway Navimow i105E is the easiest choice; for a large, sloping lot, the all-wheel-drive Mammotion LUBA 2 AWD 3000X is the one to get.</p>
+<p>This comparison is based on manufacturer specifications, published independent reviews and verified buyer feedback. It only includes models sold in Europe in 2026. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. You’ll find the full selection on our <a href="/ca/outdoor-connecte/tondeuses-robots">robot lawn mowers</a> page.</p>
+
+<h2>No boundary wire: how these robots know where to mow</h2>
+<p>A traditional robot mower stays on the lawn thanks to a perimeter wire buried or staked along the edges. Wire-free models replace that wire with a <strong>virtual map</strong> that you draw in the app, usually by steering the robot around the edges with your phone. Three technologies are in use:</p>
+<ul>
+<li><strong>RTK (corrected satellite positioning)</strong>: a fixed reference antenna corrects the GNSS signal in real time for roughly centimetre-level accuracy. It needs a clear view of the sky; dense trees and tall walls weaken the signal.</li>
+<li><strong>Camera and AI vision</strong>: the camera recognizes grass, edges and obstacles. On its own, it needs no antenna, but it relies on a clear contrast between the lawn and its surroundings.</li>
+<li><strong>LiDAR</strong>: a laser sensor builds a 3D map of the surroundings. Paired with RTK, it helps the robot hold its position near the house or under trees, where the satellite signal fades.</li>
+</ul>
+<p>Most recent models combine two of these technologies. That’s the first thing to decide, even before lawn size.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Actual lawn area</strong>: pick a model rated for at least 20 to 30% more than your lawn, so it keeps up in years of strong growth.</li>
+<li><strong>Open sky</strong>: in an open yard, RTK alone is enough. With trees or high walls, go for RTK + LiDAR or RTK + camera.</li>
+<li><strong>Maximum slope</strong>: measure your steepest section. Beyond 30 to 35%, only a few models, including all-wheel-drive versions, cope comfortably.</li>
+<li><strong>Cutting width</strong>: from 18 cm (7 in.) on small models to 40 cm (16 in.) on large ones. A wider cut shortens mowing time considerably on big lawns.</li>
+<li><strong>Narrow passages and multiple zones</strong>: if your lawn is split (front and back yard), check that the app handles several zones and the paths that connect them.</li>
+<li><strong>Anti-theft and safety</strong>: PIN code, lift alarm and, on some models, location tracking. A lift sensor that stops the blades is a must.</li>
+<li><strong>Edge cutting</strong>: no robot cuts perfectly flush against a wall. Some get within a few centimetres, but plan on a quick finish with a string trimmer.</li>
+</ul>
+
+<h2>The 5 best wire-free robot mowers in 2026</h2>
+
+<h3>1. ECOVACS GOAT A1600 RTK — best overall</h3>
+<p>The GOAT A1600 RTK pairs an RTK station with LiDAR for positioning, plus 3D vision to recognize obstacles. ECOVACS rates it for lawns up to 1,600 m² (about 17,000 sq. ft.), with two cutting discs across a 33 cm (13 in.) width, an electrically adjustable cutting height of 30 to 90 mm (about 1¼ to 3½ in.) and slopes of up to 50%.</p>
+<p><strong>Strengths:</strong> more robust positioning than RTK alone near trees and buildings, a comfortable cutting width, edges trimmed to about 5 cm (2 in.) according to the brand, and an ECOVACS Home app that buyers rate well.</p>
+<p><strong>Limitations:</strong> the RTK antenna needs a clear view of the sky, and the robot is bulkier than an entry-level model.</p>
+<p><strong>Best for:</strong> yards of 500 to 1,500 m² (about 5,400 to 16,000 sq. ft.), with trees or gentle slopes, for anyone who wants a wire-free setup without compromise.</p>
+
+<h3>2. Segway Navimow i105E — best value</h3>
+<p>The Navimow i105E uses Segway’s EFLS 2.0 system: RTK with a reference antenna, backed by the VisionFence camera for obstacle detection. It targets small yards up to 500 m² (about 5,400 sq. ft.), with an 18 cm (7 in.) cut, a cutting height of 20 to 60 mm (about ¾ to 2¼ in.) and slopes of up to 30%. The near-identical i108E stretches to 800 m² (about 8,600 sq. ft.) thanks to a larger battery.</p>
+<p><strong>Strengths:</strong> guided setup in the app, mapping by walking the lawn border, quiet operation and neat, parallel mowing lines.</p>
+<p><strong>Limitations:</strong> narrow cutting width, limited slope handling and a small rated area. Like any RTK model, its antenna needs to see the sky.</p>
+<p><strong>Best for:</strong> a first wire-free robot mower for a city or suburban lawn.</p>
+
+<h3>3. Mammotion LUBA 2 AWD 3000X — for large, sloping lots</h3>
+<p>The LUBA 2 AWD 3000X is built for tough terrain: all-wheel drive, slopes rated up to 80% (about 38°), a 40 cm (16 in.) cutting width and a height range of 25 to 70 mm (about 1 to 2¾ in.). It combines RTK with Mammotion’s UltraSense AI vision and is rated for 3,000 m² (about 0.75 acre).</p>
+<p><strong>Strengths:</strong> the best climbing ability in this comparison, high output on large lawns and full multi-zone management in the app.</p>
+<p><strong>Limitations:</strong> a heavy, bulky robot, louder than a small model, and oversized for a lawn of a few thousand square feet.</p>
+<p><strong>Best for:</strong> large, hilly or uneven properties. There are also 1000 and 5000 versions, depending on lawn size.</p>
+
+<h3>4. Husqvarna Automower 310E NERA — the trusted, upgradable option</h3>
+<p>The 310E NERA can be installed with a traditional boundary wire or, with the <strong>EPOS Plug-in</strong> kit and an EPOS reference station sold separately, with no wire at all. Husqvarna rates it for about 1,000 m² (10,800 sq. ft.), with a 22 cm (8¾ in.) cut and slopes of up to 30% inside the working area. It’s controlled through the Automower Connect app.</p>
+<p><strong>Strengths:</strong> a very dense dealer and service network in Europe, the well-established durability of the Automower range, and easy temporary and stay-out zones.</p>
+<p><strong>Limitations:</strong> going wire-free means buying the EPOS kit and station on top of the robot, and there’s no LiDAR or vision for navigation.</p>
+<p><strong>Best for:</strong> buyers who want a long-established brand and local after-sales service, and who accept paying for the EPOS option.</p>
+
+<h3>5. Worx Landroid Vision M600 — camera only, no antenna</h3>
+<p>The Landroid Vision M600 (WR206E) needs neither a wire nor an antenna: a wide-angle HDR camera and a neural network recognize grass and obstacles. Worx rates it for lawns up to 600 m² (about 6,500 sq. ft.), with an 18 cm (7 in.) cut and a cutting height of 30 to 60 mm (about 1¼ to 2¼ in.).</p>
+<p><strong>Strengths:</strong> the simplest setup in this comparison (place the base and start mowing) and no satellite reception issues under trees.</p>
+<p><strong>Limitations:</strong> the robot mows wherever it “sees” grass, so if your lawn runs into a field of long grass or a low-contrast flower bed, you need clear edges. Buyers also report less methodical mowing than with an RTK model.</p>
+<p><strong>Best for:</strong> small, clearly bordered lawns (edging, paths, patios), especially shady ones.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Navigation</th><th>Rated area</th><th>Max slope (manufacturer)</th><th>Cutting width</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>ECOVACS GOAT A1600 RTK</td><td>RTK + LiDAR + 3D vision</td><td>1,600 m² (17,000 sq. ft.)</td><td>50%</td><td>33 cm (13 in.)</td><td>Medium yards with trees</td></tr>
+<tr><td>Segway Navimow i105E</td><td>RTK + VisionFence camera</td><td>500 m² (5,400 sq. ft.)</td><td>30%</td><td>18 cm (7 in.)</td><td>Small lawns, first purchase</td></tr>
+<tr><td>Mammotion LUBA 2 AWD 3000X</td><td>RTK + AI vision</td><td>3,000 m² (0.75 acre)</td><td>80%</td><td>40 cm (16 in.)</td><td>Large sloping lots</td></tr>
+<tr><td>Husqvarna Automower 310E NERA</td><td>Optional EPOS (RTK) or wire</td><td>1,000 m² (10,800 sq. ft.)</td><td>30%</td><td>22 cm (8¾ in.)</td><td>Established brand, local service</td></tr>
+<tr><td>Worx Landroid Vision M600</td><td>AI camera only</td><td>600 m² (6,500 sq. ft.)</td><td>not listed here</td><td>18 cm (7 in.)</td><td>Small, shady, well-edged lawns</td></tr>
+</tbody>
+</table>
+
+<h2>Installation: the key steps</h2>
+<ol>
+<li><strong>Prepare the lawn</strong>: give it a final manual cut at your target height and clear away branches, toys and hoses.</li>
+<li><strong>Position the base</strong>: on flat ground, near a weatherproof, GFCI-protected outdoor outlet. If you need a new outlet, have a licensed electrician install it.</li>
+<li><strong>Install the RTK antenna</strong> (depending on the model): mounted high, away from walls and trees, with the widest possible view of the sky. A pole or wall bracket is often available as an accessory.</li>
+<li><strong>Map the lawn</strong>: in the app, steer the robot along the edges, then draw no-go zones (flower beds, vegetable garden, pool) and the paths between zones.</li>
+<li><strong>Supervise the first run</strong>: watch how it handles the edges and narrow passages, then fine-tune the map.</li>
+</ol>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying an RTK-only model for a heavily treed yard</strong>: without LiDAR or a supporting camera, the robot will regularly lose its position.</li>
+<li><strong>Choosing a rated area that’s too tight</strong>: in spring, the robot won’t keep up with the growth.</li>
+<li><strong>Ignoring the real slope</strong>: a rated 30% slope assumes dry grass; on wet grass, the margin shrinks.</li>
+<li><strong>Scheduling mowing at night</strong>: many wildlife groups recommend mowing during the day to protect small animals that are active after dark.</li>
+<li><strong>Letting children and pets near a running robot</strong>: sensors reduce the risk; they don’t eliminate it.</li>
+</ul>
+
+<h2>Maintenance and safety</h2>
+<p>Clean the underside regularly and check the blades: dull blades tear the grass instead of cutting it. Replace them as the manufacturer recommends. Turn on the PIN code and the anti-theft alarm. In winter, store the robot clean and charged in a dry place, as most manuals advise. To round out your smart yard, see also our <a href="/ca/blog/arrosage-connecte-intelligent">smart irrigation guide</a>.</p>
+
+<h2>Our verdict</h2>
+<p>For most medium-sized yards, the <strong>ECOVACS GOAT A1600 RTK</strong> offers the best balance of accuracy, coverage and climbing ability, thanks to its RTK + LiDAR pairing. On a small, open lawn, the <strong>Segway Navimow i105E</strong> covers the essentials on a tighter budget. For a large, hilly lot, the <strong>Mammotion LUBA 2 AWD 3000X</strong> has no equal in this selection. The Husqvarna 310E NERA will reassure buyers who value a strong service network, and the Worx Landroid Vision M600 suits small, shady lawns with clear edges. To go further, read our <a href="/ca/blog/guide-jardin-connecte-2026">smart backyard guide for 2026</a>.</p>`,
   },
   faq: [
     {
@@ -700,7 +985,10 @@ export const article: BlogArticle = {
         es: '¿Un robot cortacésped sin cable perimetral no necesita ninguna instalación?',
         it: 'Un robot tagliaerba senza filo perimetrale non richiede davvero alcuna installazione?',
         nl: 'Heeft een robotmaaier zonder begrenzingsdraad echt geen installatie nodig?',
-        pl: 'Czy robot koszący bez kabla obwodowego naprawdę nie wymaga instalacji?',
+        pl: 'Czy robot koszący bez przewodu ograniczającego naprawdę nie wymaga instalacji?',
+        sv: 'Kräver en robotgräsklippare utan begränsningskabel verkligen ingen installation alls?',
+        us: 'Does a wire-free robot mower really need no installation at all?',
+        ca: 'Does a wire-free robot mower really need no installation at all?',
       },
       answer: {
         fr: 'Il n’y a plus de câble à poser, mais il reste une installation légère : placer la base près d’une prise extérieure, fixer l’antenne RTK en hauteur pour les modèles qui en ont une, puis cartographier la pelouse dans l’application en guidant le robot le long des bordures. Comptez en général une à deux heures selon la taille du jardin.',
@@ -709,7 +997,10 @@ export const article: BlogArticle = {
         es: 'Ya no hay cable que tender, pero queda una instalación ligera: colocar la base cerca de un enchufe exterior, fijar en alto la antena RTK en los modelos que la usan y cartografiar el césped en la app guiando el robot por los bordes. Suele llevar entre una y dos horas según el tamaño del jardín.',
         it: 'Non c’è più un cavo da posare, ma resta un’installazione leggera: posizionare la base vicino a una presa esterna, fissare in alto l’antenna RTK sui modelli che la prevedono e mappare il prato nell’app guidando il robot lungo i bordi. In genere servono da una a due ore, a seconda delle dimensioni del giardino.',
         nl: 'Er hoeft geen kabel meer gelegd te worden, maar een lichte installatie blijft: de basis bij een buitenstopcontact zetten, bij RTK-modellen de antenne hoog monteren en het gazon in de app in kaart brengen door de robot langs de randen te sturen. Reken meestal op een tot twee uur, afhankelijk van de grootte van de tuin.',
-        pl: 'Nie trzeba już układać kabla, ale pozostaje lekka instalacja: ustawienie bazy blisko gniazdka zewnętrznego, zamocowanie anteny RTK wysoko w modelach, które ją mają, a następnie zmapowanie trawnika w aplikacji przez prowadzenie robota wzdłuż krawędzi. Zwykle potrzeba na to od jednej do dwóch godzin, zależnie od wielkości ogrodu.',
+        pl: 'Przewodu nie trzeba już układać, ale trochę pracy przy instalacji zostaje: ustawienie stacji bazowej w pobliżu gniazdka zewnętrznego, zamocowanie anteny RTK wysoko (w modelach, które jej używają), a potem zmapowanie trawnika w aplikacji przez przeprowadzenie robota wzdłuż krawędzi. Zwykle zajmuje to od jednej do dwóch godzin, zależnie od wielkości ogrodu.',
+        sv: 'Du slipper lägga ut kabel, men lite installation krävs ändå: placera basstationen nära ett uttag utomhus, montera RTK-antennen högt upp på modeller som har en sådan och kartlägg sedan gräsmattan i appen genom att styra roboten längs kanterna. Räkna i regel med en till två timmar, beroende på hur stor trädgården är.',
+        us: 'There’s no wire to lay, but there’s still some light setup: place the base near an outdoor outlet, mount the RTK antenna up high on models that use one, then map the lawn in the app by steering the robot along the edges. It usually takes one to two hours, depending on the size of your yard.',
+        ca: 'There’s no wire to lay, but some setup remains: place the base near an outdoor outlet, mount the RTK antenna high up on models that use one, then map the lawn in the app by steering the robot along the edges. It usually takes one to two hours, depending on the size of your yard.',
       },
     },
     {
@@ -721,6 +1012,9 @@ export const article: BlogArticle = {
         it: 'RTK, telecamera o LiDAR: quale navigazione scegliere?',
         nl: 'RTK, camera of LiDAR: welke navigatie kies je?',
         pl: 'RTK, kamera czy LiDAR: jaką nawigację wybrać?',
+        sv: 'RTK, kamera eller LiDAR: vilken navigering ska jag välja?',
+        us: 'RTK, camera or LiDAR: which navigation should I choose?',
+        ca: 'RTK, camera or LiDAR: which navigation should I choose?',
       },
       answer: {
         fr: 'Dans un jardin dégagé, le RTK seul est précis et fiable. Avec des arbres ou des murs hauts, préférez un modèle qui associe le RTK à un LiDAR ou à une caméra, comme l’ECOVACS GOAT A1600 RTK. Le tout-caméra, comme la Worx Landroid Vision M600, évite l’antenne mais demande des bordures bien contrastées.',
@@ -729,7 +1023,10 @@ export const article: BlogArticle = {
         es: 'En un jardín despejado, el RTK solo es preciso y fiable. Con árboles o muros altos, mejor un modelo que combine RTK con LiDAR o cámara, como el ECOVACS GOAT A1600 RTK. Los modelos solo con cámara, como el Worx Landroid Vision M600, no necesitan antena pero requieren bordes bien contrastados.',
         it: 'In un giardino aperto l’RTK da solo è preciso e affidabile. Con alberi o muri alti, meglio un modello che abbini RTK e LiDAR o telecamera, come l’ECOVACS GOAT A1600 RTK. I modelli solo telecamera, come il Worx Landroid Vision M600, non richiedono antenne ma hanno bisogno di bordi ben contrastati.',
         nl: 'In een open tuin is RTK alleen nauwkeurig en betrouwbaar. Met bomen of hoge muren kies je beter een model dat RTK combineert met LiDAR of een camera, zoals de ECOVACS GOAT A1600 RTK. Modellen met alleen een camera, zoals de Worx Landroid Vision M600, hebben geen antenne nodig maar wel duidelijk contrasterende randen.',
-        pl: 'W otwartym ogrodzie samo RTK jest dokładne i niezawodne. Przy drzewach lub wysokich murach wybierz model łączący RTK z LiDAR-em lub kamerą, jak ECOVACS GOAT A1600 RTK. Rozwiązanie wyłącznie kamerowe, jak Worx Landroid Vision M600, pozwala uniknąć anteny, ale wymaga wyraźnie kontrastujących krawędzi.',
+        pl: 'W otwartym ogrodzie samo RTK jest dokładne i niezawodne. Jeśli w ogrodzie rosną drzewa lub stoją wysokie mury, wybierz model, który łączy RTK z LiDAR-em lub kamerą, np. ECOVACS GOAT A1600 RTK. Modele z samą kamerą, takie jak Worx Landroid Vision M600, nie potrzebują anteny, ale wymagają wyraźnie odcinających się krawędzi trawnika.',
+        sv: 'I en öppen trädgård är RTK ensamt både exakt och pålitligt. Med träd eller höga murar är det bättre att välja en modell som kombinerar RTK med LiDAR eller kamera, som ECOVACS GOAT A1600 RTK. Modeller med enbart kamera, som Worx Landroid Vision M600, klarar sig utan antenn men kräver kanter med tydlig kontrast.',
+        us: 'In an open yard, RTK alone is accurate and reliable. With trees or tall walls, choose a model that pairs RTK with LiDAR or a camera, such as the ECOVACS GOAT A1600 RTK. Camera-only models such as the Worx Landroid Vision M600 need no antenna but require edges with clear contrast.',
+        ca: 'In an open yard, RTK alone is accurate and reliable. With trees or tall walls, choose a model that pairs RTK with LiDAR or a camera, such as the ECOVACS GOAT A1600 RTK. Camera-only models such as the Worx Landroid Vision M600 need no antenna but require clearly contrasted edges.',
       },
     },
     {
@@ -741,6 +1038,9 @@ export const article: BlogArticle = {
         it: 'Quale robot tagliaerba senza filo scegliere per un terreno in pendenza?',
         nl: 'Welke draadloze robotmaaier kies je voor een hellende tuin?',
         pl: 'Jaki robot koszący bez kabla wybrać na teren ze spadkiem?',
+        sv: 'Vilken robotgräsklippare utan kabel passar en sluttande tomt?',
+        us: 'Which wire-free robot mower is best for a sloped yard?',
+        ca: 'Which wire-free robot mower is best for a sloping yard?',
       },
       answer: {
         fr: 'Jusqu’à 30 % environ, la plupart des modèles conviennent. Au-delà, visez l’ECOVACS GOAT A1600 RTK (50 % annoncés) ou, pour les pentes fortes, la Mammotion LUBA 2 AWD 3000X à quatre roues motrices (80 % annoncés). Gardez une marge : sur herbe mouillée, l’adhérence diminue.',
@@ -749,7 +1049,10 @@ export const article: BlogArticle = {
         es: 'Hasta un 30 % aproximadamente, sirven la mayoría de modelos. Por encima, apunta al ECOVACS GOAT A1600 RTK (50 % anunciado) o, para pendientes fuertes, al Mammotion LUBA 2 AWD 3000X con tracción total (80 % anunciado). Deja margen: con la hierba mojada se pierde agarre.',
         it: 'Fino al 30% circa vanno bene quasi tutti i modelli. Oltre, punta sull’ECOVACS GOAT A1600 RTK (50% dichiarato) o, per pendenze forti, sul Mammotion LUBA 2 AWD 3000X a trazione integrale (80% dichiarato). Tieni un margine: con l’erba bagnata l’aderenza diminuisce.',
         nl: 'Tot ongeveer 30% volstaan de meeste modellen. Daarboven kijk je naar de ECOVACS GOAT A1600 RTK (50% volgens de fabrikant) of, voor steile hellingen, de Mammotion LUBA 2 AWD 3000X met vierwielaandrijving (80% volgens de fabrikant). Houd marge: op nat gras neemt de grip af.',
-        pl: 'Do około 30% nachylenia sprawdza się większość modeli. Powyżej celuj w ECOVACS GOAT A1600 RTK (deklarowane 50%) lub, przy dużych spadkach, w Mammotion LUBA 2 AWD 3000X z czterema napędzanymi kołami (deklarowane 80%). Zachowaj zapas: na mokrej trawie przyczepność spada.',
+        pl: 'Do ok. 30% nachylenia poradzi sobie większość modeli. Przy większym spadku wybierz ECOVACS GOAT A1600 RTK (deklarowane 50%), a na bardzo strome zbocza – Mammotion LUBA 2 AWD 3000X z napędem na cztery koła (deklarowane 80%). Zostaw sobie zapas: na mokrej trawie przyczepność spada.',
+        sv: 'Upp till ungefär 30 % klarar de flesta modeller sig. Är det brantare än så bör du titta på ECOVACS GOAT A1600 RTK (50 % enligt tillverkaren) eller, i riktigt brant terräng, fyrhjulsdrivna Mammotion LUBA 2 AWD 3000X (80 % enligt tillverkaren). Behåll en marginal: på blött gräs blir greppet sämre.',
+        us: 'Up to about 30%, most models will handle it. Beyond that, look at the ECOVACS GOAT A1600 RTK (rated for 50%) or, for steep ground, the all-wheel-drive Mammotion LUBA 2 AWD 3000X (rated for 80%). Leave yourself a margin: traction drops on wet grass.',
+        ca: 'Up to around 30%, most models will cope. Beyond that, look at the ECOVACS GOAT A1600 RTK (rated for 50%) or, for steep ground, the all-wheel-drive Mammotion LUBA 2 AWD 3000X (rated for 80%). Keep a margin: grip drops on wet grass.',
       },
     },
     {
@@ -760,7 +1063,10 @@ export const article: BlogArticle = {
         es: '¿Se puede usar un Husqvarna Automower sin cable?',
         it: 'Un Husqvarna Automower può funzionare senza filo?',
         nl: 'Kan een Husqvarna Automower draadloos werken?',
-        pl: 'Czy Husqvarnę Automower można przestawić na pracę bez kabla?',
+        pl: 'Czy Husqvarna Automower może pracować bez przewodu ograniczającego?',
+        sv: 'Går det att göra en Husqvarna Automower kabelfri?',
+        us: 'Can a Husqvarna Automower be made wire-free?',
+        ca: 'Can a Husqvarna Automower be made wire-free?',
       },
       answer: {
         fr: 'Oui, pour les modèles compatibles comme l’Automower 310E NERA. Il faut ajouter le kit EPOS Plug-in et une station de référence EPOS, vendus séparément. Le robot fonctionne alors avec des limites virtuelles définies dans l’application Automower Connect.',
@@ -769,7 +1075,10 @@ export const article: BlogArticle = {
         es: 'Sí, en los modelos compatibles como el Automower 310E NERA. Hay que añadir el kit EPOS Plug-in y una estación de referencia EPOS, que se venden por separado. El robot funciona entonces con límites virtuales definidos en la app Automower Connect.',
         it: 'Sì, sui modelli compatibili come l’Automower 310E NERA. Occorre aggiungere il kit EPOS Plug-in e una stazione di riferimento EPOS, venduti separatamente. Il robot lavora quindi con confini virtuali impostati nell’app Automower Connect.',
         nl: 'Ja, bij compatibele modellen zoals de Automower 310E NERA. Je hebt dan de EPOS Plug-in en een EPOS-referentiestation nodig, die apart verkocht worden. De robot werkt daarna met virtuele grenzen die je in de app Automower Connect instelt.',
-        pl: 'Tak, w modelach, które to umożliwiają, jak Automower 310E NERA. Trzeba dokupić zestaw EPOS Plug-in oraz stację referencyjną EPOS, sprzedawane osobno. Robot działa wtedy z wirtualnymi granicami określonymi w aplikacji Automower Connect.',
+        pl: 'Tak, w zgodnych modelach, takich jak Automower 310E NERA. Trzeba dokupić zestaw EPOS Plug-in i stację referencyjną EPOS (oba elementy są sprzedawane osobno). Robot pracuje wtedy w wirtualnych granicach wyznaczonych w aplikacji Automower Connect.',
+        sv: 'Ja, på kompatibla modeller som Automower 310E NERA. Du behöver komplettera med satsen EPOS Plug-in och en EPOS-referensstation, som båda säljs separat. Roboten arbetar sedan med virtuella gränser som du ställer in i appen Automower Connect.',
+        us: 'Yes, for compatible models such as the Automower 310E NERA. You need to add the EPOS Plug-in kit and an EPOS reference station, both sold separately. The robot then works with virtual boundaries set in the Automower Connect app.',
+        ca: 'Yes, for compatible models such as the Automower 310E NERA. You need to add the EPOS Plug-in kit and an EPOS reference station, both sold separately. The robot then works with virtual boundaries set in the Automower Connect app.',
       },
     },
     {
@@ -781,6 +1090,9 @@ export const article: BlogArticle = {
         it: 'Come proteggere un robot tagliaerba dal furto?',
         nl: 'Hoe bescherm je een robotmaaier tegen diefstal?',
         pl: 'Jak zabezpieczyć robota koszącego przed kradzieżą?',
+        sv: 'Hur skyddar jag en robotgräsklippare mot stöld?',
+        us: 'How do I protect a robot mower from theft?',
+        ca: 'How do I protect a robot mower against theft?',
       },
       answer: {
         fr: 'Activez systématiquement le code PIN et l’alarme au soulèvement, présents sur la plupart des modèles. Certains proposent aussi une localisation du robot, parfois via un module ou un abonnement cellulaire. Une base peu visible depuis la rue et une assurance habitation qui couvre le jardin complètent la protection.',
@@ -789,7 +1101,10 @@ export const article: BlogArticle = {
         es: 'Activa siempre el código PIN y la alarma al levantarlo, presentes en la mayoría de modelos. Algunos ofrecen además localización, a veces mediante un módulo o una suscripción móvil. Una base poco visible desde la calle y un seguro de hogar que cubra el jardín completan la protección.',
         it: 'Attiva sempre il codice PIN e l’allarme al sollevamento, presenti sulla maggior parte dei modelli. Alcuni offrono anche la localizzazione, a volte tramite un modulo o un abbonamento cellulare. Una base poco visibile dalla strada e un’assicurazione casa che copra il giardino completano la protezione.',
         nl: 'Schakel altijd de pincode en het alarm bij optillen in, die de meeste modellen hebben. Sommige bieden ook locatiebepaling, soms via een mobiele module of abonnement. Een basis die vanaf de straat weinig zichtbaar is en een inboedelverzekering die de tuin dekt, maken de bescherming compleet.',
-        pl: 'Zawsze włącz kod PIN i alarm po podniesieniu, dostępne w większości modeli. Niektóre oferują też lokalizację robota, czasem przez moduł lub abonament komórkowy. Ochronę uzupełnia baza słabo widoczna z ulicy oraz ubezpieczenie domu obejmujące ogród.',
+        pl: 'Zawsze włączaj kod PIN i alarm po podniesieniu robota – ma je większość modeli. Niektóre pozwalają też lokalizować robota, czasem za pośrednictwem modułu komórkowego lub abonamentu. Ochronę uzupełniają stacja bazowa ustawiona tak, by nie było jej widać z ulicy, oraz ubezpieczenie domu, które obejmuje także ogród.',
+        sv: 'Aktivera alltid PIN-koden och lyftlarmet, som finns på de flesta modeller. Vissa erbjuder också positionsspårning, ibland via en mobilmodul eller ett mobilabonnemang. En basstation som inte syns från gatan och en hemförsäkring som omfattar trädgården gör skyddet komplett.',
+        us: 'Always turn on the PIN code and the lift alarm, which most models offer. Some also offer location tracking, sometimes through a cellular module or subscription. A base that isn’t visible from the street, plus a homeowners or renters insurance policy that covers equipment kept outdoors, rounds out the protection.',
+        ca: 'Always turn on the PIN code and the lift alarm, which most models offer. Some also offer location tracking, sometimes through a cellular module or a subscription. A base that isn’t visible from the street and a home insurance policy that covers items in your yard complete the protection.',
       },
     },
     {
@@ -801,6 +1116,9 @@ export const article: BlogArticle = {
         it: 'Il robot può tagliare di notte o sotto la pioggia?',
         nl: 'Mag de robot ’s nachts of in de regen maaien?',
         pl: 'Czy robot może kosić w nocy lub w deszczu?',
+        sv: 'Kan roboten klippa på natten eller när det regnar?',
+        us: 'Can the robot mow at night or in the rain?',
+        ca: 'Can the robot mow at night or in the rain?',
       },
       answer: {
         fr: 'Techniquement, beaucoup le peuvent, mais ce n’est pas conseillé. La tonte nocturne met en danger les hérissons et autres petits animaux, et l’herbe mouillée se coupe moins bien et colle sous le robot. Programmez la tonte en journée et utilisez le report en cas de pluie quand l’application le propose.',
@@ -809,7 +1127,10 @@ export const article: BlogArticle = {
         es: 'Técnicamente muchos pueden, pero no es aconsejable. Segar de noche pone en peligro a erizos y otros animales pequeños, y la hierba mojada se corta peor y se pega bajo el robot. Programa la siega de día y usa el aplazamiento por lluvia cuando la app lo ofrezca.',
         it: 'Tecnicamente molti possono farlo, ma non è consigliabile. Il taglio notturno mette a rischio ricci e altri piccoli animali, e l’erba bagnata si taglia peggio e si accumula sotto il robot. Programma il taglio di giorno e usa il rinvio in caso di pioggia quando l’app lo prevede.',
         nl: 'Technisch kunnen veel modellen het, maar het is niet aan te raden. ’s Nachts maaien brengt egels en andere kleine dieren in gevaar, en nat gras wordt minder netjes geknipt en koekt onder de robot. Plan het maaien overdag en gebruik de regenvertraging als de app die biedt.',
-        pl: 'Technicznie wiele modeli może, ale nie jest to zalecane. Nocne koszenie zagraża jeżom i innym małym zwierzętom, a mokra trawa gorzej się kosi i lepi się do spodu robota. Planuj koszenie w ciągu dnia i korzystaj z odroczenia w razie deszczu, jeśli aplikacja je oferuje.',
+        pl: 'Technicznie wiele modeli to potrafi, ale nie jest to zalecane. Nocne koszenie zagraża jeżom i innym małym zwierzętom, a mokra trawa gorzej się tnie i oblepia spód robota. Ustaw koszenie w ciągu dnia i korzystaj z opcji wstrzymania koszenia podczas deszczu, jeśli aplikacja ją oferuje.',
+        sv: 'Tekniskt sett klarar många det, men det är inte att rekommendera. Nattklippning är farlig för igelkottar och andra små djur, och blött gräs klipps sämre och fastnar på robotens undersida. Schemalägg klippningen till dagtid och använd regnfördröjningen när appen har en sådan funktion.',
+        us: 'Technically, many can, but it isn’t recommended. Mowing at night puts small animals that come out after dark at risk, and wet grass cuts less cleanly and clogs the underside. Schedule mowing during the day, and use the rain delay option when the app offers one.',
+        ca: 'Technically, many can, but it isn’t recommended. Night mowing puts small nocturnal animals at risk, and wet grass cuts less cleanly and clogs the underside. Schedule mowing during the day and use the rain delay option when the app offers one.',
       },
     },
   ],

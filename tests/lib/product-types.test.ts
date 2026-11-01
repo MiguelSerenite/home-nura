@@ -29,6 +29,8 @@ describe('productKicker', () => {
 
 describe('rankLabel', () => {
   it('uses each locale’s ordinal style', () => {
-    expect(LANGUAGES.map((lang) => rankLabel(3, lang))).toEqual(['N°3', 'No. 3', 'Platz 3', 'N.º 3', 'N. 3', 'Nr. 3', 'Nr 3'])
+    expect(LANGUAGES.map((lang) => rankLabel(3, lang))).toEqual([
+      'N°3', 'No. 3', 'Platz 3', 'N.º 3', 'N. 3', 'Nr. 3', 'Nr 3', 'Nr 3', 'No. 3', 'No. 3',
+    ])
   })
 })

@@ -6,13 +6,14 @@
  * "ohne Abo", "cost to run"…). Answer-first wording: the first sentence
  * answers on its own so search engines and AI assistants can quote it.
  *
- * `pl` is filled ahead of the Polish locale so /pl gets real FAQs the day
- * the locale ships; lookups take a plain string for the same reason.
+ * Every site locale has its FAQs (FAQ_LOCALES is LANGUAGES); lookups take a
+ * plain string so an unknown locale simply gets none.
  */
+import { LANGUAGES, type Lang } from '@/lib/i18n'
 
-export const FAQ_LOCALES = ['fr', 'en', 'de', 'es', 'it', 'nl', 'pl'] as const
+export const FAQ_LOCALES = LANGUAGES
 
-export type FaqLocale = (typeof FAQ_LOCALES)[number]
+export type FaqLocale = Lang
 
 export interface CategoryFaqEntry {
   question: string

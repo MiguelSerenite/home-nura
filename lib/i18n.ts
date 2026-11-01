@@ -15,12 +15,62 @@
  * without tripping on bundler boundaries.
  */
 
-export const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl', 'pl'] as const
+export const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl', 'pl', 'sv', 'us', 'ca'] as const
 
 export type Lang = (typeof LANGUAGES)[number]
 
 /** Default fallback when negotiation fails or an unknown locale is seen. */
 export const DEFAULT_LANG: Lang = 'fr'
+
+/*
+ * Locale tags. `us` and `ca` are market codes (the amazon.com and amazon.ca
+ * English versions), not language subtags — `ca` is Catalan in BCP 47 — so
+ * a raw `lang` must never reach <html lang>, hreflang, og:locale, Intl or
+ * JSON-LD. Every tag the site emits comes from these two maps.
+ */
+
+/**
+ * Language tag of each locale for <html lang>, hreflang alternates, the
+ * sitemap, JSON-LD inLanguage and llms.txt. The seven original locales keep
+ * their bare language tag (`en` is the UK/international version and the
+ * hreflang fallback of every English reader outside the US and Canada).
+ */
+export const HTML_LANG: Readonly<Record<Lang, string>> = {
+  fr: 'fr',
+  en: 'en',
+  de: 'de',
+  es: 'es',
+  it: 'it',
+  nl: 'nl',
+  pl: 'pl',
+  sv: 'sv-SE',
+  us: 'en-US',
+  ca: 'en-CA',
+}
+
+/** Language-REGION locale of each site locale, for Intl / toLocaleDateString and og:locale. */
+export const BCP47_LOCALE: Readonly<Record<Lang, string>> = {
+  fr: 'fr-FR',
+  en: 'en-GB',
+  de: 'de-DE',
+  es: 'es-ES',
+  it: 'it-IT',
+  nl: 'nl-NL',
+  pl: 'pl-PL',
+  sv: 'sv-SE',
+  us: 'en-US',
+  ca: 'en-CA',
+}
+
+/** OpenGraph locale (`en_GB`, `en_US`, `sv_SE`…). */
+export function ogLocale(lang: Lang): string {
+  return BCP47_LOCALE[lang].replace('-', '_')
+}
+
+/** The language a locale is written in: `en` for the US and Canadian versions. */
+export function baseLanguage(lang: Lang): string {
+  return BCP47_LOCALE[lang].split('-')[0]
+}
 
 /**
  * Narrowing predicate: tells TypeScript the input is a valid `Lang`
@@ -69,7 +119,10 @@ export function isLocaleHome(pathname: string | null | undefined, lang: string):
  * read, the default first. Multilingual countries list every national
  * language we serve, so a Swiss reader on /de or a Belgian reader on /nl
  * is never pushed to French. Switzerland defaults to German: most of its
- * shoppers read German and buy on amazon.de.
+ * shoppers read German and buy on amazon.de. The US (and its territories,
+ * Puerto Rico also reading Spanish) get the amazon.com version, Canada the
+ * amazon.ca one with French alongside, Sweden and Åland the Swedish one;
+ * the UK, Ireland and Oceania keep the international English version.
  */
 export const COUNTRY_LANGS: Readonly<Record<string, readonly Lang[]>> = {
   FR: ['fr'], MC: ['fr'], BE: ['fr', 'nl'], LU: ['fr', 'de'],
@@ -78,7 +131,10 @@ export const COUNTRY_LANGS: Readonly<Record<string, readonly Lang[]>> = {
   IT: ['it'],
   NL: ['nl'],
   PL: ['pl'],
-  GB: ['en'], IE: ['en'], US: ['en'], CA: ['en'], AU: ['en'], NZ: ['en'],
+  SE: ['sv'], AX: ['sv'],
+  US: ['us'], PR: ['us', 'es'], GU: ['us'], VI: ['us'], AS: ['us'], MP: ['us'], UM: ['us'],
+  CA: ['ca', 'fr'],
+  GB: ['en'], IE: ['en'], AU: ['en'], NZ: ['en'],
 }
 
 /** Default locale per country, used by proxy.ts when Accept-Language names none we serve. */
@@ -98,4 +154,36 @@ export function suggestLocaleForCountry(country: string | undefined | null, curr
   const langs = country ? COUNTRY_LANGS[country.toUpperCase()] : undefined
   if (!langs || (langs as readonly string[]).includes(currentLang)) return null
   return langs[0]
+}
+
+/**
+ * Site locale for one Accept-Language tag (`en-US`, `sv`, `fr-CA`…), or
+ * null when we serve none. Matches on the language subtag, then lets the
+ * region pick among the versions of that language: `en-US` → us, `en-CA`
+ * → ca, any other English → en. `ca` (Catalan) and `us` are not languages
+ * of the site and match nothing.
+ */
+export function langForLanguageTag(tag: string): Lang | null {
+  const [language, ...subtags] = tag.trim().toLowerCase().split(/[-_]/)
+  const versions = LANGUAGES.filter((l) => baseLanguage(l) === language)
+  if (versions.length === 0) return null
+  // The region comes before any extension or private-use part (`-u-…`, `-x-…`).
+  const singleton = subtags.findIndex((s) => s.length === 1)
+  const region = (singleton === -1 ? subtags : subtags.slice(0, singleton)).find((s) => /^[a-z]{2}$/.test(s))
+  return (region && COUNTRY_LANGS[region.toUpperCase()]?.find((l) => versions.includes(l))) || versions[0]
+}
+
+/**
+ * Which version of `lang`'s language a visitor from `country` reads: the
+ * country's own version when it has one, else the language's default
+ * version (the first in LANGUAGES: `en` for English). Browsers default to
+ * en-US worldwide, so the geo country is the better signal: en-US reads
+ * /en in the UK or Germany, plain English reads /us in the US. Without a
+ * country, the browser's own region stands.
+ */
+export function countryVariant(lang: Lang, country: string | undefined | null): Lang {
+  if (!country) return lang
+  const language = baseLanguage(lang)
+  const versions = LANGUAGES.filter((l) => baseLanguage(l) === language)
+  return COUNTRY_LANGS[country.toUpperCase()]?.find((l) => versions.includes(l)) ?? versions[0]
 }

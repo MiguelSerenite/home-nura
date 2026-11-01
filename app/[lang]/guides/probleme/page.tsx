@@ -89,6 +89,33 @@ const uiStrings: Record<Lang, IndexUi> = {
     metaDescription: (n) =>
       `Częste awarie urządzeń smart (frytkownice beztłuszczowe, roboty sprzątające, kamery, termostaty…): diagnoza i procedura, urządzenie po urządzeniu. Opisanych awarii: ${n}.`,
   },
+  sv: {
+    home: 'Hem',
+    troubleshooting: 'Felsökning',
+    title: 'Så felsöker du apparaterna i ditt smarta hem',
+    subtitle: (n) => `${n} vanliga fel sorterade efter apparat: diagnos och rekommenderad åtgärd.`,
+    metaTitle: 'Felsökning för smarta hem: fel och lösningar | Home Nura',
+    metaDescription: (n) =>
+      `${n} vanliga fel på smarta apparater (airfryrar, robotdammsugare, kameror, termostater…): diagnos och rekommenderad åtgärd, apparat för apparat.`,
+  },
+  us: {
+    home: 'Home',
+    troubleshooting: 'Troubleshooting',
+    title: 'Smart Home Appliance Troubleshooting',
+    subtitle: (n) => `${n} common problems, sorted by appliance: what's causing them and what to do about it.`,
+    metaTitle: 'Smart Home Troubleshooting: Problems and Fixes | Home Nura',
+    metaDescription: (n) =>
+      `Smart home troubleshooting: ${n} common problems with air fryers, robot vacuums, security cameras, thermostats and more, plus causes and fixes for each.`,
+  },
+  ca: {
+    home: 'Home',
+    troubleshooting: 'Troubleshooting',
+    title: 'Smart home appliance troubleshooting',
+    subtitle: (n) => `${n} common problems sorted by appliance, each with a diagnosis and the recommended steps.`,
+    metaTitle: 'Smart Home Troubleshooting: Problems and Fixes | Home Nura',
+    metaDescription: (n) =>
+      `Smart home troubleshooting: ${n} common problems with air fryers, robot vacuums, security cameras, thermostats and more, with the cause and fix for each.`,
+  },
 }
 
 export async function generateStaticParams() {

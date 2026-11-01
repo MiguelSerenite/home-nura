@@ -6,16 +6,19 @@ import { useState, useEffect, useRef, type MouseEvent as ReactMouseEvent } from 
 import { usePathname } from 'next/navigation'
 import SearchBar from './SearchBar'
 import { Shield, Sparkles, Trees, Wind, Zap } from 'lucide-react'
-import { isLocaleHome, switchLocalePath, type Lang } from '@/lib/i18n'
+import { HTML_LANG, isLocaleHome, switchLocalePath, type Lang } from '@/lib/i18n'
 
 const countries: ReadonlyArray<{ code: Lang; flag: string; label: string; name: string }> = [
   { code: 'fr', flag: '🇫🇷', label: 'FR', name: 'Français' },
   { code: 'de', flag: '🇩🇪', label: 'DE', name: 'Deutsch' },
-  { code: 'en', flag: '🇬🇧', label: 'UK', name: 'English' },
+  { code: 'en', flag: '🇬🇧', label: 'UK', name: 'English (UK)' },
   { code: 'es', flag: '🇪🇸', label: 'ES', name: 'Español' },
   { code: 'it', flag: '🇮🇹', label: 'IT', name: 'Italiano' },
   { code: 'nl', flag: '🇳🇱', label: 'NL', name: 'Nederlands' },
   { code: 'pl', flag: '🇵🇱', label: 'PL', name: 'Polski' },
+  { code: 'sv', flag: '🇸🇪', label: 'SE', name: 'Svenska' },
+  { code: 'us', flag: '🇺🇸', label: 'US', name: 'English (US)' },
+  { code: 'ca', flag: '🇨🇦', label: 'CA', name: 'English (Canada)' },
 ]
 
 function rememberLocale(code: string) {
@@ -25,23 +28,23 @@ function rememberLocale(code: string) {
 
 /* ── i18n labels ─────────────────────────────────────────── */
 const t: Record<string, Record<string, string>> = {
-  guide:        { fr: 'Guide', de: 'Ratgeber', es: 'Guía', it: 'Guida', nl: 'Gids', pl: 'Poradnik', en: 'Guide' },
-  comparatif:   { fr: 'Comparatif', de: 'Vergleich', es: 'Comparativa', it: 'Confronto', nl: 'Vergelijking', pl: 'Porównanie', en: 'Comparison' },
-  smartKitchen: { fr: 'Cuisine connectée', de: 'Smarte Küche', es: 'Cocina conectada', it: 'Cucina connessa', nl: 'Slimme keuken', pl: 'Inteligentna kuchnia', en: 'Smart kitchen' },
-  maison:       { fr: 'Maison connectée', de: 'Smart Home', es: 'Casa conectada', it: 'Casa connessa', nl: 'Smart wonen', pl: 'Inteligentny dom', en: 'Smart home' },
-  blog:         { fr: 'Blog', de: 'Blog', es: 'Blog', it: 'Blog', nl: 'Blog', pl: 'Blog', en: 'Blog' },
-  quiz:         { fr: 'Quiz', de: 'Quiz', es: 'Quiz', it: 'Quiz', nl: 'Quiz', pl: 'Quiz', en: 'Quiz' },
-  methodologie: { fr: 'Méthodologie', de: 'Methodik', es: 'Metodología', it: 'Metodologia', nl: 'Methodologie', pl: 'Metodologia', en: 'Methodology' },
-  about:        { fr: 'À propos', de: 'Über uns', es: 'Sobre nosotros', it: 'Chi siamo', nl: 'Over ons', pl: 'O nas', en: 'About' },
-  openMenu:     { fr: 'Ouvrir le menu', de: 'Menü öffnen', es: 'Abrir menú', it: 'Apri menu', nl: 'Menu openen', pl: 'Otwórz menu', en: 'Open menu' },
-  closeMenu:    { fr: 'Fermer le menu', de: 'Menü schließen', es: 'Cerrar menú', it: 'Chiudi menu', nl: 'Menu sluiten', pl: 'Zamknij menu', en: 'Close menu' },
-  langue:       { fr: 'Langue / Région', de: 'Sprache / Region', es: 'Idioma / Región', it: 'Lingua / Regione', nl: 'Taal / Regio', pl: 'Język / Region', en: 'Language / Region' },
+  guide:        { fr: 'Guide', de: 'Ratgeber', es: 'Guía', it: 'Guida', nl: 'Gids', pl: 'Poradnik', sv: 'Guide', us: 'Guide', ca: 'Guide', en: 'Guide' },
+  comparatif:   { fr: 'Comparatif', de: 'Vergleich', es: 'Comparativa', it: 'Confronto', nl: 'Vergelijking', pl: 'Porównanie', sv: 'Jämför', us: 'Compare', ca: 'Comparison', en: 'Comparison' },
+  smartKitchen: { fr: 'Cuisine connectée', de: 'Smarte Küche', es: 'Cocina conectada', it: 'Cucina connessa', nl: 'Slimme keuken', pl: 'Inteligentna kuchnia', sv: 'Smart kök', us: 'Smart kitchen', ca: 'Smart kitchen', en: 'Smart kitchen' },
+  maison:       { fr: 'Maison connectée', de: 'Smart Home', es: 'Casa conectada', it: 'Casa connessa', nl: 'Smart wonen', pl: 'Inteligentny dom', sv: 'Smarta hem', us: 'Smart home', ca: 'Smart home', en: 'Smart home' },
+  blog:         { fr: 'Blog', de: 'Blog', es: 'Blog', it: 'Blog', nl: 'Blog', pl: 'Blog', sv: 'Blogg', us: 'Blog', ca: 'Blog', en: 'Blog' },
+  quiz:         { fr: 'Quiz', de: 'Quiz', es: 'Quiz', it: 'Quiz', nl: 'Quiz', pl: 'Quiz', sv: 'Quiz', us: 'Quiz', ca: 'Quiz', en: 'Quiz' },
+  methodologie: { fr: 'Méthodologie', de: 'Methodik', es: 'Metodología', it: 'Metodologia', nl: 'Methodologie', pl: 'Metodologia', sv: 'Metod', us: 'Methodology', ca: 'Methodology', en: 'Methodology' },
+  about:        { fr: 'À propos', de: 'Über uns', es: 'Sobre nosotros', it: 'Chi siamo', nl: 'Over ons', pl: 'O nas', sv: 'Om oss', us: 'About', ca: 'About', en: 'About' },
+  openMenu:     { fr: 'Ouvrir le menu', de: 'Menü öffnen', es: 'Abrir menú', it: 'Apri menu', nl: 'Menu openen', pl: 'Otwórz menu', sv: 'Öppna menyn', us: 'Open menu', ca: 'Open menu', en: 'Open menu' },
+  closeMenu:    { fr: 'Fermer le menu', de: 'Menü schließen', es: 'Cerrar menú', it: 'Chiudi menu', nl: 'Menu sluiten', pl: 'Zamknij menu', sv: 'Stäng menyn', us: 'Close menu', ca: 'Close menu', en: 'Close menu' },
+  langue:       { fr: 'Langue / Région', de: 'Sprache / Region', es: 'Idioma / Región', it: 'Lingua / Regione', nl: 'Taal / Regio', pl: 'Język / region', sv: 'Språk/region', us: 'Language / Region', ca: 'Language / Region', en: 'Language / Region' },
   /* Silo labels */
-  securite:   { fr: 'Sécurité maison', de: 'Haussicherheit', es: 'Seguridad hogar', it: 'Sicurezza casa', nl: 'Huisbeveiliging', pl: 'Ochrona domu', en: 'Home security' },
-  energie:    { fr: 'Énergie & domotique', de: 'Energie & Smart Home', es: 'Energía & domótica', it: 'Energia & domotica', nl: 'Energie & domotica', pl: 'Energia i smart home', en: 'Energy & smart home' },
-  confort:    { fr: 'Confort & air', de: 'Komfort & Luft', es: 'Confort & aire', it: 'Comfort & aria', nl: 'Comfort & lucht', pl: 'Komfort i klimat', en: 'Comfort & air' },
-  entretien:  { fr: 'Entretien maison', de: 'Haushaltsgeräte', es: 'Limpieza hogar', it: 'Pulizia casa', nl: 'Huishoudelijk', pl: 'Sprzątanie', en: 'Home care' },
-  outdoor:    { fr: 'Jardin & outdoor', de: 'Garten & outdoor', es: 'Jardín & outdoor', it: 'Giardino & outdoor', nl: 'Tuin & outdoor', pl: 'Ogród i outdoor', en: 'Garden & outdoor' },
+  securite:   { fr: 'Sécurité maison', de: 'Haussicherheit', es: 'Seguridad hogar', it: 'Sicurezza casa', nl: 'Huisbeveiliging', pl: 'Bezpieczeństwo', sv: 'Hemsäkerhet', us: 'Home security', ca: 'Home security', en: 'Home security' },
+  energie:    { fr: 'Énergie & domotique', de: 'Energie & Smart Home', es: 'Energía & domótica', it: 'Energia & domotica', nl: 'Energie & domotica', pl: 'Energia', sv: 'Energi & smarta hem', us: 'Energy & smart home', ca: 'Energy & smart home', en: 'Energy & smart home' },
+  confort:    { fr: 'Confort & air', de: 'Komfort & Luft', es: 'Confort & aire', it: 'Comfort & aria', nl: 'Comfort & lucht', pl: 'Komfort i powietrze', sv: 'Inomhusklimat', us: 'Comfort & air', ca: 'Comfort & air', en: 'Comfort & air' },
+  entretien:  { fr: 'Entretien maison', de: 'Haushaltsgeräte', es: 'Limpieza hogar', it: 'Pulizia casa', nl: 'Huishoudelijk', pl: 'Sprzątanie', sv: 'Städning & hushåll', us: 'Cleaning', ca: 'Home care', en: 'Home care' },
+  outdoor:    { fr: 'Jardin & outdoor', de: 'Garten & outdoor', es: 'Jardín & outdoor', it: 'Giardino & outdoor', nl: 'Tuin & outdoor', pl: 'Ogród', sv: 'Trädgård & utomhus', us: 'Yard & outdoor', ca: 'Yard & outdoor', en: 'Garden & outdoor' },
 }
 
 const l = (key: string, lang: string) => t[key]?.[lang] ?? t[key]?.en ?? key
@@ -209,12 +212,12 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
               </svg>
             </button>
             {langOpen && (
-              <div className="absolute top-full right-0 mt-1.5 w-44 bg-white rounded-xl shadow-lg border border-slate-200 py-1.5 z-50">
+              <div className="absolute top-full right-0 mt-1.5 w-48 bg-white rounded-xl shadow-lg border border-slate-200 py-1.5 z-50">
                 {countries.map((c) => (
                   <Link
                     key={c.code}
                     href={switchLocalePath(pathname, c.code)}
-                    hrefLang={c.code}
+                    hrefLang={HTML_LANG[c.code]}
                     onClick={() => { rememberLocale(c.code); setLangOpen(false) }}
                     className={`flex items-center gap-2.5 px-4 py-2 text-[13px] transition-colors ${
                       lang === c.code
@@ -325,7 +328,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                     <Link
                       key={c.code}
                       href={switchLocalePath(pathname, c.code)}
-                      hrefLang={c.code}
+                      hrefLang={HTML_LANG[c.code]}
                       onClick={() => { rememberLocale(c.code); close() }}
                       className={`flex items-center justify-center gap-1.5 py-2.5 rounded-xl border text-sm font-semibold transition-colors ${
                         lang === c.code

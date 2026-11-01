@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
         nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
         pl: 'Duża porcja chrupiących kawałków kurczaka na ruszcie frytkownicy beztłuszczowej',
+        sv: 'En stor sats krispiga kycklingbitar på gallret i en airfryer',
+        us: 'A large batch of crispy chicken pieces on an air fryer rack',
+        ca: 'A large batch of crispy chicken pieces on an air fryer rack',
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: 'Recetas de Pollo Crujiente en Freidora de Aire: 6 Recetas Fáciles',
     it: 'Ricette di Pollo Croccante nella Friggitrice ad Aria: 6 Ricette Facili',
     nl: 'Krokante Kip uit de Airfryer: 6 Makkelijke Recepten',
-    pl: 'Przepisy na chrupiącego kurczaka we frytkownicy beztłuszczowej: 6 łatwych przepisów',
+    pl: 'Chrupiący kurczak z frytkownicy beztłuszczowej: 6 łatwych przepisów',
+    sv: 'Krispig kyckling i airfryer: 6 enkla recept',
+    us: 'Crispy Air Fryer Chicken: 6 Easy Recipes, Wings to Satay',
+    ca: 'Crispy Air Fryer Chicken: 6 Easy Recipes, Wings to Satay',
   },
   excerpt: {
     fr: 'Découvrez 6 recettes de poulet croustillant à l\'airfryer : ailes, tenders, cuisses, blancs, nuggets et satay. Marinades, températures et temps de cuisson pour un poulet parfait.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'Descubre 6 recetas de pollo crujiente en freidora de aire: alitas, tenders, muslos, pechuga, nuggets y satay. Marinados, temperaturas y tiempos de cocción.',
     it: 'Scopri 6 ricette di pollo croccante nella friggitrice ad aria: ali, tenders, cosce, petto, nuggets e satay. Marinature, temperature e tempi di cottura.',
     nl: 'Ontdek 6 krokante kiprecepten voor de airfryer: vleugels, tenders, dijen, borst, nuggets en satay. Marinades, temperaturen en baktijden.',
-    pl: 'Poznaj 6 przepisów na chrupiącego kurczaka we frytkownicy beztłuszczowej: skrzydełka, tendersy, udka, piersi, nuggetsy i satay. Marynaty, temperatury i czasy smażenia dla idealnego kurczaka.',
+    pl: 'Poznaj 6 przepisów na chrupiącego kurczaka z frytkownicy beztłuszczowej: skrzydełka, stripsy, udka, piersi, nuggetsy i satay. Marynaty, temperatury i czasy pieczenia, dzięki którym kurczak zawsze się uda.',
+    sv: 'Här är 6 recept på krispig kyckling i airfryer: vingar, strips, lår, bröstfilé, nuggets och satay. Marinader, temperaturer och tillagningstider för perfekt kyckling.',
+    us: 'Six crispy air fryer chicken recipes: wings, tenders, thighs, breasts, nuggets and satay, with marinades, temperatures and cook times for perfect chicken every time.',
+    ca: 'Six crispy air fryer chicken recipes: wings, tenders, thighs, breasts, nuggets and satay, with marinades, temperatures in °C and °F and cooking times for juicy, safely cooked chicken.',
   },
   content: {
     fr: `<h2>Introduction</h2>
@@ -919,45 +928,45 @@ export const article: BlogArticle = {
 <li><strong>Harissa-citroen marinade (1u):</strong> harissa + citroensap + olijfolie + koriander. Voor spiesjes.</li>
 </ul>`,
     pl: `<h2>Wstęp</h2>
-<p>Kurczak z frytkownicy beztłuszczowej to prawdopodobnie jedno z najbardziej satysfakcjonujących dań, jakie możesz przygotować. Krążące gorące powietrze daje <strong>chrupiącą, złocistą skórkę</strong> i soczyste mięso w środku, przy minimalnej ilości oleju. Niezależnie od tego, czy szykujesz szybki posiłek w tygodniu, czy kolację dla gości, te 6 przepisów obejmuje wszystkie części kurczaka i wszystkie okazje.</p>
-<p>Sekret idealnego kurczaka z frytkownicy beztłuszczowej opiera się na trzech kluczowych elementach: marynacie, która zmiękcza i aromatyzuje mięso, <strong>osuszeniu powierzchni</strong> dla maksymalnej chrupkości oraz ścisłym przestrzeganiu bezpiecznych temperatur wewnętrznych (<strong>74 °C w środku</strong>). Zalecamy użycie termometru do mięsa, aby za każdym razem mieć pewność, że kurczak jest idealnie przygotowany.</p>
+<p>Kurczak z frytkownicy beztłuszczowej to chyba jedno z dań, które dają najwięcej satysfakcji. Dzięki krążeniu gorącego powietrza ma <strong>chrupiącą, złocistą skórkę</strong>, a w środku pozostaje soczysty – i to przy minimalnej ilości oleju. Niezależnie od tego, czy szykujesz szybki obiad w tygodniu, czy kolację dla gości, w tych 6 przepisach znajdziesz wszystkie części kurczaka i pomysły na każdą okazję.</p>
+<p>Idealny kurczak z frytkownicy to kwestia trzech rzeczy: marynaty, która zmiękcza mięso i nadaje mu aromat, <strong>osuszenia powierzchni</strong>, dzięki któremu skórka jest jak najbardziej chrupiąca, oraz bezwzględnego pilnowania temperatury, przy której mięso jest bezpieczne do jedzenia (<strong>74 °C w środku</strong>). Polecamy termometr do mięsa – dzięki niemu kurczak za każdym razem będzie idealnie upieczony.</p>
 
-<h2>1. Skrzydełka z kurczaka buffalo</h2>
+<h2>1. Skrzydełka buffalo</h2>
 <h3>Składniki</h3>
 <ul>
-<li>1 kg skrzydełek z kurczaka (około 12 skrzydełek), rozdzielonych na drumetki i płaty</li>
+<li>1 kg skrzydełek z kurczaka (około 12 sztuk), przeciętych w stawie na dwie części</li>
 <li>2 łyżki oliwy z oliwek (30 ml)</li>
 <li>1 łyżeczka soli</li>
 <li>1 łyżeczka czosnku granulowanego</li>
 <li>½ łyżeczki czarnego pieprzu</li>
-<li>1 łyżeczka proszku do pieczenia (dla chrupkości)</li>
+<li>1 łyżeczka proszku do pieczenia (dla chrupkiej skórki)</li>
 </ul>
-<p><strong>Do sosu buffalo:</strong></p>
+<p><strong>Sos buffalo:</strong></p>
 <ul>
-<li>60 ml ostrego sosu typu Frank's Red Hot</li>
+<li>60 ml ostrego sosu, np. Frank's Red Hot</li>
 <li>30 g roztopionego masła</li>
 <li>1 łyżka miodu (15 ml)</li>
-<li>1 łyżeczka octu białego</li>
+<li>1 łyżeczka octu spirytusowego</li>
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Osusz skrzydełka ręcznikiem papierowym — to <strong>najważniejszy etap</strong> dla chrupiącego efektu.</li>
-<li>W dużej misce wymieszaj skrzydełka z oliwą, solą, czosnkiem granulowanym, pieprzem i proszkiem do pieczenia. Proszek do pieczenia podnosi pH skórki i przyspiesza rumienienie.</li>
-<li>Rozgrzej frytkownicę do <strong>180 °C przez 3 minuty</strong>.</li>
-<li>Ułóż skrzydełka w jednej warstwie, tak aby na siebie nie zachodziły.</li>
-<li>Smaż w <strong>180 °C przez 12 minut</strong>.</li>
-<li>Odwróć skrzydełka i zwiększ temperaturę do <strong>200 °C na kolejne 8-10 minut</strong>, aż skórka będzie złocista i chrupiąca.</li>
-<li>W tym czasie przygotuj sos buffalo: wymieszaj ostry sos, roztopione masło, miód i ocet w rondelku na małym ogniu przez 2 minuty.</li>
-<li>Przełóż usmażone skrzydełka do miski, polej sosem i wymieszaj, aby dokładnie je pokryć.</li>
+<li>Osusz skrzydełka ręcznikiem papierowym – to <strong>najważniejszy krok</strong>, jeśli mają wyjść chrupiące.</li>
+<li>W dużej misce wymieszaj skrzydełka z oliwą, solą, czosnkiem granulowanym, pieprzem i proszkiem do pieczenia. Proszek podnosi pH skórki i przyspiesza jej rumienienie.</li>
+<li>Nagrzej frytkownicę do <strong>180 °C (3 minuty)</strong>.</li>
+<li>Ułóż skrzydełka w jednej warstwie, tak żeby na siebie nie zachodziły.</li>
+<li>Piecz w <strong>180 °C przez 12 minut</strong>.</li>
+<li>Odwróć skrzydełka, zwiększ temperaturę do <strong>200 °C i piecz jeszcze 8–10 minut</strong>, aż skórka będzie złocista i chrupiąca.</li>
+<li>W tym czasie przygotuj sos buffalo: wymieszaj w rondelku ostry sos, roztopione masło, miód i ocet, a potem podgrzewaj na małym ogniu przez 2 minuty.</li>
+<li>Przełóż upieczone skrzydełka do miski, polej sosem i wymieszaj, żeby każde było nim dokładnie pokryte.</li>
 </ol>
-<h3>Wskazówki kucharza</h3>
-<p>Proszek do pieczenia to sekret ultra chrupiących skrzydełek bez smażenia w głębokim tłuszczu. Użyj <strong>wyłącznie proszku do pieczenia</strong> (baking powder), nigdy samej sody oczyszczonej, która zostawiłaby metaliczny posmak. Podawaj ze słupkami selera naciowego i sosem z sera pleśniowego.</p>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Proszek do pieczenia to sekret bardzo chrupiących skrzydełek bez smażenia w głębokim tłuszczu. Używaj <strong>wyłącznie proszku do pieczenia</strong> (baking powder), nigdy samej sody oczyszczonej – zostawia metaliczny posmak. Podawaj ze słupkami selera naciowego i sosem z sera pleśniowego.</p>
 
-<h2>2. Panierowane tendersy z kurczaka</h2>
+<h2>2. Panierowane stripsy z kurczaka</h2>
 <h3>Składniki</h3>
 <ul>
-<li>500 g filetów z kurczaka, pokrojonych w paski o szerokości 2 cm</li>
-<li>80 g bułki tartej panko</li>
+<li>500 g filetów z kurczaka pokrojonych w paski szerokości 2 cm</li>
+<li>80 g panko (japońskiej bułki tartej)</li>
 <li>40 g startego parmezanu</li>
 <li>2 roztrzepane jajka</li>
 <li>50 g mąki</li>
@@ -970,82 +979,82 @@ export const article: BlogArticle = {
 <h3>Przygotowanie</h3>
 <ol>
 <li>Posól i popieprz paski kurczaka.</li>
-<li>Przygotuj trzy talerze: mąka przyprawiona papryką i czosnkiem granulowanym; roztrzepane jajka; mieszanka panko, parmezanu i oregano.</li>
-<li>Każdy pasek obtocz w mące, potem w jajku, a następnie w panierce, mocno dociskając, by dobrze się trzymała.</li>
-<li>Połóż na kratce i schłodź w lodówce przez <strong>15 minut</strong> — to utrwala panierkę i zapobiega jej odpadaniu podczas smażenia.</li>
-<li>Rozgrzej frytkownicę do <strong>200 °C przez 3 minuty</strong>.</li>
-<li>Ułóż tendersy w jednej warstwie, lekko spryskaj olejem.</li>
-<li>Smaż w <strong>200 °C przez 10-12 minut</strong>, obracając w połowie czasu i ponownie spryskując olejem.</li>
-<li>Sprawdź, czy temperatura wewnętrzna osiąga <strong>74 °C</strong>.</li>
+<li>Przygotuj trzy talerze: mąkę wymieszaną z papryką i czosnkiem granulowanym, roztrzepane jajka oraz panko wymieszane z parmezanem i oregano.</li>
+<li>Każdy pasek obtocz kolejno w mące, jajku i panierce, mocno dociskając, żeby panierka dobrze się trzymała.</li>
+<li>Połóż stripsy na kratce i wstaw do lodówki na <strong>15 minut</strong> – panierka stwardnieje i nie odpadnie podczas smażenia.</li>
+<li>Nagrzej frytkownicę do <strong>200 °C (3 minuty)</strong>.</li>
+<li>Ułóż stripsy w jednej warstwie i lekko spryskaj olejem.</li>
+<li>Smaż w <strong>200 °C przez 10–12 minut</strong>; w połowie czasu odwróć je i ponownie spryskaj olejem.</li>
+<li>Sprawdź, czy temperatura w środku osiągnęła <strong>74 °C</strong>.</li>
 </ol>
-<h3>Wskazówki kucharza</h3>
-<p>Japońska panierka panko daje nieporównywalną chrupkość w porównaniu ze zwykłą bułką tartą. Schłodzenie w lodówce przed smażeniem to etap, który wiele osób pomija, a który robi całą różnicę. Do pełnego posiłku podaj z <a href="/pl/blog/recettes-frites-parfaites-airfryer">domowymi frytkami z frytkownicy beztłuszczowej</a>.</p>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Japońskie panko daje chrupkość, jakiej nie zapewni zwykła bułka tarta. Schłodzenie przed smażeniem to krok, który wiele osób pomija, a który robi ogromną różnicę. Na pełny obiad podaj stripsy z <a href="/pl/blog/recettes-frites-parfaites-airfryer">domowymi frytkami z frytkownicy beztłuszczowej</a>.</p>
 
 <h2>3. Pikantne udka z kurczaka</h2>
 <h3>Składniki</h3>
 <ul>
-<li>6 górnych części ud kurczaka ze skórą (około 800 g)</li>
+<li>6 udek z kurczaka ze skórą, bez podudzi (około 800 g)</li>
 <li>2 łyżki oliwy z oliwek (30 ml)</li>
 <li>1 łyżka wędzonej papryki w proszku</li>
-<li>1 łyżeczka mielonego kminku rzymskiego</li>
+<li>1 łyżeczka mielonego kminu rzymskiego</li>
 <li>1 łyżeczka czosnku granulowanego</li>
 <li>1 łyżeczka cebuli granulowanej</li>
 <li>½ łyżeczki pieprzu cayenne</li>
 <li>1 łyżeczka soli</li>
 <li>½ łyżeczki czarnego pieprzu</li>
-<li>1 łyżeczka brązowego cukru (aby pomóc w rumienieniu)</li>
+<li>1 łyżeczka brązowego cukru (ułatwia rumienienie)</li>
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Wymieszaj wszystkie przyprawy w małej miseczce, aby uzyskać mieszankę przypraw.</li>
+<li>W małej miseczce wymieszaj wszystkie przyprawy.</li>
 <li>Osusz udka ręcznikiem papierowym.</li>
-<li>Posmaruj oliwą, a następnie obficie obtocz w mieszance przypraw.</li>
-<li>Najlepiej zostaw do marynowania w lodówce na <strong>2-4 godziny</strong> (minimum 30 minut).</li>
-<li>Wyjmij z lodówki <strong>20 minut</strong> przed smażeniem.</li>
-<li>Rozgrzej frytkownicę do <strong>180 °C przez 3 minuty</strong>.</li>
+<li>Posmaruj je oliwą, a następnie obficie obtocz w przyprawach.</li>
+<li>Najlepiej zostaw mięso w lodówce na <strong>2–4 godziny</strong> (co najmniej na 30 minut), żeby się zamarynowało.</li>
+<li>Wyjmij udka z lodówki <strong>20 minut</strong> przed pieczeniem.</li>
+<li>Nagrzej frytkownicę do <strong>180 °C (3 minuty)</strong>.</li>
 <li>Ułóż udka w koszyku <strong>skórą do góry</strong>.</li>
-<li>Smaż w <strong>180 °C przez 15 minut</strong>.</li>
-<li>Odwróć i smaż w <strong>200 °C przez kolejne 5-10 minut</strong>, znów skórą do góry, aby skórka stała się chrupiąca.</li>
-<li>Sprawdź, czy temperatura wewnętrzna w najgrubszym miejscu osiąga <strong>74 °C</strong>.</li>
-<li>Odstaw na <strong>5 minut</strong> przed podaniem.</li>
+<li>Piecz w <strong>180 °C przez 15 minut</strong>.</li>
+<li>Obróć udka i piecz w <strong>200 °C przez kolejne 5–10 minut</strong> – znów skórą do góry – aż skórka stanie się chrupiąca.</li>
+<li>Sprawdź, czy w najgrubszym miejscu temperatura osiągnęła <strong>74 °C</strong>.</li>
+<li>Przed podaniem odstaw mięso na <strong>5 minut</strong>.</li>
 </ol>
-<h3>Wskazówki kucharza</h3>
-<p>Udka z kurczaka są bardziej wyrozumiałe niż piersi, jeśli chodzi o przesmażenie — naturalna zawartość tłuszczu utrzymuje je soczyste. Brązowy cukier w przyprawach sprzyja karmelizacji skórki bez jej przypalania. To danie świetnie pasuje do <a href="/pl/blog/meal-prep-airfryer-semaine">meal prepu na cały tydzień</a>.</p>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Udka lepiej niż piersi znoszą zbyt długie pieczenie – dzięki naturalnej zawartości tłuszczu pozostają soczyste. Brązowy cukier w mieszance przypraw sprzyja karmelizacji skórki, ale jej nie przypala. To danie świetnie sprawdzi się w <a href="/pl/blog/meal-prep-airfryer-semaine">meal prepie na cały tydzień</a>.</p>
 
-<h2>4. Całe piersi z kurczaka w marynacie</h2>
+<h2>4. Marynowane piersi z kurczaka w całości</h2>
 <h3>Składniki</h3>
 <ul>
-<li>2 grube piersi z kurczaka (około 200 g każda)</li>
+<li>2 grube piersi z kurczaka (po około 200 g)</li>
 <li>60 ml jogurtu naturalnego</li>
 <li>2 łyżki soku z cytryny</li>
 <li>2 drobno posiekane ząbki czosnku</li>
 <li>1 łyżka oliwy z oliwek</li>
 <li>1 łyżeczka kurkumy</li>
-<li>1 łyżeczka kminku rzymskiego</li>
+<li>1 łyżeczka kminu rzymskiego</li>
 <li>1 łyżeczka mielonej kolendry</li>
 <li>½ łyżeczki chili w proszku</li>
 <li>Sól i pieprz</li>
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Jeśli piersi są bardzo grube, lekko je rozpłaszcz tłuczkiem do mięsa lub wałkiem do ciasta, aby uzyskać jednakową grubość <strong>2,5 cm</strong>. Zapewnia to równomierne smażenie.</li>
-<li>Wymieszaj jogurt, sok z cytryny, czosnek, olej i wszystkie przyprawy.</li>
-<li>Obtocz piersi w tej marynacie i odstaw do marynowania <strong>na co najmniej 2 godziny w lodówce</strong> (najlepiej na noc).</li>
-<li>Wyjmij z lodówki <strong>20 minut</strong> przed smażeniem.</li>
-<li>Rozgrzej frytkownicę do <strong>180 °C przez 3 minuty</strong>.</li>
-<li>Usuń nadmiar marynaty (nie wycieraj jej całkowicie) i włóż do koszyka.</li>
-<li>Smaż w <strong>180 °C przez 18-22 minuty</strong>, obracając w połowie czasu.</li>
-<li>Temperatura wewnętrzna powinna osiągnąć <strong>74 °C</strong>.</li>
-<li>Odstaw na <strong>5 minut</strong> pod folią aluminiową przed krojeniem.</li>
+<li>Jeśli piersi są bardzo grube, lekko rozbij je tłuczkiem albo wałkiem do ciasta, tak żeby miały jednakową grubość <strong>2,5 cm</strong>. Dzięki temu upieką się równomiernie.</li>
+<li>Wymieszaj jogurt, sok z cytryny, czosnek, oliwę i wszystkie przyprawy.</li>
+<li>Obtocz piersi w marynacie i odstaw je <strong>na co najmniej 2 godziny do lodówki</strong> (najlepiej na całą noc).</li>
+<li>Wyjmij mięso z lodówki <strong>20 minut</strong> przed pieczeniem.</li>
+<li>Nagrzej frytkownicę do <strong>180 °C (3 minuty)</strong>.</li>
+<li>Zbierz nadmiar marynaty (nie wycieraj mięsa do sucha) i włóż piersi do koszyka.</li>
+<li>Piecz w <strong>180 °C przez 18–22 minuty</strong>, w połowie czasu obróć.</li>
+<li>Temperatura w środku powinna osiągnąć <strong>74 °C</strong>.</li>
+<li>Przed krojeniem odstaw mięso na <strong>5 minut</strong> pod folią aluminiową.</li>
 </ol>
-<h3>Wskazówki kucharza</h3>
-<p>Marynata jogurtowa to sekret kuchni indyjskiej — kwas mlekowy delikatnie zmiękcza mięso, nie „gotując” go tak, jak zrobiłby to czysty kwas (sam sok z cytryny). Czas odpoczynku po smażeniu jest kluczowy: pozwala sokom rozprowadzić się w mięsie. Jeśli pokroisz za wcześnie, soki wypłyną, a kurczak będzie suchy.</p>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Marynata jogurtowa to sekret kuchni indyjskiej – kwas mlekowy delikatnie zmiękcza mięso i nie „ścina” go tak jak czysty kwas (sam sok z cytryny). Odpoczynek po upieczeniu jest bardzo ważny: soki rozchodzą się wtedy równomiernie w mięsie. Jeśli pokroisz je za wcześnie, soki wypłyną i kurczak będzie suchy.</p>
 
 <h2>5. Domowe nuggetsy z kurczaka</h2>
 <h3>Składniki</h3>
 <ul>
-<li>400 g piersi z kurczaka, pokrojonych w kostki 3 cm</li>
-<li>100 g rozkruszonych płatków kukurydzianych (niezbyt drobno)</li>
+<li>400 g piersi z kurczaka pokrojonych w kostkę 3 cm</li>
+<li>100 g pokruszonych płatków kukurydzianych (niezbyt drobno)</li>
 <li>2 roztrzepane jajka</li>
 <li>50 g mąki</li>
 <li>1 łyżeczka słodkiej papryki w proszku</li>
@@ -1056,24 +1065,24 @@ export const article: BlogArticle = {
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Rozkrusz płatki kukurydziane w woreczku do zamrażania za pomocą wałka — zostaw nieregularne kawałki dla tekstury.</li>
-<li>Przygotuj trzy stanowiska: przyprawiona mąka (papryka, czosnek, cebula, sól, pieprz); roztrzepane jajka; rozkruszone płatki kukurydziane.</li>
-<li>Panieruj każdą kostkę: mąka, jajko, płatki kukurydziane, mocno dociskając.</li>
-<li>Rozgrzej frytkownicę do <strong>190 °C przez 3 minuty</strong>.</li>
-<li>Ułóż nuggetsy tak, aby na siebie nie zachodziły, spryskaj olejem.</li>
-<li>Smaż w <strong>190 °C przez 10-12 minut</strong>, obracając w połowie czasu.</li>
-<li>Sprawdź, czy temperatura wewnętrzna osiąga <strong>74 °C</strong>.</li>
+<li>Pokrusz płatki kukurydziane wałkiem w woreczku do mrożenia – zostaw nieregularne kawałki, żeby panierka miała ciekawszą teksturę.</li>
+<li>Przygotuj trzy talerze: przyprawioną mąkę (papryka, czosnek, cebula, sól, pieprz), roztrzepane jajka i pokruszone płatki.</li>
+<li>Panieruj każdą kostkę: najpierw w mące, potem w jajku, na końcu w płatkach, mocno dociskając.</li>
+<li>Nagrzej frytkownicę do <strong>190 °C (3 minuty)</strong>.</li>
+<li>Ułóż nuggetsy tak, żeby na siebie nie zachodziły, i spryskaj olejem.</li>
+<li>Smaż w <strong>190 °C przez 10–12 minut</strong>, w połowie czasu obróć.</li>
+<li>Sprawdź, czy temperatura w środku osiągnęła <strong>74 °C</strong>.</li>
 </ol>
-<h3>Wskazówki kucharza</h3>
-<p>Płatki kukurydziane dają lepszą chrupkość niż bułka tarta i piękny, naturalny złocisty kolor. Dla dzieci takie domowe nuggetsy są znacznie zdrowsze niż wersje przemysłowe. Przygotuj dużą porcję i zamroź surowe, panierowane nuggetsy — smaży się je prosto z zamrażarki, dodając <strong>3-4 minuty</strong> do czasu smażenia. Do <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowego i zbilansowanego</a> posiłku podaj z surówką i sosem jogurtowym.</p>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Płatki kukurydziane są bardziej chrupiące niż bułka tarta i dają piękny, złocisty kolor. Takie domowe nuggetsy są dla dzieci znacznie zdrowsze niż gotowe produkty ze sklepu. Przygotuj większą porcję i zamroź surowe, panierowane nuggetsy – możesz je smażyć prosto z zamrażarki, wydłużając czas o <strong>3–4 minuty</strong>. Żeby posiłek był <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowy i zbilansowany</a>, podaj nuggetsy z surowymi warzywami pokrojonymi w słupki i sosem jogurtowym.</p>
 
-<h2>6. Szaszłyki satay z kurczaka</h2>
+<h2>6. Szaszłyki z kurczaka satay</h2>
 <h3>Składniki</h3>
 <ul>
-<li>500 g piersi z kurczaka, pokrojonych w paski o szerokości 2 cm</li>
-<li>Drewniane szpikulce (namoczone w wodzie przez 30 minut)</li>
+<li>500 g piersi z kurczaka pokrojonych w paski szerokości 2 cm</li>
+<li>Drewniane patyczki do szaszłyków (namoczone w wodzie przez 30 minut)</li>
 </ul>
-<p><strong>Do marynaty:</strong></p>
+<p><strong>Marynata:</strong></p>
 <ul>
 <li>3 łyżki mleka kokosowego (45 ml)</li>
 <li>2 łyżki sosu sojowego (30 ml)</li>
@@ -1085,62 +1094,545 @@ export const article: BlogArticle = {
 <li>1 cm startego świeżego imbiru</li>
 <li>1 łyżeczka cukru palmowego lub brązowego</li>
 </ul>
-<p><strong>Do sosu orzechowego:</strong></p>
+<p><strong>Sos orzechowy:</strong></p>
 <ul>
 <li>80 g kremowego masła orzechowego</li>
 <li>60 ml mleka kokosowego</li>
 <li>1 łyżka sosu sojowego</li>
 <li>1 łyżka soku z limonki</li>
-<li>1 łyżeczka sriracha</li>
+<li>1 łyżeczka sosu sriracha</li>
 <li>1 łyżeczka miodu</li>
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Wymieszaj wszystkie składniki marynaty w misce.</li>
-<li>Dodaj paski kurczaka i odstaw do marynowania <strong>na co najmniej 2 godziny w lodówce</strong> (na całą noc dla najlepszego smaku).</li>
-<li>Nadziej paski na wcześniej namoczone drewniane szpikulce.</li>
-<li>Przygotuj sos orzechowy, mieszając wszystkie składniki w małym rondelku na małym ogniu przez <strong>3 minuty</strong>, ciągle mieszając.</li>
-<li>Rozgrzej frytkownicę do <strong>190 °C przez 3 minuty</strong>.</li>
-<li>Ułóż szaszłyki w koszyku (w razie potrzeby przytnij je, żeby się zmieściły).</li>
-<li>Smaż w <strong>190 °C przez 10-12 minut</strong>, obracając w połowie czasu.</li>
+<li>W misce wymieszaj wszystkie składniki marynaty.</li>
+<li>Dodaj paski kurczaka i odstaw <strong>na co najmniej 2 godziny do lodówki</strong> (najlepiej na całą noc – smak będzie pełniejszy).</li>
+<li>Nadziej paski na namoczone wcześniej patyczki.</li>
+<li>Przygotuj sos: wszystkie składniki podgrzewaj w rondelku na małym ogniu przez <strong>3 minuty</strong>, ciągle mieszając.</li>
+<li>Nagrzej frytkownicę do <strong>190 °C (3 minuty)</strong>.</li>
+<li>Ułóż szaszłyki w koszyku (jeśli trzeba, skróć patyczki, żeby się zmieściły).</li>
+<li>Piecz w <strong>190 °C przez 10–12 minut</strong>, w połowie czasu obróć.</li>
 <li>Podawaj od razu z ciepłym sosem orzechowym i cząstkami limonki.</li>
 </ol>
-<h3>Wskazówki kucharza</h3>
-<p>Zawsze namaczaj drewniane szpikulce w wodzie co najmniej 30 minut przed użyciem, aby się nie przypaliły. Masło orzechowe w marynacie tworzy cienką warstwę ochronną, która utrzymuje kurczaka niezwykle miękkim. Ten przepis jest idealny na przekąskę ze znajomymi lub towarzyską kolację.</p>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Drewniane patyczki zawsze namaczaj w wodzie co najmniej 30 minut przed użyciem – wtedy się nie przypalą. Masło orzechowe w marynacie tworzy na mięsie cienką warstwę ochronną, dzięki której kurczak pozostaje wyjątkowo delikatny. To idealny przepis na przekąskę dla znajomych albo kolację w gronie przyjaciół.</p>
 
 <h2>Tabela czasów i temperatur</h2>
 <table>
 <thead>
-<tr><th>Przepis</th><th>Temperatura</th><th>Całkowity czas</th><th>Ilość</th><th>Temp. wewn.</th></tr>
+<tr><th>Przepis</th><th>Temperatura</th><th>Łączny czas</th><th>Ilość</th><th>Temp. w środku</th></tr>
 </thead>
 <tbody>
-<tr><td>Skrzydełka buffalo</td><td>180 °C, potem 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
-<tr><td>Panierowane tendersy</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Pikantne udka</td><td>180 °C, potem 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
-<tr><td>Marynowane piersi</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
-<tr><td>Domowe nuggetsy</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
-<tr><td>Szaszłyki satay</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Skrzydełka buffalo</td><td>180 °C, potem 200 °C</td><td>20–22 min</td><td>1 kg</td><td>74 °C</td></tr>
+<tr><td>Panierowane stripsy</td><td>200 °C</td><td>10–12 min</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Pikantne udka</td><td>180 °C, potem 200 °C</td><td>20–25 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Marynowane piersi</td><td>180 °C</td><td>18–22 min</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Domowe nuggetsy</td><td>190 °C</td><td>10–12 min</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Szaszłyki satay</td><td>190 °C</td><td>10–12 min</td><td>500 g</td><td>74 °C</td></tr>
 </tbody>
 </table>
 
-<h2>Ogólne wskazówki dla kurczaka we frytkownicy beztłuszczowej</h2>
-<p>Kurczak to jedno z białek najlepiej nadających się do smażenia we frytkownicy beztłuszczowej, ale kilka zasad jest kluczowych:</p>
+<h2>Kurczak z frytkownicy beztłuszczowej – ogólne wskazówki</h2>
+<p>Kurczak to jedno z mięs, które najlepiej wychodzą z frytkownicy beztłuszczowej, ale trzeba pamiętać o kilku zasadach:</p>
 <ul>
-<li><strong>Obowiązkowa temperatura wewnętrzna</strong> — zainwestuj w termometr z szybkim odczytem. Kurczak musi osiągnąć <strong>74 °C w środku</strong> dla optymalnego bezpieczeństwa żywności.</li>
-<li><strong>Zawsze osuszaj powierzchnię</strong> — sucha skórka lub powierzchnia = maksymalne rumienienie i chrupkość.</li>
-<li><strong>Nie przeładowuj koszyka</strong> — krążenie powietrza jest kluczowe. W razie potrzeby smaż w dwóch partiach.</li>
-<li><strong>Czas odpoczynku</strong> — zawsze odstaw kurczaka na 5 minut po smażeniu, aby soki się rozprowadziły.</li>
-<li><strong>Marynowanie</strong> — minimum 2 godziny robi całą różnicę. Marynaty jogurtowe są szczególnie skuteczne w zmiękczaniu mięsa.</li>
+<li><strong>Kontroluj temperaturę w środku</strong> – zaopatrz się w termometr z szybkim odczytem. Aby kurczak był bezpieczny do jedzenia, musi osiągnąć <strong>74 °C w środku</strong>.</li>
+<li><strong>Zawsze osuszaj powierzchnię</strong> – im bardziej sucha skórka lub powierzchnia mięsa, tym lepiej się rumieni i tym bardziej jest chrupiąca.</li>
+<li><strong>Nie przeładowuj koszyka</strong> – swobodny przepływ powietrza to podstawa. W razie potrzeby piecz w dwóch turach.</li>
+<li><strong>Odpoczynek</strong> – po upieczeniu zawsze odstaw kurczaka na 5 minut, żeby soki rozeszły się w mięsie.</li>
+<li><strong>Marynowanie</strong> – już 2 godziny robią ogromną różnicę. Marynaty jogurtowe szczególnie skutecznie zmiękczają mięso.</li>
 </ul>
-<p>Do pełnego posiłku podaj te przepisy z <a href="/pl/blog/recettes-frites-parfaites-airfryer">idealnymi frytkami z frytkownicy beztłuszczowej</a> lub z <a href="/pl/blog/recettes-legumes-grilles-airfryer">grillowanymi warzywami</a>. Zajrzyj też do naszego poradnika <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowe gotowanie we frytkownicy beztłuszczowej</a>, aby układać zbilansowane jadłospisy na co dzień.</p>
+<p>Na pełny posiłek podaj kurczaka z <a href="/pl/blog/recettes-frites-parfaites-airfryer">idealnymi frytkami z frytkownicy beztłuszczowej</a> albo z <a href="/pl/blog/recettes-legumes-grilles-airfryer">grillowanymi warzywami</a>. Zajrzyj też do naszego poradnika o <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowym gotowaniu we frytkownicy beztłuszczowej</a> – pomoże Ci układać zbilansowany jadłospis na co dzień.</p>
 
-<h2>5 szybkich marynat, które zmieniają wszystko</h2>
+<h2>5 szybkich marynat, które robią różnicę</h2>
 <ul>
 <li><strong>Marynata cytrynowo-ziołowa (30 min):</strong> sok z 2 cytryn + oregano + czosnek + oliwa z oliwek. Do piersi z kurczaka.</li>
-<li><strong>Marynata sojowo-sezamowa (2 h):</strong> sos sojowy + miód + starty imbir + olej sezamowy. Do skrzydełek i tendersów.</li>
-<li><strong>Marynata jogurtowo-korzenna (4 h):</strong> jogurt grecki + kminek rzymski + papryka w proszku + kurkuma + czosnek. Do ud i podudzi.</li>
-<li><strong>Wędzona marynata BBQ (2 h):</strong> sos BBQ + chipotle + miód + sok z cytryny. Do wszystkich części.</li>
-<li><strong>Marynata harissa-cytryna (1 h):</strong> harissa + sok z cytryny + oliwa z oliwek + kolendra. Do szaszłyków.</li>
+<li><strong>Marynata sojowo-sezamowa (2 h):</strong> sos sojowy + miód + starty imbir + olej sezamowy. Do skrzydełek i stripsów.</li>
+<li><strong>Marynata jogurtowa z przyprawami (4 h):</strong> jogurt grecki + kmin rzymski + papryka w proszku + kurkuma + czosnek. Do udek i podudzi.</li>
+<li><strong>Wędzona marynata BBQ (2 h):</strong> sos BBQ + chipotle + miód + sok z cytryny. Do każdej części kurczaka.</li>
+<li><strong>Marynata z harissą i cytryną (1 h):</strong> harissa + sok z cytryny + oliwa z oliwek + kolendra. Do szaszłyków.</li>
+</ul>`,
+    sv: `<h2>Inledning</h2>
+<p>Kyckling i airfryer är nog något av det mest tillfredsställande du kan laga. Den cirkulerande heta luften ger ett <strong>krispigt och gyllene skinn</strong> samtidigt som köttet förblir saftigt inuti – och allt med en minimal mängd olja. Oavsett om du lagar en snabb vardagsmiddag eller bjuder hem gäster finns det bland de här 6 recepten något för varje del av kycklingen och varje tillfälle.</p>
+<p>Perfekt kyckling i airfryer handlar om tre saker: en marinad som mör och smaksätter köttet, att du <strong>torkar ytan</strong> för att få maximal krispighet och att du noga håller dig till en säker innertemperatur (<strong>74 °C i kärnan</strong>). Använd gärna en stektermometer, så blir kycklingen perfekt varje gång.</p>
+
+<h2>1. Buffalo wings</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>1 kg kycklingvingar (ca 12 st.), delade vid leden</li>
+<li>2 msk olivolja (30 ml)</li>
+<li>1 tsk salt, 1 tsk vitlökspulver, ½ tsk svartpeppar</li>
+<li>1 tsk bakpulver (för krispigheten)</li>
+</ul>
+<p><strong>Buffalosås:</strong></p>
+<ul>
+<li>60 ml stark sås, t.ex. Frank's Red Hot</li>
+<li>30 g smält smör</li>
+<li>1 msk honung (15 ml), 1 tsk ljus vinäger</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Torka vingarna ordentligt med hushållspapper – det är <strong>det viktigaste steget</strong> för ett krispigt resultat.</li>
+<li>Blanda vingarna med olivolja, salt, vitlökspulver, peppar och bakpulver i en stor skål.</li>
+<li>Förvärm airfryern till <strong>180 °C i 3 minuter</strong>.</li>
+<li>Lägg vingarna i ett enda lager, utan att de ligger på varandra.</li>
+<li>Tillaga <strong>12 minuter i 180 °C</strong>.</li>
+<li>Vänd vingarna och höj till <strong>200 °C i ytterligare 8–10 minuter</strong>, tills skinnet är gyllene och krispigt.</li>
+<li>Gör buffalosåsen under tiden: värm stark sås, smält smör, honung och vinäger i en liten kastrull på låg värme i 2 minuter.</li>
+<li>Lägg de färdiga vingarna i en skål, häll över såsen och vänd runt så att de blir väl täckta.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Bakpulvret är hemligheten bakom riktigt krispiga vingar utan fritering: det höjer skinnets pH-värde och gör att det får färg snabbare. Använd <strong>bara bakpulver</strong>, aldrig ren bikarbonat, som ger en metallisk bismak. Servera med selleristavar och en ädelostdipp.</p>
+
+<h2>2. Panerade kycklingstrips</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>500 g kycklingfilé, skuren i 2 cm breda strimlor</li>
+<li>80 g pankoströbröd, 40 g riven parmesan</li>
+<li>2 uppvispade ägg, 50 g vetemjöl</li>
+<li>1 tsk paprikapulver, 1 tsk torkad oregano, ½ tsk vitlökspulver, salt och peppar</li>
+<li>Oljespray</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Salta och peppra kycklingstrimlorna.</li>
+<li>Ställ fram tre tallrikar: en med mjöl kryddat med paprika- och vitlökspulver, en med uppvispade ägg och en med en blandning av panko, parmesan och oregano.</li>
+<li>Vänd varje strimla först i mjöl, sedan i ägg och sist i paneringen. Tryck till ordentligt så att paneringen fastnar.</li>
+<li>Lägg strimlorna på ett galler och ställ dem i kylen i <strong>15 minuter</strong> – då stelnar paneringen och lossnar inte under tillagningen.</li>
+<li>Förvärm airfryern till <strong>200 °C i 3 minuter</strong>.</li>
+<li>Lägg strimlorna i ett enda lager och spraya lätt med olja.</li>
+<li>Tillaga <strong>10–12 minuter i 200 °C</strong>. Vänd dem halvvägs och spraya med lite mer olja.</li>
+<li>Kontrollera att innertemperaturen når <strong>74 °C</strong>.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Japanskt panko ger en krispighet som vanligt ströbröd inte kommer i närheten av. Vilan i kylen före tillagningen är ett steg som många hoppar över, men den gör hela skillnaden. Servera med <a href="/sv/blog/recettes-frites-parfaites-airfryer">hemgjorda pommes frites i airfryer</a>, så har du en komplett måltid.</p>
+
+<h2>3. Kryddiga kycklinglår</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>6 kycklinglår med skinn (ca 800 g)</li>
+<li>2 msk olivolja, 1 msk rökt paprikapulver, 1 tsk malen spiskummin</li>
+<li>1 tsk vitlökspulver, 1 tsk lökpulver</li>
+<li>½ tsk cayennepeppar, 1 tsk salt, ½ tsk svartpeppar, 1 tsk farinsocker (hjälper skinnet att få färg)</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Blanda alla kryddor i en liten skål. Torka låren med hushållspapper, pensla dem med olivolja och gnid sedan in kryddblandningen ordentligt.</li>
+<li>Låt låren marinera i kylen i <strong>2–4 timmar</strong> (minst 30 minuter).</li>
+<li>Ta ut dem ur kylen <strong>20 minuter</strong> före tillagningen.</li>
+<li>Förvärm airfryern till 180 °C i 3 minuter. Lägg låren med skinnsidan uppåt i korgen och tillaga <strong>15 minuter i 180 °C</strong>.</li>
+<li>Vänd på låren, lägg dem sedan med skinnsidan uppåt igen och tillaga <strong>5–10 minuter i 200 °C</strong> så att skinnet blir krispigt.</li>
+<li>Innertemperaturen ska nå <strong>74 °C</strong> i den tjockaste delen. Låt vila i <strong>5 minuter</strong> före servering.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Kycklinglår är mer förlåtande än bröstfilé – det naturliga fettet håller dem saftiga även om de blir lite för länge i airfryern. Farinsockret i kryddblandningen hjälper skinnet att karamelliseras utan att det bränns. Låren passar också perfekt i veckans matlådor.</p>
+
+<h2>4. Marinerad kycklingfilé</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>2 tjocka kycklingfiléer (ca 200 g styck)</li>
+<li>60 ml naturell yoghurt, 2 msk citronsaft, 2 finhackade vitlöksklyftor</li>
+<li>1 msk olivolja, 1 tsk gurkmeja, 1 tsk spiskummin, 1 tsk malen koriander, ½ tsk chilipulver, salt och peppar</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Är filéerna mycket tjocka plattar du till dem lätt med en köttklubba eller kavel till en jämn tjocklek på <strong>2,5 cm</strong>, så att de blir jämnt tillagade.</li>
+<li>Blanda yoghurt, citronsaft, vitlök, olja och kryddor. Vänd filéerna i marinaden och låt dem marinera i kylen i <strong>minst 2 timmar</strong> (helst över natten).</li>
+<li>Ta ut filéerna ur kylen 20 minuter i förväg och förvärm airfryern till 180 °C i 3 minuter. Skrapa av överflödig marinad, utan att torka bort allt, och tillaga <strong>18–22 minuter i 180 °C</strong>. Vänd dem halvvägs.</li>
+<li>Innertemperaturen ska nå <strong>74 °C</strong>. Låt vila i <strong>5 minuter</strong> under folie innan du skär upp filéerna.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Yoghurtmarinad är en klassiker i det indiska köket: mjölksyran mör köttet varsamt utan att ”koka” det, som en ren syra (bara citron) skulle göra. Vilan efter tillagningen är viktig eftersom köttsaften då hinner fördela sig. Skär du för tidigt rinner saften ut och kycklingen blir torr.</p>
+
+<h2>5. Hemgjorda kycklingnuggets</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>400 g kycklingfilé, skuren i tärningar på 3 cm</li>
+<li>100 g grovkrossade cornflakes, 2 uppvispade ägg, 50 g vetemjöl</li>
+<li>1 tsk milt paprikapulver, ½ tsk vitlökspulver, ½ tsk lökpulver, salt, peppar och oljespray</li>
+</ul>
+<h3>Gör så här</h3>
+<ol>
+<li>Krossa cornflakesen i en fryspåse med en kavel – låt bitarna vara ojämna, så blir strukturen bättre.</li>
+<li>Ställ fram tre skålar: en med mjöl kryddat med paprikapulver, vitlökspulver, lökpulver, salt och peppar, en med uppvispade ägg och en med krossade cornflakes. Panera varje tärning i mjöl, ägg och cornflakes, och tryck till ordentligt.</li>
+<li>Förvärm airfryern till 190 °C i 3 minuter. Lägg nuggetsen i korgen utan att de ligger på varandra, spraya med olja och tillaga <strong>10–12 minuter i 190 °C</strong>. Vänd dem halvvägs.</li>
+<li>Kontrollera att innertemperaturen når <strong>74 °C</strong>.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Cornflakes ger en krispigare yta än ströbröd och en fin, naturligt gyllene färg. För barnen är hemgjorda nuggets ett betydligt nyttigare alternativ än färdigköpta. Gör en stor sats och frys in nuggetsen panerade och råa – de kan tillagas direkt från frysen om du lägger till <strong>3–4 minuter</strong>. Servera med råa grönsaker och en yoghurtdipp, så får du en <a href="/sv/blog/cuisiner-healthy-airfryer">nyttig och balanserad måltid</a>.</p>
+
+<h2>6. Satayspett med kyckling</h2>
+<h3>Ingredienser</h3>
+<ul>
+<li>500 g kycklingfilé, skuren i 2 cm breda strimlor</li>
+<li>Träspett (blötlagda i vatten i 30 minuter)</li>
+</ul>
+<p><strong>Marinad:</strong> 3 msk kokosmjölk, 2 msk soja, 1 msk krämigt jordnötssmör, 1 msk limesaft, 1 tsk currypulver, 1 tsk gurkmeja, 1 riven vitlöksklyfta, 1 cm riven färsk ingefära, 1 tsk palmsocker eller råsocker</p>
+<p><strong>Jordnötssås:</strong> 80 g krämigt jordnötssmör, 60 ml kokosmjölk, 1 msk soja, 1 msk limesaft, 1 tsk sriracha, 1 tsk honung</p>
+<h3>Gör så här</h3>
+<ol>
+<li>Blanda alla ingredienser till marinaden i en skål. Lägg i kycklingstrimlorna och låt dem marinera i kylen i <strong>minst 2 timmar</strong> (gärna över natten för bästa smak).</li>
+<li>Trä strimlorna på de blötlagda träspetten.</li>
+<li>Gör jordnötssåsen: värm alla ingredienser i en liten kastrull på låg värme i <strong>3 minuter</strong> under omrörning.</li>
+<li>Förvärm airfryern till 190 °C i 3 minuter. Lägg spetten i korgen (korta dem vid behov så att de får plats) och tillaga <strong>10–12 minuter i 190 °C</strong>. Vänd dem halvvägs.</li>
+<li>Servera direkt med den ljumma jordnötssåsen och limeklyftor.</li>
+</ol>
+<h3>Kockens tips</h3>
+<p>Blötlägg alltid träspetten i minst 30 minuter innan du använder dem, så bränns de inte. Jordnötssmöret i marinaden bildar ett tunt skyddande lager som håller kycklingen otroligt mör. Spetten passar perfekt som plockmat när du bjuder hem vänner, eller till en avslappnad middag.</p>
+
+<h2>Översikt: tider och temperaturer</h2>
+<table>
+<thead>
+<tr><th>Recept</th><th>Temperatur</th><th>Total tid</th><th>Mängd</th><th>Innertemp.</th></tr>
+</thead>
+<tbody>
+<tr><td>Buffalo wings</td><td>180 °C, sedan 200 °C</td><td>20–22 min</td><td>1 kg</td><td>74 °C</td></tr>
+<tr><td>Panerade kycklingstrips</td><td>200 °C</td><td>10–12 min</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Kryddiga kycklinglår</td><td>180 °C, sedan 200 °C</td><td>20–25 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Marinerad kycklingfilé</td><td>180 °C</td><td>18–22 min</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Hemgjorda nuggets</td><td>190 °C</td><td>10–12 min</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Satayspett</td><td>190 °C</td><td>10–12 min</td><td>500 g</td><td>74 °C</td></tr>
+</tbody>
+</table>
+
+<h2>Allmänna tips för kyckling i airfryer</h2>
+<ul>
+<li><strong>Rätt innertemperatur är ett måste</strong> – skaffa en stektermometer med snabb avläsning. Kycklingen måste nå <strong>74 °C i kärnan</strong> för att vara säker att äta.</li>
+<li><strong>Torka alltid ytan</strong> – torrt skinn ger mest färg och krispighet.</li>
+<li><strong>Fyll inte korgen för mycket</strong> – luften måste kunna cirkulera. Tillaga i två omgångar om det behövs.</li>
+<li><strong>Låt vila efter tillagningen</strong> – 5 minuter räcker för att köttsaften ska fördela sig.</li>
+<li><strong>Marinera ordentligt</strong> – minst 2 timmar gör hela skillnaden, och yoghurtmarinader är särskilt bra på att möra köttet.</li>
+</ul>
+<p>För en komplett måltid kan du servera kycklingen med <a href="/sv/blog/recettes-frites-parfaites-airfryer">perfekta pommes frites i airfryer</a> eller <a href="/sv/blog/recettes-legumes-grilles-airfryer">rostade grönsaker</a>.</p>
+
+<h2>5 snabba marinader som gör hela skillnaden</h2>
+<ul>
+<li><strong>Citron- och örtmarinad (30 min):</strong> saften av 2 citroner + oregano + vitlök + olivolja. Till kycklingfilé.</li>
+<li><strong>Soja- och sesammarinad (2 tim):</strong> soja + honung + riven ingefära + sesamolja. Till vingar och strips.</li>
+<li><strong>Yoghurt- och kryddmarinad (4 tim):</strong> grekisk yoghurt + spiskummin + paprikapulver + gurkmeja + vitlök. Till lår och klubbor.</li>
+<li><strong>Rökig BBQ-marinad (2 tim):</strong> BBQ-sås + chipotle + honung + citronsaft. Till alla delar.</li>
+<li><strong>Harissa- och citronmarinad (1 tim):</strong> harissa + citronsaft + olivolja + koriander. Till spett.</li>
+</ul>`,
+    us: `<h2>Introduction</h2>
+<p>Air fryer chicken may be one of the most satisfying things you can make. The circulating hot air gives you <strong>crispy, golden skin</strong> while the meat stays juicy inside, all with very little oil. Whether you're making a quick weeknight dinner or cooking for company, these six recipes cover every cut of chicken and every occasion.</p>
+<p>Perfect air fryer chicken comes down to three things: a marinade that tenderizes and flavors the meat, <strong>drying the surface</strong> for maximum crunch, and always hitting a safe internal temperature of <strong>165°F (74°C) at the thickest part</strong>. An instant-read meat thermometer takes the guesswork out of it.</p>
+
+<h2>1. Buffalo chicken wings</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>2.2 lb (1 kg) chicken wings (about 12), split into drumettes and flats</li>
+<li>2 tablespoons (30 ml) olive oil</li>
+<li>1 teaspoon salt, 1 teaspoon garlic powder, ½ teaspoon black pepper</li>
+<li>1 teaspoon baking powder (for crispiness)</li>
+</ul>
+<p><strong>Buffalo sauce:</strong></p>
+<ul>
+<li>¼ cup (60 ml) hot sauce, such as Frank's Red Hot</li>
+<li>2 tbsp (30 g) melted butter</li>
+<li>1 tablespoon (15 ml) honey, 1 teaspoon white vinegar</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Pat the wings completely dry with paper towels — <strong>the most important step</strong>.</li>
+<li>Toss the wings with the olive oil, salt, garlic powder, pepper and baking powder.</li>
+<li>Preheat the air fryer to <strong>350°F (180°C) for 3 minutes</strong>.</li>
+<li>Arrange in a single layer.</li>
+<li>Air fry at <strong>350°F (180°C) for 12 minutes</strong>.</li>
+<li>Flip and raise the heat to <strong>400°F (200°C) for 8 to 10 minutes</strong>, until golden and crispy.</li>
+<li>Warm the Buffalo sauce ingredients in a small saucepan over low heat for 2 minutes.</li>
+<li>Toss the cooked wings in the sauce and serve.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Baking powder raises the pH of the skin and speeds up browning. Use <strong>baking powder only</strong>, never straight baking soda, which leaves a metallic taste. Serve with celery sticks and blue cheese dressing.</p>
+
+<h2>2. Breaded chicken tenders</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>1.1 lb (500 g) chicken breast, cut into ¾-inch (2 cm) strips</li>
+<li>2.8 oz (80 g) panko breadcrumbs, 1.4 oz (40 g) grated Parmesan</li>
+<li>2 beaten eggs, 1.8 oz (50 g) all-purpose flour</li>
+<li>1 teaspoon paprika, 1 teaspoon dried oregano, ½ teaspoon garlic powder</li>
+<li>Cooking spray</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Season the strips with salt and pepper.</li>
+<li>Set up three stations: seasoned flour, beaten eggs, and the panko, Parmesan and oregano mix.</li>
+<li>Bread each strip: flour, egg, then panko, pressing firmly.</li>
+<li>Refrigerate for <strong>15 minutes</strong> to set the coating.</li>
+<li>Preheat to <strong>400°F (200°C) for 3 minutes</strong>.</li>
+<li>Arrange in a single layer and mist with cooking spray.</li>
+<li>Air fry at <strong>400°F (200°C) for 10 to 12 minutes</strong>, flipping halfway through and spraying again.</li>
+<li>The internal temperature must reach <strong>165°F (74°C)</strong>.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Panko gives you unbeatable crunch. Chilling the tenders before cooking keeps the coating from falling off. Serve with <a href="/us/blog/recettes-frites-parfaites-airfryer">homemade air fryer fries</a>.</p>
+
+<h2>3. Spiced chicken thighs</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>6 bone-in, skin-on chicken thighs (about 1.8 lb/800 g)</li>
+<li>2 tablespoons olive oil, 1 tablespoon smoked paprika, 1 teaspoon cumin</li>
+<li>1 teaspoon garlic powder, 1 teaspoon onion powder</li>
+<li>½ teaspoon cayenne, 1 teaspoon salt, 1 teaspoon brown sugar</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Mix all the spices. Pat the thighs dry, coat them with the oil, then rub in the spice mix.</li>
+<li>Marinate in the fridge for <strong>2 to 4 hours</strong> (30 minutes minimum).</li>
+<li>Let sit at room temperature for <strong>20 minutes</strong> before cooking.</li>
+<li>Place skin side up. Air fry at <strong>350°F (180°C) for 15 minutes</strong>.</li>
+<li>Raise the heat to <strong>400°F (200°C) for 5 to 10 more minutes</strong>, still skin side up, to crisp the skin.</li>
+<li>The internal temperature must reach <strong>165°F (74°C)</strong>. Let rest <strong>5 minutes</strong>.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Thighs are forgiving — their natural fat keeps them juicy even if you overcook them a little. The brown sugar helps the skin caramelize without burning.</p>
+
+<h2>4. Marinated whole chicken breasts</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>2 thick chicken breasts (about 7 oz/200 g each)</li>
+<li>¼ cup (60 ml) plain yogurt, 2 tablespoons lemon juice, 2 garlic cloves (minced)</li>
+<li>1 tablespoon olive oil, 1 teaspoon turmeric, 1 teaspoon cumin, 1 teaspoon ground coriander</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Pound the breasts to an even <strong>1-inch (2.5 cm) thickness</strong> so they cook evenly.</li>
+<li>Mix the yogurt, lemon juice, garlic, oil and spices. Coat the breasts and marinate for <strong>at least 2 hours</strong> (overnight is ideal).</li>
+<li>Air fry at <strong>350°F (180°C) for 18 to 22 minutes</strong>, flipping halfway through.</li>
+<li>The internal temperature must reach <strong>165°F (74°C)</strong>. Let rest <strong>5 minutes</strong> under foil before slicing.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>The lactic acid in a yogurt marinade gently tenderizes the meat. Resting after cooking lets the juices redistribute — slice too early and the chicken will be dry.</p>
+
+<h2>5. Homemade chicken nuggets</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>14 oz (400 g) chicken breast, cut into 1¼-inch (3 cm) cubes</li>
+<li>3.5 oz (100 g) crushed corn flakes, 2 beaten eggs, 1.8 oz (50 g) all-purpose flour</li>
+<li>1 teaspoon paprika, ½ teaspoon garlic powder, ½ teaspoon onion powder</li>
+</ul>
+<h3>Instructions</h3>
+<ol>
+<li>Crush the corn flakes in a zip-top bag with a rolling pin — leave the pieces uneven for texture.</li>
+<li>Bread each cube: seasoned flour, egg, then corn flakes.</li>
+<li>Air fry at <strong>375°F (190°C) for 10 to 12 minutes</strong>, flipping halfway through. Mist with cooking spray.</li>
+<li>The internal temperature must reach <strong>165°F (74°C)</strong>.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Corn flakes give you more crunch than breadcrumbs and a naturally golden color. Freeze the breaded nuggets uncooked, then cook them straight from the freezer, adding <strong>3 to 4 extra minutes</strong>. For a <a href="/us/blog/cuisiner-healthy-airfryer">healthy meal</a>, serve with raw veggies and a yogurt dip.</p>
+
+<h2>6. Chicken satay skewers</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>1.1 lb (500 g) chicken breast, cut into ¾-inch (2 cm) strips</li>
+<li>Wooden skewers (soaked in water for 30 minutes)</li>
+</ul>
+<p><strong>Marinade:</strong> 3 tablespoons coconut milk, 2 tablespoons soy sauce, 1 tablespoon peanut butter, 1 tablespoon lime juice, 1 teaspoon curry powder, 1 teaspoon turmeric, 1 garlic clove (grated), ½-inch (1 cm) piece fresh ginger (grated), 1 teaspoon palm sugar (or brown sugar)</p>
+<p><strong>Peanut sauce:</strong> 5 tablespoons (80 g) peanut butter, ¼ cup (60 ml) coconut milk, 1 tablespoon soy sauce, 1 tablespoon lime juice, 1 teaspoon sriracha, 1 teaspoon honey</p>
+<h3>Instructions</h3>
+<ol>
+<li>Mix the marinade ingredients. Add the chicken and marinate for <strong>at least 2 hours</strong>.</li>
+<li>Thread onto the soaked skewers.</li>
+<li>Make the peanut sauce: warm all the ingredients in a small saucepan for <strong>3 minutes</strong>.</li>
+<li>Air fry the skewers at <strong>375°F (190°C) for 10 to 12 minutes</strong>, flipping halfway through.</li>
+<li>Serve with the warm peanut sauce and lime wedges.</li>
+</ol>
+<h3>Chef's tips</h3>
+<p>Always soak wooden skewers so they don't burn. The peanut butter in the marinade forms a protective coating that keeps the chicken incredibly tender.</p>
+
+<h2>Temperature and time cheat sheet</h2>
+<table>
+<thead>
+<tr><th>Recipe</th><th>Temperature</th><th>Total time</th><th>Quantity</th><th>Internal temp</th></tr>
+</thead>
+<tbody>
+<tr><td>Buffalo wings</td><td>350°F, then 400°F (180°C, then 200°C)</td><td>20–22 min</td><td>2.2 lb (1 kg)</td><td>165°F (74°C)</td></tr>
+<tr><td>Breaded tenders</td><td>400°F (200°C)</td><td>10–12 min</td><td>1.1 lb (500 g)</td><td>165°F (74°C)</td></tr>
+<tr><td>Spiced thighs</td><td>350°F, then 400°F (180°C, then 200°C)</td><td>20–25 min</td><td>1.8 lb (800 g)</td><td>165°F (74°C)</td></tr>
+<tr><td>Marinated breasts</td><td>350°F (180°C)</td><td>18–22 min</td><td>14 oz (400 g)</td><td>165°F (74°C)</td></tr>
+<tr><td>Homemade nuggets</td><td>375°F (190°C)</td><td>10–12 min</td><td>14 oz (400 g)</td><td>165°F (74°C)</td></tr>
+<tr><td>Satay skewers</td><td>375°F (190°C)</td><td>10–12 min</td><td>1.1 lb (500 g)</td><td>165°F (74°C)</td></tr>
+</tbody>
+</table>
+
+<h2>General tips for air fryer chicken</h2>
+<ul>
+<li><strong>Internal temperature is non-negotiable</strong> — chicken must reach <strong>165°F (74°C)</strong>.</li>
+<li><strong>Always dry the surface</strong> — dry skin means maximum browning and crunch.</li>
+<li><strong>Don't overcrowd the basket</strong> — air circulation is essential.</li>
+<li><strong>Let it rest</strong> — 5 minutes after cooking lets the juices redistribute.</li>
+<li><strong>Marinate properly</strong> — 2 hours minimum makes all the difference.</li>
+</ul>
+<p>For complete meals, pair these with <a href="/us/blog/recettes-frites-parfaites-airfryer">perfect air fryer fries</a> or <a href="/us/blog/recettes-legumes-grilles-airfryer">roasted vegetables</a>.</p>
+
+<h2>5 quick marinades that make all the difference</h2>
+<ul>
+<li><strong>Lemon-herb marinade (30 minutes):</strong> juice of 2 lemons + oregano + garlic + olive oil. For chicken breasts.</li>
+<li><strong>Soy-sesame marinade (2 hours):</strong> soy sauce + honey + grated ginger + sesame oil. For wings and tenders.</li>
+<li><strong>Yogurt-spice marinade (4 hours):</strong> Greek yogurt + cumin + paprika + turmeric + garlic. For thighs and drumsticks.</li>
+<li><strong>Smoky BBQ marinade (2 hours):</strong> BBQ sauce + chipotle + honey + lemon juice. For any cut.</li>
+<li><strong>Harissa-lemon marinade (1 hour):</strong> harissa + lemon juice + olive oil + cilantro. For skewers.</li>
+</ul>`,
+    ca: `<h2>Introduction</h2>
+<p>Air fryer chicken is arguably one of the most satisfying things you can make. The circulating hot air gives you <strong>crispy, golden skin</strong> while keeping the meat juicy inside, with very little oil. Whether you're making a quick weeknight dinner or cooking for guests, these six recipes cover every cut of chicken and every occasion.</p>
+<p>Perfect air fryer chicken comes down to three things: a marinade that tenderizes and flavours the meat, <strong>drying the surface</strong> to maximize crispiness, and always reaching a safe internal temperature (<strong>74°C (165°F) at the thickest part</strong>).</p>
+
+<h2>1. Buffalo Chicken Wings</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>1 kg (about 2 lb) chicken wings, roughly 12, separated into drumettes and flats</li>
+<li>2 tablespoons (30 mL) olive oil</li>
+<li>1 teaspoon salt, 1 teaspoon garlic powder, ½ teaspoon black pepper</li>
+<li>1 teaspoon baking powder (for crispiness)</li>
+</ul>
+<p><strong>Buffalo sauce:</strong></p>
+<ul>
+<li>60 mL (¼ cup) hot sauce (Frank's Red Hot style)</li>
+<li>30 g melted butter</li>
+<li>1 tablespoon (15 mL) honey, 1 teaspoon white vinegar</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Pat the wings completely dry with paper towels — <strong>the most important step</strong>.</li>
+<li>Toss the wings with the olive oil, salt, garlic powder, pepper and baking powder.</li>
+<li>Preheat the air fryer to <strong>180°C (350°F) for 3 minutes</strong>.</li>
+<li>Arrange in a single layer.</li>
+<li>Cook at <strong>180°C (350°F) for 12 minutes</strong>.</li>
+<li>Flip and increase to <strong>200°C (400°F) for 8 to 10 minutes</strong> until golden and crispy.</li>
+<li>Warm the Buffalo sauce ingredients in a small saucepan over low heat for 2 minutes.</li>
+<li>Toss the cooked wings in the sauce and serve.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Baking powder raises the skin's pH and speeds up browning. Use <strong>baking powder only</strong>, never baking soda on its own, which leaves a metallic taste.</p>
+
+<h2>2. Breaded Chicken Tenders</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>500 g (about 1 lb) chicken breast, sliced into 2 cm (¾ in.) strips</li>
+<li>80 g panko breadcrumbs, 40 g grated Parmesan</li>
+<li>2 beaten eggs, 50 g all-purpose flour</li>
+<li>1 teaspoon paprika, 1 teaspoon dried oregano, ½ teaspoon garlic powder</li>
+<li>Cooking spray</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Season the strips with salt and pepper.</li>
+<li>Set up three stations: seasoned flour, beaten eggs, and the panko, Parmesan and oregano mix.</li>
+<li>Bread each strip: flour, egg, panko, pressing firmly.</li>
+<li>Refrigerate for <strong>15 minutes</strong> to set the coating.</li>
+<li>Preheat to <strong>200°C (400°F) for 3 minutes</strong>.</li>
+<li>Arrange in a single layer and spray with oil.</li>
+<li>Cook at <strong>200°C (400°F) for 10 to 12 minutes</strong>, flipping halfway and spraying again.</li>
+<li>The internal temperature must reach <strong>74°C (165°F)</strong>.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Panko gives the best crunch. Chilling the tenders before cooking keeps the coating from falling off. Serve with <a href="/ca/blog/recettes-frites-parfaites-airfryer">homemade air fryer fries</a>.</p>
+
+<h2>3. Spiced Chicken Thighs</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>6 bone-in, skin-on chicken thighs (about 800 g / 1¾ lb)</li>
+<li>2 tablespoons olive oil, 1 tablespoon smoked paprika, 1 teaspoon cumin</li>
+<li>1 teaspoon garlic powder, 1 teaspoon onion powder</li>
+<li>½ teaspoon cayenne, 1 teaspoon salt, 1 teaspoon brown sugar</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Mix all the spices. Pat the thighs dry, coat them with the oil, then rub in the spice mix.</li>
+<li>Marinate for <strong>2 to 4 hours</strong> (30 minutes minimum).</li>
+<li>Let sit at room temperature for <strong>20 minutes</strong> before cooking.</li>
+<li>Place skin side up. Cook at <strong>180°C (350°F) for 15 minutes</strong>.</li>
+<li>Increase to <strong>200°C (400°F) and cook for 5 to 10 minutes</strong> more, still skin side up, to crisp the skin.</li>
+<li>The internal temperature must reach <strong>74°C (165°F)</strong>. Let rest for <strong>5 minutes</strong>.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Thighs are forgiving — their natural fat keeps them juicy even if they're slightly overcooked. Brown sugar helps them caramelize without burning.</p>
+
+<h2>4. Marinated Whole Chicken Breasts</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>2 thick chicken breasts (about 200 g each)</li>
+<li>60 mL (¼ cup) plain yogurt, 2 tablespoons lemon juice, 2 garlic cloves (minced)</li>
+<li>1 tablespoon olive oil, 1 teaspoon turmeric, 1 teaspoon cumin, 1 teaspoon ground coriander</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Flatten the breasts to an even <strong>2.5 cm (1 in.) thickness</strong> so they cook evenly.</li>
+<li>Mix the yogurt, lemon juice, garlic, oil and spices. Coat the breasts and marinate for <strong>at least 2 hours</strong> (overnight is ideal).</li>
+<li>Cook at <strong>180°C (350°F) for 18 to 22 minutes</strong>, flipping halfway.</li>
+<li>The internal temperature must reach <strong>74°C (165°F)</strong>. Let rest for <strong>5 minutes</strong> under foil before slicing.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>The yogurt marinade gently tenderizes the meat thanks to its lactic acid. Resting after cooking lets the juices redistribute — cut too early and the chicken will be dry.</p>
+
+<h2>5. Homemade Chicken Nuggets</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>400 g (about 14 oz) chicken breast, cut into 3 cm (1¼ in.) cubes</li>
+<li>100 g crushed corn flakes, 2 beaten eggs, 50 g all-purpose flour</li>
+<li>1 teaspoon paprika, ½ teaspoon garlic powder, ½ teaspoon onion powder</li>
+</ul>
+<h3>Preparation</h3>
+<ol>
+<li>Crush the corn flakes in a bag with a rolling pin — keep the pieces uneven for texture.</li>
+<li>Bread each cube: seasoned flour, egg, corn flakes.</li>
+<li>Cook at <strong>190°C (375°F) for 10 to 12 minutes</strong>, flipping halfway. Spray with oil.</li>
+<li>The internal temperature must reach <strong>74°C (165°F)</strong>.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Corn flakes give a superior crunch and a natural golden colour. You can freeze the breaded nuggets uncooked and cook them from frozen, adding <strong>3 to 4 minutes</strong>. For a <a href="/ca/blog/cuisiner-healthy-airfryer">healthy meal</a>, serve with raw veggies and a yogurt dip.</p>
+
+<h2>6. Chicken Satay Skewers</h2>
+<h3>Ingredients</h3>
+<ul>
+<li>500 g (about 1 lb) chicken breast, cut into 2 cm (¾ in.) strips</li>
+<li>Wooden skewers (soaked in water for 30 minutes)</li>
+</ul>
+<p><strong>Marinade:</strong> 3 tablespoons coconut milk, 2 tablespoons soy sauce, 1 tablespoon peanut butter, 1 tablespoon lime juice, 1 teaspoon curry powder, 1 teaspoon turmeric, 1 garlic clove (grated), 1 cm (½ in.) piece of fresh ginger (grated), 1 teaspoon palm sugar</p>
+<p><strong>Peanut sauce:</strong> 80 g peanut butter, 60 mL (¼ cup) coconut milk, 1 tablespoon soy sauce, 1 tablespoon lime juice, 1 teaspoon sriracha, 1 teaspoon honey</p>
+<h3>Preparation</h3>
+<ol>
+<li>Mix the marinade ingredients. Add the chicken and marinate for <strong>at least 2 hours</strong>.</li>
+<li>Thread onto the soaked skewers.</li>
+<li>Make the peanut sauce: warm all the ingredients in a small pan for <strong>3 minutes</strong>.</li>
+<li>Cook the skewers at <strong>190°C (375°F) for 10 to 12 minutes</strong>, flipping halfway.</li>
+<li>Serve with the warm peanut sauce and lime wedges.</li>
+</ol>
+<h3>Chef's Tips</h3>
+<p>Always soak wooden skewers so they don't burn. The peanut butter in the marinade forms a protective layer that keeps the chicken incredibly tender.</p>
+
+<h2>Temperature and Time Summary</h2>
+<table>
+<thead>
+<tr><th>Recipe</th><th>Temperature</th><th>Total Time</th><th>Quantity</th><th>Internal Temp</th></tr>
+</thead>
+<tbody>
+<tr><td>Buffalo wings</td><td>180°C (350°F), then 200°C (400°F)</td><td>20–22 min</td><td>1 kg</td><td>74°C (165°F)</td></tr>
+<tr><td>Breaded tenders</td><td>200°C (400°F)</td><td>10–12 min</td><td>500 g</td><td>74°C (165°F)</td></tr>
+<tr><td>Spiced thighs</td><td>180°C (350°F), then 200°C (400°F)</td><td>20–25 min</td><td>800 g</td><td>74°C (165°F)</td></tr>
+<tr><td>Marinated breast</td><td>180°C (350°F)</td><td>18–22 min</td><td>400 g</td><td>74°C (165°F)</td></tr>
+<tr><td>Homemade nuggets</td><td>190°C (375°F)</td><td>10–12 min</td><td>400 g</td><td>74°C (165°F)</td></tr>
+<tr><td>Satay skewers</td><td>190°C (375°F)</td><td>10–12 min</td><td>500 g</td><td>74°C (165°F)</td></tr>
+</tbody>
+</table>
+
+<h2>General Tips for Air Fryer Chicken</h2>
+<ul>
+<li><strong>Internal temperature is non-negotiable</strong> — chicken must reach <strong>74°C (165°F)</strong>.</li>
+<li><strong>Always dry the surface</strong> — dry skin means maximum browning and crunch.</li>
+<li><strong>Don't overcrowd the basket</strong> — air circulation is essential.</li>
+<li><strong>Let it rest after cooking</strong> — 5 minutes lets the juices redistribute.</li>
+<li><strong>Marinate properly</strong> — at least 2 hours makes all the difference.</li>
+</ul>
+<p>For complete meals, pair with <a href="/ca/blog/recettes-frites-parfaites-airfryer">perfect air fryer fries</a> or <a href="/ca/blog/recettes-legumes-grilles-airfryer">roasted vegetables</a>.</p>
+
+<h2>5 quick marinades that make all the difference</h2>
+<ul>
+<li><strong>Lemon-herb marinade (30 min):</strong> juice of 2 lemons + oregano + garlic + olive oil. For chicken breasts.</li>
+<li><strong>Soy-sesame marinade (2 hours):</strong> soy sauce + honey + grated ginger + sesame oil. For wings and tenders.</li>
+<li><strong>Yogurt-spice marinade (4 hours):</strong> Greek yogurt + cumin + paprika + turmeric + garlic. For thighs and drumsticks.</li>
+<li><strong>Smoky BBQ marinade (2 hours):</strong> BBQ sauce + chipotle + honey + lemon juice. For all cuts.</li>
+<li><strong>Harissa-lemon marinade (1 hour):</strong> harissa + lemon juice + olive oil + cilantro. For skewers.</li>
 </ul>`,
   },
   faq: [
@@ -1152,7 +1644,10 @@ export const article: BlogArticle = {
         es: '¿A qué temperatura interna está el pollo cocinado de forma segura?',
         it: 'A quale temperatura interna il pollo è cotto in modo sicuro?',
         nl: 'Bij welke kerntemperatuur is kip veilig gaar?',
-        pl: 'Jaka temperatura wewnętrzna oznacza bezpiecznie usmażonego kurczaka?',
+        pl: 'Przy jakiej temperaturze w środku kurczak jest bezpieczny do jedzenia?',
+        sv: 'Vilken innertemperatur ska kycklingen ha för att vara säker att äta?',
+        us: 'What internal temperature means chicken is safely cooked?',
+        ca: 'What internal temperature indicates chicken is safely cooked?',
       },
       answer: {
         fr: 'Le poulet doit atteindre une température interne de 74°C à coeur pour être consommé en toute sécurité. Utilisez un thermomètre de cuisine inséré dans la partie la plus épaisse, sans toucher l\'os. Après cuisson, laissez reposer 5 minutes car la température continue de monter de 2 à 3°C.',
@@ -1161,7 +1656,10 @@ export const article: BlogArticle = {
         es: 'El pollo debe alcanzar una temperatura interna de 74°C en la parte más gruesa. Usa un termómetro de cocina insertado en la zona más gruesa sin tocar el hueso. Después de la cocción, deja reposar 5 minutos ya que la temperatura sigue subiendo 2-3°C.',
         it: 'Il pollo deve raggiungere una temperatura interna di 74°C nel punto più spesso per essere consumato in sicurezza. Usa un termometro da cucina inserito nella parte più spessa senza toccare l\'osso. Dopo la cottura, lascia riposare 5 minuti perché la temperatura sale ancora di 2-3°C.',
         nl: 'Kip moet een kerntemperatuur van 74°C bereiken op het dikste punt om veilig te eten. Gebruik een keukenthermometer in het dikste gedeelte zonder het bot te raken. Laat na het bakken 5 minuten rusten, want de temperatuur stijgt nog 2-3°C door.',
-        pl: 'Kurczak musi osiągnąć temperaturę wewnętrzną 74°C w środku, aby można go było bezpiecznie spożywać. Użyj termometru do mięsa wbitego w najgrubszą część, nie dotykając kości. Po smażeniu odstaw na 5 minut, ponieważ temperatura nadal rośnie o 2-3°C.',
+        pl: 'Kurczak musi osiągnąć w środku 74 °C, żeby można go było bezpiecznie zjeść. Wbij termometr kuchenny w najgrubszą część mięsa, tak żeby nie dotykał kości. Po upieczeniu odstaw kurczaka na 5 minut – temperatura wzrośnie jeszcze o 2–3 °C.',
+        sv: 'Kycklingen ska nå en innertemperatur på 74 °C i kärnan för att vara säker att äta. Använd en stektermometer och stick in den där köttet är som tjockast, utan att nudda benet. Låt sedan kycklingen vila i 5 minuter, eftersom temperaturen fortsätter att stiga med 2–3 grader.',
+        us: 'Chicken must reach an internal temperature of 165°F (74°C) at the thickest part to be safe to eat. Insert a meat thermometer into the thickest part without touching the bone. After cooking, let it rest for 5 minutes; the temperature keeps climbing by another 4 to 5°F (2 to 3°C).',
+        ca: 'Chicken must reach an internal temperature of 74°C (165°F) at the thickest part to be safe to eat. Insert a meat thermometer into the thickest section without touching the bone. After cooking, let it rest for 5 minutes: the temperature keeps rising by another 2 to 3°C (about 4 to 5°F).',
       },
     },
     {
@@ -1173,6 +1671,9 @@ export const article: BlogArticle = {
         it: 'Quanto tempo bisogna marinare il pollo per la friggitrice ad aria?',
         nl: 'Hoe lang moet je kip marineren voor de airfryer?',
         pl: 'Jak długo marynować kurczaka do frytkownicy beztłuszczowej?',
+        sv: 'Hur länge ska kycklingen marinera innan den tillagas i airfryer?',
+        us: 'How long should you marinate chicken for the air fryer?',
+        ca: 'How long should you marinate chicken for the air fryer?',
       },
       answer: {
         fr: 'Un minimum de 30 minutes apporte déjà du goût, mais 2 à 4 heures au réfrigérateur donnent les meilleurs résultats. Pour les marinades acides (citron, vinaigre), ne dépassez pas 4 heures car l\'acide peut décomposer la texture de la viande. Sortez le poulet 15 minutes avant cuisson pour une température homogène.',
@@ -1181,7 +1682,10 @@ export const article: BlogArticle = {
         es: 'Un mínimo de 30 minutos ya aporta sabor, pero 2-4 horas en el refrigerador dan los mejores resultados. Para marinados ácidos (limón, vinagre), no superes las 4 horas porque el ácido puede descomponer la textura de la carne. Saca el pollo 15 minutos antes de cocinar.',
         it: 'Un minimo di 30 minuti aggiunge già sapore, ma 2-4 ore in frigorifero danno i migliori risultati. Per marinature acide (limone, aceto), non superare le 4 ore perché l\'acido può rovinare la texture della carne. Togli il pollo 15 minuti prima della cottura per una temperatura uniforme.',
         nl: 'Minimaal 30 minuten voegt al smaak toe, maar 2-4 uur in de koelkast geeft de beste resultaten. Bij zure marinades (citroen, azijn) niet langer dan 4 uur, want zuur kan de vleestextuur afbreken. Haal de kip 15 minuten voor het bakken uit de koelkast voor een gelijkmatige temperatuur.',
-        pl: 'Minimum 30 minut już nadaje smak, ale 2-4 godziny w lodówce dają najlepsze rezultaty. W przypadku marynat kwaśnych (cytryna, ocet) nie przekraczaj 4 godzin, ponieważ kwas może zniszczyć strukturę mięsa. Wyjmij kurczaka 15 minut przed smażeniem dla równomiernej temperatury.',
+        pl: 'Już 30 minut wystarczy, żeby mięso nabrało smaku, ale najlepsze efekty dają 2–4 godziny w lodówce. W kwaśnej marynacie (z cytryną lub octem) nie trzymaj mięsa dłużej niż 4 godziny, bo kwas może zniszczyć jego strukturę. Wyjmij kurczaka z lodówki 15 minut przed pieczeniem, żeby miał równomierną temperaturę.',
+        sv: 'Redan 30 minuter ger smak, men 2–4 timmar i kylen ger bäst resultat. Marinader med syra (citron, vinäger) bör inte få verka längre än 4 timmar, eftersom syran kan bryta ner köttets struktur. Ta ut kycklingen ur kylen 15 minuter före tillagningen, så blir temperaturen jämn.',
+        us: 'Even 30 minutes adds flavor, but 2 to 4 hours in the fridge gives the best results. With acidic marinades (lemon or vinegar), don\'t go past 4 hours, because the acid can break down the texture of the meat. Take the chicken out of the fridge 15 minutes before cooking so it cooks evenly all the way through.',
+        ca: 'At least 30 minutes adds flavour, but 2 to 4 hours in the fridge gives the best results. With acidic marinades containing lemon or vinegar, don\'t go past 4 hours, as the acid can break down the texture of the meat. Take the chicken out of the fridge 15 minutes before cooking so it cooks evenly.',
       },
     },
     {
@@ -1192,7 +1696,10 @@ export const article: BlogArticle = {
         es: '¿Se puede cocinar un pollo entero en una freidora de aire?',
         it: 'Si può cuocere un pollo intero nella friggitrice ad aria?',
         nl: 'Kun je een hele kip bereiden in de airfryer?',
-        pl: 'Czy można usmażyć całego kurczaka we frytkownicy beztłuszczowej?',
+        pl: 'Czy we frytkownicy beztłuszczowej można upiec całego kurczaka?',
+        sv: 'Går det att laga en hel kyckling i airfryer?',
+        us: 'Can you cook a whole chicken in an air fryer?',
+        ca: 'Can you cook a whole chicken in an air fryer?',
       },
       answer: {
         fr: 'Oui, dans un airfryer de 6 litres ou plus. Un poulet de 1,2 à 1,5 kg cuit en 50 à 60 minutes à 180°C. Commencez poitrine vers le bas pendant 30 minutes, retournez et terminez à 200°C pendant 20 minutes pour dorer la peau. Vérifiez toujours la température interne de 74°C avant de servir.',
@@ -1201,7 +1708,10 @@ export const article: BlogArticle = {
         es: 'Sí, en una freidora de 6 litros o más. Un pollo de 1,2-1,5 kg se cocina en 50-60 minutos a 180°C. Empieza con la pechuga hacia abajo durante 30 minutos, voltea y termina a 200°C 20 minutos para dorar la piel. Verifica siempre la temperatura interna de 74°C antes de servir.',
         it: 'Sì, in una friggitrice ad aria da 6 litri o più. Un pollo di 1,2-1,5 kg cuoce in 50-60 minuti a 180°C. Inizia con il petto verso il basso per 30 minuti, gira e finisci a 200°C per 20 minuti per dorare la pelle. Verifica sempre la temperatura interna di 74°C prima di servire.',
         nl: 'Ja, in een airfryer van 6 liter of groter. Een kip van 1,2-1,5 kg is gaar in 50-60 minuten op 180°C. Begin met de borst naar beneden voor 30 minuten, draai om en eindig op 200°C voor 20 minuten voor een bruin velletje. Controleer altijd de kerntemperatuur van 74°C.',
-        pl: 'Tak, we frytkownicy beztłuszczowej o pojemności 6 litrów lub większej. Kurczak o wadze 1,2-1,5 kg smaży się 50-60 minut w 180°C. Zacznij, układając kurczaka piersią w dół, na 30 minut, obróć i dokończ w 200°C przez 20 minut, aby zrumienić skórę. Przed podaniem zawsze sprawdź temperaturę wewnętrzną 74°C.',
+        pl: 'Tak, jeśli frytkownica ma pojemność co najmniej 6 litrów. Kurczak ważący 1,2–1,5 kg piecze się 50–60 minut w 180 °C. Zacznij od ułożenia go piersią w dół i piecz tak przez 30 minut, potem odwróć i dokończ pieczenie w 200 °C przez 20 minut, żeby zrumienić skórkę. Przed podaniem zawsze sprawdź, czy temperatura w środku osiągnęła 74 °C.',
+        sv: 'Ja, i en airfryer på minst 6 liter. En kyckling på 1,2–1,5 kg tar 50–60 minuter i 180 °C. Börja med bröstsidan nedåt i 30 minuter, vänd den och avsluta med 20 minuter i 200 °C så att skinnet får färg. Kontrollera alltid att innertemperaturen har nått 74 °C före servering.',
+        us: 'Yes, in an air fryer with a capacity of 6.3 quarts (6 liters) or more. A 2.6 to 3.3 lb (1.2 to 1.5 kg) chicken cooks in 50 to 60 minutes at 350°F (180°C). Start it breast side down for 30 minutes, then flip it and finish at 400°F (200°C) for 20 minutes to brown the skin. Always check that it has reached 165°F (74°C) inside before serving.',
+        ca: 'Yes, in an air fryer of 6 L (6.3 qt) or larger. A 1.2 to 1.5 kg (about 2¾ to 3¼ lb) chicken cooks in 50 to 60 minutes at 180°C (350°F). Start breast side down for 30 minutes, then flip and finish at 200°C (400°F) for 20 minutes to brown the skin. Always check that it has reached 74°C (165°F) inside before serving.',
       },
     },
     {
@@ -1213,6 +1723,9 @@ export const article: BlogArticle = {
         it: 'Come ottenere la pelle di pollo croccante nella friggitrice ad aria?',
         nl: 'Hoe krijg je een krokant kippenvelletje in de airfryer?',
         pl: 'Jak uzyskać chrupiącą skórkę kurczaka we frytkownicy beztłuszczowej?',
+        sv: 'Hur får jag krispigt kycklingskinn i airfryern?',
+        us: 'How do you get crispy chicken skin in an air fryer?',
+        ca: 'How do you get crispy chicken skin in the air fryer?',
       },
       answer: {
         fr: 'Le secret est de sécher parfaitement la peau avec du papier absorbant avant cuisson. Frottez légèrement d\'huile et de sel. Vous pouvez ajouter un peu de levure chimique (1 cuillère à café) mélangée au sel pour un résultat encore plus croustillant. Terminez à 200°C pendant les 5 dernières minutes.',
@@ -1221,7 +1734,10 @@ export const article: BlogArticle = {
         es: 'El secreto es secar perfectamente la piel con papel absorbente antes de cocinar. Frota ligeramente con aceite y sal. Puedes añadir un poco de levadura química (1 cucharadita) mezclada con sal para un resultado aún más crujiente. Termina a 200°C los últimos 5 minutos.',
         it: 'Il segreto è asciugare perfettamente la pelle con carta assorbente prima della cottura. Strofina leggermente con olio e sale. Puoi aggiungere un po\' di lievito chimico (1 cucchiaino) mescolato al sale per un risultato ancora più croccante. Finisci a 200°C per gli ultimi 5 minuti.',
         nl: 'Het geheim is het vel perfect droog te deppen met keukenpapier voor het bakken. Wrijf licht in met olie en zout. Je kunt een beetje bakpoeder (1 theelepel) gemengd met zout toevoegen voor een nog krokanter resultaat. Eindig op 200°C voor de laatste 5 minuten voor maximale bruining.',
-        pl: 'Sekretem jest idealne osuszenie skóry ręcznikiem papierowym przed smażeniem. Natrzyj lekko olejem i solą. Możesz dodać odrobinę proszku do pieczenia (1 łyżeczka) wymieszanego z solą, by uzyskać jeszcze bardziej chrupiący efekt. Zakończ w 200°C przez ostatnie 5 minut.',
+        pl: 'Sekret tkwi w dokładnym osuszeniu skórki ręcznikiem papierowym przed pieczeniem. Natrzyj ją lekko olejem i solą. Jeśli chcesz, żeby była jeszcze bardziej chrupiąca, wymieszaj sól z odrobiną proszku do pieczenia (1 łyżeczką). Ostatnie 5 minut piecz w 200 °C.',
+        sv: 'Hemligheten är att torka skinnet ordentligt med hushållspapper före tillagningen. Gnid in det lätt med olja och salt. För ett ännu krispigare resultat kan du blanda lite bakpulver (1 tsk) med saltet. Avsluta i 200 °C under de sista 5 minuterna.',
+        us: 'The secret is to pat the skin completely dry with paper towels before cooking. Rub it lightly with oil and salt. For even crispier skin, mix a little baking powder (1 teaspoon) into the salt. Finish at 400°F (200°C) for the last 5 minutes to maximize browning and crunch.',
+        ca: 'The secret is to dry the skin thoroughly with paper towels before cooking. Rub it lightly with oil and salt. For an even crispier result, add a little baking powder (1 teaspoon) mixed with the salt. Finish at 200°C (400°F) for the last 5 minutes to maximize browning and crunch.',
       },
     },
     {
@@ -1232,7 +1748,10 @@ export const article: BlogArticle = {
         es: '¿Es peligroso el pollo poco hecho de la freidora de aire?',
         it: 'Il pollo poco cotto dalla friggitrice ad aria è pericoloso?',
         nl: 'Is onvoldoende gaar kip uit de airfryer gevaarlijk?',
-        pl: 'Czy surowy kurczak jest niebezpieczny, jeśli zostanie źle usmażony we frytkownicy beztłuszczowej?',
+        pl: 'Czy niedopieczony kurczak z frytkownicy beztłuszczowej jest niebezpieczny?',
+        sv: 'Är det farligt om kycklingen inte blir genomstekt i airfryern?',
+        us: 'Is undercooked air fryer chicken dangerous?',
+        ca: 'Is undercooked chicken from an air fryer dangerous?',
       },
       answer: {
         fr: 'Oui, le poulet insuffisamment cuit peut contenir des bactéries dangereuses comme la salmonelle. C\'est pourquoi un thermomètre de cuisine est essentiel. Le poulet doit atteindre 74°C à coeur. Ne vous fiez pas uniquement à la couleur extérieure : un poulet peut être doré dehors et encore rose dedans.',
@@ -1241,7 +1760,10 @@ export const article: BlogArticle = {
         es: 'Sí, el pollo poco hecho puede contener bacterias peligrosas como la salmonela. Por eso un termómetro de cocina es esencial. El pollo debe alcanzar 74°C internamente. No confíes solo en el color exterior: un pollo puede estar dorado por fuera y todavía rosa por dentro.',
         it: 'Sì, il pollo poco cotto può contenere batteri pericolosi come la salmonella. Per questo un termometro da cucina è essenziale. Il pollo deve raggiungere 74°C internamente. Non fidarti solo del colore esterno: un pollo può essere dorato fuori e ancora rosa dentro.',
         nl: 'Ja, onvoldoende gaar kip kan gevaarlijke bacteriën bevatten zoals salmonella. Daarom is een keukenthermometer essentieel. Kip moet intern 74°C bereiken. Vertrouw niet alleen op de kleur aan de buitenkant: kip kan goudbruin zijn van buiten en nog roze van binnen.',
-        pl: 'Tak, niedosmażony kurczak może zawierać niebezpieczne bakterie, takie jak salmonella. Dlatego termometr do mięsa jest niezbędny. Kurczak musi osiągnąć 74°C w środku. Nie polegaj wyłącznie na kolorze zewnętrznym: kurczak może być złocisty na zewnątrz i wciąż różowy w środku.',
+        pl: 'Tak, niedopieczony kurczak może zawierać groźne bakterie, np. salmonellę. Dlatego termometr kuchenny jest niezbędny. Kurczak musi osiągnąć w środku 74 °C. Nie oceniaj go wyłącznie po kolorze: z zewnątrz może być złocisty, a w środku wciąż różowy.',
+        sv: 'Ja, kyckling som inte är ordentligt genomstekt kan innehålla farliga bakterier som salmonella. Därför är en stektermometer så viktig. Kycklingen ska nå 74 °C i kärnan. Lita inte bara på färgen utanpå: en kyckling kan vara gyllenbrun på ytan och fortfarande rosa inuti.',
+        us: 'Yes, undercooked chicken can carry harmful bacteria such as salmonella. That\'s why a meat thermometer is essential. Chicken must reach 165°F (74°C) inside. Don\'t go by the color on the outside alone: chicken can look golden brown outside and still be pink and raw in the middle.',
+        ca: 'Yes, undercooked chicken can carry dangerous bacteria such as salmonella. That\'s why a meat thermometer is essential. Chicken must reach 74°C (165°F) inside. Don\'t rely on the colour of the outside alone: chicken can look golden brown on the outside while still being pink and raw inside.',
       },
     },
   ],

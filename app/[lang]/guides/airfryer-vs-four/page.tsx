@@ -12,6 +12,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
 import { resolveLang } from '@/lib/i18n'
+import { CHAPTER_LABEL } from '@/lib/editorial-labels'
 
 const pageContent: Record<string, {
   title: string
@@ -328,78 +329,300 @@ const pageContent: Record<string, {
     choose_oven: 'Je regelmatig kookt voor 6+ personen, je bakt (taarten, brood, pizza), je hele braadstukken bereidt of je meerdere gerechten tegelijk moet bereiden.',
   },
   pl: {
-    title: 'Frytkownica beztłuszczowa vs piekarnik tradycyjny: porównanie 2026',
+    title: 'Frytkownica beztłuszczowa czy piekarnik? Porównanie 2026',
     subtitle: 'Frytkownica bez oleju czy klasyczny piekarnik? Porównaliśmy oba urządzenia, żeby ułatwić Ci wybór.',
-    intro: 'Frytkownica beztłuszczowa (air fryer, czyli frytkownica na gorące powietrze) i tradycyjny piekarnik to dwa podstawowe urządzenia do gotowania. Które z nich lepiej odpowiada Twoim potrzebom? Porównaliśmy obie technologie według 7 kluczowych kryteriów, żeby ułatwić Ci trafny wybór.',
-    intro_long: 'W 2026 roku, wobec stale rosnących cen energii elektrycznej i coraz większej świadomości ekologicznej, wybór między frytkownicą beztłuszczową a tradycyjnym piekarnikiem staje się ważną decyzją dla milionów gospodarstw domowych. Frytkownica, dawniej egzotyczny gadżet, jest dziś prawdziwą rewolucją kulinarną, która zmienia sposób przygotowywania posiłków. Przy zużyciu energii nawet o 50% niższym niż w klasycznym piekarniku i czasie gotowania krótszym o połowę, to urządzenie rozpala dyskusje w kuchniach. Czy naprawdę może zastąpić piekarnik? Czy to rozsądna inwestycja, czy tylko przemijająca moda? Ten kompletny poradnik omawia każdy aspekt porównania, opierając się na konkretnych danych i realistycznych scenariuszach, by pomóc Ci podjąć jak najlepszą decyzję.',
+    intro: 'Frytkownica beztłuszczowa (air fryer, czyli frytkownica na gorące powietrze) i tradycyjny piekarnik to dwa podstawowe urządzenia do przyrządzania potraw. Które z nich lepiej odpowiada Twoim potrzebom? Porównaliśmy je pod kątem siedmiu kluczowych kryteriów, żeby pomóc Ci dokonać trafnego wyboru.',
+    intro_long: 'W 2026 roku ceny prądu wciąż rosną, a świadomość ekologiczna jest coraz większa, dlatego wybór między frytkownicą beztłuszczową a tradycyjnym piekarnikiem staje się dla milionów gospodarstw domowych poważną decyzją. Frytkownica, jeszcze niedawno egzotyczny gadżet, dziś realnie zmienia sposób przygotowywania posiłków. Zużywa nawet o 50% mniej energii niż klasyczny piekarnik, a czas przyrządzania potraw skraca o połowę, nic więc dziwnego, że budzi tyle dyskusji. Czy naprawdę może zastąpić piekarnik? To rozsądna inwestycja czy przemijająca moda? W tym przewodniku omawiamy każdy aspekt porównania na podstawie konkretnych danych i realistycznych scenariuszy, aby pomóc Ci podjąć jak najlepszą decyzję.',
     how_airfryer_works_title: 'Jak działa frytkownica beztłuszczowa?',
-    how_airfryer_works: 'Frytkownica beztłuszczowa opiera się na technologii zwanej Rapid Air, czyli konwekcji o dużej prędkości. W przeciwieństwie do zwykłej frytkownicy na olej, w której potrawy smaży się w tłuszczu, to urządzenie podgrzewa powietrze do bardzo wysokiej temperatury (do 220°C) i z dużą prędkością wprawia je w ruch wokół produktów za pomocą mocnego wentylatora umieszczonego pod pokrywą. Skoncentrowany strumień gorącego powietrza w ciągu kilku minut tworzy chrupiącą warstwę zewnętrzną dzięki przyspieszonej reakcji Maillarda. Grzałka nad koszem wytwarza początkowe ciepło, a wentylator zapewnia równomierną cyrkulację powietrza. Dzięki temu rozwiązaniu frytkownica pobiera jedynie 800–1800 watów energii elektrycznej i osiąga temperaturę gotowania już po 2–3 minutach. Produkty umieszcza się w perforowanym koszu, który pozwala powietrzu swobodnie opływać wszystkie powierzchnie, co daje tak lubiany efekt „smażenia” bez dodawania ani kropli oleju. Resztki jedzenia spadają na dno pojemnika, z dala od kosza, co ułatwia ich usunięcie i szybkie czyszczenie.',
+    how_airfryer_works: 'Frytkownica beztłuszczowa działa w technologii Rapid Air, czyli szybkiego obiegu gorącego powietrza (konwekcji o dużej prędkości). Zwykła frytkownica smaży potrawy w oleju, a frytkownica beztłuszczowa nagrzewa powietrze do bardzo wysokiej temperatury (do 220 °C) i za pomocą mocnego wentylatora umieszczonego pod pokrywą z dużą prędkością tłoczy je wokół potraw. Skupiony strumień gorącego powietrza w ciągu kilku minut tworzy chrupiącą skórkę – to efekt przyspieszonej reakcji Maillarda. Grzałka nad koszem wytwarza ciepło, a wentylator równomiernie rozprowadza powietrze. Dzięki temu frytkownica ma moc zaledwie 800–1800 W i nagrzewa się do temperatury pieczenia w ciągu 2–3 minut. Produkty wkłada się do perforowanego kosza, w którym powietrze swobodnie opływa je ze wszystkich stron. Tak powstaje lubiany efekt „smażenia” bez ani kropli oleju. Resztki jedzenia spadają na dno pojemnika, z dala od kosza, więc łatwo je usunąć, a czyszczenie trwa krótko.',
     how_oven_works_title: 'Jak działa tradycyjny piekarnik?',
-    how_oven_works: 'Klasyczny piekarnik, elektryczny lub gazowy, ogrzewa powietrze wewnątrz komory przez promieniowanie i przewodzenie ciepła. Grzałka elektryczna (lub palnik gazowy) na dole i/lub na górze piekarnika wytwarza ciepło, które stopniowo rozchodzi się po całej komorze. Proces jest stosunkowo powolny: nagrzanie piekarnika do 200°C trwa zwykle 10–15 minut. Po nagrzaniu promieniujące i przewodzone ciepło otacza potrawy bardziej rozproszenie i równomiernie niż we frytkownicy, co zapewnia jednolite pieczenie, ale bez szybko uzyskiwanej chrupiącej skórki. Nowoczesne piekarniki często oferują funkcję „termoobiegu” (konwekcji), która dodaje wentylator, nieznacznie przyspieszający cyrkulację powietrza, poprawiający równomierność pieczenia i skracający czas o 10–20%. Jednak nawet w trybie termoobiegu całkowita moc pozostaje duża: od 2000 do 3000 watów, zależnie od modelu. Obszerna komora (50–80 litrów) wymaga dużo energii, by utrzymać stabilną temperaturę. Piekarniki pozwalają piec kilka potraw jednocześnie dzięki dużej przestrzeni, co jest niezaprzeczalną zaletą dla dużych rodzin i bardziej wymyślnych przygotowań.',
+    how_oven_works: 'Klasyczny piekarnik, elektryczny lub gazowy, nagrzewa powietrze w komorze przez promieniowanie i przewodzenie ciepła. Grzałka elektryczna (lub palnik gazowy) na dole i/lub u góry piekarnika wytwarza ciepło, które stopniowo rozchodzi się po całej komorze. To dość powolny proces: nagrzanie piekarnika do 200 °C trwa zwykle 10–15 minut. Po nagrzaniu ciepło otacza potrawy w sposób bardziej rozproszony i równomierny niż we frytkownicy. Potrawy pieką się równo, ale nie powstaje tak szybko chrupiąca skórka. Nowoczesne piekarniki często mają funkcję termoobiegu: wentylator nieco przyspiesza cyrkulację powietrza, dzięki czemu potrawy pieką się równiej, a czas pieczenia skraca się o 10–20%. Jednak nawet z termoobiegiem moc piekarnika pozostaje duża: od 2000 do 3000 W, zależnie od modelu. Utrzymanie stałej temperatury w obszernej komorze (50–80 l) wymaga sporo energii. Dzięki dużej przestrzeni piekarnik pozwala piec kilka potraw jednocześnie, co jest niezaprzeczalną zaletą w dużych rodzinach i przy bardziej pracochłonnych daniach.',
     comparison_title: 'Szczegółowe porównanie według 7 kryteriów',
     rows: [
       {
         criteria: 'Czas nagrzewania',
-        airfryer: '2-3 minuty',
-        oven: '10-15 minut',
+        airfryer: '2–3 minuty',
+        oven: '10–15 minut',
       },
       {
-        criteria: 'Zużycie energii',
-        airfryer: '800-1800W (oszczędność 30-50%)',
-        oven: '2000-3000W',
+        criteria: 'Moc i zużycie energii',
+        airfryer: '800–1800 W (oszczędność 30–50%)',
+        oven: '2000–3000 W',
       },
       {
-        criteria: 'Jakość chrupiącego efektu',
-        airfryer: 'Doskonała (skoncentrowane powietrze)',
+        criteria: 'Chrupkość potraw',
+        airfryer: 'Doskonała (skupiony strumień powietrza)',
         oven: 'Dobra (termoobieg)',
       },
       {
         criteria: 'Maksymalna pojemność',
-        airfryer: '3-10L (1-8 osób)',
-        oven: '50-80L (bez ograniczeń)',
+        airfryer: '3–10 l (1–8 osób)',
+        oven: '50–80 l (bez ograniczeń)',
       },
       {
-        criteria: 'Łatwość czyszczenia',
+        criteria: 'Czyszczenie',
         airfryer: 'Bardzo łatwe (wyjmowany kosz)',
-        oven: 'Trudne (poza pirolizą)',
+        oven: 'Trudne (chyba że z pirolizą)',
       },
       {
         criteria: 'Wszechstronność',
         airfryer: 'Frytki, mięso, warzywa, ciasta',
-        oven: 'Każdy rodzaj potraw',
+        oven: 'Wszystkie rodzaje potraw',
       },
       {
-        criteria: 'Średnia cena',
-        airfryer: '250 zł - 1500 zł',
-        oven: '850 zł - 8600 zł',
+        criteria: 'Przedział cenowy',
+        airfryer: '250–1500 zł',
+        oven: '860–8600 zł',
       },
     ],
-    cooking_time_title: 'Czas gotowania: frytkownica wygrywa szybkością',
-    cooking_time: 'Najbardziej spektakularna różnica między tymi urządzeniami dotyczy czasu gotowania. Porcję mrożonych frytek frytkownica przygotowuje w 15 minut (wraz z nagrzewaniem), podczas gdy zwykły piekarnik potrzebuje na to 35–40 minut. Cały kurczak? 25–30 minut we frytkownicy wobec 55–60 minut w piekarniku. Liczby te zależą od wielkości i grubości produktów, ale tendencja jest stała: frytkownica skraca czas gotowania średnio o 50–60%. To przyspieszenie ma kluczowe znaczenie dla zapracowanych rodzin, które chcą przygotować kompletny posiłek w mniej niż 30 minut. Szybkie nagrzewanie frytkownicy (2–3 minuty) oznacza, że możesz zacząć gotować niemal natychmiast po włączeniu urządzenia, w przeciwieństwie do piekarnika, który wymaga 10–15 minut oczekiwania. W przypadku makaronów, ryżu czy potraw duszonych różnica jest mniej wyraźna, ponieważ piekarniki lepiej radzą sobie z wolnym i długim gotowaniem.',
+    cooking_time_title: 'Czas przyrządzania: frytkownica wygrywa szybkością',
+    cooking_time: 'Najbardziej widoczna różnica między tymi urządzeniami dotyczy czasu przyrządzania potraw. Porcję mrożonych frytek frytkownica przygotuje w 15 minut (razem z nagrzewaniem), a zwykły piekarnik potrzebuje na to 35–40 minut. Cały kurczak? We frytkownicy 25–30 minut, w piekarniku 55–60 minut. Czasy zależą od wielkości i grubości produktów, ale tendencja jest stała: frytkownica skraca czas przyrządzania średnio o 50–60%. Ma to ogromne znaczenie dla zapracowanych rodzin, które chcą przygotować pełny posiłek w niecałe 30 minut. Frytkownica nagrzewa się w 2–3 minuty, więc możesz zacząć niemal od razu po jej włączeniu, a na piekarnik trzeba czekać 10–15 minut. Przy makaronach, ryżu czy potrawach duszonych różnica jest mniejsza, bo piekarnik lepiej radzi sobie z długim, powolnym gotowaniem.',
     energy_consumption_title: 'Zużycie energii: wyraźne oszczędności',
-    energy_consumption: 'Zużycie energii to czynnik decydujący dla gospodarstw domowych mierzących się z coraz wyższymi rachunkami za prąd. Frytkownica zużywa zazwyczaj od 800 do 1800 watów, podczas gdy klasyczny piekarnik elektryczny pracuje z mocą 2000–3000 watów. Przy codziennym użytkowaniu przez 30 minut (jedna porcja z frytkownicy odpowiada mniej więcej jednemu użyciu piekarnika) frytkownica zużywa 0,4–0,9 kWh dziennie, czyli 146–329 kWh rocznie. Piekarnik używany codziennie przez 50 minut zużywa 1,67–2,5 kWh dziennie, czyli 610–912 kWh rocznie. Przy średniej stawce francuskiej ok. 1,10 zł za kWh w 2026 roku daje to roczną oszczędność rzędu 500–820 zł, jeśli całkowicie zastąpisz piekarnik frytkownicą. Liczby te wypadają jeszcze korzystniej, jeśli masz już piekarnik i korzystasz z niego „uzupełniająco”: zaoszczędzisz przede wszystkim na codziennych, szybkich posiłkach. Większość nowszych frytkownic ma inteligentną regulację temperatury, która zmniejsza zużycie energii podczas podtrzymywania ciepła.',
-    cooking_quality_title: 'Jakość gotowania: dwa różne podejścia',
-    cooking_quality: 'Jakość gotowania różni się zasadniczo między tymi dwiema technologiami. Frytkownica doskonale tworzy chrupiące, złociste tekstury dzięki skoncentrowanemu strumieniowi powietrza o wysokiej temperaturze, który przyspiesza karmelizację. Frytki, nuggetsy, skrzydełka z kurczaka, krewetki w cieście: wszystkie te produkty stają się niezwykle chrupiące na zewnątrz, pozostając delikatne w środku. Efekt często porównuje się do smażenia w oleju, bez dodatkowych kalorii. Tradycyjny piekarnik, zwłaszcza w trybie termoobiegu, daje bardziej równomierne, ale mniej intensywne pieczenie. Powierzchnie nie karmelizują się tak szybko, ale wnętrze jest często bardziej jednolicie wypieczone w przypadku większych kawałków. Pizza czy focaccia mają w piekarniku lepszą strukturę ciasta z umiarkowanie chrupiącym brzegiem. Pieczenia z wołowiny czy jagnięciny nabierają w piekarniku pięknej złotej skórki, ale jest ona zazwyczaj mniej intensywna niż we frytkownicy. W cukiernictwie piekarnik pozostaje niezrównany: ciasta, chleby i wypieki drożdżowe wymagają bardziej stabilnego i stopniowego ciepła, niż może zaoferować frytkownica. Ciasta pieczone we frytkownicy są narażone na wysuszoną skórkę przy niedopieczonym środku.',
-    capacity_title: 'Pojemność i wszechstronność: kto do czego?',
-    capacity: 'Typowa frytkownica ma pojemność 3–10 litrów, co – zależnie od potrawy – wystarcza dla 1–8 osób. Za jednym razem usmażysz 4–5 porcji frytek, 2–3 piersi z kurczaka lub około 20–30 różyczek brokułu. Dla rodzin 4–5-osobowych często wystarcza to na kompletny posiłek. Piekarniki oferują 50–80 litrów (czasem więcej w bardzo dużych modelach), co pozwala piec jednocześnie kilka różnych potraw: pieczeń, pieczone warzywa i zapiekankę na trzech różnych poziomach. Taka pojemność jest niezastąpiona przy posiłkach rodzinnych lub świątecznych. Pod względem wszechstronności frytkownica świetnie radzi sobie z frytkami, białym i czerwonym mięsem, rybami, owocami morza, warzywami, a nawet niektórymi prostymi deserami (brownie, clafoutis). Opierają się jej jednak niektóre dania: rzemieślnicza pizza, domowy chleb, tarta tatin czy zapiekanka makaronowa. Piekarnik pozostaje niezastąpionym narzędziem do takich przygotowań. Popularny kompromis: mieć oba urządzenia, korzystać z frytkownicy przy szybkich, codziennych posiłkach (50–60% dni), a z piekarnika wtedy, gdy masz więcej czasu lub gości.',
+    energy_consumption: 'Zużycie energii to czynnik decydujący dla gospodarstw domowych, które płacą coraz wyższe rachunki za prąd. Frytkownica ma zwykle moc 800–1800 W, a klasyczny piekarnik elektryczny 2000–3000 W. Przy codziennym użytkowaniu przez 30 minut (jedna porcja z frytkownicy odpowiada mniej więcej jednemu użyciu piekarnika) frytkownica zużywa 0,4–0,9 kWh dziennie, czyli 146–329 kWh rocznie. Piekarnik używany codziennie przez 50 minut zużywa 1,67–2,5 kWh dziennie, czyli 610–912 kWh rocznie. Przy średniej stawce we Francji, wynoszącej w 2026 roku ok. 0,25 € za kWh, daje to roczną oszczędność rzędu 115–190 €, jeśli całkowicie zastąpisz piekarnik frytkownicą (rzeczywista kwota zależy od stawki z Twojej umowy na prąd). Bilans jest jeszcze korzystniejszy, jeśli masz już piekarnik, a frytkownica go tylko uzupełnia: zaoszczędzisz przede wszystkim na szybkich, codziennych posiłkach. Większość nowszych frytkownic ma inteligentną regulację temperatury, która zmniejsza zużycie energii podczas podtrzymywania ciepła.',
+    cooking_quality_title: 'Efekty pieczenia i smażenia: dwa różne podejścia',
+    cooking_quality: 'Efekty, jakie dają te dwie technologie, zasadniczo się różnią. Frytkownica świetnie sprawdza się tam, gdzie liczy się chrupiąca, złocista skórka, bo skupiony strumień gorącego powietrza przyspiesza karmelizację. Frytki, nuggetsy, skrzydełka z kurczaka, krewetki w cieście – wszystkie te potrawy wychodzą bardzo chrupiące z zewnątrz i delikatne w środku. Efekt często porównuje się do smażenia w oleju, tyle że bez dodatkowych kalorii. Tradycyjny piekarnik, zwłaszcza z termoobiegiem, piecze bardziej równomiernie, ale mniej intensywnie. Powierzchnia nie karmelizuje się tak szybko, za to duże kawałki często są równiej upieczone w środku. Pizza czy focaccia mają z piekarnika lepsze ciasto z umiarkowanie chrupiącym spodem. Pieczeń wołowa czy jagnięca nabiera w piekarniku pięknej, złocistej skórki, choć zwykle mniej wyrazistej niż we frytkownicy. W wypiekach piekarnik pozostaje bezkonkurencyjny: ciasta, chleby i drożdżówki potrzebują stabilniejszego, łagodniej narastającego ciepła, niż może zapewnić frytkownica. Ciasto pieczone we frytkownicy może mieć wysuszoną skórkę i niedopieczony środek.',
+    capacity_title: 'Pojemność i wszechstronność: które urządzenie do czego?',
+    capacity: 'Typowa frytkownica ma pojemność 3–10 l, co – zależnie od potrawy – wystarcza dla 1–8 osób. Za jednym razem przygotujesz 4–5 porcji frytek, 2–3 piersi z kurczaka albo ok. 20–30 różyczek brokułu. Rodzinie 4–5-osobowej często wystarcza to na pełny posiłek. Piekarniki mają 50–80 l (bardzo duże modele nawet więcej), więc można w nich jednocześnie piec kilka różnych potraw na trzech poziomach: pieczeń, pieczone warzywa i zapiekankę. Taka pojemność jest nie do zastąpienia przy rodzinnych i świątecznych obiadach. Jeśli chodzi o wszechstronność, frytkownica świetnie radzi sobie z frytkami, białym i czerwonym mięsem, rybami, owocami morza, warzywami, a nawet niektórymi prostymi deserami (brownie, clafoutis). Są jednak dania, z którymi sobie nie poradzi: pizza jak z pizzerii, domowy chleb, tarta tatin czy zapiekanka z makaronem. Do nich piekarnik pozostaje niezbędny. Popularny kompromis to posiadanie obu urządzeń: frytkownica do szybkich, codziennych posiłków (w 50–60% dni), a piekarnik na okazje, gdy masz więcej czasu albo więcej gości.',
     cleaning_title: 'Łatwość czyszczenia: wyraźne zwycięstwo frytkownicy',
-    cleaning: 'Czyszczenie to jedna z największych frustracji użytkowników tradycyjnych piekarników. Rozpryski, wykipiałe sosy, przypalony tłuszcz osadzający się na ściankach: wszystko to wymaga regularnego, żmudnego sprzątania. Piekarniki bez pirolizy wymagają ręcznego szorowania żrącymi środkami, a modele pirolityczne (droższe) czyszczą się same w temperaturze 500°C, wytwarzając niepożądane ciepło i dodatkowo zużywając energię. Frytkownica wymaga natomiast zaledwie 2–3 minut czyszczenia po użyciu. Kosz i pojemnik na tłuszcz są wyjmowane i łatwo je umyć w zmywarce lub w ciepłej wodzie z detergentem. Tłuszcz nie rozpryskuje się na ścianki, bo spada do dolnego pojemnika. Nie są potrzebne żadne agresywne środki chemiczne. Tę łatwość czyszczenia szczególnie doceniają zapracowane rodziny oraz osoby, które wolą ograniczyć obowiązki domowe do minimum.',
-    noise_title: 'Hałas i zapachy: bardzo różne warunki użytkowania',
-    noise: 'Frytkownica, dzięki mocnemu wentylatorowi, wydaje podczas pracy charakterystyczny hałas o natężeniu 75–85 decybeli, porównywalny z hałasem zmywarki. Niektórym ten dźwięk przeszkadza, zwłaszcza w otwartej kuchni. Tradycyjny piekarnik pracuje praktycznie bezgłośnie, chyba że otworzysz drzwiczki lub uruchomi się wewnętrzny system wentylacji. Jeśli chodzi o zapachy, frytkownica koncentruje opary z gotowania w niewielkiej przestrzeni, co oznacza, że aromaty (dobre lub złe) rozchodzą się intensywniej. Smażenie ryby czy kapusty we frytkownicy szybko uwalnia charakterystyczne zapachy. Piekarnik, dzięki większej komorze i rozproszonemu systemowi wentylacji, rozcieńcza te zapachy. Przy obu urządzeniach zalecany jest dobry wyciąg powietrza (okap).',
-    cost_title: 'Cena zakupu i trwałość: aspekty finansowe',
-    cost: 'Cena frytkownicy waha się od ok. 250 zł za podstawowe modele z niskiej półki do 1500 zł za urządzenia z wyższej półki z zaawansowanymi funkcjami (ekran dotykowy, kilka poziomów, aplikacje mobilne). Większość niezawodnych, dobrze zaprojektowanych urządzeń mieści się w przedziale 430–860 zł. Klasyczny piekarnik elektryczny kosztuje 860–2150 zł w standardowym modelu, a znacznie więcej w przypadku piekarnika do zabudowy lub z wyższej półki. Pod względem trwałości frytkownica zwykle służy 5–8 lat, zanim zużyje się grzałka lub wentylator. Piekarniki uchodzą za trwalsze (8–15 lat), ale wymagają więcej konserwacji. Niska początkowa inwestycja we frytkownicę w połączeniu z długoterminowymi oszczędnościami energii (500–820 zł rocznie) daje atrakcyjny zwrot z inwestycji, szczególnie dla małych gospodarstw domowych.',
+    cleaning: 'Czyszczenie to jedna z największych bolączek użytkowników tradycyjnych piekarników. Rozpryski, wykipiałe sosy, przypalony tłuszcz na ściankach – wszystko to wymaga regularnego, żmudnego sprzątania. Piekarniki bez pirolizy trzeba szorować ręcznie żrącymi środkami, a modele z pirolizą (droższe) czyszczą się same w temperaturze 500 °C, co oznacza dodatkowe ciepło w kuchni i dodatkowe zużycie energii. Czyszczenie frytkownicy po użyciu zajmuje natomiast zaledwie 2–3 minuty. Kosz i pojemnik na tłuszcz są wyjmowane i łatwo je umyć w zmywarce lub w ciepłej wodzie z płynem do naczyń. Tłuszcz nie pryska na ścianki, bo spływa do dolnego pojemnika. Nie potrzeba żadnej agresywnej chemii. Tę zaletę szczególnie doceniają zapracowane rodziny i osoby, które chcą poświęcać jak najmniej czasu na domowe obowiązki.',
+    noise_title: 'Hałas i zapachy: duże różnice w codziennym użytkowaniu',
+    noise: 'Frytkownica ma mocny wentylator, dlatego podczas pracy wydaje charakterystyczny szum o głośności 75–85 dB, porównywalny z hałasem zmywarki. Niektórym ten dźwięk przeszkadza, zwłaszcza w kuchni otwartej na salon. Tradycyjny piekarnik pracuje praktycznie bezgłośnie, chyba że otworzysz drzwiczki albo włączy się wewnętrzny wentylator. Jeśli chodzi o zapachy, frytkownica skupia opary w niewielkiej przestrzeni, przez co aromaty (przyjemne i nieprzyjemne) rozchodzą się intensywniej. Ryba czy kapusta przyrządzane we frytkownicy szybko dają o sobie znać charakterystycznym zapachem. W piekarniku, z większą komorą i rozproszonym obiegiem powietrza, zapachy są mniej wyczuwalne. Przy obu urządzeniach warto mieć sprawny okap.',
+    cost_title: 'Cena zakupu i trwałość: rachunek kosztów',
+    cost: 'Ceny frytkownic wahają się od ok. 250 zł za proste modele z niższej półki do 1500 zł za urządzenia z wyższej półki z zaawansowanymi funkcjami (ekran dotykowy, kilka poziomów, aplikacja mobilna). Większość niezawodnych, dobrze zaprojektowanych modeli kosztuje 430–860 zł. Standardowy piekarnik elektryczny to wydatek rzędu 860–2150 zł, a piekarnik do zabudowy lub model z wyższej półki kosztuje znacznie więcej. Jeśli chodzi o trwałość, frytkownica służy zwykle 5–8 lat, zanim zużyje się grzałka lub wentylator. Piekarniki uchodzą za trwalsze (8–15 lat), ale wymagają więcej konserwacji. Niska cena zakupu frytkownicy w połączeniu z oszczędnościami na energii w dłuższym okresie (we Francji 115–190 € rocznie) daje atrakcyjny zwrot z inwestycji, zwłaszcza w małych gospodarstwach domowych.',
     when_choose_airfryer_title: 'Kiedy wybrać frytkownicę beztłuszczową?',
-    when_choose_airfryer: 'Frytkownica to idealny wybór, jeśli mieszkasz sam lub we dwoje (1–2 osoby), pracujesz na pełny etat i brakuje Ci wieczorem czasu na przygotowanie posiłku albo aktywnie dążysz do ograniczenia zużycia energii i śladu węglowego. To także doskonałe wyposażenie, jeśli stosujesz restrykcyjną dietę (ketogeniczną, bezglutenową, niskokaloryczną), ponieważ potrawy smażone bez oleju dobrze odpowiadają takim potrzebom. Osoby dbające o zdrowie szczególnie doceniają brak oleju do smażenia, który zmniejsza ilość kalorii. Wreszcie, jeśli mieszkasz w bloku i brakuje Ci miejsca, frytkownica zajmuje znacznie mniej miejsca niż kompaktowy piekarnik.',
+    when_choose_airfryer: 'Frytkownica to idealny wybór, jeśli gotujesz tylko dla siebie lub we dwoje (1–2 osoby), pracujesz na pełny etat i wieczorem brakuje Ci czasu na przygotowanie posiłku albo chcesz ograniczyć zużycie energii i swój ślad węglowy. Sprawdzi się też świetnie, jeśli stosujesz restrykcyjną dietę (ketogeniczną, bezglutenową, niskokaloryczną), bo potrawy smażone bez oleju dobrze wpisują się w takie potrzeby. Osoby dbające o zdrowie szczególnie doceniają to, że do smażenia nie potrzeba oleju, co zmniejsza kaloryczność posiłków. I wreszcie: jeśli mieszkasz w małym mieszkaniu i brakuje Ci miejsca, frytkownica zajmie go znacznie mniej niż kompaktowy piekarnik.',
     when_keep_oven_title: 'Kiedy zachować piekarnik?',
-    when_keep_oven: 'Zachowaj piekarnik, jeśli masz dużą rodzinę (5+ osób), lubisz piec, regularnie przygotowujesz posiłki dla gości lub gotujesz wymyślne dania wymagające kilku jednoczesnych etapów. Piekarnik jest niezbędny do domowej pizzy, rzemieślniczego chleba, zapiekanek makaronowych, słodkich i wytrawnych tart oraz dużych pieczeni. Jeśli w niedzielę gotujesz na cały tydzień (batch cooking), piekarnik pozwala przygotować kilka potraw naraz, co jest niemożliwe we frytkownicy z jednym koszem.',
+    when_keep_oven: 'Zachowaj piekarnik, jeśli masz dużą rodzinę (5+ osób), lubisz piec, często przyjmujesz gości lub przygotowujesz pracochłonne dania, które wymagają kilku jednoczesnych etapów. Piekarnik jest niezbędny do domowej pizzy i domowego chleba, zapiekanek z makaronem, słodkich i wytrawnych tart oraz dużych pieczeni. Jeśli w niedzielę gotujesz na cały tydzień (batch cooking), w piekarniku przygotujesz kilka potraw naraz, a we frytkownicy z jednym koszem jest to niemożliwe.',
     replace_oven_title: 'Czy można zastąpić piekarnik frytkownicą?',
-    replace_oven: 'Szczera odpowiedź brzmi: nie całkowicie, poza pewnymi profilami użytkowników. Dla osoby mieszkającej samotnie lub pary bez dzieci, które przygotowują tylko proste i szybkie posiłki (grillowane mięso, frytki, pieczone warzywa), sama frytkownica może technicznie wystarczyć. Stracisz możliwość pieczenia ciast, pizzy czy całych pieczeni, ale zyskasz 50% oszczędności energii i dużą wygodę. Dla rodzin z dziećmi i pasjonatów gotowania zastąpienie piekarnika frytkownicą byłoby błędem: zbyt mocno ograniczyłoby możliwości kulinarne. Optymalny scenariusz dla większości gospodarstw domowych to posiadanie obu urządzeń: frytkownicy używanej 5–6 dni w tygodniu do szybkiego i oszczędnego gotowania, a piekarnika 1–2 dni w tygodniu do bardziej wymyślnych lub rodzinnych posiłków. Takie połączenie daje to, co najlepsze z obu światów: maksymalne oszczędności energii, pełną elastyczność kulinarną i mniej stresu w kuchni.',
-    verdict_title: 'Nasz ostateczny werdykt',
-    verdict: 'Frytkownica nie zastępuje piekarnika, ale doskonale go uzupełnia. Przy szybkich, codziennych posiłkach (frytki, kurczak, grillowane warzywa) frytkownica jest nie do pobicia pod względem szybkości i oszczędności energii. Piekarnik pozostaje niezbędny do dużych kawałków mięsa, cukiernictwa i potraw w dużych ilościach. W 2026 roku, wobec obaw o koszty energii i domowy budżet, frytkownica staje się niemal obowiązkowym wyposażeniem każdego gospodarstwa domowego, które chce unowocześnić swoją kuchnię.',
+    replace_oven: 'Szczera odpowiedź brzmi: nie całkowicie, chyba że należysz do określonej grupy użytkowników. Osobie mieszkającej samotnie lub parze bez dzieci, które przygotowują tylko proste i szybkie posiłki (grillowane mięso, frytki, pieczone warzywa), w zasadzie może wystarczyć sama frytkownica. Nie upieczesz w niej ciasta, pizzy ani całej pieczeni, ale zużyjesz o połowę mniej energii i zyskasz sporo wygody. Dla rodzin z dziećmi i miłośników gotowania zastąpienie piekarnika frytkownicą byłoby błędem, bo zbyt mocno ograniczyłoby kulinarne możliwości. Dla większości gospodarstw domowych najlepszym rozwiązaniem jest posiadanie obu urządzeń: frytkownicy na 5–6 dni w tygodniu do szybkich i oszczędnych posiłków, a piekarnika na 1–2 dni w tygodniu do bardziej wymagających lub rodzinnych dań. Taki duet daje to, co najlepsze w obu urządzeniach: maksymalne oszczędności energii, pełną swobodę w kuchni i mniej stresu przy gotowaniu.',
+    verdict_title: 'Nasz werdykt',
+    verdict: 'Frytkownica nie zastępuje piekarnika, ale świetnie go uzupełnia. Przy szybkich codziennych posiłkach (frytki, kurczak, grillowane warzywa) jest bezkonkurencyjna pod względem szybkości i oszczędności energii. Piekarnik pozostaje niezbędny przy dużych kawałkach mięsa, wypiekach i daniach przygotowywanych w dużych ilościach. W 2026 roku, gdy coraz więcej osób liczy się z kosztami energii i domowym budżetem, frytkownica staje się niemal obowiązkowym wyposażeniem dla każdego, kto chce unowocześnić swoją kuchnię.',
     choose_airfryer_title: 'Wybierz frytkownicę, jeśli...',
-    choose_airfryer: 'Często gotujesz dla 1–4 osób, zależy Ci na szybkich, chrupiących efektach, chcesz zaoszczędzić na rachunku za energię lub brakuje Ci czasu w tygodniu.',
+    choose_airfryer: 'Często gotujesz dla 1–4 osób, lubisz szybko przygotowane, chrupiące potrawy, chcesz obniżyć rachunki za prąd albo w tygodniu brakuje Ci czasu.',
     choose_oven_title: 'Zostaw piekarnik, jeśli...',
-    choose_oven: 'Regularnie gotujesz dla 6 i więcej osób, pieczesz (ciasta, chleby, pizze), przygotowujesz całe pieczenie lub potrzebujesz piec kilka potraw jednocześnie.',
+    choose_oven: 'Regularnie gotujesz dla 6 i więcej osób, lubisz piec (ciasta, chleby, pizze), przygotowujesz duże kawałki mięsa w całości albo musisz przyrządzać kilka potraw jednocześnie.',
+  },
+  sv: {
+    title: 'Airfryer eller vanlig ugn: den stora jämförelsen 2026',
+    subtitle: 'Varmluftsfritös eller vanlig ugn? Vi har jämfört båda så att du kan välja rätt.',
+    intro: 'Airfryern (varmluftsfritösen) och den vanliga ugnen är två viktiga apparater i köket. Men vilken passar dina behov bäst? Vi har jämfört de två teknikerna utifrån 7 viktiga kriterier för att hjälpa dig att välja rätt.',
+    intro_long: '2026 har valet mellan airfryer och vanlig ugn blivit en viktig fråga för många hushåll som vill hålla nere elräkningen och tänker mer på miljön. Airfryern, som länge sågs som en udda pryl, har i dag blivit ett vanligt inslag i köket och ändrat hur många lagar sin vardagsmat. Med upp till 50 % lägre elförbrukning än en vanlig ugn och halverade tillagningstider har den blivit ett hett diskussionsämne i många kök. Men kan den verkligen ersätta din ugn? Är den en klok investering eller bara en övergående trend? Den här guiden går igenom alla delar av jämförelsen, med konkreta siffror och realistiska exempel, så att du kan fatta bästa möjliga beslut.',
+    how_airfryer_works_title: 'Hur fungerar en airfryer?',
+    how_airfryer_works: 'En airfryer (varmluftsfritös) bygger på en teknik som kallas Rapid Air, eller varmluft med hög hastighet. Till skillnad från en vanlig fritös, där maten tillagas i olja, värmer airfryern upp luften till mycket hög temperatur (upp till 220 °C) och blåser den i hög hastighet runt maten med en kraftig fläkt som sitter under locket. Det koncentrerade varmluftsflödet ger en krispig yta på bara några minuter genom en påskyndad Maillardreaktion. Värmeelementet ovanför korgen står för själva värmen, medan fläkten ser till att luften fördelas jämnt. Tack vare det här systemet drar en airfryer bara 800–1 800 watt och når tillagningstemperaturen på 2–3 minuter. Maten läggs i en perforerad korg där luften kan cirkulera fritt runt alla ytor, vilket ger den omtyckta ”friterade” ytan utan en enda droppe olja. Matrester faller ner i botten av behållaren, en bit under korgen, så att de är lätta att ta bort och rengöringen går snabbt.',
+    how_oven_works_title: 'Hur fungerar en vanlig ugn?',
+    how_oven_works: 'En vanlig ugn, oavsett om den drivs med el eller gas, värmer upp luften inuti med strålningsvärme och värmeledning. Ett värmeelement (eller en gasbrännare) i ugnens botten och/eller tak alstrar värmen, som sedan sprids gradvis i hela ugnsutrymmet. Det går ganska långsamt: oftast tar det 10–15 minuter att förvärma en ugn till 200 °C. När ugnen väl är varm omsluter värmen maten mer diffust och jämnt än i en airfryer, vilket ger en jämn tillagning men inte samma snabba krispighet på ytan. Moderna ugnar har ofta varmluft, där en fläkt snabbar på luftcirkulationen något, vilket ger jämnare resultat och 10–20 % kortare tillagningstid. Men även med varmluft är effekten hög: mellan 2 000 och 3 000 watt beroende på modell. Det stora ugnsutrymmet (50–80 liter) kräver mycket energi för att hålla en jämn temperatur. Tack vare utrymmet kan du dessutom laga flera rätter på en gång – en klar fördel för storfamiljer och mer avancerade måltider.',
+    comparison_title: 'Detaljerad jämförelse utifrån 7 kriterier',
+    rows: [
+      {
+        criteria: 'Förvärmningstid',
+        airfryer: '2–3 minuter',
+        oven: '10–15 minuter',
+      },
+      {
+        criteria: 'Energiförbrukning',
+        airfryer: '800–1 800 W (30–50 % lägre förbrukning)',
+        oven: '2 000–3 000 W',
+      },
+      {
+        criteria: 'Krispighet',
+        airfryer: 'Utmärkt (koncentrerad varmluft)',
+        oven: 'Bra (varmluft)',
+      },
+      {
+        criteria: 'Största volym',
+        airfryer: '3–10 l (1–8 personer)',
+        oven: '50–80 l (obegränsat)',
+      },
+      {
+        criteria: 'Rengöring',
+        airfryer: 'Mycket lätt (löstagbar korg)',
+        oven: 'Besvärlig (utom med pyrolys)',
+      },
+      {
+        criteria: 'Mångsidighet',
+        airfryer: 'Pommes frites, kött, grönsaker, kakor',
+        oven: 'Alla sorters rätter',
+      },
+      {
+        criteria: 'Prisnivå',
+        airfryer: '650–3 900 kr',
+        oven: '2 200–22 000 kr',
+      },
+    ],
+    cooking_time_title: 'Tillagningstid: airfryern vinner på snabbhet',
+    cooking_time: 'Den mest påtagliga skillnaden mellan apparaterna är tillagningstiden. En portion frysta pommes frites tar 15 minuter i en airfryer (förvärmning inräknad), medan en vanlig ugn behöver 35–40 minuter. En hel kyckling? 25–30 minuter i airfryern mot 55–60 minuter i ugnen. Siffrorna varierar med storlek och tjocklek, men tendensen är tydlig: airfryern kortar tillagningstiden med i snitt 50–60 %. Det gör stor skillnad för familjer med fullt upp som vill ha en hel måltid på bordet på under 30 minuter. Eftersom airfryern förvärms på 2–3 minuter kan du börja laga maten nästan direkt när du har slagit på den, medan ugnen kräver 10–15 minuters väntan. För pasta, ris och långkok är skillnaden mindre, eftersom ugnen klarar långsam tillagning bättre.',
+    energy_consumption_title: 'Elförbrukning: rejäla besparingar',
+    energy_consumption: 'För den som vill hålla nere elräkningen är förbrukningen en avgörande faktor. En airfryer drar oftast mellan 800 och 1 800 watt, medan en vanlig elugn går på 2 000–3 000 watt. Vid daglig användning i 30 minuter (en omgång i airfryern motsvarar ungefär en omgång i ugnen) förbrukar airfryern 0,4–0,9 kWh per dag, alltså 146–329 kWh per år. En ugn som används 50 minuter om dagen förbrukar 1,67–2,5 kWh per dag, alltså 610–912 kWh per år. Med det franska genomsnittspriset 2026 på 0,25 € per kWh (ca 2,75 kr) blir besparingen cirka 1 300–2 100 kr per år om du helt ersätter ugnen med en airfryer. Ditt eget elpris står på elräkningen. Siffrorna blir ännu mer fördelaktiga om du redan har en ugn och använder airfryern som komplement: då sparar du framför allt på de snabba vardagsmåltiderna. De flesta nyare airfryrar har en smart temperaturreglering som sänker förbrukningen när maten hålls varm.',
+    cooking_quality_title: 'Tillagningskvalitet: två olika sätt att laga mat',
+    cooking_quality: 'Resultatet skiljer sig tydligt mellan de två teknikerna. Airfryern är överlägsen när det gäller krispiga, gyllene ytor, tack vare det koncentrerade och mycket heta luftflödet som påskyndar karamelliseringen. Pommes frites, nuggets, kycklingvingar och friterade räkor blir otroligt krispiga utanpå men förblir mjuka inuti. Resultatet jämförs ofta med friterad mat, fast utan de extra kalorierna från oljan. Den vanliga ugnen, särskilt med varmluft, ger en jämnare men mildare tillagning. Ytan karamelliseras inte lika snabbt, men stora bitar blir ofta jämnare tillagade inuti. För pizza och focaccia ger ugnen en bättre deg med en lagom krispig botten. Nöt- och lammstekar får en fin gyllene yta i ugnen, men den blir oftast mindre intensiv än i en airfryer. När det gäller bakning är ugnen oslagbar: kakor, bröd och bakverk kräver en stabilare och jämnare värme än en airfryer kan ge. En kaka som gräddas i airfryern riskerar att få en torr skorpa och en ogräddad mitt.',
+    capacity_title: 'Volym och mångsidighet: vem gör vad?',
+    capacity: 'En vanlig airfryer rymmer 3–10 liter, vilket räcker till 1–8 personer beroende på rätt. Du kan laga 4–5 portioner pommes frites, 2–3 kycklingbröst eller ungefär 20–30 broccolibuketter på en gång. För en familj på 4–5 personer räcker det ofta till en hel måltid. Ugnar rymmer 50–80 liter (ibland mer i de största modellerna), så att du kan laga flera olika rätter samtidigt: en stek, ugnsrostade grönsaker och en gratäng på tre olika nivåer. Det utrymmet går inte att ersätta vid familjemiddagar och fester. När det gäller mångsidighet klarar airfryern det mesta utmärkt: pommes frites, ljust och rött kött, fisk, skaldjur, grönsaker och till och med enkla desserter (brownies, clafoutis). Men vissa rätter klarar den inte: en riktig pizza, hembakat bröd, en tarte tatin eller en pastagratäng. Där är ugnen fortfarande oumbärlig. En populär kompromiss är att ha båda: airfryern till snabba vardagsmåltider (50–60 % av dagarna) och ugnen när du har mer tid eller fler gäster.',
+    cleaning_title: 'Rengöring: klar seger för airfryern',
+    cleaning: 'Rengöringen hör till det som irriterar ugnsägare mest. Stänk, spill och fett som bränns fast på väggarna kräver regelbunden och tidsödande rengöring. Ugnar utan pyrolys måste skuras för hand med frätande rengöringsmedel, medan ugnar med pyrolys (som är dyrare) rengör sig själva vid 500 °C, vilket ger oönskad värme och extra elförbrukning. En airfryer behöver däremot bara 2–3 minuters rengöring efter användning. Korgen och uppsamlingsskålen för fettet går att ta loss och är lätta att diska i diskmaskin eller i varmt vatten med diskmedel. Fettet stänker inte på väggarna, eftersom det droppar ner i skålen under korgen. Inga starka kemikalier behövs. Det uppskattas särskilt av familjer med fullt upp och av alla som vill lägga mindre tid på hushållssysslor.',
+    noise_title: 'Ljud och lukt: helt olika förutsättningar',
+    noise: 'Med sin kraftiga fläkt låter en airfryer 75–85 decibel under tillagningen, ungefär som en diskmaskin. En del tycker att ljudet stör, särskilt i ett öppet kök. Den vanliga ugnen är i princip tyst, utom när du öppnar luckan eller när den inbyggda fläkten startar. När det gäller lukt samlar airfryern matoset i ett litet utrymme, vilket gör att dofterna (goda som dåliga) sprids mer intensivt. Fisk eller kål i airfryern ger snabbt en tydlig lukt. Ugnen, med sitt större utrymme och sin mer spridda ventilation, späder ut lukterna. En bra köksfläkt är att rekommendera, oavsett vilken av apparaterna du använder.',
+    cost_title: 'Inköpspris och livslängd: det ekonomiska perspektivet',
+    cost: 'En airfryer kostar från cirka 650 kr för enkla instegsmodeller till runt 3 900 kr för toppmodeller med avancerade funktioner (pekskärm, flera nivåer, app). De flesta pålitliga och välbyggda modeller ligger på 1 100–2 200 kr. En vanlig elugn kostar 2 200–5 500 kr för en standardmodell och betydligt mer för en inbyggnadsugn eller en premiummodell. När det gäller livslängd håller en airfryer oftast i 5–8 år innan värmeelementet eller fläkten slits ut. Ugnar anses hålla längre (8–15 år), men kräver mer skötsel. Det låga inköpspriset kombinerat med elbesparingarna på lång sikt (cirka 1 300–2 100 kr per år enligt räkneexemplet ovan) gör en airfryer till en lönsam investering, särskilt i små hushåll.',
+    when_choose_airfryer_title: 'När ska du välja en airfryer?',
+    when_choose_airfryer: 'En airfryer är perfekt om du bor ensam eller är två (1–2 personer), om du jobbar heltid och har ont om tid att laga mat på kvällarna, eller om du aktivt vill minska din elförbrukning och ditt klimatavtryck. Den passar också bra om du följer en särskild kost (keto, glutenfri, kalorisnål), eftersom mat som ”friteras” utan olja fungerar bra i de dieterna. Är du mån om hälsan uppskattar du säkert att det inte behövs någon stekolja, vilket ger färre kalorier. Och bor du i lägenhet med ont om plats tar en airfryer betydligt mindre plats än en kompakt ugn.',
+    when_keep_oven_title: 'När ska du behålla ugnen?',
+    when_keep_oven: 'Behåll ugnen om du har en storfamilj (5 personer eller fler), om du gillar att baka, om du ofta har gäster på middag eller om du lagar avancerade rätter som kräver flera tillagningssteg samtidigt. Ugnen är oumbärlig för hemgjord pizza, hembakat bröd, pastagratänger, söta och salta pajer och stora stekar. Gör du matlådor för hela veckan på söndagen kan du tillaga flera rätter samtidigt i ugnen, vilket är omöjligt i en airfryer med en enda korg.',
+    replace_oven_title: 'Kan du ersätta ugnen med en airfryer?',
+    replace_oven: 'Det ärliga svaret: inte helt, utom för vissa hushåll. För den som bor ensam eller för ett par utan barn som bara lagar enkla och snabba rätter (grillat kött, pommes frites, ugnsrostade grönsaker) kan en airfryer rent tekniskt räcka. Du förlorar möjligheten att baka, göra pizza eller laga hela stekar, men du sparar 50 % el och vinner mycket i bekvämlighet. För barnfamiljer och matentusiaster vore det ett misstag att ersätta ugnen med en airfryer: du skulle begränsa dina möjligheter i köket för mycket. Det bästa för de flesta hushåll är att ha båda: airfryern 5–6 dagar i veckan för snabb och energisnål matlagning och ugnen 1–2 dagar i veckan för mer avancerade måltider eller familjemiddagar. Kombinationen ger det bästa av två världar: maximal elbesparing, full flexibilitet i köket och mindre stress vid spisen.',
+    verdict_title: 'Vårt omdöme',
+    verdict: 'Airfryern ersätter inte ugnen, men den kompletterar den perfekt. För snabb vardagsmat (pommes frites, kyckling, grillade grönsaker) är airfryern oslagbar när det gäller tid och elförbrukning. Ugnen är fortfarande oumbärlig för stora köttbitar, bakning och stora mängder mat. 2026, när många håller koll på både elförbrukningen och hushållsbudgeten, har airfryern blivit nästan ett självklart val för alla hushåll som vill modernisera köket.',
+    choose_airfryer_title: 'Välj en airfryer om …',
+    choose_airfryer: 'Du lagar ofta mat för 1–4 personer, vill ha krispiga resultat snabbt, vill få ner elräkningen eller har ont om tid i veckorna.',
+    choose_oven_title: 'Behåll ugnen om …',
+    choose_oven: 'Du lagar regelbundet mat för 6 personer eller fler, bakar (kakor, bröd, pizza), tillagar hela stekar eller behöver laga flera rätter samtidigt.',
+  },
+  us: {
+    title: 'Air Fryer vs. Oven: The Definitive Comparison (2026)',
+    subtitle: 'Air fryer or conventional oven? We compared both to help you choose.',
+    intro: 'The air fryer and the traditional oven are both kitchen essentials. But which one fits the way you cook? We compared the two technologies across 7 key criteria to help you make the right call.',
+    intro_long: 'In 2026, with energy bills on everyone\'s mind and more people paying attention to their environmental footprint, choosing between an air fryer and a traditional oven is a bigger decision than it looks. The air fryer, once dismissed as a novelty gadget, has changed the way a lot of people make everyday meals. It uses up to 50% less energy than a conventional oven and can cut cooking times in half, which is why it has sparked so much debate in home kitchens. But can it really replace your oven? Is it a smart buy or just a passing trend? This guide covers every angle of the comparison, using concrete numbers and realistic scenarios to help you make the best decision for your household and your budget.',
+    how_airfryer_works_title: 'How does an air fryer work?',
+    how_airfryer_works: 'An air fryer relies on a technology often called Rapid Air, or high-speed convection. Unlike a deep fryer, which cooks food in oil, an air fryer heats air to very high temperatures (up to 425°F, or 220°C) and blows it around the food at high speed with a powerful fan mounted under the lid. That concentrated stream of hot air forms a crisp outer layer within minutes by speeding up the Maillard reaction. The heating element above the basket produces the heat, while the fan keeps the air circulating evenly. Thanks to this design, an air fryer draws only 800 to 1,800 watts and reaches cooking temperature in just 2 to 3 minutes. Food sits in a perforated basket that lets air flow freely over every surface, creating that crave-worthy “fried” texture without a single drop of added oil. Crumbs and drippings fall to the bottom of the unit, away from the basket, so they\'re easy to collect and cleanup is quick.',
+    how_oven_works_title: 'How does a traditional oven work?',
+    how_oven_works: 'A traditional electric or gas oven heats the air inside by radiation and conduction. An electric heating element (or a gas burner) at the bottom and/or top of the oven produces heat that gradually spreads through the cavity. It\'s a relatively slow process: most conventional ovens take 10 to 15 minutes to preheat to 400°F (200°C). Once preheated, radiant and conducted heat surrounds the food more gently and evenly than in an air fryer, which gives uniform cooking but not that fast, crispy exterior. Many modern ovens have a convection setting that adds a fan to move the air a little faster, improving evenness and cutting cooking times by 10 to 20%. Even in convection mode, though, total power draw stays high: 2,000 to 3,000 watts depending on the model. The large cavity (1.8 to 2.8 cu ft, or 50 to 80 L) takes a lot of energy to hold a steady temperature. On the plus side, an oven lets you cook several dishes at once, a real advantage for large families or more elaborate meals.',
+    comparison_title: 'Side-by-side comparison across 7 criteria',
+    rows: [
+      {
+        criteria: 'Preheat time',
+        airfryer: '2–3 minutes',
+        oven: '10–15 minutes',
+      },
+      {
+        criteria: 'Energy use',
+        airfryer: '800–1,800 W (30–50% savings)',
+        oven: '2,000–3,000 W',
+      },
+      {
+        criteria: 'Crispiness',
+        airfryer: 'Excellent (concentrated airflow)',
+        oven: 'Good (convection)',
+      },
+      {
+        criteria: 'Maximum capacity',
+        airfryer: '3.2–11 qt (1–8 people)',
+        oven: '1.8–2.8 cu ft (no practical limit)',
+      },
+      {
+        criteria: 'Ease of cleaning',
+        airfryer: 'Very easy (removable basket)',
+        oven: 'Hard (unless self-cleaning)',
+      },
+      {
+        criteria: 'Versatility',
+        airfryer: 'Fries, meat, vegetables, cakes',
+        oven: 'Any type of dish',
+      },
+      {
+        criteria: 'Typical price',
+        airfryer: '$70–$400',
+        oven: '$250–$2,300',
+      },
+    ],
+    cooking_time_title: 'Cooking time: the air fryer wins on speed',
+    cooking_time: 'The biggest difference between the two appliances is cooking time. A batch of frozen fries takes 15 minutes in an air fryer (preheat included), while a conventional oven needs 35 to 40 minutes. A whole chicken? 25 to 30 minutes in an air fryer versus 55 to 60 minutes in the oven. These numbers vary with the size and thickness of the food, but the pattern holds: on average, an air fryer cuts cooking time by 50 to 60%. That speed matters for busy families trying to get a complete meal on the table in under 30 minutes. Because an air fryer preheats in 2 to 3 minutes, you can start cooking almost as soon as you switch it on, instead of waiting 10 to 15 minutes for the oven. For pasta, rice or slow-simmered dishes, the gap narrows, since ovens handle long, slow cooking better.',
+    energy_consumption_title: 'Energy use: real savings',
+    energy_consumption: 'Energy use is a deciding factor for many households watching their electric bills. An air fryer typically draws 800 to 1,800 watts, while a conventional electric oven runs at 2,000 to 3,000 watts. With 30 minutes of daily use (roughly one oven session\'s worth of cooking), an air fryer uses 0.4 to 0.9 kWh a day, or 146 to 329 kWh a year. An oven used 50 minutes a day uses 1.67 to 2.5 kWh a day, or 610 to 912 kWh a year. At an example rate of 20 cents per kWh (check the rate on your utility bill, since it varies widely by state and utility), that works out to roughly $90 to $150 a year in savings if you replace your oven entirely with an air fryer. The math looks even better if you already own an oven and use the air fryer alongside it: you save the most on quick, everyday cooking. Most recent air fryers also have smart temperature control that cuts power use in keep-warm mode.',
+    cooking_quality_title: 'Cooking quality: two different approaches',
+    cooking_quality: 'The two technologies cook in fundamentally different ways. The air fryer excels at crisp, golden textures, thanks to a concentrated stream of very hot air that speeds up browning. Fries, nuggets, chicken wings, breaded shrimp: they all come out remarkably crisp outside and tender inside, with results often compared to deep-fried food without the extra calories from oil. The traditional oven, especially in convection mode, cooks more evenly but browns less aggressively. Surfaces don\'t caramelize as fast, though large cuts often cook more evenly all the way through. For pizza or focaccia, the oven gives a better crust with a more measured crispness. Beef and lamb roasts develop a beautiful golden crust in the oven, though usually a less intense one than in an air fryer. For baking, the oven is still unbeatable: cakes, breads and pastries need steadier, more gradual heat than an air fryer can reliably deliver. Cakes baked in an air fryer risk a dry crust and an underdone center.',
+    capacity_title: 'Capacity and versatility: what each does best',
+    capacity: 'A typical air fryer holds about 3 to 11 quarts (3 to 10 liters), enough for 1 to 8 people depending on the dish. In one batch you can cook 4 to 5 servings of fries, 2 to 3 chicken breasts or about 20 to 30 broccoli florets. For a family of 4 or 5, that\'s often enough for a complete meal. Ovens offer 1.8 to 2.8 cubic feet (50 to 80 liters), sometimes more in larger models, so you can cook several different dishes at once: a roast, roasted vegetables and a gratin on three separate racks. That capacity is hard to replace for family dinners or entertaining. As for versatility, the air fryer handles a lot: fries, poultry and red meat, fish, seafood, vegetables, even simple desserts (brownies, a fruit crisp). Some dishes still resist it: artisan pizza, homemade bread, an apple tarte tatin or a baked pasta dish. For those, the oven remains essential. A popular compromise: own both, use the air fryer for quick everyday meals (50 to 60% of days) and save the oven for when you have more time or more guests.',
+    cleaning_title: 'Ease of cleaning: a clear win for the air fryer',
+    cleaning: 'Cleaning is one of the biggest frustrations for oven owners. Splatters, spills and baked-on grease building up on the walls all call for regular, tedious scrubbing. Ovens without a self-cleaning cycle have to be scrubbed by hand with harsh cleaners, while self-cleaning models (which cost more) burn off residue at about 930°F (500°C), putting out unwanted heat and using extra energy. An air fryer, on the other hand, takes just 2 to 3 minutes to clean after cooking. The basket and drip tray come out and wash easily in the dishwasher or in hot, soapy water. Grease doesn\'t splatter the inside walls because it drips into the tray below. No harsh chemicals needed. That ease of cleaning is a real plus for busy families and anyone who\'d rather spend less time on chores.',
+    noise_title: 'Noise and odors: very different experiences',
+    noise: 'With its powerful fan, an air fryer produces a distinctive 75 to 85 decibels while it cooks, comparable to a running dishwasher. Some people find that noise annoying, especially in an open-concept kitchen. A traditional oven is practically silent, apart from opening the door or the internal cooling fan kicking on. As for odors, an air fryer concentrates cooking vapors in a small space, so smells, good or bad, spread more intensely. Cooking fish or cabbage in an air fryer quickly fills the kitchen with a distinctive smell. An oven, with its larger cavity and more diffuse venting, dilutes those odors. Good ventilation (a range hood) is a smart idea with either appliance.',
+    cost_title: 'Purchase price and durability: the financial picture',
+    cost: 'Air fryers range from about $70 for basic entry-level models to $400 for premium machines with advanced features (touchscreen, multiple tiers, smartphone apps). Most reliable, well-designed models fall between $100 and $250. A conventional electric oven costs $250 to $600 for a standard model, and much more for a built-in or high-end one. As for durability, an air fryer typically lasts 5 to 8 years before the heating element or fan wears out. Ovens have a reputation for lasting longer (8 to 15 years) but need more upkeep. The air fryer\'s low upfront cost, combined with long-term energy savings (roughly $90 to $150 a year at our example rate of 20 cents per kWh), makes for an attractive return on investment, especially for smaller households.',
+    when_choose_airfryer_title: 'When to choose an air fryer',
+    when_choose_airfryer: 'An air fryer is the ideal choice if you live alone or as a couple (1 or 2 people), work full-time and have little time to cook in the evening, or are actively trying to cut your energy use and carbon footprint. It\'s also a great fit if you follow a restrictive diet (keto, gluten-free, low-calorie), since oil-free “fried” foods suit those needs well. Health-conscious cooks especially appreciate skipping the cooking oil, which cuts calories. And if you live in an apartment with limited space, an air fryer takes up far less room than even a compact oven.',
+    when_keep_oven_title: 'When to keep your oven',
+    when_keep_oven: 'Keep your oven if you have a large family (5+ people), love to bake, entertain often or make elaborate dishes with several components cooking at the same time. The oven is indispensable for homemade pizza, artisan bread, baked pasta, sweet or savory pies and tarts, and big roasts. If you meal-prep on Sundays for the week ahead, the oven lets you cook several dishes at once, something a single-basket air fryer can\'t do.',
+    replace_oven_title: 'Can an air fryer replace your oven?',
+    replace_oven: 'The honest answer: not completely, except for certain people. If you live alone, or you\'re a couple without kids who only cook simple, quick meals (grilled meats, fries, roasted vegetables), an air fryer alone can technically be enough. You\'ll give up baking, pizza and whole roasts, but you\'ll gain 50% energy savings and a lot of convenience. For families with children or serious home cooks, replacing the oven with an air fryer would be a mistake: you\'d limit your options too much. For most households, the best setup is to own both: use the air fryer 5 to 6 days a week for quick, energy-efficient cooking, and the oven 1 to 2 days a week for more elaborate or family meals. That combination gives you the best of both worlds: maximum energy savings, full flexibility in the kitchen and less stress at dinnertime.',
+    verdict_title: 'The bottom line',
+    verdict: 'An air fryer doesn\'t replace an oven, but it complements one perfectly. For quick everyday cooking (fries, chicken, roasted vegetables), the air fryer is unbeatable for speed and energy savings. The oven remains essential for big roasts, baking and cooking in large quantities. In 2026, with energy costs and household budgets on everyone\'s mind, the air fryer has become an almost essential upgrade for any household looking to modernize its kitchen.',
+    choose_airfryer_title: 'Choose an air fryer if...',
+    choose_airfryer: 'You often cook for 1 to 4 people, you want crispy results fast, you want to lower your energy bill, or you\'re short on time during the week.',
+    choose_oven_title: 'Keep your oven if...',
+    choose_oven: 'You regularly cook for 6 or more people, you bake (cakes, bread, pizza), you make whole roasts, or you need to cook several dishes at once.',
+  },
+  ca: {
+    title: 'Air Fryer vs Oven: The Definitive Comparison 2026',
+    subtitle: 'Air fryer or traditional oven? We compared both to help you choose.',
+    intro: 'The air fryer and the traditional oven are two essential cooking appliances. But which one is best suited to your needs? We compared these two technologies across 7 key criteria to help you make the right choice.',
+    intro_long: 'In 2026, with energy bills still climbing and more people thinking about their environmental footprint, the choice between an air fryer and a traditional oven matters more than ever. Once dismissed as a novelty gadget, the air fryer has earned a permanent spot on many kitchen counters and changed the way people cook everyday meals. It uses up to 50% less energy than a conventional oven and cuts cooking times in half, which is why it sparks so much debate. But can it really replace your oven? Is it a smart investment or just a passing trend? This guide covers every angle of the comparison, using concrete figures and real-life scenarios to help you make the right call for your household and your budget.',
+    how_airfryer_works_title: 'How Does an Air Fryer Work?',
+    how_airfryer_works: 'An air fryer uses Rapid Air technology, a form of high-speed convection. Unlike a deep fryer, which cooks food in oil, an air fryer heats air to very high temperatures, up to 220°C (425°F), and a powerful fan positioned beneath the lid drives it around the food at high speed. This concentrated flow of hot air speeds up the Maillard reaction and creates a crisp outer layer within minutes. The heating element above the basket produces the heat, while the fan keeps the air circulating evenly. Thanks to this system, an air fryer draws only 800 to 1,800 watts and reaches cooking temperature in just two to three minutes. Food sits in a perforated basket that lets air reach every surface, creating that coveted "fried" texture without a single drop of added oil. Crumbs and drippings fall to the bottom of the unit, away from the basket, so cleanup afterward is quick.',
+    how_oven_works_title: 'How Does a Traditional Oven Work?',
+    how_oven_works: 'A traditional electric or gas oven heats the air inside it through radiation and conduction. An electric element (or a gas burner) at the bottom and/or top of the oven produces heat that gradually spreads through the cavity. The process is fairly slow: most conventional ovens take 10 to 15 minutes to preheat to 200°C (400°F). Once hot, radiant and conducted heat surrounds the food more gently and evenly than in an air fryer, which gives uniform cooking but not that quick, crisp exterior. Many modern ovens have a convection setting that adds a fan to move the air a little faster, which improves evenness and cuts cooking times by 10 to 20%. Even in convection mode, though, power draw stays high: 2,000 to 3,000 watts depending on the model. The large cavity (50 to 80 litres) takes a lot of energy to hold a steady temperature. In return, an oven lets you cook several dishes at once — a real advantage for larger families or more elaborate meals.',
+    comparison_title: 'Detailed comparison across 7 criteria',
+    rows: [
+      {
+        criteria: 'Preheat time',
+        airfryer: '2–3 minutes',
+        oven: '10–15 minutes',
+      },
+      {
+        criteria: 'Energy consumption',
+        airfryer: '800–1,800 W (30–50% savings)',
+        oven: '2,000–3,000 W',
+      },
+      {
+        criteria: 'Crispy cooking quality',
+        airfryer: 'Excellent (concentrated air)',
+        oven: 'Good (convection)',
+      },
+      {
+        criteria: 'Maximum capacity',
+        airfryer: '3–10 L (1–8 people)',
+        oven: '50–80 L (unlimited)',
+      },
+      {
+        criteria: 'Ease of cleaning',
+        airfryer: 'Very easy (removable basket)',
+        oven: 'Difficult (unless self-cleaning)',
+      },
+      {
+        criteria: 'Versatility',
+        airfryer: 'Fries, meat, vegetables, cakes',
+        oven: 'All types of dishes',
+      },
+      {
+        criteria: 'Average price',
+        airfryer: '$100–$600',
+        oven: '$300–$3,000',
+      },
+    ],
+    cooking_time_title: 'Cooking Time: The Air Fryer Wins on Speed',
+    cooking_time: 'The biggest difference between the two appliances is cooking time. A portion of frozen fries takes about 15 minutes in an air fryer (preheating included), compared with 35 to 40 minutes in a conventional oven. A whole chicken? 25 to 30 minutes in an air fryer versus 55 to 60 minutes in the oven. Times vary with size and thickness, but the pattern holds: on average, an air fryer cuts cooking time by 50 to 60%. That matters for busy families who want a complete meal on the table in under 30 minutes. Because an air fryer preheats in two to three minutes, you can start cooking almost as soon as you switch it on, while an oven makes you wait 10 to 15 minutes. For pasta, rice or slow-simmered dishes, the gap is smaller, since ovens handle long, slow cooking better.',
+    energy_consumption_title: 'Energy Consumption: Substantial Savings',
+    energy_consumption: 'Energy use is a key factor for any household watching its electricity bill. An air fryer typically draws 800 to 1,800 watts, while a conventional electric oven runs at 2,000 to 3,000 watts. Used 30 minutes a day (roughly one air fryer batch), an air fryer uses 0.4 to 0.9 kWh a day, or 146 to 329 kWh a year. An oven used 50 minutes a day uses 1.67 to 2.5 kWh a day, or 610 to 912 kWh a year. At an example rate of 10¢ per kWh, switching entirely from the oven to the air fryer saves about $45 to $75 a year. Your actual rate depends on your province and your utility, so check your electricity bill. If you keep both appliances and use the air fryer alongside the oven, most of the savings come from quick everyday cooking. Most recent air fryers also have smart temperature control that cuts power use while keeping food warm.',
+    cooking_quality_title: 'Cooking Quality: Two Different Approaches',
+    cooking_quality: 'The two technologies take fundamentally different approaches. The air fryer excels at crisp, golden textures: its concentrated stream of very hot air speeds up caramelization. Fries, nuggets, chicken wings, jumbo shrimp: all come out very crisp outside and tender inside. The results come close to deep-fried food without the extra calories from oil. A traditional oven, especially in convection mode, cooks more evenly but browns less aggressively. Surfaces caramelize more slowly, though large pieces often cook more uniformly all the way through. For Neapolitan pizza or sourdough bread, the oven gives a better texture with a more measured crispness. Beef or lamb roasts develop a beautiful golden crust in the oven, though usually a less intense one than in an air fryer. For baking, the oven has no rival: cakes, breads and pastries need steadier, more gradual heat than an air fryer can reliably deliver. A sponge cake baked in an air fryer risks a dry crust and an undercooked centre.',
+    capacity_title: 'Capacity and Versatility: What Each Does Best',
+    capacity: 'A typical air fryer holds 3 to 10 litres (3.2 to 10.6 qt), enough for one to eight people depending on the dish. In one batch you can cook four or five servings of fries, two or three chicken breasts or roughly 20 to 30 broccoli florets. For a family of four or five, that\'s often enough for a full meal. Ovens offer 50 to 80 litres (sometimes more on larger models), so you can cook several dishes at once: a roast, roasted vegetables and a gratin on three separate racks. That capacity is hard to replace for family meals or when you entertain. As for versatility, the air fryer handles a lot: fries, white or red meat, fish, seafood, vegetables, even simple desserts (brownies, fruit crisps). Some dishes are beyond it: artisan pizza, homemade bread, tarte Tatin or baked pasta. The oven is still the right tool for those. A popular compromise is to own both: use the air fryer five or six days a week for quick, economical cooking, and the oven one or two days a week for more elaborate or family meals.',
+    cleaning_title: 'Ease of Cleaning: Clear Air Fryer Victory',
+    cleaning: 'Cleaning is one of the biggest frustrations for oven owners. Splatters, spills and baked-on grease build up on the walls, and all of it needs regular, tedious scrubbing. Ovens without a self-cleaning cycle have to be scrubbed by hand with harsh cleaners, while self-cleaning models (which cost more) burn off residue at around 500°C (930°F), giving off extra heat and using more energy. An air fryer, by contrast, needs just two or three minutes of cleanup after cooking. The basket and drip tray come out and wash easily in the dishwasher or in hot, soapy water. Grease doesn\'t splatter the inside walls, because it drains into the tray. No harsh chemicals needed. This easy cleanup is especially valuable for busy families or anyone who\'d rather spend less time on chores.',
+    noise_title: 'Noise and Odours: Very Different Usage Conditions',
+    noise: 'With its powerful fan, an air fryer produces a distinctive 75 to 85 decibels while cooking, comparable to a running dishwasher. Some people find it annoying, especially in an open-concept kitchen. A traditional oven is practically silent, apart from when you open the door or its internal fan kicks in. As for odours, an air fryer concentrates cooking vapours in a small space, so smells — good or bad — spread more strongly. Cooking fish or cabbage in an air fryer quickly fills the room with distinctive smells. An oven, with its larger cavity and more diffuse venting, dilutes those odours. A good range hood is recommended with either appliance.',
+    cost_title: 'Purchase Price and Durability: Financial Considerations',
+    cost: 'Air fryer prices range from about $100 for basic entry-level models to $600 for premium models with advanced features (touch screen, multiple levels, smartphone apps). Most reliable, well-built models cost $150 to $300. A conventional electric oven costs $300 to $800 for a standard model, and a lot more for a wall oven or a premium range. In terms of durability, an air fryer typically lasts five to eight years before the heating element or fan wears out. Ovens last longer (8 to 15 years) but need more maintenance. The air fryer\'s low upfront cost, combined with long-term energy savings (about $45 to $75 a year at 10¢/kWh), gives it an attractive return on investment (ROI), especially for small households.',
+    when_choose_airfryer_title: 'When to Choose an Air Fryer',
+    when_choose_airfryer: 'An air fryer is ideal if you live alone or as a couple, work full time with little time to cook in the evening, or want to cut your energy use and carbon footprint. It\'s also a good fit if you follow a specific diet (keto, gluten-free, calorie-conscious), since oil-free "fried" food suits those needs well. Health-conscious cooks especially appreciate skipping the cooking oil and the calories that come with it. Finally, if you live in a small apartment, an air fryer takes up far less room than even a compact oven.',
+    when_keep_oven_title: 'When to Keep Your Oven',
+    when_keep_oven: 'Keep your oven if you have a larger family (five or more people), love baking, entertain often or make elaborate dishes with several cooking stages at once. The oven is indispensable for homemade pizza, artisan bread, baked pasta, sweet or savoury tarts and big roasts. If you batch-cook on Sundays to prepare the week\'s meals, the oven lets you cook several dishes at once, which a single-basket air fryer can\'t do.',
+    replace_oven_title: 'Can You Replace Your Oven With an Air Fryer?',
+    replace_oven: 'The honest answer: not completely, except for certain profiles. If you live alone or as a couple without children and only cook simple, quick meals (grilled meat, fries, roasted vegetables), an air fryer alone can technically do the job. You\'ll lose the ability to bake, make pizza or cook whole roasts, but you\'ll gain 50% energy savings and a lot of convenience. For families with children or avid home cooks, replacing the oven with an air fryer would be a mistake: you\'d limit your options too much. For most households, the best setup is to own both: use the air fryer five or six days a week for quick, economical cooking, and the oven one or two days a week for more elaborate or family meals. This combination gives you the best of both worlds: maximum energy savings, full flexibility in the kitchen and less stress at dinnertime.',
+    verdict_title: 'Our Final Verdict',
+    verdict: 'An air fryer doesn\'t replace an oven, but it complements one perfectly. For quick everyday cooking (fries, chicken, roasted vegetables), the air fryer is hard to beat for speed and energy savings. The oven remains essential for large roasts, baking and cooking in quantity. In 2026, with energy costs on everyone\'s mind, an air fryer has become close to a must-have for any household looking to modernize its kitchen.',
+    choose_airfryer_title: 'Choose an air fryer if...',
+    choose_airfryer: 'You often cook for one to four people, want quick, crispy results, want to save on your energy bill or are short on time during the week.',
+    choose_oven_title: 'Keep your oven if...',
+    choose_oven: 'You regularly cook for six or more people, bake (cakes, bread, pizza), make whole roasts or need to cook several dishes at once.',
   },
 }
 
@@ -410,7 +633,10 @@ const metaTitles: Record<string, string> = {
   es: 'Freidora de Aire vs Horno: ¿Cuál es Mejor? | Home Nura',
   it: 'Friggitrice ad Aria vs Forno: Qual è Meglio? | Home Nura',
   nl: 'Airfryer vs Oven: Wat is Beter? | Home Nura',
-  pl: 'Frytkownica beztłuszczowa vs piekarnik: co wybrać? | Home Nura',
+  pl: 'Frytkownica beztłuszczowa czy piekarnik? | Home Nura',
+  sv: 'Airfryer eller ugn: vilken är bäst? | Home Nura',
+  us: 'Air Fryer vs. Oven: Which Is Better? | Home Nura',
+  ca: 'Air Fryer vs Oven: Which is Better? | Home Nura',
 }
 
 
@@ -585,8 +811,8 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
         </div>
 
         {(() => {
-          const criteriaLabel = lang === 'fr' ? 'Critère' : lang === 'de' ? 'Kriterium' : lang === 'es' ? 'Criterio' : lang === 'it' ? 'Criterio' : lang === 'nl' ? 'Criterium' : lang === 'pl' ? 'Kryterium' : 'Criteria'
-          const ovenLabel = lang === 'fr' ? 'Four' : lang === 'de' ? 'Backofen' : lang === 'es' ? 'Horno' : lang === 'it' ? 'Forno' : lang === 'nl' ? 'Oven' : lang === 'pl' ? 'Piekarnik' : 'Oven'
+          const criteriaLabel = lang === 'fr' ? 'Critère' : lang === 'de' ? 'Kriterium' : lang === 'es' ? 'Criterio' : lang === 'it' ? 'Criterio' : lang === 'nl' ? 'Criterium' : lang === 'pl' ? 'Kryterium' : lang === 'sv' ? 'Kriterium' : lang === 'us' ? 'Criterion' : lang === 'ca' ? 'Criteria' : 'Criteria'
+          const ovenLabel = lang === 'fr' ? 'Four' : lang === 'de' ? 'Backofen' : lang === 'es' ? 'Horno' : lang === 'it' ? 'Forno' : lang === 'nl' ? 'Oven' : lang === 'pl' ? 'Piekarnik' : lang === 'sv' ? 'Ugn' : lang === 'us' ? 'Oven' : lang === 'ca' ? 'Oven' : 'Oven'
           return (
             <>
               {/* Mobile: stacked card layout for readability */}
@@ -657,7 +883,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
         <div className="divide-y divide-slate-200">
           {chapters.map((chapter, i) => (
             <article key={i} className="py-14 md:py-16 first:pt-10">
-              <Kicker className="mb-4">Chapitre · {roman[i]}</Kicker>
+              <Kicker className="mb-4">{CHAPTER_LABEL[resolveLang(lang)]} · {roman[i]}</Kicker>
               <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
                 {chapter.title}
               </h3>
@@ -711,7 +937,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
           <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-brand-500/10 blur-3xl"></div>
           <div className="relative">
             <Kicker variant="blue-light" className="mb-6">
-              {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : lang === 'pl' ? 'Werdykt' : 'Verdict'}
+              {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : lang === 'pl' ? 'Werdykt' : lang === 'sv' ? 'Omdöme' : lang === 'us' ? 'Verdict' : lang === 'ca' ? 'Verdict' : 'Verdict'}
             </Kicker>
             <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] mb-6 max-w-2xl">{c.verdict_title}</h2>
             <div className="h-[2px] w-16 bg-brand-400 mb-8"></div>
@@ -752,10 +978,10 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       <section className="max-w-5xl mx-auto px-6 py-20 md:py-24 border-t border-slate-200">
         <div className="text-center mb-14">
           <Kicker className="mb-4">
-            {lang === 'fr' ? 'À lire aussi' : lang === 'de' ? 'Auch lesen' : lang === 'es' ? 'Leer también' : lang === 'it' ? 'Leggi anche' : lang === 'nl' ? 'Lees ook' : lang === 'pl' ? 'Przeczytaj też' : 'Also read'}
+            {lang === 'fr' ? 'À lire aussi' : lang === 'de' ? 'Auch lesen' : lang === 'es' ? 'Leer también' : lang === 'it' ? 'Leggi anche' : lang === 'nl' ? 'Lees ook' : lang === 'pl' ? 'Przeczytaj też' : lang === 'sv' ? 'Läs också' : lang === 'us' ? 'Read next' : lang === 'ca' ? 'Also read' : 'Also read'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-4">
-            {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : lang === 'pl' ? 'Powiązane poradniki' : 'Related Guides'}
+            {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : lang === 'pl' ? 'Powiązane poradniki' : lang === 'sv' ? 'Relaterade guider' : lang === 'us' ? 'Related guides' : lang === 'ca' ? 'Related Guides' : 'Related Guides'}
           </h2>
           <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
         </div>
@@ -764,20 +990,20 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
             {
               href: `/${lang}/guides/airfryers`,
               num: '01',
-              title: lang === 'fr' ? 'Guide complet des airfryers 2026' : lang === 'de' ? 'Kompletter Airfryer-Ratgeber 2026' : lang === 'es' ? 'Guía completa de freidoras 2026' : lang === 'it' ? 'Guida completa friggitrici 2026' : lang === 'nl' ? 'Complete airfryer-gids 2026' : lang === 'pl' ? 'Kompletny poradnik: frytkownice beztłuszczowe 2026' : 'Complete Air Fryer Guide 2026',
-              desc: lang === 'fr' ? 'Tous les critères pour bien choisir votre airfryer.' : lang === 'de' ? 'Alle Kriterien für die richtige Wahl.' : lang === 'es' ? 'Todos los criterios para elegir bien.' : lang === 'it' ? 'Tutti i criteri per scegliere bene.' : lang === 'nl' ? 'Alle criteria om goed te kiezen.' : lang === 'pl' ? 'Wszystkie kryteria, by dobrze wybrać frytkownicę beztłuszczową.' : 'All criteria to choose the right one.',
+              title: lang === 'fr' ? 'Guide complet des airfryers 2026' : lang === 'de' ? 'Kompletter Airfryer-Ratgeber 2026' : lang === 'es' ? 'Guía completa de freidoras 2026' : lang === 'it' ? 'Guida completa friggitrici 2026' : lang === 'nl' ? 'Complete airfryer-gids 2026' : lang === 'pl' ? 'Kompletny poradnik: frytkownice beztłuszczowe 2026' : lang === 'sv' ? 'Den stora airfryerguiden 2026' : lang === 'us' ? 'The Complete Air Fryer Guide (2026)' : lang === 'ca' ? 'Complete Air Fryer Guide 2026' : 'Complete Air Fryer Guide 2026',
+              desc: lang === 'fr' ? 'Tous les critères pour bien choisir votre airfryer.' : lang === 'de' ? 'Alle Kriterien für die richtige Wahl.' : lang === 'es' ? 'Todos los criterios para elegir bien.' : lang === 'it' ? 'Tutti i criteri per scegliere bene.' : lang === 'nl' ? 'Alle criteria om goed te kiezen.' : lang === 'pl' ? 'Wszystkie kryteria, by dobrze wybrać frytkownicę beztłuszczową.' : lang === 'sv' ? 'Alla kriterier för att välja rätt airfryer.' : lang === 'us' ? 'Everything to check before you buy.' : lang === 'ca' ? 'All criteria to choose the right one.' : 'All criteria to choose the right one.',
             },
             {
               href: `/${lang}/a-propos`,
               num: '02',
-              title: lang === 'fr' ? 'Notre méthodologie' : lang === 'de' ? 'Unsere Methodik' : lang === 'es' ? 'Nuestra metodología' : lang === 'it' ? 'La nostra metodologia' : lang === 'nl' ? 'Onze methodologie' : lang === 'pl' ? 'Nasza metodologia' : 'Our Methodology',
-              desc: lang === 'fr' ? 'Comment nous comparons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse vergleichen und bewerten.' : lang === 'es' ? 'Cómo comparamos y calificamos cada freidora.' : lang === 'it' ? 'Come confrontiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer vergelijken en beoordelen.' : lang === 'pl' ? 'Jak porównujemy i oceniamy każdą frytkownicę beztłuszczową.' : 'How we compare and rate every air fryer.',
+              title: lang === 'fr' ? 'Notre méthodologie' : lang === 'de' ? 'Unsere Methodik' : lang === 'es' ? 'Nuestra metodología' : lang === 'it' ? 'La nostra metodologia' : lang === 'nl' ? 'Onze methodologie' : lang === 'pl' ? 'Nasza metodologia' : lang === 'sv' ? 'Vår metod' : lang === 'us' ? 'Our Methodology' : lang === 'ca' ? 'Our Methodology' : 'Our Methodology',
+              desc: lang === 'fr' ? 'Comment nous comparons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse vergleichen und bewerten.' : lang === 'es' ? 'Cómo comparamos y calificamos cada freidora.' : lang === 'it' ? 'Come confrontiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer vergelijken en beoordelen.' : lang === 'pl' ? 'Jak porównujemy i oceniamy każdą frytkownicę beztłuszczową.' : lang === 'sv' ? 'Så jämför och betygsätter vi varje airfryer.' : lang === 'us' ? 'How we compare and rate every air fryer.' : lang === 'ca' ? 'How we compare and rate every air fryer.' : 'How we compare and rate every air fryer.',
             },
             {
               href: `/${lang}`,
               num: '03',
-              title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : lang === 'pl' ? 'Ranking najlepszych frytkownic beztłuszczowych 2026' : 'Best Air Fryers 2026 Ranking',
-              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et scores Nura.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Nura Scores.' : lang === 'es' ? 'Nuestro top 9 con comparativa y puntuaciones Nura.' : lang === 'it' ? 'La nostra top 9 con confronto e punteggi Nura.' : lang === 'nl' ? 'Onze top 9 met vergelijking en Nura Scores.' : lang === 'pl' ? 'Nasze top 9 z porównaniem i ocenami Nura.' : 'Our top 9 with comparison and Nura scores.',
+              title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : lang === 'pl' ? 'Ranking najlepszych frytkownic beztłuszczowych 2026' : lang === 'sv' ? 'Topplista: de bästa airfryrarna 2026' : lang === 'us' ? 'Best Air Fryers of 2026: Our Ranking' : lang === 'ca' ? 'Best Air Fryers 2026 Ranking' : 'Best Air Fryers 2026 Ranking',
+              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et scores Nura.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Nura Scores.' : lang === 'es' ? 'Nuestro top 9 con comparativa y puntuaciones Nura.' : lang === 'it' ? 'La nostra top 9 con confronto e punteggi Nura.' : lang === 'nl' ? 'Onze top 9 met vergelijking en Nura Scores.' : lang === 'pl' ? 'Nasze top 9 z porównaniem i ocenami Nura.' : lang === 'sv' ? 'Vår topp 9 med jämförelse och Nura Score-betyg.' : lang === 'us' ? 'Our top 9, compared, with Nura Scores.' : lang === 'ca' ? 'Our top 9 with comparison and Nura scores.' : 'Our top 9 with comparison and Nura scores.',
             },
           ].map((item) => (
             <Link
@@ -790,7 +1016,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
               <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition-colors">{item.title}</h3>
               <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
               <div className="mt-5 flex items-center text-sm font-semibold text-brand-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : lang === 'pl' ? 'Czytaj' : 'Read'}</span>
+                <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : lang === 'pl' ? 'Czytaj' : lang === 'sv' ? 'Läs' : lang === 'us' ? 'Read' : lang === 'ca' ? 'Read' : 'Read'}</span>
                 <span className="ml-2 transition-transform group-hover:translate-x-1">&rarr;</span>
               </div>
             </Link>

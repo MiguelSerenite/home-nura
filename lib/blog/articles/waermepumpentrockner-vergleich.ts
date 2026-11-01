@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Ojo de buey de un electrodoméstico de carga frontal con ropa en el tambor, iluminado en rosa y azul',
         it: "Oblò di un elettrodomestico a carica frontale con bucato nel cestello, illuminato di rosa e blu",
         nl: 'Deur van een voorlader-wasapparaat met wasgoed in de trommel, verlicht in roze en blauw',
-        pl: 'Bębenek pralki z ładowaniem od przodu wypełniony praniem, podświetlony na różowo i niebiesko',
+        pl: 'Drzwiczki pralki ładowanej od przodu z praniem w bębnie, podświetlone na różowo i niebiesko',
+        sv: 'Luckan på en frontmatad maskin med tvätt i trumman, upplyst i rosa och blått',
+        us: 'Front-loading laundry appliance door with clothes in the drum, lit in pink and blue',
+        ca: 'Front-loading laundry appliance door with clothes in the drum, lit in pink and blue',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Confronto Asciugatrici a Pompa di Calore 2026: 6 Modelli con la Nuova Etichetta A–G',
     nl: 'Warmtepompdroger Vergelijking 2026: 6 Modellen met het Nieuwe Energielabel A–G',
     pl: 'Suszarka z pompą ciepła 2026: porównanie 6 modeli (nowa etykieta energetyczna A–G)',
+    sv: 'Värmepumpstorktumlare 2026: 6 modeller jämförda enligt nya A–G-märkningen',
+    us: 'Heat Pump Dryer Comparison 2026: 6 Models on the New EU A–G Label',
+    ca: 'Heat Pump Dryer Comparison 2026: 6 Models on the New EU A–G Label',
   },
   excerpt: {
     fr: "Quel sèche-linge à pompe à chaleur choisir en 2026 ? Bosch Serie 8, Siemens iQ700, AEG 9000X, Samsung, Miele T2 et Beko comparés selon la nouvelle étiquette énergie A–G en vigueur depuis juillet 2025 : consommation, bruit, condensation, capacité et application.",
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: '¿Qué secadora con bomba de calor elegir en 2026? Bosch Serie 8, Siemens iQ700, AEG 9000X, Samsung, Miele T2 y Beko comparadas según la nueva etiqueta energética A–G vigente desde julio de 2025: consumo, ruido, condensación, capacidad y app.',
     it: "Quale asciugatrice a pompa di calore scegliere nel 2026? Bosch Serie 8, Siemens iQ700, AEG 9000X, Samsung, Miele T2 e Beko a confronto secondo la nuova etichetta energetica A–G in vigore da luglio 2025: consumi, rumore, condensazione, capacità e app.",
     nl: 'Welke warmtepompdroger kies je in 2026? Bosch Serie 8, Siemens iQ700, AEG 9000X, Samsung, Miele T2 en Beko vergeleken op het nieuwe energielabel A–G dat sinds juli 2025 geldt: verbruik, geluid, condensatie, capaciteit en app.',
-    pl: 'Jaką suszarkę z pompą ciepła wybrać w 2026 roku? Porównujemy Bosch Serie 8, Siemens iQ700, AEG 9000X, Samsung, Miele T2 i Beko według nowej etykiety energetycznej A–G obowiązującej od lipca 2025: zużycie energii, hałas, kondensacja, pojemność i aplikacja.',
+    pl: 'Jaką suszarkę z pompą ciepła wybrać w 2026 roku? Porównujemy modele Bosch Serie 8, Siemens iQ700, AEG 9000X, Samsung, Miele T2 i Beko na podstawie nowej etykiety energetycznej A–G, obowiązującej od lipca 2025 roku: zużycie energii, hałas, skuteczność kondensacji, pojemność i aplikacja.',
+    sv: 'Vilken värmepumpstorktumlare ska du välja 2026? Bosch Serie 8, Siemens iQ700, AEG 9000X, Samsung, Miele T2 och Beko jämförda utifrån den nya energimärkningen A–G som gäller sedan juli 2025: förbrukning, ljudnivå, kondensering, kapacitet och app.',
+    us: 'Which heat pump dryer should you buy in 2026? Bosch Series 8, Siemens iQ700, AEG 9000X, Samsung, Miele T2 and Beko compared on the new EU A–G energy label in effect since July 2025: energy use, noise, condensation, capacity and app.',
+    ca: 'Which heat pump dryer should you buy in 2026? Bosch Series 8, Siemens iQ700, AEG 9000X, Samsung, Miele T2 and Beko compared on the new EU A–G energy label in force since July 2025: consumption, noise, condensation, capacity and app.',
   },
   content: {
     fr: `<p>Le meilleur sèche-linge à pompe à chaleur en 2026 est, pour la plupart des foyers, le <strong>Bosch Serie 8 WRB247C40</strong> : 9 kg, classe énergétique A sur la nouvelle étiquette, 57 dB, efficacité de condensation A et condenseur autonettoyant. Pour un budget plus serré, le <strong>Beko B7T88209</strong> (8 kg, classe A) est l'alternative la plus sobre, et si vous cherchez un appareil fait pour durer très longtemps, le <strong>Miele TQ 1000 WP Nova Edition</strong> (9 kg, classe B, fonction vapeur) est le choix le plus solide.</p>
@@ -533,88 +542,334 @@ export const article: BlogArticle = {
 
 <h2>Eindoordeel: welke warmtepompdroger kies je?</h2>
 <p>De <strong>Bosch Serie 8 WRB247C40</strong> is de meest evenwichtige warmtepompdroger van 2026: klasse A, zeer stil, condensatie A en nagenoeg onderhoudsvrij dankzij de zelfreinigende condensor. De <strong>Siemens iQ700 WR47B2C40</strong>, met dezelfde techniek, is een gelijkwaardig alternatief. Voor wol en dons heeft de <strong>AEG 9000X</strong> sterke argumenten, en voor smarthome-fans is er de <strong>Samsung DV90F09F4SU2</strong>. Gaan levensduur en zorg voor het wasgoed voor, kies dan de <strong>Miele TQ 1000 WP Nova Edition</strong>; wil je slim kopen met een beperkt budget, dan is de <strong>Beko B7T88209</strong> de juiste keuze. Vergelijk in elk geval op het nieuwe label en kijk naar het verbruik in kWh per 100 cycli.</p>`,
-    pl: `<p>Najlepszą suszarką z pompą ciepła w 2026 roku jest dla większości domów <strong>Bosch Serie 8 WRB247C40</strong>: 9 kg, klasa energetyczna A na nowej etykiecie, 57 dB, skuteczność kondensacji A i samoczyszczący się skraplacz. Przy ciaśniejszym budżecie najrozsądniejszą alternatywą jest <strong>Beko B7T88209</strong> (8 kg, klasa A), a jeśli szukasz urządzenia na bardzo wiele lat, najsolidniejszym wyborem jest <strong>Miele TQ 1000 WP Nova Edition</strong> (9 kg, klasa B, funkcja pary).</p>
-<p>To porównanie opiera się na kartach technicznych producentów, europejskiej etykiecie energetycznej i opiniach zweryfikowanych kupujących. Ważna informacja przed zakupem: od 1 lipca 2025 roku suszarki mają nową etykietę energetyczną w skali od A do G. Dawne oznaczenia „A+++” nie są więc porównywalne, co w sklepach wprowadza spore zamieszanie. Wszystkie omawiane modele zebraliśmy też w sekcji <a href="/pl/entretien-maison/lave-linge-connectes">inteligentne pralki i suszarki</a>.</p>
+    pl: `<p>Dla większości gospodarstw domowych najlepszą suszarką z pompą ciepła w 2026 roku jest <strong>Bosch Serie 8 WRB247C40</strong>: 9 kg, klasa energetyczna A na nowej etykiecie, 57 dB, klasa efektywności kondensacji A i samoczyszczący się skraplacz. Przy skromniejszym budżecie najbardziej ekonomiczną alternatywą jest <strong>Beko B7T88209</strong> (8 kg, klasa A), a jeśli szukasz urządzenia, które posłuży bardzo długo, najsolidniejszym wyborem będzie <strong>Miele TQ 1000 WP Nova Edition</strong> (9 kg, klasa B, funkcja pary).</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, europejskiej etykiecie energetycznej i opiniach zweryfikowanych kupujących. Najważniejsza informacja przed zakupem: od 1 lipca 2025 roku suszarki mają nową etykietę energetyczną ze skalą od A do G. Dawnych oznaczeń „A+++” nie da się więc porównać z nowymi klasami, co w sklepach wprowadza sporo zamieszania. Wszystkie omawiane modele znajdziesz też w kategorii <a href="/pl/entretien-maison/lave-linge-connectes">inteligentne pralki i suszarki</a>.</p>
 
-<h2>Nowa etykieta energetyczna suszarek od lipca 2025</h2>
-<p>Pralki i zmywarki przeszły na skalę A–G w 2021 roku; suszarki dołączyły <strong>1 lipca 2025</strong>. Klasy z plusami zniknęły, a progi są tak wymagające, że wiele urządzeń sprzedawanych dawniej jako A+++ trafia dziś do <strong>klasy C</strong>. Suszarka w klasie B lub C nie jest więc złym urządzeniem: po prostu oceniono ją według surowszych zasad. Na razie bardzo niewiele modeli osiąga klasę A.</p>
-<p>Nowa etykieta pokazuje znacznie więcej niż klasę:</p>
+<h2>Nowa etykieta energetyczna suszarek od lipca 2025 roku</h2>
+<p>Pralki i zmywarki przeszły na skalę A–G w 2021 roku, a suszarki – <strong>1 lipca 2025 roku</strong>. Klasy z plusami zniknęły, a progi są tak wyśrubowane, że wiele urządzeń sprzedawanych dawniej jako A+++ trafia dziś do <strong>klasy C</strong>. Suszarka klasy B lub C nie jest więc złym urządzeniem – po prostu ocenia się ją według surowszych kryteriów. Na razie klasę A osiąga bardzo niewiele modeli.</p>
+<p>Nowa etykieta podaje znacznie więcej informacji niż sama klasa:</p>
 <ul>
-<li><strong>Zużycie energii w kWh na 100 cykli</strong> w programie Eco (wartość ważona między pełnym a połowicznym załadunkiem). To najlepsza liczba do porównania dwóch modeli.</li>
-<li><strong>Znamionowa pojemność</strong> w kg oraz <strong>czas programu Eco</strong> przy pełnym załadunku, w suszarce z pompą ciepła często od trzech do czterech i pół godziny.</li>
-<li><strong>Klasa skuteczności kondensacji</strong> (A–D): ile wilgoci trafia do pojemnika zamiast do pomieszczenia.</li>
-<li><strong>Hałas</strong> w dB(A) wraz z klasą od A do D.</li>
-<li><strong>Klasa naprawialności</strong> (A–E), która wskazuje, jak łatwo urządzenie naprawić.</li>
+<li><strong>Zużycie energii w kWh na 100 cykli</strong> w programie Eco (średnia ważona z pełnego załadunku i połowy wsadu). To najlepszy parametr, gdy porównujesz dwa modele.</li>
+<li><strong>Pojemność znamionowa</strong> w kg oraz <strong>czas trwania programu Eco</strong> przy pełnym załadunku – w suszarkach z pompą ciepła często od trzech do czterech i pół godziny.</li>
+<li><strong>Klasa efektywności kondensacji</strong> (od A do D): pokazuje, jaka część wilgoci trafia do pojemnika na wodę, a nie do pomieszczenia.</li>
+<li><strong>Poziom hałasu</strong> w dB(A) wraz z klasą emisji hałasu od A do D.</li>
+<li><strong>Klasa naprawialności</strong> (od A do E), która mówi, jak łatwo naprawić urządzenie.</li>
 <li><strong>Kod QR</strong> prowadzący do karty produktu w europejskiej bazie EPREL.</li>
 </ul>
-<p>Od lipca 2025 obowiązują też surowsze wymogi ekoprojektu. W praktyce łatwo spełniają je tylko suszarki z pompą ciepła, przez co klasyczne suszarki kondensacyjne z grzałką znikają z rynku. Uważaj na wyprzedaże końcówek serii i urządzenia z drugiej ręki: nadal mogą mieć starą etykietę A+++, której nie da się porównać z nową.</p>
+<p>Od lipca 2025 roku obowiązują też ostrzejsze wymogi dotyczące ekoprojektu. W praktyce bez trudu spełniają je tylko suszarki z pompą ciepła, dlatego klasyczne suszarki kondensacyjne z grzałką znikają z rynku. Uważaj na końcówki serii i sprzęt z drugiej ręki: nadal widnieje na nich stara etykieta A+++, której nie da się porównać z nową.</p>
 
 <h2>Kryteria, które naprawdę się liczą</h2>
-<h3>Zużycie w kWh, nie tylko klasa</h3>
-<p>Nawet w tej samej klasie występują różnice. Modele klasy A z tego porównania zużywają około 79 kWh na 100 cykli (Bosch, Siemens, AEG, Samsung), a Miele w klasie B 92 kWh. Przy 100–200 cyklach rocznie różnica między A i B jest realna, ale niewielka. O wiele większa jest przepaść względem starej suszarki kondensacyjnej bez pompy ciepła: Bosch deklaruje dla modelu WRB247C40 oszczędność energii sięgającą około trzech czwartych w porównaniu z konwencjonalnymi suszarkami.</p>
+<h3>Zużycie energii w kWh, a nie tylko klasa</h3>
+<p>Nawet w obrębie jednej klasy modele się różnią. Suszarki klasy A z tego porównania zużywają około 79 kWh na 100 cykli (Bosch, Siemens, AEG, Samsung), a Miele z klasą B – 92 kWh. Przy 100–200 cyklach rocznie różnica między klasą A a B jest odczuwalna, ale niewielka. Znacznie większa przepaść dzieli je od starych suszarek kondensacyjnych bez pompy ciepła: Bosch deklaruje, że model WRB247C40 zużywa nawet o około trzy czwarte mniej energii niż konwencjonalne suszarki.</p>
 <h3>Pojemność</h3>
-<p>Dla jednej lub dwóch osób wystarczy 7–8 kg; dla rodziny odpowiednie jest 9 kg. Prosta zasada: suszarka powinna przyjąć co najmniej tyle samo prania co Twoja pralka, inaczej trzeba będzie dzielić wsady. Duży bęben, często wypełniony tylko w połowie, jest mniej wydajny.</p>
-<h3>Hałas i skuteczność kondensacji</h3>
-<p>Między 57 a 60 dB(A) suszarkę uważa się za cichą. Jeśli stanie blisko sypialni lub w otwartej kuchni, celuj w klasę hałasu A. Skuteczność kondensacji ma znaczenie głównie wtedy, gdy urządzenie stoi w łazience lub małym pomieszczeniu bez okna: klasa A oznacza mniej wilgoci uwalnianej do powietrza.</p>
+<p>Dla jednej lub dwóch osób wystarczy 7–8 kg, a dla rodziny najlepiej sprawdzi się 9 kg. Prosta zasada: suszarka powinna mieścić co najmniej tyle prania, ile Twoja pralka – inaczej trzeba będzie dzielić wsad na części. Duży bęben, który zwykle pracuje w połowie pusty, jest mniej efektywny.</p>
+<h3>Hałas i efektywność kondensacji</h3>
+<p>Suszarkę o głośności 57–60 dB(A) uważa się za cichą. Jeśli ma stać obok sypialni albo w kuchni otwartej na salon, wybierz model z klasą hałasu A. Efektywność kondensacji ma znaczenie przede wszystkim wtedy, gdy urządzenie stoi w łazience lub w małym pomieszczeniu bez okna – klasa A oznacza, że do powietrza trafia mniej wilgoci.</p>
 <h3>Samoczyszczący się skraplacz</h3>
-<p>Wymiennik suszarki z pompą ciepła traci skuteczność, gdy gromadzi się na nim kłaczki. W Boschu i Siemensie samoczyszczący się skraplacz jest płukany kilka razy w trakcie cyklu, co utrzymuje stabilne zużycie energii na długie lata. Bez tej funkcji trzeba regularnie czyścić filtry lub skraplacz ręcznie.</p>
+<p>Wymiennik w suszarce z pompą ciepła traci wydajność, gdy osadzają się na nim kłaczki. W suszarkach Bosch i Siemens samoczyszczący się skraplacz jest płukany wodą kilka razy w trakcie cyklu, dzięki czemu zużycie energii pozostaje stabilne przez lata. Bez tej funkcji filtry lub skraplacz trzeba regularnie czyścić ręcznie.</p>
 <h3>Czujniki, programy i para</h3>
-<p>Czujniki wilgotności przerywają cykl, gdy pranie osiągnie wybrany stopień wysuszenia, co chroni przed przesuszeniem. Najprzydatniejsze są programy do wełny, sportowy/outdoor, szybki oraz funkcja pary, która zmniejsza zagniecenia i ułatwia prasowanie.</p>
-<h3>Aplikacja: wygodna, ale niekonieczna</h3>
-<p>Aplikacja informuje o końcu cyklu, przypomina o czyszczeniu filtra i pozwala opóźnić start, na przykład na moment, gdy działają Twoje panele fotowoltaiczne. Bosch i Siemens używają Home Connect, Miele własnej aplikacji Miele, Samsung SmartThings, a AEG własnej aplikacji przez Wi-Fi. Beko steruje się przez HomeWhiz po Bluetooth, czyli tylko w pobliżu urządzenia.</p>
+<p>Czujniki wilgotności kończą cykl, gdy tylko pranie osiągnie wybrany stopień wysuszenia, dzięki czemu tkaniny nie są przesuszane. Najbardziej przydają się programy do wełny, odzieży sportowej i outdoorowej, program szybki oraz funkcja pary, która ogranicza zagniecenia i ułatwia prasowanie.</p>
+<h3>Aplikacja: wygodna, ale nie niezbędna</h3>
+<p>Aplikacja informuje o końcu cyklu, przypomina o czyszczeniu filtra i pozwala zaprogramować opóźniony start, na przykład na porę, gdy Twoje panele fotowoltaiczne produkują prąd. Bosch i Siemens korzystają z aplikacji Home Connect, Miele – z aplikacji Miele, Samsung – ze SmartThings, a AEG – z własnej aplikacji działającej przez Wi-Fi. Suszarką Beko steruje się w aplikacji HomeWhiz przez Bluetooth, a więc tylko z bliska.</p>
 
-<h2>6 suszarek z pompą ciepła w porównaniu</h2>
-<h3>1. Bosch Serie 8 WRB247C40: najlepszy wybór ogólny</h3>
-<p>WRB247C40 należy do nielicznych suszarek klasy A na nowej etykiecie: 79 kWh na 100 cykli, 57 dB(A) w klasie hałasu A, skuteczność kondensacji A i, według karty technicznej, klasa naprawialności A. Samoczyszczący się skraplacz utrzymuje wymiennik w czystości, a w obiegu pracuje naturalny czynnik chłodniczy R290.</p>
-<p><strong>Mocne strony:</strong> najwyższe noty w każdej pozycji etykiety, bardzo cicha praca, prawie bezobsługowy skraplacz, Home Connect ze zdalnym startem i zarządzaniem energią.<br><strong>Ograniczenia:</strong> program Eco trwa według karty technicznej około czterech i pół godziny przy pełnym załadunku; segment premium.<br><strong>Dla kogo:</strong> dla rodzin, które dużo suszą i chcą urządzenia oszczędnego, dyskretnego i mało wymagającego w obsłudze.</p>
+<h2>Porównanie 6 suszarek z pompą ciepła</h2>
+<h3>1. Bosch Serie 8 WRB247C40: najlepszy wybór dla większości</h3>
+<p>Model WRB247C40 to jedna z nielicznych suszarek z klasą A według nowej etykiety: 79 kWh na 100 cykli, 57 dB(A) i klasa hałasu A, klasa efektywności kondensacji A oraz – według karty katalogowej – klasa naprawialności A. Samoczyszczący się skraplacz dba o czystość wymiennika, a czynnikiem chłodniczym jest naturalny R290.</p>
+<p><strong>Mocne strony:</strong> najwyższe klasy we wszystkich kategoriach etykiety, bardzo cicha praca, skraplacz praktycznie niewymagający konserwacji, Home Connect ze zdalnym startem i zarządzaniem energią.<br><strong>Ograniczenia:</strong> według karty katalogowej program Eco przy pełnym załadunku trwa około czterech i pół godziny; model z wyższej półki.<br><strong>Dla kogo:</strong> dla rodzin, które dużo suszą i chcą urządzenia oszczędnego, cichego i niewymagającego wiele konserwacji.</p>
 <h3>2. Siemens iQ700 WR47B2C40: ta sama technologia, inna marka</h3>
-<p>Siemens i Bosch należą do tej samej grupy i widać to w karcie technicznej: WR47B2C40 również osiąga klasę A ze zużyciem 79 kWh na 100 cykli, 57 dB(A), skutecznością kondensacji A i samoczyszczącym się skraplaczem. Różnice dotyczą głównie wyglądu, interfejsu i nazw programów.</p>
-<p><strong>Mocne strony:</strong> taka sama wydajność i cicha praca jak w Boschu, Home Connect.<br><strong>Ograniczenia:</strong> równie długi program Eco; brak przewagi technicznej nad Boschem.<br><strong>Dla kogo:</strong> dla tych, którzy mają już pralkę Siemens albo znajdą lepszą ofertę na ten model.</p>
-<h3>3. AEG 9000X TR9XW80890: do wełny i delikatnego prania</h3>
-<p>Seria 9000X marki AEG zdobywa trzy razy A: za efektywność energetyczną (79 kWh na 100 cykli), skuteczność kondensacji (94%) i klasę hałasu, przy 60 dB(A). Technologia 3D Scan mierzy wilgotność nawet w grubych rzeczach, takich jak kurtki puchowe i kołdry, a SmartDry pozwala wybrać priorytet: czas lub energię. Program do wełny ma certyfikat Woolmark.</p>
-<p><strong>Mocne strony:</strong> bardzo równomierne suszenie grubych tkanin, doskonała kondensacja, aplikacja przez Wi-Fi, silnik Inverter.<br><strong>Ograniczenia:</strong> nieco głośniejsza niż Bosch i Siemens; segment premium, z funkcjami przydatnymi głównie przy delikatnym praniu.<br><strong>Dla kogo:</strong> dla domów, w których suszy się dużo wełny, puchu lub odzieży technicznej.</p>
+<p>Siemens i Bosch należą do tego samego koncernu, co widać w karcie katalogowej: model WR47B2C40 również osiąga klasę A przy zużyciu 79 kWh na 100 cykli, ma 57 dB(A), klasę efektywności kondensacji A i samoczyszczący się skraplacz. Różnice dotyczą głównie wzornictwa, interfejsu i nazw programów.</p>
+<p><strong>Mocne strony:</strong> taka sama efektywność energetyczna i równie cicha praca jak w suszarce Bosch, Home Connect.<br><strong>Ograniczenia:</strong> program Eco trwa równie długo; brak przewagi technicznej nad modelem Bosch.<br><strong>Dla kogo:</strong> dla osób, które mają już pralkę Siemens albo znajdą korzystniejszą ofertę na ten model.</p>
+<h3>3. AEG 9000X TR9XW80890: do wełny i delikatnych tkanin</h3>
+<p>Seria 9000X marki AEG uzyskuje klasę A w trzech kategoriach: efektywności energetycznej (79 kWh na 100 cykli), efektywności kondensacji (94%) i hałasu – przy 60 dB(A). Technologia 3D Scan mierzy wilgotność nawet wewnątrz grubych rzeczy, takich jak kurtki puchowe czy kołdry, a SmartDry pozwala postawić na krótszy czas albo mniejsze zużycie energii. Program do wełny ma certyfikat Woolmark.</p>
+<p><strong>Mocne strony:</strong> bardzo równomierne suszenie grubych tkanin, doskonała kondensacja, sterowanie z aplikacji przez Wi-Fi, silnik inwerterowy.<br><strong>Ograniczenia:</strong> nieco głośniejsza od modeli Bosch i Siemens; model z wyższej półki, którego funkcje przydają się głównie przy delikatnych tkaninach.<br><strong>Dla kogo:</strong> dla gospodarstw domowych, w których suszy się dużo wełny, puchu lub odzieży technicznej.</p>
 <h3>4. Samsung DV90F09F4SU2: wygoda i duży ekran</h3>
-<p>Ten 9-kilogramowy Samsung ma klasę A (około 0,79 kWh na cykl) i 60 dB(A) w klasie hałasu A. Skuteczność jego kondensacji wynosi 88%, czyli klasę B. Wyróżnia go siedmiocalowy kolorowy ekran; automatyczne rozpoznawanie tkanin dostosowuje suszenie, a opcja QuickDrive skraca cykle. Steruje się nim przez SmartThings, także głosem.</p>
-<p><strong>Mocne strony:</strong> klasa A, wiele funkcji dla wygody, dopracowana aplikacja, silnik Inverter z dziesięcioletnią gwarancją według producenta.<br><strong>Ograniczenia:</strong> kondensacja tylko w klasie B; więcej funkcji, niż wykorzysta większość użytkowników.<br><strong>Dla kogo:</strong> dla miłośników inteligentnego domu, którzy mają już sprzęt Samsunga.</p>
+<p>Ta 9-kilogramowa suszarka Samsunga ma klasę A (ok. 0,79 kWh na cykl), a przy 60 dB(A) mieści się w klasie hałasu A. Efektywność kondensacji wynosi 88%, co odpowiada klasie B. Wyróżnia ją 7-calowy kolorowy wyświetlacz; funkcja automatycznego rozpoznawania tkanin dobiera parametry suszenia, a opcja QuickDrive skraca cykle. Można nią sterować w aplikacji SmartThings, także głosowo.</p>
+<p><strong>Mocne strony:</strong> klasa A, wiele udogodnień, dopracowana aplikacja, silnik inwerterowy objęty według producenta dziesięcioletnią gwarancją.<br><strong>Ograniczenia:</strong> kondensacja tylko w klasie B; więcej funkcji, niż wykorzysta większość użytkowników.<br><strong>Dla kogo:</strong> dla fanów inteligentnego domu, którzy mają już sprzęt Samsunga.</p>
 <h3>5. Miele TQ 1000 WP Nova Edition: inwestycja na lata</h3>
-<p>Ta suszarka Miele z serii T2 ma klasę B przy 92 kWh na 100 cykli, ale klasę hałasu A (60 dB(A)) i skuteczność kondensacji A. Oferuje kolorowy ekran M Touch Pro, SteamCare przeciw zagnieceniom, WoolDry do wełny, system zapachowy FragranceDos oraz QuickPowerDry, który według Miele suszy 4 kg łatwego w pielęgnacji prania w 49 minut. Miele deklaruje, że projektuje swoje urządzenia na 20 lat użytkowania.</p>
-<p><strong>Mocne strony:</strong> wykonanie klasy premium, troska o tkaniny, para i zapach, łączność Miele@home.<br><strong>Ograniczenia:</strong> tylko klasa B; wyraźnie droższa od pozostałych modeli.<br><strong>Dla kogo:</strong> dla tych, którzy wolą zainwestować raz i zachować urządzenie na bardzo długo.</p>
+<p>Ta suszarka Miele z serii T2 ma klasę energetyczną B (92 kWh na 100 cykli), ale klasę hałasu A (60 dB(A)) i klasę efektywności kondensacji A. Oferuje kolorowy wyświetlacz M Touch Pro, funkcję SteamCare ograniczającą zagniecenia, program WoolDry do wełny, system aromatyzowania FragranceDos oraz funkcję QuickPowerDry, która według Miele suszy 4 kg tkanin łatwych w pielęgnacji w 49 minut. Miele deklaruje, że projektuje swoje urządzenia na 20 lat użytkowania.</p>
+<p><strong>Mocne strony:</strong> staranne wykonanie z najwyższej półki, delikatne traktowanie tkanin, para i aromatyzowanie, łączność Miele@home.<br><strong>Ograniczenia:</strong> tylko klasa B; wyraźnie droższa od pozostałych modeli.<br><strong>Dla kogo:</strong> dla osób, które wolą raz zainwestować i korzystać z urządzenia bardzo długo.</p>
 <h3>6. Beko B7T88209: klasa A przy małym budżecie</h3>
-<p>Beko B7T88209 jest nieco mniejsza, z pojemnością 8 kg, ale również osiąga klasę energetyczną A i skuteczność kondensacji A. Dodaje SteamCure przeciw zagnieceniom, silnik Inverter, duży otwór drzwi i programy higieniczne. Aplikacja HomeWhiz łączy się przez Bluetooth.</p>
-<p><strong>Mocne strony:</strong> najwyższa klasa energetyczna w segmencie podstawowym i średnim, funkcja pary.<br><strong>Ograniczenia:</strong> tylko 8 kg; aplikacja ograniczona zasięgiem Bluetooth; dostępność serwisu warto sprawdzić w swojej okolicy przed zakupem.<br><strong>Dla kogo:</strong> dla par i małych rodzin, które chcą suszyć oszczędnie bez dużego budżetu.</p>
+<p>Model Beko B7T88209 jest nieco mniejszy (8 kg), ale również ma klasę energetyczną A i klasę efektywności kondensacji A. Do tego dochodzą funkcja SteamCure ograniczająca zagniecenia, silnik inwerterowy, duży otwór załadunkowy i programy higieniczne. Aplikacja HomeWhiz łączy się z suszarką przez Bluetooth.</p>
+<p><strong>Mocne strony:</strong> najwyższa klasa energetyczna wśród modeli z niższej i średniej półki, funkcja pary.<br><strong>Ograniczenia:</strong> zaledwie 8 kg; aplikacja działa tylko w zasięgu Bluetooth; przed zakupem warto sprawdzić, czy w okolicy działa autoryzowany serwis marki.<br><strong>Dla kogo:</strong> dla par i małych rodzin, które chcą suszyć oszczędnie bez dużych wydatków.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Pojemność</th><th>Klasa energetyczna (kWh/100 cykli)</th><th>Hałas</th><th>Kondensacja</th><th>Aplikacja</th><th>Idealna dla</th></tr>
+<tr><th>Model</th><th>Pojemność</th><th>Klasa energetyczna (kWh/100 cykli)</th><th>Hałas</th><th>Kondensacja</th><th>Aplikacja</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Bosch Serie 8 WRB247C40</td><td>9 kg</td><td>A (79)</td><td>57 dB (A)</td><td>A</td><td>Home Connect</td><td>Najlepszy wybór ogólny</td></tr>
-<tr><td>Siemens iQ700 WR47B2C40</td><td>9 kg</td><td>A (79)</td><td>57 dB (A)</td><td>A</td><td>Home Connect</td><td>Domy ze sprzętem Siemens</td></tr>
-<tr><td>AEG 9000X TR9XW80890</td><td>9 kg</td><td>A (79)</td><td>60 dB (A)</td><td>A (94%)</td><td>Aplikacja AEG</td><td>Wełna, puch</td></tr>
-<tr><td>Samsung DV90F09F4SU2</td><td>9 kg</td><td>A (ok. 79)</td><td>60 dB (A)</td><td>B (88%)</td><td>SmartThings</td><td>Inteligentny dom</td></tr>
-<tr><td>Miele TQ 1000 WP Nova Edition</td><td>9 kg</td><td>B (92)</td><td>60 dB (A)</td><td>A</td><td>Miele@home</td><td>Trwałość</td></tr>
+<tr><td>Bosch Serie 8 WRB247C40</td><td>9 kg</td><td>A (79)</td><td>57 dB(A)</td><td>A</td><td>Home Connect</td><td>Wybór dla większości</td></tr>
+<tr><td>Siemens iQ700 WR47B2C40</td><td>9 kg</td><td>A (79)</td><td>57 dB(A)</td><td>A</td><td>Home Connect</td><td>Domy ze sprzętem Siemens</td></tr>
+<tr><td>AEG 9000X TR9XW80890</td><td>9 kg</td><td>A (79)</td><td>60 dB(A)</td><td>A (94%)</td><td>Aplikacja AEG</td><td>Wełna i puch</td></tr>
+<tr><td>Samsung DV90F09F4SU2</td><td>9 kg</td><td>A (ok. 79)</td><td>60 dB(A)</td><td>B (88%)</td><td>SmartThings</td><td>Inteligentny dom</td></tr>
+<tr><td>Miele TQ 1000 WP Nova Edition</td><td>9 kg</td><td>B (92)</td><td>60 dB(A)</td><td>A</td><td>Miele@home</td><td>Zakup na lata</td></tr>
 <tr><td>Beko B7T88209</td><td>8 kg</td><td>A</td><td>b.d.</td><td>A</td><td>HomeWhiz (Bluetooth)</td><td>Stosunek jakości do ceny</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Porównywanie starej i nowej etykiety:</strong> końcówka serii z oznaczeniem „A+++” nie jest oszczędniejsza niż nowy model klasy B. Porównuj kWh na 100 cykli.</li>
-<li><strong>Patrzenie tylko na klasę:</strong> pojemność, hałas i skuteczność kondensacji często mają większe znaczenie na co dzień.</li>
-<li><strong>Wybór zbyt małego bębna:</strong> weź co najmniej taką pojemność jak w pralce.</li>
-<li><strong>Pomijanie wirowania:</strong> im suchsze pranie wychodzi z pralki, tym krótsze i oszczędniejsze jest suszenie. Dobrą bazą jest 1400 obr./min.</li>
-<li><strong>Zapominanie o filtrze na kłaczki:</strong> zatkany filtr wydłuża cykl i zwiększa zużycie energii. Czyść go po każdym suszeniu.</li>
-<li><strong>Opróżnianie pojemnika zamiast podłączenia:</strong> jeśli w pobliżu jest odpływ, wąż spustowy oszczędzi Ci opróżniania pojemnika po każdym cyklu.</li>
+<li><strong>Porównywanie starej i nowej etykiety:</strong> model z końcówki serii z oznaczeniem „A+++” nie jest oszczędniejszy od nowej suszarki klasy B. Porównuj zużycie w kWh na 100 cykli.</li>
+<li><strong>Patrzenie wyłącznie na klasę energetyczną:</strong> pojemność, hałas i efektywność kondensacji często mają większe znaczenie na co dzień.</li>
+<li><strong>Wybór zbyt małego bębna:</strong> postaw na co najmniej taką pojemność, jaką ma Twoja pralka.</li>
+<li><strong>Lekceważenie prędkości wirowania:</strong> im lepiej odwirowane pranie wyjmiesz z pralki, tym krócej i taniej je wysuszysz. Dobrym punktem wyjścia jest 1400 obr./min.</li>
+<li><strong>Zapominanie o filtrze kłaczków:</strong> zatkany filtr wydłuża cykl i zwiększa zużycie energii. Czyść go po każdym suszeniu.</li>
+<li><strong>Ręczne opróżnianie pojemnika zamiast podłączenia do odpływu:</strong> jeśli odpływ jest w pobliżu, wąż odpływowy zwolni Cię z opróżniania pojemnika po każdym cyklu.</li>
 </ul>
 
 <h2>Instalacja, użytkowanie i bezpieczeństwo</h2>
-<p>Suszarka z pompą ciepła nie wymaga przewodu odprowadzającego powietrze i można ją ustawić w spiżarni, łazience lub pralni. Pomieszczenie nie może być jednak zbyt zimne, bo pompa ciepła traci skuteczność w niskiej temperaturze: dopuszczalny zakres temperatury otoczenia podaje instrukcja. Zostaw trochę wolnego miejsca wokół urządzenia, aby ciepło mogło się rozproszyć.</p>
-<p>Aby postawić suszarkę na pralce, użyj <strong>zestawu łączącego producenta</strong>, aby suszarka nie przesuwała się podczas drgań. Podłącz urządzenie bezpośrednio do ściennego gniazdka z uziemieniem, nigdy do listwy zasilającej. Wiele nowszych modeli, w tym wymienione tu Bosch, Siemens i Miele, używa naturalnego czynnika chłodniczego R290 (propan). Jest lepszy dla klimatu, ale palny: wszelkie prace przy układzie chłodniczym zleć serwisowi lub wykwalifikowanemu specjaliście.</p>
-<p>Jeśli wolisz suszyć na powietrzu, osuszacz powietrza ograniczy wilgoć w mieszkaniu; zajrzyj do naszego <a href="/pl/blog/deshumidificateur-connecte-guide">poradnika o inteligentnych osuszaczach powietrza</a>. Pasującą pralkę wybierzesz z pomocą naszego <a href="/pl/blog/lave-linge-connecte-guide">porównania inteligentnych pralek</a>.</p>
+<p>Suszarka z pompą ciepła nie wymaga rury odprowadzającej powietrze na zewnątrz, więc można ją postawić w pomieszczeniu gospodarczym, łazience lub pralni. Nie może tam być jednak zbyt zimno, bo w niskiej temperaturze pompa ciepła traci wydajność – dopuszczalny zakres temperatury otoczenia znajdziesz w instrukcji obsługi. Wokół urządzenia zostaw trochę wolnej przestrzeni, żeby ciepło mogło swobodnie uchodzić.</p>
+<p>Jeśli chcesz postawić suszarkę na pralce, użyj <strong>zestawu łączącego od producenta</strong> – dzięki niemu suszarka nie zsunie się przy drganiach. Podłącz urządzenie bezpośrednio do gniazdka ściennego z uziemieniem, nigdy do listwy zasilającej. Wiele nowszych modeli, w tym opisane tu suszarki Bosch, Siemens i Miele, wykorzystuje naturalny czynnik chłodniczy R290 (propan). Jest korzystniejszy dla klimatu, ale łatwopalny, dlatego wszelkie prace przy układzie chłodniczym zlecaj wyłącznie serwisowi lub wykwalifikowanemu technikowi.</p>
+<p>Jeśli wolisz suszyć pranie na powietrzu, osuszacz pomoże ograniczyć wilgoć w mieszkaniu – zajrzyj do naszego <a href="/pl/blog/deshumidificateur-connecte-guide">poradnika o inteligentnych osuszaczach powietrza</a>. Pralkę do kompletu pomoże Ci wybrać nasze <a href="/pl/blog/lave-linge-connecte-guide">porównanie inteligentnych pralek</a>.</p>
 
 <h2>Werdykt: jaką suszarkę z pompą ciepła wybrać?</h2>
-<p><strong>Bosch Serie 8 WRB247C40</strong> to najlepiej zrównoważona suszarka z pompą ciepła 2026 roku: klasa A, bardzo cicha, kondensacja A i prawie bezobsługowa dzięki samoczyszczącemu się skraplaczowi. <strong>Siemens iQ700 WR47B2C40</strong>, z taką samą technologią, to równorzędna alternatywa. Do wełny i puchu mocne argumenty ma <strong>AEG 9000X</strong>, a dla fanów inteligentnego domu <strong>Samsung DV90F09F4SU2</strong>. Jeśli stawiasz na trwałość i troskę o tkaniny, wybierz <strong>Miele TQ 1000 WP Nova Edition</strong>; na mądry zakup najlepsza jest <strong>Beko B7T88209</strong>. W każdym przypadku porównuj według nowej etykiety i patrz na zużycie w kWh na 100 cykli.</p>`,
+<p><strong>Bosch Serie 8 WRB247C40</strong> to najlepiej wyważona suszarka z pompą ciepła 2026 roku: klasa A, bardzo cicha praca, kondensacja w klasie A i niemal bezobsługowa eksploatacja dzięki samoczyszczącemu się skraplaczowi. Równorzędną alternatywą jest <strong>Siemens iQ700 WR47B2C40</strong>, który korzysta z tej samej technologii. Przy suszeniu wełny i puchu mocne argumenty ma <strong>AEG 9000X</strong>, a fanom inteligentnego domu przypadnie do gustu <strong>Samsung DV90F09F4SU2</strong>. Jeśli najważniejsze są dla Ciebie trwałość i delikatne traktowanie tkanin, wybierz <strong>Miele TQ 1000 WP Nova Edition</strong>, a jeśli chcesz kupić rozsądnie, postaw na <strong>Beko B7T88209</strong>. Niezależnie od wyboru porównuj modele według nowej etykiety i sprawdzaj zużycie energii w kWh na 100 cykli.</p>`,
+    sv: `<p>För de flesta hushåll är <strong>Bosch Serie 8 WRB247C40</strong> den bästa värmepumpstorktumlaren 2026: 9 kg, energiklass A på den nya märkningen, 57 dB, kondenseringseffektivitet A och självrengörande kondensor. Vill du lägga mindre pengar är <strong>Beko B7T88209</strong> (8 kg, klass A) det snålaste alternativet, och letar du efter en maskin som ska hålla i många år är <strong>Miele TQ 1000 WP Nova Edition</strong> (9 kg, klass B, ångfunktion) det mest gedigna valet.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, EU:s energimärkning och verifierade köparomdömen. En viktig sak innan du köper: sedan den 1 juli 2025 har torktumlare en ny energimärkning med en skala från A till G. Gamla klasser som ”A+++” går därför inte längre att jämföra rakt av, vilket skapar mycket förvirring i butikerna. Alla modeller i jämförelsen finns också samlade i vår kategori <a href="/sv/entretien-maison/lave-linge-connectes">smarta tvättmaskiner och torktumlare</a>.</p>
+
+<h2>Den nya energimärkningen för torktumlare sedan juli 2025</h2>
+<p>Tvättmaskiner och diskmaskiner gick över till skalan A–G 2021, och torktumlarna följde efter den <strong>1 juli 2025</strong>. Plusklasserna är borta, och gränserna är så tuffa att många maskiner som tidigare såldes som A+++ i dag hamnar i <strong>klass C</strong>. En torktumlare i klass B eller C är alltså ingen dålig maskin: den bedöms bara efter strängare regler. Än så länge är det mycket få modeller som når klass A.</p>
+<p>Den nya märkningen visar mycket mer än energiklassen:</p>
+<ul>
+<li><strong>Energiförbrukningen i kWh per 100 cykler</strong> på Eco-programmet (ett viktat värde av full och halv last). Det är den bästa siffran när du jämför två modeller.</li>
+<li><strong>Nominell kapacitet</strong> i kg och <strong>programtiden för Eco</strong> vid full last, ofta tre till fyra och en halv timme för en värmepumpstorktumlare.</li>
+<li>En <strong>klass för kondenseringseffektivitet</strong> (A till D): hur stor del av fukten som hamnar i behållaren i stället för i rummet.</li>
+<li><strong>Ljudnivån</strong> i dB(A), med en bullerklass från A till D.</li>
+<li>En <strong>reparerbarhetsklass</strong> (A till E), som visar hur lätt maskinen är att reparera.</li>
+<li>En <strong>QR-kod</strong> som leder till produktbladet i EU:s produktdatabas EPREL.</li>
+</ul>
+<p>Sedan juli 2025 gäller också strängare ekodesignkrav. I praktiken är det bara maskiner med värmepump som klarar dem utan problem, och därför försvinner de klassiska kondenstorktumlarna med värmeelement. Var uppmärksam på utgående modeller och begagnat: där står ofta den gamla märkningen A+++ kvar, och den går inte att jämföra med den nya.</p>
+
+<h2>Det som verkligen spelar roll</h2>
+<h3>Förbrukningen i kWh, inte bara klassen</h3>
+<p>Även inom samma klass finns det skillnader. Modellerna i klass A i den här jämförelsen drar omkring 79 kWh per 100 cykler (Bosch, Siemens, AEG, Samsung), och Miele i klass B 92 kWh. Med 100–200 cykler om året är skillnaden mellan A och B verklig men liten. Skillnaden blir mycket större mot en gammal kondenstorktumlare utan värmepump: Bosch uppger att WRB247C40 sparar upp till ungefär tre fjärdedelar av energin jämfört med konventionella torktumlare.</p>
+<h3>Kapacitet</h3>
+<p>För en eller två personer räcker 7–8 kg, och för en familj är 9 kg lagom. En enkel tumregel: torktumlaren ska klara minst lika mycket tvätt som tvättmaskinen, annars måste du dela upp tvätten. En stor trumma som oftast körs halvfull är mindre effektiv.</p>
+<h3>Ljudnivå och kondenseringseffektivitet</h3>
+<p>Mellan 57 och 60 dB(A) räknas en torktumlare som tyst. Står den nära ett sovrum eller i ett öppet kök bör du sikta på bullerklass A. Kondenseringseffektiviteten spelar störst roll om maskinen står i ett badrum eller ett litet rum utan fönster: klass A innebär att mindre fukt släpps ut i luften.</p>
+<h3>Självrengörande kondensor</h3>
+<p>Värmeväxlaren i en värmepumpstorktumlare blir mindre effektiv när ludd samlas på den. Hos Bosch och Siemens spolar en självrengörande kondensor av den flera gånger per cykel, så att förbrukningen håller sig stabil år efter år. Utan den funktionen måste du rengöra filtren eller kondensorn för hand med jämna mellanrum.</p>
+<h3>Sensorer, program och ånga</h3>
+<p>Fuktsensorer stoppar programmet så snart den torrhetsgrad du har valt är nådd, så att tvätten inte blir övertorkad. Program för ylle, sport och friluftskläder, snabbprogram och en ångfunktion som minskar skrynklor och gör strykningen enklare är de mest användbara extrafunktionerna.</p>
+<h3>Appen: praktisk men inte nödvändig</h3>
+<p>Appen talar om när programmet är klart, påminner dig om att rengöra filtret och låter dig senarelägga starten, till exempel till när dina solceller producerar el. Bosch och Siemens använder Home Connect, Miele sin Miele-app, Samsung SmartThings och AEG en egen app via wifi. Beko-maskinen styrs med HomeWhiz via Bluetooth, alltså bara när du är i närheten av den.</p>
+
+<h2>De 6 värmepumpstorktumlarna i jämförelsen</h2>
+<h3>1. Bosch Serie 8 WRB247C40: bäst totalt</h3>
+<p>WRB247C40 är en av få torktumlare med klass A på den nya märkningen: 79 kWh per 100 cykler, 57 dB(A) i bullerklass A, kondenseringseffektivitet A och, enligt produktbladet, reparerbarhetsklass A. Den självrengörande kondensorn håller värmeväxlaren fri från ludd, och maskinen använder det naturliga köldmediet R290.</p>
+<p><strong>Styrkor:</strong> toppbetyg i alla kategorier på märkningen, mycket tyst, kondensorn behöver nästan ingen skötsel, Home Connect med fjärrstart och energistyrning.<br><strong>Svagheter:</strong> Eco-programmet tar ungefär fyra och en halv timme vid full last enligt produktbladet, och maskinen ligger i den övre prisklassen.<br><strong>Passar för:</strong> familjer som torktumlar mycket och vill ha en energisnål, tyst maskin som kräver lite skötsel.</p>
+<h3>2. Siemens iQ700 WR47B2C40: samma teknik, annat märke</h3>
+<p>Siemens och Bosch tillhör samma koncern, och det syns i produktbladet: WR47B2C40 når också klass A med 79 kWh per 100 cykler, 57 dB(A), kondenseringseffektivitet A och självrengörande kondensor. Skillnaderna ligger främst i design, gränssnitt och programnamn.</p>
+<p><strong>Styrkor:</strong> lika effektiv och lika tyst som Bosch-maskinen, Home Connect.<br><strong>Svagheter:</strong> lika långt Eco-program, inga tekniska fördelar jämfört med Bosch.<br><strong>Passar för:</strong> dig som redan har en tvättmaskin från Siemens eller hittar ett bättre erbjudande på just den här modellen.</p>
+<h3>3. AEG 9000X TR9XW80890: för ylle och ömtålig tvätt</h3>
+<p>AEG:s serie 9000X får tre A: energieffektivitet (79 kWh per 100 cykler), kondenseringseffektivitet (94 %) och bullerklass, med 60 dB(A). Tekniken 3D Scan mäter fukten även inne i tjocka plagg som dunjackor och täcken, och med SmartDry kan du välja om tiden eller energin ska prioriteras. Ylleprogrammet är Woolmark-certifierat.</p>
+<p><strong>Styrkor:</strong> mycket jämn torkning av tjocka textilier, utmärkt kondensering, app via wifi, invertermotor.<br><strong>Svagheter:</strong> något högljuddare än Bosch och Siemens, högt pris med funktioner som främst lönar sig för ömtålig tvätt.<br><strong>Passar för:</strong> hushåll som torkar mycket ylle, dun eller funktionskläder.</p>
+<h3>4. Samsung DV90F09F4SU2: bekvämlighet och stor skärm</h3>
+<p>Den här Samsung-maskinen på 9 kg har klass A (ungefär 0,79 kWh per cykel) och 60 dB(A) i bullerklass A. Kondenseringseffektiviteten ligger på 88 %, vilket motsvarar klass B. Den sticker ut med en färgskärm på 7 tum. En automatisk igenkänning av textilierna anpassar torkningen, och tillvalet QuickDrive kortar programtiderna. Den styrs via SmartThings, även med rösten.</p>
+<p><strong>Styrkor:</strong> klass A, många bekvämlighetsfunktioner, en genomarbetad app, tio års garanti på invertermotorn enligt tillverkaren.<br><strong>Svagheter:</strong> kondenseringen når bara klass B, fler funktioner än de flesta kommer att använda.<br><strong>Passar för:</strong> dig som gillar smarta hem och redan har prylar från Samsung.</p>
+<h3>5. Miele TQ 1000 WP Nova Edition: investeringen på lång sikt</h3>
+<p>Den här T2-torktumlaren från Miele har klass B med 92 kWh per 100 cykler, men bullerklass A (60 dB(A)) och kondenseringseffektivitet A. Den har färgskärmen M Touch Pro, SteamCare mot skrynklor, WoolDry för ylle, doftsystemet FragranceDos och QuickPowerDry, som enligt Miele torkar 4 kg lättskött tvätt på 49 minuter. Miele uppger att företagets maskiner är konstruerade för 20 års användning.</p>
+<p><strong>Styrkor:</strong> byggkvalitet i toppklass, skonsam mot tvätten, ånga och doft, uppkoppling via Miele@home.<br><strong>Svagheter:</strong> bara klass B, klart dyrare än de andra modellerna.<br><strong>Passar för:</strong> dig som hellre investerar en gång och sedan behåller maskinen mycket länge.</p>
+<h3>6. Beko B7T88209: klass A för en mindre budget</h3>
+<p>Beko B7T88209 är något mindre med sina 8 kg, men når också energiklass A och kondenseringseffektivitet A. Dessutom har den SteamCure mot skrynklor, invertermotor, en stor lucka och hygienprogram. Appen HomeWhiz ansluts via Bluetooth.</p>
+<p><strong>Styrkor:</strong> bästa energiklassen bland instegs- och mellanklassmodellerna, ångfunktion.<br><strong>Svagheter:</strong> bara 8 kg, appen fungerar bara inom Bluetooth-räckvidd, glesare servicenät än de tyska märkena.<br><strong>Passar för:</strong> par och små familjer som vill torktumla energisnålt utan att lägga mycket pengar.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Kapacitet</th><th>Energiklass (kWh/100 cykler)</th><th>Ljudnivå</th><th>Kondensering</th><th>App</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Bosch Serie 8 WRB247C40</td><td>9 kg</td><td>A (79)</td><td>57 dB (A)</td><td>A</td><td>Home Connect</td><td>Bäst totalt</td></tr>
+<tr><td>Siemens iQ700 WR47B2C40</td><td>9 kg</td><td>A (79)</td><td>57 dB (A)</td><td>A</td><td>Home Connect</td><td>Hem med Siemens-maskiner</td></tr>
+<tr><td>AEG 9000X TR9XW80890</td><td>9 kg</td><td>A (79)</td><td>60 dB (A)</td><td>A (94 %)</td><td>AEG-appen</td><td>Ylle, dun</td></tr>
+<tr><td>Samsung DV90F09F4SU2</td><td>9 kg</td><td>A (ca 79)</td><td>60 dB (A)</td><td>B (88 %)</td><td>SmartThings</td><td>Smarta hem</td></tr>
+<tr><td>Miele TQ 1000 WP Nova Edition</td><td>9 kg</td><td>B (92)</td><td>60 dB (A)</td><td>A</td><td>Miele@home</td><td>Lång livslängd</td></tr>
+<tr><td>Beko B7T88209</td><td>8 kg</td><td>A</td><td>Uppgift saknas</td><td>A</td><td>HomeWhiz (Bluetooth)</td><td>Mest prisvärd</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att jämföra gammal och ny märkning:</strong> en utgående modell märkt ”A+++” är inte snålare än en ny modell i klass B. Jämför kWh per 100 cykler.</li>
+<li><strong>Att bara titta på klassen:</strong> kapacitet, ljudnivå och kondenseringseffektivitet betyder ofta mer i vardagen.</li>
+<li><strong>Att välja en för liten trumma:</strong> välj minst samma kapacitet som tvättmaskinen har.</li>
+<li><strong>Att strunta i centrifugeringen:</strong> ju torrare tvätten är när den kommer ur tvättmaskinen, desto kortare och billigare blir torkningen. 1 400 varv/min är en bra utgångspunkt.</li>
+<li><strong>Att glömma luddfiltret:</strong> ett igensatt filter förlänger programmet och ökar förbrukningen. Rengör det efter varje torkning.</li>
+<li><strong>Att tömma behållaren i stället för att koppla till avlopp:</strong> finns det ett avlopp i närheten slipper du tömma behållaren efter varje program om du ansluter avloppsslangen.</li>
+</ul>
+
+<h2>Installation, användning och säkerhet</h2>
+<p>En värmepumpstorktumlare behöver ingen utblåsslang och kan stå i tvättstugan, badrummet eller ett förråd. Rummet får dock inte vara för kallt, eftersom värmepumpen blir mindre effektiv vid låga temperaturer: vilket temperaturintervall som gäller för rummet står i bruksanvisningen. Lämna lite utrymme runt maskinen så att värmen kan ledas bort.</p>
+<p>Vill du ställa torktumlaren ovanpå tvättmaskinen använder du <strong>tillverkarens sats för tvättpelare</strong>, så att torktumlaren inte vandrar av vibrationerna. Koppla in maskinen direkt i ett jordat vägguttag, aldrig i ett grenuttag. Många nya modeller, bland annat maskinerna från Bosch, Siemens och Miele i den här jämförelsen, använder det naturliga köldmediet R290 (propan). Det är bättre för klimatet men brandfarligt: allt arbete på kylkretsen ska utföras av tillverkarens service eller en behörig tekniker.</p>
+<p>Hänger du hellre tvätten på tork kan en avfuktare hålla nere fukten i bostaden. Läs vår <a href="/sv/blog/deshumidificateur-connecte-guide">guide till smarta avfuktare</a>. Behöver du en tvättmaskin som passar ihop med torktumlaren hittar du hjälp i vår <a href="/sv/blog/lave-linge-connecte-guide">jämförelse av smarta tvättmaskiner</a>.</p>
+
+<h2>Omdöme: vilken värmepumpstorktumlare ska du välja?</h2>
+<p><strong>Bosch Serie 8 WRB247C40</strong> är den mest balanserade värmepumpstorktumlaren 2026: klass A, mycket tyst, kondensering i klass A och nästan helt underhållsfri tack vare den självrengörande kondensorn. <strong>Siemens iQ700 WR47B2C40</strong>, som bygger på samma teknik, är ett likvärdigt alternativ. För ylle och dun har <strong>AEG 9000X</strong> starka argument, och för dig som gillar smarta hem finns <strong>Samsung DV90F09F4SU2</strong>. Sätter du lång livslängd och skonsam tvättvård först väljer du <strong>Miele TQ 1000 WP Nova Edition</strong>, och vill du köpa klokt med en mindre budget är <strong>Beko B7T88209</strong> rätt val. Oavsett vilken du väljer: jämför utifrån den nya märkningen och titta på förbrukningen i kWh per 100 cykler.</p>`,
+    us: `<p>For most households, the best heat pump dryer of 2026 is the <strong>Bosch Series 8 WRB247C40</strong>: a 9 kg (20 lb) capacity, energy class A on the new EU label, 57 dB, condensation efficiency class A and a self-cleaning condenser. If you want to spend less, the <strong>Beko B7T88209</strong> (8 kg/18 lb, class A) is the budget-friendly alternative that still reaches class A, and if you want a machine built to last for many years, the <strong>Miele TQ 1000 WP Nova Edition</strong> (9 kg/20 lb, class B, steam function) is the strongest choice.</p>
+<p>This comparison draws on manufacturer spec sheets, the EU energy label and verified owner reviews. One key point before you buy: since July 1, 2025, dryers sold in the EU carry a new energy label on an A to G scale. Old ratings such as "A+++" can no longer be compared directly, which causes a lot of confusion in stores. US models don't carry this label; in the US, look for Energy Star certification instead. You'll also find every model in our <a href="/us/entretien-maison/lave-linge-connectes">smart washers and dryers</a> section.</p>
+
+<h2>The new EU dryer energy label since July 2025</h2>
+<p>In the EU, washers and dishwashers moved to the A–G scale in 2021; dryers followed on <strong>July 1, 2025</strong>. The "plus" classes are gone, and the thresholds are so demanding that many dryers once sold as A+++ now land in <strong>class C</strong>. So a dryer rated B or C isn't a bad appliance; it's simply graded under stricter rules. Only a handful of heat pump dryers reach class A so far.</p>
+<p>The new label shows much more than the class:</p>
+<ul>
+<li><strong>Energy use in kWh per 100 cycles</strong> on the Eco program (a weighted average of full and half loads). This is the best figure for comparing two models.</li>
+<li><strong>Rated capacity</strong> in kg and the <strong>Eco program duration</strong> at full load, often three to four and a half hours on a heat pump dryer.</li>
+<li>A <strong>condensation efficiency class</strong> (A to D): how much of the moisture ends up in the water tank rather than in the room.</li>
+<li><strong>Noise</strong> in dB(A), with a noise class from A to D.</li>
+<li>A <strong>repairability class</strong> (A to E), showing how easy the appliance is to repair.</li>
+<li>A <strong>QR code</strong> linking to the product sheet in the EU's EPREL database.</li>
+</ul>
+<p>Stricter EU ecodesign rules have also applied since July 2025. In practice, almost only heat pump models meet them, which is why conventional condenser dryers with a heating element are disappearing from the European market. Be careful with closeout and used models: they often still carry the old A+++ label, which can't be compared with the new one.</p>
+
+<h2>What really matters when you buy</h2>
+<h3>Energy use in kWh, not just the class</h3>
+<p>Models in the same class still differ. The class A models in this comparison use about 79 kWh per 100 cycles (Bosch, Siemens, AEG, Samsung), versus 92 kWh for the class B Miele. At 100 to 200 loads a year, the difference between A and B is real but modest. The gap is far bigger compared with an old condenser dryer without a heat pump: Bosch claims energy savings of up to roughly three quarters for the WRB247C40 compared with conventional dryers.</p>
+<h3>Capacity</h3>
+<p>For one or two people, 7 to 8 kg (15 to 18 lb) is enough; for a family, 9 kg (20 lb) is the right size. A simple rule: the dryer should handle at least the same load as your washer, or you'll have to split loads. A large drum that usually runs half empty is less efficient.</p>
+<h3>Noise and condensation efficiency</h3>
+<p>Between 57 and 60 dB(A), a dryer counts as quiet. If it sits near a bedroom or in an open-concept kitchen, aim for noise class A. Condensation efficiency matters most if the dryer is in a bathroom or a small room without a window: class A means less moisture released into the air.</p>
+<h3>Self-cleaning condenser</h3>
+<p>The heat exchanger in a heat pump dryer loses efficiency as lint builds up on it. On Bosch and Siemens models, a self-cleaning condenser rinses it several times per cycle, keeping energy use steady over the years. Without this feature, you have to clean the filters or the condenser by hand on a regular basis.</p>
+<h3>Sensors, programs and steam</h3>
+<p>Moisture sensors stop the cycle as soon as the dryness level you picked is reached, which prevents overdrying. Wool, sportswear/outdoor and quick programs, plus a steam function that reduces wrinkles and makes ironing easier, are the most useful extras.</p>
+<h3>The app: handy, not essential</h3>
+<p>The app tells you when the cycle is done, reminds you to clean the filter and lets you schedule a start, for example when your solar panels are producing. Bosch and Siemens use Home Connect, Miele its own Miele app, Samsung SmartThings and AEG its own app over Wi-Fi. The Beko connects to HomeWhiz over Bluetooth, so it only works when you're near the machine.</p>
+
+<h2>The 6 heat pump dryers compared</h2>
+<h3>1. Bosch Series 8 WRB247C40: best overall</h3>
+<p>The WRB247C40 is one of the few dryers rated A on the new label: 79 kWh per 100 cycles, 57 dB(A) in noise class A, condensation efficiency class A and, according to its spec sheet, repairability class A. Its self-cleaning condenser keeps the heat exchanger free of lint, and it uses R290, a natural refrigerant.</p>
+<p><strong>Pros:</strong> top marks in every category on the label, very quiet, almost no condenser maintenance, Home Connect with remote start and energy management.<br><strong>Cons:</strong> the Eco program takes about four and a half hours at full load, according to the spec sheet; priced at the premium end.<br><strong>Best for:</strong> families who do a lot of laundry and want a quiet, efficient, low-maintenance machine.</p>
+<h3>2. Siemens iQ700 WR47B2C40: the same technology under a different badge</h3>
+<p>Siemens and Bosch belong to the same group, and it shows on the spec sheet: the WR47B2C40 also reaches class A with 79 kWh per 100 cycles, 57 dB(A), condensation efficiency class A and a self-cleaning condenser. The differences are mainly in the design, the controls and the program names.</p>
+<p><strong>Pros:</strong> the same efficiency and quiet operation as the Bosch, Home Connect.<br><strong>Cons:</strong> an equally long Eco program; no technical advantage over the Bosch.<br><strong>Best for:</strong> anyone who already owns a Siemens washer or finds a better deal on this model.</p>
+<h3>3. AEG 9000X TR9XW80890: for wool and delicates</h3>
+<p>AEG's 9000X line earns three A ratings: energy efficiency (79 kWh per 100 cycles), condensation efficiency (94%) and noise class, at 60 dB(A). Its 3D Scan technology measures moisture even inside bulky items such as down jackets and comforters, and SmartDry lets you prioritize either time or energy. The wool program is Woolmark certified.</p>
+<p><strong>Pros:</strong> very even drying of thick fabrics, excellent condensation, Wi-Fi app control, inverter motor.<br><strong>Cons:</strong> slightly louder than the Bosch and Siemens; premium-priced, with features that pay off mainly for delicate laundry.<br><strong>Best for:</strong> households that dry a lot of wool, down or technical outdoor clothing.</p>
+<h3>4. Samsung DV90F09F4SU2: convenience and a big screen</h3>
+<p>This 9 kg (20 lb) Samsung is rated A (about 0.79 kWh per cycle) at 60 dB(A) in noise class A. Its condensation efficiency is 88%, which puts it in class B. It stands out with a 7-inch color display; automatic fabric recognition adjusts the cycle, and the QuickDrive option shortens drying times. You control it through SmartThings, including by voice.</p>
+<p><strong>Pros:</strong> class A, plenty of convenience features, a mature app, a 10-year warranty on the inverter motor, according to the manufacturer.<br><strong>Cons:</strong> condensation only class B; more features than most people will ever use.<br><strong>Best for:</strong> smart home fans who already own Samsung devices.</p>
+<h3>5. Miele TQ 1000 WP Nova Edition: the long-term investment</h3>
+<p>This Miele T2 dryer is class B at 92 kWh per 100 cycles, but noise class A (60 dB(A)) and condensation efficiency class A. It offers the M Touch Pro color display, SteamCare to fight wrinkles, WoolDry for wool, the FragranceDos scent system and QuickPowerDry, which Miele says dries 4 kg (9 lb) of easy-care laundry in 49 minutes. Miele says it designs its appliances for 20 years of use.</p>
+<p><strong>Pros:</strong> premium build, gentle on laundry, steam and fragrance, Miele@home connectivity.<br><strong>Cons:</strong> only class B; clearly more expensive than the other models.<br><strong>Best for:</strong> buyers who would rather invest once and keep the appliance for a very long time.</p>
+<h3>6. Beko B7T88209: class A on a smaller budget</h3>
+<p>The Beko B7T88209 is a little smaller at 8 kg (18 lb) but also reaches energy class A and condensation efficiency class A. It adds SteamCure to fight wrinkles, an inverter motor, a large door opening and sanitizing programs. The HomeWhiz app connects over Bluetooth.</p>
+<p><strong>Pros:</strong> the top energy class among budget and midrange models, steam function.<br><strong>Cons:</strong> only 8 kg (18 lb); app limited to Bluetooth range; a smaller service network than the German brands.<br><strong>Best for:</strong> couples and small families who want efficient drying without a big budget.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity</th><th>Energy class (kWh/100 cycles)</th><th>Noise</th><th>Condensation</th><th>App</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Bosch Series 8 WRB247C40</td><td>9 kg (20 lb)</td><td>A (79)</td><td>57 dB (A)</td><td>A</td><td>Home Connect</td><td>Best overall</td></tr>
+<tr><td>Siemens iQ700 WR47B2C40</td><td>9 kg (20 lb)</td><td>A (79)</td><td>57 dB (A)</td><td>A</td><td>Home Connect</td><td>Siemens owners</td></tr>
+<tr><td>AEG 9000X TR9XW80890</td><td>9 kg (20 lb)</td><td>A (79)</td><td>60 dB (A)</td><td>A (94%)</td><td>AEG app</td><td>Wool, down</td></tr>
+<tr><td>Samsung DV90F09F4SU2</td><td>9 kg (20 lb)</td><td>A (about 79)</td><td>60 dB (A)</td><td>B (88%)</td><td>SmartThings</td><td>Smart home</td></tr>
+<tr><td>Miele TQ 1000 WP Nova Edition</td><td>9 kg (20 lb)</td><td>B (92)</td><td>60 dB (A)</td><td>A</td><td>Miele@home</td><td>Longevity</td></tr>
+<tr><td>Beko B7T88209</td><td>8 kg (18 lb)</td><td>A</td><td>n/a</td><td>A</td><td>HomeWhiz (Bluetooth)</td><td>Best value</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Comparing the old and new labels:</strong> a closeout "A+++" model isn't more efficient than a new class B model. Compare kWh per 100 cycles.</li>
+<li><strong>Looking only at the class:</strong> capacity, noise and condensation efficiency often matter more day to day.</li>
+<li><strong>Choosing a drum that's too small:</strong> match at least the capacity of your washer.</li>
+<li><strong>Ignoring the spin speed:</strong> the drier your laundry comes out of the washer, the shorter and cheaper the drying cycle. 1,400 rpm is a good baseline.</li>
+<li><strong>Forgetting the lint filter:</strong> a clogged filter makes the cycle longer and drives up energy use. Clean it after every load.</li>
+<li><strong>Emptying the water tank instead of draining it:</strong> if there's a drain nearby, hooking up the drain hose saves you from emptying the tank after every cycle.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<p>A heat pump dryer is ventless: it needs no exhaust duct, so it can go in a laundry room, a bathroom or a basement. The room shouldn't be too cold, though, because the heat pump loses efficiency at low temperatures; the allowed room temperature range is listed in the manual. Leave some space around the machine so heat can escape.</p>
+<p>To stack a washer and dryer, use the <strong>manufacturer's stacking kit</strong> so the dryer can't slide off from the vibration. Plug the dryer straight into a grounded wall outlet, never into a power strip or extension cord. Models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for US power: standard 120 V outlets, or the 240 V circuit many US dryers use. Many recent models, including the Bosch, Siemens and Miele dryers listed here, use the natural refrigerant R290 (propane). It's better for the climate but flammable: any work on the refrigerant circuit should be left to the manufacturer's service team or a qualified technician.</p>
+<p>If you'd rather air-dry, a dehumidifier keeps indoor humidity under control; see our <a href="/us/blog/deshumidificateur-connecte-guide">smart dehumidifier guide</a>. To pick a matching washer, read our <a href="/us/blog/lave-linge-connecte-guide">smart washer comparison</a>.</p>
+
+<h2>The bottom line: which heat pump dryer should you buy?</h2>
+<p>The <strong>Bosch Series 8 WRB247C40</strong> is the most well-rounded heat pump dryer of 2026: class A, very quiet, condensation class A and nearly maintenance-free thanks to its self-cleaning condenser. The <strong>Siemens iQ700 WR47B2C40</strong>, built on the same technology, is an equally good alternative. For wool and down, the <strong>AEG 9000X</strong> makes a strong case, and smart home fans should look at the <strong>Samsung DV90F09F4SU2</strong>. If longevity and laundry care come first, choose the <strong>Miele TQ 1000 WP Nova Edition</strong>; to buy smart on a budget, the <strong>Beko B7T88209</strong> is the right call. Whatever you pick, compare models on the new label and check energy use in kWh per 100 cycles.</p>`,
+    ca: `<p>The best heat pump dryer in 2026 for most households is the <strong>Bosch Series 8 WRB247C40</strong>: 9 kg, energy class A on the new EU label, 57 dB, condensation efficiency A and a self-cleaning condenser. If you want to spend less, the <strong>Beko B7T88209</strong> (8 kg, class A) is the most economical alternative, and if you want a machine built to last for many years, the <strong>Miele TQ 1000 WP Nova Edition</strong> (9 kg, class B, steam function) is the strongest choice.</p>
+<p>This comparison is based on manufacturer spec sheets, the EU energy label and verified buyer feedback. One key point before you buy: since July 1, 2025, dryers sold in the EU carry a new energy label on an A to G scale. Old ratings such as "A+++" can no longer be compared directly, which has caused a lot of confusion in European stores. Canada uses the EnerGuide label for major appliances, so the EU class won't appear on Canadian packaging. You will also find every model in our <a href="/ca/entretien-maison/lave-linge-connectes">smart washers and dryers</a> section.</p>
+
+<h2>The new EU energy label for dryers (since July 2025)</h2>
+<p>In the EU, washing machines and dishwashers moved to the A–G scale in 2021; dryers followed on <strong>July 1, 2025</strong>. The plus classes are gone, and the thresholds are so demanding that many dryers once sold as A+++ now land in <strong>class C</strong>. A dryer rated B or C is therefore not a poor appliance; it is simply graded under stricter rules. Only a handful of heat pump dryers reach class A so far.</p>
+<p>The new label shows much more than the class:</p>
+<ul>
+<li><strong>Energy use in kWh per 100 cycles</strong> on the Eco program (a weighted value of full and half loads). This is the best figure for comparing two models.</li>
+<li><strong>Rated capacity</strong> in kg and the <strong>Eco program duration</strong> at full load, often three to four and a half hours on a heat pump dryer.</li>
+<li>A <strong>condensation efficiency class</strong> (A to D): how much moisture ends up in the tank rather than in the room.</li>
+<li><strong>Noise</strong> in dB(A), with a noise class from A to D.</li>
+<li>A <strong>repairability class</strong> (A to E), showing how easy the appliance is to repair.</li>
+<li>A <strong>QR code</strong> linking to the product sheet in the EU's EPREL database.</li>
+</ul>
+<p>Stricter EU ecodesign requirements have also applied since July 2025. In practice, almost only heat pump models meet them, which is why classic condenser dryers with a heating element are disappearing from European stores. Be careful with clearance stock and used units: they often still carry the old A+++ label, which cannot be compared with the new one.</p>
+
+<h2>What really matters when buying</h2>
+<h3>Consumption in kWh, not just the class</h3>
+<p>Models in the same class still differ. The class A models in this comparison use about 79 kWh per 100 cycles (Bosch, Siemens, AEG, Samsung), and the class B Miele 92 kWh. At 100 to 200 cycles a year, the difference between A and B is real but modest. The gap is far bigger against an old condenser dryer without a heat pump: Bosch quotes savings of up to roughly three quarters for the WRB247C40 compared with conventional dryers.</p>
+<h3>Capacity</h3>
+<p>For one or two people, 7 to 8 kg is enough; for a family, 9 kg is the right size. Simple rule: the dryer should take at least the same load as your washing machine, or you will have to split loads. A large drum that usually runs half empty is less efficient.</p>
+<h3>Noise and condensation efficiency</h3>
+<p>Between 57 and 60 dB(A), a dryer counts as quiet. If it sits near a bedroom or in an open-concept kitchen, aim for noise class A. Condensation efficiency matters most if the dryer is in a bathroom or a small room without a window: class A means less moisture released into the air.</p>
+<h3>Self-cleaning condenser</h3>
+<p>The heat exchanger in a heat pump dryer loses efficiency as lint builds up on it. On Bosch and Siemens, a self-cleaning condenser rinses it several times per cycle, keeping consumption stable over the years. Without this feature, you need to clean the filters or condenser by hand regularly.</p>
+<h3>Sensors, programs and steam</h3>
+<p>Moisture sensors stop the cycle as soon as the chosen dryness level is reached, which prevents over-drying. Wool, sports/outdoor and quick programs, plus a steam function that reduces wrinkles and makes ironing easier, are the most useful extras.</p>
+<h3>The app: handy, not essential</h3>
+<p>The app tells you when the cycle ends, reminds you to clean the filter and lets you schedule a start, for example when your solar panels are producing. Bosch and Siemens use Home Connect, Miele its Miele app, Samsung SmartThings and AEG its own app over Wi-Fi. The Beko connects to HomeWhiz via Bluetooth, so only when you are close to the appliance.</p>
+
+<h2>The 6 heat pump dryers compared</h2>
+<h3>1. Bosch Series 8 WRB247C40: best overall</h3>
+<p>The WRB247C40 is one of the few dryers rated A on the new label: 79 kWh per 100 cycles, 57 dB(A) in noise class A, condensation efficiency A and, according to its spec sheet, repairability class A. Its self-cleaning condenser keeps the heat exchanger free of lint, and it uses the natural refrigerant R290.</p>
+<p><strong>Strengths:</strong> top marks in every label category, very quiet, almost no condenser maintenance, Home Connect with remote start and energy management.<br><strong>Limitations:</strong> the Eco program takes about four and a half hours at full load according to the spec sheet; positioned at the premium end.<br><strong>Who it's for:</strong> families who dry a lot and want a quiet, efficient, low-maintenance machine.</p>
+<h3>2. Siemens iQ700 WR47B2C40: the same technology, different badge</h3>
+<p>Siemens and Bosch belong to the same group, and it shows in the spec sheet: the WR47B2C40 also reaches class A with 79 kWh per 100 cycles, 57 dB(A), condensation efficiency A and a self-cleaning condenser. The differences are mainly in design, interface and program names.</p>
+<p><strong>Strengths:</strong> same efficiency and quietness as the Bosch, Home Connect.<br><strong>Limitations:</strong> equally long Eco program; no technical advantage over the Bosch.<br><strong>Who it's for:</strong> anyone who already owns a Siemens washing machine or finds a better deal on this model.</p>
+<h3>3. AEG 9000X TR9XW80890: for wool and delicates</h3>
+<p>AEG's 9000X range scores three As: energy efficiency (79 kWh per 100 cycles), condensation efficiency (94%) and noise class, at 60 dB(A). Its 3D Scan technology measures moisture even inside bulky items such as down jackets and duvets, and SmartDry lets you favour time or energy. The wool program is Woolmark certified.</p>
+<p><strong>Strengths:</strong> very even drying of thick textiles, excellent condensation, Wi-Fi app control, inverter motor.<br><strong>Limitations:</strong> slightly louder than the Bosch and Siemens; premium-priced, with features that pay off mainly for delicate laundry.<br><strong>Who it's for:</strong> households that dry a lot of wool, down or technical clothing.</p>
+<h3>4. Samsung DV90F09F4SU2: comfort and a big screen</h3>
+<p>This 9 kg Samsung is rated A (about 0.79 kWh per cycle) at 60 dB(A) in noise class A. Its condensation efficiency is 88%, which is class B. It stands out with a 7-inch colour display; automatic fabric recognition adjusts the cycle, and the QuickDrive option shortens drying times. It is controlled through SmartThings, including by voice.</p>
+<p><strong>Strengths:</strong> class A, plenty of convenience features, mature app, ten-year warranty on the inverter motor according to the manufacturer.<br><strong>Limitations:</strong> condensation only class B; more features than most people will use.<br><strong>Who it's for:</strong> smart home fans who already own Samsung devices.</p>
+<h3>5. Miele TQ 1000 WP Nova Edition: the long-term investment</h3>
+<p>This Miele T2 dryer is class B at 92 kWh per 100 cycles, but noise class A (60 dB(A)) and condensation efficiency A. It offers the M Touch Pro colour display, SteamCare against wrinkles, WoolDry for wool, the FragranceDos scent system and QuickPowerDry, which Miele says dries 4 kg of easy-care laundry in 49 minutes. Miele states that it designs its appliances for 20 years of use.</p>
+<p><strong>Strengths:</strong> premium build, gentle laundry care, steam and fragrance, Miele@home connectivity.<br><strong>Limitations:</strong> only class B; clearly more expensive than the other models.<br><strong>Who it's for:</strong> buyers who would rather invest once and keep the appliance for a very long time.</p>
+<h3>6. Beko B7T88209: class A on a smaller budget</h3>
+<p>The Beko B7T88209 is a little smaller at 8 kg but also reaches energy class A and condensation efficiency A. It adds SteamCure against wrinkles, an inverter motor, a large door opening and hygiene programs. The HomeWhiz app connects via Bluetooth.</p>
+<p><strong>Strengths:</strong> top energy class in the entry and mid-range segment, steam function.<br><strong>Limitations:</strong> only 8 kg; app limited to Bluetooth range; a less extensive after-sales network in Europe than the German brands.<br><strong>Who it's for:</strong> couples and small families who want efficient drying without a big budget.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity</th><th>Energy class (kWh/100 cycles)</th><th>Noise</th><th>Condensation</th><th>App</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Bosch Series 8 WRB247C40</td><td>9 kg</td><td>A (79)</td><td>57 dB (A)</td><td>A</td><td>Home Connect</td><td>Best overall</td></tr>
+<tr><td>Siemens iQ700 WR47B2C40</td><td>9 kg</td><td>A (79)</td><td>57 dB (A)</td><td>A</td><td>Home Connect</td><td>Siemens households</td></tr>
+<tr><td>AEG 9000X TR9XW80890</td><td>9 kg</td><td>A (79)</td><td>60 dB (A)</td><td>A (94%)</td><td>AEG app</td><td>Wool, down</td></tr>
+<tr><td>Samsung DV90F09F4SU2</td><td>9 kg</td><td>A (approx. 79)</td><td>60 dB (A)</td><td>B (88%)</td><td>SmartThings</td><td>Smart home</td></tr>
+<tr><td>Miele TQ 1000 WP Nova Edition</td><td>9 kg</td><td>B (92)</td><td>60 dB (A)</td><td>A</td><td>Miele@home</td><td>Longevity</td></tr>
+<tr><td>Beko B7T88209</td><td>8 kg</td><td>A</td><td>n/a</td><td>A</td><td>HomeWhiz (Bluetooth)</td><td>Value</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Comparing old and new labels:</strong> a clearance "A+++" model is not more efficient than a new class B model. Compare kWh per 100 cycles.</li>
+<li><strong>Looking only at the class:</strong> capacity, noise and condensation efficiency often matter more day to day.</li>
+<li><strong>Choosing a drum that is too small:</strong> match at least the capacity of your washing machine.</li>
+<li><strong>Ignoring the spin speed:</strong> the drier your laundry leaves the washer, the shorter and cheaper the drying cycle. 1,400 rpm is a good baseline.</li>
+<li><strong>Forgetting the lint filter:</strong> a clogged filter lengthens the cycle and raises consumption. Clean it after every load.</li>
+<li><strong>Emptying the tank instead of using the drain hose:</strong> if a drain is nearby, hook up the drain hose so you don't have to empty the tank after every cycle.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<p>A heat pump dryer needs no outside vent, so it can go in a laundry room, bathroom or basement. The room should not be too cold, though, as the heat pump loses efficiency at low temperatures; the permitted ambient temperature range is listed in the manual. Leave some space around the appliance so heat can escape.</p>
+<p>To stack a washer and dryer, use the <strong>manufacturer's stacking kit</strong> so the dryer cannot slide off with vibrations. Plug the dryer directly into a grounded wall outlet, never into a power bar or extension cord. Many recent models, including the Bosch, Siemens and Miele dryers listed here, use the natural refrigerant R290 (propane). It is better for the climate but flammable: any work on the refrigerant circuit must be left to the manufacturer's service or a qualified technician.</p>
+<p>If you prefer to air-dry, a dehumidifier keeps indoor moisture under control; see our <a href="/ca/blog/deshumidificateur-connecte-guide">smart dehumidifier guide</a>. To pick a matching washing machine, read our <a href="/ca/blog/lave-linge-connecte-guide">smart washing machine comparison</a>.</p>
+
+<h2>Verdict: which heat pump dryer should you choose?</h2>
+<p>The <strong>Bosch Series 8 WRB247C40</strong> is the most balanced heat pump dryer of 2026: class A, very quiet, condensation A and almost maintenance-free thanks to its self-cleaning condenser. The <strong>Siemens iQ700 WR47B2C40</strong>, built on the same technology, is an equivalent alternative. For wool and down, the <strong>AEG 9000X</strong> makes a strong case, and for smart home fans, the <strong>Samsung DV90F09F4SU2</strong>. If longevity and laundry care come first, choose the <strong>Miele TQ 1000 WP Nova Edition</strong>; to buy smart on a budget, the <strong>Beko B7T88209</strong> is the right call. Whatever you pick, compare models on the new EU label and check consumption in kWh per 100 cycles.</p>`,
   },
   faq: [
     {
@@ -625,7 +880,10 @@ export const article: BlogArticle = {
         "es": "¿Por qué mi secadora A+++ ahora es de clase C?",
         "it": "Perché la mia asciugatrice A+++ ora è in classe C?",
         "nl": "Waarom is mijn A+++-droger nu klasse C?",
-        "pl": "Dlaczego moja suszarka A+++ trafiła do klasy C?"
+        "pl": "Dlaczego moja suszarka z klasą A+++ ma teraz klasę C?",
+        "sv": "Varför har min A+++-torktumlare blivit klass C?",
+        "us": "Why did my A+++ dryer drop to class C on the EU energy label?",
+        "ca": "Why is my A+++ dryer now rated class C?"
       },
       "answer": {
         "fr": "Depuis le 1er juillet 2025, les sèche-linge sont classés sur une nouvelle échelle de A à G aux seuils beaucoup plus stricts. Un appareil autrefois A+++ se retrouve souvent en C sans consommer davantage. Comparez plutôt les kWh pour 100 cycles indiqués sur l'étiquette.",
@@ -634,7 +892,10 @@ export const article: BlogArticle = {
         "es": "Desde el 1 de julio de 2025, las secadoras se clasifican en una nueva escala de la A a la G con umbrales mucho más estrictos. Un aparato antes A+++ suele quedar en clase C sin consumir más. Compara mejor los kWh por cada 100 ciclos de la etiqueta.",
         "it": "Dal 1° luglio 2025 le asciugatrici sono classificate su una nuova scala da A a G con soglie molto più severe. Un apparecchio un tempo A+++ finisce spesso in classe C senza consumare di più. Confronta piuttosto i kWh ogni 100 cicli indicati sull'etichetta.",
         "nl": "Sinds 1 juli 2025 worden drogers ingedeeld op een nieuwe schaal van A tot G met veel strengere grenzen. Een toestel dat vroeger A+++ was, belandt vaak in klasse C zonder meer te verbruiken. Vergelijk liever de kWh per 100 cycli op het label.",
-        "pl": "Od 1 lipca 2025 roku suszarki są klasyfikowane według nowej skali od A do G o znacznie surowszych progach. Urządzenie, które dawniej miało A+++, często trafia do C, choć wcale nie zużywa więcej. Lepiej porównuj kWh na 100 cykli podane na etykiecie."
+        "pl": "Od 1 lipca 2025 roku suszarki ocenia się w nowej skali od A do G ze znacznie surowszymi progami. Urządzenie, które kiedyś miało klasę A+++, często ląduje dziś w klasie C, choć wcale nie zużywa więcej energii. Dlatego porównuj raczej zużycie w kWh na 100 cykli podane na etykiecie.",
+        "sv": "Sedan den 1 juli 2025 klassas torktumlare på en ny skala från A till G med mycket strängare gränser. En maskin som tidigare såldes som A+++ hamnar ofta i klass C utan att dra mer el. Jämför i stället hur många kWh per 100 cykler som anges på märkningen.",
+        "us": "Since July 1, 2025, dryers sold in the EU have been rated on a new A to G scale with much stricter thresholds. A machine once sold as A+++ often lands in class C without using any more energy. Compare the kWh per 100 cycles shown on the label instead.",
+        "ca": "Since July 1, 2025, dryers sold in the EU have been rated on a new A to G scale with much stricter thresholds. A machine once sold as A+++ often lands in class C without using more energy. Compare the kWh per 100 cycles shown on the label instead."
       }
     },
     {
@@ -645,7 +906,10 @@ export const article: BlogArticle = {
         "es": "¿Cuánto consume una secadora con bomba de calor?",
         "it": "Quanto consuma un'asciugatrice a pompa di calore?",
         "nl": "Hoeveel stroom verbruikt een warmtepompdroger?",
-        "pl": "Ile prądu zużywa suszarka z pompą ciepła?"
+        "pl": "Ile prądu zużywa suszarka z pompą ciepła?",
+        "sv": "Hur mycket el drar en värmepumpstorktumlare?",
+        "us": "How much electricity does a heat pump dryer use?",
+        "ca": "How much electricity does a heat pump dryer use?"
       },
       "answer": {
         "fr": "Les meilleurs modèles de 9 kg classés A consomment environ 79 kWh pour 100 cycles en programme Eco, soit autour de 0,8 kWh par cycle. Un modèle classé B ou C consomme davantage, et un ancien sèche-linge à condensation sans pompe à chaleur bien plus encore.",
@@ -654,7 +918,10 @@ export const article: BlogArticle = {
         "es": "Los mejores modelos de 9 kg de clase A consumen unos 79 kWh por cada 100 ciclos en el programa Eco, alrededor de 0,8 kWh por ciclo. Un modelo de clase B o C consume más, y una secadora de condensación antigua sin bomba de calor, mucho más.",
         "it": "I migliori modelli da 9 kg in classe A consumano circa 79 kWh ogni 100 cicli nel programma Eco, circa 0,8 kWh per ciclo. Un modello in classe B o C consuma di più, e una vecchia asciugatrice a condensazione senza pompa di calore molto di più.",
         "nl": "De beste 9 kg-modellen in klasse A verbruiken ongeveer 79 kWh per 100 cycli in het Eco-programma, zo'n 0,8 kWh per cyclus. Een model in klasse B of C verbruikt meer, en een oude condensdroger zonder warmtepomp nog veel meer.",
-        "pl": "Najlepsze 9-kilogramowe modele klasy A zużywają około 79 kWh na 100 cykli w programie Eco, czyli około 0,8 kWh na cykl. Model klasy B lub C zużywa więcej, a stara suszarka kondensacyjna bez pompy ciepła znacznie więcej."
+        "pl": "Najlepsze modele 9 kg w klasie A zużywają w programie Eco około 79 kWh na 100 cykli, czyli ok. 0,8 kWh na cykl. Suszarka klasy B lub C zużywa więcej, a stara suszarka kondensacyjna bez pompy ciepła – jeszcze znacznie więcej.",
+        "sv": "De bästa modellerna på 9 kg i klass A drar omkring 79 kWh per 100 cykler på Eco-programmet, alltså runt 0,8 kWh per cykel. En modell i klass B eller C drar mer, och en gammal kondenstorktumlare utan värmepump ännu mycket mer.",
+        "us": "The best 9 kg (20 lb) class A models use about 79 kWh per 100 cycles on the Eco program, or around 0.8 kWh per load. At an example rate of 20 cents per kWh, that's about 16 cents a load (check the rate on your utility bill). A class B or C model uses more, and an old condenser dryer without a heat pump uses far more.",
+        "ca": "The best 9 kg class A models use about 79 kWh per 100 cycles on the Eco program, around 0.8 kWh per cycle. A class B or C model uses more, and an old condenser dryer without a heat pump far more again."
       }
     },
     {
@@ -665,7 +932,10 @@ export const article: BlogArticle = {
         "es": "¿Por qué un ciclo de secado dura tanto?",
         "it": "Perché un ciclo di asciugatura dura così tanto?",
         "nl": "Waarom duurt een droogcyclus zo lang?",
-        "pl": "Dlaczego cykl suszenia trwa tak długo?"
+        "pl": "Dlaczego cykl suszenia trwa tak długo?",
+        "sv": "Varför tar ett torkprogram så lång tid?",
+        "us": "Why does a drying cycle take so long?",
+        "ca": "Why does a drying cycle take so long?"
       },
       "answer": {
         "fr": "La pompe à chaleur sèche à plus basse température, ce qui économise l'énergie et préserve les fibres. Le programme Eco à pleine charge peut dépasser quatre heures. Pour aller plus vite, utilisez un programme rapide ou une option de réduction du temps, au prix d'une consommation un peu plus élevée.",
@@ -674,7 +944,10 @@ export const article: BlogArticle = {
         "es": "La bomba de calor seca a menor temperatura, lo que ahorra energía y cuida las fibras. El programa Eco a plena carga puede superar las cuatro horas. Si tienes prisa, usa un programa rápido o una opción de ahorro de tiempo, a cambio de un consumo algo mayor.",
         "it": "La pompa di calore asciuga a temperatura più bassa, risparmiando energia e proteggendo le fibre. Il programma Eco a pieno carico può superare le quattro ore. Se hai fretta, usa un programma rapido o un'opzione di risparmio tempo, con consumi un po' più alti.",
         "nl": "De warmtepomp droogt op lagere temperatuur, wat energie bespaart en de vezels spaart. Het Eco-programma bij volle lading kan langer dan vier uur duren. Heb je haast, gebruik dan een snelprogramma of tijdbesparende optie, met iets hoger verbruik.",
-        "pl": "Pompa ciepła suszy w niższej temperaturze, co oszczędza energię i chroni włókna. Program Eco przy pełnym załadunku może trwać ponad cztery godziny. Aby było szybciej, użyj programu szybkiego lub opcji skracającej czas, kosztem nieco wyższego zużycia energii."
+        "pl": "Suszarka z pompą ciepła suszy w niższej temperaturze, co pozwala oszczędzać energię i chroni włókna. Program Eco przy pełnym załadunku może trwać ponad cztery godziny. Jeśli zależy Ci na czasie, wybierz program szybki lub opcję skracającą cykl – za cenę nieco wyższego zużycia energii.",
+        "sv": "Värmepumpen torkar vid lägre temperatur, vilket sparar energi och är skonsamt mot fibrerna. Eco-programmet med full last kan ta mer än fyra timmar. Har du bråttom kan du använda ett snabbprogram eller en funktion som kortar tiden, men då blir förbrukningen något högre.",
+        "us": "A heat pump dries at a lower temperature, which saves energy and is gentler on fibers. The Eco program at full load can run more than four hours. If you're in a hurry, use a quick program or a time-saving option, at the cost of slightly higher energy use.",
+        "ca": "The heat pump dries at a lower temperature, which saves energy and protects fibres. The Eco program at full load can take more than four hours. If you're in a hurry, use a quick program or a time-saving option, at the cost of slightly higher consumption."
       }
     },
     {
@@ -685,7 +958,10 @@ export const article: BlogArticle = {
         "es": "¿Se puede instalar una secadora con bomba de calor en una habitación fría?",
         "it": "Si può installare un'asciugatrice a pompa di calore in un locale freddo?",
         "nl": "Kan een warmtepompdroger in een koude ruimte staan?",
-        "pl": "Czy suszarkę z pompą ciepła można zainstalować w zimnym pomieszczeniu?"
+        "pl": "Czy suszarkę z pompą ciepła można postawić w zimnym pomieszczeniu?",
+        "sv": "Kan en värmepumpstorktumlare stå i ett kallt rum?",
+        "us": "Can a heat pump dryer go in a cold room?",
+        "ca": "Can a heat pump dryer go in a cold room?"
       },
       "answer": {
         "fr": "Oui, à condition de respecter la plage de température ambiante indiquée dans la notice. Dans un garage ou un cellier non chauffé, le séchage devient plus long et moins économe, et le gel peut endommager l'appareil.",
@@ -694,7 +970,10 @@ export const article: BlogArticle = {
         "es": "Sí, siempre que respetes el rango de temperatura ambiente indicado en el manual. En un garaje o trastero sin calefacción, el secado es más lento y menos eficiente, y las heladas pueden dañar el aparato.",
         "it": "Sì, purché si rispetti l'intervallo di temperatura ambiente indicato nel manuale. In un garage o una cantina non riscaldati l'asciugatura diventa più lenta e meno efficiente, e il gelo può danneggiare l'apparecchio.",
         "nl": "Ja, zolang je binnen het bereik van de omgevingstemperatuur uit de handleiding blijft. In een onverwarmde garage of berging duurt het drogen langer en is het minder zuinig, en vorst kan het toestel beschadigen.",
-        "pl": "Tak, pod warunkiem zachowania zakresu temperatury otoczenia podanego w instrukcji. W nieogrzewanym garażu lub spiżarni suszenie trwa dłużej i jest mniej oszczędne, a mróz może uszkodzić urządzenie."
+        "pl": "Tak, jeśli temperatura otoczenia mieści się w zakresie podanym w instrukcji. W nieogrzewanym garażu lub pomieszczeniu gospodarczym suszenie trwa dłużej i zużywa więcej energii, a mróz może uszkodzić urządzenie.",
+        "sv": "Ja, så länge du håller dig inom det temperaturintervall för rummet som anges i bruksanvisningen. I ett ouppvärmt garage eller förråd tar torkningen längre tid och blir mindre energisnål, och frost kan skada maskinen.",
+        "us": "Yes, as long as you stay within the room temperature range listed in the manual. In an unheated garage or laundry room, drying takes longer and uses more energy, and freezing temperatures can damage the machine.",
+        "ca": "Yes, as long as you stay within the ambient temperature range given in the manual. In an unheated garage or laundry room, drying becomes slower and less efficient, and freezing temperatures can damage the appliance."
       }
     },
     {
@@ -705,7 +984,10 @@ export const article: BlogArticle = {
         "es": "¿Hace falta un condensador autolimpiante?",
         "it": "Serve un condensatore autopulente?",
         "nl": "Heb ik een zelfreinigende condensor nodig?",
-        "pl": "Czy potrzebny jest samoczyszczący się skraplacz?"
+        "pl": "Czy potrzebny jest samoczyszczący się skraplacz?",
+        "sv": "Behöver jag en självrengörande kondensor?",
+        "us": "Do I need a self-cleaning condenser?",
+        "ca": "Do I need a self-cleaning condenser?"
       },
       "answer": {
         "fr": "Ce n'est pas indispensable, mais c'est très pratique : il rince l'échangeur pendant le cycle et maintient la consommation stable sans entretien manuel. Sans cette fonction, nettoyez régulièrement les filtres et le condenseur comme indiqué dans la notice.",
@@ -714,7 +996,10 @@ export const article: BlogArticle = {
         "es": "No es imprescindible, pero resulta muy práctico: enjuaga el intercambiador durante el ciclo y mantiene estable el consumo sin limpieza manual. Sin esta función, limpia con regularidad los filtros y el condensador según el manual.",
         "it": "Non è indispensabile, ma è molto comodo: risciacqua lo scambiatore durante il ciclo e mantiene stabili i consumi senza pulizia manuale. Senza questa funzione, pulisci regolarmente filtri e condensatore come indicato nel manuale.",
         "nl": "Het is geen must, maar wel erg handig: hij spoelt de warmtewisselaar tijdens de cyclus schoon en houdt het verbruik stabiel zonder handwerk. Zonder deze functie reinig je filters en condensor regelmatig volgens de handleiding.",
-        "pl": "To nie jest konieczne, ale bardzo wygodne: skraplacz płucze wymiennik w trakcie cyklu i utrzymuje stabilne zużycie bez ręcznej konserwacji. Bez tej funkcji regularnie czyść filtry i skraplacz zgodnie z instrukcją."
+        "pl": "Nie jest niezbędny, ale bardzo ułatwia życie: wymiennik jest płukany w trakcie cyklu, więc zużycie energii pozostaje stabilne bez ręcznego czyszczenia. Jeśli Twoja suszarka nie ma tej funkcji, regularnie czyść filtry i skraplacz zgodnie z instrukcją.",
+        "sv": "Det är inte nödvändigt, men mycket praktiskt: kondensorn spolar värmeväxlaren under programmet och håller förbrukningen stabil utan att du behöver rengöra för hand. Utan den funktionen rengör du filtren och kondensorn regelbundet enligt bruksanvisningen.",
+        "us": "It isn't essential, but it's very convenient: it rinses the heat exchanger during the cycle and keeps energy use steady with no manual cleaning. Without one, clean the filters and condenser regularly, as described in the manual.",
+        "ca": "It is not essential, but it is very convenient: it rinses the heat exchanger during the cycle and keeps consumption stable with no manual cleaning. Without it, clean the filters and condenser regularly as the manual describes."
       }
     },
     {
@@ -725,7 +1010,10 @@ export const article: BlogArticle = {
         "es": "¿Se puede colocar la secadora encima de la lavadora?",
         "it": "Si può mettere l'asciugatrice sopra la lavatrice?",
         "nl": "Kan ik de droger op de wasmachine zetten?",
-        "pl": "Czy można postawić suszarkę na pralce?"
+        "pl": "Czy można postawić suszarkę na pralce?",
+        "sv": "Kan jag ställa torktumlaren ovanpå tvättmaskinen?",
+        "us": "Can I stack the dryer on top of the washer?",
+        "ca": "Can I stack the dryer on top of the washing machine?"
       },
       "answer": {
         "fr": "Oui, si les deux appareils ont des dimensions compatibles, avec le kit de superposition prévu par le fabricant. Il fixe le sèche-linge et évite qu'il glisse pendant l'essorage. Ne posez jamais le sèche-linge directement sur le lave-linge sans ce kit.",
@@ -734,7 +1022,10 @@ export const article: BlogArticle = {
         "es": "Sí, si ambos aparatos tienen medidas compatibles y usas el kit de columna del fabricante. Este fija la secadora y evita que se desplace durante el centrifugado. Nunca coloques la secadora sobre la lavadora sin ese kit.",
         "it": "Sì, se i due apparecchi hanno dimensioni compatibili e si usa il kit di sovrapposizione del produttore. Fissa l'asciugatrice ed evita che scivoli durante la centrifuga. Non appoggiare mai l'asciugatrice sulla lavatrice senza questo kit.",
         "nl": "Ja, als beide toestellen passende afmetingen hebben en je de tussenset van de fabrikant gebruikt. Die zet de droger vast en voorkomt dat hij verschuift tijdens het centrifugeren. Zet de droger nooit zonder deze set op de wasmachine.",
-        "pl": "Tak, jeśli oba urządzenia mają zgodne wymiary, z zestawem łączącym przewidzianym przez producenta. Mocuje on suszarkę i nie pozwala jej się przesuwać podczas wirowania. Nigdy nie stawiaj suszarki bezpośrednio na pralce bez tego zestawu."
+        "pl": "Tak, jeśli oba urządzenia mają pasujące wymiary i użyjesz zestawu łączącego od producenta. Mocuje on suszarkę i nie pozwala jej się przesunąć podczas wirowania. Nigdy nie stawiaj suszarki bezpośrednio na pralce bez takiego zestawu.",
+        "sv": "Ja, om maskinerna har mått som passar ihop och du använder den sats för tvättpelare som tillverkaren erbjuder. Den håller fast torktumlaren och hindrar den från att glida under centrifugeringen. Ställ aldrig torktumlaren direkt på tvättmaskinen utan en sådan sats.",
+        "us": "Yes, if the two machines have compatible dimensions, using the manufacturer's stacking kit. It secures the dryer and keeps it from sliding off during the spin cycle. Never set the dryer directly on the washer without that kit.",
+        "ca": "Yes, if both appliances have compatible dimensions, using the stacking kit the manufacturer provides. It secures the dryer and keeps it from sliding during the spin cycle. Never put the dryer directly on the washer without that kit."
       }
     }
   ],

@@ -231,35 +231,137 @@ const pageContent: Record<string, PillarContent> = {
   },
   pl: {
     kicker: 'Inteligentna kuchnia',
-    title: 'Inteligentna kuchnia porównana jak frytkownica beztłuszczowa',
-    subtitle: 'Multicookery, ekspresy do kawy, wagi, termometry, wtyczki — ta sama metoda, te same wymagania.',
-    intro: 'Po dokładnym przeanalizowaniu frytkownic beztłuszczowych stosujemy tę samą rygorystyczną siatkę kryteriów do całego otoczenia: urządzeń, które gotują, ważą, mierzą i działają zdalnie. Cel: oszczędzić Ci gadżetów i zostawić to, co naprawdę upraszcza codzienność.',
+    title: 'Inteligentna kuchnia oceniana tak samo jak frytkownice',
+    subtitle: 'Multicookery, ekspresy do kawy, wagi, termometry, gniazdka — ta sama metoda, te same wymagania.',
+    intro: 'Frytkownice beztłuszczowe przeanalizowaliśmy już wnikliwie. Teraz te same rygorystyczne kryteria stosujemy do pozostałych urządzeń: tych, które gotują, ważą, mierzą i pozwalają sterować sprzętem na odległość. Cel: odsiać gadżety i zostawić to, co naprawdę ułatwia codzienność.',
     breadcrumb: 'Inteligentna kuchnia',
-    categoriesTitle: 'Nasze 5 kategorii',
+    categoriesTitle: 'Pięć kategorii urządzeń',
     categoryKicker: 'Kategoria',
-    ctaCategory: 'Zobacz wybór',
+    ctaCategory: 'Zobacz zestawienie',
     comparatorCta: 'Otwórz porównywarkę',
-    comparatorDesc: 'Porównaj do 3 modeli obok siebie, we wszystkich kategoriach.',
+    comparatorDesc: 'Porównaj obok siebie do 3 modeli, niezależnie od kategorii.',
     categories: {
       multicuiseurs: {
         name: 'Inteligentne multicookery',
-        tagline: 'Zautomatyzowane serce kuchni: programowanie przez Wi-Fi, przepisy krok po kroku, wszystko w jednym.',
+        tagline: 'Serce zautomatyzowanej kuchni: sterowanie przez Wi-Fi, przepisy krok po kroku, wiele urządzeń w jednym.',
       },
       cafetieres: {
         name: 'Automatyczne ekspresy do kawy',
-        tagline: 'Od ekspresu z młynkiem po automat na kawę ziarnistą: najważniejsza jest codzienna niezawodność.',
+        tagline: 'Od ekspresu ciśnieniowego z młynkiem po automat na kawę ziarnistą — liczy się przede wszystkim niezawodność na co dzień.',
       },
       balances: {
         name: 'Wagi kuchenne',
-        tagline: 'Precyzja, połączenie z aplikacją, śledzenie wartości odżywczych — podstawa dobrze zorganizowanej kuchni.',
+        tagline: 'Dokładne pomiary, współpraca z aplikacją, śledzenie wartości odżywczych — podstawa precyzyjnego gotowania.',
       },
       'thermometres-viande': {
-        name: 'Inteligentne termometry',
+        name: 'Termometry do mięsa',
         tagline: 'Mięso dopieczone co do stopnia — na płycie grillowej, we frytkownicy beztłuszczowej czy w piekarniku.',
       },
       'prises-connectees': {
-        name: 'Inteligentne wtyczki',
+        name: 'Inteligentne gniazdka',
         tagline: 'Steruj dowolnym urządzeniem zdalnie — także swoją frytkownicą beztłuszczową.',
+      },
+    },
+  },
+  sv: {
+    kicker: 'Smart kök',
+    title: 'Det smarta köket, jämfört lika noga som airfryrarna',
+    subtitle: 'Multikokare, kaffemaskiner, köksvågar, stektermometrar, smarta pluggar – samma metod, samma krav.',
+    intro: 'Efter att ha gått igenom airfryrarna med finkam tillämpar vi samma noggranna bedömning på allt som finns runt omkring: apparater som lagar mat, väger, mäter och styrs på distans. Målet är att du ska slippa onödiga prylar och behålla det som faktiskt gör vardagen enklare.',
+    breadcrumb: 'Smart kök',
+    categoriesTitle: 'Våra 5 kategorier',
+    categoryKicker: 'Kategori',
+    ctaCategory: 'Se urvalet',
+    comparatorCta: 'Öppna jämförelseverktyget',
+    comparatorDesc: 'Jämför upp till 3 modeller sida vid sida, oavsett kategori.',
+    categories: {
+      multicuiseurs: {
+        name: 'Smarta multikokare',
+        tagline: 'Kökets automatiska hjärta: schemaläggning via wifi, guidade recept, allt i ett.',
+      },
+      cafetieres: {
+        name: 'Helautomatiska kaffemaskiner',
+        tagline: 'Från espressomaskin med kvarn till helautomat för hela bönor: pålitligheten i vardagen kommer först.',
+      },
+      balances: {
+        name: 'Köksvågar',
+        tagline: 'Precision, koppling till appen, koll på näringsinnehållet – grunden i ett kök där du har kontroll.',
+      },
+      'thermometres-viande': {
+        name: 'Smarta stektermometrar',
+        tagline: 'Exakt rätt temperatur på graden när – på stekhällen, i airfryern eller i ugnen.',
+      },
+      'prises-connectees': {
+        name: 'Smarta pluggar',
+        tagline: 'Styr vilken apparat som helst på distans – även din airfryer.',
+      },
+    },
+  },
+  us: {
+    kicker: 'Smart kitchen',
+    title: 'Smart Kitchen Appliances, Compared Like Air Fryers',
+    subtitle: 'Multicookers, coffee makers, scales, thermometers, smart plugs — one method, one standard.',
+    intro: 'After putting air fryers under the microscope, we apply the same rigorous scoring grid to everything around them: appliances that cook, weigh, measure and can be run remotely. The goal: skip the gimmicks and keep what actually makes everyday life easier.',
+    breadcrumb: 'Smart kitchen',
+    categoriesTitle: 'Our 5 categories',
+    categoryKicker: 'Category',
+    ctaCategory: 'See the shortlist',
+    comparatorCta: 'Open the comparison tool',
+    comparatorDesc: 'Compare up to 3 models side by side, across every category.',
+    categories: {
+      multicuiseurs: {
+        name: 'Smart multicookers',
+        tagline: 'The automated heart of the kitchen: Wi-Fi programs, guided recipes, all-in-one cooking.',
+      },
+      cafetieres: {
+        name: 'Automatic coffee makers',
+        tagline: 'From super-automatic espresso machines to simpler espresso makers — everyday reliability first, showroom features second.',
+      },
+      balances: {
+        name: 'Kitchen scales',
+        tagline: 'Accuracy, app sync, nutrition tracking — the foundation of precise cooking.',
+      },
+      'thermometres-viande': {
+        name: 'Smart meat thermometers',
+        tagline: 'Perfect doneness to the degree, whether you grill, air-fry or roast.',
+      },
+      'prises-connectees': {
+        name: 'Smart plugs',
+        tagline: 'Control any appliance remotely — your air fryer included.',
+      },
+    },
+  },
+  ca: {
+    kicker: 'Smart kitchen',
+    title: 'The smart kitchen, compared as rigorously as our air fryers',
+    subtitle: 'Multicookers, coffee makers, scales, thermometers, smart plugs — one method, one standard.',
+    intro: 'After combing through air fryers, we apply the same rigorous scoring framework to the wider ecosystem: devices that cook, weigh, measure and switch things on from across the room. The goal: cut out the gadgets and keep what actually makes daily life easier.',
+    breadcrumb: 'Smart kitchen',
+    categoriesTitle: 'Our 5 categories',
+    categoryKicker: 'Category',
+    ctaCategory: 'See the shortlist',
+    comparatorCta: 'Open the comparison tool',
+    comparatorDesc: 'Compare up to 3 models side by side, across every category.',
+    categories: {
+      multicuiseurs: {
+        name: 'Smart multicookers',
+        tagline: 'The automated heart of the kitchen: Wi-Fi programs, guided recipes, all-in-one.',
+      },
+      cafetieres: {
+        name: 'Coffee makers',
+        tagline: 'From super-automatic machines to espresso makers — everyday reliability first, showroom features second.',
+      },
+      balances: {
+        name: 'Kitchen scales',
+        tagline: 'Accuracy, app sync, nutrient tracking — the foundation of precise cooking.',
+      },
+      'thermometres-viande': {
+        name: 'Meat thermometers',
+        tagline: 'Perfect doneness to the degree, whether you grill, air-fry or roast.',
+      },
+      'prises-connectees': {
+        name: 'Smart plugs',
+        tagline: 'Remote-control any appliance — your air fryer included.',
       },
     },
   },

@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Pareja cocinando un plato casero en una cazuela roja, el tipo de comida que una olla programable, una Thermomix o una freidora de aire pueden simplificar',
         it: 'Coppia che cucina un piatto fatto in casa in una pentola rossa, il tipo di pasto che un multicooker, un Bimby o una friggitrice ad aria possono semplificare',
         nl: 'Stel kookt een zelfgemaakt gerecht in een rode pan, het soort maaltijd dat een multicooker, Thermomix of airfryer eenvoudiger maakt',
-        pl: 'Para gotująca domowe danie w czerwonym garnku, czyli posiłek, który Cookeo, Thermomix lub frytkownica beztłuszczowa mogą uprościć',
+        pl: 'Para gotuje domowe danie w czerwonym garnku – przygotowanie takiego posiłku ułatwi Cookeo, Thermomix lub frytkownica beztłuszczowa',
+        sv: 'Ett par lagar mat från grunden i en röd gryta – den sortens måltid som en multikokare, en Thermomix eller en airfryer kan göra enklare',
+        us: 'Couple cooking a homemade dish in a red Dutch oven, the kind of meal a multicooker, a Thermomix or an air fryer can make easier',
+        ca: 'Couple cooking a homemade dish in a red Dutch oven, the kind of meal a multicooker, a Thermomix or an air fryer can simplify',
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: 'Olla programable vs Thermomix vs freidora de aire: ¿cuál elegir en 2026?',
     it: 'Multicooker vs Bimby vs friggitrice ad aria: quale scegliere nel 2026?',
     nl: 'Multicooker vs Thermomix vs airfryer: welke kies je in 2026?',
-    pl: 'Cookeo vs Thermomix vs frytkownica beztłuszczowa: co wybrać w 2026?',
+    pl: 'Cookeo, Thermomix czy frytkownica beztłuszczowa: co wybrać w 2026?',
+    sv: 'Multikokare, Thermomix eller airfryer: vilken ska du välja 2026?',
+    us: 'Multicooker vs. Thermomix vs. Air Fryer: Which to Buy in 2026?',
+    ca: 'Multicooker vs Thermomix vs Air Fryer: Which to Choose in 2026?',
   },
   excerpt: {
     fr: 'Cookeo, Thermomix ou airfryer ? Trois appareils, trois usages : cuisson rapide sous pression, robot qui prépare et cuit, ou cuisson croustillante à air chaud. Comparatif 2026 des modèles actuels, profil par profil.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: '¿Olla programable, Thermomix o freidora de aire? Tres aparatos, tres usos: cocción rápida a presión, un robot que prepara y cocina, o cocción crujiente con aire caliente. Comparativa 2026 de los modelos actuales, perfil por perfil.',
     it: 'Multicooker, Bimby o friggitrice ad aria? Tre apparecchi, tre usi: cottura rapida a pressione, un robot che prepara e cuoce, o cottura croccante ad aria calda. Confronto 2026 dei modelli attuali, profilo per profilo.',
     nl: 'Multicooker, Thermomix of airfryer? Drie apparaten, drie taken: snel koken onder druk, een keukenrobot die voorbereidt én kookt, of krokant garen met hete lucht. Vergelijking 2026 van actuele modellen, per profiel.',
-    pl: 'Cookeo, Thermomix czy frytkownica beztłuszczowa? Trzy urządzenia, trzy zastosowania: szybkie gotowanie pod ciśnieniem, robot, który przygotowuje i gotuje, albo chrupiące smażenie na gorące powietrze. Porównanie aktualnych modeli 2026, profil po profilu.',
+    pl: 'Cookeo, Thermomix czy frytkownica beztłuszczowa? Trzy urządzenia do trzech różnych zadań: szybkie gotowanie pod ciśnieniem, robot, który przygotowuje składniki i gotuje, oraz chrupiące potrawy z gorącego powietrza. Porównujemy modele dostępne w 2026 roku i podpowiadamy, co wybrać w zależności od potrzeb.',
+    sv: 'Multikokare, Thermomix eller airfryer? Tre apparater med tre olika uppgifter: snabb tryckkokning, en köksmaskin som både förbereder och tillagar, eller krispig mat med varmluft. Jämförelse 2026 av dagens modeller, profil för profil.',
+    us: 'Multicooker, Thermomix or air fryer? Three appliances, three jobs: fast pressure cooking, a machine that preps and cooks, or crispy hot-air cooking. Our 2026 comparison of current models, matched to the way you cook.',
+    ca: 'Multicooker, Thermomix or air fryer? Three appliances, three jobs: fast pressure cooking, a machine that preps and cooks, or crispy hot-air cooking. A 2026 comparison of current models, profile by profile.',
   },
   content: {
     fr: `<p><strong>Pour la plupart des familles, le Cookeo est le meilleur premier achat : il prépare en peu de temps des plats complets sous pression, avec des recettes guidées. L’airfryer est le complément idéal pour tout ce qui doit être croustillant, et le Thermomix ne se justifie que si vous voulez un robot qui hache, pétrit, pèse et cuit à votre place.</strong> Ces trois appareils ne font pas le même travail : les comparer revient surtout à choisir votre façon de cuisiner.</p>
@@ -491,81 +500,306 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Koop je er maar één, dan is de <strong>Moulinex Cookeo Touch WiFi</strong> voor een gezin het nuttigst in het dagelijks leven. Voor krokant is de <strong>Philips Airfryer 3000 Series XL</strong> een eenvoudige, doeltreffende aanvulling, en past de <strong>Ninja Double Stack XL</strong> beter bij grote huishoudens. De <strong>Thermomix TM7</strong> blijft het meest complete apparaat, maar alleen voor wie veel kookt en zowel wil voorbereiden als koken. Lees verder in onze <a href="/nl/blog/comparatif-multicuiseur-connecte">vergelijking van verbonden multicookers</a>.</p>`,
-    pl: `<p><strong>Dla większości rodzin Cookeo to najlepszy pierwszy zakup: w krótkim czasie przygotowuje pełne dania pod ciśnieniem, z przepisami krok po kroku. Frytkownica beztłuszczowa to idealne uzupełnienie do wszystkiego, co ma być chrupiące, a Thermomix ma sens tylko wtedy, gdy chcesz robota, który za Ciebie sieka, wyrabia, waży i gotuje.</strong> Te trzy urządzenia nie wykonują tej samej pracy: porównywanie ich sprowadza się głównie do wyboru własnego sposobu gotowania.</p>
-<p>To porównanie opiera się na kartach katalogowych producentów, opublikowanych niezależnych recenzjach i opiniach zweryfikowanych kupujących. Dotyczy modeli sprzedawanych w 2026 roku: Thermomix TM7, który w 2025 roku zastąpił TM6, Moulinex Cookeo Touch WiFi oraz najpopularniejsze w Europie frytkownice beztłuszczowe. Wszystkie multicookery znajdziesz w naszym <a href="/pl/cuisine-connectee/multicuiseurs">wyborze multicookerów</a>.</p>
+    pl: `<p><strong>W większości rodzin najlepszym pierwszym zakupem będzie Cookeo: pod ciśnieniem szybko przygotuje kompletne danie, prowadząc Cię przez przepis krok po kroku. Frytkownica beztłuszczowa idealnie go uzupełni przy wszystkim, co ma być chrupiące, a Thermomix ma sens tylko wtedy, gdy chcesz robota, który za Ciebie posieka, wyrobi ciasto, zważy składniki i ugotuje.</strong> Te trzy urządzenia służą do czego innego, więc ich porównanie sprowadza się przede wszystkim do tego, jak lubisz gotować.</p>
+<p>Porównanie opiera się na kartach katalogowych producentów, opublikowanych niezależnych recenzjach i opiniach zweryfikowanych kupujących. Obejmuje modele sprzedawane w 2026 roku: Thermomix TM7, który w 2025 roku zastąpił TM6, Moulinex Cookeo Touch WiFi oraz najpopularniejsze w Europie frytkownice beztłuszczowe. Wszystkie multicookery znajdziesz w naszym <a href="/pl/cuisine-connectee/multicuiseurs">zestawieniu multicookerów</a>.</p>
 
 <h2>Trzy urządzenia, trzy różne zadania</h2>
-<h3>Cookeo: elektryczny szybkowar z podpowiedziami</h3>
-<p>Cookeo marki Moulinex to multicooker ciśnieniowy. Obsmaża, dusi, gotuje na parze, a przede wszystkim gotuje pod ciśnieniem, co znacznie skraca czas przygotowania potraw duszonych, risotto, zup czy curry. Postępujesz według przepisu na ekranie, dodajesz składniki, a urządzenie kończy samo i utrzymuje danie w cieple. Nie miksuje, nie sieka, nie wyrabia ciasta i nie sprawia, że potrawy stają się chrupiące.</p>
-<h3>Thermomix: robot, który przygotowuje i gotuje</h3>
-<p>Thermomix firmy Vorwerk to robot kuchenny z funkcją podgrzewania. W jednej misie sieka, miksuje, wyrabia, emulguje, waży składniki dzięki wbudowanej wadze, a następnie gotuje, mieszając. Przepisy prowadzone krok po kroku pochodzą z platformy Cookidoo, dostępnej w abonamencie. Nie gotuje pod ciśnieniem i nie daje chrupiącego efektu jak przy smażeniu. Sprzedaje go Vorwerk, przez swoich doradców i własną stronę, a nie na klasycznych platformach handlowych.</p>
-<h3>Frytkownica beztłuszczowa: chrupiące smażenie na gorące powietrze</h3>
-<p>Frytkownica beztłuszczowa (air fryer) to mały, bardzo mocny piekarnik z termoobiegiem. Gorące powietrze krążące z dużą prędkością rumieni frytki, kurczaka, pieczone warzywa czy rybę w panierce przy niewielkiej ilości tłuszczu lub bez niego. Szybko się nagrzewa i łatwo się czyści, ale nie dusi, nie gotuje pod ciśnieniem i niczego nie przygotowuje: smaży to, co do niej włożysz. Nasz <a href="/pl/cuisine-connectee/airfryers">wybór frytkownic beztłuszczowych</a> przedstawia dostępne pojemności.</p>
+<h3>Cookeo: elektryczny szybkowar, który prowadzi przez przepis</h3>
+<p>Cookeo marki Moulinex to multicooker ciśnieniowy. Obsmaża, dusi, gotuje na parze, a przede wszystkim gotuje pod ciśnieniem, co znacznie skraca czas przygotowania potraw duszonych, risotto, zup czy curry. Postępujesz według przepisu wyświetlanego na ekranie, dodajesz składniki, a urządzenie samo kończy gotowanie i utrzymuje danie w cieple. Nie miksuje, nie sieka, nie wyrabia ciasta i nie przyrumieni potraw na chrupko.</p>
+<h3>Thermomix: robot, który przygotowuje składniki i gotuje</h3>
+<p>Thermomix firmy Vorwerk to robot kuchenny z funkcją gotowania. W jednej misie sieka, miksuje, wyrabia, emulguje i waży składniki na wbudowanej wadze, a potem gotuje, jednocześnie mieszając. Przepisy krok po kroku pochodzą z platformy Cookidoo, dostępnej w ramach abonamentu. Nie gotuje pod ciśnieniem i nie da chrupkości jak przy smażeniu. Vorwerk sprzedaje go przez swoich doradców i własną stronę internetową, a nie na popularnych platformach sprzedażowych.</p>
+<h3>Frytkownica beztłuszczowa: chrupiące potrawy z gorącego powietrza</h3>
+<p>Frytkownica beztłuszczowa (air fryer) to w praktyce mały piekarnik z termoobiegiem o bardzo dużej mocy. Gorące powietrze krążące z dużą prędkością rumieni frytki, kurczaka, pieczone warzywa czy panierowaną rybę przy niewielkiej ilości tłuszczu albo zupełnie bez niego. Szybko się nagrzewa i łatwo się ją czyści, ale nie dusi, nie gotuje pod ciśnieniem i niczego nie przygotowuje: przyrządza tylko to, co do niej włożysz. Dostępne pojemności omawiamy w naszym <a href="/pl/cuisine-connectee/airfryers">zestawieniu frytkownic beztłuszczowych</a>.</p>
 
 <h2>Kryteria, które naprawdę się liczą</h2>
 <ul>
-<li><strong>Rodzaj potraw, które gotujesz</strong>: potrawy duszone i dania jednogarnkowe (Cookeo), przygotowanie od początku do końca, makarony, sosy, desery (Thermomix) albo szybkie chrupiące dania (frytkownica beztłuszczowa).</li>
-<li><strong>Liczba osób</strong>: misa Cookeo o pojemności 6 l wykarmi rodzinę, a misa Thermomix o pojemności 2,2 l ogranicza niektóre ilości dla 5 lub 6 osób. W przypadku frytkownicy beztłuszczowej dla 4 osób licz co najmniej 5–6 l.</li>
-<li><strong>Dostępny czas</strong>: gotowanie pod ciśnieniem oszczędza najwięcej czasu przy długich potrawach; frytkownica beztłuszczowa jest najszybsza przy małych, chrupiących porcjach.</li>
-<li><strong>Prowadzenie po przepisie</strong>: ekran i przepisy krok po kroku w Cookeo i Thermomix; we frytkownicy beztłuszczowej to głównie programy i, zależnie od modelu, aplikacja z przepisami.</li>
-<li><strong>Dodatkowe koszty</strong>: Thermomix w pełni wykorzystuje swoje przepisy z podpowiedziami dopiero z abonamentem Cookidoo; Cookeo i frytkownice beztłuszczowe go nie wymagają.</li>
-<li><strong>Dostępne miejsce</strong>: multicooker 2-w-1 z funkcją frytkownicy beztłuszczowej nadal jest urządzeniem dużym i ciężkim.</li>
+<li><strong>Rodzaj dań, które gotujesz</strong>: potrawy duszone i dania jednogarnkowe (Cookeo), przygotowanie potrawy od A do Z, makarony, sosy, desery (Thermomix) albo szybkie, chrupiące dania (frytkownica beztłuszczowa).</li>
+<li><strong>Liczba osób</strong>: misa Cookeo o pojemności 6 l wystarczy dla całej rodziny, a misa Thermomix o pojemności 2,2 l przy 5–6 osobach ogranicza wielkość niektórych porcji. Frytkownica dla 4 osób powinna mieć co najmniej 5–6 l.</li>
+<li><strong>Ile masz czasu</strong>: gotowanie pod ciśnieniem pozwala zaoszczędzić najwięcej czasu przy daniach, które zwykle długo się gotują; frytkownica jest najszybsza przy małych, chrupiących porcjach.</li>
+<li><strong>Podpowiedzi podczas gotowania</strong>: Cookeo i Thermomix mają ekran i przepisy krok po kroku; frytkownica oferuje głównie programy automatyczne, a w niektórych modelach także aplikację z przepisami.</li>
+<li><strong>Dodatkowe koszty</strong>: z przepisów krok po kroku w Thermomix w pełni skorzystasz dopiero z abonamentem Cookidoo; Cookeo i frytkownice beztłuszczowe abonamentu nie wymagają.</li>
+<li><strong>Dostępne miejsce</strong>: multicooker 2 w 1 z funkcją frytkownicy beztłuszczowej to wciąż duże i ciężkie urządzenie.</li>
 </ul>
 
-<h2>Modele, które warto znać w 2026 roku</h2>
-<h3>Moulinex Cookeo Touch WiFi: wybór rodzin</h3>
-<p>Cookeo Touch WiFi łączy misę 6 l, 1 600 W, 13 trybów gotowania i 250 przepisów zapisanych w pamięci, z pochylanym ekranem dotykowym i Wi-Fi do dodawania przepisów. Ceramiczna misa, pokrywa i koszyk do gotowania na parze nadają się do zmywarki. <strong>Mocne strony</strong>: prostota, pełne dania nawet dla 6 osób, bardzo czytelne prowadzenie. <strong>Ograniczenia</strong>: brak miksowania i chrupiącego efektu, a misa wymaga trochę troski, by zachować powłokę. <strong>Dla kogo</strong>: dla rodzin, które chcą domowego posiłku w tygodniu bez pilnowania gotowania.</p>
+<h2>Modele warte uwagi w 2026 roku</h2>
+<h3>Moulinex Cookeo Touch WiFi: propozycja dla rodzin</h3>
+<p>Cookeo Touch WiFi ma misę 6 l, moc 1600 W, 13 trybów gotowania i 250 zapisanych w pamięci przepisów, a do tego odchylany ekran dotykowy i Wi-Fi, przez które można dodawać kolejne przepisy. Ceramiczną misę, pokrywę i koszyk do gotowania na parze można myć w zmywarce. <strong>Mocne strony</strong>: prostota, kompletne dania nawet dla 6 osób, bardzo czytelne instrukcje. <strong>Ograniczenia</strong>: nie miksuje i nie daje chrupkości, a misę trzeba traktować ostrożnie, by powłoka długo wytrzymała. <strong>Dla kogo</strong>: rodziny, które w tygodniu chcą zjeść domowy posiłek bez pilnowania garnka.</p>
 <h3>Instant Pot Duo Plus WhisperQuiet: szybkowar bez ekranu dotykowego</h3>
-<p>Ten Instant Pot o pojemności 5,7 l oferuje 9 funkcji (ciśnienie, wolnowar, ryż, para, jogurt, sous vide itd.) oraz system, który wypuszcza parę bez gwizdu. Nie ma ani Wi-Fi, ani przepisów prowadzonych na ekranie. <strong>Mocne strony</strong>: wszechstronność, dyskretna praca, format dobry dla 4–6 osób. <strong>Ograniczenia</strong>: mniej intuicyjny interfejs dla początkującego. <strong>Dla kogo</strong>: dla tych, którzy już potrafią gotować i chcą przede wszystkim gotowania pod ciśnieniem.</p>
-<h3>Thermomix TM7: robot kuchenny klasy premium</h3>
-<p>Wprowadzony w 2025 roku TM7 zachowuje misę 2,2 l, ale ma 10-calowy ekran dotykowy, cichszy silnik, misę z izolowaną obudową, nowe tryby, takie jak obsmażanie i gotowanie przy otwartej misie, oraz większy Varoma. <strong>Mocne strony</strong>: przygotowuje i gotuje, waży składniki, prowadzi przez każdy etap. <strong>Ograniczenia</strong>: bardzo wysoki budżet, abonament Cookidoo, by korzystać z przepisów, pojemność wystarczająca na styk przy dużych spotkaniach. <strong>Dla kogo</strong>: dla pasjonatów, którzy gotują wiele różnych przepisów i chcą jednego urządzenia do przygotowywania potraw.</p>
-<h3>Philips Airfryer Series 3000 XL 6,2 L: wszechstronna frytkownica beztłuszczowa</h3>
-<p>Ten model o pojemności 6,2 l deklaruje 14 trybów przygotowywania, ekran dotykowy z 7 programami, podtrzymywanie ciepła do 30 minut oraz przepisy w aplikacji NutriU. <strong>Mocne strony</strong>: pojemność dobrana do rodziny, prostota, łatwa pielęgnacja. <strong>Ograniczenia</strong>: jeden koszyk, a więc jedno smażenie naraz. <strong>Dla kogo</strong>: dla tych, którzy chcą pierwszej, wygodnej w użyciu frytkownicy beztłuszczowej jako uzupełnienia Cookeo.</p>
-<h3>Ninja Double Stack XL 9,5 L: dwie szuflady jedna na drugiej</h3>
-<p>Ninja SL400EU układa dwie szuflady po 4,75 l jedną nad drugą, sterowane osobno, z funkcją synchronizującą koniec smażenia. Jej pionowa forma zajmuje mniej szerokości niż klasyczny model z dwiema strefami. <strong>Mocne strony</strong>: danie główne i dodatek jednocześnie, duża łączna pojemność. <strong>Ograniczenia</strong>: urządzenie wysokie i ciężkie, a według opublikowanych opinii niektóre potrawy mogą się smażyć mniej równomiernie. <strong>Dla kogo</strong>: dla dużych rodzin, które często przygotowują dwa elementy naraz.</p>
-<h3>Ninja Foodi MAX SmartLid: kompromis typu wszystko w jednym</h3>
-<p>Ninja Foodi MAX SmartLid (OL750EU) łączy pod jedną pokrywą gotowanie pod ciśnieniem i funkcję frytkownicy beztłuszczowej, z misą 7,5 l, koszykiem 4,7 l i 14 funkcjami. <strong>Mocne strony</strong>: zastępuje jednocześnie szybkowar i frytkownicę beztłuszczową. <strong>Ograniczenia</strong>: duże, ciężkie (ponad 11 kg) i wymaga więcej czasu na naukę obsługi. <strong>Dla kogo</strong>: dla tych, którzy chcą mieć na blacie tylko jedno urządzenie i mają na nie miejsce.</p>
+<p>Ten Instant Pot o pojemności 5,7 l ma 9 funkcji (gotowanie pod ciśnieniem, wolnowar, ryż, para, jogurt, sous vide itd.) i system, który wypuszcza parę bez syczenia. Nie ma Wi-Fi ani przepisów krok po kroku na ekranie. <strong>Mocne strony</strong>: wszechstronność, cicha praca, pojemność odpowiednia dla 4–6 osób. <strong>Ograniczenia</strong>: interfejs mniej intuicyjny dla początkujących. <strong>Dla kogo</strong>: osoby, które już umieją gotować i zależy im przede wszystkim na gotowaniu pod ciśnieniem.</p>
+<h3>Thermomix TM7: robot kuchenny z najwyższej półki</h3>
+<p>Model TM7, który pojawił się w 2025 roku, ma nadal misę 2,2 l, ale zyskał 10-calowy ekran dotykowy, cichszy silnik, misę z izolowaną obudową, nowe tryby, m.in. przysmażanie i gotowanie przy otwartej misie, a także większe naczynie Varoma. <strong>Mocne strony</strong>: przygotowuje składniki i gotuje, waży je i prowadzi przez każdy etap. <strong>Ograniczenia</strong>: bardzo wysoka cena, abonament Cookidoo potrzebny do korzystania z przepisów, pojemność ledwo wystarczająca przy licznych gościach. <strong>Dla kogo</strong>: pasjonaci, którzy gotują według wielu różnych przepisów i chcą mieć jedno urządzenie do wszystkich prac przygotowawczych.</p>
+<h3>Philips Airfryer Series 3000 XL (6,2 l): wszechstronna frytkownica beztłuszczowa</h3>
+<p>Ten model o pojemności 6,2 l ma według producenta 14 trybów przyrządzania, ekran dotykowy z 7 programami, podtrzymywanie ciepła do 30 minut i przepisy w aplikacji NutriU. <strong>Mocne strony</strong>: pojemność odpowiednia dla rodziny, prostota obsługi, łatwe czyszczenie. <strong>Ograniczenia</strong>: jeden kosz, więc tylko jedna potrawa naraz. <strong>Dla kogo</strong>: osoby, które szukają pierwszej frytkownicy beztłuszczowej, wygodnej na co dzień, jako uzupełnienia Cookeo.</p>
+<h3>Ninja Double Stack XL (9,5 l): dwie szuflady jedna nad drugą</h3>
+<p>W modelu Ninja SL400EU dwie szuflady po 4,75 l są ustawione jedna nad drugą i sterowane niezależnie, a specjalna funkcja synchronizuje zakończenie pracy obu szuflad. Dzięki pionowej konstrukcji urządzenie zajmuje mniej miejsca na szerokość niż klasyczny model z dwiema strefami. <strong>Mocne strony</strong>: danie główne i dodatek jednocześnie, duża łączna pojemność. <strong>Ograniczenia</strong>: urządzenie jest wysokie i ciężkie, a według opublikowanych opinii niektóre potrawy przyrządza mniej równomiernie. <strong>Dla kogo</strong>: duże rodziny, które często przygotowują dwie rzeczy naraz.</p>
+<h3>Ninja Foodi MAX SmartLid: kompromis „wszystko w jednym”</h3>
+<p>Ninja Foodi MAX SmartLid (OL750EU) łączy pod jedną pokrywą gotowanie pod ciśnieniem i funkcję frytkownicy beztłuszczowej; ma misę 7,5 l, kosz 4,7 l i 14 funkcji. <strong>Mocne strony</strong>: zastępuje jednocześnie szybkowar i frytkownicę beztłuszczową. <strong>Ograniczenia</strong>: duży, ciężki (ponad 11 kg), a opanowanie obsługi zajmuje więcej czasu. <strong>Dla kogo</strong>: osoby, które chcą mieć na blacie tylko jedno urządzenie i mają na nie miejsce.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Typ</th><th>Pojemność</th><th>Główny atut</th><th>Łączność</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Typ</th><th>Pojemność</th><th>Główny atut</th><th>Łączność</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td>Moulinex Cookeo Touch WiFi</td><td>Multicooker ciśnieniowy</td><td>6 L</td><td>250 przepisów krok po kroku</td><td>Wi-Fi + aplikacja</td><td>Zabieganych rodzin</td></tr>
-<tr><td>Instant Pot Duo Plus WhisperQuiet</td><td>Multicooker ciśnieniowy</td><td>5,7 L</td><td>Ciche wypuszczanie pary</td><td>Brak</td><td>Samodzielnych kucharzy</td></tr>
-<tr><td>Thermomix TM7</td><td>Robot kuchenny z podgrzewaniem</td><td>Misa 2,2 L</td><td>Sieka, wyrabia, waży i gotuje</td><td>Wi-Fi + Cookidoo</td><td>Pasjonatów gotowania</td></tr>
-<tr><td>Philips Airfryer Series 3000 XL</td><td>Frytkownica beztłuszczowa z jednym koszykiem</td><td>6,2 L</td><td>Prostota, 14 trybów</td><td>Aplikacja NutriU</td><td>Chrupiących dań na co dzień</td></tr>
-<tr><td>Ninja Double Stack XL</td><td>Frytkownica beztłuszczowa z dwiema szufladami</td><td>2 x 4,75 L</td><td>Dwa smażenia jednocześnie</td><td>Brak</td><td>Dużych rodzin</td></tr>
-<tr><td>Ninja Foodi MAX SmartLid</td><td>Multicooker + frytkownica beztłuszczowa</td><td>7,5 L</td><td>Ciśnienie i chrupkość</td><td>Brak</td><td>Jednego urządzenia</td></tr>
+<tr><td>Moulinex Cookeo Touch WiFi</td><td>Multicooker ciśnieniowy</td><td>6 l</td><td>250 przepisów krok po kroku</td><td>Wi-Fi + aplikacja</td><td>Zabiegane rodziny</td></tr>
+<tr><td>Instant Pot Duo Plus WhisperQuiet</td><td>Multicooker ciśnieniowy</td><td>5,7 l</td><td>Ciche wypuszczanie pary</td><td>Brak</td><td>Osoby, które umieją gotować</td></tr>
+<tr><td>Thermomix TM7</td><td>Robot kuchenny z funkcją gotowania</td><td>Misa 2,2 l</td><td>Sieka, wyrabia, waży i gotuje</td><td>Wi-Fi + Cookidoo</td><td>Pasjonaci gotowania</td></tr>
+<tr><td>Philips Airfryer Series 3000 XL</td><td>Frytkownica z jednym koszem</td><td>6,2 l</td><td>Prostota, 14 trybów</td><td>Aplikacja NutriU</td><td>Chrupiące dania na co dzień</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>Frytkownica z dwiema szufladami</td><td>2 × 4,75 l</td><td>Dwie potrawy jednocześnie</td><td>Brak</td><td>Duże rodziny</td></tr>
+<tr><td>Ninja Foodi MAX SmartLid</td><td>Multicooker + frytkownica</td><td>7,5 l</td><td>Ciśnienie i chrupkość</td><td>Brak</td><td>Jedno urządzenie zamiast dwóch</td></tr>
 </tbody>
 </table>
 
-<h2>Czy jedno może zastąpić drugie?</h2>
+<h2>Czy jedno urządzenie zastąpi drugie?</h2>
 <ul>
-<li><strong>Cookeo nie zastępuje Thermomix</strong>: nie sieka, nie miksuje, nie wyrabia i nie waży.</li>
-<li><strong>Thermomix częściowo zastępuje Cookeo</strong>: gotuje i dusi, ale bez ciśnienia, więc danie takie jak wołowina w winie nadal trwa długo, a misa ogranicza duże ilości.</li>
-<li><strong>Frytkownica beztłuszczowa nie zastępuje żadnego z nich</strong>: piecze i nadaje chrupkość, ale nie zrobi sosu, zupy ani potrawy duszonej.</li>
-<li><strong>Najczęstszy duet</strong>: multicooker do pełnych dań i frytkownica beztłuszczowa do chrupiących potraw. Razem pokrywają zdecydowaną większość posiłków w tygodniu za ułamek budżetu Thermomix.</li>
+<li><strong>Cookeo nie zastąpi robota Thermomix</strong>: nie sieka, nie miksuje, nie wyrabia i nie waży.</li>
+<li><strong>Thermomix częściowo zastąpi Cookeo</strong>: gotuje i dusi, ale bez ciśnienia, więc danie takie jak wołowina po burgundzku nadal wymaga sporo czasu, a pojemność misy ogranicza duże porcje.</li>
+<li><strong>Frytkownica beztłuszczowa nie zastąpi żadnego z nich</strong>: piecze i nadaje chrupkość, ale nie zrobi sosu, zupy ani potrawy duszonej.</li>
+<li><strong>Najczęstszy duet</strong>: multicooker do kompletnych dań i frytkownica do chrupiących potraw. Razem wystarczą do przygotowania zdecydowanej większości posiłków w tygodniu, a kosztują ułamek ceny robota Thermomix.</li>
 </ul>
 
-<h2>Nasza rekomendacja według profilu</h2>
-<p><strong>Rodzina z dziećmi</strong>: Cookeo Touch WiFi, uzupełnione później frytkownicą beztłuszczową o pojemności 6 l lub większej. <strong>Student lub para</strong>: na początek często wystarczy frytkownica beztłuszczowa, taka jak Philips Series 3000 XL; zobacz też nasz poradnik <a href="/pl/blog/comment-choisir-airfryer-famille">jak wybrać frytkownicę beztłuszczową</a>. <strong>Pasjonat gotowania</strong>: Thermomix TM7, jeśli budżet i abonament nie stanowią problemu; najpierw porównaj go z alternatywami w naszym <a href="/pl/blog/robot-cuiseur-connecte-comparatif">porównaniu robotów kuchennych z Wi-Fi</a>. <strong>Mała kuchnia</strong>: Ninja Foodi MAX SmartLid, jeśli chcesz mieć jedno urządzenie, pod warunkiem że masz na nie miejsce.</p>
+<h2>Nasze rekomendacje w zależności od profilu</h2>
+<p><strong>Rodzina z dziećmi</strong>: Cookeo Touch WiFi, a z czasem także frytkownica beztłuszczowa o pojemności co najmniej 6 l. <strong>Student lub para</strong>: na początek często wystarczy frytkownica, np. Philips Series 3000 XL; zajrzyj też do naszego poradnika <a href="/pl/blog/comment-choisir-airfryer-famille">jak wybrać frytkownicę beztłuszczową</a>. <strong>Pasjonat gotowania</strong>: Thermomix TM7, jeśli cena i abonament nie są przeszkodą; najpierw porównaj go jednak z alternatywami w naszym <a href="/pl/blog/robot-cuiseur-connecte-comparatif">porównaniu inteligentnych robotów kuchennych z funkcją gotowania</a>. <strong>Mała kuchnia</strong>: Ninja Foodi MAX SmartLid, jeśli chcesz mieć tylko jedno urządzenie – pod warunkiem że znajdziesz na nie miejsce.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li>Kupowanie Thermomix głównie do makaronów i prostych dań: będzie niewykorzystany.</li>
-<li>Wiara, że Cookeo sprawia, iż potrawy stają się chrupiące: obsmaża, ale nie zastępuje piekarnika ani frytkownicy beztłuszczowej.</li>
-<li>Wybór zbyt małej frytkownicy beztłuszczowej dla rodziny: trzeba będzie smażyć w kilku partiach.</li>
-<li>Zapominanie o gabarytach: zmierz miejsce pod szafkami, zwłaszcza w przypadku modeli wysokich lub łączonych.</li>
-<li>Zaniedbywanie pielęgnacji: uszkodzona uszczelka pokrywy lub misa skracają żywotność szybkowaru.</li>
+<li>Kupowanie robota Thermomix głównie do makaronów i prostych dań: nie wykorzystasz jego możliwości.</li>
+<li>Liczenie na to, że Cookeo przyrumieni potrawy na chrupko: obsmaża, ale nie zastąpi piekarnika ani frytkownicy beztłuszczowej.</li>
+<li>Wybieranie dla rodziny zbyt małej frytkownicy: trzeba będzie przygotowywać jedzenie na raty.</li>
+<li>Zapominanie o gabarytach: zmierz wolną przestrzeń pod szafkami, zwłaszcza w przypadku modeli wysokich i urządzeń łączonych.</li>
+<li>Zaniedbywanie konserwacji: uszkodzona uszczelka pokrywy lub zniszczona misa skracają żywotność szybkowaru.</li>
 </ul>
 
 <h2>Użytkowanie i bezpieczeństwo</h2>
-<p>Multicooker ciśnieniowy można otworzyć dopiero po spadku ciśnienia: przestrzegaj maksymalnych poziomów napełnienia, regularnie sprawdzaj uszczelkę i zawór oraz trzymaj twarz z dala od wylotu pary. Frytkownica beztłuszczowa musi mieć wolną przestrzeń wokół wylotu gorącego powietrza i nie powinna stać przy ścianie ani pod niską szafką. Wszystkie te urządzenia podłączaj bezpośrednio do gniazdka ściennego, a nie do przeciążonej listwy.</p>
+<p>Multicooker ciśnieniowy można otworzyć dopiero wtedy, gdy ciśnienie spadnie: nie przekraczaj maksymalnego poziomu napełnienia, regularnie sprawdzaj uszczelkę i zawór, a twarz trzymaj z dala od wylotu pary. Wokół wylotu gorącego powietrza frytkownicy beztłuszczowej musi pozostać wolna przestrzeń, dlatego nie stawiaj jej przy samej ścianie ani pod nisko zawieszoną szafką. Wszystkie te urządzenia podłączaj bezpośrednio do gniazdka w ścianie, a nie do przeciążonej listwy zasilającej.</p>
 
 <h2>Werdykt</h2>
-<p>Jeśli możesz kupić tylko jedno, <strong>Moulinex Cookeo Touch WiFi</strong> jest dla rodziny najbardziej przydatny na co dzień. Do chrupiących potraw <strong>Philips Airfryer Series 3000 XL</strong> to proste i skuteczne uzupełnienie, a <strong>Ninja Double Stack XL</strong> lepiej pasuje do dużych rodzin. <strong>Thermomix TM7</strong> pozostaje najbardziej kompletnym narzędziem, ale tylko dla tych, którzy dużo gotują i chcą zarówno przygotowywać, jak i gotować. Aby zgłębić temat, przeczytaj nasze <a href="/pl/blog/comparatif-multicuiseur-connecte">porównanie multicookerów z Wi-Fi</a>.</p>`,
+<p>Jeśli możesz kupić tylko jedno urządzenie, w rodzinie na co dzień najbardziej przyda się <strong>Moulinex Cookeo Touch WiFi</strong>. Do chrupiących potraw <strong>Philips Airfryer Series 3000 XL</strong> będzie prostym i skutecznym uzupełnieniem, a przy dużej liczbie domowników lepiej sprawdzi się <strong>Ninja Double Stack XL</strong>. <strong>Thermomix TM7</strong> to wciąż najbardziej wszechstronne narzędzie, ale tylko dla osób, które dużo gotują i chcą, by urządzenie nie tylko gotowało, lecz także przygotowywało składniki. Więcej znajdziesz w naszym <a href="/pl/blog/comparatif-multicuiseur-connecte">porównaniu multicookerów z Wi-Fi</a>.</p>`,
+    sv: `<p><strong>För de flesta familjer är en multikokare som Moulinex Cookeo det bästa första köpet: den lagar snabbt kompletta rätter i en enda gryta under tryck, med recept som guidar dig steg för steg. En airfryer är den perfekta kompletteringen för allt som ska bli krispigt, och en Thermomix lönar sig bara om du vill ha en maskin som hackar, knådar, väger och tillagar åt dig.</strong> De tre apparaterna gör inte samma jobb, så valet mellan dem handlar egentligen om hur du lagar mat.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Den omfattar modeller som säljs 2026: Thermomix TM7, som ersatte TM6 under 2025, Moulinex Cookeo Touch WiFi och de airfryrar som säljer mest i Europa. Alla modeller hittar du i vårt <a href="/sv/cuisine-connectee/multicuiseurs">urval av multikokare</a>.</p>
+
+<h2>Tre apparater, tre olika jobb</h2>
+<h3>Cookeo: den guidade elektriska tryckkokaren</h3>
+<p>Moulinex Cookeo är en multikokare med tryckkokningsfunktion. Den bryner, puttrar, ångkokar och framför allt tryckkokar, vilket kraftigt kortar tiden för grytor, risotto, soppor och curryrätter. Du följer ett recept på skärmen och lägger i ingredienserna. Sedan gör apparaten klart på egen hand och håller maten varm. Den mixar, hackar och knådar inte, och den gör inte maten krispig.</p>
+<h3>Thermomix: köksmaskinen som förbereder och tillagar</h3>
+<p>Vorwerks Thermomix är en köksmaskin med värmefunktion. I en och samma skål hackar, mixar, knådar och emulgerar den, väger ingredienserna på den inbyggda vågen och tillagar sedan under omrörning. De guidade recepten kommer från plattformen Cookidoo, som kräver abonnemang. Den tryckkokar inte och ger inte den krispiga yta som friterad mat får. Thermomix säljs av Vorwerk, via företagets egna säljare och webbplats, och inte på de vanliga marknadsplatserna på nätet.</p>
+<h3>Airfryern: krispig mat med varmluft</h3>
+<p>En airfryer är en liten men mycket kraftfull varmluftsugn. Het luft som cirkulerar i hög hastighet ger pommes frites, kyckling, rostade grönsaker och panerad fisk en gyllene yta med lite eller inget fett alls. Den blir snabbt varm och är lätt att rengöra, men den puttrar inte, tryckkokar inte och förbereder ingenting: den tillagar det du lägger i den. I vårt <a href="/sv/cuisine-connectee/airfryers">urval av airfryrar</a> ser du vilka storlekar som finns.</p>
+
+<h2>Det som verkligen spelar roll</h2>
+<ul>
+<li><strong>Vilka rätter du lagar</strong>: långkok och kompletta måltider i ett enda kärl (multikokare), matlagning från grunden med degar, såser och desserter (Thermomix) eller snabb, krispig mat (airfryer).</li>
+<li><strong>Hur många ni är</strong>: innerkärlet på 6 liter i Cookeo räcker till en hel familj, medan Thermomix-skålen på 2,2 liter sätter gränser för vissa mängder när ni är 5 eller 6 personer. För en airfryer bör du räkna med minst 5–6 liter till fyra personer.</li>
+<li><strong>Hur mycket tid du har</strong>: tryckkokning sparar mest tid på rätter som annars tar lång tid; airfryern är snabbast för små, krispiga portioner.</li>
+<li><strong>Vägledning</strong>: skärm och recept steg för steg på Cookeo och Thermomix; på airfryrar handlar det mest om färdiga program och, beroende på modell, en receptapp.</li>
+<li><strong>Löpande kostnader</strong>: de guidade recepten i Thermomix blir fullt tillgängliga först med ett Cookidoo-abonnemang; Cookeo och airfryrar kräver inget abonnemang.</li>
+<li><strong>Plats på bänken</strong>: en 2-i-1-multikokare med airfryerfunktion är fortfarande en skrymmande och tung apparat.</li>
+</ul>
+
+<h2>Modellerna värda att känna till 2026</h2>
+<h3>Moulinex Cookeo Touch WiFi: familjens val</h3>
+<p>Cookeo Touch WiFi kombinerar ett innerkärl på 6 liter, 1 600 W, 13 tillagningslägen och 250 förinstallerade recept med en lutbar pekskärm och wifi så att du kan lägga till nya recept. Det keramiska innerkärlet, locket och ångkorgen tål diskmaskin. <strong>Styrkor</strong>: enkel att använda, kompletta måltider för upp till sex personer, mycket tydlig vägledning. <strong>Svagheter</strong>: varken mixning eller krispig yta, och beläggningen i innerkärlet behöver hanteras varsamt. <strong>Passar för</strong>: familjer som vill ha hemlagad mat på vardagskvällarna utan att stå och passa grytan.</p>
+<h3>Instant Pot Duo Plus WhisperQuiet: tryckkokaren utan pekskärm</h3>
+<p>Den här Instant Pot-modellen på 5,7 liter har 9 funktioner (tryckkokning, slowcooker, ris, ångkokning, yoghurt, sous vide med mera) och ett system som släpper ut ångan utan att det väser. Den har varken wifi eller guidade recept på skärmen. <strong>Styrkor</strong>: mångsidig, tyst i drift, en storlek som passar 4–6 personer. <strong>Svagheter</strong>: gränssnittet är mindre intuitivt för en nybörjare. <strong>Passar för</strong>: dig som redan kan laga mat och framför allt vill ha tryckkokning.</p>
+<h3>Thermomix TM7: premiumvalet bland köksmaskiner</h3>
+<p>TM7 lanserades 2025 och har kvar skålen på 2,2 liter, men får en pekskärm på 10 tum, en tystare motor, en skål med isolerande hölje, nya lägen som bryning och tillagning med öppet lock samt en större Varoma. <strong>Styrkor</strong>: den både förbereder och tillagar, väger ingredienserna och guidar dig genom varje steg. <strong>Svagheter</strong>: mycket hög budget, Cookidoo-abonnemang för att få ut det mesta av recepten och i minsta laget för stora sällskap. <strong>Passar för</strong>: matentusiaster som lagar många olika recept och vill ha en enda maskin för förberedelserna.</p>
+<h3>Philips Airfryer 3000 Series XL (6,2 liter): den mångsidiga airfryern</h3>
+<p>Den här modellen på 6,2 liter har enligt tillverkaren 14 tillagningslägen, en pekskärm med 7 program, varmhållning i upp till 30 minuter och recept i appen NutriU. <strong>Styrkor</strong>: rymmer tillräckligt för en familj, enkel att använda, lätt att rengöra. <strong>Svagheter</strong>: bara en korg, så du kan bara laga en sak åt gången. <strong>Passar för</strong>: dig som vill ha en lättanvänd första airfryer som komplement till en multikokare.</p>
+<h3>Ninja Double Stack XL (9,5 liter): två lådor på varandra</h3>
+<p>Ninja SL400EU har två lådor på 4,75 liter staplade på varandra, som styrs var för sig, och en funktion som ser till att båda blir klara samtidigt. Den höga formen tar mindre plats på bredden än en klassisk modell med två zoner. <strong>Styrkor</strong>: huvudrätt och tillbehör samtidigt, stor total volym. <strong>Svagheter</strong>: hög och tung apparat, och enligt publicerade omdömen kan vissa rätter bli ojämnare tillagade. <strong>Passar för</strong>: storfamiljer som ofta lagar två saker samtidigt.</p>
+<h3>Ninja Foodi MAX SmartLid: allt-i-ett-kompromissen</h3>
+<p>Ninja Foodi MAX SmartLid (OL750EU) samlar tryckkokning och airfryerfunktion under ett och samma lock, med ett innerkärl på 7,5 liter, en korg på 4,7 liter och 14 funktioner. <strong>Styrkor</strong>: ersätter både tryckkokaren och airfryern. <strong>Svagheter</strong>: skrymmande, tung (över 11 kg) och tar längre tid att lära sig. <strong>Passar för</strong>: dig som bara vill ha en apparat på bänken och har plats för den.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Volym</th><th>Största styrka</th><th>Uppkoppling</th><th>Passar för</th></tr>
+</thead>
+<tbody>
+<tr><td>Moulinex Cookeo Touch WiFi</td><td>Multikokare med tryckkokning</td><td>6 l</td><td>250 guidade recept</td><td>Wifi + app</td><td>Familjer med ont om tid</td></tr>
+<tr><td>Instant Pot Duo Plus WhisperQuiet</td><td>Multikokare med tryckkokning</td><td>5,7 l</td><td>Tyst ångutsläpp</td><td>Ingen</td><td>Vana hemmakockar</td></tr>
+<tr><td>Thermomix TM7</td><td>Köksmaskin med kokfunktion</td><td>Skål 2,2 l</td><td>Hackar, knådar, väger och tillagar</td><td>Wifi + Cookidoo</td><td>Matentusiaster</td></tr>
+<tr><td>Philips Airfryer 3000 Series XL</td><td>Airfryer med en korg</td><td>6,2 l</td><td>Enkel, 14 lägen</td><td>Appen NutriU</td><td>Krispig vardagsmat</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>Airfryer med två lådor</td><td>2 × 4,75 l</td><td>Två rätter samtidigt</td><td>Ingen</td><td>Storfamiljer</td></tr>
+<tr><td>Ninja Foodi MAX SmartLid</td><td>Multikokare + airfryer</td><td>7,5 l</td><td>Tryckkokning och krispighet</td><td>Ingen</td><td>En enda apparat i köket</td></tr>
+</tbody>
+</table>
+
+<h2>Kan den ena ersätta den andra?</h2>
+<ul>
+<li><strong>En multikokare ersätter inte en Thermomix</strong>: den kan varken hacka, mixa, knåda eller väga.</li>
+<li><strong>En Thermomix ersätter delvis en multikokare</strong>: den tillagar och puttrar, men utan tryck, så en långkokt köttgryta tar fortfarande lång tid, och skålen sätter gränser för stora satser.</li>
+<li><strong>En airfryer ersätter ingen av dem</strong>: den rostar och gör maten krispig, men lagar varken såser, soppor eller grytor.</li>
+<li><strong>Den vanligaste kombinationen</strong>: en multikokare för kompletta rätter och en airfryer för det krispiga. Tillsammans klarar de de flesta vardagsmiddagar, för en bråkdel av vad en Thermomix kostar.</li>
+</ul>
+
+<h2>Vår rekommendation per profil</h2>
+<p><strong>Familj med barn</strong>: Cookeo Touch WiFi, och längre fram en airfryer på 6 liter eller mer. <strong>Student eller par</strong>: en airfryer som Philips 3000 Series XL räcker ofta till att börja med; läs också vår guide om <a href="/sv/blog/comment-choisir-airfryer-famille">hur du väljer rätt airfryer</a>. <strong>Matentusiast</strong>: Thermomix TM7, om budgeten och abonnemanget inte är något problem; jämför den först med alternativen i vår <a href="/sv/blog/robot-cuiseur-connecte-comparatif">jämförelse av smarta köksmaskiner med kokfunktion</a>. <strong>Litet kök</strong>: Ninja Foodi MAX SmartLid om du bara vill ha en apparat, förutsatt att du har plats för den.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li>Att köpa en Thermomix mest för pasta och enkla rätter: den kommer inte att utnyttjas fullt ut.</li>
+<li>Att tro att en multikokare gör maten krispig: den bryner, men ersätter inte en ugn eller en airfryer.</li>
+<li>Att välja en för liten airfryer till en familj: då får du laga maten i flera omgångar.</li>
+<li>Att glömma hur mycket plats apparaten tar: mät utrymmet under väggskåpen, särskilt för höga modeller och kombinerade apparater.</li>
+<li>Att slarva med skötseln: en sliten lockpackning eller ett skadat innerkärl förkortar tryckkokarens livslängd.</li>
+</ul>
+
+<h2>Användning och säkerhet</h2>
+<p>En multikokare med tryckkokning går bara att öppna när trycket har sjunkit: håll dig till markeringen för maximal fyllnadsnivå, kontrollera packningen och ventilen regelbundet och håll ansiktet borta från ångutsläppet. En airfryer behöver fritt utrymme runt varmluftsutblåset och ska inte stå mot en vägg eller under ett lågt skåp. Anslut alla de här apparaterna direkt till ett vägguttag i stället för till ett överbelastat grenuttag.</p>
+
+<h2>Omdöme</h2>
+<p>Ska du bara köpa en apparat är <strong>Moulinex Cookeo Touch WiFi</strong> den som gör mest nytta i vardagen för en familj. För det krispiga är <strong>Philips Airfryer 3000 Series XL</strong> ett enkelt och effektivt komplement, och <strong>Ninja Double Stack XL</strong> passar bättre när ni är många runt bordet. <strong>Thermomix TM7</strong> är fortfarande det mest kompletta redskapet, men bara för dig som lagar mycket mat och vill förbereda lika mycket som du tillagar. Vill du veta mer kan du läsa vår <a href="/sv/blog/comparatif-multicuiseur-connecte">jämförelse av smarta multikokare</a>.</p>`,
+    us: `<p><strong>For most families, a multicooker such as the Moulinex Cookeo is the best first buy: it pressure cooks complete one-pot meals fast, with guided recipes. An air fryer is the perfect partner for anything that should come out crispy, and a Thermomix only makes sense if you want a machine that chops, kneads, weighs and cooks for you.</strong> These three appliances do different jobs, so choosing between them really comes down to how you cook.</p>
+<p>This comparison is based on manufacturer specs, published independent reviews and verified owner reviews. It covers models on the market in 2026: the Thermomix TM7, which replaced the TM6 in 2025, the Moulinex Cookeo Touch WiFi and the best-selling air fryers in Europe. For the full range of multicookers, see our <a href="/us/cuisine-connectee/multicuiseurs">multicooker picks</a>.</p>
+
+<h2>Three appliances, three different jobs</h2>
+<h3>The Cookeo: a guided electric pressure cooker</h3>
+<p>Moulinex’s Cookeo is a pressure multicooker. It sears, simmers, steams and, above all, pressure cooks, which slashes the time needed for stews, risottos, soups and curries. You follow a recipe on the screen, add the ingredients, and the appliance finishes the job on its own and keeps the food warm. It doesn’t blend, chop or knead, and it won’t make food crispy.</p>
+<h3>The Thermomix: a machine that preps and cooks</h3>
+<p>Vorwerk’s Thermomix is a heated food processor. In a single bowl, it chops, blends, kneads, emulsifies and weighs ingredients on its built-in scale, then cooks while it stirs. Guided recipes come from the Cookidoo platform, which requires a subscription. It doesn’t pressure cook and can’t deliver a fried-style crunch. Vorwerk sells it through its own consultants and website, not through the usual online marketplaces.</p>
+<h3>The air fryer: crispy hot-air cooking</h3>
+<p>An air fryer is a small, powerful convection oven. Fast-moving hot air browns fries, chicken, roasted vegetables or breaded fish with little or no oil. It heats up quickly and is easy to clean, but it doesn’t simmer, pressure cook or prep anything: it cooks what you put in it. Our <a href="/us/cuisine-connectee/airfryers">air fryer picks</a> cover the sizes available.</p>
+
+<h2>What really matters</h2>
+<ul>
+<li><strong>What you cook</strong>: stews and one-pot meals (multicooker), from-scratch cooking with doughs, sauces and desserts (Thermomix), or quick crispy food (air fryer).</li>
+<li><strong>Household size</strong>: the Cookeo’s 6.3 qt (6 L) pot feeds a family, while the Thermomix’s 2.3 qt (2.2 L) bowl limits some batches for five or six people. For an air fryer, plan on at least 5.3 to 6.3 qt (5 to 6 L) for a family of four.</li>
+<li><strong>How much time you have</strong>: pressure cooking saves the most time on long-cooking dishes; an air fryer is fastest for small crispy portions.</li>
+<li><strong>Guidance</strong>: step-by-step recipes on the screen of the Cookeo and the Thermomix; on air fryers, mostly presets and, depending on the model, a recipe app.</li>
+<li><strong>Ongoing costs</strong>: you get the Thermomix’s full set of guided recipes with a Cookidoo subscription; the Cookeo and air fryers don’t need one.</li>
+<li><strong>Counter space</strong>: a 2-in-1 multicooker with an air fry function is still a bulky, heavy appliance.</li>
+</ul>
+
+<h2>The models worth knowing in 2026</h2>
+<h3>Moulinex Cookeo Touch WiFi: the family pick</h3>
+<p>The Cookeo Touch WiFi combines a 6.3 qt (6 L) pot, 1,600 W, 13 cooking modes and 250 preloaded recipes with a tilting touchscreen and Wi-Fi for adding new recipes. The ceramic pot, lid and steam basket are dishwasher-safe. <strong>Pros</strong>: simplicity, complete meals for up to six people, very clear guidance. <strong>Cons</strong>: no blending or crisping, and the pot’s coating needs some care. <strong>Best for</strong>: families who want a home-cooked weeknight dinner without standing over the stove.</p>
+<h3>Instant Pot Duo Plus WhisperQuiet: pressure cooking without a touchscreen</h3>
+<p>This 6 qt (5.7 L) Instant Pot offers 9 functions (pressure cook, slow cook, rice, steam, yogurt, sous vide and more) and a steam release that doesn’t hiss. It has no Wi-Fi and no guided recipes on the screen. <strong>Pros</strong>: versatility, quiet operation, a size that suits four to six people. <strong>Cons</strong>: the controls are less intuitive for beginners. <strong>Best for</strong>: people who already know how to cook and mainly want pressure cooking.</p>
+<h3>Thermomix TM7: the premium all-in-one cooking machine</h3>
+<p>Launched in 2025, the TM7 keeps a 2.3 qt (2.2 L) bowl but adds a 10-inch touchscreen, a quieter motor, an insulated bowl shell, new modes such as browning and open-lid cooking, and a larger Varoma. <strong>Pros</strong>: it preps and cooks, weighs ingredients and walks you through every step. <strong>Cons</strong>: a very high budget, a Cookidoo subscription to get the most out of the recipes, and limited capacity for big gatherings. <strong>Best for</strong>: serious home cooks who make lots of different recipes and want one machine to handle the prep.</p>
+<h3>Philips Airfryer 3000 Series XL 6.2 L: the all-around air fryer</h3>
+<p>This 6.6 qt (6.2 L) model offers 14 cooking modes, a touchscreen with 7 presets, keep-warm for up to 30 minutes and recipes in the NutriU app. <strong>Pros</strong>: family-size capacity, simplicity, easy cleanup. <strong>Cons</strong>: a single basket, so only one thing cooks at a time. <strong>Best for</strong>: anyone who wants an easy first air fryer to go alongside a multicooker.</p>
+<h3>Ninja Double Stack XL 9.5 L: two stacked drawers</h3>
+<p>The Ninja SL400EU stacks two independently controlled 5 qt (4.75 L) drawers, for 10 qt (9.5 L) in all, with a function that syncs their finish times. Its vertical design takes up less counter width than a classic dual-zone model. <strong>Pros</strong>: a main and a side at the same time, large total capacity. <strong>Cons</strong>: a tall, heavy unit, and some foods may cook less evenly, according to published reviews. <strong>Best for</strong>: large families who often cook two things at once.</p>
+<h3>Ninja Foodi MAX SmartLid: the all-in-one compromise</h3>
+<p>The Ninja Foodi MAX SmartLid (OL750EU) puts pressure cooking and air frying under a single lid, with a 7.9 qt (7.5 L) pot, a 5 qt (4.7 L) basket and 14 functions. <strong>Pros</strong>: it replaces both a pressure cooker and an air fryer. <strong>Cons</strong>: bulky, heavy (over 24 lb, or 11 kg) and slower to master. <strong>Best for</strong>: people who want only one appliance on the countertop and have the room for it.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Capacity</th><th>Key strength</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Moulinex Cookeo Touch WiFi</td><td>Pressure multicooker</td><td>6.3 qt (6 L)</td><td>250 guided recipes</td><td>Wi-Fi + app</td><td>Busy families</td></tr>
+<tr><td>Instant Pot Duo Plus WhisperQuiet</td><td>Pressure multicooker</td><td>6 qt (5.7 L)</td><td>Quiet steam release</td><td>None</td><td>Confident cooks</td></tr>
+<tr><td>Thermomix TM7</td><td>Heated food processor</td><td>2.3 qt (2.2 L) bowl</td><td>Chops, kneads, weighs and cooks</td><td>Wi-Fi + Cookidoo</td><td>Serious home cooks</td></tr>
+<tr><td>Philips Airfryer 3000 Series XL</td><td>Single-basket air fryer</td><td>6.6 qt (6.2 L)</td><td>Simplicity, 14 modes</td><td>NutriU app</td><td>Everyday crispy food</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>Two-drawer air fryer</td><td>2 x 5 qt (4.75 L)</td><td>Two dishes at once</td><td>None</td><td>Large families</td></tr>
+<tr><td>Ninja Foodi MAX SmartLid</td><td>Multicooker + air fryer</td><td>7.9 qt (7.5 L)</td><td>Pressure and crisping</td><td>None</td><td>One-appliance kitchens</td></tr>
+</tbody>
+</table>
+
+<h2>Can one replace another?</h2>
+<ul>
+<li><strong>A multicooker doesn’t replace a Thermomix</strong>: it can’t chop, blend, knead or weigh.</li>
+<li><strong>A Thermomix partly replaces a multicooker</strong>: it cooks and simmers, but without pressure, so a beef stew still takes a long time, and the bowl limits big batches.</li>
+<li><strong>An air fryer replaces neither</strong>: it roasts and crisps, but it can’t make sauces, soups or stews.</li>
+<li><strong>The most common pairing</strong>: a multicooker for complete meals and an air fryer for crispy food. Together, they cover most weeknight dinners for a fraction of what a Thermomix costs.</li>
+</ul>
+
+<h2>Our picks for every kind of cook</h2>
+<p><strong>Families with kids</strong>: the Cookeo Touch WiFi, later joined by an air fryer of 6.3 qt (6 L) or more. <strong>Students and couples</strong>: an air fryer such as the Philips 3000 Series XL is often enough to start; see our guide on <a href="/us/blog/comment-choisir-airfryer-famille">how to choose an air fryer</a>. <strong>Serious home cooks</strong>: the Thermomix TM7, if the budget and the subscription aren’t an issue; compare it with the alternatives in our <a href="/us/blog/robot-cuiseur-connecte-comparatif">smart cooking machine comparison</a>. <strong>Small kitchens</strong>: a Ninja Foodi MAX SmartLid if you want just one appliance, provided you have the space.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li>Buying a Thermomix mostly for pasta and simple meals: it will sit underused.</li>
+<li>Expecting a multicooker to make food crispy: it sears, but it doesn’t replace an oven or an air fryer.</li>
+<li>Choosing an air fryer that’s too small for a family: you’ll end up cooking in several batches.</li>
+<li>Forgetting about size: measure the clearance under your upper cabinets, especially for tall or combination models.</li>
+<li>Skipping maintenance: a worn lid gasket or a damaged pot shortens a pressure cooker’s life.</li>
+</ul>
+
+<h2>Use and safety</h2>
+<p>A pressure multicooker only opens once the pressure has dropped: respect the max fill lines, check the gasket and valve regularly, and keep your face away from the steam vent. An air fryer needs clearance around its hot-air vent and shouldn’t sit against a wall or under a low cabinet. Plug all of these appliances straight into a wall outlet rather than an overloaded power strip. Models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V.</p>
+
+<h2>The bottom line</h2>
+<p>If you buy only one, the <strong>Moulinex Cookeo Touch WiFi</strong> is the most useful day to day for a family. For crispy food, the <strong>Philips Airfryer 3000 Series XL</strong> is a simple, effective partner, and the <strong>Ninja Double Stack XL</strong> is the better fit for bigger households. The <strong>Thermomix TM7</strong> remains the most complete tool, but only for people who cook a lot and want to prep as well as cook. To go further, read our <a href="/us/blog/comparatif-multicuiseur-connecte">smart multicooker comparison</a>.</p>`,
+    ca: `<p><strong>For most families, a multicooker such as the Moulinex Cookeo is the best first buy: it cooks complete one-pot meals quickly under pressure, with guided recipes. An air fryer is the ideal partner for anything that should be crispy, and a Thermomix only makes sense if you want a machine that chops, kneads, weighs and cooks for you.</strong> These three appliances do different jobs, so choosing between them really comes down to how you cook.</p>
+<p>This comparison is based on manufacturer specifications, published independent reviews and verified buyer feedback. It covers models on sale in 2026: the Thermomix TM7, which replaced the TM6 in 2025, the Moulinex Cookeo Touch WiFi, and the best-selling air fryers in Europe. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. For the full range of multicookers, see our <a href="/ca/cuisine-connectee/multicuiseurs">multicooker selection</a>.</p>
+
+<h2>Three appliances, three different jobs</h2>
+<h3>The Cookeo: a guided electric pressure cooker</h3>
+<p>Moulinex’s Cookeo is a pressure multicooker. It sears, simmers, steams and above all pressure cooks, which sharply cuts the time needed for stews, risottos, soups and curries. You follow a recipe on screen, add the ingredients, and the appliance finishes on its own and keeps the dish warm. It doesn’t blend, chop or knead, and it doesn’t make food crispy.</p>
+<h3>The Thermomix: a machine that preps and cooks</h3>
+<p>Vorwerk’s Thermomix is a cooking food processor. In one bowl it chops, blends, kneads, emulsifies, weighs ingredients on its built-in scale, then cooks while stirring. Guided recipes come from the Cookidoo platform, which requires a subscription. It doesn’t pressure cook and doesn’t deliver a fried-style crunch. It’s sold by Vorwerk, through its advisors and website, not through the usual online marketplaces.</p>
+<h3>The air fryer: crispy hot-air cooking</h3>
+<p>An air fryer is a small, powerful convection oven. Fast-moving hot air browns fries, chicken, roasted vegetables or breaded fish with little or no fat. It heats up quickly and is easy to clean, but it doesn’t simmer, pressure cook or prepare anything: it cooks what you put in it. Our <a href="/ca/cuisine-connectee/airfryers">air fryer selection</a> covers the capacities available.</p>
+
+<h2>The criteria that really matter</h2>
+<ul>
+<li><strong>The dishes you cook</strong>: stews and one-pot meals (multicooker), from-scratch cooking with doughs, sauces and desserts (Thermomix), or quick crispy food (air fryer).</li>
+<li><strong>Household size</strong>: the Cookeo’s 6 L (6.3 qt) pot feeds a family, whereas the Thermomix’s 2.2 L bowl limits some quantities for 5 or 6 people. For an air fryer, allow at least 5 to 6 L (5.3 to 6.3 qt) for four people.</li>
+<li><strong>Time available</strong>: pressure cooking saves the most time on long dishes; an air fryer is quickest for small crispy portions.</li>
+<li><strong>Guidance</strong>: on-screen, step-by-step recipes on the Cookeo and Thermomix; on air fryers, mostly presets and, depending on the model, a recipe app.</li>
+<li><strong>Running costs</strong>: the Thermomix’s guided recipes are fully available only with a Cookidoo subscription; the Cookeo and air fryers need none.</li>
+<li><strong>Counter space</strong>: a 2-in-1 multicooker with an air fry function is still a bulky, heavy appliance.</li>
+</ul>
+
+<h2>The models worth knowing in 2026</h2>
+<h3>Moulinex Cookeo Touch WiFi: the family choice</h3>
+<p>The Cookeo Touch WiFi combines a 6 L (6.3 qt) pot, 1,600 W, 13 cooking modes and 250 preloaded recipes, with a tilting touchscreen and Wi-Fi to add new recipes. The ceramic pot, lid and steam basket are dishwasher-safe. <strong>Strengths</strong>: simplicity, complete meals for up to six people, very clear guidance. <strong>Limitations</strong>: no blending or crisping, and the pot coating needs some care. <strong>Best for</strong>: families who want a home-cooked weeknight meal without standing over the stove.</p>
+<h3>Instant Pot Duo Plus WhisperQuiet: pressure cooking without a touchscreen</h3>
+<p>This 5.7 L (6 qt) Instant Pot offers 9 functions (pressure, slow cook, rice, steam, yogurt, sous vide and more) and a steam release that doesn’t hiss. It has no Wi-Fi and no on-screen guided recipes. <strong>Strengths</strong>: versatility, quiet operation, a size suited to 4 to 6 people. <strong>Limitations</strong>: a less intuitive interface for beginners. <strong>Best for</strong>: people who already cook and mainly want pressure cooking.</p>
+<h3>Thermomix TM7: the premium cooking machine</h3>
+<p>Launched in 2025, the TM7 keeps a 2.2 L bowl but adds a 10-inch touchscreen, a quieter motor, an insulated bowl shell, new modes such as browning and open-lid cooking, and a larger Varoma. <strong>Strengths</strong>: it preps and cooks, weighs ingredients and guides every step. <strong>Limitations</strong>: a very high budget, a Cookidoo subscription to get the most from recipes, and limited capacity for big gatherings. <strong>Best for</strong>: avid home cooks who make lots of varied recipes and want one machine for prep.</p>
+<h3>Philips Airfryer 3000 Series XL 6.2 L: the all-round air fryer</h3>
+<p>This 6.2 L (6.6 qt) model offers 14 cooking modes, a touchscreen with 7 presets, keep-warm for up to 30 minutes and recipes in the NutriU app. <strong>Strengths</strong>: family-friendly capacity, simplicity, easy cleaning. <strong>Limitations</strong>: a single basket, so only one dish at a time. <strong>Best for</strong>: anyone who wants an easy first air fryer alongside a multicooker.</p>
+<h3>Ninja Double Stack XL 9.5 L: two stacked drawers</h3>
+<p>The Ninja SL400EU stacks two independently controlled 4.75 L (5 qt) drawers, with a function that synchronizes finish times. Its vertical design takes up less width than a classic dual-basket model. <strong>Strengths</strong>: a main and a side dish at the same time, large total capacity of 9.5 L (10 qt). <strong>Limitations</strong>: a tall, heavy unit, and some foods may cook less evenly, according to published reviews. <strong>Best for</strong>: large families who often cook two things at once.</p>
+<h3>Ninja Foodi MAX SmartLid: the all-in-one compromise</h3>
+<p>The Ninja Foodi MAX SmartLid (OL750EU) brings pressure cooking and air frying under a single lid, with a 7.5 L (7.9 qt) pot, a 4.7 L (5 qt) basket and 14 functions. <strong>Strengths</strong>: it replaces both a pressure cooker and an air fryer. <strong>Limitations</strong>: bulky, heavy (over 11 kg, or about 24 lb) and slower to master. <strong>Best for</strong>: people who want only one appliance on the counter and have the room.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Capacity</th><th>Key strength</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Moulinex Cookeo Touch WiFi</td><td>Pressure multicooker</td><td>6 L (6.3 qt)</td><td>250 guided recipes</td><td>Wi-Fi + app</td><td>Busy families</td></tr>
+<tr><td>Instant Pot Duo Plus WhisperQuiet</td><td>Pressure multicooker</td><td>5.7 L (6 qt)</td><td>Quiet steam release</td><td>None</td><td>Confident cooks</td></tr>
+<tr><td>Thermomix TM7</td><td>Cooking food processor</td><td>2.2 L bowl</td><td>Chops, kneads, weighs and cooks</td><td>Wi-Fi + Cookidoo</td><td>Avid home cooks</td></tr>
+<tr><td>Philips Airfryer 3000 Series XL</td><td>Single-basket air fryer</td><td>6.2 L (6.6 qt)</td><td>Simplicity, 14 modes</td><td>NutriU app</td><td>Everyday crispy food</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>Two-drawer air fryer</td><td>2 x 4.75 L (2 x 5 qt)</td><td>Two dishes at once</td><td>None</td><td>Large families</td></tr>
+<tr><td>Ninja Foodi MAX SmartLid</td><td>Multicooker + air fryer</td><td>7.5 L (7.9 qt)</td><td>Pressure and crisping</td><td>None</td><td>One-appliance kitchens</td></tr>
+</tbody>
+</table>
+
+<h2>Can one replace another?</h2>
+<ul>
+<li><strong>A multicooker doesn’t replace a Thermomix</strong>: it can’t chop, blend, knead or weigh.</li>
+<li><strong>A Thermomix partly replaces a multicooker</strong>: it cooks and simmers, but without pressure, so a beef stew still takes a long time, and the bowl limits big batches.</li>
+<li><strong>An air fryer replaces neither</strong>: it roasts and crisps, but makes no sauces, soups or stews.</li>
+<li><strong>The most common pairing</strong>: a multicooker for complete meals and an air fryer for crispy food. Together they cover most weeknight meals for a fraction of a Thermomix budget.</li>
+</ul>
+
+<h2>Our recommendation by profile</h2>
+<p><strong>Family with children</strong>: the Cookeo Touch WiFi, later joined by an air fryer of 6 L (6.3 qt) or more. <strong>Student or couple</strong>: an air fryer such as the Philips 3000 Series XL is often enough to start; see our guide on <a href="/ca/blog/comment-choisir-airfryer-famille">how to choose an air fryer</a>. <strong>Avid home cook</strong>: the Thermomix TM7, if the budget and subscription aren’t an issue; compare it with the alternatives in our <a href="/ca/blog/robot-cuiseur-connecte-comparatif">all-in-one cooking machine comparison</a>. <strong>Small kitchen</strong>: a Ninja Foodi MAX SmartLid if you want just one appliance, provided you have the space.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li>Buying a Thermomix mainly for pasta and simple meals: it will be underused.</li>
+<li>Expecting a multicooker to make food crispy: it sears, but doesn’t replace an oven or an air fryer.</li>
+<li>Choosing an air fryer that’s too small for a family: you’ll end up cooking in several batches.</li>
+<li>Forgetting about size: measure the space under your upper cabinets, especially for tall or combination models.</li>
+<li>Neglecting maintenance: a worn lid seal or a damaged pot shortens a pressure cooker’s life.</li>
+</ul>
+
+<h2>Use and safety</h2>
+<p>A pressure multicooker only opens once the pressure has dropped: respect the maximum fill lines, check the seal and valve regularly, and keep your face away from the steam vent. An air fryer needs clearance around its hot-air outlet and shouldn’t sit against a wall or under a low cabinet. Plug all of these appliances directly into a wall outlet rather than an overloaded power bar or extension cord.</p>
+
+<h2>Verdict</h2>
+<p>If you buy only one, the <strong>Moulinex Cookeo Touch WiFi</strong> is the most useful day to day for a family. For crispy food, the <strong>Philips Airfryer 3000 Series XL</strong> is a simple, effective partner, and the <strong>Ninja Double Stack XL</strong> is a better fit for larger households. The <strong>Thermomix TM7</strong> remains the most complete tool, but only for people who cook a lot and want to prep as well as cook. To go further, read our <a href="/ca/blog/comparatif-multicuiseur-connecte">smart multicooker comparison</a>.</p>`,
   },
   faq: [
     {
@@ -577,6 +811,9 @@ export const article: BlogArticle = {
         it: 'Il Bimby vale il suo prezzo rispetto a un multicooker e una friggitrice ad aria?',
         nl: 'Is een Thermomix het waard tegenover een multicooker en een airfryer?',
         pl: 'Czy Thermomix jest wart swojej ceny w porównaniu z Cookeo i frytkownicą beztłuszczową?',
+        sv: 'Är en Thermomix värd pengarna jämfört med en multikokare och en airfryer?',
+        us: 'Is a Thermomix worth it compared with a multicooker and an air fryer?',
+        ca: 'Is a Thermomix worth it compared with a multicooker and an air fryer?',
       },
       answer: {
         fr: 'Seulement si vous cuisinez souvent des recettes variées qui demandent de hacher, pétrir ou mixer, et si l’abonnement Cookidoo ne vous gêne pas. Pour des repas de semaine simples, un Cookeo associé à un airfryer couvre l’essentiel pour un budget nettement inférieur.',
@@ -585,7 +822,10 @@ export const article: BlogArticle = {
         es: 'Solo si cocinas a menudo recetas variadas que requieren picar, amasar o triturar, y no te importa la suscripción a Cookidoo. Para comidas sencillas entre semana, una olla programable con una freidora de aire cubre lo esencial con un presupuesto mucho menor.',
         it: 'Solo se cucinate spesso ricette varie che richiedono di tritare, impastare o frullare, e l’abbonamento Cookidoo non vi pesa. Per pasti semplici in settimana, un multicooker con una friggitrice ad aria copre l’essenziale con un budget molto inferiore.',
         nl: 'Alleen als je vaak gevarieerde recepten kookt waarbij je moet hakken, kneden of mixen, en een Cookidoo-abonnement geen bezwaar is. Voor eenvoudige doordeweekse maaltijden dekt een multicooker met een airfryer het meeste af voor een veel kleiner budget.',
-        pl: 'Tylko jeśli często gotujesz różnorodne przepisy wymagające siekania, wyrabiania lub miksowania i abonament Cookidoo Ci nie przeszkadza. Przy prostych posiłkach w tygodniu Cookeo w połączeniu z frytkownicą beztłuszczową pokrywa większość potrzeb przy wyraźnie niższym budżecie.',
+        pl: 'Tylko wtedy, gdy często przygotowujesz różnorodne potrawy, które wymagają siekania, wyrabiania lub miksowania, a abonament Cookidoo Ci nie przeszkadza. Przy prostych posiłkach na co dzień Cookeo w parze z frytkownicą beztłuszczową wystarczy do większości zadań, a kosztuje wyraźnie mniej.',
+        sv: 'Bara om du ofta lagar varierade recept där du behöver hacka, knåda eller mixa, och om du inte har något emot ett Cookidoo-abonnemang. För enkla vardagsmiddagar räcker en multikokare tillsammans med en airfryer till det mesta, för betydligt mindre pengar.',
+        us: 'Only if you often cook varied recipes that involve chopping, kneading or blending, and you don’t mind paying for a Cookidoo subscription. For simple weeknight dinners, a multicooker paired with an air fryer covers most needs for a much smaller budget.',
+        ca: 'Only if you often cook varied recipes that involve chopping, kneading or blending, and you don’t mind paying for a Cookidoo subscription. For simple weeknight meals, a multicooker paired with an air fryer covers most needs on a much smaller budget.',
       },
     },
     {
@@ -597,6 +837,9 @@ export const article: BlogArticle = {
         it: 'Si possono fare patatine croccanti nel Cookeo o nel Bimby?',
         nl: 'Kun je krokante friet maken in een multicooker of Thermomix?',
         pl: 'Czy w Cookeo lub Thermomix można zrobić chrupiące frytki?',
+        sv: 'Kan man göra krispiga pommes frites i en multikokare eller en Thermomix?',
+        us: 'Can you make crispy fries in a multicooker or a Thermomix?',
+        ca: 'Can you make crispy fries in a multicooker or a Thermomix?',
       },
       answer: {
         fr: 'Non. Le Cookeo cuit sous pression ou à la vapeur et le Thermomix cuit en milieu humide : aucun des deux ne donne de frites croustillantes. Il faut un airfryer, un multicuiseur avec fonction air fryer comme le Ninja Foodi MAX SmartLid, ou un four.',
@@ -605,7 +848,10 @@ export const article: BlogArticle = {
         es: 'No. La olla programable cocina a presión o al vapor y la Thermomix en un medio húmedo, así que ninguna consigue patatas crujientes. Necesitas una freidora de aire, una olla con función de freidora como la Ninja Foodi MAX SmartLid o un horno.',
         it: 'No. Il Cookeo cuoce a pressione o a vapore e il Bimby in ambiente umido: nessuno dei due dà patatine croccanti. Serve una friggitrice ad aria, un multicooker con funzione friggitrice come il Ninja Foodi MAX SmartLid, oppure il forno.',
         nl: 'Nee. Een multicooker kookt onder druk of met stoom en een Thermomix in een vochtige omgeving, dus geen van beide geeft krokante friet. Daarvoor heb je een airfryer nodig, een multicooker met airfryfunctie zoals de Ninja Foodi MAX SmartLid, of een oven.',
-        pl: 'Nie. Cookeo gotuje pod ciśnieniem lub na parze, a Thermomix gotuje w środowisku wilgotnym: żadne z nich nie da chrupiących frytek. Potrzebna jest frytkownica beztłuszczowa, multicooker z funkcją frytkownicy beztłuszczowej, taki jak Ninja Foodi MAX SmartLid, albo piekarnik.',
+        pl: 'Nie. Cookeo gotuje pod ciśnieniem lub na parze, a Thermomix – w wilgotnym środowisku, więc żadne z tych urządzeń nie da chrupiących frytek. Potrzebna jest frytkownica beztłuszczowa, multicooker z funkcją frytkownicy (np. Ninja Foodi MAX SmartLid) albo piekarnik.',
+        sv: 'Nej. En multikokare tillagar under tryck eller med ånga och en Thermomix tillagar i en fuktig miljö, så ingen av dem ger krispiga pommes frites. Du behöver en airfryer, en multikokare med airfryerfunktion som Ninja Foodi MAX SmartLid eller en ugn.',
+        us: 'No. A multicooker cooks under pressure or with steam, and a Thermomix cooks in a moist environment, so neither one turns out crispy fries. You need an air fryer, a multicooker with an air fry function such as the Ninja Foodi MAX SmartLid, or an oven.',
+        ca: 'No. A multicooker cooks under pressure or with steam and a Thermomix cooks in a moist environment, so neither produces crispy fries. You need an air fryer, a multicooker with an air fry function such as the Ninja Foodi MAX SmartLid, or an oven.',
       },
     },
     {
@@ -617,6 +863,9 @@ export const article: BlogArticle = {
         it: 'Quale apparecchio comprare per primo per una famiglia di quattro persone?',
         nl: 'Welk apparaat koopt een gezin van vier het best als eerste?',
         pl: 'Które urządzenie kupić najpierw dla czteroosobowej rodziny?',
+        sv: 'Vilken apparat ska en familj på fyra köpa först?',
+        us: 'Which appliance should a family of four buy first?',
+        ca: 'Which appliance should a family of four buy first?',
       },
       answer: {
         fr: 'Un multicuiseur comme le Cookeo Touch WiFi : sa cuve de 6 L prépare des plats complets pour toute la famille. Ajoutez ensuite un airfryer d’au moins 6 L, comme le Philips Série 3000 XL, pour le croustillant.',
@@ -625,7 +874,10 @@ export const article: BlogArticle = {
         es: 'Una olla programable como la Cookeo Touch WiFi: su cubeta de 6 L prepara platos completos para toda la familia. Después, añade una freidora de al menos 6 L, como la Philips Serie 3000 XL, para el crujiente.',
         it: 'Un multicooker come il Cookeo Touch WiFi: la vasca da 6 L prepara piatti completi per tutta la famiglia. Poi aggiungete una friggitrice da almeno 6 L, come la Philips Serie 3000 XL, per il croccante.',
         nl: 'Een multicooker zoals de Cookeo Touch WiFi: de pan van 6 liter maakt complete maaltijden voor het hele gezin. Voeg daarna een airfryer van minstens 6 liter toe, zoals de Philips 3000 Series XL, voor krokante gerechten.',
-        pl: 'Multicooker taki jak Cookeo Touch WiFi: jego misa 6 l przygotuje pełne dania dla całej rodziny. Następnie dołóż frytkownicę beztłuszczową o pojemności co najmniej 6 l, jak Philips Series 3000 XL, do chrupiących potraw.',
+        pl: 'Multicooker, np. Cookeo Touch WiFi: w misie 6 l przygotujesz kompletne dania dla całej rodziny. Później dokup do chrupiących potraw frytkownicę beztłuszczową o pojemności co najmniej 6 l, np. Philips Series 3000 XL.',
+        sv: 'En multikokare som Cookeo Touch WiFi: innerkärlet på 6 liter räcker till kompletta rätter för hela familjen. Komplettera sedan med en airfryer på minst 6 liter, som Philips 3000 Series XL, för det krispiga.',
+        us: 'A multicooker such as the Cookeo Touch WiFi: its 6.3 qt (6 L) pot makes complete meals for the whole family. Then add an air fryer of at least 6.3 qt (6 L), such as the Philips 3000 Series XL, for crispy food.',
+        ca: 'A multicooker such as the Cookeo Touch WiFi: its 6 L (6.3 qt) pot makes complete meals for the whole family. Then add an air fryer of at least 6 L (6.3 qt), such as the Philips 3000 Series XL, for crispy food.',
       },
     },
     {
@@ -637,6 +889,9 @@ export const article: BlogArticle = {
         it: 'Un multicooker con funzione friggitrice sostituisce entrambi gli apparecchi?',
         nl: 'Vervangt een multicooker met airfryfunctie beide apparaten?',
         pl: 'Czy multicooker z funkcją frytkownicy beztłuszczowej zastępuje oba urządzenia?',
+        sv: 'Ersätter en multikokare med airfryerfunktion båda apparaterna?',
+        us: 'Does a multicooker with an air fry function replace both appliances?',
+        ca: 'Does a multicooker with an air fry function replace both appliances?',
       },
       answer: {
         fr: 'En grande partie. Un modèle comme le Ninja Foodi MAX SmartLid cuit sous pression et rend croustillant sous un même couvercle. En contrepartie, il est encombrant, lourd, et il ne fait qu’une cuisson à la fois, là où deux appareils séparés travaillent en parallèle.',
@@ -645,7 +900,10 @@ export const article: BlogArticle = {
         es: 'En gran parte, sí. Un modelo como la Ninja Foodi MAX SmartLid cocina a presión y dora crujiente bajo una misma tapa. A cambio, es voluminosa y pesada, y solo hace una cocción a la vez, mientras que dos aparatos separados trabajan en paralelo.',
         it: 'In gran parte sì. Un modello come il Ninja Foodi MAX SmartLid cuoce a pressione e rende croccante sotto un unico coperchio. In cambio è ingombrante e pesante, e gestisce una sola cottura alla volta, mentre due apparecchi separati lavorano in parallelo.',
         nl: 'Grotendeels wel. Een model als de Ninja Foodi MAX SmartLid kookt onder druk en maakt krokant onder één deksel. Daar staat tegenover dat hij groot en zwaar is en maar één bereiding tegelijk doet, terwijl twee losse apparaten tegelijk kunnen werken.',
-        pl: 'W dużej mierze tak. Model taki jak Ninja Foodi MAX SmartLid gotuje pod ciśnieniem i nadaje chrupkość pod jedną pokrywą. W zamian jest duży, ciężki i wykonuje tylko jedno gotowanie naraz, podczas gdy dwa oddzielne urządzenia pracują równolegle.',
+        pl: 'W dużej mierze tak. Model taki jak Ninja Foodi MAX SmartLid pod jedną pokrywą gotuje pod ciśnieniem i nadaje potrawom chrupkość. W zamian jest duży, ciężki i przyrządza tylko jedną potrawę naraz, podczas gdy dwa osobne urządzenia mogą pracować równolegle.',
+        sv: 'Till stor del, ja. En modell som Ninja Foodi MAX SmartLid både tryckkokar och gör maten krispig under ett och samma lock. Nackdelen är att den är skrymmande och tung, och den klarar bara en tillagning i taget, medan två separata apparater kan arbeta parallellt.',
+        us: 'Largely, yes. A model such as the Ninja Foodi MAX SmartLid pressure cooks and crisps under one lid. The trade-off: it’s bulky and heavy, and it handles one cooking job at a time, whereas two separate appliances can work side by side.',
+        ca: 'Largely, yes. A model such as the Ninja Foodi MAX SmartLid pressure cooks and crisps under one lid. The trade-off is that it is bulky and heavy, and it handles one cooking job at a time, whereas two separate appliances can work in parallel.',
       },
     },
     {
@@ -657,6 +915,9 @@ export const article: BlogArticle = {
         it: 'Serve un abbonamento per usare un Cookeo o un Bimby?',
         nl: 'Heb je een abonnement nodig voor een multicooker of Thermomix?',
         pl: 'Czy do korzystania z Cookeo lub Thermomix potrzebny jest abonament?',
+        sv: 'Behöver man abonnemang för att använda en multikokare eller en Thermomix?',
+        us: 'Do you need a subscription to use a multicooker or a Thermomix?',
+        ca: 'Do you need a subscription to use a multicooker or a Thermomix?',
       },
       answer: {
         fr: 'Le Cookeo Touch WiFi fonctionne avec ses recettes intégrées et son application, sans abonnement obligatoire. Le Thermomix fonctionne aussi en mode manuel, mais l’accès complet aux recettes guidées Cookidoo passe par un abonnement payant.',
@@ -665,7 +926,10 @@ export const article: BlogArticle = {
         es: 'La Cookeo Touch WiFi funciona con sus recetas integradas y su app, sin suscripción obligatoria. La Thermomix también funciona en modo manual, pero el acceso completo a las recetas guiadas de Cookidoo requiere una suscripción de pago.',
         it: 'Il Cookeo Touch WiFi funziona con le ricette integrate e la sua app, senza abbonamento obbligatorio. Anche il Bimby funziona in modalità manuale, ma l’accesso completo alle ricette guidate Cookidoo richiede un abbonamento a pagamento.',
         nl: 'De Cookeo Touch WiFi werkt met de ingebouwde recepten en de app, zonder verplicht abonnement. De Thermomix werkt ook handmatig, maar volledige toegang tot de begeleide Cookidoo-recepten vraagt een betaald abonnement.',
-        pl: 'Cookeo Touch WiFi działa z wbudowanymi przepisami i aplikacją, bez obowiązkowego abonamentu. Thermomix działa też w trybie ręcznym, ale pełny dostęp do przepisów z podpowiedziami Cookidoo wymaga płatnego abonamentu.',
+        pl: 'Cookeo Touch WiFi działa z wbudowanymi przepisami i aplikacją, bez obowiązkowego abonamentu. Thermomix można też obsługiwać ręcznie, ale pełny dostęp do przepisów krok po kroku w Cookidoo wymaga płatnego abonamentu.',
+        sv: 'Cookeo Touch WiFi fungerar med sina inbyggda recept och sin app, utan krav på abonnemang. Thermomix fungerar också i manuellt läge, men full tillgång till de guidade recepten i Cookidoo kräver ett betalt abonnemang.',
+        us: 'The Cookeo Touch WiFi works with its built-in recipes and app, with no mandatory subscription. The Thermomix also works in manual mode, but full access to the guided Cookidoo recipes requires a paid subscription.',
+        ca: 'The Cookeo Touch WiFi works with its built-in recipes and app, with no mandatory subscription. The Thermomix also works in manual mode, but full access to the guided Cookidoo recipes requires a paid subscription.',
       },
     },
     {
@@ -677,6 +941,9 @@ export const article: BlogArticle = {
         it: 'Il Bimby TM6 è ancora in vendita?',
         nl: 'Wordt de Thermomix TM6 nog verkocht?',
         pl: 'Czy Thermomix TM6 jest jeszcze w sprzedaży?',
+        sv: 'Säljs Thermomix TM6 fortfarande?',
+        us: 'Is the Thermomix TM6 still being sold?',
+        ca: 'Is the Thermomix TM6 still on sale?',
       },
       answer: {
         fr: 'Non, Vorwerk l’a remplacé par le Thermomix TM7 en 2025. On ne trouve plus le TM6 neuf que dans des stocks restants ou en reconditionné ; le TM7 conserve le bol de 2,2 L avec un écran plus grand et de nouveaux modes de cuisson.',
@@ -685,7 +952,10 @@ export const article: BlogArticle = {
         es: 'No, Vorwerk la sustituyó por la Thermomix TM7 en 2025. La TM6 nueva solo se encuentra en existencias restantes o reacondicionada; la TM7 mantiene el vaso de 2,2 L con una pantalla más grande y nuevos modos de cocción.',
         it: 'No, Vorwerk lo ha sostituito con il Bimby TM7 nel 2025. Il TM6 nuovo si trova solo come rimanenza di magazzino o ricondizionato; il TM7 mantiene il boccale da 2,2 L con uno schermo più grande e nuove modalità di cottura.',
         nl: 'Nee, Vorwerk verving hem in 2025 door de Thermomix TM7. Een nieuwe TM6 vind je alleen nog uit restvoorraad of refurbished; de TM7 behoudt de mengkom van 2,2 liter, met een groter scherm en nieuwe kookstanden.',
-        pl: 'Nie, Vorwerk zastąpił go w 2025 roku modelem Thermomix TM7. Nowego TM6 można znaleźć już tylko w pozostałych zapasach lub jako sprzęt odnowiony; TM7 zachowuje misę 2,2 l, ale ma większy ekran i nowe tryby gotowania.',
+        pl: 'Nie, w 2025 roku Vorwerk zastąpił go modelem Thermomix TM7. Nowy TM6 jest dostępny już tylko z resztek zapasów lub jako sprzęt odnowiony; TM7 ma tę samą misę 2,2 l, ale większy ekran i nowe tryby gotowania.',
+        sv: 'Nej, Vorwerk ersatte den med Thermomix TM7 under 2025. En ny TM6 hittar du i dag bara i restlager, annars får du köpa den renoverad. TM7 har kvar skålen på 2,2 liter men har större skärm och nya tillagningslägen.',
+        us: 'No, Vorwerk replaced it with the Thermomix TM7 in 2025. A new TM6 now turns up only as leftover stock; otherwise you’ll find it refurbished. The TM7 keeps the 2.3 qt (2.2 L) bowl and adds a larger screen and new cooking modes.',
+        ca: 'No, Vorwerk replaced it with the Thermomix TM7 in 2025. A TM6 is now only available as leftover new stock or refurbished; the TM7 keeps the 2.2 L bowl with a larger screen and new cooking modes.',
       },
     },
   ],

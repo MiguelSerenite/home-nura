@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Patatas fritas doradas servidas en una pequeña cesta de freír sobre una tabla de madera',
         it: 'Patatine dorate servite in un piccolo cestello per friggere su un tagliere di legno',
         nl: 'Goudbruine frietjes in een klein frituurmandje op een houten plank',
-        pl: 'Złociste frytki podane w małym koszyku do smażenia na drewnianej desce',
+        pl: 'Złociste frytki podane w małym koszyku do frytek na drewnianej desce',
+        sv: 'Gyllene pommes frites serverade i en liten frityrkorg på en skärbräda av trä',
+        us: 'Golden fries served in a small frying basket on a wooden board',
+        ca: 'Golden fries served in a small frying basket on a wooden board',
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: 'Freidora de aire vs freidora tradicional: ¿cuál elegir en 2026?',
     it: 'Friggitrice ad aria vs friggitrice tradizionale: quale scegliere nel 2026?',
     nl: 'Airfryer vs traditionele frituurpan: wat kies je in 2026?',
-    pl: 'Frytkownica beztłuszczowa czy tradycyjna frytownica: co wybrać w 2026?',
+    pl: 'Frytkownica beztłuszczowa czy tradycyjna: którą wybrać w 2026?',
+    sv: 'Airfryer eller vanlig fritös 2026: vilken ska du välja?',
+    us: 'Air Fryer vs. Deep Fryer: Which One Should You Buy in 2026?',
+    ca: 'Air Fryer vs Deep Fryer: Which Is Better in 2026?',
   },
   excerpt: {
     fr: 'Airfryer ou friteuse classique ? Huile, goût, rapidité, entretien, sécurité et polyvalence comparés, puis les airfryers les plus adaptés pour remplacer une friteuse en 2026.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: '¿Freidora de aire o freidora clásica? Comparamos aceite, sabor, rapidez, limpieza, seguridad y versatilidad, y las freidoras de aire más adecuadas para sustituir una freidora en 2026.',
     it: 'Friggitrice ad aria o friggitrice classica? Confronto su olio, gusto, rapidità, pulizia, sicurezza e versatilità, più le friggitrici ad aria più adatte a sostituire una friggitrice nel 2026.',
     nl: 'Airfryer of klassieke frituurpan? Olie, smaak, snelheid, schoonmaak, veiligheid en veelzijdigheid vergeleken, plus de airfryers die een frituurpan het best vervangen in 2026.',
-    pl: 'Frytkownica beztłuszczowa czy klasyczna frytownica? Porównanie oleju, smaku, szybkości, czyszczenia, bezpieczeństwa i wszechstronności oraz frytkownice beztłuszczowe, które najlepiej zastąpią frytownicę w 2026 roku.',
+    pl: 'Frytkownica beztłuszczowa czy tradycyjna, na olej? Porównujemy zużycie oleju, smak, szybkość, czyszczenie, bezpieczeństwo i wszechstronność, a na koniec polecamy frytkownice beztłuszczowe, które w 2026 roku najlepiej zastąpią frytkownicę olejową.',
+    sv: 'Airfryer eller vanlig fritös? Vi jämför oljeåtgång, smak, snabbhet, rengöring, säkerhet och mångsidighet – och visar vilka airfryrar som bäst ersätter en fritös 2026.',
+    us: 'Air fryer or deep fryer? Oil use, taste, speed, cleanup, safety and versatility compared, plus the air fryers best suited to replacing a deep fryer in 2026.',
+    ca: 'Air fryer or deep fryer? Oil use, taste, speed, cleaning, safety and versatility compared, plus the air fryers best suited to replacing a deep fryer in 2026.',
   },
   content: {
     fr: `<p><strong>Pour la grande majorité des foyers, l’airfryer est un meilleur choix que la friteuse traditionnelle en 2026</strong> : il cuit avec une cuillère d’huile au lieu d’un bain de plusieurs litres, supprime le risque lié à l’huile bouillante et sait aussi rôtir, griller ou réchauffer. La friteuse garde l’avantage pour les puristes de la frite belge, les beignets et les grandes tablées qui veulent beaucoup de frites très vite.</p>
@@ -712,117 +721,450 @@ export const article: BlogArticle = {
 <h2>Conclusie</h2>
 <p>Bak je af en toe frietjes en bereid je daarnaast vlees, groenten en restjes, dan is <strong>de airfryer de betere keuze</strong>: minder olie, minder risico, snel schoon en een apparaat dat je elke dag gebruikt. De <strong>Philips Airfryer 3000 Series XL</strong> is de meest evenwichtige keuze, de <strong>ActiFry Genius XL</strong> overtuigt frietliefhebbers en de <strong>Cosori Lite</strong> past bij kleine huishoudens.</p>
 <p>Houd je frituurpan als twee keer gebakken Belgische frieten en beignets je prioriteit zijn, of als je vaak voor grote groepen kookt. Voor de vergelijking met de oven lees je onze <a href="/nl/guides/airfryer-vs-four">gids airfryer vs oven</a>.</p>`,
-    pl: `<p><strong>Dla zdecydowanej większości domów frytkownica beztłuszczowa jest w 2026 roku lepszym wyborem niż tradycyjna frytownica</strong>: smaży na łyżce oleju zamiast w kąpieli w kilku litrach, eliminuje ryzyko związane z wrzącym olejem, a do tego potrafi piec, grillować i odgrzewać. Frytownica zachowuje przewagę u purystów frytek belgijskich, przy potrawach w cieście i dla dużych rodzin, które chcą szybko dostać dużo frytek.</p>
-<p>To porównanie opiera się na kartach technicznych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Następnie przedstawia cztery frytkownice beztłuszczowe, obecnie sprzedawane w Europie, które dobrze zastępują frytownicę. Cały wybór znajdziesz na naszej stronie <a href="/pl/guides/airfryers">poradnik o frytkownicach beztłuszczowych</a>.</p>
+    pl: `<p><strong>W 2026 roku frytkownica beztłuszczowa to dla zdecydowanej większości domów lepszy wybór niż tradycyjna frytkownica olejowa</strong>: wystarczy jej łyżka oleju zamiast kilku litrów, nie ma ryzyka związanego z wrzącym olejem, a do tego potrafi piec, grillować i odgrzewać. Tradycyjna frytkownica wciąż wygrywa u purystów, którzy cenią frytki po belgijsku, przy potrawach w cieście oraz wtedy, gdy trzeba bardzo szybko usmażyć dużo frytek dla wielu osób.</p>
+<p>Porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. W dalszej części przedstawiamy cztery frytkownice beztłuszczowe sprzedawane obecnie w Europie, które dobrze zastąpią tradycyjną frytkownicę. Pełne zestawienie znajdziesz w naszym <a href="/pl/guides/airfryers">poradniku o frytkownicach beztłuszczowych</a>.</p>
 
-<h2>Dwa bardzo różne sposoby „smażenia”</h2>
-<p><strong>Tradycyjna frytownica</strong> zanurza jedzenie w kąpieli olejowej rozgrzanej do około 160–190 °C. Woda na powierzchni odparowuje od razu, tworząc złocistą skorupkę w kilka minut. Zwykle potrzeba 2–4 litrów oleju, zależnie od wielkości zbiornika.</p>
-<p><strong>Frytkownica beztłuszczowa</strong> (po angielsku air fryer) to w rzeczywistości bardzo mocny mały piekarnik z termoobiegiem: grzałka i wentylator wprawiają w szybki ruch gorące powietrze wokół jedzenia ułożonego w koszu. Cienka warstwa oleju, a w przypadku wstępnie obsmażonych mrożonek nawet żadna, wystarcza, by uzyskać chrupiącą powierzchnię.</p>
+<h2>Dwa zupełnie różne sposoby „smażenia”</h2>
+<p>W <strong>tradycyjnej frytkownicy</strong> produkty zanurza się w oleju rozgrzanym do ok. 160–190 °C. Woda z ich powierzchni gwałtownie odparowuje, dzięki czemu w kilka minut powstaje złocista skórka. Zależnie od wielkości zbiornika potrzeba zwykle 2–4 litrów oleju.</p>
+<p><strong>Frytkownica beztłuszczowa</strong> (ang. air fryer) to w rzeczywistości mały piekarnik z termoobiegiem o bardzo dużej mocy: grzałka i wentylator wprawiają gorące powietrze w szybki ruch wokół produktów ułożonych w koszu. Aby powierzchnia była chrupiąca, wystarczy cienka warstwa oleju, a w przypadku wstępnie podsmażanych mrożonek – nawet żadna.</p>
 
 <h2>Porównanie w skrócie</h2>
 <table>
 <thead>
-<tr><th>Kryterium</th><th>Frytkownica beztłuszczowa</th><th>Tradycyjna frytownica</th></tr>
+<tr><th>Kryterium</th><th>Frytkownica beztłuszczowa</th><th>Tradycyjna frytkownica</th></tr>
 </thead>
 <tbody>
-<tr><td>Zużycie oleju</td><td>0–1 łyżka stołowa</td><td>Kąpiel 2–4 litrów</td></tr>
-<tr><td>Chrupkość frytek</td><td>Bardzo dobra, trochę bardziej sucha</td><td>Wzorzec, zwłaszcza przy podwójnym smażeniu</td></tr>
-<tr><td>Dania w cieście i płynne ciasta</td><td>Mało odpowiednia</td><td>Idealna</td></tr>
-<tr><td>Wszechstronność</td><td>Smażenie, pieczenie, grillowanie, gotowanie, odgrzewanie</td><td>Wyłącznie smażenie w głębokim tłuszczu</td></tr>
-<tr><td>Czyszczenie</td><td>Wyjmowany kosz i szuflada</td><td>Olej do przefiltrowania, zbiornik do odtłuszczenia</td></tr>
-<tr><td>Bezpieczeństwo</td><td>Brak wrzącego oleju</td><td>Ryzyko poparzenia i pożaru oleju</td></tr>
-<tr><td>Zapachy</td><td>Ograniczone</td><td>Wyraźne</td></tr>
-<tr><td>Duże ilości</td><td>Kilka partii zależnie od rozmiaru</td><td>Skuteczna przy dużych objętościach</td></tr>
+<tr><td>Ilość oleju</td><td>0–1 łyżka stołowa</td><td>2–4 litry</td></tr>
+<tr><td>Chrupkość frytek</td><td>Bardzo dobra, frytki nieco bardziej suche</td><td>Bezkonkurencyjna, zwłaszcza przy podwójnym smażeniu</td></tr>
+<tr><td>Potrawy w cieście i płynne ciasta</td><td>Słabo się sprawdza</td><td>Idealna</td></tr>
+<tr><td>Wszechstronność</td><td>Smażenie, pieczenie, grillowanie, wypiekanie, odgrzewanie</td><td>Tylko smażenie w głębokim tłuszczu</td></tr>
+<tr><td>Czyszczenie</td><td>Wyjmowany kosz i szuflada</td><td>Filtrowanie oleju, odtłuszczanie zbiornika</td></tr>
+<tr><td>Bezpieczeństwo</td><td>Brak wrzącego oleju</td><td>Ryzyko poparzenia i zapalenia się oleju</td></tr>
+<tr><td>Zapachy</td><td>Niewielkie</td><td>Intensywne</td></tr>
+<tr><td>Duże ilości</td><td>Kilka partii, zależnie od pojemności</td><td>Szybko radzi sobie z dużą ilością</td></tr>
 </tbody>
 </table>
 
 <h2>Zdrowie: wyraźnie mniej oleju</h2>
-<p>To główny argument za frytkownicą beztłuszczową. Jedzenie nie pływa w tłuszczu: ilość tłuszczu zależy głównie od tego, co sam dodasz, często wystarczy jedna łyżka oleju na kilogram świeżych frytek. Producenci deklarują nawet do 90% mniej tłuszczu w porównaniu z klasycznym smażeniem w głębokim tłuszczu; rzeczywista różnica zależy od produktu i przepisu, ale pozostaje duża w przypadku frytek i produktów panierowanych.</p>
-<p>Trzeba dodać dwie uwagi. Po pierwsze, wstępnie obsmażone mrożone frytki zawierają już olej: frytkownica beztłuszczowa go nie usuwa. Po drugie, powstawanie akryloamidu, związku pojawiającego się przy obróbce w wysokiej temperaturze produktów bogatych w skrobię, dotyczy obu urządzeń. Zalecenia europejskie są proste: dąż do złocistożółtego, a nie brązowego koloru i nie przekraczaj 175 °C we frytownicy. Aby dowiedzieć się więcej, przeczytaj nasz poradnik o <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowym gotowaniu we frytkownicy beztłuszczowej</a>.</p>
+<p>To najważniejszy argument za frytkownicą beztłuszczową. Produkty nie pływają w tłuszczu, więc jego ilość zależy głównie od tego, ile oleju dodasz – często jest to jedna łyżka na kilogram świeżych frytek. Producenci deklarują nawet o 90% mniej tłuszczu niż przy klasycznym smażeniu w głębokim tłuszczu. Rzeczywista różnica zależy od produktu i przepisu, ale przy frytkach i produktach panierowanych wciąż jest duża.</p>
+<p>Trzeba jednak pamiętać o dwóch rzeczach. Po pierwsze, wstępnie podsmażane mrożone frytki zawierają już olej, a frytkownica beztłuszczowa go nie usuwa. Po drugie, akryloamid – związek, który powstaje podczas obróbki produktów bogatych w skrobię w wysokiej temperaturze – tworzy się w obu urządzeniach. Zalecenia europejskie są proste: smaż do złocistożółtego, a nie brązowego koloru i nie przekraczaj 175 °C we frytkownicy olejowej. Więcej na ten temat znajdziesz w naszym poradniku o <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowym gotowaniu we frytkownicy beztłuszczowej</a>.</p>
 
-<h2>Smak i konsystencja: przewaga frytownicy dla purystów</h2>
-<p>Niezależne recenzje i opinie użytkowników są zgodne: frytownica daje najbardziej chrupiące i najdelikatniejsze w środku frytki, zwłaszcza przy podwójnym smażeniu po belgijsku. Frytkownica beztłuszczowa daje frytki bardzo chrupiące, ale odrobinę bardziej suche, z mniej wyczuwalnym smakiem smażenia. W przypadku skrzydełek kurczaka, nuggetsów, pieczonych warzyw i mrożonych produktów panierowanych różnica jest niewielka, a wielu użytkowników woli nawet rezultat z frytkownicy beztłuszczowej, mniej tłusty.</p>
-<p>Dania w cieście, tempura i płynne ciasta zostają domeną frytownicy: płynne ciasto spływa między kratkami kosza frytkownicy beztłuszczowej. Aby domowe frytki udały się na gorącym powietrzu, skorzystaj z naszych <a href="/pl/blog/recettes-frites-parfaites-airfryer">przepisów na idealne frytki z frytkownicy beztłuszczowej</a>: moczenie, staranne osuszenie, odrobina oleju i kosz potrząśnięty w połowie smażenia.</p>
+<h2>Smak i konsystencja: puryści wybiorą frytkownicę olejową</h2>
+<p>Niezależne recenzje i opinie użytkowników są zgodne: frytkownica olejowa daje najbardziej chrupiące frytki, które przy tym pozostają najbardziej miękkie w środku, zwłaszcza przy podwójnym smażeniu po belgijsku. Frytki z frytkownicy beztłuszczowej są bardzo chrupiące, ale nieco bardziej suche i mniej czuć w nich smak smażenia w głębokim tłuszczu. Przy skrzydełkach kurczaka, nuggetsach, pieczonych warzywach czy mrożonych produktach panierowanych różnica jest niewielka, a wielu użytkowników wręcz woli efekt z frytkownicy beztłuszczowej, bo jest mniej tłusty.</p>
+<p>Potrawy w cieście, tempura i płynne ciasta to nadal domena frytkownicy olejowej: ciasto przecieka przez kratkę kosza frytkownicy beztłuszczowej. Jeśli chcesz zrobić udane domowe frytki na gorącym powietrzu, skorzystaj z naszych <a href="/pl/blog/recettes-frites-parfaites-airfryer">przepisów na idealne frytki z frytkownicy beztłuszczowej</a>: namoczenie, staranne osuszenie, odrobina oleju i potrząśnięcie koszem w połowie smażenia.</p>
 
 <h2>Szybkość i ilość</h2>
-<p>Frytownica smaży partię frytek w kilka minut, ale najpierw olej musi się nagrzać, co zajmuje kilka minut, a zbiornik ogranicza ilość w jednej partii. Frytkownica beztłuszczowa startuje niemal od razu; świeże frytki potrzebują w niej zwykle 15–25 minut, zależnie od modelu i ilości, przy jednym lub dwóch potrząśnięciach koszem.</p>
-<p>Dla czteroosobowej rodziny wystarczy frytkownica beztłuszczowa o pojemności 5–6 litrów. Powyżej tej liczby osób lub gdy smażysz jednocześnie frytki i mięso, model z dwiema szufladami pozwala uniknąć kolejnych partii.</p>
+<p>Frytkownica olejowa smaży porcję frytek w kilka minut, ale wcześniej olej musi się nagrzać, co również trwa kilka minut, a pojemność zbiornika ogranicza wielkość jednej porcji. Frytkownica beztłuszczowa zaczyna pracę niemal od razu. Świeże frytki potrzebują w niej zwykle 15–25 minut, zależnie od modelu i ilości, a w tym czasie raz lub dwa razy trzeba potrząsnąć koszem.</p>
+<p>Dla czteroosobowej rodziny wystarczy frytkownica beztłuszczowa o pojemności 5–6 litrów. Przy większej liczbie osób albo gdy chcesz przygotować jednocześnie frytki i mięso, lepiej sprawdzi się model z dwiema szufladami – nie trzeba wtedy smażyć na raty.</p>
 
-<h2>Energia i koszty użytkowania</h2>
-<p>Frytkownica beztłuszczowa nagrzewa niewielką objętość powietrza, a nie kilka litrów oleju: jej zużycie energii na jedno smażenie jest zwykle umiarkowane, zwłaszcza w porównaniu z piekarnikiem. Frytownica dokłada stały koszt, o którym często się zapomina: olej, który trzeba regularnie wymieniać, bo psuje się przy każdym użyciu. W dłuższej perspektywie frytkownica beztłuszczowa jest więc w większości domów tańsza w użytkowaniu. Szczegóły znajdziesz w naszym artykule o <a href="/pl/blog/airfryer-economies-energie">oszczędzaniu energii z frytkownicą beztłuszczową</a>.</p>
+<h2>Zużycie energii i koszty użytkowania</h2>
+<p>Frytkownica beztłuszczowa nagrzewa niewielką ilość powietrza, a nie kilka litrów oleju, dlatego na jedno smażenie zużywa zwykle stosunkowo niewiele energii, zwłaszcza w porównaniu z piekarnikiem. Przy frytkownicy olejowej dochodzi stały, często pomijany koszt: olej, który trzeba regularnie wymieniać, bo z każdym użyciem traci jakość. W dłuższej perspektywie frytkownica beztłuszczowa jest więc w większości domów tańsza w użytkowaniu. Szczegóły znajdziesz w naszym artykule o tym, <a href="/pl/blog/airfryer-economies-energie">jak oszczędzać energię dzięki frytkownicy beztłuszczowej</a>.</p>
 
-<h2>Czyszczenie: frytkownica beztłuszczowa wygrywa zdecydowanie</h2>
+<h2>Czyszczenie: zdecydowana wygrana frytkownicy beztłuszczowej</h2>
 <ul>
-<li><strong>Frytkownica beztłuszczowa:</strong> kosz i szufladę wyjmuje się i myje wodą z mydłem; w wielu modelach można je myć w zmywarce (sprawdź instrukcję). Od czasu do czasu wystarczy przejechać gąbką po grzałce.</li>
-<li><strong>Frytownica:</strong> trzeba poczekać, aż olej ostygnie, przefiltrować go lub wyrzucić, odtłuścić zbiornik i wymienić filtr przeciwzapachowy. Zużyty olej oddaje się do punktu zbiórki odpadów, nigdy do zlewu.</li>
+<li><strong>Frytkownica beztłuszczowa:</strong> kosz i szufladę wyjmuje się i myje w wodzie z płynem do naczyń; w wielu modelach można je też myć w zmywarce (sprawdź w instrukcji). Od czasu do czasu wystarczy przetrzeć grzałkę gąbką.</li>
+<li><strong>Frytkownica olejowa:</strong> trzeba poczekać, aż olej ostygnie, przefiltrować go albo wymienić na nowy, odtłuścić zbiornik i wymienić filtr pochłaniający zapachy. Zużyty olej oddaje się do punktu selektywnej zbiórki odpadów i nigdy nie wylewa się go do zlewu.</li>
 </ul>
 
-<h2>Bezpieczeństwo: frytownica wymaga większej uwagi</h2>
-<p>Gorący olej może spowodować ciężkie oparzenia i pożar oleju, jeśli się przegrzeje. W razie płomieni <strong>nigdy nie wlewaj wody</strong>: odłącz zasilanie, zamknij pokrywę lub przykryj kocem gaśniczym. Nigdy nie zostawiaj działającej frytownicy bez nadzoru, zwłaszcza gdy w pobliżu są dzieci.</p>
-<p>Frytkownica beztłuszczowa eliminuje ryzyko wrzącego oleju, ale nadal jest gorącym urządzeniem: zostaw wokół miejsce na odprowadzanie powietrza, nigdy nie stawiaj jej na płycie grzewczej i nie dotykaj wnętrza szuflady tuż po smażeniu. Większość modeli wyłącza się automatycznie po zakończeniu programu.</p>
+<h2>Bezpieczeństwo: frytkownica olejowa wymaga większej ostrożności</h2>
+<p>Gorący olej grozi poważnymi oparzeniami, a przegrzany może się zapalić. Jeśli pojawi się ogień, <strong>nigdy nie gaś go wodą</strong>: odłącz zasilanie, zamknij pokrywę albo przykryj frytkownicę kocem gaśniczym. Nigdy nie zostawiaj włączonej frytkownicy olejowej bez nadzoru, zwłaszcza gdy w pobliżu są dzieci.</p>
+<p>Frytkownica beztłuszczowa eliminuje ryzyko związane z wrzącym olejem, ale też mocno się nagrzewa: zostaw wokół niej miejsce, by gorące powietrze mogło uchodzić, nigdy nie stawiaj jej na płycie kuchennej i nie dotykaj wnętrza szuflady tuż po smażeniu. Większość modeli wyłącza się automatycznie po zakończeniu programu.</p>
 
-<h2>Wszechstronność: bez porównania</h2>
-<p>Frytownica robi tylko jedno. Frytkownica beztłuszczowa potrafi smażyć na gorącym powietrzu, piec, grillować, wypiekać ciasta, odgrzewać resztki, a w niektórych modelach także dehydratować. Często zastępuje piekarnik przy małych ilościach, dzięki czemu jest urządzeniem na co dzień, a nie na weekend.</p>
+<h2>Wszechstronność: tu nie ma porównania</h2>
+<p>Frytkownica olejowa potrafi tylko smażyć. Frytkownica beztłuszczowa smaży na gorącym powietrzu, piecze mięso i ciasta, grilluje i odgrzewa resztki, a niektóre modele potrafią także suszyć. Przy małych porcjach często zastępuje piekarnik, dlatego używa się jej na co dzień, a nie tylko w weekendy.</p>
 
-<h2>Najlepsze frytkownice beztłuszczowe na zastępstwo frytownicy</h2>
+<h2>Najlepsze frytkownice beztłuszczowe zamiast tradycyjnej frytkownicy</h2>
 
-<h3>1. Philips Airfryer Seria 3000 XL (6,2 L): najlepszy wybór ogólny</h3>
-<p>Z szufladą 6,2 litra (około 1,2 kg frytek) i mocą 2000 W ten Philips pokrywa potrzeby czteroosobowej rodziny. Oferuje gotowe programy, w tym świeże frytki, oraz funkcję podtrzymywania ciepła.</p>
+<h3>1. Philips Airfryer Seria 3000 XL (6,2 l): najlepszy wybór dla większości</h3>
+<p>Szuflada o pojemności 6,2 litra (ok. 1,2 kg frytek) i moc 2000 W wystarczą dla czteroosobowej rodziny. Model ma gotowe programy, m.in. do świeżych frytek, oraz funkcję podtrzymywania ciepła.</p>
 <ul>
-<li><strong>Mocne strony:</strong> duża pojemność, równomierne smażenie chwalone przez użytkowników, proste przyciski.</li>
-<li><strong>Ograniczenia:</strong> zajmuje dużo miejsca na małym blacie, tylko jedna szuflada.</li>
-<li><strong>Dla kogo:</strong> dla rodzin, które chcą zrezygnować z frytownicy bez utraty ilości.</li>
+<li><strong>Mocne strony:</strong> duża pojemność, równomierne smażenie chwalone przez użytkowników, prosta obsługa.</li>
+<li><strong>Ograniczenia:</strong> zajmuje sporo miejsca na małym blacie, tylko jedna szuflada.</li>
+<li><strong>Dla kogo:</strong> rodziny, które chcą zrezygnować z frytkownicy olejowej, ale nie z dużych porcji.</li>
 </ul>
 
-<h3>2. Tefal ActiFry Genius XL 2in1 (1,7 kg): idealny dla miłośników frytek</h3>
-<p>ActiFry działa z łopatką, która miesza jedzenie podczas smażenia: nie trzeba potrząsać koszem. Mieści 1,7 kg frytek przy łyżce oleju, a górna taca pozwala usmażyć jednocześnie drugą potrawę.</p>
+<h3>2. Tefal ActiFry Genius XL 2in1 (1,7 kg): idealny wybór dla miłośników frytek</h3>
+<p>ActiFry ma łopatkę, która miesza produkty podczas smażenia, więc nie trzeba niczym potrząsać. Mieści 1,7 kg frytek, do których wystarczy łyżka oleju, a na górnej tacy można jednocześnie przygotować drugą potrawę.</p>
 <ul>
-<li><strong>Mocne strony:</strong> równe frytki bez interwencji, duża pojemność, programy automatyczne.</li>
-<li><strong>Ograniczenia:</strong> łopatka uszkadza delikatne produkty, gorzej radzi sobie z całymi kawałkami mięsa.</li>
-<li><strong>Dla kogo:</strong> dla tych, którzy frytownicę kupowali głównie do frytek.</li>
+<li><strong>Mocne strony:</strong> równomiernie usmażone frytki bez mieszania, duża pojemność, programy automatyczne.</li>
+<li><strong>Ograniczenia:</strong> łopatka rozbija delikatne produkty, gorzej radzi sobie z mięsem w dużych kawałkach.</li>
+<li><strong>Dla kogo:</strong> osoby, które do tej pory używały frytkownicy olejowej głównie do frytek.</li>
 </ul>
 
 <h3>3. Cosori Lite 3,8 L: najlepszy stosunek jakości do ceny</h3>
-<p>Kompaktowy (3,8 litra, 1500 W) Cosori reguluje się od 75 do 230 °C i można go też obsługiwać z aplikacji VeSync. Nadaje się dla dwóch lub trzech osób.</p>
+<p>Ten kompaktowy model (3,8 litra, 1500 W) pozwala ustawić temperaturę w zakresie 75–230 °C, a sterować nim można także z aplikacji VeSync. Sprawdzi się u dwóch lub trzech osób.</p>
 <ul>
 <li><strong>Mocne strony:</strong> małe gabaryty, cena z niższej półki, precyzyjne ustawienia.</li>
-<li><strong>Ograniczenia:</strong> pojemność za mała dla licznej rodziny.</li>
-<li><strong>Dla kogo:</strong> dla par, studentów i małych kuchni.</li>
+<li><strong>Ograniczenia:</strong> dla licznej rodziny pojemność jest za mała.</li>
+<li><strong>Dla kogo:</strong> pary, studenci i małe kuchnie.</li>
 </ul>
 
-<h3>4. Ninja Foodi FlexDrawer 10,4 L: na duże rodzinne przyjęcia</h3>
-<p>Jego duża szuflada 10,4 litra dzieli się na dwie strefy dzięki wyjmowanej przegrodzie. Możesz smażyć jednocześnie frytki i kurczaka albo bardzo dużą ilość jednego produktu.</p>
+<h3>4. Ninja Foodi FlexDrawer (10,4 l): gdy gotujesz dla wielu osób</h3>
+<p>Dużą szufladę o pojemności 10,4 litra można podzielić wyjmowaną przegrodą na dwie strefy. Usmażysz w niej jednocześnie frytki i kurczaka albo bardzo dużą porcję jednego produktu.</p>
 <ul>
-<li><strong>Mocne strony:</strong> bardzo duża pojemność, dwie strefy z możliwością synchronizacji, jedna szuflada na duże kawałki.</li>
-<li><strong>Ograniczenia:</strong> duże gabaryty, niepotrzebny w małym gospodarstwie.</li>
-<li><strong>Dla kogo:</strong> dla rodzin pięcioosobowych i większych oraz dla tych, którzy używali dużej frytownicy.</li>
+<li><strong>Mocne strony:</strong> bardzo duża pojemność, dwie strefy z możliwością synchronizacji, jedna duża komora na większe kawałki mięsa.</li>
+<li><strong>Ograniczenia:</strong> duże gabaryty, w małym gospodarstwie domowym zbędny.</li>
+<li><strong>Dla kogo:</strong> rodziny pięcioosobowe i większe oraz osoby, które dotąd korzystały z dużej frytkownicy olejowej.</li>
 </ul>
 
 <h2>Tabela porównawcza modeli</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Pojemność</th><th>Cecha szczególna</th><th>Idealny do</th></tr>
+<tr><th>Model</th><th>Pojemność</th><th>Cecha szczególna</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td>Philips Airfryer Seria 3000 XL</td><td>6,2 L</td><td>Gotowe programy, podtrzymywanie ciepła</td><td>Rodzin 3–4-osobowych</td></tr>
-<tr><td>Tefal ActiFry Genius XL 2in1</td><td>1,7 kg</td><td>Automatyczna łopatka mieszająca</td><td>Miłośników frytek</td></tr>
-<tr><td>Cosori Lite 3,8 L</td><td>3,8 L</td><td>Kompaktowy, aplikacja VeSync</td><td>1–3 osób</td></tr>
-<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L</td><td>Szuflada dzielona na dwie strefy</td><td>Dużych rodzin</td></tr>
+<tr><td>Philips Airfryer Seria 3000 XL</td><td>6,2 l</td><td>Gotowe programy, podtrzymywanie ciepła</td><td>Rodziny 3–4-osobowe</td></tr>
+<tr><td>Tefal ActiFry Genius XL 2in1</td><td>1,7 kg</td><td>Automatyczna łopatka mieszająca</td><td>Miłośnicy frytek</td></tr>
+<tr><td>Cosori Lite 3,8 L</td><td>3,8 l</td><td>Kompaktowy, aplikacja VeSync</td><td>1–3 osoby</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 l</td><td>Szuflada z podziałem na dwie strefy</td><td>Duże rodziny</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Przeładowanie kosza:</strong> powietrze musi krążyć. Zbyt gruba warstwa daje miękkie frytki.</li>
-<li><strong>Wybór zbyt małego modelu:</strong> 3–4 litry wystarczą dla dwóch osób, nie dla rodziny.</li>
-<li><strong>Pominięcie osuszenia domowych frytek:</strong> wilgoć uniemożliwia chrupkość, zarówno we frytkownicy beztłuszczowej, jak i we frytownicy.</li>
-<li><strong>Zbyt długie używanie oleju z frytownicy:</strong> ciemny olej, który dymi lub się pieni, trzeba wymienić.</li>
-<li><strong>Oczekiwanie od frytkownicy beztłuszczowej idealnych dań w cieście:</strong> przy płynnych ciastach frytownica pozostaje niezastąpiona.</li>
+<li><strong>Przeładowywanie kosza:</strong> powietrze musi swobodnie krążyć. Przy zbyt grubej warstwie frytki wychodzą miękkie.</li>
+<li><strong>Kupowanie zbyt małego modelu:</strong> 3–4 litry wystarczą dla dwóch osób, ale nie dla rodziny.</li>
+<li><strong>Pomijanie osuszania domowych frytek:</strong> przez wilgoć frytki nie będą chrupiące – ani we frytkownicy beztłuszczowej, ani w olejowej.</li>
+<li><strong>Zbyt długie używanie tego samego oleju:</strong> olej, który ściemniał, dymi lub się pieni, trzeba wymienić.</li>
+<li><strong>Oczekiwanie idealnych potraw w cieście z frytkownicy beztłuszczowej:</strong> przy płynnym cieście tradycyjna frytkownica pozostaje niezastąpiona.</li>
 </ul>
 
 <h2>Werdykt</h2>
-<p>Jeśli frytki robisz od czasu do czasu, a gotujesz też mięso, warzywa i resztki, <strong>frytkownica beztłuszczowa jest najlepszym wyborem</strong>: mniej oleju, mniej ryzyka, szybkie czyszczenie i urządzenie przydatne codziennie. <strong>Philips Airfryer Seria 3000 XL</strong> to najbardziej zrównoważony wybór, <strong>ActiFry Genius XL</strong> przekona miłośników frytek, a <strong>Cosori Lite</strong> pasuje do małych gospodarstw.</p>
-<p>Zachowaj frytownicę, jeśli frytki belgijskie smażone dwukrotnie i dania w cieście to Twój priorytet albo regularnie gotujesz dla licznych gości. Aby porównać z piekarnikiem, zajrzyj do naszego <a href="/pl/guides/airfryer-vs-four">poradnika frytkownica beztłuszczowa kontra piekarnik</a>.</p>`,
+<p>Jeśli frytki robisz od czasu do czasu, a poza tym przygotowujesz mięso i warzywa albo odgrzewasz resztki, <strong>frytkownica beztłuszczowa jest najlepszym wyborem</strong>: mniej oleju, mniejsze ryzyko, szybkie czyszczenie i urządzenie, z którego korzystasz na co dzień. <strong>Philips Airfryer Seria 3000 XL</strong> to najbardziej wyważony wybór, <strong>ActiFry Genius XL</strong> przypadnie do gustu miłośnikom frytek, a <strong>Cosori Lite</strong> sprawdzi się w małych gospodarstwach domowych.</p>
+<p>Zostań przy frytkownicy olejowej, jeśli najważniejsze są dla Ciebie belgijskie frytki smażone dwukrotnie i potrawy w cieście albo jeśli regularnie gotujesz dla wielu osób. Jeśli wahasz się między frytkownicą a piekarnikiem, zajrzyj do naszego <a href="/pl/guides/airfryer-vs-four">porównania frytkownicy beztłuszczowej z piekarnikiem</a>.</p>`,
+    sv: `<p><strong>För de allra flesta hushåll är en airfryer ett bättre val än en vanlig fritös 2026</strong>: den tillagar med en sked olja i stället för ett oljebad på flera liter, tar bort risken med kokhet olja och kan dessutom ugnssteka, grilla och värma upp. Fritösen har fortfarande övertaget för purister som vill ha äkta belgiska pommes frites, för munkar och för stora sällskap som vill ha mycket pommes frites snabbt.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, oberoende utvärderingar och verifierade köparomdömen. Därefter presenterar vi fyra airfryrar som säljs i Europa i dag och som är bra ersättare för en fritös. Hela urvalet finns i vår <a href="/sv/guides/airfryers">köpguide för airfryrar</a>.</p>
+
+<h2>Två helt olika sätt att ”fritera”</h2>
+<p>I en <strong>vanlig fritös</strong> sänks maten ner i olja som har hettats upp till ungefär 160–190 °C. Fukten på ytan förångas direkt, och på några minuter bildas en gyllene skorpa. Beroende på hur stort kärlet är går det oftast åt 2–4 liter olja.</p>
+<p>En <strong>airfryer</strong> är egentligen en liten varmluftsugn med mycket hög effekt: ett värmeelement och en fläkt blåser het luft i hög hastighet runt maten, som ligger i en korg. Ett tunt lager olja – eller ingen alls för frysta, förfriterade produkter – räcker för att ytan ska bli krispig.</p>
+
+<h2>Jämförelsen i korthet</h2>
+<table>
+<thead>
+<tr><th>Kriterium</th><th>Airfryer</th><th>Vanlig fritös</th></tr>
+</thead>
+<tbody>
+<tr><td>Olja</td><td>0–1 msk</td><td>Ett bad på 2–4 liter</td></tr>
+<tr><td>Krispiga pommes frites</td><td>Mycket bra, lite torrare</td><td>Måttstocken, särskilt dubbelfriterade</td></tr>
+<tr><td>Munkar och lös smet</td><td>Passar dåligt</td><td>Perfekt</td></tr>
+<tr><td>Mångsidighet</td><td>Fritera, ugnssteka, grilla, baka, värma upp</td><td>Bara fritering</td></tr>
+<tr><td>Rengöring</td><td>Löstagbar korg och låda</td><td>Oljan ska silas, kärlet avfettas</td></tr>
+<tr><td>Säkerhet</td><td>Ingen kokhet olja</td><td>Risk för brännskador och oljebrand</td></tr>
+<tr><td>Lukt</td><td>Begränsad</td><td>Kraftig</td></tr>
+<tr><td>Stora mängder</td><td>Flera omgångar beroende på storlek</td><td>Effektiv för stora mängder</td></tr>
+</tbody>
+</table>
+
+<h2>Hälsa: betydligt mindre olja</h2>
+<p>Det här är airfryerns starkaste argument. Maten ligger inte i fett: hur mycket fett det blir beror främst på vad du själv tillsätter, ofta bara en sked olja till ett kilo färska pommes frites. Tillverkarna utlovar upp till 90 % mindre fett än vid vanlig fritering. Den verkliga skillnaden beror på råvara och recept, men den är fortfarande stor för pommes frites och panerade produkter.</p>
+<p>Två förbehåll är på sin plats. För det första innehåller frysta, förfriterade pommes frites redan olja, och den tar airfryern inte bort. För det andra berör akrylamid – ett ämne som bildas när stärkelserika livsmedel tillagas i hög temperatur – båda apparaterna. De europeiska rekommendationerna är enkla: låt maten bli gyllengul i stället för brun, och gå inte över 175 °C i fritösen. Vill du veta mer, läs vår guide om att <a href="/sv/blog/cuisiner-healthy-airfryer">laga nyttig mat i airfryer</a>.</p>
+
+<h2>Smak och konsistens: fritösen vinner för purister</h2>
+<p>Oberoende utvärderingar och användaromdömen pekar åt samma håll: fritösen ger de krispigaste pommes frites med den mjukaste insidan, särskilt med den belgiska metoden där de friteras två gånger. En airfryer ger mycket krispiga men något torrare pommes frites, med mindre frityrsmak. För kycklingvingar, nuggets, rostade grönsaker och frysta panerade produkter är skillnaden liten, och många användare föredrar till och med airfryerns resultat, som blir mindre flottigt.</p>
+<p>Munkar, tempura och lös smet hör fortfarande hemma i fritösen: smeten rinner ner mellan gallren i en airfryerkorg. Vill du lyckas med hemgjorda pommes frites i varmluft kan du följa våra <a href="/sv/blog/recettes-frites-parfaites-airfryer">recept på perfekta pommes frites i airfryer</a>: blötlägg, torka ordentligt, ringla över lite olja och skaka korgen halvvägs.</p>
+
+<h2>Snabbhet och mängd</h2>
+<p>En fritös friterar en omgång pommes frites på några minuter, men först måste oljan värmas upp, vilket tar flera minuter, och kärlet begränsar hur mycket som får plats per omgång. En airfryer är i gång nästan direkt; färska pommes frites tar oftast 15–25 minuter beroende på modell och mängd, och du skakar korgen en eller två gånger.</p>
+<p>För en familj på fyra räcker en airfryer på 5–6 liter. Är hushållet större, eller lagar du pommes frites och kött samtidigt, slipper du köra flera omgångar efter varandra med en modell med två lådor.</p>
+
+<h2>Energi och driftkostnad</h2>
+<p>En airfryer värmer upp en liten mängd luft, inte flera liter olja, så förbrukningen per tillagning är oftast måttlig, särskilt jämfört med en ugn. Fritösen har dessutom en återkommande kostnad som många glömmer: oljan, som måste bytas regelbundet eftersom den bryts ner varje gång den används. I längden är airfryern därför billigast i drift i de flesta hushåll. Detaljerna finns i vår artikel om att <a href="/sv/blog/airfryer-economies-energie">spara energi med airfryer</a>.</p>
+
+<h2>Rengöring: airfryern vinner stort</h2>
+<ul>
+<li><strong>Airfryer:</strong> korgen och lådan tas ut och diskas i vatten med lite diskmedel; på många modeller tål de diskmaskin (kontrollera i bruksanvisningen). Det räcker att torka av värmeelementet med en svamp då och då.</li>
+<li><strong>Fritös:</strong> oljan måste först svalna och sedan silas eller kastas, kärlet ska avfettas och luktfiltret bytas. Använd olja lämnar du på en återvinningscentral eller ett insamlingsställe, aldrig i diskhon.</li>
+</ul>
+
+<h2>Säkerhet: fritösen kräver mer uppmärksamhet</h2>
+<p>Het olja kan ge svåra brännskador och börja brinna om den blir för varm. Om det börjar brinna ska du <strong>aldrig hälla på vatten</strong>: stäng av strömmen, lägg på locket eller kväv elden med en brandfilt. Lämna aldrig en fritös som är på utan uppsikt, särskilt inte när det finns barn i närheten.</p>
+<p>En airfryer tar bort risken med kokhet olja men är fortfarande en varm apparat: lämna plats runt den så att luften kommer ut, ställ den aldrig på en spishäll och rör inte insidan av lådan direkt efter tillagningen. De flesta modeller stängs av automatiskt när programmet är klart.</p>
+
+<h2>Mångsidighet: airfryern i en klass för sig</h2>
+<p>En fritös kan en enda sak. En airfryer kan varmluftsfritera, ugnssteka, grilla, baka, värma rester och på vissa modeller torka livsmedel. Den ersätter ofta ugnen för små portioner, vilket gör den till en apparat för vardagen snarare än för helgen.</p>
+
+<h2>De bästa airfryrarna för att ersätta en fritös</h2>
+
+<h3>1. Philips Airfryer 3000 Series XL (6,2 liter): bäst totalt</h3>
+<p>Med en låda på 6,2 liter (ca 1,2 kg pommes frites) och 2 000 W räcker den här Philips-modellen för en familj på fyra. Den har färdiga program, bland annat för färska pommes frites, och en varmhållningsfunktion.</p>
+<ul>
+<li><strong>Styrkor:</strong> stor volym, jämn tillagning som användarna berömmer, enkla reglage.</li>
+<li><strong>Svagheter:</strong> tar plats på en liten köksbänk, bara en låda.</li>
+<li><strong>Passar för:</strong> familjer som vill göra sig av med fritösen utan att ge avkall på mängden.</li>
+</ul>
+
+<h3>2. Tefal ActiFry Genius XL 2in1 (1,7 kg): bäst för pommes frites-älskare</h3>
+<p>ActiFry har en omrörningsarm som vänder maten under tillagningen, så du behöver inte skaka korgen. Den rymmer 1,7 kg pommes frites med en sked olja, och på den övre plattan kan du tillaga något annat samtidigt.</p>
+<ul>
+<li><strong>Styrkor:</strong> jämna pommes frites utan att du behöver göra något, stor volym, automatiska program.</li>
+<li><strong>Svagheter:</strong> omrörningsarmen kan förstöra ömtåliga råvaror, mindre lämplig för hela köttbitar.</li>
+<li><strong>Passar för:</strong> dig som främst köpte fritös för att göra pommes frites.</li>
+</ul>
+
+<h3>3. Cosori Lite 3,8 L: mest prisvärd</h3>
+<p>Den här kompakta Cosori-modellen (3,8 liter, 1 500 W) går att ställa in från 75 till 230 °C och kan också styras från appen VeSync. Den passar för två eller tre personer.</p>
+<ul>
+<li><strong>Styrkor:</strong> tar lite plats, pris på instegsnivå, exakta inställningar.</li>
+<li><strong>Svagheter:</strong> för liten för en storfamilj.</li>
+<li><strong>Passar för:</strong> par, studenter och små kök.</li>
+</ul>
+
+<h3>4. Ninja Foodi FlexDrawer 10,4 L: för stora sällskap</h3>
+<p>Den stora lådan på 10,4 liter kan delas i två zoner med en löstagbar mellanvägg. Du kan laga pommes frites och kyckling samtidigt, eller en mycket stor mängd av en och samma råvara.</p>
+<ul>
+<li><strong>Styrkor:</strong> mycket stor volym, två zoner som kan synkroniseras, en enda stor låda för större köttbitar.</li>
+<li><strong>Svagheter:</strong> skrymmande, onödigt stor för ett litet hushåll.</li>
+<li><strong>Passar för:</strong> familjer på fem eller fler och dig som har använt en stor fritös.</li>
+</ul>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Volym</th><th>Utmärkande</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips Airfryer 3000 Series XL</td><td>6,2 l</td><td>Färdiga program, varmhållning</td><td>Familjer på 3–4 personer</td></tr>
+<tr><td>Tefal ActiFry Genius XL 2in1</td><td>1,7 kg</td><td>Automatisk omrörningsarm</td><td>Pommes frites-älskare</td></tr>
+<tr><td>Cosori Lite 3,8 L</td><td>3,8 l</td><td>Kompakt, appen VeSync</td><td>1–3 personer</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 l</td><td>Låda som kan delas i två zoner</td><td>Storfamiljer</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att fylla korgen för mycket:</strong> luften måste kunna cirkulera. Ett för tjockt lager ger slappa pommes frites.</li>
+<li><strong>Att välja för liten modell:</strong> 3–4 liter passar två personer, inte en familj.</li>
+<li><strong>Att glömma att torka hemgjorda pommes frites:</strong> fukten gör att de inte blir krispiga, i airfryer lika väl som i fritös.</li>
+<li><strong>Att använda fritösens olja för länge:</strong> olja som har mörknat, ryker eller skummar ska bytas.</li>
+<li><strong>Att vänta sig perfekta munkar från en airfryer:</strong> för lös smet behövs fortfarande en fritös.</li>
+</ul>
+
+<h2>Omdöme</h2>
+<p>Gör du pommes frites då och då och lagar också kött, grönsaker och rester är <strong>airfryern det bästa valet</strong>: mindre olja, mindre risker, snabb rengöring och en apparat som kommer till nytta varje dag. <strong>Philips Airfryer 3000 Series XL</strong> är det mest balanserade valet, <strong>ActiFry Genius XL</strong> faller pommes frites-älskare i smaken och <strong>Cosori Lite</strong> passar små hushåll.</p>
+<p>Behåll fritösen om dubbelfriterade belgiska pommes frites och munkar står högst på listan, eller om du ofta lagar mat till många. Vill du jämföra med ugnen, läs vår <a href="/sv/guides/airfryer-vs-four">guide om airfryer eller ugn</a>.</p>`,
+    us: `<p><strong>For most households, an air fryer is a better buy than a traditional deep fryer in 2026</strong>: it cooks with a spoonful of oil instead of a vat holding several quarts, takes hot oil out of the equation and can also roast, broil and reheat. The deep fryer still has the edge for purists who want Belgian-style fries, for doughnuts, and for big get-togethers that need a lot of fries fast.</p>
+<p>This comparison is based on manufacturer specs, independent reviews and verified owner feedback. It then presents four air fryers currently sold in Europe that make good deep fryer replacements. The full lineup is on our <a href="/us/guides/airfryers">air fryer guide</a> page.</p>
+
+<h2>Two very different ways to "fry"</h2>
+<p>A <strong>traditional deep fryer</strong> submerges food in oil heated to around 320 to 375°F (160 to 190°C). Surface moisture flashes off instantly, forming a golden crust within minutes. Depending on the size of the oil tank, it usually takes roughly 2 to 4 quarts of oil.</p>
+<p>An <strong>air fryer</strong> is really a small, very powerful convection oven: a heating element and a fan blow hot air at high speed around food sitting in a basket. A light coating of oil, or none at all for precooked frozen foods, is enough for a crispy outside.</p>
+
+<h2>The comparison at a glance</h2>
+<table>
+<thead>
+<tr><th>Criterion</th><th>Air fryer</th><th>Traditional deep fryer</th></tr>
+</thead>
+<tbody>
+<tr><td>Oil used</td><td>0–1 tablespoon</td><td>About 2–4 qt of oil</td></tr>
+<tr><td>Crispiness of fries</td><td>Very good, slightly drier</td><td>The benchmark, especially double-fried</td></tr>
+<tr><td>Doughnuts and wet batters</td><td>Poorly suited</td><td>Ideal</td></tr>
+<tr><td>Versatility</td><td>Air-fry, roast, broil, bake, reheat</td><td>Frying only</td></tr>
+<tr><td>Cleaning</td><td>Removable basket and drawer</td><td>Oil to filter, tank to degrease</td></tr>
+<tr><td>Safety</td><td>No hot oil</td><td>Risk of burns and grease fires</td></tr>
+<tr><td>Odors</td><td>Minimal</td><td>Strong</td></tr>
+<tr><td>Large quantities</td><td>Several batches, depending on size</td><td>Efficient for volume</td></tr>
+</tbody>
+</table>
+
+<h2>Health: far less oil</h2>
+<p>This is the air fryer’s main selling point. Food doesn’t sit in fat: how much fat you end up with depends mostly on what you add, often a single spoonful of oil for 2.2 lb (1 kg) of fresh fries. Manufacturers claim up to 90% less fat than conventional deep frying; the real difference depends on the food and the recipe, but it’s still significant for fries and breaded foods.</p>
+<p>Two caveats apply. First, precooked frozen fries already contain oil, and the air fryer doesn’t remove it. Second, acrylamide, a compound that forms when starchy foods are cooked at high temperatures, is a concern with both appliances. European food safety guidance is simple: aim for a golden-yellow color rather than brown, and don’t go above 345°F (175°C) in a deep fryer. To go further, read our guide to <a href="/us/blog/cuisiner-healthy-airfryer">healthy cooking with an air fryer</a>.</p>
+
+<h2>Taste and texture: the deep fryer wins for purists</h2>
+<p>Independent reviews and owner feedback agree: a deep fryer makes the crispiest, fluffiest fries, especially with the Belgian double-fry method. An air fryer turns out very crispy but slightly drier fries, with less of a fried flavor. For chicken wings, nuggets, roasted vegetables or frozen breaded foods, the difference is small, and many owners actually prefer the less greasy air fryer result.</p>
+<p>Doughnuts, tempura and wet batters are still deep fryer territory: batter drips right through an air fryer basket. For great homemade fries with hot air, follow our <a href="/us/blog/recettes-frites-parfaites-airfryer">recipes for perfect air fryer fries</a>: soak, dry thoroughly, add a drizzle of oil and shake the basket halfway through.</p>
+
+<h2>Speed and quantity</h2>
+<p>A deep fryer cooks a batch of fries in a few minutes, but the oil has to heat up first, which takes several minutes, and the size of the tank limits each batch. An air fryer starts almost immediately; fresh fries usually take 15 to 25 minutes depending on the model and the quantity, with one or two shakes of the basket.</p>
+<p>For a family of four, an air fryer of about 5 to 6 quarts is enough. Beyond that, or if you cook fries and meat at the same time, a dual-basket model saves you from cooking in batches.</p>
+
+<h2>Energy and running costs</h2>
+<p>An air fryer heats a small volume of air, not several quarts of oil, so its consumption per session is generally moderate, especially compared with an oven. A deep fryer adds a recurring cost people often forget: oil, which has to be replaced regularly because it breaks down a little with each use. Over time, the air fryer is the cheaper appliance to run in most homes. The details are in our article on <a href="/us/blog/airfryer-economies-energie">air fryer energy savings</a>.</p>
+
+<h2>Cleaning: a clear win for the air fryer</h2>
+<ul>
+<li><strong>Air fryer:</strong> the basket and drawer come out and wash in soapy water; on many models they’re dishwasher-safe (check the manual). An occasional wipe of the heating element is enough.</li>
+<li><strong>Deep fryer:</strong> you have to let the oil cool, filter or discard it, degrease the tank and replace the odor filter. Used oil goes to a recycling center or collection site, never down the sink.</li>
+</ul>
+
+<h2>Safety: the deep fryer needs more care</h2>
+<p>Hot oil can cause severe burns, and it can catch fire if it overheats. If flames appear, <strong>never pour water on them</strong>: turn off the power, close the lid or smother the flames with a fire blanket. Never leave a deep fryer running unattended, especially with kids around.</p>
+<p>An air fryer eliminates the hot-oil risk but is still a hot appliance: leave space around it for the air vent, never set it on a stovetop, and don’t touch the inside of the drawer right after cooking. Most models shut off automatically at the end of a cycle.</p>
+
+<h2>Versatility: no contest</h2>
+<p>A deep fryer does one thing. An air fryer can air-fry, roast, broil, bake, reheat leftovers and, on some models, dehydrate. It often stands in for the oven for small portions, which makes it an everyday appliance rather than a weekend one.</p>
+
+<h2>The best air fryers to replace a deep fryer</h2>
+
+<h3>1. Philips Airfryer 3000 Series XL (6.6 qt): best overall</h3>
+<p>With its 6.6 qt (6.2 L) drawer, which holds about 2.6 lb (1.2 kg) of fries, and 2,000 W of power, this Philips covers the needs of a family of four. It offers presets, including one for fresh fries, and a keep-warm function.</p>
+<ul>
+<li><strong>Pros:</strong> large capacity, even cooking praised by owners, simple controls.</li>
+<li><strong>Cons:</strong> bulky on a small counter, single drawer.</li>
+<li><strong>Best for:</strong> families who want to give up the deep fryer without losing capacity.</li>
+</ul>
+
+<h3>2. Tefal ActiFry Genius XL 2in1 (3.7 lb): best for fry lovers</h3>
+<p>The ActiFry uses a paddle that stirs the food while it cooks, so there’s no need to shake the basket. It takes 3.7 lb (1.7 kg) of fries with one spoonful of oil, and its upper tray lets you cook a second food at the same time.</p>
+<ul>
+<li><strong>Pros:</strong> evenly cooked fries without lifting a finger, large capacity, automatic presets.</li>
+<li><strong>Cons:</strong> the paddle can break up delicate foods; less suited to whole cuts of meat.</li>
+<li><strong>Best for:</strong> people who bought a deep fryer mainly for fries.</li>
+</ul>
+
+<h3>3. Cosori Lite 3.8 L: best value</h3>
+<p>Compact (4 qt, or 3.8 L, and 1,500 W), this Cosori adjusts from 165 to 445°F (75 to 230°C) and can also be controlled from the VeSync app. It suits two or three people.</p>
+<ul>
+<li><strong>Pros:</strong> small footprint, budget-friendly, precise settings.</li>
+<li><strong>Cons:</strong> too small for a large family.</li>
+<li><strong>Best for:</strong> couples, students and small kitchens.</li>
+</ul>
+
+<h3>4. Ninja Foodi FlexDrawer (11 qt): for big get-togethers</h3>
+<p>Its large 11 qt (10.4 L) drawer splits into two zones with a removable divider. You can cook fries and chicken at the same time, or a very large batch of a single food.</p>
+<ul>
+<li><strong>Pros:</strong> very large capacity, two zones that can be synced, one big drawer for large cuts.</li>
+<li><strong>Cons:</strong> bulky; overkill for a small household.</li>
+<li><strong>Best for:</strong> families of five or more and anyone who used a large deep fryer.</li>
+</ul>
+
+<h2>Model comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity</th><th>Key feature</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips Airfryer 3000 Series XL</td><td>6.6 qt (6.2 L)</td><td>Presets, keep warm</td><td>Families of 3–4</td></tr>
+<tr><td>Tefal ActiFry Genius XL 2in1</td><td>3.7 lb (1.7 kg)</td><td>Automatic stirring paddle</td><td>Fry lovers</td></tr>
+<tr><td>Cosori Lite 3.8 L</td><td>4 qt (3.8 L)</td><td>Compact, VeSync app</td><td>1–3 people</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>11 qt (10.4 L)</td><td>Drawer splits into two zones</td><td>Large families</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Overfilling the basket:</strong> air needs to circulate. A layer that’s too thick gives you soggy fries.</li>
+<li><strong>Buying too small:</strong> a 3- to 4-quart model suits two people, not a family.</li>
+<li><strong>Not drying homemade fries:</strong> moisture prevents crispiness, in an air fryer or a deep fryer.</li>
+<li><strong>Reusing deep fryer oil for too long:</strong> oil that’s dark, smokes or foams needs to be changed.</li>
+<li><strong>Expecting perfect doughnuts from an air fryer:</strong> for wet batters, the deep fryer is still essential.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>If you make fries now and then and also cook meat, vegetables and leftovers, <strong>the air fryer is the better choice</strong>: less oil, less risk, quick cleanup and an appliance you’ll use every day. The <strong>Philips Airfryer 3000 Series XL</strong> is the most balanced pick, the <strong>ActiFry Genius XL</strong> appeals to fry lovers, and the <strong>Cosori Lite</strong> suits small households.</p>
+<p>Keep your deep fryer if double-fried Belgian-style fries and doughnuts are your priority, or if you regularly cook for a crowd. To compare with a conventional oven, see our <a href="/us/guides/airfryer-vs-four">air fryer vs. oven guide</a>.</p>`,
+    ca: `<p><strong>For most households, an air fryer is a better choice than a traditional deep fryer in 2026</strong>: it cooks with a spoonful of oil instead of a bath of several litres, removes the risk of boiling oil and can also roast, broil and reheat. The deep fryer keeps the edge for purists who want Belgian-style fries, for doughnuts, and for large gatherings that need a lot of fries fast.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer reviews. It then presents four air fryers currently sold in Europe that make good deep fryer replacements. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. The full selection is on our <a href="/ca/guides/airfryers">air fryer guide</a> page.</p>
+
+<h2>Two very different ways to "fry"</h2>
+<p>A <strong>traditional deep fryer</strong> plunges food into oil heated to around 160 to 190°C (325 to 375°F). Surface moisture evaporates instantly, forming a golden crust within minutes. Depending on the tank size, it usually takes 2 to 4 litres of oil.</p>
+<p>An <strong>air fryer</strong> is really a small, very powerful convection oven: a heating element and a fan blow hot air at high speed around food sitting in a basket. A thin coating of oil, or none at all for pre-cooked frozen food, is enough for a crispy outside.</p>
+
+<h2>The comparison at a glance</h2>
+<table>
+<thead>
+<tr><th>Criterion</th><th>Air fryer</th><th>Traditional deep fryer</th></tr>
+</thead>
+<tbody>
+<tr><td>Oil used</td><td>0 to 1 tablespoon</td><td>2 to 4 litre bath</td></tr>
+<tr><td>Fry crispiness</td><td>Very good, slightly drier</td><td>The benchmark, especially double-fried</td></tr>
+<tr><td>Doughnuts and wet batters</td><td>Poorly suited</td><td>Ideal</td></tr>
+<tr><td>Versatility</td><td>Fry, roast, broil, bake, reheat</td><td>Frying only</td></tr>
+<tr><td>Cleaning</td><td>Removable basket and drawer</td><td>Oil to filter, tank to degrease</td></tr>
+<tr><td>Safety</td><td>No boiling oil</td><td>Risk of burns and oil fires</td></tr>
+<tr><td>Smells</td><td>Limited</td><td>Strong</td></tr>
+<tr><td>Large quantities</td><td>Several batches depending on size</td><td>Efficient in volume</td></tr>
+</tbody>
+</table>
+
+<h2>Health: far less oil</h2>
+<p>This is the air fryer’s main selling point. Food does not sit in fat: the amount of fat depends mostly on what you add, often a single spoonful of oil for a kilo (about 2 lb) of fresh fries. Manufacturers claim up to 90% less fat than classic deep frying; the real difference depends on the food and recipe, but it remains significant for fries and breaded foods.</p>
+<p>Two caveats apply. First, pre-cooked frozen fries already contain oil, and the air fryer does not remove it. Second, acrylamide, a compound that forms when starchy foods are cooked at high temperatures, concerns both appliances. European food-safety guidance is simple: aim for a golden-yellow colour rather than brown, and don’t go above 175°C (350°F) in a deep fryer. To go further, read our guide to <a href="/ca/blog/cuisiner-healthy-airfryer">healthy cooking with an air fryer</a>.</p>
+
+<h2>Taste and texture: the deep fryer wins for purists</h2>
+<p>Independent reviews and owner reviews agree: a deep fryer makes the crispiest, fluffiest fries, especially with the Belgian double-fry method. An air fryer produces very crispy but slightly drier fries, with less of a fried taste. For chicken wings, nuggets, roasted vegetables or frozen breaded foods the difference is small, and many users actually prefer the less greasy air fryer result.</p>
+<p>Doughnuts, tempura and wet batters remain deep fryer territory: batter drips through an air fryer basket. For great homemade fries with hot air, follow our <a href="/ca/blog/recettes-frites-parfaites-airfryer">perfect air fryer fries recipes</a>: soak, dry thoroughly, add a drizzle of oil and shake the basket halfway.</p>
+
+<h2>Speed and quantity</h2>
+<p>A deep fryer cooks a batch of fries in a few minutes, but the oil must heat up first, which takes several minutes, and the tank limits each batch. An air fryer starts almost immediately; fresh fries usually take 15 to 25 minutes depending on the model and quantity, with one or two shakes of the basket.</p>
+<p>For a family of four, a 5 to 6 litre (5.3 to 6.3 qt) air fryer is enough. Beyond that, or if you cook fries and meat at the same time, a dual-basket model saves you from cooking in batches.</p>
+
+<h2>Energy and running costs</h2>
+<p>An air fryer heats a small volume of air, not several litres of oil, so its consumption per session is generally moderate, especially compared with an oven. A deep fryer adds an often-forgotten recurring cost: oil, which must be replaced regularly because it degrades with each use. Over time, the air fryer is the cheaper appliance to run in most homes. The details are in our article on <a href="/ca/blog/airfryer-economies-energie">air fryer energy savings</a>.</p>
+
+<h2>Cleaning: a clear air fryer win</h2>
+<ul>
+<li><strong>Air fryer:</strong> the basket and drawer come out and wash in soapy water; on many models they are dishwasher-safe (check the manual). An occasional wipe of the heating element is enough.</li>
+<li><strong>Deep fryer:</strong> you must let the oil cool, filter or discard it, degrease the tank and replace the odour filter. Used oil goes to a recycling depot or municipal drop-off point, never down the sink.</li>
+</ul>
+
+<h2>Safety: the deep fryer needs more care</h2>
+<p>Hot oil can cause severe burns and an oil fire if it overheats. If flames appear, <strong>never pour water on them</strong>: turn off the power, close the lid or smother it with a fire blanket. Never leave a deep fryer running unattended, especially with children around.</p>
+<p>An air fryer removes the boiling-oil risk but is still a hot appliance: leave space around it for the air vent, never put it on the stovetop, and don’t touch the inside of the basket right after cooking. Most models turn off automatically at the end of a program.</p>
+
+<h2>Versatility: no contest</h2>
+<p>A deep fryer does one thing. An air fryer can air-fry, roast, broil, bake, reheat leftovers and, on some models, dehydrate. It often replaces the oven for small portions, which makes it an everyday appliance rather than a weekend one.</p>
+
+<h2>The best air fryers to replace a deep fryer</h2>
+
+<h3>1. Philips Airfryer 3000 Series XL (6.2 L): best overall</h3>
+<p>With its 6.2 litre (6.6 qt) basket (about 1.2 kg, or 2.6 lb, of fries) and 2,000 W, this Philips covers the needs of a family of four. It offers preset programs, including fresh fries, and a keep-warm function.</p>
+<ul>
+<li><strong>Strengths:</strong> large capacity, even cooking praised by users, simple controls.</li>
+<li><strong>Limitations:</strong> bulky on a small counter, single basket.</li>
+<li><strong>Best for:</strong> families who want to give up the deep fryer without losing capacity.</li>
+</ul>
+
+<h3>2. Tefal ActiFry Genius XL 2in1 (1.7 kg): best for fry lovers</h3>
+<p>The ActiFry uses a paddle that stirs food during cooking, so there is no need to shake the basket. It takes 1.7 kg (about 3.7 lb) of fries with one spoonful of oil, and its upper tray lets you cook a second food at the same time.</p>
+<ul>
+<li><strong>Strengths:</strong> even fries with no stirring on your part, large capacity, automatic programs.</li>
+<li><strong>Limitations:</strong> the paddle can break delicate food, less suited to whole cuts of meat.</li>
+<li><strong>Best for:</strong> people who bought a deep fryer mainly for fries.</li>
+</ul>
+
+<h3>3. Cosori Lite 3.8 L: best value</h3>
+<p>Compact at 3.8 litres (4.0 qt) and 1,500 W, this Cosori adjusts from 75 to 230°C (170 to 450°F) and can also be controlled from the VeSync app. It suits two or three people.</p>
+<ul>
+<li><strong>Strengths:</strong> small footprint, entry-level price, precise settings.</li>
+<li><strong>Limitations:</strong> too small for a large family.</li>
+<li><strong>Best for:</strong> couples, students and small kitchens.</li>
+</ul>
+
+<h3>4. Ninja Foodi FlexDrawer 10.4 L: for big gatherings</h3>
+<p>Its large 10.4 litre (11 qt) basket splits into two zones with a removable divider. You can cook fries and chicken at the same time, or a very large quantity of a single food.</p>
+<ul>
+<li><strong>Strengths:</strong> very large capacity, two zones that can be synced, one big basket for large cuts.</li>
+<li><strong>Limitations:</strong> bulky, overkill for a small household.</li>
+<li><strong>Best for:</strong> families of five or more and anyone who used a large deep fryer.</li>
+</ul>
+
+<h2>Model comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Capacity</th><th>Key feature</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips Airfryer 3000 Series XL</td><td>6.2 L (6.6 qt)</td><td>Presets, keep warm</td><td>Families of 3 to 4</td></tr>
+<tr><td>Tefal ActiFry Genius XL 2in1</td><td>1.7 kg</td><td>Automatic stirring paddle</td><td>Fry lovers</td></tr>
+<tr><td>Cosori Lite 3.8 L</td><td>3.8 L (4.0 qt)</td><td>Compact, VeSync app</td><td>1 to 3 people</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>10.4 L (11.0 qt)</td><td>Basket splits into two zones</td><td>Large families</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Overfilling the basket:</strong> air needs to circulate. A layer that is too thick gives soggy fries.</li>
+<li><strong>Buying too small:</strong> a 3 to 4 litre model suits two people, not a family.</li>
+<li><strong>Not drying homemade fries:</strong> moisture prevents crispiness, in an air fryer or a deep fryer.</li>
+<li><strong>Reusing deep fryer oil for too long:</strong> oil that is dark, smokes or foams must be changed.</li>
+<li><strong>Expecting perfect doughnuts from an air fryer:</strong> for wet batters, the deep fryer is still essential.</li>
+</ul>
+
+<h2>Verdict</h2>
+<p>If you make fries now and then and also cook meat, vegetables and leftovers, <strong>the air fryer is the better choice</strong>: less oil, less risk, quick cleaning and an appliance you use every day. The <strong>Philips Airfryer 3000 Series XL</strong> is the most balanced pick, the <strong>ActiFry Genius XL</strong> appeals to fry lovers, and the <strong>Cosori Lite</strong> suits small households.</p>
+<p>Keep your deep fryer if double-fried Belgian fries and doughnuts are your priority, or if you regularly cook for large groups. To compare with a conventional oven, see our <a href="/ca/guides/airfryer-vs-four">air fryer vs oven guide</a>.</p>`,
   },
   faq: [
     {
@@ -833,7 +1175,10 @@ export const article: BlogArticle = {
         es: '¿Las patatas de la freidora de aire saben igual que las fritas en aceite?',
         it: 'Le patatine della friggitrice ad aria hanno lo stesso gusto di quelle fritte?',
         nl: 'Smaken frietjes uit de airfryer hetzelfde als uit de frituurpan?',
-        pl: 'Czy frytki z frytkownicy beztłuszczowej mają taki sam smak jak z frytownicy?',
+        pl: 'Czy frytki z frytkownicy beztłuszczowej smakują tak samo jak z tradycyjnej?',
+        sv: 'Smakar pommes frites från airfryern likadant som från en fritös?',
+        us: 'Do air fryer fries taste the same as deep-fried fries?',
+        ca: 'Do air fryer fries taste the same as deep-fried fries?',
       },
       answer: {
         fr: 'Pas tout à fait. Elles sont croustillantes mais un peu plus sèches et ont moins le goût de friture. Pour la frite belge en double cuisson, la friteuse reste la référence ; pour les nuggets, ailes de poulet et produits panés, l’écart est faible.',
@@ -842,7 +1187,10 @@ export const article: BlogArticle = {
         es: 'No del todo. Son crujientes pero algo más secas y saben menos a fritura. Para las patatas belgas con doble fritura, la freidora tradicional sigue siendo la referencia; en nuggets, alitas y empanados la diferencia es pequeña.',
         it: 'Non del tutto. Sono croccanti ma un po’ più asciutte e sanno meno di fritto. Per le patatine belghe a doppia frittura la friggitrice resta il riferimento; per nuggets, alette di pollo e impanati la differenza è minima.',
         nl: 'Niet helemaal. Ze zijn knapperig maar iets droger en smaken minder naar frituur. Voor twee keer gebakken Belgische frieten blijft de frituurpan de maatstaf; bij nuggets, kippenvleugels en gepaneerde producten is het verschil klein.',
-        pl: 'Nie do końca. Są chrupiące, ale trochę bardziej suche i mają mniej smaku smażenia. W przypadku frytek belgijskich smażonych dwukrotnie wzorcem pozostaje frytownica; przy nuggetsach, skrzydełkach kurczaka i produktach panierowanych różnica jest niewielka.',
+        pl: 'Nie do końca. Są chrupiące, ale nieco bardziej suche i mniej czuć w nich smak smażenia w głębokim tłuszczu. Do belgijskich frytek smażonych dwukrotnie nadal nie ma nic lepszego niż frytkownica olejowa. Przy nuggetsach, skrzydełkach kurczaka i produktach panierowanych różnica jest niewielka.',
+        sv: 'Inte riktigt. De blir krispiga men lite torrare och smakar mindre friterat. För belgiska pommes frites som friteras två gånger är fritösen fortfarande måttstocken; för nuggets, kycklingvingar och panerade produkter är skillnaden liten.',
+        us: 'Not quite. They’re crispy but slightly drier, with less of a fried flavor. For double-fried Belgian-style fries, the deep fryer is still the benchmark; for nuggets, chicken wings and breaded foods, the gap is small.',
+        ca: 'Not quite. They\'re crispy but slightly drier, with less of a fried taste. For double-fried Belgian fries the deep fryer remains the benchmark; for nuggets, chicken wings and breaded foods the gap is small.',
       },
     },
     {
@@ -853,7 +1201,10 @@ export const article: BlogArticle = {
         es: '¿Es la freidora de aire realmente más saludable que la tradicional?',
         it: 'La friggitrice ad aria è davvero più sana di quella tradizionale?',
         nl: 'Is een airfryer echt gezonder dan een frituurpan?',
-        pl: 'Czy frytkownica beztłuszczowa jest naprawdę zdrowsza niż frytownica?',
+        pl: 'Czy frytkownica beztłuszczowa jest naprawdę zdrowsza od tradycyjnej?',
+        sv: 'Är en airfryer verkligen nyttigare än en fritös?',
+        us: 'Is an air fryer really healthier than a deep fryer?',
+        ca: 'Is an air fryer really healthier than a deep fryer?',
       },
       answer: {
         fr: 'Il permet de cuire avec beaucoup moins d’huile, souvent une seule cuillère, ce qui réduit nettement les matières grasses. Les frites surgelées précuites contiennent toutefois déjà de l’huile, et il faut viser une cuisson dorée, pas brune, pour limiter l’acrylamide.',
@@ -862,7 +1213,10 @@ export const article: BlogArticle = {
         es: 'Permite cocinar con mucho menos aceite, a menudo una sola cucharada, lo que reduce claramente la grasa. Eso sí, las patatas congeladas precocinadas ya contienen aceite, y conviene buscar un dorado claro, no marrón, para limitar la acrilamida.',
         it: 'Permette di cuocere con molto meno olio, spesso un solo cucchiaio, riducendo nettamente i grassi. Le patatine surgelate precotte contengono però già olio, e per limitare l’acrilammide conviene puntare a un colore dorato, non marrone.',
         nl: 'Je bakt met veel minder olie, vaak maar één lepel, wat het vet duidelijk vermindert. Voorgebakken diepvriesfrietjes bevatten wel al olie, en bak goudgeel in plaats van bruin om acrylamide te beperken.',
-        pl: 'Pozwala smażyć na znacznie mniejszej ilości oleju, często wystarczy jedna łyżka, co wyraźnie zmniejsza ilość tłuszczu. Wstępnie obsmażone mrożone frytki zawierają jednak już olej, a aby ograniczyć akryloamid, dąż do złocistego, a nie brązowego koloru.',
+        pl: 'Pozwala smażyć na znacznie mniejszej ilości oleju – często wystarcza jedna łyżka – więc potrawy zawierają wyraźnie mniej tłuszczu. Wstępnie podsmażane mrożone frytki zawierają jednak już olej. Aby ograniczyć powstawanie akryloamidu, smaż do złocistego, a nie brązowego koloru.',
+        sv: 'Du kan laga maten med mycket mindre olja, ofta bara en sked, vilket minskar fettmängden rejält. Frysta, förfriterade pommes frites innehåller dock redan olja, och för att begränsa bildningen av akrylamid bör maten bli gyllene, inte brun.',
+        us: 'It lets you cook with far less oil, often just one spoonful, which clearly cuts the fat. Precooked frozen fries already contain oil, though, and you should aim for golden rather than brown to limit acrylamide.',
+        ca: 'It lets you cook with far less oil, often just one spoonful, which clearly reduces fat. Pre-cooked frozen fries already contain oil, though, and you should aim for golden rather than brown to limit acrylamide.',
       },
     },
     {
@@ -873,7 +1227,10 @@ export const article: BlogArticle = {
         es: '¿Qué tamaño de freidora de aire sustituye a una freidora familiar?',
         it: 'Che capienza serve per sostituire una friggitrice familiare?',
         nl: 'Welk formaat airfryer vervangt een gezinsfrituurpan?',
-        pl: 'Jaka frytkownica beztłuszczowa zastąpi rodzinną frytownicę?',
+        pl: 'Jak dużą frytkownicę beztłuszczową wybrać zamiast rodzinnej frytkownicy olejowej?',
+        sv: 'Hur stor airfryer behövs för att ersätta familjens fritös?',
+        us: 'What size air fryer do you need to replace a family-size deep fryer?',
+        ca: 'What size air fryer replaces a family deep fryer?',
       },
       answer: {
         fr: 'Comptez 3 à 4 litres pour une ou deux personnes, 5 à 6 litres pour une famille de quatre, et 8 litres ou plus, idéalement avec deux zones, au-delà de cinq personnes.',
@@ -882,7 +1239,10 @@ export const article: BlogArticle = {
         es: 'Calcula de 3 a 4 litros para una o dos personas, de 5 a 6 litros para una familia de cuatro y 8 litros o más, idealmente con dos zonas, a partir de cinco personas.',
         it: 'Contate 3-4 litri per una o due persone, 5-6 litri per una famiglia di quattro e 8 litri o più, idealmente con due zone, oltre le cinque persone.',
         nl: 'Reken op 3 tot 4 liter voor een of twee personen, 5 tot 6 liter voor een gezin van vier en 8 liter of meer, liefst met twee zones, vanaf vijf personen.',
-        pl: 'Licz 3–4 litry dla jednej lub dwóch osób, 5–6 litrów dla czteroosobowej rodziny i 8 litrów lub więcej, najlepiej z dwiema strefami, powyżej pięciu osób.',
+        pl: 'Przyjmij 3–4 litry dla jednej lub dwóch osób i 5–6 litrów dla czteroosobowej rodziny. Przy ponad pięciu osobach wybierz model o pojemności 8 litrów lub większej, najlepiej z dwiema strefami.',
+        sv: 'Räkna med 3–4 liter för en eller två personer, 5–6 liter för en familj på fyra och 8 liter eller mer, helst med två zoner, för fem personer eller fler.',
+        us: 'Figure on roughly 3 to 4 qt for one or two people, 5 to 6 qt for a family of four, and 8.5 qt (8 L) or more, ideally with two zones, for five or more people.',
+        ca: 'Allow 3 to 4 litres (3.2 to 4.2 qt) for one or two people, 5 to 6 litres (5.3 to 6.3 qt) for a family of four, and 8 litres (8.5 qt) or more, ideally with two zones, for five people or more.',
       },
     },
     {
@@ -893,7 +1253,10 @@ export const article: BlogArticle = {
         es: '¿Se pueden hacer buñuelos o rebozados en una freidora de aire?',
         it: 'Si possono fare frittelle o pastellati nella friggitrice ad aria?',
         nl: 'Kun je beignets of gefrituurd beslag maken in een airfryer?',
-        pl: 'Czy we frytkownicy beztłuszczowej można robić dania w cieście?',
+        pl: 'Czy we frytkownicy beztłuszczowej można smażyć potrawy w cieście?',
+        sv: 'Kan man fritera i smet eller göra munkar i en airfryer?',
+        us: 'Can you make doughnuts or battered foods in an air fryer?',
+        ca: 'Can you make doughnuts or battered food in an air fryer?',
       },
       answer: {
         fr: 'Pas avec une pâte liquide : elle coule à travers le panier. Les pâtes levées façonnées ou les produits panés à sec fonctionnent, mais pour les beignets et tempuras, la friteuse reste nettement plus adaptée.',
@@ -902,7 +1265,10 @@ export const article: BlogArticle = {
         es: 'No con una masa líquida: gotea a través de la cesta. Las masas fermentadas con forma o los empanados en seco funcionan, pero para buñuelos y tempura la freidora tradicional es mucho más adecuada.',
         it: 'Non con una pastella liquida: cola attraverso il cestello. Gli impasti lievitati formati o gli impanati a secco funzionano, ma per frittelle e tempura la friggitrice tradizionale è molto più adatta.',
         nl: 'Niet met vloeibaar beslag: dat druipt door de mand. Gevormd gerezen deeg of droog gepaneerde producten lukken wel, maar voor beignets en tempura is de frituurpan veel geschikter.',
-        pl: 'Nie z płynnym ciastem: spływa ono przez kosz. Formowane ciasta drożdżowe lub produkty panierowane na sucho się sprawdzą, ale do dań w cieście i tempury frytownica jest wyraźnie lepsza.',
+        pl: 'Nie, jeśli ciasto jest płynne – przecieka przez kosz. Uformowane wyroby z ciasta drożdżowego czy produkty panierowane na sucho się udadzą, ale do potraw w cieście i tempury tradycyjna frytkownica nadaje się znacznie lepiej.',
+        sv: 'Inte med lös smet: den rinner igenom korgen. Formade jäsdegar och torrpanerade råvaror fungerar, men för munkar och tempura är en fritös fortfarande klart bättre.',
+        us: 'Not with a wet batter: it drips through the basket. Shaped yeast doughs or dry-breaded foods work, but for doughnuts and tempura a deep fryer is still far better suited.',
+        ca: 'Not with a wet batter: it drips through the basket. Shaped yeast doughs or dry-breaded foods work, but for doughnuts and tempura a deep fryer is still far better suited.',
       },
     },
     {
@@ -913,7 +1279,10 @@ export const article: BlogArticle = {
         es: '¿Qué hacer con el aceite usado de la freidora?',
         it: 'Come smaltire l’olio usato della friggitrice?',
         nl: 'Wat doe je met gebruikte frituurolie?',
-        pl: 'Co zrobić ze zużytym olejem z frytownicy?',
+        pl: 'Co zrobić ze zużytym olejem z frytkownicy?',
+        sv: 'Vad gör man med använd frityrolja?',
+        us: 'What should you do with used deep fryer oil?',
+        ca: 'What should you do with used deep fryer oil?',
       },
       answer: {
         fr: 'Laissez-la refroidir, versez-la dans une bouteille fermée et déposez-la en déchetterie ou en point de collecte. Ne la jetez jamais dans l’évier ni dans les toilettes : elle bouche les canalisations.',
@@ -922,7 +1291,10 @@ export const article: BlogArticle = {
         es: 'Déjalo enfriar, viértelo en una botella cerrada y llévalo a un punto limpio o de recogida. No lo tires nunca por el fregadero ni el inodoro: atasca las tuberías.',
         it: 'Lasciatelo raffreddare, versatelo in una bottiglia chiusa e portatelo all’isola ecologica o a un punto di raccolta. Mai nel lavandino o nel WC: intasa le tubature.',
         nl: 'Laat de olie afkoelen, giet ze in een afgesloten fles en breng ze naar het milieupark of een inzamelpunt. Nooit in de gootsteen of het toilet: dat verstopt de leidingen.',
-        pl: 'Poczekaj, aż ostygnie, przelej go do zamykanej butelki i oddaj do punktu zbiórki odpadów. Nigdy nie wylewaj go do zlewu ani toalety: zatyka rury.',
+        pl: 'Poczekaj, aż ostygnie, przelej go do zakręcanej butelki i oddaj do punktu selektywnej zbiórki odpadów. Nigdy nie wylewaj go do zlewu ani do toalety, bo zatyka rury.',
+        sv: 'Låt den svalna, häll den i en flaska med lock och lämna den på en återvinningscentral eller ett insamlingsställe. Häll den aldrig i diskhon eller toaletten: den täpper till avloppet.',
+        us: 'Let it cool, pour it into a sealed container and take it to a recycling center or collection site. Never pour it down the sink or the toilet: it clogs pipes.',
+        ca: 'Let it cool, pour it into a sealed bottle and take it to a recycling depot or municipal drop-off point. Never pour it down the sink or toilet: it clogs the pipes.',
       },
     },
     {
@@ -934,6 +1306,9 @@ export const article: BlogArticle = {
         it: 'Bisogna mettere olio nella friggitrice ad aria?',
         nl: 'Moet je olie gebruiken in een airfryer?',
         pl: 'Czy do frytkownicy beztłuszczowej trzeba dodawać olej?',
+        sv: 'Behöver man olja i en airfryer?',
+        us: 'Do you need to add oil to an air fryer?',
+        ca: 'Do you need to add oil to an air fryer?',
       },
       answer: {
         fr: 'Pas pour les produits surgelés précuits. Pour des frites ou légumes frais, une cuillère d’huile mélangée aux aliments améliore nettement le croustillant et la couleur. Versez-la sur les aliments, pas dans le tiroir.',
@@ -942,7 +1317,10 @@ export const article: BlogArticle = {
         es: 'No para los productos congelados precocinados. Para patatas o verduras frescas, una cucharada de aceite mezclada con los alimentos mejora claramente el crujiente y el color. Ponlo sobre los alimentos, no en el cajón.',
         it: 'Non per i surgelati precotti. Per patatine o verdure fresche, un cucchiaio d’olio mescolato agli alimenti migliora nettamente croccantezza e colore. Mettetelo sugli alimenti, non nel cassetto.',
         nl: 'Niet voor voorgebakken diepvriesproducten. Bij verse frietjes of groenten verbetert één lepel olie, door het eten gemengd, de knapperigheid en kleur duidelijk. Doe de olie op het eten, niet in de lade.',
-        pl: 'Nie w przypadku wstępnie obsmażonych mrożonek. Przy świeżych frytkach lub warzywach łyżka oleju wymieszana z jedzeniem wyraźnie poprawia chrupkość i kolor. Wlej go na jedzenie, a nie do szuflady.',
+        pl: 'Do wstępnie podsmażanych mrożonek nie trzeba. Świeże frytki czy warzywa warto wymieszać z łyżką oleju – będą wyraźnie bardziej chrupiące i ładniej się zrumienią. Olej dodawaj bezpośrednio do produktów, a nie do szuflady.',
+        sv: 'Inte för frysta, förfriterade produkter. För färska pommes frites eller grönsaker blir krispigheten och färgen betydligt bättre om du blandar råvarorna med en sked olja. Häll oljan på maten, inte i lådan.',
+        us: 'Not for precooked frozen foods. For fresh fries or vegetables, one spoonful of oil tossed with the food noticeably improves crispiness and color. Put it on the food, not in the basket.',
+        ca: 'Not for pre-cooked frozen foods. For fresh fries or vegetables, one spoonful of oil tossed with the food clearly improves crispiness and colour. Put it on the food, not in the basket.',
       },
     },
   ],

@@ -45,11 +45,77 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       { question: "Mag je rolluiken of screens plaatsen als je in een appartement met VvE woont?", answer: "Vraag het eerst na bij de VvE: buitenzonwering verandert de gevel, en veel splitsingsaktes en huishoudelijke reglementen eisen toestemming of schrijven kleur en type voor. Bij een monument of in een beschermd stads- of dorpsgezicht kan ook een omgevingsvergunning nodig zijn; check dat bij je gemeente. Binnenzonwering en het slim maken van bestaande rolluiken vallen daar meestal niet onder." },
     ],
     pl: [
-      { question: "Jak sterować roletami zewnętrznymi z telefonu?", answer: "Najprościej przez moduł dopuszkowy montowany za istniejącym przełącznikiem rolet, który łączy się przez Wi-Fi, Zigbee lub Z-Wave z aplikacją. Jeśli rolety mają silniki radiowe, wystarczy centrala lub bramka producenta napędu, np. Somfy lub Nice. Warto wybrać moduł z kalibracją czasu pracy, aby ustawiać roletę do połowy, a podłączenie do instalacji 230 V zlecić elektrykowi z uprawnieniami." },
-      { question: "Ile prądu zużywa roleta elektryczna?", answer: "Bardzo mało: silnik pracuje tylko kilkanaście sekund przy każdym otwarciu lub zamknięciu. Przykład: silnik 150 W pracujący dwa razy dziennie po 20 sekund zużywa około 0,6 kWh rocznie. Więcej waży pobór w trybie czuwania: 0,5 W przez cały rok to około 4,4 kWh. Sumę wystarczy pomnożyć przez cenę 1 kWh z rachunku – wychodzi kilka złotych rocznie na okno." },
-      { question: "Rolety zewnętrzne czy żaluzje fasadowe – co wybrać?", answer: "Rolety zewnętrzne, jeśli liczy się pełne zaciemnienie, wyciszenie i dodatkowa ochrona okna; żaluzje fasadowe, jeśli ważna jest regulacja światła kątem lamel. Rolety dobrze sprawdzają się w sypialniach i na parterze, żaluzje w salonie i gabinecie. Żaluzje są zwykle droższe i bardziej wrażliwe na wiatr, dlatego warto połączyć je z czujnikiem wiatru, który podniesie je automatycznie." },
-      { question: "Czy rolety zewnętrzne zmniejszają rachunki latem i zimą?", answer: "Tak, latem wyraźnie ograniczają nagrzewanie mieszkania, bo zatrzymują słońce przed szybą. Zimą zamknięta na noc roleta tworzy przy oknie dodatkową warstwę powietrza i nieco ogranicza straty ciepła, choć nie zastąpi dobrego okna. Automatyka, która zamyka rolety po zmroku i otwiera je w słoneczne zimowe dni, pozwala wykorzystać oba efekty bez pamiętania o tym." },
-      { question: "Roleta elektryczna nie reaguje na pilota – co sprawdzić?", answer: "Najpierw baterię w pilocie i bezpiecznik obwodu rolet, bo to najczęstsze przyczyny. Jeśli inne rolety działają, problemem może być utrata sparowania: pilota trzeba wtedy ponownie zaprogramować według instrukcji silnika. Gdy silnik buczy, ale roleta stoi, przyczyną bywa zwykle lód, zabrudzone prowadnice albo zabezpieczenie termiczne – w tym ostatnim przypadku warto odczekać, aż silnik ostygnie." },
+      { question: "Jak sterować roletami zewnętrznymi z telefonu?", answer: "Najprościej przez moduł dopuszkowy montowany za istniejącym przełącznikiem rolet, który łączy się z aplikacją przez Wi-Fi, Zigbee lub Z-Wave. Jeśli rolety mają silniki radiowe, wystarczy centrala lub bramka producenta napędu, np. Somfy lub Nice. Warto wybrać moduł z kalibracją czasu pracy, który pozwala zatrzymać roletę w dowolnym położeniu, np. w połowie okna, a podłączenie do instalacji 230 V zlecić elektrykowi z uprawnieniami." },
+      { question: "Ile prądu zużywa roleta elektryczna?", answer: "Bardzo mało, bo silnik pracuje tylko kilkanaście sekund przy każdym otwarciu lub zamknięciu. Silnik 150 W uruchamiany dwa razy dziennie na 20 sekund zużywa około 0,6 kWh rocznie. Więcej waży pobór w trybie czuwania – 0,5 W przez cały rok to około 4,4 kWh. Po pomnożeniu sumy przez cenę 1 kWh z rachunku wychodzi kilka złotych rocznie na okno." },
+      { question: "Rolety zewnętrzne czy żaluzje fasadowe – co wybrać?", answer: "Rolety zewnętrzne, jeśli liczy się pełne zaciemnienie, wyciszenie i dodatkowa ochrona okna; żaluzje fasadowe, jeśli ważna jest regulacja ilości światła przez zmianę kąta lamel. Rolety dobrze sprawdzają się w sypialniach i na parterze, żaluzje – w salonie i gabinecie. Żaluzje są zwykle droższe i bardziej wrażliwe na wiatr, dlatego warto połączyć je z czujnikiem wiatru, który przy silnych podmuchach automatycznie je podniesie." },
+      { question: "Czy rolety zewnętrzne zmniejszają rachunki latem i zimą?", answer: "Tak. Latem wyraźnie ograniczają nagrzewanie się mieszkania, bo zatrzymują słońce przed szybą. Zimą zamknięta na noc roleta tworzy przy oknie dodatkową warstwę powietrza i nieco ogranicza straty ciepła, choć nie zastąpi dobrego okna. Automatyka, która zamyka rolety po zmroku i otwiera je w słoneczne zimowe dni, pozwala korzystać z obu efektów bez codziennego pamiętania o roletach." },
+      { question: "Roleta elektryczna nie reaguje na pilota – co sprawdzić?", answer: "Najpierw baterię w pilocie i bezpiecznik obwodu rolet, bo to najczęstsze przyczyny. Jeśli inne rolety działają, problemem może być utrata połączenia pilota z silnikiem – trzeba go wtedy ponownie sparować zgodnie z instrukcją napędu. Gdy silnik buczy, ale roleta stoi, przyczyną jest zwykle lód, zabrudzone prowadnice albo zadziałanie zabezpieczenia termicznego; w tym ostatnim przypadku trzeba odczekać, aż silnik ostygnie." },
+    ],
+    sv: [
+      {
+        question: "Kan jag göra mina vanliga rullgardiner smarta utan att byta ut dem?",
+        answer: "Ofta ja: eftermonterade motorer fästs antingen på dragkedjan till en vanlig rullgardin eller ersätter rullröret, och drivs med ett laddningsbart batteri. En liten solpanel i fönstret kan hålla batteriet laddat. Jämför rullgardinens bredd, tygets vikt och rörets diameter med motorns gränser innan du köper. Måttbeställda motoriserade rullgardiner kostar mer, men går tystare och ser prydligare ut i breda fönster eller när rullgardinen är tung.",
+      },
+      {
+        question: "Batteridriven eller fast ansluten motor: vad passar bäst?",
+        answer: "Batteridrivna motorer passar de flesta hem eftersom ingen el behöver dras fram; beroende på användningen behöver de laddas med några månaders mellanrum. Fast anslutna motorer är mer motiverade vid en renovering eller för tunga rullgardiner och rulljalusier, där en rörmotor monteras i rullaxeln. Saknas el vid fönstret slipper du spåra i väggen med en solcellsdriven motor. En motor på 230 V bör anslutas av en behörig elektriker.",
+      },
+      {
+        question: "Är motoriserade rullgardiner säkrare för barn än rullgardiner med snöre?",
+        answer: "Ja, motoriserade rullgardiner tar bort de snöröglor och kedjor som innebär strypningsrisk för bebisar och små barn. Den europeiska standarden EN 13120 ställer säkerhetskrav på invändiga solskydd, med snören som lossnar eller hålls spända, men äldre rullgardiner uppfyller ofta inte kraven. Har du kvar en rullgardin med snöre: fäst snöret på en krok högt upp, utom räckhåll för barnen, och flytta spjälsängar och sängar bort från fönstret.",
+      },
+      {
+        question: "Varför har min motoriserade rullgardin eller rulljalusi slutat fungera?",
+        answer: "Oftast är batteriet urladdat eller så har motorn tappat kontakten med hubben eller bryggan. Ladda batteriet fullt och kontrollera att bryggan är inom räckhåll och fortfarande ansluten till ditt wifi på 2,4 GHz. Stannar den på fel ställe, eller går den inte ända ner, ställer du in ändlägena på nytt i appen eller enligt bruksanvisningen. En motor som surrar utan att röra sig kan vara blockerad, och en motor som stannar efter många körningar i rad kan ha överhettats och behöver svalna.",
+      },
+      {
+        question: "Håller nerdragna rulljalusier huset svalt under en värmebölja?",
+        answer: "Ja, om du stänger dem innan solen når rutan: ett utvändigt solskydd stoppar värmen före glaset, till skillnad från en invändig rullgardin. Schemalägg stängning på söder- och västsidan under de varmaste timmarna och öppning på kvällen, så att du kan vädra när uteluften är svalare. En sol- eller temperatursensor gör automatiken träffsäkrare än ett fast klockslag.",
+      },
+    ],
+    us: [
+      {
+        question: "Can I make my existing blinds smart without replacing them?",
+        answer: "Often, yes: retrofit motors either clip onto the bead chain of a standard roller shade or replace its roller tube, and they run on a rechargeable battery. A small solar panel on the window can keep them topped up. Before buying, check the shade's width, fabric weight and tube diameter against the motor's limits. Custom motorized blinds cost more but run more quietly and look cleaner on wide or heavy windows.",
+      },
+      {
+        question: "Battery-powered or hardwired smart blinds: which is better?",
+        answer: "Battery-powered blinds suit most homes because they need no wiring; depending on use, they need recharging every few months. Hardwired motors make more sense during a renovation or for heavy blinds and exterior rolling shutters. Adding a new circuit is a job for a licensed electrician, so hire one and check whether your area requires a permit.",
+      },
+      {
+        question: "Are motorized blinds safer for children than corded blinds?",
+        answer: "Yes, motorized blinds get rid of the looped cords and chains that pose a strangulation risk to babies and young children. Older corded blinds often lack the breakaway or tensioned cords that newer designs use. If you keep a corded blind, install a cleat high out of reach and move cribs and beds away from the window.",
+      },
+      {
+        question: "How much does it cost to run motorized blinds?",
+        answer: "Very little: a blind motor runs for seconds a day, so running costs come to pennies a year. For example, a 25 W motor working 30 seconds twice a day uses about 0.15 kWh a year. Standby usually matters more: 0.3 W around the clock adds roughly 2.6 kWh. Multiply the total by your rate per kWh (at an example 20 cents, that's under 60 cents a year); for battery motors, the cost is simply what it takes to recharge them.",
+      },
+      {
+        question: "Why has my smart blind stopped responding?",
+        answer: "Most often the battery is dead or the motor has lost its link to the hub or bridge. Charge it fully, then check that the bridge is within range and still connected to your 2.4 GHz Wi-Fi network. If the blind moves but stops in the wrong place, reset its upper and lower limits in the app. A motor that hums without turning may be obstructed, so check that the fabric hasn't snagged.",
+      },
+    ],
+    ca: [
+      {
+        question: "Can I make my existing blinds smart without replacing them?",
+        answer: "Often yes: retrofit motors either clip onto the chain of a standard roller blind or replace its roller tube, running on a rechargeable battery. A small solar panel on the window can keep them charged. Check the blind’s width, fabric weight and tube diameter against the motor’s limits before buying. Made-to-measure motorized blinds cost more but run more quietly and look tidier on wide or heavy windows.",
+      },
+      {
+        question: "Battery-powered or hardwired smart blinds: which is better?",
+        answer: "Battery-powered blinds suit most homes because they need no wiring; depending on use, they need recharging every few months. Hardwired motors make more sense during a renovation or for heavy blinds and exterior roller shutters. Electrical work rules are set by each province and territory; for any new wiring or circuit, hire a licensed electrician.",
+      },
+      {
+        question: "Are motorized blinds safer for children than corded blinds?",
+        answer: "Yes, motorized blinds remove the looped cords and chains that pose a strangulation risk to babies and young children. Older corded blinds often lack the breakaway or tensioned cords found on newer designs. If you keep a corded blind, install a cleat high out of reach and move cribs and beds away from the window.",
+      },
+      {
+        question: "How much does it cost to run motorized blinds?",
+        answer: "Very little: a blind motor runs for seconds a day, so running costs come to cents a year. For example, a 25 W motor working 30 seconds twice a day uses about 0.15 kWh a year. Standby usually matters more: 0.3 W around the clock adds roughly 2.6 kWh. Multiply the total by your rate per kWh: at an example rate of 10¢, that’s under 30¢ a year. For battery motors, that’s simply the cost of recharging them.",
+      },
+      {
+        question: "Why did my smart blind stop responding?",
+        answer: "Most often the battery is dead or the motor has lost its link to the hub or bridge. Recharge it fully, then check the bridge is within range and still connected to your 2.4 GHz Wi-Fi network. If the blind moves but stops in the wrong place, reset its upper and lower limits in the app. A motor that hums without turning may be obstructed, so check the fabric hasn’t snagged.",
+      },
     ],
   },
   "capteurs-qualite-air": {
@@ -96,11 +162,77 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       { question: "Mijn luchtkwaliteitsmeter geeft rare waarden: wat kan ik doen?", answer: "Controleer eerst de plek: in de zon, boven een radiator of vlak bij je adem of een open raam zijn de waarden onbetrouwbaar. Kalibreer de CO2-sensor daarna volgens de handleiding, vaak door hem enkele minuten buiten te zetten. Automatische kalibratie gaat uit van de laagste waarde van de afgelopen dagen en raakt de weg kwijt in een kamer die nooit gelucht wordt. Maak ook het rooster van de fijnstofsensor stofvrij." },
     ],
     pl: [
-      { question: "Jaki czujnik jakości powietrza wybrać na smog?", answer: "Przy smogu najważniejszy jest laserowy czujnik pyłów PM2,5 i PM10, bo to one rosną w sezonie grzewczym. Dobrze, jeśli urządzenie mierzy też CO2 metodą NDIR, aby było wiadomo, kiedy wietrzyć, a kiedy lepiej nie otwierać okien. Wygodny jest model z aplikacją albo integracją z oczyszczaczem powietrza, który sam włączy się przy wysokim odczycie." },
-      { question: "Od jakiego stężenia pyłu ogłasza się w Polsce alarm smogowy?", answer: "Poziom alarmowy dla pyłu PM10 wynosi w Polsce 150 µg/m³ jako średnia dobowa, a poziom informowania 100 µg/m³. Dla porównania WHO zaleca, by średnie dobowe stężenie PM2,5 nie przekraczało 15 µg/m³. Domowy czujnik pokaże, ile z tego smogu trafia do mieszkania i czy oczyszczacz nadąża; ostrzeżenia dla regionu publikuje Główny Inspektorat Ochrony Środowiska." },
-      { question: "Wietrzyć mieszkanie podczas smogu czy nie?", answer: "Tak, ale krótko i w porach najmniejszego zanieczyszczenia, bo bez wietrzenia rosną CO2 i wilgotność. Domowy czujnik pokaże, czy po otwarciu okna stężenie PM2,5 mocno wzrosło; wtedy warto włączyć oczyszczacz z filtrem HEPA. Wieczorem i w nocy, gdy w okolicy pali się w piecach, okna lepiej trzymać zamknięte, a mieszkanie przewietrzyć w ciągu dnia." },
-      { question: "Czy czujnik jakości powietrza wykrywa czad?", answer: "Nie, czujniki jakości powietrza zwykle nie mierzą tlenku węgla i nie zastąpią czujnika czadu. Czad powstaje przy niesprawnych urządzeniach spalających paliwo, takich jak piecyk gazowy (junkers), kocioł węglowy czy kominek. W pomieszczeniu z takim urządzeniem warto zamontować czujnik czadu zgodny z normą PN-EN 50291 i regularnie zlecać przegląd przewodów kominowych." },
-      { question: "Czy czujnik CO2 trzeba kalibrować?", answer: "Tak, co jakiś czas: czujnik NDIR powoli traci dokładność i kalibruje się automatycznie albo ręcznie, po kilku minutach na zewnątrz, zgodnie z instrukcją. Automatyczna kalibracja przyjmuje najniższy odczyt z ostatnich dni za poziom powietrza zewnętrznego, więc w rzadko wietrzonym pomieszczeniu zaniża wyniki. Przy czujniku pyłów warto co kilka miesięcy odkurzyć kratkę wlotu powietrza." },
+      { question: "Jaki czujnik jakości powietrza wybrać na smog?", answer: "Przy smogu najważniejszy jest laserowy czujnik pyłów PM2,5 i PM10, bo to stężenie pyłów rośnie w sezonie grzewczym. Dobrze, jeśli urządzenie mierzy też CO2 metodą NDIR – razem z odczytem pyłów podpowie, kiedy wietrzyć, a kiedy lepiej nie otwierać okien. Wygodny jest model z aplikacją albo z integracją z oczyszczaczem powietrza, który sam się włączy przy wysokim odczycie." },
+      { question: "Od jakiego stężenia pyłu ogłasza się w Polsce alarm smogowy?", answer: "Od 150 µg/m³ pyłu PM10 (średnia dobowa) – tyle wynosi w Polsce poziom alarmowy, a poziom informowania to 100 µg/m³. Według zaleceń WHO średnie dobowe stężenie PM2,5 nie powinno przekraczać 15 µg/m³. Domowy czujnik pokaże, ile z tego smogu trafia do mieszkania i czy oczyszczacz nadąża; ostrzeżenia dla regionu publikuje Główny Inspektorat Ochrony Środowiska." },
+      { question: "Czy wietrzyć mieszkanie podczas smogu?", answer: "Tak, ale krótko i w porach najmniejszego zanieczyszczenia, bo bez wietrzenia w mieszkaniu rośnie poziom CO2 i wilgotność. Domowy czujnik pokaże, czy po otwarciu okna stężenie PM2,5 mocno wzrosło; wtedy warto włączyć oczyszczacz z filtrem HEPA. Wieczorem i w nocy, gdy w okolicy pali się w piecach, okna lepiej trzymać zamknięte, a mieszkanie wietrzyć w ciągu dnia." },
+      { question: "Czy czujnik jakości powietrza wykrywa czad?", answer: "Nie – czujniki jakości powietrza zwykle nie mierzą tlenku węgla i nie zastąpią czujnika czadu. Czad może się wydzielać z niesprawnych urządzeń spalających paliwo, takich jak piecyk gazowy (junkers), kocioł węglowy czy kominek. W pomieszczeniu z takim urządzeniem warto zamontować czujnik czadu zgodny z normą PN-EN 50291 i regularnie zlecać przegląd przewodów kominowych." },
+      { question: "Czy czujnik CO2 trzeba kalibrować?", answer: "Tak, co jakiś czas: czujnik NDIR stopniowo traci dokładność, dlatego kalibruje się go automatycznie albo ręcznie – zgodnie z instrukcją, zwykle po kilku minutach na zewnątrz. Automatyczna kalibracja uznaje najniższy odczyt z ostatnich dni za poziom powietrza zewnętrznego, więc w rzadko wietrzonym pomieszczeniu zaniża wyniki. W czujniku pyłów warto co kilka miesięcy odkurzyć kratkę wlotu powietrza." },
+    ],
+    sv: [
+      {
+        question: "Vid vilken CO₂-halt bör jag vädra?",
+        answer: "Vädra när koldioxidhalten passerar ungefär 1 000 ppm, eftersom luften i rummet då inte byts ut tillräckligt. Utomhus ligger halten runt 420 ppm. Att öppna fönstret på vid gavel i 5–10 minuter räcker oftast för att få ner värdet. I sovrum kan halten stiga betydligt under natten med stängd dörr och stängda fönster. Placera mätaren i det rum där du vistas mest, i andningshöjd och en bit från fönstren, annars blir mätningen missvisande.",
+      },
+      {
+        question: "NDIR-sensor eller ”eCO2”: vad är skillnaden?",
+        answer: "Välj en NDIR-sensor: den mäter koldioxiden på riktigt med infrarött ljus, medan en ”eCO2”-sensor bara uppskattar halten utifrån VOC och kan visa grovt fel. Kontrollera att produktbladet anger NDIR eller fotoakustisk mätning. För partiklar (PM2,5) räcker en lasersensor för att fånga topparna från matlagning, stearinljus eller braskamin, även om den kan visa för högt i mycket fuktig luft. VOC-värden är relativa: jämför dem över tid, inte mellan olika märken.",
+      },
+      {
+        question: "Kan en luftkvalitetsmätare hjälpa mot fukt och mögel?",
+        answer: "Ja, om den mäter relativ luftfuktighet: håller du luftfuktigheten inomhus ungefär mellan 40 och 60 % minskar risken för kondens och mögel. Håll utkik efter värden som ligger kvar över 60 % efter matlagning, dusch eller torkning av tvätt inomhus, och använd köksfläkten, badrumsfläkten eller öppna ventilerna. Mätaren visar problemet men löser det inte. Bor du i hyresrätt bör du anmäla återkommande mögel skriftligt till hyresvärden.",
+      },
+      {
+        question: "Upptäcker en luftkvalitetsmätare kolmonoxid?",
+        answer: "Nej, de flesta luftkvalitetsmätare mäter koldioxid, partiklar, VOC och luftfuktighet, men inte kolmonoxid, och ingen av dem ersätter en koloxidvarnare. Den luktfria gasen kommer från felinställda förbränningsapparater, som en panna, en kamin eller en gasdriven varmvattenberedare. Har du en sådan bör du sätta upp en koloxidvarnare som uppfyller EN 50291, utöver brandvarnarna.",
+      },
+      {
+        question: "Kan en CO₂-mätare visa om ventilationen fungerar?",
+        answer: "Ja, den är en bra indikator: ligger halten ofta över 1 200 ppm nattetid i ett stängt sovrum byts luften troligen ut för dåligt. Kontrollera då att frånluftsdonen inte är igensatta, att uteluftsventilerna vid fönstren inte är stängda eller blockerade och att fläkten går. Rengör donen några gånger om året och låt en fackman se över anläggningen ungefär vart tredje år.",
+      },
+    ],
+    us: [
+      {
+        question: "What CO2 level means I should open a window?",
+        answer: "Open a window or boost ventilation once CO2 passes about 1,000 ppm, a sign that the room's air isn't being refreshed enough. Outdoor air is around 420 ppm. Bedrooms can climb well above that overnight with the door and windows shut; leaving the door ajar or a window cracked open usually brings levels down. A monitor with a color display makes the habit easy.",
+      },
+      {
+        question: "Can an air quality monitor help with moisture and mold?",
+        answer: "Yes, if it measures relative humidity: keeping indoor humidity roughly between 40% and 60% makes condensation and mold less likely. Watch for readings that stay above 60% after cooking, showers or drying clothes indoors, and run the kitchen or bathroom exhaust fan or open a window. A monitor shows the problem but doesn't fix it; if you rent, report persistent mold to your landlord or property manager in writing.",
+      },
+      {
+        question: "Does an air quality monitor detect carbon monoxide?",
+        answer: "No, most air quality monitors measure CO2, particles, VOCs and humidity, but not carbon monoxide, and none of them replaces a CO alarm. Install a CO alarm in any room with a gas furnace or boiler, a wood stove or another fuel-burning appliance. In the US, CO alarms are listed to UL 2034, while European models carry EN 50291, so check the listing of the version sold in your country.",
+      },
+      {
+        question: "Is a PM2.5 sensor worth it if I have a wood stove?",
+        answer: "Yes, it's the only way to see how much smoke actually gets into the room: lighting the stove and adding wood can briefly push indoor PM2.5 far above outdoor levels. Use the readings to check the door seals and chimney draft, and to know when to ventilate. Burn only dry, seasoned wood.",
+      },
+      {
+        question: "How accurate are cheap air quality monitors?",
+        answer: "Accurate enough to show trends, but quality varies widely from sensor to sensor. For CO2, choose a monitor with an NDIR or photoacoustic sensor rather than an “eCO2” estimate based on VOCs, which can be badly off. Laser PM2.5 sensors track spikes well but may read high in very humid air. VOC readings are relative, so compare them over time rather than between brands.",
+      },
+    ],
+    ca: [
+      {
+        question: "What CO2 level means I should open a window?",
+        answer: "Open a window or boost ventilation once CO2 passes about 1,000 ppm, a sign that the room’s air isn’t being refreshed enough. Outdoor air is around 420 ppm. Bedrooms can climb well above that overnight with the door and windows shut; opening a window a crack or running your ventilation, such as an HRV if you have one, usually brings levels down. A monitor with a colour display makes the habit easy.",
+      },
+      {
+        question: "Can an air quality monitor help with humidity and mould?",
+        answer: "Yes, if it measures relative humidity: keeping indoor humidity roughly between 40 and 60% makes condensation and mould less likely. In very cold weather, you may need to stay lower to avoid condensation on windows. Watch for readings that stay above 60% after cooking, showers or drying clothes indoors, and run the range hood or bathroom fan. A monitor shows the problem but doesn’t fix it; if you rent, report persistent mould to your landlord in writing.",
+      },
+      {
+        question: "Does an air quality monitor detect carbon monoxide?",
+        answer: "No, most air quality monitors measure CO2, particles, VOCs and humidity, but not carbon monoxide, and none replaces a CO alarm. Install a carbon monoxide alarm with a recognized certification mark, such as ULC or CSA, if you have a gas furnace, boiler, water heater, wood stove, fireplace or other fuel-burning appliance, or an attached garage. Requirements vary, so check the rules in your province or territory.",
+      },
+      {
+        question: "Is a PM2.5 sensor worth it if I have a wood stove?",
+        answer: "Yes, it’s the only way to see how much smoke actually gets into the room: lighting and refuelling a stove can briefly push indoor PM2.5 far above outdoor levels. Use the readings to check door seals and chimney draft, and to know when to ventilate. Burn only dry, seasoned wood.",
+      },
+      {
+        question: "How accurate are cheap air quality monitors?",
+        answer: "Accurate enough to show trends, but quality varies widely between sensors. For CO2, choose a monitor with an NDIR or photoacoustic sensor rather than an “eCO2” estimate based on VOCs, which can be badly wrong. Laser PM2.5 sensors track peaks well but may over-read in very humid air. VOC readings are relative, so compare them over time rather than between brands.",
+      },
     ],
   },
   "detecteurs-fuite-eau": {
@@ -147,11 +279,77 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       { question: "Waterlekmelder werkt niet of geeft vals alarm: wat nu?", answer: "Controleer eerst de batterij en of de melder nog verbinding heeft met de app of hub. Vals alarm komt meestal door condens, dweilwater of contacten op een vochtige tegelvloer: veeg ze droog en leg de melder niet onder koude leidingen. Gaat hij steeds af zonder zichtbare oorzaak, kijk dan goed naar kitnaden, sifon en aansluitingen: er kan echt een klein lek zijn." },
     ],
     pl: [
-      { question: "Gdzie zamontować czujnik zalania?", answer: "Na podłodze, przy miejscach największego ryzyka: pod zlewem, za pralką i zmywarką, przy piecu gazowym lub bojlerze oraz przy głównym zaworze wody. Styki czujnika powinny dotykać podłogi w miejscu, gdzie woda zbierze się najpierw. Lepiej sprawdza się jeden czujnik przy każdym urządzeniu niż jeden na środku łazienki czy kuchni." },
-      { question: "Czujnik zalania czy zawór odcinający z siłownikiem?", answer: "Czujnik tylko ostrzega, a zawór z siłownikiem sam zakręca wodę, zanim zalanie się rozprzestrzeni – to rozwiązanie dla mieszkań często pustych. Zawór montuje się na przyłączu za głównym zaworem lub wodomierzem, najlepiej przez hydraulika, i steruje nim czujnik albo centrala smart home. Warto wybrać model, który da się zakręcić ręcznie przy awarii lub rozładowanej baterii." },
-      { question: "Kto płaci za zalanie sąsiada z dołu?", answer: "Zwykle odpowiada osoba zajmująca mieszkanie, z którego wylała się woda – właściciel albo najemca. Jeśli przyczyną była awaria pionu lub innej instalacji wspólnej, odpowiada wspólnota lub spółdzielnia. Szkody u sąsiada pokrywa ubezpieczenie OC w życiu prywatnym, jeśli jest wykupione; samo ubezpieczenie mieszkania chroni tylko własny lokal. Czujnik z powiadomieniem skraca czas wycieku, a więc i straty." },
-      { question: "Czujnik zalania Wi-Fi czy Zigbee – który wybrać?", answer: "Wi-Fi, jeśli w domu nie ma centrali i potrzebny jest jeden prosty czujnik: łączy się z routerem i wysyła powiadomienie, choć szybciej zużywa baterię. Zigbee, jeśli działa już bramka lub Home Assistant: czujniki dłużej pracują na baterii i mogą zamknąć zawór bez internetu. W obu przypadkach warto mieć własną syrenę w czujniku na wypadek braku sieci." },
-      { question: "Jak sprawdzić, czy czujnik zalania działa?", answer: "Wystarczy położyć go na wilgotnej gąbce lub zwilżyć styki i sprawdzić, czy włącza się syrena i przychodzi powiadomienie na telefon. Warto robić to raz w roku, przy okazji czyszcząc styki z kamienia i kurzu. Baterie w modelach Zigbee zwykle wystarczają na długo, w modelach Wi-Fi krócej, dlatego dobrze jest włączyć w aplikacji alert o niskim poziomie baterii." },
+      { question: "Gdzie zamontować czujnik zalania?", answer: "Na podłodze, jak najbliżej miejsc, w których najłatwiej o wyciek: pod zlewem, za pralką i zmywarką, przy piecu gazowym lub bojlerze oraz przy głównym zaworze wody. Styki czujnika powinny dotykać podłogi tam, gdzie woda zbierze się najpierw. Lepiej sprawdza się osobny czujnik przy każdym urządzeniu niż jeden na środku łazienki czy kuchni." },
+      { question: "Czujnik zalania czy zawór odcinający z siłownikiem?", answer: "Jeśli mieszkanie często stoi puste, zamontuj także zawór z siłownikiem: sam czujnik tylko ostrzega, a zawór zakręca wodę, zanim szkody się powiększą. Zawór montuje się na przyłączu za głównym zaworem lub wodomierzem – najlepiej zlecić to hydraulikowi – a steruje nim czujnik albo centrala smart home. Wybierz model, który da się zakręcić ręcznie w razie awarii lub rozładowania baterii." },
+      { question: "Kto płaci za zalanie sąsiada z dołu?", answer: "Zwykle odpowiada osoba zajmująca mieszkanie, z którego wylała się woda – właściciel albo najemca. Jeśli przyczyną była awaria pionu lub innej instalacji wspólnej, odpowiada wspólnota lub spółdzielnia. Szkody u sąsiada pokrywa ubezpieczenie OC w życiu prywatnym, jeśli jest wykupione; samo ubezpieczenie mieszkania chroni tylko własny lokal. Czujnik, który wysyła powiadomienie na telefon, pozwala szybciej zakręcić wodę i ograniczyć szkody." },
+      { question: "Czujnik zalania Wi-Fi czy Zigbee – który wybrać?", answer: "Wi-Fi, jeśli w domu nie ma centrali i potrzebujesz jednego prostego czujnika: łączy się z routerem i wysyła powiadomienie, choć szybciej zużywa baterię. Zigbee, jeśli masz już bramkę Zigbee lub Home Assistant: czujniki dłużej pracują na baterii i mogą zamknąć zawór bez internetu. W obu przypadkach przyda się wbudowana syrena, która zaalarmuje domowników także bez sieci." },
+      { question: "Jak sprawdzić, czy czujnik zalania działa?", answer: "Wystarczy położyć go na wilgotnej gąbce lub zwilżyć styki i sprawdzić, czy włącza się syrena i czy na telefon przychodzi powiadomienie. Warto robić to raz w roku, przy okazji czyszcząc styki z kamienia i kurzu. Baterie w modelach Zigbee zwykle wystarczają na długo, w modelach Wi-Fi na krócej, dlatego dobrze jest włączyć w aplikacji powiadomienie o słabej baterii." },
+    ],
+    sv: [
+      {
+        question: "Var ska jag placera vattenlarm?",
+        answer: "På golvet, så nära riskpunkterna som möjligt: under diskbänken, bakom tvättmaskinen och diskmaskinen, vid varmvattenberedaren och nära huvudkranen. Givarna ska ligga mot golvet där vattnet skulle samlas först, inte mitt i rummet. Hellre ett vattenlarm per apparat än ett enda för hela rummet, plus ett under pannan om den sitter på väggen.",
+      },
+      {
+        question: "Vattenlarm eller automatisk avstängning av vattnet: behövs båda?",
+        answer: "Lägg till en automatisk avstängningsventil om bostaden ofta står tom: vattenlarmet varnar, men bara ventilen stänger av vattnet innan skadorna sprider sig. Den motoriserade ventilen monteras på inkommande vattenledning efter vattenmätaren, helst av en rörmokare, och styrs av vattenlarmet eller smarthemshubben. Kontrollera att den går att stänga för hand om motorn slutar fungera. Larm och ventil tillsammans kallas ofta vattenfelsbrytare.",
+      },
+      {
+        question: "Kan ett vattenlarm varna för frusna rör?",
+        answer: "Ja, många vattenlarm mäter också temperaturen och kan varna när den närmar sig fryspunkten, vilket är viktigt på vinden, i garaget och i hus och fritidshus som står tomma på vintern. Ställ in varningen på ungefär 3–5 °C, så hinner du sätta på värmen. Att isolera rör som ligger oskyddade och ha kvar en låg värme när du är borta är ändå det viktigaste skyddet mot frostsprängda rör.",
+      },
+      {
+        question: "Behöver ett vattenlarm en hubb?",
+        answer: "Inte nödvändigtvis: ett vattenlarm med wifi ansluter direkt till routern och skickar en notis, men batteriet tar slut fortare. En modell med Zigbee eller Thread går via en hubb, har längre batteritid och kan stänga en ventil utan att vara beroende av en molntjänst. I en källare eller tvättstuga räcker ofta ett fristående vattenlarm med inbyggd siren, om någon brukar finnas inom hörhåll.",
+      },
+      {
+        question: "Hur länge räcker batteriet i ett smart vattenlarm?",
+        answer: "Ofta flera år för en modell med Zigbee eller Thread och kortare för modeller med wifi, beroende på modell och hur ofta det larmar. Slå på varningen för låg batterinivå i appen. En gång om året kan du lägga givaren på en fuktig svamp för att kontrollera att notisen verkligen kommer fram. Passa samtidigt på att rengöra kontakterna, eftersom kalk eller damm kan göra dem mindre känsliga.",
+      },
+    ],
+    us: [
+      {
+        question: "Where should I put water leak sensors?",
+        answer: "On the floor where leaks are most likely: under the kitchen sink, behind the washer and dishwasher, next to the water heater or boiler, and near the main shutoff valve. Place the contacts where water would pool first. One sensor per appliance beats a single sensor in the middle of the room.",
+      },
+      {
+        question: "Is a smart water shutoff valve worth it?",
+        answer: "Yes, if the home is often empty or you live above a neighbor: a sensor only alerts you, while a shutoff valve cuts off the main water supply automatically. Have a plumber install it on the main water line, just after the main shutoff valve, and make sure it's rated for drinking water and meets your local plumbing code. Check that it can still be closed by hand if the motor fails.",
+      },
+      {
+        question: "Can a leak sensor warn me about frozen pipes?",
+        answer: "Yes, many leak sensors also measure temperature and can alert you when it drops toward freezing, which matters in attics, garages and homes left empty in winter. Set the alert at around 37 to 41°F (3 to 5°C) to leave time to turn up the heat. Insulating exposed pipes and keeping the heat on low while you're away are still the main protection against a burst pipe.",
+      },
+      {
+        question: "Do water leak sensors work without a hub?",
+        answer: "Some do: Wi-Fi sensors connect straight to your router and send alerts to your phone, but they drain their batteries faster. Zigbee, Z-Wave or Thread sensors need a hub, last longer on a battery and can close a shutoff valve without relying on the cloud. A standalone sensor with a loud built-in alarm is enough for a laundry room if someone is usually home to hear it.",
+      },
+      {
+        question: "How long do the batteries in a leak sensor last?",
+        answer: "Usually years rather than months for Zigbee or Thread models, and less for Wi-Fi ones, depending on the model and how often it sends alerts. Turn on low-battery notifications in the app, and once a year touch the contacts with a damp cloth to confirm the alert reaches your phone. Wipe the contacts clean at the same time, since mineral deposits or dust can make them less sensitive.",
+      },
+    ],
+    ca: [
+      {
+        question: "Where should I put water leak sensors?",
+        answer: "On the floor where leaks are most likely: under the kitchen sink, behind the washer, dishwasher and any fridge with a water line, beside the water heater and near the main shut-off valve. Place the contacts where water would pool first, not in the middle of the room. If you have a basement, a sensor next to the sump pit warns you early if the sump pump fails.",
+      },
+      {
+        question: "Is a smart water shut-off valve worth it?",
+        answer: "Yes, if the home is often empty or you live in a condo above a neighbour: a sensor only alerts you, while a shut-off valve cuts off the water supply automatically. Have a plumber install it on the main water line, just after the main shut-off valve, and choose a valve certified for drinking water. Check it can still be closed by hand if the motor fails.",
+      },
+      {
+        question: "Can a leak sensor warn me about frozen pipes?",
+        answer: "Yes, many leak sensors also measure temperature and can alert you when it drops toward freezing, which matters in attics, garages, crawl spaces and cottages left empty in winter. Set the alert at around 3 to 5°C to leave time to turn the heat up. Insulating exposed pipes and keeping the heat on low while you’re away remain the main protection against a burst pipe.",
+      },
+      {
+        question: "Do water leak sensors work without a hub?",
+        answer: "Some do: Wi-Fi sensors connect straight to your router and send phone alerts, but they drain batteries faster. Zigbee, Z-Wave or Thread sensors need a hub, last longer on a battery and can close a shut-off valve without relying on the cloud. A standalone sensor with a loud built-in alarm is enough for a laundry room if someone is usually at home to hear it.",
+      },
+      {
+        question: "How long do the batteries in a leak sensor last?",
+        answer: "Usually years rather than months for Zigbee or Thread models, and less for Wi-Fi ones, depending on the model and how often it alerts. Turn on low-battery notifications in the app, and once a year touch the contacts with a damp cloth to confirm the alert reaches your phone. Wipe the contacts clean at the same time, as mineral deposits or dust can make them less sensitive.",
+      },
     ],
   },
   "hubs-domotique": {
@@ -198,11 +396,77 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       { question: "Mijn Zigbee-apparaten vallen steeds weg: wat kan ik doen?", answer: "Meestal is het storing door wifi of een te zwak mesh-netwerk. Zigbee deelt de 2,4 GHz-band met wifi: zet de hub of USB-stick uit de buurt van je router, met een USB-verlengkabel. Voeg apparaten op netstroom toe, zoals slimme stekkers, die als repeater werken. Een Zigbee-kanaal 15, 20 of 25 voorkomt overlap met wifi-kanalen 1, 6 en 11." },
     ],
     pl: [
-      { question: "Jaką centralę smart home wybrać: Home Assistant, Fibaro czy Grenton?", answer: "Home Assistant dla osób, które chcą elastyczności i pracy lokalnej bez opłat; Fibaro dla gotowego systemu bezprzewodowego; Grenton przy budowie lub generalnym remoncie. Home Assistant obsłuży niemal każdą markę, ale wymaga czasu na konfigurację. Fibaro, polska marka oparta głównie na Z-Wave, jest prostsza w obsłudze, a Grenton to w dużej mierze system przewodowy, montowany w rozdzielnicy przez instalatora." },
-      { question: "Czy urządzenia Tuya i Smart Life potrzebują huba?", answer: "Urządzenia Wi-Fi nie, bo łączą się bezpośrednio z chmurą Tuya; czujniki Zigbee na baterie wymagają już bramki Zigbee. Minusem jest zależność od chmury: bez internetu część automatyzacji przestaje działać. Większość urządzeń Zigbee tej marki można jednak podłączyć do Home Assistant przez własny koordynator Zigbee i sterować nimi lokalnie." },
-      { question: "Zigbee, Z-Wave czy Wi-Fi – który standard wybrać do smart home?", answer: "Do czujników na baterie najlepiej sprawdzają się Zigbee i Thread: zużywają mało energii i tworzą sieć mesh, w której urządzenia zasilane z gniazdka przekazują sygnał dalej. Wi-Fi pasuje do gniazdek i kamer, ale przy kilkudziesięciu urządzeniach obciąża router. Z-Wave jest niezawodne, lecz droższe; w Europie trzeba kupować moduły 868 MHz, bo wersje amerykańskie (908 MHz) tu nie działają." },
-      { question: "Ile prądu zużywa centrala smart home?", answer: "Niewiele: centrala pobierająca stale 5 W zużywa 5 W × 8760 godzin, czyli około 44 kWh rocznie. Wystarczy pomnożyć tę wartość przez cenę 1 kWh z rachunku, aby poznać roczny koszt. Mini PC z Home Assistant może pobierać więcej, zależnie od modelu, a Raspberry Pi zwykle mniej; dokładny wynik pokaże inteligentne gniazdko z pomiarem energii." },
-      { question: "Czy smart home działa bez internetu?", answer: "Tak, jeśli centrala wykonuje automatyzacje lokalnie: Home Assistant, Fibaro czy Grenton sterują światłem, roletami i czujnikami także podczas awarii łącza. Bez internetu nie działa zdalny dostęp, sterowanie głosowe i urządzenia zależne od chmury producenta, np. wiele tanich gniazdek Wi-Fi. Lokalne działanie to także większa prywatność, bo dane z czujników zostają w domu." },
+      { question: "Jaką centralę smart home wybrać: Home Assistant, Fibaro czy Grenton?", answer: "Home Assistant, jeśli zależy Ci na elastyczności i lokalnym działaniu bez opłat; Fibaro, jeśli szukasz gotowego systemu bezprzewodowego; Grenton, jeśli budujesz dom lub robisz generalny remont. Home Assistant obsłuży niemal każdą markę, ale konfiguracja wymaga czasu. System Fibaro, polskiej marki, opiera się głównie na Z-Wave i jest prostszy w obsłudze, a Grenton to w dużej mierze system przewodowy, który instalator montuje w rozdzielnicy." },
+      { question: "Czy urządzenia Tuya i Smart Life potrzebują huba?", answer: "Urządzenia Wi-Fi nie, bo łączą się bezpośrednio z chmurą Tuya, ale czujniki Zigbee na baterie wymagają bramki Zigbee. Minusem jest zależność od chmury: bez internetu część automatyzacji przestaje działać. Większość urządzeń Tuya działających w standardzie Zigbee można jednak sparować z Home Assistant przez własny koordynator Zigbee i sterować nimi lokalnie." },
+      { question: "Zigbee, Z-Wave czy Wi-Fi – który standard wybrać do smart home?", answer: "Do czujników na baterie najlepiej sprawdzają się Zigbee i Thread: zużywają mało energii i tworzą sieć mesh, w której urządzenia zasilane z gniazdka przekazują sygnał dalej. Wi-Fi pasuje do gniazdek i kamer, ale przy kilkudziesięciu urządzeniach obciąża router. Z-Wave jest niezawodny, ale droższy; w Europie trzeba kupować moduły 868 MHz, bo wersje amerykańskie (908 MHz) tu nie działają." },
+      { question: "Ile prądu zużywa centrala smart home?", answer: "Niewiele: centrala, która stale pobiera 5 W, zużywa 5 W × 8760 godzin, czyli około 44 kWh rocznie. Roczny koszt poznasz, mnożąc tę wartość przez cenę 1 kWh z rachunku. Mini PC z Home Assistant może pobierać więcej, zależnie od modelu, a Raspberry Pi zwykle mniej; dokładny wynik pokaże inteligentne gniazdko z pomiarem energii." },
+      { question: "Czy smart home działa bez internetu?", answer: "Tak, jeśli centrala wykonuje automatyzacje lokalnie: Home Assistant, Fibaro czy Grenton sterują światłem, roletami i czujnikami także podczas awarii łącza. Bez internetu przestają działać tylko zdalny dostęp, sterowanie głosowe i urządzenia zależne od chmury producenta, np. wiele tanich gniazdek Wi-Fi. Lokalne działanie to także większa prywatność, bo dane z czujników zostają w domu." },
+    ],
+    sv: [
+      {
+        question: "Behöver jag fortfarande en smarthemshubb om jag använder Matter?",
+        answer: "Oftast ja: en Matter-enhet behöver en styrenhet, och enheter som går via Thread kräver dessutom en Thread Border Router. Rollen kan skötas av vissa nyare modeller av Amazon Echo, Google Nest, Apple TV och HomePod, men också av en fristående hubb eller Home Assistant med en adapter. En egen hubb gör ändå nytta för lokala automationer och för alla Zigbee- och Z-Wave-enheter som inte stöder Matter.",
+      },
+      {
+        question: "Home Assistant eller Homey: vilken smarthemshubb passar mig?",
+        answer: "Välj Home Assistant om du gillar att ställa in allt själv och Homey om du vill ha det enkelt. Home Assistant är gratis och har öppen källkod men kräver tid, medan Homey är igång på några minuter och har många protokoll inbyggda. Båda kan köra automationer lokalt, utan att vara beroende av ett moln. Vissa Amazon Echo-högtalare har en inbyggd Zigbee-hubb som klarar enkla enheter, t.ex. lampor och pluggar, men Alexas rutiner ger färre möjligheter än en fristående hubb.",
+      },
+      {
+        question: "Zigbee, Z-Wave, wifi eller Thread: vilket protokoll ska jag välja?",
+        answer: "För batteridrivna sensorer är Zigbee eller Thread bäst: de drar lite ström och bildar ett nät där varje nätdriven enhet förmedlar signalen vidare. Wifi passar pluggar och kameror men belastar routern när du har några dussin enheter. Z-Wave är pålitligt men dyrare. I Europa ska du köpa moduler för 868 MHz, eftersom amerikanska versioner på 908 MHz inte fungerar här.",
+      },
+      {
+        question: "Fungerar en smarthemshubb utan internet?",
+        answer: "Ja, om den kör automationerna lokalt: Home Assistant och Homey fortsätter att styra lampor, rullgardiner och Zigbee-sensorer när internet ligger nere. Det är bara fjärråtkomsten, röstassistenterna och enheter som är beroende av ett moln som slutar fungera. Det är också en fördel för integriteten, eftersom historiken från dina sensorer stannar hemma hos dig.",
+      },
+      {
+        question: "Varför tappar mina Zigbee-enheter anslutningen?",
+        answer: "Oftast på grund av störningar från wifi eller ett svagt nät. Zigbee delar 2,4 GHz-bandet med wifi, så håll hubben eller USB-donglen borta från routern och använd en USB-förlängningskabel till donglen. Lägg till nätdrivna Zigbee-enheter, t.ex. smarta pluggar, som fungerar som repeatrar. Väljer du Zigbee-kanal 15, 20 eller 25 undviker du dessutom överlapp med wifi-kanalerna 1, 6 och 11.",
+      },
+    ],
+    us: [
+      {
+        question: "Do I still need a smart home hub if I use Matter?",
+        answer: "Usually, yes: every Matter device needs a controller, and Matter-over-Thread devices also need a Thread border router. Some Amazon Echo, Google Nest and Apple TV or HomePod models already handle both jobs, so you may own a hub without realizing it. A dedicated hub is still worth having for local automations and for the many Zigbee and Z-Wave devices that don't speak Matter.",
+      },
+      {
+        question: "Can an Amazon Echo replace a separate Zigbee hub?",
+        answer: "Sometimes: a few Echo speakers include a built-in Zigbee hub that handles simple devices such as bulbs, plugs and sensors. Check the spec sheet for Zigbee before relying on it, since most Echo models don't have it. Alexa routines also offer fewer options than a dedicated hub such as Home Assistant or SmartThings, and some device features may not show up in the Alexa app.",
+      },
+      {
+        question: "Zigbee, Z-Wave, Wi-Fi or Thread: which protocol should I choose?",
+        answer: "For battery-powered sensors, choose Zigbee or Thread: both use little power and build a mesh in which plug-in devices relay the signal. Wi-Fi suits plugs and cameras but crowds your router once you add dozens of devices. Z-Wave is reliable but pricier, and it runs on different frequencies by region (908 MHz in the US, 868 MHz in Europe), so buy modules made for your region: the two aren't compatible.",
+      },
+      {
+        question: "How much does it cost to run a smart home hub?",
+        answer: "Very little: a hub drawing 5 W all year uses 5 W × 8,760 hours, or about 44 kWh. At an example rate of 20 cents per kWh, that's roughly $8.80 a year; use the rate on your utility bill for an exact figure. A mini PC running Home Assistant may draw more and a Raspberry Pi often less, so check with a smart plug that measures energy.",
+      },
+      {
+        question: "Why do my Zigbee devices keep dropping off?",
+        answer: "Usually because of Wi-Fi interference or a weak mesh. Zigbee shares the 2.4 GHz band with Wi-Fi, so keep the hub or USB dongle away from your router, using a USB extension cable for dongles. Add plug-in Zigbee devices such as smart plugs to act as repeaters. Choosing Zigbee channel 15, 20 or 25 also avoids overlap with Wi-Fi channels 1, 6 and 11.",
+      },
+    ],
+    ca: [
+      {
+        question: "Do I still need a smart home hub if I use Matter?",
+        answer: "Usually yes: every Matter device needs a controller, and Matter-over-Thread devices also need a Thread border router. Some Amazon Echo, Google Nest and Apple TV or HomePod models already do both jobs, so you may own a hub without realizing it. A dedicated hub is still worth having for local automations and for the many Zigbee devices that don’t speak Matter.",
+      },
+      {
+        question: "Can an Amazon Echo replace a separate Zigbee hub?",
+        answer: "Sometimes: a few Echo speakers include a built-in Zigbee hub that handles simple devices such as bulbs, plugs and sensors. Check the specification for Zigbee before relying on it, as most Echo models do not have it. Alexa routines also offer fewer options than a dedicated hub such as Home Assistant or SmartThings, and some device features may not appear in the Alexa app.",
+      },
+      {
+        question: "Zigbee, Z-Wave, Wi-Fi or Thread: which protocol should I choose?",
+        answer: "For battery sensors, choose Zigbee or Thread: both use little power and build a mesh in which plug-in or hardwired devices relay the signal. Wi-Fi suits plugs and cameras but crowds your router once you add dozens of devices. Z-Wave is reliable but pricier; in Canada, buy North American modules on 908 MHz, because European versions on 868 MHz won’t work here.",
+      },
+      {
+        question: "How much does it cost to run a smart home hub?",
+        answer: "Very little: a hub drawing 5 W all year uses 5 W × 8,760 hours, about 44 kWh. At an example rate of 10¢ per kWh, that’s roughly $4.40 a year; your rate depends on your province and utility, so use the one on your bill for an exact figure. A mini PC running Home Assistant may draw more, a Raspberry Pi often less, so check with a smart plug that measures energy.",
+      },
+      {
+        question: "Why do my Zigbee devices keep dropping off?",
+        answer: "Usually because of Wi-Fi interference or a weak mesh. Zigbee shares the 2.4 GHz band with Wi-Fi, so keep the hub or USB dongle away from your router, using a USB extension cable for dongles. Add plug-in Zigbee devices such as smart plugs to act as repeaters. Choosing Zigbee channel 15, 20 or 25 also avoids overlap with Wi-Fi channels 1, 6 and 11.",
+      },
     ],
   },
   "bornes-recharge-ve": {
@@ -249,11 +513,77 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       { question: "Ik heb geen oprit: kan ik een openbare laadpaal aanvragen?", answer: "Ja, in veel gemeenten kun je als elektrische rijder zonder eigen parkeerplek een openbare laadpaal in de buurt aanvragen, meestal via de gemeente of een regionale aanvraagdienst. De voorwaarden verschillen: vaak moet je aantonen dat je een elektrische auto rijdt en dat er binnen loopafstand geen geschikte laadpaal is. Een laadkabel over de stoep is in veel gemeenten niet toegestaan, of alleen met een kabelgoot en toestemming." },
     ],
     pl: [
-      { question: "Jaką moc wallboxa wybrać do domu: 7,4 czy 11 kW?", answer: "W domu z instalacją trójfazową zwykle wybiera się 11 kW, a przy jednej fazie maksimum to około 7,4 kW. Liczy się też, jaką moc przyjmuje ładowarka pokładowa samochodu przy ładowaniu prądem przemiennym (AC), oraz moc umowna i przyłączeniowa domu. Wallbox z dynamicznym zarządzaniem mocą dzieli ją między dom i auto, dzięki czemu często nie trzeba od razu zwiększać mocy przyłącza." },
-      { question: "Ile kosztuje ładowanie auta elektrycznego w domu?", answer: "Koszt to liczba ładowanych kWh, powiększona o około 10% strat, pomnożona przez cenę 1 kWh. Przykład: 40 kWh w baterii to około 44 kWh z sieci; przy przykładowej cenie 1 zł za kWh daje to około 44 zł. W taryfie dwustrefowej G12 lub G12w ładowanie w nocy, a w G12w także w weekendy, jest wyraźnie tańsze, więc warto ustawić harmonogram ładowania." },
-      { question: "Wallbox czy zwykłe gniazdko – co wybrać do ładowania auta?", answer: "Do codziennego ładowania lepszy jest wallbox; zwykłe gniazdko nadaje się tylko awaryjnie lub przy bardzo małych przebiegach. Z gniazdka 230 V auto ładuje się mocą około 2,3 kW, a obwód obciążony przez wiele godzin może się przegrzewać, jeśli nie został do tego przygotowany – warto, by sprawdził go elektryk. Wallbox 11 kW ładuje mniej więcej pięć razy szybciej i ma własne zabezpieczenia oraz harmonogram ładowania." },
-      { question: "Kto może zamontować wallbox i czy trzeba to zgłaszać do operatora?", answer: "Wallbox powinien zamontować elektryk z uprawnieniami (świadectwem kwalifikacyjnym SEP), a do operatora sieci trzeba się zwrócić przede wszystkim wtedy, gdy potrzebna jest większa moc przyłączeniowa. Elektryk sprawdzi instalację i dobierze zabezpieczenia, w tym wyłącznik różnicowoprądowy. Wniosek o zwiększenie mocy składa się do operatora sieci dystrybucyjnej; warto też zapytać go o ewentualne wymagania dotyczące zgłoszenia ładowarki." },
+      { question: "Jaką moc wallboxa wybrać do domu: 7,4 czy 11 kW?", answer: "W domu z instalacją trójfazową zwykle wybiera się 11 kW, a przy jednej fazie maksimum to około 7,4 kW. Liczy się też moc, jaką przyjmuje ładowarka pokładowa samochodu przy ładowaniu prądem przemiennym (AC), oraz moc umowna i przyłączeniowa domu. Wallbox z dynamicznym zarządzaniem mocą dzieli ją między dom i auto, dzięki czemu często nie trzeba od razu zwiększać mocy przyłączeniowej." },
+      { question: "Ile kosztuje ładowanie auta elektrycznego w domu?", answer: "Koszt to liczba kWh, które chcesz uzupełnić w baterii, powiększona o około 10% strat i pomnożona przez cenę 1 kWh. Przykład: 40 kWh w baterii to około 44 kWh pobranych z sieci; przy przykładowej cenie 1 zł za kWh daje to około 44 zł. W taryfie dwustrefowej G12 prąd jest tańszy w nocy, a w G12w także w weekendy, więc warto ustawić harmonogram ładowania." },
+      { question: "Wallbox czy zwykłe gniazdko – co wybrać do ładowania auta?", answer: "Do codziennego ładowania lepszy jest wallbox; zwykłe gniazdko nadaje się tylko do ładowania awaryjnego lub przy bardzo małych przebiegach. Z gniazdka 230 V auto ładuje się mocą około 2,3 kW, a obwód obciążony przez wiele godzin może się przegrzewać, jeśli nie został do tego przygotowany – dlatego warto, by sprawdził go elektryk. Wallbox 11 kW ładuje mniej więcej pięć razy szybciej i ma własne zabezpieczenia oraz harmonogram ładowania." },
+      { question: "Kto może zamontować wallbox i czy trzeba go zgłaszać operatorowi sieci?", answer: "Wallbox powinien zamontować elektryk z uprawnieniami SEP (świadectwem kwalifikacyjnym), a do operatora sieci trzeba się zwrócić przede wszystkim wtedy, gdy potrzebna jest większa moc przyłączeniowa. Elektryk sprawdzi instalację i dobierze zabezpieczenia, w tym wyłącznik różnicowoprądowy. Wniosek o zwiększenie mocy składa się do operatora sieci dystrybucyjnej; warto też zapytać, czy wymaga on zgłoszenia samej ładowarki." },
       { question: "Czy jest dofinansowanie do domowego wallboxa w 2026 roku?", answer: "Na ogólnopolską dopłatę do samego domowego wallboxa dla osób prywatnych trudno obecnie liczyć: ostatnie programy NFOŚiGW, takie jak NaszEauto, dotyczyły głównie zakupu samochodu. Zasady i nabory zmieniają się jednak często, dlatego przed zakupem warto sprawdzić aktualne ogłoszenia NFOŚiGW, wojewódzkiego funduszu ochrony środowiska i swojej gminy." },
+    ],
+    sv: [
+      {
+        question: "Laddbox på 7,4 kW eller 11 kW: vilken ska jag välja?",
+        answer: "Det avgörs av bostadens elanslutning: med enfas är 7,4 kW det högsta en laddbox kan ge, medan 11 kW kräver trefas. Dessutom måste bilens inbyggda laddare klara 11 kW växelström, annars laddar den ändå långsammare. Samma sak gäller 22 kW, som också kräver trefas och en bil som tar emot 22 kW växelström. Med 7,4 kW ger åtta timmars nattladdning nästan 60 kWh, mer än nog för de flesta hushålls dagliga körning.",
+      },
+      {
+        question: "Vad kostar det att ladda elbilen hemma?",
+        answer: "Räkna med den energi du laddar plus 10–15 % i förluster, gånger ditt elpris per kWh. Exempel: för att fylla på 50 kWh i batteriet går det åt ungefär 55 kWh från elnätet, vilket med ett exempelpris på 2,20 kr/kWh blir cirka 120 kr. Schemalägg laddningen från laddboxen eller bilen till de timmar när elen är som billigast i ditt elavtal. Ditt eget elpris står på elräkningen.",
+      },
+      {
+        question: "Räcker ett vanligt vägguttag, eller behövs en laddbox?",
+        answer: "Inte för regelbunden laddning: ett vanligt vägguttag är inte gjort för att leverera hög effekt i många timmar. Ett förstärkt uttag avsett för elbilsladdning ger runt 3,2 kW, alltså 15–20 km räckvidd per laddtimme, mot mer än dubbelt så mycket med en laddbox på 7,4 kW. Det räcker om du kör lite och kan ladda hela natten. Kör du mycket eller har ett stort batteri är en laddbox det rätta valet.",
+      },
+      {
+        question: "Laddbox med fast kabel eller med uttag: vad ska jag välja?",
+        answer: "Välj fast kabel för bekvämlighetens skull: kabeln sitter kvar, och nästan alla nya elbilar i Europa har samma Typ 2-kontakt. En laddbox med uttag ser prydligare ut på väggen och låter dig byta kabel om en framtida bil skulle behöva en annan, men då får du ta fram kabeln ur bagageutrymmet varje gång. Båda typerna laddar lika snabbt.",
+      },
+      {
+        question: "Vad är lastbalansering, och behöver min laddbox det?",
+        answer: "Lastbalansering sänker laddeffekten automatiskt när resten av bostaden drar mycket el, så att huvudsäkringen inte går när t.ex. ugnen och laddboxen går samtidigt. Med dynamisk styrning mäts förbrukningen hela tiden och laddningen anpassas efter hur mycket kapacitet som finns kvar. Funktionen är särskilt värdefull när huvudsäkringen är liten i förhållande till laddboxens effekt. Kontrollera före köpet om lastbalanseringen är inbyggd eller kräver en extra mätare i elcentralen.",
+      },
+    ],
+    us: [
+      {
+        question: "What size home EV charger do I need: 7 kW or 22 kW?",
+        answer: "For almost every home, about 7 kW is plenty: eight hours overnight adds roughly 56 kWh, more than enough for most daily driving. On European single-phase supplies, about 7.4 kW is the most one phase can deliver, and a 22 kW charger needs a three-phase supply, which is rare in homes, plus a car that accepts 22 kW on AC. In North America, home Level 2 charging runs on a 240 V circuit, so have a licensed electrician confirm that your electrical panel has the capacity.",
+      },
+      {
+        question: "How much does it cost to charge an electric car at home?",
+        answer: "Multiply the energy you add by your electricity rate, allowing roughly 10% extra for charging losses. For example, adding 40 kWh to the battery takes about 44 kWh from the grid; at an example off-peak rate of 10 cents per kWh, that's about $4.40, while at 20 cents it would be about $8.80. Check the rates on your utility bill: scheduling charging overnight on a time-of-use rate plan makes the biggest difference to running costs.",
+      },
+      {
+        question: "Tethered or untethered EV charger: which should I choose?",
+        answer: "Choose tethered for convenience: the cable stays attached, so you simply plug in. Make sure the connector matches your car: almost every new EV in Europe uses Type 2, while most EVs in North America use a J1772 or NACS connector. Untethered chargers look cleaner on the wall and let you swap cables if a future car needs a different one, but you have to take the cable out of the trunk every time. Both types charge at the same speed.",
+      },
+      {
+        question: "Can I charge my EV from a regular outlet, or do I need a wall charger?",
+        answer: "An outlet can be enough if you drive little and can plug in all night; a wall charger makes sense for long daily drives or big batteries. In North America, Level 1 charging uses a standard 120 V outlet and is slow, while a Level 2 wall charger runs on a 240 V circuit. In France, a heavy-duty outlet delivers about 3.2 kW, or roughly 9 to 12 miles of range per hour of charging, versus more than double that from a 7.4 kW wall charger. Have a licensed electrician check the circuit you plan to use, and never charge through an extension cord.",
+      },
+      {
+        question: "Is a smart home EV charger worth it?",
+        answer: "Usually, yes: most smart chargers can schedule charging for off-peak hours, show your usage in an app, and respond to grid signals. Look for load management (also called load balancing), which lowers the charging power when other big appliances are running so you don't trip the main breaker when the oven and the charger run at the same time. Installing a new 240 V circuit is a job for a licensed electrician, so hire one and check whether your area requires a permit.",
+      },
+    ],
+    ca: [
+      {
+        question: "What size home EV charger do I need?",
+        answer: "For most homes, a Level 2 charger of about 7 kW on a dedicated 240 V circuit is plenty: eight hours overnight adds roughly 56 kWh, more than enough for most daily driving. Level 1 charging from a regular 120 V outlet is much slower and only suits short daily distances. A more powerful charger needs a bigger circuit, spare capacity in your electrical panel and a car that accepts that rate on AC, so have a licensed electrician check your panel first.",
+      },
+      {
+        question: "How much does it cost to charge an electric car at home?",
+        answer: "Multiply the energy you add by your rate per kWh, allowing roughly 10% extra for charging losses. For example, adding 40 kWh to the battery takes about 44 kWh from the grid; at an example rate of 10¢ per kWh, that’s about $4.40. Your rate depends on your province and utility, and scheduling charging overnight on off-peak or time-of-use rates, where they’re offered, makes the biggest difference to running costs.",
+      },
+      {
+        question: "Tethered or untethered EV charger: which should I choose?",
+        answer: "Choose tethered for convenience: the cable stays attached and is always ready. Cars sold in North America use J1772 or NACS connectors, so check which one yours has; adapters can bridge the two. Untethered chargers look tidier on the wall and let you swap cables if a future car needs a different one, but you have to take the cable out of the trunk each time. Both types charge at the same speed.",
+      },
+      {
+        question: "Are there rebates for a home EV charger in 2026?",
+        answer: "Possibly: programs and rebates change often and depend on where you live, so check current federal, provincial and utility programs before you buy. Conditions vary, and some programs only cover professionally installed chargers, so read the details before you book an installer and keep every invoice.",
+      },
+      {
+        question: "Is a smart EV charger worth it?",
+        answer: "Usually, yes: a smart charger connects to the internet, lets you schedule charging for cheaper off-peak hours where your utility offers them and shows what each session uses. Some can also respond to grid signals. In Great Britain, for example, chargers sold for home use since June 30, 2022, must be smart and come set to avoid peak hours by default. Either way, a Level 2 charger needs a dedicated 240 V circuit, so hire a licensed electrician; electrical work rules are set by each province and territory.",
+      },
     ],
   },
 }

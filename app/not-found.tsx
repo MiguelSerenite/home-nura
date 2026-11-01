@@ -11,6 +11,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { HTML_LANG, isValidLang } from '@/lib/i18n'
 
 const texts: Record<string, { title: string; desc: string; button: string }> = {
   fr: { title: 'Page introuvable', desc: 'La page que vous recherchez n\'existe pas ou a été déplacée.', button: 'Retour à l\'accueil' },
@@ -20,6 +21,9 @@ const texts: Record<string, { title: string; desc: string; button: string }> = {
   it: { title: 'Pagina non trovata', desc: 'La pagina che stai cercando non esiste o è stata spostata.', button: 'Torna alla home' },
   nl: { title: 'Pagina niet gevonden', desc: 'De pagina die u zoekt bestaat niet of is verplaatst.', button: 'Terug naar home' },
   pl: { title: 'Nie znaleziono strony', desc: 'Strona, której szukasz, nie istnieje lub została przeniesiona.', button: 'Wróć do strony głównej' },
+  sv: { title: 'Sidan hittades inte', desc: 'Sidan du letar efter finns inte eller har flyttats.', button: 'Tillbaka till startsidan' },
+  us: { title: 'Page not found', desc: 'The page you are looking for does not exist or has been moved.', button: 'Back to home' },
+  ca: { title: 'Page not found', desc: 'The page you are looking for does not exist or has been moved.', button: 'Back to home' },
 }
 
 export default function RootNotFound() {
@@ -29,7 +33,7 @@ export default function RootNotFound() {
   const t = texts[lang]
 
   return (
-    <html lang={lang}>
+    <html lang={isValidLang(lang) ? HTML_LANG[lang] : lang}>
       <body className="min-h-screen bg-[#FBFBFD] flex items-center justify-center px-6">
         <div className="text-center">
           <h1 className="text-8xl font-black text-slate-200 mb-4">404</h1>

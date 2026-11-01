@@ -197,10 +197,14 @@ describe('Black Friday copy', () => {
 
   it('shows no prices, discount figures or hands-on test claims', () => {
     const forbidden = [
+      // Prices: € £ $ (US and Canadian dollars too), Swedish kronor, Polish złoty.
       /[€£$]/,
+      /\d\s?(?:kr|zł)(?!\p{L})|\b(?:SEK|PLN|USD|CAD)\b|(?<!\p{L})(?:kronor|złotych)(?!\p{L})/iu,
       /\d\s?%|%\s?\d/,
       /\b(test(é|ée|és|ées|ed)?|getestet|probado|testato|getest)\b/i,
       /\bTests?\b/,
+      // Swedish (testad, testade, testat, testet, testvinnare) and Polish (przetestowane, testowaliśmy, w teście).
+      /(?<!\p{L})(?:testa[dt]e?|testet|testerna|testvinnar\p{L}*|przetestowa\p{L}*|testowa\p{L}*|teście|testach|testów)(?!\p{L})/iu,
     ]
     for (const lang of LANGUAGES) {
       const offenders = visibleCopy(lang).filter((s) => forbidden.some((re) => re.test(s)))
@@ -209,7 +213,17 @@ describe('Black Friday copy', () => {
   })
 
   it('creates no fake urgency', () => {
-    const urgency = /dernière chance|last chance|letzte chance|última oportunidad|ultima occasione|laatste kans|vite !|hurry|schnell zugreifen|stock limité|limited stock/i
-    for (const lang of LANGUAGES) expect(visibleCopy(lang).filter((s) => urgency.test(s))).toEqual([])
+    const urgency = new RegExp(
+      [
+        'dernière chance|vite !|stock limité',
+        'last chance|hurry|limited stock|while supplies last|act fast|selling fast|limited time only',
+        'letzte chance|schnell zugreifen',
+        'última oportunidad|ultima occasione|laatste kans',
+        'sista chansen|skynda|begränsat lager|bara idag|endast idag',
+        'ostatnia szansa|pospiesz|pośpiesz|ograniczon\\p{L}* (?:liczb|ilość|zapas|nakład)|tylko dziś|tylko dzisiaj',
+      ].join('|'),
+      'iu',
+    )
+    for (const lang of LANGUAGES) expect(visibleCopy(lang).filter((s) => urgency.test(s)), lang).toEqual([])
   })
 })

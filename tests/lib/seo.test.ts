@@ -1,4 +1,4 @@
-import { LANGUAGES } from '@/lib/i18n'
+import { HTML_LANG, LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import {
   buildPageMetadata,
@@ -32,10 +32,29 @@ describe('buildPageMetadata', () => {
       description: 'Desc',
     })
     const langs = m.alternates?.languages ?? {}
-    expect(Object.keys(langs).sort()).toEqual([...LANGUAGES, 'x-default'].sort())
+    expect(Object.keys(langs).sort()).toEqual([...LANGUAGES.map((l) => HTML_LANG[l]), 'x-default'].sort())
     expect(langs.fr).toBe(`${BASE_URL}/fr/guides/airfryers`)
     expect(langs.en).toBe(`${BASE_URL}/en/guides/airfryers`)
     expect(langs.de).toBe(`${BASE_URL}/de/guides/airfryers`)
+  })
+
+  it('keys the market versions by language tag, never by market code', () => {
+    const langs: Record<string, unknown> = buildPageMetadata({ lang: 'us', path: '/blog', title: 'T', description: 'D' })
+      .alternates?.languages ?? {}
+    expect(langs['en-US']).toBe(`${BASE_URL}/us/blog`)
+    expect(langs['en-CA']).toBe(`${BASE_URL}/ca/blog`)
+    expect(langs['sv-SE']).toBe(`${BASE_URL}/sv/blog`)
+    expect(langs).not.toHaveProperty('us')
+    expect(langs).not.toHaveProperty('ca')
+  })
+
+  it('gives the market versions their own og:locale', () => {
+    const og = (lang: string) =>
+      (buildPageMetadata({ lang, path: '', title: 'T', description: 'D' }).openGraph as Record<string, unknown>).locale
+    expect(og('en')).toBe('en_GB')
+    expect(og('us')).toBe('en_US')
+    expect(og('ca')).toBe('en_CA')
+    expect(og('sv')).toBe('sv_SE')
   })
 
   it('falls back to fr when lang is unknown', () => {
@@ -239,6 +258,7 @@ describe('buildArticleSchema', () => {
     expect(s.datePublished).toBe('2026-01-15')
     expect(s.dateModified).toBe('2026-04-01')
     expect(s.inLanguage).toBe('fr')
+    expect(buildArticleSchema({ ...base, lang: 'ca' }).inLanguage).toBe('en-CA')
   })
 
   it('supports ReviewArticle and TechArticle type variants', () => {

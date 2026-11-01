@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Regadera metálica sobre tierra seca junto a un huerto, donde un sensor de humedad del suelo evita regar a ciegas',
         it: 'Annaffiatoio in metallo su terreno secco accanto a un orto, dove un sensore di umidità del suolo evita di irrigare a caso',
         nl: 'Metalen gieter op droge grond naast een moestuin, waar een bodemvochtsensor gissen bij het water geven overbodig maakt',
-        pl: 'Metalowa konewka na suchej ziemi na skraju warzywnika, tam gdzie czujnik wilgotności gleby pozwala nie podlewać na oślep',
+        pl: 'Metalowa konewka na suchej ziemi przy grządce warzywnej – tu czujnik wilgotności gleby pozwala uniknąć podlewania na oślep',
+        sv: 'Vattenkanna i metall på torr jord vid en köksträdgård, där en markfuktighetssensor gör att du slipper vattna på måfå',
+        us: 'Metal watering can on dry soil beside a vegetable garden, where a soil moisture sensor takes the guesswork out of watering',
+        ca: 'Metal watering can on dry soil beside a vegetable garden, where a soil moisture sensor takes the guesswork out of watering',
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: 'Sensor de humedad del suelo conectado 2026: guía y comparativa para el jardín',
     it: 'Sensore di umidità del suolo connesso 2026: guida e confronto per il giardino',
     nl: 'Slimme bodemvochtsensor 2026: koopgids en vergelijking voor de tuin',
-    pl: 'Inteligentny czujnik wilgotności gleby 2026: poradnik i porównanie do ogrodu',
+    pl: 'Inteligentny czujnik wilgotności gleby do ogrodu 2026: poradnik i porównanie',
+    sv: 'Smart markfuktighetssensor 2026: köpguide och jämförelse för trädgården',
+    us: 'Best Smart Soil Moisture Sensors 2026: Buying Guide for Yard and Garden',
+    ca: 'Smart Soil Moisture Sensor 2026: Buying Guide for Lawns and Gardens',
   },
   excerpt: {
     fr: 'Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 et Xiaomi Mi Flora : comment choisir un capteur d’humidité du sol connecté en 2026 selon votre arrosage, votre jardin et votre domotique.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 y Xiaomi Mi Flora: cómo elegir un sensor de humedad del suelo conectado en 2026 según su riego, su jardín y su domótica.',
     it: 'Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 e Xiaomi Mi Flora: come scegliere un sensore di umidità del suolo connesso nel 2026 in base a irrigazione, giardino e domotica.',
     nl: 'Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 en Xiaomi Mi Flora: zo kiest u in 2026 een slimme bodemvochtsensor die past bij uw bewatering, tuin en smart home.',
-    pl: 'Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 i Xiaomi Mi Flora: jak wybrać inteligentny czujnik wilgotności gleby w 2026 roku, zależnie od nawadniania, ogrodu i systemu inteligentnego domu.',
+    pl: 'Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 i Xiaomi Mi Flora: jak w 2026 roku wybrać inteligentny czujnik wilgotności gleby dopasowany do sposobu nawadniania, ogrodu i systemu inteligentnego domu.',
+    sv: 'Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 och Xiaomi Mi Flora: så väljer du en smart markfuktighetssensor 2026 utifrån hur du vattnar, din trädgård och ditt smarta hem.',
+    us: 'Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 and Xiaomi Mi Flora: how to choose a smart soil moisture sensor in 2026 based on your watering setup, your yard and your smart home.',
+    ca: 'Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 and Xiaomi Mi Flora: how to choose a smart soil moisture sensor in 2026 based on your watering setup, yard and smart home.',
   },
   content: {
     fr: `<p><strong>Le meilleur capteur d’humidité du sol connecté en 2026 pour un jardin arrosé automatiquement est le Gardena smart Sensor</strong> : il mesure l’humidité au niveau des racines et suspend l’arrosage Gardena smart quand la terre est encore humide. Si vous voulez surveiller plusieurs zones à moindre coût, l’Ecowitt WH51 est le plus polyvalent, et si vous avez déjà une box domotique Zigbee, le ThirdReality Smart Soil Moisture Sensor Gen2 s’y intègre directement.</p>
@@ -556,91 +565,346 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor volledig automatische bewatering zonder ingewikkelde instellingen is de <strong>Gardena smart Sensor</strong> de meest logische keuze, mits u een Gardena smart-watertimer gebruikt. Om meerdere zones met een beheersbaar budget te volgen, biedt de <strong>Ecowitt WH51</strong> de beste balans en sluit hij aan op Home Assistant. Draait uw huis al op Zigbee, dan past de <strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> in uw automatiseringen zonder extra app. Voor potplanten en balkons blijft de <strong>Xiaomi Mi Flora</strong> het rijkst aan informatie. Lees verder in onze <a href="/nl/blog/guide-jardin-connecte-2026">gids voor de slimme tuin 2026</a>.</p>`,
-    pl: `<p><strong>Najlepszym inteligentnym czujnikiem wilgotności gleby w 2026 roku do automatycznie podlewanego ogrodu jest Gardena smart Sensor</strong>: mierzy wilgotność na poziomie korzeni i wstrzymuje nawadnianie Gardena smart, gdy ziemia jest jeszcze wilgotna. Jeśli chcesz tanio monitorować kilka stref, najbardziej uniwersalny jest Ecowitt WH51, a jeśli masz już centralkę inteligentnego domu Zigbee, ThirdReality Smart Soil Moisture Sensor Gen2 integruje się z nią bezpośrednio.</p>
-<p>Ten poradnik opiera się na kartach katalogowych producentów, niezależnych opiniach i zweryfikowanych opiniach kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie. Kompatybilne sterowniki znajdziesz na naszej stronie <a href="/pl/outdoor-connecte/arrosage-connecte">inteligentne nawadnianie</a>.</p>
+    pl: `<p><strong>Najlepszy inteligentny czujnik wilgotności gleby w 2026 roku do ogrodu z automatycznym nawadnianiem to Gardena smart Sensor</strong>: mierzy wilgotność na głębokości korzeni i wstrzymuje podlewanie w systemie Gardena smart, gdy ziemia jest jeszcze wilgotna. Jeśli chcesz niewielkim kosztem kontrolować kilka stref, najbardziej uniwersalny jest Ecowitt WH51. Gdy masz już centralkę Zigbee, wybierz ThirdReality Smart Soil Moisture Sensor Gen2, który połączysz z nią bezpośrednio.</p>
+<p>Ten poradnik powstał na podstawie kart katalogowych producentów, niezależnych recenzji i opinii zweryfikowanych kupujących. Uwzględniamy w nim wyłącznie modele sprzedawane w Europie. Zgodne z nimi sterowniki nawadniania znajdziesz w kategorii <a href="/pl/outdoor-connecte/arrosage-connecte">inteligentne nawadnianie</a>.</p>
 
 <h2>Do czego służy czujnik wilgotności gleby?</h2>
-<p>Klasyczny sterownik nawadniania podlewa według zegara: co drugi dzień o 6:00, niezależnie od tego, czy poprzedniego dnia padało. Czujnik wilgotności dodaje to, czego brakuje w takim systemie: rzeczywisty pomiar wody dostępnej w ziemi, tam gdzie są korzenie. Podlewanie następuje tylko wtedy, gdy gleba tego potrzebuje.</p>
-<p>Korzyści są konkretne. Unikasz podlewania rozmokłego po burzy trawnika, wychwytujesz rabatę, która wysycha szybciej niż pozostałe, i ograniczasz nadmiar wody sprzyjający chorobom korzeni. W okresach suszy, gdy lokalne władze ograniczają podlewanie ogrodów, dokładna wiedza o tym, kiedy podlewać, pomaga też jak najlepiej wykorzystać dozwolone terminy. Zyski zależą w dużej mierze od punktu wyjścia: ogród podlewany starannie ręcznie zaoszczędzi mniej niż ogród sterowany zwykłym timerem.</p>
-<p>Aby zobaczyć ogólny obraz sterowników i zaworów, przeczytaj nasz <a href="/pl/blog/arrosage-connecte-intelligent">poradnik o inteligentnym nawadnianiu</a>.</p>
+<p>Zwykły sterownik nawadniania działa według zegara: podlewa co drugi dzień o 6:00, niezależnie od tego, czy dzień wcześniej padało. Czujnik wilgotności uzupełnia go o to, czego mu brakuje: rzeczywisty pomiar ilości wody dostępnej w glebie, w strefie korzeni. Podlewanie włącza się tylko wtedy, gdy gleba tego potrzebuje.</p>
+<p>Korzyści są wymierne. Nie podlewasz trawnika rozmokłego po burzy, szybko zauważasz rabatę, która przesycha szybciej niż inne, i unikasz nadmiaru wody, który sprzyja chorobom korzeni. W czasie suszy, gdy lokalne władze ograniczają podlewanie ogrodów, wiedza o tym, kiedy naprawdę trzeba podlać, pozwala też najlepiej wykorzystać dozwolone godziny. Oszczędności w dużej mierze zależą od punktu wyjścia: w ogrodzie starannie podlewanym ręcznie będą mniejsze niż w takim, w którym wodę odmierza zwykły programator czasowy.</p>
+<p>Przegląd sterowników i zaworów znajdziesz w naszym <a href="/pl/blog/arrosage-connecte-intelligent">poradniku o inteligentnym nawadnianiu</a>.</p>
 
 <h2>Pojemnościowy czy rezystancyjny: technologia ma znaczenie</h2>
-<p>Czujniki <strong>rezystancyjne</strong> mierzą prąd płynący między dwiema metalowymi elektrodami wbitymi w ziemię. Są proste, ale ich elektrody z czasem się utleniają, a pomiar się rozjeżdża. Słabo nadają się do stałego użytku w gruncie.</p>
-<p>Czujniki <strong>pojemnościowe</strong> mierzą przenikalność gleby, która zmienia się wraz z zawartością wody, bez bezpośredniego kontaktu elektrycznego z ziemią. Starzeją się wolniej i są mniej wrażliwe na sole w glebie. Wszystkie modele w tym poradniku wykorzystują to podejście lub równoważny pomiar bez odsłoniętych elektrod. Pamiętaj, że żaden czujnik konsumencki nie jest przyrządem laboratoryjnym: gleba piaszczysta i gleba gliniasta nie pokażą tego samego procentu przy tej samej dostępności wody. Obserwuj swoje rośliny przez kilka tygodni i dostosuj progi.</p>
+<p>Czujniki <strong>rezystancyjne</strong> mierzą prąd płynący między dwiema metalowymi elektrodami wbitymi w ziemię. Mają prostą budowę, ale elektrody z czasem utleniają się, a pomiar traci dokładność. Nie nadają się więc do tego, by na stałe zostawić je w gruncie.</p>
+<p>Czujniki <strong>pojemnościowe</strong> mierzą przenikalność elektryczną gleby, która zmienia się wraz z zawartością wody, i nie wymagają bezpośredniego kontaktu elektrycznego z ziemią. Są trwalsze i mniej wrażliwe na sole zawarte w glebie. Wszystkie modele z tego poradnika działają na tej zasadzie albo stosują równoważną metodę pomiaru bez odsłoniętych elektrod. Pamiętaj jednak, że żaden czujnik do użytku domowego nie jest przyrządem laboratoryjnym: przy tej samej ilości wody dostępnej dla roślin gleba piaszczysta i gliniasta pokażą różny wynik procentowy. Przez kilka tygodni obserwuj rośliny i na tej podstawie dostosuj progi.</p>
 
-<h2>Kryteria dobrego wyboru</h2>
+<h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Połączenie z nawadnianiem</strong>: czujnik, który tylko wysyła powiadomienie, zostawia Ci odkręcanie kranu. Czujnik połączony ze sterownikiem tej samej marki lub z centralką inteligentnego domu może sam wstrzymać lub uruchomić podlewanie.</li>
-<li><strong>Łączność</strong>: Bluetooth (krótki zasięg, idealny na balkon), radio dalekiego zasięgu z bramką (Ecowitt, Gardena) lub Zigbee (wymagana centralka). Czujnik w głębi ogrodu potrzebuje radia o dużym zasięgu.</li>
-<li><strong>Pomiary</strong>: wilgotność gleby to minimum. Temperatura gleby pomaga przesunąć podlewanie przy chłodnej pogodzie. Światło i przewodność (wskaźnik zawartości soli odżywczych) przydają się głównie przy roślinach doniczkowych.</li>
-<li><strong>Odporność na warunki atmosferyczne</strong>: czujnik, który zostaje na zewnątrz przez cały rok, musi być zaprojektowany do użytku zewnętrznego. Sprawdź stopień ochrony podany przez producenta.</li>
-<li><strong>Baterie</strong>: AA (łatwe do zdobycia, często akumulatorki) lub bateria guzikowa CR2032. W niektórych modelach licz się z co najmniej jedną wymianą na sezon.</li>
-<li><strong>Liczba stref</strong>: trawnik, warzywnik i żywopłot mają inne potrzeby. Jeśli masz kilka stref nawadniania, przewidź jeden czujnik na strefę i system obsługujący kilka czujników.</li>
+<li><strong>Współpraca z nawadnianiem</strong>: jeśli czujnik tylko wysyła powiadomienie, kran i tak odkręcasz ręcznie. Czujnik połączony ze sterownikiem tej samej marki lub z centralką inteligentnego domu może samodzielnie wstrzymać albo włączyć podlewanie.</li>
+<li><strong>Łączność</strong>: Bluetooth (krótki zasięg, idealny na balkon), radio dalekiego zasięgu z bramką (Ecowitt, Gardena) lub Zigbee (wymagana centralka). Czujnik na końcu ogrodu musi mieć łączność o dużym zasięgu.</li>
+<li><strong>Mierzone parametry</strong>: wilgotność gleby to podstawa. Pomiar temperatury gleby pozwala przesunąć podlewanie, gdy jest chłodno. Natężenie światła i przewodność (wskaźnik zawartości soli mineralnych) przydają się głównie przy roślinach w doniczkach.</li>
+<li><strong>Odporność na warunki atmosferyczne</strong>: czujnik, który przez cały rok zostaje w ogrodzie, musi być przystosowany do pracy na zewnątrz. Sprawdź stopień ochrony (IP) podany przez producenta.</li>
+<li><strong>Baterie</strong>: AA (łatwo dostępne, często można użyć akumulatorków) lub bateria pastylkowa CR2032. W niektórych modelach licz się z wymianą co najmniej raz na sezon.</li>
+<li><strong>Liczba stref</strong>: trawnik, warzywnik i żywopłot mają różne potrzeby. Jeśli masz kilka stref nawadniania, zaplanuj po jednym czujniku na strefę i wybierz system, który obsłuży kilka czujników.</li>
 </ul>
 
 <h2>4 najlepsze inteligentne czujniki wilgotności gleby w 2026 roku</h2>
 
-<h3>1. Gardena smart Sensor — najlepszy wybór ogólny do automatycznego nawadniania</h3>
-<p><strong>Gardena smart Sensor</strong> (numer 19040-20) należy do ekosystemu Gardena smart system. Mierzy wilgotność gleby i temperaturę przy ziemi dzięki szerokiej strefie pomiaru wbitej na poziomie korzeni. Jego płaska obudowa wystaje z ziemi na około 2 cm: może zostać na trawniku koszonym przez robota koszącego.</p>
-<p>Jego siłą jest integracja. W połączeniu z Gardena smart Water Control (na kranie) lub smart Irrigation Control (kilka zaworów) pozwala zaprogramować podlewanie, które rusza tylko wtedy, gdy gleba jest poniżej progu wybranego w aplikacji Gardena smart. Dwie baterie AA zapewniają według Gardeny pracę przez jeden sezon ogrodniczy.</p>
-<p><strong>Mocne strony:</strong> proste ustawienia w jednej aplikacji, kompletna pętla czujnik–sterownik bez kombinowania, format dopasowany do trawników koszonych przez roboty.</p>
-<p><strong>Ograniczenia:</strong> niezbędna jest bramka Gardena smart Gateway (jest dołączona do zestawów startowych smart system), a czujnik ma realny sens tylko ze sterownikiem Gardena smart.</p>
-<p><strong>Dla kogo:</strong> ogrody już wyposażone w Gardenę oraz ci, którzy chcą gotowego automatycznego nawadniania bez centralki inteligentnego domu.</p>
+<h3>1. Gardena smart Sensor – najlepszy wybór do automatycznego nawadniania</h3>
+<p><strong>Gardena smart Sensor</strong> (nr kat. 19040-20) należy do ekosystemu Gardena smart system. Mierzy wilgotność gleby i temperaturę tuż przy ziemi, a jego szeroka część pomiarowa sięga na głębokość korzeni. Płaska obudowa wystaje ponad ziemię na ok. 2 cm, dzięki czemu czujnik może zostać na trawniku koszonym przez robota.</p>
+<p>Jego największą zaletą jest integracja z systemem. Razem ze sterownikiem Gardena smart Water Control (montowanym na kranie) lub smart Irrigation Control (do kilku zaworów) pozwala zaprogramować podlewanie, które włącza się tylko wtedy, gdy wilgotność gleby spadnie poniżej progu ustawionego w aplikacji Gardena smart. Według producenta dwie baterie AA wystarczają na jeden sezon ogrodniczy.</p>
+<p><strong>Mocne strony:</strong> prosta konfiguracja w jednej aplikacji, kompletny układ czujnik–sterownik bez majsterkowania, konstrukcja dopasowana do trawników koszonych przez roboty.</p>
+<p><strong>Ograniczenia:</strong> wymaga bramki Gardena smart Gateway (dołączanej do zestawów startowych smart system), a w praktyce ma sens tylko w połączeniu ze sterownikiem Gardena smart.</p>
+<p><strong>Dla kogo:</strong> właściciele ogrodów z systemem Gardena oraz osoby, które chcą gotowego automatycznego nawadniania bez centralki inteligentnego domu.</p>
 
-<h3>2. Ecowitt WH51 — najlepszy stosunek jakości do ceny dla kilku stref</h3>
-<p><strong>Ecowitt WH51</strong> to radiowy czujnik wilgotności gleby, w wersji europejskiej na 868 MHz, który przesyła dane do bramki Wi-Fi Ecowitt (GW1100, GW1200 lub GW2000). Ecowitt sprzedaje też zestaw GW1206, który łączy bramkę GW1200 i jeden WH51. Czujnik ma certyfikat IP66, działa na jednej baterii AA i wysyła nową wartość wilgotności (0–100%) mniej więcej co 70 sekund.</p>
-<p>Jego głównym atutem jest skalowalność: jedna bramka obsługuje do 16 czujników WH51, co pozwala śledzić trawnik, warzywnik, skrzynki balkonowe i szklarnię w jednej aplikacji. Bramka integruje się też z Home Assistant przez integrację Ecowitt, aby sterować inteligentnym zaworem w zależności od zmierzonej wilgotności.</p>
-<p><strong>Mocne strony:</strong> radio dalekiego zasięgu, przystępny pojedynczy czujnik, wiele czujników na jedną bramkę, otwarta integracja z inteligentnym domem.</p>
-<p><strong>Ograniczenia:</strong> mierzy tylko wilgotność (bez temperatury gleby) i sam nie steruje żadnym nawadnianiem: do działania na zawór potrzebna jest centralka inteligentnego domu lub automatyzacja.</p>
+<h3>2. Ecowitt WH51 – najlepszy stosunek jakości do ceny przy kilku strefach</h3>
+<p><strong>Ecowitt WH51</strong> to bezprzewodowy czujnik wilgotności gleby (w wersji europejskiej działający w paśmie 868 MHz), który przesyła dane do bramki Wi-Fi Ecowitt (GW1100, GW1200 lub GW2000). Producent oferuje też zestaw GW1206, w którym jest bramka GW1200 i jeden czujnik WH51. Czujnik ma klasę szczelności IP66, działa na jednej baterii AA i mniej więcej co 70 sekund wysyła nowy odczyt wilgotności (0–100%).</p>
+<p>Jego główną zaletą są możliwości rozbudowy: jedna bramka obsługuje do 16 czujników WH51, więc w jednej aplikacji możesz śledzić trawnik, warzywnik, skrzynki balkonowe i szklarnię. Bramkę można też podłączyć do Home Assistant przez integrację Ecowitt i sterować inteligentnym zaworem w zależności od zmierzonej wilgotności.</p>
+<p><strong>Mocne strony:</strong> łączność radiowa dalekiego zasięgu, przystępna cena pojedynczego czujnika, wiele czujników na jednej bramce, otwarta integracja z systemami inteligentnego domu.</p>
+<p><strong>Ograniczenia:</strong> mierzy tylko wilgotność (bez temperatury gleby) i sam nie steruje nawadnianiem – do obsługi zaworu potrzebna jest centralka inteligentnego domu lub automatyzacja.</p>
 <p><strong>Dla kogo:</strong> ogrody z kilkoma strefami, posiadacze stacji pogodowej Ecowitt i użytkownicy Home Assistant.</p>
 
-<h3>3. ThirdReality Smart Soil Moisture Sensor Gen2 — opcja Zigbee dla inteligentnego domu</h3>
-<p><strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> (numer europejski 3RDZP1SMS1B-EU) to pojemnościowy czujnik Zigbee 3.0, który mierzy wilgotność i temperaturę gleby. Działa na jednej baterii AA, a deklarowany czas pracy to do trzech lat przy normalnym użytkowaniu.</p>
-<p>Łączy się z istniejącą centralką Zigbee: Home Assistant (ZHA lub Zigbee2MQTT), Hubitat, SmartThings, Homey lub głośnikiem Amazon Echo z hubem Zigbee. Możesz wtedy utworzyć regułę w rodzaju „jeśli wilgotność spadnie poniżej 30%, otwórz zawór na 15 minut”, z dowolnym zaworem zgodnym z Twoją centralką.</p>
-<p><strong>Mocne strony:</strong> standardowy protokół, duża autonomia, pomiar temperatury, brak obowiązkowej aplikacji producenta.</p>
-<p><strong>Ograniczenia:</strong> niezbędna jest centralka Zigbee, a zasięg zależy od Twojej sieci: w głębi dużego ogrodu może być potrzebny zewnętrzny wzmacniacz Zigbee. Sprawdź w instrukcji warunki użytkowania na zewnątrz, zanim zostawisz go w gruncie na cały rok.</p>
-<p><strong>Dla kogo:</strong> domy już wyposażone w Zigbee, które chcą dodać ogród do swoich automatyzacji.</p>
+<h3>3. ThirdReality Smart Soil Moisture Sensor Gen2 – opcja Zigbee do inteligentnego domu</h3>
+<p><strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> (wersja europejska: 3RDZP1SMS1B-EU) to pojemnościowy czujnik Zigbee 3.0, który mierzy wilgotność i temperaturę gleby. Działa na jednej baterii AA, a producent deklaruje do trzech lat pracy przy typowym użytkowaniu.</p>
+<p>Łączy się z posiadaną już centralką Zigbee: Home Assistant (ZHA lub Zigbee2MQTT), Hubitat, SmartThings, Homey lub głośnikiem Amazon Echo z wbudowanym hubem Zigbee. Możesz wtedy utworzyć regułę typu „jeśli wilgotność spadnie poniżej 30%, otwórz zawór na 15 minut” i użyć dowolnego zaworu zgodnego z Twoją centralką.</p>
+<p><strong>Mocne strony:</strong> standardowy protokół, długi czas pracy na baterii, pomiar temperatury, brak obowiązkowej aplikacji producenta.</p>
+<p><strong>Ograniczenia:</strong> wymaga centralki Zigbee, a zasięg zależy od Twojej sieci – na końcu dużego ogrodu może być potrzebny zewnętrzny wzmacniacz sygnału Zigbee. Zanim zostawisz czujnik w gruncie na cały rok, sprawdź w instrukcji, na jakich warunkach można go używać na zewnątrz.</p>
+<p><strong>Dla kogo:</strong> domy z systemem Zigbee, których mieszkańcy chcą objąć automatyzacjami także ogród.</p>
 
-<h3>4. Xiaomi Mi Flora — najbardziej kompletny do roślin doniczkowych</h3>
-<p><strong>Xiaomi Mi Flora</strong>, sprzedawany też pod nazwą Flower Care, to mały czujnik Bluetooth, który mierzy cztery parametry: wilgotność gleby, natężenie światła, temperaturę i przewodność gleby, będącą wskaźnikiem żyzności. Jego aplikacja porównuje te wartości z potrzebami każdego gatunku dzięki bazie roślin i sygnalizuje, czego brakuje.</p>
-<p>Działa na baterii guzikowej CR2032. Bluetooth ogranicza zasięg do kilku metrów: nadaje się na balkon, taras lub do roślin domowych. Użytkownicy Home Assistant mogą go podłączyć przez integrację Xiaomi BLE i serwer proxy Bluetooth umieszczony w pobliżu.</p>
-<p><strong>Mocne strony:</strong> cztery pomiary w małym formacie, wskazówki dla poszczególnych gatunków, bardzo popularny w inteligentnym domu.</p>
-<p><strong>Ograniczenia:</strong> krótki zasięg, brak bezpośredniej integracji ze sterownikiem nawadniania, zaprojektowany raczej do doniczek niż do gruntu wystawionego na działanie pogody przez cały rok. Jego dostępność różni się zależnie od sprzedawców.</p>
-<p><strong>Dla kogo:</strong> ogrodnicy balkonowi, kolekcje roślin domowych i doniczki na tarasie.</p>
+<h3>4. Xiaomi Mi Flora – najwszechstronniejszy do roślin doniczkowych</h3>
+<p><strong>Xiaomi Mi Flora</strong>, sprzedawany też pod nazwą Flower Care, to mały czujnik Bluetooth, który mierzy cztery parametry: wilgotność gleby, natężenie światła, temperaturę oraz przewodność elektryczną gleby, która wskazuje jej żyzność. Aplikacja korzysta z bazy danych roślin, porównuje zmierzone wartości z wymaganiami danego gatunku i podpowiada, czego roślinie brakuje.</p>
+<p>Działa na baterii pastylkowej CR2032. Łączność Bluetooth ma zasięg zaledwie kilku metrów, dlatego czujnik sprawdzi się na balkonie, tarasie albo przy roślinach domowych. Użytkownicy Home Assistant mogą go podłączyć przez integrację Xiaomi BLE i ustawione w pobliżu urządzenie Bluetooth proxy.</p>
+<p><strong>Mocne strony:</strong> cztery parametry w małej obudowie, wskazówki dopasowane do gatunku, duża popularność wśród użytkowników inteligentnego domu.</p>
+<p><strong>Ograniczenia:</strong> krótki zasięg, brak bezpośredniej integracji ze sterownikiem nawadniania, przeznaczenie raczej do doniczek niż do gruntu, w którym przez cały rok byłby wystawiony na działanie pogody. Dostępność zależy od sprzedawcy.</p>
+<p><strong>Dla kogo:</strong> balkonowe ogródki, kolekcje roślin domowych i donice na tarasie.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Pomiary</th><th>Łączność</th><th>Zasilanie</th><th>Sterowanie nawadnianiem</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Pomiary</th><th>Łączność</th><th>Zasilanie</th><th>Sterowanie nawadnianiem</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Gardena smart Sensor</td><td>Wilgotność, temperatura gleby</td><td>Radio Gardena + smart Gateway</td><td>2 baterie AA</td><td>Natywne z Gardena smart</td><td>Automatyczne nawadnianie pod klucz</td></tr>
+<tr><td>Gardena smart Sensor</td><td>Wilgotność, temperatura gleby</td><td>Radio Gardena + bramka smart Gateway</td><td>2 baterie AA</td><td>Bezpośrednio z Gardena smart</td><td>Automatyczne nawadnianie pod klucz</td></tr>
 <tr><td>Ecowitt WH51</td><td>Wilgotność</td><td>868 MHz + bramka Wi-Fi Ecowitt</td><td>1 bateria AA</td><td>Przez Home Assistant</td><td>Kilka stref, stacja pogodowa</td></tr>
-<tr><td>ThirdReality Gen2</td><td>Wilgotność, temperatura gleby</td><td>Zigbee 3.0 (wymagana centralka)</td><td>1 bateria AA</td><td>Przez Twoją centralkę Zigbee</td><td>Dom z Zigbee</td></tr>
+<tr><td>ThirdReality Gen2</td><td>Wilgotność, temperatura gleby</td><td>Zigbee 3.0 (wymagana centralka)</td><td>1 bateria AA</td><td>Przez centralkę Zigbee</td><td>Dom z systemem Zigbee</td></tr>
 <tr><td>Xiaomi Mi Flora</td><td>Wilgotność, światło, temperatura, przewodność</td><td>Bluetooth</td><td>Bateria CR2032</td><td>Nie (tylko alerty)</td><td>Doniczki, balkon, wnętrza</td></tr>
 </tbody>
 </table>
 
-<h2>Gdzie i jak zamontować czujnik</h2>
+<h2>Gdzie i jak umieścić czujnik</h2>
 <ul>
-<li><strong>W strefie korzeni</strong>: około 10 cm dla trawnika, 15–20 cm dla warzywnika, głębiej dla krzewów. Wbij całkowicie część pomiarową.</li>
-<li><strong>W reprezentatywnym miejscu</strong>: nie u podstawy ściany, nie pod drzewem przechwytującym deszcz, nie tuż pod kroplownikiem ani w bezpośrednim strumieniu zraszacza.</li>
-<li><strong>Jeden czujnik na strefę nawadniania</strong>: jeśli nasłoneczniony trawnik i rabata w cieniu mają jeden czujnik, jedno z nich będzie źle podlewane.</li>
-<li><strong>Dobrze ubij ziemię</strong> wokół sondy: kieszeń powietrza zafałszowuje pomiar. Poczekaj dzień lub dwa, zanim ustawisz progi.</li>
-<li><strong>Pomyśl o zimie</strong>: zależnie od modelu i instrukcji zabierz czujnik do domu przed mrozami lub wyjmij baterie, jeśli zostaje na zewnątrz bez użycia.</li>
+<li><strong>W strefie korzeni</strong>: ok. 10 cm w trawniku, 15–20 cm w warzywniku, głębiej przy krzewach. Wbij część pomiarową na całą długość.</li>
+<li><strong>W reprezentatywnym miejscu</strong>: nie przy samej ścianie, nie pod drzewem, które zatrzymuje deszcz, nie tuż pod kroplownikiem ani w zasięgu strumienia zraszacza.</li>
+<li><strong>Jeden czujnik na strefę nawadniania</strong>: jeśli nasłoneczniony trawnik i zacieniona rabata korzystają z jednego czujnika, jedno z nich będzie podlewane nieprawidłowo.</li>
+<li><strong>Dobrze ubij ziemię</strong> wokół sondy: każda pustka z powietrzem fałszuje pomiar. Odczekaj dzień lub dwa, zanim ustawisz progi.</li>
+<li><strong>Pomyśl o zimie</strong>: zgodnie z instrukcją danego modelu przed mrozami zabierz czujnik do domu albo – jeśli zostaje w ogrodzie nieużywany – wyjmij z niego baterie.</li>
 </ul>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Kupowanie czujnika bez sprawdzenia bramki</strong>: Gardena smart Sensor i Ecowitt WH51 nie działają samodzielnie, a ThirdReality także nie bez centralki Zigbee.</li>
-<li><strong>Wiara w surowy procent</strong>: 30% w glebie gliniastej i 30% w glebie piaszczystej nie oznaczają tego samego. Ustaw próg według swoich roślin, a nie według ogólnej liczby.</li>
-<li><strong>Wybór Bluetooth dla głębi ogrodu</strong>: zasięg nie wystarczy. Wybierz radio dalekiego zasięgu.</li>
-<li><strong>Zapominanie o pogodzie</strong>: czujnik mówi, że ziemia jest sucha teraz, a nie że jutro będzie padać. Jeśli to możliwe, połącz go ze sterownikiem uwzględniającym prognozę.</li>
-<li><strong>Ignorowanie lokalnych ograniczeń</strong>: czujnik nie upoważnia do podlewania w czasie ograniczeń przeciwsuszowych. Sprawdź zasady obowiązujące w Twojej gminie.</li>
+<li><strong>Kupowanie czujnika bez sprawdzenia, czy wymaga bramki</strong>: Gardena smart Sensor i Ecowitt WH51 nie działają samodzielnie, a ThirdReality nie zadziała bez centralki Zigbee.</li>
+<li><strong>Sugerowanie się samym wynikiem procentowym</strong>: 30% w glebie gliniastej i 30% w glebie piaszczystej to nie to samo. Próg ustaw na podstawie obserwacji roślin, a nie uniwersalnej wartości.</li>
+<li><strong>Wybieranie czujnika Bluetooth na koniec ogrodu</strong>: zasięg nie wystarczy. Postaw na łączność radiową dalekiego zasięgu.</li>
+<li><strong>Zapominanie o pogodzie</strong>: czujnik pokazuje, że ziemia jest sucha teraz, ale nie wie, że jutro będzie padać. Jeśli to możliwe, połącz go ze sterownikiem, który uwzględnia prognozę pogody.</li>
+<li><strong>Ignorowanie lokalnych ograniczeń</strong>: czujnik nie zwalnia z zakazu podlewania wprowadzonego z powodu suszy. Sprawdź zasady obowiązujące w Twojej gminie.</li>
 </ul>
 
-<h2>Podsumowanie</h2>
-<p>Do w pełni automatycznego podlewania bez skomplikowanej konfiguracji <strong>Gardena smart Sensor</strong> to najbardziej spójny wybór, pod warunkiem że używasz sterownika Gardena smart. Do śledzenia kilku stref przy rozsądnym budżecie <strong>Ecowitt WH51</strong> oferuje najlepszy kompromis i otwiera się na Home Assistant. Jeśli Twój dom działa już na Zigbee, <strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> dołącza do Twoich automatyzacji bez nowej aplikacji. Do roślin doniczkowych i na balkon <strong>Xiaomi Mi Flora</strong> pozostaje najbogatszy w informacje. Na dalszą lekturę zapraszamy do naszego <a href="/pl/blog/guide-jardin-connecte-2026">poradnika o inteligentnym ogrodzie 2026</a>.</p>`,
+<h2>Nasz werdykt</h2>
+<p>Jeśli chcesz w pełni automatycznego podlewania bez skomplikowanej konfiguracji, najrozsądniejszym wyborem jest <strong>Gardena smart Sensor</strong> – pod warunkiem że używasz sterownika Gardena smart. Do kontrolowania kilku stref przy ograniczonym budżecie najlepszym kompromisem jest <strong>Ecowitt WH51</strong>, który współpracuje też z Home Assistant. Jeśli Twój inteligentny dom działa już na Zigbee, <strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> włączysz do automatyzacji bez instalowania kolejnej aplikacji. Przy roślinach doniczkowych i na balkonie <strong>Xiaomi Mi Flora</strong> wciąż dostarcza najwięcej informacji. Więcej znajdziesz w naszym <a href="/pl/blog/guide-jardin-connecte-2026">przewodniku po inteligentnym ogrodzie 2026</a>.</p>`,
+    sv: `<p><strong>Den bästa smarta markfuktighetssensorn 2026 för en trädgård med automatisk bevattning är Gardena smart Sensor</strong>: den mäter fukten nere vid rötterna och pausar bevattningen i Gardena smart så länge jorden fortfarande är fuktig. Vill du hålla koll på flera zoner utan att det blir dyrt är Ecowitt WH51 den mest mångsidiga, och har du redan en Zigbee-hubb hemma kopplar du ThirdReality Smart Soil Moisture Sensor Gen2 direkt till den.</p>
+<p>Guiden bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Den tar bara med modeller som säljs i Europa. Bevattningsdatorer som fungerar med sensorerna hittar du på vår sida om <a href="/sv/outdoor-connecte/arrosage-connecte">smart bevattning</a>.</p>
+
+<h2>Vad gör en markfuktighetssensor?</h2>
+<p>En vanlig bevattningsdator vattnar efter klockan: varannan dag klockan sex på morgonen, oavsett om det regnade kvällen innan eller inte. Markfuktighetssensorn, som ibland kallas jordfuktighetsmätare, tillför det som saknas: en verklig mätning av hur mycket vatten som finns i jorden, där rötterna är. Bevattningen startar bara när jorden behöver det.</p>
+<p>Fördelarna är konkreta. Du slipper vattna en genomblöt gräsmatta efter ett åskväder, du upptäcker en rabatt som torkar ut snabbare än de andra och du undviker den övervattning som gynnar rotsjukdomar. Under torka, när myndigheterna begränsar trädgårdsbevattningen, hjälper det också att veta exakt när du ska vattna: då kan du utnyttja de tillåtna tiderna på bästa sätt. Hur mycket du sparar beror till stor del på utgångsläget: en trädgård som redan vattnas noggrant för hand sparar mindre än en som styrs av ett enkelt tidur.</p>
+<p>En översikt över bevattningsdatorer och ventiler hittar du i vår <a href="/sv/blog/arrosage-connecte-intelligent">guide till smart bevattning</a>.</p>
+
+<h2>Kapacitiv eller resistiv: tekniken spelar roll</h2>
+<p><strong>Resistiva</strong> sensorer mäter strömmen mellan två metallelektroder som sticks ner i jorden. De är enkla, men elektroderna oxiderar med tiden och mätvärdena börjar glida. De passar dåligt för att sitta permanent i marken.</p>
+<p><strong>Kapacitiva</strong> sensorer mäter jordens permittivitet, som ändras med vatteninnehållet, utan direkt elektrisk kontakt med jorden. De åldras bättre och påverkas mindre av salter i jorden. Alla modeller i guiden använder den här tekniken eller en likvärdig mätmetod utan nakna elektroder. Kom ihåg att ingen sensor för hemmabruk är ett laboratorieinstrument: en sandjord och en lerjord visar inte samma procentvärde för samma mängd vatten som växterna kan ta upp. Håll ett öga på växterna i några veckor och justera sedan gränsvärdena.</p>
+
+<h2>Så väljer du rätt</h2>
+<ul>
+<li><strong>Kopplingen till bevattningen</strong>: en sensor som bara skickar en notis lämnar det åt dig att vrida på kranen. En sensor som är kopplad till en bevattningsdator av samma märke, eller till en smarthemshubb, kan själv hoppa över eller starta bevattningen.</li>
+<li><strong>Uppkoppling</strong>: Bluetooth (kort räckvidd, perfekt för balkongen), radio med lång räckvidd och gateway (Ecowitt, Gardena) eller Zigbee (kräver en hubb). En sensor längst bort i trädgården behöver en radio som når ända fram.</li>
+<li><strong>Mätvärden</strong>: markfuktighet är det minsta du bör kräva. Marktemperaturen hjälper dig att skjuta upp bevattningen när det är kallt. Ljus och ledningsförmåga (ett mått på halten av näringssalter) är framför allt till nytta för krukväxter.</li>
+<li><strong>Tålighet mot väder och vind</strong>: en sensor som sitter ute året runt måste vara gjord för utomhusbruk. Kontrollera kapslingsklassen (IP-klassen) som tillverkaren anger.</li>
+<li><strong>Batterier</strong>: AA (lätta att hitta, ofta laddbara) eller en knappcell av typen CR2032. Räkna med minst ett byte per säsong på vissa modeller.</li>
+<li><strong>Antal zoner</strong>: en gräsmatta, en köksträdgård och en häck har olika behov. Har du flera bevattningszoner behöver du en sensor per zon och ett system som klarar flera.</li>
+</ul>
+
+<h2>De 4 bästa smarta markfuktighetssensorerna 2026</h2>
+
+<h3>1. Gardena smart Sensor – bäst totalt för automatisk bevattning</h3>
+<p><strong>Gardena smart Sensor</strong> (artikelnummer 19040-20) ingår i Gardena smart system. Den mäter markfuktigheten och temperaturen nära marken med en stor mätyta som trycks ner till rotnivå. Det platta höljet sticker bara upp ungefär 2 cm över marken, så sensorn kan sitta kvar i en gräsmatta som klipps av en robotgräsklippare.</p>
+<p>Styrkan ligger i integrationen. Tillsammans med Gardena smart Water Control (på kranen) eller smart Irrigation Control (flera ventiler) kan du schemalägga bevattning som bara startar om jorden är torrare än det gränsvärde du har valt i appen Gardena smart. Enligt Gardena räcker två AA-batterier en hel trädgårdssäsong.</p>
+<p><strong>Styrkor:</strong> enkel inställning i en enda app, en komplett kedja från sensor till bevattningsdator utan krångel, en form som passar gräsmattor som klipps av robot.</p>
+<p><strong>Svagheter:</strong> Gardena smart Gateway krävs (den ingår i startpaketen för smart system), och sensorn gör egentligen bara nytta tillsammans med en bevattningsdator från Gardena smart.</p>
+<p><strong>Passar för:</strong> trädgårdar som redan har Gardena, eller dig som vill ha automatisk bevattning som är klar att använda utan en smarthemshubb.</p>
+
+<h3>2. Ecowitt WH51 – mest prisvärd för flera zoner</h3>
+<p><strong>Ecowitt WH51</strong> är en trådlös markfuktighetssensor som i den europeiska versionen sänder på 868 MHz till en wifi-gateway från Ecowitt (GW1100, GW1200 eller GW2000). Ecowitt säljer också paketet GW1206, med gatewayen GW1200 och en WH51. Sensorn har kapslingsklass IP66, drivs av ett enda AA-batteri och skickar ett nytt fuktvärde (0–100 %) ungefär var 70:e sekund.</p>
+<p>Den största fördelen är att systemet går att bygga ut: en gateway klarar upp till 16 WH51-sensorer, så du kan följa gräsmattan, köksträdgården, blomlådorna och växthuset i samma app. Gatewayen fungerar också med Home Assistant via Ecowitt-integrationen, så att du kan styra en smart ventil utifrån den uppmätta fukten.</p>
+<p><strong>Styrkor:</strong> radio med lång räckvidd, prisvärda enskilda sensorer, många sensorer per gateway, öppen integration med smarta hem.</p>
+<p><strong>Svagheter:</strong> den mäter bara fukt (inte marktemperatur) och styr inte bevattningen på egen hand – för att öppna en ventil behöver du en smarthemshubb eller en automation.</p>
+<p><strong>Passar för:</strong> trädgårdar med flera zoner, dig som redan har en väderstation från Ecowitt och användare av Home Assistant.</p>
+
+<h3>3. ThirdReality Smart Soil Moisture Sensor Gen2 – Zigbee-alternativet för smarta hem</h3>
+<p><strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> (europeisk artikelkod 3RDZP1SMS1B-EU) är en kapacitiv Zigbee 3.0-sensor som mäter markfuktighet och marktemperatur. Den drivs av ett AA-batteri, och enligt tillverkaren räcker batteriet upp till tre år vid normal användning.</p>
+<p>Den ansluts till en befintlig Zigbee-hubb: Home Assistant (ZHA eller Zigbee2MQTT), Hubitat, SmartThings, Homey eller en Amazon Echo med inbyggd Zigbee-hubb. Sedan kan du skapa en regel i stil med ”om fuktigheten sjunker under 30 %, öppna ventilen i 15 minuter” med vilken ventil som helst som din hubb stöder.</p>
+<p><strong>Styrkor:</strong> standardprotokoll, lång batteritid, mäter temperatur, ingen egen app från tillverkaren krävs.</p>
+<p><strong>Svagheter:</strong> en Zigbee-hubb är ett måste, och räckvidden beror på ditt nätverk: längst bort i en stor trädgård kan du behöva en Zigbee-repeater för utomhusbruk. Läs i bruksanvisningen under vilka förhållanden den får användas utomhus innan du låter den sitta i marken året runt.</p>
+<p><strong>Passar för:</strong> hem som redan har Zigbee och vill ta med trädgården i sina automationer.</p>
+
+<h3>4. Xiaomi Mi Flora – mest komplett för krukväxter</h3>
+<p><strong>Xiaomi Mi Flora</strong>, som också säljs under namnet Flower Care, är en liten Bluetooth-sensor som mäter fyra saker: markfuktighet, ljus, temperatur och jordens ledningsförmåga, ett mått på hur näringsrik jorden är. Appen jämför värdena med varje växtarts behov med hjälp av en växtdatabas och talar om vad som saknas.</p>
+<p>Den drivs av en knappcell av typen CR2032. Bluetooth begränsar räckvidden till några meter, så den passar på balkongen, på altanen eller till inomhusväxter. Användare av Home Assistant kan ansluta den via integrationen Xiaomi BLE och en Bluetooth-proxy i närheten.</p>
+<p><strong>Styrkor:</strong> fyra mätvärden i ett litet format, råd för varje växtart, brett stöd i smarthemssystem.</p>
+<p><strong>Svagheter:</strong> kort räckvidd, ingen direkt koppling till en bevattningsdator, mer gjord för krukor än för att sitta ute i marken året runt. Tillgången varierar mellan återförsäljare.</p>
+<p><strong>Passar för:</strong> balkongodlare, samlingar av inomhusväxter och krukor på altanen.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Mäter</th><th>Uppkoppling</th><th>Batteri</th><th>Styr bevattningen</th><th>Passar bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Gardena smart Sensor</td><td>Fukt, marktemperatur</td><td>Gardenas radio + smart Gateway</td><td>2 × AA</td><td>Direkt med Gardena smart</td><td>Nyckelfärdig automatisk bevattning</td></tr>
+<tr><td>Ecowitt WH51</td><td>Fukt</td><td>868 MHz + wifi-gateway från Ecowitt</td><td>1 × AA</td><td>Via Home Assistant</td><td>Flera zoner, väderstation</td></tr>
+<tr><td>ThirdReality Gen2</td><td>Fukt, marktemperatur</td><td>Zigbee 3.0 (hubb krävs)</td><td>1 × AA</td><td>Via din Zigbee-hubb</td><td>Smarta hem med Zigbee</td></tr>
+<tr><td>Xiaomi Mi Flora</td><td>Fukt, ljus, temperatur, ledningsförmåga</td><td>Bluetooth</td><td>CR2032</td><td>Nej (bara notiser)</td><td>Krukor, balkong, inomhus</td></tr>
+</tbody>
+</table>
+
+<h2>Var och hur du placerar sensorn</h2>
+<ul>
+<li><strong>I rotzonen</strong>: ungefär 10 cm för en gräsmatta, 15–20 cm för en köksträdgård och djupare för buskar. Tryck ner hela mätdelen.</li>
+<li><strong>På en representativ plats</strong>: inte tätt intill en husvägg, inte under ett träd som fångar upp regnet och inte direkt under ett droppmunstycke eller i strålen från en vattenspridare.</li>
+<li><strong>En sensor per bevattningszon</strong>: om en solig gräsmatta och en skuggig rabatt delar på en sensor kommer den ena att vattnas fel.</li>
+<li><strong>Tryck till jorden ordentligt</strong> runt givaren: en luftficka ger felaktiga värden. Vänta en till två dagar innan du ställer in gränsvärdena.</li>
+<li><strong>Tänk på vintern</strong>: beroende på modell och bruksanvisning tar du in sensorn innan frosten kommer eller tar ur batterierna om den sitter kvar ute utan att användas.</li>
+</ul>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa en sensor utan att kolla gatewayen</strong>: Gardena smart Sensor och Ecowitt WH51 fungerar inte på egen hand, och det gör inte ThirdReality heller utan en Zigbee-hubb.</li>
+<li><strong>Att lita blint på procentvärdet</strong>: 30 % i lerjord och 30 % i sandjord betyder inte samma sak. Ställ in gränsvärdet efter dina växter, inte efter en generell siffra.</li>
+<li><strong>Att välja Bluetooth längst bort i trädgården</strong>: räckvidden är för kort. Välj hellre radio med lång räckvidd.</li>
+<li><strong>Att glömma vädret</strong>: en sensor talar om att jorden är torr just nu, inte att det kommer att regna i morgon. Kombinera den om möjligt med en bevattningsdator som tar hänsyn till väderprognosen.</li>
+<li><strong>Att strunta i lokala restriktioner</strong>: en sensor ger dig inte rätt att vattna när det råder bevattningsförbud. Kontrollera vad som gäller i din kommun.</li>
+</ul>
+
+<h2>Vårt omdöme</h2>
+<p>För helt automatisk bevattning utan krånglig konfiguration är <strong>Gardena smart Sensor</strong> det mest självklara valet, förutsatt att du använder en bevattningsdator från Gardena smart. För att följa flera zoner inom en rimlig budget ger <strong>Ecowitt WH51</strong> den bästa kompromissen och fungerar dessutom med Home Assistant. Bygger ditt hem redan på Zigbee kan du lägga till <strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> i dina automationer utan ännu en app. För krukväxter och balkongen är <strong>Xiaomi Mi Flora</strong> fortfarande den som ger mest information. Vill du veta mer kan du läsa vår <a href="/sv/blog/guide-jardin-connecte-2026">guide till den smarta trädgården 2026</a>.</p>`,
+    us: `<p><strong>The best smart soil moisture sensor in 2026 for automatic yard and garden watering is the Gardena smart Sensor</strong>: it measures moisture at root level and holds off Gardena smart watering while the soil is still moist. If you want to monitor several zones on a reasonable budget, the Ecowitt WH51 is the most versatile, and if you already run a Zigbee smart home hub, the ThirdReality Smart Soil Moisture Sensor Gen2 connects straight to it.</p>
+<p>This guide is based on manufacturer specs, independent reviews and verified owner feedback. It only covers models sold in Europe. You’ll find compatible hose timers and controllers on our <a href="/us/outdoor-connecte/arrosage-connecte">smart irrigation page</a>.</p>
+
+<h2>What does a soil moisture sensor do?</h2>
+<p>A standard hose timer runs on the clock: every other day at 6 a.m., whether it rained the night before or not. A soil moisture sensor adds what that system lacks: a real measurement of the water available in the soil, where the roots are. Watering only happens when the soil needs it.</p>
+<p>The benefits are practical. You stop watering a soaked lawn after a storm, you spot a bed that dries out faster than the rest, and you avoid the overwatering that encourages root disease. During droughts, when local watering restrictions kick in, knowing exactly when to water also helps you make the most of the allowed watering times. How much you save depends heavily on your starting point: a yard that’s already watered carefully by hand will save less than one run by a simple timer.</p>
+<p>For an overview of timers and valves, read our <a href="/us/blog/arrosage-connecte-intelligent">smart irrigation guide</a>.</p>
+
+<h2>Capacitive or resistive: the technology matters</h2>
+<p><strong>Resistive</strong> sensors measure the current flowing between two metal electrodes pushed into the soil. They’re simple, but the electrodes oxidize over time and the readings drift. They’re poorly suited to staying in the ground permanently.</p>
+<p><strong>Capacitive</strong> sensors measure the soil’s permittivity, which changes with its water content, without direct electrical contact with the soil. They age better and are less affected by salts in the soil. Every model in this guide uses this approach or an equivalent measurement without bare electrodes. Keep in mind that no consumer sensor is a lab instrument: sandy and clay soils show different percentages for the same amount of water available to plants. Watch your plants for a few weeks and adjust your thresholds.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Link to watering</strong>: a sensor that only sends a notification still leaves you to turn on the faucet. A sensor paired with a same-brand hose timer or irrigation controller, or with a smart home hub, can skip or start watering on its own.</li>
+<li><strong>Connectivity</strong>: Bluetooth (short range, ideal for a balcony), long-range radio with a gateway (Ecowitt, Gardena), or Zigbee (hub required). A sensor at the back of the yard needs a radio that can reach it.</li>
+<li><strong>Measurements</strong>: soil moisture is the minimum. Soil temperature helps you hold off watering in cold weather. Light and conductivity (an indicator of nutrient salts) are mostly useful for potted plants.</li>
+<li><strong>Weather resistance</strong>: a sensor that stays outside year-round must be designed for outdoor use. Check the protection rating the manufacturer lists.</li>
+<li><strong>Batteries</strong>: AA (easy to find, often rechargeable) or a CR2032 coin cell. Expect at least one change per season on some models.</li>
+<li><strong>Number of zones</strong>: a lawn, a vegetable garden and a hedge have different needs. If you have several watering zones, plan on one sensor per zone and a system that can handle several.</li>
+</ul>
+
+<h2>The 4 best smart soil moisture sensors in 2026</h2>
+
+<h3>1. Gardena smart Sensor — best overall for automatic watering</h3>
+<p>The <strong>Gardena smart Sensor</strong> (item 19040-20) is part of the Gardena smart system. It measures soil moisture and near-ground temperature through a large measuring area pushed down to root level. Its flat housing sits only about 0.8 in (2 cm) above the ground, so it can stay put on a lawn cut by a robot mower.</p>
+<p>Integration is its strength. Paired with the Gardena smart Water Control (on an outdoor faucet) or the smart Irrigation Control (several valves), it lets you schedule watering that only starts if the soil is below the threshold set in the Gardena smart app. According to Gardena, two AA batteries keep it running for a full gardening season.</p>
+<p><strong>Pros:</strong> simple setup in a single app, a complete sensor-to-timer loop with no tinkering, a shape that suits robot-mowed lawns.</p>
+<p><strong>Cons:</strong> the Gardena smart Gateway is required (it comes with smart system starter sets), and the sensor only really makes sense with a Gardena smart water timer.</p>
+<p><strong>Best for:</strong> yards already set up with Gardena, or anyone who wants ready-to-use automatic watering without a smart home hub.</p>
+
+<h3>2. Ecowitt WH51 — best value for multiple zones</h3>
+<p>The <strong>Ecowitt WH51</strong> is a wireless soil moisture sensor, 868 MHz in its European version, that reports to an Ecowitt Wi-Fi gateway (GW1100, GW1200 or GW2000). Ecowitt also sells the GW1206 kit, which bundles the GW1200 gateway with one WH51. The sensor is IP66 rated, runs on a single AA battery and sends a new moisture reading (0 to 100%) roughly every 70 seconds.</p>
+<p>Its main advantage is scalability: one gateway accepts up to 16 WH51 sensors, so you can track the lawn, vegetable garden, planters and greenhouse in the same app. The gateway also works with Home Assistant through the Ecowitt integration, so you can control a smart valve based on measured moisture.</p>
+<p><strong>Pros:</strong> long-range radio, affordable individual sensors, many sensors per gateway, open smart home integration.</p>
+<p><strong>Cons:</strong> it only measures moisture (no soil temperature) and doesn’t control watering on its own: you need a smart home hub or an automation to operate a valve.</p>
+<p><strong>Best for:</strong> multi-zone yards, Ecowitt weather station owners and Home Assistant users.</p>
+
+<h3>3. ThirdReality Smart Soil Moisture Sensor Gen2 — the Zigbee option for smart homes</h3>
+<p>The <strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> (European model number 3RDZP1SMS1B-EU) is a capacitive Zigbee 3.0 sensor that measures soil moisture and temperature. It runs on one AA battery, with a claimed battery life of up to three years in typical use.</p>
+<p>It connects to an existing Zigbee hub: Home Assistant (ZHA or Zigbee2MQTT), Hubitat, SmartThings, Homey or an Amazon Echo with a built-in Zigbee hub. You can then create a rule such as “if moisture drops below 30%, open the valve for 15 minutes” with any valve your hub supports.</p>
+<p><strong>Pros:</strong> standard protocol, long battery life, temperature reading, no proprietary app required.</p>
+<p><strong>Cons:</strong> a Zigbee hub is required, and range depends on your network: in the far corner of a big yard, you may need an outdoor Zigbee repeater. Check the manual for outdoor use conditions before leaving it in the ground year-round.</p>
+<p><strong>Best for:</strong> homes already on Zigbee that want to bring the yard into their automations.</p>
+
+<h3>4. Xiaomi Mi Flora — the most complete for potted plants</h3>
+<p>The <strong>Xiaomi Mi Flora</strong>, also sold as Flower Care, is a small Bluetooth sensor that measures four things: soil moisture, light, temperature and soil conductivity, an indicator of fertility. Its app compares these readings with each species’ needs using a plant database and tells you what’s missing.</p>
+<p>It runs on a CR2032 coin cell. Bluetooth limits range to a few yards, so it suits a balcony, a patio or houseplants. Home Assistant users can connect it through the Xiaomi BLE integration and a nearby Bluetooth proxy.</p>
+<p><strong>Pros:</strong> four measurements in a small package, per-species advice, widely supported in home automation.</p>
+<p><strong>Cons:</strong> short range, no direct link to a hose timer, designed more for pots than for exposed ground year-round. Availability varies between retailers.</p>
+<p><strong>Best for:</strong> balcony gardeners, houseplant collections and patio containers.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Measurements</th><th>Connectivity</th><th>Power</th><th>Watering control</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Gardena smart Sensor</td><td>Moisture, soil temperature</td><td>Gardena radio + smart Gateway</td><td>2 × AA</td><td>Native with Gardena smart</td><td>Turnkey automatic watering</td></tr>
+<tr><td>Ecowitt WH51</td><td>Moisture</td><td>868 MHz + Ecowitt Wi-Fi gateway</td><td>1 × AA</td><td>Via Home Assistant</td><td>Multiple zones, weather station</td></tr>
+<tr><td>ThirdReality Gen2</td><td>Moisture, soil temperature</td><td>Zigbee 3.0 (hub required)</td><td>1 × AA</td><td>Via your Zigbee hub</td><td>Zigbee smart homes</td></tr>
+<tr><td>Xiaomi Mi Flora</td><td>Moisture, light, temperature, conductivity</td><td>Bluetooth</td><td>CR2032</td><td>No (alerts only)</td><td>Pots, balconies, indoors</td></tr>
+</tbody>
+</table>
+
+<h2>Where and how to install the sensor</h2>
+<ul>
+<li><strong>In the root zone</strong>: about 4 in (10 cm) deep for a lawn, 6 to 8 in (15 to 20 cm) for a vegetable garden, deeper for shrubs. Push the measuring part in all the way.</li>
+<li><strong>In a representative spot</strong>: not at the foot of a wall, not under a tree that blocks the rain, not right under a drip emitter or in the direct spray of a sprinkler.</li>
+<li><strong>One sensor per watering zone</strong>: if a sunny lawn and a shady bed share one sensor, one of them will be watered badly.</li>
+<li><strong>Pack the soil</strong> around the probe: an air pocket skews the reading. Wait a day or two before setting your thresholds.</li>
+<li><strong>Plan for winter</strong>: depending on the model and its manual, bring the sensor in before the first frost or remove the batteries if it stays outside unused.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a sensor without checking the gateway</strong>: the Gardena smart Sensor and Ecowitt WH51 don’t work on their own, and neither does the ThirdReality without a Zigbee hub.</li>
+<li><strong>Trusting the raw percentage</strong>: 30% in clay and 30% in sand don’t mean the same thing. Set the threshold based on your plants, not on a generic figure.</li>
+<li><strong>Choosing Bluetooth for the back of the yard</strong>: the range won’t reach. Go for long-range radio.</li>
+<li><strong>Forgetting the weather</strong>: a sensor tells you the soil is dry now, not that it will rain tomorrow. Pair it with a timer that uses forecasts where possible.</li>
+<li><strong>Ignoring local restrictions</strong>: a sensor doesn’t exempt you from watering restrictions. Check the rules set by your water utility or town.</li>
+</ul>
+
+<h2>The bottom line</h2>
+<p>For fully automatic watering without a complicated setup, the <strong>Gardena smart Sensor</strong> is the most seamless choice, as long as you use a Gardena smart water timer. To monitor several zones on a modest budget, the <strong>Ecowitt WH51</strong> offers the best balance and opens up to Home Assistant. If your home already runs on Zigbee, the <strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> slots into your automations without another app. For potted plants and balconies, the <strong>Xiaomi Mi Flora</strong> still gives you the most information. To go further, see our <a href="/us/blog/guide-jardin-connecte-2026">smart yard and garden guide 2026</a>.</p>`,
+    ca: `<p><strong>The best smart soil moisture sensor in 2026 for a yard with automatic watering is the Gardena smart Sensor</strong>: it measures moisture at root level and holds back Gardena smart watering while the soil is still damp. If you want to monitor several zones on a reasonable budget, the Ecowitt WH51 is the most versatile, and if you already run a Zigbee smart home hub, the ThirdReality Smart Soil Moisture Sensor Gen2 connects straight to it.</p>
+<p>This guide is based on manufacturer specifications, independent reviews and verified buyer reviews. It only covers models sold in Europe. Models and versions sold in Canada can differ from the European ones: check that the listing is for a North American model, since radio frequencies can differ by region. You’ll find compatible hose timers and sprinkler controllers on our <a href="/ca/outdoor-connecte/arrosage-connecte">smart irrigation page</a>.</p>
+
+<h2>What does a soil moisture sensor do?</h2>
+<p>A standard hose timer runs on the clock: every other day at 6 a.m., whether it rained the night before or not. A soil moisture sensor adds what that setup lacks: a real measurement of the water available in the soil, where the roots are. You only water when the soil needs it.</p>
+<p>The benefits are practical. You stop watering a soaked lawn after a storm, you spot a flower bed that dries out faster than the rest, and you avoid the overwatering that encourages root disease. During dry spells, when your municipality restricts lawn watering, knowing exactly when to water also helps you make the most of the permitted times. How much you save depends heavily on your starting point: a yard you already water carefully by hand will save less than one run by a simple timer.</p>
+<p>For an overview of timers and valves, read our <a href="/ca/blog/arrosage-connecte-intelligent">smart irrigation guide</a>.</p>
+
+<h2>Capacitive or resistive: the technology matters</h2>
+<p><strong>Resistive</strong> sensors measure the current flowing between two metal electrodes pushed into the soil. They’re simple, but the electrodes oxidize over time and the readings drift. They’re poorly suited to staying in the ground permanently.</p>
+<p><strong>Capacitive</strong> sensors measure the soil’s permittivity, which changes with its water content, without direct electrical contact with the soil. They age better and are less affected by salts in the soil. Every model in this guide uses this approach or an equivalent measurement without bare electrodes. Keep in mind that no consumer sensor is a lab instrument: sandy and clay soils show different percentages for the same amount of water available to plants. Watch your plants for a few weeks and adjust your thresholds.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Link to watering</strong>: a sensor that only sends a notification still leaves you to turn on the water. A sensor paired with a same-brand hose timer, or with a smart home hub, can skip or start watering by itself.</li>
+<li><strong>Connectivity</strong>: Bluetooth (short range, ideal for a balcony), long-range radio with a gateway (Ecowitt, Gardena) or Zigbee (hub required). A sensor at the far end of the yard needs a radio that can reach it.</li>
+<li><strong>Measurements</strong>: soil moisture is the minimum. Soil temperature helps you hold off watering in cold weather. Light and conductivity (an indicator of nutrient salts) are mostly useful for potted plants.</li>
+<li><strong>Weather resistance</strong>: a sensor that stays outside all year must be designed for outdoor use. Check the protection rating given by the manufacturer.</li>
+<li><strong>Batteries</strong>: AA (easy to find, often rechargeable) or a CR2032 coin cell. Expect at least one change per season on some models.</li>
+<li><strong>Number of zones</strong>: a lawn, a vegetable garden and a hedge have different needs. If you have several watering zones, plan one sensor per zone and a system that can handle several.</li>
+</ul>
+
+<h2>The 4 best smart soil moisture sensors in 2026</h2>
+
+<h3>1. Gardena smart Sensor — best overall for automatic watering</h3>
+<p>The <strong>Gardena smart Sensor</strong> (item 19040-20) is part of the Gardena smart system. It measures soil moisture and near-ground temperature through a large measuring area pushed down to root level. Its flat housing sits only about 2 cm (¾ in.) above the ground, so it can stay on a lawn cut by a robot mower.</p>
+<p>Integration is its strength. Paired with the Gardena smart Water Control (on an outdoor faucet) or the smart Irrigation Control (several valves), it lets you schedule watering that only starts if the soil is below the threshold set in the Gardena smart app. According to Gardena, two AA batteries keep it running for a gardening season.</p>
+<p><strong>Strengths:</strong> simple setup in a single app, a complete sensor-to-timer loop with no tinkering, a low profile that suits lawns cut by a robot mower.</p>
+<p><strong>Limitations:</strong> the Gardena smart Gateway is essential (it comes with smart system starter sets), and the sensor only really makes sense with a Gardena smart hose timer.</p>
+<p><strong>Who it’s for:</strong> yards already set up with Gardena, or anyone who wants ready-to-use automatic watering without a smart home hub.</p>
+
+<h3>2. Ecowitt WH51 — best value for multiple zones</h3>
+<p>The <strong>Ecowitt WH51</strong> is a wireless soil moisture sensor, 868 MHz in its European version, that reports to an Ecowitt Wi-Fi gateway (GW1100, GW1200 or GW2000). Ecowitt also sells the GW1206 kit, which bundles the GW1200 gateway with one WH51. The sensor is IP66 rated, runs on a single AA battery and sends a new moisture reading (0 to 100%) roughly every 70 seconds.</p>
+<p>Its main advantage is scalability: one gateway accepts up to 16 WH51 sensors, so you can follow the lawn, vegetable garden, planters and greenhouse in the same app. The gateway also works with Home Assistant through the Ecowitt integration, so you can control a smart valve based on measured moisture.</p>
+<p><strong>Strengths:</strong> long-range radio, affordable individual sensors, many sensors per gateway, open smart home integration.</p>
+<p><strong>Limitations:</strong> it only measures moisture (no soil temperature) and doesn’t control watering on its own: you need a smart home hub or automation to operate a valve.</p>
+<p><strong>Who it’s for:</strong> yards with several zones, owners of an Ecowitt weather station and Home Assistant users.</p>
+
+<h3>3. ThirdReality Smart Soil Moisture Sensor Gen2 — the Zigbee option for smart homes</h3>
+<p>The <strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> (European model number 3RDZP1SMS1B-EU) is a capacitive Zigbee 3.0 sensor that measures soil moisture and temperature. It runs on one AA battery, with a claimed battery life of up to three years in typical use.</p>
+<p>It connects to an existing Zigbee hub: Home Assistant (ZHA or Zigbee2MQTT), Hubitat, SmartThings, Homey or an Amazon Echo with a built-in Zigbee hub. You can then create a rule such as “if moisture drops below 30%, open the valve for 15 minutes” with any valve your hub supports.</p>
+<p><strong>Strengths:</strong> standard protocol, long battery life, temperature reading, no proprietary app required.</p>
+<p><strong>Limitations:</strong> a Zigbee hub is essential, and range depends on your network: at the far end of a large yard you may need an outdoor Zigbee repeater. Check the manual for outdoor use conditions before leaving it in the ground all year.</p>
+<p><strong>Who it’s for:</strong> homes already on Zigbee that want to bring the yard and garden into their automations.</p>
+
+<h3>4. Xiaomi Mi Flora — the most complete for potted plants</h3>
+<p>The <strong>Xiaomi Mi Flora</strong>, also sold as Flower Care, is a small Bluetooth sensor that measures four things: soil moisture, light, temperature and soil conductivity, an indicator of fertility. Its app compares these readings with each species’ needs using a plant database and tells you what’s lacking.</p>
+<p>It runs on a CR2032 coin cell. Bluetooth limits range to a few metres, so it suits a balcony, a patio or houseplants. Home Assistant users can connect it through the Xiaomi BLE integration and a nearby Bluetooth proxy.</p>
+<p><strong>Strengths:</strong> four measurements in a small package, per-species advice, widely supported by smart home platforms.</p>
+<p><strong>Limitations:</strong> short range, no direct link to a hose timer, designed more for pots than for soil exposed to the elements all year. Availability varies between retailers.</p>
+<p><strong>Who it’s for:</strong> balcony gardeners, houseplant collections and patio containers.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Measurements</th><th>Connectivity</th><th>Power</th><th>Watering control</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Gardena smart Sensor</td><td>Moisture, soil temperature</td><td>Gardena radio + smart Gateway</td><td>2 × AA</td><td>Native with Gardena smart</td><td>Turnkey automatic watering</td></tr>
+<tr><td>Ecowitt WH51</td><td>Moisture</td><td>868 MHz + Ecowitt Wi-Fi gateway</td><td>1 × AA</td><td>Via Home Assistant</td><td>Multiple zones, weather station</td></tr>
+<tr><td>ThirdReality Gen2</td><td>Moisture, soil temperature</td><td>Zigbee 3.0 (hub required)</td><td>1 × AA</td><td>Via your Zigbee hub</td><td>Zigbee smart homes</td></tr>
+<tr><td>Xiaomi Mi Flora</td><td>Moisture, light, temperature, conductivity</td><td>Bluetooth</td><td>CR2032</td><td>No (alerts only)</td><td>Pots, balcony, indoors</td></tr>
+</tbody>
+</table>
+
+<h2>Where and how to install the sensor</h2>
+<ul>
+<li><strong>In the root zone</strong>: about 10 cm (4 in.) for a lawn, 15 to 20 cm (about 6 to 8 in.) for a vegetable garden, deeper for shrubs. Push the measuring part in fully.</li>
+<li><strong>In a representative spot</strong>: not at the foot of a wall, not under a tree that blocks the rain, not right under a dripper or in the direct spray of a sprinkler.</li>
+<li><strong>One sensor per watering zone</strong>: if a sunny lawn and a shady flower bed share one sensor, one of them will be watered badly.</li>
+<li><strong>Firm the soil</strong> around the probe: an air pocket skews the reading. Wait a day or two before setting your thresholds.</li>
+<li><strong>Plan for winter</strong>: depending on the model and its manual, bring the sensor in before the ground freezes or remove the batteries if it stays outside unused.</li>
+</ul>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a sensor without checking the gateway</strong>: the Gardena smart Sensor and Ecowitt WH51 don’t work on their own, and neither does the ThirdReality without a Zigbee hub.</li>
+<li><strong>Trusting the raw percentage</strong>: 30% in clay and 30% in sand don’t mean the same thing. Set the threshold based on your plants, not on a generic figure.</li>
+<li><strong>Choosing Bluetooth for the back of the yard</strong>: the range isn’t enough. Go for long-range radio.</li>
+<li><strong>Forgetting the weather</strong>: a sensor tells you the soil is dry now, not that it will rain tomorrow. Where possible, pair it with a timer that uses the forecast.</li>
+<li><strong>Ignoring local restrictions</strong>: a sensor doesn’t exempt you from watering restrictions. Check the rules set by your municipality.</li>
+</ul>
+
+<h2>Our verdict</h2>
+<p>For fully automatic watering without a complicated setup, the <strong>Gardena smart Sensor</strong> is the most logical choice, as long as you use a Gardena smart hose timer. To monitor several zones on a reasonable budget, the <strong>Ecowitt WH51</strong> offers the best balance and works with Home Assistant. If your home already runs on Zigbee, the <strong>ThirdReality Smart Soil Moisture Sensor Gen2</strong> slots into your automations without another app. For potted plants and balconies, the <strong>Xiaomi Mi Flora</strong> still gives you the most information. To go further, see our <a href="/ca/blog/guide-jardin-connecte-2026">smart backyard guide 2026</a>.</p>`,
   },
   faq: [
     {
@@ -652,6 +916,9 @@ export const article: BlogArticle = {
         it: 'A che profondità va inserito un sensore di umidità del suolo?',
         nl: 'Hoe diep moet een bodemvochtsensor de grond in?',
         pl: 'Na jakiej głębokości umieścić czujnik wilgotności gleby?',
+        sv: 'Hur djupt ska en markfuktighetssensor sitta?',
+        us: 'How deep should a soil moisture sensor go?',
+        ca: 'How deep should a soil moisture sensor go?',
       },
       answer: {
         fr: 'Placez la partie de mesure dans la zone où se trouvent la plupart des racines : environ 10 cm pour une pelouse, 15 à 20 cm pour un potager, davantage pour des arbustes. Enfoncez-la entièrement, tassez bien la terre autour et évitez la proximité directe d’un goutteur ou d’un arroseur, qui fausserait la mesure.',
@@ -660,7 +927,10 @@ export const article: BlogArticle = {
         es: 'Coloque la parte de medición donde está la mayoría de las raíces: unos 10 cm para un césped, de 15 a 20 cm para un huerto, más hondo para arbustos. Introdúzcala por completo, apriete bien la tierra alrededor y aléjela de goteros o aspersores, que falsearían la lectura.',
         it: 'Posizionate la parte di misura dove si trova la maggior parte delle radici: circa 10 cm per un prato, da 15 a 20 cm per un orto, più in profondità per gli arbusti. Inseritela completamente, compattate bene la terra intorno e tenetela lontana da gocciolatori o irrigatori, che falserebbero la lettura.',
         nl: 'Plaats het meetgedeelte waar de meeste wortels zitten: ongeveer 10 cm voor een gazon, 15 tot 20 cm voor een moestuin, dieper voor struiken. Steek het er volledig in, druk de grond goed aan en houd afstand van druppelaars of sproeiers, die de meting vertekenen.',
-        pl: 'Umieść część pomiarową w strefie, gdzie znajduje się większość korzeni: około 10 cm dla trawnika, 15–20 cm dla warzywnika, głębiej dla krzewów. Wbij ją całkowicie, dobrze ubij ziemię wokół i unikaj bezpośredniej bliskości kroplownika lub zraszacza, które zafałszowałyby pomiar.',
+        pl: 'Część pomiarowa powinna się znaleźć tam, gdzie jest najwięcej korzeni: ok. 10 cm pod powierzchnią w trawniku, 15–20 cm w warzywniku i głębiej przy krzewach. Wbij ją na całą długość, dobrze ubij wokół niej ziemię i nie umieszczaj czujnika tuż przy kroplowniku ani zraszaczu, bo zafałszują pomiar.',
+        sv: 'Placera mätdelen där de flesta rötterna finns: ungefär 10 cm för en gräsmatta, 15–20 cm för en köksträdgård och djupare för buskar. Tryck ner den helt, packa jorden ordentligt runt den och håll den borta från droppmunstycken och vattenspridare, som annars ger felaktiga värden.',
+        us: 'Put the measuring part where most of the roots are: about 4 in (10 cm) deep for a lawn, 6 to 8 in (15 to 20 cm) for a vegetable garden, deeper for shrubs. Push it in all the way, pack the soil around it and keep it away from a drip emitter or sprinkler, which would skew the reading.',
+        ca: 'Put the measuring part where most of the roots are: about 10 cm (4 in.) for a lawn, 15 to 20 cm (about 6 to 8 in.) for a vegetable garden, deeper for shrubs. Push it in fully, firm the soil around it and keep it away from a dripper or sprinkler, which would skew the reading.',
       },
     },
     {
@@ -672,6 +942,9 @@ export const article: BlogArticle = {
         it: 'Un sensore di umidità del suolo può gestire l’irrigazione in automatico?',
         nl: 'Kan een bodemvochtsensor de bewatering automatisch aansturen?',
         pl: 'Czy czujnik wilgotności gleby może automatycznie sterować nawadnianiem?',
+        sv: 'Kan en markfuktighetssensor styra bevattningen automatiskt?',
+        us: 'Can a soil moisture sensor control watering automatically?',
+        ca: 'Can a soil moisture sensor control watering automatically?',
       },
       answer: {
         fr: 'Oui, s’il est relié à un programmateur ou à une box domotique. Le Gardena smart Sensor le fait nativement avec les programmateurs Gardena smart. L’Ecowitt WH51 et le ThirdReality Gen2 passent par Home Assistant ou une box Zigbee pour ouvrir une vanne connectée. Le Xiaomi Mi Flora, lui, se limite à des alertes.',
@@ -680,7 +953,10 @@ export const article: BlogArticle = {
         es: 'Sí, si está vinculado a un programador o a una central domótica. El Gardena smart Sensor lo hace de forma nativa con los programadores Gardena smart. El Ecowitt WH51 y el ThirdReality Gen2 pasan por Home Assistant o una central Zigbee para abrir una válvula conectada. El Xiaomi Mi Flora solo envía alertas.',
         it: 'Sì, se è collegato a un programmatore o a una centralina domotica. Il Gardena smart Sensor lo fa in modo nativo con i programmatori Gardena smart. L’Ecowitt WH51 e il ThirdReality Gen2 passano da Home Assistant o da una centralina Zigbee per aprire una valvola connessa. Lo Xiaomi Mi Flora si limita agli avvisi.',
         nl: 'Ja, als hij gekoppeld is aan een watertimer of een smart-home-hub. De Gardena smart Sensor doet dat native met Gardena smart-timers. De Ecowitt WH51 en ThirdReality Gen2 openen een slimme klep via Home Assistant of een Zigbee-hub. De Xiaomi Mi Flora stuurt alleen meldingen.',
-        pl: 'Tak, jeśli jest połączony ze sterownikiem lub centralką inteligentnego domu. Gardena smart Sensor robi to natywnie ze sterownikami Gardena smart. Ecowitt WH51 i ThirdReality Gen2 korzystają z Home Assistant lub centralki Zigbee, aby otworzyć inteligentny zawór. Xiaomi Mi Flora ogranicza się natomiast do alertów.',
+        pl: 'Tak, jeśli jest połączony ze sterownikiem lub centralką inteligentnego domu. Gardena smart Sensor współpracuje w ten sposób bezpośrednio ze sterownikami Gardena smart. Ecowitt WH51 i ThirdReality Gen2 otwierają inteligentny zawór za pośrednictwem Home Assistant lub centralki Zigbee. Xiaomi Mi Flora wysyła natomiast tylko alerty.',
+        sv: 'Ja, om den är kopplad till en bevattningsdator eller en smarthemshubb. Gardena smart Sensor gör det direkt med bevattningsdatorerna i Gardena smart. Ecowitt WH51 och ThirdReality Gen2 går via Home Assistant eller en Zigbee-hubb för att öppna en smart ventil. Xiaomi Mi Flora skickar bara notiser.',
+        us: 'Yes, if it’s linked to a hose timer, an irrigation controller or a smart home hub. The Gardena smart Sensor does it natively with Gardena smart timers. The Ecowitt WH51 and ThirdReality Gen2 go through Home Assistant or a Zigbee hub to open a smart valve. The Xiaomi Mi Flora only sends alerts.',
+        ca: 'Yes, if it’s linked to a hose timer or a smart home hub. The Gardena smart Sensor does it natively with Gardena smart timers. The Ecowitt WH51 and ThirdReality Gen2 go through Home Assistant or a Zigbee hub to open a smart valve. The Xiaomi Mi Flora only sends alerts.',
       },
     },
     {
@@ -692,6 +968,9 @@ export const article: BlogArticle = {
         it: 'Quanti sensori servono per un giardino?',
         nl: 'Hoeveel sensoren heeft een tuin nodig?',
         pl: 'Ile czujników potrzeba do ogrodu?',
+        sv: 'Hur många sensorer behöver en trädgård?',
+        us: 'How many sensors does a yard need?',
+        ca: 'How many sensors does a yard need?',
       },
       answer: {
         fr: 'Comptez un capteur par zone d’arrosage ayant des besoins différents : pelouse au soleil, massif à l’ombre, potager. Un petit jardin homogène peut se contenter d’un seul capteur bien placé. Pour plusieurs zones, un système comme l’Ecowitt WH51, qui accepte jusqu’à 16 capteurs par passerelle, est plus pratique.',
@@ -700,7 +979,10 @@ export const article: BlogArticle = {
         es: 'Cuente con un sensor por cada zona de riego con necesidades distintas: césped al sol, parterre a la sombra, huerto. Un jardín pequeño y homogéneo puede arreglarse con un solo sensor bien colocado. Para varias zonas, un sistema como el Ecowitt WH51, que admite hasta 16 sensores por pasarela, resulta más práctico.',
         it: 'Prevedete un sensore per ogni zona di irrigazione con esigenze diverse: prato al sole, aiuola all’ombra, orto. A un giardino piccolo e omogeneo può bastare un solo sensore ben posizionato. Per più zone è più pratico un sistema come l’Ecowitt WH51, che accetta fino a 16 sensori per gateway.',
         nl: 'Reken op één sensor per bewateringszone met andere behoeften: zonnig gazon, schaduwrijke border, moestuin. Een kleine, egale tuin kan toe met één goed geplaatste sensor. Voor meerdere zones is een systeem als de Ecowitt WH51, met tot 16 sensoren per gateway, handiger.',
-        pl: 'Licz jeden czujnik na strefę nawadniania o odmiennych potrzebach: nasłoneczniony trawnik, rabata w cieniu, warzywnik. Mały jednorodny ogród może poprzestać na jednym dobrze umieszczonym czujniku. Przy kilku strefach wygodniejszy jest system taki jak Ecowitt WH51, który obsługuje do 16 czujników na bramkę.',
+        pl: 'Zaplanuj po jednym czujniku na każdą strefę nawadniania o innych potrzebach: nasłoneczniony trawnik, zacienioną rabatę, warzywnik. W małym, jednolitym ogrodzie wystarczy jeden dobrze umieszczony czujnik. Przy kilku strefach wygodniejszy jest system taki jak Ecowitt WH51, który obsługuje do 16 czujników na jednej bramce.',
+        sv: 'Räkna med en sensor per bevattningszon med olika behov: solig gräsmatta, skuggig rabatt, köksträdgård. I en liten trädgård där förhållandena är desamma överallt räcker det med en enda välplacerad sensor. För flera zoner är ett system som Ecowitt WH51, som klarar upp till 16 sensorer per gateway, smidigare.',
+        us: 'Plan on one sensor per watering zone with different needs: sunny lawn, shady bed, vegetable garden. A small yard with even conditions can get by with one well-placed sensor. For several zones, a system like the Ecowitt WH51, which accepts up to 16 sensors per gateway, is more convenient.',
+        ca: 'Plan one sensor per watering zone with different needs: sunny lawn, shady flower bed, vegetable garden. A small, uniform yard can make do with one well-placed sensor. For several zones, a system like the Ecowitt WH51, which accepts up to 16 sensors per gateway, is more convenient.',
       },
     },
     {
@@ -712,6 +994,9 @@ export const article: BlogArticle = {
         it: 'Che differenza c’è tra un sensore capacitivo e uno resistivo?',
         nl: 'Wat is het verschil tussen een capacitieve en een resistieve sensor?',
         pl: 'Czym różni się czujnik pojemnościowy od rezystancyjnego?',
+        sv: 'Vad är skillnaden mellan en kapacitiv och en resistiv sensor?',
+        us: 'What is the difference between a capacitive and a resistive sensor?',
+        ca: 'What is the difference between a capacitive and a resistive sensor?',
       },
       answer: {
         fr: 'Un capteur résistif mesure le courant entre deux électrodes métalliques dans la terre : il est simple mais ses électrodes s’oxydent et la mesure dérive. Un capteur capacitif mesure les propriétés électriques du sol sans contact métallique direct : il vieillit mieux et convient à un usage permanent au jardin.',
@@ -720,7 +1005,10 @@ export const article: BlogArticle = {
         es: 'Un sensor resistivo mide la corriente entre dos electrodos metálicos en la tierra: es sencillo, pero los electrodos se oxidan y la lectura se desvía. Un sensor capacitivo mide las propiedades eléctricas del suelo sin contacto metálico directo: envejece mejor y sirve para un uso permanente en el jardín.',
         it: 'Un sensore resistivo misura la corrente tra due elettrodi metallici nel terreno: è semplice, ma gli elettrodi si ossidano e la lettura deriva. Un sensore capacitivo misura le proprietà elettriche del suolo senza contatto metallico diretto: invecchia meglio ed è adatto a un uso permanente in giardino.',
         nl: 'Een resistieve sensor meet de stroom tussen twee metalen elektroden in de grond: eenvoudig, maar de elektroden oxideren en de meting gaat afwijken. Een capacitieve sensor meet de elektrische eigenschappen van de bodem zonder direct metaalcontact: hij veroudert beter en is geschikt voor permanent gebruik in de tuin.',
-        pl: 'Czujnik rezystancyjny mierzy prąd między dwiema metalowymi elektrodami w ziemi: jest prosty, ale jego elektrody się utleniają, a pomiar się rozjeżdża. Czujnik pojemnościowy mierzy elektryczne właściwości gleby bez bezpośredniego kontaktu metalu z ziemią: starzeje się wolniej i nadaje się do stałego użytku w ogrodzie.',
+        pl: 'Czujnik rezystancyjny mierzy prąd płynący między dwiema metalowymi elektrodami w ziemi: ma prostą budowę, ale elektrody się utleniają, a pomiar z czasem traci dokładność. Czujnik pojemnościowy mierzy właściwości elektryczne gleby bez bezpośredniego kontaktu metalu z ziemią, dlatego jest trwalszy i może pracować w ogrodzie na stałe.',
+        sv: 'En resistiv sensor mäter strömmen mellan två metallelektroder i jorden: den är enkel, men elektroderna oxiderar och mätvärdena börjar glida. En kapacitiv sensor mäter jordens elektriska egenskaper utan direkt metallkontakt: den åldras bättre och klarar att sitta permanent i trädgården.',
+        us: 'A resistive sensor measures the current between two metal electrodes in the soil: it’s simple, but the electrodes oxidize and the reading drifts. A capacitive sensor measures the soil’s electrical properties without direct metal contact: it ages better and suits staying in the ground permanently.',
+        ca: 'A resistive sensor measures the current between two metal electrodes in the soil: it’s simple, but the electrodes oxidize and the reading drifts. A capacitive sensor measures the soil’s electrical properties without direct metal contact: it ages better and suits permanent use outdoors.',
       },
     },
     {
@@ -732,6 +1020,9 @@ export const article: BlogArticle = {
         it: 'Un sensore di umidità del suolo funziona in vaso?',
         nl: 'Werkt een bodemvochtsensor ook in een pot?',
         pl: 'Czy czujnik wilgotności gleby działa w doniczce?',
+        sv: 'Fungerar en markfuktighetssensor i en kruka?',
+        us: 'Does a soil moisture sensor work in a pot?',
+        ca: 'Does a soil moisture sensor work in a pot?',
       },
       answer: {
         fr: 'Oui. La terre d’un pot sèche plus vite qu’en pleine terre, ce qui rend le suivi particulièrement utile. Choisissez un pot assez profond pour enfoncer entièrement la partie de mesure et placez le capteur à mi-chemin entre la tige et la paroi. Le Xiaomi Mi Flora est le plus adapté à cet usage.',
@@ -740,7 +1031,10 @@ export const article: BlogArticle = {
         es: 'Sí. La tierra de una maceta se seca antes que la del jardín, por lo que el seguimiento resulta especialmente útil. Elija una maceta lo bastante profunda para introducir por completo la parte de medición y coloque el sensor entre el tallo y la pared. El Xiaomi Mi Flora es el más adecuado para este uso.',
         it: 'Sì. Il terriccio in vaso si asciuga più in fretta della piena terra, il che rende il monitoraggio particolarmente utile. Scegliete un vaso abbastanza profondo da inserire completamente la parte di misura e posizionate il sensore a metà tra il fusto e la parete. Lo Xiaomi Mi Flora è il più adatto a questo uso.',
         nl: 'Ja. Potgrond droogt sneller uit dan tuingrond, waardoor monitoring extra nuttig is. Kies een pot die diep genoeg is om het meetgedeelte volledig in te steken en plaats de sensor halverwege tussen stengel en potwand. De Xiaomi Mi Flora is hiervoor het meest geschikt.',
-        pl: 'Tak. Ziemia w doniczce wysycha szybciej niż w gruncie, więc monitorowanie jest szczególnie przydatne. Wybierz doniczkę na tyle głęboką, aby całkowicie wbić część pomiarową, i umieść czujnik w połowie drogi między łodygą a ścianką. Najlepiej nadaje się do tego Xiaomi Mi Flora.',
+        pl: 'Tak. Ziemia w doniczce przesycha szybciej niż w gruncie, więc stała kontrola wilgotności jest tu szczególnie przydatna. Doniczka powinna być na tyle głęboka, by dało się wbić całą część pomiarową, a czujnik umieść w połowie odległości między łodygą a ścianką. Najlepiej sprawdzi się tu Xiaomi Mi Flora.',
+        sv: 'Ja. Krukjord torkar ut snabbare än jord på friland, och därför är det extra användbart att hålla koll på den. Välj en kruka som är djup nog för att hela mätdelen ska få plats och placera sensorn halvvägs mellan stjälken och krukans kant. Xiaomi Mi Flora passar bäst för det här.',
+        us: 'Yes. Potting soil dries faster than garden soil, which makes monitoring especially useful. Choose a pot deep enough to push the measuring part in fully and place the sensor halfway between the stem and the pot wall. The Xiaomi Mi Flora is best suited to this use.',
+        ca: 'Yes. Potting soil dries faster than garden soil, which makes monitoring especially useful. Choose a pot deep enough to push the measuring part in fully and place the sensor halfway between the stem and the pot wall. The Xiaomi Mi Flora is best suited to this use.',
       },
     },
     {
@@ -752,6 +1046,9 @@ export const article: BlogArticle = {
         it: 'Bisogna ritirare il sensore d’inverno?',
         nl: 'Moet de sensor in de winter naar binnen?',
         pl: 'Czy czujnik trzeba zabierać do domu na zimę?',
+        sv: 'Ska sensorn tas in över vintern?',
+        us: 'Should I bring the sensor in for the winter?',
+        ca: 'Should the sensor be brought in for winter?',
       },
       answer: {
         fr: 'Suivez la notice de votre modèle. Hors saison d’arrosage, rentrer le capteur ou retirer ses piles prolonge sa durée de vie et évite les dégâts du gel sur le boîtier. Si vous le laissez dehors, vérifiez qu’il est conçu pour un usage extérieur permanent et que le programmateur associé est lui aussi protégé du gel.',
@@ -760,7 +1057,10 @@ export const article: BlogArticle = {
         es: 'Siga el manual de su modelo. Fuera de la temporada de riego, guardar el sensor o quitarle las pilas alarga su vida útil y evita daños por helada en la carcasa. Si lo deja fuera, compruebe que está diseñado para uso exterior permanente y que el programador asociado también está protegido de las heladas.',
         it: 'Seguite il manuale del vostro modello. Fuori dalla stagione irrigua, ritirare il sensore o togliere le batterie ne allunga la vita ed evita danni da gelo al corpo. Se lo lasciate fuori, verificate che sia progettato per un uso esterno permanente e che anche il programmatore abbinato sia protetto dal gelo.',
         nl: 'Volg de handleiding van uw model. Buiten het bewateringsseizoen verlengt binnenhalen of de batterijen verwijderen de levensduur en voorkomt het vorstschade aan de behuizing. Laat u hem buiten, controleer dan of hij voor permanent buitengebruik ontworpen is en of de bijbehorende watertimer ook tegen vorst beschermd is.',
-        pl: 'Postępuj zgodnie z instrukcją swojego modelu. Poza sezonem podlewania zabranie czujnika do domu lub wyjęcie baterii wydłuża jego żywotność i chroni obudowę przed szkodami od mrozu. Jeśli zostawiasz go na zewnątrz, sprawdź, czy jest przystosowany do stałego użytku zewnętrznego i czy powiązany sterownik też jest chroniony przed mrozem.',
+        pl: 'Postępuj zgodnie z instrukcją swojego modelu. Jeśli poza sezonem podlewania zabierzesz czujnik do domu lub wyjmiesz z niego baterie, posłuży dłużej, a mróz nie uszkodzi obudowy. Gdy czujnik zostaje na zewnątrz, sprawdź, czy jest przystosowany do stałej pracy w ogrodzie i czy współpracujący z nim sterownik również jest zabezpieczony przed mrozem.',
+        sv: 'Följ bruksanvisningen för din modell. Utanför bevattningssäsongen förlänger du livslängden genom att ta in sensorn eller ta ur batterierna, och du undviker att höljet skadas av frost. Ska den sitta kvar ute behöver du kontrollera att den är gjord för att sitta utomhus året runt och att den tillhörande bevattningsdatorn också är skyddad mot frost.',
+        us: 'Follow your model’s manual. Outside the watering season, bringing the sensor in or removing its batteries extends its life and protects the housing from frost damage. If you leave it outside, make sure it’s designed for permanent outdoor use and that the paired hose timer is protected from frost too.',
+        ca: 'Follow your model’s manual. Outside the watering season, bringing the sensor in or removing its batteries extends its life and avoids frost damage to the housing. If you leave it outside, make sure it’s designed for permanent outdoor use and that the paired hose timer is protected from frost too.',
       },
     },
   ],

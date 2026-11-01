@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: "Robot aspirapolvere che pulisce sotto un divano su un parquet chiaro",
         nl: "Robotstofzuiger die onder een bank reinigt op een lichte houten vloer",
         pl: "Robot odkurzający sprząta pod sofą na jasnej drewnianej podłodze",
+        sv: "Robotdammsugare som städar under en soffa på ett ljust trägolv",
+        us: "Robot vacuum cleaning under a couch on a light hardwood floor",
+        ca: "Robot vacuum cleaning under a sofa on a light hardwood floor",
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: "Robot aspirador vs aspiradora escoba: ¿cuál elegir en 2026?",
     it: "Robot aspirapolvere vs scopa elettrica: quale scegliere nel 2026?",
     nl: "Robotstofzuiger vs steelstofzuiger: welke kiest u in 2026?",
-    pl: "Robot odkurzający czy odkurzacz pionowy: co wybrać w 2026 roku?",
+    pl: "Robot sprzątający czy odkurzacz pionowy: co wybrać w 2026 roku?",
+    sv: "Robotdammsugare eller sladdlös dammsugare: vilken ska du välja 2026?",
+    us: "Robot Vacuum vs. Stick Vacuum (2026): Which Should You Buy?",
+    ca: "Robot Vacuum vs Stick Vacuum: Which Should You Choose in 2026?",
   },
   excerpt: {
     fr: "Robot aspirateur ou aspirateur balai ? Différences réelles, critères de choix et six modèles récents (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…) pour décider selon votre logement.",
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: "¿Robot aspirador o aspiradora escoba? Diferencias reales, criterios de elección y seis modelos recientes (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…) para decidir según su vivienda.",
     it: "Robot aspirapolvere o scopa elettrica? Le vere differenze, i criteri di scelta e sei modelli recenti (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…) per decidere in base alla vostra casa.",
     nl: "Robotstofzuiger of steelstofzuiger? De echte verschillen, keuzecriteria en zes recente modellen (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…) om te kiezen op basis van uw woning.",
-    pl: "Robot odkurzający czy odkurzacz pionowy? Realne różnice, kryteria wyboru i sześć nowych modeli (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…), które pomogą dobrać sprzęt do Twojego mieszkania.",
+    pl: "Robot sprzątający czy odkurzacz pionowy? Najważniejsze różnice, kryteria wyboru i sześć nowych modeli (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…), które pomogą Ci wybrać sprzęt do swojego mieszkania.",
+    sv: "Robotdammsugare eller sladdlös dammsugare? De verkliga skillnaderna, vad du ska tänka på och sex aktuella modeller (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60 med flera) som hjälper dig att välja efter din bostad.",
+    us: "Robot vacuum or stick vacuum? The real differences, how to choose, and six recent models (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…) to help you decide based on your home.",
+    ca: "Robot vacuum or stick vacuum? The real differences, how to choose and six recent models (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…) to help you decide what suits your home.",
   },
   content: {
     fr: `<p><strong>Robot aspirateur ou aspirateur balai ? Pour la plupart des foyers, le robot aspirateur est le meilleur choix pour l’entretien quotidien des sols, tandis que l’aspirateur balai reste indispensable pour les escaliers, les tapis épais, le canapé et les petites urgences.</strong> Si vous ne pouvez en acheter qu’un, prenez un robot dans un logement de plain-pied aux sols surtout durs, et un balai sans fil dans une maison à étages ou riche en tapis. Le duo des deux reste la solution la plus confortable.</p>
@@ -683,113 +692,434 @@ export const article: BlogArticle = {
 <p><strong>Wilt u elke dag schone vloeren zonder erbij stil te staan, kies dan een robotstofzuiger</strong>: de Roborock Qrevo Curv is het meest evenwichtig, de Roborock Q7 M5+ biedt de basis voor een klein budget en de Dreame X50 Ultra Complete past het best bij huisdieren en drempels.</p>
 <p><strong>Hebt u een trap, dikke vloerkleden of stoffering te onderhouden, dan blijft een steelstofzuiger onmisbaar</strong>: de Dyson V15 Detect is de referentie, de Rowenta X-Force Flex 15.60 biedt de beste prijs-kwaliteitverhouding en de Samsung Bespoke Jet AI overtuigt met zijn automatische lediging.</p>
 <p><strong>Het beste compromis voor de meeste huishoudens blijft het duo</strong>: een robot voor het dagelijkse onderhoud en een steelstofzuiger voor de afwerking en alles waar de robot niet bij kan.</p>`,
-    pl: `<p><strong>Robot odkurzający czy odkurzacz pionowy? W większości domów robot odkurzający jest najlepszym wyborem do codziennego sprzątania podłóg, a odkurzacz pionowy bezprzewodowy pozostaje niezastąpiony na schodach, przy grubych dywanach, na sofie i w drobnych awaryjnych sytuacjach.</strong> Jeśli możesz kupić tylko jeden sprzęt, wybierz robota do mieszkania na jednym poziomie z przeważnie twardymi podłogami, a odkurzacz pionowy bezprzewodowy do domu piętrowego lub z dużą ilością dywanów. Duet obu urządzeń to najwygodniejsze rozwiązanie.</p>
-<p>To porównanie opiera się na kartach technicznych producentów, analizach prasy specjalistycznej i opiniach zweryfikowanych kupujących. Wyjaśnia prawdziwe różnice między obiema rodzinami urządzeń, a następnie przedstawia sześć nowych modeli dostępnych w Europie: trzy roboty i trzy odkurzacze pionowe. Całą ofertę zobaczysz w naszych działach: <a href="/pl/entretien-maison/aspirateurs-robots">roboty odkurzające</a> i <a href="/pl/entretien-maison/aspirateurs-balais">odkurzacze pionowe bezprzewodowe</a>.</p>
+    pl: `<p><strong>Robot odkurzający czy odkurzacz pionowy? W większości domów do codziennego sprzątania podłóg najlepiej sprawdza się robot odkurzający, a odkurzacz pionowy bezprzewodowy pozostaje niezastąpiony na schodach, grubych dywanach i kanapie oraz wtedy, gdy trzeba szybko coś posprzątać.</strong> Jeśli kupujesz tylko jedno urządzenie, do jednopoziomowego mieszkania z przewagą twardych podłóg wybierz robota, a do domu piętrowego lub z wieloma dywanami – odkurzacz pionowy bezprzewodowy. Najwygodniejszym rozwiązaniem pozostaje jednak zestaw obu urządzeń.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, analizach prasy specjalistycznej i opiniach zweryfikowanych kupujących. Wyjaśniamy w nim, czym naprawdę różnią się oba rodzaje urządzeń, a następnie przedstawiamy sześć aktualnych modeli dostępnych w Europie: trzy roboty i trzy odkurzacze pionowe. Wszystkie modele znajdziesz w naszych kategoriach <a href="/pl/entretien-maison/aspirateurs-robots">roboty odkurzające</a> i <a href="/pl/entretien-maison/aspirateurs-balais">odkurzacze pionowe bezprzewodowe</a>.</p>
 
-<h2>Robot czy odkurzacz pionowy: co naprawdę je różni</h2>
-<p>Oba urządzenia odkurzają, ale odpowiadają na inne potrzeby. <strong>Robot odkurzający</strong> pracuje sam, według harmonogramu, i sprząta codziennie, bez Twojego udziału. Nowsze modele myją też podłogi i mają stację, która opróżnia ich pojemnik na kurz. <strong>Odkurzacz pionowy bezprzewodowy</strong> wymaga Twojej obecności, ale czyści dokładnie i wszędzie: schody, listwy przypodłogowe, tapicerkę, samochód, a nawet pajęczyny pod sufitem.</p>
+<h2>Robot czy odkurzacz pionowy: czym naprawdę się różnią</h2>
+<p>Oba urządzenia odkurzają, ale służą do czegoś innego. <strong>Robot odkurzający</strong> pracuje sam, według harmonogramu, i sprząta codziennie, nawet gdy o tym nie myślisz. Nowsze modele myją też podłogi i mają stację, która opróżnia ich pojemnik na kurz. <strong>Odkurzacz pionowy bezprzewodowy</strong> wymaga Twojego udziału, ale dokładnie czyści wszędzie: stopnie, listwy przypodłogowe, tapicerkę, samochód, a nawet pajęczyny pod sufitem.</p>
 <table>
 <thead>
 <tr><th>Kryterium</th><th>Robot odkurzający</th><th>Odkurzacz pionowy bezprzewodowy</th></tr>
 </thead>
 <tbody>
-<tr><td>Wysiłek</td><td>Żaden na co dzień, wystarczy uprzątnąć podłogę</td><td>Odkurzasz samodzielnie</td></tr>
-<tr><td>Częstotliwość sprzątania</td><td>Codzienna, według harmonogramu</td><td>Gdy znajdziesz czas</td></tr>
-<tr><td>Skuteczność na grubych dywanach</td><td>Poprawna, słabsza przy długim włosiu</td><td>Wyższa dzięki szczotce z napędem i wielokrotnemu przejazdowi</td></tr>
-<tr><td>Schody, sofa, samochód</td><td>Niemożliwe</td><td>Tak, w trybie odkurzacza ręcznego</td></tr>
-<tr><td>Pod meblami</td><td>Tak, jeśli zmieści się na wysokość</td><td>Tak, zwłaszcza z elastyczną rurą</td></tr>
-<tr><td>Mycie podłóg</td><td>Tak w większości nowych modeli</td><td>Nie (potrzebny odkurzacz piorący)</td></tr>
+<tr><td>Wysiłek</td><td>Na co dzień żaden, wystarczy uprzątnąć rzeczy z podłogi</td><td>Odkurzasz samodzielnie</td></tr>
+<tr><td>Częstotliwość sprzątania</td><td>Codziennie, według harmonogramu</td><td>Gdy znajdziesz czas</td></tr>
+<tr><td>Skuteczność na grubych dywanach</td><td>Przyzwoita, słabsza przy długim włosiu</td><td>Wyższa dzięki szczotce z napędem i kilku przejazdom w tym samym miejscu</td></tr>
+<tr><td>Schody, kanapa, samochód</td><td>Niemożliwe</td><td>Tak, w trybie odkurzacza ręcznego</td></tr>
+<tr><td>Pod meblami</td><td>Tak, jeśli zmieści się pod spodem</td><td>Tak, zwłaszcza z giętką rurą</td></tr>
+<tr><td>Mycie podłóg</td><td>Tak, w większości nowych modeli</td><td>Nie (potrzebny jest odkurzacz myjący)</td></tr>
 <tr><td>Zajmowane miejsce</td><td>Stacja na podłodze, czasem duża</td><td>Uchwyt ścienny lub kompaktowa stacja</td></tr>
-<tr><td>Konserwacja</td><td>Worki stacji, szczotki, mopy, filtry</td><td>Pojemnik i filtr do czyszczenia, szczotka do rozplątywania</td></tr>
+<tr><td>Konserwacja</td><td>Worki w stacji, szczotki, mopy, filtry</td><td>Czyszczenie pojemnika i filtra, rozplątywanie szczotki</td></tr>
 </tbody>
 </table>
 
 <h2>Jak wybrać: kryteria, które się liczą</h2>
-<h3>Twoje mieszkanie: powierzchnia, piętra i przeszkody</h3>
-<p>Robot sprawdza się najlepiej na jednym poziomie, z niewielką liczbą przeszkód na podłodze. Zapamiętuje mapy kilku pięter, ale trzeba go przenosić z poziomu na poziom, a po schodach nigdy nie wejdzie. W domu piętrowym odkurzacz pionowy bezprzewodowy nadal jest potrzebny do schodów. Sprawdź też wysokość pod niskimi meblami: większość robotów z wieżyczką LiDAR ma około 10 cm.</p>
-<h3>Twoje podłogi: twarde, dywany czy mieszane</h3>
-<p>Na parkiecie i płytkach nowy robot świetnie sprawdza się w bieżącym utrzymaniu czystości, a jego mycie usuwa drobny kurz przyklejony do podłogi. Na grubych dywanach i wykładzinach szczotka z napędem w odkurzaczu pionowym i jego moc skoncentrowana na małej powierzchni lepiej wyciągają kurz z głębi. Roboty z wyższej półki wykrywają dywany, zwiększają ssanie i unoszą mopy, ale nie zastąpią porządnego głębokiego odkurzania grubej wykładziny.</p>
+<h3>Twój dom: powierzchnia, piętra i przeszkody</h3>
+<p>Robot sprawdza się najlepiej na jednym poziomie, gdy na podłodze jest niewiele przeszkód. Może zapamiętać mapy kilku pięter, ale trzeba go przenosić z piętra na piętro, a po schodach nigdy sam nie wjedzie. W domu piętrowym do schodów nadal potrzebny jest odkurzacz pionowy bezprzewodowy. Sprawdź też, ile miejsca jest pod niskimi meblami: większość robotów z wieżyczką LiDAR ma około 10 cm wysokości.</p>
+<h3>Rodzaj podłóg: twarde, dywany czy jedno i drugie</h3>
+<p>Na parkiecie i płytkach nowy robot świetnie radzi sobie z bieżącym sprzątaniem, a funkcja mycia usuwa drobny kurz przywarty do podłogi. Na grubych dywanach i wykładzinach lepszy jest odkurzacz pionowy: szczotka z napędem i moc skupiona na małej powierzchni skuteczniej wyciągają kurz z głębi włosia. Roboty z wyższej półki wykrywają dywany, zwiększają siłę ssania i unoszą mopy, ale nie zastąpią porządnego, dokładnego odkurzania grubej wykładziny.</p>
 <h3>Zwierzęta i długie włosy</h3>
-<p>Przy psie lub kocie regularność liczy się tak samo jak moc: robot, który sprząta codziennie, nie pozwala sierści się gromadzić. Wybierz szczotkę przeciw owijaniu się włosów, zarówno w robocie, jak i w odkurzaczu pionowym. Odkurzacz pionowy zachowuje przewagę przy sofie, legowisku i fotelikach samochodowych. Więcej na ten temat znajdziesz w naszym poradniku o <a href="/pl/blog/robot-aspirateur-poils-animaux">robotach odkurzających dla właścicieli zwierząt</a>.</p>
-<h3>Twój czas i organizacja</h3>
-<p>Jeśli z braku czasu odkurzasz rzadziej niż raz w tygodniu, robot zmieni Twoją codzienność: podłoga pozostaje czysta bez Twojej uwagi. Jeśli lubisz solidne sprzątanie w weekend albo podłoga jest często zastawiona (zabawki, kable, ubrania), odkurzacz pionowy może wystarczyć.</p>
+<p>Gdy masz psa lub kota, regularność liczy się tak samo jak moc: robot, który sprząta codziennie, nie pozwala sierści się gromadzić. Wybierz szczotkę, na którą nie nawijają się włosy – zarówno w robocie, jak i w odkurzaczu pionowym. Na kanapie, legowisku i fotelach samochodowych przewagę zachowuje odkurzacz pionowy. Więcej na ten temat znajdziesz w naszym poradniku o <a href="/pl/blog/robot-aspirateur-poils-animaux">robotach odkurzających dla właścicieli zwierząt</a>.</p>
+<h3>Twój czas i organizacja dnia</h3>
+<p>Jeśli z braku czasu odkurzasz rzadziej niż raz w tygodniu, robot zmieni Twoją codzienność: podłoga jest stale czysta, a Ty nie musisz o tym pamiętać. Jeśli wolisz gruntowne sprzątanie w weekend albo na podłodze często coś leży (zabawki, kable, ubrania), odkurzacz pionowy może wystarczyć.</p>
 <h3>Alergie</h3>
-<p>Dla alergików liczą się dwie rzeczy: skuteczna i szczelna filtracja oraz opróżnianie bez kontaktu z kurzem. Stacje opróżniające robotów oraz stacja Samsung Bespoke Jet AI opróżniają pojemnik do zamkniętego worka, co ogranicza kontakt z alergenami.</p>
+<p>W przypadku alergii liczą się dwie rzeczy: skuteczna i szczelna filtracja oraz opróżnianie bez kontaktu z kurzem. Stacje opróżniające robotów oraz stacja odkurzacza Samsung Bespoke Jet AI przesypują zawartość pojemnika do zamkniętego worka, co ogranicza kontakt z alergenami.</p>
 <h3>Przedział cenowy</h3>
-<p>Są roboty z podstawowej półki z nawigacją LiDAR i automatycznym opróżnianiem oraz bardzo kompletne odkurzacze pionowe ze średniej półki. Wyższa półka daje przede wszystkim stacje typu „wszystko w jednym” dla robotów i bardziej zaawansowane czujniki w odkurzaczach pionowych. Duet „robot z podstawowej półki + dobry odkurzacz pionowy” często kosztuje mniej niż pojedynczy robot z najwyższej półki.</p>
+<p>Roboty z nawigacją LiDAR i automatycznym opróżnianiem znajdziesz już w niższej półce cenowej, a bardzo dobrze wyposażone odkurzacze pionowe – w średniej. Wyższa półka to przede wszystkim stacje „wszystko w jednym” w robotach i bardziej zaawansowane czujniki w odkurzaczach pionowych. Zestaw „robot z niższej półki + dobry odkurzacz pionowy” często kosztuje mniej niż sam robot z najwyższej półki.</p>
 
 <h2>Polecane roboty odkurzające</h2>
 <h3>Roborock Qrevo Curv: najbardziej wyważony robot</h3>
-<p><strong>Roborock Qrevo Curv</strong> ma deklarowaną siłę ssania 18 500 Pa, nawigację LiDAR i obrotowe mopy. Ramię FlexiArm wysuwa szczotkę boczną i mop w stronę narożników i listew przypodłogowych, a podwozie AdaptiLift potrafi się unosić, by pokonywać progi i grube dywany. Stacja opróżnia pojemnik, myje mopy gorącą wodą i suszy je ciepłym powietrzem.</p>
-<p><strong>Mocne strony:</strong> staranne czyszczenie przy krawędziach, bardzo dobra równowaga między odkurzaniem a myciem, rozbudowana aplikacja Roborock ceniona za niezawodność.</p>
-<p><strong>Ograniczenia:</strong> okazała stacja, wysoka pozycja cenowa, wieżyczka LiDAR ogranicza przejazd pod bardzo niskimi meblami.</p>
-<p><strong>Dla kogo:</strong> większość mieszkań i domów z różnymi rodzajami podłóg, w których chcesz zlecić robotowi prawie całe sprzątanie.</p>
-<h3>Roborock Q7 M5+: to, co najważniejsze, w niskim budżecie</h3>
-<p><strong>Roborock Q7 M5+</strong> idzie prosto do celu: nawigacja LiDAR z mapami wielu pięter, deklarowana siła ssania 10 000 Pa, szczotka przeciw owijaniu się włosów z wbudowanym grzebieniem oraz stacja z automatycznym opróżnianiem i workiem o pojemności 2,7 litra. Ma też prosty moduł mycia.</p>
-<p><strong>Mocne strony:</strong> nawigacja i aplikacja marki w modelu z podstawowej półki, kilka tygodni bez opróżniania robota, kompaktowy format.</p>
-<p><strong>Ograniczenia:</strong> nakładka myjąca tylko odświeża podłogi, brak mycia i suszenia mopów w stacji, mniej zaawansowane omijanie przeszkód.</p>
-<p><strong>Dla kogo:</strong> pierwszy robot, mieszkanie z przeważnie twardymi podłogami lub uzupełnienie odkurzacza pionowego bezprzewodowego.</p>
-<h3>Dreame X50 Ultra Complete: dla zwierząt i progów</h3>
-<p><strong>Dreame X50 Ultra Complete</strong> ma deklarowane 20 000 Pa i podwójną szczotkę przeciw owijaniu się włosów HyperStream. Jego system ProLeap unosi go, by według producenta pokonywał przeszkody do 6 cm, a wieżyczka LiDAR chowa się, by przejechać pod niektórymi meblami. Stacja opróżnia robota oraz myje i suszy mopy.</p>
-<p><strong>Mocne strony:</strong> świetnie radzi sobie z sierścią i dywanami, pokonuje progi i prowadnice drzwi tarasowych, duża autonomia na dużych powierzchniach.</p>
-<p><strong>Ograniczenia:</strong> ciężki robot i duża stacja, pozycja premium, wysoki poziom hałasu przy pełnej mocy.</p>
+<p><strong>Roborock Qrevo Curv</strong> ma deklarowaną siłę ssania 18 500 Pa, nawigację LiDAR i obrotowe mopy. Ramię FlexiArm wysuwa szczotkę boczną i mop w stronę narożników i listew przypodłogowych, a podwozie AdaptiLift potrafi się unieść, by pokonać progi i grube dywany. Stacja opróżnia pojemnik, myje mopy gorącą wodą i suszy je ciepłym powietrzem.</p>
+<p><strong>Mocne strony:</strong> dokładne sprzątanie przy krawędziach, bardzo dobra równowaga między odkurzaniem a myciem, rozbudowana aplikacja Roborock ceniona za niezawodność.</p>
+<p><strong>Ograniczenia:</strong> duża stacja, model z wyższej półki cenowej, wieżyczka LiDAR utrudnia wjazd pod bardzo niskie meble.</p>
+<p><strong>Dla kogo:</strong> większość mieszkań i domów z różnymi rodzajami podłóg, gdy chcesz powierzyć robotowi niemal całe sprzątanie.</p>
+<h3>Roborock Q7 M5+: to, co najważniejsze, przy małym budżecie</h3>
+<p><strong>Roborock Q7 M5+</strong> skupia się na tym, co niezbędne: nawigacja LiDAR z mapami kilku pięter, deklarowana siła ssania 10 000 Pa, szczotka zapobiegająca nawijaniu się włosów z wbudowanym grzebieniem oraz stacja automatycznego opróżniania z workiem o pojemności 2,7 litra. Ma też prosty moduł mopujący.</p>
+<p><strong>Mocne strony:</strong> nawigacja i aplikacja marki w modelu z niższej półki, kilka tygodni bez opróżniania robota, kompaktowe wymiary.</p>
+<p><strong>Ograniczenia:</strong> nakładka mopująca jedynie odświeża podłogę, stacja nie myje ani nie suszy mopów, słabsze omijanie przeszkód.</p>
+<p><strong>Dla kogo:</strong> pierwszy robot, mieszkanie z przewagą twardych podłóg albo uzupełnienie odkurzacza pionowego bezprzewodowego.</p>
+<h3>Dreame X50 Ultra Complete: na sierść i progi</h3>
+<p><strong>Dreame X50 Ultra Complete</strong> ma deklarowaną siłę ssania 20 000 Pa i podwójną szczotkę HyperStream zapobiegającą nawijaniu się włosów. System ProLeap unosi robota, dzięki czemu według producenta pokonuje on przeszkody o wysokości do 6 cm, a wieżyczka LiDAR chowa się, by robot zmieścił się pod niektórymi meblami. Stacja opróżnia robota, myje i suszy mopy.</p>
+<p><strong>Mocne strony:</strong> świetnie radzi sobie z sierścią i dywanami, pokonuje progi i prowadnice drzwi tarasowych, długo pracuje bez ładowania, więc sprawdzi się na dużych powierzchniach.</p>
+<p><strong>Ograniczenia:</strong> ciężki robot i duża stacja, model premium, głośna praca przy pełnej mocy.</p>
 <p><strong>Dla kogo:</strong> domy z psem lub kotem, domy z progami i duże powierzchnie.</p>
-<p>Aby dowiedzieć się więcej o robotach, przeczytaj nasz <a href="/pl/blog/guide-robot-aspirateur-2026">poradnik: najlepszy robot odkurzający 2026</a>.</p>
+<p>Więcej o robotach przeczytasz w naszym poradniku <a href="/pl/blog/guide-robot-aspirateur-2026">najlepszy robot odkurzający 2026</a>.</p>
 
 <h2>Polecane odkurzacze pionowe bezprzewodowe</h2>
-<h3>Dyson V15 Detect: odkurzacz pionowy wzorcowy</h3>
-<p><strong>Dyson V15 Detect</strong> rzuca zielony promień lasera tuż nad podłogą, który uwidacznia drobny kurz na twardych powierzchniach. Czujnik piezoelektryczny mierzy zasysane cząstki i w trybie Auto zwiększa moc, gdy wykryje dużo kurzu. Dyson deklaruje do 60 minut pracy w trybie eco, pojemnik 0,76 l, szczelną filtrację w całym urządzeniu i wyjmowany akumulator.</p>
-<p><strong>Mocne strony:</strong> jedno z najmocniejszych ssań na rynku, bardzo przydatny laser, automatyczna regulacja mocy, szczelna filtracja.</p>
-<p><strong>Ograniczenia:</strong> model z wysokiej półki, około 3 kg w wyciągniętej ręce, bardzo krótki czas pracy w trybie Boost.</p>
-<p><strong>Dla kogo:</strong> dla tych, którzy chcą odkurzacza do wszystkiego, domy z dywanami, alergicy.</p>
-<h3>Rowenta X-Force Flex 15.60: najlepszy stosunek możliwości do ceny</h3>
-<p><strong>Rowenta X-Force Flex 15.60</strong> wyróżnia się <strong>rurą Flex</strong>, która się zgina, by wsunąć się pod sofę lub łóżko bez schylania. Rowenta deklaruje do 230 AW w trybie Boost, do 80 minut pracy w trybie eco, automatyczną regulację mocy zależnie od podłogi, wyjmowany akumulator i pojemnik 0,9 l, jeden z największych na rynku.</p>
-<p><strong>Mocne strony:</strong> bardzo praktyczna rura Flex, duży pojemnik, zmywalny filtr, bardzo dobry stosunek możliwości do ceny.</p>
-<p><strong>Ograniczenia:</strong> nieco cięższy od średniej (około 3,2 kg), brak wykrywania ilości kurzu.</p>
-<p><strong>Dla kogo:</strong> mieszkania z dużą ilością niskich mebli oraz osoby szukające kompletnego odkurzacza pionowego bez celowania w najwyższą półkę.</p>
+<h3>Dyson V15 Detect: punkt odniesienia wśród odkurzaczy pionowych</h3>
+<p><strong>Dyson V15 Detect</strong> rzuca tuż nad podłogą zieloną wiązkę lasera, w której świetle widać drobny kurz na twardych powierzchniach. Czujnik piezoelektryczny mierzy zasysane cząstki, a w trybie Auto zwiększa moc, gdy wykryje dużo kurzu. Dyson deklaruje do 60 minut pracy w trybie eco, pojemnik 0,76 l, szczelną filtrację całego urządzenia i wyjmowany akumulator.</p>
+<p><strong>Mocne strony:</strong> jedna z największych sił ssania na rynku, bardzo przydatny laser, automatyczna regulacja mocy, szczelna filtracja.</p>
+<p><strong>Ograniczenia:</strong> model z wyższej półki, około 3 kg do trzymania w wyciągniętej ręce, bardzo krótki czas pracy w trybie Boost.</p>
+<p><strong>Dla kogo:</strong> osoby, które chcą odkurzacza do wszystkiego, domy z dywanami, alergicy.</p>
+<h3>Rowenta X-Force Flex 15.60: najlepszy stosunek jakości do ceny</h3>
+<p><strong>Rowenta X-Force Flex 15.60</strong> wyróżnia się <strong>rurą Flex</strong>, która zgina się tak, że końcówkę można wsunąć pod kanapę lub łóżko bez schylania się. Rowenta deklaruje do 230 AW w trybie Boost, do 80 minut pracy w trybie eco, automatyczną regulację mocy w zależności od podłogi, wyjmowany akumulator i pojemnik 0,9 l – jeden z największych na rynku.</p>
+<p><strong>Mocne strony:</strong> bardzo praktyczna rura Flex, duży pojemnik, zmywalny filtr, bardzo dobry stosunek jakości do ceny.</p>
+<p><strong>Ograniczenia:</strong> nieco cięższy od przeciętnego modelu (około 3,2 kg), brak wykrywania ilości kurzu.</p>
+<p><strong>Dla kogo:</strong> mieszkania z wieloma niskimi meblami oraz osoby, które szukają dobrze wyposażonego odkurzacza pionowego, ale nie celują w najwyższą półkę.</p>
 <h3>Samsung Bespoke Jet AI: odkurzacz, który sam się opróżnia</h3>
-<p><strong>Samsung Bespoke Jet AI</strong> ma deklarowaną moc ssania do 280 W i inteligentny tryb, który rozpoznaje rodzaj podłogi i dostosowuje moc. Samsung deklaruje do 100 minut pracy. Jego stacja All-in-One Clean Station ładuje urządzenie i automatycznie opróżnia pojemnik do worka.</p>
-<p><strong>Mocne strony:</strong> duża autonomia, higieniczne automatyczne opróżnianie, automatyczna regulacja mocy.</p>
-<p><strong>Ograniczenia:</strong> zajmująca dużo miejsca stacja, worki do dokupienia, pozycja z wysokiej półki.</p>
-<p><strong>Dla kogo:</strong> duże mieszkania i alergicy, którzy nie chcą już opróżniać pojemnika ręcznie.</p>
-<p>Nasze <a href="/pl/blog/aspirateur-sans-fil-comparatif-2026">porównanie odkurzaczy pionowych bezprzewodowych 2026</a> opisuje te modele szczegółowo.</p>
+<p><strong>Samsung Bespoke Jet AI</strong> ma deklarowaną moc ssania do 280 W i tryb inteligentny, który rozpoznaje rodzaj podłogi i dostosowuje do niego moc. Samsung deklaruje do 100 minut pracy. Stacja All-in-One Clean Station ładuje urządzenie i automatycznie opróżnia pojemnik do worka.</p>
+<p><strong>Mocne strony:</strong> długi czas pracy, higieniczne automatyczne opróżnianie, automatyczna regulacja mocy.</p>
+<p><strong>Ograniczenia:</strong> duża stacja, worki trzeba dokupować, model z wyższej półki.</p>
+<p><strong>Dla kogo:</strong> duże mieszkania i alergicy, którzy nie chcą już ręcznie opróżniać pojemnika.</p>
+<p>Te modele szczegółowo omawiamy w <a href="/pl/blog/aspirateur-sans-fil-comparatif-2026">porównaniu odkurzaczy pionowych bezprzewodowych 2026</a>.</p>
 
 <h2>Tabela porównawcza sześciu modeli</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Typ</th><th>Kluczowa cecha</th><th>Praktyczna zaleta</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Typ</th><th>Kluczowa cecha</th><th>Praktyczna zaleta</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td>Roborock Qrevo Curv</td><td>Robot odkurzająco-mopujący</td><td>Deklarowane 18 500 Pa, LiDAR</td><td>Stacja, która opróżnia, myje gorącą wodą i suszy</td><td>Większości domów</td></tr>
-<tr><td>Roborock Q7 M5+</td><td>Robot odkurzający</td><td>Deklarowane 10 000 Pa, LiDAR</td><td>Automatyczne opróżnianie, worek 2,7 l</td><td>Niski budżet, twarde podłogi</td></tr>
-<tr><td>Dreame X50 Ultra Complete</td><td>Robot odkurzająco-mopujący</td><td>Deklarowane 20 000 Pa, ProLeap</td><td>Pokonuje przeszkody do 6 cm według Dreame</td><td>Zwierzęta, progi, duże powierzchnie</td></tr>
+<tr><td>Roborock Qrevo Curv</td><td>Robot odkurzająco-mopujący</td><td>Deklarowane 18 500 Pa, LiDAR</td><td>Stacja, która opróżnia pojemnik, myje mopy gorącą wodą i suszy je</td><td>Większość domów</td></tr>
+<tr><td>Roborock Q7 M5+</td><td>Robot odkurzający</td><td>Deklarowane 10 000 Pa, LiDAR</td><td>Automatyczne opróżnianie, worek 2,7 l</td><td>Mały budżet, twarde podłogi</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>Robot odkurzająco-mopujący</td><td>Deklarowane 20 000 Pa, ProLeap</td><td>Według Dreame pokonuje przeszkody do 6 cm</td><td>Zwierzęta, progi, duże powierzchnie</td></tr>
 <tr><td>Dyson V15 Detect</td><td>Odkurzacz pionowy bezprzewodowy</td><td>Laser i czujnik cząstek</td><td>Szczelna filtracja, wyjmowany akumulator</td><td>Dywany, alergie, wszechstronność</td></tr>
-<tr><td>Rowenta X-Force Flex 15.60</td><td>Odkurzacz pionowy bezprzewodowy</td><td>Rura Flex, pojemnik 0,9 l</td><td>Do 80 min deklarowanej pracy w trybie eco</td><td>Niskie meble, dobry stosunek możliwości do ceny</td></tr>
-<tr><td>Samsung Bespoke Jet AI</td><td>Odkurzacz pionowy bezprzewodowy</td><td>Do 100 min deklarowanej pracy</td><td>Stacja z automatycznym opróżnianiem</td><td>Duże mieszkania, zero kontaktu z kurzem</td></tr>
+<tr><td>Rowenta X-Force Flex 15.60</td><td>Odkurzacz pionowy bezprzewodowy</td><td>Rura Flex, pojemnik 0,9 l</td><td>Deklarowane do 80 min pracy w trybie eco</td><td>Niskie meble, dobry stosunek jakości do ceny</td></tr>
+<tr><td>Samsung Bespoke Jet AI</td><td>Odkurzacz pionowy bezprzewodowy</td><td>Deklarowane do 100 min pracy</td><td>Stacja z automatycznym opróżnianiem</td><td>Duże mieszkania, opróżnianie bez kontaktu z kurzem</td></tr>
 </tbody>
 </table>
 
-<h2>Duet robot + odkurzacz pionowy: najwygodniejsze połączenie</h2>
-<p>W większości domów oba urządzenia nie konkurują ze sobą, tylko się uzupełniają. Robot zajmuje się codziennym sprzątaniem podłóg, gdy Ciebie nie ma. Odkurzacz pionowy wkracza raz czy dwa razy w tygodniu: na schody, grube dywany, zakamarki, tekstylia i rozsypane w nieodpowiednim momencie okruchy. Gdy robot wykonuje główną robotę, często wystarczy odkurzacz pionowy ze średniej półki, a z kolei robot z podstawowej półki, taki jak Roborock Q7 M5+, bardzo dobrze uzupełnia odkurzacz pionowy z wyższej półki.</p>
+<h2>Robot i odkurzacz pionowy razem: najwygodniejsze połączenie</h2>
+<p>W większości domów te urządzenia nie konkurują ze sobą, tylko się uzupełniają. Robot codziennie sprząta podłogi, gdy nie ma Cię w domu. Odkurzacz pionowy przydaje się raz lub dwa razy w tygodniu: na schodach, grubych dywanach, w zakamarkach, na tapicerce i wtedy, gdy w najmniej odpowiednim momencie rozsypią się okruchy. Jeśli większość pracy wykonuje robot, często wystarczy odkurzacz pionowy ze średniej półki. I odwrotnie: robot z niższej półki, taki jak Roborock Q7 M5+, bardzo dobrze uzupełnia odkurzacz pionowy z wyższej półki.</p>
 
-<h2>Błędy, których warto uniknąć</h2>
+<h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Kupno robota do domu piętrowego bez odkurzacza pionowego:</strong> robot nie wchodzi po schodach, więc schody nadal będą do zrobienia.</li>
-<li><strong>Zapomnienie o zmierzeniu:</strong> wysokości pod meblami (dla robota) i miejsca na stację, która często jest wyższa i głębsza, niż się wydaje.</li>
-<li><strong>Porównywanie wartości mocy między markami:</strong> Pa, AW i W nie są wprost porównywalne, a każdy producent mierzy po swojemu.</li>
-<li><strong>Zaufanie do maksymalnej autonomii:</strong> podawana jest dla trybu eco. W trybie Boost odkurzacz pionowy często wytrzymuje tylko kilka minut.</li>
-<li><strong>Zaniedbanie porządku na podłodze:</strong> kable, skarpetki i zabawki blokują robota, nawet wyposażonego w kamerę.</li>
-<li><strong>Przekonanie, że robot myjący zastąpi mop w każdym przypadku:</strong> świetnie utrzymuje czystość, ale zaschnięte plamy czasem wymagają ręcznego czyszczenia.</li>
+<li><strong>Kupowanie robota do domu piętrowego bez odkurzacza pionowego:</strong> robot nie wjedzie po schodach, więc schody i tak trzeba będzie odkurzać.</li>
+<li><strong>Zapominanie o pomiarach:</strong> zmierz wysokość pod meblami (dla robota) i miejsce na stację, która często jest wyższa i głębsza, niż się wydaje.</li>
+<li><strong>Porównywanie wartości mocy między markami:</strong> wartości podawanych w Pa, AW i W nie da się porównać wprost, a każdy producent mierzy po swojemu.</li>
+<li><strong>Sugerowanie się maksymalnym czasem pracy:</strong> producenci podają go dla trybu eco. W trybie Boost odkurzacz pionowy często wytrzymuje tylko kilka minut.</li>
+<li><strong>Zostawianie drobiazgów na podłodze:</strong> kable, skarpetki i zabawki blokują robota, nawet jeśli ma kamerę.</li>
+<li><strong>Zakładanie, że robot myjący zawsze zastąpi zwykły mop:</strong> świetnie utrzymuje czystość, ale zaschnięte plamy czasem trzeba doczyścić ręcznie.</li>
 </ul>
 
 <h2>Konserwacja, akumulatory i bezpieczeństwo</h2>
-<p>Robot wymaga niewielkiej regularnej konserwacji: opróżnienia lub wymiany worka stacji, usunięcia włosów ze szczotki, wypłukania filtrów zgodnie z instrukcją oraz opróżnienia zbiornika na brudną wodę, by uniknąć zapachów. Odkurzacz pionowy wymaga opróżnienia pojemnika, umycia filtra, jeśli producent na to pozwala, oraz rozplątania szczotki.</p>
-<p>Oba działają na akumulatorach litowo-jonowych. Używaj wyłącznie oryginalnej ładowarki i akumulatorów albo zgodnych zamienników zatwierdzonych przez producenta, nie zostawiaj uszkodzonego urządzenia na ładowaniu, a zużyte akumulatory oddawaj do punktu zbiórki. W przypadku robota włącz strefy zakazane wokół misek dla zwierząt, kabli i dywanów z frędzlami oraz sprawdź, czy czujniki przeciwupadkowe są czyste, jeśli masz schody. Nie pozwalaj robotowi myjącemu jeździć po niezabezpieczonym parkiecie bez sprawdzenia zaleceń producenta podłogi.</p>
+<p>Robot wymaga niewielkiej, ale regularnej konserwacji: trzeba opróżniać lub wymieniać worek w stacji, usuwać włosy ze szczotki, płukać filtry zgodnie z instrukcją i opróżniać zbiornik na brudną wodę, żeby nie pojawił się nieprzyjemny zapach. Przy odkurzaczu pionowym wystarczy opróżniać pojemnik, myć filtr (jeśli producent na to pozwala) i rozplątywać szczotkę.</p>
+<p>Oba urządzenia działają na akumulatorach litowo-jonowych. Używaj wyłącznie oryginalnej ładowarki i akumulatorów albo zamienników zatwierdzonych przez producenta, nie zostawiaj uszkodzonego urządzenia podłączonego do ładowania, a zużyte akumulatory oddawaj do punktu zbiórki. W robocie ustaw strefy zakazane wokół misek zwierząt, kabli i dywanów z frędzlami, a jeśli masz schody, sprawdzaj, czy czujniki zabezpieczające przed upadkiem są czyste. Nie pozwalaj robotowi myjącemu jeździć po nielakierowanym parkiecie, dopóki nie sprawdzisz zaleceń producenta podłogi.</p>
 
-<h2>Werdykt</h2>
-<p><strong>Jeśli chcesz mieć czyste podłogi na co dzień i nie zaprzątać sobie tym głowy, wybierz robota odkurzającego</strong>: Roborock Qrevo Curv jest najbardziej wyważony, Roborock Q7 M5+ oferuje to, co najważniejsze, w niskim budżecie, a Dreame X50 Ultra Complete najlepiej sprawdzi się przy zwierzętach i progach.</p>
-<p><strong>Jeśli masz schody, grube dywany lub tekstylia do wyczyszczenia, odkurzacz pionowy pozostaje niezbędny</strong>: Dyson V15 Detect jest wzorcem, Rowenta X-Force Flex 15.60 oferuje najlepszy stosunek możliwości do ceny, a Samsung Bespoke Jet AI przekonuje automatycznym opróżnianiem.</p>
-<p><strong>Najlepszym kompromisem w większości domów pozostaje duet</strong>: robot do codziennego utrzymania czystości, odkurzacz pionowy do wykończenia i wszystkiego, do czego robot nie dosięgnie.</p>`,
+<h2>Nasz werdykt</h2>
+<p><strong>Jeśli chcesz mieć codziennie czyste podłogi i nie myśleć o sprzątaniu, wybierz robota odkurzającego</strong>: Roborock Qrevo Curv jest najbardziej wyważony, Roborock Q7 M5+ daje to, co najważniejsze, przy małym budżecie, a Dreame X50 Ultra Complete najlepiej poradzi sobie z sierścią i progami.</p>
+<p><strong>Jeśli masz schody, grube dywany lub tapicerkę do czyszczenia, odkurzacz pionowy pozostaje niezbędny</strong>: Dyson V15 Detect to punkt odniesienia, Rowenta X-Force Flex 15.60 ma najlepszy stosunek jakości do ceny, a Samsung Bespoke Jet AI przekonuje automatycznym opróżnianiem.</p>
+<p><strong>Najlepszym kompromisem w większości domów pozostaje zestaw obu urządzeń</strong>: robot do codziennego sprzątania, odkurzacz pionowy do poprawek i wszystkich miejsc, do których robot nie dotrze.</p>`,
+    sv: `<p><strong>Robotdammsugare eller skaftdammsugare? I de flesta hem är en robotdammsugare det bästa valet för att hålla golven rena i vardagen, medan en skaftdammsugare behövs för trappan, tjocka mattor, soffan och snabba insatser när något har spillts ut.</strong> Kan du bara köpa en? Välj en robot om du bor på ett plan och mest har hårda golv, och en sladdlös skaftdammsugare om huset har flera våningar eller många mattor. Allra bekvämast är att ha båda.</p>
+<p>Den här jämförelsen bygger på tillverkarnas produktblad, analyser från fackpressen och verifierade köparomdömen. Den förklarar de verkliga skillnaderna mellan de två typerna och presenterar sedan sex aktuella modeller som säljs i Europa: tre robotar och tre skaftdammsugare. Hela utbudet hittar du i våra kategorier <a href="/sv/entretien-maison/aspirateurs-robots">robotdammsugare</a> och <a href="/sv/entretien-maison/aspirateurs-balais">sladdlösa dammsugare</a>.</p>
+
+<h2>Robot eller skaftdammsugare: det här skiljer dem åt</h2>
+<p>Båda dammsuger, men de fyller olika behov. En <strong>robotdammsugare</strong> jobbar på egen hand enligt ett schema och städar varje dag utan att du behöver tänka på det. De nyare modellerna moppar också och har en station som tömmer dammbehållaren. En <strong>sladdlös skaftdammsugare</strong> kräver att du är med, men den gör rent grundligt och överallt: trappsteg, golvlister, textilier, bilen och spindelväv i taket.</p>
+<table>
+<thead>
+<tr><th>Kriterium</th><th>Robotdammsugare</th><th>Sladdlös skaftdammsugare</th></tr>
+</thead>
+<tbody>
+<tr><td>Arbetsinsats</td><td>Ingen i vardagen, det räcker att plocka undan på golvet</td><td>Du dammsuger själv</td></tr>
+<tr><td>Hur ofta det städas</td><td>Varje dag, enligt schema</td><td>När du har tid</td></tr>
+<tr><td>Resultat på tjocka mattor</td><td>Helt okej, men sämre på lång lugg</td><td>Bättre tack vare den motordrivna borsten och upprepade drag</td></tr>
+<tr><td>Trappor, soffa, bil</td><td>Går inte</td><td>Ja, som handdammsugare</td></tr>
+<tr><td>Under möbler</td><td>Ja, om den får plats på höjden</td><td>Ja, särskilt med böjbart rör</td></tr>
+<tr><td>Moppning</td><td>Ja, på de flesta nyare modeller</td><td>Nej (då behövs en golvtvätt)</td></tr>
+<tr><td>Platsbehov</td><td>Station på golvet, ibland skrymmande</td><td>Väggfäste eller kompakt station</td></tr>
+<tr><td>Skötsel</td><td>Påsar till stationen, borstar, moppdukar, filter</td><td>Dammbehållare och filter att rengöra, borste att rensa från hår</td></tr>
+</tbody>
+</table>
+
+<h2>Så väljer du rätt: kriterierna som spelar roll</h2>
+<h3>Ditt hem: storlek, våningar och hinder</h3>
+<p>En robot gör bäst ifrån sig på ett enda plan med lite saker på golvet. Den kan spara kartor över flera våningar, men du måste bära den mellan dem, och den klarar aldrig trappor. I ett hus med flera våningar behöver du därför en skaftdammsugare för trappan. Mät också den fria höjden under låga möbler: de flesta robotar är runt 10 cm höga med sitt LiDAR-torn.</p>
+<h3>Dina golv: hårda golv, mattor eller blandat</h3>
+<p>På parkett och klinker sköter en modern robot det löpande underhållet utmärkt, och moppningen tar bort det fina dammet som fastnar på golvet. På tjocka mattor och heltäckningsmattor får en skaftdammsugare bättre upp dammet djupt nere i luggen, tack vare den motordrivna borsten och att effekten koncentreras på en liten yta. Robotar i toppklassen känner av mattor, ökar sugkraften och lyfter mopparna, men de ersätter inte en ordentlig djuprengöring av en tjock heltäckningsmatta.</p>
+<h3>Husdjur och långt hår</h3>
+<p>Med hund eller katt spelar regelbundenheten lika stor roll som sugkraften: en robot som kör varje dag hindrar djurhåren från att samlas. Välj en trasselfri borste, både på roboten och på skaftdammsugaren. Skaftdammsugaren är däremot bättre i soffan, på djurets liggplats och på bilsätena. Vår guide om <a href="/sv/blog/robot-aspirateur-poils-animaux">robotdammsugare för djurhår</a> går igenom det i detalj.</p>
+<h3>Din tid och dina rutiner</h3>
+<p>Dammsuger du mer sällan än en gång i veckan för att tiden inte räcker till, kommer en robot att förändra din vardag: golvet håller sig rent hela tiden, utan att du behöver tänka på det. Gillar du att storstäda på helgen, eller är golvet ofta belamrat (leksaker, sladdar, kläder), kan det räcka med en skaftdammsugare.</p>
+<h3>Allergier</h3>
+<p>För allergiker är två saker viktiga: en effektiv och tät filtrering, och tömning utan att du kommer i kontakt med dammet. Robotarnas tömningsstationer och stationen till Samsung Bespoke Jet AI tömmer dammbehållaren i en sluten påse, vilket minskar exponeringen.</p>
+<h3>Prisklasser</h3>
+<p>Det finns instegsrobotar med LiDAR-navigering och automatisk tömning, och mycket kompletta skaftdammsugare i mellanklassen. I premiumklassen får du främst allt-i-ett-stationer till robotarna och mer avancerade sensorer på skaftdammsugarna. En instegsrobot tillsammans med en bra skaftdammsugare kostar ofta mindre än en enda robot i toppklass.</p>
+
+<h2>Robotdammsugare vi rekommenderar</h2>
+<h3>Roborock Qrevo Curv: den mest balanserade roboten</h3>
+<p><strong>Roborock Qrevo Curv</strong> har en uppgiven sugkraft på 18 500 Pa, LiDAR-navigering och roterande moppar. Armen FlexiArm skjuter ut sidoborsten och den ena moppen mot hörn och golvlister, och chassit AdaptiLift kan höja sig för att ta sig över trösklar och tjocka mattor. Stationen tömmer dammbehållaren, tvättar mopparna med varmt vatten och torkar dem med varmluft.</p>
+<p><strong>Styrkor:</strong> noggrann rengöring längs kanterna, mycket bra balans mellan dammsugning och moppning, och en komplett Roborock-app som har rykte om sig att vara pålitlig.</p>
+<p><strong>Svagheter:</strong> stor station, en modell i premiumklassen och ett LiDAR-torn som hindrar den från att komma in under riktigt låga möbler.</p>
+<p><strong>Bäst för:</strong> de flesta lägenheter och hus med blandade golv, där du vill lämna över nästan all löpande städning.</p>
+<h3>Roborock Q7 M5+: det viktigaste för en mindre budget</h3>
+<p><strong>Roborock Q7 M5+</strong> satsar på det väsentliga: LiDAR-navigering med kartor över flera våningar, en uppgiven sugkraft på 10 000 Pa, en trasselfri borste med inbyggd kam och en självtömmande station med en påse på 2,7 liter. Den har också en enkel moppmodul.</p>
+<p><strong>Styrkor:</strong> märkets navigering och app på en instegsmodell, flera veckor utan att du behöver tömma roboten, och ett kompakt format.</p>
+<p><strong>Svagheter:</strong> moppen fräschar bara upp golven, stationen varken tvättar eller torkar moppen, och hinderundvikandet är mindre avancerat.</p>
+<p><strong>Bäst för:</strong> en första robot, en lägenhet med mest hårda golv eller som komplement till en sladdlös skaftdammsugare.</p>
+<h3>Dreame X50 Ultra Complete: för husdjur och trösklar</h3>
+<p><strong>Dreame X50 Ultra Complete</strong> har en uppgiven sugkraft på 20 000 Pa och en dubbel trasselfri borste av typen HyperStream. Systemet ProLeap lyfter den över hinder på upp till 6 cm enligt tillverkaren, och LiDAR-tornet kan sänkas så att roboten kommer in under vissa möbler. Stationen tömmer roboten och tvättar och torkar mopparna.</p>
+<p><strong>Styrkor:</strong> klarar djurhår och mattor mycket bra, tar sig över trösklar och skjutdörrsskenor, och har lång batteritid för stora ytor.</p>
+<p><strong>Svagheter:</strong> tung robot och skrymmande station, en modell i premiumklassen och hög ljudnivå på full effekt.</p>
+<p><strong>Bäst för:</strong> hem med hund eller katt, hus med trösklar och stora ytor.</p>
+<p>Vill du veta mer om robotdammsugare? Läs vår <a href="/sv/blog/guide-robot-aspirateur-2026">guide till bästa robotdammsugare 2026</a>.</p>
+
+<h2>Skaftdammsugare vi rekommenderar</h2>
+<h3>Dyson V15 Detect: referensen bland skaftdammsugare</h3>
+<p><strong>Dyson V15 Detect</strong> lyser med en grön laserstråle i golvhöjd som gör fint damm synligt på hårda golv. En piezosensor mäter partiklarna som sugs upp och höjer effekten i Auto-läget när den känner av mycket damm. Dyson uppger upp till 60 minuters drifttid i eco-läget, en dammbehållare på 0,76 liter, tät filtrering genom hela maskinen och ett löstagbart batteri.</p>
+<p><strong>Styrkor:</strong> en av de starkaste sugkrafterna på marknaden, en laser som verkligen gör nytta, automatisk effektanpassning och tät filtrering.</p>
+<p><strong>Svagheter:</strong> en premiummodell, runt 3 kg att lyfta med utsträckt arm och mycket kort drifttid i Boost-läget.</p>
+<p><strong>Bäst för:</strong> dig som vill ha en skaftdammsugare som klarar allt, hem med mattor och allergiker.</p>
+<h3>Rowenta X-Force Flex 15.60: mest funktioner för pengarna</h3>
+<p><strong>Rowenta X-Force Flex 15.60</strong> sticker ut med sitt <strong>Flex-rör</strong>, som böjer sig så att du kommer in under soffan eller sängen utan att själv behöva böja dig. Rowenta uppger upp till 230 AW i Boost-läget, upp till 80 minuters drifttid i eco-läget, automatisk effektanpassning efter golvtyp, ett löstagbart batteri och en dammbehållare på 0,9 liter, en av de största på marknaden.</p>
+<p><strong>Styrkor:</strong> mycket praktiskt Flex-rör, stor dammbehållare, tvättbart filter och mycket för pengarna.</p>
+<p><strong>Svagheter:</strong> något tyngre än genomsnittet (runt 3,2 kg) och ingen avkänning av hur mycket damm som sugs upp.</p>
+<p><strong>Bäst för:</strong> hem med många låga möbler, och dig som vill ha en komplett skaftdammsugare utan att gå upp i toppklassen.</p>
+<h3>Samsung Bespoke Jet AI: skaftdammsugaren som tömmer sig själv</h3>
+<p><strong>Samsung Bespoke Jet AI</strong> har en uppgiven sugeffekt på upp till 280 W och ett smart läge som känner igen golvtypen och anpassar effekten efter den. Samsung uppger upp till 100 minuters drifttid. Stationen All-in-One Clean Station laddar dammsugaren och tömmer automatiskt dammbehållaren i en påse.</p>
+<p><strong>Styrkor:</strong> lång drifttid, hygienisk automatisk tömning och automatisk effektanpassning.</p>
+<p><strong>Svagheter:</strong> skrymmande station, påsar som måste köpas till och en modell i premiumklassen.</p>
+<p><strong>Bäst för:</strong> stora bostäder och allergiker som inte längre vill tömma dammbehållaren för hand.</p>
+<p>I vår <a href="/sv/blog/aspirateur-sans-fil-comparatif-2026">jämförelse av sladdlösa dammsugare 2026</a> går vi igenom modellerna mer ingående.</p>
+
+<h2>Jämförelsetabell över de sex modellerna</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Viktigaste data</th><th>Praktisk fördel</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Roborock Qrevo Curv</td><td>Robotdammsugare med mopp</td><td>18 500 Pa (uppgivet), LiDAR</td><td>Station som tömmer, tvättar med varmt vatten och torkar</td><td>De flesta hem</td></tr>
+<tr><td>Roborock Q7 M5+</td><td>Robotdammsugare</td><td>10 000 Pa (uppgivet), LiDAR</td><td>Automatisk tömning, påse på 2,7 l</td><td>Mindre budget, hårda golv</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>Robotdammsugare med mopp</td><td>20 000 Pa (uppgivet), ProLeap</td><td>Klarar hinder på upp till 6 cm enligt Dreame</td><td>Husdjur, trösklar, stora ytor</td></tr>
+<tr><td>Dyson V15 Detect</td><td>Sladdlös skaftdammsugare</td><td>Laser och partikelsensor</td><td>Tät filtrering, löstagbart batteri</td><td>Mattor, allergi, mångsidighet</td></tr>
+<tr><td>Rowenta X-Force Flex 15.60</td><td>Sladdlös skaftdammsugare</td><td>Flex-rör, dammbehållare 0,9 l</td><td>Upp till 80 min i eco-läge (uppgivet)</td><td>Låga möbler, mycket för pengarna</td></tr>
+<tr><td>Samsung Bespoke Jet AI</td><td>Sladdlös skaftdammsugare</td><td>Upp till 100 min (uppgivet)</td><td>Station med automatisk tömning</td><td>Stora bostäder, tömning utan dammkontakt</td></tr>
+</tbody>
+</table>
+
+<h2>Robot plus skaftdammsugare: den bekvämaste kombinationen</h2>
+<p>I de flesta hem konkurrerar de två inte med varandra, de kompletterar varandra. Roboten sköter den dagliga rundan på golven medan du är borta. Skaftdammsugaren tas fram en eller två gånger i veckan för trappan, tjocka mattor, hörn, textilier och smulorna som hamnar på golvet i fel ögonblick. När en robot gör grovjobbet räcker det ofta med en skaftdammsugare i mellanklassen, och omvänt passar en instegsrobot som Roborock Q7 M5+ mycket bra ihop med en skaftdammsugare i premiumklassen.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa en robot till ett hus med flera våningar utan skaftdammsugare:</strong> roboten klarar inte trappor, så dem får du fortfarande dammsuga själv.</li>
+<li><strong>Att glömma att mäta:</strong> fri höjd under möblerna för roboten, och platsen för stationen, som ofta är högre och djupare än man tror.</li>
+<li><strong>Att jämföra effektsiffror mellan märken:</strong> Pa, AW och W går inte att jämföra rakt av, och varje tillverkare mäter på sitt eget sätt.</li>
+<li><strong>Att lita på den maximala drifttiden:</strong> den gäller i eco-läget. I Boost-läget orkar en skaftdammsugare ofta bara några minuter.</li>
+<li><strong>Att inte plocka undan på golvet:</strong> sladdar, strumpor och leksaker stoppar en robot, även en med kamera.</li>
+<li><strong>Att tro att en moppande robot alltid ersätter moppen:</strong> den håller golven fina, men intorkade fläckar behöver ibland tas för hand.</li>
+</ul>
+
+<h2>Skötsel, batterier och säkerhet</h2>
+<p>En robot kräver lite regelbunden skötsel: tömma eller byta påsen i stationen, ta bort hår från borsten, skölja filtren enligt bruksanvisningen och tömma smutsvattentanken så att det inte börjar lukta. En skaftdammsugare behöver få dammbehållaren tömd, filtret tvättat när tillverkaren tillåter det och borsten rensad från hår.</p>
+<p>Båda drivs med litiumjonbatterier. Använd bara originalladdare och originalbatterier, eller kompatibla som tillverkaren har godkänt, ladda aldrig en skadad apparat och lämna förbrukade batterier till en insamlingsplats. Ställ in förbjudna zoner för roboten runt matskålar, sladdar och mattor med fransar, och håll fallsensorerna rena om du har trappor. Låt inte en moppande robot köra på olackade trägolv utan att först kontrollera vad golvtillverkaren rekommenderar.</p>
+
+<h2>Vårt omdöme</h2>
+<p><strong>Vill du ha rena golv varje dag utan att tänka på det, välj en robotdammsugare</strong>: Roborock Qrevo Curv är den mest balanserade, Roborock Q7 M5+ ger det viktigaste för en mindre budget, och Dreame X50 Ultra Complete passar bäst för husdjur och trösklar.</p>
+<p><strong>Har du trappor, tjocka mattor eller textilier att hålla rena är en skaftdammsugare ett måste</strong>: Dyson V15 Detect är referensen, Rowenta X-Force Flex 15.60 ger mest funktioner för pengarna, och Samsung Bespoke Jet AI sticker ut med sin automatiska tömning.</p>
+<p><strong>Den bästa kompromissen för de flesta hem är att ha båda</strong>: en robot för det dagliga underhållet och en skaftdammsugare för finputsen och allt som roboten inte når.</p>`,
+    us: `<p><strong>Robot vacuum or stick vacuum? For most homes, a robot vacuum is the better pick for keeping floors clean day to day, while a stick vacuum is still essential for stairs, thick rugs, the couch and quick messes.</strong> If you can only buy one, get a robot for a single-level home with mostly hard floors, and a cordless stick vacuum for a multilevel house or one with lots of rugs. Owning both is still the most convenient setup.</p>
+<p>This comparison is based on manufacturer specs, analysis from specialist reviewers and verified owner feedback. It explains the real differences between the two types, then covers six recent models sold in Europe: three robots and three stick vacuums. To browse the full lineup, see our <a href="/us/entretien-maison/aspirateurs-robots">robot vacuums</a> and <a href="/us/entretien-maison/aspirateurs-balais">cordless stick vacuums</a> sections.</p>
+
+<h2>Robot vs. stick vacuum: what really sets them apart</h2>
+<p>Both machines vacuum, but they solve different problems. A <strong>robot vacuum</strong> works on its own, on a schedule, and cleans every day without you giving it a thought. Recent models also mop and come with a dock that empties their dustbin. A <strong>cordless stick vacuum</strong> needs you to push it around, but it cleans thoroughly and everywhere: stairs, baseboards, upholstery, the car, cobwebs on the ceiling.</p>
+<table>
+<thead>
+<tr><th>Factor</th><th>Robot vacuum</th><th>Cordless stick vacuum</th></tr>
+</thead>
+<tbody>
+<tr><td>Effort</td><td>None day to day; just keep the floor picked up</td><td>You do the vacuuming yourself</td></tr>
+<tr><td>Cleaning frequency</td><td>Daily, on a schedule</td><td>Whenever you have time</td></tr>
+<tr><td>Performance on thick rugs</td><td>Decent, weaker on long fibers</td><td>Better, thanks to the motorized brush roll and repeated passes</td></tr>
+<tr><td>Stairs, couch, car</td><td>Not possible</td><td>Yes, in handheld mode</td></tr>
+<tr><td>Under furniture</td><td>Yes, if it clears the height</td><td>Yes, especially with a bendable wand</td></tr>
+<tr><td>Mopping</td><td>Yes, on most recent models</td><td>No (you need a wet-dry vacuum)</td></tr>
+<tr><td>Footprint</td><td>Floor dock, sometimes bulky</td><td>Wall mount or compact dock</td></tr>
+<tr><td>Maintenance</td><td>Dock bags, brushes, mop pads, filters</td><td>Bin and filter to clean, brush roll to untangle</td></tr>
+</tbody>
+</table>
+
+<h2>How to choose: what actually matters</h2>
+<h3>Your home: size, levels and obstacles</h3>
+<p>A robot does its best work on a single level with little clutter on the floor. It can store maps of several floors, but you have to carry it from one level to the next, and it can never climb stairs. In a multilevel house, you'll still need a stick vacuum for the stairs. Also check the clearance under low furniture: most robots stand about 4 in (10 cm) tall with their LiDAR turret.</p>
+<h3>Your floors: hard, carpeted or mixed</h3>
+<p>On hardwood and tile, a recent robot does an excellent job of upkeep, and its mop picks up the fine dust that clings to the floor. On thick rugs or wall-to-wall carpet, a stick vacuum's motorized brush roll and its power focused on a small area pull out deep-down dirt more effectively. High-end robots detect carpet, boost suction and lift their mop pads, but they're no substitute for a proper deep clean on thick carpet.</p>
+<h3>Pets and long hair</h3>
+<p>With a dog or cat, consistency matters as much as power: a robot that runs every day keeps hair from piling up. Choose an anti-tangle brush on both the robot and the stick vacuum. The stick vacuum still wins for the couch, the pet bed and car seats. Our guide to <a href="/us/blog/robot-aspirateur-poils-animaux">robot vacuums for pet hair</a> covers this in detail.</p>
+<h3>Your time and routine</h3>
+<p>If you vacuum less than once a week because you're short on time, a robot will change your daily life: the floor stays clean all the time, with no effort. If you like a thorough cleaning on the weekend, or if the floor is often cluttered (toys, cords, clothes), a stick vacuum may be all you need.</p>
+<h3>Allergies</h3>
+<p>For allergy sufferers, two things matter: effective, well-sealed filtration and emptying without touching the dust. Robot docks and the Samsung Bespoke Jet AI's dock empty the bin into a closed bag, which limits exposure.</p>
+<h3>Price range</h3>
+<p>You'll find entry-level robots with LiDAR navigation and self-emptying, and very complete midrange stick vacuums. The premium tier mostly adds all-in-one docks for robots and more advanced sensors for stick vacuums. An entry-level robot paired with a good stick vacuum often costs less than a single top-of-the-line robot.</p>
+
+<h2>Our robot vacuum picks</h2>
+<h3>Roborock Qrevo Curv: the most balanced robot</h3>
+<p>The <strong>Roborock Qrevo Curv</strong> is rated at 18,500 Pa of suction and pairs LiDAR navigation with spinning mop pads. Its FlexiArm extends the side brush and one mop pad into corners and along baseboards, and its AdaptiLift chassis can raise itself to get over thresholds and thick rugs. The dock empties the dustbin, washes the mop pads with hot water and dries them with warm air.</p>
+<p><strong>Pros:</strong> careful edge cleaning, a very good balance between vacuuming and mopping, and a full-featured Roborock app with a reputation for reliability.</p>
+<p><strong>Cons:</strong> a large dock, a premium price, and a LiDAR turret that keeps it from getting under very low furniture.</p>
+<p><strong>Best for:</strong> most apartments and houses with mixed floors, when you want to hand off almost all of the routine cleaning.</p>
+<h3>Roborock Q7 M5+: the essentials on a budget</h3>
+<p>The <strong>Roborock Q7 M5+</strong> sticks to the essentials: LiDAR navigation with multi-floor maps, a rated 10,000 Pa of suction, an anti-tangle brush with a built-in comb and a self-emptying dock with a 2.7-liter bag. It also has a basic mopping module.</p>
+<p><strong>Pros:</strong> Roborock's navigation and app on an entry-level model, weeks between emptyings, and a compact size.</p>
+<p><strong>Cons:</strong> the mop pad only freshens up floors, the dock doesn't wash or dry the pad, and obstacle avoidance is less advanced.</p>
+<p><strong>Best for:</strong> a first robot, an apartment with mostly hard floors, or as a sidekick to a cordless stick vacuum.</p>
+<h3>Dreame X50 Ultra Complete: for pets and thresholds</h3>
+<p>The <strong>Dreame X50 Ultra Complete</strong> is rated at 20,000 Pa and uses a HyperStream anti-tangle twin brush. Its ProLeap system lifts it over obstacles up to 2.4 in (6 cm) high, according to the manufacturer, and its LiDAR turret retracts so it can get under some furniture. The dock empties the robot, then washes and dries the mop pads.</p>
+<p><strong>Pros:</strong> handles hair and rugs very well, climbs over thresholds and sliding-door tracks, and has long battery life for large homes.</p>
+<p><strong>Cons:</strong> a heavy robot and a bulky dock, a premium price, and loud at full power.</p>
+<p><strong>Best for:</strong> homes with a dog or cat, houses with thresholds, and large living spaces.</p>
+<p>For more on robots, read our <a href="/us/blog/guide-robot-aspirateur-2026">guide to the best robot vacuums of 2026</a>.</p>
+
+<h2>Our stick vacuum picks</h2>
+<h3>Dyson V15 Detect: the benchmark stick vacuum</h3>
+<p>The <strong>Dyson V15 Detect</strong> projects a green laser beam at floor level that reveals fine dust on hard floors. A piezo sensor measures the particles it picks up and, in Auto mode, ramps up power when it detects a lot of dust. Dyson claims up to 60 minutes of runtime in Eco mode, a 0.76-liter (0.2-gallon) bin, whole-machine sealed filtration and a removable battery.</p>
+<p><strong>Pros:</strong> some of the strongest suction on the market, a genuinely useful laser, automatic power adjustment and sealed filtration.</p>
+<p><strong>Cons:</strong> a premium model, about 6.6 lb (3 kg) to hold at arm's length, and very short runtime in Boost mode.</p>
+<p><strong>Best for:</strong> anyone who wants a stick vacuum that does it all, homes with rugs, and allergy sufferers.</p>
+<h3>Rowenta X-Force Flex 15.60: the best value for the features</h3>
+<p>The <strong>Rowenta X-Force Flex 15.60</strong> stands out for its <strong>Flex wand</strong>, which bends so you can reach under a couch or bed without bending down. Rowenta claims up to 230 AW in Boost mode, up to 80 minutes of runtime in Eco mode, automatic power adjustment by floor type, a removable battery and a 0.9-liter (0.24-gallon) bin, one of the largest on the market.</p>
+<p><strong>Pros:</strong> a very handy Flex wand, a large bin, a washable filter and excellent value for its features.</p>
+<p><strong>Cons:</strong> a little heavier than average (about 7.1 lb, or 3.2 kg), and no dust-level detection.</p>
+<p><strong>Best for:</strong> homes with lots of low furniture, and anyone who wants a full-featured stick vacuum without going top of the line.</p>
+<h3>Samsung Bespoke Jet AI: the stick vacuum that empties itself</h3>
+<p>The <strong>Samsung Bespoke Jet AI</strong> is rated at up to 280 W of suction power and has a smart mode that recognizes the floor type and adjusts power to match. Samsung claims up to 100 minutes of runtime. Its All-in-One Clean Station charges the vacuum and automatically empties the bin into a bag.</p>
+<p><strong>Pros:</strong> long runtime, hygienic self-emptying and automatic power adjustment.</p>
+<p><strong>Cons:</strong> a bulky dock, replacement bags to buy, and a premium price.</p>
+<p><strong>Best for:</strong> large homes and allergy sufferers who are done emptying the bin by hand.</p>
+<p>Our <a href="/us/blog/aspirateur-sans-fil-comparatif-2026">2026 cordless stick vacuum comparison</a> covers these models in more depth.</p>
+
+<h2>All six models compared</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Key spec</th><th>Practical advantage</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Roborock Qrevo Curv</td><td>Robot vacuum and mop</td><td>Rated 18,500 Pa, LiDAR</td><td>Dock that empties, hot-washes and dries</td><td>Most homes</td></tr>
+<tr><td>Roborock Q7 M5+</td><td>Robot vacuum</td><td>Rated 10,000 Pa, LiDAR</td><td>Self-emptying, 2.7 L bag</td><td>Tight budgets, hard floors</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>Robot vacuum and mop</td><td>Rated 20,000 Pa, ProLeap</td><td>Climbs up to 2.4 in (6 cm), per Dreame</td><td>Pets, thresholds, large homes</td></tr>
+<tr><td>Dyson V15 Detect</td><td>Cordless stick</td><td>Laser and particle sensor</td><td>Sealed filtration, removable battery</td><td>Rugs, allergies, versatility</td></tr>
+<tr><td>Rowenta X-Force Flex 15.60</td><td>Cordless stick</td><td>Flex wand, 0.9 L (0.24 gal) bin</td><td>Up to 80 min claimed in Eco mode</td><td>Low furniture, value for the features</td></tr>
+<tr><td>Samsung Bespoke Jet AI</td><td>Cordless stick</td><td>Up to 100 min claimed</td><td>Self-emptying dock</td><td>Large homes, dust-free emptying</td></tr>
+</tbody>
+</table>
+
+<h2>Robot plus stick vacuum: the most convenient combo</h2>
+<p>In most homes, the two machines don't compete; they complement each other. The robot handles the daily pass over the floors while you're out. The stick vacuum comes out once or twice a week for the stairs, thick rugs, corners, upholstery and the crumbs that always seem to land at the worst moment. When a robot does the heavy lifting, a midrange stick vacuum is often enough, and in the other direction, an entry-level robot such as the Roborock Q7 M5+ pairs very well with a premium stick vacuum.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a robot for a multilevel house without a stick vacuum:</strong> the robot can't climb stairs, so they'll still need vacuuming.</li>
+<li><strong>Forgetting to measure:</strong> the clearance under your furniture for the robot, and the space for the dock, which is often taller and deeper than you'd expect.</li>
+<li><strong>Comparing power figures across brands:</strong> Pa, AW and W aren't directly comparable, and each manufacturer measures its own way.</li>
+<li><strong>Trusting the maximum runtime:</strong> it's measured in Eco mode. In Boost mode, a stick vacuum often lasts only a few minutes.</li>
+<li><strong>Not picking up the floor:</strong> cords, socks and toys stop a robot in its tracks, even one with a camera.</li>
+<li><strong>Assuming a mopping robot always replaces a mop:</strong> it keeps floors maintained very well, but dried-on stains sometimes need scrubbing by hand.</li>
+</ul>
+
+<h2>Maintenance, batteries and safety</h2>
+<p>A robot needs a little regular upkeep: emptying or replacing the dock bag, pulling hair off the brush roll, rinsing the filters as the manual describes and emptying the dirty-water tank to prevent odors. A stick vacuum needs its bin emptied, its filter washed where the manufacturer allows it and its brush roll untangled.</p>
+<p>Both run on lithium-ion batteries. Use only the original charger and batteries, or compatible ones approved by the manufacturer, don't leave a damaged device charging, and drop off used batteries at a battery recycling location. For a robot, set no-go zones around pet bowls, cords and fringed rugs, and keep the cliff sensors clean if you have stairs. Don't let a mopping robot clean unsealed hardwood floors without checking the flooring manufacturer's recommendations.</p>
+
+<h2>The bottom line</h2>
+<p><strong>If you want clean floors every day without thinking about it, get a robot vacuum</strong>: the Roborock Qrevo Curv is the most balanced, the Roborock Q7 M5+ covers the essentials on a budget, and the Dreame X50 Ultra Complete is the best fit for pets and thresholds.</p>
+<p><strong>If you have stairs, thick rugs or upholstery to keep clean, a stick vacuum is still essential</strong>: the Dyson V15 Detect is the benchmark, the Rowenta X-Force Flex 15.60 offers the best value for its features, and the Samsung Bespoke Jet AI stands out for its self-emptying dock.</p>
+<p><strong>For most homes, the best compromise is still to own both</strong>: a robot for daily upkeep and a stick vacuum for touch-ups and everything the robot can't reach.</p>`,
+    ca: `<p><strong>Robot vacuum or stick vacuum? For most homes, a robot vacuum is the best choice for keeping floors clean day to day, while a stick vacuum remains essential for stairs, thick rugs, the sofa and quick spills.</strong> If you can only buy one, pick a robot for a single-level home with mostly hard floors, and a cordless stick vacuum for a two-storey house or one with lots of rugs. Owning both is still the most convenient option.</p>
+<p>This comparison is based on manufacturer specifications, analysis from specialist reviewers and verified buyer feedback. It explains the real differences between the two types, then presents six recent models sold in Europe: three robots and three stick vacuums. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. To browse the full range, see our <a href="/ca/entretien-maison/aspirateurs-robots">robot vacuums</a> and <a href="/ca/entretien-maison/aspirateurs-balais">cordless stick vacuums</a> sections.</p>
+
+<h2>Robot or stick vacuum: what really sets them apart</h2>
+<p>Both machines vacuum, but they solve different problems. A <strong>robot vacuum</strong> works on its own, on a schedule, and cleans every day without you thinking about it. Recent models also mop and come with a dock that empties their bin. A <strong>cordless stick vacuum</strong> needs you to be there, but it cleans thoroughly and everywhere: stairs, baseboards, upholstery, the car, cobwebs on the ceiling.</p>
+<table>
+<thead>
+<tr><th>Criterion</th><th>Robot vacuum</th><th>Cordless stick vacuum</th></tr>
+</thead>
+<tbody>
+<tr><td>Effort</td><td>None day to day, just keep the floor tidy</td><td>You do the vacuuming yourself</td></tr>
+<tr><td>Cleaning frequency</td><td>Daily, scheduled</td><td>Whenever you have time</td></tr>
+<tr><td>Performance on thick rugs</td><td>Decent, weaker on long fibres</td><td>Better, thanks to the motorized brush and repeated passes</td></tr>
+<tr><td>Stairs, sofa, car</td><td>Not possible</td><td>Yes, in handheld mode</td></tr>
+<tr><td>Under furniture</td><td>Yes, if it fits the height</td><td>Yes, especially with a bendable wand</td></tr>
+<tr><td>Mopping</td><td>Yes on most recent models</td><td>No (you need a wet dry vacuum)</td></tr>
+<tr><td>Footprint</td><td>Floor dock, sometimes bulky</td><td>Wall mount or compact station</td></tr>
+<tr><td>Maintenance</td><td>Dock bags, brushes, mop pads, filters</td><td>Bin and filter to clean, brush to untangle</td></tr>
+</tbody>
+</table>
+
+<h2>How to choose: the criteria that matter</h2>
+<h3>Your home: size, floors and obstacles</h3>
+<p>A robot performs best on a single level with little clutter on the floor. It can store maps of several floors, but you have to carry it from one level to the next, and it never climbs stairs. In a two-storey or multi-level house, you will still need a stick vacuum for the stairs. Also check the clearance under low furniture: most robots stand about 10 cm (4 in.) tall with their LiDAR turret.</p>
+<h3>Your floors: hard, carpeted or mixed</h3>
+<p>On hardwood and tile, a recent robot does an excellent upkeep job, and its mopping removes the fine dust that sticks to the floor. On thick rugs or wall-to-wall carpet, the motorized brush of a stick vacuum and its power concentrated on a small area pull out deep dirt more effectively. High-end robots detect carpet, boost suction and lift their mops, but they do not replace a proper deep clean on a thick carpet.</p>
+<h3>Pets and long hair</h3>
+<p>With a dog or cat, regularity matters as much as power: a robot that runs every day stops hair from building up. Choose an anti-tangle brush on both the robot and the stick vacuum. The stick vacuum still has the edge for the sofa, the pet bed and car seats. Our guide to <a href="/ca/blog/robot-aspirateur-poils-animaux">robot vacuums for pet hair</a> covers this in detail.</p>
+<h3>Your time and routine</h3>
+<p>If you vacuum less than once a week because you are short on time, a robot will change your daily life: the floor stays clean all the time, with no effort. If you enjoy a thorough clean on the weekend, or if the floor is often cluttered (toys, cables, clothes), a stick vacuum may be enough.</p>
+<h3>Allergies</h3>
+<p>For allergy sufferers, two things matter: effective, well-sealed filtration and emptying without touching the dust. Robot docks and the Samsung Bespoke Jet AI station empty the bin into a closed bag, which limits exposure.</p>
+<h3>Price range</h3>
+<p>There are entry-level robots with LiDAR navigation and auto-emptying, and very complete mid-range stick vacuums. The premium tier mainly adds all-in-one docks for robots and more advanced sensors for stick vacuums. An entry-level robot paired with a good stick vacuum often costs less than a single top-of-the-line robot.</p>
+
+<h2>Recommended robot vacuums</h2>
+<h3>Roborock Qrevo Curv: the most balanced robot</h3>
+<p>The <strong>Roborock Qrevo Curv</strong> is rated at 18,500 Pa of suction, with LiDAR navigation and rotating mops. Its FlexiArm extends the side brush and one mop into corners and along baseboards, and its AdaptiLift chassis can raise itself to cross thresholds and thick rugs. The dock empties the bin, washes the mops with hot water and dries them with warm air.</p>
+<p><strong>Strengths:</strong> careful edge cleaning, a very good balance between vacuuming and mopping, and a complete Roborock app with a reputation for reliability.</p>
+<p><strong>Limitations:</strong> a large dock, premium positioning, and a LiDAR turret that limits access under very low furniture.</p>
+<p><strong>Best for:</strong> most apartments and houses with mixed floors whose owners want to hand over almost all routine cleaning.</p>
+<h3>Roborock Q7 M5+: the essentials on a budget</h3>
+<p>The <strong>Roborock Q7 M5+</strong> gets straight to the point: LiDAR navigation with multi-floor maps, a quoted 10,000 Pa of suction, an anti-tangle brush with a built-in comb and an auto-empty dock with a 2.7 L bag. It also has a basic mopping module.</p>
+<p><strong>Strengths:</strong> the brand's navigation and app on an entry-level model, several weeks without emptying the robot, and a compact size.</p>
+<p><strong>Limitations:</strong> the mopping pad only freshens floors, the dock does not wash or dry mops, and obstacle avoidance is less advanced.</p>
+<p><strong>Best for:</strong> a first robot, an apartment with mostly hard floors, or as a companion to a cordless stick vacuum.</p>
+<h3>Dreame X50 Ultra Complete: for pets and thresholds</h3>
+<p>The <strong>Dreame X50 Ultra Complete</strong> is rated at 20,000 Pa and uses a HyperStream anti-tangle twin brush. Its ProLeap system lifts it over obstacles of up to 6 cm (about 2¼ in.), according to the manufacturer, and its LiDAR turret retracts to get under some furniture. The dock empties the robot, then washes and dries the mops.</p>
+<p><strong>Strengths:</strong> handles hair and rugs very well, climbs thresholds and sliding patio door tracks, and has long battery life for large homes.</p>
+<p><strong>Limitations:</strong> a heavy robot and a bulky dock, premium positioning, and high noise levels at full power.</p>
+<p><strong>Best for:</strong> homes with a dog or cat, houses with thresholds and large living spaces.</p>
+<p>For more on robots, read our <a href="/ca/blog/guide-robot-aspirateur-2026">guide to the best robot vacuum in 2026</a>.</p>
+
+<h2>Recommended stick vacuums</h2>
+<h3>Dyson V15 Detect: the benchmark stick vacuum</h3>
+<p>The <strong>Dyson V15 Detect</strong> projects a green laser beam at floor level that reveals fine dust on hard floors. A piezo sensor measures the particles it picks up and, in Auto mode, increases power when it detects a lot of dust. Dyson quotes up to 60 minutes of runtime in eco mode, a 0.76 L bin, whole-machine sealed filtration and a removable battery.</p>
+<p><strong>Strengths:</strong> among the most powerful suction on the market, a genuinely useful laser, automatic power adjustment and sealed filtration.</p>
+<p><strong>Limitations:</strong> a premium model, about 3 kg (6.6 lb) to hold at arm's length, and very short runtime in Boost mode.</p>
+<p><strong>Best for:</strong> anyone who wants a stick vacuum that does it all, homes with rugs, and allergy sufferers.</p>
+<h3>Rowenta X-Force Flex 15.60: the best value for features</h3>
+<p>The <strong>Rowenta X-Force Flex 15.60</strong> stands out with its <strong>Flex wand</strong>, which bends to slide under a sofa or bed without you bending down. Rowenta quotes up to 230 AW in Boost mode, up to 80 minutes of runtime in eco mode, automatic power adjustment by floor type, a removable battery and a 0.9 L bin, one of the largest on the market.</p>
+<p><strong>Strengths:</strong> a very practical Flex wand, a large bin, a washable filter and excellent value for its features.</p>
+<p><strong>Limitations:</strong> slightly heavier than average (about 3.2 kg, or 7 lb), and no dust-level detection.</p>
+<p><strong>Best for:</strong> homes with lots of low furniture, and buyers who want a complete stick vacuum without going top of the line.</p>
+<h3>Samsung Bespoke Jet AI: the stick vacuum that empties itself</h3>
+<p>The <strong>Samsung Bespoke Jet AI</strong> is rated at up to 280 W of suction power and has a smart mode that recognizes the floor type to adjust power. Samsung quotes up to 100 minutes of runtime. Its All-in-One Clean Station charges the vacuum and automatically empties the bin into a bag.</p>
+<p><strong>Strengths:</strong> long runtime, hygienic auto-emptying and automatic power adjustment.</p>
+<p><strong>Limitations:</strong> a bulky station, bags to buy, and premium positioning.</p>
+<p><strong>Best for:</strong> large homes and allergy sufferers who no longer want to empty the bin by hand.</p>
+<p>Our <a href="/ca/blog/aspirateur-sans-fil-comparatif-2026">2026 cordless stick vacuum comparison</a> covers these models in more depth.</p>
+
+<h2>Comparison table of the six models</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Key spec</th><th>Practical advantage</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Roborock Qrevo Curv</td><td>Robot vacuum and mop</td><td>Rated 18,500 Pa, LiDAR</td><td>Dock that empties, hot-washes and dries</td><td>Most homes</td></tr>
+<tr><td>Roborock Q7 M5+</td><td>Robot vacuum</td><td>Rated 10,000 Pa, LiDAR</td><td>Auto-emptying, 2.7 L bag</td><td>Tight budgets, hard floors</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>Robot vacuum and mop</td><td>Rated 20,000 Pa, ProLeap</td><td>Climbs up to 6 cm (2¼ in.), per Dreame</td><td>Pets, thresholds, large homes</td></tr>
+<tr><td>Dyson V15 Detect</td><td>Cordless stick</td><td>Laser and particle sensor</td><td>Sealed filtration, removable battery</td><td>Rugs, allergies, versatility</td></tr>
+<tr><td>Rowenta X-Force Flex 15.60</td><td>Cordless stick</td><td>Flex wand, 0.9 L bin</td><td>Up to 80 min quoted in eco mode</td><td>Low furniture, value for features</td></tr>
+<tr><td>Samsung Bespoke Jet AI</td><td>Cordless stick</td><td>Up to 100 min quoted</td><td>Automatic emptying station</td><td>Large homes, dust-free emptying</td></tr>
+</tbody>
+</table>
+
+<h2>Robot plus stick vacuum: the most convenient combination</h2>
+<p>In most homes, the two machines don't compete, they complement each other. The robot handles the daily pass over the floors while you are out. The stick vacuum comes out once or twice a week for the stairs, thick rugs, corners, upholstery and crumbs spilled at the worst moment. When a robot does the bulk of the work, a mid-range stick vacuum is often enough, and conversely an entry-level robot such as the Roborock Q7 M5+ pairs very well with a premium stick vacuum.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a robot for a two-storey house without a stick vacuum:</strong> the robot can't climb stairs, so you'll still have to vacuum them yourself.</li>
+<li><strong>Forgetting to measure:</strong> the clearance under furniture for the robot, and the space for the dock, which is often taller and deeper than expected.</li>
+<li><strong>Comparing power figures across brands:</strong> Pa, AW and W are not directly comparable, and each manufacturer measures in its own way.</li>
+<li><strong>Trusting the maximum runtime:</strong> it is quoted in eco mode. In Boost mode, a stick vacuum often lasts only a few minutes.</li>
+<li><strong>Not tidying the floor:</strong> cables, socks and toys stop a robot, even one with a camera.</li>
+<li><strong>Assuming a mopping robot always replaces a mop:</strong> it maintains floors very well, but dried-on stains sometimes need cleaning by hand.</li>
+</ul>
+
+<h2>Maintenance, batteries and safety</h2>
+<p>A robot needs a little regular care: emptying or replacing the dock bag, removing hair from the brush, rinsing filters as the manual describes and emptying the dirty-water tank to prevent odours. A stick vacuum needs its bin emptied, its filter washed where the manufacturer allows it and its brush untangled.</p>
+<p>Both run on lithium-ion batteries. Use only the original charger and batteries, or compatible ones approved by the manufacturer, don't leave a damaged device charging, and drop off used batteries at a battery recycling collection point. For a robot, set no-go zones around pet bowls, cables and fringed rugs, and keep the cliff sensors clean if you have stairs. Don't let a mopping robot clean unsealed hardwood floors without checking the flooring manufacturer's recommendations.</p>
+
+<h2>Our verdict</h2>
+<p><strong>If you want clean floors every day without thinking about it, choose a robot vacuum</strong>: the Roborock Qrevo Curv is the most balanced, the Roborock Q7 M5+ covers the essentials on a budget, and the Dreame X50 Ultra Complete is the best fit for pets and thresholds.</p>
+<p><strong>If you have stairs, thick rugs or upholstery to look after, a stick vacuum remains essential</strong>: the Dyson V15 Detect is the benchmark, the Rowenta X-Force Flex 15.60 offers the best value for its features, and the Samsung Bespoke Jet AI stands out for its automatic emptying.</p>
+<p><strong>The best compromise for most homes is still to own both</strong>: a robot for daily upkeep and a stick vacuum for finishing touches and everything the robot cannot reach.</p>`,
   },
   faq: [
     {
@@ -801,6 +1131,9 @@ export const article: BlogArticle = {
         it: "Un robot aspirapolvere può sostituire una scopa elettrica?",
         nl: "Kan een robotstofzuiger een steelstofzuiger vervangen?",
         pl: "Czy robot odkurzający może zastąpić odkurzacz pionowy?",
+        sv: "Kan en robotdammsugare ersätta en skaftdammsugare?",
+        us: "Can a robot vacuum replace a stick vacuum?",
+        ca: "Can a robot vacuum replace a stick vacuum?",
       },
       answer: {
         fr: "Dans un appartement de plain-pied aux sols surtout durs, un robot récent assure l’essentiel de l’entretien. Il ne monte pas les escaliers et n’aspire ni le canapé ni la voiture : un balai reste utile pour ces usages et pour les tapis épais.",
@@ -809,7 +1142,10 @@ export const article: BlogArticle = {
         es: "En un piso de una sola planta con suelos sobre todo duros, un robot reciente se encarga de casi todo el mantenimiento. No sube escaleras ni aspira el sofá o el coche, así que una escoba sigue siendo útil para eso y para las alfombras gruesas.",
         it: "In un appartamento su un unico piano con pavimenti soprattutto duri, un robot recente gestisce quasi tutta la manutenzione. Non sale le scale e non pulisce divano o auto: per questo e per i tappeti spessi una scopa resta utile.",
         nl: "In een appartement op één verdieping met vooral harde vloeren doet een recente robot het meeste onderhoud. Hij neemt geen trappen en zuigt de bank of auto niet, dus daarvoor en voor dikke vloerkleden blijft een steelstofzuiger handig.",
-        pl: "W mieszkaniu na jednym poziomie z przeważnie twardymi podłogami nowy robot przejmuje większość sprzątania. Nie wchodzi po schodach i nie odkurzy sofy ani samochodu: odkurzacz pionowy nadal przyda się do tych zadań oraz do grubych dywanów.",
+        pl: "W jednopoziomowym mieszkaniu z przewagą twardych podłóg nowy robot przejmie większość sprzątania. Nie wjedzie jednak po schodach i nie odkurzy kanapy ani samochodu, dlatego do tych zadań i do grubych dywanów nadal przyda się odkurzacz pionowy.",
+        sv: "I en lägenhet på ett plan med mest hårda golv klarar en modern robot det mesta av den löpande städningen. Den kan inte ta sig uppför trappor och dammsuger varken soffan eller bilen, så en skaftdammsugare är fortfarande bra att ha för det och för tjocka mattor.",
+        us: "In a single-level apartment with mostly hard floors, a recent robot handles most of the routine cleaning. It can't climb stairs or vacuum the couch or the car, so a stick vacuum is still useful for those jobs and for thick rugs.",
+        ca: "In a single-level apartment with mostly hard floors, a recent robot handles most routine cleaning. It cannot climb stairs or clean the sofa or car, so a stick vacuum remains useful for those jobs and for thick rugs.",
       },
     },
     {
@@ -820,7 +1156,10 @@ export const article: BlogArticle = {
         es: "¿Cuál es mejor si tengo mascotas?",
         it: "Quale scegliere se si hanno animali?",
         nl: "Wat is beter met huisdieren?",
-        pl: "Co wybrać przy zwierzętach?",
+        pl: "Które urządzenie wybrać, jeśli masz zwierzęta?",
+        sv: "Vilken är bäst om du har husdjur?",
+        us: "Which is better with pets?",
+        ca: "Which is better with pets?",
       },
       answer: {
         fr: "Idéalement les deux. Un robot avec brosse anti-emmêlement, comme le Dreame X50 Ultra Complete, empêche les poils de s’accumuler au quotidien, et un balai comme le Dyson V15 Detect se charge du canapé, du panier et des tapis.",
@@ -829,7 +1168,10 @@ export const article: BlogArticle = {
         es: "Lo ideal son los dos. Un robot con cepillo antienredos, como el Dreame X50 Ultra Complete, evita que el pelo se acumule cada día, y una escoba como la Dyson V15 Detect se ocupa del sofá, la cama de la mascota y las alfombras.",
         it: "Idealmente entrambi. Un robot con spazzola anti-groviglio, come il Dreame X50 Ultra Complete, evita che i peli si accumulino ogni giorno, e una scopa come la Dyson V15 Detect si occupa di divano, cuccia e tappeti.",
         nl: "Idealiter allebei. Een robot met antiklitborstel, zoals de Dreame X50 Ultra Complete, voorkomt dat haren zich dagelijks ophopen, en een steelstofzuiger zoals de Dyson V15 Detect neemt de bank, de mand en de vloerkleden voor zijn rekening.",
-        pl: "Najlepiej oba. Robot ze szczotką przeciw owijaniu się włosów, taki jak Dreame X50 Ultra Complete, nie pozwala sierści gromadzić się na co dzień, a odkurzacz pionowy, na przykład Dyson V15 Detect, zajmie się sofą, legowiskiem i dywanami.",
+        pl: "Najlepiej oba. Robot ze szczotką zapobiegającą nawijaniu się włosów, taki jak Dreame X50 Ultra Complete, na bieżąco nie pozwala sierści się gromadzić, a odkurzacz pionowy, na przykład Dyson V15 Detect, poradzi sobie z kanapą, legowiskiem i dywanami.",
+        sv: "Helst båda. En robot med trasselfri borste, som Dreame X50 Ultra Complete, hindrar djurhåren från att samlas i vardagen, och en skaftdammsugare som Dyson V15 Detect tar hand om soffan, djurets liggplats och mattorna.",
+        us: "Ideally both. A robot with an anti-tangle brush, such as the Dreame X50 Ultra Complete, keeps hair from building up day to day, and a stick vacuum such as the Dyson V15 Detect takes care of the couch, the pet bed and the rugs.",
+        ca: "Ideally both. A robot with an anti-tangle brush, such as the Dreame X50 Ultra Complete, stops hair from building up day to day, and a stick vacuum such as the Dyson V15 Detect handles the sofa, pet bed and rugs.",
       },
     },
     {
@@ -841,6 +1183,9 @@ export const article: BlogArticle = {
         it: "Quale è più efficace sui tappeti spessi?",
         nl: "Wat werkt beter op dikke vloerkleden?",
         pl: "Który jest skuteczniejszy na grubych dywanach?",
+        sv: "Vilken är mest effektiv på tjocka mattor?",
+        us: "Which works better on thick rugs?",
+        ca: "Which works better on thick rugs?",
       },
       answer: {
         fr: "L’aspirateur balai. Sa brosse motorisée et sa puissance concentrée sur une petite surface extraient mieux la poussière en profondeur. Les robots haut de gamme augmentent leur aspiration sur les tapis, mais restent en retrait sur les fibres longues.",
@@ -849,7 +1194,10 @@ export const article: BlogArticle = {
         es: "La aspiradora escoba. Su cepillo motorizado y su potencia concentrada en una superficie pequeña extraen mejor el polvo profundo. Los robots de gama alta aumentan la succión en las alfombras, pero se quedan cortos con el pelo largo.",
         it: "La scopa elettrica. La spazzola motorizzata e la potenza concentrata su una piccola superficie estraggono meglio la polvere in profondità. I robot di fascia alta aumentano l’aspirazione sui tappeti, ma restano indietro sul pelo lungo.",
         nl: "De steelstofzuiger. De gemotoriseerde borstel en het vermogen op een klein oppervlak halen stof beter uit de diepte. Toprobots verhogen hun zuigkracht op vloerkleden, maar blijven achter bij hoogpolig.",
-        pl: "Odkurzacz pionowy. Jego szczotka z napędem i moc skoncentrowana na małej powierzchni lepiej wyciągają kurz z głębi. Roboty z wyższej półki zwiększają ssanie na dywanach, ale przy długim włosiu nadal ustępują odkurzaczom pionowym.",
+        pl: "Odkurzacz pionowy. Szczotka z napędem i moc skupiona na małej powierzchni lepiej wyciągają kurz z głębi dywanu. Roboty z wyższej półki zwiększają na dywanach siłę ssania, ale przy długim włosiu wciąż ustępują odkurzaczom pionowym.",
+        sv: "Skaftdammsugaren. Den motordrivna borsten och effekten som koncentreras på en liten yta får bättre upp dammet djupt nere i mattan. Robotar i toppklassen ökar sugkraften på mattor, men kommer ändå till korta på lång lugg.",
+        us: "The stick vacuum. Its motorized brush roll and power focused on a small area pull out deep-down dust more effectively. High-end robots boost suction on rugs but still fall short on long fibers.",
+        ca: "The stick vacuum. Its motorized brush and power concentrated on a small area pull out deep dust more effectively. High-end robots boost suction on rugs but still fall short on long fibres.",
       },
     },
     {
@@ -861,6 +1209,9 @@ export const article: BlogArticle = {
         it: "Un robot aspirapolvere funziona in una casa su più piani?",
         nl: "Werkt een robotstofzuiger in een huis met meerdere verdiepingen?",
         pl: "Czy robot odkurzający sprawdzi się w domu piętrowym?",
+        sv: "Fungerar en robotdammsugare i ett hus med flera våningar?",
+        us: "Does a robot vacuum work in a multilevel home?",
+        ca: "Does a robot vacuum work in a multi-level home?",
       },
       answer: {
         fr: "Oui, la plupart des modèles récents mémorisent plusieurs étages, mais il faut porter le robot d’un niveau à l’autre ou acheter un second appareil. Il ne nettoie jamais les marches, et ses capteurs anti-chute l’empêchent de tomber dans l’escalier.",
@@ -869,7 +1220,10 @@ export const article: BlogArticle = {
         es: "Sí, la mayoría de los modelos recientes guardan varias plantas, pero hay que llevar el robot de una a otra o comprar un segundo aparato. Nunca limpia los escalones, y sus sensores anticaída evitan que se caiga por la escalera.",
         it: "Sì, la maggior parte dei modelli recenti memorizza più piani, ma il robot va spostato da un livello all’altro oppure serve un secondo apparecchio. Non pulisce mai i gradini, e i sensori anticaduta gli impediscono di cadere dalle scale.",
         nl: "Ja, de meeste recente modellen onthouden meerdere verdiepingen, maar u moet de robot verplaatsen of een tweede toestel kopen. De traptreden reinigt hij nooit, en valsensoren voorkomen dat hij van de trap valt.",
-        pl: "Tak, większość nowych modeli zapamiętuje kilka pięter, ale trzeba przenosić robota z poziomu na poziom albo kupić drugie urządzenie. Nigdy nie wyczyści stopni, a czujniki przeciwupadkowe chronią go przed spadnięciem ze schodów.",
+        pl: "Tak, większość nowych modeli zapamiętuje mapy kilku pięter, ale robota trzeba przenosić z piętra na piętro albo kupić drugie urządzenie. Stopni nigdy nie posprząta, a czujniki zabezpieczające przed upadkiem chronią go przed spadnięciem ze schodów.",
+        sv: "Ja, de flesta nyare modeller kan spara kartor över flera våningar, men du måste bära roboten mellan dem eller köpa en till. Den städar aldrig trappstegen, och fallsensorerna hindrar den från att ramla ner för trappan.",
+        us: "Yes, most recent models store maps of several floors, but you have to carry the robot from one level to another or buy a second unit. It never cleans the stairs, and its cliff sensors keep it from falling down them.",
+        ca: "Yes, most recent models store maps of several floors, but you have to carry the robot between levels or buy a second unit. It never cleans the stairs, and its cliff sensors stop it from falling down them.",
       },
     },
     {
@@ -880,7 +1234,10 @@ export const article: BlogArticle = {
         es: "¿Cuál requiere más mantenimiento?",
         it: "Quale richiede più manutenzione?",
         nl: "Wat vraagt meer onderhoud?",
-        pl: "Który wymaga więcej konserwacji?",
+        pl: "Które urządzenie wymaga więcej konserwacji?",
+        sv: "Vilken kräver mest skötsel?",
+        us: "Which needs more maintenance?",
+        ca: "Which needs more maintenance?",
       },
       answer: {
         fr: "Le robot, surtout s’il lave : sacs de station, réservoir d’eau sale, serpillères, brosses et filtres. Une station tout-en-un automatise une bonne partie du travail. Un balai demande surtout de vider le bac, laver le filtre et démêler la brosse.",
@@ -889,7 +1246,10 @@ export const article: BlogArticle = {
         es: "El robot, sobre todo si friega: bolsas de la base, depósito de agua sucia, mopas, cepillos y filtros. Una base todo en uno automatiza buena parte del trabajo. Una escoba requiere sobre todo vaciar el depósito, lavar el filtro y desenredar el cepillo.",
         it: "Il robot, soprattutto se lava: sacchetti della base, serbatoio dell’acqua sporca, panni, spazzole e filtri. Una base tutto-in-uno automatizza gran parte del lavoro. Una scopa richiede soprattutto di svuotare il contenitore, lavare il filtro e districare la spazzola.",
         nl: "De robot, zeker als hij dweilt: stationzakken, vuilwatertank, dweilen, borstels en filters. Een alles-in-één-station automatiseert veel daarvan. Bij een steelstofzuiger leegt u vooral de stofbak, wast u het filter en ontwart u de borstel.",
-        pl: "Robot, zwłaszcza jeśli myje: worki stacji, zbiornik na brudną wodę, mopy, szczotki i filtry. Stacja typu „wszystko w jednym” automatyzuje sporą część pracy. Odkurzacz pionowy wymaga głównie opróżniania pojemnika, mycia filtra i rozplątywania szczotki.",
+        pl: "Robot, zwłaszcza jeśli myje podłogi: trzeba dbać o worki w stacji, zbiornik na brudną wodę, mopy, szczotki i filtry. Stacja „wszystko w jednym” sporą część tej pracy wykonuje automatycznie. Odkurzacz pionowy wymaga głównie opróżniania pojemnika, mycia filtra i rozplątywania szczotki.",
+        sv: "Roboten, särskilt om den moppar: påsar till stationen, smutsvattentank, moppdukar, borstar och filter. En allt-i-ett-station automatiserar en stor del av jobbet. En skaftdammsugare behöver mest få dammbehållaren tömd, filtret tvättat och borsten rensad från hår.",
+        us: "The robot, especially if it mops: dock bags, the dirty-water tank, mop pads, brushes and filters. An all-in-one dock automates much of this. A stick vacuum mainly needs its bin emptied, filter washed and brush untangled.",
+        ca: "The robot, especially if it mops: dock bags, the dirty-water tank, mop pads, brushes and filters. An all-in-one dock automates much of this. A stick vacuum mainly needs its bin emptied, filter washed and brush untangled.",
       },
     },
     {
@@ -900,7 +1260,10 @@ export const article: BlogArticle = {
         es: "¿Sigue haciendo falta un aspirador de trineo en 2026?",
         it: "Serve ancora un aspirapolvere a traino nel 2026?",
         nl: "Hebt u in 2026 nog een sledestofzuiger nodig?",
-        pl: "Czy w 2026 roku nadal potrzebny jest odkurzacz tradycyjny?",
+        pl: "Czy w 2026 roku tradycyjny odkurzacz jest jeszcze potrzebny?",
+        sv: "Behöver du fortfarande en golvdammsugare 2026?",
+        us: "Do you still need a canister vacuum in 2026?",
+        ca: "Do you still need a canister vacuum in 2026?",
       },
       answer: {
         fr: "Rarement. Le traîneau filaire n’a pas de limite d’autonomie et reste pratique pour les très grandes surfaces ou les grosses séances de ménage, mais pour la plupart des foyers, le duo robot + balai sans fil couvre tous les besoins avec moins de contraintes.",
@@ -909,7 +1272,10 @@ export const article: BlogArticle = {
         es: "Rara vez. El trineo con cable no tiene límite de autonomía y sigue siendo práctico para superficies muy grandes o limpiezas intensas, pero para la mayoría de los hogares el dúo robot y escoba sin cable cubre todas las necesidades con menos ataduras.",
         it: "Raramente. L’aspirapolvere a traino con filo non ha limiti di autonomia ed è ancora pratico per superfici molto grandi o pulizie intensive, ma per la maggior parte delle case il duo robot più scopa senza filo copre tutte le esigenze con meno vincoli.",
         nl: "Zelden. Een sledestofzuiger met snoer heeft geen beperkte gebruiksduur en blijft handig voor zeer grote woningen of grote poetsbeurten, maar voor de meeste huishoudens dekt het duo robot plus draadloze steelstofzuiger alles met minder gedoe.",
-        pl: "Rzadko. Odkurzacz przewodowy nie ma limitu czasu pracy i pozostaje praktyczny przy bardzo dużych powierzchniach lub generalnych porządkach, ale w większości domów duet robot + odkurzacz pionowy bezprzewodowy pokrywa wszystkie potrzeby przy mniejszych ograniczeniach.",
+        pl: "Rzadko. Tradycyjny odkurzacz z kablem nie ma ograniczeń czasu pracy i nadal sprawdza się przy bardzo dużych powierzchniach lub gruntownych porządkach, ale w większości domów zestaw robota i odkurzacza pionowego bezprzewodowego zaspokaja wszystkie potrzeby i jest mniej kłopotliwy w użyciu.",
+        sv: "Sällan. En golvdammsugare med sladd har ingen gräns för drifttiden och passar fortfarande för mycket stora bostäder eller rejäla storstädningar, men för de flesta hushåll täcker en robot och en sladdlös skaftdammsugare alla behov, med färre begränsningar.",
+        us: "Rarely. A corded canister vacuum has no runtime limit and still makes sense for very large homes or big cleaning days, but for most households, a robot plus a cordless stick vacuum covers every need with less hassle.",
+        ca: "Rarely. A corded canister vacuum has no runtime limit and still suits very large homes or big cleaning sessions, but for most households a robot plus a cordless stick vacuum covers every need with fewer constraints.",
       },
     },
   ],

@@ -13,32 +13,32 @@ export type ProductTypeKey = 'airfryers' | SmartKitchenCategory
 export const PRODUCT_TYPE_LABELS: Readonly<Record<ProductTypeKey, Record<Lang, string>>> = {
   airfryers: {
     fr: 'Airfryer', en: 'Air fryer', de: 'Heißluftfritteuse',
-    es: 'Freidora de aire', it: 'Friggitrice ad aria', nl: 'Airfryer', pl: 'Frytkownica beztłuszczowa',
+    es: 'Freidora de aire', it: 'Friggitrice ad aria', nl: 'Airfryer', pl: 'Frytkownica beztłuszczowa', sv: 'Airfryer', us: 'Air fryer', ca: 'Air fryer',
   },
   multicuiseurs: {
     fr: 'Multicuiseur', en: 'Multicooker', de: 'Multikocher',
-    es: 'Olla multifunción', it: 'Multicooker', nl: 'Multicooker', pl: 'Multicooker',
+    es: 'Olla multifunción', it: 'Multicooker', nl: 'Multicooker', pl: 'Multicooker', sv: 'Multikokare', us: 'Multicooker', ca: 'Multicooker',
   },
   cafetieres: {
     fr: 'Machine à café', en: 'Coffee machine', de: 'Kaffeemaschine',
-    es: 'Cafetera', it: 'Macchina da caffè', nl: 'Koffiemachine', pl: 'Ekspres do kawy',
+    es: 'Cafetera', it: 'Macchina da caffè', nl: 'Koffiemachine', pl: 'Ekspres do kawy', sv: 'Kaffemaskin', us: 'Coffee maker', ca: 'Coffee maker',
   },
   balances: {
     fr: 'Balance de cuisine', en: 'Kitchen scale', de: 'Küchenwaage',
-    es: 'Báscula de cocina', it: 'Bilancia da cucina', nl: 'Keukenweegschaal', pl: 'Waga kuchenna',
+    es: 'Báscula de cocina', it: 'Bilancia da cucina', nl: 'Keukenweegschaal', pl: 'Waga kuchenna', sv: 'Köksvåg', us: 'Kitchen scale', ca: 'Kitchen scale',
   },
   'thermometres-viande': {
     fr: 'Thermomètre à viande', en: 'Meat thermometer', de: 'Fleischthermometer',
-    es: 'Termómetro para carne', it: 'Termometro per carne', nl: 'Vleesthermometer', pl: 'Termometr do mięsa',
+    es: 'Termómetro para carne', it: 'Termometro per carne', nl: 'Vleesthermometer', pl: 'Termometr do mięsa', sv: 'Stektermometer', us: 'Meat thermometer', ca: 'Meat thermometer',
   },
   'prises-connectees': {
     fr: 'Prise connectée', en: 'Smart plug', de: 'WLAN-Steckdose',
-    es: 'Enchufe inteligente', it: 'Presa smart', nl: 'Slimme stekker', pl: 'Inteligentne gniazdko',
+    es: 'Enchufe inteligente', it: 'Presa smart', nl: 'Slimme stekker', pl: 'Inteligentne gniazdko', sv: 'Smart plugg', us: 'Smart plug', ca: 'Smart plug',
   },
 }
 
 const RANK_PREFIX: Readonly<Record<Lang, string>> = {
-  fr: 'N°', en: 'No. ', de: 'Platz ', es: 'N.º ', it: 'N. ', nl: 'Nr. ', pl: 'Nr ',
+  fr: 'N°', en: 'No. ', de: 'Platz ', es: 'N.º ', it: 'N. ', nl: 'Nr. ', pl: 'Nr ', sv: 'Nr ', us: 'No. ', ca: 'No. ',
 }
 
 export function rankLabel(rank: number, lang: Lang): string {

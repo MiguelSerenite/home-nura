@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Plancha de vapor sobre una tabla de planchar con una camisa blanca',
         it: 'Ferro a vapore appoggiato su un asse da stiro con una camicia bianca',
         nl: 'Stoomstrijkijzer op een strijkplank met een wit overhemd',
-        pl: 'Żelazko parowe na desce do prasowania z białą koszulą',
+        pl: 'Żelazko parowe i biała koszula na desce do prasowania',
+        sv: 'Ångstrykjärn på en strykbräda med en vit skjorta',
+        us: 'Steam iron standing on an ironing board with a white shirt',
+        ca: 'Steam iron standing on an ironing board with a white shirt',
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: 'Mejor Centro de Planchado 2026: Comparativa Philips, Tefal, Braun y Laurastar',
     it: 'Miglior Ferro con Caldaia 2026: Confronto Philips, Tefal, Braun e Laurastar',
     nl: 'Beste Stoomgenerator 2026: Philips, Tefal, Braun en Laurastar Vergeleken',
-    pl: 'Najlepsza stacja parowa 2026: porównanie Philips, Calor, Braun, Laurastar',
+    pl: 'Najlepsza stacja parowa 2026: porównanie modeli Philips, Calor, Braun i Laurastar',
+    sv: 'Bästa ångstation 2026: Philips, Tefal, Braun och Laurastar jämförda',
+    us: 'Best Steam Generator Irons of 2026: Philips, Tefal, Braun and Laurastar Compared',
+    ca: 'Best Steam Generator Iron 2026: Philips, Tefal, Braun and Laurastar Compared',
   },
   excerpt: {
     fr: 'Quelle centrale vapeur choisir en 2026 ? Comparatif de 6 modèles (Philips PerfectCare 8000 et 7000, Calor Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, défroisseur Philips 7000) : pression, vapeur continue, anticalcaire, réservoir et vraie connectivité.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: '¿Qué centro de planchado elegir en 2026? Comparativa de 6 modelos (Philips PerfectCare 8000 y 7000, Tefal Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, vaporizador Philips 7000): presión, vapor continuo, antical, depósito y conectividad real.',
     it: 'Quale ferro con caldaia scegliere nel 2026? Confronto di 6 modelli (Philips PerfectCare 8000 e 7000, Tefal Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, stiratore Philips 7000): pressione, vapore continuo, anticalcare, serbatoio e vera connettività.',
     nl: 'Welke stoomgenerator kiest u in 2026? Vergelijking van 6 modellen (Philips PerfectCare 8000 en 7000, Tefal Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, Philips 7000 handstomer): druk, continue stoom, ontkalking, tank en echte connectiviteit.',
-    pl: 'Jaką stację parową wybrać w 2026 roku? Porównanie 6 modeli (Philips PerfectCare 8000 i 7000, Calor Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, parownica Philips 7000): ciśnienie, para ciągła, ochrona przed kamieniem, zbiornik i prawdziwa łączność.',
+    pl: 'Jaką stację parową wybrać w 2026 roku? Porównanie 6 modeli (Philips PerfectCare 8000 i 7000, Calor Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, parownica Philips 7000): ciśnienie, para ciągła, odkamienianie, zbiornik i realna łączność z aplikacją.',
+    sv: 'Vilken ångstation ska du välja 2026? Vi jämför 6 modeller (Philips PerfectCare 8000 och 7000, Tefal Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U och klädsteamern Philips 7000): tryck, kontinuerlig ånga, kalkskydd, vattentank och riktig uppkoppling.',
+    us: 'Which steam generator iron should you buy in 2026? We compare six models (Philips PerfectCare 8000 and 7000, Tefal Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, Philips 7000 handheld steamer) on pressure, continuous steam, scale control, tank size and which smart features are real.',
+    ca: 'Which steam generator iron should you buy in 2026? We compare 6 models (Philips PerfectCare 8000 and 7000, Tefal Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, Philips 7000 handheld steamer): pressure, continuous steam, anti-scale, tank and real connectivity.',
   },
   content: {
     fr: `<p><strong>En 2026, la meilleure centrale vapeur pour la plupart des foyers est la Philips PerfectCare 8000 Series (PSG8160) : 8,5 bars de pression, 170 g/min de vapeur continue, un réservoir de 1,8 litre et la technologie OptimalTEMP qui évite de régler la température selon le tissu.</strong> Si votre budget est plus serré, la PerfectCare 7000 (PSG7130) garde l'essentiel, tandis que la Laurastar Smart U reste la seule de ce comparatif réellement connectée, avec une application Bluetooth qui guide le repassage.</p>
@@ -509,84 +518,318 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste huishoudens is de <strong>Philips PerfectCare 8000 Series (PSG8160)</strong> in 2026 de meest complete stoomgenerator: veel stoom, een grote tank en geen temperatuur om in te stellen. De <strong>PerfectCare 7000 (PSG7130)</strong> biedt de essentie voor minder. Strijkt u veel zware stoffen, kijk dan naar de <strong>Tefal Pro Express Ultimate II</strong>; wilt u maximale autonomie, dan de <strong>Braun CareStyle 7 Pro</strong>. En zoekt u echt een verbonden apparaat, dan is de <strong>Laurastar Smart U</strong> de enige met een werkelijk nuttige app, tegen een investering in het topsegment. Voeg een stomer zoals de <strong>Philips 7000 Series</strong> toe voor snelle correcties 's ochtends.</p>`,
-    pl: `<p><strong>W 2026 roku najlepszą stacją parową dla większości domów jest Philips PerfectCare 8000 Series (PSG8160): ciśnienie 8,5 bara, 170 g/min pary ciągłej, zbiornik 1,8 litra i technologia OptimalTEMP, dzięki której nie trzeba ustawiać temperatury w zależności od tkaniny.</strong> Jeśli budżet jest bardziej ograniczony, PerfectCare 7000 (PSG7130) zachowuje to, co najważniejsze, a Laurastar Smart U pozostaje jedyną naprawdę połączoną z siecią w tym zestawieniu, z aplikacją Bluetooth, która prowadzi cię przez prasowanie.</p>
-<p>Powiedzmy jasno na wstępie: zdecydowana większość żelazek i stacji parowych nie jest inteligentna. „Inteligentne czujniki” Philipsa czy tryby automatyczne Calor działają bez aplikacji i bez Wi-Fi. To porównanie opiera się na kartach katalogowych producentów, niezależnych testach publikowanych przez organizacje konsumenckie i opiniach zweryfikowanych kupujących. Całą ofertę zobaczysz w naszej rubryce <a href="/pl/entretien-maison/fers-centrales-vapeur">żelazka i stacje parowe</a>.</p>
+    pl: `<p><strong>Najlepsza stacja parowa 2026 roku dla większości gospodarstw domowych to Philips PerfectCare 8000 Series (PSG8160): ciśnienie 8,5 bara, 170 g/min pary ciągłej, zbiornik 1,8 l i technologia OptimalTEMP, dzięki której nie trzeba dobierać temperatury do tkaniny.</strong> Przy skromniejszym budżecie to, co najważniejsze, zapewni PerfectCare 7000 (PSG7130), a Laurastar Smart U to jedyny system w tym zestawieniu, który naprawdę łączy się z aplikacją: przez Bluetooth podpowiada Ci, jak prasować.</p>
+<p>Od razu wyjaśnijmy, że zdecydowana większość żelazek i stacji parowych nie ma żadnej łączności. „Inteligentne czujniki” Philipsa i tryby automatyczne w stacjach Calor działają bez aplikacji i bez Wi-Fi. Zestawienie powstało na podstawie kart katalogowych producentów, niezależnych testów publikowanych przez organizacje konsumenckie oraz opinii zweryfikowanych kupujących. Wszystkie modele znajdziesz w kategorii <a href="/pl/entretien-maison/fers-centrales-vapeur">żelazek i stacji parowych</a>.</p>
 
 <h2>Stacja parowa, żelazko parowe czy parownica: co wybrać?</h2>
-<p><strong>Klasyczne żelazko parowe</strong> podgrzewa wodę bezpośrednio w stopie: jest lekkie i kompaktowe, ale ilość pary jest ograniczona. <strong>Stacja parowa</strong> (lub generator pary) wytwarza parę pod ciśnieniem w oddzielnej bazie połączonej z żelazkiem wężem. Efekt: znacznie więcej pary, która przenika grube tkaniny i kilka warstw naraz, oraz znacznie większy zbiornik. To dobry wybór, jeśli co tydzień prasujesz stos prania.</p>
-<p><strong>Parownica</strong> (pionowa lub ręczna) nie zastąpi żelazka, gdy chcesz uzyskać wyraźny kant, ale świetnie odświeża koszulę, sukienkę czy zasłonę bez wyciągania deski do prasowania. Wiele domów łączy oba rozwiązania: stację do większości prania i parownicę do szybkich poprawek.</p>
+<p><strong>Klasyczne żelazko parowe</strong> podgrzewa wodę bezpośrednio w stopie. Jest lekkie i poręczne, ale wytwarza ograniczoną ilość pary. <strong>Stacja parowa</strong> (inaczej generator pary) wytwarza parę pod ciśnieniem w osobnej bazie, połączonej z żelazkiem wężem. Daje to znacznie więcej pary, która przenika przez grube tkaniny i kilka warstw naraz, a do tego dużo większy zbiornik. To dobry wybór, jeśli co tydzień czeka Cię sterta prasowania.</p>
+<p><strong>Parownica</strong> (pionowa lub ręczna) nie zastąpi żelazka, gdy zależy Ci na ostrym kancie, ale świetnie odświeży koszulę, sukienkę czy zasłonę bez rozkładania deski do prasowania. W wielu domach używa się obu urządzeń: stacji do większości prasowania, a parownicy do szybkich poprawek.</p>
 
-<h2>Kryteria zakupu, które naprawdę się liczą</h2>
+<h2>Kryteria wyboru, które naprawdę się liczą</h2>
 <h3>Ciśnienie (w barach)</h3>
-<p>Ciśnienie wskazuje, z jaką siłą para jest wtłaczana we włókna. Między 6 a 8,5 bara domowa stacja pokrywa wszystkie zastosowania. Uwaga: podawana wartość to często maksymalne ciśnienie pompy, co nie mówi wszystkiego. Systemy do prasowania Laurastar pracują na przykład przy 3,5 bara, ale stawiają na bardzo suchą parę i aktywną deskę, która zasysa parę przez tkaninę.</p>
-<h3>Ciągły strumień pary i „uderzenie parowe”</h3>
-<p>Ciągły strumień pary (w g/min) to najbardziej użyteczna na co dzień liczba: powyżej 120 g/min prasowanie staje się wyraźnie szybsze. „Uderzenie parowe” (600–700 g/min w najlepszych modelach) służy do uporczywych zagnieceń, dżinsów i lnu.</p>
-<h3>System ochrony przed kamieniem</h3>
-<p>Kamień to wróg numer jeden stacji parowej. Nowsze modele mają wyjmowany kolektor kamienia, który trzeba regularnie płukać, a kontrolka przypomina o konserwacji. Sprawdź, czy da się to zrobić bez narzędzi i w kilka minut: od tego zależy trwałość urządzenia.</p>
+<p>Ciśnienie określa, z jaką siłą para jest wtłaczana we włókna. Stacja o ciśnieniu od 6 do 8,5 bara poradzi sobie ze wszystkimi domowymi zadaniami. Pamiętaj jednak, że producenci często podają maksymalne ciśnienie pompy, a ta liczba nie mówi wszystkiego. Systemy do prasowania Laurastar pracują na przykład przy 3,5 bara, ale stawiają na bardzo suchą parę i aktywną deskę, która zasysa parę przez tkaninę.</p>
+<h3>Wydajność pary ciągłej i uderzenie pary</h3>
+<p>Wydajność pary ciągłej (w g/min) to parametr, który na co dzień mówi najwięcej: powyżej 120 g/min prasuje się zauważalnie szybciej. Uderzenie pary (600–700 g/min w najlepszych modelach) przydaje się przy uporczywych zagnieceniach, dżinsach i lnie.</p>
+<h3>Ochrona przed kamieniem</h3>
+<p>Kamień to największy wróg stacji parowej. Nowsze modele mają wyjmowany kolektor kamienia, który trzeba regularnie płukać, a kontrolka przypomina, kiedy przyszła na to pora. Sprawdź, czy da się to zrobić w kilka minut i bez narzędzi – od tego zależy, jak długo posłuży Ci urządzenie.</p>
 <h3>Zbiornik i napełnianie</h3>
-<p>Zbiornik 1,2 litra wystarczy na normalną sesję; 1,8–2 litra pozwalają przeprasować duży stos bez przerwy. Wyjmowany zbiornik, który można uzupełniać w trakcie pracy, to prawdziwa wygoda.</p>
+<p>Zbiornik 1,2 l wystarczy na zwykłe prasowanie, a 1,8–2 l pozwala uporać się z dużą stertą ubrań bez przerwy. Wyjmowany zbiornik, do którego można dolewać wodę w trakcie pracy, to duża wygoda.</p>
 <h3>Waga i ergonomia</h3>
-<p>Żelazko stacji parowej pozostaje lekkie, ponieważ para powstaje w bazie. Baza waży często ponad 4 kg: przewidź dla niej stabilne miejsce na desce do prasowania lub obok niej. System blokady żelazka na bazie ułatwia przenoszenie.</p>
+<p>Samo żelazko stacji parowej jest lekkie, bo para powstaje w bazie. Baza waży za to często ponad 4 kg, więc zadbaj o to, by stała stabilnie na desce do prasowania lub obok niej. Blokada żelazka w bazie ułatwia przenoszenie całego zestawu.</p>
 <h3>Automatyczne wyłączanie</h3>
-<p>Niezbędne dla bezpieczeństwa: większość stacji przechodzi w stan czuwania po 8–10 minutach bez używania. Sprawdź, czy ta funkcja figuruje na karcie wybranego modelu.</p>
+<p>To funkcja niezbędna dla bezpieczeństwa. Większość stacji przechodzi w tryb czuwania po 8–10 minutach bezczynności. Sprawdź, czy producent wymienia tę funkcję w specyfikacji wybranego modelu.</p>
 <h3>Łączność: rzadka i niekonieczna</h3>
-<p>Żadna stacja Philips, Calor, Rowenta ani Braun z tego porównania nie jest sterowana z aplikacji. Tylko systemy do prasowania Laurastar z serii Smart (Smart U i Smart I) łączą się przez Bluetooth z aplikacją z samouczkami i poradami dotyczącymi konserwacji. To plus dla nauki, a nie konieczność, by dobrze prasować.</p>
+<p>Żadnej ze stacji Philips, Calor, Rowenta i Braun z tego zestawienia nie da się sterować z aplikacji. Tylko systemy do prasowania Laurastar z serii Smart (Smart U i Smart I) łączą się przez Bluetooth z aplikacją, w której są samouczki i wskazówki dotyczące konserwacji. To miły dodatek dla osób, które chcą się nauczyć prasować, ale do dobrego prasowania nie jest potrzebny.</p>
 
 <h2>6 najlepszych modeli 2026</h2>
-<h3>1. Philips PerfectCare 8000 Series (PSG8160/30): najlepszy wybór ogólny</h3>
-<p>PerfectCare 8000 spełnia prawie wszystkie oczekiwania: <strong>maksymalne ciśnienie 8,5 bara, 170 g/min pary ciągłej, do 700 g/min w trybie uderzenia parowego</strong> oraz wyjmowany zbiornik 1,8 litra, który można napełniać podczas prasowania. Technologia <strong>OptimalTEMP</strong> stosuje jedną temperaturę dostosowaną do wszystkich tkanin nadających się do prasowania, od jedwabiu po dżins: nie trzeba już sortować prania. Czujnik ruchu DynamiQ dostosowuje ilość pary do szybkości ruchu żelazka. Stopa SteamGlide Elite dobrze się ślizga, a konserwacja sprowadza się do kolektora kamienia.</p>
-<p><strong>Mocne strony:</strong> obfita para, brak konieczności ustawiania temperatury, duży zbiornik, możliwość pracy w pionie przy zasłonach. <strong>Ograniczenia:</strong> duża baza, brak łączności. <strong>Dla kogo:</strong> rodziny, które dużo prasują i chcą robić to szybko.</p>
+<h3>1. Philips PerfectCare 8000 Series (PSG8160/30): najlepszy wybór dla większości</h3>
+<p>PerfectCare 8000 spełnia niemal wszystkie oczekiwania: <strong>maksymalne ciśnienie 8,5 bara, 170 g/min pary ciągłej, uderzenie pary do 700 g/min</strong> oraz wyjmowany zbiornik 1,8 l, do którego można dolewać wodę w trakcie prasowania. Technologia <strong>OptimalTEMP</strong> utrzymuje jedną temperaturę odpowiednią dla wszystkich tkanin, które można prasować, od jedwabiu po dżins, więc nie trzeba już sortować ubrań. Czujnik ruchu DynamiQ dozuje parę w zależności od tego, jak szybko przesuwasz żelazko. Stopa SteamGlide Elite gładko sunie po tkaninie, a o odkamienianie dba kolektor kamienia.</p>
+<p><strong>Mocne strony:</strong> dużo pary, brak ręcznego ustawiania temperatury, duży zbiornik, możliwość prasowania w pionie (np. zasłon). <strong>Ograniczenia:</strong> duża baza, brak łączności. <strong>Dla kogo:</strong> rodziny, które dużo prasują i chcą szybko się z tym uporać.</p>
 
 <h3>2. Philips PerfectCare 7000 Series (PSG7130/20): najlepszy stosunek jakości do ceny</h3>
-<p>PerfectCare 7000 przejmuje przepis starszej siostry z parametrami o stopień niższymi: <strong>8 barów, do 120 g/min pary ciągłej</strong>, wyjmowany zbiornik 1,8 litra i ta sama technologia OptimalTEMP. Wyłącza się automatycznie po 10 minutach bezczynności.</p>
-<p><strong>Mocne strony:</strong> prostota obsługi, duży zbiornik, bezpieczeństwo. <strong>Ograniczenia:</strong> skromniejszy strumień pary przy bardzo grubych tkaninach. <strong>Dla kogo:</strong> para lub niewielka rodzina, która chce tego, co najważniejsze w stacji Philips, bez celowania w najwyższą półkę.</p>
+<p>PerfectCare 7000 to nieco skromniejsza wersja modelu opisanego wyżej: <strong>8 barów, do 120 g/min pary ciągłej</strong>, wyjmowany zbiornik 1,8 l i ta sama technologia OptimalTEMP. Wyłącza się automatycznie po 10 minutach bezczynności.</p>
+<p><strong>Mocne strony:</strong> prosta obsługa, duży zbiornik, bezpieczeństwo. <strong>Ograniczenia:</strong> mniej pary przy bardzo grubych tkaninach. <strong>Dla kogo:</strong> dwuosobowe gospodarstwa i małe rodziny, którym wystarczy to, co najważniejsze w stacjach Philips, bez sięgania po najwyższą półkę.</p>
 
 <h3>3. Calor Pro Express Ultimate II (GV9721C0): moc do grubych tkanin</h3>
-<p>Sprzedawana poza Francją pod marką Tefal, Pro Express Ultimate II oferuje <strong>7,9 bara, 170 g/min pary ciągłej i 600 g/min w trybie uderzenia parowego</strong>. Jej stopa Durilium AirGlide słynie ze ślizgu, a trzy tryby (delikatny, normalny, maks.) automatycznie ustawiają temperaturę i parę. Całość uzupełniają wyjmowany kolektor kamienia i system zapobiegający kapaniu. Zbiornik 1,2 litra jest mniejszy niż u Philipsa, a żelazko waży ok. 1,3 kg, co pomaga przy lnie i grubej bawełnie. Automatyczne wyłączenie po 8 minutach.</p>
-<p>Warto wspomnieć: Rowenta Silence Steam Pro (DG9246) z tej samej grupy jest dla tych, którzy chcą cichszej stacji, z deklarowanymi 8 barami i 150 g/min.</p>
-<p><strong>Mocne strony:</strong> mocna para, ślizg, proste tryby. <strong>Ograniczenia:</strong> mniejszy zbiornik, cięższe żelazko. <strong>Dla kogo:</strong> osoby, które często prasują dżinsy, prześcieradła i pościel.</p>
+<p>Stacja Calor Pro Express Ultimate II (poza Francją sprzedawana pod marką Tefal) oferuje <strong>7,9 bara, 170 g/min pary ciągłej i uderzenie pary 600 g/min</strong>. Stopa Durilium AirGlide słynie z dobrego poślizgu, a trzy tryby (delikatny, normalny, maks.) same dobierają temperaturę i ilość pary. Całość uzupełniają wyjmowany kolektor kamienia i system zapobiegający kapaniu. Zbiornik 1,2 l jest mniejszy niż w stacjach Philips, a żelazko waży ok. 1,3 kg, co ułatwia prasowanie lnu i grubej bawełny. Stacja wyłącza się automatycznie po 8 minutach.</p>
+<p>Warto też wiedzieć, że Rowenta Silence Steam Pro (DG9246) z tej samej grupy to propozycja dla osób szukających cichszej stacji – producent deklaruje 8 barów i 150 g/min.</p>
+<p><strong>Mocne strony:</strong> mocny strumień pary, dobry poślizg, proste tryby. <strong>Ograniczenia:</strong> mniejszy zbiornik, cięższe żelazko. <strong>Dla kogo:</strong> osoby, które często prasują dżinsy, prześcieradła i inne tekstylia domowe.</p>
 
 <h3>4. Braun CareStyle 7 Pro (IS7286BK): największy zbiornik</h3>
-<p>CareStyle 7 Pro stawia na autonomię dzięki <strong>zbiornikowi 2 litry</strong>, ciśnieniu <strong>8 barów</strong> i deklarowanemu uderzeniu parowemu do 650 g/min. Jej stopa EloxalPlus FreeGlide 3D z podniesionymi krawędziami łatwo przesuwa się po guzikach i szwach, w każdym kierunku. Ma automatyczne wyłączanie.</p>
-<p><strong>Mocne strony:</strong> duża autonomia, bardzo zwrotna stopa. <strong>Ograniczenia:</strong> duża baza, brak łączności. <strong>Dla kogo:</strong> długie, cotygodniowe sesje prasowania.</p>
+<p>CareStyle 7 Pro dzięki <strong>zbiornikowi 2 l</strong> długo pracuje bez dolewania wody. Ma ciśnienie <strong>8 barów</strong> i deklarowane uderzenie pary do 650 g/min. Stopa EloxalPlus FreeGlide 3D z uniesionymi krawędziami łatwo prześlizguje się w każdym kierunku, także po guzikach i szwach. Stacja wyłącza się też automatycznie.</p>
+<p><strong>Mocne strony:</strong> długa praca bez dolewania wody, bardzo zwrotna stopa. <strong>Ograniczenia:</strong> duża baza, brak łączności. <strong>Dla kogo:</strong> osoby, które raz w tygodniu prasują dużą stertę ubrań.</p>
 
-<h3>5. Laurastar Smart U: jedyny prawdziwie połączony system</h3>
-<p>Smart U nie jest zwykłą stacją, lecz <strong>kompletnym systemem do prasowania</strong>: generator pary, żelazko i aktywna deska, która zasysa lub nadmuchuje powietrze (4 prędkości), regulowana na 6 wysokości. Pracuje przy 3,5 bara z drobną, suchą parą (80 g/min), zbiornikiem 1,2 litra, nagrzewaniem w 3 minuty i automatycznym wyłączaniem po 10 minutach. Technologia Sensteam wykrywa ruchy żelazka i automatycznie uruchamia parę. Przez Bluetooth łączy się z <strong>aplikacją na iOS i Androida</strong>, która oferuje samouczki wideo i porady dla poszczególnych rodzajów tkanin. Smart I, o stopień niższa, zachowuje aplikację, ale traci Sensteam i parę pulsacyjną.</p>
-<p><strong>Mocne strony:</strong> rezultat zbliżony do pralni chemicznej, aktywna deska, jedyna prawdziwa łączność. <strong>Ograniczenia:</strong> bardzo wysoka półka, duże gabaryty i waga (ok. 19 kg). <strong>Dla kogo:</strong> miłośnicy nienagannie wyprasowanych ubrań i ci, którzy chcą nauczyć się lepiej prasować.</p>
+<h3>5. Laurastar Smart U: jedyny system, który naprawdę łączy się z aplikacją</h3>
+<p>Smart U to nie zwykła stacja, lecz <strong>kompletny system do prasowania</strong>: generator pary, żelazko i aktywna deska z zasysaniem i nadmuchem (4 prędkości) oraz regulacją wysokości w 6 pozycjach. Pracuje przy ciśnieniu 3,5 bara i wytwarza drobną, suchą parę (80 g/min). Ma zbiornik 1,2 l, nagrzewa się w 3 minuty i wyłącza automatycznie po 10 minutach. Technologia Sensteam wykrywa ruchy żelazka i sama uruchamia parę. Przez Bluetooth system łączy się z <strong>aplikacją na iOS i Androida</strong>, w której znajdziesz filmy instruktażowe i porady dla różnych rodzajów tkanin. Nieco skromniejszy Smart I również współpracuje z aplikacją, ale nie ma funkcji Sensteam ani pary pulsacyjnej.</p>
+<p><strong>Mocne strony:</strong> efekt jak z profesjonalnej pralni, aktywna deska, jedyna naprawdę przydatna łączność w zestawieniu. <strong>Ograniczenia:</strong> sprzęt z najwyższej półki, duży i ciężki (ok. 19 kg). <strong>Dla kogo:</strong> osoby, którym zależy na idealnie wyprasowanych ubraniach, oraz ci, którzy chcą nauczyć się lepiej prasować.</p>
 
 <h3>6. Philips 7000 Series (STH7040/80): uniwersalna ręczna parownica</h3>
-<p>Do szybkich poprawek ta ręczna parownica nagrzewa się w około 30 sekund, dostarcza <strong>do 28 g/min pary</strong>, również wykorzystuje OptimalTEMP i ma obrotową głowicę, która działa zarówno w pionie, jak i w poziomie. W zestawie są dwa zbiorniki o pojemności 100 i 200 ml oraz pokrowiec odporny na ciepło.</p>
-<p><strong>Mocne strony:</strong> kompaktowa, szybka, idealna w podróży. <strong>Ograniczenia:</strong> nie zastąpi stacji, jeśli zależy ci na wyraźnych kantach. <strong>Dla kogo:</strong> zapracowani i małe mieszkania.</p>
+<p>Ta ręczna parownica do szybkich poprawek nagrzewa się w ok. 30 sekund, wytwarza <strong>do 28 g/min pary</strong>, również korzysta z technologii OptimalTEMP i ma regulowaną głowicę, która działa zarówno w pionie, jak i w poziomie. W zestawie są dwa zbiorniki (100 i 200 ml) oraz termoodporne etui.</p>
+<p><strong>Mocne strony:</strong> poręczna, szybka, idealna na wyjazdy. <strong>Ograniczenia:</strong> nie zastąpi stacji, jeśli zależy Ci na ostrych kantach. <strong>Dla kogo:</strong> zapracowane osoby i małe mieszkania.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Typ</th><th>Ciśnienie</th><th>Para ciągła</th><th>Zbiornik</th><th>Łączność</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Typ</th><th>Ciśnienie</th><th>Para ciągła</th><th>Zbiornik</th><th>Łączność</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Philips PerfectCare 8000 (PSG8160)</td><td>Stacja parowa</td><td>8,5 bara</td><td>170 g/min</td><td>1,8 l</td><td>Brak</td><td>Rodziny, duże ilości prania</td></tr>
+<tr><td>Philips PerfectCare 8000 (PSG8160)</td><td>Stacja parowa</td><td>8,5 bara</td><td>170 g/min</td><td>1,8 l</td><td>Brak</td><td>Rodziny, dużo prasowania</td></tr>
 <tr><td>Philips PerfectCare 7000 (PSG7130)</td><td>Stacja parowa</td><td>8 barów</td><td>120 g/min</td><td>1,8 l</td><td>Brak</td><td>Najlepszy stosunek jakości do ceny</td></tr>
 <tr><td>Calor Pro Express Ultimate II (GV9721)</td><td>Stacja parowa</td><td>7,9 bara</td><td>170 g/min</td><td>1,2 l</td><td>Brak</td><td>Grube tkaniny</td></tr>
-<tr><td>Braun CareStyle 7 Pro (IS7286)</td><td>Stacja parowa</td><td>8 barów</td><td>Brak danych</td><td>2 l</td><td>Brak</td><td>Długie sesje</td></tr>
-<tr><td>Laurastar Smart U</td><td>System do prasowania</td><td>3,5 bara</td><td>80 g/min (sucha para)</td><td>1,2 l</td><td>Bluetooth + aplikacja</td><td>Wykończenie premium</td></tr>
+<tr><td>Braun CareStyle 7 Pro (IS7286)</td><td>Stacja parowa</td><td>8 barów</td><td>Brak danych</td><td>2 l</td><td>Brak</td><td>Długie prasowanie</td></tr>
+<tr><td>Laurastar Smart U</td><td>System do prasowania</td><td>3,5 bara</td><td>80 g/min (sucha para)</td><td>1,2 l</td><td>Bluetooth + aplikacja</td><td>Perfekcyjne wykończenie</td></tr>
 <tr><td>Philips 7000 Series (STH7040)</td><td>Ręczna parownica</td><td>Bez ciśnienia</td><td>28 g/min</td><td>100 + 200 ml</td><td>Brak</td><td>Poprawki, podróże</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Kupowanie wyłącznie na podstawie podanego ciśnienia:</strong> strumień pary ciągłej, stopa i ochrona przed kamieniem liczą się tak samo jak bary.</li>
-<li><strong>Zaniedbywanie odkamieniania:</strong> płukanie kolektora, gdy tylko zaświeci się kontrolka, zapobiega białym plamom i spadkowi ilości pary.</li>
-<li><strong>Używanie nieodpowiedniej wody:</strong> stosuj się do instrukcji. Nigdy nie używaj wody zapachowej, wody z suszarki ani dodatków; niektórzy producenci radzą mieszać wodę z kranu z wodą demineralizowaną, jeśli woda jest bardzo twarda.</li>
-<li><strong>Płacenie za niepotrzebną łączność:</strong> aplikacja nie wyprasuje za ciebie. Ma sens tylko wtedy, gdy chcesz być prowadzony krok po kroku.</li>
-<li><strong>Zapominanie o dostępnym miejscu:</strong> stacja parowa wymaga solidnej deski do prasowania z odpowiednią podstawką na stację.</li>
+<li><strong>Wybieranie stacji wyłącznie po deklarowanym ciśnieniu:</strong> wydajność pary ciągłej, stopa i ochrona przed kamieniem liczą się tak samo jak bary.</li>
+<li><strong>Zaniedbywanie odkamieniania:</strong> jeśli płuczesz kolektor, gdy tylko zaświeci się kontrolka, stacja nie wyrzuca białego osadu i nie traci wydajności pary.</li>
+<li><strong>Wlewanie nieodpowiedniej wody:</strong> kieruj się instrukcją. Nigdy nie używaj wody zapachowej, wody z pojemnika suszarki ani żadnych dodatków. Przy bardzo twardej wodzie niektórzy producenci zalecają mieszanie wody z kranu z wodą demineralizowaną.</li>
+<li><strong>Przepłacanie za zbędną łączność:</strong> aplikacja nie wyprasuje za Ciebie. Przyda się tylko wtedy, gdy chcesz korzystać ze wskazówek krok po kroku.</li>
+<li><strong>Zapominanie o miejscu:</strong> stacja parowa potrzebuje solidnej deski do prasowania z odpowiednią podstawką na bazę.</li>
 </ul>
 
 <h2>Użytkowanie, konserwacja i bezpieczeństwo</h2>
-<p>Zawsze stawiaj bazę na płaskiej, stabilnej powierzchni i nigdy nie zostawiaj gorącego żelazka w zasięgu dzieci. Odłącz urządzenie i poczekaj, aż ostygnie, zanim opróżnisz zbiornik lub przepłuczesz kolektor kamienia. Nigdy nie odświeżaj parą ubrania noszonego przez człowieka: para może powodować oparzenia. Regularnie sprawdzaj stan przewodu i węża parowego; w razie uszkodzenia oddaj urządzenie do naprawy w autoryzowanym serwisie. W pielęgnacji podłóg obowiązują te same zasady, jeśli używasz <a href="/pl/blog/nettoyeur-vapeur-connecte">myjek parowych</a>, a dobrze ustawiona <a href="/pl/blog/waermepumpentrockner-vergleich">suszarka z pompą ciepła</a> ogranicza już część zagnieceń.</p>
+<p>Zawsze stawiaj bazę na płaskiej, stabilnej powierzchni i nigdy nie zostawiaj gorącego żelazka w zasięgu dzieci. Zanim opróżnisz zbiornik lub przepłuczesz kolektor kamienia, odłącz urządzenie od prądu i poczekaj, aż ostygnie. Nigdy nie odświeżaj parą ubrania, które ktoś ma na sobie – para może poparzyć. Regularnie sprawdzaj stan przewodu zasilającego i węża parowego, a w razie uszkodzenia oddaj urządzenie do naprawy w autoryzowanym serwisie. Te same zasady dotyczą <a href="/pl/blog/nettoyeur-vapeur-connecte">myjek parowych</a> do podłóg, a dobrze ustawiona <a href="/pl/blog/waermepumpentrockner-vergleich">suszarka z pompą ciepła</a> już podczas suszenia ogranicza część zagnieceń.</p>
 
 <h2>Nasz werdykt</h2>
-<p>Dla większości domów <strong>Philips PerfectCare 8000 Series (PSG8160)</strong> jest w 2026 roku najbardziej kompletną stacją parową: dużo pary, duży zbiornik i brak konieczności ustawiania temperatury. <strong>PerfectCare 7000 (PSG7130)</strong> oferuje to, co najważniejsze, za mniejsze pieniądze. Miłośnicy bardzo grubych tkanin spojrzą na <strong>Calor Pro Express Ultimate II</strong>, a ci, którzy chcą największej autonomii, na <strong>Braun CareStyle 7 Pro</strong>. Wreszcie, jeśli naprawdę szukasz urządzenia z łącznością, <strong>Laurastar Smart U</strong> jako jedyny oferuje użyteczną aplikację, kosztem inwestycji z wysokiej półki. Dodaj parownicę, taką jak <strong>Philips 7000 Series</strong>, do porannych poprawek.</p>`,
+<p>Dla większości gospodarstw domowych <strong>Philips PerfectCare 8000 Series (PSG8160)</strong> to najbardziej kompletna stacja parowa 2026 roku: daje dużo pary, ma duży zbiornik i nie wymaga ustawiania temperatury. <strong>PerfectCare 7000 (PSG7130)</strong> oferuje to, co najważniejsze, za mniejsze pieniądze. Jeśli często prasujesz bardzo grube tkaniny, przyjrzyj się stacji <strong>Calor Pro Express Ultimate II</strong>, a jeśli chcesz jak najrzadziej dolewać wodę – stacji <strong>Braun CareStyle 7 Pro</strong>. Jeśli naprawdę zależy Ci na urządzeniu z aplikacją, tylko <strong>Laurastar Smart U</strong> ma taką, która rzeczywiście się przydaje – to jednak wydatek z najwyższej półki. Do porannych poprawek warto dokupić parownicę, np. <strong>Philips 7000 Series</strong>.</p>`,
+    sv: `<p><strong>Den bästa ångstationen för de flesta hushåll 2026 är Philips PerfectCare 8000 Series (PSG8160): 8,5 bar tryck, 170 g/min kontinuerlig ånga, en vattentank på 1,8 liter och OptimalTEMP-tekniken, som gör att du aldrig behöver ställa in temperaturen efter tyget.</strong> Är budgeten snävare har PerfectCare 7000 (PSG7130) kvar det viktigaste, medan Laurastar Smart U är den enda i den här jämförelsen som är uppkopplad på riktigt, med en Bluetooth-app som guidar dig genom strykningen.</p>
+<p>Lika bra att säga det direkt: de allra flesta strykjärn och ångstationer är inte uppkopplade alls. Philips ”smarta sensorer” och Tefals automatiska lägen fungerar utan app och utan wifi. Jämförelsen bygger på tillverkarnas produktblad, oberoende utvärderingar som konsumentorganisationer har publicerat och verifierade köparomdömen. Hela sortimentet hittar du under <a href="/sv/entretien-maison/fers-centrales-vapeur">strykjärn och ångstationer</a>.</p>
+
+<h2>Ångstation, ångstrykjärn eller klädsteamer: vad ska du välja?</h2>
+<p>Ett <strong>vanligt ångstrykjärn</strong> värmer vattnet direkt i stryksulan. Det är lätt och smidigt, men ångmängden är begränsad. En <strong>ångstation</strong> bildar ånga under tryck i en separat bas som är kopplad till strykjärnet med en slang. Resultatet är betydligt mer ånga, som tränger igenom tjocka tyger och flera lager på en gång. Dessutom är vattentanken mycket större. Det är rätt val så fort du har en rejäl hög tvätt att stryka varje vecka.</p>
+<p>En <strong>klädsteamer</strong> (stående eller handhållen) ger inga skarpa veck, men den är perfekt när du vill fräscha upp en skjorta, en klänning eller en gardin utan att ta fram strykbrädan. Många hushåll har båda: en ångstation för det mesta av tvätten och en klädsteamer för snabba uppfräschningar.</p>
+
+<h2>Köpkriterierna som verkligen spelar roll</h2>
+<h3>Trycket (bar)</h3>
+<p>Trycket anger hur kraftigt ångan pressas in i fibrerna. En ångstation för hemmabruk med 6–8,5 bar klarar allt som ett vanligt hushåll behöver. Tänk på att den angivna siffran ofta är pumpens maxtryck, så den säger inte allt. Laurastars strykstationer arbetar till exempel med 3,5 bar, men satsar i stället på mycket torr ånga och en aktiv strykbräda som suger ångan genom tyget.</p>
+<h3>Kontinuerlig ånga och ångpuff</h3>
+<p>Den kontinuerliga ångeffekten (i g/min) är den siffra du har mest nytta av i vardagen: över 120 g/min går strykningen märkbart snabbare. Ångpuffen (600–700 g/min på de bästa modellerna) är till för envisa veck, jeans och linne.</p>
+<h3>Avkalkningssystemet</h3>
+<p>Kalk är ångstationens värsta fiende. Nyare modeller har en löstagbar kalkuppsamlare som du sköljer ur regelbundet, och en lampa som påminner dig när det är dags. Kontrollera att det går på några minuter och utan verktyg: det är det som gör att apparaten håller i många år.</p>
+<h3>Vattentank och påfyllning</h3>
+<p>En tank på 1,2 liter räcker för ett vanligt strykpass, medan 1,8–2 liter tar dig igenom en stor hög utan avbrott. En löstagbar tank som går att fylla på mitt i strykningen är mycket praktisk.</p>
+<h3>Vikt och hantering</h3>
+<p>Själva strykjärnet är lätt, eftersom ångan bildas i basen. Basen väger däremot ofta över 4 kg, så se till att den får en stadig plats på eller bredvid strykbrädan. Ett lås som håller fast strykjärnet i basen gör det enklare att bära med sig apparaten.</p>
+<h3>Automatisk avstängning</h3>
+<p>Ett måste för säkerheten: de flesta ångstationer går ner i viloläge efter 8–10 minuter utan användning. Kontrollera att funktionen finns med i produktbladet för modellen du väljer.</p>
+<h3>Uppkoppling: ovanlig och inget måste</h3>
+<p>Ingen av ångstationerna från Philips, Tefal, Rowenta eller Braun i den här jämförelsen går att styra med en app. Bara Laurastars Smart-serie (Smart U och Smart I) ansluts via Bluetooth till en app med instruktionsvideor och skötselråd. Det är ett plus om du vill lära dig, inte ett krav för att få ett bra resultat.</p>
+
+<h2>De 6 bästa modellerna 2026</h2>
+<h3>1. Philips PerfectCare 8000 Series (PSG8160/30): bäst totalt</h3>
+<p>PerfectCare 8000 bockar av nästan allt: <strong>8,5 bar maxtryck, 170 g/min kontinuerlig ånga, upp till 700 g/min i ångpuff</strong> och en löstagbar tank på 1,8 liter som du kan fylla på medan du stryker. <strong>OptimalTEMP</strong> använder en och samma temperatur för alla tyger som tål strykning, från siden till jeans, så du slipper sortera tvätten. Rörelsesensorn DynamiQ anpassar ångmängden efter hur snabbt du för strykjärnet. Stryksulan SteamGlide Elite glider lätt, och avkalkningen sköts med en kalkuppsamlare.</p>
+<p><strong>Styrkor:</strong> rikligt med ånga, ingen temperatur att ställa in, stor tank, går att använda vertikalt på gardiner. <strong>Svagheter:</strong> skrymmande bas, ingen uppkoppling. <strong>Passar för:</strong> familjer som stryker mycket och vill bli klara snabbt.</p>
+
+<h3>2. Philips PerfectCare 7000 Series (PSG7130/20): mest prisvärd</h3>
+<p>PerfectCare 7000 följer samma recept som storasyster, med något lägre prestanda: <strong>8 bar, upp till 120 g/min kontinuerlig ånga</strong>, en löstagbar tank på 1,8 liter och samma OptimalTEMP-teknik. Den stänger av sig själv efter 10 minuter utan användning.</p>
+<p><strong>Styrkor:</strong> enkel att använda, stor tank, säker. <strong>Svagheter:</strong> blygsammare ångeffekt på mycket tjocka tyger. <strong>Passar för:</strong> par och små familjer som vill ha det viktigaste i en ångstation från Philips utan att gå upp i premiumklassen.</p>
+
+<h3>3. Tefal Pro Express Ultimate II (GV9721): kraft för tjocka tyger</h3>
+<p>Pro Express Ultimate II, som i Frankrike säljs under namnet Calor, ger <strong>7,9 bar, 170 g/min kontinuerlig ånga och 600 g/min i ångpuff</strong>. Stryksulan Durilium AirGlide är känd för att glida lätt, och tre lägen (ömtåligt, normalt, max) ställer in temperatur och ånga automatiskt. En löstagbar kalkuppsamlare och ett droppskydd gör paketet komplett. Tanken på 1,2 liter är mindre än hos Philips, och strykjärnet väger ungefär 1,3 kg, vilket är en fördel på linne och tjock bomull. Den stängs av automatiskt efter 8 minuter.</p>
+<p>Bra att veta: Rowenta Silence Steam Pro (DG9246), från samma koncern, riktar sig till dig som vill ha en tystare ångstation, med 8 bar och 150 g/min enligt tillverkaren.</p>
+<p><strong>Styrkor:</strong> kraftfull ånga, glider lätt, enkla lägen. <strong>Svagheter:</strong> mindre tank, tyngre strykjärn. <strong>Passar för:</strong> dig som stryker mycket jeans, lakan och hemtextilier.</p>
+
+<h3>4. Braun CareStyle 7 Pro (IS7286BK): störst vattentank</h3>
+<p>CareStyle 7 Pro satsar på lång drifttid med en <strong>tank på 2 liter</strong>, ett tryck på <strong>8 bar</strong> och en ångpuff på upp till 650 g/min enligt tillverkaren. Stryksulan EloxalPlus FreeGlide 3D har upphöjda kanter och glider lätt över knappar och sömmar, åt alla håll. Den har automatisk avstängning.</p>
+<p><strong>Styrkor:</strong> lång drifttid, mycket lättmanövrerad stryksula. <strong>Svagheter:</strong> skrymmande bas, ingen uppkoppling. <strong>Passar för:</strong> långa strykpass varje vecka.</p>
+
+<h3>5. Laurastar Smart U: det enda riktigt uppkopplade systemet</h3>
+<p>Smart U är inte bara en ångstation utan en <strong>komplett strykstation</strong>: ångenhet, strykjärn och en aktiv strykbräda som suger eller blåser (4 hastigheter) och går att ställa i 6 höjdlägen. Den arbetar med 3,5 bar och fin, torr ånga (80 g/min), har en tank på 1,2 liter, är varm på 3 minuter och stängs av efter 10 minuter utan användning. Sensteam-tekniken känner av strykjärnets rörelser och släpper ut ånga automatiskt. Via Bluetooth ansluts den till en <strong>app för iOS och Android</strong> med instruktionsvideor och råd för olika typer av tyg. Smart I, ett steg ner i sortimentet, har kvar appen men saknar Sensteam och pulserande ånga.</p>
+<p><strong>Styrkor:</strong> resultat nästan som från kemtvätten, aktiv strykbräda, den enda verkliga uppkopplingen. <strong>Svagheter:</strong> i det absoluta toppskiktet, skrymmande och tung (cirka 19 kg). <strong>Passar för:</strong> perfektionister och dig som vill lära dig att stryka bättre.</p>
+
+<h3>6. Philips 7000 Series (STH7040/80): den mångsidiga handhållna klädsteamern</h3>
+<p>Den här handhållna klädsteamern är gjord för snabba uppfräschningar och är varm på ungefär 30 sekunder. Den ger <strong>upp till 28 g/min ånga</strong>, använder också OptimalTEMP och har ett vridbart huvud som fungerar både vertikalt och horisontellt. Två tankar (100 och 200 ml) och ett värmetåligt fodral följer med.</p>
+<p><strong>Styrkor:</strong> kompakt, snabb, perfekt på resor. <strong>Svagheter:</strong> ersätter inte en ångstation när du vill ha skarpa veck. <strong>Passar för:</strong> yrkesverksamma med ont om tid och små bostäder.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Tryck</th><th>Kontinuerlig ånga</th><th>Tank</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips PerfectCare 8000 (PSG8160)</td><td>Ångstation</td><td>8,5 bar</td><td>170 g/min</td><td>1,8 l</td><td>Ingen</td><td>Familjer, stora tvättmängder</td></tr>
+<tr><td>Philips PerfectCare 7000 (PSG7130)</td><td>Ångstation</td><td>8 bar</td><td>120 g/min</td><td>1,8 l</td><td>Ingen</td><td>Mest prisvärd</td></tr>
+<tr><td>Tefal Pro Express Ultimate II (GV9721)</td><td>Ångstation</td><td>7,9 bar</td><td>170 g/min</td><td>1,2 l</td><td>Ingen</td><td>Tjocka tyger</td></tr>
+<tr><td>Braun CareStyle 7 Pro (IS7286)</td><td>Ångstation</td><td>8 bar</td><td>Uppgift saknas</td><td>2 l</td><td>Ingen</td><td>Långa strykpass</td></tr>
+<tr><td>Laurastar Smart U</td><td>Strykstation</td><td>3,5 bar</td><td>80 g/min (torr ånga)</td><td>1,2 l</td><td>Bluetooth + app</td><td>Finish i toppklass</td></tr>
+<tr><td>Philips 7000 Series (STH7040)</td><td>Handhållen klädsteamer</td><td>Trycklös</td><td>28 g/min</td><td>100 + 200 ml</td><td>Ingen</td><td>Uppfräschning, resor</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Köp inte bara efter trycket:</strong> den kontinuerliga ångan, stryksulan och avkalkningssystemet betyder lika mycket som antalet bar.</li>
+<li><strong>Slarva inte med avkalkningen:</strong> skölj ur kalkuppsamlaren så fort lampan tänds, så slipper du vita flagor och sämre ångflöde.</li>
+<li><strong>Använd inte fel sorts vatten:</strong> följ bruksanvisningen. Använd aldrig parfymerat vatten, vatten från torktumlaren eller tillsatser. Vissa tillverkare rekommenderar att du blandar kranvatten med avjoniserat vatten om vattnet är mycket hårt.</li>
+<li><strong>Betala inte för uppkoppling du inte behöver:</strong> en app stryker inte åt dig. Den gör bara nytta om du vill ha vägledning.</li>
+<li><strong>Glöm inte utrymmet:</strong> en ångstation kräver en stadig strykbräda med en avställningsyta som passar basen.</li>
+</ul>
+
+<h2>Användning, skötsel och säkerhet</h2>
+<p>Ställ alltid basen på en plan och stadig yta, och lämna aldrig ett varmt strykjärn inom räckhåll för barn. Dra ur kontakten och låt apparaten svalna innan du tömmer tanken eller sköljer ur kalkuppsamlaren. Ånga aldrig ett plagg medan någon har det på sig: ångan kan ge brännskador. Kontrollera sladden och ångslangen regelbundet, och låt en auktoriserad serviceverkstad reparera apparaten om något är skadat. Samma principer gäller för <a href="/sv/blog/nettoyeur-vapeur-connecte">ångtvättar</a> till golven, och en rätt inställd <a href="/sv/blog/waermepumpentrockner-vergleich">värmepumpstorktumlare</a> ger redan från början mindre skrynklig tvätt.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta hushåll är <strong>Philips PerfectCare 8000 Series (PSG8160)</strong> den mest kompletta ångstationen 2026: mycket ånga, en stor tank och ingen temperatur att ställa in. <strong>PerfectCare 7000 (PSG7130)</strong> ger det viktigaste för mindre pengar. Stryker du mycket tjocka tyger är <strong>Tefal Pro Express Ultimate II</strong> värd en titt, och vill du ha längst drifttid är det <strong>Braun CareStyle 7 Pro</strong> som gäller. Letar du verkligen efter en uppkopplad apparat är <strong>Laurastar Smart U</strong> den enda med en app som gör verklig nytta, men det är en investering i toppklass. Komplettera gärna med en klädsteamer som <strong>Philips 7000 Series</strong> för snabba uppfräschningar på morgonen.</p>`,
+    us: `<p><strong>In 2026, the best steam generator iron for most households is the Philips PerfectCare 8000 Series (PSG8160): 8.5 bar of pressure, 170 g/min of continuous steam, a 61 fl oz (1.8 L) tank and OptimalTEMP technology, so you never have to set the temperature for each fabric.</strong> On a tighter budget, the PerfectCare 7000 (PSG7130) keeps the essentials, while the Laurastar Smart U is the only system in this comparison with genuine smart features, including a Bluetooth app that coaches you as you iron.</p>
+<p>Let's be clear up front: the vast majority of irons and steam generators aren't connected at all. Philips' "smart" sensors and Tefal's automatic modes work without any app or Wi-Fi. This comparison is based on manufacturer specs, independent assessments published by consumer organizations and verified owner reviews. To browse the full range, visit our <a href="/us/entretien-maison/fers-centrales-vapeur">steam irons and steam generators</a> section.</p>
+
+<h2>Steam generator, steam iron or garment steamer: which one?</h2>
+<p>A <strong>conventional steam iron</strong> heats water right in the soleplate: it's light and compact, but its steam output is limited. A <strong>steam generator iron</strong> (also sold as a steam station iron) produces pressurized steam in a separate base connected to the iron by a hose. You get far more steam, which gets through thick fabrics and several layers at once, plus a much bigger tank. It's the right choice as soon as you face a pile of laundry every week.</p>
+<p>A <strong>garment steamer</strong> (upright or handheld) won't give you a crisp crease, but it's ideal for freshening up a shirt, a dress or a curtain without setting up the ironing board. Many households use both: a steam generator for the bulk of the laundry and a steamer for quick touch-ups.</p>
+
+<h2>The buying criteria that really matter</h2>
+<h3>Pressure (bar)</h3>
+<p>Pressure tells you how hard the steam is pushed into the fibers. Between 6 and 8.5 bar, a steam generator for home use covers every household need. Keep in mind that the advertised figure is often the maximum pump pressure, so it doesn't tell the whole story. Laurastar ironing systems, for example, run at 3.5 bar but rely on very dry steam and an active board that pulls the steam through the fabric.</p>
+<h3>Continuous steam and steam boost</h3>
+<p>Continuous steam output (in g/min) is the most useful number day to day: above 120 g/min, ironing gets noticeably faster. The steam boost (600 to 700 g/min on the best models) is there for stubborn wrinkles, jeans and linen.</p>
+<h3>Anti-scale system</h3>
+<p>Mineral scale is a steam generator's worst enemy. Recent models use a removable scale collector that you rinse out regularly, with a light that reminds you when it's due. Make sure it takes only a few minutes and needs no tools: that's what keeps the appliance going for years.</p>
+<h3>Tank and refilling</h3>
+<p>A 41 fl oz (1.2 L) tank is enough for a normal session; 61 to 68 fl oz (1.8 to 2 L) gets you through a big pile without stopping. A removable tank you can refill mid-session is a real convenience.</p>
+<h3>Weight and handling</h3>
+<p>The iron itself stays light because the steam is produced in the base. The base, however, often weighs more than 8.8 lb (4 kg), so plan on a stable spot on or next to the ironing board. A lock that secures the iron to the base makes it easier to carry.</p>
+<h3>Auto shut-off</h3>
+<p>This one is essential for safety: most steam generators switch to standby after 8 to 10 minutes of inactivity. Make sure the feature is listed on the spec sheet of the model you choose.</p>
+<h3>Smart features: rare and not essential</h3>
+<p>None of the Philips, Tefal, Rowenta or Braun steam generators in this comparison can be controlled from an app. Only Laurastar's Smart range (Smart U and Smart I) connects over Bluetooth to an app with tutorials and maintenance tips. It's a bonus for learning, not a requirement for good results.</p>
+
+<h2>The 6 best models of 2026</h2>
+<h3>1. Philips PerfectCare 8000 Series (PSG8160/30): best overall</h3>
+<p>The PerfectCare 8000 checks nearly every box: <strong>8.5 bar maximum pressure, 170 g/min continuous steam, up to 700 g/min steam boost</strong> and a removable 61 fl oz (1.8 L) tank you can top off while you iron. <strong>OptimalTEMP</strong> uses a single temperature suitable for all ironable fabrics, from silk to denim, so there's no need to sort your laundry. Its DynamiQ motion sensor adjusts the amount of steam to how fast you move the iron. The SteamGlide Elite soleplate glides easily, and descaling relies on a scale collector.</p>
+<p><strong>Pros:</strong> plenty of steam, no temperature to set, large tank, vertical steaming for curtains. <strong>Cons:</strong> bulky base, no smart features. <strong>Best for:</strong> families who iron a lot and want to get through it fast.</p>
+
+<h3>2. Philips PerfectCare 7000 Series (PSG7130/20): best value</h3>
+<p>The PerfectCare 7000 follows the same recipe with slightly lower performance: <strong>8 bar, up to 120 g/min continuous steam</strong>, a removable 61 fl oz (1.8 L) tank and the same OptimalTEMP technology. It shuts off automatically after 10 minutes of inactivity.</p>
+<p><strong>Pros:</strong> easy to use, large tank, safe. <strong>Cons:</strong> more modest output on very thick fabrics. <strong>Best for:</strong> couples and small families who want the essentials of a Philips steam generator without going premium.</p>
+
+<h3>3. Tefal Pro Express Ultimate II (GV9721): power for thick fabrics</h3>
+<p>Sold under the Calor brand in France, the Pro Express Ultimate II delivers <strong>7.9 bar, 170 g/min continuous steam and a 600 g/min boost</strong>. Its Durilium AirGlide soleplate is known for gliding smoothly, and three modes (delicate, normal, max) set the temperature and steam automatically. A removable scale collector and an anti-drip system round out the package. The 41 fl oz (1.2 L) tank is smaller than on the Philips models, and the iron weighs about 2.9 lb (1.3 kg), which helps on linen and heavy cotton. It shuts off automatically after 8 minutes.</p>
+<p>Worth knowing: the Rowenta Silence Steam Pro (DG9246), from the same group, is aimed at people who want a quieter steam generator, with a claimed 8 bar and 150 g/min.</p>
+<p><strong>Pros:</strong> powerful steam, smooth glide, simple modes. <strong>Cons:</strong> smaller tank, heavier iron. <strong>Best for:</strong> people who iron a lot of jeans, bedsheets and table linens.</p>
+
+<h3>4. Braun CareStyle 7 Pro (IS7286BK): the biggest tank</h3>
+<p>The CareStyle 7 Pro is built for long sessions, with a <strong>68 fl oz (2 L) tank</strong>, <strong>8 bar</strong> of pressure and a steam boost of up to 650 g/min. Its EloxalPlus FreeGlide 3D soleplate with raised edges glides easily over buttons and seams in any direction. It has an auto shut-off function.</p>
+<p><strong>Pros:</strong> long run time between refills, very maneuverable soleplate. <strong>Cons:</strong> bulky base, no smart features. <strong>Best for:</strong> long weekly ironing sessions.</p>
+
+<h3>5. Laurastar Smart U: the only truly smart system</h3>
+<p>The Smart U isn't just a steam generator but a <strong>complete ironing system</strong>: steam generator, iron and an active board that blows or pulls air (4 speeds), adjustable to 6 heights. It runs at 3.5 bar with fine, dry steam (80 g/min) and a 41 fl oz (1.2 L) tank, heats up in 3 minutes and switches off after 10 minutes of inactivity. Its Sensteam technology detects the iron's movements to release steam automatically. Over Bluetooth it connects to an <strong>iOS and Android app</strong> with video tutorials and fabric-specific advice. The Smart I, one step down, keeps the app but drops Sensteam and pulsed steam.</p>
+<p><strong>Pros:</strong> near dry-cleaner results, active board, the only real smart features. <strong>Cons:</strong> very premium, bulky and heavy (about 42 lb, or 19 kg). <strong>Best for:</strong> perfectionists and anyone who wants to learn to iron better.</p>
+
+<h3>6. Philips 7000 Series (STH7040/80): the versatile handheld steamer</h3>
+<p>For quick touch-ups, this handheld steamer heats up in about 30 seconds, delivers <strong>up to 28 g/min of steam</strong>, also uses OptimalTEMP and has an adjustable head that works both vertically and horizontally. It comes with two tanks (3.4 and 6.8 fl oz, or 100 and 200 ml) and a heat-resistant pouch.</p>
+<p><strong>Pros:</strong> compact, fast, great for travel. <strong>Cons:</strong> no substitute for a steam generator when you need sharp creases. <strong>Best for:</strong> busy professionals and small homes.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Pressure</th><th>Continuous steam</th><th>Tank</th><th>Smart features</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips PerfectCare 8000 (PSG8160)</td><td>Steam generator</td><td>8.5 bar</td><td>170 g/min</td><td>61 fl oz (1.8 L)</td><td>None</td><td>Families, big loads</td></tr>
+<tr><td>Philips PerfectCare 7000 (PSG7130)</td><td>Steam generator</td><td>8 bar</td><td>120 g/min</td><td>61 fl oz (1.8 L)</td><td>None</td><td>Best value</td></tr>
+<tr><td>Tefal Pro Express Ultimate II (GV9721)</td><td>Steam generator</td><td>7.9 bar</td><td>170 g/min</td><td>41 fl oz (1.2 L)</td><td>None</td><td>Thick fabrics</td></tr>
+<tr><td>Braun CareStyle 7 Pro (IS7286)</td><td>Steam generator</td><td>8 bar</td><td>Not specified</td><td>68 fl oz (2 L)</td><td>None</td><td>Long sessions</td></tr>
+<tr><td>Laurastar Smart U</td><td>Ironing system</td><td>3.5 bar</td><td>80 g/min (dry steam)</td><td>41 fl oz (1.2 L)</td><td>Bluetooth + app</td><td>Premium finish</td></tr>
+<tr><td>Philips 7000 Series (STH7040)</td><td>Handheld steamer</td><td>Unpressurized</td><td>28 g/min</td><td>3.4 + 6.8 fl oz (100 + 200 ml)</td><td>None</td><td>Touch-ups, travel</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying on pressure alone:</strong> continuous steam, the soleplate and the anti-scale system matter as much as the bar rating.</li>
+<li><strong>Skipping descaling:</strong> rinsing the collector as soon as the light comes on prevents white flakes and loss of steam.</li>
+<li><strong>Using the wrong water:</strong> follow the manual. Never use scented water, water from a condenser dryer or additives; some manufacturers suggest mixing tap water with distilled (demineralized) water if your water is very hard.</li>
+<li><strong>Paying for smart features you won't use:</strong> an app won't do the ironing for you. It's only worth it if you want guidance.</li>
+<li><strong>Forgetting about space:</strong> a steam generator needs a sturdy ironing board with a rest that fits the base.</li>
+</ul>
+
+<h2>Use, maintenance and safety</h2>
+<p>Always set the base on a flat, stable surface and never leave a hot iron within reach of children. Unplug the appliance and let it cool before you empty the tank or rinse the scale collector. Never steam a garment while someone is wearing it: the steam can cause burns. Check the cord and steam hose regularly; if either is damaged, have the appliance repaired by an authorized service center. Models sold in Europe are built for 230 V; check that the version on your Amazon store is rated for 120 V. The same principles apply to <a href="/us/blog/nettoyeur-vapeur-connecte">steam cleaners</a>, and a <a href="/us/blog/waermepumpentrockner-vergleich">heat pump dryer</a> on the right setting already cuts down on wrinkles.</p>
+
+<h2>The bottom line</h2>
+<p>For most households, the <strong>Philips PerfectCare 8000 Series (PSG8160)</strong> is the most complete steam generator of 2026: lots of steam, a large tank and no temperature to set. The <strong>PerfectCare 7000 (PSG7130)</strong> delivers the essentials for less. If you iron a lot of heavy fabrics, look at the <strong>Tefal Pro Express Ultimate II</strong>; if you want the longest sessions between refills, the <strong>Braun CareStyle 7 Pro</strong>. And if you really want a smart appliance, the <strong>Laurastar Smart U</strong> is the only one with a genuinely useful app, at a premium price point. Add a steamer such as the <strong>Philips 7000 Series</strong> for morning touch-ups.</p>`,
+    ca: `<p><strong>In 2026, the best steam generator iron for most households is the Philips PerfectCare 8000 Series (PSG8160): 8.5 bar of pressure, 170 g/min of continuous steam, a 1.8-litre tank and OptimalTEMP technology, so you never have to set the temperature for each fabric.</strong> On a tighter budget, the PerfectCare 7000 (PSG7130) keeps the essentials, while the Laurastar Smart U is the only system in this comparison that is genuinely connected, with a Bluetooth app that guides your ironing.</p>
+<p>Let's be clear from the start: the vast majority of irons and steam generators are not connected at all. Philips' "smart" sensors and Tefal's automatic modes work without any app or Wi-Fi. This comparison is based on manufacturer specifications, independent assessments published by consumer organizations and verified buyer feedback. To browse the full range, visit our <a href="/ca/entretien-maison/fers-centrales-vapeur">irons and steam generators</a> section.</p>
+
+<h2>Steam generator, steam iron or garment steamer: which one?</h2>
+<p>A <strong>conventional steam iron</strong> heats water directly in the soleplate: it is light and compact, but its steam output is limited. A <strong>steam generator iron</strong> produces pressurized steam in a separate base connected to the iron by a hose. The result is far more steam, which penetrates thick fabrics and several layers at once, plus a much bigger tank. It is the right choice as soon as you face a pile of laundry every week.</p>
+<p>A <strong>garment steamer</strong> (upright or handheld) will not give you a crisp crease, but it is ideal for refreshing a shirt, a dress or a curtain without setting up the ironing board. Many households use both: a steam generator for the bulk of the laundry and a steamer for quick touch-ups.</p>
+
+<h2>The buying criteria that really matter</h2>
+<h3>Pressure (bar)</h3>
+<p>Pressure tells you how forcefully steam is pushed into the fibres. Between 6 and 8.5 bar, a consumer steam generator covers every household need. Bear in mind that the advertised figure is often the maximum pump pressure, so it does not tell the whole story. Laurastar ironing systems, for example, run at 3.5 bar but rely on very dry steam and an active board that draws steam through the fabric.</p>
+<h3>Continuous steam and steam boost</h3>
+<p>Continuous steam output (in g/min) is the most useful figure day to day: above 120 g/min, ironing gets noticeably faster. The steam boost (600 to 700 g/min on the best models) is there for stubborn creases, jeans and linen.</p>
+<h3>Anti-scale system</h3>
+<p>Limescale (the mineral buildup left by hard water) is a steam generator's worst enemy. Recent models use a removable scale collector that you rinse regularly, with a light reminding you when it is due. Check that it takes only a few minutes and needs no tools: that is what keeps the appliance going for years.</p>
+<h3>Tank and refilling</h3>
+<p>A 1.2-litre tank is enough for a normal session; 1.8 to 2 litres let you get through a big pile without stopping. A removable tank that can be refilled mid-session is a real convenience.</p>
+<h3>Weight and handling</h3>
+<p>The iron itself stays light because steam is produced in the base. The base, however, often weighs more than 4 kg (about 9 lb), so plan a stable spot on or next to the ironing board. A lock that secures the iron to the base makes carrying easier.</p>
+<h3>Auto shut-off</h3>
+<p>Essential for safety: most steam generators switch to standby after 8 to 10 minutes of inactivity. Make sure the feature is listed on the specification sheet of the model you choose.</p>
+<h3>Connectivity: rare and not essential</h3>
+<p>None of the Philips, Tefal, Rowenta or Braun steam generators in this comparison can be controlled from an app. Only Laurastar's Smart range (Smart U and Smart I) connects via Bluetooth to an app with tutorials and maintenance tips. It is a bonus for learning, not a requirement for good results.</p>
+
+<h2>The 6 best models in 2026</h2>
+<h3>1. Philips PerfectCare 8000 Series (PSG8160/30): best overall</h3>
+<p>The PerfectCare 8000 ticks nearly every box: <strong>8.5 bar maximum pressure, 170 g/min continuous steam, up to 700 g/min steam boost</strong> and a removable 1.8-litre tank you can top up while ironing. <strong>OptimalTEMP</strong> uses a single temperature suitable for all ironable fabrics, from silk to denim, so there is no need to sort your laundry. Its DynamiQ motion sensor adjusts the amount of steam to the speed of the iron. The SteamGlide Elite soleplate glides easily, and descaling relies on a scale collector.</p>
+<p><strong>Strengths:</strong> plenty of steam, no temperature to set, large tank, vertical steaming for curtains. <strong>Limitations:</strong> bulky base, no connectivity. <strong>Best for:</strong> families who iron a lot and want to be quick.</p>
+
+<h3>2. Philips PerfectCare 7000 Series (PSG7130/20): best value</h3>
+<p>The PerfectCare 7000 follows the same recipe with slightly lower performance: <strong>8 bar, up to 120 g/min continuous steam</strong>, a removable 1.8-litre tank and the same OptimalTEMP technology. It switches off automatically after 10 minutes of inactivity.</p>
+<p><strong>Strengths:</strong> easy to use, large tank, safe. <strong>Limitations:</strong> more modest output on very thick fabrics. <strong>Best for:</strong> couples and small families who want the essentials of a Philips steam generator without going premium.</p>
+
+<h3>3. Tefal Pro Express Ultimate II (GV9721): power for thick fabrics</h3>
+<p>Sold as Calor in France, the Pro Express Ultimate II delivers <strong>7.9 bar, 170 g/min continuous steam and a 600 g/min boost</strong>. Its Durilium AirGlide soleplate is known for smooth gliding, and three modes (delicate, normal, max) set temperature and steam automatically. A removable scale collector and an anti-drip system complete the package. The 1.2-litre tank is smaller than on the Philips models, and the iron weighs about 1.3 kg, which helps on linen and heavy cotton. It shuts off automatically after 8 minutes.</p>
+<p>Worth knowing: the Rowenta Silence Steam Pro (DG9246), from the same group, targets those who want a quieter steam generator, with 8 bar and 150 g/min claimed.</p>
+<p><strong>Strengths:</strong> powerful steam, smooth glide, simple modes. <strong>Limitations:</strong> smaller tank, heavier iron. <strong>Best for:</strong> people who iron a lot of jeans, bed sheets and household linens.</p>
+
+<h3>4. Braun CareStyle 7 Pro (IS7286BK): the biggest tank</h3>
+<p>The CareStyle 7 Pro is built for long sessions between refills, with a <strong>2-litre tank</strong>, <strong>8 bar</strong> of pressure and a steam boost of up to 650 g/min. Its EloxalPlus FreeGlide 3D soleplate with raised edges moves easily over buttons and seams in any direction. It has an auto shut-off function.</p>
+<p><strong>Strengths:</strong> long run time between refills, very manoeuvrable soleplate. <strong>Limitations:</strong> bulky base, no connectivity. <strong>Best for:</strong> long weekly ironing sessions.</p>
+
+<h3>5. Laurastar Smart U: the only truly connected system</h3>
+<p>The Smart U is not just a steam generator but a <strong>complete ironing system</strong>: steam generator, iron and an active board that blows or draws air (4 speeds), adjustable to 6 heights. It runs at 3.5 bar with fine, dry steam (80 g/min), a 1.2-litre tank, heats up in 3 minutes and switches off after 10 minutes of inactivity. Its Sensteam technology detects the iron's movements to release steam automatically. Via Bluetooth it connects to an <strong>iOS and Android app</strong> offering video tutorials and fabric-specific advice. The Smart I, one step down, keeps the app but drops Sensteam and pulsed steam.</p>
+<p><strong>Strengths:</strong> near dry-cleaner results, active board, the only real connectivity. <strong>Limitations:</strong> top-of-the-line tier, bulky and heavy (around 19 kg, or 42 lb). <strong>Best for:</strong> perfectionists and anyone who wants to learn to iron better.</p>
+
+<h3>6. Philips 7000 Series (STH7040/80): the versatile handheld steamer</h3>
+<p>For quick touch-ups, this handheld steamer heats up in about 30 seconds, delivers <strong>up to 28 g/min of steam</strong>, also uses OptimalTEMP and has an adjustable head that works both vertically and horizontally. It comes with two tanks (100 and 200 mL) and a heat-resistant pouch.</p>
+<p><strong>Strengths:</strong> compact, fast, ideal for travel. <strong>Limitations:</strong> no substitute for a steam generator when you need sharp creases. <strong>Best for:</strong> busy professionals and small homes.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Pressure</th><th>Continuous steam</th><th>Tank</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips PerfectCare 8000 (PSG8160)</td><td>Steam generator</td><td>8.5 bar</td><td>170 g/min</td><td>1.8 L</td><td>None</td><td>Families, large loads</td></tr>
+<tr><td>Philips PerfectCare 7000 (PSG7130)</td><td>Steam generator</td><td>8 bar</td><td>120 g/min</td><td>1.8 L</td><td>None</td><td>Best value</td></tr>
+<tr><td>Tefal Pro Express Ultimate II (GV9721)</td><td>Steam generator</td><td>7.9 bar</td><td>170 g/min</td><td>1.2 L</td><td>None</td><td>Thick fabrics</td></tr>
+<tr><td>Braun CareStyle 7 Pro (IS7286)</td><td>Steam generator</td><td>8 bar</td><td>Not specified</td><td>2 L</td><td>None</td><td>Long sessions</td></tr>
+<tr><td>Laurastar Smart U</td><td>Ironing system</td><td>3.5 bar</td><td>80 g/min (dry steam)</td><td>1.2 L</td><td>Bluetooth + app</td><td>Premium finish</td></tr>
+<tr><td>Philips 7000 Series (STH7040)</td><td>Handheld steamer</td><td>Unpressurized</td><td>28 g/min</td><td>100 + 200 mL</td><td>None</td><td>Touch-ups, travel</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying on pressure alone:</strong> continuous steam, the soleplate and the anti-scale system matter as much as the bar figure.</li>
+<li><strong>Neglecting descaling:</strong> rinsing the collector as soon as the light comes on prevents white flakes and loss of steam.</li>
+<li><strong>Using the wrong water:</strong> follow the manual. Never use scented water, water from a condenser dryer or additives; some manufacturers suggest mixing tap water with demineralized (distilled) water if your water is very hard.</li>
+<li><strong>Paying for connectivity you won't use:</strong> an app won't do the ironing for you. It is only worthwhile if you want guidance.</li>
+<li><strong>Forgetting about space:</strong> a steam generator needs a sturdy ironing board with a suitable rest for the base.</li>
+</ul>
+
+<h2>Use, maintenance and safety</h2>
+<p>Always place the base on a flat, stable surface and never leave a hot iron within reach of children. Unplug the appliance and let it cool before emptying the tank or rinsing the scale collector. Never steam a garment while someone is wearing it: the steam can cause burns. Check the cord and steam hose regularly; if they are damaged, have the appliance repaired by an authorized service centre. The same principles apply to <a href="/ca/blog/nettoyeur-vapeur-connecte">steam cleaners</a>, and a well-set <a href="/ca/blog/waermepumpentrockner-vergleich">heat pump dryer</a> already reduces some of the creasing.</p>
+
+<h2>Our verdict</h2>
+<p>For most households, the <strong>Philips PerfectCare 8000 Series (PSG8160)</strong> is the most complete steam generator in 2026: lots of steam, a large tank and no temperature to set. The <strong>PerfectCare 7000 (PSG7130)</strong> delivers the essentials for less. If you iron a lot of heavy fabrics, look at the <strong>Tefal Pro Express Ultimate II</strong>; if you want the longest run between refills, the <strong>Braun CareStyle 7 Pro</strong>. And if you really want a smart appliance, the <strong>Laurastar Smart U</strong> is the only one with a genuinely useful app, though it is a top-of-the-line investment. Add a steamer such as the <strong>Philips 7000 Series</strong> for morning touch-ups.</p>`,
   },
   faq: [
     {
@@ -597,7 +840,10 @@ export const article: BlogArticle = {
         es: `¿Cuántos bares necesita un buen centro de planchado?`,
         it: `Quanti bar servono per un buon ferro con caldaia?`,
         nl: `Hoeveel bar heeft een goede stoomgenerator nodig?`,
-        pl: `Ile barów potrzeba w dobrej stacji parowej?`,
+        pl: `Ile barów powinna mieć dobra stacja parowa?`,
+        sv: `Hur många bar behöver en bra ångstation?`,
+        us: `How much pressure does a good steam generator iron need?`,
+        ca: `How many bar does a good steam generator iron need?`,
       },
       answer: {
         fr: `Entre 6 et 8,5 bars, une centrale couvre tous les besoins d'un foyer. Au-delà de la pression, regardez le débit de vapeur continue : à partir de 120 g/min, le repassage devient nettement plus rapide.`,
@@ -606,7 +852,10 @@ export const article: BlogArticle = {
         es: `Entre 6 y 8,5 bares se cubren todas las necesidades de un hogar. Además de la presión, fíjese en el vapor continuo: a partir de unos 120 g/min, el planchado es claramente más rápido.`,
         it: `Tra 6 e 8,5 bar si coprono tutte le esigenze domestiche. Oltre alla pressione, guardate il vapore continuo: da circa 120 g/min la stiratura diventa nettamente più veloce.`,
         nl: `Met 6 tot 8,5 bar dekt u alle behoeften van een huishouden. Kijk naast de druk vooral naar de continue stoom: vanaf ongeveer 120 g/min gaat strijken merkbaar sneller.`,
-        pl: `Między 6 a 8,5 bara stacja pokrywa wszystkie potrzeby domu. Poza ciśnieniem zwróć uwagę na strumień pary ciągłej: od 120 g/min prasowanie staje się wyraźnie szybsze.`,
+        pl: `Stacja o ciśnieniu 6–8,5 bara wystarczy do wszystkich domowych zastosowań. Oprócz ciśnienia sprawdź wydajność pary ciągłej: od 120 g/min prasuje się wyraźnie szybciej.`,
+        sv: `Med 6–8,5 bar klarar en ångstation allt ett hushåll behöver. Titta också på den kontinuerliga ångan, inte bara på trycket: från ungefär 120 g/min går strykningen märkbart snabbare.`,
+        us: `Between 6 and 8.5 bar covers every household need. Beyond pressure, look at continuous steam output: from about 120 g/min up, ironing gets noticeably faster.`,
+        ca: `Between 6 and 8.5 bar covers every household need. Beyond pressure, look at continuous steam output: from around 120 g/min, ironing becomes noticeably faster.`,
       },
     },
     {
@@ -618,6 +867,9 @@ export const article: BlogArticle = {
         it: `Esistono ferri con caldaia connessi?`,
         nl: `Bestaan er verbonden stoomgeneratoren?`,
         pl: `Czy istnieją inteligentne stacje parowe?`,
+        sv: `Finns det uppkopplade ångstationer?`,
+        us: `Are there any smart steam generator irons?`,
+        ca: `Are there any smart steam generator irons?`,
       },
       answer: {
         fr: `Très peu. Les centrales Philips, Calor, Rowenta et Braun n'ont pas d'application. Les centres de repassage Laurastar Smart U et Smart I se connectent en Bluetooth à une application de tutoriels et de conseils d'entretien.`,
@@ -626,7 +878,10 @@ export const article: BlogArticle = {
         es: `Muy pocos. Los centros de planchado Philips, Tefal, Rowenta y Braun no tienen aplicación. Los sistemas Laurastar Smart U y Smart I se conectan por Bluetooth a una aplicación con tutoriales y consejos de mantenimiento.`,
         it: `Pochissimi. I ferri con caldaia Philips, Tefal, Rowenta e Braun non hanno app. I sistemi da stiro Laurastar Smart U e Smart I si collegano via Bluetooth a un'app con tutorial e consigli di manutenzione.`,
         nl: `Heel weinig. Stoomgeneratoren van Philips, Tefal, Rowenta en Braun hebben geen app. De strijksystemen Laurastar Smart U en Smart I maken via Bluetooth verbinding met een app met tutorials en onderhoudstips.`,
-        pl: `Bardzo niewiele. Stacje Philips, Calor, Rowenta i Braun nie mają aplikacji. Systemy do prasowania Laurastar Smart U i Smart I łączą się przez Bluetooth z aplikacją z samouczkami i poradami dotyczącymi konserwacji.`,
+        pl: `Jest ich bardzo niewiele. Stacje Philips, Calor, Rowenta i Braun nie mają aplikacji. Tylko systemy do prasowania Laurastar Smart U i Smart I łączą się przez Bluetooth z aplikacją z samouczkami i wskazówkami dotyczącymi konserwacji.`,
+        sv: `Mycket få. Ångstationerna från Philips, Tefal, Rowenta och Braun har ingen app. Laurastars strykstationer Smart U och Smart I ansluts via Bluetooth till en app med instruktionsvideor och skötselråd.`,
+        us: `Very few. Philips, Tefal, Rowenta and Braun steam generators have no app. Laurastar's Smart U and Smart I ironing systems connect over Bluetooth to an app with tutorials and maintenance tips.`,
+        ca: `Very few. Philips, Tefal, Rowenta and Braun steam generators have no app. Laurastar's Smart U and Smart I ironing systems connect via Bluetooth to an app offering tutorials and maintenance tips.`,
       },
     },
     {
@@ -638,6 +893,9 @@ export const article: BlogArticle = {
         it: `Che acqua usare nel ferro con caldaia?`,
         nl: `Welk water gebruikt u in een stoomgenerator?`,
         pl: `Jaką wodę wlewać do stacji parowej?`,
+        sv: `Vilket vatten ska jag använda i ångstationen?`,
+        us: `What kind of water should you use in a steam generator?`,
+        ca: `What water should I use in a steam generator?`,
       },
       answer: {
         fr: `Suivez la notice du fabricant. La plupart des centrales récentes acceptent l'eau du robinet grâce à leur collecteur de calcaire. Évitez l'eau parfumée, l'eau de sèche-linge et les additifs, qui peuvent abîmer l'appareil.`,
@@ -646,7 +904,10 @@ export const article: BlogArticle = {
         es: `Siga el manual del fabricante. La mayoría de los centros de planchado recientes admiten agua del grifo gracias a su colector de cal. Evite el agua perfumada, el agua de secadora y los aditivos, que pueden dañar el aparato.`,
         it: `Seguite il manuale del produttore. La maggior parte dei modelli recenti accetta l'acqua del rubinetto grazie al collettore del calcare. Evitate acqua profumata, acqua dell'asciugatrice e additivi, che possono danneggiare l'apparecchio.`,
         nl: `Volg de handleiding van de fabrikant. De meeste recente stoomgeneratoren kunnen dankzij hun kalkcollector kraanwater aan. Vermijd geparfumeerd water, drogerwater en toevoegingen, die het apparaat kunnen beschadigen.`,
-        pl: `Stosuj się do instrukcji producenta. Większość nowszych stacji akceptuje wodę z kranu dzięki kolektorowi kamienia. Unikaj wody zapachowej, wody z suszarki i dodatków, które mogą uszkodzić urządzenie.`,
+        pl: `Kieruj się instrukcją producenta. Większość nowszych stacji dzięki kolektorowi kamienia można napełniać wodą z kranu. Unikaj wody zapachowej, wody z pojemnika suszarki i wszelkich dodatków – mogą uszkodzić urządzenie.`,
+        sv: `Följ tillverkarens bruksanvisning. De flesta nyare ångstationer klarar kranvatten tack vare kalkuppsamlaren. Undvik parfymerat vatten, vatten från torktumlaren och tillsatser, eftersom de kan skada apparaten.`,
+        us: `Follow the manufacturer's manual. Most recent steam generators take tap water thanks to their scale collector. Avoid scented water, water from a condenser dryer and additives, which can damage the appliance.`,
+        ca: `Follow the manufacturer's manual. Most recent steam generators accept tap water thanks to their scale collector. Avoid scented water, water from a condenser dryer and additives, which can damage the appliance.`,
       },
     },
     {
@@ -658,6 +919,9 @@ export const article: BlogArticle = {
         it: `Ogni quanto decalcificare il ferro con caldaia?`,
         nl: `Hoe vaak moet u een stoomgenerator ontkalken?`,
         pl: `Jak często odkamieniać stację parową?`,
+        sv: `Hur ofta ska jag avkalka ångstationen?`,
+        us: `How often should you descale a steam generator iron?`,
+        ca: `How often should I descale my steam generator?`,
       },
       answer: {
         fr: `Dès que le voyant de détartrage s'allume, ou selon la fréquence indiquée dans la notice. Plus votre eau est calcaire, plus il faut rincer souvent le collecteur. L'opération prend quelques minutes, appareil débranché et refroidi.`,
@@ -666,7 +930,10 @@ export const article: BlogArticle = {
         es: `En cuanto se encienda el indicador de descalcificación o con la frecuencia que indique el manual. Cuanto más dura sea el agua, más a menudo hay que enjuagar el colector. Lleva unos minutos, con el aparato desenchufado y frío.`,
         it: `Appena si accende la spia di decalcificazione o con la frequenza indicata nel manuale. Più l'acqua è dura, più spesso bisogna sciacquare il collettore. Bastano pochi minuti, con l'apparecchio scollegato e raffreddato.`,
         nl: `Zodra het ontkalkingslampje gaat branden, of zo vaak als de handleiding aangeeft. Hoe harder uw water, hoe vaker u de collector moet uitspoelen. Dat duurt een paar minuten, met de stekker eruit en het apparaat afgekoeld.`,
-        pl: `Gdy tylko zaświeci się kontrolka odkamieniania lub według częstotliwości podanej w instrukcji. Im twardsza woda, tym częściej trzeba płukać kolektor. Zabieg trwa kilka minut, przy odłączonym i ostygniętym urządzeniu.`,
+        pl: `Za każdym razem, gdy zaświeci się kontrolka odkamieniania, albo tak często, jak zaleca instrukcja. Im twardsza woda, tym częściej trzeba płukać kolektor. Zajmuje to kilka minut, a urządzenie musi być wtedy odłączone od prądu i ostygnięte.`,
+        sv: `Så fort avkalkningslampan tänds, eller så ofta som bruksanvisningen anger. Ju hårdare vatten du har, desto oftare behöver du skölja ur kalkuppsamlaren. Det tar några minuter. Dra först ur kontakten och låt apparaten svalna.`,
+        us: `As soon as the descaling light comes on, or as often as the manual says. The harder your water, the more often you'll need to rinse the collector. It takes a few minutes, with the appliance unplugged and cooled down.`,
+        ca: `As soon as the descaling light comes on, or as often as the manual specifies. The harder your water, the more often you need to rinse the collector. It takes a few minutes, with the appliance unplugged and cooled down.`,
       },
     },
     {
@@ -678,6 +945,9 @@ export const article: BlogArticle = {
         it: `Uno stiratore verticale può sostituire un ferro con caldaia?`,
         nl: `Kan een kledingstomer een stoomgenerator vervangen?`,
         pl: `Czy parownica może zastąpić stację parową?`,
+        sv: `Kan en klädsteamer ersätta en ångstation?`,
+        us: `Can a garment steamer replace a steam generator iron?`,
+        ca: `Can a garment steamer replace a steam generator iron?`,
       },
       answer: {
         fr: `Pas complètement. Un défroisseur comme le Philips 7000 Series rafraîchit vite chemises, robes et rideaux, mais il ne donne pas de plis nets. Pour le linge plat et les chemises impeccables, une centrale reste plus efficace.`,
@@ -686,7 +956,10 @@ export const article: BlogArticle = {
         es: `No del todo. Un vaporizador como el Philips 7000 Series refresca rápido camisas, vestidos y cortinas, pero no marca pliegues nítidos. Para ropa de cama y camisas impecables, un centro de planchado sigue siendo más eficaz.`,
         it: `Non del tutto. Uno stiratore come il Philips 7000 Series rinfresca rapidamente camicie, vestiti e tende, ma non crea pieghe nette. Per la biancheria piana e camicie impeccabili, il ferro con caldaia resta più efficace.`,
         nl: `Niet helemaal. Een stomer zoals de Philips 7000 Series frist overhemden, jurken en gordijnen snel op, maar maakt geen scherpe vouwen. Voor vlak wasgoed en strakke overhemden blijft een stoomgenerator effectiever.`,
-        pl: `Nie do końca. Parownica, taka jak Philips 7000 Series, szybko odświeża koszule, sukienki i zasłony, ale nie daje wyraźnych kantów. Do płaskiego prania i nienagannych koszul stacja parowa jest skuteczniejsza.`,
+        pl: `Nie w pełni. Parownica, np. Philips 7000 Series, szybko odświeży koszule, sukienki i zasłony, ale nie zrobi ostrych kantów. Do pościeli, obrusów i idealnie wyprasowanych koszul stacja parowa nadal sprawdza się lepiej.`,
+        sv: `Inte helt. En klädsteamer som Philips 7000 Series fräschar snabbt upp skjortor, klänningar och gardiner, men den ger inga skarpa veck. För lakan, dukar och perfekt strukna skjortor är en ångstation fortfarande effektivare.`,
+        us: `Not entirely. A steamer such as the Philips 7000 Series quickly freshens up shirts, dresses and curtains, but it won't give you sharp creases. For sheets, tablecloths and crisp shirts, a steam generator is still more effective.`,
+        ca: `Not entirely. A steamer such as the Philips 7000 Series quickly refreshes shirts, dresses and curtains, but it won't create sharp creases. For bed sheets, tablecloths and crisp shirts, a steam generator remains more effective.`,
       },
     },
     {
@@ -698,6 +971,9 @@ export const article: BlogArticle = {
         it: `Che cos'è la tecnologia OptimalTEMP di Philips?`,
         nl: `Wat is de OptimalTEMP-technologie van Philips?`,
         pl: `Czym jest technologia OptimalTEMP firmy Philips?`,
+        sv: `Vad är OptimalTEMP från Philips?`,
+        us: `What is Philips OptimalTEMP technology?`,
+        ca: `What is Philips OptimalTEMP technology?`,
       },
       answer: {
         fr: `C'est un réglage unique de température et de vapeur que Philips présente comme adapté à tous les tissus repassables, de la soie au jean. Vous n'avez donc plus à trier le linge ni à attendre que le fer chauffe ou refroidisse.`,
@@ -706,7 +982,10 @@ export const article: BlogArticle = {
         es: `Es un único ajuste de temperatura y vapor que Philips presenta como apto para todos los tejidos planchables, de la seda al vaquero. Ya no hace falta clasificar la ropa ni esperar a que la plancha se caliente o se enfríe.`,
         it: `È un'unica impostazione di temperatura e vapore che Philips presenta come adatta a tutti i tessuti stirabili, dalla seta al denim. Non serve più dividere il bucato né aspettare che il ferro si scaldi o si raffreddi.`,
         nl: `Het is één temperatuur- en stoominstelling die Philips presenteert als geschikt voor alle strijkbare stoffen, van zijde tot denim. U hoeft de was niet meer te sorteren of te wachten tot het strijkijzer opwarmt of afkoelt.`,
-        pl: `To jedno ustawienie temperatury i pary, które Philips przedstawia jako odpowiednie dla wszystkich tkanin nadających się do prasowania, od jedwabiu po dżins. Nie musisz więc sortować prania ani czekać, aż żelazko się nagrzeje lub ostygnie.`,
+        pl: `To jedno ustawienie temperatury i pary, które według Philipsa pasuje do wszystkich tkanin nadających się do prasowania, od jedwabiu po dżins. Nie musisz więc sortować ubrań ani czekać, aż żelazko się nagrzeje lub ostygnie.`,
+        sv: `Det är en enda inställning för temperatur och ånga som enligt Philips passar alla tyger som tål strykning, från siden till jeans. Du behöver alltså varken sortera tvätten eller vänta på att strykjärnet ska värmas upp eller svalna.`,
+        us: `It's a single temperature and steam setting that Philips says works for all ironable fabrics, from silk to denim. You no longer need to sort your laundry or wait for the iron to heat up or cool down.`,
+        ca: `It is a single temperature and steam setting that Philips presents as suitable for all ironable fabrics, from silk to denim. You no longer need to sort your laundry or wait for the iron to heat up or cool down.`,
       },
     },
   ],

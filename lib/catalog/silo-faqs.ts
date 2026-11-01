@@ -59,23 +59,89 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     pl: [
       {
         question: "Czy frytkownica beztłuszczowa zużywa mniej prądu niż piekarnik?",
-        answer: "Tak, przy małych i średnich porcjach frytkownica beztłuszczowa zwykle zużywa mniej energii niż klasyczny piekarnik, bo jej niewielka komora szybko się nagrzewa i wymaga krótkiego podgrzewania. Przy dużej ilości jedzenia lub obszernym daniu lepszy pozostaje piekarnik. Sprawdź moc w watach w karcie produktu i porównaj ją z rzeczywistym czasem gotowania.",
+        answer: "Tak, przy małych i średnich porcjach frytkownica beztłuszczowa zużywa zwykle mniej energii niż tradycyjny piekarnik, bo jej niewielka komora szybko się nagrzewa i wymaga krótkiego nagrzewania wstępnego. Przy dużej ilości jedzenia lub większym daniu lepiej sprawdzi się piekarnik. Sprawdź moc w watach w karcie produktu i zestaw ją z rzeczywistym czasem pieczenia.",
       },
       {
         question: "Jaką pojemność frytkownicy beztłuszczowej wybrać dla rodziny?",
-        answer: "Przyjmij około 3–4 litrów dla jednej–dwóch osób i 5–6 litrów dla rodziny z trójką lub czwórką domowników. Przy większych potrzebach model z dwiema szufladami pozwala przyrządzać dwa produkty jednocześnie. Zbyt mały kosz zmusza do gotowania na raty, co niweluje oszczędność czasu i energii.",
+        answer: "Dla jednej lub dwóch osób wystarczy około 3–4 litrów, a dla rodziny trzy- lub czteroosobowej – 5–6 litrów. Przy większych potrzebach model z dwiema szufladami pozwala przyrządzać dwie potrawy jednocześnie. Zbyt mała komora zmusza do smażenia na raty, co niweczy oszczędność czasu i energii.",
       },
       {
         question: "Czy inteligentne urządzenie kuchenne potrzebuje Wi-Fi do działania?",
-        answer: "Nie, większość inteligentnych urządzeń kuchennych można obsługiwać także ręcznie; Wi-Fi służy głównie do przepisów krok po kroku, powiadomień i aktualizacji. Przed zakupem sprawdź, co działa offline, i przeczytaj politykę prywatności aplikacji, bo przesyłane dane podlegają RODO.",
+        answer: "Nie, większość inteligentnych urządzeń kuchennych można obsługiwać także ręcznie; Wi-Fi służy głównie do przepisów krok po kroku, powiadomień i aktualizacji. Przed zakupem sprawdź, które funkcje działają bez internetu, i przeczytaj politykę prywatności aplikacji, bo przesyłane dane podlegają RODO.",
       },
       {
-        question: "Czy można podłączyć urządzenie kuchenne do inteligentnej wtyczki?",
-        answer: "Tak, pod warunkiem że inteligentna wtyczka obsługuje moc wyższą niż urządzenie, podaną w watach na jego tabliczce znamionowej. Urządzenia o dużym poborze, takie jak czajniki czy frytkownice beztłuszczowe, często wymagają wtyczki 16 A. Nie zostawiaj urządzenia grzewczego bez nadzoru, nawet jeśli sterujesz nim zdalnie.",
+        question: "Czy można podłączyć urządzenie kuchenne do inteligentnego gniazdka?",
+        answer: "Tak, pod warunkiem że inteligentne gniazdko wytrzymuje większą moc niż urządzenie – znajdziesz ją w watach na jego tabliczce znamionowej. Urządzenia o dużym poborze mocy, takie jak czajniki czy frytkownice beztłuszczowe, często wymagają gniazdka 16 A. Nie zostawiaj urządzenia grzewczego bez nadzoru, nawet jeśli możesz sterować nim zdalnie.",
       },
       {
         question: "Multicooker czy wolnowar: co wybrać?",
-        answer: "Multicooker jest bardziej uniwersalny: zwykle łączy gotowanie pod ciśnieniem, powolne duszenie, smażenie i gotowanie na parze w jednym naczyniu, a wolnowar potrafi tylko gotować powoli. Jeśli gotujesz szybko i różnorodnie, wybierz multicooker; jeśli zależy Ci wyłącznie na daniach duszonych, wystarczy wolnowar, który kosztuje mniej.",
+        answer: "Multicooker jest bardziej uniwersalny: zwykle łączy w jednym naczyniu gotowanie pod ciśnieniem, powolne duszenie, podsmażanie i gotowanie na parze, a wolnowar potrafi tylko gotować powoli. Jeśli gotujesz szybko i różnorodnie, wybierz multicooker; jeśli interesują Cię wyłącznie dania duszone, wystarczy wolnowar, który jest tańszy.",
+      },
+    ],
+    sv: [
+      {
+        question: "Drar en airfryer mindre el än en ugn?",
+        answer: "Ja, för små och mellanstora portioner drar en airfryer oftast mindre el än en vanlig ugn, eftersom det lilla utrymmet värms upp snabbt och knappt behöver förvärmas. Ska du laga stora mängder eller en skrymmande rätt är ugnen fortfarande bättre. Kontrollera effekten i watt i produktbladet och jämför den med den faktiska tillagningstiden.",
+      },
+      {
+        question: "Hur stor airfryer behöver en familj?",
+        answer: "Räkna med ungefär 3–4 liter för en eller två personer och 5–6 liter för en familj på tre eller fyra. Är familjen större än så kan du välja en modell med två lådor och laga två saker samtidigt. En för liten korg tvingar dig att laga maten i flera omgångar, och då går vinsten i tid och energi förlorad.",
+      },
+      {
+        question: "Behöver smarta köksapparater wifi för att fungera?",
+        answer: "Nej, de flesta smarta köksapparater går också att använda för hand. Wifi ger framför allt guidade recept, notiser och uppdateringar av programvaran. Kontrollera före köpet vilka funktioner som fungerar utan internet och läs appens integritetspolicy, eftersom uppgifterna som skickas omfattas av GDPR.",
+      },
+      {
+        question: "Kan jag koppla en köksapparat till en smart plugg?",
+        answer: "Ja, så länge den smarta pluggen klarar en högre effekt än apparaten drar. Effekten står i watt på apparatens typskylt. Apparater som drar mycket, som vattenkokare och airfryrar, kräver ofta en plugg för 16 A. Undvik att låta en apparat som blir varm stå på utan uppsikt, även om du kan styra den på distans.",
+      },
+      {
+        question: "Multikokare eller slowcooker: vilken ska jag välja?",
+        answer: "Multikokaren är mer mångsidig: den kombinerar oftast tryckkokning, långkok, stekning och ångkokning i ett och samma kärl, medan slowcookern bara långkokar. Vill du laga snabb och varierad mat är multikokaren rätt val. Vill du bara laga grytor räcker en slowcooker, och den kostar mindre.",
+      },
+    ],
+    us: [
+      {
+        question: "Does an air fryer use less electricity than an oven?",
+        answer: "Yes. For small and medium portions, an air fryer usually uses less electricity than a full-size oven, because its compact chamber heats up fast and needs little preheating. For big batches or large dishes, the oven is still the better tool. Check the wattage on the spec sheet and weigh it against the actual cooking time.",
+      },
+      {
+        question: "What size air fryer do I need for a family?",
+        answer: "Plan on roughly 3 to 4 quarts for one or two people and 5 to 6 quarts for a family of three or four. Beyond that, a dual-basket model lets you cook two foods at once. A basket that's too small means cooking in batches, which wipes out the time and energy savings.",
+      },
+      {
+        question: "Do smart kitchen appliances need Wi-Fi to work?",
+        answer: "No. Most smart kitchen appliances can also be run from the controls on the unit; Wi-Fi mainly adds guided recipes, notifications and firmware updates. Before you buy, check which features still work offline, and read the app's privacy policy to see what data it collects and how that data is used.",
+      },
+      {
+        question: "Can I plug a kitchen appliance into a smart plug?",
+        answer: "Yes, as long as the smart plug is rated for more power than the appliance draws (the wattage is printed on its label). High-draw appliances such as electric kettles and air fryers often need a smart plug rated for the full 15 A (1,800 W) of a standard 120 V outlet, so compare the plug's maximum load with the appliance's wattage. Don't leave a heating appliance running unattended, even if you can control it remotely.",
+      },
+      {
+        question: "Multicooker or slow cooker: which should I buy?",
+        answer: "A multicooker is more versatile: it typically combines pressure cooking, slow cooking, sautéing and steaming in one pot, while a slow cooker only cooks low and slow over several hours. Get a multicooker if you want fast, varied meals, and a slow cooker if slow-simmered dishes are all you need and you'd rather spend less.",
+      },
+    ],
+    ca: [
+      {
+        question: "Does an air fryer use less electricity than an oven?",
+        answer: "Yes, for small and medium portions an air fryer usually uses less electricity than a conventional oven, because its compact chamber heats up quickly and needs little preheating. For large batches or big dishes, the oven is still the better tool. Check the wattage on the spec sheet and compare it with the actual cooking time.",
+      },
+      {
+        question: "What size air fryer do I need for a family?",
+        answer: "Aim for roughly 3 to 4 litres (about 3 to 4 quarts) for one or two people and 5 to 6 litres (about 5 to 6 quarts) for a family of three or four. Beyond that, a dual-basket model lets you cook two foods at once. A basket that's too small forces you to cook in batches, which cancels out the time and energy savings.",
+      },
+      {
+        question: "Do smart kitchen appliances need Wi-Fi to work?",
+        answer: "No, most smart kitchen appliances can also be run manually; Wi-Fi mainly adds guided recipes, notifications and firmware updates. Before you buy, check which functions still work offline and read the app's privacy policy to see what data it collects.",
+      },
+      {
+        question: "Can I plug a kitchen appliance into a smart plug?",
+        answer: "Yes, as long as the smart plug is rated for more power than the appliance draws, which is printed in watts on its label. High-draw items such as kettles and air fryers often need a plug rated for the full 15 A (1,800 W) that a standard 120 V outlet provides. Avoid leaving a heating appliance running unattended, even when you control it remotely.",
+      },
+      {
+        question: "Multicooker or slow cooker: which should I buy?",
+        answer: "A multicooker is more versatile: it typically combines pressure cooking, slow cooking, sautéing and steaming in one pot, whereas a slow cooker only cooks gently over several hours. Choose a multicooker if you want fast and varied meals, and a slow cooker if stews are all you need and you want to spend less.",
       },
     ],
   },
@@ -124,24 +190,90 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     ],
     pl: [
       {
-        question: "Czy potrzebny jest hub do urządzeń zgodnych z Matter?",
-        answer: "Nie zawsze: urządzenie Matter działające przez Wi-Fi współpracuje ze zgodnym kontrolerem, takim jak HomePod, głośnik Google lub Alexa. Urządzenia Matter w technologii Thread wymagają routera granicznego Thread, często wbudowanego w te same głośniki. Sprawdź zgodność swojego ekosystemu, zanim kupisz osobny hub.",
+        question: "Czy do urządzeń zgodnych z Matter potrzebny jest hub?",
+        answer: "Nie zawsze: urządzenie Matter działające przez Wi-Fi współpracuje ze zgodnym kontrolerem, takim jak HomePod, głośnik Google czy głośnik z Alexą. Urządzenia Matter korzystające z Thread wymagają natomiast routera brzegowego Thread, który często jest wbudowany w te same głośniki. Zanim kupisz osobny hub, sprawdź zgodność swojego ekosystemu.",
       },
       {
         question: "Czy inteligentny termostat naprawdę pozwala oszczędzać na ogrzewaniu?",
-        answer: "Tak, może zmniejszyć zużycie, programując temperaturę według Twojego rozkładu dnia i wyłączając ogrzewanie pod Twoją nieobecność, ale oszczędność zależy od izolacji mieszkania i Twoich nawyków. Sprawdź zgodność z kotłem lub grzejnikami i wybierz model, który potrafi sterować każdym pomieszczeniem osobno.",
+        answer: "Tak, może zmniejszyć zużycie, bo ustawia temperaturę zgodnie z Twoim planem dnia i wyłącza ogrzewanie, gdy nie ma Cię w domu, ale oszczędność zależy od izolacji budynku i Twoich nawyków. Sprawdź zgodność z kotłem lub grzejnikami i wybierz model, który pozwala sterować każdym pomieszczeniem osobno.",
       },
       {
-        question: "Czy zestawy fotowoltaiczne na balkon są dozwolone w Europie?",
-        answer: "W wielu krajach europejskich tak, w granicach mocy, które różnią się w zależności od kraju; w Niemczech na przykład typowy limit to 800 W po stronie falownika. Sprawdź lokalne przepisy, ewentualne obowiązki zgłoszenia do operatora sieci oraz to, czy falownik ma certyfikat zgodny z normami europejskimi.",
+        question: "Czy elektrownie balkonowe są dozwolone w Europie?",
+        answer: "W wielu krajach europejskich tak, choć dopuszczalna moc różni się w zależności od kraju; w Niemczech na przykład typowy limit wynosi 800 W po stronie falownika. Sprawdź lokalne przepisy, ewentualny obowiązek zgłoszenia instalacji operatorowi sieci oraz to, czy falownik ma certyfikat zgodności z normami europejskimi.",
       },
       {
-        question: "Jak sprawdzić, które urządzenia w moim domu zużywają najwięcej prądu?",
-        answer: "Podłącz podejrzane urządzenia do inteligentnej wtyczki z pomiarem zużycia, która pokazuje waty w czasie rzeczywistym i skumulowane kilowatogodziny. Aby zobaczyć cały dom, licznik energii z cęgami zamontowany w rozdzielnicy mierzy pobór całego budynku. Wybierz wtyczkę w standardzie europejskim o maksymalnej mocy dopasowanej do urządzenia.",
+        question: "Jak sprawdzić, które urządzenia w domu zużywają najwięcej prądu?",
+        answer: "Podłącz podejrzane urządzenia do inteligentnego gniazdka z pomiarem zużycia energii, które pokazuje bieżący pobór w watach i łączne zużycie w kilowatogodzinach. Całe mieszkanie lub dom obejmie miernik zużycia energii z cęgami zamontowany w rozdzielnicy. Wybierz gniazdko w standardzie europejskim, o maksymalnym obciążeniu dopasowanym do urządzenia.",
       },
       {
-        question: "Czy domowy magazyn energii ma sens z panelami fotowoltaicznymi na balkon?",
-        answer: "Ma sens głównie wtedy, gdy Twoja produkcja przekracza zużycie w ciągu dnia, a więcej energii zużywasz wieczorem. Bez regularnej nadwyżki magazyn jest mało wykorzystywany. Porównaj jego pojemność w kWh ze swoim wieczornym zużyciem i przed zakupem sprawdź zgodność z falownikiem.",
+        question: "Czy domowy magazyn energii ma sens przy elektrowni balkonowej?",
+        answer: "Przydaje się głównie wtedy, gdy w ciągu dnia produkujesz więcej energii, niż zużywasz, a więcej prądu potrzebujesz wieczorem. Bez regularnych nadwyżek magazyn będzie rzadko wykorzystywany. Przed zakupem porównaj jego pojemność w kWh ze swoim wieczornym zużyciem i sprawdź zgodność z falownikiem.",
+      },
+    ],
+    sv: [
+      {
+        question: "Behöver jag en hubb för Matter-enheter?",
+        answer: "Inte alltid. En Matter-enhet som använder wifi fungerar med en kompatibel styrenhet, till exempel en HomePod eller en smart högtalare med Google eller Alexa. Matter-enheter som använder Thread behöver dessutom en Thread Border Router (gränsrouter för Thread), och den finns ofta redan inbyggd i samma högtalare. Kontrollera vad ditt ekosystem har stöd för innan du köper en separat hubb.",
+      },
+      {
+        question: "Sparar en smart termostat verkligen pengar på uppvärmningen?",
+        answer: "Ja, den kan minska förbrukningen genom att schemalägga temperaturen efter dina tider och sänka värmen när du inte är hemma, men hur mycket du sparar beror på hur välisolerad bostaden är och på dina vanor. Kontrollera att termostaten fungerar med din värmepanna eller dina element, och välj en modell som kan styra värmen rum för rum.",
+      },
+      {
+        question: "Är solcellskit för balkongen tillåtna i Europa?",
+        answer: "Ja, i många europeiska länder, inom effektgränser som skiljer sig åt mellan länderna. I Tyskland är den vanliga gränsen till exempel 800 W på växelriktarsidan. Kontrollera vilka regler som gäller där du bor, om anläggningen måste anmälas till elnätsbolaget och att växelriktaren är certifierad enligt europeiska standarder.",
+      },
+      {
+        question: "Hur ser jag vilka apparater som drar mest el hemma?",
+        answer: "Koppla in de apparater du misstänker i en smart plugg med energimätning. Den visar effekten i watt i realtid och den sammanlagda förbrukningen i kilowattimmar. Vill du se helheten mäter en energimätare med strömtänger i elcentralen förbrukningen i hela huset. Välj en plugg med EU-kontakt och en maxbelastning som passar apparaten.",
+      },
+      {
+        question: "Lönar sig ett hembatteri till balkongsolceller?",
+        answer: "Framför allt om panelerna producerar mer el än du använder under dagen och du förbrukar mer på kvällen. Utan regelbunden överskottsel kommer batteriet knappt till användning. Jämför batteriets kapacitet i kWh med din kvällsförbrukning och kontrollera att det fungerar med din växelriktare innan du köper.",
+      },
+    ],
+    us: [
+      {
+        question: "Do I need a hub for Matter devices?",
+        answer: "Not always. A Wi-Fi Matter device works with a compatible controller, such as a HomePod or a Google or Alexa smart speaker. Matter devices that run on Thread also need a Thread border router, which is often built into those same speakers. Check what your ecosystem supports before you buy a dedicated hub.",
+      },
+      {
+        question: "Does a smart thermostat really save money on heating?",
+        answer: "Yes, it can cut energy use by scheduling temperatures around your routine and turning the heat down when you're out, but the savings depend on your home's insulation and your habits. Check that it's compatible with your heating system, whether that's a boiler, radiators or a furnace, and choose a model that can control rooms individually.",
+      },
+      {
+        question: "Is plug-in balcony solar allowed where I live?",
+        answer: "In many European countries, yes, within power limits that vary by country (in Germany, for example, the common limit is 800 W on the inverter side), and you may have to notify the grid operator. In the US, rules for plug-in solar vary by state and utility, so check with your utility before you connect a kit. Either way, make sure the inverter is certified for your market: European standards in Europe, a UL or ETL listing mark in the US.",
+      },
+      {
+        question: "How can I find out which appliances use the most electricity at home?",
+        answer: "Plug the suspects into a smart plug with energy monitoring, which shows live watts and cumulative kilowatt-hours. For a whole-home view, a home energy monitor with CT clamps installed in your electrical panel (a job for a licensed electrician) measures the entire house. Choose a plug that fits your outlets and is rated for the appliance's maximum load.",
+      },
+      {
+        question: "Is a home battery worth it with balcony solar panels?",
+        answer: "It's mainly worth it if your panels produce more than you use during the day and you use more power in the evening. Without a regular surplus, the battery sits mostly idle. Compare its capacity in kWh with your evening usage, and check that it works with your inverter before you buy.",
+      },
+    ],
+    ca: [
+      {
+        question: "Do I need a hub for Matter devices?",
+        answer: "Not always: a Wi-Fi Matter device works with a compatible controller such as a HomePod, a Google speaker or an Alexa speaker. Matter devices that use Thread additionally need a Thread border router, which is often built into those same speakers. Check your ecosystem's compatibility before buying a dedicated hub.",
+      },
+      {
+        question: "Does a smart thermostat really save money on heating?",
+        answer: "Yes, it can cut consumption by scheduling temperatures around your routine and turning the heat down when you're out, but the savings depend on your home's insulation and your habits. Check that it's compatible with your heating system, whether that's a furnace, a heat pump, a boiler or electric heaters, and choose a model that can control rooms individually.",
+      },
+      {
+        question: "Are plug-in balcony solar kits legal?",
+        answer: "It depends on where you live. Many European countries allow them within power limits that vary by country; in Germany, for example, the common limit is 800 W on the inverter side. Elsewhere, rules for plug-in solar differ by country and utility, so check with your utility and your provincial electrical safety authority before connecting anything, and look for an inverter with a recognized certification mark such as CSA, cUL or cETL.",
+      },
+      {
+        question: "How can I find out which appliances use the most electricity at home?",
+        answer: "Plug suspect appliances into a smart plug with energy monitoring, which shows live watts and cumulative kilowatt-hours. For a whole-home view, a clamp-style energy monitor installed in your electrical panel measures the entire house; when in doubt, have a licensed electrician install it. Choose a plug whose maximum load suits the appliance.",
+      },
+      {
+        question: "Is a home battery worth it with balcony solar panels?",
+        answer: "It is mainly worthwhile if your panels produce more than you use during the day and you consume more in the evening. Without a regular surplus, the battery is barely used. Compare its capacity in kWh with your evening consumption and check inverter compatibility before buying.",
       },
     ],
   },
@@ -190,24 +322,90 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     ],
     pl: [
       {
-        question: "Która kamera monitoringu działa bez abonamentu?",
-        answer: "Kamery nagrywające lokalnie, na karcie microSD, rejestratorze lub domowej stacji bazowej, działają bez abonamentu. Przechowywanie w chmurze jest zwykle płatne lub ograniczone. Sprawdź też, czy kamera obsługuje otwarte protokoły, takie jak ONVIF lub RTSP, i wybieraj lokalny zapis, aby lepiej kontrolować swoje dane w świetle RODO.",
+        question: "Jaka kamera monitoringu działa bez abonamentu?",
+        answer: "Bez abonamentu działają kamery, które nagrywają lokalnie: na kartę microSD, na rejestrator albo do domowej stacji bazowej. Zapis w chmurze jest zwykle płatny lub ograniczony. Sprawdź też, czy kamera obsługuje otwarte protokoły, takie jak ONVIF lub RTSP, i stawiaj na zapis lokalny – łatwiej wtedy kontrolować swoje dane, co ma znaczenie także z punktu widzenia RODO.",
       },
       {
         question: "Czy wolno filmować kamerą otoczenie własnego domu?",
-        answer: "Co do zasady kamera powinna obejmować wyłącznie Twoją posesję, bez kadrowania drogi publicznej i sąsiadów, ponieważ RODO i przepisy krajowe regulują rejestrowanie obrazu. Szczegółowe zasady różnią się w zależności od kraju: zasięgnij informacji w lokalnym organie ochrony danych i odpowiednio ustaw kąt kamery.",
+        answer: "Co do zasady kamera powinna obejmować wyłącznie Twoją posesję, bez drogi publicznej i terenu sąsiadów, bo rejestrowanie obrazu regulują RODO i przepisy krajowe. Szczegółowe zasady różnią się w zależności od kraju: dowiedz się, co mówi na ten temat krajowy urząd ochrony danych osobowych, i odpowiednio ustaw kąt kamery.",
       },
       {
-        question: "Czy inteligentny zamek jest bezpieczny i co się stanie, gdy bateria się rozładuje?",
-        answer: "Dobry inteligentny zamek ostrzega na długo przed rozładowaniem baterii i zachowuje klucz mechaniczny lub awaryjny kod do otwarcia drzwi. Sprawdź, czy pasuje do Twojej europejskiej wkładki, czy działa przez Bluetooth także bez Wi-Fi i czy komunikacja jest szyfrowana.",
+        question: "Czy inteligentny zamek jest bezpieczny i co się stanie, gdy rozładuje się bateria?",
+        answer: "Porządny inteligentny zamek ostrzega o rozładowaniu baterii z dużym wyprzedzeniem i pozwala otworzyć drzwi zwykłym kluczem lub kodem awaryjnym. Sprawdź, czy pasuje do Twojej wkładki europejskiej, czy działa przez Bluetooth także bez Wi-Fi i czy komunikacja jest szyfrowana.",
       },
       {
-        question: "Czy do inteligentnego alarmu potrzebny jest monitoring całodobowy?",
-        answer: "Nie, monitoring przez profesjonalne centrum jest opcjonalny: inteligentny alarm może wysyłać powiadomienia na telefon i uruchamiać syrenę bez abonamentu. Monitoring dodaje reakcję człowieka, ale wiąże się z miesięcznym kosztem. Wybierz zależnie od tego, czy możesz sam reagować na alerty.",
+        question: "Czy do inteligentnego alarmu potrzebny jest monitoring agencji ochrony?",
+        answer: "Nie, monitoring prowadzony przez agencję ochrony jest opcjonalny: inteligentny alarm może wysyłać powiadomienia na telefon i włączać syrenę bez abonamentu. Monitoring zapewnia reakcję człowieka, ale wiąże się z comiesięczną opłatą. Wybierz rozwiązanie zależnie od tego, czy jesteś w stanie samodzielnie reagować na alarmy.",
       },
       {
-        question: "Gdzie zainstalować czujnik dymu i tlenku węgla?",
-        answer: "Zamontuj czujnik dymu na korytarzach prowadzących do sypialni i po jednym na każdym piętrze, a czujnik czadu w pobliżu urządzeń spalających paliwo i sypialni. Wybieraj modele zgodne z normami EN 14604 dla dymu i EN 50291 dla CO oraz takie, które można ze sobą połączyć, aby wszystkie alarmy dzwoniły jednocześnie.",
+        question: "Gdzie zamontować czujnik dymu i czujnik czadu?",
+        answer: "Czujniki dymu montuj na korytarzach prowadzących do sypialni i po jednym na każdym piętrze, a czujnik czadu – w pobliżu urządzeń, w których spala się paliwo, oraz przy sypialniach. Wybieraj modele zgodne z normą EN 14604 (dym) i EN 50291 (czad), które można połączyć ze sobą, tak by w razie zagrożenia wszystkie alarmowały jednocześnie.",
+      },
+    ],
+    sv: [
+      {
+        question: "Vilken övervakningskamera fungerar utan abonnemang?",
+        answer: "Kameror som spelar in lokalt, på ett microSD-kort eller till en inspelare eller basstation i hemmet, fungerar utan abonnemang. Molnlagring kostar däremot oftast pengar eller är begränsad. Kontrollera också att kameran har stöd för öppna protokoll som ONVIF eller RTSP, och välj hellre lokal lagring: då har du bättre kontroll över dina uppgifter enligt GDPR.",
+      },
+      {
+        question: "Får jag filma utanför mitt hem med en övervakningskamera?",
+        answer: "Som huvudregel ska en kamera bara filma din egen tomt, inte allmän väg eller grannarna, eftersom GDPR och nationella lagar reglerar kamerabevakning. De exakta reglerna skiljer sig mellan länder, så hör efter med dataskyddsmyndigheten i ditt land och rikta kameran därefter.",
+      },
+      {
+        question: "Är ett smart lås säkert, och vad händer om batteriet tar slut?",
+        answer: "Ett bra smart lås varnar i god tid innan batterierna tar slut och har kvar en vanlig nyckel eller en reservkod, så att du ändå kan öppna dörren. Kontrollera att låset passar låscylindern i din dörr, att det fungerar via Bluetooth även utan wifi och att kommunikationen är krypterad.",
+      },
+      {
+        question: "Måste ett smart larm vara kopplat till en larmcentral?",
+        answer: "Nej, en larmcentral är ett tillval. Ett smart larm kan skicka notiser till mobilen och starta en siren utan abonnemang. Med en larmcentral får du en människa som reagerar på larmet, men det kostar en månadsavgift. Välj utifrån om du själv har möjlighet att reagera när det larmar.",
+      },
+      {
+        question: "Var ska jag sätta upp brandvarnare och koloxidvarnare?",
+        answer: "Sätt en brandvarnare i hallar och korridorer som leder till sovrummen och en på varje våningsplan, och en koloxidvarnare nära eldstäder och andra förbränningsapparater samt nära sovrummen. Välj modeller som uppfyller EN 14604 för brandvarnare och EN 50291 för koloxidvarnare, och som går att koppla ihop så att alla larmar samtidigt.",
+      },
+    ],
+    us: [
+      {
+        question: "Which security cameras work without a subscription?",
+        answer: "Cameras that record locally, to a microSD card or to a home hub or recorder, work without a subscription, while cloud storage usually costs extra or comes with limits. Also look for support for open protocols such as ONVIF or RTSP, and favor local storage to keep tighter control over your footage and data.",
+      },
+      {
+        question: "Can I legally film outside my home with a security camera?",
+        answer: "In Europe, the general rule is that a camera should cover only your own property, not the public street or your neighbors, because the GDPR and national laws regulate recording. Rules are different elsewhere, so check the laws where you live and angle the camera to respect your neighbors' privacy.",
+      },
+      {
+        question: "Is a smart lock safe, and what happens if the battery dies?",
+        answer: "A well-made smart lock warns you long before the batteries run out and keeps a physical key or backup code so you can still open the door. Check that it fits your door (many European models are built for euro-profile cylinders, while most US exterior doors use a deadbolt), that it works over Bluetooth even without Wi-Fi, and that it encrypts its communications.",
+      },
+      {
+        question: "Do I need professional monitoring for a smart security system?",
+        answer: "No, professional monitoring is optional: a smart security system can send alerts to your phone and sound a siren with no subscription. Monitoring adds a human response from a monitoring center, but at a monthly cost. Decide based on whether you can realistically respond to alerts yourself.",
+      },
+      {
+        question: "Where should I install smoke and carbon monoxide detectors?",
+        answer: "Put a smoke detector in the hallways leading to bedrooms and on every floor, and a CO detector near fuel-burning appliances and bedrooms. Models sold in Europe are certified to EN 14604 for smoke and EN 50291 for carbon monoxide; in the US, smoke alarms are listed to UL 217 and CO alarms to UL 2034, so check the listing of the version sold in your country. Choose interconnected models so every alarm sounds at once.",
+      },
+    ],
+    ca: [
+      {
+        question: "Which home security camera works without a subscription?",
+        answer: "Cameras that record locally, to a microSD card or a home hub or recorder, work without a subscription, while cloud storage is usually paid or limited. Also check for open protocols such as ONVIF or RTSP, and favour local storage to keep better control of your data.",
+      },
+      {
+        question: "Can I legally film outside my home with a security camera?",
+        answer: "As a general rule, a camera should only cover your own property, not the street, the sidewalk or your neighbours' homes, because privacy laws limit recording other people. The exact rules depend on where you live, so check the privacy rules that apply in your area and angle the camera accordingly.",
+      },
+      {
+        question: "Is a smart lock safe, and what happens if the battery dies?",
+        answer: "A well-made smart lock warns you long before the batteries run out and keeps a mechanical key or backup code so you can still open the door. Check that it fits your door: most Canadian exterior doors use a deadbolt, while many European models are built for euro cylinders. Also make sure it works over Bluetooth even without Wi-Fi and encrypts its communications.",
+      },
+      {
+        question: "Do I need professional monitoring for a smart alarm?",
+        answer: "No, professional monitoring is optional: a smart alarm can send phone notifications and sound a siren without any subscription. Monitoring adds a human response from a monitoring centre, but at a monthly cost. Choose based on whether you can realistically react to alerts yourself.",
+      },
+      {
+        question: "Where should I install smoke and carbon monoxide detectors?",
+        answer: "Install a smoke detector on every floor, including the basement, and in hallways leading to bedrooms, plus a CO detector near bedrooms and fuel-burning appliances such as a furnace or water heater. Look for a ULC or CSA mark (European models are certified to EN 14604 for smoke and EN 50291 for CO instead), and choose interconnected alarms so they all sound at once. Requirements vary, so check the rules in your province or territory.",
       },
     ],
   },
@@ -257,23 +455,89 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     pl: [
       {
         question: "Czy osuszacz powietrza zużywa dużo prądu?",
-        answer: "Nie, osuszacz ze sprężarką zwykle pobiera 200–400 W, czyli około 0,2–0,4 kWh na godzinę pracy. Nie pracuje bez przerwy, jeśli higrostat jest ustawiony na 50–55%. Porównaj waty, litry wody usuwane na dobę i obecność automatycznego wyłącznika; modele adsorpcyjne zużywają więcej.",
+        answer: "Nie, osuszacz kondensacyjny (ze sprężarką) pobiera zwykle 200–400 W, czyli około 0,2–0,4 kWh na godzinę pracy. Nie pracuje bez przerwy, jeśli higrostat jest ustawiony na 50–55%. Porównaj moc w watach, wydajność w litrach na dobę i to, czy urządzenie ma automatyczne wyłączanie; modele adsorpcyjne zużywają więcej prądu.",
       },
       {
-        question: "Jaka wilgotność jest idealna w domu?",
-        answer: "Wilgotność 40–60% jest zwykle uznawana za komfortową i zdrową w mieszkaniu. Poniżej tego poziomu powietrze podrażnia drogi oddechowe, powyżej rozwijają się pleśń i roztocza. Higrometr lub inteligentna stacja pogodowa pozwala śledzić wartość w każdym pomieszczeniu i uruchamiać nawilżacz lub osuszacz powietrza.",
+        question: "Jaka wilgotność powietrza jest idealna w domu?",
+        answer: "Za komfortową i zdrową w mieszkaniu uznaje się zwykle wilgotność 40–60%. Gdy jest niższa, suche powietrze podrażnia drogi oddechowe; gdy wyższa – rozwijają się pleśń i roztocza. Higrometr lub inteligentna stacja pogodowa pozwala śledzić wilgotność w każdym pomieszczeniu i w razie potrzeby uruchamiać nawilżacz lub osuszacz.",
       },
       {
         question: "Czy oczyszczacz powietrza jest skuteczny przy alergii?",
-        answer: "Tak, oczyszczacz z filtrem HEPA zmniejsza ilość pyłków, sierści zwierząt i części unoszącego się kurzu. Nie zastępuje wietrzenia ani sprzątania. Sprawdź klasę filtra (H13 lub wyższą), wydajność oczyszczania powietrza (CADR) dopasowaną do pomieszczenia oraz koszt wymiany filtrów.",
+        answer: "Tak, oczyszczacz z filtrem HEPA zmniejsza ilość pyłków, sierści zwierząt i części kurzu unoszącego się w powietrzu. Nie zastąpi jednak wietrzenia ani sprzątania. Sprawdź klasę filtra (H13 lub wyższa), wydajność oczyszczania (CADR) dopasowaną do pomieszczenia i koszt wymiany filtrów.",
       },
       {
-        question: "Jaką moc oczyszczacza powietrza wybrać do mojego pokoju?",
-        answer: "Wybierz oczyszczacz, którego wydajność (CADR, w m³/h) odpowiada powierzchni pomieszczenia; powszechna reguła to CADR co najmniej równy dwóm trzecim powierzchni w m² przy standardowej wysokości sufitu. Przy alergiach celuj wyżej. Sprawdź też poziom hałasu w trybie nocnym.",
+        question: "Jaką wydajność oczyszczacza powietrza wybrać do pokoju?",
+        answer: "Wybierz oczyszczacz, którego wydajność (CADR, w m³/h) odpowiada powierzchni pomieszczenia; popularna reguła mówi, że CADR powinien wynosić co najmniej dwie trzecie powierzchni w m² przy standardowej wysokości sufitu. Alergicy powinni celować wyżej. Sprawdź też głośność w trybie nocnym.",
       },
       {
-        question: "Czy klimatyzator przenośny jest skuteczny i ekonomiczny?",
-        answer: "Klimatyzator przenośny schładza pomieszczenie bez montażu, ale jest mniej wydajny niż stały split, zwłaszcza modele jednowężowe, które zasysają powietrze z pomieszczenia. Zajrzyj do europejskiej etykiety energetycznej: liczą się klasa i moc chłodnicza. Model dwuwężowy, dobrze uszczelnione okno i programator ograniczają zużycie.",
+        question: "Czy klimatyzator przenośny jest wydajny i tani w eksploatacji?",
+        answer: "Klimatyzator przenośny schłodzi pomieszczenie bez żadnych prac montażowych, ale jest mniej wydajny niż klimatyzator typu split, zwłaszcza w wersji jednowężowej, która zasysa powietrze z pokoju. Zajrzyj na europejską etykietę energetyczną: liczą się klasa energetyczna i moc chłodnicza. Model dwuwężowy, dobre uszczelnienie okna i programator ograniczają zużycie prądu.",
+      },
+    ],
+    sv: [
+      {
+        question: "Drar en avfuktare mycket el?",
+        answer: "Nej, en kompressoravfuktare drar oftast 200–400 W, alltså ungefär 0,2–0,4 kWh per timme den är i gång. Den går inte oavbrutet om hygrostaten är inställd på 50–55 %. Jämför effekten, hur många liter vatten den tar upp per dygn och om den stängs av automatiskt. Sorptionsavfuktare drar mer el.",
+      },
+      {
+        question: "Vilken luftfuktighet är bäst inomhus?",
+        answer: "En relativ luftfuktighet på 40–60 % brukar anses behaglig och sund i en bostad. Är den lägre irriterar luften luftvägarna. Är den högre trivs mögel och kvalster. Med en hygrometer eller en smart väderstation kan du följa värdet rum för rum och starta en luftfuktare eller en avfuktare automatiskt.",
+      },
+      {
+        question: "Hjälper en luftrenare mot allergier?",
+        answer: "Ja, en luftrenare med äkta HEPA-filter minskar mängden pollen, djurhår och en del av dammet i luften. Den ersätter däremot varken vädring eller städning. Kontrollera filterklassen (H13 eller högre), att CADR-värdet (mängden renad luft) passar rummet och vad nya filter kostar.",
+      },
+      {
+        question: "Hur stor luftrenare behöver jag till mitt rum?",
+        answer: "Välj en luftrenare vars CADR-värde (mängden renad luft i m³/h) motsvarar rummets storlek. En vanlig tumregel är ett CADR på minst två tredjedelar av golvytan i m² vid normal takhöjd. Har du allergi bör du sikta högre. Kontrollera också ljudnivån i nattläget.",
+      },
+      {
+        question: "Är en portabel AC effektiv och snål?",
+        answer: "En portabel AC kyler ett rum utan installation, men den är mindre effektiv än en fast split-AC, särskilt modeller med en enda slang, som blåser ut rumsluften. Titta på EU:s energimärkning: energiklassen och kyleffekten spelar roll. En modell med två slangar, ett väl tätat fönster och en timer håller nere förbrukningen.",
+      },
+    ],
+    us: [
+      {
+        question: "Does a dehumidifier use a lot of electricity?",
+        answer: "No. A compressor dehumidifier typically draws 200 to 400 W, or roughly 0.2 to 0.4 kWh per hour of running. It cycles off once the humidistat hits its target, usually 50% to 55%. Compare wattage, pints removed per day and whether it has auto shut-off; desiccant models generally use more power.",
+      },
+      {
+        question: "What's the ideal humidity level indoors?",
+        answer: "Indoor relative humidity of 40% to 60% is generally considered comfortable and healthy. Below that, dry air irritates your airways; above it, mold and dust mites thrive. A hygrometer or smart weather station lets you track each room and switch on a humidifier or dehumidifier automatically.",
+      },
+      {
+        question: "Do air purifiers really help with allergies?",
+        answer: "Yes. A purifier with a true HEPA filter cuts down on pollen, pet dander and some airborne dust. It's no substitute for ventilation or cleaning, though. Check the filter grade (H13 or higher), a clean air delivery rate (CADR) suited to the room, and the ongoing cost of replacement filters.",
+      },
+      {
+        question: "What size air purifier do I need for my room?",
+        answer: "Pick a purifier whose clean air delivery rate (CADR) matches your room. A common rule of thumb is a CADR, in CFM, of at least two-thirds of the room's square footage, assuming standard 8-foot ceilings. Aim higher for allergies, and check the noise level in night mode too.",
+      },
+      {
+        question: "Are portable air conditioners efficient?",
+        answer: "A portable air conditioner cools a room with no installation, but it's less efficient than a ductless mini-split, especially a single-hose model, which pushes air it has already cooled out the window. Compare the efficiency rating and cooling capacity on the energy label (the EU energy label on models sold in Europe). A dual-hose design, a well-sealed window kit and a timer all cut energy use.",
+      },
+    ],
+    ca: [
+      {
+        question: "Does a dehumidifier use a lot of electricity?",
+        answer: "No, a compressor dehumidifier typically draws 200 to 400 W, roughly 0.2 to 0.4 kWh per hour of running. At an example rate of 10¢ per kWh, that's 2¢ to 4¢ an hour; your rate depends on your province and utility, so check your bill. It cycles off once the humidistat reaches its target, usually 50% to 55%. Compare wattage, litres removed per day and whether it has auto shut-off; desiccant models generally use more power.",
+      },
+      {
+        question: "What humidity level is ideal indoors?",
+        answer: "An indoor relative humidity of 40% to 60% is generally considered comfortable and healthy. Below that, dry air irritates your airways; above it, mould and dust mites thrive. Heated homes often drop below 40% in a cold winter. A hygrometer or smart weather station lets you track each room and trigger a humidifier or dehumidifier automatically.",
+      },
+      {
+        question: "Do air purifiers really help with allergies?",
+        answer: "Yes, a purifier with a true HEPA filter reduces pollen, pet dander and some airborne dust. It does not replace ventilation or cleaning. Check the filter grade (H13 or higher), a clean air delivery rate (CADR) suited to the room, and the running cost of replacement filters.",
+      },
+      {
+        question: "What size air purifier do I need for my room?",
+        answer: "Pick a purifier whose clean air delivery rate (CADR, in m³/h) matches your room; a common rule of thumb is a CADR of at least two thirds of the floor area in m² for standard ceilings. Aim higher for allergies. Also check the noise level on night mode.",
+      },
+      {
+        question: "Are portable air conditioners efficient?",
+        answer: "Portable air conditioners cool a room without installation, but they're less efficient than a ductless mini-split, especially single-hose models that exhaust room air outdoors. Compare the cooling capacity and efficiency rating on the spec sheet (European listings show the EU energy class). A dual-hose design, a well-sealed window kit and a timer cut consumption.",
       },
     ],
   },
@@ -322,24 +586,90 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     ],
     pl: [
       {
-        question: "Czy robot odkurzający sprawdza się przy zwierzętach?",
-        answer: "Tak, robot odkurzający bardzo się przydaje przy psach i kotach, bo sprząta codziennie i ogranicza gromadzenie się sierści. Wybierz szczotkę odporną na plątanie, pojemnik o dużej pojemności i dobrą siłę ssania. Model ze stacją samoopróżniającą ogranicza obsługę; pamiętaj, by regularnie opróżniać lub czyścić szczotkę i filtr.",
+        question: "Czy robot sprzątający sprawdzi się, jeśli masz zwierzęta?",
+        answer: "Tak, przy psie lub kocie robot odkurzający bardzo się przydaje, bo sprząta codziennie i nie pozwala, by sierść się gromadziła. Wybierz model ze szczotką, na którą nie nawijają się włosy, z dużym pojemnikiem na kurz i dobrą siłą ssania. Stacja samoopróżniająca zmniejsza liczbę czynności przy obsłudze; mimo to pamiętaj o regularnym opróżnianiu lub czyszczeniu szczotki i filtra.",
       },
       {
         question: "Czy robot sprzątający z mopem naprawdę dobrze myje?",
-        answer: "Robot 2 w 1 dobrze utrzymuje twarde podłogi na co dzień, ale nie zastąpi ręcznego szorowania zaschniętych plam. Nowsze modele z obrotowym mopem lub stacją, która pierze i suszy nakładkę, radzą sobie lepiej. Sprawdź, czy robot unosi mopa na dywanach.",
+        answer: "Robot 2 w 1 dobrze dba o twarde podłogi na co dzień, ale nie zastąpi ręcznego mycia zaschniętych plam. Lepiej radzą sobie nowsze modele z obrotowymi mopami lub ze stacją, która pierze i suszy nakładki. Sprawdź, czy robot unosi mop na dywanach.",
       },
       {
-        question: "Czy robot odkurzający z kamerą jest bezpieczny dla prywatności?",
-        answer: "Robot z kamerą może szanować prywatność, jeśli obrazy nie opuszczają urządzenia albo kontrolujesz ich wysyłanie. Wybierz model z nawigacją LiDAR, bez kamery, lub taki, w którym kamerę można wyłączyć, oraz markę, która jasno opisuje przetwarzanie danych zgodnie z RODO. Zabezpiecz konto unikalnym hasłem.",
+        question: "Czy robot odkurzający z kamerą nie zagraża prywatności?",
+        answer: "Robot z kamerą nie musi naruszać prywatności, jeśli obraz nie opuszcza urządzenia albo masz kontrolę nad tym, co jest wysyłane. Wybierz model z nawigacją LiDAR bez kamery lub z kamerą, którą można wyłączyć, oraz markę, która jasno opisuje przetwarzanie danych zgodnie z RODO. Zabezpiecz konto unikalnym hasłem.",
       },
       {
-        question: "LiDAR czy kamera: jaką nawigację wybrać dla robota odkurzającego?",
-        answer: "LiDAR szybko mapuje i działa nawet w ciemności, więc to dobry wybór domyślny; kamera lepiej rozpoznaje niektóre przeszkody, jak kable czy skarpetki. Wiele modeli łączy obie technologie. Sprawdź możliwość tworzenia stref zakazanych i zapisywania map kilku pięter.",
+        question: "LiDAR czy kamera: jaką nawigację wybrać w robocie odkurzającym?",
+        answer: "LiDAR szybko tworzy mapę i działa nawet w ciemności, dlatego jest dobrym wyborem domyślnym; kamera lepiej rozpoznaje niektóre przeszkody, np. kable czy skarpetki. Wiele modeli łączy obie technologie. Sprawdź, czy robot pozwala wyznaczać strefy zakazane i zapisywać mapy kilku pięter.",
       },
       {
         question: "Czy robot do mycia okien jest bezpieczny i skuteczny?",
-        answer: "Tak, robot do mycia okien samodzielnie czyści gładką szybę, pod warunkiem że jest zabezpieczony linką i ma awaryjną baterię na wypadek przerwy w dostawie prądu. Gorzej nadaje się do bardzo brudnych szyb lub grubych ram. Sprawdź minimalny rozmiar szyby, przyczepność i wykrywanie krawędzi.",
+        answer: "Tak, robot do mycia okien samodzielnie umyje gładką szybę, pod warunkiem że jest przypięty linką asekuracyjną i ma akumulator awaryjny na wypadek zaniku zasilania. Gorzej radzi sobie z bardzo brudnymi szybami i grubymi ramami. Sprawdź minimalny rozmiar szyby, przyczepność i wykrywanie krawędzi.",
+      },
+    ],
+    sv: [
+      {
+        question: "Är en robotdammsugare värd pengarna om du har husdjur?",
+        answer: "Ja, med hund eller katt gör en robotdammsugare stor nytta, eftersom den kan köras varje dag och hindrar djurhåren från att samlas. Välj en trasselfri borste, en stor dammbehållare och bra sugkraft. En självtömmande station minskar hanteringen, men borste och filter behöver fortfarande rengöras regelbundet.",
+      },
+      {
+        question: "Gör en robotdammsugare med mopp verkligen rent?",
+        answer: "En 2-i-1-robot sköter det dagliga underhållet av hårda golv bra, men den ersätter inte skurning för hand när fläckarna har torkat in. Nyare modeller med roterande moppdukar, eller med en station som tvättar och torkar dukarna, gör ett bättre jobb. Kontrollera att roboten lyfter moppen när den kör över mattor.",
+      },
+      {
+        question: "Är en robotdammsugare med kamera säker för integriteten?",
+        answer: "En robot med kamera kan vara integritetssäker om bilderna stannar i apparaten eller om du själv bestämmer vad som laddas upp. Välj hellre en modell med LiDAR-navigering utan kamera, eller en där kameran går att stänga av, och ett märke som tydligt förklarar hur uppgifterna hanteras enligt GDPR. Skydda kontot med ett unikt lösenord.",
+      },
+      {
+        question: "LiDAR eller kamera: vilken navigering är bäst i en robotdammsugare?",
+        answer: "LiDAR kartlägger snabbt och fungerar även i mörker, vilket gör det till ett bra standardval. En kamera känner bättre igen vissa hinder, som sladdar och strumpor. Många modeller kombinerar båda. Kontrollera att du kan lägga in förbjudna zoner och spara kartor för flera våningar.",
+      },
+      {
+        question: "Är fönsterputsrobotar säkra och effektiva?",
+        answer: "Ja, en fönsterputsrobot rengör släta glasytor helt på egen hand, förutsatt att den är säkrad med en säkerhetslina och har ett reservbatteri om strömmen skulle gå. Den passar sämre för mycket smutsiga fönster eller tjocka karmar. Kontrollera minsta fönsterstorlek, hur bra den suger fast och om den känner av kanterna.",
+      },
+    ],
+    us: [
+      {
+        question: "Is a robot vacuum worth it if you have pets?",
+        answer: "Yes. A robot vacuum is very useful with dogs or cats because it runs every day and keeps pet hair from building up. Look for a tangle-free brush roll, a large dustbin and strong suction. A self-emptying dock cuts down on handling, but you'll still need to clean the brush and filter regularly.",
+      },
+      {
+        question: "Do robot vacuum and mop combos really mop well?",
+        answer: "A 2-in-1 robot handles everyday upkeep on hard floors well, but it won't replace scrubbing by hand for dried-on stains. Newer models with spinning mop pads, or a dock that washes and dries the pads, do a better job. Check that the robot lifts its mop pads over carpets and rugs.",
+      },
+      {
+        question: "Is a robot vacuum with a camera safe for privacy?",
+        answer: "A camera robot can be safe for privacy if images stay on the device or you control what gets uploaded. Prefer a LiDAR model with no camera, or one whose camera can be turned off, from a brand that clearly explains how it handles your data. Protect the account with a unique password.",
+      },
+      {
+        question: "LiDAR or camera: which robot vacuum navigation is better?",
+        answer: "LiDAR maps quickly and works even in the dark, which makes it a solid default; a camera is better at recognizing some obstacles, such as cords or socks. Many models combine both. Check for no-go zones and multi-floor mapping.",
+      },
+      {
+        question: "Are window cleaning robots safe and effective?",
+        answer: "Yes. A window cleaning robot cleans smooth glass on its own, as long as it's secured with a safety tether and has a backup battery in case of a power outage. It's less suited to heavily soiled glass or thick frames. Check the minimum window size, suction strength and edge detection.",
+      },
+    ],
+    ca: [
+      {
+        question: "Is a robot vacuum worth it with pets?",
+        answer: "Yes, a robot vacuum is very useful with dogs or cats because it runs daily and keeps pet hair from building up. Look for a tangle-free brush, a large dust bin and strong suction. A self-emptying dock reduces handling, though you still need to clean the brush and filter regularly.",
+      },
+      {
+        question: "Do robot vacuum and mop combos really mop well?",
+        answer: "A 2-in-1 robot handles everyday upkeep of hard floors well, but it doesn't replace scrubbing by hand for dried-on stains. Newer models with rotating mop pads, or a dock that washes and dries the pads, do a better job. Check that the robot lifts its mop over carpets and rugs.",
+      },
+      {
+        question: "Is a robot vacuum with a camera safe for privacy?",
+        answer: "A camera robot can be safe for privacy if images stay on the device or you control what's uploaded. Prefer a LiDAR model with no camera, or one whose camera can be switched off, and a brand that clearly explains how it handles your data. Protect the account with a unique password.",
+      },
+      {
+        question: "LiDAR or camera: which robot vacuum navigation is better?",
+        answer: "LiDAR maps quickly and works even in the dark, which makes it a sound default; a camera recognizes some obstacles, such as cables or socks, more reliably. Many models combine both. Check for no-go zones and multi-floor map storage.",
+      },
+      {
+        question: "Are window cleaning robots safe and effective?",
+        answer: "Yes, a window cleaning robot cleans smooth glass on its own, provided it's secured with a safety rope and has a backup battery in case of a power outage. It's less suited to heavily soiled glass or thick frames. Check the minimum glass size, suction strength and edge detection.",
       },
     ],
   },
@@ -388,24 +718,90 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     ],
     pl: [
       {
-        question: "Czy robot koszący potrzebuje przewodu granicznego?",
-        answer: "Nie, coraz więcej robotów koszących działa bez przewodu granicznego dzięki GPS/RTK lub systemowi wizyjnemu, choć przewód pozostaje najlepiej sprawdzoną metodą. Model bez przewodu oszczędza instalacji, pod warunkiem że ma dobry widok na niebo lub skuteczny system wizyjny. Sprawdź obsługę nachyleń, maksymalną powierzchnię i strefy zakazane.",
+        question: "Czy robot koszący potrzebuje przewodu ograniczającego?",
+        answer: "Nie, coraz więcej robotów koszących działa bez przewodu ograniczającego dzięki GPS/RTK lub kamerom, choć przewód wciąż jest najlepiej sprawdzoną metodą. Model bez przewodu nie wymaga instalacji, pod warunkiem że niebo nad ogrodem nie jest zasłonięte albo kamera ma dobrą widoczność. Sprawdź, jak robot radzi sobie ze spadkami terenu, jaką maksymalną powierzchnię obsługuje i czy pozwala wyznaczać strefy zakazane.",
       },
       {
         question: "Czy robot koszący może bezpiecznie kosić w nocy?",
-        answer: "Lepiej unikać koszenia nocą, bo zwierzęta, takie jak jeże, mogą zostać zranione przez noże. Zaprogramuj robota na dzień albo wybierz model z wykrywaniem przeszkód i mało agresywnymi nożami. Kod PIN i alarm antykradzieżowy zmniejszają ryzyko kradzieży.",
+        answer: "Lepiej nie kosić w nocy, bo noże mogą zranić dzikie zwierzęta, np. jeże. Ustaw koszenie w ciągu dnia albo wybierz model z wykrywaniem przeszkód i mniej niebezpiecznymi nożami. Kod PIN i alarm antykradzieżowy zmniejszają ryzyko kradzieży.",
       },
       {
         question: "Czy inteligentne nawadnianie pozwala oszczędzać wodę?",
-        answer: "Tak, inteligentny sterownik nawadniania może ograniczyć marnowanie wody, dostosowując cykle do pogody, deszczu lub wilgotności gleby. Oszczędność zależy od dokładności ustawień i jakości instalacji. Sprawdź liczbę stref, zgodność z kranem lub zaworem elektromagnetycznym oraz obsługę Matter lub asystenta głosowego.",
+        answer: "Tak, inteligentny sterownik nawadniania może ograniczyć marnowanie wody, bo dostosowuje podlewanie do pogody, opadów lub wilgotności gleby. Oszczędność zależy od dokładności ustawień i jakości instalacji. Sprawdź liczbę stref, zgodność z Twoim kranem lub elektrozaworem oraz obsługę Matter lub asystentów głosowych.",
       },
       {
-        question: "Czy inteligentne solarne oświetlenie zewnętrzne się opłaca?",
-        answer: "Tak, nie wymaga okablowania i dobrze działa w słonecznym ogrodzie, ale zimą czas pracy spada w północnej Europie. Sprawdź pojemność baterii, moc panelu, stopień ochrony IP i możliwość dodania czujnika ruchu. Modele inteligentne wymagają dobrego zasięgu Wi-Fi lub Zigbee.",
+        question: "Czy inteligentne oświetlenie solarne do ogrodu się opłaca?",
+        answer: "Tak – nie wymaga kładzenia przewodów i dobrze sprawdza się w nasłonecznionym ogrodzie, choć w północnej Europie zimą lampy świecą krócej. Sprawdź pojemność akumulatora, moc panelu, stopień ochrony IP i to, czy można dodać czujnik ruchu. Modele inteligentne wymagają dobrego zasięgu Wi-Fi lub Zigbee.",
       },
       {
-        question: "Czy robot basenowy naprawdę czyści bez ingerencji?",
-        answer: "Tak, robot basenowy samodzielnie czyści dno, ściany i linię wody, ale trzeba regularnie opróżniać filtr. Wybieraj według kształtu i rozmiaru basenu, dokładności filtracji i czasu pracy. Modele bezprzewodowe są wygodne, ale wymagają ładowania baterii.",
+        question: "Czy robot basenowy naprawdę sprząta bez Twojego udziału?",
+        answer: "Tak, robot basenowy samodzielnie czyści dno, ściany i linię wody, ale filtr trzeba regularnie opróżniać. Wybieraj model według kształtu i wielkości basenu, dokładności filtracji i czasu pracy. Modele bezprzewodowe są wygodne, ale trzeba ładować ich akumulator.",
+      },
+    ],
+    sv: [
+      {
+        question: "Behöver en robotgräsklippare begränsningskabel?",
+        answer: "Nej, allt fler robotgräsklippare klarar sig utan begränsningskabel tack vare GPS/RTK eller kamerabaserad navigering, men kabeln är fortfarande den mest beprövade metoden. Med en modell utan kabel slipper du installationen, förutsatt att den har fri sikt mot himlen eller ser bra med kameran. Kontrollera hur den klarar sluttningar, hur stor gräsmatta den är gjord för och om du kan lägga in förbjudna zoner.",
+      },
+      {
+        question: "Är det säkert att låta robotgräsklipparen gå på natten?",
+        answer: "Undvik helst att klippa på natten, eftersom igelkottar och andra djur kan skadas av knivarna. Schemalägg klipparen på dagtid, eller välj en modell med hinderavkänning och knivar med låg skaderisk. En PIN-kod och ett stöldlarm minskar risken för stöld.",
+      },
+      {
+        question: "Sparar smart bevattning vatten?",
+        answer: "Ja, en smart bevattningsdator kan minska slöseriet genom att anpassa bevattningen efter väder, regn eller jordfuktighet. Hur mycket du sparar beror på hur noga den är inställd och hur bra installationen är. Kontrollera antalet zoner, att den passar din kran eller magnetventil och om den har stöd för Matter eller röstassistenter.",
+      },
+      {
+        question: "Lönar sig smart solcellsbelysning utomhus?",
+        answer: "Ja, den kräver ingen kabeldragning och fungerar bra i en solig trädgård, men på vintern blir drifttiden kortare i norra Europa. Kontrollera batteriets kapacitet, solpanelens effekt, IP-klassningen och om det finns en rörelsesensor. Uppkopplade modeller behöver god räckvidd för wifi eller Zigbee.",
+      },
+      {
+        question: "Rengör en poolrobot verkligen helt på egen hand?",
+        answer: "Ja, en poolrobot rengör botten, väggar och vattenlinje på egen hand, men filtret måste tömmas regelbundet. Välj efter poolens form och storlek, hur fint den filtrerar och hur lång drifttid den har. Sladdlösa modeller är praktiska men måste laddas.",
+      },
+    ],
+    us: [
+      {
+        question: "Does a robot lawn mower need a boundary wire?",
+        answer: "No. A growing number of robot mowers work without a boundary wire, using GPS/RTK or camera vision, though the wire is still the most proven method. A wire-free model skips the installation, as long as it has a clear view of the sky or good visibility for its cameras. Check slope handling, maximum lawn size and no-go zones.",
+      },
+      {
+        question: "Is it safe to run a robot lawn mower at night?",
+        answer: "It's best to avoid mowing at night, since small wildlife out after dark can be injured by the blades. Schedule the mower for daytime, or choose a model with obstacle detection and safer blades. A PIN code and an anti-theft alarm reduce the risk of theft.",
+      },
+      {
+        question: "Does smart irrigation save water?",
+        answer: "Yes. A smart irrigation controller can cut waste by adjusting watering to the weather, rainfall or soil moisture. The savings depend on how carefully it's set up and the quality of the installation. Check the number of zones, compatibility with your faucet or valves, and support for Matter or voice assistants.",
+      },
+      {
+        question: "Are smart solar outdoor lights worth it?",
+        answer: "Yes. They need no wiring and work well in a sunny yard, but run time drops in winter, when days are short. Check battery capacity, panel size, IP rating and whether a motion sensor is included. Smart models need decent Wi-Fi or Zigbee range.",
+      },
+      {
+        question: "Does a robotic pool cleaner really clean on its own?",
+        answer: "Yes. A robotic pool cleaner cleans the floor, walls and waterline on its own, but you have to empty the filter regularly. Choose based on your pool's shape and size, fine filtration and run time. Cordless models are convenient but need recharging.",
+      },
+    ],
+    ca: [
+      {
+        question: "Does a robot lawn mower need a boundary wire?",
+        answer: "No, a growing number of robot mowers work without a boundary wire using GPS/RTK or vision, though wire remains the most proven method. A wire-free model skips installation, provided it has a clear sky view or good vision. Check slope handling, maximum lawn size and no-go zones.",
+      },
+      {
+        question: "Is it safe to run a robot lawn mower at night?",
+        answer: "It's better to avoid mowing at night, as small wildlife such as toads and young rabbits can be injured by the blades. Schedule the mower for daytime, or choose a model with obstacle detection and low-risk blades. A PIN code and anti-theft alarm reduce the risk of theft.",
+      },
+      {
+        question: "Does smart irrigation save water?",
+        answer: "Yes, a smart irrigation controller can cut waste by adjusting cycles to the weather, rain or soil moisture. The savings depend on how accurately it's set up and how well it's installed. Check the number of zones, compatibility with your outdoor faucet or valve, and Matter or voice assistant support.",
+      },
+      {
+        question: "Are smart solar outdoor lights worth it?",
+        answer: "Yes, they need no wiring and work well in a sunny yard, but run time drops in winter, when days are short and panels can be covered in snow. Check battery capacity, panel size, IP rating and whether a motion sensor is included. Smart models need decent Wi-Fi or Zigbee range.",
+      },
+      {
+        question: "Does a pool robot really clean without supervision?",
+        answer: "Yes, a pool robot cleans the floor, walls and waterline on its own, but you must empty the filter regularly. Choose by pool shape and size, fine filtration and run time. Cordless models are convenient but need battery charging.",
       },
     ],
   },
@@ -419,6 +815,9 @@ export const SILO_FAQ_TITLE: Record<Lang, string> = {
   it: 'Domande frequenti',
   nl: 'Veelgestelde vragen',
   pl: 'Najczęstsze pytania',
+  sv: 'Vanliga frågor',
+  us: 'Frequently asked questions',
+  ca: 'Frequently asked questions',
 }
 
 export function getSiloFaq(lang: Lang, siloSlug: string): readonly SiloFaqItem[] {

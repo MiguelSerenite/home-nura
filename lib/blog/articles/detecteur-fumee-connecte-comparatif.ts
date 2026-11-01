@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Alarma de incendio montada en la pared, recordatorio de la importancia de un detector de humo EN 14604',
         it: 'Allarme antincendio a parete, promemoria dell’importanza di un rilevatore di fumo EN 14604',
         nl: 'Brandalarm aan de muur, als herinnering aan het belang van een rookmelder volgens EN 14604',
-        pl: 'Czujnik dymu przymocowany do ściany, przypomnienie o znaczeniu detektora zgodnego z EN 14604',
+        pl: 'Sygnalizator pożarowy na ścianie – przypomnienie, dlaczego warto mieć czujnik dymu zgodny z normą EN 14604',
+        sv: 'Brandlarm på en vägg, en påminnelse om varför en brandvarnare enligt EN 14604 är viktig',
+        us: 'Wall-mounted fire alarm, a reminder of why a certified smoke detector matters',
+        ca: 'Wall-mounted fire alarm, a reminder of why a certified smoke detector matters',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Rilevatore di fumo smart 2026: confronto dei 6 migliori modelli',
     nl: 'Slimme rookmelder 2026: de 6 beste modellen vergeleken',
     pl: 'Inteligentny czujnik dymu 2026: porównanie 6 najlepszych modeli',
+    sv: 'Bästa smarta brandvarnare 2026: 6 modeller jämförda',
+    us: 'Best Smart Smoke Detectors of 2026: 6 Models Compared',
+    ca: 'Best Smart Smoke Detector 2026: 6 Models Compared',
   },
   excerpt: {
     fr: 'Netatmo, X-Sense, Bosch Twinguard, Aqara, Somfy et un détecteur de CO connecté : notre comparatif 2026 des détecteurs de fumée connectés vendus en Europe, norme EN 14604, interconnexion, hub et domotique.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'Netatmo, X-Sense, Bosch Twinguard, Aqara, Somfy y un detector de CO conectado: nuestra comparativa 2026 de detectores de humo inteligentes vendidos en Europa, con EN 14604, interconexión, hub y domótica.',
     it: 'Netatmo, X-Sense, Bosch Twinguard, Aqara, Somfy e un rilevatore di CO smart: il nostro confronto 2026 dei rilevatori di fumo connessi venduti in Europa, tra EN 14604, interconnessione, hub e domotica.',
     nl: 'Netatmo, X-Sense, Bosch Twinguard, Aqara, Somfy en een slimme CO-melder: onze vergelijking 2026 van slimme rookmelders die in Europa verkocht worden, met EN 14604, koppeling, hub en smart home.',
-    pl: 'Netatmo, X-Sense, Bosch Twinguard, Aqara, Somfy i inteligentny czujnik czadu: nasze porównanie inteligentnych czujników dymu sprzedawanych w Europie w 2026 roku, norma EN 14604, połączenie między czujnikami, hub i inteligentny dom.',
+    pl: 'Netatmo, X-Sense, Bosch Twinguard, Aqara, Somfy oraz inteligentny czujnik czadu: porównanie inteligentnych czujników dymu dostępnych w Europie w 2026 roku – norma EN 14604, łączenie w sieć, hub i współpraca z systemami inteligentnego domu.',
+    sv: 'Netatmo, X-Sense, Bosch Twinguard, Aqara, Somfy och en smart koloxidvarnare: vi jämför 2026 års smarta brandvarnare som säljs i Europa – EN 14604, sammankoppling, hubb och integration med smarta hem.',
+    us: 'Netatmo, X-Sense, Bosch Twinguard, Aqara, Somfy and a smart CO detector: our 2026 comparison of smart smoke detectors sold in Europe, covering certification, interconnection, hubs and smart home support.',
+    ca: 'Netatmo, X-Sense, Bosch Twinguard, Aqara, Somfy and a smart CO alarm: our 2026 comparison of smart smoke detectors sold in Europe, covering the European EN 14604 standard, interconnection, hubs and smart home support.',
   },
   content: {
     fr: `<p><strong>Le meilleur détecteur de fumée connecté en 2026 pour la plupart des foyers est le Netatmo Smart Smoke Alarm</strong> : certifié EN 14604, il sonne même sans internet, prévient votre smartphone et fonctionne sans hub. Si vous cherchez un modèle d’entrée de gamme, le X-Sense XS01-WX fait l’essentiel en Wi-Fi, et si vous avez une chaudière, un poêle ou une cheminée, ajoutez un détecteur de monoxyde de carbone connecté comme le Netatmo Smart Carbon Monoxide Alarm.</p>
@@ -574,94 +583,358 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste woningen is de <strong>Netatmo Smart Smoke Alarm</strong> de eenvoudigste keuze: gecertificeerd, geen hub, 10 jaar geen batterijwissel en compatibel met Apple Woning en Google Home. De <strong>X-Sense XS01-WX</strong> is de voordelige optie om meerdere kamers uit te rusten. Heb je een verbrandingstoestel, voeg dan de <strong>Netatmo Smart Carbon Monoxide Alarm</strong> toe. En gebruik je al Bosch, Aqara of Somfy, blijf dan in je ecosysteem met de <strong>Twinguard</strong>, de <strong>Aqara-melder</strong> of de <strong>Somfy Protect-melder</strong>.</p>`,
-    pl: `<p><strong>Najlepszym inteligentnym czujnikiem dymu 2026 roku dla większości domów jest Netatmo Smart Smoke Alarm</strong>: ma certyfikat EN 14604, dzwoni nawet bez internetu, powiadamia smartfon i działa bez hubu. Jeśli szukasz modelu podstawowego, X-Sense XS01-WX robi to, co najważniejsze, przez Wi-Fi, a jeśli masz kocioł, piec lub kominek, dodaj inteligentny czujnik tlenku węgla (czadu), taki jak Netatmo Smart Carbon Monoxide Alarm.</p>
-<p>To porównanie opiera się na kartach technicznych producentów, opublikowanych certyfikatach, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele aktualnie sprzedawane w Europie. Cały wybór znajdziesz na stronie <a href="/pl/securite-maison/detecteurs-fumee-co">czujniki dymu i czadu</a>.</p>
+    pl: `<p><strong>W 2026 roku najlepszym inteligentnym czujnikiem dymu dla większości domów jest Netatmo Smart Smoke Alarm</strong>: ma certyfikat EN 14604, włącza alarm nawet bez internetu, wysyła powiadomienia na smartfon i nie wymaga hubu. Jeśli szukasz modelu z niższej półki, X-Sense XS01-WX zapewnia przez Wi-Fi to, co najważniejsze. A jeśli masz kocioł, piec lub kominek, dodaj inteligentny czujnik czadu, np. Netatmo Smart Carbon Monoxide Alarm.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, opublikowanych certyfikatach, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględniamy wyłącznie modele, które są obecnie w sprzedaży w Europie. Wszystkie modele znajdziesz w kategorii <a href="/pl/securite-maison/detecteurs-fumee-co">czujniki dymu i czadu</a>.</p>
 
-<h2>Czujnik dymu: co mówi prawo we Francji</h2>
-<p>We Francji od 8 marca 2015 roku każde mieszkanie musi być wyposażone w co najmniej jeden autonomiczny czujnik dymu z alarmem (DAAF). Czujnik musi spełniać normę <strong>NF EN 14604</strong> i mieć oznaczenie CE. W wynajmowanym lokalu właściciel dostarcza i montuje czujnik, a lokator dba o jego codzienne działanie.</p>
-<p>Przepis nie wymaga modelu z łącznością. Ale inteligentny czujnik dymu daje dwie rzeczy, których zwykły DAAF nie oferuje: alert na telefonie, gdy jesteś poza domem, oraz śledzenie baterii i stanu urządzenia w aplikacji. Tlenek węgla (CO) wymaga innego czujnika i innej normy, <strong>EN 50291</strong>: sam czujnik dymu nie chroni przed czadem.</p>
+<h2>Czujniki dymu a przepisy we Francji</h2>
+<p>We Francji od 8 marca 2015 roku każdy lokal mieszkalny musi mieć co najmniej jeden autonomiczny czujnik dymu (DAAF). Czujnik musi spełniać normę <strong>NF EN 14604</strong> i mieć oznakowanie CE. W mieszkaniu na wynajem czujnik kupuje i montuje właściciel, a najemca dba o to, by na co dzień działał sprawnie.</p>
+<p>Francuskie przepisy nie wymagają modelu inteligentnego. Inteligentny czujnik daje jednak dwie rzeczy, których nie zapewni zwykły DAAF: powiadomienie na telefon, gdy jesteś poza domem, oraz podgląd stanu baterii i urządzenia w aplikacji. Do wykrywania czadu (tlenku węgla, CO) potrzebny jest inny czujnik, zgodny z inną normą – <strong>EN 50291</strong>. Sam czujnik dymu nie chroni przed czadem.</p>
 
 <h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Certyfikat EN 14604</strong>: to minimum prawne w Europie. Uważaj na modele importowane, zaprojektowane na rynek północnoamerykański (norma UL 217), które nie mają certyfikatu dla Europy.</li>
-<li><strong>Łączność: Wi-Fi, Zigbee lub własnościowe radio</strong>. Model Wi-Fi działa samodzielnie z routerem. Model Zigbee lub radiowy wymaga hubu albo centrali alarmowej, ale pobiera mniej energii i lepiej wpisuje się w istniejącą instalację inteligentnego domu.</li>
-<li><strong>Połączenie między czujnikami</strong>: gdy jeden czujnik zadzwoni, czy dzwonią też pozostałe? To cenne w domu piętrowym. Nie wszystkie modele z łącznością to potrafią, nawet jeśli pojawiają się w tej samej aplikacji.</li>
-<li><strong>Zasilanie</strong>: zaplombowana bateria na 10 lat oszczędza wymiany przez cały okres życia czujnika; wymienne baterie wymagają regularniejszej kontroli.</li>
-<li><strong>Ekosystem</strong>: Apple Home, Google Home, Alexa, Matter przez most albo własny ekosystem (Bosch Smart Home, Somfy). Wybierz zależnie od tego, co już masz.</li>
-<li><strong>Dym i/lub CO</strong>: jeśli masz urządzenie spalające paliwo, potrzebujesz też czujnika CO z certyfikatem EN 50291.</li>
+<li><strong>Certyfikat EN 14604</strong>: to w Europie prawne minimum. Uważaj na importowane modele projektowane na rynek północnoamerykański (norma UL 217) – nie mają certyfikatu wymaganego w Europie.</li>
+<li><strong>Łączność: Wi-Fi, Zigbee lub własny protokół radiowy producenta</strong>. Model z Wi-Fi działa samodzielnie, łącząc się z Twoim routerem. Model Zigbee lub radiowy wymaga hubu albo centrali alarmowej, ale zużywa mniej energii i łatwiej go włączyć do istniejącej instalacji inteligentnego domu.</li>
+<li><strong>Łączenie w sieć</strong>: czy gdy jeden czujnik wykryje dym, alarm włączają też pozostałe? W domu piętrowym to bardzo cenne. Nie potrafi tego każdy inteligentny czujnik, nawet jeśli wszystkie widać w tej samej aplikacji.</li>
+<li><strong>Bateria</strong>: wbudowana, niewymienna bateria na 10 lat sprawia, że przez cały okres eksploatacji czujnika nie trzeba jej wymieniać; wymienne baterie wymagają częstszej kontroli.</li>
+<li><strong>Ekosystem</strong>: Apple Home, Google Home, Alexa, Matter przez mostek albo zamknięty system producenta (Bosch Smart Home, Somfy). Wybierz to, co pasuje do sprzętu, który już masz.</li>
+<li><strong>Dym i/lub czad</strong>: jeśli masz urządzenie spalające paliwo, potrzebujesz też czujnika czadu z certyfikatem EN 50291.</li>
 </ul>
 
-<h2>6 najlepszych inteligentnych czujników w 2026 roku</h2>
+<h2>6 najlepszych inteligentnych czujników 2026</h2>
 
-<h3>1. Netatmo Smart Smoke Alarm: najlepszy wybór ogólny</h3>
-<p>Inteligentny czujnik dymu Netatmo (grupa Legrand) pozostaje najłatwiejszą do polecenia referencją. Ma czujnik fotoelektryczny, syrenę 85 dB i <strong>wbudowaną baterię na 10 lat</strong>, czyli na cały okres życia urządzenia. Łączy się przez Wi-Fi i Bluetooth, bez hubu i abonamentu, i wysyła powiadomienie na smartfon w razie dymu.</p>
-<p><strong>Mocne strony</strong>: wykrywanie i syrena działają nawet wtedy, gdy router jest odcięty; zgodność z Apple Home i Google Home; montaż bezprzewodowy w kilka minut; certyfikaty EN 14604 i NF.</p>
-<p><strong>Ograniczenia</strong>: czujniki Netatmo <strong>nie są połączone ze sobą</strong>: każdy dzwoni niezależnie, nawet jeśli wszystkie są w aplikacji. Dostajesz powiadomienie na telefon, ale czujnik na parterze nie uruchomi czujnika na piętrze. Brak wykrywania CO.</p>
-<p><strong>Dla kogo</strong>: dla mieszkania lub domu parterowego, użytkowników Apple lub Google, którzy chcą niezawodnego urządzenia bez wymiany baterii.</p>
+<h3>1. Netatmo Smart Smoke Alarm: najlepszy wybór dla większości</h3>
+<p>Inteligentny czujnik dymu Netatmo (marki należącej do grupy Legrand) to wciąż model, który najłatwiej polecić. Ma czujnik fotoelektryczny, syrenę 85 dB i <strong>wbudowaną baterię na 10 lat</strong>, czyli na cały okres eksploatacji urządzenia. Łączy się przez Wi-Fi i Bluetooth, nie wymaga hubu ani abonamentu, a gdy wykryje dym, wysyła powiadomienie na smartfon.</p>
+<p><strong>Mocne strony</strong>: wykrywanie dymu i syrena działają także podczas awarii internetu; współpraca z Apple Home i Google Home; montaż bez kabli w kilka minut; certyfikat EN 14604 i francuski znak NF.</p>
+<p><strong>Ograniczenia</strong>: czujniki Netatmo <strong>nie łączą się w sieć</strong>. Każdy włącza alarm niezależnie, nawet jeśli wszystkie są dodane do aplikacji. Powiadomienie dostaniesz na telefon, ale czujnik na parterze nie uruchomi alarmu w czujniku na piętrze. Nie wykrywa czadu.</p>
+<p><strong>Dla kogo</strong>: mieszkanie lub dom parterowy, użytkownicy sprzętu Apple i Google, którzy chcą niezawodnego czujnika bez wymiany baterii.</p>
 
 <h3>2. X-Sense XS01-WX: najlepszy stosunek jakości do ceny</h3>
-<p>XS01-WX to fotoelektryczny czujnik dymu Wi-Fi (2,4 GHz) z certyfikatem EN 14604 i syreną 85 dB. Steruje się nim w aplikacji X-Sense Home Security, która potrafi obsłużyć wiele urządzeń i być udostępniona kilku kontom rodziny.</p>
-<p><strong>Mocne strony</strong>: model podstawowy, działa bez hubu, alerty na smartfon, kompaktowy format.</p>
-<p><strong>Ograniczenia</strong>: według producenta XS01-WX nie łączą się ze sobą bezprzewodowo; przy awarii Wi-Fi dzwonią, ale nie dostajesz już powiadomień. Brak natywnej zgodności z Apple Home, brak wykrywania CO.</p>
-<p><strong>Dla kogo</strong>: do wyposażenia kilku pomieszczeń przy ograniczonym budżecie, z zachowaniem alertów zdalnych.</p>
+<p>XS01-WX to fotoelektryczny czujnik dymu z Wi-Fi (2,4 GHz), certyfikatem EN 14604 i syreną 85 dB. Obsługuje się go w aplikacji X-Sense Home Security, która pozwala zarządzać wieloma urządzeniami i udostępnić dostęp kilku członkom rodziny.</p>
+<p><strong>Mocne strony</strong>: model z niższej półki, działa bez hubu, powiadomienia na smartfon, niewielkie wymiary.</p>
+<p><strong>Ograniczenia</strong>: według producenta czujniki XS01-WX nie łączą się ze sobą bezprzewodowo; przy awarii Wi-Fi nadal włączają alarm, ale nie dostaniesz powiadomień. Brak natywnej obsługi Apple Home, nie wykrywa czadu.</p>
+<p><strong>Dla kogo</strong>: wyposażenie kilku pomieszczeń przy niewielkim budżecie, z zachowaniem zdalnych powiadomień.</p>
 
-<h3>3. Bosch Smart Home Twinguard: najpełniejszy pod względem powietrza w pomieszczeniach</h3>
-<p>Twinguard łączy czujnik dymu o podwójnej technologii optycznej (Dual-Ray) z <strong>czujnikiem jakości powietrza</strong>, który mierzy temperaturę, wilgotność i lotne związki organiczne. Może wydać dyskretny alarm wstępny i oferuje poziomy czułości dopasowane do każdego pomieszczenia, by ograniczyć fałszywe alarmy.</p>
-<p><strong>Mocne strony</strong>: monitorowanie powietrza w pomieszczeniach i wskazówki dotyczące wietrzenia w aplikacji Bosch Smart Home; integracja z całym ekosystemem Bosch (oświetlenie, alarm); możliwość wyświetlania jakości powietrza przez zgodne żarówki z łącznością.</p>
-<p><strong>Ograniczenia</strong>: <strong>nie wykrywa tlenku węgla</strong>; do funkcji z łącznością wymaga <strong>Bosch Smart Home Controller</strong>; zasilany jest sześcioma bateriami AA do wymiany, a nie zaplombowaną baterią na 10 lat.</p>
-<p><strong>Dla kogo</strong>: dla domów już wyposażonych w Bosch Smart Home lub tych, którzy chcą kontrolować wilgotność i powietrze w sypialni czy salonie.</p>
+<h3>3. Bosch Smart Home Twinguard: najlepszy do kontroli jakości powietrza</h3>
+<p>Twinguard łączy czujnik dymu z podwójną technologią optyczną (Dual-Ray) z <strong>czujnikiem jakości powietrza</strong>, który mierzy temperaturę, wilgotność i stężenie lotnych związków organicznych. Potrafi wydać cichy alarm wstępny, a jego czułość można dopasować do każdego pomieszczenia, co ogranicza fałszywe alarmy.</p>
+<p><strong>Mocne strony</strong>: kontrola jakości powietrza i wskazówki dotyczące wietrzenia w aplikacji Bosch Smart Home; integracja z całym ekosystemem Bosch (oświetlenie, alarm); jakość powietrza mogą sygnalizować zgodne inteligentne żarówki.</p>
+<p><strong>Ograniczenia</strong>: <strong>nie wykrywa czadu</strong>; do działania funkcji inteligentnych wymaga centrali <strong>Bosch Smart Home Controller</strong>; jest zasilany sześcioma bateriami AA do wymiany, a nie wbudowaną baterią na 10 lat.</p>
+<p><strong>Dla kogo</strong>: domy, w których działa już system Bosch Smart Home, oraz osoby, które chcą kontrolować wilgotność i jakość powietrza w sypialni czy salonie.</p>
 
-<h3>4. Netatmo Smart Carbon Monoxide Alarm: niezbędne uzupełnienie o CO</h3>
-<p>To nie czujnik dymu, lecz <strong>czujnik tlenku węgla</strong> z certyfikatami EN 50291 i NF. Mierzy CO w sposób ciągły, uruchamia syrenę 85 dB i powiadamia smartfon. Bateria wytrzymuje 10 lat, a funkcja autodiagnostyki regularnie sprawdza jego działanie.</p>
-<p><strong>Mocne strony</strong>: bez hubu, zgodny z Apple Home, ta sama aplikacja co czujnik dymu Netatmo, proste mocowanie na ścianie.</p>
-<p><strong>Ograniczenia</strong>: nie wykrywa dymu; uzupełnia więc czujnik dymu, a go nie zastępuje.</p>
-<p><strong>Dla kogo</strong>: dla każdego lokalu z kotłem gazowym lub olejowym, piecem na drewno lub pellet, kominkiem albo spalinowym podgrzewaczem wody.</p>
+<h3>4. Netatmo Smart Carbon Monoxide Alarm: niezbędny czujnik czadu</h3>
+<p>To nie czujnik dymu, lecz <strong>czujnik czadu (tlenku węgla)</strong> z certyfikatem EN 50291 i francuskim znakiem NF. Stale mierzy stężenie CO, włącza syrenę 85 dB i wysyła powiadomienie na smartfon. Bateria wystarcza na 10 lat, a funkcja autodiagnostyki regularnie sprawdza, czy urządzenie działa prawidłowo.</p>
+<p><strong>Mocne strony</strong>: nie wymaga hubu, współpracuje z Apple Home, korzysta z tej samej aplikacji co czujnik dymu Netatmo, łatwo go zamontować na ścianie.</p>
+<p><strong>Ograniczenia</strong>: nie wykrywa dymu, więc uzupełnia czujnik dymu, a nie go zastępuje.</p>
+<p><strong>Dla kogo</strong>: każdy dom lub mieszkanie z kotłem gazowym lub olejowym, piecem na drewno lub pellet, kominkiem albo podgrzewaczem wody z palnikiem.</p>
 
-<h3>5. Aqara Smoke Detector: najlepszy do domu Zigbee</h3>
-<p>Czujnik dymu Aqara (model SD-S01D) to model Zigbee 3.0 zgodny z EN 14604, z syreną 85 dB i baterią deklarowaną na nawet 10 lat. Działa przez zgodny <strong>hub Aqara</strong>, który udostępnia go w Apple Home, Google Home i Alexie oraz w Matter dzięki funkcji mostu w hubie.</p>
-<p><strong>Mocne strony</strong>: bardzo dobra integracja w automatyzacjach (włączenie świateł, wyłączenie wentylacji), zdalne wyciszenie alarmu z aplikacji, niski pobór energii.</p>
-<p><strong>Ograniczenia</strong>: bez hubu Aqara nie da się go używać; brak wykrywania CO.</p>
-<p><strong>Dla kogo</strong>: dla domów, które mają już hub Aqara lub instalację Zigbee.</p>
+<h3>5. Aqara Smoke Detector: najlepszy do domu z Zigbee</h3>
+<p>Czujnik dymu Aqara (model SD-S01D) działa w standardzie Zigbee 3.0, jest zgodny z EN 14604, ma syrenę 85 dB i baterię, która według producenta wystarcza nawet na 10 lat. Łączy się przez zgodny <strong>hub Aqara</strong>, który udostępnia go w Apple Home, Google Home i Alexie, a dzięki funkcji mostka – także w Matter.</p>
+<p><strong>Mocne strony</strong>: świetnie sprawdza się w automatyzacjach (włączanie świateł, wyłączanie wentylacji), alarm można zdalnie wyciszyć w aplikacji, niski pobór energii.</p>
+<p><strong>Ograniczenia</strong>: bez hubu Aqara jest bezużyteczny; nie wykrywa czadu.</p>
+<p><strong>Dla kogo</strong>: domy, w których jest już hub Aqara lub instalacja Zigbee.</p>
 
-<h3>6. Somfy Protect Smoke Detector: idealny z alarmem Somfy</h3>
-<p>Czujnik dymu Somfy Protect komunikuje się drogą radiową 868 MHz z centralami Somfy Home Alarm, Home Alarm Advanced, Somfy One i One+. Zarządza się nim w aplikacji Somfy Protect, ma syrenę 85 dB i działa na bateriach alkalicznych.</p>
-<p><strong>Mocne strony</strong>: czujniki są połączone ze sobą i dzwonią razem; alert wpisuje się w system alarmowy domu; bezprzewodowy montaż na suficie.</p>
-<p><strong>Ograniczenia</strong>: pomyślany dla ekosystemu Somfy, mało sensowny bez centrali Somfy; brak wykrywania CO.</p>
-<p><strong>Dla kogo</strong>: dla domów już wyposażonych w alarm Somfy. Żeby porównać systemy, przeczytaj nasz poradnik o <a href="/pl/blog/alarme-maison-sans-abonnement">alarmach domowych bez abonamentu</a>.</p>
+<h3>6. Somfy Protect Smoke Detector: idealny do alarmu Somfy</h3>
+<p>Czujnik dymu Somfy Protect komunikuje się drogą radiową (868 MHz) z centralami Somfy Home Alarm, Home Alarm Advanced, Somfy One i One+. Obsługuje się go w aplikacji Somfy Protect, ma syrenę 85 dB i jest zasilany bateriami alkalicznymi.</p>
+<p><strong>Mocne strony</strong>: czujniki są połączone w sieć i włączają alarm jednocześnie; powiadomienia trafiają do domowego systemu alarmowego; bezprzewodowy montaż na suficie.</p>
+<p><strong>Ograniczenia</strong>: zaprojektowany dla ekosystemu Somfy, bez centrali tej marki ma niewielki sens; nie wykrywa czadu.</p>
+<p><strong>Dla kogo</strong>: domy, w których działa już alarm Somfy. Jeśli chcesz porównać systemy, przeczytaj nasz poradnik o <a href="/pl/blog/alarme-maison-sans-abonnement">alarmach do domu bez abonamentu</a>.</p>
 
-<h2>A Google Nest Protect?</h2>
-<p>Nest Protect przez długi czas był punktem odniesienia wśród inteligentnych czujników, ale <strong>Google zakończył jego produkcję w 2025 roku i już go nie sprzedaje</strong>. Model zastępczy oferowany przez Google z First Alert nie jest dystrybuowany w Europie. Jeśli już go masz, działa do daty ważności (około 10 lat po produkcji); potem wymień go na jeden z modeli powyżej.</p>
+<h2>A co z Google Nest Protect?</h2>
+<p>Nest Protect długo był punktem odniesienia wśród inteligentnych czujników dymu, ale <strong>w 2025 roku Google zakończył jego produkcję i wycofał go ze sprzedaży</strong>. Zamiennik, który Google proponuje we współpracy z First Alert, nie jest sprzedawany w Europie. Jeśli masz już ten czujnik, będzie działał do upływu terminu ważności (ok. 10 lat od daty produkcji); potem wymień go na jeden z opisanych wyżej modeli.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Wykrywa</th><th>Łączność</th><th>Wymagany hub</th><th>Połączenie między czujnikami</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Wykrywa</th><th>Łączność</th><th>Wymagany hub</th><th>Łączenie w sieć</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
 <tr><td>Netatmo Smart Smoke Alarm</td><td>Dym</td><td>Wi-Fi + Bluetooth</td><td>Nie</td><td>Nie</td><td>Większość domów</td></tr>
-<tr><td>X-Sense XS01-WX</td><td>Dym</td><td>Wi-Fi 2,4 GHz</td><td>Nie</td><td>Nie</td><td>Niski budżet</td></tr>
-<tr><td>Bosch Smart Home Twinguard</td><td>Dym + jakość powietrza</td><td>Bosch Smart Home</td><td>Tak (Controller)</td><td>Przez system Bosch</td><td>Monitorowanie powietrza w pomieszczeniach</td></tr>
-<tr><td>Netatmo Smart Carbon Monoxide Alarm</td><td>CO</td><td>Wi-Fi</td><td>Nie</td><td>Nie</td><td>Urządzenia spalające paliwo</td></tr>
-<tr><td>Aqara Smoke Detector</td><td>Dym</td><td>Zigbee 3.0</td><td>Tak (hub Aqara)</td><td>Przez automatyzacje</td><td>Dom Zigbee / Matter</td></tr>
-<tr><td>Somfy Protect Smoke Detector</td><td>Dym</td><td>Radio 868 MHz</td><td>Tak (centrala Somfy)</td><td>Tak</td><td>Alarm Somfy</td></tr>
+<tr><td>X-Sense XS01-WX</td><td>Dym</td><td>Wi-Fi 2,4 GHz</td><td>Nie</td><td>Nie</td><td>Osoby z małym budżetem</td></tr>
+<tr><td>Bosch Smart Home Twinguard</td><td>Dym + jakość powietrza</td><td>Bosch Smart Home</td><td>Tak (Controller)</td><td>Przez system Bosch</td><td>Osoby dbające o jakość powietrza</td></tr>
+<tr><td>Netatmo Smart Carbon Monoxide Alarm</td><td>Czad (CO)</td><td>Wi-Fi</td><td>Nie</td><td>Nie</td><td>Domy z urządzeniami spalającymi paliwo</td></tr>
+<tr><td>Aqara Smoke Detector</td><td>Dym</td><td>Zigbee 3.0</td><td>Tak (hub Aqara)</td><td>Przez automatyzacje</td><td>Domy z Zigbee / Matter</td></tr>
+<tr><td>Somfy Protect Smoke Detector</td><td>Dym</td><td>Radio 868 MHz</td><td>Tak (centrala Somfy)</td><td>Tak</td><td>Posiadacze alarmu Somfy</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Kupno modelu bez certyfikatu EN 14604</strong>, na przykład importowanego modelu amerykańskiego: nie spełnia on wymogu prawnego.</li>
-<li><strong>Przekonanie, że wszystkie czujniki w jednej aplikacji są połączone ze sobą</strong>. Sprawdź tę funkcję, jeśli mieszkasz na kilku poziomach.</li>
-<li><strong>Zapominanie o CO</strong>, gdy masz kocioł, piec lub kominek: czujnik dymu go nie wykrywa.</li>
-<li><strong>Montaż czujnika w kuchni lub łazience</strong>: para i opary z gotowania powodują fałszywe alarmy.</li>
-<li><strong>Kupno modelu Zigbee lub radiowego bez hubu</strong>: bez Bosch Controller, hubu Aqara lub centrali Somfy funkcje z łącznością nie działają.</li>
+<li><strong>Kupowanie czujnika bez certyfikatu EN 14604</strong>, np. modelu sprowadzanego z USA: nie spełnia on wymogów prawnych obowiązujących w Europie.</li>
+<li><strong>Zakładanie, że wszystkie czujniki w jednej aplikacji są połączone w sieć</strong>. Jeśli mieszkasz na kilku kondygnacjach, sprawdź, czy model ma tę funkcję.</li>
+<li><strong>Zapominanie o czadzie</strong>, gdy masz kocioł, piec lub kominek: czujnik dymu go nie wykryje.</li>
+<li><strong>Montowanie czujnika w kuchni lub łazience</strong>: para wodna i opary z gotowania wywołują fałszywe alarmy.</li>
+<li><strong>Kupowanie modelu Zigbee lub radiowego bez hubu</strong>: bez centrali Bosch Smart Home Controller, hubu Aqara lub centrali Somfy funkcje inteligentne nie działają.</li>
 </ul>
 
 <h2>Instalacja i konserwacja</h2>
-<p>Umieść co najmniej jeden czujnik dymu w ciągu komunikacyjnym prowadzącym do sypialni, najlepiej po jednym na każdym poziomie i w każdej sypialni. Zamocuj go na suficie, najlepiej na środku pomieszczenia, z dala od ścian, kratek wentylacyjnych i opraw oświetleniowych. Czujnik CO montuje się w pomieszczeniu z urządzeniem spalającym paliwo i w pomieszczeniach, w których się śpi, zgodnie z instrukcją producenta.</p>
-<p>Raz w miesiącu naciśnij przycisk testowy, odkurz urządzenie odkurzaczem ustawionym na minimum i wymień baterie, gdy pojawi się alert o niskim poziomie. Czujnik dymu wymienia się zwykle po 10 latach: zanotuj datę montażu. Żeby dowiedzieć się więcej, zajrzyj do naszego <a href="/pl/blog/guide-securite-maison-connectee-2026">poradnika o bezpieczeństwie inteligentnego domu</a>.</p>
+<p>Zamontuj co najmniej jeden czujnik dymu w korytarzu prowadzącym do sypialni, a najlepiej po jednym na każdej kondygnacji i w każdej sypialni. Zamocuj go na suficie, najlepiej pośrodku pomieszczenia, z dala od ścian, kratek wentylacyjnych i lamp. Czujnik czadu montuje się w pomieszczeniu z urządzeniem spalającym paliwo oraz w pomieszczeniach, w których się śpi – zgodnie z instrukcją producenta.</p>
+<p>Raz w miesiącu naciskaj przycisk testowy, odkurzaj czujnik odkurzaczem ustawionym na najniższą moc i wymieniaj baterie, gdy tylko pojawi się ostrzeżenie o niskim poziomie naładowania. Czujnik dymu wymienia się zwykle po 10 latach, dlatego zapisz datę montażu. Więcej informacji znajdziesz w naszym <a href="/pl/blog/guide-securite-maison-connectee-2026">przewodniku po bezpieczeństwie inteligentnego domu</a>.</p>
 
 <h2>Nasz werdykt</h2>
-<p>Dla większości mieszkań <strong>Netatmo Smart Smoke Alarm</strong> to najprostszy wybór: z certyfikatem, bez hubu, bez wymiany baterii przez 10 lat i zgodny z Apple Home oraz Google Home. <strong>X-Sense XS01-WX</strong> to ekonomiczna opcja do wyposażenia kilku pomieszczeń. Jeśli masz urządzenie spalające paliwo, dodaj <strong>Netatmo Smart Carbon Monoxide Alarm</strong>. Wreszcie, jeśli masz już Bosch, Aqara lub Somfy, zostań w swoim ekosystemie z <strong>Twinguardem</strong>, <strong>czujnikiem Aqara</strong> lub <strong>czujnikiem Somfy Protect</strong>.</p>`,
+<p>W większości domów i mieszkań najprostszym wyborem jest <strong>Netatmo Smart Smoke Alarm</strong>: ma certyfikat, nie wymaga hubu, przez 10 lat nie trzeba wymieniać w nim baterii i współpracuje z Apple Home oraz Google Home. <strong>X-Sense XS01-WX</strong> to tańsza opcja, gdy chcesz wyposażyć kilka pomieszczeń. Jeśli masz urządzenie spalające paliwo, dodaj <strong>Netatmo Smart Carbon Monoxide Alarm</strong>. A jeśli korzystasz już z systemu Bosch, Aqara lub Somfy, zostań przy swoim ekosystemie i wybierz <strong>Twinguard</strong>, <strong>czujnik Aqara</strong> lub <strong>czujnik Somfy Protect</strong>.</p>`,
+    sv: `<p><strong>Den bästa smarta brandvarnaren 2026 för de flesta hem är Netatmo Smart Smoke Alarm</strong>: den är certifierad enligt EN 14604, larmar även utan internet, skickar en notis till mobilen och behöver ingen hubb. Vill du ha en instegsmodell klarar X-Sense XS01-WX det viktigaste via wifi, och har du en värmepanna, en kamin eller en öppen spis bör du komplettera med en smart koloxidvarnare som Netatmo Smart Carbon Monoxide Alarm.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, publicerade certifieringar, oberoende utvärderingar och verifierade köparomdömen. Den tar bara med modeller som säljs i Europa i dag. Hela urvalet hittar du på vår sida om <a href="/sv/securite-maison/detecteurs-fumee-co">brandvarnare och koloxidvarnare</a>.</p>
+
+<h2>Brandvarnare: det säger lagen i Frankrike</h2>
+<p>I Frankrike ska varje bostad sedan den 8 mars 2015 ha minst en fristående brandvarnare (på franska DAAF). Den ska uppfylla standarden EN 14604 och vara CE-märkt. I hyresbostäder är det hyresvärden som ska tillhandahålla och sätta upp brandvarnaren, medan den som bor där ansvarar för att den fungerar i vardagen. Många andra europeiska länder har liknande regler, och oavsett vad som gäller där du bor är <strong>EN 14604</strong> referensstandarden för brandvarnare.</p>
+<p>Den franska lagen kräver ingen smart modell. Men en smart brandvarnare ger dig två saker som en vanlig saknar: en varning i mobilen när du inte är hemma, och koll på batteriet och apparatens status i en app. Koloxid (kolmonoxid, CO) kräver en annan sensor och en annan standard, <strong>EN 50291</strong>: en brandvarnare ensam skyddar dig inte mot koloxid.</p>
+
+<h2>Så väljer du rätt</h2>
+<ul>
+<li><strong>Certifiering enligt EN 14604</strong>: grundnivån i Europa. Se upp med importerade modeller som är gjorda för den nordamerikanska marknaden (standarden UL 217) – de är inte certifierade för Europa.</li>
+<li><strong>Uppkoppling: wifi, Zigbee eller tillverkarens egen radio</strong>. En modell med wifi fungerar på egen hand med din router. En Zigbee- eller radiomodell kräver en hubb eller centralenheten i ett larmsystem, men drar mindre ström och passar bättre in i ett befintligt smart hem.</li>
+<li><strong>Sammankoppling</strong>: när en brandvarnare larmar, larmar de andra också? Det är guld värt i ett hus med flera våningar. Alla smarta modeller gör det inte, även om de syns i samma app.</li>
+<li><strong>Batteritid</strong>: med ett förseglat 10-årsbatteri behöver du aldrig byta batteri under brandvarnarens livstid; utbytbara batterier kräver tätare kontroller.</li>
+<li><strong>Ekosystem</strong>: Apple Home, Google Home, Alexa, Matter via en brygga eller tillverkarens eget slutna system (Bosch Smart Home, Somfy). Välj efter det du redan har.</li>
+<li><strong>Rök och/eller koloxid</strong>: har du en förbränningsapparat (till exempel en panna, en kamin eller en öppen spis) behöver du också en koloxidvarnare som är certifierad enligt EN 50291.</li>
+</ul>
+
+<h2>De 6 bästa smarta brand- och koloxidvarnarna 2026</h2>
+
+<h3>1. Netatmo Smart Smoke Alarm – bäst totalt</h3>
+<p>Netatmos smarta brandvarnare (Netatmo ingår i Legrand-koncernen) är fortfarande den enklaste att rekommendera. Den har en optisk (fotoelektrisk) sensor, en siren på 85 dB och ett <strong>inbyggt batteri som räcker i 10 år</strong>, alltså hela apparatens livslängd. Den ansluts via wifi och Bluetooth, utan hubb och utan abonnemang, och skickar en notis till mobilen när den känner av rök.</p>
+<p><strong>Styrkor</strong>: detekteringen och sirenen fungerar även om internetuppkopplingen ligger nere; fungerar med Apple Home och Google Home; trådlös montering på några minuter; certifierad enligt EN 14604 och NF-märkt (fransk certifiering).</p>
+<p><strong>Svagheter</strong>: Netatmos brandvarnare är <strong>inte sammankopplade</strong>. Var och en larmar för sig, även om alla finns i appen. Du får en varning i mobilen, men en brandvarnare på bottenvåningen får inte den på övervåningen att larma. Ingen koloxiddetektering.</p>
+<p><strong>Passar för</strong>: lägenheter och enplanshus, och dig som använder Apple eller Google och vill ha en pålitlig brandvarnare utan batteribyten.</p>
+
+<h3>2. X-Sense XS01-WX – mest prisvärd</h3>
+<p>XS01-WX är en optisk brandvarnare med wifi (2,4 GHz), certifierad enligt EN 14604 och med en siren på 85 dB. Den styrs i appen X-Sense Home Security, som klarar många enheter och kan delas med flera konton i familjen.</p>
+<p><strong>Styrkor</strong>: instegsmodell, fungerar utan hubb, varningar i mobilen, kompakt format.</p>
+<p><strong>Svagheter</strong>: enligt tillverkaren går det inte att koppla ihop XS01-WX-enheterna trådlöst; om wifi slutar fungera larmar de fortfarande, men du får inga notiser. Inget inbyggt stöd för Apple Home och ingen koloxiddetektering.</p>
+<p><strong>Passar för</strong>: dig som vill sätta brandvarnare i flera rum med liten budget och ändå få varningar när du är borta.</p>
+
+<h3>3. Bosch Smart Home Twinguard – bäst för att hålla koll på inomhusluften</h3>
+<p>Twinguard kombinerar en brandvarnare med dubbel optisk teknik (Dual-Ray) och en <strong>luftkvalitetssensor</strong> som mäter temperatur, luftfuktighet och flyktiga organiska ämnen (VOC). Den kan ge ett diskret förlarm och har olika känslighetsnivåer för olika rum, vilket minskar risken för falsklarm.</p>
+<p><strong>Styrkor</strong>: följer inomhusluften och ger vädringsråd i appen Bosch Smart Home; integreras med hela Boschs ekosystem (belysning, larm); luftkvaliteten kan visas med kompatibla smarta lampor.</p>
+<p><strong>Svagheter</strong>: den <strong>känner inte av koloxid</strong>; den kräver <strong>Bosch Smart Home Controller</strong> för de smarta funktionerna; den drivs av sex utbytbara AA-batterier, inte av ett förseglat 10-årsbatteri.</p>
+<p><strong>Passar för</strong>: hem som redan har Bosch Smart Home, eller dig som vill hålla koll på luftfuktigheten och luften i ett sovrum eller vardagsrum.</p>
+
+<h3>4. Netatmo Smart Carbon Monoxide Alarm – det självklara tillägget mot koloxid</h3>
+<p>Det här är ingen brandvarnare utan en <strong>koloxidvarnare</strong>, certifierad enligt EN 50291 och NF-märkt. Den mäter koloxidhalten hela tiden, slår larm med en siren på 85 dB och varnar dig i mobilen. Batteriet räcker i 10 år, och en självdiagnos kontrollerar regelbundet att varnaren fungerar.</p>
+<p><strong>Styrkor</strong>: ingen hubb, fungerar med Apple Home, samma app som Netatmos brandvarnare, enkel väggmontering.</p>
+<p><strong>Svagheter</strong>: den känner inte av rök, så den kompletterar en brandvarnare men ersätter den inte.</p>
+<p><strong>Passar för</strong>: alla bostäder med gas- eller oljepanna, ved- eller pelletskamin, öppen spis eller varmvattenberedare med brännare.</p>
+
+<h3>5. Aqara Smoke Detector – bäst för ett Zigbee-hem</h3>
+<p>Aqaras brandvarnare (modell SD-S01D) är en Zigbee 3.0-modell som uppfyller EN 14604, med en siren på 85 dB och ett batteri som enligt tillverkaren räcker i upp till 10 år. Den ansluts via en kompatibel <strong>Aqara-hubb</strong>, som gör den tillgänglig i Apple Home, Google Home och Alexa, och i Matter via hubbens bryggfunktion.</p>
+<p><strong>Styrkor</strong>: fungerar mycket bra i automationer (tända lampor, stänga av ventilationen), larmet kan stängas av på distans i appen, låg strömförbrukning.</p>
+<p><strong>Svagheter</strong>: går inte att använda utan Aqara-hubb; ingen koloxiddetektering.</p>
+<p><strong>Passar för</strong>: hem som redan har en Aqara-hubb eller ett Zigbee-system.</p>
+
+<h3>6. Somfy Protect Smoke Detector – bäst ihop med ett larm från Somfy</h3>
+<p>Brandvarnaren från Somfy Protect kommunicerar via radio på 868 MHz med centralenheterna i Somfy Home Alarm, Home Alarm Advanced, Somfy One och One+. Den hanteras i appen Somfy Protect, har en siren på 85 dB och drivs av alkaliska batterier.</p>
+<p><strong>Styrkor</strong>: brandvarnarna är sammankopplade och larmar samtidigt; varningen kopplas in i hemmets larmsystem; trådlös montering i taket.</p>
+<p><strong>Svagheter</strong>: gjord för Somfys ekosystem och ger inte mycket utan en centralenhet från Somfy; ingen koloxiddetektering.</p>
+<p><strong>Passar för</strong>: hem som redan har ett larm från Somfy. Vill du jämföra larmsystemen kan du läsa vår guide om <a href="/sv/blog/alarme-maison-sans-abonnement">hemlarm utan abonnemang</a>.</p>
+
+<h2>Och Google Nest Protect?</h2>
+<p>Nest Protect var länge måttstocken bland smarta brandvarnare, men <strong>Google slutade tillverka den 2025 och säljer den inte längre</strong>. Den ersättare som Google hänvisar till, framtagen med First Alert, säljs inte i Europa. Har du redan en fortsätter den att fungera fram till utgångsdatumet (ungefär 10 år efter tillverkningen). Byt sedan ut den mot någon av modellerna ovan.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Känner av</th><th>Uppkoppling</th><th>Kräver hubb</th><th>Sammankoppling</th><th>Passar för</th></tr>
+</thead>
+<tbody>
+<tr><td>Netatmo Smart Smoke Alarm</td><td>Rök</td><td>Wifi + Bluetooth</td><td>Nej</td><td>Nej</td><td>De flesta hem</td></tr>
+<tr><td>X-Sense XS01-WX</td><td>Rök</td><td>Wifi 2,4 GHz</td><td>Nej</td><td>Nej</td><td>Liten budget</td></tr>
+<tr><td>Bosch Smart Home Twinguard</td><td>Rök + luftkvalitet</td><td>Bosch Smart Home</td><td>Ja (Controller)</td><td>Via Bosch-systemet</td><td>Koll på inomhusluften</td></tr>
+<tr><td>Netatmo Smart Carbon Monoxide Alarm</td><td>Koloxid (CO)</td><td>Wifi</td><td>Nej</td><td>Nej</td><td>Förbränningsapparater</td></tr>
+<tr><td>Aqara Smoke Detector</td><td>Rök</td><td>Zigbee 3.0</td><td>Ja (Aqara-hubb)</td><td>Via automationer</td><td>Hem med Zigbee eller Matter</td></tr>
+<tr><td>Somfy Protect Smoke Detector</td><td>Rök</td><td>Radio 868 MHz</td><td>Ja (centralenhet från Somfy)</td><td>Ja</td><td>Hem med Somfy-larm</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa en brandvarnare som inte är certifierad enligt EN 14604</strong>, till exempel en importerad amerikansk modell.</li>
+<li><strong>Att tro att alla brandvarnare i samma app är sammankopplade</strong>. Kontrollera den funktionen om du bor på flera plan.</li>
+<li><strong>Att glömma bort koloxiden</strong> när du har panna, kamin eller öppen spis: en brandvarnare känner inte av den.</li>
+<li><strong>Att sätta brandvarnaren i köket eller badrummet</strong>: ånga och os från matlagningen ger falsklarm.</li>
+<li><strong>Att köpa en Zigbee- eller radiomodell utan tillhörande hubb</strong>: utan Bosch Controller, Aqara-hubb eller centralenhet från Somfy saknas de smarta funktionerna.</li>
+</ul>
+
+<h2>Installation och skötsel</h2>
+<p>Sätt minst en brandvarnare i hallen eller korridoren utanför sovrummen, helst en per våning och en i varje sovrum. Montera den i taket, gärna mitt i rummet och en bit från väggar, ventiler och lampor. Koloxidvarnaren placeras i rummet där förbränningsapparaten står och i de rum där någon sover, enligt tillverkarens bruksanvisning.</p>
+<p>Tryck på kontrollknappen en gång i månaden, dammsug brandvarnaren försiktigt på lägsta effekt och byt batterier så fort varningen för lågt batteri dyker upp. En brandvarnare byts normalt ut efter 10 år, så skriv upp datumet när du sätter upp den. Vill du veta mer kan du läsa vår <a href="/sv/blog/guide-securite-maison-connectee-2026">guide om säkerhet i det smarta hemmet</a>.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta bostäder är <strong>Netatmo Smart Smoke Alarm</strong> det enklaste valet: certifierad, ingen hubb, inget batteribyte på 10 år och fungerar med Apple Home och Google Home. <strong>X-Sense XS01-WX</strong> är budgetalternativet när du vill sätta brandvarnare i flera rum. Har du en förbränningsapparat lägger du till <strong>Netatmo Smart Carbon Monoxide Alarm</strong>. Och har du redan Bosch, Aqara eller Somfy hemma stannar du i ditt ekosystem med <strong>Twinguard</strong>, <strong>Aqaras brandvarnare</strong> eller <strong>brandvarnaren från Somfy Protect</strong>.</p>`,
+    us: `<p><strong>The best smart smoke detector of 2026 for most homes is the Netatmo Smart Smoke Alarm</strong>: it’s certified to the European EN 14604 standard, sounds even when the internet is down, alerts your phone and needs no hub. If you want an entry-level option, the X-Sense XS01-WX covers the essentials over Wi-Fi, and if you have a furnace or boiler, a wood stove or a fireplace, add a smart carbon monoxide detector such as the Netatmo Smart Carbon Monoxide Alarm.</p>
+<p>This comparison is based on manufacturer specs, published certifications, independent reviews and verified owner reviews. It only includes models currently sold in Europe. You’ll find the full lineup on our <a href="/us/securite-maison/detecteurs-fumee-co">smoke and CO detectors</a> page.</p>
+
+<h2>Smoke alarm rules and certifications</h2>
+<p>Smoke alarm requirements vary from one country, and one local code, to the next. In France, for example, every home has had to have at least one smoke alarm since March 2015. Whatever applies where you live, the certification is what counts: in Europe, the reference standard for smoke alarms is <strong>EN 14604</strong>, while in the US smoke alarms are listed to UL 217 and CO alarms to UL 2034. Check the listing of the version sold in your country.</p>
+<p>You don’t need a smart model to meet those requirements, but it adds two things a basic alarm can’t: an alert on your phone when you’re away, and battery and device status in an app. Carbon monoxide needs a different sensor and, in Europe, a different standard, <strong>EN 50291</strong>: a smoke alarm on its own doesn’t protect you from CO.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Certification</strong>: every smoke alarm here is certified to EN 14604, the European baseline. US alarms are listed to UL 217 instead, so make sure the version you buy carries the certification that applies where you live.</li>
+<li><strong>Connectivity: Wi-Fi, Zigbee or a proprietary radio</strong>. A Wi-Fi model works on its own with your router. A Zigbee or radio model needs a hub or an alarm panel, but it uses less power and fits better into an existing smart home.</li>
+<li><strong>Interconnection</strong>: when one alarm goes off, do the others sound too? This matters in a multistory home. Not every smart alarm does it, even if they all show up in the same app.</li>
+<li><strong>Battery life</strong>: a sealed 10-year battery means no battery changes for the alarm’s whole life; replaceable batteries need more regular checks.</li>
+<li><strong>Ecosystem</strong>: Apple Home, Google Home, Alexa, Matter through a bridge, or a closed system (Bosch Smart Home, Somfy). Choose based on what you already own.</li>
+<li><strong>Smoke and/or CO</strong>: if you have a fuel-burning appliance, you also need a CO detector certified to EN 50291 (or listed to UL 2034 in the US).</li>
+</ul>
+
+<h2>The 6 best smart detectors of 2026</h2>
+
+<h3>1. Netatmo Smart Smoke Alarm — best overall</h3>
+<p>Netatmo’s smart smoke alarm (Netatmo is part of the Legrand group) is still the easiest one to recommend. It uses a photoelectric sensor, an 85 dB siren and a <strong>built-in 10-year battery</strong> that lasts the device’s whole life. It connects over Wi-Fi and Bluetooth, with no hub or subscription, and sends a notification to your phone when it detects smoke.</p>
+<p><strong>Pros</strong>: detection and the siren keep working if your internet goes down; works with Apple Home and Google Home; wire-free installation in minutes; EN 14604 certified.</p>
+<p><strong>Cons</strong>: Netatmo alarms are <strong>not interconnected</strong>. Each one sounds on its own, even if they’re all in the app. Your phone gets the alert, but an alarm downstairs won’t set off the one upstairs. No CO detection.</p>
+<p><strong>Best for</strong>: apartments and single-story homes, and Apple or Google users who want a reliable alarm with no battery changes.</p>
+
+<h3>2. X-Sense XS01-WX — best value</h3>
+<p>The XS01-WX is an EN 14604-certified photoelectric smoke alarm with 2.4 GHz Wi-Fi and an 85 dB siren. It’s managed in the X-Sense Home Security app, which can handle lots of devices and be shared across several family accounts.</p>
+<p><strong>Pros</strong>: entry-level model, no hub needed, phone alerts, compact design.</p>
+<p><strong>Cons</strong>: according to the manufacturer, XS01-WX units don’t link to each other wirelessly; if your Wi-Fi goes down they still sound, but you won’t get notifications. No native Apple Home support and no CO detection.</p>
+<p><strong>Best for</strong>: covering several rooms on a tight budget while keeping remote alerts.</p>
+
+<h3>3. Bosch Smart Home Twinguard — best for indoor air monitoring</h3>
+<p>The Twinguard combines a dual optical (Dual-Ray) smoke detector with an <strong>air quality sensor</strong> that measures temperature, humidity and volatile organic compounds (VOCs). It can give a discreet pre-alarm and offers sensitivity settings for each room to cut down on false alarms.</p>
+<p><strong>Pros</strong>: indoor air tracking and ventilation tips in the Bosch Smart Home app; integration with the whole Bosch ecosystem (lighting, security system); air quality can be shown through compatible smart bulbs.</p>
+<p><strong>Cons</strong>: it <strong>doesn’t detect carbon monoxide</strong>; it needs the <strong>Bosch Smart Home Controller</strong> for its smart features; and it runs on six replaceable AA batteries rather than a sealed 10-year battery.</p>
+<p><strong>Best for</strong>: homes already using Bosch Smart Home, or anyone who wants to keep an eye on humidity and air quality in a bedroom or living room.</p>
+
+<h3>4. Netatmo Smart Carbon Monoxide Alarm — the must-have CO add-on</h3>
+<p>This isn’t a smoke alarm but a <strong>carbon monoxide detector</strong> certified to EN 50291. It monitors CO continuously, sounds an 85 dB siren and alerts your phone. Its battery lasts 10 years, and a self-test feature regularly confirms that it works.</p>
+<p><strong>Pros</strong>: no hub, works with Apple Home, same app as the Netatmo smoke alarm, simple wall mounting.</p>
+<p><strong>Cons</strong>: it doesn’t detect smoke, so it complements a smoke alarm rather than replacing one.</p>
+<p><strong>Best for</strong>: any home with a gas or oil furnace or boiler, a wood or pellet stove, an open fireplace or a fuel-burning water heater.</p>
+
+<h3>5. Aqara Smoke Detector — best for a Zigbee home</h3>
+<p>Aqara’s smoke detector (model SD-S01D) is a Zigbee 3.0 alarm that complies with EN 14604, with an 85 dB siren and a battery rated for up to 10 years. It works through a compatible <strong>Aqara hub</strong>, which brings it into Apple Home, Google Home and Alexa, and into Matter through the hub’s bridge function.</p>
+<p><strong>Pros</strong>: excellent for automations (turning on the lights, shutting off ventilation), remote silencing from the app, low power use.</p>
+<p><strong>Cons</strong>: useless without an Aqara hub; no CO detection.</p>
+<p><strong>Best for</strong>: homes that already have an Aqara hub or a Zigbee setup.</p>
+
+<h3>6. Somfy Protect Smoke Detector — best with a Somfy security system</h3>
+<p>The Somfy Protect smoke detector uses 868 MHz radio to talk to the Somfy Home Alarm, Home Alarm Advanced, Somfy One and One+ systems. It’s managed in the Somfy Protect app, has an 85 dB siren and runs on alkaline batteries.</p>
+<p><strong>Pros</strong>: the detectors are interconnected and sound together; alerts tie into the home security system; wire-free ceiling mounting.</p>
+<p><strong>Cons</strong>: designed for the Somfy ecosystem and of little use without a Somfy panel; no CO detection.</p>
+<p><strong>Best for</strong>: homes that already have a Somfy security system. To compare systems, read our guide to <a href="/us/blog/alarme-maison-sans-abonnement">home security systems with no monthly fee</a>.</p>
+
+<h2>What about the Google Nest Protect?</h2>
+<p>The Nest Protect was the benchmark smart alarm for years, but <strong>Google stopped making it in 2025 and no longer sells it</strong>. Google points owners to a First Alert replacement, which isn’t distributed in Europe and so isn’t part of our selection. If you already own a Nest Protect, it keeps working until its expiration date (about 10 years after it was made); after that, replace it with a current certified model.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Detects</th><th>Connectivity</th><th>Hub required</th><th>Interconnection</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Netatmo Smart Smoke Alarm</td><td>Smoke</td><td>Wi-Fi + Bluetooth</td><td>No</td><td>No</td><td>Most homes</td></tr>
+<tr><td>X-Sense XS01-WX</td><td>Smoke</td><td>2.4 GHz Wi-Fi</td><td>No</td><td>No</td><td>Tight budgets</td></tr>
+<tr><td>Bosch Smart Home Twinguard</td><td>Smoke + air quality</td><td>Bosch Smart Home</td><td>Yes (Controller)</td><td>Through the Bosch system</td><td>Indoor air monitoring</td></tr>
+<tr><td>Netatmo Smart Carbon Monoxide Alarm</td><td>CO</td><td>Wi-Fi</td><td>No</td><td>No</td><td>Fuel-burning appliances</td></tr>
+<tr><td>Aqara Smoke Detector</td><td>Smoke</td><td>Zigbee 3.0</td><td>Yes (Aqara hub)</td><td>Through automations</td><td>Zigbee / Matter homes</td></tr>
+<tr><td>Somfy Protect Smoke Detector</td><td>Smoke</td><td>868 MHz radio</td><td>Yes (Somfy panel)</td><td>Yes</td><td>Somfy system owners</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying an alarm without the right certification for where you live</strong>, such as a European EN 14604 model in a place that expects a UL 217 listing, or the other way around.</li>
+<li><strong>Assuming that all the alarms in one app are interconnected</strong>. Check for this feature if your home has more than one floor.</li>
+<li><strong>Forgetting about CO</strong> when you have a furnace or boiler, a wood stove or a fireplace: a smoke alarm doesn’t detect it.</li>
+<li><strong>Installing the alarm in the kitchen or bathroom</strong>: steam and cooking fumes cause false alarms.</li>
+<li><strong>Buying a Zigbee or radio model without its hub</strong>: without the Bosch Controller, an Aqara hub or a Somfy panel, you lose the smart features.</li>
+</ul>
+
+<h2>Installation and maintenance</h2>
+<p>Install at least one smoke alarm in the hallway outside the bedrooms, and ideally one on every floor and one in each bedroom. Mount it on the ceiling, preferably near the center of the room and away from walls, air vents and light fixtures. Put the CO detector in the room with the fuel-burning appliance and in bedrooms, following the manufacturer’s instructions.</p>
+<p>Press the test button once a month, vacuum the alarm gently on a low setting to clear dust, and replace the batteries as soon as the low-battery warning appears. Smoke alarms are usually replaced after 10 years, so write down the installation date. For more, see our <a href="/us/blog/guide-securite-maison-connectee-2026">smart home security guide</a>.</p>
+
+<h2>The bottom line</h2>
+<p>For most homes, the <strong>Netatmo Smart Smoke Alarm</strong> is the simplest choice: certified, no hub, no battery changes for 10 years, and compatible with Apple Home and Google Home. The <strong>X-Sense XS01-WX</strong> is the budget pick for covering several rooms. If you have a fuel-burning appliance, add the <strong>Netatmo Smart Carbon Monoxide Alarm</strong>. And if you already use Bosch, Aqara or Somfy, stay in your ecosystem with the <strong>Twinguard</strong>, the <strong>Aqara detector</strong> or the <strong>Somfy Protect detector</strong>.</p>`,
+    ca: `<p><strong>The best smart smoke detector in 2026 for most homes is the Netatmo Smart Smoke Alarm</strong>: it’s certified to the European EN 14604 standard, sounds even without internet, alerts your smartphone and needs no hub. If you want an entry-level option, the X-Sense XS01-WX covers the essentials over Wi-Fi, and if you have a fuel-burning appliance such as a gas furnace, boiler, water heater, wood stove or fireplace, add a smart carbon monoxide alarm such as the Netatmo Smart Carbon Monoxide Alarm.</p>
+<p>This comparison is based on manufacturer specifications, published certifications, independent reviews and verified buyer feedback. It only includes models currently sold in Europe. Models and versions sold in Canada can differ from the European ones, so always check the certification on the listing. You’ll find the full selection on our <a href="/ca/securite-maison/detecteurs-fumee-co">smoke and CO detectors</a> page.</p>
+
+<h2>Smoke alarms and the rules</h2>
+<p>Requirements for smoke and CO alarms vary by province and territory, and sometimes by municipality, so check what applies where you live. In Europe, the reference standard for smoke alarms is <strong>EN 14604</strong>, and every smoke alarm in this comparison is certified to it; in Canada, look for a recognized mark such as ULC or CSA.</p>
+<p>The smart part is a bonus, but it adds two things a basic alarm can’t: an alert on your phone when you’re away, and battery and device status in an app. Carbon monoxide needs a different sensor and, in Europe, a different standard, <strong>EN 50291</strong>: a smoke alarm alone doesn’t protect you from CO.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Certification</strong>: the models here are certified to the European EN 14604 standard, which is not a Canadian mark. For a home in Canada, check the listing for ULC or CSA certification rather than assuming a European model qualifies.</li>
+<li><strong>Connectivity: Wi-Fi, Zigbee or proprietary radio</strong>. A Wi-Fi model works on its own with your router. A Zigbee or radio model needs a hub or alarm panel, but uses less power and fits better into an existing smart home.</li>
+<li><strong>Interconnection</strong>: when one alarm sounds, do the others sound too? This matters in a multi-storey home. Not every smart alarm does it, even if they all appear in the same app.</li>
+<li><strong>Battery life</strong>: a sealed 10-year battery means no replacement for the alarm’s whole life; replaceable batteries need more regular checks.</li>
+<li><strong>Ecosystem</strong>: Apple Home, Google Home, Alexa, Matter through a bridge, or a closed system (Bosch Smart Home, Somfy). Choose based on what you already own.</li>
+<li><strong>Smoke and/or CO</strong>: if you have a fuel-burning appliance, you also need a CO alarm (certified to EN 50291 in Europe).</li>
+</ul>
+
+<h2>The 6 best smart detectors in 2026</h2>
+
+<h3>1. Netatmo Smart Smoke Alarm — best overall</h3>
+<p>Netatmo’s smart smoke alarm (part of the Legrand group) remains the easiest one to recommend. It uses a photoelectric sensor, an 85 dB siren and a <strong>built-in 10-year battery</strong> that lasts the device’s whole life. It connects over Wi-Fi and Bluetooth, with no hub or subscription, and sends a notification to your phone when it detects smoke.</p>
+<p><strong>Strengths</strong>: detection and siren keep working if your internet goes down; works with Apple Home and Google Home; wireless installation in minutes; EN 14604 certified.</p>
+<p><strong>Limitations</strong>: Netatmo alarms are <strong>not interconnected</strong>. Each one sounds independently, even if they’re all in the app. You’re alerted on your phone, but an alarm downstairs won’t trigger the one upstairs. No CO detection.</p>
+<p><strong>Best for</strong>: apartments and single-storey homes, and Apple or Google users who want a reliable alarm with no battery changes.</p>
+
+<h3>2. X-Sense XS01-WX — best value</h3>
+<p>The XS01-WX is an EN 14604 certified photoelectric smoke alarm with 2.4 GHz Wi-Fi and an 85 dB siren. It’s managed in the X-Sense Home Security app, which can handle many devices and be shared with several family accounts.</p>
+<p><strong>Strengths</strong>: entry-level model, no hub needed, smartphone alerts, compact design.</p>
+<p><strong>Limitations</strong>: according to the manufacturer, XS01-WX units don’t link to each other wirelessly; if your Wi-Fi fails they still sound, but you won’t get notifications. No native Apple Home support and no CO detection.</p>
+<p><strong>Best for</strong>: covering several rooms on a tight budget while keeping remote alerts.</p>
+
+<h3>3. Bosch Smart Home Twinguard — best for indoor air monitoring</h3>
+<p>The Twinguard combines a dual optical (Dual-Ray) smoke detector with an <strong>air quality sensor</strong> that measures temperature, humidity and volatile organic compounds. It can give a discreet pre-alarm and offers room-specific sensitivity settings to reduce false alarms.</p>
+<p><strong>Strengths</strong>: indoor air tracking and ventilation tips in the Bosch Smart Home app; integration with the whole Bosch ecosystem (lighting, alarm); air quality can be shown through compatible smart bulbs.</p>
+<p><strong>Limitations</strong>: it <strong>doesn’t detect carbon monoxide</strong>; it needs the <strong>Bosch Smart Home Controller</strong> for its smart features; it runs on six replaceable AA batteries rather than a sealed 10-year battery.</p>
+<p><strong>Best for</strong>: homes already using Bosch Smart Home, or anyone who wants to keep an eye on humidity and air quality in a bedroom or living room.</p>
+
+<h3>4. Netatmo Smart Carbon Monoxide Alarm — the essential CO add-on</h3>
+<p>This isn’t a smoke alarm but a <strong>carbon monoxide alarm</strong> certified to the European EN 50291 standard. It measures CO continuously, sounds an 85 dB siren and alerts your smartphone. Its battery lasts 10 years and a self-check feature regularly confirms that it works.</p>
+<p><strong>Strengths</strong>: no hub, Apple Home compatible, same app as the Netatmo smoke alarm, simple wall mounting.</p>
+<p><strong>Limitations</strong>: it doesn’t detect smoke, so it complements a smoke alarm rather than replacing one.</p>
+<p><strong>Best for</strong>: any home with a gas or oil furnace or boiler, a wood or pellet stove, a fireplace or a gas water heater.</p>
+
+<h3>5. Aqara Smoke Detector — best for a Zigbee home</h3>
+<p>Aqara’s smoke detector (model SD-S01D) is a Zigbee 3.0 alarm compliant with EN 14604, with an 85 dB siren and a battery rated for up to 10 years. It works through a compatible <strong>Aqara hub</strong>, which brings it into Apple Home, Google Home and Alexa, and into Matter via the hub’s bridge function.</p>
+<p><strong>Strengths</strong>: excellent for automations (turning on lights, shutting off ventilation), remote silencing from the app, low power use.</p>
+<p><strong>Limitations</strong>: useless without an Aqara hub; no CO detection.</p>
+<p><strong>Best for</strong>: homes that already have an Aqara hub or a Zigbee setup.</p>
+
+<h3>6. Somfy Protect Smoke Detector — best with a Somfy alarm</h3>
+<p>The Somfy Protect smoke detector uses 868 MHz radio to talk to the Somfy Home Alarm, Home Alarm Advanced, Somfy One and One+ systems. It’s managed in the Somfy Protect app, has an 85 dB siren and runs on alkaline batteries.</p>
+<p><strong>Strengths</strong>: detectors are interconnected and sound together; alerts tie into the home alarm system; wireless ceiling mounting.</p>
+<p><strong>Limitations</strong>: designed for the Somfy ecosystem and of little use without a Somfy panel; no CO detection.</p>
+<p><strong>Best for</strong>: homes that already have a Somfy alarm. To compare systems, read our guide to <a href="/ca/blog/alarme-maison-sans-abonnement">home alarm systems with no monthly fee</a>.</p>
+
+<h2>What about the Google Nest Protect?</h2>
+<p>The Nest Protect was long the benchmark smart alarm, but <strong>Google stopped making it in 2025 and no longer sells it</strong>. The First Alert replacement that Google points to isn’t sold in Europe, so it isn’t part of this comparison. If you already own a Nest Protect, it keeps working until its expiry date (about 10 years after manufacture); after that, replace it with a current certified model.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Detects</th><th>Connectivity</th><th>Hub required</th><th>Interconnection</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Netatmo Smart Smoke Alarm</td><td>Smoke</td><td>Wi-Fi + Bluetooth</td><td>No</td><td>No</td><td>Most homes</td></tr>
+<tr><td>X-Sense XS01-WX</td><td>Smoke</td><td>2.4 GHz Wi-Fi</td><td>No</td><td>No</td><td>Tight budgets</td></tr>
+<tr><td>Bosch Smart Home Twinguard</td><td>Smoke + air quality</td><td>Bosch Smart Home</td><td>Yes (Controller)</td><td>Via the Bosch system</td><td>Indoor air monitoring</td></tr>
+<tr><td>Netatmo Smart Carbon Monoxide Alarm</td><td>CO</td><td>Wi-Fi</td><td>No</td><td>No</td><td>Fuel-burning appliances</td></tr>
+<tr><td>Aqara Smoke Detector</td><td>Smoke</td><td>Zigbee 3.0</td><td>Yes (Aqara hub)</td><td>Via automations</td><td>Zigbee / Matter homes</td></tr>
+<tr><td>Somfy Protect Smoke Detector</td><td>Smoke</td><td>868 MHz radio</td><td>Yes (Somfy panel)</td><td>Yes</td><td>Somfy alarm owners</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying an alarm without a recognized certification</strong>: in Canada, look for a ULC or CSA mark; in Europe, EN 14604.</li>
+<li><strong>Assuming that all alarms in one app are interconnected</strong>. Check this feature if your home has several floors.</li>
+<li><strong>Forgetting CO</strong> when you have a furnace, boiler, wood stove or fireplace: a smoke alarm doesn’t detect it.</li>
+<li><strong>Installing the alarm in the kitchen or bathroom</strong>: steam and cooking fumes cause false alarms.</li>
+<li><strong>Buying a Zigbee or radio model without its hub</strong>: without the Bosch Controller, an Aqara hub or a Somfy panel, the smart features are missing.</li>
+</ul>
+
+<h2>Installation and maintenance</h2>
+<p>Install at least one smoke alarm in the hallway outside the bedrooms, ideally one on every storey, basement included, and one in each bedroom. Mount it on the ceiling, preferably near the centre of the room and away from walls, air vents and light fixtures. Place the CO alarm in the room with the fuel-burning appliance and in bedrooms, following the manufacturer’s instructions.</p>
+<p>Press the test button once a month, gently vacuum the alarm to remove dust and replace the batteries as soon as the low-battery warning appears. Smoke alarms are usually replaced after 10 years, so note the installation date. For more, see our <a href="/ca/blog/guide-securite-maison-connectee-2026">smart home security guide</a>.</p>
+
+<h2>Our verdict</h2>
+<p>For most homes, the <strong>Netatmo Smart Smoke Alarm</strong> is the simplest choice: certified, no hub, no battery change for 10 years and compatible with Apple Home and Google Home. The <strong>X-Sense XS01-WX</strong> is the budget option for covering several rooms. If you have a fuel-burning appliance, add the <strong>Netatmo Smart Carbon Monoxide Alarm</strong>. And if you already use Bosch, Aqara or Somfy, stay in your ecosystem with the <strong>Twinguard</strong>, the <strong>Aqara detector</strong> or the <strong>Somfy Protect detector</strong>.</p>`,
   },
   faq: [
     {
@@ -672,7 +945,10 @@ export const article: BlogArticle = {
         es: '¿Un detector de humo inteligente cumple la normativa?',
         it: 'Un rilevatore di fumo smart è conforme alla normativa?',
         nl: 'Voldoet een slimme rookmelder aan de wettelijke eisen?',
-        pl: 'Czy inteligentny czujnik dymu spełnia wymóg prawny?',
+        pl: 'Czy inteligentny czujnik dymu spełnia wymogi prawne?',
+        sv: 'Uppfyller en smart brandvarnare lagens krav?',
+        us: 'Is a smart smoke alarm enough to meet legal requirements?',
+        ca: 'Does a smart smoke alarm meet the requirements where I live?',
       },
       answer: {
         fr: 'Oui, à condition qu’il soit certifié NF EN 14604 et porte le marquage CE, comme tous les détecteurs de fumée de ce comparatif. La connexion est un plus, pas une exigence : c’est la certification qui compte.',
@@ -681,7 +957,10 @@ export const article: BlogArticle = {
         es: 'Sí, siempre que esté certificado EN 14604, como todos los detectores de humo de esta comparativa. La conexión es un extra, no un requisito: lo que cuenta es la certificación.',
         it: 'Sì, purché sia certificato EN 14604, come tutti i rilevatori di fumo di questo confronto. La connessione è un vantaggio, non un requisito: conta la certificazione.',
         nl: 'Ja, zolang hij EN 14604-gecertificeerd is, zoals alle rookmelders in deze vergelijking. De verbinding is een extra, geen eis: de certificering telt.',
-        pl: 'Tak, pod warunkiem że ma certyfikat NF EN 14604 i oznaczenie CE, jak wszystkie czujniki dymu w tym porównaniu. Łączność jest dodatkiem, a nie wymogiem: liczy się certyfikacja.',
+        pl: 'Tak, jeśli ma certyfikat zgodności z normą EN 14604 (we Francji: NF EN 14604) i oznakowanie CE – tak jak wszystkie czujniki dymu z tego porównania. Łączność to dodatek, a nie wymóg: liczy się certyfikat.',
+        sv: 'Ja, så länge den är certifierad enligt EN 14604 och CE-märkt, som alla brandvarnare i den här jämförelsen. Uppkopplingen är en bonus, inget krav: det är certifieringen som räknas.',
+        us: 'Yes, as long as it carries the right certification: every smoke alarm in this comparison is certified to the European standard EN 14604, while US smoke alarms are listed to UL 217, so check the listing of the version sold in your country. Connectivity is a bonus, not a requirement: certification is what counts.',
+        ca: 'What counts is certification, not connectivity. The smoke alarms in this comparison are certified to the European EN 14604 standard; in Canada, look for a ULC or CSA mark and check the requirements in your province or territory.',
       },
     },
     {
@@ -692,7 +971,10 @@ export const article: BlogArticle = {
         es: '¿Un detector de humo detecta también el monóxido de carbono?',
         it: 'Un rilevatore di fumo rileva anche il monossido di carbonio?',
         nl: 'Detecteert een rookmelder ook koolmonoxide?',
-        pl: 'Czy czujnik dymu wykrywa też tlenek węgla?',
+        pl: 'Czy czujnik dymu wykrywa też czad (tlenek węgla)?',
+        sv: 'Känner en brandvarnare också av koloxid?',
+        us: 'Does a smoke alarm also detect carbon monoxide?',
+        ca: 'Does a smoke alarm also detect carbon monoxide?',
       },
       answer: {
         fr: 'Non. Le CO est un gaz invisible et inodore qui demande un capteur spécifique certifié EN 50291. Aucun des détecteurs de fumée de ce comparatif ne le mesure, pas même le Bosch Twinguard. Ajoutez un détecteur de CO comme le Netatmo Smart Carbon Monoxide Alarm si vous avez un appareil à combustion.',
@@ -701,7 +983,10 @@ export const article: BlogArticle = {
         es: 'No. El CO es un gas invisible e inodoro que requiere un sensor específico certificado EN 50291. Ninguno de los detectores de humo de esta comparativa lo mide, ni siquiera el Bosch Twinguard. Añade un detector de CO como el Netatmo Smart Carbon Monoxide Alarm si tienes un aparato de combustión.',
         it: 'No. Il CO è un gas invisibile e inodore che richiede un sensore dedicato certificato EN 50291. Nessuno dei rilevatori di fumo di questo confronto lo misura, nemmeno il Bosch Twinguard. Aggiungi un rilevatore di CO come il Netatmo Smart Carbon Monoxide Alarm se hai un apparecchio a combustione.',
         nl: 'Nee. CO is een onzichtbaar, geurloos gas dat een aparte sensor volgens EN 50291 vereist. Geen van de rookmelders in deze vergelijking meet het, ook de Bosch Twinguard niet. Voeg een CO-melder zoals de Netatmo Smart Carbon Monoxide Alarm toe als je een verbrandingstoestel hebt.',
-        pl: 'Nie. CO to bezbarwny i bezwonny gaz, który wymaga osobnego czujnika z certyfikatem EN 50291. Żaden z czujników dymu w tym porównaniu go nie mierzy, nawet Bosch Twinguard. Jeśli masz urządzenie spalające paliwo, dodaj czujnik CO, taki jak Netatmo Smart Carbon Monoxide Alarm.',
+        pl: 'Nie. Czad (CO) to bezbarwny i bezwonny gaz, do którego wykrywania potrzebny jest osobny czujnik z certyfikatem EN 50291. Żaden czujnik dymu z tego porównania go nie mierzy – nawet Bosch Twinguard. Jeśli masz urządzenie spalające paliwo, dodaj czujnik czadu, np. Netatmo Smart Carbon Monoxide Alarm.',
+        sv: 'Nej. Koloxid är en osynlig och luktfri gas som kräver en särskild sensor, certifierad enligt EN 50291. Ingen av brandvarnarna i den här jämförelsen mäter den, inte ens Bosch Twinguard. Skaffa en koloxidvarnare som Netatmo Smart Carbon Monoxide Alarm om du har en förbränningsapparat, till exempel en panna eller en kamin.',
+        us: 'No. CO is an invisible, odorless gas that needs a dedicated sensor, certified to EN 50291 in Europe (US CO alarms are listed to UL 2034). None of the smoke alarms in this comparison measures it, not even the Bosch Twinguard. Add a CO detector such as the Netatmo Smart Carbon Monoxide Alarm if you have a fuel-burning appliance.',
+        ca: 'No. CO is an invisible, odourless gas that needs a dedicated sensor (certified to EN 50291 in Europe). None of the smoke alarms in this comparison measures it, not even the Bosch Twinguard. Add a CO alarm such as the Netatmo Smart Carbon Monoxide Alarm if you have a fuel-burning appliance such as a furnace, boiler or wood stove.',
       },
     },
     {
@@ -712,7 +997,10 @@ export const article: BlogArticle = {
         es: '¿Los detectores Netatmo suenan todos a la vez?',
         it: 'I rilevatori Netatmo suonano tutti insieme?',
         nl: 'Gaan Netatmo-rookmelders allemaal tegelijk af?',
-        pl: 'Czy czujniki Netatmo dzwonią wszystkie razem?',
+        pl: 'Czy czujniki dymu Netatmo włączają alarm jednocześnie?',
+        sv: 'Larmar alla brandvarnare från Netatmo samtidigt?',
+        us: 'Do Netatmo smoke alarms all sound together?',
+        ca: 'Do Netatmo smoke alarms all sound together?',
       },
       answer: {
         fr: 'Non. D’après Netatmo, ses détecteurs de fumée ne sont pas interconnectés : chacun sonne seul, même s’ils sont dans la même application, qui vous prévient sur votre téléphone. Si vous voulez que tous les détecteurs sonnent ensemble, choisissez un système interconnecté comme Somfy Protect ou l’écosystème Bosch Smart Home.',
@@ -721,7 +1009,10 @@ export const article: BlogArticle = {
         es: 'No. Según Netatmo, sus detectores de humo no están interconectados: cada uno suena por separado, aunque estén en la misma app, que te avisa en el móvil. Si quieres que todos suenen a la vez, elige un sistema interconectado como Somfy Protect o el ecosistema Bosch Smart Home.',
         it: 'No. Secondo Netatmo, i suoi rilevatori di fumo non sono interconnessi: ognuno suona da solo, anche se sono nella stessa app, che ti avvisa sul telefono. Se vuoi che suonino tutti insieme, scegli un sistema interconnesso come Somfy Protect o l’ecosistema Bosch Smart Home.',
         nl: 'Nee. Volgens Netatmo zijn de rookmelders niet onderling gekoppeld: elke melder gaat afzonderlijk af, ook al staan ze in dezelfde app, die je telefoon waarschuwt. Wil je dat alle melders tegelijk afgaan, kies dan een gekoppeld systeem zoals Somfy Protect of Bosch Smart Home.',
-        pl: 'Nie. Według Netatmo jego czujniki dymu nie są połączone ze sobą: każdy dzwoni osobno, nawet jeśli są w tej samej aplikacji, która powiadamia Cię na telefonie. Jeśli chcesz, by wszystkie czujniki dzwoniły razem, wybierz system z połączeniem między czujnikami, jak Somfy Protect lub ekosystem Bosch Smart Home.',
+        pl: 'Nie. Według Netatmo czujniki dymu tej marki nie łączą się w sieć: każdy włącza alarm osobno, nawet jeśli wszystkie są dodane do tej samej aplikacji, która wysyła Ci powiadomienie na telefon. Jeśli chcesz, by wszystkie czujniki alarmowały jednocześnie, wybierz system z czujnikami połączonymi w sieć, np. Somfy Protect lub ekosystem Bosch Smart Home.',
+        sv: 'Nej. Enligt Netatmo är företagets brandvarnare inte sammankopplade: var och en larmar för sig, även om alla finns i samma app, som varnar dig i mobilen. Vill du att alla brandvarnare ska larma samtidigt väljer du ett sammankopplat system som Somfy Protect eller ekosystemet Bosch Smart Home.',
+        us: 'No. According to Netatmo, its smoke alarms aren’t interconnected: each one sounds on its own, even if they’re all in the same app, which alerts your phone. If you want every alarm to sound together, choose an interconnected system such as Somfy Protect or the Bosch Smart Home ecosystem.',
+        ca: 'No. According to Netatmo, its smoke alarms are not interconnected: each one sounds on its own, even if they are in the same app, which alerts your phone. If you want all alarms to sound together, choose an interconnected system such as Somfy Protect or the Bosch Smart Home ecosystem.',
       },
     },
     {
@@ -733,6 +1024,9 @@ export const article: BlogArticle = {
         it: 'Si può ancora comprare un Google Nest Protect?',
         nl: 'Kun je de Google Nest Protect nog kopen?',
         pl: 'Czy można jeszcze kupić Google Nest Protect?',
+        sv: 'Går det fortfarande att köpa Google Nest Protect?',
+        us: 'Can you still buy a Google Nest Protect?',
+        ca: 'Can you still buy a Google Nest Protect?',
       },
       answer: {
         fr: 'Non, Google a arrêté le Nest Protect en 2025 et ne le vend plus. Évitez les vieux stocks : un détecteur vieillit même dans sa boîte. Si vous en avez un, il fonctionne jusqu’à sa date d’expiration ; remplacez-le ensuite par un modèle actuel certifié EN 14604.',
@@ -741,7 +1035,10 @@ export const article: BlogArticle = {
         es: 'No, Google retiró el Nest Protect en 2025 y ya no lo vende. Evita el stock antiguo: un detector envejece incluso en su caja. Si ya tienes uno, funciona hasta su fecha de caducidad; después, cámbialo por un modelo actual certificado EN 14604.',
         it: 'No, Google ha interrotto il Nest Protect nel 2025 e non lo vende più. Evita le vecchie scorte: un rilevatore invecchia anche nella confezione. Se ne hai già uno, funziona fino alla data di scadenza; poi sostituiscilo con un modello attuale certificato EN 14604.',
         nl: 'Nee, Google is in 2025 gestopt met de Nest Protect en verkoopt hem niet meer. Vermijd oude voorraad: een melder veroudert ook in de doos. Heb je er al een, dan werkt hij tot de vervaldatum; vervang hem daarna door een actueel EN 14604-model.',
-        pl: 'Nie, Google zakończył produkcję Nest Protect w 2025 roku i już go nie sprzedaje. Unikaj starych zapasów: czujnik starzeje się nawet w pudełku. Jeśli go masz, działa do daty ważności; potem wymień go na aktualny model z certyfikatem EN 14604.',
+        pl: 'Nie. W 2025 roku Google zakończył produkcję czujnika Nest Protect i już go nie sprzedaje. Nie kupuj egzemplarzy z zalegających zapasów: czujnik starzeje się, nawet gdy leży w pudełku. Jeśli już go masz, będzie działał do upływu terminu ważności; potem wymień go na aktualny model z certyfikatem EN 14604.',
+        sv: 'Nej, Google lade ner Nest Protect 2025 och säljer den inte längre. Undvik gamla lagerexemplar: en brandvarnare åldras även i kartongen. Har du redan en fungerar den fram till utgångsdatumet. Byt sedan till en aktuell modell som är certifierad enligt EN 14604.',
+        us: 'No. Google discontinued the Nest Protect in 2025 and no longer sells it. Steer clear of old stock: an alarm ages even in its box. If you already have one, it works until its expiration date; after that, replace it with a current certified model.',
+        ca: 'No, Google discontinued the Nest Protect in 2025 and no longer sells it. Avoid old stock: an alarm ages even in its box. If you already have one, it works until its expiry date; then replace it with a current certified model.',
       },
     },
     {
@@ -753,6 +1050,9 @@ export const article: BlogArticle = {
         it: 'Serve un hub per un rilevatore di fumo smart?',
         nl: 'Heb je een hub nodig voor een slimme rookmelder?',
         pl: 'Czy do inteligentnego czujnika dymu potrzebny jest hub?',
+        sv: 'Behöver en smart brandvarnare en hubb?',
+        us: 'Do you need a hub for a smart smoke alarm?',
+        ca: 'Do you need a hub for a smart smoke alarm?',
       },
       answer: {
         fr: 'Cela dépend de la connexion. Les modèles Wi-Fi comme le Netatmo Smart Smoke Alarm ou le X-Sense XS01-WX fonctionnent seuls. Le Bosch Twinguard demande le Bosch Smart Home Controller, le détecteur Aqara un hub Aqara et le Somfy Protect une centrale d’alarme Somfy.',
@@ -761,7 +1061,10 @@ export const article: BlogArticle = {
         es: 'Depende de la conexión. Los modelos Wi-Fi como el Netatmo Smart Smoke Alarm o el X-Sense XS01-WX funcionan solos. El Bosch Twinguard necesita el Bosch Smart Home Controller, el detector Aqara un hub Aqara y el Somfy Protect una central de alarma Somfy.',
         it: 'Dipende dalla connessione. I modelli Wi-Fi come il Netatmo Smart Smoke Alarm o l’X-Sense XS01-WX funzionano da soli. Il Bosch Twinguard richiede il Bosch Smart Home Controller, il rilevatore Aqara un hub Aqara e il Somfy Protect una centrale d’allarme Somfy.',
         nl: 'Dat hangt af van de verbinding. Wifimodellen zoals de Netatmo Smart Smoke Alarm of de X-Sense XS01-WX werken zelfstandig. De Bosch Twinguard heeft de Bosch Smart Home Controller nodig, de Aqara-melder een Aqara-hub en de Somfy Protect een Somfy-alarmcentrale.',
-        pl: 'To zależy od łączności. Modele Wi-Fi, takie jak Netatmo Smart Smoke Alarm czy X-Sense XS01-WX, działają samodzielnie. Bosch Twinguard wymaga Bosch Smart Home Controller, czujnik Aqara hubu Aqara, a Somfy Protect centrali alarmowej Somfy.',
+        pl: 'To zależy od sposobu łączności. Modele z Wi-Fi, takie jak Netatmo Smart Smoke Alarm czy X-Sense XS01-WX, działają samodzielnie. Bosch Twinguard wymaga centrali Bosch Smart Home Controller, czujnik Aqara – hubu Aqara, a Somfy Protect – centrali alarmowej Somfy.',
+        sv: 'Det beror på uppkopplingen. Modeller med wifi, som Netatmo Smart Smoke Alarm eller X-Sense XS01-WX, fungerar på egen hand. Bosch Twinguard kräver Bosch Smart Home Controller, Aqaras brandvarnare en Aqara-hubb och Somfy Protect en centralenhet till ett Somfy-larm.',
+        us: 'It depends on the connection. Wi-Fi models such as the Netatmo Smart Smoke Alarm or the X-Sense XS01-WX work on their own. The Bosch Twinguard needs the Bosch Smart Home Controller, the Aqara detector needs an Aqara hub, and the Somfy Protect needs a Somfy alarm panel.',
+        ca: 'It depends on the connection. Wi-Fi models such as the Netatmo Smart Smoke Alarm or X-Sense XS01-WX work on their own. The Bosch Twinguard needs the Bosch Smart Home Controller, the Aqara detector an Aqara hub and the Somfy Protect a Somfy alarm panel.',
       },
     },
     {
@@ -772,7 +1075,10 @@ export const article: BlogArticle = {
         es: '¿Funciona un detector inteligente si se cae internet?',
         it: 'Un rilevatore smart funziona se internet si interrompe?',
         nl: 'Werkt een slimme rookmelder als het internet uitvalt?',
-        pl: 'Czy inteligentny czujnik działa podczas awarii internetu?',
+        pl: 'Czy inteligentny czujnik dymu działa, gdy nie ma internetu?',
+        sv: 'Fungerar en smart brandvarnare om internet går ner?',
+        us: 'Does a smart smoke alarm work if the internet goes down?',
+        ca: 'Does a smart smoke alarm work if the internet goes down?',
       },
       answer: {
         fr: 'Oui pour l’essentiel : la détection et la sirène sont autonomes sur tous les modèles certifiés EN 14604. En revanche, sans internet, vous ne recevez plus les notifications sur votre smartphone.',
@@ -781,7 +1087,10 @@ export const article: BlogArticle = {
         es: 'Sí en lo esencial: la detección y la sirena funcionan de forma autónoma en todos los modelos certificados EN 14604. Sin internet, eso sí, dejas de recibir notificaciones en el móvil.',
         it: 'Sì per l’essenziale: rilevamento e sirena funzionano in autonomia su tutti i modelli certificati EN 14604. Senza internet, però, non ricevi più le notifiche sullo smartphone.',
         nl: 'Ja, voor het belangrijkste: detectie en sirene werken zelfstandig bij alle EN 14604-gecertificeerde modellen. Zonder internet krijg je echter geen meldingen meer op je smartphone.',
-        pl: 'W zasadniczej części tak: wykrywanie i syrena są autonomiczne we wszystkich modelach z certyfikatem EN 14604. Bez internetu nie dostajesz jednak powiadomień na smartfon.',
+        pl: 'Tak, jeśli chodzi o to, co najważniejsze: we wszystkich modelach z certyfikatem EN 14604 wykrywanie dymu i syrena działają niezależnie od sieci. Bez internetu nie dostaniesz jednak powiadomień na smartfon.',
+        sv: 'Ja, det viktigaste fungerar: detekteringen och sirenen klarar sig utan internet på alla modeller som är certifierade enligt EN 14604. Utan internet får du däremot inga notiser i mobilen.',
+        us: 'Yes, for the essentials: detection and the siren work independently on every EN 14604-certified model. Without internet, though, you no longer get notifications on your phone.',
+        ca: 'Yes for the essentials: detection and the siren work independently on every certified model in this comparison. Without internet, however, you no longer receive smartphone notifications.',
       },
     },
   ],

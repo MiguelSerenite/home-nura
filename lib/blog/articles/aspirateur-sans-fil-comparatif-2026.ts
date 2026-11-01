@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Scopa elettrica senza filo con display che pulisce lungo una panca e un tiragraffi',
         nl: 'Draadloze steelstofzuiger met display die langs een bankje en een krabpaal zuigt',
         pl: 'Bezprzewodowy odkurzacz pionowy z wyświetlaczem prowadzony wzdłuż ławki i drapaka dla kota',
+        sv: 'Sladdlös skaftdammsugare med skärm förs längs en bänk och ett klösträd',
+        us: 'Cordless stick vacuum with a display screen, run along a bench next to a cat tree',
+        ca: 'Cordless stick vacuum with a display cleaning along a bench and a cat tree',
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: 'Mejor Aspiradora Sin Cable 2026: Comparativa de las 4 Mejores Aspiradoras Escoba',
     it: 'Migliore Aspirapolvere Senza Filo 2026: Confronto delle 4 Migliori Scope Elettriche',
     nl: 'Beste Draadloze Stofzuiger 2026: Vergelijking van de 4 Beste Steelstofzuigers',
-    pl: 'Najlepszy odkurzacz bezprzewodowy 2026: porównanie 4 najlepszych odkurzaczy pionowych',
+    pl: 'Najlepszy odkurzacz bezprzewodowy 2026: porównanie 4 odkurzaczy pionowych',
+    sv: 'Bästa sladdlösa dammsugare 2026: 4 skaftdammsugare jämförda',
+    us: 'Best Cordless Vacuums of 2026: The Top 4 Stick Vacuums Compared',
+    ca: 'Best Cordless Vacuum 2026: The Top 4 Stick Vacuums Compared',
   },
   excerpt: {
     fr: 'Quel aspirateur balai sans fil choisir en 2026 ? Comparatif du Dyson V15 Detect, du Samsung Bespoke Jet AI, du Rowenta X-Force Flex 15.60 et du LG CordZero A9K : puissance, autonomie, filtration, entretien et profil idéal.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: '¿Qué aspiradora escoba sin cable elegir en 2026? Comparativa de Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 y LG CordZero A9K: potencia, autonomía, filtración, mantenimiento y perfil ideal.',
     it: 'Quale scopa elettrica senza filo scegliere nel 2026? Confronto tra Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 e LG CordZero A9K: potenza, autonomia, filtrazione, manutenzione e profilo ideale.',
     nl: 'Welke draadloze steelstofzuiger kies je in 2026? Vergelijking van Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 en LG CordZero A9K: zuigkracht, gebruiksduur, filtratie, onderhoud en voor wie elk model past.',
-    pl: 'Jaki bezprzewodowy odkurzacz pionowy wybrać w 2026 roku? Porównanie Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 i LG CordZero A9K: moc, czas pracy, filtracja, konserwacja i idealny profil użytkownika.',
+    pl: 'Jaki bezprzewodowy odkurzacz pionowy wybrać w 2026 roku? Porównujemy modele Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 i LG CordZero A9K: moc, czas pracy, filtracja, konserwacja i to, dla kogo jest każdy z nich.',
+    sv: 'Vilken sladdlös dammsugare ska du välja 2026? Vi jämför Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 och LG CordZero A9K: sugkraft, batteritid, filtrering, skötsel och vem varje modell passar för.',
+    us: 'Which cordless stick vacuum should you buy in 2026? We compare the Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 and LG CordZero A9K on suction, runtime, filtration, maintenance and who each one suits best.',
+    ca: 'Which cordless stick vacuum is right for you in 2026? We compare the Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 and LG CordZero A9K on suction, runtime, filtration, maintenance and who each one suits.',
   },
   content: {
     fr: `<p>Le meilleur aspirateur balai sans fil en 2026, pour la plupart des foyers, est le <strong>Dyson V15 Detect</strong> : puissance de référence, laser qui révèle la poussière fine et capteur qui ajuste l’aspiration tout seul. Si vous cherchez le meilleur rapport qualité-prix, le <strong>Rowenta X-Force Flex 15.60</strong> est le choix le plus malin, et si l’autonomie et le vidage automatique comptent avant tout, le <strong>Samsung Bespoke Jet AI</strong> s’impose.</p>
@@ -508,83 +517,314 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>De <strong>Dyson V15 Detect</strong> is de meest complete keuze: zuigkracht op topniveau, een laser die het stof toont, automatische aanpassing en afgedichte filtratie. De <strong>Rowenta X-Force Flex 15.60</strong> biedt de beste prijs-kwaliteitverhouding dankzij de Flex-buis, de grote stofbak en de uitneembare batterij. De <strong>Samsung Bespoke Jet AI</strong> is ideaal als je een lange gebruiksduur wilt en de stofbak nooit meer met de hand wilt legen. De <strong>LG CordZero A9K</strong> past ten slotte goed bij grote oppervlakken, met twee batterijen bij veel versies. Alle modellen vind je in onze rubriek <a href="/nl/entretien-maison/aspirateurs-balais">draadloze steelstofzuigers</a>.</p>`,
-    pl: `<p>Najlepszym bezprzewodowym odkurzaczem pionowym w 2026 roku dla większości domów jest <strong>Dyson V15 Detect</strong>: referencyjna moc, laser ujawniający drobny kurz i czujnik, który sam dostosowuje ssanie. Jeśli szukasz najlepszego stosunku jakości do ceny, <strong>Rowenta X-Force Flex 15.60</strong> to najmądrzejszy wybór, a gdy najważniejsze są czas pracy i automatyczne opróżnianie, wygrywa <strong>Samsung Bespoke Jet AI</strong>.</p>
-<p>Porównanie opiera się na kartach katalogowych producentów, analizach prasy branżowej i opiniach zweryfikowanych kupujących. Omawia cztery modele szeroko sprzedawane w Europie, z ich mocnymi stronami, ograniczeniami i typem domu, do którego pasują. Aby zobaczyć całą ofertę, zajrzyj do działu <a href="/pl/entretien-maison/aspirateurs-balais">bezprzewodowe odkurzacze pionowe</a>.</p>
+    pl: `<p>Dla większości domów najlepszym bezprzewodowym odkurzaczem pionowym w 2026 roku jest <strong>Dyson V15 Detect</strong>: ma moc ssania, z którą porównuje się konkurencję, laser uwidaczniający drobny kurz i czujnik, który automatycznie dopasowuje ssanie. Jeśli szukasz najlepszego stosunku jakości do ceny, najrozsądniejszym wyborem jest <strong>Rowenta X-Force Flex 15.60</strong>, a gdy liczą się przede wszystkim czas pracy i automatyczne opróżnianie, wygrywa <strong>Samsung Bespoke Jet AI</strong>.</p>
+<p>Porównanie powstało na podstawie kart katalogowych producentów, analiz prasy branżowej i opinii zweryfikowanych kupujących. Omawiamy cztery modele powszechnie dostępne w Europie: ich mocne strony, ograniczenia i to, do jakiego domu pasuje każdy z nich. Całą ofertę znajdziesz w kategorii <a href="/pl/entretien-maison/aspirateurs-balais">bezprzewodowe odkurzacze pionowe</a>.</p>
 
 <h2>Kryteria wyboru bezprzewodowego odkurzacza pionowego</h2>
 <h3>1. Moc ssania: AW, W i Pa</h3>
-<p>Producenci nie używają tej samej jednostki. <strong>Air Watts (AW)</strong>, stosowane przez Dysona czy Rowentę, mierzą użyteczną moc ssania. Samsung podaje moc ssania w watach (W), inne marki w paskalach (Pa). Tych liczb nie da się więc bezpośrednio porównywać między markami. Są też prawie zawsze podawane w trybie maksymalnym, który najszybciej rozładowuje baterię. Pamiętaj przede wszystkim, że dobra szczotka z napędem i dobra szczelność liczą się tak samo jak podana liczba.</p>
-<h3>2. Rzeczywisty czas pracy i wymienna bateria</h3>
-<p>Deklarowany czas pracy (60, 80 lub 100 minut) dotyczy trybu eko, często bez szczotki z napędem. W trybie pośrednim wyraźnie spada, a w trybie turbo zmniejsza się do kilku minut. <strong>Wymienna bateria</strong> ma dwie zalety: można dokupić drugą baterię, aby podwoić czas pracy, i łatwo wymienić zużytą po kilku latach zamiast zmieniać całe urządzenie. Wszystkie cztery modele z tego porównania mają wymienną baterię.</p>
+<p>Producenci posługują się różnymi jednostkami. <strong>Air Watts (AW)</strong>, których używają m.in. Dyson i Rowenta, określają użyteczną moc ssania. Samsung podaje moc ssania w watach (W), a inne marki – w paskalach (Pa). Dlatego wartości różnych marek nie da się porównać wprost. Niemal zawsze dotyczą też trybu maksymalnego, który najszybciej rozładowuje akumulator. Zapamiętaj przede wszystkim, że dobra szczotka elektryczna i szczelność urządzenia znaczą tyle samo co liczba w specyfikacji.</p>
+<h3>2. Rzeczywisty czas pracy i wymienny akumulator</h3>
+<p>Deklarowany czas pracy (60, 80 lub 100 minut) dotyczy trybu eko, często bez włączonej szczotki elektrycznej. W trybie średnim wyraźnie się skraca, a w trybie turbo spada do kilku minut. <strong>Wymienny akumulator</strong> ma dwie zalety: można dokupić drugi i podwoić czas pracy, a zużyty po kilku latach łatwo wymienić, zamiast kupować nowy odkurzacz. Wszystkie cztery modele z tego porównania mają wymienny akumulator.</p>
 <h3>3. Filtracja</h3>
-<p>Dla alergików liczy się nie tylko obecność filtra HEPA, ale <strong>szczelność całego urządzenia</strong>: jeśli powietrze ucieka między pojemnikiem a korpusem, część drobnych cząstek wraca do pomieszczenia. Dyson podkreśla filtrację zamkniętą w całym urządzeniu. Weź też pod uwagę opróżnianie: pojemnik otwierany jednym ruchem nad koszem lub stacja do automatycznego opróżniania ogranicza kontakt z kurzem.</p>
+<p>Dla alergików liczy się nie tylko sam filtr HEPA, ale też <strong>szczelność całego urządzenia</strong>: jeśli powietrze ucieka między pojemnikiem a korpusem, część drobnego pyłu wraca do pomieszczenia. Dyson podkreśla, że w jego odkurzaczu szczelny jest cały układ filtracji. Zwróć też uwagę na opróżnianie: pojemnik, który otwiera się jednym ruchem nad koszem, albo stacja automatycznego opróżniania ogranicza kontakt z kurzem.</p>
 <h3>4. Pojemnik na kurz</h3>
-<p>Pojemności wahają się od około 0,4 do 0,9 l. Duży pojemnik pozwala nie opróżniać go w trakcie sprzątania w dużym mieszkaniu lub przy zwierzętach. Mały pojemnik może wystarczyć, jeśli rekompensuje go system prasowania kurzu (LG) albo stacja opróżniająca automatycznie (Samsung).</p>
-<h3>5. Waga i zwrotność</h3>
-<p>Większość odkurzaczy pionowych waży około 3 kg z rurą i szczotką. Ciężar odczuwa się głównie w trybie odkurzacza ręcznego, przy sufitach, półkach lub we wnętrzu samochodu. Elastyczna lub teleskopowa rura ułatwia sprzątanie pod niskimi meblami.</p>
+<p>Pojemniki mieszczą od ok. 0,4 do 0,9 l. Duży pojemnik pozwala posprzątać spore mieszkanie bez opróżniania go w połowie pracy, co ma znaczenie także wtedy, gdy masz zwierzęta. Mały może wystarczyć, jeśli rekompensuje go system kompresji kurzu (LG) albo stacja automatycznego opróżniania (Samsung).</p>
+<h3>5. Waga i poręczność</h3>
+<p>Większość odkurzaczy pionowych waży z rurą i szczotką około 3 kg. Ciężar czuć przede wszystkim w trybie ręcznym – przy odkurzaniu sufitu, półek czy wnętrza samochodu. Zginana lub teleskopowa rura ułatwia sprzątanie pod niskimi meblami.</p>
 <h3>6. Szczotki i akcesoria</h3>
-<p>Szczotka antyplątająca oszczędza mnóstwo czasu przy długich włosach lub sierści zwierząt. Miękka szczotka lepiej pasuje do parkietów i płytek. Mała elektryczna końcówka przydaje się do kanapy, foteli samochodowych i schodów.</p>
+<p>Szczotka, na którą nie nawijają się włosy, oszczędza mnóstwo czasu przy długich włosach i sierści zwierząt. Do parkietu i płytek lepiej nadaje się miękka szczotka. Mała elektroszczotka przydaje się do kanapy, foteli samochodowych i schodów.</p>
 
 <h2>Najlepsze bezprzewodowe odkurzacze pionowe w 2026 roku</h2>
-<h3>Dyson V15 Detect: najbardziej kompletny model referencyjny</h3>
-<p><strong>Dyson V15 Detect</strong> pozostaje najbardziej dopracowanym odkurzaczem w tym zestawieniu. Jego głowica Fluffy z miękkim wałkiem rzuca tuż przy podłodze <strong>zielony promień lasera</strong>, który uwidacznia drobny kurz i sierść na twardych podłogach. <strong>Czujnik piezoelektryczny</strong> mierzy wielkość i ilość zasysanych cząstek, wyświetla te dane na ekranie LCD, a w trybie Auto zwiększa moc, gdy wykryje dużo kurzu.</p>
-<p>Dyson deklaruje do 60 minut pracy w trybie eko, pojemnik 0,76 l i filtrację zamkniętą w całym urządzeniu. Baterię wyjmuje się jednym kliknięciem, bez śrubokręta, a akcesorium antyplątające ze stożkową końcówką ułatwia usuwanie sierści z tkanin.</p>
-<p><strong>Mocne strony:</strong> jedno z najmocniejszych ssań na rynku, laser bardzo przydatny na twardych podłogach, automatyczna regulacja mocy, filtracja zamknięta, wymienna bateria.</p>
-<p><strong>Ograniczenia:</strong> model z wyższej półki, waga około 3 kg odczuwalna na wyciągniętej ręce, bardzo krótki czas pracy w trybie Boost.</p>
-<p><strong>Dla kogo:</strong> dla domów, które chcą jednego wydajnego urządzenia na każdą podłogę, dla alergików i właścicieli zwierząt.</p>
+<h3>Dyson V15 Detect: najbardziej kompletny</h3>
+<p><strong>Dyson V15 Detect</strong> to wciąż najbardziej dopracowany odkurzacz w tym zestawieniu. Głowica Fluffy z miękkim wałkiem rzuca tuż nad podłogą <strong>zieloną wiązkę lasera</strong>, w której świetle na twardych podłogach widać drobny kurz i sierść. <strong>Czujnik piezoelektryczny</strong> mierzy wielkość i liczbę zasysanych cząstek, pokazuje te dane na wyświetlaczu LCD, a w trybie Auto zwiększa moc, gdy wykryje dużo kurzu.</p>
+<p>Dyson deklaruje do 60 minut pracy w trybie eko, pojemnik 0,76 l i szczelną filtrację w całym urządzeniu. Akumulator wyjmuje się jednym kliknięciem, bez odkręcania śrub, a końcówka ze stożkowym wałkiem, na który nie nawijają się włosy, ułatwia zbieranie sierści z tkanin.</p>
+<p><strong>Mocne strony:</strong> jedna z największych sił ssania na rynku, laser bardzo przydatny na twardych podłogach, automatyczna regulacja mocy, szczelna filtracja, wymienny akumulator.</p>
+<p><strong>Ograniczenia:</strong> model z wyższej półki; waga ok. 3 kg, odczuwalna przy odkurzaniu z wyciągniętą ręką; bardzo krótki czas pracy w trybie Boost.</p>
+<p><strong>Dla kogo:</strong> dla domów, w których ma wystarczyć jedno wydajne urządzenie do każdej podłogi, a także dla alergików i właścicieli zwierząt.</p>
 
-<h3>Samsung Bespoke Jet AI: czas pracy i automatyczne opróżnianie</h3>
-<p><strong>Samsung Bespoke Jet AI</strong> stawia na automatyzację. Jego silnik HexaJet daje według Samsunga do 280 W mocy ssania, a tryb sprzątania z użyciem sztucznej inteligencji rozpoznaje rodzaj podłogi, aby dostosować moc. Samsung deklaruje <strong>do 100 minut pracy</strong>, czyli jedną z najwyższych wartości w kategorii.</p>
-<p>Jego największym atutem jest stacja <strong>All-in-One Clean Station</strong>: odstawiasz do niej odkurzacz, który się ładuje, podczas gdy stacja automatycznie opróżnia pojemnik do worka. Pojemnik w samym odkurzaczu jest mniejszy (około 0,5 l), ale prawie nie trzeba go już opróżniać ręcznie.</p>
-<p><strong>Mocne strony:</strong> bardzo dobry czas pracy, higieniczne automatyczne opróżnianie, inteligentna regulacja mocy, filtracja HEPA.</p>
+<h3>Samsung Bespoke Jet AI: długi czas pracy i automatyczne opróżnianie</h3>
+<p><strong>Samsung Bespoke Jet AI</strong> stawia na automatyzację. Według producenta silnik HexaJet zapewnia do 280 W mocy ssania, a tryb sprzątania wspomagany sztuczną inteligencją rozpoznaje rodzaj podłogi i dopasowuje do niego moc. Samsung deklaruje <strong>do 100 minut pracy</strong> – to jeden z najlepszych wyników w tej kategorii.</p>
+<p>Największym atutem jest stacja <strong>All-in-One Clean Station</strong>: odstawiony do niej odkurzacz ładuje się, a stacja w tym czasie automatycznie opróżnia pojemnik do worka. Pojemnik samego odkurzacza jest mniejszy (ok. 0,5 l), ale ręcznie opróżnia się go bardzo rzadko.</p>
+<p><strong>Mocne strony:</strong> bardzo długi czas pracy, higieniczne automatyczne opróżnianie, inteligentna regulacja mocy, filtracja HEPA.</p>
 <p><strong>Ograniczenia:</strong> stacja zajmuje miejsce na podłodze, worki do stacji trzeba dokupować, model z wyższej półki.</p>
-<p><strong>Dla kogo:</strong> dla dużych mieszkań, alergików, którzy chcą uniknąć kontaktu z kurzem, oraz tych, którzy nie lubią opróżniać pojemnika.</p>
+<p><strong>Dla kogo:</strong> dla dużych mieszkań, dla alergików, którzy chcą uniknąć kontaktu z kurzem, i dla wszystkich, którzy nie lubią opróżniać pojemnika.</p>
 
 <h3>Rowenta X-Force Flex 15.60: najlepszy stosunek jakości do ceny</h3>
-<p><strong>Rowenta X-Force Flex 15.60</strong> to topowy odkurzacz pionowy francuskiej marki, zwykle w bardziej przystępnej cenie niż poprzednie modele. Jej znakiem rozpoznawczym jest <strong>rura Flex</strong>, która się zgina, aby wsunąć się pod kanapę, łóżko lub niską komodę bez schylania się.</p>
-<p>Rowenta deklaruje do 230 AW mocy w trybie Boost, do 80 minut pracy w trybie eko, wymienną baterię i <strong>pojemnik 0,9 l</strong>, największy w tym zestawieniu. Wyświetlacz pokazuje pozostały czas pracy, a wersja Animal dodaje szczotkę z oświetleniem LED. Cyklon, filtr i pojemnik można myć wodą.</p>
-<p><strong>Mocne strony:</strong> bardzo praktyczna rura Flex, duży pojemnik, wymienna bateria, myjący się filtr, doskonały stosunek możliwości do ceny.</p>
-<p><strong>Ograniczenia:</strong> nieco cięższa niż średnia (około 3,2 kg), brak automatycznego wykrywania kurzu.</p>
-<p><strong>Dla kogo:</strong> dla mieszkań i domów średniej wielkości oraz domów z wieloma niskimi meblami.</p>
+<p><strong>Rowenta X-Force Flex 15.60</strong> to topowy odkurzacz pionowy francuskiej marki, zwykle w przystępniejszej cenie niż jego poprzednicy. Jego znakiem rozpoznawczym jest <strong>rura Flex</strong>, która zgina się tak, że bez schylania się wsuniesz końcówkę pod kanapę, łóżko czy niską komodę.</p>
+<p>Rowenta deklaruje do 230 AW mocy w trybie Boost, do 80 minut pracy w trybie eko, wymienny akumulator i <strong>pojemnik 0,9 l</strong> – największy w tym zestawieniu. Wyświetlacz pokazuje pozostały czas pracy, a wersja Animal ma dodatkowo szczotkę z podświetleniem LED. Cyklon, filtr i pojemnik można myć wodą.</p>
+<p><strong>Mocne strony:</strong> bardzo praktyczna rura Flex, duży pojemnik, wymienny akumulator, filtr nadający się do mycia, świetny stosunek możliwości do ceny.</p>
+<p><strong>Ograniczenia:</strong> nieco cięższy od przeciętnego modelu (ok. 3,2 kg), brak automatycznego wykrywania kurzu.</p>
+<p><strong>Dla kogo:</strong> dla mieszkań i domów średniej wielkości oraz wnętrz z wieloma niskimi meblami.</p>
 
-<h3>LG CordZero A9K: dwie baterie na duże powierzchnie</h3>
-<p><strong>LG CordZero A9K</strong> wyróżnia się technologią <strong>Kompressor</strong>: dźwignia ubija kurz i sierść w pojemniku, według LG nawet około 2,4 raza. Pojemnik o pojemności około 0,44 l może więc pomieścić więcej, a jego opróżnianie jest czystsze. Całość uzupełniają silnik Smart Inverter i rura teleskopowa.</p>
-<p>W zależności od wersji A9K jest dostarczany z <strong>dwiema wymiennymi bateriami</strong>. LG deklaruje do 60 minut na jednej baterii w trybie normalnym, czyli do 120 minut z obiema. W trybie Turbo czas pracy spada do kilku minut na baterię.</p>
-<p><strong>Mocne strony:</strong> prasowanie kurzu, dwie baterie w wielu wersjach, rura teleskopowa, wielostopniowa filtracja.</p>
-<p><strong>Ograniczenia:</strong> mały pojemnik bez prasowania, liczne odmiany (CORE, PRO, ULTRA…), w których akcesoria i liczba baterii się różnią, więc trzeba uważnie czytać kartę produktu.</p>
-<p><strong>Dla kogo:</strong> dla dużych powierzchni, które korzystają z drugiej baterii, i dla tych, którzy chcą rzadziej opróżniać pojemnik.</p>
+<h3>LG CordZero A9K: dwa akumulatory do dużych powierzchni</h3>
+<p><strong>LG CordZero A9K</strong> wyróżnia się technologią <strong>Kompressor</strong>: dźwignia ubija kurz i sierść w pojemniku – według LG nawet ok. 2,4 raza. Dzięki temu pojemnik o pojemności ok. 0,44 l mieści więcej, a jego opróżnianie jest czystsze. Całość uzupełniają silnik Smart Inverter i rura teleskopowa.</p>
+<p>W zależności od wersji w zestawie z A9K są <strong>dwa wymienne akumulatory</strong>. LG deklaruje do 60 minut pracy na jednym akumulatorze w trybie normalnym, czyli do 120 minut na obu. W trybie Turbo czas pracy spada do kilku minut na akumulator.</p>
+<p><strong>Mocne strony:</strong> kompresja kurzu, dwa akumulatory w wielu wersjach, rura teleskopowa, wielostopniowa filtracja.</p>
+<p><strong>Ograniczenia:</strong> mały pojemnik, jeśli nie korzystasz z kompresji; wiele wariantów (CORE, PRO, ULTRA…) różni się akcesoriami i liczbą akumulatorów, więc trzeba uważnie czytać kartę produktu.</p>
+<p><strong>Dla kogo:</strong> dla dużych powierzchni, na których przydaje się drugi akumulator, i dla osób, które chcą rzadziej opróżniać pojemnik.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Mocna strona</th><th>Maks. deklarowany czas pracy</th><th>Pojemnik</th><th>Wymienna bateria</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Główna zaleta</th><th>Maks. deklarowany czas pracy</th><th>Pojemnik</th><th>Wymienny akumulator</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Dyson V15 Detect</td><td>Laser + czujnik cząstek</td><td>Do 60 min</td><td>0,76 l</td><td>Tak</td><td>Wszechstronne użycie, alergie</td></tr>
-<tr><td>Samsung Bespoke Jet AI</td><td>Stacja automatycznego opróżniania</td><td>Do 100 min</td><td>Około 0,5 l</td><td>Tak</td><td>Duże mieszkania, zero kontaktu z kurzem</td></tr>
-<tr><td>Rowenta X-Force Flex 15.60</td><td>Rura Flex pod meblami</td><td>Do 80 min</td><td>0,9 l</td><td>Tak</td><td>Najlepszy stosunek jakości do ceny</td></tr>
-<tr><td>LG CordZero A9K</td><td>Prasowanie kurzu</td><td>Do 120 min (2 baterie)</td><td>Około 0,44 l</td><td>Tak</td><td>Duże powierzchnie</td></tr>
+<tr><td>Dyson V15 Detect</td><td>Laser + czujnik cząstek</td><td>Do 60 min</td><td>0,76 l</td><td>Tak</td><td>Wszechstronne sprzątanie, alergie</td></tr>
+<tr><td>Samsung Bespoke Jet AI</td><td>Stacja automatycznego opróżniania</td><td>Do 100 min</td><td>Ok. 0,5 l</td><td>Tak</td><td>Duże mieszkania, zero kontaktu z kurzem</td></tr>
+<tr><td>Rowenta X-Force Flex 15.60</td><td>Rura Flex do sprzątania pod meblami</td><td>Do 80 min</td><td>0,9 l</td><td>Tak</td><td>Najlepszy stosunek jakości do ceny</td></tr>
+<tr><td>LG CordZero A9K</td><td>Kompresja kurzu</td><td>Do 120 min (2 akumulatory)</td><td>Ok. 0,44 l</td><td>Tak</td><td>Duże powierzchnie</td></tr>
 </tbody>
 </table>
-<p>Czasy pracy to wartości deklarowane przez producentów w trybie eko. Zależą od trybu, użytej szczotki i wersji produktu.</p>
+<p>Podane czasy pracy to deklaracje producentów dla trybu eko. W praktyce zależą od trybu, użytej szczotki i wersji produktu.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Porównywanie wartości mocy różnych marek.</strong> AW, W i Pa nie mierzą tego samego, a warunki pomiaru się różnią.</li>
-<li><strong>Zaufanie maksymalnemu czasowi pracy.</strong> Dotyczy on najbardziej oszczędnego trybu. W dużym mieszkaniu wybierz wymienną baterię lub drugą baterię.</li>
-<li><strong>Wybór wersji bez sprawdzenia zawartości zestawu.</strong> Ten sam model często występuje w kilku wersjach (akcesoria, liczba baterii, stacja). Przeczytaj dokładne oznaczenie.</li>
-<li><strong>Zaniedbywanie konserwacji filtrów.</strong> Zabrudzony filtr obniża ssanie i męczy silnik.</li>
-<li><strong>Oczekiwanie, że odkurzacz pionowy umyje podłogę.</strong> Do odkurzania i mycia jednocześnie lepiej nadaje się odkurzacz myjący (zobacz nasze <a href="/pl/blog/meilleur-aspirateur-laveur-2026">porównanie odkurzaczy myjących</a>).</li>
+<li><strong>Porównywanie mocy podawanej przez różne marki.</strong> AW, W i Pa mierzą co innego, a warunki pomiaru też się różnią.</li>
+<li><strong>Sugerowanie się maksymalnym czasem pracy.</strong> Dotyczy on najoszczędniejszego trybu. W dużym mieszkaniu wybierz model z wymiennym akumulatorem albo dokup drugi akumulator.</li>
+<li><strong>Kupowanie wersji bez sprawdzenia zawartości zestawu.</strong> Ten sam model często występuje w kilku wersjach (akcesoria, liczba akumulatorów, stacja). Sprawdź dokładne oznaczenie modelu.</li>
+<li><strong>Zaniedbywanie czyszczenia filtrów.</strong> Zapchany filtr osłabia ssanie i obciąża silnik.</li>
+<li><strong>Oczekiwanie, że odkurzacz pionowy umyje podłogę.</strong> Jeśli chcesz odkurzać i myć za jednym razem, lepiej sprawdzi się odkurzacz myjący (zobacz nasze <a href="/pl/blog/meilleur-aspirateur-laveur-2026">porównanie odkurzaczy myjących</a>).</li>
 </ul>
 
-<h2>Konserwacja i bezpieczeństwo baterii</h2>
-<p>Opróżniaj pojemnik, gdy tylko osiągnie oznaczenie maksymalne, i regularnie obcinaj włosy nawinięte na szczotkę. Myj filtry zmywalne zimną wodą, bez detergentu, z częstotliwością podaną przez producenta, i pozostaw je do <strong>całkowitego wyschnięcia</strong> przed ponownym zamontowaniem. Pod względem baterii używaj wyłącznie oryginalnej ładowarki i baterii oryginalnych lub zgodnych, zalecanych przez producenta, nie zostawiaj urządzenia w bardzo ciepłym pomieszczeniu ani na słońcu, a zużyte baterie oddawaj do punktu zbiórki: baterie litowo-jonowe nigdy nie trafiają do zwykłego kosza.</p>
+<h2>Konserwacja i bezpieczeństwo akumulatora</h2>
+<p>Opróżniaj pojemnik, gdy tylko kurz dojdzie do oznaczenia maksymalnego poziomu, i regularnie rozcinaj włosy nawinięte na szczotkę. Filtry, które można myć, płucz zimną wodą bez detergentów tak często, jak zaleca producent, i przed ponownym założeniem pozostaw je do <strong>całkowitego wyschnięcia</strong>. Jeśli chodzi o akumulator, używaj tylko oryginalnej ładowarki oraz oryginalnych akumulatorów lub zamienników zalecanych przez producenta, nie zostawiaj odkurzacza w bardzo ciepłym pomieszczeniu ani na słońcu, a zużyte akumulatory oddawaj do punktu zbiórki – akumulatory litowo-jonowe nigdy nie mogą trafić do zwykłego kosza.</p>
 
-<h2>Odkurzacz bezprzewodowy czy robot sprzątający?</h2>
-<p>Oba urządzenia się uzupełniają. Robot na co dzień dba o podłogę bez wysiłku, a odkurzacz pionowy pozostaje niezbędny do schodów, narożników, kanap i gruntowniejszego sprzątania. Jeśli wahasz się między jednym a drugim, pomoże Ci nasze <a href="/pl/blog/robot-aspirateur-vs-balai">porównanie robota sprzątającego i odkurzacza pionowego</a>.</p>
+<h2>Odkurzacz pionowy czy robot sprzątający?</h2>
+<p>Te dwa urządzenia się uzupełniają. Robot bez Twojego udziału codziennie utrzymuje podłogi w czystości, a odkurzacz pionowy nadal jest niezbędny na schodach, w narożnikach, na kanapach i przy gruntowniejszym sprzątaniu. Jeśli wahasz się między nimi, pomoże Ci nasze <a href="/pl/blog/robot-aspirateur-vs-balai">porównanie robota sprzątającego i odkurzacza pionowego</a>.</p>
 
 <h2>Nasz werdykt</h2>
-<p><strong>Dyson V15 Detect</strong> to najbardziej kompletny wybór: referencyjna moc, laser pokazujący kurz, automatyczna regulacja i filtracja zamknięta. <strong>Rowenta X-Force Flex 15.60</strong> oferuje najlepszy stosunek jakości do ceny dzięki rurze Flex, dużemu pojemnikowi i wymiennej baterii. <strong>Samsung Bespoke Jet AI</strong> jest idealny, jeśli chcesz długiego czasu pracy i nie opróżniać pojemnika ręcznie. Wreszcie <strong>LG CordZero A9K</strong> dobrze sprawdza się na dużych powierzchniach dzięki dwóm bateriom w wielu wersjach. Wszystkie modele znajdziesz w dziale <a href="/pl/entretien-maison/aspirateurs-balais">bezprzewodowe odkurzacze pionowe</a>.</p>`,
+<p><strong>Dyson V15 Detect</strong> to najbardziej kompletny wybór: topowa moc ssania, laser pokazujący kurz, automatyczna regulacja i szczelna filtracja. <strong>Rowenta X-Force Flex 15.60</strong> zapewnia najlepszy stosunek jakości do ceny dzięki zginanej rurze Flex, dużemu pojemnikowi i wymiennemu akumulatorowi. <strong>Samsung Bespoke Jet AI</strong> będzie idealny, jeśli zależy Ci na długim czasie pracy i nie chcesz już ręcznie opróżniać pojemnika. <strong>LG CordZero A9K</strong> dobrze sprawdza się z kolei na dużych powierzchniach, bo w wielu wersjach ma dwa akumulatory. Wszystkie modele znajdziesz w kategorii <a href="/pl/entretien-maison/aspirateurs-balais">bezprzewodowe odkurzacze pionowe</a>.</p>`,
+    sv: `<p>Den bästa sladdlösa dammsugaren 2026 för de flesta hem är <strong>Dyson V15 Detect</strong>: sugkraft i toppklass, en laser som avslöjar fint damm och en sensor som justerar sugeffekten själv. Söker du den mest prisvärda modellen är <strong>Rowenta X-Force Flex 15.60</strong> det klokaste köpet, och om batteritid och automatisk tömning väger tyngst är <strong>Samsung Bespoke Jet AI</strong> det självklara valet.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, fackpressens utvärderingar och verifierade köparomdömen. Den går igenom fyra modeller som säljs brett i Europa, med styrkor, svagheter och vilken typ av hushåll varje modell passar bäst för. Hela sortimentet hittar du i vår avdelning för <a href="/sv/entretien-maison/aspirateurs-balais">sladdlösa dammsugare</a>.</p>
+
+<h2>Så väljer du rätt sladdlös dammsugare</h2>
+<h3>1. Sugkraft: AW, W och Pa</h3>
+<p>Alla tillverkare använder inte samma enhet. <strong>Air Watts (AW)</strong>, som Dyson och Rowenta använder, mäter den användbara sugeffekten. Samsung anger sugeffekten i watt (W), andra märken i pascal (Pa). Siffrorna går därför inte att jämföra direkt mellan olika märken, och de gäller nästan alltid maxläget, det som tömmer batteriet snabbast. Kom ihåg att en bra motorborste och en tät konstruktion betyder lika mycket som siffran på förpackningen.</p>
+<h3>2. Verklig batteritid och löstagbart batteri</h3>
+<p>Den utlovade batteritiden (60, 80 eller 100 minuter) gäller ekoläget, ofta utan motorborste. I mellanläget sjunker den märkbart, och i turboläget räcker den bara några minuter. Ett <strong>löstagbart batteri</strong> har två fördelar: du kan köpa ett extra batteri och fördubbla batteritiden, och du kan enkelt byta ut ett uttjänt batteri efter några år i stället för hela dammsugaren. Alla fyra modellerna i jämförelsen har löstagbart batteri.</p>
+<h3>3. Filtrering</h3>
+<p>För allergiker räcker det inte med ett HEPA-filter. Det som avgör är att <strong>hela dammsugaren är tät</strong>: läcker det luft mellan dammbehållaren och själva dammsugaren kommer en del av de fina partiklarna ut i rummet igen. Dyson framhåller en filtrering som är tät genom hela maskinen. Tänk också på tömningen: en behållare som öppnas med ett handgrepp över sophinken, eller en station som tömmer automatiskt, minskar kontakten med dammet.</p>
+<h3>4. Dammbehållaren</h3>
+<p>Volymen ligger mellan ungefär 0,4 och 0,9 liter. En stor behållare gör att du slipper tömma mitt i städningen i en stor bostad eller om du har husdjur. En liten behållare kan räcka om den kompenseras av ett system som pressar ihop dammet (LG) eller av en station som tömmer automatiskt (Samsung).</p>
+<h3>5. Vikt och smidighet</h3>
+<p>De flesta sladdlösa dammsugare väger runt 3 kg med rör och munstycke. Vikten känns mest när du använder den som handdammsugare – i taket, på hyllor eller i bilen. Ett böjbart rör eller ett teleskoprör gör det lättare att komma åt under låga möbler.</p>
+<h3>6. Munstycken och tillbehör</h3>
+<p>En borste med antitrasselfunktion sparar mycket tid om det finns långt hår eller djurhår hemma. En mjuk valsborste passar bättre på parkett och klinker. Ett litet motordrivet munstycke är praktiskt för soffan, bilsätena och trappan.</p>
+
+<h2>De bästa sladdlösa dammsugarna 2026</h2>
+<h3>Dyson V15 Detect: den mest kompletta allroundmodellen</h3>
+<p><strong>Dyson V15 Detect</strong> är fortfarande den mest genomarbetade modellen i urvalet. Fluffy-munstycket med mjuk valsborste lyser med en <strong>grön laserstråle</strong> längs golvet, så att fint damm och hår syns på hårda golv. En <strong>piezoelektrisk sensor</strong> mäter storleken på och mängden partiklar som sugs upp, visar uppgifterna på LCD-skärmen och höjer i Auto-läget sugeffekten när den känner av mycket damm.</p>
+<p>Dyson uppger upp till 60 minuters batteritid i ekoläge, en dammbehållare på 0,76 liter och en tät filtrering genom hela maskinen. Batteriet tas loss med ett klick, utan skruvar, och det koniska antitrasselmunstycket gör det lätt att få bort hår från textilier.</p>
+<p><strong>Styrkor:</strong> sugkraft som hör till de starkaste på marknaden, en laser som verkligen gör nytta på hårda golv, automatisk effektjustering, tät filtrering, löstagbart batteri.</p>
+<p><strong>Svagheter:</strong> premiummodell, vikten på runt 3 kg känns i armen, mycket kort batteritid i Boost-läget.</p>
+<p><strong>Passar för:</strong> hem som vill ha en enda kraftfull dammsugare för alla golv, allergiker och husdjursägare.</p>
+
+<h3>Samsung Bespoke Jet AI: lång batteritid och automatisk tömning</h3>
+<p><strong>Samsung Bespoke Jet AI</strong> satsar på automatik. Enligt Samsung ger HexaJet-motorn upp till 280 W sugeffekt, och AI-läget känner av golvtypen och anpassar effekten efter den. Samsung uppger <strong>upp till 100 minuters batteritid</strong>, en av de högsta siffrorna i kategorin.</p>
+<p>Den stora fördelen är <strong>All-in-One Clean Station</strong>: du ställer dammsugaren i den, och medan den laddas tömmer stationen automatiskt dammbehållaren i en påse. Själva dammsugarens behållare är mindre (ca 0,5 liter), men du behöver nästan aldrig tömma den för hand.</p>
+<p><strong>Styrkor:</strong> mycket bra batteritid, hygienisk automatisk tömning, smart effektjustering, HEPA-filtrering.</p>
+<p><strong>Svagheter:</strong> stationen tar golvplats, påsarna till stationen måste köpas till, premiummodell.</p>
+<p><strong>Passar för:</strong> stora bostäder, allergiker som vill undvika all kontakt med damm och alla som inte gillar att tömma behållaren.</p>
+
+<h3>Rowenta X-Force Flex 15.60: mest prisvärd</h3>
+<p><strong>Rowenta X-Force Flex 15.60</strong> är det franska märkets toppmodell bland sladdlösa dammsugare, men brukar kosta mindre än modellerna ovan. Kännetecknet är <strong>Flex-röret</strong>, som kan vikas så att du kommer åt under soffan, sängen eller en låg byrå utan att behöva böja dig.</p>
+<p>Rowenta uppger upp till 230 AW i Boost-läget, upp till 80 minuters batteritid i ekoläge, löstagbart batteri och en <strong>dammbehållare på 0,9 liter</strong>, den största i urvalet. En display visar hur mycket batteritid som återstår, och Animal-versionen har dessutom ett munstycke med LED-belysning. Cyklonen, filtret och behållaren kan sköljas i vatten.</p>
+<p><strong>Styrkor:</strong> mycket praktiskt Flex-rör, stor behållare, löstagbart batteri, tvättbart filter, mycket utrustning för pengarna.</p>
+<p><strong>Svagheter:</strong> lite tyngre än genomsnittet (ca 3,2 kg), ingen automatisk dammdetektering.</p>
+<p><strong>Passar för:</strong> lägenheter och medelstora hus, och hem med många låga möbler.</p>
+
+<h3>LG CordZero A9K: två batterier för stora ytor</h3>
+<p><strong>LG CordZero A9K</strong> sticker ut med tekniken <strong>Kompressor</strong>: en spak pressar ihop damm och hår i behållaren, enligt LG upp till ungefär 2,4 gånger. Behållaren på ca 0,44 liter rymmer därmed mer och töms renare. Till det kommer Smart Inverter-motorn och ett teleskoprör.</p>
+<p>Beroende på version levereras A9K med <strong>två utbytbara batterier</strong>. LG uppger upp till 60 minuter per batteri i normalläge, alltså upp till 120 minuter med båda. I Turbo-läget sjunker batteritiden till några minuter per batteri.</p>
+<p><strong>Styrkor:</strong> pressar ihop dammet, två batterier i många versioner, teleskoprör, filtrering i flera steg.</p>
+<p><strong>Svagheter:</strong> liten behållare om du inte pressar ihop dammet, många varianter (CORE, PRO, ULTRA…) med olika tillbehör och antal batterier, så läs produktbeskrivningen noga.</p>
+<p><strong>Passar för:</strong> stora ytor där det andra batteriet gör nytta, och dig som vill tömma behållaren mer sällan.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Största styrka</th><th>Längsta uppgivna batteritid</th><th>Behållare</th><th>Löstagbart batteri</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>Dyson V15 Detect</td><td>Laser + partikelsensor</td><td>Upp till 60 min</td><td>0,76 l</td><td>Ja</td><td>Allround, allergi</td></tr>
+<tr><td>Samsung Bespoke Jet AI</td><td>Station för automatisk tömning</td><td>Upp till 100 min</td><td>Ca 0,5 l</td><td>Ja</td><td>Stora bostäder, ingen dammkontakt</td></tr>
+<tr><td>Rowenta X-Force Flex 15.60</td><td>Flex-rör som når under möbler</td><td>Upp till 80 min</td><td>0,9 l</td><td>Ja</td><td>Mest prisvärd</td></tr>
+<tr><td>LG CordZero A9K</td><td>Pressar ihop dammet</td><td>Upp till 120 min (2 batterier)</td><td>Ca 0,44 l</td><td>Ja</td><td>Stora ytor</td></tr>
+</tbody>
+</table>
+<p>Batteritiderna är tillverkarnas uppgifter för ekoläge. De varierar med läge, munstycke och produktversion.</p>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att jämföra effektsiffror mellan olika märken.</strong> AW, W och Pa mäter inte samma sak, och mätförhållandena skiljer sig åt.</li>
+<li><strong>Att lita på den maximala batteritiden.</strong> Den gäller det snålaste läget. I en stor bostad är ett löstagbart batteri eller ett extrabatteri ett bättre val.</li>
+<li><strong>Att välja en version utan att kontrollera vad som ingår.</strong> Samma modell finns ofta i flera versioner (tillbehör, antal batterier, station). Läs den exakta modellbeteckningen.</li>
+<li><strong>Att slarva med filtren.</strong> Ett igensatt filter försämrar sugkraften och sliter på motorn.</li>
+<li><strong>Att vänta sig att en sladdlös dammsugare ska våttorka golvet.</strong> Vill du dammsuga och våttorka i ett svep passar en golvtvätt bättre (se vår <a href="/sv/blog/meilleur-aspirateur-laveur-2026">jämförelse av golvtvättar</a>).</li>
+</ul>
+
+<h2>Skötsel och batterisäkerhet</h2>
+<p>Töm behållaren så fort den når maxmarkeringen och klipp regelbundet bort hår som har lindat sig runt borsten. Skölj tvättbara filter i kallt vatten utan rengöringsmedel, så ofta som tillverkaren anger, och låt dem <strong>torka helt</strong> innan du sätter tillbaka dem. När det gäller batteriet: använd bara originalladdaren och originalbatterier eller kompatibla batterier som tillverkaren rekommenderar, ställ inte dammsugaren i ett mycket varmt rum eller i solen, och lämna förbrukade batterier på en insamlingsplats – litiumjonbatterier ska aldrig slängas bland hushållssoporna.</p>
+
+<h2>Sladdlös dammsugare eller robotdammsugare?</h2>
+<p>De två kompletterar varandra. Robotdammsugaren håller golven rena varje dag utan att du behöver lyfta ett finger, medan den sladdlösa dammsugaren fortfarande behövs för trappor, hörn, soffor och grundligare städning. Tvekar du mellan de två hjälper vår <a href="/sv/blog/robot-aspirateur-vs-balai">jämförelse mellan robotdammsugare och sladdlös dammsugare</a> dig att bestämma dig.</p>
+
+<h2>Vårt omdöme</h2>
+<p><strong>Dyson V15 Detect</strong> är det mest kompletta valet: sugkraft i toppklass, en laser som visar dammet, automatisk effektjustering och tät filtrering. <strong>Rowenta X-Force Flex 15.60</strong> är mest prisvärd tack vare Flex-röret, den stora behållaren och det löstagbara batteriet. <strong>Samsung Bespoke Jet AI</strong> passar perfekt om du vill ha lång batteritid och slippa tömma behållaren för hand. <strong>LG CordZero A9K</strong>, slutligen, passar bra för stora ytor med sina två batterier i många versioner. Alla modeller hittar du i vår avdelning för <a href="/sv/entretien-maison/aspirateurs-balais">sladdlösa dammsugare</a>.</p>`,
+    us: `<p>For most homes, the best cordless stick vacuum of 2026 is the <strong>Dyson V15 Detect</strong>: class-leading suction, a laser that reveals fine dust and a sensor that adjusts power on its own. For the best value, the <strong>Rowenta X-Force Flex 15.60</strong> is the smartest buy, and if long runtime and hands-free emptying matter most, go with the <strong>Samsung Bespoke Jet AI</strong>.</p>
+<p>This comparison draws on manufacturer specs, reviews from specialist publications and verified owner reviews. It covers four models widely sold in Europe, with what each does well, where each falls short and the kind of household it suits. To browse the full range, head to our <a href="/us/entretien-maison/aspirateurs-balais">cordless stick vacuums</a> section.</p>
+
+<h2>How to choose a cordless stick vacuum</h2>
+<h3>1. Suction power: AW, W and Pa</h3>
+<p>Brands don’t all use the same unit. <strong>Air watts (AW)</strong>, used by Dyson and Rowenta, measure usable suction power. Samsung rates suction power in watts (W), and other brands use pascals (Pa). You can’t compare these figures directly from one brand to another, and they’re almost always quoted for the max setting, the one that drains the battery fastest. A good motorized brush roll and a well-sealed design matter as much as the headline number.</p>
+<h3>2. Real-world runtime and removable batteries</h3>
+<p>The advertised runtime (60, 80 or 100 minutes) is for eco mode, often without a motorized brush head. In medium mode it drops noticeably, and in boost mode it falls to a few minutes. A <strong>removable battery</strong> pays off twice: you can buy a second one to double your runtime, and after a few years you can replace a worn battery instead of the whole vacuum. All four models in this comparison have a removable battery.</p>
+<h3>3. Filtration</h3>
+<p>If you have allergies, a HEPA filter alone isn’t enough: what matters is that the <strong>whole machine is sealed</strong>. If air leaks between the bin and the body, some fine particles blow straight back into the room. Dyson highlights whole-machine sealed filtration. Emptying matters too: a bin that opens in one motion over the trash can, or a self-emptying dock, keeps you away from the dust.</p>
+<h3>4. Dust bin</h3>
+<p>Capacities range from about 14 to 30 fl oz (0.4 to 0.9 L). A large bin means you won’t have to stop and empty it mid-clean in a big home or a home with pets. A small bin can work fine if a compression system (LG) or a self-emptying dock (Samsung) makes up for it.</p>
+<h3>5. Weight and handling</h3>
+<p>Most stick vacuums weigh around 6.6 lb (3 kg) with the wand and floor head attached. You feel it most in handheld mode, when you’re cleaning ceilings, shelves or the car. A flexible or telescoping wand makes it easier to reach under low furniture.</p>
+<h3>6. Brush heads and tools</h3>
+<p>An anti-tangle brush roll saves a lot of time with long hair or pet hair. A soft roller is best for hardwood floors and tile. A small motorized tool comes in handy for couches, car seats and stairs.</p>
+
+<h2>The best cordless stick vacuums of 2026</h2>
+<h3>Dyson V15 Detect: the most complete all-rounder</h3>
+<p>The <strong>Dyson V15 Detect</strong> is still the most polished stick vacuum in this lineup. Its Fluffy soft-roller head projects a <strong>green laser</strong> at floor level, which makes fine dust and hair visible on hard floors. A <strong>piezo sensor</strong> measures the size and amount of the particles it picks up, shows the counts on the LCD screen and, in Auto mode, ramps up suction when it detects heavy dust.</p>
+<p>Dyson quotes up to 60 minutes of runtime in eco mode, a 26 fl oz (0.76 L) bin and whole-machine sealed filtration. The battery clicks out with no screws, and the conical anti-tangle tool makes quick work of hair on upholstery.</p>
+<p><strong>Pros:</strong> some of the strongest suction on the market, a genuinely useful laser on hard floors, automatic power adjustment, sealed filtration, removable battery.</p>
+<p><strong>Cons:</strong> premium price tier, about 6.6 lb (3 kg) that you feel at arm’s length, very short runtime in Boost mode.</p>
+<p><strong>Best for:</strong> homes that want one capable vacuum for every floor type, allergy sufferers and pet owners.</p>
+
+<h3>Samsung Bespoke Jet AI: long runtime and hands-free emptying</h3>
+<p>The <strong>Samsung Bespoke Jet AI</strong> is all about automation. Samsung says its HexaJet motor delivers up to 280 W of suction power, and the AI cleaning mode recognizes the floor type and adjusts power to match. Samsung quotes <strong>up to 100 minutes of runtime</strong>, one of the highest figures in the category.</p>
+<p>Its big selling point is the <strong>All-in-One Clean Station</strong>: you dock the vacuum, it charges, and the station automatically empties the bin into a bag. The vacuum’s own bin is smaller (about 17 fl oz, or 0.5 L), but you’ll rarely have to empty it by hand.</p>
+<p><strong>Pros:</strong> excellent runtime, hygienic self-emptying, smart power adjustment, HEPA filtration.</p>
+<p><strong>Cons:</strong> the station takes up floor space, you’ll keep buying replacement bags, premium price tier.</p>
+<p><strong>Best for:</strong> larger homes, allergy sufferers who want zero contact with dust, and anyone who hates emptying the bin.</p>
+
+<h3>Rowenta X-Force Flex 15.60: the best value</h3>
+<p>The <strong>Rowenta X-Force Flex 15.60</strong> is the French brand’s flagship stick vacuum, and it usually costs less than the two models above. Its signature feature is the <strong>Flex wand</strong>, which bends so you can slide the floor head under a couch, bed or low dresser without bending down yourself.</p>
+<p>Rowenta quotes up to 230 AW in Boost mode, up to 80 minutes of runtime in eco mode, a removable battery and a <strong>30 fl oz (0.9 L) bin</strong>, the largest in this lineup. A display shows the remaining runtime, and the Animal version adds a brush head with LED lights. The cyclone, filter and bin are all washable.</p>
+<p><strong>Pros:</strong> very practical Flex wand, large bin, removable battery, washable filter, excellent value for the features.</p>
+<p><strong>Cons:</strong> a little heavier than average (about 7 lb, or 3.2 kg), no automatic dust detection.</p>
+<p><strong>Best for:</strong> apartments and midsize homes, and homes with lots of low furniture.</p>
+
+<h3>LG CordZero A9K: two batteries for larger homes</h3>
+<p>The <strong>LG CordZero A9K</strong> stands out for its <strong>Kompressor</strong> technology: a lever packs down dust and hair in the bin, by up to about 2.4 times according to LG. That lets the bin of roughly 15 fl oz (0.44 L) hold more and empty more cleanly. A Smart Inverter motor and a telescoping wand round out the package.</p>
+<p>Depending on the version, the A9K comes with <strong>two interchangeable batteries</strong>. LG quotes up to 60 minutes per battery in normal mode, or up to 120 minutes with both. In Turbo mode, runtime drops to a few minutes per battery.</p>
+<p><strong>Pros:</strong> dust compression, two batteries on many versions, telescoping wand, multistage filtration.</p>
+<p><strong>Cons:</strong> the bin is small without the compression, and there are lots of variants (CORE, PRO, ULTRA…) with different accessories and battery counts, so read the listing carefully.</p>
+<p><strong>Best for:</strong> larger homes that benefit from the second battery, and anyone who wants to empty the bin less often.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Key strength</th><th>Max quoted runtime</th><th>Bin</th><th>Removable battery</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Dyson V15 Detect</td><td>Laser + particle sensor</td><td>Up to 60 min</td><td>26 fl oz (0.76 L)</td><td>Yes</td><td>All-around use, allergies</td></tr>
+<tr><td>Samsung Bespoke Jet AI</td><td>Self-emptying dock</td><td>Up to 100 min</td><td>About 17 fl oz (0.5 L)</td><td>Yes</td><td>Large homes, no dust contact</td></tr>
+<tr><td>Rowenta X-Force Flex 15.60</td><td>Flex wand reaches under furniture</td><td>Up to 80 min</td><td>30 fl oz (0.9 L)</td><td>Yes</td><td>Best value</td></tr>
+<tr><td>LG CordZero A9K</td><td>Dust compression</td><td>Up to 120 min (2 batteries)</td><td>About 15 fl oz (0.44 L)</td><td>Yes</td><td>Large homes</td></tr>
+</tbody>
+</table>
+<p>Runtimes are the manufacturers’ eco-mode figures. Real runtime varies with the power mode, the floor head and the product version.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Comparing power figures across brands.</strong> AW, W and Pa don’t measure the same thing, and test conditions differ.</li>
+<li><strong>Counting on the maximum runtime.</strong> It applies to the most economical mode. For a large home, pick a model with a removable battery or get a second one.</li>
+<li><strong>Buying a version without checking what’s in the box.</strong> The same model often comes in several bundles (tools, number of batteries, dock). Check the exact model number.</li>
+<li><strong>Skipping filter maintenance.</strong> A clogged filter cuts suction and strains the motor.</li>
+<li><strong>Expecting a stick vacuum to mop.</strong> To vacuum and wash floors in one pass, a wet-dry vacuum is the better tool (see our <a href="/us/blog/meilleur-aspirateur-laveur-2026">wet-dry vacuum comparison</a>).</li>
+</ul>
+
+<h2>Maintenance and battery safety</h2>
+<p>Empty the bin once it reaches the max line, and regularly cut away hair wrapped around the brush roll. Rinse washable filters in cold water with no detergent, as often as the manufacturer recommends, and let them <strong>dry completely</strong> before you put them back. For the battery, use only the original charger and original or manufacturer-approved batteries, don’t leave the vacuum in a very hot room or in direct sun, and take worn batteries to a battery recycling drop-off: lithium-ion batteries should never go in the household trash.</p>
+
+<h2>Stick vacuum or robot vacuum?</h2>
+<p>The two work best together. A robot keeps floors tidy every day with no effort on your part, while a stick vacuum is still essential for stairs, corners, couches and deeper cleaning. If you’re torn between them, our <a href="/us/blog/robot-aspirateur-vs-balai">robot vacuum vs. stick vacuum comparison</a> will help you decide.</p>
+
+<h2>The bottom line</h2>
+<p>The <strong>Dyson V15 Detect</strong> is the most complete choice: class-leading suction, a laser that shows the dust, automatic power adjustment and sealed filtration. The <strong>Rowenta X-Force Flex 15.60</strong> is the best value, thanks to its Flex wand, large bin and removable battery. The <strong>Samsung Bespoke Jet AI</strong> is ideal if you want long runtime and never want to empty the bin by hand again. And the <strong>LG CordZero A9K</strong> is a strong fit for larger homes, with two batteries on many versions. See every model in our <a href="/us/entretien-maison/aspirateurs-balais">cordless stick vacuums</a> section.</p>`,
+    ca: `<p>For most homes, the best cordless stick vacuum in 2026 is the <strong>Dyson V15 Detect</strong>: benchmark suction, a laser that reveals fine dust and a sensor that adjusts power on its own. If you want the best value, the <strong>Rowenta X-Force Flex 15.60</strong> is the smartest buy, and if runtime and automatic emptying matter most, the <strong>Samsung Bespoke Jet AI</strong> is the one to pick.</p>
+<p>This comparison is based on manufacturer specifications, specialist reviews and verified owner reviews. It covers four models widely sold in Europe, with their strengths, their limitations and the kind of household each one suits. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. To browse the full range, visit our <a href="/ca/entretien-maison/aspirateurs-balais">cordless stick vacuums</a> section.</p>
+
+<h2>How to choose a cordless stick vacuum</h2>
+<h3>1. Suction power: AW, W and Pa</h3>
+<p>Brands don’t all use the same unit. <strong>Air Watts (AW)</strong>, used by Dyson and Rowenta, measure useful suction power. Samsung gives suction power in watts (W), and other brands use pascals (Pa). You can’t compare these figures directly from one brand to another, and they’re almost always quoted for the maximum mode, the one that drains the battery fastest. A good motorized brush and a well-sealed design matter as much as the headline number.</p>
+<h3>2. Real runtime and removable batteries</h3>
+<p>The advertised runtime (60, 80 or 100 minutes) refers to eco mode, often without a motorized brush. In medium mode it drops noticeably, and in boost it falls to a few minutes. A <strong>removable battery</strong> has two benefits: you can buy a second one to double your runtime, and you can replace a worn battery after a few years instead of the whole vacuum. All four models in this comparison have a removable battery.</p>
+<h3>3. Filtration</h3>
+<p>If you have allergies, a HEPA filter alone isn’t enough: what matters is that the <strong>whole machine is sealed</strong>. If air leaks between the bin and the body, some fine particles go straight back into the room. Dyson highlights whole-machine sealed filtration. Emptying matters too: a bin that opens in one move over the garbage can, or an auto-empty station, limits your contact with dust.</p>
+<h3>4. Dust bin</h3>
+<p>Capacities range from about 0.4 to 0.9 L. A large bin saves you from emptying it mid-clean in a big home or with pets. A small bin can be fine if a compression system (LG) or an auto-empty station (Samsung) makes up for it.</p>
+<h3>5. Weight and handling</h3>
+<p>Most stick vacuums weigh around 3 kg (about 6.6 lb) with the wand and floor head. You feel it most in handheld mode, for ceilings, shelves or the car. A flexible or telescopic wand makes it easier to reach under low furniture.</p>
+<h3>6. Brushes and tools</h3>
+<p>An anti-tangle brush saves a lot of time with long hair or pet hair. A soft roller suits hardwood and tile floors. A small motorized tool is handy for sofas, car seats and stairs.</p>
+
+<h2>The best cordless stick vacuums in 2026</h2>
+<h3>Dyson V15 Detect: the most complete all-rounder</h3>
+<p>The <strong>Dyson V15 Detect</strong> is still the most accomplished stick vacuum in this lineup. Its soft-roller Fluffy head projects a <strong>green laser</strong> at floor level, making fine dust and hair visible on hard floors. A <strong>piezo sensor</strong> measures the size and amount of particles picked up, shows them on the LCD screen and, in Auto mode, raises suction when it detects heavy dust.</p>
+<p>Dyson quotes up to 60 minutes of runtime in eco mode, a 0.76 L bin and whole-machine sealed filtration. The battery clicks out without screws, and the conical anti-tangle tool makes quick work of hair on fabrics.</p>
+<p><strong>Strengths:</strong> among the most powerful suction on the market, a genuinely useful laser on hard floors, automatic power adjustment, sealed filtration, removable battery.</p>
+<p><strong>Limitations:</strong> premium model, about 3 kg (6.6 lb) that you feel at arm’s length, very short runtime in Boost mode.</p>
+<p><strong>Best for:</strong> homes that want one capable machine for every floor, people with allergies and pet owners.</p>
+
+<h3>Samsung Bespoke Jet AI: runtime and automatic emptying</h3>
+<p>The <strong>Samsung Bespoke Jet AI</strong> is all about automation. Samsung says its HexaJet motor delivers up to 280 W of suction power, and the AI cleaning mode recognizes the floor type to adjust power. Samsung quotes <strong>up to 100 minutes of runtime</strong>, one of the highest figures in the category.</p>
+<p>Its big advantage is the <strong>All-in-One Clean Station</strong>: you dock the vacuum, it charges, and the station automatically empties the bin into a bag. The vacuum’s own bin is smaller (about 0.5 L), but you hardly ever have to empty it by hand.</p>
+<p><strong>Strengths:</strong> very good runtime, hygienic auto-emptying, smart power adjustment, HEPA filtration.</p>
+<p><strong>Limitations:</strong> the station takes up floor space, station bags need replacing, premium model.</p>
+<p><strong>Best for:</strong> larger homes, people with allergies who want no contact with dust, and anyone who hates emptying the bin.</p>
+
+<h3>Rowenta X-Force Flex 15.60: the best value</h3>
+<p>The <strong>Rowenta X-Force Flex 15.60</strong> is the French brand’s flagship stick vacuum, usually priced below the models above. Its signature feature is the <strong>Flex wand</strong>, which bends so you can slide under a sofa, bed or low dresser without bending down.</p>
+<p>Rowenta quotes up to 230 AW in Boost mode, up to 80 minutes of runtime in eco mode, a removable battery and a <strong>0.9 L bin</strong>, the largest in this selection. A screen shows the remaining runtime, and the Animal version adds a brush with LED lighting. The cyclone, filter and bin are washable.</p>
+<p><strong>Strengths:</strong> very practical Flex wand, large bin, removable battery, washable filter, excellent value for the features.</p>
+<p><strong>Limitations:</strong> slightly heavier than average (about 3.2 kg, or 7 lb), no automatic dust detection.</p>
+<p><strong>Best for:</strong> apartments and mid-size houses, and homes with lots of low furniture.</p>
+
+<h3>LG CordZero A9K: two batteries for larger homes</h3>
+<p>The <strong>LG CordZero A9K</strong> stands out with its <strong>Kompressor</strong> technology: a lever compacts dust and hair in the bin, by up to about 2.4 times according to LG. The roughly 0.44 L bin therefore holds more and empties more cleanly. A Smart Inverter motor and a telescopic wand round out the package.</p>
+<p>Depending on the version, the A9K comes with <strong>two interchangeable batteries</strong>. LG quotes up to 60 minutes per battery in normal mode, so up to 120 minutes with both. In Turbo mode, runtime drops to a few minutes per battery.</p>
+<p><strong>Strengths:</strong> dust compression, two batteries on many versions, telescopic wand, multi-stage filtration.</p>
+<p><strong>Limitations:</strong> small bin without compression, many variants (CORE, PRO, ULTRA…) with different accessories and battery counts, so read the listing carefully.</p>
+<p><strong>Best for:</strong> larger homes that benefit from the second battery, and anyone who wants to empty the bin less often.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Key strength</th><th>Max quoted runtime</th><th>Bin</th><th>Removable battery</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Dyson V15 Detect</td><td>Laser + particle sensor</td><td>Up to 60 min</td><td>0.76 L</td><td>Yes</td><td>All-round use, allergies</td></tr>
+<tr><td>Samsung Bespoke Jet AI</td><td>Auto-empty station</td><td>Up to 100 min</td><td>About 0.5 L</td><td>Yes</td><td>Large homes, no dust contact</td></tr>
+<tr><td>Rowenta X-Force Flex 15.60</td><td>Flex wand under furniture</td><td>Up to 80 min</td><td>0.9 L</td><td>Yes</td><td>Best value</td></tr>
+<tr><td>LG CordZero A9K</td><td>Dust compression</td><td>Up to 120 min (2 batteries)</td><td>About 0.44 L</td><td>Yes</td><td>Large homes</td></tr>
+</tbody>
+</table>
+<p>Runtimes are the manufacturers’ eco-mode figures. They vary with the mode, the floor head you use and the product version.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Comparing power figures across brands.</strong> AW, W and Pa don’t measure the same thing, and the test conditions differ.</li>
+<li><strong>Relying on maximum runtime.</strong> It applies to the most economical mode. For a large home, choose a removable battery or get a second one.</li>
+<li><strong>Buying a version without checking what’s in the box.</strong> The same model often comes in several versions (tools, number of batteries, station). Check the exact model number.</li>
+<li><strong>Neglecting filter maintenance.</strong> A clogged filter cuts suction and strains the motor.</li>
+<li><strong>Expecting a stick vacuum to mop.</strong> To vacuum and wash in one pass, a wet dry vacuum is a better fit (see our <a href="/ca/blog/meilleur-aspirateur-laveur-2026">wet dry vacuum comparison</a>).</li>
+</ul>
+
+<h2>Maintenance and battery safety</h2>
+<p>Empty the bin once it reaches the max line, and regularly cut away hair wrapped around the brush roll. Wash washable filters in cold water without detergent, as often as the manufacturer recommends, and let them <strong>dry completely</strong> before putting them back. For the battery, use only the original charger and original or manufacturer-approved batteries, don’t leave the vacuum in a very hot room or in direct sun, and take worn batteries to a battery recycling drop-off: lithium-ion batteries must never go in the garbage.</p>
+
+<h2>Stick vacuum or robot vacuum?</h2>
+<p>The two work best together. A robot keeps floors tidy every day with no effort, while a stick vacuum is still the tool you need for stairs, corners, sofas and deeper cleans. If you’re torn between the two, our <a href="/ca/blog/robot-aspirateur-vs-balai">robot vacuum vs stick vacuum comparison</a> will help you decide.</p>
+
+<h2>Our verdict</h2>
+<p>The <strong>Dyson V15 Detect</strong> is the most complete choice: benchmark suction, a laser that shows the dust, automatic adjustment and sealed filtration. The <strong>Rowenta X-Force Flex 15.60</strong> offers the best value thanks to its Flex wand, large bin and removable battery. The <strong>Samsung Bespoke Jet AI</strong> is the one to get if you want long runtime and never want to empty the bin by hand. Finally, the <strong>LG CordZero A9K</strong> is a good fit for larger homes, with two batteries on many versions. See every model in our <a href="/ca/entretien-maison/aspirateurs-balais">cordless stick vacuums</a> section.</p>`,
   },
   faq: [
     {
@@ -595,7 +835,10 @@ export const article: BlogArticle = {
         es: '¿Puede una aspiradora escoba sin cable sustituir a una aspiradora de trineo?',
         it: 'Una scopa elettrica senza filo può sostituire un aspirapolvere a traino?',
         nl: 'Kan een draadloze steelstofzuiger een sledestofzuiger vervangen?',
-        pl: 'Czy bezprzewodowy odkurzacz pionowy może zastąpić tradycyjny odkurzacz podłogowy?',
+        pl: 'Czy bezprzewodowy odkurzacz pionowy zastąpi tradycyjny odkurzacz?',
+        sv: 'Kan en sladdlös dammsugare ersätta en vanlig golvdammsugare?',
+        us: 'Can a cordless stick vacuum replace a full-size vacuum?',
+        ca: 'Can a cordless stick vacuum replace a canister vacuum?',
       },
       answer: {
         fr: 'Dans la plupart des logements, oui. Les modèles haut de gamme comme le Dyson V15 Detect ou le Samsung Bespoke Jet AI nettoient très bien les sols durs et les tapis courants. Leurs limites restent l’autonomie et la taille du bac : pour une grande maison avec beaucoup de moquette épaisse, une seconde batterie ou un aspirateur traîneau en complément peut rester utile.',
@@ -604,7 +847,10 @@ export const article: BlogArticle = {
         es: 'En la mayoría de las viviendas, sí. Los modelos de gama alta como la Dyson V15 Detect o la Samsung Bespoke Jet AI limpian muy bien suelos duros y alfombras habituales. Sus límites son la autonomía y el tamaño del depósito: en una casa grande con mucha moqueta gruesa, una segunda batería o una aspiradora de trineo como complemento puede seguir siendo útil.',
         it: 'Nella maggior parte delle case, sì. I modelli di fascia alta come il Dyson V15 Detect o il Samsung Bespoke Jet AI puliscono molto bene pavimenti duri e tappeti comuni. I limiti restano autonomia e capacità del contenitore: in una casa grande con molta moquette spessa, una seconda batteria o un aspirapolvere a traino in aggiunta può restare utile.',
         nl: 'In de meeste woningen wel. Topmodellen zoals de Dyson V15 Detect of de Samsung Bespoke Jet AI reinigen harde vloeren en gewone tapijten erg goed. De beperkingen blijven gebruiksduur en stofbakinhoud: in een groot huis met veel hoogpolig tapijt kan een tweede batterij of een sledestofzuiger als aanvulling nuttig blijven.',
-        pl: 'W większości mieszkań tak. Modele z wyższej półki, takie jak Dyson V15 Detect czy Samsung Bespoke Jet AI, bardzo dobrze czyszczą twarde podłogi i typowe dywany. Ich ograniczeniami pozostają czas pracy i wielkość pojemnika: w dużym domu z grubą wykładziną przydatna może być druga bateria lub tradycyjny odkurzacz jako uzupełnienie.',
+        pl: 'W większości domów i mieszkań tak. Modele z wyższej półki, takie jak Dyson V15 Detect czy Samsung Bespoke Jet AI, bardzo dobrze czyszczą twarde podłogi i typowe dywany. Ich słabe strony to nadal czas pracy i wielkość pojemnika: w dużym domu z dużą ilością grubej wykładziny może się przydać drugi akumulator albo tradycyjny odkurzacz do pomocy.',
+        sv: 'I de flesta hem, ja. Premiummodeller som Dyson V15 Detect och Samsung Bespoke Jet AI rengör hårda golv och vanliga mattor mycket bra. Det som begränsar dem är batteritiden och behållarens storlek: i ett stort hus med mycket tjock heltäckningsmatta kan ett extra batteri eller en golvdammsugare som komplement fortfarande vara bra att ha.',
+        us: 'In most homes, yes. Premium models such as the Dyson V15 Detect or the Samsung Bespoke Jet AI do a very good job on hard floors and everyday area rugs. Their limits are runtime and bin size: in a large house with lots of thick wall-to-wall carpet, a second battery or a corded canister or upright vacuum as a backup can still be worth having.',
+        ca: 'In most homes, yes. Premium models such as the Dyson V15 Detect or the Samsung Bespoke Jet AI clean hard floors and everyday rugs very well. Their limits are runtime and bin size: for a large house with lots of thick carpet, a second battery or a canister vacuum as a backup can still be useful.',
       },
     },
     {
@@ -615,7 +861,10 @@ export const article: BlogArticle = {
         es: '¿Cuánto dura la batería de una aspiradora sin cable?',
         it: 'Quanto dura la batteria di un aspirapolvere senza filo?',
         nl: 'Hoe lang gaat de batterij van een draadloze stofzuiger mee?',
-        pl: 'Jak długo wytrzymuje bateria bezprzewodowego odkurzacza?',
+        pl: 'Jak długo wytrzymuje akumulator odkurzacza bezprzewodowego?',
+        sv: 'Hur länge håller batteriet i en sladdlös dammsugare?',
+        us: 'How long does a cordless vacuum battery last?',
+        ca: 'How long does a cordless vacuum battery last?',
       },
       answer: {
         fr: 'Une batterie lithium-ion perd progressivement de sa capacité au fil des cycles de charge, généralement de façon sensible après plusieurs années d’usage régulier. C’est pourquoi une batterie amovible est un vrai atout : on la remplace sans changer l’appareil. Pour la préserver, évitez la chaleur, utilisez le chargeur d’origine et ne stockez pas l’aspirateur au soleil.',
@@ -624,7 +873,10 @@ export const article: BlogArticle = {
         es: 'Una batería de iones de litio pierde capacidad poco a poco con los ciclos de carga, normalmente de forma apreciable tras varios años de uso regular. Por eso una batería extraíble es una gran ventaja: se sustituye sin cambiar el aparato. Para cuidarla, evite el calor, use el cargador original y no guarde la aspiradora al sol.',
         it: 'Una batteria agli ioni di litio perde gradualmente capacità con i cicli di ricarica, di solito in modo evidente dopo diversi anni di uso regolare. Per questo una batteria rimovibile è un vero vantaggio: si sostituisce senza cambiare l’apparecchio. Per preservarla, evitate il calore, usate il caricabatterie originale e non riponete l’aspirapolvere al sole.',
         nl: 'Een lithium-ionbatterij verliest geleidelijk capaciteit met elke laadcyclus, meestal merkbaar na enkele jaren regelmatig gebruik. Daarom is een uitneembare batterij een echt voordeel: je vervangt hem zonder het toestel te vervangen. Spaar hem door hitte te vermijden, de originele lader te gebruiken en de stofzuiger niet in de zon te bewaren.',
-        pl: 'Bateria litowo-jonowa stopniowo traci pojemność wraz z kolejnymi cyklami ładowania, zwykle odczuwalnie po kilku latach regularnego użytkowania. Dlatego wymienna bateria to realny atut: wymienia się ją bez zmiany urządzenia. Aby ją chronić, unikaj gorąca, używaj oryginalnej ładowarki i nie przechowuj odkurzacza na słońcu.',
+        pl: 'Akumulator litowo-jonowy z każdym cyklem ładowania traci nieco pojemności; zwykle staje się to odczuwalne po kilku latach regularnego używania. Dlatego wymienny akumulator to prawdziwa zaleta: wymieniasz tylko akumulator, a nie cały odkurzacz. Żeby dłużej służył, chroń go przed wysoką temperaturą, korzystaj z oryginalnej ładowarki i nie trzymaj odkurzacza w nasłonecznionym miejscu.',
+        sv: 'Ett litiumjonbatteri tappar gradvis kapacitet med antalet laddcykler, i regel märkbart efter några års regelbunden användning. Därför är ett löstagbart batteri en verklig fördel: du byter batteriet utan att byta hela dammsugaren. Vill du att det ska hålla längre bör du undvika värme, använda originalladdaren och inte förvara dammsugaren i solen.',
+        us: 'A lithium-ion battery slowly loses capacity with each charge cycle, and the drop usually becomes noticeable after several years of regular use. That’s why a removable battery is a real advantage: you replace the battery, not the vacuum. To make it last, avoid heat, use the original charger and don’t store the vacuum in direct sun.',
+        ca: 'A lithium-ion battery gradually loses capacity over its charge cycles, usually noticeably after several years of regular use. That’s why a removable battery is a real advantage: you replace the battery, not the whole vacuum. To make it last, avoid heat, use the original charger and don’t store the vacuum in direct sun.',
       },
     },
     {
@@ -635,7 +887,10 @@ export const article: BlogArticle = {
         es: '¿Qué aspiradora escoba elegir para el pelo de mascotas?',
         it: 'Quale scopa elettrica scegliere per i peli di animali?',
         nl: 'Welke steelstofzuiger kies je voor dierenhaar?',
-        pl: 'Jaki odkurzacz pionowy wybrać przy sierści zwierząt?',
+        pl: 'Jaki odkurzacz pionowy wybrać do sierści zwierząt?',
+        sv: 'Vilken sladdlös dammsugare är bäst för djurhår?',
+        us: 'Which stick vacuum is best for pet hair?',
+        ca: 'Which stick vacuum is best for pet hair?',
       },
       answer: {
         fr: 'Privilégiez une brosse motorisée anti-enchevêtrement, un petit outil motorisé pour les textiles et un bac facile à vider. Le Dyson V15 Detect et son accessoire anti-enchevêtrement conviennent bien, tout comme la version Animal du Rowenta X-Force Flex 15.60, avec sa brosse éclairée et son grand bac de 0,9 L.',
@@ -644,7 +899,10 @@ export const article: BlogArticle = {
         es: 'Busque un cepillo motorizado antienredos, una pequeña boquilla motorizada para tejidos y un depósito fácil de vaciar. La Dyson V15 Detect con su herramienta antienredos es una buena opción, al igual que la versión Animal de la Rowenta X-Force Flex 15.60, con cepillo iluminado y gran depósito de 0,9 L.',
         it: 'Cercate una spazzola motorizzata anti-groviglio, un piccolo accessorio motorizzato per i tessuti e un contenitore facile da svuotare. Il Dyson V15 Detect con il suo accessorio anti-groviglio è una buona scelta, così come la versione Animal del Rowenta X-Force Flex 15.60, con spazzola illuminata e ampio contenitore da 0,9 L.',
         nl: 'Kies een gemotoriseerde anti-klitborstel, een klein gemotoriseerd mondstuk voor stoffen en een makkelijk te legen stofbak. De Dyson V15 Detect met zijn anti-klitmondstuk past goed, net als de Animal-versie van de Rowenta X-Force Flex 15.60, met verlichte borstel en grote stofbak van 0,9 L.',
-        pl: 'Wybierz szczotkę z napędem i systemem antyplątającym, małą elektryczną końcówkę do tkanin oraz pojemnik łatwy do opróżnienia. Dobrze sprawdzają się Dyson V15 Detect z akcesorium antyplątającym oraz wersja Animal Rowenta X-Force Flex 15.60, z oświetloną szczotką i dużym pojemnikiem 0,9 l.',
+        pl: 'Szukaj modelu z elektroszczotką, na którą nie nawijają się włosy, małą końcówką z napędem do tapicerki i pojemnikiem, który łatwo opróżnić. Dobrze sprawdzi się Dyson V15 Detect z końcówką zapobiegającą nawijaniu się włosów, a także Rowenta X-Force Flex 15.60 w wersji Animal z podświetlaną szczotką i dużym pojemnikiem 0,9 l.',
+        sv: 'Välj en motorborste med antitrasselfunktion, ett litet motordrivet munstycke för textilier och en behållare som är lätt att tömma. Dyson V15 Detect med sitt antitrasselmunstycke passar bra, liksom Animal-versionen av Rowenta X-Force Flex 15.60 med upplyst munstycke och stor behållare på 0,9 liter.',
+        us: 'Look for a motorized anti-tangle brush roll, a small motorized tool for upholstery and an easy-to-empty bin. The Dyson V15 Detect with its anti-tangle tool is a good fit, as is the Animal version of the Rowenta X-Force Flex 15.60, with its lighted brush head and large 30 fl oz (0.9 L) bin.',
+        ca: 'Look for an anti-tangle motorized brush, a small motorized tool for fabrics and a bin that’s easy to empty. The Dyson V15 Detect with its anti-tangle tool is a good fit, as is the Animal version of the Rowenta X-Force Flex 15.60, with its lit brush and large 0.9 L bin.',
       },
     },
     {
@@ -655,7 +913,10 @@ export const article: BlogArticle = {
         es: '¿Hay que fijarse en los vatios o en los Air Watts?',
         it: 'Meglio guardare i watt o gli Air Watt?',
         nl: 'Moet je kijken naar watt of naar Air Watts?',
-        pl: 'Czy kierować się watami, czy Air Watts?',
+        pl: 'Na co patrzeć: na waty czy na Air Watts?',
+        sv: 'Ska jag gå efter watt eller Air Watts?',
+        us: 'Should I look at watts or air watts?',
+        ca: 'Should I look at watts or Air Watts?',
       },
       answer: {
         fr: 'Les Air Watts (AW) décrivent la puissance d’aspiration utile, alors que la puissance électrique en watts indique ce que consomme le moteur. Certaines marques donnent toutefois leur puissance d’aspiration en watts ou en pascals, ce qui rend les comparaisons entre marques délicates. Mieux vaut regarder l’ensemble : brosse, étanchéité, autonomie et avis d’utilisateurs.',
@@ -664,7 +925,10 @@ export const article: BlogArticle = {
         es: 'Los Air Watts (AW) describen la potencia de aspiración útil, mientras que la potencia eléctrica en vatios indica lo que consume el motor. Algunas marcas, sin embargo, expresan la potencia de aspiración en vatios o pascales, lo que complica comparar entre marcas. Es mejor mirar el conjunto: cepillo, sellado, autonomía y opiniones de usuarios.',
         it: 'Gli Air Watt (AW) descrivono la potenza di aspirazione utile, mentre la potenza elettrica in watt indica quanto consuma il motore. Alcuni marchi però esprimono la potenza di aspirazione in watt o in pascal, il che rende difficili i confronti tra marchi. Meglio guardare l’insieme: spazzola, tenuta, autonomia e recensioni degli utenti.',
         nl: 'Air Watts (AW) beschrijven het bruikbare zuigvermogen, terwijl het elektrisch vermogen in watt aangeeft wat de motor verbruikt. Sommige merken geven het zuigvermogen echter in watt of pascal, wat vergelijken tussen merken lastig maakt. Kijk liever naar het geheel: borstel, afdichting, gebruiksduur en gebruikersreviews.',
-        pl: 'Air Watts (AW) opisują użyteczną moc ssania, a moc elektryczna w watach pokazuje, ile pobiera silnik. Niektóre marki podają jednak moc ssania w watach lub paskalach, co utrudnia porównania między markami. Lepiej patrzeć na całość: szczotkę, szczelność, czas pracy i opinie użytkowników.',
+        pl: 'Air Watts (AW) opisują użyteczną moc ssania, a moc elektryczna w watach mówi, ile pobiera sam silnik. Niektóre marki podają jednak moc ssania w watach lub paskalach, co utrudnia porównywanie modeli różnych marek. Lepiej oceniać całość: szczotkę, szczelność, czas pracy i opinie użytkowników.',
+        sv: 'Air Watts (AW) beskriver den användbara sugeffekten, medan den elektriska effekten i watt visar hur mycket el motorn drar. Vissa märken anger dock sugeffekten i watt eller pascal, vilket gör det svårt att jämföra mellan märken. Se hellre till helheten: munstycke, täthet, batteritid och användaromdömen.',
+        us: 'Air watts (AW) describe usable suction power, while electrical power in watts shows how much the motor draws. Some brands, though, state suction power in watts or pascals, which makes cross-brand comparisons tricky. You’re better off looking at the whole picture: brush roll, sealing, runtime and owner reviews.',
+        ca: 'Air Watts (AW) describe useful suction power, while electrical power in watts shows what the motor draws. Some brands, however, give suction power in watts or pascals, which makes cross-brand comparisons tricky. You’re better off looking at the whole picture: brush, sealing, runtime and owner reviews.',
       },
     },
     {
@@ -675,7 +939,10 @@ export const article: BlogArticle = {
         es: '¿Merece la pena una estación de vaciado automático?',
         it: 'Vale la pena una stazione di svuotamento automatico?',
         nl: 'Is een automatisch leegstation de moeite waard?',
-        pl: 'Czy stacja do automatycznego opróżniania się opłaca?',
+        pl: 'Czy warto mieć stację do automatycznego opróżniania?',
+        sv: 'Är en tömningsstation värd pengarna?',
+        us: 'Is a self-emptying dock worth it?',
+        ca: 'Is an auto-empty station worth it?',
       },
       answer: {
         fr: 'Oui si vous êtes allergique ou si vous n’aimez pas vider le bac : une station comme celle du Samsung Bespoke Jet AI vide le bac dans un sac fermé, sans nuage de poussière. En contrepartie, elle occupe de la place au sol et ses sacs doivent être rachetés régulièrement.',
@@ -684,7 +951,10 @@ export const article: BlogArticle = {
         es: 'Sí, si es alérgico o detesta vaciar el depósito: una estación como la de la Samsung Bespoke Jet AI vacía el depósito en una bolsa cerrada, sin nube de polvo. A cambio, ocupa espacio en el suelo y hay que reponer las bolsas con regularidad.',
         it: 'Sì, se soffrite di allergie o odiate svuotare il contenitore: una stazione come quella del Samsung Bespoke Jet AI svuota il contenitore in un sacchetto chiuso, senza nuvole di polvere. In cambio occupa spazio a terra e i sacchetti vanno riacquistati regolarmente.',
         nl: 'Ja, als je allergisch bent of een hekel hebt aan legen: een station zoals dat van de Samsung Bespoke Jet AI leegt de stofbak in een gesloten zak, zonder stofwolk. Daartegenover staat dat het vloerruimte inneemt en dat je de zakken regelmatig moet bijkopen.',
-        pl: 'Tak, jeśli masz alergię lub nie lubisz opróżniać pojemnika: stacja, taka jak w Samsung Bespoke Jet AI, opróżnia pojemnik do zamkniętego worka, bez chmury kurzu. W zamian zajmuje miejsce na podłodze, a jej worki trzeba regularnie dokupować.',
+        pl: 'Tak, jeśli masz alergię albo nie lubisz opróżniać pojemnika. Stacja, taka jak w modelu Samsung Bespoke Jet AI, przesypuje kurz do zamkniętego worka, bez unoszącej się chmury pyłu. Zajmuje jednak miejsce na podłodze, a worki trzeba regularnie dokupować.',
+        sv: 'Ja, om du är allergiker eller ogillar att tömma behållaren: en station som den till Samsung Bespoke Jet AI tömmer behållaren i en sluten påse, utan något dammoln. Å andra sidan tar den golvplats, och du måste köpa nya påsar med jämna mellanrum.',
+        us: 'Yes, if you have allergies or hate emptying the bin: a dock like the one that comes with the Samsung Bespoke Jet AI empties the bin into a sealed bag, with no cloud of dust. The trade-off is that it takes up floor space and you’ll need to buy replacement bags regularly.',
+        ca: 'Yes if you have allergies or hate emptying the bin: a station like the Samsung Bespoke Jet AI’s empties the bin into a closed bag, with no cloud of dust. On the other hand, it takes up floor space and its bags need replacing regularly.',
       },
     },
     {
@@ -695,7 +965,10 @@ export const article: BlogArticle = {
         es: '¿Cómo mantener una aspiradora escoba sin cable?',
         it: 'Come si fa la manutenzione di una scopa elettrica senza filo?',
         nl: 'Hoe onderhoud je een draadloze steelstofzuiger?',
-        pl: 'Jak konserwować bezprzewodowy odkurzacz pionowy?',
+        pl: 'Jak dbać o bezprzewodowy odkurzacz pionowy?',
+        sv: 'Hur sköter jag min sladdlösa dammsugare?',
+        us: 'How do you clean and maintain a cordless stick vacuum?',
+        ca: 'How should I maintain a cordless stick vacuum?',
       },
       answer: {
         fr: 'Videz le bac avant qu’il soit plein, retirez les cheveux enroulés autour de la brosse, et lavez les filtres lavables à l’eau froide selon la fréquence indiquée par le fabricant, en les laissant sécher complètement avant de les remettre. Vérifiez aussi que le tube et la brosse ne sont pas obstrués si l’aspiration baisse.',
@@ -704,7 +977,10 @@ export const article: BlogArticle = {
         es: 'Vacíe el depósito antes de que se llene, quite los pelos enrollados en el cepillo y lave los filtros lavables con agua fría con la frecuencia que indique el fabricante, dejándolos secar por completo antes de montarlos. Si la aspiración baja, compruebe también que el tubo y el cepillo no estén obstruidos.',
         it: 'Svuotate il contenitore prima che sia pieno, togliete i capelli avvolti attorno alla spazzola e lavate i filtri lavabili con acqua fredda con la frequenza indicata dal produttore, lasciandoli asciugare completamente prima di rimontarli. Se l’aspirazione cala, controllate anche che tubo e spazzola non siano ostruiti.',
         nl: 'Leeg de stofbak voordat hij vol is, verwijder haren rond de borstelrol en spoel wasbare filters met koud water zo vaak als de fabrikant aanraadt. Laat ze volledig drogen voor je ze terugplaatst. Neemt de zuigkracht af, controleer dan ook of buis en zuigmond niet verstopt zijn.',
-        pl: 'Opróżniaj pojemnik, zanim się zapełni, usuwaj włosy nawinięte na szczotkę i myj filtry zmywalne zimną wodą z częstotliwością podaną przez producenta, pozostawiając je do całkowitego wyschnięcia przed ponownym włożeniem. Jeśli ssanie słabnie, sprawdź też, czy rura i szczotka nie są zatkane.',
+        pl: 'Opróżniaj pojemnik, zanim się zapełni, usuwaj włosy nawinięte na szczotkę i myj filtry, które można płukać, zimną wodą tak często, jak zaleca producent. Przed ponownym założeniem filtry muszą całkowicie wyschnąć. Jeśli siła ssania spada, sprawdź też, czy rura i szczotka nie są zatkane.',
+        sv: 'Töm behållaren innan den blir full, ta bort hår som lindat sig runt borsten och skölj tvättbara filter i kallt vatten så ofta som tillverkaren anger. Låt dem torka helt innan du sätter tillbaka dem. Kontrollera också att röret och munstycket inte är igensatta om sugkraften minskar.',
+        us: 'Empty the bin before it’s full, remove hair wrapped around the brush roll, and rinse washable filters in cold water as often as the manufacturer recommends, letting them dry completely before you put them back. If suction drops, also check that the wand and floor head aren’t clogged.',
+        ca: 'Empty the bin before it’s full, remove hair wrapped around the brush roll, and wash washable filters in cold water as often as the manufacturer recommends, letting them dry completely before you put them back. If suction drops, also check that the wand and floor head aren’t blocked.',
       },
     },
   ],

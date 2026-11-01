@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Medidor de calidad del aire interior que muestra CO2, partículas PM2.5, COV, humedad y temperatura',
         it: "Monitor della qualità dell'aria interna che mostra CO2, particolato PM2.5, COV, umidità e temperatura",
         nl: 'Binnenluchtkwaliteitsmeter met weergave van CO2, fijnstof PM2.5, VOS, luchtvochtigheid en temperatuur',
-        pl: 'Monitor jakości powietrza w pomieszczeniu pokazujący CO2, pył PM2.5, LZO, wilgotność i temperaturę',
+        pl: 'Monitor jakości powietrza w domu wyświetlający poziom CO2, pyłu PM2.5, LZO, wilgotność i temperaturę',
+        sv: 'Luftkvalitetsmätare som visar värden för CO₂, PM2,5-partiklar, VOC, luftfuktighet och temperatur inomhus',
+        us: 'Indoor air quality monitor showing CO2, PM2.5 particles, VOCs, humidity and temperature readings',
+        ca: 'Indoor air quality monitor showing CO2, PM2.5 particles, VOCs, humidity and temperature readings',
       },
     },
   ],
@@ -29,7 +32,10 @@ export const article: BlogArticle = {
     es: 'Sensor de Calidad del Aire Interior 2026: Por Qué y Cómo Medir en Casa',
     it: "Sensore Qualità dell'Aria Interna 2026: Perché e Come Misurare in Casa",
     nl: 'Binnenluchtkwaliteitsmeter 2026: Waarom en Hoe Je Thuis Meet',
-    pl: 'Czujnik jakości powietrza w domu 2026: dlaczego i jak mierzyć',
+    pl: 'Czujnik jakości powietrza w domu 2026: po co i jak mierzyć',
+    sv: 'Luftkvalitetsmätare 2026: varför och hur du mäter luften hemma',
+    us: 'Best Indoor Air Quality Monitors of 2026: What to Measure at Home',
+    ca: 'Indoor Air Quality Monitor 2026: Why and How to Measure at Home',
   },
   excerpt: {
     fr: "CO2, particules fines, COV, radon : quels polluants mesurer chez soi et quel capteur choisir en 2026. Comparatif d'Airthings View Plus, Netatmo, Aranet4 Home, Awair Element et Airthings Wave Plus.",
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'CO2, partículas finas, COV, radón: qué contaminantes medir en casa y qué medidor elegir en 2026. Comparativa de Airthings View Plus, Netatmo, Aranet4 Home, Awair Element y Airthings Wave Plus.',
     it: "CO2, polveri sottili, COV, radon: quali inquinanti misurare in casa e quale monitor scegliere nel 2026. Confronto tra Airthings View Plus, Netatmo, Aranet4 Home, Awair Element e Airthings Wave Plus.",
     nl: 'CO2, fijnstof, VOS, radon: welke stoffen je thuis meet en welke meter je in 2026 kiest. Vergelijking van Airthings View Plus, Netatmo, Aranet4 Home, Awair Element en Airthings Wave Plus.',
-    pl: 'CO2, pył drobny, LZO, radon: jakie zanieczyszczenia mierzyć w domu i jaki czujnik wybrać w 2026 roku. Porównanie Airthings View Plus, Netatmo, Aranet4 Home, Awair Element i Airthings Wave Plus.',
+    pl: 'CO2, pył zawieszony, LZO, radon: które zanieczyszczenia warto mierzyć w domu i jaki czujnik wybrać w 2026 roku. Porównujemy modele Airthings View Plus, Netatmo, Aranet4 Home, Awair Element i Airthings Wave Plus.',
+    sv: 'CO₂, fina partiklar, VOC, radon: vilka föroreningar ska du mäta hemma, och vilken luftkvalitetsmätare passar dig 2026? Vi jämför Airthings View Plus, Netatmo, Aranet4 Home, Awair Element och Airthings Wave Plus.',
+    us: 'CO2, fine particles, VOCs, radon: which pollutants to measure at home and which monitor to buy in 2026. We compare the Airthings View Plus, Netatmo, Aranet4 Home, Awair Element and Airthings Wave Plus.',
+    ca: 'CO2, fine particles, VOCs, radon: which pollutants to measure at home and which monitor to choose in 2026. Comparing the Airthings View Plus, Netatmo, Aranet4 Home, Awair Element and Airthings Wave Plus.',
   },
   content: {
     fr: `<p>Un capteur de qualité de l'air intérieur vous dit quand aérer, purifier ou déshumidifier, en mesurant le CO2, les particules fines PM2.5, les composés organiques volatils (COV) et, sur certains modèles, le radon. Pour la plupart des foyers, un appareil doté d'un vrai capteur de CO2 NDIR suffit ; dans une région exposée au radon, un moniteur Airthings qui mesure ce gaz devient la priorité.</p>
@@ -640,105 +649,403 @@ export const article: BlogArticle = {
 <li><strong>Als aanvulling in een radongebied:</strong> Airthings Wave Plus, op batterijen en zonder scherm.</li>
 </ul>
 <p>Bekijk alle beschikbare modellen op onze pagina <a href="/nl/energie-domotique/capteurs-qualite-air">luchtkwaliteitsmeters</a>.</p>`,
-    pl: `<p>Czujnik jakości powietrza w pomieszczeniu mówi Ci, kiedy wietrzyć, oczyszczać lub osuszać powietrze, mierząc CO2, pył drobny PM2.5, lotne związki organiczne (LZO) oraz, w niektórych modelach, radon. Dla większości gospodarstw domowych wystarczy urządzenie z prawdziwym czujnikiem CO2 NDIR; w regionie narażonym na radon priorytetem staje się monitor Airthings, który mierzy ten gaz.</p>
-<p>Większość dnia spędzamy w pomieszczeniach, a powietrze jest w nich często gorzej wymieniane, niż nam się wydaje: gotowanie, świece, nowe meble, środki czystości i zwykły oddech obciążają atmosferę, choć tego nie zauważamy. Ten poradnik wyjaśnia, jakie zanieczyszczenia monitorować, jak wybrać monitor, i porównuje pięć modeli faktycznie sprzedawanych w Europie w 2026 roku, na podstawie kart katalogowych producentów, opublikowanych niezależnych porównań i opinii zweryfikowanych kupujących. Wszystkie modele z tej kategorii zebraliśmy na stronie <a href="/pl/energie-domotique/capteurs-qualite-air">czujniki jakości powietrza</a>.</p>
+    pl: `<p>Czujnik jakości powietrza w domu podpowiada, kiedy wietrzyć, oczyścić lub osuszyć powietrze. Mierzy w tym celu CO2, pył zawieszony PM2.5 i lotne związki organiczne (LZO), a niektóre modele także radon. W większości domów wystarczy urządzenie z prawdziwym czujnikiem CO2 typu NDIR. Jeśli jednak mieszkasz w regionie narażonym na radon, w pierwszej kolejności postaw na monitor Airthings, który mierzy ten gaz.</p>
+<p>Większość dnia spędzamy w pomieszczeniach, a powietrze wymienia się w nich zwykle słabiej, niż nam się wydaje. Gotowanie, świece, nowe meble, środki czystości i zwykłe oddychanie – wszystko to po cichu pogarsza jakość powietrza. W tym poradniku wyjaśniamy, które zanieczyszczenia warto kontrolować i jak wybrać monitor, a także porównujemy pięć modeli rzeczywiście sprzedawanych w Europie w 2026 roku. Opieramy się na kartach katalogowych producentów, opublikowanych niezależnych porównaniach i opiniach zweryfikowanych kupujących. Wszystkie modele z tej kategorii znajdziesz na stronie <a href="/pl/energie-domotique/capteurs-qualite-air">czujniki jakości powietrza</a>.</p>
 
-<h2>Zanieczyszczenia, które warto monitorować w domu</h2>
+<h2>Zanieczyszczenia, które warto kontrolować w domu</h2>
 <h3>CO2: najlepszy wskaźnik wymiany powietrza</h3>
-<p>Przy stężeniach spotykanych w mieszkaniu CO2 nie jest toksyczny. Jest jednak najlepszym wskaźnikiem wymiany powietrza: im wyższe stężenie, tym bardziej powietrze w pomieszczeniu zostało już wydychane i tym bardziej gromadzą się wilgoć oraz inne zanieczyszczenia. Typowe przykłady to zamknięta sypialnia zajęta przez całą noc lub domowe biuro bez wietrzenia. Producenci i poradniki dotyczące wentylacji zazwyczaj stosują następujące punkty odniesienia:</p>
+<p>W stężeniach spotykanych w mieszkaniach CO2 nie jest toksyczny, ale najlepiej pokazuje, jak dobrze wymienia się powietrze. Im wyższy poziom CO2, tym więcej w pomieszczeniu powietrza, którym ktoś już oddychał, i tym więcej gromadzi się wilgoci oraz innych zanieczyszczeń. Typowe przykłady to zamknięta sypialnia, w której ktoś śpi całą noc, albo domowe biuro, którego nikt nie wietrzy. Producenci i poradniki dotyczące wentylacji zwykle przyjmują następujące progi:</p>
 <table>
 <thead>
-<tr><th>Zmierzone CO2</th><th>Interpretacja</th><th>Co robić</th></tr>
+<tr><th>Stężenie CO2</th><th>Co to oznacza</th><th>Co zrobić</th></tr>
 </thead>
 <tbody>
-<tr><td>Poniżej 800 ppm</td><td>Powietrze dobrze wymieniane</td><td>Nic szczególnego</td></tr>
-<tr><td>800–1000 ppm</td><td>Wymiana prawidłowa</td><td>Zaplanuj wkrótce wietrzenie</td></tr>
-<tr><td>1000–1400 ppm</td><td>Wymiana niewystarczająca</td><td>Przewietrz przez kilka minut</td></tr>
-<tr><td>Powyżej 1400 ppm</td><td>Powietrze zastałe</td><td>Przewietrz natychmiast i sprawdź wentylację pomieszczenia</td></tr>
+<tr><td>Poniżej 800 ppm</td><td>Dobra wymiana powietrza</td><td>Nic nie trzeba robić</td></tr>
+<tr><td>800–1000 ppm</td><td>Wystarczająca wymiana powietrza</td><td>Wkrótce przewietrz pomieszczenie</td></tr>
+<tr><td>1000–1400 ppm</td><td>Za słaba wymiana powietrza</td><td>Przewietrz przez kilka minut</td></tr>
+<tr><td>Powyżej 1400 ppm</td><td>Powietrze zastałe</td><td>Przewietrz od razu i sprawdź wentylację w pomieszczeniu</td></tr>
 </tbody>
 </table>
-<p>Kwestia kluczowa: tylko czujnik <strong>NDIR</strong> (niedyspersyjny podczerwony) naprawdę mierzy CO2. Niektóre urządzenia pokazują „eCO2” obliczone na podstawie czujnika LZO: to szacunek, który może znacznie odbiegać od rzeczywistości. Wszystkie modele wybrane w tym poradniku używają czujnika NDIR.</p>
+<p>Najważniejsze: CO2 naprawdę mierzy tylko czujnik <strong>NDIR</strong> (niedyspersyjny czujnik podczerwieni). Niektóre urządzenia pokazują „eCO2”, czyli wartość wyliczoną z czujnika LZO. To tylko szacunek, który może mocno odbiegać od rzeczywistości. Wszystkie modele omawiane w tym poradniku mają czujnik NDIR.</p>
 
-<h3>PM2.5: pył drobny</h3>
-<p>Cząstki PM2.5, o średnicy poniżej 2,5 mikrometra, głęboko przenikają do dróg oddechowych. W 2021 roku WHO obniżyła swoją wartość zalecaną do 5 µg/m³ jako średnią roczną. W pomieszczeniach piki pochodzą głównie z gotowania (zwłaszcza na dużym ogniu), świec i kadzideł, pieców i kominków oraz tytoniu. Pomiar PM2.5 jest przydatny, jeśli ktoś w domu choruje na astmę lub ma alergię, jeśli mieszkasz blisko ruchliwej drogi lub chcesz obiektywnie sterować oczyszczaczem powietrza.</p>
+<h3>PM2.5: drobny pył zawieszony</h3>
+<p>Cząstki PM2.5 mają średnicę poniżej 2,5 mikrometra i docierają głęboko do dróg oddechowych. W 2021 roku WHO obniżyła wartość zalecaną dla średniego rocznego stężenia do 5 µg/m³. Szczytowe stężenia w domu biorą się głównie z gotowania (zwłaszcza na dużym ogniu), palenia świec i kadzideł, palenia w piecach i kominkach oraz z dymu tytoniowego. Pomiar PM2.5 przydaje się, jeśli ktoś z domowników ma astmę lub alergię, jeśli mieszkasz przy ruchliwej ulicy albo chcesz sterować oczyszczaczem powietrza na podstawie rzeczywistych pomiarów.</p>
 
 <h3>LZO: lotne związki organiczne</h3>
-<p>LZO są emitowane przez farby, lakiery, kleje, meble z płyt wiórowych, środki czystości i zapachy do wnętrz. Formaldehyd, jeden z najpowszechniejszych, został sklasyfikowany jako rakotwórczy dla ludzi przez Międzynarodową Agencję Badań nad Rakiem. Czujniki konsumenckie mierzą <strong>sumaryczne LZO</strong>: dobrze sygnalizują wzrost po remoncie lub intensywnym sprzątaniu, ale nie wskazują ani konkretnego związku, ani stężenia samego formaldehydu. Służą jako alarm, a nie diagnoza. We Francji produkty budowlane i wykończeniowe mają etykietę emisji od A+ (bardzo niskie) do C: to najlepsza dźwignia ograniczania LZO u źródła.</p>
+<p>LZO uwalniają się z farb, lakierów, klejów, mebli z płyty wiórowej, środków czystości i odświeżaczy powietrza. Jeden z najpowszechniejszych LZO, formaldehyd, został zaliczony przez Międzynarodową Agencję Badań nad Rakiem do substancji rakotwórczych dla ludzi. Domowe czujniki mierzą <strong>sumę LZO</strong>: dobrze wychwytują wzrost stężenia po remoncie czy dużym sprzątaniu, ale nie mówią, który związek za nim stoi, ani ile jest w powietrzu samego formaldehydu. To sygnał ostrzegawczy, a nie diagnoza. We Francji materiały budowlane i wykończeniowe mają etykietę emisji od A+ (bardzo niska emisja) do C. Wybieranie produktów z najlepszą klasą to najskuteczniejszy sposób, by ograniczyć LZO już u źródła.</p>
 
-<h3>Radon: niewidzialne zanieczyszczenie z gruntu</h3>
-<p>Radon to naturalny gaz promieniotwórczy pochodzący z podłoża, zwłaszcza z terenów granitowych i wulkanicznych. Przenika przez pęknięcia i przepusty rur, a gromadzi się głównie w piwnicach i na parterach. WHO uznaje go za jedną z głównych przyczyn raka płuc po paleniu tytoniu. We Francji poziom referencyjny ustalono na 300 Bq/m³ jako średnią roczną, a ASNR (dawniej IRSN) publikuje mapę gmin o potencjale radonowym. Radon bardzo się zmienia z dnia na dzień: sens ma tylko średnia z kilku tygodni, a pomiarem referencyjnym pozostaje dozymetr pasywny pozostawiony na co najmniej dwa miesiące w sezonie grzewczym.</p>
+<h3>Radon: niewidzialny gaz z gruntu</h3>
+<p>Radon to naturalny gaz promieniotwórczy, który wydobywa się z gruntu, zwłaszcza na terenach granitowych i wulkanicznych. Przedostaje się do budynku przez pęknięcia i przejścia rur, a gromadzi się głównie w piwnicach i na parterze. WHO uznaje go za jedną z głównych przyczyn raka płuc, zaraz po paleniu tytoniu. We Francji poziom referencyjny wynosi 300 Bq/m³ (średnia roczna), a ASNR (dawniej IRSN) publikuje mapę gmin o potencjale radonowym. Stężenie radonu mocno się waha z dnia na dzień, dlatego miarodajna jest tylko średnia z kilku tygodni. Pomiarem referencyjnym pozostaje dozymetr pasywny pozostawiony na co najmniej dwa miesiące w sezonie grzewczym.</p>
 
 <h3>Wilgotność i temperatura</h3>
-<p>Wilgotność względna między 40 a 60% jest zazwyczaj uznawana za komfortową. Poniżej błony śluzowe wysychają; powyżej 60–70% utrzymującej się przez dłuższy czas rozmnażają się roztocza i pleśnie. Jeśli Twój monitor regularnie pokazuje wysokie wartości, zajrzyj do naszego <a href="/pl/blog/deshumidificateur-connecte-guide">poradnika o inteligentnym osuszaczu powietrza</a>.</p>
+<p>Za komfortową uznaje się zwykle wilgotność względną na poziomie 40–60%. Gdy jest niższa, wysychają błony śluzowe; gdy przez dłuższy czas przekracza 60–70%, rozmnażają się roztocza i pleśń. Jeśli monitor regularnie pokazuje wysokie wartości, zajrzyj do naszego <a href="/pl/blog/deshumidificateur-connecte-guide">poradnika o inteligentnych osuszaczach powietrza</a>.</p>
 
-<h2>Kryteria dobrego wyboru</h2>
+<h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Wbudowane czujniki:</strong> w pierwszej kolejności CO2 NDIR; PM2.5, jeśli dużo gotujesz, używasz pieca lub oczyszczacza; radon, jeśli Twoja gmina jest zaliczona do obszarów o potencjale radonowym lub mieszkasz w domu jednorodzinnym parterowym albo z piwnicą.</li>
-<li><strong>Zasilanie:</strong> modele na baterie można ustawić wszędzie i łatwo przenosić; modele sieciowe mogą częściej odświeżać pomiary i być stale połączone przez Wi-Fi.</li>
-<li><strong>Łączność:</strong> Wi-Fi pozwala sprawdzać pomiary zdalnie i otrzymywać alerty. Model wyłącznie z Bluetooth przekazuje dane, gdy telefon jest w pobliżu, lub przez bramkę tej samej marki.</li>
-<li><strong>Ekosystem:</strong> sprawdź zgodność z tym, czego już używasz (Apple Home, Amazon Alexa, Google Home, Home Assistant), jeśli chcesz automatycznie włączać wentylację mechaniczną lub oczyszczacz.</li>
-<li><strong>Wyświetlacz:</strong> ekran na urządzeniu pozwala odczytać wartość jednym spojrzeniem, bez wyciągania telefonu, co na co dzień ma duże znaczenie.</li>
-<li><strong>Liczba pomieszczeń:</strong> monitor mierzy tylko pomieszczenie, w którym stoi. Sypialnia i główny pokój dzienny to dwa priorytetowe miejsca.</li>
+<li><strong>Czujniki:</strong> przede wszystkim czujnik CO2 typu NDIR; czujnik PM2.5, jeśli dużo gotujesz, palisz w piecu albo korzystasz z oczyszczacza; czujnik radonu, jeśli Twoja gmina leży na obszarze o potencjale radonowym albo mieszkasz w parterowym domu jednorodzinnym lub w domu z piwnicą.</li>
+<li><strong>Zasilanie:</strong> modele na baterie postawisz w dowolnym miejscu i łatwo je przeniesiesz; modele zasilane z gniazdka mogą częściej odświeżać pomiary i stale utrzymywać połączenie Wi-Fi.</li>
+<li><strong>Łączność:</strong> dzięki Wi-Fi sprawdzisz pomiary z dowolnego miejsca i dostaniesz powiadomienia. Model z samym Bluetoothem przesyła dane tylko wtedy, gdy telefon jest w pobliżu, albo przez bramkę tej samej marki.</li>
+<li><strong>Ekosystem:</strong> jeśli chcesz, żeby czujnik automatycznie włączał wentylację mechaniczną lub oczyszczacz, sprawdź jego zgodność z systemem, którego już używasz (Apple Home, Amazon Alexa, Google Home, Home Assistant).</li>
+<li><strong>Wyświetlacz:</strong> ekran na urządzeniu pozwala sprawdzić wynik jednym rzutem oka, bez sięgania po telefon – na co dzień to duża wygoda.</li>
+<li><strong>Liczba pomieszczeń:</strong> monitor mierzy powietrze tylko w tym pomieszczeniu, w którym stoi. W pierwszej kolejności postaw go w sypialni i w pokoju dziennym.</li>
 </ul>
 
 <h2>5 monitorów wartych uwagi w 2026 roku</h2>
-<h3>Airthings View Plus: najbardziej kompletny</h3>
-<p><strong>Airthings View Plus</strong> jest dziś flagowym modelem Airthings. Mierzy radon, cząstki PM1 i PM2.5, CO2, LZO, wilgotność, temperaturę i ciśnienie atmosferyczne. Jego ekran e-paper wyświetla wybrane wartości, a uzupełnia je zielona, żółta lub czerwona poświata. Działa na sześciu bateriach AA, z deklarowaną żywotnością ok. dwóch lat, lub z sieci przez USB; po podłączeniu pełni też funkcję bramki Wi-Fi dla innych monitorów Airthings w domu. Aplikacja i internetowy panel prezentują historię i alerty, ze zgodnością z Amazon Alexa, Google Assistant i IFTTT.</p>
-<p><strong>Mocne strony:</strong> radon i pył drobny w jednym urządzeniu, pomiar CO2 metodą NDIR, praca na bateriach lub z sieci. <strong>Ograniczenia:</strong> to urządzenie z wyższej półki, a radon wymaga kilku dni, zanim pokaże użyteczną średnią. <strong>Dla kogo:</strong> domy w strefie występowania radonu i osoby, które chcą jednego urządzenia monitorującego wszystko.</p>
+<h3>Airthings View Plus: najbardziej wszechstronny</h3>
+<p><strong>Airthings View Plus</strong> to obecnie flagowy model marki Airthings. Mierzy radon, pył PM1 i PM2.5, CO2, LZO, wilgotność, temperaturę i ciśnienie atmosferyczne. Na ekranie e-paper wyświetla wybrane wartości, a dodatkowo sygnalizuje stan powietrza zieloną, żółtą lub czerwoną podświetlaną obwódką. Może działać na sześciu bateriach AA (producent deklaruje około dwóch lat pracy) albo z sieci przez USB. Podłączony do zasilania pełni też rolę bramki Wi-Fi dla innych monitorów Airthings w domu. Historię pomiarów i alerty pokazują aplikacja oraz panel internetowy, a urządzenie współpracuje z Alexą, Asystentem Google i IFTTT.</p>
+<p><strong>Mocne strony:</strong> radon i pył zawieszony w jednym urządzeniu, pomiar CO2 metodą NDIR, zasilanie z baterii lub z sieci. <strong>Ograniczenia:</strong> urządzenie z wyższej półki, a na miarodajną średnią stężenia radonu trzeba poczekać kilka dni. <strong>Dla kogo:</strong> domy na obszarach narażonych na radon i osoby, które chcą mieć jedno urządzenie do kontroli wszystkich parametrów.</p>
 
-<h3>Netatmo Smart Indoor Air Quality Monitor: najprostszy do śledzenia CO2</h3>
-<p><strong>Netatmo Smart Indoor Air Quality Monitor</strong>, nazywany też Healthy Home Coach, koncentruje się na tym, co najważniejsze: CO2, wilgotność, temperatura i poziom hałasu. Podłącza się do sieci przez USB, łączy przez Wi-Fi i działa z aplikacją Netatmo, bez abonamentu. Oferuje dopasowane profile (niemowlę, osoba z astmą lub zastosowanie ogólne), które zmieniają progi alertów i porady. Jest zgodny z Apple HomeKit, co pozwala włączyć jego pomiary do aplikacji Dom i do automatyzacji.</p>
-<p><strong>Mocne strony:</strong> stonowany design, bardzo prosta instalacja, zgodność z HomeKit, czytelne alerty informujące, kiedy wietrzyć. <strong>Ograniczenia:</strong> brak pomiaru pyłu drobnego, LZO i radonu oraz brak ekranu z wartościami liczbowymi na urządzeniu. <strong>Dla kogo:</strong> sypialnia lub pokój dziecka w domu, w którym chodzi głównie o to, by wiedzieć, kiedy otworzyć okna.</p>
+<h3>Netatmo Smart Indoor Air Quality Monitor: najprostsza kontrola CO2</h3>
+<p><strong>Netatmo Smart Indoor Air Quality Monitor</strong>, znany też jako Healthy Home Coach, mierzy to, co najważniejsze: CO2, wilgotność, temperaturę i poziom hałasu. Jest zasilany z sieci przez USB, łączy się przez Wi-Fi i współpracuje z aplikacją Netatmo bez abonamentu. Ma profile dostosowane do potrzeb (niemowlę, osoba z astmą lub zastosowanie ogólne), które zmieniają progi alertów i podpowiedzi. Jest zgodny z Apple HomeKit, więc jego pomiary można wykorzystać w aplikacji Dom i w automatyzacjach.</p>
+<p><strong>Mocne strony:</strong> stonowany wygląd, bardzo prosta konfiguracja, zgodność z HomeKit, czytelne alerty, które informują, kiedy wietrzyć. <strong>Ograniczenia:</strong> nie mierzy pyłu zawieszonego, LZO ani radonu, nie ma też ekranu z wartościami liczbowymi. <strong>Dla kogo:</strong> sypialnia lub pokój dziecka w domu, w którym chcesz przede wszystkim wiedzieć, kiedy otworzyć okna.</p>
 
-<h3>Aranet4 Home: wzorzec do pomiaru CO2 na baterie</h3>
-<p>Wyprodukowany na Łotwie <strong>Aranet4 Home</strong> to kompaktowy monitor CO2, ceniony za czujnik NDIR i stale czytelny ekran e-ink. Mierzy też temperaturę, wilgotność względną i ciśnienie atmosferyczne. Dzięki ekranowi e-ink producent deklaruje kilka lat pracy na dwóch bateriach AA, zależnie od częstotliwości pomiarów i użycia Bluetooth. Przesyła dane przez Bluetooth do aplikacji Aranet, która przechowuje historię.</p>
-<p><strong>Mocne strony:</strong> ceniony za wiarygodny pomiar CO2, bardzo długa żywotność baterii, łatwe przenoszenie z pokoju do pokoju, natychmiastowy odczyt na ekranie. <strong>Ograniczenia:</strong> brak pyłu drobnego, LZO i radonu; brak wbudowanego Wi-Fi, więc bez bramki nie ma alertów zdalnych. <strong>Dla kogo:</strong> praca zdalna, sypialnie i osoby, które chcą rzetelnego pomiaru CO2, który można zabrać wszędzie.</p>
+<h3>Aranet4 Home: sprawdzony miernik CO2 na baterie</h3>
+<p><strong>Aranet4 Home</strong> to kompaktowy miernik CO2 produkowany na Łotwie, ceniony za czujnik NDIR i ekran e-ink, z którego wynik można odczytać w każdej chwili. Mierzy też temperaturę, wilgotność względną i ciśnienie atmosferyczne. Dzięki ekranowi e-ink producent deklaruje kilka lat pracy na dwóch bateriach AA, w zależności od częstotliwości pomiarów i korzystania z Bluetootha. Dane trafiają przez Bluetooth do aplikacji Aranet, która przechowuje historię pomiarów.</p>
+<p><strong>Mocne strony:</strong> pomiar CO2 uznawany za wiarygodny, bardzo długi czas pracy na bateriach, łatwo go przenieść z pokoju do pokoju, wynik widać od razu na ekranie. <strong>Ograniczenia:</strong> nie mierzy pyłu zawieszonego, LZO ani radonu; nie ma wbudowanego Wi-Fi, więc bez bramki nie wyśle powiadomień na odległość. <strong>Dla kogo:</strong> osoby pracujące zdalnie, sypialnie oraz wszyscy, którzy chcą mieć rzetelny pomiar CO2 zawsze przy sobie.</p>
 
-<h3>Awair Element: pył drobny i integracja z inteligentnym domem</h3>
-<p><strong>Awair Element</strong> mierzy CO2, LZO, pył PM2.5, temperaturę i wilgotność, a całość podsumowuje wynikiem jakości powietrza od 0 do 100, wyświetlanym na froncie. Łączy się przez Wi-Fi i jest zgodny z Amazon Alexa i Google Assistant. Jego atutem dla entuzjastów inteligentnego domu jest lokalne API, obsługiwane przez oficjalną integrację Home Assistant, które pozwala sterować oczyszczaczem lub wentylacją bez udziału chmury.</p>
-<p><strong>Mocne strony:</strong> połączenie CO2 + PM2.5 + LZO, czytelny wynik, lokalne API. <strong>Ograniczenia:</strong> brak radonu, wyłącznie zasilanie sieciowe, a dostępność w Europie bywa nierówna w zależności od kraju i sprzedawców. <strong>Dla kogo:</strong> gospodarstwa z osobą chorą na astmę lub uczuloną, domowe biuro i użytkownicy Home Assistant.</p>
+<h3>Awair Element: pył zawieszony i integracja z inteligentnym domem</h3>
+<p><strong>Awair Element</strong> mierzy CO2, LZO, pył PM2.5, temperaturę i wilgotność, a wszystkie wyniki podsumowuje jedną oceną jakości powietrza w skali 0–100, widoczną z przodu urządzenia. Łączy się przez Wi-Fi i współpracuje z Alexą oraz Asystentem Google. Dla miłośników inteligentnego domu jego największym atutem jest lokalne API: obsługuje je oficjalna integracja Home Assistant, dzięki czemu można sterować oczyszczaczem lub wentylacją bez pośrednictwa chmury.</p>
+<p><strong>Mocne strony:</strong> pomiar CO2, PM2.5 i LZO w jednym urządzeniu, czytelna ocena, lokalne API. <strong>Ograniczenia:</strong> nie mierzy radonu, działa tylko z zasilaniem sieciowym, a jego dostępność w Europie bywa różna w zależności od kraju i sprzedawcy. <strong>Dla kogo:</strong> domy, w których ktoś ma astmę lub alergię, domowe biura i użytkownicy systemu Home Assistant.</p>
 
-<h3>Airthings Wave Plus: radon na baterie, bez ekranu</h3>
-<p><strong>Airthings Wave Plus</strong> mierzy radon, CO2, LZO, wilgotność, temperaturę i ciśnienie atmosferyczne. Działa na bateriach i komunikuje się przez Bluetooth; machnięcie ręką przed urządzeniem zapala kolorowy pierścień świetlny, który podsumowuje jakość powietrza. Aby sprawdzać pomiary zdalnie, potrzebna jest bramka Airthings lub podłączony do sieci View Plus. Airthings promuje obecnie View Plus, ale Wave Plus nadal oferuje wielu europejskich sprzedawców.</p>
-<p><strong>Mocne strony:</strong> radon i CO2 w jednym, praca na bateriach, dyskretny wygląd. <strong>Ograniczenia:</strong> brak pyłu drobnego, brak ekranu z wartościami liczbowymi, bez bramki tylko Bluetooth. <strong>Dla kogo:</strong> drugie pomieszczenie w strefie występowania radonu, jako uzupełnienie View Plus, lub sypialnia, w której nie chcesz żadnego ekranu.</p>
+<h3>Airthings Wave Plus: pomiar radonu na baterie, bez ekranu</h3>
+<p><strong>Airthings Wave Plus</strong> mierzy radon, CO2, LZO, wilgotność, temperaturę i ciśnienie atmosferyczne. Działa na baterie i łączy się przez Bluetooth. Wystarczy machnąć ręką przed urządzeniem, by zapalił się kolorowy pierścień świetlny, który pokazuje ogólną jakość powietrza. Do zdalnego sprawdzania pomiarów potrzebna jest bramka Airthings albo model View Plus podłączony do sieci. Airthings stawia dziś przede wszystkim na View Plus, ale Wave Plus nadal można kupić u wielu europejskich sprzedawców.</p>
+<p><strong>Mocne strony:</strong> pomiar radonu i CO2 w jednym urządzeniu, zasilanie bateryjne, dyskretny wygląd. <strong>Ograniczenia:</strong> nie mierzy pyłu zawieszonego, nie ma ekranu z wartościami liczbowymi, bez bramki łączy się tylko przez Bluetooth. <strong>Dla kogo:</strong> drugie pomieszczenie w domu na obszarze narażonym na radon (jako uzupełnienie modelu View Plus) albo sypialnia, w której nie chcesz mieć żadnego ekranu.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Pomiary</th><th>Radon</th><th>Zasilanie</th><th>Łączność</th><th>Idealny do</th></tr>
+<tr><th>Model</th><th>Pomiary</th><th>Radon</th><th>Zasilanie</th><th>Łączność</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Airthings View Plus</strong></td><td>CO2, PM1, PM2.5, LZO, wilgotność, temperatura, ciśnienie</td><td>Tak</td><td>Baterie lub USB</td><td>Wi-Fi (pełni funkcję bramki)</td><td>Dom w strefie radonu, pełny monitoring</td></tr>
-<tr><td><strong>Netatmo Smart Indoor Air Quality Monitor</strong></td><td>CO2, wilgotność, temperatura, hałas</td><td>Nie</td><td>USB z sieci</td><td>Wi-Fi, Apple HomeKit</td><td>Sypialnia, wiedza o tym, kiedy wietrzyć</td></tr>
-<tr><td><strong>Aranet4 Home</strong></td><td>CO2, wilgotność, temperatura, ciśnienie</td><td>Nie</td><td>Baterie</td><td>Bluetooth</td><td>Wiarygodne i przenośne CO2, praca zdalna</td></tr>
-<tr><td><strong>Awair Element</strong></td><td>CO2, PM2.5, LZO, wilgotność, temperatura</td><td>Nie</td><td>USB z sieci</td><td>Wi-Fi, lokalne API</td><td>Astma, alergie, Home Assistant</td></tr>
-<tr><td><strong>Airthings Wave Plus</strong></td><td>CO2, LZO, wilgotność, temperatura, ciśnienie</td><td>Tak</td><td>Baterie</td><td>Bluetooth (bramka opcjonalna)</td><td>Dodatkowe pomieszczenie w strefie radonu</td></tr>
+<tr><td><strong>Airthings View Plus</strong></td><td>CO2, PM1, PM2.5, LZO, wilgotność, temperatura, ciśnienie</td><td>Tak</td><td>Baterie lub USB</td><td>Wi-Fi (pełni funkcję bramki)</td><td>Dom na obszarze narażonym na radon, kontrola wszystkich parametrów</td></tr>
+<tr><td><strong>Netatmo Smart Indoor Air Quality Monitor</strong></td><td>CO2, wilgotność, temperatura, hałas</td><td>Nie</td><td>USB (z sieci)</td><td>Wi-Fi, Apple HomeKit</td><td>Sypialnia, przypomnienia o wietrzeniu</td></tr>
+<tr><td><strong>Aranet4 Home</strong></td><td>CO2, wilgotność, temperatura, ciśnienie</td><td>Nie</td><td>Baterie</td><td>Bluetooth</td><td>Wiarygodny, przenośny pomiar CO2, praca zdalna</td></tr>
+<tr><td><strong>Awair Element</strong></td><td>CO2, PM2.5, LZO, wilgotność, temperatura</td><td>Nie</td><td>USB (z sieci)</td><td>Wi-Fi, lokalne API</td><td>Astma, alergie, Home Assistant</td></tr>
+<tr><td><strong>Airthings Wave Plus</strong></td><td>CO2, LZO, wilgotność, temperatura, ciśnienie</td><td>Tak</td><td>Baterie</td><td>Bluetooth (bramka opcjonalna)</td><td>Drugie pomieszczenie na obszarze narażonym na radon</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Kupno czujnika pyłu w przekonaniu, że mierzy CO2.</strong> Niektóre podstawowe monitory mierzą tylko PM2.5, temperaturę i wilgotność; tak jest na przykład w przypadku Govee H5106. Przydatne przy dymie z gotowania, ale nie powiedzą Ci, kiedy wietrzyć sypialnię.</li>
-<li><strong>Zaufanie do „eCO2”.</strong> Wartość CO2 oszacowana na podstawie czujnika LZO nie jest pomiarem. Sprawdź w karcie katalogowej wzmiankę o NDIR.</li>
-<li><strong>Ocenianie radonu na podstawie jednego dnia.</strong> Wahania dobowe są duże: poczekaj na kilka tygodni danych, zanim wyciągniesz wnioski, a w razie wątpliwości wykonaj pomiar dozymetrem.</li>
-<li><strong>Złe ustawienie urządzenia.</strong> Przy oknie, nad grzejnikiem, w pełnym słońcu lub obok kuchenki pomiary nie odzwierciedlają powietrza, którym oddychasz.</li>
-<li><strong>Mylenie pomiaru z działaniem.</strong> Monitor niczego nie oczyszcza: mówi Ci, co zrobić. Zaplanuj kolejny krok, czy to wietrzenie, serwis wentylacji mechanicznej, czy dodanie oczyszczacza.</li>
+<li><strong>Kupowanie czujnika pyłu w przekonaniu, że mierzy CO2.</strong> Niektóre podstawowe monitory mierzą tylko PM2.5, temperaturę i wilgotność – tak jest np. w przypadku modelu Govee H5106. Przydają się przy dymie z gotowania, ale nie powiedzą Ci, kiedy przewietrzyć sypialnię.</li>
+<li><strong>Ufanie wartości „eCO2”.</strong> Stężenie CO2 wyliczone na podstawie czujnika LZO to nie pomiar. Sprawdź, czy w karcie katalogowej jest mowa o czujniku NDIR.</li>
+<li><strong>Ocenianie stężenia radonu na podstawie jednego dnia.</strong> Wahania dobowe są duże, dlatego zanim wyciągniesz wnioski, zbierz dane z kilku tygodni, a w razie wątpliwości wykonaj pomiar dozymetrem.</li>
+<li><strong>Ustawianie urządzenia w złym miejscu.</strong> Przy oknie, nad grzejnikiem, w pełnym słońcu lub obok kuchenki wyniki nie odzwierciedlają powietrza, którym oddychasz.</li>
+<li><strong>Mylenie pomiaru z działaniem.</strong> Monitor niczego nie oczyszcza – podpowiada tylko, co zrobić. Zaplanuj kolejny krok: wietrzenie, serwis wentylacji mechanicznej albo zakup oczyszczacza.</li>
 </ul>
 
-<h2>Instalacja i dobre praktyki</h2>
-<p>Umieść monitor na wysokości oddychania, mniej więcej 1–1,5 metra nad podłogą, co najmniej metr od okien, drzwi, kratek wentylacyjnych i źródeł ciepła. W sypialni sprawdzi się szafka nocna lub komoda, o ile nie wieje bezpośrednio na urządzenie. Pozwól urządzeniu ustabilizować się przez kilka godzin po instalacji, zanim zaufasz wskazaniom.</p>
-<p>Wiele czujników CO2 NDIR kalibruje się automatycznie, zakładając, że do pomieszczenia regularnie dociera świeże powietrze: wietrz co najmniej raz dziennie, aby ta korekta działała. W przypadku radonu zainstaluj monitor w najniżej położonym użytkowanym pomieszczeniu domu. Jeśli średnia trwale przekracza poziom referencyjny, zasięgnij informacji w kompetentnych służbach w swoim regionie i skorzystaj z pomocy specjalisty budowlanego: rozwiązania polegają zazwyczaj na uszczelnieniu punktów wnikania i poprawie wentylacji.</p>
-<p>Wreszcie, podłączony do sieci monitor pokazuje pełnię swoich możliwości w połączeniu z innymi urządzeniami: włączenie oczyszczacza, gdy rośnie PM2.5, lub powiadomienie, gdy CO2 przekroczy 1000 ppm. Aby wybrać urządzenie do pary, zajrzyj do naszego <a href="/pl/blog/guide-purificateur-air-2026">poradnika o oczyszczaczach powietrza</a>.</p>
+<h2>Instalacja i prawidłowe użytkowanie</h2>
+<p>Ustaw monitor na wysokości strefy oddychania, czyli mniej więcej 1–1,5 m nad podłogą, co najmniej metr od okien, drzwi, kratek wentylacyjnych i źródeł ciepła. W sypialni sprawdzi się szafka nocna lub komoda, pod warunkiem że nie będziesz oddychać prosto na urządzenie. Po instalacji odczekaj kilka godzin, aż wskazania się ustabilizują, i dopiero wtedy na nich polegaj.</p>
+<p>Wiele czujników CO2 NDIR kalibruje się automatycznie przy założeniu, że do pomieszczenia regularnie trafia świeże powietrze. Żeby ta korekta działała, wietrz co najmniej raz dziennie. Monitor radonu ustaw w najniżej położonym pomieszczeniu, w którym ktoś regularnie przebywa. Jeśli średnia przez dłuższy czas przekracza poziom referencyjny, zwróć się do odpowiednich instytucji w swoim regionie i skorzystaj z pomocy fachowca budowlanego. Zwykle rozwiązaniem jest uszczelnienie miejsc, którymi radon dostaje się do budynku, i poprawa wentylacji.</p>
+<p>Inteligentny monitor najwięcej daje w połączeniu z innymi urządzeniami: może włączyć oczyszczacz, gdy rośnie stężenie PM2.5, albo wysłać powiadomienie, gdy CO2 przekroczy 1000 ppm. Jeśli chcesz dobrać do niego oczyszczacz, zajrzyj do naszego <a href="/pl/blog/guide-purificateur-air-2026">poradnika o oczyszczaczach powietrza</a>.</p>
 
-<h2>Werdykt</h2>
+<h2>Nasz werdykt</h2>
 <ul>
-<li><strong>Najbardziej kompletny:</strong> Airthings View Plus, jedyny model z tej selekcji łączący radon, pył drobny, CO2 i LZO.</li>
-<li><strong>Najlepszy stosunek jakości do ceny:</strong> Netatmo Smart Indoor Air Quality Monitor, by bez komplikacji wiedzieć, kiedy wietrzyć, z obsługą HomeKit.</li>
-<li><strong>Do wiarygodnego i przenośnego pomiaru CO2:</strong> Aranet4 Home, na baterie, ze stale czytelnym ekranem.</li>
-<li><strong>Do pyłu drobnego i inteligentnego domu:</strong> Awair Element, dzięki lokalnemu API.</li>
-<li><strong>Jako uzupełnienie w strefie radonu:</strong> Airthings Wave Plus, na baterie i bez ekranu.</li>
+<li><strong>Najbardziej wszechstronny:</strong> Airthings View Plus – jedyny model w tym zestawieniu, który mierzy jednocześnie radon, pył zawieszony, CO2 i LZO.</li>
+<li><strong>Najlepszy stosunek jakości do ceny:</strong> Netatmo Smart Indoor Air Quality Monitor – bez komplikacji podpowiada, kiedy wietrzyć, i współpracuje z HomeKit.</li>
+<li><strong>Do wiarygodnego, przenośnego pomiaru CO2:</strong> Aranet4 Home – na baterie, z ekranem czytelnym w każdej chwili.</li>
+<li><strong>Do pomiaru pyłu i integracji z inteligentnym domem:</strong> Awair Element – dzięki lokalnemu API.</li>
+<li><strong>Jako uzupełnienie na obszarze narażonym na radon:</strong> Airthings Wave Plus – na baterie i bez ekranu.</li>
 </ul>
 <p>Wszystkie dostępne modele znajdziesz na naszej stronie <a href="/pl/energie-domotique/capteurs-qualite-air">czujniki jakości powietrza</a>.</p>`,
+    sv: `<p>En luftkvalitetsmätare talar om när du behöver vädra, rena luften eller avfukta genom att mäta CO₂, fina partiklar (PM2,5), flyktiga organiska ämnen (VOC) och, på vissa modeller, radon. För de flesta hem räcker en mätare med en riktig NDIR-givare för CO₂. Bor du i ett område med radonrisk bör en Airthings-mätare som mäter radon komma i första hand.</p>
+<p>Vi tillbringar större delen av dygnet inomhus, och luftomsättningen är ofta sämre än vi tror: matlagning, levande ljus, nya möbler, rengöringsmedel och helt enkelt vår egen andning belastar luften utan att vi märker det. Den här guiden förklarar vilka föroreningar som spelar roll och hur du väljer mätare. Den jämför också fem modeller som faktiskt säljs i Europa 2026, utifrån tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Alla modeller i kategorin hittar du på vår sida om <a href="/sv/energie-domotique/capteurs-qualite-air">luftkvalitetsmätare</a>.</p>
+
+<h2>Föroreningarna som är värda att hålla koll på hemma</h2>
+<h3>CO₂: den bästa indikatorn på frisk luft</h3>
+<p>Vid de halter som förekommer i en bostad är koldioxid inte giftig. Däremot är det den bästa måttstocken på ventilationen: ju högre värdet stiger, desto mer av luften i rummet har redan andats in, och desto mer fukt och andra föroreningar ansamlas. Ett stängt sovrum där någon sover hela natten eller ett hemmakontor med stängt fönster är typiska exempel. Tillverkare och ventilationsguider använder i regel de här riktvärdena:</p>
+<table>
+<thead>
+<tr><th>Uppmätt CO₂</th><th>Vad det betyder</th><th>Vad du bör göra</th></tr>
+</thead>
+<tbody>
+<tr><td>Under 800 ppm</td><td>Välventilerad luft</td><td>Inget särskilt</td></tr>
+<tr><td>800–1 000 ppm</td><td>Godtagbar ventilation</td><td>Vädra inom kort</td></tr>
+<tr><td>1 000–1 400 ppm</td><td>Otillräcklig ventilation</td><td>Öppna ett fönster i några minuter</td></tr>
+<tr><td>Över 1 400 ppm</td><td>Instängd luft</td><td>Vädra direkt och se över ventilationen i rummet</td></tr>
+</tbody>
+</table>
+<p>Viktigt att veta: bara en <strong>NDIR</strong>-givare (icke-dispersiv infraröd) mäter faktiskt CO₂. Vissa apparater visar ett ”eCO2”-värde som räknas fram från VOC-givaren; det är en uppskattning som kan ligga långt från verkligheten. Alla modeller i den här guiden har en NDIR-givare.</p>
+
+<h3>PM2,5: fina partiklar</h3>
+<p>PM2,5-partiklar, som är mindre än 2,5 mikrometer, tränger djupt ner i luftvägarna. År 2021 sänkte WHO sitt riktvärde för årsmedelvärdet till 5 µg/m³. Inomhus kommer topparna främst från matlagning (särskilt stekning på hög värme), levande ljus och rökelse, kaminer och öppna spisar samt rökning. Det är värt att mäta PM2,5 om någon i hemmet har astma eller allergi, om du bor nära en hårt trafikerad väg eller om du vill styra en luftrenare utifrån verkliga mätvärden.</p>
+
+<h3>VOC: flyktiga organiska ämnen</h3>
+<p>VOC avges från färg, lack, lim, möbler av spånskiva, rengöringsmedel och doftprodukter för hemmet. Formaldehyd, ett av de vanligaste ämnena, är klassad som cancerframkallande för människor av det internationella cancerforskningsinstitutet IARC. Mätare för hemmabruk mäter <strong>total VOC</strong>: de visar tillförlitligt när halten stiger efter en renovering eller en storstädning, men de säger inte vilket ämne det handlar om, och inte heller formaldehydhalten specifikt. Se dem som en varningsklocka, inte en diagnos. Att välja färger och möbler med låga emissioner är det effektivaste sättet att minska VOC vid källan.</p>
+
+<h3>Radon: den osynliga gasen från marken</h3>
+<p>Radon är en naturligt förekommande radioaktiv gas som tränger upp ur marken, särskilt i områden med granit eller vulkaniska bergarter. Den läcker in genom sprickor och genomföringar för rör och samlas framför allt i källare och på bottenvåningen. WHO räknar radon som en av de främsta orsakerna till lungcancer efter rökning. I Frankrike ligger referensnivån på 300 Bq/m³ i årsmedelvärde, och den franska myndigheten ASNR (tidigare IRSN) publicerar en karta över kommuner med radonrisk; andra länder har egna referensnivåer och kartor. Radonhalten varierar mycket från dag till dag, så bara ett medelvärde över flera veckor säger något. Referensmetoden är fortfarande en passiv mätdosa som får ligga i minst två månader under eldningssäsongen.</p>
+
+<h3>Luftfuktighet och temperatur</h3>
+<p>En relativ luftfuktighet mellan 40 och 60 % brukar anses behaglig. Under det torkar slemhinnorna ut; ligger den över 60–70 % under längre perioder trivs kvalster och mögel. Visar mätaren ofta höga värden, läs vår <a href="/sv/blog/deshumidificateur-connecte-guide">guide till smarta avfuktare</a>.</p>
+
+<h2>Så väljer du rätt</h2>
+<ul>
+<li><strong>Inbyggda givare:</strong> först och främst en NDIR-givare för CO₂; PM2,5 om du lagar mycket mat, eldar i kamin eller använder en luftrenare; radon om du bor i ett område med radonrisk, i ett enplanshus eller i ett hus med källare.</li>
+<li><strong>Strömförsörjning:</strong> batteridrivna modeller kan placeras var som helst och är lätta att flytta; modeller med nätström kan uppdatera mätvärdena oftare och vara uppkopplade mot wifi hela tiden.</li>
+<li><strong>Uppkoppling:</strong> med wifi kan du se mätvärdena på distans och få varningar. En modell med bara Bluetooth synkar när mobilen är i närheten, eller via en hubb från samma märke.</li>
+<li><strong>Ekosystem:</strong> kontrollera att mätaren fungerar med det du redan använder (Apple Home, Amazon Alexa, Google Home, Home Assistant) om du vill att ventilationen eller luftrenaren ska starta automatiskt.</li>
+<li><strong>Skärm:</strong> med en skärm på själva apparaten läser du av värdena med en snabb blick utan att ta fram mobilen, och det gör stor skillnad i vardagen.</li>
+<li><strong>Antal rum:</strong> en mätare mäter bara rummet där den står. Sovrummet och vardagsrummet är de två viktigaste platserna.</li>
+</ul>
+
+<h2>5 mätare som är värda att överväga 2026</h2>
+<h3>Airthings View Plus: den mest kompletta</h3>
+<p><strong>Airthings View Plus</strong> är i dag Airthings flaggskepp. Den mäter radon, partiklar (PM1 och PM2,5), CO₂, VOC, luftfuktighet, temperatur och lufttryck. E-pappersskärmen visar de värden du väljer, tillsammans med en ljusring som lyser grönt, gult eller rött. Den drivs med sex AA-batterier, med en uppgiven batteritid på omkring två år, eller med ström via USB. När den är ansluten till ström fungerar den också som wifi-hubb för andra Airthings-mätare i hemmet. Appen och webbpanelen visar historik och varningar, och mätaren fungerar med Amazon Alexa, Google Assistant och IFTTT.</p>
+<p><strong>Styrkor:</strong> radon och fina partiklar i samma apparat, CO₂ via NDIR, drivs med batterier eller nätström. <strong>Svagheter:</strong> en premiumprodukt, och det tar flera dagar innan radonmätningen ger ett användbart medelvärde. <strong>Passar för:</strong> hem i områden med radonrisk och dig som vill ha en enda apparat som håller koll på allt.</p>
+
+<h3>Netatmo Smart Indoor Air Quality Monitor: det enklaste sättet att följa CO₂</h3>
+<p><strong>Netatmo Smart Indoor Air Quality Monitor</strong>, även kallad Healthy Home Coach, fokuserar på det viktigaste: CO₂, luftfuktighet, temperatur och ljudnivå. Den drivs med nätström via USB, ansluter via wifi och används med Netatmos app utan abonnemang. Det finns färdiga profiler för bebis, astmatiker och allmänt bruk, och de anpassar larmgränserna och råden. Den fungerar med Apple HomeKit, så mätvärdena kan visas i Apple Home-appen och användas i automationer.</p>
+<p><strong>Styrkor:</strong> diskret design, mycket enkel installation, stöd för HomeKit, tydliga varningar som talar om när det är dags att vädra. <strong>Svagheter:</strong> mäter inte fina partiklar, VOC eller radon, och har ingen sifferdisplay på apparaten. <strong>Passar för:</strong> ett sovrum eller barnrum, i ett hushåll som främst vill veta när det är dags att öppna fönstret.</p>
+
+<h3>Aranet4 Home: referensen bland batteridrivna CO₂-mätare</h3>
+<p><strong>Aranet4 Home</strong> tillverkas i Lettland och är en kompakt CO₂-mätare som är känd för sin NDIR-givare och sin e-bläckskärm som alltid visar värdena. Den mäter också temperatur, relativ luftfuktighet och lufttryck. Tack vare e-bläckskärmen uppger tillverkaren flera års batteritid på två AA-batterier, beroende på mätintervall och hur mycket Bluetooth används. Mätvärdena skickas via Bluetooth till appen Aranet, som sparar historiken.</p>
+<p><strong>Styrkor:</strong> CO₂-mätning med gott rykte för tillförlitlighet, exceptionellt lång batteritid, lätt att flytta från rum till rum, går att läsa av med en blick. <strong>Svagheter:</strong> mäter varken fina partiklar, VOC eller radon; inget inbyggt wifi, så inga varningar på distans utan en basstation. <strong>Passar för:</strong> hemmakontor, sovrum och dig som vill ha en seriös CO₂-mätning att ta med överallt.</p>
+
+<h3>Awair Element: fina partiklar och smarta hem</h3>
+<p><strong>Awair Element</strong> mäter CO₂, VOC, PM2,5, temperatur och luftfuktighet och sammanfattar allt i ett luftkvalitetsbetyg från 0 till 100 som visas på fronten. Den ansluter via wifi och fungerar med Amazon Alexa och Google Assistant. Det som lockar smarthemsentusiaster mest är ett lokalt API, som stöds av den officiella integrationen i Home Assistant och gör att du kan styra en luftrenare eller ventilationen utan att gå via molnet.</p>
+<p><strong>Styrkor:</strong> CO₂, PM2,5 och VOC i samma apparat, lättläst betyg, lokalt API. <strong>Svagheter:</strong> mäter inte radon, kräver nätström, och tillgången i Europa kan vara ojämn beroende på land och återförsäljare. <strong>Passar för:</strong> hushåll där någon har astma eller allergi, hemmakontor och användare av Home Assistant.</p>
+
+<h3>Airthings Wave Plus: radon på batteri, utan skärm</h3>
+<p><strong>Airthings Wave Plus</strong> mäter radon, CO₂, VOC, luftfuktighet, temperatur och lufttryck. Den drivs med batterier och använder Bluetooth; vinkar du med handen framför den tänds en färgad ring som sammanfattar luftkvaliteten. För att se mätvärdena på distans behöver du en Airthings-hubb eller en View Plus som är ansluten till nätström. Airthings lyfter numera fram View Plus i första hand, men Wave Plus säljs fortfarande av många europeiska återförsäljare.</p>
+<p><strong>Styrkor:</strong> radon och CO₂ i samma apparat, batteridriven, diskret. <strong>Svagheter:</strong> mäter inte fina partiklar, ingen sifferdisplay, bara Bluetooth om du inte har en hubb. <strong>Passar för:</strong> ett andra rum i ett område med radonrisk, som komplement till en View Plus, eller ett sovrum där du inte vill ha någon skärm alls.</p>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Mäter</th><th>Radon</th><th>Ström</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Airthings View Plus</strong></td><td>CO₂, PM1, PM2,5, VOC, luftfuktighet, temperatur, lufttryck</td><td>Ja</td><td>Batterier eller USB</td><td>Wifi (fungerar som hubb)</td><td>Hem med radonrisk, komplett övervakning</td></tr>
+<tr><td><strong>Netatmo Smart Indoor Air Quality Monitor</strong></td><td>CO₂, luftfuktighet, temperatur, ljudnivå</td><td>Nej</td><td>Nätström via USB</td><td>Wifi, Apple HomeKit</td><td>Sovrum, veta när du ska vädra</td></tr>
+<tr><td><strong>Aranet4 Home</strong></td><td>CO₂, luftfuktighet, temperatur, lufttryck</td><td>Nej</td><td>Batterier</td><td>Bluetooth</td><td>Pålitlig CO₂-mätning att flytta runt, hemmakontor</td></tr>
+<tr><td><strong>Awair Element</strong></td><td>CO₂, PM2,5, VOC, luftfuktighet, temperatur</td><td>Nej</td><td>Nätström via USB</td><td>Wifi, lokalt API</td><td>Astma, allergi, Home Assistant</td></tr>
+<tr><td><strong>Airthings Wave Plus</strong></td><td>CO₂, VOC, luftfuktighet, temperatur, lufttryck</td><td>Ja</td><td>Batterier</td><td>Bluetooth (hubb som tillval)</td><td>Ett andra rum i ett radonområde</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att köpa en partikelmätare i tron att den mäter CO₂.</strong> Vissa instegsmodeller mäter bara PM2,5, temperatur och luftfuktighet; Govee H5106 är ett exempel. De är till hjälp mot os från matlagningen, men de säger inte när du behöver vädra sovrummet.</li>
+<li><strong>Att lita på ett ”eCO2”-värde.</strong> Ett CO₂-värde som uppskattas från en VOC-givare är ingen mätning. Leta efter NDIR i de tekniska uppgifterna.</li>
+<li><strong>Att bedöma radon utifrån en enda dag.</strong> Variationerna från dag till dag är stora: vänta tills du har flera veckors data innan du drar några slutsatser, och mät med en passiv mätdosa om du är osäker.</li>
+<li><strong>Att placera mätaren fel.</strong> Bredvid ett fönster, ovanför ett element, i direkt solljus eller intill spisen speglar mätvärdena inte den luft du andas.</li>
+<li><strong>Att blanda ihop mätning och åtgärd.</strong> En mätare renar ingenting: den talar om vad du ska göra. Planera nästa steg, oavsett om det handlar om att vädra, se över ventilationen eller skaffa en luftrenare.</li>
+</ul>
+
+<h2>Installation och daglig användning</h2>
+<p>Placera mätaren i andningshöjd, ungefär 1–1,5 meter upp, och minst en meter från fönster, dörrar, ventiler och värmekällor. I sovrummet fungerar ett nattduksbord eller en byrå bra, så länge du inte andas rakt på mätaren. Ge apparaten några timmar att stabilisera sig efter installationen innan du litar på värdena.</p>
+<p>Många NDIR-givare för CO₂ kalibrerar om sig automatiskt utifrån antagandet att rummet regelbundet får frisk luft, så vädra minst en gång om dagen för att korrigeringen ska fungera. För radon ställer du mätaren i det lägst belägna rum i huset där du brukar vistas. Ligger medelvärdet kvar över den referensnivå som gäller där du bor, ta reda på vad de ansvariga myndigheterna i din region rekommenderar och anlita en byggfackman: åtgärderna går oftast ut på att täta de ställen där gasen läcker in och förbättra ventilationen.</p>
+<p>En uppkopplad mätare gör mest nytta när den samverkar med dina andra apparater: den kan sätta på en luftrenare när PM2,5-halten stiger eller skicka en notis när CO₂-halten passerar 1 000 ppm. Vill du välja en luftrenare att para ihop den med, läs vår <a href="/sv/blog/guide-purificateur-air-2026">guide till luftrenare</a>.</p>
+
+<h2>Vårt omdöme</h2>
+<ul>
+<li><strong>Mest komplett:</strong> Airthings View Plus, den enda modellen här som kombinerar radon, fina partiklar, CO₂ och VOC.</li>
+<li><strong>Mest prisvärd:</strong> Netatmo Smart Indoor Air Quality Monitor, för att veta när du ska vädra utan krångel, med HomeKit.</li>
+<li><strong>För pålitlig CO₂-mätning att ta med:</strong> Aranet4 Home, batteridriven och med en skärm som alltid går att läsa av.</li>
+<li><strong>För fina partiklar och smarta hem:</strong> Awair Element, tack vare sitt lokala API.</li>
+<li><strong>Som komplement i ett område med radonrisk:</strong> Airthings Wave Plus, batteridriven och utan skärm.</li>
+</ul>
+<p>Alla tillgängliga modeller hittar du på vår sida om <a href="/sv/energie-domotique/capteurs-qualite-air">luftkvalitetsmätare</a>.</p>
+`,
+    us: `<p>An indoor air quality monitor tells you when to ventilate, run a purifier or dehumidify by measuring CO2, PM2.5 fine particles, volatile organic compounds (VOCs) and, on some models, radon. For most homes, a device with a true NDIR CO2 sensor is all you need; if you live in an area with high radon levels, an Airthings monitor that measures radon should come first.</p>
+<p>We spend most of the day indoors, and the air gets refreshed less often than we think: cooking, candles, new furniture, cleaning products and simply breathing all load up the air without our noticing. This guide explains which pollutants matter and how to choose a monitor, and it compares five models actually sold in Europe in 2026, based on manufacturer specifications, published independent reviews and verified owner feedback. You'll find every model in the category on our <a href="/us/energie-domotique/capteurs-qualite-air">air quality monitors</a> page.</p>
+
+<h2>The pollutants worth tracking at home</h2>
+<h3>CO2: the best indicator of fresh air</h3>
+<p>At the levels found in a home, CO2 isn't toxic. It is, however, the best stand-in for ventilation: the higher it climbs, the more of the room's air has already been breathed, and the more humidity and other pollutants build up. A closed bedroom occupied all night or a home office with the window shut are typical examples. Manufacturers and ventilation guides generally use these benchmarks:</p>
+<table>
+<thead>
+<tr><th>Measured CO2</th><th>What it means</th><th>What to do</th></tr>
+</thead>
+<tbody>
+<tr><td>Below 800 ppm</td><td>Well-ventilated air</td><td>Nothing in particular</td></tr>
+<tr><td>800 to 1,000 ppm</td><td>Acceptable ventilation</td><td>Plan to air out the room soon</td></tr>
+<tr><td>1,000 to 1,400 ppm</td><td>Not enough ventilation</td><td>Open a window for a few minutes</td></tr>
+<tr><td>Above 1,400 ppm</td><td>Stale air</td><td>Ventilate now and rethink how the room is ventilated</td></tr>
+</tbody>
+</table>
+<p>One key point: only an <strong>NDIR</strong> (nondispersive infrared) sensor actually measures CO2. Some devices display an "eCO2" value calculated from their VOC sensor; that's an estimate, and it can be far off. Every model in this guide uses an NDIR sensor.</p>
+
+<h3>PM2.5: fine particles</h3>
+<p>PM2.5 particles, smaller than 2.5 micrometers, travel deep into the airways. In 2021, the WHO lowered its annual guideline to 5 µg/m³. Indoors, spikes come mainly from cooking (especially high-heat frying and searing), candles and incense, wood stoves and fireplaces, and smoking. Measuring PM2.5 is worthwhile if someone at home has asthma or allergies, if you live near a busy road, or if you want to run an air purifier based on real data.</p>
+
+<h3>VOCs: volatile organic compounds</h3>
+<p>VOCs are given off by paints, varnishes, adhesives, particleboard furniture, cleaning products and air fresheners. Formaldehyde, one of the most common, is classified as carcinogenic to humans by the International Agency for Research on Cancer. Consumer sensors measure <strong>total VOCs</strong>: they reliably flag a rise after painting or a deep clean, but they don't tell you which compound is responsible, or the formaldehyde level specifically. Treat them as an early warning, not a diagnosis. Choosing low-VOC paints and low-emission furniture is the most effective way to cut VOCs at the source.</p>
+
+<h3>Radon: the invisible gas from the ground</h3>
+<p>Radon is a naturally occurring radioactive gas that seeps up from the ground, especially in areas with granite or volcanic rock. It gets in through cracks and gaps around pipes and builds up mostly in basements and on the lowest floor. The WHO considers it one of the leading causes of lung cancer after smoking. Reference levels are set country by country: in France, it's 300 Bq/m³ (about 8 pCi/L) as an annual average, and the country's nuclear safety and radiation protection authority (ASNR) publishes a map of radon-prone municipalities. Wherever you live, look for the radon map published by your national or state health or environmental agency. Radon swings a lot from day to day, so only an average over several weeks means anything; the reference method is still a passive test kit left in place for at least two months during the heating season.</p>
+
+<h3>Humidity and temperature</h3>
+<p>Relative humidity between 40 and 60% is generally considered comfortable. Below that, your nose and throat dry out; above 60 to 70% for long stretches, dust mites and mold thrive. If your monitor regularly shows high readings, see our <a href="/us/blog/deshumidificateur-connecte-guide">smart dehumidifier guide</a>.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Sensors on board:</strong> an NDIR CO2 sensor first; PM2.5 if you cook a lot, use a wood stove or run a purifier; radon if your area is known for high radon levels or you live in a single-story house or a house with a basement.</li>
+<li><strong>Power:</strong> battery-powered models can go anywhere and move easily; plug-in models can refresh their readings more often and stay on Wi-Fi all the time.</li>
+<li><strong>Connectivity:</strong> Wi-Fi lets you check readings remotely and get alerts. A Bluetooth-only model syncs when your phone is nearby, or through a hub from the same brand.</li>
+<li><strong>Ecosystem:</strong> check compatibility with what you already use (Apple Home, Amazon Alexa, Google Home, Home Assistant) if you want to trigger ventilation or a purifier automatically.</li>
+<li><strong>Display:</strong> a screen on the device lets you read the numbers at a glance without reaching for your phone, which matters day to day.</li>
+<li><strong>Number of rooms:</strong> a monitor only measures the room it's in. The bedroom and the main living area are the two places to start.</li>
+</ul>
+
+<h2>The 5 monitors worth considering in 2026</h2>
+<h3>Airthings View Plus: the most complete</h3>
+<p>The <strong>Airthings View Plus</strong> is now Airthings' flagship. It measures radon, PM1 and PM2.5 particles, CO2, VOCs, humidity, temperature and air pressure. Its e-paper screen shows the readings you choose, with a green, yellow or red light ring. It runs on six AA batteries, with a stated battery life of about two years, or on USB power; when it's plugged in, it also acts as a Wi-Fi hub for other Airthings monitors in the house. The app and online dashboard show history and alerts, and it works with Amazon Alexa, Google Assistant and IFTTT.</p>
+<p><strong>Pros:</strong> radon and fine particles in one device, NDIR CO2, battery or plug-in power. <strong>Cons:</strong> it's a premium device, and radon takes several days to show a useful average. <strong>Best for:</strong> homes in high-radon areas and anyone who wants one device that covers everything.</p>
+
+<h3>Netatmo Smart Indoor Air Quality Monitor: the easiest way to track CO2</h3>
+<p>The <strong>Netatmo Smart Indoor Air Quality Monitor</strong>, also known as the Healthy Home Coach, sticks to the essentials: CO2, humidity, temperature and noise level. It plugs in over USB, connects over Wi-Fi and works with the Netatmo app, with no subscription. Profiles for a baby, someone with asthma or general use adjust the alert thresholds and advice. It's compatible with Apple HomeKit, so its readings can show up in the Home app and in automations.</p>
+<p><strong>Pros:</strong> understated design, very easy setup, HomeKit support, clear alerts telling you when to ventilate. <strong>Cons:</strong> no fine particle, VOC or radon readings, and no numeric display on the device. <strong>Best for:</strong> a bedroom or nursery, in a household that mainly wants to know when to open the windows.</p>
+
+<h3>Aranet4 Home: the benchmark battery-powered CO2 monitor</h3>
+<p>Made in Latvia, the <strong>Aranet4 Home</strong> is a compact CO2 monitor known for its NDIR sensor and always-on e-ink display. It also measures temperature, relative humidity and air pressure. Thanks to the e-ink screen, the manufacturer quotes several years of battery life on two AA batteries, depending on the measurement interval and Bluetooth use. It sends data over Bluetooth to the Aranet app, which keeps the history.</p>
+<p><strong>Pros:</strong> CO2 readings with a strong reputation for reliability, exceptional battery life, easy to carry from room to room, readable at a glance. <strong>Cons:</strong> no fine particles, VOCs or radon; no built-in Wi-Fi, so no remote alerts without a base station. <strong>Best for:</strong> home offices, bedrooms and anyone who wants a serious CO2 reading they can take anywhere.</p>
+
+<h3>Awair Element: fine particles and smart home integration</h3>
+<p>The <strong>Awair Element</strong> measures CO2, VOCs, PM2.5, temperature and humidity, and sums them up in an air quality score from 0 to 100 shown on the front. It connects over Wi-Fi and works with Amazon Alexa and Google Assistant. Its big draw for smart home enthusiasts is a local API, supported by the official Home Assistant integration, which lets you control a purifier or ventilation without going through the cloud.</p>
+<p><strong>Pros:</strong> CO2, PM2.5 and VOCs in one device, an easy-to-read score, a local API. <strong>Cons:</strong> no radon, plug-in power only, and availability can be spotty depending on the country and retailer. <strong>Best for:</strong> households with someone who has asthma or allergies, home offices and Home Assistant users.</p>
+
+<h3>Airthings Wave Plus: battery-powered radon monitoring, no screen</h3>
+<p>The <strong>Airthings Wave Plus</strong> measures radon, CO2, VOCs, humidity, temperature and air pressure. It runs on batteries and uses Bluetooth; wave your hand in front of it and a colored ring lights up to sum up the air quality. To see readings remotely, you need an Airthings hub or a plugged-in View Plus. Airthings now puts the View Plus first, but the Wave Plus is still sold by many retailers in Europe.</p>
+<p><strong>Pros:</strong> radon and CO2 in one device, battery-powered, discreet. <strong>Cons:</strong> no fine particles, no numeric display, Bluetooth only without a hub. <strong>Best for:</strong> a second room in a high-radon area alongside a View Plus, or a bedroom where you don't want a screen at all.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Measures</th><th>Radon</th><th>Power</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Airthings View Plus</strong></td><td>CO2, PM1, PM2.5, VOC, humidity, temperature, pressure</td><td>Yes</td><td>Batteries or USB</td><td>Wi-Fi (acts as a hub)</td><td>High-radon areas, complete monitoring</td></tr>
+<tr><td><strong>Netatmo Smart Indoor Air Quality Monitor</strong></td><td>CO2, humidity, temperature, noise</td><td>No</td><td>USB (plug-in)</td><td>Wi-Fi, Apple HomeKit</td><td>Bedrooms, knowing when to ventilate</td></tr>
+<tr><td><strong>Aranet4 Home</strong></td><td>CO2, humidity, temperature, pressure</td><td>No</td><td>Batteries</td><td>Bluetooth</td><td>Reliable, portable CO2 readings, home offices</td></tr>
+<tr><td><strong>Awair Element</strong></td><td>CO2, PM2.5, VOC, humidity, temperature</td><td>No</td><td>USB (plug-in)</td><td>Wi-Fi, local API</td><td>Asthma, allergies, Home Assistant</td></tr>
+<tr><td><strong>Airthings Wave Plus</strong></td><td>CO2, VOC, humidity, temperature, pressure</td><td>Yes</td><td>Batteries</td><td>Bluetooth (optional hub)</td><td>A second room in a radon area</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a particle sensor and thinking it measures CO2.</strong> Some entry-level monitors only measure PM2.5, temperature and humidity; the Govee H5106 is one example. They help with cooking smoke but won't tell you when to air out a bedroom.</li>
+<li><strong>Trusting an "eCO2" reading.</strong> A CO2 value estimated from a VOC sensor isn't a measurement. Look for NDIR in the specs.</li>
+<li><strong>Judging radon on a single day.</strong> Daily swings are large: wait for several weeks of data before drawing conclusions, and use a passive test kit if you're unsure.</li>
+<li><strong>Putting it in the wrong spot.</strong> Next to a window, above a heating vent or radiator, in direct sun or beside the stove, the readings won't reflect the air you breathe.</li>
+<li><strong>Confusing measurement with action.</strong> A monitor doesn't clean the air: it tells you what to do. Plan the next step, whether that's airing out rooms, servicing your ventilation system or adding a purifier.</li>
+</ul>
+
+<h2>Setup and everyday use</h2>
+<p>Place the monitor at breathing height, roughly 3 to 5 ft (1 to 1.5 m) off the floor, and at least 3 ft (1 m) from windows, doors, vents and heat sources. In a bedroom, a nightstand or dresser works well, as long as you aren't breathing directly onto it. Give the device a few hours to settle after setup before you trust the readings.</p>
+<p>Many NDIR CO2 sensors recalibrate automatically on the assumption that the room regularly gets fresh air, so ventilate at least once a day for that correction to work. For radon, put the monitor in the lowest room of the house that you actually use. If the average stays above the reference level where you live, contact your state or local health department for guidance and hire a qualified radon mitigation contractor: the fix usually involves sealing entry points and improving ventilation.</p>
+<p>A smart monitor is most useful when it's linked to your other devices: turning on a purifier when PM2.5 rises, or sending a notification when CO2 passes 1,000 ppm. To pick a purifier to pair it with, see our <a href="/us/blog/guide-purificateur-air-2026">air purifier guide</a>.</p>
+
+<h2>The bottom line</h2>
+<ul>
+<li><strong>Most complete:</strong> Airthings View Plus, the only model here that combines radon, fine particles, CO2 and VOCs.</li>
+<li><strong>Best value:</strong> Netatmo Smart Indoor Air Quality Monitor, to know when to ventilate without any fuss, with HomeKit support.</li>
+<li><strong>For reliable, portable CO2 readings:</strong> Aranet4 Home, battery-powered with a screen you can always read.</li>
+<li><strong>For fine particles and smart home control:</strong> Awair Element, thanks to its local API.</li>
+<li><strong>As a companion in a radon area:</strong> Airthings Wave Plus, battery-powered and screen-free.</li>
+</ul>
+<p>See every available model on our <a href="/us/energie-domotique/capteurs-qualite-air">air quality monitors</a> page.</p>`,
+    ca: `<p>An indoor air quality monitor tells you when to ventilate, purify or dehumidify by measuring CO2, PM2.5 fine particles, volatile organic compounds (VOCs) and, on some models, radon. For most homes, a device with a genuine NDIR CO2 sensor is enough; if you live in an area with high radon levels, an Airthings monitor that measures radon should come first.</p>
+<p>We spend most of our day indoors, and the air gets refreshed less often than we think: cooking, candles, new furniture, cleaning products and simply breathing all load up the air without us noticing. This guide explains which pollutants matter and how to choose a monitor, and compares five models actually sold in Europe in 2026, based on manufacturer specifications, published independent reviews and verified owner reviews. You'll find every model in the category on our <a href="/ca/energie-domotique/capteurs-qualite-air">air quality monitors</a> page.</p>
+
+<h2>The pollutants worth tracking at home</h2>
+<h3>CO2: the best indicator of fresh air</h3>
+<p>At the levels found in a home, CO2 isn't toxic. It is, however, the best proxy for ventilation: the higher it climbs, the more the air in the room has already been breathed, and the more humidity and other pollutants build up. A closed bedroom occupied all night or a home office with the window shut are typical examples. Manufacturers and ventilation guides generally use these reference points:</p>
+<table>
+<thead>
+<tr><th>Measured CO2</th><th>What it means</th><th>What to do</th></tr>
+</thead>
+<tbody>
+<tr><td>Below 800 ppm</td><td>Well-ventilated air</td><td>Nothing in particular</td></tr>
+<tr><td>800 to 1,000 ppm</td><td>Acceptable ventilation</td><td>Plan to air out the room soon</td></tr>
+<tr><td>1,000 to 1,400 ppm</td><td>Insufficient ventilation</td><td>Open a window for a few minutes</td></tr>
+<tr><td>Above 1,400 ppm</td><td>Stale air</td><td>Ventilate now and review the room's ventilation</td></tr>
+</tbody>
+</table>
+<p>One key point: only an <strong>NDIR</strong> (non-dispersive infrared) sensor actually measures CO2. Some devices display an "eCO2" value calculated from their VOC sensor; that's an estimate and can be far from reality. Every model in this guide uses an NDIR sensor.</p>
+
+<h3>PM2.5: fine particles</h3>
+<p>PM2.5 particles, smaller than 2.5 micrometres, travel deep into the airways. In 2021, the WHO lowered its annual guideline to 5 µg/m³. Indoors, spikes mostly come from cooking (especially high-heat frying), candles and incense, wood stoves and fireplaces, and smoking. Measuring PM2.5 is worthwhile if someone at home has asthma or allergies, if you live near a busy road, or if you want to run an air purifier based on real data.</p>
+
+<h3>VOCs: volatile organic compounds</h3>
+<p>VOCs are released by paints, varnishes, adhesives, particleboard furniture, cleaning products and air fresheners. Formaldehyde, one of the most common, is classified as carcinogenic to humans by the International Agency for Research on Cancer. Consumer sensors measure <strong>total VOCs</strong>: they reliably flag a rise after painting or heavy cleaning, but they don't tell you which compound is responsible, or the formaldehyde level specifically. Treat them as an alert, not a diagnosis. Choosing low-emission paints and furniture is the most effective way to cut VOCs at the source.</p>
+
+<h3>Radon: the invisible gas from the ground</h3>
+<p>Radon is a naturally occurring radioactive gas that rises from the ground, particularly in areas with granite and some other types of rock. It gets in through cracks and openings around pipes and collects mostly in basements and on main floors. The WHO considers it one of the leading causes of lung cancer after smoking. Reference levels are set country by country (France uses 300 Bq/m³ as an annual average, for example, and the UK an action level of 200 Bq/m³), and public health authorities publish maps of the areas most affected, so check the official guidance where you live. Radon fluctuates a lot from day to day, so only an average over several weeks is meaningful; the reference method is still a passive long-term detector left in place for at least a few months during the heating season.</p>
+
+<h3>Humidity and temperature</h3>
+<p>Relative humidity between 40% and 60% is generally considered comfortable. Below that, your nose and throat dry out; above 60% to 70% for long periods, dust mites and mould thrive. If your monitor regularly shows high readings, see our <a href="/ca/blog/deshumidificateur-connecte-guide">smart dehumidifier guide</a>.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Sensors on board:</strong> an NDIR CO2 sensor first; PM2.5 if you cook a lot, use a wood stove or run a purifier; radon if your area has high radon levels or you live in a house with a basement or in a bungalow.</li>
+<li><strong>Power:</strong> battery models can go anywhere and move easily; plug-in models can refresh readings more often and stay on Wi-Fi all the time.</li>
+<li><strong>Connectivity:</strong> Wi-Fi lets you check readings remotely and get alerts. A Bluetooth-only model syncs when your phone is nearby, or through a hub from the same brand.</li>
+<li><strong>Ecosystem:</strong> check compatibility with what you already use (Apple Home, Amazon Alexa, Google Home, Home Assistant) if you want to trigger ventilation or a purifier automatically.</li>
+<li><strong>Display:</strong> an on-device screen lets you read values at a glance without reaching for your phone, which matters day to day.</li>
+<li><strong>Number of rooms:</strong> a monitor only measures the room it sits in. The bedroom and the main living area are the two priority spots.</li>
+</ul>
+
+<h2>The 5 monitors worth considering in 2026</h2>
+<h3>Airthings View Plus: the most complete</h3>
+<p>The <strong>Airthings View Plus</strong> is now Airthings' flagship. It measures radon, PM1 and PM2.5 particles, CO2, VOCs, humidity, temperature and air pressure. Its e-paper screen shows the readings you choose, with a green, yellow or red glow ring. It runs on six AA batteries, with a stated battery life of about two years, or on USB power; when plugged in, it also acts as a Wi-Fi hub for other Airthings monitors in the home. The app and online dashboard show history and alerts, and it works with Amazon Alexa, Google Assistant and IFTTT.</p>
+<p><strong>Strengths:</strong> radon and fine particles in one device, NDIR CO2, battery or plug-in power. <strong>Limitations:</strong> it's a premium device, and radon takes several days before showing a useful average. <strong>Best for:</strong> homes in high-radon areas and anyone who wants one device that covers everything.</p>
+
+<h3>Netatmo Smart Indoor Air Quality Monitor: the easiest way to track CO2</h3>
+<p>The <strong>Netatmo Smart Indoor Air Quality Monitor</strong>, also known as the Healthy Home Coach, focuses on the essentials: CO2, humidity, temperature and noise level. It plugs in over USB, connects over Wi-Fi and works with the Netatmo app with no subscription. Profiles for a baby, a person with asthma or general use adjust the alert thresholds and advice. It's compatible with Apple HomeKit, so its readings can appear in the Home app and in automations.</p>
+<p><strong>Strengths:</strong> understated design, very easy setup, HomeKit support, clear alerts telling you when to ventilate. <strong>Limitations:</strong> no fine particle, VOC or radon measurement, and no numeric screen on the device. <strong>Best for:</strong> a bedroom or nursery, in a household that mainly wants to know when to open the windows.</p>
+
+<h3>Aranet4 Home: the benchmark battery CO2 monitor</h3>
+<p>Made in Latvia, the <strong>Aranet4 Home</strong> is a compact CO2 monitor known for its NDIR sensor and always-on e-ink display. It also measures temperature, relative humidity and air pressure. Thanks to the e-ink screen, the manufacturer quotes several years of battery life on two AA batteries, depending on the measurement interval and Bluetooth use. It sends data over Bluetooth to the Aranet app, which keeps the history.</p>
+<p><strong>Strengths:</strong> CO2 readings with a strong reputation for reliability, exceptional battery life, easy to carry from room to room, readable at a glance. <strong>Limitations:</strong> no fine particles, VOCs or radon; no built-in Wi-Fi, so no remote alerts without a base station. <strong>Best for:</strong> home offices, bedrooms and anyone who wants a serious CO2 reading they can take anywhere.</p>
+
+<h3>Awair Element: fine particles and smart home integration</h3>
+<p>The <strong>Awair Element</strong> measures CO2, VOCs, PM2.5, temperature and humidity, and sums them up in an air quality score from 0 to 100 shown on the front. It connects over Wi-Fi and works with Amazon Alexa and Google Assistant. Its main draw for smart home fans is a local API, supported by the official Home Assistant integration, which lets you control a purifier or ventilation without going through the cloud.</p>
+<p><strong>Strengths:</strong> CO2, PM2.5 and VOCs together, an easy-to-read score, local API. <strong>Limitations:</strong> no radon, plug-in power only, and availability can be patchy depending on the country and retailer. <strong>Best for:</strong> households with someone who has asthma or allergies, home offices and Home Assistant users.</p>
+
+<h3>Airthings Wave Plus: battery radon monitoring, no screen</h3>
+<p>The <strong>Airthings Wave Plus</strong> measures radon, CO2, VOCs, humidity, temperature and air pressure. It runs on batteries and uses Bluetooth; a wave of the hand in front of it lights up a coloured ring that summarizes air quality. To view readings remotely, you need an Airthings hub or a plugged-in View Plus. Airthings now puts the View Plus first, but the Wave Plus is still sold by many retailers.</p>
+<p><strong>Strengths:</strong> radon and CO2 combined, battery powered, discreet. <strong>Limitations:</strong> no fine particles, no numeric display, Bluetooth only without a hub. <strong>Best for:</strong> a second room in a high-radon area alongside a View Plus, or a bedroom where you want no screen at all.</p>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Measures</th><th>Radon</th><th>Power</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Airthings View Plus</strong></td><td>CO2, PM1, PM2.5, VOC, humidity, temperature, pressure</td><td>Yes</td><td>Batteries or USB</td><td>Wi-Fi (acts as hub)</td><td>High-radon homes, complete monitoring</td></tr>
+<tr><td><strong>Netatmo Smart Indoor Air Quality Monitor</strong></td><td>CO2, humidity, temperature, noise</td><td>No</td><td>USB, plug-in</td><td>Wi-Fi, Apple HomeKit</td><td>Bedrooms, knowing when to ventilate</td></tr>
+<tr><td><strong>Aranet4 Home</strong></td><td>CO2, humidity, temperature, pressure</td><td>No</td><td>Batteries</td><td>Bluetooth</td><td>Reliable, portable CO2, home office</td></tr>
+<tr><td><strong>Awair Element</strong></td><td>CO2, PM2.5, VOC, humidity, temperature</td><td>No</td><td>USB, plug-in</td><td>Wi-Fi, local API</td><td>Asthma, allergies, Home Assistant</td></tr>
+<tr><td><strong>Airthings Wave Plus</strong></td><td>CO2, VOC, humidity, temperature, pressure</td><td>Yes</td><td>Batteries</td><td>Bluetooth (optional hub)</td><td>Second room in a radon area</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying a particle sensor thinking it measures CO2.</strong> Some entry-level monitors only measure PM2.5, temperature and humidity; the Govee H5106 is one example. They help with cooking smoke but won't tell you when to air out a bedroom.</li>
+<li><strong>Trusting an "eCO2" reading.</strong> A CO2 value estimated from a VOC sensor isn't a measurement. Look for NDIR in the specifications.</li>
+<li><strong>Judging radon on a single day.</strong> Daily swings are large: wait for several weeks of data before drawing conclusions, and use a passive detector if you're unsure.</li>
+<li><strong>Poor placement.</strong> Next to a window, above a heater or heating vent, in direct sun or beside the stove, readings won't reflect the air you breathe.</li>
+<li><strong>Confusing measurement with action.</strong> A monitor cleans nothing: it tells you what to do. Plan the next step, whether that's airing out rooms, having your ventilation serviced or adding a purifier.</li>
+</ul>
+
+<h2>Setup and everyday use</h2>
+<p>Place the monitor at breathing height, roughly 1 to 1.5 m (3 to 5 ft) off the floor, at least 1 m (3 ft) away from windows, doors, vents and heat sources. In a bedroom, a night table or dresser works well as long as you're not breathing directly onto it. Give the device a few hours to settle after setup before trusting the readings.</p>
+<p>Many NDIR CO2 sensors recalibrate automatically on the assumption that the room regularly gets fresh air, so ventilate at least once a day for this correction to work. For radon, put the monitor in the lowest occupied room of the house, which is often the basement. If the average stays above the reference level, check with the public health authorities where you live for guidance and hire a qualified radon mitigation contractor: fixes usually involve sealing entry points and improving ventilation under the floor.</p>
+<p>A smart monitor is most useful when it's linked to your other devices: turning a purifier on when PM2.5 rises, or sending a notification when CO2 passes 1,000 ppm. To pick a purifier to pair it with, see our <a href="/ca/blog/guide-purificateur-air-2026">air purifier guide</a>.</p>
+
+<h2>Our verdict</h2>
+<ul>
+<li><strong>Most complete:</strong> Airthings View Plus, the only model here that combines radon, fine particles, CO2 and VOCs.</li>
+<li><strong>Best value:</strong> Netatmo Smart Indoor Air Quality Monitor, to know when to ventilate without fuss, with HomeKit.</li>
+<li><strong>For reliable, portable CO2:</strong> Aranet4 Home, battery powered with an always-readable screen.</li>
+<li><strong>For fine particles and smart home control:</strong> Awair Element, thanks to its local API.</li>
+<li><strong>As a companion in a radon area:</strong> Airthings Wave Plus, battery powered and screen-free.</li>
+</ul>
+<p>See every available model on our <a href="/ca/energie-domotique/capteurs-qualite-air">air quality monitors</a> page.</p>`,
   },
   faq: [
     {
@@ -750,6 +1057,9 @@ export const article: BlogArticle = {
         it: "Che differenza c'è tra un monitor della qualità dell'aria e un purificatore?",
         nl: 'Wat is het verschil tussen een luchtkwaliteitsmeter en een luchtreiniger?',
         pl: 'Czym różni się czujnik jakości powietrza od oczyszczacza powietrza?',
+        sv: 'Vad är skillnaden mellan en luftkvalitetsmätare och en luftrenare?',
+        us: 'What\'s the difference between an air quality monitor and an air purifier?',
+        ca: 'What is the difference between an air quality monitor and an air purifier?',
       },
       answer: {
         fr: "Le capteur mesure la pollution mais ne la réduit pas : c'est un outil de diagnostic. Le purificateur filtre l'air, notamment les particules fines, mais ne fait rien contre un excès de CO2, qui se règle uniquement en aérant. Les deux sont complémentaires : le capteur vous indique s'il faut aérer, purifier ou les deux.",
@@ -758,7 +1068,10 @@ export const article: BlogArticle = {
         es: 'El medidor mide la contaminación pero no la reduce: es una herramienta de diagnóstico. El purificador filtra el aire, sobre todo las partículas finas, pero no hace nada contra un exceso de CO2, que solo se corrige ventilando. Son complementarios: el medidor te dice si ventilar, purificar o ambas cosas.',
         it: "Il monitor misura l'inquinamento ma non lo riduce: è uno strumento di diagnosi. Il purificatore filtra l'aria, soprattutto le polveri sottili, ma non fa nulla contro l'eccesso di CO2, che si risolve solo arieggiando. Sono complementari: il monitor ti dice se arieggiare, purificare o entrambe le cose.",
         nl: 'Een meter meet de vervuiling maar vermindert die niet: het is een diagnose-instrument. Een luchtreiniger filtert de lucht, vooral fijnstof, maar doet niets tegen te veel CO2; daartegen helpt alleen ventileren. Ze vullen elkaar aan: de meter vertelt je of je moet luchten, zuiveren of allebei.',
-        pl: 'Czujnik mierzy zanieczyszczenie, ale go nie zmniejsza: to narzędzie diagnostyczne. Oczyszczacz filtruje powietrze, zwłaszcza pył drobny, ale nic nie robi z nadmiarem CO2, który usuwa się wyłącznie przez wietrzenie. Oba urządzenia się uzupełniają: czujnik mówi, czy trzeba wietrzyć, oczyszczać, czy jedno i drugie.',
+        pl: 'Czujnik mierzy zanieczyszczenia, ale ich nie usuwa – służy do diagnozy. Oczyszczacz filtruje powietrze, zwłaszcza z pyłu zawieszonego, ale nie poradzi sobie z nadmiarem CO2, na który pomaga tylko wietrzenie. Oba urządzenia się uzupełniają: czujnik podpowiada, czy trzeba przewietrzyć, włączyć oczyszczacz, czy zrobić jedno i drugie.',
+        sv: 'En mätare mäter föroreningarna men minskar dem inte: den är ett verktyg för att ställa diagnos. En luftrenare filtrerar luften, framför allt fina partiklar, men gör ingenting åt höga CO₂-halter, som bara vädring rår på. De två kompletterar varandra: mätaren talar om ifall du behöver vädra, rena luften eller både och.',
+        us: 'A monitor measures pollution but doesn\'t reduce it: it\'s a diagnostic tool. A purifier filters the air, especially fine particles, but does nothing about high CO2, which only fresh air fixes. The two work together: the monitor tells you whether to ventilate, run the purifier or both.',
+        ca: 'A monitor measures pollution but does not reduce it: it is a diagnostic tool. A purifier filters the air, especially fine particles, but does nothing about high CO2, which only ventilation fixes. The two work together: the monitor tells you whether to ventilate, purify or both.',
       },
     },
     {
@@ -769,7 +1082,10 @@ export const article: BlogArticle = {
         es: '¿A partir de qué nivel de CO2 hay que ventilar un dormitorio?',
         it: 'A quale livello di CO2 bisogna arieggiare una camera?',
         nl: 'Bij welk CO2-niveau moet ik een slaapkamer luchten?',
-        pl: 'Przy jakim poziomie CO2 trzeba wietrzyć sypialnię?',
+        pl: 'Przy jakim stężeniu CO2 trzeba wywietrzyć sypialnię?',
+        sv: 'Vid vilken CO₂-halt ska jag vädra sovrummet?',
+        us: 'At what CO2 level should I air out a bedroom?',
+        ca: 'At what CO2 level should I ventilate a bedroom?',
       },
       answer: {
         fr: "Le repère le plus courant est d'aérer dès que le CO2 dépasse 1 000 ppm. Quelques minutes de fenêtres grandes ouvertes, idéalement en créant un courant d'air, suffisent généralement à faire redescendre le taux. Si la chambre dépasse régulièrement ce seuil la nuit, une entrée d'air ou une ventilation mécanique bien entretenue est la solution durable.",
@@ -778,7 +1094,10 @@ export const article: BlogArticle = {
         es: 'La referencia más habitual es ventilar en cuanto el CO2 supera las 1.000 ppm. Unos minutos con las ventanas abiertas de par en par, a ser posible creando corriente, suelen bastar para bajar el nivel. Si el dormitorio supera ese umbral a menudo por la noche, un aireador o una ventilación mecánica bien mantenida es la solución duradera.',
         it: "Il riferimento più comune è arieggiare quando la CO2 supera i 1.000 ppm. Pochi minuti con le finestre spalancate, meglio se creando una corrente d'aria, bastano di solito a far scendere il valore. Se la camera supera spesso questa soglia di notte, una presa d'aria o una ventilazione meccanica ben mantenuta è la soluzione duratura.",
         nl: 'De meest gebruikte vuistregel is luchten zodra CO2 boven 1.000 ppm komt. Een paar minuten de ramen wijd open, liefst met doorstroming, brengt de waarde meestal weer omlaag. Komt de slaapkamer \'s nachts regelmatig boven die grens, dan zijn ventilatieroosters of goed onderhouden mechanische ventilatie de blijvende oplossing.',
-        pl: 'Najczęstszy punkt odniesienia to wietrzenie, gdy tylko CO2 przekroczy 1000 ppm. Kilka minut szeroko otwartych okien, najlepiej z przeciągiem, zazwyczaj wystarcza, by stężenie spadło. Jeśli w sypialni ten próg jest regularnie przekraczany w nocy, trwałym rozwiązaniem jest nawiewnik lub dobrze utrzymana wentylacja mechaniczna.',
+        pl: 'Najczęściej przyjmuje się, że należy wietrzyć, gdy tylko stężenie CO2 przekroczy 1000 ppm. Zwykle wystarczy na kilka minut szeroko otworzyć okna, najlepiej robiąc przeciąg, żeby stężenie spadło. Jeśli w nocy próg ten jest w sypialni regularnie przekraczany, trwałym rozwiązaniem będzie nawiewnik albo sprawna, regularnie serwisowana wentylacja mechaniczna.',
+        sv: 'Den vanligaste tumregeln är att vädra när CO₂-halten passerar 1 000 ppm. Några minuter med vidöppna fönster, helst med korsdrag, brukar räcka för att få ner halten. Ligger sovrummet ofta över den nivån på natten är en friskluftsventil eller en välskött mekanisk ventilation den långsiktiga lösningen.',
+        us: 'The most common rule of thumb is to ventilate once CO2 goes above 1,000 ppm. A few minutes with the windows wide open, ideally with a cross-breeze, usually brings the level back down. If the bedroom regularly goes above that at night, a fresh-air vent or a well-maintained mechanical ventilation system is the lasting fix.',
+        ca: 'The most common rule of thumb is to ventilate once CO2 goes above 1,000 ppm. A few minutes with the windows wide open, ideally to create a cross-breeze, usually brings the level back down. If the bedroom regularly goes above this at night, a fresh-air vent or a well-maintained mechanical ventilation system is the lasting fix.',
       },
     },
     {
@@ -789,7 +1108,10 @@ export const article: BlogArticle = {
         es: '¿Cómo sé si mi vivienda está afectada por el radón?',
         it: 'Come capire se la mia casa è interessata dal radon?',
         nl: 'Hoe weet ik of mijn woning met radon te maken heeft?',
-        pl: 'Skąd wiedzieć, czy mój dom jest narażony na radon?',
+        pl: 'Jak sprawdzić, czy mój dom jest narażony na radon?',
+        sv: 'Hur vet jag om det finns radon i min bostad?',
+        us: 'How do I find out if radon is a problem in my home?',
+        ca: 'How do I know if my home is affected by radon?',
       },
       answer: {
         fr: "Consultez la cartographie des communes à potentiel radon publiée par l'ASNR (ex-IRSN). Si votre commune est concernée, surtout en maison avec sous-sol ou de plain-pied, mesurez : un dosimètre passif posé au moins deux mois en période de chauffe donne la mesure de référence, et un moniteur Airthings permet ensuite de suivre l'évolution au quotidien.",
@@ -798,7 +1120,10 @@ export const article: BlogArticle = {
         es: 'Consulta el mapa del potencial de radón del Consejo de Seguridad Nuclear. Si tu municipio está afectado, sobre todo en una casa con sótano o dormitorios en planta baja, mide: un detector pasivo colocado durante varios meses ofrece el resultado de referencia, y un monitor Airthings permite después seguir la evolución diaria.',
         it: "Verifica se il tuo comune rientra nelle aree prioritarie a rischio radon individuate dalla tua regione; l'ARPA regionale fornisce informazioni. In caso affermativo, soprattutto in case con seminterrato o camere al piano terra, misura: un dosimetro passivo lasciato per diversi mesi dà il risultato di riferimento, e un monitor Airthings permette poi di seguire l'andamento giornaliero.",
         nl: 'Raadpleeg de informatie van het RIVM, of in België de radonkaart van het FANC. Woon je in een gebied met verhoogd radon, zeker in een huis met kelder of slaapkamers op de begane grond, meet dan: een passieve detector die enkele maanden blijft staan geeft de referentiewaarde, en een Airthings-meter laat je daarna de dagelijkse schommelingen volgen.',
-        pl: 'We Francji sprawdź mapę gmin o potencjale radonowym publikowaną przez ASNR (dawniej IRSN). Jeśli Twoja gmina jest uwzględniona, zwłaszcza w domu z piwnicą lub parterowym, zmierz stężenie: dozymetr pasywny pozostawiony na co najmniej dwa miesiące w okresie grzewczym daje pomiar referencyjny, a monitor Airthings pozwala następnie na bieżąco śledzić zmiany.',
+        pl: 'We Francji sprawdź mapę gmin o potencjale radonowym publikowaną przez ASNR (dawniej IRSN). Jeśli Twoja gmina jest na tej mapie, a zwłaszcza jeśli mieszkasz w domu z piwnicą lub w domu parterowym, zmierz stężenie radonu. Wynik referencyjny daje dozymetr pasywny pozostawiony na co najmniej dwa miesiące w sezonie grzewczym, a monitor Airthings pozwala potem na bieżąco śledzić zmiany.',
+        sv: 'Titta på den officiella radonkartan för ditt land (i Frankrike publicerar ASNR, tidigare IRSN, en karta över kommuner med radonrisk). Ligger bostaden i ett utsatt område, särskilt om du bor i ett hus med källare eller i ett enplanshus, gör en mätning: en passiv mätdosa som får ligga minst två månader under eldningssäsongen ger referensvärdet, och en Airthings-mätare låter dig sedan följa förändringarna från dag till dag.',
+        us: 'Check the radon map published by your national or state health or environmental agency (in France, the ASNR map of radon-prone municipalities). If your area is flagged, especially if you live in a single-story house or a house with a basement, test: a passive test kit left in place for at least two months during the heating season gives the reference result, and an Airthings monitor then lets you follow day-to-day changes.',
+        ca: 'Check the official radon map or guidance for where you live. If your area has high radon levels, especially if you live in a house with a basement or in a bungalow, test: a passive long-term detector left in place for at least a few months during the heating season gives the reference result, and an Airthings monitor then lets you follow day-to-day changes.',
       },
     },
     {
@@ -809,7 +1134,10 @@ export const article: BlogArticle = {
         es: '¿Son precisos los medidores de calidad del aire domésticos?',
         it: "I monitor della qualità dell'aria per la casa sono precisi?",
         nl: 'Zijn luchtkwaliteitsmeters voor thuis nauwkeurig?',
-        pl: 'Czy konsumenckie czujniki jakości powietrza są dokładne?',
+        pl: 'Czy domowe czujniki jakości powietrza są dokładne?',
+        sv: 'Hur exakta är luftkvalitetsmätare för hemmabruk?',
+        us: 'Are consumer air quality monitors accurate?',
+        ca: 'Are consumer air quality monitors accurate?',
       },
       answer: {
         fr: "Ils sont assez précis pour prendre de bonnes décisions au quotidien, pas pour une mesure officielle. Le CO2 mesuré par un capteur NDIR est fiable ; les capteurs de particules donnent de bonnes tendances ; les COV totaux ne sont qu'une indication relative. Pour une expertise réglementaire, il faut faire appel à un professionnel équipé d'instruments étalonnés.",
@@ -818,7 +1146,10 @@ export const article: BlogArticle = {
         es: 'Son lo bastante precisos para tomar buenas decisiones a diario, no para una medición oficial. El CO2 medido con un sensor NDIR es fiable; los sensores de partículas muestran bien las tendencias; los COV totales son solo una indicación relativa. Para una evaluación oficial hace falta un profesional con instrumentos calibrados.',
         it: "Sono abbastanza precisi per prendere buone decisioni quotidiane, non per una misura ufficiale. La CO2 rilevata da un sensore NDIR è affidabile; i sensori di particolato mostrano bene le tendenze; i COV totali sono solo un'indicazione relativa. Per una valutazione ufficiale serve un professionista con strumenti tarati.",
         nl: 'Ze zijn nauwkeurig genoeg voor goede dagelijkse beslissingen, niet voor officiële metingen. CO2 van een NDIR-sensor is betrouwbaar, fijnstofsensoren tonen trends goed en totale VOS zijn slechts een relatieve indicatie. Voor een officiële beoordeling heb je een vakman met gekalibreerde apparatuur nodig.',
-        pl: 'Są wystarczająco dokładne, by podejmować dobre decyzje na co dzień, ale nie do oficjalnego pomiaru. CO2 mierzone czujnikiem NDIR jest wiarygodne; czujniki pyłu dobrze pokazują trendy; sumaryczne LZO to tylko wskazanie względne. Do ekspertyzy wymaganej przepisami potrzebny jest specjalista z wzorcowanymi przyrządami.',
+        pl: 'Są na tyle dokładne, by na ich podstawie podejmować trafne decyzje na co dzień, ale nie zastąpią oficjalnego pomiaru. Pomiar CO2 czujnikiem NDIR jest wiarygodny, czujniki pyłu dobrze pokazują tendencje, a suma LZO to jedynie wartość względna. Jeśli pomiar ma spełniać wymogi przepisów, potrzebny jest specjalista z wzorcowanymi przyrządami.',
+        sv: 'De är tillräckligt exakta för att du ska kunna fatta bra beslut i vardagen, men inte för officiella mätningar. CO₂-värdet från en NDIR-givare är tillförlitligt, partikelgivare visar trender väl och total VOC är bara en relativ indikation. För en bedömning enligt regelverket behöver du anlita en fackman med kalibrerade instrument.',
+        us: 'They\'re accurate enough for good everyday decisions, not for official measurements. CO2 from an NDIR sensor is reliable; particle sensors track trends well; total VOC readings are only a relative indication. For an assessment that has to meet regulatory standards, you need a professional with calibrated instruments.',
+        ca: 'They are accurate enough for good everyday decisions, not for official measurements. CO2 from an NDIR sensor is reliable; particle sensors show trends well; total VOC readings are only a relative indication. For a regulatory assessment, you need a professional with calibrated instruments.',
       },
     },
     {
@@ -830,6 +1161,9 @@ export const article: BlogArticle = {
         it: 'Quanti monitor servono in una casa?',
         nl: 'Hoeveel meters heb je nodig in huis?',
         pl: 'Ile czujników potrzeba w mieszkaniu?',
+        sv: 'Hur många luftkvalitetsmätare behöver jag hemma?',
+        us: 'How many monitors do I need at home?',
+        ca: 'How many monitors do I need at home?',
       },
       answer: {
         fr: "Un capteur ne mesure que la pièce où il se trouve. Commencez par la chambre, où l'on passe de longues heures fenêtres fermées, puis la pièce de vie. Ajoutez-en un dans la chambre des enfants ou le bureau si besoin. Un modèle sur piles comme l'Aranet4 Home peut aussi être déplacé pour repérer les pièces mal ventilées.",
@@ -838,7 +1172,10 @@ export const article: BlogArticle = {
         es: 'Un medidor solo mide la habitación en la que está. Empieza por el dormitorio, donde pasas muchas horas con las ventanas cerradas, y luego la sala de estar. Añade otro en el cuarto de los niños o el despacho si hace falta. Un modelo a pilas como el Aranet4 Home también puede moverse para localizar las estancias mal ventiladas.',
         it: 'Un monitor misura solo la stanza in cui si trova. Inizia dalla camera da letto, dove trascorri molte ore con le finestre chiuse, poi il soggiorno. Aggiungine uno nella cameretta o nello studio se serve. Un modello a batteria come l\'Aranet4 Home può anche essere spostato per individuare le stanze poco ventilate.',
         nl: 'Een meter meet alleen de ruimte waarin hij staat. Begin met de slaapkamer, waar je vele uren met gesloten ramen doorbrengt, en daarna de woonkamer. Voeg zo nodig een meter toe in de kinderkamer of thuiswerkplek. Een model op batterijen zoals de Aranet4 Home kun je ook verplaatsen om slecht geventileerde ruimtes op te sporen.',
-        pl: 'Czujnik mierzy tylko pomieszczenie, w którym stoi. Zacznij od sypialni, w której spędza się długie godziny przy zamkniętych oknach, potem pokój dzienny. W razie potrzeby dodaj jeden w pokoju dzieci lub w biurze. Model na baterie, taki jak Aranet4 Home, można też przenosić, aby wykryć słabo wentylowane pomieszczenia.',
+        pl: 'Czujnik mierzy powietrze tylko w tym pomieszczeniu, w którym stoi. Zacznij od sypialni, w której spędzasz wiele godzin przy zamkniętych oknach, a potem postaw drugi w pokoju dziennym. W razie potrzeby dodaj kolejny w pokoju dziecka lub w domowym biurze. Model na baterie, taki jak Aranet4 Home, możesz też przenosić z miejsca na miejsce, żeby znaleźć słabo wentylowane pomieszczenia.',
+        sv: 'En mätare mäter bara rummet där den står. Börja med sovrummet, där du tillbringar många timmar med stängda fönster, och ta sedan vardagsrummet. Lägg till en i barnrummet eller på hemmakontoret om det behövs. En batteridriven modell som Aranet4 Home kan också flyttas runt för att hitta rum med dålig ventilation.',
+        us: 'A monitor only measures the room it\'s in. Start with the bedroom, where you spend long hours with the windows closed, then the main living area. Add one to a child\'s room or home office if needed. A battery-powered model such as the Aranet4 Home can also be moved around to find poorly ventilated rooms.',
+        ca: 'A monitor only measures the room it is in. Start with the bedroom, where you spend long hours with the windows closed, then the main living area. Add one in a child\'s room or home office if needed. A battery model such as the Aranet4 Home can also be moved around to find poorly ventilated rooms.',
       },
     },
     {
@@ -850,6 +1187,9 @@ export const article: BlogArticle = {
         it: "Un monitor della qualità dell'aria richiede un abbonamento?",
         nl: 'Heeft een luchtkwaliteitsmeter een abonnement nodig?',
         pl: 'Czy czujnik jakości powietrza wymaga abonamentu?',
+        sv: 'Krävs det abonnemang för en luftkvalitetsmätare?',
+        us: 'Does an air quality monitor need a subscription?',
+        ca: 'Does an air quality monitor need a subscription?',
       },
       answer: {
         fr: "Non pour les modèles de ce guide : l'application et l'historique de base sont accessibles sans abonnement. Vérifiez toutefois, avant l'achat, les conditions de l'application du fabricant, qui peuvent évoluer, et privilégiez si possible un modèle avec écran, qui reste utile même sans connexion.",
@@ -858,7 +1198,10 @@ export const article: BlogArticle = {
         es: 'No en el caso de los modelos de esta guía: la app y el historial básico están disponibles sin suscripción. Aun así, revisa antes de comprar las condiciones de la app del fabricante, que pueden cambiar, y prioriza si puedes un modelo con pantalla, que sigue siendo útil sin conexión.',
         it: "No per i modelli di questa guida: app e storico di base sono disponibili senza abbonamento. Verifica comunque prima dell'acquisto le condizioni dell'app del produttore, che possono cambiare, e se possibile preferisci un modello con display, utile anche senza connessione.",
         nl: 'Niet voor de modellen in deze gids: de app en de basishistorie zijn zonder abonnement beschikbaar. Controleer voor aankoop wel de voorwaarden van de app van de fabrikant, want die kunnen veranderen, en kies zo mogelijk een model met scherm, dat ook zonder verbinding bruikbaar blijft.',
-        pl: 'Nie w przypadku modeli z tego poradnika: aplikacja i podstawowa historia są dostępne bez abonamentu. Przed zakupem sprawdź jednak warunki aplikacji producenta, które mogą się zmieniać, i jeśli to możliwe, wybierz model z ekranem, który pozostaje użyteczny nawet bez połączenia.',
+        pl: 'W przypadku modeli z tego poradnika – nie: aplikacja i podstawowa historia pomiarów są dostępne bez abonamentu. Przed zakupem sprawdź jednak aktualne warunki korzystania z aplikacji producenta, bo mogą się zmienić. Jeśli to możliwe, wybierz model z ekranem – przyda się nawet bez połączenia z internetem.',
+        sv: 'Inte för modellerna i den här guiden: appen och den grundläggande historiken fungerar utan abonnemang. Kontrollera ändå villkoren för tillverkarens app innan du köper, eftersom de kan ändras, och välj gärna en modell med skärm, som är användbar även utan uppkoppling.',
+        us: 'Not for the models in this guide: the app and basic history are available without a subscription. Still, check the manufacturer\'s app terms before you buy, since they can change, and favor a model with a screen if you can, because it stays useful even offline.',
+        ca: 'Not for the models in this guide: the app and basic history are available without a subscription. Still, check the manufacturer\'s app terms before buying, as they can change, and favour a model with a screen where possible, since it stays useful even offline.',
       },
     },
   ],

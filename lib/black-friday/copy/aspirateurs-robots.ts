@@ -157,4 +157,70 @@ export const ROBOT_VACUUMS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  sv: {
+    name: 'Robotdammsugare med och utan mopp',
+    h1: `Black Friday ${Y}: robotdammsugare med och utan mopp att hålla koll på`,
+    metaTitle: `Black Friday ${Y}: robotdammsugare värda att bevaka`,
+    metaDescription: `Robotdammsugare med och utan mopp att hålla koll på inför Black Friday ${Y} (Roborock, Dreame) – och det här ska du kontrollera innan du köper.`,
+    blurb: 'Roborock och Dreame: LiDAR-navigering, tömningsstation, moppdukar.',
+    intro: 'Robotdammsugare hör till de mest efterlängtade apparaterna inför Black Friday. Olika versioner av samma modell har ofta olika stationer (tömning, tvätt och torkning av moppdukarna): kontrollera att erbjudandet gäller just den version som anges.',
+    faq: [
+      {
+        question: 'Vanlig robotdammsugare eller en med mopp?',
+        answer: 'På hårda golv slipper du våttorka varje dag om roboten också moppar. På heltäckningsmattor och tjocka mattor räcker det ofta med en robotdammsugare med bra borste och självtömning.',
+      },
+      {
+        question: 'Är en självtömmande station nödvändig?',
+        answer: 'Nödvändig är den inte, men du slipper tömma behållaren efter varje städning: du byter bara påsen i stationen då och då. Har du husdjur är det den funktion som gör mest nytta.',
+      },
+      {
+        question: 'Vad ska jag tänka på under reorna?',
+        answer: 'Modellnamnen: en ”Complete”-, ”Plus”- eller ”Ultra”-version har en annan station och andra tillbehör. Jämför den exakta modellbeteckningen och vad som ingår i kartongen, inte bara rabatten i procent.',
+      },
+    ],
+  },
+  us: {
+    name: 'Robot vacuums and mops',
+    h1: `Black Friday ${Y}: The Robot Vacuums and Mops Worth Watching`,
+    metaTitle: `Black Friday ${Y}: Best Robot Vacuums to Watch`,
+    metaDescription: `Robot vacuums and vacuum-mop combos worth watching this Black Friday ${Y}, from Roborock and Dreame, plus the dock details to check before you buy.`,
+    blurb: 'Roborock and Dreame: LiDAR navigation, self-emptying docks, mop pads.',
+    intro: 'Robot vacuums are among the most anticipated Black Friday buys. Versions of the same model often differ by their dock (self-emptying, mop washing, drying), so check that the deal covers the exact version listed.',
+    faq: [
+      {
+        question: 'Robot vacuum or vacuum-mop combo?',
+        answer: 'On hard floors, a robot that also mops saves you from mopping every day. On carpet and thick rugs, a robot vacuum with a good brush roll and a self-emptying dock is often all you need.',
+      },
+      {
+        question: 'Do I need a self-emptying dock?',
+        answer: "It's not essential, but it saves you from emptying the bin after every run: you just swap the bag in the dock now and then. If you have pets, it's the most useful feature to pay for.",
+      },
+      {
+        question: 'What should I watch for during sales?',
+        answer: "Model names: a “Complete,” “Plus” or “Ultra” edition comes with a different dock and different accessories. Compare the exact model number and what's in the box, not just the percentage off.",
+      },
+    ],
+  },
+  ca: {
+    name: 'Robot vacuums and mops',
+    h1: `Black Friday ${Y}: the robot vacuums and mops worth watching`,
+    metaTitle: `Black Friday ${Y}: Robot Vacuums and Mops Worth Watching`,
+    metaDescription: `Robot vacuums and mop combos worth watching this Black Friday ${Y}: Roborock and Dreame. Docks, LiDAR navigation, mopping: what to check before you buy.`,
+    blurb: 'Roborock and Dreame: LiDAR navigation, self-emptying docks, mop pads.',
+    intro: 'Robot vacuums and mops are among the most anticipated appliances of Black Friday. Versions of the same model often differ in their dock (auto-emptying, mop washing, drying), so make sure the deal is on the exact version named here.',
+    faq: [
+      {
+        question: 'Vacuum only, or a robot that mops too?',
+        answer: 'On hard floors, a robot that also mops saves you from mopping day to day. On carpet and thick rugs, a robot vacuum with a good brush and auto-emptying is often enough.',
+      },
+      {
+        question: 'Do I need a self-emptying dock?',
+        answer: "It's not a must, but it saves you from emptying the bin after every run; you just change the bag in the dock now and then. If you have pets, it's the most useful option.",
+      },
+      {
+        question: 'What should I watch for during sales?',
+        answer: "The model name: a “Complete,” “Plus” or “Ultra” edition comes with a different dock and different accessories. Compare the exact model number and what's in the box, not just the percentage off.",
+      },
+    ],
+  },
 }

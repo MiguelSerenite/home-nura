@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Ventilador de techo bajo una cubierta acristalada luminosa en verano',
         it: 'Ventilatore da soffitto sotto una copertura vetrata luminosa in estate',
         nl: 'Plafondventilator onder een licht glazen dak in de zomer',
-        pl: 'Wentylator sufitowy pod jasnym świetlikiem latem',
+        pl: 'Wentylator sufitowy pod przeszklonym świetlikiem w letni dzień',
+        sv: 'Takfläkt under ett ljust glastak en sommardag',
+        us: 'Ceiling fan under a bright glass roof in summer',
+        ca: 'Ceiling fan under a bright glass roof in summer',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Climatizzatore portatile vs ventilatore 2026: quale scegliere?',
     nl: 'Mobiele airco vs ventilator 2026: welke moet je kiezen?',
     pl: 'Klimatyzator przenośny czy wentylator 2026: co wybrać na lato?',
+    sv: 'Portabel AC eller fläkt 2026: vilken passar bäst på sommaren?',
+    us: 'Portable Air Conditioner vs. Fan (2026): Which Should You Buy?',
+    ca: 'Portable Air Conditioner vs Fan 2026: Which One Should You Choose?',
   },
   excerpt: {
     fr: "Climatiseur mobile, ventilateur ou rafraîchisseur d'air ? Fonctionnement, consommation, bruit, installation et cinq modèles réels comparés pour choisir selon la chaleur, la pièce et votre logement.",
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: '¿Aire acondicionado portátil, ventilador o climatizador evaporativo? Funcionamiento, consumo, ruido, instalación y cinco modelos reales comparados según el calor, la habitación y tu vivienda.',
     it: 'Climatizzatore portatile, ventilatore o raffrescatore? Funzionamento, consumi, rumore, installazione e cinque modelli reali a confronto per scegliere in base al caldo, alla stanza e alla casa.',
     nl: 'Mobiele airco, ventilator of luchtkoeler? Werking, verbruik, geluid, installatie en vijf echte modellen vergeleken, zodat je kiest op basis van hitte, kamer en woning.',
-    pl: 'Klimatyzator przenośny, wentylator czy ewaporacyjny schładzacz powietrza? Zasada działania, zużycie energii, hałas, instalacja i pięć realnych modeli w porównaniu, by wybrać pod kątem upału, pomieszczenia i mieszkania.',
+    pl: 'Klimatyzator przenośny, wentylator czy schładzacz ewaporacyjny? Porównujemy zasadę działania, zużycie prądu, hałas i montaż oraz pięć konkretnych modeli, żeby pomóc Ci wybrać urządzenie dopasowane do upałów, pomieszczenia i mieszkania.',
+    sv: 'Portabel AC, fläkt eller luftkylare? Vi går igenom hur de fungerar, elförbrukning, ljudnivå och installation, och jämför fem aktuella modeller så att du kan välja efter värmen, rummet och bostaden.',
+    us: 'Portable air conditioner, fan or evaporative (swamp) cooler? How each one works, energy use, noise and installation, plus five real models compared, so you can choose based on how hot it gets, the room and your home.',
+    ca: 'Portable air conditioner, fan or evaporative cooler? How each works, energy use, noise, installation and five real models compared, so you can choose by heat level, room and home.',
   },
   content: {
     fr: `<p><strong>Un climatiseur mobile est le seul des deux appareils qui fait réellement baisser la température d'une pièce ; un ventilateur ne fait que brasser l'air pour donner une sensation de fraîcheur.</strong> Si la chaleur reste modérée (jusqu'à environ 30-32 °C à l'intérieur), un bon ventilateur suffit et consomme très peu ; lors de canicules ou dans une chambre sous les toits, seul un climatiseur mobile apporte un vrai soulagement.</p>
@@ -820,17 +829,17 @@ export const article: BlogArticle = {
 <p><strong>Voor een klein budget en gematigde zomers:</strong> de Xiaomi Smart Standing Fan 2 Pro geeft een koel gevoel bij minimaal verbruik en zonder installatie.</p>
 <p><strong>Voor een slaapkamer waar geluid telt:</strong> de Midea PortaSplit koelt echt en houdt de compressor buiten.</p>
 <p>De verstandigste combinatie is vaak een goede ventilator voor de meeste dagen en een mobiele airco voor de heetste periodes.</p>`,
-    pl: `<p><strong>Klimatyzator przenośny jest jedynym z tych dwóch urządzeń, które naprawdę obniża temperaturę w pomieszczeniu; wentylator tylko miesza powietrze i daje uczucie chłodu.</strong> Gdy upał jest umiarkowany (do ok. 30–32 °C w środku), dobry wentylator wystarcza i zużywa bardzo mało energii; podczas fal upałów lub w pokoju na poddaszu prawdziwą ulgę przynosi tylko klimatyzator przenośny.</p>
-<p>To porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Wyjaśnia różnice w działaniu, kryteria do sprawdzenia przed zakupem i przedstawia pięć aktualnych modeli sprzedawanych w Europie. Aby zajrzeć głębiej, zobacz nasz <a href="/pl/confort-air/climatiseurs-mobiles">wybór klimatyzatorów przenośnych</a> i <a href="/pl/confort-air/ventilateurs">wybór wentylatorów</a>.</p>
+    pl: `<p><strong>Z tych dwóch urządzeń tylko klimatyzator przenośny naprawdę obniża temperaturę w pomieszczeniu – wentylator jedynie porusza powietrze, dając uczucie chłodu.</strong> Przy umiarkowanym upale (do ok. 30–32 °C w mieszkaniu) wystarczy dobry wentylator, który zużywa bardzo mało prądu. Podczas fali upałów albo w pokoju na poddaszu prawdziwą ulgę przyniesie tylko klimatyzator przenośny.</p>
+<p>Porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Wyjaśniamy w nim, czym różni się działanie tych urządzeń i co sprawdzić przed zakupem, a także przedstawiamy pięć aktualnych modeli sprzedawanych w Europie. Więcej znajdziesz w naszych zestawieniach <a href="/pl/confort-air/climatiseurs-mobiles">klimatyzatorów przenośnych</a> i <a href="/pl/confort-air/ventilateurs">wentylatorów</a>.</p>
 
-<h2>Jak działa każde z urządzeń</h2>
+<h2>Jak działają te urządzenia</h2>
 <h3>Klimatyzator przenośny</h3>
-<p>Monoblokowy klimatyzator przenośny działa jak lodówka: sprężarka wymusza obieg czynnika chłodniczego, który pobiera ciepło z pomieszczenia i wyrzuca je na zewnątrz przez <strong>wąż odprowadzający</strong> wyprowadzony przez okno. Chłodzi powietrze, osusza je przy okazji i pozwala ustawić temperaturę docelową. Wady: wysokie zużycie prądu, hałas sprężarki i konieczność zamontowania węża.</p>
-<p>Istnieją też przenośne klimatyzatory typu „split” (jak Midea PortaSplit): sprężarka znajduje się w jednostce zewnętrznej ustawionej na balkonie lub parapecie, co wyraźnie zmniejsza hałas w pomieszczeniu.</p>
+<p>Monoblokowy klimatyzator przenośny działa jak lodówka: sprężarka wymusza obieg czynnika chłodniczego, który odbiera ciepło z pomieszczenia i wyrzuca je na zewnątrz przez <strong>wąż odprowadzający</strong> wystawiony przez okno. Urządzenie chłodzi powietrze, przy okazji je osusza i pozwala ustawić konkretną temperaturę. W zamian trzeba się liczyć z dużym zużyciem prądu, hałasem sprężarki i koniecznością poprowadzenia węża przez okno.</p>
+<p>Są też przenośne klimatyzatory typu split (np. Midea PortaSplit), w których sprężarka mieści się w jednostce zewnętrznej, stawianej na balkonie lub zewnętrznym parapecie. Dzięki temu w pomieszczeniu jest wyraźnie ciszej.</p>
 <h3>Wentylator</h3>
-<p>Wentylator nie zmienia temperatury powietrza. Strumień powietrza przyspiesza parowanie potu ze skóry, co daje uczucie chłodu. To działa, dopóki powietrze w otoczeniu jest wyraźnie chłodniejsze od ciała. Przy bardzo wysokich temperaturach, powyżej ok. 35 °C, wentylator tylko przemieszcza gorące powietrze. Nowsze modele z silnikiem DC (prądu stałego) są szczególnie oszczędne i ciche.</p>
-<h3>Ewaporacyjny schładzacz powietrza</h3>
-<p>Pomiędzy nimi znajduje się schładzacz, który przepuszcza powietrze przez nawilżony filtr. Parowanie wody nieco obniża temperaturę nawiewanego powietrza, ale zwiększa wilgotność w pomieszczeniu. Daje dobre rezultaty w suchym klimacie i przewietrzanym pomieszczeniu, znacznie gorsze w klimacie wilgotnym. Nie zastępuje klimatyzatora podczas fali upałów.</p>
+<p>Wentylator nie zmienia temperatury powietrza. Ruch powietrza przyspiesza odparowywanie potu ze skóry, dzięki czemu czujemy chłód. Działa to, dopóki powietrze w pomieszczeniu jest wyraźnie chłodniejsze od ciała. W dużym upale, powyżej ok. 35 °C, wentylator tylko przerzuca gorące powietrze z miejsca na miejsce. Nowsze modele z silnikiem DC (prądu stałego) są wyjątkowo oszczędne i ciche.</p>
+<h3>Schładzacz ewaporacyjny</h3>
+<p>Pośrodku plasuje się schładzacz powietrza (w sklepach często nazywany klimatyzerem), który przepuszcza powietrze przez zwilżony filtr. Parująca woda nieco obniża temperaturę nawiewu, ale podnosi wilgotność w pomieszczeniu. Dobrze sprawdza się w suchym klimacie i w przewietrzanym pomieszczeniu, dużo gorzej przy wilgotnym powietrzu. Podczas fali upałów nie zastąpi klimatyzatora.</p>
 
 <h2>Tabela porównawcza: klimatyzator przenośny, wentylator, schładzacz</h2>
 <table>
@@ -838,21 +847,21 @@ export const article: BlogArticle = {
 <tr><th>Kryterium</th><th>Klimatyzator przenośny</th><th>Wentylator</th><th>Schładzacz ewaporacyjny</th></tr>
 </thead>
 <tbody>
-<tr><td>Realny spadek temperatury</td><td>Tak</td><td>Nie (tylko wrażenie)</td><td>Niewielki, głównie w suchym powietrzu</td></tr>
-<tr><td>Typowa moc elektryczna</td><td>Ok. 800–1400 W</td><td>Ok. 2–80 W</td><td>Ok. 60–150 W</td></tr>
-<tr><td>Hałas</td><td>Wysoki (poza modelami split)</td><td>Niski do umiarkowanego</td><td>Umiarkowany</td></tr>
-<tr><td>Instalacja</td><td>Wąż w oknie (lub jednostka zewnętrzna)</td><td>Brak</td><td>Brak, trzeba napełniać zbiornik wody</td></tr>
+<tr><td>Rzeczywiste obniżenie temperatury</td><td>Tak</td><td>Nie (tylko uczucie chłodu)</td><td>Niewielkie, głównie przy suchym powietrzu</td></tr>
+<tr><td>Typowy pobór mocy</td><td>Ok. 800–1400 W</td><td>Ok. 2–80 W</td><td>Ok. 60–150 W</td></tr>
+<tr><td>Hałas</td><td>Duży (poza modelami split)</td><td>Niewielki lub umiarkowany</td><td>Umiarkowany</td></tr>
+<tr><td>Montaż</td><td>Wąż wyprowadzony przez okno (lub jednostka zewnętrzna)</td><td>Niepotrzebny</td><td>Niepotrzebny, trzeba napełniać zbiornik wody</td></tr>
 <tr><td>Wpływ na wilgotność</td><td>Osusza</td><td>Brak</td><td>Nawilża</td></tr>
-<tr><td>Przydatność podczas upałów</td><td>Tak</td><td>Ograniczona</td><td>Ograniczona, zwłaszcza przy wilgotnym powietrzu</td></tr>
-<tr><td>Waga</td><td>Ciężki (często ponad 25 kg)</td><td>Lekki</td><td>Średnia</td></tr>
+<tr><td>Sprawdza się w czasie fali upałów</td><td>Tak</td><td>W ograniczonym stopniu</td><td>W ograniczonym stopniu, zwłaszcza przy wilgotnym powietrzu</td></tr>
+<tr><td>Waga</td><td>Duża (często ponad 25 kg)</td><td>Mała</td><td>Średnia</td></tr>
 </tbody>
 </table>
 
 <h2>Kryteria wyboru</h2>
-<h3>1. Poziom upału, z którym walczysz</h3>
-<p>To kryterium decydujące. W mieszkaniu, w którym temperatura nie przekracza 30 °C, dobrze ustawiony wentylator często wystarcza, zwłaszcza w nocy. W mieszkaniu na poddaszu, w pokoju wystawionym na zachód lub podczas powtarzających się fal upałów tylko klimatyzator naprawdę obniża temperaturę i pozwala porządnie się wyspać.</p>
+<h3>1. Jak duże są upały</h3>
+<p>To kryterium rozstrzygające. Jeśli w mieszkaniu temperatura nie przekracza 30 °C, często wystarczy dobrze ustawiony wentylator, zwłaszcza w nocy. W mieszkaniu na poddaszu, w pokoju z oknami na zachód albo przy powtarzających się falach upałów tylko klimatyzator naprawdę obniży temperaturę i pozwoli się porządnie wyspać.</p>
 <h3>2. Wielkość pomieszczenia i moc chłodnicza</h3>
-<p>Moc klimatyzatora wyraża się w BTU/h lub kW. Rzędy wielkości powszechnie stosowane przez producentów:</p>
+<p>Moc klimatyzatora podaje się w BTU/h lub kW. Producenci najczęściej przyjmują takie orientacyjne wartości:</p>
 <table>
 <thead>
 <tr><th>Powierzchnia pomieszczenia</th><th>Orientacyjna moc</th></tr>
@@ -863,92 +872,479 @@ export const article: BlogArticle = {
 <tr><td>25–40 m²</td><td>12 000–14 000 BTU/h</td></tr>
 </tbody>
 </table>
-<p>Pomieszczenie mocno przeszklone, na poddaszu lub bardzo nasłonecznione wymaga dodatkowego zapasu. Urządzenie o za małej mocy pracuje bez przerwy, nie osiągając zadanej temperatury.</p>
+<p>Pomieszczenie z dużymi przeszkleniami, na poddaszu lub mocno nasłonecznione wymaga zapasu mocy. Urządzenie o zbyt małej mocy pracuje bez przerwy i nie osiąga zadanej temperatury.</p>
 <h3>3. Zużycie energii</h3>
-<p>Różnica jest ogromna. Klimatyzator przenośny o mocy 1000 W używany przez 8 godzin zużywa około 8 kWh dziennie. Wentylator z silnikiem DC o mocy 24 W w tym samym czasie zużywa około 0,2 kWh, czyli mniej więcej 40 razy mniej. W klimatyzatorze sprawdź klasę energetyczną i deklarowane zużycie godzinowe; w wentylatorze wybierz silnik DC.</p>
+<p>Różnica jest ogromna. Klimatyzator przenośny o mocy 1000 W włączony na 8 godzin zużywa ok. 8 kWh dziennie. Wentylator z silnikiem DC o mocy 24 W w tym samym czasie zużywa ok. 0,2 kWh, czyli mniej więcej 40 razy mniej. W klimatyzatorze sprawdź klasę energetyczną i deklarowane zużycie energii na godzinę, a w wentylatorze postaw na silnik DC.</p>
 <h3>4. Hałas</h3>
-<p>Hałas monoblokowego klimatyzatora pochodzi od sprężarki znajdującej się w pomieszczeniu. Do sypialni porównaj deklarowane ciśnienie akustyczne w trybie nocnym lub rozważ model split, w którym sprężarka zostaje na zewnątrz. Najlepsze wentylatory DC przy minimalnym ustawieniu schodzą do poziomu praktycznie niesłyszalnego.</p>
+<p>W monoblokowym klimatyzatorze hałasuje sprężarka, która pracuje w pomieszczeniu. Jeśli wybierasz model do sypialni, porównaj deklarowany poziom ciśnienia akustycznego w trybie nocnym albo rozważ model typu split, w którym sprężarka zostaje na zewnątrz. Najlepsze wentylatory DC na najniższym biegu są praktycznie niesłyszalne.</p>
 <h3>5. Mieszkanie i okno</h3>
-<p>Klimatyzator przenośny potrzebuje otworu na wąż. Sprawdź typ okna (skrzydłowe, przesuwne, dachowe) i obecność zestawu uszczelniającego. Najemca, który nie może niczego zmieniać, wybierze zestaw bez wiercenia. Wentylator wystarczy po prostu podłączyć gdziekolwiek.</p>
+<p>Klimatyzator przenośny potrzebuje otworu, przez który wyprowadzisz wąż. Sprawdź, jakie masz okno (rozwierne, przesuwne, dachowe) i czy w zestawie jest uszczelnienie okienne. Jeśli wynajmujesz mieszkanie i nie możesz niczego przerabiać, wybierz zestaw montowany bez wiercenia. Wentylator wystarczy podłączyć do dowolnego gniazdka.</p>
 <h3>6. Funkcje inteligentne</h3>
-<p>Sterowanie przez aplikację pozwala włączyć klimatyzator przed powrotem do domu i zaprogramować automatyczne wyłączenie w nocy. W wentylatorach aplikacja i zgodność z Alexą lub Google Assistant są dziś powszechne, nawet w niższej półce.</p>
+<p>Dzięki aplikacji włączysz klimatyzator jeszcze przed powrotem do domu i zaprogramujesz automatyczne wyłączenie w nocy. W wentylatorach aplikacja i współpraca z Alexą lub Asystentem Google są dziś powszechne, nawet wśród tańszych modeli.</p>
 
 <h2>Modele warte uwagi w 2026 roku</h2>
 <h3>De'Longhi Pinguino PAC EL112 CST WiFi: uniwersalny klimatyzator przenośny</h3>
-<p>Ten monoblokowy klimatyzator ma według producenta 11 000 BTU/h, klasę energetyczną A+ i wykorzystuje czynnik R290. Steruje się nim z aplikacji De'Longhi, a także przez Alexę i Google Assistant. Oferuje też tryby osuszania i wentylacji.</p>
+<p>Według producenta ten klimatyzator typu monoblok ma moc 11 000 BTU/h i klasę energetyczną A+, a pracuje na czynniku R290. Można nim sterować z aplikacji De'Longhi, a także przez Alexę i Asystenta Google. Ma też tryb osuszania i tryb wentylatora.</p>
 <ul>
-<li><strong>Mocne strony:</strong> dobra wydajność jak na monoblok, zdalne sterowanie, pełne ustawienia.</li>
-<li><strong>Ograniczenia:</strong> trzeba zamontować wąż, ok. 33 kg, hałas sprężarki jak w każdym monobloku.</li>
-<li><strong>Dla kogo:</strong> pomieszczenie średniej wielkości do chłodzenia podczas upałów, z chęcią zdalnego sterowania urządzeniem.</li>
+<li><strong>Mocne strony:</strong> dobra sprawność jak na monoblok, zdalne sterowanie, rozbudowane ustawienia.</li>
+<li><strong>Ograniczenia:</strong> trzeba poprowadzić wąż, ok. 33 kg, słyszalna sprężarka, jak w każdym monobloku.</li>
+<li><strong>Dla kogo:</strong> osoby, które chcą chłodzić średniej wielkości pomieszczenie podczas upałów i sterować klimatyzatorem zdalnie.</li>
 </ul>
-<h3>Midea PortaSplit: najcichszy do sypialni</h3>
-<p>PortaSplit oddziela jednostkę wewnętrzną od sprężarki, umieszczonej na zewnątrz. Midea deklaruje 12 000 BTU/h (3,5 kW), klasę A++ w chłodzeniu, tryb grzania i poziom hałasu wewnątrz od 39 dB(A) w trybie cichym. Obieg chłodniczy jest zamknięty fabrycznie: nie jest potrzebny serwisant klimatyzacji, urządzenie montuje się w oknie przesuwnym, uchylnym lub na balkonie bez wiercenia.</p>
+<h3>Midea PortaSplit: najcichszy wybór do sypialni</h3>
+<p>W modelu PortaSplit sprężarka jest oddzielona od jednostki wewnętrznej i pracuje na zewnątrz. Midea deklaruje moc 12 000 BTU/h (3,5 kW), klasę A++ w chłodzeniu, funkcję grzania i poziom hałasu w pomieszczeniu od 39 dB(A) w trybie cichym. Obieg chłodniczy jest fabrycznie zamknięty, więc instalator nie jest potrzebny – urządzenie montuje się bez wiercenia w oknie przesuwnym, uchylnym lub na balkonie.</p>
 <ul>
-<li><strong>Mocne strony:</strong> znacznie cichszy niż monoblok, wydajny, rewersyjny.</li>
-<li><strong>Ograniczenia:</strong> bardziej kłopotliwy montaż, jednostkę zewnętrzną trzeba gdzieś postawić, wysoka półka cenowa.</li>
-<li><strong>Dla kogo:</strong> sypialnia, w której hałas zwykłego klimatyzatora uniemożliwiłby sen.</li>
+<li><strong>Mocne strony:</strong> dużo cichszy od monobloku, wydajny, chłodzi i grzeje.</li>
+<li><strong>Ograniczenia:</strong> zajmuje więcej miejsca, trzeba znaleźć miejsce na jednostkę zewnętrzną, wysoka półka cenowa.</li>
+<li><strong>Dla kogo:</strong> sypialnia, w której hałas zwykłego klimatyzatora nie pozwoliłby zasnąć.</li>
 </ul>
 <h3>Xiaomi Smart Standing Fan 2 Pro: sprytny i oszczędny wentylator</h3>
-<p>Wentylator stojący z silnikiem DC o mocy 24 W ma bardzo wiele prędkości, oscylację poziomą 140°, aplikację Xiaomi Home i zgodność z Alexą oraz Google Assistant. Xiaomi deklaruje również wbudowaną baterię, dzięki której można go używać przez kilka godzin bez kabla.</p>
+<p>Ten wentylator stojący z silnikiem DC o mocy 24 W oferuje bardzo wiele poziomów prędkości, oscylację w poziomie w zakresie 140°, aplikację Xiaomi Home i współpracę z Alexą oraz Asystentem Google. Xiaomi podaje też, że ma wbudowany akumulator, dzięki któremu może przez kilka godzin działać bez kabla.</p>
 <ul>
-<li><strong>Mocne strony:</strong> bardzo niskie zużycie energii, bardzo dyskretny na niskich obrotach, łatwy do przestawiania.</li>
-<li><strong>Ograniczenia:</strong> nie ochładza powietrza, głośniejszy na pełnych obrotach.</li>
-<li><strong>Dla kogo:</strong> umiarkowane lata, ograniczone budżety i najemcy bez możliwości zamontowania węża.</li>
+<li><strong>Mocne strony:</strong> bardzo niskie zużycie prądu, bardzo cichy na niskich obrotach, łatwo go przenieść.</li>
+<li><strong>Ograniczenia:</strong> nie obniża temperatury powietrza, na najwyższych obrotach jest głośniejszy.</li>
+<li><strong>Dla kogo:</strong> umiarkowanie ciepłe lata, ograniczony budżet i najemcy, którzy nie mogą poprowadzić węża przez okno.</li>
 </ul>
 <h3>Rowenta Turbo Silence Extreme+: klasyczny i mocny wentylator stojący</h3>
-<p>Ten wentylator stojący stawia na przepływ powietrza, z pięcioma prędkościami, pilotem, timerem i trybem nocnym, który stopniowo zmniejsza prędkość. Rowenta deklaruje 35 dB(A) przy minimalnej prędkości.</p>
+<p>Ten wentylator stojący stawia na wydajny nawiew. Ma pięć prędkości, pilota, wyłącznik czasowy i tryb nocny, który stopniowo zmniejsza obroty. Rowenta podaje poziom hałasu 35 dB(A) przy najniższej prędkości.</p>
 <ul>
 <li><strong>Mocne strony:</strong> mocny nawiew, prosta obsługa, bardzo popularny w Europie.</li>
-<li><strong>Ograniczenia:</strong> klasyczny silnik, mniej oszczędny niż model DC, brak aplikacji.</li>
-<li><strong>Dla kogo:</strong> salon lub duże pomieszczenie, w którym chcesz dużo powietrza bez funkcji inteligentnych.</li>
+<li><strong>Ograniczenia:</strong> tradycyjny silnik zużywa więcej prądu niż silnik DC, brak aplikacji.</li>
+<li><strong>Dla kogo:</strong> salon lub duże pomieszczenie, gdy liczy się mocny nawiew, a funkcje inteligentne nie są potrzebne.</li>
 </ul>
 <h3>Duux Whisper Flex 2 Smart: inteligentny wentylator premium</h3>
-<p>Wentylator z silnikiem DC w wersji przekształcanej (stojący lub stołowy) oferuje wiele prędkości, oscylację poziomą i pionową, aplikację Duux oraz zgodność z Alexą i Google Assistant. Opcjonalna bateria pozwala używać go bez kabla.</p>
+<p>Ten wentylator 2 w 1 (stojący lub biurkowy) z silnikiem DC ma wiele prędkości, oscylację w poziomie i w pionie, aplikację Duux oraz współpracuje z Alexą i Asystentem Google. Opcjonalny akumulator pozwala korzystać z niego bez kabla.</p>
 <ul>
-<li><strong>Mocne strony:</strong> bardzo cichy na niskich obrotach, precyzyjne ustawienia, staranny wygląd.</li>
-<li><strong>Ograniczenia:</strong> wyższa półka cenowa niż zwykły wentylator, bateria sprzedawana osobno.</li>
+<li><strong>Mocne strony:</strong> bardzo cichy na niskich obrotach, precyzyjne ustawienia, dopracowany wygląd.</li>
+<li><strong>Ograniczenia:</strong> droższy od zwykłego wentylatora, akumulator trzeba dokupić osobno.</li>
 <li><strong>Dla kogo:</strong> sypialnia i biuro, gdy najważniejsze są cisza i wygoda użytkowania.</li>
 </ul>
 
-<h2>Tabela modeli</h2>
+<h2>Porównanie modeli</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Typ</th><th>Kluczowa dana</th><th>Łączność</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Typ</th><th>Najważniejszy parametr</th><th>Łączność</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>De'Longhi Pinguino PAC EL112 CST WiFi</td><td>Klimatyzator monoblokowy</td><td>11 000 BTU/h, klasa A+</td><td>Wi-Fi, Alexa, Google</td><td>Upały, średnie pomieszczenie</td></tr>
-<tr><td>Midea PortaSplit</td><td>Przenośny klimatyzator split</td><td>12 000 BTU/h, od 39 dB(A) wewnątrz</td><td>Wi-Fi</td><td>Sypialnia, mniejszy hałas</td></tr>
-<tr><td>Xiaomi Smart Standing Fan 2 Pro</td><td>Wentylator stojący DC</td><td>24 W, wbudowana bateria</td><td>Wi-Fi, Alexa, Google</td><td>Umiarkowane lata, mały budżet</td></tr>
-<tr><td>Rowenta Turbo Silence Extreme+</td><td>Wentylator stojący</td><td>5 prędkości, 35 dB(A) na minimum</td><td>Pilot</td><td>Duży przepływ powietrza</td></tr>
-<tr><td>Duux Whisper Flex 2 Smart</td><td>Przekształcany wentylator DC</td><td>Oscylacja w 2 osiach</td><td>Wi-Fi, Alexa, Google</td><td>Sypialnia, biuro</td></tr>
+<tr><td>De'Longhi Pinguino PAC EL112 CST WiFi</td><td>Klimatyzator monoblokowy</td><td>11 000 BTU/h, klasa A+</td><td>Wi-Fi, Alexa, Google</td><td>Fale upałów, średnie pomieszczenia</td></tr>
+<tr><td>Midea PortaSplit</td><td>Split przenośny</td><td>12 000 BTU/h, od 39 dB(A) w pomieszczeniu</td><td>Wi-Fi</td><td>Sypialnia, mniejszy hałas</td></tr>
+<tr><td>Xiaomi Smart Standing Fan 2 Pro</td><td>Wentylator stojący z silnikiem DC</td><td>24 W, wbudowany akumulator</td><td>Wi-Fi, Alexa, Google</td><td>Umiarkowane lata, mały budżet</td></tr>
+<tr><td>Rowenta Turbo Silence Extreme+</td><td>Wentylator stojący</td><td>5 prędkości, 35 dB(A) na najniższym biegu</td><td>Pilot</td><td>Mocny nawiew</td></tr>
+<tr><td>Duux Whisper Flex 2 Smart</td><td>Wentylator 2 w 1 z silnikiem DC</td><td>Oscylacja w 2 osiach</td><td>Wi-Fi, Alexa, Google</td><td>Sypialnia, biuro</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Używanie klimatyzatora bez odprowadzania gorącego powietrza:</strong> bez węża na zewnątrz ciepło wraca do pomieszczenia.</li>
-<li><strong>Zostawianie szeroko otwartego okna wokół węża:</strong> gorące powietrze od razu wpada do środka. Użyj zestawu uszczelniającego.</li>
-<li><strong>Zbyt mała moc:</strong> urządzenie pracuje nieprzerwanie i nie osiąga żądanej temperatury.</li>
-<li><strong>Ustawianie zbyt niskiej temperatury:</strong> dla komfortu wystarczy różnica kilku stopni względem temperatury na zewnątrz, a zużycie jest mniejsze.</li>
-<li><strong>Liczenie na schładzacz w wilgotnym klimacie:</strong> dodaje wilgoci i szybko staje się niewygodny.</li>
-<li><strong>Kierowanie wentylatora w nocy ciągle na twarz:</strong> może to wysuszać oczy i gardło. Wybierz oscylację i niską prędkość.</li>
+<li><strong>Używanie klimatyzatora bez odprowadzania gorącego powietrza:</strong> bez węża wyprowadzonego na zewnątrz ciepło wraca do pomieszczenia.</li>
+<li><strong>Zostawianie szeroko otwartego okna przy wężu:</strong> gorące powietrze od razu wpada do środka. Użyj uszczelnienia okiennego.</li>
+<li><strong>Dobieranie zbyt słabego urządzenia:</strong> pracuje bez przerwy i nie osiąga zadanej temperatury.</li>
+<li><strong>Ustawianie zbyt niskiej temperatury:</strong> dla komfortu wystarczy kilka stopni różnicy względem temperatury na zewnątrz, a zużycie prądu spada.</li>
+<li><strong>Liczenie na schładzacz w wilgotnym klimacie:</strong> zwiększa wilgotność, przez co szybko robi się duszno.</li>
+<li><strong>Kierowanie wentylatora prosto na twarz przez całą noc:</strong> może to wysuszać oczy i gardło. Lepiej włącz oscylację i niską prędkość.</li>
 </ul>
 
-<h2>Instalacja, użytkowanie i bezpieczeństwo</h2>
+<h2>Montaż, użytkowanie i bezpieczeństwo</h2>
 <ul>
-<li>Podłącz klimatyzator bezpośrednio do odpowiedniego gniazdka ściennego, bez listwy ani przedłużacza o zbyt małym przekroju.</li>
-<li>Zachowaj wolne miejsce zalecane przez producenta wokół urządzenia i opróżniaj zbiornik skroplin, jeśli model go ma.</li>
-<li>W ciągu dnia zamykaj drzwi i rolety od strony słońca: zmniejsza to pracę klimatyzatora, a przy wentylatorze – odczuwalne ciepło.</li>
+<li>Podłącz klimatyzator bezpośrednio do odpowiedniego gniazdka w ścianie – bez listwy zasilającej i bez przedłużacza o zbyt małym przekroju.</li>
+<li>Zostaw wokół urządzenia tyle wolnego miejsca, ile zaleca producent, i opróżniaj zbiornik na skropliny, jeśli model go ma.</li>
+<li>W ciągu dnia zamykaj drzwi i opuszczaj rolety od strony słońca: klimatyzator ma wtedy mniej pracy, a przy wentylatorze mniej odczuwasz upał.</li>
 <li>W modelach z czynnikiem R290 (propan) przestrzegaj minimalnej powierzchni pomieszczenia podanej w instrukcji.</li>
-<li>Regularnie czyść filtry klimatyzatora oraz łopaty lub kratki wentylatora.</li>
+<li>Regularnie czyść filtry klimatyzatora oraz łopatki i kratki wentylatora.</li>
 </ul>
-<p>Aby porównać więcej klimatyzatorów sterowanych zdalnie, przeczytaj nasze <a href="/pl/blog/climatiseur-mobile-connecte-comparatif">porównanie inteligentnych klimatyzatorów przenośnych</a>. Wentylatory znajdziesz w naszym <a href="/pl/blog/ventilateur-connecte-comparatif">porównaniu inteligentnych wentylatorów</a>.</p>
+<p>Więcej klimatyzatorów sterowanych zdalnie znajdziesz w naszym <a href="/pl/blog/climatiseur-mobile-connecte-comparatif">porównaniu klimatyzatorów przenośnych z Wi-Fi</a>, a wentylatory – w <a href="/pl/blog/ventilateur-connecte-comparatif">porównaniu inteligentnych wentylatorów</a>.</p>
 
 <h2>Werdykt</h2>
-<p><strong>Na fale upałów:</strong> De'Longhi Pinguino PAC EL112 CST WiFi to kompletny i wydajny klimatyzator monoblokowy, sterowany zdalnie.</p>
-<p><strong>Przy małym budżecie i umiarkowanych latach:</strong> Xiaomi Smart Standing Fan 2 Pro daje uczucie chłodu przy minimalnym zużyciu energii i bez żadnej instalacji.</p>
-<p><strong>Do sypialni, w której liczy się hałas:</strong> Midea PortaSplit naprawdę chłodzi, a sprężarkę zostawia na zewnątrz.</p>
-<p>Najrozsądniejszym połączeniem jest często dobry wentylator na większość dni i klimatyzator przenośny zarezerwowany na szczyty upałów.</p>`,
+<p><strong>Na fale upałów:</strong> De'Longhi Pinguino PAC EL112 CST WiFi to kompletny i wydajny klimatyzator monoblokowy, którym można sterować zdalnie.</p>
+<p><strong>Przy niewielkim budżecie i umiarkowanie ciepłym lecie:</strong> Xiaomi Smart Standing Fan 2 Pro daje uczucie chłodu przy minimalnym zużyciu prądu i nie wymaga żadnego montażu.</p>
+<p><strong>Do sypialni, w której liczy się cisza:</strong> Midea PortaSplit naprawdę chłodzi, a sprężarka pracuje na zewnątrz.</p>
+<p>Często najrozsądniej jest połączyć oba rozwiązania: dobry wentylator na większość dni i klimatyzator przenośny na największe upały.</p>`,
+    sv: `<p><strong>En portabel AC är den enda av de två som faktiskt sänker temperaturen i ett rum – en fläkt rör bara om i luften så att det känns svalare.</strong> Håller sig värmen på en måttlig nivå (upp till ungefär 30–32 °C inomhus) räcker en bra fläkt, och den drar väldigt lite el. Under värmeböljor eller i ett sovrum direkt under taket är det bara en portabel AC som ger verklig lindring.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, oberoende utvärderingar och verifierade köparomdömen. Den förklarar hur apparaterna skiljer sig åt och vad du ska kontrollera före köpet, och presenterar fem aktuella modeller som säljs i Europa. Vill du se fler alternativ finns vårt <a href="/sv/confort-air/climatiseurs-mobiles">urval av portabla AC</a> och vårt <a href="/sv/confort-air/ventilateurs">urval av fläktar</a>.</p>
+
+<h2>Så fungerar apparaterna</h2>
+<h3>Den portabla AC:n</h3>
+<p>En portabel AC i ett stycke (en så kallad monoblockmodell) fungerar som ett kylskåp: en kompressor driver runt ett köldmedium som tar upp värmen i rummet och släpper ut den genom en <strong>utblåsslang</strong> som dras ut genom ett fönster. Den kyler luften, avfuktar den på vägen och låter dig ställa in önskad temperatur. Nackdelarna: hög elförbrukning, kompressorljud och en slang som måste dras ut.</p>
+<p>Det finns också portabla split-AC (som Midea PortaSplit): där sitter kompressorn i en utomhusdel som står på balkongen eller på fönsterblecket, vilket gör dem betydligt tystare inne i rummet.</p>
+<h3>Fläkten</h3>
+<p>En fläkt ändrar inte luftens temperatur. Luftströmmen gör att svetten på huden avdunstar snabbare, och då känns det svalare. Det fungerar så länge rumsluften är tydligt svalare än kroppen. När det är riktigt varmt, över ungefär 35 °C, flyttar den bara runt varm luft. Nyare modeller med DC-motor (likström) är särskilt energisnåla och tysta.</p>
+<h3>Luftkylaren</h3>
+<p>Mittemellan finns luftkylaren, som blåser luft genom en fuktad filtermatta. När vattnet avdunstar sjunker temperaturen på den utblåsta luften något, men luftfuktigheten i rummet stiger. Den fungerar bra i torrt klimat och i välventilerade rum, betydligt sämre när luften är fuktig. Under en värmebölja ersätter den inte en AC.</p>
+
+<h2>Jämförelsetabell: portabel AC, fläkt och luftkylare</h2>
+<table>
+<thead>
+<tr><th>Kriterium</th><th>Portabel AC</th><th>Fläkt</th><th>Luftkylare</th></tr>
+</thead>
+<tbody>
+<tr><td>Sänker temperaturen på riktigt</td><td>Ja</td><td>Nej (bara känslan)</td><td>Lite, främst i torr luft</td></tr>
+<tr><td>Typisk effekt</td><td>Cirka 800–1 400 W</td><td>Cirka 2–80 W</td><td>Cirka 60–150 W</td></tr>
+<tr><td>Ljudnivå</td><td>Hög (utom split-modeller)</td><td>Låg till måttlig</td><td>Måttlig</td></tr>
+<tr><td>Installation</td><td>Slang genom fönstret (eller utomhusdel)</td><td>Ingen</td><td>Ingen, vattentank att fylla på</td></tr>
+<tr><td>Påverkan på luftfuktigheten</td><td>Avfuktar</td><td>Ingen</td><td>Höjer luftfuktigheten</td></tr>
+<tr><td>Användbar under värmebölja</td><td>Ja</td><td>Begränsat</td><td>Begränsat, särskilt i fuktig luft</td></tr>
+<tr><td>Vikt</td><td>Tung (ofta över 25 kg)</td><td>Lätt</td><td>Medeltung</td></tr>
+</tbody>
+</table>
+
+<h2>Så väljer du rätt</h2>
+<h3>1. Hur varmt det blir hemma hos dig</h3>
+<p>Det här är det avgörande kriteriet. I en bostad som håller sig under 30 °C räcker ofta en välplacerad fläkt, särskilt på natten. I en vindslägenhet, ett sovrum i västerläge eller under återkommande värmeböljor är det bara en AC som verkligen får ner temperaturen och låter dig sova ordentligt.</p>
+<h3>2. Rummets storlek och kyleffekten</h3>
+<p>En AC:s kyleffekt anges i BTU/h eller kW. Tillverkarna brukar utgå från ungefär de här riktvärdena:</p>
+<table>
+<thead>
+<tr><th>Rummets yta</th><th>Ungefärlig kyleffekt</th></tr>
+</thead>
+<tbody>
+<tr><td>Upp till 15 m²</td><td>7 000–9 000 BTU/h</td></tr>
+<tr><td>15–25 m²</td><td>9 000–12 000 BTU/h</td></tr>
+<tr><td>25–40 m²</td><td>12 000–14 000 BTU/h</td></tr>
+</tbody>
+</table>
+<p>Ett rum med mycket glas, direkt under taket eller med mycket sol behöver lite extra marginal. En för liten apparat går oavbrutet utan att nå den inställda temperaturen.</p>
+<h3>3. Elförbrukningen</h3>
+<p>Skillnaden är enorm. En portabel AC på 1 000 W som går i 8 timmar förbrukar ungefär 8 kWh per dygn. En DC-fläkt på 24 W förbrukar under samma tid ungefär 0,2 kWh, alltså runt 40 gånger mindre. För en AC: titta på energiklassen och den angivna förbrukningen per timme. För en fläkt: välj helst en med DC-motor.</p>
+<h3>4. Ljudnivån</h3>
+<p>Ljudet från en monoblockmodell kommer från kompressorn, som står i rummet. Till sovrummet: jämför det angivna ljudtrycket i nattläge, eller överväg en split-modell där kompressorn står ute. De bästa DC-fläktarna hörs knappt alls på lägsta steget.</p>
+<h3>5. Bostaden och fönstret</h3>
+<p>En portabel AC behöver en öppning för slangen. Kontrollera vilken typ av fönster du har (sidohängt fönster, skjutfönster, takfönster) och om det följer med en tätningssats. Bor du i hyresrätt och inte får göra några ingrepp väljer du en sats som monteras utan att borra. En fläkt kopplar du bara in i närmaste uttag.</p>
+<h3>6. Smarta funktioner</h3>
+<p>Med appstyrning kan du starta AC:n innan du kommer hem och schemalägga att den stängs av automatiskt på natten. Numera är det vanligt med app och stöd för Alexa eller Google Assistant även på fläktar, ända ner till instegsmodellerna.</p>
+
+<h2>Modeller att överväga 2026</h2>
+<h3>De'Longhi Pinguino PAC EL112 CST WiFi: den mångsidiga portabla AC:n</h3>
+<p>Den här monoblockmodellen har enligt tillverkaren 11 000 BTU/h och energiklass A+, och använder köldmediet R290. Den styrs från De'Longhis app och fungerar med Alexa och Google Assistant. Den har också avfuktningsläge och ett läge där den bara fläktar.</p>
+<ul>
+<li><strong>Styrkor:</strong> god verkningsgrad för en monoblockmodell, fjärrstyrning, alla inställningar du kan tänkas behöva.</li>
+<li><strong>Svagheter:</strong> slang att installera, cirka 33 kg, kompressorljud som på alla monoblockmodeller.</li>
+<li><strong>Passar för:</strong> ett medelstort rum som ska kylas under värmeböljor, när du vill kunna styra apparaten på distans.</li>
+</ul>
+<h3>Midea PortaSplit: tystast i sovrummet</h3>
+<p>PortaSplit skiljer inomhusdelen från kompressorn, som står ute. Midea anger 12 000 BTU/h (3,5 kW), energiklass A++ för kyla, ett värmeläge och en ljudnivå inomhus från 39 dB(A) i tyst läge. Köldmediekretsen är försluten från fabrik, så du behöver ingen kyltekniker: apparaten installeras genom ett skjutfönster, ett vädringsfönster eller via balkongen, utan att du behöver borra.</p>
+<ul>
+<li><strong>Styrkor:</strong> betydligt tystare än en monoblockmodell, effektiv, både kyler och värmer.</li>
+<li><strong>Svagheter:</strong> tar mer plats, utomhusdelen måste få plats någonstans, i det övre prissegmentet.</li>
+<li><strong>Passar för:</strong> ett sovrum där en vanlig AC skulle låta för mycket för att du ska kunna sova.</li>
+</ul>
+<h3>Xiaomi Smart Standing Fan 2 Pro: den smarta och snåla fläkten</h3>
+<p>Den här golvfläkten med DC-motor på 24 W har väldigt många hastighetssteg, 140° horisontell oscillering, appen Xiaomi Home och stöd för Alexa och Google Assistant. Xiaomi uppger också att den har ett inbyggt batteri, så att den kan användas sladdlöst i några timmar.</p>
+<ul>
+<li><strong>Styrkor:</strong> mycket låg förbrukning, mycket tyst på låg hastighet, lätt att flytta.</li>
+<li><strong>Svagheter:</strong> kyler inte luften, låter mer på full hastighet.</li>
+<li><strong>Passar för:</strong> måttligt varma somrar, snäva budgetar och hyresgäster som inte kan dra ut en slang.</li>
+</ul>
+<h3>Rowenta Turbo Silence Extreme+: den klassiska, kraftfulla golvfläkten</h3>
+<p>Den här golvfläkten satsar på luftflödet, med fem hastigheter, fjärrkontroll, timer och ett nattläge som gradvis sänker hastigheten. Rowenta anger 35 dB(A) på lägsta hastigheten.</p>
+<ul>
+<li><strong>Styrkor:</strong> kraftfullt luftflöde, enkel att använda, lätt att hitta i hela Europa.</li>
+<li><strong>Svagheter:</strong> konventionell motor som drar mer än en DC-modell, ingen app.</li>
+<li><strong>Passar för:</strong> ett vardagsrum eller ett stort rum där du vill ha mycket luft utan smarta funktioner.</li>
+</ul>
+<h3>Duux Whisper Flex 2 Smart: den smarta premiumfläkten</h3>
+<p>Den här DC-fläkten går att använda både som golvfläkt och som bordsfläkt. Den har många hastighetssteg, oscillering både horisontellt och vertikalt, appen Duux och stöd för Alexa och Google Assistant. Med ett batteri som tillval kan den användas sladdlöst.</p>
+<ul>
+<li><strong>Styrkor:</strong> mycket tyst på låga varv, går att finjustera, genomtänkt design.</li>
+<li><strong>Svagheter:</strong> dyrare än en vanlig fläkt, batteriet säljs separat.</li>
+<li><strong>Passar för:</strong> sovrum och hemmakontor, där tystnad och enkel användning är viktigast.</li>
+</ul>
+
+<h2>Modellerna i korthet</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Typ</th><th>Viktigaste data</th><th>Uppkoppling</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td>De'Longhi Pinguino PAC EL112 CST WiFi</td><td>Monoblock-AC</td><td>11 000 BTU/h, klass A+</td><td>Wifi, Alexa, Google</td><td>Värmeböljor, medelstort rum</td></tr>
+<tr><td>Midea PortaSplit</td><td>Portabel split-AC</td><td>12 000 BTU/h, från 39 dB(A) inomhus</td><td>Wifi</td><td>Sovrum, låg ljudnivå</td></tr>
+<tr><td>Xiaomi Smart Standing Fan 2 Pro</td><td>Golvfläkt med DC-motor</td><td>24 W, inbyggt batteri</td><td>Wifi, Alexa, Google</td><td>Måttliga somrar, liten budget</td></tr>
+<tr><td>Rowenta Turbo Silence Extreme+</td><td>Golvfläkt</td><td>5 hastigheter, 35 dB(A) som lägst</td><td>Fjärrkontroll</td><td>Kraftigt luftflöde</td></tr>
+<tr><td>Duux Whisper Flex 2 Smart</td><td>DC-fläkt för golv eller bord</td><td>Oscillering i 2 led</td><td>Wifi, Alexa, Google</td><td>Sovrum, kontor</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Kör inte en AC utan att leda ut den varma luften:</strong> utan en slang ut i det fria går värmen rakt tillbaka in i rummet.</li>
+<li><strong>Lämna inte fönstret vidöppet runt slangen:</strong> den varma luften strömmar genast in igen. Använd en tätningssats.</li>
+<li><strong>Välj inte för låg effekt:</strong> apparaten går hela tiden utan att nå den temperatur du vill ha.</li>
+<li><strong>Ställ inte in för låg temperatur:</strong> några grader under utetemperaturen räcker för att det ska kännas behagligt och håller nere förbrukningen.</li>
+<li><strong>Räkna inte med en luftkylare i fuktigt klimat:</strong> den tillför fukt, och då blir det snabbt obehagligt.</li>
+<li><strong>Rikta inte fläkten mot ansiktet hela natten:</strong> det kan torka ut ögon och hals. Använd hellre oscillering och låg hastighet.</li>
+</ul>
+
+<h2>Installation, användning och säkerhet</h2>
+<ul>
+<li>Anslut en AC direkt till ett lämpligt vägguttag, inte till ett grenuttag eller en för klen förlängningssladd.</li>
+<li>Lämna det fria utrymme runt apparaten som tillverkaren rekommenderar, och töm vattentanken om modellen har en.</li>
+<li>Stäng dörrarna och dra för gardiner och persienner på solsidan under dagen: det minskar belastningen på AC:n och gör att det känns mindre varmt när du använder fläkt.</li>
+<li>För modeller med köldmediet R290 (propan): följ bruksanvisningens krav på minsta rumsyta.</li>
+<li>Rengör AC:ns filter och fläktens blad och galler regelbundet.</li>
+</ul>
+<p>Vill du jämföra fler AC-modeller som styrs via app kan du läsa vår <a href="/sv/blog/climatiseur-mobile-connecte-comparatif">jämförelse av smarta portabla AC</a>. För fläktar finns vår <a href="/sv/blog/ventilateur-connecte-comparatif">jämförelse av smarta fläktar</a>.</p>
+
+<h2>Omdöme</h2>
+<p><strong>För att klara värmeböljor:</strong> De'Longhi Pinguino PAC EL112 CST WiFi är en komplett och effektiv monoblockmodell som du kan styra på distans.</p>
+<p><strong>För liten budget och måttliga somrar:</strong> Xiaomi Smart Standing Fan 2 Pro ger en svalkande känsla med minimal elförbrukning och kräver ingen installation.</p>
+<p><strong>För ett sovrum där ljudet spelar roll:</strong> Midea PortaSplit kyler på riktigt och håller samtidigt kompressorn utomhus.</p>
+<p>Den förnuftigaste lösningen är ofta en bra fläkt för de flesta dagar och en portabel AC som du sparar till de allra varmaste perioderna.</p>`,
+    us: `<p><strong>A portable air conditioner is the only one of the two that actually lowers a room's temperature; a fan just moves air around to make you feel cooler.</strong> If the heat stays moderate (up to roughly 86 to 90°F, or 30 to 32°C, indoors), a good fan is enough and uses very little power; during heat waves or in an attic bedroom, only a portable air conditioner brings real relief.</p>
+<p>This comparison is based on manufacturer specs, independent reviews and verified owner reviews. It explains how each device works, what to check before you buy, and five current models sold in Europe. For more options, see our <a href="/us/confort-air/climatiseurs-mobiles">portable air conditioner picks</a> and our <a href="/us/confort-air/ventilateurs">fan picks</a>.</p>
+
+<h2>How each device works</h2>
+<h3>The portable air conditioner</h3>
+<p>A single-unit portable air conditioner works like a refrigerator: a compressor circulates refrigerant that absorbs heat from the room and pushes it outside through an <strong>exhaust hose</strong> run out a window. It cools the air, dehumidifies it along the way and lets you set a target temperature. The trade-offs: high power use, compressor noise and a hose to install.</p>
+<p>There are also portable "split" air conditioners (such as the Midea PortaSplit): the compressor sits in an outdoor unit on the balcony or windowsill, which makes them much quieter inside the room.</p>
+<h3>The fan</h3>
+<p>A fan doesn't change the air temperature. The airflow speeds up the evaporation of sweat on your skin, which feels cooler. That works as long as the room air is clearly cooler than your body. When it's very hot, above roughly 95°F (35°C), it simply pushes hot air around. Recent DC-motor (direct current) models are especially energy-efficient and quiet.</p>
+<h3>The evaporative cooler</h3>
+<p>Somewhere in between, an evaporative cooler (often called a swamp cooler) blows air through a wet pad. Evaporation slightly lowers the temperature of the air it blows out, but raises the humidity in the room. It works well in dry climates and well-ventilated rooms, much less in humid ones. It's no substitute for an air conditioner during a heat wave.</p>
+
+<h2>Comparison table: portable AC, fan, evaporative cooler</h2>
+<table>
+<thead>
+<tr><th>Criterion</th><th>Portable AC</th><th>Fan</th><th>Evaporative cooler</th></tr>
+</thead>
+<tbody>
+<tr><td>Actually lowers the temperature</td><td>Yes</td><td>No (only feels cooler)</td><td>Slightly, mostly in dry air</td></tr>
+<tr><td>Typical power draw</td><td>About 800 to 1,400 W</td><td>About 2 to 80 W</td><td>About 60 to 150 W</td></tr>
+<tr><td>Noise</td><td>High (except split models)</td><td>Low to moderate</td><td>Moderate</td></tr>
+<tr><td>Installation</td><td>Window hose (or outdoor unit)</td><td>None</td><td>None, water tank to refill</td></tr>
+<tr><td>Effect on humidity</td><td>Dehumidifies</td><td>None</td><td>Adds humidity</td></tr>
+<tr><td>Useful in a heat wave</td><td>Yes</td><td>Limited</td><td>Limited, especially in humid air</td></tr>
+<tr><td>Weight</td><td>Heavy (often over 55 lb, or 25 kg)</td><td>Light</td><td>Medium</td></tr>
+</tbody>
+</table>
+
+<h2>How to choose</h2>
+<h3>1. How much heat you need to fight</h3>
+<p>This is the deciding factor. In a home that stays below 86°F (30°C), a well-placed fan is often enough, especially at night. In a top-floor apartment, a west-facing bedroom or during back-to-back heat waves, only an air conditioner truly brings the temperature down and lets you sleep properly.</p>
+<h3>2. Room size and cooling capacity</h3>
+<p>Air conditioner capacity is listed in BTU/h or kW. Typical guidance used by manufacturers:</p>
+<table>
+<thead>
+<tr><th>Room size</th><th>Suggested capacity</th></tr>
+</thead>
+<tbody>
+<tr><td>Up to 160 sq ft (15 m²)</td><td>7,000 to 9,000 BTU/h</td></tr>
+<tr><td>160 to 270 sq ft (15 to 25 m²)</td><td>9,000 to 12,000 BTU/h</td></tr>
+<tr><td>270 to 430 sq ft (25 to 40 m²)</td><td>12,000 to 14,000 BTU/h</td></tr>
+</tbody>
+</table>
+<p>A room with lots of glass, right under the roof or in full sun needs extra headroom. An undersized unit runs nonstop without reaching the set temperature.</p>
+<h3>3. Energy use</h3>
+<p>The gap is huge. A 1,000 W portable air conditioner running for 8 hours uses about 8 kWh a day. A 24 W DC fan over the same period uses about 0.2 kWh, roughly 40 times less. At an example rate of 20 cents per kWh, that's about $1.60 versus about 4 cents a day (check the rate on your utility bill). For an air conditioner, check the energy class and the stated hourly consumption; for a fan, go for a DC motor.</p>
+<h3>4. Noise</h3>
+<p>A single-unit portable is noisy because its compressor sits in the room. For a bedroom, compare the stated sound pressure in night mode, or consider a split model with the compressor outside. The best DC fans are almost silent at their lowest setting.</p>
+<h3>5. Your home and window</h3>
+<p>A portable air conditioner needs an opening for its hose. Check your window type (casement, sliding or double-hung, skylight) and whether a sealing kit is included. Renters who can't drill should pick a no-drill kit. A fan just plugs in anywhere.</p>
+<h3>6. Smart features</h3>
+<p>App control lets you start the air conditioner before you get home and schedule it to switch off automatically at night. App control and Alexa or Google Assistant support are now common on fans too, even entry-level ones.</p>
+
+<h2>Models worth considering in 2026</h2>
+<h3>De'Longhi Pinguino PAC EL112 CST WiFi: the versatile portable AC</h3>
+<p>This single-unit air conditioner is rated at 11,000 BTU/h and energy class A+ on the EU label, and it uses R290 refrigerant. It can be controlled from the De'Longhi app and works with Alexa and Google Assistant. It also has dehumidify and fan-only modes.</p>
+<ul>
+<li><strong>Pros:</strong> good efficiency for a single-unit model, remote control, a full set of settings.</li>
+<li><strong>Cons:</strong> hose to install, about 73 lb (33 kg), compressor noise like any single-unit portable.</li>
+<li><strong>Best for:</strong> cooling a midsize room during heat waves, with remote control from your phone.</li>
+</ul>
+<h3>Midea PortaSplit: the quietest option for a bedroom</h3>
+<p>The PortaSplit separates the indoor unit from the compressor, which sits outside. Midea quotes 12,000 BTU/h (3.5 kW), A++ cooling efficiency, a heating mode and indoor noise from 39 dB(A) in silent mode. The refrigerant circuit is sealed at the factory, so you don't need an HVAC technician; it fits through a sliding window, a skylight or a balcony door without drilling.</p>
+<ul>
+<li><strong>Pros:</strong> much quieter than a single-unit portable, efficient, heats as well as cools.</li>
+<li><strong>Cons:</strong> bulkier setup, outdoor unit to place, premium tier.</li>
+<li><strong>Best for:</strong> a bedroom where a standard air conditioner would be too noisy to sleep.</li>
+</ul>
+<h3>Xiaomi Smart Standing Fan 2 Pro: the smart, energy-sipping fan</h3>
+<p>This 24 W DC-motor pedestal fan offers a very wide range of speeds, 140° side-to-side oscillation, the Xiaomi Home app and Alexa and Google Assistant support. Xiaomi also lists a built-in battery for a few hours of cordless use.</p>
+<ul>
+<li><strong>Pros:</strong> very low power use, very quiet at low speed, easy to move.</li>
+<li><strong>Cons:</strong> doesn't cool the air, louder at full speed.</li>
+<li><strong>Best for:</strong> mild summers, tight budgets and renters who can't run a hose out a window.</li>
+</ul>
+<h3>Rowenta Turbo Silence Extreme+: the classic, powerful pedestal fan</h3>
+<p>This pedestal fan is all about airflow, with five speeds, a remote control, a timer and a night mode that gradually lowers the speed. Rowenta quotes 35 dB(A) at the lowest speed.</p>
+<ul>
+<li><strong>Pros:</strong> strong airflow, simple to use, widely available in Europe.</li>
+<li><strong>Cons:</strong> conventional motor that uses more power than a DC model, no app.</li>
+<li><strong>Best for:</strong> a living room or large room that needs plenty of air without smart features.</li>
+</ul>
+<h3>Duux Whisper Flex 2 Smart: the premium smart fan</h3>
+<p>This convertible DC fan (floor-standing or tabletop) offers many speeds, side-to-side and up-and-down oscillation, the Duux app and Alexa and Google Assistant support. An optional battery lets you use it cordless.</p>
+<ul>
+<li><strong>Pros:</strong> very quiet at low speed, fine control, well designed.</li>
+<li><strong>Cons:</strong> pricier than a basic fan, battery sold separately.</li>
+<li><strong>Best for:</strong> bedrooms and home offices, where quiet and ease of use come first.</li>
+</ul>
+
+<h2>Model table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Key spec</th><th>Smart features</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>De'Longhi Pinguino PAC EL112 CST WiFi</td><td>Single-unit portable AC</td><td>11,000 BTU/h, class A+</td><td>Wi-Fi, Alexa, Google</td><td>Heat waves, midsize room</td></tr>
+<tr><td>Midea PortaSplit</td><td>Portable split AC</td><td>12,000 BTU/h, from 39 dB(A) indoors</td><td>Wi-Fi</td><td>Bedroom, low noise</td></tr>
+<tr><td>Xiaomi Smart Standing Fan 2 Pro</td><td>DC pedestal fan</td><td>24 W, built-in battery</td><td>Wi-Fi, Alexa, Google</td><td>Mild summers, tight budget</td></tr>
+<tr><td>Rowenta Turbo Silence Extreme+</td><td>Pedestal fan</td><td>5 speeds, 35 dB(A) minimum</td><td>Remote control</td><td>High airflow</td></tr>
+<tr><td>Duux Whisper Flex 2 Smart</td><td>Convertible DC fan</td><td>2-axis oscillation</td><td>Wi-Fi, Alexa, Google</td><td>Bedroom, office</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Running an air conditioner without venting the hot air:</strong> without a hose to the outside, the heat goes straight back into the room.</li>
+<li><strong>Leaving the window wide open around the hose:</strong> hot air flows right back in. Use a sealing kit.</li>
+<li><strong>Undersizing the unit:</strong> it runs constantly without reaching the target temperature.</li>
+<li><strong>Setting the temperature too low:</strong> a few degrees below the outdoor temperature is enough for comfort and keeps energy use down.</li>
+<li><strong>Relying on an evaporative cooler in a humid climate:</strong> it adds moisture and quickly gets uncomfortable.</li>
+<li><strong>Pointing a fan at your face all night:</strong> it can dry out your eyes and throat. Use oscillation and a low speed.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<ul>
+<li>Plug an air conditioner directly into a suitable wall outlet, not into a power strip or a light-duty extension cord. Models sold in Europe are built for 230 V; check that the version on your Amazon store is rated for 120 V.</li>
+<li>Leave the clearance the manufacturer recommends around the unit and empty the condensate tank if it has one.</li>
+<li>Close doors, curtains and blinds on the sunny side during the day: it reduces the load on the air conditioner and the heat you feel with a fan.</li>
+<li>For R290 (propane) models, follow the minimum room size stated in the manual.</li>
+<li>Clean the air conditioner's filters and the fan's blades and grilles regularly.</li>
+</ul>
+<p>To compare more app-controlled units, read our <a href="/us/blog/climatiseur-mobile-connecte-comparatif">smart portable air conditioner comparison</a>. For fans, see our <a href="/us/blog/ventilateur-connecte-comparatif">smart fan comparison</a>.</p>
+
+<h2>The bottom line</h2>
+<p><strong>To get through heat waves:</strong> the De'Longhi Pinguino PAC EL112 CST WiFi is a complete, efficient single-unit air conditioner you can control remotely.</p>
+<p><strong>For a tight budget and mild summers:</strong> the Xiaomi Smart Standing Fan 2 Pro keeps you feeling cool on very little power and needs no installation.</p>
+<p><strong>For a bedroom where noise matters:</strong> the Midea PortaSplit genuinely cools while keeping the compressor outside.</p>
+<p>The smartest setup is often a good fan for most days and a portable air conditioner saved for the hottest stretches.</p>`,
+    ca: `<p><strong>A portable air conditioner is the only one of the two that actually lowers a room's temperature; a fan only moves air around to make you feel cooler.</strong> If the heat stays moderate (up to roughly 30 to 32°C indoors), a good fan is enough and uses very little power; during a heat wave or in a top-floor bedroom under the roof, only a portable air conditioner brings real relief.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer feedback. It explains how each device works, what to check before buying, and five current models sold in Europe. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model. For more options, see our <a href="/ca/confort-air/climatiseurs-mobiles">portable air conditioner selection</a> and our <a href="/ca/confort-air/ventilateurs">fan selection</a>.</p>
+
+<h2>How each device works</h2>
+<h3>The portable air conditioner</h3>
+<p>A single-unit portable air conditioner works like a fridge: a compressor circulates refrigerant that absorbs heat from the room and pushes it outside through an <strong>exhaust hose</strong> attached to a window. It cools the air, dehumidifies it along the way and lets you set a target temperature. The trade-offs: high power use, compressor noise and a hose to install.</p>
+<p>There are also portable mini-split air conditioners (such as the Midea PortaSplit): the compressor sits in an outdoor unit on the balcony or window sill, which makes them much quieter inside the room.</p>
+<h3>The fan</h3>
+<p>A fan does not change the air temperature. The airflow speeds up the evaporation of sweat on your skin, which feels cooler. This works as long as the room air is clearly cooler than your body. In very hot conditions, above roughly 35°C, it simply moves hot air around. Recent DC-motor (direct current) models use very little power and run quietly.</p>
+<h3>The evaporative cooler</h3>
+<p>Somewhere in between, an evaporative cooler blows air through a wet pad. Evaporation slightly lowers the temperature of the air it blows out, but raises the humidity in the room. It works well in dry climates and ventilated rooms, much less in humid ones. It doesn't replace an air conditioner during a heat wave.</p>
+
+<h2>Comparison table: portable AC, fan, evaporative cooler</h2>
+<table>
+<thead>
+<tr><th>Criterion</th><th>Portable AC</th><th>Fan</th><th>Evaporative cooler</th></tr>
+</thead>
+<tbody>
+<tr><td>Actually lowers temperature</td><td>Yes</td><td>No (feeling only)</td><td>Slightly, mostly in dry air</td></tr>
+<tr><td>Typical power draw</td><td>About 800 to 1,400 W</td><td>About 2 to 80 W</td><td>About 60 to 150 W</td></tr>
+<tr><td>Noise</td><td>High (except split models)</td><td>Low to moderate</td><td>Moderate</td></tr>
+<tr><td>Installation</td><td>Window hose (or outdoor unit)</td><td>None</td><td>None, water tank to refill</td></tr>
+<tr><td>Effect on humidity</td><td>Dehumidifies</td><td>None</td><td>Adds humidity</td></tr>
+<tr><td>Useful in a heat wave</td><td>Yes</td><td>Limited</td><td>Limited, especially in humid air</td></tr>
+<tr><td>Weight</td><td>Heavy (often over 25 kg / 55 lb)</td><td>Light</td><td>Medium</td></tr>
+</tbody>
+</table>
+
+<h2>How to choose</h2>
+<h3>1. How much heat you need to fight</h3>
+<p>This is the deciding factor. In a home that stays below 30°C, a well-placed fan is often enough, especially at night. In a top-floor apartment, a west-facing bedroom or during repeated heat waves, only an air conditioner truly brings the temperature down and lets you sleep properly.</p>
+<h3>2. Room size and cooling capacity</h3>
+<p>Air conditioner capacity is given in BTU/h or kW. Typical guidance used by manufacturers:</p>
+<table>
+<thead>
+<tr><th>Room size</th><th>Indicative capacity</th></tr>
+</thead>
+<tbody>
+<tr><td>Up to 15 m² (160 sq. ft.)</td><td>7,000 to 9,000 BTU/h</td></tr>
+<tr><td>15–25 m² (160–270 sq. ft.)</td><td>9,000 to 12,000 BTU/h</td></tr>
+<tr><td>25–40 m² (270–430 sq. ft.)</td><td>12,000 to 14,000 BTU/h</td></tr>
+</tbody>
+</table>
+<p>A room with lots of glass, under the roof or in full sun needs extra capacity. An undersized unit runs non-stop without reaching the set temperature.</p>
+<h3>3. Energy use</h3>
+<p>The gap is huge. A 1,000 W portable air conditioner running for 8 hours uses about 8 kWh a day. A 24 W DC fan over the same period uses about 0.2 kWh, roughly 40 times less. At an example rate of 10¢ per kWh, that's about 80¢ a day for the air conditioner versus 2¢ for the fan; your actual rate depends on your province and utility, so check your bill. For an air conditioner, check the energy class and the stated hourly consumption; for a fan, choose a DC motor.</p>
+<h3>4. Noise</h3>
+<p>A single-unit portable is noisy because its compressor sits in the room. For a bedroom, compare the stated sound pressure in night mode, or consider a portable mini-split with the compressor outside. The best DC fans are almost inaudible at their lowest setting.</p>
+<h3>5. Your home and window</h3>
+<p>A portable air conditioner needs an opening for its hose. Check your window type (casement, sliding, double-hung or skylight) and whether a sealing kit is included. Renters who cannot drill should pick a no-drill kit. A fan just plugs in anywhere.</p>
+<h3>6. Smart features</h3>
+<p>App control lets you start the air conditioner before you get home and schedule an automatic switch-off at night. App control and Alexa or Google Assistant support are now common on fans too, even entry-level ones.</p>
+
+<h2>Models worth considering in 2026</h2>
+<h3>De'Longhi Pinguino PAC EL112 CST WiFi: the versatile portable AC</h3>
+<p>This single-unit portable air conditioner is rated at 11,000 BTU/h, class A+ on the EU energy label, and uses R290 refrigerant. It can be controlled from the De'Longhi app and works with Alexa and Google Assistant. It also offers dehumidify and fan-only modes.</p>
+<ul>
+<li><strong>Strengths:</strong> good efficiency for a single-unit portable, remote control, full set of settings.</li>
+<li><strong>Limits:</strong> hose to install, about 33 kg (73 lb), compressor noise like any single-unit portable.</li>
+<li><strong>Best for:</strong> a medium-sized room to cool during heat waves, with remote control from your phone.</li>
+</ul>
+<h3>Midea PortaSplit: the quietest option for a bedroom</h3>
+<p>The PortaSplit separates the indoor unit from the compressor, which sits outside. Midea quotes 12,000 BTU/h (3.5 kW), A++ cooling efficiency, a heating mode and indoor noise from 39 dB(A) in silent mode. The refrigerant circuit is factory sealed, so no technician is needed; it fits through a sliding window, a skylight or a balcony without drilling.</p>
+<ul>
+<li><strong>Strengths:</strong> much quieter than a single-unit portable, efficient, heats as well as cools.</li>
+<li><strong>Limits:</strong> bulkier setup, outdoor unit to place, premium range.</li>
+<li><strong>Best for:</strong> a bedroom where a standard air conditioner would be too noisy to sleep.</li>
+</ul>
+<h3>Xiaomi Smart Standing Fan 2 Pro: the smart, low-power fan</h3>
+<p>This 24 W DC-motor pedestal fan offers a very wide range of speeds, 140° horizontal oscillation, the Xiaomi Home app and Alexa and Google Assistant support. Xiaomi also lists a built-in battery for a few hours of cordless use.</p>
+<ul>
+<li><strong>Strengths:</strong> very low power use, very quiet at low speed, easy to move.</li>
+<li><strong>Limits:</strong> does not cool the air, louder at full speed.</li>
+<li><strong>Best for:</strong> moderate summers, tight budgets and renters who can't install a hose.</li>
+</ul>
+<h3>Rowenta Turbo Silence Extreme+: the classic, powerful pedestal fan</h3>
+<p>This pedestal fan focuses on airflow, with five speeds, a remote control, a timer and a night mode that gradually lowers the speed. Rowenta quotes 35 dB(A) at the lowest speed.</p>
+<ul>
+<li><strong>Strengths:</strong> strong airflow, simple to use, widely available in Europe.</li>
+<li><strong>Limits:</strong> conventional motor, uses more power than a DC model, no app.</li>
+<li><strong>Best for:</strong> a living room or large room that needs plenty of air without smart features.</li>
+</ul>
+<h3>Duux Whisper Flex 2 Smart: the premium smart fan</h3>
+<p>This convertible DC fan (standing or table) offers many speeds, horizontal and vertical oscillation, the Duux app and Alexa and Google Assistant support. An optional battery lets you use it cordless.</p>
+<ul>
+<li><strong>Strengths:</strong> very quiet at low speed, fine control, well-designed.</li>
+<li><strong>Limits:</strong> pricier than a classic fan, battery sold separately.</li>
+<li><strong>Best for:</strong> bedrooms and home offices, where quiet and ease of use come first.</li>
+</ul>
+
+<h2>Model table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Type</th><th>Key spec</th><th>Connectivity</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>De'Longhi Pinguino PAC EL112 CST WiFi</td><td>Single-unit portable AC</td><td>11,000 BTU/h, class A+</td><td>Wi-Fi, Alexa, Google</td><td>Heat waves, medium room</td></tr>
+<tr><td>Midea PortaSplit</td><td>Portable mini-split AC</td><td>12,000 BTU/h, from 39 dB(A) indoors</td><td>Wi-Fi</td><td>Bedroom, low noise</td></tr>
+<tr><td>Xiaomi Smart Standing Fan 2 Pro</td><td>DC pedestal fan</td><td>24 W, built-in battery</td><td>Wi-Fi, Alexa, Google</td><td>Moderate summers, small budget</td></tr>
+<tr><td>Rowenta Turbo Silence Extreme+</td><td>Pedestal fan</td><td>5 speeds, 35 dB(A) minimum</td><td>Remote control</td><td>High airflow</td></tr>
+<tr><td>Duux Whisper Flex 2 Smart</td><td>Convertible DC fan</td><td>2-axis oscillation</td><td>Wi-Fi, Alexa, Google</td><td>Bedroom, office</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Running an air conditioner without venting hot air:</strong> without a hose to the outside, the heat goes straight back into the room.</li>
+<li><strong>Leaving the window wide open around the hose:</strong> hot air flows straight back in. Use a sealing kit.</li>
+<li><strong>Undersizing the unit:</strong> it runs constantly without reaching the target temperature.</li>
+<li><strong>Setting the temperature too low:</strong> a few degrees below the outdoor temperature is enough for comfort and keeps consumption down.</li>
+<li><strong>Relying on an evaporative cooler in a humid climate:</strong> it adds moisture and quickly becomes uncomfortable.</li>
+<li><strong>Pointing a fan at your face all night:</strong> it can dry your eyes and throat. Use oscillation and a low speed.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<ul>
+<li>Plug an air conditioner directly into a suitable wall outlet, not into a power bar or an undersized extension cord.</li>
+<li>Leave the clearance recommended by the manufacturer around the unit and empty the condensate tank if it has one.</li>
+<li>Close doors, curtains and blinds on the sunny side during the day: it reduces the load on the air conditioner and the heat you feel with a fan.</li>
+<li>For R290 (propane) models, respect the minimum room size stated in the manual.</li>
+<li>Clean the air conditioner's filters and the fan's blades and grilles regularly.</li>
+</ul>
+<p>To compare more app-controlled units, read our <a href="/ca/blog/climatiseur-mobile-connecte-comparatif">smart portable air conditioner comparison</a>. For fans, see our <a href="/ca/blog/ventilateur-connecte-comparatif">smart fan comparison</a>.</p>
+
+<h2>Verdict</h2>
+<p><strong>To cope with heat waves:</strong> the De'Longhi Pinguino PAC EL112 CST WiFi is a complete, efficient single-unit portable air conditioner you can control remotely.</p>
+<p><strong>For a small budget and moderate summers:</strong> the Xiaomi Smart Standing Fan 2 Pro keeps you feeling cool for minimal power and needs no installation.</p>
+<p><strong>For a bedroom where noise matters:</strong> the Midea PortaSplit genuinely cools while keeping the compressor outside.</p>
+<p>The most sensible setup is often a good fan for most days and a portable air conditioner kept for the hottest spells.</p>`,
   },
   faq: [
     {
@@ -960,6 +1356,9 @@ export const article: BlogArticle = {
         it: 'Un ventilatore può sostituire un climatizzatore portatile?',
         nl: 'Kan een ventilator een mobiele airco vervangen?',
         pl: 'Czy wentylator może zastąpić klimatyzator przenośny?',
+        sv: 'Kan en fläkt ersätta en portabel AC?',
+        us: 'Can a fan replace a portable air conditioner?',
+        ca: 'Can a fan replace a portable air conditioner?',
       },
       answer: {
         fr: "Seulement quand la chaleur reste modérée. Le ventilateur ne baisse pas la température, il donne une sensation de fraîcheur. Au-delà d'environ 35 °C, ou dans une pièce qui accumule la chaleur, seul un climatiseur refroidit réellement.",
@@ -968,7 +1367,10 @@ export const article: BlogArticle = {
         es: 'Solo si el calor es moderado. El ventilador no baja la temperatura, solo da sensación de frescor. Por encima de unos 35 °C, o en una habitación que acumula calor, solo un aire acondicionado enfría de verdad.',
         it: 'Solo se il caldo resta moderato. Il ventilatore non abbassa la temperatura, dà solo una sensazione di fresco. Oltre circa 35 °C, o in una stanza che accumula calore, solo un climatizzatore raffredda davvero.',
         nl: 'Alleen als de warmte gematigd blijft. Een ventilator verlaagt de temperatuur niet, hij geeft alleen een koeler gevoel. Boven ongeveer 35 °C, of in een kamer die warmte vasthoudt, koelt alleen een airco echt.',
-        pl: 'Tylko wtedy, gdy upał jest umiarkowany. Wentylator nie obniża temperatury, daje uczucie chłodu. Powyżej ok. 35 °C lub w pomieszczeniu, które gromadzi ciepło, naprawdę chłodzi tylko klimatyzator.',
+        pl: 'Tylko przy umiarkowanym upale. Wentylator nie obniża temperatury, a jedynie daje uczucie chłodu. Powyżej ok. 35 °C lub w pomieszczeniu, które mocno się nagrzewa, naprawdę chłodzi tylko klimatyzator.',
+        sv: 'Bara när värmen är måttlig. En fläkt sänker inte temperaturen, den gör bara att det känns svalare. Över ungefär 35 °C, eller i ett rum som samlar värme, är det bara en AC som kyler på riktigt.',
+        us: 'Only when the heat stays moderate. A fan doesn\'t lower the temperature; it makes you feel cooler. Above roughly 95°F (35°C), or in a room that traps heat, only an air conditioner truly cools.',
+        ca: 'Only when the heat stays moderate. A fan does not lower the temperature; it makes you feel cooler. Above roughly 35°C, or in a room that traps heat, only an air conditioner truly cools.',
       },
     },
     {
@@ -980,6 +1382,9 @@ export const article: BlogArticle = {
         it: 'Quanto consuma un climatizzatore portatile rispetto a un ventilatore?',
         nl: 'Hoeveel verbruikt een mobiele airco vergeleken met een ventilator?',
         pl: 'Ile prądu zużywa klimatyzator przenośny w porównaniu z wentylatorem?',
+        sv: 'Hur mycket el drar en portabel AC jämfört med en fläkt?',
+        us: 'How much electricity does a portable AC use compared with a fan?',
+        ca: 'How much power does a portable AC use compared with a fan?',
       },
       answer: {
         fr: "Un climatiseur mobile appelle souvent entre 800 et 1 400 W, contre quelques watts à environ 80 W pour un ventilateur. Sur 8 heures, un climatiseur de 1 000 W consomme environ 8 kWh, un ventilateur DC de 24 W environ 0,2 kWh.",
@@ -989,6 +1394,9 @@ export const article: BlogArticle = {
         it: 'Un climatizzatore portatile assorbe di solito 800-1.400 W, contro pochi watt fino a circa 80 W di un ventilatore. In 8 ore un apparecchio da 1.000 W consuma circa 8 kWh, un ventilatore DC da 24 W circa 0,2 kWh.',
         nl: 'Een mobiele airco trekt meestal 800 tot 1.400 W, een ventilator enkele watts tot ongeveer 80 W. In 8 uur verbruikt een toestel van 1.000 W zo’n 8 kWh, een DC-ventilator van 24 W ongeveer 0,2 kWh.',
         pl: 'Klimatyzator przenośny pobiera często od 800 do 1400 W, wentylator – od kilku watów do ok. 80 W. W ciągu 8 godzin klimatyzator o mocy 1000 W zużywa około 8 kWh, a wentylator DC o mocy 24 W około 0,2 kWh.',
+        sv: 'En portabel AC drar ofta 800–1 400 W, medan en fläkt drar från några få watt upp till cirka 80 W. Under 8 timmar förbrukar en AC på 1 000 W ungefär 8 kWh och en DC-fläkt på 24 W ungefär 0,2 kWh.',
+        us: 'A portable AC typically draws 800 to 1,400 W, versus a few watts up to about 80 W for a fan. Over 8 hours, a 1,000 W unit uses about 8 kWh, while a 24 W DC fan uses about 0.2 kWh. At an example rate of 20 cents per kWh, that\'s about $1.60 versus about 4 cents (check the rate on your utility bill).',
+        ca: 'A portable AC typically draws 800 to 1,400 W, versus a few watts up to about 80 W for a fan. Over 8 hours, a 1,000 W unit uses about 8 kWh, while a 24 W DC fan uses about 0.2 kWh.',
       },
     },
     {
@@ -1000,6 +1408,9 @@ export const article: BlogArticle = {
         it: 'Si può usare un climatizzatore portatile senza tubo di scarico?',
         nl: 'Kun je een mobiele airco zonder afvoerslang gebruiken?',
         pl: 'Czy można używać klimatyzatora przenośnego bez węża odprowadzającego?',
+        sv: 'Kan man använda en portabel AC utan utblåsslang?',
+        us: 'Can you use a portable AC without an exhaust hose?',
+        ca: 'Can you use a portable AC without an exhaust hose?',
       },
       answer: {
         fr: "Non. Un climatiseur à compresseur doit rejeter la chaleur dehors. Sans gaine, cette chaleur reste dans la pièce et l'effet de refroidissement est annulé. Les appareils vendus « sans gaine » sont en général des rafraîchisseurs évaporatifs.",
@@ -1009,6 +1420,9 @@ export const article: BlogArticle = {
         it: 'No. Un climatizzatore a compressore deve espellere il calore all’esterno. Senza tubo il calore resta nella stanza e annulla il raffreddamento. Gli apparecchi venduti «senza tubo» sono di solito raffrescatori evaporativi.',
         nl: 'Nee. Een airco met compressor moet de warmte naar buiten afvoeren. Zonder slang blijft die warmte in de kamer en valt de koeling weg. Toestellen die als „zonder slang” worden verkocht, zijn meestal verdampingskoelers.',
         pl: 'Nie. Klimatyzator ze sprężarką musi wyrzucać ciepło na zewnątrz. Bez węża to ciepło zostaje w pomieszczeniu, a efekt chłodzenia znika. Urządzenia sprzedawane jako „bez węża” to zazwyczaj schładzacze ewaporacyjne.',
+        sv: 'Nej. En AC med kompressor måste släppa ut värmen utomhus. Utan slang stannar värmen kvar i rummet, och då går kyleffekten förlorad. Apparater som säljs som ”utan slang” är oftast luftkylare.',
+        us: 'No. An air conditioner with a compressor has to push heat outside. Without a hose, that heat stays in the room and cancels out the cooling. Devices sold as "hoseless" are usually evaporative (swamp) coolers.',
+        ca: 'No. A compressor air conditioner has to push heat outside. Without a hose, that heat stays in the room and cancels the cooling. Devices sold as "hoseless" are usually evaporative coolers.',
       },
     },
     {
@@ -1019,7 +1433,10 @@ export const article: BlogArticle = {
         es: '¿Qué aparato elegir para dormir sin ruido?',
         it: 'Quale apparecchio scegliere per dormire in silenzio?',
         nl: 'Welk apparaat kies je om rustig te slapen?',
-        pl: 'Które urządzenie wybrać, by spać w ciszy?',
+        pl: 'Co wybrać, żeby spać w ciszy?',
+        sv: 'Vilken apparat ska jag välja för att sova i lugn och ro?',
+        us: 'What\'s the quietest way to stay cool while you sleep?',
+        ca: 'Which device is best for sleeping quietly?',
       },
       answer: {
         fr: "Par chaleur modérée, un ventilateur à moteur DC comme le Xiaomi Smart Standing Fan 2 Pro ou le Duux Whisper Flex 2 Smart est très discret à basse vitesse. Pour vraiment refroidir une chambre sans le bruit d'un monobloc, le Midea PortaSplit garde son compresseur à l'extérieur.",
@@ -1028,7 +1445,10 @@ export const article: BlogArticle = {
         es: 'Con calor moderado, un ventilador DC como el Xiaomi Smart Standing Fan 2 Pro o el Duux Whisper Flex 2 Smart es muy silencioso a baja velocidad. Para enfriar de verdad un dormitorio sin el ruido de un monobloque, el Midea PortaSplit deja el compresor fuera.',
         it: 'Con caldo moderato, un ventilatore DC come lo Xiaomi Smart Standing Fan 2 Pro o il Duux Whisper Flex 2 Smart è molto silenzioso a bassa velocità. Per raffreddare davvero una camera senza il rumore di un monoblocco, il Midea PortaSplit tiene il compressore all’esterno.',
         nl: 'Bij gematigde warmte is een DC-ventilator zoals de Xiaomi Smart Standing Fan 2 Pro of de Duux Whisper Flex 2 Smart erg stil op lage stand. Om een slaapkamer echt te koelen zonder monoblock-geluid houdt de Midea PortaSplit de compressor buiten.',
-        pl: 'Przy umiarkowanym upale wentylator z silnikiem DC, taki jak Xiaomi Smart Standing Fan 2 Pro lub Duux Whisper Flex 2 Smart, jest bardzo dyskretny na niskich obrotach. Aby naprawdę schłodzić sypialnię bez hałasu monobloku, Midea PortaSplit trzyma sprężarkę na zewnątrz.',
+        pl: 'Przy umiarkowanym upale wentylator z silnikiem DC, taki jak Xiaomi Smart Standing Fan 2 Pro lub Duux Whisper Flex 2 Smart, pracuje na niskich obrotach bardzo cicho. Jeśli chcesz naprawdę schłodzić sypialnię bez hałasu monobloku, wybierz Midea PortaSplit, którego sprężarka pracuje na zewnątrz.',
+        sv: 'När värmen är måttlig är en fläkt med DC-motor, som Xiaomi Smart Standing Fan 2 Pro eller Duux Whisper Flex 2 Smart, mycket tyst på låg hastighet. Vill du verkligen kyla ett sovrum utan ljudet från en monoblockmodell passar Midea PortaSplit, som har kompressorn utomhus.',
+        us: 'In moderate heat, a DC fan such as the Xiaomi Smart Standing Fan 2 Pro or the Duux Whisper Flex 2 Smart is very quiet at low speed. To actually cool a bedroom without the noise of a single-unit portable AC, the Midea PortaSplit keeps its compressor outside.',
+        ca: 'In moderate heat, a DC fan such as the Xiaomi Smart Standing Fan 2 Pro or the Duux Whisper Flex 2 Smart is very quiet at low speed. To actually cool a bedroom without the noise of a single-unit portable, the Midea PortaSplit keeps its compressor outside.',
       },
     },
     {
@@ -1040,6 +1460,9 @@ export const article: BlogArticle = {
         it: 'Il raffrescatore evaporativo è una buona alternativa?',
         nl: 'Is een luchtkoeler een goed alternatief?',
         pl: 'Czy schładzacz powietrza to dobra alternatywa?',
+        sv: 'Är en luftkylare ett bra alternativ?',
+        us: 'Is an evaporative (swamp) cooler a good alternative?',
+        ca: 'Is an evaporative cooler a good alternative?',
       },
       answer: {
         fr: "En climat sec et dans une pièce aérée, il apporte un léger rafraîchissement pour une consommation modérée. En climat humide, il ajoute de l'humidité et devient vite inconfortable. Il ne remplace pas un climatiseur pendant une canicule.",
@@ -1048,7 +1471,10 @@ export const article: BlogArticle = {
         es: 'En clima seco y en una estancia ventilada, refresca un poco con un consumo moderado. En clima húmedo añade humedad y resulta incómodo enseguida. No sustituye a un aire acondicionado en una ola de calor.',
         it: 'Con clima secco e stanza arieggiata dà un leggero raffrescamento con consumi moderati. Con clima umido aggiunge umidità e diventa presto fastidioso. Non sostituisce un climatizzatore durante un’ondata di calore.',
         nl: 'In een droog klimaat en een geventileerde kamer geeft hij wat verkoeling bij een gematigd verbruik. In een vochtig klimaat voegt hij vocht toe en wordt hij snel onaangenaam. Tijdens een hittegolf vervangt hij geen airco.',
-        pl: 'W suchym klimacie i przewietrzanym pomieszczeniu daje lekkie ochłodzenie przy umiarkowanym zużyciu energii. W wilgotnym klimacie dodaje wilgoci i szybko staje się niewygodny. Nie zastępuje klimatyzatora podczas fali upałów.',
+        pl: 'W suchym klimacie i przewietrzanym pomieszczeniu daje lekkie ochłodzenie przy umiarkowanym zużyciu prądu. W wilgotnym klimacie podnosi wilgotność powietrza, przez co szybko robi się duszno. Podczas fali upałów nie zastąpi klimatyzatora.',
+        sv: 'I torrt klimat och i ett välventilerat rum ger den lite svalka med måttlig elförbrukning. I fuktigt klimat tillför den fukt, och då blir det snabbt obehagligt. Under en värmebölja ersätter den inte en AC.',
+        us: 'In a dry climate and a well-ventilated room, it gives a little cooling for moderate power use. In a humid climate it adds moisture and quickly gets uncomfortable. It\'s no substitute for an air conditioner in a heat wave.',
+        ca: 'In a dry climate and a ventilated room, it gives a little cooling for moderate power use. In a humid climate it adds moisture and quickly becomes uncomfortable. It doesn\'t replace an air conditioner in a heat wave.',
       },
     },
     {
@@ -1060,6 +1486,9 @@ export const article: BlogArticle = {
         it: 'Che potenza serve per una camera da 15 m²?',
         nl: 'Welk vermogen heeft een airco nodig voor een slaapkamer van 15 m²?',
         pl: 'Jaka moc klimatyzatora do sypialni 15 m²?',
+        sv: 'Hur stor AC behöver jag för ett sovrum på 15 m²?',
+        us: 'What size AC do I need for a 160 sq ft bedroom?',
+        ca: 'What size AC do I need for a 15 m² (160 sq. ft.) bedroom?',
       },
       answer: {
         fr: "Comptez en général 7 000 à 9 000 BTU/h pour une pièce jusqu'à 15 m². Prévoyez davantage si la chambre est sous les toits, très vitrée ou exposée plein sud ou ouest.",
@@ -1068,7 +1497,10 @@ export const article: BlogArticle = {
         es: 'Como norma, calcula entre 7.000 y 9.000 BTU/h para una estancia de hasta 15 m². Elige más potencia si el dormitorio está bajo cubierta, tiene mucho cristal o da al sur o al oeste.',
         it: 'In genere servono da 7.000 a 9.000 BTU/h per una stanza fino a 15 m². Prevedete di più se la camera è sottotetto, molto vetrata o esposta a sud o a ovest.',
         nl: 'Reken doorgaans op 7.000 tot 9.000 BTU/h voor een kamer tot 15 m². Kies meer vermogen als de slaapkamer onder het dak ligt, veel glas heeft of op het zuiden of westen ligt.',
-        pl: 'Zwykle przyjmuje się 7000–9000 BTU/h dla pomieszczenia do 15 m². Przewidź więcej, jeśli sypialnia jest na poddaszu, mocno przeszklona lub wystawiona na południe czy zachód.',
+        pl: 'Zwykle przyjmuje się 7000–9000 BTU/h na pomieszczenie do 15 m². Jeśli sypialnia jest na poddaszu, ma duże przeszklenia albo okna na południe lub zachód, wybierz mocniejsze urządzenie.',
+        sv: 'Räkna i regel med 7 000–9 000 BTU/h för ett rum upp till 15 m². Välj högre effekt om sovrummet ligger direkt under taket, har mycket glas eller vetter mot söder eller väster.',
+        us: 'As a rule, allow 7,000 to 9,000 BTU/h for a room up to about 160 sq ft (15 m²). Go higher if the bedroom is right under the roof, has lots of glass or faces south or west.',
+        ca: 'As a rule, allow 7,000 to 9,000 BTU/h for a room up to 15 m² (160 sq. ft.). Go higher if the bedroom is under the roof, has lots of glass or faces south or west.',
       },
     },
   ],

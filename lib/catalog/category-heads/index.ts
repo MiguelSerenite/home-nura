@@ -5,6 +5,9 @@ import { ES_HEADS } from './es'
 import { IT_HEADS } from './it'
 import { NL_HEADS } from './nl'
 import { PL_HEADS } from './pl'
+import { SV_HEADS } from './sv'
+import { US_HEADS } from './us'
+import { CA_HEADS } from './ca'
 import { HEAD_LOCALES, type CategoryHead, type CategoryHeads, type HeadLocale } from './types'
 
 export { HEAD_LOCALES, type CategoryHead, type CategoryHeads, type HeadLocale }
@@ -17,6 +20,9 @@ export const CATEGORY_HEADS: Readonly<Record<HeadLocale, CategoryHeads>> = {
   it: IT_HEADS,
   nl: NL_HEADS,
   pl: PL_HEADS,
+  sv: SV_HEADS,
+  us: US_HEADS,
+  ca: CA_HEADS,
 }
 
 function isHeadLocale(value: string): value is HeadLocale {
@@ -25,5 +31,6 @@ function isHeadLocale(value: string): value is HeadLocale {
 
 /** The market-written head of a category hub, or undefined when none exists yet. */
 export function getCategoryHead(categorySlug: string, lang: string): CategoryHead | undefined {
-  return isHeadLocale(lang) ? CATEGORY_HEADS[lang][categorySlug] : undefined
+  // `?.`: a locale whose heads are not written yet falls back to the template.
+  return isHeadLocale(lang) ? CATEGORY_HEADS[lang]?.[categorySlug] : undefined
 }

@@ -21,6 +21,9 @@ const LABELS: Record<string, { title: string; bottomTitle: string; button: strin
   it: { title: 'I modelli citati in questa guida', bottomTitle: 'Le nostre raccomandazioni', button: 'Vedi su Amazon', disclosure: 'Link di affiliazione Amazon: riceviamo una commissione senza costi aggiuntivi per te.' },
   nl: { title: 'De modellen uit deze gids', bottomTitle: 'Onze aanbevelingen', button: 'Bekijk op Amazon', disclosure: 'Amazon-affiliatelinks: wij ontvangen een commissie, zonder extra kosten voor jou.' },
   pl: { title: 'Modele wymienione w tym poradniku', bottomTitle: 'Nasze rekomendacje', button: 'Zobacz na Amazon', disclosure: 'Linki afiliacyjne Amazon: otrzymujemy prowizję, bez dodatkowych kosztów dla Ciebie.' },
+  sv: { title: 'Modeller som nämns i guiden', bottomTitle: 'Våra rekommendationer', button: 'Visa på Amazon', disclosure: 'Affiliatelänkar till Amazon: vi får provision, utan extra kostnad för dig.' },
+  us: { title: 'Models mentioned in this guide', bottomTitle: 'Our recommendations', button: 'View on Amazon', disclosure: 'Amazon affiliate links: we earn a commission at no extra cost to you.' },
+  ca: { title: 'Models mentioned in this guide', bottomTitle: 'Our recommendations', button: 'View on Amazon', disclosure: 'Amazon affiliate links: we earn a commission at no extra cost to you.' },
 }
 
 /**

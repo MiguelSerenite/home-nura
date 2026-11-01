@@ -1,0 +1,331 @@
+import type { CategoryHeads } from './types'
+
+/**
+ * United States (en-US).
+ * Keywords follow what US shoppers type: "super-automatic espresso machine",
+ * "robot vacuum and mop combo", "diy home security system", "smart sprinkler
+ * controller", "home battery backup"… "smart" replaces "connected", units and
+ * spelling are American, and nothing claims a model is sold in the US.
+ * Titles say "compared" and "picks", never the lab word:
+ * Home Nura compares on documentation.
+ */
+export const US_HEADS: CategoryHeads = {
+  "airfryers": {
+    keyword: "best air fryer",
+    title: "Best Air Fryers of 2026: 3 Picks, Compact to Family-Size",
+    h1: "The Best Air Fryers of 2026, From Compact to Family-Size XXL",
+    description: "Philips, Cosori or Xiaomi? We compare capacity, cooking results, app and cleanup to find the right air fryer for your household, with our 3 picks and FAQ.",
+  },
+  "multicuiseurs": {
+    keyword: "best multicooker",
+    title: "Best Multicookers of 2026: 3 Pressure & Slow Cooker Picks",
+    h1: "The Best Multicookers of 2026: Pressure Cook, Slow Cook and Sear in One Pot",
+    description: "One pot to pressure cook and slow cook: we compare Ninja Foodi, Instant Pot and Moulinex Cookeo on capacity, presets and app, with our 3 picks and FAQ.",
+  },
+  "cafetieres": {
+    keyword: "super-automatic espresso machine",
+    title: "Best Super-Automatic Espresso Machines of 2026: 3 Picks",
+    h1: "The Best Super-Automatic Espresso Machines of 2026, Compared",
+    description: "Fresh beans, ground for every cup: we compare De'Longhi, Philips and Krups machines with built-in grinders on milk system, cleaning and app, with 3 picks.",
+  },
+  "balances": {
+    keyword: "smart kitchen scale",
+    title: "Best Smart Kitchen Scales 2026: Digital Food Scale Picks",
+    h1: "The Best Smart Kitchen Scales of 2026, With and Without an App",
+    description: "Weigh to the gram and track calories and macros: we compare Etekcity, Renpho and Beurer food scales on accuracy, app and capacity, with 3 picks and FAQ.",
+  },
+  "thermometres-viande": {
+    keyword: "wireless meat thermometer",
+    title: "Best Wireless Meat Thermometers of 2026: 3 Grilling Picks",
+    h1: "The Best Wireless Meat Thermometers of 2026 for the Grill, Smoker and Oven",
+    description: "Perfectly cooked meat without lifting the lid: we compare MEATER and Inkbird on wireless range, number of probes and app alerts, with our 3 picks and FAQ.",
+  },
+  "prises-connectees": {
+    keyword: "best smart plug",
+    title: "Best Smart Plugs of 2026: Alexa, Google & HomeKit Picks",
+    h1: "The Best Smart Plugs of 2026, With and Without Energy Monitoring",
+    description: "Switch appliances from your phone and see how much power they draw: we compare TP-Link Tapo and Meross on energy monitoring, app and HomeKit, with 3 picks.",
+  },
+  "thermostats": {
+    keyword: "best smart thermostat",
+    title: "Best Smart Thermostats of 2026: For Boilers & Heat Pumps",
+    h1: "The Best Smart Thermostats of 2026 for Boilers and Heat Pumps",
+    description: "Will it work with your boiler or heat pump? We compare tado, Netatmo and Honeywell Home on compatibility, OpenTherm support and app, with 3 picks and FAQ.",
+  },
+  "compteurs-energie": {
+    keyword: "home energy monitor",
+    title: "Best Home Energy Monitors of 2026: 3 Real-Time Picks",
+    h1: "The Best Home Energy Monitors of 2026 to Track Your Electricity Use Live",
+    description: "See what your home uses and sends back to the grid, live: we compare Shelly CT clamp meters and more on accuracy, installation and app, with our 3 picks.",
+  },
+  "solaire-balcon": {
+    keyword: "balcony solar panel",
+    title: "Best Balcony Solar Panels of 2026: Plug-In Kits Compared",
+    h1: "The Best Plug-In Balcony Solar Kits of 2026, With or Without a Battery",
+    description: "We compare 800 W plug-in solar kits from Hoymiles, Anker SOLIX and EcoFlow on output, battery and setup. Rules vary by state and utility, so check first.",
+  },
+  "batteries-domestiques": {
+    keyword: "home battery backup",
+    title: "Best Home Battery Backup Systems 2026: Solar Storage Picks",
+    h1: "The Best Home Solar Batteries of 2026, Plug-In and Hardwired",
+    description: "Store solar power for evenings and outages: we compare Anker SOLIX, Marstek and Tesla Powerwall 3 on capacity, output and installation, with our 3 picks.",
+  },
+  "eclairage-connecte": {
+    keyword: "best smart bulbs",
+    title: "Best Smart Bulbs of 2026: Our 3 Picks, Hub or No Hub",
+    h1: "The Best Smart Bulbs and LED Light Strips of 2026",
+    description: "Color, dimming and schedules from your phone or voice: we compare Philips Hue, Tapo and Govee on hub, app and Matter support, with our 3 picks and FAQ.",
+  },
+  "interrupteurs": {
+    keyword: "smart light switch",
+    title: "Best Smart Light Switches 2026: Wired, Relay or Wireless",
+    h1: "The Best Smart Light Switches of 2026: Wall Switches, Relays and Remotes",
+    description: "Smarter lights without replacing every bulb: we compare Aqara, Shelly and Philips Hue on wiring, neutral wire and app, with our 3 picks and FAQ.",
+  },
+  "volets-stores": {
+    keyword: "smart blinds",
+    title: "Best Smart Blinds & Shutters 2026: Wired and Solar Motors",
+    h1: "The Best Smart Rolling Shutter and Blind Motors of 2026",
+    description: "Open and close shutters on a schedule or by voice: we compare Somfy io, Somfy RTS and VELUX solar motors on control, installation and app, with 3 picks.",
+  },
+  "capteurs-qualite-air": {
+    keyword: "indoor air quality monitor",
+    title: "Best Indoor Air Quality Monitors 2026: 3 CO2 Monitor Picks",
+    h1: "The Best Indoor Air Quality Monitors of 2026: CO2, Radon and Particles",
+    description: "Know when to open a window: we compare Airthings, Netatmo and Aranet4 on CO2 accuracy, radon, fine particles and app, with our 3 picks and FAQ.",
+  },
+  "detecteurs-fuite-eau": {
+    keyword: "water leak detector",
+    title: "Best Water Leak Detectors of 2026: Alerts & Auto Shutoff",
+    h1: "The Best Smart Water Leak Detectors of 2026, With Alerts and Auto Shutoff",
+    description: "Catch a leak before it ruins the floor: we compare Aqara and Shelly sensors and an auto shutoff valve on alerts, hub and battery, with 3 picks and FAQ.",
+  },
+  "hubs-domotique": {
+    keyword: "best smart home hub",
+    title: "Best Smart Home Hubs of 2026: 3 Picks for Matter & Zigbee",
+    h1: "The Best Smart Home Hubs of 2026: Homey, Aqara and Home Assistant",
+    description: "One app to run all your devices: we compare Homey Pro, Aqara Hub M3 and Home Assistant Green on Matter, Zigbee and ease of use, with our 3 picks and FAQ.",
+  },
+  "bornes-recharge-ve": {
+    keyword: "home ev charger",
+    title: "Best Home EV Chargers of 2026: 3 Smart Wall Charger Picks",
+    h1: "The Best Smart Home EV Chargers of 2026",
+    description: "Charge overnight on a time-of-use rate plan: we compare Wallbox, Easee and Zaptec smart chargers on power, load balancing and app, with 3 picks and FAQ.",
+  },
+  "sonnettes-video": {
+    keyword: "best video doorbell",
+    title: "Best Video Doorbells of 2026: 3 Picks With No Subscription",
+    h1: "The Best Video Doorbells of 2026, No Subscription Needed",
+    description: "See who's at the door without a monthly fee: we compare Eufy, TP-Link Tapo and Aqara doorbell cameras on video, local storage and wiring, with our 3 picks.",
+  },
+  "cameras-interieur": {
+    keyword: "indoor security camera",
+    title: "Best Indoor Security Cameras of 2026: Local Storage Picks",
+    h1: "The Best Indoor Security Cameras of 2026 for Home and Pets",
+    description: "Watch your home and pets with no monthly fee: we compare Eufy, Tapo and Reolink on image quality, pan and tilt, and microSD or NAS storage, with 3 picks.",
+  },
+  "cameras-exterieur": {
+    keyword: "outdoor security camera",
+    title: "Best Outdoor Security Cameras With No Subscription 2026",
+    h1: "The Best Outdoor Security Cameras of 2026, No Subscription Needed",
+    description: "Wireless or PoE cameras for the driveway and yard, no monthly fee: we compare eufyCam, Tapo and Reolink on night vision, power and storage, with 3 picks.",
+  },
+  "serrures-connectees": {
+    keyword: "best smart lock",
+    title: "Best Smart Locks of 2026: Our 3 Keyless Entry Picks",
+    h1: "The Best Smart Locks of 2026 for Keyless Entry",
+    description: "Unlock by phone, keypad or fingerprint: we compare Nuki and Aqara on fit, battery and Apple Home or Alexa. Most US front doors use a deadbolt: check yours.",
+  },
+  "alarmes": {
+    keyword: "diy home security system",
+    title: "Best DIY Home Security Systems of 2026: No Monthly Fee",
+    h1: "The Best Wireless Home Security Systems of 2026, No Monthly Fee Required",
+    description: "Protect your home without a monitoring contract: we compare Ajax, Somfy and Ring security systems on sensors, siren and app alerts, with 3 picks and FAQ.",
+  },
+  "detecteurs-fumee-co": {
+    keyword: "smart smoke detector",
+    title: "Best Smart Smoke Detectors & CO Alarms of 2026: 3 Picks",
+    h1: "The Best Smart Smoke and Carbon Monoxide Detectors of 2026",
+    description: "A phone alert even when you're out: we compare Netatmo and X-Sense smoke and CO alarms on certification, 10-year battery and setup, with 3 picks and FAQ.",
+  },
+  "detecteurs-mouvement": {
+    keyword: "smart motion sensor",
+    title: "Best Smart Motion Sensors of 2026: PIR & Presence Picks",
+    h1: "The Best Smart Motion and Presence Sensors of 2026",
+    description: "Lights that turn on when you walk in and off when you leave: we compare Aqara and IKEA sensors, PIR and mmWave, on range, hub and battery, with 3 picks.",
+  },
+  "trackers-objets": {
+    keyword: "bluetooth tracker",
+    title: "Best Bluetooth Trackers of 2026: For iPhone and Android",
+    h1: "The Best Bluetooth Trackers of 2026 to Find Keys, Bags and Bikes",
+    description: "Find your keys, bag or bike from your phone: we compare Apple AirTag, Chipolo and Ugreen on Find My and Google support, range and battery, with 3 picks.",
+  },
+  "interphones": {
+    keyword: "video intercom system",
+    title: "Best Video Intercom Systems 2026: For Houses & Apartments",
+    h1: "The Best Smart Video Intercoms of 2026 for Houses and Apartments",
+    description: "Answer the door from your phone: we compare Philips WelcomeEye, BTicino and Ring Intercom on wiring, video and app, plus a no-rewire option, with 3 picks.",
+  },
+  "coffres-forts-connectes": {
+    keyword: "biometric safe",
+    title: "Best Biometric Safes of 2026: Fingerprint and App Picks",
+    h1: "The Best Biometric and Smart Home Safes of 2026",
+    description: "Keep passports, cash and jewelry locked away: we compare Burg-Wächter and Yale safes on fingerprint, keypad, app alerts and anchoring, with our 3 picks.",
+  },
+  "purificateurs-air": {
+    keyword: "best air purifier",
+    title: "Best Air Purifiers 2026: 3 Picks for Allergies and Sleep",
+    h1: "The Best Air Purifiers of 2026 for Allergies and Quiet Bedrooms",
+    description: "Less dust, pollen and pet dander in the air: we compare Levoit and Blueair HEPA purifiers on room size, CADR, filters and nighttime noise, with 3 picks.",
+  },
+  "humidificateurs": {
+    keyword: "best humidifier",
+    title: "Best Humidifiers of 2026: Our 3 Smart Picks Compared",
+    h1: "The Best Smart Humidifiers of 2026 for Dry Winter Air",
+    description: "Dry throat or static in winter? We compare BONECO, Levoit and Dyson humidifiers on output, tank hygiene, noise and app control, with 3 picks and FAQ.",
+  },
+  "deshumidificateurs": {
+    keyword: "best dehumidifier",
+    title: "Best Dehumidifiers of 2026: Basements, Mold and Laundry",
+    h1: "The Best Dehumidifiers of 2026 for Basements, Mold and Drying Laundry",
+    description: "Condensation, mold or laundry to dry indoors? We compare Meaco, Comfee and Xiaomi on pints per day, noise and energy use, with our 3 picks and FAQ.",
+  },
+  "climatiseurs-mobiles": {
+    keyword: "best portable air conditioner",
+    title: "Best Portable Air Conditioners of 2026: Our 3 Picks",
+    h1: "The Best Portable Air Conditioners of 2026 for Bedrooms and Apartments",
+    description: "Cool a bedroom or apartment without a permanent install: we compare Midea and Trotec portable ACs on cooling power, noise and Wi-Fi, with 3 picks and FAQ.",
+  },
+  "ventilateurs": {
+    keyword: "smart fan",
+    title: "Best Smart Fans of 2026: Bladeless, Pedestal and 3-in-1",
+    h1: "The Best Smart Fans of 2026: Quiet Bladeless, Pedestal and 3-in-1 Models",
+    description: "A quiet breeze you control from your phone: we compare Dyson and Xiaomi fans on airflow, noise and air-purifying or heating extras, with 3 picks and FAQ.",
+  },
+  "chauffages-appoint": {
+    keyword: "smart space heater",
+    title: "Best Smart Space Heaters & Wall Heaters of 2026: 3 Picks",
+    h1: "The Best Smart Space Heaters and Electric Wall Heaters of 2026",
+    description: "Heat a room on a schedule from your phone: we compare Thermor and Sauter wall heaters and a freestanding Mill panel heater on comfort, thermostat and app.",
+  },
+  "stations-meteo": {
+    keyword: "home weather station",
+    title: "Best Home Weather Stations of 2026: 3 Wi-Fi Picks",
+    h1: "The Best Wi-Fi Home Weather Stations of 2026",
+    description: "Rain, wind and temperature from your own backyard: we compare Ecowitt, Bresser and Netatmo stations on sensors, accuracy and app, with our 3 picks and FAQ.",
+  },
+  "diffuseurs": {
+    keyword: "smart diffuser",
+    title: "Best Smart Diffusers 2026: 3 Essential Oil Diffuser Picks",
+    h1: "The Best Smart Essential Oil Diffusers of 2026",
+    description: "Scent a room on a schedule or by voice: we compare ultrasonic ASAKUKI and Maxcio diffusers and an Aromatherapy Associates nebulizer on tank, noise and app.",
+  },
+  "reveils-lumiere": {
+    keyword: "sunrise alarm clock",
+    title: "Best Sunrise Alarm Clocks of 2026: Wake-Up Lights Compared",
+    h1: "The Best Sunrise Alarm Clocks and Wake-Up Lights of 2026",
+    description: "Wake up to gradual light on winter mornings: we compare Philips and Lumie wake-up lights on brightness, sunrise and sunset modes, and sound, with 3 picks.",
+  },
+  "rideaux-automatises": {
+    keyword: "smart curtain motor",
+    title: "Best Smart Curtain Motors 2026: 3 No-Rewire Retrofit Picks",
+    h1: "The Best Smart Curtain Openers and Blind Motors of 2026",
+    description: "Open your curtains at sunrise, no rewiring needed: we compare SwitchBot, Aqara and Eve retrofit motors on rod fit, battery and Matter, with our 3 picks.",
+  },
+  "aspirateurs-robots": {
+    keyword: "best robot vacuum",
+    title: "Best Robot Vacuums of 2026: 3 Picks From Value to Pet Hair",
+    h1: "The Best Robot Vacuums of 2026, From Great Value to Pet Hair",
+    description: "Clean floors without lifting a finger: we compare Roborock and Dreame on suction, navigation, pet hair and self-emptying docks, with our 3 picks and FAQ.",
+  },
+  "aspirateurs-laveurs": {
+    keyword: "robot vacuum and mop combo",
+    title: "Best Robot Vacuum and Mop Combos 2026: All-in-One Docks",
+    h1: "The Best Robot Vacuum and Mop Combos of 2026 With Self-Cleaning Docks",
+    description: "It vacuums, mops and washes its own mop pads: we compare Dreame and Roborock 2-in-1 robots on mopping, dock features and hard floors, with our 3 picks.",
+  },
+  "laveurs-vitres": {
+    keyword: "window cleaning robot",
+    title: "Best Window Cleaning Robots of 2026: Our 3 Picks Compared",
+    h1: "The Best Window Cleaning Robots of 2026 for Framed or Frameless Glass",
+    description: "Clean high, hard-to-reach glass without a ladder: we compare Ecovacs Winbot, Hobot and Cecotec on suction safety, spray and frameless glass, with 3 picks.",
+  },
+  "aspirateurs-balais": {
+    keyword: "best cordless vacuum",
+    title: "Best Cordless Vacuums of 2026: Our 3 Stick Vacuum Picks",
+    h1: "The Best Cordless Stick Vacuums of 2026",
+    description: "Grab-and-go cleaning for the whole house: we compare Dyson, Samsung and Rowenta stick vacuums on suction, battery life and bin emptying, with our 3 picks.",
+  },
+  "nettoyeurs-vapeur": {
+    keyword: "best steam cleaner",
+    title: "Best Steam Cleaners of 2026: Canister and Steam Mop Picks",
+    h1: "The Best Steam Cleaners and Steam Mops of 2026",
+    description: "Clean floors, grout and bathrooms with just water: we compare Kärcher, Black+Decker and Bissell on heat-up time, tank size and attachments, with 3 picks.",
+  },
+  "fers-centrales-vapeur": {
+    keyword: "best steam generator iron",
+    title: "Best Steam Generator Irons of 2026: Our 3 Picks Compared",
+    h1: "The Best Steam Generator Irons of 2026",
+    description: "Faster ironing with powerful steam: we compare Philips PerfectCare and Laurastar steam stations on steam pressure, soleplate and descaling, with 3 picks.",
+  },
+  "lave-vaisselle-connectes": {
+    keyword: "smart dishwasher",
+    title: "Best Smart Dishwashers of 2026: Our 3 Wi-Fi Picks",
+    h1: "The Best Smart Dishwashers of 2026",
+    description: "Cleaner dishes and remote control from your phone: we compare Bosch, Haier and Miele on cleaning, noise, drying, auto-dosing and app, with our 3 picks.",
+  },
+  "lave-linge-connectes": {
+    keyword: "smart washer",
+    title: "Best Smart Washers 2026: Front-Loaders and Washer-Dryers",
+    h1: "The Best Smart Washers and Washer-Dryer Combos of 2026",
+    description: "Large drums, quiet spins and remote start: we compare Bosch, Haier and LG on capacity, energy use and app, including a washer-dryer combo, with 3 picks.",
+  },
+  "tondeuses-robots": {
+    keyword: "best robot lawn mower",
+    title: "Best Robot Lawn Mowers of 2026: 3 Wire-Free Picks",
+    h1: "The Best Wire-Free Robot Lawn Mowers of 2026",
+    description: "A neat lawn with no boundary wire to lay: we compare Ecovacs GOAT, Segway Navimow and Mammotion LUBA on RTK, slopes and lawn size, with 3 picks and FAQ.",
+  },
+  "arrosage-connecte": {
+    keyword: "smart sprinkler controller",
+    title: "Best Smart Sprinkler Controllers and Hose Timers 2026",
+    h1: "The Best Smart Hose Timers and Sprinkler Controllers of 2026",
+    description: "Water the yard on a schedule, even on vacation: we compare GARDENA smart and Eve Aqua hose timers and controllers on app, weather and setup, with 3 picks.",
+  },
+  "eclairage-exterieur": {
+    keyword: "smart outdoor lighting",
+    title: "Best Smart Outdoor Lighting of 2026: Solar and Wired Picks",
+    h1: "The Best Smart Outdoor and Solar Lights of 2026 for the Yard and Driveway",
+    description: "Light the yard, path and driveway from your phone: we compare eufy, Govee and Philips Hue on solar or wired power, brightness and app, with our 3 picks.",
+  },
+  "portails-garages": {
+    keyword: "smart garage door opener",
+    title: "Best Smart Garage Door Openers & Gate Openers 2026",
+    h1: "The Best Smart Garage Door Openers and Gate Openers of 2026",
+    description: "Open the garage door or driveway gate from your phone: we compare Somfy, Meross and Hörmann on motor type, retrofit install and app control, with 3 picks.",
+  },
+  "robots-piscine": {
+    keyword: "best robotic pool cleaner",
+    title: "Best Robotic Pool Cleaners of 2026: Corded and Cordless",
+    h1: "The Best Robotic Pool Cleaners of 2026, Corded and Cordless",
+    description: "A clean pool floor, walls and waterline with no effort: we compare Dolphin and Beatbot on coverage, filters and corded or cordless, with 3 picks and FAQ.",
+  },
+  "barbecues-connectes": {
+    keyword: "smart grill",
+    title: "Best Smart Grills of 2026: Pellet, Gas and Electric Picks",
+    h1: "The Best Smart Grills of 2026: Pellet, Gas and Electric",
+    description: "Control heat and cooking from your phone: we compare Weber and Ninja Woodfire smart grills on fuel type, temperature control and app, with 3 picks and FAQ.",
+  },
+  "stations-recharge-outdoor": {
+    keyword: "portable power station",
+    title: "Best Portable Power Stations of 2026: Our 3 Picks Compared",
+    h1: "The Best Portable Power Stations of 2026 for Camping and Power Outages",
+    description: "Power for camping, vans and power outages: we compare EcoFlow and BLUETTI on capacity, output, recharge speed and solar input, with our 3 picks and FAQ.",
+  },
+  "alarmes-exterieures": {
+    keyword: "outdoor motion sensor alarm",
+    title: "Best Outdoor Motion Sensor Alarms of 2026: Our 3 Picks",
+    h1: "The Best Outdoor Motion Sensors and Alarm Sirens of 2026",
+    description: "Know when someone's in the yard or on the driveway: we compare Ajax, Ring and Hue sensors and sirens on range, weatherproofing and app, with our 3 picks.",
+  },
+}

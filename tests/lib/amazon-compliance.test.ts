@@ -7,7 +7,7 @@ import AmazonDisclosure from '@/components/AmazonDisclosure'
 import { AMAZON_ASSOCIATE_DISCLOSURE } from '@/lib/affiliate-disclosure'
 import { getAllArticles } from '@/lib/blog'
 import { getArticleRecommendations } from '@/lib/blog/article-products'
-import { LANGUAGES } from '@/lib/i18n'
+import { LANGUAGES, type Lang } from '@/lib/i18n'
 import { getStaticProducts } from '@/lib/products'
 import { getSearchIndex } from '@/lib/search-index'
 import { getSmartKitchenProducts } from '@/lib/smart-kitchen-products'
@@ -130,6 +130,11 @@ describe('Amazon Associates disclosure', () => {
       nl: 'Als Amazon Associate verdien ik aan in aanmerking komende aankopen.',
       // affiliate-program.amazon.pl operating agreement, section 5.
       pl: 'Jestem Partnerem Amazon i otrzymuję wynagrodzenie z tytułu określonych zakupów dokonywanych za moim pośrednictwem.',
+      // affiliate-program.amazon.se operating agreement, section 5: English only.
+      sv: 'As an Amazon Associate I earn from qualifying purchases.',
+      // affiliate-program.amazon.com and associates.amazon.ca agreements, section 5.
+      us: 'As an Amazon Associate I earn from qualifying purchases.',
+      ca: 'As an Amazon Associate I earn from qualifying purchases.',
     })
   })
 
@@ -152,10 +157,10 @@ describe('store-neutral Amazon CTAs', () => {
   // Links go to amazon.fr (amazon.it on Italian pages) and Amazon Global
   // Earning sends each shopper to their own store, so no label may name a
   // specific store.
-  const STORE_NAME = /\bAmazon\.(?:fr|de|co\.uk|es|it|nl|com|be|pl|se)\b/i
+  const STORE_NAME = /\bAmazon\.(?:fr|de|co\.uk|es|it|nl|com|be|pl|se|ca)\b/i
 
   it('buy buttons say "Amazon" in every locale', () => {
-    const expected = {
+    const expected: Record<Lang, string> = {
       fr: 'Voir sur Amazon',
       de: 'Auf Amazon ansehen',
       en: 'View on Amazon',
@@ -163,6 +168,9 @@ describe('store-neutral Amazon CTAs', () => {
       es: 'Ver en Amazon',
       nl: 'Bekijk op Amazon',
       pl: 'Zobacz na Amazon',
+      sv: 'Visa på Amazon',
+      us: 'View on Amazon',
+      ca: 'View on Amazon',
     }
     for (const lang of LANGUAGES) {
       const dict = JSON.parse(readFileSync(join(ROOT, 'dictionaries', `${lang}.json`), 'utf8'))

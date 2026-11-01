@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/blog'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
-import { LANGUAGES, type Lang } from '@/lib/i18n'
+import { HTML_LANG, LANGUAGES, type Lang } from '@/lib/i18n'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import { AUTHORS_UPDATED_ISO } from '@/lib/authors'
 import { categoryModifiedIso } from '@/lib/catalog/category-faqs'
@@ -125,8 +125,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     meta: Omit<MetadataRoute.Sitemap[number], 'url' | 'alternates' | 'images'>,
     images?: PageImages,
   ): MetadataRoute.Sitemap => {
+    // Keyed by language tag (en-US for /us, en-CA for /ca), never the market code.
     const languages: Record<string, string> = {
-      ...Object.fromEntries(langs.map((l) => [l, `${BASE_URL}/${l}${path}`])),
+      ...Object.fromEntries(langs.map((l) => [HTML_LANG[l], `${BASE_URL}/${l}${path}`])),
       'x-default': `${BASE_URL}/${langs.includes('fr') ? 'fr' : langs[0]}${path}`,
     }
     return langs.map((lang) => {

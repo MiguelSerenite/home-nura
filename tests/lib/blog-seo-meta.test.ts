@@ -60,8 +60,9 @@ describe('BLOG_SEO_META', () => {
 // Years before the current one: a "2024" in a SERP title reads as outdated.
 const STALE_YEAR = /\b20(?:2[0-5])\b/
 // We compare specifications and buyer feedback; we do not run lab tests.
+// Swedish: testad, testade, testat. Polish: przetestowane, testowany…
 const TESTED_CLAIM =
-  /(?<!\p{L})(?:tested|hands-on|testée?s?|getestet|getest|getoetst|probad[oa]s?|provat[oiae]|testat[oiae])(?!\p{L})/iu
+  /(?<!\p{L})(?:tested|hands-on|testée?s?|getestet|getest|getoetst|probad[oa]s?|provat[oiae]|testat[oiae]|testade?|testat|przetestowa\p{L}*|testowa\p{L}*)(?!\p{L})/iu
 
 function entries() {
   return Object.entries(BLOG_SEO_META).flatMap(([slug, perLang]) =>

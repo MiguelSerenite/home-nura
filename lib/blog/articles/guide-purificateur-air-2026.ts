@@ -19,6 +19,9 @@ export const article: BlogArticle = {
         it: 'Purificatore d\'aria moderno HEPA H13 in un soggiorno luminoso con indicatore di qualità dell\'aria',
         nl: 'Moderne HEPA H13 luchtreiniger in een lichte woonkamer met luchtkwaliteitsindicator',
         pl: 'Nowoczesny oczyszczacz powietrza z filtrem HEPA H13 w jasnym salonie, ze wskaźnikiem jakości powietrza',
+        sv: 'Modern luftrenare med HEPA H13-filter i ett ljust vardagsrum, med indikator för luftkvalitet',
+        us: 'Modern HEPA H13 air purifier with an air quality indicator in a bright living room',
+        ca: 'Modern HEPA H13 air purifier in a bright living room with air quality indicator',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Guida Completa Purificatore d\'Aria 2026: Qualità dell\'Aria e Allergie',
     nl: 'Luchtreiniger Koopgids 2026: Binnenluchtkwaliteit en Allergie',
     pl: 'Oczyszczacz powietrza 2026: kompletny poradnik – jakość powietrza w domu i alergie',
+    sv: 'Luftrenare 2026: komplett guide till inomhusluft och allergier',
+    us: 'Air Purifier Buying Guide 2026: Indoor Air Quality & Allergies',
+    ca: 'Complete Air Purifier Guide 2026: Indoor Air Quality & Allergies',
   },
   excerpt: {
     fr: 'Tout savoir sur les purificateurs d\'air en 2026 : filtres HEPA H13/H14, charbon actif, UV-C, CADR, bruit, entretien des filtres, meilleures marques et guide d\'achat par gamme pour lutter contre les allergies et la pollution intérieure.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: 'Todo sobre purificadores de aire en 2026: filtros HEPA H13/H14, carbón activo, UV-C, CADR, ruido, mantenimiento de filtros, mejores marcas y guía de compra por gama contra alergias y contaminación interior.',
     it: 'Tutto sui purificatori d\'aria nel 2026: filtri HEPA H13/H14, carbone attivo, UV-C, CADR, rumore, manutenzione dei filtri, migliori marche e guida all\'acquisto per fascia contro allergie e inquinamento domestico.',
     nl: 'Alles over luchtreinigers in 2026: HEPA H13/H14-filters, actieve kool, UV-C, CADR-waarden, geluidsniveau, filteronderhoud, topmerken en koopgids per segment tegen allergie en luchtvervuiling.',
-    pl: 'Wszystko o oczyszczaczach powietrza w 2026 roku: filtry HEPA H13/H14, węgiel aktywny, UV-C, CADR, hałas, wymiana filtrów, najlepsze marki i poradnik zakupowy według klasy urządzeń, które pomaga walczyć z alergiami i zanieczyszczeniem powietrza w domu.',
+    pl: 'Wszystko o oczyszczaczach powietrza w 2026 roku: filtry HEPA H13/H14, węgiel aktywny, UV-C, współczynnik CADR, hałas, konserwacja filtrów, najlepsze marki i poradnik zakupowy z podziałem na półki cenowe – by walczyć z alergiami i zanieczyszczeniem powietrza w domu.',
+    sv: 'Allt du behöver veta om luftrenare 2026: HEPA H13/H14-filter, aktivt kol, UV-C, CADR, ljudnivå, skötsel av filtren, de bästa märkena och en köpguide per prisklass för att motverka allergier och föroreningar i inomhusluften.',
+    us: 'Everything you need to know about air purifiers in 2026: HEPA H13/H14 filters, activated carbon, UV-C, CADR ratings, noise levels, filter maintenance, top brands and a buying guide by price range to fight allergies and indoor air pollution.',
+    ca: 'Everything you need to know about air purifiers in 2026: HEPA H13/H14 filters, activated carbon, UV-C, CADR ratings, noise levels, filter upkeep, top brands and a buying guide by price range to fight allergies and indoor pollution.',
   },
   content: {
     fr: `<h2>Introduction : pourquoi la qualité de l'air intérieur est un enjeu de santé en 2026</h2>
@@ -961,64 +970,64 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 <p><strong>Tip:</strong> mensen met hooikoorts hebben er baat bij hun luchtreiniger <strong>continu te laten draaien tijdens het pollenseizoen</strong>, in automatische modus. Buiten de pieken volstaan enkele uren per dag. Huisstofmijt is het hele jaar aanwezig, maar gedijt vooral in de herfst en winter in verwarmde, vochtige woningen. Deze periodes zijn indicatief en verschillen per regio en per jaar.</p>`,
-    pl: `<h2>Wstęp: dlaczego jakość powietrza w pomieszczeniach to kwestia zdrowia w 2026 roku</h2>
-<p>Zdecydowaną większość czasu spędzamy w pomieszczeniach, a powietrze, którym oddychamy w domu, bywa bardziej zanieczyszczone niż to na zewnątrz: amerykańska Agencja Ochrony Środowiska (EPA) podaje, że stężenie niektórych zanieczyszczeń wewnątrz budynków jest 2–5 razy wyższe. Pył drobny (PM2.5), lotne związki organiczne (LZO), alergeny (pyłki, roztocza, sierść zwierząt), pleśnie, formaldehyd z nowych mebli... Źródeł zanieczyszczeń w pomieszczeniach jest wiele i są podstępne.</p>
-<p>We Francji agencja <strong>ANSES</strong> już w 2014 roku zwracała uwagę na ogromne koszty zdrowotne i ekonomiczne zanieczyszczenia powietrza w pomieszczeniach. Alergie układu oddechowego dotyczą dużej i rosnącej części populacji Europy. W tej sytuacji oczyszczacz powietrza przestał być dodatkiem poprawiającym komfort, a stał się urządzeniem przydatnym na co dzień, uzupełniającym dobre wietrzenie.</p>
-<p>Ten kompletny poradnik wyjaśnia, jak działa oczyszczacz powietrza, jakie kryteria wziąć pod uwagę, na jakie marki zwrócić uwagę i jaką klasę urządzenia wybrać w 2026 roku. Opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Znajdziesz tu także nasze <a href="/pl/blog/comparatif-purificateur-air-allergie">porównanie najlepszych oczyszczaczy powietrza dla alergików</a> oraz analizę <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">klimatyzator przenośny czy wentylator</a>, która uzupełni Twój komfort w domu.</p>
+    pl: `<h2>Wstęp: dlaczego jakość powietrza w domu to w 2026 roku kwestia zdrowia</h2>
+<p>Zdecydowaną większość czasu spędzamy w pomieszczeniach, a powietrze, którym oddychamy w domu, często jest bardziej zanieczyszczone niż to na zewnątrz: amerykańska Agencja Ochrony Środowiska (EPA) podaje, że stężenie niektórych zanieczyszczeń bywa w budynkach od 2 do 5 razy wyższe. Pył zawieszony PM2.5, lotne związki organiczne (LZO), alergeny (pyłki, roztocza, sierść zwierząt), zarodniki pleśni, formaldehyd uwalniany przez nowe meble – źródeł zanieczyszczeń w domu jest wiele, a większość z nich trudno zauważyć.</p>
+<p>We Francji agencja ANSES już w 2014 roku zwracała uwagę na ogromne koszty zdrowotne i ekonomiczne, jakie niesie zanieczyszczenie powietrza w pomieszczeniach. Na alergie dróg oddechowych cierpi duża i wciąż rosnąca część mieszkańców Europy. Oczyszczacz powietrza przestał więc być dodatkiem dla wygody, a stał się urządzeniem przydatnym na co dzień – jako uzupełnienie regularnego wietrzenia.</p>
+<p>W tym poradniku wyjaśniamy, jak działa oczyszczacz powietrza, na które parametry zwrócić uwagę, jakie marki warto rozważyć i z jakiej półki cenowej wybierać w 2026 roku. Opieramy się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Zajrzyj też do naszego <a href="/pl/blog/comparatif-purificateur-air-allergie">zestawienia najlepszych oczyszczaczy powietrza dla alergików</a> i do <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">porównania klimatyzatora przenośnego z wentylatorem</a>, jeśli chcesz zadbać o komfort w całym domu.</p>
 
 <h2>Jak działa oczyszczacz powietrza?</h2>
 
-<h3>Filtr HEPA: absolutny wzorzec</h3>
-<p>Filtr <strong>HEPA (High Efficiency Particulate Air)</strong> to najskuteczniejsza i najlepiej sprawdzona technologia filtracji. Zgodnie z normą EN 1822 filtr HEPA H13 zatrzymuje <strong>co najmniej 99,95% cząstek</strong> o najbardziej przenikliwej wielkości (ok. 0,1–0,3 µm), a filtr H14 – 99,995%. To właśnie te cząstki są najtrudniejsze do zatrzymania, co oznacza, że w przypadku cząstek większych i mniejszych filtr jest jeszcze skuteczniejszy.</p>
-<p>Prawdziwy filtr HEPA to plisowany materiał filtracyjny z ultracienkich włókien szklanych, ułożony zygzakiem, aby zwiększyć powierzchnię filtracji. Zatrzymuje cząstki trzema mechanizmami: przechwytywaniem, uderzeniem bezwładnościowym i dyfuzją. <strong>Uważaj na oznaczenia „HEPA-like” lub „typu HEPA”</strong>, które nie gwarantują klasy H13/H14.</p>
+<h3>Filtr HEPA: niekwestionowany standard</h3>
+<p>Filtr <strong>HEPA (High Efficiency Particulate Air)</strong> to najskuteczniejsza i najlepiej sprawdzona technologia filtracji. Zgodnie z normą EN 1822 filtr HEPA H13 zatrzymuje <strong>co najmniej 99,95% cząstek</strong> o rozmiarze, który najłatwiej przenika przez filtr (ok. 0,1–0,3 µm), a filtr H14 – 99,995%. Właśnie takie cząstki najtrudniej zatrzymać, więc większe i mniejsze filtr wyłapuje jeszcze skuteczniej.</p>
+<p>Prawdziwy filtr HEPA to materiał z bardzo cienkich włókien szklanych, złożony w gęstą harmonijkę, dzięki czemu powierzchnia filtracji jest jak największa. Cząstki są wychwytywane na trzy sposoby: przez przechwytywanie, zderzenie bezwładnościowe i dyfuzję. <strong>Uważaj na oznaczenia „HEPA-like” lub „typu HEPA”</strong> – nie gwarantują one klasy H13/H14.</p>
 
-<h3>Filtr z węglem aktywnym: przeciw gazom i zapachom</h3>
-<p>Węgiel aktywny to forma węgla poddana obróbce tak, aby był wyjątkowo porowaty (od kilkuset do ponad tysiąca metrów kwadratowych powierzchni na gram). Adsorbuje <strong>lotne związki organiczne (LZO)</strong>, formaldehyd, zapachy z kuchni, dym papierosowy i niektóre gazy. Większość oczyszczaczy łączy prefiltr, filtr z węglem aktywnym i filtr HEPA w jednym wymiennym module.</p>
+<h3>Filtr z węglem aktywnym: na gazy i zapachy</h3>
+<p>Węgiel aktywny jest specjalnie przetwarzany tak, by był wyjątkowo porowaty: powierzchnia jednego grama wynosi od kilkuset do ponad tysiąca metrów kwadratowych. Pochłania (adsorbuje) <strong>lotne związki organiczne (LZO)</strong>, formaldehyd, zapachy kuchenne, dym papierosowy i niektóre gazy. W większości oczyszczaczy prefiltr, filtr węglowy i filtr HEPA tworzą jeden wymienny wkład.</p>
 
-<h3>Technologia UV-C: unieszkodliwianie mikroorganizmów</h3>
-<p>Niektóre oczyszczacze mają lampę UV-C emitującą promieniowanie ultrafioletowe o długości ok. 254 nm. Ta długość fali uszkadza DNA bakterii, wirusów i pleśni, uniemożliwiając im rozmnażanie. <strong>Skuteczność zależy od czasu ekspozycji</strong>: powietrze musi przepływać przed lampą dostatecznie wolno. W praktyce to uzupełnienie, a nie zamiennik filtra HEPA.</p>
+<h3>Technologia UV-C: unieszkodliwianie drobnoustrojów</h3>
+<p>Niektóre oczyszczacze mają lampę UV-C, która emituje promieniowanie ultrafioletowe o długości fali ok. 254 nm. Takie promieniowanie uszkadza DNA bakterii, wirusów i grzybów pleśniowych, przez co nie mogą się one namnażać. <strong>Skuteczność zależy od czasu naświetlania</strong>: powietrze musi przepływać obok lampy wystarczająco wolno. W praktyce lampa UV-C uzupełnia filtr HEPA, ale go nie zastępuje.</p>
 
 <h3>Jonizator: opinie są podzielone</h3>
-<p>Jonizator wytwarza jony ujemne, które przyczepiają się do zawieszonych w powietrzu cząstek, obciążają je i powodują ich opadanie na podłogę lub powierzchnie. <strong>Zaleta:</strong> cichy, bez filtra do wymiany. <strong>Wada:</strong> nie wszystkie cząstki zostają usunięte (osadzają się ponownie), a niektóre jonizatory wytwarzają ozon, który podrażnia drogi oddechowe. Sama jonizacja nie jest zalecana osobom uczulonym.</p>
+<p>Jonizator wytwarza jony ujemne, które osiadają na unoszących się w powietrzu cząstkach – te stają się cięższe i opadają na podłogę lub inne powierzchnie. <strong>Zaleta:</strong> cicha praca i brak filtra do wymiany. <strong>Wada:</strong> część cząstek nie zostaje usunięta, tylko osiada w pomieszczeniu, a niektóre jonizatory wytwarzają ozon, który podrażnia drogi oddechowe. Alergikom nie poleca się urządzeń, które działają wyłącznie na zasadzie jonizacji.</p>
 
 <h2>Najważniejsze kryteria wyboru oczyszczacza powietrza</h2>
 
 <h3>CADR (Clean Air Delivery Rate)</h3>
-<p>CADR to <strong>najważniejsze kryterium</strong>. Określa objętość powietrza oczyszczanego w ciągu godziny (w m³/h). Im wyższy CADR, tym szybciej oczyszczacz przetwarza powietrze w pomieszczeniu. Można go mierzyć osobno dla dymu, kurzu i pyłków.</p>
+<p>CADR to <strong>najważniejszy parametr</strong>. Określa, ile powietrza urządzenie oczyszcza w ciągu godziny (w m³/h). Im wyższy CADR, tym szybciej oczyszczacz poradzi sobie z powietrzem w pomieszczeniu. Bywa podawany osobno dla dymu, kurzu i pyłków.</p>
 <table>
 <thead>
-<tr><th>Powierzchnia pomieszczenia</th><th>Minimalny zalecany CADR</th><th>Idealny CADR</th></tr>
+<tr><th>Powierzchnia pomieszczenia</th><th>Minimalny zalecany CADR</th><th>Optymalny CADR</th></tr>
 </thead>
 <tbody>
-<tr><td>10 – 15 m²</td><td>100 m³/h</td><td>150 m³/h</td></tr>
-<tr><td>15 – 25 m²</td><td>150 m³/h</td><td>250 m³/h</td></tr>
-<tr><td>25 – 40 m²</td><td>250 m³/h</td><td>400 m³/h</td></tr>
-<tr><td>40 – 60 m²</td><td>400 m³/h</td><td>600 m³/h</td></tr>
-<tr><td>60 m² i więcej</td><td>600 m³/h</td><td>800+ m³/h</td></tr>
+<tr><td>10–15 m²</td><td>100 m³/h</td><td>150 m³/h</td></tr>
+<tr><td>15–25 m²</td><td>150 m³/h</td><td>250 m³/h</td></tr>
+<tr><td>25–40 m²</td><td>250 m³/h</td><td>400 m³/h</td></tr>
+<tr><td>40–60 m²</td><td>400 m³/h</td><td>600 m³/h</td></tr>
+<tr><td>60 m² i więcej</td><td>600 m³/h</td><td>800 m³/h i więcej</td></tr>
 </tbody>
 </table>
-<p><strong>Praktyczna zasada:</strong> CADR powinien zapewniać co najmniej 4–5 wymian powietrza na godzinę w pomieszczeniu. Dla sypialni o powierzchni 20 m² i wysokości 2,5 m (50 m³) celuj w CADR co najmniej 200 m³/h.</p>
+<p><strong>Praktyczna zasada:</strong> CADR powinien wystarczać na co najmniej 4–5 wymian powietrza w pomieszczeniu na godzinę. Do sypialni o powierzchni 20 m² i wysokości 2,5 m (50 m³) wybierz model o CADR co najmniej 200 m³/h.</p>
 
-<h3>Obsługiwana powierzchnia i dobór mocy</h3>
-<p>Producenci podają maksymalną obsługiwaną powierzchnię, ale często jest ona obliczana przy zaledwie 1–2 wymianach powietrza na godzinę. W przypadku alergików <strong>podziel tę powierzchnię mniej więcej przez 2</strong>, aby uzyskać powierzchnię rzeczywiście skuteczną przy 4–5 wymianach. Lepszy jest oczyszczacz z lekkim zapasem mocy, pracujący w trybie cichym, niż model o zbyt małej wydajności na trybie turbo.</p>
+<h3>Powierzchnia pomieszczenia i dobór wydajności</h3>
+<p>Producenci podają maksymalną powierzchnię pomieszczenia, ale często liczą ją przy zaledwie 1–2 wymianach powietrza na godzinę. Jeśli oczyszczacz ma służyć alergikowi, <strong>podziel tę wartość mniej więcej przez 2</strong> – tyle wynosi powierzchnia, na której urządzenie rzeczywiście zapewni 4–5 wymian. Lepiej wybrać oczyszczacz z niewielkim zapasem wydajności, który poradzi sobie na cichym biegu, niż za słaby model, który musi pracować w trybie turbo.</p>
 
 <h3>Poziom hałasu (dB)</h3>
-<p>Hałas to kluczowe kryterium, zwłaszcza przy używaniu w sypialni. Oto punkty odniesienia:</p>
+<p>Głośność ma ogromne znaczenie, zwłaszcza jeśli oczyszczacz ma stać w sypialni. Kilka punktów odniesienia:</p>
 <table>
 <thead>
-<tr><th>Poziom hałasu</th><th>Odpowiednik</th><th>Zalecane zastosowanie</th></tr>
+<tr><th>Poziom hałasu</th><th>Porównywalny dźwięk</th><th>Gdzie się sprawdzi</th></tr>
 </thead>
 <tbody>
-<tr><td>20 – 25 dB</td><td>Szept</td><td>Sypialnia, noc, pokój dziecka</td></tr>
-<tr><td>25 – 35 dB</td><td>Biblioteka</td><td>Biuro, spokojny salon</td></tr>
-<tr><td>35 – 50 dB</td><td>Lekki deszcz</td><td>Salon, kuchnia</td></tr>
-<tr><td>50 – 65 dB</td><td>Rozmowa</td><td>Doraźny tryb turbo</td></tr>
+<tr><td>20–25 dB</td><td>Szept</td><td>Sypialnia (także nocą), pokój niemowlęcia</td></tr>
+<tr><td>25–35 dB</td><td>Cisza w bibliotece</td><td>Gabinet, spokojny salon</td></tr>
+<tr><td>35–50 dB</td><td>Drobny deszcz</td><td>Salon, kuchnia</td></tr>
+<tr><td>50–65 dB</td><td>Zwykła rozmowa</td><td>Tryb turbo, włączany na krótko</td></tr>
 </tbody>
 </table>
-<p><strong>Wskazówka:</strong> sprawdź poziom hałasu w trybie nocnym lub na minimalnym biegu. Oczyszczacz deklarowany na 50 dB w trybie maksymalnym może schodzić poniżej 25 dB w trybie uśpienia, co jest idealne do sypialni.</p>
+<p><strong>Wskazówka:</strong> sprawdzaj głośność w trybie nocnym lub na najniższym biegu. Oczyszczacz, którego deklarowana głośność na maksymalnych obrotach wynosi 50 dB, w trybie uśpienia może pracować ciszej niż 25 dB – a to w sypialni w zupełności wystarczy.</p>
 
 <h3>Koszt i częstotliwość wymiany filtrów</h3>
-<p>To ukryty koszt oczyszczaczy. Filtr HEPA + węgiel aktywny trzeba wymieniać co <strong>6–12 miesięcy</strong>, w zależności od intensywności użytkowania. W perspektywie kilku lat wydatki na filtry mogą przekroczyć cenę zakupu urządzenia: przed zakupem sprawdź cenę i dostępność oryginalnych filtrów.</p>
+<p>To ukryty koszt posiadania oczyszczacza. Wkład HEPA z węglem aktywnym trzeba wymieniać co <strong>6–12 miesięcy</strong>, zależnie od intensywności użytkowania. Po kilku latach wydatki na filtry mogą przekroczyć cenę samego urządzenia, dlatego przed zakupem sprawdź, ile kosztują oryginalne filtry i czy łatwo je kupić.</p>
 <table>
 <thead>
 <tr><th>Marka / model</th><th>Orientacyjna częstotliwość wymiany</th><th>Koszt filtrów</th></tr>
@@ -1027,95 +1036,560 @@ export const article: BlogArticle = {
 <tr><td>Levoit Core 300S</td><td>6–8 miesięcy</td><td>Umiarkowany</td></tr>
 <tr><td>Coway Airmega 250</td><td>Do 12 miesięcy</td><td>Średni</td></tr>
 <tr><td>Blueair Blue Pure 411i Max</td><td>Ok. 6 miesięcy</td><td>Średni</td></tr>
-<tr><td>Philips AC2939/10</td><td>Ok. 12 miesięcy</td><td>Średni do wysokiego</td></tr>
+<tr><td>Philips AC2939/10</td><td>Ok. 12 miesięcy</td><td>Od średniego do wysokiego</td></tr>
 <tr><td>Dyson TP09</td><td>Ok. 12 miesięcy</td><td>Wysoki</td></tr>
 <tr><td>Xiaomi Smart Air Purifier 4</td><td>6–12 miesięcy</td><td>Umiarkowany</td></tr>
 </tbody>
 </table>
 
 <h3>Funkcje inteligentne i czujniki</h3>
-<p>W 2026 roku wiele oczyszczaczy ma <strong>laserowe czujniki PM2.5</strong>, które w czasie rzeczywistym mierzą stężenie pyłu drobnego. Te najbardziej rozbudowane mają dodatkowo czujnik LZO/HCHO (formaldehyd) i czujnik wilgotności. Aplikacja mobilna pozwala śledzić historię jakości powietrza, programować harmonogramy pracy i otrzymywać powiadomienia o wymianie filtra. Zgodność z <strong>Google Home i Amazon Alexa</strong> jest powszechna; Apple HomeKit i Matter zdarzają się rzadziej, więc sprawdzaj je dla każdego modelu z osobna.</p>
+<p>W 2026 roku wiele oczyszczaczy ma <strong>laserowe czujniki PM2.5</strong>, które na bieżąco mierzą stężenie pyłu zawieszonego. Najlepiej wyposażone modele mają też czujnik LZO/HCHO (formaldehydu) i czujnik wilgotności. W aplikacji sprawdzisz historię pomiarów jakości powietrza, ustawisz harmonogram pracy i dostaniesz przypomnienie o wymianie filtra. Współpraca z <strong>Google Home i Amazon Alexą</strong> to dziś norma; obsługa Apple HomeKit i Matter zdarza się rzadziej, więc sprawdzaj ją w specyfikacji każdego modelu.</p>
 
 <h3>Zużycie energii</h3>
-<p>Oczyszczacz powietrza zużywa od <strong>kilku watów w trybie uśpienia do ok. 60 W w trybie turbo</strong>. Przy ciągłej pracy w trybie automatycznym (zalecanym) licz średnio ok. 15–25 W, czyli <strong>130–220 kWh rocznie</strong>. To znacznie mniej niż klimatyzator przenośny (800–1400 W). Niektóre modele, takie jak Coway Airmega, mają tryb Eco, który zmniejsza obroty wentylatora lub go wyłącza, gdy powietrze jest czyste.</p>
+<p>Oczyszczacz powietrza pobiera od <strong>kilku watów w trybie uśpienia do ok. 60 W w trybie turbo</strong>. Przy pracy całodobowej w trybie automatycznym (zalecanym) średni pobór mocy wynosi ok. 15–25 W, co daje <strong>130–220 kWh rocznie</strong>. To znacznie mniej niż w przypadku klimatyzatora przenośnego (800–1400 W). Niektóre modele, np. Coway Airmega, mają tryb Eco, który zwalnia lub wyłącza wentylator, gdy powietrze jest czyste.</p>
 
 <h2>Najlepsze marki oczyszczaczy powietrza w 2026 roku</h2>
 
 <h3>Levoit: najlepszy stosunek jakości do ceny</h3>
-<p>Amerykańska marka (grupa VeSync), która stała się niezastąpiona dzięki przystępnym i wydajnym oczyszczaczom. <strong>Core 300S</strong> (CADR ok. 240 m³/h według producenta) to jeden z najlepiej sprzedających się modeli. <strong>Core 400S</strong> przekracza 400 m³/h i nadaje się do dużych pomieszczeń. Filtry HEPA H13, aplikacja VeSync, zgodność z Alexa/Google Home. <strong>Mocne strony:</strong> umiarkowana cena, przystępne filtry. <strong>Słaba strona:</strong> brak czujnika PM2.5 w najmniejszym modelu Core 200S.</p>
+<p>Amerykańska marka z grupy VeSync, której niedrogie i wydajne oczyszczacze zdobyły ogromną popularność. <strong>Core 300S</strong> (CADR ok. 240 m³/h według producenta) to jeden z najlepiej sprzedających się modeli. <strong>Core 400S</strong> ma CADR powyżej 400 m³/h i sprawdzi się w dużych pomieszczeniach. Filtry HEPA H13, aplikacja VeSync, współpraca z Alexą i Google Home. <strong>Mocne strony:</strong> rozsądna cena, niedrogie filtry. <strong>Słaba strona:</strong> najmniejszy model, Core 200S, nie ma czujnika PM2.5.</p>
 
-<h3>Coway: koreański wzorzec</h3>
-<p>Coway to jeden z liderów uzdatniania powietrza w Korei Południowej. <strong>Airmega 250</strong>, dostępna w Europie, oferuje filtrację HEPA + węgiel aktywny w minimalistycznym designie, który pasuje do każdego wnętrza. <strong>Mocne strony:</strong> jakość filtracji, inteligentny tryb Eco, dobra opinia o trwałości wśród kupujących. <strong>Słaba strona:</strong> cena filtrów wyższa niż u Levoit czy Xiaomi.</p>
+<h3>Coway: sprawdzona marka z Korei</h3>
+<p>Coway to jeden z liderów rynku urządzeń do oczyszczania powietrza w Korei Południowej. Model <strong>Airmega 250</strong>, sprzedawany w Europie, łączy filtr HEPA z węglem aktywnym w minimalistycznej obudowie, która pasuje do każdego wnętrza. <strong>Mocne strony:</strong> skuteczna filtracja, inteligentny tryb Eco, opinia trwałego sprzętu wśród kupujących. <strong>Słaba strona:</strong> filtry droższe niż w przypadku Levoit czy Xiaomi.</p>
 
-<h3>Blueair: skandynawski design</h3>
-<p>Szwedzka marka przejęta przez Unilever, Blueair słynie z oczyszczaczy o czystych liniach i skutecznej filtracji. Technologia <strong>HEPASilent</strong> łączy filtrację mechaniczną i elektrostatyczną, zapewniając duży przepływ powietrza przy niskim hałasie. <strong>Blue Pure 411i Max</strong> to kompaktowy model dla sypialni. <strong>Mocne strony:</strong> cisza, design. <strong>Słaba strona:</strong> drogie, firmowe filtry.</p>
+<h3>Blueair: skandynawskie wzornictwo</h3>
+<p>Szwedzka marka Blueair, przejęta przez koncern Unilever, słynie z oczyszczaczy o prostej formie i skutecznej filtracji. Technologia <strong>HEPASilent</strong> łączy filtrację mechaniczną z elektrostatyczną, dzięki czemu urządzenie przepuszcza dużo powietrza, a przy tym pracuje cicho. <strong>Blue Pure 411i Max</strong> to kompaktowy model do sypialni. <strong>Mocne strony:</strong> cicha praca, wygląd. <strong>Słaba strona:</strong> drogie filtry, pasujące tylko do urządzeń tej marki.</p>
 
-<h3>Philips: europejskie zaufanie</h3>
-<p>Philips oferuje oczyszczacze z czujnikiem <strong>AeraSense</strong>, który automatycznie dostosowuje prędkość do jakości powietrza. Model <strong>AC2939/10</strong> (seria 2000i) jest deklarowany dla pomieszczeń do 98 m² przy CADR 380 m³/h, a w trybie uśpienia schodzi do 15 dB według Philips. Wbudowane filtry HEPA i z węglem aktywnym. <strong>Mocne strony:</strong> precyzyjny czujnik, duże powierzchnie, europejski serwis. <strong>Słaba strona:</strong> design mniej nowoczesny niż u konkurencji.</p>
+<h3>Philips: sprawdzona europejska marka</h3>
+<p>Philips oferuje oczyszczacze z czujnikiem <strong>AeraSense</strong>, który sam dobiera prędkość wentylatora do jakości powietrza. Według producenta model <strong>AC2939/10</strong> (seria 2000i) z CADR 380 m³/h sprawdzi się w pomieszczeniach do 98 m², a w trybie uśpienia jego głośność spada do 15 dB. Ma wbudowany filtr HEPA i filtr z węglem aktywnym. <strong>Mocne strony:</strong> precyzyjny czujnik, obsługa dużych powierzchni, serwis w Europie. <strong>Słaba strona:</strong> wygląd mniej nowoczesny niż u konkurencji.</p>
 
-<h3>Dyson: wielofunkcyjna innowacja</h3>
-<p>Dyson łączy oczyszczanie i wentylację (lub ogrzewanie) w jednym urządzeniu. <strong>Purifier Cool Formaldehyde TP09</strong> ma filtr HEPA H13 oraz filtr katalityczny, który stale rozkłada formaldehyd. Wyświetlacz LCD, rozbudowana aplikacja MyDyson. <strong>Mocne strony:</strong> podwójna funkcja, czujniki, kultowy design. <strong>Słaba strona:</strong> bardzo wysoka cena, skromna wydajność oczyszczania w stosunku do niej.</p>
+<h3>Dyson: innowacyjny sprzęt wielofunkcyjny</h3>
+<p>Dyson łączy w jednym urządzeniu oczyszczanie powietrza z nawiewem (lub ogrzewaniem). <strong>Purifier Cool Formaldehyde TP09</strong> ma filtr HEPA H13 oraz filtr katalityczny, który stale rozkłada formaldehyd. Do tego wyświetlacz LCD i rozbudowana aplikacja MyDyson. <strong>Mocne strony:</strong> dwie funkcje w jednym, czujniki, rozpoznawalny design. <strong>Słaba strona:</strong> bardzo wysoka cena i skromna jak na nią wydajność oczyszczania.</p>
 
-<h3>Xiaomi: przystępna inteligentna opcja</h3>
-<p>Xiaomi stosuje swoją zwykłą recepturę: solidna technologia w niskiej cenie. <strong>Smart Air Purifier 4</strong> oferuje CADR 400 m³/h, dotykowy ekran OLED, laserowy czujnik PM2.5 i zgodność z Mi Home/Google Home/Alexa. <strong>Smart Air Purifier 4 Pro</strong> osiąga 500 m³/h w dużych przestrzeniach. <strong>Mocne strony:</strong> stosunek wydajności do ceny, łączność, ekosystem Xiaomi. <strong>Słaba strona:</strong> filtry trzeba wymieniać dość często przy intensywnym użytkowaniu.</p>
+<h3>Xiaomi: niedrogi sprzęt z aplikacją</h3>
+<p>Xiaomi trzyma się sprawdzonego przepisu: solidna technika w niskiej cenie. <strong>Smart Air Purifier 4</strong> ma CADR 400 m³/h, dotykowy ekran OLED i laserowy czujnik PM2.5, a do tego współpracuje z Mi Home, Google Home i Alexą. Wersja <strong>Smart Air Purifier 4 Pro</strong> ma CADR 500 m³/h i sprawdzi się w dużych przestrzeniach. <strong>Mocne strony:</strong> stosunek wydajności do ceny, łączność, ekosystem Xiaomi. <strong>Słaba strona:</strong> przy intensywnym użytkowaniu filtry trzeba wymieniać dość często.</p>
 
-<h2>Poradnik zakupowy według klasy urządzeń</h2>
+<h2>Poradnik zakupowy według półki cenowej</h2>
 
-<h3>Klasa podstawowa: to, co niezbędne w małym pomieszczeniu</h3>
-<p>W tej klasie znajdziesz oczyszczacze z filtrem HEPA H13 i CADR od 150 do 360 m³/h, przeznaczone do pomieszczeń o powierzchni 10–25 m². Czujniki są prostsze, ale filtracja pozostaje skuteczna wobec głównych alergenów.</p>
+<h3>Niższa półka: podstawa w małym pomieszczeniu</h3>
+<p>W tym segmencie znajdziesz oczyszczacze z filtrem HEPA H13 i CADR 150–360 m³/h, przeznaczone do pomieszczeń o powierzchni 10–25 m². Czujniki są prostsze, ale filtry skutecznie zatrzymują najczęstsze alergeny.</p>
 <ul>
-<li><strong>Levoit Core 300S:</strong> CADR ok. 240 m³/h, filtr HEPA H13, Wi-Fi, Alexa/Google. Jedna z pewnych propozycji na rynku.</li>
+<li><strong>Levoit Core 300S:</strong> CADR ok. 240 m³/h, filtr HEPA H13, Wi-Fi, Alexa i Asystent Google. Jeden z najpewniejszych wyborów na rynku.</li>
 <li><strong>Levoit Core 200S:</strong> kompaktowy, idealny do sypialni o powierzchni 10–15 m².</li>
-<li><strong>Xiaomi Smart Air Purifier 4 Lite:</strong> CADR 360 m³/h, czujnik PM2.5, bardzo wydajny jak na swoją klasę.</li>
+<li><strong>Xiaomi Smart Air Purifier 4 Lite:</strong> CADR 360 m³/h, czujnik PM2.5, jak na tę półkę cenową bardzo wydajny.</li>
 </ul>
 
-<h3>Klasa średnia: najlepszy kompromis</h3>
-<p>Idealna klasa dla większości gospodarstw domowych. Wbudowane czujniki PM2.5, CADR od 300 do 450 m³/h, inteligentny tryb automatyczny, pełna łączność.</p>
+<h3>Średnia półka: najlepszy kompromis</h3>
+<p>Najlepszy wybór dla większości domów: wbudowane czujniki PM2.5, CADR 300–450 m³/h, inteligentny tryb automatyczny i pełne sterowanie z aplikacji.</p>
 <ul>
 <li><strong>Xiaomi Smart Air Purifier 4:</strong> CADR 400 m³/h, laserowy czujnik PM2.5, ekran OLED.</li>
-<li><strong>Levoit Core 400S:</strong> CADR powyżej 400 m³/h, rozbudowana aplikacja, precyzyjny tryb auto.</li>
-<li><strong>Coway Airmega 250:</strong> filtracja HEPA + węgiel, tryb Eco, staranny design.</li>
+<li><strong>Levoit Core 400S:</strong> CADR powyżej 400 m³/h, rozbudowana aplikacja, precyzyjny tryb automatyczny.</li>
+<li><strong>Coway Airmega 250:</strong> filtr HEPA i węglowy, tryb Eco, dopracowany wygląd.</li>
 <li><strong>Philips AC1715/10 (seria 1000i):</strong> CADR 300 m³/h, do 78 m², czujnik AeraSense, aplikacja Air+.</li>
 </ul>
 
-<h3>Klasa premium: bez kompromisów</h3>
-<p>Oczyszczacze do dużych powierzchni (40–100 m²), z wieloma czujnikami (PM2.5, LZO, HCHO), wysokim CADR, designem premium i dodatkowymi funkcjami (wentylator, ogrzewanie).</p>
+<h3>Wyższa półka: bez kompromisów</h3>
+<p>Oczyszczacze do dużych powierzchni (40–100 m²), z kilkoma czujnikami (PM2.5, LZO, HCHO), wysokim CADR, starannym wzornictwem i dodatkowymi funkcjami (nawiew, grzanie).</p>
 <ul>
 <li><strong>Philips AC2939/10 (seria 2000i):</strong> CADR 380 m³/h, do 98 m², czujnik AeraSense.</li>
-<li><strong>Dyson Purifier Cool Formaldehyde TP09:</strong> HEPA H13 + filtr katalityczny rozkładający formaldehyd, wbudowany wentylator.</li>
+<li><strong>Dyson Purifier Cool Formaldehyde TP09:</strong> HEPA H13 i filtr katalityczny rozkładający formaldehyd, wbudowany wentylator.</li>
 <li><strong>Blueair HealthProtect 7440i:</strong> CADR 455 m³/h (dym), HEPASilent Ultra, GermShield.</li>
-<li><strong>Coway Airmega 400:</strong> podwójny filtr, zaprojektowany z myślą o bardzo dużych otwartych przestrzeniach.</li>
+<li><strong>Coway Airmega 400:</strong> podwójny filtr, zaprojektowany z myślą o bardzo dużych, otwartych przestrzeniach.</li>
 </ul>
 
 <h2>Konserwacja: harmonogram wymiany filtrów</h2>
 
-<h3>Prefiltr: do mycia, czyszczenie raz w miesiącu</h3>
-<p>Prefiltr zatrzymuje duże cząstki (włosy, kłaczki, widoczny kurz). Zazwyczaj można go myć lub odkurzać i należy czyścić <strong>co 2–4 tygodnie</strong>. Zabrudzony prefiltr zmniejsza przepływ powietrza i przeciąża filtr HEPA.</p>
+<h3>Prefiltr: do mycia, czyszczenie co miesiąc</h3>
+<p>Prefiltr zatrzymuje duże cząstki (włosy, kłaczki, widoczny kurz). Zwykle można go umyć lub odkurzyć; czyść go <strong>co 2–4 tygodnie</strong>. Zabrudzony prefiltr ogranicza przepływ powietrza i przeciąża filtr HEPA.</p>
 
 <h3>Filtr HEPA: wymiana co 6–12 miesięcy</h3>
-<p>Filtra HEPA <strong>nie wolno myć</strong> (woda niszczy włókna). Wymieniaj go zgodnie ze wskaźnikiem urządzenia lub co 6 miesięcy (intensywne użytkowanie, zwierzęta, zanieczyszczony obszar miejski) do 12 miesięcy (umiarkowane użytkowanie, obszar wiejski). Wskazówka: zapisz datę wymiany markerem na filtrze.</p>
+<p>Filtra HEPA <strong>nie wolno myć</strong> (woda niszczy włókna). Wymieniaj go, gdy zasygnalizuje to wskaźnik w urządzeniu, albo co 6 miesięcy (intensywne użytkowanie, zwierzęta w domu, zanieczyszczone miasto) do 12 miesięcy (umiarkowane użytkowanie, wieś). Wskazówka: zapisz markerem na filtrze datę wymiany.</p>
 
 <h3>Filtr z węglem aktywnym: wymiana co 3–6 miesięcy</h3>
-<p>Węgiel aktywny nasyca się szybciej niż HEPA, zwłaszcza przy silnych zapachach lub obecności LZO. W modelach łączonych (HEPA + węgiel w jednym module) wymienia się je jednocześnie. W modelach z osobnymi filtrami węgiel wymieniaj częściej.</p>
+<p>Węgiel aktywny nasyca się szybciej niż filtr HEPA, zwłaszcza gdy w domu występują intensywne zapachy lub dużo LZO. W modelach z jednym wkładem (HEPA i węgiel razem) oba filtry wymienia się jednocześnie. Jeśli filtry są osobne, węglowy wymieniaj częściej.</p>
 
 <h3>Lampa UV-C: wymiana co 12–24 miesiące</h3>
-<p>Lampy UV-C stopniowo tracą skuteczność bakteriobójczą. Sprawdź licznik godzin pracy, jeśli Twoje urządzenie go ma.</p>
+<p>Lampy UV-C z czasem tracą działanie bakteriobójcze. Jeśli Twoje urządzenie ma licznik godzin pracy, regularnie go sprawdzaj.</p>
 
-<h2>Sezony alergii w poszczególnych krajach: kiedy włączać oczyszczacz</h2>
+<h2>Sezony alergii w różnych krajach: kiedy włączać oczyszczacz</h2>
 <table>
 <thead>
-<tr><th>Kraj</th><th>Pyłki drzew</th><th>Trawy</th><th>Chwasty / ambrozja</th><th>Roztocza (szczyt)</th></tr>
+<tr><th>Kraj</th><th>Pyłki drzew</th><th>Pyłki traw</th><th>Chwasty / ambrozja</th><th>Roztocza (szczyt)</th></tr>
 </thead>
 <tbody>
-<tr><td>Francja</td><td>Lut – maj</td><td>Maj – lip</td><td>Sie – paź</td><td>Paź – mar</td></tr>
-<tr><td>Niemcy</td><td>Mar – maj</td><td>Maj – sie</td><td>Lip – wrz</td><td>Paź – mar</td></tr>
-<tr><td>Wielka Brytania</td><td>Lut – maj</td><td>Maj – lip</td><td>Cze – wrz</td><td>Paź – mar</td></tr>
-<tr><td>Hiszpania</td><td>Sty – kwi</td><td>Kwi – cze</td><td>Sie – paź</td><td>Paź – lut</td></tr>
-<tr><td>Włochy</td><td>Lut – kwi</td><td>Kwi – cze</td><td>Lip – paź</td><td>Paź – mar</td></tr>
-<tr><td>Holandia</td><td>Mar – maj</td><td>Maj – sie</td><td>Lip – wrz</td><td>Paź – mar</td></tr>
+<tr><td>Francja</td><td>lut.–maj</td><td>maj–lip.</td><td>sie.–paź.</td><td>paź.–mar.</td></tr>
+<tr><td>Niemcy</td><td>mar.–maj</td><td>maj–sie.</td><td>lip.–wrz.</td><td>paź.–mar.</td></tr>
+<tr><td>Wielka Brytania</td><td>lut.–maj</td><td>maj–lip.</td><td>cze.–wrz.</td><td>paź.–mar.</td></tr>
+<tr><td>Hiszpania</td><td>sty.–kwi.</td><td>kwi.–cze.</td><td>sie.–paź.</td><td>paź.–lut.</td></tr>
+<tr><td>Włochy</td><td>lut.–kwi.</td><td>kwi.–cze.</td><td>lip.–paź.</td><td>paź.–mar.</td></tr>
+<tr><td>Holandia</td><td>mar.–maj</td><td>maj–sie.</td><td>lip.–wrz.</td><td>paź.–mar.</td></tr>
 </tbody>
 </table>
-<p><strong>Wskazówka:</strong> osoby uczulone powinny używać oczyszczacza <strong>nieprzerwanie w sezonie pylenia</strong>, w trybie automatycznym. Poza szczytami wystarczy kilka godzin pracy dziennie. Roztocza są obecne przez cały rok, ale najintensywniej mnożą się jesienią i zimą w ogrzewanych, wilgotnych mieszkaniach. Podane okresy są orientacyjne i różnią się w zależności od regionu oraz pogody w danym roku.</p>`,
+<p><strong>Wskazówka:</strong> w sezonie pylenia alergicy powinni zostawiać oczyszczacz <strong>włączony na stałe</strong>, w trybie automatycznym. Poza okresami największego pylenia wystarczy kilka godzin pracy dziennie. Roztocza występują przez cały rok, ale najszybciej mnożą się jesienią i zimą w ogrzewanych, wilgotnych mieszkaniach. Podane terminy są orientacyjne – zależą od regionu i pogody w danym roku.</p>`,
+    sv: `<h2>Inledning: därför är luftkvaliteten inomhus en hälsofråga 2026</h2>
+<p>Vi tillbringar största delen av vår tid inomhus, och ändå är luften hemma ofta mer förorenad än luften utomhus: den amerikanska miljömyndigheten EPA anger att halterna av vissa föroreningar kan vara 2–5 gånger högre inomhus. Fina partiklar (PM2,5), flyktiga organiska ämnen (VOC), allergener (pollen, kvalster, mjäll från husdjur), mögelsporer, formaldehyd från nya möbler … Källorna till dålig inomhusluft är många och svåra att upptäcka.</p>
+<p>Hälsomyndigheter runt om i Europa lyfter regelbundet fram luftföroreningar inomhus som en folkhälsofråga, och luftvägsallergier drabbar en stor och växande del av Europas befolkning. Mot den bakgrunden har luftrenaren gått från att vara en komfortpryl till en verkligt användbar vardagsapparat, som komplement till god ventilation.</p>
+<p>Den här guiden förklarar hur en luftrenare fungerar, vilka kriterier som är viktigast, vilka märken du bör titta på och vilken prisklass du ska sikta på 2026. Guiden bygger på tillverkarnas produktblad, publicerade oberoende utvärderingar och verifierade köparomdömen. Här hittar du också vår <a href="/sv/blog/comparatif-purificateur-air-allergie">jämförelse av de bästa luftrenarna för allergiker</a> och vår genomgång av <a href="/sv/blog/climatiseur-mobile-vs-ventilateur">portabel AC kontra fläkt</a>, om du vill ta ett helhetsgrepp om inomhusklimatet.</p>
+
+<h2>Hur fungerar en luftrenare?</h2>
+
+<h3>HEPA-filter: guldstandarden</h3>
+<p><strong>HEPA-filtret (High Efficiency Particulate Air)</strong> är den mest effektiva och beprövade filtertekniken. Enligt standarden EN 1822 fångar ett HEPA-filter i klass H13 <strong>minst 99,95 % av partiklarna</strong> vid den partikelstorlek som tar sig igenom lättast (omkring 0,1–0,3 µm), medan H14 når 99,995 %. Eftersom just de partiklarna är svårast att fånga är filtret ännu effektivare mot både större och mindre partiklar.</p>
+<p>Ett äkta HEPA-filter består av veckat filtermaterial av ultrafina glasfibrer, lagt i sicksack för att få så stor filteryta som möjligt. Det fångar partiklar genom tre mekanismer: spärreffekt (interception), tröghetseffekt (impaktion) och diffusion. <strong>Se upp med beteckningar som ”HEPA-like” eller ”HEPA-typ”</strong>, som inte garanterar klass H13/H14.</p>
+
+<h3>Filter med aktivt kol: mot gaser och lukt</h3>
+<p>Aktivt kol är kol som har behandlats för att bli extremt poröst (från flera hundra till över tusen kvadratmeter yta per gram). Det adsorberar <strong>flyktiga organiska ämnen (VOC)</strong>, formaldehyd, matlukt, cigarettrök och vissa gaser. De flesta luftrenare kombinerar förfilter, kolfilter och HEPA-filter i en enda utbytbar filterkassett.</p>
+
+<h3>UV-C-teknik: oskadliggör mikroorganismer</h3>
+<p>Vissa luftrenare har en UV-C-lampa som avger ultraviolett strålning på omkring 254 nm. Den våglängden skadar DNA:t hos bakterier, virus och mögel, så att de inte längre kan föröka sig. <strong>Effekten beror på exponeringstiden</strong>: luften måste passera lampan tillräckligt långsamt. I praktiken är UV-C ett komplement till HEPA-filtret, inte en ersättning.</p>
+
+<h3>Jonisatorer: omdömena går isär</h3>
+<p>En jonisator sänder ut negativa joner som fäster på luftburna partiklar och gör dem tyngre, så att de faller ner på golvet eller andra ytor. <strong>Fördel:</strong> helt tyst, och inget filter att byta. <strong>Nackdel:</strong> alla partiklar försvinner inte (de lägger sig bara på ytorna i stället), och vissa jonisatorer bildar ozon, som irriterar luftvägarna. Enbart jonisering rekommenderas inte för allergiker.</p>
+
+<h2>Så väljer du luftrenare: de viktigaste kriterierna</h2>
+
+<h3>CADR (Clean Air Delivery Rate)</h3>
+<p>CADR är <strong>det enskilt viktigaste måttet</strong>. Det anger hur mycket renad luft apparaten levererar per timme (i m³/h). Ju högre CADR, desto snabbare renar luftrenaren luften i rummet. Värdet kan mätas separat för rök, damm och pollen.</p>
+<table>
+<thead>
+<tr><th>Rummets yta</th><th>Lägsta CADR</th><th>Idealisk CADR</th></tr>
+</thead>
+<tbody>
+<tr><td>10–15 m²</td><td>100 m³/h</td><td>150 m³/h</td></tr>
+<tr><td>15–25 m²</td><td>150 m³/h</td><td>250 m³/h</td></tr>
+<tr><td>25–40 m²</td><td>250 m³/h</td><td>400 m³/h</td></tr>
+<tr><td>40–60 m²</td><td>400 m³/h</td><td>600 m³/h</td></tr>
+<tr><td>60 m² och mer</td><td>600 m³/h</td><td>800+ m³/h</td></tr>
+</tbody>
+</table>
+<p><strong>Tumregel:</strong> CADR-värdet bör räcka till minst 4–5 luftomsättningar per timme. För ett sovrum på 20 m² med 2,5 meter i takhöjd (50 m³) bör du sikta på en CADR på minst 200 m³/h.</p>
+
+<h3>Rumsstorlek och dimensionering</h3>
+<p>Tillverkarna anger en största rumsyta, men den räknas ofta fram med bara 1–2 luftomsättningar per timme. Är du allergiker bör du <strong>ungefär halvera den siffran</strong> för att få den yta som verkligen renas effektivt med 4–5 luftomsättningar. Det är bättre med en något överdimensionerad luftrenare som går i tyst läge än en underdimensionerad som måste gå på turbo.</p>
+
+<h3>Ljudnivå (dB)</h3>
+<p>Ljudnivån är ett avgörande kriterium, särskilt om luftrenaren ska stå i sovrummet. Här är några riktmärken:</p>
+<table>
+<thead>
+<tr><th>Ljudnivå</th><th>Motsvarar</th><th>Passar för</th></tr>
+</thead>
+<tbody>
+<tr><td>20–25 dB</td><td>Viskning</td><td>Sovrum, natt, bebisens rum</td></tr>
+<tr><td>25–35 dB</td><td>Bibliotek</td><td>Kontor, lugnt vardagsrum</td></tr>
+<tr><td>35–50 dB</td><td>Lätt regn</td><td>Vardagsrum, kök</td></tr>
+<tr><td>50–65 dB</td><td>Samtal</td><td>Tillfälligt turboläge</td></tr>
+</tbody>
+</table>
+<p><strong>Tips:</strong> kontrollera ljudnivån i nattläge eller på lägsta fläkthastighet. En luftrenare som anges till 50 dB på max kan gå ner under 25 dB i sovläge, vilket är perfekt för sovrummet.</p>
+
+<h3>Filterbyten: kostnad och intervall</h3>
+<p>Det här är luftrenarens dolda kostnad. Ett kombinerat HEPA- och kolfilter behöver bytas <strong>efter 6–12 månader</strong>, beroende på hur mycket luftrenaren används. Under några år kan du lägga mer pengar på filter än vad själva apparaten kostade, så kontrollera pris och tillgång på originalfilter innan du köper.</p>
+<table>
+<thead>
+<tr><th>Märke/modell</th><th>Ungefärligt bytesintervall</th><th>Filterkostnad</th></tr>
+</thead>
+<tbody>
+<tr><td>Levoit Core 300S</td><td>6–8 månader</td><td>Måttlig</td></tr>
+<tr><td>Coway Airmega 250</td><td>Upp till 12 månader</td><td>Medel</td></tr>
+<tr><td>Blueair Blue Pure 411i Max</td><td>Ca 6 månader</td><td>Medel</td></tr>
+<tr><td>Philips AC2939/10</td><td>Ca 12 månader</td><td>Medel till hög</td></tr>
+<tr><td>Dyson TP09</td><td>Ca 12 månader</td><td>Hög</td></tr>
+<tr><td>Xiaomi Smart Air Purifier 4</td><td>6–12 månader</td><td>Måttlig</td></tr>
+</tbody>
+</table>
+
+<h3>Smarta funktioner och sensorer</h3>
+<p>2026 har många luftrenare <strong>lasersensorer för PM2,5</strong> som mäter halten av fina partiklar i realtid. De mest kompletta modellerna har dessutom sensorer för VOC/HCHO (formaldehyd) och luftfuktighet. I appen kan du följa luftkvaliteten över tid, schemalägga drifttider och få en notis när det är dags att byta filter. Stöd för <strong>Google Home och Amazon Alexa</strong> är vanligt, medan Apple HomeKit och Matter är ovanligare, så kontrollera modell för modell.</p>
+
+<h3>Elförbrukning</h3>
+<p>En luftrenare drar allt från <strong>några få watt i sovläge till omkring 60 W på turbo</strong>. I kontinuerlig drift i autoläge (rekommenderas) kan du räkna med i snitt 15–25 W, ungefär <strong>130–220 kWh per år</strong>. Det är betydligt mindre än en portabel AC (800–1 400 W). Vissa modeller, som Coways Airmega-serie, har ett Eco-läge som sänker eller stänger av fläkten när luften är ren.</p>
+
+<h2>De bästa märkena för luftrenare 2026</h2>
+
+<h3>Levoit: mest prisvärd</h3>
+<p>Amerikanskt märke (VeSync-koncernen) som har blivit ett självklart val tack vare prisvärda och effektiva luftrenare. <strong>Core 300S</strong> (CADR på omkring 240 m³/h enligt tillverkaren) är en av de mest sålda modellerna. <strong>Core 400S</strong> klarar över 400 m³/h för större rum. HEPA-filter i klass H13, appen VeSync och stöd för Alexa/Google Home. <strong>Styrkor:</strong> överkomligt pris, prisvärda filter. <strong>Svagheter:</strong> ingen PM2,5-sensor på den minsta modellen, Core 200S.</p>
+
+<h3>Coway: den koreanska referensen</h3>
+<p>Coway är ett av de ledande märkena för luftbehandling i Sydkorea. <strong>Airmega 250</strong>, som säljs i Europa, kombinerar HEPA-filter och aktivt kol i en minimalistisk design som passar i alla hem. <strong>Styrkor:</strong> filtreringens kvalitet, smart Eco-läge, gott rykte bland köparna när det gäller hållbarhet. <strong>Svagheter:</strong> filtren kostar mer än Levoits och Xiaomis.</p>
+
+<h3>Blueair: skandinavisk design</h3>
+<p>Blueair, ett svenskt märke som har köpts upp av Unilever, är känt för stilren design och effektiv filtrering. Tekniken <strong>HEPASilent</strong> kombinerar mekanisk och elektrostatisk filtrering för högt luftflöde vid låg ljudnivå. <strong>Blue Pure 411i Max</strong> är en kompakt modell som passar bra i sovrum. <strong>Styrkor:</strong> tyst gång, design. <strong>Svagheter:</strong> dyra, märkesspecifika filter.</p>
+
+<h3>Philips: tryggt europeiskt val</h3>
+<p>Philips luftrenare har sensorn <strong>AeraSense</strong>, som automatiskt anpassar fläkthastigheten efter luftkvaliteten. <strong>AC2939/10</strong> (2000i Series) anges för rum upp till 98 m² med en CADR på 380 m³/h, och Philips uppger 15 dB i sovläge. Inbyggda HEPA- och kolfilter. <strong>Styrkor:</strong> exakt sensor, klarar stora rum, service i Europa. <strong>Svagheter:</strong> mindre modern design än konkurrenternas.</p>
+
+<h3>Dyson: multifunktionell innovation</h3>
+<p>Dyson kombinerar luftrening och fläkt (eller värme) i en och samma apparat. <strong>Purifier Cool Formaldehyde TP09</strong> har ett HEPA-filter i klass H13 och ett katalytiskt filter som kontinuerligt bryter ner formaldehyd. LCD-skärm och en komplett app, MyDyson. <strong>Styrkor:</strong> två funktioner i en, sensorer, ikonisk design. <strong>Svagheter:</strong> mycket högt pris, och luftreningskapaciteten är blygsam för det priset.</p>
+
+<h3>Xiaomi: prisvärd smart teknik</h3>
+<p>Xiaomi kör sitt vanliga recept: gedigen teknik till ett pressat pris. <strong>Smart Air Purifier 4</strong> har en CADR på 400 m³/h, OLED-pekskärm, lasersensor för PM2,5 och stöd för Mi Home/Google Home/Alexa. <strong>Smart Air Purifier 4 Pro</strong> når 500 m³/h för stora utrymmen. <strong>Styrkor:</strong> hög kapacitet för pengarna, uppkoppling, Xiaomis ekosystem. <strong>Svagheter:</strong> filtren behöver bytas ganska ofta vid flitig användning.</p>
+
+<h2>Köpguide per prisklass</h2>
+
+<h3>Instegsmodeller: det viktigaste för ett litet rum</h3>
+<p>I den här prisklassen hittar du luftrenare med HEPA-filter i klass H13 och en CADR på 150–360 m³/h, lämpliga för rum på 10–25 m². Sensorerna är enklare, men filtreringen är fortfarande effektiv mot de vanligaste allergenerna.</p>
+<ul>
+<li><strong>Levoit Core 300S:</strong> CADR på omkring 240 m³/h, HEPA-filter H13, wifi, Alexa/Google. Ett av de säkraste korten på marknaden.</li>
+<li><strong>Levoit Core 200S:</strong> kompakt, perfekt för ett sovrum på 10–15 m².</li>
+<li><strong>Xiaomi Smart Air Purifier 4 Lite:</strong> CADR 360 m³/h, PM2,5-sensor, presterar mycket bra för sin prisklass.</li>
+</ul>
+
+<h3>Mellanklass: den bästa kompromissen</h3>
+<p>Den perfekta prisklassen för de flesta hushåll. Inbyggda PM2,5-sensorer, CADR på 300–450 m³/h, smart autoläge och komplett uppkoppling.</p>
+<ul>
+<li><strong>Xiaomi Smart Air Purifier 4:</strong> CADR 400 m³/h, lasersensor för PM2,5, OLED-skärm.</li>
+<li><strong>Levoit Core 400S:</strong> CADR över 400 m³/h, komplett app, exakt autoläge.</li>
+<li><strong>Coway Airmega 250:</strong> HEPA- och kolfilter, Eco-läge, genomarbetad design.</li>
+<li><strong>Philips AC1715/10 (1000i Series):</strong> CADR 300 m³/h, upp till 78 m², AeraSense-sensor, appen Air+.</li>
+</ul>
+
+<h3>Premium: inga kompromisser</h3>
+<p>Luftrenare för stora ytor (40–100 m²), flera sensorer (PM2,5, VOC, HCHO), hög CADR, exklusiv design och extrafunktioner (fläkt, värme).</p>
+<ul>
+<li><strong>Philips AC2939/10 (2000i Series):</strong> CADR 380 m³/h, upp till 98 m², AeraSense-sensor.</li>
+<li><strong>Dyson Purifier Cool Formaldehyde TP09:</strong> HEPA H13 och katalytiskt filter mot formaldehyd, inbyggd fläkt.</li>
+<li><strong>Blueair HealthProtect 7440i:</strong> CADR 455 m³/h (rök), HEPASilent Ultra, GermShield.</li>
+<li><strong>Coway Airmega 400:</strong> dubbla filter, gjord för mycket stora öppna ytor.</li>
+</ul>
+
+<h2>Skötsel: schema för filterbyten</h2>
+
+<h3>Förfilter: tvättbart, rengörs varje månad</h3>
+<p>Förfiltret fångar stora partiklar (hår, ludd, synligt damm). Det går oftast att tvätta eller dammsuga av och bör rengöras <strong>varannan till var fjärde vecka</strong>. Ett igensatt förfilter minskar luftflödet och belastar HEPA-filtret i onödan.</p>
+
+<h3>HEPA-filter: byt efter 6–12 månader</h3>
+<p>HEPA-filtret går <strong>inte att tvätta</strong> (vatten förstör fibrerna). Byt det när apparatens indikator säger till, eller efter allt från 6 månader (flitig användning, husdjur, förorenad stadsmiljö) till 12 månader (måttlig användning, landsbygd). Tips: skriv bytesdatumet på filtret med en märkpenna.</p>
+
+<h3>Kolfilter: byt efter 3–6 månader</h3>
+<p>Aktivt kol mättas snabbare än HEPA-filtret, särskilt vid stark lukt eller mycket VOC. På kombinerade modeller (HEPA och kol i samma kassett) byts båda samtidigt. På modeller med separata filter byter du kolfiltret oftare.</p>
+
+<h3>UV-C-lampa: byt efter 12–24 månader</h3>
+<p>UV-C-lampor tappar gradvis sin desinficerande effekt. Håll koll på drifttimräknaren om apparaten har en sådan.</p>
+
+<h2>Allergisäsonger per land: när du ska sätta på luftrenaren</h2>
+<table>
+<thead>
+<tr><th>Land</th><th>Trädpollen</th><th>Gräspollen</th><th>Örtpollen/ambrosia</th><th>Kvalster (topp)</th></tr>
+</thead>
+<tbody>
+<tr><td>Frankrike</td><td>feb–maj</td><td>maj–juli</td><td>aug–okt</td><td>okt–mars</td></tr>
+<tr><td>Tyskland</td><td>mars–maj</td><td>maj–aug</td><td>juli–sep</td><td>okt–mars</td></tr>
+<tr><td>Storbritannien</td><td>feb–maj</td><td>maj–juli</td><td>juni–sep</td><td>okt–mars</td></tr>
+<tr><td>Spanien</td><td>jan–apr</td><td>apr–juni</td><td>aug–okt</td><td>okt–feb</td></tr>
+<tr><td>Italien</td><td>feb–apr</td><td>apr–juni</td><td>juli–okt</td><td>okt–mars</td></tr>
+<tr><td>Nederländerna</td><td>mars–maj</td><td>maj–aug</td><td>juli–sep</td><td>okt–mars</td></tr>
+</tbody>
+</table>
+<p><strong>Tips:</strong> för allergiker lönar det sig att låta luftrenaren gå <strong>hela tiden under pollensäsongen</strong>, i autoläge. Utanför topparna räcker det med några timmar om dagen. Kvalster finns året runt men trivs bäst på hösten och vintern i uppvärmda, fuktiga bostäder. Perioderna är ungefärliga och varierar mellan regioner och med vädret från år till år.</p>`,
+    us: `<h2>Why indoor air quality is a health issue in 2026</h2>
+<p>We spend most of our lives indoors, yet the air at home is often more polluted than the air outside: the US Environmental Protection Agency (EPA) reports indoor concentrations of some pollutants 2 to 5 times higher than outdoor levels. Fine particles (PM2.5), volatile organic compounds (VOCs), allergens (pollen, dust mites, pet dander), mold spores, formaldehyde off-gassing from new furniture: the sources of indoor pollution are many, and most of them are invisible.</p>
+<p>In France, the national health-safety agency ANSES flagged the heavy health and economic cost of indoor air pollution as early as 2014, and respiratory allergies affect a large and growing share of Europe's population. That's why the air purifier has gone from a comfort gadget to a genuinely useful everyday appliance, working alongside good ventilation rather than replacing it.</p>
+<p>This complete guide explains how air purifiers work, which specs matter most, which brands to look at and which tier to aim for in 2026. It's based on manufacturer specifications, independent reviews and verified owner feedback. You'll also find our <a href="/us/blog/comparatif-purificateur-air-allergie">comparison of the best air purifiers for allergies</a> and our <a href="/us/blog/climatiseur-mobile-vs-ventilateur">portable air conditioner vs. fan breakdown</a> to round out your indoor comfort setup.</p>
+
+<h2>How does an air purifier work?</h2>
+
+<h3>HEPA filters: the gold standard</h3>
+<p>The <strong>HEPA (High Efficiency Particulate Air)</strong> filter is the most effective and best-proven filtration technology. Under the European EN 1822 standard, an H13 HEPA filter captures <strong>at least 99.95% of particles</strong> at the most penetrating particle size (around 0.1 to 0.3 µm), and an H14 filter reaches 99.995%. Those are the hardest particles to catch, so the filter does even better on larger and smaller ones. On US product listings, you'll often see "True HEPA," which typically means the filter captures at least 99.97% of particles at 0.3 microns.</p>
+<p>A true HEPA filter is a pleated mat of ultra-fine glass fibers folded in a zigzag to maximize the filtering surface. It traps particles three ways: interception, impaction and diffusion. <strong>Watch out for labels like "HEPA-like" or "HEPA-type,"</strong> which don't guarantee H13 or H14 performance.</p>
+
+<h3>Activated carbon filters: for gases and odors</h3>
+<p>Activated carbon is carbon processed to be extremely porous (several hundred to more than a thousand square meters of surface area per gram). It adsorbs <strong>volatile organic compounds (VOCs)</strong>, formaldehyde, cooking odors, cigarette smoke and some gases. Most purifiers combine a pre-filter, an activated carbon filter and a HEPA filter in a single replaceable cartridge.</p>
+
+<h3>UV-C light: neutralizing microorganisms</h3>
+<p>Some purifiers include a UV-C lamp that emits ultraviolet light at around 254 nm. That wavelength damages the DNA of bacteria, viruses and mold, leaving them unable to reproduce. <strong>How well it works depends on exposure time</strong>: the air has to move past the lamp slowly enough. In practice, UV-C is an add-on, not a substitute for a HEPA filter.</p>
+
+<h3>Ionizers: a mixed record</h3>
+<p>An ionizer releases negative ions that cling to airborne particles, weighing them down so they drop onto the floor and other surfaces. <strong>Pros:</strong> silent, with no filter to replace. <strong>Cons:</strong> the particles aren't removed (they settle and can be stirred up again), and some ionizers produce ozone, a lung irritant. An ionizer on its own isn't recommended for people with allergies.</p>
+
+<h2>What to look for in an air purifier</h2>
+
+<h3>CADR (Clean Air Delivery Rate)</h3>
+<p>CADR is <strong>the single most important spec</strong>. It tells you how much filtered air the purifier delivers: European spec sheets give it in cubic meters per hour (m³/h), US boxes in cubic feet per minute (CFM), often as an AHAM Verified rating (check whether the model sold in your country carries it). The higher the CADR, the faster the purifier cleans a room. It can be rated separately for smoke, dust and pollen.</p>
+<table>
+<thead>
+<tr><th>Room size</th><th>Minimum recommended CADR</th><th>Ideal CADR</th></tr>
+</thead>
+<tbody>
+<tr><td>110–160 sq ft (10–15 m²)</td><td>59 CFM (100 m³/h)</td><td>88 CFM (150 m³/h)</td></tr>
+<tr><td>160–270 sq ft (15–25 m²)</td><td>88 CFM (150 m³/h)</td><td>147 CFM (250 m³/h)</td></tr>
+<tr><td>270–430 sq ft (25–40 m²)</td><td>147 CFM (250 m³/h)</td><td>235 CFM (400 m³/h)</td></tr>
+<tr><td>430–645 sq ft (40–60 m²)</td><td>235 CFM (400 m³/h)</td><td>353 CFM (600 m³/h)</td></tr>
+<tr><td>645+ sq ft (60+ m²)</td><td>353 CFM (600 m³/h)</td><td>471+ CFM (800+ m³/h)</td></tr>
+</tbody>
+</table>
+<p><strong>Rule of thumb:</strong> the CADR should give the room at least 4 to 5 air changes per hour. For a 215 sq ft (20 m²) bedroom with 8 ft ceilings (about 1,750 cu ft, or 50 m³, of air), aim for a CADR of at least 118 CFM (200 m³/h).</p>
+
+<h3>Room coverage and sizing</h3>
+<p>Manufacturers list a maximum room size, but it's often based on just 1 to 2 air changes per hour. If you have allergies, <strong>cut that figure roughly in half</strong> to get the area a purifier really covers at 4 to 5 air changes. A slightly oversized purifier running on a quiet setting beats an undersized one running flat out on turbo.</p>
+
+<h3>Noise level (dB)</h3>
+<p>Noise matters a lot, especially in a bedroom. Here's a quick reference:</p>
+<table>
+<thead>
+<tr><th>Noise level</th><th>Sounds like</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>20 – 25 dB</td><td>A whisper</td><td>Bedroom, overnight, nursery</td></tr>
+<tr><td>25 – 35 dB</td><td>A library</td><td>Home office, quiet living room</td></tr>
+<tr><td>35 – 50 dB</td><td>Light rain</td><td>Living room, kitchen</td></tr>
+<tr><td>50 – 65 dB</td><td>Normal conversation</td><td>Short bursts on turbo</td></tr>
+</tbody>
+</table>
+<p><strong>Tip:</strong> check the noise level on night mode or the lowest fan speed. A purifier rated at 50 dB on max can drop below 25 dB in sleep mode, which is ideal for a bedroom.</p>
+
+<h3>Replacement filter cost and frequency</h3>
+<p>This is the hidden cost of owning an air purifier. A combined HEPA and activated carbon filter needs replacing every <strong>6 to 12 months</strong>, depending on use. Over several years, you can spend more on filters than on the purifier itself, so check the price and availability of genuine replacement filters before you buy.</p>
+<table>
+<thead>
+<tr><th>Brand / model</th><th>Typical replacement interval</th><th>Filter cost</th></tr>
+</thead>
+<tbody>
+<tr><td>Levoit Core 300S</td><td>6 to 8 months</td><td>Moderate</td></tr>
+<tr><td>Coway Airmega 250</td><td>Up to 12 months</td><td>Average</td></tr>
+<tr><td>Blueair Blue Pure 411i Max</td><td>About 6 months</td><td>Average</td></tr>
+<tr><td>Philips AC2939/10</td><td>About 12 months</td><td>Average to high</td></tr>
+<tr><td>Dyson TP09</td><td>About 12 months</td><td>High</td></tr>
+<tr><td>Xiaomi Smart Air Purifier 4</td><td>6 to 12 months</td><td>Moderate</td></tr>
+</tbody>
+</table>
+
+<h3>Smart features and sensors</h3>
+<p>In 2026, many purifiers have <strong>laser PM2.5 sensors</strong> that track fine-particle levels in real time. The most complete models add VOC/HCHO (formaldehyde) and humidity sensors. The companion app shows your air quality history, lets you set schedules and reminds you when a filter is due. <strong>Google Home and Amazon Alexa</strong> support is common; Apple HomeKit and Matter are still rarer, so check model by model.</p>
+
+<h3>Power consumption</h3>
+<p>An air purifier draws anywhere from <strong>a few watts in sleep mode to about 60 W on turbo</strong>. Left running in auto mode (the recommended setting), expect an average of 15 to 25 W, or roughly <strong>130 to 220 kWh a year</strong>: about $26 to $44 a year at an example rate of 20 cents per kWh (check the rate on your utility bill). That's far less than a portable air conditioner (800 to 1,400 W). Some models, like Coway's Airmega line, have an Eco mode that slows or stops the fan once the air is clean.</p>
+
+<h2>The best air purifier brands in 2026</h2>
+
+<h3>Levoit: best value</h3>
+<p>This American brand (part of the VeSync group) has become a go-to name thanks to affordable purifiers that perform well. The <strong>Core 300S</strong> (a CADR of about 141 CFM, or 240 m³/h, according to the manufacturer) is one of the best-selling models around. The <strong>Core 400S</strong> tops 235 CFM (400 m³/h) for larger rooms. H13 HEPA filters, the VeSync app, Alexa and Google Home support. <strong>Pros:</strong> low price, affordable filters. <strong>Cons:</strong> the smallest model, the Core 200S, has no PM2.5 sensor.</p>
+
+<h3>Coway: the Korean benchmark</h3>
+<p>Coway is one of South Korea's leading air treatment brands. The <strong>Airmega 250</strong>, sold in Europe, pairs HEPA and activated carbon filtration with a minimalist design that blends into any room. <strong>Pros:</strong> filtration quality, a smart Eco mode, a solid reputation for durability among owners. <strong>Cons:</strong> filters cost more than Levoit's or Xiaomi's.</p>
+
+<h3>Blueair: Scandinavian design</h3>
+<p>A Swedish brand now owned by Unilever, Blueair is known for clean-lined designs and strong filtration. Its <strong>HEPASilent</strong> technology combines mechanical and electrostatic filtration to move a lot of air with little noise. The <strong>Blue Pure 411i Max</strong> is a compact model that's well suited to bedrooms. <strong>Pros:</strong> quiet, good-looking. <strong>Cons:</strong> pricey proprietary filters.</p>
+
+<h3>Philips: a trusted European name</h3>
+<p>Philips purifiers use an <strong>AeraSense</strong> sensor that adjusts fan speed automatically to the air quality. The <strong>AC2939/10</strong> (2000i Series) is rated for rooms up to 1,055 sq ft (98 m²) with a CADR of 224 CFM (380 m³/h), and Philips quotes 15 dB in sleep mode. HEPA and activated carbon filters built in. <strong>Pros:</strong> accurate sensor, covers large rooms, after-sales support across Europe. <strong>Cons:</strong> the design looks dated next to rivals.</p>
+
+<h3>Dyson: the multitasker</h3>
+<p>Dyson combines purification and a fan (or a heater) in one appliance. The <strong>Purifier Cool Formaldehyde TP09</strong> has an H13 HEPA filter and a catalytic filter that continuously breaks down formaldehyde. LCD screen, full-featured MyDyson app. <strong>Pros:</strong> two appliances in one, sensors, iconic design. <strong>Cons:</strong> very expensive, with modest purifying output for the money.</p>
+
+<h3>Xiaomi: affordable smart tech</h3>
+<p>Xiaomi sticks to its usual formula: solid technology at a sharp price. The <strong>Smart Air Purifier 4</strong> offers a CADR of 235 CFM (400 m³/h), an OLED touchscreen, a laser PM2.5 sensor and Mi Home, Google Home and Alexa support. The <strong>Smart Air Purifier 4 Pro</strong> goes up to 294 CFM (500 m³/h) for large spaces. <strong>Pros:</strong> a lot of capacity for the price, connectivity, the Xiaomi ecosystem. <strong>Cons:</strong> filters need replacing fairly often with heavy use.</p>
+
+<h2>Buying guide by tier</h2>
+
+<h3>Budget: the essentials for a small room</h3>
+<p>In this tier, you'll find purifiers with H13 HEPA filters and a CADR of 88 to 212 CFM (150 to 360 m³/h), suited to rooms of 110 to 270 sq ft (10 to 25 m²). The sensors are more basic, but filtration still handles the main allergens well.</p>
+<ul>
+<li><strong>Levoit Core 300S:</strong> CADR of about 141 CFM (240 m³/h), H13 HEPA filter, Wi-Fi, Alexa and Google. One of the safest bets out there.</li>
+<li><strong>Levoit Core 200S:</strong> compact, ideal for a 110–160 sq ft (10–15 m²) bedroom.</li>
+<li><strong>Xiaomi Smart Air Purifier 4 Lite:</strong> CADR of 212 CFM (360 m³/h), PM2.5 sensor, very capable for its tier.</li>
+</ul>
+
+<h3>Midrange: the sweet spot</h3>
+<p>The right tier for most households: built-in PM2.5 sensors, a CADR of 177 to 265 CFM (300 to 450 m³/h), a smart auto mode and full connectivity.</p>
+<ul>
+<li><strong>Xiaomi Smart Air Purifier 4:</strong> CADR of 235 CFM (400 m³/h), laser PM2.5 sensor, OLED display.</li>
+<li><strong>Levoit Core 400S:</strong> CADR above 235 CFM (400 m³/h), full-featured app, accurate auto mode.</li>
+<li><strong>Coway Airmega 250:</strong> HEPA and carbon filtration, Eco mode, polished design.</li>
+<li><strong>Philips AC1715/10 (1000i Series):</strong> CADR of 177 CFM (300 m³/h), rooms up to 840 sq ft (78 m²), AeraSense sensor, Air+ app.</li>
+</ul>
+
+<h3>Premium: no compromises</h3>
+<p>Purifiers for large spaces of 430 to 1,075 sq ft (40 to 100 m²), with multiple sensors (PM2.5, VOC, HCHO), a high CADR, premium design and extra functions (fan, heater).</p>
+<ul>
+<li><strong>Philips AC2939/10 (2000i Series):</strong> CADR of 224 CFM (380 m³/h), rooms up to 1,055 sq ft (98 m²), AeraSense sensor.</li>
+<li><strong>Dyson Purifier Cool Formaldehyde TP09:</strong> H13 HEPA plus a catalytic formaldehyde filter, built-in fan.</li>
+<li><strong>Blueair HealthProtect 7440i:</strong> CADR of 268 CFM (455 m³/h, smoke), HEPASilent Ultra, GermShield.</li>
+<li><strong>Coway Airmega 400:</strong> dual filters, built for very large open-concept spaces.</li>
+</ul>
+
+<h2>Maintenance: a filter replacement schedule</h2>
+
+<h3>Pre-filter: washable, clean it monthly</h3>
+<p>The pre-filter catches large particles (hair, lint, visible dust). It's usually washable or can be vacuumed, and should be cleaned <strong>every 2 to 4 weeks</strong>. A clogged pre-filter cuts airflow and puts extra strain on the HEPA filter.</p>
+
+<h3>HEPA filter: replace every 6 to 12 months</h3>
+<p>A HEPA filter is <strong>not washable</strong> (water ruins the fibers). Replace it when the purifier's indicator says so, or every 6 months (heavy use, pets, a polluted city) to 12 months (moderate use, a rural area). Tip: write the replacement date on the filter with a marker.</p>
+
+<h3>Activated carbon filter: replace every 3 to 6 months</h3>
+<p>Activated carbon saturates faster than HEPA media, especially with strong odors or high VOC levels. On combination cartridges (HEPA and carbon in one unit), you replace both at once. On models with separate filters, change the carbon filter more often.</p>
+
+<h3>UV-C lamp: replace every 12 to 24 months</h3>
+<p>UV-C lamps gradually lose their germicidal strength. Check the hours-of-use counter if your purifier has one.</p>
+
+<h2>Allergy seasons in Europe by country: when to run your purifier</h2>
+<table>
+<thead>
+<tr><th>Country</th><th>Tree pollen</th><th>Grass pollen</th><th>Weeds / ragweed</th><th>Dust mites (peak)</th></tr>
+</thead>
+<tbody>
+<tr><td>France</td><td>Feb – May</td><td>May – Jul</td><td>Aug – Oct</td><td>Oct – Mar</td></tr>
+<tr><td>Germany</td><td>Mar – May</td><td>May – Aug</td><td>Jul – Sep</td><td>Oct – Mar</td></tr>
+<tr><td>United Kingdom</td><td>Feb – May</td><td>May – Jul</td><td>Jun – Sep</td><td>Oct – Mar</td></tr>
+<tr><td>Spain</td><td>Jan – Apr</td><td>Apr – Jun</td><td>Aug – Oct</td><td>Oct – Feb</td></tr>
+<tr><td>Italy</td><td>Feb – Apr</td><td>Apr – Jun</td><td>Jul – Oct</td><td>Oct – Mar</td></tr>
+<tr><td>Netherlands</td><td>Mar – May</td><td>May – Aug</td><td>Jul – Sep</td><td>Oct – Mar</td></tr>
+</tbody>
+</table>
+<p><strong>Tip:</strong> if you have allergies, run your purifier <strong>around the clock during pollen season</strong>, in auto mode. Outside peak periods, a few hours a day is enough. Dust mites are around all year but thrive in fall and winter in warm, humid homes. These windows are only a guide: they shift with the region and each year's weather, so check the local pollen forecast where you live.</p>`,
+    ca: `<h2>Introduction: Why Indoor Air Quality Is a Health Priority in 2026</h2>
+<p>We spend the vast majority of our time indoors, yet the air we breathe at home is often more polluted than the air outside: the US Environmental Protection Agency (EPA) reports indoor concentrations of some pollutants 2 to 5 times higher than outdoors. Fine particles (PM2.5), volatile organic compounds (VOCs), allergens (pollen, dust mites, pet dander), mould spores, formaldehyde from new furniture... The sources of indoor pollution are many, and most of them go unnoticed.</p>
+<p>Health agencies regularly flag indoor air pollution as a public health issue, and respiratory allergies affect a large and growing number of people. That is why air purifiers have moved from comfort accessory to genuinely useful everyday appliance, alongside good ventilation.</p>
+<p>This guide explains how air purifiers work, which criteria matter most, which brands to look at and which product tier to aim for in 2026. It is based on manufacturer specifications, independent reviews and verified buyer reviews. To round out your indoor comfort setup, see our <a href="/ca/blog/comparatif-purificateur-air-allergie">best air purifiers for allergies comparison</a> and our <a href="/ca/blog/climatiseur-mobile-vs-ventilateur">portable air conditioner vs fan analysis</a>.</p>
+
+<h2>How Does an Air Purifier Work?</h2>
+
+<h3>HEPA Filters: The Gold Standard</h3>
+<p>The <strong>HEPA (High Efficiency Particulate Air)</strong> filter is the most effective and proven filtration technology. Under the European EN 1822 standard, an H13 HEPA filter captures <strong>at least 99.95% of particles</strong> at the most penetrating particle size (around 0.1 to 0.3 µm), while H14 reaches 99.995%. These particles are the hardest to capture, so the filter is even more efficient at catching larger and smaller ones.</p>
+<p>A true HEPA filter is a pleated filtration media made from ultra-fine glass fibres folded in a zigzag pattern to maximize the filtering surface. It captures particles through three mechanisms: interception, impaction and diffusion. <strong>Beware of labels like "HEPA-like" or "HEPA-type"</strong>, which do not guarantee H13/H14 class.</p>
+
+<h3>Activated Carbon Filters: Against Gases and Odours</h3>
+<p>Activated carbon is a form of carbon processed to be extremely porous (several hundred to over a thousand square metres of surface area per gram). It adsorbs <strong>volatile organic compounds (VOCs)</strong>, formaldehyde, cooking odours, cigarette smoke and certain gases. Most purifiers combine a pre-filter, an activated carbon filter and a HEPA filter in a single replaceable block.</p>
+
+<h3>UV-C Technology: Neutralizing Micro-organisms</h3>
+<p>Some purifiers include a UV-C lamp emitting ultraviolet radiation at around 254 nm. This wavelength damages the DNA of bacteria, viruses and mould, leaving them unable to reproduce. <strong>Effectiveness depends on exposure time</strong>: air must flow slowly enough past the lamp. In practice, UV-C is a complement to HEPA filtration, not a substitute for it.</p>
+
+<h3>Ionizers: Mixed Reviews</h3>
+<p>An ionizer emits negative ions that attach to airborne particles, making them heavier so they fall to the floor or onto surfaces. <strong>Advantage:</strong> silent operation, no filter to replace. <strong>Disadvantage:</strong> particles are not all eliminated (they just settle elsewhere), and some ionizers produce ozone, a respiratory irritant. Ionization alone is not recommended for people with allergies.</p>
+
+<h2>Essential Criteria for Choosing an Air Purifier</h2>
+
+<h3>CADR (Clean Air Delivery Rate)</h3>
+<p>CADR is <strong>the single most important metric</strong>. It measures the volume of purified air delivered per hour (in m³/h here, or in cfm on North American packaging). The higher the CADR, the faster the purifier cleans the air in the room. It may be measured separately for smoke, dust and pollen.</p>
+<table>
+<thead>
+<tr><th>Room Size</th><th>Minimum CADR</th><th>Ideal CADR</th></tr>
+</thead>
+<tbody>
+<tr><td>10–15 m² (110–160 sq. ft.)</td><td>100 m³/h</td><td>150 m³/h</td></tr>
+<tr><td>15–25 m² (160–270 sq. ft.)</td><td>150 m³/h</td><td>250 m³/h</td></tr>
+<tr><td>25–40 m² (270–430 sq. ft.)</td><td>250 m³/h</td><td>400 m³/h</td></tr>
+<tr><td>40–60 m² (430–650 sq. ft.)</td><td>400 m³/h</td><td>600 m³/h</td></tr>
+<tr><td>60 m²+ (650+ sq. ft.)</td><td>600 m³/h</td><td>800+ m³/h</td></tr>
+</tbody>
+</table>
+<p><strong>Rule of thumb:</strong> the CADR should allow at least 4 to 5 air changes per hour. For a 20 m² (about 220 sq. ft.) bedroom with 2.5 m (8 ft) ceilings, or 50 m³ of air, aim for a CADR of at least 200 m³/h.</p>
+
+<h3>Room Coverage and Sizing</h3>
+<p>Manufacturers state a maximum room size, but it is often calculated on just 1 to 2 air changes per hour. If you have allergies, <strong>divide that figure by about 2</strong> to get the truly effective coverage at 4 to 5 air changes. A slightly oversized purifier running on quiet mode beats an undersized one running on turbo.</p>
+
+<h3>Noise Level (dB)</h3>
+<p>Noise is a crucial criterion, especially in a bedroom. Here are the benchmarks:</p>
+<table>
+<thead>
+<tr><th>Noise Level</th><th>Equivalent</th><th>Recommended Use</th></tr>
+</thead>
+<tbody>
+<tr><td>20–25 dB</td><td>Whisper</td><td>Bedroom, night, baby's room</td></tr>
+<tr><td>25–35 dB</td><td>Library</td><td>Home office, quiet living room</td></tr>
+<tr><td>35–50 dB</td><td>Light rain</td><td>Living room, kitchen</td></tr>
+<tr><td>50–65 dB</td><td>Conversation</td><td>Turbo mode only</td></tr>
+</tbody>
+</table>
+<p><strong>Tip:</strong> check the noise level on night mode or minimum speed. A purifier rated at 50 dB on max may drop below 25 dB in sleep mode, which is perfect for a bedroom.</p>
+
+<h3>Replacement Filter Costs and Frequency</h3>
+<p>This is the hidden cost of an air purifier. A HEPA + activated carbon filter needs replacing every <strong>6 to 12 months</strong>, depending on use. Over several years, you can spend more on filters than on the unit itself, so check the price and availability of genuine filters before you buy.</p>
+<table>
+<thead>
+<tr><th>Brand / Model</th><th>Typical replacement interval</th><th>Filter cost</th></tr>
+</thead>
+<tbody>
+<tr><td>Levoit Core 300S</td><td>6 to 8 months</td><td>Moderate</td></tr>
+<tr><td>Coway Airmega 250</td><td>Up to 12 months</td><td>Medium</td></tr>
+<tr><td>Blueair Blue Pure 411i Max</td><td>About 6 months</td><td>Medium</td></tr>
+<tr><td>Philips AC2939/10</td><td>About 12 months</td><td>Medium to high</td></tr>
+<tr><td>Dyson TP09</td><td>About 12 months</td><td>High</td></tr>
+<tr><td>Xiaomi Smart Air Purifier 4</td><td>6 to 12 months</td><td>Moderate</td></tr>
+</tbody>
+</table>
+
+<h3>Smart Features and Sensors</h3>
+<p>In 2026, many purifiers include <strong>laser PM2.5 sensors</strong> that measure fine particle levels in real time. The most complete models add VOC/HCHO (formaldehyde) and humidity sensors. Phone apps let you track your air quality history, schedule run times and get filter replacement alerts. <strong>Google Home and Amazon Alexa</strong> support is common; Apple HomeKit and Matter are still rarer, so check model by model.</p>
+
+<h3>Power Consumption</h3>
+<p>An air purifier draws anywhere from <strong>a few watts in sleep mode to around 60 W on turbo</strong>. Running continuously in auto mode (recommended), expect about 15 to 25 W on average, or roughly <strong>130 to 220 kWh per year</strong>: about $13 to $22 a year at an example rate of 10¢/kWh (your rate depends on your province and utility, so check your bill). That is far less than a portable air conditioner (800 to 1,400 W). Some models, such as Coway's Airmega range, have an Eco mode that slows or stops the fan when the air is clean.</p>
+
+<h2>Top Air Purifier Brands in 2026</h2>
+
+<h3>Levoit: Best Value</h3>
+<p>This American brand (part of the VeSync group) has become a fixture thanks to affordable, effective purifiers. The <strong>Core 300S</strong> (CADR of around 240 m³/h, according to the manufacturer) is one of the best-selling models. The <strong>Core 400S</strong> tops 400 m³/h for larger rooms. H13 HEPA filters, VeSync app, Alexa/Google Home compatibility. <strong>Strengths:</strong> competitive pricing, affordable filters. <strong>Weakness:</strong> no PM2.5 sensor on the smallest model, the Core 200S.</p>
+
+<h3>Coway: The Korean Benchmark</h3>
+<p>Coway is one of the leading air treatment brands in South Korea. The <strong>Airmega 250</strong>, sold in Europe, combines HEPA and activated carbon filtration in a minimalist design that fits any decor; models and versions sold in Canada can differ from the European ones, so check that the listing is for a 120 V North American model. <strong>Strengths:</strong> filtration quality, smart Eco mode, a good reputation for durability among buyers. <strong>Weakness:</strong> filters cost more than Levoit or Xiaomi ones.</p>
+
+<h3>Blueair: Scandinavian Design</h3>
+<p>A Swedish brand acquired by Unilever, Blueair is known for sleek designs and effective filtration. Its <strong>HEPASilent</strong> technology combines mechanical and electrostatic filtration for high airflow at low noise. The <strong>Blue Pure 411i Max</strong> is a compact model well suited to bedrooms. <strong>Strengths:</strong> quiet operation, design. <strong>Weakness:</strong> expensive proprietary filters.</p>
+
+<h3>Philips: A Trusted European Brand</h3>
+<p>Philips offers purifiers with an <strong>AeraSense</strong> sensor that automatically adjusts fan speed to air quality. The <strong>AC2939/10</strong> (2000i Series) is rated for rooms up to 98 m² (about 1,100 sq. ft.) with a CADR of 380 m³/h, and Philips quotes 15 dB in sleep mode. Built-in HEPA and activated carbon filters. <strong>Strengths:</strong> accurate sensor, large room coverage, a long-established brand. <strong>Weakness:</strong> less modern design than its competitors.</p>
+
+<h3>Dyson: Multifunction Innovation</h3>
+<p>Dyson combines purification and a fan (or heater) in a single appliance. The <strong>Purifier Cool Formaldehyde TP09</strong> pairs an H13 HEPA filter with a catalytic filter that continuously breaks down formaldehyde. LCD display, full-featured MyDyson app. <strong>Strengths:</strong> two-in-one function, sensors, iconic design. <strong>Weakness:</strong> very high price, and modest purification output for that price.</p>
+
+<h3>Xiaomi: Affordable Smart Tech</h3>
+<p>Xiaomi applies its usual formula: solid technology at a sharp price. The <strong>Smart Air Purifier 4</strong> offers a CADR of 400 m³/h, an OLED touch display, a laser PM2.5 sensor and Mi Home/Google Home/Alexa compatibility. The <strong>Smart Air Purifier 4 Pro</strong> reaches 500 m³/h for large spaces. <strong>Strengths:</strong> capacity for the price, connectivity, the Xiaomi ecosystem. <strong>Weakness:</strong> filters need replacing fairly often with heavy use.</p>
+
+<h2>Guide by Product Tier</h2>
+
+<h3>Entry-Level: The Essentials for a Small Room</h3>
+<p>In this tier, you get purifiers with H13 HEPA filters and a CADR of 150 to 360 m³/h, suited to rooms of 10 to 25 m² (about 110 to 270 sq. ft.). The sensors are simpler, but filtration is still effective against the main allergens.</p>
+<ul>
+<li><strong>Levoit Core 300S:</strong> CADR of around 240 m³/h, H13 HEPA filter, Wi-Fi, Alexa/Google. One of the safest bets on the market.</li>
+<li><strong>Levoit Core 200S:</strong> compact, ideal for a 10 to 15 m² (110 to 160 sq. ft.) bedroom.</li>
+<li><strong>Xiaomi Smart Air Purifier 4 Lite:</strong> CADR 360 m³/h, PM2.5 sensor, very capable for its tier.</li>
+</ul>
+
+<h3>Mid-Range: The Best Balance</h3>
+<p>The right tier for most households: built-in PM2.5 sensors, a CADR of 300 to 450 m³/h, a smart auto mode and full connectivity.</p>
+<ul>
+<li><strong>Xiaomi Smart Air Purifier 4:</strong> CADR 400 m³/h, laser PM2.5 sensor, OLED display.</li>
+<li><strong>Levoit Core 400S:</strong> CADR above 400 m³/h, full-featured app, precise auto mode.</li>
+<li><strong>Coway Airmega 250:</strong> HEPA + carbon filtration, Eco mode, refined design.</li>
+<li><strong>Philips AC1715/10 (1000i Series):</strong> CADR 300 m³/h, up to 78 m² (about 840 sq. ft.), AeraSense sensor, Air+ app.</li>
+</ul>
+
+<h3>Premium: No Compromise</h3>
+<p>Purifiers for large spaces (40 to 100 m², about 430 to 1,100 sq. ft.), with multiple sensors (PM2.5, VOC, HCHO), a high CADR, premium design and extra functions (fan, heater).</p>
+<ul>
+<li><strong>Philips AC2939/10 (2000i Series):</strong> CADR 380 m³/h, up to 98 m² (about 1,100 sq. ft.), AeraSense sensor.</li>
+<li><strong>Dyson Purifier Cool Formaldehyde TP09:</strong> H13 HEPA + catalytic formaldehyde filter, built-in fan.</li>
+<li><strong>Blueair HealthProtect 7440i:</strong> CADR 455 m³/h (smoke), HEPASilent Ultra, GermShield.</li>
+<li><strong>Coway Airmega 400:</strong> dual filters, designed for very large open-concept spaces.</li>
+</ul>
+
+<h2>Maintenance: Filter Replacement Schedule</h2>
+
+<h3>Pre-filter: Washable, Clean It Monthly</h3>
+<p>The pre-filter captures large particles (hair, lint, visible dust). It is usually washable or can be vacuumed, and should be cleaned <strong>every 2 to 4 weeks</strong>. A clogged pre-filter reduces airflow and overloads the HEPA filter.</p>
+
+<h3>HEPA Filter: Replace Every 6 to 12 Months</h3>
+<p>The HEPA filter is <strong>not washable</strong> (water destroys the fibres). Replace it when the unit's indicator tells you to, or every 6 months (heavy use, pets, polluted urban area) to 12 months (moderate use, rural area). Tip: write the replacement date on the filter with a marker.</p>
+
+<h3>Activated Carbon Filter: Replace Every 3 to 6 Months</h3>
+<p>Activated carbon saturates faster than HEPA, especially with strong odours or VOCs. On combined models (HEPA + carbon in one block), you replace both at once. On models with separate filters, change the carbon more often.</p>
+
+<h3>UV-C Lamp: Replace Every 12 to 24 Months</h3>
+<p>UV-C lamps gradually lose their germicidal effectiveness. Check the operating hour counter if your unit has one.</p>
+
+<h2>Allergy Seasons in Europe: When to Run Your Purifier</h2>
+<table>
+<thead>
+<tr><th>Country</th><th>Tree Pollen</th><th>Grass Pollen</th><th>Weed / Ragweed</th><th>Dust Mites (Peak)</th></tr>
+</thead>
+<tbody>
+<tr><td>France</td><td>Feb – May</td><td>May – Jul</td><td>Aug – Oct</td><td>Oct – Mar</td></tr>
+<tr><td>Germany</td><td>Mar – May</td><td>May – Aug</td><td>Jul – Sep</td><td>Oct – Mar</td></tr>
+<tr><td>United Kingdom</td><td>Feb – May</td><td>May – Jul</td><td>Jun – Sep</td><td>Oct – Mar</td></tr>
+<tr><td>Spain</td><td>Jan – Apr</td><td>Apr – Jun</td><td>Aug – Oct</td><td>Oct – Feb</td></tr>
+<tr><td>Italy</td><td>Feb – Apr</td><td>Apr – Jun</td><td>Jul – Oct</td><td>Oct – Mar</td></tr>
+<tr><td>Netherlands</td><td>Mar – May</td><td>May – Aug</td><td>Jul – Sep</td><td>Oct – Mar</td></tr>
+</tbody>
+</table>
+<p><strong>Tip:</strong> if you have allergies, run your purifier <strong>continuously in auto mode during pollen season</strong>. Outside peak periods, a few hours a day is enough. Dust mites are present year-round but thrive in fall and winter in heated, humid homes. The periods above are for European countries and vary by region and by each year's weather; wherever you live, your local pollen forecast gives the actual dates.</p>`,
   },
   faq: [
     {
@@ -1127,6 +1601,9 @@ export const article: BlogArticle = {
         it: 'Filtro HEPA o ionizzatore: quale scegliere?',
         nl: 'HEPA-filter of ionisator: welke kiezen?',
         pl: 'Filtr HEPA czy jonizator: co wybrać?',
+        sv: 'HEPA-filter eller jonisator: vad ska jag välja?',
+        us: 'HEPA filter or ionizer: which is better?',
+        ca: 'HEPA filter or ionizer: which should I choose?',
       },
       answer: {
         fr: 'Le filtre HEPA est nettement supérieur pour les allergies. Il capture physiquement au moins 99,95 % des particules (classe H13), dont pollens, acariens et poils, et les retient définitivement. L\'ioniseur fait tomber les particules au sol sans les éliminer et peut produire de l\'ozone irritant. Pour les allergiques, choisissez un purificateur avec filtre HEPA H13 minimum.',
@@ -1135,7 +1612,10 @@ export const article: BlogArticle = {
         es: 'Los filtros HEPA son claramente mejores para las alergias. Retienen físicamente al menos el 99,95 % de las partículas (clase H13), incluidos polen, ácaros y pelo de mascotas. Los ionizadores solo hacen caer las partículas y pueden producir ozono irritante. Si eres alérgico, elige siempre un purificador con filtro HEPA H13 como mínimo.',
         it: 'I filtri HEPA sono nettamente superiori per le allergie. Trattengono fisicamente almeno il 99,95% delle particelle (classe H13), tra cui pollini, acari e peli di animali. Gli ionizzatori fanno solo cadere le particelle e possono produrre ozono irritante. Per chi soffre di allergie, scegliete sempre un purificatore con filtro HEPA H13 come minimo.',
         nl: 'HEPA-filters zijn duidelijk beter bij allergie. Ze vangen fysiek minstens 99,95% van de deeltjes op (klasse H13), waaronder pollen, huisstofmijt en dierenhaar. Ionisatoren laten deeltjes alleen neerslaan en kunnen irriterend ozon produceren. Kies bij allergie altijd een luchtreiniger met minimaal een HEPA H13-filter.',
-        pl: 'Filtr HEPA jest zdecydowanie lepszy w przypadku alergii. Fizycznie zatrzymuje co najmniej 99,95% cząstek (klasa H13), w tym pyłki, roztocza i sierść, i zatrzymuje je na stałe. Jonizator sprawia, że cząstki opadają na podłoże, ale ich nie usuwa, a przy tym może wytwarzać drażniący ozon. Osobom uczulonym zalecamy oczyszczacz z filtrem HEPA co najmniej klasy H13.',
+        pl: 'Przy alergii filtr HEPA jest zdecydowanie lepszy. Mechanicznie wyłapuje co najmniej 99,95% cząstek (klasa H13), w tym pyłki, roztocza i sierść zwierząt, i trwale je w sobie zatrzymuje. Jonizator sprawia jedynie, że cząstki opadają na podłogę – nie usuwa ich, a do tego może wytwarzać drażniący ozon. Jeśli masz alergię, wybierz oczyszczacz z filtrem HEPA klasy co najmniej H13.',
+        sv: 'HEPA-filter är klart bättre vid allergi. De fångar fysiskt minst 99,95 % av partiklarna (klass H13), bland annat pollen, kvalster och mjäll från husdjur, och håller kvar dem för gott. En jonisator får partiklarna att falla ner på ytorna utan att ta bort dem, och kan bilda ozon som irriterar luftvägarna. Är du allergiker bör du välja en luftrenare med minst ett HEPA-filter i klass H13.',
+        us: 'A HEPA filter is far better for allergies. It physically traps at least 99.95% of particles (H13 class), including pollen, dust mites and pet dander, and holds on to them for good. An ionizer just makes particles drop onto surfaces without removing them, and it can give off irritating ozone. If you have allergies, choose a purifier with at least an H13 HEPA filter.',
+        ca: 'HEPA filters are significantly better for allergies. They physically capture at least 99.95% of particles (H13 class), including pollen, dust mites and pet dander, and hold on to them for good. Ionizers make particles fall onto surfaces without eliminating them, and may produce irritating ozone. If you have allergies, choose a purifier with at least an H13 HEPA filter.',
       },
     },
     {
@@ -1147,6 +1627,9 @@ export const article: BlogArticle = {
         it: 'Ogni quanto va sostituito il filtro HEPA?',
         nl: 'Hoe vaak moet het HEPA-filter worden vervangen?',
         pl: 'Jak często trzeba wymieniać filtr HEPA?',
+        sv: 'Hur ofta ska jag byta HEPA-filtret?',
+        us: 'How often should you replace a HEPA filter?',
+        ca: 'How often should I replace the HEPA filter?',
       },
       answer: {
         fr: 'En général, tous les 6 à 12 mois selon l\'utilisation. Remplacez-le tous les 6 mois si vous avez des animaux, vivez en zone urbaine polluée ou faites fonctionner le purificateur en continu. En zone rurale avec une utilisation modérée, 12 mois suffisent. Fiez-vous à l\'indicateur de votre appareil et n\'essayez jamais de laver un filtre HEPA : l\'eau détruit les fibres filtrantes.',
@@ -1155,7 +1638,10 @@ export const article: BlogArticle = {
         es: 'Por lo general, cada 6 a 12 meses según el uso. Cada 6 meses si tienes mascotas, vives en una ciudad contaminada o usas el purificador de forma continua. En zona rural con uso moderado, 12 meses son suficientes. Sigue el indicador de tu aparato y nunca laves un filtro HEPA: el agua destruye las fibras.',
         it: 'In genere ogni 6-12 mesi a seconda dell\'uso. Ogni 6 mesi se avete animali, vivete in una città inquinata o usate il purificatore in continuo. In zona rurale con uso moderato bastano 12 mesi. Seguite l\'indicatore del vostro apparecchio e non lavate mai un filtro HEPA: l\'acqua distrugge le fibre.',
         nl: 'Meestal elke 6 tot 12 maanden, afhankelijk van het gebruik. Elke 6 maanden als je huisdieren hebt, in een vervuilde stad woont of de luchtreiniger continu laat draaien. Op het platteland bij matig gebruik volstaat 12 maanden. Volg de indicator van je apparaat en was een HEPA-filter nooit: water vernielt de vezels.',
-        pl: 'Zazwyczaj co 6–12 miesięcy, w zależności od użytkowania. Wymieniaj go co 6 miesięcy, jeśli masz zwierzęta, mieszkasz na zanieczyszczonym obszarze miejskim lub oczyszczacz pracuje nieprzerwanie. Na obszarze wiejskim przy umiarkowanym użytkowaniu wystarczy 12 miesięcy. Kieruj się wskaźnikiem urządzenia i nigdy nie próbuj myć filtra HEPA: woda niszczy włókna filtrujące.',
+        pl: 'Zwykle co 6–12 miesięcy, zależnie od intensywności użytkowania. Co 6 miesięcy wymieniaj go, jeśli masz zwierzęta, mieszkasz w zanieczyszczonym mieście albo oczyszczacz pracuje bez przerwy. Na wsi, przy umiarkowanym użytkowaniu, wystarczy wymiana co 12 miesięcy. Kieruj się wskaźnikiem wymiany w urządzeniu i nigdy nie próbuj myć filtra HEPA – woda niszczy włókna filtracyjne.',
+        sv: 'Oftast efter 6–12 månader, beroende på användning. Byt det var sjätte månad om du har husdjur, bor i en förorenad stadsmiljö eller låter luftrenaren gå hela tiden. På landsbygden och vid måttlig användning räcker 12 månader. Följ apparatens filterindikator och försök aldrig tvätta ett HEPA-filter: vatten förstör filterfibrerna.',
+        us: 'Usually every 6 to 12 months, depending on use. Replace it every 6 months if you have pets, live in a polluted city or run the purifier around the clock. In a rural area with moderate use, 12 months is enough. Go by your purifier\'s replacement indicator, and never try to wash a HEPA filter: water ruins the filter fibers.',
+        ca: 'Generally every 6 to 12 months depending on usage. Replace it every 6 months if you have pets, live in a polluted urban area, or run the purifier continuously. In rural areas with moderate use, 12 months is sufficient. Follow your unit\'s replacement indicator and never try to wash a HEPA filter, as water destroys the filtering fibres.',
       },
     },
     {
@@ -1166,7 +1652,10 @@ export const article: BlogArticle = {
         es: '¿Son realmente eficaces los purificadores de aire contra las alergias?',
         it: 'I purificatori d\'aria sono davvero efficaci contro le allergie?',
         nl: 'Zijn luchtreinigers echt effectief tegen allergieën?',
-        pl: 'Czy oczyszczacz powietrza naprawdę skutecznie pomaga na alergie?',
+        pl: 'Czy oczyszczacz powietrza naprawdę pomaga na alergię?',
+        sv: 'Hjälper en luftrenare verkligen mot allergi?',
+        us: 'Do air purifiers really help with allergies?',
+        ca: 'Are air purifiers really effective against allergies?',
       },
       answer: {
         fr: 'Ils réduisent nettement la concentration de particules et d\'allergènes en suspension, à condition de choisir un filtre HEPA H13 ou H14 et un CADR adapté à la pièce. Les études disponibles suggèrent une amélioration des symptômes chez certains allergiques, mais l\'effet varie selon les personnes. Un purificateur complète l\'aération, le ménage et le traitement prescrit par votre médecin, sans les remplacer.',
@@ -1175,7 +1664,10 @@ export const article: BlogArticle = {
         es: 'Reducen claramente la concentración de partículas y alérgenos en el aire, siempre que elijas un filtro HEPA H13 o H14 y un CADR adecuado a la habitación. Los estudios disponibles sugieren una mejora de los síntomas en algunos alérgicos, pero el efecto varía según la persona. Complementa la ventilación, la limpieza y el tratamiento médico, sin sustituirlos.',
         it: 'Riducono nettamente la concentrazione di particelle e allergeni nell\'aria, a patto di scegliere un filtro HEPA H13 o H14 e un CADR adatto alla stanza. Gli studi disponibili suggeriscono un miglioramento dei sintomi in alcuni allergici, ma l\'effetto varia da persona a persona. Il purificatore integra ricambio d\'aria, pulizia e terapia medica, senza sostituirli.',
         nl: 'Ze verlagen de concentratie van zwevende deeltjes en allergenen duidelijk, mits je een HEPA H13- of H14-filter en een CADR kiest die bij de kamer past. Beschikbare studies wijzen op minder klachten bij een deel van de allergiepatiënten, maar het effect verschilt per persoon. Een luchtreiniger vult ventileren, schoonmaken en medische behandeling aan, maar vervangt ze niet.',
-        pl: 'Wyraźnie zmniejsza stężenie zawieszonych w powietrzu cząstek i alergenów, pod warunkiem że wybierzesz filtr HEPA H13 lub H14 oraz CADR dopasowany do pomieszczenia. Dostępne badania sugerują poprawę objawów u części alergików, ale efekt bywa różny u różnych osób. Oczyszczacz uzupełnia wietrzenie, sprzątanie i leczenie zalecone przez lekarza, ale ich nie zastępuje.',
+        pl: 'Wyraźnie obniża stężenie unoszących się w powietrzu cząstek i alergenów – pod warunkiem że ma filtr HEPA H13 lub H14, a jego CADR jest dopasowany do pomieszczenia. Dostępne badania wskazują, że u części alergików objawy słabną, ale efekt zależy od osoby. Oczyszczacz uzupełnia wietrzenie, sprzątanie i leczenie zalecone przez lekarza, ale ich nie zastępuje.',
+        sv: 'Den minskar tydligt halten av luftburna partiklar och allergener, förutsatt att du väljer ett HEPA-filter i klass H13 eller H14 och en CADR som passar rummet. Tillgängliga studier tyder på att symtomen lindras för en del allergiker, men effekten varierar från person till person. En luftrenare är ett komplement till vädring, städning och eventuell behandling som din läkare har ordinerat, inte en ersättning för dem.',
+        us: 'They noticeably cut the level of airborne particles and allergens, as long as you choose an H13 or H14 HEPA filter and a CADR sized for the room. The available studies suggest symptoms improve for some allergy sufferers, but results vary from person to person. A purifier works alongside ventilation, regular cleaning and any treatment your doctor prescribes; it doesn\'t replace them.',
+        ca: 'They clearly reduce the concentration of airborne particles and allergens, provided you choose an H13 or H14 HEPA filter and a CADR suited to the room. Available studies suggest symptom improvement for some allergy sufferers, but the effect varies from person to person. A purifier complements ventilation, cleaning and any treatment prescribed by your doctor; it does not replace them.',
       },
     },
     {
@@ -1187,6 +1679,9 @@ export const article: BlogArticle = {
         it: 'Quanta elettricità consuma un purificatore d\'aria?',
         nl: 'Hoeveel elektriciteit verbruikt een luchtreiniger?',
         pl: 'Ile prądu zużywa oczyszczacz powietrza?',
+        sv: 'Hur mycket el drar en luftrenare?',
+        us: 'How much electricity does an air purifier use?',
+        ca: 'How much electricity does an air purifier use?',
       },
       answer: {
         fr: 'Très peu. En mode automatique (recommandé), un purificateur consomme en moyenne 15 à 25 W, soit environ 130 à 220 kWh par an en fonctionnement continu. En mode turbo, la consommation monte à 40-60 W, mais ce mode n\'est utilisé que ponctuellement. C\'est bien moins qu\'un climatiseur mobile (800-1 400 W).',
@@ -1195,7 +1690,10 @@ export const article: BlogArticle = {
         es: 'Muy poca. En modo automático (recomendado), un purificador consume de media 15-25 W, unos 130 a 220 kWh al año en funcionamiento continuo. En modo turbo sube a 40-60 W, pero solo se usa de forma puntual. Mucho menos que un aire acondicionado portátil (800-1.400 W).',
         it: 'Pochissima. In modalità automatica (consigliata), un purificatore consuma in media 15-25 W, circa 130-220 kWh all\'anno in funzionamento continuo. In turbo il consumo sale a 40-60 W, ma questa modalità si usa solo occasionalmente. Molto meno di un climatizzatore portatile (800-1.400 W).',
         nl: 'Heel weinig. In automatische modus (aanbevolen) verbruikt een luchtreiniger gemiddeld 15-25 W, ongeveer 130 tot 220 kWh per jaar bij continu gebruik. Op turbo stijgt het verbruik naar 40-60 W, maar die stand gebruik je maar af en toe. Veel minder dan een mobiele airco (800-1.400 W).',
-        pl: 'Bardzo niewiele. W trybie automatycznym (zalecanym) oczyszczacz zużywa średnio 15–25 W, czyli około 130–220 kWh rocznie przy pracy ciągłej. W trybie turbo zużycie rośnie do 40–60 W, ale ten tryb włącza się tylko doraźnie. To znacznie mniej niż klimatyzator przenośny (800–1400 W).',
+        pl: 'Bardzo mało. W trybie automatycznym (zalecanym) oczyszczacz pobiera średnio 15–25 W, co przy pracy całodobowej daje ok. 130–220 kWh rocznie. W trybie turbo pobór mocy rośnie do 40–60 W, ale z tego trybu korzysta się tylko od czasu do czasu. To nieporównanie mniej niż w przypadku klimatyzatora przenośnego (800–1400 W).',
+        sv: 'Väldigt lite. I autoläge (rekommenderas) drar en luftrenare i snitt 15–25 W, ungefär 130–220 kWh per år vid kontinuerlig drift. På turbo ökar förbrukningen till 40–60 W, men det läget används bara ibland. Det är betydligt mindre än en portabel AC (800–1 400 W).',
+        us: 'Very little. In auto mode (the recommended setting), a purifier averages 15 to 25 W, or roughly 130 to 220 kWh a year running around the clock: about $26 to $44 a year at an example rate of 20 cents per kWh (check the rate on your utility bill). On turbo, it climbs to 40 to 60 W, but you\'ll only use that setting now and then. That\'s far less than a portable air conditioner (800 to 1,400 W).',
+        ca: 'Very little. In auto mode (recommended), a purifier draws 15 to 25 W on average, or roughly 130 to 220 kWh a year running continuously: about $13 to $22 at an example rate of 10¢/kWh. On turbo, it rises to 40 to 60 W, but you only use that mode occasionally. That is far less than a portable air conditioner (800 to 1,400 W).',
       },
     },
     {
@@ -1207,6 +1705,9 @@ export const article: BlogArticle = {
         it: 'Un purificatore d\'aria è rumoroso di notte?',
         nl: 'Is een luchtreiniger \'s nachts luid?',
         pl: 'Czy oczyszczacz powietrza jest głośny w nocy?',
+        sv: 'Låter en luftrenare mycket på natten?',
+        us: 'Are air purifiers loud at night?',
+        ca: 'Is an air purifier noisy at night?',
       },
       answer: {
         fr: 'Non, si vous choisissez un modèle avec un bon mode nuit. Les meilleurs purificateurs descendent autour de 15 à 25 dB en mode veille, le niveau d\'un chuchotement, et certains éteignent leurs voyants. Levoit annonce 24 dB pour le Core 300S et Philips 15 dB pour l\'AC2939/10 en mode veille. Vérifiez toujours le niveau sonore minimum avant d\'acheter.',
@@ -1215,7 +1716,10 @@ export const article: BlogArticle = {
         es: 'No, si eliges un modelo con un buen modo noche. Los mejores purificadores bajan a unos 15-25 dB en modo reposo, nivel de susurro, y algunos apagan sus luces. Levoit indica 24 dB para el Core 300S y Philips 15 dB para el AC2939/10. Comprueba siempre el nivel sonoro mínimo antes de comprar.',
         it: 'No, se scegliete un modello con una buona modalità notte. I migliori purificatori scendono a circa 15-25 dB in modalità sleep, livello di un sussurro, e alcuni spengono le spie. Levoit dichiara 24 dB per il Core 300S e Philips 15 dB per l\'AC2939/10. Verificate sempre il livello sonoro minimo prima dell\'acquisto.',
         nl: 'Nee, als je een model met een goede nachtmodus kiest. De beste luchtreinigers zakken in slaapmodus naar ongeveer 15-25 dB, fluisterniveau, en sommige doven hun lampjes. Levoit noemt 24 dB voor de Core 300S en Philips 15 dB voor de AC2939/10. Controleer vóór aankoop altijd het minimale geluidsniveau.',
-        pl: 'Nie, jeśli wybierzesz model z dobrym trybem nocnym. Najlepsze oczyszczacze w trybie uśpienia schodzą do ok. 15–25 dB, czyli poziomu szeptu, a niektóre wyłączają kontrolki. Levoit deklaruje 24 dB dla Core 300S, a Philips 15 dB dla AC2939/10 w trybie uśpienia. Przed zakupem zawsze sprawdź minimalny poziom hałasu.',
+        pl: 'Nie, jeśli wybierzesz model z dobrym trybem nocnym. W trybie uśpienia najlepsze oczyszczacze pracują z głośnością ok. 15–25 dB, czyli na poziomie szeptu, a niektóre dodatkowo gaszą kontrolki. Levoit podaje dla modelu Core 300S 24 dB, a Philips dla AC2939/10 – 15 dB (w trybie uśpienia). Przed zakupem zawsze sprawdź minimalny poziom hałasu.',
+        sv: 'Nej, inte om du väljer en modell med ett bra nattläge. De bästa luftrenarna går ner till omkring 15–25 dB i sovläge, ungefär som en viskning, och vissa släcker även sina indikatorlampor. Levoit anger 24 dB för Core 300S och Philips 15 dB för AC2939/10 i sovläge. Kontrollera alltid den lägsta ljudnivån innan du köper.',
+        us: 'Not if you choose a model with a good night mode. The best purifiers drop to around 15 to 25 dB in sleep mode, about the level of a whisper, and some also turn off their indicator lights. Levoit quotes 24 dB for the Core 300S and Philips 15 dB for the AC2939/10 in sleep mode. Always check the minimum noise level before you buy.',
+        ca: 'No, if you choose a model with a good night mode. The best purifiers drop to around 15-25 dB in sleep mode, which is whisper-level, and some switch off their lights. Levoit quotes 24 dB for the Core 300S and Philips 15 dB for the AC2939/10 in sleep mode. Always check the minimum noise level before buying.',
       },
     },
     {
@@ -1226,7 +1730,10 @@ export const article: BlogArticle = {
         es: '¿Puede un purificador de aire eliminar virus (COVID, gripe)?',
         it: 'Un purificatore d\'aria può eliminare i virus (COVID, influenza)?',
         nl: 'Kan een luchtreiniger virussen (COVID, griep) verwijderen?',
-        pl: 'Czy oczyszczacz powietrza może eliminować wirusy (COVID, grypa)?',
+        pl: 'Czy oczyszczacz powietrza usuwa wirusy (np. grypy i COVID)?',
+        sv: 'Kan en luftrenare ta bort virus (covid, influensa)?',
+        us: 'Can an air purifier remove viruses (COVID, flu)?',
+        ca: 'Can an air purifier remove viruses (COVID, flu)?',
       },
       answer: {
         fr: 'En partie. Un filtre HEPA H13 capture les aérosols respiratoires qui transportent les virus, et réduit donc leur concentration dans l\'air d\'une pièce. Une lampe UV-C peut compléter le dispositif. En revanche, un purificateur ne remplace ni l\'aération ni les gestes barrières : c\'est un complément, pas une solution unique.',
@@ -1235,7 +1742,10 @@ export const article: BlogArticle = {
         es: 'En parte. Un filtro HEPA H13 retiene los aerosoles respiratorios que transportan los virus y reduce así su concentración en el aire de la habitación. Una lámpara UV-C puede complementarlo. Pero un purificador no sustituye la ventilación ni las medidas de higiene: es un complemento, no una solución única.',
         it: 'In parte. Un filtro HEPA H13 trattiene gli aerosol respiratori che trasportano i virus e ne riduce quindi la concentrazione nell\'aria della stanza. Una lampada UV-C può completare il sistema. Il purificatore però non sostituisce il ricambio d\'aria né le misure igieniche: è un complemento, non una soluzione unica.',
         nl: 'Gedeeltelijk. Een HEPA H13-filter vangt de aerosolen op die virussen dragen en verlaagt zo hun concentratie in de kamerlucht. Een UV-C-lamp kan dat aanvullen. Een luchtreiniger vervangt echter geen ventilatie of hygiënemaatregelen: het is een aanvulling, geen oplossing op zich.',
-        pl: 'Częściowo. Filtr HEPA H13 zatrzymuje aerozole oddechowe, które przenoszą wirusy, i dzięki temu zmniejsza ich stężenie w powietrzu pomieszczenia. Lampa UV-C może uzupełnić ten system. Oczyszczacz nie zastępuje jednak ani wietrzenia, ani zasad higieny: to uzupełnienie, a nie jedyne rozwiązanie.',
+        pl: 'Częściowo. Filtr HEPA H13 wyłapuje kropelki aerozolu oddechowego, w których przenoszą się wirusy, a więc obniża ich stężenie w powietrzu. Uzupełnieniem może być lampa UV-C. Oczyszczacz nie zastąpi jednak wietrzenia ani zasad higieny – to dodatkowa ochrona, a nie rozwiązanie samo w sobie.',
+        sv: 'Delvis. Ett HEPA-filter i klass H13 fångar de aerosoler (små droppar från luftvägarna) som för med sig virus, och sänker därmed halten i rummets luft. En UV-C-lampa kan fungera som komplement. En luftrenare ersätter däremot varken vädring eller god hygien: den är ett komplement, inte en lösning i sig.',
+        us: 'Partly. An H13 HEPA filter captures the respiratory aerosols that carry viruses, so it lowers their concentration in a room\'s air. A UV-C lamp can add to that. But a purifier doesn\'t replace ventilation or everyday precautions: it\'s an extra layer of protection, not a standalone solution.',
+        ca: 'Partly. An H13 HEPA filter captures the respiratory aerosols that carry viruses, and therefore lowers their concentration in a room\'s air. A UV-C lamp can complement this. However, a purifier does not replace ventilation or hygiene measures: it is a complement, not a standalone solution.',
       },
     },
     {
@@ -1246,7 +1756,10 @@ export const article: BlogArticle = {
         es: '¿Cuál es el mejor purificador de aire para la fiebre del heno?',
         it: 'Qual è il miglior purificatore d\'aria per la febbre da fieno?',
         nl: 'Wat is de beste luchtreiniger voor hooikoorts?',
-        pl: 'Jaki jest najlepszy oczyszczacz powietrza przy katarze siennym?',
+        pl: 'Jaki oczyszczacz powietrza jest najlepszy na katar sienny?',
+        sv: 'Vilken luftrenare är bäst mot hösnuva?',
+        us: 'What\'s the best air purifier for seasonal allergies?',
+        ca: 'What is the best air purifier for seasonal allergies (hay fever)?',
       },
       answer: {
         fr: 'Pour le rhume des foins, privilégiez un purificateur avec filtre HEPA H13 et un CADR suffisant (au moins 200 m³/h pour une chambre). Le Levoit Core 300S convient aux chambres, le Levoit Core 400S et le Xiaomi Smart Air Purifier 4 aux pièces plus grandes. Faites-le tourner en continu dans la chambre pendant la saison des graminées (mai-juillet en France). Consultez notre <a href="/fr/blog/comparatif-purificateur-air-allergie">comparatif purificateurs pour allergies</a> pour un classement détaillé.',
@@ -1255,7 +1768,10 @@ export const article: BlogArticle = {
         es: 'Para la fiebre del heno, elige un purificador con filtro HEPA H13 y un CADR suficiente (al menos 200 m³/h para un dormitorio). El Levoit Core 300S es adecuado para dormitorios; el Levoit Core 400S y el Xiaomi Smart Air Purifier 4, para estancias más grandes. Hazlo funcionar de forma continua en el dormitorio durante la temporada de gramíneas.',
         it: 'Per la febbre da fieno scegliete un purificatore con filtro HEPA H13 e un CADR sufficiente (almeno 200 m³/h per una camera). Il Levoit Core 300S è adatto alle camere, il Levoit Core 400S e lo Xiaomi Smart Air Purifier 4 alle stanze più grandi. Fatelo funzionare in continuo in camera durante la stagione delle graminacee.',
         nl: 'Kies bij hooikoorts een luchtreiniger met HEPA H13-filter en voldoende CADR (minstens 200 m³/h voor een slaapkamer). De Levoit Core 300S past bij slaapkamers, de Levoit Core 400S en Xiaomi Smart Air Purifier 4 bij grotere ruimtes. Laat hem continu draaien in de slaapkamer tijdens het graspollenseizoen (mei-augustus in Nederland).',
-        pl: 'Przy katarze siennym wybierz oczyszczacz z filtrem HEPA H13 i wystarczającym CADR (co najmniej 200 m³/h dla sypialni). Levoit Core 300S nadaje się do sypialni, a Levoit Core 400S i Xiaomi Smart Air Purifier 4 do większych pomieszczeń. Włączaj go na stałe w sypialni w sezonie pylenia traw (maj–lipiec we Francji). Szczegółowy ranking znajdziesz w naszym <a href="/pl/blog/comparatif-purificateur-air-allergie">porównaniu oczyszczaczy powietrza dla alergików</a>.',
+        pl: 'Przy katarze siennym wybierz oczyszczacz z filtrem HEPA H13 i odpowiednio wysokim CADR (do sypialni co najmniej 200 m³/h). Levoit Core 300S sprawdzi się w sypialni, a Levoit Core 400S i Xiaomi Smart Air Purifier 4 – w większych pomieszczeniach. W sezonie pylenia traw (we Francji od maja do lipca) niech oczyszczacz pracuje w sypialni bez przerwy. Szczegółowy ranking znajdziesz w naszym <a href="/pl/blog/comparatif-purificateur-air-allergie">porównaniu oczyszczaczy powietrza dla alergików</a>.',
+        sv: 'Vid hösnuva bör du välja en luftrenare med HEPA-filter i klass H13 och tillräckligt hög CADR (minst 200 m³/h för ett sovrum). Levoit Core 300S passar i sovrummet, medan Levoit Core 400S och Xiaomi Smart Air Purifier 4 passar i större rum. Låt den gå hela tiden i sovrummet under gräspollensäsongen. I vår <a href="/sv/blog/comparatif-purificateur-air-allergie">jämförelse av luftrenare för allergiker</a> hittar du en utförlig rankning.',
+        us: 'For hay fever and other pollen allergies, choose a purifier with an H13 HEPA filter and enough CADR (at least 118 CFM, or 200 m³/h, for a bedroom). The Levoit Core 300S suits bedrooms, while the Levoit Core 400S and the Xiaomi Smart Air Purifier 4 suit larger rooms. Run it around the clock in the bedroom during grass pollen season (May to July in France; check the local pollen forecast where you live). See our <a href="/us/blog/comparatif-purificateur-air-allergie">air purifiers for allergies comparison</a> for the full rankings.',
+        ca: 'For seasonal allergies (hay fever), choose a purifier with an H13 HEPA filter and enough CADR (at least 200 m³/h for a bedroom). The Levoit Core 300S suits bedrooms, while the Levoit Core 400S and Xiaomi Smart Air Purifier 4 suit larger rooms. Run it continuously in the bedroom during grass pollen season; your local pollen forecast tells you when it starts. See our <a href="/ca/blog/comparatif-purificateur-air-allergie">allergy purifier comparison</a> for detailed rankings.',
       },
     },
   ],

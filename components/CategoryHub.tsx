@@ -58,7 +58,6 @@ interface CategoryHubUi {
   relatedTitle: string
   methodologyCta: string
   faqTitle: string
-  noSiblings: string
   /** Verdict box kicker + heading, e.g. "Notre sélection" / "Quel X choisir ?" */
   picksKicker: string
   picksQuestion: (categoryTitle: string) => string
@@ -72,7 +71,6 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     relatedTitle: 'Autres catégories du même silo',
     methodologyCta: 'Lire notre méthodologie',
     faqTitle: 'Questions fréquentes',
-    noSiblings: 'Les catégories voisines arrivent bientôt.',
     picksKicker: 'Notre sélection',
     picksQuestion: (t) => `${t} : lesquels choisir en 2026 ?`,
     guidesTitle: "Nos guides d'achat",
@@ -83,7 +81,6 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     relatedTitle: 'Other categories in the same silo',
     methodologyCta: 'Read our methodology',
     faqTitle: 'Frequently asked questions',
-    noSiblings: 'Sibling categories are coming soon.',
     picksKicker: 'Our picks',
     picksQuestion: (t) => `${t}: which to buy in 2026?`,
     guidesTitle: 'Our buying guides',
@@ -94,7 +91,6 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     relatedTitle: 'Weitere Kategorien im selben Silo',
     methodologyCta: 'Zur Methodik',
     faqTitle: 'Häufige Fragen',
-    noSiblings: 'Weitere Kategorien folgen bald.',
     picksKicker: 'Unsere Empfehlungen',
     picksQuestion: (t) => `${t}: welche 2026 kaufen?`,
     guidesTitle: 'Unsere Kaufratgeber',
@@ -105,7 +101,6 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     relatedTitle: 'Otras categorías del mismo silo',
     methodologyCta: 'Leer nuestra metodología',
     faqTitle: 'Preguntas frecuentes',
-    noSiblings: 'Las categorías vecinas llegan pronto.',
     picksKicker: 'Nuestra selección',
     picksQuestion: (t) => `${t}: ¿cuáles elegir en 2026?`,
     guidesTitle: 'Nuestras guías de compra',
@@ -116,7 +111,6 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     relatedTitle: 'Altre categorie dello stesso silo',
     methodologyCta: 'Leggi la nostra metodologia',
     faqTitle: 'Domande frequenti',
-    noSiblings: 'Le categorie vicine arrivano presto.',
     picksKicker: 'La nostra selezione',
     picksQuestion: (t) => `${t}: quali scegliere nel 2026?`,
     guidesTitle: "Le nostre guide all'acquisto",
@@ -127,7 +121,6 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     relatedTitle: 'Andere categorieën in hetzelfde silo',
     methodologyCta: 'Lees onze methodologie',
     faqTitle: 'Veelgestelde vragen',
-    noSiblings: 'Naastgelegen categorieën komen binnenkort.',
     picksKicker: 'Onze selectie',
     picksQuestion: (t) => `${t}: welke kies je in 2026?`,
     guidesTitle: 'Onze koopgidsen',
@@ -138,11 +131,40 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     relatedTitle: 'Inne kategorie z tego samego działu',
     methodologyCta: 'Przeczytaj naszą metodologię',
     faqTitle: 'Najczęstsze pytania',
-    noSiblings: 'Sąsiednie kategorie pojawią się wkrótce.',
     picksKicker: 'Nasz wybór',
     picksQuestion: (t) => `${t}: które wybrać w 2026?`,
     guidesTitle: 'Nasze poradniki zakupowe',
     readGuide: 'Czytaj poradnik',
+  },
+  sv: {
+    home: 'Hem',
+    relatedTitle: 'Fler kategorier inom samma område',
+    methodologyCta: 'Läs om vår metod',
+    faqTitle: 'Vanliga frågor',
+    picksKicker: 'Vårt urval',
+    picksQuestion: (t) => `${t}: vilken modell ska du välja 2026?`,
+    guidesTitle: 'Våra köpguider',
+    readGuide: 'Läs guiden',
+  },
+  us: {
+    home: 'Home',
+    relatedTitle: 'More categories in this section',
+    methodologyCta: 'Read our methodology',
+    faqTitle: 'Frequently asked questions',
+    picksKicker: 'Our picks',
+    picksQuestion: (t) => `${t}: which one should you buy in 2026?`,
+    guidesTitle: 'Our buying guides',
+    readGuide: 'Read the guide',
+  },
+  ca: {
+    home: 'Home',
+    relatedTitle: 'Other categories in this section',
+    methodologyCta: 'Read our methodology',
+    faqTitle: 'Frequently asked questions',
+    picksKicker: 'Our picks',
+    picksQuestion: (t) => `${t}: which one should you buy in 2026?`,
+    guidesTitle: 'Our buying guides',
+    readGuide: 'Read the guide',
   },
 }
 
@@ -302,12 +324,12 @@ export default async function CategoryHub({
 
         <IndependentSources categorySlug={category.slug} categoryTitle={categoryTitle} lang={safeLang} />
 
-        {/* Related categories */}
-        <section className="max-w-6xl mx-auto px-4 md:px-6 pb-12">
-          <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-6">
-            {ui.relatedTitle}
-          </h2>
-          {related.length > 0 ? (
+        {/* Related categories (hidden when the section has no other guide: nothing is announced) */}
+        {related.length > 0 && (
+          <section className="max-w-6xl mx-auto px-4 md:px-6 pb-12">
+            <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-6">
+              {ui.relatedTitle}
+            </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {related.map((cat) => (
                 <Link
@@ -324,10 +346,8 @@ export default async function CategoryHub({
                 </Link>
               ))}
             </div>
-          ) : (
-            <p className="text-sm text-slate-500">{ui.noSiblings}</p>
-          )}
-        </section>
+          </section>
+        )}
 
         {/* FAQ — derived from catalog, emits FAQPage JSON-LD via FaqSection */}
         <FaqSection

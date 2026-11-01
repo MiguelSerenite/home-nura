@@ -18,7 +18,10 @@ export const article: BlogArticle = {
         es: 'Sensor meteorológico exterior todo en uno montado en un mástil sobre césped',
         it: 'Sensore meteo esterno tutto-in-uno montato su un palo in un recinto erboso',
         nl: 'Alles-in-één buitensensor van een weerstation op een mast in een grasveld',
-        pl: 'Zewnętrzny czujnik pogody typu wszystko w jednym zamontowany na maszcie na trawiastej działce',
+        pl: 'Zewnętrzny czujnik pogodowy typu „wszystko w jednym” zamontowany na maszcie na ogrodzonym, trawiastym terenie',
+        sv: 'Väderstationens allt-i-ett-givare för utomhusbruk, monterad på en mast i en gräsbevuxen inhägnad',
+        us: 'All-in-one outdoor weather sensor mounted on a pole in a grassy, fenced-in area',
+        ca: 'All-in-one outdoor weather sensor mounted on a pole in a fenced grassy area',
       },
     },
   ],
@@ -30,6 +33,9 @@ export const article: BlogArticle = {
     it: 'Stazione meteo connessa 2026: confronto Netatmo, Ecowitt, Davis e Bresser',
     nl: 'Slim weerstation 2026: Netatmo, Ecowitt, Davis en Bresser vergeleken',
     pl: 'Inteligentna stacja pogodowa 2026: porównanie Netatmo, Ecowitt, Davis i Bresser',
+    sv: 'Smart väderstation 2026: Netatmo, Ecowitt, Davis och Bresser jämförda',
+    us: 'Best Smart Weather Stations 2026: Netatmo vs. Ecowitt vs. Davis vs. Bresser',
+    ca: 'Smart Weather Station 2026: Netatmo vs Ecowitt vs Davis vs Bresser Compared',
   },
   excerpt: {
     fr: 'Quelle station météo connectée choisir en 2026 ? Ecowitt HP2551, Wittboy Pro, Netatmo, Bresser ClearView et Davis Vantage Vue comparées : capteurs, pluie et vent, CO2, applications et domotique.',
@@ -38,7 +44,10 @@ export const article: BlogArticle = {
     es: '¿Qué estación meteorológica conectada elegir en 2026? Ecowitt HP2551, Wittboy Pro, Netatmo, Bresser ClearView y Davis Vantage Vue comparadas: sensores, lluvia y viento, CO2, apps y domótica.',
     it: 'Quale stazione meteo connessa scegliere nel 2026? Ecowitt HP2551, Wittboy Pro, Netatmo, Bresser ClearView e Davis Vantage Vue a confronto: sensori, pioggia e vento, CO2, app e domotica.',
     nl: 'Welk slim weerstation kies je in 2026? Ecowitt HP2551, Wittboy Pro, Netatmo, Bresser ClearView en Davis Vantage Vue vergeleken op sensoren, regen en wind, CO2, apps en smart home.',
-    pl: 'Jaką inteligentną stację pogodową wybrać w 2026 roku? Porównanie Ecowitt HP2551, Wittboy Pro, Netatmo, Bresser ClearView i Davis Vantage Vue: czujniki, deszcz i wiatr, CO2, aplikacje i inteligentny dom.',
+    pl: 'Jaką inteligentną stację pogodową wybrać w 2026 roku? Porównujemy Ecowitt HP2551, Wittboy Pro, Netatmo, Bresser ClearView i Davis Vantage Vue: czujniki, pomiar opadów i wiatru, CO2, aplikacje i integrację z inteligentnym domem.',
+    sv: 'Vilken smart väderstation ska du välja 2026? Ecowitt HP2551, Wittboy Pro, Netatmo, Bresser ClearView och Davis Vantage Vue jämförda: givare, regn och vind, CO2, appar och smarta hem.',
+    us: 'Which smart home weather station should you buy in 2026? The Ecowitt HP2551, Wittboy Pro, Netatmo, Bresser ClearView and Davis Vantage Vue compared on sensors, rain and wind, CO2, apps and smart home integration.',
+    ca: 'Which smart weather station should you buy in 2026? Ecowitt HP2551, Wittboy Pro, Netatmo, Bresser ClearView and Davis Vantage Vue compared on sensors, rain and wind, CO2, apps and smart home.',
   },
   content: {
     fr: `<p>La meilleure station météo connectée pour la plupart des maisons en 2026 est l'<strong>Ecowitt HP2551</strong> : son capteur extérieur 7-en-1 mesure d'emblée la pluie, le vent, l'UV et la luminosité, et elle s'intègre en local à Home Assistant. Si vous cherchez plutôt un bel objet qui surveille aussi le CO2 de votre salon et fonctionne avec Apple Maison, la <strong>Netatmo Smart Weather Station</strong> reste la référence, même si la pluie et le vent demandent des modules en option.</p>
@@ -610,100 +619,382 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste huishoudens biedt de <strong>Ecowitt HP2551</strong> de beste balans: alle nuttige metingen vanaf dag één, een goed leesbaar scherm en een lokale smart-home-integratie. De <strong>Bresser Wi-Fi ClearView 7-in-1</strong> is het toegankelijkste alternatief voor wie vooral naar het scherm kijkt. Het <strong>Netatmo Smart Weather Station</strong> wint als CO2 binnenshuis en Apple Woning zwaarder wegen dan regen en wind. Veeleisende liefhebbers kiezen de <strong>Davis Vantage Vue</strong>, en wie een onderhoudsvrije sensor zoekt de <strong>Ecowitt Wittboy Pro HP2564</strong>. De volledige selectie staat op onze pagina <a href="/nl/confort-air/stations-meteo">slimme weerstations</a>.</p>`,
-    pl: `<p>Najlepszą inteligentną stacją pogodową dla większości domów w 2026 roku jest <strong>Ecowitt HP2551</strong>: jej zewnętrzny czujnik 7 w 1 od razu mierzy deszcz, wiatr, UV i natężenie światła, a ponadto integruje się lokalnie z Home Assistant. Jeśli szukasz raczej ładnego urządzenia, które monitoruje także CO2 w salonie i współpracuje z Apple Home, wzorcem pozostaje <strong>Netatmo Smart Weather Station</strong>, choć deszcz i wiatr wymagają dodatkowych modułów.</p>
-<p>To porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach publikowanych przez prasę specjalistyczną i opiniach zweryfikowanych kupujących. Wszystkie modele z tej kategorii znajdziesz na stronie <a href="/pl/confort-air/stations-meteo">inteligentne stacje pogodowe</a>.</p>
+    pl: `<p>Dla większości domów najlepszą inteligentną stacją pogodową w 2026 roku jest <strong>Ecowitt HP2551</strong>: jej czujnik zewnętrzny 7 w 1 od razu po wyjęciu z pudełka mierzy opady, wiatr, promieniowanie UV i natężenie światła, a sama stacja integruje się lokalnie z Home Assistant. Jeśli wolisz ładne urządzenie, które przy okazji monitoruje stężenie CO2 w salonie i współpracuje z Apple Home, najlepszym wyborem pozostaje <strong>Netatmo Smart Weather Station</strong>, choć do pomiaru opadów i wiatru potrzebuje dodatkowych modułów.</p>
+<p>Porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach publikowanych przez prasę branżową i opiniach zweryfikowanych kupujących. Wszystkie modele znajdziesz w kategorii <a href="/pl/confort-air/stations-meteo">inteligentne stacje pogodowe</a>.</p>
 
 <h2>Do czego służy inteligentna stacja pogodowa?</h2>
-<p>Inteligentna stacja pogodowa mierzy warunki <strong>u ciebie</strong>, a nie na najbliższej oficjalnej stacji, położonej czasem o kilka kilometrów dalej. Mierzy co najmniej temperaturę, wilgotność i ciśnienie; pełniejsze modele dodają opad deszczu, prędkość i kierunek wiatru, indeks UV i nasłonecznienie. Dane trafiają na smartfon, są archiwizowane przez kilka lat i mogą uruchamiać automatyzacje.</p>
-<p>Najczęściej wracają trzy zastosowania:</p>
+<p>Inteligentna stacja pogodowa pokazuje warunki panujące <strong>u Ciebie</strong>, a nie na najbliższej stacji oficjalnej, która bywa oddalona o kilka kilometrów. Mierzy co najmniej temperaturę, wilgotność i ciśnienie; bardziej rozbudowane modele dodają opady, prędkość i kierunek wiatru, indeks UV oraz nasłonecznienie. Dane trafiają na smartfon, są przechowywane przez kilka lat i mogą uruchamiać automatyzacje.</p>
+<p>Najczęściej stacja przydaje się w trzech obszarach:</p>
 <ul>
-<li><strong>Ogród:</strong> sprawdzisz, ile padało w tym tygodniu, przewidzisz przymrozek lub wstrzymasz automatyczne nawadnianie. Nasz <a href="/pl/blog/guide-jardin-connecte-2026">poradnik o inteligentnym ogrodzie</a> opisuje takie scenariusze.</li>
-<li><strong>Dom:</strong> zamykanie rolet lub zwijanie markizy, gdy wiatr przybiera na sile, sterowanie ogrzewaniem w zależności od rzeczywistej temperatury na zewnątrz.</li>
-<li><strong>Pasja:</strong> śledzenie zmian ciśnienia przed burzą, udostępnianie pomiarów w sieciach takich jak Weather Underground czy Weathercloud.</li>
+<li><strong>Ogród:</strong> sprawdzanie, ile padało w tym tygodniu, przewidywanie przymrozków i wstrzymywanie automatycznego podlewania. Takie scenariusze opisujemy w <a href="/pl/blog/guide-jardin-connecte-2026">poradniku o inteligentnym ogrodzie</a>.</li>
+<li><strong>Dom:</strong> zamykanie rolet albo zwijanie markizy, gdy wiatr przybiera na sile, oraz sterowanie ogrzewaniem według rzeczywistej temperatury na zewnątrz.</li>
+<li><strong>Hobby:</strong> śledzenie zmian ciśnienia przed burzą i udostępnianie pomiarów w serwisach takich jak Weather Underground czy Weathercloud.</li>
 </ul>
 
 <h2>Kryteria wyboru</h2>
-<h3>Mierzone wielkości</h3>
-<p>To pierwsze sito. Czujnik „7 w 1” łączy na jednym maszcie temperaturę, wilgotność, deszcz, prędkość wiatru, kierunek wiatru, UV i natężenie światła. System modułowy, taki jak Netatmo, zaczyna od temperatury, wilgotności i ciśnienia, a potem rozbudowuje się o deszczomierz i anemometr sprzedawane osobno. Jeśli interesują cię deszcz i wiatr, porównuj więc cenę kompletnego zestawu, a nie samej bazy.</p>
-<h3>Jakość powietrza wewnątrz</h3>
-<p>Tylko Netatmo z tego porównania ma czujnik CO2 w module wewnętrznym. Ecowitt oferuje opcjonalne czujniki pyłów drobnych i CO2. Więcej na ten temat znajdziesz w naszym poradniku o <a href="/pl/blog/qualite-air-interieur-capteurs">czujnikach jakości powietrza wewnątrz</a>.</p>
+<h3>Mierzone parametry</h3>
+<p>To pierwsze kryterium, które zawęża wybór. Czujnik „7 w 1” mierzy na jednym maszcie temperaturę, wilgotność, opady, prędkość i kierunek wiatru, promieniowanie UV i natężenie światła. System modułowy, taki jak Netatmo, zaczyna od temperatury, wilgotności i ciśnienia, a potem można go rozbudować o deszczomierz i anemometr sprzedawane osobno. Jeśli zależy Ci na pomiarze opadów i wiatru, porównuj więc cenę kompletnego zestawu, a nie samej stacji bazowej.</p>
+<h3>Jakość powietrza w domu</h3>
+<p>Spośród stacji w tym porównaniu tylko Netatmo ma czujnik CO2 w module wewnętrznym. Ecowitt oferuje opcjonalne czujniki pyłu zawieszonego i CO2. Więcej na ten temat znajdziesz w naszym poradniku o <a href="/pl/blog/qualite-air-interieur-capteurs">czujnikach jakości powietrza w domu</a>.</p>
 <h3>Łączność i inteligentny dom</h3>
-<p>Sprawdź aplikację producenta, zgodność z Apple Home, Alexą lub Google, a przede wszystkim integrację z Home Assistant, jeśli z niego korzystasz. Integracja <strong>lokalna</strong> (bez chmury) reaguje szybciej i działa dalej, gdy zniknie Internet.</p>
+<p>Sprawdź aplikację producenta, zgodność z Apple Home, Alexą lub Google, a przede wszystkim integrację z Home Assistant, jeśli z niego korzystasz. Integracja <strong>lokalna</strong> (bez pośrednictwa chmury) reaguje szybciej i działa dalej nawet przy awarii internetu.</p>
 <h3>Zasięg radiowy i zasilanie</h3>
-<p>Czujnik zewnętrzny komunikuje się z konsolą wewnętrzną drogą radiową (868 MHz w Europie dla Ecowitt, Bresser i Davis). Deklarowany zasięg mierzony jest w otwartej przestrzeni: ściany, żywopłoty i dachy mocno go zmniejszają. Pod względem zasilania czujnik solarny z bateriami zapasowymi pozwala uniknąć częstej wymiany baterii; zewnętrzny moduł Netatmo działa natomiast na dwóch bateriach AAA.</p>
+<p>Czujnik zewnętrzny komunikuje się z konsolą w domu drogą radiową (w Europie Ecowitt, Bresser i Davis korzystają z pasma 868 MHz). Deklarowany zasięg mierzy się w otwartym terenie: ściany, żywopłoty i dachy wyraźnie go skracają. Jeśli chodzi o zasilanie, czujnik solarny z bateriami zapasowymi oszczędza Ci częstej wymiany baterii; zewnętrzny moduł Netatmo działa natomiast na dwóch bateriach AAA.</p>
 <h3>Ekran</h3>
-<p>Ecowitt, Bresser i Davis dostarczają konsolę z ekranem, wygodną do sprawdzania pogody jednym spojrzeniem bez sięgania po telefon. Netatmo nie ma ekranu: wszystko odbywa się przez aplikację.</p>
+<p>Ecowitt, Bresser i Davis dołączają konsolę z ekranem, na którym pogodę sprawdzisz jednym spojrzeniem, bez sięgania po telefon. Netatmo nie ma ekranu: wszystko obsługuje się w aplikacji.</p>
 
-<h2>5 najlepszych inteligentnych stacji pogodowych 2026</h2>
+<h2>5 najlepszych inteligentnych stacji pogodowych w 2026 roku</h2>
 
-<h3>1. Ecowitt HP2551: najpełniejsza jak na swoją cenę</h3>
-<p>Zestaw <strong>Ecowitt HP2551</strong> łączy konsolę Wi-Fi HP2550 z dużym kolorowym ekranem TFT, czujnik wewnętrzny (temperatura, wilgotność, ciśnienie) i zewnętrzny czujnik 7 w 1 <strong>WS69</strong>: temperatura, wilgotność, deszczomierz korytkowy, prędkość i kierunek wiatru, natężenie światła i UV. Ten ostatni działa na energię słoneczną, a w razie potrzeby na dwóch zapasowych bateriach AA.</p>
+<h3>1. Ecowitt HP2551: najbardziej kompletna w swojej cenie</h3>
+<p>Zestaw <strong>Ecowitt HP2551</strong> składa się z konsoli Wi-Fi HP2550 z dużym kolorowym ekranem TFT, czujnika wewnętrznego (temperatura, wilgotność, ciśnienie) i zewnętrznego czujnika 7 w 1 <strong>WS69</strong>, który mierzy temperaturę, wilgotność, opady (deszczomierz korytkowy), prędkość i kierunek wiatru, natężenie światła i UV. Czujnik zewnętrzny jest zasilany energią słoneczną, a awaryjnie dwiema bateriami AA.</p>
 <ul>
-<li><strong>Mocne strony:</strong> wszystkie najważniejsze pomiary od razu w pudełku, czytelny kolorowy ekran, wysyłanie danych do Ecowitt, Weather Underground, Weathercloud lub WOW, oficjalna lokalna integracja Ecowitt w Home Assistant, bardzo szeroki wybór czujników dodatkowych (wilgotność gleby, basen, pyły drobne, wyładowania atmosferyczne, wyciek wody).</li>
-<li><strong>Ograniczenia:</strong> aplikacja funkcjonalna, ale mniej dopracowana niż Netatmo, brak natywnej zgodności z Apple Home, ruchome elementy (czasze, korytko) trzeba od czasu do czasu czyścić.</li>
-<li><strong>Dla kogo:</strong> ogrodnicy, użytkownicy Home Assistant i wszyscy, którzy chcą kompletnej stacji bez mnożenia zakupów.</li>
+<li><strong>Mocne strony:</strong> wszystkie najważniejsze pomiary od razu po wyjęciu z pudełka, czytelny kolorowy ekran, wysyłanie danych do Ecowitt, Weather Underground, Weathercloud lub WOW, oficjalna lokalna integracja Ecowitt z Home Assistant, bardzo szeroki wybór dodatkowych czujników (wilgotność gleby, basen, pył zawieszony, wyładowania atmosferyczne, wyciek wody).</li>
+<li><strong>Ograniczenia:</strong> aplikacja funkcjonalna, ale mniej dopracowana niż aplikacja Netatmo, brak natywnej obsługi Apple Home, ruchome elementy (czasze anemometru, korytko deszczomierza) trzeba od czasu do czasu czyścić.</li>
+<li><strong>Dla kogo:</strong> miłośnicy ogrodów, użytkownicy Home Assistant oraz wszyscy, którzy chcą mieć kompletną stację bez dokupowania kolejnych modułów.</li>
 </ul>
 
-<h3>2. Netatmo Smart Weather Station: najelegantsza, z CO2</h3>
-<p><strong>Netatmo Smart Weather Station</strong> składa się z dwóch aluminiowych walców. Moduł wewnętrzny mierzy temperaturę, wilgotność, ciśnienie, poziom hałasu i <strong>CO2</strong> (od 0 do 5000 ppm według producenta); moduł zewnętrzny odczytuje temperaturę i wilgotność z deklarowaną dokładnością ±0,3 °C. Odczyty są aktualizowane co 5 minut.</p>
+<h3>2. Netatmo Smart Weather Station: najbardziej elegancka, z pomiarem CO2</h3>
+<p><strong>Netatmo Smart Weather Station</strong> składa się z dwóch aluminiowych walców. Moduł wewnętrzny mierzy temperaturę, wilgotność, ciśnienie, poziom hałasu i stężenie <strong>CO2</strong> (według producenta w zakresie 0–5000 ppm), a moduł zewnętrzny – temperaturę i wilgotność, z deklarowaną dokładnością ±0,3 °C. Odczyty są aktualizowane co 5 minut.</p>
 <ul>
-<li><strong>Mocne strony:</strong> dyskretny wygląd, przejrzysta aplikacja z historią i alertami, zgodność z <strong>Apple HomeKit</strong> i Amazon Alexa, oficjalna integracja Netatmo w Home Assistant (przez chmurę), dodatkowe moduły wewnętrzne do kolejnych pomieszczeń, brak abonamentu.</li>
-<li><strong>Ograniczenia:</strong> brak deszczu i wiatru bez Netatmo Smart Rain Gauge i Netatmo Smart Anemometer, sprzedawanych osobno; brak UV i natężenia światła; brak ekranu; moduł zewnętrzny na bateriach (do dwóch lat według Netatmo).</li>
-<li><strong>Dla kogo:</strong> dla tych, którzy chcą przede wszystkim monitorować powietrze w domu i temperaturę na zewnątrz, w domu z Apple Home.</li>
+<li><strong>Mocne strony:</strong> dyskretny wygląd, przejrzysta aplikacja z historią pomiarów i alertami, zgodność z <strong>Apple HomeKit</strong> i Amazon Alexa, oficjalna integracja Netatmo z Home Assistant (przez chmurę), dodatkowe moduły wewnętrzne do kolejnych pomieszczeń, brak abonamentu.</li>
+<li><strong>Ograniczenia:</strong> bez dokupionych osobno modułów Netatmo Smart Rain Gauge i Netatmo Smart Anemometer nie mierzy opadów ani wiatru; brak pomiaru UV i natężenia światła; brak ekranu; moduł zewnętrzny na baterie (według Netatmo wystarczają do dwóch lat).</li>
+<li><strong>Dla kogo:</strong> osoby, które korzystają z Apple Home i chcą przede wszystkim kontrolować jakość powietrza w pomieszczeniach oraz temperaturę na zewnątrz.</li>
 </ul>
 
-<h3>3. Bresser Wi-Fi ClearView 7 w 1: ekran wszystko w jednym w przystępnej cenie</h3>
-<p><strong>Bresser Wi-Fi ClearView</strong> z czujnikiem 7 w 1 łączy prędkość i kierunek wiatru, wilgotność, temperaturę, deszcz, UV i natężenie światła, przesyłane na 868 MHz na odległość do 150 m w otwartej przestrzeni. Jej konsola z kolorowym ekranem 21,3 cm wyświetla wartości bieżące, historię oraz lokalną prognozę pogody na 12–24 godziny.</p>
+<h3>3. Bresser Wi-Fi ClearView 7 w 1: wszystko na jednym ekranie w przystępnej cenie</h3>
+<p><strong>Bresser Wi-Fi ClearView</strong> z czujnikiem 7 w 1 mierzy prędkość i kierunek wiatru, wilgotność, temperaturę, opady, UV i natężenie światła, a dane przesyła w paśmie 868 MHz na odległość do 150 m w otwartym terenie. Konsola z kolorowym ekranem o przekątnej 21,3 cm pokazuje bieżące wartości, historię pomiarów i lokalną prognozę pogody na 12–24 godziny.</p>
 <ul>
-<li><strong>Mocne strony:</strong> wszystko jest czytelne na ekranie bez smartfona, programowalne alarmy min./maks. i alert przymrozkowy, wysyłanie odczytów do Weather Underground, Weathercloud i AWEKAS, niemiecka marka dobrze osadzona w Europie.</li>
-<li><strong>Ograniczenia:</strong> brak oficjalnej integracji z inteligentnym domem (Apple Home, Home Assistant), uboższy niż w Ecowitt ekosystem czujników dodatkowych.</li>
-<li><strong>Dla kogo:</strong> dla tych, którzy chcą ładnej, kompletnej stacji do salonu, odczytywanej głównie z ekranu.</li>
+<li><strong>Mocne strony:</strong> wszystkie dane czytelne na ekranie bez użycia smartfona, programowalne alarmy min./maks. i ostrzeżenie przed przymrozkiem, wysyłanie odczytów do Weather Underground, Weathercloud i AWEKAS, niemiecka marka dobrze znana w Europie.</li>
+<li><strong>Ograniczenia:</strong> brak oficjalnej integracji z systemami inteligentnego domu (Apple Home, Home Assistant), mniejszy wybór dodatkowych czujników niż w przypadku Ecowitt.</li>
+<li><strong>Dla kogo:</strong> osoby, które chcą mieć w salonie ładną i kompletną stację, a pogodę sprawdzają głównie na jej ekranie.</li>
 </ul>
 
-<h3>4. Davis Vantage Vue: wytrzymałość dla pasjonatów</h3>
-<p><strong>Davis Vantage Vue</strong> od dawna jest punktem odniesienia wśród amatorskich meteorologów. Jej zintegrowany blok czujników mierzy temperaturę, wilgotność, deszcz, prędkość i kierunek wiatru; konsola dodaje ciśnienie. Davis deklaruje zasięg radiowy do 300 m w otwartej przestrzeni, aktualizację co 2,5 sekundy i dokładność ±0,5 °C dla temperatury zewnętrznej.</p>
+<h3>4. Davis Vantage Vue: solidność dla pasjonatów</h3>
+<p><strong>Davis Vantage Vue</strong> od lat cieszy się uznaniem wśród meteorologów amatorów. Zintegrowany zestaw czujników mierzy temperaturę, wilgotność, opady oraz prędkość i kierunek wiatru, a konsola dodatkowo ciśnienie. Davis deklaruje zasięg radiowy do 300 m w otwartym terenie, aktualizację danych co 2,5 sekundy i dokładność pomiaru temperatury zewnętrznej ±0,5 °C.</p>
 <ul>
-<li><strong>Mocne strony:</strong> solidna konstrukcja przewidziana na lata, jeden z najlepszych zasięgów radiowych, zasilanie solarne z baterią zapasową, duża społeczność i liczne zgodne programy.</li>
-<li><strong>Ograniczenia:</strong> podstawowa konsola nie jest połączona z siecią: potrzebna jest bramka WeatherLink Live lub konsola WeatherLink (często oferowane w zestawie), aby uzyskać dostęp do danych na smartfonie; brak UV i nasłonecznienia w modelu Vue (te czujniki należą do serii Vantage Pro2 Plus); wyraźnie wyższa półka cenowa.</li>
-<li><strong>Dla kogo:</strong> wymagający pasjonaci, gospodarstwa rolne i miejsca narażone na trudne warunki, gdzie liczy się trwałość.</li>
+<li><strong>Mocne strony:</strong> solidna konstrukcja zaprojektowana na lata, jeden z najlepszych zasięgów radiowych, zasilanie solarne z baterią zapasową, duża społeczność użytkowników i wiele zgodnych programów.</li>
+<li><strong>Ograniczenia:</strong> podstawowa konsola nie łączy się z internetem: aby mieć dostęp do danych na smartfonie, potrzebna jest bramka WeatherLink Live lub konsola WeatherLink (często sprzedawane w zestawie); model Vue nie mierzy UV ani nasłonecznienia (te czujniki są dostępne w serii Vantage Pro2 Plus); wyraźnie wyższa półka cenowa.</li>
+<li><strong>Dla kogo:</strong> wymagający pasjonaci, gospodarstwa rolne i miejsca narażone na trudne warunki pogodowe, w których liczy się trwałość.</li>
 </ul>
 
 <h3>5. Ecowitt Wittboy Pro HP2564: bez ruchomych części</h3>
-<p><strong>Ecowitt Wittboy Pro HP2564</strong> łączy konsolę Wi-Fi HP2560 z zewnętrznym czujnikiem <strong>WS90</strong>, który mierzy wiatr ultradźwiękami, a deszcz czujnikiem piezoelektrycznym, oprócz temperatury, wilgotności, natężenia światła i UV. Bez czasz i korytka nie ma części, które mogłyby się zatrzeć, ani owadów blokujących deszczomierz.</p>
+<p><strong>Ecowitt Wittboy Pro HP2564</strong> łączy konsolę Wi-Fi HP2560 z czujnikiem zewnętrznym <strong>WS90</strong>, który oprócz temperatury, wilgotności, natężenia światła i UV mierzy wiatr ultradźwiękowo, a opady – czujnikiem piezoelektrycznym. Nie ma tu czasz ani korytka, więc nic się nie zatnie, a owady nie zablokują deszczomierza.</p>
 <ul>
-<li><strong>Mocne strony:</strong> ograniczona konserwacja, ten sam ekosystem czujników dodatkowych i ta sama integracja z Home Assistant co w pozostałych Ecowitt, publikacja do Weather Underground i Weathercloud.</li>
-<li><strong>Ograniczenia:</strong> droższa niż HP2551, konsola zasilana przez USB oraz pomiar deszczu metodą uderzeniową, który uchodzi zwykle za mniej dokładny niż dobrze zamontowany deszczomierz korytkowy.</li>
-<li><strong>Dla kogo:</strong> dla tych, którzy chcą zamontować czujnik na dachu i już go nie dotykać.</li>
+<li><strong>Mocne strony:</strong> niewielkie wymagania konserwacyjne, ten sam wybór dodatkowych czujników i ta sama integracja z Home Assistant co w pozostałych stacjach Ecowitt, publikowanie danych w Weather Underground i Weathercloud.</li>
+<li><strong>Ograniczenia:</strong> droższa niż HP2551, konsolę trzeba zasilać przez USB, a pomiar opadów na podstawie uderzeń kropel uchodzi zwykle za mniej dokładny niż dobrze zamontowany deszczomierz korytkowy.</li>
+<li><strong>Dla kogo:</strong> osoby, które chcą zamontować czujnik na dachu i więcej się nim nie zajmować.</li>
 </ul>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Pomiary zewnętrzne</th><th>Łączność</th><th>Główna zaleta</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Pomiary na zewnątrz</th><th>Łączność</th><th>Główna zaleta</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Ecowitt HP2551</strong></td><td>Temp., wilgotność, deszcz, wiatr, UV, światło</td><td>Wi-Fi, aplikacja Ecowitt, lokalnie Home Assistant</td><td>Kompletna i bardzo rozszerzalna</td><td>Ogród, inteligentny dom</td></tr>
-<tr><td><strong>Netatmo Smart Weather Station</strong></td><td>Temp., wilgotność (deszcz i wiatr opcjonalnie)</td><td>Wi-Fi, HomeKit, Alexa, Home Assistant</td><td>CO2 w domu, wygląd, aplikacja</td><td>Powietrze wewnątrz, Apple Home</td></tr>
-<tr><td><strong>Bresser Wi-Fi ClearView 7 w 1</strong></td><td>Temp., wilgotność, deszcz, wiatr, UV, światło</td><td>Wi-Fi, Weather Underground, AWEKAS</td><td>Duży kolorowy ekran</td><td>Odczyt w salonie</td></tr>
-<tr><td><strong>Davis Vantage Vue</strong></td><td>Temp., wilgotność, deszcz, wiatr</td><td>Radio 300 m, Wi-Fi przez WeatherLink</td><td>Wytrzymałość, zasięg</td><td>Pasjonaci, gospodarstwa</td></tr>
-<tr><td><strong>Ecowitt Wittboy Pro HP2564</strong></td><td>Temp., wilgotność, deszcz, wiatr, UV, światło</td><td>Wi-Fi, aplikacja Ecowitt, lokalnie Home Assistant</td><td>Bez ruchomych części</td><td>Montaż na dachu</td></tr>
+<tr><td><strong>Ecowitt HP2551</strong></td><td>Temp., wilgotność, opady, wiatr, UV, światło</td><td>Wi-Fi, aplikacja Ecowitt, lokalnie z Home Assistant</td><td>Kompletna, łatwa do rozbudowy</td><td>Ogród, inteligentny dom</td></tr>
+<tr><td><strong>Netatmo Smart Weather Station</strong></td><td>Temp., wilgotność (opady i wiatr opcjonalnie)</td><td>Wi-Fi, HomeKit, Alexa, Home Assistant</td><td>CO2 w domu, wygląd, aplikacja</td><td>Powietrze w domu, Apple Home</td></tr>
+<tr><td><strong>Bresser Wi-Fi ClearView 7 w 1</strong></td><td>Temp., wilgotność, opady, wiatr, UV, światło</td><td>Wi-Fi, Weather Underground, AWEKAS</td><td>Duży kolorowy ekran</td><td>Odczyt w salonie</td></tr>
+<tr><td><strong>Davis Vantage Vue</strong></td><td>Temp., wilgotność, opady, wiatr</td><td>Radio 300 m, Wi-Fi przez WeatherLink</td><td>Solidność, zasięg</td><td>Pasjonaci, gospodarstwa rolne</td></tr>
+<tr><td><strong>Ecowitt Wittboy Pro HP2564</strong></td><td>Temp., wilgotność, opady, wiatr, UV, światło</td><td>Wi-Fi, aplikacja Ecowitt, lokalnie z Home Assistant</td><td>Bez ruchomych części</td><td>Montaż na dachu</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Montaż czujnika przy ścianie lub w pełnym słońcu:</strong> ściana od południa oddaje ciepło i zawyża temperaturę o kilka stopni. Wybierz miejsce otwarte, w miarę możliwości w cieniu, na wysokości ok. 1,5 m nad ziemią dla pomiaru temperatury.</li>
-<li><strong>Zbyt niskie umieszczenie anemometru:</strong> tuż przy żywopłocie wiatr jest hamowany. Im wyżej i swobodniej stoi czujnik, tym bardziej reprezentatywny pomiar.</li>
-<li><strong>Porównywanie tylko ceny podstawowej:</strong> stacja modułowa po dodaniu deszczomierza i anemometru może kosztować znacznie więcej.</li>
-<li><strong>Przeszacowanie zasięgu radiowego:</strong> deklarowany zasięg jest mierzony w otwartej przestrzeni. Gruba ściana lub metalowy dach mogą go mocno zmniejszyć.</li>
-<li><strong>Zapominanie o konserwacji:</strong> liście i owady zatykają deszczomierze korytkowe. Zazwyczaj wystarczy czyszczenie wiosną i jesienią.</li>
+<li><strong>Montowanie czujnika przy ścianie lub w pełnym słońcu:</strong> nasłoneczniona ściana od strony południowej oddaje ciepło i zawyża odczyt temperatury o kilka stopni. Do pomiaru temperatury wybierz otwarte miejsce, w miarę możliwości zacienione, na wysokości około 1,5 m nad ziemią.</li>
+<li><strong>Umieszczanie anemometru zbyt nisko:</strong> tuż przy żywopłocie wiatr słabnie. Im wyżej i swobodniej stoi czujnik, tym bardziej miarodajny pomiar.</li>
+<li><strong>Porównywanie tylko ceny zestawu podstawowego:</strong> po dokupieniu deszczomierza i anemometru stacja modułowa może kosztować znacznie więcej.</li>
+<li><strong>Przecenianie zasięgu radiowego:</strong> deklarowany zasięg mierzy się w otwartym terenie. Gruba ściana albo metalowy dach mogą go znacznie skrócić.</li>
+<li><strong>Zapominanie o konserwacji:</strong> liście i owady zatykają deszczomierze korytkowe. Zwykle wystarczy czyszczenie wiosną i jesienią.</li>
 </ul>
 
-<h2>Instalacja i kalibracja</h2>
-<p>Zamocuj czujnik zewnętrzny na stabilnym maszcie, dokładnie w pionie, i skieruj go na północ, jeśli producent tego wymaga dla pomiaru kierunku wiatru. Przy montażu na wysokości, na dachu lub kominie, zadbaj o własne bezpieczeństwo i w razie trudnego dostępu skorzystaj z pomocy fachowca. Po ustawieniu stacji ustaw ciśnienie względne według swojej wysokości nad poziomem morza lub wartości z pobliskiej oficjalnej stacji: bez tego kroku wyświetlane ciśnienie będzie przesunięte. Na koniec umieść konsolę wewnętrzną z dala od źródła ciepła i w zasięgu sieci Wi-Fi 2,4 GHz.</p>
+<h2>Montaż i kalibracja</h2>
+<p>Zamocuj czujnik zewnętrzny na stabilnym maszcie, dokładnie w pionie, i jeśli producent tego wymaga, skieruj go na północ, aby kierunek wiatru był mierzony poprawnie. Przy montażu na wysokości, na dachu lub kominie, zadbaj o swoje bezpieczeństwo, a jeśli dostęp jest utrudniony, zleć montaż fachowcowi. Gdy stacja już działa, ustaw ciśnienie względne na podstawie wysokości nad poziomem morza albo wartości z pobliskiej stacji oficjalnej: bez tego wyświetlane ciśnienie będzie odbiegać od prawidłowej wartości. Na koniec umieść konsolę z dala od źródeł ciepła i w zasięgu sieci Wi-Fi 2,4 GHz.</p>
 
 <h2>Nasz werdykt</h2>
-<p>Dla większości gospodarstw domowych <strong>Ecowitt HP2551</strong> oferuje najlepszą równowagę: wszystkie przydatne pomiary od razu po zakupie, czytelny ekran i lokalną integrację z inteligentnym domem. <strong>Bresser Wi-Fi ClearView 7 w 1</strong> to najtańsza alternatywa dla tych, którzy korzystają głównie z ekranu. <strong>Netatmo Smart Weather Station</strong> wygrywa, gdy CO2 w domu i Apple Home liczą się bardziej niż deszcz i wiatr. Wymagający pasjonaci sięgną po <strong>Davis Vantage Vue</strong>, a ci, którzy chcą czujnika bez konserwacji, po <strong>Ecowitt Wittboy Pro HP2564</strong>. Cały wybór jest dostępny na stronie <a href="/pl/confort-air/stations-meteo">inteligentne stacje pogodowe</a>.</p>`,
+<p>Dla większości gospodarstw domowych najlepiej wyważonym wyborem jest <strong>Ecowitt HP2551</strong>: od razu po zakupie mierzy wszystko, co potrzebne, ma czytelny ekran i lokalną integrację z systemami inteligentnego domu. <strong>Bresser Wi-Fi ClearView 7 w 1</strong> to najbardziej przystępna cenowo alternatywa dla osób, które korzystają głównie z ekranu. <strong>Netatmo Smart Weather Station</strong> wygrywa, jeśli CO2 w domu i Apple Home są dla Ciebie ważniejsze niż pomiar opadów i wiatru. Wymagający pasjonaci powinni wybrać <strong>Davis Vantage Vue</strong>, a osoby, które chcą czujnika niewymagającego konserwacji, <strong>Ecowitt Wittboy Pro HP2564</strong>. Wszystkie modele z zestawienia znajdziesz w kategorii <a href="/pl/confort-air/stations-meteo">inteligentne stacje pogodowe</a>.</p>`,
+    sv: `<p>Den bästa smarta väderstationen för de flesta hem 2026 är <strong>Ecowitt HP2551</strong>: utomhusgivaren 7-i-1 mäter regn, vind, UV och ljus direkt ur kartongen, och stationen integreras lokalt med Home Assistant. Vill du hellre ha en snygg pryl som också håller koll på koldioxidhalten (CO2) i vardagsrummet och fungerar med Apple Home är <strong>Netatmo Smart Weather Station</strong> fortfarande måttstocken, även om regn och vind kräver tillvalsmoduler.</p>
+<p>Jämförelsen bygger på tillverkarnas produktblad, oberoende recensioner i fackpressen och verifierade köparomdömen. Alla modeller i kategorin hittar du på vår sida om <a href="/sv/confort-air/stations-meteo">smarta väderstationer</a>.</p>
+
+<h2>Vad har man en smart väderstation till?</h2>
+<p>En smart väderstation mäter förhållandena <strong>hemma hos dig</strong>, inte vid närmaste officiella väderstation, som kan ligga flera kilometer bort. Den mäter åtminstone temperatur, luftfuktighet och lufttryck; mer kompletta modeller lägger till nederbörd, vindhastighet och vindriktning, UV-index och solinstrålning. Mätvärdena hamnar i mobilen, sparas i flera år och kan sätta igång automationer.</p>
+<p>Tre användningsområden är vanligast:</p>
+<ul>
+<li><strong>Trädgården:</strong> att veta hur mycket det har regnat i veckan, förutse frost eller pausa den automatiska bevattningen. Vår <a href="/sv/blog/guide-jardin-connecte-2026">guide till den smarta trädgården</a> går igenom de scenarierna.</li>
+<li><strong>Hemmet:</strong> att dra ner rulljalusierna eller fälla in markisen när det blåser upp, och styra värmen efter den verkliga utomhustemperaturen.</li>
+<li><strong>Hobbyn:</strong> att följa hur lufttrycket faller inför ett åskväder och dela sina mätvärden i nätverk som Weather Underground eller Weathercloud.</li>
+</ul>
+
+<h2>Så väljer du rätt</h2>
+<h3>Vad den mäter</h3>
+<p>Här gör du den första gallringen. En så kallad 7-i-1-givare samlar temperatur, luftfuktighet, regn, vindhastighet, vindriktning, UV och ljus på en och samma mast. Ett modulsystem som Netatmo börjar med temperatur, luftfuktighet och lufttryck och byggs sedan ut med en regnmätare och en vindmätare som säljs separat. Är regn och vind viktiga för dig ska du alltså jämföra priset för hela paketet, inte bara för grundenheten.</p>
+<h3>Luftkvaliteten inomhus</h3>
+<p>Bara Netatmo i den här jämförelsen har en koldioxidgivare i inomhusmodulen. Ecowitt erbjuder givare för fina partiklar och CO2 som tillval. Vill du fördjupa dig i ämnet kan du läsa vår guide om <a href="/sv/blog/qualite-air-interieur-capteurs">luftkvalitetsmätare för inomhusbruk</a>.</p>
+<h3>Uppkoppling och smarta hem</h3>
+<p>Kontrollera tillverkarens app, kompatibiliteten med Apple Home, Alexa eller Google och framför allt integrationen med Home Assistant om du använder det. En <strong>lokal</strong> integration (utan omvägen via molnet) reagerar snabbare och fortsätter att fungera om internet går ner.</p>
+<h3>Radioräckvidd och strömförsörjning</h3>
+<p>Utomhusgivaren kommunicerar med inomhuskonsolen via radio (868 MHz i Europa för Ecowitt, Bresser och Davis). Den angivna räckvidden är uppmätt i fri sikt: väggar, häckar och tak minskar den kraftigt. När det gäller strömmen slipper du täta batteribyten med en solcellsdriven givare med reservbatterier; Netatmos utomhusmodul går däremot på två AAA-batterier.</p>
+<h3>Skärmen</h3>
+<p>Ecowitt, Bresser och Davis har en konsol med skärm, vilket är praktiskt när du vill se vädret med en snabb blick utan att ta fram mobilen. Netatmo har ingen skärm: allt sköts i appen.</p>
+
+<h2>De 5 bästa smarta väderstationerna 2026</h2>
+
+<h3>1. Ecowitt HP2551: mest komplett för pengarna</h3>
+<p>Paketet <strong>Ecowitt HP2551</strong> består av wifi-konsolen HP2550 med stor TFT-färgskärm, en inomhusgivare (temperatur, luftfuktighet, lufttryck) och utomhusgivaren 7-i-1 <strong>WS69</strong>: temperatur, luftfuktighet, regnmätare med vippskål, vindhastighet och vindriktning, ljus och UV. Utomhusgivaren drivs med solenergi och har två AA-batterier i reserv.</p>
+<ul>
+<li><strong>Styrkor:</strong> alla viktiga mätvärden direkt ur kartongen, lättläst färgskärm, skickar data till Ecowitt, Weather Underground, Weathercloud eller WOW, officiell och lokal Ecowitt-integration i Home Assistant, mycket stort utbud av extra givare (markfukt, pool, fina partiklar, åska, vattenläckage).</li>
+<li><strong>Svagheter:</strong> appen fungerar men är mindre genomarbetad än Netatmos, inget inbyggt stöd för Apple Home, rörliga delar (vindskålar, vippskål) som behöver rengöras då och då.</li>
+<li><strong>Passar för:</strong> trädgårdsodlare, Home Assistant-användare och alla som vill ha en komplett station utan att behöva köpa till det ena efter det andra.</li>
+</ul>
+
+<h3>2. Netatmo Smart Weather Station: elegantast, med CO2</h3>
+<p><strong>Netatmo Smart Weather Station</strong> består av två aluminiumcylindrar. Inomhusmodulen mäter temperatur, luftfuktighet, lufttryck, ljudnivå och <strong>CO2</strong> (0–5 000 ppm enligt tillverkaren); utomhusmodulen mäter temperatur och luftfuktighet, med en angiven noggrannhet på ±0,3 °C. Mätvärdena uppdateras var femte minut.</p>
+<ul>
+<li><strong>Styrkor:</strong> diskret design, tydlig app med historik och varningar, fungerar med <strong>Apple HomeKit</strong> och Amazon Alexa, officiell Netatmo-integration i Home Assistant (via molnet), extra inomhusmoduler för fler rum, inget abonnemang.</li>
+<li><strong>Svagheter:</strong> varken regn eller vind utan Netatmo Smart Rain Gauge och Netatmo Smart Anemometer, som säljs separat; varken UV eller ljus; ingen skärm; batteridriven utomhusmodul (upp till två år enligt Netatmo).</li>
+<li><strong>Passar för:</strong> dig som framför allt vill hålla koll på inomhusluften och utomhustemperaturen i ett hem med Apple Home.</li>
+</ul>
+
+<h3>3. Bresser Wi-Fi ClearView 7-i-1: allt på skärmen till ett hyggligt pris</h3>
+<p><strong>Bresser Wi-Fi ClearView</strong> med givare 7-i-1 mäter vindhastighet och vindriktning, luftfuktighet, temperatur, regn, UV och ljus och skickar värdena på 868 MHz upp till 150 m i fri sikt. Konsolen med färgskärm på 21,3 cm visar aktuella värden, historik och en lokal vädertrend för de kommande 12–24 timmarna.</p>
+<ul>
+<li><strong>Styrkor:</strong> allt går att läsa på skärmen utan mobil, programmerbara min/max-larm och frostvarning, skickar mätvärden till Weather Underground, Weathercloud och AWEKAS, tyskt märke med stark närvaro i Europa.</li>
+<li><strong>Svagheter:</strong> ingen officiell integration med smarta hem (Apple Home, Home Assistant), mindre utbud av extra givare än Ecowitt.</li>
+<li><strong>Passar för:</strong> dig som vill ha en snygg och komplett station i vardagsrummet och mest läser av den på skärmen.</li>
+</ul>
+
+<h3>4. Davis Vantage Vue: den robusta favoriten bland entusiaster</h3>
+<p><strong>Davis Vantage Vue</strong> har länge varit ett riktmärke bland amatörmeteorologer. Den integrerade givarenheten mäter temperatur, luftfuktighet, regn, vindhastighet och vindriktning; konsolen lägger till lufttrycket. Davis anger en radioräckvidd på upp till 300 m i fri sikt, ett uppdateringsintervall på 2,5 sekunder och en noggrannhet på ±0,5 °C för utomhustemperaturen.</p>
+<ul>
+<li><strong>Styrkor:</strong> robust konstruktion byggd för att hålla länge, en av de bästa radioräckvidderna, solcellsdrift med reservbatteri, stor användargemenskap och många kompatibla program.</li>
+<li><strong>Svagheter:</strong> grundkonsolen är inte uppkopplad: du behöver en WeatherLink Live-gateway eller en WeatherLink Console (säljs ofta i paket) för att se mätvärdena i mobilen; varken UV eller solinstrålning på Vue (de givarna hör till serien Vantage Pro2 Plus); en klart högre prisklass.</li>
+<li><strong>Passar för:</strong> krävande entusiaster, lantbruk och utsatta platser där hållbarheten går först.</li>
+</ul>
+
+<h3>5. Ecowitt Wittboy Pro HP2564: inga rörliga delar</h3>
+<p><strong>Ecowitt Wittboy Pro HP2564</strong> kombinerar wifi-konsolen HP2560 med utomhusgivaren <strong>WS90</strong>, som mäter vinden med ultraljud och regnet med en piezoelektrisk givare, utöver temperatur, luftfuktighet, ljus och UV. Utan vindskålar och vippskål finns det inget som kan kärva och inga insekter som kan täppa till regnmätaren.</p>
+<ul>
+<li><strong>Styrkor:</strong> kräver lite skötsel, samma utbud av extra givare och samma Home Assistant-integration som övriga Ecowitt-stationer, publicering till Weather Underground och Weathercloud.</li>
+<li><strong>Svagheter:</strong> dyrare än HP2551, konsolen behöver ström via USB, och en regnmätning som bygger på droppnedslag anses i regel mindre exakt än en välinstallerad regnmätare med vippskål.</li>
+<li><strong>Passar för:</strong> dig som vill montera givaren på taket och sedan glömma den.</li>
+</ul>
+
+<h2>Jämförelsetabell</h2>
+<table>
+<thead>
+<tr><th>Modell</th><th>Mätvärden utomhus</th><th>Uppkoppling</th><th>Största styrka</th><th>Bäst för</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Ecowitt HP2551</strong></td><td>Temp., luftfuktighet, regn, vind, UV, ljus</td><td>Wifi, Ecowitt-appen, Home Assistant lokalt</td><td>Komplett och mycket utbyggbar</td><td>Trädgård, smarta hem</td></tr>
+<tr><td><strong>Netatmo Smart Weather Station</strong></td><td>Temp., luftfuktighet (regn och vind som tillval)</td><td>Wifi, HomeKit, Alexa, Home Assistant</td><td>CO2 inomhus, design, app</td><td>Inomhusluft, Apple Home</td></tr>
+<tr><td><strong>Bresser Wi-Fi ClearView 7-i-1</strong></td><td>Temp., luftfuktighet, regn, vind, UV, ljus</td><td>Wifi, Weather Underground, AWEKAS</td><td>Stor färgskärm</td><td>Avläsning i vardagsrummet</td></tr>
+<tr><td><strong>Davis Vantage Vue</strong></td><td>Temp., luftfuktighet, regn, vind</td><td>Radio 300 m, wifi via WeatherLink</td><td>Robusthet, räckvidd</td><td>Entusiaster, lantbruk</td></tr>
+<tr><td><strong>Ecowitt Wittboy Pro HP2564</strong></td><td>Temp., luftfuktighet, regn, vind, UV, ljus</td><td>Wifi, Ecowitt-appen, Home Assistant lokalt</td><td>Inga rörliga delar</td><td>Takmontering</td></tr>
+</tbody>
+</table>
+
+<h2>Misstag att undvika</h2>
+<ul>
+<li><strong>Att sätta givaren mot en vägg eller i solen:</strong> en vägg i söderläge strålar ut värme och ger flera graders fel på temperaturen. Välj en öppen plats, helst i skugga, ungefär 1,5 m över marken för temperaturen.</li>
+<li><strong>Att montera vindmätaren för lågt:</strong> i höjd med häcken bromsas vinden. Ju högre och friare givaren sitter, desto mer rättvisande blir mätningen.</li>
+<li><strong>Att bara jämföra grundpriset:</strong> en modulbaserad station kan bli betydligt dyrare när regnmätaren och vindmätaren läggs till.</li>
+<li><strong>Att överskatta räckvidden:</strong> den angivna räckvidden är uppmätt i fri sikt. En tjock vägg eller ett plåttak kan minska den kraftigt.</li>
+<li><strong>Att glömma skötseln:</strong> löv och insekter täpper till regnmätare med vippskål. Det brukar räcka med en rengöring på våren och en på hösten.</li>
+</ul>
+
+<h2>Installation och kalibrering</h2>
+<p>Fäst utomhusgivaren på en stabil mast som står i lod, och rikta den mot norr om tillverkaren kräver det för vindriktningen. Ska den sitta högt, på ett tak eller en skorsten, behöver du arbeta säkert och anlita ett proffs om det är svårt att komma åt. När stationen är på plats ställer du in det relativa lufttrycket efter din höjd över havet eller efter värdet från en närliggande officiell väderstation: utan det steget visar stationen fel lufttryck. Placera till sist inomhuskonsolen en bit från värmekällor och inom räckhåll för ditt wifi på 2,4 GHz.</p>
+
+<h2>Vårt omdöme</h2>
+<p>För de flesta hushåll har <strong>Ecowitt HP2551</strong> den bästa balansen: alla användbara mätvärden från första dagen, en lättläst skärm och lokal integration med smarta hem. <strong>Bresser Wi-Fi ClearView 7-i-1</strong> är det mest budgetvänliga alternativet för dig som mest läser av skärmen. <strong>Netatmo Smart Weather Station</strong> är rätt val om koldioxiden inomhus och Apple Home betyder mer än regn och vind. Krävande entusiaster vänder sig till <strong>Davis Vantage Vue</strong>, och den som vill ha en givare utan skötsel till <strong>Ecowitt Wittboy Pro HP2564</strong>. Hela urvalet finns på vår sida om <a href="/sv/confort-air/stations-meteo">smarta väderstationer</a>.</p>`,
+    us: `<p>The best smart weather station for most homes in 2026 is the <strong>Ecowitt HP2551</strong>. Its 7-in-1 outdoor sensor measures rain, wind, UV and light right out of the box, and it connects locally to Home Assistant. If you'd rather have a sleek device that also tracks CO2 levels in your living room and works with Apple Home, the <strong>Netatmo Smart Weather Station</strong> is still the one to beat, though you'll need optional add-on modules for rain and wind.</p>
+<p>This comparison draws on manufacturer specs, independent reviews from the specialist press and verified owner feedback. You'll find every model in the category on our <a href="/us/confort-air/stations-meteo">smart weather stations</a> page.</p>
+
+<h2>What does a smart weather station do?</h2>
+<p>A smart weather station records conditions <strong>right where you live</strong>, not at the nearest official station, which can be several miles away. At minimum, it measures temperature, humidity and barometric pressure; more complete models add rainfall, wind speed and direction, UV index and sunlight. The data shows up on your phone, gets archived for years and can trigger automations.</p>
+<p>Most people buy one for one of three reasons:</p>
+<ul>
+<li><strong>The yard and garden:</strong> knowing how much rain fell this week, getting ahead of a frost or pausing your sprinklers. Our <a href="/us/blog/guide-jardin-connecte-2026">smart yard and garden guide</a> covers these setups.</li>
+<li><strong>The house:</strong> lowering the shades or retracting the awning when the wind picks up, and adjusting the heat to the actual outdoor temperature.</li>
+<li><strong>The hobby:</strong> watching the pressure drop ahead of a storm and sharing your readings on networks such as Weather Underground or Weathercloud.</li>
+</ul>
+
+<h2>How to choose</h2>
+<h3>What it measures</h3>
+<p>This is the first thing to narrow down. A "7-in-1" sensor puts temperature, humidity, rain, wind speed, wind direction, UV and light on a single mast. A modular system like Netatmo starts with temperature, humidity and pressure, then grows with a rain gauge and an anemometer sold separately. If rain and wind matter to you, compare the cost of the complete kit, not just the base unit.</p>
+<h3>Indoor air quality</h3>
+<p>Only the Netatmo in this roundup has a CO2 sensor built into its indoor module. Ecowitt sells particulate and CO2 sensors as add-ons. To dig deeper, see our guide to <a href="/us/blog/qualite-air-interieur-capteurs">indoor air quality monitors</a>.</p>
+<h3>Connectivity and smart home support</h3>
+<p>Look at the manufacturer's app, compatibility with Apple Home, Alexa or Google, and above all Home Assistant integration if that's your platform. A <strong>local</strong> integration (no round trip to the cloud) responds faster and keeps working when your internet goes down.</p>
+<h3>Wireless range and power</h3>
+<p>The outdoor sensor talks to the indoor console over radio (868 MHz on the European versions of Ecowitt, Bresser and Davis; other regions use a different band). Advertised range is measured in open air, and walls, hedges and roofs cut it down significantly. On the power side, a solar sensor with backup batteries means fewer battery swaps; the Netatmo outdoor module runs on two AAA batteries.</p>
+<h3>The display</h3>
+<p>Ecowitt, Bresser and Davis include a console with a screen, so you can check the weather at a glance without reaching for your phone. Netatmo has no screen: everything happens in the app.</p>
+
+<h2>The 5 best smart weather stations of 2026</h2>
+
+<h3>1. Ecowitt HP2551: the most complete for the money</h3>
+<p>The <strong>Ecowitt HP2551</strong> kit pairs an HP2550 Wi-Fi console with a large color TFT screen, an indoor sensor (temperature, humidity, pressure) and the <strong>WS69</strong> 7-in-1 outdoor sensor: temperature, humidity, tipping-bucket rain gauge, wind speed and direction, light and UV. The outdoor array runs on solar power, with two AA batteries as backup.</p>
+<ul>
+<li><strong>Pros:</strong> every essential reading in the box, an easy-to-read color screen, uploads to Ecowitt, Weather Underground, Weathercloud or WOW, an official local Ecowitt integration in Home Assistant, and a huge range of add-on sensors (soil moisture, pool, particulates, lightning, water leak).</li>
+<li><strong>Cons:</strong> the app works but is less polished than Netatmo's, there's no native Apple Home support, and the moving parts (wind cups, rain bucket) need a cleaning now and then.</li>
+<li><strong>Best for:</strong> gardeners, Home Assistant users and anyone who wants a complete station without buying extras.</li>
+</ul>
+
+<h3>2. Netatmo Smart Weather Station: the sleekest, with CO2</h3>
+<p>The <strong>Netatmo Smart Weather Station</strong> consists of two aluminum cylinders. The indoor module measures temperature, humidity, pressure, noise level and <strong>CO2</strong> (0 to 5,000 ppm, according to the manufacturer); the outdoor module records temperature and humidity, with a stated accuracy of ±0.5°F (±0.3°C). Readings refresh every 5 minutes.</p>
+<ul>
+<li><strong>Pros:</strong> low-key design, a clear app with history and alerts, <strong>Apple HomeKit</strong> and Amazon Alexa support, an official Netatmo integration in Home Assistant (via the cloud), extra indoor modules for other rooms, and no subscription.</li>
+<li><strong>Cons:</strong> no rain or wind data without the Netatmo Smart Rain Gauge and Netatmo Smart Anemometer, sold separately; no UV or light sensor; no screen; a battery-powered outdoor module (up to two years, according to Netatmo).</li>
+<li><strong>Best for:</strong> people who mostly want to track indoor air and outdoor temperature in an Apple Home household.</li>
+</ul>
+
+<h3>3. Bresser Wi-Fi ClearView 7-in-1: an all-in-one display at a fair price</h3>
+<p>The <strong>Bresser Wi-Fi ClearView</strong> with its 7-in-1 sensor covers wind speed and direction, humidity, temperature, rain, UV and light, transmitted at 868 MHz up to 490 ft (150 m) in open air. Its 8.4-inch (21.3 cm) color console shows current conditions, history and a local 12- to 24-hour weather trend.</p>
+<ul>
+<li><strong>Pros:</strong> everything is readable on the screen without a phone, programmable high/low alarms and a frost alert, uploads to Weather Underground, Weathercloud and AWEKAS, and a German brand with a strong presence across Europe.</li>
+<li><strong>Cons:</strong> no official smart home integration (Apple Home, Home Assistant) and a smaller lineup of add-on sensors than Ecowitt.</li>
+<li><strong>Best for:</strong> people who want a complete station for the living room and mostly read it on its screen.</li>
+</ul>
+
+<h3>4. Davis Vantage Vue: built to last, for enthusiasts</h3>
+<p>The <strong>Davis Vantage Vue</strong> has long been a go-to for amateur weather watchers. Its integrated sensor suite measures temperature, humidity, rain, and wind speed and direction; the console adds barometric pressure. Davis rates its wireless range at up to about 1,000 ft (300 m) in open air, with updates every 2.5 seconds and outdoor temperature accuracy of ±0.9°F (±0.5°C).</p>
+<ul>
+<li><strong>Pros:</strong> rugged construction designed for the long haul, some of the best wireless range in the category, solar power with battery backup, and a large community with plenty of compatible software.</li>
+<li><strong>Cons:</strong> the basic console isn't connected, so you need a WeatherLink Live gateway or a WeatherLink Console (often sold as a bundle) to see your data on your phone; no UV or solar radiation sensor on the Vue (those belong to the Vantage Pro2 Plus line); and a noticeably higher price tier.</li>
+<li><strong>Best for:</strong> serious hobbyists, farms and exposed sites where durability comes first.</li>
+</ul>
+
+<h3>5. Ecowitt Wittboy Pro HP2564: no moving parts</h3>
+<p>The <strong>Ecowitt Wittboy Pro HP2564</strong> pairs the HP2560 Wi-Fi console with the <strong>WS90</strong> outdoor sensor, which measures wind ultrasonically and rain with a piezoelectric sensor, plus temperature, humidity, light and UV. With no wind cups or tipping bucket, there's nothing to seize up and no bugs to clog the rain gauge.</p>
+<ul>
+<li><strong>Pros:</strong> low maintenance, plus the same add-on sensor lineup and Home Assistant integration as other Ecowitt stations, and uploads to Weather Underground and Weathercloud.</li>
+<li><strong>Cons:</strong> pricier than the HP2551, the console needs USB power, and impact-based rain measurement is generally considered less accurate than a well-installed tipping bucket.</li>
+<li><strong>Best for:</strong> people who want to mount the sensor on the roof and forget about it.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Outdoor readings</th><th>Connectivity</th><th>Key strength</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Ecowitt HP2551</strong></td><td>Temp., humidity, rain, wind, UV, light</td><td>Wi-Fi, Ecowitt app, local Home Assistant</td><td>Complete and highly expandable</td><td>Yard and garden, smart home</td></tr>
+<tr><td><strong>Netatmo Smart Weather Station</strong></td><td>Temp., humidity (rain and wind optional)</td><td>Wi-Fi, HomeKit, Alexa, Home Assistant</td><td>Indoor CO2, design, app</td><td>Indoor air, Apple Home</td></tr>
+<tr><td><strong>Bresser Wi-Fi ClearView 7-in-1</strong></td><td>Temp., humidity, rain, wind, UV, light</td><td>Wi-Fi, Weather Underground, AWEKAS</td><td>Large color screen</td><td>Living room display</td></tr>
+<tr><td><strong>Davis Vantage Vue</strong></td><td>Temp., humidity, rain, wind</td><td>1,000 ft (300 m) radio, Wi-Fi via WeatherLink</td><td>Durability, range</td><td>Enthusiasts, farms</td></tr>
+<tr><td><strong>Ecowitt Wittboy Pro HP2564</strong></td><td>Temp., humidity, rain, wind, UV, light</td><td>Wi-Fi, Ecowitt app, local Home Assistant</td><td>No moving parts</td><td>Roof mounting</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Mounting the sensor against a wall or in direct sun:</strong> a south-facing wall radiates heat and can throw off the temperature by several degrees. Pick an open spot, shaded if possible, about 5 ft (1.5 m) off the ground for temperature.</li>
+<li><strong>Setting the anemometer too low:</strong> at hedge height, the wind is slowed down. The higher and more open the sensor, the more accurate the reading.</li>
+<li><strong>Comparing only the base price:</strong> a modular station can cost far more once you add the rain gauge and anemometer.</li>
+<li><strong>Overestimating wireless range:</strong> advertised range is measured in open air. A thick wall or a metal roof can cut it sharply.</li>
+<li><strong>Skipping maintenance:</strong> leaves and bugs clog tipping-bucket rain gauges. A cleaning in spring and fall is usually enough.</li>
+</ul>
+
+<h2>Installation and calibration</h2>
+<p>Mount the outdoor sensor on a sturdy, level pole and point it north if the manufacturer requires it for wind direction. For high installs on a roof or chimney, work safely and hire a pro if access is tricky. Once the station is up, set the relative pressure to your elevation or to the reading from a nearby official station: skip this step and the displayed pressure will be off. Finally, put the indoor console away from heat sources and within range of your 2.4 GHz Wi-Fi.</p>
+
+<h2>The bottom line</h2>
+<p>For most homes, the <strong>Ecowitt HP2551</strong> strikes the best balance: every useful reading from day one, an easy-to-read screen and local smart home integration. The <strong>Bresser Wi-Fi ClearView 7-in-1</strong> is the most affordable alternative if you mainly read the screen. The <strong>Netatmo Smart Weather Station</strong> wins if indoor CO2 and Apple Home matter more to you than rain and wind. Serious hobbyists will want the <strong>Davis Vantage Vue</strong>, and anyone after a maintenance-free sensor should look at the <strong>Ecowitt Wittboy Pro HP2564</strong>. The full lineup is on our <a href="/us/confort-air/stations-meteo">smart weather stations</a> page.</p>`,
+    ca: `<p>The best smart weather station for most homes in 2026 is the <strong>Ecowitt HP2551</strong>: its 7-in-1 outdoor sensor measures rain, wind, UV and light right out of the box, and it connects locally to Home Assistant. If you'd rather have a stylish device that also tracks the CO2 level in your living room and works with Apple Home, the <strong>Netatmo Smart Weather Station</strong> is still the benchmark, although rain and wind readings require optional modules.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews from the specialist press and verified buyer reviews. You'll find every model in the category on our <a href="/ca/confort-air/stations-meteo">smart weather stations</a> page.</p>
+
+<h2>What does a smart weather station do?</h2>
+<p>A smart weather station records conditions <strong>at your home</strong>, not at the nearest official station, which may be several kilometres away. At a minimum it measures temperature, humidity and pressure; more complete models add rainfall, wind speed and direction, UV index and sunlight. Readings go to your phone, are archived for years and can trigger automations.</p>
+<p>Three uses come up most often:</p>
+<ul>
+<li><strong>The yard and garden:</strong> knowing how much rain fell this week, seeing frost coming or pausing automatic watering. Our <a href="/ca/blog/guide-jardin-connecte-2026">smart backyard guide</a> covers these scenarios.</li>
+<li><strong>The home:</strong> closing motorized shutters or retracting the awning when the wind picks up, and adjusting the heating to the actual outdoor temperature.</li>
+<li><strong>The hobby:</strong> watching the pressure drop before a storm and sharing your readings on networks such as Weather Underground or Weathercloud.</li>
+</ul>
+
+<h2>How to choose</h2>
+<h3>What it measures</h3>
+<p>This is the first filter. A "7-in-1" sensor combines temperature, humidity, rain, wind speed, wind direction, UV and light on a single mast. A modular system like Netatmo starts with temperature, humidity and pressure, then expands with a rain gauge and an anemometer sold separately. If rain and wind matter to you, compare the price of the complete kit, not just the base unit.</p>
+<h3>Indoor air quality</h3>
+<p>Only the Netatmo in this comparison has a CO2 sensor in its indoor module. Ecowitt offers particulate and CO2 sensors as add-ons. To dig deeper, see our guide to <a href="/ca/blog/qualite-air-interieur-capteurs">indoor air quality monitors</a>.</p>
+<h3>Connectivity and smart home</h3>
+<p>Check the manufacturer's app, compatibility with Apple Home, Alexa or Google, and above all Home Assistant integration if you use it. A <strong>local</strong> integration (no round trip to the cloud) responds faster and keeps working if your internet goes down.</p>
+<h3>Radio range and power</h3>
+<p>The outdoor sensor talks to the indoor console by radio (868 MHz on the European versions of Ecowitt, Bresser and Davis stations). Advertised range is measured in open air: walls, hedges and roofs cut it significantly. For power, a solar sensor with backup batteries saves you frequent battery changes; the Netatmo outdoor module runs on two AAA batteries.</p>
+<h3>The display</h3>
+<p>Ecowitt, Bresser and Davis supply a console with a screen, handy for checking the weather at a glance without reaching for your phone. Netatmo has no screen: everything goes through the app.</p>
+
+<h2>The 5 best smart weather stations in 2026</h2>
+
+<h3>1. Ecowitt HP2551: the most complete for the money</h3>
+<p>The <strong>Ecowitt HP2551</strong> kit pairs an HP2550 Wi-Fi console with a large colour TFT screen, an indoor sensor (temperature, humidity, pressure) and the <strong>WS69</strong> 7-in-1 outdoor sensor: temperature, humidity, tipping-bucket rain gauge, wind speed and direction, light and UV. The outdoor array is solar powered, with two AA batteries as backup.</p>
+<ul>
+<li><strong>Strengths:</strong> all the essential readings in the box, an easy-to-read colour screen, uploads to Ecowitt, Weather Underground, Weathercloud or WOW, an official local Ecowitt integration in Home Assistant and a very wide range of add-on sensors (soil moisture, pool, particulates, lightning, water leak).</li>
+<li><strong>Limitations:</strong> a functional app that's less polished than Netatmo's, no native Apple Home support, and moving parts (wind cups, rain bucket) that need occasional cleaning.</li>
+<li><strong>Best for:</strong> gardeners, Home Assistant users and anyone who wants a complete station without buying extras.</li>
+</ul>
+
+<h3>2. Netatmo Smart Weather Station: the most elegant, with CO2</h3>
+<p>The <strong>Netatmo Smart Weather Station</strong> consists of two aluminum cylinders. The indoor module measures temperature, humidity, pressure, noise level and <strong>CO2</strong> (0 to 5,000 ppm according to the manufacturer); the outdoor module records temperature and humidity, with a stated accuracy of ±0.3°C. Readings update every 5 minutes.</p>
+<ul>
+<li><strong>Strengths:</strong> discreet design, a clear app with history and alerts, <strong>Apple HomeKit</strong> and Amazon Alexa compatibility, an official Netatmo integration in Home Assistant (via the cloud), extra indoor modules for other rooms and no subscription.</li>
+<li><strong>Limitations:</strong> no rain or wind readings without the Netatmo Smart Rain Gauge and Netatmo Smart Anemometer, sold separately; no UV or light; no screen; a battery-powered outdoor module (up to two years according to Netatmo).</li>
+<li><strong>Best for:</strong> people who mainly want to monitor indoor air and the outdoor temperature in an Apple Home household.</li>
+</ul>
+
+<h3>3. Bresser Wi-Fi ClearView 7-in-1: an all-in-one display at a fair price</h3>
+<p>The <strong>Bresser Wi-Fi ClearView</strong> with its 7-in-1 sensor covers wind speed and direction, humidity, temperature, rain, UV and light, transmitted at 868 MHz up to 150 m in open air. Its 21.3 cm (8.4 in.) colour console shows current values, history and a local 12- to 24-hour weather trend.</p>
+<ul>
+<li><strong>Strengths:</strong> everything is readable on the screen without a phone, programmable min/max alarms and a frost alert, uploads to Weather Underground, Weathercloud and AWEKAS, and a German brand with a strong presence in Europe.</li>
+<li><strong>Limitations:</strong> no official smart home integration (Apple Home, Home Assistant) and a smaller add-on sensor ecosystem than Ecowitt's.</li>
+<li><strong>Best for:</strong> people who want a complete station for the living room and will mostly read it on its screen.</li>
+</ul>
+
+<h3>4. Davis Vantage Vue: built to last, for enthusiasts</h3>
+<p>The <strong>Davis Vantage Vue</strong> has long been a reference among amateur meteorologists. Its integrated sensor suite measures temperature, humidity, rain, wind speed and direction; the console adds pressure. Davis states a radio range of up to 300 m in open air, updates every 2.5 seconds and ±0.5°C accuracy for outdoor temperature.</p>
+<ul>
+<li><strong>Strengths:</strong> rugged construction designed for the long haul, one of the best radio ranges, solar power with battery backup, and a large community with plenty of compatible software.</li>
+<li><strong>Limitations:</strong> the basic console has no internet connection, so you need a WeatherLink Live gateway or a WeatherLink Console (often sold as a bundle) to see your data on your phone; no UV or solar radiation sensors on the Vue (those belong to the Vantage Pro2 Plus line); a noticeably higher price bracket.</li>
+<li><strong>Best for:</strong> demanding enthusiasts, farms and exposed sites where durability comes first.</li>
+</ul>
+
+<h3>5. Ecowitt Wittboy Pro HP2564: no moving parts</h3>
+<p>The <strong>Ecowitt Wittboy Pro HP2564</strong> pairs the HP2560 Wi-Fi console with the <strong>WS90</strong> outdoor sensor, which measures wind ultrasonically and rain with a piezoelectric sensor, plus temperature, humidity, light and UV. With no wind cups or tipping bucket, there's nothing to seize up and no insects to clog the rain gauge.</p>
+<ul>
+<li><strong>Strengths:</strong> low maintenance, the same add-on sensor ecosystem and Home Assistant integration as other Ecowitt stations, and uploads to Weather Underground and Weathercloud.</li>
+<li><strong>Limitations:</strong> more expensive than the HP2551, a console that needs USB power, and impact-based rain measurement that's generally considered less precise than a well-installed tipping bucket.</li>
+<li><strong>Best for:</strong> people who want to mount the sensor on a roof and forget about it.</li>
+</ul>
+
+<h2>Comparison table</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Outdoor readings</th><th>Connectivity</th><th>Key strength</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Ecowitt HP2551</strong></td><td>Temp., humidity, rain, wind, UV, light</td><td>Wi-Fi, Ecowitt app, local Home Assistant</td><td>Complete and highly expandable</td><td>Yard and garden, smart home</td></tr>
+<tr><td><strong>Netatmo Smart Weather Station</strong></td><td>Temp., humidity (rain and wind optional)</td><td>Wi-Fi, HomeKit, Alexa, Home Assistant</td><td>Indoor CO2, design, app</td><td>Indoor air, Apple Home</td></tr>
+<tr><td><strong>Bresser Wi-Fi ClearView 7-in-1</strong></td><td>Temp., humidity, rain, wind, UV, light</td><td>Wi-Fi, Weather Underground, AWEKAS</td><td>Large colour screen</td><td>Living-room display</td></tr>
+<tr><td><strong>Davis Vantage Vue</strong></td><td>Temp., humidity, rain, wind</td><td>300 m radio, Wi-Fi via WeatherLink</td><td>Durability, range</td><td>Enthusiasts, farms</td></tr>
+<tr><td><strong>Ecowitt Wittboy Pro HP2564</strong></td><td>Temp., humidity, rain, wind, UV, light</td><td>Wi-Fi, Ecowitt app, local Home Assistant</td><td>No moving parts</td><td>Roof mounting</td></tr>
+</tbody>
+</table>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Mounting the sensor against a wall or in direct sun:</strong> a south-facing wall gives off heat and can throw the temperature off by several degrees. Aim for an open spot, shaded if possible, about 1.5 m (5 ft) above the ground for temperature.</li>
+<li><strong>Placing the anemometer too low:</strong> at hedge height the wind is slowed down. The higher and more open the spot, the more representative the reading.</li>
+<li><strong>Comparing only the base price:</strong> a modular station can cost far more once the rain gauge and anemometer are added.</li>
+<li><strong>Overestimating radio range:</strong> advertised range is measured in open air. A thick wall or a metal roof can cut it sharply.</li>
+<li><strong>Forgetting maintenance:</strong> leaves and insects clog tipping-bucket rain gauges. A cleaning in spring and fall is usually enough.</li>
+</ul>
+
+<h2>Installation and calibration</h2>
+<p>Mount the outdoor sensor on a sturdy, level mast and point it north if the manufacturer requires it for wind direction. For high installations on a roof or chimney, work safely and hire a professional if access is tricky. Once the station is up, set the relative pressure to your altitude or to the reading of a nearby official station: skip this step and the displayed pressure will be off. Finally, place the indoor console away from heat sources and within range of your 2.4 GHz Wi-Fi.</p>
+
+<h2>Our verdict</h2>
+<p>For most households, the <strong>Ecowitt HP2551</strong> strikes the best balance: every useful reading from day one, an easy-to-read screen and local smart home integration. The <strong>Bresser Wi-Fi ClearView 7-in-1</strong> is the most affordable alternative for people who mainly read the screen. The <strong>Netatmo Smart Weather Station</strong> wins if indoor CO2 and Apple Home matter more than rain and wind. Demanding enthusiasts will look to the <strong>Davis Vantage Vue</strong>, and anyone who wants a maintenance-free sensor to the <strong>Ecowitt Wittboy Pro HP2564</strong>. The full selection is on our <a href="/ca/confort-air/stations-meteo">smart weather stations</a> page.</p>`,
   },
   faq: [
     {
@@ -715,6 +1006,9 @@ export const article: BlogArticle = {
         it: 'Quale stazione meteo connessa scegliere per il giardino?',
         nl: 'Welk slim weerstation past het best bij de tuin?',
         pl: 'Jaką inteligentną stację pogodową wybrać do ogrodu?',
+        sv: 'Vilken smart väderstation passar bäst i trädgården?',
+        us: 'Which smart weather station is best for gardening?',
+        ca: 'Which smart weather station is best for your yard and garden?',
       },
       answer: {
         fr: 'Une station avec pluviomètre intégré et capteurs additionnels, comme l\'Ecowitt HP2551 : elle mesure la pluie dès l\'achat et accepte des sondes d\'humidité du sol. Couplée à Home Assistant ou à un programmateur compatible, elle permet de suspendre l\'arrosage après une averse.',
@@ -723,7 +1017,10 @@ export const article: BlogArticle = {
         es: 'Una estación con pluviómetro integrado y sensores adicionales, como la Ecowitt HP2551: mide la lluvia de serie y admite sondas de humedad del suelo. Junto a Home Assistant o un programador compatible, permite pausar el riego tras un chaparrón.',
         it: 'Una stazione con pluviometro integrato e sensori aggiuntivi, come la Ecowitt HP2551: misura la pioggia fin da subito e accetta sonde di umidità del suolo. Abbinata a Home Assistant o a una centralina compatibile, permette di sospendere l\'irrigazione dopo un acquazzone.',
         nl: 'Een station met ingebouwde regenmeter en extra sensoren, zoals de Ecowitt HP2551: het meet regen direct en ondersteunt bodemvochtsensoren. Samen met Home Assistant of een compatibele beregeningscomputer kun je de besproeiing na een bui pauzeren.',
-        pl: 'Stację z wbudowanym deszczomierzem i czujnikami dodatkowymi, jak Ecowitt HP2551: mierzy deszcz od razu po zakupie i obsługuje sondy wilgotności gleby. W połączeniu z Home Assistant lub zgodnym sterownikiem nawadniania pozwala wstrzymać podlewanie po ulewie.',
+        pl: 'Najlepiej taką, która ma wbudowany deszczomierz i obsługuje dodatkowe czujniki, np. Ecowitt HP2551: mierzy opady od razu po zakupie i współpracuje z czujnikami wilgotności gleby. W połączeniu z Home Assistant lub zgodnym sterownikiem nawadniania pozwala wstrzymać podlewanie po deszczu.',
+        sv: 'En station med inbyggd regnmätare och möjlighet till extra givare, som Ecowitt HP2551: den mäter regn direkt ur kartongen och kan kompletteras med givare för markfukt. Ihop med Home Assistant eller en kompatibel bevattningsdator kan den pausa bevattningen efter en regnskur.',
+        us: 'Go for a station with a built-in rain gauge and room for add-on sensors, such as the Ecowitt HP2551: it measures rainfall out of the box and accepts soil moisture probes. Paired with Home Assistant or a compatible controller, it can pause your sprinklers after a shower.',
+        ca: 'A station with a built-in rain gauge and add-on sensors, such as the Ecowitt HP2551: it measures rain out of the box and accepts soil moisture probes. Paired with Home Assistant or a compatible sprinkler controller, it lets you pause watering after it rains.',
       },
     },
     {
@@ -735,6 +1032,9 @@ export const article: BlogArticle = {
         it: 'Serve un abbonamento per una stazione meteo connessa?',
         nl: 'Heb je een abonnement nodig voor een slim weerstation?',
         pl: 'Czy inteligentna stacja pogodowa wymaga abonamentu?',
+        sv: 'Behöver man ett abonnemang för en smart väderstation?',
+        us: 'Do you need a subscription for a smart weather station?',
+        ca: 'Do smart weather stations require a subscription?',
       },
       answer: {
         fr: 'Non pour les fonctions de base. Netatmo, Ecowitt et Bresser donnent accès gratuitement aux relevés en direct et à l\'historique. Davis propose une version gratuite de WeatherLink et des formules payantes pour des fonctions avancées, comme un historique plus détaillé.',
@@ -743,7 +1043,10 @@ export const article: BlogArticle = {
         es: 'No para las funciones básicas. Netatmo, Ecowitt y Bresser dan acceso gratuito a los datos en directo y al historial. Davis ofrece una versión gratuita de WeatherLink y planes de pago para funciones avanzadas, como un historial más detallado.',
         it: 'No per le funzioni di base. Netatmo, Ecowitt e Bresser danno accesso gratuito ai dati in tempo reale e allo storico. Davis offre una versione gratuita di WeatherLink e piani a pagamento per funzioni avanzate, come uno storico più dettagliato.',
         nl: 'Niet voor de basisfuncties. Netatmo, Ecowitt en Bresser bieden live metingen en historiek gratis aan. Davis heeft een gratis versie van WeatherLink en betaalde abonnementen voor geavanceerde functies, zoals een gedetailleerdere historiek.',
-        pl: 'Nie w przypadku podstawowych funkcji. Netatmo, Ecowitt i Bresser zapewniają bezpłatny dostęp do bieżących odczytów i historii. Davis oferuje darmową wersję WeatherLink i płatne plany z zaawansowanymi funkcjami, takimi jak bardziej szczegółowa historia.',
+        pl: 'Do podstawowych funkcji – nie. Netatmo, Ecowitt i Bresser dają bezpłatny dostęp do bieżących odczytów i historii pomiarów. Davis oferuje darmową wersję WeatherLink oraz płatne plany z funkcjami zaawansowanymi, np. bardziej szczegółową historią.',
+        sv: 'Inte för grundfunktionerna. Netatmo, Ecowitt och Bresser ger gratis tillgång till aktuella mätvärden och historik. Davis har en gratisversion av WeatherLink och betalabonnemang för avancerade funktioner, till exempel mer detaljerad historik.',
+        us: 'Not for the basics. Netatmo, Ecowitt and Bresser give you free access to live readings and history. Davis offers a free version of WeatherLink plus paid plans for advanced features, such as more detailed history.',
+        ca: 'Not for the basics. Netatmo, Ecowitt and Bresser give free access to live readings and history. Davis offers a free version of WeatherLink plus paid plans for advanced features such as more detailed history.',
       },
     },
     {
@@ -755,6 +1058,9 @@ export const article: BlogArticle = {
         it: 'Si può integrare una stazione meteo in Home Assistant?',
         nl: 'Kun je een weerstation koppelen aan Home Assistant?',
         pl: 'Czy stację pogodową można zintegrować z Home Assistant?',
+        sv: 'Går det att koppla en väderstation till Home Assistant?',
+        us: 'Can you connect a weather station to Home Assistant?',
+        ca: 'Can a weather station be integrated with Home Assistant?',
       },
       answer: {
         fr: 'Oui. Ecowitt dispose d\'une intégration officielle qui reçoit les données en local, sans cloud. Netatmo a aussi une intégration officielle, mais elle passe par le cloud. Vous pouvez ensuite automatiser : fermer les volets si le vent forcit, couper l\'arrosage après une pluie, alerter en cas de gel.',
@@ -763,7 +1069,10 @@ export const article: BlogArticle = {
         es: 'Sí. Ecowitt tiene una integración oficial que recibe los datos en local, sin nube. Netatmo también tiene integración oficial, pero a través de la nube. Después puedes automatizar: bajar persianas si sube el viento, cortar el riego tras la lluvia o avisar de heladas.',
         it: 'Sì. Ecowitt ha un\'integrazione ufficiale che riceve i dati in locale, senza cloud. Anche Netatmo ha un\'integrazione ufficiale, ma passa dal cloud. Potete poi automatizzare: chiudere le tapparelle con vento forte, fermare l\'irrigazione dopo la pioggia, avvisare in caso di gelo.',
         nl: 'Ja. Ecowitt heeft een officiële integratie die de gegevens lokaal ontvangt, zonder cloud. Ook Netatmo is officieel geïntegreerd, maar via de cloud. Daarna kun je automatiseren: rolluiken sluiten bij harde wind, besproeiing stoppen na regen, waarschuwen bij vorst.',
-        pl: 'Tak. Ecowitt ma oficjalną integrację, która odbiera dane lokalnie, bez chmury. Netatmo także ma oficjalną integrację, ale działa ona przez chmurę. Następnie możesz zautomatyzować na przykład zamykanie rolet przy silniejszym wietrze, wyłączanie nawadniania po deszczu czy alert o przymrozku.',
+        pl: 'Tak. Ecowitt ma oficjalną integrację, która odbiera dane lokalnie, bez udziału chmury. Netatmo również ma oficjalną integrację, ale działa ona przez chmurę. Potem możesz tworzyć automatyzacje: zamykać rolety, gdy wiatr przybiera na sile, wyłączać nawadnianie po deszczu albo dostawać powiadomienia o przymrozku.',
+        sv: 'Ja. Ecowitt har en officiell integration som tar emot data lokalt, utan molnet. Netatmo har också en officiell integration, men den går via molnet. Sedan kan du automatisera: dra ner rulljalusierna när det blåser upp, stänga av bevattningen efter regn och få en varning vid frost.',
+        us: 'Yes. Ecowitt has an official integration that receives data locally, with no cloud involved. Netatmo also has an official integration, but it runs through the cloud. From there you can automate: lower the shades when the wind picks up, stop watering after rain, or get an alert when frost is on the way.',
+        ca: 'Yes. Ecowitt has an official integration that receives data locally, without the cloud. Netatmo also has an official integration, but it goes through the cloud. You can then automate: close motorized shutters when the wind picks up, stop watering after rain, get a frost alert.',
       },
     },
     {
@@ -775,6 +1084,9 @@ export const article: BlogArticle = {
         it: 'Dove installare il sensore esterno di una stazione meteo?',
         nl: 'Waar plaats je de buitensensor van een weerstation?',
         pl: 'Gdzie zamontować czujnik zewnętrzny stacji pogodowej?',
+        sv: 'Var ska väderstationens utomhusgivare sitta?',
+        us: 'Where should you put the outdoor sensor?',
+        ca: 'Where should the outdoor sensor be installed?',
       },
       answer: {
         fr: 'Dans un endroit dégagé, loin des murs et des surfaces qui chauffent au soleil, idéalement à l\'ombre et à environ 1,5 m du sol pour la température. L\'anémomètre doit être le plus haut et le plus dégagé possible. Vérifiez aussi que la distance avec la console reste dans la portée radio.',
@@ -783,7 +1095,10 @@ export const article: BlogArticle = {
         es: 'En un lugar despejado, lejos de paredes y superficies que se calientan al sol, idealmente a la sombra y a unos 1,5 m del suelo para la temperatura. El anemómetro debe quedar lo más alto y despejado posible. Comprueba también que la consola esté dentro del alcance de radio.',
         it: 'In un punto libero, lontano da muri e superfici che si scaldano al sole, idealmente all\'ombra e a circa 1,5 m da terra per la temperatura. L\'anemometro deve essere il più alto e libero possibile. Verificate anche che la console resti nel raggio della portata radio.',
         nl: 'Op een open plek, uit de buurt van muren en oppervlakken die in de zon opwarmen, bij voorkeur in de schaduw en op ongeveer 1,5 m boven de grond voor de temperatuur. De windmeter hoort zo hoog en vrij mogelijk. Controleer ook of de console binnen radiobereik blijft.',
-        pl: 'W miejscu otwartym, z dala od ścian i powierzchni nagrzewających się na słońcu, najlepiej w cieniu i na wysokości ok. 1,5 m nad ziemią dla pomiaru temperatury. Anemometr powinien być jak najwyżej i jak najbardziej odsłonięty. Sprawdź też, czy odległość od konsoli mieści się w zasięgu radiowym.',
+        pl: 'W otwartym miejscu, z dala od ścian i powierzchni, które nagrzewają się w słońcu. Do pomiaru temperatury najlepsze jest miejsce zacienione, na wysokości około 1,5 m nad ziemią. Anemometr powinien stać jak najwyżej, bez przeszkód wokół. Sprawdź też, czy konsola znajdzie się w zasięgu sygnału radiowego czujnika.',
+        sv: 'På en öppen plats, en bit från väggar och ytor som blir varma i solen, helst i skugga och ungefär 1,5 m över marken för temperaturen. Vindmätaren ska sitta så högt och fritt som möjligt. Kontrollera också att avståndet till konsolen ligger inom radioräckvidden.',
+        us: 'In an open spot, away from walls and surfaces that heat up in the sun, ideally in the shade and about 5 ft (1.5 m) off the ground for temperature. The anemometer should be as high and unobstructed as possible. Also make sure the distance to the console stays within wireless range.',
+        ca: 'In an open spot, away from walls and surfaces that heat up in the sun, ideally in the shade and about 1.5 m (5 ft) above the ground for temperature. The anemometer should be as high and unobstructed as possible. Also check that the distance to the console stays within radio range.',
       },
     },
     {
@@ -795,6 +1110,9 @@ export const article: BlogArticle = {
         it: 'Quanto durano le batterie del sensore esterno?',
         nl: 'Hoe lang gaan de batterijen van de buitensensor mee?',
         pl: 'Jak długo wytrzymują baterie w czujniku zewnętrznym?',
+        sv: 'Hur länge räcker batterierna i utomhusgivaren?',
+        us: 'How long do outdoor sensor batteries last?',
+        ca: 'How long do outdoor sensor batteries last?',
       },
       answer: {
         fr: 'Le module extérieur Netatmo fonctionne avec deux piles AAA, annoncées pour durer jusqu\'à deux ans. Les capteurs Ecowitt, Bresser et Davis sont alimentés par panneau solaire avec piles ou batterie de secours : les remplacements sont donc rares, surtout dans les régions ensoleillées.',
@@ -803,7 +1121,10 @@ export const article: BlogArticle = {
         es: 'El módulo exterior de Netatmo funciona con dos pilas AAA que duran hasta dos años según el fabricante. Los sensores de Ecowitt, Bresser y Davis se alimentan con panel solar y pilas o batería de respaldo, así que los cambios son poco frecuentes, sobre todo en zonas soleadas.',
         it: 'Il modulo esterno Netatmo funziona con due pile AAA che durano fino a due anni secondo il produttore. I sensori Ecowitt, Bresser e Davis sono alimentati da pannello solare con pile o batteria di riserva, quindi le sostituzioni sono rare, soprattutto nelle zone soleggiate.',
         nl: 'De buitenmodule van Netatmo werkt op twee AAA-batterijen die volgens de fabrikant tot twee jaar meegaan. De sensoren van Ecowitt, Bresser en Davis werken op zonne-energie met reservebatterijen, dus vervangen is zelden nodig, zeker in zonnige streken.',
-        pl: 'Zewnętrzny moduł Netatmo działa na dwóch bateriach AAA, które według producenta wytrzymują do dwóch lat. Czujniki Ecowitt, Bresser i Davis są zasilane panelem słonecznym z bateriami lub akumulatorem zapasowym, więc wymiany są rzadkie, zwłaszcza w słonecznych regionach.',
+        pl: 'Zewnętrzny moduł Netatmo działa na dwóch bateriach AAA, które według producenta wystarczają nawet na dwa lata. Czujniki Ecowitt, Bresser i Davis mają panel słoneczny oraz zapasowe baterie lub akumulator, więc baterie wymienia się rzadko, zwłaszcza w słonecznych regionach.',
+        sv: 'Netatmos utomhusmodul drivs av två AAA-batterier som enligt tillverkaren räcker i upp till två år. Givarna från Ecowitt, Bresser och Davis drivs med solpanel och har batterier i reserv, så batteribyten blir sällsynta, särskilt i soliga trakter.',
+        us: 'The Netatmo outdoor module runs on two AAA batteries rated for up to two years. Ecowitt, Bresser and Davis sensors are solar powered with backup batteries, so you\'ll rarely replace them, especially if you live somewhere sunny.',
+        ca: 'The Netatmo outdoor module runs on two AAA batteries rated for up to two years. Ecowitt, Bresser and Davis sensors are solar powered with backup batteries, so replacements are rare, especially in sunny regions.',
       },
     },
     {
@@ -814,7 +1135,10 @@ export const article: BlogArticle = {
         es: '¿Por qué la presión que muestra mi estación difiere de la oficial?',
         it: 'Perché la pressione mostrata è diversa da quella ufficiale?',
         nl: 'Waarom wijkt de getoonde luchtdruk af van het officiële weerbericht?',
-        pl: 'Dlaczego wyświetlane ciśnienie różni się od oficjalnej prognozy?',
+        pl: 'Dlaczego ciśnienie na mojej stacji różni się od podawanego w prognozie pogody?',
+        sv: 'Varför visar min väderstation ett annat lufttryck än den officiella prognosen?',
+        us: 'Why doesn\'t my station\'s pressure match the official forecast?',
+        ca: 'Why does my station show a different pressure from the official forecast?',
       },
       answer: {
         fr: 'Les bulletins donnent une pression ramenée au niveau de la mer, alors que votre station mesure la pression absolue à votre altitude. Réglez la pression relative dans l\'application ou sur la console, en indiquant votre altitude ou la valeur d\'une station officielle proche.',
@@ -823,7 +1147,10 @@ export const article: BlogArticle = {
         es: 'Los partes meteorológicos dan la presión reducida al nivel del mar, mientras que tu estación mide la presión absoluta a tu altitud. Ajusta la presión relativa en la app o en la consola indicando tu altitud o el valor de una estación oficial cercana.',
         it: 'I bollettini indicano la pressione riportata al livello del mare, mentre la vostra stazione misura la pressione assoluta alla vostra altitudine. Impostate la pressione relativa nell\'app o sulla console, indicando l\'altitudine o il valore di una stazione ufficiale vicina.',
         nl: 'Weerberichten geven de luchtdruk herleid tot zeeniveau, terwijl je station de absolute druk op jouw hoogte meet. Stel de relatieve luchtdruk in via de app of de console, op basis van je hoogte of de waarde van een nabijgelegen officieel station.',
-        pl: 'Komunikaty podają ciśnienie sprowadzone do poziomu morza, a twoja stacja mierzy ciśnienie bezwzględne na twojej wysokości. Ustaw ciśnienie względne w aplikacji lub na konsoli, podając swoją wysokość nad poziomem morza albo wartość z pobliskiej oficjalnej stacji.',
+        pl: 'Prognozy podają ciśnienie zredukowane do poziomu morza, a Twoja stacja mierzy ciśnienie bezwzględne na wysokości, na której mieszkasz. Ustaw ciśnienie względne w aplikacji lub na konsoli, podając wysokość nad poziomem morza albo odczyt z pobliskiej oficjalnej stacji meteorologicznej.',
+        sv: 'Väderprognoserna anger lufttrycket omräknat till havsnivå, medan din station mäter det absoluta lufttrycket på din höjd. Ställ in det relativa lufttrycket i appen eller på konsolen, utifrån din höjd över havet eller värdet från en närliggande officiell väderstation.',
+        us: 'Forecasts report pressure adjusted to sea level, while your station measures absolute pressure at your elevation. Set the relative pressure in the app or on the console by entering your elevation or the reading from a nearby official station.',
+        ca: 'Forecasts give pressure adjusted to sea level, while your station measures absolute pressure at your altitude. Set the relative pressure in the app or on the console, using your altitude or the reading of a nearby official station.',
       },
     },
   ],

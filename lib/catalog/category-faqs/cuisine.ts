@@ -63,14 +63,116 @@ export const CUISINE_FAQS: CategoryFaqSets = {
       { question: "Mag je bakpapier in de airfryer gebruiken?", answer: "Ja, zolang het verzwaard wordt door het eten: los bakpapier waait op door de ventilator en kan het verwarmingselement raken. Kies geperforeerd bakpapier of knip het op maat, zonder de hele bodem te bedekken, anders kan de lucht niet circuleren en wordt het eten ongelijk gaar. Zet de airfryer nooit leeg aan met bakpapier erin en let op de maximumtemperatuur op de verpakking, vaak rond 220 °C. Een siliconen bakje dat in de mand past is een herbruikbaar alternatief." },
     ],
     pl: [
-      { question: "Czy warto kupić frytkownicę beztłuszczową?", answer: "Warto, jeśli często przygotowuje się frytki, mrożonki i skrzydełka albo odgrzewa jedzenie dla 1–4 osób. Frytkownica nagrzewa się szybciej niż piekarnik, przy małych porcjach zużywa mniej prądu i daje chrupkość bez smażenia w głębokim tłuszczu. Mniej się przyda przy gotowaniu dużych porcji dla całej rodziny albo gdy brakuje miejsca na blacie, bo urządzenie jest spore i słychać jego wentylator. Przed zakupem warto sprawdzić, czy producent sprzedaje zapasowe kosze, bo to powłoka zużywa się najszybciej." },
-      { question: "Ile prądu zużywa frytkownica beztłuszczowa?", answer: "Jedno użycie trwające 20–30 minut zużywa najwyżej od 0,5 do 1 kWh, zależnie od mocy urządzenia. Wzór: moc w kW × czas pracy w godzinach × cena za kWh. Przykład: 1,7 kW przez 25 minut to około 0,7 kWh, czyli około 70 groszy przy cenie 1 zł za kWh z dystrybucją. Realne zużycie jest zwykle niższe, bo grzałka okresowo się wyłącza po osiągnięciu temperatury. Swoją stawkę za kWh, łącznie z opłatami dystrybucyjnymi, można sprawdzić na rachunku." },
-      { question: "Frytkownica jednokomorowa czy dwukomorowa: którą wybrać?", answer: "Dwukomorowa sprawdzi się, gdy często przygotowuje się jednocześnie danie główne i dodatek; jednokomorowa z dużym koszem jest lepsza do całego kurczaka i większych kawałków mięsa. W modelach dwukomorowych każda komora ma własny czas i temperaturę, a funkcja synchronizacji sprawia, że obie kończą pracę razem. Uwaga: podawana pojemność to suma, więc 9 litrów oznacza zwykle dwa kosze po 4,5 litra. Takie urządzenia zajmują więcej miejsca i mają często moc 2400 W lub większą." },
-      { question: "Jaka pojemność frytkownicy beztłuszczowej dla 2 i 4 osób?", answer: "Dla dwóch osób wystarczy zwykle 3,5–5 litrów, a dla czterech warto wybrać 5,5–7 litrów lub model dwukomorowy. Ważniejsza od litrów jest powierzchnia dna kosza, bo chrupiące wychodzi tylko to, co leży w jednej warstwie. Wielu producentów podaje, ile gramów frytek mieści kosz, co jest lepszą wskazówką niż sama pojemność. Jeśli gotuje się na zapas albo dla gości, lepiej wziąć większy model niż smażyć kilka razy z rzędu." },
-      { question: "Frytkownica beztłuszczowa czy piekarnik: co jest tańsze w użyciu?", answer: "Przy jednej lub dwóch porcjach tańsza jest frytkownica beztłuszczowa, bo nagrzewa kilka litrów i prawie nie wymaga rozgrzewania. Piekarnik elektryczny ma zwykle 2000–3000 W i musi najpierw nagrzać komorę o pojemności około 60–70 litrów. Przy pełnej blasze, zapiekance czy obiedzie dla całej rodziny piekarnik wypada lepiej, bo frytkownica wymagałaby kilku tur. Prosta zasada: małe porcje i mrożonki we frytkownicy, duże dania w piekarniku." },
-      { question: "Czy powłoka teflonowa we frytkownicy beztłuszczowej jest bezpieczna?", answer: "Tak, dopóki powłoka jest nieuszkodzona: PTFE, czyli teflon, uznaje się za stabilny w temperaturach frytkownicy, a rozkłada się dopiero powyżej około 260 °C. Frytkownice pracują zwykle w zakresie 200–240 °C. PTFE należy jednak do grupy PFAS, a napis “bez PFOA” niewiele znaczy, bo PFOA jest zakazany w Unii Europejskiej od 2020 roku. Należy używać drewnianych lub silikonowych akcesoriów, unikać szorstkich gąbek i wymienić kosz, z którego odchodzi powłoka. Alternatywą są kosze ze stali nierdzewnej, ceramiczne lub misy szklane." },
-      { question: "Frytkownica beztłuszczowa nie grzeje: co sprawdzić?", answer: "Najpierw trzeba sprawdzić, czy kosz jest wsunięty do końca: wyłącznik bezpieczeństwa blokuje grzanie, dopóki szuflada nie zatrzaśnie się na swoim miejscu. Następnie warto skontrolować wtyczkę, gniazdko i minutnik oraz pozwolić urządzeniu ostygnąć przez pół godziny, bo zabezpieczenie termiczne może zadziałać po długiej pracy lub przy zasłoniętym tylnym wylocie powietrza. Jeśli wentylator pracuje, a powietrze jest zimne, najpewniej uszkodziła się grzałka lub bezpiecznik termiczny. Przez dwa lata od wydania towaru sprzedawca odpowiada za jego niezgodność z umową, więc reklamację składa się w sklepie." },
-      { question: "Czy do frytkownicy beztłuszczowej można włożyć papier do pieczenia?", answer: "Można, pod warunkiem że papier jest zawsze dociśnięty jedzeniem: luźny unosi się w strumieniu powietrza i może dotknąć grzałki. Najlepiej użyć papieru perforowanego albo przyciętego na wymiar, który nie zakrywa całego dna, bo inaczej powietrze nie krąży i potrawa piecze się nierówno. Nie należy włączać pustej frytkownicy z papierem w środku i trzeba przestrzegać maksymalnej temperatury podanej na opakowaniu, zwykle około 220 °C. Wielorazową alternatywą jest silikonowa forma dopasowana do kosza." },
+      { question: "Czy warto kupić frytkownicę beztłuszczową?", answer: "Warto, jeśli często przygotowuje się frytki, mrożonki i skrzydełka albo odgrzewa jedzenie dla 1–4 osób. Frytkownica nagrzewa się szybciej niż piekarnik, przy małych porcjach zużywa mniej prądu i daje chrupiącą skórkę bez smażenia w głębokim tłuszczu. Mniej się przyda przy przyrządzaniu dużych porcji dla całej rodziny albo w kuchni z małym blatem, bo urządzenie jest spore, a jego wentylator słychać. Przed zakupem dobrze jest sprawdzić, czy producent sprzedaje zapasowe kosze, bo najszybciej zużywa się właśnie powłoka kosza." },
+      { question: "Ile prądu zużywa frytkownica beztłuszczowa?", answer: "Przy jednym użyciu trwającym 20–30 minut najwyżej 0,5–1 kWh, zależnie od mocy urządzenia. Koszt łatwo policzyć: moc w kW × czas pracy w godzinach × cena 1 kWh. Frytkownica 1,7 kW pracująca 25 minut zużywa około 0,7 kWh, czyli około 70 groszy przy cenie 1 zł za kWh z dystrybucją. W praktyce zużycie jest zwykle niższe, bo po osiągnięciu zadanej temperatury grzałka co jakiś czas się wyłącza. Swoją stawkę za kWh, łącznie z opłatami dystrybucyjnymi, można sprawdzić na rachunku." },
+      { question: "Frytkownica jednokomorowa czy dwukomorowa: którą wybrać?", answer: "Dwukomorowa sprawdzi się, gdy często przygotowuje się jednocześnie danie główne i dodatek, a jednokomorowa z dużym koszem – do całego kurczaka i większych kawałków mięsa. W modelach dwukomorowych każda komora ma własny czas i temperaturę, a funkcja synchronizacji sprawia, że obie kończą pracę w tym samym momencie. Uwaga: producenci podają łączną pojemność obu komór, więc 9 l oznacza zwykle dwa kosze po 4,5 l. Takie urządzenia zajmują więcej miejsca i mają często moc 2400 W lub większą." },
+      { question: "Jaka pojemność frytkownicy beztłuszczowej dla 2 i 4 osób?", answer: "Dla dwóch osób wystarczy zwykle 3,5–5 l, a dla czterech warto wybrać 5,5–7 l lub model dwukomorowy. Ważniejsza od litrów jest powierzchnia dna kosza, bo chrupiące wychodzi tylko to, co leży w jednej warstwie. Wielu producentów podaje, ile gramów frytek mieści kosz – to lepsza wskazówka niż sama pojemność. Jeśli często przygotowuje się jedzenie na zapas albo dla gości, lepiej wybrać większy model, niż smażyć kilka porcji z rzędu." },
+      { question: "Frytkownica beztłuszczowa czy piekarnik: co jest tańsze w użyciu?", answer: "Przy jednej lub dwóch porcjach tańsza jest frytkownica beztłuszczowa, bo jej komora ma zaledwie kilka litrów i prawie nie trzeba jej wstępnie nagrzewać. Piekarnik elektryczny ma zwykle moc 2000–3000 W i musi najpierw nagrzać wnętrze o pojemności około 60–70 l. Przy pełnej blasze, zapiekance czy obiedzie dla całej rodziny lepiej wypada piekarnik, bo we frytkownicy trzeba by piec w kilku turach. Prosta zasada: małe porcje i mrożonki – we frytkownicy, duże dania – w piekarniku." },
+      { question: "Czy powłoka teflonowa we frytkownicy beztłuszczowej jest bezpieczna?", answer: "Tak, dopóki jest nieuszkodzona. PTFE, czyli teflon, uważa się za stabilny w temperaturach, w jakich pracują frytkownice (zwykle 200–240 °C), a rozkłada się dopiero powyżej około 260 °C. PTFE należy jednak do grupy PFAS, a napis „bez PFOA” niewiele znaczy, bo PFOA jest w Unii Europejskiej zakazany od 2020 roku. Należy używać drewnianych lub silikonowych akcesoriów, unikać szorstkich gąbek i wymienić kosz, z którego odchodzi powłoka. Alternatywą są kosze ze stali nierdzewnej lub z powłoką ceramiczną albo szklane misy." },
+      { question: "Frytkownica beztłuszczowa nie grzeje: co sprawdzić?", answer: "Najpierw to, czy kosz jest wsunięty do końca: wyłącznik bezpieczeństwa blokuje grzanie, dopóki kosz nie zatrzaśnie się na swoim miejscu. Następnie warto skontrolować wtyczkę, gniazdko i minutnik, a potem odczekać pół godziny, aż urządzenie ostygnie, bo zabezpieczenie termiczne może zadziałać po długiej pracy lub przy zasłoniętym tylnym wylocie powietrza. Jeśli wentylator pracuje, a powietrze jest zimne, najpewniej uszkodziła się grzałka lub bezpiecznik termiczny. Przez dwa lata od wydania towaru sprzedawca odpowiada za jego niezgodność z umową, więc reklamację można złożyć bezpośrednio w sklepie." },
+      { question: "Czy do frytkownicy beztłuszczowej można włożyć papier do pieczenia?", answer: "Można, pod warunkiem że papier jest zawsze przyciśnięty jedzeniem: luźny uniesie się w strumieniu powietrza i może dotknąć grzałki. Najlepiej użyć papieru perforowanego albo przyciętego na wymiar, który nie zakrywa całego dna kosza – inaczej powietrze nie krąży swobodnie, a potrawa piecze się nierówno. Nie wolno włączać pustej frytkownicy z papierem w środku i trzeba przestrzegać maksymalnej temperatury podanej na opakowaniu papieru, zwykle około 220 °C. Wielorazową alternatywą jest silikonowa forma dopasowana do kosza." },
+    ],
+    sv: [
+      {
+        question: "Airfryer eller ugn: vilken drar minst el?",
+        answer: "För en eller två portioner drar airfryern betydligt mindre än en elugn. Den värmer upp ett utrymme på några liter nästan utan förvärmning, medan en ugn på 2 000–3 000 W först måste värma upp 60–70 liter. Exempel: 1 500 W i 20 minuter blir högst 0,5 kWh. För en hel plåt, en stek eller flera rätter samtidigt är ugnen ändå det bättre valet, eftersom airfryern då skulle behöva laga maten i flera omgångar.",
+      },
+      {
+        question: "Vad kostar det i el att laga mat i en airfryer?",
+        answer: "En tillagning på 20–30 minuter drar högst 0,5–1 kWh, beroende på airfryerns effekt. Räknesättet är effekt i kW × tid i timmar × elpriset per kWh. Exempel: 1 700 W i 25 minuter blir ungefär 0,7 kWh, alltså ca 1,50 kr med ett exempelpris på 2,20 kr/kWh. Den verkliga förbrukningen är ofta något lägre, eftersom värmeelementet slår av och på när temperaturen är nådd. Ditt eget elpris står på elräkningen.",
+      },
+      {
+        question: "Airfryer med en eller två korgar: vilken ska jag välja?",
+        answer: "Välj två korgar om du ofta lagar en huvudrätt och ett tillbehör samtidigt, och en stor korg om du vill kunna tillaga en hel kyckling. Med två korgar har varje korg egen temperatur och tid, och synkfunktionen gör att båda blir klara samtidigt. Men den angivna volymen är summan av båda: en modell på 9 liter består ofta av två korgar på 4,5 liter. Apparaten tar också mer plats på bänken och har högre effekt, ofta 2 400 W eller mer.",
+      },
+      {
+        question: "Kan man använda en airfryer helt utan olja?",
+        answer: "Inte riktigt. Förstekta frysvaror (pommes frites, nuggets, panerat) behöver ingen olja, men färska pommes frites och grönsaker behöver lite. En matsked olja till 500 g potatis räcker för att de ska få färg; utan olja blir de torra och mjöliga. En pensel eller en oljesprayflaska med pump fördelar oljan bättre än att hälla. Undvik stekspray på sprayburk: vissa tillverkare, som Cosori, avråder från den eftersom drivgasen kan skada beläggningen i korgen.",
+      },
+      {
+        question: "Innehåller airfryerns non-stick-korg PFAS?",
+        answer: "Ja, de flesta korgar har en beläggning av PTFE, en fluorerad polymer som hör till PFAS-familjen. Märkningen ”PFOA-fri” säger ingenting, eftersom PFOA har varit förbjudet i EU sedan juli 2020. PTFE är stabilt vid de 200–240 °C som en airfryer når, under gränsen på ungefär 260 °C där det börjar brytas ner. Vill du undvika det helt väljer du en korg i rostfritt stål, med keramisk beläggning eller en modell med glasskål.",
+      },
+      {
+        question: "Vad ska jag titta på först när jag väljer airfryer?",
+        answer: "Titta först på korgens bottenyta, som säger mer än volymen i liter: maten måste ligga i ett enda lager för att bli krispig. Räkna med ungefär 3–4 liter för en eller två personer och 5,5–7 liter för fyra. Sedan kommer formen (låda, ugnsmodell med lucka eller skål med tittfönster), ljudnivån, om delarna tål diskmaskin och om det finns reservkorgar att köpa. Wifi är en bekvämlighet, inte ett avgörande kriterium.",
+      },
+      {
+        question: "Kan man ha bakplåtspapper i airfryern?",
+        answer: "Ja, så länge maten alltid håller papperet på plats: ligger det ensamt blåser det upp av luftflödet och kan komma åt värmeelementet. Välj perforerat papper eller papper som är utskuret i rätt storlek och täck inte hela botten, annars kan luften inte cirkulera och maten blir ojämnt tillagad. Starta aldrig airfryern tom med papper i, och håll dig under den högsta temperaturen på förpackningen, ofta runt 220 °C. En silikonform som passar korgen är ett alternativ som går att återanvända.",
+      },
+      {
+        question: "Min airfryer blir inte varm: vad ska jag kontrollera?",
+        answer: "Kontrollera först att lådan är helt intryckt tills det klickar: en säkerhetsbrytare blockerar värmen om den inte är ordentligt stängd. Kontrollera sedan uttaget och timern och låt apparaten svalna i en halvtimme, eftersom ett överhettningsskydd kan stänga av värmeelementet. Går fläkten men luften förblir kall har värmeelementet eller termosäkringen troligen gått sönder, och då är det ett jobb för en reparatör. Inom EU har du dessutom minst två års reklamationsrätt hos säljaren.",
+      },
+    ],
+    us: [
+      {
+        question: "How much does an air fryer cost to run?",
+        answer: "At an example rate of 20 cents per kWh, a 20- to 30-minute session costs at most about 10 to 20 cents, depending on the wattage. The math is simple: wattage in kW × hours of use × your rate. A 1,700 W model running for 25 minutes uses up to 0.7 kWh, or about 14 cents. The real figure is usually lower, because the heating element cycles off once the set temperature is reached. Check the rate on your utility bill, since it varies widely by state and utility.",
+      },
+      {
+        question: "Is an air fryer cheaper to run than an electric oven?",
+        answer: "Yes, for small portions: an air fryer heats a compact basket of just a few quarts with little or no preheating, while an oven has to bring a much larger cavity up to temperature first. A typical electric oven draws 2,000 to 3,000 W, and its 10- to 15-minute preheat alone can use as much energy as cooking fries for two in an air fryer. For a big roast with all the sides, or several sheet pans at once, the oven makes more sense, since the air fryer would need batch after batch.",
+      },
+      {
+        question: "Is a dual-basket air fryer worth it?",
+        answer: "Yes, if you regularly cook a main and a side together, such as chicken and fries: each basket has its own time and temperature, and a sync function makes both finish at once. The catch is that the headline capacity is split, so a 9.5 qt (9 L) model usually means two 4.8 qt (4.5 L) baskets, each smaller than one big basket that fits a whole chicken or a roast. Dual-basket models are also wider on the counter and often draw 2,400 W or more. If you mostly cook one thing at a time, a large single basket is the better value.",
+      },
+      {
+        question: "Do you need oil in an air fryer?",
+        answer: "Not always: precooked frozen foods such as fries, nuggets and breaded fish need nothing added, but fresh-cut fries and vegetables need a little oil. One tablespoon for 1.1 lb (500 g) of potatoes is enough to brown them; without it, they come out dry and mealy. A brush or a pump-style mister spreads oil more evenly than a drizzle. Skip aerosol cooking sprays: some manufacturers, such as Cosori, advise against them because the propellant can damage the basket's nonstick coating.",
+      },
+      {
+        question: "What size air fryer is right for one, two or four people?",
+        answer: "As a rule of thumb, allow about 2 to 3 qt for one person, 4 to 5 qt for two and 5.8 qt (5.5 L) or more for a family of four. Look at the basket floor as well as the capacity figure, because food only crisps in a single layer; many manufacturers list the weight of fries a basket can take, which is a more useful guide. For batch cooking or whole chickens, one large basket of 7.4 qt (7 L) or more beats two small ones.",
+      },
+      {
+        question: "Do air fryer baskets contain PFAS, and are they safe?",
+        answer: "Most nonstick baskets are coated with PTFE, which counts as a PFAS, but it's considered stable at the 390 to 465°F (200 to 240°C) an air fryer reaches. PTFE only starts to break down above about 500°F (260°C). “PFOA-free” labels tell you little, since PFOA has been banned in the EU since July 2020. What matters is keeping the coating intact: use wooden or silicone utensils, avoid abrasive scrubbers and aerosol oil sprays, and replace a basket that's flaking. Stainless steel, ceramic-coated and glass-bowl models avoid PTFE altogether.",
+      },
+      {
+        question: "Why has my air fryer stopped heating up?",
+        answer: "Most often the basket isn't pushed all the way in: a safety switch blocks the heating until it clicks into place. Check the plug and the outlet, then let the unit cool for half an hour, since an overheat cutoff can trip after long sessions or when the rear air vent was blocked. If the fan runs but the air stays cold, the heating element or thermal fuse has probably failed, which is a job for a professional. If it's still under warranty, contact the seller or the manufacturer before attempting any repair.",
+      },
+      {
+        question: "How do I convert oven cooking times for an air fryer?",
+        answer: "Use the classic rule of thumb: set the air fryer about 25°F (roughly 15°C) lower than the recipe's oven temperature and cut the cooking time by 20 to 25%, checking a few minutes early. If the recipe already gives a convection temperature, start there. Shake or flip the food halfway through and don't overfill the basket. Many frozen food packages now print air fryer times, which are more reliable than any conversion.",
+      },
+    ],
+    ca: [
+      {
+        question: "How much does an air fryer cost to run?",
+        answer: "At an example rate of 10¢ per kWh, a 20- to 30-minute session costs at most about 5¢ to 10¢, depending on the wattage. The math is simple: wattage in kW × hours used × your rate per kWh. A 1,700 W model running for 25 minutes uses up to 0.7 kWh, or about 7¢. The real figure is usually lower, because the element cycles off once the set temperature is reached. Your rate depends on your province and utility, so check your bill.",
+      },
+      {
+        question: "Is an air fryer cheaper to run than an electric oven?",
+        answer: "Yes, for small portions: an air fryer heats a few litres with little or no preheating, while an oven has to bring a far larger cavity up to temperature first. A typical electric oven draws 2,000 to 3,000 W, and its 10- to 15-minute preheat alone can use as much energy as cooking fries for two in an air fryer. For a big roast dinner with all the sides, or several baking sheets at once, the oven makes more sense, as the air fryer would need batch after batch.",
+      },
+      {
+        question: "Is a dual basket air fryer worth it?",
+        answer: "Yes, if you regularly cook a main and a side together, such as chicken and fries: each drawer has its own time and temperature, and a sync function makes both finish at once. The catch is that the headline capacity is split, so a 9 L (9.5 qt) model usually means two 4.5 L (4.8 qt) drawers, each smaller than one big drawer for a whole chicken or a roast. Dual models also take up more counter space and tend to draw more power. If you mostly cook one thing at a time, a large single drawer is better value.",
+      },
+      {
+        question: "Ninja or a budget brand: which air fryer should I choose?",
+        answer: "The main difference is price: budget brands sit mostly at the low end, while Ninja costs more and concentrates on larger, feature-rich models. Both use the same fan-and-element principle, so compare what you actually get: cooking capacity per drawer rather than in total, maximum temperature, extra modes, noise and warranty length. Check whether replacement baskets are sold separately, since the non-stick coating is the part that wears first. Independent consumer organizations publish detailed brand comparisons.",
+      },
+      {
+        question: "What size air fryer is right for one, two or four people?",
+        answer: "As a rule of thumb, allow 2 to 3 L (about 2 to 3 qt) for one person and 3.5 to 5 L (3.7 to 5.3 qt) for two. A family of four needs 5.5 L (5.8 qt) or more. Look at the basket floor as well as the capacity, because food only crisps in a single layer; many manufacturers state how many grams of fries a drawer takes, which is a more useful guide. For batch cooking or whole chickens, a large single drawer of 7 L (7.4 qt) or more beats two small ones.",
+      },
+      {
+        question: "Do air fryer baskets contain PFAS, and are they safe?",
+        answer: "Most non-stick baskets are coated with PTFE, which counts as a PFAS, but it is considered stable at the 200 to 240°C (400 to 465°F) an air fryer reaches. PTFE only starts to break down above about 260°C (500°F). “PFOA-free” labels mean little: PFOA has been banned in the EU and the UK since 2020, and the label says nothing about PTFE. What matters is keeping the coating intact: use wooden or silicone utensils, avoid abrasive pads and aerosol cooking sprays, and replace a basket that is flaking. Stainless steel, ceramic-coated and glass-bowl models avoid PTFE altogether.",
+      },
+      {
+        question: "Why did my air fryer stop heating?",
+        answer: "Most often the drawer isn't fully pushed in: a safety switch blocks the heating until it clicks into place. Check the plug and the outlet, then let the unit cool for half an hour, as an overheat cutoff can trip after long sessions or when the rear air vent was blocked. If the fan runs but the air stays cold, the element or thermal fuse has probably failed, which is a job for a repair shop. If it's still under warranty, contact the retailer or the manufacturer first.",
+      },
+      {
+        question: "How do I convert oven cooking times for an air fryer?",
+        answer: "Start about 20°C (35°F) below the regular oven temperature, or at the convection setting, and cut the time by around a fifth, checking a few minutes early. That's the idea behind the common rule of thumb in North American recipes: lower the heat by 25°F (about 15°C) and shorten the time by 20 to 25%. Shake or turn food halfway through and don't overfill the basket. Many frozen food packages now print air fryer timings, which are more reliable than any conversion.",
+      },
     ],
   },
   "multicuiseurs": {
@@ -117,11 +219,77 @@ export const CUISINE_FAQS: CategoryFaqSets = {
       { question: "Hoe onderhoud je de afdichtring en het ventiel van een multicooker?", answer: "Was de siliconen afdichtring na elk gebruik met heet sop en vervang hem zodra hij scheurt, vervormt, hard wordt of stoom langs het deksel lekt. Maak ook het stoomventiel en het vlotterventiel schoon, vooral na rijst en peulvruchten, die schuimen en het ventiel kunnen verstoppen. Controleer voor elk gebruik of de ring goed vastzit. Forceer het deksel nooit zolang er druk in de pan staat, en zet het apparaat niet onder een keukenkastje, omdat de stoom het hout kan aantasten." },
     ],
     pl: [
-      { question: "Multicooker czy Thermomix: co wybrać?", answer: "Do gulaszy, zup, kasz i strączków wystarczy multicooker: gotuje pod ciśnieniem, ma zwykle 5–6 litrów i kosztuje ułamek ceny Thermomixa. Thermomix ma sens, jeśli poza gotowaniem chce się siekać, miksować, wyrabiać ciasto i ważyć w jednym naczyniu z prowadzonymi przepisami; nie gotuje jednak pod ciśnieniem, a jego naczynie mieści około 2 litrów. Pośrodku są tańsze roboty kuchenne z funkcją gotowania, na przykład Monsieur Cuisine z Lidla." },
-      { question: "Multicooker czy szybkowar: czym się różnią?", answer: "Szybkowar na kuchenkę jest prostszy i bardzo trwały, a multicooker sam pilnuje ciśnienia i czasu, wyłącza się po gotowaniu i utrzymuje potrawę w cieple. Z multicookerem nie trzeba stać przy garnku ani regulować płomienia, a start można zaprogramować. Szybkowar szybciej osiąga ciśnienie na mocnym palniku lub indukcji i nie zajmuje miejsca na blacie. Rosół, który tradycyjnie gotuje się 2–3 godziny, w obu urządzeniach jest gotowy mniej więcej w godzinę." },
-      { question: "Ile prądu zużywa multicooker?", answer: "Niewiele: gulasz gotowany łącznie 40 minut, razem z dochodzeniem do ciśnienia, zużyje przy mocy 1200 W najwyżej około 0,8 kWh. Przy cenie 1 zł za kWh to około 80 groszy, a w praktyce mniej, bo grzałka pracuje pełną mocą tylko do osiągnięcia ciśnienia. Wzór: moc w kW × czas w godzinach × cena za kWh. Bigos czy gulasz duszone przez kilka godzin na płycie elektrycznej zużywają zwykle więcej energii." },
-      { question: "Czy warto kupić multicooker?", answer: "Warto, jeśli często gotuje się zupy, gulasze, kasze lub strączki i chce się skrócić czas gotowania bez pilnowania garnka. Multicooker łączy szybkowar, wolnowar, funkcję podsmażania i utrzymywania ciepła, a opóźniony start pozwala mieć obiad gotowy po pracy. Mniej się przyda, jeśli gotuje się głównie szybkie dania na patelni albo w kuchni brakuje miejsca. Dla 3–4 osób najlepiej sprawdza się pojemność 5–6 litrów; mniejsze modele wystarczą dla singla lub pary." },
-      { question: "Jak dbać o uszczelkę i zawór w multicookerze?", answer: "Uszczelkę należy myć po każdym użyciu w ciepłej wodzie z płynem i wymienić, gdy pęka, odkształca się, twardnieje lub spod pokrywy ucieka para. Po gotowaniu kaszy, ryżu czy fasoli, które się pienią, trzeba sprawdzić i oczyścić zawór parowy oraz zawór pływakowy. Nie wolno napełniać garnka powyżej dwóch trzecich, a przy produktach pęczniejących powyżej połowy. Pokrywy nigdy nie otwiera się na siłę, gdy w środku jest ciśnienie. Warto mieć zapasową, oryginalną uszczelkę do swojego modelu." },
+      { question: "Multicooker czy Thermomix: co wybrać?", answer: "Do gulaszy, zup, kasz i strączków wystarczy multicooker: gotuje pod ciśnieniem, ma zwykle pojemność 5–6 l i kosztuje ułamek ceny Thermomixa. Thermomix ma sens, jeśli oprócz gotowania potrzebne jest siekanie, miksowanie, wyrabianie ciasta i ważenie w jednym naczyniu, z przepisami prowadzonymi krok po kroku. Nie gotuje jednak pod ciśnieniem, a jego naczynie mieści około 2 l. Rozwiązaniem pośrednim są tańsze roboty kuchenne z funkcją gotowania, np. Monsieur Cuisine z Lidla." },
+      { question: "Multicooker czy szybkowar: czym się różnią?", answer: "Tradycyjny szybkowar stawiany na kuchence jest prostszy i bardzo trwały, a multicooker sam pilnuje ciśnienia i czasu, wyłącza się po zakończeniu gotowania i utrzymuje potrawę w cieple. Z multicookerem nie trzeba stać przy garnku ani regulować płomienia, a start można zaprogramować. Szybkowar szybciej osiąga ciśnienie na mocnym palniku lub indukcji i nie zajmuje miejsca na blacie. Rosół, który tradycyjnie gotuje się 2–3 godziny, w obu urządzeniach jest gotowy mniej więcej po godzinie." },
+      { question: "Ile prądu zużywa multicooker?", answer: "Niewiele: gotowanie gulaszu przez 40 minut, łącznie z dochodzeniem do ciśnienia, w urządzeniu o mocy 1200 W zużywa najwyżej około 0,8 kWh. Przy cenie 1 zł za kWh to około 80 groszy, a w praktyce mniej, bo grzałka pracuje pełną mocą tylko do osiągnięcia ciśnienia. Koszt oblicza się według wzoru: moc w kW × czas w godzinach × cena 1 kWh. Bigos czy gulasz duszony godzinami na płycie elektrycznej pochłania zwykle więcej energii." },
+      { question: "Czy warto kupić multicooker?", answer: "Warto, jeśli często gotuje się zupy, gulasze, kasze lub strączki i chce się skrócić czas gotowania bez pilnowania garnka. Multicooker łączy funkcje szybkowaru i wolnowaru z podsmażaniem i podtrzymywaniem ciepła, a dzięki opóźnionemu startowi obiad może czekać gotowy na powrót z pracy. Mniej się przyda, jeśli na co dzień przygotowuje się głównie szybkie dania na patelni albo w kuchni brakuje miejsca. Dla 3–4 osób najlepiej sprawdza się pojemność 5–6 l, a mniejsze modele wystarczą dla singla lub pary." },
+      { question: "Jak dbać o uszczelkę i zawór w multicookerze?", answer: "Uszczelkę myje się po każdym użyciu ciepłą wodą z płynem, a wymienia, gdy pęka, odkształca się lub twardnieje albo gdy spod pokrywy ucieka para. Po gotowaniu kaszy, ryżu czy fasoli, które się pienią, trzeba sprawdzić i oczyścić zawór parowy oraz zawór pływakowy. Garnka nie wolno napełniać powyżej dwóch trzecich wysokości, a przy produktach, które pęcznieją – powyżej połowy. Pokrywy nigdy nie otwiera się na siłę, gdy w środku jest ciśnienie. Warto mieć w zapasie oryginalną uszczelkę do swojego modelu." },
+    ],
+    sv: [
+      {
+        question: "Multikokare eller Thermomix: vilken ska jag välja?",
+        answer: "Välj en multikokare om du vill snabba upp långkok med tryckkokning, t.ex. grytor, soppor, baljväxter och ris. Välj en Thermomix om du också vill hacka, mixa, knåda och väga i samma skål. Thermomix tryckkokar inte, och skålens användbara volym är runt 2 liter, mot ofta 6 liter i en multikokare. Den kostar dessutom flera gånger mer. Har du redan en mixer eller en köksmaskin täcker multikokaren det mesta av en familjs vardagsmat.",
+      },
+      {
+        question: "Kan en multikokare ersätta en slowcooker?",
+        answer: "Ja, de flesta multikokare har en slowcookerfunktion, så en enda apparat klarar båda jobben och frigör plats i skåpet. Tänk på att multikokaren främst värmer underifrån, medan en traditionell slowcooker värmer runt om, så det låga läget kan bli svalare. Välj det höga läget eller räkna med längre tid när du följer recept för slowcooker. Den stora vinsten är tiden de dagar du har glömt att sätta på grytan på morgonen: med tryckfunktionen är den klar på under en timme.",
+      },
+      {
+        question: "Hur mycket el drar en multikokare?",
+        answer: "Inte mycket: de flesta multikokare på 6 liter har en effekt på 1 000–1 200 W och värmer bara för fullt medan trycket byggs upp. Räkna så här: effekt i kW × tid i timmar × elpris per kWh. En gryta som tryckkokar i 35 minuter, uppvärmningen inräknad, drar som mest 1,2 kW × 0,75 tim, alltså 0,9 kWh, och i praktiken mindre, eftersom värmeelementet sedan bara håller trycket. Med ett exempelpris på 2,20 kr/kWh blir det under 2 kr, för en rätt som annars hade fått puttra i två timmar på spisen.",
+      },
+      {
+        question: "Ninja Foodi eller Instant Pot: vad är skillnaden?",
+        answer: "Ninja Foodi kombinerar tryckkokning med ett airfryerlock som gör ytan krispig, medan de flesta Instant Pot-modeller satsar på tryckkokning och långkok. Med locket kan du bryna kycklingskinn eller gratinera i samma kärl efter tryckkokningen, men det ersätter inte en riktig airfryer när du ska göra pommes frites i större mängd. Ninjas modeller är ofta större, tyngre och dyrare. Instant Pot är enklare och säljer ett airfryerlock till vissa modeller. Välj efter vad du lagar oftast, inte efter antalet program.",
+      },
+      {
+        question: "Hur använder jag en multikokare med tryckfunktion säkert?",
+        answer: "Fyll aldrig över maxstrecket, ungefär två tredjedelar av innerkärlet, och bara till hälften med sådant som sväller eller skummar, som ris, baljväxter och pasta. Kontrollera före varje användning att ventilen är ren och att tätningsringen sitter rätt. Byt ringen så fort den har spruckit eller blivit uttänjd, eller om ånga läcker ut runt locket. Tvinga aldrig upp locket: låt trycket sjunka av sig självt eller använd snabbutsläppet och håll händer och ansikte borta från ångstrålen. Ställ inte heller apparaten under överskåp, eftersom ångan kan skada dem.",
+      },
+    ],
+    us: [
+      {
+        question: "Multicooker or Thermomix: which is better value?",
+        answer: "For most households, a multicooker is the better value: it handles stews, soups, rice, beans and roasts under pressure for a fraction of a Thermomix's price. The Thermomix earns its cost only if you also want chopping, blending, kneading and weighing in one bowl, with guided recipes on screen. It doesn't pressure cook, and its working bowl holds about 2.1 qt (2 L), versus about 6.3 qt (6 L) for a typical multicooker. If you already own a food processor or stand mixer, the multicooker fills the real gap.",
+      },
+      {
+        question: "Can a multicooker replace a slow cooker?",
+        answer: "Yes, most multicookers have a slow cook setting, so one appliance can do both jobs and free up counter and cabinet space. Keep in mind that a multicooker heats mainly from the base, while a traditional slow cooker heats around the sides, so the low setting can run cooler: use the high setting or allow extra time with slow cooker recipes. The big win is speed on the days you forget to start dinner in the morning, since pressure mode cooks a stew in under an hour.",
+      },
+      {
+        question: "How much does a multicooker cost to run?",
+        answer: "Very little: a stew that takes 40 minutes in total, including coming up to pressure, uses at most about 0.8 kWh on a 1,200 W model. That's roughly 16 cents at an example rate of 20 cents per kWh. The real figure is lower, because the element only runs flat out until pressure is reached, then cycles to hold it. For comparison, a slow cooker drawing about 200 W for eight hours can use up to 1.6 kWh. Work out your own cost with wattage in kW × hours × the rate on your utility bill.",
+      },
+      {
+        question: "Ninja Foodi or Instant Pot: what's the difference?",
+        answer: "Ninja Foodi multicookers combine pressure cooking with an air-fry crisping lid, while most Instant Pot models focus on pressure and slow cooking. The crisping lid lets you brown chicken skin or a gratin topping in the same pot after pressure cooking, but it doesn't replace a dedicated air fryer for big batches of fries. Ninja models tend to be bulkier, heavier and pricier; Instant Pot is simpler and sells an air fryer lid for some models. Choose based on what you cook most, not on the number of presets.",
+      },
+      {
+        question: "How do I care for an electric pressure cooker safely?",
+        answer: "Keep the steam release and float valves clean, check the sealing ring before every use and never fill above the two-thirds line, or halfway for rice, beans and pasta. Replace the ring as soon as it's cracked or stretched or lets steam escape around the lid; silicone also holds on to odors, so some cooks keep one ring for sweet dishes and one for savory. Never force the lid open: let the pressure drop naturally or use the quick release with your hand away from the vent.",
+      },
+    ],
+    ca: [
+      {
+        question: "Multicooker or Thermomix: which is better value?",
+        answer: "For most households a multicooker is better value: it handles stews, soups, rice, beans, lentils and roasts under pressure for a fraction of a Thermomix's price. The Thermomix earns its cost only if you also want chopping, blending, kneading and weighing in one bowl, with guided recipes on screen. It does not pressure cook, and its working bowl holds around 2 L, compared with about 6 L (6.3 qt) for a typical multicooker. If you already own a food processor or stand mixer, the multicooker fills the real gap.",
+      },
+      {
+        question: "Can a multicooker replace a slow cooker?",
+        answer: "Yes, most multicookers have a slow cook setting, so one appliance can do both jobs and free up cabinet space. Keep in mind that a multicooker heats mainly from the base, whereas a traditional slow cooker heats around the sides, so the low setting can run cooler: use the high setting or allow extra time with slow cooker recipes. The big gain is speed on the days you forget to start dinner in the morning, as pressure mode cooks a stew in under an hour.",
+      },
+      {
+        question: "How much does a multicooker cost to run?",
+        answer: "Very little: a stew taking 40 minutes in total, including coming up to pressure, uses at most about 0.8 kWh on a 1,200 W model, roughly 8¢ at an example rate of 10¢ per kWh. The real figure is lower, because the element only heats at full power until pressure is reached, then cycles to hold it. For comparison, a slow cooker drawing around 200 W for eight hours can use up to 1.6 kWh. Work out your own cost with wattage in kW × hours × your rate per kWh, which depends on your province and utility.",
+      },
+      {
+        question: "Ninja Foodi or Instant Pot: what is the difference?",
+        answer: "Ninja Foodi multicookers combine pressure cooking with an air-fry crisping lid, while most Instant Pot models concentrate on pressure and slow cooking. The crisping lid lets you brown chicken skin or a gratin topping in the same pot after pressure cooking, but it does not replace a dedicated air fryer for fries in quantity. Ninja models tend to be bulkier, heavier and pricier; Instant Pot is simpler and sells an air fryer lid for some models. Choose on what you cook most rather than on the number of programs.",
+      },
+      {
+        question: "How do I look after an electric pressure cooker safely?",
+        answer: "Keep the steam release and float valves clean, check the sealing ring before every use and never fill above the two-thirds line, or halfway for rice, beans, lentils and pasta. Replace the ring as soon as it is cracked, stretched or lets steam escape around the lid; silicone also holds smells, so some cooks keep one for sweet and one for savoury dishes. Never force the lid open: let the pressure drop naturally or use the quick release with your hand away from the vent.",
+      },
     ],
   },
   "cafetieres": {
@@ -168,11 +336,77 @@ export const CUISINE_FAQS: CategoryFaqSets = {
       { question: "Heeft een volautomaat met app zin?", answer: "Een app is handig, maar niet nodig: vrijwel alle dranken en onderhoudsprogramma's bedien je ook gewoon via het scherm van de machine. Met de app sla je vooral eigen recepten per gezinslid op, krijg je meldingen voor ontkalken en filterwissel en start je soms op afstand een kop, als er al een kopje onder de uitloop staat. Meestal heb je een account en toegang tot je wifi nodig; kijk welke gegevens het merk verzamelt. Betaal niet veel extra voor alleen de app." },
     ],
     pl: [
-      { question: "Ekspres automatyczny czy kolbowy: który wybrać?", answer: "Ekspres automatyczny wybiera się dla dobrej kawy jednym przyciskiem, a kolbowy dla przyjemności samodzielnego parzenia i pełnej kontroli nad każdym espresso. Do ekspresu kolbowego potrzebny jest jeszcze dobry młynek oraz czas na dozowanie, ubijanie i czyszczenie kolby. Automat robi to wszystko sam, ale wymaga regularnego czyszczenia zaparzacza i systemu mlecznego, a jego naprawa bywa droższa. Jeśli w domu pije się kilka cappuccino dziennie, automat zwykle wygrywa wygodą." },
-      { question: "Ile kosztuje filiżanka kawy z ekspresu automatycznego?", answer: "Przy ziarnie za 60–80 zł za kilogram filiżanka kosztuje mniej więcej 50–80 groszy. Na jedno espresso zużywa się 8–10 g ziaren, więc z kilograma wychodzi 100–125 filiżanek. Do tego dochodzi mleko, odkamieniacz i filtr. Kapsułki są zwykle droższe w przeliczeniu na filiżankę: wystarczy podzielić cenę opakowania przez liczbę kapsułek i porównać. Przy różnicy 50 groszy na filiżance i trzech kawach dziennie oszczędza się około 550 zł rocznie." },
-      { question: "Jak często odkamieniać ekspres do kawy?", answer: "Wtedy, gdy ekspres sam o to poprosi, po wcześniejszym ustawieniu twardości wody w menu: na tej podstawie sam wylicza termin. Twardość można zmierzyć paskiem dołączonym do ekspresu lub sprawdzić u lokalnego dostawcy wody. Przy twardej wodzie, częstej w wielu regionach Polski, filtr wyraźnie wydłuża przerwy między odkamienianiem, jeśli wymienia się go na czas. Należy używać odkamieniacza producenta, nigdy octu, który może uszkodzić uszczelki. Wyjmowany zaparzacz warto co tydzień przepłukać zimną wodą bez detergentu." },
-      { question: "Jaki system spieniania mleka wybrać w ekspresie automatycznym?", answer: "Do codziennego cappuccino lub latte najwygodniejszy jest automatyczny system z dzbankiem albo typu LatteGo, a dysza parowa sprawdzi się u osób, które lubią samodzielnie spieniać mleko. LatteGo firmy Philips składa się z dwóch części bez rurek i można go myć w zmywarce; dzbanki płuczą się automatycznie, ale mają więcej elementów. Systemy z rurką zanurzaną w kartonie trzeba codziennie przepłukiwać. Dysza parowa wymaga wprawy, ale najłatwiej utrzymać ją w czystości. Do czarnej kawy wystarczy tańszy ekspres bez systemu mlecznego." },
-      { question: "Czy warto kupić ekspres do kawy z aplikacją?", answer: "Aplikacja jest wygodnym dodatkiem, ale nie koniecznością: prawie wszystkie napoje i programy konserwacji obsługuje się też z panelu ekspresu. Przez aplikację można zapisać własne przepisy dla domowników, dostawać przypomnienia o odkamienianiu i wymianie filtra, a czasem uruchomić kawę zdalnie, jeśli filiżanka już stoi pod dyszą. Zwykle trzeba założyć konto i podać dane do Wi-Fi, więc warto sprawdzić, jakie informacje zbiera producent. Nie warto dopłacać dużo tylko za aplikację." },
+      { question: "Ekspres automatyczny czy kolbowy: który wybrać?", answer: "Ekspres automatyczny daje dobrą kawę po naciśnięciu jednego przycisku, a kolbowy – przyjemność samodzielnego parzenia i pełną kontrolę nad każdym espresso. Do ekspresu kolbowego potrzebny jest jeszcze dobry młynek, a także czas na dozowanie, ubijanie kawy i czyszczenie kolby. Automat robi to wszystko sam, ale wymaga regularnego czyszczenia zaparzacza i układu mlecznego, a jego naprawa bywa droższa. Jeśli w domu pije się kilka cappuccino dziennie, automat zwykle wygrywa wygodą." },
+      { question: "Ile kosztuje filiżanka kawy z ekspresu automatycznego?", answer: "Przy kawie ziarnistej w cenie 60–80 zł za kilogram filiżanka kosztuje mniej więcej 50–80 groszy. Na jedno espresso zużywa się 8–10 g ziaren, więc z kilograma wychodzi 100–125 filiżanek. Do tego dochodzą mleko, odkamieniacz i filtry. Kapsułki są zwykle droższe w przeliczeniu na filiżankę – wystarczy podzielić cenę opakowania przez liczbę kapsułek i porównać. Przy różnicy 50 groszy na filiżankę i trzech kawach dziennie oszczędza się około 550 zł rocznie." },
+      { question: "Jak często odkamieniać ekspres do kawy?", answer: "Wtedy, gdy ekspres to zasygnalizuje – pod warunkiem że wcześniej ustawiono w menu twardość wody, bo na jej podstawie urządzenie samo wylicza termin. Twardość wody można zmierzyć paskiem dołączonym do ekspresu albo sprawdzić u lokalnego dostawcy wody. Przy twardej wodzie, częstej w wielu regionach Polski, filtr wymieniany na czas wyraźnie wydłuża przerwy między kolejnymi odkamienianiami. Należy używać odkamieniacza zalecanego przez producenta, nigdy octu, bo może uszkodzić uszczelki. Wyjmowany zaparzacz warto co tydzień przepłukać zimną wodą bez detergentu." },
+      { question: "Jaki system spieniania mleka wybrać w ekspresie automatycznym?", answer: "Do codziennego cappuccino lub latte najwygodniejszy jest automatyczny system z dzbankiem albo typu LatteGo, a dysza parowa sprawdzi się u osób, które lubią samodzielnie spieniać mleko. LatteGo firmy Philips składa się z dwóch części, nie ma rurek i można go myć w zmywarce; dzbanki są płukane automatycznie, ale mają więcej elementów. Systemy z rurką zanurzaną w kartonie trzeba codziennie przepłukiwać. Dysza parowa wymaga wprawy, za to najłatwiej utrzymać ją w czystości. Do czarnej kawy wystarczy tańszy ekspres bez systemu mlecznego." },
+      { question: "Czy warto kupić ekspres do kawy z aplikacją?", answer: "Aplikacja to wygodny dodatek, ale nie konieczność: prawie wszystkie napoje i programy konserwacji można uruchomić także z panelu ekspresu. W aplikacji da się zapisać własne przepisy dla domowników, dostawać przypomnienia o odkamienianiu i wymianie filtra, a czasem zdalnie zaparzyć kawę, jeśli filiżanka stoi już pod wylewką. Zwykle trzeba założyć konto i podać hasło do Wi-Fi, więc dobrze jest sprawdzić, jakie informacje zbiera producent. Duża dopłata wyłącznie za aplikację rzadko ma sens." },
+    ],
+    sv: [
+      {
+        question: "Helautomatisk kaffemaskin eller kapselmaskin: vilken blir billigare i längden?",
+        answer: "I drift blir den helautomatiska kaffemaskinen billigare per kopp, och skillnaden växer ju mer kaffe du dricker. Räkna med 8–10 g bönor per espresso, alltså 100–125 koppar per kilo: ett kilopaket för cirka 200 kr ger runt 1,70 kr per kopp. Jämför med priset på en ask kapslar delat med antalet kapslar. Med en skillnad på 2,20 kr per kopp och tre koppar om dagen blir det cirka 2 400 kr per år, vilket räcker för att tjäna in merkostnaden för den helautomatiska maskinen.",
+      },
+      {
+        question: "Keramisk kvarn eller stålkvarn: vilken är bäst?",
+        answer: "Materialet spelar mindre roll än antalet malningsgrader och hur lätt kvarnen är att sköta: både keramik och stål ger en bra espresso. Keramiska kvarnar, som bland annat Philips och Saeco använder, slits långsamt och blir inte så varma, men kan gå sönder om en liten sten följer med bönorna. Stålkvarnar, t.ex. hos De'Longhi, tål stötar bättre. Undvik i båda fallen karamelliserade eller mycket oljiga bönor, som sätter igen kvarnen, och ändra bara malningsgraden medan kvarnen är igång.",
+      },
+      {
+        question: "LatteGo, mjölkkaraff eller ångrör: vilket mjölksystem ska jag välja?",
+        answer: "Välj ett automatiskt system som Philips LatteGo eller en mjölkkaraff om du vill ha cappuccino med en knapptryckning, och ett ångrör om du vill skumma mjölken själv. LatteGo består av två delar utan slangar som tål diskmaskin; mjölkkaraffer sköljs automatiskt men har fler delar. System med en slang som stoppas ner i mjölkpaketet behöver sköljas igenom varje dag. Ångröret är enklast att hålla rent, eftersom det saknar dolda slangar där mjölk kan surna, och passar bäst för latte art, men det kräver lite övning.",
+      },
+      {
+        question: "Hur ofta ska jag avkalka en helautomatisk kaffemaskin?",
+        answer: "Avkalka när maskinen säger till, efter att du har ställt in vattnets hårdhet i inställningarna: då räknar den själv ut när det är dags. Mät hårdheten med remsan som följer med eller ta reda på hur hårt vattnet är i din kommun. Har du hårt vatten glesar ett vattenfilter ut avkalkningarna rejält, förutsatt att du byter det i tid. Använd tillverkarens avkalkningsmedel, aldrig ättika, som kan skada packningarna, och skölj bryggenheten i kallt vatten utan diskmedel varje vecka om den går att ta ur.",
+      },
+      {
+        question: "Är appen till en helautomatisk kaffemaskin värd att ha?",
+        answer: "Den är praktisk men inget måste: nästan alla drycker och allt underhåll kan du sköta från maskinens egen skärm. Appen används mest för att spara favoritdrycker för var och en i hushållet, få påminnelser om avkalkning och filterbyte och ibland starta kaffet på distans, förutsatt att det redan står en kopp under utloppet. Den kräver oftast ett konto och tillgång till ditt wifi, så kontrollera vilka data tillverkaren samlar in. Betala inte mycket mer för en maskin bara för appens skull.",
+      },
+    ],
+    us: [
+      {
+        question: "Is a super-automatic espresso machine cheaper per cup than pods?",
+        answer: "Yes, beans almost always work out cheaper per cup than pods, and the savings grow with every coffee you drink. Allow 8 to 10 g of beans per espresso, so a 1 lb bag gives about 45 to 57 shots: at about $9 a pound, that's roughly 16 to 20 cents a cup. Compare that with the price of a box of pods divided by the number inside. With a gap of 23 cents a cup and three coffees a day, you'd save about $250 a year, which helps pay back the higher price of the machine.",
+      },
+      {
+        question: "Do I need a water filter for a super-automatic espresso machine if I have hard water?",
+        answer: "It's worth it: with hard water, a filter noticeably cuts how often you need to descale. Check your water hardness with the strip that comes in the box or look it up in your water utility's annual water quality report, then enter it in the machine's settings so it can time descaling on its own. Change the filter when prompted, since a spent one does nothing, and use only the manufacturer's descaler, never vinegar. If the brew group is removable, rinse it under cold water once a week, without dish soap.",
+      },
+      {
+        question: "Which milk system is best on a super-automatic espresso machine?",
+        answer: "If you want a one-touch latte or cappuccino, choose an automatic system such as a carafe or Philips LatteGo; if you prefer control and the easiest cleanup, choose a steam wand. LatteGo has two tube-free parts that go in the dishwasher, while carafes rinse themselves but have more pieces. Systems with a tube that goes into the milk carton need their circuit cleaned every day. A steam wand takes practice but suits flat whites and latte art best, and there are no hidden lines where milk can sour.",
+      },
+      {
+        question: "Super-automatic or manual espresso machine: which should I buy?",
+        answer: "Buy a super-automatic machine for good coffee at the push of a button, or a manual espresso machine if you enjoy the craft and want full control over every shot. A manual machine also needs a separate grinder for fresh beans, plus time for dosing, tamping and cleaning the portafilter. A super-automatic does all of that for you, but it needs regular descaling and brew group care, and repairs cost more. For several lattes a day in a busy household, the super-automatic usually wins on convenience.",
+      },
+      {
+        question: "Is a coffee maker app worth having?",
+        answer: "It's a nice extra rather than a must: almost every drink and maintenance task can still be run from the machine's own screen. The app mostly lets you save drinks for each person in the house, get descaling and filter alerts and sometimes start a coffee remotely, as long as a cup is already under the spout. It usually needs an account and access to your Wi-Fi, so check what data the brand collects and how long it promises updates. Don't pay a big premium for the app alone.",
+      },
+    ],
+    ca: [
+      {
+        question: "Is a super-automatic espresso machine cheaper per cup than pods?",
+        answer: "Yes, beans almost always work out cheaper per cup than pods, and the saving grows with every coffee you drink. Allow 8 to 10 g of beans per espresso, so a 1 kg bag gives 100 to 125 shots: at $30 a kilo, that's roughly 24¢ to 30¢ a cup. Compare that with the price of a box of pods divided by the number inside. With a gap of 30¢ a cup and three coffees a day, you would save about $330 a year, which helps pay back the higher price of the machine.",
+      },
+      {
+        question: "Do I need a water filter for a super-automatic espresso machine if I have hard water?",
+        answer: "It's worth it: with hard water, a filter noticeably reduces how often you need to descale. Check your hardness with the strip supplied or in your municipality's water quality report, then enter it in the machine's settings so it can time descaling itself. Change the filter when prompted, as an exhausted one does nothing, and only use the manufacturer's descaler, never vinegar. Rinse a removable brew group under cold water weekly, without dish soap.",
+      },
+      {
+        question: "Which milk system is best on a super-automatic espresso machine?",
+        answer: "If you want a one-touch latte or cappuccino, choose an automatic system such as a carafe or Philips LatteGo; if you prefer control and the easiest cleaning, choose a steam wand. LatteGo has two tube-free parts that go in the dishwasher, while carafes rinse themselves but have more pieces. Systems with a tube into the milk carton need their circuit cleaned every day. A steam wand takes practice but suits flat whites and latte art best, and there are no hidden pipes where milk can sour.",
+      },
+      {
+        question: "Super-automatic or manual espresso machine: which should I buy?",
+        answer: "Buy a super-automatic espresso machine for good coffee at the press of a button, or a manual espresso machine if you enjoy the craft and want full control over each shot. A manual machine also needs a separate grinder for fresh beans, plus time for dosing, tamping and cleaning the portafilter. A super-automatic does all of that for you, but it needs regular descaling and brew group care, and repairs cost more. For several flat whites a day in a busy household, a super-automatic usually wins on convenience.",
+      },
+      {
+        question: "Is a coffee machine app worth having?",
+        answer: "It is a nice extra rather than a must: almost every drink and maintenance task can still be run from the machine's own screen. The app mostly lets you save drinks for each person, get descaling and filter alerts and sometimes start a coffee remotely, provided a cup is already under the spout. It usually needs an account and access to your Wi-Fi, so check what data the brand collects and how long it promises updates. Do not pay a large premium for the app alone.",
+      },
     ],
   },
 }
