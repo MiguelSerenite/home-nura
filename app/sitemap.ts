@@ -8,8 +8,12 @@ import { categoryModifiedIso } from '@/lib/catalog/category-faqs'
 import {
   getIndexableSilos,
   getIndexableCategories,
+  getPartiallyIndexableCategories,
+  categoryLocales,
+  categoryPath,
   PROBLEMS,
 } from '@/lib/catalog'
+import { hubModifiedIso } from '@/lib/catalog/answer-first'
 import { BLACK_FRIDAY_CATEGORIES, blackFridayLocales, blackFridayPath } from '@/lib/black-friday'
 import { FLOOR_CARE_HUB_PATH, FLOOR_CARE_MARKETS, FLOOR_CARE_PATHS, FLOOR_CARE_UPDATED_ISO } from '@/lib/floor-care/config'
 import { getMarketPages } from '@/lib/market-pages/data'
@@ -25,6 +29,8 @@ import { GIFT_GUIDES, giftGuidePath } from '@/lib/gift-guides'
 
 /** Manufacturer photos a page renders, per locale (<image:image> entries). */
 type PageImages = (lang: Lang) => string[]
+/** A page's last change in one locale, when locales differ (answer-first hub changelogs). */
+type PageLastModified = (lang: Lang) => string
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Phase X: single source of truth for freshness. Bumping
@@ -49,6 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
       changeFrequency: 'weekly' as const,
       lastModified: categoryModifiedIso(cat, today),
+      lastModifiedFor: (lang: Lang) => hubModifiedIso(cat, lang),
       images: (lang: Lang) => smartKitchenCategoryImages(lang, cat),
     })),
     { path: '/quiz', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
@@ -82,6 +89,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
         changeFrequency: 'weekly' as const,
         lastModified: categoryModifiedIso(c.slug, today),
+        lastModifiedFor: (lang: Lang) => hubModifiedIso(c.slug, lang),
         images: (lang: Lang) => categoryHubImages(lang, c.slug),
       })),
     // Troubleshooting pages: indexed — about 30% of Search Console clicks
@@ -119,7 +127,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     langs: readonly Lang[],
     meta: Omit<MetadataRoute.Sitemap[number], 'url' | 'alternates' | 'images'>,
     images?: PageImages,
-    { xDefault = true }: { xDefault?: boolean } = {},
+    { xDefault = true, lastModifiedFor }: { xDefault?: boolean; lastModifiedFor?: PageLastModified } = {},
   ): MetadataRoute.Sitemap => {
     // Keyed by language tag (en-US for /us, en-CA for /ca), never the market code.
     const languages: Record<string, string> = {
@@ -131,6 +139,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       return {
         url: `${BASE_URL}/${lang}${path}`,
         ...meta,
+        ...(lastModifiedFor ? { lastModified: new Date(lastModifiedFor(lang)) } : {}),
         alternates: { languages },
         ...(pageImages.length > 0 ? { images: pageImages } : {}),
       }
@@ -152,9 +161,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
           priority: page.priority,
         },
         'images' in page ? page.images : undefined,
+        { lastModifiedFor: 'lastModifiedFor' in page ? page.lastModifiedFor : undefined },
       ),
     ),
   ]
+
+  // Categories indexed in some markets only (lib/catalog `indexableIn`):
+  // their hub in those locales, hreflang among them, x-default only with a
+  // French version.
+  for (const category of getPartiallyIndexableCategories()) {
+    const langs = categoryLocales(category)
+    entries.push(
+      ...localized(
+        categoryPath(category),
+        langs,
+        {
+          lastModified: new Date(categoryModifiedIso(category.slug, today)),
+          changeFrequency: 'weekly',
+          priority: 0.7,
+        },
+        (lang) => categoryHubImages(lang, category.slug),
+        { xDefault: langs.includes('fr'), lastModifiedFor: (lang) => hubModifiedIso(category.slug, lang) },
+      ),
+    )
+  }
 
   // Blog articles: only the locales the article is translated into (the
   // other locales 404, see app/[lang]/blog/[slug]/page.tsx).

@@ -1,0 +1,300 @@
+{
+  "locale": "es",
+  "type": "guide",
+  "slug": "manta-electrica",
+  "updated": "2026-11-01",
+  "metaTitle": "Manta eléctrica: cuál elegir, cuánto gasta y cómo lavarla",
+  "metaDescription": "Manta eléctrica: qué seguridad exigir, cuánto gasta en kWh (unos 3 céntimos por hora) y cómo lavarla. Comparamos Beurer HD 75, Cecotec y Orbegozo.",
+  "kicker": "Guía de compra · Calefacción",
+  "h1": "Manta eléctrica: cuál elegir, cuánto gasta y cómo lavarla sin estropearla",
+  "answer": "Para el sofá, elige la Beurer HD 75: vigila el calor con sensores en toda la superficie, se apaga a las 3 horas y se lava a 30 °C sin el mando. La Cecotec HeatConfort Calma (115 W, 10 niveles) da más control y la Orbegozo MAH 2050 (120 W, 200 × 170 cm) es la sencilla. Estas dos gastan a tope unos 0,12 kWh por hora: unos 3 céntimos.",
+  "picks": [
+    {
+      "brand": "Beurer",
+      "model": "HD 75 Dark-Grey (art. 42106)",
+      "role": "Nuestra elección",
+      "why": "Es la que más seguridad documenta: según Beurer, los sensores del elemento térmico evitan que se sobrecaliente en toda su superficie, la manta queda desconectada para siempre si hay una avería y corta el calor sola a las 3 horas. También es la única de las tres con un lavado claro en el manual: lavadora a 30 °C en programa de lana, sin el mando. Su punto débil: Beurer no publica la potencia.",
+      "bestFor": "Una persona en el sofá y quien la vaya a lavar a menudo. Si sois dos, la HD 150 XXL es la misma manta en 200 × 150 cm.",
+      "asin": "B0BJKLQW15",
+      "manufacturerUrl": "https://www.beurer.com/es/p/42106/",
+      "specs": {
+        "Tipo": "manta de uso superior (sofá o encima de la ropa de cama)",
+        "Medidas": "180 × 130 cm",
+        "Niveles de temperatura": "6",
+        "Apagado automático": "a las 3 horas (fijo)",
+        "Seguridad": "sistema de seguridad de Beurer: control de la temperatura con sensores en toda la superficie y desconexión definitiva en caso de avería",
+        "Potencia": "no publicada por Beurer (el manual remite a la placa de características)",
+        "Lavado": "a máquina, programa muy suave o de lana a 30 °C, sin el mando; sin secadora, plancha, lejía ni limpieza en seco",
+        "Tejido": "terciopelo de poliéster; certificación OEKO-TEX Standard 100",
+        "Mando": "interruptor deslizante extraíble",
+        "Cable": "2,3 m",
+        "Peso": "1,67 kg",
+        "Garantía": "3 años",
+        "EAN": "4211125421069"
+      }
+    },
+    {
+      "brand": "Cecotec",
+      "model": "HeatConfort Calma (180 x 130), ref. A01_EU01_115949",
+      "role": "La alternativa con más control",
+      "why": "La marca valenciana publica su potencia (115 W) y da más margen que las otras dos: 10 niveles y apagado programable de 1 a 12 horas, con regulación PTC y NTC y protección contra sobrecalentamiento. Le restan puntos que el temporizador venga en 8 horas de fábrica y que el manual admita la lavadora sin decir a qué temperatura.",
+      "bestFor": "Quien quiera ajustar el calor nivel a nivel o programar cuánto tiempo calienta. Si te quedas dormido con ella, el manual pide bajarla antes al nivel 1.",
+      "asin": "B0FKTSL684",
+      "manufacturerUrl": "https://cecotec.es/es/mantas-electricas/heatconfort-calma-180-x-130",
+      "specs": {
+        "Tipo": "manta de uso superior; el manual prohíbe usarla debajo del cuerpo o como colchón térmico",
+        "Medidas": "180 × 130 cm",
+        "Potencia": "115 W",
+        "Niveles de temperatura": "10",
+        "Apagado automático": "temporizador programable de 1 a 12 horas (8 horas por defecto)",
+        "Seguridad": "protección contra sobrecalentamiento; regulación de temperatura PTC + NTC",
+        "Lavado": "manchas con paño húmedo; si está muy sucia, a máquina con detergente para delicados y sin el mando (el manual no indica temperatura); sin secadora, plancha ni limpieza en seco",
+        "Mando": "controlador LCD extraíble",
+        "Tejido": "franela de 220 g",
+        "Garantía": "3 años en España"
+      }
+    },
+    {
+      "brand": "Orbegozo",
+      "model": "MAH 2050",
+      "role": "Presupuesto ajustado",
+      "why": "Es la más grande de la comparativa, 200 × 170 cm, de una marca española con red de servicio técnico: 120 W declarados, protección contra sobrecalentamiento y apagado a las 3 horas. Sus límites son los 3 niveles y una contradicción: la ficha dice que se lava a mano y a máquina, y el manual de 2026 solo muestra el símbolo de lavado a mano.",
+      "bestFor": "Dos personas en el sofá o quien quiera una manta grande y sencilla, sin pantalla ni temporizador. Lávala a mano.",
+      "asin": "B085QKWWXY",
+      "manufacturerUrl": "https://orbegozo.com/productos/calefaccion/calor-textil/manta-termica-mah-2050/",
+      "specs": {
+        "Tipo": "manta de uso superior (Orbegozo la llama «manta térmica»)",
+        "Medidas (largo × ancho)": "200 × 170 cm",
+        "Potencia": "120 W",
+        "Niveles de temperatura": "3",
+        "Apagado automático": "a las 3 horas",
+        "Seguridad": "protección contra sobrecalentamiento",
+        "Uso que indica el manual": "nivel máximo solo para calentar y nunca más de 20 minutos; nivel 1 en uso prolongado; no quedarse dormido con ella encendida",
+        "Lavado": "la ficha dice a mano y a máquina; el manual de 2026 muestra solo lavado a mano; sin lejía, secadora, plancha ni limpieza en seco",
+        "Mando": "extraíble, con indicador luminoso",
+        "Tejido": "microfibra, bicolor gris y blanco",
+        "Tensión": "220-240 V ~ 50 Hz",
+        "Fabricante": "Sonifer, S. A. (Murcia)"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Modelo",
+      "Nota /100",
+      "Medidas",
+      "Potencia declarada",
+      "Niveles",
+      "Apagado automático",
+      "Lavado según el fabricante",
+      "Garantía"
+    ],
+    "rows": [
+      [
+        "Beurer HD 75",
+        "83",
+        "180 × 130 cm",
+        "No publicada",
+        "6",
+        "A las 3 h (fijo)",
+        "A máquina, 30 °C, programa de lana",
+        "3 años"
+      ],
+      [
+        "Beurer HD 150 XXL",
+        "83",
+        "200 × 150 cm",
+        "No publicada",
+        "6",
+        "A las 3 h (fijo)",
+        "A máquina, 30 °C, programa de lana",
+        "3 años"
+      ],
+      [
+        "Cecotec HeatConfort Calma (180 × 130)",
+        "79",
+        "180 × 130 cm",
+        "115 W",
+        "10",
+        "Programable de 1 a 12 h (8 h de fábrica)",
+        "A máquina para delicados, sin temperatura indicada",
+        "3 años en España"
+      ],
+      [
+        "Cecotec HeatConfort ThermalBlanket Frannel (180 × 130)",
+        "73",
+        "180 × 130 cm (la misma ficha dice también 160 × 130)",
+        "160 W",
+        "9",
+        "Programable hasta 180 min",
+        "A máquina, sin temperatura indicada",
+        "3 años en España"
+      ],
+      [
+        "Orbegozo MAH 2050",
+        "65",
+        "200 × 170 cm",
+        "120 W",
+        "3",
+        "A las 3 h",
+        "Ficha: a mano y a máquina; manual: a mano",
+        "Garantía legal (3 años)"
+      ],
+      [
+        "Orbegozo MAH 2510",
+        "65",
+        "180 × 130 cm",
+        "120 W",
+        "3",
+        "A las 3 h",
+        "Ficha: a mano y a máquina; manual: a mano",
+        "Garantía legal (3 años)"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Seguridad documentada",
+      "weight": 35,
+      "explanation": "Lo que evita un susto es que la manta deje de calentar sola y que no pueda sobrecalentarse. Puntuamos lo que el fabricante declara en su web o su manual: protección contra sobrecalentamiento, vigilancia de toda la superficie, desconexión definitiva tras una avería y un apagado automático corto. Un apagado fijo a las 3 horas puntúa más que un temporizador que de fábrica viene en 8 horas."
+    },
+    {
+      "name": "Lavado claro y a máquina",
+      "weight": 20,
+      "explanation": "Una manta que se usa todo el invierno hay que lavarla. Damos la máxima nota cuando el manual en español indica lavadora, programa y temperatura, y explica cómo secarla. Restamos cuando no indica temperatura o cuando la ficha de la web y el manual se contradicen."
+    },
+    {
+      "name": "Control del calor",
+      "weight": 15,
+      "explanation": "Más niveles permiten bajar el calor una vez caliente y gastar menos; un temporizador ajustable permite decidir cuánto dura. Contamos los niveles y si el apagado se puede programar."
+    },
+    {
+      "name": "Potencia declarada",
+      "weight": 10,
+      "explanation": "Sin la potencia no se puede calcular el consumo. Puntuamos que el fabricante la publique y que sea moderada para el tamaño: entre 60 y 120 W para el sofá, como recomienda la OCU. Si no la publica, la nota es mínima."
+    },
+    {
+      "name": "Tejido, medidas y certificados",
+      "weight": 10,
+      "explanation": "Valoramos que el fabricante detalle el tejido y su gramaje, las medidas y el peso, y que acredite un certificado textil como OEKO-TEX. El tamaño se describe, pero una manta más grande no suma por serlo."
+    },
+    {
+      "name": "Ficha, manual y garantía en España",
+      "weight": 10,
+      "explanation": "Una ficha coherente, un manual en español descargable, servicio técnico localizable y la garantía que se aplica en España. Restamos cuando la ficha mezcla medidas o tejidos de modelos distintos."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Manta eléctrica, calientacamas o almohadilla: cuál necesitas",
+      "html": "<p>En las tiendas españolas se llama «manta eléctrica» a tres aparatos distintos. Elegir bien el tipo importa más que la marca, porque cada uno tiene sus propias normas de uso.</p><ul><li><strong>Manta eléctrica de uso superior:</strong> la que te echas por encima en el sofá o pones sobre la ropa de cama. Suele medir 180 × 130 cm, y 200 × 150 cm o más las grandes. Es la que comparamos en esta guía. Cecotec, por ejemplo, prohíbe en su manual usar la HeatConfort Calma debajo del cuerpo o como colchón térmico.</li><li><strong>Calientacamas:</strong> va sobre el colchón y debajo de la sábana, y sirve para templar la cama antes de acostarte. Los hay individuales, de 150 × 80 cm, y dobles, de 150 × 140 cm o más.</li><li><strong>Almohadilla eléctrica:</strong> pequeña, para la zona lumbar, el cuello o los pies. Es lo que suele aparecer cuando buscas «manta eléctrica lumbar».</li></ul><p>Ojo con los nombres: Orbegozo llama «manta térmica» a su MAH 2050, que es eléctrica, mientras que la OCU reserva «manta térmica» para la manta de siempre, sin cables, que solo conserva tu propio calor.</p>"
+    },
+    {
+      "h2": "Seguridad: qué exigir antes de comprar y qué no hacer nunca",
+      "html": "<p>Bien usada, una manta eléctrica es un aparato de poco riesgo, pero junta calor, tela y un cable, así que no conviene improvisar. Antes de comprar, la OCU pide cinco cosas: marcado CE, manual en español, protección contra sobrecalentamiento, apagado automático y cable desmontable. Las tres recomendadas las cumplen; se diferencian en lo que documenta cada fabricante.</p><ul><li><strong>Apagado automático:</strong> Beurer y Orbegozo cortan el calor a las 3 horas; Cecotec deja programar de 1 a 12 horas y viene en 8 horas de fábrica. Para el sofá, cuanto más corto, mejor.</li><li><strong>Vigilancia del calor:</strong> Beurer explica que los sensores del elemento térmico evitan el sobrecalentamiento en toda su superficie y que, tras una avería, la manta queda desconectada para siempre. Orbegozo y Cecotec declaran protección contra sobrecalentamiento sin tanto detalle.</li><li><strong>Quién no debe usarla:</strong> niños menores de 3 años y personas que no notan bien el calor o no pueden reaccionar a tiempo. Beurer pone como ejemplos a personas diabéticas, con lesiones en la piel o bajo los efectos de analgésicos o alcohol. Entre 3 y 8 años, Beurer solo la admite con supervisión y el mando siempre en el nivel más bajo.</li><li><strong>Marcapasos:</strong> Beurer y Cecotec indican que los campos eléctricos y magnéticos quedan muy por debajo de los límites, pero piden consultar al médico y al fabricante del marcapasos antes de usarla.</li></ul><p><strong>Lo que los manuales prohíben:</strong></p><ul><li>Usarla doblada, arrugada o enrollada, y guardarla caliente o con peso encima.</li><li>Usarla mojada o húmeda; Orbegozo añade que tampoco en el cuarto de baño.</li><li>Clavarle alfileres o agujas, o ponerle encima una bolsa de agua caliente u otra fuente de calor.</li><li>Tapar el mando: su electrónica se calienta y debe quedar fuera de la manta.</li><li>Conectarla a un mando que no sea el suyo.</li><li>Seguir usándola si huele raro o calienta solo por zonas: la OCU aconseja apagarla, desenchufarla, dejarla enfriar, no volver a usarla y acudir al servicio técnico. En la Beurer HD 75, en cambio, que el piloto parpadee tras 3 horas es normal: indica el apagado automático.</li></ul><p><strong>¿Y dormir con ella encendida?</strong> Depende del fabricante, y no coinciden. El manual de la Orbegozo MAH 2050 pide no quedarse dormido con ella en marcha y usar el máximo solo para calentar, nunca más de 20 minutos; el de la Cecotec Calma pide bajar al nivel 1 antes de dormir. La OCU aconseja no dejarla toda la noche salvo que el fabricante lo permita, y en nivel bajo.</p><p>Enchúfala directamente a la pared, como recomienda la OCU, y revisa cable y tejido cada invierno al sacarla del armario.</p>"
+    },
+    {
+      "h2": "¿Cuánto consume una manta eléctrica? kWh y euros",
+      "html": "<p>La cuenta es sencilla: vatios × horas ÷ 1.000 = kWh. Una manta de 120 W a máxima potencia gasta 0,12 kWh en una hora. Para pasarlo a euros usamos 24,59 céntimos por kWh: la media del PVPC, la tarifa regulada, del 1 al 14 de octubre de 2026, con impuestos y solo término de energía, según Selectra. Con tu factura delante, cambia esa cifra por tu precio del kWh.</p><ul><li><strong>Cecotec HeatConfort Calma (115 W):</strong> 0,115 kWh por hora, unos 2,8 céntimos; una tarde de 3 horas, 0,35 kWh y unos 8,5 céntimos; 30 tardes, unos 2,55 €.</li><li><strong>Orbegozo MAH 2050 (120 W):</strong> 0,12 kWh por hora, unos 3 céntimos; 3 horas, 0,36 kWh y unos 9 céntimos; 30 tardes, unos 2,66 €.</li><li><strong>Cecotec HeatConfort ThermalBlanket Frannel (160 W):</strong> 0,16 kWh por hora, unos 3,9 céntimos; 3 horas, 0,48 kWh y unos 12 céntimos; 30 tardes, unos 3,54 €.</li><li><strong>Calientacamas Orbegozo CAH 1400 (2 × 60 W):</strong> precalentar la cama 20 minutos con los dos lados al máximo son 0,04 kWh, alrededor de 1 céntimo.</li><li><strong>Para comparar, un radiador de 2.000 W:</strong> 2 kWh por hora, unos 49 céntimos. Una tarde de 3 horas con la manta de 120 W gasta lo mismo que unos 11 minutos de ese radiador a plena potencia.</li></ul><p>Son cifras de máximo. Con el termostato, la manta deja de calentar a ratos cuando llega a su temperatura, y en niveles bajos gasta menos. El manual del calientacamas Beurer UB 91, que mide su propio consumo, da una pista: con las dos zonas al máximo, su contador tarda unos 8 minutos en pasar de 0,00 a 0,01 kWh, es decir, del orden de 0,075 kWh por hora. Beurer no publica la potencia de la HD 75 ni en su web ni en el manual, que remite a la placa de características de la manta; si quieres el dato exacto, un medidor de consumo enchufable te lo da en una tarde.</p><p>El «bajo consumo» de las mantas no tiene truco: gastan poco porque calientan tu cuerpo y no el aire de la habitación. No sustituyen a la calefacción en una casa fría, pero permiten bajarla mientras estás sentado.</p>"
+    },
+    {
+      "h2": "Cómo lavar una manta eléctrica sin estropearla",
+      "html": "<p>Antes de nada, apágala, desenchúfala, deja que se enfríe y separa el mando: el conector se desmonta en los tres modelos recomendados. El mando nunca se moja; se limpia con un paño seco. Después, sigue tu manual, porque cada fabricante lava distinto:</p><ul><li><strong>Beurer HD 75 y HD 150 XXL:</strong> lavadora en programa muy suave o de lana a 30 °C, con detergente suave. Al sacarla, estírala aún húmeda y déjala extendida en el tendedero, sin pinzas. Vuelve a conectar el mando solo cuando la manta y el conector estén completamente secos.</li><li><strong>Cecotec HeatConfort Calma:</strong> las manchas pequeñas, con un paño o una esponja húmeda y un poco de detergente para delicados. Si está muy sucia, admite lavadora con detergente para delicados, pero el manual no fija la temperatura y pide no lavarla con demasiada frecuencia. Tiéndela sin pinzas, lejos de radiadores y del sol directo.</li><li><strong>Orbegozo MAH 2050:</strong> la ficha de la web dice que se lava a mano y a máquina, pero el manual de 2026 solo muestra el símbolo de lavado a mano y advierte de que el método de lavado es específico. Ante la duda, lávala a mano o pregunta al servicio técnico de Orbegozo.</li></ul><p><strong>Nunca:</strong> secadora, plancha ni limpieza en seco, que prohíben los tres fabricantes; tampoco lejía, que Beurer y Orbegozo excluyen, ni retorcerla al escurrir, como advierte Beurer. Y, sobre todo, no la enciendas para que se seque antes: Cecotec lo prohíbe y Beurer avisa del peligro de descarga eléctrica.</p>"
+    },
+    {
+      "h2": "Para la cama: cuándo es mejor un calientacamas",
+      "html": "<p>Si lo que quieres es meterte en una cama templada, un calientacamas suele ser mejor idea que una manta por encima: va entre el colchón y la sábana, se precalienta unos minutos y se apaga al acostarte. La OCU recomienda precalentar de 10 a 20 minutos y después bajar el nivel o apagar.</p><ul><li><strong>Beurer UB 91 (150 × 80 cm, individual):</strong> dos zonas, cuerpo y pies, con 9 niveles cada una; apagado programable de 1 a 12 horas; pantalla con los kWh gastados desde el último encendido; lavado a 30 °C en programa de lana y 5 años de garantía. Incluye un modo antiácaros que lo mantiene 12 horas al máximo con la cama tapada por la colcha.</li><li><strong>Orbegozo CAH 1400 (150 × 140 cm, doble):</strong> 2 × 60 W, un mando para cada lado con 3 niveles, calor extra en los pies, apagado a las 3 horas y sistema de fijación al colchón.</li><li><strong>Beurer TS 26 XXL (150 × 140 cm, doble):</strong> dos mandos y 3 niveles, pero la ficha de Beurer indica que no tiene mecanismo de desconexión automática, solo la de seguridad. Si te vas a dormir con él puesto, elige uno que se apague solo.</li></ul>"
+    },
+    {
+      "h2": "Qué dice la OCU de las mantas eléctricas",
+      "html": "<p>La OCU publicó el 27 de noviembre de 2025 una guía de mantas eléctricas. No es un ensayo de laboratorio ni puntúa modelos, pero fija los mínimos de seguridad que ya hemos visto y da cifras útiles:</p><ul><li>Para uso personal en el sofá considera suficientes entre 60 y 120 W, y entre 80 y 150 W para la cama.</li><li>Más potencia no da más confort: solo hace que la manta llegue antes a su temperatura. Lo importante son los niveles regulables.</li><li>Solo debe ir a la lavadora si el fabricante lo indica claramente: sin el mando, en programa delicado y sin secadora.</li><li>Entre las mantas más citadas en tiendas y opiniones nombra la Beurer HD 75, de la que destaca el sistema de seguridad, el apagado a las 3 horas y el lavado a máquina quitando el mando.</li></ul><p>Coincide con nuestro criterio: el apagado automático, la protección contra sobrecalentamiento y un lavado bien explicado pesan más que la potencia o el número de niveles.</p>"
+    },
+    {
+      "h2": "Por qué este orden",
+      "html": "<p>Puntuamos seis mantas de uso superior que se venden en España con los criterios que publicamos en esta página, a partir de la web y el manual de cada fabricante. No hemos probado ninguna: las notas reflejan lo que cada marca documenta, y el precio no entra en la nota.</p><ul><li><strong>Beurer HD 75 (83/100):</strong> la que más puntúa en seguridad y en lavado, los dos criterios que más pesan. Pierde puntos porque Beurer no publica su potencia y porque tiene 6 niveles y un apagado fijo. La HD 150 XXL saca la misma nota porque es la misma manta en 200 × 150 cm: es la opción si sois dos.</li><li><strong>Cecotec HeatConfort Calma (79/100):</strong> gana en control del calor y publica su potencia, pero el temporizador de fábrica en 8 horas y un lavado sin temperatura la dejan por detrás.</li><li><strong>Cecotec HeatConfort ThermalBlanket Frannel (73/100):</strong> limita el temporizador a 180 minutos, pero declara 160 W y su ficha mezcla dos medidas, 160 × 130 y 180 × 130 cm, y dos tejidos.</li><li><strong>Orbegozo MAH 2050 y MAH 2510 (65/100):</strong> apagado a las 3 horas y 120 W declarados, pero solo 3 niveles, sin certificado textil y con una contradicción en el lavado entre la ficha y el manual. Recomendamos la MAH 2050 por su tamaño, 200 × 170 cm.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto gasta una manta eléctrica al mes?",
+      "a": "Depende de la potencia y de las horas. Una manta de 120 W a máxima potencia, 3 horas al día durante 30 días, gasta 10,8 kWh: unos 2,66 € con la media del PVPC del 1 al 14 de octubre de 2026 (24,59 céntimos por kWh con impuestos, solo energía). En niveles bajos gasta menos."
+    },
+    {
+      "q": "¿Se puede dormir con la manta eléctrica encendida?",
+      "a": "Solo si su manual lo permite. Orbegozo pide no quedarse dormido con la MAH 2050 en marcha; Cecotec pide bajar la Calma al nivel 1 antes de dormir. La OCU aconseja no dejarla encendida toda la noche salvo que el fabricante lo permita, y entonces en nivel bajo; en la cama, precalentar de 10 a 20 minutos y después bajar el nivel o apagar."
+    },
+    {
+      "q": "¿Se puede lavar una manta eléctrica en la lavadora?",
+      "a": "Sí, si el fabricante lo indica, y siempre sin el mando. Beurer pide programa de lana a 30 °C; Cecotec admite lavadora con detergente para delicados sin indicar temperatura; en la Orbegozo MAH 2050 el manual solo muestra lavado a mano. Nunca secadora ni plancha, y no la enciendas hasta que esté seca del todo."
+    },
+    {
+      "q": "¿Qué es mejor, manta eléctrica o calientacamas?",
+      "a": "Para el sofá, la manta. Para la cama, el calientacamas: va bajo la sábana, templa el colchón antes de acostarte y se apaga después. Si dormís dos personas con gustos distintos, busca uno doble con un mando por lado, como el Orbegozo CAH 1400."
+    },
+    {
+      "q": "¿Puede una manta eléctrica provocar un incendio?",
+      "a": "El riesgo aparece sobre todo si se usa doblada, mojada, con el cable dañado o con el mando tapado, que se calienta. Elige una con protección contra sobrecalentamiento y apagado automático, enchúfala a la pared y deja de usarla si huele a quemado o calienta solo por zonas."
+    },
+    {
+      "q": "¿Qué potencia debe tener una manta eléctrica?",
+      "a": "Para el sofá, entre 60 y 120 W es suficiente según la OCU; la Cecotec Calma declara 115 W y la Orbegozo MAH 2050, 120 W. Más vatios hacen que caliente antes, no que dé más confort."
+    },
+    {
+      "q": "¿Puedo usar una manta eléctrica si llevo marcapasos?",
+      "a": "Pregunta antes a tu médico. Beurer y Cecotec indican en sus manuales que los campos eléctricos y magnéticos de sus mantas quedan muy por debajo de los límites, pero piden consultar al médico y al fabricante del marcapasos antes de usarlas."
+    },
+    {
+      "q": "¿Puedo enchufarla a una regleta o a un enchufe inteligente?",
+      "a": "Lo más seguro, según la OCU, es enchufarla directamente a la pared; si usas regleta, que sea de calidad y sin otros aparatos de mucho consumo. Para programarla, usa el apagado automático de la propia manta: ninguno de los manuales que hemos consultado contempla un temporizador externo."
+    },
+    {
+      "q": "¿Qué manta eléctrica recomienda la OCU?",
+      "a": "Su guía del 27 de noviembre de 2025 no es un ensayo con puntuaciones. Cita la Beurer HD 75 entre las mantas más populares y explica qué seguridad exigir: marcado CE, manual en español, protección contra sobrecalentamiento, apagado automático y cable desmontable."
+    },
+    {
+      "q": "¿Y si me compro la manta eléctrica de Lidl o de otra tienda?",
+      "a": "Aplica los mismos filtros que a cualquier otra: apagado automático, protección contra sobrecalentamiento, mando desmontable, potencia declarada e instrucciones de lavado con temperatura en un manual en español. Si falta alguno, compárala con las de esta guía antes de decidir."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "OCU · Guía de mantas eléctricas: usos, eficacia y seguridad",
+      "url": "https://www.ocu.org/vivienda-y-energia/equipamiento-hogar/informe/mantas-electricas",
+      "note": "Guía publicada el 27/11/2025 (consultada el 1/11/2026); no es un ensayo de laboratorio y no puntúa modelos. Pide marcado CE, manual en español, protección contra sobrecalentamiento, apagado automático y cable desmontable; usarla extendida y enchufada a la pared; precalentar de 10 a 20 minutos y bajar o apagar. Sitúa la potencia habitual de una manta de sofá entre 60 y 180 W y calcula que 100 W durante una hora son 0,1 kWh, unos 2 céntimos a 0,20 € el kWh. Cita la Beurer HD 75 entre las mantas más populares."
+    },
+    {
+      "name": "Selectra · precio del kWh de referencia",
+      "url": "https://selectra.es/energia/noticias/brasero-2026-mesa-camilla-radiador-consumo",
+      "note": "Artículo del 16/10/2026: la media del PVPC del 1 al 14 de octubre de 2026 fue de 24,59 céntimos por kWh con impuestos, solo término de energía, calculada con los precios horarios de Red Eléctrica. Es el precio que usamos en los cálculos de consumo de esta guía."
+    }
+  ],
+  "sources": [
+    "https://www.beurer.com/es/p/42106/",
+    "https://res.cloudinary.com/beurer/image/upload/v1789986507/stibo-live/HD75_2026-09-18_12_IM1_BEU.pdf",
+    "https://www.beurer.com/es/p/43103/",
+    "https://res.cloudinary.com/beurer/image/upload/v1789631887/stibo-live/HD150XXL_2026-09-17_10_IM1_BEU.pdf",
+    "https://www.beurer.com/es/p/30095/",
+    "https://res.cloudinary.com/beurer/image/upload/v1790681604/stibo-live/07101760_UB91-101_2026-09-08_01_IM1_BEU.pdf",
+    "https://res.cloudinary.com/beurer/image/upload/v1790935258/stibo-live/db_30095_ub_91-50-0278.pdf",
+    "https://www.beurer.com/es/p/31716/",
+    "https://res.cloudinary.com/beurer/image/upload/v1708599979/stibo-live/07101294_TS19-TS26XXL_2023-01-12_02_IM1_BEU.pdf",
+    "https://cecotec.es/es/mantas-electricas/heatconfort-calma-180-x-130",
+    "https://cdn.cecotec.cloud/media/files/heatconfort-calma-180-x-130_user_manual.pdf",
+    "https://cecotec.es/es/mantas-electricas/heatconfort-thermalblanket-frannel-180-x-130",
+    "https://orbegozo.com/productos/calefaccion/calor-textil/manta-termica-mah-2050/",
+    "https://orbegozo.com/wp-content/uploads/2026/05/MAH-1750-2050-IM-2026.pdf",
+    "https://orbegozo.com/productos/calefaccion/calor-textil/manta-electrica-mah-2510/",
+    "https://orbegozo.com/wp-content/uploads/2026/05/MAH-2510-MAH-2520-IM-2026.pdf",
+    "https://orbegozo.com/productos/calefaccion/calor-textil/calienta-camas-electrico-cah-1400/",
+    "https://www.ocu.org/vivienda-y-energia/equipamiento-hogar/informe/mantas-electricas",
+    "https://selectra.es/energia/noticias/brasero-2026-mesa-camilla-radiador-consumo"
+  ],
+  "related": [
+    "/es/confort-air/chauffages-appoint",
+    "/es/energie-domotique/compteurs-energie",
+    "/es/securite-maison/detecteurs-fumee-co",
+    "/es/blog/guide-domotique-economie-energie-2026",
+    "/es/guides/probleme/chauffage-appoint-efficace-piece",
+    "/es/methodologie"
+  ]
+}

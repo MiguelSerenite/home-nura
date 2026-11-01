@@ -160,6 +160,8 @@ describe('parseMarketPage: wording', () => {
     expect(wordingProblem('4.6 stars on Amazon')).toMatch(/Amazon rating/)
     expect(wordingProblem('oltre 2.000 recensioni su Amazon')).toMatch(/Amazon rating/)
     expect(wordingProblem('#1 on Amazon')).toMatch(/Amazon rating/)
+    expect(wordingProblem('Rated 4.5/5 on Amazon')).toMatch(/Amazon rating/)
+    expect(wordingProblem('Den Philips EP3341/50 gibt es auch bei Amazon.')).toBeNull()
     expect(wordingProblem('la friggitrice più venduta')).toMatch(/bestseller/)
     expect(wordingProblem('ein Bestseller')).toMatch(/bestseller/)
     expect(wordingProblem('We tested both for a month.')).toMatch(/own-test/)

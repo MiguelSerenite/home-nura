@@ -1,0 +1,239 @@
+{
+  "locale": "es",
+  "type": "duel",
+  "slug": "robot-aspirador-xiaomi-vs-cecotec",
+  "updated": "2026-11-01",
+  "metaTitle": "Robot aspirador Xiaomi vs Cecotec: cuál elegir en 2026",
+  "metaDescription": "Robot aspirador Xiaomi o Cecotec: Robot Vacuum 5 frente a Conga X100 en navegación, fregado, altura y base, con fichas oficiales y análisis publicados.",
+  "kicker": "Duelo · Robots aspiradores",
+  "h1": "Robot aspirador Xiaomi o Cecotec: Robot Vacuum 5 frente a Conga X100, ¿cuál elegir?",
+  "answer": "Elige la Cecotec Conga X100 si en tu piso hay cables, calcetines o rieles: añade una cámara con IA al láser, supera desniveles de 30 mm y deja las mopas en la base cuando solo aspira. Elige el Xiaomi Robot Vacuum 5 si tienes sofás o camas bajos: baja su radar para entrar en huecos de 9,5 cm y lava las mopas a 80 °C. En alfombras, ninguno destaca.",
+  "picks": [
+    {
+      "brand": "Cecotec",
+      "model": "Conga X100",
+      "role": "Nuestra elección para pisos con obstáculos",
+      "why": "Suma una cámara con IA al láser para reconocer objetos pequeños y líquidos, sube desniveles de 30 mm y, en modo solo aspirado, deja las mopas en la base. En el análisis de La Casa Sibarita recogió el 98 % de una mezcla de arroz y harina en gres y el 92 % en alfombra.",
+      "bestFor": "Pisos con cables, juguetes o mascotas, puertas correderas con riel o un escalón hacia la terraza, y quien quiere ver la casa desde el móvil.",
+      "asin": "B0FL2KCMV7",
+      "manufacturerUrl": "https://www.cecotec.es/es/robots-aspiradores/conga-x100",
+      "specs": {
+        "Referencia": "A01_EU01_114479",
+        "Navegación": "láser con inteligencia artificial y cámara (AI Pro): reconoce objetos pequeños, tipos de suelo, suciedad y líquidos",
+        "Succión": "20.000 Pa (motor Ungravity)",
+        "Fregado": "2 mopas giratorias que se humedecen de forma constante (Fregado Spin con Perfect Wash)",
+        "Mopas y alfombras": "se elevan al detectar alfombras (SpinUp) y se quedan en la base en modo solo aspirado (SpinOff)",
+        "Bordes": "cepillo lateral y mopa extensibles (DuoXtend)",
+        "Cepillo central": "HairCut Brush, corta el pelo enredado y lo aspira; se eleva en modo fregado al detectar manchas líquidas (BrushUp)",
+        "Desniveles": "hasta 30 mm, con la rueda elevable HopWheel",
+        "Altura del robot": "11 cm",
+        "Autonomía": "220 min; hasta 180 m² por carga, con recarga y continuación desde el mismo punto",
+        "Base": "All-in Home: vacía el polvo en una bolsa, escurre el agua sucia, desinfecta las mopas con agua caliente (70 °C), las seca con aire caliente y rellena el depósito del robot; 2 tanques (agua limpia y agua sucia)",
+        "Autovaciado": "hasta 12 semanas sin cambiar la bolsa, según Cecotec",
+        "Cámara en la app": "VideoManager en la App 3.0, para ver la casa en directo",
+        "Garantía en España": "3 años",
+        "Otra versión": "Conga X100 X-Treme (A01_EU01_119671): mismo resumen técnico y mismo contenido de la caja en cecotec.es; su ficha cita además LaserEye y sensores ultrasónicos para detectar alfombras"
+      }
+    },
+    {
+      "brand": "Xiaomi",
+      "model": "Robot Vacuum 5",
+      "role": "La alternativa para muebles bajos y sin cámara",
+      "why": "Su radar láser se esconde para pasar por huecos de 9,5 cm, y la base lava las mopas con agua de hasta 80 °C, las seca en 2 horas y guarda 4 l de agua limpia. No lleva cámara: esquiva con luz estructurada, que en el análisis de TechRadar no vio el cable de una lámpara.",
+      "bestFor": "Casas con sofás, camas o muebles de cocina bajos, suelos que se despejan antes de limpiar y quien prefiere un robot sin cámara o ya usa Xiaomi Home.",
+      "asin": "B0FDW2GFT9",
+      "manufacturerUrl": "https://www.mi.com/es/product/xiaomi-robot-vacuum-5/",
+      "specs": {
+        "Modelo": "OV31GL (base OV31-JZEU)",
+        "Navegación": "radar láser dToF retráctil con escaneo de 360°",
+        "Detección de obstáculos": "luz estructurada S-Cross para obstáculos bajos, radar y sensor de bordes; sin cámara",
+        "Succión": "20.000 Pa",
+        "Fregado": "2 mopas giratorias; se elevan 15 mm al detectar alfombras con un sensor ultrasónico",
+        "Bordes": "cepillo lateral y mopa extensibles, hasta 0 mm del borde según Xiaomi",
+        "Cepillos": "cepillo principal con dos cuchillas que cortan el pelo y cepillo lateral antienredos",
+        "Altura": "cuerpo de 88 mm; con el radar bajado entra en huecos desde 9,5 cm",
+        "Diámetro": "350 mm",
+        "Peso": "3,75 kg",
+        "Batería": "5.200 mAh (capacidad típica); 140 min aspirando y fregando en modo estándar",
+        "Base": "lava las mopas con agua de hasta 80 °C, las seca con aire caliente en 2 h, limpia la bandeja con dos rascadores giratorios y vacía el polvo en una bolsa",
+        "Depósito de agua limpia": "4 l",
+        "Autovaciado": "cambio de bolsa cada 75 días, según Xiaomi (casa de 120 m² con mascota y limpieza diaria)",
+        "Medidas de la base": "36 cm de ancho, 57,2 cm de alto y 26 cm de fondo (47 cm con la rampa)",
+        "Potencia de la base": "530 W al vaciar el polvo, 1.600 W al lavar con agua caliente, 85 W al secar y cargar",
+        "Control": "app Xiaomi Home; Alexa y Asistente de Google"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": ["Característica", "Cecotec Conga X100", "Xiaomi Robot Vacuum 5"],
+    "rows": [
+      ["Navegación", "Láser y cámara con IA (AI Pro)", "Radar láser dToF retráctil y luz estructurada S-Cross; sin cámara"],
+      ["Succión declarada", "20.000 Pa", "20.000 Pa"],
+      ["Altura y hueco mínimo", "11 cm de alto", "88 mm de cuerpo; pasa por huecos desde 9,5 cm con el radar bajado"],
+      ["Desniveles que supera", "Hasta 30 mm (HopWheel)", "No lo indica la ficha española"],
+      ["Mopas", "2 giratorias; se elevan sobre alfombras y se quedan en la base al solo aspirar", "2 giratorias; se elevan 15 mm sobre alfombras"],
+      ["Bordes y esquinas", "Cepillo lateral y mopa extensibles", "Cepillo lateral y mopa extensibles"],
+      ["Lavado de mopas en la base", "Desinfección con agua caliente a 70 °C y secado con aire caliente", "Agua hasta 80 °C y secado con aire caliente en 2 h"],
+      ["Depósito de agua limpia", "No lo indica Cecotec", "4 l"],
+      ["Bolsa de la base", "Hasta 12 semanas", "Unos 75 días"],
+      ["Autonomía declarada", "220 min; hasta 180 m² por carga", "140 min aspirando y fregando en modo estándar"],
+      ["Cámara de vídeo en la app", "Sí (VideoManager)", "No"],
+      ["App y voz", "App 3.0 de Cecotec; la ficha no menciona Alexa ni el Asistente de Google", "Xiaomi Home; Alexa y Asistente de Google"],
+      ["Análisis publicados", "La Casa Sibarita, 6/10/2026: 8,6 sobre 10", "TechRadar (edición neerlandesa), 31/12/2025: buen aspirado, problemas con cables y alfombras gruesas"]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Navegación y esquiva de obstáculos",
+      "weight": 25,
+      "explanation": "Un robot que se enreda en un cable o se traga un calcetín te obliga a recoger el suelo antes de cada pasada. Comparamos el sistema de cada uno (láser, cámara, luz estructurada) según su ficha para España y lo que cuentan los análisis publicados."
+    },
+    {
+      "name": "Aspirado en suelo duro y alfombras",
+      "weight": 20,
+      "explanation": "Los pascales son una cifra de laboratorio de cada fabricante. Nos fijamos en los resultados publicados por analistas independientes y por la OCU, y en si el robot puede aspirar sin arrastrar las mopas."
+    },
+    {
+      "name": "Fregado y autolimpieza de la base",
+      "weight": 20,
+      "explanation": "En pisos con gres, terrazo o tarima, el fregado diario es la razón de pagar una base completa. Valoramos la temperatura de lavado, el secado, el depósito de agua limpia y los resultados con manchas que se han publicado."
+    },
+    {
+      "name": "Muebles bajos y desniveles",
+      "weight": 15,
+      "explanation": "Decide qué parte del piso limpia de verdad: la altura mínima para pasar bajo sofás y camas, y el desnivel que supera en rieles y umbrales, según cada fabricante."
+    },
+    {
+      "name": "Autonomía y mantenimiento",
+      "weight": 10,
+      "explanation": "Minutos y metros cuadrados por carga declarados, y cada cuánto hay que cambiar la bolsa de la base, que marca el gasto en consumibles."
+    },
+    {
+      "name": "Compra, servicio y privacidad",
+      "weight": 10,
+      "explanation": "Garantía en España, servicio técnico, app y si el robot lleva cámara, algo que a muchos hogares les importa tanto como la limpieza."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Xiaomi o Cecotec: el veredicto en tres frases",
+      "html": "<ul><li><strong>Elige la Cecotec Conga X100 si</strong> en el suelo suele haber cables, calcetines o juguetes, si tienes rieles de puertas correderas o un escalón hacia la terraza, o si quieres que aspire sin arrastrar las mopas: las deja en la base, supera desniveles de 30 mm y su cámara con IA reconoce objetos pequeños.</li><li><strong>Elige el Xiaomi Robot Vacuum 5 si</strong> tus sofás, camas o muebles de cocina dejan poco hueco: con el radar bajado pasa por espacios de 9,5 cm, frente a los 11 cm de altura de la Conga. Además, lava las mopas a 80 °C, tiene un depósito de agua limpia de 4 l y no lleva cámara.</li><li><strong>En los dos casos</strong> tendrás 20.000 Pa de succión declarada, mopa y cepillo extensibles, una base que vacía el polvo, lava las mopas y las seca con aire caliente, y el mismo punto débil que la OCU encuentra en los robots de ambas marcas: el polvo de las alfombras.</li></ul>"
+    },
+    {
+      "h2": "Qué modelos comparamos y por qué estos dos",
+      "html": "<p>«Robot aspirador Xiaomi vs Cecotec» es una pregunta de marca, pero cada marca vende a la vez muchos modelos. Para que el duelo sea justo comparamos dos robots del mismo escalón y con el mismo equipamiento: la <strong>Cecotec Conga X100</strong> (referencia A01_EU01_114479) y el <strong>Xiaomi Robot Vacuum 5</strong> (modelo OV31GL). Los dos aspiran con 20.000 Pa, friegan con dos mopas giratorias y vuelven a una base que vacía el depósito en una bolsa, lava las mopas con agua caliente y las seca con aire caliente.</p><p>Ojo con los nombres parecidos. Cecotec vende también la <strong>Conga X100 X-Treme</strong> (A01_EU01_119671), con el mismo resumen técnico en su web. Xiaomi tiene un <strong>Robot Vacuum 5 Pro</strong> que añade una triple cámara con IA y una cámara de vídeo de 5 MP, y ya vende el <strong>Robot Vacuum 6</strong>, con cámara con IA y una mopa de rodillo en lugar de dos giratorias; los dos aparecen más abajo como alternativas. El 1 de noviembre de 2026 los dos modelos del duelo aparecían en la web española de su fabricante y a la venta en Amazon.</p>"
+    },
+    {
+      "h2": "Diferencia 1: cómo esquivan cables y objetos pequeños",
+      "html": "<p>La Conga X100 combina un láser, que dibuja el mapa, con una cámara e inteligencia artificial (lo que Cecotec llama AI Pro) para reconocer objetos pequeños, tipos de suelo, suciedad y líquidos. El Xiaomi Robot Vacuum 5 no lleva cámara: mapea con un radar láser dToF y esquiva con luz estructurada (S-Cross) y un sensor de bordes, un sistema que mide distancias con precisión pero no identifica qué es cada objeto.</p><p>Los análisis publicados van en la misma dirección. En el de La Casa Sibarita, la Conga X100 rodeó un cargador de móvil olvidado en el pasillo. En el de TechRadar (edición neerlandesa), el Xiaomi casi nunca chocó con los muebles y detectó una puerta de cristal, pero sus mopas se enredaron en el cable de una lámpara y, por esquivar de más, dejó algunos rincones sin limpiar.</p><p><strong>En la práctica:</strong> si no recoges el suelo antes de ponerlo en marcha, la cámara de la Conga es una ventaja real. Si sueles dejarlo despejado, la diferencia se nota mucho menos.</p>"
+    },
+    {
+      "h2": "Diferencia 2: debajo del sofá o por encima del riel",
+      "html": "<p>Aquí cada uno gana una mitad. El Xiaomi baja su radar cuando detecta un hueco estrecho y entra en espacios de 9,5 cm; la Conga X100 mide 11 cm de alto. Antes de elegir, mide con una cinta métrica el hueco bajo el sofá, la cama y los zócalos de los muebles de cocina: <strong>si está entre 9,5 y 11 cm, solo pasará el Xiaomi</strong>.</p><p>La Conga, en cambio, eleva su rueda omnidireccional (HopWheel) para superar desniveles de hasta 30 mm: rieles de puertas correderas, perfiles entre el gres y la tarima o el umbral de la terraza. Xiaomi no indica en la ficha española del Robot Vacuum 5 qué altura supera, y en el análisis de TechRadar algunas alfombras gruesas quedaron dobladas y el robot llegó a perder una mopa al subirse a una.</p>"
+    },
+    {
+      "h2": "Diferencia 3: el fregado y lo que hace la base",
+      "html": "<p>Las dos friegan con dos mopas giratorias, extienden una mopa y el cepillo lateral hacia los rodapiés y elevan las mopas al detectar una alfombra: 15 mm en el Xiaomi, según su ficha; Cecotec no da la altura. La Conga añade un detalle útil en casas con alfombras: en modo solo aspirado deja las mopas en la base (SpinOff), así que no las pasea por encima.</p><p>En la base, el Xiaomi va un paso por delante sobre el papel: lava las mopas con agua de hasta 80 °C (70 °C en la Conga), las seca con aire caliente en 2 horas, limpia la bandeja con dos rascadores giratorios y tiene un depósito de agua limpia de 4 l. Cecotec no publica la capacidad de sus dos tanques. Ninguna de las dos fichas menciona un depósito de detergente, y TechRadar confirma que la base del Xiaomi no lo tiene.</p><p>En el análisis de La Casa Sibarita, la Conga X100 quitó del todo manchas secas de café con leche y de tomate en gres; en laminado, el tomate dejó un velo mate muy tenue, y junto al rodapié quedó una franja de 1,1 cm sin fregar. Eran manchas secas de media hora: para el fregado diario cumple, pero no hay resultados publicados con manchas más antiguas.</p>"
+    },
+    {
+      "h2": "Alfombras y pelo de mascota: qué esperar de verdad",
+      "html": "<p>Los 20.000 Pa de los dos son una cifra de laboratorio de cada fabricante, no una medida de limpieza. La OCU, que analiza robots en laboratorio, tiene en su comparador 7 robots Cecotec y 8 Xiaomi (ninguno es de este duelo), y en sus fichas públicas los 15 comparten el mismo inconveniente: aspiran mal el polvo de las alfombras.</p><p>El análisis de La Casa Sibarita va en la misma línea con la Conga X100: recogió el 98 % de una mezcla de arroz y harina en gres y el 92 % en alfombra, donde la harina se quedó entre las fibras. Para el pelo, las dos marcas montan cepillos que cortan los enredos (HairCut Brush en la Conga, un cepillo con dos cuchillas en el Xiaomi). Si tienes alfombras de pelo largo, cuenta con pasar la aspiradora escoba de vez en cuando.</p>"
+    },
+    {
+      "h2": "Cuánto cuesta mantenerlos al año",
+      "html": "<p>Ninguna de las dos fichas menciona una suscripción para la app, así que el gasto fijo son los consumibles: bolsas de la base, mopas, filtro y cepillo lateral. Xiaomi calcula una bolsa cada 75 días limpiando a diario una casa de 120 m² con mascota, unas cinco al año; Cecotec habla de hasta 12 semanas, algo más de cuatro al año. Con perro o gato que suelta mucho pelo, cuenta con alguna más.</p><p>La electricidad depende sobre todo del lavado y el secado de las mopas. Xiaomi declara 1.600 W mientras calienta el agua de lavado y 85 W durante el secado y la carga: dos horas de secado al día suponen unos 62 kWh al año (85 W × 2 h × 365 días), un cálculo nuestro que debes multiplicar por el precio de tu kWh. Cecotec no publica la potencia de la base de la X100. Si no necesitas fregar a diario, programa el fregado solo algunos días y gastarás menos.</p>"
+    },
+    {
+      "h2": "App, cámara y privacidad",
+      "html": "<p>La Conga X100 se maneja con la App 3.0 de Cecotec: mapa por habitaciones, programación y VideoManager, que usa la cámara del robot para ver la casa en directo. Si eso te incomoda, ten en cuenta que su reconocimiento de objetos también se apoya en esa cámara.</p><p>El Xiaomi Robot Vacuum 5 se controla con Xiaomi Home, la misma app del resto de aparatos de la marca, y admite Alexa y el Asistente de Google. Al no tener cámara, no puede tomar imágenes de tu casa; el Robot Vacuum 5 Pro sí la tiene, con la función de vídeo desactivada de fábrica, según Xiaomi.</p>"
+    },
+    {
+      "h2": "Garantía y servicio técnico en España",
+      "html": "<p>Los dos tienen <strong>3 años de garantía</strong> si los compras nuevos en España: es la garantía legal para compras desde el 1 de enero de 2022 (Real Decreto-ley 7/2021), y Cecotec la recuerda en su ficha. La responde en primer lugar el vendedor, así que, si compras en Amazon, mira quién vende el robot: es más cómodo cuando es la propia marca o Amazon.</p><p>La diferencia está en el servicio. Cecotec es una empresa valenciana con asistencia propia (Ceco Care) y atención por WhatsApp. Xiaomi vende en España a través de su tienda oficial y de otras tiendas, Amazon incluida, y gestiona el robot desde la misma app que sus otros aparatos.</p>"
+    },
+    {
+      "h2": "Alternativas si ninguno te convence",
+      "html": "<ul><li><strong>Xiaomi Robot Vacuum 6</strong>: un modelo más reciente, con cámara con IA que reconoce más de 220 tipos de obstáculos (el reconocimiento viene desactivado de fábrica), 30.000 Pa, una mopa de rodillo, cuerpo de 9 cm de alto y paso de escalones de hasta 4 cm, según Xiaomi. Su base lava la mopa a 80 °C, la seca en 2 horas y guarda 4 l de agua limpia.</li><li><strong>Xiaomi Robot Vacuum 5 Pro</strong>: el mismo planteamiento con triple cámara con IA (una RGB, dos infrarrojas y un proyector 3D de puntos), que reconoce unos 200 obstáculos y cables de 3 mm, una cámara de vídeo de 5 MP y paso de obstáculos de 20 mm. Es la opción si te gusta el Xiaomi pero tu suelo no siempre está despejado.</li><li><strong>Cecotec Conga X70</strong>: la hermana menor de la X100, con 15.000 Pa, láser e IA (LaserEye), mopas que se elevan 8 mm y una base que vacía el polvo, lava las mopas y las seca con aire caliente. Su ficha no menciona cámara de vídeo ni agua caliente para las mopas.</li><li><strong>Xiaomi Robot Vacuum H40</strong>: si solo quieres que la base vacíe el polvo y te basta con fregar con un depósito de 210 ml, sin lavado de mopas. La OCU lo ha analizado: buen resultado con el polvo en suelos duros, muy flojo con el de las alfombras.</li></ul>"
+    },
+    {
+      "h2": "Por qué esta clasificación",
+      "html": "<p>Ponderamos seis criterios con las fichas de Cecotec y de Xiaomi para España y con los resultados publicados por la OCU, La Casa Sibarita y TechRadar.</p><ul><li><strong>Navegación y esquiva (25):</strong> gana la Conga X100, por la cámara con IA y por lo que cuentan los dos análisis.</li><li><strong>Aspirado (20):</strong> ventaja para la Conga, que deja las mopas en la base al aspirar; el Xiaomi solo las eleva y, en el análisis de TechRadar, perdió una mopa al subirse a una alfombra gruesa. En alfombras ninguno destaca.</li><li><strong>Fregado y base (20):</strong> gana el Xiaomi, con lavado a 80 °C, 4 l de agua limpia y rascadores en la bandeja.</li><li><strong>Muebles bajos y desniveles (15):</strong> empate: el Xiaomi pasa por debajo de 11 cm y la Conga sube 30 mm.</li><li><strong>Autonomía y mantenimiento (10):</strong> gana la Conga, con 220 minutos declarados frente a 140 (Xiaomi los mide aspirando y fregando en modo estándar; Cecotec no dice en qué modo) y una bolsa algo más duradera.</li><li><strong>Compra, servicio y privacidad (10):</strong> empate: la misma garantía legal, servicio propio en España a favor de Cecotec y ausencia de cámara a favor del Xiaomi.</li></ul><p>Resultado: la Conga X100 se lleva 55 puntos, el Xiaomi 20 y otros 25 quedan en empate. Por eso es nuestra elección para la mayoría de los pisos; el Xiaomi es mejor compra si el hueco bajo tus muebles está entre 9,5 y 11 cm o si no quieres una cámara en casa.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es mejor, un robot aspirador Xiaomi o uno Cecotec?",
+      "a": "Depende más del modelo que de la marca. En el mismo escalón, la Cecotec Conga X100 esquiva mejor los objetos pequeños gracias a su cámara, supera desniveles de 30 mm y declara más autonomía; el Xiaomi Robot Vacuum 5 entra bajo muebles más bajos (9,5 cm), lava las mopas más calientes (80 °C) y no lleva cámara."
+    },
+    {
+      "q": "¿Qué dice la OCU de Xiaomi y Cecotec?",
+      "a": "A 1 de noviembre de 2026, la OCU no ha publicado resultados de la Conga X100 ni del Robot Vacuum 5. En su comparador figuran otros 7 robots Cecotec y 8 Xiaomi; las notas son solo para socios, pero en las fichas públicas los 15 comparten el mismo inconveniente: el polvo de las alfombras."
+    },
+    {
+      "q": "¿Cabe debajo de mi sofá?",
+      "a": "Mide el hueco con una cinta métrica. El Xiaomi Robot Vacuum 5 baja el radar y pasa por espacios de 9,5 cm o más; la Conga X100 mide 11 cm de alto. Si tu sofá o tu cama dejan entre 9,5 y 11 cm, solo pasará el Xiaomi."
+    },
+    {
+      "q": "¿La Conga X100 tiene cámara? ¿Puede verse mi casa?",
+      "a": "Sí: la usa para reconocer objetos y, con la función VideoManager de la App 3.0, permite ver la casa en directo desde el móvil. Si no quieres una cámara en casa, el Xiaomi Robot Vacuum 5 no la lleva; el 5 Pro sí, con el vídeo desactivado de fábrica, según Xiaomi."
+    },
+    {
+      "q": "¿Sirven para pelo de perro o de gato?",
+      "a": "Los dos montan cepillos que cortan el pelo para que no se enrede y vacían el depósito solos en la base. En el análisis de La Casa Sibarita, el cepillo de la Conga X100 seguía sin enredos tras cinco días con un perro de pelo largo. En alfombras, cuenta con repasar de vez en cuando con una aspiradora escoba."
+    },
+    {
+      "q": "¿Cada cuánto hay que cambiar la bolsa de la base?",
+      "a": "Xiaomi calcula unos 75 días limpiando a diario una casa de 120 m² con mascota; Cecotec, hasta 12 semanas. Son cifras de cada fabricante: con mucho pelo o mucha suciedad, la bolsa se llena antes."
+    },
+    {
+      "q": "¿Qué garantía tienen en España?",
+      "a": "Tres años si los compras nuevos en España, que es la garantía legal para compras desde el 1 de enero de 2022. La responde en primer lugar el vendedor, así que comprueba si el robot lo vende la propia marca, Amazon u otra tienda."
+    },
+    {
+      "q": "¿Conga X100 o Conga X100 X-Treme?",
+      "a": "En la web de Cecotec las dos versiones comparten el mismo resumen técnico (20.000 Pa, base 4 en 1 con desinfección, inteligencia artificial con cámara, mopas elevables y mopa y cepillo extensibles) y el mismo contenido de la caja. La ficha de la X-Treme cita además LaserEye y sensores ultrasónicos para detectar alfombras. Cambia la referencia (A01_EU01_114479 y A01_EU01_119671): compara las dos fichas antes de comprar."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "OCU",
+      "url": "https://www.ocu.org/electrodomesticos/robot-aspirador/comparador",
+      "note": "Comparador de robots aspiradores consultado el 1/11/2026: 56 modelos, entre ellos 7 Cecotec y 8 Xiaomi, pero ni la Conga X100 ni el Robot Vacuum 5. Notas solo para socios; en las fichas públicas, los 15 robots de las dos marcas tienen como inconveniente el polvo de las alfombras."
+    },
+    {
+      "name": "La Casa Sibarita",
+      "url": "https://lacasasibarita.es/limpieza/robot-aspirador/cecotec-conga-x100/",
+      "note": "Análisis de la Conga X100 publicado el 12/09/2026 y actualizado el 6/10/2026, con 8,6 sobre 10: 98 % de arroz y harina recogido en gres y 92 % en alfombra; café y tomate secos eliminados en gres, velo mate en laminado y una franja de 1,1 cm sin fregar junto al rodapié; esquivó un cargador de móvil; 74 minutos para salón, pasillo y dormitorio sin recargar; vaciado de la base breve pero bastante ruidoso."
+    },
+    {
+      "name": "TechRadar (edición neerlandesa)",
+      "url": "https://global.techradar.com/nl-nl/home/robot-vacuums/xiaomi-robot-vacuum-5-review-nl",
+      "note": "Análisis del Xiaomi Robot Vacuum 5 publicado el 31/12/2025 por Cas Kulk tras algo más de un mes de uso: aspirado siempre correcto, alfombras bien detectadas con las mopas elevadas y radar retráctil útil bajo un mueble; en contra, las mopas se enredaron en el cable de una lámpara, algunas alfombras gruesas quedaron dobladas, perdió una mopa al subir a una y esquivaba de más en los rincones. La base no tiene depósito de detergente."
+    }
+  ],
+  "sources": [
+    "https://www.cecotec.es/es/robots-aspiradores/conga-x100",
+    "https://www.cecotec.es/es/robots-aspiradores/conga-x100-x-treme",
+    "https://www.cecotec.es/es/robots-aspiradores/conga-x70",
+    "https://www.mi.com/es/product/xiaomi-robot-vacuum-5/",
+    "https://www.mi.com/es/product/xiaomi-robot-vacuum-5/specs/",
+    "https://www.mi.com/es/product/xiaomi-robot-vacuum-5-pro/",
+    "https://www.mi.com/es/product/xiaomi-robot-vacuum-6/",
+    "https://www.mi.com/es/product/xiaomi-robot-vacuum-6/specs/",
+    "https://www.mi.com/es/product/xiaomi-robot-vacuum-h40/",
+    "https://www.ocu.org/electrodomesticos/robot-aspirador/comparador",
+    "https://lacasasibarita.es/limpieza/robot-aspirador/cecotec-conga-x100/",
+    "https://global.techradar.com/nl-nl/home/robot-vacuums/xiaomi-robot-vacuum-5-review-nl",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2021-6872"
+  ],
+  "related": [
+    "/es/entretien-maison/aspirateurs-laveurs",
+    "/es/entretien-maison/aspirateurs-robots",
+    "/es/black-friday/aspirateurs-robots",
+    "/es/blog/robot-aspirador-piso-pequeno",
+    "/es/blog/robot-aspirateur-poils-animaux",
+    "/es/guides/probleme/robot-aspirateur-brosse-bloquee",
+    "/es/guides/probleme/robot-aspirateur-capteur-falaise-bloque",
+    "/es/regalos-de-reyes"
+  ]
+}

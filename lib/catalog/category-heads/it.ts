@@ -24,6 +24,13 @@ export const IT_HEADS: CategoryHeads = {
     h1: "I migliori multicooker del 2026: pentole multifunzione a confronto",
     description: "Multicooker e pentole a pressione elettriche a confronto: Moulinex Cookeo con Wi-Fi, Ninja Foodi 15 in 1, Instant Pot qualità prezzo. Capienza e FAQ.",
   },
+  // Indexed in this market (categories.ts indexableIn): the robot cooker guide's models.
+  "robots-multifonctions": {
+    keyword: "robot da cucina",
+    title: "Miglior robot da cucina 2026: Bimby e alternative",
+    h1: "I migliori robot da cucina 2026: il Bimby TM7 e le alternative",
+    description: "Bimby TM7 (Thermomix), Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL e Cecotec Mambo a confronto: calore, boccale e app.",
+  },
   "cafetieres": {
     keyword: "miglior macchina da caffè automatica",
     title: "Miglior macchina da caffè automatica 2026: classifica",

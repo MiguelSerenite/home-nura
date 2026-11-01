@@ -8,8 +8,9 @@
  *
  * Behaviour:
  *   - Shows silo title, description and a grid of category cards.
- *   - Only categories with a page (`indexable: true`) are shown: the
- *     site never announces a guide that does not exist yet.
+ *   - Only categories with a page in this locale (`indexable`, or
+ *     `indexableIn` for some markets) are shown: the site never
+ *     announces a guide that does not exist yet.
  *   - Always emits BreadcrumbList JSON-LD (via Phase Y builder).
  *   - ItemList JSON-LD only includes categories that are currently
  *     indexable, so SERP ItemList results never point at dead URLs.
@@ -19,7 +20,7 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import { buildBreadcrumbListSchema, BASE_URL } from '@/lib/seo'
 import { Kicker, SectionHero, SiteFooter } from '@/components/ui'
-import { getMetaSilo, getCategoriesBySilo } from '@/lib/catalog'
+import { getMetaSilo, getCategoriesBySilo, isCategoryIndexableIn } from '@/lib/catalog'
 import type { MetaSiloSlug } from '@/lib/catalog'
 import { isValidLang, type Lang } from '@/lib/i18n'
 import FaqSection from '@/components/FaqSection'
@@ -108,7 +109,7 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
 
   // ItemList only includes indexable categories. Phase Y baseline:
   // for non-flagship silos this is empty, so we skip the schema.
-  const indexableCats = categories.filter((c) => c.indexable)
+  const indexableCats = categories.filter((c) => isCategoryIndexableIn(c, safeLang))
   const itemListSchema =
     indexableCats.length > 0
       ? {

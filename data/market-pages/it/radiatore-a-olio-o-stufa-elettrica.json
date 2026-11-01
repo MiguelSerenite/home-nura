@@ -1,0 +1,217 @@
+{
+  "locale": "it",
+  "type": "duel",
+  "slug": "radiatore-a-olio-o-stufa-elettrica",
+  "updated": "2026-11-01",
+  "metaTitle": "Radiatore a olio o stufa elettrica: quale scegliere (2026)",
+  "metaDescription": "Radiatore a olio o termoventilatore? A parità di watt consumano uguale, cambia come scaldano. De'Longhi TRRS0920 contro HFX65V20: costi ARERA e sicurezza.",
+  "kicker": "Confronto · Stufe elettriche",
+  "h1": "Radiatore a olio o stufa elettrica: quale scegliere nel 2026",
+  "answer": "Per scaldare una camera o il soggiorno per ore scegli il radiatore a olio, come il De'Longhi Radia S TRRS0920: calore uniforme, niente ventola e tre livelli da 900 a 2000 W. Se ti serve caldo subito e per poco tempo, il termoventilatore ceramico De'Longhi HFX65V20 è più rapido e leggero. A parità di watt consumano uguale: 2000 W per un'ora sono circa 2 kWh.",
+  "picks": [
+    {
+      "brand": "De'Longhi",
+      "model": "Radia S TRRS0920",
+      "role": "Vince il confronto · uso prolungato",
+      "why": "Il classico radiatore a olio De'Longhi della serie Radia S: 9 elementi, tre livelli da 900 a 2000 W e termostato ambiente meccanico, per un tepore costante nelle ore lunghe senza ventola. I 60 m³ dichiarati corrispondono a una stanza di circa 22 m² con soffitti alti 2,70 m.",
+      "bestFor": "Camere da letto, soggiorni e studi da scaldare per diverse ore, anche con il contatore da 3 kW",
+      "asin": "B00ZUUEBOQ",
+      "manufacturerUrl": "https://www.delonghi.com/it-it/p/radia-s-radiatore-elettrico-a-olio-radia-s-trrs0920/TRRS0920.html?pid=0185392302",
+      "specs": {
+        "Tipo": "radiatore elettrico a olio, 9 elementi",
+        "Potenza massima": "2000 W",
+        "Potenza minima": "900 W",
+        "Livelli di potenza": "3",
+        "Volume riscaldabile dichiarato": "60 m³",
+        "Termostato": "termostato ambiente meccanico e termostato di sicurezza",
+        "Comandi": "meccanici, a manopola",
+        "Timer": "no",
+        "Funzioni": "antigelo",
+        "Spostamento": "ruote pieghevoli pre-montate",
+        "Dimensioni": "160 × 472 × 650 mm",
+        "Peso": "11,6 kg",
+        "Alimentazione": "230 V, 50 Hz",
+        "Colore": "bianco"
+      }
+    },
+    {
+      "brand": "De'Longhi",
+      "model": "Tower ceramic HFX65V20",
+      "role": "Alternativa · caldo rapido e uso breve",
+      "why": "Ha gli stessi 2000 W del Radia S, ma la ventola manda subito aria calda: è la scelta giusta per una stanza da scaldare in fretta e per poco tempo. Pesa 2,36 kg, ha termostato elettronico, timer di 24 ore e telecomando, e si spegne da solo se si ribalta; però ha due soli livelli (minimo 1200 W).",
+      "bestFor": "Lo studio la mattina, la stanza degli ospiti, la tavernetta usata ogni tanto: ambienti piccoli da scaldare per poco tempo",
+      "asin": "B073RKV8G1",
+      "manufacturerUrl": "https://www.delonghi.com/it-it/p/tower-ceramic-termoventilatore-tower-ceramic-hfx65v20/HFX65V20.html?pid=0114662009",
+      "specs": {
+        "Tipo": "termoventilatore a torre con tecnologia in ceramica",
+        "Potenza massima": "2000 W",
+        "Potenza minima": "1200 W",
+        "Livelli di potenza": "2",
+        "Termostato": "elettronico, con temperatura impostabile",
+        "Funzioni": "ECO, antigelo, ventilazione estiva, oscillazione",
+        "Timer": "24 ore, accensione o spegnimento ritardato",
+        "Comandi": "elettronici con display, telecomando",
+        "Sicurezza": "termostato di sicurezza, spegnimento automatico in caso di ribaltamento, doppio isolamento",
+        "Filtro": "antipolvere, lavabile",
+        "Dimensioni": "182 × 226 × 612 mm",
+        "Peso": "2,36 kg",
+        "Alimentazione": "220-240 V, 50-60 Hz",
+        "Colore": "bianco/grigio scuro"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": ["Criterio", "De'Longhi Radia S TRRS0920", "De'Longhi Tower ceramic HFX65V20"],
+    "rows": [
+      ["Come scalda", "l'olio scaldato cede calore piano piano, anche dopo lo spegnimento", "una ventola spinge l'aria scaldata dall'elemento in ceramica"],
+      ["Potenza massima", "2000 W", "2000 W"],
+      ["Potenza minima", "900 W", "1200 W"],
+      ["Livelli di potenza", "3", "2"],
+      ["Consumo di un'ora al massimo", "2 kWh", "2 kWh"],
+      ["Consumo di un'ora al minimo", "0,9 kWh", "1,2 kWh"],
+      ["Volume riscaldabile dichiarato", "60 m³ (circa 22 m² con soffitti di 2,70 m)", "non indicato"],
+      ["Termostato e comandi", "termostato ambiente meccanico, manopole", "termostato elettronico, funzione ECO, pulsanti con display e telecomando"],
+      ["Timer", "no", "24 ore (accensione o spegnimento ritardato)"],
+      ["Antigelo", "sì", "sì"],
+      ["Sicurezza dichiarata", "termostato di sicurezza", "termostato di sicurezza, spegnimento se si ribalta, doppio isolamento"],
+      ["Peso", "11,6 kg, su ruote", "2,36 kg, con maniglie"],
+      ["Dimensioni", "160 × 472 × 650 mm", "182 × 226 × 612 mm"],
+      ["Extra", "calore residuo dopo lo spegnimento", "oscillazione, ventilazione estiva, filtro antipolvere lavabile"]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Comfort nelle ore lunghe",
+      "weight": 35,
+      "explanation": "Chi si chiede se prendere un radiatore a olio o una stufa elettrica vuole quasi sempre scaldare una stanza abitata per ore. Valutiamo calore uniforme, assenza di ventola e calore residuo dopo lo spegnimento, come li descrivono De'Longhi e Altroconsumo."
+    },
+    {
+      "name": "Potenza regolabile e contatore da 3 kW",
+      "weight": 20,
+      "explanation": "Più livelli e una potenza minima bassa permettono di restare sotto i 3 kW del contratto e di spendere meno all'ora. Leggiamo potenza massima, potenza minima e numero di livelli sulla scheda italiana del produttore."
+    },
+    {
+      "name": "Rapidità del caldo",
+      "weight": 20,
+      "explanation": "Conta quando la stanza si usa poco e va scaldata subito. Ci basiamo sulla tecnologia (ventola oppure olio) e su quanto scrivono il produttore e Altroconsumo: non misuriamo tempi di riscaldamento."
+    },
+    {
+      "name": "Sicurezza dichiarata",
+      "weight": 10,
+      "explanation": "Termostato di sicurezza, spegnimento in caso di ribaltamento, doppio isolamento e avvertenze del manuale. Contiamo solo ciò che il produttore dichiara."
+    },
+    {
+      "name": "Peso, ingombro e comodità",
+      "weight": 15,
+      "explanation": "Peso, spazio occupato a terra, ruote o maniglie, telecomando, timer e funzioni in più come l'oscillazione e la ventilazione estiva."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Radiatore a olio o termoventilatore: il verdetto in 3 righe",
+      "html": "<p><strong>Scegli il radiatore a olio</strong> (De'Longhi Radia S TRRS0920) se devi scaldare per ore una camera, il soggiorno o lo studio: calore uniforme, nessuna ventola, tre livelli di potenza a partire da 900 W.</p><p><strong>Scegli il termoventilatore</strong> (De'Longhi Tower ceramic HFX65V20) se ti serve caldo subito e per poco tempo, in una stanza che usi di rado, e vuoi un apparecchio leggero da spostare.</p><p><strong>In bolletta, a parità di watt, non cambia nulla</strong>: 2000 W per un'ora sono circa 2 kWh con tutti e due. Cambiano le ore di accensione e il livello che usi.</p>"
+    },
+    {
+      "h2": "«Stufa elettrica»: di che cosa parliamo",
+      "html": "<p>In casa chiamiamo «stufa elettrica» o «stufetta» apparecchi molto diversi. Altroconsumo, nell'articolo del 15 gennaio 2026 sulle stufette portatili, li distingue per come scaldano:</p><ul><li><strong>Termoventilatore</strong>: una ventola spinge l'aria scaldata da una resistenza. Scalda in fretta, assorbe molta potenza e la ventola si sente: va bene per usi brevi in ambienti piccoli.</li><li><strong>Termoconvettore</strong>: l'aria calda sale da sola, senza ventola. È silenzioso e adatto a stanze piccole o medie, ma non al bagno.</li><li><strong>Radiatore a olio</strong>: la resistenza scalda un olio che rilascia il calore gradualmente. È lento ad andare a regime e pesante, ma dà un tepore stabile per molte ore.</li><li><strong>Stufe alogene, al quarzo, al carbonio e a infrarossi</strong>: scaldano per irraggiamento la persona e le superfici davanti più che l'aria della stanza, e di solito non hanno termostato.</li></ul><p>Qui mettiamo a confronto i due tipi tra cui si sceglie più spesso per una stanza di casa: il radiatore a olio e il termoventilatore in ceramica, entrambi da 2000 W e della stessa marca, così la differenza la fa solo la tecnologia.</p>"
+    },
+    {
+      "h2": "Le 4 differenze che contano nell'uso",
+      "html": "<ul><li><strong>Velocità</strong>: il termoventilatore manda subito aria calda. Il radiatore a olio deve prima scaldare l'olio e ci mette di più, ma quando lo spegni continua a cedere calore per un po', come indica De'Longhi per il Radia S.</li><li><strong>Comfort e rumore</strong>: il radiatore non ha ventola e non soffia aria; nel termoventilatore la ventola gira finché scalda. De'Longhi non pubblica i decibel né del Radia S né dell'HFX65V20; per un'altra torre in ceramica della stessa linea, la DCH7993ER.BC, dichiara 37-41 dB(A).</li><li><strong>Peso e spazio</strong>: 11,6 kg su ruote contro 2,36 kg con maniglie. A terra il radiatore occupa circa 47 × 16 cm, la torre circa 18 × 23 cm, ma è alta 61 cm.</li><li><strong>Comandi</strong>: il Radia S ha manopole e un termostato meccanico, senza timer. L'HFX65V20 ha un termostato elettronico con la temperatura sul display, un timer di 24 ore per l'accensione o lo spegnimento ritardato, l'oscillazione e il telecomando.</li></ul>"
+    },
+    {
+      "h2": "Quanto consumano: stessi watt, stessa bolletta",
+      "html": "<p>Altroconsumo lo scrive chiaro: nelle stufe a resistenza il consumo dipende dalla potenza e dalle ore di utilizzo, non dalla tecnologia. Non esistono stufette elettriche davvero «a basso consumo» e le funzioni «eco» servono solo a evitare sprechi.</p><p>Con il prezzo di riferimento ARERA per il cliente vulnerabile tipo, <strong>0,4343 €/kWh tasse incluse dal 1° ottobre 2026</strong>, un'ora costa:</p><ul><li>a 2000 W, il massimo di entrambi: 2 kWh, circa 0,87 €;</li><li>a 1200 W, il minimo dell'HFX65V20: 1,2 kWh, circa 0,52 €;</li><li>a 900 W, il minimo del Radia S: 0,9 kWh, circa 0,39 €.</li></ul><p>Quattro ore al giorno per un mese a piena potenza fanno 240 kWh, circa 104 €. È un tetto massimo: con un termostato che stacca a temperatura raggiunta la spesa reale scende. Il tuo prezzo del kWh è scritto in bolletta: rifai il conto con quello.</p>"
+    },
+    {
+      "h2": "Contatore da 3 kW: conta la potenza minima",
+      "html": "<p>Con un contratto da 3 kW, molto diffuso nelle case italiane, una stufa da 2000 W accesa insieme a forno, lavatrice o asciugacapelli può far saltare la corrente. Per questo il livello più basso pesa nella scelta: il Radia S scende a 900 W, l'HFX65V20 a 1200 W.</p><p>Il manuale De'Longhi della serie TRRS chiede di collegare il radiatore solo a prese con una messa a terra efficiente e sconsiglia le prolunghe, che possono surriscaldarsi e aumentare il rischio di incendio. Anche il manuale dell'HFX65V20 sconsiglia le prolunghe e chiede di non usare la stessa presa per altri apparecchi.</p>"
+    },
+    {
+      "h2": "Sicurezza: bagno, panni e prese smart",
+      "html": "<ul><li><strong>Bagno</strong>: i manuali di entrambi escludono l'uso nelle immediate vicinanze di docce, vasche e lavandini. Per il bagno Altroconsumo indica un termoventilatore con protezione almeno IPX1, termostato di sicurezza e antiribaltamento, a non meno di 60 cm dall'acqua. La scheda italiana dell'HFX65V20 non riporta un grado IP: non è un modello da bagno.</li><li><strong>Panni</strong>: i due manuali vietano di usarli per asciugare la biancheria e di coprirli mentre funzionano, per non surriscaldarli.</li><li><strong>Distanze</strong>: per il radiatore, mobili e oggetti ad almeno 30 cm; davanti al termoventilatore, 50 cm liberi. Nessuno dei due va usato in stanze più piccole di 4 m² (manuali De'Longhi).</li><li><strong>Timer e prese smart</strong>: secondo i manuali De'Longhi, né il radiatore TRRS né l'HFX65V20 vanno comandati da un timer esterno, per evitare che il dispositivo di sicurezza si riarmi senza controllo. Una presa smart che li accende e li spegne fa la stessa cosa: per programmare l'HFX65V20 usa il suo timer interno di 24 ore.</li><li><strong>Dotazioni</strong>: l'HFX65V20 si spegne da solo se si ribalta e ha il doppio isolamento; tutti e due hanno un termostato di sicurezza contro il surriscaldamento.</li></ul>"
+    },
+    {
+      "h2": "Cosa dice Altroconsumo",
+      "html": "<p>Sul sito di Altroconsumo non abbiamo trovato un test di questi due modelli; nelle sue guide, però, spiega a che cosa serve ciascun tipo:</p><ul><li><strong>Radiatore a olio</strong>: ideale per un uso prolungato, con un tepore stabile; in cambio è lento a scaldarsi, pesante e con un termostato «non sempre molto accurato» (articolo del 15 gennaio 2026).</li><li><strong>Termoventilatore</strong>: veloce, adatto a un uso breve e occasionale in ambienti piccoli, non a grandi locali né a molte ore di fila; la ventola è un po' rumorosa e sono preferibili i modelli con termostato (guida «Termoventilatori, quali scegliere?», consultata il 1° novembre 2026).</li><li><strong>Per scaldare casa tutti i giorni</strong> sono in genere più efficienti la pompa di calore o il climatizzatore inverter.</li></ul>"
+    },
+    {
+      "h2": "Altre versioni da considerare",
+      "html": "<ul><li><strong>Radia S da 1500 W (TRRS0715)</strong>: sulla pagina De'Longhi il Radia S si sceglie anche in questa versione, che secondo la scheda informativa del produttore va da 700 a 1500 W: adatta a stanze più piccole e più leggera sul contatore.</li><li><strong>De'Longhi Tower ceramic DCH7993ER.BC</strong>: se vuoi un termoventilatore che scenda più in basso, ha tre livelli da 800 a 2400 W e una rumorosità dichiarata di 37-41 dB(A); al massimo, però, assorbe 2400 W.</li><li><strong>Per il bagno</strong>: scegli un termoventilatore che dichiari il grado di protezione IP.</li></ul>"
+    },
+    {
+      "h2": "Perché questo verdetto",
+      "html": "<p>Confrontiamo i due modelli su cinque criteri pesati, descritti qui sotto. Il <strong>Radia S TRRS0920</strong> vince sul comfort nelle ore lunghe (35 %) e sulla potenza regolabile con il contatore da 3 kW (20 %): 55 punti su 100. L'<strong>HFX65V20</strong> vince sulla rapidità del caldo (20 %), sulla sicurezza dichiarata (10 %) e su peso, ingombro e comodità (15 %): 45 punti.</p><p>Il verdetto si basa sulle schede tecniche e sui manuali De'Longhi, sulle guide di Altroconsumo e sul prezzo ARERA del kWh; Homenura non prova gli apparecchi di persona. Se la stufa ti serve mezz'ora al giorno, il punteggio conta poco: prendi il termoventilatore.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Consuma di più il radiatore a olio o la stufa elettrica?",
+      "a": "A parità di potenza consumano uguale: secondo Altroconsumo, una stufa da 2000 W accesa per un'ora consuma circa 2 kWh qualunque sia la tecnologia. Cambiano il modo in cui il calore si diffonde e quante ore la tieni accesa."
+    },
+    {
+      "q": "Quanto costa un'ora di radiatore a olio da 2000 W?",
+      "a": "Al prezzo di riferimento ARERA di 0,4343 €/kWh (tasse incluse, dal 1° ottobre 2026), circa 0,87 € a piena potenza e circa 0,39 € al livello minimo del Radia S (900 W). Quando la stanza arriva alla temperatura impostata, il termostato stacca e la spesa reale scende."
+    },
+    {
+      "q": "Per quanti metri quadri basta un radiatore a olio da 2000 W?",
+      "a": "De'Longhi dichiara 60 m³ per il Radia S TRRS0920: con soffitti alti 2,70 m sono circa 22 m². Il produttore precisa che l'apparecchio è adatto solo ad ambienti ben isolati o a un uso occasionale."
+    },
+    {
+      "q": "Il termoventilatore ceramico consuma meno di quello normale?",
+      "a": "No. Secondo Altroconsumo la resistenza in ceramica non porta benefici evidenti sui consumi: conta sempre la potenza assorbita. E ricorda che non esistono stufette elettriche davvero «a basso consumo»."
+    },
+    {
+      "q": "Posso usare il termoventilatore in bagno?",
+      "a": "Solo un modello che dichiari un grado di protezione IP: Altroconsumo indica almeno IPX1, con termostato di sicurezza e antiribaltamento, a non meno di 60 cm da vasca o doccia. La scheda italiana dell'HFX65V20 non riporta un grado IP e il suo manuale, come quello della serie TRRS, ne esclude l'uso vicino a docce, vasche e lavandini."
+    },
+    {
+      "q": "Una stufa da 2000 W fa saltare il contatore da 3 kW?",
+      "a": "Da sola no, ma insieme a forno, lavatrice o asciugacapelli può superare i 3 kW. Usa il livello più basso: 900 W sul Radia S, 1200 W sull'HFX65V20."
+    },
+    {
+      "q": "Posso accendere il radiatore a olio con una presa smart o un timer?",
+      "a": "Per la serie TRRS no: il manuale De'Longhi dice che il radiatore non va comandato da un timer esterno, per evitare che il dispositivo di sicurezza si riarmi senza controllo. Lo stesso vale per il termoventilatore HFX65V20, che però ha un timer interno di 24 ore. Per gli altri modelli leggi il manuale prima di usare una presa smart."
+    },
+    {
+      "q": "Si possono usare prolunghe o ciabatte?",
+      "a": "Meglio di no: il manuale della serie TRRS sconsiglia le prolunghe, che possono surriscaldarsi, e chiede una presa con messa a terra efficiente; anche quello dell'HFX65V20 le sconsiglia. Collega la stufa direttamente alla presa a muro."
+    },
+    {
+      "q": "Si possono asciugare i panni sul radiatore a olio?",
+      "a": "No. Il manuale De'Longhi lo vieta e chiede di non coprire mai il radiatore mentre funziona, perché si può surriscaldare."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Altroconsumo",
+      "url": "https://www.altroconsumo.it/casa-energia/termoventilatori/speciali/stufette-portatili",
+      "note": "Articolo del 15/01/2026 (Alessandra Maggioni, con Davide Lillo): a parità di watt e di ore la tecnologia non cambia l'energia consumata (2000 W per un'ora, circa 2 kWh); non esistono stufette elettriche davvero «a basso consumo» e le funzioni «eco» evitano solo sprechi. Termoventilatore per usi brevi in ambienti piccoli; radiatore a olio ideale per l'uso prolungato, ma lento, pesante e con termostato non sempre accurato."
+    },
+    {
+      "name": "Altroconsumo",
+      "url": "https://www.altroconsumo.it/casa-energia/termoventilatori/come-scegliere",
+      "note": "Guida «Termoventilatori, quali scegliere?», senza data visibile (consultata il 01/11/2026): termoventilatori veloci ma non adatti a grandi locali né a un uso prolungato; preferibili i modelli con termostato; in bagno almeno IPX1, termostato di sicurezza e antiribaltamento, a non meno di 60 cm dall'acqua. Il costo orario indicato si basa su 0,22 €/kWh, una tariffa ormai superata."
+    }
+  ],
+  "sources": [
+    "https://www.delonghi.com/it-it/p/radia-s-radiatore-elettrico-a-olio-radia-s-trrs0920/TRRS0920.html?pid=0185392302",
+    "https://www.delonghi.com/it-it/p/tower-ceramic-termoventilatore-tower-ceramic-hfx65v20/HFX65V20.html?pid=0114662009",
+    "https://www.delonghi.com/it-it/p/tower-ceramic-termoventilatore-in-ceramica-dch7993er.bc/DCH7993ER.BC.html?pid=0114482109",
+    "https://dls.delonghigroup.com/files/docs/5/IT-5718510731.pdf",
+    "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=172838&download=true",
+    "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=337864&download=true",
+    "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=337855&download=true",
+    "https://www.altroconsumo.it/casa-energia/termoventilatori/speciali/stufette-portatili",
+    "https://www.altroconsumo.it/casa-energia/termoventilatori/come-scegliere",
+    "https://www.arera.it/comunicati-stampa/dettaglio/elettricita-maggior-tutela-373-nel-iv-trimestre-2026-per-i-clienti-vulnerabili"
+  ],
+  "related": [
+    "/it/confort-air/chauffages-appoint",
+    "/it/guides/probleme/chauffage-appoint-efficace-piece",
+    "/it/guides/probleme/chauffage-appoint-coupe",
+    "/it/guides/probleme/chauffage-appoint-odeur-brulee",
+    "/it/black-friday/radiateurs-connectes",
+    "/it/blog/guide-domotique-economie-energie-2026"
+  ]
+}

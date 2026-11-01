@@ -13,6 +13,13 @@ export const PL_HEADS: CategoryHeads = {
     h1: "Najlepsze multicookery 2026: ranking i porównanie",
     description: "Który multicooker wybrać? 3 polecane modele: Moulinex Cookeo, Ninja Foodi i Instant Pot. Funkcje, pojemność, sterowanie z telefonu. Kryteria i FAQ.",
   },
+  // Indexed in this market (categories.ts indexableIn): the robot cooker guide's models.
+  "robots-multifonctions": {
+    keyword: "robot kuchenny z funkcją gotowania",
+    title: "Robot kuchenny z funkcją gotowania 2026: ranking",
+    h1: "Roboty kuchenne z funkcją gotowania 2026: Thermomix czy alternatywa?",
+    description: "Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL i Cecotec Mambo: porównanie grzania, misy i aplikacji. FAQ.",
+  },
   "cafetieres": {
     keyword: "ekspres do kawy",
     title: "Jaki ekspres do kawy wybrać? Najlepsze automatyczne 2026",

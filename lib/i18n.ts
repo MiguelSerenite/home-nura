@@ -100,6 +100,9 @@ const LOCALE_PREFIX = /^\/([a-z]{2})(\/.*)?$/
  */
 export const LOCALE_LIMITED_SECTIONS: ReadonlyArray<{ readonly prefix: string; readonly langs: readonly Lang[]; readonly fallback: string }> = [
   { prefix: '/guides/floor-care', langs: ['us', 'ca'], fallback: '/entretien-maison' },
+  // Category hubs indexed in some markets only (lib/catalog `indexableIn`):
+  // elsewhere, the section hub. Kept in step by tests/lib/catalog/categories.test.ts.
+  { prefix: '/cuisine-connectee/robots-multifonctions', langs: ['fr', 'de', 'es', 'it', 'pl'], fallback: '/cuisine-connectee' },
   // Black Friday pages of some markets only (lib/black-friday/markets.ts) and
   // the gift guides (lib/gift-guides): elsewhere, that locale's Black Friday
   // hub. Kept in step by tests/lib/black-friday.test.ts.

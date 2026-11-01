@@ -57,6 +57,7 @@ describe('market page structured data', () => {
 
 describe('market pages in the sitemap', () => {
   const entries = sitemap()
+  const sitemapUrls = new Set(entries.map((e) => e.url))
   const pages = getMarketPages()
 
   it('list each page once, under its own locale, hreflang naming itself only', () => {
@@ -67,7 +68,7 @@ describe('market pages in the sitemap', () => {
       expect(hits[0].alternates?.languages).toEqual({ [HTML_LANG[page.locale]]: url })
       expect(hits[0].lastModified).toEqual(new Date(page.updated))
       for (const lang of LANGUAGES.filter((l) => l !== page.locale)) {
-        expect(entries.some((e) => e.url === `${BASE_URL}/${lang}${page.path}`), `${lang}${page.path}`).toBe(false)
+        expect(sitemapUrls.has(`${BASE_URL}/${lang}${page.path}`), `${lang}${page.path}`).toBe(false)
       }
     }
   })

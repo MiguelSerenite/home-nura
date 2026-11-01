@@ -1,0 +1,295 @@
+{
+  "locale": "it",
+  "type": "duel",
+  "slug": "bimby-o-monsieur-cuisine",
+  "updated": "2026-11-01",
+  "metaTitle": "Bimby o Monsieur Cuisine: quale scegliere nel 2026?",
+  "metaDescription": "Bimby TM7 o Monsieur Cuisine smart di Lidl? Temperatura, velocità, capacità, ricette e abbonamento a confronto, con i dati dei produttori e Altroconsumo.",
+  "kicker": "Confronto · Robot da cucina",
+  "h1": "Bimby TM7 o Monsieur Cuisine smart di Lidl: quale scegliere nel 2026?",
+  "answer": "Se cucini ogni giorno e vuoi il robot più completo, scegli il Bimby TM7: arriva a 160 °C, gira fino a 10.700 giri al minuto e ha un Varoma da 6,8 litri. Il Monsieur Cuisine smart di Lidl conviene se lo usi ogni tanto e vuoi spendere molto meno: boccale più grande e ricette gratuite, ma si ferma a 130 °C e da Lidl arriva solo in promozione.",
+  "picks": [
+    {
+      "brand": "Vorwerk",
+      "model": "Bimby TM7",
+      "role": "La nostra scelta",
+      "why": "È l’unico dei due che rosola davvero (fino a 160 °C in Modalità Alta Temperatura) e polverizza ad alta velocità, con un Varoma da 6,8 litri per cucinare a più livelli. Altroconsumo lo ha provato in laboratorio e ne ha pubblicato i risultati il 09/07/2025.",
+      "bestFor": "Chi cucina tutti i giorni per 2-4 persone, chi vuole un catalogo di ricette guidate molto ampio e un’assistenza ufficiale presente in tutta Italia",
+      "asin": null,
+      "manufacturerUrl": "https://www.vorwerk.com/it/it/c/home/prodotti/bimby/bimby-tm7",
+      "specs": {
+        "Boccale": "acciaio inossidabile, capacità massima 2,2 litri (tacca «max»)",
+        "Temperatura": "fino a 120 °C in modalità standard, fino a 160 °C con la Modalità Alta Temperatura; Cottura Aperta senza coperchio fino a 100 °C",
+        "Velocità": "da 40 a 10.700 giri/min (Soft–2: 40–300 giri/min; 2.5–10: 350–10.200 giri/min)",
+        "Motore": "motore sincrono Vorwerk esente da manutenzione, 500 W di potenza nominale",
+        "Riscaldamento": "1.000 W; potenza assorbita massima 2.000 W",
+        "Modalità": "oltre 20, tra cui Modalità Manuale, Cottura Aperta, Alta Temperatura, Cottura a vapore, Spiga, Cottura Lenta, Sottovuoto, Fermentazione, Cuoci Riso, Bollitore, Turbo, Pulizia; Caramello solo in Modalità Guidata",
+        "Varoma": "capienza totale 6,8 litri (fino al 45% di spazio in più rispetto al TM6, secondo Vorwerk)",
+        "Display": "multi-touch da 10 pollici",
+        "Bilancia": "integrata, da 1 a 3.000 g (pronta all’uso fino alla velocità 2)",
+        "Connettività": "Wi-Fi 2,4 e 5 GHz, Bluetooth 5.4",
+        "Ricette": "Cookidoo, oltre 100.000 ricette; 12 mesi di accesso inclusi, poi abbonamento annuale",
+        "Dimensioni": "base con boccale 25,3 × 40,5 × 33,6 cm (A × L × P)",
+        "Peso": "base 6,5 kg, boccale 2,1 kg, Varoma 0,84 kg",
+        "Consumo in standby": "0 W; spegnimento automatico dopo 15 minuti",
+        "In dotazione": "boccale, set vapore Varoma, spatola, gruppo coltelli, farfalla, cestello",
+        "Dove si compra": "solo da Vorwerk Italia: incaricata Bimby o shop online Vorwerk"
+      }
+    },
+    {
+      "brand": "Monsieur Cuisine (Lidl)",
+      "model": "Monsieur Cuisine smart",
+      "role": "L’alternativa senza abbonamento",
+      "why": "Costa molto meno del Bimby e ha un boccale più capiente (4,5 litri, fino a 3 in cottura). Le ricette sono gratuite con un account Lidl, senza abbonamento. Il limite è la temperatura: si ferma a 130 °C, quindi rosola meno.",
+      "bestFor": "Chi usa il robot qualche volta a settimana per zuppe, risotti, impasti e cotture a vapore, chi cucina porzioni abbondanti e non vuole costi ricorrenti",
+      "asin": null,
+      "manufacturerUrl": "https://www.monsieur-cuisine.com/it/monsieur-cuisine-smart/",
+      "specs": {
+        "Boccale": "acciaio inossidabile, 4,5 litri (massimo 3 litri durante la cottura)",
+        "Temperatura": "da 37 °C a 130 °C",
+        "Velocità": "10 livelli più funzione turbo, circa 125–5.500 giri/min; rotazione antioraria per mescolare e oraria per tritare",
+        "Potenza": "1.050 W in cottura, 1.000 W in mescolamento",
+        "Programmi automatici": "Impastare, Rosolare, Cottura al vapore, Bollire uova, Smoothie, Sous-vide, Slow Cook, Fermentazione, Passare, Prelavaggio, Cuocere il riso, Bollitore",
+        "Display": "touch a colori da 8 pollici",
+        "Bilancia": "integrata",
+        "Timer": "99 minuti",
+        "Connettività": "Wi-Fi; comandi vocali con Google Assistant (con Wi-Fi attivo)",
+        "Ricette": "oltre 600 ricette precaricate con istruzioni passo passo (Cooking Pilot); nuove ricette ogni mese gratis con account Lidl; cottura videoguidata per ricette selezionate",
+        "In dotazione": "caraffa, inserto di cottura, accessorio per frullare, accessorio per la cottura a vapore con inserto e coperchio, inserto a lama, spatola, coperchio con misurino",
+        "Garanzia": "3 anni (shop ufficiale Monsieur Cuisine)",
+        "Dove si compra": "Lidl Italia nei periodi di promozione; shop ufficiale Monsieur Cuisine, con spedizione in Italia dalla Germania"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Caratteristica",
+      "Bimby TM7",
+      "Monsieur Cuisine smart"
+    ],
+    "rows": [
+      [
+        "Temperatura massima",
+        "120 °C standard, 160 °C in Alta Temperatura",
+        "130 °C (regolabile da 37 °C)"
+      ],
+      [
+        "Velocità",
+        "da 40 a 10.700 giri/min",
+        "circa 125–5.500 giri/min, 10 livelli + turbo"
+      ],
+      [
+        "Boccale",
+        "2,2 litri",
+        "4,5 litri, massimo 3 litri in cottura"
+      ],
+      [
+        "Cottura a vapore",
+        "Varoma da 6,8 litri",
+        "accessorio vapore a due livelli con coperchio (capacità non indicata)"
+      ],
+      [
+        "Cottura senza coperchio",
+        "Cottura Aperta fino a 100 °C",
+        "non indicata tra i programmi"
+      ],
+      [
+        "Potenza dichiarata",
+        "motore 500 W nominali, riscaldamento 1.000 W, max 2.000 W",
+        "1.050 W in cottura, 1.000 W in mescolamento"
+      ],
+      [
+        "Display",
+        "multi-touch 10 pollici",
+        "touch a colori 8 pollici"
+      ],
+      [
+        "Bilancia",
+        "integrata, da 1 a 3.000 g",
+        "integrata (portata non indicata)"
+      ],
+      [
+        "Connettività",
+        "Wi-Fi 2,4/5 GHz, Bluetooth 5.4",
+        "Wi-Fi, Google Assistant"
+      ],
+      [
+        "Ricette",
+        "Cookidoo, oltre 100.000; 12 mesi inclusi, poi abbonamento",
+        "oltre 600 precaricate, nuove ogni mese gratis"
+      ],
+      [
+        "Dove si compra",
+        "solo canali Vorwerk (incaricata, shop Vorwerk)",
+        "Lidl in promozione, shop ufficiale Monsieur Cuisine"
+      ],
+      [
+        "Garanzia",
+        "ufficiale Vorwerk solo sui canali autorizzati",
+        "3 anni (shop ufficiale)"
+      ],
+      [
+        "Test Altroconsumo",
+        "provato in laboratorio (articolo del 09/07/2025)",
+        "assente dal comparatore (ottobre 2026)"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Risultati dei test indipendenti",
+      "weight": 25,
+      "explanation": "Conta come cucina davvero il robot, non quello che promette la scheda. Usiamo i risultati pubblicati e datati da Altroconsumo e, dove manca un test italiano, quelli di testate straniere come UFC-Que Choisir e netzwelt, segnalandolo."
+    },
+    {
+      "name": "Temperatura e velocità",
+      "weight": 20,
+      "explanation": "La temperatura massima decide se il robot rosola o si limita a stufare; la velocità decide se polverizza zucchero, cereali e spezie. Confrontiamo i valori dichiarati dai produttori per il mercato italiano."
+    },
+    {
+      "name": "Ricette, app e costi ricorrenti",
+      "weight": 20,
+      "explanation": "Un robot da cucina si usa soprattutto con le ricette guidate. Confrontiamo l’ampiezza del catalogo, le funzioni sul display e cosa serve per continuare a usarle dopo l’acquisto (abbonamento o account gratuito)."
+    },
+    {
+      "name": "Capacità e porzioni",
+      "weight": 15,
+      "explanation": "Il boccale stabilisce per quante persone cucini in una volta sola, il cestello vapore quanti piatti prepari insieme. Usiamo le capacità dichiarate, distinguendo tra volume totale e volume utile in cottura."
+    },
+    {
+      "name": "Facilità d’uso e assistenza",
+      "weight": 10,
+      "explanation": "Display, programmi automatici, dimostrazione prima dell’acquisto e rete di assistenza in Italia. Ci basiamo sulle indicazioni dei produttori e sui giudizi di uso pubblicati da Altroconsumo."
+    },
+    {
+      "name": "Disponibilità e garanzia",
+      "weight": 10,
+      "explanation": "Un robot che si trova solo in certe settimane, o solo da un canale, pesa sulla scelta. Verifichiamo dove si compra ciascun modello in Italia e quale garanzia dichiara il produttore."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Bimby o Monsieur Cuisine: il verdetto in breve",
+      "html": "<p><strong>Scegli il Bimby TM7</strong> se cucini quasi ogni giorno, se vuoi rosolare carne e soffritti nel boccale (fino a 160 °C in Modalità Alta Temperatura), polverizzare zucchero e cereali e cucinare a più livelli con il Varoma da 6,8 litri. È anche la scelta più sicura per l’assistenza: in Italia ci sono i Vorwerk Point e i centri autorizzati.</p><p><strong>Scegli il Monsieur Cuisine smart</strong> se usi il robot qualche volta a settimana, soprattutto per zuppe, risotti, impasti e cotture a vapore, se cucini porzioni abbondanti (boccale da 4,5 litri, fino a 3 in cottura) e non vuoi pagare un abbonamento alle ricette.</p><p><strong>Se hai dubbi</strong>, guarda la temperatura: il Monsieur Cuisine si ferma a 130 °C. Se rosolare ti interessa poco, la differenza nell’uso di tutti i giorni si riduce molto.</p>"
+    },
+    {
+      "h2": "Quali modelli confrontiamo, e dove si comprano in Italia",
+      "html": "<p>Confrontiamo i due modelli di punta in vendita oggi. Il <strong>Bimby TM7</strong> è stato presentato da Vorwerk Italia nel febbraio 2025 e ha preso il posto del TM6. Il <strong>Monsieur Cuisine smart</strong> è il modello di punta della gamma Lidl sul sito italiano di Monsieur Cuisine, accanto al più piccolo Monsieur Cuisine compact e ai modelli precedenti come il connect.</p><ul><li><strong>Bimby TM7</strong>: Vorwerk Italia lo vende solo tramite le incaricate e il proprio shop online. Nel supporto ufficiale (aggiornato al 15/10/2026) precisa che il Bimby non è in vendita nei negozi fisici né su Amazon, eBay o altri marketplace, e che gli acquisti da canali non autorizzati rischiano di essere senza garanzia ufficiale. Per questo qui non trovi un link Amazon al Bimby.</li><li><strong>Monsieur Cuisine smart</strong>: si compra da Lidl Italia nei periodi in cui è in promozione, nei punti vendita o online, oppure dallo shop ufficiale Monsieur Cuisine, che spedisce in Italia dalla Germania. Al 01/11/2026 la ricerca su lidl.it non mostrava robot Monsieur Cuisine disponibili.</li></ul><p>Non confondere il TM7 con il TM6: Vorwerk Italia non lo vende più nuovo, ma sul proprio shop lo propone come «usato garantito Vorwerk», con 2 anni di garanzia. E non confondere il Monsieur Cuisine smart con il compact, più piccolo, o con il connect, il modello precedente con display da 7 pollici.</p>"
+    },
+    {
+      "h2": "Le tre differenze che senti davvero in cucina",
+      "html": "<ul><li><strong>Rosolare.</strong> Il Bimby TM7 scalda fino a 120 °C in modalità standard e fino a 160 °C con la Modalità Alta Temperatura, pensata per dorare carne e verdure con poco olio. Il Monsieur Cuisine smart ha un programma Rosolare, ma si ferma a 130 °C: per gli straccetti di manzo è proprio il limite che segnala netzwelt: la carne cuoce, ma si dora poco. Nessuno dei due frigge: Vorwerk lo esclude espressamente per il TM7.</li><li><strong>Tritare e polverizzare.</strong> Il TM7 arriva a 10.700 giri al minuto, il Monsieur Cuisine smart a circa 5.500. Per zucchero a velo, farine di cereali, frutta secca e frullati molto lisci la velocità in più si sente; per tritare verdure o impastare la differenza è minore.</li><li><strong>Quante porzioni.</strong> Il boccale del TM7 è da 2,2 litri, quello del Monsieur Cuisine da 4,5 litri, di cui 3 utilizzabili in cottura. Il TM7 recupera con il Varoma da 6,8 litri, che permette di cuocere a vapore secondo e contorno mentre nel boccale cuoce altro. Altroconsumo osserva che 2,2 litri possono stare stretti a una famiglia di quattro o cinque persone.</li></ul>"
+    },
+    {
+      "h2": "Ricette, app e abbonamento: quanto costa usarli ogni anno",
+      "html": "<p>Su questo punto il Monsieur Cuisine vince nettamente.</p><ul><li><strong>Bimby TM7</strong>: con l’acquisto hai 12 mesi di Cookidoo, la piattaforma con oltre 100.000 ricette guidate. Poi serve l’abbonamento annuale, che Vorwerk Italia indica in 60 euro all’anno con rinnovo automatico. Senza abbonamento puoi comunque cucinare in Modalità Manuale, impostando tu tempo, temperatura e velocità, ma perdi la cucina guidata completa: il manuale avverte che per sfruttare appieno tutte le funzioni servono il Wi-Fi e l’account Cookidoo.</li><li><strong>Monsieur Cuisine smart</strong>: oltre 600 ricette sono già nel robot, con istruzioni passo passo. Con un account Lidl gratuito si aggiungono le ricette nuove di ogni mese, il planner settimanale, la lista della spesa e le ricette create dagli utenti, senza abbonamento. Per alcune ricette c’è anche la cottura videoguidata.</li></ul><p><strong>Accessori</strong>: entrambi hanno in dotazione cestello, farfalla e accessorio vapore. Per affettare e grattugiare il Bimby richiede accessori venduti a parte, come rileva Altroconsumo; anche per il Monsieur Cuisine lo shop ufficiale vende a parte un accessorio Food Processor e boccali di ricambio.</p>"
+    },
+    {
+      "h2": "Facilità d’uso e assistenza",
+      "html": "<p>Il <strong>Bimby TM7</strong> ha il display più grande (10 pollici, multi-touch), ha le ricette Cookidoo sincronizzate tra robot, app e PC e si può vedere all’opera prima dell’acquisto con una dimostrazione dell’incaricata. Per le riparazioni ci sono i Vorwerk Point e i centri di assistenza autorizzati in tutta Italia. Altroconsumo, però, ha trovato i programmi del TM7 meno immediati di quelli del TM6 e la bilancia non sempre precisa (scarti di circa 20 g).</p><p>Il <strong>Monsieur Cuisine smart</strong> ha un display a colori da 8 pollici, accetta comandi vocali tramite Google Assistant e permette di cambiare le porzioni di alcune ricette. Per garanzia e resi si passa dallo shop ufficiale Monsieur Cuisine, che dichiara 3 anni di garanzia.</p>"
+    },
+    {
+      "h2": "Cosa dicono i test indipendenti",
+      "html": "<ul><li><strong>Altroconsumo, articolo del 09/07/2025</strong>: il Bimby TM7, acquistato e provato in laboratorio, ottiene 74/100 di qualità globale contro 76/100 del TM6. Secondo Altroconsumo cucina come il TM6 e monta meglio gli albumi, ma è meno robusto e meno immediato nei programmi: per questo giudica ancora migliore il modello precedente.</li><li><strong>Altroconsumo, comparatore aggiornato a ottobre 2026</strong>: dei 7 robot da cucina con cottura presenti, nessuno è un Monsieur Cuisine. In Italia non esiste quindi un test Altroconsumo pubblicato sul modello di Lidl.</li><li><strong>UFC-Que Choisir (Francia)</strong>: ha pubblicato il 20/03/2026 la scheda di prova del Monsieur Cuisine smart; il voto è riservato agli abbonati. Nel test del 2022, come riportato da GreenMe il 09/11/2023, il Bimby TM6 era primo su 50 robot con 15,3/20, mentre il Monsieur Cuisine smart si fermava a 7,2/20.</li><li><strong>netzwelt (Germania)</strong>: assegna al Monsieur Cuisine smart il voto 1,9 («gut», pagina del 14/08/2026) e lo considera un concorrente da prendere sul serio del Bimby TM6, ma indica come difetto principale i 130 °C massimi, insufficienti per rosolare bene la carne.</li></ul><p>Riassumendo: il Bimby ha risultati di laboratorio italiani pubblicati e datati, il Monsieur Cuisine no. Le prove straniere sul modello Lidl vanno da negative a buone e concordano su un punto, la temperatura.</p>"
+    },
+    {
+      "h2": "Le alternative vendute in Italia",
+      "html": "<ul><li><strong>Monsieur Cuisine compact</strong>: arrivato nei punti vendita Lidl Italia dal 30/04/2026, è la versione piccola. Secondo il sito Monsieur Cuisine ha boccale da 2 litri (1,5 in cottura), 37–130 °C, 1.050 W in cottura, bilancia integrata e Wi-Fi, con le ricette guidate sull’app dello smartphone invece che sul robot. Ha senso per single e coppie.</li><li><strong>Moulinex i-Companion Touch (HF935110)</strong>: per Moulinex 1.550 W, recipiente da 4,5 litri (3 utili), 18 programmi automatici, display touch a colori, Wi-Fi e Bluetooth, app My Moulinex gratuita e 2 anni di garanzia. La bilancia non è integrata. Al 01/11/2026 risultava disponibile sullo shop online di Moulinex Italia.</li><li><strong>Gli altri robot con cottura nel comparatore Altroconsumo</strong> (ottobre 2026): Kenwood CookEasy+ CCL50.A0CP, Kenwood KCL95.424.SI, Magimix Cook Expert, Cecotec Mambo CooKing Unique e Moulinex i-Companion Touch Pro. Prima di sceglierli verifica sulla scheda del produttore temperatura massima e capacità utile.</li></ul><p>C’è poi il <strong>Bimby TM6 usato garantito</strong>, che Vorwerk Italia vende sul proprio shop con 2 anni di garanzia e 3 mesi di Cookidoo: stesso boccale da 2,2 litri, ma senza le novità del TM7 come la Cottura Aperta. Un Bimby comprato da venditori non autorizzati, invece, secondo Vorwerk Italia rischia di non avere la garanzia ufficiale.</p>"
+    },
+    {
+      "h2": "Perché questa classifica",
+      "html": "<p>Abbiamo confrontato i due modelli sui sei criteri pesati qui sopra, usando le schede dei produttori per l’Italia e i risultati pubblicati dai tester indipendenti. Non abbiamo provato i robot di persona. Prezzi e clic non entrano nella classifica.</p><ul><li><strong>Risultati dei test (25)</strong>: vince il Bimby TM7, l’unico con risultati di laboratorio italiani pubblicati.</li><li><strong>Temperatura e velocità (20)</strong>: vince il Bimby TM7, con 160 °C contro 130 °C e circa il doppio dei giri al minuto.</li><li><strong>Ricette e costi ricorrenti (20)</strong>: vince il Monsieur Cuisine smart, con ricette gratuite e nessun abbonamento; il catalogo Cookidoo è più ampio, ma dopo un anno si paga.</li><li><strong>Capacità (15)</strong>: vince il Monsieur Cuisine smart, con 3 litri utili in cottura contro 2,2 litri.</li><li><strong>Facilità d’uso e assistenza (10)</strong>: vince il Bimby TM7, per display, dimostrazione dell’incaricata e rete di assistenza.</li><li><strong>Disponibilità e garanzia (10)</strong>: pari. Il Bimby si trova sempre ma solo da Vorwerk; il Monsieur Cuisine ha 3 anni di garanzia ma da Lidl compare solo in certi periodi.</li></ul><p>Con il pareggio diviso a metà (5 punti a testa), il totale è di 60 punti al Bimby TM7 e 40 al Monsieur Cuisine smart. Il Monsieur Cuisine resta la scelta giusta per chi usa il robot di rado e non vuole spese ricorrenti.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Il Monsieur Cuisine è simile al Bimby?",
+      "a": "Sì, nell’idea: entrambi pesano, tritano, impastano, cuociono nel boccale e a vapore, con ricette guidate sul display. Cambiano i limiti: il Monsieur Cuisine smart arriva a 130 °C e a circa 5.500 giri al minuto, il Bimby TM7 a 160 °C e 10.700 giri. Il boccale del Monsieur Cuisine è invece più capiente."
+    },
+    {
+      "q": "Il Bimby si può comprare su Amazon?",
+      "a": "Non da Vorwerk. Vorwerk Italia vende il Bimby TM7 solo tramite le incaricate e il proprio shop online, e avverte che marketplace come Amazon ed eBay non sono canali autorizzati: un Bimby comprato lì può non avere la garanzia ufficiale. Per questo non mettiamo link Amazon al Bimby."
+    },
+    {
+      "q": "Il Monsieur Cuisine si trova sempre da Lidl?",
+      "a": "No. Lidl Italia lo propone nei periodi di promozione, in negozio o online; al 01/11/2026 la ricerca su lidl.it non mostrava robot Monsieur Cuisine disponibili. Tutto l’anno si può ordinare dallo shop ufficiale Monsieur Cuisine, che spedisce in Italia dalla Germania."
+    },
+    {
+      "q": "Il Bimby funziona senza abbonamento Cookidoo?",
+      "a": "Sì, in Modalità Manuale: imposti tu tempo, temperatura e velocità. Il manuale indica Wi-Fi e account Cookidoo come necessari per sfruttare appieno le funzioni, non per accendere il robot. Per la cucina guidata con tutte le ricette serve Cookidoo: i primi 12 mesi sono inclusi, poi Vorwerk Italia indica un abbonamento annuale di 60 euro con rinnovo automatico."
+    },
+    {
+      "q": "Serve un abbonamento per le ricette del Monsieur Cuisine?",
+      "a": "No. Oltre 600 ricette sono già caricate sul robot e, con un account Lidl gratuito, ricevi nuove ricette ogni mese, il planner settimanale e la lista della spesa. Monsieur Cuisine le definisce «completamente gratis»."
+    },
+    {
+      "q": "Con il Bimby o il Monsieur Cuisine si può friggere?",
+      "a": "No, con nessuno dei due. Vorwerk spiega che il TM7 non è progettato per friggere in olio: in modalità standard arriva a 120 °C e solo la Modalità Alta Temperatura sale a 160 °C, con poco grasso. Il Monsieur Cuisine smart si ferma a 130 °C e ha un programma Rosolare, non di frittura."
+    },
+    {
+      "q": "Per una famiglia di quattro persone quale conviene?",
+      "a": "Dipende da cosa cucini. Per zuppe, risotti e sughi in quantità il boccale del Monsieur Cuisine (3 litri utili in cottura) è più comodo dei 2,2 litri del Bimby, che Altroconsumo considera stretti per quattro o cinque persone. Se cucini a vapore secondo e contorno insieme, il Varoma da 6,8 litri del TM7 compensa."
+    },
+    {
+      "q": "Cosa ha detto Altroconsumo sul Bimby TM7?",
+      "a": "Nell’articolo del 09/07/2025 Altroconsumo ha dato al TM7 74/100 di qualità globale, contro 76/100 del TM6. Ha apprezzato il display da 10 pollici e il motore più potente ma silenzioso, e ha presentato la Cottura Aperta come la novità principale; tra i difetti, la bilancia non sempre precisa, le plastiche meno solide e il boccale da 2,2 litri."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Altroconsumo",
+      "url": "https://www.altroconsumo.it/elettrodomestici/robot-cucina/recensioni/bimby-tm7",
+      "note": "Articolo del 09/07/2025: Bimby TM7 acquistato e provato in laboratorio, qualità globale 74/100 contro 76/100 del TM6. Meglio del TM6 nel montare gli albumi, peggio nell’impasto per torte, nella facilità dei programmi e nella robustezza; bilancia con scarti di circa 20 g. Conclusione: il modello precedente è ancora migliore."
+    },
+    {
+      "name": "Altroconsumo",
+      "url": "https://www.altroconsumo.it/elettrodomestici/robot-cucina/robot-da-cucina-con-funzione-cottura-comparatore",
+      "note": "Comparatore dei robot da cucina con cottura, aggiornato a ottobre 2026: 7 modelli (Vorwerk Bimby TM7, due Kenwood, due Moulinex, Magimix Cook Expert, Cecotec Mambo CooKing Unique), nessun Monsieur Cuisine. Prove di laboratorio pesate all’88%, affidabilità del marchio al 12%; risultati di dettaglio riservati ai soci."
+    },
+    {
+      "name": "UFC-Que Choisir (Francia)",
+      "url": "https://www.quechoisir.org/comparatif-robot-cuiseur-n753/silvercrest-lidl-monsieur-cuisine-smart-p258979/",
+      "note": "Scheda di prova del Monsieur Cuisine smart SKMS 1200 C1 pubblicata il 20/03/2026; voto e giudizi riservati agli abbonati. Nel test del 2022 su 50 robot, secondo GreenMe (09/11/2023), il Bimby TM6 era primo con 15,3/20 e il Monsieur Cuisine smart otteneva 7,2/20."
+    },
+    {
+      "name": "netzwelt (Germania)",
+      "url": "https://www.netzwelt.de/monsieur-cuisine-smart/testbericht.html",
+      "note": "Prova del Monsieur Cuisine smart, pagina datata 14/08/2026: voto 1,9 («gut»), confronto con il Thermomix TM6. Lodati display, semplicità d’uso, cottura guidata e programmi automatici; difetti principali la temperatura massima di 130 °C, troppo bassa per rosolare bene la carne, e poche ricette videoguidate."
+    }
+  ],
+  "sources": [
+    "https://www.vorwerk.com/it/it/c/home/prodotti/bimby/bimby-tm7",
+    "https://www.vorwerk.com/it/it/s/shop/bimby-tm7",
+    "https://www.vorwerk.com/it/it/c/dam-home/legal-texts/product-safety/bimby/Istruzioni_per_l_uso_Bimby_TM7_V2.0_IT.pdf",
+    "https://www.vorwerk.com/it/it/c/home/idee-e-ricette/magazine/bimby/mondo-bimby/nuovo-bimby-tm7",
+    "https://www.vorwerk.com/it/it/c/home/idee-e-ricette/magazine/bimby/mondo-bimby/cookidoo-membership-abbonamento-piattaforma",
+    "https://support-italia.vorwerk.com/hc/it/articles/18067635491356-Friggere-con-Bimby-TM7-perch%C3%A9-non-%C3%A8-possibile",
+    "https://support-italia.vorwerk.com/hc/it/articles/18502483218204-Quali-sono-le-modalit%C3%A0-di-Bimby-TM7",
+    "https://support-italia.vorwerk.com/hc/it/articles/18500166874524-Perch%C3%A9-Bimby-TM7-non-si-vende-nei-negozi-online",
+    "https://support-italia.vorwerk.com/hc/it/articles/18963173908252-Tutto-quello-che-c-%C3%A8-da-sapere-sul-Varoma-del-mio-Bimby-TM7",
+    "https://support-italia.vorwerk.com/hc/it/articles/19110898476060-Assistenza-tecnica-Bimby-TM7-e-Folletto-VK7s-dove-ottenerla",
+    "https://www.monsieur-cuisine.com/it/monsieur-cuisine-smart/",
+    "https://www.monsieur-cuisine.com/it/prodotti",
+    "https://www.monsieur-cuisine.com/it/",
+    "https://shop.monsieur-cuisine.com/it/monsieur-cuisine-smart/400-monsieur-cuisine-smart-nero.html",
+    "https://shop.monsieur-cuisine.com/it/content/1-spedizione",
+    "https://www.moulinex.it/p/robot-da-cucina-multifunzione-i-companion-touch-xl-45l/8010001241",
+    "https://www.smartworld.it/news/lidl-monsieur-cuisine-compact-novita-2026.html",
+    "https://www.altroconsumo.it/elettrodomestici/robot-cucina/recensioni/bimby-tm7",
+    "https://www.altroconsumo.it/elettrodomestici/robot-cucina/robot-da-cucina-con-funzione-cottura-comparatore",
+    "https://www.quechoisir.org/comparatif-robot-cuiseur-n753/silvercrest-lidl-monsieur-cuisine-smart-p258979/",
+    "https://www.netzwelt.de/monsieur-cuisine-smart/testbericht.html",
+    "https://www.greenme.it/lifestyle/sai-cosa-compri/bimby-vs-monsieur-cuisine-lidl-qual-e-davvero-il-migliore-il-risultato-del-test-e-schiacciante/",
+    "https://www.vorwerk.com/it/it/c/home/prodotti/bimby/bimby-tm6",
+    "https://www.monsieur-cuisine.com/it/monsieur-cuisine-compact/",
+    "https://www.monsieur-cuisine.com/it/monsieur-cuisine-connect/"
+  ],
+  "related": [
+    "/it/cuisine-connectee/robots-multifonctions",
+    "/it/blog/robot-cuiseur-connecte-comparatif",
+    "/it/blog/cookeo-vs-thermomix-vs-airfryer",
+    "/it/blog/comparatif-multicuiseur-connecte",
+    "/it/blog/guide-cuisine-connectee-2026",
+    "/it/cuisine-connectee/multicuiseurs"
+  ]
+}

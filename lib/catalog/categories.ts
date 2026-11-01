@@ -24,6 +24,7 @@
  * where the site actually serves it from.
  */
 
+import { LANGUAGES, type Lang } from '@/lib/i18n'
 import type { Category } from './types'
 
 export const CATEGORIES: readonly Category[] = [
@@ -290,6 +291,10 @@ export const CATEGORIES: readonly Category[] = [
     metaSilo: 'cuisine-connectee',
     searchVolume: 'high',
     indexable: false,
+    // Robot cookers (Thermomix and its rivals) are searched in these five
+    // markets only [study § 2.6.1: fr.md § 6.1, de.md § 6.2, es.md § 3.1,
+    // it.md § 3.2, pl.md § 6.3]; the hub draws on robot-cuiseur-connecte-comparatif.
+    indexableIn: ['fr', 'de', 'es', 'it', 'pl'],
     title: {
       fr: 'Robots Multifonctions',
       en: 'Cooking Food Processors',
@@ -303,14 +308,15 @@ export const CATEGORIES: readonly Category[] = [
       ca: 'All-in-One Cooking Machines',
     },
     description: {
-      fr: 'Robots cuiseurs type Thermomix : Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
-      en: 'Thermomix-style cooking food processors: Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
-      de: 'Küchenmaschinen à la Thermomix: Magimix, Moulinex Companion, Lidl Monsieur Cuisine.',
-      es: 'Robots de cocina tipo Thermomix: Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
-      it: 'Robot da cucina simili al Bimby: Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
-      nl: 'Thermomix-achtige keukenrobots: Magimix, Moulinex Companion, Lidl Monsieur Cuisine.',
-      pl: 'Roboty kuchenne typu Thermomix: Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
-      sv: 'Köksmaskiner med kokfunktion av Thermomix-typ: Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
+      // The models the robot cooker guide compares (it does not cover Lidl's Monsieur Cuisine).
+      fr: 'Le Thermomix TM7 et ses alternatives : Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL, Cecotec Mambo.',
+      en: 'The Thermomix TM7 and its rivals: Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL, Cecotec Mambo.',
+      de: 'Der Thermomix TM7 und seine Alternativen: Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL, Cecotec Mambo.',
+      es: 'La Thermomix TM7 y sus alternativas: Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL, Cecotec Mambo.',
+      it: 'Il Bimby TM7 (Thermomix) e le alternative: Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL, Cecotec Mambo.',
+      nl: 'De Thermomix TM7 en zijn alternatieven: Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL, Cecotec Mambo.',
+      pl: 'Thermomix TM7 i jego alternatywy: Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL, Cecotec Mambo.',
+      sv: 'Thermomix TM7 och dess alternativ: Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL, Cecotec Mambo.',
       us: 'Smart cooking machines like the Thermomix TM7, compared on built-in cooking, guided recipes and app features.',
       ca: 'All-in-one cooking machines such as the Thermomix TM7, which chop, stir, steam and cook in one bowl.',
     },
@@ -2628,6 +2634,26 @@ export function getCategoriesBySilo(metaSilo: string): Category[] {
   return CATEGORIES.filter((c) => c.metaSilo === metaSilo)
 }
 
+/** Categories indexed in every locale (`indexable: true`). */
 export function getIndexableCategories(): Category[] {
   return CATEGORIES.filter((c) => c.indexable)
+}
+
+/** The locales whose hub of `category` is indexed: every locale, some (`indexableIn`) or none. */
+export function categoryLocales(category: Pick<Category, 'indexable' | 'indexableIn'>): readonly Lang[] {
+  return category.indexable ? LANGUAGES : (category.indexableIn ?? [])
+}
+
+export function isCategoryIndexableIn(category: Pick<Category, 'indexable' | 'indexableIn'>, lang: Lang): boolean {
+  return categoryLocales(category).includes(lang)
+}
+
+/** Categories indexed in some locales only (`indexable: false` with `indexableIn`). */
+export function getPartiallyIndexableCategories(): Category[] {
+  return CATEGORIES.filter((c) => !c.indexable && (c.indexableIn?.length ?? 0) > 0)
+}
+
+/** Categories `lang` indexes: those of every locale, then those of some locales that include it. */
+export function getCategoriesIndexableIn(lang: Lang): Category[] {
+  return CATEGORIES.filter((c) => isCategoryIndexableIn(c, lang))
 }

@@ -20,7 +20,11 @@ const STORE: Readonly<Record<string, [string, string]>> = {
   de: ['https://www.amazon.fr', 'homavisede-21'],
   es: ['https://www.amazon.fr', 'homavisees-21'],
   it: ['https://www.amazon.it', 'homaviseit-21'],
+  nl: ['https://www.amazon.fr', 'homavisenl-21'],
+  pl: ['https://www.amazon.fr', 'homavisepl-21'],
+  sv: ['https://www.amazon.fr', 'homavisese-21'],
   us: ['https://www.amazon.fr', 'homaviseus-21'],
+  ca: ['https://www.amazon.fr', 'homaviseca-21'],
 }
 /** Category hubs that list market pages (lib/market-pages/hubs.ts). */
 const HUB = /^\/[a-z]{2}\/(?:guides\/airfryers|cuisine-connectee\/[a-z-]+|(?:energie-domotique|securite-maison|confort-air|entretien-maison|outdoor-connecte)\/[a-z-]+|guides\/floor-care(?:\/[a-z-]+)?)$/

@@ -1,0 +1,308 @@
+{
+  "locale": "pl",
+  "type": "duel",
+  "slug": "thermomix-czy-alternatywa",
+  "updated": "2026-11-01",
+  "metaTitle": "Thermomix czy tańsza alternatywa? TM7 kontra Lidlomix",
+  "metaDescription": "Thermomix TM7 czy Monsieur Cuisine Smart z Lidla? Porównujemy misę, temperaturę, abonament Cookidoo, gwarancję w Polsce i wyniki niezależnych testów.",
+  "kicker": "Pojedynek · Roboty kuchenne z funkcją gotowania",
+  "h1": "Thermomix czy tańsza alternatywa? Thermomix TM7 kontra Monsieur Cuisine Smart z Lidla",
+  "answer": "Jeśli gotujesz codziennie i chcesz, by urządzenie prowadziło Cię przez przepis bez wpadek, wybierz Thermomix TM7: w porównaniu niemieckiego serwisu netzwelt z 26.09.2026 r. dostał najlepszą notę (1,2), pracuje cicho i ma izolowane naczynie. Monsieur Cuisine Smart z Lidla, czyli „Lidlomix”, to dużo tańsza alternatywa z większą misą (3 l) i darmowymi przepisami, ale grzeje tylko do 130 °C i w tym porównaniu wypadł najsłabiej (2,2).",
+  "picks": [
+    {
+      "brand": "Vorwerk",
+      "model": "Thermomix TM7",
+      "role": "Nasz wybór: dla tych, którzy gotują codziennie",
+      "why": "W porównaniu netzwelt z 26.09.2026 r. TM7 wygrał z notą 1,2 dzięki dopracowanemu prowadzeniu przez przepisy krok po kroku, cichej pracy i izolowanemu naczyniu, którego według redakcji można bezpiecznie dotknąć podczas gotowania. Ma obroty do 10 700 obr./min i 10-calowy ekran, ale pełny dostęp do przepisów Cookidoo wymaga płatnego abonamentu.",
+      "bestFor": "Rodziny, które gotują codziennie według przepisów krok po kroku, osoby ceniące ciszę i bezpieczeństwo przy dzieciach, kuchnie z dobrym Wi-Fi",
+      "asin": null,
+      "manufacturerUrl": "https://www.vorwerk.com/pl/pl/s/shop/wielofunkcyjny-robot-kuchenny-thermomix-tm7",
+      "specs": {
+        "Typ": "TM7 (w instrukcji: typ 71A i 71B)",
+        "Pojemność naczynia miksującego": "maks. 2,2 l (znacznik „max.”)",
+        "Koszyczek": "1,4 l (np. 350 g ryżu)",
+        "Silnik": "bezobsługowy silnik synchroniczny, moc znamionowa 500 W; 40–10 700 obr./min",
+        "Układ grzewczy": "1000 W, ogrzewanie bezpośrednie (nie indukcja)",
+        "Maks. pobór mocy": "2000 W; 220–240 V, 50/60 Hz",
+        "Temperatura": "Fermentowanie 37–70 °C, Wolne Gotowanie 60–98 °C, Rumienienie Intensywne i Delikatne; maksymalnej temperatury polska karta techniczna nie podaje (netzwelt: do 160 °C)",
+        "Tryby": "ponad 20 trybów i funkcji, m.in. Otwarte Gotowanie, Wolne Gotowanie, Fermentowanie, Karmelizowanie, Ciasto, Gotowanie na parze, Turbo",
+        "Ekran": "10 cali, dotykowy",
+        "Wbudowana waga": "1–3000 g (ważenie ujemne do −3000 g)",
+        "Przystawka Varoma": "do 45% większa niż w TM6 (zależnie od ułożenia); 383 × 275 × 131 mm, 840 g",
+        "Wymiary": "baza 253 × 405 × 122 mm (sz. × gł. × wys.); z naczyniem 336 mm wysokości",
+        "Masa": "baza 6,5 kg, naczynie 2,1 kg; komplet według sklepu Vorwerk 8,6 kg",
+        "Łączność": "Wi-Fi 2,4 i 5 GHz, Bluetooth 5.4 Low Energy",
+        "Przepisy": "Cookidoo: ponad 6000 przepisów po polsku (pełny dostęp w rocznym abonamencie); 210 przepisów zapisywanych w urządzeniu po pierwszym połączeniu z Internetem, do użytku offline i bez abonamentu",
+        "Abonament w zestawie": "3 miesiące Cookidoo dla nowych subskrybentów bez historii płatności (zasada od 16.03.2026), aktywacja samodzielna",
+        "Aplikacja": "Cookidoo; zdalne monitorowanie gotowania z telefonu przy aktywnym abonamencie",
+        "Pobór w czuwaniu": "0 W",
+        "Przewód zasilający": "1 m, zwijany",
+        "W zestawie": "naczynie z nożem i pokrywą, koszyczek, motylek, kopystka, przystawka Varoma, e-book powitalny",
+        "Gwarancja": "24 miesiące od Vorwerk Polska dla TM7 kupionego od Vorwerk Polska i używanego w Polsce; w ofercie także wariant z Usługą Nieodpłatnej Naprawy (3 lata)",
+        "Gdzie kupić": "sklep internetowy Vorwerk lub Przedstawiciel Handlowy"
+      }
+    },
+    {
+      "brand": "SilverCrest (Lidl)",
+      "model": "Monsieur Cuisine Smart SKMS 1200 C1",
+      "role": "Tańsza alternatywa bez abonamentu",
+      "why": "Lidl daje do niego darmową aplikację z ponad 1000 przepisów, misę na 3 l (o 0,8 l więcej niż w TM7) i wagę do 5 kg. Testerzy doceniają, ile robi za swoją cenę, ale wytykają głośną pracę, nagrzewającą się misę i limit 130 °C, który nie wystarcza do przyrumienienia mięsa.",
+      "bestFor": "Osoby, które chcą sprawdzić, czy robot z funkcją gotowania przyda się w ich kuchni, większe porcje zup i gulaszy, kupujący, którzy nie chcą płacić abonamentu za przepisy",
+      "asin": "B0FGDC6MMF",
+      "manufacturerUrl": "https://www.monsieur-cuisine.com/pl/monsieur-cuisine-smart",
+      "specs": {
+        "Model": "SKMS 1200 C1 (instrukcja z 03/2026)",
+        "Pojemność misy": "4,5 l całkowitej, maks. 3 l napełnienia",
+        "Moc": "1200 W; mieszanie 1000 W, gotowanie 1050 W",
+        "Obroty": "ok. 125–5500 obr./min; 10 stopni i turbo; obroty w lewo i w prawo",
+        "Temperatura": "37–130 °C",
+        "Funkcje": "16 funkcji i programów automatycznych: ugniatanie, gotowanie na parze, podsmażanie, smoothie, puree, czyszczenie, gotowanie jajek, fermentacja, wolne gotowanie, sous-vide",
+        "Ekran": "8 cali, kolorowy, dotykowy",
+        "Wbudowana waga": "do 5 kg",
+        "Timer": "99 min",
+        "Przepisy": "darmowa aplikacja; ponad 1000 przepisów według Lidla, ponad 600 zainstalowanych w urządzeniu według producenta (COOKING PILOT); comiesięczne aktualizacje przy aktywnym koncie",
+        "Łączność": "Wi-Fi 2,4 GHz; sterowanie głosowe przez Asystenta Google",
+        "Gotowanie na parze": "nasadka głęboka i płytka z pokrywką",
+        "Wymiary": "ok. 45,7 × 37 × 29 cm",
+        "Zasilanie": "230 V, 50 Hz",
+        "Pobór w czuwaniu": "≤ 0,5 W, przejście w czuwanie po mniej niż 20 min",
+        "Akcesoria": "nadają się do zmywarki, bez BPA; wkład do gotowania, wkładka nożowa, nasadka mieszająca, łopatka",
+        "Gwarancja": "3 lata (HOYER Handel GmbH, według instrukcji), polskie centrum serwisowe",
+        "Gdzie kupić": "sklep internetowy lidl.pl (1.11.2026 r. oferta tylko online); wersja antracytowa także na Amazon"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Cecha",
+      "Thermomix TM7",
+      "Monsieur Cuisine Smart"
+    ],
+    "rows": [
+      [
+        "Pojemność misy",
+        "maks. 2,2 l",
+        "maks. 3 l napełnienia (4,5 l całkowitej)"
+      ],
+      [
+        "Najwyższa temperatura",
+        "nie podana w polskiej karcie; netzwelt: 160 °C w trybie Rumienienia",
+        "130 °C"
+      ],
+      [
+        "Obroty",
+        "40–10 700 obr./min",
+        "ok. 125–5500 obr./min"
+      ],
+      [
+        "Moc",
+        "silnik 500 W (znamionowo), grzanie 1000 W, maks. pobór 2000 W",
+        "1200 W (mieszanie 1000 W, gotowanie 1050 W)"
+      ],
+      [
+        "Ekran",
+        "10 cali",
+        "8 cali"
+      ],
+      [
+        "Waga",
+        "do 3000 g",
+        "do 5 kg"
+      ],
+      [
+        "Przepisy bez opłat",
+        "210 przepisów w urządzeniu; pełne Cookidoo w abonamencie",
+        "darmowa aplikacja, ponad 1000 przepisów (Lidl)"
+      ],
+      [
+        "Gotowanie bez pokrywy",
+        "tryb Otwarte Gotowanie (netzwelt: do 100 °C)",
+        "nie wymieniono w opisie producenta"
+      ],
+      [
+        "Głośność na pusto (netzwelt)",
+        "poniżej 30 dB na niskich i średnich obrotach, ok. 58 dB na najwyższych",
+        "do 72 dB"
+      ],
+      [
+        "Izolacja naczynia",
+        "obudowa naczynia z izolacją",
+        "brak w opisie; netzwelt zmierzył do 74 °C na ściance misy"
+      ],
+      [
+        "Sterowanie głosowe",
+        "brak (netzwelt, 08.2026)",
+        "Asystent Google"
+      ],
+      [
+        "Łączność",
+        "Wi-Fi 2,4 i 5 GHz, Bluetooth",
+        "Wi-Fi 2,4 GHz"
+      ],
+      [
+        "Gwarancja",
+        "24 miesiące (Vorwerk Polska)",
+        "3 lata (HOYER Handel GmbH)"
+      ],
+      [
+        "Nota netzwelt (26.09.2026)",
+        "1,2 – zwycięzca porównania",
+        "2,2 – wyróżnienie „Preistipp”; netzwelt odsyła do wersji SKMS 1200 A1"
+      ],
+      [
+        "Gdzie kupić",
+        "sklep Vorwerk, Przedstawiciel Handlowy",
+        "lidl.pl (online), Amazon"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Jakość gotowania i prowadzenie przez przepis",
+      "weight": 30,
+      "explanation": "Robot z funkcją gotowania ma sens tylko wtedy, gdy potrawy wychodzą dobrze bez stania nad garnkiem. Opieramy się na wynikach niezależnych redakcji, które gotowały te same dania na kilku robotach, bo karta techniczna tego nie pokazuje."
+    },
+    {
+      "name": "Przepisy i koszty po zakupie",
+      "weight": 25,
+      "explanation": "Przepisy krok po kroku to główny powód zakupu. Porównujemy, ile przepisów po polsku jest dostępnych, co działa bez abonamentu i bez Internetu oraz jakie warunki stawia producent."
+    },
+    {
+      "name": "Pojemność, temperatura i obroty",
+      "weight": 20,
+      "explanation": "Te parametry decydują, dla ilu osób ugotujesz za jednym razem, czy podsmażysz cebulę lub mięso i jak drobno coś zmielisz. Porównujemy dane z polskich kart technicznych i instrukcji, a brakujące wartości uzupełniamy pomiarami testerów i to zaznaczamy."
+    },
+    {
+      "name": "Wygoda i bezpieczeństwo",
+      "weight": 15,
+      "explanation": "Hałas, nagrzewanie się misy, wielkość ekranu i mycie czuć przy każdym użyciu. Korzystamy z pomiarów testerów i informacji producentów."
+    },
+    {
+      "name": "Zakup, gwarancja i serwis w Polsce",
+      "weight": 10,
+      "explanation": "Liczy się, gdzie kupisz urządzenie, jak długo obowiązuje gwarancja i kto je naprawi. Sprawdzamy warunki gwarancji w polskich instrukcjach i kanały sprzedaży na 1 listopada 2026 r."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Thermomix czy Lidlomix: krótki werdykt",
+      "html": "<p><strong>Wybierz Thermomix TM7</strong>, jeśli gotujesz codziennie, chcesz, żeby urządzenie poprowadziło Cię przez przepis bez niespodzianek, i zależy Ci na cichej pracy oraz naczyniu, którego nie trzeba się bać, gdy w kuchni kręcą się dzieci.</p><p><strong>Wybierz Monsieur Cuisine Smart</strong>, jeśli dopiero sprawdzasz, czy robot z funkcją gotowania przyda się w Twojej kuchni, często gotujesz duże garnki zup i gulaszy i nie chcesz płacić rocznego abonamentu za przepisy.</p><p>To ten sam typ urządzenia: misa ze stali nierdzewnej z grzałką, nożem i wagą, która sieka, miesza, wyrabia ciasto, gotuje na parze i prowadzi przez przepis na ekranie. Różnice tkwią w szczegółach, które wychodzą dopiero po kilku tygodniach używania.</p>"
+    },
+    {
+      "h2": "Jakie modele porównujemy i których nie pomylić",
+      "html": "<p>Porównujemy wersje sprzedawane w Polsce 1 listopada 2026 r.: <strong>Thermomix TM7</strong>, który Vorwerk sprzedaje w swoim sklepie internetowym i przez Przedstawicieli Handlowych, oraz <strong>Monsieur Cuisine Smart SKMS 1200 C1</strong> (instrukcja z 03/2026), dostępny tego dnia na lidl.pl w kolorze czarnym i antracytowym. Biała wersja była niedostępna (z opcją powiadomienia o dostawie).</p><ul><li><strong>Monsieur Cuisine Smart SKMS 1200 A1</strong> to wcześniejsza wersja tego samego robota. To tę wersję sprawdziła Stiftung Warentest i do niej odsyła netzwelt. Według netzwelt miała tak samo misę na 3 l, 8-calowy ekran i zakres 37–130 °C, a obecna wersja C1 ma według Lidla te same parametry.</li><li><strong>Monsieur Cuisine compact SMCC 1100 A1</strong> to mniejszy i lżejszy brat (5,38 kg), z misą o pojemności roboczej 1,5 l, silnikiem miksującym 500 W i wagą do 3 kg. 1 listopada 2026 r. na lidl.pl był niedostępny online.</li><li><strong>Thermomix TM6</strong> to poprzednik TM7, z mniejszym ekranem i mniejszą przystawką Varoma. Jeśli kupujesz go z drugiej ręki, sprawdź, czy gwarancja jeszcze obowiązuje i czy poprzedni właściciel nie wykorzystał już darmowego abonamentu.</li></ul>"
+    },
+    {
+      "h2": "Cztery różnice, które poczujesz w kuchni",
+      "html": "<ul><li><strong>Wielkość porcji.</strong> Naczynie TM7 mieści maksymalnie 2,2 l, misa Monsieur Cuisine Smart 3 l przy 4,5 l pojemności całkowitej. Przy zupie dla czterech osób z dokładką albo podwójnej porcji gulaszu różnica jest odczuwalna. Wbudowana waga TM7 mierzy do 3000 g, waga robota z Lidla do 5 kg.</li><li><strong>Podsmażanie.</strong> Monsieur Cuisine Smart grzeje od 37 do 130 °C. To wystarczy, żeby zeszklić cebulę, ale nie, żeby przyrumienić mięso. TM7 ma tryb Rumienienia w dwóch wariantach (Intensywne i Delikatne); netzwelt podaje dla niego maksymalnie 160 °C, czyli więcej niż u Lidla, ale wciąż za mało na mocne obsmażenie steku.</li><li><strong>Obroty i hałas.</strong> Silnik TM7 kręci od 40 do 10 700 obr./min, Monsieur Cuisine Smart od ok. 125 do 5500 obr./min. Wyższa moc miksowania po stronie Lidla (1000 W wobec 500 W mocy znamionowej silnika TM7) nie przekłada się więc na wyższe obroty. W pomiarach netzwelt na pusto TM7 był poniżej 30 dB na niskich i średnich obrotach i miał ok. 58 dB na najwyższych, a Monsieur Cuisine Smart dochodził do 72 dB.</li><li><strong>Bezpieczeństwo przy dzieciach.</strong> TM7 ma obudowę naczynia z izolacją i według netzwelt można go bezpiecznie dotknąć w trakcie gotowania. Na ściance misy Monsieur Cuisine Smart redakcja zmierzyła przy gotowaniu wody do 74 °C.</li></ul>"
+    },
+    {
+      "h2": "Przepisy: abonament Cookidoo czy darmowa aplikacja",
+      "html": "<p>To największa różnica w kosztach, które ponosisz już po zakupie.</p><ul><li><strong>Thermomix TM7</strong> korzysta z platformy Cookidoo: według Vorwerka to ponad 6000 przepisów po polsku i 100 000 na całym świecie. Pełny dostęp wymaga rocznego abonamentu, który odnawia się automatycznie. Do nowego TM7 Vorwerk dodaje 3 miesiące abonamentu, ale od 16 marca 2026 r. tylko nowym użytkownikom, którzy nigdy nie płacili za Cookidoo i nie zapisali na koncie danych płatniczych. Darmowy okres trzeba aktywować samodzielnie.</li><li><strong>Bez abonamentu</strong> TM7 nadal gotuje ręcznie i obsługuje wszystkie tryby, także bez Internetu. Po pierwszym połączeniu z Internetem i pobraniu aktualizacji w pamięci zostaje kolekcja 210 przepisów („7 odsłon w urządzeniu Thermomix®”), z której możesz korzystać offline. Po wygaśnięciu abonamentu zapisane zakładki zostają, ale pełna treść przepisów przestaje być dostępna.</li><li><strong>Monsieur Cuisine Smart</strong> ma darmową aplikację: Lidl podaje ponad 1000 przepisów, producent – ponad 600 zainstalowanych w urządzeniu (COOKING PILOT). Przy aktywnym koncie co miesiąc dochodzą nowe. Lidl zastrzega jednak, że może w każdej chwili przestać dostarczać darmowe przepisy co miesiąc.</li><li><strong>Wi-Fi i konto</strong>: według instrukcji do działania wszystkich funkcji TM7 potrzebne są połączenie z Wi-Fi i konto Cookidoo (samo gotowanie ręczne i tryby działają też offline). Monsieur Cuisine Smart potrzebuje Wi-Fi do aktualizacji przepisów i sterowania głosowego przez Asystenta Google.</li></ul>"
+    },
+    {
+      "h2": "Zakup, gwarancja i serwis w Polsce",
+      "html": "<ul><li><strong>Thermomix TM7</strong> kupisz w dwóch kanałach: w sklepie internetowym Vorwerk albo u Przedstawiciela Handlowego, który może też pokazać urządzenie u Ciebie w domu. Vorwerk Polska udziela 24 miesięcy gwarancji na TM7 kupiony od Vorwerk Polska i używany w Polsce; w ofercie jest też wariant z Usługą Nieodpłatnej Naprawy na 3 lata. Jeśli trafisz na ofertę innego sprzedawcy, zapytaj, kto udziela gwarancji.</li><li><strong>Monsieur Cuisine Smart</strong> Lidl sprzedaje przez sklep internetowy lidl.pl, z dostawą także do Paczkomatu®; 1 listopada 2026 r. oferta była oznaczona jako dostępna tylko online. Według instrukcji obowiązuje 3-letnia gwarancja HOYER Handel GmbH, a zgłoszenia przyjmuje polskie centrum serwisowe. Model SKMS 1200 C1 w kolorze antracytowym jest też w ofercie Amazon. Opis tej oferty zastrzega, że aplikacja z przepisami może nie być dostępna po polsku, więc przed zakupem upewnij się, w jakim języku działa urządzenie.</li><li><strong>Kiedy kupować.</strong> W 2025 r. Lidl przecenił Monsieur Cuisine Smart w tygodniu Black Friday (24.11–1.12.2025, według strony produktu na lidl.pl). W 2026 r. Black Friday wypada 27 listopada.</li></ul>"
+    },
+    {
+      "h2": "Inne roboty kuchenne z funkcją gotowania",
+      "html": "<p>Thermomix i Lidl to nie jedyne opcje.</p><ul><li><strong>Bosch Cookit</strong> zajął w porównaniu netzwelt drugie miejsce (nota 1,4), z temperaturą do 200 °C i ponad 3800 darmowymi przepisami według redakcji. Na polskiej stronie Bosch nie znaleźliśmy jednak tego modelu (stan na 1 listopada 2026 r.), więc przed zakupem sprawdź, kto udziela na niego gwarancji w Polsce.</li><li><strong>Kenwood Cooking Chef</strong>: w tym samym porównaniu Cooking Chef Sallys Edition dostał notę 1,7, a Cooking Chef XL 2,1. Według redakcji przypominają raczej klasyczne roboty planetarne do mieszania i wyrabiania niż nowocześniejsze roboty z funkcją gotowania, takie jak Cookit czy Monsieur Cuisine Smart.</li><li><strong>Monsieur Cuisine compact</strong> to mniejsza wersja z Lidla dla jednej lub dwóch osób: ten sam zakres 37–130 °C, waga do 3 kg, ale misa o pojemności roboczej 1,5 l.</li></ul><p>Szersze zestawienie, m.in. z Moulinex i-Companion, Magimix Cook Expert i Cecotec Mambo, znajdziesz w naszym porównaniu inteligentnych robotów kuchennych z funkcją gotowania. Jeśli zależy Ci głównie na obiadach jednogarnkowych bez siekania i miksowania, zajrzyj też do naszego porównania multicookerów.</p>"
+    },
+    {
+      "h2": "Dlaczego taki ranking",
+      "html": "<p>Kolejność wynika z pięciu kryteriów i ich wag. Nie testujemy urządzeń sami: porównujemy dane producentów dla rynku polskiego i opublikowane wyniki niezależnych redakcji.</p><ul><li><strong>Jakość gotowania i prowadzenie przez przepis (30%)</strong>: wygrywa TM7, z najlepszą notą w porównaniu netzwelt i dopracowanym prowadzeniem przez przepisy. W próbie kulinarnej redakcji, przy ręcznych ustawieniach, risotto z TM7 wyszło zbyt suche, a z Monsieur Cuisine Smart wyszła zbita, ciągnąca się masa.</li><li><strong>Przepisy i koszty po zakupie (25%)</strong>: wygrywa Monsieur Cuisine Smart, bo jego aplikacja nie wymaga abonamentu.</li><li><strong>Pojemność, temperatura i obroty (20%)</strong>: remis. Lidl ma większą misę i wagę, TM7 wyższą temperaturę i prawie dwa razy wyższe maksymalne obroty.</li><li><strong>Wygoda i bezpieczeństwo (15%)</strong>: wygrywa TM7, który jest cichszy, ma izolowane naczynie i większy ekran.</li><li><strong>Zakup, gwarancja i serwis w Polsce (10%)</strong>: lekka przewaga Lidla, który daje 3 lata gwarancji wobec 24 miesięcy, choć Vorwerk ma sieć Przedstawicieli i prezentacje w domu.</li></ul><p>Po zważeniu kryteriów wygrywa TM7. Ta przewaga ma jednak sens tylko wtedy, gdy będziesz z niego korzystać często i zapłacisz za Cookidoo. Jeśli nie, darmowe przepisy i dużo niższa cena zakupu przechylają szalę na stronę Lidla.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Czy Thermomix TM7 działa bez abonamentu Cookidoo?",
+      "a": "Tak. Gotowanie ręczne i wszystkie tryby działają bez abonamentu, także bez Internetu, a po pierwszym połączeniu z siecią w pamięci urządzenia zostaje 210 przepisów z kolekcji powitalnej. Bez abonamentu nie masz jednak pełnego dostępu do ponad 6000 polskich przepisów Cookidoo. Pełną funkcjonalność instrukcja wiąże z połączeniem z Wi-Fi i kontem Cookidoo."
+    },
+    {
+      "q": "Co to jest Lidlomix?",
+      "a": "Tak potocznie nazywa się termoroboty Monsieur Cuisine, które Lidl sprzedaje pod marką SilverCrest. Na lidl.pl znajdziesz dwa modele: Monsieur Cuisine Smart (SKMS 1200 C1) z 8-calowym ekranem i misą na 3 l oraz mniejszy Monsieur Cuisine compact (SMCC 1100 A1) z misą o pojemności roboczej 1,5 l."
+    },
+    {
+      "q": "Czy przepisy w Monsieur Cuisine Smart są darmowe?",
+      "a": "Tak. Aplikacja i baza przepisów Monsieur Cuisine są bezpłatne; Lidl podaje ponad 1000 przepisów i comiesięczne aktualizacje przy aktywnym koncie. Lidl zastrzega jednak, że może w każdej chwili zakończyć comiesięczne dostarczanie darmowych przepisów."
+    },
+    {
+      "q": "Który robot lepiej podsmaża mięso?",
+      "a": "Żaden nie zastąpi patelni. Monsieur Cuisine Smart grzeje maksymalnie do 130 °C, więc zeszkli cebulę, ale mięsa nie przyrumieni. TM7 ma tryb Rumienienia, który według netzwelt osiąga do 160 °C; to więcej, ale redakcja i tak uznała, że to za mało na mocne obsmażenie."
+    },
+    {
+      "q": "Gdzie kupić Thermomix TM7, żeby mieć gwarancję producenta?",
+      "a": "Gwarancja Vorwerk Polska (24 miesiące) obejmuje według jej warunków TM7 kupiony od Vorwerk Polska, czyli w sklepie internetowym Vorwerk lub u Przedstawiciela Handlowego, i używany w Polsce. Jeśli kupujesz gdzie indziej, zapytaj sprzedawcę, kto udziela gwarancji; Twoje ustawowe prawa wobec sprzedawcy obowiązują niezależnie od tego."
+    },
+    {
+      "q": "Czy Monsieur Cuisine Smart można kupić na Amazon?",
+      "a": "Tak, 1 listopada 2026 r. model SKMS 1200 C1 w kolorze antracytowym był w ofercie Amazon. Opis oferty zastrzega, że aplikacja z przepisami może nie być dostępna po polsku, dlatego przed zakupem sprawdź język urządzenia. Lidl sprzedaje go w Polsce przez sklep internetowy lidl.pl."
+    },
+    {
+      "q": "Który robot jest cichszy?",
+      "a": "Thermomix TM7. W pomiarach netzwelt na pusto TM7 był poniżej 30 dB na niskich i średnich obrotach i miał ok. 58 dB na najwyższych, a Monsieur Cuisine Smart dochodził do 72 dB."
+    },
+    {
+      "q": "Co mówi o tych robotach Stiftung Warentest?",
+      "a": "W teście robotów kuchennych z funkcją gotowania (pierwsza publikacja 20.12.2023, aktualizacja 19.12.2025) Stiftung Warentest sprawdziła dziewięć modeli, w tym Thermomix TM7 i Monsieur Cuisine Smart w starszej wersji SKMS 1200 A1. Cztery dostały ocenę dobrą, pozostałe zadowalającą. Oceny poszczególnych modeli są płatne, więc ich nie podajemy."
+    },
+    {
+      "q": "Czy w Thermomixie TM7 upieczesz ciasto?",
+      "a": "Nie. Vorwerk wyjaśnia, że TM7 nie ma funkcji pieczenia; ciasta i inne wypieki można jedynie gotować w trybie Gotowania na parze. Do klasycznych wypieków nadal potrzebny jest piekarnik, a TM7 przyda się do wyrobienia ciasta."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "netzwelt",
+      "url": "https://www.netzwelt.de/vergleich/5-smarte-kuechenmaschinen-test-thermomix-alternativen-vergleich.html",
+      "note": "Porównanie pięciu robotów z funkcją gotowania z 26.09.2026 (niemiecka skala ocen, 1 = najlepiej): Thermomix TM7 1,2 (zwycięzca), Bosch Cookit 1,4, Kenwood Cooking Chef Sallys Edition 1,7, Kenwood Cooking Chef XL 2,1, SilverCrest Monsieur Cuisine Smart 2,2 (wyróżnienie „Preistipp”). Przy Monsieur Cuisine Smart redakcja zmierzyła do 72 dB na pusto i do 74 °C na ściance misy, a waga pokazywała wartości co 5 g; TM7 skrytykowała za misę 2,2 l i limit 160 °C."
+    },
+    {
+      "name": "netzwelt",
+      "url": "https://www.netzwelt.de/thermomix-tm7/testbericht.html",
+      "note": "Test Thermomixa TM7 z 16.08.2026: nota 1,2 (wyposażenie 1,5, funkcje 1,0, obsługa 1,2, technika 1,2, smak 1,2). Poniżej 30 dB na niskich i średnich obrotach, 58 dB na najwyższych; otwarte gotowanie bez pokrywy do 100 °C. Minusy według redakcji: maksymalnie 160 °C, brak sterowania głosowego, Cookidoo naprawdę przydatne dopiero z abonamentem."
+    },
+    {
+      "name": "Stiftung Warentest",
+      "url": "https://www.test.de/Kuechenmaschinen-mit-Kochfunktion-im-Test-4947836-0/",
+      "note": "Test robotów kuchennych z funkcją gotowania z 20.12.2023, zaktualizowany 19.12.2025 o Thermomix TM7 i WMF Avantgarde: dziewięć modeli, w tym Monsieur Cuisine Smart SKMS 1200 A1; „Vier sind gut, der Rest ist befriedigend”. Oceny poszczególnych modeli są dostępne odpłatnie, dlatego ich nie podajemy (stan na 01.11.2026)."
+    },
+    {
+      "name": "Antyweb",
+      "url": "https://antyweb.pl/thermomix-tm7-a-lidlomix-czy-warto-doplacac-az-tyle",
+      "note": "Tekst Daniela Wójcika z 09.08.2025 porównuje TM7 i Monsieur Cuisine Smart na podstawie danych technicznych, bez własnego testu urządzeń: TM7 opisuje jako sprzęt kompletny dla osób lubiących eksperymentować w kuchni, a „Lidlomix” jako świetną opcję dla pragmatyków, z większą misą i darmową aplikacją z przepisami."
+    }
+  ],
+  "sources": [
+    "https://www.vorwerk.com/pl/pl/s/shop/wielofunkcyjny-robot-kuchenny-thermomix-tm7",
+    "https://www.vorwerk.com/pl/pl/c/strona-glowna/produkty/thermomix/wielofunkcyjny-robot-kuchenny-tm7",
+    "https://www.vorwerk.com/pl/pl/c/dam-home/downloads/instrukcja-obslugi-thermomix-tm7-vorwerk.pdf",
+    "https://support-polska.vorwerk.com/hc/pl/articles/18502570867100-Jakie-tryby-s%C4%85-dost%C4%99pne-w-nowym-Thermomix-TM7",
+    "https://support-polska.vorwerk.com/hc/pl/articles/19115304131356-Co-warto-wiedzie%C4%87-o-funkcjach-i-trybach-Thermomix-TM7",
+    "https://support-polska.vorwerk.com/hc/pl/articles/17966008481692-Abonament-Cookidoo",
+    "https://support-polska.vorwerk.com/hc/pl/articles/17965989103132-Co-stanie-si%C4%99-z-moimi-przepisami-je%C5%9Bli-zrezygnuj%C4%99-z-subskrypcji",
+    "https://support-polska.vorwerk.com/hc/pl/articles/18963337736604-Wszystko-o-Varomie-Tm7",
+    "https://support-polska.vorwerk.com/hc/pl/articles/18505804604828-Jakie-s%C4%85-nowe-funkcje-nowego-urz%C4%85dzenia-Thermomix-TM7-Czym-r%C3%B3%C5%BCni-si%C4%99-od-TM6",
+    "https://support-polska.vorwerk.com/hc/pl/articles/18500130130972-Czy-Thermomix-TM7-posiada-indukcyjny-system-grzewczy",
+    "https://support-polska.vorwerk.com/hc/pl/articles/21960791199900-Jak-mog%C4%99-u%C5%BCywa%C4%87-Zdalnego-monitorowania-do-%C5%9Bledzenia-procesu-gotowania-Thermomix-TM7-z-poziomu-smartfona",
+    "https://www.monsieur-cuisine.com/pl/monsieur-cuisine-smart",
+    "https://www.monsieur-cuisine.com/pl/monsieur-cuisine-compact",
+    "https://www.lidl.pl/p/silvercrest-termorobot-mc-smart-z-wi-fi-1200-w-antracytowy-matowy/p100401349",
+    "https://www.lidl.pl/p/silvercrest-termorobot-mc-smart-z-wi-fi-1200-w-czarny/p100405422",
+    "https://www.lidl.pl/p/silvercrest-termorobot-mc-smart-z-wi-fi-1200-w-bialy/p100387781",
+    "https://www.lidl.pl/p/silvercrest-termorobot-mc-compact-smcc-1100-a1-czarny/p100397213",
+    "https://manuals.sit-connect.com/public/articlemanual/092644d3-8e9f-40c2-aa00-953a9a7ffb4e.pdf",
+    "https://www.netzwelt.de/vergleich/5-smarte-kuechenmaschinen-test-thermomix-alternativen-vergleich.html",
+    "https://www.netzwelt.de/thermomix-tm7/testbericht.html",
+    "https://www.test.de/Kuechenmaschinen-mit-Kochfunktion-im-Test-4947836-0/",
+    "https://antyweb.pl/thermomix-tm7-a-lidlomix-czy-warto-doplacac-az-tyle"
+  ],
+  "related": [
+    "/pl/cuisine-connectee/robots-multifonctions",
+    "/pl/blog/robot-cuiseur-connecte-comparatif",
+    "/pl/blog/cookeo-vs-thermomix-vs-airfryer",
+    "/pl/cuisine-connectee/multicuiseurs",
+    "/pl/cuisine-connectee",
+    "/pl/guides/cuisine-connectee"
+  ]
+}

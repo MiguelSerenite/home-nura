@@ -3,6 +3,7 @@
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { ProductPhoto } from '@/lib/product-photo'
 import AmazonDisclosure from './AmazonDisclosure'
+import PhotoCredits from './PhotoCredits'
 import ProductPhotoImage from './ProductPhotoImage'
 import type { ClickPlacement, ClickSurface } from '@/lib/affiliate-click'
 
@@ -32,6 +33,11 @@ const LABELS: Record<string, { title: string; button: string; disclosure: string
  * Answer-first verdict box ("What is the best X?") at the top of a
  * comparison article: short, explicit picks that search engines and AI
  * assistants can quote. Picks come from the article's own recommendations.
+ *
+ * `compact` (answer-first category hubs): one row per pick with a small
+ * photo and the button under the text; on phones the "why" holds two
+ * lines and the photo credits gather under the list, so the comparison
+ * table below stays within the first two screens.
  */
 export default function QuickAnswer({
   question,
@@ -41,6 +47,7 @@ export default function QuickAnswer({
   placement,
   location = 'article_quick_answer',
   surface = 'verdict',
+  compact = false,
 }: {
   question: string
   picks: QuickAnswerPick[]
@@ -51,9 +58,11 @@ export default function QuickAnswer({
   location?: 'article_quick_answer' | 'category_picks'
   /** Legacy click surface (/api/click): the article verdict box unless the page says otherwise. */
   surface?: ClickSurface
+  compact?: boolean
 }) {
   if (picks.length === 0) return null
   const labels = LABELS[lang] ?? LABELS.fr
+  if (compact) return <CompactQuickAnswer {...{ question, picks, lang, kicker, placement, location, surface, labels }} />
   return (
     <section aria-labelledby="quick-answer-title" className="not-prose my-8 rounded-2xl border-2 border-brand-600 bg-white p-5 md:p-6">
       <p id="quick-answer-title" className="text-xs font-bold uppercase tracking-widest text-brand-700">{kicker ?? labels.title}</p>
@@ -102,6 +111,70 @@ export default function QuickAnswer({
         })}
       </ol>
       <AmazonDisclosure lang={lang} note={labels.disclosure} className="mt-4 text-xs text-slate-600" />
+    </section>
+  )
+}
+
+type CompactProps = {
+  question: string
+  picks: QuickAnswerPick[]
+  lang: string
+  kicker?: string
+  placement: ClickPlacement
+  location: 'article_quick_answer' | 'category_picks'
+  surface: ClickSurface
+  labels: { title: string; button: string; disclosure: string }
+}
+
+function CompactQuickAnswer({ question, picks, lang, kicker, placement, location, surface, labels }: CompactProps) {
+  return (
+    <section aria-labelledby="quick-answer-title" className="not-prose my-4 rounded-2xl border-2 border-brand-600 bg-white p-4 md:my-8 md:p-6">
+      <p id="quick-answer-title" className="text-xs font-bold uppercase tracking-widest text-brand-700">{kicker ?? labels.title}</p>
+      <h2 className="mt-1 text-lg font-bold leading-snug text-slate-900 md:text-xl">{question}</h2>
+      <ol className="mt-3 space-y-4 md:mt-4">
+        {picks.map((pick, i) => {
+          const track = () =>
+            trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang, placement, surface, url: pick.url })
+          return (
+            <li key={pick.model} className="flex items-start gap-3 md:gap-4">
+              {pick.photo && (
+                // Same Amazon link as the button; kept out of the tab order and the accessibility tree.
+                <a
+                  href={pick.url}
+                  target="_blank"
+                  rel="sponsored nofollow noopener noreferrer"
+                  data-aff-placement={placement}
+                  tabIndex={-1}
+                  aria-hidden="true"
+                  onClick={track}
+                  className="relative block h-16 w-16 shrink-0 overflow-hidden rounded-xl md:h-24 md:w-24"
+                >
+                  <ProductPhotoImage photo={pick.photo} sizes="96px" className="h-full w-full object-contain" />
+                </a>
+              )}
+              <div className="min-w-0 flex-1">
+                {pick.role && <p className="text-xs font-bold text-brand-700 md:text-sm">{pick.role}</p>}
+                <p className="text-[15px] font-bold leading-snug text-slate-900 md:text-base">{pick.model}</p>
+                {pick.why && <p className="mt-1 line-clamp-2 text-sm leading-relaxed text-slate-700 md:line-clamp-none">{pick.why}</p>}
+                {pick.photo && <p className="mt-1 hidden text-[11px] text-slate-500 md:block">{pick.photo.credit}</p>}
+                <a
+                  href={pick.url}
+                  target="_blank"
+                  rel="sponsored nofollow noopener noreferrer"
+                  data-aff-placement={placement}
+                  onClick={track}
+                  className="mt-2 inline-flex min-h-10 items-center justify-center rounded-full bg-brand-600 px-4 text-sm font-bold text-white transition-colors hover:bg-brand-700 active:bg-brand-700"
+                >
+                  {labels.button} →
+                </a>
+              </div>
+            </li>
+          )
+        })}
+      </ol>
+      {/* Phone thumbnails are too small to carry their credit. */}
+      <PhotoCredits photos={picks.map((pick) => pick.photo)} lang={lang} className="mt-3 text-[11px] leading-snug text-slate-500 md:hidden" />
+      <AmazonDisclosure lang={lang} note={labels.disclosure} className="mt-3 text-xs text-slate-600" />
     </section>
   )
 }

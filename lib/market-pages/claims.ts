@@ -25,8 +25,11 @@ export function isPriceSpecName(name: string): boolean {
 
 /** Bestseller ranks, in the site's languages: chosen from, never shown. */
 const BESTSELLER = /best[\s-]?sell(?:er|ing)|meilleures? ventes?|pi[uù] vendut[oiae]|m[aá]s vendid[oa]s?|meistverkauft|bestverkocht|najczęściej kupowan|mest såld|bästsäljare/i
-/** A rating, review count or rank, flagged when the same text names Amazon. */
-const RATING_OR_REVIEWS = /\d(?:[.,]\d)?\s?(?:\/\s?5|out of 5|stars?|stelle|étoiles|sterne|estrellas|sterren|gwiazdk|stjärn)|\d[\d\s.,]*\s?(?:reviews?|ratings?|avis|recensioni|valutazioni|bewertungen|rezensionen|opiniones|valoraciones|reseñas|beoordelingen|recenzj|omdömen|recensioner)|#\s?1\b|\bn[°º]\s?1\b|\bno\.\s?1\b/i
+/**
+ * A rating, review count or rank, flagged when the same text names Amazon.
+ * "/5" must end the number, so a model code such as EP3341/50 is no rating.
+ */
+const RATING_OR_REVIEWS = /\d(?:[.,]\d)?\s?(?:\/\s?5(?!\d)|out of 5|stars?|stelle|étoiles|sterne|estrellas|sterren|gwiazdk|stjärn)|\d[\d\s.,]*\s?(?:reviews?|ratings?|avis|recensioni|valutazioni|bewertungen|rezensionen|opiniones|valoraciones|reseñas|beoordelingen|recenzj|omdömen|recensioner)|#\s?1\b|\bn[°º]\s?1\b|\bno\.\s?1\b/i
 
 /** First-person test claims: Home Nura compares, it never tests products itself. */
 const OWN_TEST_CLAIM_SOURCE = /\bwe(?:'ve| have)? tested\b|\bour (?:own )?(?:tests?|testing|lab)\b|\bin our tests?\b|nous avons test|\bnos (?:propres )?tests\b|\bnotre (?:propre )?test\b|abbiamo (?:testato|provato)|\bnei nostri test\b|\bnel nostro test\b|wir haben [\p{L}\s]{0,30}getestet|\bunser(?:em|en)? (?:eigenen? )?(?:test|praxistest)\b|hemos (?:probado|testado)|\bnuestras pruebas\b|\bnuestro test\b|we hebben getest|\bonze test\b|przetestowaliśmy|\bnasz test\b|vi har testat|\bvårt test\b/iu
