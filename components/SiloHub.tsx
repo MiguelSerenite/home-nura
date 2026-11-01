@@ -26,6 +26,7 @@ import FaqSection from '@/components/FaqSection'
 import { getSiloFaq, SILO_FAQ_TITLE } from '@/lib/catalog/silo-faqs'
 import { ChevronRight } from 'lucide-react'
 import { BlackFridaySiloLinks } from '@/components/black-friday/Promos'
+import FloorCareEntryBanner from '@/components/floor-care/EntryBanner'
 
 const uiStrings: Record<Lang, { home: string; categoriesTitle: string; methodologyCta: string }> = {
   fr: {
@@ -165,6 +166,8 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
         <SectionHero title={title} subtitle={description} />
 
         <BlackFridaySiloLinks lang={safeLang} siloSlug={silo.slug} />
+
+        <FloorCareEntryBanner lang={safeLang} silo={silo.slug} />
 
         {/* Categories grid */}
         <section className="max-w-6xl mx-auto px-4 md:px-6 pb-16">

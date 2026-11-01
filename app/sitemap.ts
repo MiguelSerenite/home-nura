@@ -11,6 +11,7 @@ import {
   PROBLEMS,
 } from '@/lib/catalog'
 import { BLACK_FRIDAY_CATEGORIES, BLACK_FRIDAY_PATHS, blackFridayPath } from '@/lib/black-friday'
+import { FLOOR_CARE_HUB_PATH, FLOOR_CARE_MARKETS, FLOOR_CARE_PATHS, FLOOR_CARE_UPDATED_ISO } from '@/lib/floor-care/config'
 import {
   airfryerCatalogImages,
   articleImages,
@@ -124,11 +125,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     langs: readonly Lang[],
     meta: Omit<MetadataRoute.Sitemap[number], 'url' | 'alternates' | 'images'>,
     images?: PageImages,
+    { xDefault = true }: { xDefault?: boolean } = {},
   ): MetadataRoute.Sitemap => {
     // Keyed by language tag (en-US for /us, en-CA for /ca), never the market code.
     const languages: Record<string, string> = {
       ...Object.fromEntries(langs.map((l) => [HTML_LANG[l], `${BASE_URL}/${l}${path}`])),
-      'x-default': `${BASE_URL}/${langs.includes('fr') ? 'fr' : langs[0]}${path}`,
+      ...(xDefault ? { 'x-default': `${BASE_URL}/${langs.includes('fr') ? 'fr' : langs[0]}${path}` } : {}),
     }
     return langs.map((lang) => {
       const pageImages = images?.(lang) ?? []
@@ -173,6 +175,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
           priority,
         },
         (lang) => articleImages(lang, article),
+      ),
+    )
+  }
+
+  // Floor-care hub and guides: US and Canadian versions only, each listing
+  // its own models. hreflang pairs en-US with en-CA, without x-default
+  // (no version for other readers).
+  for (const path of FLOOR_CARE_PATHS) {
+    entries.push(
+      ...localized(
+        path,
+        FLOOR_CARE_MARKETS,
+        {
+          lastModified: new Date(FLOOR_CARE_UPDATED_ISO),
+          changeFrequency: 'monthly',
+          priority: path === FLOOR_CARE_HUB_PATH ? 0.8 : 0.75,
+        },
+        undefined,
+        { xDefault: false },
       ),
     )
   }
