@@ -1,5 +1,6 @@
 'use client'
 
+import type { ClickPlacement } from '@/lib/affiliate-click'
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { ProductPhoto } from '@/lib/product-photo'
 import AmazonDisclosure from './AmazonDisclosure'
@@ -12,6 +13,9 @@ export interface ModelLink {
   /** Manufacturer's official photo (lib/product-images.ts). */
   photo?: ProductPhoto
 }
+
+/** Mid-article (surface after-h2) and after the article (surface bottom). */
+const PLACEMENT: ClickPlacement = 'product_block'
 
 const LABELS: Record<string, { title: string; bottomTitle: string; button: string; disclosure: string }> = {
   fr: { title: 'Les modèles cités dans ce guide', bottomTitle: 'Nos recommandations', button: 'Voir sur Amazon', disclosure: 'Liens affiliés Amazon : nous touchons une commission, sans surcoût pour vous.' },
@@ -71,6 +75,7 @@ export default function ArticleModelLinks({
               href={model.url}
               target="_blank"
               rel="sponsored nofollow noopener noreferrer"
+              data-aff-placement={PLACEMENT}
               onClick={() =>
                 trackAffiliateClick({
                   asin: '',
@@ -78,6 +83,7 @@ export default function ArticleModelLinks({
                   position: i + 1,
                   location: isBottom ? 'article_bottom' : 'article_models',
                   lang,
+                  placement: PLACEMENT,
                   surface,
                   url: model.url,
                 })

@@ -1,11 +1,14 @@
 'use client'
 
 import { useState } from 'react'
+import type { ClickPlacement } from '@/lib/affiliate-click'
 import { trackAffiliateClick, trackEvent, EVENTS } from '@/lib/analytics'
 import type { ProductVisualData } from '@/lib/product-visual'
 import AmazonDisclosure from './AmazonDisclosure'
 import PhotoCredits from './PhotoCredits'
 import ProductVisual from './ProductVisual'
+
+const PLACEMENT: ClickPlacement = 'comparator'
 
 interface ComparatorProduct {
   asin: string
@@ -253,6 +256,7 @@ export default function Comparator({
                       href={product.url}
                       target="_blank"
                       rel="sponsored nofollow noopener noreferrer"
+                      data-aff-placement={PLACEMENT}
                       onClick={() =>
                         trackAffiliateClick({
                           asin: product.asin,
@@ -261,6 +265,8 @@ export default function Comparator({
                           position: index + 1,
                           location: 'comparator',
                           lang: currentLang,
+                          placement: PLACEMENT,
+                          url: product.url,
                         })
                       }
                       className="mt-5 block w-full rounded-full bg-brand-600 px-4 py-3 text-center text-xs md:text-sm font-bold text-white hover:bg-brand-700 transition-colors"

@@ -1,11 +1,14 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import type { ClickPlacement } from '@/lib/affiliate-click'
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { ProductVisualData } from '@/lib/product-visual'
 import AmazonDisclosure from './AmazonDisclosure'
 import PhotoCredits from './PhotoCredits'
 import ProductVisual from './ProductVisual'
+
+const PLACEMENT: ClickPlacement = 'table'
 
 interface ComparisonProduct {
   name: string
@@ -122,6 +125,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                     href={p.url}
                     target="_blank"
                     rel="sponsored nofollow noopener noreferrer"
+                    data-aff-placement={PLACEMENT}
                     onClick={() =>
                       trackAffiliateClick({
                         asin: p.asin,
@@ -130,6 +134,8 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                         position: i + 1,
                         location: 'comparison_table',
                         lang,
+                        placement: PLACEMENT,
+                        url: p.url,
                       })
                     }
                     className="inline-flex px-5 py-2 bg-brand-600 text-white text-xs font-bold rounded-full hover:bg-brand-700 transition-colors"
@@ -175,6 +181,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                   href={p.url}
                   target="_blank"
                   rel="sponsored nofollow noopener noreferrer"
+                  data-aff-placement={PLACEMENT}
                   onClick={() =>
                     trackAffiliateClick({
                       asin: p.asin,
@@ -183,6 +190,8 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                       position: i + 1,
                       location: 'comparison_table',
                       lang,
+                      placement: PLACEMENT,
+                      url: p.url,
                     })
                   }
                   className="inline-flex min-h-12 items-center px-5 bg-brand-600 text-white text-sm font-bold rounded-full hover:bg-brand-700 active:bg-brand-700 transition-colors"

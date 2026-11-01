@@ -217,6 +217,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                     priceNumeric={product.priceNumeric}
                     position={i + 1}
                     location="product_card"
+                    placement="picks"
                     lang={lang}
                     className="block w-full rounded-full bg-brand-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-brand-700"
                   >

@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import type { ClickPlacement } from '@/lib/affiliate-click'
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { ProductVisualData } from '@/lib/product-visual'
 import AmazonDisclosure from './AmazonDisclosure'
@@ -25,6 +26,9 @@ interface ArticleProductCTAProps {
   /** Page listing the whole selection the products come from. */
   seeAllHref: string
 }
+
+/** Both variants: mid-article (surface after-h2) and after the article (surface bottom). */
+const PLACEMENT: ClickPlacement = 'product_block'
 
 const ctaLabels: Record<string, { title: string; subtitle: string; button: string; seeAll: string; disclosure: string }> = {
   fr: {
@@ -122,6 +126,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
             href={p.url}
             target="_blank"
             rel="sponsored nofollow noopener noreferrer"
+            data-aff-placement={PLACEMENT}
             onClick={() =>
               trackAffiliateClick({
                 asin: p.asin,
@@ -130,6 +135,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
                 position: 1,
                 location: 'article_inline',
                 lang,
+                placement: PLACEMENT,
                 surface: 'after-h2',
                 url: p.url,
               })
@@ -143,6 +149,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
           href={p.url}
           target="_blank"
           rel="sponsored nofollow noopener noreferrer"
+          data-aff-placement={PLACEMENT}
           onClick={() =>
             trackAffiliateClick({
               asin: p.asin,
@@ -151,6 +158,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
               position: 1,
               location: 'article_inline',
               lang,
+              placement: PLACEMENT,
               surface: 'after-h2',
               url: p.url,
             })
@@ -185,6 +193,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
               href={p.url}
               target="_blank"
               rel="sponsored nofollow noopener noreferrer"
+              data-aff-placement={PLACEMENT}
               onClick={() =>
                 trackAffiliateClick({
                   asin: p.asin,
@@ -193,6 +202,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
                   position: i + 1,
                   location: 'article_bottom',
                   lang,
+                  placement: PLACEMENT,
                   surface: 'bottom',
                   url: p.url,
                 })

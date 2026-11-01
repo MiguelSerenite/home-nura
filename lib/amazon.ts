@@ -38,7 +38,12 @@
 
 import type { Lang } from '@/lib/i18n'
 
+/** Market of a language version, as its tracking ID names it ("uk" for English, "se" for Swedish). */
+export type AmazonMarketCode = 'fr' | 'uk' | 'de' | 'es' | 'it' | 'nl' | 'pl' | 'se' | 'us' | 'ca'
+
 export interface AmazonMarket {
+  /** Market the version is written for, reported with every affiliate click. */
+  readonly market: AmazonMarketCode
   /** Store origin the links of this language version point to. */
   readonly baseUrl: string
   /** Store host as reported in click analytics ("amazon.fr"). */
@@ -55,16 +60,16 @@ const AMAZON_IT = { baseUrl: 'https://www.amazon.it', marketplace: 'amazon.it' }
 
 /** Store and tracking ID of every language version. */
 export const AMAZON_MARKETS: Readonly<Record<Lang, AmazonMarket>> = {
-  fr: { ...AMAZON_FR, tag: AMAZON_STORE_ID },
-  en: { ...AMAZON_FR, tag: 'homaviseuk-21' },
-  de: { ...AMAZON_FR, tag: 'homavisede-21' },
-  es: { ...AMAZON_FR, tag: 'homavisees-21' },
-  it: { ...AMAZON_IT, tag: 'homaviseit-21' },
-  nl: { ...AMAZON_FR, tag: 'homavisenl-21' },
-  pl: { ...AMAZON_FR, tag: 'homavisepl-21' },
-  sv: { ...AMAZON_FR, tag: 'homavisese-21' },
-  us: { ...AMAZON_FR, tag: 'homaviseus-21' },
-  ca: { ...AMAZON_FR, tag: 'homaviseca-21' },
+  fr: { ...AMAZON_FR, market: 'fr', tag: AMAZON_STORE_ID },
+  en: { ...AMAZON_FR, market: 'uk', tag: 'homaviseuk-21' },
+  de: { ...AMAZON_FR, market: 'de', tag: 'homavisede-21' },
+  es: { ...AMAZON_FR, market: 'es', tag: 'homavisees-21' },
+  it: { ...AMAZON_IT, market: 'it', tag: 'homaviseit-21' },
+  nl: { ...AMAZON_FR, market: 'nl', tag: 'homavisenl-21' },
+  pl: { ...AMAZON_FR, market: 'pl', tag: 'homavisepl-21' },
+  sv: { ...AMAZON_FR, market: 'se', tag: 'homavisese-21' },
+  us: { ...AMAZON_FR, market: 'us', tag: 'homaviseus-21' },
+  ca: { ...AMAZON_FR, market: 'ca', tag: 'homaviseca-21' },
 }
 
 /**
@@ -85,6 +90,12 @@ export const AMAZON_MISSING_ASINS: Readonly<Partial<Record<Lang, Readonly<Record
 export const AMAZON_MARKETPLACES: readonly string[] = [
   ...new Set(Object.values(AMAZON_MARKETS).map((market) => market.marketplace)),
 ]
+
+/** Every market code, for click validation and reports. */
+export const AMAZON_MARKET_CODES: readonly AmazonMarketCode[] = Object.values(AMAZON_MARKETS).map((market) => market.market)
+
+/** Every tracking ID the site links with, for click validation. */
+export const AMAZON_TAGS: readonly string[] = Object.values(AMAZON_MARKETS).map((market) => market.tag)
 
 export function amazonMarket(lang: Lang): AmazonMarket {
   return AMAZON_MARKETS[lang]

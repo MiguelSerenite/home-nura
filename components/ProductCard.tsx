@@ -47,6 +47,7 @@ export default async function ProductCard({ name, priceNumeric, visual, affiliat
           priceNumeric={priceNumeric}
           position={position}
           location="product_card"
+          placement="card"
           lang={lang}
           className="mt-6 block w-full rounded-full bg-brand-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-brand-700"
         >

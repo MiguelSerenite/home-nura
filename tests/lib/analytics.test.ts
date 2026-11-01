@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeEach, vi, afterEach } from 'vitest'
 import { trackEvent, trackAffiliateClick, EVENTS } from '@/lib/analytics'
+import { amazonMarket } from '@/lib/amazon'
 
 describe('trackEvent', () => {
   beforeEach(() => {
@@ -84,24 +85,28 @@ describe('trackEvent', () => {
 describe('trackAffiliateClick', () => {
   beforeEach(() => {
     // @ts-expect-error test setup
-    globalThis.window = { dataLayer: [] }
+    globalThis.window = { dataLayer: [], location: { pathname: '/fr' } }
+    vi.stubGlobal('navigator', { sendBeacon: vi.fn(() => true) })
     vi.spyOn(console, 'debug').mockImplementation(() => {})
   })
 
   afterEach(() => {
     // @ts-expect-error test cleanup
     delete globalThis.window
+    vi.unstubAllGlobals()
     vi.restoreAllMocks()
   })
 
-  it('forwards the canonical affiliate click shape', () => {
+  it('forwards the canonical affiliate click shape, with placement and market', () => {
     trackAffiliateClick({
       asin: 'B09XYZ1234',
       productName: 'Ninja Foodi Max Dual Zone',
       priceNumeric: 229,
       position: 1,
       location: 'comparison_table',
-      lang: 'fr',
+      placement: 'table',
+      lang: 'en',
+      url: `https://www.amazon.fr/dp/B09XYZ1234?tag=${amazonMarket('en').tag}`,
     })
     const payload = window.dataLayer?.[0]
     expect(payload).toMatchObject({
@@ -111,7 +116,10 @@ describe('trackAffiliateClick', () => {
       price: 229,
       position: 1,
       location: 'comparison_table',
-      lang: 'fr',
+      placement: 'table',
+      lang: 'en',
+      market: 'uk',
+      merchant: 'amazon.fr',
     })
   })
 
@@ -120,11 +128,14 @@ describe('trackAffiliateClick', () => {
       asin: 'B001',
       productName: 'Test',
       location: 'article_bottom',
+      placement: 'product_block',
       lang: 'en',
+      url: 'https://www.amazon.fr/dp/B001',
     })
     const payload = window.dataLayer?.[0]
     expect(payload).not.toHaveProperty('price')
     expect(payload).not.toHaveProperty('position')
+    expect(payload).not.toHaveProperty('surface')
     expect(payload).toHaveProperty('location', 'article_bottom')
   })
 })
@@ -144,6 +155,9 @@ describe('EVENTS constants', () => {
 
 describe('trackAffiliateClick first-party beacon', () => {
   const sendBeacon = vi.fn(() => true)
+  const IT = amazonMarket('it')
+  const NL = amazonMarket('nl')
+  const FR = amazonMarket('fr')
 
   beforeEach(() => {
     // @ts-expect-error test setup
@@ -160,36 +174,55 @@ describe('trackAffiliateClick first-party beacon', () => {
     vi.restoreAllMocks()
   })
 
-  it('posts the click to /api/click when the link has a surface', () => {
+  const bodies = () => sendBeacon.mock.calls.map((call) => JSON.parse((call as unknown as [string, string])[1]))
+
+  it('posts the click to /api/click with its placement, store and tracking ID', () => {
     trackAffiliateClick({
       asin: '',
       productName: 'Levoit Core 300S',
       location: 'article_inline',
       lang: 'it',
+      placement: 'body_link',
       surface: 'inline',
-      url: 'https://www.amazon.it/s?k=Levoit+Core+300S&tag=homaviseit-21',
+      url: `https://www.amazon.it/s?k=Levoit+Core+300S&tag=${IT.tag}`,
     })
     expect(sendBeacon).toHaveBeenCalledOnce()
-    const [endpoint, body] = sendBeacon.mock.calls[0] as unknown as [string, string]
+    const [endpoint] = sendBeacon.mock.calls[0] as unknown as [string, string]
     expect(endpoint).toBe('/api/click')
-    expect(JSON.parse(body)).toEqual({
+    expect(bodies()[0]).toEqual({
       path: '/it/blog/guide-purificateur-air-2026',
       lang: 'it',
+      placement: 'body_link',
       surface: 'inline',
       model: 'Levoit Core 300S',
-      marketplace: 'amazon.it',
+      store: 'amazon.it',
+      tag: IT.tag,
     })
   })
 
-  it('posts problem-page and Black Friday clicks with their own surface', () => {
+  it('posts every click, including the blocks that had no surface', () => {
+    window.location.pathname = '/fr'
+    trackAffiliateClick({
+      asin: 'B001',
+      productName: 'Test',
+      location: 'product_card',
+      placement: 'card',
+      lang: 'fr',
+      url: `https://www.amazon.fr/dp/B001?tag=${FR.tag}`,
+    })
+    expect(bodies()).toEqual([{ path: '/fr', lang: 'fr', placement: 'card', model: 'Test', store: 'amazon.fr', tag: FR.tag }])
+  })
+
+  it('posts problem-page and Black Friday clicks with their placement and legacy surface', () => {
     window.location.pathname = '/fr/black-friday'
     trackAffiliateClick({
       asin: '',
       productName: 'Amazon Prime free trial',
       location: 'category_picks',
       lang: 'fr',
+      placement: 'black_friday',
       surface: 'black_friday',
-      url: 'https://www.amazon.fr/amazonprime?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=homenuraen05-21',
+      url: `https://www.amazon.fr/amazonprime?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=${FR.tag}`,
     })
     window.location.pathname = '/nl/guides/probleme/robot-aspirateur-ne-charge-plus'
     trackAffiliateClick({
@@ -197,34 +230,48 @@ describe('trackAffiliateClick first-party beacon', () => {
       productName: 'Roborock Q7 M5+',
       location: 'category_picks',
       lang: 'nl',
+      placement: 'picks',
       surface: 'problem_picks',
-      url: 'https://www.amazon.fr/s?k=Roborock+Q7+M5%2B&tag=homavisenl-21',
+      url: `https://www.amazon.fr/s?k=Roborock+Q7+M5%2B&tag=${NL.tag}`,
     })
-    const bodies = sendBeacon.mock.calls.map((call) => JSON.parse((call as unknown as [string, string])[1]))
-    expect(bodies).toEqual([
-      { path: '/fr/black-friday', lang: 'fr', surface: 'black_friday', model: 'Amazon Prime free trial', marketplace: 'amazon.fr' },
+    expect(bodies()).toEqual([
+      {
+        path: '/fr/black-friday',
+        lang: 'fr',
+        placement: 'black_friday',
+        surface: 'black_friday',
+        model: 'Amazon Prime free trial',
+        store: 'amazon.fr',
+        tag: FR.tag,
+      },
       {
         path: '/nl/guides/probleme/robot-aspirateur-ne-charge-plus',
         lang: 'nl',
+        placement: 'picks',
         surface: 'problem_picks',
         model: 'Roborock Q7 M5+',
-        marketplace: 'amazon.fr',
+        store: 'amazon.fr',
+        tag: NL.tag,
       },
     ])
   })
 
-  it("reports the reader's market when the click carries no URL", () => {
+  it("falls back to the reader's market when the link names no known store or tracking ID", () => {
     window.location.pathname = '/it/black-friday'
-    trackAffiliateClick({ asin: '', productName: 'Amazon Black Friday page', location: 'category_picks', lang: 'it', surface: 'black_friday' })
+    trackAffiliateClick({ asin: '', productName: 'X', location: 'category_picks', lang: 'it', placement: 'black_friday', url: 'not a url' })
     window.location.pathname = '/de/black-friday'
-    trackAffiliateClick({ asin: '', productName: 'Amazon Black Friday page', location: 'category_picks', lang: 'de', surface: 'black_friday' })
-    const bodies = sendBeacon.mock.calls.map((call) => JSON.parse((call as unknown as [string, string])[1]))
-    expect(bodies.map((b) => b.marketplace)).toEqual(['amazon.it', 'amazon.fr'])
-  })
-
-  it('sends nothing for clicks without a surface', () => {
-    trackAffiliateClick({ asin: 'B001', productName: 'Test', location: 'product_card', lang: 'fr' })
-    expect(sendBeacon).not.toHaveBeenCalled()
+    trackAffiliateClick({
+      asin: '',
+      productName: 'X',
+      location: 'category_picks',
+      lang: 'de',
+      placement: 'black_friday',
+      url: 'https://www.amazon.fr/dp/B001?tag=someoneelse-21',
+    })
+    expect(bodies().map((b) => [b.store, b.tag])).toEqual([
+      ['amazon.it', IT.tag],
+      ['amazon.fr', amazonMarket('de').tag],
+    ])
   })
 
   it('never throws when the beacon fails', () => {
@@ -232,7 +279,15 @@ describe('trackAffiliateClick first-party beacon', () => {
       throw new Error('blocked')
     })
     expect(() =>
-      trackAffiliateClick({ asin: '', productName: 'X', location: 'article_sticky', lang: 'fr', surface: 'sticky' }),
+      trackAffiliateClick({
+        asin: '',
+        productName: 'X',
+        location: 'article_sticky',
+        lang: 'fr',
+        placement: 'sticky_bar',
+        surface: 'sticky',
+        url: 'https://www.amazon.fr/dp/B001',
+      }),
     ).not.toThrow()
   })
 })

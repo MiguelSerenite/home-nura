@@ -984,6 +984,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                   priceNumeric={product.priceNumeric}
                   position={i + 1}
                   location="product_card"
+                  placement="picks"
                   lang={lang}
                   className="block w-full rounded-full bg-brand-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-brand-700 transition-colors"
                 >
@@ -1127,6 +1128,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                     priceNumeric={product.priceNumeric}
                     position={i + 1}
                     location="article_bottom"
+                    placement="card"
                     lang={lang}
                     className="px-4 py-1.5 bg-brand-600 text-white text-xs font-bold rounded-full hover:bg-brand-700 transition-colors"
                   >

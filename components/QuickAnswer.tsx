@@ -4,7 +4,7 @@ import { trackAffiliateClick } from '@/lib/analytics'
 import type { ProductPhoto } from '@/lib/product-photo'
 import AmazonDisclosure from './AmazonDisclosure'
 import ProductPhotoImage from './ProductPhotoImage'
-import type { ClickSurface } from '@/lib/affiliate-click'
+import type { ClickPlacement, ClickSurface } from '@/lib/affiliate-click'
 
 export interface QuickAnswerPick {
   model: string
@@ -38,6 +38,7 @@ export default function QuickAnswer({
   picks,
   lang,
   kicker,
+  placement,
   location = 'article_quick_answer',
   surface = 'verdict',
 }: {
@@ -45,8 +46,10 @@ export default function QuickAnswer({
   picks: QuickAnswerPick[]
   lang: string
   kicker?: string
+  /** Block the box is for the click data: `quick_answer` in an article, `picks` on category and troubleshooting pages. */
+  placement: ClickPlacement
   location?: 'article_quick_answer' | 'category_picks'
-  /** Click-beacon surface (/api/click): the article verdict box unless the page says otherwise. */
+  /** Legacy click surface (/api/click): the article verdict box unless the page says otherwise. */
   surface?: ClickSurface
 }) {
   if (picks.length === 0) return null
@@ -58,7 +61,7 @@ export default function QuickAnswer({
       <ol className="mt-4 space-y-4">
         {picks.map((pick, i) => {
           const track = () =>
-            trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang, surface, url: pick.url })
+            trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang, placement, surface, url: pick.url })
           return (
             <li key={pick.model} className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
               <div className="flex min-w-0 items-start gap-4">
@@ -68,6 +71,7 @@ export default function QuickAnswer({
                     href={pick.url}
                     target="_blank"
                     rel="sponsored nofollow noopener noreferrer"
+                    data-aff-placement={placement}
                     tabIndex={-1}
                     aria-hidden="true"
                     onClick={track}
@@ -87,6 +91,7 @@ export default function QuickAnswer({
                 href={pick.url}
                 target="_blank"
                 rel="sponsored nofollow noopener noreferrer"
+                data-aff-placement={placement}
                 onClick={track}
                 className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-full bg-brand-600 px-5 text-sm font-bold text-white hover:bg-brand-700 active:bg-brand-700 transition-colors"
               >

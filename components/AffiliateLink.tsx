@@ -2,7 +2,7 @@
 
 import type { ReactNode } from 'react'
 import { trackAffiliateClick } from '@/lib/analytics'
-import type { ClickSurface } from '@/lib/affiliate-click'
+import type { ClickPlacement, ClickSurface } from '@/lib/affiliate-click'
 
 type ClickLocation = Parameters<typeof trackAffiliateClick>[0]['location']
 
@@ -14,7 +14,9 @@ interface AffiliateLinkProps {
   position?: number
   location: ClickLocation
   lang: string
-  /** First-party click beacon surface (/api/click); the link's own store is then recorded from its URL. */
+  /** Block of the page the link sits in, rendered as data-aff-placement and sent with the click. */
+  placement: ClickPlacement
+  /** Position on an article page (legacy click dimension, optional). */
   surface?: ClickSurface
   className?: string
   children: ReactNode
@@ -31,7 +33,8 @@ interface AffiliateLinkProps {
  *
  * Always renders `target="_blank" rel="sponsored nofollow noopener noreferrer"`
  * so Amazon affiliate compliance and security are baked in — callers
- * just pass the href, tracking metadata, and presentation classes.
+ * just pass the href, tracking metadata (placement included), and
+ * presentation classes.
  */
 export default function AffiliateLink({
   href,
@@ -44,6 +47,7 @@ export default function AffiliateLink({
   className,
   children,
   ariaLabel,
+  placement,
   surface,
 }: AffiliateLinkProps) {
   return (
@@ -52,16 +56,9 @@ export default function AffiliateLink({
       target="_blank"
       rel="sponsored nofollow noopener noreferrer"
       aria-label={ariaLabel}
+      data-aff-placement={placement}
       onClick={() =>
-        trackAffiliateClick({
-          asin,
-          productName,
-          priceNumeric,
-          position,
-          location,
-          lang,
-          ...(surface ? { surface, url: href } : {}),
-        })
+        trackAffiliateClick({ asin, productName, priceNumeric, position, location, lang, placement, surface, url: href })
       }
       className={className}
     >

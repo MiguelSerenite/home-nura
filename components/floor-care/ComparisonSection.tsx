@@ -68,6 +68,7 @@ export default function ComparisonSection({ data, buyLabel }: { data: FloorCareG
                         productName={pickName(rowPicks[r])}
                         position={r + 1}
                         location="comparison_table"
+                        placement="floor_care"
                         surface="floor_care"
                         lang={market}
                         ariaLabel={`${buyLabel}: ${pickName(rowPicks[r])}`}

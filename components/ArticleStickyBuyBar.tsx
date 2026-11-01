@@ -1,7 +1,10 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import type { ClickPlacement } from '@/lib/affiliate-click'
 import { trackAffiliateClick } from '@/lib/analytics'
+
+const PLACEMENT: ClickPlacement = 'sticky_bar'
 
 interface StickyProduct {
   /** Empty for models linked through an Amazon search (no catalog ASIN). */
@@ -87,6 +90,7 @@ export default function ArticleStickyBuyBar({ product, lang }: { product: Sticky
           href={product.url}
           target="_blank"
           rel="sponsored nofollow noopener noreferrer"
+          data-aff-placement={PLACEMENT}
           onClick={() =>
             trackAffiliateClick({
               asin: product.asin,
@@ -95,6 +99,7 @@ export default function ArticleStickyBuyBar({ product, lang }: { product: Sticky
               position: 1,
               location: 'article_sticky',
               lang,
+              placement: PLACEMENT,
               surface: 'sticky',
               url: product.url,
             })

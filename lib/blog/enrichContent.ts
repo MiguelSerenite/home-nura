@@ -12,9 +12,11 @@
  * versions a model the market does not sell (`unlinked`) is still matched,
  * so its mentions are never read as another model, but gets no link.
  *
- * Links carry `data-aff-*` attributes; AffiliateClickTracker records the
+ * Links carry `data-aff-*` attributes (placement `body_link` for the CTA
+ * boxes, `table` for table cells); AffiliateClickTracker records the
  * clicks (this HTML is rendered with dangerouslySetInnerHTML).
  */
+import type { ClickPlacement } from '@/lib/affiliate-click'
 import type { ArticleAffiliateModel } from '@/lib/blog/article-products'
 import { bestMatch, findMentions, modelKey, normalizeTokens, type ModelKey } from '@/lib/blog/model-match'
 
@@ -25,6 +27,13 @@ const PRODUCT_BLOCK_H2 = 2
 const MAX_CELL_EXTRA_TOKENS = 4
 
 const AFFILIATE_REL = 'sponsored nofollow noopener noreferrer'
+
+/** Click placement and legacy surface of each kind of in-article link. */
+const LINK_KINDS = {
+  inline: { placement: 'body_link', surface: 'inline' },
+  table: { placement: 'table', surface: 'table' },
+} as const satisfies Record<string, { placement: ClickPlacement; surface: string }>
+type LinkKind = keyof typeof LINK_KINDS
 
 const LABELS: Record<string, { button: string; note: string }> = {
   fr: { button: 'Voir le prix sur Amazon', note: 'Lien affilié Amazon' },
@@ -50,10 +59,11 @@ export function escapeHtml(text: string): string {
 
 const stripTags = (html: string) => html.replace(/<[^>]+>/g, ' ')
 
-function linkAttributes(model: ArticleAffiliateModel, surface: 'inline' | 'table'): string {
+function linkAttributes(model: ArticleAffiliateModel, kind: LinkKind): string {
+  const { placement, surface } = LINK_KINDS[kind]
   const asin = model.asin ? ` data-aff-asin="${escapeHtml(model.asin)}"` : ''
   return (
-    `href="${escapeHtml(model.url)}" target="_blank" rel="${AFFILIATE_REL}"` +
+    `href="${escapeHtml(model.url)}" target="_blank" rel="${AFFILIATE_REL}" data-aff-placement="${placement}"` +
     ` data-aff-surface="${surface}" data-aff-model="${escapeHtml(model.name)}"${asin}`
   )
 }

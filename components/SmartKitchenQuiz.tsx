@@ -3,9 +3,13 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import type { SmartKitchenCategory, SmartKitchenProduct } from '@/lib/smart-kitchen-products'
+import type { ClickPlacement } from '@/lib/affiliate-click'
 import { trackAffiliateClick, trackEvent, EVENTS } from '@/lib/analytics'
 import AmazonDisclosure from './AmazonDisclosure'
 import ProductVisual from './ProductVisual'
+
+/** The product the quiz recommends. */
+const PLACEMENT: ClickPlacement = 'quiz'
 
 type PainPoint = 'time' | 'precision' | 'monitoring' | 'automation' | 'safety'
 type UseFrequency = 'daily' | 'often' | 'weekends' | 'rarely'
@@ -469,6 +473,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
                 href={p.url}
                 target="_blank"
                 rel="sponsored nofollow noopener noreferrer"
+                data-aff-placement={PLACEMENT}
                 onClick={() =>
                   trackAffiliateClick({
                     asin: p.asin,
@@ -477,6 +482,8 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
                     position: i + 1,
                     location: 'smart_kitchen',
                     lang: currentLang,
+                    placement: PLACEMENT,
+                    url: p.url,
                   })
                 }
                 className="mt-auto block w-full rounded-full bg-brand-600 px-3 py-2.5 text-center text-xs font-bold text-white hover:bg-brand-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"

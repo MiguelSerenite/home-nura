@@ -11,9 +11,15 @@ import { articleSlugOf, MAX_CLICK_BODY_LENGTH, parseAffiliateClick } from '@/lib
  * as /api/vitals: no third-party script, no cookie, no personal data —
  * the IP is only used for the in-memory rate limit, never logged.
  *
+ * Each line names the block clicked (`placement`), the reader's market
+ * (`market`, from the page language), the Amazon store and the tracking ID
+ * of the link: README.md ("Clics affiliés") and
+ * scripts/analytics/affiliate-clicks.ts read them back from the logs.
+ *
  * Security:
  *   - Body capped at MAX_CLICK_BODY_LENGTH; strict field validation
- *     (known surfaces, locales and Amazon stores; bounded path and model).
+ *     (closed lists of placements, surfaces, locales, Amazon stores and
+ *     tracking IDs; bounded path and model). Unknown fields are dropped.
  *   - 30 hits per minute per IP: plenty for a reader, tight for a script.
  */
 
@@ -50,9 +56,12 @@ export async function POST(request: Request) {
       path: click.path,
       articleSlug: articleSlugOf(click.path),
       lang: click.lang,
+      market: click.market,
+      placement: click.placement,
       surface: click.surface,
       model: click.model,
-      marketplace: click.marketplace,
+      store: click.store,
+      tag: click.tag,
     }),
   )
 
