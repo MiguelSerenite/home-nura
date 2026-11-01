@@ -60,6 +60,16 @@ async function tableTop(page: Page): Promise<number> {
 
 for (const sample of samples) {
   test.describe(`market page ${href(sample)}`, () => {
+    // Web-vitals beacons are answered here: this spec loads many pages and
+    // would spend /api/vitals' per-IP rate limit for the specs after it.
+    test.beforeEach(async ({ page }) => {
+      await page.addInitScript(() => {
+        const send = navigator.sendBeacon?.bind(navigator)
+        if (send) navigator.sendBeacon = (url, data) => (String(url).includes('/api/vitals') ? true : send(url, data))
+      })
+      await page.route('**/api/vitals', (route) => route.fulfill({ status: 204 }))
+    })
+
     test('is served under its own locale only', async ({ request }) => {
       expect((await request.get(href(sample))).status()).toBe(200)
       for (const lang of OTHER_LOCALES.filter((l) => l !== sample.locale)) {

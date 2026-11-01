@@ -5,7 +5,7 @@ import RichText from '@/components/RichText'
 import Kicker from '@/components/ui/Kicker'
 import { BCP47_LOCALE } from '@/lib/i18n'
 import type { RelatedLink } from '@/lib/market-pages/data'
-import { rankingSectionIndex } from '@/lib/market-pages/ranking'
+import { boxedSectionIndexes, rankingSectionIndex, testersSectionIndex } from '@/lib/market-pages/template-sections'
 import { marketPageBreadcrumbs, marketPageSchemas } from '@/lib/market-pages/schema'
 import type { MarketPage } from '@/lib/market-pages/types'
 import { MARKET_PAGE_UI } from '@/lib/market-pages/ui'
@@ -118,12 +118,12 @@ export function Ranking({ page }: { page: MarketPage }) {
   )
 }
 
-/** The writer's sections, the "why this ranking" one apart (shown in the ranking box). */
+/** The writer's sections, those a template box shows apart (ranking, testers). */
 export function Sections({ page }: { page: MarketPage }) {
-  const inRanking = rankingSectionIndex(page)
+  const boxed = boxedSectionIndexes(page)
   return (
     <div className="mx-auto max-w-3xl space-y-10 px-4 py-8 md:px-6 md:py-12">
-      {page.sections.map((section, i) => i === inRanking ? null : (
+      {page.sections.map((section, i) => boxed.has(i) ? null : (
         <section key={i} aria-labelledby={`section-${i + 1}`}>
           <h2 id={`section-${i + 1}`} className={`mb-4 ${H2}`}>
             {section.h2}
@@ -139,6 +139,7 @@ export function Sections({ page }: { page: MarketPage }) {
 export function IndependentTesters({ page }: { page: MarketPage }) {
   if (page.independentTesters.length === 0) return null
   const ui = MARKET_PAGE_UI[page.locale]
+  const explanation = page.sections[testersSectionIndex(page)]
   return (
     <section id="testers" aria-labelledby="testers-title" className="mx-auto max-w-3xl scroll-mt-24 px-4 pb-8 md:px-6 md:pb-12">
       <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5 md:p-6">
@@ -146,6 +147,11 @@ export function IndependentTesters({ page }: { page: MarketPage }) {
           {ui.testersTitle}
         </h2>
         <p className="mt-2 text-sm leading-relaxed text-slate-600">{ui.testersIntro}</p>
+        {explanation && (
+          <div className="mt-4">
+            <RichText blocks={explanation.blocks} />
+          </div>
+        )}
         <ul className="mt-4 space-y-3">
           {page.independentTesters.map((tester) => (
             <li key={tester.url} className="rounded-xl border border-slate-200 bg-white p-4">

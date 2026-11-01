@@ -4,7 +4,7 @@ import { Fragment, createElement } from 'react'
 import MarketPageView from '@/components/market-pages/MarketPageView'
 import MarketPagesHubList from '@/components/market-pages/HubList'
 import RichText from '@/components/RichText'
-import { rankingSectionIndex } from '@/lib/market-pages/ranking'
+import { rankingSectionIndex, testersSectionIndex } from '@/lib/market-pages/template-sections'
 import { amazonAssociateDisclosure } from '@/lib/affiliate-disclosure'
 import { AUTHORS } from '@/lib/authors'
 import { getMarketPages, marketPageHref } from '@/lib/market-pages/data'
@@ -106,6 +106,21 @@ describe.each(pages.map((page) => [marketPageHref(page), page] as const))('%s', 
       const body = renderToStaticMarkup(createElement(RichText, { blocks: page.sections[index].blocks }))
       expect(block(html, 'ranking')).toContain(body)
     }
+  })
+
+  it('shows the writer’s "what independent testers found" section once, inside the testers box', () => {
+    const ui = MARKET_PAGE_UI[page.locale]
+    const index = testersSectionIndex(page)
+    expect(html.split(`>${escaped(ui.testersTitle)}</h2>`).length - 1).toBeLessThanOrEqual(1)
+    if (index >= 0) {
+      const body = renderToStaticMarkup(createElement(RichText, { blocks: page.sections[index].blocks }))
+      expect(block(html, 'testers')).toContain(body)
+    }
+  })
+
+  it('never repeats a heading (two regions of the same name fail accessibility checks)', () => {
+    const headings = [...html.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map((match) => match[1])
+    expect(headings.filter((heading, i) => headings.indexOf(heading) !== i)).toEqual([])
   })
 
   it('fixes the table’s first column and ships the FAQ as FAQPage', () => {
