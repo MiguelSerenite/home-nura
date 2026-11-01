@@ -1356,7 +1356,7 @@ export const article: BlogArticle = {
         pl: `Jeśli każdy posiłek oznacza oszczędność około 0,7 kWh, to przy pięciu użyciach w tygodniu daje to prawie 182 kWh rocznie. Pomnóż tę wartość przez cenę 1 kWh z rachunku: przy przykładowej stawce 1,10 zł/kWh wychodzi około 200 zł rocznie.`,
         sv: `Med ungefär 0,7 kWh sparat per måltid blir fem omgångar i veckan nästan 182 kWh per år. Multiplicera med elpriset per kWh på din elräkning: med ett exempelpris på 2,75 kr/kWh blir det cirka 500 kr per år.`,
         us: `At about 0.7 kWh saved per meal, five uses a week add up to roughly 182 kWh a year. Multiply that by the rate on your utility bill: at an example rate of 20 cents per kWh, it comes to about $36 a year. Rates vary by state and utility, so use your own.`,
-        ca: `At about 0.7 kWh saved per meal, five uses a week add up to roughly 182 kWh a year. Multiply by the rate per kWh on your electricity bill: at an example rate of 10¢ per kWh, that's about $18 a year. Your actual rate depends on your province and utility.`,
+        ca: `At about 0.7 kWh saved per meal, five uses a week add up to roughly 182 kWh a year. Multiply that by the rate per kWh on your electricity bill, which depends on your province and utility.`,
       },
     },
     {

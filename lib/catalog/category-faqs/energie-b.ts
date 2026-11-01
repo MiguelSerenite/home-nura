@@ -88,7 +88,7 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to run motorized blinds?",
-        answer: "Very little: a blind motor runs for seconds a day, so running costs come to pennies a year. For example, a 25 W motor working 30 seconds twice a day uses about 0.15 kWh a year. Standby usually matters more: 0.3 W around the clock adds roughly 2.6 kWh. Multiply the total by your rate per kWh (at an example 20 cents, that's under 60 cents a year); for battery motors, the cost is simply what it takes to recharge them.",
+        answer: "Very little: a blind motor runs for seconds a day, so running costs come to pennies a year. For example, a 25 W motor working 30 seconds twice a day uses about 0.15 kWh a year. Standby usually matters more: 0.3 W around the clock adds roughly 2.6 kWh. Multiply the total by your rate per kWh: at the US average residential rate of 18.16 cents (EIA, August 2026), that's about 50 cents a year. For battery motors, the cost is simply what it takes to recharge them.",
       },
       {
         question: "Why has my smart blind stopped responding?",
@@ -110,7 +110,7 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to run motorized blinds?",
-        answer: "Very little: a blind motor runs for seconds a day, so running costs come to cents a year. For example, a 25 W motor working 30 seconds twice a day uses about 0.15 kWh a year. Standby usually matters more: 0.3 W around the clock adds roughly 2.6 kWh. Multiply the total by your rate per kWh: at an example rate of 10¢, that’s under 30¢ a year. For battery motors, that’s simply the cost of recharging them.",
+        answer: "Very little: a blind motor runs for seconds a day, so running costs come to cents a year. For example, a 25 W motor working 30 seconds twice a day uses about 0.15 kWh a year. Standby usually matters more: 0.3 W around the clock adds roughly 2.6 kWh. Multiply the total, under 3 kWh a year, by the rate on your bill, which depends on your province and utility. For battery motors, that’s simply the cost of recharging them.",
       },
       {
         question: "Why did my smart blind stop responding?",
@@ -201,7 +201,7 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "Does an air quality monitor detect carbon monoxide?",
-        answer: "No, most air quality monitors measure CO2, particles, VOCs and humidity, but not carbon monoxide, and none of them replaces a CO alarm. Install a CO alarm in any room with a gas furnace or boiler, a wood stove or another fuel-burning appliance. In the US, CO alarms are listed to UL 2034, while European models carry EN 50291, so check the listing of the version sold in your country.",
+        answer: "No, most air quality monitors measure CO2, particles, VOCs and humidity, but not carbon monoxide, and none of them replaces a CO alarm. Install a CO alarm in any room with a gas furnace or boiler, a wood stove or another fuel-burning appliance. In the US, CO alarms are listed to UL 2034, so look for that listing on the box.",
       },
       {
         question: "Is a PM2.5 sensor worth it if I have a wood stove?",
@@ -435,11 +435,11 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "Zigbee, Z-Wave, Wi-Fi or Thread: which protocol should I choose?",
-        answer: "For battery-powered sensors, choose Zigbee or Thread: both use little power and build a mesh in which plug-in devices relay the signal. Wi-Fi suits plugs and cameras but crowds your router once you add dozens of devices. Z-Wave is reliable but pricier, and it runs on different frequencies by region (908 MHz in the US, 868 MHz in Europe), so buy modules made for your region: the two aren't compatible.",
+        answer: "For battery-powered sensors, choose Zigbee or Thread: both use little power and build a mesh in which plug-in devices relay the signal. Wi-Fi suits plugs and cameras but crowds your router once you add dozens of devices. Z-Wave is reliable but pricier, and it runs on different frequencies by region (908 MHz in the US), so buy modules made for the US: modules from other regions won't work here.",
       },
       {
         question: "How much does it cost to run a smart home hub?",
-        answer: "Very little: a hub drawing 5 W all year uses 5 W × 8,760 hours, or about 44 kWh. At an example rate of 20 cents per kWh, that's roughly $8.80 a year; use the rate on your utility bill for an exact figure. A mini PC running Home Assistant may draw more and a Raspberry Pi often less, so check with a smart plug that measures energy.",
+        answer: "Very little: a hub drawing 5 W all year uses 5 W × 8,760 hours, or about 44 kWh. At the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that's roughly $8 a year; use the rate on your utility bill for an exact figure. A mini PC running Home Assistant may draw more and a Raspberry Pi often less, so check with a smart plug that measures energy.",
       },
       {
         question: "Why do my Zigbee devices keep dropping off?",
@@ -461,7 +461,7 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to run a smart home hub?",
-        answer: "Very little: a hub drawing 5 W all year uses 5 W × 8,760 hours, about 44 kWh. At an example rate of 10¢ per kWh, that’s roughly $4.40 a year; your rate depends on your province and utility, so use the one on your bill for an exact figure. A mini PC running Home Assistant may draw more, a Raspberry Pi often less, so check with a smart plug that measures energy.",
+        answer: "Very little: a hub drawing 5 W all year uses 5 W × 8,760 hours, about 44 kWh. Multiply that by the rate per kWh on your bill, which depends on your province and utility. A mini PC running Home Assistant may draw more, a Raspberry Pi often less, so check with a smart plug that measures energy.",
       },
       {
         question: "Why do my Zigbee devices keep dropping off?",
@@ -543,20 +543,20 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
     ],
     us: [
       {
-        question: "What size home EV charger do I need: 7 kW or 22 kW?",
-        answer: "For almost every home, about 7 kW is plenty: eight hours overnight adds roughly 56 kWh, more than enough for most daily driving. On European single-phase supplies, about 7.4 kW is the most one phase can deliver, and a 22 kW charger needs a three-phase supply, which is rare in homes, plus a car that accepts 22 kW on AC. In North America, home Level 2 charging runs on a 240 V circuit, so have a licensed electrician confirm that your electrical panel has the capacity.",
+        question: "What size home EV charger do I need: 32, 40 or 48 amps?",
+        answer: "For most homes, a 32 to 40 A Level 2 charger is plenty. A 32 A unit on a 40 A circuit delivers about 7.7 kW, so eight hours overnight adds roughly 60 kWh, more than enough for most daily driving. A 48 A (11.5 kW) charger needs a 60 A circuit and a car that accepts that rate on AC. Home Level 2 charging runs on a 240 V circuit, so have a licensed electrician confirm that your electrical panel has the capacity.",
       },
       {
         question: "How much does it cost to charge an electric car at home?",
-        answer: "Multiply the energy you add by your electricity rate, allowing roughly 10% extra for charging losses. For example, adding 40 kWh to the battery takes about 44 kWh from the grid; at an example off-peak rate of 10 cents per kWh, that's about $4.40, while at 20 cents it would be about $8.80. Check the rates on your utility bill: scheduling charging overnight on a time-of-use rate plan makes the biggest difference to running costs.",
+        answer: "Multiply the energy you add by your electricity rate, allowing roughly 10% extra for charging losses. For example, adding 40 kWh to the battery takes about 44 kWh from the grid; at the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that's about $8, and less on a cheaper off-peak rate. Check the rates on your utility bill: scheduling charging overnight on a time-of-use rate plan makes the biggest difference to running costs.",
       },
       {
         question: "Tethered or untethered EV charger: which should I choose?",
-        answer: "Choose tethered for convenience: the cable stays attached, so you simply plug in. Make sure the connector matches your car: almost every new EV in Europe uses Type 2, while most EVs in North America use a J1772 or NACS connector. Untethered chargers look cleaner on the wall and let you swap cables if a future car needs a different one, but you have to take the cable out of the trunk every time. Both types charge at the same speed.",
+        answer: "Choose tethered for convenience: the cable stays attached, so you simply plug in. Make sure the connector matches your car: most EVs sold in the US use either a J1772 or a NACS (Tesla-style) connector. Untethered chargers look cleaner on the wall and let you swap cables if a future car needs a different one, but you have to take the cable out of the trunk every time. Both types charge at the same speed.",
       },
       {
         question: "Can I charge my EV from a regular outlet, or do I need a wall charger?",
-        answer: "An outlet can be enough if you drive little and can plug in all night; a wall charger makes sense for long daily drives or big batteries. In North America, Level 1 charging uses a standard 120 V outlet and is slow, while a Level 2 wall charger runs on a 240 V circuit. In France, a heavy-duty outlet delivers about 3.2 kW, or roughly 9 to 12 miles of range per hour of charging, versus more than double that from a 7.4 kW wall charger. Have a licensed electrician check the circuit you plan to use, and never charge through an extension cord.",
+        answer: "An outlet can be enough if you drive little and can plug in all night; a wall charger makes sense for long daily drives or big batteries. In North America, Level 1 charging uses a standard 120 V outlet and is slow, while a Level 2 wall charger runs on a 240 V circuit. A Level 1 outlet delivers about 1.4 kW, roughly 3 to 5 miles of range per hour of charging, versus several times that from a 7.7 kW Level 2 charger. Have a licensed electrician check the circuit you plan to use, and never charge through an extension cord.",
       },
       {
         question: "Is a smart home EV charger worth it?",
@@ -570,7 +570,7 @@ export const ENERGIE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to charge an electric car at home?",
-        answer: "Multiply the energy you add by your rate per kWh, allowing roughly 10% extra for charging losses. For example, adding 40 kWh to the battery takes about 44 kWh from the grid; at an example rate of 10¢ per kWh, that’s about $4.40. Your rate depends on your province and utility, and scheduling charging overnight on off-peak or time-of-use rates, where they’re offered, makes the biggest difference to running costs.",
+        answer: "Multiply the energy you add by your rate per kWh, allowing roughly 10% extra for charging losses. For example, adding 40 kWh to the battery takes about 44 kWh from the grid; multiply that by the rate per kWh on your bill, which depends on your province and utility. Scheduling charging overnight on off-peak or time-of-use rates, where they’re offered, makes the biggest difference to running costs.",
       },
       {
         question: "Tethered or untethered EV charger: which should I choose?",

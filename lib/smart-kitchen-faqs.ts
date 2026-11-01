@@ -1012,11 +1012,11 @@ export const smartKitchenFaqs: FaqData = {
       },
       {
         question: 'What\'s the maximum load a smart plug can handle?',
-        answer: 'Smart plugs sold in Europe are rated for 10 to 16 amps, or 2,200 to 3,500 watts at 230 V. That covers an air fryer (1,500 to 2,000 W), while a 3,000 W oven or induction cooktop is right at the limit and needs a 16 A model on a dedicated wall outlet. On a standard 120 V US outlet, the same current carries only about half as many watts (a 15 A plug tops out at 1,800 W), so always check the plug\'s maximum wattage against the appliance\'s label.',
+        answer: 'In the US, most smart plugs are rated for 15 A, or 1,800 W on a standard 120 V outlet: the TP-Link Tapo P115 and Tapo P110M, for example, are both 15 A models. That covers most air fryers, which are built to stay at or under 1,800 W, but check the plug\'s maximum wattage against the appliance\'s label. Built-in ovens, ranges and induction cooktops run on dedicated 240 V circuits and should never go through a smart plug.',
       },
       {
         question: 'Do smart plugs open my Wi-Fi network to security flaws?',
-        answer: 'The risk is low with established brands (TP-Link, Xiaomi, Eve) that ship regular firmware updates. For maximum security, put your smart devices on a VLAN or a guest network. Avoid no-name brands selling for under $5, which often have a history of unpatched security flaws (CVEs).',
+        answer: 'The risk is low with established brands (TP-Link, Eve, Meross) that ship regular firmware updates. For maximum security, put your smart devices on a VLAN or a guest network. Avoid no-name brands selling for under $5, which often have a history of unpatched security flaws (CVEs).',
       },
       {
         question: 'How do I add a smart plug to a home automation routine?',
@@ -1124,11 +1124,11 @@ export const smartKitchenFaqs: FaqData = {
       },
       {
         question: 'What maximum power can a smart plug handle?',
-        answer: 'Plugs sold in Europe accept 10 to 16 amps, or 2,200 to 3,500 watts at 230 V. In Canada, a standard 120 V outlet on a 15 A circuit delivers up to 1,800 W, so look for a plug rated for 15 A and compare its wattage with the appliance\'s label. A wall oven, a range or a built-in induction cooktop runs on a dedicated 240 V circuit, so it can\'t go on a smart plug. Countertop appliances such as air fryers are designed for a standard outlet, so a 15 A plug can handle them.',
+        answer: 'In Canada, a standard 120 V outlet on a 15 A circuit delivers up to 1,800 W, so look for a plug rated for 15 A and compare its wattage with the appliance\'s label. A wall oven, a range or a built-in induction cooktop runs on a dedicated 240 V circuit, so it can\'t go on a smart plug. Countertop appliances such as air fryers are designed for a standard outlet, so a 15 A plug can handle them.',
       },
       {
         question: 'Do smart plugs expose my Wi-Fi network to security flaws?',
-        answer: 'The risk is low with established brands (TP-Link, Xiaomi, Eve) that release regular firmware updates. For maximum security, put smart devices on a VLAN or guest network. Avoid unknown brands selling for under $10 — they often have a history of unpatched vulnerabilities (CVEs).',
+        answer: 'The risk is low with established brands (TP-Link, Meross) that release regular firmware updates. For maximum security, put smart devices on a VLAN or guest network. Avoid unknown brands selling for under $10 — they often have a history of unpatched vulnerabilities (CVEs).',
       },
       {
         question: 'How do I add a smart plug to a smart home routine?',

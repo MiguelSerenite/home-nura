@@ -144,7 +144,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     pl: { title: "Frytkownica beztłuszczowa: zużycie prądu i koszt 2026", description: "Ile prądu zużywa frytkownica beztłuszczowa? Zużycie w kWh, roczny koszt przy przykładowej stawce 1,50 zł/kWh, porównanie z piekarnikiem i frytownicą." },
     sv: { title: "Airfryerns elförbrukning och elkostnad 2026", description: "Hur mycket el drar en airfryer? Se kWh per tillagning, årskostnad med ett exempelpris på el, jämförelse med ugn och fritös samt energisnåla modeller." },
     us: { title: "How Much Electricity Does an Air Fryer Use? (2026)", description: "How much electricity does an air fryer use? kWh per session, yearly cost at an example 20 cents per kWh, oven and deep fryer compared, efficient models." },
-    ca: { title: "How Much Electricity Does an Air Fryer Use? 2026 Guide", description: "How much electricity does an air fryer use? kWh per session, yearly cost at an example rate of 10¢/kWh, oven and deep fryer compared, and efficient models." },
+    ca: { title: "How Much Electricity Does an Air Fryer Use? 2026 Guide", description: "How much electricity does an air fryer use? kWh per session and per year, how to price it at your rate, oven and deep fryer compared, efficient models." },
   },
   "meal-prep-airfryer-semaine": {
     fr: { title: "Meal prep à l'airfryer : planning et recettes semaine", description: "Planifiez votre semaine de repas à l'airfryer : planning du lundi au vendredi, liste de courses, batch cooking du dimanche, conservation et réchauffage." },

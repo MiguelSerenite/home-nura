@@ -934,7 +934,7 @@ export const article: BlogArticle = {
         pl: 'Kompaktowa frytkownica o pojemności 4 l (ok. 1500 W) zużywa ok. 0,5 kWh w ciągu 20 minut pracy. To znacznie mniej niż tradycyjny piekarnik, który przy tej samej porcji musi nagrzać dużą komorę i długo się rozgrzewa.',
         sv: 'En kompakt airfryer på 4 liter (runt 1 500 W) förbrukar ungefär 0,5 kWh under 20 minuters tillagning. Det är betydligt mindre än en vanlig ugn, som måste värma upp ett stort utrymme och förvärmas länge för samma portion.',
         us: 'A compact 4.2-quart air fryer (around 1,500 W) uses about 0.5 kWh for 20 minutes of cooking, or about 10 cents at an example rate of 20 cents per kWh (check the rate on your utility bill). That\'s far less than a regular oven, which has to heat a large cavity and needs a long preheat for the same portion.',
-        ca: 'A compact 4 L air fryer (~1,500 W) uses about 0.5 kWh for 20 minutes of cooking, or about 5¢ at an example rate of 10¢/kWh. That is far less than a conventional oven, which has to heat a large cavity and needs a long preheat for the same portion.',
+        ca: 'A compact 4 L air fryer (~1,500 W) uses about 0.5 kWh for 20 minutes of cooking, so a session costs half your rate per kWh, which depends on your province and utility. That is far less than a conventional oven, which has to heat a large cavity and needs a long preheat for the same portion.',
       },
     },
     {

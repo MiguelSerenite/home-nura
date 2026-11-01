@@ -189,7 +189,7 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "Can a kitchen scale measure milk and water in ml or fl oz?",
-        answer: "Yes, many have a liquid mode, which is accurate for water because 1 ml of water weighs about 1 g. Milk is slightly heavier and oil lighter, so expect a small error unless the scale has a separate milk setting. For fluid ounces, check which kind the scale uses: a US fl oz is about 29.6 ml, while a UK (imperial) fl oz is about 28.4 ml, and a scale designed for Europe may use either. For recipes written in cups, converting to grams gives more reliable results.",
+        answer: "Yes, many have a liquid mode, which is accurate for water because 1 ml of water weighs about 1 g. Milk is slightly heavier and oil lighter, so expect a small error unless the scale has a separate milk setting. For fluid ounces, check which kind the scale uses: a US fl oz is about 29.6 ml, while a UK (imperial) fl oz is about 28.4 ml, and some scales use the imperial one. For recipes written in cups, converting to grams gives more reliable results.",
       },
       {
         question: "How do I check that my kitchen scale is accurate?",
@@ -637,11 +637,11 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a smart plug cost to run?",
-        answer: "Very little: a typical smart plug draws about 1 W or less on standby, which is under 9 kWh a year, or roughly $1.80 at an example rate of 20 cents per kWh. The savings come from what it turns off: cutting a TV, game console and soundbar that draw 15 W on standby for 16 hours a day saves 15 × 16 × 365 = 88 kWh, about $17.60 a year at the same rate. Check the rate on your utility bill, since it varies widely. Don't cut power to refrigerators, freezers or anything that needs to stay on to work properly.",
+        answer: "Very little: a typical smart plug draws about 1 W or less on standby, which is under 9 kWh a year. At the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that's roughly $1.60. The savings come from what it turns off: cutting a TV, game console and soundbar that draw 15 W on standby for 16 hours a day saves 15 × 16 × 365 = 88 kWh, about $15.90 a year at the same rate. Check the rate on your utility bill, since it varies widely. Don't cut power to refrigerators, freezers or anything that needs to stay on to work properly.",
       },
       {
         question: "Are smart plugs safe from hackers?",
-        answer: "Plugs from reputable brands are reasonably safe if you keep them updated. Before you buy, check how long the brand commits to security updates and whether it offers a way to report vulnerabilities; in the EU, connected radio devices placed on the market since August 1, 2025 must meet cybersecurity requirements. Change any default password, keep the firmware current, use a strong Wi-Fi password and consider a guest network for smart devices. A hacked plug can only switch its outlet on and off, but it can give an attacker a foothold on your network.",
+        answer: "Plugs from reputable brands are reasonably safe if you keep them updated. Before you buy, check how long the brand commits to security updates and whether it offers a way to report vulnerabilities. Change any default password, keep the firmware current, use a strong Wi-Fi password and consider a guest network for smart devices. A hacked plug can only switch its outlet on and off, but it can give an attacker a foothold on your network.",
       },
     ],
     ca: [
@@ -659,7 +659,7 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a smart plug cost to run?",
-        answer: "Very little: a typical smart plug draws around 1 W or less on standby, which is under 9 kWh a year, or about 90¢ at an example rate of 10¢ per kWh. The saving comes from what it switches off: cutting a TV, game console and soundbar drawing 15 W on standby for 16 hours a day saves 15 × 16 × 365 = 88 kWh, about $9 a year at the same rate. Your rate depends on your province and utility, so check your bill. Avoid switching off fridges, freezers or anything that needs to stay on to work properly.",
+        answer: "Very little: a typical smart plug draws around 1 W or less on standby, which is under 9 kWh a year. The saving comes from what it switches off: cutting a TV, game console and soundbar drawing 15 W on standby for 16 hours a day saves 15 × 16 × 365 = 88 kWh a year, about 10 times what the plug itself uses. Multiply those kWh by the rate on your bill, which depends on your province and utility. Avoid switching off fridges, freezers or anything that needs to stay on to work properly.",
       },
       {
         question: "Are smart plugs safe from hackers?",

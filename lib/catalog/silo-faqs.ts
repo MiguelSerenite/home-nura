@@ -198,8 +198,8 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
         answer: "Tak, może zmniejszyć zużycie, bo ustawia temperaturę zgodnie z Twoim planem dnia i wyłącza ogrzewanie, gdy nie ma Cię w domu, ale oszczędność zależy od izolacji budynku i Twoich nawyków. Sprawdź zgodność z kotłem lub grzejnikami i wybierz model, który pozwala sterować każdym pomieszczeniem osobno.",
       },
       {
-        question: "Czy elektrownie balkonowe są dozwolone w Europie?",
-        answer: "W wielu krajach europejskich tak, choć dopuszczalna moc różni się w zależności od kraju; w Niemczech na przykład typowy limit wynosi 800 W po stronie falownika. Sprawdź lokalne przepisy, ewentualny obowiązek zgłoszenia instalacji operatorowi sieci oraz to, czy falownik ma certyfikat zgodności z normami europejskimi.",
+        question: "Co sprawdzić przed podłączeniem fotowoltaiki balkonowej w Polsce?",
+        answer: "Najpierw zapytaj swojego operatora sieci dystrybucyjnej (OSD), czy i jak zgłosić instalację; w bloku może być też potrzebna zgoda wspólnoty mieszkaniowej lub spółdzielni na montaż na balkonie. Sprawdź też, czy falownik ma oznakowanie CE i deklarację zgodności. Uważaj na poradniki z Niemiec: tamtejszy limit 800 W po stronie falownika to przepis niemiecki, nie polski.",
       },
       {
         question: "Jak sprawdzić, które urządzenia w domu zużywają najwięcej prądu?",
@@ -243,7 +243,7 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       },
       {
         question: "Is plug-in balcony solar allowed where I live?",
-        answer: "In many European countries, yes, within power limits that vary by country (in Germany, for example, the common limit is 800 W on the inverter side), and you may have to notify the grid operator. In the US, rules for plug-in solar vary by state and utility, so check with your utility before you connect a kit. Either way, make sure the inverter is certified for your market: European standards in Europe, a UL or ETL listing mark in the US.",
+        answer: "In the US, rules for plug-in solar vary by state and utility, and many utilities still require an interconnection agreement before anything feeds power into your home's wiring. Utah is an exception: under a 2025 law (H.B. 340), a portable solar device of up to 1,200 W can plug into a standard 120 V outlet with no interconnection agreement, as long as it carries UL or equivalent certification. Wherever you live, check with your utility before you connect a kit, and look for a UL or ETL listing mark on the inverter.",
       },
       {
         question: "How can I find out which appliances use the most electricity at home?",
@@ -265,7 +265,7 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       },
       {
         question: "Are plug-in balcony solar kits legal?",
-        answer: "It depends on where you live. Many European countries allow them within power limits that vary by country; in Germany, for example, the common limit is 800 W on the inverter side. Elsewhere, rules for plug-in solar differ by country and utility, so check with your utility and your provincial electrical safety authority before connecting anything, and look for an inverter with a recognized certification mark such as CSA, cUL or cETL.",
+        answer: "It depends on where you live, and in Canada the rules differ by province and utility. Before connecting anything, check with your utility and your provincial electrical safety authority, and look for an inverter with a recognized certification mark such as CSA, cUL or cETL.",
       },
       {
         question: "How can I find out which appliances use the most electricity at home?",
@@ -371,11 +371,11 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       },
       {
         question: "Can I legally film outside my home with a security camera?",
-        answer: "In Europe, the general rule is that a camera should cover only your own property, not the public street or your neighbors, because the GDPR and national laws regulate recording. Rules are different elsewhere, so check the laws where you live and angle the camera to respect your neighbors' privacy.",
+        answer: "In the US, the rules come from federal, state and local law. Recording video of what's visible from the street is generally allowed, but recording audio is more tightly regulated: the federal wiretap law and many state laws restrict recording conversations without consent. Aim the camera at your own property rather than into a neighbor's windows or yard, check any HOA or lease rules, and turn off audio recording if you're unsure.",
       },
       {
         question: "Is a smart lock safe, and what happens if the battery dies?",
-        answer: "A well-made smart lock warns you long before the batteries run out and keeps a physical key or backup code so you can still open the door. Check that it fits your door (many European models are built for euro-profile cylinders, while most US exterior doors use a deadbolt), that it works over Bluetooth even without Wi-Fi, and that it encrypts its communications.",
+        answer: "A well-made smart lock warns you long before the batteries run out and keeps a physical key or backup code so you can still open the door. Check that it fits your door (most US exterior doors use a standard deadbolt: retrofit models keep it, others replace it), that it works over Bluetooth even without Wi-Fi, and that it encrypts its communications.",
       },
       {
         question: "Do I need professional monitoring for a smart security system?",
@@ -383,7 +383,7 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       },
       {
         question: "Where should I install smoke and carbon monoxide detectors?",
-        answer: "Put a smoke detector in the hallways leading to bedrooms and on every floor, and a CO detector near fuel-burning appliances and bedrooms. Models sold in Europe are certified to EN 14604 for smoke and EN 50291 for carbon monoxide; in the US, smoke alarms are listed to UL 217 and CO alarms to UL 2034, so check the listing of the version sold in your country. Choose interconnected models so every alarm sounds at once.",
+        answer: "Put a smoke alarm inside and outside each bedroom and sleeping area, and on every level of the home, including the basement, and a CO alarm near fuel-burning appliances and bedrooms. In the US, smoke alarms are listed to UL 217 and CO alarms to UL 2034, so look for those marks on the box. Choose interconnected models so every alarm sounds at once, and replace smoke alarms every 10 years.",
       },
     ],
     ca: [
@@ -397,7 +397,7 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       },
       {
         question: "Is a smart lock safe, and what happens if the battery dies?",
-        answer: "A well-made smart lock warns you long before the batteries run out and keeps a mechanical key or backup code so you can still open the door. Check that it fits your door: most Canadian exterior doors use a deadbolt, while many European models are built for euro cylinders. Also make sure it works over Bluetooth even without Wi-Fi and encrypts its communications.",
+        answer: "A well-made smart lock warns you long before the batteries run out and keeps a mechanical key or backup code so you can still open the door. Check that it fits your door: most Canadian exterior doors use a standard deadbolt, which retrofit models keep and others replace. Also make sure it works over Bluetooth even without Wi-Fi and encrypts its communications.",
       },
       {
         question: "Do I need professional monitoring for a smart alarm?",
@@ -405,7 +405,7 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       },
       {
         question: "Where should I install smoke and carbon monoxide detectors?",
-        answer: "Install a smoke detector on every floor, including the basement, and in hallways leading to bedrooms, plus a CO detector near bedrooms and fuel-burning appliances such as a furnace or water heater. Look for a ULC or CSA mark (European models are certified to EN 14604 for smoke and EN 50291 for CO instead), and choose interconnected alarms so they all sound at once. Requirements vary, so check the rules in your province or territory.",
+        answer: "Install a smoke detector on every floor, including the basement, and in hallways leading to bedrooms, plus a CO detector near bedrooms and fuel-burning appliances such as a furnace or water heater. Look for a ULC or CSA mark, and choose interconnected alarms so they all sound at once. Requirements vary, so check the rules in your province or territory.",
       },
     ],
   },
@@ -515,13 +515,13 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       },
       {
         question: "Are portable air conditioners efficient?",
-        answer: "A portable air conditioner cools a room with no installation, but it's less efficient than a ductless mini-split, especially a single-hose model, which pushes air it has already cooled out the window. Compare the efficiency rating and cooling capacity on the energy label (the EU energy label on models sold in Europe). A dual-hose design, a well-sealed window kit and a timer all cut energy use.",
+        answer: "A portable air conditioner cools a room with no installation, but it's less efficient than a ductless mini-split, especially a single-hose model, which pushes air it has already cooled out the window. Compare the cooling capacity in BTU and the efficiency rating (CEER) on the spec sheet. A dual-hose design, a well-sealed window kit and a timer all cut energy use.",
       },
     ],
     ca: [
       {
         question: "Does a dehumidifier use a lot of electricity?",
-        answer: "No, a compressor dehumidifier typically draws 200 to 400 W, roughly 0.2 to 0.4 kWh per hour of running. At an example rate of 10¢ per kWh, that's 2¢ to 4¢ an hour; your rate depends on your province and utility, so check your bill. It cycles off once the humidistat reaches its target, usually 50% to 55%. Compare wattage, litres removed per day and whether it has auto shut-off; desiccant models generally use more power.",
+        answer: "No, a compressor dehumidifier typically draws 200 to 400 W, roughly 0.2 to 0.4 kWh per hour of running. Multiply that by the rate on your bill, which depends on your province and utility, to get the cost per hour. It cycles off once the humidistat reaches its target, usually 50% to 55%. Compare wattage, pints removed per day and whether it has auto shut-off; desiccant models generally use more power.",
       },
       {
         question: "What humidity level is ideal indoors?",
@@ -533,11 +533,11 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       },
       {
         question: "What size air purifier do I need for my room?",
-        answer: "Pick a purifier whose clean air delivery rate (CADR, in m³/h) matches your room; a common rule of thumb is a CADR of at least two thirds of the floor area in m² for standard ceilings. Aim higher for allergies. Also check the noise level on night mode.",
+        answer: "Pick a purifier whose clean air delivery rate (CADR) matches your room. A common rule of thumb is a CADR, in cfm, of at least two-thirds of the room's area in square feet, assuming standard 8-foot ceilings. Aim higher for allergies. Also check the noise level on night mode.",
       },
       {
         question: "Are portable air conditioners efficient?",
-        answer: "Portable air conditioners cool a room without installation, but they're less efficient than a ductless mini-split, especially single-hose models that exhaust room air outdoors. Compare the cooling capacity and efficiency rating on the spec sheet (European listings show the EU energy class). A dual-hose design, a well-sealed window kit and a timer cut consumption.",
+        answer: "Portable air conditioners cool a room without installation, but they're less efficient than a ductless mini-split, especially single-hose models that exhaust room air outdoors. Compare the cooling capacity in BTU and the efficiency rating on the spec sheet. A dual-hose design, a well-sealed window kit and a timer cut consumption.",
       },
     ],
   },
@@ -731,7 +731,7 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       },
       {
         question: "Czy inteligentne oświetlenie solarne do ogrodu się opłaca?",
-        answer: "Tak – nie wymaga kładzenia przewodów i dobrze sprawdza się w nasłonecznionym ogrodzie, choć w północnej Europie zimą lampy świecą krócej. Sprawdź pojemność akumulatora, moc panelu, stopień ochrony IP i to, czy można dodać czujnik ruchu. Modele inteligentne wymagają dobrego zasięgu Wi-Fi lub Zigbee.",
+        answer: "Tak – nie wymaga kładzenia przewodów i dobrze sprawdza się w nasłonecznionym ogrodzie, choć w Polsce zimą, przy krótkim dniu, lampy świecą krócej. Sprawdź pojemność akumulatora, moc panelu, stopień ochrony IP i to, czy można dodać czujnik ruchu. Modele inteligentne wymagają dobrego zasięgu Wi-Fi lub Zigbee.",
       },
       {
         question: "Czy robot basenowy naprawdę sprząta bez Twojego udziału?",

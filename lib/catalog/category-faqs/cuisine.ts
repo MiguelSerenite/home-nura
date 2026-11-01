@@ -109,7 +109,7 @@ export const CUISINE_FAQS: CategoryFaqSets = {
     us: [
       {
         question: "How much does an air fryer cost to run?",
-        answer: "At an example rate of 20 cents per kWh, a 20- to 30-minute session costs at most about 10 to 20 cents, depending on the wattage. The math is simple: wattage in kW × hours of use × your rate. A 1,700 W model running for 25 minutes uses up to 0.7 kWh, or about 14 cents. The real figure is usually lower, because the heating element cycles off once the set temperature is reached. Check the rate on your utility bill, since it varies widely by state and utility.",
+        answer: "At the US average residential rate of 18.16 cents per kWh (EIA, August 2026), a 20- to 30-minute session costs at most about 9 to 16 cents, depending on the wattage. The math is simple: wattage in kW × hours of use × your rate. A 1,700 W model running for 25 minutes uses up to 0.7 kWh, or about 13 cents. The real figure is usually lower, because the heating element cycles off once the set temperature is reached. Check the rate on your utility bill, since it varies widely by state and utility.",
       },
       {
         question: "Is an air fryer cheaper to run than an electric oven?",
@@ -129,7 +129,7 @@ export const CUISINE_FAQS: CategoryFaqSets = {
       },
       {
         question: "Do air fryer baskets contain PFAS, and are they safe?",
-        answer: "Most nonstick baskets are coated with PTFE, which counts as a PFAS, but it's considered stable at the 390 to 465°F (200 to 240°C) an air fryer reaches. PTFE only starts to break down above about 500°F (260°C). “PFOA-free” labels tell you little, since PFOA has been banned in the EU since July 2020. What matters is keeping the coating intact: use wooden or silicone utensils, avoid abrasive scrubbers and aerosol oil sprays, and replace a basket that's flaking. Stainless steel, ceramic-coated and glass-bowl models avoid PTFE altogether.",
+        answer: "Most nonstick baskets are coated with PTFE, which counts as a PFAS, but it's considered stable at the 390 to 465°F (200 to 240°C) an air fryer reaches. PTFE only starts to break down above about 500°F (260°C). “PFOA-free” labels tell you little, since PFOA is no longer used to make nonstick coatings in the US. What matters is keeping the coating intact: use wooden or silicone utensils, avoid abrasive scrubbers and aerosol oil sprays, and replace a basket that's flaking. Stainless steel, ceramic-coated and glass-bowl models avoid PTFE altogether.",
       },
       {
         question: "Why has my air fryer stopped heating up?",
@@ -143,7 +143,7 @@ export const CUISINE_FAQS: CategoryFaqSets = {
     ca: [
       {
         question: "How much does an air fryer cost to run?",
-        answer: "At an example rate of 10¢ per kWh, a 20- to 30-minute session costs at most about 5¢ to 10¢, depending on the wattage. The math is simple: wattage in kW × hours used × your rate per kWh. A 1,700 W model running for 25 minutes uses up to 0.7 kWh, or about 7¢. The real figure is usually lower, because the element cycles off once the set temperature is reached. Your rate depends on your province and utility, so check your bill.",
+        answer: "Very little per session. The math is simple: wattage in kW × hours used × your rate per kWh. A 1,700 W model running for 25 minutes uses up to 0.7 kWh, and a 20- to 30-minute session generally stays under 1 kWh. The real figure is usually lower, because the element cycles off once the set temperature is reached. Your rate depends on your province and utility, so use the one on your bill.",
       },
       {
         question: "Is an air fryer cheaper to run than an electric oven?",
@@ -163,7 +163,7 @@ export const CUISINE_FAQS: CategoryFaqSets = {
       },
       {
         question: "Do air fryer baskets contain PFAS, and are they safe?",
-        answer: "Most non-stick baskets are coated with PTFE, which counts as a PFAS, but it is considered stable at the 200 to 240°C (400 to 465°F) an air fryer reaches. PTFE only starts to break down above about 260°C (500°F). “PFOA-free” labels mean little: PFOA has been banned in the EU and the UK since 2020, and the label says nothing about PTFE. What matters is keeping the coating intact: use wooden or silicone utensils, avoid abrasive pads and aerosol cooking sprays, and replace a basket that is flaking. Stainless steel, ceramic-coated and glass-bowl models avoid PTFE altogether.",
+        answer: "Most non-stick baskets are coated with PTFE, which counts as a PFAS, but it is considered stable at the 200 to 240°C (400 to 465°F) an air fryer reaches. PTFE only starts to break down above about 260°C (500°F). “PFOA-free” labels mean little, because they say nothing about PTFE. What matters is keeping the coating intact: use wooden or silicone utensils, avoid abrasive pads and aerosol cooking sprays, and replace a basket that is flaking. Stainless steel, ceramic-coated and glass-bowl models avoid PTFE altogether.",
       },
       {
         question: "Why did my air fryer stop heating?",
@@ -258,7 +258,7 @@ export const CUISINE_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a multicooker cost to run?",
-        answer: "Very little: a stew that takes 40 minutes in total, including coming up to pressure, uses at most about 0.8 kWh on a 1,200 W model. That's roughly 16 cents at an example rate of 20 cents per kWh. The real figure is lower, because the element only runs flat out until pressure is reached, then cycles to hold it. For comparison, a slow cooker drawing about 200 W for eight hours can use up to 1.6 kWh. Work out your own cost with wattage in kW × hours × the rate on your utility bill.",
+        answer: "Very little: a stew that takes 40 minutes in total, including coming up to pressure, uses at most about 0.8 kWh on a 1,200 W model. That's roughly 15 cents at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). The real figure is lower, because the element only runs flat out until pressure is reached, then cycles to hold it. For comparison, a slow cooker drawing about 200 W for eight hours can use up to 1.6 kWh. Work out your own cost with wattage in kW × hours × the rate on your utility bill.",
       },
       {
         question: "Ninja Foodi or Instant Pot: what's the difference?",
@@ -280,7 +280,7 @@ export const CUISINE_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a multicooker cost to run?",
-        answer: "Very little: a stew taking 40 minutes in total, including coming up to pressure, uses at most about 0.8 kWh on a 1,200 W model, roughly 8¢ at an example rate of 10¢ per kWh. The real figure is lower, because the element only heats at full power until pressure is reached, then cycles to hold it. For comparison, a slow cooker drawing around 200 W for eight hours can use up to 1.6 kWh. Work out your own cost with wattage in kW × hours × your rate per kWh, which depends on your province and utility.",
+        answer: "Very little: a stew taking 40 minutes in total, including coming up to pressure, uses at most about 0.8 kWh on a 1,200 W model. The real figure is lower, because the element only heats at full power until pressure is reached, then cycles to hold it. For comparison, a slow cooker drawing around 200 W for eight hours can use up to 1.6 kWh. Work out your own cost with wattage in kW × hours × your rate per kWh, which depends on your province and utility.",
       },
       {
         question: "Ninja Foodi or Instant Pot: what is the difference?",

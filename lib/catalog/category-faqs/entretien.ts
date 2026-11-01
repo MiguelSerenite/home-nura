@@ -80,7 +80,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a robot vacuum cost to run?",
-        answer: "Very little: charging a robot vacuum every day usually comes to less than 40 kWh a year. Work it out from the battery: 5,200 mAh × 14.4 V ≈ 75 Wh, or about 0.08 kWh per charge once losses are added, so roughly 30 kWh a year for a daily clean. Add the dock's standby power, which varies by model: 2 W around the clock, for example, is about 17.5 kWh a year. At an example rate of 20 cents per kWh, that total of about 47.5 kWh comes to roughly $9.50 a year; check the rate on your utility bill.",
+        answer: "Very little: charging a robot vacuum every day usually comes to less than 40 kWh a year. Work it out from the battery: 5,200 mAh × 14.4 V ≈ 75 Wh, or about 0.08 kWh per charge once losses are added, so roughly 30 kWh a year for a daily clean. Add the dock's standby power, which varies by model: 2 W around the clock, for example, is about 17.5 kWh a year. At the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that total of about 47.5 kWh comes to roughly $8.60 a year; check the rate on your utility bill.",
       },
       {
         question: "Is a robot vacuum worth it if you have a dog or cat?",
@@ -102,7 +102,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a robot vacuum cost to run?",
-        answer: "Very little: charging a robot vacuum daily usually comes to less than 40 kWh a year. Work it out from the battery: 5,200 mAh × 14.4 V ≈ 75 Wh, about 0.08 kWh per charge once losses are added, or roughly 30 kWh a year for a daily clean. Add the dock's standby, which varies by model: 2 W around the clock, for example, is about 17.5 kWh a year. That's about 47.5 kWh in all, or under $5 a year at an example rate of 10¢ per kWh; your rate depends on your province and utility.",
+        answer: "Very little: charging a robot vacuum daily usually comes to less than 40 kWh a year. Work it out from the battery: 5,200 mAh × 14.4 V ≈ 75 Wh, about 0.08 kWh per charge once losses are added, or roughly 30 kWh a year for a daily clean. Add the dock's standby, which varies by model: 2 W around the clock, for example, is about 17.5 kWh a year. That's about 47.5 kWh in all; multiply it by the rate per kWh on your bill, which depends on your province and utility.",
       },
       {
         question: "Is a robot vacuum worth it if you have a dog or cat?",
@@ -205,7 +205,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a self-cleaning mop dock add to the electric bill?",
-        answer: "Not much, but more than a basic robot: hot-air drying of the pads, which runs for two to four hours after each mopping session, is the main cost. Use the drying power listed in the manual, for example 40 W for 3 hours = 0.12 kWh, then multiply by your rate and the number of mopping runs: at an example 20 cents per kWh, that's about 2.4 cents a run. Docks that heat their wash water add a little more. Shortening the drying time in the app cuts the cost.",
+        answer: "Not much, but more than a basic robot: hot-air drying of the pads, which runs for two to four hours after each mopping session, is the main cost. Use the drying power listed in the manual, for example 40 W for 3 hours = 0.12 kWh, then multiply by your rate and the number of mopping runs: at the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that's about 2.2 cents a run. Docks that heat their wash water add a little more. Shortening the drying time in the app cuts the cost.",
       },
       {
         question: "Can I use tap water in a mopping robot if I have hard water?",
@@ -227,7 +227,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a self-cleaning mop dock add to the electricity bill?",
-        answer: "Not much, but more than a basic robot: hot-air drying of the pads, which runs for two to four hours after each mop, is the main cost. Use the drying power from the manual, for example 40 W for 3 hours = 0.12 kWh, then multiply by your rate per kWh and by the number of mopping runs: at an example rate of 10¢ per kWh, that's about 1¢ per run. Docks that heat their wash water add a little more. Shortening the drying time in the app cuts the cost.",
+        answer: "Not much, but more than a basic robot: hot-air drying of the pads, which runs for two to four hours after each mop, is the main cost. Use the drying power from the manual, for example 40 W for 3 hours = 0.12 kWh, then multiply by the number of mopping runs and by the rate per kWh on your bill, which depends on your province and utility. Docks that heat their wash water add a little more. Shortening the drying time in the app cuts the cost.",
       },
       {
         question: "Can I use tap water in a mopping robot if I have hard water?",
@@ -439,7 +439,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to charge a cordless vacuum?",
-        answer: "A penny or two at most: a full charge stores well under 0.1 kWh. Work it out from the battery: 25.2 V × 2.5 Ah ≈ 63 Wh, so about 0.07 kWh including charging losses. Charged daily, that's around 25 kWh a year, or about $5 at an example rate of 20 cents per kWh; check the rate on your utility bill. Modern chargers stop once the battery is full, so leaving it on the dock adds very little.",
+        answer: "A penny or two at most: a full charge stores well under 0.1 kWh. Work it out from the battery: 25.2 V × 2.5 Ah ≈ 63 Wh, so about 0.07 kWh including charging losses. Charged daily, that's around 25 kWh a year, or about $4.50 at the US average residential rate of 18.16 cents per kWh (EIA, August 2026); check the rate on your utility bill. Modern chargers stop once the battery is full, so leaving it on the dock adds very little.",
       },
       {
         question: "Which cordless vacuum is best for pet hair and allergies?",
@@ -461,7 +461,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to charge a cordless vacuum?",
-        answer: "A fraction of a cent per charge: a full charge stores well under 0.1 kWh. Work it out from the battery: 25.2 V × 2.5 Ah ≈ 63 Wh, so about 0.07 kWh including charging losses. Charged daily, that's around 25 kWh a year, or about $2.50 at an example rate of 10¢ per kWh. Modern chargers stop once the battery is full, so leaving it docked adds very little.",
+        answer: "Very little per charge: a full charge stores well under 0.1 kWh. Work it out from the battery: 25.2 V × 2.5 Ah ≈ 63 Wh, so about 0.07 kWh including charging losses. Charged daily, that's around 25 kWh a year; multiply it by the rate per kWh on your bill, which depends on your province and utility. Modern chargers stop once the battery is full, so leaving it docked adds very little.",
       },
       {
         question: "Which cordless vacuum is best for pet hair and allergies?",
@@ -556,7 +556,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much electricity does a steam mop use?",
-        answer: "At most its rated power for as long as you use it: a 1,500 W steam mop used for 30 minutes uses up to 0.75 kWh. In practice the heater cycles on and off, so real use is lower. Multiply the kWh by your rate to get the cost per clean: at an example 20 cents per kWh, that's at most about 15 cents. Canister steam cleaners also use some energy heating the boiler before you start.",
+        answer: "At most its rated power for as long as you use it: a 1,500 W steam mop used for 30 minutes uses up to 0.75 kWh. In practice the heater cycles on and off, so real use is lower. Multiply the kWh by your rate to get the cost per clean: at the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that's at most about 14 cents. Canister steam cleaners also use some energy heating the boiler before you start.",
       },
       {
         question: "Will a steam cleaner get rid of black mold in the bathroom?",
@@ -578,7 +578,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much electricity does a steam mop use?",
-        answer: "At most its rated power for as long as you use it: a 1,500 W steam mop used for 30 minutes uses up to 0.75 kWh. In practice the heater cycles on and off, so real use is lower. Multiply the kWh by your rate per kWh to get the cost per clean: at an example rate of 10¢, that's 7.5¢ at most. Canister steam cleaners also spend some energy heating the boiler before you start.",
+        answer: "At most its rated power for as long as you use it: a 1,500 W steam mop used for 30 minutes uses up to 0.75 kWh. In practice the heater cycles on and off, so real use is lower. Multiply the kWh by the rate on your bill, which depends on your province and utility, to get the cost per clean. Canister steam cleaners also spend some energy heating the boiler before you start.",
       },
       {
         question: "Will a steam cleaner get rid of black mould in the bathroom?",
@@ -669,7 +669,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to run a steam generator iron?",
-        answer: "At most its wattage times the time you use it: a 2,400 W steam generator ironing for one hour uses up to 2.4 kWh. The boiler and soleplate heat in cycles, so the real figure is lower. Multiply by your rate: at an example 20 cents per kWh, an hour of ironing costs at most about 48 cents. Ironing a big batch in one session is cheaper than several short ones, because each start means heating the boiler again.",
+        answer: "At most its wattage times the time you use it: an 1,800 W steam generator ironing for one hour uses up to 1.8 kWh, about the most a standard 120 V outlet allows. The boiler and soleplate heat in cycles, so the real figure is lower. Multiply by your rate: at the US average residential rate of 18.16 cents per kWh (EIA, August 2026), an hour of ironing costs at most about 33 cents. Ironing a big batch in one session is cheaper than several short ones, because each start means heating the boiler again.",
       },
       {
         question: "Why is my iron spitting water or leaving white marks?",
@@ -691,7 +691,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to run a steam generator iron?",
-        answer: "At most its wattage times the time you use it: a 1,800 W steam generator ironing for one hour uses up to 1.8 kWh, or 18¢ at an example rate of 10¢ per kWh. The boiler and soleplate heat in cycles, so the real figure is lower. Ironing a big batch in one session is cheaper than several short ones, because each start means heating the boiler again.",
+        answer: "At most its wattage times the time you use it: a 1,800 W steam generator ironing for one hour uses up to 1.8 kWh. Multiply that by the rate on your bill, which depends on your province and utility. The boiler and soleplate heat in cycles, so the real figure is lower. Ironing a big batch in one session is cheaper than several short ones, because each start means heating the boiler again.",
       },
       {
         question: "Why is my iron spitting water or leaving white marks?",
@@ -782,7 +782,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a dishwasher cost to run per cycle?",
-        answer: "On models sold in Europe, the EU energy label shows kWh per 100 Eco cycles, so divide by 100 and multiply by your rate. A label of 75 kWh/100 cycles means 0.75 kWh per Eco cycle, or about 15 cents at an example 20 cents per kWh. Heavy and quick cycles use more. In the US, the yellow EnergyGuide label gives an estimated yearly energy use and cost instead. Running the dishwasher only when it's full, on Eco, is the simplest way to save.",
+        answer: "About 14 cents a load for a model that uses 0.75 kWh per normal cycle, at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). For your model, check the yellow EnergyGuide label: divide the estimated yearly kWh by the loads a year it assumes (loads a week × 52), then multiply by the rate on your utility bill. Heavy and quick cycles use more. Running the dishwasher only when it's full, on its eco or normal cycle, is the simplest way to save.",
       },
       {
         question: "Does a smart dishwasher work without Wi-Fi or the app?",
@@ -804,7 +804,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a dishwasher cost to run per cycle?",
-        answer: "Check the energy figure: the EU energy label on European models shows kWh per 100 Eco cycles, so divide by 100. A label of 75 kWh/100 cycles means 0.75 kWh per Eco wash, or about 7.5¢ at an example rate of 10¢ per kWh. Canada's EnerGuide label gives estimated kWh per year instead, which is handy for comparing models. Intensive and quick programs use more. Running it only when full, on Eco, is the simplest saving.",
+        answer: "Check the EnerGuide label, which gives the model's estimated energy use in kWh per year and is handy for comparing models. Multiply that figure by the rate on your bill, which depends on your province and utility, for an estimated yearly cost. Per cycle, a wash that uses 0.75 kWh costs 0.75 times your rate per kWh. Heavy-duty and quick cycles use more. Running it only when it's full, on its eco cycle, is the simplest saving.",
       },
       {
         question: "Is it safe to run the dishwasher overnight on off-peak rates?",
@@ -895,7 +895,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
     us: [
       {
         question: "How much does a washer cost to run per load?",
-        answer: "On models sold in Europe, the EU energy label gives kWh per 100 cycles of the Eco 40-60 program: divide by 100 and multiply by your rate. For example, 50 kWh/100 cycles means 0.5 kWh per Eco 40-60 wash, or about 10 cents at an example 20 cents per kWh. In the US, the yellow EnergyGuide label shows an estimated yearly cost instead. Hotter washes cost far more, because most of the energy goes into heating water. Washing full loads at 86°F (30°C) is the simplest way to save.",
+        answer: "About 9 cents a load for a wash that uses 0.5 kWh, at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). For your model, check the yellow EnergyGuide label: divide the estimated yearly kWh by the loads a year it assumes (loads a week × 52), then multiply by the rate on your utility bill. Hotter washes cost far more, because most of the energy goes into heating water. Washing full loads in cold water is the simplest way to save.",
       },
       {
         question: "Washer-dryer combo or separate dryer: which is better?",
@@ -906,8 +906,8 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
         answer: "Usually because detergent residue and grime turn moldy in the door gasket, the dispenser drawer or the filter, especially if you only wash on cold or low settings. Run an empty maintenance cycle at 140°F (60°C) or above with a washer cleaner. Wipe the rubber gasket, clean the dispenser drawer and the drain pump filter, and leave the door and drawer ajar between loads. Using too much detergent or fabric softener makes the problem worse.",
       },
       {
-        question: "Heat pump or condenser dryer: which is cheaper to run?",
-        answer: "A heat pump dryer is much cheaper to run than a condenser model, though each cycle takes longer. On models sold in Europe, compare the kWh figure on the EU energy label rather than the letter alone: since July 1, 2025, dryers carry a new A to G label whose classes don't match the old A+++ scale. If you run the dryer most days, the savings add up quickly. Clean the lint filter after every load, and empty the water container if the dryer isn't connected to a drain.",
+        question: "Heat pump or vented dryer: which is cheaper to run?",
+        answer: "A heat pump dryer is much cheaper to run than a conventional vented dryer, though each cycle takes longer. In the US, look for ENERGY STAR certification and compare the combined energy factor (CEF) on the spec sheet: the higher the CEF, the less energy each load takes. If you run the dryer most days, the savings add up quickly. Clean the lint filter after every load, and empty the water container if the dryer isn't connected to a drain.",
       },
       {
         question: "Is a smart washing machine worth it?",
@@ -917,7 +917,7 @@ export const ENTRETIEN_FAQS: CategoryFaqSets = {
     ca: [
       {
         question: "How much does a washing machine cost to run per load?",
-        answer: "Check the energy figure: the EU energy label on European models shows kWh per 100 cycles, so divide by 100. For example, 50 kWh/100 cycles means 0.5 kWh per Eco 40-60 wash, or about 5¢ at an example rate of 10¢ per kWh. Canada's EnerGuide label gives estimated kWh per year instead. Hotter washes cost far more, because most of the energy goes into heating water. Washing cold or at 30°C with full loads is the simplest saving.",
+        answer: "Check the EnerGuide label, which gives the model's estimated energy use in kWh per year. Multiply that figure by the rate on your bill, which depends on your province and utility, for an estimated yearly cost. Per load, a wash that uses 0.5 kWh costs half your rate per kWh. Hotter washes cost far more, because most of the energy goes into heating water. Washing cold with full loads is the simplest saving.",
       },
       {
         question: "Washer-dryer combo or a separate dryer: which is better?",

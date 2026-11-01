@@ -11,7 +11,7 @@ export const EN_HEADS: CategoryHeads = {
     keyword: "best multi cooker",
     title: "Best Multi Cooker 2026: Our 3 Pressure & Slow Cooker Picks",
     h1: "The best multi cookers of 2026: pressure cook, slow cook and brown in one pot",
-    description: "One pot to pressure cook and slow cook: we compare Ninja Foodi, Instant Pot and Moulinex Cookeo on capacity, programmes and app, with our 3 picks and FAQ.",
+    description: "One pot to pressure cook and slow cook: we compare Ninja Foodi, Instant Pot and a Wi-Fi multi cooker on capacity, programmes and app, with our 3 picks.",
   },
   "cafetieres": {
     keyword: "best bean-to-cup coffee machine",
@@ -57,9 +57,9 @@ export const EN_HEADS: CategoryHeads = {
   },
   "batteries-domestiques": {
     keyword: "solar battery",
-    title: "Best Solar Battery 2026: 3 Home Storage Picks Compared",
-    h1: "The best home solar batteries of 2026, plug-in and fixed",
-    description: "Store your solar power for the evening: we compare Anker SOLIX, Marstek and Tesla Powerwall 3 on capacity, output and installation, with 3 picks and FAQ.",
+    title: "Best Solar Battery 2026: 3 Home Battery Storage Picks",
+    h1: "The best plug-in and fixed home batteries of 2026 for solar power",
+    description: "Store your solar power for the evening with a home battery: we compare Anker SOLIX, Marstek and Tesla Powerwall 3 on capacity, output and installation.",
   },
   "eclairage-connecte": {
     keyword: "best smart bulb",
@@ -136,8 +136,8 @@ export const EN_HEADS: CategoryHeads = {
   "detecteurs-fumee-co": {
     keyword: "best smoke alarm",
     title: "Best Smoke Alarm UK 2026: 3 Smart Smoke & CO Picks",
-    h1: "The best smart smoke and carbon monoxide alarms of 2026",
-    description: "A phone alert even when you're out: we compare Netatmo and X-Sense smoke and CO alarms on EN 14604 certification, battery and app, with 3 picks and FAQ.",
+    h1: "The best smoke alarms and carbon monoxide alarms of 2026, with phone alerts",
+    description: "A phone alert when you're out: we compare Netatmo and X-Sense smart smoke and CO alarms on EN 14604 or EN 50291 approval, battery and app, with 3 picks.",
   },
   "detecteurs-mouvement": {
     keyword: "smart motion sensor",
@@ -195,9 +195,9 @@ export const EN_HEADS: CategoryHeads = {
   },
   "chauffages-appoint": {
     keyword: "best electric heater",
-    title: "Best Electric Heaters 2026: 3 Smart Wall-Mounted Picks",
-    h1: "The best smart electric heaters and panel radiators of 2026",
-    description: "Heat a room on a timer from your phone: we compare Thermor, Sauter and Mill wall-mounted electric heaters on comfort, thermostat and app, with our 3 picks.",
+    title: "Best Electric Heaters 2026: Panel Heaters & Radiators",
+    h1: "The best wall-mounted electric heaters and radiators of 2026, with app control",
+    description: "Heat one room on a timer from your phone: we compare smart panel heaters and electric radiators on comfort, thermostat, app and fitting, with our 3 picks.",
   },
   "stations-meteo": {
     keyword: "best weather station",
@@ -245,7 +245,7 @@ export const EN_HEADS: CategoryHeads = {
     keyword: "best cordless vacuum cleaner",
     title: "Best Cordless Vacuum Cleaner 2026: Our 3 Stick Vac Picks",
     h1: "The best cordless stick vacuum cleaners of 2026",
-    description: "Grab-and-go cleaning for the whole house: we compare Dyson, Samsung and Rowenta stick vacuums on suction, battery life and bin emptying, with our 3 picks.",
+    description: "Grab-and-go cleaning for the whole house: we compare Dyson, Samsung and X-Force Flex cordless hoovers on suction, battery life and bin emptying.",
   },
   "nettoyeurs-vapeur": {
     keyword: "best steam cleaner",

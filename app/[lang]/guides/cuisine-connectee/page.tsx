@@ -339,7 +339,7 @@ const pageContent: Record<string, PillarContent> = {
       {
         num: 'I',
         title: 'Automatyzacja codziennych czynności',
-        body: 'W 2026 roku 38% gospodarstw domowych we Francji ma co najmniej jedno inteligentne urządzenie kuchenne – najczęściej multicooker lub ekspres do kawy. Nie chodzi o fascynację technologią, lecz o wymierną oszczędność czasu: 5 minut rano, 10 minut wieczorem i pieczeń dopieczona w środku bez pilnowania piekarnika. W zapracowanym domu inwestycja w dobry multicooker lub bezprzewodową sondę zwraca się w ciągu kilku tygodni.',
+        body: 'W Polsce co dziesiąte gospodarstwo domowe (10%) miało w 2024 roku urządzenie AGD połączone z internetem, wobec 3% w 2020 roku; średnia w UE to 13% (Eurostat, za raportem APPLiA Polska). Nie chodzi o fascynację technologią, lecz o wymierną oszczędność czasu: 5 minut rano, 10 minut wieczorem i pieczeń dopieczona w środku bez pilnowania piekarnika. W zapracowanym domu inwestycja w dobry multicooker lub bezprzewodową sondę zwraca się w ciągu kilku tygodni.',
         href: '/cuisine-connectee/multicuiseurs',
         cta: 'Zobacz polecane multicookery',
       },
@@ -429,7 +429,7 @@ const pageContent: Record<string, PillarContent> = {
       {
         num: 'I',
         title: 'Automating everyday life',
-        body: 'In France, 38% of households owned at least one smart kitchen appliance in 2026, led by multicookers and coffee makers. What drives it isn\'t a fascination with tech, it\'s time you can measure: 5 minutes in the morning, 10 in the evening, roasts cooked perfectly to the center without hovering by the oven door. For a busy household, a good multicooker or wireless probe pays for itself in a matter of weeks.',
+        body: 'In the US, 66% of adults drink coffee every day, and 83% of those who had coffee the day before drank it at home (National Coffee Association, fall 2026). That\'s where a smart kitchen earns its keep. It isn\'t about a fascination with tech; it\'s about time you can measure: 5 minutes in the morning, 10 in the evening, roasts cooked perfectly to the center without hovering by the oven door. For a busy household, a good multicooker or wireless probe pays for itself in a matter of weeks.',
         href: '/cuisine-connectee/multicuiseurs',
         cta: 'See our multicooker picks',
       },
@@ -474,7 +474,7 @@ const pageContent: Record<string, PillarContent> = {
       {
         num: 'I',
         title: 'The automation of daily life',
-        body: 'In 2026, 38% of French households own at least one smart kitchen appliance, led by multicookers and coffee makers. The driver isn\'t a fascination with tech, it\'s measurable time savings: 5 minutes in the morning, 10 in the evening, perfectly cooked roasts without watching the oven door. For a busy household, a good multicooker or wireless probe pays for itself in a matter of weeks.',
+        body: 'In 2022, 47% of Canadians used smart home devices, up from 42% in 2020, according to Statistics Canada. The driver isn\'t a fascination with tech, it\'s measurable time savings: 5 minutes in the morning, 10 in the evening, perfectly cooked roasts without watching the oven door. For a busy household, a good multicooker or wireless probe pays for itself in a matter of weeks.',
         href: '/cuisine-connectee/multicuiseurs',
         cta: 'See our selected multicookers',
       },

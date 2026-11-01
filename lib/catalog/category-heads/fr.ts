@@ -13,16 +13,16 @@ import type { CategoryHeads } from './types'
 export const FR_HEADS: CategoryHeads = {
   // ---------------------------------------------------------------- Cuisine
   "airfryers": {
-    keyword: "meilleur airfryer",
-    title: "Meilleur airfryer 2026 : comparatif des friteuses sans huile",
-    h1: "Les meilleurs airfryers 2026 : nos 3 choix de friteuses sans huile",
-    description: "Air fryer XXL, familial ou petit budget : nos 3 choix Philips, Cosori et Xiaomi comparés sur la capacité, la consommation et l'appli. Critères et FAQ.",
+    keyword: "meilleur air fryer",
+    title: "Meilleur air fryer 2026 : friteuses sans huile comparées",
+    h1: "Les meilleurs air fryers 2026 : nos 3 choix de friteuses sans huile",
+    description: "Ninja Double Stack à deux tiroirs, Philips Série 3000 XL ou Cosori connecté : nos 3 airfryers comparés sur la capacité, la consommation et l'appli. FAQ.",
   },
   "multicuiseurs": {
-    keyword: "meilleur multicuiseur",
-    title: "Meilleur multicuiseur 2026 : comparatif et nos 3 choix",
+    keyword: "cookeo",
+    title: "Cookeo et multicuiseurs : comparatif 2026 et nos 3 choix",
     h1: "Les meilleurs multicuiseurs 2026 : Cookeo, Ninja Foodi ou Instant Pot ?",
-    description: "Cookeo connecté, Ninja Foodi 15-en-1 ou Instant Pot : nos 3 multicuiseurs comparés sur la capacité, la cuisson sous pression et les recettes. FAQ.",
+    description: "Cookeo Touch WiFi, Ninja Foodi SmartLid ou Instant Pot : nos 3 multicuiseurs comparés sur la capacité, la cuisson sous pression et les recettes. FAQ.",
   },
   "cafetieres": {
     keyword: "machine à café à grain",
@@ -31,10 +31,10 @@ export const FR_HEADS: CategoryHeads = {
     description: "Expresso broyeur De'Longhi, Philips LatteGo ou Krups : nos 3 machines à café à grain comparées sur le lait, le broyeur et l'entretien. Critères et FAQ.",
   },
   "balances": {
-    keyword: "balance de cuisine connectée",
-    title: "Meilleure balance de cuisine connectée 2026 : nos 3 choix",
-    h1: "Les meilleures balances de cuisine connectées et nutritionnelles 2026",
-    description: "Etekcity et Renpho calculent calories et nutriments dans l'appli, la Beurer XL pèse les grandes quantités sans appli : nos 3 balances comparées. FAQ.",
+    keyword: "balance de cuisine",
+    title: "Meilleure balance de cuisine 2026 : avec ou sans appli",
+    h1: "Les meilleures balances de cuisine 2026, connectées ou non",
+    description: "Balance connectée Etekcity ou Renpho qui calcule calories et nutriments, Beurer XL sans appli pour les grandes quantités : nos 3 choix comparés. FAQ.",
   },
   "thermometres-viande": {
     keyword: "thermomètre à viande sans fil",
@@ -113,8 +113,8 @@ export const FR_HEADS: CategoryHeads = {
   "bornes-recharge-ve": {
     keyword: "borne de recharge à domicile",
     title: "Borne de recharge à domicile : comparatif 2026 (wallbox)",
-    h1: "Les meilleures bornes de recharge à domicile 2026 : wallbox de 7 à 22 kW",
-    description: "Wallbox, Easee ou Zaptec : nos 3 bornes de recharge pour voiture électrique à la maison, comparées en 7, 11 et 22 kW, avec installation et FAQ.",
+    h1: "Les meilleures bornes de recharge à domicile 2026 : 7 kW monophasé ou 22 kW",
+    description: "Wallbox, Easee ou Zaptec : nos 3 bornes de recharge pour voiture électrique à la maison, en 7 kW monophasé ou de 11 à 22 kW en triphasé. Pose et FAQ.",
   },
 
   // ------------------------------------------------------- Sécurité maison
@@ -206,15 +206,15 @@ export const FR_HEADS: CategoryHeads = {
   },
   "ventilateurs": {
     keyword: "ventilateur silencieux",
-    title: "Ventilateur silencieux et connecté : comparatif 2026",
-    h1: "Les meilleurs ventilateurs silencieux et connectés 2026",
-    description: "Dyson sans pales qui purifie (et chauffe) ou Xiaomi sur pied pilotable : nos 3 ventilateurs comparés sur le bruit, le débit d'air et l'appli. FAQ.",
+    title: "Meilleur ventilateur silencieux 2026 : nos 3 choix comparés",
+    h1: "Les meilleurs ventilateurs silencieux 2026 : sur pied ou sans pales",
+    description: "Dyson sans pales qui purifie (et chauffe) ou Xiaomi sur pied connecté : nos 3 ventilateurs silencieux comparés sur le bruit, le souffle et l'appli. FAQ.",
   },
   "chauffages-appoint": {
     keyword: "radiateur électrique",
     title: "Radiateur électrique, chauffage d'appoint : comparatif 2026",
-    h1: "Les meilleurs radiateurs électriques et chauffages d'appoint connectés 2026",
-    description: "Radiateur à inertie Thermor ou Sauter, panneau Mill à poser sans travaux : nos 3 choix comparés sur le confort, la consommation et le pilotage. FAQ.",
+    h1: "Les meilleurs radiateurs électriques et chauffages d'appoint 2026",
+    description: "Chauffage d'appoint économique : radiateur à inertie Thermor ou Sauter, bain d'huile Mill connecté. Nos 3 choix comparés sur la consommation. FAQ.",
   },
   "stations-meteo": {
     keyword: "station météo connectée",
@@ -293,10 +293,10 @@ export const FR_HEADS: CategoryHeads = {
 
   // ------------------------------------------------------------- Extérieur
   "tondeuses-robots": {
-    keyword: "robot tondeuse sans fil périmétrique",
-    title: "Robot tondeuse sans fil périmétrique : comparatif 2026",
-    h1: "Les meilleurs robots tondeuses sans fil périmétrique 2026 (GPS RTK)",
-    description: "Ecovacs GOAT, Segway Navimow ou Mammotion LUBA : nos 3 robots tondeuses GPS RTK sans câble comparés sur la surface, les pentes et le guidage. FAQ.",
+    keyword: "robot tondeuse sans fil périphérique",
+    title: "Robot tondeuse sans fil périphérique : comparatif 2026",
+    h1: "Les meilleurs robots tondeuses sans fil périphérique 2026 (GPS RTK)",
+    description: "Ecovacs GOAT, Segway Navimow ou Mammotion LUBA : nos 3 robots tondeuses RTK sans fil périmétrique comparés sur la surface, les pentes et le guidage. FAQ.",
   },
   "arrosage-connecte": {
     keyword: "programmateur d'arrosage connecté",

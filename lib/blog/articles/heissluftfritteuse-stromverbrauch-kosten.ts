@@ -47,7 +47,7 @@ export const article: BlogArticle = {
     pl: 'Ile prądu naprawdę zużywa frytkownica beztłuszczowa? Wyliczamy zużycie w kWh i roczny koszt przy przykładowej stawce 1,50 zł/kWh, porównujemy ją z piekarnikiem i frytownicą oraz wskazujemy najoszczędniejsze modele.',
     sv: 'Hur mycket el drar en airfryer egentligen? Förbrukningen i kWh per omgång, årskostnaden med ett exempelpris på 3,85 kr/kWh, jämförelse med ugn och fritös samt de snålaste modellerna.',
     us: 'How much electricity does an air fryer really use? kWh per session, yearly cost at an example rate of 20 cents per kWh, how it compares with an oven and a deep fryer, and the most efficient models.',
-    ca: 'How much electricity does an air fryer really use? kWh per session, yearly cost at an example rate of 10¢/kWh, oven and deep fryer compared, and the most efficient models.',
+    ca: 'How much electricity does an air fryer really use? kWh per session and per year, how to price it at your rate, oven and deep fryer compared, and the most efficient models.',
   },
   content: {
     de: `<h2>Heißluftfritteuse Stromverbrauch: die wichtigste Frage zuerst</h2>
@@ -1096,7 +1096,7 @@ export const article: BlogArticle = {
         pl: 'Frytkownica beztłuszczowa zużywa ok. 0,3–0,5 kWh podczas jednego użycia trwającego 15–20 minut, choć jej moc wynosi 1400–2000 W. Grzałka nie grzeje bez przerwy, tylko pracuje cyklicznie. Przy przykładowej stawce 1,50 zł/kWh to zaledwie 45–75 groszy za każde użycie.',
         sv: 'En airfryer förbrukar ungefär 0,3–0,5 kWh per användning på 15–20 minuter, trots en angiven effekt på 1 400–2 000 W. Värmeelementet är inte på hela tiden utan arbetar i cykler. Med ett exempelpris på 3,85 kr/kWh blir det bara cirka 1,20–1,90 kr per tillagning.',
         us: 'An air fryer uses roughly 0.3 to 0.5 kWh per 15- to 20-minute session, despite a rated power of 1,400 to 2,000 W. The heating element doesn\'t run nonstop; it cycles on and off. At an example rate of 20 cents per kWh, that\'s only 6 to 10 cents per cook (check the rate on your utility bill).',
-        ca: 'An air fryer uses roughly 0.3 to 0.5 kWh per 15- to 20-minute session, despite a rated power of 1,400 to 2,000 W. The heating element does not run continuously — it cycles on and off. At an example rate of 10¢/kWh, that is only 3 to 5 cents per cook.',
+        ca: 'An air fryer uses roughly 0.3 to 0.5 kWh per 15- to 20-minute session, despite a rated power of 1,400 to 2,000 W. The heating element does not run continuously — it cycles on and off. Multiply that by your rate per kWh, which depends on your province and utility, to get the cost per cook.',
       },
     },
     {
@@ -1148,7 +1148,7 @@ export const article: BlogArticle = {
         pl: 'Przy przykładowej stawce 1,50 zł/kWh korzystanie z frytkownicy 3 razy w tygodniu kosztuje ok. 94 zł rocznie, a codzienne – ok. 219 zł rocznie. To szacunki przy założeniu 0,4 kWh na jedno użycie; rzeczywisty koszt zależy od modelu, czasu pracy i tego, jak bardzo wypełniony jest kosz.',
         sv: 'Med ett exempelpris på 3,85 kr/kWh kostar användning 3 gånger i veckan cirka 240 kr per år och daglig användning cirka 560 kr per år. Siffrorna är uppskattningar baserade på 0,4 kWh per tillagning och varierar med modell, tillagningstid och hur full korgen är.',
         us: 'At an example rate of 20 cents per kWh, using it 3 times a week costs about $12 a year, and daily use about $29 a year. These are estimates based on 0.4 kWh per cook; the real figure depends on the model, the cook time, how full the basket is and the rate on your utility bill.',
-        ca: 'At an example rate of 10¢/kWh, using it 3 times a week costs about $6 a year, and daily use about $15 a year. These figures are estimates based on 0.4 kWh per cook and vary with the model, cooking time and how full the basket is. Your rate depends on your province and utility, so check your bill.',
+        ca: 'Using it 3 times a week comes to about 62 kWh a year, and daily use to about 146 kWh a year. Multiply those figures by the rate per kWh on your bill, which depends on your province and utility. They are estimates based on 0.4 kWh per cook and vary with the model, cooking time and how full the basket is.',
       },
     },
     {

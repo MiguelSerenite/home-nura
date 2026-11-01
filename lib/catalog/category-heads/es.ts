@@ -130,8 +130,8 @@ export const ES_HEADS: CategoryHeads = {
     description: "Cámaras de vigilancia wifi para interior comparadas: Eufy, TP-Link Tapo y Reolink. Giro 360°, 2K, grabación local sin cuotas y mascotas. 3 favoritos y FAQ.",
   },
   "cameras-exterieur": {
-    keyword: "cámara exterior",
-    title: "Mejor cámara exterior de vigilancia 2026: wifi y sin cuotas",
+    keyword: "cámara de vigilancia exterior",
+    title: "Mejor cámara de vigilancia exterior 2026: solar y sin cuotas",
     h1: "Las mejores cámaras de vigilancia exterior de 2026: wifi, solares y PoE",
     description: "Cámaras de vigilancia exterior comparadas: eufy, TP-Link Tapo y Reolink. Placa solar, wifi o PoE, visión nocturna y grabación sin cuotas. Con FAQ.",
   },
@@ -142,10 +142,10 @@ export const ES_HEADS: CategoryHeads = {
     description: "Cerraduras inteligentes comparadas: Nuki y Aqara. Montaje sin obras sobre el bombín, huella, teclado, Matter y autonomía. Nuestros 3 favoritos y FAQ.",
   },
   "alarmes": {
-    keyword: "alarma para casa sin cuotas",
-    title: "Mejor alarma para casa sin cuotas 2026: comparativa",
+    keyword: "alarma hogar sin cuotas",
+    title: "Mejor alarma hogar sin cuotas 2026: comparativa",
     h1: "Las mejores alarmas para casa sin cuota mensual de 2026",
-    description: "Alarmas para casa sin cuota mensual obligatoria comparadas: Ajax, Somfy y Ring. Kits 4G, sensores, sirena y avisos en el móvil, que instalas tú. Con FAQ.",
+    description: "Alarmas para casa sin cuotas obligatorias comparadas: Ajax, Somfy y Ring. Kits que instalas tú, con sensores, sirena y avisos en el móvil. Con FAQ.",
   },
   "detecteurs-fumee-co": {
     keyword: "detector de humo inteligente",
@@ -248,10 +248,10 @@ export const ES_HEADS: CategoryHeads = {
     description: "Robots aspiradores comparados: Roborock y Dreame. Navegación LiDAR, succión, pelo de mascotas, base de autovaciado y alfombras. Nuestros 3 favoritos y FAQ.",
   },
   "aspirateurs-laveurs": {
-    keyword: "robot aspirador y friegasuelos",
-    title: "Mejor robot aspirador y friegasuelos 2026: comparativa",
-    h1: "Los mejores robots aspiradores y friegasuelos de 2026, con base autolimpiable",
-    description: "Robots aspiradores y friegasuelos comparados: Dreame y Roborock. Mopas rotativas, base autolimpiable con secado, suelos duros y alfombras. Con FAQ.",
+    keyword: "robot aspirador y fregasuelos",
+    title: "Mejor robot aspirador y fregasuelos 2026: comparativa",
+    h1: "Los mejores robots aspiradores y fregasuelos de 2026, con base autolimpiable",
+    description: "Robots aspiradores y fregasuelos (o friegasuelos) comparados: Dreame y Roborock. Mopas rotativas, base autolimpiable con secado, suelos duros y alfombras.",
   },
   "laveurs-vitres": {
     keyword: "robot limpiacristales",

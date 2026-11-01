@@ -203,7 +203,7 @@ export const AUTHOR_PAGE_COPY: Record<Lang, AuthorPageCopy> = {
     penNameTitle: 'A pen name, openly',
     penName: 'Liam Tremblay is the pen name of the Home Nura editorial team for readers in Canada: one byline per language, stable and recognizable. Publication is the responsibility of Miguel Marie, founder of Home Nura.',
     methodTitle: 'How our guides are prepared',
-    method: 'Every comparison cross-checks manufacturer specifications, user reviews and results published by independent organizations (Which?, Stiftung Warentest, Que Choisir…), cited with a link. We do not test products ourselves, and we say so. Every guide shows the date of its last update.',
+    method: 'Every comparison cross-checks manufacturer specifications, user reviews and results published by independent testing organizations, cited with a link. We do not test products ourselves, and we say so. Every guide shows the date of its last update.',
     methodologyLink: 'Read our methodology',
     latestTitle: 'Latest guides',
     breadcrumbHome: 'Home',

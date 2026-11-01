@@ -10,10 +10,10 @@ import type { CategoryHeads } from './types'
 export const DE_HEADS: CategoryHeads = {
   // ---------------------------------------------------------------- Küche
   "airfryers": {
-    keyword: "Heißluftfritteuse",
-    title: "Heißluftfritteuse Vergleich 2026: Die 3 besten Airfryer",
-    h1: "Heißluftfritteuse Vergleich 2026: Die besten Airfryer im Überblick",
-    description: "Heißluftfritteusen im Vergleich: 3 Empfehlungen von Philips, Cosori und Xiaomi. Kaufberatung zu Fassungsvermögen, Doppelkammer, Stromverbrauch und FAQ.",
+    keyword: "Airfryer",
+    title: "Airfryer Vergleich 2026: Die 3 besten Heißluftfritteusen",
+    h1: "Airfryer Vergleich 2026: Die besten Heißluftfritteusen im Überblick",
+    description: "Airfryer im Vergleich: 3 Heißluftfritteusen von Ninja, Philips und Cosori. Kaufberatung zu Fassungsvermögen, Doppelkammer, Stromverbrauch und FAQ.",
   },
   "multicuiseurs": {
     keyword: "Multikocher",
@@ -116,10 +116,10 @@ export const DE_HEADS: CategoryHeads = {
 
   // ---------------------------------------------------------- Sicherheit
   "sonnettes-video": {
-    keyword: "Video-Türklingel",
-    title: "Video-Türklingel Vergleich 2026: Die 3 besten ohne Abo",
-    h1: "Video-Türklingel Vergleich 2026: Die besten Modelle ohne Abo-Zwang",
-    description: "Video-Türklingeln im Vergleich: 3 Empfehlungen von Eufy, TP-Link Tapo und Aqara mit lokaler Speicherung ohne Abo. Kaufberatung zu Akku, Apple Home und FAQ.",
+    keyword: "Türklingel mit Kamera",
+    title: "Türklingel mit Kamera im Vergleich 2026: Top 3 ohne Abo",
+    h1: "Türklingel mit Kamera: Video-Türklingeln ohne Abo im Vergleich 2026",
+    description: "Türklingeln mit Kamera im Vergleich: 3 Video-Türklingeln von Eufy, TP-Link Tapo und Aqara, nutzbar ohne Abo. Kaufberatung zu Akku, Apple Home und FAQ.",
   },
   "cameras-interieur": {
     keyword: "Überwachungskamera innen",
@@ -134,10 +134,10 @@ export const DE_HEADS: CategoryHeads = {
     description: "Außenkameras im Vergleich: 3 Empfehlungen von Eufy, TP-Link Tapo und Reolink, mit Solarpanel, WLAN oder PoE. Kaufberatung zu Nachtsicht, DSGVO und FAQ.",
   },
   "serrures-connectees": {
-    keyword: "smartes Türschloss",
-    title: "Smartes Türschloss Vergleich 2026: Einfach nachrüsten",
-    h1: "Smartes Türschloss Vergleich 2026: Die besten Smart Locks zum Nachrüsten",
-    description: "Smarte Türschlösser im Vergleich: 3 Empfehlungen von Nuki und Aqara zum Nachrüsten an der Haustür. Kaufberatung zu Zylinder, Matter, Keypad und FAQ.",
+    keyword: "Smart Lock",
+    title: "Smart Lock Vergleich 2026: Smartes Türschloss nachrüsten",
+    h1: "Smart Lock Vergleich 2026: Die besten smarten Türschlösser zum Nachrüsten",
+    description: "Smart Locks im Vergleich: 3 smarte Türschlösser von Nuki und Aqara zum Nachrüsten an der Haustür. Kaufberatung zu Zylinder, Matter, Keypad und FAQ.",
   },
   "alarmes": {
     keyword: "Alarmanlage ohne Abo",
@@ -211,7 +211,7 @@ export const DE_HEADS: CategoryHeads = {
     keyword: "Elektroheizung",
     title: "Elektroheizung Vergleich 2026: Mit WLAN und Thermostat",
     h1: "Elektroheizung mit WLAN und Thermostat: Vergleich 2026 für einzelne Räume",
-    description: "Smarte Elektroheizungen im Vergleich: 3 Empfehlungen von Thermor, Sauter und Mill für einzelne Räume. Kaufberatung zu Watt, Thermostat, App und FAQ.",
+    description: "Elektroheizungen im Vergleich: 2 Wandheizkörper mit App und ein mobiler Ölradiator von Mill für einzelne Räume. Kaufberatung zu Watt, Thermostat und FAQ.",
   },
   "stations-meteo": {
     keyword: "WLAN-Wetterstation",
@@ -291,9 +291,9 @@ export const DE_HEADS: CategoryHeads = {
   // ------------------------------------------------------------- Outdoor
   "tondeuses-robots": {
     keyword: "Mähroboter",
-    title: "Mähroboter Vergleich 2026: Top 3 ohne Begrenzungsdraht",
-    h1: "Mähroboter Vergleich 2026: Die besten Modelle ohne Begrenzungsdraht",
-    description: "Mähroboter ohne Begrenzungsdraht im Vergleich: 3 Empfehlungen von Ecovacs, Segway Navimow und Mammotion mit RTK. Kaufberatung zu Fläche, Hang und FAQ.",
+    title: "Mähroboter Vergleich 2026: Top 3 ohne Begrenzungskabel",
+    h1: "Mähroboter Vergleich 2026: Die besten Modelle ohne Begrenzungskabel",
+    description: "Mähroboter ohne Begrenzungskabel im Vergleich: Ecovacs, Segway Navimow und Mammotion mit RTK statt Begrenzungsdraht. Kaufberatung zu Fläche, Hang und FAQ.",
   },
   "arrosage-connecte": {
     keyword: "Bewässerungscomputer",

@@ -189,7 +189,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much can a smart thermostat save on my energy bill?",
-        answer: "It depends on your habits: the savings come from heating fewer hours and to lower temperatures, not from the device itself. France's energy agency ADEME estimates that every 1°C (about 2°F) you turn down cuts heating use by about 7%. If the heat already goes off whenever you're out, gains will be modest; if it runs on a fixed schedule whether you're home or not, geofencing and room-by-room control make a real difference. To estimate, start from your yearly heating bill: every 5% cut on $1,400 a year saves $70.",
+        answer: "It depends on your habits: the savings come from heating fewer hours and to lower temperatures, not from the device itself. If the heat already goes off whenever you're out, gains will be modest; if it runs on a fixed schedule whether you're home or not, geofencing and room-by-room control make a real difference. To estimate, start from your yearly heating bill: every 5% cut on $1,400 a year saves $70.",
       },
       {
         question: "Can I install a smart thermostat myself?",
@@ -203,7 +203,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     ca: [
       {
         question: "Will a smart thermostat work with my furnace or boiler?",
-        answer: "Almost certainly: most smart thermostats work with furnaces and hot-water boilers, usually as a simple on/off switch. Some, mainly European models, also support OpenTherm, which lets the thermostat turn a boiler's output down instead of just switching it on and off, helping a condensing boiler run more efficiently. Check your system on the thermostat maker's compatibility list. Electric baseboard heaters are different: they run on line voltage and need a smart thermostat designed for them.",
+        answer: "Almost certainly: most smart thermostats work with furnaces and hot-water boilers, usually as a simple on/off switch. Models such as ecobee's are built for 24 V systems and also handle multistage equipment and heat pumps with auxiliary heat. Check your system on the thermostat maker's compatibility list. Electric baseboard heaters are different: they run on line voltage and need a smart thermostat designed for them.",
       },
       {
         question: "Is it cheaper to leave the heat on low all day?",
@@ -403,11 +403,11 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     us: [
       {
         question: "Do I need an energy monitor if I already have a smart meter?",
-        answer: "Not necessarily: if your utility has installed a smart meter, it may already show your usage for free in its app or online account, though often with a delay of about a day. An energy monitor adds what the utility's app doesn't: real-time readings, app history, alerts, and appliance-level data when paired with smart plugs. For whole-home readings, CT clamps go in your electrical panel; in France, a module can read the Linky smart meter's data port instead. To see what one appliance uses, a smart plug with energy monitoring is still the simplest tool.",
+        answer: "Not necessarily: if your utility has installed a smart meter, it may already show your usage for free in its app or online account, though often with a delay of about a day. An energy monitor adds what the utility's app doesn't: real-time readings, app history, alerts, and appliance-level data when paired with smart plugs. For whole-home readings, CT clamps go in your electrical panel; if your utility allows it, a gateway such as the Rainforest EAGLE-200 can read your smart meter over Zigbee instead. To see what one appliance uses, a smart plug with energy monitoring is still the simplest tool.",
       },
       {
         question: "How do I figure out what an appliance costs to run?",
-        answer: "Multiply its power in kilowatts by the hours it runs, then by your electricity rate: a 2,000 W appliance running for 1.5 hours uses 3 kWh. At an example rate of 20 cents per kWh, that's 60 cents; check the rate on your utility bill, and use the rate for those hours if you're on a time-of-use rate plan. For appliances that cycle on and off, such as refrigerators, freezers or dehumidifiers, the rating plate overstates use, so measure a full week with a smart plug and multiply by 52. Any fixed monthly charge stays the same however much you use.",
+        answer: "Multiply its power in kilowatts by the hours it runs, then by your electricity rate: a 2,000 W appliance running for 1.5 hours uses 3 kWh. At the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that's about 54 cents; check the rate on your utility bill, and use the rate for those hours if you're on a time-of-use rate plan. For appliances that cycle on and off, such as refrigerators, freezers or dehumidifiers, the rating plate overstates use, so measure a full week with a smart plug and multiply by 52. Any fixed monthly charge stays the same however much you use.",
       },
       {
         question: "Smart plug with energy monitoring or a whole-home CT clamp monitor?",
@@ -415,11 +415,11 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Can I install a CT clamp energy monitor myself?",
-        answer: "Clamps that fit around cables inside your electrical panel are a job for a licensed electrician: opening the panel exposes live parts, and the incoming service cables stay live even with the main breaker off. Never open or tamper with the meter or any utility seal. Monitors that need no panel work, such as smart plugs with energy monitoring, are fine to set up yourself, as are modules that plug into France's Linky smart meter. For privacy, prefer a monitor that works locally if you don't want your usage data sent to the cloud.",
+        answer: "Clamps that fit around cables inside your electrical panel are a job for a licensed electrician: opening the panel exposes live parts, and the incoming service cables stay live even with the main breaker off. Never open or tamper with the meter or any utility seal. Monitors that need no panel work, such as smart plugs with energy monitoring, are fine to set up yourself, as are gateways that pair wirelessly with your utility's smart meter, where the utility supports it. For privacy, prefer a monitor that works locally if you don't want your usage data sent to the cloud.",
       },
       {
         question: "Why isn't my energy monitor showing any readings?",
-        answer: "Most often it's a connection problem: the transmitter is too far from your Wi-Fi router or Zigbee hub, which is common when the electrical panel or meter is in a basement, garage or hallway. Move the hub closer or add a repeater, check that each clamp is fully closed and plugged into the right input, and replace the transmitter's batteries, since dead batteries are a common cause of gaps. A module that reads France's Linky meter must also match the meter's data mode (“historique” by default, or “standard”), which the supplier can switch on request.",
+        answer: "Most often it's a connection problem: the transmitter is too far from your Wi-Fi router or Zigbee hub, which is common when the electrical panel or meter is in a basement, garage or hallway. Move the hub closer or add a repeater, check that each clamp is fully closed and plugged into the right input, and replace the transmitter's batteries, since dead batteries are a common cause of gaps. A gateway that reads your utility's smart meter must also be registered with the utility before it receives any data.",
       },
     ],
     ca: [
@@ -429,7 +429,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "How do I work out what an appliance costs to run?",
-        answer: "Multiply its power in kilowatts by the hours it runs, then by your rate per kWh: a 2 kW appliance running for 1.5 hours uses 3 kWh. At an example rate of 10¢ per kWh, that's 30¢. For appliances that cycle on and off, such as fridges, freezers or dehumidifiers, the rating plate overstates use, so measure a full week with a smart plug and multiply by 52. Your rate depends on your province and utility, so check your bill; fixed monthly charges stay the same however much you use.",
+        answer: "Multiply its power in kilowatts by the hours it runs, then by your rate per kWh. A 2 kW appliance running for 1.5 hours uses 3 kWh, so it costs three times your rate per kWh. For appliances that cycle on and off, such as fridges, freezers or dehumidifiers, the rating plate overstates use, so measure a full week with a smart plug and multiply by 52. Your rate depends on your province and utility, so check your bill; fixed monthly charges stay the same however much you use.",
       },
       {
         question: "Smart plug with energy monitoring or a whole-home clamp monitor?",
@@ -625,11 +625,11 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     us: [
       {
         question: "Is plug-in balcony solar allowed where I live?",
-        answer: "It depends on where you live: rules for plug-in solar vary by state and utility, so check with your utility before you connect a kit. In France, for example, it's allowed, but a kit must be declared, free of charge, to Enedis, France's grid operator, even if you don't sell any power. If you rent or live in a condo, check your lease or HOA rules and get approval before attaching anything to a railing. Plugging a kit into an ordinary outlet is still debated, even in France, so have a licensed electrician check the circuit first.",
+        answer: "It depends on where you live: rules for plug-in solar vary by state and utility, so check with your utility before you connect a kit. In Utah, for example, a 2025 law (H.B. 340) lets a portable solar device of up to 1,200 W plug into a standard 120 V outlet with no interconnection agreement, as long as it carries UL or equivalent certification. If you rent or live in a condo, check your lease or HOA rules and get approval before attaching anything to a railing. Have a licensed electrician check the circuit before you plug in a kit.",
       },
       {
         question: "How much can a balcony solar panel save?",
-        answer: "Your savings equal the solar electricity you use as it's produced, multiplied by your electricity rate; anything you don't use flows to the grid, usually unpaid. Example: if a kit produces 450 kWh a year and you use 70% of it, that's 315 kWh, worth about $63 at an example rate of 20 cents per kWh. Output depends heavily on orientation, tilt and shade, so estimate yours with a free solar calculator such as the European Commission's PVGIS, then divide the kit's price by the yearly savings to get the payback time.",
+        answer: "Your savings equal the solar electricity you use as it's produced, multiplied by your electricity rate; anything you don't use flows to the grid, usually unpaid. Example: if a kit produces 450 kWh a year and you use 70% of it, that's 315 kWh, worth about $57 at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). Output depends heavily on orientation, tilt and shade, so estimate yours with a free solar calculator such as NREL's PVWatts, then divide the kit's price by the yearly savings to get the payback time.",
       },
       {
         question: "Will balcony solar work on a north-facing or shaded balcony?",
@@ -651,7 +651,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much can a balcony solar panel save?",
-        answer: "Your saving is the solar electricity you use as it's generated, multiplied by your rate per kWh; anything you don't use flows to the grid, usually unpaid. Example: if a kit produces 400 kWh a year and you use 70% of it, that's 280 kWh, worth $28 at an example rate of 10¢ per kWh. Output depends heavily on orientation, tilt and shading, so estimate yours with a free solar calculator such as the European Commission's PVGIS, then divide the kit's price by the yearly saving to get the payback time.",
+        answer: "Your saving is the solar electricity you use as it's generated, multiplied by your rate per kWh; anything you don't use flows to the grid, usually unpaid. Example: if a kit produces 400 kWh a year and you use 70% of it, that's 280 kWh a year; multiply it by the rate on your bill, which depends on your province and utility. Output depends heavily on orientation, tilt and shading, so estimate yours with a free solar calculator, then divide the kit's price by the yearly saving to get the payback time.",
       },
       {
         question: "Will balcony solar work on a north-facing or shaded balcony?",
@@ -847,7 +847,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     us: [
       {
         question: "Is a home battery worth it without solar panels?",
-        answer: "It can be, but the math is often tight. On a time-of-use rate plan, the battery charges with cheaper off-peak power overnight and runs your home at peak times instead. Work it out: kWh shifted per day × (peak rate − off-peak rate) × 365, minus about 10% for charging losses. With example rates of 20 cents peak and 10 cents off-peak, shifting 8 kWh a day saves about $290 a year, or roughly $260 after losses. Compare that with the installed price divided by the warranty years.",
+        answer: "It can be, but the math is often tight. On a time-of-use rate plan, the battery charges with cheaper off-peak power overnight and runs your home at peak times instead. Work it out: kWh shifted per day × (peak rate − off-peak rate) × 365, minus about 10% for charging losses. With a 10-cent gap between your peak and off-peak rates, shifting 8 kWh a day saves about $290 a year, or roughly $260 after losses. Compare that with the installed price divided by the warranty years.",
       },
       {
         question: "What size home battery do I need?",
@@ -869,7 +869,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     ca: [
       {
         question: "Is a home battery worth it without solar panels?",
-        answer: "It can be, if your utility offers time-of-use rates: the battery charges with cheaper off-peak electricity overnight and powers your home at peak times instead. Work it out: kWh shifted per day × (peak rate − off-peak rate) × 365, minus around 10% for charging losses. With an example gap of 10¢ per kWh, shifting 8 kWh a day is worth about $290 a year, or roughly $260 after losses. Compare that with the installed price divided by the warranty years.",
+        answer: "It can be, if your utility offers time-of-use rates: the battery charges with cheaper off-peak electricity overnight and powers your home at peak times instead. Work it out: kWh shifted per day × (peak rate − off-peak rate) × 365, minus around 10% for charging losses. For example, shifting 8 kWh a day moves about 2,900 kWh a year, or roughly 2,600 kWh after losses: multiply that by the gap between your utility's peak and off-peak rates. Compare that with the installed price divided by the warranty years.",
       },
       {
         question: "What size home battery do I need?",
@@ -1077,7 +1077,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much electricity does a smart bulb use on standby?",
-        answer: "No more than 0.5 W, the limit set by the EU's ecodesign rules for connected light sources, which works out to about 4.4 kWh a year per bulb. At an example rate of 20 cents per kWh, that's at most about 90 cents a year per bulb. When it's on, a smart LED uses the same as a regular LED of equal brightness: a 9 W bulb lit four hours a day uses about 13 kWh a year. Turning it off at the wall switch saves standby power but leaves the bulb unreachable from the app.",
+        answer: "Usually 0.5 W or less on standby (check the spec sheet), which works out to about 4.4 kWh a year per bulb. At the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that's at most about 80 cents a year per bulb. When it's on, a smart LED uses the same as a regular LED of equal brightness: a 9 W bulb lit four hours a day uses about 13 kWh a year. Turning it off at the wall switch saves standby power but leaves the bulb unreachable from the app.",
       },
       {
         question: "Do smart bulbs need an app account or cloud connection?",
@@ -1099,7 +1099,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much electricity does a smart bulb use on standby?",
-        answer: "Usually 0.5 W or less, the limit EU ecodesign rules set for connected light sources, which works out at about 4.4 kWh a year per bulb. At an example rate of 10¢ per kWh, that's at most about 44¢ a year per bulb. When it's on, a smart LED uses the same as a regular LED of equal brightness: a 9 W bulb lit for four hours a day uses about 13 kWh a year. Switching off at the wall saves standby power but makes the bulb unreachable.",
+        answer: "Usually 0.5 W or less, so check the spec sheet. At 0.5 W, that works out at about 4.4 kWh a year per bulb; multiply it by the rate on your bill, which depends on your province and utility. When it's on, a smart LED uses the same as a regular LED of equal brightness: a 9 W bulb lit for four hours a day uses about 13 kWh a year. Switching off at the wall saves standby power but makes the bulb unreachable.",
       },
       {
         question: "Do smart bulbs need an app account or cloud connection?",
@@ -1291,7 +1291,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     us: [
       {
         question: "Can I install a smart light switch without a neutral wire?",
-        answer: "Yes, many smart switches are designed for switch boxes with no neutral, which is common in older wiring, but they can struggle with low-wattage LED bulbs. No-neutral switches power themselves by drawing a tiny current through the bulb, which can make LEDs flicker or glow when they're off; most come with a small bypass or list a minimum load. With the power off, look inside the box: in US wiring a neutral is usually a white wire (blue on European wiring). If you find only the line and load wires, buy a no-neutral model.",
+        answer: "Yes, many smart switches are designed for switch boxes with no neutral, which is common in older wiring, but they can struggle with low-wattage LED bulbs. No-neutral switches power themselves by drawing a tiny current through the bulb, which can make LEDs flicker or glow when they're off; most come with a small bypass or list a minimum load. With the power off, look inside the box: in US wiring a neutral is usually a white wire. If you find only the line and load wires, buy a no-neutral model.",
       },
       {
         question: "Will a smart switch fit in my existing electrical box?",
