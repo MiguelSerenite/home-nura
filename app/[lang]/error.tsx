@@ -6,7 +6,7 @@ const texts: Record<string, { title: string; desc: string; button: string }> = {
   fr: { title: 'Une erreur est survenue', desc: 'Quelque chose s\'est mal passé. Veuillez réessayer.', button: 'Réessayer' },
   en: { title: 'Something went wrong', desc: 'An error occurred. Please try again.', button: 'Try again' },
   de: { title: 'Ein Fehler ist aufgetreten', desc: 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.', button: 'Erneut versuchen' },
-  es: { title: 'Algo salió mal', desc: 'Se produjo un error. Por favor, inténtalo de nuevo.', button: 'Reintentar' },
+  es: { title: 'Se ha producido un error', desc: 'Algo ha ido mal. Vuelve a intentarlo.', button: 'Reintentar' },
   it: { title: 'Si è verificato un errore', desc: 'Qualcosa è andato storto. Riprova.', button: 'Riprova' },
   nl: { title: 'Er is een fout opgetreden', desc: 'Er ging iets mis. Probeer het opnieuw.', button: 'Opnieuw proberen' },
   pl: { title: 'Wystąpił błąd', desc: 'Coś poszło nie tak. Spróbuj ponownie.', button: 'Ponów próbę' },

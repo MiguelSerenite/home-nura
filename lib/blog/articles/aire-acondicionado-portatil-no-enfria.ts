@@ -13,11 +13,11 @@ export const article: BlogArticle = {
       src: 'https://images.unsplash.com/photo-1550728683-ec67f8536bdc?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Climatiseur mobile qui ne refroidit pas dans un salon, tuyau d\'évacuation à vérifier',
-        en: 'Portable air conditioner not cooling in a living room, exhaust hose to check',
-        de: 'Mobile Klimaanlage kühlt nicht im Wohnzimmer, Abluftschlauch zu prüfen',
-        es: 'Aire acondicionado portátil que no enfría en un salón, tubo de evacuación a revisar',
-        it: 'Climatizzatore portatile che non raffredda in un soggiorno, tubo di scarico da controllare',
-        nl: 'Mobiele airco die niet koelt in een woonkamer, afvoerslang controleren',
+        en: 'Portable air conditioner that isn\'t cooling a living room, with its exhaust hose to check',
+        de: 'Mobile Klimaanlage im Wohnzimmer kühlt nicht: Abluftschlauch prüfen',
+        es: 'Aire acondicionado portátil que no enfría en un salón, con el tubo de evacuación por revisar',
+        it: 'Condizionatore portatile che non raffredda in un soggiorno, con il tubo di scarico da controllare',
+        nl: 'Mobiele airco in een woonkamer die niet koelt; controleer eerst de afvoerslang',
         pl: 'Klimatyzator przenośny, który nie chłodzi salonu – do sprawdzenia wąż odprowadzający',
         sv: 'Portabel AC som inte kyler i vardagsrummet – dags att kontrollera utblåsslangen',
         us: 'Portable air conditioner that isn\'t cooling in a living room, with its exhaust hose to check',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Climatiseur Portable qui ne Refroidit Pas : Causes et Solutions 2026',
-    en: 'Portable Air Conditioner Not Cooling: Causes and Fixes 2026',
-    de: 'Mobile Klimaanlage Kühlt Nicht: Ursachen und Lösungen 2026',
-    es: 'Aire Acondicionado Portátil No Enfría: Causas y Soluciones 2026',
-    it: 'Climatizzatore Portatile che Non Raffredda: Cause e Soluzioni 2026',
-    nl: 'Mobiele Airco Koelt Niet: Oorzaken en Oplossingen 2026',
+    en: 'Portable Air Conditioner Not Cooling? Causes and Fixes (2026)',
+    de: 'Mobile Klimaanlage kühlt nicht: Ursachen und Lösungen',
+    es: 'Aire acondicionado portátil no enfría: causas y soluciones 2026',
+    it: 'Condizionatore portatile che non raffredda: cause e soluzioni 2026',
+    nl: 'Mobiele airco koelt niet? Oorzaken en oplossingen (2026)',
     pl: 'Klimatyzator przenośny nie chłodzi: przyczyny i rozwiązania 2026',
     sv: 'Portabel AC kyler inte: orsaker och lösningar 2026',
     us: 'Portable AC Not Cooling? 8 Causes and Fixes (2026)',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Votre climatiseur portable ne refroidit pas ou pas assez ? Diagnostic complet : tuyau d\'évacuation, filtre encrassé, BTU insuffisants, mauvais réglage, fuite de gaz. Solutions étape par étape et tableau de dépannage.',
-    en: 'Is your portable air conditioner not cooling or not cooling enough? Full diagnosis: exhaust hose, clogged filter, insufficient BTU, wrong setting, gas leak. Step-by-step fixes and a troubleshooting table.',
-    de: 'Ihre mobile Klimaanlage kühlt nicht oder nicht genug? Komplette Diagnose: Abluftschlauch, verstopfter Filter, zu wenig BTU, falsche Einstellung, Gasleck. Lösungen Schritt für Schritt und Fehlertabelle.',
-    es: '¿Tu aire acondicionado portátil no enfría o no enfría bien? Diagnóstico completo: tubo de evacuación, filtro sucio, BTU insuficientes, modo mal ajustado, fuga de gas. Soluciones paso a paso y tabla de averías.',
-    it: 'Il tuo climatizzatore portatile non raffredda o non abbastanza? Diagnosi completa: tubo di scarico, filtro sporco, BTU insufficienti, modalità sbagliata, perdita di gas. Soluzioni passo passo e tabella guasti.',
-    nl: 'Koelt je mobiele airco niet of niet genoeg? Volledige diagnose: afvoerslang, vervuild filter, te weinig BTU, verkeerde stand, gaslek. Stap-voor-stap oplossingen en een storingstabel.',
+    en: 'Is your portable air conditioner not cooling, or not cooling enough? We go through every likely cause: the exhaust hose, a clogged filter, too few BTU, the wrong setting or a refrigerant leak. Step-by-step fixes and a troubleshooting table.',
+    de: 'Ihre mobile Klimaanlage kühlt nicht oder nicht genug? Die häufigsten Ursachen: Abluftschlauch, verschmutzter Filter, zu wenig Leistung (BTU), falsche Einstellung, Kältemittelverlust. Mit Lösungen Schritt für Schritt und Tabelle zur Fehlersuche.',
+    es: '¿Tu aire acondicionado portátil no enfría o enfría poco? Diagnóstico completo: tubo de evacuación, filtro sucio, BTU insuficientes, modo mal elegido o fuga de gas. Soluciones paso a paso y tabla de diagnóstico.',
+    it: 'Il tuo condizionatore portatile non raffredda, o raffredda poco? Diagnosi completa: tubo di scarico, filtro sporco, BTU insufficienti, impostazioni sbagliate, perdita di gas. Soluzioni passo passo e tabella per la diagnosi.',
+    nl: 'Koelt je mobiele airco niet of niet genoeg? We lopen alle oorzaken langs: afvoerslang, vuil filter, te weinig BTU, verkeerde stand en een lek in het koelcircuit. Met oplossingen stap voor stap en een overzichtstabel.',
     pl: 'Klimatyzator przenośny nie chłodzi albo chłodzi za słabo? Sprawdzamy wszystkie możliwe przyczyny: wąż odprowadzający, zabrudzony filtr, zbyt małą moc (BTU), błędne ustawienia i wyciek czynnika chłodniczego. Rozwiązania krok po kroku i tabela usterek.',
     sv: 'Kyler din portabla AC inte alls, eller för dåligt? Hela felsökningen: utblåsslangen, igensatt filter, för låg kyleffekt (BTU), fel inställning och läckande köldmedium. Lösningar steg för steg och en felsökningstabell.',
     us: 'Portable air conditioner not cooling, or not cooling enough? A full diagnosis: exhaust hose, clogged filter, too few BTU, wrong setting, refrigerant leak. Step-by-step fixes and a troubleshooting table.',
@@ -51,9 +51,9 @@ export const article: BlogArticle = {
   },
   content: {
     es: `<h2>Mi aire acondicionado portátil no enfría: por dónde empezar</h2>
-<p>Es una de las averías más frustrantes del verano: enchufas el equipo, lo pones a 18 grados, lo dejas horas en marcha y la habitación sigue igual de calurosa. La buena noticia es que, en la gran mayoría de los casos, cuando un <strong>aire acondicionado portátil no enfría</strong> el problema no es una avería grave, sino un fallo de instalación, de mantenimiento o de dimensionado que tú mismo puedes resolver en unos minutos.</p>
-<p>Antes de pensar en llamar al servicio técnico o en comprar otro aparato, conviene hacer un diagnóstico ordenado. En esta guía repasamos las causas reales por las que un portátil <strong>no enfría bien</strong>, de la más frecuente a la más grave, con soluciones concretas paso a paso. Si todavía estás decidiendo qué sistema te conviene, te ayudará nuestra <a href="/es/blog/climatiseur-mobile-vs-ventilateur">comparativa de aire acondicionado portátil vs ventilador</a>.</p>
-<p>Conviene tener clara una idea de partida: un aire acondicionado portátil de un solo tubo no funciona como un split fijo de pared. Es más sensible a la instalación, al tamaño de la habitación y a la temperatura de la calle. Por eso, cuando notas que <strong>no enfría lo suficiente</strong>, en muchos casos no está estropeado, sino que está luchando contra unas condiciones que se pueden mejorar fácilmente. Vamos a verlas una por una, empezando por las comprobaciones de un minuto y dejando para el final las averías que ya requieren un profesional.</p>
+<p>Es una de las averías más frustrantes del verano: enchufas el aparato, lo pones a 18 grados, lo dejas horas en marcha y la habitación sigue igual de caliente. La buena noticia es que, en la gran mayoría de los casos, cuando un aire acondicionado portátil no enfría, el problema no es una avería grave, sino un fallo de instalación, de mantenimiento o de potencia que puedes resolver tú mismo en pocos minutos.</p>
+<p>Antes de llamar al servicio técnico o de comprar otro aparato, conviene hacer un diagnóstico ordenado. En esta guía repasamos las causas reales, de la más frecuente a la más grave, con soluciones concretas paso a paso. Si todavía dudas qué sistema te conviene más, echa un vistazo a nuestra <a href="/es/blog/climatiseur-mobile-vs-ventilateur">comparativa entre aire acondicionado portátil y ventilador</a>.</p>
+<p>Ten clara una idea: un aire acondicionado portátil monobloque no funciona como un split fijo de pared. Es mucho más sensible a la instalación, al tamaño de la habitación y a la temperatura exterior. A menudo, cuando no enfría lo suficiente, no está estropeado: está luchando contra unas condiciones desfavorables que se corrigen con facilidad. Vamos a verlas una por una, empezando por las comprobaciones de un minuto y dejando para el final las averías que necesitan un profesional.</p>
 
 <h2>Tabla de diagnóstico rápido</h2>
 <table>
@@ -61,124 +61,116 @@ export const article: BlogArticle = {
 <tr><th>Síntoma</th><th>Causa probable</th><th>Solución</th></tr>
 </thead>
 <tbody>
-<tr><td>Sale aire pero ni frío ni caliente</td><td>Está en modo ventilador, no en frío</td><td>Cambia al modo Cool / Frío (icono de copo de nieve)</td></tr>
-<tr><td>Enfría poco y el tubo se calienta</td><td><strong>Tubo de evacuación</strong> mal colocado o doblado</td><td>Endereza el tubo y sácalo bien por la ventana</td></tr>
-<tr><td>Caudal de aire muy débil</td><td><strong>Filtro</strong> sucio o atascado</td><td>Limpia o cambia el filtro</td></tr>
-<tr><td>Se para solo a los pocos minutos</td><td>Depósito de <strong>condensación</strong> lleno</td><td>Vacía el depósito de agua</td></tr>
-<tr><td>Funciona pero la habitación no baja de temperatura</td><td>Pocos <strong>BTU</strong> para los metros cuadrados</td><td>Reduce la superficie a enfriar o sube de potencia</td></tr>
-<tr><td>Enfría mucho menos que al principio</td><td>Posible <strong>fuga de gas</strong> refrigerante</td><td>Llama a un técnico certificado</td></tr>
+<tr><td>Sale aire, pero ni frío ni caliente</td><td>Modo ventilador en lugar de frío</td><td>Cambia al modo Cool / Frío (copo de nieve)</td></tr>
+<tr><td>Enfría poco y el tubo se calienta</td><td>Tubo de evacuación mal colocado o doblado</td><td>Endereza el tubo y sácalo por la ventana</td></tr>
+<tr><td>Sale muy poco aire</td><td>Filtro sucio</td><td>Limpia o cambia el filtro</td></tr>
+<tr><td>Se apaga solo a los pocos minutos</td><td>Depósito de condensados lleno</td><td>Vacía el depósito de agua</td></tr>
+<tr><td>Funciona, pero la habitación no se enfría</td><td>Pocos BTU para la superficie</td><td>Enfría una zona más pequeña o elige un equipo más potente</td></tr>
+<tr><td>Enfría mucho menos que antes</td><td>Posible fuga de gas</td><td>Llama a un técnico certificado</td></tr>
 </tbody>
 </table>
 
-<h2>Causa 1: el modo está mal ajustado</h2>
-<p>Parece una tontería, pero es el motivo número uno de las falsas averías. Muchos equipos arrancan por defecto en modo <em>ventilador</em> (Fan) o en modo <em>seco / deshumidificación</em> (Dry), que mueven el aire o quitan humedad pero apenas bajan la temperatura. Si el compresor no arranca, el aparato nunca enfriará de verdad.</p>
+<h2>Causa 1: el modo no es el correcto</h2>
+<p>Parece una tontería, pero es la causa número uno de las falsas averías. Muchos aparatos arrancan por defecto en modo ventilador (Fan) o en modo deshumidificación (Dry), que mueven el aire o le quitan humedad, pero apenas bajan la temperatura. Si el compresor no arranca, el aparato nunca enfriará.</p>
 <ul>
-<li>Pulsa el botón de modo (Mode) hasta ver el icono de copo de nieve o la palabra Cool / Frío.</li>
-<li>Baja la temperatura de consigna varios grados por debajo de la temperatura actual de la habitación.</li>
-<li>Comprueba que escuchas arrancar el compresor (un zumbido grave) al cabo de uno o dos minutos.</li>
-<li>Si usas el temporizador o el modo Eco, desactívalos durante la prueba para descartar que estén limitando el equipo.</li>
+<li>Pulsa el botón Mode hasta que aparezca el copo de nieve o la indicación Cool / Frío.</li>
+<li>Baja la temperatura de consigna varios grados por debajo de la que tiene ahora la habitación.</li>
+<li>Comprueba que, al cabo de uno o dos minutos, se oye arrancar el compresor (un zumbido grave).</li>
+<li>Desactiva el temporizador y el modo Eco mientras haces la prueba, para descartar que estén limitando el equipo.</li>
 </ul>
 
 <h2>Causa 2: el tubo de evacuación está mal instalado</h2>
-<p>Esta es, de lejos, la causa más habitual cuando un portátil <strong>no enfría bien</strong>. Un aire acondicionado portátil no es magia: extrae el calor del interior y lo expulsa al exterior a través del <strong>tubo de evacuación</strong>. Si ese aire caliente no sale realmente de la habitación, vuelve a entrar y anula todo el efecto refrigerante. Es el error más frecuente y, a la vez, el más fácil de corregir sin gastar un euro.</p>
-<p>Un detalle que mucha gente desconoce: cuanto más largo y retorcido está el tubo, más se calienta su propia superficie y más calor devuelve a la habitación por radiación. Por eso un tubo bien colocado no solo evacúa mejor, sino que también evita que el equipo trabaje contra sí mismo. La temperatura del propio tubo es una buena pista: si al cabo de un rato está muy caliente al tacto en su tramo final, casi seguro que el recorrido es demasiado largo o tiene dobleces.</p>
+<p>Es, con diferencia, la causa más frecuente. Un aire acondicionado portátil extrae el calor de la habitación y lo expulsa al exterior por el tubo de evacuación. Si ese aire caliente no sale de verdad de la habitación, vuelve a entrar y anula todo el efecto de enfriamiento. Es el error más extendido y, a la vez, el más fácil de corregir sin gastar un euro.</p>
+<p>Un detalle en el que casi nadie se fija: cuanto más largo y retorcido es el tubo, más se calienta su superficie y más calor devuelve a la habitación por radiación. La temperatura del tubo es una buena pista: si al cabo de un rato su tramo final está muy caliente al tacto, seguramente el recorrido es demasiado largo o tiene codos.</p>
 <h3>Cómo revisar y corregir el tubo</h3>
 <ul>
-<li>El tubo debe ir <strong>directo a una ventana o a una salida al exterior</strong>, nunca quedarse dando vueltas dentro de la habitación.</li>
-<li>Mantenlo lo más <strong>corto y recto posible</strong>. Cada codo y cada metro de más reducen el rendimiento y hacen que el motor trabaje contra sí mismo.</li>
-<li>Evita que el tubo quede <strong>doblado, aplastado o en forma de U</strong>: el aire caliente se acumula y vuelve hacia dentro.</li>
-<li>Comprueba que el tubo encaja bien en la salida trasera del equipo y que no se ha soltado.</li>
-<li>No alargues el tubo con piezas caseras ni lo sustituyas por uno más largo: el fabricante calcula su longitud para el caudal del aparato.</li>
+<li>El tubo debe ir directo a una ventana o a una salida al exterior, nunca dar vueltas por la habitación.</li>
+<li>Mantenlo lo más corto y recto posible: cada codo y cada metro de más restan rendimiento.</li>
+<li>Evita que quede doblado, aplastado o en forma de U: el aire caliente se acumula y vuelve hacia dentro.</li>
+<li>Comprueba que el tubo está bien encajado en la parte trasera del aparato y que no se ha soltado.</li>
+<li>No alargues el tubo con apaños caseros ni lo cambies por uno más largo: su longitud está calculada para el caudal del aparato.</li>
 </ul>
 
-<h2>Causa 3: mal sellado de la ventana</h2>
-<p>De poco sirve sacar el aire caliente por el tubo si por el hueco de la ventana entra otra vez aire caliente de la calle. Es como vaciar una bañera sin cerrar el grifo. La mayoría de los equipos vienen con un <strong>kit de sellado de ventana</strong> (panel de tela o de plástico con cremallera) precisamente para esto.</p>
+<h2>Causa 3: la ventana está mal sellada</h2>
+<p>De nada sirve sacar el aire caliente si el de la calle vuelve a entrar por el hueco que queda alrededor del tubo. Precisamente por eso, la mayoría de los aparatos incluyen un kit de sellado para ventanas.</p>
 <ul>
-<li>Instala el kit de sellado que acompaña al aparato; si lo perdiste, hay paneles universales muy económicos.</li>
-<li>Tapa cualquier hueco alrededor del tubo con cinta o con burlete de espuma.</li>
-<li>Cierra puertas y ventanas de la habitación y baja las persianas durante las horas de más sol para reducir la carga térmica.</li>
-<li>Si la ventana es abatible o de tipo oscilobatiente, busca un kit específico: los huecos triangulares que dejan son una vía de entrada de calor enorme.</li>
+<li>Instala el kit de sellado que viene con el aparato; si no lo tienes, hay paneles universales baratos.</li>
+<li>Tapa los huecos alrededor del tubo con cinta o con burlete de espuma.</li>
+<li>Cierra puertas y ventanas y baja las persianas en las horas de más calor.</li>
+<li>Si la ventana es oscilobatiente, busca un kit específico: las aberturas en triángulo dejan entrar muchísimo calor.</li>
 </ul>
-<p>Una prueba sencilla: con el equipo en marcha, acerca la mano al contorno de la ventana y al sellado del tubo. Si notas una corriente de aire caliente entrando, ahí tienes una fuga que está tirando por tierra el trabajo del aparato.</p>
+<p>Una prueba sencilla: con el aparato en marcha, acerca la mano al contorno de la ventana y al sellado del tubo. Si notas que entra una corriente de aire caliente, has dado con una fuga que echa por tierra el trabajo del aparato.</p>
 
 <h2>Causa 4: el filtro está sucio</h2>
-<p>El <strong>filtro</strong> de aire retiene polvo y pelusa. Cuando se atasca, el equipo aspira menos aire, el caudal cae y la capacidad de enfriar se desploma. Es un mantenimiento básico que muchos usuarios olvidan.</p>
+<p>El filtro retiene el polvo. Cuando se ensucia, el aparato aspira menos aire, el caudal cae y la capacidad de enfriar se desploma. Es un mantenimiento básico que se suele olvidar.</p>
 <ul>
-<li>Localiza el filtro (suele estar detrás de una rejilla en la parte trasera o lateral) y retíralo.</li>
-<li>Límpialo con agua tibia y un poco de jabón neutro, o aspira el polvo con cuidado.</li>
-<li>Déjalo secar del todo antes de volver a colocarlo: un filtro húmedo favorece moho y malos olores.</li>
-<li>Repite la limpieza cada dos o tres semanas durante la temporada de uso intenso.</li>
+<li>Localiza el filtro (suele estar detrás de una rejilla, en la parte trasera o en un lateral) y sácalo.</li>
+<li>Límpialo con agua tibia y un poco de jabón neutro, o aspira el polvo.</li>
+<li>Déjalo secar del todo antes de volver a ponerlo: un filtro húmedo favorece el moho.</li>
+<li>Repite la limpieza cada dos o tres semanas en plena temporada.</li>
 </ul>
 
-<h2>Causa 5: el depósito de condensación está lleno</h2>
-<p>Al enfriar, el aparato genera agua por <strong>condensación</strong>. Muchos modelos la evaporan solos, pero otros la acumulan en un depósito interno. Cuando ese depósito se llena, un sensor de seguridad detiene el compresor: el ventilador sigue soplando, pero ya no enfría, y a veces parpadea un piloto o un código tipo "FL" o "Full".</p>
+<h2>Causa 5: el depósito de condensados está lleno</h2>
+<p>Al enfriar, el aparato produce agua por condensación. Algunos modelos la evaporan y otros la acumulan en un depósito interno. Cuando se llena, un sensor de seguridad detiene el compresor: el ventilador sigue soplando, pero ya no enfría, y a veces aparece un código «FL» o «Full».</p>
 <ul>
-<li>Vacía el depósito de agua siguiendo las instrucciones del manual.</li>
-<li>Si tu equipo permite drenaje continuo, conecta una manguera de desagüe para no tener que vaciarlo a mano.</li>
-<li>Revisa que el tapón de drenaje esté bien cerrado después de vaciar, o podría gotear.</li>
+<li>Vacía el depósito de agua como indica el manual.</li>
+<li>Si el aparato lo permite, conecta una manguera de drenaje continuo para no tener que vaciarlo a mano.</li>
+<li>Comprueba que el tapón de vaciado queda bien cerrado después.</li>
 </ul>
 
-<h2>Causa 6: la habitación es demasiado grande (BTU insuficientes)</h2>
-<p>Si el equipo funciona perfectamente pero la habitación <strong>no enfría lo suficiente</strong>, es muy posible que sencillamente le falte potencia. La potencia frigorífica se mide en <strong>BTU</strong> (British Thermal Units) por hora. Un aparato pequeño en un salón grande puede estar trabajando al máximo sin llegar nunca a la temperatura deseada, igual que un coche pequeño cargado hasta arriba sube una cuesta sin fuerza.</p>
-<p>Este es un punto clave a la hora de comprar y también una causa muy común de decepción: mucha gente elige el modelo por precio y acaba con un equipo demasiado justo para su salón. Dimensionar bien los BTU es lo que separa un aparato que enfría de verdad de otro que solo hace ruido.</p>
-<h3>Cuántos BTU necesitas según los metros cuadrados</h3>
+<h2>Causa 6: la habitación es demasiado grande (faltan BTU)</h2>
+<p>Si el aparato funciona bien pero la habitación no se enfría lo suficiente, lo más probable es que le falte potencia. La potencia frigorífica se mide en BTU por hora. Un aparato pequeño en un salón grande puede trabajar a tope sin llegar nunca a la temperatura fijada, como un coche pequeño muy cargado que sufre en una cuesta.</p>
+<p>Es un punto clave al comprar y una causa habitual de decepción: mucha gente elige el modelo por el precio y acaba con un aparato que se queda corto para su salón. Acertar con los BTU es lo que separa un aparato que enfría de verdad de otro que solo hace ruido.</p>
+<h3>Cuántos BTU necesitas según la superficie</h3>
 <table>
 <thead>
 <tr><th>Superficie de la habitación</th><th>BTU recomendados</th></tr>
 </thead>
 <tbody>
-<tr><td>Hasta 15 m2</td><td>7.000 - 9.000 BTU</td></tr>
-<tr><td>15 - 25 m2</td><td>9.000 - 12.000 BTU</td></tr>
-<tr><td>25 - 35 m2</td><td>12.000 - 14.000 BTU</td></tr>
-<tr><td>35 - 45 m2</td><td>14.000 - 18.000 BTU</td></tr>
+<tr><td>Hasta 15 m²</td><td>7.000-9.000 BTU</td></tr>
+<tr><td>15-25 m²</td><td>9.000-12.000 BTU</td></tr>
+<tr><td>25-35 m²</td><td>12.000-14.000 BTU</td></tr>
+<tr><td>35-45 m²</td><td>14.000-18.000 BTU</td></tr>
 </tbody>
 </table>
-<p>Son valores orientativos para una habitación estándar. Si la estancia recibe mucho sol, está bajo cubierta, tiene techos altos o muchas personas y aparatos electrónicos, conviene subir de tramo. Un equipo demasiado justo nunca alcanzará la temperatura de consigna y, además, consumirá más porque trabajará sin parar. Si dudas entre potencia y consumo, repasa nuestra <a href="/es/blog/climatiseur-mobile-vs-ventilateur">comparativa por tamaño de habitación</a>.</p>
+<p>Son valores orientativos para una habitación normal. Si le da mucho el sol, está bajo cubierta, tiene techos altos o hay muchos aparatos encendidos, sube un escalón. Un equipo que se queda corto nunca llegará a la temperatura fijada y consumirá más. Para comparar potencia y consumo, consulta nuestra <a href="/es/blog/climatiseur-mobile-vs-ventilateur">comparativa por tamaño de habitación</a>.</p>
 
 <h2>Causa 7: temperatura exterior extrema</h2>
-<p>Durante una ola de calor, con 40 grados en la calle, hasta un equipo bien dimensionado pierde rendimiento. El portátil tiene que expulsar el calor a un aire exterior que ya está muy caliente, así que la diferencia que consigue dentro es menor de lo habitual. No es una avería, es una limitación física.</p>
+<p>En plena ola de calor, con 40 grados en la calle, hasta un aparato con la potencia adecuada pierde rendimiento: tiene que expulsar el calor a un aire que ya está muy caliente. No es una avería, sino un límite físico.</p>
 <ul>
-<li>Cierra persianas y cortinas en las horas centrales del día para que el equipo no parta de tan arriba.</li>
-<li>Pon el aparato en marcha antes de que la habitación se caliente del todo, no cuando ya es un horno.</li>
-<li>No te obsesiones con los 18 grados: una diferencia realista de 5 a 8 grados respecto a la calle ya da un gran confort.</li>
+<li>Cierra persianas y cortinas en las horas de más calor.</li>
+<li>Enciende el aparato antes de que la habitación se convierta en un horno.</li>
+<li>No te empeñes en llegar a 18 grados: una diferencia realista de 5 a 8 grados con el exterior ya da mucho confort.</li>
 </ul>
 
 <h2>Causa 8: posible fuga de gas refrigerante</h2>
-<p>Si has descartado todo lo anterior y el equipo enfriaba bien antes pero ahora apenas nota, podría existir una <strong>fuga de gas</strong> refrigerante. Sin la carga correcta de gas, el compresor funciona pero no transfiere calor, así que sopla aire casi a temperatura ambiente.</p>
-<p>Aquí es importante ser prudente: el gas refrigerante está a presión y su manipulación está regulada por ley. <strong>No intentes recargarlo ni abrir el circuito tú mismo.</strong> Esta operación debe realizarla siempre un <strong>técnico certificado</strong> en gases fluorados, que localizará la fuga, la reparará y recargará el equipo de forma segura. Manipular un circuito de refrigerante sin formación no solo es ilegal, sino que puede provocar quemaduras por frío y dañar de forma irreversible el compresor.</p>
-<p>Conviene recordar que las fugas no son lo habitual en un equipo nuevo y bien usado. Si tu aparato tiene pocos meses y ya parece que pierde gas, lo correcto es tramitar la garantía con el vendedor en lugar de abrir nada por tu cuenta.</p>
+<p>Si has descartado todo lo anterior y el aparato antes enfriaba bien pero ahora apenas lo hace, puede haber una fuga de gas refrigerante. Sin la carga de gas correcta, el compresor funciona, pero ya no transfiere el calor.</p>
+<p>Ojo: el gas refrigerante está a presión y su manipulación está regulada. No intentes nunca recargarlo ni abrir el circuito tú mismo. Esta operación debe hacerla siempre un técnico certificado en gases fluorados. Manipular un circuito frigorífico sin formación no solo es ilegal, sino que puede provocar quemaduras por frío y dañar el compresor de forma irreversible.</p>
+<p>Recuerda que una fuga no es normal en un aparato nuevo y bien utilizado. Si el tuyo tiene pocos meses y ya parece perder gas, reclama la garantía al vendedor en lugar de abrir nada.</p>
 
 <h2>Cuándo llamar al servicio técnico</h2>
-<p>Has revisado el modo, el tubo de evacuación, el sellado de la ventana, el filtro y el depósito de condensación, el equipo está bien dimensionado en BTU y aun así <strong>no enfría</strong>. En ese punto, lo razonable es contactar con el servicio técnico, sobre todo si además observas:</p>
+<p>Has revisado el modo, el tubo, el sellado, el filtro y el depósito, el aparato tiene la potencia adecuada y sigue sin enfriar. En ese caso, ponte en contacto con el servicio técnico, sobre todo si notas:</p>
 <ul>
-<li>Olor a quemado, chispas o el aparato salta el diferencial de la vivienda.</li>
-<li>Ruidos metálicos o golpeteos anormales del compresor.</li>
-<li>Códigos de error que no se resuelven con el manual.</li>
-<li>Sospecha de fuga de gas (rendimiento que cae de forma progresiva).</li>
+<li>Olor a quemado, chispas o que salta el diferencial.</li>
+<li>Ruidos metálicos anormales en el compresor.</li>
+<li>Códigos de error que el manual no resuelve.</li>
+<li>Sospecha de fuga de gas (el rendimiento cae poco a poco).</li>
 </ul>
-<p>Si el equipo está en garantía, no lo abras: hacerlo puede anular la cobertura. Para mantener un buen confort interior el resto del año, también puede interesarte nuestra <a href="/es/blog/deshumidificateur-connecte-guide">guía de deshumidificadores conectados</a>, útiles para controlar la humedad que tanto influye en la sensación de calor.</p>
+<p>Si el aparato está en garantía, no lo abras. Para estar a gusto en casa el resto del año, consulta también nuestra <a href="/es/blog/deshumidificateur-connecte-guide">guía de deshumidificadores con wifi</a>.</p>
 
-<h2>Buenos hábitos para que enfríe mejor cada verano</h2>
-<p>Más allá del diagnóstico puntual, unos cuantos hábitos sencillos hacen que tu aire acondicionado portátil rinda al máximo y dure más años. La idea es ayudar al aparato a no partir de una habitación ya recalentada y a respirar sin obstáculos.</p>
+<h2>Buenos hábitos para enfriar mejor cada verano</h2>
+<p>Más allá del diagnóstico puntual, unos cuantos hábitos sencillos ayudan a que tu aire acondicionado portátil rinda al máximo y dure más. La idea es que no tenga que partir de una habitación ya recalentada y que pueda respirar sin obstáculos.</p>
 <ul>
-<li>Enciéndelo de forma anticipada en los días de calor previsto, mejor que esperar a que la habitación sea un horno.</li>
-<li>Mantén libres las rejillas de entrada y salida de aire: no pegues el equipo a la pared ni lo cubras con cortinas o muebles.</li>
-<li>Limpia el filtro con regularidad y, al final de la temporada, guárdalo limpio y seco para evitar olores el verano siguiente.</li>
-<li>Acompaña el portátil con un buen aislamiento del calor: toldos, persianas bajadas y, si puedes, ventilación nocturna cuando refresca.</li>
-<li>Combina, si hace falta, con un ventilador para repartir mejor el aire frío por toda la estancia sin subir el consumo.</li>
+<li>Enciéndelo con antelación los días en que se anuncia mucho calor, en vez de esperar a que la habitación sea un horno.</li>
+<li>Deja libres las rejillas de entrada y salida de aire: no pegues el aparato a la pared ni lo tapes.</li>
+<li>Limpia el filtro con regularidad y, al final de la temporada, guarda el aparato limpio y seco para evitar malos olores el verano siguiente.</li>
+<li>Protege bien la casa del calor: toldos, persianas bajadas y ventilación por la noche, cuando refresca.</li>
+<li>Si hace falta, combínalo con un ventilador para repartir el aire fresco por toda la habitación sin aumentar el consumo.</li>
 </ul>
-<p>Con estos gestos, el equipo trabaja menos para conseguir el mismo confort, lo que se nota tanto en la temperatura como en la factura de la luz.</p>
+<p>Con estos gestos, el aparato trabaja menos para darte el mismo confort, y se nota tanto en la temperatura como en la factura de la luz.</p>
 
 <h2>Conclusión</h2>
-<p>Que un <strong>aire acondicionado portátil no enfríe</strong> casi nunca es el final del aparato. En orden de probabilidad, revisa el modo de funcionamiento, el tubo de evacuación, el sellado de la ventana, el filtro y el depósito de condensación, y asegúrate de que la potencia en BTU corresponde a los metros cuadrados de la habitación. Con estos pasos resolverás la inmensa mayoría de los casos. Solo cuando todo esto esté descartado tiene sentido pensar en una fuga de gas y recurrir a un técnico certificado.</p>
-
-<h2>Disponibilidad en España</h2>
-<p>Si tras revisar todo decides renovar tu equipo, en España tienes amplia disponibilidad de aires acondicionados portátiles en Amazon.es, con envío rápido y stock reforzado durante las olas de calor. También se encuentran en grandes superficies físicas, donde puedes consultar la potencia en BTU adecuada a tu habitación. Cualquier aparato nuevo está respaldado por la garantía legal española.</p>
-<ul>
-<li><strong>Disponibilidad:</strong> gran oferta en Amazon.es y en cadenas como MediaMarkt o El Corte Inglés, con entrega habitual en 24-48 horas.</li>
-<li><strong>Garantía:</strong> 3 años de garantía legal en España (Ley de Garantías desde 2022), útil precisamente cuando un equipo deja de enfriar por defecto de fábrica.</li>
-<li><strong>Qué valoran los compradores españoles:</strong> que enfríe de verdad en plena ola de calor, la eficiencia energética por el precio de la luz y un mantenimiento sencillo de filtros.</li>
-</ul>`,
+<p>Un aire acondicionado portátil que no enfría rara vez está para tirar. Por orden, revisa el modo, el tubo de evacuación, el sellado de la ventana, el filtro y el depósito de condensados, y asegúrate de que los BTU corresponden a la superficie. Con estos pasos se resuelve la inmensa mayoría de los casos. Solo después tiene sentido pensar en una fuga de gas y en llamar a un técnico certificado.</p>`,
 
     fr: `<h2>Mon climatiseur portable ne refroidit pas : par où commencer</h2>
 <p>C'est l'une des pannes les plus frustrantes de l'été : vous branchez l'appareil, vous le réglez sur 18 degrés, vous le laissez tourner des heures et la pièce reste tout aussi chaude. La bonne nouvelle, c'est que dans la grande majorité des cas, lorsqu'un climatiseur portable ne refroidit pas, le problème n'est pas une panne grave mais un défaut d'installation, d'entretien ou de dimensionnement que vous pouvez résoudre vous-même en quelques minutes.</p>
@@ -302,254 +294,254 @@ export const article: BlogArticle = {
 <h2>Conclusion</h2>
 <p>Un climatiseur portable qui ne refroidit pas est rarement fichu. Dans l'ordre, vérifiez le mode, le tuyau d'évacuation, le calfeutrage, le filtre et le bac à condensats, et assurez-vous que les BTU correspondent à la surface. Ces étapes résolvent l'immense majorité des cas. Ce n'est qu'ensuite qu'une fuite de gaz et l'intervention d'un technicien certifié deviennent pertinentes.</p>`,
 
-    en: `<h2>My portable air conditioner is not cooling: where to start</h2>
-<p>It is one of summer's most frustrating issues: you plug in the unit, set it to 18 degrees, leave it running for hours and the room stays just as hot. The good news is that in the vast majority of cases, when a portable air conditioner is not cooling, the problem is not a serious breakdown but an installation, maintenance or sizing issue you can fix yourself in minutes.</p>
-<p>Before calling a repair service or buying a new unit, run a methodical diagnosis. In this guide we go through the real causes, from the most common to the most serious, with concrete step-by-step fixes. If you are still deciding which system suits you, see our <a href="/en/blog/climatiseur-mobile-vs-ventilateur">portable AC vs fan comparison</a>.</p>
-<p>Keep one idea in mind: a single-hose portable AC does not work like a fixed wall split. It is far more sensitive to installation, room size and outdoor temperature. Often, when the unit is not cooling enough, it is not broken at all: it is fighting unfavourable conditions that are easy to improve. Let us look at them one by one, starting with the one-minute checks and leaving the faults that need a professional for the end.</p>
+    en: `<h2>Portable air conditioner not cooling? Where to start</h2>
+<p>It's one of the most frustrating problems of the summer: you plug the unit in, set it to 18°C, leave it running for hours and the room stays just as hot. The good news is that, in the vast majority of cases, when a portable air conditioner isn't cooling, the cause isn't a serious fault but an installation, maintenance or sizing problem that you can fix yourself in a few minutes.</p>
+<p>Before you call the manufacturer or buy a new unit, work through the possible causes methodically. In this guide we go through the real causes, from the most common to the most serious, with practical step-by-step fixes. If you're still deciding which type of cooling suits you, see our <a href="/en/blog/climatiseur-mobile-vs-ventilateur">portable air conditioner vs fan comparison</a>.</p>
+<p>Bear one thing in mind: a single-hose portable air conditioner doesn't work like a wall-mounted split system. It's far more sensitive to how it's installed, the size of the room and the temperature outside. Often, when the unit isn't cooling enough, it isn't broken at all: it's fighting conditions that are easy to put right. Let's take them one at a time, starting with the one-minute checks and leaving the faults that need a professional until last.</p>
 
-<h2>Quick diagnostic table</h2>
+<h2>Quick troubleshooting table</h2>
 <table>
 <thead>
 <tr><th>Symptom</th><th>Likely cause</th><th>Fix</th></tr>
 </thead>
 <tbody>
-<tr><td>Air comes out but neither cold nor hot</td><td>Fan mode instead of cooling</td><td>Switch to Cool mode (snowflake)</td></tr>
-<tr><td>Cools little and the hose is hot</td><td>Exhaust hose poorly placed or kinked</td><td>Straighten the hose and route it out the window</td></tr>
+<tr><td>Air comes out but it's neither cold nor warm</td><td>Fan mode instead of Cool</td><td>Switch to Cool mode (snowflake symbol)</td></tr>
+<tr><td>Barely cools and the hose gets hot</td><td>Exhaust hose badly positioned or kinked</td><td>Straighten the hose and run it out of the window</td></tr>
 <tr><td>Very weak airflow</td><td>Clogged filter</td><td>Clean or replace the filter</td></tr>
-<tr><td>Stops by itself after a few minutes</td><td>Condensate tank full</td><td>Empty the water tank</td></tr>
-<tr><td>Runs but the room does not get cooler</td><td>Insufficient BTU for the area</td><td>Reduce the area or increase power</td></tr>
-<tr><td>Cools much less than before</td><td>Possible refrigerant gas leak</td><td>Call a certified technician</td></tr>
+<tr><td>Switches itself off after a few minutes</td><td>Condensate tank full</td><td>Empty the water tank</td></tr>
+<tr><td>Runs but the room doesn't get any cooler</td><td>Not enough BTU for the room size</td><td>Cool a smaller area or choose a more powerful unit</td></tr>
+<tr><td>Cools much less than it used to</td><td>Possible refrigerant leak</td><td>Call a certified engineer</td></tr>
 </tbody>
 </table>
 
-<h2>Cause 1: the mode is set wrong</h2>
-<p>It sounds trivial, but it is the number one cause of false faults. Many units default to fan mode (Fan) or dehumidify mode (Dry), which move air or remove humidity without really lowering the temperature. If the compressor never starts, the unit will never truly cool.</p>
+<h2>Cause 1: the wrong mode is selected</h2>
+<p>It sounds obvious, but it's the number one cause of faults that aren't really faults. Many units start up in fan mode (Fan) or dehumidifier mode (Dry) by default, which move air around or remove moisture without really lowering the temperature. If the compressor doesn't start, the unit will never cool.</p>
 <ul>
 <li>Press the Mode button until you see the snowflake or the word Cool.</li>
 <li>Set the target temperature several degrees below the current room temperature.</li>
-<li>Check that you hear the compressor start (a low hum) after one or two minutes.</li>
-<li>Disable the timer and Eco mode during the test to rule out any throttling.</li>
+<li>Listen for the compressor starting up (a low hum) after one to two minutes.</li>
+<li>Switch off the timer and Eco mode while you check, to rule out any power limiting.</li>
 </ul>
 
-<h2>Cause 2: the exhaust hose is poorly installed</h2>
-<p>By far the most common cause. A portable AC extracts heat from the room and expels it outside through the exhaust hose. If that hot air does not really leave the room, it comes back in and cancels the cooling effect. It is the most widespread mistake and, at the same time, the easiest to fix without spending a penny.</p>
-<p>A detail many people miss: the longer and more twisted the hose, the more its own surface heats up and radiates heat back into the room. The hose temperature is a good clue: if its final section feels very hot after a while, the route is probably too long or has bends.</p>
+<h2>Cause 2: the exhaust hose isn't fitted properly</h2>
+<p>This is by far the most common cause. A portable air conditioner removes heat from the room and sends it outside through the exhaust hose. If that hot air doesn't actually leave the room, it comes straight back in and cancels out the cooling. It's also the easiest mistake to put right, and it won't cost you a penny.</p>
+<p>A detail many people miss: the longer and more winding the hose, the hotter its surface gets and the more heat it radiates back into the room. The temperature of the hose is a good clue: if the end section feels very hot to the touch after a while, the run is probably too long or has too many bends.</p>
 <h3>How to check and fix the hose</h3>
 <ul>
-<li>The hose must run straight to a window or outside vent, never loop inside the room.</li>
-<li>Keep it as short and straight as possible: every bend and extra metre cuts performance.</li>
-<li>Avoid kinks, crushing or U-shapes: hot air builds up and flows back inside.</li>
-<li>Make sure the hose is firmly attached to the rear outlet and has not come loose.</li>
-<li>Do not extend the hose with homemade parts or swap it for a longer one: its length is calculated for the unit's airflow.</li>
+<li>The hose should go straight to a window or an outside vent, never loop around the room.</li>
+<li>Keep it as short and straight as possible: every bend and every extra metre reduces efficiency.</li>
+<li>Don't let it kink, get squashed or sag into a U-shape: hot air collects there and flows back inside.</li>
+<li>Check that the hose is pushed firmly into the back of the unit and hasn't come loose.</li>
+<li>Don't extend the hose with makeshift parts or replace it with a longer one: its length is matched to the unit's airflow.</li>
 </ul>
 
-<h2>Cause 3: poor window sealing</h2>
-<p>There is no point pushing hot air out if outside air comes back in around the hose. Most units ship with a window sealing kit precisely for this.</p>
+<h2>Cause 3: the window isn't sealed properly</h2>
+<p>There's no point pushing hot air out if warm outside air gets back in through the gap around the hose. That's exactly why most units come with a window sealing kit.</p>
 <ul>
-<li>Fit the supplied sealing kit; if it is missing, cheap universal panels exist.</li>
-<li>Seal gaps around the hose with tape or foam strip.</li>
-<li>Close doors and windows and lower blinds during the hottest hours.</li>
-<li>On a tilt-and-turn window, look for a specific kit: the triangular gaps they leave let in a huge amount of heat.</li>
+<li>Fit the sealing kit supplied; if there isn't one, universal window panels are inexpensive.</li>
+<li>Fill any gaps around the hose with tape or foam strip.</li>
+<li>Keep doors and windows shut and close the blinds during the hottest part of the day.</li>
+<li>For a tilt-and-turn window, look for a dedicated kit: the triangular gaps it leaves let in a huge amount of heat.</li>
 </ul>
-<p>A simple test: with the unit running, hold your hand near the window frame and the hose seal. If you feel a stream of warm air coming in, you have found a leak that is ruining the unit's work.</p>
+<p>A simple test: with the unit running, hold your hand near the edge of the window and the seal around the hose. If you feel warm air coming in, you've found a leak that is undoing all the unit's work.</p>
 
 <h2>Cause 4: the filter is clogged</h2>
-<p>The filter traps dust. When clogged, the unit draws in less air, airflow drops and cooling capacity collapses. It is basic maintenance that is often forgotten.</p>
+<p>The filter traps dust. When it clogs up, the unit draws in less air, airflow drops and cooling capacity falls sharply. It's basic maintenance that's easy to forget.</p>
 <ul>
-<li>Locate the filter (usually behind a grille at the back or side) and remove it.</li>
-<li>Clean it with lukewarm water and mild soap, or vacuum the dust gently.</li>
-<li>Let it dry completely before refitting: a damp filter encourages mould.</li>
-<li>Repeat every two to three weeks during heavy use.</li>
+<li>Find the filter (often behind a grille on the back or side) and take it out.</li>
+<li>Wash it in lukewarm water with a little mild soap, or vacuum off the dust.</li>
+<li>Let it dry completely before putting it back: a damp filter encourages mould.</li>
+<li>Clean it every two to three weeks during the hot season.</li>
 </ul>
 
 <h2>Cause 5: the condensate tank is full</h2>
-<p>While cooling, the unit produces water through condensation. Some models evaporate it, others collect it in an internal tank. When full, a safety sensor stops the compressor: the fan still blows but no longer cools, sometimes showing an "FL" or "Full" code.</p>
+<p>As it cools, the unit produces water through condensation. Some models evaporate it, others collect it in an internal tank. When the tank is full, a safety sensor stops the compressor: the fan keeps blowing but the air is no longer cooled, and some units show an “FL” or “Full” code.</p>
 <ul>
-<li>Empty the water tank as per the manual.</li>
-<li>If supported, connect a continuous drain hose to avoid manual emptying.</li>
-<li>Check the drain plug is properly closed after emptying.</li>
+<li>Empty the water tank as described in the manual.</li>
+<li>If your unit allows it, connect a continuous drain hose so you don't have to empty it by hand.</li>
+<li>Make sure the drain plug is closed properly afterwards.</li>
 </ul>
 
-<h2>Cause 6: the room is too big (insufficient BTU)</h2>
-<p>If the unit runs fine but the room does not cool enough, it likely lacks power. Cooling capacity is measured in BTU per hour. A small unit in a large living room can run flat out without ever reaching the set point, like a small car loaded to the roof struggling up a hill.</p>
-<p>This is a key point when buying and a common cause of disappointment: many people pick the model on price and end up with a unit that is too small for their living room. Sizing the BTU correctly is what separates a unit that really cools from one that just makes noise.</p>
-<h3>How many BTU by area</h3>
+<h2>Cause 6: the room is too big (not enough BTU)</h2>
+<p>If the unit is working properly but the room doesn't cool down enough, it probably isn't powerful enough. Cooling capacity is measured in BTU per hour. A small unit in a large living room can run flat out without ever reaching the target temperature, like a small, fully loaded car struggling up a hill.</p>
+<p>This matters when you buy, and it's a common cause of disappointment: many people choose on price and end up with a unit that's too small for their living room. Getting the BTU right is what separates a unit that really cools from one that just makes noise.</p>
+<h3>How many BTU for your room size</h3>
 <table>
 <thead>
-<tr><th>Room area</th><th>Recommended BTU</th></tr>
+<tr><th>Room size</th><th>Recommended BTU</th></tr>
 </thead>
 <tbody>
-<tr><td>Up to 15 m2</td><td>7,000 - 9,000 BTU</td></tr>
-<tr><td>15 - 25 m2</td><td>9,000 - 12,000 BTU</td></tr>
-<tr><td>25 - 35 m2</td><td>12,000 - 14,000 BTU</td></tr>
-<tr><td>35 - 45 m2</td><td>14,000 - 18,000 BTU</td></tr>
+<tr><td>Up to 15 m²</td><td>7,000–9,000 BTU</td></tr>
+<tr><td>15–25 m²</td><td>9,000–12,000 BTU</td></tr>
+<tr><td>25–35 m²</td><td>12,000–14,000 BTU</td></tr>
+<tr><td>35–45 m²</td><td>14,000–18,000 BTU</td></tr>
 </tbody>
 </table>
-<p>These are guideline values for a standard room. Strong sun, top-floor rooms, high ceilings or many appliances mean stepping up a tier. An undersized unit will never reach the set point and will consume more. To compare power and consumption, see our <a href="/en/blog/climatiseur-mobile-vs-ventilateur">comparison by room size</a>.</p>
+<p>These figures are a guide for a typical room. If the room gets a lot of sun, is in the loft or on the top floor, has high ceilings or contains lots of appliances, go up a size. An undersized unit will never reach the target temperature and will use more electricity. To compare power and energy use, see our <a href="/en/blog/climatiseur-mobile-vs-ventilateur">comparison by room size</a>.</p>
 
-<h2>Cause 7: extreme outside temperature</h2>
-<p>In a heatwave, with 40 degrees outside, even a well-sized unit loses performance: it must dump heat into already very hot air. This is not a fault, but a physical limit.</p>
+<h2>Cause 7: it's extremely hot outside</h2>
+<p>In a heatwave, with 40°C outside, even a correctly sized unit becomes less effective: it has to dump heat into air that is already very hot. That isn't a fault, it's physics.</p>
 <ul>
-<li>Close blinds and curtains during the hottest hours.</li>
-<li>Start the unit before the room becomes an oven.</li>
-<li>Do not chase 18 degrees: a realistic 5 to 8 degree gap from outside already brings great comfort.</li>
+<li>Close blinds and curtains during the hottest part of the day.</li>
+<li>Switch the unit on before the room turns into an oven.</li>
+<li>Don't insist on 18°C: a realistic 5 to 8°C below the outside temperature already makes a big difference to comfort.</li>
 </ul>
 
-<h2>Cause 8: possible refrigerant gas leak</h2>
-<p>If everything else is ruled out and the unit cooled well before but barely does now, there may be a refrigerant gas leak. Without the correct gas charge, the compressor runs but no longer transfers heat.</p>
-<p>Be careful: refrigerant gas is pressurised and its handling is regulated. Never try to recharge it or open the circuit yourself. This must always be done by a technician certified in fluorinated gases. Handling a refrigerant circuit without training is not only illegal, it can cause cold burns and irreversibly damage the compressor.</p>
-<p>Remember that a leak is not normal on a new, well-used unit. If yours is a few months old and already seems to be losing gas, claim the warranty through the seller rather than opening anything yourself.</p>
+<h2>Cause 8: a possible refrigerant leak</h2>
+<p>If you've ruled out everything else and the unit used to cool well but barely does now, it may have a refrigerant leak. Without the right refrigerant charge, the compressor runs but no longer moves heat out of the room.</p>
+<p>Be careful: the refrigerant is under pressure and handling it is regulated. Never try to top it up or open the circuit yourself. This must always be done by an engineer certified to handle refrigerants. Working on a refrigerant circuit without training is not only illegal, it can also cause cold burns and permanently damage the compressor.</p>
+<p>Remember that a leak isn't normal on a new unit that has been used correctly. If yours is only a few months old and already seems to be losing refrigerant, make a warranty claim with the retailer rather than opening anything.</p>
 
-<h2>When to call the repair service</h2>
-<p>You have checked the mode, hose, sealing, filter and tank, the unit is correctly sized and it still does not cool. Then contact the service, especially if you notice:</p>
+<h2>When to call for a repair</h2>
+<p>You've checked the mode, hose, window seal, filter and tank, the unit is the right size for the room and it still won't cool. At this point, contact the manufacturer's or retailer's after-sales service, especially if you notice:</p>
 <ul>
-<li>Burning smell, sparks or tripping the breaker.</li>
-<li>Abnormal metallic compressor noises.</li>
-<li>Error codes not resolved by the manual.</li>
-<li>Suspected gas leak (progressive performance loss).</li>
+<li>A burning smell, sparks or the electrics tripping.</li>
+<li>Unusual metallic noises from the compressor.</li>
+<li>Error codes that the manual doesn't help you clear.</li>
+<li>A suspected refrigerant leak (performance gradually getting worse).</li>
 </ul>
-<p>If the unit is under warranty, do not open it. For year-round comfort, also see our <a href="/en/blog/deshumidificateur-connecte-guide">connected dehumidifier guide</a>.</p>
+<p>If the unit is still under warranty, don't open it. For comfort the rest of the year, see our <a href="/en/blog/deshumidificateur-connecte-guide">dehumidifier guide</a>.</p>
 
 <h2>Good habits for better cooling every summer</h2>
-<p>Beyond the one-off diagnosis, a few simple habits help your portable AC perform at its best and last longer. The idea is to help it not start from an already overheated room and to breathe without obstruction.</p>
+<p>Beyond troubleshooting, a few simple habits help your portable air conditioner perform at its best and last longer. The idea is to avoid making it start from an already overheated room, and to give it space to breathe.</p>
 <ul>
-<li>Switch it on ahead of time on days when heat is forecast, rather than waiting for the room to become an oven.</li>
-<li>Keep the air intake and outlet grilles clear: do not push the unit against the wall or cover it.</li>
-<li>Clean the filter regularly and, at the end of the season, store it clean and dry to avoid odours next summer.</li>
-<li>Pair the AC with good heat protection: awnings, lowered blinds and night ventilation when it cools down.</li>
-<li>If needed, combine it with a fan to spread the cool air around the room without raising consumption.</li>
+<li>On days when high temperatures are forecast, switch it on early rather than waiting for the room to become an oven.</li>
+<li>Keep the air intake and outlet grilles clear: don't push the unit against a wall or cover it.</li>
+<li>Clean the filter regularly and, at the end of the season, put it away clean and dry to avoid musty smells next summer.</li>
+<li>Back up the air conditioner by keeping the heat out: blinds or awnings, closed shutters, and windows opened at night when it's cooler.</li>
+<li>If needed, use a fan alongside it to spread the cool air around the room without pushing up your energy use.</li>
 </ul>
-<p>With these habits the unit works less for the same comfort, which shows in both the temperature and the bill.</p>
+<p>With these habits, the unit works less hard for the same comfort, and you'll notice it in both the temperature and your electricity bill.</p>
 
 <h2>Conclusion</h2>
-<p>A portable air conditioner not cooling is rarely beyond saving. In order, check the mode, exhaust hose, sealing, filter and condensate tank, and make sure the BTU match the area. These steps fix the vast majority of cases. Only after that do a gas leak and a certified technician become relevant.</p>`,
+<p>A portable air conditioner that isn't cooling is rarely a lost cause. Check, in this order, the mode, the exhaust hose, the window seal, the filter and the condensate tank, and make sure the BTU rating matches the size of the room. These steps solve the vast majority of problems. Only after that is it worth suspecting a refrigerant leak and calling in a certified engineer.</p>`,
 
-    de: `<h2>Meine mobile Klimaanlage kühlt nicht: wo anfangen</h2>
-<p>Es ist eines der frustrierendsten Sommerprobleme: Sie stecken das Gerät ein, stellen 18 Grad ein, lassen es stundenlang laufen und der Raum bleibt genauso warm. Die gute Nachricht: In den allermeisten Fällen ist es kein schwerer Defekt, wenn eine mobile Klimaanlage nicht kühlt, sondern ein Installations-, Wartungs- oder Dimensionierungsfehler, den Sie selbst in wenigen Minuten beheben können.</p>
-<p>Bevor Sie den Kundendienst rufen oder ein neues Gerät kaufen, sollten Sie eine systematische Diagnose machen. In diesem Ratgeber gehen wir die echten Ursachen durch, von der häufigsten bis zur schwersten, mit konkreten Schritt-für-Schritt-Lösungen. Wenn Sie noch unsicher sind, welches System passt, hilft unser <a href="/de/blog/climatiseur-mobile-vs-ventilateur">Vergleich mobile Klimaanlage vs Ventilator</a>.</p>
-<p>Behalten Sie eines im Kopf: Eine mobile Klimaanlage mit einem Schlauch arbeitet nicht wie ein fest verbautes Wand-Split. Sie reagiert viel empfindlicher auf Installation, Raumgröße und Außentemperatur. Oft ist das Gerät gar nicht defekt, wenn es nicht genug kühlt, sondern kämpft gegen ungünstige Bedingungen, die sich leicht verbessern lassen. Sehen wir sie uns einzeln an, beginnend mit den Ein-Minuten-Checks und mit den Defekten, die einen Fachmann erfordern, ganz am Ende.</p>
+    de: `<h2>Mobile Klimaanlage kühlt nicht: Hier fangen Sie an</h2>
+<p>Kaum etwas ist im Sommer ärgerlicher: Sie schließen das Gerät an, stellen 18 Grad ein, lassen es stundenlang laufen, und der Raum bleibt genauso warm. Die gute Nachricht: Wenn eine mobile Klimaanlage nicht kühlt, steckt in den allermeisten Fällen kein schwerer Defekt dahinter, sondern ein Fehler bei Aufstellung, Pflege oder Gerätegröße, den Sie in wenigen Minuten selbst beheben können.</p>
+<p>Bevor Sie den Kundendienst anrufen oder ein neues Gerät kaufen, sollten Sie systematisch nach der Ursache suchen. In diesem Ratgeber gehen wir die tatsächlichen Ursachen durch, von der häufigsten bis zur schwerwiegendsten, jeweils mit konkreten Lösungen Schritt für Schritt. Wenn Sie noch überlegen, welches System besser zu Ihnen passt, lesen Sie unseren <a href="/de/blog/climatiseur-mobile-vs-ventilateur">Vergleich: mobile Klimaanlage oder Ventilator</a>.</p>
+<p>Wichtig zu wissen: Ein mobiles Monoblock-Gerät arbeitet anders als eine fest installierte Split-Klimaanlage an der Wand. Es reagiert viel empfindlicher auf Aufstellung, Raumgröße und Außentemperatur. Kühlt es nicht genug, ist es oft gar nicht defekt, sondern kämpft gegen ungünstige Bedingungen, die sich leicht beheben lassen. Wir gehen sie einzeln durch: zuerst die Kontrollen, die nur eine Minute dauern, ganz zum Schluss die Defekte, für die Sie eine Fachkraft brauchen.</p>
 
-<h2>Schnelle Diagnosetabelle</h2>
+<h2>Fehlersuche auf einen Blick</h2>
 <table>
 <thead>
 <tr><th>Symptom</th><th>Wahrscheinliche Ursache</th><th>Lösung</th></tr>
 </thead>
 <tbody>
-<tr><td>Luft kommt, aber weder kalt noch warm</td><td>Ventilatormodus statt Kühlen</td><td>Auf Cool-Modus stellen (Schneeflocke)</td></tr>
-<tr><td>Kühlt kaum und der Schlauch ist heiß</td><td>Abluftschlauch schlecht verlegt oder geknickt</td><td>Schlauch begradigen und nach draußen führen</td></tr>
-<tr><td>Sehr schwacher Luftstrom</td><td>Verstopfter Filter</td><td>Filter reinigen oder ersetzen</td></tr>
-<tr><td>Schaltet sich nach Minuten ab</td><td>Kondensatbehälter voll</td><td>Wassertank leeren</td></tr>
-<tr><td>Läuft, aber Raum wird nicht kühler</td><td>Zu wenig BTU für die Fläche</td><td>Fläche verkleinern oder Leistung erhöhen</td></tr>
-<tr><td>Kühlt viel weniger als früher</td><td>Mögliches Kältemittel-Leck</td><td>Zertifizierten Techniker rufen</td></tr>
+<tr><td>Es kommt Luft, aber weder kalt noch warm</td><td>Ventilatormodus statt Kühlmodus</td><td>Auf Kühlen/Cool stellen (Schneeflocke)</td></tr>
+<tr><td>Kühlt kaum, und der Schlauch wird heiß</td><td>Abluftschlauch falsch verlegt oder geknickt</td><td>Schlauch gerade verlegen und aus dem Fenster führen</td></tr>
+<tr><td>Sehr schwacher Luftstrom</td><td>Verschmutzter Filter</td><td>Filter reinigen oder ersetzen</td></tr>
+<tr><td>Schaltet nach wenigen Minuten von selbst ab</td><td>Kondensatbehälter voll</td><td>Wassertank leeren</td></tr>
+<tr><td>Läuft, aber der Raum wird nicht kühler</td><td>Zu wenig Leistung (BTU) für die Raumgröße</td><td>Kleineren Raum kühlen oder stärkeres Gerät wählen</td></tr>
+<tr><td>Kühlt viel schwächer als früher</td><td>Möglicher Kältemittelverlust</td><td>Zertifizierte Fachkraft beauftragen</td></tr>
 </tbody>
 </table>
 
-<h2>Ursache 1: der Modus ist falsch eingestellt</h2>
-<p>Klingt banal, ist aber die Ursache Nummer eins für Scheinfehler. Viele Geräte starten im Ventilatormodus (Fan) oder Entfeuchtungsmodus (Dry), die Luft bewegen oder Feuchtigkeit entfernen, ohne die Temperatur wirklich zu senken. Startet der Kompressor nie, kühlt das Gerät nie.</p>
+<h2>Ursache 1: Der Modus ist falsch eingestellt</h2>
+<p>Klingt banal, ist aber die Ursache Nummer eins für vermeintliche Defekte. Viele Geräte starten im Ventilatormodus (Fan) oder im Entfeuchtungsmodus (Dry). Diese Modi bewegen die Luft oder entziehen ihr Feuchtigkeit, senken die Temperatur aber kaum. Solange der Kompressor nicht anläuft, kühlt das Gerät nicht.</p>
 <ul>
-<li>Drücken Sie die Mode-Taste, bis die Schneeflocke oder Cool erscheint.</li>
-<li>Stellen Sie die Solltemperatur mehrere Grad unter die aktuelle Raumtemperatur.</li>
-<li>Prüfen Sie, ob der Kompressor nach ein bis zwei Minuten anläuft (tiefes Brummen).</li>
-<li>Deaktivieren Sie Timer und Eco-Modus während des Tests.</li>
+<li>Drücken Sie die Mode-Taste, bis die Schneeflocke oder „Cool“ erscheint.</li>
+<li>Stellen Sie die Solltemperatur einige Grad unter die aktuelle Raumtemperatur.</li>
+<li>Achten Sie darauf, ob der Kompressor nach ein bis zwei Minuten anläuft (tiefes Brummen).</li>
+<li>Schalten Sie Timer und Eco-Modus für den Test aus, damit nichts die Leistung drosselt.</li>
 </ul>
 
-<h2>Ursache 2: der Abluftschlauch ist schlecht installiert</h2>
-<p>Mit Abstand die häufigste Ursache. Eine mobile Klimaanlage entzieht dem Raum Wärme und gibt sie über den Abluftschlauch nach draußen ab. Verlässt diese warme Luft den Raum nicht wirklich, kommt sie zurück und hebt die Kühlung auf. Es ist der häufigste Fehler und zugleich der am leichtesten zu behebende, ganz ohne Kosten.</p>
-<p>Ein oft übersehenes Detail: Je länger und verwinkelter der Schlauch, desto mehr heizt sich seine Oberfläche auf und strahlt Wärme in den Raum zurück. Die Schlauchtemperatur ist ein guter Hinweis: Fühlt sich sein Endstück nach einer Weile sehr heiß an, ist der Weg wahrscheinlich zu lang oder hat Knicke.</p>
+<h2>Ursache 2: Der Abluftschlauch ist falsch verlegt</h2>
+<p>Das ist mit Abstand die häufigste Ursache. Eine mobile Klimaanlage entzieht dem Raum Wärme und leitet sie über den Abluftschlauch nach draußen. Gelangt diese warme Luft nicht wirklich ins Freie, strömt sie zurück und macht die Kühlung zunichte. Gleichzeitig lässt sich dieser Fehler am leichtesten beheben, ohne dass Sie einen Cent ausgeben.</p>
+<p>Ein oft übersehenes Detail: Je länger und verwinkelter der Schlauch, desto stärker heizt sich seine Oberfläche auf und strahlt Wärme in den Raum zurück. Die Temperatur des Schlauchs verrät viel: Fühlt sich sein Ende nach einer Weile sehr heiß an, ist er wahrscheinlich zu lang oder hat Knicke.</p>
 <h3>So prüfen und korrigieren Sie den Schlauch</h3>
 <ul>
-<li>Der Schlauch muss direkt zu einem Fenster oder Außenauslass führen, nicht im Raum kreisen.</li>
-<li>Halten Sie ihn so kurz und gerade wie möglich: jeder Knick und Meter mindert die Leistung.</li>
-<li>Vermeiden Sie Knicke, Quetschungen oder U-Formen: warme Luft staut sich und strömt zurück.</li>
-<li>Prüfen Sie, dass der Schlauch fest am hinteren Auslass sitzt.</li>
-<li>Verlängern Sie den Schlauch nicht mit Eigenbauten und ersetzen Sie ihn nicht durch einen längeren: seine Länge ist auf den Luftstrom des Geräts abgestimmt.</li>
+<li>Der Schlauch muss auf direktem Weg zum Fenster oder zu einer Öffnung nach draußen führen und darf keine Schleifen durch den Raum ziehen.</li>
+<li>Halten Sie ihn so kurz und gerade wie möglich: Jeder Bogen und jeder zusätzliche Meter kostet Leistung.</li>
+<li>Er darf nicht geknickt, gequetscht oder U-förmig durchhängen, sonst staut sich die warme Luft und strömt zurück.</li>
+<li>Prüfen Sie, ob der Schlauch fest auf dem Anschluss an der Rückseite sitzt und sich nicht gelöst hat.</li>
+<li>Verlängern Sie den Schlauch nicht mit Eigenbauten und ersetzen Sie ihn nicht durch einen längeren: Seine Länge ist auf den Luftdurchsatz des Geräts abgestimmt.</li>
 </ul>
 
-<h2>Ursache 3: schlechte Fensterabdichtung</h2>
-<p>Es bringt nichts, warme Luft hinauszublasen, wenn Außenluft um den Schlauch wieder hereinkommt. Die meisten Geräte haben dafür ein Fensterabdichtungs-Set.</p>
+<h2>Ursache 3: Das Fenster ist schlecht abgedichtet</h2>
+<p>Es bringt nichts, die warme Luft hinauszuleiten, wenn durch die Lücke um den Schlauch warme Außenluft wieder hereinströmt. Genau dafür liegt den meisten Geräten eine Fensterabdichtung bei.</p>
 <ul>
-<li>Montieren Sie das mitgelieferte Set; fehlt es, gibt es günstige Universalpaneele.</li>
-<li>Dichten Sie Lücken um den Schlauch mit Klebeband oder Schaumstoff ab.</li>
-<li>Schließen Sie Türen und Fenster und lassen Sie tagsüber die Rollladen herunter.</li>
-<li>Bei einem Dreh-Kipp-Fenster suchen Sie ein passendes Set: die dreieckigen Lücken lassen sehr viel Wärme herein.</li>
+<li>Montieren Sie die mitgelieferte Fensterabdichtung. Fehlt sie, gibt es günstige Universal-Abdichtungen.</li>
+<li>Dichten Sie die Lücken um den Schlauch mit Klebeband oder Schaumstoffband ab.</li>
+<li>Halten Sie Türen und Fenster geschlossen und lassen Sie in den heißesten Stunden die Rollläden herunter.</li>
+<li>Für Dreh-Kipp-Fenster gibt es spezielle Abdichtungen: Durch die dreieckigen Spalten am gekippten Fenster dringt sonst sehr viel Wärme ein.</li>
 </ul>
-<p>Ein einfacher Test: Halten Sie bei laufendem Gerät die Hand an den Fensterrahmen und an die Schlauchabdichtung. Spüren Sie einen warmen Luftstrom hereinkommen, haben Sie ein Leck gefunden, das die Arbeit des Geräts zunichtemacht.</p>
+<p>Ein einfacher Test: Halten Sie bei laufendem Gerät die Hand an den Fensterrahmen und an die Abdichtung rund um den Schlauch. Spüren Sie warme Luft hereinströmen, haben Sie eine undichte Stelle gefunden, die die Arbeit des Geräts zunichtemacht.</p>
 
-<h2>Ursache 4: der Filter ist verstopft</h2>
-<p>Der Filter fängt Staub ab. Ist er verstopft, saugt das Gerät weniger Luft an, der Luftstrom sinkt und die Kühlleistung bricht ein. Eine oft vergessene Grundwartung.</p>
+<h2>Ursache 4: Der Filter ist verschmutzt</h2>
+<p>Der Filter hält Staub zurück. Ist er verschmutzt, saugt das Gerät weniger Luft an, der Luftstrom sinkt und die Kühlleistung bricht ein. Diese einfache Pflege wird oft vergessen.</p>
 <ul>
-<li>Finden Sie den Filter (meist hinter einem Gitter hinten oder seitlich) und nehmen Sie ihn heraus.</li>
-<li>Reinigen Sie ihn mit lauwarmem Wasser und milder Seife, oder saugen Sie den Staub vorsichtig ab.</li>
-<li>Lassen Sie ihn vollständig trocknen: ein feuchter Filter begünstigt Schimmel.</li>
-<li>Wiederholen Sie das alle zwei bis drei Wochen bei intensiver Nutzung.</li>
+<li>Suchen Sie den Filter (meist hinter einem Gitter an der Rück- oder Seitenwand) und nehmen Sie ihn heraus.</li>
+<li>Reinigen Sie ihn mit lauwarmem Wasser und etwas milder Seife oder saugen Sie den Staub ab.</li>
+<li>Lassen Sie ihn vollständig trocknen, bevor Sie ihn wieder einsetzen: Ein feuchter Filter begünstigt Schimmel.</li>
+<li>Wiederholen Sie die Reinigung in der Hochsaison alle zwei bis drei Wochen.</li>
 </ul>
 
-<h2>Ursache 5: der Kondensatbehälter ist voll</h2>
-<p>Beim Kühlen entsteht Wasser durch Kondensation. Manche Modelle verdampfen es, andere sammeln es in einem internen Behälter. Ist er voll, stoppt ein Sicherheitssensor den Kompressor: der Ventilator läuft, kühlt aber nicht, manchmal mit Code "FL" oder "Full".</p>
+<h2>Ursache 5: Der Kondensatbehälter ist voll</h2>
+<p>Beim Kühlen entsteht Kondenswasser. Manche Modelle lassen es verdunsten, andere sammeln es in einem Behälter im Gerät. Ist er voll, schaltet ein Sicherheitssensor den Kompressor ab: Der Ventilator bläst weiter, aber das Gerät kühlt nicht mehr. Manchmal zeigt das Display dann einen Code wie „FL“ oder „Full“.</p>
 <ul>
-<li>Leeren Sie den Wassertank laut Anleitung.</li>
-<li>Falls möglich, schließen Sie einen Dauerablaufschlauch an.</li>
-<li>Prüfen Sie, dass der Ablaufstopfen nach dem Leeren gut geschlossen ist.</li>
+<li>Leeren Sie den Wassertank wie in der Bedienungsanleitung beschrieben.</li>
+<li>Wenn Ihr Gerät das zulässt, schließen Sie einen Schlauch für den Dauerablauf an, dann müssen Sie nicht mehr von Hand leeren.</li>
+<li>Prüfen Sie nach dem Leeren, ob der Ablaufstopfen wieder fest verschlossen ist.</li>
 </ul>
 
-<h2>Ursache 6: der Raum ist zu groß (zu wenig BTU)</h2>
-<p>Läuft das Gerät einwandfrei, kühlt der Raum aber nicht genug, fehlt wohl Leistung. Die Kühlleistung wird in BTU pro Stunde gemessen. Ein kleines Gerät in einem großen Wohnzimmer kann auf Volllast laufen, ohne je den Sollwert zu erreichen, wie ein kleines, voll beladenes Auto, das eine Steigung kaum schafft.</p>
-<p>Das ist ein zentraler Punkt beim Kauf und eine häufige Enttäuschungsquelle: Viele wählen das Modell nach dem Preis und landen bei einem Gerät, das für ihr Wohnzimmer zu klein ist. Die richtige BTU-Auslegung entscheidet, ob ein Gerät wirklich kühlt oder nur Lärm macht.</p>
-<h3>Wie viele BTU nach Fläche</h3>
+<h2>Ursache 6: Der Raum ist zu groß (zu wenig BTU)</h2>
+<p>Läuft das Gerät einwandfrei, wird der Raum aber nicht kühl genug, fehlt ihm vermutlich Leistung. Die Kühlleistung wird in BTU pro Stunde angegeben. Ein kleines Gerät in einem großen Wohnzimmer kann auf Volllast laufen, ohne je die eingestellte Temperatur zu erreichen, wie ein kleines, voll beladenes Auto, das sich den Berg hinaufquält.</p>
+<p>Beim Kauf ist das ein zentraler Punkt und ein häufiger Grund für Enttäuschung: Viele entscheiden nach dem Preis und haben am Ende ein Gerät, das für ihr Wohnzimmer zu schwach ist. Die richtige Leistung in BTU entscheidet darüber, ob ein Gerät wirklich kühlt oder nur Lärm macht.</p>
+<h3>Wie viele BTU für welche Raumgröße?</h3>
 <table>
 <thead>
-<tr><th>Raumfläche</th><th>Empfohlene BTU</th></tr>
+<tr><th>Raumgröße</th><th>Empfohlene Leistung</th></tr>
 </thead>
 <tbody>
-<tr><td>Bis 15 m2</td><td>7.000 - 9.000 BTU</td></tr>
-<tr><td>15 - 25 m2</td><td>9.000 - 12.000 BTU</td></tr>
-<tr><td>25 - 35 m2</td><td>12.000 - 14.000 BTU</td></tr>
-<tr><td>35 - 45 m2</td><td>14.000 - 18.000 BTU</td></tr>
+<tr><td>Bis 15 m²</td><td>7.000–9.000 BTU</td></tr>
+<tr><td>15–25 m²</td><td>9.000–12.000 BTU</td></tr>
+<tr><td>25–35 m²</td><td>12.000–14.000 BTU</td></tr>
+<tr><td>35–45 m²</td><td>14.000–18.000 BTU</td></tr>
 </tbody>
 </table>
-<p>Richtwerte für einen Standardraum. Starke Sonne, Dachgeschoss, hohe Decken oder viele Geräte: eine Stufe höher. Ein zu kleines Gerät erreicht den Sollwert nie und verbraucht mehr. Zum Vergleich von Leistung und Verbrauch siehe unseren <a href="/de/blog/climatiseur-mobile-vs-ventilateur">Vergleich nach Raumgröße</a>.</p>
+<p>Das sind Richtwerte für einen durchschnittlichen Raum. Bei starker Sonneneinstrahlung, unter dem Dach, bei hohen Decken oder vielen elektrischen Geräten im Raum wählen Sie eine Stufe mehr. Ein zu schwaches Gerät erreicht die eingestellte Temperatur nie und verbraucht mehr Strom. Wie sich Leistung und Verbrauch unterscheiden, zeigt unser <a href="/de/blog/climatiseur-mobile-vs-ventilateur">Vergleich nach Raumgröße</a>.</p>
 
-<h2>Ursache 7: extreme Außentemperatur</h2>
-<p>Bei einer Hitzewelle mit 40 Grad draußen verliert auch ein gut dimensioniertes Gerät Leistung: es muss Wärme an bereits sehr heiße Luft abgeben. Das ist kein Defekt, sondern eine physikalische Grenze.</p>
+<h2>Ursache 7: Extreme Außentemperatur</h2>
+<p>Bei einer Hitzewelle mit 40 Grad draußen verliert auch ein ausreichend starkes Gerät an Leistung: Es muss die Wärme an Luft abgeben, die schon sehr heiß ist. Das ist kein Defekt, sondern eine physikalische Grenze.</p>
 <ul>
-<li>Schließen Sie tagsüber Rollladen und Vorhänge.</li>
-<li>Schalten Sie das Gerät ein, bevor der Raum zum Backofen wird.</li>
-<li>Jagen Sie nicht 18 Grad: ein realistischer Unterschied von 5 bis 8 Grad bringt schon viel Komfort.</li>
+<li>Schließen Sie in den heißesten Stunden Rollläden und Vorhänge.</li>
+<li>Schalten Sie das Gerät ein, bevor sich der Raum aufheizt.</li>
+<li>Peilen Sie nicht um jeden Preis 18 Grad an: Schon 5 bis 8 Grad weniger als draußen fühlen sich deutlich angenehmer an.</li>
 </ul>
 
-<h2>Ursache 8: mögliches Kältemittel-Leck</h2>
-<p>Ist alles andere ausgeschlossen und kühlte das Gerät früher gut, jetzt aber kaum, kann ein Kältemittel-Leck vorliegen. Ohne korrekte Gasfüllung läuft der Kompressor, überträgt aber keine Wärme mehr.</p>
-<p>Vorsicht: Kältemittel steht unter Druck und seine Handhabung ist gesetzlich geregelt. Versuchen Sie nie, es selbst nachzufüllen oder den Kreislauf zu öffnen. Das muss immer ein in fluorierten Gasen zertifizierter Techniker erledigen. Der Umgang mit einem Kältemittelkreislauf ohne Ausbildung ist nicht nur illegal, sondern kann Kälteverbrennungen verursachen und den Kompressor irreversibel schädigen.</p>
-<p>Denken Sie daran: Ein Leck ist bei einem neuen, gut genutzten Gerät nicht normal. Ist Ihr Gerät erst wenige Monate alt und verliert scheinbar schon Gas, machen Sie die Garantie beim Händler geltend, statt selbst etwas zu öffnen.</p>
+<h2>Ursache 8: Möglicher Kältemittelverlust</h2>
+<p>Haben Sie alles andere ausgeschlossen und hat das Gerät früher gut gekühlt, jetzt aber nicht mehr, kann Kältemittel ausgetreten sein. Ohne die richtige Füllmenge läuft der Kompressor zwar, transportiert aber keine Wärme mehr ab.</p>
+<p>Vorsicht: Kältemittel steht unter Druck, und der Umgang damit ist gesetzlich geregelt. Versuchen Sie nie, es selbst nachzufüllen oder den Kreislauf zu öffnen. Das darf nur eine für Kältemittel zertifizierte Fachkraft erledigen. Wer ohne Ausbildung am Kältekreislauf arbeitet, handelt nicht nur rechtswidrig, sondern riskiert auch Kälteverbrennungen und einen irreparablen Schaden am Kompressor.</p>
+<p>Bei einem neuen, richtig genutzten Gerät ist ein Leck nicht normal. Ist Ihr Gerät erst wenige Monate alt und verliert anscheinend schon Kältemittel, machen Sie beim Händler die Gewährleistung geltend, statt selbst etwas zu öffnen.</p>
 
-<h2>Wann den Kundendienst rufen</h2>
-<p>Sie haben Modus, Schlauch, Abdichtung, Filter und Behälter geprüft, das Gerät ist korrekt dimensioniert und kühlt trotzdem nicht. Dann kontaktieren Sie den Kundendienst, besonders bei:</p>
+<h2>Wann Sie den Kundendienst rufen sollten</h2>
+<p>Sie haben Modus, Schlauch, Abdichtung, Filter und Behälter geprüft, das Gerät ist stark genug für den Raum und kühlt trotzdem nicht? Dann wenden Sie sich an den Kundendienst, vor allem bei:</p>
 <ul>
-<li>Brandgeruch, Funken oder ausgelöster Sicherung.</li>
-<li>Ungewöhnlichen metallischen Kompressorgeräuschen.</li>
-<li>Fehlercodes, die das Handbuch nicht löst.</li>
-<li>Verdacht auf Gasleck (allmählicher Leistungsverlust).</li>
+<li>Brandgeruch, Funken oder einer ausgelösten Sicherung.</li>
+<li>Ungewöhnlichen, metallischen Geräuschen aus dem Kompressor.</li>
+<li>Fehlercodes, die sich mit der Bedienungsanleitung nicht beheben lassen.</li>
+<li>Verdacht auf Kältemittelverlust (die Kühlleistung lässt allmählich nach).</li>
 </ul>
-<p>Bei Garantie das Gerät nicht öffnen. Für Komfort das ganze Jahr siehe auch unseren <a href="/de/blog/deshumidificateur-connecte-guide">Ratgeber zu vernetzten Entfeuchtern</a>.</p>
+<p>Solange das Gerät unter Garantie steht, öffnen Sie es nicht. Für ein angenehmes Raumklima im Rest des Jahres lesen Sie auch unseren <a href="/de/blog/deshumidificateur-connecte-guide">Ratgeber zu smarten Luftentfeuchtern</a>.</p>
 
-<h2>Gute Gewohnheiten für besseres Kühlen jeden Sommer</h2>
-<p>Über die einmalige Diagnose hinaus helfen ein paar einfache Gewohnheiten, dass Ihre mobile Klimaanlage ihr Bestes gibt und länger hält. Die Idee: dem Gerät helfen, nicht aus einem bereits überhitzten Raum zu starten und ungehindert zu atmen.</p>
+<h2>So kühlt Ihr Gerät jeden Sommer besser</h2>
+<p>Neben der Fehlersuche im Ernstfall sorgen ein paar einfache Gewohnheiten dafür, dass Ihre mobile Klimaanlage ihre volle Leistung bringt und länger hält. Das Prinzip: Das Gerät sollte nicht in einem bereits aufgeheizten Raum starten müssen und frei Luft ansaugen und ausblasen können.</p>
 <ul>
-<li>Schalten Sie es an heißen Tagen vorausschauend ein, statt zu warten, bis der Raum ein Backofen ist.</li>
-<li>Halten Sie die Luftein- und -auslassgitter frei: stellen Sie das Gerät nicht an die Wand und decken Sie es nicht ab.</li>
-<li>Reinigen Sie den Filter regelmäßig und lagern Sie ihn am Saisonende sauber und trocken, um Gerüche im nächsten Sommer zu vermeiden.</li>
-<li>Ergänzen Sie die Anlage mit gutem Hitzeschutz: Markisen, heruntergelassene Rollladen und nächtliches Lüften, wenn es kühler wird.</li>
-<li>Kombinieren Sie sie bei Bedarf mit einem Ventilator, um die kühle Luft im Raum zu verteilen, ohne den Verbrauch zu erhöhen.</li>
+<li>Schalten Sie es an angekündigten Hitzetagen frühzeitig ein, statt zu warten, bis der Raum aufgeheizt ist.</li>
+<li>Halten Sie die Gitter für Zu- und Abluft frei: Stellen Sie das Gerät nicht direkt an die Wand und decken Sie es nicht ab.</li>
+<li>Reinigen Sie den Filter regelmäßig und verstauen Sie das Gerät am Ende der Saison sauber und trocken, damit es im nächsten Sommer nicht muffig riecht.</li>
+<li>Unterstützen Sie die Klimaanlage mit gutem Hitzeschutz: Jalousien, heruntergelassene Rollläden und Lüften in der kühleren Nacht.</li>
+<li>Kombinieren Sie sie bei Bedarf mit einem Ventilator: Er verteilt die kühle Luft im ganzen Raum, ohne den Verbrauch nennenswert zu erhöhen.</li>
 </ul>
-<p>Mit diesen Gewohnheiten arbeitet das Gerät für denselben Komfort weniger, was sich an der Temperatur wie an der Rechnung zeigt.</p>
+<p>So muss das Gerät für dieselbe Kühlung weniger arbeiten, und das merken Sie an der Raumtemperatur ebenso wie an der Stromrechnung.</p>
 
 <h2>Fazit</h2>
-<p>Eine mobile Klimaanlage, die nicht kühlt, ist selten ein Totalschaden. Prüfen Sie der Reihe nach Modus, Abluftschlauch, Abdichtung, Filter und Kondensatbehälter und stellen Sie sicher, dass die BTU zur Fläche passen. Diese Schritte lösen die große Mehrheit der Fälle. Erst danach werden ein Gasleck und ein zertifizierter Techniker relevant.</p>`,
+<p>Eine mobile Klimaanlage, die nicht kühlt, ist selten ein Totalschaden. Prüfen Sie der Reihe nach Modus, Abluftschlauch, Abdichtung, Filter und Kondensatbehälter, und stellen Sie sicher, dass die Leistung in BTU zur Raumgröße passt. Damit lässt sich die große Mehrheit der Fälle lösen. Erst wenn das alles nichts bringt, kommen ein Kältemittelverlust und damit eine zertifizierte Fachkraft ins Spiel.</p>`,
 
-    it: `<h2>Il mio climatizzatore portatile non raffredda: da dove iniziare</h2>
-<p>È uno dei guasti più frustranti dell'estate: colleghi l'apparecchio, lo imposti a 18 gradi, lo lasci acceso per ore e la stanza resta calda come prima. La buona notizia è che nella stragrande maggioranza dei casi, quando un climatizzatore portatile non raffredda, non si tratta di un guasto grave ma di un problema di installazione, manutenzione o dimensionamento che puoi risolvere da solo in pochi minuti.</p>
-<p>Prima di chiamare l'assistenza o comprare un nuovo apparecchio, conviene fare una diagnosi metodica. In questa guida passiamo in rassegna le vere cause, dalla più frequente alla più grave, con soluzioni concrete passo passo. Se stai ancora scegliendo il sistema più adatto, consulta il nostro <a href="/it/blog/climatiseur-mobile-vs-ventilateur">confronto climatizzatore portatile vs ventilatore</a>.</p>
-<p>Tieni a mente un'idea di partenza: un climatizzatore portatile monotubo non funziona come uno split fisso a parete. È molto più sensibile all'installazione, alle dimensioni della stanza e alla temperatura esterna. Spesso, quando non raffredda abbastanza, non è affatto guasto: sta solo lottando contro condizioni sfavorevoli facili da migliorare. Vediamole una a una, partendo dai controlli di un minuto e lasciando per ultimi i guasti che richiedono un professionista.</p>
+    it: `<h2>Il mio condizionatore portatile non raffredda: da dove cominciare</h2>
+<p>È uno dei guasti più frustranti dell'estate: colleghi l'apparecchio, lo imposti a 18 gradi, lo lasci acceso per ore e la stanza resta calda come prima. La buona notizia è che nella stragrande maggioranza dei casi, quando un condizionatore portatile non raffredda, non si tratta di un guasto grave, ma di un problema di installazione, manutenzione o dimensionamento che puoi risolvere da solo in pochi minuti.</p>
+<p>Prima di chiamare l'assistenza o comprare un nuovo apparecchio, conviene fare una diagnosi metodica. In questa guida passiamo in rassegna le vere cause, dalla più frequente alla più grave, con soluzioni concrete passo passo. Se stai ancora scegliendo il sistema più adatto, consulta il nostro <a href="/it/blog/climatiseur-mobile-vs-ventilateur">confronto tra condizionatore portatile e ventilatore</a>.</p>
+<p>Parti da un'idea: un condizionatore portatile monoblocco non funziona come uno split fisso a parete. Risente molto di più dell'installazione, delle dimensioni della stanza e della temperatura esterna. Spesso, quando non raffredda abbastanza, non è guasto: lavora in condizioni sfavorevoli, facili da correggere. Vediamole una a una, partendo dai controlli di un minuto e lasciando per ultimi i guasti che richiedono un professionista.</p>
 
 <h2>Tabella di diagnosi rapida</h2>
 <table>
@@ -557,238 +549,238 @@ export const article: BlogArticle = {
 <tr><th>Sintomo</th><th>Causa probabile</th><th>Soluzione</th></tr>
 </thead>
 <tbody>
-<tr><td>Esce aria né fredda né calda</td><td>Modalità ventilatore invece di raffreddamento</td><td>Passa alla modalità Cool / Freddo (fiocco di neve)</td></tr>
+<tr><td>Esce aria a temperatura ambiente</td><td>Modalità ventilatore al posto del raffreddamento</td><td>Passa alla modalità Cool / Freddo (fiocco di neve)</td></tr>
 <tr><td>Raffredda poco e il tubo scotta</td><td>Tubo di scarico mal posizionato o piegato</td><td>Raddrizza il tubo e portalo fuori dalla finestra</td></tr>
 <tr><td>Flusso d'aria molto debole</td><td>Filtro sporco</td><td>Pulisci o sostituisci il filtro</td></tr>
 <tr><td>Si spegne da solo dopo pochi minuti</td><td>Serbatoio di condensa pieno</td><td>Svuota il serbatoio dell'acqua</td></tr>
-<tr><td>Funziona ma la stanza non si raffredda</td><td>BTU insufficienti per la superficie</td><td>Riduci la superficie o aumenta la potenza</td></tr>
+<tr><td>Funziona ma la stanza non si raffredda</td><td>BTU insufficienti per la superficie</td><td>Raffresca una stanza più piccola o scegli un modello più potente</td></tr>
 <tr><td>Raffredda molto meno di prima</td><td>Possibile perdita di gas</td><td>Chiama un tecnico certificato</td></tr>
 </tbody>
 </table>
 
 <h2>Causa 1: la modalità è impostata male</h2>
-<p>Sembra banale, ma è la causa numero uno dei falsi guasti. Molti apparecchi partono in modalità ventilatore (Fan) o deumidificazione (Dry), che muovono l'aria o tolgono umidità senza abbassare davvero la temperatura. Se il compressore non parte, l'apparecchio non raffredderà mai.</p>
+<p>Sembra banale, ma è la causa numero uno dei falsi guasti. Molti apparecchi si accendono di default in modalità ventilatore (Fan) o deumidificazione (Dry), che muovono l'aria o tolgono umidità senza abbassare davvero la temperatura. Se il compressore non parte, l'apparecchio non raffredderà mai.</p>
 <ul>
 <li>Premi il tasto Mode finché non compare il fiocco di neve o la scritta Cool / Freddo.</li>
 <li>Imposta la temperatura desiderata diversi gradi sotto quella attuale della stanza.</li>
-<li>Verifica di sentire il compressore avviarsi (un ronzio grave) dopo uno o due minuti.</li>
-<li>Disattiva timer e modalità Eco durante la prova.</li>
+<li>Verifica di sentire il compressore avviarsi (un ronzio cupo) dopo uno o due minuti.</li>
+<li>Durante la prova disattiva il timer e la modalità Eco, per escludere che limitino la potenza.</li>
 </ul>
 
 <h2>Causa 2: il tubo di scarico è installato male</h2>
-<p>È di gran lunga la causa più frequente. Un climatizzatore portatile estrae il calore dalla stanza e lo espelle all'esterno tramite il tubo di scarico. Se quell'aria calda non esce davvero dalla stanza, rientra e annulla l'effetto raffreddante. È l'errore più diffuso e, allo stesso tempo, il più facile da correggere senza spendere un euro.</p>
-<p>Un dettaglio che molti ignorano: più il tubo è lungo e contorto, più la sua superficie si scalda e irradia calore nella stanza. La temperatura del tubo è un buon indizio: se il tratto finale è molto caldo al tatto dopo un po', il percorso è probabilmente troppo lungo o ha delle pieghe.</p>
+<p>È di gran lunga la causa più frequente. Un condizionatore portatile estrae il calore dalla stanza e lo espelle all'esterno tramite il tubo di scarico. Se quell'aria calda non esce davvero dalla stanza, rientra e annulla l'effetto raffreddante. È l'errore più diffuso e, allo stesso tempo, il più facile da correggere senza spendere un euro.</p>
+<p>Un dettaglio che molti ignorano: più il tubo è lungo e contorto, più la sua superficie si scalda e irradia calore nella stanza. La temperatura del tubo è un buon indizio: se il tratto finale è molto caldo al tatto dopo un po', il percorso è probabilmente troppo lungo o fa troppe curve.</p>
 <h3>Come controllare e correggere il tubo</h3>
 <ul>
-<li>Il tubo deve andare diritto a una finestra o a un'uscita esterna, mai girare nella stanza.</li>
+<li>Il tubo deve andare dritto a una finestra o a un'uscita verso l'esterno, senza fare giri nella stanza.</li>
 <li>Tienilo il più corto e dritto possibile: ogni curva e ogni metro in più riducono il rendimento.</li>
 <li>Evita pieghe, schiacciamenti o forme a U: l'aria calda si accumula e rientra.</li>
 <li>Controlla che il tubo sia ben inserito nell'uscita posteriore e non si sia staccato.</li>
 <li>Non allungare il tubo con soluzioni fai-da-te né sostituirlo con uno più lungo: la sua lunghezza è calcolata per la portata d'aria dell'apparecchio.</li>
 </ul>
 
-<h2>Causa 3: cattiva sigillatura della finestra</h2>
-<p>Inutile espellere aria calda se dall'apertura attorno al tubo rientra aria calda. Quasi tutti gli apparecchi hanno un kit di sigillatura della finestra proprio per questo.</p>
+<h2>Causa 3: la finestra non è sigillata bene</h2>
+<p>Inutile espellere l'aria calda se poi quella esterna rientra dall'apertura attorno al tubo. Per questo quasi tutti gli apparecchi sono venduti con un kit di sigillatura per finestre.</p>
 <ul>
 <li>Installa il kit in dotazione; se manca, esistono pannelli universali economici.</li>
 <li>Sigilla gli spazi attorno al tubo con nastro o guarnizione in schiuma.</li>
 <li>Chiudi porte e finestre e abbassa le tapparelle nelle ore più calde.</li>
-<li>Su una finestra a vasistas, cerca un kit specifico: gli spazi triangolari che lasciano fanno entrare moltissimo calore.</li>
+<li>Con una finestra ad anta e ribalta serve un kit specifico: dalle aperture triangolari ai lati entra moltissimo calore.</li>
 </ul>
-<p>Una prova semplice: con l'apparecchio acceso, avvicina la mano al contorno della finestra e alla sigillatura del tubo. Se senti una corrente di aria calda entrare, hai trovato una perdita che vanifica il lavoro dell'apparecchio.</p>
+<p>Una prova semplice: con l'apparecchio acceso, avvicina la mano al contorno della finestra e alla sigillatura del tubo. Se senti una corrente di aria calda entrare, hai trovato uno spiffero che vanifica il lavoro dell'apparecchio.</p>
 
 <h2>Causa 4: il filtro è sporco</h2>
-<p>Il filtro trattiene la polvere. Quando si intasa, l'apparecchio aspira meno aria, il flusso cala e la capacità di raffreddare crolla. È una manutenzione di base spesso dimenticata.</p>
+<p>Il filtro trattiene la polvere. Quando si intasa, l'apparecchio aspira meno aria, il flusso cala e la capacità di raffreddare crolla. È una manutenzione elementare, ma spesso dimenticata.</p>
 <ul>
 <li>Individua il filtro (di solito dietro una griglia sul retro o sul lato) e rimuovilo.</li>
 <li>Puliscilo con acqua tiepida e sapone neutro, oppure aspira la polvere con delicatezza.</li>
 <li>Lascialo asciugare completamente: un filtro umido favorisce muffe e cattivi odori.</li>
-<li>Ripeti ogni due o tre settimane durante l'uso intenso.</li>
+<li>Ripeti la pulizia ogni due o tre settimane in piena stagione.</li>
 </ul>
 
 <h2>Causa 5: il serbatoio di condensa è pieno</h2>
-<p>Raffreddando, l'apparecchio produce acqua per condensazione. Alcuni modelli la evaporano, altri la raccolgono in un serbatoio interno. Quando è pieno, un sensore di sicurezza ferma il compressore: la ventola soffia ma non raffredda, a volte con un codice "FL" o "Full".</p>
+<p>Raffreddando, l'apparecchio produce acqua per condensazione. Alcuni modelli la fanno evaporare, altri la raccolgono in un serbatoio interno. Quando è pieno, un sensore di sicurezza ferma il compressore: la ventola soffia ma non raffredda, a volte con il codice «FL» o «Full».</p>
 <ul>
 <li>Svuota il serbatoio dell'acqua seguendo il manuale.</li>
-<li>Se possibile, collega un tubo di scarico continuo per evitare di svuotarlo a mano.</li>
+<li>Se il modello lo prevede, collega un tubo per lo scarico continuo della condensa, così non dovrai svuotarlo a mano.</li>
 <li>Verifica che il tappo di scarico sia ben chiuso dopo lo svuotamento.</li>
 </ul>
 
 <h2>Causa 6: la stanza è troppo grande (BTU insufficienti)</h2>
-<p>Se l'apparecchio funziona ma la stanza non si raffredda abbastanza, probabilmente manca potenza. La potenza frigorifera si misura in BTU all'ora. Un piccolo apparecchio in un grande soggiorno può girare al massimo senza mai raggiungere la temperatura impostata, come una piccola auto carica che fatica in salita.</p>
-<p>È un punto chiave al momento dell'acquisto e una causa comune di delusione: molti scelgono il modello in base al prezzo e si ritrovano con un apparecchio troppo piccolo per il loro soggiorno. Dimensionare bene i BTU è ciò che distingue un apparecchio che raffredda davvero da uno che fa solo rumore.</p>
+<p>Se l'apparecchio funziona ma la stanza non si raffredda abbastanza, probabilmente manca potenza. La potenza frigorifera si misura in BTU all'ora. Un piccolo apparecchio in un grande soggiorno può girare al massimo senza mai raggiungere la temperatura impostata, come un'utilitaria a pieno carico che arranca in salita.</p>
+<p>È un punto chiave al momento dell'acquisto e una causa comune di delusione: molti scelgono il modello in base al prezzo e si ritrovano con un apparecchio troppo piccolo per il loro soggiorno. Con i BTU giusti hai un apparecchio che raffredda davvero; con quelli sbagliati, uno che fa solo rumore.</p>
 <h3>Quanti BTU in base alla superficie</h3>
 <table>
 <thead>
 <tr><th>Superficie della stanza</th><th>BTU consigliati</th></tr>
 </thead>
 <tbody>
-<tr><td>Fino a 15 m2</td><td>7.000 - 9.000 BTU</td></tr>
-<tr><td>15 - 25 m2</td><td>9.000 - 12.000 BTU</td></tr>
-<tr><td>25 - 35 m2</td><td>12.000 - 14.000 BTU</td></tr>
-<tr><td>35 - 45 m2</td><td>14.000 - 18.000 BTU</td></tr>
+<tr><td>Fino a 15 m²</td><td>7.000-9.000 BTU</td></tr>
+<tr><td>15-25 m²</td><td>9.000-12.000 BTU</td></tr>
+<tr><td>25-35 m²</td><td>12.000-14.000 BTU</td></tr>
+<tr><td>35-45 m²</td><td>14.000-18.000 BTU</td></tr>
 </tbody>
 </table>
-<p>Valori indicativi per una stanza standard. Forte esposizione al sole, sottotetto, soffitti alti o molti apparecchi: sali di un livello. Un apparecchio troppo piccolo non raggiungerà mai la temperatura impostata e consumerà di più. Per confrontare potenza e consumo, vedi il nostro <a href="/it/blog/climatiseur-mobile-vs-ventilateur">confronto per dimensione della stanza</a>.</p>
+<p>Sono valori indicativi per una stanza standard. Con una forte esposizione al sole, in mansarda, con soffitti alti o molti apparecchi accesi, scegli la fascia superiore. Un apparecchio troppo piccolo non raggiungerà mai la temperatura impostata e consumerà di più. Per confrontare potenza e consumo, vedi il nostro <a href="/it/blog/climatiseur-mobile-vs-ventilateur">confronto per dimensione della stanza</a>.</p>
 
 <h2>Causa 7: temperatura esterna estrema</h2>
 <p>Durante un'ondata di calore, con 40 gradi fuori, anche un apparecchio ben dimensionato perde rendimento: deve cedere calore a un'aria già molto calda. Non è un guasto, ma un limite fisico.</p>
 <ul>
 <li>Chiudi tapparelle e tende nelle ore più calde.</li>
 <li>Accendi l'apparecchio prima che la stanza diventi un forno.</li>
-<li>Non puntare ai 18 gradi: una differenza realistica di 5-8 gradi rispetto all'esterno già dà grande comfort.</li>
+<li>Non puntare a tutti i costi ai 18 gradi: una differenza realistica di 5-8 gradi rispetto all'esterno dà già molto sollievo.</li>
 </ul>
 
 <h2>Causa 8: possibile perdita di gas refrigerante</h2>
-<p>Se hai escluso tutto il resto e l'apparecchio prima raffreddava bene ma ora quasi nulla, potrebbe esserci una perdita di gas refrigerante. Senza la giusta carica di gas, il compressore gira ma non trasferisce più calore.</p>
-<p>Attenzione: il gas refrigerante è sotto pressione e la sua manipolazione è regolamentata. Non provare mai a ricaricarlo o ad aprire il circuito da solo. Questa operazione deve essere sempre eseguita da un tecnico certificato in gas fluorurati. Maneggiare un circuito di refrigerante senza formazione non è solo illegale, ma può provocare ustioni da freddo e danneggiare in modo irreversibile il compressore.</p>
-<p>Ricorda che una perdita non è normale su un apparecchio nuovo e usato bene. Se il tuo ha pochi mesi e sembra già perdere gas, fai valere la garanzia presso il venditore invece di aprire qualcosa da solo.</p>
+<p>Se hai escluso tutto il resto e l'apparecchio prima raffreddava bene ma ora non più, potrebbe esserci una perdita di gas refrigerante. Senza la giusta carica di gas, il compressore gira ma non trasferisce più calore.</p>
+<p>Attenzione: il gas refrigerante è sotto pressione e la sua manipolazione è regolamentata. Non provare mai a ricaricarlo o ad aprire il circuito da solo. Questa operazione deve essere sempre eseguita da un tecnico certificato in gas fluorurati. Intervenire su un circuito frigorifero senza la necessaria abilitazione non solo è illegale, ma può provocare ustioni da freddo e danneggiare in modo irreversibile il compressore.</p>
+<p>Ricorda che una perdita non è normale su un apparecchio nuovo e usato bene. Se il tuo ha pochi mesi e sembra già perdere gas, fai valere la garanzia con il venditore invece di aprirlo.</p>
 
 <h2>Quando chiamare l'assistenza</h2>
-<p>Hai controllato modalità, tubo, sigillatura, filtro e serbatoio, l'apparecchio è ben dimensionato e ancora non raffredda. Allora contatta l'assistenza, soprattutto se noti:</p>
+<p>Hai controllato modalità, tubo, sigillatura, filtro e serbatoio, la potenza è adeguata alla stanza e l'apparecchio ancora non raffredda. Allora contatta l'assistenza, soprattutto se noti:</p>
 <ul>
-<li>Odore di bruciato, scintille o salto dell'interruttore.</li>
+<li>Odore di bruciato, scintille o salvavita che scatta.</li>
 <li>Rumori metallici anomali del compressore.</li>
 <li>Codici di errore non risolti dal manuale.</li>
 <li>Sospetto di perdita di gas (calo progressivo di prestazioni).</li>
 </ul>
-<p>Se l'apparecchio è in garanzia, non aprirlo. Per il comfort tutto l'anno, vedi anche la nostra <a href="/it/blog/deshumidificateur-connecte-guide">guida ai deumidificatori connessi</a>.</p>
+<p>Se l'apparecchio è in garanzia, non aprirlo. Per stare bene in casa anche nel resto dell'anno, leggi la nostra <a href="/it/blog/deshumidificateur-connecte-guide">guida ai deumidificatori smart</a>.</p>
 
 <h2>Buone abitudini per raffreddare meglio ogni estate</h2>
-<p>Oltre alla diagnosi puntuale, poche abitudini semplici fanno rendere al massimo il tuo climatizzatore portatile e lo fanno durare più a lungo. L'idea è aiutarlo a non partire da una stanza già surriscaldata e a respirare senza ostacoli.</p>
+<p>Oltre a risolvere il problema del momento, qualche semplice abitudine aiuta il tuo condizionatore portatile a rendere al massimo e a durare più a lungo. L'obiettivo è non farlo partire in una stanza già rovente e lasciargli spazio per far circolare l'aria.</p>
 <ul>
-<li>Accendilo in anticipo nei giorni di caldo previsto, invece di aspettare che la stanza diventi un forno.</li>
+<li>Nei giorni in cui è previsto molto caldo, accendilo in anticipo invece di aspettare che la stanza diventi un forno.</li>
 <li>Tieni libere le griglie di entrata e uscita dell'aria: non addossare l'apparecchio al muro e non coprirlo.</li>
 <li>Pulisci il filtro regolarmente e, a fine stagione, riponilo pulito e asciutto per evitare odori l'estate successiva.</li>
-<li>Affianca al portatile una buona protezione dal calore: tende da sole, tapparelle abbassate e ventilazione notturna quando rinfresca.</li>
+<li>Proteggi la casa dal calore: tende da sole, tapparelle abbassate di giorno e finestre aperte di notte, quando rinfresca.</li>
 <li>Se serve, combinalo con un ventilatore per distribuire meglio l'aria fresca nella stanza senza aumentare i consumi.</li>
 </ul>
-<p>Con questi gesti l'apparecchio lavora meno per lo stesso comfort, e si nota sia sulla temperatura sia sulla bolletta.</p>
+<p>Con queste accortezze l'apparecchio lavora meno per lo stesso comfort, e si vede sia sul termometro sia in bolletta.</p>
 
 <h2>Conclusione</h2>
-<p>Un climatizzatore portatile che non raffredda raramente è da buttare. In ordine, controlla modalità, tubo di scarico, sigillatura, filtro e serbatoio di condensa, e assicurati che i BTU corrispondano alla superficie. Questi passaggi risolvono la stragrande maggioranza dei casi. Solo dopo diventano rilevanti una perdita di gas e l'intervento di un tecnico certificato.</p>`,
+<p>Un condizionatore portatile che non raffredda è raramente da buttare. In ordine, controlla modalità, tubo di scarico, sigillatura, filtro e serbatoio di condensa, e assicurati che i BTU corrispondano alla superficie. Questi passaggi risolvono la stragrande maggioranza dei casi. Solo dopo ha senso pensare a una perdita di gas e chiamare un tecnico certificato.</p>`,
 
-    nl: `<h2>Mijn mobiele airco koelt niet: waar begin je</h2>
-<p>Het is een van de meest frustrerende zomerproblemen: je steekt het apparaat in het stopcontact, zet het op 18 graden, laat het uren draaien en de kamer blijft net zo warm. Het goede nieuws is dat in de meeste gevallen, wanneer een mobiele airco niet koelt, het geen ernstige storing is maar een installatie-, onderhouds- of dimensioneringsprobleem dat je zelf in een paar minuten oplost.</p>
-<p>Voordat je de servicedienst belt of een nieuw apparaat koopt, doe je beter een methodische diagnose. In deze gids lopen we de echte oorzaken door, van de meest voorkomende tot de ernstigste, met concrete stapsgewijze oplossingen. Twijfel je nog welk systeem bij je past, bekijk dan onze <a href="/nl/blog/climatiseur-mobile-vs-ventilateur">vergelijking mobiele airco vs ventilator</a>.</p>
-<p>Houd een uitgangspunt in gedachten: een mobiele airco met een slang werkt niet als een vaste split aan de muur. Hij is veel gevoeliger voor de installatie, de grootte van de kamer en de buitentemperatuur. Vaak is het apparaat helemaal niet kapot als het niet genoeg koelt, maar vecht het tegen ongunstige omstandigheden die makkelijk te verbeteren zijn. Laten we ze een voor een bekijken, te beginnen met de checks van een minuut en met de storingen die een vakman vereisen helemaal aan het eind.</p>
+    nl: `<h2>Mobiele airco koelt niet: waar begin je?</h2>
+<p>Het is een van de vervelendste problemen van de zomer: je zet de airco aan, stelt hem in op 18 graden, laat hem urenlang draaien en toch blijft het in de kamer even warm. Het goede nieuws: als een mobiele airco niet koelt, is dat meestal geen ernstig defect. Vaak zit het probleem in de installatie, het onderhoud of een te klein vermogen, en dat los je in een paar minuten zelf op.</p>
+<p>Bel dus niet meteen de servicedienst en koop niet direct een nieuw apparaat, maar zoek de oorzaak stap voor stap. In deze gids lopen we de echte oorzaken langs, van de meest voorkomende tot de ernstigste, telkens met een concrete oplossing. Twijfel je nog welk systeem het best bij je past? Lees dan onze <a href="/nl/blog/climatiseur-mobile-vs-ventilateur">vergelijking tussen mobiele airco en ventilator</a>.</p>
+<p>Houd één ding in gedachten: een mobiele airco (monoblock) werkt niet zoals een vaste split-airco aan de muur. Hij is veel gevoeliger voor de installatie, de grootte van de kamer en de buitentemperatuur. Koelt hij niet genoeg, dan is hij vaak helemaal niet kapot, maar werkt hij onder ongunstige omstandigheden die je makkelijk kunt verbeteren. We bekijken ze een voor een: eerst de controles van een minuut, en als laatste de storingen waarvoor je een vakman nodig hebt.</p>
 
-<h2>Snelle diagnosetabel</h2>
+<h2>Snel overzicht: symptoom, oorzaak en oplossing</h2>
 <table>
 <thead>
 <tr><th>Symptoom</th><th>Waarschijnlijke oorzaak</th><th>Oplossing</th></tr>
 </thead>
 <tbody>
-<tr><td>Er komt lucht uit, niet koud niet warm</td><td>Ventilatorstand in plaats van koelen</td><td>Zet op Cool-stand (sneeuwvlok)</td></tr>
-<tr><td>Koelt weinig en de slang is heet</td><td>Afvoerslang slecht geplaatst of geknikt</td><td>Maak de slang recht en leid hem naar buiten</td></tr>
-<tr><td>Zeer zwakke luchtstroom</td><td>Vervuild filter</td><td>Reinig of vervang het filter</td></tr>
-<tr><td>Slaat na een paar minuten af</td><td>Condensbak vol</td><td>Leeg het waterreservoir</td></tr>
-<tr><td>Draait maar de kamer wordt niet koeler</td><td>Te weinig BTU voor de oppervlakte</td><td>Verklein de ruimte of verhoog het vermogen</td></tr>
-<tr><td>Koelt veel minder dan vroeger</td><td>Mogelijk koelgaslek</td><td>Bel een gecertificeerde technicus</td></tr>
+<tr><td>Er komt lucht uit, maar die is niet koud en niet warm</td><td>Ventilatorstand in plaats van koelen</td><td>Zet hem op Cool (sneeuwvlok)</td></tr>
+<tr><td>Koelt weinig en de slang wordt heet</td><td>Afvoerslang verkeerd geplaatst of geknikt</td><td>Leg de slang recht en leid hem door het raam naar buiten</td></tr>
+<tr><td>Heel zwakke luchtstroom</td><td>Vuil filter</td><td>Maak het filter schoon of vervang het</td></tr>
+<tr><td>Slaat na een paar minuten vanzelf af</td><td>Condenswaterbak vol</td><td>Leeg de waterbak</td></tr>
+<tr><td>Draait, maar de kamer koelt niet af</td><td>Te weinig BTU voor de oppervlakte</td><td>Koel een kleinere ruimte of kies meer vermogen</td></tr>
+<tr><td>Koelt veel minder dan vroeger</td><td>Mogelijk lek in het koelcircuit</td><td>Schakel een gecertificeerde koeltechnicus in</td></tr>
 </tbody>
 </table>
 
-<h2>Oorzaak 1: de stand is verkeerd ingesteld</h2>
-<p>Het klinkt onbenullig, maar het is oorzaak nummer een van schijnstoringen. Veel apparaten starten in de ventilatorstand (Fan) of ontvochtigingsstand (Dry), die lucht verplaatsen of vocht verwijderen zonder de temperatuur echt te verlagen. Start de compressor nooit, dan koelt het apparaat nooit.</p>
+<h2>Oorzaak 1: de verkeerde stand staat aan</h2>
+<p>Het klinkt banaal, maar dit is de nummer één bij storingen die eigenlijk geen storing zijn. Veel apparaten starten standaard in de ventilatorstand (Fan) of de ontvochtigingsstand (Dry). Die verplaatsen lucht of halen vocht weg, zonder de temperatuur echt te verlagen. Zolang de compressor niet aanslaat, koelt het apparaat niet.</p>
 <ul>
-<li>Druk op de Mode-knop tot de sneeuwvlok of het woord Cool verschijnt.</li>
-<li>Zet de streeftemperatuur enkele graden onder de huidige kamertemperatuur.</li>
-<li>Controleer of je de compressor hoort starten (een laag gebrom) na een tot twee minuten.</li>
-<li>Schakel de timer en Eco-stand uit tijdens de test.</li>
+<li>Druk op de Mode-knop tot je de sneeuwvlok of het woord Cool ziet.</li>
+<li>Stel de gewenste temperatuur een paar graden lager in dan de huidige kamertemperatuur.</li>
+<li>Luister of de compressor na één tot twee minuten aanslaat (een laag gebrom).</li>
+<li>Zet de timer en de Eco-stand uit tijdens de test, zodat het vermogen niet wordt beperkt.</li>
 </ul>
 
-<h2>Oorzaak 2: de afvoerslang is slecht geinstalleerd</h2>
-<p>Veruit de meest voorkomende oorzaak. Een mobiele airco onttrekt warmte aan de kamer en voert die via de afvoerslang naar buiten af. Verlaat die warme lucht de kamer niet echt, dan komt ze terug en heft het koeleffect op. Het is de meest voorkomende fout en tegelijk de makkelijkste om gratis te verhelpen.</p>
-<p>Een detail dat velen niet kennen: hoe langer en gedraaider de slang, hoe meer het oppervlak opwarmt en warmte terugstraalt in de kamer. De slangtemperatuur is een goede aanwijzing: voelt het laatste stuk na een tijdje erg heet aan, dan is het traject waarschijnlijk te lang of zitten er knikken in.</p>
-<h3>Hoe controleer en corrigeer je de slang</h3>
+<h2>Oorzaak 2: de afvoerslang zit niet goed</h2>
+<p>Dit is veruit de meest voorkomende oorzaak. Een mobiele airco haalt warmte uit de kamer en blaast die via de afvoerslang naar buiten. Komt die warme lucht niet echt buiten terecht, dan stroomt ze terug de kamer in en is het koeleffect weg. Het is de meest gemaakte fout, maar ook de makkelijkste om op te lossen, en het kost je niets.</p>
+<p>Wat veel mensen niet weten: hoe langer en kronkeliger de slang, hoe warmer hij wordt en hoe meer warmte hij weer afstraalt in de kamer. De temperatuur van de slang zegt dus veel. Voelt het laatste stuk na een tijdje erg heet aan, dan is de slang waarschijnlijk te lang of zitten er bochten in.</p>
+<h3>Zo controleer en verbeter je de slang</h3>
 <ul>
-<li>De slang moet recht naar een raam of buitenuitgang lopen, nooit in de kamer rondgaan.</li>
-<li>Houd hem zo kort en recht mogelijk: elke bocht en extra meter vermindert de prestatie.</li>
-<li>Vermijd knikken, pletten of U-vormen: warme lucht hoopt zich op en stroomt terug.</li>
-<li>Controleer of de slang goed op de achteruitlaat zit en niet is losgeraakt.</li>
-<li>Verleng de slang niet met zelfgemaakte stukken en vervang hem niet door een langere: de lengte is afgestemd op de luchtstroom van het apparaat.</li>
+<li>Leid de slang rechtstreeks naar een raam of een andere opening naar buiten, en laat hem nooit door de kamer kronkelen.</li>
+<li>Houd hem zo kort en recht mogelijk: elke bocht en elke extra meter kost rendement.</li>
+<li>Voorkom knikken, platgedrukte stukken en U-bochten: daar hoopt warme lucht zich op en die stroomt terug naar binnen.</li>
+<li>Controleer of de slang goed vastzit aan de achterkant van het apparaat en niet is losgeschoten.</li>
+<li>Verleng de slang niet met zelfgemaakte oplossingen en vervang hem niet door een langere: de lengte is afgestemd op de luchtstroom van het apparaat.</li>
 </ul>
 
-<h2>Oorzaak 3: slechte raamafdichting</h2>
-<p>Het heeft geen zin warme lucht naar buiten te blazen als rond de slang weer buitenlucht binnenkomt. De meeste apparaten worden hiervoor met een raamafdichtingsset geleverd.</p>
+<h2>Oorzaak 3: het raam is slecht afgedicht</h2>
+<p>Warme lucht naar buiten blazen heeft weinig zin als er via de kier rond de slang weer buitenlucht binnenkomt. Daarom leveren de meeste fabrikanten er een raamafdichtingsset bij.</p>
 <ul>
-<li>Monteer de meegeleverde set; ontbreekt die, dan zijn er goedkope universele panelen.</li>
-<li>Dicht kieren rond de slang af met tape of schuimstrip.</li>
-<li>Sluit deuren en ramen en laat de rolluiken zakken tijdens de heetste uren.</li>
-<li>Zoek bij een kantel-draairaam een specifieke kit: de driehoekige openingen die ze laten, voeren enorm veel warmte aan.</li>
+<li>Monteer de meegeleverde set. Zit die er niet bij, dan zijn er goedkope universele afdichtingen te koop.</li>
+<li>Dicht de kieren rond de slang af met tape of een tochtstrip van schuim.</li>
+<li>Houd deuren en ramen dicht en laat de rolluiken zakken tijdens de warmste uren.</li>
+<li>Heb je een draaikiepraam, zoek dan een set die daarvoor gemaakt is: via de driehoekige openingen aan de zijkant komt veel warmte binnen.</li>
 </ul>
-<p>Een eenvoudige test: houd met het apparaat aan je hand bij het raamkozijn en de slangafdichting. Voel je een warme luchtstroom binnenkomen, dan heb je een lek gevonden dat het werk van het apparaat tenietdoet.</p>
+<p>Een eenvoudige test: houd je hand, terwijl het apparaat aanstaat, langs de rand van het raam en de afdichting rond de slang. Voel je warme lucht binnenkomen, dan heb je een lek gevonden dat het werk van de airco tenietdoet.</p>
 
-<h2>Oorzaak 4: het filter is vervuild</h2>
-<p>Het filter houdt stof tegen. Als het verstopt raakt, zuigt het apparaat minder lucht aan, daalt de luchtstroom en stort de koelcapaciteit in. Een basisonderhoud dat vaak wordt vergeten.</p>
+<h2>Oorzaak 4: het filter is vuil</h2>
+<p>Het filter houdt stof tegen. Raakt het verstopt, dan zuigt het apparaat minder lucht aan, neemt de luchtstroom af en zakt het koelvermogen flink in. Het is basisonderhoud dat vaak wordt vergeten.</p>
 <ul>
-<li>Zoek het filter (meestal achter een rooster aan de achter- of zijkant) en verwijder het.</li>
-<li>Reinig het met lauw water en milde zeep, of zuig het stof voorzichtig op.</li>
-<li>Laat het volledig drogen: een vochtig filter bevordert schimmel.</li>
-<li>Herhaal dit om de twee à drie weken bij intensief gebruik.</li>
+<li>Zoek het filter (meestal achter een rooster aan de achter- of zijkant) en haal het eruit.</li>
+<li>Was het met lauw water en een beetje milde zeep, of zuig het stof eraf.</li>
+<li>Laat het helemaal drogen voordat je het terugplaatst: in een vochtig filter groeit snel schimmel.</li>
+<li>Maak het in het hoogseizoen om de twee tot drie weken schoon.</li>
 </ul>
 
-<h2>Oorzaak 5: de condensbak is vol</h2>
-<p>Bij het koelen produceert het apparaat water door condensatie. Sommige modellen verdampen het, andere verzamelen het in een interne bak. Als die vol is, stopt een veiligheidssensor de compressor: de ventilator blaast nog maar koelt niet meer, soms met een code "FL" of "Full".</p>
+<h2>Oorzaak 5: de condenswaterbak is vol</h2>
+<p>Tijdens het koelen ontstaat er condenswater. Sommige modellen laten dat verdampen, andere vangen het op in een interne bak. Is die vol, dan zet een veiligheidssensor de compressor stil: de ventilator blaast nog, maar er komt geen koude lucht meer. Soms zie je dan een code als “FL” of “Full”.</p>
 <ul>
-<li>Leeg het waterreservoir volgens de handleiding.</li>
-<li>Sluit indien mogelijk een continue afvoerslang aan.</li>
-<li>Controleer of de afvoerdop na het legen goed gesloten is.</li>
+<li>Leeg de waterbak zoals de handleiding aangeeft.</li>
+<li>Kan het bij jouw model, sluit dan een slang voor continue afvoer aan, zodat je de bak niet meer met de hand hoeft te legen.</li>
+<li>Controleer na het legen of de afvoerdop weer goed dichtzit.</li>
 </ul>
 
 <h2>Oorzaak 6: de kamer is te groot (te weinig BTU)</h2>
-<p>Draait het apparaat prima maar koelt de kamer niet genoeg, dan ontbreekt waarschijnlijk vermogen. Het koelvermogen wordt gemeten in BTU per uur. Een klein apparaat in een grote woonkamer kan op volle kracht draaien zonder ooit de ingestelde temperatuur te halen, net als een kleine, volgeladen auto die een helling nauwelijks haalt.</p>
-<p>Dit is een belangrijk punt bij aankoop en een veelvoorkomende bron van teleurstelling: veel mensen kiezen het model op prijs en zitten met een apparaat dat te klein is voor hun woonkamer. De BTU goed dimensioneren is wat een apparaat dat echt koelt onderscheidt van een dat alleen lawaai maakt.</p>
-<h3>Hoeveel BTU per oppervlakte</h3>
+<p>Draait het apparaat zonder problemen maar wordt de kamer niet koel genoeg, dan heeft het waarschijnlijk te weinig vermogen. Het koelvermogen wordt uitgedrukt in BTU per uur. Een klein apparaat in een grote woonkamer kan voluit draaien zonder ooit de ingestelde temperatuur te halen, net zoals een kleine, volgeladen auto moeite heeft met een steile helling.</p>
+<p>Dit is een belangrijk aandachtspunt bij de aankoop en een veelvoorkomende bron van teleurstelling: veel mensen kiezen op prijs en zitten dan met een apparaat dat te krap is voor hun woonkamer. Met het juiste aantal BTU heb je een apparaat dat echt koelt, in plaats van een apparaat dat vooral lawaai maakt.</p>
+<h3>Hoeveel BTU heb je nodig per oppervlakte?</h3>
 <table>
 <thead>
-<tr><th>Kameroppervlakte</th><th>Aanbevolen BTU</th></tr>
+<tr><th>Oppervlakte van de kamer</th><th>Aanbevolen BTU</th></tr>
 </thead>
 <tbody>
-<tr><td>Tot 15 m2</td><td>7.000 - 9.000 BTU</td></tr>
-<tr><td>15 - 25 m2</td><td>9.000 - 12.000 BTU</td></tr>
-<tr><td>25 - 35 m2</td><td>12.000 - 14.000 BTU</td></tr>
-<tr><td>35 - 45 m2</td><td>14.000 - 18.000 BTU</td></tr>
+<tr><td>Tot 15 m²</td><td>7.000–9.000 BTU</td></tr>
+<tr><td>15–25 m²</td><td>9.000–12.000 BTU</td></tr>
+<tr><td>25–35 m²</td><td>12.000–14.000 BTU</td></tr>
+<tr><td>35–45 m²</td><td>14.000–18.000 BTU</td></tr>
 </tbody>
 </table>
-<p>Richtwaarden voor een standaardkamer. Veel zon, zolderkamer, hoge plafonds of veel apparaten: ga een stap hoger. Een te klein apparaat haalt de instelwaarde nooit en verbruikt meer. Om vermogen en verbruik te vergelijken, zie onze <a href="/nl/blog/climatiseur-mobile-vs-ventilateur">vergelijking per kamergrootte</a>.</p>
+<p>Dit zijn richtwaarden voor een gemiddelde kamer. Veel zon, een zolderkamer, hoge plafonds of veel apparaten in de ruimte? Kies dan een klasse hoger. Een te krap apparaat haalt de ingestelde temperatuur nooit en verbruikt juist meer. Wil je vermogen en verbruik vergelijken, bekijk dan onze <a href="/nl/blog/climatiseur-mobile-vs-ventilateur">vergelijking per kamergrootte</a>.</p>
 
-<h2>Oorzaak 7: extreme buitentemperatuur</h2>
-<p>Tijdens een hittegolf, met 40 graden buiten, verliest zelfs een goed gedimensioneerd apparaat prestatie: het moet warmte afgeven aan al zeer warme lucht. Dit is geen storing, maar een fysieke grens.</p>
+<h2>Oorzaak 7: extreme buitentemperaturen</h2>
+<p>Tijdens een hittegolf, met 40 graden buiten, presteert zelfs een goed gekozen apparaat minder: het moet zijn warmte kwijt in lucht die al erg heet is. Dat is geen storing, maar een natuurkundige grens.</p>
 <ul>
-<li>Sluit rolluiken en gordijnen tijdens de heetste uren.</li>
-<li>Zet het apparaat aan voordat de kamer een oven wordt.</li>
-<li>Jaag niet op 18 graden: een realistisch verschil van 5 tot 8 graden met buiten geeft al veel comfort.</li>
+<li>Sluit rolluiken en gordijnen tijdens de warmste uren.</li>
+<li>Zet de airco aan voordat de kamer een oven wordt.</li>
+<li>Mik niet koste wat kost op 18 graden: een realistisch verschil van 5 tot 8 graden met buiten voelt al veel aangenamer.</li>
 </ul>
 
-<h2>Oorzaak 8: mogelijk koelgaslek</h2>
-<p>Als al het andere is uitgesloten en het apparaat vroeger goed koelde maar nu nauwelijks, kan er een koelgaslek zijn. Zonder de juiste gasvulling draait de compressor wel maar verplaatst geen warmte meer.</p>
-<p>Wees voorzichtig: koelgas staat onder druk en de behandeling ervan is wettelijk geregeld. Probeer het nooit zelf bij te vullen of het circuit te openen. Dit moet altijd door een in gefluoreerde gassen gecertificeerde technicus gebeuren. Een koelcircuit zonder opleiding behandelen is niet alleen illegaal, maar kan koudeverbrandingen veroorzaken en de compressor onherstelbaar beschadigen.</p>
-<p>Onthoud dat een lek niet normaal is bij een nieuw, goed gebruikt apparaat. Is het jouwe een paar maanden oud en lijkt het al gas te verliezen, claim dan de garantie bij de verkoper in plaats van zelf iets te openen.</p>
+<h2>Oorzaak 8: mogelijk een lek in het koelcircuit</h2>
+<p>Heb je al het andere uitgesloten en koelde het apparaat vroeger goed maar nu nauwelijks nog, dan kan er koelmiddel weglekken. Zonder de juiste hoeveelheid koelmiddel draait de compressor wel, maar voert hij geen warmte meer af.</p>
+<p>Wees voorzichtig: het koelmiddel staat onder druk en er gelden wettelijke regels voor het werken ermee. Probeer het nooit zelf bij te vullen en open het koelcircuit niet. Laat dat altijd over aan een technicus die gecertificeerd is voor het werken met koelmiddelen (F-gassen). Wie zonder opleiding aan een koelcircuit sleutelt, overtreedt niet alleen de regels, maar riskeert ook bevriezingsletsel en onherstelbare schade aan de compressor.</p>
+<p>Een lek is niet normaal bij een nieuw apparaat dat goed wordt gebruikt. Is jouw airco een paar maanden oud en lijkt hij nu al koelmiddel te verliezen, doe dan een beroep op de garantie bij de verkoper in plaats van zelf iets open te maken.</p>
 
-<h2>Wanneer de servicedienst bellen</h2>
-<p>Je hebt stand, slang, afdichting, filter en bak gecontroleerd, het apparaat is goed gedimensioneerd en het koelt nog steeds niet. Neem dan contact op met de servicedienst, vooral als je merkt:</p>
+<h2>Wanneer schakel je de servicedienst in?</h2>
+<p>Je hebt de stand, de slang, de afdichting, het filter en de waterbak gecontroleerd, het apparaat heeft genoeg vermogen en het koelt nog steeds niet. Neem dan contact op met de servicedienst, zeker als je een van deze signalen opmerkt:</p>
 <ul>
-<li>Brandlucht, vonken of een doorgeslagen stop.</li>
-<li>Abnormale metalen compressorgeluiden.</li>
-<li>Foutcodes die de handleiding niet oplost.</li>
-<li>Vermoeden van een gaslek (geleidelijk prestatieverlies).</li>
+<li>Een brandlucht, vonken of een zekering of aardlekschakelaar die eruit springt.</li>
+<li>Afwijkende, metalige geluiden uit de compressor.</li>
+<li>Foutcodes die je met de handleiding niet opgelost krijgt.</li>
+<li>Een vermoeden van een lek in het koelcircuit (de prestaties nemen geleidelijk af).</li>
 </ul>
-<p>Open het apparaat niet als het in garantie is. Voor comfort het hele jaar door, zie ook onze <a href="/nl/blog/deshumidificateur-connecte-guide">gids voor verbonden ontvochtigers</a>.</p>
+<p>Valt het apparaat nog onder de garantie, open het dan niet. Wil je ook de rest van het jaar een prettig binnenklimaat, lees dan onze <a href="/nl/blog/deshumidificateur-connecte-guide">gids over slimme luchtontvochtigers</a>.</p>
 
-<h2>Goede gewoonten om elke zomer beter te koelen</h2>
-<p>Naast de eenmalige diagnose zorgen een paar eenvoudige gewoonten ervoor dat je mobiele airco optimaal presteert en langer meegaat. Het idee is hem te helpen niet vanuit een al oververhitte kamer te starten en zonder obstakels te ademen.</p>
+<h2>Goede gewoonten voor een koelere zomer</h2>
+<p>Naast een eenmalige diagnose helpen een paar eenvoudige gewoonten om je mobiele airco optimaal te laten presteren en langer mee te laten gaan. Het idee: laat hem niet starten in een kamer die al oververhit is, en zorg dat hij vrij lucht kan aanzuigen en uitblazen.</p>
 <ul>
-<li>Zet hem op warme dagen op tijd aan, in plaats van te wachten tot de kamer een oven is.</li>
-<li>Houd de in- en uitlaatroosters vrij: zet het apparaat niet tegen de muur en dek het niet af.</li>
-<li>Reinig het filter regelmatig en berg het aan het einde van het seizoen schoon en droog op om geuren volgende zomer te voorkomen.</li>
-<li>Combineer de airco met goede warmtewering: zonneschermen, neergelaten rolluiken en nachtventilatie als het afkoelt.</li>
-<li>Combineer hem indien nodig met een ventilator om de koele lucht beter door de kamer te verspreiden zonder het verbruik te verhogen.</li>
+<li>Zet hem op dagen waarop hitte is voorspeld op tijd aan, in plaats van te wachten tot de kamer een oven is.</li>
+<li>Houd de roosters voor luchtaanvoer en -afvoer vrij: zet het apparaat niet tegen de muur en dek het niet af.</li>
+<li>Maak het filter regelmatig schoon en berg het apparaat aan het eind van het seizoen schoon en droog op, zodat het de volgende zomer niet muf ruikt.</li>
+<li>Combineer de airco met goede bescherming tegen de warmte: zonwering, neergelaten rolluiken en ’s nachts luchten zodra het buiten koeler is.</li>
+<li>Zet er zo nodig een ventilator bij om de koele lucht beter door de kamer te verspreiden, zonder dat het verbruik merkbaar stijgt.</li>
 </ul>
-<p>Met deze gewoonten werkt het apparaat minder voor hetzelfde comfort, wat zowel in de temperatuur als in de rekening te merken is.</p>
+<p>Met deze gewoonten hoeft het apparaat minder hard te werken voor hetzelfde comfort. Dat merk je aan de temperatuur én aan je energierekening.</p>
 
 <h2>Conclusie</h2>
-<p>Een mobiele airco die niet koelt is zelden afgeschreven. Controleer in volgorde de stand, afvoerslang, afdichting, filter en condensbak, en zorg dat de BTU bij de oppervlakte passen. Deze stappen lossen de overgrote meerderheid van de gevallen op. Pas daarna worden een gaslek en een gecertificeerde technicus relevant.</p>`,
+<p>Een mobiele airco die niet koelt, is zelden rijp voor de schroothoop. Controleer achtereenvolgens de stand, de afvoerslang, de afdichting, het filter en de condenswaterbak, en ga na of het aantal BTU past bij de oppervlakte. Daarmee los je verreweg de meeste problemen op. Pas als dat niets oplevert, komt een lek in het koelcircuit in beeld en heb je een gecertificeerde koeltechnicus nodig.</p>`,
     pl: `<h2>Klimatyzator przenośny nie chłodzi: od czego zacząć</h2>
 <p>To jedna z najbardziej irytujących letnich usterek: podłączasz urządzenie, ustawiasz 18 stopni, zostawiasz je włączone na kilka godzin, a w pokoju wciąż jest tak samo gorąco. Na szczęście, gdy klimatyzator przenośny nie chłodzi, w zdecydowanej większości przypadków nie chodzi o poważną awarię, tylko o błąd w montażu, konserwacji albo doborze mocy, który zwykle możesz usunąć samodzielnie w kilka minut.</p>
 <p>Zanim zadzwonisz do serwisu albo kupisz nowe urządzenie, warto metodycznie poszukać przyczyny. W tym poradniku omawiamy rzeczywiste źródła problemu – od najczęstszego po najpoważniejsze – i podajemy konkretne rozwiązania krok po kroku. Jeśli wciąż nie wiesz, jakie urządzenie najlepiej sprawdzi się u Ciebie, zajrzyj do naszego <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">porównania: klimatyzator przenośny czy wentylator</a>.</p>
@@ -1281,7 +1273,7 @@ export const article: BlogArticle = {
         en: 'Why is my portable air conditioner not cooling?',
         de: 'Warum kühlt meine mobile Klimaanlage nicht?',
         es: '¿Por qué mi aire acondicionado portátil no enfría?',
-        it: 'Perché il mio climatizzatore portatile non raffredda?',
+        it: 'Perché il mio condizionatore portatile non raffredda?',
         nl: 'Waarom koelt mijn mobiele airco niet?',
         pl: 'Dlaczego mój klimatyzator przenośny nie chłodzi?',
         sv: 'Varför kyler inte min portabla AC?',
@@ -1290,11 +1282,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Dans la plupart des cas, c\'est un problème simple : appareil en mode ventilateur au lieu de froid, tuyau d\'évacuation plié ou mal sorti par la fenêtre, filtre encrassé ou bac à condensats plein. Vérifiez ces points dans cet ordre. Si l\'appareil tourne mais que la pièce reste chaude, il manque peut-être des BTU pour la surface.',
-        en: 'In most cases it is something simple: the unit is in fan mode instead of cooling, the exhaust hose is kinked or not properly routed out the window, the filter is clogged, or the condensate tank is full. Check these in that order. If the unit runs but the room stays hot, it may lack BTU for the area.',
-        de: 'Meist ist es etwas Einfaches: das Gerät ist im Ventilatormodus statt Kühlen, der Abluftschlauch ist geknickt oder nicht richtig nach draußen geführt, der Filter ist verstopft oder der Kondensatbehälter ist voll. Prüfen Sie das in dieser Reihenfolge. Läuft das Gerät, bleibt der Raum aber warm, fehlen vielleicht BTU.',
-        es: 'En la mayoría de los casos es algo sencillo: el equipo está en modo ventilador en vez de frío, el tubo de evacuación está doblado o mal sacado por la ventana, el filtro está sucio o el depósito de condensación está lleno. Revisa estos puntos en ese orden. Si el aparato funciona pero la habitación sigue caliente, puede faltarle BTU para la superficie.',
-        it: 'Nella maggior parte dei casi è qualcosa di semplice: l\'apparecchio è in modalità ventilatore invece che freddo, il tubo di scarico è piegato o mal portato fuori dalla finestra, il filtro è sporco o il serbatoio di condensa è pieno. Controlla questi punti in quest\'ordine. Se funziona ma la stanza resta calda, potrebbero mancare BTU.',
-        nl: 'Meestal is het iets eenvoudigs: het apparaat staat in de ventilatorstand in plaats van koelen, de afvoerslang is geknikt of niet goed naar buiten geleid, het filter is vervuild of de condensbak is vol. Controleer deze punten in die volgorde. Draait het apparaat maar blijft de kamer warm, dan ontbreken mogelijk BTU.',
+        en: 'In most cases it\'s something simple: the unit is in fan mode instead of Cool, the exhaust hose is kinked or not properly run out of the window, the filter is clogged or the condensate tank is full. Check these in that order. If the unit runs but the room stays hot, it may not have enough BTU for the size of the room.',
+        de: 'Meist ist es etwas Einfaches: Das Gerät läuft im Ventilatormodus statt im Kühlmodus, der Abluftschlauch ist geknickt oder nicht richtig nach draußen geführt, der Filter ist verschmutzt oder der Kondensatbehälter ist voll. Prüfen Sie diese Punkte in genau dieser Reihenfolge. Läuft das Gerät, bleibt der Raum aber warm, ist es für die Raumgröße vielleicht zu schwach (zu wenig BTU).',
+        es: 'En la mayoría de los casos es algo sencillo: el aparato está en modo ventilador en lugar de frío, el tubo de evacuación está doblado o mal sacado por la ventana, el filtro está sucio o el depósito de condensados está lleno. Revisa estos puntos en ese orden. Si el aparato funciona pero la habitación sigue caliente, puede que le falten BTU para su superficie.',
+        it: 'Nella maggior parte dei casi il problema è banale: l\'apparecchio è in modalità ventilatore invece che in raffreddamento, il tubo di scarico è piegato o non esce bene dalla finestra, il filtro è sporco o il serbatoio della condensa è pieno. Controlla questi punti in quest\'ordine. Se l\'apparecchio funziona ma la stanza resta calda, forse non ha abbastanza BTU per quella superficie.',
+        nl: 'Meestal is het iets simpels: het apparaat staat in de ventilatorstand in plaats van op koelen, de afvoerslang is geknikt of niet goed door het raam naar buiten geleid, het filter is vuil of de condenswaterbak is vol. Controleer deze punten in die volgorde. Draait het apparaat wel, maar blijft de kamer warm? Dan heeft het misschien te weinig BTU voor de oppervlakte.',
         pl: 'Zwykle przyczyna jest prosta: urządzenie pracuje w trybie wentylatora zamiast chłodzenia, wąż odprowadzający jest zagięty lub źle wyprowadzony przez okno, filtr jest zabrudzony albo zbiornik na skropliny jest pełny. Sprawdź te elementy w tej kolejności. Jeśli urządzenie pracuje, a w pokoju nadal jest gorąco, jego moc w BTU może być za mała w stosunku do powierzchni.',
         sv: 'Oftast är det något enkelt: apparaten står i fläktläge i stället för kylläge, utblåsslangen är vikt eller inte ordentligt dragen ut genom fönstret, filtret är igensatt eller vattentanken är full. Kontrollera punkterna i den ordningen. Går apparaten men rummet ändå är varmt kan kyleffekten (BTU) vara för låg för ytan.',
         us: 'Most of the time it\'s something simple: the unit is in Fan mode instead of Cool, the exhaust hose is kinked or not routed properly out the window, the filter is clogged, or the condensate tank is full. Check them in that order. If the unit runs but the room stays hot, it may not have enough BTU for the room size.',
@@ -1316,11 +1308,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Comptez environ 7 000 à 9 000 BTU jusqu\'à 15 m2, 9 000 à 12 000 BTU pour 15 à 25 m2, 12 000 à 14 000 BTU pour 25 à 35 m2 et 14 000 à 18 000 BTU pour 35 à 45 m2. Ce sont des repères pour une pièce standard ; montez d\'un cran si la pièce est très ensoleillée, sous les combles ou avec des plafonds hauts.',
-        en: 'Roughly 7,000 to 9,000 BTU up to 15 m2, 9,000 to 12,000 BTU for 15 to 25 m2, 12,000 to 14,000 BTU for 25 to 35 m2 and 14,000 to 18,000 BTU for 35 to 45 m2. These are guidelines for a standard room; step up a tier if the room is very sunny, top-floor or has high ceilings.',
-        de: 'Etwa 7.000 bis 9.000 BTU bis 15 m2, 9.000 bis 12.000 BTU für 15 bis 25 m2, 12.000 bis 14.000 BTU für 25 bis 35 m2 und 14.000 bis 18.000 BTU für 35 bis 45 m2. Richtwerte für einen Standardraum; eine Stufe höher bei viel Sonne, Dachgeschoss oder hohen Decken.',
-        es: 'Calcula unos 7.000 a 9.000 BTU hasta 15 m2, 9.000 a 12.000 BTU para 15 a 25 m2, 12.000 a 14.000 BTU para 25 a 35 m2 y 14.000 a 18.000 BTU para 35 a 45 m2. Son orientativos para una habitación estándar; sube un tramo si recibe mucho sol, está bajo cubierta o tiene techos altos.',
-        it: 'Calcola circa 7.000 a 9.000 BTU fino a 15 m2, 9.000 a 12.000 BTU per 15-25 m2, 12.000 a 14.000 BTU per 25-35 m2 e 14.000 a 18.000 BTU per 35-45 m2. Sono indicativi per una stanza standard; sali di un livello se è molto soleggiata, in sottotetto o con soffitti alti.',
-        nl: 'Reken op ongeveer 7.000 tot 9.000 BTU tot 15 m2, 9.000 tot 12.000 BTU voor 15 tot 25 m2, 12.000 tot 14.000 BTU voor 25 tot 35 m2 en 14.000 tot 18.000 BTU voor 35 tot 45 m2. Dit zijn richtlijnen voor een standaardkamer; ga een stap hoger bij veel zon, een zolderkamer of hoge plafonds.',
+        en: 'As a rough guide: 7,000 to 9,000 BTU for up to 15 m², 9,000 to 12,000 BTU for 15 to 25 m², 12,000 to 14,000 BTU for 25 to 35 m² and 14,000 to 18,000 BTU for 35 to 45 m². These figures are for a typical room; go up a size if the room gets a lot of sun, is in the loft or has high ceilings.',
+        de: 'Als Richtwert gelten etwa 7.000 bis 9.000 BTU bis 15 m², 9.000 bis 12.000 BTU für 15 bis 25 m², 12.000 bis 14.000 BTU für 25 bis 35 m² und 14.000 bis 18.000 BTU für 35 bis 45 m². Das gilt für einen durchschnittlichen Raum. Ist er sehr sonnig, liegt er unter dem Dach oder hat er hohe Decken, wählen Sie eine Stufe mehr.',
+        es: 'Calcula de 7.000 a 9.000 BTU hasta 15 m², de 9.000 a 12.000 BTU de 15 a 25 m², de 12.000 a 14.000 BTU de 25 a 35 m² y de 14.000 a 18.000 BTU de 35 a 45 m². Son valores orientativos para una habitación normal; sube un escalón si le da mucho el sol, está bajo cubierta o tiene techos altos.',
+        it: 'Indicativamente servono 7.000-9.000 BTU fino a 15 m², 9.000-12.000 BTU per 15-25 m², 12.000-14.000 BTU per 25-35 m² e 14.000-18.000 BTU per 35-45 m². Sono valori di riferimento per una stanza standard: scegli la fascia superiore se la stanza è molto soleggiata, in mansarda o con soffitti alti.',
+        nl: 'Reken op ongeveer 7.000 tot 9.000 BTU tot 15 m², 9.000 tot 12.000 BTU voor 15 tot 25 m², 12.000 tot 14.000 BTU voor 25 tot 35 m² en 14.000 tot 18.000 BTU voor 35 tot 45 m². Dit zijn richtwaarden voor een gemiddelde kamer. Kies een klasse hoger als de kamer veel zon krijgt, onder het dak ligt of hoge plafonds heeft.',
         pl: 'Przyjmij około 7000–9000 BTU do 15 m², 9000–12 000 BTU na 15–25 m², 12 000–14 000 BTU na 25–35 m² i 14 000–18 000 BTU na 35–45 m². To orientacyjne wartości dla typowego pomieszczenia. Jeśli pokój jest mocno nasłoneczniony, znajduje się na poddaszu albo ma wysoki sufit, wybierz model o klasę mocniejszy.',
         sv: 'Räkna med ungefär 7 000–9 000 BTU upp till 15 m², 9 000–12 000 BTU för 15–25 m², 12 000–14 000 BTU för 25–35 m² och 14 000–18 000 BTU för 35–45 m². Det är riktmärken för ett normalt rum. Gå upp ett steg om rummet är mycket soligt, är ett vindsrum eller har högt i tak.',
         us: 'Roughly 7,000 to 9,000 BTU for up to 160 sq ft (15 m²), 9,000 to 12,000 BTU for 160 to 270 sq ft, 12,000 to 14,000 BTU for 270 to 375 sq ft, and 14,000 to 18,000 BTU for 375 to 485 sq ft. These are guidelines for a typical room; size up if the room gets a lot of sun, is on the top floor or has high ceilings.',
@@ -1330,7 +1322,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Le tuyau d\'évacuation peut-il être la cause du problème ?',
-        en: 'Could the exhaust hose be the cause of the problem?',
+        en: 'Could the exhaust hose be causing the problem?',
         de: 'Kann der Abluftschlauch die Ursache sein?',
         es: '¿Puede ser el tubo de evacuación la causa del problema?',
         it: 'Il tubo di scarico può essere la causa del problema?',
@@ -1342,11 +1334,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Oui, c\'est la cause la plus fréquente. Si le tuyau est plié, trop long, ou s\'il ne sort pas vraiment l\'air chaud par la fenêtre, cet air revient dans la pièce et annule le refroidissement. Gardez le tuyau court, droit et bien dirigé vers l\'extérieur, et calfeutrez bien la fenêtre autour.',
-        en: 'Yes, it is the most common cause. If the hose is kinked, too long, or does not really route hot air out the window, that air returns to the room and cancels the cooling. Keep the hose short, straight and pointed outside, and seal the window well around it.',
-        de: 'Ja, es ist die häufigste Ursache. Ist der Schlauch geknickt, zu lang oder führt die warme Luft nicht wirklich nach draußen, kommt diese Luft zurück und hebt die Kühlung auf. Halten Sie den Schlauch kurz, gerade und nach außen gerichtet und dichten Sie das Fenster gut ab.',
-        es: 'Sí, es la causa más frecuente. Si el tubo está doblado, es demasiado largo o no saca de verdad el aire caliente por la ventana, ese aire vuelve a la habitación y anula el enfriamiento. Mantén el tubo corto, recto y bien dirigido al exterior, y sella bien la ventana alrededor.',
-        it: 'Sì, è la causa più frequente. Se il tubo è piegato, troppo lungo o non porta davvero l\'aria calda fuori dalla finestra, quell\'aria rientra nella stanza e annulla il raffreddamento. Tieni il tubo corto, dritto e ben diretto all\'esterno, e sigilla bene la finestra attorno.',
-        nl: 'Ja, het is de meest voorkomende oorzaak. Als de slang geknikt is, te lang, of de warme lucht niet echt naar buiten leidt, komt die lucht terug de kamer in en heft het koelen op. Houd de slang kort, recht en naar buiten gericht, en dicht het raam er goed omheen af.',
+        en: 'Yes, it\'s the most common cause. If the hose is kinked or too long, or doesn\'t actually send the hot air out of the window, that air comes back into the room and cancels out the cooling. Keep the hose short and straight, point it outside and seal the window properly around it.',
+        de: 'Ja, das ist sogar die häufigste Ursache. Ist der Schlauch geknickt oder zu lang oder gelangt die warme Luft nicht wirklich nach draußen, strömt sie in den Raum zurück und macht die Kühlung zunichte. Verlegen Sie den Schlauch kurz und gerade nach draußen und dichten Sie das Fenster rundherum gut ab.',
+        es: 'Sí, es la causa más frecuente. Si el tubo está doblado, es demasiado largo o no saca de verdad el aire caliente por la ventana, ese aire vuelve a la habitación y anula el enfriamiento. Mantén el tubo corto, recto y bien dirigido hacia el exterior, y sella bien el hueco de la ventana a su alrededor.',
+        it: 'Sì, è la causa più frequente. Se il tubo è piegato, troppo lungo o non porta davvero l\'aria calda fuori dalla finestra, quell\'aria rientra nella stanza e annulla il raffreddamento. Tieni il tubo corto, dritto e rivolto verso l\'esterno, e sigilla bene la finestra tutto intorno.',
+        nl: 'Ja, dat is de meest voorkomende oorzaak. Is de slang geknikt of te lang, of komt de warme lucht niet echt buiten terecht, dan stroomt die lucht terug de kamer in en gaat het koeleffect verloren. Houd de slang kort en recht, laat hem goed naar buiten wijzen en dicht de ruimte eromheen zorgvuldig af.',
         pl: 'Tak, to najczęstsza przyczyna. Jeśli wąż jest zagięty, za długi albo gorące powietrze nie wychodzi nim faktycznie na zewnątrz, wraca do pokoju i niweczy chłodzenie. Wąż powinien być krótki, prosty i poprowadzony bezpośrednio na zewnątrz, a okno wokół niego – dokładnie uszczelnione.',
         sv: 'Ja, det är den vanligaste orsaken. Om slangen är vikt, för lång eller inte verkligen leder ut den varma luften genom fönstret strömmar luften tillbaka in i rummet och äter upp kyleffekten. Håll slangen kort och rak, rikta den ordentligt utåt och täta fönstret väl runt den.',
         us: 'Yes, it\'s the most common cause. If the hose is kinked, too long or doesn\'t actually send the hot air out the window, that air comes back into the room and cancels out the cooling. Keep the hose short, straight and pointed outside, and seal the window well around it.',
@@ -1360,7 +1352,7 @@ export const article: BlogArticle = {
         de: 'Wie oft sollte ich den Filter reinigen?',
         es: '¿Con qué frecuencia hay que limpiar el filtro?',
         it: 'Ogni quanto va pulito il filtro?',
-        nl: 'Hoe vaak moet ik het filter reinigen?',
+        nl: 'Hoe vaak moet ik het filter schoonmaken?',
         pl: 'Jak często czyścić filtr?',
         sv: 'Hur ofta ska jag rengöra filtret?',
         us: 'How often should I clean the filter?',
@@ -1368,11 +1360,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'En pleine saison d\'utilisation, nettoyez le filtre toutes les deux à trois semaines. Un filtre encrassé réduit le débit d\'air et donc la capacité de refroidissement. Lavez-le à l\'eau tiède avec un savon doux ou aspirez la poussière, puis laissez-le sécher complètement avant de le remettre pour éviter moisissures et odeurs.',
-        en: 'During peak use, clean the filter every two to three weeks. A clogged filter reduces airflow and therefore cooling capacity. Wash it with lukewarm water and mild soap or vacuum the dust, then let it dry completely before refitting to avoid mould and odours.',
-        de: 'In der Hauptsaison alle zwei bis drei Wochen reinigen. Ein verstopfter Filter senkt den Luftstrom und damit die Kühlleistung. Mit lauwarmem Wasser und milder Seife waschen oder Staub absaugen, dann vollständig trocknen lassen, um Schimmel und Gerüche zu vermeiden.',
-        es: 'En plena temporada de uso, limpia el filtro cada dos o tres semanas. Un filtro sucio reduce el caudal de aire y por tanto la capacidad de enfriar. Lávalo con agua tibia y jabón neutro o aspira el polvo, y déjalo secar del todo antes de colocarlo para evitar moho y olores.',
+        en: 'In the hot season, clean the filter every two to three weeks. A clogged filter reduces airflow and therefore cooling capacity. Wash it in lukewarm water with mild soap or vacuum off the dust, then let it dry completely before putting it back, to prevent mould and smells.',
+        de: 'In der Hauptsaison alle zwei bis drei Wochen. Ein verschmutzter Filter verringert den Luftstrom und damit die Kühlleistung. Waschen Sie ihn mit lauwarmem Wasser und milder Seife oder saugen Sie den Staub ab. Lassen Sie ihn anschließend vollständig trocknen, bevor Sie ihn wieder einsetzen, damit sich weder Schimmel noch Gerüche bilden.',
+        es: 'En plena temporada, limpia el filtro cada dos o tres semanas. Un filtro sucio reduce el caudal de aire y, con él, la capacidad de enfriar. Lávalo con agua tibia y jabón neutro o aspira el polvo, y déjalo secar del todo antes de volver a ponerlo para evitar moho y malos olores.',
         it: 'In piena stagione, pulisci il filtro ogni due o tre settimane. Un filtro sporco riduce il flusso d\'aria e quindi la capacità di raffreddare. Lavalo con acqua tiepida e sapone neutro o aspira la polvere, poi lascialo asciugare del tutto prima di rimetterlo per evitare muffe e odori.',
-        nl: 'In het hoogseizoen het filter om de twee à drie weken reinigen. Een vervuild filter vermindert de luchtstroom en dus de koelcapaciteit. Was het met lauw water en milde zeep of zuig het stof op, en laat het volledig drogen voor terugplaatsing om schimmel en geuren te voorkomen.',
+        nl: 'Maak het filter in het hoogseizoen om de twee tot drie weken schoon. Een vuil filter vermindert de luchtstroom en dus het koelvermogen. Was het met lauw water en milde zeep of zuig het stof eraf. Laat het daarna helemaal drogen voordat je het terugplaatst, zo voorkom je schimmel en nare geurtjes.',
         pl: 'W szczycie sezonu czyść filtr co 2–3 tygodnie. Zabrudzony filtr ogranicza przepływ powietrza, a przez to wydajność chłodzenia. Umyj go w letniej wodzie z delikatnym mydłem albo odkurz, a przed włożeniem z powrotem pozwól mu całkowicie wyschnąć – w ten sposób unikniesz pleśni i nieprzyjemnych zapachów.',
         sv: 'Under högsäsong bör du rengöra filtret varannan till var tredje vecka. Ett igensatt filter minskar luftflödet och därmed kylförmågan. Skölj det i ljummet vatten med lite milt rengöringsmedel eller dammsug bort dammet, och låt det torka helt innan du sätter tillbaka det, så slipper du mögel och dålig lukt.',
         us: 'During peak season, clean the filter every two to three weeks. A clogged filter reduces airflow and, with it, cooling capacity. Wash it in lukewarm water with mild soap or vacuum off the dust, then let it dry completely before putting it back to prevent mold and odors.',
@@ -1382,11 +1374,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Quand dois-je appeler un technicien plutôt que de bricoler ?',
-        en: 'When should I call a technician instead of fixing it myself?',
-        de: 'Wann sollte ich einen Techniker rufen statt selbst zu basteln?',
-        es: '¿Cuándo debo llamar a un técnico en lugar de arreglarlo yo?',
-        it: 'Quando devo chiamare un tecnico invece di arrangiarmi?',
-        nl: 'Wanneer moet ik een technicus bellen in plaats van het zelf te doen?',
+        en: 'When should I call an engineer rather than try to fix it myself?',
+        de: 'Wann sollte ich eine Fachkraft rufen, statt selbst zu basteln?',
+        es: '¿Cuándo debo llamar a un técnico en vez de intentar arreglarlo yo?',
+        it: 'Quando devo chiamare un tecnico invece di fare da me?',
+        nl: 'Wanneer bel ik een technicus in plaats van zelf te klussen?',
         pl: 'Kiedy wezwać technika, zamiast naprawiać na własną rękę?',
         sv: 'När ska jag ringa en tekniker i stället för att fixa det själv?',
         us: 'When should I call a technician instead of fixing it myself?',
@@ -1394,11 +1386,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Faites appel à un technicien certifié si vous suspectez une fuite de gaz réfrigérant (refroidissement qui baisse progressivement), en cas d\'odeur de brûlé, d\'étincelles, de bruits anormaux ou de codes d\'erreur non résolus. Ne tentez jamais de recharger le gaz vous-même : il est sous pression et sa manipulation est réglementée. Si l\'appareil est sous garantie, ne l\'ouvrez pas.',
-        en: 'Call a certified technician if you suspect a refrigerant gas leak (cooling that drops progressively), or in case of a burning smell, sparks, abnormal noises or unresolved error codes. Never try to recharge the gas yourself: it is pressurised and its handling is regulated. If the unit is under warranty, do not open it.',
-        de: 'Rufen Sie einen zertifizierten Techniker bei Verdacht auf ein Kältemittel-Leck (allmählich nachlassende Kühlung), bei Brandgeruch, Funken, ungewöhnlichen Geräuschen oder ungelösten Fehlercodes. Versuchen Sie nie, das Gas selbst nachzufüllen: es steht unter Druck und ist reguliert. Bei Garantie das Gerät nicht öffnen.',
-        es: 'Llama a un técnico certificado si sospechas una fuga de gas refrigerante (enfriamiento que baja poco a poco), o si hay olor a quemado, chispas, ruidos anormales o códigos de error que no se resuelven. No intentes recargar el gas tú mismo: está a presión y su manipulación está regulada. Si el equipo está en garantía, no lo abras.',
-        it: 'Chiama un tecnico certificato se sospetti una perdita di gas refrigerante (raffreddamento che cala gradualmente), o in caso di odore di bruciato, scintille, rumori anomali o codici di errore irrisolti. Non provare mai a ricaricare il gas da solo: è sotto pressione e la sua manipolazione è regolamentata. Se in garanzia, non aprire l\'apparecchio.',
-        nl: 'Bel een gecertificeerde technicus bij vermoeden van een koelgaslek (koeling die geleidelijk afneemt), of bij brandlucht, vonken, abnormale geluiden of onopgeloste foutcodes. Probeer het gas nooit zelf bij te vullen: het staat onder druk en de behandeling is gereguleerd. Open het apparaat niet als het in garantie is.',
+        en: 'Call a certified engineer if you suspect a refrigerant leak (cooling that gets gradually weaker), or if you notice a burning smell, sparks, unusual noises or error codes you can\'t clear. Never try to top up the refrigerant yourself: it\'s under pressure and handling it is regulated. If the unit is under warranty, don\'t open it.',
+        de: 'Rufen Sie eine zertifizierte Fachkraft, wenn Sie einen Kältemittelverlust vermuten (die Kühlung lässt allmählich nach), außerdem bei Brandgeruch, Funken, ungewöhnlichen Geräuschen oder Fehlercodes, die sich nicht beheben lassen. Füllen Sie Kältemittel nie selbst nach: Es steht unter Druck, und der Umgang damit ist gesetzlich geregelt. Solange das Gerät unter Garantie steht, öffnen Sie es nicht.',
+        es: 'Llama a un técnico certificado si sospechas que hay una fuga de gas refrigerante (enfría cada vez menos), si huele a quemado, si ves chispas, si oyes ruidos anormales o si aparecen códigos de error que el manual no resuelve. No intentes nunca recargar el gas tú mismo: está a presión y su manipulación está regulada. Si el aparato está en garantía, no lo abras.',
+        it: 'Chiama un tecnico certificato se sospetti una perdita di gas refrigerante (il raffreddamento cala a poco a poco), se senti odore di bruciato o rumori anomali, se vedi scintille o se compaiono codici di errore che non riesci a risolvere. Non provare mai a ricaricare il gas da solo: è sotto pressione e la sua manipolazione è regolamentata. Se l\'apparecchio è ancora in garanzia, non aprirlo.',
+        nl: 'Schakel een gecertificeerde koeltechnicus in als je een lek in het koelcircuit vermoedt (de koeling neemt geleidelijk af), en bij een brandlucht, vonken, vreemde geluiden of foutcodes die je niet opgelost krijgt. Probeer het koelmiddel nooit zelf bij te vullen: het staat onder druk en er gelden wettelijke regels voor. Valt het apparaat nog onder de garantie, open het dan niet.',
         pl: 'Wezwij technika z certyfikatem, jeśli podejrzewasz wyciek czynnika chłodniczego (chłodzenie stopniowo słabnie), czujesz zapach spalenizny, widzisz iskry, słyszysz nietypowe dźwięki albo pojawiają się kody błędów, których nie udaje się usunąć. Nigdy nie próbuj samodzielnie uzupełniać czynnika: jest pod ciśnieniem, a postępowanie z nim regulują przepisy. Jeśli urządzenie jest na gwarancji, nie otwieraj go.',
         sv: 'Anlita en certifierad tekniker om du misstänker att köldmedium läcker (kyleffekten blir gradvis sämre), eller om du märker lukt av bränt, gnistor, onormala ljud eller felkoder som inte går att lösa. Försök aldrig fylla på köldmedium själv: det står under tryck och hanteringen är reglerad. Öppna inte apparaten om den fortfarande har garanti.',
         us: 'Call a certified HVAC technician if you suspect a refrigerant leak (cooling that fades over time), or if you notice a burning smell, sparks, unusual noises or error codes you can\'t clear. Never try to recharge the refrigerant yourself: it\'s under pressure and handling it is regulated. If the unit is under warranty, don\'t open it.',

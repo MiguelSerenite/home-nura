@@ -39,8 +39,8 @@ export const CATEGORIES: Record<BlogArticle['category'], Record<string, string>>
     es: 'Análisis y opiniones', it: 'Recensioni', nl: 'Reviews', pl: 'Szczegółowe opinie', sv: 'Recensioner', us: 'Reviews', ca: 'Reviews',
   },
   guides: {
-    fr: 'Guides Pratiques', en: 'Practical Guides', de: 'Praktische Ratgeber',
-    es: 'Guías Prácticas', it: 'Guide Pratiche', nl: 'Praktische Gidsen', pl: 'Praktyczne poradniki', sv: 'Praktiska guider', us: 'How-To Guides', ca: 'Practical Guides',
+    fr: 'Guides Pratiques', en: 'How-To Guides', de: 'Praktische Ratgeber',
+    es: 'Guías prácticas', it: 'Guide pratiche', nl: 'Praktische Gidsen', pl: 'Praktyczne poradniki', sv: 'Praktiska guider', us: 'How-To Guides', ca: 'Practical Guides',
   },
   recettes: {
     fr: 'Recettes', en: 'Recipes', de: 'Rezepte',
@@ -52,6 +52,6 @@ export const CATEGORIES: Record<BlogArticle['category'], Record<string, string>>
   },
   culture: {
     fr: 'Culture & Tendances', en: 'Culture & Trends', de: 'Kultur & Trends',
-    es: 'Cultura y Tendencias', it: 'Cultura e Tendenze', nl: 'Cultuur & Trends', pl: 'Kultura i trendy', sv: 'Kultur & trender', us: 'Trends & Explainers', ca: 'Culture & Trends',
+    es: 'Cultura y tendencias', it: 'Cultura e tendenze', nl: 'Cultuur & Trends', pl: 'Kultura i trendy', sv: 'Kultur & trender', us: 'Trends & Explainers', ca: 'Culture & Trends',
   },
 }

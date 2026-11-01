@@ -17,7 +17,7 @@ export const article: BlogArticle = {
         de: 'Schwarze Heißluftfritteuse mit Timer und Temperaturregler, sparsamer im Stromverbrauch als der Backofen',
         es: 'Freidora de aire negra con temporizador y termostato, un aparato que consume menos energía que el horno',
         it: 'Friggitrice ad aria nera con timer e termostato, un apparecchio che consuma meno energia del forno',
-        nl: 'Zwarte airfryer met timer en temperatuurknop, een apparaat dat minder energie verbruikt dan de oven',
+        nl: 'Zwarte airfryer met timer en temperatuurknop, een apparaat dat zuiniger kookt dan de oven',
         pl: 'Czarna frytkownica beztłuszczowa z minutnikiem i termostatem – zużywa mniej prądu niż piekarnik',
         sv: 'Svart airfryer med timer och temperaturvred, en apparat som drar mindre el än ugnen',
         us: 'Black air fryer with timer and temperature dial, a cooking appliance that uses less energy than an oven',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Heißluftfritteuse : Stromverbrauch et Coût Réel en Électricité (2026)',
-    en: 'Air Fryer Power Consumption: Real Electricity Cost Explained (2026)',
-    de: 'Heißluftfritteuse Stromverbrauch: Was kostet sie wirklich? (2026)',
-    es: 'Consumo Eléctrico de la Freidora de Aire: el Coste Real (2026)',
-    it: 'Consumo Elettrico della Friggitrice ad Aria: il Costo Reale (2026)',
-    nl: 'Stroomverbruik van de Airfryer: de Echte Kosten Uitgelegd (2026)',
+    en: 'Air Fryer Electricity Use and Real Running Costs (2026)',
+    de: 'Airfryer Stromverbrauch: Was kostet er wirklich? (2026)',
+    es: '¿Cuánto consume una freidora de aire? kWh y coste real (2026)',
+    it: 'Quanto consuma una friggitrice ad aria? Il costo reale in bolletta (2026)',
+    nl: 'Airfryer stroomverbruik: wat kost een airfryer echt? (2026)',
     pl: 'Ile prądu zużywa frytkownica beztłuszczowa? Realny koszt (2026)',
     sv: 'Airfryerns elförbrukning: så mycket kostar den i el (2026)',
     us: 'How Much Electricity Does an Air Fryer Use? Real Cost (2026)',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Combien consomme vraiment une airfryer ? Calcul du Stromverbrauch en kWh, coût annuel avec un tarif d\'exemple de 0,35 €/kWh, comparaison vs four et friteuse, et modèles les plus économes.',
-    en: 'How much electricity does an air fryer really use? kWh per session, annual cost at an example rate of €0.35/kWh, comparison vs oven and deep fryer, and the most efficient models.',
-    de: 'Wie viel Strom verbraucht eine Heißluftfritteuse wirklich? kWh pro Nutzung, Stromkosten pro Jahr bei einem Beispieltarif von 0,35 €/kWh, Vergleich zum Backofen und zur Fritteuse sowie die sparsamsten Modelle.',
-    es: '¿Cuánta electricidad consume realmente una freidora de aire? kWh por uso, coste anual con una tarifa de ejemplo de 0,35 €/kWh, comparación vs horno y freidora, y los modelos más eficientes.',
-    it: 'Quanta elettricità consuma davvero una friggitrice ad aria? kWh per utilizzo, costo annuo con una tariffa di esempio di 0,35 €/kWh, confronto con forno e friggitrice e i modelli più efficienti.',
-    nl: 'Hoeveel stroom verbruikt een airfryer echt? kWh per keer, jaarlijkse kosten tegen een voorbeeldtarief van € 0,35/kWh, vergelijking met oven en frituur, en de zuinigste modellen.',
+    en: 'How much electricity does an air fryer really use? kWh per session, yearly cost at an example rate of €0.35/kWh, how it compares with an oven and a deep fat fryer, and the most efficient models.',
+    de: 'Wie viel Strom verbraucht ein Airfryer wirklich? kWh pro Durchgang, Kosten pro Jahr bei einem Beispieltarif von 0,35 €/kWh, Vergleich mit Backofen und Fritteuse und die sparsamsten Heißluftfritteusen.',
+    es: '¿Cuánto gasta de verdad una freidora de aire? kWh por uso, coste anual con un precio de ejemplo de 0,35 €/kWh, comparación con el horno y la freidora de aceite, y los modelos que menos consumen.',
+    it: 'Quanto consuma davvero una friggitrice ad aria? kWh per utilizzo, costo annuo con una tariffa di esempio di 0,35 €/kWh, confronto con forno e friggitrice tradizionale e i modelli che consumano meno.',
+    nl: 'Hoeveel stroom verbruikt een airfryer echt? Het verbruik in kWh per keer, de kosten per jaar bij een voorbeeldtarief van 0,35 euro per kWh, de vergelijking met oven en frituurpan, en de zuinigste modellen.',
     pl: 'Ile prądu naprawdę zużywa frytkownica beztłuszczowa? Wyliczamy zużycie w kWh i roczny koszt przy przykładowej stawce 1,50 zł/kWh, porównujemy ją z piekarnikiem i frytownicą oraz wskazujemy najoszczędniejsze modele.',
     sv: 'Hur mycket el drar en airfryer egentligen? Förbrukningen i kWh per omgång, årskostnaden med ett exempelpris på 3,85 kr/kWh, jämförelse med ugn och fritös samt de snålaste modellerna.',
     us: 'How much electricity does an air fryer really use? kWh per session, yearly cost at an example rate of 20 cents per kWh, how it compares with an oven and a deep fryer, and the most efficient models.',
@@ -292,52 +292,52 @@ export const article: BlogArticle = {
 <p>Même avec des tarifs élevés, l'airfryer reste l'un des modes de cuisson les plus économes pour les petites et moyennes portions : environ 0,3-0,5 kWh par utilisation et un coût annuel modéré (environ 22 € à raison de trois fois par semaine).</p>
 <p>Ne vous laissez pas effrayer par la puissance élevée affichée sur l'étiquette. Ce qui compte, c'est la consommation réelle en kWh, et celle-ci reste faible grâce aux temps de cuisson courts, au petit volume et à l'absence de préchauffage. En choisissant un modèle efficace et en appliquant quelques astuces simples, vous gardez durablement des coûts d'électricité minimes, même face aux tarifs élevés.</p>`,
 
-    en: `<h2>How much electricity does an air fryer really use?</h2>
-<p>Germany has some of the highest electricity prices in Europe , which makes the running cost of every kitchen appliance worth checking. The good news: despite a high rated wattage, an air fryer uses very little in practice — roughly <strong>0.3 to 0.5 kWh per session</strong>, or about 10 to 18 cents of electricity per cook depending on your rate.</p>
-<p><strong>How we calculate:</strong> every cost example in this guide uses an <strong>example rate of €0.35/kWh</strong>. Your own unit rate is on your electricity bill and may be higher or lower. To get your real cost, simply multiply the kWh figures by your price per kWh.</p>
+    en: `<h2>How much electricity does an air fryer really use? The answer in numbers</h2>
+<p>Germany has some of the highest electricity prices in Europe, but wherever you live, it’s worth knowing what an air fryer really costs to run. The good news: despite its high wattage on paper, an air fryer uses very little electricity in practice. Count on roughly <strong>0.3 to 0.5 kWh per use</strong>, or barely €0.10 to €0.18 of electricity per cook, depending on your rate.</p>
+<p><strong>How we calculate:</strong> every cost example in this guide uses an <strong>example rate of €0.35/kWh</strong>. Your own unit rate is on your electricity bill and may be higher or lower. To get your real cost, simply multiply the kWh figures by your unit rate.</p>
 
-<h2>Rated wattage is not actual consumption</h2>
-<p>The most common mistake is reading the wattage (e.g. 1,700 W) and assuming the appliance uses 1.7 kWh per hour. The wattage only describes the maximum draw of the heating element at full load.</p>
-<p>The element heats in cycles: it switches off once the target temperature is reached and restarts when it drops. Over a typical cook it is only active 50 to 70 % of the time. Most dishes are also ready in 12 to 25 minutes, not a full hour.</p>
+<h2>The wattage on the label is not what you actually use</h2>
+<p>The most common mistake is to read the wattage (1,700 W, say) and assume the appliance uses 1.7 kWh an hour. In fact, the wattage only tells you the most the heating element draws at full power.</p>
+<p>The element heats in cycles: it switches off once the target temperature is reached and comes back on when the temperature falls. Over a typical cook, it is only on 50 to 70% of the time. On top of that, most dishes are ready in 12 to 25 minutes, not a full hour.</p>
 <ul>
-<li><strong>kWh = (watts ÷ 1,000) × hours × duty factor</strong></li>
+<li><strong>kWh = (watts ÷ 1,000) × hours × duty cycle</strong></li>
 <li>Example: 1,700 W ÷ 1,000 = 1.7 kW × 0.25 h × 0.7 = <strong>≈ 0.30 kWh</strong></li>
 </ul>
-<p>It also helps to separate the heat-up phase from the cooking phase. In the first few minutes the appliance draws full wattage to reach temperature quickly. After that, consumption drops sharply because the element only tops up the heat. Over a 20-minute cook, only three to five minutes fall in the energy-intensive heat-up phase. If you want your exact figure, a simple plug-in power meter between the socket and the appliance shows the kWh used in real time.</p>
+<p>It also helps to separate the heat-up phase from the cooking phase. In the first few minutes, the appliance draws its full wattage to heat up quickly. After that, consumption drops sharply because the element only has to hold the temperature. In a 20-minute cook, only three to five minutes are spent in this most energy-hungry phase. If you want your exact figure, a simple plug-in energy meter between the socket and the appliance shows the kWh used in real time.</p>
 
-<h3>Estimated consumption per session (duty factor 0.7)</h3>
+<h3>Estimated energy use per cook (duty cycle 0.7)</h3>
 <table>
 <thead>
-<tr><th>Appliance type</th><th>Wattage</th><th>Time</th><th>kWh (estimate)</th><th>Cost (€0.35/kWh)</th></tr>
+<tr><th>Type of air fryer</th><th>Wattage</th><th>Time</th><th>kWh (estimate)</th><th>Cost (€0.35/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Compact (3-4 L)</td><td>1,400 W</td><td>15 min</td><td>≈ 0.25 kWh</td><td>≈ €0.09</td></tr>
-<tr><td>Standard (4-6 L)</td><td>1,600 W</td><td>18 min</td><td>≈ 0.34 kWh</td><td>≈ €0.12</td></tr>
-<tr><td>Large (7-8 L)</td><td>2,000 W</td><td>20 min</td><td>≈ 0.47 kWh</td><td>≈ €0.16</td></tr>
-<tr><td>Dual basket (9-10 L)</td><td>2,400 W</td><td>22 min</td><td>≈ 0.62 kWh</td><td>≈ €0.22</td></tr>
+<tr><td>Compact (3–4 L)</td><td>1,400 W</td><td>15 min</td><td>≈ 0.25 kWh</td><td>≈ €0.09</td></tr>
+<tr><td>Standard (4–6 L)</td><td>1,600 W</td><td>18 min</td><td>≈ 0.34 kWh</td><td>≈ €0.12</td></tr>
+<tr><td>Large (7–8 L)</td><td>2,000 W</td><td>20 min</td><td>≈ 0.47 kWh</td><td>≈ €0.16</td></tr>
+<tr><td>Dual basket (9–10 L)</td><td>2,400 W</td><td>22 min</td><td>≈ 0.62 kWh</td><td>≈ €0.22</td></tr>
 </tbody>
 </table>
 
-<h2>Annual cost: 3x a week vs every day</h2>
-<p>Based on an average of 0.4 kWh per session and the example rate of €0.35/kWh (0.4 kWh × sessions × €0.35).</p>
+<h2>Annual cost: three times a week vs every day</h2>
+<p>Based on an average of 0.4 kWh per use and the example rate of €0.35/kWh (0.4 kWh × number of uses × €0.35).</p>
 <table>
 <thead>
-<tr><th>Frequency</th><th>Sessions/year</th><th>Use/year</th><th>Cost/year (€0.35/kWh)</th></tr>
+<tr><th>How often</th><th>Uses a year</th><th>kWh a year</th><th>Cost a year (€0.35/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>1x per week</td><td>≈ 52</td><td>≈ 21 kWh</td><td>≈ €7</td></tr>
-<tr><td>3x per week</td><td>≈ 156</td><td>≈ 62 kWh</td><td>≈ €22</td></tr>
-<tr><td>5x per week</td><td>≈ 260</td><td>≈ 104 kWh</td><td>≈ €36</td></tr>
+<tr><td>Once a week</td><td>≈ 52</td><td>≈ 21 kWh</td><td>≈ €7</td></tr>
+<tr><td>3 times a week</td><td>≈ 156</td><td>≈ 62 kWh</td><td>≈ €22</td></tr>
+<tr><td>5 times a week</td><td>≈ 260</td><td>≈ 104 kWh</td><td>≈ €36</td></tr>
 <tr><td>Every day</td><td>≈ 365</td><td>≈ 146 kWh</td><td>≈ €51</td></tr>
 </tbody>
 </table>
-<p>Even daily use stays modest at around €51 a year. Three times a week costs barely €22 of electricity annually.</p>
+<p>Even if you use it every day, the annual cost stays modest (around €51). At three times a week, you spend barely €22 a year on electricity.</p>
 
-<h2>Compared to a traditional oven</h2>
-<p>This is where the savings come from. An oven must heat a 60-70 litre cavity and needs preheating; an air fryer heats only 3-8 litres.</p>
+<h2>Compared with a conventional oven</h2>
+<p>This is where most of the savings are. An oven has to heat a 60- to 70-litre cavity and needs preheating. An air fryer heats only 3 to 8 litres.</p>
 <table>
 <thead>
-<tr><th>Appliance</th><th>Use per cook</th><th>Cost (€0.35/kWh)</th></tr>
+<tr><th>Appliance</th><th>Energy per cook</th><th>Cost (€0.35/kWh)</th></tr>
 </thead>
 <tbody>
 <tr><td>Air fryer</td><td>≈ 0.40 kWh</td><td>≈ €0.14</td></tr>
@@ -345,63 +345,63 @@ export const article: BlogArticle = {
 <tr><td>Conventional oven</td><td>≈ 1.50 kWh</td><td>≈ €0.53</td></tr>
 </tbody>
 </table>
-<p>The air fryer saves <strong>50 to 70 % of electricity</strong> versus the oven for the same amount of food. More in our guide to <a href="/en/blog/airfryer-economies-energie">air fryer energy savings</a>.</p>
+<p>So an air fryer uses <strong>50 to 70% less electricity</strong> than an oven for the same amount of food. Find out more in our guide to <a href="/en/blog/airfryer-economies-energie">air fryer energy savings</a>.</p>
 
-<h2>Compared to a deep fryer</h2>
-<p>A deep fryer must heat and hold 2-4 litres of oil at 170-180 °C.</p>
+<h2>Compared with a deep fat fryer</h2>
+<p>A deep fat fryer has to heat 2 to 4 litres of oil and keep it at 170 to 180°C.</p>
 <ul>
-<li><strong>Deep fryer:</strong> ≈ 0.6-0.8 kWh per session.</li>
-<li><strong>Air fryer:</strong> ≈ 0.3-0.5 kWh per session.</li>
+<li><strong>Deep fat fryer:</strong> ≈ 0.6–0.8 kWh per use.</li>
+<li><strong>Air fryer:</strong> ≈ 0.3–0.5 kWh per use.</li>
 </ul>
-<p>Plus the recurring cost of oil that must be replaced. See our <a href="/en/blog/airfryer-vs-friteuse-traditionnelle">air fryer vs deep fryer comparison</a>.</p>
+<p>On top of that, you have to keep buying fresh oil. See our <a href="/en/blog/airfryer-vs-friteuse-traditionnelle">air fryer vs deep fat fryer comparison</a>.</p>
 
-<h2>Tips to cut consumption further</h2>
+<h2>Tips to cut your energy use</h2>
 <ul>
-<li><strong>Skip needless preheating:</strong> often unnecessary, especially for frozen foods.</li>
-<li><strong>Batch cooking:</strong> a well-filled basket is more efficient than two small batches.</li>
-<li><strong>Use dual-basket models:</strong> main and side at once.</li>
-<li><strong>Clean regularly:</strong> a dirty unit can use 10-15 % more.</li>
-<li><strong>Use residual heat:</strong> chain cooks while the unit is still warm.</li>
+<li><strong>Skip preheating you don’t need:</strong> it’s often unnecessary, especially for frozen food.</li>
+<li><strong>Cook in one go:</strong> a well-filled basket is more efficient than two small batches.</li>
+<li><strong>Dual-basket models:</strong> cook the main and the side at the same time.</li>
+<li><strong>Clean it regularly:</strong> a dirty air fryer uses 10–15% more electricity.</li>
+<li><strong>Make use of leftover heat:</strong> cook batches back to back while the air fryer is still hot.</li>
 </ul>
 
-<h2>Consumption in everyday situations</h2>
+<h2>Energy use for everyday dishes</h2>
 <p>Here are realistic estimates for common dishes at the example rate of €0.35/kWh:</p>
 <table>
 <thead>
 <tr><th>Dish</th><th>Temperature / Time</th><th>kWh (estimate)</th><th>Cost (€0.35/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Frozen fries (2 people)</td><td>200 °C / 18 min</td><td>≈ 0.40 kWh</td><td>≈ €0.14</td></tr>
-<tr><td>Reheat 2 bread rolls</td><td>180 °C / 6 min</td><td>≈ 0.15 kWh</td><td>≈ €0.05</td></tr>
-<tr><td>Chicken thighs</td><td>190 °C / 25 min</td><td>≈ 0.50 kWh</td><td>≈ €0.18</td></tr>
-<tr><td>Mixed vegetables</td><td>180 °C / 15 min</td><td>≈ 0.33 kWh</td><td>≈ €0.12</td></tr>
-<tr><td>Reheated pizza</td><td>160 °C / 8 min</td><td>≈ 0.18 kWh</td><td>≈ €0.06</td></tr>
+<tr><td>Frozen chips (2 people)</td><td>200°C / 18 min</td><td>≈ 0.40 kWh</td><td>≈ €0.14</td></tr>
+<tr><td>Warming up 2 bread rolls</td><td>180°C / 6 min</td><td>≈ 0.15 kWh</td><td>≈ €0.05</td></tr>
+<tr><td>Chicken thighs</td><td>190°C / 25 min</td><td>≈ 0.50 kWh</td><td>≈ €0.18</td></tr>
+<tr><td>Mixed vegetables</td><td>180°C / 15 min</td><td>≈ 0.33 kWh</td><td>≈ €0.12</td></tr>
+<tr><td>Reheating pizza</td><td>160°C / 8 min</td><td>≈ 0.18 kWh</td><td>≈ €0.06</td></tr>
 </tbody>
 </table>
-<p>For reheating or cooking small amounts, the air fryer is unbeatable: firing up the oven would be pure waste. These small, frequent cooks are what create the biggest yearly saving versus the oven.</p>
+<p>For reheating food or cooking small amounts, nothing beats an air fryer: switching on the oven would be a complete waste. Over a year, it’s these small, frequent jobs that add up to the biggest saving over the oven.</p>
 
-<h2>Connected models: keep an eye on consumption</h2>
-<p>Many air fryers are now Wi-Fi connected and app-controlled. That can help consumption: precise temperature and time programs avoid overcooking and wasting energy. On the other hand, a connected model with a display and Wi-Fi module draws 1 to 3 watts on standby continuously, roughly 9 to 26 kWh a year (€3 to €9 at the example rate), whether you cook or not. A switched power strip or a smart plug solves this by fully cutting power after use.</p>
+<h2>Smart models: keeping energy use in check</h2>
+<p>Many air fryers now connect to Wi-Fi and can be controlled from an app. That’s a plus for energy use: precise temperature and time programmes stop you cooking for longer than you need to. The downside is that a smart model with a display and a Wi-Fi module draws 1 to 3 watts on standby around the clock: roughly 9 to 26 kWh a year (€3 to €9 at the example rate), whether you cook or not. A switched extension lead or a smart plug solves the problem by cutting the power completely after use.</p>
 
-<h2>Most efficient models and the EU energy label</h2>
-<p>Models from <strong>Xiaomi</strong> and <strong>Cosori</strong> offer a great balance of power, cook time and consumption (for example the Cosori Lite 3.8L at 1,500 W or the Xiaomi Smart Air Fryer Pro 4L at 1,600 W, around 0.32 to 0.34 kWh for 18 minutes). Note that there is no dedicated mandatory EU energy efficiency class for air fryers yet, unlike fridges or washing machines, so rely on wattage, capacity and independent real-world measurements. As a rule, lower wattage for an adequate capacity is a good sign of efficiency. See our pick of the <a href="/en/blog/meilleur-airfryer-petit-budget">best budget air fryers</a>.</p>
+<h2>The most efficient models, and energy labels</h2>
+<p><strong>Xiaomi</strong> and <strong>Cosori</strong> models strike a very good balance between power, cooking time and energy use (for example the Cosori Lite 3.8L at 1,500 W or the Xiaomi Smart Air Fryer Pro 4L at 1,600 W, which use around 0.32 to 0.34 kWh in 18 minutes). Bear in mind that, unlike fridges and washing machines, air fryers don’t yet have a mandatory EU energy efficiency class of their own. So go by the wattage, the capacity and independent energy-use measurements. As a rule of thumb, a moderate wattage for a capacity that’s big enough is a good sign of efficiency. See our pick of the <a href="/en/blog/meilleur-airfryer-petit-budget">best budget air fryers</a>.</p>
 
 <h2>Conclusion</h2>
-<p>Even with high electricity prices, the air fryer remains one of the cheapest cooking methods for small to medium portions: around 0.3-0.5 kWh per session and a modest yearly cost (about €22 at three uses a week).</p>
-<p>Do not be put off by the high wattage printed on the label. What matters is the real consumption in kWh, and it stays low thanks to short cook times, a small cavity and little to no preheating. By choosing an efficient model and applying a few simple tips, you keep electricity costs minimal for the long run, even against high rates.</p>`,
+<p>Even with high electricity prices, an air fryer is still one of the most economical ways to cook small and medium portions: around 0.3–0.5 kWh per use and a modest annual cost (about €22 if you use it three times a week).</p>
+<p>Don’t be put off by the high wattage on the label. What matters is how many kWh it actually uses, and that stays low thanks to short cooking times, a small cavity and no need to preheat. Choose an efficient model, follow a few simple tips, and you’ll keep your electricity costs to a minimum for years to come, even when rates are high.</p>`,
 
-    es: `<h2>¿Cuánta electricidad consume realmente una freidora de aire?</h2>
-<p>Alemania tiene de los precios de electricidad más altos de Europa , pero el coste de funcionamiento interesa a cualquier hogar. La buena noticia: pese a la elevada potencia indicada, una freidora de aire consume poco en la práctica, alrededor de <strong>0,3 a 0,5 kWh por uso</strong>, es decir unos 10 a 18 céntimos de electricidad por cocción según tu tarifa.</p>
-<p><strong>Cómo calculamos:</strong> todos los ejemplos de coste de esta guía usan una <strong>tarifa de ejemplo de 0,35 €/kWh</strong>. Tu precio real del kWh aparece en tu factura y puede ser más alto o más bajo. Para obtener tu coste, multiplica los kWh indicados por tu precio por kWh.</p>
+    es: `<h2>¿Cuánto consume de verdad una freidora de aire? La respuesta en cifras</h2>
+<p>Alemania tiene uno de los precios de la luz más altos de Europa, pero saber cuánto cuesta realmente usar una freidora de aire interesa a cualquier hogar. La buena noticia: aunque su potencia parezca alta, en la práctica una freidora de aire consume poco. Cuenta con unos <strong>0,3 a 0,5 kWh por uso</strong>, es decir, apenas entre 10 y 18 céntimos de luz por cocción, según tu tarifa.</p>
+<p><strong>Cómo calculamos:</strong> todos los ejemplos de coste de esta guía usan una <strong>tarifa de ejemplo de 0,35 €/kWh</strong>. El precio de tu kWh figura en tu factura de la luz y puede ser más alto o más bajo. Para saber lo que te cuesta a ti, basta con multiplicar los kWh indicados por tu precio del kWh.</p>
 
 <h2>La potencia indicada no es el consumo real</h2>
-<p>El error más común es leer la potencia (por ejemplo 1.700 W) y suponer que consume 1,7 kWh por hora. La potencia solo indica el consumo máximo de la resistencia a plena carga.</p>
-<p>La resistencia calienta por ciclos: se apaga al alcanzar la temperatura y se reactiva al bajar. En una cocción típica solo está activa el 50-70 % del tiempo, y la mayoría de platos están listos en 12-25 minutos.</p>
+<p>El error más habitual es leer la potencia (por ejemplo, 1.700 W) y deducir que el aparato gasta 1,7 kWh cada hora. En realidad, la potencia solo indica el consumo máximo de la resistencia a pleno rendimiento.</p>
+<p>La resistencia calienta por ciclos: se apaga en cuanto alcanza la temperatura programada y vuelve a encenderse cuando baja. En una cocción normal solo funciona entre el 50 y el 70 % del tiempo. Además, la mayoría de los platos están listos en 12 a 25 minutos, no en una hora.</p>
 <ul>
-<li><strong>kWh = (vatios ÷ 1.000) × horas × factor de actividad</strong></li>
+<li><strong>kWh = (potencia en W ÷ 1.000) × horas × factor de actividad</strong></li>
 <li>Ejemplo: 1.700 W ÷ 1.000 = 1,7 kW × 0,25 h × 0,7 = <strong>≈ 0,30 kWh</strong></li>
 </ul>
-<p>Conviene distinguir la fase de calentamiento de la fase de cocción. En los primeros minutos el aparato consume toda su potencia para alcanzar la temperatura rápidamente. Después, el consumo cae con fuerza porque la resistencia solo mantiene el calor. En una cocción de 20 minutos, solo tres a cinco minutos corresponden a la fase más intensiva. Para conocer tu consumo exacto, un sencillo medidor de consumo enchufado entre la toma y el aparato muestra los kWh consumidos en tiempo real.</p>
+<p>También hay que distinguir entre la fase de calentamiento y la de cocción. En los primeros minutos, el aparato tira de toda su potencia para calentarse rápido. Después, el consumo baja mucho, porque la resistencia ya solo mantiene la temperatura. En una cocción de 20 minutos, solo entre tres y cinco minutos corresponden a la fase que más energía gasta. Si quieres conocer tu consumo exacto, basta con un medidor de consumo eléctrico enchufado entre la toma de corriente y el aparato: muestra los kWh consumidos en tiempo real.</p>
 
 <h3>Consumo estimado por uso (factor de actividad 0,7)</h3>
 <table>
@@ -416,23 +416,23 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<h2>Coste anual: 3 veces por semana vs todos los días</h2>
-<p>Con una media de 0,4 kWh por uso y la tarifa de ejemplo de 0,35 €/kWh (0,4 kWh × número de usos × 0,35 €).</p>
+<h2>Coste anual: 3 veces por semana o todos los días</h2>
+<p>Cálculo con una media de 0,4 kWh por uso y la tarifa de ejemplo de 0,35 €/kWh (0,4 kWh × número de usos × 0,35 €).</p>
 <table>
 <thead>
 <tr><th>Frecuencia</th><th>Usos/año</th><th>Consumo/año</th><th>Coste/año (0,35 €/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>1x por semana</td><td>≈ 52</td><td>≈ 21 kWh</td><td>≈ 7 €</td></tr>
-<tr><td>3x por semana</td><td>≈ 156</td><td>≈ 62 kWh</td><td>≈ 22 €</td></tr>
-<tr><td>5x por semana</td><td>≈ 260</td><td>≈ 104 kWh</td><td>≈ 36 €</td></tr>
+<tr><td>1 vez por semana</td><td>≈ 52</td><td>≈ 21 kWh</td><td>≈ 7 €</td></tr>
+<tr><td>3 veces por semana</td><td>≈ 156</td><td>≈ 62 kWh</td><td>≈ 22 €</td></tr>
+<tr><td>5 veces por semana</td><td>≈ 260</td><td>≈ 104 kWh</td><td>≈ 36 €</td></tr>
 <tr><td>Todos los días</td><td>≈ 365</td><td>≈ 146 kWh</td><td>≈ 51 €</td></tr>
 </tbody>
 </table>
-<p>Incluso a diario el coste es moderado (unos 51 € al año). Tres veces por semana apenas supone 22 € de electricidad anuales.</p>
+<p>Incluso usándola a diario, el coste anual sigue siendo moderado (unos 51 €). Si la usas tres veces por semana, apenas pagas 22 € de luz al año.</p>
 
-<h2>Comparación con el horno tradicional</h2>
-<p>Aquí está el verdadero ahorro. El horno calienta 60-70 litros y requiere precalentamiento; la freidora solo calienta 3-8 litros.</p>
+<h2>Frente al horno tradicional</h2>
+<p>Aquí está la mayor parte del ahorro. Un horno tiene que calentar un volumen de 60 a 70 litros y necesita precalentarse. Una freidora de aire solo calienta de 3 a 8 litros.</p>
 <table>
 <thead>
 <tr><th>Aparato</th><th>Consumo por cocción</th><th>Coste (0,35 €/kWh)</th></tr>
@@ -443,63 +443,63 @@ export const article: BlogArticle = {
 <tr><td>Horno convencional</td><td>≈ 1,50 kWh</td><td>≈ 0,53 €</td></tr>
 </tbody>
 </table>
-<p>La freidora ahorra entre <strong>50 y 70 % de electricidad</strong> frente al horno para la misma cantidad. Más detalles en nuestra guía de <a href="/es/blog/airfryer-economies-energie">ahorro energético de la freidora de aire</a>.</p>
+<p>Así, la freidora de aire gasta <strong>entre un 50 y un 70 % menos de luz</strong> que el horno para la misma cantidad de comida. Tienes más detalles en nuestra guía sobre el <a href="/es/blog/airfryer-economies-energie">ahorro de energía con la freidora de aire</a>.</p>
 
-<h2>Comparación con la freidora clásica</h2>
-<p>Una freidora de aceite debe calentar y mantener 2-4 litros de aceite a 170-180 °C.</p>
+<h2>Frente a la freidora clásica de aceite</h2>
+<p>Una freidora de aceite tiene que calentar de 2 a 4 litros de aceite y mantenerlos a 170-180 °C.</p>
 <ul>
-<li><strong>Freidora clásica:</strong> ≈ 0,6-0,8 kWh por uso.</li>
+<li><strong>Freidora de aceite:</strong> ≈ 0,6-0,8 kWh por uso.</li>
 <li><strong>Freidora de aire:</strong> ≈ 0,3-0,5 kWh por uso.</li>
 </ul>
-<p>Más el coste recurrente del aceite. Consulta nuestra <a href="/es/blog/airfryer-vs-friteuse-traditionnelle">comparativa freidora de aire vs freidora tradicional</a>.</p>
+<p>A eso hay que sumar el aceite, que se cambia cada cierto tiempo. Consulta nuestra <a href="/es/blog/airfryer-vs-friteuse-traditionnelle">comparativa entre freidora de aire y freidora tradicional</a>.</p>
 
-<h2>Trucos para reducir el consumo</h2>
+<h2>Trucos para gastar menos</h2>
 <ul>
-<li><strong>Evitar el precalentamiento innecesario:</strong> a menudo superfluo con congelados.</li>
-<li><strong>Cocción en lote:</strong> una cesta bien llena es más eficiente que dos tandas pequeñas.</li>
-<li><strong>Modelos de doble cesta:</strong> plato y guarnición a la vez.</li>
-<li><strong>Limpiar con regularidad:</strong> un aparato sucio consume un 10-15 % más.</li>
-<li><strong>Aprovechar el calor residual:</strong> encadenar cocciones mientras está caliente.</li>
+<li><strong>Sáltate el precalentamiento cuando sobra:</strong> muchas veces no hace falta, sobre todo con congelados.</li>
+<li><strong>Agrupa las cocciones:</strong> una cesta bien llena rinde más que dos tandas pequeñas.</li>
+<li><strong>Modelos de doble cesta:</strong> el plato principal y la guarnición, de una sola vez.</li>
+<li><strong>Límpiala a menudo:</strong> un aparato sucio consume entre un 10 y un 15 % más.</li>
+<li><strong>Aprovecha el calor residual:</strong> encadena cocciones mientras el aparato sigue caliente.</li>
 </ul>
 
-<h2>Consumo en situaciones del día a día</h2>
+<h2>Consumo en el día a día</h2>
 <p>Estas son estimaciones realistas para platos habituales, con la tarifa de ejemplo de 0,35 €/kWh:</p>
 <table>
 <thead>
-<tr><th>Plato</th><th>Temperatura / Tiempo</th><th>kWh (estimación)</th><th>Coste (0,35 €/kWh)</th></tr>
+<tr><th>Plato</th><th>Temperatura / tiempo</th><th>kWh (estimación)</th><th>Coste (0,35 €/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Patatas congeladas (2 pers.)</td><td>200 °C / 18 min</td><td>≈ 0,40 kWh</td><td>≈ 0,14 €</td></tr>
+<tr><td>Patatas fritas congeladas (2 pers.)</td><td>200 °C / 18 min</td><td>≈ 0,40 kWh</td><td>≈ 0,14 €</td></tr>
 <tr><td>Calentar 2 panecillos</td><td>180 °C / 6 min</td><td>≈ 0,15 kWh</td><td>≈ 0,05 €</td></tr>
 <tr><td>Muslos de pollo</td><td>190 °C / 25 min</td><td>≈ 0,50 kWh</td><td>≈ 0,18 €</td></tr>
-<tr><td>Mezcla de verduras</td><td>180 °C / 15 min</td><td>≈ 0,33 kWh</td><td>≈ 0,12 €</td></tr>
+<tr><td>Verduras variadas</td><td>180 °C / 15 min</td><td>≈ 0,33 kWh</td><td>≈ 0,12 €</td></tr>
 <tr><td>Pizza recalentada</td><td>160 °C / 8 min</td><td>≈ 0,18 kWh</td><td>≈ 0,06 €</td></tr>
 </tbody>
 </table>
-<p>Para recalentar o cocinar cantidades pequeñas, la freidora de aire es imbatible: encender el horno sería puro derroche. Estas cocciones pequeñas y frecuentes son las que generan, a lo largo del año, el mayor ahorro frente al horno.</p>
+<p>Para recalentar o cocinar poca cantidad, la freidora de aire no tiene rival: encender el horno sería tirar el dinero. Son precisamente esas pequeñas cocciones frecuentes las que, a lo largo del año, marcan la mayor diferencia de ahorro frente al horno.</p>
 
-<h2>Modelos conectados: vigilar el consumo</h2>
-<p>Muchas freidoras de aire ya están conectadas por Wi-Fi y se controlan por app. Esto ayuda al consumo: los programas precisos de temperatura y tiempo evitan pasarse de cocción y malgastar energía. Por otro lado, un modelo conectado con pantalla y módulo Wi-Fi consume 1 a 3 vatios en espera de forma continua, unos 9 a 26 kWh al año (3 a 9 € con la tarifa de ejemplo), cocines o no. Una regleta con interruptor o un enchufe inteligente lo soluciona cortando del todo la corriente tras su uso.</p>
+<h2>Modelos con wifi: el consumo bajo control</h2>
+<p>Muchas freidoras de aire ya tienen wifi y se manejan desde una app. Es una ventaja para el consumo: los programas precisos de temperatura y tiempo evitan alargar la cocción más de lo necesario. Eso sí, un modelo conectado con pantalla y módulo wifi consume de 1 a 3 vatios en espera todo el tiempo, es decir, unos 9 a 26 kWh al año (de 3 a 9 € con la tarifa de ejemplo), cocines o no. Una regleta con interruptor o un enchufe inteligente lo soluciona: cortan del todo la corriente cuando terminas.</p>
 
-<h2>Modelos más eficientes y etiqueta energética</h2>
-<p>Los modelos de <strong>Xiaomi</strong> y <strong>Cosori</strong> ofrecen un gran equilibrio entre potencia, tiempo y consumo (por ejemplo la Cosori Lite 3.8L de 1.500 W o la Xiaomi Smart Air Fryer Pro 4L de 1.600 W, unos 0,32 a 0,34 kWh en 18 minutos). Aún no existe una clase de eficiencia energética UE obligatoria específica para freidoras de aire, a diferencia de neveras o lavadoras, así que fíjate en la potencia, la capacidad y las mediciones reales. Por norma general, una potencia más moderada con capacidad suficiente es buena señal de eficiencia. Mira nuestra selección de las <a href="/es/blog/meilleur-airfryer-petit-budget">mejores freidoras de aire económicas</a>.</p>
+<h2>Los modelos que menos gastan y la etiqueta energética</h2>
+<p>Los modelos de <strong>Xiaomi</strong> y <strong>Cosori</strong> ofrecen un muy buen equilibrio entre potencia, tiempo de cocción y consumo (por ejemplo, la Cosori Lite 3.8L de 1.500 W o la Xiaomi Smart Air Fryer Pro 4L de 1.600 W, que gastan unos 0,32 a 0,34 kWh en 18 minutos). Ojo: todavía no existe una clase de eficiencia energética europea obligatoria específica para las freidoras de aire, a diferencia de los frigoríficos o las lavadoras. Así que fíjate en la potencia, la capacidad y las mediciones de consumo independientes. Por regla general, una potencia moderada con una capacidad suficiente es buena señal de eficiencia. Encontrarás nuestras recomendaciones en la selección de las <a href="/es/blog/meilleur-airfryer-petit-budget">mejores freidoras de aire baratas</a>.</p>
 
 <h2>Conclusión</h2>
-<p>Incluso con precios altos, la freidora de aire sigue siendo uno de los métodos de cocción más baratos para porciones pequeñas y medianas: unos 0,3-0,5 kWh por uso y un coste anual moderado (unos 22 € a tres usos por semana).</p>
-<p>No te asustes por la potencia elevada de la etiqueta. Lo que cuenta es el consumo real en kWh, y se mantiene bajo gracias a los tiempos cortos, el pequeño volumen y el escaso precalentamiento. Eligiendo un modelo eficiente y aplicando unos trucos sencillos, mantienes el coste eléctrico al mínimo a largo plazo, incluso frente a tarifas altas.</p>`,
+<p>Incluso con la luz cara, la freidora de aire sigue siendo una de las formas de cocinar que menos gastan para raciones pequeñas y medianas: unos 0,3-0,5 kWh por uso y un coste anual moderado (unos 22 € si la usas tres veces por semana).</p>
+<p>Que no te asuste la potencia que aparece en la etiqueta. Lo que cuenta es el consumo real en kWh, y se mantiene bajo gracias a los tiempos de cocción cortos, al poco volumen que hay que calentar y a que no necesita precalentarse. Si eliges un modelo eficiente y aplicas unos cuantos trucos sencillos, mantendrás el gasto de luz al mínimo a largo plazo, por altas que sean las tarifas.</p>`,
 
-    it: `<h2>Quanta elettricità consuma davvero una friggitrice ad aria?</h2>
-<p>La Germania ha tra i prezzi dell'elettricità più alti d'Europa , ma il costo di funzionamento interessa ogni famiglia. La buona notizia: nonostante l'elevata potenza dichiarata, una friggitrice ad aria consuma poco nella pratica, circa <strong>0,3-0,5 kWh per utilizzo</strong>, ovvero 10-18 centesimi di elettricità per cottura secondo la tariffa.</p>
-<p><strong>Come calcoliamo:</strong> tutti gli esempi di costo di questa guida usano una <strong>tariffa di esempio di 0,35 €/kWh</strong>. Il tuo prezzo reale del kWh è indicato in bolletta e può essere più alto o più basso. Per ottenere il tuo costo, moltiplica i kWh indicati per il tuo prezzo al kWh.</p>
+    it: `<h2>Quanto consuma davvero una friggitrice ad aria? La risposta in numeri</h2>
+<p>Quanto costa davvero usare una friggitrice ad aria è una domanda che riguarda tutte le famiglie. La buona notizia: anche se la potenza dichiarata è alta, nell'uso reale una friggitrice ad aria consuma poco. Calcola circa <strong>0,3-0,5 kWh per utilizzo</strong>, cioè appena 10-18 centesimi di corrente a cottura, a seconda della tua tariffa.</p>
+<p><strong>Come calcoliamo:</strong> tutti gli esempi di costo di questa guida usano una <strong>tariffa di esempio di 0,35 €/kWh</strong>. Il prezzo del kWh che paghi tu è indicato in bolletta e può essere più alto o più basso. Per conoscere il tuo costo reale, basta moltiplicare i kWh indicati per il tuo prezzo al kWh.</p>
 
 <h2>La potenza dichiarata non è il consumo reale</h2>
-<p>L'errore più comune è leggere la potenza (ad esempio 1.700 W) e supporre un consumo di 1,7 kWh all'ora. La potenza indica solo l'assorbimento massimo della resistenza a pieno carico.</p>
-<p>La resistenza scalda a cicli: si spegne al raggiungimento della temperatura e riparte quando scende. In una cottura tipica è attiva solo il 50-70 % del tempo, e la maggior parte dei piatti è pronta in 12-25 minuti.</p>
+<p>L'errore più comune è guardare la potenza (per esempio 1.700 W) e dedurne che l'apparecchio consumi 1,7 kWh all'ora. In realtà la potenza indica solo l'assorbimento massimo della resistenza a pieno carico.</p>
+<p>La resistenza lavora a cicli: si spegne quando raggiunge la temperatura impostata e si riaccende quando questa scende. In una cottura tipica resta accesa solo il 50-70% del tempo. Inoltre, la maggior parte dei piatti è pronta in 12-25 minuti, non in un'ora intera.</p>
 <ul>
 <li><strong>kWh = (watt ÷ 1.000) × ore × fattore di attività</strong></li>
 <li>Esempio: 1.700 W ÷ 1.000 = 1,7 kW × 0,25 h × 0,7 = <strong>≈ 0,30 kWh</strong></li>
 </ul>
-<p>È utile distinguere la fase di riscaldamento da quella di cottura. Nei primi minuti l'apparecchio assorbe tutta la potenza per raggiungere rapidamente la temperatura. Poi il consumo cala nettamente perché la resistenza si limita a mantenere il calore. In una cottura di 20 minuti, solo tre o cinque minuti rientrano nella fase più dispendiosa. Per conoscere il consumo esatto, un semplice misuratore di consumo collegato tra la presa e l'apparecchio mostra i kWh consumati in tempo reale.</p>
+<p>Bisogna anche distinguere la fase di riscaldamento da quella di cottura vera e propria. Nei primi minuti l'apparecchio assorbe tutta la potenza per scaldarsi in fretta. Poi il consumo cala nettamente, perché la resistenza deve solo mantenere la temperatura. In una cottura di 20 minuti, la fase che consuma di più dura appena tre-cinque minuti. Per conoscere il consumo esatto basta un misuratore di consumi elettrici collegato tra la presa e l'apparecchio: mostra in tempo reale i kWh consumati.</p>
 
 <h3>Consumo stimato per utilizzo (fattore di attività 0,7)</h3>
 <table>
@@ -514,23 +514,23 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<h2>Costo annuo: 3 volte a settimana vs ogni giorno</h2>
-<p>Sulla base di una media di 0,4 kWh per utilizzo e la tariffa di esempio di 0,35 €/kWh (0,4 kWh × numero di utilizzi × 0,35 €).</p>
+<h2>Costo annuo: 3 volte a settimana o tutti i giorni</h2>
+<p>Calcolo basato su una media di 0,4 kWh per utilizzo e sulla tariffa di esempio di 0,35 €/kWh (0,4 kWh × numero di utilizzi × 0,35 €).</p>
 <table>
 <thead>
-<tr><th>Frequenza</th><th>Utilizzi/anno</th><th>Consumo/anno</th><th>Costo/anno (0,35 €/kWh)</th></tr>
+<tr><th>Frequenza</th><th>Utilizzi all'anno</th><th>Consumo annuo</th><th>Costo annuo (0,35 €/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>1x a settimana</td><td>≈ 52</td><td>≈ 21 kWh</td><td>≈ 7 €</td></tr>
-<tr><td>3x a settimana</td><td>≈ 156</td><td>≈ 62 kWh</td><td>≈ 22 €</td></tr>
-<tr><td>5x a settimana</td><td>≈ 260</td><td>≈ 104 kWh</td><td>≈ 36 €</td></tr>
-<tr><td>Ogni giorno</td><td>≈ 365</td><td>≈ 146 kWh</td><td>≈ 51 €</td></tr>
+<tr><td>1 volta a settimana</td><td>≈ 52</td><td>≈ 21 kWh</td><td>≈ 7 €</td></tr>
+<tr><td>3 volte a settimana</td><td>≈ 156</td><td>≈ 62 kWh</td><td>≈ 22 €</td></tr>
+<tr><td>5 volte a settimana</td><td>≈ 260</td><td>≈ 104 kWh</td><td>≈ 36 €</td></tr>
+<tr><td>Tutti i giorni</td><td>≈ 365</td><td>≈ 146 kWh</td><td>≈ 51 €</td></tr>
 </tbody>
 </table>
-<p>Anche con uso quotidiano il costo resta contenuto (circa 51 € l'anno). Tre volte a settimana costa appena 22 € di elettricità all'anno.</p>
+<p>Anche usandola tutti i giorni, il costo annuo resta contenuto (circa 51 €). Con tre utilizzi a settimana si spendono appena 22 € di corrente all'anno.</p>
 
 <h2>Confronto con il forno tradizionale</h2>
-<p>Qui sta il vero risparmio. Il forno deve scaldare 60-70 litri e richiede il preriscaldamento; la friggitrice scalda solo 3-8 litri.</p>
+<p>È qui che si risparmia di più. Un forno deve scaldare un volume di 60-70 litri e va preriscaldato; una friggitrice ad aria ne scalda solo 3-8.</p>
 <table>
 <thead>
 <tr><th>Apparecchio</th><th>Consumo per cottura</th><th>Costo (0,35 €/kWh)</th></tr>
@@ -538,97 +538,97 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Friggitrice ad aria</td><td>≈ 0,40 kWh</td><td>≈ 0,14 €</td></tr>
 <tr><td>Forno ventilato</td><td>≈ 1,20 kWh</td><td>≈ 0,42 €</td></tr>
-<tr><td>Forno tradizionale</td><td>≈ 1,50 kWh</td><td>≈ 0,53 €</td></tr>
+<tr><td>Forno statico</td><td>≈ 1,50 kWh</td><td>≈ 0,53 €</td></tr>
 </tbody>
 </table>
-<p>La friggitrice ad aria risparmia tra il <strong>50 e il 70 % di elettricità</strong> rispetto al forno per la stessa quantità. Più dettagli nella nostra guida al <a href="/it/blog/airfryer-economies-energie">risparmio energetico della friggitrice ad aria</a>.</p>
+<p>A parità di cibo, la friggitrice ad aria fa quindi risparmiare <strong>dal 50 al 70% di elettricità</strong> rispetto al forno. Trovi più dettagli nella nostra guida al <a href="/it/blog/airfryer-economies-energie">risparmio energetico con la friggitrice ad aria</a>.</p>
 
 <h2>Confronto con la friggitrice tradizionale</h2>
-<p>Una friggitrice a olio deve scaldare e mantenere 2-4 litri di olio a 170-180 °C.</p>
+<p>Una friggitrice a olio deve scaldare e poi mantenere 2-4 litri di olio a 170-180 °C.</p>
 <ul>
 <li><strong>Friggitrice tradizionale:</strong> ≈ 0,6-0,8 kWh per utilizzo.</li>
 <li><strong>Friggitrice ad aria:</strong> ≈ 0,3-0,5 kWh per utilizzo.</li>
 </ul>
-<p>A cui si aggiunge il costo ricorrente dell'olio da sostituire. Vedi il nostro <a href="/it/blog/airfryer-vs-friteuse-traditionnelle">confronto friggitrice ad aria vs friggitrice tradizionale</a>.</p>
+<p>A questo si aggiunge il costo dell'olio, da cambiare regolarmente. Leggi il nostro <a href="/it/blog/airfryer-vs-friteuse-traditionnelle">confronto tra friggitrice ad aria e friggitrice tradizionale</a>.</p>
 
-<h2>Consigli per ridurre ulteriormente i consumi</h2>
+<h2>Consigli per consumare ancora meno</h2>
 <ul>
-<li><strong>Evitare il preriscaldamento inutile:</strong> spesso superfluo con i surgelati.</li>
-<li><strong>Cottura in lotti:</strong> un cestello ben pieno è più efficiente di due piccole infornate.</li>
-<li><strong>Modelli a doppio cestello:</strong> piatto e contorno insieme.</li>
-<li><strong>Pulire regolarmente:</strong> un apparecchio sporco consuma il 10-15 % in più.</li>
-<li><strong>Sfruttare il calore residuo:</strong> concatenare le cotture finché è caldo.</li>
+<li><strong>Evitare il preriscaldamento inutile:</strong> spesso non serve, soprattutto con i surgelati.</li>
+<li><strong>Cuocere tutto insieme:</strong> un cestello ben pieno è più efficiente di due piccole cotture separate.</li>
+<li><strong>Modelli a doppio cestello:</strong> secondo e contorno in un'unica volta.</li>
+<li><strong>Pulire regolarmente:</strong> un apparecchio incrostato consuma il 10-15% in più.</li>
+<li><strong>Sfruttare il calore residuo:</strong> fare le cotture una dopo l'altra finché l'apparecchio è caldo.</li>
 </ul>
 
-<h2>Consumo in situazioni quotidiane</h2>
-<p>Ecco stime realistiche per piatti comuni, alla tariffa di esempio di 0,35 €/kWh:</p>
+<h2>Quanto consuma con i piatti di tutti i giorni</h2>
+<p>Ecco alcune stime realistiche per i piatti più comuni, con la tariffa di esempio di 0,35 €/kWh:</p>
 <table>
 <thead>
-<tr><th>Piatto</th><th>Temperatura / Tempo</th><th>kWh (stima)</th><th>Costo (0,35 €/kWh)</th></tr>
+<tr><th>Piatto</th><th>Temperatura / tempo</th><th>kWh (stima)</th><th>Costo (0,35 €/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Patatine surgelate (2 pers.)</td><td>200 °C / 18 min</td><td>≈ 0,40 kWh</td><td>≈ 0,14 €</td></tr>
+<tr><td>Patatine surgelate (2 persone)</td><td>200 °C / 18 min</td><td>≈ 0,40 kWh</td><td>≈ 0,14 €</td></tr>
 <tr><td>Scaldare 2 panini</td><td>180 °C / 6 min</td><td>≈ 0,15 kWh</td><td>≈ 0,05 €</td></tr>
 <tr><td>Cosce di pollo</td><td>190 °C / 25 min</td><td>≈ 0,50 kWh</td><td>≈ 0,18 €</td></tr>
-<tr><td>Mix di verdure</td><td>180 °C / 15 min</td><td>≈ 0,33 kWh</td><td>≈ 0,12 €</td></tr>
+<tr><td>Verdure miste</td><td>180 °C / 15 min</td><td>≈ 0,33 kWh</td><td>≈ 0,12 €</td></tr>
 <tr><td>Pizza riscaldata</td><td>160 °C / 8 min</td><td>≈ 0,18 kWh</td><td>≈ 0,06 €</td></tr>
 </tbody>
 </table>
-<p>Per riscaldare o cuocere piccole quantità, la friggitrice ad aria è imbattibile: accendere il forno sarebbe puro spreco. Sono proprio queste cotture piccole e frequenti a generare, nell'arco dell'anno, il maggior risparmio rispetto al forno.</p>
+<p>Per riscaldare o cuocere piccole quantità la friggitrice ad aria è imbattibile: accendere il forno sarebbe uno spreco. Sono proprio queste piccole cotture frequenti a fare, nell'arco di un anno, la differenza più grande rispetto al forno.</p>
 
-<h2>Modelli connessi: tenere d'occhio il consumo</h2>
-<p>Molte friggitrici ad aria sono ormai connesse al Wi-Fi e controllabili da app. Questo aiuta i consumi: i programmi precisi di temperatura e tempo evitano di superare la cottura necessaria e sprecare energia. D'altro canto, un modello connesso con display e modulo Wi-Fi assorbe 1-3 watt in standby di continuo, circa 9-26 kWh all'anno (3-9 € alla tariffa di esempio), che si cucini o meno. Una ciabatta con interruttore o una presa smart risolve il problema staccando del tutto l'alimentazione dopo l'uso.</p>
+<h2>Modelli smart: tenere d'occhio i consumi</h2>
+<p>Molte friggitrici ad aria ormai si collegano al Wi-Fi e si comandano dall'app. Per i consumi è un vantaggio: i programmi precisi di temperatura e durata evitano di prolungare la cottura oltre il necessario. D'altra parte, un modello smart con display e modulo Wi-Fi assorbe di continuo 1-3 watt in standby, cioè circa 9-26 kWh all'anno (3-9 € con la tariffa di esempio), che tu cucini o no. Una ciabatta con interruttore o una presa smart risolve il problema, togliendo del tutto la corrente dopo l'uso.</p>
 
-<h2>Modelli più efficienti ed etichetta energetica</h2>
-<p>I modelli <strong>Xiaomi</strong> e <strong>Cosori</strong> offrono un ottimo equilibrio tra potenza, tempo e consumo (ad esempio la Cosori Lite 3.8L da 1.500 W o la Xiaomi Smart Air Fryer Pro 4L da 1.600 W, circa 0,32-0,34 kWh in 18 minuti). Non esiste ancora una classe di efficienza energetica UE obbligatoria specifica per le friggitrici ad aria, a differenza di frigoriferi o lavatrici, quindi affidati a potenza, capacità e misurazioni reali. In generale, una potenza più moderata con capacità adeguata è un buon segnale di efficienza. Vedi la nostra selezione delle <a href="/it/blog/meilleur-airfryer-petit-budget">migliori friggitrici ad aria economiche</a>.</p>
+<h2>I modelli che consumano meno e l'etichetta energetica</h2>
+<p>I modelli <strong>Xiaomi</strong> e <strong>Cosori</strong> offrono un ottimo equilibrio tra potenza, tempi di cottura e consumi (per esempio la Cosori Lite 3.8L da 1.500 W o la Xiaomi Smart Air Fryer Pro 4L da 1.600 W, con circa 0,32-0,34 kWh per 18 minuti). Attenzione: a differenza di frigoriferi e lavatrici, per le friggitrici ad aria non esiste ancora una classe di efficienza energetica UE obbligatoria. Basati quindi sulla potenza, sulla capacità e sulle misurazioni dei consumi fatte da fonti indipendenti. In generale, una potenza moderata abbinata a una capacità sufficiente è un buon indice di efficienza. Trovi i nostri consigli nella selezione delle <a href="/it/blog/meilleur-airfryer-petit-budget">migliori friggitrici ad aria economiche</a>.</p>
 
 <h2>Conclusione</h2>
-<p>Anche con prezzi alti, la friggitrice ad aria resta uno dei metodi di cottura più economici per porzioni piccole e medie: circa 0,3-0,5 kWh per utilizzo e un costo annuo contenuto (circa 22 € a tre utilizzi a settimana).</p>
-<p>Non farti spaventare dalla potenza elevata indicata sull'etichetta. Ciò che conta è il consumo reale in kWh, che resta basso grazie ai tempi brevi, al piccolo volume e allo scarso preriscaldamento. Scegliendo un modello efficiente e applicando qualche semplice accorgimento, mantieni i costi elettrici al minimo nel lungo periodo, anche con tariffe alte.</p>`,
+<p>Anche con tariffe alte, la friggitrice ad aria resta uno dei modi di cucinare più economici per porzioni piccole e medie: circa 0,3-0,5 kWh per utilizzo e un costo annuo contenuto (circa 22 € con tre utilizzi a settimana).</p>
+<p>Non farti spaventare dalla potenza elevata indicata sull'etichetta. Quello che conta è il consumo reale in kWh, che resta basso grazie ai tempi di cottura brevi, al volume ridotto e al preriscaldamento quasi assente. Scegliendo un modello efficiente e seguendo qualche semplice accorgimento, terrai la spesa per la corrente al minimo nel tempo, anche con tariffe alte.</p>`,
 
-    nl: `<h2>Hoeveel stroom verbruikt een airfryer echt?</h2>
-<p>Duitsland heeft een van de hoogste stroomprijzen van Europa , maar de gebruikskosten zijn voor elk huishouden interessant. Het goede nieuws: ondanks een hoog vermogen verbruikt een airfryer in de praktijk weinig, ongeveer <strong>0,3 tot 0,5 kWh per keer</strong>, oftewel zo'n 10 tot 18 cent stroom per bereiding afhankelijk van je tarief.</p>
-<p><strong>Zo rekenen we:</strong> alle kostenvoorbeelden in deze gids gebruiken een <strong>voorbeeldtarief van € 0,35/kWh</strong>. Je eigen kWh-prijs staat op je energierekening en kan hoger of lager zijn. Voor je echte kosten vermenigvuldig je de genoemde kWh-waarden met jouw prijs per kWh.</p>
+    nl: `<h2>Hoeveel stroom verbruikt een airfryer echt? De cijfers</h2>
+<p>Wat kost een airfryer nu echt aan stroom? Die vraag speelt in elk huishouden, niet alleen in Duitsland, waar de stroomprijs tot de hoogste van Europa behoort. Het goede nieuws: ondanks het hoge vermogen op het typeplaatje verbruikt een airfryer in de praktijk weinig. Reken op ongeveer <strong>0,3 tot 0,5 kWh per keer</strong>, oftewel zo’n 10 tot 18 cent aan stroom per bereiding, afhankelijk van je tarief.</p>
+<p><strong>Zo rekenen we:</strong> alle kostenvoorbeelden in deze gids gaan uit van een <strong>voorbeeldtarief van 0,35 euro per kWh</strong>. Je eigen kWh-prijs staat op je energierekening en kan hoger of lager zijn. Je werkelijke kosten bereken je door het genoemde aantal kWh te vermenigvuldigen met je eigen prijs per kWh.</p>
 
-<h2>Vermogen is niet het werkelijke verbruik</h2>
-<p>De meest gemaakte fout is het vermogen lezen (bijvoorbeeld 1.700 W) en aannemen dat het apparaat 1,7 kWh per uur verbruikt. Het vermogen geeft alleen het maximale verbruik van het verwarmingselement bij volle belasting aan.</p>
-<p>Het element verwarmt in cycli: het schakelt uit zodra de temperatuur is bereikt en start weer bij daling. Tijdens een typische bereiding is het maar 50 tot 70 % van de tijd actief, en de meeste gerechten zijn klaar in 12 tot 25 minuten.</p>
+<h2>Vermogen is niet hetzelfde als verbruik</h2>
+<p>De meest gemaakte fout: je ziet het vermogen (bijvoorbeeld 1.700 W) en concludeert dat het apparaat 1,7 kWh per uur verbruikt. In werkelijkheid geeft het vermogen alleen aan hoeveel het verwarmingselement maximaal verbruikt als het volop aan staat.</p>
+<p>Het element werkt in cycli: het schakelt uit zodra de ingestelde temperatuur is bereikt en weer in als de temperatuur daalt. Tijdens een gemiddelde bereiding staat het maar 50 tot 70% van de tijd aan. Bovendien zijn de meeste gerechten in 12 tot 25 minuten klaar, niet in een heel uur.</p>
 <ul>
-<li><strong>kWh = (watt ÷ 1.000) × uren × activiteitsfactor</strong></li>
-<li>Voorbeeld: 1.700 W ÷ 1.000 = 1,7 kW × 0,25 u × 0,7 = <strong>≈ 0,30 kWh</strong></li>
+<li><strong>kWh = (vermogen in watt ÷ 1.000) × uren × inschakelduur</strong></li>
+<li>Voorbeeld: 1.700 W ÷ 1.000 = 1,7 kW × 0,25 uur × 0,7 = <strong>≈ 0,30 kWh</strong></li>
 </ul>
-<p>Het helpt om de opwarmfase te onderscheiden van de kookfase. In de eerste minuten trekt het apparaat het volle vermogen om snel op temperatuur te komen. Daarna daalt het verbruik sterk, omdat het element de warmte alleen nog bijregelt. Bij een bereiding van 20 minuten vallen maar drie tot vijf minuten in de meest energie-intensieve opwarmfase. Wil je je exacte verbruik weten, dan toont een eenvoudige energiemeter tussen het stopcontact en het apparaat de verbruikte kWh in realtime.</p>
+<p>Maak ook onderscheid tussen de opwarmfase en de bereidingsfase. In de eerste minuten trekt het apparaat zijn volle vermogen om snel op temperatuur te komen. Daarna daalt het verbruik flink, omdat het element de temperatuur alleen nog op peil houdt. Van een bereiding van 20 minuten vallen maar drie tot vijf minuten in die energie-intensieve opwarmfase. Wil je je verbruik precies weten? Een eenvoudige energiemeter tussen stopcontact en stekker laat de verbruikte kWh in realtime zien.</p>
 
-<h3>Geschat verbruik per keer (activiteitsfactor 0,7)</h3>
+<h3>Geschat verbruik per keer (inschakelduur 0,7)</h3>
 <table>
 <thead>
-<tr><th>Type apparaat</th><th>Vermogen</th><th>Tijd</th><th>kWh (schatting)</th><th>Kosten (€ 0,35/kWh)</th></tr>
+<tr><th>Type airfryer</th><th>Vermogen</th><th>Tijd</th><th>kWh (schatting)</th><th>Kosten (€ 0,35/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Compact (3-4 L)</td><td>1.400 W</td><td>15 min</td><td>≈ 0,25 kWh</td><td>≈ € 0,09</td></tr>
-<tr><td>Standaard (4-6 L)</td><td>1.600 W</td><td>18 min</td><td>≈ 0,34 kWh</td><td>≈ € 0,12</td></tr>
-<tr><td>Groot (7-8 L)</td><td>2.000 W</td><td>20 min</td><td>≈ 0,47 kWh</td><td>≈ € 0,16</td></tr>
-<tr><td>Dubbele mand (9-10 L)</td><td>2.400 W</td><td>22 min</td><td>≈ 0,62 kWh</td><td>≈ € 0,22</td></tr>
+<tr><td>Compact (3–4 L)</td><td>1.400 W</td><td>15 min</td><td>≈ 0,25 kWh</td><td>≈ € 0,09</td></tr>
+<tr><td>Standaard (4–6 L)</td><td>1.600 W</td><td>18 min</td><td>≈ 0,34 kWh</td><td>≈ € 0,12</td></tr>
+<tr><td>Groot (7–8 L)</td><td>2.000 W</td><td>20 min</td><td>≈ 0,47 kWh</td><td>≈ € 0,16</td></tr>
+<tr><td>Twee manden (9–10 L)</td><td>2.400 W</td><td>22 min</td><td>≈ 0,62 kWh</td><td>≈ € 0,22</td></tr>
 </tbody>
 </table>
 
-<h2>Jaarlijkse kosten: 3x per week vs elke dag</h2>
-<p>Op basis van gemiddeld 0,4 kWh per keer en het voorbeeldtarief van € 0,35/kWh (0,4 kWh × aantal keren × € 0,35).</p>
+<h2>Kosten per jaar: 3 keer per week of elke dag</h2>
+<p>Op basis van gemiddeld 0,4 kWh per keer en het voorbeeldtarief van 0,35 euro per kWh (0,4 kWh × aantal keer × € 0,35).</p>
 <table>
 <thead>
-<tr><th>Frequentie</th><th>Keren/jaar</th><th>Verbruik/jaar</th><th>Kosten/jaar (€ 0,35/kWh)</th></tr>
+<tr><th>Hoe vaak</th><th>Keer per jaar</th><th>Verbruik per jaar</th><th>Kosten per jaar (€ 0,35/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>1x per week</td><td>≈ 52</td><td>≈ 21 kWh</td><td>≈ € 7</td></tr>
-<tr><td>3x per week</td><td>≈ 156</td><td>≈ 62 kWh</td><td>≈ € 22</td></tr>
-<tr><td>5x per week</td><td>≈ 260</td><td>≈ 104 kWh</td><td>≈ € 36</td></tr>
+<tr><td>1 keer per week</td><td>≈ 52</td><td>≈ 21 kWh</td><td>≈ € 7</td></tr>
+<tr><td>3 keer per week</td><td>≈ 156</td><td>≈ 62 kWh</td><td>≈ € 22</td></tr>
+<tr><td>5 keer per week</td><td>≈ 260</td><td>≈ 104 kWh</td><td>≈ € 36</td></tr>
 <tr><td>Elke dag</td><td>≈ 365</td><td>≈ 146 kWh</td><td>≈ € 51</td></tr>
 </tbody>
 </table>
-<p>Zelfs dagelijks gebruik blijft bescheiden met zo'n € 51 per jaar. Drie keer per week kost amper € 22 stroom per jaar.</p>
+<p>Zelfs bij dagelijks gebruik blijven de kosten bescheiden: zo’n 51 euro per jaar. Gebruik je de airfryer drie keer per week, dan betaal je amper 22 euro per jaar aan stroom.</p>
 
-<h2>Vergeleken met een traditionele oven</h2>
-<p>Hier zit de besparing. Een oven moet 60-70 liter verwarmen en heeft voorverwarmen nodig; een airfryer verwarmt maar 3-8 liter.</p>
+<h2>Vergeleken met een gewone oven</h2>
+<p>Hier zit de grootste besparing. Een oven moet een ruimte van 60 tot 70 liter verwarmen en voorverwarmen. Een airfryer verwarmt maar 3 tot 8 liter.</p>
 <table>
 <thead>
 <tr><th>Apparaat</th><th>Verbruik per bereiding</th><th>Kosten (€ 0,35/kWh)</th></tr>
@@ -636,53 +636,53 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Airfryer</td><td>≈ 0,40 kWh</td><td>≈ € 0,14</td></tr>
 <tr><td>Heteluchtoven</td><td>≈ 1,20 kWh</td><td>≈ € 0,42</td></tr>
-<tr><td>Conventionele oven</td><td>≈ 1,50 kWh</td><td>≈ € 0,53</td></tr>
+<tr><td>Oven met boven- en onderwarmte</td><td>≈ 1,50 kWh</td><td>≈ € 0,53</td></tr>
 </tbody>
 </table>
-<p>De airfryer bespaart <strong>50 tot 70 % stroom</strong> ten opzichte van de oven voor dezelfde hoeveelheid. Meer in onze gids over <a href="/nl/blog/airfryer-economies-energie">energiebesparing met de airfryer</a>.</p>
+<p>Een airfryer bespaart dus <strong>50 tot 70% stroom</strong> ten opzichte van de oven, voor dezelfde hoeveelheid eten. Meer hierover lees je in onze gids over <a href="/nl/blog/airfryer-economies-energie">energie besparen met de airfryer</a>.</p>
 
 <h2>Vergeleken met een frituurpan</h2>
-<p>Een frituurpan moet 2-4 liter olie verwarmen en op 170-180 °C houden.</p>
+<p>Een frituurpan moet 2 tot 4 liter olie opwarmen en op 170 tot 180 °C houden.</p>
 <ul>
-<li><strong>Frituurpan:</strong> ≈ 0,6-0,8 kWh per keer.</li>
-<li><strong>Airfryer:</strong> ≈ 0,3-0,5 kWh per keer.</li>
+<li><strong>Frituurpan:</strong> ≈ 0,6 tot 0,8 kWh per keer.</li>
+<li><strong>Airfryer:</strong> ≈ 0,3 tot 0,5 kWh per keer.</li>
 </ul>
-<p>Plus de terugkerende kosten van olie die vervangen moet worden. Zie onze <a href="/nl/blog/airfryer-vs-friteuse-traditionnelle">vergelijking airfryer vs frituurpan</a>.</p>
+<p>Daar komen nog de kosten bij van olie die je regelmatig moet vervangen. Zie ook onze <a href="/nl/blog/airfryer-vs-friteuse-traditionnelle">vergelijking tussen airfryer en frituurpan</a>.</p>
 
-<h2>Tips om het verbruik verder te verlagen</h2>
+<h2>Tips om minder stroom te verbruiken</h2>
 <ul>
-<li><strong>Onnodig voorverwarmen vermijden:</strong> vaak overbodig, zeker bij diepvries.</li>
-<li><strong>In één keer koken:</strong> een goed gevulde mand is efficiënter dan twee kleine porties.</li>
-<li><strong>Dubbele-mand modellen:</strong> hoofdgerecht en bijgerecht tegelijk.</li>
-<li><strong>Regelmatig schoonmaken:</strong> een vies apparaat verbruikt 10-15 % meer.</li>
-<li><strong>Restwarmte benutten:</strong> bereidingen achter elkaar doen zolang het apparaat warm is.</li>
+<li><strong>Sla onnodig voorverwarmen over:</strong> vaak overbodig, zeker bij diepvriesproducten.</li>
+<li><strong>Bak in één keer:</strong> een goed gevulde mand is efficiënter dan twee kleine porties na elkaar.</li>
+<li><strong>Kies een model met twee manden:</strong> hoofdgerecht en bijgerecht in één keer.</li>
+<li><strong>Maak hem regelmatig schoon:</strong> een vuil apparaat verbruikt 10 tot 15% meer.</li>
+<li><strong>Benut de restwarmte:</strong> bereid gerechten direct na elkaar, zolang het apparaat nog warm is.</li>
 </ul>
 
-<h2>Verbruik in alledaagse situaties</h2>
-<p>Hier zijn realistische schattingen voor veelvoorkomende gerechten, tegen het voorbeeldtarief van € 0,35/kWh:</p>
+<h2>Verbruik bij alledaagse gerechten</h2>
+<p>Dit zijn realistische schattingen voor veelgemaakte gerechten, bij het voorbeeldtarief van 0,35 euro per kWh:</p>
 <table>
 <thead>
-<tr><th>Gerecht</th><th>Temperatuur / Tijd</th><th>kWh (schatting)</th><th>Kosten (€ 0,35/kWh)</th></tr>
+<tr><th>Gerecht</th><th>Temperatuur / tijd</th><th>kWh (schatting)</th><th>Kosten (€ 0,35/kWh)</th></tr>
 </thead>
 <tbody>
 <tr><td>Diepvriesfriet (2 pers.)</td><td>200 °C / 18 min</td><td>≈ 0,40 kWh</td><td>≈ € 0,14</td></tr>
 <tr><td>2 broodjes opwarmen</td><td>180 °C / 6 min</td><td>≈ 0,15 kWh</td><td>≈ € 0,05</td></tr>
 <tr><td>Kippenbouten</td><td>190 °C / 25 min</td><td>≈ 0,50 kWh</td><td>≈ € 0,18</td></tr>
 <tr><td>Groentemix</td><td>180 °C / 15 min</td><td>≈ 0,33 kWh</td><td>≈ € 0,12</td></tr>
-<tr><td>Opgewarmde pizza</td><td>160 °C / 8 min</td><td>≈ 0,18 kWh</td><td>≈ € 0,06</td></tr>
+<tr><td>Pizza opwarmen</td><td>160 °C / 8 min</td><td>≈ 0,18 kWh</td><td>≈ € 0,06</td></tr>
 </tbody>
 </table>
-<p>Voor het opwarmen of bereiden van kleine hoeveelheden is de airfryer onverslaanbaar: de oven aanzetten zou pure verspilling zijn. Juist deze kleine, frequente bereidingen leveren over het jaar de grootste besparing op ten opzichte van de oven.</p>
+<p>Voor het opwarmen of bereiden van kleine hoeveelheden is de airfryer de beste keuze: daarvoor de oven aanzetten is pure verspilling. Juist die kleine bereidingen, die je vaak doet, leveren over een heel jaar het grootste verschil met de oven op.</p>
 
-<h2>Connected modellen: houd het verbruik in de gaten</h2>
-<p>Veel airfryers zijn tegenwoordig met wifi verbonden en via een app te bedienen. Dat kan het verbruik helpen: nauwkeurige temperatuur- en tijdprogramma's voorkomen overgaren en energieverspilling. Aan de andere kant verbruikt een connected model met scherm en wifi-module continu 1 tot 3 watt in standby, ongeveer 9 tot 26 kWh per jaar (€ 3 tot € 9 tegen het voorbeeldtarief), of je nu kookt of niet. Een stekkerdoos met schakelaar of een slimme stekker lost dit op door de stroom na gebruik volledig af te sluiten.</p>
+<h2>Slimme modellen: het verbruik in de gaten houden</h2>
+<p>Veel airfryers hebben tegenwoordig wifi en zijn met een app te bedienen. Dat is gunstig voor het verbruik: met nauwkeurige programma’s voor temperatuur en tijd bak je niet langer dan nodig. Daar staat tegenover dat een slim model met scherm en wifimodule in stand-by continu 1 tot 3 watt verbruikt. Dat is zo’n 9 tot 26 kWh per jaar (3 tot 9 euro bij het voorbeeldtarief), of je nu kookt of niet. Met een stekkerdoos met schakelaar of een slimme stekker los je dat op: daarmee schakel je de stroom na gebruik helemaal uit.</p>
 
-<h2>Zuinigste modellen en het EU-energielabel</h2>
-<p>Modellen van <strong>Xiaomi</strong> en <strong>Cosori</strong> bieden een goede balans tussen vermogen, tijd en verbruik (bijvoorbeeld de Cosori Lite 3.8L met 1.500 W of de Xiaomi Smart Air Fryer Pro 4L met 1.600 W, ongeveer 0,32 tot 0,34 kWh in 18 minuten). Er bestaat nog geen verplichte EU-energie-efficiëntieklasse specifiek voor airfryers, anders dan bij koelkasten of wasmachines, dus let op vermogen, capaciteit en echte metingen. Over het algemeen is een gematigder vermogen bij voldoende capaciteit een goed teken van efficiëntie. Bekijk onze selectie van de <a href="/nl/blog/meilleur-airfryer-petit-budget">beste betaalbare airfryers</a>.</p>
+<h2>Zuinigste modellen en het energielabel</h2>
+<p>Modellen van <strong>Xiaomi</strong> en <strong>Cosori</strong> bieden een uitstekende verhouding tussen vermogen, bereidingstijd en verbruik (bijvoorbeeld de Cosori Lite 3.8L met 1.500 W of de Xiaomi Smart Air Fryer Pro 4L met 1.600 W: ongeveer 0,32 tot 0,34 kWh voor 18 minuten). Goed om te weten: er bestaat nog geen verplichte EU-energieklasse speciaal voor airfryers, zoals die er wel is voor koelkasten en wasmachines. Kijk dus naar het vermogen, de inhoud en onafhankelijke verbruiksmetingen. Als vuistregel geldt: een gematigd vermogen bij voldoende inhoud wijst op een efficiënt apparaat. Onze aanraders vind je in onze selectie van de <a href="/nl/blog/meilleur-airfryer-petit-budget">beste goedkope airfryers</a>.</p>
 
 <h2>Conclusie</h2>
-<p>Zelfs met hoge stroomprijzen blijft de airfryer een van de goedkoopste kookmethodes voor kleine tot middelgrote porties: ongeveer 0,3-0,5 kWh per keer en bescheiden jaarlijkse kosten (zo'n € 22 bij drie keer per week).</p>
-<p>Laat je niet afschrikken door het hoge vermogen op het label. Wat telt is het werkelijke verbruik in kWh, en dat blijft laag dankzij korte bereidingstijden, een klein volume en weinig tot geen voorverwarmen. Door een efficiënt model te kiezen en een paar simpele tips toe te passen, houd je de stroomkosten op lange termijn minimaal, zelfs bij hoge tarieven.</p>`,
+<p>Ook bij hoge stroomprijzen blijft de airfryer een van de zuinigste manieren om kleine en middelgrote porties te bereiden: ongeveer 0,3 tot 0,5 kWh per keer en bescheiden kosten per jaar (zo’n 22 euro bij drie keer per week).</p>
+<p>Laat je niet afschrikken door het hoge vermogen op het typeplaatje. Wat telt, is het werkelijke verbruik in kWh, en dat blijft laag dankzij korte bereidingstijden, een kleine ruimte en weinig of geen voorverwarmen. Kies je een efficiënt model en pas je een paar eenvoudige tips toe, dan houd je je stroomkosten blijvend laag, ook als de tarieven hoog zijn.</p>`,
     pl: `<h2>Ile prądu naprawdę zużywa frytkownica beztłuszczowa? Konkretne liczby</h2>
 <p>Niemcy płacą za prąd jedne z najwyższych stawek w Europie, ale pytanie o rzeczywisty koszt korzystania z frytkownicy beztłuszczowej dotyczy każdego gospodarstwa domowego. Dobra wiadomość: mimo wysokiej mocy podanej na obudowie frytkownica w praktyce zużywa niewiele prądu. Licz się ze zużyciem ok. <strong>0,3–0,5 kWh na jedno użycie</strong>, czyli zaledwie 45–75 groszy za prąd przy każdym użyciu, zależnie od Twojej stawki.</p>
 <p><strong>Jak liczymy:</strong> wszystkie koszty w tym poradniku wyliczyliśmy przy <strong>przykładowej stawce 1,50 zł/kWh</strong>. Swoją cenę za kWh znajdziesz na rachunku za prąd – może być wyższa lub niższa. Aby poznać rzeczywisty koszt, wystarczy pomnożyć podaną liczbę kWh przez swoją stawkę.</p>
@@ -1078,8 +1078,8 @@ export const article: BlogArticle = {
         fr: 'Combien d\'électricité consomme une airfryer ?',
         en: 'How much electricity does an air fryer use?',
         de: 'Wie viel Strom verbraucht eine Heißluftfritteuse?',
-        es: '¿Cuánta electricidad consume una freidora de aire?',
-        it: 'Quanta elettricità consuma una friggitrice ad aria?',
+        es: '¿Cuánto consume una freidora de aire?',
+        it: 'Quanto consuma una friggitrice ad aria?',
         nl: 'Hoeveel stroom verbruikt een airfryer?',
         pl: 'Ile prądu zużywa frytkownica beztłuszczowa?',
         sv: 'Hur mycket el drar en airfryer?',
@@ -1088,11 +1088,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Une airfryer consomme environ 0,3 à 0,5 kWh par utilisation de 15 à 20 minutes, malgré une puissance affichée de 1 400 à 2 000 W. La résistance ne chauffe pas en continu : elle fonctionne par cycles. Avec un tarif d\'exemple de 0,35 €/kWh, cela représente seulement 10 à 18 centimes par cuisson.',
-        en: 'An air fryer uses roughly 0.3 to 0.5 kWh per 15-20 minute session, despite a rated power of 1,400 to 2,000 W. The heating element does not run continuously — it cycles on and off. At an example rate of €0.35/kWh, that is only 10 to 18 cents per cook.',
-        de: 'Eine Heißluftfritteuse verbraucht etwa 0,3 bis 0,5 kWh pro Nutzung von 15 bis 20 Minuten, trotz einer Wattzahl von 1.400 bis 2.000 W. Das Heizelement läuft nicht durchgehend, sondern arbeitet in Zyklen. Bei einem Beispieltarif von 0,35 €/kWh sind das nur 10 bis 18 Cent Stromkosten pro Garvorgang.',
-        es: 'Una freidora de aire consume unos 0,3 a 0,5 kWh por uso de 15 a 20 minutos, pese a una potencia de 1.400 a 2.000 W. La resistencia no calienta de forma continua, sino por ciclos. Con una tarifa de ejemplo de 0,35 €/kWh, son solo 10 a 18 céntimos por cocción.',
-        it: 'Una friggitrice ad aria consuma circa 0,3-0,5 kWh per utilizzo di 15-20 minuti, nonostante una potenza di 1.400-2.000 W. La resistenza non scalda di continuo, ma a cicli. Con una tariffa di esempio di 0,35 €/kWh sono solo 10-18 centesimi per cottura.',
-        nl: 'Een airfryer verbruikt ongeveer 0,3 tot 0,5 kWh per keer van 15 tot 20 minuten, ondanks een vermogen van 1.400 tot 2.000 W. Het verwarmingselement draait niet continu maar in cycli. Tegen een voorbeeldtarief van € 0,35/kWh is dat slechts 10 tot 18 cent per bereiding.',
+        en: 'An air fryer uses roughly 0.3 to 0.5 kWh per 15- to 20-minute cook, even though it’s rated at 1,400 to 2,000 W. The heating element doesn’t run all the time: it switches on and off in cycles. At an example rate of €0.35/kWh, that’s only €0.10 to €0.18 per cook.',
+        de: 'Eine Heißluftfritteuse verbraucht etwa 0,3 bis 0,5 kWh pro Durchgang von 15 bis 20 Minuten, obwohl ihre Nennleistung bei 1.400 bis 2.000 W liegt. Das Heizelement heizt nicht durchgehend, sondern schaltet sich immer wieder ein und aus. Bei einem Beispieltarif von 0,35 €/kWh sind das nur 10 bis 18 Cent pro Garvorgang.',
+        es: 'Una freidora de aire consume entre 0,3 y 0,5 kWh por cada uso de 15 a 20 minutos, aunque su potencia indicada sea de 1.400 a 2.000 W. La resistencia no calienta de forma continua, sino por ciclos. Con una tarifa de ejemplo de 0,35 €/kWh, eso supone solo entre 10 y 18 céntimos por cocción.',
+        it: 'Una friggitrice ad aria consuma circa 0,3-0,5 kWh per un utilizzo di 15-20 minuti, anche se la potenza dichiarata è di 1.400-2.000 W. La resistenza infatti non scalda di continuo, ma a cicli. Con una tariffa di esempio di 0,35 €/kWh si spendono solo 10-18 centesimi a cottura.',
+        nl: 'Ongeveer 0,3 tot 0,5 kWh per keer van 15 tot 20 minuten, ook al vermeldt het apparaat een vermogen van 1.400 tot 2.000 W. Het verwarmingselement staat namelijk niet continu aan, maar werkt in cycli. Bij een voorbeeldtarief van 0,35 euro per kWh is dat maar 10 tot 18 cent per bereiding.',
         pl: 'Frytkownica beztłuszczowa zużywa ok. 0,3–0,5 kWh podczas jednego użycia trwającego 15–20 minut, choć jej moc wynosi 1400–2000 W. Grzałka nie grzeje bez przerwy, tylko pracuje cyklicznie. Przy przykładowej stawce 1,50 zł/kWh to zaledwie 45–75 groszy za każde użycie.',
         sv: 'En airfryer förbrukar ungefär 0,3–0,5 kWh per användning på 15–20 minuter, trots en angiven effekt på 1 400–2 000 W. Värmeelementet är inte på hela tiden utan arbetar i cykler. Med ett exempelpris på 3,85 kr/kWh blir det bara cirka 1,20–1,90 kr per tillagning.',
         us: 'An air fryer uses roughly 0.3 to 0.5 kWh per 15- to 20-minute session, despite a rated power of 1,400 to 2,000 W. The heating element doesn\'t run nonstop; it cycles on and off. At an example rate of 20 cents per kWh, that\'s only 6 to 10 cents per cook (check the rate on your utility bill).',
@@ -1103,9 +1103,9 @@ export const article: BlogArticle = {
       question: {
         fr: 'Une airfryer est-elle moins chère que le four ?',
         en: 'Is an air fryer cheaper to run than an oven?',
-        de: 'Ist eine Heißluftfritteuse günstiger als der Backofen?',
-        es: '¿Una freidora de aire es más barata que el horno?',
-        it: 'Una friggitrice ad aria è più economica del forno?',
+        de: 'Ist ein Airfryer im Verbrauch günstiger als der Backofen?',
+        es: '¿Sale más barato usar la freidora de aire que el horno?',
+        it: 'Usare la friggitrice ad aria costa meno del forno?',
         nl: 'Is een airfryer goedkoper dan de oven?',
         pl: 'Czy frytkownica beztłuszczowa jest tańsza niż piekarnik?',
         sv: 'Är en airfryer billigare i drift än ugnen?',
@@ -1114,11 +1114,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Oui, nettement. Une airfryer consomme environ 0,4 kWh par cuisson contre 1,2 à 1,5 kWh pour un four, soit une économie de 50 à 70 % d\'électricité pour la même quantité d\'aliments. L\'écart est encore plus grand pour les petites portions, car le four doit chauffer un grand volume et nécessite un préchauffage.',
-        en: 'Yes, significantly. An air fryer uses about 0.4 kWh per cook versus 1.2 to 1.5 kWh for an oven, a saving of 50 to 70 % of electricity for the same amount of food. The gap is even larger for small portions, because the oven must heat a large cavity and needs preheating.',
-        de: 'Ja, deutlich. Eine Heißluftfritteuse verbraucht etwa 0,4 kWh pro Garvorgang gegenüber 1,2 bis 1,5 kWh beim Backofen — eine Ersparnis von 50 bis 70 % Strom bei gleicher Speisemenge. Bei kleinen Portionen ist der Unterschied noch größer, da der Backofen ein großes Volumen aufheizen muss und Vorheizen benötigt.',
-        es: 'Sí, claramente. Una freidora de aire consume unos 0,4 kWh por cocción frente a 1,2 a 1,5 kWh de un horno, un ahorro del 50 al 70 % de electricidad para la misma cantidad. La diferencia es aún mayor en porciones pequeñas, porque el horno calienta un gran volumen y necesita precalentamiento.',
-        it: 'Sì, nettamente. Una friggitrice ad aria consuma circa 0,4 kWh per cottura contro 1,2-1,5 kWh di un forno, un risparmio del 50-70 % di elettricità per la stessa quantità. Il divario è ancora maggiore per porzioni piccole, perché il forno deve scaldare un grande volume e richiede il preriscaldamento.',
-        nl: 'Ja, duidelijk. Een airfryer verbruikt ongeveer 0,4 kWh per bereiding tegenover 1,2 tot 1,5 kWh voor een oven, een besparing van 50 tot 70 % stroom voor dezelfde hoeveelheid. Het verschil is nog groter bij kleine porties, omdat de oven een groot volume moet verwarmen en voorverwarmen nodig heeft.',
+        en: 'Yes, by a long way. An air fryer uses about 0.4 kWh per cook, compared with 1.2 to 1.5 kWh for an oven: 50 to 70% less electricity for the same amount of food. The gap is even bigger for small portions, because an oven has to heat a large cavity and needs preheating.',
+        de: 'Ja, deutlich. Ein Airfryer verbraucht etwa 0,4 kWh pro Garvorgang, ein Backofen 1,2 bis 1,5 kWh. Bei gleicher Menge sparen Sie also 50 bis 70 % Strom. Bei kleinen Portionen ist der Unterschied noch größer, weil der Backofen einen großen Garraum aufheizen und vorgeheizt werden muss.',
+        es: 'Sí, y bastante. Una freidora de aire consume unos 0,4 kWh por cocción, frente a los 1,2-1,5 kWh de un horno: entre un 50 y un 70 % menos de electricidad para la misma cantidad de comida. La diferencia es aún mayor con raciones pequeñas, porque el horno tiene que calentar un gran volumen y necesita precalentarse.',
+        it: 'Sì, decisamente. Una friggitrice ad aria consuma circa 0,4 kWh a cottura contro 1,2-1,5 kWh di un forno: a parità di cibo, si risparmia il 50-70% di elettricità. Con le porzioni piccole la differenza è ancora maggiore, perché il forno deve scaldare un grande volume e va preriscaldato.',
+        nl: 'Ja, duidelijk. Een airfryer verbruikt ongeveer 0,4 kWh per bereiding, tegenover 1,2 tot 1,5 kWh voor een oven. Dat scheelt 50 tot 70% stroom voor dezelfde hoeveelheid eten. Bij kleine porties is het verschil nog groter, omdat een oven een grote ruimte moet verwarmen en moet voorverwarmen.',
         pl: 'Tak, i to wyraźnie. Frytkownica beztłuszczowa zużywa ok. 0,4 kWh na jedno użycie, a piekarnik 1,2–1,5 kWh, co przy tej samej ilości jedzenia daje 50–70% oszczędności prądu. Przy małych porcjach różnica jest jeszcze większa, bo piekarnik musi nagrzać dużą komorę i wymaga nagrzewania wstępnego.',
         sv: 'Ja, klart billigare. En airfryer drar ungefär 0,4 kWh per tillagning mot 1,2–1,5 kWh för en ugn, vilket betyder 50–70 % mindre el för samma mängd mat. Skillnaden är ännu större för små portioner, eftersom ugnen måste värma upp ett stort utrymme och behöver förvärmas.',
         us: 'Yes, by a wide margin. An air fryer uses about 0.4 kWh per cook versus 1.2 to 1.5 kWh for an oven, so it saves 50% to 70% of the electricity for the same amount of food. The gap is even bigger for small portions, because an oven has to heat a large cavity and needs to preheat.',
@@ -1128,10 +1128,10 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Combien coûte une airfryer en électricité par an ?',
-        en: 'How much does an air fryer cost in electricity per year?',
-        de: 'Wie viel kostet eine Heißluftfritteuse pro Jahr an Strom?',
-        es: '¿Cuánto cuesta una freidora de aire en electricidad al año?',
-        it: 'Quanto costa una friggitrice ad aria in elettricità all\'anno?',
+        en: 'How much does an air fryer cost to run per year?',
+        de: 'Was kostet ein Airfryer im Jahr an Strom?',
+        es: '¿Cuánto gasta de luz una freidora de aire al año?',
+        it: 'Quanto costa all\'anno in bolletta una friggitrice ad aria?',
         nl: 'Hoeveel kost een airfryer per jaar aan stroom?',
         pl: 'Ile rocznie kosztuje prąd zużywany przez frytkownicę beztłuszczową?',
         sv: 'Vad kostar en airfryer i el per år?',
@@ -1140,11 +1140,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Avec un tarif d\'exemple de 0,35 €/kWh, une utilisation 3 fois par semaine coûte environ 22 € par an, et un usage quotidien environ 51 € par an. Ces chiffres sont des estimations basées sur 0,4 kWh par cuisson et varient selon le modèle, la durée de cuisson et le remplissage du panier.',
-        en: 'At an example rate of €0.35/kWh, using it 3 times a week costs about €22 a year, and daily use about €51 a year. These figures are estimates based on 0.4 kWh per cook and vary with the model, cooking time and how full the basket is.',
-        de: 'Bei einem Beispieltarif von 0,35 €/kWh kostet eine Nutzung 3-mal pro Woche etwa 22 € pro Jahr, tägliche Nutzung rund 51 € pro Jahr. Diese Werte sind Schätzungen auf Basis von 0,4 kWh pro Garvorgang und variieren je nach Modell, Garzeit und Befüllung des Korbs.',
-        es: 'Con una tarifa de ejemplo de 0,35 €/kWh, usarla 3 veces por semana cuesta unos 22 € al año, y a diario unos 51 € al año. Son estimaciones basadas en 0,4 kWh por cocción y varían según el modelo, el tiempo y el llenado de la cesta.',
-        it: 'Con una tariffa di esempio di 0,35 €/kWh, usarla 3 volte a settimana costa circa 22 € all\'anno, e ogni giorno circa 51 € all\'anno. Sono stime basate su 0,4 kWh per cottura e variano in base al modello, al tempo e al riempimento del cestello.',
-        nl: 'Tegen een voorbeeldtarief van € 0,35/kWh kost 3 keer per week gebruiken zo\'n € 22 per jaar, en dagelijks gebruik ongeveer € 51 per jaar. Dit zijn schattingen op basis van 0,4 kWh per bereiding en variëren met het model, de bereidingstijd en hoe vol de mand is.',
+        en: 'At an example rate of €0.35/kWh, using it three times a week costs about €22 a year, and using it every day about €51 a year. These figures are estimates based on 0.4 kWh per cook; they vary with the model, the cooking time and how full the basket is.',
+        de: 'Bei einem Beispieltarif von 0,35 €/kWh kostet die Nutzung dreimal pro Woche etwa 22 € im Jahr, die tägliche Nutzung rund 51 € im Jahr. Das sind Schätzungen auf Basis von 0,4 kWh pro Garvorgang; die tatsächlichen Werte hängen von Modell, Garzeit und Füllmenge im Korb ab.',
+        es: 'Con una tarifa de ejemplo de 0,35 €/kWh, usarla 3 veces por semana cuesta unos 22 € al año, y usarla a diario, unos 51 €. Son estimaciones calculadas con 0,4 kWh por cocción, y varían según el modelo, el tiempo de cocción y lo llena que vaya la cesta.',
+        it: 'Con una tariffa di esempio di 0,35 €/kWh, usarla 3 volte a settimana costa circa 22 € all\'anno; usarla tutti i giorni, circa 51 €. Sono stime basate su 0,4 kWh a cottura e variano in base al modello, alla durata della cottura e a quanto è pieno il cestello.',
+        nl: 'Ongeveer 22 euro per jaar als je hem 3 keer per week gebruikt, en zo’n 51 euro bij dagelijks gebruik, uitgaande van een voorbeeldtarief van 0,35 euro per kWh. Het zijn schattingen op basis van 0,4 kWh per bereiding. De werkelijke kosten hangen af van het model, de bereidingstijd en hoe vol de mand is.',
         pl: 'Przy przykładowej stawce 1,50 zł/kWh korzystanie z frytkownicy 3 razy w tygodniu kosztuje ok. 94 zł rocznie, a codzienne – ok. 219 zł rocznie. To szacunki przy założeniu 0,4 kWh na jedno użycie; rzeczywisty koszt zależy od modelu, czasu pracy i tego, jak bardzo wypełniony jest kosz.',
         sv: 'Med ett exempelpris på 3,85 kr/kWh kostar användning 3 gånger i veckan cirka 240 kr per år och daglig användning cirka 560 kr per år. Siffrorna är uppskattningar baserade på 0,4 kWh per tillagning och varierar med modell, tillagningstid och hur full korgen är.',
         us: 'At an example rate of 20 cents per kWh, using it 3 times a week costs about $12 a year, and daily use about $29 a year. These are estimates based on 0.4 kWh per cook; the real figure depends on the model, the cook time, how full the basket is and the rate on your utility bill.',
@@ -1155,10 +1155,10 @@ export const article: BlogArticle = {
       question: {
         fr: 'Quels sont les modèles d\'airfryer les plus économes ?',
         en: 'Which air fryer models are the most energy efficient?',
-        de: 'Welche Heißluftfritteusen-Modelle sind am sparsamsten?',
-        es: '¿Qué modelos de freidora de aire son los más eficientes?',
-        it: 'Quali modelli di friggitrice ad aria sono i più efficienti?',
-        nl: 'Welke airfryer-modellen zijn het zuinigst?',
+        de: 'Welche Airfryer-Modelle sind am sparsamsten?',
+        es: '¿Qué freidoras de aire consumen menos?',
+        it: 'Quali friggitrici ad aria consumano meno?',
+        nl: 'Welke airfryers zijn het zuinigst?',
         pl: 'Które frytkownice beztłuszczowe są najbardziej oszczędne?',
         sv: 'Vilka airfryrar är snålast på el?',
         us: 'Which air fryer models are the most energy efficient?',
@@ -1166,11 +1166,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Les modèles à puissance modérée et bonne gestion de la chaleur sont les plus économes. Xiaomi et Cosori se distinguent par un bon rapport entre puissance, temps de cuisson et consommation (environ 0,32 à 0,34 kWh pour 18 minutes de cuisson). En général, une puissance plus faible pour une capacité suffisante est un bon indicateur d\'efficacité.',
-        en: 'Models with moderate wattage and good heat management are the most efficient. Xiaomi and Cosori stand out with a good balance of power, cooking time and consumption (around 0.32 to 0.34 kWh for an 18-minute cook). In general, lower wattage for an adequate capacity is a good sign of efficiency.',
-        de: 'Modelle mit moderater Wattzahl und gutem Wärmemanagement sind am sparsamsten. Xiaomi und Cosori überzeugen mit einem guten Verhältnis aus Leistung, Garzeit und Verbrauch (etwa 0,32 bis 0,34 kWh bei 18 Minuten Garzeit). Generell ist eine niedrigere Wattzahl bei ausreichendem Volumen ein guter Hinweis auf Effizienz.',
-        es: 'Los modelos con potencia moderada y buena gestión del calor son los más eficientes. Xiaomi y Cosori destacan por un buen equilibrio entre potencia, tiempo y consumo (unos 0,32 a 0,34 kWh en 18 minutos). En general, una potencia más baja con capacidad suficiente es buena señal de eficiencia.',
-        it: 'I modelli con potenza moderata e buona gestione del calore sono i più efficienti. Xiaomi e Cosori spiccano per un buon equilibrio tra potenza, tempo e consumo (circa 0,32-0,34 kWh in 18 minuti). In generale, una potenza più bassa con capacità adeguata è un buon segnale di efficienza.',
-        nl: 'Modellen met gematigd vermogen en goed warmtebeheer zijn het zuinigst. Xiaomi en Cosori vallen op met een goede balans tussen vermogen, tijd en verbruik (ongeveer 0,32 tot 0,34 kWh in 18 minuten). Over het algemeen is een lager vermogen bij voldoende capaciteit een goed teken van efficiëntie.',
+        en: 'Models with a moderate wattage and good heat management use the least energy. Xiaomi and Cosori stand out for their balance of power, cooking time and energy use (around 0.32 to 0.34 kWh for an 18-minute cook). In general, a lower wattage for a capacity that’s big enough is a good sign of efficiency.',
+        de: 'Am sparsamsten sind Modelle mit moderater Wattzahl und gutem Wärmemanagement. Xiaomi und Cosori fallen durch ein gutes Verhältnis von Leistung, Garzeit und Verbrauch auf (etwa 0,32 bis 0,34 kWh bei 18 Minuten Garzeit). Generell gilt: Eine niedrigere Wattzahl bei ausreichendem Fassungsvermögen ist ein guter Hinweis auf Effizienz.',
+        es: 'Las que menos gastan son los modelos de potencia moderada y con buena gestión del calor. Xiaomi y Cosori destacan por su buen equilibrio entre potencia, tiempo de cocción y consumo (unos 0,32 a 0,34 kWh en 18 minutos de cocción). En general, una potencia más baja con una capacidad suficiente es buena señal de eficiencia.',
+        it: 'Consumano meno i modelli con una potenza moderata e una buona gestione del calore. Xiaomi e Cosori si distinguono per il buon equilibrio tra potenza, tempi di cottura e consumi (circa 0,32-0,34 kWh per 18 minuti di cottura). In generale, una potenza più bassa abbinata a una capacità sufficiente è un buon indice di efficienza.',
+        nl: 'Modellen met een gematigd vermogen en een goede warmteregeling zijn het zuinigst. Xiaomi en Cosori vallen op door een goede verhouding tussen vermogen, bereidingstijd en verbruik (ongeveer 0,32 tot 0,34 kWh voor 18 minuten). Als vuistregel geldt: een lager vermogen bij voldoende inhoud wijst op een efficiënt apparaat.',
         pl: 'Najoszczędniejsze są modele o umiarkowanej mocy, które dobrze gospodarują ciepłem. Wyróżniają się tu frytkownice marek Xiaomi i Cosori, w których moc, czas przyrządzania i zużycie prądu są dobrze zrównoważone (ok. 0,32–0,34 kWh w ciągu 18 minut). Ogólna zasada: niższa moc przy wystarczającej pojemności dobrze świadczy o efektywności urządzenia.',
         sv: 'Modeller med måttlig effekt och bra värmestyrning är snålast. Xiaomi och Cosori utmärker sig med en bra balans mellan effekt, tillagningstid och förbrukning (ungefär 0,32–0,34 kWh för 18 minuters tillagning). Generellt är en lägre effekt för en tillräcklig volym ett bra tecken på effektivitet.',
         us: 'Models with moderate wattage and good heat management are the most efficient. Xiaomi and Cosori stand out with a good balance of power, cooking time and consumption (around 0.32 to 0.34 kWh for an 18-minute cook). In general, lower wattage for an adequate capacity is a good sign of efficiency.',
@@ -1182,7 +1182,7 @@ export const article: BlogArticle = {
         fr: 'Existe-t-il un label énergie UE pour les airfryers ?',
         en: 'Is there an EU energy label for air fryers?',
         de: 'Gibt es ein EU-Energielabel für Heißluftfritteusen?',
-        es: '¿Existe una etiqueta energética UE para freidoras de aire?',
+        es: '¿Tienen etiqueta energética europea las freidoras de aire?',
         it: 'Esiste un\'etichetta energetica UE per le friggitrici ad aria?',
         nl: 'Bestaat er een EU-energielabel voor airfryers?',
         pl: 'Czy dla frytkownic beztłuszczowych istnieje unijna etykieta energetyczna?',
@@ -1192,11 +1192,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Non, il n\'existe pas encore de classe d\'efficacité énergétique UE obligatoire spécifique aux airfryers, contrairement aux réfrigérateurs ou aux lave-linge. Pour évaluer la consommation, fiez-vous à la puissance en watts, à la capacité en litres et aux mesures de consommation réelles issues de tests indépendants.',
-        en: 'No, there is no dedicated mandatory EU energy efficiency class for air fryers yet, unlike for fridges or washing machines. To assess consumption, rely on the wattage, the capacity in litres and real-world measurements from independent tests.',
-        de: 'Nein, es gibt bislang keine eigene verpflichtende EU-Energieeffizienzklasse speziell für Heißluftfritteusen, anders als bei Kühlschränken oder Waschmaschinen. Um den Verbrauch einzuschätzen, orientieren Sie sich an der Wattzahl, der Kapazität in Litern und realen Verbrauchsmessungen aus unabhängigen Tests.',
-        es: 'No, todavía no existe una clase de eficiencia energética UE obligatoria específica para freidoras de aire, a diferencia de neveras o lavadoras. Para evaluar el consumo, fíjate en la potencia en vatios, la capacidad en litros y las mediciones reales de tests independientes.',
-        it: 'No, non esiste ancora una classe di efficienza energetica UE obbligatoria specifica per le friggitrici ad aria, a differenza di frigoriferi o lavatrici. Per valutare il consumo, affidati alla potenza in watt, alla capacità in litri e alle misurazioni reali da test indipendenti.',
-        nl: 'Nee, er bestaat nog geen verplichte EU-energie-efficiëntieklasse specifiek voor airfryers, anders dan bij koelkasten of wasmachines. Om het verbruik in te schatten, let je op het vermogen in watt, de capaciteit in liters en echte metingen uit onafhankelijke tests.',
+        en: 'No. Unlike fridges and washing machines, air fryers don’t yet have a mandatory EU energy efficiency class of their own. To judge how much energy one uses, look at the wattage, the capacity in litres and real-world consumption figures from independent tests.',
+        de: 'Nein, anders als für Kühlschränke oder Waschmaschinen gibt es bislang keine eigene verpflichtende EU-Energieeffizienzklasse für Heißluftfritteusen. Um den Verbrauch einzuschätzen, orientieren Sie sich an der Wattzahl, am Fassungsvermögen in Litern und an realen Verbrauchsmessungen aus unabhängigen Testberichten.',
+        es: 'No. Todavía no existe una clase de eficiencia energética europea obligatoria específica para las freidoras de aire, a diferencia de los frigoríficos o las lavadoras. Para hacerte una idea del consumo, fíjate en la potencia en vatios, la capacidad en litros y las mediciones de consumo real de pruebas independientes.',
+        it: 'No, a differenza di frigoriferi e lavatrici, per le friggitrici ad aria non esiste ancora una classe di efficienza energetica UE obbligatoria. Per valutarne i consumi, basati sulla potenza in watt, sulla capacità in litri e sulle misurazioni reali dei test indipendenti.',
+        nl: 'Nee, er bestaat nog geen verplichte EU-energieklasse speciaal voor airfryers, zoals die er wel is voor koelkasten en wasmachines. Om het verbruik in te schatten, kijk je naar het vermogen in watt, de inhoud in liters en echte verbruiksmetingen uit onafhankelijke tests.',
         pl: 'Nie. W przeciwieństwie do lodówek czy pralek frytkownice beztłuszczowe nie mają jeszcze obowiązkowej unijnej klasy efektywności energetycznej. Aby ocenić zużycie, kieruj się mocą w watach, pojemnością w litrach i rzeczywistymi pomiarami zużycia z niezależnych testów.',
         sv: 'Nej, det finns ännu ingen obligatorisk energiklass inom EU för just airfryrar, till skillnad från kylskåp och tvättmaskiner. För att bedöma förbrukningen kan du utgå från effekten i watt, volymen i liter och verkliga förbrukningsmätningar från oberoende utvärderingar.',
         us: 'Not in the EU yet: unlike refrigerators and washing machines, air fryers have no dedicated, mandatory EU energy efficiency class. To judge energy use, go by the wattage, the capacity in quarts or liters and real-world consumption measurements from independent tests.',

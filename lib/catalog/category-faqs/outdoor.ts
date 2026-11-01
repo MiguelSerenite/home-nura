@@ -27,15 +27,15 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     en: [
       {
         question: "What size robot mower do I need for my lawn?",
-        answer: "Choose a mower rated for about 20–30% more than your actual lawn area, because the rated figure assumes a flat, simple, single-zone garden. Slopes, narrow side passages and separate front and back lawns all add mowing time. Check the maximum slope, given as a percentage (45° equals 100%), and whether the mower can handle more than one zone. For a small lawn, an entry-level model is usually enough; a bigger rating mainly buys a faster finish.",
+        answer: "Choose a mower rated for about 20 to 30% more than your actual lawn area, because the rated figure assumes a flat, simple, single-zone garden. Slopes, narrow side passages and separate front and back lawns all add mowing time. Check the maximum slope, given as a percentage (45° equals 100%), and whether the mower can handle more than one zone. For a small lawn, an entry-level model is usually enough; a higher rating mostly just means it finishes sooner.",
       },
       {
         question: "Wire-free robot mower or boundary wire: which is better?",
-        answer: "Wire-free is easier to set up and change, but boundary wire is still the most dependable option in small, enclosed gardens with tall fences and trees. RTK models navigate by satellite and need a clear view of the sky, which high fences, hedges and neighbouring houses can block. Vision models follow lawn edges with a camera and struggle when the border is unclear or the light is poor. Many newer mowers combine both to cover each other's weak spots.",
+        answer: "Wire-free is easier to set up and change, but boundary wire is still the most dependable option in small, enclosed gardens with tall fences and trees. RTK models navigate by satellite and need a clear view of the sky, which high fences, hedges and neighbouring houses can block. Vision models follow lawn edges with a camera and struggle when the border is unclear or the light is poor. Many newer mowers combine RTK and a camera to cover each other’s weak spots.",
       },
       {
         question: "Are robot mowers safe for hedgehogs?",
-        answer: "Only if you run them in daylight: hedgehogs forage at night, curl up instead of running away and can be badly injured by mower blades. Set the schedule to daytime hours, never dusk to dawn, and walk the lawn before the first run of the day if you have a wild corner or log pile. Lift sensors stop the blades for children and pets, but it is still best to keep them off the lawn while the mower works.",
+        answer: "Only if you run them in daylight: hedgehogs forage at night, curl up instead of running away and can be badly injured by mower blades. Set the schedule to daytime hours, never dusk to dawn, and walk the lawn before the first run of the day if you have a wild corner or log pile. Lift sensors stop the blades for children and pets, but it’s still best to keep them off the lawn while the mower is running.",
       },
       {
         question: "How do I stop my robot mower being stolen?",
@@ -43,7 +43,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a robot mower cost to run?",
-        answer: "Electricity is a small cost: a mower using 6 kWh a month for seven months costs about £10.50 a season at 25p per kWh. Check the monthly figure on the spec sheet and multiply by your own unit rate. The bigger running costs are replacement blades, which are cheap but changed several times a season, and eventually a new battery. Store the mower in a dry, frost-free shed or garage over winter, fully charged, to protect the battery.",
+        answer: "Electricity is a small cost: a mower using 6 kWh a month for seven months costs about £10.50 a season at 25p per kWh. Check the monthly figure on the spec sheet and multiply by your own unit rate. The bigger running costs are replacement blades, which are cheap but need changing several times a season, and eventually a new battery. Store the mower in a dry, frost-free shed or garage over winter, fully charged, to protect the battery.",
       },
     ],
     de: [
@@ -71,23 +71,23 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Qué robot cortacésped elegir según los metros de tu jardín?",
-        answer: "Elige un modelo indicado para un 20-30 % más de superficie que tu césped real, porque la cifra del fabricante supone un terreno llano y continuo. Pendientes, pasillos estrechos y zonas separadas alargan la siega. Revisa la pendiente máxima en porcentaje (45° equivalen al 100 %) y si gestiona varias zonas. En una parcela pequeña de urbanización suele bastar un modelo de gama de entrada; pagar más capacidad sirve sobre todo para terminar antes.",
+        answer: "Elige un modelo indicado para un 20 o 30 % más de superficie que tu césped real, porque la cifra del fabricante supone un terreno llano y de una sola pieza. Las pendientes, los pasos estrechos y las zonas separadas alargan la siega. Revisa la pendiente máxima en porcentaje (45° equivalen al 100 %) y si gestiona varias zonas. En una parcela pequeña de urbanización suele bastar un modelo de gama de entrada; pagar por más capacidad sirve sobre todo para que termine antes.",
       },
       {
         question: "¿Robot cortacésped con cable perimetral o sin cable?",
         answer: "Sin cable es más cómodo de instalar y de modificar, pero el cable perimetral sigue siendo lo más fiable en jardines con muchos árboles o muros altos. Los modelos RTK se guían por satélite con una antena fija y pierden precisión si el cielo queda tapado. Los de visión siguen el borde del césped con una cámara y dudan cuando el límite con el parterre no está claro. Los que combinan ambas tecnologías compensan mejor los puntos débiles.",
       },
       {
-        question: "¿Vale la pena un robot cortacésped con el calor y la sequía del verano?",
-        answer: "Sí, siempre que ajustes la altura y los horarios: en pleno verano conviene cortar más alto y programar el robot a primera hora de la mañana. Un césped cortado muy bajo sufre más con el calor y deja el suelo más expuesto al sol, así que sube la altura de corte unos centímetros en julio y agosto. Si el césped crece poco por las restricciones de riego, reduce los días de siega. Con césped artificial o grava, el robot no te aporta nada.",
+        question: "¿Merece la pena un robot cortacésped con el calor y la sequía del verano?",
+        answer: "Sí, siempre que ajustes la altura y el horario: en julio y agosto, sube unos centímetros la altura de corte y programa el robot a primera hora de la mañana. Un césped muy corto sufre más con el calor y deja el suelo más expuesto al sol. Si el césped crece poco por las restricciones de riego, reduce los días de siega. Con césped artificial o grava, el robot no te aporta nada.",
       },
       {
         question: "¿Es peligroso un robot cortacésped para niños, mascotas y erizos?",
-        answer: "Puede serlo si funciona sin vigilancia: no lo programes de noche, porque los erizos salen al anochecer y no huyen de las cuchillas. De día, mantén a niños y mascotas fuera del césped mientras trabaja, aunque las cuchillas se detengan al levantar el robot. En urbanizaciones, revisa también las normas de la comunidad y la ordenanza municipal de ruido, que pueden fijar horarios de descanso también para la maquinaria de jardín.",
+        answer: "Puede serlo si funciona sin vigilancia: no lo programes de noche, porque los erizos salen al anochecer y no huyen de las cuchillas. De día, mantén a niños y mascotas fuera del césped mientras trabaja, aunque las cuchillas se detengan al levantar el robot. En urbanizaciones, revisa también las normas de la comunidad y la ordenanza municipal de ruido, que pueden fijar horarios de descanso incluso para la maquinaria de jardín.",
       },
       {
         question: "¿Cuánto consume un robot cortacésped y qué mantenimiento necesita?",
-        answer: "Consume poco: con 6 kWh al mes durante ocho meses y un precio de 0,15 € por kWh, la temporada cuesta unos 7 €. Mira el dato mensual en la ficha técnica y multiplícalo por el precio de tu tarifa. El gasto real está en las cuchillas pequeñas, que se cambian varias veces por temporada, y a la larga en la batería. Limpia los bajos cada semana con un cepillo, nunca con agua a presión, y guárdalo cargado y a cubierto durante el invierno.",
+        answer: "Consume poco: con 6 kWh al mes durante ocho meses y un precio de ejemplo de 0,15 €/kWh, la temporada sale por unos 7 €. Mira el consumo mensual en la ficha técnica y multiplícalo por el precio de tu tarifa. El gasto de verdad está en las cuchillas pequeñas, que se cambian varias veces por temporada, y a la larga en la batería. Limpia los bajos cada semana con un cepillo, nunca con agua a presión, y en invierno guárdalo cargado y a cubierto.",
       },
     ],
     it: [
@@ -101,15 +101,15 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Quanto consuma un robot tagliaerba?",
-        answer: "Poco: con 6 kWh al mese per sette mesi e 0,30 € per kWh spendi circa 13 € a stagione. Il consumo mensile si trova nella scheda tecnica: moltiplicalo per il prezzo della tua bolletta e per i mesi di utilizzo. Pesano di più i ricambi, cioè le piccole lame da cambiare più volte a stagione e, dopo alcuni anni, la batteria. Rispetto a un tosaerba a scoppio, non ci sono benzina né olio da comprare.",
+        answer: "Poco: con 6 kWh al mese per sette mesi e un prezzo d'esempio di 0,25 € al kWh spendi circa 10 € a stagione. Il consumo mensile si trova nella scheda tecnica: moltiplicalo per il prezzo del kWh della tua bolletta e per i mesi di utilizzo. Pesano di più i ricambi, cioè le piccole lame da cambiare più volte a stagione e, dopo alcuni anni, la batteria. Rispetto a un tosaerba a benzina, non ci sono carburante né olio da comprare.",
       },
       {
         question: "Il robot tagliaerba è sicuro per bambini, animali e ricci?",
-        answer: "Sì di giorno e sotto controllo, no di notte: i ricci escono al buio, non scappano davanti alle lame e possono ferirsi gravemente. Programma il robot solo nelle ore di luce e tieni bambini e animali lontani dal prato mentre lavora, anche se le lame si fermano quando la macchina viene sollevata. Verifica poi il regolamento comunale o condominiale sugli orari di silenzio, che può valere anche per i rasaerba.",
+        answer: "Sì, di giorno e sotto sorveglianza; di notte no: i ricci escono al buio, non scappano davanti alle lame e possono ferirsi gravemente. Programma il robot solo nelle ore di luce e tieni bambini e animali lontani dal prato mentre lavora, anche se le lame si fermano quando la macchina viene sollevata. Verifica poi il regolamento comunale o condominiale sugli orari di silenzio, che può valere anche per i robot tagliaerba.",
       },
       {
         question: "Come si fa il rimessaggio invernale del robot tagliaerba?",
-        answer: "Puliscilo bene, ricarica la batteria e conservalo in un locale asciutto e al riparo dal gelo fino alla primavera. Spazzola l'erba incrostata sotto la scocca senza usare idropulitrici, controlla le lame e sostituiscile se sono smussate. Per la base di ricarica segui il manuale: alcuni produttori consigliano di ritirarla, altri di lasciarla fuori scollegata. Prima della ripartenza aggiorna il firmware dall'app e ricontrolla la mappa o il filo perimetrale.",
+        answer: "Puliscilo bene, ricarica la batteria e conservalo in un locale asciutto e al riparo dal gelo fino alla primavera. Spazzola l'erba incrostata sotto la scocca senza usare idropulitrici, controlla le lame e sostituiscile se sono consumate. Per la base di ricarica segui il manuale: alcuni produttori consigliano di ritirarla, altri di lasciarla fuori scollegata. Prima della ripartenza aggiorna il firmware dall'app e ricontrolla la mappa o il filo perimetrale.",
       },
     ],
     nl: [
@@ -248,16 +248,16 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     en: [
       {
-        question: "Can I use a smart irrigation system during a hosepipe ban?",
-        answer: "Usually only for drip irrigation: sprinklers and sprinkler-style systems on mains water are banned, but drip systems fitted with a timer and pressure-reducing valve are often exempt. Exemptions vary between water companies, so read your supplier's Temporary Use Ban notice before relying on one. Breaking a ban can lead to a fine of up to £1,000. Watering cans and water butts remain allowed, and a controller with a weather skip helps you use less once the ban lifts.",
+        question: "Can I use a smart watering system during a hosepipe ban?",
+        answer: "Usually only for drip irrigation: sprinklers and sprinkler-style systems on mains water are banned, but drip systems fitted with a timer and pressure-reducing valve are often exempt. Exemptions vary between water companies, so read your supplier’s Temporary Use Ban notice before relying on one. Breaking a ban can lead to a fine of up to £1,000. You can still use a watering can or water from a water butt, and a controller with a weather skip helps you use less once the ban lifts.",
       },
       {
-        question: "How much water does a sprinkler use on a water meter?",
-        answer: "Multiply flow by time: a sprinkler delivering 600 litres an hour uses 200 litres in 20 minutes. If you are on a water meter, divide by 1,000 and multiply by your supplier's price per cubic metre, adding the sewerage charge if it is billed on water used. Drip lines use far less: 30 drippers at 2 litres an hour for an hour is 60 litres. A controller that skips runs after rain avoids wasted cycles.",
+        question: "How much water does a sprinkler use if I’m on a water meter?",
+        answer: "Multiply flow by time: a sprinkler delivering 600 litres an hour uses 200 litres in 20 minutes. To work out the cost, divide by 1,000 and multiply by your water company’s price per cubic metre, plus the sewerage charge if it’s based on the water you use. Drip lines use far less: 30 drippers at 2 litres an hour for an hour is 60 litres. A controller that skips runs after rain avoids wasted cycles.",
       },
       {
         question: "Which smart watering controller should I buy?",
-        answer: "For a hose or drip kit, a tap timer is enough; for buried sprinkler zones, choose a multi-zone controller that drives solenoid valves. Pick Wi-Fi through a hub rather than Bluetooth alone, so you can change schedules away from home and use weather skips. Check it works with your system, whether Alexa, Google Home or Apple Home, and that the outdoor tap is within range. A soil moisture sensor is worth adding on sandy or clay soils.",
+        answer: "For a hose or drip kit, a tap timer is enough; for buried sprinkler zones, choose a multi-zone controller that drives solenoid valves. Choose one that connects to Wi-Fi through a hub rather than Bluetooth alone, so you can change schedules away from home and use weather skips. Check it works with your smart home platform, whether Alexa, Google Home or Apple Home, and that your outside tap is within range. A soil moisture sensor is worth adding on sandy or clay soils.",
       },
       {
         question: "Can a smart tap timer run from a water butt?",
@@ -293,7 +293,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Puedo regar el jardín si hay restricciones por sequía?",
-        answer: "Depende de lo que dicten tu ayuntamiento, tu comunidad autónoma o la confederación hidrográfica: en sequía pueden limitar el riego a ciertas horas o prohibirlo. En la sequía de 2023 y 2024, por ejemplo, Cataluña llegó a restringir el riego de jardines con agua de la red. Consulta los bandos municipales y programa el riego solo en los horarios permitidos, normalmente de noche o de madrugada. El goteo para árboles y huertos a veces cuenta con excepciones.",
+        answer: "Depende de lo que dicten tu ayuntamiento, tu comunidad autónoma o la confederación hidrográfica: en sequía pueden limitar el riego a ciertas horas o prohibirlo. En la sequía de 2023 y 2024, por ejemplo, Cataluña llegó a restringir el riego de jardines con agua de la red. Consulta los bandos municipales y programa el riego solo en los horarios permitidos, normalmente de noche o de madrugada. El riego por goteo de árboles y huertos a veces queda exento.",
       },
       {
         question: "¿Riego por goteo o por aspersión con el calor del verano?",
@@ -301,11 +301,11 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "¿Qué programador de riego inteligente elegir: de grifo o de varias zonas?",
-        answer: "De grifo si riegas con manguera o un kit de goteo; de varias zonas si tienes electroválvulas enterradas para aspersores o difusores. Prefiere wifi con pasarela al bluetooth solo, porque así cambias la programación desde fuera y aprovechas la previsión meteorológica. Comprueba que se integra con Alexa, Google Home o Apple Home si ya los usas. Si el agua de tu zona es dura, elige un modelo con filtro de entrada fácil de limpiar.",
+        answer: "De grifo si riegas con manguera o un kit de goteo; de varias zonas si tienes electroválvulas enterradas para aspersores o difusores. Mejor wifi con pasarela que solo bluetooth: así cambias la programación desde fuera de casa y aprovechas la previsión meteorológica. Comprueba que se integra con Alexa, Google Home o Apple Home si ya los usas. Si el agua de tu zona es dura, elige un modelo con un filtro de entrada fácil de limpiar.",
       },
       {
         question: "¿Cuánta agua gasta el riego automático y cuánto cuesta?",
-        answer: "Calcula caudal por tiempo: un aspersor de 600 litros por hora gasta 200 litros en 20 minutos. Un goteo de 30 goteros de 2 litros por hora gasta 60 litros en una hora. Pasa el total a metros cúbicos y multiplícalo por el precio de tu recibo, teniendo en cuenta que muchos municipios cobran por tramos: en verano el consumo extra puede caer en el tramo más caro. Ajustar los tiempos a cada estación ahorra bastante.",
+        answer: "Calcula caudal por tiempo: un aspersor de 600 litros por hora gasta 200 litros en 20 minutos, y un goteo de 30 goteros de 2 litros por hora gasta 60 litros en una hora. Pasa el total a metros cúbicos y multiplícalo por el precio del metro cúbico de tu recibo, teniendo en cuenta que muchos municipios cobran por tramos: en verano, el consumo extra puede caer en el tramo más caro. Ajustar los tiempos a cada estación ahorra bastante.",
       },
       {
         question: "¿Por qué mi programador de riego no abre el agua?",
@@ -314,7 +314,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     it: [
       {
-        question: "Quale centralina di irrigazione smart scegliere?",
+        question: "Quale centralina per irrigazione Wi-Fi scegliere?",
         answer: "Per tubo o ala gocciolante basta un programmatore da rubinetto; per un impianto interrato a zone serve una centralina che comandi le elettrovalvole. Preferisci il Wi-Fi con gateway al solo Bluetooth, così modifichi i programmi da fuori casa e sfrutti le previsioni meteo. Controlla la compatibilità con Alexa, Google Home o Apple Casa e la copertura Wi-Fi in giardino. Un sensore di pioggia o di umidità del terreno evita irrigazioni inutili.",
       },
       {
@@ -323,15 +323,15 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Meglio irrigazione a goccia o irrigatori a pioggia?",
-        answer: "A goccia per siepi, aiuole, orto e vasi; irrigatori a pioggia solo per il prato. La goccia porta l'acqua alla base della pianta con pochissima evaporazione, mentre gli irrigatori bagnano una superficie ampia ma con sole e vento ne disperdono una parte. Per questo conviene farli partire all'alba. Con la stessa centralina puoi gestire entrambi su zone separate, con tempi diversi.",
+        answer: "A goccia per siepi, aiuole, orto e vasi; irrigatori a pioggia solo per il prato. L'impianto a goccia porta l'acqua alla base delle piante con pochissima evaporazione, mentre gli irrigatori bagnano una superficie ampia ma, con sole e vento, perdono parte dell'acqua. Per questo conviene farli partire all'alba. Con la stessa centralina puoi gestire entrambi su zone separate, con tempi diversi.",
       },
       {
         question: "Quanta acqua consuma l'irrigazione automatica?",
-        answer: "Moltiplica la portata per il tempo: un irrigatore da 600 litri l'ora consuma 200 litri in 20 minuti. Trenta gocciolatori da 2 litri l'ora consumano 60 litri in un'ora. Converti in metri cubi e moltiplica per la tariffa della bolletta idrica. Se peschi da un pozzo l'acqua non si paga, ma la pompa sì: una pompa da 750 W accesa un'ora consuma 0,75 kWh, da moltiplicare per il prezzo della luce.",
+        answer: "Moltiplica la portata per il tempo: un irrigatore da 600 litri l'ora consuma 200 litri in 20 minuti. Trenta gocciolatori da 2 litri l'ora consumano 60 litri in un'ora. Converti in metri cubi e moltiplica per la tariffa della bolletta idrica. Se peschi da un pozzo l'acqua non la paghi, ma l'elettricità della pompa sì: una pompa da 750 W accesa un'ora consuma 0,75 kWh, da moltiplicare per il prezzo del kWh in bolletta.",
       },
       {
         question: "La centralina di irrigazione non parte: cosa controllare?",
-        answer: "Controlla prima batterie, rubinetto e sensore di pioggia: sono le cause più comuni di un programma che non parte. Se il sensore rileva umidità o nell'app è attivo un ritardo per pioggia, la centralina salta i cicli di proposito. Verifica che il gateway sia online e che data e ora siano corrette. Negli impianti interrati un'elettrovalvola bloccata da calcare o sabbia si sblocca pulendo la membrana. D'inverno smonta il programmatore da rubinetto per evitare il gelo.",
+        answer: "Controlla prima batterie, rubinetto e sensore di pioggia: sono le cause più comuni di un programma che non parte. Se il sensore rileva umidità o nell'app è attivo un ritardo per pioggia, la centralina salta i cicli di proposito. Verifica che il gateway sia online e che data e ora siano corrette. Negli impianti interrati un'elettrovalvola bloccata da calcare o sabbia si sblocca pulendo la membrana. D'inverno smonta il programmatore da rubinetto per proteggerlo dal gelo.",
       },
     ],
     nl: [
@@ -475,7 +475,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Do I need an electrician to install outdoor lights?",
-        answer: "Not for plug-in low-voltage kits, but mains-voltage outdoor wiring should be done by a competent electrician and protected by an RCD. In England, adding a light to an existing circuit outdoors is not normally notifiable, but installing a new circuit is notifiable under Part P of the Building Regulations, so use a registered electrician who can self-certify it. Use outdoor-rated cable and fittings, and armoured cable or ducting where it runs underground.",
+        answer: "Not for plug-in low-voltage kits, but mains-voltage outdoor wiring should be done by a competent electrician and protected by an RCD. In England, adding a light to an existing circuit outdoors isn’t normally notifiable, but installing a new circuit is notifiable under Part P of the Building Regulations, so use a registered electrician who can self-certify it. Use outdoor-rated cable and fittings, and armoured cable or ducting where it runs underground.",
       },
       {
         question: "What should I look for in smart outdoor lights?",
@@ -483,7 +483,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much do outdoor LED lights cost to run?",
-        answer: "Very little per evening: ten 5 W LED spotlights on for four hours use 0.2 kWh, about 5p at 25p per kWh. Dusk-to-dawn lighting costs much more in winter, when it can stay on for over 15 hours a night in December. Add up the wattage, multiply by hours and by your unit rate. Motion sensors and schedules that switch off at midnight cut both the bill and the light spilling into neighbours' gardens.",
+        answer: "Very little per evening: ten 5 W LED spotlights on for four hours use 0.2 kWh, about 5p at 25p per kWh. Dusk-to-dawn lighting costs much more in winter, when it can stay on for over 15 hours a night in December. Add up the watts, multiply by the hours they’re on and divide by 1,000 to get kWh, then multiply by your unit rate. Motion sensors and schedules that switch off at midnight cut both the bill and the light spilling into neighbours’ gardens.",
       },
       {
         question: "Motion sensor or dusk-to-dawn: which is better for security lighting?",
@@ -515,15 +515,15 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Luces solares o con cable para el jardín?",
-        answer: "En buena parte de España las solares funcionan bien para balizar caminos y decorar, pero para la entrada, el porche o el garaje conviene luz con cable. Una luz solar depende de las horas de sol y pierde autonomía en invierno o si queda a la sombra de un porche o una pérgola. La iluminación con cable, a 230 V o de baja tensión a 12/24 V, da una luz constante, más potente, y se programa desde una app.",
+        answer: "En buena parte de España las solares funcionan bien para balizar caminos y decorar, pero para la entrada, el porche o el garaje conviene luz con cable. Una luz solar depende de las horas de sol y pierde autonomía en invierno o si queda a la sombra de un porche o una pérgola. La iluminación con cable, a 230 V o de baja tensión a 12/24 V, da una luz constante y más potente, y se puede programar desde una app.",
       },
       {
         question: "¿Cuánto gasta la iluminación exterior LED?",
-        answer: "Muy poco: diez focos LED de 5 W encendidos 4 horas gastan 0,2 kWh, unos 3 céntimos con un precio de 0,15 € por kWh. Si tienes la tarifa con discriminación horaria, la luz que dejes encendida desde medianoche cae en el periodo valle, el más barato. Lo que dispara el gasto son los focos halógenos antiguos o una luz que pasa toda la noche encendida sin necesidad: un detector de movimiento o un horario de apagado lo evitan.",
+        answer: "Muy poco: diez focos LED de 5 W encendidos 4 horas gastan 0,2 kWh, unos 3 céntimos con un precio de ejemplo de 0,15 €/kWh. Si tienes una tarifa con discriminación horaria, la luz que dejes encendida desde medianoche cae en el periodo valle, el más barato. Lo que dispara el gasto son los focos halógenos antiguos o una luz que se queda encendida toda la noche sin necesidad: un detector de movimiento o un horario de apagado lo evitan.",
       },
       {
         question: "¿Qué luces exteriores inteligentes elegir?",
-        answer: "Elige por este orden: protección IP65 si van a la intemperie, compatibilidad con tu sistema y temperatura de color cálida. Las gamas Zigbee como Philips Hue necesitan un puente, las wifi deben recibir buena señal en el jardín y Matter facilita mezclar marcas con Alexa, Google Home o Apple Home. Una luz blanca cálida de 2.700 a 3.000 K resulta más agradable en una terraza. Los modelos con sensor de movimiento integrado sirven también como disuasión.",
+        answer: "Mira, por este orden, la protección (IP65 si van a la intemperie), la compatibilidad con tu sistema y la temperatura de color. Las gamas Zigbee como Philips Hue necesitan una pasarela, las wifi deben recibir buena señal en el jardín y Matter facilita mezclar marcas con Alexa, Google Home o Apple Home. Una luz blanca cálida, de 2.700 a 3.000 K, resulta más agradable en una terraza. Los modelos con sensor de movimiento integrado, además, disuaden.",
       },
       {
         question: "¿Hay normas sobre la luz exterior de una vivienda?",
@@ -536,8 +536,8 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     it: [
       {
-        question: "Luci solari da giardino o illuminazione a filo: cosa conviene?",
-        answer: "Le solari convengono per segnapasso e decorazione senza lavori; per ingresso, terrazzo e cancello, che vanno illuminati tutte le sere, meglio la luce a filo. Il rendimento delle solari dipende dal sole e cala d'inverno o all'ombra di un pergolato. Le luci a filo, a 230 V o a bassa tensione 12/24 V, danno una luce costante e si programmano dall'app. Al Nord, con le giornate corte e nebbiose d'inverno, la differenza si nota di più.",
+        question: "Luci solari da giardino o illuminazione cablata: cosa conviene?",
+        answer: "Le solari convengono per segnapasso e decorazioni senza lavori; per ingresso, terrazzo e cancello, che vanno illuminati tutte le sere, meglio un impianto cablato. Il rendimento delle luci solari dipende dal sole e cala d'inverno o all'ombra di un pergolato. Le luci cablate, a 230 V o in bassa tensione 12/24 V, danno una luce costante e si programmano dall'app. Al Nord, con le giornate corte e nebbiose d'inverno, la differenza si nota di più.",
       },
       {
         question: "Quanto consuma l'illuminazione esterna a LED?",
@@ -548,12 +548,12 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
         answer: "Sì, molte regioni hanno leggi contro l'inquinamento luminoso, come la Lombardia e il Veneto, e possono riguardare anche gli impianti privati. In genere chiedono apparecchi che non disperdano luce verso l'alto e, per i nuovi impianti, il rispetto di requisiti tecnici precisi. Verifica la legge della tua regione e l'eventuale regolamento comunale. Anche senza obblighi, faretti puntati verso il basso e luce calda evitano liti con i vicini.",
       },
       {
-        question: "Come scegliere luci da esterno smart?",
-        answer: "Guarda prima il grado di protezione, almeno IP44 e meglio IP65 se la luce prende pioggia, poi la compatibilità con il tuo sistema smart. Le linee Zigbee come Philips Hue richiedono un bridge, quelle Wi-Fi devono ricevere bene il segnale in giardino, e Matter facilita l'uso di marche diverse con Alexa, Google Home o Apple Casa. Controlla i lumen in base all'uso e scegli una luce calda tra 2.700 e 3.000 K.",
+        question: "Come scegliere le luci da esterno smart?",
+        answer: "Guarda prima il grado di protezione, almeno IP44 e meglio IP65 se la luce prende la pioggia, poi la compatibilità con il tuo sistema smart. Le linee Zigbee come Philips Hue richiedono un bridge, quelle Wi-Fi devono ricevere bene il segnale in giardino, e Matter permette di usare marche diverse con Alexa, Google Home o Apple Casa. Scegli i lumen in base all'uso e una luce calda tra 2.700 e 3.000 K.",
       },
       {
         question: "Le luci solari non si accendono più: perché?",
-        answer: "Di solito la batteria è esaurita o il pannello non riceve abbastanza sole. Pulisci il pannello, sposta la luce lontano dall'ombra e controlla l'interruttore, che a volte resta su spento. Se vicino c'è un lampione o un'altra luce, il sensore crepuscolare crede che sia giorno. Molti modelli accettano una batteria ricaricabile di ricambio dello stesso tipo e voltaggio. D'inverno un'autonomia più breve è normale.",
+        answer: "Di solito la batteria è esaurita o il pannello non riceve abbastanza sole. Pulisci il pannello, sposta la luce in un punto più soleggiato e controlla l'interruttore, che a volte è rimasto su spento. Se vicino c'è un lampione o un'altra luce, il sensore crepuscolare crede che sia giorno. Molti modelli accettano una batteria ricaricabile di ricambio, purché dello stesso tipo e della stessa tensione. D'inverno un'autonomia più breve è normale.",
       },
     ],
     nl: [
@@ -693,19 +693,19 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     en: [
       {
         question: "Can I make my existing garage door opener smart?",
-        answer: "Usually yes: an add-on controller wires into the opener's push-button terminals and adds app control without replacing the motor. Some brands sell their own add-on, such as myQ for Chamberlain and LiftMaster openers, while universal controllers fit most motors with a dry-contact input. Choose one with a door position sensor so the app shows whether the door is open or closed, and check your Wi-Fi reaches the garage. Older openers without push-button terminals may need replacing.",
+        answer: "Usually yes: an add-on controller wires into the opener’s push-button terminals and adds app control without replacing the motor. Some brands sell their own add-on, such as myQ for Chamberlain and LiftMaster openers, while universal controllers fit most motors with a dry-contact input. Choose one with a door position sensor so the app shows whether the door is open or closed, and check your Wi-Fi reaches the garage. Older openers without push-button terminals may need replacing.",
       },
       {
         question: "Up-and-over, roller or sectional: which garage door suits a smart opener?",
-        answer: "All three can be motorised and made smart; the choice depends on driveway space, insulation and the size of the opening. Canopy up-and-over doors swing partly outwards, so you need clear space in front, while roller and sectional doors open straight up and suit short driveways. Sectional doors usually insulate best, which matters for an integral garage. Roller doors take little headroom but need room above the opening for the drum.",
+        answer: "All three can be motorised and made smart; the choice depends on driveway space, insulation and the size of the opening. Canopy up-and-over doors swing partly outwards, so you need clear space in front, while roller and sectional doors open straight up and suit short driveways. Sectional doors usually insulate best, which matters for an integral garage. Roller doors leave the garage ceiling clear but need space above the opening for the drum.",
       },
       {
         question: "Is a smart garage door opener secure?",
-        answer: "Yes, as long as you secure the app account and keep the opener's own safety features working. Use a strong password with two-factor authentication, share temporary guest access instead of your login, and keep open-and-close notifications on. Modern remotes use rolling codes, which makes copying the signal much harder. Do not close the door remotely without seeing it unless photo-eye sensors and obstacle detection are fitted and working.",
+        answer: "Yes, as long as you secure the app account and keep the opener’s own safety features working. Use a strong password with two-factor authentication, share temporary guest access instead of your login, and keep open-and-close notifications on. Modern remotes use rolling codes, which makes copying the signal much harder. Don’t close the door remotely when you can’t see it unless safety photocells and obstacle detection are fitted and working.",
       },
       {
         question: "Why has my garage door remote stopped working?",
-        answer: "Most often the battery is flat or the remote has lost its pairing with the opener. Replace the battery, then re-pair the remote using the learn button on the motor unit, following the manual. If the range has dropped suddenly, check for new LED bulbs or other devices near the opener, as some cause radio interference. A replacement remote must match the opener's frequency and code system; rolling-code remotes are paired at the motor rather than copied.",
+        answer: "Most often the battery is flat or the remote has lost its pairing with the opener. Replace the battery, then re-pair the remote using the learn button on the motor unit, following the manual. If the range has dropped suddenly, check for new LED bulbs or other devices near the opener, as some cause radio interference. A replacement remote must match the opener’s frequency and code system; rolling-code remotes are paired at the motor rather than copied.",
       },
       {
         question: "Do I need an electrician to fit a garage door opener?",
@@ -737,10 +737,10 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Por qué ha dejado de funcionar el mando de la puerta del garaje?",
-        answer: "Lo más habitual es la pila agotada o que el mando haya perdido la programación con el motor. Cambia la pila y, si sigue sin abrir, vuelve a programarlo con el botón de aprendizaje del receptor siguiendo el manual. En garajes comunitarios, el administrador o la empresa de mantenimiento suele gestionar el alta de mandos nuevos. Si el alcance ha bajado de golpe, revisa si hay bombillas LED o aparatos nuevos cerca del receptor que puedan interferir.",
+        answer: "Lo más habitual es que se haya agotado la pila o que el mando se haya desprogramado. Cambia la pila y, si sigue sin abrir, vuelve a programarlo con el botón de aprendizaje del receptor, siguiendo el manual. En garajes comunitarios, el alta de mandos nuevos suele gestionarla el administrador o la empresa de mantenimiento. Si el alcance ha bajado de golpe, revisa si hay bombillas LED o aparatos nuevos cerca del receptor que puedan causar interferencias.",
       },
       {
-        question: "¿Puedo poner un abridor inteligente en la puerta del garaje de la comunidad?",
+        question: "¿Puedo poner un módulo wifi en la puerta del garaje de la comunidad?",
         answer: "Solo con permiso de la comunidad de propietarios, porque la puerta y su motor son elementos comunes. Habla con el administrador: algunas comunidades aceptan un módulo conectado al receptor, otras prefieren mantener solo los mandos para controlar quién entra. Si te lo autorizan, la instalación debería hacerla la empresa que mantiene la puerta, para no afectar a la garantía ni a las fotocélulas. En una vivienda unifamiliar puedes instalarlo en tu propio motor.",
       },
       {
@@ -749,11 +749,11 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "¿Copiar el mando del garaje o comprar uno original?",
-        answer: "Si tu mando es de código fijo, una copia universal funciona; si es de código variable, necesitas un mando compatible programado en el propio motor. Lo puedes saber por la marca y el modelo del mando o preguntando a quien instaló la puerta. Las copias de código fijo son baratas y rápidas, pero ese sistema es también el más fácil de clonar para un intruso. En garajes comunitarios con código variable, pide el mando a la administración o a la empresa de mantenimiento.",
+        answer: "Si tu mando es de código fijo, una copia universal funciona; si es de código variable, necesitas un mando compatible programado en el propio motor. Lo puedes saber por la marca y el modelo del mando o preguntando a quien instaló la puerta. Las copias de código fijo son baratas y rápidas, pero ese sistema es también el más fácil de clonar para un intruso. En garajes comunitarios con código variable, pide el mando al administrador o a la empresa de mantenimiento.",
       },
       {
         question: "¿Cuánto consume el motor de una puerta de garaje?",
-        answer: "Consume más en reposo que abriendo: con 3 W en espera continua son unos 26 kWh al año, unos 4 € a 0,15 € por kWh. Cada maniobra dura segundos y apenas cuenta. El consumo en espera aparece en la ficha técnica, y un módulo wifi añadido suma pocos vatios. En garajes comunitarios, este gasto se reparte entre los vecinos junto con la luz de las zonas comunes.",
+        answer: "Consume más en reposo que abriendo: 3 W en espera todo el año son unos 26 kWh, unos 4 € con un precio de ejemplo de 0,15 €/kWh. Cada maniobra dura unos segundos y apenas cuenta. El consumo en espera aparece en la ficha técnica, y un módulo wifi añadido suma pocos vatios. En garajes comunitarios, este gasto se reparte entre los vecinos junto con la luz de las zonas comunes.",
       },
     ],
     it: [
@@ -767,7 +767,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Il cancello automatico si apre ma non si chiude: perché?",
-        answer: "Spesso c'entrano le fotocellule: sporche, disallineate o coperte da un ostacolo, bloccano la chiusura per sicurezza. Pulisci le lenti, togli piante o oggetti dal fascio e controlla il led del ricevitore, che spesso segnala l'allineamento. Verifica anche le batterie delle fotocellule senza fili e i finecorsa. Se il problema resta, chiama l'installatore: escludere una sicurezza per far chiudere il cancello è pericoloso.",
+        answer: "Spesso c'entrano le fotocellule: sporche, disallineate o coperte da un ostacolo, bloccano la chiusura per sicurezza. Pulisci le lenti, togli piante o oggetti dal fascio e controlla il LED del ricevitore, che spesso segnala l'allineamento. Verifica anche le batterie delle fotocellule senza fili e i finecorsa. Se il problema resta, chiama l'installatore: escludere una sicurezza per far chiudere il cancello è pericoloso.",
       },
       {
         question: "Serve il permesso del condominio per un apricancello smart?",
@@ -918,16 +918,16 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
         answer: "Only if you use it often: for a frame or inflatable pool, a light floor-only robot saves weekly vacuuming, but a manual vacuum is enough for occasional summer use. Check that the manufacturer approves the robot for above-ground pools and soft walls, as heavy wall-climbers can deform the liner. A cordless model avoids running a cable over a high pool edge. For in-ground pools, a robot is far more worthwhile because it also handles walls and the waterline.",
       },
       {
-        question: "Floor-only or floor, wall and waterline: which pool robot?",
+        question: "Floor-only or floor, wall and waterline: which pool robot should I choose?",
         answer: "Floor, wall and waterline for an in-ground pool, because the greasy ring forms at the waterline; floor-only is enough for small or above-ground pools. A climbing robot also clears algae spots in corners and reduces hand brushing. Floor-only models are lighter and cheaper. Check the maximum depth, the surfaces the robot handles, such as liner, tiles or fibreglass, and how long a full cycle takes.",
       },
       {
-        question: "Cordless or corded pool robot?",
+        question: "Cordless or corded pool robot: which is better?",
         answer: "Cordless suits small to medium pools and easy handling; corded suits large pools and long, thorough cleans. A cordless robot has no tangling cable, but its battery limits cycle length and must be recharged out of the water. A corded robot runs as long as needed and usually climbs walls more strongly. Its power supply must stay at the minimum distance from the pool edge given in the manual, plugged into an RCD-protected outdoor socket.",
       },
       {
         question: "How much does a pool robot cost to run?",
-        answer: "Very little: a 150 W robot running a two-hour cycle uses 0.3 kWh, about 8p at 25p per kWh. Three cycles a week over a UK pool season comes to only a few pounds. If you are on an off-peak tariff such as Economy 7, run it at night to pay even less. The robot has its own filter but does not replace the pool's filter pump, which remains the main electricity cost.",
+        answer: "Very little: a 150 W robot running a two-hour cycle uses 0.3 kWh, about 8p at 25p per kWh. Three cycles a week over a UK pool season come to only a few pounds. If you’re on an off-peak tariff such as Economy 7, run it at night to pay even less. The robot has its own filter but doesn’t replace the pool’s filter pump, which is still by far the biggest electricity cost.",
       },
       {
         question: "How should I store a pool robot over winter?",
@@ -959,32 +959,32 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Robot de piscina solo para el fondo o también paredes y línea de flotación?",
-        answer: "Para una piscina de obra conviene que limpie fondo, paredes y línea de flotación, porque ahí se acumula la marca de cremas y grasa; para una desmontable basta con el fondo. Un robot que sube por las paredes también evita algas en esquinas y escalones. Los modelos solo de fondo son más ligeros y baratos. Comprueba la profundidad máxima, el revestimiento admitido, como gresite, liner o poliéster, y la duración de cada ciclo.",
+        answer: "En una piscina de obra conviene que limpie fondo, paredes y línea de flotación, porque en la línea de flotación se acumula la grasa de las cremas; para una desmontable basta con el fondo. Un robot que sube por las paredes también evita algas en esquinas y escalones. Los modelos solo de fondo son más ligeros y baratos. Comprueba la profundidad máxima, el revestimiento admitido, como gresite, liner o poliéster, y la duración de cada ciclo.",
       },
       {
         question: "¿Es compatible un robot de piscina con la cloración salina?",
-        answer: "Sí, la mayoría lo son, pero revisa en el manual la salinidad máxima admitida y enjuaga el robot con agua dulce después de cada uso. La sal acelera la corrosión de piezas metálicas y el desgaste de juntas y cepillos, sobre todo si el robot se queda en el agua o al sol. Sácalo al terminar el ciclo, limpia el filtro y guárdalo a la sombra. No lo uses mientras alguien se baña.",
+        answer: "Sí, la mayoría lo son, pero revisa en el manual la salinidad máxima admitida y enjuaga el robot con agua dulce después de cada uso. La sal acelera la corrosión de las piezas metálicas y el desgaste de juntas y cepillos, sobre todo si el robot se queda en el agua o al sol. Sácalo al terminar el ciclo, limpia el filtro y guárdalo a la sombra. No lo pongas en marcha mientras haya alguien bañándose.",
       },
       {
-        question: "¿Qué robot elegir para una piscina comunitaria o muy grande?",
-        answer: "Uno con cable, ciclos largos y longitud de cable suficiente para llegar al punto más lejano del vaso, pensado para el tamaño máximo de tu piscina. En piscinas comunitarias de urbanización conviene un modelo robusto, con carro de transporte y filtros fáciles de vaciar, porque lo manejará el personal de mantenimiento. Pregunta al administrador quién se encargará de usarlo y limpiarlo. Un robot ahorra mucho trabajo manual, pero no sustituye la depuradora ni el control del cloro.",
+        question: "¿Qué robot limpiafondos elegir para una piscina comunitaria o muy grande?",
+        answer: "Un modelo con cable, ciclos largos y un cable que llegue al punto más alejado del vaso; comprueba que el fabricante lo indica para piscinas de ese tamaño. En piscinas comunitarias de urbanización conviene un modelo robusto, con carro de transporte y filtros fáciles de vaciar, porque lo suele manejar el personal de mantenimiento: acuerda con el administrador quién se encargará de usarlo y limpiarlo. Un robot ahorra mucho trabajo manual, pero no sustituye a la depuradora ni el control del cloro.",
       },
       {
         question: "¿Cuánto consume un robot de piscina?",
-        answer: "Poco: un robot de 150 W en un ciclo de 2 horas gasta 0,3 kWh, unos 5 céntimos a 0,15 € por kWh. Si tienes tarifa con discriminación horaria, programarlo de noche o el fin de semana, en periodo valle, lo abarata algo más. Con tres ciclos semanales durante todo el verano, el gasto se queda en pocos euros. El mayor consumo de la piscina sigue siendo la depuradora, que el robot no sustituye.",
+        answer: "Poco: un robot de 150 W gasta 0,3 kWh en un ciclo de 2 horas, unos 5 céntimos con un precio de ejemplo de 0,15 €/kWh. Si tienes una tarifa con discriminación horaria, programarlo de noche o el fin de semana, en periodo valle, lo abarata algo más. Con tres ciclos semanales durante todo el verano, el gasto se queda en pocos euros. Lo que más consume en una piscina sigue siendo la depuradora, que el robot no sustituye.",
       },
       {
         question: "¿Cómo se mantiene un robot de piscina para que dure?",
-        answer: "Sácalo del agua después de cada ciclo, limpia el filtro y guárdalo a la sombra. El sol, el cloro y la sal son lo que más desgasta cepillos, juntas y cable. Revisa de vez en cuando orugas y cepillos, que se cambian cuando están lisos, y desenrolla el cable para que no se retuerza. En invierno, guárdalo limpio y seco bajo techo; si es de batería, déjala con la carga que indique el fabricante.",
+        answer: "Sácalo del agua después de cada ciclo, limpia el filtro y guárdalo a la sombra: el sol, el cloro y la sal son lo que más desgasta cepillos, juntas y cable. Revisa de vez en cuando las orugas y los cepillos, que se cambian cuando están lisos, y estira el cable para que no se enrede. En invierno, guárdalo limpio y seco bajo techo; si es de batería, déjala con la carga que indique el fabricante.",
       },
     ],
     it: [
       {
-        question: "Quale robot piscina per una piscina fuori terra?",
-        answer: "Per una fuori terra in PVC con telaio scegli un robot leggero solo fondo; per quelle rigide in acciaio o legno può andare un modello che sale sulle pareti. Controlla che il produttore ne autorizzi l'uso nelle fuori terra e la profondità minima richiesta. Un robot troppo pesante può deformare il liner morbido. Un modello a batteria evita di far passare il cavo sopra il bordo, spesso alto in queste piscine.",
+        question: "Quale robot scegliere per una piscina fuori terra?",
+        answer: "Per una fuori terra in PVC con telaio scegli un robot leggero che pulisce solo il fondo; per quelle rigide in acciaio o legno può andare un modello che sale sulle pareti. Controlla che il produttore ne autorizzi l'uso nelle piscine fuori terra e la profondità minima richiesta. Un robot troppo pesante può deformare il liner morbido. Un modello a batteria evita di far passare il cavo sopra il bordo, spesso alto in queste piscine.",
       },
       {
-        question: "Robot piscina a batteria o con cavo?",
+        question: "Robot per piscina a batteria o con cavo?",
         answer: "A batteria per piscine piccole e medie e per la comodità, con cavo per piscine grandi e pulizie lunghe e complete. Il modello a batteria non ha cavi che si attorcigliano, ma l'autonomia limita i cicli e va ricaricato fuori dall'acqua. Quello con cavo lavora quanto serve e di solito sale meglio sulle pareti. L'alimentatore va posizionato alla distanza minima dal bordo indicata nel manuale e collegato a una presa protetta da differenziale.",
       },
       {
@@ -992,12 +992,12 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
         answer: "Per una piscina interrata meglio fondo, pareti e linea d'acqua, perché sulla linea di galleggiamento si forma l'alone di creme e unto. Un robot che sale toglie anche le alghe negli angoli e riduce la spazzolatura a mano. I modelli solo fondo costano e pesano meno, ideali per vasche piccole. Verifica la profondità massima, il rivestimento supportato e la durata del ciclo completo.",
       },
       {
-        question: "Quanto consuma un robot piscina?",
-        answer: "Poco: un robot da 150 W per un ciclo di 2 ore consuma 0,3 kWh, circa 9 centesimi a 0,30 € per kWh. Con tre cicli a settimana per tutta l'estate si resta su pochi euro. Se hai una tariffa a fasce, avvialo la sera tardi o nel weekend per sfruttare le ore più economiche. Il consumo principale della piscina resta la pompa di filtrazione, che il robot non sostituisce.",
+        question: "Quanto consuma un robot per piscina?",
+        answer: "Poco: un robot da 150 W per un ciclo di 2 ore consuma 0,3 kWh, circa 8 centesimi con un prezzo d'esempio di 0,25 € al kWh. Con tre cicli a settimana per tutta l'estate si resta su pochi euro. Se hai una tariffa a fasce, avvialo la sera tardi o nel weekend per sfruttare le ore più economiche. Il consumo principale della piscina resta la pompa di filtrazione, che il robot non sostituisce.",
       },
       {
-        question: "Il robot piscina non sale sulle pareti: perché?",
-        answer: "Spesso il filtro è intasato e la suzione non basta più a tenerlo sulla parete. Pulisci il filtro dopo ogni ciclo e controlla le spazzole: se sono lisce o consumate, il robot scivola. Anche pareti con un velo di alghe o un programma impostato su solo fondo possono spiegare il problema. Se galleggia appena messo in acqua, inclinalo per far uscire l'aria finché non smettono le bolle.",
+        question: "Il robot per piscina non sale sulle pareti: perché?",
+        answer: "Spesso il filtro è intasato e la suzione non basta più a tenerlo sulla parete. Pulisci il filtro dopo ogni ciclo e controlla le spazzole: se sono lisce o consumate, il robot scivola. Il problema può dipendere anche da un velo di alghe sulle pareti o da un programma impostato su «solo fondo». Se galleggia appena messo in acqua, inclinalo per far uscire l'aria finché non smettono le bolle.",
       },
     ],
     nl: [
@@ -1137,7 +1137,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     en: [
       {
         question: "Is a smart pellet grill worth it in the UK?",
-        answer: "Yes if you enjoy low-and-slow cooking and have an outdoor socket; less so if you mainly grill sausages and burgers in a hurry. A pellet grill holds a set temperature for hours and lets you monitor it from your phone, which helps on cool, windy days. It needs mains power, takes longer to heat than gas and should be covered when not in use, as rain and damp ruin pellets. Check the hopper size for long cooks.",
+        answer: "Yes, if you enjoy low-and-slow cooking and have an outdoor socket; less so if you mainly grill sausages and burgers in a hurry. A pellet grill holds a set temperature for hours and lets you monitor it from your phone, which helps on cool, windy days. It needs mains power, takes longer to heat up than gas and should be covered when not in use, as rain and damp ruin pellets. Check the hopper size for long cooks.",
       },
       {
         question: "How much does a pellet grill cost to run?",
@@ -1145,15 +1145,15 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Can I use a pellet grill under a gazebo or in a garage?",
-        answer: "Never in a garage or any enclosed space, because burning pellets produce carbon monoxide; a gazebo is only acceptable if it is open-sided and well clear of the grill. Follow the clearance distances in the manual, both above and around the grill, and keep it away from fences and sheds. Use an outdoor socket with RCD protection rather than an extension lead through a window. In rain, a fitted grill cover between cooks is safer than cooking under a fabric canopy.",
+        answer: "Never in a garage or any enclosed space, because burning pellets produce carbon monoxide; a gazebo is acceptable only if it is open-sided and its canopy is well clear of the grill. Follow the clearance distances in the manual, both above and around the grill, and keep it away from fences and sheds. Use an outdoor socket with RCD protection rather than an extension lead trailed through a window. When it rains, it is safer to put a fitted cover on the grill and wait than to carry on cooking under a fabric canopy.",
       },
       {
         question: "Wireless meat thermometer: Bluetooth or Wi-Fi?",
-        answer: "Wi-Fi if you want to check the cook from anywhere, Bluetooth if you stay in the garden or kitchen. Bluetooth range drops sharply through walls, so many fully wireless probes use a base unit that relays to Wi-Fi. Choose a probe rated for the grill's ambient temperature. For poultry, aim for at least 75 °C in the thickest part, with no pink meat and juices running clear.",
+        answer: "Wi-Fi if you want to check the cook from anywhere, Bluetooth if you stay in the garden or kitchen. Bluetooth range drops sharply through walls, so many fully wireless probes use a base unit that relays to Wi-Fi. Choose a probe rated for the grill's ambient temperature. For poultry, aim for about 74°C in the thickest part, with no pink meat and juices running clear.",
       },
       {
         question: "Why won't my pellet grill light or stay lit?",
-        answer: "Usually because of damp pellets, a fire pot full of ash or a failed igniter. Empty the fire pot and vacuum out cold ash, check the pellets are dry and not crumbling to dust, and make sure the auger is feeding. If the grill keeps flaming out mid-cook, wet pellets or an empty hopper are the usual suspects. If nothing glows at start-up, the igniter rod may need replacing, a common and inexpensive part.",
+        answer: "Usually because of damp pellets, a fire pot full of ash or a failed igniter. Empty the fire pot and vacuum out cold ash, check the pellets are dry and not crumbling to dust, and make sure the auger is feeding. If the grill keeps flaming out mid-cook, wet pellets or an empty hopper are the usual suspects. If nothing glows at start-up, the igniter rod may need replacing; it is a common, inexpensive part.",
       },
     ],
     de: [
@@ -1181,7 +1181,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Se puede hacer barbacoa en la terraza o el balcón?",
-        answer: "Depende de los estatutos de tu comunidad y de las ordenanzas municipales: algunas prohíben el carbón en balcones y la plancha eléctrica es la opción que menos problemas da. Una barbacoa de pellets o de carbón echa humo que molesta a los vecinos, así que en un piso es mala idea. En casas con jardín, ten en cuenta el riesgo de incendio: en verano las comunidades autónomas prohíben hacer fuego en terrenos forestales y en su entorno. Consulta la normativa de la tuya antes de encender.",
+        answer: "Depende de los estatutos de tu comunidad y de las ordenanzas municipales: algunas prohíben el carbón en los balcones, y la plancha eléctrica es la opción que menos problemas da. Una barbacoa de pellets o de carbón echa humo que molesta a los vecinos, así que en un piso es mala idea. En casas con jardín, ten en cuenta el riesgo de incendio: en verano, las comunidades autónomas prohíben hacer fuego en terrenos forestales y en sus alrededores. Consulta la normativa de la tuya antes de encender.",
       },
       {
         question: "¿Barbacoa de pellets, de gas o plancha eléctrica?",
@@ -1189,15 +1189,15 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "¿Cuánto consume una barbacoa de pellets?",
-        answer: "Unos 0,5 kg de pellets por hora a baja temperatura y más de 1 kg por hora a máxima potencia, algo más con viento. Una paletilla o unas costillas de seis horas pueden gastar entre 3 y 4 kg. Multiplica por el precio del saco de pellets para barbacoa, nunca de calefacción. La electricidad pesa poco: la resistencia de encendido tira de unos cientos de vatios durante pocos minutos y después el ventilador y el sinfín consumen muy poco.",
+        answer: "Unos 0,5 kg de pellets por hora a baja temperatura y más de 1 kg por hora a máxima potencia, algo más si hace viento. Una paletilla o unas costillas de seis horas pueden gastar entre 3 y 4 kg. Para calcular el coste, multiplica por el precio del kilo, y usa siempre pellets para barbacoa, nunca los de estufa. La electricidad pesa poco: la resistencia de encendido consume unos cientos de vatios durante pocos minutos, y después el ventilador y el sinfín gastan muy poco.",
       },
       {
         question: "¿Merece la pena un termómetro inalámbrico para la barbacoa?",
-        answer: "Sí, sobre todo en piezas grandes y cocciones largas: te avisa en el móvil cuando la carne llega a la temperatura deseada sin abrir la tapa. Los de bluetooth tienen poco alcance a través de paredes; los que se conectan al wifi permiten vigilar desde cualquier sitio. Busca una sonda que aguante la temperatura del interior de la barbacoa. Para el pollo, asegúrate de que la parte más gruesa llega a unos 75 °C.",
+        answer: "Sí, sobre todo en piezas grandes y cocciones largas: te avisa en el móvil cuando la carne llega a la temperatura deseada, sin abrir la tapa. Los bluetooth tienen poco alcance a través de las paredes; los que se conectan al wifi permiten seguir la cocción desde cualquier sitio. Busca una sonda que aguante la temperatura del interior de la barbacoa. Para el pollo, asegúrate de que la parte más gruesa llega a unos 75 °C.",
       },
       {
         question: "¿Cómo se limpia y mantiene una barbacoa de pellets?",
-        answer: "Vacía la ceniza del quemador cada pocas cocciones y limpia la bandeja de grasa, porque acumularlas causa fallos de encendido y llamaradas. Un aspirador de cenizas en frío lo resuelve en minutos. Guarda los pellets en un lugar seco y cerrado: con la humedad se hinchan y atascan el sinfín. Tápala con su funda cuando no la uses e instala las actualizaciones de la app, que a veces mejoran el control de temperatura.",
+        answer: "Vacía la ceniza del quemador cada pocas cocciones y limpia la bandeja de grasa: si se acumulan, provocan fallos de encendido y llamaradas. Con la barbacoa fría, un aspirador de cenizas lo resuelve en minutos. Guarda los pellets en un lugar seco y cerrado: con la humedad se hinchan y atascan el sinfín. Tápala con su funda cuando no la uses e instala las actualizaciones de la app, que a veces mejoran el control de la temperatura.",
       },
     ],
     it: [
@@ -1207,7 +1207,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Barbecue a pellet o a gas: quale scegliere?",
-        answer: "Il pellet per cotture lunghe e affumicate controllate dall'app, il gas per grigliate veloci e una rosolatura ad alta temperatura. Nel barbecue a pellet una coclea dosa il combustibile in base alla temperatura impostata, come un forno a legna automatico: perfetto per costine e spalla di maiale. Serve una presa elettrica e scalda più lentamente. Il gas è pronto in pochi minuti e non ha bisogno di corrente.",
+        answer: "Il pellet per cotture lunghe e affumicate controllate dall'app, il gas per grigliate veloci e per rosolare ad alta temperatura. Nel barbecue a pellet una coclea dosa il combustibile in base alla temperatura impostata, come in un forno a legna automatico: perfetto per costine e spalla di maiale. Ha bisogno di una presa elettrica e scalda più lentamente. Il gas è pronto in pochi minuti e non ha bisogno di corrente.",
       },
       {
         question: "Quanto consuma un barbecue a pellet?",
@@ -1215,7 +1215,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Termometro wireless per barbecue: Bluetooth o Wi-Fi?",
-        answer: "Wi-Fi se vuoi seguire la cottura da qualunque posto, Bluetooth se resti vicino al barbecue. Il Bluetooth perde portata attraverso i muri, perciò molte sonde senza fili usano una base che fa da ponte verso il Wi-Fi. Scegli una sonda che regga la temperatura interna del barbecue. Per il pollo assicurati che la parte più spessa arrivi a circa 75 °C; una spalla di maiale da sfilacciare richiede intorno ai 90 °C.",
+        answer: "Wi-Fi se vuoi seguire la cottura ovunque tu sia, Bluetooth se resti vicino al barbecue. Il Bluetooth perde portata attraverso i muri, perciò molte sonde senza fili usano una base che fa da ponte verso il Wi-Fi. Scegli una sonda che regga la temperatura interna del barbecue. Per il pollo assicurati che la parte più spessa arrivi a circa 75 °C; una spalla di maiale da sfilacciare richiede intorno ai 90 °C.",
       },
       {
         question: "Il barbecue a pellet non si accende o si spegne: perché?",
@@ -1367,11 +1367,11 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to charge a portable power station?",
-        answer: "Pennies: fully charging a 1,000 Wh unit takes about 1.1–1.2 kWh with losses, around 30p at 25p per kWh. On an off-peak tariff such as Economy 7 or a smart time-of-use tariff, charge it overnight for less. Solar charging is free but slower: a 200 W portable panel only reaches its rating in full sun, which is rare in a British winter. Charging from a car's 12 V socket is handy on the move but slow.",
+        answer: "Pennies: fully charging a 1,000 Wh unit takes about 1.1–1.2 kWh with losses, so around 30p at an example rate of 25p per kWh. On an off-peak tariff such as Economy 7 or a smart time-of-use tariff, charge it overnight to pay less. Solar charging is free but slower: a 200 W portable panel only reaches its rating in full sun, which is rare in a British winter. Charging from a car's 12 V socket is handy on the move but slow.",
       },
       {
         question: "Can I take a portable power station on a plane?",
-        answer: "Almost never: lithium batteries over 160 Wh are banned from passenger aircraft, and most power stations are well above that. Batteries between 100 and 160 Wh need the airline's approval and must travel in the cabin, not in checked luggage. A power bank under 100 Wh is fine in hand luggage. For trips abroad, plan to rent a power station at your destination or bring only a solar panel.",
+        answer: "Almost never: lithium batteries over 160 Wh are banned from passenger aircraft, and most power stations are well above that. Batteries between 100 and 160 Wh need the airline's approval and must travel in the cabin, not in checked luggage. A power bank under 100 Wh is fine in hand luggage. For trips abroad, plan to hire a power station at your destination or bring only a solar panel.",
       },
       {
         question: "Portable power station or petrol generator for camping?",
@@ -1410,38 +1410,38 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
         answer: "Suma vatios por horas de cada aparato y añade un 20 % por las pérdidas de conversión. Ejemplo: una nevera portátil de 60 W durante 10 horas (600 Wh) y un portátil de 50 W durante 3 horas (150 Wh) suman 750 Wh, así que busca unos 900 Wh. Comprueba también que la potencia de salida supera la del aparato más exigente, incluido su pico de arranque. Para una autocaravana, valora además la carga desde la toma de 12 V del vehículo.",
       },
       {
-        question: "¿Cuánto cuesta cargarla y conviene hacerlo en horas valle?",
-        answer: "Cargar una estación de 1.000 Wh cuesta céntimos: con pérdidas son 1,1 a 1,2 kWh, unos 17 céntimos a 0,15 € por kWh. Con la tarifa con discriminación horaria, el periodo valle, de 0 a 8 horas entre semana y todo el fin de semana, es el más barato, así que conviene programar la carga entonces. No esperes ahorrar en la factura usándola como batería doméstica: su capacidad es pequeña y las pérdidas se comen la diferencia de precio.",
+        question: "¿Cuánto cuesta cargar una estación de energía portátil?",
+        answer: "Unos céntimos: con las pérdidas, cargar una estación de 1.000 Wh consume de 1,1 a 1,2 kWh, unos 17 céntimos con un precio de ejemplo de 0,15 €/kWh. Con una tarifa con discriminación horaria, el periodo valle (de 0 a 8 h entre semana y todo el fin de semana) es el más barato, así que conviene programar la carga entonces. No esperes ahorrar en la factura usándola como batería doméstica: su capacidad es pequeña y las pérdidas se comen la diferencia de precio.",
       },
       {
         question: "¿Estación de energía portátil o generador de gasolina para la autocaravana?",
-        answer: "La estación para la mayoría de viajes: es silenciosa, no echa humo y puede ir dentro del vehículo, algo imposible con un generador. Muchos campings limitan o prohíben los generadores por el ruido, sobre todo de noche. El generador solo compensa si necesitas mucha potencia, como un aire acondicionado, durante días sin enchufe. Combinada con un panel solar portátil, una estación mantiene nevera, luces y móviles durante una escapada larga.",
+        answer: "La estación, para la mayoría de los viajes: es silenciosa, no echa humo y se puede usar dentro del vehículo, algo impensable con un generador. Muchos campings limitan o prohíben los generadores por el ruido, sobre todo de noche. El generador solo compensa si necesitas mucha potencia, por ejemplo para un aire acondicionado, durante días sin enchufe. Combinada con un panel solar portátil, una estación mantiene la nevera, las luces y los móviles durante una escapada larga.",
       },
       {
         question: "¿Cuánto dura la batería de una estación de energía portátil?",
-        answer: "Con química LiFePO4, los fabricantes suelen anunciar 3.000 ciclos o más antes de bajar al 80 % de capacidad; con NMC, de unos cientos a mil. Usada a diario serían años, y en uso ocasional el paso del tiempo pesa más que los ciclos. Guárdala entre el 50 y el 80 % de carga, recárgala cada tres meses y no la dejes al sol dentro del coche en verano, porque el calor es lo que más la daña.",
+        answer: "Con química LiFePO4, los fabricantes suelen anunciar 3.000 ciclos o más antes de bajar al 80 % de capacidad; con NMC, de unos cientos a mil. Usándola a diario, eso son años; en uso ocasional, el paso del tiempo pesa más que los ciclos. Guárdala entre el 50 y el 80 % de carga, recárgala cada tres meses y no la dejes al sol dentro del coche en verano, porque el calor es lo que más la daña.",
       },
     ],
     it: [
       {
-        question: "Quale capacità scegliere per una stazione di energia portatile?",
-        answer: "Somma watt per ore di ogni apparecchio e aggiungi circa il 20% per le perdite di conversione. Esempio: un frigo portatile da 60 W per 10 ore (600 Wh) e un portatile da 50 W per 3 ore (150 Wh) fanno 750 Wh, quindi serve una stazione da circa 900 Wh. Controlla anche che la potenza in uscita copra l'apparecchio più esigente, compreso il picco di avvio di frigoriferi e utensili elettrici.",
+        question: "Quale capacità scegliere per una power station portatile?",
+        answer: "Per ogni apparecchio moltiplica i watt per le ore di utilizzo, somma i risultati e aggiungi circa il 20% per le perdite di conversione. Per esempio, un frigo portatile da 60 W per 10 ore (600 Wh) e un computer portatile da 50 W per 3 ore (150 Wh) fanno 750 Wh, quindi serve una power station da circa 900 Wh. Controlla anche che la potenza in uscita copra l'apparecchio più esigente, compreso il picco di avvio di frigoriferi e utensili elettrici.",
       },
       {
-        question: "Stazione di energia portatile o generatore a benzina per camper e campeggio?",
-        answer: "La stazione portatile nella maggior parte dei casi: è silenziosa, non produce gas di scarico e si può usare dentro il camper. Molti campeggi limitano i generatori per il rumore, soprattutto nelle ore di silenzio. Il generatore ha senso solo per carichi forti, come un condizionatore, per giorni senza allaccio. Abbinata a un pannello solare portatile, la stazione tiene in funzione frigo, luci e telefoni per un weekend lungo.",
+        question: "Power station portatile o generatore a benzina per camper e campeggio?",
+        answer: "Nella maggior parte dei casi la power station: è silenziosa, non produce gas di scarico e si può usare dentro il camper. Molti campeggi limitano i generatori per il rumore, soprattutto nelle ore di silenzio. Il generatore ha senso solo per carichi elevati, come un condizionatore, e per più giorni senza allaccio elettrico. Abbinata a un pannello solare portatile, la power station tiene in funzione frigo, luci e telefoni per un weekend lungo.",
       },
       {
-        question: "Quanto costa ricaricarla e conviene farlo in fascia F3?",
-        answer: "Una ricarica completa da 1.000 Wh costa meno di mezzo euro: con le perdite servono 1,1-1,2 kWh, circa 35 centesimi a 0,30 € per kWh. Con una tariffa a fasce conviene caricarla di notte o nei festivi, in F3, dove il prezzo è più basso. Non aspettarti però di risparmiare in bolletta usandola come accumulo domestico: la capacità è piccola e le perdite annullano gran parte della differenza tra le fasce.",
+        question: "Quanto costa ricaricare una power station e conviene farlo in fascia F3?",
+        answer: "Una ricarica completa da 1.000 Wh costa meno di mezzo euro: con le perdite servono 1,1-1,2 kWh, cioè circa 28-30 centesimi con un prezzo d'esempio di 0,25 € al kWh. Con una tariffa a fasce conviene caricarla di notte o nei festivi, in F3, quando il prezzo è più basso. Non aspettarti però di risparmiare in bolletta usandola come accumulo domestico: la capacità è piccola e le perdite annullano gran parte della differenza tra le fasce.",
       },
       {
-        question: "Posso usare la stazione portatile durante un blackout, anche per la caldaia?",
-        answer: "Sì, per gli apparecchi essenziali come router, luci, frigorifero e anche la caldaia a gas, che senza corrente non si accende. Serve una stazione con uscita a onda sinusoidale pura, e la caldaia va collegata solo se ha una spina: altrimenti un elettricista deve predisporre una presa dedicata. Alcune stazioni fanno da gruppo di continuità e intervengono in pochi millisecondi. Non collegarla mai all'impianto di casa dal quadro senza un commutatore installato da un professionista.",
+        question: "Posso usare la power station durante un blackout, anche per la caldaia?",
+        answer: "Sì, per gli apparecchi essenziali come router, luci, frigorifero e anche la caldaia a gas, che senza corrente non si accende. Serve un modello con uscita a onda sinusoidale pura, e la caldaia va collegata solo se ha una spina: altrimenti un elettricista deve predisporre una presa dedicata. Alcuni modelli fanno da gruppo di continuità e intervengono in pochi millisecondi. Non collegarla mai all'impianto di casa dal quadro senza un commutatore installato da un professionista.",
       },
       {
-        question: "Quanto dura la batteria di una stazione portatile: LiFePO4 o NMC?",
-        answer: "Molto di più con LiFePO4: i produttori indicano in genere 3.000 cicli o più prima di scendere all'80% della capacità, contro alcune centinaia fino a mille per le NMC. Le NMC sono più leggere a parità di capacità. Conserva la stazione tra il 50 e l'80% di carica, al riparo da gelo e caldo, e ricaricala ogni tre mesi se non la usi. D'estate non lasciarla in auto al sole.",
+        question: "Quanto dura la batteria di una power station: LiFePO4 o NMC?",
+        answer: "Molto di più con le LiFePO4: i produttori indicano in genere 3.000 cicli o più prima di scendere all'80% della capacità, contro qualche centinaio, fino a mille, per le NMC. Le NMC sono più leggere a parità di capacità. Conserva la power station tra il 50 e l'80% di carica, al riparo da gelo e caldo, e ricaricala ogni tre mesi se non la usi. D'estate non lasciarla in auto al sole.",
       },
     ],
     nl: [
@@ -1585,7 +1585,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "What's the best way to alarm a garden shed?",
-        answer: "Fit a battery-powered door contact and motion sensor linked to your home alarm, or a standalone shed alarm with a loud siren. Check the radio range from the shed to the house, as walls and distance reduce it. Add a decent lock and secure hinges, because an alarm warns but does not stop a determined thief. Anchor bikes and expensive tools to a ground or wall anchor, and record serial numbers in case you need to report a theft.",
+        answer: "Fit a battery-powered door contact and motion sensor linked to your home alarm, or a standalone shed alarm with a loud siren. Check the radio range from the shed to the house, as walls and distance reduce it. Add a decent lock and secure hinges, because an alarm warns but does not stop a determined thief. Lock bikes and expensive tools to a ground or wall anchor, and record serial numbers in case you need to report a theft.",
       },
       {
         question: "Can my outdoor alarm siren ring for as long as it likes?",
@@ -1597,7 +1597,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How long do batteries last in wireless outdoor sensors?",
-        answer: "Typically from one to several years, depending on how often the sensor triggers and how cold it gets. Cold weather drains lithium cells faster, and sensors facing a busy path use more power. Most systems warn in the app when a battery runs low, so replace it then rather than waiting for a dead sensor. Check the battery type in the manual and keep a spare, as many sensors use less common lithium sizes.",
+        answer: "Anything from one to several years, depending on how often the sensor triggers and how cold it gets. Cold weather drains lithium cells faster, and sensors facing a busy path use more power. Most systems warn in the app when a battery runs low, so replace it then rather than waiting for a dead sensor. Check the battery type in the manual and keep a spare, as many sensors use less common lithium sizes.",
       },
     ],
     de: [
@@ -1636,12 +1636,12 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
         answer: "Lo habitual es que la disparen gatos, ramas movidas por el viento o el sol que calienta la zona vigilada. Orienta el detector hacia una zona despejada, nunca hacia la calle, un seto o donde da el sol de la mañana, y baja la sensibilidad. Los detectores de doble tecnología, infrarrojo y microondas, solo saltan si detectan movimiento los dos sensores. Poda las ramas cercanas y limpia las telarañas de la lente.",
       },
       {
-        question: "¿Alarma exterior con cuota o sin cuota?",
-        answer: "Sin cuota si te basta con recibir los avisos en el móvil y reaccionar tú; con cuota si quieres que una central verifique los saltos y avise a la policía. La cuota paga el servicio de la central receptora, el mantenimiento y a menudo el servicio de acuda. Sin cuota pagas solo el equipo, pero si estás lejos dependes de un vecino o un familiar. Revisa la permanencia mínima del contrato antes de firmar.",
+        question: "¿Alarma exterior con cuota mensual o sin cuotas?",
+        answer: "Sin cuotas, si te basta con recibir los avisos en el móvil y reaccionar tú; con cuota mensual, si quieres que una central verifique los saltos y avise a la policía. La cuota paga el servicio de la central receptora, el mantenimiento y, a menudo, el servicio de acuda. Sin cuotas pagas solo el equipo, pero si estás lejos dependes de un vecino o un familiar. Revisa la permanencia mínima del contrato antes de firmar.",
       },
       {
         question: "¿Cuánto duran las pilas de los sensores exteriores?",
-        answer: "Normalmente entre uno y varios años, según la frecuencia con que salten y la temperatura que soporten. En zonas muy soleadas el calor también desgasta las pilas, igual que el frío en la montaña. La mayoría de sistemas avisan en la app cuando queda poca batería: cámbiala entonces y no esperes a que el sensor deje de funcionar. Ten de repuesto el tipo exacto que indica el manual, porque muchos usan pilas de litio poco comunes.",
+        answer: "Normalmente entre uno y varios años, según la frecuencia con que salten y la temperatura que soporten. En zonas muy soleadas el calor también desgasta las pilas, igual que el frío en la montaña. La mayoría de sistemas avisan en la app cuando queda poca batería: cámbialas entonces, sin esperar a que el sensor deje de funcionar. Ten de repuesto el tipo exacto que indica el manual, porque muchos usan pilas de litio poco comunes.",
       },
     ],
     it: [
@@ -1663,7 +1663,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Quanto durano le batterie dei sensori da esterno?",
-        answer: "In genere da uno a più anni, a seconda di quanto spesso scattano e delle temperature. Freddo intenso e sole diretto accorciano la durata, e un sensore su un passaggio frequentato consuma di più. Quasi tutti i sistemi segnalano la batteria scarica nell'app: sostituiscila subito invece di aspettare che il sensore smetta di funzionare. Tieni una batteria di scorta del tipo indicato nel manuale.",
+        answer: "In genere da uno a diversi anni, a seconda di quanto spesso scattano e delle temperature. Freddo intenso e sole diretto accorciano la durata, e un sensore su un passaggio frequentato consuma di più. Quasi tutti i sistemi segnalano la batteria scarica nell'app: sostituiscila subito invece di aspettare che il sensore smetta di funzionare. Tieni una batteria di scorta del tipo indicato nel manuale.",
       },
     ],
     nl: [

@@ -28,12 +28,12 @@ const GUIDE_LABELS: Readonly<Record<string, Readonly<Record<Lang, string>>>> = {
   },
   '/guides/cuisine-connectee': {
     fr: 'Guide de la cuisine connectée', en: 'Smart kitchen guide', de: 'Ratgeber smarte Küche', es: 'Guía de la cocina conectada',
-    it: 'Guida alla cucina connessa', nl: 'Gids slimme keuken', pl: 'Poradnik inteligentnej kuchni', sv: 'Guide till det smarta köket',
+    it: 'Guida alla cucina smart', nl: 'Gids slimme keuken', pl: 'Poradnik inteligentnej kuchni', sv: 'Guide till det smarta köket',
     us: 'Smart kitchen guide', ca: 'Smart kitchen guide',
   },
   '/guides/probleme': {
     fr: 'Pannes et solutions', en: 'Troubleshooting', de: 'Störungen und Lösungen', es: 'Averías y soluciones',
-    it: 'Guasti e soluzioni', nl: 'Storingen en oplossingen', pl: 'Usterki i rozwiązania', sv: 'Fel och lösningar',
+    it: 'Problemi e soluzioni', nl: 'Storingen en oplossingen', pl: 'Usterki i rozwiązania', sv: 'Fel och lösningar',
     us: 'Troubleshooting', ca: 'Troubleshooting',
   },
 }

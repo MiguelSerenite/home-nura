@@ -13,10 +13,10 @@ export const article: BlogArticle = {
       src: 'https://images.unsplash.com/photo-1554325500-2fdcc112e791?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Radiateur blanc sous une tablette dans un intérieur lumineux',
-        en: 'White radiator under a shelf in a bright interior',
+        en: 'White radiator under a shelf in a bright room',
         de: 'Weißer Heizkörper unter einer Ablage in einem hellen Raum',
-        es: 'Radiador blanco bajo una repisa en un interior luminoso',
-        it: 'Radiatore bianco sotto una mensola in un interno luminoso',
+        es: 'Radiador blanco bajo una repisa en una habitación luminosa',
+        it: 'Radiatore bianco sotto una mensola in una stanza luminosa',
         nl: 'Witte radiator onder een plank in een licht interieur',
         pl: 'Biały grzejnik pod półką w jasnym wnętrzu',
         sv: 'Vitt element under en hylla i ett ljust rum',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Radiateur Électrique Connecté 2026 : Guide d\'Achat et 5 Modèles à Connaître',
-    en: 'Smart Electric Heater 2026: Buying Guide and 5 Models Worth Knowing',
+    en: 'Smart Electric Heaters 2026: Buying Guide and 5 Models Compared',
     de: 'Smarter Elektroheizkörper 2026: Kaufratgeber und 5 Modelle im Überblick',
-    es: 'Radiador Eléctrico Inteligente 2026: Guía de Compra y 5 Modelos Clave',
-    it: 'Radiatore Elettrico Smart 2026: Guida all\'Acquisto e 5 Modelli da Conoscere',
-    nl: 'Slimme Elektrische Radiator 2026: Koopgids en 5 Modellen om te Kennen',
+    es: 'Radiador eléctrico con wifi 2026: guía de compra y 5 modelos clave',
+    it: 'Radiatore elettrico smart 2026: guida all\'acquisto e 5 modelli da conoscere',
+    nl: 'Slimme elektrische radiator 2026: koopgids en 5 modellen die het bekijken waard zijn',
     pl: 'Inteligentny grzejnik elektryczny 2026: poradnik zakupowy i 5 modeli wartych uwagi',
     sv: 'Smart elelement 2026: köpguide och 5 modeller värda att känna till',
     us: 'Smart Electric Heaters 2026: Buying Guide and 5 Models to Know',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Radiateur électrique connecté en 2026 : inertie fluide, fonte, aluminium ou bain d\'huile mobile, Wi-Fi intégré ou passerelle, fil pilote, détection de fenêtre ouverte. Thermor Équateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi et Mill Gentle Air WiFi comparés.',
-    en: 'Smart electric heaters in 2026: fluid, cast-iron, aluminium or portable oil-filled, built-in Wi-Fi or gateway, pilot wire, open window detection. Thermor Equateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi and Mill Gentle Air WiFi compared.',
-    de: 'Smarte Elektroheizkörper 2026: Fluid-, Guss- oder Aluminiumspeicher oder mobiler Ölradiator, integriertes WLAN oder Bridge, Fenster-offen-Erkennung. Thermor Equateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi und Mill Gentle Air WiFi im Vergleich.',
-    es: 'Radiadores eléctricos inteligentes 2026: fluido, fundición, aluminio o radiador de aceite portátil, Wi-Fi integrado o pasarela, detección de ventana abierta. Thermor Equateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi y Mill Gentle Air WiFi comparados.',
-    it: 'Radiatori elettrici smart 2026: fluido, ghisa, alluminio o radiatore a olio portatile, Wi-Fi integrato o bridge, rilevamento finestra aperta. Thermor Equateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi e Mill Gentle Air WiFi a confronto.',
-    nl: 'Slimme elektrische radiatoren 2026: vloeistof, gietijzer, aluminium of mobiele olieradiator, ingebouwde wifi of bridge, open-raamdetectie. Thermor Equateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi en Mill Gentle Air WiFi vergeleken.',
+    en: 'Smart electric heaters in 2026: fluid-filled, cast-iron, aluminium or portable oil-filled, built-in Wi-Fi or gateway, pilot wire (a French system), open window detection. Thermor Équateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi and Mill Gentle Air WiFi compared.',
+    de: 'Smarte Elektroheizkörper 2026: Fluid- oder Gussspeicher, Aluminium oder mobiler Ölradiator, integriertes WLAN oder Bridge, Steuerleitung (Fil Pilote), Fenster-offen-Erkennung. Thermor Equateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi und Mill Gentle Air WiFi im Vergleich.',
+    es: 'Radiadores eléctricos con wifi en 2026: inercia fluida, fundición, aluminio o radiador de aceite portátil; wifi integrado o pasarela; detección de ventana abierta. Comparamos Thermor Equateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi y Mill Gentle Air WiFi.',
+    it: 'Radiatori elettrici smart nel 2026: a inerzia fluida, in ghisa o in alluminio, oppure radiatore a olio portatile; Wi-Fi integrato o gateway, filo pilota (tipico del mercato francese) e rilevamento delle finestre aperte. Thermor Equateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi e Mill Gentle Air WiFi a confronto.',
+    nl: 'Slimme elektrische radiator in 2026: met vloeistof, gietijzer of aluminium, of een verplaatsbare olieradiator; ingebouwde wifi of een gateway; open-raamdetectie. We vergelijken Thermor Equateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi en Mill Gentle Air WiFi.',
     pl: 'Inteligentny grzejnik elektryczny w 2026 roku: akumulacja ciepła w płynie, żeliwie lub aluminium albo przenośny grzejnik olejowy, Wi-Fi w urządzeniu lub bramka, przewód sterujący fil pilote (stosowany we Francji), wykrywanie otwartego okna. Porównujemy modele Thermor Équateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi i Mill Gentle Air WiFi.',
     sv: 'Smarta elelement 2026: vätskefyllda element, gjutjärn, aluminium eller portabla oljefyllda element, inbyggt wifi eller brygga, fil pilote (fransk styrtråd) och avkänning av öppet fönster. Vi jämför Thermor Équateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi och Mill Gentle Air WiFi.',
     us: 'Smart electric heaters in 2026: fluid-filled, cast-iron, aluminum or portable oil-filled, built-in Wi-Fi or a gateway, France\'s pilot-wire control, open-window detection. The Thermor Equateur 4, Atlantic Oniris, Sauter Orosi 2, Rointe Kyros WiFi and Mill Gentle Air WiFi, compared.',
@@ -141,63 +141,63 @@ export const article: BlogArticle = {
 <p>Pour remplacer des convecteurs dans un logement dont vous êtes propriétaire, le <strong>Thermor Équateur 4</strong> reste la référence la plus complète. Pour équiper plusieurs pièces avec un budget maîtrisé, le <strong>Sauter Orosi 2</strong> offre l'essentiel des fonctions automatiques. Si vous ne pouvez pas faire de travaux, le <strong>Mill Gentle Air WiFi</strong> est la solution d'appoint connectée la plus simple. L'<strong>Atlantic Oniris</strong> et le <strong>Rointe Kyros WiFi</strong> complètent l'offre pour les intérieurs design et pour ceux qui veulent se passer de passerelle.</p>`,
 
     en: `<h2>Which smart electric heater should you choose in 2026?</h2>
-<p>For a fixed installation, the <strong>Thermor Equateur 4</strong> is the most complete option: a dual heating body with cast-iron inertia, open window and presence detection, and control through the Cozytouch app. If you want a portable unit you simply plug in, the <strong>Mill Gentle Air WiFi</strong> oil-filled radiator offers a polished app and an open window function, with no electrician needed.</p>
-<p>Between those two, the <strong>Atlantic Oniris</strong> focuses on design and responsiveness, the <strong>Sauter Orosi 2</strong> on entry-level fluid inertia, and the <strong>Rointe Kyros WiFi</strong> on built-in Wi-Fi that needs no gateway. This guide is based on manufacturer specifications, published independent reviews and verified buyer feedback. For related devices, see our <a href="/en/confort-air/chauffages-appoint">smart space heaters</a> page.</p>
+<p>For a fixed installation, the <strong>Thermor Équateur 4</strong> is the most complete option: a dual heating system with a cast-iron core, open window and presence detection, and control through the Cozytouch app. If you want a portable heater you simply plug in, with no installation work, the <strong>Mill Gentle Air WiFi</strong> oil-filled radiator has a polished app and an open window function, and needs no electrician.</p>
+<p>Between the two, the <strong>Atlantic Oniris</strong> puts design and quick warm-up first, the <strong>Sauter Orosi 2</strong> is an entry-level fluid-filled option, and the <strong>Rointe Kyros WiFi</strong> has built-in Wi-Fi that needs no gateway. This guide is based on manufacturer specifications, published independent reviews and verified buyer feedback. For related products, see our <a href="/en/confort-air/chauffages-appoint">electric heaters</a> page.</p>
 
 <h2>The criteria that really matter</h2>
-<h3>Type of heating body</h3>
-<p>“Inertia” covers several technologies, and marketing sheets often blur them:</p>
+<h3>Heating technology</h3>
+<p>“Inertia”, or thermal mass, covers several technologies, and sales literature often blurs them:</p>
 <ul>
-<li><strong>Fluid inertia</strong>: an element heats a sealed thermal fluid. Heat is soft and even, warm-up is reasonable. This is how the Sauter Orosi 2 and Rointe Kyros WiFi work.</li>
-<li><strong>Cast-iron inertia</strong>: a cast-iron block stores heat and releases it slowly. Paired with a fast-reacting heating front panel, it is called “dual technology”, as on the Thermor Equateur 4.</li>
-<li><strong>Aluminium body with heating front</strong>: less storage, more responsiveness. This is the Atlantic Oniris design.</li>
-<li><strong>Dry stone or ceramic inertia</strong>: refractory bricks store heat for longer. Best for rooms heated over long periods.</li>
-<li><strong>Glass front</strong>: ranges such as Campa’s Campaver combine a thick radiant glass front with rear heating elements. The main appeal is design, not stone storage.</li>
-<li><strong>Portable oil-filled</strong>: a free-standing oil radiator you plug into a socket. It is a supplementary heater with no installation, like the Mill Gentle Air WiFi.</li>
+<li><strong>Fluid-filled</strong>: an element heats a sealed thermal fluid inside the radiator. The heat is gentle and even, and it warms up reasonably quickly. This is how the Sauter Orosi 2 and Rointe Kyros WiFi work.</li>
+<li><strong>Cast-iron core</strong>: a cast-iron block stores heat and releases it slowly. Paired with a fast-reacting radiant front panel, this is called “dual technology” or a “dual heating system”, as on the Thermor Équateur 4.</li>
+<li><strong>Aluminium body with radiant front panel</strong>: stores less heat but responds faster. This is how the Atlantic Oniris is designed.</li>
+<li><strong>Dry stone or ceramic core</strong>: refractory bricks store heat for longer. Best for rooms heated for long stretches.</li>
+<li><strong>Glass front</strong>: ranges such as Campa’s Campaver combine a thick radiant glass front with rear heating elements. The main selling point is design, not heat stored in stone.</li>
+<li><strong>Portable oil-filled radiator</strong>: a free-standing oil-filled radiator you plug into a socket. It is a top-up heater that needs no installation, like the Mill Gentle Air WiFi.</li>
 </ul>
-<p>The more inertia, the longer the room stays warm after switch-off, but the slower the heater reacts to a new set-point. High inertia suits rooms used all day; responsiveness matters more for rooms used occasionally.</p>
+<p>The higher the thermal mass, the longer the room stays warm after the heater switches off, but the slower it reacts when you change the target temperature. High thermal mass suits rooms in constant use; responsiveness matters more for rooms used only now and then.</p>
 
 <h3>Built-in Wi-Fi or gateway</h3>
-<p>This is the most misunderstood point. Thermor, Atlantic and Sauter heaters (all part of Groupe Atlantic) use the <strong>Cozytouch</strong> app, but depending on the model you need a gateway (the Cozytouch bridge) connected to your router. The Rointe Kyros WiFi and Mill Gentle Air WiFi have Wi-Fi built in: the app is enough. Check this before buying, as it changes both cost and setup.</p>
+<p>This is the point people most often get wrong. Thermor, Atlantic and Sauter heaters (all part of Groupe Atlantic) use the <strong>Cozytouch</strong> app, but depending on the model you may need to add a gateway (the Cozytouch bridge) connected to your router. The Rointe Kyros WiFi and Mill Gentle Air WiFi, by contrast, have Wi-Fi built in, so the app is all you need. Check this before buying, as it affects both the cost and how easy setup is.</p>
 
 <h3>Pilot wire</h3>
-<p>The pilot wire (fil pilote) is specific to France: a dedicated conductor sends orders (Comfort, Eco, Frost protection, Off, and on six-order versions Comfort -1 and Comfort -2) from a central programmer. If your home has one, choose a compatible heater. Plug-in portable heaters do not need it.</p>
+<p>The pilot wire (fil pilote) is a control system specific to the French market: a dedicated wire sends commands (Comfort, Eco, Frost protection, Off and, on six-command versions, Comfort -1 and Comfort -2) from a programmer or energy manager. If your home is wired for it, choose a compatible heater so you keep central scheduling. Plug-in portable heaters do not need it.</p>
 
 <h3>Automatic detection</h3>
-<p>Two features make a real daily difference. <strong>Open window detection</strong> cuts or reduces heating when the temperature drops sharply during airing. <strong>Presence detection</strong> lowers the set-point when the room is empty. The fixed models in this guide offer both on most versions; the Mill Gentle Air WiFi offers the open window function and predictive start.</p>
+<p>Two features make a real difference day to day. <strong>Open window detection</strong> switches off or turns down the heating when the temperature drops sharply while a window is open. <strong>Presence detection</strong> lowers the target temperature when the room is empty. Most versions of the fixed models in this guide offer both; the Mill Gentle Air WiFi has the open window function and predictive start.</p>
 
-<h3>Power</h3>
-<p>A common rule of thumb is about 100 W per m² in a home with average insulation, less in a recent well-insulated home, more in an older building. For accurate sizing, a heating professional will account for volume, orientation and actual heat losses.</p>
+<h3>Wattage</h3>
+<p>A common rule of thumb is about 100 W per m² in a home with average insulation, less in a newer, well-insulated home and more in an older property. For accurate sizing, a heating engineer or design consultant will take into account the room’s volume, which way it faces and its actual heat loss.</p>
 
-<h2>5 models worth knowing</h2>
-<h3>Thermor Equateur 4: the most complete</h3>
-<p>The Equateur 4 combines a cast-iron heating body with a heating front panel. It comes in skirting, horizontal and vertical formats from 750 to 2000 W and is made in France. It includes open window and presence detection, and is controlled remotely via Cozytouch, with energy monitoring and voice control through Google Assistant.</p>
-<p><strong>Strengths</strong>: gentle cast-iron heat, responsive front panel, wide range of formats, mature app.</p>
-<p><strong>Limits</strong>: fixed heater to be installed, Cozytouch gateway required for remote control, premium positioning.</p>
-<p><strong>Best for</strong>: homeowners replacing convectors who want durable equipment for living areas.</p>
+<h2>5 models to consider</h2>
+<h3>Thermor Équateur 4: the most complete</h3>
+<p>The Équateur 4 combines a cast-iron heating core with a radiant front panel. It comes in low-level, horizontal and vertical versions from 750 to 2,000 W and is made in France. It has open window and presence detection, and can be controlled remotely through Cozytouch, with energy monitoring and voice control via Google Assistant.</p>
+<p><strong>Pros</strong>: gentle heat from the cast iron, responsive front panel, very wide choice of formats, mature app.</p>
+<p><strong>Cons</strong>: fixed heater that needs professional installation, Cozytouch gateway required for remote control, at the premium end.</p>
+<p><strong>Best for</strong>: homeowners replacing convector heaters who want a long-lasting heater for their living areas.</p>
 
-<h3>Atlantic Oniris: responsive design</h3>
-<p>The Oniris uses an aluminium heating body and a fast-warming heating front. Its digital touch control unit and extra-flat front suit contemporary interiors. It offers open window and presence detection and is controlled via Cozytouch (optional gateway), including by voice with Google Assistant.</p>
-<p><strong>Strengths</strong>: refined look, responsiveness, same ecosystem as Thermor.</p>
-<p><strong>Limits</strong>: less heat storage than cast-iron or stone, gateway needed for remote control.</p>
+<h3>Atlantic Oniris: stylish and quick to heat</h3>
+<p>The Oniris uses an aluminium heating body and a radiant front panel that heats up quickly. Its digital touch controls and extra-slim front are aimed at contemporary interiors. It offers open window and presence detection and can be controlled through Cozytouch (optional gateway), including by voice with Google Assistant.</p>
+<p><strong>Pros</strong>: stylish looks, quick to respond, same ecosystem as Thermor.</p>
+<p><strong>Cons</strong>: stores less heat than a cast-iron or stone model, gateway needed for remote control.</p>
 <p><strong>Best for</strong>: living rooms where design matters as much as performance.</p>
 
-<h3>Sauter Orosi 2: affordable fluid inertia</h3>
-<p>The Orosi 2 is a fluid-inertia heater with a digital thermostat, presence and absence detection, window opening detection and PIN lock for settings. Remote control uses a connectivity box from the Cozytouch ecosystem. It carries NF Électricité certification.</p>
-<p><strong>Strengths</strong>: even heat, complete automatic functions, entry-level positioning among French brands.</p>
-<p><strong>Limits</strong>: connectivity relies on a separate box, more classic design.</p>
-<p><strong>Best for</strong>: households equipping several rooms who want the best balance of features and budget.</p>
+<h3>Sauter Orosi 2: an affordable fluid-filled heater</h3>
+<p>The Orosi 2 is a fluid-filled heater with a digital thermostat, presence and absence detection, open window detection and a PIN lock for the settings. Remote control requires a connection box from the Cozytouch range. It carries NF Électricité (a French safety mark) certification.</p>
+<p><strong>Pros</strong>: even heat, a full set of automatic functions, one of the cheaper French-brand options.</p>
+<p><strong>Cons</strong>: connectivity relies on a separate box, more conventional design.</p>
+<p><strong>Best for</strong>: households heating several rooms who want the best balance of features and price.</p>
 
 <h3>Rointe Kyros WiFi: built-in Wi-Fi, no gateway</h3>
-<p>The Kyros WiFi from Spanish maker Rointe is a wall-mounted thermal-fluid radiator with a recycled aluminium body. Its Wi-Fi module is built in: you set it up and schedule it directly in the Rointe app, with energy monitoring, open window detection and early start. It is offered in 600, 1200 and 1800 W versions among others.</p>
-<p><strong>Strengths</strong>: no gateway to buy, built-in energy monitoring, available from several online retailers.</p>
-<p><strong>Limits</strong>: pilot wire not highlighted, smaller distribution network in France than Groupe Atlantic brands.</p>
-<p><strong>Best for</strong>: anyone who wants a connected fixed heater that is simple to commission, with no extra hub.</p>
+<p>The Kyros WiFi from Spanish manufacturer Rointe is a wall-mounted thermal fluid radiator with a recycled aluminium body. Its Wi-Fi module is built in, so you set it up and schedule it directly in the Rointe app, with energy monitoring, open window detection and early start. It is available in 600, 1,200 and 1,800 W versions, among others.</p>
+<p><strong>Pros</strong>: no gateway to buy, built-in energy monitoring, available from several online retailers.</p>
+<p><strong>Cons</strong>: pilot wire not promoted, smaller distribution network in France than the Groupe Atlantic brands.</p>
+<p><strong>Best for</strong>: anyone who wants a smart fixed heater that is simple to set up, with no extra hub.</p>
 
 <h3>Mill Gentle Air WiFi: portable, no installation</h3>
-<p>The Gentle Air WiFi from Norwegian brand Mill is a free-standing oil-filled radiator with a closed shape. The 1500 W version has three power levels (600, 900 and 1500 W) and targets rooms of roughly 18 to 22 m²; a 2000 W version also exists. It connects over Wi-Fi (set up via Bluetooth) to the Millheat app, with scheduling, an open window function and predictive heating. It has tip-over and overheat protection.</p>
-<p><strong>Strengths</strong>: no installation, clear app, easy to move between rooms.</p>
-<p><strong>Limits</strong>: supplementary rather than main heating, takes floor space, no pilot wire.</p>
+<p>The Gentle Air WiFi from Norwegian brand Mill is a free-standing oil-filled radiator with an enclosed design. The 1,500 W version has three power settings (600, 900 and 1,500 W) and is aimed at rooms of roughly 18 to 22 m²; a 2,000 W version is also available. It connects over Wi-Fi (set up via Bluetooth) to the Millheat app, with scheduling, an open window function and predictive heating. It has tip-over and overheat protection.</p>
+<p><strong>Pros</strong>: no installation, clear app, easy to move between rooms.</p>
+<p><strong>Cons</strong>: a top-up heater rather than main heating, takes up floor space, no pilot wire.</p>
 <p><strong>Best for</strong>: renters, home offices, guest rooms or poorly heated rooms.</p>
 
 <h2>Comparison table</h2>
@@ -206,179 +206,179 @@ export const article: BlogArticle = {
 <tr><th>Model</th><th>Technology</th><th>Connectivity</th><th>Installation</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td>Thermor Equateur 4</td><td>Cast iron + heating front</td><td>Cozytouch (gateway)</td><td>Fixed, by a professional</td><td>Living areas, lasting comfort</td></tr>
-<tr><td>Atlantic Oniris</td><td>Aluminium + heating front</td><td>Cozytouch (optional gateway)</td><td>Fixed, by a professional</td><td>Design interiors, responsiveness</td></tr>
-<tr><td>Sauter Orosi 2</td><td>Fluid inertia</td><td>Cozytouch box</td><td>Fixed, by a professional</td><td>Equipping several rooms</td></tr>
+<tr><td>Thermor Équateur 4</td><td>Cast iron + radiant front</td><td>Cozytouch (gateway)</td><td>Fixed, by a professional</td><td>Living areas, lasting comfort</td></tr>
+<tr><td>Atlantic Oniris</td><td>Aluminium + radiant front</td><td>Cozytouch (optional gateway)</td><td>Fixed, by a professional</td><td>Stylish interiors, quick warm-up</td></tr>
+<tr><td>Sauter Orosi 2</td><td>Fluid-filled</td><td>Cozytouch box</td><td>Fixed, by a professional</td><td>Heating several rooms</td></tr>
 <tr><td>Rointe Kyros WiFi</td><td>Thermal fluid, aluminium</td><td>Built-in Wi-Fi, Rointe app</td><td>Fixed, by a professional</td><td>No gateway</td></tr>
-<tr><td>Mill Gentle Air WiFi</td><td>Portable oil-filled</td><td>Built-in Wi-Fi, Millheat app</td><td>Plugs into a socket</td><td>Supplementary heat, renters</td></tr>
+<tr><td>Mill Gentle Air WiFi</td><td>Portable oil-filled</td><td>Built-in Wi-Fi, Millheat app</td><td>Plugs into a socket</td><td>Top-up heating, renters</td></tr>
 </tbody>
 </table>
 
 <h2>Mistakes to avoid</h2>
 <ul>
-<li><strong>Forgetting the gateway</strong>: a “connectable” heater is not always connected out of the box. Check whether a bridge or box is required.</li>
-<li><strong>Choosing maximum inertia everywhere</strong>: for a guest room or office used a few hours a day, a responsive model fits better.</li>
-<li><strong>Undersizing power</strong>: an underpowered heater runs constantly without reaching the set-point.</li>
-<li><strong>Plugging a portable heater into a power strip or an undersized smart plug</strong>: use a wall socket, and only a smart plug explicitly rated for the heater’s power.</li>
-<li><strong>Buying an unknown brand</strong>: without a reliable app publisher, the connected features may stop working after a few years.</li>
+<li><strong>Forgetting the gateway</strong>: a heater sold as “connectable” is not always smart out of the box. Check whether you need a bridge or box.</li>
+<li><strong>Choosing the highest thermal mass for every room</strong>: for a guest room or a study used a few hours a day, a responsive model is a better fit.</li>
+<li><strong>Choosing too low a wattage</strong>: an underpowered heater runs constantly without reaching the target temperature.</li>
+<li><strong>Plugging a portable heater into an extension lead or an underrated smart plug</strong>: use a wall socket, and only a smart plug specifically rated for the heater’s wattage.</li>
+<li><strong>Buying an unknown brand</strong>: without a reputable company behind the app, the smart features may stop working after a few years.</li>
 </ul>
 
 <h2>Installation and safety</h2>
-<p>A fixed heater should be connected by a qualified electrician, on a circuit suited to its power and compliant with local wiring rules, including bathroom safety zones. Never cover a heater and keep the clearance recommended by the manufacturer. Place portable models on a stable surface, away from curtains and laundry, and check they have tip-over protection.</p>
-<p>On the regulatory side, EU ecodesign Regulation (EU) 2015/1188 has set efficiency requirements for local space heaters since 2018, which made electronic thermostats and weekly scheduling standard. For whole-home heating control, read our <a href="/en/blog/guide-domotique-economie-energie-2026">smart home energy saving guide</a> and our article on the <a href="/en/blog/thermostat-connecte-pompe-chaleur">smart thermostat with a heat pump</a>.</p>
+<p>A fixed heater must be wired in by a qualified electrician, on a circuit suited to its power that complies with local wiring rules, including bathroom safety zones. Never cover a heater, and leave the clearance around it that the manufacturer recommends. Stand portable models on a stable surface, away from curtains and laundry, and check they have tip-over protection.</p>
+<p>On the regulatory side, EU ecodesign Regulation (EU) 2015/1188 has set efficiency requirements for local space heaters since 2018, which made electronic thermostats and weekly scheduling standard. For whole-home heating control, read our <a href="/en/blog/guide-domotique-economie-energie-2026">smart home energy saving guide</a> and our article on <a href="/en/blog/thermostat-connecte-pompe-chaleur">using a smart thermostat with a heat pump</a>.</p>
 
 <h2>Our verdict</h2>
-<p>To replace convectors in a home you own, the <strong>Thermor Equateur 4</strong> remains the most complete reference. To equip several rooms on a controlled budget, the <strong>Sauter Orosi 2</strong> covers the essential automatic functions. If you cannot do any works, the <strong>Mill Gentle Air WiFi</strong> is the simplest connected supplementary heater. The <strong>Atlantic Oniris</strong> and <strong>Rointe Kyros WiFi</strong> round out the choice for design-led interiors and for those who want to skip the gateway.</p>`,
+<p>To replace convector heaters in a home you own, the <strong>Thermor Équateur 4</strong> is still the most complete choice. To heat several rooms on a tight budget, the <strong>Sauter Orosi 2</strong> covers the essential automatic functions. If you cannot drill or have work done, the <strong>Mill Gentle Air WiFi</strong> is the simplest smart top-up heater. The <strong>Atlantic Oniris</strong> and <strong>Rointe Kyros WiFi</strong> round out the line-up for design-led interiors and for anyone who would rather skip the gateway.</p>`,
 
     de: `<h2>Welchen smarten Elektroheizkörper sollten Sie 2026 wählen?</h2>
-<p>Für eine feste Installation ist der <strong>Thermor Equateur 4</strong> die umfassendste Wahl: doppelter Heizkörper mit Gussspeicher, Fenster-offen- und Anwesenheitserkennung sowie Steuerung über die Cozytouch-App. Wer ein mobiles Gerät ohne Montage sucht, findet im Ölradiator <strong>Mill Gentle Air WiFi</strong> eine durchdachte App und eine Fenster-offen-Funktion, ganz ohne Elektriker.</p>
-<p>Dazwischen setzt der <strong>Atlantic Oniris</strong> auf Design und schnelle Reaktion, der <strong>Sauter Orosi 2</strong> auf günstigen Fluidspeicher und der <strong>Rointe Kyros WiFi</strong> auf integriertes WLAN ohne Bridge. Dieser Ratgeber stützt sich auf Herstellerangaben, veröffentlichte unabhängige Testberichte und verifizierte Käuferbewertungen. Weitere Geräte finden Sie auf unserer Seite <a href="/de/confort-air/chauffages-appoint">smarte Zusatzheizungen</a>.</p>
+<p>Für eine feste Installation ist der <strong>Thermor Equateur 4</strong> die umfassendste Wahl: doppeltes Heizsystem mit Gusskern, Fenster-offen- und Anwesenheitserkennung sowie Steuerung über die App Cozytouch. Wer ein mobiles Gerät sucht, das ohne Umbau an die Steckdose kommt, ist mit dem Ölradiator <strong>Mill Gentle Air WiFi</strong> gut bedient: durchdachte App, Fenster-offen-Funktion, kein Elektriker nötig.</p>
+<p>Dazwischen setzt der <strong>Atlantic Oniris</strong> auf Design und schnelle Reaktion, der <strong>Sauter Orosi 2</strong> auf einen Flüssigkeitsspeicher in der Einstiegsklasse und der <strong>Rointe Kyros WiFi</strong> auf eingebautes WLAN, das ohne Bridge auskommt. Dieser Ratgeber stützt sich auf Herstellerangaben, veröffentlichte unabhängige Testberichte und verifizierte Käuferbewertungen. Weitere Geräte dieser Art finden Sie auf unserer Seite <a href="/de/confort-air/chauffages-appoint">smarte Elektroheizungen</a>.</p>
 
 <h2>Die Kriterien, die wirklich zählen</h2>
-<h3>Art des Heizkörpers</h3>
-<p>„Speicherwärme“ umfasst mehrere Technologien, die in Prospekten oft vermischt werden:</p>
+<h3>Die Art des Wärmespeichers</h3>
+<p>Hinter dem Begriff „Speicherwärme“ stecken mehrere Technologien, und Prospekte werfen sie oft durcheinander:</p>
 <ul>
-<li><strong>Fluidspeicher</strong>: Ein Heizelement erwärmt eine eingeschlossene Wärmeträgerflüssigkeit. Die Wärme ist sanft und gleichmäßig. So arbeiten der Sauter Orosi 2 und der Rointe Kyros WiFi.</li>
-<li><strong>Gussspeicher</strong>: Ein Gussblock speichert Wärme und gibt sie langsam ab. Kombiniert mit einer schnell reagierenden Heizfront spricht man von „Doppeltechnologie“, wie beim Thermor Equateur 4.</li>
-<li><strong>Aluminiumkörper mit Heizfront</strong>: weniger Speicherung, mehr Reaktionsfähigkeit. Das ist das Konzept des Atlantic Oniris.</li>
-<li><strong>Trockenspeicher aus Stein oder Keramik</strong>: Schamottesteine speichern die Wärme länger. Ideal für lange beheizte Räume.</li>
-<li><strong>Glasfront</strong>: Serien wie Campaver von Campa kombinieren eine dicke, strahlende Glasfront mit rückseitigen Heizelementen. Im Vordergrund steht das Design, nicht die Speicherung im Stein.</li>
-<li><strong>Mobiler Ölradiator</strong>: ein frei stehender, mit Öl gefüllter Heizkörper für die Steckdose. Zusatzheizung ohne Installation, wie der Mill Gentle Air WiFi.</li>
+<li><strong>Flüssigkeitsspeicher</strong>: Ein Heizelement erwärmt eine Wärmeträgerflüssigkeit, die im Heizkörper eingeschlossen ist. Die Wärme ist sanft und gleichmäßig, das Aufheizen dauert nicht übermäßig lange. So arbeiten der Sauter Orosi 2 und der Rointe Kyros WiFi.</li>
+<li><strong>Gusskern</strong>: Ein Block aus Gusseisen speichert die Wärme und gibt sie langsam wieder ab. Kommt eine schnell reagierende beheizte Front hinzu, spricht man von „Doppeltechnologie“ oder einem „doppelten Heizsystem“, wie beim Thermor Equateur 4.</li>
+<li><strong>Aluminiumkörper mit beheizter Front</strong>: weniger Speicherung, dafür schnellere Reaktion. So ist der Atlantic Oniris aufgebaut.</li>
+<li><strong>Trockenspeicher aus Stein oder Keramik</strong>: Schamottesteine halten die Wärme länger. Das passt zu Räumen, die über viele Stunden beheizt werden.</li>
+<li><strong>Glasfront</strong>: Serien wie Campaver von Campa kombinieren eine dicke, Wärme abstrahlende Glasfront mit Heizelementen auf der Rückseite. Hier steht das Design im Vordergrund, nicht die Speicherung im Stein.</li>
+<li><strong>Mobiler Ölradiator</strong>: ein frei stehender, mit Öl gefüllter Heizkörper für die Steckdose. Er dient als Zusatzheizung ohne Installation, wie der Mill Gentle Air WiFi.</li>
 </ul>
-<p>Je höher die Speicherwirkung, desto länger bleibt der Raum nach dem Abschalten warm, desto träger reagiert das Gerät aber auf neue Solltemperaturen. Für dauerhaft genutzte Räume ist viel Speicherwärme angenehm, für gelegentlich genutzte zählt die Reaktionsfähigkeit.</p>
+<p>Je größer die Speicherwirkung, desto länger bleibt der Raum nach dem Abschalten warm – desto träger reagiert das Gerät aber auch, wenn Sie die Solltemperatur ändern. In Räumen, die ständig genutzt werden, sorgt viel Speichermasse für Behaglichkeit; in Räumen, die Sie nur zeitweise nutzen, zählt die schnelle Reaktion mehr.</p>
 
-<h3>Integriertes WLAN oder Bridge</h3>
-<p>Dieser Punkt wird am häufigsten missverstanden. Heizkörper von Thermor, Atlantic und Sauter (alle Groupe Atlantic) nutzen die App <strong>Cozytouch</strong>, benötigen je nach Modell aber eine Bridge am Router. Rointe Kyros WiFi und Mill Gentle Air WiFi haben WLAN eingebaut: Die App genügt. Prüfen Sie das vor dem Kauf, denn es beeinflusst Kosten und Einrichtung.</p>
+<h3>Eingebautes WLAN oder Bridge</h3>
+<p>Dieser Punkt wird am häufigsten missverstanden. Heizkörper von Thermor, Atlantic und Sauter (alle Groupe Atlantic) steuern Sie mit der App <strong>Cozytouch</strong>; je nach Modell brauchen Sie dafür aber zusätzlich eine Bridge (die Cozytouch-Bridge), die mit Ihrem Router verbunden wird. Rointe Kyros WiFi und Mill Gentle Air WiFi haben das WLAN dagegen eingebaut: Die App genügt. Prüfen Sie das vor dem Kauf, denn es wirkt sich auf die Kosten und den Aufwand bei der Einrichtung aus.</p>
 
-<h3>Steuerleitung (Fil Pilote)</h3>
-<p>Die Steuerleitung „fil pilote“ ist eine französische Besonderheit: Ein eigener Leiter überträgt Befehle (Komfort, Eco, Frostschutz, Aus sowie bei Sechs-Befehl-Versionen Komfort -1 und Komfort -2) von einem zentralen Programmiergerät. Außerhalb Frankreichs spielt sie kaum eine Rolle; mobile Geräte brauchen sie nicht.</p>
+<h3>Steuerleitung („fil pilote“)</h3>
+<p>Der „fil pilote“ ist eine Besonderheit des französischen Marktes: Über eine eigene Ader laufen Steuerbefehle (Komfort, Eco, Frostschutz, Aus, bei Versionen mit sechs Befehlen außerdem Komfort -1 und Komfort -2) von einem Programmiergerät oder Energiemanager zum Heizkörper. Ist Ihre Wohnung damit ausgestattet, wählen Sie ein kompatibles Gerät, damit die zentrale Programmierung erhalten bleibt. Mobile Geräte für die Steckdose brauchen die Steuerleitung nicht.</p>
 
-<h3>Automatische Erkennung</h3>
-<p>Zwei Funktionen machen im Alltag einen echten Unterschied. Die <strong>Fenster-offen-Erkennung</strong> reduziert oder stoppt die Heizung, wenn die Temperatur beim Lüften stark fällt. Die <strong>Anwesenheitserkennung</strong> senkt die Solltemperatur in leeren Räumen. Die festen Modelle dieses Ratgebers bieten beides in den meisten Versionen; der Mill Gentle Air WiFi bietet die Fenster-offen-Funktion und einen vorausschauenden Start.</p>
+<h3>Automatische Erkennungsfunktionen</h3>
+<p>Zwei Funktionen machen im Alltag tatsächlich einen Unterschied. Die <strong>Fenster-offen-Erkennung</strong> schaltet die Heizung ab oder drosselt sie, wenn die Temperatur beim Lüften plötzlich fällt. Die <strong>Anwesenheitserkennung</strong> senkt die Solltemperatur, sobald niemand im Raum ist. Die fest installierten Modelle in diesem Ratgeber bieten in den meisten Versionen beides; der Mill Gentle Air WiFi hat die Fenster-offen-Funktion und einen vorausschauenden Start.</p>
 
-<h3>Leistung</h3>
-<p>Als gängige Faustregel gelten rund 100 W pro m² bei durchschnittlicher Dämmung, weniger in gut gedämmten Neubauten, mehr in Altbauten. Für eine genaue Auslegung berücksichtigt ein Heizungsfachbetrieb Raumvolumen, Ausrichtung und tatsächliche Wärmeverluste.</p>
+<h3>Die Heizleistung</h3>
+<p>Eine gängige Faustregel lautet: rund 100 W pro m² bei durchschnittlicher Dämmung, weniger im gut gedämmten Neubau, mehr im Altbau. Für eine genaue Auslegung berücksichtigt ein Heizungsfachbetrieb oder ein Planungsbüro Raumvolumen, Ausrichtung und die tatsächlichen Wärmeverluste.</p>
 
 <h2>5 Modelle im Überblick</h2>
-<h3>Thermor Equateur 4: der umfassendste</h3>
-<p>Der Equateur 4 kombiniert einen Gussheizkörper mit einer Heizfront. Er ist als Sockel-, Horizontal- und Vertikalmodell von 750 bis 2000 W erhältlich und wird in Frankreich gefertigt. Er bietet Fenster-offen- und Anwesenheitserkennung und lässt sich per Cozytouch fernsteuern, mit Verbrauchsanzeige und Sprachsteuerung über Google Assistant.</p>
-<p><strong>Stärken</strong>: sanfte Wärme dank Guss, reaktionsschnelle Front, viele Bauformen, ausgereifte App.</p>
-<p><strong>Schwächen</strong>: fest zu montieren, Cozytouch-Bridge für die Fernsteuerung nötig, Premium-Segment.</p>
-<p><strong>Für wen</strong>: Eigentümer, die Konvektoren ersetzen und langlebige Geräte für Wohnräume suchen.</p>
+<h3>Thermor Equateur 4: das umfassendste Modell</h3>
+<p>Der Equateur 4 kombiniert einen Heizkörper mit Gusskern und eine beheizte Front. Es gibt ihn als Sockel-, Horizontal- und Vertikalmodell mit 750 bis 2.000 W, gefertigt wird er in Frankreich. Fenster-offen- und Anwesenheitserkennung sind an Bord; über Cozytouch lässt er sich aus der Ferne steuern, mit Verbrauchsanzeige und Sprachsteuerung über Google Assistant.</p>
+<p><strong>Stärken</strong>: angenehme Wärme dank Gusskern, schnell reagierende Front, sehr viele Bauformen, ausgereifte App.</p>
+<p><strong>Schwächen</strong>: muss fest montiert werden, für die Fernsteuerung ist die Cozytouch-Bridge nötig, Premiumsegment.</p>
+<p><strong>Für wen</strong>: Eigentümer, die alte Konvektoren ersetzen und für die Wohnräume eine langlebige Lösung suchen.</p>
 
-<h3>Atlantic Oniris: reaktionsschnelles Design</h3>
-<p>Der Oniris nutzt einen Aluminiumheizkörper und eine schnell warme Heizfront. Das digitale Touch-Bedienteil und die extraflache Front passen zu modernen Einrichtungen. Er bietet Fenster-offen- und Anwesenheitserkennung und wird per Cozytouch gesteuert (Bridge optional), auch per Sprache mit Google Assistant.</p>
-<p><strong>Stärken</strong>: edle Optik, schnelle Reaktion, gleiches Ökosystem wie Thermor.</p>
-<p><strong>Schwächen</strong>: weniger Speicherwirkung als Guss oder Stein, Bridge für Fernsteuerung einplanen.</p>
-<p><strong>Für wen</strong>: Wohnzimmer, in denen Design ebenso zählt wie Leistung.</p>
+<h3>Atlantic Oniris: Design, das schnell reagiert</h3>
+<p>Der Oniris hat einen Heizkörper aus Aluminium und eine beheizte Front, die schnell warm wird. Das digitale Touch-Bedienteil und die extraflache Front passen zu modernen Einrichtungen. Fenster-offen- und Anwesenheitserkennung sind vorhanden; gesteuert wird er über Cozytouch (Bridge optional), auch per Sprache mit Google Assistant.</p>
+<p><strong>Stärken</strong>: edle Optik, schnelle Reaktion, gleiches System wie Thermor.</p>
+<p><strong>Schwächen</strong>: speichert weniger Wärme als Modelle mit Guss- oder Steinkern, für die Fernsteuerung brauchen Sie eine Bridge.</p>
+<p><strong>Für wen</strong>: Wohnzimmer und andere Wohnräume, in denen das Design ebenso zählt wie die Leistung.</p>
 
-<h3>Sauter Orosi 2: günstiger Fluidspeicher</h3>
-<p>Der Orosi 2 ist ein Fluidspeicher-Heizkörper mit digitalem Thermostat, Anwesenheits- und Abwesenheitserkennung, Fenster-offen-Erkennung und PIN-Sperre. Die Fernsteuerung erfolgt über eine Verbindungsbox des Cozytouch-Ökosystems. Er trägt die Zertifizierung NF Électricité.</p>
-<p><strong>Stärken</strong>: gleichmäßige Wärme, vollständige Automatikfunktionen, Einstiegssegment der französischen Marken.</p>
-<p><strong>Schwächen</strong>: Konnektivität über separate Box, klassisches Design.</p>
-<p><strong>Für wen</strong>: Haushalte, die mehrere Räume ausstatten und das beste Verhältnis von Funktionen zu Budget suchen.</p>
+<h3>Sauter Orosi 2: Flüssigkeitsspeicher für Einsteiger</h3>
+<p>Der Orosi 2 ist ein Heizkörper mit Flüssigkeitsspeicher, digitalem Thermostat, Anwesenheits- und Abwesenheitserkennung, Fenster-offen-Erkennung und einer Tastensperre per Code. Für die Fernsteuerung brauchen Sie eine Verbindungsbox aus dem Cozytouch-System. Er trägt das Prüfzeichen NF Électricité.</p>
+<p><strong>Stärken</strong>: gleichmäßige Wärme, alle wichtigen Automatikfunktionen, Einstiegsklasse unter den französischen Marken.</p>
+<p><strong>Schwächen</strong>: Vernetzung nur über eine separate Box, eher klassisches Design.</p>
+<p><strong>Für wen</strong>: Haushalte, die mehrere Räume ausstatten und möglichst viele Funktionen für ihr Budget wollen.</p>
 
-<h3>Rointe Kyros WiFi: integriertes WLAN ohne Bridge</h3>
-<p>Der Kyros WiFi des spanischen Herstellers Rointe ist ein Wandheizkörper mit Thermofluid und einem Gehäuse aus recyceltem Aluminium. Das WLAN-Modul ist integriert: Einrichtung und Programmierung erfolgen direkt in der Rointe-App, mit Verbrauchsanzeige, Fenster-offen-Erkennung und vorausschauendem Start. Erhältlich unter anderem mit 600, 1200 und 1800 W.</p>
-<p><strong>Stärken</strong>: keine Bridge nötig, integrierte Verbrauchsanzeige, bei mehreren Onlinehändlern erhältlich.</p>
-<p><strong>Schwächen</strong>: Steuerleitung nicht im Fokus, in Frankreich kleineres Händlernetz als die Marken der Groupe Atlantic.</p>
-<p><strong>Für wen</strong>: wer einen fest montierten, vernetzten Heizkörper ohne zusätzlichen Hub möchte.</p>
+<h3>Rointe Kyros WiFi: WLAN eingebaut, keine Bridge nötig</h3>
+<p>Der Kyros WiFi des spanischen Herstellers Rointe ist ein Wandheizkörper mit Thermofluid und einem Gehäuse aus recyceltem Aluminium. Das WLAN-Modul ist eingebaut: Sie richten ihn direkt in der Rointe-App ein und programmieren ihn dort, mit Verbrauchsanzeige, Fenster-offen-Erkennung und vorausschauendem Start. Erhältlich ist er unter anderem mit 600, 1.200 und 1.800 W.</p>
+<p><strong>Stärken</strong>: keine Bridge nötig, Verbrauchsanzeige integriert, bei mehreren Onlinehändlern erhältlich.</p>
+<p><strong>Schwächen</strong>: Steuerleitung („fil pilote“) wird nicht hervorgehoben, in Frankreich kleineres Händlernetz als die Marken der Groupe Atlantic.</p>
+<p><strong>Für wen</strong>: alle, die einen fest montierten, smarten Heizkörper ohne zusätzliche Box einfach in Betrieb nehmen wollen.</p>
 
-<h3>Mill Gentle Air WiFi: mobil und ohne Montage</h3>
-<p>Der Gentle Air WiFi der norwegischen Marke Mill ist ein frei stehender Ölradiator mit geschlossener Form. Die 1500-W-Version hat drei Leistungsstufen (600, 900 und 1500 W) für Räume von etwa 18 bis 22 m²; es gibt auch eine 2000-W-Version. Er verbindet sich per WLAN (Einrichtung über Bluetooth) mit der Millheat-App, mit Zeitplänen, Fenster-offen-Funktion und vorausschauendem Heizen. Kippschutz und Überhitzungsschutz sind integriert.</p>
-<p><strong>Stärken</strong>: keine Installation, übersichtliche App, leicht umzustellen.</p>
-<p><strong>Schwächen</strong>: Zusatz- statt Hauptheizung, braucht Stellfläche, keine Steuerleitung.</p>
-<p><strong>Für wen</strong>: Mieter, Homeoffice, Gästezimmer oder schlecht beheizte Räume.</p>
+<h3>Mill Gentle Air WiFi: mobil, ohne Montage</h3>
+<p>Der Gentle Air WiFi der norwegischen Marke Mill ist ein frei stehender Ölradiator mit geschlossener Bauform. Die Version mit 1.500 W hat drei Leistungsstufen (600, 900 und 1.500 W) und ist für Räume von etwa 18 bis 22 m² gedacht; daneben gibt es eine Version mit 2.000 W. Er verbindet sich per WLAN (Einrichtung über Bluetooth) mit der App Millheat und bietet Zeitpläne, eine Fenster-offen-Funktion und vorausschauendes Heizen. Kipp- und Überhitzungsschutz sind eingebaut.</p>
+<p><strong>Stärken</strong>: keine Installation, übersichtliche App, lässt sich von Raum zu Raum tragen.</p>
+<p><strong>Schwächen</strong>: Zusatz- und keine Hauptheizung, braucht Stellfläche, keine Steuerleitung.</p>
+<p><strong>Für wen</strong>: Mieter, Homeoffice, Gästezimmer oder Räume, die nicht richtig warm werden.</p>
 
 <h2>Vergleichstabelle</h2>
 <table>
 <thead>
-<tr><th>Modell</th><th>Technologie</th><th>Konnektivität</th><th>Installation</th><th>Ideal für</th></tr>
+<tr><th>Modell</th><th>Technologie</th><th>Vernetzung</th><th>Installation</th><th>Ideal für</th></tr>
 </thead>
 <tbody>
-<tr><td>Thermor Equateur 4</td><td>Guss + Heizfront</td><td>Cozytouch (Bridge)</td><td>Fest, durch Fachbetrieb</td><td>Wohnräume, dauerhafter Komfort</td></tr>
-<tr><td>Atlantic Oniris</td><td>Aluminium + Heizfront</td><td>Cozytouch (Bridge optional)</td><td>Fest, durch Fachbetrieb</td><td>Design, schnelle Reaktion</td></tr>
-<tr><td>Sauter Orosi 2</td><td>Fluidspeicher</td><td>Cozytouch-Box</td><td>Fest, durch Fachbetrieb</td><td>Mehrere Räume ausstatten</td></tr>
-<tr><td>Rointe Kyros WiFi</td><td>Thermofluid, Aluminium</td><td>Integriertes WLAN, Rointe-App</td><td>Fest, durch Fachbetrieb</td><td>Ohne Bridge</td></tr>
-<tr><td>Mill Gentle Air WiFi</td><td>Mobiler Ölradiator</td><td>Integriertes WLAN, Millheat-App</td><td>Steckdose</td><td>Zusatzheizung, Mieter</td></tr>
+<tr><td>Thermor Equateur 4</td><td>Guss + beheizte Front</td><td>Cozytouch (Bridge)</td><td>Fest, vom Fachbetrieb</td><td>Wohnräume, dauerhafter Komfort</td></tr>
+<tr><td>Atlantic Oniris</td><td>Aluminium + beheizte Front</td><td>Cozytouch (Bridge optional)</td><td>Fest, vom Fachbetrieb</td><td>Design, schnelle Reaktion</td></tr>
+<tr><td>Sauter Orosi 2</td><td>Flüssigkeitsspeicher</td><td>Cozytouch-Box</td><td>Fest, vom Fachbetrieb</td><td>Mehrere Räume ausstatten</td></tr>
+<tr><td>Rointe Kyros WiFi</td><td>Thermofluid, Aluminium</td><td>WLAN integriert, Rointe-App</td><td>Fest, vom Fachbetrieb</td><td>Ohne Bridge</td></tr>
+<tr><td>Mill Gentle Air WiFi</td><td>Mobiler Ölradiator</td><td>WLAN integriert, Millheat-App</td><td>Steckdose</td><td>Zusatzheizung, Mieter</td></tr>
 </tbody>
 </table>
 
 <h2>Fehler, die Sie vermeiden sollten</h2>
 <ul>
-<li><strong>Die Bridge vergessen</strong>: „vernetzbar“ heißt nicht immer ab Werk vernetzt. Prüfen Sie, ob eine Bridge oder Box nötig ist.</li>
-<li><strong>Überall maximale Speicherwärme wählen</strong>: Für Gästezimmer oder ein stundenweise genutztes Büro passt ein reaktionsschnelles Modell besser.</li>
-<li><strong>Leistung zu knapp bemessen</strong>: Ein zu schwaches Gerät läuft ständig, ohne die Solltemperatur zu erreichen.</li>
-<li><strong>Mobile Heizgeräte an Steckdosenleisten oder zu schwache Smart Plugs anschließen</strong>: Nutzen Sie eine Wandsteckdose und nur einen Smart Plug, der ausdrücklich für die Leistung ausgelegt ist.</li>
-<li><strong>Unbekannte Marken kaufen</strong>: Ohne verlässlichen App-Anbieter können die smarten Funktionen nach einigen Jahren wegfallen.</li>
+<li><strong>Die Bridge vergessen</strong>: „Vernetzbar“ heißt nicht immer, dass das Gerät ab Werk vernetzt ist. Prüfen Sie, ob Sie eine Bridge oder Box brauchen.</li>
+<li><strong>Überall maximale Speicherwirkung wählen</strong>: Im Gästezimmer oder in einem Büro, das nur ein paar Stunden am Tag genutzt wird, passt ein schnell reagierendes Modell besser.</li>
+<li><strong>Die Leistung zu knapp bemessen</strong>: Ein zu schwaches Gerät läuft ständig und erreicht die Solltemperatur trotzdem nicht.</li>
+<li><strong>Mobile Heizgeräte an einer Steckdosenleiste oder einer zu schwachen WLAN-Steckdose betreiben</strong>: Nutzen Sie eine Wandsteckdose und nur eine WLAN-Steckdose, die ausdrücklich für die Leistung des Geräts ausgelegt ist.</li>
+<li><strong>Eine unbekannte Marke kaufen</strong>: Steht kein seriöser Anbieter hinter der App, können die smarten Funktionen nach ein paar Jahren ausfallen.</li>
 </ul>
 
 <h2>Installation und Sicherheit</h2>
-<p>Ein fest installierter Heizkörper sollte von einer Elektrofachkraft an einen passend abgesicherten Stromkreis angeschlossen werden, unter Beachtung der örtlichen Vorschriften, auch für Schutzbereiche im Bad. Decken Sie Heizgeräte nie ab und halten Sie die vom Hersteller empfohlenen Abstände ein. Stellen Sie mobile Geräte auf einen stabilen Untergrund, fern von Vorhängen und Wäsche, und achten Sie auf einen Kippschutz.</p>
-<p>Regulatorisch gelten seit 2018 die Effizienzanforderungen der EU-Ökodesign-Verordnung (EU) 2015/1188 für Einzelraumheizgeräte, was elektronische Thermostate und Wochenprogramme zum Standard gemacht hat. Mehr zur Steuerung der gesamten Heizung lesen Sie in unserem <a href="/de/blog/guide-domotique-economie-energie-2026">Smart-Home-Ratgeber zum Energiesparen</a> und im Artikel zum <a href="/de/blog/thermostat-connecte-pompe-chaleur">smarten Thermostat mit Wärmepumpe</a>.</p>
+<p>Ein fest installierter Heizkörper muss von einer Elektrofachkraft angeschlossen werden, an einem Stromkreis, der für seine Leistung ausgelegt ist, und nach den geltenden Normen (in Frankreich NF C 15-100); diese regeln auch die Schutzbereiche im Bad. Decken Sie Heizgeräte nie ab und halten Sie rundherum die vom Hersteller empfohlenen Abstände ein. Mobile Geräte stellen Sie auf einen stabilen Untergrund, fern von Vorhängen und Wäsche; achten Sie außerdem auf einen Kippschutz.</p>
+<p>Rechtlich gilt seit 2018 die EU-Ökodesign-Verordnung (EU) 2015/1188 mit Effizienzanforderungen an Einzelraumheizgeräte. Seitdem sind elektronische Thermostate und Wochenprogramme Standard. Mehr zur Steuerung der gesamten Heizung lesen Sie in unserem <a href="/de/blog/guide-domotique-economie-energie-2026">Ratgeber Smart Home und Energiesparen</a> und im Artikel zum <a href="/de/blog/thermostat-connecte-pompe-chaleur">smarten Thermostat mit Wärmepumpe</a>.</p>
 
 <h2>Unser Fazit</h2>
-<p>Um Konvektoren im Eigenheim zu ersetzen, bleibt der <strong>Thermor Equateur 4</strong> die umfassendste Referenz. Für mehrere Räume mit begrenztem Budget deckt der <strong>Sauter Orosi 2</strong> die wichtigsten Automatikfunktionen ab. Wenn keine Montage möglich ist, ist der <strong>Mill Gentle Air WiFi</strong> die einfachste vernetzte Zusatzheizung. <strong>Atlantic Oniris</strong> und <strong>Rointe Kyros WiFi</strong> ergänzen die Auswahl für designorientierte Räume und für alle, die auf eine Bridge verzichten möchten.</p>`,
+<p>Wenn Sie in den eigenen vier Wänden alte Konvektoren ersetzen, ist der <strong>Thermor Equateur 4</strong> nach wie vor das umfassendste Modell. Für mehrere Räume bei begrenztem Budget bietet der <strong>Sauter Orosi 2</strong> die wichtigsten Automatikfunktionen. Können oder dürfen Sie nichts installieren, ist der <strong>Mill Gentle Air WiFi</strong> die einfachste smarte Zusatzheizung. <strong>Atlantic Oniris</strong> und <strong>Rointe Kyros WiFi</strong> ergänzen die Auswahl: für designorientierte Räume und für alle, die ohne Bridge auskommen wollen.</p>`,
 
-    es: `<h2>¿Qué radiador eléctrico inteligente elegir en 2026?</h2>
-<p>Para una instalación fija, el <strong>Thermor Equateur 4</strong> es la opción más completa: doble cuerpo calefactor con inercia de fundición, detección de ventana abierta y de presencia, y control con la app Cozytouch. Si busca un aparato portátil que solo hay que enchufar, el radiador de aceite <strong>Mill Gentle Air WiFi</strong> ofrece una app cuidada y función de ventana abierta, sin electricista.</p>
-<p>Entre ambos, el <strong>Atlantic Oniris</strong> apuesta por el diseño y la rapidez, el <strong>Sauter Orosi 2</strong> por la inercia fluida de gama de entrada y el <strong>Rointe Kyros WiFi</strong> por un Wi-Fi integrado que no necesita pasarela. Esta guía se basa en las fichas técnicas de los fabricantes, análisis independientes publicados y opiniones verificadas de compradores. Para otros aparatos similares, visite nuestra página de <a href="/es/confort-air/chauffages-appoint">calefactores inteligentes</a>.</p>
+    es: `<h2>¿Qué radiador eléctrico con wifi elegir en 2026?</h2>
+<p>Para una instalación fija, el <strong>Thermor Equateur 4</strong> es la opción más completa: doble cuerpo calefactor con inercia de fundición, detección de ventana abierta y de presencia, y control desde la app Cozytouch. Si buscas un aparato portátil que solo tengas que enchufar, sin obras, el radiador de aceite <strong>Mill Gentle Air WiFi</strong> ofrece una app cuidada y función de ventana abierta, sin necesidad de electricista.</p>
+<p>Entre estos dos extremos, el <strong>Atlantic Oniris</strong> apuesta por el diseño y la rapidez; el <strong>Sauter Orosi 2</strong>, por la inercia fluida con un presupuesto de gama de entrada, y el <strong>Rointe Kyros WiFi</strong>, por un wifi integrado que no necesita pasarela. Esta guía se basa en las fichas técnicas de los fabricantes, análisis independientes publicados y opiniones verificadas de compradores. Si buscas otros aparatos de la misma familia, consulta nuestra página de <a href="/es/confort-air/chauffages-appoint">radiadores y calefactores eléctricos</a>.</p>
 
-<h2>Los criterios que realmente importan</h2>
+<h2>Los criterios que de verdad importan</h2>
 <h3>El tipo de cuerpo calefactor</h3>
-<p>La palabra «inercia» abarca varias tecnologías que los folletos suelen mezclar:</p>
+<p>La palabra «inercia» abarca varias tecnologías que los folletos comerciales suelen mezclar:</p>
 <ul>
-<li><strong>Inercia fluida</strong>: una resistencia calienta un fluido térmico sellado. El calor es suave y homogéneo. Así funcionan el Sauter Orosi 2 y el Rointe Kyros WiFi.</li>
-<li><strong>Inercia de fundición</strong>: un bloque de fundición acumula el calor y lo libera despacio. Combinado con una fachada calefactora rápida, se habla de «doble tecnología», como en el Thermor Equateur 4.</li>
-<li><strong>Cuerpo de aluminio con fachada calefactora</strong>: menos acumulación, más rapidez. Es el diseño del Atlantic Oniris.</li>
-<li><strong>Inercia seca de piedra o cerámica</strong>: ladrillos refractarios que almacenan el calor durante más tiempo. Adecuada para estancias calentadas muchas horas.</li>
-<li><strong>Fachada de vidrio</strong>: gamas como Campaver de Campa combinan una gruesa fachada de vidrio radiante con elementos calefactores traseros. Su principal argumento es el diseño, no la acumulación en piedra.</li>
-<li><strong>Radiador de aceite portátil</strong>: un aparato de pie relleno de aceite que se enchufa. Calefacción de apoyo sin instalación, como el Mill Gentle Air WiFi.</li>
+<li><strong>Inercia fluida</strong>: una resistencia calienta un fluido térmico sellado dentro del radiador. El calor es suave y homogéneo, y el aparato se calienta a un ritmo razonable. Así funcionan el Sauter Orosi 2 y el Rointe Kyros WiFi.</li>
+<li><strong>Inercia de fundición</strong>: un bloque de fundición acumula el calor y lo va soltando despacio. Si se combina con un frontal radiante que reacciona rápido, se habla de «doble tecnología» o de «doble cuerpo calefactor», como en el Thermor Equateur 4.</li>
+<li><strong>Cuerpo de aluminio con frontal radiante</strong>: menos acumulación, más rapidez. Es el diseño del Atlantic Oniris.</li>
+<li><strong>Inercia seca de piedra o cerámica</strong>: ladrillos refractarios que almacenan el calor durante más tiempo. Conviene en habitaciones que se calientan muchas horas seguidas.</li>
+<li><strong>Frontal de vidrio</strong>: gamas como Campaver de Campa combinan un grueso frontal de vidrio radiante con elementos calefactores en la parte trasera. Su principal argumento es el diseño, no la acumulación en piedra.</li>
+<li><strong>Radiador de aceite portátil</strong>: un aparato de pie relleno de aceite que se enchufa a la corriente. Es la calefacción de apoyo que no necesita instalación, como el Mill Gentle Air WiFi.</li>
 </ul>
-<p>Cuanta más inercia, más tiempo se mantiene caliente la estancia tras apagar, pero más lento reacciona el radiador a un cambio de consigna. La inercia alta conviene a estancias ocupadas todo el día; la rapidez, a las de uso ocasional.</p>
+<p>Cuanta más inercia, más tiempo sigue caliente la habitación después de apagar el radiador, pero más tarda este en reaccionar cuando cambias la temperatura. En una habitación ocupada todo el día, una inercia alta da más confort; en una que se usa de vez en cuando, importa más la rapidez.</p>
 
-<h3>Wi-Fi integrado o pasarela</h3>
-<p>Es el punto que más confusión genera. Los radiadores Thermor, Atlantic y Sauter (todos del Groupe Atlantic) usan la app <strong>Cozytouch</strong>, pero según el modelo necesitan una pasarela (el bridge Cozytouch) conectada al router. El Rointe Kyros WiFi y el Mill Gentle Air WiFi llevan el Wi-Fi integrado: basta con la app. Compruébelo antes de comprar, porque cambia el coste y la instalación.</p>
+<h3>Wifi integrado o pasarela</h3>
+<p>Es el punto que más confusión genera. Los radiadores Thermor, Atlantic y Sauter (todos del Groupe Atlantic) se controlan con la app <strong>Cozytouch</strong>, pero según el modelo hay que añadir una pasarela (el bridge Cozytouch) conectada al router. El Rointe Kyros WiFi y el Mill Gentle Air WiFi, en cambio, llevan el wifi integrado: basta con la app. Compruébalo antes de comprar, porque cambia el coste y lo sencilla que resulta la instalación.</p>
 
 <h3>Hilo piloto</h3>
-<p>El hilo piloto («fil pilote») es propio del mercado francés: un conductor dedicado envía órdenes (Confort, Eco, Antihielo, Apagado y, en las versiones de seis órdenes, Confort -1 y Confort -2) desde un programador central. Fuera de Francia apenas se usa, y los aparatos portátiles no lo necesitan.</p>
+<p>El hilo piloto («fil pilote») es un sistema propio del mercado francés: un conductor específico envía órdenes (Confort, Eco, Antihielo, Apagado y, en las versiones de seis órdenes, Confort -1 y Confort -2) desde un programador central. Si tu vivienda lo tiene, elige un radiador compatible para mantener la programación centralizada. Los radiadores portátiles que se enchufan no lo necesitan.</p>
 
 <h3>Las detecciones automáticas</h3>
-<p>Dos funciones marcan la diferencia a diario. La <strong>detección de ventana abierta</strong> corta o reduce la calefacción cuando la temperatura cae bruscamente al ventilar. La <strong>detección de presencia</strong> baja la consigna cuando la estancia está vacía. Los modelos fijos de esta guía ofrecen ambas en la mayoría de versiones; el Mill Gentle Air WiFi ofrece la función de ventana abierta y un arranque predictivo.</p>
+<p>Dos funciones marcan de verdad la diferencia en el día a día. La <strong>detección de ventana abierta</strong> corta o reduce la calefacción cuando la temperatura cae de golpe al ventilar. La <strong>detección de presencia</strong> baja la temperatura de consigna cuando no hay nadie en la habitación. Los modelos fijos de esta guía ofrecen ambas en la mayoría de sus versiones; el Mill Gentle Air WiFi ofrece la función de ventana abierta y un arranque predictivo.</p>
 
 <h3>La potencia</h3>
-<p>Una regla práctica habitual es calcular unos 100 W por m² en una vivienda con aislamiento medio, menos en una vivienda reciente bien aislada y más en un edificio antiguo. Para un dimensionado preciso, un profesional de la calefacción tendrá en cuenta el volumen, la orientación y las pérdidas reales.</p>
+<p>Una regla práctica habitual es calcular unos 100 W por m² en una vivienda con un aislamiento medio, menos en una vivienda reciente bien aislada y más en un edificio antiguo. Para un cálculo preciso, un instalador de calefacción o una ingeniería tendrá en cuenta el volumen, la orientación y las pérdidas de calor reales.</p>
 
 <h2>5 modelos que conviene conocer</h2>
 <h3>Thermor Equateur 4: el más completo</h3>
-<p>El Equateur 4 combina un cuerpo calefactor de fundición con una fachada calefactora. Existe en formato zócalo, horizontal y vertical, de 750 a 2000 W, y se fabrica en Francia. Incluye detección de ventana abierta y de presencia, y se controla a distancia con Cozytouch, con seguimiento del consumo y control por voz mediante Google Assistant.</p>
-<p><strong>Puntos fuertes</strong>: calor suave gracias a la fundición, fachada reactiva, amplia gama de formatos, app madura.</p>
-<p><strong>Límites</strong>: radiador fijo que requiere instalación, pasarela Cozytouch necesaria para el control remoto, posicionamiento de gama alta.</p>
-<p><strong>Para quién</strong>: propietarios que sustituyen convectores y quieren un equipo duradero para las zonas de estar.</p>
+<p>El Equateur 4 combina un cuerpo calefactor de fundición con un frontal radiante. Existe en formato zócalo, horizontal y vertical, de 750 a 2.000 W, y se fabrica en Francia. Incluye detección de ventana abierta y de presencia, y se controla a distancia con Cozytouch, con seguimiento del consumo y control por voz mediante Google Assistant.</p>
+<p><strong>Puntos fuertes</strong>: calor suave gracias a la fundición, frontal que reacciona rápido, gran variedad de formatos, app madura.</p>
+<p><strong>Puntos débiles</strong>: radiador fijo que hay que instalar, pasarela Cozytouch necesaria para controlarlo a distancia, modelo de gama alta.</p>
+<p><strong>Para quién</strong>: propietarios que sustituyen convectores y quieren un equipo duradero para el salón y las estancias principales.</p>
 
 <h3>Atlantic Oniris: diseño y rapidez</h3>
-<p>El Oniris utiliza un cuerpo calefactor de aluminio y una fachada calefactora que se calienta rápido. Su mando digital táctil y su frontal extraplano encajan en interiores contemporáneos. Ofrece detección de ventana abierta y de presencia, y se controla con Cozytouch (pasarela opcional), también por voz con Google Assistant.</p>
+<p>El Oniris tiene un cuerpo calefactor de aluminio y un frontal radiante que se calienta rápido. Su mando digital táctil y su frontal extraplano están pensados para interiores modernos. Ofrece detección de ventana abierta y de presencia, y se controla con Cozytouch (pasarela opcional), también por voz con Google Assistant.</p>
 <p><strong>Puntos fuertes</strong>: estética cuidada, rapidez, mismo ecosistema que Thermor.</p>
-<p><strong>Límites</strong>: menos acumulación que la fundición o la piedra, pasarela necesaria para el control remoto.</p>
-<p><strong>Para quién</strong>: salones donde el diseño importa tanto como el rendimiento.</p>
+<p><strong>Puntos débiles</strong>: acumula menos calor que un modelo de fundición o de piedra; hay que prever la pasarela para controlarlo a distancia.</p>
+<p><strong>Para quién</strong>: salones y estancias donde el diseño importa tanto como el rendimiento.</p>
 
 <h3>Sauter Orosi 2: inercia fluida asequible</h3>
-<p>El Orosi 2 es un radiador de inercia fluida con termostato digital, detector de presencia y ausencia, detección de apertura de ventana y bloqueo de ajustes por código PIN. El control remoto se realiza mediante una caja de conexión del ecosistema Cozytouch. Cuenta con la certificación NF Électricité.</p>
-<p><strong>Puntos fuertes</strong>: calor homogéneo, funciones automáticas completas, gama de entrada entre las marcas francesas.</p>
-<p><strong>Límites</strong>: conectividad que depende de una caja aparte, diseño más clásico.</p>
-<p><strong>Para quién</strong>: hogares que equipan varias estancias y buscan el mejor equilibrio entre funciones y presupuesto.</p>
+<p>El Orosi 2 es un radiador de inercia fluida con termostato digital, detector de presencia y ausencia, detección de ventana abierta y bloqueo de los ajustes con código. Para controlarlo a distancia hace falta un módulo de conexión del ecosistema Cozytouch. Tiene la certificación francesa NF Électricité.</p>
+<p><strong>Puntos fuertes</strong>: calor homogéneo, funciones automáticas completas, de los más asequibles entre las marcas francesas.</p>
+<p><strong>Puntos débiles</strong>: la conexión depende de un módulo aparte, diseño más clásico.</p>
+<p><strong>Para quién</strong>: hogares que equipan varias habitaciones y buscan el mejor equilibrio entre funciones y presupuesto.</p>
 
-<h3>Rointe Kyros WiFi: Wi-Fi integrado sin pasarela</h3>
-<p>El Kyros WiFi del fabricante español Rointe es un radiador mural de fluido térmico con cuerpo de aluminio reciclado. Su módulo Wi-Fi está integrado: se configura y programa directamente desde la app de Rointe, con seguimiento del consumo, detección de ventana abierta y arranque anticipado. Se ofrece, entre otras, en versiones de 600, 1200 y 1800 W.</p>
-<p><strong>Puntos fuertes</strong>: sin pasarela, seguimiento del consumo integrado, disponible en varias tiendas online.</p>
-<p><strong>Límites</strong>: el hilo piloto no se destaca, red de distribución en Francia más reducida que la del Groupe Atlantic.</p>
-<p><strong>Para quién</strong>: quien quiere un radiador fijo conectado fácil de poner en marcha, sin hub adicional.</p>
+<h3>Rointe Kyros WiFi: wifi integrado sin pasarela</h3>
+<p>El Kyros WiFi del fabricante español Rointe es un radiador de pared de fluido térmico, con cuerpo de aluminio reciclado. El módulo wifi va integrado: se configura y se programa directamente desde la app de Rointe, con seguimiento del consumo, detección de ventana abierta y arranque anticipado. Se vende, entre otras, en versiones de 600, 1.200 y 1.800 W.</p>
+<p><strong>Puntos fuertes</strong>: no hay que comprar pasarela, seguimiento del consumo integrado, disponible en varias tiendas online.</p>
+<p><strong>Puntos débiles</strong>: no anuncia compatibilidad con hilo piloto; en Francia, su red de distribución es más reducida que la de las marcas del Groupe Atlantic.</p>
+<p><strong>Para quién</strong>: quien quiere un radiador fijo conectado que se ponga en marcha fácilmente, sin pasarela adicional.</p>
 
 <h3>Mill Gentle Air WiFi: portátil y sin obras</h3>
-<p>El Gentle Air WiFi de la marca noruega Mill es un radiador de aceite de pie con forma cerrada. La versión de 1500 W tiene tres niveles de potencia (600, 900 y 1500 W) y está pensada para estancias de unos 18 a 22 m²; también existe una versión de 2000 W. Se conecta por Wi-Fi (configuración por Bluetooth) a la app Millheat, con programación, función de ventana abierta y calefacción predictiva. Incluye protección antivuelco y contra sobrecalentamiento.</p>
-<p><strong>Puntos fuertes</strong>: sin instalación, app clara, fácil de mover entre estancias.</p>
-<p><strong>Límites</strong>: calefacción de apoyo y no principal, ocupa espacio en el suelo, sin hilo piloto.</p>
-<p><strong>Para quién</strong>: inquilinos, despachos en casa, habitaciones de invitados o estancias mal climatizadas.</p>
+<p>El Gentle Air WiFi de la marca noruega Mill es un radiador de aceite de pie, de diseño cerrado. La versión de 1.500 W tiene tres niveles de potencia (600, 900 y 1.500 W) y está pensada para habitaciones de unos 18 a 22 m²; también hay una versión de 2.000 W. Se conecta por wifi (la configuración se hace por Bluetooth) a la app Millheat, con programación, función de ventana abierta y calefacción predictiva. Incluye protección antivuelco y contra el sobrecalentamiento.</p>
+<p><strong>Puntos fuertes</strong>: sin instalación, app clara, se lleva fácilmente de una habitación a otra.</p>
+<p><strong>Puntos débiles</strong>: es calefacción de apoyo, no principal; ocupa sitio en el suelo; sin hilo piloto.</p>
+<p><strong>Para quién</strong>: inquilinos, despachos en casa, habitaciones de invitados o estancias que se quedan frías.</p>
 
 <h2>Tabla comparativa</h2>
 <table>
@@ -386,89 +386,89 @@ export const article: BlogArticle = {
 <tr><th>Modelo</th><th>Tecnología</th><th>Conectividad</th><th>Instalación</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td>Thermor Equateur 4</td><td>Fundición + fachada calefactora</td><td>Cozytouch (pasarela)</td><td>Fija, por un profesional</td><td>Zonas de estar, confort duradero</td></tr>
-<tr><td>Atlantic Oniris</td><td>Aluminio + fachada calefactora</td><td>Cozytouch (pasarela opcional)</td><td>Fija, por un profesional</td><td>Interiores de diseño, rapidez</td></tr>
-<tr><td>Sauter Orosi 2</td><td>Inercia fluida</td><td>Caja Cozytouch</td><td>Fija, por un profesional</td><td>Equipar varias estancias</td></tr>
-<tr><td>Rointe Kyros WiFi</td><td>Fluido térmico, aluminio</td><td>Wi-Fi integrado, app Rointe</td><td>Fija, por un profesional</td><td>Sin pasarela</td></tr>
-<tr><td>Mill Gentle Air WiFi</td><td>Radiador de aceite portátil</td><td>Wi-Fi integrado, app Millheat</td><td>Enchufe</td><td>Apoyo, inquilinos</td></tr>
+<tr><td>Thermor Equateur 4</td><td>Fundición + frontal radiante</td><td>Cozytouch (pasarela)</td><td>Fija, por un profesional</td><td>Estancias principales, confort duradero</td></tr>
+<tr><td>Atlantic Oniris</td><td>Aluminio + frontal radiante</td><td>Cozytouch (pasarela opcional)</td><td>Fija, por un profesional</td><td>Interiores de diseño, rapidez</td></tr>
+<tr><td>Sauter Orosi 2</td><td>Inercia fluida</td><td>Módulo Cozytouch</td><td>Fija, por un profesional</td><td>Equipar varias habitaciones</td></tr>
+<tr><td>Rointe Kyros WiFi</td><td>Fluido térmico, aluminio</td><td>Wifi integrado, app Rointe</td><td>Fija, por un profesional</td><td>Prescindir de pasarela</td></tr>
+<tr><td>Mill Gentle Air WiFi</td><td>Radiador de aceite portátil</td><td>Wifi integrado, app Millheat</td><td>Se enchufa</td><td>Apoyo, inquilinos</td></tr>
 </tbody>
 </table>
 
 <h2>Errores que conviene evitar</h2>
 <ul>
-<li><strong>Olvidar la pasarela</strong>: un radiador «conectable» no siempre viene conectado de serie. Compruebe si necesita un bridge o una caja.</li>
-<li><strong>Elegir la inercia máxima en todas partes</strong>: en una habitación de invitados o un despacho usado pocas horas, un modelo rápido encaja mejor.</li>
-<li><strong>Quedarse corto de potencia</strong>: un radiador insuficiente funciona sin parar sin alcanzar la consigna.</li>
-<li><strong>Conectar un radiador portátil a una regleta o a un enchufe inteligente insuficiente</strong>: use una toma de pared y solo un enchufe inteligente preparado explícitamente para esa potencia.</li>
-<li><strong>Comprar una marca desconocida</strong>: sin un editor fiable detrás de la app, las funciones conectadas pueden dejar de funcionar en pocos años.</li>
+<li><strong>Olvidarse de la pasarela</strong>: un radiador «conectable» no siempre viene conectado de serie. Comprueba si necesita un bridge o un módulo aparte.</li>
+<li><strong>Poner la máxima inercia en todas partes</strong>: en una habitación de invitados o en un despacho que se usa pocas horas, encaja mejor un modelo rápido.</li>
+<li><strong>Quedarse corto de potencia</strong>: un radiador poco potente funciona sin parar y nunca llega a la temperatura fijada.</li>
+<li><strong>Enchufar un radiador portátil a una regleta o a un enchufe inteligente que no aguanta esa potencia</strong>: usa un enchufe de pared y, si pones un enchufe inteligente, que esté preparado expresamente para la potencia del aparato.</li>
+<li><strong>Comprar una marca desconocida</strong>: si no hay una empresa seria detrás de la app, la parte conectada puede dejar de funcionar al cabo de pocos años.</li>
 </ul>
 
 <h2>Instalación y seguridad</h2>
-<p>Un radiador fijo debe conectarlo un electricista cualificado, en un circuito adecuado a su potencia y conforme a la normativa local, incluidos los volúmenes de seguridad del baño. No cubra nunca un radiador y respete las distancias que indica el fabricante. Coloque los modelos portátiles sobre una superficie estable, lejos de cortinas y ropa, y compruebe que tienen protección antivuelco.</p>
-<p>En cuanto a la normativa, el Reglamento europeo de diseño ecológico (UE) 2015/1188 impone desde 2018 requisitos de eficiencia a los aparatos de calefacción local, lo que ha generalizado los termostatos electrónicos y la programación semanal. Para controlar toda la calefacción, lea nuestra <a href="/es/blog/guide-domotique-economie-energie-2026">guía de domótica y ahorro energético</a> y nuestro artículo sobre el <a href="/es/blog/thermostat-connecte-pompe-chaleur">termostato inteligente con bomba de calor</a>.</p>
+<p>Un radiador fijo lo tiene que conectar un electricista cualificado, en un circuito adecuado a su potencia y conforme a la normativa vigente, que también regula los volúmenes de seguridad del baño. No cubras nunca un radiador y deja a su alrededor el espacio que recomienda el fabricante. Los modelos portátiles, colócalos sobre una superficie estable, lejos de cortinas y de la ropa, y comprueba que tienen protección antivuelco.</p>
+<p>En cuanto a la normativa, el Reglamento europeo de diseño ecológico (UE) 2015/1188 impone desde 2018 requisitos de eficiencia a los aparatos de calefacción local, y por eso hoy los termostatos electrónicos y la programación semanal son lo habitual. Para controlar toda la calefacción de casa, lee nuestra <a href="/es/blog/guide-domotique-economie-energie-2026">guía de domótica y ahorro energético</a> y nuestro artículo sobre el <a href="/es/blog/thermostat-connecte-pompe-chaleur">termostato inteligente con bomba de calor</a>.</p>
 
 <h2>Nuestro veredicto</h2>
-<p>Para sustituir convectores en una vivienda en propiedad, el <strong>Thermor Equateur 4</strong> sigue siendo la referencia más completa. Para equipar varias estancias con un presupuesto contenido, el <strong>Sauter Orosi 2</strong> reúne las funciones automáticas esenciales. Si no puede hacer obras, el <strong>Mill Gentle Air WiFi</strong> es la calefacción de apoyo conectada más sencilla. El <strong>Atlantic Oniris</strong> y el <strong>Rointe Kyros WiFi</strong> completan la oferta para interiores de diseño y para quien quiera prescindir de pasarela.</p>`,
+<p>Para sustituir convectores en una vivienda de tu propiedad, el <strong>Thermor Equateur 4</strong> sigue siendo la referencia más completa. Para equipar varias habitaciones sin disparar el presupuesto, el <strong>Sauter Orosi 2</strong> reúne lo esencial de las funciones automáticas. Si no puedes hacer obras, el <strong>Mill Gentle Air WiFi</strong> es la calefacción de apoyo conectada más sencilla. El <strong>Atlantic Oniris</strong> y el <strong>Rointe Kyros WiFi</strong> completan la oferta para interiores de diseño y para quien quiera prescindir de pasarela.</p>`,
 
     it: `<h2>Quale radiatore elettrico smart scegliere nel 2026?</h2>
-<p>Per un'installazione fissa, il <strong>Thermor Equateur 4</strong> è la scelta più completa: doppio corpo scaldante con inerzia in ghisa, rilevamento finestra aperta e presenza, controllo tramite l'app Cozytouch. Se cercate un apparecchio portatile da collegare alla presa, il radiatore a olio <strong>Mill Gentle Air WiFi</strong> offre un'app curata e la funzione finestra aperta, senza elettricista.</p>
-<p>Tra i due, l'<strong>Atlantic Oniris</strong> punta su design e reattività, il <strong>Sauter Orosi 2</strong> sull'inerzia fluida di fascia d'ingresso e il <strong>Rointe Kyros WiFi</strong> su un Wi-Fi integrato che non richiede bridge. Questa guida si basa sulle schede tecniche dei produttori, su prove indipendenti pubblicate e sulle opinioni verificate degli acquirenti. Per altri apparecchi simili, visitate la pagina <a href="/it/confort-air/chauffages-appoint">stufe intelligenti</a>.</p>
+<p>Per un'installazione fissa, il <strong>Thermor Equateur 4</strong> è la scelta più completa: doppio corpo scaldante con inerzia in ghisa, rilevamento della finestra aperta e della presenza, gestione dall'app Cozytouch. Se invece cerchi un apparecchio portatile da collegare alla presa senza fare lavori, il radiatore a olio <strong>Mill Gentle Air WiFi</strong> ha un'app curata e la funzione finestra aperta, e non richiede l'elettricista.</p>
+<p>Tra questi due estremi, l'<strong>Atlantic Oniris</strong> punta su design e reattività, il <strong>Sauter Orosi 2</strong> sull'inerzia fluida in fascia d'ingresso e il <strong>Rointe Kyros WiFi</strong> sul Wi-Fi integrato, che fa a meno del gateway. Questa guida si basa sulle schede tecniche dei produttori, sui test indipendenti pubblicati e sulle recensioni verificate degli acquirenti. Per altri apparecchi della stessa famiglia, consulta la nostra pagina su <a href="/it/confort-air/chauffages-appoint">stufe elettriche e termoventilatori</a>.</p>
 
 <h2>I criteri che contano davvero</h2>
 <h3>Il tipo di corpo scaldante</h3>
-<p>Il termine «inerzia» comprende diverse tecnologie che spesso i cataloghi confondono:</p>
+<p>Il termine «inerzia» copre diverse tecnologie, che le schede commerciali spesso confondono:</p>
 <ul>
-<li><strong>Inerzia fluida</strong>: una resistenza scalda un fluido termovettore sigillato. Il calore è morbido e uniforme. È il principio del Sauter Orosi 2 e del Rointe Kyros WiFi.</li>
-<li><strong>Inerzia in ghisa</strong>: un blocco di ghisa accumula calore e lo rilascia lentamente. Abbinato a una facciata scaldante rapida si parla di «doppia tecnologia», come sul Thermor Equateur 4.</li>
-<li><strong>Corpo in alluminio con facciata scaldante</strong>: meno accumulo, più reattività. È la soluzione dell'Atlantic Oniris.</li>
-<li><strong>Inerzia secca in pietra o ceramica</strong>: mattoni refrattari che conservano il calore più a lungo. Adatta agli ambienti riscaldati per molte ore.</li>
-<li><strong>Facciata in vetro</strong>: gamme come Campaver di Campa abbinano una spessa facciata radiante in vetro a elementi scaldanti posteriori. Il punto di forza è il design, non l'accumulo nella pietra.</li>
-<li><strong>Radiatore a olio portatile</strong>: un apparecchio a pavimento riempito d'olio da collegare alla presa. Riscaldamento d'appoggio senza installazione, come il Mill Gentle Air WiFi.</li>
+<li><strong>Inerzia fluida</strong>: una resistenza scalda un fluido termovettore sigillato nel corpo del radiatore. Il calore è dolce e uniforme e il radiatore va a regime in tempi ragionevoli. È il principio del Sauter Orosi 2 e del Rointe Kyros WiFi.</li>
+<li><strong>Inerzia in ghisa</strong>: un blocco di ghisa accumula il calore e lo rilascia lentamente. Quando è abbinato a un frontale radiante che reagisce in fretta, si parla di «doppia tecnologia» o di «doppio corpo scaldante»: è il caso del Thermor Equateur 4.</li>
+<li><strong>Corpo in alluminio con frontale radiante</strong>: meno accumulo, più reattività. È la soluzione scelta per l'Atlantic Oniris.</li>
+<li><strong>Inerzia secca in pietra o ceramica</strong>: i mattoni refrattari conservano il calore più a lungo. È adatta agli ambienti riscaldati per molte ore di fila.</li>
+<li><strong>Frontale in vetro</strong>: gamme come Campaver di Campa abbinano uno spesso frontale radiante in vetro a elementi scaldanti posteriori. Il punto di forza è il design, non l'accumulo nella pietra.</li>
+<li><strong>Radiatore a olio portatile</strong>: un apparecchio a pavimento riempito d'olio, da collegare a una presa. È la soluzione per il riscaldamento integrativo, senza installazione, come il Mill Gentle Air WiFi.</li>
 </ul>
-<p>Più l'inerzia è alta, più a lungo la stanza resta calda dopo lo spegnimento, ma più lentamente il radiatore reagisce a una nuova temperatura impostata. L'inerzia alta è adatta alle stanze occupate tutto il giorno; la reattività a quelle usate saltuariamente.</p>
+<p>Più l'inerzia è alta, più a lungo la stanza resta tiepida dopo lo spegnimento, ma più il radiatore è lento a reagire quando cambi la temperatura impostata. In una stanza occupata tutto il giorno l'inerzia elevata garantisce comfort; in una stanza usata solo ogni tanto conta di più la reattività.</p>
 
-<h3>Wi-Fi integrato o bridge</h3>
-<p>È il punto più frainteso. I radiatori Thermor, Atlantic e Sauter (tutti del Groupe Atlantic) usano l'app <strong>Cozytouch</strong>, ma a seconda del modello serve un bridge collegato al router. Il Rointe Kyros WiFi e il Mill Gentle Air WiFi hanno il Wi-Fi integrato: basta l'app. Verificatelo prima dell'acquisto, perché cambia costi e installazione.</p>
+<h3>Wi-Fi integrato o gateway</h3>
+<p>È il punto più frainteso. I radiatori Thermor, Atlantic e Sauter (tutti del gruppo Atlantic) si gestiscono con l'app <strong>Cozytouch</strong>, ma a seconda del modello serve un accessorio in più, il bridge Cozytouch, collegato al router di casa. Il Rointe Kyros WiFi e il Mill Gentle Air WiFi hanno invece il Wi-Fi integrato: basta l'app. Controlla questo aspetto prima di comprare, perché cambia il costo e la semplicità dell'installazione.</p>
 
 <h3>Filo pilota</h3>
-<p>Il filo pilota («fil pilote») è tipico del mercato francese: un conduttore dedicato invia comandi (Comfort, Eco, Antigelo, Spento e, nelle versioni a sei ordini, Comfort -1 e Comfort -2) da un programmatore centrale. Fuori dalla Francia è poco diffuso, e gli apparecchi portatili non ne hanno bisogno.</p>
+<p>Il filo pilota («fil pilote») è un sistema tipico del mercato francese: un conduttore dedicato trasmette i comandi (Comfort, Eco, Antigelo, Spento e, nelle versioni a sei ordini, Comfort -1 e Comfort -2) da un programmatore o da un gestore di energia. Fuori dalla Francia è poco diffuso: se la tua casa ne è dotata, scegli un radiatore compatibile per mantenere la programmazione centralizzata. I radiatori portatili da collegare alla presa non ne hanno bisogno.</p>
 
 <h3>I rilevamenti automatici</h3>
-<p>Due funzioni fanno davvero la differenza. Il <strong>rilevamento finestra aperta</strong> interrompe o riduce il riscaldamento quando la temperatura cala bruscamente durante l'aerazione. Il <strong>rilevamento di presenza</strong> abbassa la temperatura quando la stanza è vuota. I modelli fissi di questa guida offrono entrambi nella maggior parte delle versioni; il Mill Gentle Air WiFi offre la funzione finestra aperta e un avvio predittivo.</p>
+<p>Due funzioni fanno davvero la differenza nell'uso di tutti i giorni. Il <strong>rilevamento della finestra aperta</strong> spegne o riduce il riscaldamento quando la temperatura cala bruscamente mentre arieggi la stanza. Il <strong>rilevamento di presenza</strong> abbassa la temperatura impostata quando nella stanza non c'è nessuno. I modelli fissi di questa guida offrono entrambe le funzioni nella maggior parte delle versioni; il Mill Gentle Air WiFi ha la funzione finestra aperta e l'avvio predittivo.</p>
 
 <h3>La potenza</h3>
-<p>Una regola pratica diffusa indica circa 100 W per m² in un'abitazione con isolamento medio, meno in una casa recente ben isolata, di più in un edificio datato. Per un dimensionamento preciso, un termotecnico terrà conto di volume, esposizione e dispersioni reali.</p>
+<p>Una regola pratica diffusa è calcolare circa 100 W per m² in una casa con isolamento medio, meno in una casa recente e ben isolata, di più in un edificio datato. Per un dimensionamento preciso, un termotecnico terrà conto di volume, esposizione e dispersioni reali.</p>
 
-<h2>5 modelli da conoscere</h2>
+<h2>I 5 modelli da conoscere</h2>
 <h3>Thermor Equateur 4: il più completo</h3>
-<p>L'Equateur 4 combina un corpo scaldante in ghisa con una facciata scaldante. È disponibile in formato zoccolo, orizzontale e verticale, da 750 a 2000 W, ed è prodotto in Francia. Integra il rilevamento finestra aperta e di presenza e si controlla a distanza con Cozytouch, con monitoraggio dei consumi e comando vocale tramite Google Assistant.</p>
-<p><strong>Punti di forza</strong>: calore morbido grazie alla ghisa, facciata reattiva, ampia scelta di formati, app matura.</p>
-<p><strong>Limiti</strong>: radiatore fisso da installare, bridge Cozytouch necessario per il controllo remoto, fascia alta.</p>
-<p><strong>Per chi</strong>: proprietari che sostituiscono i convettori e vogliono un'apparecchiatura duratura per la zona giorno.</p>
+<p>L'Equateur 4 abbina un corpo scaldante in ghisa a un frontale radiante. È disponibile in versione bassa (a battiscopa), orizzontale e verticale, da 750 a 2.000 W, ed è prodotto in Francia. Ha il rilevamento della finestra aperta e della presenza e si gestisce a distanza con Cozytouch, con monitoraggio dei consumi e comandi vocali tramite Google Assistant.</p>
+<p><strong>Punti di forza</strong>: calore dolce grazie alla ghisa, frontale reattivo, ampia scelta di formati, app collaudata.</p>
+<p><strong>Limiti</strong>: radiatore fisso da far installare, bridge Cozytouch necessario per la gestione a distanza, fascia alta.</p>
+<p><strong>Per chi</strong>: i proprietari di casa che sostituiscono i vecchi convettori e vogliono un apparecchio che duri nel tempo per la zona giorno.</p>
 
-<h3>Atlantic Oniris: design reattivo</h3>
-<p>L'Oniris utilizza un corpo scaldante in alluminio e una facciata scaldante che si scalda rapidamente. Il comando digitale touch e il frontale extrapiatto si adattano agli interni contemporanei. Offre il rilevamento finestra aperta e di presenza e si controlla con Cozytouch (bridge opzionale), anche a voce con Google Assistant.</p>
+<h3>Atlantic Oniris: design e reattività</h3>
+<p>L'Oniris ha un corpo scaldante in alluminio e un frontale radiante che si scalda in fretta. Il pannello di comando digitale touch e il frontale extrapiatto sono pensati per gli interni contemporanei. Offre il rilevamento della finestra aperta e della presenza e si gestisce con Cozytouch (bridge opzionale), anche a voce tramite Google Assistant.</p>
 <p><strong>Punti di forza</strong>: estetica curata, reattività, stesso ecosistema di Thermor.</p>
-<p><strong>Limiti</strong>: meno accumulo rispetto a ghisa o pietra, bridge da prevedere per il controllo remoto.</p>
-<p><strong>Per chi</strong>: soggiorni in cui il design conta quanto le prestazioni.</p>
+<p><strong>Limiti</strong>: accumula meno calore di un modello in ghisa o in pietra, bridge da mettere in conto per la gestione a distanza.</p>
+<p><strong>Per chi</strong>: soggiorni e zone giorno in cui il design conta quanto le prestazioni.</p>
 
-<h3>Sauter Orosi 2: inerzia fluida accessibile</h3>
-<p>L'Orosi 2 è un radiatore a inerzia fluida con termostato digitale, rilevatore di presenza e assenza, rilevamento apertura finestra e blocco delle impostazioni con codice PIN. Il controllo remoto passa da un box di connessione dell'ecosistema Cozytouch. È certificato NF Électricité.</p>
+<h3>Sauter Orosi 2: l'inerzia fluida in fascia d'ingresso</h3>
+<p>L'Orosi 2 è un radiatore a inerzia fluida con termostato digitale, sensore di presenza e di assenza, rilevamento dell'apertura delle finestre e blocco delle impostazioni con codice. La gestione a distanza passa da un modulo di connessione dell'ecosistema Cozytouch. Ha la certificazione francese NF Électricité.</p>
 <p><strong>Punti di forza</strong>: calore uniforme, funzioni automatiche complete, fascia d'ingresso tra i marchi francesi.</p>
-<p><strong>Limiti</strong>: connettività affidata a un box separato, design più classico.</p>
-<p><strong>Per chi</strong>: famiglie che attrezzano più stanze e cercano il miglior equilibrio tra funzioni e budget.</p>
+<p><strong>Limiti</strong>: connettività affidata a un modulo separato, design più classico.</p>
+<p><strong>Per chi</strong>: le famiglie che devono riscaldare più stanze e cercano il miglior equilibrio tra funzioni e budget.</p>
 
-<h3>Rointe Kyros WiFi: Wi-Fi integrato senza bridge</h3>
-<p>Il Kyros WiFi del produttore spagnolo Rointe è un radiatore a parete a fluido termico con corpo in alluminio riciclato. Il modulo Wi-Fi è integrato: si configura e programma direttamente dall'app Rointe, con monitoraggio dei consumi, rilevamento finestra aperta e avvio anticipato. È proposto, tra le altre, nelle versioni da 600, 1200 e 1800 W.</p>
-<p><strong>Punti di forza</strong>: nessun bridge da acquistare, monitoraggio dei consumi integrato, disponibile presso diversi rivenditori online.</p>
-<p><strong>Limiti</strong>: filo pilota non messo in evidenza, rete di vendita in Francia più ridotta rispetto al Groupe Atlantic.</p>
-<p><strong>Per chi</strong>: chi vuole un radiatore fisso connesso semplice da mettere in funzione, senza hub aggiuntivi.</p>
+<h3>Rointe Kyros WiFi: il Wi-Fi integrato, senza gateway</h3>
+<p>Il Kyros WiFi dello spagnolo Rointe è un radiatore a parete a fluido termico, con corpo in alluminio riciclato. Il modulo Wi-Fi è integrato: si configura e si programma direttamente dall'app Rointe, con monitoraggio dei consumi, rilevamento della finestra aperta e avvio anticipato. È disponibile, tra le altre, nelle versioni da 600, 1.200 e 1.800 W.</p>
+<p><strong>Punti di forza</strong>: nessun gateway da comprare, monitoraggio dei consumi integrato, in vendita presso diversi negozi online.</p>
+<p><strong>Limiti</strong>: il filo pilota non è messo in evidenza; in Francia la rete di vendita è meno capillare di quella dei marchi del gruppo Atlantic.</p>
+<p><strong>Per chi</strong>: chi vuole un radiatore fisso smart facile da mettere in funzione, senza dispositivi aggiuntivi.</p>
 
-<h3>Mill Gentle Air WiFi: portatile, senza lavori</h3>
-<p>Il Gentle Air WiFi del marchio norvegese Mill è un radiatore a olio a pavimento dalla forma chiusa. La versione da 1500 W ha tre livelli di potenza (600, 900 e 1500 W) ed è pensata per stanze di circa 18-22 m²; esiste anche una versione da 2000 W. Si collega via Wi-Fi (configurazione tramite Bluetooth) all'app Millheat, con programmazione, funzione finestra aperta e riscaldamento predittivo. Integra protezione antiribaltamento e contro il surriscaldamento.</p>
-<p><strong>Punti di forza</strong>: nessuna installazione, app chiara, facile da spostare.</p>
-<p><strong>Limiti</strong>: riscaldamento d'appoggio e non principale, ingombro a pavimento, niente filo pilota.</p>
-<p><strong>Per chi</strong>: inquilini, studi in casa, camere degli ospiti o stanze poco riscaldate.</p>
+<h3>Mill Gentle Air WiFi: il portatile che non richiede lavori</h3>
+<p>Il Gentle Air WiFi del norvegese Mill è un radiatore a olio a pavimento, dalla forma chiusa. La versione da 1.500 W ha tre livelli di potenza (600, 900 e 1.500 W) ed è pensata per stanze di circa 18-22 m²; esiste anche una versione da 2.000 W. Si collega al Wi-Fi (la configurazione avviene via Bluetooth) e si gestisce dall'app Millheat, con programmazione, funzione finestra aperta e riscaldamento predittivo. Ha la protezione antiribaltamento e quella contro il surriscaldamento.</p>
+<p><strong>Punti di forza</strong>: nessuna installazione, app chiara, si sposta facilmente da una stanza all'altra.</p>
+<p><strong>Limiti</strong>: è pensato per il riscaldamento integrativo, non come riscaldamento principale; occupa spazio sul pavimento; niente filo pilota.</p>
+<p><strong>Per chi</strong>: chi vive in affitto o lavora da casa; ideale anche per la camera degli ospiti o per le stanze che si scaldano poco.</p>
 
 <h2>Tabella comparativa</h2>
 <table>
@@ -476,88 +476,88 @@ export const article: BlogArticle = {
 <tr><th>Modello</th><th>Tecnologia</th><th>Connettività</th><th>Installazione</th><th>Ideale per</th></tr>
 </thead>
 <tbody>
-<tr><td>Thermor Equateur 4</td><td>Ghisa + facciata scaldante</td><td>Cozytouch (bridge)</td><td>Fissa, da un professionista</td><td>Zona giorno, comfort duraturo</td></tr>
-<tr><td>Atlantic Oniris</td><td>Alluminio + facciata scaldante</td><td>Cozytouch (bridge opzionale)</td><td>Fissa, da un professionista</td><td>Interni di design, reattività</td></tr>
-<tr><td>Sauter Orosi 2</td><td>Inerzia fluida</td><td>Box Cozytouch</td><td>Fissa, da un professionista</td><td>Attrezzare più stanze</td></tr>
-<tr><td>Rointe Kyros WiFi</td><td>Fluido termico, alluminio</td><td>Wi-Fi integrato, app Rointe</td><td>Fissa, da un professionista</td><td>Senza bridge</td></tr>
-<tr><td>Mill Gentle Air WiFi</td><td>Radiatore a olio portatile</td><td>Wi-Fi integrato, app Millheat</td><td>Presa di corrente</td><td>Appoggio, inquilini</td></tr>
+<tr><td>Thermor Equateur 4</td><td>Ghisa + frontale radiante</td><td>Cozytouch (bridge)</td><td>Fissa, da un professionista</td><td>Zona giorno, comfort che dura</td></tr>
+<tr><td>Atlantic Oniris</td><td>Alluminio + frontale radiante</td><td>Cozytouch (bridge opzionale)</td><td>Fissa, da un professionista</td><td>Interni di design, reattività</td></tr>
+<tr><td>Sauter Orosi 2</td><td>Inerzia fluida</td><td>Modulo Cozytouch</td><td>Fissa, da un professionista</td><td>Riscaldare più stanze</td></tr>
+<tr><td>Rointe Kyros WiFi</td><td>Fluido termico, alluminio</td><td>Wi-Fi integrato, app Rointe</td><td>Fissa, da un professionista</td><td>Fare a meno del gateway</td></tr>
+<tr><td>Mill Gentle Air WiFi</td><td>Radiatore a olio portatile</td><td>Wi-Fi integrato, app Millheat</td><td>Collegato alla presa</td><td>Riscaldamento integrativo, chi vive in affitto</td></tr>
 </tbody>
 </table>
 
 <h2>Errori da evitare</h2>
 <ul>
-<li><strong>Dimenticare il bridge</strong>: un radiatore «connettibile» non è sempre connesso di serie. Verificate se serve un bridge o un box.</li>
-<li><strong>Scegliere l'inerzia massima ovunque</strong>: per una camera degli ospiti o uno studio usato poche ore, un modello reattivo è più adatto.</li>
-<li><strong>Sottodimensionare la potenza</strong>: un radiatore troppo debole funziona di continuo senza raggiungere la temperatura impostata.</li>
-<li><strong>Collegare un radiatore portatile a una ciabatta o a una presa smart sottodimensionata</strong>: usate una presa a muro e solo una presa smart esplicitamente adatta a quella potenza.</li>
-<li><strong>Comprare un marchio sconosciuto</strong>: senza un editore affidabile dell'app, le funzioni connesse possono smettere di funzionare dopo qualche anno.</li>
+<li><strong>Dimenticare il gateway</strong>: un radiatore «predisposto» per la connessione non sempre è smart appena uscito dalla scatola. Controlla se serve un bridge o un modulo aggiuntivo.</li>
+<li><strong>Scegliere l'inerzia massima ovunque</strong>: in una camera degli ospiti o in uno studio usato poche ore al giorno, un modello reattivo è più adatto.</li>
+<li><strong>Sottodimensionare la potenza</strong>: un radiatore troppo debole resta sempre acceso senza mai raggiungere la temperatura impostata.</li>
+<li><strong>Collegare un radiatore portatile a una ciabatta o a una presa smart non adeguata</strong>: usa una presa a muro e, se vuoi una presa smart, solo un modello espressamente previsto per la potenza dell'apparecchio.</li>
+<li><strong>Comprare un marchio sconosciuto</strong>: se dietro l'app non c'è uno sviluppatore affidabile, le funzioni smart possono smettere di funzionare dopo qualche anno.</li>
 </ul>
 
 <h2>Installazione e sicurezza</h2>
-<p>Un radiatore fisso va collegato da un elettricista qualificato, su un circuito adeguato alla potenza e conforme alle norme locali, comprese le zone di sicurezza del bagno. Non coprite mai un radiatore e rispettate le distanze indicate dal produttore. Posizionate i modelli portatili su una superficie stabile, lontano da tende e biancheria, e verificate la presenza della protezione antiribaltamento.</p>
-<p>Sul piano normativo, il regolamento europeo sulla progettazione ecocompatibile (UE) 2015/1188 impone dal 2018 requisiti di efficienza agli apparecchi per il riscaldamento d'ambiente locale, rendendo standard termostati elettronici e programmazione settimanale. Per gestire tutto il riscaldamento, leggete la nostra <a href="/it/blog/guide-domotique-economie-energie-2026">guida domotica e risparmio energetico</a> e l'articolo sul <a href="/it/blog/thermostat-connecte-pompe-chaleur">termostato smart con pompa di calore</a>.</p>
+<p>Un radiatore fisso va collegato da un elettricista qualificato, su un circuito adeguato alla sua potenza e conforme alle norme vigenti, comprese quelle sulle zone di sicurezza del bagno. Non coprire mai un radiatore e lascia intorno all'apparecchio lo spazio indicato dal produttore. I modelli portatili vanno appoggiati su una superficie stabile, lontano da tende e biancheria: controlla che abbiano la protezione antiribaltamento.</p>
+<p>Sul piano normativo, dal 2018 il regolamento europeo sulla progettazione ecocompatibile (UE) 2015/1188 impone requisiti di efficienza agli apparecchi per il riscaldamento d'ambiente locale: per questo termostati elettronici e programmazione settimanale sono ormai la norma. Per gestire tutto il riscaldamento di casa, leggi la nostra <a href="/it/blog/guide-domotique-economie-energie-2026">guida alla domotica per risparmiare energia</a> e l'articolo sul <a href="/it/blog/thermostat-connecte-pompe-chaleur">termostato smart con la pompa di calore</a>.</p>
 
 <h2>Il nostro verdetto</h2>
-<p>Per sostituire i convettori in una casa di proprietà, il <strong>Thermor Equateur 4</strong> resta il riferimento più completo. Per attrezzare più stanze con un budget contenuto, il <strong>Sauter Orosi 2</strong> offre le funzioni automatiche essenziali. Se non potete fare lavori, il <strong>Mill Gentle Air WiFi</strong> è il riscaldamento d'appoggio connesso più semplice. L'<strong>Atlantic Oniris</strong> e il <strong>Rointe Kyros WiFi</strong> completano la scelta per gli interni di design e per chi vuole fare a meno del bridge.</p>`,
+<p>Per sostituire i convettori in una casa di proprietà, il <strong>Thermor Equateur 4</strong> resta il riferimento più completo. Per riscaldare più stanze con un budget contenuto, il <strong>Sauter Orosi 2</strong> offre le funzioni automatiche essenziali. Se non puoi fare lavori, il <strong>Mill Gentle Air WiFi</strong> è la soluzione smart più semplice per il riscaldamento integrativo. L'<strong>Atlantic Oniris</strong> e il <strong>Rointe Kyros WiFi</strong> completano la scelta: il primo per gli interni di design, il secondo per chi vuole fare a meno del gateway.</p>`,
 
-    nl: `<h2>Welke slimme elektrische radiator kiest u in 2026?</h2>
-<p>Voor een vaste installatie is de <strong>Thermor Equateur 4</strong> de meest complete keuze: een dubbel verwarmingslichaam met gietijzeren traagheid, open-raam- en aanwezigheidsdetectie, en bediening via de Cozytouch-app. Zoekt u een mobiel toestel dat u alleen in het stopcontact steekt, dan biedt de olieradiator <strong>Mill Gentle Air WiFi</strong> een verzorgde app en een open-raamfunctie, zonder elektricien.</p>
-<p>Daartussen zet de <strong>Atlantic Oniris</strong> in op design en snelheid, de <strong>Sauter Orosi 2</strong> op betaalbare vloeistoftraagheid en de <strong>Rointe Kyros WiFi</strong> op ingebouwde wifi zonder bridge. Deze gids is gebaseerd op specificaties van fabrikanten, gepubliceerde onafhankelijke reviews en geverifieerde ervaringen van kopers. Voor vergelijkbare toestellen kunt u terecht op onze pagina <a href="/nl/confort-air/chauffages-appoint">slimme bijverwarmers</a>.</p>
+    nl: `<h2>Welke slimme elektrische radiator kies je in 2026?</h2>
+<p>Voor een vaste installatie is de <strong>Thermor Equateur 4</strong> de meest complete keuze: twee verwarmingselementen met een gietijzeren kern die warmte opslaat, open-raam- en aanwezigheidsdetectie, en bediening via de Cozytouch-app. Zoek je een mobiele radiator die je gewoon in het stopcontact steekt, dan biedt de olieradiator <strong>Mill Gentle Air WiFi</strong> een verzorgde app en een open-raamfunctie, zonder dat er een elektricien aan te pas komt.</p>
+<p>Daartussen kiest de <strong>Atlantic Oniris</strong> voor design en snelheid, de <strong>Sauter Orosi 2</strong> voor betaalbare vloeistofinertie en de <strong>Rointe Kyros WiFi</strong> voor ingebouwde wifi zonder bridge. Deze gids is gebaseerd op specificaties van fabrikanten, gepubliceerde onafhankelijke tests en ervaringen van geverifieerde kopers. Vergelijkbare apparaten vind je op onze pagina over <a href="/nl/confort-air/chauffages-appoint">slimme elektrische kachels</a>.</p>
 
 <h2>De criteria die er echt toe doen</h2>
-<h3>Het type verwarmingslichaam</h3>
-<p>Het woord „traagheid” omvat verschillende technologieën die folders vaak door elkaar halen:</p>
+<h3>Het type verwarmingselement</h3>
+<p>Fabrikanten spreken vaak over ‘inertie’: hoe goed een radiator warmte opslaat en langzaam weer afgeeft. Dat ene woord dekt verschillende technieken, en reclamefolders halen ze vaak door elkaar:</p>
 <ul>
-<li><strong>Vloeistoftraagheid</strong>: een element verwarmt een afgesloten warmtegeleidende vloeistof. De warmte is zacht en gelijkmatig. Zo werken de Sauter Orosi 2 en de Rointe Kyros WiFi.</li>
-<li><strong>Gietijzeren traagheid</strong>: een gietijzeren blok slaat warmte op en geeft die langzaam af. Gecombineerd met een snel reagerend verwarmd front spreekt men van „dubbele technologie”, zoals bij de Thermor Equateur 4.</li>
-<li><strong>Aluminium lichaam met verwarmd front</strong>: minder opslag, sneller. Dat is het concept van de Atlantic Oniris.</li>
-<li><strong>Droge traagheid met steen of keramiek</strong>: vuurvaste stenen houden de warmte langer vast. Geschikt voor ruimtes die lang verwarmd worden.</li>
-<li><strong>Glazen front</strong>: series zoals Campaver van Campa combineren een dik stralend glazen front met verwarmingselementen aan de achterzijde. Het belangrijkste argument is design, niet warmteopslag in steen.</li>
-<li><strong>Mobiele olieradiator</strong>: een vrijstaand, met olie gevuld toestel voor het stopcontact. Bijverwarming zonder installatie, zoals de Mill Gentle Air WiFi.</li>
+<li><strong>Vloeistofinertie</strong>: een element verwarmt een warmtegeleidende vloeistof die in de radiator is afgesloten. De warmte is zacht en gelijkmatig, en de radiator warmt redelijk snel op. Zo werken de Sauter Orosi 2 en de Rointe Kyros WiFi.</li>
+<li><strong>Gietijzeren inertie</strong>: een gietijzeren blok slaat warmte op en geeft die langzaam af. In combinatie met een verwarmd front dat snel reageert, heet dat ‘dubbele technologie’, zoals bij de Thermor Equateur 4.</li>
+<li><strong>Aluminium element met verwarmd front</strong>: minder warmteopslag, sneller warm. Zo is de Atlantic Oniris opgebouwd.</li>
+<li><strong>Droge inertie met steen of keramiek</strong>: vuurvaste stenen houden de warmte langer vast. Geschikt voor ruimtes die lang achter elkaar verwarmd worden.</li>
+<li><strong>Glazen front</strong>: series zoals Campaver van Campa combineren een dik glazen stralingsfront met verwarmingselementen aan de achterkant. Het belangrijkste argument is het design, niet warmteopslag in steen.</li>
+<li><strong>Mobiele olieradiator</strong>: een vrijstaande, met olie gevulde radiator die je in het stopcontact steekt. Bijverwarming zonder installatie, zoals de Mill Gentle Air WiFi.</li>
 </ul>
-<p>Hoe groter de traagheid, hoe langer de kamer warm blijft na het uitschakelen, maar hoe trager de radiator reageert op een nieuwe insteltemperatuur. Hoge traagheid past bij ruimtes die de hele dag gebruikt worden; snelheid bij ruimtes die af en toe gebruikt worden.</p>
+<p>Hoe meer inertie, hoe langer de kamer warm blijft nadat de radiator is uitgeschakeld, maar hoe trager hij reageert als je een andere temperatuur instelt. Veel inertie past bij ruimtes die de hele dag in gebruik zijn; een snelle radiator is beter voor ruimtes die je af en toe gebruikt.</p>
 
 <h3>Ingebouwde wifi of bridge</h3>
-<p>Dit punt wordt het vaakst verkeerd begrepen. Radiatoren van Thermor, Atlantic en Sauter (allemaal Groupe Atlantic) gebruiken de app <strong>Cozytouch</strong>, maar afhankelijk van het model is een bridge aan de router nodig. De Rointe Kyros WiFi en de Mill Gentle Air WiFi hebben ingebouwde wifi: de app volstaat. Controleer dit vóór aankoop, want het bepaalt kosten en installatie.</p>
+<p>Dit punt wordt het vaakst verkeerd begrepen. Radiatoren van Thermor, Atlantic en Sauter (allemaal onderdeel van Groupe Atlantic) werken met de app <strong>Cozytouch</strong>, maar afhankelijk van het model heb je een bridge nodig die je op je router aansluit. De Rointe Kyros WiFi en de Mill Gentle Air WiFi hebben wifi ingebouwd: de app is genoeg. Controleer dit voordat je koopt, want het bepaalt de kosten en hoe eenvoudig de installatie is.</p>
 
 <h3>Stuurdraad</h3>
-<p>De stuurdraad („fil pilote”) is typisch Frans: een aparte geleider stuurt opdrachten (Comfort, Eco, Vorstbeveiliging, Uit en bij zes-ordeversies Comfort -1 en Comfort -2) vanaf een centrale programmeur. Buiten Frankrijk wordt hij weinig gebruikt, en mobiele toestellen hebben hem niet nodig.</p>
+<p>De stuurdraad (‘fil pilote’) is een typisch Frans systeem: een aparte draad stuurt opdrachten (Comfort, Eco, Vorstbeveiliging, Uit en bij versies met zes standen ook Comfort -1 en Comfort -2) vanaf een centrale programmeerklok. Buiten Frankrijk kom je hem zelden tegen. Heeft je woning er toch een, kies dan een compatibele radiator. Mobiele radiatoren voor het stopcontact hebben hem niet nodig.</p>
 
 <h3>Automatische detectie</h3>
-<p>Twee functies maken dagelijks echt verschil. <strong>Open-raamdetectie</strong> stopt of verlaagt de verwarming als de temperatuur bij het luchten sterk daalt. <strong>Aanwezigheidsdetectie</strong> verlaagt de insteltemperatuur in een lege kamer. De vaste modellen in deze gids bieden beide in de meeste versies; de Mill Gentle Air WiFi biedt de open-raamfunctie en een voorspellende start.</p>
+<p>Twee functies maken in het dagelijks gebruik echt verschil. <strong>Open-raamdetectie</strong> zet de verwarming uit of lager als de temperatuur tijdens het luchten plotseling daalt. <strong>Aanwezigheidsdetectie</strong> verlaagt de ingestelde temperatuur als er niemand in de kamer is. De vaste modellen in deze gids hebben in de meeste uitvoeringen allebei; de Mill Gentle Air WiFi heeft de open-raamfunctie en een voorspellende start.</p>
 
 <h3>Vermogen</h3>
-<p>Een gangbare vuistregel is ongeveer 100 W per m² bij gemiddelde isolatie, minder in een recente goed geïsoleerde woning en meer in een ouder gebouw. Voor een nauwkeurige berekening houdt een verwarmingsinstallateur rekening met volume, ligging en werkelijk warmteverlies.</p>
+<p>Een gangbare vuistregel is ongeveer 100 W per m² bij gemiddelde isolatie: minder in een nieuwere, goed geïsoleerde woning en meer in een ouder gebouw. Voor een nauwkeurige berekening houdt een installateur rekening met het volume, de ligging en het werkelijke warmteverlies.</p>
 
-<h2>5 modellen om te kennen</h2>
+<h2>5 modellen die het bekijken waard zijn</h2>
 <h3>Thermor Equateur 4: de meest complete</h3>
-<p>De Equateur 4 combineert een gietijzeren verwarmingslichaam met een verwarmd front. Hij bestaat als plint-, horizontaal en verticaal model van 750 tot 2000 W en wordt in Frankrijk gemaakt. Hij heeft open-raam- en aanwezigheidsdetectie en wordt op afstand bediend via Cozytouch, met verbruiksoverzicht en spraakbediening via Google Assistant.</p>
-<p><strong>Sterke punten</strong>: zachte warmte dankzij gietijzer, reactief front, veel formaten, volwassen app.</p>
-<p><strong>Beperkingen</strong>: vaste radiator die geplaatst moet worden, Cozytouch-bridge nodig voor bediening op afstand, premiumsegment.</p>
-<p><strong>Voor wie</strong>: eigenaars die convectoren vervangen en duurzame toestellen voor de leefruimtes willen.</p>
+<p>De Equateur 4 combineert een gietijzeren verwarmingselement met een verwarmd front. Hij is er als plintmodel en als horizontaal en verticaal model, van 750 tot 2.000 W, en wordt in Frankrijk gemaakt. Hij heeft open-raam- en aanwezigheidsdetectie, en je bedient hem op afstand via Cozytouch, met inzicht in je verbruik en spraakbediening via Google Assistent.</p>
+<p><strong>Sterke punten</strong>: zachte warmte dankzij het gietijzer, snel reagerend front, veel formaten, volwassen app.</p>
+<p><strong>Minpunten</strong>: vaste radiator die geïnstalleerd moet worden, Cozytouch-bridge nodig voor bediening op afstand, duurder segment.</p>
+<p><strong>Voor wie</strong>: huiseigenaren die convectoren vervangen en duurzame radiatoren willen voor de woonruimtes.</p>
 
 <h3>Atlantic Oniris: snel en stijlvol</h3>
-<p>De Oniris gebruikt een aluminium verwarmingslichaam en een snel opwarmend verwarmd front. Het digitale aanraakpaneel en het extra platte front passen bij moderne interieurs. Hij biedt open-raam- en aanwezigheidsdetectie en wordt bediend via Cozytouch (bridge optioneel), ook met de stem via Google Assistant.</p>
-<p><strong>Sterke punten</strong>: verzorgde uitstraling, snelheid, hetzelfde ecosysteem als Thermor.</p>
-<p><strong>Beperkingen</strong>: minder warmteopslag dan gietijzer of steen, bridge nodig voor bediening op afstand.</p>
-<p><strong>Voor wie</strong>: woonkamers waar design even belangrijk is als prestaties.</p>
+<p>De Oniris heeft een aluminium verwarmingselement en een verwarmd front dat snel op temperatuur komt. Het digitale aanraakpaneel en het extra platte front passen bij moderne interieurs. Hij heeft open-raam- en aanwezigheidsdetectie en je bedient hem via Cozytouch (bridge optioneel), ook met je stem via Google Assistent.</p>
+<p><strong>Sterke punten</strong>: verzorgd design, snel warm, hetzelfde ecosysteem als Thermor.</p>
+<p><strong>Minpunten</strong>: minder warmteopslag dan gietijzer of steen, bridge nodig voor bediening op afstand.</p>
+<p><strong>Voor wie</strong>: woonkamers waar design net zo belangrijk is als prestaties.</p>
 
-<h3>Sauter Orosi 2: betaalbare vloeistoftraagheid</h3>
-<p>De Orosi 2 is een radiator met vloeistoftraagheid, digitale thermostaat, aanwezigheids- en afwezigheidsdetectie, detectie van een geopend raam en vergrendeling van de instellingen met pincode. Bediening op afstand verloopt via een verbindingsbox uit het Cozytouch-ecosysteem. Hij heeft de NF Électricité-certificering.</p>
-<p><strong>Sterke punten</strong>: gelijkmatige warmte, volledige automatische functies, instapsegment bij de Franse merken.</p>
-<p><strong>Beperkingen</strong>: connectiviteit via een aparte box, klassieker design.</p>
-<p><strong>Voor wie</strong>: huishoudens die meerdere kamers uitrusten en de beste balans tussen functies en budget zoeken.</p>
+<h3>Sauter Orosi 2: betaalbare vloeistofinertie</h3>
+<p>De Orosi 2 is een radiator met vloeistofinertie, een digitale thermostaat, aanwezigheids- en afwezigheidsdetectie, open-raamdetectie en een pincode om de instellingen te vergrendelen. Voor bediening op afstand heb je een aparte module uit het Cozytouch-ecosysteem nodig. Hij heeft het Franse keurmerk NF Électricité.</p>
+<p><strong>Sterke punten</strong>: gelijkmatige warmte, alle automatische functies, instapmodel binnen de Franse merken.</p>
+<p><strong>Minpunten</strong>: bediening op afstand alleen via een aparte module, klassieker design.</p>
+<p><strong>Voor wie</strong>: huishoudens die meerdere kamers willen uitrusten en de beste balans zoeken tussen functies en budget.</p>
 
 <h3>Rointe Kyros WiFi: ingebouwde wifi zonder bridge</h3>
-<p>De Kyros WiFi van de Spaanse fabrikant Rointe is een wandradiator met thermische vloeistof en een behuizing van gerecycled aluminium. De wifimodule is ingebouwd: installatie en programmering gebeuren rechtstreeks in de Rointe-app, met verbruiksoverzicht, open-raamdetectie en vervroegde start. Hij wordt onder meer aangeboden in 600, 1200 en 1800 W.</p>
-<p><strong>Sterke punten</strong>: geen bridge nodig, ingebouwd verbruiksoverzicht, verkrijgbaar bij meerdere onlinewinkels.</p>
-<p><strong>Beperkingen</strong>: stuurdraad niet benadrukt, kleiner verkoopnet in Frankrijk dan de merken van Groupe Atlantic.</p>
-<p><strong>Voor wie</strong>: wie een vaste, verbonden radiator wil die eenvoudig in gebruik te nemen is, zonder extra hub.</p>
+<p>De Kyros WiFi van de Spaanse fabrikant Rointe is een wandradiator met thermische vloeistof en een behuizing van gerecycled aluminium. De wifimodule is ingebouwd: je installeert en programmeert hem rechtstreeks in de Rointe-app, met inzicht in je verbruik, open-raamdetectie en een vervroegde start. Hij is onder meer verkrijgbaar in 600, 1.200 en 1.800 W.</p>
+<p><strong>Sterke punten</strong>: geen bridge nodig, verbruiksoverzicht ingebouwd, verkrijgbaar bij meerdere onlinewinkels.</p>
+<p><strong>Minpunten</strong>: geen stuurdraad genoemd, in Frankrijk minder breed verkrijgbaar dan de merken van Groupe Atlantic.</p>
+<p><strong>Voor wie</strong>: wie een vaste radiator met wifi wil die je eenvoudig in gebruik neemt, zonder extra hub.</p>
 
-<h3>Mill Gentle Air WiFi: mobiel en zonder werken</h3>
-<p>De Gentle Air WiFi van het Noorse merk Mill is een vrijstaande olieradiator met gesloten vorm. De 1500 W-versie heeft drie vermogensstanden (600, 900 en 1500 W) en is bedoeld voor ruimtes van ongeveer 18 tot 22 m²; er is ook een 2000 W-versie. Hij verbindt via wifi (installatie via Bluetooth) met de Millheat-app, met planning, open-raamfunctie en voorspellend verwarmen. Kantelbeveiliging en oververhittingsbeveiliging zijn ingebouwd.</p>
-<p><strong>Sterke punten</strong>: geen installatie, overzichtelijke app, makkelijk te verplaatsen.</p>
-<p><strong>Beperkingen</strong>: bijverwarming en geen hoofdverwarming, neemt vloerruimte in, geen stuurdraad.</p>
+<h3>Mill Gentle Air WiFi: mobiel en zonder installatie</h3>
+<p>De Gentle Air WiFi van het Noorse merk Mill is een vrijstaande olieradiator met een gesloten behuizing. De versie van 1.500 W heeft drie vermogensstanden (600, 900 en 1.500 W) en is bedoeld voor ruimtes van ongeveer 18 tot 22 m²; er is ook een versie van 2.000 W. Hij maakt via wifi verbinding met de Millheat-app (de installatie verloopt via Bluetooth), met programmering, een open-raamfunctie en voorspellend verwarmen. Een kantelbeveiliging en een oververhittingsbeveiliging zijn ingebouwd.</p>
+<p><strong>Sterke punten</strong>: geen installatie, overzichtelijke app, makkelijk naar een andere kamer te verplaatsen.</p>
+<p><strong>Minpunten</strong>: bedoeld als bijverwarming en niet als hoofdverwarming, neemt vloerruimte in, geen stuurdraad.</p>
 <p><strong>Voor wie</strong>: huurders, thuiswerkplekken, logeerkamers of slecht verwarmde ruimtes.</p>
 
 <h2>Vergelijkingstabel</h2>
@@ -566,29 +566,29 @@ export const article: BlogArticle = {
 <tr><th>Model</th><th>Technologie</th><th>Connectiviteit</th><th>Installatie</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td>Thermor Equateur 4</td><td>Gietijzer + verwarmd front</td><td>Cozytouch (bridge)</td><td>Vast, door een vakman</td><td>Leefruimtes, blijvend comfort</td></tr>
-<tr><td>Atlantic Oniris</td><td>Aluminium + verwarmd front</td><td>Cozytouch (bridge optioneel)</td><td>Vast, door een vakman</td><td>Design-interieurs, snelheid</td></tr>
-<tr><td>Sauter Orosi 2</td><td>Vloeistoftraagheid</td><td>Cozytouch-box</td><td>Vast, door een vakman</td><td>Meerdere kamers uitrusten</td></tr>
-<tr><td>Rointe Kyros WiFi</td><td>Thermische vloeistof, aluminium</td><td>Ingebouwde wifi, Rointe-app</td><td>Vast, door een vakman</td><td>Zonder bridge</td></tr>
-<tr><td>Mill Gentle Air WiFi</td><td>Mobiele olieradiator</td><td>Ingebouwde wifi, Millheat-app</td><td>Stopcontact</td><td>Bijverwarming, huurders</td></tr>
+<tr><td>Thermor Equateur 4</td><td>Gietijzer + verwarmd front</td><td>Cozytouch (bridge)</td><td>Vast, door een vakman</td><td>Woonruimtes, blijvend comfort</td></tr>
+<tr><td>Atlantic Oniris</td><td>Aluminium + verwarmd front</td><td>Cozytouch (bridge optioneel)</td><td>Vast, door een vakman</td><td>Designinterieurs, snel warm</td></tr>
+<tr><td>Sauter Orosi 2</td><td>Vloeistofinertie</td><td>Cozytouch-module</td><td>Vast, door een vakman</td><td>Meerdere kamers uitrusten</td></tr>
+<tr><td>Rointe Kyros WiFi</td><td>Thermische vloeistof, aluminium</td><td>Ingebouwde wifi, Rointe-app</td><td>Vast, door een vakman</td><td>Geen bridge nodig</td></tr>
+<tr><td>Mill Gentle Air WiFi</td><td>Mobiele olieradiator</td><td>Ingebouwde wifi, Millheat-app</td><td>In het stopcontact</td><td>Bijverwarming, huurders</td></tr>
 </tbody>
 </table>
 
-<h2>Fouten om te vermijden</h2>
+<h2>Veelgemaakte fouten</h2>
 <ul>
-<li><strong>De bridge vergeten</strong>: een „verbindbare” radiator is niet altijd standaard verbonden. Controleer of een bridge of box nodig is.</li>
-<li><strong>Overal maximale traagheid kiezen</strong>: voor een logeerkamer of een kantoor dat enkele uren wordt gebruikt, past een snel model beter.</li>
-<li><strong>Het vermogen te krap kiezen</strong>: een te zwakke radiator draait continu zonder de insteltemperatuur te halen.</li>
-<li><strong>Een mobiele radiator op een stekkerdoos of een te lichte slimme stekker aansluiten</strong>: gebruik een wandcontactdoos en alleen een slimme stekker die uitdrukkelijk geschikt is voor dat vermogen.</li>
-<li><strong>Een onbekend merk kopen</strong>: zonder betrouwbare app-uitgever kunnen de slimme functies na enkele jaren wegvallen.</li>
+<li><strong>De bridge vergeten</strong>: een radiator ‘met app-ondersteuning’ maakt niet altijd meteen verbinding. Controleer of je een bridge of losse module nodig hebt.</li>
+<li><strong>Overal maximale inertie kiezen</strong>: voor een logeerkamer of een werkkamer die je maar een paar uur gebruikt, is een snel model beter.</li>
+<li><strong>Een te laag vermogen kiezen</strong>: een te zwakke radiator draait continu zonder de ingestelde temperatuur te halen.</li>
+<li><strong>Een mobiele radiator via een stekkerdoos of een te lichte slimme stekker aansluiten</strong>: gebruik een stopcontact in de muur, en alleen een slimme stekker die uitdrukkelijk geschikt is voor dat vermogen.</li>
+<li><strong>Een onbekend merk kopen</strong>: zonder serieus bedrijf achter de app kunnen de slimme functies na een paar jaar ophouden te werken.</li>
 </ul>
 
 <h2>Installatie en veiligheid</h2>
-<p>Een vaste radiator moet door een erkende elektricien worden aangesloten, op een circuit dat past bij het vermogen en volgens de lokale voorschriften, ook voor de veiligheidszones in de badkamer. Dek een radiator nooit af en houd de door de fabrikant aanbevolen afstand aan. Zet mobiele modellen op een stabiele ondergrond, uit de buurt van gordijnen en wasgoed, en controleer of ze een kantelbeveiliging hebben.</p>
-<p>Op regelgevend vlak legt de Europese ecodesignverordening (EU) 2015/1188 sinds 2018 efficiëntie-eisen op aan toestellen voor lokale ruimteverwarming, waardoor elektronische thermostaten en weekprogrammering standaard zijn geworden. Voor de aansturing van de hele verwarming leest u onze <a href="/nl/blog/guide-domotique-economie-energie-2026">gids over domotica en energiebesparing</a> en ons artikel over de <a href="/nl/blog/thermostat-connecte-pompe-chaleur">slimme thermostaat met warmtepomp</a>.</p>
+<p>Laat een vaste radiator aansluiten door een gekwalificeerde elektricien, op een stroomkring die past bij het vermogen en volgens de geldende installatienormen (NEN 1010 in Nederland, het AREI in België), die ook de veiligheidszones in de badkamer regelen. Dek een radiator nooit af en houd de afstand aan die de fabrikant aanbeveelt. Zet mobiele modellen op een stabiele ondergrond, uit de buurt van gordijnen en wasgoed, en controleer of ze een kantelbeveiliging hebben.</p>
+<p>Wat de regelgeving betreft: de Europese ecodesignverordening (EU) 2015/1188 stelt sinds 2018 efficiëntie-eisen aan toestellen voor lokale ruimteverwarming. Daardoor zijn elektronische thermostaten en weekprogrammering standaard geworden. Wil je de hele verwarming slim regelen? Lees dan onze <a href="/nl/blog/guide-domotique-economie-energie-2026">gids over domotica en energiebesparing</a> en ons artikel over de <a href="/nl/blog/thermostat-connecte-pompe-chaleur">slimme thermostaat met warmtepomp</a>.</p>
 
 <h2>Ons oordeel</h2>
-<p>Om convectoren te vervangen in een eigen woning blijft de <strong>Thermor Equateur 4</strong> de meest complete referentie. Om meerdere kamers uit te rusten met een beperkt budget biedt de <strong>Sauter Orosi 2</strong> de belangrijkste automatische functies. Kunt u geen werken uitvoeren, dan is de <strong>Mill Gentle Air WiFi</strong> de eenvoudigste verbonden bijverwarming. De <strong>Atlantic Oniris</strong> en de <strong>Rointe Kyros WiFi</strong> vullen het aanbod aan voor design-interieurs en voor wie zonder bridge wil.</p>`,
+<p>Vervang je convectoren in een koopwoning, dan blijft de <strong>Thermor Equateur 4</strong> de meest complete keuze. Wil je meerdere kamers uitrusten met een beperkt budget, dan heeft de <strong>Sauter Orosi 2</strong> de belangrijkste automatische functies. Kun of mag je niets laten installeren, dan is de <strong>Mill Gentle Air WiFi</strong> de eenvoudigste slimme bijverwarming. De <strong>Atlantic Oniris</strong> en de <strong>Rointe Kyros WiFi</strong> maken het aanbod compleet voor designinterieurs en voor wie geen bridge wil.</p>`,
     pl: `<h2>Jaki inteligentny grzejnik elektryczny wybrać w 2026 roku?</h2>
 <p>Jeśli grzejnik ma być zamontowany na stałe, najbardziej kompletnym wyborem jest <strong>Thermor Équateur 4</strong>: podwójny element grzejny z akumulacją w żeliwie, wykrywanie otwartego okna i obecności oraz sterowanie z aplikacji Cozytouch. Jeśli szukasz urządzenia przenośnego, które wystarczy podłączyć do gniazdka, bez żadnych prac montażowych, grzejnik olejowy <strong>Mill Gentle Air WiFi</strong> ma dopracowaną aplikację i funkcję otwartego okna, a elektryk nie jest potrzebny.</p>
 <p>Pomiędzy tymi skrajnościami <strong>Atlantic Oniris</strong> stawia na wzornictwo i szybką reakcję, <strong>Sauter Orosi 2</strong> – na przystępną cenę i akumulację w płynie grzewczym, a <strong>Rointe Kyros WiFi</strong> – na wbudowane Wi-Fi, dzięki któremu bramka nie jest potrzebna. Poradnik opiera się na kartach katalogowych producentów, opublikowanych niezależnych testach i opiniach zweryfikowanych kupujących. Więcej urządzeń tego typu znajdziesz w kategorii <a href="/pl/confort-air/chauffages-appoint">inteligentne grzejniki elektryczne</a>.</p>
@@ -951,11 +951,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: "Faut-il une box ou une passerelle pour piloter un radiateur connecté ?",
-        en: "Do you need a hub or gateway to control a smart heater?",
-        de: "Braucht man eine Bridge, um einen smarten Heizkörper zu steuern?",
-        es: "¿Hace falta una pasarela para controlar un radiador inteligente?",
-        it: "Serve un bridge per controllare un radiatore smart?",
-        nl: "Heb je een bridge nodig om een slimme radiator te bedienen?",
+        en: "Do I need a hub or gateway to control a smart heater?",
+        de: "Braucht ein smarter Elektroheizkörper eine Bridge oder ein Gateway?",
+        es: "¿Hace falta una pasarela para controlar un radiador conectado?",
+        it: "Serve un gateway per gestire un radiatore smart dall'app?",
+        nl: "Heb je een hub of bridge nodig om een slimme radiator te bedienen?",
         pl: "Czy do sterowania inteligentnym grzejnikiem potrzebny jest router lub bramka?",
         sv: "Behöver du en hubb eller brygga för att styra ett smart elelement?",
         us: "Do you need a hub or gateway to control a smart heater?",
@@ -963,11 +963,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Cela dépend du modèle. Les radiateurs Thermor, Atlantic et Sauter se pilotent avec Cozytouch, souvent via une passerelle reliée à la box internet. Les Rointe Kyros WiFi et Mill Gentle Air WiFi ont le Wi-Fi intégré et se configurent directement depuis leur application.",
-        en: "It depends on the model. Thermor, Atlantic and Sauter heaters use Cozytouch, often through a gateway connected to your router. The Rointe Kyros WiFi and Mill Gentle Air WiFi have built-in Wi-Fi and are set up directly from their app.",
-        de: "Das hängt vom Modell ab. Thermor, Atlantic und Sauter nutzen Cozytouch, oft über eine Bridge am Router. Rointe Kyros WiFi und Mill Gentle Air WiFi haben integriertes WLAN und werden direkt in ihrer App eingerichtet.",
-        es: "Depende del modelo. Thermor, Atlantic y Sauter usan Cozytouch, a menudo mediante una pasarela conectada al router. El Rointe Kyros WiFi y el Mill Gentle Air WiFi llevan Wi-Fi integrado y se configuran directamente desde su app.",
-        it: "Dipende dal modello. Thermor, Atlantic e Sauter usano Cozytouch, spesso tramite un bridge collegato al router. Rointe Kyros WiFi e Mill Gentle Air WiFi hanno il Wi-Fi integrato e si configurano direttamente dalla loro app.",
-        nl: "Dat hangt van het model af. Thermor, Atlantic en Sauter gebruiken Cozytouch, vaak via een bridge aan de router. De Rointe Kyros WiFi en Mill Gentle Air WiFi hebben ingebouwde wifi en worden rechtstreeks via hun app ingesteld.",
+        en: "It depends on the model. Thermor, Atlantic and Sauter heaters use Cozytouch, often through a gateway connected to your router. The Rointe Kyros WiFi and Mill Gentle Air WiFi have built-in Wi-Fi and are set up straight from their own app.",
+        de: "Das hängt vom Modell ab. Heizkörper von Thermor, Atlantic und Sauter steuern Sie mit Cozytouch, oft über eine Bridge, die mit dem Router verbunden ist. Rointe Kyros WiFi und Mill Gentle Air WiFi haben WLAN eingebaut und werden direkt in der jeweiligen App eingerichtet.",
+        es: "Depende del modelo. Los radiadores Thermor, Atlantic y Sauter se controlan con Cozytouch, a menudo a través de una pasarela conectada al router. El Rointe Kyros WiFi y el Mill Gentle Air WiFi llevan el wifi integrado y se configuran directamente desde su app.",
+        it: "Dipende dal modello. I radiatori Thermor, Atlantic e Sauter si gestiscono con Cozytouch, spesso tramite un gateway (il bridge Cozytouch) collegato al router. Il Rointe Kyros WiFi e il Mill Gentle Air WiFi hanno il Wi-Fi integrato e si configurano direttamente dalla loro app.",
+        nl: "Dat hangt van het model af. Radiatoren van Thermor, Atlantic en Sauter bedien je met Cozytouch, vaak via een bridge die op je router is aangesloten. De Rointe Kyros WiFi en de Mill Gentle Air WiFi hebben ingebouwde wifi: die stel je rechtstreeks in via hun eigen app.",
         pl: "To zależy od modelu. Grzejnikami Thermor, Atlantic i Sauter steruje się z aplikacji Cozytouch, często za pośrednictwem bramki podłączonej do routera. Rointe Kyros WiFi i Mill Gentle Air WiFi mają wbudowane Wi-Fi i konfiguruje się je bezpośrednio w ich aplikacjach.",
         sv: "Det beror på modellen. Element från Thermor, Atlantic och Sauter styrs med Cozytouch, ofta via en brygga som kopplas till routern. Rointe Kyros WiFi och Mill Gentle Air WiFi har inbyggt wifi och ställs in direkt i sina egna appar.",
         us: "It depends on the model. Thermor, Atlantic and Sauter heaters are controlled through Cozytouch, often via a bridge plugged into your router. The Rointe Kyros WiFi and Mill Gentle Air WiFi have Wi-Fi built in and set up directly from their app.",
@@ -977,11 +977,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: "Inertie fluide, fonte ou pierre : laquelle choisir ?",
-        en: "Fluid, cast-iron or stone inertia: which should you choose?",
-        de: "Fluid-, Guss- oder Steinspeicher: was ist besser?",
+        en: "Fluid-filled, cast-iron or stone heaters: which should I choose?",
+        de: "Flüssigkeit, Guss oder Stein: Welcher Wärmespeicher ist der richtige?",
         es: "Inercia fluida, fundición o piedra: ¿cuál elegir?",
         it: "Inerzia fluida, ghisa o pietra: quale scegliere?",
-        nl: "Vloeistof, gietijzer of steen: welke traagheid kiezen?",
+        nl: "Vloeistof, gietijzer of steen: welke inertie kies je?",
         pl: "Płyn grzewczy, żeliwo czy kamień: co wybrać?",
         sv: "Vätska, gjutjärn eller sten: vilken värmelagring ska du välja?",
         us: "Fluid-filled, cast-iron or stone core: which heater should you choose?",
@@ -989,11 +989,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "L'inertie fluide offre une chaleur homogène avec une bonne réactivité. La fonte et la pierre accumulent davantage et conviennent aux pièces chauffées longtemps. Pour une pièce utilisée par intermittence, un modèle plus réactif, avec façade chauffante, est souvent plus adapté.",
-        en: "Fluid inertia gives even heat with good responsiveness. Cast iron and stone store more heat and suit rooms heated for long periods. For a room used occasionally, a more responsive model with a heating front is often a better fit.",
-        de: "Fluidspeicher liefern gleichmäßige Wärme bei guter Reaktion. Guss und Stein speichern mehr und passen zu lange beheizten Räumen. Für selten genutzte Räume ist ein reaktionsschnelles Modell mit Heizfront oft besser.",
-        es: "La inercia fluida da un calor homogéneo con buena rapidez. La fundición y la piedra acumulan más y convienen a estancias calentadas muchas horas. Para una estancia de uso ocasional, suele encajar mejor un modelo rápido con fachada calefactora.",
-        it: "L'inerzia fluida offre calore uniforme con buona reattività. Ghisa e pietra accumulano di più e sono adatte a stanze riscaldate a lungo. Per una stanza usata saltuariamente è spesso meglio un modello reattivo con facciata scaldante.",
-        nl: "Vloeistoftraagheid geeft gelijkmatige warmte en reageert vlot. Gietijzer en steen slaan meer op en passen bij ruimtes die lang verwarmd worden. Voor een kamer die af en toe gebruikt wordt, is een sneller model met verwarmd front vaak beter.",
+        en: "Fluid-filled heaters give even heat and respond fairly quickly. Cast-iron and stone cores store more heat and suit rooms that are heated for long periods. For a room you only use now and then, a more responsive model with a radiant front panel is often a better choice.",
+        de: "Ein Flüssigkeitsspeicher liefert gleichmäßige Wärme und reagiert dabei recht schnell. Guss und Stein speichern mehr Wärme und passen zu Räumen, die lange beheizt werden. Für Räume, die Sie nur zeitweise nutzen, ist ein schneller reagierendes Modell mit beheizter Front oft die bessere Wahl.",
+        es: "La inercia fluida da un calor homogéneo y reacciona bastante rápido. La fundición y la piedra acumulan más calor y convienen en habitaciones que se calientan muchas horas. Para una habitación que se usa de vez en cuando, suele encajar mejor un modelo más rápido, con frontal radiante.",
+        it: "L'inerzia fluida dà un calore uniforme e reagisce bene. Ghisa e pietra accumulano più calore e sono adatte alle stanze riscaldate a lungo. Per una stanza usata solo ogni tanto, spesso è meglio un modello più reattivo, con frontale radiante.",
+        nl: "Vloeistofinertie geeft gelijkmatige warmte en reageert vrij snel. Gietijzer en steen slaan meer warmte op en passen bij ruimtes die lang achter elkaar verwarmd worden. Voor een kamer die je maar af en toe gebruikt, is een sneller model met verwarmd front vaak een betere keuze.",
         pl: "Grzejnik z płynem grzewczym daje równomierne ciepło i dość szybko reaguje. Żeliwo i kamień akumulują więcej ciepła i sprawdzają się w pomieszczeniach ogrzewanych przez wiele godzin. Do pomieszczenia używanego od czasu do czasu często lepiej nadaje się model szybciej reagujący, z panelem grzewczym.",
         sv: "Vätskefyllda element ger jämn värme och reagerar snabbt. Gjutjärn och sten lagrar mer värme och passar rum som värms upp under långa perioder. I ett rum som bara används ibland passar ofta en snabbare modell med värmande front bättre.",
         us: "A fluid-filled heater gives even heat and responds reasonably fast. Cast iron and stone store more heat and suit rooms that are heated for long stretches. For a room you only use now and then, a faster-responding model with a heated front panel is often a better fit.",
@@ -1003,11 +1003,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: "Un radiateur bain d'huile connecté peut-il servir de chauffage principal ?",
-        en: "Can a smart oil-filled radiator be used as main heating?",
-        de: "Kann ein smarter Ölradiator als Hauptheizung dienen?",
-        es: "¿Puede un radiador de aceite inteligente ser la calefacción principal?",
-        it: "Un radiatore a olio smart può essere il riscaldamento principale?",
-        nl: "Kan een slimme olieradiator als hoofdverwarming dienen?",
+        en: "Can I use a smart oil-filled radiator as my main heating?",
+        de: "Taugt ein smarter Ölradiator als Hauptheizung?",
+        es: "¿Puede un radiador de aceite con wifi servir como calefacción principal?",
+        it: "Un radiatore a olio smart può fare da riscaldamento principale?",
+        nl: "Kun je een slimme olieradiator als hoofdverwarming gebruiken?",
         pl: "Czy inteligentny grzejnik olejowy może być głównym źródłem ogrzewania?",
         sv: "Kan ett smart oljefyllt element användas som huvudsaklig uppvärmning?",
         us: "Can a smart oil-filled heater be your main heat source?",
@@ -1015,11 +1015,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Un modèle comme le Mill Gentle Air WiFi est conçu comme chauffage d'appoint, pour une pièce ou un usage ponctuel. Pour chauffer tout un logement de façon durable, des radiateurs fixes installés par un professionnel restent plus adaptés.",
-        en: "A model like the Mill Gentle Air WiFi is designed as supplementary heating for one room or occasional use. To heat a whole home over the long term, fixed heaters installed by a professional remain more suitable.",
-        de: "Ein Modell wie der Mill Gentle Air WiFi ist als Zusatzheizung für einen Raum oder gelegentliche Nutzung gedacht. Für eine ganze Wohnung sind fest installierte Heizkörper vom Fachbetrieb dauerhaft besser geeignet.",
+        en: "A model like the Mill Gentle Air WiFi is designed as a top-up heater, for a single room or occasional use. To heat a whole home long term, fixed heaters installed by a professional are still the better option.",
+        de: "Ein Modell wie der Mill Gentle Air WiFi ist als Zusatzheizung gedacht: für einen einzelnen Raum oder für den gelegentlichen Einsatz. Um eine ganze Wohnung dauerhaft zu heizen, sind fest installierte Heizkörper vom Fachbetrieb besser geeignet.",
         es: "Un modelo como el Mill Gentle Air WiFi está pensado como calefacción de apoyo para una estancia o un uso puntual. Para calentar toda una vivienda de forma duradera, son más adecuados los radiadores fijos instalados por un profesional.",
-        it: "Un modello come il Mill Gentle Air WiFi è pensato come riscaldamento d'appoggio per una stanza o un uso occasionale. Per riscaldare tutta la casa in modo duraturo sono più adatti radiatori fissi installati da un professionista.",
-        nl: "Een model als de Mill Gentle Air WiFi is bedoeld als bijverwarming voor één kamer of occasioneel gebruik. Om een hele woning duurzaam te verwarmen, zijn vaste radiatoren die door een vakman zijn geplaatst geschikter.",
+        it: "Un modello come il Mill Gentle Air WiFi è pensato per il riscaldamento integrativo, in una sola stanza o per un uso occasionale. Per riscaldare tutta la casa in modo stabile sono più adatti radiatori fissi installati da un professionista.",
+        nl: "Een model als de Mill Gentle Air WiFi is bedoeld als bijverwarming, voor één kamer of voor af en toe. Wil je een hele woning langdurig verwarmen, dan zijn vaste radiatoren die een vakman installeert geschikter.",
         pl: "Model taki jak Mill Gentle Air WiFi jest pomyślany jako urządzenie do dogrzewania – jednego pomieszczenia albo na krótko. Do stałego ogrzewania całego domu lub mieszkania lepiej nadają się grzejniki montowane na stałe przez fachowca.",
         sv: "En modell som Mill Gentle Air WiFi är tänkt som extra värmekälla för ett rum eller för tillfälligt bruk. För att värma upp en hel bostad på lång sikt är fast monterade element, installerade av en fackman, ett bättre val.",
         us: "A model like the Mill Gentle Air WiFi is designed as supplemental heat for one room or occasional use. To heat a whole home for the long haul, hardwired heaters installed by a professional are the better choice.",
@@ -1029,11 +1029,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: "Quelle puissance de radiateur pour une pièce donnée ?",
-        en: "What heater power do you need for a room?",
+        en: "What wattage heater do I need for a room?",
         de: "Welche Heizleistung braucht ein Raum?",
-        es: "¿Qué potencia de radiador necesita una estancia?",
-        it: "Che potenza di radiatore serve per una stanza?",
-        nl: "Welk vermogen heeft een kamer nodig?",
+        es: "¿Qué potencia de radiador necesito para una habitación?",
+        it: "Che potenza serve per riscaldare una stanza?",
+        nl: "Welk radiatorvermogen heb je nodig voor een kamer?",
         pl: "Jak dobrać moc grzejnika do pomieszczenia?",
         sv: "Hur hög effekt behöver elementet i ett visst rum?",
         us: "What size heater do you need for a room?",
@@ -1041,11 +1041,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Une règle empirique courante est d'environ 100 W par m² avec une isolation moyenne, moins dans un logement récent bien isolé et davantage dans l'ancien. Un professionnel peut affiner le calcul selon le volume et les déperditions réelles.",
-        en: "A common rule of thumb is about 100 W per m² with average insulation, less in a recent well-insulated home and more in an older one. A professional can refine the calculation based on volume and actual heat losses.",
-        de: "Als Faustregel gelten etwa 100 W pro m² bei durchschnittlicher Dämmung, weniger im gut gedämmten Neubau und mehr im Altbau. Ein Fachbetrieb kann die Berechnung nach Volumen und tatsächlichen Wärmeverlusten verfeinern.",
-        es: "Una regla práctica habitual es de unos 100 W por m² con aislamiento medio, menos en una vivienda reciente bien aislada y más en una antigua. Un profesional puede afinar el cálculo según el volumen y las pérdidas reales.",
-        it: "Una regola pratica diffusa è di circa 100 W per m² con isolamento medio, meno in una casa recente ben isolata e di più in una datata. Un professionista può affinare il calcolo in base a volume e dispersioni reali.",
-        nl: "Een gangbare vuistregel is ongeveer 100 W per m² bij gemiddelde isolatie, minder in een recente goed geïsoleerde woning en meer in een oudere. Een vakman kan de berekening verfijnen op basis van volume en werkelijk warmteverlies.",
+        en: "A common rule of thumb is about 100 W per m² with average insulation, less in a newer, well-insulated home and more in an older one. A professional can work it out more precisely from the room's volume and actual heat loss.",
+        de: "Als Faustregel gelten etwa 100 W pro m² bei durchschnittlicher Dämmung, weniger im gut gedämmten Neubau und mehr im Altbau. Ein Fachbetrieb kann den Bedarf anhand von Raumvolumen und tatsächlichen Wärmeverlusten genauer berechnen.",
+        es: "Una regla práctica habitual es calcular unos 100 W por m² con un aislamiento medio, menos en una vivienda reciente bien aislada y más en una antigua. Un profesional puede afinar el cálculo según el volumen y las pérdidas de calor reales.",
+        it: "Una regola pratica diffusa indica circa 100 W per m² con un isolamento medio, meno in una casa recente e ben isolata, di più in un edificio datato. Un professionista può affinare il calcolo in base al volume e alle dispersioni reali.",
+        nl: "Een gangbare vuistregel is ongeveer 100 W per m² bij gemiddelde isolatie: minder in een nieuwere, goed geïsoleerde woning en meer in een oud huis. Een vakman kan het precies berekenen op basis van het volume van de ruimte en het werkelijke warmteverlies.",
         pl: "Popularna reguła orientacyjna to ok. 100 W na m² przy przeciętnej izolacji – mniej w nowym, dobrze ocieplonym budynku, więcej w starym. Fachowiec obliczy moc dokładniej, biorąc pod uwagę kubaturę i rzeczywiste straty ciepła.",
         sv: "En vanlig tumregel är ungefär 100 W per m² med normal isolering, mindre i ett nyare, välisolerat hus och mer i ett äldre. En fackman kan räkna mer exakt utifrån rumsvolymen och de faktiska värmeförlusterna.",
         us: "A common rule of thumb is about 10 W per square foot (100 W per m²) with average insulation, less in a newer, well-insulated home and more in an older one. A pro can fine-tune the math based on room volume and actual heat loss.",
@@ -1055,8 +1055,8 @@ export const article: BlogArticle = {
     {
       question: {
         fr: "Peut-on brancher un radiateur sur une prise connectée ?",
-        en: "Can you plug a heater into a smart plug?",
-        de: "Darf man einen Heizkörper an einen Smart Plug anschließen?",
+        en: "Can I plug a heater into a smart plug?",
+        de: "Kann man ein Heizgerät an einer WLAN-Steckdose betreiben?",
         es: "¿Se puede enchufar un radiador a un enchufe inteligente?",
         it: "Si può collegare un radiatore a una presa smart?",
         nl: "Mag je een radiator op een slimme stekker aansluiten?",
@@ -1067,11 +1067,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Seulement si la prise connectée est explicitement prévue pour la puissance du radiateur, et jamais via une multiprise. Un radiateur avec Wi-Fi intégré est plus sûr et plus pratique, car il conserve son thermostat et ses détections.",
-        en: "Only if the smart plug is explicitly rated for the heater's power, and never through a power strip. A heater with built-in Wi-Fi is safer and more practical, as it keeps its own thermostat and detection features.",
-        de: "Nur wenn der Smart Plug ausdrücklich für die Leistung des Heizgeräts ausgelegt ist, und nie über eine Steckdosenleiste. Ein Heizkörper mit integriertem WLAN ist sicherer und praktischer, da er Thermostat und Erkennungen behält.",
-        es: "Solo si el enchufe inteligente está preparado explícitamente para la potencia del radiador, y nunca a través de una regleta. Un radiador con Wi-Fi integrado es más seguro y práctico, porque conserva su termostato y sus detecciones.",
-        it: "Solo se la presa smart è esplicitamente adatta alla potenza del radiatore, e mai tramite una ciabatta. Un radiatore con Wi-Fi integrato è più sicuro e pratico, perché mantiene termostato e rilevamenti.",
-        nl: "Alleen als de slimme stekker uitdrukkelijk geschikt is voor het vermogen van de radiator, en nooit via een stekkerdoos. Een radiator met ingebouwde wifi is veiliger en handiger, omdat hij zijn thermostaat en detecties behoudt.",
+        en: "Only if the smart plug is specifically rated for the heater's wattage, and never through an extension lead. A heater with built-in Wi-Fi is safer and more practical, as it keeps its own thermostat and detection features.",
+        de: "Nur wenn die WLAN-Steckdose ausdrücklich für die Leistung des Heizgeräts ausgelegt ist, und nie über eine Steckdosenleiste. Ein Heizkörper mit eingebautem WLAN ist sicherer und praktischer, weil Thermostat und Erkennungsfunktionen erhalten bleiben.",
+        es: "Solo si el enchufe inteligente está preparado expresamente para la potencia del radiador, y nunca a través de una regleta. Un radiador con wifi integrado es más seguro y más práctico, porque conserva su termostato y sus funciones de detección.",
+        it: "Solo se la presa smart è espressamente prevista per la potenza del radiatore, e mai tramite una ciabatta. Un radiatore con Wi-Fi integrato è più sicuro e più pratico, perché conserva il suo termostato e i suoi sensori.",
+        nl: "Alleen als de slimme stekker uitdrukkelijk geschikt is voor het vermogen van de radiator, en nooit via een stekkerdoos. Een radiator met ingebouwde wifi is veiliger en handiger, omdat hij zijn eigen thermostaat en detectiefuncties (open raam, aanwezigheid) houdt.",
         pl: "Tylko wtedy, gdy inteligentne gniazdko jest wyraźnie przeznaczone do urządzeń o mocy grzejnika – i nigdy przez listwę zasilającą. Grzejnik z wbudowanym Wi-Fi jest bezpieczniejszy i wygodniejszy, bo zachowuje własny termostat i funkcje wykrywania.",
         sv: "Bara om den smarta pluggen uttryckligen är avsedd för elementets effekt, och aldrig via ett grenuttag. Ett element med inbyggt wifi är säkrare och smidigare, eftersom det behåller sin egen termostat och sina avkänningsfunktioner.",
         us: "Only if the smart plug is explicitly rated for the heater's wattage, and never through a power strip. A heater with built-in Wi-Fi is safer and more convenient, since it keeps its own thermostat and detection features.",
@@ -1082,10 +1082,10 @@ export const article: BlogArticle = {
       question: {
         fr: "Qui doit installer un radiateur électrique fixe ?",
         en: "Who should install a fixed electric heater?",
-        de: "Wer sollte einen fest installierten Elektroheizkörper anschließen?",
+        de: "Wer schließt einen fest installierten Elektroheizkörper an?",
         es: "¿Quién debe instalar un radiador eléctrico fijo?",
         it: "Chi deve installare un radiatore elettrico fisso?",
-        nl: "Wie moet een vaste elektrische radiator plaatsen?",
+        nl: "Wie moet een vaste elektrische radiator installeren?",
         pl: "Kto powinien zamontować grzejnik elektryczny na stałe?",
         sv: "Vem ska installera ett fast monterat elelement?",
         us: "Who should install a hardwired electric heater?",
@@ -1093,11 +1093,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Un électricien qualifié, qui vérifiera que le circuit est adapté à la puissance et que l'installation respecte la norme NF C 15-100, notamment les volumes de sécurité en salle de bains et le raccordement éventuel du fil pilote.",
-        en: "A qualified electrician, who will check that the circuit suits the power and that the installation follows local wiring rules, including bathroom safety zones and any pilot wire connection.",
-        de: "Eine Elektrofachkraft, die prüft, ob der Stromkreis zur Leistung passt und die Installation den örtlichen Vorschriften entspricht, einschließlich der Schutzbereiche im Bad.",
-        es: "Un electricista cualificado, que comprobará que el circuito es adecuado a la potencia y que la instalación cumple la normativa local, incluidos los volúmenes de seguridad del baño.",
-        it: "Un elettricista qualificato, che verificherà che il circuito sia adeguato alla potenza e che l'impianto rispetti le norme locali, comprese le zone di sicurezza del bagno.",
-        nl: "Een erkende elektricien, die controleert of het circuit past bij het vermogen en of de installatie voldoet aan de lokale voorschriften, inclusief de veiligheidszones in de badkamer.",
+        en: "A qualified electrician, who will check that the circuit can handle the heater's power and that the installation meets local wiring rules, including bathroom safety zones and any pilot wire connection.",
+        de: "Eine Elektrofachkraft. Sie prüft, ob der Stromkreis für die Leistung ausgelegt ist und die Installation den geltenden Normen entspricht (in Frankreich NF C 15-100), insbesondere bei den Schutzbereichen im Bad und gegebenenfalls beim Anschluss der Steuerleitung („fil pilote“).",
+        es: "Un electricista cualificado, que comprobará que el circuito es adecuado a la potencia y que la instalación cumple la normativa vigente, incluidos los volúmenes de seguridad del baño y, si lo hay, la conexión del hilo piloto.",
+        it: "Un elettricista qualificato, che verificherà che il circuito sia adeguato alla potenza e che l'impianto rispetti le norme vigenti, comprese quelle sulle zone di sicurezza del bagno e, se presente, il collegamento del filo pilota.",
+        nl: "Een gekwalificeerde elektricien. Die controleert of de stroomkring geschikt is voor het vermogen en of de installatie voldoet aan de geldende normen (NEN 1010 in Nederland, het AREI in België), ook voor de veiligheidszones in de badkamer en de eventuele aansluiting van een stuurdraad.",
         pl: "Wykwalifikowany elektryk. Sprawdzi on, czy obwód jest dostosowany do mocy urządzenia i czy instalacja spełnia obowiązujące przepisy (we Francji normę NF C 15-100), zwłaszcza w zakresie stref bezpieczeństwa w łazience i ewentualnego podłączenia przewodu fil pilote.",
         sv: "En behörig elektriker, som kontrollerar att kretsen klarar effekten och att installationen följer de regler som gäller där du bor, bland annat för säkerhetszonerna i badrum och en eventuell anslutning av styrledning (fil pilote).",
         us: "A licensed electrician. They'll check that the circuit can handle the heater's wattage, that the installation meets your local building code and whether you need a permit. In France, the NF C 15-100 wiring standard also covers bathroom safety zones and any pilot wire connection.",

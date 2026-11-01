@@ -35,7 +35,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much can a smart thermostat save on my energy bill?",
-        answer: "It depends on your habits: the savings come from heating fewer hours and to lower temperatures, not from the device itself. If the heating already goes off whenever you're out, gains will be modest; if it runs on a fixed timer whether you're home or not, features like geofencing and room-by-room control make a real difference. To estimate, find your yearly gas use in kWh on your bill: every 5 % cut on 10,000 kWh is 500 kWh, multiplied by your unit rate.",
+        answer: "It depends on your habits: the savings come from heating fewer hours and to lower temperatures, not from the device itself. If the heating already goes off whenever you're out, gains will be modest; if it runs on a fixed timer whether you're home or not, features like geofencing and room-by-room control make a real difference. To estimate, find your yearly gas use in kWh on your bill: every 5% cut on 10,000 kWh is 500 kWh, multiplied by your unit rate.",
       },
       {
         question: "Do I need an engineer to fit a smart thermostat?",
@@ -71,37 +71,37 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Qué termostato inteligente es compatible con mi caldera de gas?",
-        answer: "Casi todos: cualquier caldera con conexión para termostato de ambiente (dos cables, contacto libre de tensión) admite un termostato inteligente. Si tu caldera es compatible con OpenTherm, elige un modelo que también lo sea: en lugar de encender y apagar, ajusta la potencia de la llama y aprovecha mejor la condensación. Revisa la lista de compatibilidad del fabricante con el modelo exacto de tu caldera y fíjate en si el termostato funciona con pilas o necesita corriente.",
+        answer: "Casi todos: cualquier caldera con conexión para termostato de ambiente (dos cables, contacto libre de tensión) admite un termostato inteligente. Si tu caldera es compatible con OpenTherm, elige un modelo que también lo sea: en vez de limitarse a encenderla y apagarla, regula la potencia de la llama y la caldera aprovecha mejor la condensación. Revisa la lista de compatibilidad del fabricante con el modelo exacto de tu caldera y mira si el termostato va con pilas o necesita corriente.",
       },
       {
         question: "¿Termostato inteligente o controlador para el aire acondicionado con bomba de calor?",
-        answer: "Si te calientas con splits de aire acondicionado con bomba de calor, lo que necesitas es un controlador inteligente por infrarrojos, no un termostato de caldera. Este pequeño aparato imita al mando a distancia, así que puedes programar horarios, encender la calefacción desde el móvil antes de llegar o apagarla si no hay nadie. Antes de comprarlo, comprueba que tu marca y modelo de split figuran en su lista. Si tienes aerotermia con radiadores o suelo radiante, usa el termostato de su fabricante.",
+        answer: "Si usas como calefacción splits de aire acondicionado con bomba de calor, lo que necesitas es un controlador inteligente por infrarrojos, no un termostato de caldera. Este pequeño aparato hace de mando a distancia, así que puedes programar horarios, encender la calefacción desde el móvil antes de llegar o apagarla si no hay nadie. Antes de comprarlo, comprueba que tu marca y tu modelo de split aparecen en su lista. Si tienes aerotermia con radiadores o suelo radiante, usa el termostato de su fabricante.",
       },
       {
-        question: "¿Puedo poner cabezales termostáticos inteligentes si tengo calefacción central en mi comunidad?",
-        answer: "Sí, normalmente basta con sustituir el cabezal manual de cada radiador por uno inteligente, sin tocar la válvula ni el repartidor de costes. Muchos edificios con calefacción central ya tienen válvulas termostáticas y repartidores por la normativa de contabilización individual de consumos (Real Decreto 736/2020). Comprueba la rosca de la válvula, la más común es M30 × 1,5, o compra el adaptador adecuado. Nunca manipules el repartidor, que está precintado, y consulta al administrador de fincas si tienes dudas.",
+        question: "¿Puedo poner cabezales termostáticos inteligentes con calefacción central de comunidad?",
+        answer: "Sí, normalmente basta con sustituir el cabezal manual de cada radiador por uno inteligente, sin tocar la válvula ni el repartidor de costes. Muchos edificios con calefacción central ya tienen válvulas termostáticas y repartidores por la normativa de contabilización individual de consumos (Real Decreto 736/2020). Comprueba la rosca de la válvula (la más habitual es M30 × 1,5) o compra el adaptador adecuado. No manipules nunca el repartidor, que está precintado, y consulta al administrador de fincas si tienes dudas.",
       },
       {
         question: "¿Cuánto se ahorra bajando un grado la calefacción?",
-        answer: "Según el IDAE, cada grado de más en la calefacción aumenta el consumo en torno a un 7 %, así que bajar uno ahorra una cantidad parecida. El IDAE considera suficiente una temperatura de 19 a 21 °C de día y de 15 a 17 °C en los dormitorios por la noche. Ejemplo: si gastas 800 € al año en calefacción, bajar de 22 a 20 °C supone alrededor de un 14 %, unos 110 €. El termostato inteligente te ayuda a mantener esas consignas sin pensar en ello.",
+        answer: "Según el IDAE, cada grado de más en la calefacción aumenta el consumo en torno a un 7 %, así que bajarla un grado ahorra más o menos lo mismo. El IDAE considera suficiente una temperatura de 19 a 21 °C de día y de 15 a 17 °C en los dormitorios por la noche. Ejemplo: si gastas 800 € al año en calefacción, bajar de 22 a 20 °C supone alrededor de un 14 %, unos 110 €. Un termostato inteligente te ayuda a mantener esas temperaturas sin tener que estar pendiente.",
       },
       {
         question: "¿Por qué mi termostato wifi se desconecta o la caldera no responde?",
-        answer: "Casi siempre es por la señal wifi: la mayoría de termostatos solo usan la banda de 2,4 GHz y pierden la conexión si cambias de router o de contraseña. Vuelve a vincularlo desde la app y, si está lejos del router, acerca la pasarela o añade un repetidor. Si la caldera no arranca aunque el termostato pida calor, revisa las pilas del receptor, el cableado y la presión del circuito, que en frío suele tener que estar entre 1 y 1,5 bar.",
+        answer: "Casi siempre es por la señal wifi: la mayoría de los termostatos solo funcionan en la banda de 2,4 GHz y pierden la conexión si cambias de router o de contraseña. Vuelve a vincularlo desde la app y, si está lejos del router, acerca la pasarela o añade un repetidor. Si la caldera no arranca aunque el termostato pida calor, revisa las pilas del receptor, el cableado y la presión del circuito, que en frío suele tener que estar entre 1 y 1,5 bar.",
       },
     ],
     it: [
       {
         question: "Quale cronotermostato smart scegliere per la caldaia?",
-        answer: "Scegli un cronotermostato compatibile con il contatto on/off della caldaia, che hanno quasi tutte, oppure un modello OpenTherm se la tua caldaia lo supporta, perché modula la fiamma invece di accenderla e spegnerla. Controlla l'alimentazione: alcuni modelli vanno a batterie, altri a 230 V e richiedono il neutro nella scatola del vecchio termostato. Verifica anche l'ecosistema che usi già, come Alexa, Google Home o Apple Casa, e la compatibilità con eventuali valvole smart.",
+        answer: "Quasi tutte le caldaie hanno un contatto on/off per il termostato, quindi va bene qualsiasi cronotermostato compatibile. Se la tua caldaia supporta OpenTherm, scegli un modello OpenTherm, che modula la fiamma invece di accenderla e spegnerla. Controlla l'alimentazione: alcuni modelli vanno a batterie, altri a 230 V e richiedono il neutro nella scatola del vecchio termostato. Verifica anche l'ecosistema che usi già, come Alexa, Google Home o Apple Casa, e la compatibilità con eventuali valvole termostatiche smart.",
       },
       {
         question: "Le valvole termostatiche sono obbligatorie in condominio?",
-        answer: "Sì, nei condomini con riscaldamento centralizzato termoregolazione e contabilizzazione del calore sono obbligatorie dal 2017, salvo impossibilità tecnica o costi sproporzionati certificati da un tecnico. Lo prevede il decreto legislativo 102/2014. Puoi sostituire la manopola termostatica manuale con un comando smart sulla stessa valvola, se il filetto è compatibile (M30 × 1,5 è il più diffuso) o con l'adattatore giusto. Non toccare il ripartitore dei costi e, nel dubbio, chiedi all'amministratore.",
+        answer: "Sì: nei condomini con riscaldamento centralizzato termoregolazione e contabilizzazione del calore sono obbligatorie dal 2017 (decreto legislativo 102/2014), salvo impossibilità tecnica o costi sproporzionati certificati da un tecnico. Puoi sostituire la testina termostatica manuale con una smart, sulla stessa valvola, se il filetto è compatibile (il più diffuso è M30 × 1,5) o con l'adattatore giusto. Non toccare il ripartitore di calore e, nel dubbio, chiedi all'amministratore.",
       },
       {
         question: "Quanto si risparmia abbassando il riscaldamento di un grado?",
-        answer: "Ogni grado in meno riduce il consumo del riscaldamento di circa il 7 %, secondo le stime più citate in Europa, come quella dell'agenzia francese ADEME. In Italia la legge fissa per le abitazioni un massimo di 20 °C, con 2 °C di tolleranza. Esempio: con 1.000 m³ di metano all'anno, passare da 22 a 20 °C fa risparmiare circa 140 m³; moltiplica per il prezzo al metro cubo della tua bolletta. Il cronotermostato smart serve a mantenere queste impostazioni senza pensarci.",
+        answer: "Ogni grado in meno riduce il consumo del riscaldamento di circa il 7%, secondo la stima dell'agenzia francese ADEME, una delle più citate. In Italia la legge fissa per le abitazioni un massimo di 20 °C, con 2 °C di tolleranza. Esempio: con 1.000 m³ di metano all'anno, passare da 22 a 20 °C fa risparmiare circa 140 m³; moltiplica per il prezzo al metro cubo della tua bolletta. Il cronotermostato smart ti aiuta a rispettare queste temperature senza doverci pensare.",
       },
       {
         question: "Meglio un solo cronotermostato o valvole smart in ogni stanza?",
@@ -109,7 +109,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Perché la valvola smart del termosifone non scalda o fa rumore?",
-        answer: "Di solito perché la calibrazione non è andata a buon fine o perché l'adattatore non è quello giusto per la valvola. Rimonta il comando con l'adattatore indicato per la tua marca di valvola e rilancia la calibrazione dall'app. Se il termosifone resta freddo, il perno della valvola potrebbe essersi bloccato dopo l'estate: togli il comando e premi il perno più volte a mano. Un ronzio breve durante la regolazione è normale; un rumore continuo spesso indica batterie scariche.",
+        answer: "Di solito perché la calibrazione non è andata a buon fine o perché l'adattatore non è quello giusto per la valvola. Rimonta la testina con l'adattatore indicato per la tua marca di valvola e rilancia la calibrazione dall'app. Se il termosifone resta freddo, il perno della valvola potrebbe essersi bloccato dopo l'estate: togli la testina e premi il perno più volte a mano. Un ronzio breve durante la regolazione è normale; un rumore continuo spesso indica batterie scariche.",
       },
     ],
     nl: [
@@ -297,41 +297,41 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "¿Cuánto cuesta poner la lavadora en hora punta, llano o valle?",
-        answer: "Multiplica los kWh del lavado por el precio de cada tramo: con la tarifa 2.0TD, el valle es el más barato y la punta, la más cara. El valle va de 0 a 8 h, más fines de semana y festivos nacionales; la punta, de 10 a 14 h y de 18 a 22 h. Si un lavado consume 1 kWh, el ahorro es 1 kWh × (precio punta − precio valle). Un medidor de consumo te dice cuántos kWh gasta de verdad cada programa, sobre todo los de agua caliente.",
+        answer: "Multiplica los kWh del lavado por el precio de cada tramo: con el PVPC o una tarifa con discriminación horaria, las horas valle son las más baratas y las punta, las más caras. Las horas valle van de 0 a 8 h entre semana, más todo el día los fines de semana y festivos nacionales; las punta, de 10 a 14 h y de 18 a 22 h los laborables. Si un lavado consume 1 kWh, ahorras 1 kWh × (precio punta − precio valle). Un medidor de consumo te dice cuántos kWh gasta de verdad cada programa, sobre todo los de agua caliente.",
       },
       {
         question: "¿Enchufe inteligente con medidor o medidor con pinza en el cuadro?",
-        answer: "Usa un enchufe con medidor para saber cuánto gasta un aparato concreto y un medidor con pinza para ver el consumo de toda la casa en tiempo real. El enchufe solo sirve para aparatos con clavija y dentro de su potencia máxima, normalmente 16 A, así que no mide el horno, la vitrocerámica ni el termo si van conectados directamente. La pinza en el cuadro lo capta todo, incluidos esos grandes consumos, y algunos modelos también miden la producción de placas solares.",
+        answer: "Usa un enchufe con medidor para saber cuánto gasta un aparato concreto y un medidor con pinza para ver el consumo de toda la casa en tiempo real. El enchufe solo sirve para aparatos con clavija y dentro de su potencia máxima, normalmente 16 A, así que no mide el horno, la vitrocerámica ni el termo si van conectados directamente a la instalación. El medidor de pinza del cuadro lo registra todo, incluidos esos grandes consumos, y algunos modelos miden también lo que producen las placas solares.",
       },
       {
         question: "¿Necesito un electricista para instalar un medidor en el cuadro eléctrico?",
-        answer: "Es lo recomendable: aunque la pinza solo abraza el cable sin cortarlo, hay que abrir el cuadro y trabajar cerca de partes con tensión. Si no tienes experiencia, encárgalo a un instalador autorizado. No toques nunca el contador ni la caja general de protección, que están precintados por la distribuidora. En cuanto a la privacidad, elige un medidor que permita guardar los datos en local si no quieres que tu consumo pase por la nube del fabricante.",
+        answer: "Es lo más recomendable: aunque la pinza solo abraza el cable sin cortarlo, hay que abrir el cuadro y trabajar cerca de piezas con tensión. Si no tienes experiencia, encárgaselo a un instalador autorizado. No toques nunca el contador ni la caja general de protección, que están precintados por la distribuidora. En cuanto a la privacidad, elige un medidor que permita guardar los datos en local si no quieres que tu consumo pase por la nube del fabricante.",
       },
       {
         question: "¿Cómo sé si puedo bajar la potencia contratada?",
-        answer: "Mira la potencia máxima registrada en el área de clientes de tu distribuidora o en Datadis: si en un año nunca te acercas a lo contratado, puedes bajarla y pagar menos de término fijo. Un medidor en tiempo real te avisa de los picos, por ejemplo al juntar horno, lavadora y aire acondicionado. Si superas la potencia contratada, el contador digital corta el suministro y tienes que rearmarlo. Con la tarifa 2.0TD puedes contratar potencias distintas para punta y valle.",
+        answer: "Mira la potencia máxima registrada en el área de clientes de tu distribuidora o en Datadis: si en un año nunca te acercas a lo contratado, puedes bajarla y ahorrar en el término de potencia. Un medidor en tiempo real te avisa de los picos, por ejemplo al juntar horno, lavadora y aire acondicionado. Si superas la potencia contratada, el contador digital corta el suministro y tienes que rearmarlo. Con la tarifa 2.0TD puedes contratar potencias distintas para punta y valle.",
       },
     ],
     it: [
       {
         question: "Come vedere i consumi in tempo reale dal contatore 2G?",
-        answer: "Con un dispositivo compatibile Chain 2: il contatore elettronico di seconda generazione invia i dati di consumo quasi in tempo reale a un apparecchio di casa, senza pinze né lavori sul quadro. Il dispositivo va associato al tuo contatore: la richiesta al distributore la inoltra di solito chi fornisce il dispositivo, a volte il tuo venditore di energia. Funziona solo con i contatori 2G: se hai ancora quello vecchio, usa un monitor con pinza amperometrica. Nell'area clienti del distributore trovi comunque le curve di consumo, ma con un giorno di ritardo.",
+        answer: "Con un dispositivo compatibile Chain 2: il contatore elettronico di seconda generazione invia i dati di consumo quasi in tempo reale a un apparecchio di casa, senza pinze né lavori sul quadro. Il dispositivo va associato al tuo contatore: di solito la richiesta al distributore la inoltra chi fornisce il dispositivo, a volte il tuo venditore di energia. Funziona solo con i contatori 2G: se hai ancora quello vecchio, usa un misuratore con pinza amperometrica. Nell'area clienti del distributore trovi comunque le curve di consumo, ma con un giorno di ritardo.",
       },
       {
         question: "Perché salta il contatore e come evitarlo?",
-        answer: "Il contatore stacca quando prelevi troppa potenza: con 3 kW impegnati regge circa 3,3 kW senza limiti, oltre stacca tanto più in fretta quanto più superi la soglia. Un monitor dei consumi in tempo reale ti mostra quali apparecchi accesi insieme, come forno, lavatrice e condizionatore, ti portano al limite, e alcuni avvisano con una notifica prima del distacco. Se succede spesso, valuta con il tuo venditore un aumento della potenza impegnata.",
+        answer: "Il contatore stacca quando prelevi troppa potenza: con 3 kW impegnati regge circa 3,3 kW senza limiti di tempo, oltre stacca tanto più in fretta quanto più superi la soglia. Un misuratore dei consumi in tempo reale ti mostra quali apparecchi accesi insieme, come forno, lavatrice e condizionatore, ti portano al limite, e alcuni ti avvisano con una notifica prima del distacco. Se succede spesso, valuta con il tuo venditore un aumento della potenza impegnata.",
       },
       {
-        question: "Presa smart con misurazione o monitor sul quadro: cosa scegliere?",
-        answer: "La presa smart con misurazione serve a sapere quanto consuma un singolo elettrodomestico; il monitor sul quadro, o un dispositivo Chain 2, mostra i consumi di tutta la casa. La presa va bene per frigorifero, lavatrice o stufetta, entro il suo limite di potenza, ma non misura il forno o il piano a induzione collegati direttamente all'impianto. Spesso conviene usarli insieme: il monitor ti fa vedere quando i consumi salgono, la presa ti aiuta a trovare il colpevole.",
+        question: "Presa smart con misurazione o misuratore sul quadro: cosa scegliere?",
+        answer: "La presa smart con misurazione serve a sapere quanto consuma un singolo elettrodomestico; il misuratore sul quadro, o un dispositivo Chain 2, mostra i consumi di tutta la casa. La presa va bene per frigorifero, lavatrice o stufetta, entro il suo limite di potenza, ma non misura il forno o il piano a induzione collegati direttamente all'impianto. Spesso conviene usarli insieme: il misuratore ti fa vedere quando i consumi salgono, la presa ti aiuta a trovare il colpevole.",
       },
       {
         question: "Quanto consuma un elettrodomestico e come si calcola?",
         answer: "Moltiplica la potenza in kW per le ore di funzionamento: un forno da 2 kW acceso per un'ora e mezza consuma 3 kWh. Poi moltiplica per il prezzo del kWh in bolletta; se hai una tariffa a fasce, usa il prezzo della fascia giusta (F1 nei giorni feriali dalle 8 alle 19, F2 e F3 la sera, la notte, il sabato, la domenica e i festivi). Per frigorifero e congelatore, che lavorano a cicli, misura una settimana con una presa smart e moltiplica per 52.",
       },
       {
-        question: "Serve un elettricista per installare un monitor di consumi sul quadro?",
-        answer: "Per un monitor con pinza amperometrica non serve tagliare cavi, ma bisogna aprire il quadro e lavorare vicino a parti in tensione: se non sei esperto, fallo fare a un elettricista. Per i moduli su barra DIN che modificano l'impianto serve un installatore abilitato, che rilascia la dichiarazione di conformità prevista dal DM 37/2008. Non aprire mai il contatore del distributore, che è sigillato. Se ti preoccupa la privacy, preferisci dispositivi che salvano i dati in locale.",
+        question: "Serve un elettricista per installare un misuratore di consumi sul quadro?",
+        answer: "Per un misuratore con pinza amperometrica non serve tagliare cavi, ma bisogna aprire il quadro e lavorare vicino a parti in tensione: se non sei esperto, fallo fare a un elettricista. Per i moduli su barra DIN che modificano l'impianto serve un installatore abilitato, che rilascia la dichiarazione di conformità prevista dal DM 37/2008. Non aprire mai il contatore del distributore, che è sigillato. Se ti preoccupa la privacy, preferisci dispositivi che salvano i dati in locale.",
       },
     ],
     nl: [
@@ -470,23 +470,23 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     ],
     en: [
       {
-        question: "Is plug-in balcony solar legal in the UK?",
-        answer: "Yes, in Great Britain plug-in solar has been legal since 27 August 2026, as long as you use an approved kit of up to 800 W. The kit must appear on the Energy Networks Association's G98 register of approved products and plug straight into a fixed socket, without an extension lead or adaptor. You then notify your network operator (DNO) within 28 days using a free G98 form. Kits with a built-in battery aren't covered yet. In a flat, check your lease and ask your landlord or freeholder first.",
+        question: "Is plug-in solar legal in the UK?",
+        answer: "Yes, in Great Britain: since 27 August 2026, plug-in solar kits of up to 800 W can legally be plugged into a home socket, according to GOV.UK. Buy a complete kit sold for the British market, plug it straight into a wall socket rather than an extension lead, and check whether you need to notify your electricity network operator. In a flat or rented home, find out first whether you need permission from your landlord, freeholder or managing agent.",
       },
       {
-        question: "How much can a balcony solar panel save in the UK?",
-        answer: "Your saving is the solar electricity you use as it's generated, multiplied by your unit rate; anything you don't use flows to the grid, usually unpaid. Example: if a kit produces 400 kWh a year and you use 70 % of it, that's 280 kWh, worth £70 at 25p per kWh. Output depends heavily on orientation, tilt and shading, so estimate yours with the European Commission's free PVGIS calculator, then divide the kit's price by the yearly saving to get the payback time.",
+        question: "How much can plug-in solar panels save in the UK?",
+        answer: "Your saving is the solar electricity you use as it's generated, multiplied by your unit rate; anything you don't use flows to the grid, usually unpaid. For example, if a kit produces 400 kWh a year and you use 70% of it, that's 280 kWh, worth £70 at 25p per kWh. Output depends heavily on orientation, tilt and shading, so estimate yours with the European Commission's free PVGIS calculator, then divide the kit's price by the yearly saving to get the payback time.",
       },
       {
-        question: "Will balcony solar work on a north-facing or shaded balcony?",
+        question: "Will plug-in solar work on a north-facing or shaded balcony?",
         answer: "It will produce something, but a north-facing or heavily shaded balcony rarely makes it worthwhile; south, south-east or south-west facing gives the best results. Panels hung vertically on a railing produce less than tilted ones, especially in summer when the sun is high. Shade on part of a panel can cut its output sharply, so watch where shadows from balconies above, trees or neighbouring buildings fall during the day before you buy.",
       },
       {
         question: "Plug-in solar with or without a battery?",
-        answer: "Without, for now: the new plug-in rules cover solar-only kits, and batteries connected through a socket aren't included. A battery would mainly help if you're out during the day, but it can cost as much as the panels and stretch the payback period considerably. Start by running the washing machine, dishwasher or other flexible loads when the sun is out, then check your surplus over a few months in your smart meter data. A professionally installed home battery is a separate project.",
+        answer: "Usually without. A battery mainly helps if you're out during the day and your kit produces well above your home's background use, but it can cost as much as the panels and stretch the payback period considerably. Start by running the washing machine, dishwasher or other flexible loads when the sun is out, then check your real surplus over a few months in your smart meter data or with an energy-monitoring smart plug. A professionally installed home battery is a separate project.",
       },
       {
-        question: "How should I mount balcony solar panels safely?",
+        question: "How do I mount plug-in solar panels safely on a balcony?",
         answer: "Use a mounting kit made for your type of railing or wall, because a panel can weigh over 20 kg and acts like a sail in strong wind. Make sure the railing is sound, never leave a panel resting loose over a drop, and check bolts and straps once a year and after storms. Route the cable so it can't be trapped by a door or window. Cleaning is simple: rinse with plain water when dust or bird droppings build up.",
       },
     ],
@@ -515,29 +515,29 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Es legal enchufar un kit solar de balcón en España?",
-        answer: "No está prohibido, pero en España las reglas para los kits enchufables son menos claras que en Alemania, así que lo más seguro es tramitarlo como un autoconsumo. Eso suele implicar que un instalador autorizado emita el certificado de la instalación y que se inscriba en el registro de autoconsumo de tu comunidad autónoma; consulta también a tu distribuidora. Si vives en un piso, la fachada y la barandilla suelen ser elementos comunes: necesitas el permiso de la comunidad de propietarios.",
+        answer: "En España no hay una norma pensada para los kits enchufables, como sí la hay en Alemania, así que lo más seguro es tramitarlo como cualquier instalación de autoconsumo. Eso suele implicar que un instalador autorizado emita el certificado de la instalación y que esta se inscriba en el registro de autoconsumo de tu comunidad autónoma; consulta también a tu distribuidora. Si vives en un piso, la fachada y la barandilla suelen ser elementos comunes: necesitarás el permiso de la comunidad de propietarios.",
       },
       {
         question: "¿Funciona un kit solar de balcón durante un apagón?",
-        answer: "No: el microinversor se desconecta automáticamente en cuanto falla la red, por seguridad de quienes trabajan en ella. Así que, en un apagón como el de abril de 2025, un kit de balcón no da corriente aunque haga sol. Solo los sistemas con batería y función de respaldo (EPS o backup), instalados con un conmutador adecuado, pueden alimentar algunos enchufes sin red. Si lo que buscas es tener luz en un corte, mira estaciones de energía portátiles con su propio panel.",
+        answer: "No: el microinversor se desconecta automáticamente en cuanto falla la red, para proteger a quienes trabajan en ella. Así que, en un apagón como el de abril de 2025, un kit de balcón no da corriente aunque haga sol. Solo los sistemas con batería y función de respaldo (EPS o backup), instalados con un conmutador adecuado, pueden alimentar algunos enchufes sin red. Si lo que buscas es tener luz durante un corte, mira las estaciones de energía portátiles con panel propio.",
       },
       {
-        question: "¿Cuánto se ahorra con un panel solar de balcón?",
-        answer: "Ahorras lo que produces y consumes en el momento, multiplicado por lo que pagas por cada kWh; lo que no consumes se va a la red, normalmente sin compensación. Ejemplo: si el kit produce 600 kWh al año y aprovechas el 70 %, ahorras 420 kWh; a 0,15 €/kWh son unos 63 €. Con la tarifa 2.0TD, parte de la producción coincide con la punta, de 10 a 14 h, cuando el kWh es más caro. Calcula la producción de tu balcón con el simulador gratuito PVGIS de la Comisión Europea.",
+        question: "¿Cuánto se ahorra con un kit solar de balcón?",
+        answer: "Ahorras los kWh que produces y consumes en el momento, multiplicados por lo que pagas por cada kWh; lo que no consumes se va a la red, normalmente sin compensación. Ejemplo: si el kit produce 450 kWh al año y aprovechas el 70 %, ahorras 315 kWh, unos 47 € con un precio de ejemplo de 0,15 €/kWh. Calcula la producción de tu balcón con el simulador gratuito PVGIS de la Comisión Europea y divide el precio del kit entre el ahorro anual: así sabrás en cuántos años lo amortizas.",
       },
       {
         question: "¿Qué potencia de kit solar de balcón me conviene?",
-        answer: "Ajusta la potencia a tu consumo base durante el día, frigorífico, router y aparatos en espera, porque es lo que aprovechará la producción sin regalar excedentes. Si tu consumo base ronda los 150 W, con uno o dos paneles basta; más potencia solo compensa si pones lavadora, lavavajillas o aire acondicionado en horas de sol. En gran parte de España la radiación es alta, así que un panel bien orientado al sur rinde mucho. Puedes ver tu consumo base en Datadis o con un medidor.",
+        answer: "Ajusta la potencia a tu consumo base durante el día (frigorífico, router y aparatos en espera), porque es lo que aprovecha la producción sin regalar excedentes a la red. Si tu consumo base ronda los 150 W, con uno o dos paneles basta; más potencia solo compensa si pones la lavadora, el lavavajillas o el aire acondicionado en las horas de sol. En gran parte de España la radiación es alta, así que un panel bien orientado al sur rinde mucho. Tu consumo base lo ves en Datadis o con un medidor.",
       },
       {
-        question: "¿Cómo se limpia y mantiene un panel solar de balcón?",
-        answer: "Basta con aclararlo con agua y un paño suave cuando se acumulan polvo, polen o barro tras un episodio de calima, sin productos abrasivos ni agua a presión. En zonas secas la suciedad puede restar producción de forma apreciable, así que revisa el panel tras las lluvias de barro. Comprueba una vez al año, y después de rachas de viento fuerte, que soportes y tornillos siguen firmes, porque el panel actúa como una vela. Una caída brusca de producción suele indicar un conector suelto.",
+        question: "¿Cómo se limpia y se mantiene un panel solar de balcón?",
+        answer: "Basta con aclararlo con agua y un paño suave cuando se acumula polvo, polen o el barro que deja la calima, sin productos abrasivos ni agua a presión. En zonas secas la suciedad puede restar bastante producción, así que revisa el panel después de cada lluvia de barro. Una vez al año, y después de rachas de viento fuerte, comprueba que los soportes y los tornillos siguen bien apretados, porque el panel hace de vela. Una caída brusca de producción suele indicar un conector suelto o una sombra nueva.",
       },
     ],
     it: [
       {
         question: "Pannello solare da balcone: serve un permesso in Italia?",
-        answer: "Di solito non serve un titolo edilizio, ma l'impianto va comunicato al distributore di rete prima di collegarlo, in genere con il Modello Unico semplificato. Le regole per i piccoli kit plug-in sono ancora in evoluzione, quindi chiedi conferma al tuo distributore della procedura in vigore e dell'eventuale adeguamento del contatore. In zone vincolate o nei centri storici può servire un'autorizzazione paesaggistica. In condominio informa l'amministratore e, se sei in affitto, chiedi il consenso del proprietario.",
+        answer: "Di solito non serve un titolo edilizio, ma l'impianto va comunicato al distributore di rete prima di collegarlo, in genere con il Modello Unico semplificato. Le regole per i piccoli kit plug & play sono ancora in evoluzione, quindi chiedi al tuo distributore qual è la procedura in vigore e se serve adeguare il contatore. In zone vincolate o nei centri storici può servire un'autorizzazione paesaggistica. In condominio informa l'amministratore e, se sei in affitto, chiedi il consenso del proprietario.",
       },
       {
         question: "Il condominio può vietare il pannello solare sul balcone?",
@@ -548,8 +548,8 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
         answer: "Dipende soprattutto da orientamento e latitudine: al Sud e con esposizione a sud si produce sensibilmente di più che al Nord o su un balcone rivolto a est o a ovest. Per una stima precisa usa il simulatore gratuito PVGIS della Commissione europea, con inclinazione e orientamento reali. Il risparmio è pari ai kWh che consumi mentre il pannello produce, moltiplicati per il prezzo in bolletta: 400 kWh autoconsumati a 0,25 €/kWh valgono 100 € all'anno. Un pannello verticale produce meno di uno inclinato.",
       },
       {
-        question: "Kit solare da balcone con o senza batteria?",
-        answer: "Nella maggior parte dei casi senza: la batteria conviene solo se di giorno sei fuori casa e il pannello produce molto più del tuo consumo di base. Può costare quanto i pannelli e allunga parecchio i tempi di rientro. Prima prova a spostare lavatrice, lavastoviglie e scaldabagno elettrico nelle ore di sole, poi controlla per qualche mese quanto surplus resta davvero, per esempio con un monitor dei consumi. Se il surplus è alto e costante, una batteria dimensionata su quella quantità può avere senso.",
+        question: "Kit fotovoltaico da balcone con o senza batteria?",
+        answer: "Nella maggior parte dei casi senza: la batteria conviene solo se di giorno sei fuori casa e il pannello produce molto più del tuo consumo di base. Può costare quanto i pannelli e allunga parecchio i tempi di rientro dell'investimento. Prima prova a spostare lavatrice, lavastoviglie e scaldabagno elettrico nelle ore di sole, poi controlla per qualche mese quanto surplus resta davvero, per esempio con un misuratore dei consumi. Se il surplus è alto e costante, una batteria dimensionata su quella quantità può avere senso.",
       },
       {
         question: "Come si fissa in sicurezza un pannello solare sulla ringhiera?",
@@ -693,23 +693,23 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     en: [
       {
         question: "Is a home battery worth it without solar panels?",
-        answer: "It can be, if you're on a time-of-use tariff: the battery charges with cheap off-peak electricity overnight and powers your home at peak times instead of the day rate. Work it out: kWh shifted per day × (peak rate − off-peak rate) × 365, minus around 10 % for charging losses. Shifting 8 kWh a day with a 15p gap is about £438 a year, or roughly £394 after losses. Compare that with the installed price divided by the warranty years.",
+        answer: "It can be, if you’re on a time-of-use tariff: the battery charges on cheap off-peak electricity overnight, then powers your home at peak times so you avoid the day rate. Work it out: kWh shifted per day × (peak rate − off-peak rate) × 365, minus around 10% for charging losses. Shifting 8 kWh a day with a 15p gap between the two rates is worth about £438 a year, or roughly £394 after losses. Compare that with the installed price divided by the years of warranty.",
       },
       {
         question: "What size home battery do I need?",
-        answer: "Size it to your evening and overnight use, not your total daily consumption, because that's the part a battery covers. Your supplier's app or smart meter data shows usage by half hour: add up what you use from about 4pm to 7am, for example. If that's 6 kWh, a battery with 6 to 8 kWh of usable capacity is a sensible start. With solar panels, don't buy more than they can refill in winter, and check the power rating in kW too.",
+        answer: "Size it to your evening and overnight use, not your total daily consumption, because that’s the part a battery covers. Your supplier’s app or your smart meter data breaks your usage down by the half hour: add up what you use from about 4pm to 7am, for example. If that comes to 6 kWh, a battery with 6 to 8 kWh of usable capacity is a sensible starting point. With solar panels, don’t buy more capacity than they can refill in winter, and check the power output in kW too.",
       },
       {
         question: "Is there VAT on home batteries in the UK?",
-        answer: "No VAT is charged on installed home batteries in the UK at the moment, including batteries added to existing solar panels or fitted on their own. The zero rate covers supply and installation in homes until 31 March 2027; from 1 April 2027 the rate is due to return to 5 %. A battery you buy online and fit yourself doesn't qualify, because the relief applies when installation is part of the supply. Check that your installer's quote shows 0 % VAT.",
+        answer: "Not at the moment: installed home batteries are zero-rated for VAT in the UK, whether they’re added to existing solar panels or fitted on their own. The zero rate covers supply and installation in homes until 31 March 2027; from 1 April 2027 the rate is due to rise to 5%. A battery you buy online and fit yourself doesn’t qualify, because the relief only applies when the installer supplies and fits it. Check that your installer’s quote shows 0% VAT.",
       },
       {
-        question: "Hybrid inverter or AC-coupled battery?",
-        answer: "If you're fitting solar and a battery together, a hybrid inverter is usually simpler and slightly more efficient; if you already have solar, an AC-coupled battery is the easier retrofit. A hybrid inverter stores solar power without converting it twice, but replacing a working inverter just to add a battery rarely makes sense. An AC-coupled battery has its own inverter and connects to your consumer unit, leaving the existing solar system untouched. Either way, ask whether it can also charge at off-peak rates.",
+        question: "Hybrid inverter or AC-coupled battery: which do I need?",
+        answer: "If you’re fitting solar panels and a battery together, a hybrid inverter is usually simpler and slightly more efficient; if you already have solar, an AC-coupled battery is the easier retrofit. A hybrid inverter stores solar power without converting it twice, but replacing a working inverter just to add a battery rarely makes sense. An AC-coupled battery has its own inverter and connects to your consumer unit, leaving the existing solar system untouched. Either way, check it can also charge from the grid at off-peak rates.",
       },
       {
         question: "Will a home battery keep the lights on in a power cut?",
-        answer: "Only if it has a backup function and has been wired for it; most grid-connected batteries switch off during a power cut, just like solar inverters. Backup setups use a changeover switch that isolates your home from the grid, then power either a few essential circuits or the whole house. Switchover can take a moment, so check this if you rely on medical equipment. Keep a minimum charge reserved for outages in the app.",
+        answer: "Only if it has a backup function and has been wired for it; most grid-connected batteries switch off during a power cut, just as solar inverters do. A backup setup uses a changeover switch to isolate your home from the grid, then powers either a few essential circuits or the whole house. The switchover isn’t always instant, so check this if you rely on medical equipment. In the app, set a minimum charge to keep in reserve for power cuts.",
       },
     ],
     de: [
@@ -737,29 +737,29 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Una batería doméstica da luz durante un apagón?",
-        answer: "Solo si el sistema tiene función de respaldo (backup o EPS) y está instalado para ello: la mayoría de baterías conectadas a red se apagan junto con la red. Un sistema con respaldo usa un conmutador que aísla la casa de la red y alimenta los circuitos esenciales o toda la vivienda, según el montaje. Pregunta al instalador qué circuitos cubre, cuánto tarda en conmutar y si las placas siguen cargando la batería durante el corte. Reserva en la app un porcentaje mínimo para emergencias.",
+        answer: "Solo si el sistema tiene función de respaldo (backup o EPS) y está instalado para ello: la mayoría de las baterías conectadas a la red se desconectan cuando esta cae. Un sistema con respaldo usa un conmutador que aísla la casa de la red y alimenta los circuitos esenciales o toda la vivienda, según el montaje. Pregunta al instalador qué circuitos cubre, cuánto tarda en conmutar y si las placas siguen cargando la batería durante el corte. Y deja reservado en la app un porcentaje mínimo de carga para emergencias.",
       },
       {
         question: "¿Merece la pena una batería si tengo compensación de excedentes?",
-        answer: "Depende de la diferencia entre lo que pagas por un kWh y lo que te compensan por cada kWh vertido: cuanto mayor sea, antes se amortiza la batería. Con la compensación simplificada, además, el descuento no puede superar el coste de la energía del mes, así que en verano parte del excedente se pierde, salvo que tu comercializadora ofrezca batería virtual. Calcula: kWh desplazados al año × (precio de compra − compensación). Con 1.200 kWh y 0,10 € de diferencia ahorras 120 € al año.",
+        answer: "Depende de la diferencia entre lo que pagas por un kWh y lo que te compensan por cada kWh vertido: cuanto mayor sea, antes se amortiza la batería. Además, con la compensación simplificada el descuento no puede superar el coste de la energía del mes, así que en verano parte del excedente se pierde, salvo que tu comercializadora ofrezca batería virtual. La cuenta: kWh que desplazas al año × (precio de compra − compensación). Con 1.200 kWh y 0,10 €/kWh de diferencia, ahorras 120 € al año.",
       },
       {
         question: "¿Qué capacidad de batería necesito para mi casa?",
-        answer: "La que cubra tu consumo de la tarde y la noche, no el consumo total del día, porque es lo que la batería debe suplir con el excedente solar. En Datadis o en el área de clientes de tu distribuidora ves tu consumo hora a hora: suma lo que gastas de 19 h a 9 h, por ejemplo. Si son 5 kWh, una batería de 5 a 6 kWh útiles es razonable. Si usas aire acondicionado por la noche en verano, necesitarás también más potencia de descarga.",
+        answer: "La que cubra tu consumo de la tarde y la noche, no el de todo el día, porque es lo que la batería tiene que suplir con lo que sobra de las placas. En Datadis o en el área de clientes de tu distribuidora ves tu consumo hora a hora: suma, por ejemplo, lo que gastas de 19 a 9 h. Si son 5 kWh, una batería de 5 a 6 kWh útiles es razonable. Si pones el aire acondicionado por la noche en verano, también necesitarás más potencia de descarga.",
       },
       {
         question: "¿Hay que legalizar una batería doméstica?",
-        answer: "Sí, si va conectada a tu instalación de autoconsumo: lo normal es que la instale un instalador autorizado y que la modificación se comunique al registro de autoconsumo de tu comunidad autónoma. El instalador emite el certificado de la instalación eléctrica y suele encargarse del trámite. Pregunta también por ayudas autonómicas o bonificaciones municipales del IBI o del ICIO, que varían según el ayuntamiento. Las estaciones portátiles que se enchufan a una toma, sin conexión a la instalación, no requieren estos trámites.",
+        answer: "Sí, si va conectada a tu instalación de autoconsumo: lo normal es que la monte un instalador autorizado y que la modificación se comunique al registro de autoconsumo de tu comunidad autónoma. El instalador emite el certificado de la instalación eléctrica y suele encargarse del trámite. Pregunta también por ayudas autonómicas o bonificaciones municipales del IBI o del ICIO, que varían según el ayuntamiento. Las estaciones de energía portátiles que se enchufan a una toma, sin conectarse a la instalación, no necesitan estos trámites.",
       },
       {
         question: "¿Cuántos años dura una batería de litio para placas solares?",
-        answer: "Las baterías de litio ferrofosfato (LFP) actuales suelen tener una garantía de unos diez años o varios miles de ciclos, y pierden capacidad poco a poco en lugar de fallar de golpe. La garantía suele asegurar una capacidad mínima al final, por ejemplo el 70 %. El calor es su peor enemigo: evita instalarla en un trastero o una buhardilla que se recalienten en verano y busca un lugar sombreado y ventilado. Mantén el firmware actualizado y vigila las alarmas de temperatura en la app.",
+        answer: "Las baterías de fosfato de hierro y litio (LFP) actuales suelen estar garantizadas unos diez años o varios miles de ciclos, y pierden capacidad poco a poco en lugar de fallar de golpe. La garantía suele asegurar que al final conserven una capacidad mínima, por ejemplo el 70 %. El calor es su peor enemigo: evita instalarlas en un trastero o una buhardilla que se recalienten en verano y busca un sitio a la sombra y ventilado. Mantén el firmware actualizado y vigila las alarmas de temperatura en la app.",
       },
     ],
     it: [
       {
         question: "Le batterie di accumulo rientrano nelle detrazioni nel 2026?",
-        answer: "Sì, se collegate a un impianto fotovoltaico: nel 2026 rientrano nel bonus ristrutturazioni, con detrazione del 50 % sull'abitazione principale e del 36 % sulle altre, ripartita in dieci anni. La batteria acquistata insieme ai pannelli è il caso più semplice; se la aggiungi a un impianto esistente, verifica le condizioni con il tuo commercialista o con le guide dell'Agenzia delle Entrate. Paga con bonifico parlante e conserva fatture e dichiarazione di conformità. Dal 2027 le aliquote previste scendono.",
+        answer: "Sì, se collegate a un impianto fotovoltaico: nel 2026 rientrano nel bonus ristrutturazioni, con detrazione del 50% sull'abitazione principale e del 36% sulle altre, ripartita in dieci anni. La batteria acquistata insieme ai pannelli è il caso più semplice; se la aggiungi a un impianto esistente, verifica le condizioni con il tuo commercialista o con le guide dell'Agenzia delle Entrate. Paga con bonifico parlante e conserva fatture e dichiarazione di conformità. Dal 2027 le aliquote previste scendono.",
       },
       {
         question: "Conviene la batteria se l'energia immessa in rete è pagata poco?",
@@ -767,7 +767,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Quanti kWh di batteria servono per una casa?",
-        answer: "Quanti ne consumi dalla sera alla mattina, non il consumo dell'intera giornata, perché è quella la parte che la batteria copre con il surplus solare. Nell'area clienti del distributore trovi i consumi orari: se dalle 19 alle 8 consumi circa 5 kWh, una batteria da 5-6 kWh utili è un buon punto di partenza. Più grande serve a poco se d'inverno i pannelli non la riempiono. Controlla anche la potenza di scarica, che deve coprire i carichi serali principali.",
+        answer: "Quanti ne consumi dalla sera alla mattina, non il consumo dell'intera giornata, perché è quella la parte che la batteria copre con il surplus solare. Nell'area clienti del distributore trovi i consumi orari: se dalle 19 alle 8 consumi circa 5 kWh, una batteria da 5-6 kWh utili è un buon punto di partenza. Una batteria più grande serve a poco se d'inverno i pannelli non riescono a caricarla. Controlla anche la potenza di scarica, che deve coprire i carichi serali principali.",
       },
       {
         question: "Meglio spostare i consumi nelle ore di sole o comprare una batteria?",
@@ -775,7 +775,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Quanto dura una batteria di accumulo e dove va installata?",
-        answer: "Le batterie al litio ferro fosfato (LFP) attuali hanno spesso dieci anni di garanzia o diverse migliaia di cicli, e perdono capacità gradualmente invece di guastarsi all'improvviso. La garanzia di solito assicura una capacità residua minima, per esempio il 70 %. Il caldo accelera l'invecchiamento: evita sottotetti e locali esposti al sole d'estate e preferisci un garage o un locale tecnico fresco e aerato. L'installazione va fatta da un installatore abilitato, e conviene avvisare l'assicurazione della casa.",
+        answer: "Le batterie al litio ferro fosfato (LFP) attuali hanno spesso dieci anni di garanzia o diverse migliaia di cicli, e perdono capacità gradualmente invece di guastarsi all'improvviso. La garanzia di solito assicura una capacità residua minima, per esempio il 70%. Il caldo accelera l'invecchiamento: evita sottotetti e locali esposti al sole d'estate e preferisci un garage o un locale tecnico fresco e aerato. Deve installarla un tecnico abilitato, e conviene avvisare l'assicurazione della casa.",
       },
     ],
     nl: [
@@ -915,23 +915,23 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     en: [
       {
         question: "Tapo or Govee smart bulbs: which should I choose?",
-        answer: "Choose Govee if you mainly want colour effects, light strips and TV backlighting, and Tapo if you want simple, affordable bulbs managed alongside Tapo plugs and cameras. Both are Wi-Fi brands that work without a hub and connect to Alexa and Google Assistant, and some models of each support Matter, which also opens up Apple Home. Wi-Fi bulbs are fine for a few rooms; for dozens of lights, a Zigbee or Thread system is usually more reliable.",
+        answer: "Choose Govee if you mainly want colour effects, light strips and TV backlighting, and Tapo if you want simple, affordable bulbs that share an app with Tapo plugs and cameras. Both are Wi-Fi brands that work without a hub and connect to Alexa and Google Assistant, and some models from each support Matter, which also opens up Apple Home. Wi-Fi bulbs are fine for a few rooms; for dozens of lights, a Zigbee or Thread system is usually more reliable.",
       },
       {
         question: "B22 or E27: which smart bulb fitting do I need?",
-        answer: "Check the old bulb: most UK ceiling pendants and lamps use B22 bayonet caps, which push in and twist, while E27 and E14 are screw fittings and GU10 is used in spotlights. Many smart bulbs come in E27 first, so the B22 version can be harder to find; avoid adaptors where possible, as they add length and can leave a bulb sticking out of the shade. Compare brightness in lumens rather than watts: around 800 lumens replaces an old 60 W bulb.",
+        answer: "Check the old bulb: most UK ceiling pendants and lamps use B22 bayonet caps, which push in and twist, while E27 and E14 are screw fittings and spotlights use GU10. Many smart bulbs come out in E27 first, so the B22 version can be harder to find; avoid adaptors where possible, as they add length and can leave the bulb sticking out of the shade. Compare brightness in lumens rather than watts: around 800 lumens replaces an old 60 W bulb.",
       },
       {
         question: "How much electricity does a smart bulb use on standby?",
-        answer: "No more than 0.5 W, the limit set by ecodesign rules for connected light sources, which works out at about 4.4 kWh a year per bulb. At an example rate of 25p per kWh, that's at most around £1.10 a year per bulb. When it's on, a smart LED uses the same as a regular LED of equal brightness: a 9 W bulb lit for four hours a day uses about 13 kWh a year. Switching off at the wall saves standby power but makes the bulb unreachable.",
+        answer: "No more than 0.5 W, the limit set by ecodesign rules for connected light sources, which works out at about 4.4 kWh a year per bulb. At an example rate of 25p per kWh, that’s at most around £1.10 a year per bulb. When it’s on, a smart LED uses as much as a standard LED of the same brightness: a 9 W bulb lit for four hours a day uses about 13 kWh a year. Switching off at the wall saves the standby power, but the bulb then stops responding to the app.",
       },
       {
-        question: "Do smart bulbs need an app account or cloud connection?",
-        answer: "Most Wi-Fi bulbs need the maker's app and a cloud account for setup and remote control, while Zigbee, Thread and Matter systems can run locally inside your home. If privacy matters, look for Matter support or a hub that works locally, such as Philips Hue or a Home Assistant setup, so lights still respond if the internet goes down. Check what data the app collects and switch off optional usage sharing. Keep firmware updated, since updates patch security flaws.",
+        question: "Do smart bulbs need an account or a cloud connection?",
+        answer: "Most Wi-Fi bulbs need the maker’s app and a cloud account for setup and remote control, while Zigbee, Thread and Matter systems can run locally, inside your home network. If privacy matters, look for Matter support or a hub that works locally, such as Philips Hue or a Home Assistant setup, so your lights still respond if the internet goes down. Check what data the app collects and turn off any optional data sharing. Keep the firmware up to date, as updates fix security flaws.",
       },
       {
-        question: "Why do my smart bulbs keep becoming unresponsive?",
-        answer: "Most often because they've been switched off at the wall, the Wi-Fi signal is weak, or the router has changed. Smart bulbs need constant power, so fit a wireless switch or a smart switch rather than using the light switch. Wi-Fi bulbs usually need the 2.4 GHz band, and Zigbee bulbs benefit from a mains-powered device between the hub and the bulb. Bulbs in enclosed fittings can also overheat, so check the packaging says they suit enclosed luminaires.",
+        question: "Why do my smart bulbs keep going offline?",
+        answer: "Most often because they’ve been switched off at the wall, the Wi-Fi signal is weak or you’ve changed your router. Smart bulbs need power all the time, so leave the wall switch on and use a wireless remote switch instead. Wi-Fi bulbs usually need the 2.4 GHz band, and Zigbee bulbs work better with a mains-powered device between the hub and the bulb. Bulbs inside enclosed shades can also overheat, so check the packaging says they’re suitable for enclosed fittings.",
       },
     ],
     de: [
@@ -959,37 +959,37 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Bombillas inteligentes wifi o con hub Zigbee?",
-        answer: "Para pocas bombillas, wifi: se configuran con el móvil y no necesitan nada más; si vas a poner muchas, un hub Zigbee o Matter sobre Thread será más estable. Cada bombilla wifi es un dispositivo más en tu router, y algunos routers de operadora se resienten con muchos aparatos conectados. Zigbee crea su propia red en malla, funciona en local y responde más rápido. Si quieres usarlas con Alexa, Google Home y Apple Casa a la vez, busca el logo Matter en la caja.",
+        answer: "Para pocas bombillas, wifi: se configuran con el móvil y no necesitan nada más; si vas a poner muchas, un hub Zigbee o Matter sobre Thread será más estable. Cada bombilla wifi es un dispositivo más en tu router, y algunos routers de operadora se resienten con muchos aparatos conectados. Zigbee crea su propia red en malla, funciona en local y responde más rápido. Si quieres usarlas a la vez con Alexa, Google Home y la app Casa de Apple, busca el logotipo de Matter en la caja.",
       },
       {
         question: "¿Tapo, Govee o Philips Hue: qué marca de bombillas inteligentes elegir?",
-        answer: "Elige Govee si buscas efectos de color, tiras LED y retroiluminación de la tele, Tapo si quieres bombillas wifi sencillas y económicas, y Philips Hue si quieres el ecosistema más completo con hub. Tapo y Govee funcionan por wifi sin hub y se conectan con Alexa y Google; Hue usa Zigbee con su puente, aunque también admite Bluetooth para empezar. Fíjate en el casquillo (E27, E14 o GU10) y en los lúmenes: unos 800 lm equivalen a una bombilla antigua de 60 W.",
+        answer: "Elige Govee si buscas efectos de color, tiras LED y retroiluminación para la tele; Tapo, si quieres bombillas wifi sencillas y económicas, y Philips Hue, si prefieres el ecosistema más completo, con hub propio. Tapo y Govee funcionan por wifi sin hub y son compatibles con Alexa y Google Home; Hue usa Zigbee con su pasarela, el Hue Bridge, aunque también admite Bluetooth para empezar. Fíjate en el casquillo (E27, E14 o GU10) y en los lúmenes: unos 800 lm equivalen a una bombilla incandescente de 60 W.",
       },
       {
         question: "¿Cuánto consume una bombilla inteligente en espera?",
-        answer: "Como máximo 0,5 W, el límite que fija el reglamento europeo de diseño ecológico para fuentes de luz conectadas, es decir, unos 4,4 kWh al año por bombilla. A 0,15 €/kWh son menos de 0,70 € al año por bombilla; con veinte bombillas, unos 13 €. Encendida, gasta lo mismo que una LED normal de igual brillo: una de 9 W cuatro horas al día consume unos 13 kWh al año. Si la apagas desde el interruptor no consume en espera, pero deja de responder a la app.",
+        answer: "Como máximo 0,5 W, que es el límite que fija el reglamento europeo de diseño ecológico para las fuentes de luz conectadas: unos 4,4 kWh al año por bombilla. Con un precio de ejemplo de 0,15 €/kWh, son menos de 0,70 € al año por bombilla; con veinte bombillas, unos 13 €. Encendida, gasta lo mismo que una LED normal de igual brillo: una de 9 W cuatro horas al día consume unos 13 kWh al año. Si la apagas desde el interruptor, no consume en espera, pero deja de responder a la app.",
       },
       {
         question: "¿Se pueden usar bombillas inteligentes con un regulador o un interruptor normal?",
-        answer: "Con interruptor sí, pero debe quedarse encendido; con un regulador de intensidad clásico, no, porque la bombilla puede parpadear, zumbar o estropearse. Si apagas desde la pared, la bombilla se queda sin corriente y no responde a la app ni a Alexa. Para mantener un gesto en la pared, usa un pulsador inalámbrico de la misma marca o un interruptor inteligente, pero no ambos en el mismo punto de luz. Si tienes un regulador instalado, pide a un electricista que lo cambie por un mecanismo normal.",
+        answer: "Con un interruptor normal sí, siempre que lo dejes encendido; con un regulador de intensidad clásico, no, porque la bombilla puede parpadear, zumbar o estropearse. Si apagas desde la pared, la bombilla se queda sin corriente y no responde a la app ni a Alexa. Si quieres seguir encendiendo desde la pared, usa un pulsador inalámbrico de la misma marca o un interruptor inteligente, pero no los dos en el mismo punto de luz. Si tienes un regulador instalado, pide a un electricista que lo cambie por un mecanismo normal.",
       },
       {
         question: "¿Por qué mi bombilla inteligente se desconecta de la app?",
-        answer: "Casi siempre por un corte de corriente desde el interruptor, una señal wifi débil o un cambio de router o de contraseña. La mayoría solo funciona en la banda de 2,4 GHz: si tu router une bandas en una sola red, crea una red de 2,4 GHz para configurarlas. En Zigbee, un enchufe inteligente entre el hub y la bombilla refuerza la malla. Para reiniciarla, casi todas las marcas piden encender y apagar varias veces seguidas: la secuencia exacta está en las instrucciones.",
+        answer: "Casi siempre porque alguien la ha apagado desde el interruptor, porque la señal wifi es débil o porque has cambiado de router o de contraseña. La mayoría solo funciona en la banda de 2,4 GHz: si tu router junta las dos bandas en una sola red, crea una red solo de 2,4 GHz para configurarlas. En Zigbee, un enchufe inteligente entre el hub y la bombilla refuerza la malla. Para restablecerla, casi todas las marcas piden encenderla y apagarla varias veces seguidas: la secuencia exacta viene en las instrucciones.",
       },
     ],
     it: [
       {
         question: "Lampadine smart con Alexa: serve un hub?",
-        answer: "No, le lampadine wifi si collegano ad Alexa senza hub; un hub Zigbee diventa utile quando le lampadine sono tante o vuoi automazioni che funzionano anche senza internet. Alcuni Echo hanno un hub Zigbee integrato e possono collegare direttamente lampadine Zigbee, comprese molte Philips Hue e IKEA. Se in casa usi anche Google Home o Apple Casa, scegli lampadine con logo Matter, compatibili con tutti gli assistenti. Le Hue funzionano anche via Bluetooth senza bridge, ma con meno funzioni.",
+        answer: "No, le lampadine Wi-Fi si collegano ad Alexa senza hub; un hub Zigbee diventa utile quando le lampadine sono tante o vuoi automazioni che funzionino anche senza internet. Alcuni Echo hanno un hub Zigbee integrato e possono collegare direttamente lampadine Zigbee, comprese molte Philips Hue e IKEA. Se in casa usi anche Google Home o Apple Casa, scegli lampadine con logo Matter, compatibili con tutti gli assistenti. Le Hue funzionano anche via Bluetooth senza bridge, ma con meno funzioni.",
       },
       {
         question: "Quanto consuma una lampadina smart in standby?",
         answer: "Al massimo 0,5 W, il limite fissato dal regolamento europeo sulla progettazione ecocompatibile per le sorgenti luminose connesse, cioè circa 4,4 kWh all'anno per lampadina. A 0,25 €/kWh fanno circa 1,10 € all'anno a lampadina; con venti lampadine si arriva a una ventina di euro. Accesa, consuma come un LED normale della stessa luminosità: una da 9 W accesa quattro ore al giorno consuma circa 13 kWh all'anno. Spegnerla dall'interruttore azzera lo standby, ma la rende irraggiungibile dall'app.",
       },
       {
-        question: "Lampadine smart wifi o Zigbee: cosa conviene?",
-        answer: "Wifi se ti servono poche lampadine e vuoi spendere poco, Zigbee o Matter su Thread se pensi di riempire la casa di luci smart. Le lampadine wifi si configurano dall'app senza accessori, ma ognuna occupa il router: con molti dispositivi alcuni modem degli operatori iniziano a perdere colpi. Zigbee crea una rete separata a maglie che funziona in locale e risponde più in fretta. Matter, sostenuto da Amazon, Google, Apple e Samsung, permette di non legarti a una sola marca.",
+        question: "Lampadine smart Wi-Fi o Zigbee: cosa conviene?",
+        answer: "Wi-Fi se ti servono poche lampadine e vuoi spendere poco, Zigbee o Matter su Thread se pensi di riempire la casa di luci smart. Le lampadine Wi-Fi si configurano dall'app senza accessori, ma ognuna occupa una connessione del router: con molti dispositivi alcuni modem degli operatori iniziano a perdere colpi. Zigbee crea una rete separata a maglie che funziona in locale e risponde più in fretta. Matter, sostenuto da Amazon, Google, Apple e Samsung, ti permette di non legarti a una sola marca.",
       },
       {
         question: "Si possono usare le lampadine smart con il varialuce o il deviatore?",
@@ -997,7 +997,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Perché la lampadina smart si disconnette o non risponde?",
-        answer: "Di solito perché è stata spenta dall'interruttore, il segnale wifi è debole o hai cambiato router o password. Quasi tutte usano solo la banda a 2,4 GHz: se il modem unisce le bande, attiva una rete separata a 2,4 GHz per la configurazione. Con Zigbee, una presa smart tra hub e lampadina rinforza la rete. Per il reset la maggior parte dei marchi chiede di accendere e spegnere più volte di seguito: la sequenza giusta è nelle istruzioni.",
+        answer: "Di solito perché è stata spenta dall'interruttore, il segnale Wi-Fi è debole o hai cambiato router o password. Quasi tutte usano solo la banda a 2,4 GHz: se il modem unisce le bande, attiva una rete separata a 2,4 GHz per la configurazione. Con Zigbee, una presa smart tra hub e lampadina rinforza la rete. Per il reset la maggior parte dei marchi chiede di accendere e spegnere più volte di seguito: la sequenza giusta è nelle istruzioni.",
       },
     ],
     nl: [
@@ -1137,23 +1137,23 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     en: [
       {
         question: "Can I fit a smart light switch without a neutral wire?",
-        answer: "Yes, many smart switches are made for UK homes without a neutral at the switch, which is common in older wiring, but they can struggle with low-wattage LED bulbs. No-neutral switches draw a tiny current through the bulb to power themselves, which can make LEDs flicker or glow when off; most come with a small bypass or state a minimum load. With the power off, look behind the switch plate: a neutral is usually a blue or older black wire. If there's only a switched pair, buy a no-neutral model.",
+        answer: "Yes, many smart switches are made for UK homes without a neutral at the switch, which is common, especially in older wiring, but they can struggle with low-wattage LED bulbs. No-neutral switches draw a tiny current through the bulb to power themselves, which can make LEDs flicker or glow when off; most come with a small bypass or list a minimum load. With the power off, look behind the switch plate, but don’t assume a blue or black wire is a neutral: in a typical switch cable, it’s the switched live. If there’s no separate neutral, buy a no-neutral model.",
       },
       {
         question: "Will a smart switch fit in my existing back box?",
-        answer: "Not always: smart switches are deeper than standard ones, and many need a 35 mm back box rather than the shallow 16 or 25 mm boxes found in many UK homes. Measure the depth with the faceplate off before buying, and check the switch's stated minimum. Fitting a deeper box in plasterboard is straightforward, but in a solid wall it means chasing out more brick, which is a bigger job. Metal back boxes and metal faceplates can also weaken wireless signals.",
+        answer: "Not always: smart switches are deeper than standard ones, and many need a 35 mm back box rather than the shallow 16 or 25 mm boxes found in many UK homes. Measure the depth with the faceplate off before buying, and check the minimum depth the switch needs. Swapping to a deeper box in a plasterboard wall is straightforward, but in a solid wall it means chasing out more brick or block, which is a bigger job. Metal back boxes and metal faceplates can also weaken wireless signals.",
       },
       {
         question: "Do I need an electrician to install a smart switch in the UK?",
-        answer: "Not necessarily: in England, replacing a light switch is not notifiable work under Part P, so a competent person can do it, but the work must still meet the wiring regulations. Turn off the lighting circuit at the consumer unit and confirm it's dead with a proper voltage indicator, not just by flicking the light. Two-way switching, a missing earth or unclear wiring are good reasons to call a registered electrician. In a rented home, ask your landlord first.",
+        answer: "Not necessarily: in England, replacing a light switch isn’t notifiable work under Part P, so you can do it yourself if you’re competent, but the work must still meet the wiring regulations. Turn off the lighting circuit at the consumer unit and confirm it’s dead with a proper voltage indicator, not just by checking the light won’t come on. Two-way switching, a missing earth or unclear wiring are all good reasons to call a registered electrician. In a rented home, ask your landlord first.",
       },
       {
         question: "Smart switch or smart bulbs: which is better?",
-        answer: "Choose smart switches when a room has several bulbs or spotlights on one circuit, and smart bulbs when you want colour or tunable white in a lamp or single pendant. A switch makes the whole circuit smart for the price of one device, keeps working like a normal switch for guests, and lets you use any compatible bulbs. Smart bulbs need the wall switch left on, but give dimming and colour without touching the wiring. Don't combine both on the same light.",
+        answer: "Choose smart switches when a room has several bulbs or spotlights on one circuit, and smart bulbs when you want colour or tunable white in a lamp or single pendant. A switch makes the whole circuit smart for the price of one device, keeps working like a normal switch for guests, and lets you use any compatible bulbs. Smart bulbs need the wall switch left on, but give dimming and colour without touching the wiring. Don’t combine both on the same light.",
       },
       {
         question: "Why does my smart switch make LED lights flicker or hum?",
-        answer: "Usually because the LEDs draw less than the switch's minimum load or don't suit its dimmer, which is especially common with no-neutral switches. Check the switch's minimum load against the bulbs' total wattage: five 5 W LEDs only make 25 W. Fitting the bypass supplied by the manufacturer, adding another bulb or choosing bulbs marked as dimmable usually solves it. If the switch dims, set the minimum brightness in the app and pick the right dimming mode, leading or trailing edge.",
+        answer: "Usually because the LEDs draw less than the switch’s minimum load or don’t suit its dimmer, which is especially common with no-neutral switches. Check the switch’s minimum load against the bulbs’ total wattage: five 5 W LEDs add up to only 25 W. Fitting the bypass supplied by the manufacturer, adding another bulb or choosing bulbs marked as dimmable usually solves it. If it’s a dimmer switch, set the minimum brightness in the app and choose the right dimming mode, leading or trailing edge.",
       },
     ],
     de: [
@@ -1181,23 +1181,23 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Hay interruptores inteligentes sin neutro?",
-        answer: "Sí, existen interruptores y módulos sin neutro, pero funcionan peor con bombillas LED de poca potencia, que pueden parpadear o quedarse encendidas tenuemente. Sin neutro, el interruptor se alimenta con una pequeña corriente que pasa por la lámpara; el condensador o bypass que suele incluir el fabricante, colocado en la lámpara, lo soluciona. En muchas viviendas antiguas solo llegan a la caja del interruptor la fase y el retorno. Antes de comprar, comprueba con la luz cortada si hay un cable azul en la caja.",
+        answer: "Sí, existen interruptores y módulos sin neutro, pero funcionan peor con bombillas LED de poca potencia, que pueden parpadear o quedarse con un ligero resplandor. Sin neutro, el interruptor se alimenta con una pequeña corriente que pasa por la lámpara; el condensador o bypass que suele incluir el fabricante, instalado en la lámpara, lo soluciona. En muchas viviendas antiguas solo llegan a la caja del interruptor la fase y el retorno. Antes de comprar, comprueba con la corriente cortada si hay un cable azul en la caja.",
       },
       {
         question: "¿Módulo detrás del mecanismo o interruptor inteligente completo?",
-        answer: "El módulo es la opción más discreta: se esconde detrás de tu mecanismo actual; el interruptor completo sustituye el mecanismo y cambia el aspecto de la pared. Para el módulo, la caja debe tener fondo suficiente para alojarlo junto con los cables. Elige uno con entrada para pulsador o interruptor y comprueba que admite conmutadas si enciendes la luz desde dos puntos. Muchas series de marcas como Simon, Niessen o Schneider tienen versiones conectadas que mantienen el diseño del resto de la casa.",
+        answer: "El módulo es la opción más discreta, porque se esconde detrás de tu mecanismo actual; el interruptor completo sustituye el mecanismo y cambia el aspecto de la pared. Eso sí, la caja tiene que ser lo bastante profunda para que quepan el módulo y los cables. Elige uno con entrada para pulsador o interruptor y comprueba que sirve para circuitos conmutados si enciendes la luz desde dos puntos. Muchas series de marcas como Simon, Niessen o Schneider tienen versiones conectadas a juego con el resto de mecanismos de la casa.",
       },
       {
         question: "¿Puedo cambiar yo mismo un interruptor por uno inteligente?",
-        answer: "Puedes, si sabes lo que haces y cortas el circuito en el cuadro; si no, encárgalo a un instalador autorizado, sobre todo si hay que modificar la instalación. Antes de tocar los cables, comprueba con un detector que no hay tensión y haz una foto del cableado original. Identifica fase, neutro y retorno, y respeta el esquema del fabricante. En un piso de alquiler, pide permiso al propietario y guarda el mecanismo antiguo para reponerlo cuando te vayas.",
+        answer: "Puedes, si sabes lo que haces y cortas el circuito en el cuadro; si no, encárgaselo a un instalador autorizado, sobre todo si hay que modificar la instalación. Antes de tocar los cables, comprueba con un detector que no hay tensión y haz una foto del cableado original. Identifica fase, neutro y retorno, y respeta el esquema del fabricante. En un piso de alquiler, pide permiso al casero y guarda el mecanismo antiguo para volver a ponerlo cuando te vayas.",
       },
       {
         question: "¿Cuánto consume un interruptor inteligente en reposo?",
-        answer: "Normalmente menos de 1 W, es decir, unos pocos kWh al año: 0,5 W todo el día suman unos 4,4 kWh anuales. Con diez interruptores y un precio de 0,15 €/kWh, son unos 6,60 € al año. Los modelos Zigbee o Thread suelen consumir menos que los wifi. A cambio, temporizadores y escenas apagan las luces olvidadas, lo que puede compensar ese pequeño gasto.",
+        answer: "Normalmente menos de 1 W, es decir, unos pocos kWh al año: 0,5 W las 24 horas suman unos 4,4 kWh anuales. Con diez interruptores y un precio de ejemplo de 0,15 €/kWh, son unos 6,60 € al año. Los modelos Zigbee o Thread suelen consumir menos que los wifi. En cambio, los temporizadores y las escenas apagan las luces que se quedan encendidas, y eso puede compensar ese pequeño gasto.",
       },
       {
         question: "¿Por qué parpadean las luces LED con mi interruptor inteligente?",
-        answer: "Casi siempre porque es un modelo sin neutro y la corriente que lo alimenta pasa por las LED, que se encienden levemente o parpadean cuando deberían estar apagadas. Instala el condensador o bypass del fabricante en la lámpara, cambia a bombillas regulables de algo más de potencia o, si hay neutro en la caja, usa un modelo con neutro. Si zumban al regular la intensidad, la bombilla no es regulable o el modo de regulación no es el adecuado: cámbialo en la app.",
+        answer: "Casi siempre porque es un modelo sin neutro y la corriente que lo alimenta pasa por las LED, que brillan un poco o parpadean cuando deberían estar apagadas. Instala en la lámpara el condensador o bypass del fabricante, pon bombillas regulables de algo más de potencia o, si hay neutro en la caja, usa un modelo con neutro. Si zumban al regular la intensidad, la bombilla no es regulable o el modo de regulación no es el adecuado: cámbialo en la app.",
       },
     ],
     it: [
@@ -1207,7 +1207,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Relè dietro il frutto o serie smart completa?",
-        answer: "Il relè dietro il frutto è la soluzione più economica e invisibile, perché mantieni i tuoi interruttori; la serie smart completa cambia frutti e placche. Le serie connesse dei grandi marchi italiani, come BTicino Living Now o Vimar View Wireless, hanno un design coordinato e gestiscono deviatori e invertitori con comandi senza fili. Per il relè serve spazio nella scatola 503: con molti fili può essere stretto, e conviene scegliere modelli compatti o una scatola più profonda.",
+        answer: "Il relè dietro il frutto è la soluzione più economica e invisibile, perché mantieni i tuoi interruttori; la serie smart completa cambia frutti e placche. Le serie smart dei grandi marchi italiani, come BTicino Living Now o Vimar View Wireless, hanno un design coordinato e gestiscono deviatori e invertitori con comandi senza fili. Per il relè serve spazio nella scatola 503: con molti fili lo spazio è poco, e conviene scegliere modelli compatti o una scatola più profonda.",
       },
       {
         question: "Serve un elettricista per montare un interruttore smart?",
@@ -1215,7 +1215,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Quanto consuma un interruttore smart in standby?",
-        answer: "In genere meno di 1 W, cioè pochi kWh all'anno: 0,5 W accesi giorno e notte fanno circa 4,4 kWh. Con dieci interruttori e 0,25 €/kWh si spendono circa 11 € all'anno. I modelli Zigbee o Thread consumano spesso meno di quelli wifi. In cambio, timer e scenari spengono le luci dimenticate accese, e questo può compensare il piccolo consumo.",
+        answer: "In genere meno di 1 W, cioè pochi kWh all'anno: 0,5 W accesi giorno e notte fanno circa 4,4 kWh. Con dieci interruttori e 0,25 €/kWh si spendono circa 11 € all'anno. I modelli Zigbee o Thread consumano spesso meno di quelli Wi-Fi. In cambio, timer e scenari spengono le luci dimenticate accese, e questo può compensare il piccolo consumo.",
       },
       {
         question: "Perché le luci LED tremolano con l'interruttore smart?",

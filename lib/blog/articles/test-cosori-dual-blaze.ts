@@ -14,7 +14,7 @@ export const article: BlogArticle = {
       alt: {
         fr: 'Airfryer noir posé sur un plan de travail de cuisine',
         en: 'Black air fryer on a kitchen worktop',
-        de: 'Schwarze Heißluftfritteuse auf einer Küchenarbeitsplatte',
+        de: 'Schwarzer Airfryer auf einer Küchenarbeitsplatte',
         es: 'Freidora de aire negra sobre una encimera de cocina',
         it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
         nl: 'Zwarte airfryer op een aanrecht in de keuken',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Cosori Dual Blaze Smart 6,4 L : avis complet 2026',
-    en: 'Cosori Dual Blaze Smart 6.4L Review 2026: Honest Verdict',
+    en: 'Cosori Dual Blaze Smart 6.4L Review 2026: Is It Worth It?',
     de: 'Cosori Dual Blaze Smart 6,4 L: Erfahrungen und Bewertung 2026',
-    es: 'Cosori Dual Blaze Smart 6,4 L: opinión completa 2026',
-    it: 'Cosori Dual Blaze Smart 6,4 L: recensione completa 2026',
-    nl: 'Cosori Dual Blaze Smart 6,4 L: review en eindoordeel 2026',
+    es: 'Cosori Dual Blaze Smart 6,4 L: opinión y análisis 2026',
+    it: 'Cosori Dual Blaze Smart 6,4 L: recensione e opinioni 2026',
+    nl: 'Cosori Dual Blaze Smart 6,4 L: volledige review 2026',
     pl: 'Cosori Dual Blaze Smart 6,4 l: opinie i analiza 2026',
     sv: 'Cosori Dual Blaze Smart 6.4L: recension och omdöme 2026',
     us: 'Cosori Dual Blaze Smart 6.4L Review (2026): Our Verdict',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Notre avis sur le Cosori Dual Blaze Smart 6,4 L : double résistance haut et bas, application VeSync, 12 programmes et cuisson sans secouage. Forces, limites et alternatives, d’après les caractéristiques du fabricant et les retours d’acheteurs.',
-    en: 'Our review of the Cosori Dual Blaze Smart 6.4L: top and bottom heating, VeSync app, 12 presets and no-shake cooking. Strengths, limits and alternatives, based on manufacturer specs and buyer feedback.',
+    en: 'Our review of the Cosori Dual Blaze Smart 6.4L: top and bottom heating, VeSync app, 12 presets and no-shake cooking. Pros, cons and alternatives, based on manufacturer specs and buyer feedback.',
     de: 'Unsere Bewertung der Cosori Dual Blaze Smart 6,4 L: Ober- und Unterhitze, VeSync-App, 12 Programme und Garen ohne Schütteln. Stärken, Grenzen und Alternativen auf Basis von Herstellerangaben und Käufererfahrungen.',
-    es: 'Nuestra opinión sobre la Cosori Dual Blaze Smart 6,4 L: calor superior e inferior, app VeSync, 12 programas y cocción sin agitar. Ventajas, límites y alternativas, según las especificaciones del fabricante y las valoraciones de compradores.',
-    it: 'La nostra recensione della Cosori Dual Blaze Smart 6,4 L: calore dall’alto e dal basso, app VeSync, 12 programmi e cottura senza scuotere. Pregi, limiti e alternative, in base alle specifiche del produttore e ai pareri degli acquirenti.',
-    nl: 'Onze review van de Cosori Dual Blaze Smart 6,4 L: boven- en onderwarmte, VeSync-app, 12 programma’s en bereiden zonder schudden. Sterke punten, beperkingen en alternatieven, op basis van fabrieksspecificaties en kopersbeoordelingen.',
+    es: 'Nuestra opinión sobre la Cosori Dual Blaze Smart 6,4 L: doble resistencia arriba y abajo, app VeSync, 12 programas y cocción sin agitar. Puntos fuertes, puntos débiles y alternativas, según las especificaciones del fabricante y las opiniones de compradores.',
+    it: 'La nostra recensione della Cosori Dual Blaze Smart 6,4 L: doppia resistenza sopra e sotto, app VeSync, 12 programmi e cottura senza bisogno di scuotere il cestello. Punti di forza, limiti e alternative, in base ai dati del produttore e alle recensioni degli acquirenti.',
+    nl: 'Onze review van de Cosori Dual Blaze Smart 6,4 L: boven- en onderwarmte, VeSync-app, 12 programma’s en bakken zonder schudden. Sterke punten, minpunten en alternatieven, op basis van fabrieksspecificaties en kopersreviews.',
     pl: 'Nasza opinia o frytkownicy Cosori Dual Blaze Smart 6,4 l: dwie grzałki (górna i dolna), aplikacja VeSync, 12 programów i smażenie bez potrząsania. Zalety, ograniczenia i alternatywy – na podstawie danych producenta i opinii kupujących.',
     sv: 'Vårt omdöme om Cosori Dual Blaze Smart 6.4L: värmeelement både upptill och nedtill, appen VeSync, 12 program och tillagning utan att du behöver skaka korgen. Styrkor, svagheter och alternativ, utifrån tillverkarens produktblad och köparomdömen.',
     us: 'Our review of the Cosori Dual Blaze Smart 6.4L: top and bottom heating, the VeSync app, 12 presets and no-shake cooking. Pros, cons and alternatives, based on manufacturer specs and owner feedback.',
@@ -156,9 +156,9 @@ export const article: BlogArticle = {
 
 <h2>Verdict</h2>
 <p>Le Cosori Dual Blaze Smart 6,4 L tient sa promesse principale : une cuisson plus régulière avec moins de manipulations, grâce à sa double résistance. Ajoutez une application bien pensée, un entretien simple et une capacité familiale, et vous obtenez l’un des airfryers à tiroir unique les plus équilibrés du moment. Ses limites (205 °C maximum, tiroir unique, panier un peu étroit) sont réelles mais ne gênent pas l’usage courant. Pour la cuisson de deux plats à la fois, le Ninja Double Stack reste plus adapté ; pour une solution plus simple sans Wi-Fi, le Philips Série 3000 XL est une valeur sûre.</p>`,
-    en: `<p><strong>The Cosori Dual Blaze Smart 6.4L is one of the most interesting single-drawer air fryers of 2026 if you want even results without shaking the basket: it heats from above and below, works with the VeSync app and suits a household of three to five.</strong> Its limits are well known: a 205 °C maximum, a single drawer and a basket that is a little narrow for large cuts. This review is based on manufacturer specifications, specialist press reviews and verified buyer feedback, not on hands-on use by our team.</p>
+    en: `<p><strong>The Cosori Dual Blaze Smart 6.4L is one of the most interesting single-drawer air fryers of 2026 if you want even cooking without shaking the basket: it heats from above and below, works with the VeSync app and suits a household of three to five.</strong> Its drawbacks are well known: a 205°C maximum, a single drawer and a basket that is a little narrow for large cuts. This review is based on manufacturer specifications, independent reviews from the specialist press and verified buyer feedback, not on our own use of the appliance.</p>
 
-<p>If you are still weighing up formats, our <a href="/en/guides/airfryers">air fryer guide</a> covers the whole range, from compact models to dual drawers.</p>
+<p>If you’re still deciding which type to go for, our <a href="/en/guides/airfryers">air fryer guide</a> covers the whole range, from compact models to dual-drawer ones.</p>
 
 <h2>Cosori Dual Blaze 6.4L specifications</h2>
 <table>
@@ -168,25 +168,25 @@ export const article: BlogArticle = {
 <tr><td>Basket capacity</td><td>6.4 litres, single drawer</td></tr>
 <tr><td>Heating</td><td>Two elements: one above, one below the basket</td></tr>
 <tr><td>Power</td><td>Around 1,700 W according to retailer listings</td></tr>
-<tr><td>Temperature range</td><td>80 to 205 °C</td></tr>
-<tr><td>Presets</td><td>12 functions (fries, frozen, chicken, steak, seafood, veggies, roast, bake, broil, reheat, keep warm…)</td></tr>
+<tr><td>Temperature range</td><td>80–205°C</td></tr>
+<tr><td>Presets</td><td>12 preset functions (chips, frozen food, chicken, steak, fish, vegetables, roast, bake, grill, reheat, keep warm…)</td></tr>
 <tr><td>Connectivity</td><td>Wi-Fi, VeSync app, works with Amazon Alexa and Google Assistant</td></tr>
 <tr><td>Cleaning</td><td>Non-stick basket and crisper plate, dishwasher safe</td></tr>
 </tbody>
 </table>
-<p>Worth knowing: despite what some listings suggest, this model has no dehydrate mode and does not reach 230 °C. Those features exist on other air fryers, but not on the Dual Blaze 6.4L.</p>
+<p>Worth knowing: despite what you may read elsewhere, this model has no dehydrate mode and does not go up to 230°C. Those features exist on other air fryers, but not on the Dual Blaze 6.4L.</p>
 
 <h2>What the dual heating really changes</h2>
-<p>A conventional air fryer only heats from the top: the element sits above the fan, which pushes hot air down onto the food. The top browns quickly while the side resting on the plate lags behind, hence the usual advice to shake or flip halfway through.</p>
-<p>The Dual Blaze adds a second element under the basket. Cosori claims no preheating and no shaking for most recipes, with two temperature sensors regulating the whole process. Owner feedback mainly confirms two benefits:</p>
+<p>A conventional air fryer only heats from the top: the element sits above the fan, which pushes hot air down onto the food. The top browns quickly while the side sitting on the crisper plate browns much less, hence the usual advice to shake or turn the food halfway through.</p>
+<p>The Dual Blaze adds a second element under the basket. Cosori says most recipes need no preheating and no shaking, with two temperature sensors regulating the whole thing. Feedback from owners mainly backs up two benefits:</p>
 <ul>
-<li><strong>The underside browns better</strong>: chicken wings, roast vegetables and nuggets come out more evenly without intervention.</li>
-<li><strong>You can start it and walk away</strong>: on a weeknight, not having to reopen the drawer is a genuine comfort.</li>
+<li><strong>The underside browns better</strong>: chicken wings, roast vegetables and nuggets come out more evenly browned without you having to step in.</li>
+<li><strong>You can start it and walk away</strong>: for a midweek dinner, not having to keep opening the drawer is a real plus.</li>
 </ul>
-<p>It is worth keeping this in perspective. Several specialist reviews find the gap with the best top-heating air fryers fairly modest, and some foods such as frozen fries can need a few extra minutes to crisp up properly. With a very full basket, a quick shake still helps: dual heating cannot make up for food piled too deep.</p>
+<p>It’s worth keeping this in perspective, though. Several specialist reviews find the difference from the best single-element air fryers fairly modest, and some foods, such as frozen chips, can need a few minutes longer than expected to crisp up properly. With a very full basket, a quick shake still helps: dual heating can’t make up for food piled too deep.</p>
 
 <h2>VeSync app and controls</h2>
-<p>The touch control panel on top of the unit groups the 12 presets, time and temperature settings and a pause button. It is clear but fairly compact, a point some buyers mention.</p>
+<p>The touch control panel on top of the unit brings together the 12 presets, the time and temperature controls and a pause button. It’s easy to read but fairly small, a criticism some buyers raise.</p>
 <p>The VeSync app adds:</p>
 <ul>
 <li>remote start and stop, with a countdown of the time left;</li>
@@ -200,25 +200,25 @@ export const article: BlogArticle = {
 <h3>Pros</h3>
 <ul>
 <li><strong>More even cooking</strong> thanks to top and bottom heat, with less handling.</li>
-<li><strong>No preheating</strong> needed according to the manufacturer, which shortens quick cooks.</li>
-<li><strong>Full-featured app</strong> and voice assistants, without being mandatory.</li>
-<li><strong>Family-friendly capacity</strong>: 6.4 litres is enough for three to five side portions.</li>
-<li><strong>Easy cleaning</strong>: basket and plate are dishwasher safe.</li>
-<li><strong>Quiet in use</strong> according to most buyers, more of a hum than a nuisance.</li>
+<li><strong>No preheating</strong> needed according to the manufacturer, which saves time on quick dishes.</li>
+<li><strong>Full-featured app</strong> and voice assistant support, though you don’t have to use them.</li>
+<li><strong>Family-friendly capacity</strong>: 6.4 litres is enough for three to five portions of sides.</li>
+<li><strong>Easy cleaning</strong>: the basket and crisper plate are dishwasher safe.</li>
+<li><strong>Quiet in use</strong> according to most buyers: more of a gentle whoosh than an annoying noise.</li>
 </ul>
 <h3>Cons</h3>
 <ul>
-<li><strong>205 °C maximum</strong>: enough for most uses, less ideal for a hard sear on meat.</li>
-<li><strong>Single drawer</strong>: you cannot cook two foods at two temperatures at once.</li>
-<li><strong>Fairly narrow basket</strong> for a large whole chicken or big cuts.</li>
-<li><strong>Crisper plate lifted by two rings</strong>, less practical than a handle when the bottom is greasy.</li>
+<li><strong>205°C maximum</strong>: enough for most uses, but not ideal for searing meat hard.</li>
+<li><strong>Single drawer</strong>: you can’t cook two foods at different temperatures at the same time.</li>
+<li><strong>Fairly narrow basket</strong>, a tight fit for a large whole chicken or big cuts.</li>
+<li><strong>Crisper plate lifts out by two rings</strong>, which is less practical than a handle when the drawer is greasy.</li>
 <li><strong>No dehydrate function</strong> on this model.</li>
 <li><strong>Plain plastic design</strong>, more functional than striking.</li>
 </ul>
 
 <h2>What buyers say</h2>
-<p>On the major European retail platforms, the Dual Blaze gathers largely positive feedback. Praise focuses first on even cooking and time saved day to day, then on the app, appreciated for its recipes and for following a cook from another room.</p>
-<p>The most common complaints concern basket width, cleaning the inner plate and, for a minority, the initial Wi-Fi setup. A few buyers also note that the non-stick coating needs silicone or wooden utensils to last, which is true of every basket of this kind.</p>
+<p>On the big European retail sites, reviews of the Dual Blaze are very positive overall. Buyers mainly praise the even cooking and the time it saves day to day, followed by the app, which they like for its recipes and for being able to keep an eye on cooking from another room.</p>
+<p>The most common complaints are about the width of the basket, cleaning the crisper plate and, for a minority, the initial Wi-Fi set-up. A few buyers also note that the non-stick coating needs silicone or wooden utensils to last, which is true of every basket of this kind.</p>
 
 <h2>Cosori Dual Blaze vs the competition</h2>
 <table>
@@ -230,26 +230,26 @@ export const article: BlogArticle = {
 <tr><td>Philips Airfryer Combi XXL Connected 8.3L</td><td>8.3 L</td><td>Top</td><td>Wi-Fi, app</td><td>Large families, premium</td></tr>
 </tbody>
 </table>
-<p>Compared with the <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 Series XL</a>, the Cosori adds bottom heating and an app for a similar capacity. Against the Ninja Double Stack, it loses simultaneous two-dish cooking but gains compactness and connectivity. To weigh that choice, read our article on <a href="/en/blog/airfryer-simple-vs-double-panier">single vs dual basket air fryers</a>.</p>
+<p>Compared with the <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 Series XL</a>, the Cosori adds bottom heating and an app, with a similar capacity. Next to the Ninja Double Stack, you lose the ability to cook two dishes at once but gain a more compact unit and app control. To help you decide, read our article on <a href="/en/blog/airfryer-simple-vs-double-panier">single vs dual basket air fryers</a>.</p>
 
-<h2>Everyday use</h2>
-<p>Dual heating changes a few habits carried over from conventional air fryers. These are the tips that come up most often in the manufacturer’s guidance and from regular users.</p>
+<h2>Getting the best from it every day</h2>
+<p>Dual heating means changing a few habits picked up from conventional air fryers. Here are the tips that come up most often in the manufacturer’s advice and from regular users.</p>
 <h3>Start with the presets, then adjust</h3>
-<p>The 12 presets are a good starting point, but each food behaves differently depending on size, thickness and quantity. The first time, check a little before the end, note the setting that works for you and save it in the app so you can reuse it in one tap.</p>
+<p>The 12 presets are a good starting point, but every food behaves differently depending on its size and thickness and how much you put in. The first time you cook something, check it a little before the end, note the setting that works for you and save it in the app so you can call it up again with one tap.</p>
 <h3>Trim the time on standard recipes</h3>
-<p>Because the underside heats directly and no preheating is needed, a recipe written for a top-heating air fryer may finish sooner. Start with a few minutes less and extend if needed: that is easier than rescuing an overcooked dish.</p>
+<p>Because the underside heats directly and no preheating is needed, a recipe written for a top-heating air fryer may finish sooner. Start with a few minutes less and add more if needed: it’s easier than rescuing something overcooked.</p>
 <h3>A spoonful of oil is enough</h3>
-<p>For fresh vegetables and homemade potatoes, a small amount of oil tossed through before cooking noticeably improves crispness. Pre-cooked frozen foods usually need none. For more pointers, our guide to <a href="/en/blog/cuisiner-healthy-airfryer">healthy air fryer cooking</a> offers simple benchmarks.</p>
+<p>For fresh vegetables and home-made chips, tossing them in a little oil before cooking makes them noticeably crispier. Pre-cooked frozen foods usually need none. For more ideas, our guide to <a href="/en/blog/cuisiner-healthy-airfryer">healthy air fryer cooking</a> gives some simple rules of thumb.</p>
 <h3>Cleaning and safety</h3>
-<p>Let the drawer cool before cleaning it and avoid abrasive sponges on the coating. Plug the unit straight into a wall socket rather than a crowded extension lead, set it on a stable, heat-resistant worktop and never use it under a low shelf. These precautions apply to every air fryer of this power.</p>
+<p>Let the drawer cool before cleaning it and avoid abrasive sponges on the coating. Plug the unit straight into a wall socket rather than a crowded extension lead, set it on a stable, heat-resistant worktop and never use it under a low shelf. These precautions apply to any air fryer this powerful.</p>
 
 <h2>Mistakes to avoid</h2>
 <ul>
-<li><strong>Overloading the basket</strong>: even with two elements, air needs to circulate. Beyond about one and a half layers, shake or cook in two batches.</li>
-<li><strong>Using metal utensils</strong>: they scratch the non-stick coating on the basket and plate.</li>
-<li><strong>Putting baking paper alone in an empty basket</strong>: the fan can lift it onto the element. Always place it under the food.</li>
+<li><strong>Overloading the basket</strong>: even with two elements, air needs to circulate. If the food is more than about one and a half layers deep, shake it or cook it in two batches.</li>
+<li><strong>Using metal utensils</strong>: they scratch the non-stick coating on the basket and crisper plate.</li>
+<li><strong>Putting baking paper in an empty basket</strong>: the fan can lift it onto the element. Always place it under the food.</li>
 <li><strong>Pushing the unit against a wall or under a low cupboard</strong>: leave space around the hot air vents.</li>
-<li><strong>Forgetting the bottom of the drawer</strong>: grease that builds up there smokes during the next cook. A rinse after each use is enough.</li>
+<li><strong>Forgetting the bottom of the drawer</strong>: grease that builds up there will smoke the next time you cook. A rinse after each use is enough.</li>
 </ul>
 
 <h2>Who is the Cosori Dual Blaze for?</h2>
@@ -258,119 +258,119 @@ export const article: BlogArticle = {
 <li><strong>Anyone who hates shaking the basket</strong> and wants to start a cook and get on with something else.</li>
 <li><strong>Smart home fans</strong> who enjoy guided recipes, remote monitoring and voice control.</li>
 </ul>
-<p>It is less suited to people who often cook two different dishes at the same time, or who want very high heat to sear meat.</p>
+<p>It’s less suited to people who often cook two different dishes at the same time, or who want very high heat for searing meat.</p>
 
-<h2>Verdict</h2>
-<p>The Cosori Dual Blaze Smart 6.4L delivers on its main promise: more even cooking with less handling, thanks to its dual heating elements. Add a well-designed app, easy cleaning and a family-sized capacity, and you get one of the most balanced single-drawer air fryers available. Its limits (205 °C maximum, single drawer, slightly narrow basket) are real but rarely get in the way of everyday cooking. For two dishes at once, the Ninja Double Stack is a better fit; for a simpler option without Wi-Fi, the Philips 3000 Series XL remains a safe bet.</p>`,
-    de: `<p><strong>Die Cosori Dual Blaze Smart 6,4 L gehört 2026 zu den interessantesten Heißluftfritteusen mit nur einer Schublade, wenn Sie gleichmäßige Ergebnisse ohne Schütteln wollen: Sie heizt von oben und unten, lässt sich per VeSync-App steuern und passt zu einem Haushalt mit drei bis fünf Personen.</strong> Ihre Grenzen sind bekannt: maximal 205 °C, eine einzige Schublade und ein Korb, der für große Stücke etwas schmal ist. Diese Bewertung stützt sich auf Herstellerangaben, Testberichte der Fachpresse und verifizierte Käufermeinungen, nicht auf einen eigenen Praxiseinsatz.</p>
+<h2>Our verdict</h2>
+<p>The Cosori Dual Blaze Smart 6.4L delivers on its main promise: more even cooking with less handling, thanks to its dual heating elements. Add a well-designed app, easy cleaning and a family-sized capacity, and you get one of the best all-round single-drawer air fryers on the market. Its drawbacks (205°C maximum, single drawer, slightly narrow basket) are real but don’t get in the way of everyday cooking. For cooking two dishes at once, the Ninja Double Stack is a better fit; for a simpler option without Wi-Fi, the Philips 3000 Series XL remains a safe bet.</p>`,
+    de: `<p><strong>Die Cosori Dual Blaze Smart 6,4 L gehört 2026 zu den interessantesten Airfryern mit nur einer Schublade, wenn Sie gleichmäßige Ergebnisse ohne Schütteln wollen: Sie heizt von oben und von unten, lässt sich über die VeSync-App steuern und passt zu einem Haushalt mit drei bis fünf Personen.</strong> Ihre Grenzen sind bekannt: maximal 205 °C, nur eine Schublade und ein Korb, der für große Stücke etwas schmal ist. Diese Bewertung stützt sich auf Herstellerangaben, Testberichte der Fachpresse und verifizierte Käuferbewertungen; Home Nura testet Geräte nicht selbst.</p>
 
-<p>Wenn Sie noch zwischen verschiedenen Formaten schwanken, stellt unser <a href="/de/guides/airfryers">Ratgeber zu Heißluftfritteusen</a> das gesamte Angebot vor, vom Kompaktmodell bis zur Doppelschublade.</p>
+<p>Sie schwanken noch zwischen verschiedenen Bauformen? Unser <a href="/de/guides/airfryers">Airfryer-Ratgeber</a> zeigt das gesamte Angebot, vom Kompaktgerät bis zum Modell mit zwei Schubladen.</p>
 
 <h2>Technische Daten der Cosori Dual Blaze 6,4 L</h2>
 <table>
-<thead><tr><th>Merkmal</th><th>Detail</th></tr></thead>
+<thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead>
 <tbody>
-<tr><td>Modellnummer</td><td>CAF-P583S (je nach Land in mehreren Farben und Editionen)</td></tr>
-<tr><td>Korbvolumen</td><td>6,4 Liter, eine Schublade</td></tr>
-<tr><td>Beheizung</td><td>Zwei Heizelemente: eines oberhalb, eines unterhalb des Korbs</td></tr>
+<tr><td>Modellnummer</td><td>CAF-P583S (je nach Land in mehreren Farben und Editionen erhältlich)</td></tr>
+<tr><td>Fassungsvermögen</td><td>6,4 Liter, eine Schublade</td></tr>
+<tr><td>Beheizung</td><td>Zwei Heizelemente: eines über, eines unter dem Korb</td></tr>
 <tr><td>Leistung</td><td>Rund 1.700 W laut Händlerangaben</td></tr>
 <tr><td>Temperaturbereich</td><td>80 bis 205 °C</td></tr>
-<tr><td>Programme</td><td>12 voreingestellte Funktionen (Pommes, Tiefkühlkost, Hähnchen, Steak, Fisch, Gemüse, Braten, Backen, Grillen, Aufwärmen, Warmhalten …)</td></tr>
-<tr><td>Konnektivität</td><td>WLAN, VeSync-App, kompatibel mit Amazon Alexa und Google Assistant</td></tr>
-<tr><td>Reinigung</td><td>Antihaftbeschichteter Korb und Einsatz, spülmaschinenfest</td></tr>
+<tr><td>Programme</td><td>12 voreingestellte Funktionen (Pommes, Tiefkühlkost, Hähnchen, Steak, Fisch, Gemüse, Braten, Backen, Überbacken, Aufwärmen, Warmhalten …)</td></tr>
+<tr><td>Vernetzung</td><td>WLAN, VeSync-App, kompatibel mit Amazon Alexa und Google Assistant</td></tr>
+<tr><td>Reinigung</td><td>Korb und Gittereinsatz antihaftbeschichtet und spülmaschinenfest</td></tr>
 </tbody>
 </table>
-<p>Wichtig: Anders als manchmal zu lesen, bietet dieses Modell weder eine Dörrfunktion noch 230 °C. Solche Funktionen gibt es bei anderen Heißluftfritteusen, aber nicht bei der Dual Blaze 6,4 L.</p>
+<p>Wichtig: Anders als manchmal zu lesen ist, hat dieses Modell weder eine Dörrfunktion, noch heizt es auf 230 °C. Beides gibt es bei anderen Heißluftfritteusen, nicht aber bei der Dual Blaze 6,4 L.</p>
 
 <h2>Was die doppelte Beheizung wirklich bringt</h2>
-<p>Eine klassische Heißluftfritteuse heizt nur von oben: Das Heizelement sitzt über dem Ventilator, der die heiße Luft nach unten auf die Lebensmittel drückt. Die Oberseite bräunt schnell, die auf dem Gitter liegende Seite deutlich weniger. Daher der übliche Rat, nach der Hälfte der Zeit zu schütteln oder zu wenden.</p>
-<p>Die Dual Blaze ergänzt ein zweites Heizelement unter dem Korb. Cosori verspricht damit Garen ohne Vorheizen und ohne Schütteln für die meisten Rezepte, geregelt von zwei Temperatursensoren. Die Rückmeldungen von Nutzern bestätigen vor allem zwei Vorteile:</p>
+<p>Ein klassischer Airfryer heizt nur von oben: Das Heizelement sitzt über dem Ventilator, der die heiße Luft auf die Lebensmittel bläst. Die Oberseite bräunt schnell, die Seite, die auf dem Gitter liegt, deutlich weniger. Daher der übliche Rat, nach der Hälfte der Garzeit zu schütteln oder zu wenden.</p>
+<p>Die Dual Blaze hat zusätzlich ein zweites Heizelement unter dem Korb. Cosori verspricht damit, dass die meisten Rezepte ohne Vorheizen und ohne Schütteln gelingen; zwei Temperatursensoren regeln das Ganze. Nutzerbewertungen bestätigen vor allem zwei Vorteile:</p>
 <ul>
-<li><strong>Die Unterseite bräunt besser</strong>: Chicken Wings, Ofengemüse oder Nuggets werden ohne Eingreifen gleichmäßiger.</li>
-<li><strong>Starten und weggehen</strong>: Beim Abendessen unter der Woche ist es ein echter Komfort, die Schublade nicht öffnen zu müssen.</li>
+<li><strong>Die Unterseite bräunt besser</strong>: Chicken Wings, Ofengemüse oder Nuggets werden gleichmäßiger, ohne dass Sie eingreifen müssen.</li>
+<li><strong>Einschalten und weggehen</strong>: Wenn unter der Woche das Abendessen schnell gehen soll, ist es eine echte Erleichterung, die Schublade nicht zwischendurch öffnen zu müssen.</li>
 </ul>
-<p>Man sollte das aber einordnen. Mehrere Fachmagazine sehen den Abstand zu den besten Modellen mit reiner Oberhitze als eher gering an, und manche Produkte wie Tiefkühlpommes brauchen gelegentlich ein paar Minuten länger als erwartet, bis sie richtig knusprig sind. Bei einem sehr vollen Korb hilft kurzes Schütteln weiterhin: Die doppelte Beheizung gleicht eine zu dicke Schicht nicht aus.</p>
+<p>Das muss man allerdings relativieren. Mehrere Fachmagazine halten den Vorsprung gegenüber den besten Modellen mit nur einem Heizelement für eher gering, und manche Produkte wie Tiefkühlpommes brauchen gelegentlich ein paar Minuten länger als erwartet, bis sie richtig knusprig sind. Ist der Korb sehr voll, lohnt sich kurzes Schütteln trotzdem: Die doppelte Beheizung gleicht eine zu dicke Schicht nicht aus.</p>
 
 <h2>VeSync-App und Bedienung</h2>
-<p>Das Touch-Bedienfeld auf der Oberseite vereint die 12 Programme, Zeit- und Temperatureinstellung sowie eine Pausentaste. Es ist gut ablesbar, aber recht kompakt, was einige Käufer anmerken.</p>
+<p>Auf dem Touch-Bedienfeld oben am Gerät finden Sie die 12 Programme, die Einstellung von Zeit und Temperatur sowie eine Pausentaste. Es ist gut ablesbar, aber recht klein, was einige Käufer bemängeln.</p>
 <p>Die VeSync-App bietet:</p>
 <ul>
-<li>Start und Stopp aus der Ferne mit Anzeige der Restzeit;</li>
-<li>eine Rezeptbibliothek, deren Einstellungen direkt an das Gerät gesendet werden;</li>
+<li>Start und Stopp aus der Ferne, mit Anzeige der Restzeit;</li>
+<li>eine Rezeptsammlung, deren Einstellungen Sie direkt ans Gerät senden;</li>
 <li>das Anlegen und Speichern eigener Einstellungen;</li>
 <li>Sprachsteuerung über Alexa oder Google Assistant.</li>
 </ul>
-<p>Wie viele smarte Geräte nutzt sie WLAN im 2,4-GHz-Band. Sendet Ihr Router ein gemeinsames 2,4/5-GHz-Netz, kann die Kopplung eine Anpassung erfordern. Die App ist optional: Alle Programme lassen sich auch am Gerät starten. Einen Überblick über weitere App-gesteuerte Modelle bietet unser <a href="/de/blog/comparatif-airfryer-connecte-2026">Vergleich smarter Heißluftfritteusen</a>.</p>
+<p>Wie viele smarte Geräte verbindet sie sich mit dem 2,4-GHz-WLAN. Sendet Ihr Router 2,4 und 5 GHz unter einem gemeinsamen Netzwerknamen, müssen Sie für die Kopplung unter Umständen eine Einstellung ändern. Die App ist optional: Alle Programme lassen sich auch direkt am Gerät starten. Weitere Modelle mit App-Steuerung finden Sie in unserem <a href="/de/blog/comparatif-airfryer-connecte-2026">Vergleich der Airfryer mit App</a>.</p>
 
 <h2>Stärken und Schwächen</h2>
 <h3>Stärken</h3>
 <ul>
 <li><strong>Gleichmäßigeres Garen</strong> dank Ober- und Unterhitze, mit weniger Handgriffen.</li>
-<li><strong>Kein Vorheizen</strong> nötig laut Hersteller, was kurze Garzeiten verkürzt.</li>
-<li><strong>Umfangreiche App</strong> und Sprachassistenten, ohne Zwang zur Nutzung.</li>
-<li><strong>Familientaugliches Volumen</strong>: 6,4 Liter reichen für drei bis fünf Beilagenportionen.</li>
-<li><strong>Einfache Reinigung</strong>: Korb und Einsatz sind spülmaschinenfest.</li>
-<li><strong>Leiser Betrieb</strong> laut den meisten Käufern, eher ein Rauschen als ein störendes Geräusch.</li>
+<li><strong>Kein Vorheizen</strong> nötig (laut Hersteller), was gerade bei kurzen Garzeiten Zeit spart.</li>
+<li><strong>Umfangreiche App</strong> und Sprachsteuerung, beides optional.</li>
+<li><strong>Familientaugliches Fassungsvermögen</strong>: 6,4 Liter reichen für drei bis fünf Portionen Beilagen.</li>
+<li><strong>Einfache Reinigung</strong>: Korb und Gittereinsatz sind spülmaschinenfest.</li>
+<li><strong>Leiser Betrieb</strong> laut den meisten Käufern: eher ein Rauschen als ein störendes Geräusch.</li>
 </ul>
 <h3>Schwächen</h3>
 <ul>
-<li><strong>Maximal 205 °C</strong>: genug für die meisten Anwendungen, weniger ideal zum scharfen Anbraten von Fleisch.</li>
-<li><strong>Nur eine Schublade</strong>: zwei Lebensmittel bei unterschiedlichen Temperaturen gleichzeitig sind nicht möglich.</li>
-<li><strong>Eher schmaler Korb</strong> für ein großes ganzes Hähnchen oder große Stücke.</li>
-<li><strong>Einsatz wird an zwei Ringen herausgehoben</strong>, weniger praktisch als ein Griff, wenn der Boden fettig ist.</li>
+<li><strong>Maximal 205 °C</strong>: reicht für fast alles, ist aber zum scharfen Anbraten von Fleisch etwas knapp.</li>
+<li><strong>Nur eine Schublade</strong>: Zwei Gerichte gleichzeitig bei unterschiedlichen Temperaturen zu garen ist nicht möglich.</li>
+<li><strong>Eher schmaler Korb</strong>: Für ein großes ganzes Hähnchen oder große Stücke wird es eng.</li>
+<li><strong>Gittereinsatz wird an zwei Ringen herausgehoben</strong>: weniger praktisch als ein Griff, wenn der Boden fettig ist.</li>
 <li><strong>Keine Dörrfunktion</strong> bei diesem Modell.</li>
-<li><strong>Schlichtes Kunststoffdesign</strong>, eher funktional als auffällig.</li>
+<li><strong>Schlichtes Kunststoffdesign</strong>, eher zweckmäßig als ein Blickfang.</li>
 </ul>
 
-<h2>Erfahrungen der Käufer</h2>
-<p>Auf den großen europäischen Verkaufsplattformen erhält die Dual Blaze überwiegend sehr positive Bewertungen. Gelobt werden vor allem das gleichmäßige Garergebnis und die Zeitersparnis im Alltag, danach die App mit ihren Rezepten und der Möglichkeit, den Garvorgang aus einem anderen Raum zu verfolgen.</p>
-<p>Die häufigsten Kritikpunkte betreffen die Korbbreite, die Reinigung des Einsatzes und, bei einer Minderheit, die erste WLAN-Einrichtung. Einige Käufer weisen zudem darauf hin, dass die Antihaftbeschichtung Silikon- oder Holzutensilien braucht, um lange zu halten – das gilt für alle Körbe dieser Art.</p>
+<h2>Käufererfahrungen</h2>
+<p>In den großen europäischen Onlineshops bekommt die Dual Blaze überwiegend sehr gute Bewertungen. Gelobt werden vor allem das gleichmäßige Garergebnis und die Zeitersparnis im Alltag, an zweiter Stelle die App: wegen ihrer Rezepte und weil sich der Garvorgang aus einem anderen Raum verfolgen lässt.</p>
+<p>Am häufigsten kritisiert werden die Breite des Korbs, die Reinigung des Gittereinsatzes und, von einer Minderheit, die erste WLAN-Einrichtung. Einige Käufer weisen außerdem darauf hin, dass die Antihaftbeschichtung nur mit Küchenhelfern aus Silikon oder Holz lange hält – das gilt allerdings für alle Körbe dieser Art.</p>
 
 <h2>Cosori Dual Blaze im Vergleich zur Konkurrenz</h2>
 <table>
-<thead><tr><th>Modell</th><th>Volumen</th><th>Beheizung</th><th>Konnektivität</th><th>Ideal für</th></tr></thead>
+<thead><tr><th>Modell</th><th>Fassungsvermögen</th><th>Beheizung</th><th>Vernetzung</th><th>Ideal für</th></tr></thead>
 <tbody>
 <tr><td>Cosori Dual Blaze Smart 6,4 L</td><td>6,4 L, 1 Schublade</td><td>Oben und unten</td><td>WLAN, VeSync, Sprachassistenten</td><td>Gleichmäßiges Garen ohne Schütteln</td></tr>
-<tr><td>Philips Airfryer Serie 3000 XL 6,2 L</td><td>6,2 L, 1 Schublade</td><td>Von oben</td><td>Nein</td><td>Einfachheit, bewährte Marke</td></tr>
-<tr><td>Ninja Foodi MAX Double Stack XL 9,5 L</td><td>9,5 L, 2 gestapelte Schubladen</td><td>Zwei unabhängige Zonen</td><td>Nein</td><td>Zwei Gerichte gleichzeitig</td></tr>
-<tr><td>Philips Airfryer Combi XXL Connected 8,3 L</td><td>8,3 L</td><td>Von oben</td><td>WLAN, App</td><td>Große Familien, Oberklasse</td></tr>
+<tr><td>Philips Airfryer Serie 3000 XL 6,2 L</td><td>6,2 L, 1 Schublade</td><td>Von oben</td><td>Nein</td><td>Einfache Bedienung, bewährte Marke</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL 9,5 L</td><td>9,5 L, 2 Schubladen übereinander</td><td>Zwei unabhängige Zonen</td><td>Nein</td><td>Zwei Gerichte gleichzeitig</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected 8,3 L</td><td>8,3 L</td><td>Von oben</td><td>WLAN, App</td><td>Große Familien, Premiumsegment</td></tr>
 </tbody>
 </table>
-<p>Gegenüber der <a href="/de/blog/test-philips-airfryer-3000-xl">Philips Serie 3000 XL</a> bietet die Cosori bei ähnlichem Volumen zusätzlich Unterhitze und App. Gegenüber der Ninja Double Stack verzichtet sie auf das gleichzeitige Garen zweier Gerichte, ist aber kompakter und vernetzt. Zur Entscheidung hilft unser Artikel <a href="/de/blog/airfryer-simple-vs-double-panier">Heißluftfritteuse mit einem oder zwei Körben</a>.</p>
+<p>Im Vergleich zur <a href="/de/blog/test-philips-airfryer-3000-xl">Philips Serie 3000 XL</a> bietet die Cosori bei ähnlichem Fassungsvermögen zusätzlich Unterhitze und eine App. Gegenüber der Ninja Double Stack kann sie zwar keine zwei Gerichte gleichzeitig garen, ist dafür aber kompakter und vernetzt. Bei der Entscheidung hilft unser Artikel <a href="/de/blog/airfryer-simple-vs-double-panier">Airfryer mit einer oder zwei Kammern</a>.</p>
 
 <h2>Im Alltag richtig nutzen</h2>
-<p>Die doppelte Beheizung verändert einige Gewohnheiten aus klassischen Heißluftfritteusen. Diese Tipps tauchen in den Herstellerhinweisen und bei regelmäßigen Nutzern am häufigsten auf.</p>
+<p>Mit der doppelten Beheizung ändern sich ein paar Gewohnheiten, die Sie von klassischen Airfryern kennen. Die folgenden Tipps finden sich am häufigsten in den Herstellerhinweisen und in den Erfahrungen regelmäßiger Nutzer.</p>
 <h3>Mit den Programmen starten, dann anpassen</h3>
-<p>Die 12 Programme sind ein guter Ausgangspunkt, doch jedes Lebensmittel reagiert je nach Größe, Dicke und Menge anders. Prüfen Sie beim ersten Mal kurz vor Ende, notieren Sie die passende Einstellung und speichern Sie sie in der App, um sie mit einem Fingertipp wieder aufzurufen.</p>
+<p>Die 12 Programme sind ein guter Ausgangspunkt, doch jedes Lebensmittel reagiert je nach Größe, Dicke und Menge anders. Prüfen Sie beim ersten Durchgang kurz vor Ende den Garzustand, notieren Sie die passende Einstellung und speichern Sie sie in der App. So rufen Sie sie später mit einem Fingertipp wieder auf.</p>
 <h3>Garzeiten klassischer Rezepte leicht verkürzen</h3>
-<p>Da die Unterseite direkt beheizt wird und kein Vorheizen nötig ist, kann ein Rezept für eine Heißluftfritteuse mit Oberhitze schneller fertig sein. Beginnen Sie mit ein paar Minuten weniger und verlängern Sie bei Bedarf – das ist einfacher, als ein zu stark gegartes Gericht zu retten.</p>
+<p>Weil die Unterseite direkt beheizt wird und das Vorheizen entfällt, ist ein Rezept, das für einen Airfryer mit nur einem Heizelement gedacht ist, unter Umständen schneller fertig. Stellen Sie zunächst ein paar Minuten weniger ein und verlängern Sie bei Bedarf – das ist einfacher, als ein zu lange gegartes Gericht zu retten.</p>
 <h3>Ein Löffel Öl genügt</h3>
-<p>Bei frischem Gemüse und selbst geschnittenen Kartoffeln verbessert eine kleine Menge Öl, vor dem Garen untergemischt, die Knusprigkeit deutlich. Vorgegarte Tiefkühlprodukte brauchen meist keines. Weitere Orientierung bietet unser Ratgeber <a href="/de/blog/cuisiner-healthy-airfryer">gesund kochen mit der Heißluftfritteuse</a>.</p>
+<p>Frisches Gemüse und selbst geschnittene Kartoffeln werden deutlich knuspriger, wenn Sie vor dem Garen etwas Öl untermischen. Vorgegarte Tiefkühlprodukte brauchen meist keins. Einfache Anhaltspunkte gibt unser Ratgeber <a href="/de/blog/cuisiner-healthy-airfryer">Gesund kochen mit dem Airfryer</a>.</p>
 <h3>Reinigung und Sicherheit</h3>
-<p>Lassen Sie die Schublade vor dem Reinigen abkühlen und verzichten Sie auf Scheuerschwämme. Schließen Sie das Gerät direkt an eine Wandsteckdose statt an eine überlastete Mehrfachsteckdose an, stellen Sie es auf eine stabile, hitzebeständige Arbeitsfläche und betreiben Sie es nie unter einem niedrigen Regal. Diese Vorsichtsmaßnahmen gelten für alle Heißluftfritteusen dieser Leistung.</p>
+<p>Lassen Sie die Schublade vor dem Reinigen abkühlen und verwenden Sie für die Beschichtung keine Scheuerschwämme. Schließen Sie das Gerät direkt an eine Wandsteckdose an statt an eine voll belegte Mehrfachsteckdose, stellen Sie es auf eine stabile, hitzebeständige Arbeitsfläche und betreiben Sie es nie unter einem niedrigen Regal. Diese Vorsichtsmaßnahmen gelten für alle Heißluftfritteusen dieser Leistungsklasse.</p>
 
 <h2>Fehler, die Sie vermeiden sollten</h2>
 <ul>
-<li><strong>Den Korb überfüllen</strong>: Auch mit zwei Heizelementen muss die Luft zirkulieren. Ab etwa anderthalb Lagen schütteln oder in zwei Durchgängen garen.</li>
-<li><strong>Metallutensilien verwenden</strong>: Sie zerkratzen die Antihaftbeschichtung von Korb und Einsatz.</li>
-<li><strong>Backpapier allein in den leeren Korb legen</strong>: Der Ventilator kann es ans Heizelement saugen. Immer unter die Lebensmittel legen.</li>
-<li><strong>Das Gerät an die Wand oder unter einen niedrigen Hängeschrank stellen</strong>: Lassen Sie Platz um die Heißluftauslässe.</li>
-<li><strong>Den Schubladenboden vergessen</strong>: Dort angesammeltes Fett qualmt beim nächsten Garen. Ausspülen nach jeder Nutzung genügt.</li>
+<li><strong>Den Korb überfüllen</strong>: Auch mit zwei Heizelementen muss die Luft zirkulieren. Ab etwa anderthalb Lagen sollten Sie schütteln oder in zwei Durchgängen garen.</li>
+<li><strong>Küchenhelfer aus Metall verwenden</strong>: Sie zerkratzen die Antihaftbeschichtung von Korb und Gittereinsatz.</li>
+<li><strong>Backpapier allein in den leeren Korb legen</strong>: Der Ventilator kann es ans Heizelement saugen. Legen Sie es immer unter das Gargut.</li>
+<li><strong>Das Gerät direkt an die Wand oder unter einen niedrigen Hängeschrank stellen</strong>: Lassen Sie rund um die Heißluftauslässe Platz.</li>
+<li><strong>Den Schubladenboden vergessen</strong>: Fett, das sich dort sammelt, qualmt beim nächsten Garen. Es genügt, die Schublade nach jedem Gebrauch auszuspülen.</li>
 </ul>
 
 <h2>Für wen eignet sich die Cosori Dual Blaze?</h2>
 <ul>
 <li><strong>Haushalte mit drei bis fünf Personen</strong>, die vor allem Beilagen, Geflügel und Gemüse zubereiten.</li>
-<li><strong>Alle, die das Schütteln des Korbs hassen</strong> und lieber starten und sich um anderes kümmern.</li>
+<li><strong>Alle, die keine Lust haben, den Korb zu schütteln</strong>, und lieber einschalten und sich um anderes kümmern.</li>
 <li><strong>Smart-Home-Fans</strong>, die geführte Rezepte, Fernüberwachung und Sprachsteuerung schätzen.</li>
 </ul>
-<p>Weniger geeignet ist sie für alle, die oft zwei verschiedene Gerichte gleichzeitig zubereiten oder sehr hohe Temperaturen zum Anbraten von Fleisch suchen.</p>
+<p>Weniger geeignet ist sie für alle, die oft zwei verschiedene Gerichte gleichzeitig zubereiten oder zum Anbraten von Fleisch sehr hohe Temperaturen brauchen.</p>
 
 <h2>Fazit</h2>
-<p>Die Cosori Dual Blaze Smart 6,4 L hält ihr wichtigstes Versprechen: gleichmäßigeres Garen mit weniger Handgriffen dank doppelter Beheizung. Dazu kommen eine durchdachte App, einfache Reinigung und ein familientaugliches Volumen – zusammen eine der ausgewogensten Heißluftfritteusen mit einer Schublade. Ihre Grenzen (maximal 205 °C, eine Schublade, etwas schmaler Korb) sind real, stören im Alltag aber selten. Für zwei Gerichte gleichzeitig ist die Ninja Double Stack besser geeignet; wer es einfacher und ohne WLAN mag, ist mit der Philips Serie 3000 XL gut beraten.</p>`,
-    es: `<p><strong>La Cosori Dual Blaze Smart 6,4 L es una de las freidoras de aire de un solo cajón más interesantes de 2026 si buscas una cocción uniforme sin agitar la cesta: calienta por arriba y por abajo, se controla con la app VeSync y encaja en un hogar de tres a cinco personas.</strong> Sus límites son conocidos: una temperatura máxima de 205 °C, un único cajón y una cesta algo estrecha para piezas grandes. Esta opinión se basa en las especificaciones del fabricante, los análisis de la prensa especializada y las valoraciones de compradores verificados, no en un uso propio del aparato.</p>
+<p>Die Cosori Dual Blaze Smart 6,4 L hält ihr wichtigstes Versprechen: Dank doppelter Beheizung gart sie gleichmäßiger, und Sie müssen seltener eingreifen. Dazu kommen eine durchdachte App, eine einfache Reinigung und ein familientaugliches Fassungsvermögen. Unterm Strich gehört sie derzeit zu den ausgewogensten Heißluftfritteusen mit nur einer Schublade. Ihre Schwächen (maximal 205 °C, nur eine Schublade, etwas schmaler Korb) gibt es wirklich, im Alltag stören sie aber kaum. Für zwei Gerichte gleichzeitig ist die Ninja Double Stack besser geeignet; wer es einfacher und ohne WLAN mag, ist mit der Philips Serie 3000 XL gut beraten.</p>`,
+    es: `<p><strong>La Cosori Dual Blaze Smart 6,4 L es una de las freidoras de aire de un solo cajón más interesantes de 2026 si buscas una cocción uniforme sin agitar la cesta: calienta por arriba y por abajo, se controla con la app VeSync y es adecuada para un hogar de 3 a 5 personas.</strong> Sus puntos débiles son conocidos: una temperatura máxima de 205 °C, un único cajón y una cesta algo estrecha para piezas grandes. Esta opinión se basa en las especificaciones del fabricante, los análisis de la prensa especializada y las opiniones de compradores verificados, no en que la hayamos usado nosotros.</p>
 
-<p>Si aún dudas entre formatos, nuestra <a href="/es/guides/airfryers">guía de freidoras de aire</a> repasa toda la gama, de los modelos compactos a los de doble cajón.</p>
+<p>Si aún dudas entre varios formatos, nuestra <a href="/es/guides/airfryers">guía de freidoras de aire</a> repasa toda la gama, de los modelos compactos a los de doble cajón.</p>
 
 <h2>Ficha técnica de la Cosori Dual Blaze 6,4 L</h2>
 <table>
@@ -381,86 +381,86 @@ export const article: BlogArticle = {
 <tr><td>Calentamiento</td><td>Dos resistencias: una encima y otra debajo de la cesta</td></tr>
 <tr><td>Potencia</td><td>Unos 1.700 W según las fichas de los distribuidores</td></tr>
 <tr><td>Rango de temperatura</td><td>De 80 a 205 °C</td></tr>
-<tr><td>Programas</td><td>12 funciones predefinidas (patatas, congelados, pollo, filete, pescado, verduras, asar, hornear, gratinar, recalentar, mantener caliente…)</td></tr>
-<tr><td>Conectividad</td><td>Wi-Fi, app VeSync, compatible con Amazon Alexa y Google Assistant</td></tr>
+<tr><td>Programas</td><td>12 funciones predefinidas (patatas fritas, congelados, pollo, filete, pescado, verduras, asar, hornear, gratinar, recalentar, mantener caliente…)</td></tr>
+<tr><td>Conectividad</td><td>Wifi, app VeSync, compatible con Amazon Alexa y Google Assistant</td></tr>
 <tr><td>Limpieza</td><td>Cesta y rejilla antiadherentes, aptas para lavavajillas</td></tr>
 </tbody>
 </table>
-<p>Dato importante: aunque a veces se lea lo contrario, este modelo no tiene modo deshidratar ni llega a 230 °C. Esas funciones existen en otras freidoras, pero no en la Dual Blaze 6,4 L.</p>
+<p>Dato importante: aunque a veces se lea lo contrario, este modelo no tiene modo de deshidratado ni llega a 230 °C. Esas funciones existen en otras freidoras de aire, pero no en la Dual Blaze 6,4 L.</p>
 
-<h2>Lo que cambia realmente la doble resistencia</h2>
+<h2>Qué cambia de verdad la doble resistencia</h2>
 <p>Una freidora de aire clásica solo calienta por arriba: la resistencia está sobre el ventilador, que empuja el aire caliente hacia los alimentos. La cara superior se dora rápido y la que descansa sobre la rejilla mucho menos, de ahí el consejo habitual de agitar o dar la vuelta a mitad de cocción.</p>
-<p>La Dual Blaze añade una segunda resistencia bajo la cesta. Cosori anuncia así una cocción sin precalentar y sin agitar para la mayoría de las recetas, con dos sensores de temperatura que regulan el conjunto. Las opiniones de los usuarios confirman sobre todo dos ventajas:</p>
+<p>La Dual Blaze añade una segunda resistencia bajo la cesta. Cosori anuncia así una cocción sin precalentar y sin agitar para la mayoría de las recetas, con dos sondas de temperatura que regulan el conjunto. Las opiniones de los usuarios confirman sobre todo dos ventajas:</p>
 <ul>
 <li><strong>La parte inferior se dora mejor</strong>: alitas de pollo, verduras asadas o nuggets salen más uniformes sin intervenir.</li>
-<li><strong>Puedes ponerla en marcha y olvidarte</strong>: en una cena entre semana, no tener que abrir el cajón es una comodidad real.</li>
+<li><strong>Puedes ponerla en marcha y desentenderte</strong>: para una cena entre semana, no tener que abrir el cajón es muy cómodo.</li>
 </ul>
-<p>Conviene matizarlo. Varios análisis de la prensa especializada consideran que la diferencia con las mejores freidoras de calor superior es moderada, y algunos productos como las patatas congeladas a veces necesitan unos minutos más de lo previsto para quedar bien crujientes. Con la cesta muy llena, agitar sigue siendo útil: la doble resistencia no compensa una capa de alimentos demasiado gruesa.</p>
+<p>Eso sí, hay que matizarlo. Varios análisis de la prensa especializada consideran que la diferencia con las mejores freidoras de una sola resistencia es moderada, y algunos productos como las patatas congeladas a veces necesitan unos minutos más de lo previsto para quedar bien crujientes. Con la cesta muy llena, conviene agitarla de todos modos: la doble resistencia no compensa una capa de alimentos demasiado gruesa.</p>
 
 <h2>App VeSync y controles</h2>
-<p>El panel táctil, situado en la parte superior, reúne los 12 programas, el ajuste de tiempo y temperatura y un botón de pausa. Es legible pero bastante compacto, algo que mencionan algunos compradores.</p>
-<p>La app VeSync permite:</p>
+<p>El panel táctil, situado en la parte superior, reúne los 12 programas, el ajuste de tiempo y temperatura y un botón de pausa. Se lee bien, pero es bastante pequeño, algo que critican algunos compradores.</p>
+<p>La app VeSync ofrece:</p>
 <ul>
-<li>encender y apagar a distancia, con el tiempo restante a la vista;</li>
+<li>el encendido y el apagado a distancia, con el tiempo restante a la vista;</li>
 <li>una biblioteca de recetas que se envían directamente al aparato;</li>
-<li>crear y guardar tus propios ajustes;</li>
+<li>la opción de crear y guardar tus propios ajustes;</li>
 <li>el control por voz con Alexa o Google Assistant.</li>
 </ul>
-<p>Como muchos dispositivos conectados, usa Wi-Fi de 2,4 GHz: si tu router emite una única red combinada 2,4/5 GHz, el emparejamiento puede requerir algún ajuste. La app es opcional: todos los programas se inician también desde el panel. Para compararla con otros modelos controlables desde el móvil, consulta nuestra <a href="/es/blog/comparatif-airfryer-connecte-2026">comparativa de freidoras de aire conectadas</a>.</p>
+<p>Como muchos aparatos conectados, funciona con wifi de 2,4 GHz: si tu router emite una única red combinada 2,4/5 GHz, puede que tengas que tocar algún ajuste para vincularla. La app es opcional: todos los programas se inician también desde el panel. Para compararla con otros modelos que se manejan desde el móvil, consulta nuestra <a href="/es/blog/comparatif-airfryer-connecte-2026">comparativa de freidoras de aire con wifi</a>.</p>
 
 <h2>Puntos fuertes y débiles</h2>
 <h3>Puntos fuertes</h3>
 <ul>
 <li><strong>Cocción más uniforme</strong> gracias al calor superior e inferior, con menos manipulación.</li>
-<li><strong>Sin precalentamiento</strong> según el fabricante, lo que acorta las cocciones rápidas.</li>
-<li><strong>App completa</strong> y asistentes de voz, sin que sean obligatorios.</li>
-<li><strong>Capacidad familiar</strong>: 6,4 litros bastan para tres a cinco raciones de guarnición.</li>
+<li><strong>Sin precalentamiento</strong>, según el fabricante, algo que se nota en las cocciones cortas.</li>
+<li><strong>App completa</strong> y compatible con asistentes de voz, aunque no es obligatoria.</li>
+<li><strong>Capacidad familiar</strong>: 6,4 litros bastan para entre 3 y 5 raciones de guarnición.</li>
 <li><strong>Limpieza sencilla</strong>: cesta y rejilla van al lavavajillas.</li>
-<li><strong>Funcionamiento silencioso</strong> según la mayoría de compradores, más un zumbido que un ruido molesto.</li>
+<li><strong>Funcionamiento discreto</strong>, según la mayoría de los compradores: se oye más un soplido que un ruido molesto.</li>
 </ul>
 <h3>Puntos débiles</h3>
 <ul>
-<li><strong>205 °C como máximo</strong>: suficiente para casi todo, menos ideal para sellar carne a fuego vivo.</li>
+<li><strong>205 °C como máximo</strong>: suficiente para casi todo, pero se queda corta para sellar carne a fuego fuerte.</li>
 <li><strong>Un solo cajón</strong>: no se pueden cocinar dos alimentos a dos temperaturas a la vez.</li>
 <li><strong>Cesta algo estrecha</strong> para un pollo entero grande o piezas voluminosas.</li>
 <li><strong>Rejilla interior que se levanta con dos anillas</strong>, menos práctica que un asa cuando el fondo tiene grasa.</li>
-<li><strong>Sin función deshidratar</strong> en este modelo.</li>
+<li><strong>Sin función de deshidratado</strong> en este modelo.</li>
 <li><strong>Diseño sobrio de plástico</strong>, más funcional que llamativo.</li>
 </ul>
 
 <h2>Qué opinan los compradores</h2>
-<p>En las grandes plataformas de venta europeas, la Dual Blaze reúne en general valoraciones muy positivas. Los elogios se centran primero en la regularidad de la cocción y el ahorro de tiempo diario, y después en la app, apreciada por sus recetas y por poder seguir la cocción desde otra habitación.</p>
-<p>Las críticas más habituales tienen que ver con la anchura de la cesta, la limpieza de la rejilla interior y, para una minoría, la configuración inicial del Wi-Fi. Algunos compradores señalan también que el revestimiento antiadherente necesita utensilios de silicona o madera para durar, algo válido para todas las cestas de este tipo.</p>
+<p>En las grandes plataformas de venta europeas, la Dual Blaze reúne en general valoraciones muy positivas. Lo que más se elogia es que cocina de forma uniforme y que ahorra tiempo en el día a día; después, la app, apreciada por sus recetas y por poder seguir la cocción desde otra habitación.</p>
+<p>Las críticas más habituales tienen que ver con la anchura de la cesta, la limpieza de la rejilla interior y, para una minoría, la configuración inicial del wifi. Algunos compradores señalan también que el revestimiento antiadherente necesita utensilios de silicona o madera para durar, algo válido para todas las cestas de este tipo.</p>
 
 <h2>Cosori Dual Blaze frente a la competencia</h2>
 <table>
 <thead><tr><th>Modelo</th><th>Capacidad</th><th>Calentamiento</th><th>Conectividad</th><th>Ideal para</th></tr></thead>
 <tbody>
-<tr><td>Cosori Dual Blaze Smart 6,4 L</td><td>6,4 L, 1 cajón</td><td>Arriba y abajo</td><td>Wi-Fi, VeSync, asistentes de voz</td><td>Cocción uniforme sin agitar</td></tr>
-<tr><td>Philips Airfryer Serie 3000 XL 6,2 L</td><td>6,2 L, 1 cajón</td><td>Por arriba</td><td>No</td><td>Sencillez, marca contrastada</td></tr>
+<tr><td>Cosori Dual Blaze Smart 6,4 L</td><td>6,4 L, 1 cajón</td><td>Arriba y abajo</td><td>Wifi, VeSync, asistentes de voz</td><td>Cocción uniforme sin agitar</td></tr>
+<tr><td>Philips Airfryer Serie 3000 XL 6,2 L</td><td>6,2 L, 1 cajón</td><td>Por arriba</td><td>No</td><td>Sencillez, marca de confianza</td></tr>
 <tr><td>Ninja Foodi MAX Double Stack XL 9,5 L</td><td>9,5 L, 2 cajones apilados</td><td>Dos zonas independientes</td><td>No</td><td>Dos platos a la vez</td></tr>
-<tr><td>Philips Airfryer Combi XXL Connected 8,3 L</td><td>8,3 L</td><td>Por arriba</td><td>Wi-Fi, app</td><td>Familias numerosas, gama alta</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected 8,3 L</td><td>8,3 L</td><td>Por arriba</td><td>Wifi, app</td><td>Familias grandes, gama alta</td></tr>
 </tbody>
 </table>
-<p>Frente a la <a href="/es/blog/test-philips-airfryer-3000-xl">Philips Serie 3000 XL</a>, la Cosori añade el calor inferior y la app con una capacidad similar. Frente a la Ninja Double Stack, pierde la cocción simultánea de dos platos pero gana en tamaño contenido y conectividad. Para decidir, lee nuestro artículo sobre <a href="/es/blog/airfryer-simple-vs-double-panier">freidora de una o dos cestas</a>.</p>
+<p>Frente a la <a href="/es/blog/test-philips-airfryer-3000-xl">Philips Serie 3000 XL</a>, la Cosori añade el calor inferior y la app con una capacidad similar. Frente a la Ninja Double Stack, no permite cocinar dos platos a la vez, pero a cambio es más compacta y tiene wifi. Para decidir, lee nuestro artículo sobre <a href="/es/blog/airfryer-simple-vs-double-panier">freidora de una o dos cestas</a>.</p>
 
 <h2>Cómo sacarle partido a diario</h2>
-<p>El doble calentamiento cambia algunos hábitos heredados de las freidoras de aire clásicas. Estos son los consejos que más se repiten en las indicaciones del fabricante y entre los usuarios habituales.</p>
+<p>La doble resistencia obliga a cambiar algunas costumbres de las freidoras de aire clásicas. Estos son los consejos que más se repiten en las indicaciones del fabricante y entre los usuarios habituales.</p>
 <h3>Empezar por los programas y luego ajustar</h3>
-<p>Los 12 programas son un buen punto de partida, pero cada alimento reacciona distinto según su tamaño, grosor y cantidad. La primera vez, comprueba un poco antes del final, apunta el ajuste que te funciona y guárdalo en la app para recuperarlo con un toque.</p>
+<p>Los 12 programas son un buen punto de partida, pero cada alimento reacciona de forma distinta según su tamaño, su grosor y la cantidad. La primera vez, comprueba cómo va un poco antes del final, apunta el ajuste que te funciona y guárdalo en la app para recuperarlo con un toque.</p>
 <h3>Reducir un poco el tiempo de las recetas habituales</h3>
-<p>Como la parte inferior se calienta directamente y no hace falta precalentar, una receta pensada para una freidora de calor superior puede terminar antes. Empieza con unos minutos menos y alarga si hace falta: es más fácil que salvar un plato demasiado hecho.</p>
+<p>Como la parte inferior se calienta directamente y no hace falta precalentar, una receta pensada para una freidora de una sola resistencia puede estar lista antes. Empieza con unos minutos menos y alarga si hace falta: es más fácil que salvar un plato demasiado hecho.</p>
 <h3>Con una cucharada de aceite basta</h3>
-<p>En verduras frescas y patatas caseras, un poco de aceite mezclado antes de cocinar mejora claramente el crujiente. Los congelados precocinados no suelen necesitarlo. Para más ideas, nuestra guía para <a href="/es/blog/cuisiner-healthy-airfryer">cocinar sano con freidora de aire</a> ofrece referencias sencillas.</p>
+<p>En verduras frescas y patatas caseras, un poco de aceite mezclado antes de cocinar mejora claramente el crujiente. Los congelados precocinados no suelen necesitarlo. Para más ideas, nuestra guía para <a href="/es/blog/cuisiner-healthy-airfryer">cocinar sano con freidora de aire</a> te da pautas sencillas.</p>
 <h3>Limpieza y seguridad</h3>
-<p>Deja enfriar el cajón antes de limpiarlo y evita los estropajos abrasivos sobre el revestimiento. Conecta el aparato directamente a un enchufe de pared en lugar de a una regleta cargada, colócalo sobre una encimera estable y resistente al calor y no lo uses nunca bajo una balda baja. Estas precauciones valen para todas las freidoras de esta potencia.</p>
+<p>Deja enfriar el cajón antes de limpiarlo y evita los estropajos abrasivos sobre el revestimiento. Conéctala directamente a un enchufe de pared en lugar de a una regleta cargada, colócala sobre una encimera estable y resistente al calor y no la uses nunca debajo de un estante bajo. Estas precauciones valen para todas las freidoras de aire de esta potencia.</p>
 
 <h2>Errores que debes evitar</h2>
 <ul>
 <li><strong>Sobrecargar la cesta</strong>: incluso con dos resistencias, el aire debe circular. Por encima de una capa y media, agita o cocina en dos tandas.</li>
 <li><strong>Usar utensilios metálicos</strong>: rayan el antiadherente de la cesta y la rejilla.</li>
 <li><strong>Poner papel de horno solo en la cesta vacía</strong>: el ventilador puede levantarlo hasta la resistencia. Colócalo siempre bajo los alimentos.</li>
-<li><strong>Pegar el aparato a la pared o bajo un armario bajo</strong>: deja espacio alrededor de las salidas de aire caliente.</li>
+<li><strong>Pegarla a la pared o meterla debajo de un armario de cocina muy bajo</strong>: deja espacio alrededor de las salidas de aire caliente.</li>
 <li><strong>Olvidar el fondo del cajón</strong>: la grasa acumulada humea en la siguiente cocción. Basta con aclararlo tras cada uso.</li>
 </ul>
 
@@ -468,22 +468,22 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Hogares de tres a cinco personas</strong> que cocinan sobre todo guarniciones, aves y verduras.</li>
 <li><strong>Quienes odian agitar la cesta</strong> y prefieren ponerla en marcha y dedicarse a otra cosa.</li>
-<li><strong>Aficionados a la domótica</strong> que valoran las recetas guiadas, el seguimiento a distancia y el control por voz.</li>
+<li><strong>Aficionados a los aparatos conectados</strong> que valoran las recetas guiadas, el seguimiento a distancia y el control por voz.</li>
 </ul>
-<p>Encaja peor con quien prepara a menudo dos platos distintos a la vez o busca temperaturas muy altas para sellar carne.</p>
+<p>Es menos recomendable para quien prepara a menudo dos platos distintos a la vez o busca temperaturas muy altas para sellar la carne.</p>
 
 <h2>Veredicto</h2>
-<p>La Cosori Dual Blaze Smart 6,4 L cumple su promesa principal: una cocción más regular con menos manipulación gracias a su doble resistencia. Súmale una app bien pensada, una limpieza sencilla y una capacidad familiar, y tienes una de las freidoras de un solo cajón más equilibradas del momento. Sus límites (205 °C como máximo, un solo cajón, cesta algo estrecha) son reales, pero rara vez molestan en el uso diario. Para dos platos a la vez, la Ninja Double Stack es más adecuada; para una opción más sencilla sin Wi-Fi, la Philips Serie 3000 XL sigue siendo una apuesta segura.</p>`,
-    it: `<p><strong>La Cosori Dual Blaze Smart 6,4 L è una delle friggitrici ad aria a cassetto singolo più interessanti del 2026 per chi vuole una cottura uniforme senza scuotere il cestello: scalda dall’alto e dal basso, si controlla con l’app VeSync ed è adatta a una famiglia da tre a cinque persone.</strong> I suoi limiti sono noti: temperatura massima di 205 °C, un solo cassetto e un cestello un po’ stretto per i pezzi grandi. Questa recensione si basa sulle specifiche del produttore, sulle analisi della stampa specializzata e sui pareri di acquirenti verificati, non su un utilizzo diretto da parte nostra.</p>
+<p>La Cosori Dual Blaze Smart 6,4 L cumple su promesa principal: una cocción más regular con menos manipulación gracias a su doble resistencia. Súmale una app bien pensada, una limpieza sencilla y una capacidad familiar, y tienes una de las freidoras de un solo cajón más equilibradas del momento. Sus puntos débiles (205 °C como máximo, un solo cajón, cesta algo estrecha) son reales, pero apenas se notan en el uso diario. Para dos platos a la vez, la Ninja Double Stack es más adecuada; si buscas algo más sencillo y sin wifi, la Philips Serie 3000 XL sigue siendo una apuesta segura.</p>`,
+    it: `<p><strong>La Cosori Dual Blaze Smart 6,4 L è una delle friggitrici ad aria a cestello singolo più interessanti del 2026 per chi vuole una cottura uniforme senza scuotere il cestello: scalda dall’alto e dal basso, si controlla con l’app VeSync ed è adatta a una famiglia da tre a cinque persone.</strong> I suoi limiti sono noti: temperatura massima di 205 °C e un solo cestello, per di più un po’ stretto per i pezzi grandi. Questa recensione si basa sulle specifiche del produttore, sulle analisi della stampa specializzata e sui pareri di acquirenti verificati, non su un utilizzo diretto da parte nostra.</p>
 
-<p>Se sei ancora indeciso sul formato, la nostra <a href="/it/guides/airfryers">guida alle friggitrici ad aria</a> presenta tutta la gamma, dai modelli compatti a quelli a doppio cassetto.</p>
+<p>Se sei ancora indeciso sul formato, la nostra <a href="/it/guides/airfryers">guida alle friggitrici ad aria</a> presenta tutta la gamma, dai modelli compatti a quelli a doppio cestello.</p>
 
 <h2>Scheda tecnica della Cosori Dual Blaze 6,4 L</h2>
 <table>
 <thead><tr><th>Caratteristica</th><th>Dettaglio</th></tr></thead>
 <tbody>
 <tr><td>Codice modello</td><td>CAF-P583S (in vari colori ed edizioni a seconda del paese)</td></tr>
-<tr><td>Capacità del cestello</td><td>6,4 litri, cassetto singolo</td></tr>
+<tr><td>Capacità del cestello</td><td>6,4 litri, cestello singolo</td></tr>
 <tr><td>Riscaldamento</td><td>Due resistenze: una sopra e una sotto il cestello</td></tr>
 <tr><td>Potenza</td><td>Circa 1.700 W secondo le schede dei rivenditori</td></tr>
 <tr><td>Intervallo di temperatura</td><td>Da 80 a 205 °C</td></tr>
@@ -499,12 +499,12 @@ export const article: BlogArticle = {
 <p>La Dual Blaze aggiunge una seconda resistenza sotto il cestello. Cosori promette così una cottura senza preriscaldamento e senza scuotere per la maggior parte delle ricette, con due sensori di temperatura a regolare il tutto. I pareri degli utenti confermano soprattutto due vantaggi:</p>
 <ul>
 <li><strong>La parte inferiore si dora meglio</strong>: alette di pollo, verdure arrosto o nuggets escono più uniformi senza intervenire.</li>
-<li><strong>Si avvia e ci si può allontanare</strong>: per una cena infrasettimanale, non dover riaprire il cassetto è una comodità reale.</li>
+<li><strong>Avvii la cottura e puoi fare altro</strong>: per una cena infrasettimanale, non dover riaprire il cestello è una comodità reale.</li>
 </ul>
-<p>Va però ridimensionato. Diverse analisi della stampa specializzata ritengono che il divario con le migliori friggitrici a riscaldamento superiore sia moderato, e alcuni prodotti come le patatine surgelate richiedono talvolta qualche minuto in più del previsto per diventare croccanti. Con un cestello molto pieno, una scossa resta utile: la doppia resistenza non compensa uno strato di cibo troppo spesso.</p>
+<p>Il vantaggio va però ridimensionato. Diverse analisi della stampa specializzata ritengono che il divario con le migliori friggitrici a riscaldamento superiore sia moderato, e alcuni prodotti come le patatine surgelate richiedono talvolta qualche minuto in più del previsto per diventare croccanti. Con un cestello molto pieno conviene comunque scuoterlo una volta: la doppia resistenza non compensa uno strato di cibo troppo spesso.</p>
 
 <h2>App VeSync e comandi</h2>
-<p>Il pannello touch, posizionato sulla parte superiore, riunisce i 12 programmi, la regolazione di tempo e temperatura e un tasto pausa. È leggibile ma piuttosto compatto, un aspetto che alcuni acquirenti fanno notare.</p>
+<p>Il pannello touch, sulla parte superiore dell’apparecchio, riunisce i 12 programmi, la regolazione di tempo e temperatura e un tasto pausa. È leggibile ma piuttosto compatto, un aspetto che alcuni acquirenti fanno notare.</p>
 <p>L’app VeSync offre:</p>
 <ul>
 <li>avvio e arresto a distanza, con il tempo residuo sempre visibile;</li>
@@ -512,22 +512,22 @@ export const article: BlogArticle = {
 <li>la creazione e il salvataggio delle proprie impostazioni;</li>
 <li>il controllo vocale con Alexa o Google Assistant.</li>
 </ul>
-<p>Come molti dispositivi smart, si collega al Wi-Fi a 2,4 GHz: se il router trasmette un’unica rete combinata 2,4/5 GHz, l’abbinamento può richiedere qualche regolazione. L’app è facoltativa: tutti i programmi si avviano anche dal pannello. Per confrontarla con altri modelli gestibili dallo smartphone, leggi il nostro <a href="/it/blog/comparatif-airfryer-connecte-2026">confronto tra friggitrici ad aria connesse</a>.</p>
+<p>Come molti dispositivi smart, si collega al Wi-Fi a 2,4 GHz: se il router trasmette un’unica rete combinata 2,4/5 GHz, l’abbinamento può richiedere qualche regolazione. L’app è facoltativa: tutti i programmi si avviano anche dal pannello. Per confrontarla con altri modelli gestibili dallo smartphone, leggi il nostro <a href="/it/blog/comparatif-airfryer-connecte-2026">confronto tra friggitrici ad aria smart</a>.</p>
 
-<h2>Pregi e difetti</h2>
-<h3>Pregi</h3>
+<h2>Punti di forza e limiti</h2>
+<h3>Punti di forza</h3>
 <ul>
 <li><strong>Cottura più uniforme</strong> grazie al calore dall’alto e dal basso, con meno interventi.</li>
 <li><strong>Nessun preriscaldamento</strong> necessario secondo il produttore, il che accorcia le cotture brevi.</li>
 <li><strong>App completa</strong> e assistenti vocali, senza obbligo di usarli.</li>
 <li><strong>Capacità adatta alle famiglie</strong>: 6,4 litri bastano per tre-cinque porzioni di contorno.</li>
 <li><strong>Pulizia semplice</strong>: cestello e griglia vanno in lavastoviglie.</li>
-<li><strong>Funzionamento silenzioso</strong> secondo la maggior parte degli acquirenti, più un ronzio che un rumore fastidioso.</li>
+<li><strong>Funzionamento silenzioso</strong> secondo la maggior parte degli acquirenti, più un fruscio che un rumore fastidioso.</li>
 </ul>
-<h3>Difetti</h3>
+<h3>Limiti</h3>
 <ul>
-<li><strong>Massimo 205 °C</strong>: sufficienti per quasi tutto, meno ideali per rosolare la carne a fuoco vivo.</li>
-<li><strong>Un solo cassetto</strong>: impossibile cuocere due alimenti a due temperature diverse insieme.</li>
+<li><strong>Massimo 205 °C</strong>: bastano per quasi tutto, ma non sono l’ideale per rosolare la carne a fuoco vivo.</li>
+<li><strong>Un solo cestello</strong>: impossibile cuocere insieme due alimenti a temperature diverse.</li>
 <li><strong>Cestello piuttosto stretto</strong> per un pollo intero grande o pezzi voluminosi.</li>
 <li><strong>Griglia interna da sollevare con due anelli</strong>, meno pratica di una maniglia quando il fondo è unto.</li>
 <li><strong>Niente essiccazione</strong> su questo modello.</li>
@@ -542,8 +542,8 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Modello</th><th>Capacità</th><th>Riscaldamento</th><th>Connettività</th><th>Ideale per</th></tr></thead>
 <tbody>
-<tr><td>Cosori Dual Blaze Smart 6,4 L</td><td>6,4 L, 1 cassetto</td><td>Sopra e sotto</td><td>Wi-Fi, VeSync, assistenti vocali</td><td>Cottura uniforme senza scuotere</td></tr>
-<tr><td>Philips Airfryer Serie 3000 XL 6,2 L</td><td>6,2 L, 1 cassetto</td><td>Dall’alto</td><td>No</td><td>Semplicità, marchio collaudato</td></tr>
+<tr><td>Cosori Dual Blaze Smart 6,4 L</td><td>6,4 L, 1 cestello</td><td>Sopra e sotto</td><td>Wi-Fi, VeSync, assistenti vocali</td><td>Cottura uniforme senza scuotere</td></tr>
+<tr><td>Philips Airfryer Serie 3000 XL 6,2 L</td><td>6,2 L, 1 cestello</td><td>Dall’alto</td><td>No</td><td>Semplicità, marchio collaudato</td></tr>
 <tr><td>Ninja Foodi MAX Double Stack XL 9,5 L</td><td>9,5 L, 2 cassetti sovrapposti</td><td>Due zone indipendenti</td><td>No</td><td>Due piatti insieme</td></tr>
 <tr><td>Philips Airfryer Combi XXL Connected 8,3 L</td><td>8,3 L</td><td>Dall’alto</td><td>Wi-Fi, app</td><td>Famiglie numerose, fascia alta</td></tr>
 </tbody>
@@ -557,9 +557,9 @@ export const article: BlogArticle = {
 <h3>Accorciare un po’ i tempi delle ricette classiche</h3>
 <p>Poiché la parte inferiore viene scaldata direttamente e non serve il preriscaldamento, una ricetta pensata per una friggitrice a riscaldamento superiore può finire prima. Parti con qualche minuto in meno e prolunga se serve: è più facile che recuperare un piatto troppo cotto.</p>
 <h3>Basta un cucchiaio d’olio</h3>
-<p>Per verdure fresche e patate fatte in casa, un filo d’olio mescolato prima della cottura migliora nettamente la croccantezza. I surgelati precotti di solito non ne hanno bisogno. Per altri spunti, la nostra guida per <a href="/it/blog/cuisiner-healthy-airfryer">cucinare sano con la friggitrice ad aria</a> offre riferimenti semplici.</p>
+<p>Per verdure fresche e patate fatte in casa, un filo d’olio mescolato prima della cottura migliora nettamente la croccantezza. I surgelati precotti di solito non ne hanno bisogno. Per altri spunti, la nostra guida per <a href="/it/blog/cuisiner-healthy-airfryer">cucinare sano con la friggitrice ad aria</a> dà indicazioni semplici.</p>
 <h3>Pulizia e sicurezza</h3>
-<p>Lascia raffreddare il cassetto prima di pulirlo ed evita le spugne abrasive sul rivestimento. Collega l’apparecchio direttamente a una presa a muro anziché a una ciabatta sovraccarica, appoggialo su un piano stabile e resistente al calore e non usarlo mai sotto una mensola bassa. Sono precauzioni valide per tutte le friggitrici di questa potenza.</p>
+<p>Lascia raffreddare il cestello prima di pulirlo ed evita le spugne abrasive sul rivestimento. Collega l’apparecchio direttamente a una presa a muro anziché a una ciabatta sovraccarica, appoggialo su un piano stabile e resistente al calore e non usarlo mai sotto una mensola bassa. Sono precauzioni valide per tutte le friggitrici di questa potenza.</p>
 
 <h2>Errori da evitare</h2>
 <ul>
@@ -567,7 +567,7 @@ export const article: BlogArticle = {
 <li><strong>Usare utensili metallici</strong>: graffiano l’antiaderente di cestello e griglia.</li>
 <li><strong>Mettere la carta forno da sola nel cestello vuoto</strong>: la ventola può sollevarla fino alla resistenza. Mettila sempre sotto il cibo.</li>
 <li><strong>Appoggiare l’apparecchio al muro o sotto un pensile basso</strong>: lascia spazio intorno alle uscite dell’aria calda.</li>
-<li><strong>Dimenticare il fondo del cassetto</strong>: il grasso accumulato fuma alla cottura successiva. Basta sciacquarlo dopo ogni uso.</li>
+<li><strong>Dimenticare il fondo del cestello</strong>: il grasso che si accumula fa fumo alla cottura successiva. Basta sciacquarlo dopo ogni uso.</li>
 </ul>
 
 <h2>Per chi è la Cosori Dual Blaze?</h2>
@@ -579,61 +579,61 @@ export const article: BlogArticle = {
 <p>È meno adatta a chi prepara spesso due piatti diversi contemporaneamente o cerca temperature molto alte per rosolare la carne.</p>
 
 <h2>Verdetto</h2>
-<p>La Cosori Dual Blaze Smart 6,4 L mantiene la sua promessa principale: una cottura più regolare con meno interventi grazie alla doppia resistenza. Aggiungi un’app ben fatta, una pulizia semplice e una capacità familiare, e ottieni una delle friggitrici a cassetto singolo più equilibrate del momento. I suoi limiti (massimo 205 °C, un solo cassetto, cestello un po’ stretto) sono reali ma raramente pesano nell’uso quotidiano. Per due piatti insieme è più adatta la Ninja Double Stack; per una soluzione più semplice senza Wi-Fi, la Philips Serie 3000 XL resta una scelta sicura.</p>`,
-    nl: `<p><strong>De Cosori Dual Blaze Smart 6,4 L is in 2026 een van de interessantste airfryers met één lade als je gelijkmatige resultaten wilt zonder de mand te schudden: hij verwarmt van boven en van onderen, werkt met de VeSync-app en past bij een huishouden van drie tot vijf personen.</strong> Zijn beperkingen zijn bekend: maximaal 205 °C, één lade en een mand die wat smal is voor grote stukken. Deze review is gebaseerd op de specificaties van de fabrikant, besprekingen in de vakpers en geverifieerde kopersbeoordelingen, niet op eigen gebruik.</p>
+<p>La Cosori Dual Blaze Smart 6,4 L mantiene la sua promessa principale: una cottura più regolare con meno interventi grazie alla doppia resistenza. Con in più un’app ben fatta, una pulizia semplice e una capacità da famiglia, è una delle friggitrici a cestello singolo più equilibrate del momento. I suoi limiti (massimo 205 °C, un solo cestello, per giunta un po’ stretto) sono reali ma raramente pesano nell’uso quotidiano. Per due piatti insieme è più adatta la Ninja Double Stack; per una soluzione più semplice senza Wi-Fi, la Philips Serie 3000 XL resta una scelta sicura.</p>`,
+    nl: `<p><strong>De Cosori Dual Blaze Smart 6,4 L is in 2026 een van de interessantste airfryers met één lade als je gelijkmatige resultaten wilt zonder de mand te schudden: hij verwarmt van boven en van onderen, is te bedienen met de VeSync-app en past bij een huishouden van drie tot vijf personen.</strong> Zijn beperkingen zijn bekend: maximaal 205 °C, één lade en een mand die wat smal is voor grote stukken. Deze review is gebaseerd op de specificaties van de fabrikant, besprekingen in de vakpers en reviews van geverifieerde kopers, niet op eigen gebruik.</p>
 
-<p>Twijfel je nog tussen formaten? Onze <a href="/nl/guides/airfryers">airfryergids</a> zet het hele aanbod op een rij, van compacte modellen tot dubbele lades.</p>
+<p>Twijfel je nog tussen verschillende formaten? Onze <a href="/nl/guides/airfryers">airfryergids</a> zet het hele aanbod op een rij, van compacte modellen tot dubbele lades.</p>
 
 <h2>Specificaties van de Cosori Dual Blaze 6,4 L</h2>
 <table>
 <thead><tr><th>Kenmerk</th><th>Detail</th></tr></thead>
 <tbody>
-<tr><td>Modelnummer</td><td>CAF-P583S (in verschillende kleuren en edities, afhankelijk van het land)</td></tr>
+<tr><td>Typenummer</td><td>CAF-P583S (in verschillende kleuren en edities, afhankelijk van het land)</td></tr>
 <tr><td>Inhoud mand</td><td>6,4 liter, één lade</td></tr>
 <tr><td>Verwarming</td><td>Twee elementen: één boven en één onder de mand</td></tr>
-<tr><td>Vermogen</td><td>Ongeveer 1.700 W volgens winkelvermeldingen</td></tr>
+<tr><td>Vermogen</td><td>Ongeveer 1.700 W volgens de productpagina’s van verkopers</td></tr>
 <tr><td>Temperatuurbereik</td><td>80 tot 205 °C</td></tr>
-<tr><td>Programma’s</td><td>12 vooraf ingestelde functies (friet, diepvries, kip, steak, vis, groenten, braden, bakken, grillen, opwarmen, warmhouden…)</td></tr>
-<tr><td>Connectiviteit</td><td>Wifi, VeSync-app, werkt met Amazon Alexa en Google Assistant</td></tr>
-<tr><td>Schoonmaak</td><td>Mand en rooster met antiaanbaklaag, vaatwasserbestendig</td></tr>
+<tr><td>Programma’s</td><td>12 vooraf ingestelde functies (friet, diepvriesproducten, kip, steak, vis, groenten, braden, bakken, gratineren, opwarmen, warmhouden…)</td></tr>
+<tr><td>Connectiviteit</td><td>Wifi, VeSync-app, werkt met Amazon Alexa en Google Assistent</td></tr>
+<tr><td>Onderhoud</td><td>Mand en rooster met antiaanbaklaag, vaatwasserbestendig</td></tr>
 </tbody>
 </table>
-<p>Goed om te weten: anders dan je soms leest, heeft dit model geen droogfunctie en haalt het geen 230 °C. Die functies bestaan op andere airfryers, maar niet op de Dual Blaze 6,4 L.</p>
+<p>Goed om te weten: anders dan je soms leest, heeft dit model geen droogfunctie en haalt het geen 230 °C. Die functies vind je wel op andere airfryers, maar niet op de Dual Blaze 6,4 L.</p>
 
 <h2>Wat de dubbele verwarming echt verandert</h2>
 <p>Een klassieke airfryer verwarmt alleen van boven: het element zit boven de ventilator, die de hete lucht naar het eten blaast. De bovenkant kleurt snel, de kant die op het rooster ligt veel minder. Vandaar het bekende advies om halverwege te schudden of om te draaien.</p>
-<p>De Dual Blaze voegt een tweede element onder de mand toe. Cosori belooft daarmee bereiden zonder voorverwarmen en zonder schudden voor de meeste recepten, met twee temperatuursensoren die alles regelen. Gebruikersbeoordelingen bevestigen vooral twee voordelen:</p>
+<p>De Dual Blaze heeft een tweede element onder de mand. Daardoor hoef je volgens Cosori bij de meeste recepten niet voor te verwarmen en niet te schudden; twee temperatuursensoren regelen het geheel. Reviews van gebruikers bevestigen vooral twee voordelen:</p>
 <ul>
-<li><strong>De onderkant kleurt beter</strong>: kippenvleugels, geroosterde groenten of nuggets worden gelijkmatiger zonder dat je iets hoeft te doen.</li>
-<li><strong>Aanzetten en weglopen</strong>: bij een doordeweekse maaltijd is het een echt gemak dat je de lade niet hoeft te openen.</li>
+<li><strong>De onderkant kleurt beter</strong>: kippenvleugels, geroosterde groenten of nuggets worden gelijkmatiger bruin zonder dat je ernaar hoeft om te kijken.</li>
+<li><strong>Aanzetten en weglopen</strong>: bij het avondeten op een werkdag is het echt prettig dat je de lade niet hoeft te openen.</li>
 </ul>
-<p>Het is wel goed dit te relativeren. Verschillende besprekingen in de vakpers vinden het verschil met de beste airfryers met alleen bovenwarmte beperkt, en sommige producten zoals diepvriesfriet hebben soms een paar minuten extra nodig om echt knapperig te worden. Bij een erg volle mand blijft schudden nuttig: dubbele verwarming compenseert geen te dikke laag.</p>
+<p>Toch zijn er kanttekeningen. Volgens verschillende besprekingen in de vakpers is het verschil met de beste airfryers met alleen bovenwarmte beperkt, en sommige producten, zoals diepvriesfriet, hebben soms een paar minuten extra nodig om echt krokant te worden. Bij een erg volle mand blijft schudden nuttig: de dubbele verwarming maakt een te dikke laag niet goed.</p>
 
 <h2>VeSync-app en bediening</h2>
-<p>Het aanraakpaneel bovenop het apparaat bundelt de 12 programma’s, de instelling van tijd en temperatuur en een pauzeknop. Het is goed leesbaar maar vrij compact, iets wat sommige kopers opmerken.</p>
+<p>Op het aanraakpaneel bovenop het apparaat vind je de 12 programma’s, de instellingen voor tijd en temperatuur en een pauzeknop. Het is goed leesbaar maar vrij compact, een punt van kritiek dat bij sommige kopers terugkomt.</p>
 <p>De VeSync-app biedt:</p>
 <ul>
 <li>op afstand starten en stoppen, met de resterende tijd in beeld;</li>
-<li>een receptenbibliotheek die je direct naar het apparaat stuurt;</li>
+<li>een receptenbibliotheek waaruit je recepten direct naar het apparaat stuurt;</li>
 <li>het maken en opslaan van eigen instellingen;</li>
-<li>spraakbediening via Alexa of Google Assistant.</li>
+<li>spraakbediening via Alexa of Google Assistent.</li>
 </ul>
-<p>Zoals veel slimme apparaten werkt hij op 2,4 GHz-wifi: als je router één gecombineerd 2,4/5 GHz-netwerk uitzendt, kan het koppelen wat aanpassing vragen. De app is optioneel: alle programma’s start je ook via het paneel. Wil je hem vergelijken met andere modellen die je met je telefoon bedient, lees dan onze <a href="/nl/blog/comparatif-airfryer-connecte-2026">vergelijking van slimme airfryers</a>.</p>
+<p>Zoals veel slimme apparaten maakt hij verbinding via wifi op 2,4 GHz. Zendt je modem of router één gecombineerd netwerk voor 2,4 en 5 GHz uit, dan moet je voor het koppelen misschien iets aanpassen. De app is optioneel: alle programma’s start je ook via het paneel. Wil je hem vergelijken met andere modellen die je met je telefoon bedient, lees dan onze <a href="/nl/blog/comparatif-airfryer-connecte-2026">vergelijking van slimme airfryers</a>.</p>
 
-<h2>Sterke en zwakke punten</h2>
+<h2>Sterke punten en minpunten</h2>
 <h3>Sterke punten</h3>
 <ul>
 <li><strong>Gelijkmatiger resultaat</strong> dankzij boven- en onderwarmte, met minder handelingen.</li>
-<li><strong>Geen voorverwarming</strong> nodig volgens de fabrikant, wat korte bereidingen versnelt.</li>
-<li><strong>Uitgebreide app</strong> en spraakassistenten, zonder verplichting.</li>
+<li><strong>Geen voorverwarming</strong> nodig volgens de fabrikant, zodat korte bereidingen sneller klaar zijn.</li>
+<li><strong>Uitgebreide app</strong> en spraakassistenten, maar je bent er niet aan gebonden.</li>
 <li><strong>Gezinsvriendelijke inhoud</strong>: 6,4 liter volstaat voor drie tot vijf porties bijgerecht.</li>
 <li><strong>Eenvoudig schoon te maken</strong>: mand en rooster kunnen in de vaatwasser.</li>
-<li><strong>Stil in gebruik</strong> volgens de meeste kopers, eerder een zoem dan storend geluid.</li>
+<li><strong>Stil in gebruik</strong> volgens de meeste kopers: eerder een zacht geruis dan hinderlijk lawaai.</li>
 </ul>
-<h3>Zwakke punten</h3>
+<h3>Minpunten</h3>
 <ul>
-<li><strong>Maximaal 205 °C</strong>: genoeg voor bijna alles, minder ideaal om vlees heel heet dicht te schroeien.</li>
-<li><strong>Eén lade</strong>: twee gerechten op twee temperaturen tegelijk lukt niet.</li>
+<li><strong>Maximaal 205 °C</strong>: genoeg voor bijna alles, minder geschikt om vlees stevig aan te braden.</li>
+<li><strong>Eén lade</strong>: je kunt niet tegelijk twee gerechten op verschillende temperaturen bereiden.</li>
 <li><strong>Vrij smalle mand</strong> voor een grote hele kip of grote stukken.</li>
 <li><strong>Binnenrooster dat je aan twee ringen optilt</strong>, minder handig dan een handgreep als de bodem vettig is.</li>
 <li><strong>Geen droogfunctie</strong> op dit model.</li>
@@ -641,8 +641,8 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Wat kopers zeggen</h2>
-<p>Op de grote Europese verkoopplatforms krijgt de Dual Blaze overwegend zeer positieve beoordelingen. De lof gaat vooral naar het gelijkmatige resultaat en de dagelijkse tijdwinst, daarna naar de app, gewaardeerd om de recepten en omdat je de bereiding vanuit een andere kamer kunt volgen.</p>
-<p>De meest gehoorde kritiek betreft de breedte van de mand, het schoonmaken van het binnenrooster en, bij een minderheid, de eerste wifi-installatie. Enkele kopers merken ook op dat de antiaanbaklaag siliconen of houten keukengerei nodig heeft om lang mee te gaan, wat voor alle manden van dit type geldt.</p>
+<p>Op de grote Europese webwinkels krijgt de Dual Blaze overwegend zeer positieve beoordelingen. De lof gaat vooral naar het gelijkmatige resultaat en de dagelijkse tijdwinst, en daarna naar de app: kopers waarderen de recepten en het feit dat ze de bereiding vanuit een andere kamer kunnen volgen.</p>
+<p>De meest gehoorde kritiek betreft de breedte van de mand, het schoonmaken van het binnenrooster en, bij een minderheid, het eerste instellen van de wifi. Enkele kopers merken ook op dat de antiaanbaklaag alleen lang meegaat met keukengerei van siliconen of hout: dat geldt voor alle manden van dit type.</p>
 
 <h2>Cosori Dual Blaze tegenover de concurrentie</h2>
 <table>
@@ -654,37 +654,37 @@ export const article: BlogArticle = {
 <tr><td>Philips Airfryer Combi XXL Connected 8,3 L</td><td>8,3 L</td><td>Van boven</td><td>Wifi, app</td><td>Grote gezinnen, topsegment</td></tr>
 </tbody>
 </table>
-<p>Ten opzichte van de <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 Series XL</a> voegt de Cosori bij een vergelijkbare inhoud onderwarmte en een app toe. Tegenover de Ninja Double Stack mist hij het gelijktijdig bereiden van twee gerechten, maar is hij compacter en slim. Om die keuze te maken, lees ons artikel over <a href="/nl/blog/airfryer-simple-vs-double-panier">airfryer met één of twee manden</a>.</p>
+<p>Ten opzichte van de <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 Series XL</a> voegt de Cosori bij een vergelijkbare inhoud onderwarmte en een app toe. Vergeleken met de Ninja Double Stack kun je er geen twee gerechten tegelijk mee bereiden, maar hij is compacter en heeft wel een app. Twijfel je? Lees dan ons artikel <a href="/nl/blog/airfryer-simple-vs-double-panier">airfryer met één of twee manden</a>.</p>
 
-<h2>Slim gebruiken in het dagelijks leven</h2>
-<p>De dubbele verwarming verandert een paar gewoonten van klassieke airfryers. Dit zijn de tips die het vaakst terugkomen in de aanwijzingen van de fabrikant en bij vaste gebruikers.</p>
+<h2>Tips voor dagelijks gebruik</h2>
+<p>Door de dubbele verwarming moet je een paar gewoonten van een klassieke airfryer bijstellen. Dit zijn de tips die het vaakst terugkomen in de aanwijzingen van de fabrikant en bij vaste gebruikers.</p>
 <h3>Begin met de programma’s en stel daarna bij</h3>
-<p>De 12 programma’s zijn een goed vertrekpunt, maar elk product reageert anders afhankelijk van grootte, dikte en hoeveelheid. Controleer de eerste keer kort voor het einde, noteer de instelling die bij je past en sla die op in de app om hem met één tik terug te vinden.</p>
+<p>De 12 programma’s zijn een goed vertrekpunt, maar elk product reageert anders, afhankelijk van grootte, dikte en hoeveelheid. Kijk de eerste keer kort voor het einde hoe ver het eten is, noteer de instelling die bij je past en sla die op in de app om hem met één tik terug te vinden.</p>
 <h3>Bereidingstijden van gewone recepten iets inkorten</h3>
-<p>Omdat de onderkant direct verwarmd wordt en voorverwarmen niet nodig is, kan een recept voor een airfryer met bovenwarmte sneller klaar zijn. Begin met een paar minuten minder en verleng zo nodig: dat is makkelijker dan een te gaar gerecht redden.</p>
+<p>Omdat de onderkant direct verwarmd wordt en voorverwarmen niet nodig is, is een recept voor een airfryer met alleen bovenwarmte soms sneller klaar. Begin met een paar minuten minder en verleng zo nodig: dat is makkelijker dan een gerecht redden dat te lang heeft gestaan.</p>
 <h3>Een lepel olie is genoeg</h3>
-<p>Bij verse groenten en zelfgesneden aardappelen zorgt een beetje olie, vooraf erdoor gemengd, voor duidelijk meer krokantheid. Voorgegaarde diepvriesproducten hebben meestal niets nodig. Voor meer houvast biedt onze gids <a href="/nl/blog/cuisiner-healthy-airfryer">gezond koken met de airfryer</a> eenvoudige richtlijnen.</p>
+<p>Meng verse groenten en zelfgesneden aardappelen vooraf met een beetje olie: dat maakt ze duidelijk krokanter. Voorgegaarde diepvriesproducten hebben meestal geen olie nodig. Meer eenvoudige richtlijnen vind je in onze gids <a href="/nl/blog/cuisiner-healthy-airfryer">gezond koken met de airfryer</a>.</p>
 <h3>Schoonmaak en veiligheid</h3>
-<p>Laat de lade afkoelen voor je hem schoonmaakt en gebruik geen schuursponsjes op de laag. Steek de stekker rechtstreeks in een wandcontactdoos in plaats van een volle stekkerdoos, zet het apparaat op een stabiel, hittebestendig werkblad en gebruik het nooit onder een laag schap. Deze voorzorgen gelden voor alle airfryers van dit vermogen.</p>
+<p>Laat de lade afkoelen voor je hem schoonmaakt en gebruik geen schuursponsjes op de antiaanbaklaag. Steek de stekker rechtstreeks in een stopcontact in de muur, niet in een volle stekkerdoos, zet het apparaat op een stabiel, hittebestendig werkblad en gebruik het nooit onder een laag hangende plank. Deze voorzorgsmaatregelen gelden voor alle airfryers van dit vermogen.</p>
 
-<h2>Fouten om te vermijden</h2>
+<h2>Veelgemaakte fouten</h2>
 <ul>
-<li><strong>De mand overvol doen</strong>: ook met twee elementen moet de lucht kunnen circuleren. Boven ongeveer anderhalve laag schudden of in twee keer bereiden.</li>
-<li><strong>Metalen keukengerei gebruiken</strong>: dat krast de antiaanbaklaag van mand en rooster.</li>
+<li><strong>De mand te vol doen</strong>: ook met twee elementen moet de lucht kunnen circuleren. Ligt er meer dan anderhalve laag in, schud dan of bereid het in twee keer.</li>
+<li><strong>Metalen keukengerei gebruiken</strong>: daarmee kras je de antiaanbaklaag van mand en rooster.</li>
 <li><strong>Bakpapier los in een lege mand leggen</strong>: de ventilator kan het tegen het element blazen. Leg het altijd onder het eten.</li>
-<li><strong>Het apparaat tegen de muur of onder een laag kastje zetten</strong>: laat ruimte rond de uitlaten voor hete lucht.</li>
+<li><strong>Het apparaat tegen de muur of onder een laag kastje zetten</strong>: laat ruimte vrij rond de uitblaasopeningen voor hete lucht.</li>
 <li><strong>De bodem van de lade vergeten</strong>: vet dat zich daar ophoopt, gaat roken bij de volgende bereiding. Na elk gebruik uitspoelen is genoeg.</li>
 </ul>
 
 <h2>Voor wie is de Cosori Dual Blaze?</h2>
 <ul>
 <li><strong>Huishoudens van drie tot vijf personen</strong> die vooral bijgerechten, gevogelte en groenten maken.</li>
-<li><strong>Wie een hekel heeft aan schudden</strong> en liever aanzet en ondertussen iets anders doet.</li>
-<li><strong>Smarthomeliefhebbers</strong> die begeleide recepten, bediening op afstand en spraakbesturing waarderen.</li>
+<li><strong>Wie een hekel heeft aan schudden</strong> en liever de airfryer aanzet en ondertussen iets anders doet.</li>
+<li><strong>Liefhebbers van slimme apparaten</strong> die begeleide recepten, volgen op afstand en spraakbediening waarderen.</li>
 </ul>
-<p>Minder geschikt voor wie vaak twee verschillende gerechten tegelijk maakt of zeer hoge temperaturen zoekt om vlees dicht te schroeien.</p>
+<p>Hij is minder geschikt voor wie vaak twee verschillende gerechten tegelijk maakt of een heel hoge temperatuur wil om vlees aan te braden.</p>
 
-<h2>Eindoordeel</h2>
+<h2>Ons oordeel</h2>
 <p>De Cosori Dual Blaze Smart 6,4 L maakt zijn belangrijkste belofte waar: gelijkmatiger bereiden met minder handelingen dankzij de dubbele verwarming. Tel daar een doordachte app, eenvoudige schoonmaak en een gezinsformaat bij op, en je hebt een van de meest evenwichtige airfryers met één lade van dit moment. Zijn beperkingen (maximaal 205 °C, één lade, wat smalle mand) zijn echt, maar zitten bij dagelijks gebruik zelden in de weg. Voor twee gerechten tegelijk past de Ninja Double Stack beter; voor een eenvoudiger model zonder wifi blijft de Philips 3000 Series XL een veilige keuze.</p>`,
     pl: `<p><strong>Cosori Dual Blaze Smart 6,4 l to jedna z najciekawszych frytkownic beztłuszczowych z jedną szufladą w 2026 roku dla osób, które chcą równomiernie smażyć bez potrząsania koszem: grzeje od góry i od dołu, można nią sterować z aplikacji VeSync i sprawdzi się w 3–5-osobowym gospodarstwie domowym.</strong> Jej ograniczenia są znane: maksymalna temperatura 205 °C, tylko jedna szuflada i kosz nieco za wąski na duże kawałki mięsa. To omówienie opiera się na danych producenta, analizach prasy specjalistycznej i opiniach zweryfikowanych kupujących, a nie na samodzielnym testowaniu urządzenia.</p>
 
@@ -1127,11 +1127,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'L’appareil combine une résistance au-dessus du panier et une seconde en dessous, pilotées par deux sondes de température. Le dessous des aliments chauffe directement, ce qui réduit le besoin de secouer ou de retourner en cours de cuisson.',
-        en: 'The unit combines one heating element above the basket and a second below it, managed by two temperature sensors. The underside of the food heats directly, which reduces the need to shake or flip during cooking.',
-        de: 'Das Gerät kombiniert ein Heizelement über dem Korb mit einem zweiten darunter, gesteuert von zwei Temperatursensoren. Die Unterseite der Speisen wird direkt erhitzt, sodass Schütteln oder Wenden seltener nötig ist.',
-        es: 'El aparato combina una resistencia encima de la cesta y otra debajo, controladas por dos sensores de temperatura. La parte inferior de los alimentos se calienta directamente, lo que reduce la necesidad de agitar o dar la vuelta.',
-        it: 'L’apparecchio combina una resistenza sopra il cestello e una seconda sotto, gestite da due sensori di temperatura. La parte inferiore del cibo si scalda direttamente, riducendo la necessità di scuotere o girare.',
-        nl: 'Het apparaat combineert een verwarmingselement boven de mand met een tweede eronder, aangestuurd door twee temperatuursensoren. De onderkant van het eten wordt direct verwarmd, waardoor schudden of omdraaien minder nodig is.',
+        en: 'The air fryer has one heating element above the basket and a second below it, controlled by two temperature sensors. The underside of the food is heated directly, so you don’t need to shake or turn it as often during cooking.',
+        de: 'Das Gerät hat ein Heizelement über dem Korb und ein zweites darunter, gesteuert von zwei Temperatursensoren. Die Unterseite des Garguts wird direkt erhitzt, deshalb müssen Sie seltener schütteln oder wenden.',
+        es: 'El aparato combina una resistencia encima de la cesta y otra debajo, controladas por dos sondas de temperatura. La parte inferior de los alimentos recibe el calor directamente, así que hace menos falta agitar la cesta o dar la vuelta a la comida a mitad de cocción.',
+        it: 'L’apparecchio combina una resistenza sopra il cestello e una seconda sotto, gestite da due sensori di temperatura. La parte inferiore del cibo si scalda direttamente, quindi c’è meno bisogno di scuotere il cestello o girare il cibo durante la cottura.',
+        nl: 'De airfryer heeft een verwarmingselement boven de mand en een tweede eronder, aangestuurd door twee temperatuursensoren. Zo wordt de onderkant van het eten direct verwarmd en hoef je minder vaak te schudden of om te draaien.',
         pl: 'Frytkownica ma jedną grzałkę nad koszem i drugą pod nim, a ich pracę regulują dwa czujniki temperatury. Spód potraw jest ogrzewany bezpośrednio, więc rzadziej trzeba potrząsać koszem lub obracać jedzenie w trakcie smażenia.',
         sv: 'Apparaten har ett värmeelement ovanför korgen och ett under, som styrs med hjälp av två temperaturgivare. Matens undersida värms direkt, så du behöver inte skaka eller vända maten lika ofta under tillagningen.',
         us: 'It pairs one heating element above the basket with a second one below it, managed by two temperature sensors. The underside of the food heats directly, so there\'s less need to shake or flip during cooking.',
@@ -1141,7 +1141,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Faut-il préchauffer le Cosori Dual Blaze ?',
-        en: 'Do you need to preheat the Cosori Dual Blaze?',
+        en: 'Do I need to preheat the Cosori Dual Blaze?',
         de: 'Muss man die Cosori Dual Blaze vorheizen?',
         es: '¿Hay que precalentar la Cosori Dual Blaze?',
         it: 'Bisogna preriscaldare la Cosori Dual Blaze?',
@@ -1153,11 +1153,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Non, selon Cosori, la double résistance permet de lancer la cuisson directement. Pensez simplement à réduire de quelques minutes les recettes écrites pour un airfryer classique avec préchauffage.',
-        en: 'No, according to Cosori the dual heating lets you start cooking straight away. Just trim a few minutes off recipes written for a conventional air fryer that includes preheating.',
-        de: 'Nein, laut Cosori kann man dank doppelter Beheizung direkt loslegen. Rezepte für klassische Heißluftfritteusen mit Vorheizen sollten Sie einfach um ein paar Minuten kürzen.',
-        es: 'No, según Cosori la doble resistencia permite empezar a cocinar directamente. Basta con restar unos minutos a las recetas pensadas para una freidora clásica con precalentamiento.',
+        en: 'No. According to Cosori, the dual heating elements let you start cooking straight away. Just knock a few minutes off recipes written for a conventional air fryer that needs preheating.',
+        de: 'Nein. Laut Cosori können Sie dank der doppelten Beheizung sofort loslegen. Bei Rezepten für klassische Airfryer mit Vorheizen ziehen Sie einfach ein paar Minuten ab.',
+        es: 'No, según Cosori la doble resistencia permite empezar a cocinar directamente. Eso sí, resta unos minutos a las recetas pensadas para una freidora de aire convencional con precalentamiento.',
         it: 'No, secondo Cosori la doppia resistenza permette di avviare subito la cottura. Basta togliere qualche minuto alle ricette pensate per una friggitrice classica con preriscaldamento.',
-        nl: 'Nee, volgens Cosori kun je dankzij de dubbele verwarming direct beginnen. Kort recepten voor een klassieke airfryer met voorverwarmen gewoon een paar minuten in.',
+        nl: 'Nee, volgens Cosori kun je dankzij de dubbele verwarming direct beginnen. Bij recepten voor een gewone airfryer met voorverwarmen haal je er gewoon een paar minuten af.',
         pl: 'Nie. Według Cosori dzięki dwóm grzałkom można zacząć smażenie od razu. Pamiętaj tylko, by o kilka minut skrócić czas w przepisach przygotowanych dla klasycznej frytkownicy z nagrzewaniem wstępnym.',
         sv: 'Nej, enligt Cosori kan du börja laga maten direkt tack vare de två värmeelementen. Tänk bara på att dra av några minuter i recept som är skrivna för en vanlig airfryer med förvärmning.',
         us: 'No. According to Cosori, the dual heating lets you start cooking right away. Just shave a few minutes off recipes written for a conventional air fryer that calls for preheating.',
@@ -1180,9 +1180,9 @@ export const article: BlogArticle = {
       answer: {
         fr: 'Oui pour les accompagnements, la volaille en morceaux et les légumes. Pour un plat principal et un accompagnement cuits en même temps à des réglages différents, un modèle à deux tiroirs comme le Ninja Double Stack sera plus pratique.',
         en: 'Yes for sides, chicken pieces and vegetables. If you want to cook a main and a side at the same time on different settings, a dual-drawer model such as the Ninja Double Stack is more practical.',
-        de: 'Ja, für Beilagen, Geflügelteile und Gemüse. Wer Hauptgericht und Beilage gleichzeitig mit unterschiedlichen Einstellungen zubereiten will, ist mit einem Doppelschubladenmodell wie der Ninja Double Stack besser bedient.',
-        es: 'Sí para guarniciones, piezas de pollo y verduras. Si quieres cocinar a la vez un plato principal y una guarnición con ajustes distintos, un modelo de doble cajón como la Ninja Double Stack es más práctico.',
-        it: 'Sì per contorni, pollo a pezzi e verdure. Se vuoi cuocere insieme un piatto principale e un contorno con impostazioni diverse, un modello a doppio cassetto come la Ninja Double Stack è più pratico.',
+        de: 'Für Beilagen, Geflügelteile und Gemüse ja. Wer Hauptgericht und Beilage gleichzeitig mit unterschiedlichen Einstellungen garen möchte, ist mit einem Modell mit zwei Schubladen wie der Ninja Double Stack besser bedient.',
+        es: 'Sí, para guarniciones, pollo en trozos y verduras. Si quieres cocinar a la vez un plato principal y una guarnición con ajustes distintos, un modelo de doble cajón como la Ninja Double Stack es más práctico.',
+        it: 'Sì, per contorni, pollo a pezzi e verdure. Se vuoi cuocere insieme un piatto principale e un contorno con impostazioni diverse, un modello a doppio cassetto come la Ninja Double Stack è più pratico.',
         nl: 'Ja, voor bijgerechten, stukken kip en groenten. Wil je een hoofdgerecht en een bijgerecht tegelijk op verschillende standen maken, dan is een model met twee lades zoals de Ninja Double Stack handiger.',
         pl: 'Tak, jeśli chodzi o dodatki, kawałki drobiu i warzywa. Jeśli danie główne i dodatek mają być gotowe jednocześnie, ale przy różnych ustawieniach, wygodniejszy będzie model z dwiema szufladami, np. Ninja Double Stack.',
         sv: 'Ja, för tillbehör, kycklingbitar och grönsaker. Vill du laga en huvudrätt och ett tillbehör samtidigt med olika inställningar är en modell med två lådor, som Ninja Double Stack, smidigare.',
@@ -1193,7 +1193,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Peut-on utiliser le Cosori Dual Blaze sans l’application ?',
-        en: 'Can you use the Cosori Dual Blaze without the app?',
+        en: 'Can I use the Cosori Dual Blaze without the app?',
         de: 'Lässt sich die Cosori Dual Blaze ohne App nutzen?',
         es: '¿Se puede usar la Cosori Dual Blaze sin la app?',
         it: 'Si può usare la Cosori Dual Blaze senza app?',
@@ -1206,10 +1206,10 @@ export const article: BlogArticle = {
       answer: {
         fr: 'Oui. Les 12 programmes, le temps et la température se règlent sur le panneau tactile. L’application VeSync ajoute le suivi à distance, les recettes et la commande vocale, mais elle reste facultative.',
         en: 'Yes. The 12 presets, time and temperature are all set on the touch panel. The VeSync app adds remote monitoring, recipes and voice control, but it is optional.',
-        de: 'Ja. Die 12 Programme, Zeit und Temperatur lassen sich am Touch-Bedienfeld einstellen. Die VeSync-App ergänzt Fernüberwachung, Rezepte und Sprachsteuerung, ist aber optional.',
+        de: 'Ja. Die 12 Programme, Zeit und Temperatur lassen sich am Touch-Bedienfeld einstellen. Die VeSync-App bringt Fernüberwachung, Rezepte und Sprachsteuerung dazu, ist aber kein Muss.',
         es: 'Sí. Los 12 programas, el tiempo y la temperatura se ajustan en el panel táctil. La app VeSync añade seguimiento a distancia, recetas y control por voz, pero es opcional.',
         it: 'Sì. I 12 programmi, il tempo e la temperatura si impostano dal pannello touch. L’app VeSync aggiunge controllo a distanza, ricette e comandi vocali, ma è facoltativa.',
-        nl: 'Ja. De 12 programma’s, tijd en temperatuur stel je in op het aanraakpaneel. De VeSync-app voegt bediening op afstand, recepten en spraakbesturing toe, maar is optioneel.',
+        nl: 'Ja. De 12 programma’s, de tijd en de temperatuur stel je in op het aanraakpaneel. De VeSync-app voegt volgen op afstand, recepten en spraakbediening toe, maar je hebt de app niet nodig.',
         pl: 'Tak. Na panelu dotykowym wybierzesz każdy z 12 programów oraz ustawisz czas i temperaturę. Aplikacja VeSync daje dodatkowo zdalny podgląd, przepisy i sterowanie głosem, ale nie jest obowiązkowa.',
         sv: 'Ja. De 12 programmen, tiden och temperaturen ställer du in på pekpanelen. Appen VeSync ger dig övervakning på distans, recept och röststyrning, men den är frivillig.',
         us: 'Yes. The 12 presets, time and temperature are all set on the touch panel. The VeSync app adds remote monitoring, recipes and voice control, but it\'s optional.',
@@ -1231,11 +1231,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'La plage de réglage va de 80 à 205 °C. C’est suffisant pour les frites, la volaille, les légumes et la plupart des desserts, mais un peu juste pour saisir très fortement une viande rouge.',
-        en: 'The range runs from 80 to 205 °C. That covers fries, poultry, vegetables and most desserts, but it is a little limited for a very hard sear on red meat.',
-        de: 'Der Einstellbereich reicht von 80 bis 205 °C. Das genügt für Pommes, Geflügel, Gemüse und die meisten Desserts, ist aber für sehr scharfes Anbraten von rotem Fleisch etwas knapp.',
-        es: 'El rango va de 80 a 205 °C. Basta para patatas, aves, verduras y la mayoría de postres, aunque se queda algo corto para sellar con fuerza una carne roja.',
-        it: 'L’intervallo va da 80 a 205 °C. È sufficiente per patatine, pollame, verdure e la maggior parte dei dolci, ma un po’ limitato per rosolare con forza la carne rossa.',
-        nl: 'Het bereik loopt van 80 tot 205 °C. Genoeg voor friet, gevogelte, groenten en de meeste desserts, maar wat krap om rood vlees heel heet dicht te schroeien.',
+        en: 'It goes from 80 to 205°C. That’s enough for chips, poultry, vegetables and most desserts, but a little low for giving red meat a really hard sear.',
+        de: 'Der Einstellbereich reicht von 80 bis 205 °C. Das genügt für Pommes, Geflügel, Gemüse und die meisten Desserts, ist aber etwas knapp, um rotes Fleisch sehr scharf anzubraten.',
+        es: 'La temperatura se ajusta de 80 a 205 °C. Basta para patatas fritas, aves, verduras y la mayoría de los postres, aunque se queda algo corta para sellar a fuego fuerte una carne roja.',
+        it: 'La temperatura si regola da 80 a 205 °C. Basta per patatine, pollame, verdure e quasi tutti i dolci, ma è un po’ bassa per rosolare bene la carne rossa.',
+        nl: 'De temperatuur is in te stellen van 80 tot 205 °C. Dat is genoeg voor friet, gevogelte, groenten en de meeste desserts, maar wat krap om rood vlees stevig aan te braden.',
         pl: 'Temperaturę można ustawić w zakresie 80–205 °C. To wystarczy do frytek, drobiu, warzyw i większości deserów, ale do mocnego obsmażenia czerwonego mięsa to trochę za mało.',
         sv: 'Temperaturen går att ställa in mellan 80 och 205 °C. Det räcker för pommes frites, fågel, grönsaker och de flesta efterrätter, men är lite i underkant när du vill bryna rött kött riktigt kraftigt.',
         us: 'The range runs from 175°F to 400°F (80–205°C). That covers fries, chicken, vegetables and most desserts, but it falls a little short for a really hard sear on steak.',
@@ -1257,11 +1257,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Oui, le panier et la grille antiadhésifs sont compatibles lave-vaisselle. Pour préserver le revêtement plus longtemps, un lavage à la main à l’eau chaude savonneuse avec une éponge non abrasive reste conseillé.',
-        en: 'Yes, the non-stick basket and crisper plate are dishwasher safe. To make the coating last longer, hand washing in hot soapy water with a non-abrasive sponge is still recommended.',
-        de: 'Ja, der antihaftbeschichtete Korb und der Einsatz sind spülmaschinenfest. Damit die Beschichtung länger hält, empfiehlt sich dennoch das Spülen von Hand mit heißem Seifenwasser und einem weichen Schwamm.',
-        es: 'Sí, la cesta y la rejilla antiadherentes son aptas para lavavajillas. Para conservar el revestimiento más tiempo, se recomienda lavarlas a mano con agua caliente y jabón y una esponja no abrasiva.',
+        en: 'Yes, the non-stick basket and crisper plate are dishwasher safe. To make the coating last longer, though, washing them by hand in hot soapy water with a non-abrasive sponge is still recommended.',
+        de: 'Ja, Korb und Gittereinsatz sind antihaftbeschichtet und spülmaschinenfest. Damit die Beschichtung länger hält, empfiehlt sich trotzdem Handwäsche mit heißem Spülwasser und einem weichen Schwamm.',
+        es: 'Sí, la cesta y la rejilla antiadherentes son aptas para lavavajillas. Para conservar el revestimiento más tiempo, es mejor lavarlas a mano con agua caliente, jabón y una esponja que no raye.',
         it: 'Sì, cestello e griglia antiaderenti vanno in lavastoviglie. Per preservare più a lungo il rivestimento è comunque consigliato il lavaggio a mano con acqua calda e sapone e una spugna non abrasiva.',
-        nl: 'Ja, de mand en het rooster met antiaanbaklaag kunnen in de vaatwasser. Om de laag langer mooi te houden, is afwassen met warm sop en een zachte spons toch aan te raden.',
+        nl: 'Ja, de mand en het rooster met antiaanbaklaag kunnen in de vaatwasser. Wil je de laag langer mooi houden, was ze dan toch met de hand af in warm sop met een zachte spons.',
         pl: 'Tak, kosz i kratkę z powłoką nieprzywierającą można myć w zmywarce. Jeśli jednak chcesz, by powłoka dłużej pozostała w dobrym stanie, lepiej myć je ręcznie w ciepłej wodzie z płynem do naczyń, miękką gąbką.',
         sv: 'Ja, korgen och gallret med non-stick-beläggning tål diskmaskin. Vill du att beläggningen ska hålla längre är det ändå bäst att diska för hand i varmt vatten med diskmedel och en svamp som inte repar.',
         us: 'Yes, the nonstick basket and crisper plate are dishwasher safe. To make the coating last longer, hand washing in hot, soapy water with a non-abrasive sponge is still the better choice.',

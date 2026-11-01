@@ -17,7 +17,7 @@ export const article: BlogArticle = {
         de: 'Schwarze Heißluftfritteuse auf einer Küchenarbeitsplatte',
         es: 'Freidora de aire negra sobre una encimera de cocina',
         it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
-        nl: 'Zwarte airfryer op een aanrecht in de keuken',
+        nl: 'Zwarte airfryer op het aanrecht',
         pl: 'Czarna frytkownica beztłuszczowa na kuchennym blacie',
         sv: 'Svart airfryer på en köksbänk',
         us: 'Black air fryer on a kitchen countertop',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Airfryer qui sent le plastique : causes et solutions efficaces',
-    en: 'Air Fryer Smells Like Plastic: Causes and Effective Solutions',
-    de: 'Heißluftfritteuse riecht nach Plastik: Ursachen und Lösungen',
+    en: 'Air Fryer Smells of Plastic? Causes and Fixes That Work',
+    de: 'Airfryer riecht nach Plastik: Ursachen und Lösungen',
     es: 'Freidora de aire que huele a plástico: causas y soluciones eficaces',
-    it: 'Friggitrice ad aria che odora di plastica: cause e soluzioni efficaci',
-    nl: 'Airfryer ruikt naar plastic: oorzaken en effectieve oplossingen',
+    it: 'Friggitrice ad aria che puzza di plastica: cause e soluzioni efficaci',
+    nl: 'Airfryer ruikt naar plastic: oorzaken en oplossingen die werken',
     pl: 'Frytkownica beztłuszczowa pachnie plastikiem: przyczyny i skuteczne rozwiązania',
     sv: 'Airfryern luktar plast: orsaker och lösningar som fungerar',
     us: 'Air Fryer Smells Like Plastic? Causes and Fixes That Work',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Votre airfryer dégage une odeur de plastique ? Découvrez pourquoi c\'est souvent normal sur un appareil neuf, comment l\'éliminer étape par étape et quand l\'odeur doit vraiment vous inquiéter.',
-    en: 'Does your air fryer smell like plastic? Find out why it is often normal on a new device, how to remove the odour step by step, and when the smell should genuinely worry you.',
-    de: 'Ihre Heißluftfritteuse riecht nach Plastik? Erfahren Sie, warum das bei einem neuen Gerät meist normal ist, wie Sie den Plastikgeruch Schritt für Schritt entfernen und wann der Geruch wirklich bedenklich ist.',
-    es: '¿Tu freidora de aire huele a plástico? Descubre por qué suele ser normal en un aparato nuevo, cómo eliminar el olor paso a paso y cuándo el olor debe preocuparte de verdad.',
-    it: 'La tua friggitrice ad aria odora di plastica? Scopri perché spesso è normale su un apparecchio nuovo, come eliminare l\'odore passo dopo passo e quando l\'odore deve davvero preoccuparti.',
-    nl: 'Ruikt je airfryer naar plastic? Ontdek waarom dit bij een nieuw apparaat vaak normaal is, hoe je de geur stap voor stap verwijdert en wanneer de geur je echt zorgen moet baren.',
+    en: 'Does your air fryer smell of plastic? Find out why it’s often normal on a new appliance, how to get rid of the smell step by step, and when you should genuinely be worried.',
+    de: 'Ihre Heißluftfritteuse riecht nach Plastik? Warum das bei einem neuen Gerät meist normal ist, wie Sie den Geruch Schritt für Schritt loswerden und wann er wirklich ein Warnsignal ist.',
+    es: '¿Tu freidora de aire huele a plástico? Te explicamos por qué suele ser normal en un aparato nuevo, cómo eliminar el olor paso a paso y cuándo debe preocuparte de verdad.',
+    it: 'La tua friggitrice ad aria puzza di plastica? Scopri perché su un apparecchio nuovo è spesso normale, come eliminare l\'odore passo passo e quando invece deve davvero preoccuparti.',
+    nl: 'Ruikt je airfryer naar plastic? Lees waarom dat bij een nieuw apparaat vaak normaal is, hoe je de geur stap voor stap verwijdert en wanneer je je echt zorgen moet maken.',
     pl: 'Z Twojej frytkownicy beztłuszczowej czuć plastik? Sprawdź, dlaczego w nowym urządzeniu to często normalne, jak krok po kroku pozbyć się zapachu i kiedy naprawdę powinien Cię zaniepokoić.',
     sv: 'Luktar din airfryer plast? Se varför det ofta är helt normalt i en ny apparat, hur du blir av med lukten steg för steg och när lukten faktiskt är ett varningstecken.',
     us: 'Does your air fryer smell like plastic? Here\'s why it\'s often normal on a new appliance, how to get rid of the odor step by step and when the smell is a real cause for concern.',
@@ -279,409 +279,409 @@ export const article: BlogArticle = {
 <h2>Conclusion</h2>
 <p>Si votre airfryer sent le plastique, c\'est presque toujours normal et sans danger lors de la première mise en service. Nettoyez l\'appareil, faites-le tourner à vide 15 à 20 minutes à 200 °C, aérez et utilisez au besoin citron ou vinaigre : dans la plupart des cas, l\'odeur disparaît. Si elle reste forte et persistante ou devient âcre, cessez l\'utilisation et contactez le SAV. Avec une bonne première mise en service et un modèle de qualité, idéalement sans PFAS, vous profiterez vite de résultats croustillants et sans odeur.</p>`,
 
-    en: `<h2>Air fryer smells like plastic: don\'t panic on first use</h2>
-<p>You have just unboxed a brand-new air fryer, excited to make crispy fries with little fat, and as soon as it heats up a plastic smell fills your kitchen. That is understandably worrying, but in the vast majority of cases it is completely normal. Almost every appliance with a heating element and a plastic housing gives off a plastic or slightly chemical smell during the first few uses.</p>
-<p>In this guide we explain clearly why your air fryer smells like plastic, how to remove the odour step by step, when you should be concerned, and how to avoid the issue on your next purchase.</p>
+    en: `<h2>Air fryer smells of plastic? Don’t panic on first use</h2>
+<p>You’ve just unboxed a brand-new air fryer and can’t wait to make crispy chips with hardly any fat, but as soon as it heats up, a smell of plastic fills the kitchen. It’s understandably worrying, but in the vast majority of cases it’s completely normal. Almost every appliance with a heating element and a plastic housing gives off a plastic or slightly chemical smell the first few times you use it.</p>
+<p>In this guide we explain why your air fryer smells of plastic, how to get rid of the smell step by step, when you should be concerned and how to avoid the problem next time you buy.</p>
 
-<h2>Why does a new air fryer smell like plastic?</h2>
-<p>Before reaching for a fix, it helps to understand the cause. The plastic smell usually has a harmless explanation, but not always.</p>
+<h2>Why does a new air fryer smell of plastic?</h2>
+<p>Before reaching for a fix, it helps to understand the cause. The smell usually has a harmless explanation, but not always.</p>
 
-<h3>1. Manufacturing residue on a new device</h3>
-<p>During production, tiny amounts of oils, lubricants and release agents remain on the parts, along with protective coatings applied for shipping. When the appliance first heats up, these residues evaporate, which is the most common cause of the smell on first use.</p>
+<h3>1. Manufacturing residue on a new appliance</h3>
+<p>During production, tiny amounts of oil, lubricant and release agent are left on the parts, along with protective coatings applied for shipping. When the appliance first heats up, this residue evaporates, and that’s the most common cause of the smell on first use.</p>
 
-<h3>2. The coating reaching high heat for the first time</h3>
-<p>The basket\'s non-stick coating and the plastic housing parts are brought to high temperature for the very first time. Volatile compounds are released, creating a new, slightly chemical smell. This effect normally fades on its own after a few uses.</p>
+<h3>2. The coating heating up for the first time</h3>
+<p>The basket’s non-stick coating and the plastic parts of the housing are heated to high temperatures for the very first time. This releases volatile compounds, which give off that new, slightly chemical smell. It usually fades on its own after a few uses.</p>
 
-<h3>3. Low-quality plastic</h3>
-<p>Very cheap appliances sometimes use low-cost plastics that smell stronger and for longer. If the smell persists after several uses, material quality may be a factor.</p>
+<h3>3. Poor-quality plastic</h3>
+<p>Very cheap appliances sometimes use low-cost plastics that smell stronger and for longer. If the smell is still there after several uses, the quality of the materials may be to blame.</p>
 
 <h3>4. Overheating components</h3>
-<p>If the device suddenly smells strongly of plastic after a period of normal use, often with a sharp, hot odour, a component may be overheating. Possible causes include a blocked fan, clogged vents or a fault. This is not a normal break-in smell and should be taken seriously.</p>
+<p>If the appliance suddenly smells strongly of plastic after a period of normal use, often with a sharp, “hot” smell, a component may be overheating. Possible causes include a blocked fan, clogged vents or a fault. This is not the normal new-appliance smell, and you should take it seriously.</p>
 
-<h3>5. Burnt food residue</h3>
-<p>Sometimes it is not a plastic smell at all but burnt food or grease on the heating element. As it heats, it can melt or char and produce an odour resembling burnt plastic. A thorough cleaning solves this.</p>
+<h3>5. Burnt-on food</h3>
+<p>Sometimes it isn’t plastic at all, but food or grease burnt onto the heating element. As it heats up, it can melt or char and give off a smell a lot like burning plastic. A thorough clean sorts it out.</p>
 
-<h2>How to remove the plastic smell: step-by-step guide</h2>
-<p>On a new appliance, the smell almost always disappears with a few simple steps. Work through them in order.</p>
+<h2>How to get rid of the plastic smell, step by step</h2>
+<p>On a new appliance, a few simple steps almost always get rid of the smell. Work through them in order.</p>
 
-<h3>Step 1: clean before first use</h3>
+<h3>Step 1: clean it before first use</h3>
 <ul>
-<li><strong>Remove the basket and drawer</strong> and wash them in warm water with a little dish soap and a soft sponge.</li>
-<li><strong>Dry thoroughly</strong> to avoid any heated-water-and-plastic smell.</li>
-<li><strong>Wipe the inside of the housing</strong> with a damp cloth, never submerging the appliance itself in water.</li>
+<li><strong>Take out the basket and drawer</strong> and wash them in warm water with a little washing-up liquid and a soft sponge.</li>
+<li><strong>Dry everything thoroughly</strong> so you don’t get a smell of hot water mixed with plastic.</li>
+<li><strong>Wipe the inside of the housing</strong> with a damp cloth, but never put the appliance itself in water.</li>
 </ul>
 
 <h3>Step 2: run the air fryer empty</h3>
-<p>This is the most important step. You run the appliance once while empty so manufacturing residues evaporate in a controlled way.</p>
+<p>This is the most important step. Running the appliance once while it’s empty lets the manufacturing residue burn off in a controlled way.</p>
 <ul>
 <li><strong>Leave the basket empty</strong>, with no food inside.</li>
-<li><strong>Set it to 200°C</strong> and run the appliance for <strong>15 to 20 minutes</strong>.</li>
-<li><strong>Follow your manual:</strong> if the manufacturer gives a different time or temperature for the first empty run, use theirs.</li>
-<li><strong>Open a window</strong> or turn on the extractor hood, as odour is released during this phase.</li>
-<li><strong>Let it cool</strong>, then briefly rinse the basket again.</li>
-<li>If the smell is still noticeable, <strong>repeat the process a second time</strong>.</li>
+<li><strong>Set it to 200°C</strong> and run it for <strong>15 to 20 minutes</strong>.</li>
+<li><strong>Follow your manual:</strong> if the manufacturer gives a different time or temperature for the first empty run, go with theirs.</li>
+<li><strong>Open a window</strong> or turn on the cooker hood, as it will give off some smell at this stage.</li>
+<li><strong>Let it cool</strong>, then give the basket another quick rinse.</li>
+<li>If you can still smell it, <strong>run it empty a second time</strong>.</li>
 </ul>
 
 <h3>Step 3: use natural odour neutralisers</h3>
-<p>If a slight residual smell remains, simple tricks help:</p>
+<p>If a faint smell lingers, a few simple tricks can help:</p>
 <ul>
-<li><strong>Lemon:</strong> place a few lemon slices or some lemon juice in a heatproof dish and run for 5 to 10 minutes at 180°C. The acidity neutralises odours.</li>
-<li><strong>Vinegar:</strong> put a small heat-resistant bowl with a 1:1 water and white vinegar mix in the basket, heat briefly, then air it out well. Only do this if your manual allows an ovenproof dish in the basket; never pour liquid directly into the drawer.</li>
-<li><strong>Baking soda:</strong> leave the clean, switched-off basket with a little baking soda overnight; it reliably absorbs odours.</li>
+<li><strong>Lemon:</strong> put a few lemon slices or a little lemon juice in a suitable heatproof dish and run the air fryer for 5 to 10 minutes at 180°C. The acidity neutralises smells.</li>
+<li><strong>Vinegar:</strong> put a small heatproof bowl of water and white vinegar (1:1) in the basket, heat it briefly, then air the room well. Only do this if your manual allows a dish in the basket, and never pour liquid straight into the drawer.</li>
+<li><strong>Bicarbonate of soda:</strong> sprinkle a little into the clean basket and leave it overnight with the air fryer switched off; it’s very good at absorbing smells.</li>
 </ul>
 
-<h3>Step 4: ensure good ventilation</h3>
+<h3>Step 4: keep it well ventilated</h3>
 <ul>
-<li>Place the appliance with <strong>enough space from the wall</strong> so the vents stay clear.</li>
-<li>Air out the kitchen well during the first few uses.</li>
-<li>Clean the appliance after each use to avoid trapped odours; see our <a href="/en/blog/entretien-nettoyage-airfryer">air fryer cleaning and maintenance guide</a>.</li>
+<li>Leave <strong>enough space between the appliance and the wall</strong> so the vents stay clear.</li>
+<li>Keep the kitchen well aired the first few times you use it.</li>
+<li>Clean the appliance after every use to stop smells building up: see our <a href="/en/blog/entretien-nettoyage-airfryer">air fryer cleaning and maintenance guide</a>.</li>
 </ul>
 
-<h2>Is the plastic smell harmful to your health?</h2>
-<p>This is the question many people ask. The honest answer: a brief, faint smell on first use is generally considered harmless and dissipates after a few uses. We do not give medical advice here; if in doubt or if you feel unwell, please consult a healthcare professional.</p>
-<p>For context: many non-stick coatings are made of PTFE (often known by the brand name Teflon). Used correctly within the recommended temperatures, PTFE is considered stable. Problems arise only with severe overheating well beyond the normal cooking range. The processing aid PFOA, used in the past, is no longer used in modern appliances sold in the EU. So be sure not to exceed the stated maximum temperatures and not to overheat the empty basket for too long.</p>
-<p>An extra precaution: pet birds are very sensitive to fumes from overheated non-stick coatings. Keep them out of the kitchen during the empty run and whenever the appliance is in use.</p>
-<p>As a practical rule: a discreet smell that disappears during the first uses is normal. A strong, acrid or persistent smell is a signal you should not ignore.</p>
+<h2>Is the plastic smell bad for your health?</h2>
+<p>It’s the question most people ask. The honest answer: a brief, faint smell on first use is generally considered harmless and fades after a few uses. We don’t give medical advice here; if you’re in any doubt or feel unwell, speak to a healthcare professional.</p>
+<p>Some background: many non-stick coatings are made of PTFE (often known by the brand name Teflon). Used correctly, within the recommended temperatures, PTFE is considered stable. Problems only arise with severe overheating, well beyond the normal cooking range. PFOA, a processing aid used in the past, is no longer used in modern appliances sold in the EU. So don’t go above the stated maximum temperatures, and don’t heat the empty basket for too long.</p>
+<p>One more precaution: pet birds are very sensitive to fumes from overheated non-stick coatings. Keep them out of the kitchen during the empty run and whenever the air fryer is in use.</p>
+<p>As a rule of thumb: a faint smell that goes after the first few uses is normal. A strong, acrid or lingering smell is a warning sign you shouldn’t ignore.</p>
 
-<h2>When should you be concerned?</h2>
-<p>Certain signs turn a harmless break-in smell into a real problem:</p>
+<h2>When should you be worried?</h2>
+<p>Some signs turn a harmless new-appliance smell into a real problem:</p>
 <table>
 <thead>
-<tr><th>Situation</th><th>Assessment</th><th>Recommendation</th></tr>
+<tr><th>Situation</th><th>Assessment</th><th>What to do</th></tr>
 </thead>
 <tbody>
-<tr><td>Light smell on the 1st to 2nd use</td><td>Normal</td><td>Run empty, ventilate, wait</td></tr>
-<tr><td>Smell disappears after a few uses</td><td>Normal</td><td>No further action needed</td></tr>
-<tr><td>Strong smell even after 5 to 6 uses</td><td>Abnormal</td><td>Contact the manufacturer or after-sales service</td></tr>
-<tr><td>Acrid, sharp or burnt smell</td><td>Warning</td><td>Switch off at once, unplug</td></tr>
-<tr><td>Smell with smoke or visible damage</td><td>Danger</td><td>Stop using, contact after-sales service</td></tr>
+<tr><td>Faint smell on the first or second use</td><td>Normal</td><td>Run it empty, ventilate, wait</td></tr>
+<tr><td>Smell goes after a few uses</td><td>Normal</td><td>Nothing more to do</td></tr>
+<tr><td>Strong smell even after 5 or 6 uses</td><td>Not normal</td><td>Contact the manufacturer or customer service</td></tr>
+<tr><td>Acrid, sharp or “burning” smell</td><td>Warning</td><td>Switch off and unplug straight away</td></tr>
+<tr><td>Smell with smoke or visible damage</td><td>Danger</td><td>Stop using it, contact customer service</td></tr>
 </tbody>
 </table>
-<p>If the plastic smell clearly persists after several proper uses and after the empty run, it points to poor materials or a fault. In that case, stop using the appliance and contact after-sales service or the retailer: under warranty you are usually entitled to an exchange or refund. If you notice an acrid smell, possible overheating or smoke, unplug it immediately for safety.</p>
+<p>If the plastic smell is still obvious after several normal uses and the empty run, the materials may be poor quality or there may be a fault. In that case, stop using the appliance and contact the manufacturer’s customer service or the retailer: while it’s under warranty, you’re usually entitled to a replacement or a refund. If you notice an acrid smell, possible overheating or smoke, unplug it immediately to be safe.</p>
 
-<h2>Preventing the plastic smell</h2>
+<h2>How to prevent the plastic smell</h2>
 <ul>
-<li><strong>Always run it empty:</strong> 15 to 20 minutes at 200°C before the first cooking session.</li>
-<li><strong>Clean before first use</strong> to remove manufacturing residue.</li>
-<li><strong>Clean regularly:</strong> grease residue is a frequent odour source. See our article on <a href="/en/blog/erreurs-courantes-airfryer">common air fryer mistakes</a>.</li>
-<li><strong>Respect recommended temperatures</strong> and avoid heating it empty unnecessarily.</li>
-<li><strong>Mind ventilation:</strong> leave enough space and keep the vents clear.</li>
+<li><strong>Always run it empty first:</strong> 15 to 20 minutes at 200°C before you cook anything.</li>
+<li><strong>Clean it before first use</strong> to remove manufacturing residue.</li>
+<li><strong>Clean it regularly:</strong> grease build-up is a common cause of smells. See our article on <a href="/en/blog/erreurs-courantes-airfryer">common air fryer mistakes</a>.</li>
+<li><strong>Stick to the recommended temperatures</strong> and don’t run it empty when there’s no need.</li>
+<li><strong>Keep it ventilated:</strong> leave enough space around it and keep the vents clear.</li>
 </ul>
 
-<h2>Models known for being odour-free and PFAS-free</h2>
-<p>To limit odours from the start and choose suitable materials, watch the coating. More and more brands offer <strong>PFAS-free</strong> coatings, such as ceramic, or stainless steel baskets. These materials give off less chemical smell on first heating.</p>
+<h2>Low-odour and PFAS-free models</h2>
+<p>To keep smells to a minimum from day one and choose the right materials, look closely at the coating. More and more manufacturers offer <strong>PFAS-free</strong> coatings, such as ceramic, or stainless steel baskets. These give off less of a chemical smell the first time they heat up.</p>
 <ul>
-<li><strong>Ceramic coating:</strong> free of PTFE/PFAS, often less smelly during break-in.</li>
-<li><strong>Stainless steel basket:</strong> sturdy, durable and with no coating that could off-gas.</li>
-<li><strong>Brand quality:</strong> better-built appliances generally use more heat-resistant plastic that smells less and for less time.</li>
+<li><strong>Ceramic coating:</strong> free of PTFE and PFAS, and often less smelly when new.</li>
+<li><strong>Stainless steel basket:</strong> sturdy, durable and with no coating to give off fumes.</li>
+<li><strong>Build quality:</strong> better-made appliances use more heat-resistant plastic that smells less, and for less time.</li>
 </ul>
-<p>For a low-odour model with good value, see our <a href="/en/blog/meilleur-airfryer-petit-budget">comparison of the best budget air fryers</a>.</p>
+<p>For a low-odour model that’s good value for money, see our <a href="/en/blog/meilleur-airfryer-petit-budget">comparison of the best budget air fryers</a>.</p>
 
 <h2>Conclusion</h2>
-<p>If your air fryer smells like plastic, it is almost always normal and harmless on first use. Clean the appliance, run it empty for 15 to 20 minutes at 200°C, ventilate and use lemon or vinegar if needed: in most cases the smell disappears. If it stays strong and persistent or becomes acrid, stop using it and contact after-sales service. With a proper first use and a quality, ideally PFAS-free model, you will soon enjoy crispy, odour-free results.</p>`,
+<p>If your new air fryer smells of plastic, it’s almost always normal and harmless. Clean it, run it empty for 15 to 20 minutes at 200°C, keep the room aired and use lemon or vinegar if needed: in most cases, the smell will go. If it stays strong, won’t go away or turns acrid, stop using the appliance and contact customer service. Prepare it properly before first use, choose a good-quality model (ideally PFAS-free) and you’ll soon be enjoying crispy, smell-free results.</p>`,
 
     es: `<h2>Freidora de aire que huele a plástico: no te asustes en el primer uso</h2>
-<p>Acabas de desempaquetar una freidora de aire nueva, con ganas de preparar patatas crujientes con poca grasa, y en cuanto se calienta un olor a plástico invade tu cocina. Es comprensiblemente inquietante, pero en la gran mayoría de los casos es totalmente normal. Casi todos los aparatos con resistencia y carcasa de plástico desprenden olor a plástico o ligeramente químico durante los primeros usos.</p>
-<p>En esta guía te explicamos con claridad por qué tu freidora de aire huele a plástico, cómo eliminar el olor paso a paso, cuándo debes preocuparte y cómo evitar el problema en tu próxima compra.</p>
+<p>Acabas de sacar de la caja tu freidora de aire nueva, con ganas de preparar unas patatas fritas crujientes con poca grasa, y en cuanto se calienta por primera vez la cocina se llena de olor a plástico. Es normal que te inquiete, pero en la inmensa mayoría de los casos no pasa nada. Casi todos los aparatos con resistencia y carcasa de plástico desprenden olor a plástico o ligeramente químico durante los primeros usos.</p>
+<p>En esta guía te explicamos por qué tu freidora de aire huele a plástico, cómo eliminar el olor paso a paso, cuándo debes preocuparte y cómo evitar el problema en tu próxima compra.</p>
 
 <h2>¿Por qué una freidora de aire nueva huele a plástico?</h2>
 <p>Antes de buscar la solución, conviene entender la causa. El olor a plástico suele tener una explicación inofensiva, pero no siempre.</p>
 
 <h3>1. Residuos de fabricación en un aparato nuevo</h3>
-<p>Durante la producción quedan pequeñas cantidades de aceites, lubricantes y agentes desmoldeantes en las piezas, además de recubrimientos protectores aplicados para el transporte. Al calentarse por primera vez, estos residuos se evaporan: es la causa más frecuente del olor en el primer uso.</p>
+<p>Durante la producción quedan en las piezas pequeñas cantidades de aceites, lubricantes y desmoldeantes, además de recubrimientos protectores aplicados para el transporte. Al calentarse por primera vez, estos residuos se evaporan: es la causa más frecuente del olor en el primer uso.</p>
 
 <h3>2. El revestimiento que se calienta por primera vez</h3>
-<p>El revestimiento antiadherente de la cesta y las piezas de plástico de la carcasa alcanzan altas temperaturas por primera vez. Se liberan compuestos volátiles que crean un olor nuevo, ligeramente químico. Este efecto suele desaparecer por sí solo tras algunos usos.</p>
+<p>El revestimiento antiadherente de la cesta y las piezas de plástico de la carcasa alcanzan altas temperaturas por primera vez. Se liberan compuestos volátiles que dan ese olor a nuevo, algo químico. Este efecto suele desaparecer por sí solo tras algunos usos.</p>
 
 <h3>3. Plástico de mala calidad</h3>
 <p>En aparatos muy baratos se usan a veces plásticos económicos que huelen más fuerte y durante más tiempo. Si el olor persiste tras varios usos, la calidad de los materiales puede ser un factor.</p>
 
 <h3>4. Sobrecalentamiento de componentes</h3>
-<p>Si el aparato empieza a oler fuertemente a plástico tras un tiempo de uso, a menudo con un olor acre y «caliente», puede haber un componente sobrecalentándose. Las causas posibles son un ventilador bloqueado, rejillas de ventilación obstruidas o un defecto. No es un olor normal de rodaje y hay que tomarlo en serio.</p>
+<p>Si, cuando ya llevas tiempo usándolo, el aparato empieza de repente a oler mucho a plástico, a menudo con un olor acre y «a caliente», puede que algún componente se esté sobrecalentando. Las causas posibles son un ventilador bloqueado, rejillas de ventilación obstruidas o un defecto. No es un olor normal de rodaje y hay que tomarlo en serio.</p>
 
 <h3>5. Residuos de comida quemados</h3>
-<p>A veces no es olor a plástico en absoluto, sino restos de comida o grasa quemados en la resistencia. Al calentarse pueden fundirse o carbonizarse y producir un olor que recuerda al plástico quemado. Una limpieza a fondo lo resuelve.</p>
+<p>A veces ni siquiera es olor a plástico, sino restos de comida o de grasa quemados en la resistencia. Al calentarse pueden fundirse o carbonizarse y producir un olor que recuerda al plástico quemado. Una limpieza a fondo lo resuelve.</p>
 
 <h2>Cómo eliminar el olor a plástico: guía paso a paso</h2>
-<p>En un aparato nuevo, el olor casi siempre desaparece con unos pasos sencillos. Hazlos en orden.</p>
+<p>En un aparato nuevo, el olor casi siempre desaparece con unos pasos sencillos. Sigue este orden.</p>
 
 <h3>Paso 1: limpiar antes del primer uso</h3>
 <ul>
-<li><strong>Retira la cesta y el cajón</strong> y lávalos con agua caliente, un poco de detergente y una esponja suave.</li>
-<li><strong>Seca con cuidado</strong> para evitar olor a agua caliente mezclada con plástico.</li>
+<li><strong>Retira la cesta y el cajón</strong> y lávalos con agua caliente, un poco de jabón de fregar y una esponja suave.</li>
+<li><strong>Sécalos bien</strong> para que no huela a agua calentada mezclada con plástico.</li>
 <li><strong>Limpia el interior de la carcasa</strong> con un paño húmedo, sin sumergir nunca el aparato en agua.</li>
 </ul>
 
-<h3>Paso 2: hacer funcionar el aparato en vacío</h3>
-<p>Es el paso más importante. Pones el aparato en marcha una vez en vacío para que los residuos de fabricación se evaporen de forma controlada.</p>
+<h3>Paso 2: ponerla en marcha vacía</h3>
+<p>Es el paso más importante. Se trata de ponerla en marcha una vez sin nada dentro para que los restos de fabricación se evaporen de forma controlada.</p>
 <ul>
 <li><strong>Deja la cesta vacía</strong>, sin alimentos.</li>
-<li><strong>Ajusta a 200 °C</strong> y deja funcionar el aparato durante <strong>15 a 20 minutos</strong>.</li>
-<li><strong>Sigue el manual:</strong> si el fabricante indica otra duración o temperatura para el primer funcionamiento en vacío, esa tiene prioridad.</li>
-<li><strong>Abre una ventana</strong> o enciende la campana, ya que se desprende olor en esta fase.</li>
-<li><strong>Deja enfriar</strong> y vuelve a enjuagar brevemente la cesta.</li>
-<li>Si el olor sigue siendo perceptible, <strong>repite la operación una segunda vez</strong>.</li>
+<li><strong>Ponla a 200 °C</strong> y déjala funcionar durante <strong>15 a 20 minutos</strong>.</li>
+<li><strong>Sigue el manual:</strong> si el fabricante indica otra duración u otra temperatura para ese primer ciclo en vacío, haz caso al fabricante.</li>
+<li><strong>Abre una ventana</strong> o enciende la campana, porque en esta fase suelta olor.</li>
+<li><strong>Deja que se enfríe</strong> y vuelve a aclarar un momento la cesta.</li>
+<li>Si todavía se nota el olor, <strong>repite la operación una vez más</strong>.</li>
 </ul>
 
 <h3>Paso 3: usar neutralizadores naturales</h3>
-<p>Si queda un ligero olor residual, ayudan trucos sencillos:</p>
+<p>Si aún queda un ligero olor, estos trucos sencillos ayudan:</p>
 <ul>
-<li><strong>Limón:</strong> coloca unas rodajas o un poco de zumo de limón en un recipiente apto y deja funcionar 5 a 10 minutos a 180 °C. La acidez neutraliza los olores.</li>
-<li><strong>Vinagre:</strong> pon un cuenco pequeño resistente al calor con mezcla de agua y vinagre blanco (1:1) en la cesta, calienta brevemente y airea bien. Hazlo solo si el manual permite un recipiente en la cesta; nunca viertas líquido directamente en el cajón.</li>
-<li><strong>Bicarbonato:</strong> deja la cesta limpia y apagada con un poco de bicarbonato toda la noche; absorbe los olores de forma fiable.</li>
+<li><strong>Limón:</strong> coloca unas rodajas o un poco de zumo de limón en un recipiente apto y déjala funcionar de 5 a 10 minutos a 180 °C. La acidez neutraliza los olores.</li>
+<li><strong>Vinagre:</strong> pon un cuenco pequeño resistente al calor con agua y vinagre blanco a partes iguales (1:1) en la cesta, calienta un momento y ventila bien. Hazlo solo si el manual permite un recipiente en la cesta; nunca viertas líquido directamente en el cajón.</li>
+<li><strong>Bicarbonato:</strong> con la freidora apagada, deja toda la noche un poco de bicarbonato en la cesta limpia: absorbe muy bien los olores.</li>
 </ul>
 
 <h3>Paso 4: asegurar una buena ventilación</h3>
 <ul>
-<li>Coloca el aparato con <strong>suficiente espacio respecto a la pared</strong> para dejar libres las rejillas.</li>
+<li>Deja <strong>suficiente espacio entre el aparato y la pared</strong> para que las rejillas queden libres.</li>
 <li>Ventila bien la cocina durante los primeros usos.</li>
 <li>Limpia el aparato tras cada uso para evitar olores incrustados; consulta nuestra <a href="/es/blog/entretien-nettoyage-airfryer">guía de mantenimiento y limpieza de la freidora de aire</a>.</li>
 </ul>
 
 <h2>¿El olor a plástico es perjudicial para la salud?</h2>
-<p>Es la pregunta que muchos se hacen. La respuesta honesta: un olor breve y leve en el primer uso se considera por lo general inofensivo y se disipa tras unos usos. Aquí no damos consejo médico; en caso de duda o malestar, acude a un profesional sanitario.</p>
-<p>Para situarlo: muchos revestimientos antiadherentes son de PTFE (conocido a menudo como Teflón). Usado correctamente dentro de las temperaturas recomendadas, el PTFE se considera estable. El problema surge con un sobrecalentamiento severo muy por encima del rango normal de cocción. El auxiliar PFOA, usado en el pasado, ya no se emplea en los aparatos modernos vendidos en la UE. Por eso, no superes las temperaturas máximas indicadas ni calientes la cesta vacía demasiado tiempo.</p>
-<p>Una precaución adicional: las aves de compañía son muy sensibles a los humos de los revestimientos antiadherentes sobrecalentados. Mantenlas fuera de la cocina durante el funcionamiento en vacío y mientras uses el aparato.</p>
-<p>Como regla práctica: un olor discreto que desaparece en los primeros usos es normal. Un olor fuerte, acre o persistente es una señal que no debes ignorar.</p>
+<p>Es la pregunta que muchos se hacen. La respuesta, sin rodeos: un olor breve y leve en el primer uso se considera por lo general inofensivo y se disipa tras unos usos. Esto no es un consejo médico; en caso de duda o malestar, acude a un profesional sanitario.</p>
+<p>Para situarlo: muchos revestimientos antiadherentes son de PTFE (más conocido como teflón). Usado correctamente dentro de las temperaturas recomendadas, el PTFE se considera estable. El problema aparece si se sobrecalienta mucho, muy por encima de las temperaturas normales de cocción. El PFOA, un aditivo que se usaba antes en su fabricación, ya no se emplea en los aparatos actuales vendidos en la UE. Por eso, no superes las temperaturas máximas indicadas ni calientes la cesta vacía demasiado tiempo.</p>
+<p>Una precaución adicional: las aves de compañía son muy sensibles a los humos de los revestimientos antiadherentes sobrecalentados. Mantenlas fuera de la cocina durante el ciclo en vacío y siempre que uses la freidora.</p>
+<p>Regla práctica: un olor discreto que desaparece en los primeros usos es normal. Un olor fuerte, acre o persistente es una señal que no debes ignorar.</p>
 
 <h2>¿Cuándo hay que preocuparse?</h2>
-<p>Ciertas señales convierten un olor de rodaje inofensivo en un problema real:</p>
+<p>Algunas señales indican que ya no es el olor inofensivo de los primeros usos, sino un problema real:</p>
 <table>
 <thead>
-<tr><th>Situación</th><th>Evaluación</th><th>Recomendación</th></tr>
+<tr><th>Situación</th><th>Valoración</th><th>Recomendación</th></tr>
 </thead>
 <tbody>
-<tr><td>Olor leve en el 1.º y 2.º uso</td><td>Normal</td><td>Funcionar en vacío, ventilar, esperar</td></tr>
+<tr><td>Olor leve en el primer y segundo uso</td><td>Normal</td><td>Ciclo en vacío, ventilar y esperar</td></tr>
 <tr><td>Olor que desaparece tras unos usos</td><td>Normal</td><td>No hace falta nada más</td></tr>
 <tr><td>Olor fuerte incluso tras 5 o 6 usos</td><td>Anómalo</td><td>Contactar con el fabricante o el servicio técnico</td></tr>
-<tr><td>Olor acre, punzante o a «quemado»</td><td>Alerta</td><td>Apagar de inmediato, desenchufar</td></tr>
+<tr><td>Olor acre, punzante o a «quemado»</td><td>Alerta</td><td>Apagar y desenchufar de inmediato</td></tr>
 <tr><td>Olor con humo o daño visible</td><td>Peligro</td><td>Dejar de usar, contactar con el servicio técnico</td></tr>
 </tbody>
 </table>
-<p>Si el olor a plástico persiste claramente tras varios usos correctos y tras el funcionamiento en vacío, indica materiales de mala calidad o un defecto. En ese caso, no sigas usando el aparato y contacta con el servicio posventa o el vendedor: dentro de la garantía sueles tener derecho a cambio o reembolso. Si notas olor acre, posible sobrecalentamiento o humo, desenchufa de inmediato por seguridad.</p>
+<p>Si el olor a plástico sigue notándose claramente después del ciclo en vacío y de varios usos correctos, apunta a materiales de mala calidad o a un defecto. En ese caso, deja de usar el aparato y contacta con el servicio técnico o con el vendedor: dentro de la garantía, normalmente tienes derecho a un cambio o a un reembolso. Si huele a acre, sospechas que se sobrecalienta o ves humo, desenchúfalo de inmediato por seguridad.</p>
 
 <h2>Prevenir el olor a plástico</h2>
 <ul>
-<li><strong>Siempre en vacío primero:</strong> 15 a 20 minutos a 200 °C antes de la primera cocción.</li>
+<li><strong>Primero, siempre un ciclo en vacío:</strong> 15 a 20 minutos a 200 °C antes de la primera cocción.</li>
 <li><strong>Limpiar antes del primer uso</strong> para retirar los residuos de fabricación.</li>
 <li><strong>Limpiar con regularidad:</strong> los restos de grasa son una fuente frecuente de olores. Consulta nuestro artículo sobre <a href="/es/blog/erreurs-courantes-airfryer">errores comunes con la freidora de aire</a>.</li>
 <li><strong>Respetar las temperaturas recomendadas</strong> y no calentar en vacío sin necesidad.</li>
 <li><strong>Cuidar la ventilación:</strong> espacio suficiente y rejillas libres.</li>
 </ul>
 
-<h2>Modelos con buena fama: sin olor y sin PFAS</h2>
+<h2>Modelos con fama de no oler y sin PFAS</h2>
 <p>Para limitar los olores desde el principio y elegir materiales adecuados, fíjate en el revestimiento. Cada vez más fabricantes ofrecen revestimientos <strong>sin PFAS</strong>, por ejemplo de cerámica, o cestas de acero inoxidable. Estos materiales desprenden menos olor químico al calentarse por primera vez.</p>
 <ul>
-<li><strong>Revestimiento cerámico:</strong> sin PTFE/PFAS, a menudo menos oloroso en el rodaje.</li>
-<li><strong>Cesta de acero inoxidable:</strong> robusta, duradera y sin revestimiento que pueda desgasificarse.</li>
+<li><strong>Revestimiento cerámico:</strong> sin PTFE/PFAS; suele oler menos en los primeros usos.</li>
+<li><strong>Cesta de acero inoxidable:</strong> robusta, duradera y sin revestimiento que pueda desprender gases.</li>
 <li><strong>Calidad de marca:</strong> los aparatos mejor fabricados usan plástico más resistente al calor que huele menos y durante menos tiempo.</li>
 </ul>
-<p>Si buscas un modelo poco oloroso con buena relación calidad-precio, consulta nuestra <a href="/es/blog/meilleur-airfryer-petit-budget">comparativa de las mejores freidoras de aire baratas</a>.</p>
+<p>Si buscas un modelo que huela poco y tenga buena relación calidad-precio, consulta nuestra <a href="/es/blog/meilleur-airfryer-petit-budget">comparativa de las mejores freidoras de aire baratas</a>.</p>
 
 <h2>Conclusión</h2>
-<p>Si tu freidora de aire huele a plástico, casi siempre es normal e inofensivo en el primer uso. Limpia el aparato, hazlo funcionar en vacío 15 a 20 minutos a 200 °C, ventila y usa limón o vinagre si hace falta: en la mayoría de los casos el olor desaparece. Si sigue fuerte y persistente o se vuelve acre, deja de usarlo y contacta con el servicio técnico. Con un buen primer uso y un modelo de calidad, idealmente sin PFAS, pronto disfrutarás de resultados crujientes y sin olor.</p>`,
+<p>Si tu freidora de aire huele a plástico, casi siempre es normal e inofensivo en el primer uso. Límpiala, ponla en marcha vacía de 15 a 20 minutos a 200 °C, ventila y usa limón o vinagre si hace falta: en la mayoría de los casos, el olor desaparece. Si sigue siendo fuerte, no se va o se vuelve acre, deja de usarla y contacta con el servicio técnico. Con un buen primer uso y un modelo de calidad, idealmente sin PFAS, pronto disfrutarás de resultados crujientes y sin olor.</p>`,
 
-    it: `<h2>Friggitrice ad aria che odora di plastica: niente panico al primo utilizzo</h2>
-<p>Hai appena disimballato una friggitrice ad aria nuova, impaziente di preparare patatine croccanti con poco grasso, e appena si scalda un odore di plastica invade la cucina. È comprensibilmente fastidioso, ma nella grande maggioranza dei casi è del tutto normale. Quasi tutti gli apparecchi con resistenza e corpo in plastica emanano un odore di plastica o leggermente chimico durante i primi utilizzi.</p>
-<p>In questa guida ti spieghiamo con chiarezza perché la tua friggitrice ad aria odora di plastica, come eliminare l\'odore passo dopo passo, quando devi preoccuparti e come evitare il problema al prossimo acquisto.</p>
+    it: `<h2>Friggitrice ad aria che puzza di plastica: niente panico al primo utilizzo</h2>
+<p>Hai appena tolto dalla scatola una friggitrice ad aria nuova e non vedi l'ora di preparare patatine croccanti con poco olio, ma appena si scalda la cucina si riempie di odore di plastica. È comprensibile preoccuparsi, ma nella stragrande maggioranza dei casi è del tutto normale. Quasi tutti gli apparecchi con una resistenza e un corpo in plastica, ai primi utilizzi, emanano un odore di plastica o leggermente chimico.</p>
+<p>In questa guida ti spieghiamo perché la tua friggitrice ad aria puzza di plastica, come eliminare l'odore passo passo, quando è il caso di preoccuparsi e come evitare il problema al prossimo acquisto.</p>
 
-<h2>Perché una friggitrice ad aria nuova odora di plastica?</h2>
-<p>Prima di cercare la soluzione, conviene capire la causa. L\'odore di plastica ha quasi sempre una spiegazione innocua, ma non sempre.</p>
+<h2>Perché una friggitrice ad aria nuova puzza di plastica?</h2>
+<p>Prima di cercare la soluzione, conviene capire la causa. Il più delle volte l'odore di plastica ha una spiegazione innocua, ma non sempre.</p>
 
-<h3>1. Residui di fabbricazione su un apparecchio nuovo</h3>
-<p>Durante la produzione restano sui componenti piccole quantità di oli, lubrificanti e agenti distaccanti, oltre ai rivestimenti protettivi applicati per il trasporto. Al primo riscaldamento questi residui evaporano: è la causa più frequente dell\'odore al primo utilizzo.</p>
+<h3>1. Residui di lavorazione su un apparecchio nuovo</h3>
+<p>Durante la produzione, sui componenti restano minime quantità di oli, lubrificanti e distaccanti, a cui si aggiungono i rivestimenti protettivi applicati per il trasporto. Al primo riscaldamento questi residui evaporano: è la causa più frequente dell'odore alla prima accensione.</p>
 
 <h3>2. Il rivestimento che si scalda per la prima volta</h3>
-<p>Il rivestimento antiaderente del cestello e le parti in plastica del corpo raggiungono alte temperature per la prima volta. Si liberano composti volatili che creano un odore nuovo, leggermente chimico. Questo effetto di solito scompare da solo dopo qualche utilizzo.</p>
+<p>Il rivestimento antiaderente del cestello e le parti in plastica del corpo vengono portati ad alta temperatura per la prima volta. Si liberano così composti volatili che danno un odore di nuovo, leggermente chimico. Di solito sparisce da solo dopo qualche utilizzo.</p>
 
 <h3>3. Plastica di scarsa qualità</h3>
-<p>Negli apparecchi molto economici si usano talvolta plastiche a basso costo che odorano più forte e più a lungo. Se l\'odore persiste dopo diversi utilizzi, la qualità dei materiali può essere un fattore.</p>
+<p>Negli apparecchi molto economici a volte si usano plastiche scadenti, che hanno un odore più forte e più persistente. Se l'odore non passa dopo diversi utilizzi, la causa potrebbe essere la qualità dei materiali.</p>
 
-<h3>4. Surriscaldamento dei componenti</h3>
-<p>Se l\'apparecchio comincia improvvisamente a odorare fortemente di plastica dopo un periodo di utilizzo, spesso con un odore acre e «caldo», un componente potrebbe surriscaldarsi. Le cause possibili sono una ventola bloccata, le griglie di ventilazione ostruite o un difetto. Non è un normale odore di rodaggio e va preso sul serio.</p>
+<h3>4. Componenti che si surriscaldano</h3>
+<p>Se dopo un periodo di uso normale l'apparecchio comincia all'improvviso a puzzare forte di plastica, spesso con un odore acre, «di caldo», un componente potrebbe surriscaldarsi. Le cause possibili sono una ventola bloccata, le griglie di aerazione ostruite o un guasto. Non è il normale odore di rodaggio: va preso sul serio.</p>
 
 <h3>5. Residui di cibo bruciati</h3>
-<p>A volte non è affatto odore di plastica, ma residui di cibo o grasso bruciati sulla resistenza. Riscaldandosi possono fondere o carbonizzarsi e produrre un odore che ricorda la plastica bruciata. Una pulizia accurata risolve il problema.</p>
+<p>A volte non è affatto plastica, ma residui di cibo o di grasso bruciati sulla resistenza. Scaldandosi possono sciogliersi o carbonizzarsi e dare un odore simile a quello della plastica bruciata. In questo caso basta una pulizia a fondo.</p>
 
-<h2>Come eliminare l\'odore di plastica: guida passo dopo passo</h2>
-<p>Su un apparecchio nuovo, l\'odore scompare quasi sempre con pochi semplici passaggi. Procedi in ordine.</p>
+<h2>Come eliminare l'odore di plastica: guida passo passo</h2>
+<p>Su un apparecchio nuovo l'odore sparisce quasi sempre con pochi semplici accorgimenti. Segui i passaggi in ordine.</p>
 
-<h3>Passo 1: pulire prima del primo utilizzo</h3>
+<h3>Passo 1: lavare prima del primo utilizzo</h3>
 <ul>
-<li><strong>Rimuovi cestello e cassetto</strong> e lavali con acqua calda, un po\' di detersivo e una spugna morbida.</li>
-<li><strong>Asciuga con cura</strong> per evitare odore di acqua calda mista a plastica.</li>
-<li><strong>Pulisci l\'interno del corpo</strong> con un panno umido, senza mai immergere l\'apparecchio in acqua.</li>
+<li><strong>Togli cestello e cassetto</strong> e lavali con acqua calda, un po' di detersivo per piatti e una spugna morbida.</li>
+<li><strong>Asciuga con cura</strong>, così l'odore dell'acqua scaldata non si mescola a quello della plastica.</li>
+<li><strong>Pulisci l'interno dell'apparecchio</strong> con un panno umido, senza mai immergerlo in acqua.</li>
 </ul>
 
-<h3>Passo 2: far funzionare l\'apparecchio a vuoto</h3>
-<p>È il passaggio più importante. Fai funzionare l\'apparecchio una volta a vuoto perché i residui di fabbricazione evaporino in modo controllato.</p>
+<h3>Passo 2: far funzionare la friggitrice a vuoto</h3>
+<p>È il passaggio più importante: fai funzionare l'apparecchio una volta a vuoto, così i residui di produzione evaporano in modo controllato.</p>
 <ul>
-<li><strong>Lascia il cestello vuoto</strong>, senza alimenti.</li>
-<li><strong>Imposta a 200 °C</strong> e fai funzionare l\'apparecchio per <strong>15-20 minuti</strong>.</li>
-<li><strong>Segui il manuale:</strong> se il produttore indica una durata o una temperatura diversa per il primo funzionamento a vuoto, vale quella.</li>
-<li><strong>Apri una finestra</strong> o accendi la cappa, perché in questa fase si sprigiona odore.</li>
-<li><strong>Lascia raffreddare</strong> e risciacqua di nuovo brevemente il cestello.</li>
-<li>Se l\'odore è ancora percepibile, <strong>ripeti l\'operazione una seconda volta</strong>.</li>
+<li><strong>Lascia il cestello vuoto</strong>, senza cibo.</li>
+<li><strong>Imposta 200 °C</strong> e lascia andare l'apparecchio per <strong>15-20 minuti</strong>.</li>
+<li><strong>Segui il manuale:</strong> se il produttore indica una durata o una temperatura diversa per il primo ciclo a vuoto, attieniti a quella.</li>
+<li><strong>Apri una finestra</strong> o accendi la cappa, perché in questa fase si sprigiona un po' di odore.</li>
+<li><strong>Lascia raffreddare</strong>, poi sciacqua di nuovo velocemente il cestello.</li>
+<li>Se l'odore si sente ancora, <strong>ripeti l'operazione una seconda volta</strong>.</li>
 </ul>
 
-<h3>Passo 3: usare neutralizzatori naturali</h3>
-<p>Se rimane un leggero odore residuo, aiutano trucchi semplici:</p>
+<h3>Passo 3: usare rimedi naturali contro gli odori</h3>
+<p>Se resta un leggero odore, ti aiutano alcuni semplici trucchi:</p>
 <ul>
-<li><strong>Limone:</strong> metti qualche fetta o un po\' di succo di limone in un contenitore adatto e fai funzionare 5-10 minuti a 180 °C. L\'acidità neutralizza gli odori.</li>
-<li><strong>Aceto:</strong> metti una ciotolina resistente al calore con una miscela di acqua e aceto bianco (1:1) nel cestello, scalda brevemente e poi areia bene. Fallo solo se il manuale consente un contenitore nel cestello; non versare mai liquidi direttamente nel cassetto.</li>
-<li><strong>Bicarbonato:</strong> lascia il cestello pulito e spento con un po\' di bicarbonato per tutta la notte; assorbe gli odori in modo affidabile.</li>
+<li><strong>Limone:</strong> metti qualche fetta di limone o un po' di succo in un contenitore adatto e fai andare la friggitrice 5-10 minuti a 180 °C. L'acidità neutralizza gli odori.</li>
+<li><strong>Aceto:</strong> metti nel cestello una ciotolina resistente al calore con acqua e aceto bianco in parti uguali (1:1), scalda per poco tempo e poi arieggia bene. Fallo solo se il manuale permette di usare un contenitore nel cestello, e non versare mai liquidi direttamente nel cassetto.</li>
+<li><strong>Bicarbonato:</strong> lascia per tutta la notte un po' di bicarbonato nel cestello pulito, a friggitrice spenta: assorbe bene gli odori.</li>
 </ul>
 
-<h3>Passo 4: garantire una buona ventilazione</h3>
+<h3>Passo 4: garantire una buona aerazione</h3>
 <ul>
-<li>Posiziona l\'apparecchio con <strong>spazio sufficiente dal muro</strong> per lasciare libere le griglie.</li>
-<li>Areia bene la cucina durante i primi utilizzi.</li>
-<li>Pulisci l\'apparecchio dopo ogni uso per evitare odori incrostati; vedi la nostra <a href="/it/blog/entretien-nettoyage-airfryer">guida alla manutenzione e pulizia della friggitrice ad aria</a>.</li>
+<li>Posiziona l'apparecchio lasciando <strong>abbastanza spazio dal muro</strong>, così le griglie di aerazione restano libere.</li>
+<li>Arieggia bene la cucina durante i primi utilizzi.</li>
+<li>Pulisci la friggitrice dopo ogni uso, così gli odori non si incrostano: trovi tutto nella nostra <a href="/it/blog/entretien-nettoyage-airfryer">guida alla manutenzione e alla pulizia della friggitrice ad aria</a>.</li>
 </ul>
 
-<h2>L\'odore di plastica è dannoso per la salute?</h2>
-<p>È la domanda che molti si pongono. La risposta onesta: un odore breve e debole al primo utilizzo è generalmente considerato innocuo e si dissipa dopo qualche uso. Qui non diamo consigli medici; in caso di dubbio o malessere, rivolgiti a un professionista sanitario.</p>
-<p>Per inquadrare il tema: molti rivestimenti antiaderenti sono in PTFE (spesso noto come Teflon). Usato correttamente entro le temperature consigliate, il PTFE è considerato stabile. Il problema sorge in caso di forte surriscaldamento ben oltre il normale intervallo di cottura. L\'ausiliario PFOA, usato in passato, non è più impiegato negli apparecchi moderni venduti nell\'UE. Fai quindi attenzione a non superare le temperature massime indicate e a non surriscaldare il cestello vuoto troppo a lungo.</p>
-<p>Una precauzione in più: gli uccelli domestici sono molto sensibili ai fumi dei rivestimenti antiaderenti surriscaldati. Tienili lontani dalla cucina durante il funzionamento a vuoto e mentre usi l\'apparecchio.</p>
-<p>Come regola pratica: un odore discreto che scompare ai primi utilizzi è normale. Un odore forte, acre o persistente è un segnale da non ignorare.</p>
+<h2>L'odore di plastica fa male alla salute?</h2>
+<p>È la domanda che si fanno in molti. In breve: un odore leggero e passeggero alla prima accensione è in genere considerato innocuo e sparisce dopo qualche utilizzo. Qui non diamo consigli medici: se hai dubbi o disturbi, rivolgiti a un medico.</p>
+<p>Per capire meglio: molti rivestimenti antiaderenti sono in PTFE (noto anche come Teflon). Se usato correttamente, entro le temperature consigliate, il PTFE è considerato stabile. Il problema nasce con un forte surriscaldamento, ben oltre le normali temperature di cottura. Il PFOA, una sostanza usata in passato nella produzione, non viene più impiegato negli apparecchi moderni venduti nell'UE. Quindi non superare le temperature massime indicate e non scaldare troppo a lungo il cestello vuoto.</p>
+<p>Una precauzione in più: gli uccelli domestici sono molto sensibili ai fumi dei rivestimenti antiaderenti surriscaldati. Tienili lontani dalla cucina durante il ciclo a vuoto e mentre usi l'apparecchio.</p>
+<p>In pratica: un odore leggero che sparisce dopo i primi utilizzi è normale. Un odore forte, acre o persistente è un segnale da non ignorare.</p>
 
 <h2>Quando bisogna preoccuparsi?</h2>
-<p>Alcuni segnali trasformano un innocuo odore di rodaggio in un vero problema:</p>
+<p>Alcuni segnali indicano che non si tratta del normale odore di rodaggio, ma di un vero problema:</p>
 <table>
 <thead>
-<tr><th>Situazione</th><th>Valutazione</th><th>Raccomandazione</th></tr>
+<tr><th>Situazione</th><th>Valutazione</th><th>Cosa fare</th></tr>
 </thead>
 <tbody>
-<tr><td>Odore leggero al 1° e 2° utilizzo</td><td>Normale</td><td>Funzionamento a vuoto, areare, attendere</td></tr>
-<tr><td>Odore che scompare dopo qualche uso</td><td>Normale</td><td>Nessuna ulteriore azione</td></tr>
-<tr><td>Odore forte anche dopo 5-6 usi</td><td>Anomalo</td><td>Contattare il produttore o l\'assistenza</td></tr>
-<tr><td>Odore acre, pungente o di «bruciato»</td><td>Allarme</td><td>Spegnere subito, staccare la spina</td></tr>
-<tr><td>Odore con fumo o danno visibile</td><td>Pericolo</td><td>Non usare più, contattare l\'assistenza</td></tr>
+<tr><td>Odore leggero al 1° e al 2° utilizzo</td><td>Normale</td><td>Ciclo a vuoto, arieggiare, aspettare</td></tr>
+<tr><td>Odore che sparisce dopo qualche utilizzo</td><td>Normale</td><td>Nient'altro da fare</td></tr>
+<tr><td>Odore forte anche dopo 5-6 utilizzi</td><td>Anomalo</td><td>Contattare il produttore o l'assistenza</td></tr>
+<tr><td>Odore acre, pungente o «di bruciato»</td><td>Allarme</td><td>Spegnere subito e staccare la spina</td></tr>
+<tr><td>Odore con fumo o danni visibili</td><td>Pericolo</td><td>Smettere di usarla, contattare l'assistenza</td></tr>
 </tbody>
 </table>
-<p>Se l\'odore di plastica persiste chiaramente dopo diversi utilizzi corretti e dopo il funzionamento a vuoto, indica materiali di scarsa qualità o un difetto. In questo caso non usare più l\'apparecchio e contatta l\'assistenza post-vendita o il rivenditore: in garanzia hai generalmente diritto a sostituzione o rimborso. In caso di odore acre, possibile surriscaldamento o fumo, stacca subito la spina per sicurezza.</p>
+<p>Se l'odore di plastica resta forte anche dopo diversi utilizzi corretti e dopo il ciclo a vuoto, è segno di materiali scadenti o di un difetto. In questo caso smetti di usare l'apparecchio e contatta l'assistenza clienti o il rivenditore: se è ancora in garanzia, in genere hai diritto alla sostituzione o al rimborso. Se senti odore acre, sospetti un surriscaldamento o vedi del fumo, per sicurezza stacca subito la spina.</p>
 
-<h2>Prevenire l\'odore di plastica</h2>
+<h2>Come prevenire l'odore di plastica</h2>
 <ul>
-<li><strong>Sempre a vuoto prima:</strong> 15-20 minuti a 200 °C prima della prima cottura.</li>
-<li><strong>Pulire prima del primo uso</strong> per rimuovere i residui di fabbricazione.</li>
-<li><strong>Pulire regolarmente:</strong> i residui di grasso sono una frequente fonte di odori. Vedi il nostro articolo sugli <a href="/it/blog/erreurs-courantes-airfryer">errori comuni con la friggitrice ad aria</a>.</li>
-<li><strong>Rispettare le temperature consigliate</strong> e non scaldare a vuoto inutilmente.</li>
-<li><strong>Curare la ventilazione:</strong> spazio sufficiente e griglie libere.</li>
+<li><strong>Sempre un ciclo a vuoto:</strong> 15-20 minuti a 200 °C prima della prima cottura.</li>
+<li><strong>Lavare prima del primo uso</strong>, per eliminare i residui di produzione.</li>
+<li><strong>Pulire regolarmente:</strong> i residui di grasso sono una causa frequente di cattivi odori. Leggi anche il nostro articolo sugli <a href="/it/blog/erreurs-courantes-airfryer">errori più comuni con la friggitrice ad aria</a>.</li>
+<li><strong>Rispettare le temperature consigliate</strong> e non scaldarla a vuoto senza motivo.</li>
+<li><strong>Curare l'aerazione:</strong> spazio sufficiente e griglie libere.</li>
 </ul>
 
-<h2>Modelli noti per essere senza odore e senza PFAS</h2>
-<p>Per limitare gli odori fin dall\'inizio e scegliere materiali adatti, osserva il rivestimento. Sempre più produttori offrono rivestimenti <strong>senza PFAS</strong>, ad esempio in ceramica, o cestelli in acciaio inox. Questi materiali emanano meno odore chimico al primo riscaldamento.</p>
+<h2>Modelli senza PFAS e con meno odori</h2>
+<p>Per ridurre gli odori fin dall'inizio e scegliere materiali adatti, guarda il rivestimento. Sempre più produttori propongono rivestimenti <strong>senza PFAS</strong>, per esempio in ceramica, oppure cestelli in acciaio inox. Questi materiali rilasciano meno odore chimico al primo riscaldamento.</p>
 <ul>
-<li><strong>Rivestimento in ceramica:</strong> privo di PTFE/PFAS, spesso meno odoroso nel rodaggio.</li>
-<li><strong>Cestello in acciaio inox:</strong> robusto, durevole e senza rivestimento che possa rilasciare gas.</li>
-<li><strong>Qualità di marca:</strong> gli apparecchi meglio costruiti usano plastica più resistente al calore che odora meno e per meno tempo.</li>
+<li><strong>Rivestimento in ceramica:</strong> senza PTFE/PFAS, di solito fa meno odore durante il rodaggio.</li>
+<li><strong>Cestello in acciaio inox:</strong> robusto, durevole e privo di rivestimenti che possano rilasciare gas.</li>
+<li><strong>Marchi di qualità:</strong> gli apparecchi costruiti meglio usano una plastica più resistente al calore, che fa meno odore e per meno tempo.</li>
 </ul>
-<p>Se cerchi un modello poco odoroso con un buon rapporto qualità-prezzo, consulta il nostro <a href="/it/blog/meilleur-airfryer-petit-budget">confronto delle migliori friggitrici ad aria economiche</a>.</p>
+<p>Se cerchi un modello che fa poco odore e ha un buon rapporto qualità-prezzo, leggi il nostro <a href="/it/blog/meilleur-airfryer-petit-budget">confronto delle migliori friggitrici ad aria economiche</a>.</p>
 
 <h2>Conclusione</h2>
-<p>Se la tua friggitrice ad aria odora di plastica, è quasi sempre normale e innocuo al primo utilizzo. Pulisci l\'apparecchio, fallo funzionare a vuoto 15-20 minuti a 200 °C, areia e usa limone o aceto se serve: nella maggior parte dei casi l\'odore scompare. Se rimane forte e persistente o diventa acre, smetti di usarlo e contatta l\'assistenza. Con un buon primo utilizzo e un modello di qualità, idealmente senza PFAS, godrai presto di risultati croccanti e senza odore.</p>`,
+<p>Se la tua friggitrice ad aria puzza di plastica alla prima accensione, è quasi sempre normale e innocuo. Lavala, falla funzionare a vuoto per 15-20 minuti a 200 °C, arieggia e, se serve, usa limone o aceto: nella maggior parte dei casi l'odore sparisce. Se resta forte e persistente o diventa acre, smetti di usarla e contatta l'assistenza. Con un primo utilizzo fatto bene e un modello di qualità, meglio se senza PFAS, avrai presto risultati croccanti e senza odori.</p>`,
 
     nl: `<h2>Airfryer ruikt naar plastic: geen paniek bij het eerste gebruik</h2>
-<p>Je hebt net een gloednieuwe airfryer uitgepakt, vol verwachting om krokante frietjes met weinig vet te maken, en zodra het apparaat opwarmt vult een plasticgeur je keuken. Dat is begrijpelijkerwijs verontrustend, maar in de overgrote meerderheid van de gevallen is het volkomen normaal. Bijna elk apparaat met een verwarmingselement en een kunststof behuizing geeft tijdens de eerste gebruiken een plastic of licht chemische geur af.</p>
-<p>In deze gids leggen we duidelijk uit waarom je airfryer naar plastic ruikt, hoe je de geur stap voor stap verwijdert, wanneer je je zorgen moet maken en hoe je het probleem bij je volgende aankoop voorkomt.</p>
+<p>Je hebt net een gloednieuwe airfryer uitgepakt en verheugt je op krokante friet met weinig vet. Maar zodra het apparaat opwarmt, hangt er een plasticgeur in je keuken. Dat is begrijpelijk verontrustend, maar in de overgrote meerderheid van de gevallen volkomen normaal. Bijna elk apparaat met een verwarmingselement en een kunststof behuizing ruikt de eerste paar keer naar plastic of een beetje chemisch.</p>
+<p>In deze gids leggen we uit waarom je airfryer naar plastic ruikt, hoe je de geur stap voor stap verwijdert, wanneer je je zorgen moet maken en hoe je het probleem bij je volgende aankoop voorkomt.</p>
 
 <h2>Waarom ruikt een nieuwe airfryer naar plastic?</h2>
-<p>Voordat je naar een oplossing grijpt, is het nuttig de oorzaak te begrijpen. De plasticgeur heeft meestal een onschuldige verklaring, maar niet altijd.</p>
+<p>Voordat je de oplossing zoekt, is het handig om de oorzaak te kennen. Meestal heeft de plasticgeur een onschuldige verklaring, maar niet altijd.</p>
 
-<h3>1. Fabricageresten op een nieuw apparaat</h3>
-<p>Tijdens de productie blijven kleine hoeveelheden oliën, smeermiddelen en lossingsmiddelen op de onderdelen achter, naast beschermende coatings voor het transport. Bij het eerste opwarmen verdampen deze resten: dit is de meest voorkomende oorzaak van de geur bij het eerste gebruik.</p>
+<h3>1. Productieresten op een nieuw apparaat</h3>
+<p>Tijdens de productie blijven er kleine hoeveelheden olie, smeermiddel en lossingsmiddel op de onderdelen achter. Daarnaast zijn er beschermlagen aangebracht voor het transport. Bij het eerste opwarmen verdampen die resten. Dat is de meest voorkomende oorzaak van de geur bij het eerste gebruik.</p>
 
-<h3>2. De coating die voor het eerst echt heet wordt</h3>
-<p>De antiaanbaklaag van de mand en de kunststof delen van de behuizing worden voor het eerst op hoge temperatuur gebracht. Daarbij komen vluchtige stoffen vrij die een nieuwe, licht chemische geur veroorzaken. Dit effect verdwijnt meestal vanzelf na een paar keer gebruik.</p>
+<h3>2. De coating wordt voor het eerst heet</h3>
+<p>De antiaanbaklaag van de mand en de kunststof onderdelen van de behuizing worden voor het eerst op hoge temperatuur gebracht. Daarbij komen vluchtige stoffen vrij, die een nieuwe, licht chemische geur geven. Dat effect verdwijnt meestal vanzelf na een paar keer gebruik.</p>
 
-<h3>3. Kunststof van mindere kwaliteit</h3>
-<p>Bij heel goedkope apparaten wordt soms goedkope kunststof gebruikt die sterker en langer ruikt. Verdwijnt de geur ook na meerdere keren niet, dan kan de materiaalkwaliteit een factor zijn.</p>
+<h3>3. Kunststof van slechte kwaliteit</h3>
+<p>In heel goedkope apparaten zit soms goedkope kunststof, die sterker en langer ruikt. Blijft de geur ook na meerdere keren gebruik hangen, dan kan de kwaliteit van de materialen de oorzaak zijn.</p>
 
-<h3>4. Oververhitting van onderdelen</h3>
-<p>Als het apparaat na een tijdje gebruik plotseling sterk naar plastic ruikt, vaak met een scherpe, «hete» geur, kan een onderdeel oververhit raken. Mogelijke oorzaken zijn een geblokkeerde ventilator, verstopte ventilatieopeningen of een defect. Dit is geen normale inbrandgeur en moet serieus worden genomen.</p>
+<h3>4. Een onderdeel raakt oververhit</h3>
+<p>Ruikt het apparaat na een tijd normaal gebruik ineens sterk naar plastic, vaak met een scherpe, ‘hete’ geur? Dan kan een onderdeel oververhit raken. Mogelijke oorzaken zijn een geblokkeerde ventilator, verstopte ventilatieopeningen of een defect. Dit is geen normale inbrandgeur: neem het serieus.</p>
 
 <h3>5. Verbrande etensresten</h3>
-<p>Soms is het helemaal geen plasticgeur, maar verbrande etensresten of vet op het verwarmingselement. Bij verhitting kunnen deze smelten of verkolen en een geur produceren die op verbrand plastic lijkt. Een grondige reiniging lost dit op.</p>
+<p>Soms is het helemaal geen plasticgeur, maar verbranden er etens- of vetresten op het verwarmingselement. Als ze heet worden, kunnen ze smelten of verkolen en gaan ze ruiken naar verbrand plastic. Een grondige schoonmaakbeurt lost dat op.</p>
 
-<h2>Plasticgeur verwijderen: stap-voor-stap-gids</h2>
-<p>Bij een nieuw apparaat verdwijnt de geur bijna altijd met een paar eenvoudige stappen. Werk ze op volgorde af.</p>
+<h2>Plasticgeur verwijderen: stap voor stap</h2>
+<p>Bij een nieuw apparaat ben je de geur bijna altijd kwijt met een paar eenvoudige handelingen. Volg de stappen in deze volgorde.</p>
 
-<h3>Stap 1: schoonmaken voor het eerste gebruik</h3>
+<h3>Stap 1: schoonmaken vóór het eerste gebruik</h3>
 <ul>
-<li><strong>Haal de mand en lade eruit</strong> en was ze met warm water, wat afwasmiddel en een zachte spons.</li>
-<li><strong>Droog zorgvuldig af</strong> om een geur van heet water gemengd met plastic te voorkomen.</li>
-<li><strong>Veeg de binnenkant van de behuizing</strong> af met een vochtige doek, dompel het apparaat zelf nooit onder in water.</li>
+<li><strong>Haal de mand en de lade eruit</strong> en was ze af met warm water, een beetje afwasmiddel en een zachte spons.</li>
+<li><strong>Droog alles goed af</strong>, anders krijg je een geur van verhit water vermengd met plastic.</li>
+<li><strong>Veeg de binnenkant van de behuizing</strong> af met een vochtige doek. Dompel het apparaat zelf nooit onder in water.</li>
 </ul>
 
 <h3>Stap 2: het apparaat leeg laten draaien</h3>
-<p>Dit is de belangrijkste stap. Je laat het apparaat één keer leeg draaien zodat de fabricageresten gecontroleerd verdampen.</p>
+<p>Dit is de belangrijkste stap. Je laat het apparaat één keer leeg draaien, zodat de productieresten gecontroleerd verdampen.</p>
 <ul>
-<li><strong>Laat de mand leeg</strong>, zonder voedsel.</li>
-<li><strong>Zet op 200 °C</strong> en laat het apparaat <strong>15 tot 20 minuten</strong> draaien.</li>
-<li><strong>Volg de handleiding:</strong> geeft de fabrikant een andere duur of temperatuur op voor het eerste lege gebruik, dan gaat die voor.</li>
-<li><strong>Open een raam</strong> of zet de afzuigkap aan, want tijdens deze fase komt geur vrij.</li>
-<li><strong>Laat afkoelen</strong> en spoel de mand daarna nog even af.</li>
-<li>Is de geur nog merkbaar, <strong>herhaal de procedure dan een tweede keer</strong>.</li>
+<li><strong>Laat de mand leeg</strong>, zonder eten.</li>
+<li><strong>Stel 200 °C in</strong> en laat het apparaat <strong>15 tot 20 minuten</strong> draaien.</li>
+<li><strong>Volg de handleiding:</strong> geeft de fabrikant een andere tijd of temperatuur op voor de eerste keer leeg draaien, houd je dan daaraan.</li>
+<li><strong>Zet een raam open</strong> of zet de afzuigkap aan, want in deze fase komt er geur vrij.</li>
+<li><strong>Laat het apparaat afkoelen</strong> en spoel de mand daarna nog even om.</li>
+<li>Ruik je nog steeds iets, <strong>herhaal het dan nog een keer</strong>.</li>
 </ul>
 
-<h3>Stap 3: natuurlijke geurneutralisatoren gebruiken</h3>
-<p>Blijft er een lichte restgeur hangen, dan helpen eenvoudige trucs:</p>
+<h3>Stap 3: natuurlijke geurverdrijvers gebruiken</h3>
+<p>Blijft er een lichte restgeur hangen, dan helpen deze eenvoudige trucs:</p>
 <ul>
-<li><strong>Citroen:</strong> leg een paar schijfjes of wat citroensap in een hittebestendige schaal en laat 5 tot 10 minuten op 180 °C draaien. De zuren neutraliseren geuren.</li>
-<li><strong>Azijn:</strong> zet een klein hittebestendig bakje met een mengsel van water en witte azijn (1:1) in de mand, verwarm kort en lucht daarna goed. Doe dit alleen als de handleiding een ovenvaste schaal in de mand toestaat; giet nooit vloeistof rechtstreeks in de lade.</li>
-<li><strong>Baking soda:</strong> laat de schone, uitgeschakelde mand een nacht met wat baking soda staan; het neemt geuren betrouwbaar op.</li>
+<li><strong>Citroen:</strong> doe een paar schijfjes citroen of wat citroensap in een geschikte schaal en laat de airfryer 5 tot 10 minuten draaien op 180 °C. Het zuur neutraliseert geuren.</li>
+<li><strong>Azijn:</strong> zet een klein hittebestendig schaaltje met water en witte azijn (1:1) in de mand, verwarm het kort en lucht daarna goed. Doe dit alleen als de handleiding een schaal in de mand toestaat, en giet nooit vloeistof rechtstreeks in de lade.</li>
+<li><strong>Zuiveringszout (baking soda):</strong> laat een beetje zuiveringszout een nacht in de schone mand staan, met het apparaat uit. Het neemt geuren goed op.</li>
 </ul>
 
-<h3>Stap 4: zorg voor goede ventilatie</h3>
+<h3>Stap 4: zorgen voor goede ventilatie</h3>
 <ul>
-<li>Plaats het apparaat met <strong>voldoende afstand tot de muur</strong> zodat de ventilatieopeningen vrij blijven.</li>
-<li>Lucht de keuken goed tijdens de eerste keren gebruik.</li>
-<li>Maak het apparaat na elk gebruik schoon om ingesleten geuren te voorkomen; zie onze <a href="/nl/blog/entretien-nettoyage-airfryer">gids voor onderhoud en reiniging van de airfryer</a>.</li>
+<li>Zet het apparaat <strong>op voldoende afstand van de muur</strong>, zodat de ventilatieopeningen vrij blijven.</li>
+<li>Lucht de keuken goed tijdens de eerste paar keer gebruik.</li>
+<li>Maak het apparaat na elk gebruik schoon, zodat geuren zich niet vastzetten. Lees hiervoor onze <a href="/nl/blog/entretien-nettoyage-airfryer">gids voor onderhoud en schoonmaak van de airfryer</a>.</li>
 </ul>
 
-<h2>Is de plasticgeur schadelijk voor de gezondheid?</h2>
-<p>Dat is de vraag die velen zich stellen. Het eerlijke antwoord: een korte, zwakke geur bij het eerste gebruik geldt over het algemeen als onschadelijk en verdwijnt na een paar keer gebruik. We geven hier geen medisch advies; bij twijfel of klachten raadpleeg je een zorgprofessional.</p>
-<p>Ter duiding: veel antiaanbaklagen zijn van PTFE (vaak bekend onder de merknaam Teflon). Bij correct gebruik binnen de aanbevolen temperaturen wordt PTFE als stabiel beschouwd. Het wordt pas problematisch bij sterke oververhitting ver boven het normale kookbereik. De hulpstof PFOA, die vroeger werd gebruikt, wordt in moderne apparaten in de EU niet meer toegepast. Let er daarom op de aangegeven maximumtemperaturen niet te overschrijden en de lege mand niet onnodig lang te oververhitten.</p>
-<p>Een extra voorzorg: siervogels zijn erg gevoelig voor dampen van oververhitte antiaanbaklagen. Houd ze uit de keuken tijdens het leeg draaien en wanneer het apparaat in gebruik is.</p>
-<p>Als praktische vuistregel: een discrete geur die bij de eerste keren verdwijnt, is normaal. Een sterke, bijtende of aanhoudende geur is een signaal dat je niet moet negeren.</p>
+<h2>Is de plasticgeur schadelijk voor je gezondheid?</h2>
+<p>Dat vragen veel mensen zich af. Het eerlijke antwoord: een korte, zwakke geur bij het eerste gebruik geldt over het algemeen als onschadelijk en verdwijnt na een paar keer gebruik. We geven hier geen medisch advies. Twijfel je of heb je klachten, neem dan contact op met een arts of een andere zorgverlener.</p>
+<p>Ter achtergrond: veel antiaanbaklagen zijn van PTFE (vaak bekend onder de merknaam Teflon). Bij correct gebruik binnen de aanbevolen temperaturen geldt PTFE als stabiel. Problemen ontstaan pas bij sterke oververhitting, ver boven het normale kookbereik. De hulpstof PFOA, die vroeger werd gebruikt, wordt niet meer toegepast in moderne apparaten die in de EU worden verkocht. Overschrijd dus nooit de aangegeven maximumtemperaturen en laat de lege mand niet te lang opwarmen.</p>
+<p>Een extra voorzorg: vogels die je als huisdier houdt, zijn erg gevoelig voor dampen van oververhitte antiaanbaklagen. Houd ze uit de keuken tijdens het leeg draaien en wanneer je het apparaat gebruikt.</p>
+<p>Vuistregel: een lichte geur die na de eerste paar keer verdwijnt, is normaal. Een sterke, bijtende of aanhoudende geur is een signaal dat je niet moet negeren.</p>
 
 <h2>Wanneer moet je je zorgen maken?</h2>
-<p>Bepaalde signalen maken van een onschuldige inbrandgeur een echt probleem:</p>
+<p>Sommige signalen wijzen erop dat het om meer gaat dan een onschuldige inbrandgeur:</p>
 <table>
 <thead>
-<tr><th>Situatie</th><th>Beoordeling</th><th>Aanbeveling</th></tr>
+<tr><th>Situatie</th><th>Beoordeling</th><th>Wat te doen</th></tr>
 </thead>
 <tbody>
-<tr><td>Lichte geur bij het 1e tot 2e gebruik</td><td>Normaal</td><td>Leeg laten draaien, ventileren, afwachten</td></tr>
-<tr><td>Geur verdwijnt na een paar keer</td><td>Normaal</td><td>Geen verdere actie nodig</td></tr>
-<tr><td>Sterke geur zelfs na 5 tot 6 keer</td><td>Afwijkend</td><td>Fabrikant of klantenservice contacteren</td></tr>
-<tr><td>Bijtende, scherpe of «schroei»-geur</td><td>Waarschuwing</td><td>Direct uitschakelen, stekker eruit</td></tr>
-<tr><td>Geur met rook of zichtbare schade</td><td>Gevaar</td><td>Niet meer gebruiken, klantenservice contacteren</td></tr>
+<tr><td>Lichte geur bij de eerste of tweede keer</td><td>Normaal</td><td>Leeg laten draaien, ventileren, afwachten</td></tr>
+<tr><td>Geur verdwijnt na een paar keer</td><td>Normaal</td><td>Geen actie nodig</td></tr>
+<tr><td>Sterke geur, ook na 5 à 6 keer</td><td>Niet normaal</td><td>Contact opnemen met fabrikant of klantenservice</td></tr>
+<tr><td>Bijtende of scherpe geur, brandlucht</td><td>Waarschuwing</td><td>Meteen uitzetten, stekker eruit</td></tr>
+<tr><td>Geur met rook of zichtbare schade</td><td>Gevaar</td><td>Niet meer gebruiken, contact opnemen met klantenservice</td></tr>
 </tbody>
 </table>
-<p>Blijft de plasticgeur duidelijk aanwezig na meerdere correcte gebruiken en na het leeg laten draaien, dan wijst dat op minderwaardige materialen of een defect. Gebruik het apparaat in dat geval niet langer en neem contact op met de klantenservice of de verkoper: binnen de garantie heb je doorgaans recht op omruiling of terugbetaling. Bij een bijtende geur, mogelijke oververhitting of rook trek je voor de veiligheid meteen de stekker eruit.</p>
+<p>Blijft de plasticgeur duidelijk aanwezig na meerdere keren normaal gebruik en na het leeg draaien, dan wijst dat op materialen van slechte kwaliteit of een defect. Gebruik het apparaat dan niet meer en neem contact op met de klantenservice of de winkel waar je het kocht: binnen de garantie heb je doorgaans recht op een vervangend exemplaar of je geld terug. Ruik je een bijtende geur, vermoed je oververhitting of zie je rook, trek dan voor de veiligheid meteen de stekker uit het stopcontact.</p>
 
 <h2>De plasticgeur voorkomen</h2>
 <ul>
-<li><strong>Altijd eerst leeg draaien:</strong> 15 tot 20 minuten op 200 °C vóór de eerste kookbeurt.</li>
-<li><strong>Schoonmaken voor het eerste gebruik</strong> om fabricageresten te verwijderen.</li>
-<li><strong>Regelmatig schoonmaken:</strong> vetresten zijn een veelvoorkomende geurbron. Zie ons artikel over <a href="/nl/blog/erreurs-courantes-airfryer">veelgemaakte airfryer-fouten</a>.</li>
-<li><strong>Aanbevolen temperaturen respecteren</strong> en niet onnodig leeg verwarmen.</li>
-<li><strong>Let op ventilatie:</strong> voldoende ruimte en vrije ventilatieopeningen.</li>
+<li><strong>Altijd eerst leeg laten draaien:</strong> 15 tot 20 minuten op 200 °C vóór de eerste bereiding.</li>
+<li><strong>Schoonmaken vóór het eerste gebruik</strong>, om productieresten te verwijderen.</li>
+<li><strong>Regelmatig schoonmaken:</strong> vetresten zijn een veelvoorkomende bron van geur. Lees ook ons artikel over <a href="/nl/blog/erreurs-courantes-airfryer">veelgemaakte fouten met de airfryer</a>.</li>
+<li><strong>Je houden aan de aanbevolen temperaturen</strong> en het apparaat niet onnodig leeg laten opwarmen.</li>
+<li><strong>Zorgen voor ventilatie:</strong> voldoende ruimte rondom en vrije ventilatieopeningen.</li>
 </ul>
 
-<h2>Modellen bekend om geurvrij en PFAS-vrij te zijn</h2>
-<p>Wil je geuren vanaf het begin beperken en geschikte materialen kiezen, let dan op de coating. Steeds meer fabrikanten bieden <strong>PFAS-vrije</strong> coatings, bijvoorbeeld van keramiek, of manden van roestvrij staal. Deze materialen geven minder chemische geur af bij het eerste opwarmen.</p>
+<h2>Geurarme airfryers zonder PFAS</h2>
+<p>Wil je geuren vanaf het begin beperken en voor goede materialen kiezen, let dan op de coating. Steeds meer fabrikanten bieden <strong>PFAS-vrije</strong> coatings aan, bijvoorbeeld van keramiek, of manden van roestvrij staal. Die materialen geven bij het eerste opwarmen minder chemische geur af.</p>
 <ul>
-<li><strong>Keramische coating:</strong> vrij van PTFE/PFAS, vaak minder geurig tijdens het inbranden.</li>
-<li><strong>Roestvrijstalen mand:</strong> stevig, duurzaam en zonder coating die kan uitgassen.</li>
-<li><strong>Merkkwaliteit:</strong> beter gebouwde apparaten gebruiken hittebestendigere kunststof die minder en korter ruikt.</li>
+<li><strong>Keramische coating:</strong> zonder PTFE/PFAS, ruikt bij het inbranden vaak minder.</li>
+<li><strong>Roestvrijstalen mand:</strong> stevig, duurzaam en zonder coating die gassen kan afgeven.</li>
+<li><strong>Merkkwaliteit:</strong> beter gemaakte apparaten gebruiken hittebestendiger kunststof, die minder sterk en minder lang ruikt.</li>
 </ul>
-<p>Zoek je een geurarm model met een goede prijs-kwaliteitverhouding, bekijk dan onze <a href="/nl/blog/meilleur-airfryer-petit-budget">vergelijking van de beste budget-airfryers</a>.</p>
+<p>Zoek je een geurarm model met een goede prijs-kwaliteitverhouding? Bekijk dan onze <a href="/nl/blog/meilleur-airfryer-petit-budget">vergelijking van de beste goedkope airfryers</a>.</p>
 
 <h2>Conclusie</h2>
-<p>Als je airfryer naar plastic ruikt, is dat bij het eerste gebruik bijna altijd normaal en onschadelijk. Maak het apparaat schoon, laat het 15 tot 20 minuten leeg draaien op 200 °C, ventileer en gebruik zo nodig citroen of azijn: in de meeste gevallen verdwijnt de geur. Blijft hij sterk en aanhoudend of wordt hij bijtend, gebruik het apparaat dan niet langer en neem contact op met de klantenservice. Met een goed eerste gebruik en een kwaliteitsvol, bij voorkeur PFAS-vrij model geniet je al snel van krokante, geurvrije resultaten.</p>`,
+<p>Ruikt je airfryer bij het eerste gebruik naar plastic, dan is dat bijna altijd normaal en onschadelijk. Maak het apparaat schoon, laat het 15 tot 20 minuten leeg draaien op 200 °C, zorg voor ventilatie en gebruik zo nodig citroen of azijn: meestal is de geur dan weg. Blijft hij sterk hangen of wordt hij bijtend, gebruik het apparaat dan niet meer en neem contact op met de klantenservice. Met een goede eerste ingebruikname en een kwaliteitsmodel, bij voorkeur zonder PFAS, geniet je al snel van krokante resultaten zonder vreemde geur.</p>`,
     pl: `<h2>Frytkownica beztłuszczowa pachnie plastikiem: bez paniki przy pierwszym użyciu</h2>
 <p>Właśnie rozpakowujesz nową frytkownicę beztłuszczową, nie możesz się doczekać chrupiących frytek przygotowanych z odrobiną tłuszczu, a już przy pierwszym nagrzaniu kuchnię wypełnia zapach plastiku. Nic dziwnego, że to niepokoi, ale w zdecydowanej większości przypadków jest to zupełnie normalne. Niemal każde urządzenie z grzałką i plastikową obudową przy pierwszych uruchomieniach wydziela zapach plastiku lub lekko chemiczną woń.</p>
 <p>W tym poradniku wyjaśniamy, skąd bierze się zapach plastiku, jak krok po kroku się go pozbyć, kiedy powinien Cię zaniepokoić i jak uniknąć tego problemu przy kolejnym zakupie.</p>
@@ -1088,9 +1088,9 @@ export const article: BlogArticle = {
       question: {
         de: 'Warum riecht meine neue Heißluftfritteuse nach Plastik?',
         fr: 'Pourquoi mon airfryer neuf sent-il le plastique ?',
-        en: 'Why does my new air fryer smell like plastic?',
+        en: 'Why does my new air fryer smell of plastic?',
         es: '¿Por qué mi freidora de aire nueva huele a plástico?',
-        it: 'Perché la mia friggitrice ad aria nuova odora di plastica?',
+        it: 'Perché la mia friggitrice ad aria nuova puzza di plastica?',
         nl: 'Waarom ruikt mijn nieuwe airfryer naar plastic?',
         pl: 'Dlaczego moja nowa frytkownica beztłuszczowa pachnie plastikiem?',
         sv: 'Varför luktar min nya airfryer plast?',
@@ -1098,12 +1098,12 @@ export const article: BlogArticle = {
         ca: 'Why does my new air fryer smell like plastic?',
       },
       answer: {
-        de: 'Bei einem neuen Gerät ist das fast immer normal. Es handelt sich um Herstellungsrückstände wie Öle und Schutzbeschichtungen, die beim ersten Aufheizen verdampfen, sowie um die Antihaftbeschichtung, die zum ersten Mal richtig heiß wird. Lassen Sie die Heißluftfritteuse zur ersten Inbetriebnahme 15 bis 20 Minuten leer bei 200 °C einbrennen und lüften Sie gut – der Geruch verschwindet meist nach wenigen Anwendungen.',
+        de: 'Bei einem neuen Gerät ist das fast immer normal. Der Geruch stammt von Produktionsrückständen wie Ölen und Schutzbeschichtungen, die beim ersten Aufheizen verdampfen, und von der Antihaftbeschichtung, die zum ersten Mal richtig heiß wird. Lassen Sie das Gerät vor dem ersten Garen 15 bis 20 Minuten leer bei 200 °C laufen und lüften Sie dabei gut. Meist ist der Geruch nach wenigen Anwendungen verschwunden.',
         fr: 'Sur un appareil neuf, c\'est presque toujours normal. Il s\'agit de résidus de fabrication comme des huiles et des revêtements de protection qui s\'évaporent à la première chauffe, ainsi que du revêtement antiadhésif porté à haute température pour la première fois. Faites tourner l\'appareil à vide 15 à 20 minutes à 200 °C en aérant bien : l\'odeur disparaît généralement après quelques utilisations.',
-        en: 'On a new device this is almost always normal. It comes from manufacturing residue such as oils and protective coatings that evaporate on first heating, plus the non-stick coating reaching high heat for the first time. Run the air fryer empty for 15 to 20 minutes at 200°C on first use and ventilate well; the smell usually disappears after a few uses.',
-        es: 'En un aparato nuevo casi siempre es normal. Se debe a residuos de fabricación como aceites y recubrimientos protectores que se evaporan al calentarse por primera vez, además del revestimiento antiadherente que alcanza altas temperaturas por primera vez. Haz funcionar la freidora en vacío 15 a 20 minutos a 200 °C en el primer uso y ventila bien; el olor suele desaparecer tras unos usos.',
-        it: 'Su un apparecchio nuovo è quasi sempre normale. Dipende da residui di fabbricazione come oli e rivestimenti protettivi che evaporano al primo riscaldamento, oltre al rivestimento antiaderente che raggiunge alte temperature per la prima volta. Fai funzionare la friggitrice a vuoto 15-20 minuti a 200 °C al primo utilizzo e areia bene; l\'odore di solito scompare dopo qualche uso.',
-        nl: 'Bij een nieuw apparaat is dit bijna altijd normaal. Het komt door fabricageresten zoals oliën en beschermende coatings die bij het eerste opwarmen verdampen, plus de antiaanbaklaag die voor het eerst echt heet wordt. Laat de airfryer bij het eerste gebruik 15 tot 20 minuten leeg draaien op 200 °C en lucht goed; de geur verdwijnt meestal na een paar keer.',
+        en: 'On a new appliance, this is almost always normal. It comes from manufacturing residue, such as oils and protective coatings, burning off the first time it heats up, plus the non-stick coating reaching high temperatures for the first time. Run the air fryer empty for 15 to 20 minutes at 200°C, keeping the room well aired; the smell usually goes after a few uses.',
+        es: 'En un aparato nuevo, casi siempre es normal. Son restos de fabricación, como aceites y capas protectoras, que se evaporan la primera vez que se calienta, a lo que se suma el revestimiento antiadherente, que alcanza altas temperaturas por primera vez. Pon la freidora en marcha vacía de 15 a 20 minutos a 200 °C, ventilando bien: el olor suele desaparecer al cabo de unos pocos usos.',
+        it: 'Su un apparecchio nuovo è quasi sempre normale. L\'odore viene dai residui di produzione, come oli e rivestimenti protettivi, che evaporano al primo riscaldamento, e dal rivestimento antiaderente portato ad alta temperatura per la prima volta. Fai funzionare la friggitrice a vuoto per 15-20 minuti a 200 °C e arieggia bene: di solito l\'odore sparisce dopo qualche utilizzo.',
+        nl: 'Bij een nieuw apparaat is dat bijna altijd normaal. De geur komt van productieresten, zoals oliën en beschermlagen, die bij het eerste opwarmen verdampen, en van de antiaanbaklaag die voor het eerst heet wordt. Laat de airfryer 15 tot 20 minuten leeg draaien op 200 °C en zorg voor goede ventilatie: meestal is de geur na een paar keer gebruik verdwenen.',
         pl: 'W nowym urządzeniu to prawie zawsze normalne. Zapach dają pozostałości z produkcji, takie jak oleje i powłoki ochronne, które odparowują przy pierwszym nagrzaniu, a także powłoka nieprzywierająca, która po raz pierwszy nagrzewa się do wysokiej temperatury. Uruchom pustą frytkownicę na 15–20 minut w 200 °C i dobrze przewietrz kuchnię – zapach zwykle znika po kilku użyciach.',
         sv: 'I en ny apparat är det nästan alltid normalt. Lukten kommer från tillverkningsrester som oljor och skyddsbeläggningar, som avdunstar när apparaten värms upp första gången, och från non-stick-beläggningen som blir riktigt het för första gången. Kör apparaten tom i 15–20 minuter på 200 °C och vädra ordentligt: lukten brukar försvinna efter några användningar.',
         us: 'On a new air fryer, it\'s almost always normal. The smell comes from manufacturing residue, like oils and protective coatings, burning off the first time it heats up, plus the nonstick coating reaching high heat for the first time. Run the air fryer empty for 15 to 20 minutes at 400°F (200°C) and ventilate well; the smell usually goes away after a few uses.',
@@ -1114,22 +1114,22 @@ export const article: BlogArticle = {
       question: {
         de: 'Ist der Plastikgeruch der Heißluftfritteuse gesundheitsschädlich?',
         fr: 'L\'odeur de plastique de l\'airfryer est-elle dangereuse pour la santé ?',
-        en: 'Is the air fryer\'s plastic smell harmful to your health?',
-        es: '¿El olor a plástico de la freidora de aire es perjudicial para la salud?',
-        it: 'L\'odore di plastica della friggitrice ad aria è dannoso per la salute?',
-        nl: 'Is de plasticgeur van de airfryer schadelijk voor de gezondheid?',
+        en: 'Is the plastic smell from my air fryer bad for my health?',
+        es: '¿Es perjudicial para la salud el olor a plástico de la freidora de aire?',
+        it: 'L\'odore di plastica della friggitrice ad aria fa male alla salute?',
+        nl: 'Is de plasticgeur van een airfryer schadelijk voor je gezondheid?',
         pl: 'Czy zapach plastiku z frytkownicy beztłuszczowej jest groźny dla zdrowia?',
         sv: 'Är plastlukten från airfryern farlig för hälsan?',
         us: 'Is the plastic smell from an air fryer bad for your health?',
         ca: 'Is the air fryer\'s plastic smell harmful to your health?',
       },
       answer: {
-        de: 'Ein kurzer, schwacher Geruch bei der ersten Inbetriebnahme gilt allgemein als unbedenklich und verflüchtigt sich nach wenigen Anwendungen. Dies ist keine medizinische Beratung; bei Beschwerden wenden Sie sich an Fachpersonal. Viele Beschichtungen bestehen aus PTFE und gelten innerhalb der empfohlenen Temperaturen als stabil; das früher genutzte PFOA wird in modernen EU-Geräten nicht mehr verwendet. Halten Sie die Höchsttemperaturen ein. Bei starkem, beißendem oder anhaltendem Geruch sollten Sie das Gerät nicht weiter nutzen und den Kundendienst kontaktieren.',
+        de: 'Ein kurzer, schwacher Geruch bei der ersten Inbetriebnahme gilt allgemein als unbedenklich und verfliegt nach wenigen Anwendungen. Dies ist keine medizinische Beratung; bei Beschwerden wenden Sie sich an medizinisches Fachpersonal. Viele Beschichtungen bestehen aus PTFE und gelten innerhalb der empfohlenen Temperaturen als stabil; das früher eingesetzte PFOA wird in modernen EU-Geräten nicht mehr verwendet. Halten Sie die Höchsttemperaturen ein. Bei starkem, beißendem oder anhaltendem Geruch nutzen Sie das Gerät nicht weiter und wenden Sie sich an den Kundendienst.',
         fr: 'Une odeur brève et faible à la première mise en service est généralement considérée comme sans danger et se dissipe après quelques utilisations. Ceci n\'est pas un conseil médical ; en cas de gêne, adressez-vous à un professionnel de santé. De nombreux revêtements sont en PTFE et sont considérés comme stables dans les températures recommandées ; le PFOA utilisé autrefois n\'est plus employé dans les appareils modernes de l\'UE. Respectez les températures maximales. En cas d\'odeur forte, âcre ou persistante, cessez l\'utilisation et contactez le SAV.',
-        en: 'A brief, faint smell on first use is generally considered harmless and dissipates after a few uses. This is not medical advice; if you feel unwell, consult a healthcare professional. Many coatings are PTFE and are considered stable within recommended temperatures; the PFOA once used is no longer present in modern EU appliances. Respect the maximum temperatures. If the smell is strong, acrid or persistent, stop using the device and contact after-sales service.',
-        es: 'Un olor breve y leve en el primer uso se considera por lo general inofensivo y se disipa tras unos usos. Esto no es consejo médico; si te sientes mal, consulta a un profesional sanitario. Muchos revestimientos son de PTFE y se consideran estables dentro de las temperaturas recomendadas; el PFOA usado antes ya no está presente en los aparatos modernos de la UE. Respeta las temperaturas máximas. Si el olor es fuerte, acre o persistente, deja de usar el aparato y contacta con el servicio técnico.',
-        it: 'Un odore breve e debole al primo utilizzo è generalmente considerato innocuo e si dissipa dopo qualche uso. Questo non è un consiglio medico; in caso di malessere, rivolgiti a un professionista sanitario. Molti rivestimenti sono in PTFE e sono considerati stabili entro le temperature consigliate; il PFOA usato in passato non è più presente negli apparecchi moderni dell\'UE. Rispetta le temperature massime. Se l\'odore è forte, acre o persistente, smetti di usare l\'apparecchio e contatta l\'assistenza.',
-        nl: 'Een korte, zwakke geur bij het eerste gebruik geldt over het algemeen als onschadelijk en verdwijnt na een paar keer. Dit is geen medisch advies; bij klachten raadpleeg je een zorgprofessional. Veel coatings zijn van PTFE en gelden binnen de aanbevolen temperaturen als stabiel; het vroeger gebruikte PFOA wordt in moderne EU-apparaten niet meer toegepast. Respecteer de maximumtemperaturen. Is de geur sterk, bijtend of aanhoudend, gebruik het apparaat dan niet langer en neem contact op met de klantenservice.',
+        en: 'A brief, faint smell on first use is generally considered harmless and fades after a few uses. This is not medical advice; if you feel unwell, speak to a healthcare professional. Many coatings are made of PTFE, which is considered stable within the recommended temperatures, and PFOA, used in the past, is no longer used in modern appliances sold in the EU. Stay within the maximum temperatures. If the smell is strong, acrid or lingering, stop using the appliance and contact customer service.',
+        es: 'Un olor breve y leve en el primer uso se considera, por lo general, inofensivo y desaparece tras unos usos. Esto no es un consejo médico: si te sientes mal, consulta a un profesional sanitario. Muchos revestimientos son de PTFE y se consideran estables dentro de las temperaturas recomendadas; el PFOA que se usaba antes ya no se emplea en los aparatos actuales vendidos en la UE. Respeta las temperaturas máximas. Si el olor es fuerte, acre o persistente, deja de usarla y contacta con el servicio técnico.',
+        it: 'Un odore leggero e passeggero alla prima accensione è in genere considerato innocuo e sparisce dopo qualche utilizzo. Questo non è un consiglio medico: se avverti disturbi, rivolgiti a un medico. Molti rivestimenti sono in PTFE, considerato stabile entro le temperature consigliate; il PFOA usato in passato non si impiega più negli apparecchi moderni venduti nell\'UE. Rispetta le temperature massime. Se l\'odore è forte, acre o persistente, smetti di usare l\'apparecchio e contatta l\'assistenza.',
+        nl: 'Een korte, zwakke geur bij het eerste gebruik geldt over het algemeen als onschadelijk en verdwijnt na een paar keer. Dit is geen medisch advies: heb je klachten, neem dan contact op met een arts of een andere zorgverlener. Veel antiaanbaklagen zijn van PTFE en gelden binnen de aanbevolen temperaturen als stabiel; het vroeger gebruikte PFOA wordt niet meer toegepast in moderne apparaten in de EU. Houd je aan de maximumtemperaturen. Is de geur sterk of bijtend, of blijft hij hangen, stop dan met het gebruik en neem contact op met de klantenservice.',
         pl: 'Krótkotrwały, słaby zapach przy pierwszym uruchomieniu uznaje się zazwyczaj za nieszkodliwy, a po kilku użyciach znika. To nie jest porada medyczna – jeśli źle się czujesz, skonsultuj się z lekarzem. Wiele powłok wykonuje się z PTFE, który w zalecanym zakresie temperatur uznaje się za stabilny, a stosowany dawniej PFOA nie jest już używany w nowoczesnych urządzeniach na rynku UE. Nie przekraczaj maksymalnych temperatur. Jeśli zapach jest silny, gryzący lub nie ustępuje, przestań używać urządzenia i skontaktuj się z serwisem.',
         sv: 'En kort och svag lukt vid första användningen anses i regel vara ofarlig och försvinner efter några användningar. Det här är inget medicinskt råd; mår du dåligt, vänd dig till vårdpersonal. Många beläggningar är av PTFE och anses stabila inom de rekommenderade temperaturerna, och PFOA, som användes tidigare, finns inte längre i moderna apparater i EU. Överskrid inte maxtemperaturerna. Är lukten stark, frän eller ihållande, sluta använda apparaten och kontakta kundtjänst.',
         us: 'A brief, faint smell on the first use is generally considered harmless, and it goes away after a few uses. This isn\'t medical advice; if you feel unwell, talk to your health care provider. Many coatings are PTFE, which is considered stable within the recommended temperatures, and PFOA, used in the past, is no longer found in modern appliances sold in the EU. Stay within the maximum temperatures. If the smell is strong, acrid or lingering, stop using the air fryer and contact the manufacturer\'s customer support.',
@@ -1142,20 +1142,20 @@ export const article: BlogArticle = {
         fr: 'Combien de temps l\'odeur de plastique dure-t-elle normalement ?',
         en: 'How long does the plastic smell usually last?',
         es: '¿Cuánto tiempo dura normalmente el olor a plástico?',
-        it: 'Quanto dura normalmente l\'odore di plastica?',
-        nl: 'Hoe lang houdt de plasticgeur normaal aan?',
+        it: 'Quanto dura di solito l\'odore di plastica?',
+        nl: 'Hoe lang blijft een nieuwe airfryer normaal naar plastic ruiken?',
         pl: 'Jak długo zwykle utrzymuje się zapach plastiku?',
         sv: 'Hur länge brukar plastlukten sitta i?',
         us: 'How long does the plastic smell usually last?',
         ca: 'How long does the plastic smell usually last?',
       },
       answer: {
-        de: 'Nach dem Einbrennen ist der Geruch meist deutlich schwächer und verschwindet in der Regel innerhalb der ersten zwei bis drei Anwendungen vollständig. Riecht das Gerät auch nach fünf bis sechs ordnungsgemäßen Anwendungen noch stark nach Plastik, ist das nicht mehr normal und deutet auf minderwertige Materialien oder einen Defekt hin – kontaktieren Sie dann den Kundendienst.',
+        de: 'Nach dem Einbrennen ist der Geruch meist deutlich schwächer und in der Regel nach den ersten zwei bis drei Anwendungen ganz verschwunden. Riecht das Gerät nach fünf oder sechs sachgemäßen Anwendungen noch immer stark nach Plastik, ist das nicht mehr normal und deutet auf minderwertige Materialien oder einen Defekt hin. Wenden Sie sich dann an den Kundendienst.',
         fr: 'Après le passage à vide, l\'odeur est généralement bien plus faible et disparaît le plus souvent complètement dans les deux à trois premières utilisations. Si l\'appareil sent encore fortement le plastique après cinq ou six utilisations correctes, ce n\'est plus normal et cela indique des matériaux de mauvaise qualité ou un défaut : contactez alors le SAV.',
-        en: 'After the empty run the smell is usually much weaker and normally disappears completely within the first two or three uses. If the device still smells strongly of plastic after five or six proper uses, that is no longer normal and points to poor materials or a fault; contact after-sales service.',
-        es: 'Tras el funcionamiento en vacío, el olor suele ser mucho más débil y normalmente desaparece por completo en los dos o tres primeros usos. Si el aparato sigue oliendo fuerte a plástico tras cinco o seis usos correctos, ya no es normal e indica materiales de mala calidad o un defecto; contacta entonces con el servicio técnico.',
-        it: 'Dopo il funzionamento a vuoto, l\'odore è di solito molto più debole e normalmente scompare del tutto entro i primi due o tre utilizzi. Se l\'apparecchio odora ancora forte di plastica dopo cinque o sei utilizzi corretti, non è più normale e indica materiali di scarsa qualità o un difetto; contatta allora l\'assistenza.',
-        nl: 'Na het leeg draaien is de geur meestal veel zwakker en verdwijnt hij normaal volledig binnen de eerste twee à drie keer gebruik. Ruikt het apparaat na vijf of zes correcte keren nog sterk naar plastic, dan is dat niet meer normaal en wijst het op minderwaardige materialen of een defect; neem dan contact op met de klantenservice.',
+        en: 'After the empty run, the smell is usually much weaker and normally goes completely within the first two or three uses. If the appliance still smells strongly of plastic after five or six normal uses, that’s no longer normal and points to poor materials or a fault, so contact customer service.',
+        es: 'Después del ciclo en vacío, el olor suele ser mucho más débil y casi siempre desaparece por completo en los dos o tres primeros usos. Si el aparato sigue oliendo mucho a plástico tras cinco o seis usos correctos, eso ya no es normal: apunta a materiales de mala calidad o a un defecto, así que contacta con el servicio técnico.',
+        it: 'Dopo il ciclo a vuoto l\'odore di solito si attenua molto e nella maggior parte dei casi sparisce del tutto entro i primi due o tre utilizzi. Se dopo cinque o sei utilizzi corretti l\'apparecchio puzza ancora forte di plastica, non è più normale: è segno di materiali scadenti o di un difetto, quindi contatta l\'assistenza.',
+        nl: 'Na het leeg draaien is de geur meestal al veel zwakker, en binnen de eerste twee à drie keer gebruik is hij doorgaans helemaal weg. Ruikt het apparaat na vijf of zes keer normaal gebruik nog sterk naar plastic, dan is dat niet meer normaal. Het wijst op materialen van slechte kwaliteit of een defect: neem dan contact op met de klantenservice.',
         pl: 'Po uruchomieniu na pusto zapach jest zwykle znacznie słabszy i najczęściej całkowicie znika po dwóch, trzech pierwszych użyciach. Jeśli po pięciu, sześciu prawidłowych użyciach urządzenie nadal mocno pachnie plastikiem, nie jest to już normalne i świadczy o słabej jakości materiałach lub usterce – wtedy skontaktuj się z serwisem.',
         sv: 'Efter tomkörningen är lukten oftast mycket svagare, och den försvinner i regel helt under de första två till tre användningarna. Luktar apparaten fortfarande starkt av plast efter fem eller sex korrekta användningar är det inte längre normalt, utan tyder på material av dålig kvalitet eller ett fel. Kontakta då kundtjänst.',
         us: 'After the empty run, the smell is usually much fainter and typically disappears completely within the first two or three uses. If the air fryer still smells strongly of plastic after five or six normal uses, that\'s no longer normal and points to poor-quality materials or a defect: contact the manufacturer\'s customer support.',
@@ -1166,22 +1166,22 @@ export const article: BlogArticle = {
       question: {
         de: 'Wie brenne ich eine neue Heißluftfritteuse richtig ein?',
         fr: 'Comment faire tourner correctement un airfryer neuf à vide ?',
-        en: 'How do I properly break in a new air fryer?',
-        es: '¿Cómo hago funcionar correctamente en vacío una freidora de aire nueva?',
-        it: 'Come faccio il rodaggio a vuoto di una friggitrice ad aria nuova?',
-        nl: 'Hoe brand ik een nieuwe airfryer correct in?',
+        en: 'How do I run a new air fryer empty before first use?',
+        es: '¿Cómo se hace bien el primer ciclo en vacío de una freidora de aire nueva?',
+        it: 'Come si fa correttamente il ciclo a vuoto di una friggitrice ad aria nuova?',
+        nl: 'Hoe brand je een nieuwe airfryer goed in?',
         pl: 'Jak prawidłowo uruchomić nową frytkownicę beztłuszczową na pusto?',
         sv: 'Hur kör man en ny airfryer tom på rätt sätt?',
         us: 'How do you break in a new air fryer the right way?',
         ca: 'How do I properly break in a new air fryer?',
       },
       answer: {
-        de: 'Reinigen Sie zuerst Korb und Schublade mit warmem Wasser und Spülmittel und trocknen Sie sie ab. Setzen Sie alles leer wieder ein, stellen Sie 200 °C ein und lassen Sie das Gerät 15 bis 20 Minuten ohne Lebensmittel laufen. Öffnen Sie dabei ein Fenster oder schalten Sie die Dunstabzugshaube ein. Anschließend abkühlen lassen, den Korb erneut abspülen und bei Bedarf den Vorgang wiederholen. Optional neutralisieren Zitrone oder Essig einen Restgeruch.',
+        de: 'Reinigen Sie zuerst Korb und Schublade mit warmem Wasser und Spülmittel und trocknen Sie beides ab. Setzen Sie die Teile leer wieder ein, stellen Sie 200 °C ein und lassen Sie das Gerät 15 bis 20 Minuten ohne Lebensmittel laufen. Öffnen Sie dabei ein Fenster oder schalten Sie die Dunstabzugshaube ein. Lassen Sie das Gerät danach abkühlen, spülen Sie den Korb noch einmal ab und wiederholen Sie den Vorgang bei Bedarf. Einen Restgeruch können Sie zusätzlich mit Zitrone oder Essig neutralisieren.',
         fr: 'Nettoyez d\'abord le panier et le tiroir à l\'eau chaude avec du liquide vaisselle, puis séchez. Remettez le tout à vide, réglez sur 200 °C et faites tourner l\'appareil 15 à 20 minutes sans aliments. Ouvrez une fenêtre ou allumez la hotte. Laissez ensuite refroidir, rincez de nouveau le panier et recommencez si nécessaire. En option, le citron ou le vinaigre neutralisent une odeur résiduelle.',
-        en: 'First clean the basket and drawer with warm water and dish soap, then dry them. Put everything back empty, set 200°C and run the appliance for 15 to 20 minutes with no food. Open a window or turn on the extractor hood. Then let it cool, rinse the basket again and repeat if needed. Optionally, lemon or vinegar neutralises any residual smell.',
-        es: 'Primero limpia la cesta y el cajón con agua caliente y detergente, y sécalos. Vuelve a colocarlo todo en vacío, ajusta a 200 °C y haz funcionar el aparato 15 a 20 minutos sin alimentos. Abre una ventana o enciende la campana. Luego deja enfriar, enjuaga de nuevo la cesta y repite si hace falta. De forma opcional, el limón o el vinagre neutralizan un olor residual.',
-        it: 'Pulisci prima cestello e cassetto con acqua calda e detersivo, poi asciugali. Rimetti tutto a vuoto, imposta 200 °C e fai funzionare l\'apparecchio 15-20 minuti senza alimenti. Apri una finestra o accendi la cappa. Poi lascia raffreddare, risciacqua di nuovo il cestello e ripeti se serve. Facoltativamente, limone o aceto neutralizzano un odore residuo.',
-        nl: 'Maak eerst de mand en lade schoon met warm water en afwasmiddel en droog ze af. Plaats alles leeg terug, zet op 200 °C en laat het apparaat 15 tot 20 minuten zonder voedsel draaien. Open een raam of zet de afzuigkap aan. Laat daarna afkoelen, spoel de mand opnieuw af en herhaal indien nodig. Optioneel neutraliseren citroen of azijn een restgeur.',
+        en: 'First wash the basket and drawer in warm water with washing-up liquid, then dry them. Put them back in, empty, set the air fryer to 200°C and run it for 15 to 20 minutes with no food inside. Open a window or turn on the cooker hood. Let it cool, rinse the basket again and repeat if needed. If any smell lingers, lemon or vinegar will help neutralise it.',
+        es: 'Primero lava la cesta y el cajón con agua caliente y jabón de fregar, y sécalos. Vuelve a montarlo todo vacío, pon la freidora a 200 °C y déjala funcionar de 15 a 20 minutos sin alimentos. Abre una ventana o enciende la campana. Después, deja que se enfríe, aclara otra vez la cesta y repite si hace falta. Si queda algo de olor, el limón o el vinagre ayudan a neutralizarlo.',
+        it: 'Prima lava cestello e cassetto con acqua calda e detersivo per piatti, poi asciugali. Rimontali vuoti, imposta 200 °C e fai funzionare l\'apparecchio per 15-20 minuti senza cibo. Apri una finestra o accendi la cappa. Lascia raffreddare, sciacqua di nuovo il cestello e ripeti se serve. Se resta un po\' di odore, puoi neutralizzarlo con limone o aceto.',
+        nl: 'Was eerst de mand en de lade af met warm water en afwasmiddel en droog ze goed. Zet alles leeg terug, stel 200 °C in en laat het apparaat 15 tot 20 minuten zonder eten draaien. Open een raam of zet de afzuigkap aan. Laat daarna afkoelen, spoel de mand nog eens om en herhaal dit zo nodig. Blijft er een restgeur hangen, dan kun je die neutraliseren met citroen of azijn.',
         pl: 'Najpierw umyj kosz i szufladę w ciepłej wodzie z płynem do naczyń, a potem je osusz. Włóż puste elementy z powrotem, ustaw 200 °C i włącz urządzenie na 15–20 minut bez jedzenia. Otwórz okno lub włącz okap. Potem poczekaj, aż frytkownica ostygnie, jeszcze raz opłucz kosz i w razie potrzeby powtórz całą procedurę. Pozostały zapach można dodatkowo zneutralizować cytryną lub octem.',
         sv: 'Diska först korgen och lådan i varmt vatten med diskmedel och torka dem. Sätt tillbaka allt tomt, ställ in 200 °C och låt apparaten gå i 15–20 minuter utan mat. Öppna ett fönster eller slå på köksfläkten. Låt den sedan svalna, skölj korgen igen och upprepa vid behov. Citron eller ättika kan dessutom neutralisera en lukt som sitter kvar.',
         us: 'First wash the basket and drawer in warm water with dish soap, then dry them. Put everything back in empty, set it to 400°F (200°C) and run it for 15 to 20 minutes with no food. Open a window or turn on the range hood. Then let it cool, rinse the basket again and repeat if needed. If a faint smell lingers, lemon or vinegar can neutralize it.',
@@ -1190,11 +1190,11 @@ export const article: BlogArticle = {
     },
     {
       question: {
-        de: 'Welche Heißluftfritteuse riecht am wenigsten nach Plastik?',
+        de: 'Welcher Airfryer riecht am wenigsten nach Plastik?',
         fr: 'Quel airfryer sent le moins le plastique ?',
-        en: 'Which air fryer smells the least like plastic?',
+        en: 'Which air fryers smell least of plastic?',
         es: '¿Qué freidora de aire huele menos a plástico?',
-        it: 'Quale friggitrice ad aria odora di meno di plastica?',
+        it: 'Quale friggitrice ad aria fa meno odore di plastica?',
         nl: 'Welke airfryer ruikt het minst naar plastic?',
         pl: 'Która frytkownica beztłuszczowa najmniej pachnie plastikiem?',
         sv: 'Vilken airfryer luktar minst plast?',
@@ -1202,12 +1202,12 @@ export const article: BlogArticle = {
         ca: 'Which air fryer smells the least like plastic?',
       },
       answer: {
-        de: 'Geräte mit PFAS-freier Beschichtung, etwa aus Keramik, oder mit Edelstahlkorb neigen weniger zu chemischem Geruch beim ersten Aufheizen, da keine klassische PTFE-Antihaftschicht ausgast. Auch hochwertige Markengeräte verwenden in der Regel besseren Kunststoff, der weniger und kürzer riecht. Empfehlungen mit gutem Preis-Leistungs-Verhältnis finden Sie in unserem Vergleich der besten Heißluftfritteusen für kleines Budget.',
+        de: 'Geräte mit PFAS-freier Beschichtung, etwa aus Keramik, oder mit Edelstahlkorb riechen beim ersten Aufheizen seltener chemisch, weil keine klassische PTFE-Antihaftschicht ausgasen kann. Hochwertige Markengeräte verwenden außerdem meist hitzebeständigeren Kunststoff, der schwächer und kürzer riecht. Empfehlungen mit gutem Preis-Leistungs-Verhältnis finden Sie in unserem Vergleich der besten günstigen Airfryer.',
         fr: 'Les appareils à revêtement sans PFAS, par exemple en céramique, ou à panier en inox sont moins sujets à l\'odeur chimique à la première chauffe, car aucune couche antiadhésive PTFE classique ne dégaze. Les appareils de marque de qualité utilisent aussi un plastique plus résistant à la chaleur qui sent moins et moins longtemps. Vous trouverez des recommandations au bon rapport qualité-prix dans notre comparatif des meilleurs airfryers petit budget.',
-        en: 'Appliances with a PFAS-free coating, such as ceramic, or with a stainless steel basket are less prone to chemical smell on first heating, since there is no classic PTFE non-stick layer to off-gas. Quality brand devices also generally use more heat-resistant plastic that smells less and for less time. You will find good-value recommendations in our comparison of the best budget air fryers.',
-        es: 'Los aparatos con revestimiento sin PFAS, por ejemplo de cerámica, o con cesta de acero inoxidable son menos propensos al olor químico al calentarse por primera vez, ya que no hay una capa antiadherente de PTFE clásica que desgasifique. Los aparatos de marca de calidad también usan plástico más resistente al calor que huele menos y durante menos tiempo. Encontrarás recomendaciones con buena relación calidad-precio en nuestra comparativa de las mejores freidoras de aire baratas.',
-        it: 'Gli apparecchi con rivestimento senza PFAS, ad esempio in ceramica, o con cestello in acciaio inox sono meno soggetti all\'odore chimico al primo riscaldamento, perché non c\'è uno strato antiaderente classico in PTFE che rilascia gas. Anche gli apparecchi di marca di qualità usano plastica più resistente al calore che odora meno e per meno tempo. Trovi consigli con un buon rapporto qualità-prezzo nel nostro confronto delle migliori friggitrici ad aria economiche.',
-        nl: 'Apparaten met een PFAS-vrije coating, bijvoorbeeld van keramiek, of met een roestvrijstalen mand zijn minder gevoelig voor chemische geur bij het eerste opwarmen, omdat er geen klassieke PTFE-antiaanbaklaag is die uitgast. Kwaliteitsmerken gebruiken doorgaans ook hittebestendigere kunststof die minder en korter ruikt. Aanbevelingen met een goede prijs-kwaliteitverhouding vind je in onze vergelijking van de beste budget-airfryers.',
+        en: 'Air fryers with a PFAS-free coating, such as ceramic, or a stainless steel basket are less likely to give off a chemical smell the first time they heat up, as there’s no standard PTFE non-stick layer to release fumes. Good-quality branded appliances also use more heat-resistant plastic that smells less, and for less time. You’ll find good-value recommendations in our comparison of the best budget air fryers.',
+        es: 'Las freidoras con revestimiento sin PFAS, por ejemplo de cerámica, o con cesta de acero inoxidable huelen menos a producto químico al calentarse por primera vez, porque no tienen la clásica capa antiadherente de PTFE que desprende gases. Las marcas de calidad también usan plásticos más resistentes al calor, que huelen menos y durante menos tiempo. Encontrarás opciones con buena relación calidad-precio en nuestra comparativa de las mejores freidoras de aire baratas.',
+        it: 'Le friggitrici con rivestimento senza PFAS, per esempio in ceramica, o con cestello in acciaio inox fanno meno odore chimico al primo riscaldamento, perché non hanno il classico strato antiaderente in PTFE che rilascia gas. Anche gli apparecchi dei buoni marchi usano una plastica più resistente al calore, che fa meno odore e per meno tempo. Trovi modelli con un buon rapporto qualità-prezzo nel nostro confronto delle migliori friggitrici ad aria economiche.',
+        nl: 'Apparaten met een PFAS-vrije coating, bijvoorbeeld van keramiek, of met een roestvrijstalen mand geven bij het eerste opwarmen minder snel een chemische geur af, omdat er geen klassieke PTFE-antiaanbaklaag is die gassen afgeeft. Apparaten van goede merken gebruiken ook hittebestendiger kunststof, die minder sterk en minder lang ruikt. Aanraders met een goede prijs-kwaliteitverhouding vind je in onze vergelijking van de beste goedkope airfryers.',
         pl: 'Urządzenia z powłoką bez PFAS, na przykład ceramiczną, lub z koszem ze stali nierdzewnej rzadziej wydzielają chemiczny zapach przy pierwszym nagrzaniu, bo nie mają klasycznej powłoki nieprzywierającej z PTFE, z której mogłyby się uwalniać gazy. Markowe urządzenia dobrej jakości mają też obudowy z tworzywa bardziej odpornego na wysoką temperaturę, które pachnie słabiej i krócej. Modele o dobrym stosunku jakości do ceny znajdziesz w naszym porównaniu najlepszych tanich frytkownic beztłuszczowych.',
         sv: 'Apparater med PFAS-fri beläggning, till exempel keramisk, eller med korg i rostfritt stål får mer sällan en kemisk lukt vid första uppvärmningen, eftersom det inte finns något klassiskt non-stick-lager av PTFE som avger gaser. Kvalitetsmärken använder också mer värmetålig plast som luktar mindre och under kortare tid. Prisvärda rekommendationer hittar du i vår jämförelse av de bästa airfryrarna för en mindre budget.',
         us: 'Air fryers with a PFAS-free coating, such as ceramic, or a stainless steel basket are less likely to give off a chemical smell the first time they heat up, since there\'s no conventional PTFE nonstick layer to off-gas. Better-made, name-brand appliances also tend to use more heat-resistant plastic that smells less and for a shorter time. You\'ll find good-value picks in our comparison of the best budget air fryers.',

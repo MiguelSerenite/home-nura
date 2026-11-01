@@ -13,11 +13,11 @@ export const article: BlogArticle = {
       src: 'https://images.unsplash.com/photo-1616866179473-32cc45153877?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Platine d’interphone d’immeuble avec les boutons d’appel des appartements',
-        en: 'Apartment building intercom panel with call buttons for each flat',
-        de: 'Klingeltableau einer Türsprechanlage in einem Mehrfamilienhaus',
+        en: 'Intercom panel at the entrance to a block of flats, with a call button for each flat',
+        de: 'Außenstation einer Gegensprechanlage in einem Mehrfamilienhaus mit den Klingeltasten der Wohnungen',
         es: 'Placa de portero automático de un edificio con los pulsadores de cada vivienda',
         it: 'Pulsantiera citofonica di un condominio con i pulsanti di chiamata degli appartamenti',
-        nl: 'Intercompaneel van een appartementsgebouw met belknoppen per woning',
+        nl: 'Buitenpaneel van een intercom in een appartementsgebouw, met een belknop per appartement',
         pl: 'Panel domofonu przy wejściu do budynku wielorodzinnego z przyciskami poszczególnych mieszkań',
         sv: 'Porttelefonpanel i ett flerbostadshus med ringknappar till varje lägenhet',
         us: 'Apartment building intercom panel with a call button for each unit',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Interphone Vidéo Connecté 2026 : Guide d’Achat et Comparatif des 5 Meilleurs',
-    en: 'Smart Video Intercom 2026: Buying Guide and Top 5 Comparison',
-    de: 'Vernetzte Video-Türsprechanlage 2026: Kaufratgeber und Vergleich der 5 Besten',
-    es: 'Videoportero Inteligente 2026: Guía de Compra y Comparativa de los 5 Mejores',
-    it: 'Videocitofono Connesso 2026: Guida all’Acquisto e Confronto dei 5 Migliori',
-    nl: 'Slimme Video-Intercom 2026: Koopgids en Vergelijking van de 5 Beste',
+    en: 'Smart Video Intercom 2026: Buying Guide and Top 5 Compared',
+    de: 'Video-Gegensprechanlage mit App 2026: Kaufberatung und die 5 besten Modelle',
+    es: 'Videoportero wifi 2026: guía de compra y comparativa de los 5 mejores',
+    it: 'Videocitofono Wi-Fi 2026: guida all’acquisto e confronto dei 5 migliori',
+    nl: 'Beste video-intercom 2026: 5 modellen met app vergeleken',
     pl: 'Wideodomofon z aplikacją 2026: poradnik i porównanie 5 najlepszych modeli',
     sv: 'Videoporttelefon 2026: köpguide och de 5 bästa jämförda',
     us: 'Best Smart Video Intercoms (2026): Buying Guide and Top 5',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Quel interphone vidéo connecté choisir en 2026 ? Philips WelcomeEye Connect 3, BTicino Classe 100X et Classe 300EOS, Comelit Visto Wi-Fi et Ring Intercom Video comparés : câblage, appli, copropriété et Vigik.',
-    en: 'Which smart video intercom should you choose in 2026? Philips WelcomeEye Connect 3, BTicino Classe 100X and Classe 300EOS, Comelit Visto Wi-Fi and Ring Intercom Video compared: wiring, app and shared buildings.',
-    de: 'Welche vernetzte Video-Türsprechanlage passt 2026? Philips WelcomeEye Connect 3, BTicino Classe 100X und Classe 300EOS, Comelit Visto Wi-Fi und Ring Intercom Video im Vergleich: Verkabelung, App und Mehrfamilienhaus.',
-    es: '¿Qué videoportero inteligente elegir en 2026? Comparamos Philips WelcomeEye Connect 3, BTicino Classe 100X y Classe 300EOS, Comelit Visto Wi-Fi y Ring Intercom Video: cableado, app y comunidades de vecinos.',
-    it: 'Quale videocitofono connesso scegliere nel 2026? Philips WelcomeEye Connect 3, BTicino Classe 100X e Classe 300EOS, Comelit Visto Wi-Fi e Ring Intercom Video a confronto: cablaggio, app e condominio.',
-    nl: 'Welke slimme video-intercom kies je in 2026? Philips WelcomeEye Connect 3, BTicino Classe 100X en Classe 300EOS, Comelit Visto Wi-Fi en Ring Intercom Video vergeleken: bekabeling, app en appartementsgebouwen.',
+    en: 'Which smart video intercom should you choose in 2026? Philips WelcomeEye Connect 3, BTicino Classe 100X and Classe 300EOS, Comelit Visto Wi-Fi and Ring Intercom Video compared on wiring, app and use in blocks of flats.',
+    de: 'Welche Video-Gegensprechanlage mit App passt 2026 zu Ihnen? Philips WelcomeEye Connect 3, BTicino Classe 100X und Classe 300EOS, Comelit Visto Wi-Fi und Ring Intercom Video im Vergleich: Verkabelung, App und Einbau im Mehrfamilienhaus.',
+    es: '¿Qué videoportero wifi elegir en 2026? Comparamos Philips WelcomeEye Connect 3, BTicino Classe 100X y Classe 300EOS, Comelit Visto Wi-Fi y Ring Intercom Video: cableado, app, comunidades de vecinos y control de acceso.',
+    it: 'Quale videocitofono Wi-Fi scegliere nel 2026? Philips WelcomeEye Connect 3, BTicino Classe 100X e Classe 300EOS, Comelit Visto Wi-Fi e Ring Intercom Video a confronto su cablaggio, app e uso in condominio.',
+    nl: 'Welke video-intercom met app kies je in 2026? We vergelijken Philips WelcomeEye Connect 3, BTicino Classe 100X en Classe 300EOS, Comelit Visto Wi-Fi en Ring Intercom Video op bekabeling, app en wat er mag in een appartementsgebouw.',
     pl: 'Jaki wideodomofon z aplikacją wybrać w 2026 roku? Porównujemy Philips WelcomeEye Connect 3, BTicino Classe 100X i Classe 300EOS, Comelit Visto Wi-Fi oraz Ring Intercom Video: okablowanie, aplikacja, montaż we wspólnocie mieszkaniowej i francuski system Vigik.',
     sv: 'Vilken smart videoporttelefon ska du välja 2026? Philips WelcomeEye Connect 3, BTicino Classe 100X och Classe 300EOS, Comelit Visto Wi-Fi och Ring Intercom Video jämförda: kabeldragning, app och flerbostadshus.',
     us: 'Which smart video intercom should you buy in 2026? Philips WelcomeEye Connect 3, BTicino Classe 100X and Classe 300EOS, Comelit Visto Wi-Fi and Ring Intercom Video compared on wiring, apps and apartment buildings.',
@@ -142,64 +142,64 @@ export const article: BlogArticle = {
 <h2>Notre verdict</h2>
 <p>Pour une maison ou un petit immeuble dont vous maîtrisez l’installation, le <strong>Philips WelcomeEye Connect 3</strong> est le choix le plus complet. Si votre logement est déjà câblé en BTicino 2 fils, le <strong>Classe 100X</strong> apporte l’appli au meilleur rapport qualité-prix, et le <strong>Classe 300EOS with Netatmo</strong> ajoute Alexa et le pilotage de la maison. Le <strong>Comelit Visto Wi-Fi</strong> convient aux maisons bifamiliales. En appartement, sans pouvoir toucher à la platine commune, le <strong>Ring Intercom Video</strong> est la solution la plus simple pour répondre depuis votre smartphone.</p>`,
 
-    en: `<p>For a house or a small building, the <strong>Philips WelcomeEye Connect 3</strong> is the most complete smart video intercom in 2026: a 7-inch touchscreen, a 3K camera, RFID badges and a smartphone app over 2-wire cabling. In a flat, where the street panel belongs to the building, the right answer is often a connected indoor unit that matches the existing system (BTicino Classe 100X or Classe 300EOS) or a no-works add-on such as the <strong>Ring Intercom Video</strong>.</p>
-<p>This guide compares five real products currently sold in Europe, based on manufacturer datasheets, published independent reviews and verified buyer feedback. You will also find the full selection on our <a href="/en/securite-maison/interphones">video intercoms</a> page.</p>
+    en: `<p>For a house or a small building, the <strong>Philips WelcomeEye Connect 3</strong> is the most complete smart video intercom in 2026: a 7-inch touchscreen, a 3K camera, RFID fobs and a phone app, all over 2-wire cabling. In a flat, where the entry panel belongs to the building as a whole, the answer is often a smart indoor unit that works with the existing system (BTicino Classe 100X or Classe 300EOS) or an add-on that needs no alterations, such as the <strong>Ring Intercom Video</strong>.</p>
+<p>This guide compares five real products currently on sale in Europe, based on manufacturer spec sheets, published independent reviews and verified buyer feedback. You will also find all our picks on our <a href="/en/securite-maison/interphones">video intercoms</a> page.</p>
 
 <h2>Video intercom, video doorbell or smart add-on: three different answers</h2>
 <p>These products are often lumped together, but they solve different problems:</p>
 <ul>
-<li><strong>A video intercom</strong> is a complete system: an outdoor panel with camera and call button, one or more indoor screens, and a door or gate release. The connected version adds an app to answer remotely.</li>
-<li><strong>A video doorbell</strong> (Ring, Netatmo, Eufy…) replaces a simple bell push on a detached house. There is no indoor screen; everything goes through the phone. If that is your case, see our <a href="/en/blog/sonnette-video-sans-abonnement">no-subscription video doorbell comparison</a>.</li>
+<li><strong>A video intercom</strong> is a complete system: an outdoor panel with camera and call button, one or more indoor screens, and a door or gate release. The smart version adds an app so you can answer from anywhere.</li>
+<li><strong>A video doorbell</strong> (Ring, Netatmo, Eufy…) replaces a simple doorbell button on a house. There is no indoor screen; everything goes through your phone. If that is all you need, see our <a href="/en/blog/sonnette-video-sans-abonnement">no-subscription video doorbell comparison</a>.</li>
 <li><strong>A smart add-on for an existing intercom</strong> connects to the handset in your flat and forwards calls to your phone, without touching the shared panel.</li>
 </ul>
 <p>Before comparing models, pin down your situation: a house with a gate, a small building whose system you control, or a flat in a block with a shared entry system.</p>
 
 <h2>How to choose</h2>
 <h3>Existing wiring</h3>
-<p>This decides everything. Most recent installations use a <strong>2-wire bus</strong>: two conductors carry power, audio and video. Older systems may use 4 to 8 wires, and high-end installations run over <strong>IP</strong> network cable. A 2-wire kit on existing 2-wire cabling avoids pulling new cables; an IP system often needs a network cable to the panel. On a shared system, the indoor unit must match the building’s brand and technology.</p>
+<p>This is the deciding factor. Most recent installations use a <strong>2-wire bus</strong>: two conductors carry power, audio and video. Older systems may use 4 to 8 wires, and high-end installations run on <strong>IP</strong> over network cable. Fitting a 2-wire kit to existing 2-wire cabling saves running new cables; an IP system often needs a network cable to the panel. On a shared system, the indoor unit must match the building’s brand and technology.</p>
 <h3>Indoor screen</h3>
-<p>A fixed screen still matters when a phone is flat, forgotten or used by a child. Common sizes range from 4.3 to 7 inches. A touchscreen makes history and settings easier to browse.</p>
+<p>A fixed screen still matters when a phone is flat, forgotten or used by a child. Common sizes range from 4.3 to 7 inches. A touchscreen makes it easier to scroll through call history and settings.</p>
 <h3>App and smart home</h3>
-<p>Check which app runs the product, whether it can open the door remotely and whether it works with your ecosystem (Amazon Alexa, Google Home, Apple Home). Some advanced features may require a subscription, so read the product page before buying.</p>
+<p>Check which app runs the product, whether it can open the door remotely and whether it works with your ecosystem (Amazon Alexa, Google Home, Apple Home). Some advanced features may require a subscription, so check the spec sheet before you buy.</p>
 <h3>Access control</h3>
-<p>RFID badges, temporary codes or scheduled access for couriers save you from handing out keys and are handy for families and small buildings.</p>
-<h3>Scalability</h3>
-<p>Number of indoor screens, outdoor panels and homes supported: a house kit does not necessarily scale to a block of flats.</p>
+<p>RFID fobs, temporary codes or scheduled access for couriers save you handing out keys, which is handy for families and small blocks of flats.</p>
+<h3>Room to expand</h3>
+<p>Check how many indoor screens, outdoor panels and homes the system can handle: a kit designed for a house will not necessarily scale up to a block of flats.</p>
 
 <h2>The 5 best smart video intercoms in 2026</h2>
 
 <h3>1. Philips WelcomeEye Connect 3 — best overall</h3>
-<p>The <strong>Philips WelcomeEye Connect 3</strong> (made under licence by Avidsen) is the most polished kit for a house or small building. The door panel records in 3K (2592 x 1944) with a 120° horizontal field of view, and the 7-inch indoor touchscreen wakes up via a proximity sensor. The 2-wire digital bus allows up to 120 m between the furthest components.</p>
-<p><strong>Strengths:</strong> very detailed image, built-in RFID badge reader, QR codes for temporary access, 2.4 and 5 GHz Wi-Fi, and the Philips Door Connect app to answer and open remotely. The system extends to 3 screens and 2 door panels.</p>
-<p><strong>Limits:</strong> it is a single-home kit, not a block-of-flats system, and installation requires some electrical know-how.</p>
-<p><strong>Best for:</strong> houses with a gate, replacing an old 2-wire video entry system, owners who want both an indoor screen and an app.</p>
+<p>The <strong>Philips WelcomeEye Connect 3</strong> (made under licence by Avidsen) is the most polished kit for a house or small building. The door panel records in 3K (2592 × 1944) with a 120° horizontal field of view, and the 7-inch indoor touchscreen wakes up as you approach, thanks to a proximity sensor. The 2-wire digital bus allows up to 120 m between the furthest components.</p>
+<p><strong>Pros:</strong> very detailed image, built-in RFID fob reader, QR codes for temporary access, 2.4 and 5 GHz Wi-Fi, and the Philips Door Connect app to answer and open remotely. The system can be expanded to 3 screens and 2 door panels.</p>
+<p><strong>Cons:</strong> it is a kit for a single home, not a system for a block of flats, and fitting it takes some electrical know-how.</p>
+<p><strong>Best for:</strong> houses with a gate, upgrading an old 2-wire video entry system, and homeowners who want both an indoor screen and an app.</p>
 
 <h3>2. BTicino Classe 100X — best value</h3>
-<p>The <strong>BTicino Classe 100X</strong> (Legrand group) is the brand’s standard range of connected indoor units. It has a 5-inch colour screen and built-in Wi-Fi, and is controlled through the Home + Security app from Legrand, BTicino and Netatmo: receive calls, release the lock and view the outdoor camera.</p>
-<p><strong>Strengths:</strong> works on the BTicino 2-wire bus, available hands-free or with a handset, induction loop for hearing-aid users, and Netatmo security devices in the same app. Kits with a door panel and badge access control are available.</p>
-<p><strong>Limits:</strong> smaller screen than the Philips; on wiring other than BTicino 2-wire, an interface or rewiring may be needed.</p>
-<p><strong>Best for:</strong> renovations and flats already wired with BTicino 2-wire that want the app without going premium.</p>
+<p>The <strong>BTicino Classe 100X</strong> (Legrand group) is the brand’s standard range of smart indoor units. It has a 5-inch colour screen and built-in Wi-Fi, and runs on the Home + Security app from Legrand, BTicino and Netatmo, which lets you take calls, release the door lock and view the outdoor camera.</p>
+<p><strong>Pros:</strong> works on the BTicino 2-wire bus, available hands-free or with a handset, an induction loop for hearing aid users, and Netatmo security devices in the same app. Kits with a door panel and badge access control are available.</p>
+<p><strong>Cons:</strong> smaller screen than the Philips; with wiring other than BTicino 2-wire, you may need an interface or rewiring.</p>
+<p><strong>Best for:</strong> houses being renovated and flats already wired for BTicino 2-wire, if you want the app without paying for the top of the range.</p>
 
 <h3>3. BTicino Classe 300EOS with Netatmo — premium unit with Alexa</h3>
-<p>The <strong>Classe 300EOS with Netatmo</strong> is a video indoor unit with a 5-inch screen and <strong>built-in Alexa</strong>. Besides answering visitors and opening the door, it acts as a dashboard: lights, shutters, thermostat or compatible cameras can be controlled from the screen or by voice.</p>
-<p><strong>Strengths:</strong> BTicino 2-wire bus, compatible with BTicino devices using the same technology; Legrand states it can replace an existing BTicino 2-wire video unit. Controlled via the Home + Security app.</p>
-<p><strong>Limits:</strong> only a 5-inch screen, and Alexa is only as useful as your smart home setup.</p>
-<p><strong>Best for:</strong> homes with BTicino 2-wire wiring, including flats, and households already built around Alexa.</p>
+<p>The <strong>Classe 300EOS with Netatmo</strong> is an indoor video unit with a 5-inch screen and <strong>built-in Alexa</strong>. As well as answering visitors and opening the door, it doubles as a control panel: you can run compatible lights, shutters, thermostats or cameras from the screen or by voice.</p>
+<p><strong>Pros:</strong> BTicino 2-wire bus, compatible with BTicino devices that use the same technology; Legrand says it can replace an existing BTicino 2-wire video unit. Runs on the Home + Security app.</p>
+<p><strong>Cons:</strong> only a 5-inch screen, and Alexa is only as useful as your smart home setup.</p>
+<p><strong>Best for:</strong> homes wired for BTicino 2-wire, including flats in shared buildings, and households already built around Alexa.</p>
 
 <h3>4. Comelit Visto Wi-Fi (KVV8101) — the expandable IP kit</h3>
-<p>Comelit, the Italian specialist in multi-dwelling entry systems, offers the <strong>Visto Wi-Fi KVV8101</strong> kit for houses and small offices, based on its ViP (IP) system. The kit includes a Visto door panel, a power supply and a 4.3-inch Mini hands-free Wi-Fi monitor.</p>
-<p><strong>Strengths:</strong> supplied pre-programmed, P2P connection with no router configuration, free Comelit app for iOS and Android, expandable to 2 door panels and 2 homes with 2 monitors each.</p>
-<p><strong>Limits:</strong> smaller screen and a more technical installation than consumer kits; the exact reference may vary by country.</p>
-<p><strong>Best for:</strong> two-family houses, small offices and installers who prefer the Comelit ecosystem.</p>
+<p>Comelit, the Italian door entry specialist for blocks of flats, makes the <strong>Visto Wi-Fi KVV8101</strong> kit for houses and small business premises, based on its ViP (IP) system. The kit includes a Visto door panel, a power supply and a 4.3-inch Mini hands-free Wi-Fi monitor.</p>
+<p><strong>Pros:</strong> supplied pre-programmed, P2P connection with no router set-up, free Comelit app for iOS and Android, expandable to 2 door panels and 2 homes with 2 monitors each.</p>
+<p><strong>Cons:</strong> smaller screen and a more technical installation than consumer kits; the exact model number may vary from country to country.</p>
+<p><strong>Best for:</strong> houses split into two flats, small offices and installers who prefer the Comelit ecosystem.</p>
 
-<h3>5. Ring Intercom Video — the no-works option for flats</h3>
-<p>The <strong>Ring Intercom Video</strong> is not a full intercom: it is a box with a removable battery that wires into the handset in your flat and forwards calls from the building intercom to the Ring app. You can see the visitor, talk and open the main entrance remotely.</p>
-<p><strong>Strengths:</strong> no changes to the shared system, works with Alexa, timed access for verified Amazon couriers.</p>
-<p><strong>Limits:</strong> the image comes from the building’s camera, so quality depends on the existing panel; it opens the building entrance, not your own front door; 2.4 GHz Wi-Fi only. Check your intercom’s compatibility on Ring’s website and which features work without a subscription.</p>
-<p><strong>Best for:</strong> tenants and flat owners who cannot change the shared panel.</p>
+<h3>5. Ring Intercom Video — best for flats, with no alterations</h3>
+<p>The <strong>Ring Intercom Video</strong> is not a full intercom: it is a box with a removable battery that wires into the handset in your flat and forwards calls from the building intercom to the Ring app. You can see the visitor, talk to them and open the main entrance remotely.</p>
+<p><strong>Pros:</strong> no changes to the shared system, works with Alexa, scheduled access for verified Amazon couriers.</p>
+<p><strong>Cons:</strong> the image comes from the building’s camera, so quality depends on the existing panel; it opens the building entrance, not your own front door; 2.4 GHz Wi-Fi only. Check your intercom’s compatibility on Ring’s website and which features work without a subscription.</p>
+<p><strong>Best for:</strong> tenants and leaseholders who cannot change the shared entry panel.</p>
 
-<h3>Other options worth knowing</h3>
-<p>For a house without an indoor screen, a video doorbell such as the <strong>Netatmo Smart Video Doorbell</strong> (Full HD, local microSD storage, Apple Home compatible) is a simpler alternative, but it is not an intercom: it handles neither several homes nor an indoor screen. The <strong>Nuki Opener</strong> also makes many existing intercoms controllable from a phone, without video. Finally, for architectural projects, the German brand <strong>Siedle</strong> (modular Vario range, Siedle app) is ordered through professional installers.</p>
+<h3>Other options worth considering</h3>
+<p>For a house without an indoor screen, a video doorbell such as the <strong>Netatmo Smart Video Doorbell</strong> (Full HD, local microSD storage, Apple Home compatible) is a simpler alternative, but it is not an intercom: it cannot serve several homes and has no indoor screen. The <strong>Nuki Opener</strong> also makes many existing intercoms controllable from a phone, without video. Finally, for architect-led projects, the German brand <strong>Siedle</strong> (modular Vario range, Siedle app) is supplied through professional installers.</p>
 
 <h2>Comparison table</h2>
 <table>
@@ -208,90 +208,90 @@ export const article: BlogArticle = {
 </thead>
 <tbody>
 <tr><td>Philips WelcomeEye Connect 3</td><td>Video entry kit</td><td>7" touchscreen</td><td>2-wire bus + 2.4/5 GHz Wi-Fi</td><td>Philips Door Connect</td><td>House, small building</td></tr>
-<tr><td>BTicino Classe 100X</td><td>Indoor unit / kit</td><td>5"</td><td>BTicino 2-wire bus + Wi-Fi</td><td>Home + Security</td><td>Renovation, value</td></tr>
+<tr><td>BTicino Classe 100X</td><td>Indoor unit / kit</td><td>5"</td><td>BTicino 2-wire bus + Wi-Fi</td><td>Home + Security</td><td>Renovations, tighter budgets</td></tr>
 <tr><td>BTicino Classe 300EOS with Netatmo</td><td>Indoor unit / kit</td><td>5" with Alexa</td><td>BTicino 2-wire bus + Wi-Fi</td><td>Home + Security</td><td>Smart home, BTicino buildings</td></tr>
-<tr><td>Comelit Visto Wi-Fi KVV8101</td><td>IP kit (ViP)</td><td>4.3" hands-free</td><td>ViP + Wi-Fi</td><td>Comelit</td><td>Two-family house, office</td></tr>
-<tr><td>Ring Intercom Video</td><td>Add-on for existing intercom</td><td>None (phone)</td><td>Wired to handset + 2.4 GHz Wi-Fi</td><td>Ring</td><td>Flats, no works</td></tr>
+<tr><td>Comelit Visto Wi-Fi KVV8101</td><td>IP kit (ViP)</td><td>4.3" hands-free</td><td>ViP + Wi-Fi</td><td>Comelit</td><td>House split into two flats, office</td></tr>
+<tr><td>Ring Intercom Video</td><td>Add-on for existing intercom</td><td>None (phone)</td><td>Wired to handset + 2.4 GHz Wi-Fi</td><td>Ring</td><td>Flats, no alterations</td></tr>
 </tbody>
 </table>
 
-<h2>Installing a video intercom in a shared building</h2>
-<p>The street panel and shared cabling are common parts: replacing them is a collective decision, taken by the freeholder, managing agent or residents’ association depending on the building. Swapping the indoor unit in your own flat for a compatible model, or adding a module such as the Ring Intercom Video, usually concerns only your home; still check the building rules, and your landlord if you rent.</p>
-<p><strong>Postal access:</strong> many buildings give postal workers and some service providers badge or code access. When the panel is replaced, make sure that access is kept.</p>
-<p><strong>Electrics:</strong> work on mains power and the door release should be done by a qualified electrician.</p>
-<p><strong>Privacy:</strong> a camera filming shared areas or the street falls under data protection rules (GDPR in the EU, UK GDPR in the UK). Keep the field of view on the entrance, inform people who are filmed and do not keep footage longer than necessary.</p>
+<h2>Installing a video intercom in a block of flats</h2>
+<p>The entry panel and shared cabling are part of the building’s common parts, so replacing them is a collective decision, taken by the freeholder, managing agent or residents’ association depending on the building. Swapping the indoor unit in your own flat for a compatible model, or adding a module such as the Ring Intercom Video, is usually a matter for you alone; still check your lease or the building rules, and ask your landlord if you rent.</p>
+<p><strong>Postal access:</strong> in France, many buildings have a Vigik reader that lets postal workers and some service providers in with a professional pass. Whatever system your building uses for postal access, make sure it is kept when the panel is replaced.</p>
+<p><strong>Electrics:</strong> any work on the mains supply and the door release should be done by a qualified electrician.</p>
+<p><strong>Privacy:</strong> a camera that films shared areas or the street is covered by data protection law (GDPR). Keep the field of view to the entrance, let people know they are being filmed and do not keep footage for longer than necessary; in France, the data protection authority CNIL publishes guidance on this.</p>
 
 <h2>Mistakes to avoid</h2>
 <ul>
 <li><strong>Buying without checking the wiring:</strong> count the wires and note the brand of your current system first.</li>
-<li><strong>Confusing doorbell and intercom:</strong> a video doorbell does not replace a building intercom.</li>
-<li><strong>Ignoring Wi-Fi coverage:</strong> the indoor unit or add-on needs a good signal, or notifications arrive late.</li>
-<li><strong>Overlooking the door release:</strong> check that your lock or gate works with the kit’s release output.</li>
-<li><strong>Dropping the indoor screen:</strong> a flat phone battery should not leave visitors outside.</li>
+<li><strong>Confusing a doorbell with an intercom:</strong> a video doorbell does not replace a building intercom.</li>
+<li><strong>Ignoring Wi-Fi coverage:</strong> the indoor unit or add-on needs a good signal, or notifications will arrive late.</li>
+<li><strong>Overlooking the door release:</strong> check that your door lock or gate is compatible with the kit’s release control.</li>
+<li><strong>Going without an indoor screen:</strong> a flat phone battery should not leave your visitors stuck outside.</li>
 </ul>
-<p>To go further, our <a href="/en/blog/serrure-connectee-guide">smart lock guide</a> explains how to add keyless access alongside your intercom.</p>
+<p>Our <a href="/en/blog/serrure-connectee-guide">smart lock guide</a> explains how to add keyless entry alongside your intercom.</p>
 
 <h2>Our verdict</h2>
-<p>For a house or small building whose system you control, the <strong>Philips WelcomeEye Connect 3</strong> is the most complete choice. If your home is already wired with BTicino 2-wire, the <strong>Classe 100X</strong> adds the app at the best value, and the <strong>Classe 300EOS with Netatmo</strong> adds Alexa and smart home control. The <strong>Comelit Visto Wi-Fi</strong> suits two-family houses. In a flat where you cannot touch the shared panel, the <strong>Ring Intercom Video</strong> is the simplest way to answer from your phone.</p>`,
+<p>For a house or small building whose system you control, the <strong>Philips WelcomeEye Connect 3</strong> is the most complete choice. If your home is already wired with BTicino 2-wire, the <strong>Classe 100X</strong> gives you the app for the best value, and the <strong>Classe 300EOS with Netatmo</strong> adds Alexa and smart home control. The <strong>Comelit Visto Wi-Fi</strong> suits houses split into two flats. In a flat where you cannot touch the shared panel, the <strong>Ring Intercom Video</strong> is the simplest way to answer from your phone.</p>`,
 
-    de: `<p>Für ein Haus oder ein kleines Gebäude ist die <strong>Philips WelcomeEye Connect 3</strong> 2026 die vollständigste vernetzte Video-Türsprechanlage: 7-Zoll-Touchscreen, 3K-Kamera, RFID-Transponder und Smartphone-App über eine 2-Draht-Verkabelung. In einer Wohnung, deren Außenstation der Eigentümergemeinschaft gehört, ist oft eine vernetzte Innenstation passend zur bestehenden Anlage die bessere Wahl (BTicino Classe 100X oder Classe 300EOS) oder ein Nachrüstmodul ohne Umbau wie das <strong>Ring Intercom Video</strong>.</p>
-<p>Dieser Ratgeber vergleicht fünf reale, derzeit in Europa erhältliche Lösungen auf Basis von Herstellerdatenblättern, veröffentlichten unabhängigen Testberichten und verifizierten Käuferbewertungen. Die komplette Auswahl finden Sie auf unserer Seite <a href="/de/securite-maison/interphones">Video-Türsprechanlagen</a>.</p>
+    de: `<p>Für ein Haus oder ein kleines Mehrfamilienhaus ist 2026 die <strong>Philips WelcomeEye Connect 3</strong> die umfassendste Video-Gegensprechanlage mit App: 7-Zoll-Touchscreen, 3K-Kamera, RFID-Transponder und Smartphone-App über eine 2-Draht-Verkabelung. In einer Wohnung im Mehrfamilienhaus gehört die Außenstation dagegen der Gemeinschaft. Dort fahren Sie oft besser mit einer vernetzten Innenstation, die zur bestehenden Anlage passt (BTicino Classe 100X oder Classe 300EOS), oder mit einem Nachrüstmodul ohne Umbau wie dem <strong>Ring Intercom Video</strong>.</p>
+<p>Dieser Ratgeber vergleicht fünf Lösungen, die derzeit in Europa im Handel sind. Er stützt sich auf Herstellerangaben, veröffentlichte unabhängige Testberichte und verifizierte Käuferbewertungen. Die komplette Auswahl finden Sie auf unserer Seite <a href="/de/securite-maison/interphones">Video-Gegensprechanlagen</a>.</p>
 
-<h2>Video-Türsprechanlage, Video-Türklingel oder Nachrüstmodul: drei verschiedene Antworten</h2>
+<h2>Video-Gegensprechanlage, Video-Türklingel oder Nachrüstmodul: drei verschiedene Lösungen</h2>
 <p>Diese Produkte werden oft in einen Topf geworfen, lösen aber unterschiedliche Aufgaben:</p>
 <ul>
-<li><strong>Die Video-Türsprechanlage</strong> ist ein Komplettsystem: Außenstation mit Kamera und Klingeltaste, ein oder mehrere Innenmonitore und ein Türöffner für Tür oder Tor. Die vernetzte Version ergänzt eine App zum Annehmen aus der Ferne.</li>
+<li><strong>Die Video-Gegensprechanlage</strong> ist ein Komplettsystem: Außenstation mit Kamera und Klingeltaste, ein oder mehrere Innenmonitore und die Ansteuerung für Türöffner oder Tor. Die vernetzte Version bringt zusätzlich eine App mit, über die Sie auch unterwegs antworten können.</li>
 <li><strong>Die Video-Türklingel</strong> (Ring, Netatmo, Eufy …) ersetzt einen einfachen Klingeltaster am Einfamilienhaus. Es gibt keinen Innenmonitor, alles läuft über das Smartphone. Passt das zu Ihnen, lesen Sie unseren <a href="/de/blog/sonnette-video-sans-abonnement">Vergleich der Video-Türklingeln ohne Abo</a>.</li>
 <li><strong>Das Nachrüstmodul</strong> wird an die Innenstation Ihrer Wohnung angeschlossen und leitet Anrufe aufs Smartphone weiter, ohne die gemeinsame Außenstation anzutasten.</li>
 </ul>
-<p>Klären Sie vor dem Vergleich Ihre Situation: Haus mit Tor, kleines Gebäude mit eigener Anlage oder Wohnung in einem Mehrfamilienhaus mit gemeinsamer Anlage.</p>
+<p>Klären Sie deshalb vor dem Vergleich Ihre Situation: Haus mit Tor, kleines Mehrfamilienhaus, dessen Anlage Sie selbst verwalten, oder Wohnung in einem Mehrfamilienhaus mit gemeinsamer Anlage.</p>
 
 <h2>Worauf Sie beim Kauf achten sollten</h2>
 <h3>Die vorhandene Verkabelung</h3>
 <p>Sie entscheidet über alles. Die meisten neueren Anlagen nutzen einen <strong>2-Draht-Bus</strong>: Zwei Adern übertragen Strom, Ton und Bild. Ältere Systeme haben 4 bis 8 Adern, hochwertige Installationen laufen über <strong>IP</strong> per Netzwerkkabel. Ein 2-Draht-Set auf bestehender 2-Draht-Verkabelung erspart neue Leitungen; ein IP-System braucht oft ein Netzwerkkabel bis zur Außenstation. Bei einer gemeinsamen Anlage muss die Innenstation zur Marke und Technik des Hauses passen.</p>
 <h3>Der Innenmonitor</h3>
-<p>Ein fest montierter Bildschirm bleibt nützlich, wenn das Handy leer, vergessen oder von einem Kind benutzt wird. Üblich sind 4,3 bis 7 Zoll. Ein Touchscreen erleichtert die Bedienung von Verlauf und Einstellungen.</p>
+<p>Ein fest montierter Bildschirm bleibt nützlich, wenn der Handy-Akku leer ist, das Handy irgendwo liegt oder gerade ein Kind damit spielt. Üblich sind 4,3 bis 7 Zoll. Ein Touchscreen erleichtert die Bedienung von Verlauf und Einstellungen.</p>
 <h3>App und Smart Home</h3>
-<p>Prüfen Sie, welche App das Gerät steuert, ob sie die Tür aus der Ferne öffnet und ob sie mit Ihrem Ökosystem zusammenarbeitet (Amazon Alexa, Google Home, Apple Home). Manche Zusatzfunktionen können ein Abo voraussetzen – lesen Sie die Produktseite vor dem Kauf.</p>
+<p>Prüfen Sie, welche App das Gerät steuert, ob sie die Tür aus der Ferne öffnet und ob sie mit Ihrem Smart-Home-System zusammenarbeitet (Amazon Alexa, Google Home, Apple Home). Manche Zusatzfunktionen können ein Abo voraussetzen – lesen Sie die Produktseite vor dem Kauf.</p>
 <h3>Zutrittskontrolle</h3>
-<p>RFID-Transponder, temporäre Codes oder zeitgesteuerter Zugang für Zusteller ersparen das Verteilen von Schlüsseln und sind für Familien und kleine Häuser sehr praktisch.</p>
+<p>RFID-Transponder, temporäre Codes oder zeitgesteuerter Zugang für Zusteller ersparen das Verteilen von Schlüsseln und sind für Familien und kleine Hausgemeinschaften sehr praktisch.</p>
 <h3>Erweiterbarkeit</h3>
-<p>Anzahl der Innenmonitore, Außenstationen und Wohneinheiten: Ein Set für ein Haus lässt sich nicht unbedingt auf ein Mehrfamilienhaus erweitern.</p>
+<p>Achten Sie darauf, wie viele Innenmonitore, Außenstationen und Wohneinheiten das System verwalten kann. Ein Set fürs Einfamilienhaus lässt sich nicht unbedingt auf ein Mehrfamilienhaus erweitern.</p>
 
-<h2>Die 5 besten vernetzten Video-Türsprechanlagen 2026</h2>
+<h2>Die 5 besten Video-Gegensprechanlagen mit App 2026</h2>
 
-<h3>1. Philips WelcomeEye Connect 3 – beste Wahl insgesamt</h3>
-<p>Die <strong>Philips WelcomeEye Connect 3</strong> (in Lizenz von Avidsen hergestellt) ist das ausgereifteste Set für ein Haus oder ein kleines Gebäude. Die Außenstation filmt in 3K (2592 x 1944) mit 120° horizontalem Blickwinkel, der 7-Zoll-Touchscreen innen wacht per Näherungssensor auf. Der digitale 2-Draht-Bus erlaubt bis zu 120 m zwischen den am weitesten entfernten Komponenten.</p>
+<h3>1. Philips WelcomeEye Connect 3 – die beste Wahl insgesamt</h3>
+<p>Die <strong>Philips WelcomeEye Connect 3</strong> (in Lizenz von Avidsen hergestellt) ist das ausgereifteste Set für ein Haus oder ein kleines Gebäude. Die Außenstation filmt in 3K (2592 × 1944 Pixel) mit einem horizontalen Blickwinkel von 120°, der 7-Zoll-Touchscreen im Haus schaltet sich per Näherungssensor ein. Über den digitalen 2-Draht-Bus dürfen die am weitesten entfernten Komponenten bis zu 120 m auseinanderliegen.</p>
 <p><strong>Stärken:</strong> sehr detailreiches Bild, integrierter RFID-Leser, QR-Codes für temporären Zugang, WLAN mit 2,4 und 5 GHz sowie die App Philips Door Connect zum Annehmen und Öffnen aus der Ferne. Erweiterbar auf 3 Monitore und 2 Außenstationen.</p>
 <p><strong>Grenzen:</strong> ein Set für eine Wohneinheit, kein System für Mehrfamilienhäuser; die Montage erfordert elektrische Grundkenntnisse.</p>
 <p><strong>Für wen?</strong> Häuser mit Tor, Austausch einer alten 2-Draht-Videoanlage, Eigentümer, die Innenmonitor und App wollen.</p>
 
-<h3>2. BTicino Classe 100X – bestes Preis-Leistungs-Verhältnis</h3>
+<h3>2. BTicino Classe 100X – das beste Preis-Leistungs-Verhältnis</h3>
 <p>Die <strong>BTicino Classe 100X</strong> (Legrand-Gruppe) ist die Standardserie der vernetzten Innenstationen der Marke. Sie hat einen 5-Zoll-Farbbildschirm und integriertes WLAN und wird über die App Home + Security von Legrand, BTicino und Netatmo gesteuert: Anrufe annehmen, Türöffner betätigen, Außenkamera aufrufen.</p>
-<p><strong>Stärken:</strong> für den BTicino-2-Draht-Bus, als Freisprech- oder Hörerversion erhältlich, Induktionsschleife für Hörgeräteträger, Netatmo-Sicherheitsgeräte in derselben App. Sets mit Außenstation und Transponder-Zutritt sind erhältlich.</p>
+<p><strong>Stärken:</strong> für den BTicino-2-Draht-Bus, als Freisprech- oder Hörerversion erhältlich, Induktionsschleife für Menschen mit Hörgerät, Netatmo-Sicherheitsgeräte in derselben App. Es gibt auch Sets mit Außenstation und Zutritt per Transponder.</p>
 <p><strong>Grenzen:</strong> kleinerer Bildschirm als bei Philips; bei anderer Verkabelung als BTicino 2-Draht kann ein Interface oder eine Neuverkabelung nötig sein.</p>
-<p><strong>Für wen?</strong> Renovierungen und Wohnungen mit BTicino-2-Draht-Anlage, die die App ohne Premiumanspruch wollen.</p>
+<p><strong>Für wen?</strong> Häuser, die renoviert werden, und Wohnungen mit BTicino-2-Draht-Anlage, die eine App wollen, aber kein Premiumgerät brauchen.</p>
 
 <h3>3. BTicino Classe 300EOS with Netatmo – Premium-Innenstation mit Alexa</h3>
-<p>Die <strong>Classe 300EOS with Netatmo</strong> ist eine Video-Innenstation mit 5-Zoll-Bildschirm und <strong>integrierter Alexa</strong>. Neben dem Annehmen von Besuchern und dem Türöffnen dient sie als Steuerzentrale: Licht, Rollläden, Thermostat oder kompatible Kameras lassen sich per Bildschirm oder Stimme bedienen.</p>
+<p>Die <strong>Classe 300EOS with Netatmo</strong> ist eine Video-Innenstation mit 5-Zoll-Bildschirm und <strong>integrierter Alexa</strong>. Neben Gesprächen mit Besuchern und dem Öffnen der Tür dient sie als Steuerzentrale: Licht, Rollläden, Thermostat oder kompatible Kameras lassen sich per Bildschirm oder Stimme bedienen.</p>
 <p><strong>Stärken:</strong> BTicino-2-Draht-Bus, kompatibel mit BTicino-Geräten derselben Technik; laut Legrand kann sie eine bestehende BTicino-2-Draht-Videostation ersetzen. Steuerung über die App Home + Security.</p>
-<p><strong>Grenzen:</strong> nur 5 Zoll Bildschirm; der Nutzen von Alexa hängt von Ihrer Smart-Home-Ausstattung ab.</p>
+<p><strong>Grenzen:</strong> nur ein 5-Zoll-Bildschirm; der Nutzen von Alexa hängt von Ihrer Smart-Home-Ausstattung ab.</p>
 <p><strong>Für wen?</strong> Wohnungen und Häuser mit BTicino-2-Draht-Anlage sowie Haushalte, die bereits auf Alexa setzen.</p>
 
 <h3>4. Comelit Visto Wi-Fi (KVV8101) – das erweiterbare IP-Set</h3>
-<p>Comelit, italienischer Spezialist für Gegensprechanlagen in Mehrfamilienhäusern, bietet mit dem Set <strong>Visto Wi-Fi KVV8101</strong> eine Lösung für Häuser und kleine Büros auf Basis seines ViP-Systems (IP). Enthalten sind eine Visto-Außenstation, ein Netzteil und ein 4,3-Zoll-Freisprechmonitor Mini Wi-Fi.</p>
+<p>Der italienische Hersteller Comelit, spezialisiert auf Gegensprechanlagen für Mehrfamilienhäuser, bietet mit dem Set <strong>Visto Wi-Fi KVV8101</strong> eine Lösung für Häuser und kleine Gewerberäume, die auf seinem IP-System ViP basiert. Enthalten sind eine Visto-Außenstation, ein Netzteil und ein 4,3-Zoll-Freisprechmonitor Mini Wi-Fi.</p>
 <p><strong>Stärken:</strong> vorprogrammiert geliefert, P2P-Verbindung ohne Router-Konfiguration, kostenlose Comelit-App für iOS und Android, erweiterbar auf 2 Außenstationen und 2 Wohneinheiten mit je 2 Monitoren.</p>
-<p><strong>Grenzen:</strong> kleinerer Bildschirm und technischere Montage als Endkunden-Sets; die genaue Artikelnummer kann je nach Land abweichen.</p>
+<p><strong>Grenzen:</strong> kleinerer Bildschirm und aufwendigere Montage als bei Sets für Endkunden; die genaue Artikelnummer kann je nach Land abweichen.</p>
 <p><strong>Für wen?</strong> Zweifamilienhäuser, kleine Büros und Installateure, die das Comelit-System bevorzugen.</p>
 
 <h3>5. Ring Intercom Video – die Lösung ohne Umbau für Mietwohnungen</h3>
-<p>Das <strong>Ring Intercom Video</strong> ist keine komplette Sprechanlage, sondern ein Modul mit herausnehmbarem Akku, das an die Innenstation Ihrer Wohnung angeschlossen wird und Anrufe der Hausanlage an die Ring-App weiterleitet. Sie sehen den Besucher, sprechen mit ihm und öffnen die Haustür aus der Ferne.</p>
-<p><strong>Stärken:</strong> keine Änderung an der gemeinsamen Anlage, funktioniert mit Alexa, zeitlich begrenzter Zugang für verifizierte Amazon-Zusteller.</p>
+<p>Das <strong>Ring Intercom Video</strong> ist keine komplette Gegensprechanlage, sondern ein Modul mit herausnehmbarem Akku, das an die Innenstation Ihrer Wohnung angeschlossen wird und Anrufe der Hausanlage an die Ring-App weiterleitet. Sie sehen den Besucher, sprechen mit ihm und öffnen die Haustür aus der Ferne.</p>
+<p><strong>Stärken:</strong> keine Änderung an der gemeinsamen Anlage, funktioniert mit Alexa, zeitlich festgelegter Zugang für verifizierte Amazon-Zusteller.</p>
 <p><strong>Grenzen:</strong> Das Bild stammt von der Kamera des Hauses, die Qualität hängt also von der bestehenden Außenstation ab; es öffnet die Haustür, nicht Ihre Wohnungstür; nur WLAN mit 2,4 GHz. Prüfen Sie die Kompatibilität Ihrer Anlage auf der Ring-Website und welche Funktionen ohne Abo verfügbar sind.</p>
 <p><strong>Für wen?</strong> Mieter und Wohnungseigentümer, die die gemeinsame Außenstation nicht austauschen können.</p>
 
 <h3>Weitere Optionen</h3>
-<p>Für ein Haus ohne Innenmonitor ist eine Video-Türklingel wie die <strong>Netatmo Smart Video Doorbell</strong> (Full HD, lokale Speicherung auf microSD, kompatibel mit Apple Home) eine einfachere Alternative – aber keine Sprechanlage: Sie bedient weder mehrere Wohneinheiten noch einen Innenmonitor. Der <strong>Nuki Opener</strong> macht zudem viele bestehende Sprechanlagen per Smartphone steuerbar, allerdings ohne Video. Für Architekturprojekte schließlich wird der deutsche Hersteller <strong>Siedle</strong> (modulare Vario-Serie, Siedle App) über Fachinstallateure bezogen.</p>
+<p>Für ein Haus ohne Innenmonitor ist eine Video-Türklingel wie die <strong>Netatmo Smart Video Doorbell</strong> (Full HD, lokale Speicherung auf microSD, kompatibel mit Apple Home) eine einfachere Alternative – aber keine Gegensprechanlage: Sie bedient weder mehrere Wohneinheiten noch einen Innenmonitor. Der <strong>Nuki Opener</strong> macht zudem viele bestehende Gegensprechanlagen per Smartphone steuerbar, allerdings ohne Video. Bei anspruchsvollen Architekturprojekten schließlich kommt der deutsche Hersteller <strong>Siedle</strong> infrage (modulare Serie Vario, Siedle App), den Sie über Fachinstallateure beziehen.</p>
 
 <h2>Vergleichstabelle</h2>
 <table>
@@ -302,88 +302,88 @@ export const article: BlogArticle = {
 <tr><td>Philips WelcomeEye Connect 3</td><td>Video-Set</td><td>7" Touchscreen</td><td>2-Draht-Bus + WLAN 2,4/5 GHz</td><td>Philips Door Connect</td><td>Haus, kleines Gebäude</td></tr>
 <tr><td>BTicino Classe 100X</td><td>Innenstation / Set</td><td>5"</td><td>BTicino-2-Draht-Bus + WLAN</td><td>Home + Security</td><td>Renovierung, Preis-Leistung</td></tr>
 <tr><td>BTicino Classe 300EOS with Netatmo</td><td>Innenstation / Set</td><td>5" mit Alexa</td><td>BTicino-2-Draht-Bus + WLAN</td><td>Home + Security</td><td>Smart Home, BTicino-Häuser</td></tr>
-<tr><td>Comelit Visto Wi-Fi KVV8101</td><td>IP-Set (ViP)</td><td>4,3" Freisprech</td><td>ViP + WLAN</td><td>Comelit</td><td>Zweifamilienhaus, Büro</td></tr>
-<tr><td>Ring Intercom Video</td><td>Nachrüstmodul</td><td>Keiner (Smartphone)</td><td>An Innenstation + WLAN 2,4 GHz</td><td>Ring</td><td>Wohnung ohne Umbau</td></tr>
+<tr><td>Comelit Visto Wi-Fi KVV8101</td><td>IP-Set (ViP)</td><td>4,3" mit Freisprechfunktion</td><td>ViP + WLAN</td><td>Comelit</td><td>Zweifamilienhaus, Büro</td></tr>
+<tr><td>Ring Intercom Video</td><td>Nachrüstmodul</td><td>Keiner (Smartphone)</td><td>An der Innenstation + WLAN 2,4 GHz</td><td>Ring</td><td>Wohnung ohne Umbau</td></tr>
 </tbody>
 </table>
 
 <h2>Einbau im Mehrfamilienhaus</h2>
-<p>Außenstation und gemeinsame Verkabelung gehören zum Gemeinschaftseigentum: Über ihren Austausch entscheidet die Eigentümerversammlung bzw. der Vermieter. Die Innenstation in Ihrer Wohnung durch ein kompatibles Modell zu ersetzen oder ein Modul wie das Ring Intercom Video nachzurüsten, betrifft in der Regel nur Ihre Wohnung; prüfen Sie dennoch die Hausordnung und fragen Sie als Mieter Ihren Vermieter.</p>
-<p><strong>Zugang für Zusteller:</strong> Viele Häuser haben Transponder- oder Code-Zugänge für Post und Dienstleister. Achten Sie beim Austausch der Außenstation darauf, dass dieser Zugang erhalten bleibt.</p>
+<p>Außenstation und gemeinsame Verkabelung gehören zum Gemeinschaftseigentum: Über ihren Austausch entscheidet die Eigentümerversammlung bzw. der Vermieter. Tauschen Sie dagegen nur die Innenstation Ihrer Wohnung gegen ein kompatibles Modell oder rüsten ein Modul wie das Ring Intercom Video nach, betrifft das in der Regel nur Ihre eigene Wohnung. Werfen Sie trotzdem einen Blick in die Regeln Ihrer Eigentümergemeinschaft, und fragen Sie als Mieter vorher Ihren Vermieter.</p>
+<p><strong>Zugang für Zusteller:</strong> Kommen Post und Dienstleister in Ihrem Haus per Transponder oder Code hinein (in Frankreich etwa über das System Vigik), muss dieser Zugang beim Austausch der Außenstation erhalten bleiben.</p>
 <p><strong>Elektrik:</strong> Arbeiten am 230-V-Netz und am Türöffner gehören in die Hände einer Elektrofachkraft.</p>
-<p><strong>Datenschutz:</strong> Eine Kamera, die Gemeinschaftsflächen oder den öffentlichen Raum erfasst, unterliegt der DSGVO. Beschränken Sie den Bildausschnitt auf den Eingang, informieren Sie die Betroffenen und speichern Sie Aufnahmen nicht länger als nötig.</p>
+<p><strong>Datenschutz:</strong> Eine Kamera, die Gemeinschaftsflächen oder den öffentlichen Raum erfasst, unterliegt dem Datenschutzrecht, in der EU der DSGVO. Beschränken Sie den Bildausschnitt auf den Eingang, informieren Sie die Betroffenen und speichern Sie Aufnahmen nicht länger als nötig.</p>
 
 <h2>Fehler, die Sie vermeiden sollten</h2>
 <ul>
-<li><strong>Kaufen, ohne die Verkabelung zu prüfen:</strong> Zählen Sie die Adern und notieren Sie die Marke der vorhandenen Anlage.</li>
-<li><strong>Türklingel und Sprechanlage verwechseln:</strong> Eine Video-Türklingel ersetzt keine Haussprechanlage.</li>
+<li><strong>Kaufen, ohne die Verkabelung zu prüfen:</strong> Zählen Sie die Adern und notieren Sie die Marke der vorhandenen Anlage, bevor Sie sich entscheiden.</li>
+<li><strong>Türklingel und Gegensprechanlage verwechseln:</strong> Eine Video-Türklingel ersetzt keine Gegensprechanlage im Mehrfamilienhaus.</li>
 <li><strong>WLAN-Abdeckung vergessen:</strong> Innenstation oder Modul brauchen guten Empfang, sonst kommen Benachrichtigungen verspätet.</li>
 <li><strong>Den Türöffner übersehen:</strong> Prüfen Sie, ob Türöffner oder Tor mit dem Schaltausgang des Sets funktionieren.</li>
 <li><strong>Auf den Innenmonitor verzichten:</strong> Ein leerer Handy-Akku sollte Besucher nicht draußen stehen lassen.</li>
 </ul>
-<p>Unser <a href="/de/blog/serrure-connectee-guide">Ratgeber zu smarten Türschlössern</a> zeigt, wie Sie die Sprechanlage um schlüssellosen Zugang ergänzen.</p>
+<p>Unser <a href="/de/blog/serrure-connectee-guide">Smart-Lock-Ratgeber</a> zeigt, wie Sie die Gegensprechanlage um einen schlüssellosen Zugang ergänzen.</p>
 
 <h2>Unser Fazit</h2>
-<p>Für ein Haus oder ein kleines Gebäude mit eigener Anlage ist die <strong>Philips WelcomeEye Connect 3</strong> die vollständigste Wahl. Ist Ihre Wohnung bereits mit BTicino 2-Draht verkabelt, bringt die <strong>Classe 100X</strong> die App zum besten Preis-Leistungs-Verhältnis, die <strong>Classe 300EOS with Netatmo</strong> ergänzt Alexa und Smart-Home-Steuerung. Die <strong>Comelit Visto Wi-Fi</strong> passt zu Zweifamilienhäusern. In der Wohnung, wenn Sie die gemeinsame Außenstation nicht ändern können, ist das <strong>Ring Intercom Video</strong> der einfachste Weg, per Smartphone zu antworten.</p>`,
+<p>Für ein Haus oder ein kleines Mehrfamilienhaus, dessen Anlage Sie selbst verwalten, ist die <strong>Philips WelcomeEye Connect 3</strong> die umfassendste Wahl. Ist Ihre Wohnung bereits mit einer BTicino-2-Draht-Anlage ausgestattet, bekommen Sie mit der <strong>Classe 100X</strong> die App zum besten Preis-Leistungs-Verhältnis; die <strong>Classe 300EOS with Netatmo</strong> bringt zusätzlich Alexa und die Steuerung Ihres Smart Homes mit. Die <strong>Comelit Visto Wi-Fi</strong> passt zu Zweifamilienhäusern. Können Sie in Ihrer Wohnung die gemeinsame Außenstation nicht austauschen, ist das <strong>Ring Intercom Video</strong> der einfachste Weg, Besuchern per Smartphone zu antworten.</p>`,
 
-    es: `<p>Para una casa o un edificio pequeño, el <strong>Philips WelcomeEye Connect 3</strong> es el videoportero inteligente más completo de 2026: pantalla táctil de 7 pulgadas, cámara 3K, llaves RFID y app para smartphone sobre un cableado de 2 hilos. En un piso, donde la placa de calle pertenece a la comunidad, la mejor respuesta suele ser un monitor interior conectado compatible con la instalación existente (BTicino Classe 100X o Classe 300EOS) o un módulo sin obras como el <strong>Ring Intercom Video</strong>.</p>
-<p>Esta guía compara cinco soluciones reales que se venden actualmente en Europa, a partir de las fichas técnicas de los fabricantes, análisis independientes publicados y opiniones verificadas de compradores. Encontrará toda la selección en nuestra página de <a href="/es/securite-maison/interphones">videoporteros</a>.</p>
+    es: `<p>Para una casa o un edificio pequeño, el <strong>Philips WelcomeEye Connect 3</strong> es el videoportero wifi más completo de 2026: pantalla táctil de 7 pulgadas, cámara 3K, llaveros RFID y app para el móvil sobre un cableado de 2 hilos. En un piso, donde la placa de calle es de la comunidad, lo más sensato suele ser un monitor interior con app compatible con la instalación existente (BTicino Classe 100X o Classe 300EOS) o un módulo que no necesita obras, como el <strong>Ring Intercom Video</strong>.</p>
+<p>Esta guía compara cinco soluciones reales que se venden hoy en Europa, a partir de las fichas técnicas de los fabricantes, análisis independientes publicados y opiniones verificadas de compradores. Tienes toda la selección en nuestra página de <a href="/es/securite-maison/interphones">videoporteros</a>.</p>
 
-<h2>Videoportero, timbre con vídeo o módulo conectado: tres respuestas distintas</h2>
-<p>Se suelen confundir, pero no resuelven el mismo problema:</p>
+<h2>Videoportero, timbre con cámara o módulo conectado: tres soluciones distintas</h2>
+<p>Se suelen meter en el mismo saco, pero no resuelven lo mismo:</p>
 <ul>
-<li><strong>El videoportero</strong> es un sistema completo: placa exterior con cámara y pulsador, uno o varios monitores interiores y un abrepuertas para la puerta o la cancela. La versión conectada añade una app para contestar a distancia.</li>
-<li><strong>El timbre con vídeo</strong> (Ring, Netatmo, Eufy…) sustituye un simple pulsador en una casa unifamiliar. No hay monitor interior: todo pasa por el móvil. Si es su caso, consulte nuestra <a href="/es/blog/sonnette-video-sans-abonnement">comparativa de timbres con vídeo sin suscripción</a>.</li>
-<li><strong>El módulo conectado</strong> se conecta al telefonillo de su piso y desvía las llamadas al móvil, sin tocar la placa común.</li>
+<li><strong>El videoportero</strong> es un sistema completo: una placa exterior con cámara y pulsador de llamada, uno o varios monitores interiores y un abrepuertas para la puerta o la cancela. La versión conectada añade una app para contestar a distancia.</li>
+<li><strong>El timbre con cámara</strong> (Ring, Netatmo, Eufy…) sustituye al pulsador del timbre en una casa unifamiliar. No tiene monitor interior: todo pasa por el móvil. Si es tu caso, echa un vistazo a nuestra <a href="/es/blog/sonnette-video-sans-abonnement">comparativa de timbres con cámara sin suscripción</a>.</li>
+<li><strong>El módulo conectado para el portero que ya tienes</strong> se instala en el telefonillo de tu piso y desvía las llamadas al móvil, sin tocar la placa común.</li>
 </ul>
-<p>Antes de comparar modelos, defina su situación: casa con cancela, edificio pequeño cuya instalación controla, o piso en una comunidad con un sistema colectivo.</p>
+<p>Antes de comparar modelos, ten clara tu situación: casa con cancela, edificio pequeño cuya instalación controlas tú o piso en una comunidad con un sistema colectivo.</p>
 
 <h2>Criterios para elegir bien</h2>
 <h3>El cableado existente</h3>
-<p>Es el criterio que lo decide todo. La mayoría de las instalaciones recientes usan un <strong>bus de 2 hilos</strong>: dos conductores llevan alimentación, audio y vídeo. Los sistemas antiguos pueden tener de 4 a 8 hilos, y las instalaciones de gama alta funcionan por <strong>IP</strong> con cable de red. Un kit de 2 hilos sobre un cableado de 2 hilos evita tender cables nuevos; un sistema IP suele necesitar cable de red hasta la placa. En un sistema colectivo, el monitor interior debe ser compatible con la marca y la tecnología del edificio.</p>
+<p>Es lo que lo decide todo. La mayoría de las instalaciones recientes usan un <strong>bus de 2 hilos</strong>: dos conductores llevan la alimentación, el audio y el vídeo. Los sistemas antiguos pueden tener de 4 a 8 hilos, y las instalaciones de gama alta funcionan por <strong>IP</strong> con cable de red. Un kit de 2 hilos sobre un cableado antiguo de 2 hilos te ahorra tender cables nuevos; un sistema IP suele necesitar cable de red hasta la placa. En un sistema colectivo, el monitor interior tiene que ser compatible con la marca y la tecnología del edificio.</p>
 <h3>El monitor interior</h3>
-<p>Una pantalla fija sigue siendo útil cuando el móvil está sin batería, olvidado o en manos de un niño. Los tamaños habituales van de 4,3 a 7 pulgadas. Una pantalla táctil facilita el historial y los ajustes.</p>
-<h3>La app y el hogar conectado</h3>
-<p>Compruebe qué app controla el equipo, si permite abrir la puerta a distancia y si se integra en su ecosistema (Amazon Alexa, Google Home, Apple Home). Algunas funciones avanzadas pueden requerir suscripción: lea la ficha antes de comprar.</p>
+<p>Una pantalla fija sigue siendo útil cuando el móvil se ha quedado sin batería, te lo has dejado en otro sitio o lo tiene un niño. Los tamaños habituales van de 4,3 a 7 pulgadas. Con una pantalla táctil es más fácil moverse por el historial y los ajustes.</p>
+<h3>La app y el hogar inteligente</h3>
+<p>Comprueba qué app controla el equipo, si permite abrir la puerta a distancia y si se integra en tu ecosistema (Amazon Alexa, Google Home, Apple Home). Algunas funciones avanzadas pueden exigir una suscripción: lee la ficha antes de comprar.</p>
 <h3>El control de acceso</h3>
-<p>Llaves RFID, códigos temporales o accesos programados para repartidores evitan repartir llaves y resultan muy prácticos para familias y comunidades pequeñas.</p>
+<p>Llaveros RFID, códigos temporales o accesos programados para repartidores: así no tienes que ir repartiendo llaves, algo muy práctico para una familia o una comunidad pequeña.</p>
 <h3>La ampliación</h3>
-<p>Número de monitores, placas y viviendas admitidas: un kit para una casa no siempre se puede ampliar a un edificio.</p>
+<p>Cuántos monitores interiores, placas exteriores y viviendas admite: un kit pensado para una casa no siempre se puede ampliar a un edificio.</p>
 
-<h2>Los 5 mejores videoporteros inteligentes de 2026</h2>
+<h2>Los 5 mejores videoporteros wifi de 2026</h2>
 
-<h3>1. Philips WelcomeEye Connect 3: la mejor opción global</h3>
-<p>El <strong>Philips WelcomeEye Connect 3</strong> (fabricado bajo licencia por Avidsen) es el kit más logrado para una casa o un edificio pequeño. La placa graba en 3K (2592 x 1944) con un ángulo horizontal de 120°, y la pantalla táctil interior de 7 pulgadas se activa gracias a un sensor de proximidad. El bus digital de 2 hilos admite hasta 120 m entre los elementos más alejados.</p>
-<p><strong>Puntos fuertes:</strong> imagen muy detallada, lector RFID integrado, códigos QR para accesos temporales, Wi-Fi de 2,4 y 5 GHz y app Philips Door Connect para contestar y abrir a distancia. Ampliable hasta 3 pantallas y 2 placas.</p>
-<p><strong>Limitaciones:</strong> es un kit para una vivienda, no un sistema para comunidades; la instalación requiere ciertos conocimientos de electricidad.</p>
-<p><strong>¿Para quién?</strong> Casas con cancela, sustitución de un antiguo videoportero de 2 hilos, propietarios que quieren monitor interior y app.</p>
+<h3>1. Philips WelcomeEye Connect 3: el mejor en general</h3>
+<p>El <strong>Philips WelcomeEye Connect 3</strong> (fabricado bajo licencia por Avidsen) es el kit más logrado para una casa o un edificio pequeño. La placa graba en 3K (2592 x 1944) con un ángulo horizontal de 120°, y la pantalla táctil interior de 7 pulgadas se enciende sola gracias a un sensor de proximidad. El cableado de 2 hilos (bus digital) admite hasta 120 m entre los elementos más alejados.</p>
+<p><strong>Puntos fuertes:</strong> imagen muy detallada, lector de llaveros RFID integrado, códigos QR para accesos temporales, wifi de 2,4 y 5 GHz y app Philips Door Connect para contestar y abrir a distancia. La instalación se puede ampliar hasta 3 pantallas y 2 placas.</p>
+<p><strong>Puntos débiles:</strong> es un kit para una sola vivienda, no un sistema para comunidades; instalarlo exige ciertos conocimientos de electricidad.</p>
+<p><strong>¿Para quién?</strong> Casas con cancela, sustitución de un videoportero antiguo de 2 hilos y propietarios que quieren monitor interior y app.</p>
 
 <h3>2. BTicino Classe 100X: la mejor relación calidad-precio</h3>
-<p>El <strong>BTicino Classe 100X</strong> (grupo Legrand) es la gama estándar de monitores conectados de la marca. Tiene pantalla en color de 5 pulgadas y Wi-Fi integrado, y se controla con la app Home + Security de Legrand, BTicino y Netatmo: recibir llamadas, accionar el abrepuertas y activar la cámara exterior.</p>
-<p><strong>Puntos fuertes:</strong> compatible con el bus de 2 hilos de BTicino, disponible en versión manos libres o con auricular, bucle inductivo para usuarios de audífonos y gestión de los equipos de seguridad Netatmo en la misma app. Existen kits con placa y control de acceso por llaves.</p>
-<p><strong>Limitaciones:</strong> pantalla más pequeña que la de Philips; con un cableado distinto del de 2 hilos de BTicino puede hacer falta una interfaz o recablear.</p>
-<p><strong>¿Para quién?</strong> Reformas y pisos ya cableados con BTicino de 2 hilos que quieren la app sin ir a la gama alta.</p>
+<p>El <strong>BTicino Classe 100X</strong> (grupo Legrand) es la gama estándar de monitores conectados de la marca. El monitor interior tiene pantalla en color de 5 pulgadas y wifi integrado, y se controla con la app Home + Security de Legrand, BTicino y Netatmo: recibir llamadas, accionar el abrepuertas y activar la cámara exterior.</p>
+<p><strong>Puntos fuertes:</strong> compatible con el bus de 2 hilos de BTicino, disponible en versión manos libres o con auricular, bucle inductivo para personas con audífono y gestión de los productos de seguridad Netatmo desde la misma app. Hay kits con placa y control de acceso por llaveros.</p>
+<p><strong>Puntos débiles:</strong> pantalla más pequeña que la del Philips; con un cableado que no sea el de 2 hilos de BTicino, puede hacer falta una interfaz o recablear.</p>
+<p><strong>¿Para quién?</strong> Casas en reforma y pisos que ya tienen BTicino de 2 hilos y quieren la app sin irse a la gama alta.</p>
 
 <h3>3. BTicino Classe 300EOS with Netatmo: el monitor de gama alta con Alexa</h3>
-<p>El <strong>Classe 300EOS with Netatmo</strong> es un monitor interior con pantalla de 5 pulgadas y <strong>Alexa integrada</strong>. Además de contestar y abrir la puerta, funciona como panel de control: luces, persianas, termostato o cámaras compatibles se manejan desde la pantalla o por voz.</p>
-<p><strong>Puntos fuertes:</strong> bus de 2 hilos de BTicino, compatible con los equipos BTicino de la misma tecnología; Legrand indica que puede sustituir un videoportero BTicino de 2 hilos existente. Control desde la app Home + Security.</p>
-<p><strong>Limitaciones:</strong> pantalla de solo 5 pulgadas; el interés de Alexa depende de su equipamiento domótico.</p>
-<p><strong>¿Para quién?</strong> Viviendas con BTicino de 2 hilos, también en edificios, y hogares que ya usan Alexa.</p>
+<p>El <strong>Classe 300EOS with Netatmo</strong> es un monitor interior de videoportero con pantalla de 5 pulgadas y <strong>Alexa integrada</strong>. Además de contestar a las visitas y abrir la puerta, hace de panel de control: luces, persianas, termostato o cámaras compatibles se manejan desde la pantalla o por voz.</p>
+<p><strong>Puntos fuertes:</strong> tecnología de bus de 2 hilos de BTicino, compatible con los equipos BTicino de la misma tecnología; Legrand indica que puede sustituir a un videoportero BTicino de 2 hilos ya instalado. Se controla desde la app Home + Security.</p>
+<p><strong>Puntos débiles:</strong> pantalla de solo 5 pulgadas; lo que aporte Alexa depende de la domótica que tengas en casa.</p>
+<p><strong>¿Para quién?</strong> Viviendas con BTicino de 2 hilos, también en edificios, y hogares que ya lo organizan todo con Alexa.</p>
 
 <h3>4. Comelit Visto Wi-Fi (KVV8101): el kit IP ampliable</h3>
-<p>Comelit, especialista italiano en porteros para edificios, ofrece con el kit <strong>Visto Wi-Fi KVV8101</strong> una solución para casas y pequeñas oficinas basada en su sistema ViP (IP). Incluye una placa Visto, una fuente de alimentación y un monitor manos libres Mini Wi-Fi de 4,3 pulgadas.</p>
-<p><strong>Puntos fuertes:</strong> se entrega preprogramado, conexión P2P sin configurar el router, app Comelit gratuita para iOS y Android, ampliable a 2 placas y 2 viviendas con 2 monitores cada una.</p>
-<p><strong>Limitaciones:</strong> pantalla más pequeña e instalación más técnica que un kit de consumo; la referencia exacta puede variar según el país.</p>
+<p>Comelit, especialista italiano en porteros para comunidades, ofrece con el kit <strong>Visto Wi-Fi KVV8101</strong> una solución para casas o pequeños locales profesionales basada en su sistema ViP (IP). El kit incluye una placa Visto, una fuente de alimentación y un monitor manos libres Mini Wi-Fi de 4,3 pulgadas.</p>
+<p><strong>Puntos fuertes:</strong> viene preprogramado, conexión P2P sin tocar la configuración del router, app Comelit gratuita para iOS y Android y ampliable hasta 2 placas y 2 viviendas con 2 monitores cada una.</p>
+<p><strong>Puntos débiles:</strong> pantalla más pequeña e instalación más técnica que la de un kit de consumo; la referencia exacta puede cambiar según el país.</p>
 <p><strong>¿Para quién?</strong> Casas bifamiliares, pequeñas oficinas e instaladores que prefieren el ecosistema Comelit.</p>
 
 <h3>5. Ring Intercom Video: la solución sin obras para pisos</h3>
-<p>El <strong>Ring Intercom Video</strong> no es un videoportero completo: es un módulo con batería extraíble que se conecta al telefonillo de su piso y desvía las llamadas del portero del edificio a la app Ring. Puede ver al visitante, hablar con él y abrir el portal a distancia.</p>
-<p><strong>Puntos fuertes:</strong> sin modificar la instalación común, compatible con Alexa y con acceso temporal para repartidores verificados de Amazon.</p>
-<p><strong>Limitaciones:</strong> la imagen procede de la cámara del edificio, así que su calidad depende de la placa existente; abre el portal, no la puerta de su piso; solo Wi-Fi de 2,4 GHz. Compruebe la compatibilidad de su portero en la web de Ring y qué funciones están incluidas sin suscripción.</p>
+<p>El <strong>Ring Intercom Video</strong> no es un videoportero completo: es un módulo con batería extraíble que se conecta al telefonillo de tu piso y desvía las llamadas del portero del edificio a la app Ring. Ves a la visita, hablas con ella y abres el portal a distancia.</p>
+<p><strong>Puntos fuertes:</strong> se coloca sin tocar la instalación común, es compatible con Alexa y permite dar acceso programado a repartidores verificados de Amazon.</p>
+<p><strong>Puntos débiles:</strong> la imagen procede de la cámara del edificio, así que su calidad depende de la placa existente; abre el portal del edificio, no la puerta de tu piso; solo funciona con wifi de 2,4 GHz. Comprueba en la web de Ring si tu portero es compatible y qué funciones incluye sin suscripción.</p>
 <p><strong>¿Para quién?</strong> Inquilinos y propietarios que no pueden cambiar la placa común.</p>
 
-<h3>Otras opciones</h3>
-<p>Para una casa sin monitor interior, un timbre con vídeo como el <strong>Netatmo Smart Video Doorbell</strong> (Full HD, almacenamiento local en microSD, compatible con Apple Home) es una alternativa más sencilla, pero no es un videoportero: no gestiona varias viviendas ni monitor interior. El <strong>Nuki Opener</strong> permite además controlar muchos porteros existentes desde el móvil, sin vídeo. Por último, para proyectos de arquitectura, la marca alemana <strong>Siedle</strong> (gama modular Vario, app Siedle) se adquiere a través de instaladores profesionales.</p>
+<h3>Otras opciones que conviene conocer</h3>
+<p>Para una casa sin monitor interior, un timbre con cámara como el <strong>Netatmo Smart Video Doorbell</strong> (Full HD, almacenamiento local en tarjeta microSD, compatible con Apple Home) es una alternativa más sencilla, pero no es un videoportero: no gestiona varias viviendas ni tiene monitor interior. El <strong>Nuki Opener</strong> también permite controlar desde el móvil muchos porteros ya instalados, aunque sin vídeo. Por último, para proyectos de arquitectura, la alemana <strong>Siedle</strong> (gama modular Vario, app Siedle) se encarga a través de instaladores profesionales.</p>
 
 <h2>Tabla comparativa</h2>
 <table>
@@ -391,183 +391,183 @@ export const article: BlogArticle = {
 <tr><th>Modelo</th><th>Tipo</th><th>Monitor interior</th><th>Cableado / conexión</th><th>App</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td>Philips WelcomeEye Connect 3</td><td>Kit de videoportero</td><td>7" táctil</td><td>Bus de 2 hilos + Wi-Fi 2,4/5 GHz</td><td>Philips Door Connect</td><td>Casa, edificio pequeño</td></tr>
-<tr><td>BTicino Classe 100X</td><td>Monitor / kit</td><td>5"</td><td>Bus de 2 hilos BTicino + Wi-Fi</td><td>Home + Security</td><td>Reforma, calidad-precio</td></tr>
-<tr><td>BTicino Classe 300EOS with Netatmo</td><td>Monitor / kit</td><td>5" con Alexa</td><td>Bus de 2 hilos BTicino + Wi-Fi</td><td>Home + Security</td><td>Hogar conectado, edificios BTicino</td></tr>
-<tr><td>Comelit Visto Wi-Fi KVV8101</td><td>Kit IP (ViP)</td><td>4,3" manos libres</td><td>ViP + Wi-Fi</td><td>Comelit</td><td>Casa bifamiliar, oficina</td></tr>
-<tr><td>Ring Intercom Video</td><td>Módulo para portero existente</td><td>Ninguno (móvil)</td><td>Conectado al telefonillo + Wi-Fi 2,4 GHz</td><td>Ring</td><td>Piso sin obras</td></tr>
+<tr><td>Philips WelcomeEye Connect 3</td><td>Kit de videoportero</td><td>7" táctil</td><td>Bus de 2 hilos + wifi 2,4/5 GHz</td><td>Philips Door Connect</td><td>Casa, edificio pequeño</td></tr>
+<tr><td>BTicino Classe 100X</td><td>Monitor interior / kit</td><td>5"</td><td>Bus de 2 hilos BTicino + wifi</td><td>Home + Security</td><td>Reformas, presupuesto ajustado</td></tr>
+<tr><td>BTicino Classe 300EOS with Netatmo</td><td>Monitor interior / kit</td><td>5" con Alexa</td><td>Bus de 2 hilos BTicino + wifi</td><td>Home + Security</td><td>Hogar inteligente, edificio con BTicino</td></tr>
+<tr><td>Comelit Visto Wi-Fi KVV8101</td><td>Kit IP (ViP)</td><td>4,3" manos libres</td><td>ViP + wifi</td><td>Comelit</td><td>Casa bifamiliar, oficina</td></tr>
+<tr><td>Ring Intercom Video</td><td>Módulo para el portero instalado</td><td>Ninguno (móvil)</td><td>Conectado al telefonillo + wifi 2,4 GHz</td><td>Ring</td><td>Piso sin obras</td></tr>
 </tbody>
 </table>
 
 <h2>Instalar un videoportero en una comunidad de vecinos</h2>
-<p>La placa de calle y el cableado común son elementos comunes: su sustitución se decide en la junta de propietarios. En cambio, cambiar el monitor de su piso por un modelo compatible, o añadir un módulo como el Ring Intercom Video, suele afectar solo a su vivienda; aun así, revise los estatutos de la comunidad y consulte al propietario si vive de alquiler.</p>
-<p><strong>Acceso para carteros:</strong> muchos edificios permiten la entrada de carteros y algunos servicios con llave o código. Al cambiar la placa, asegúrese de mantener ese acceso.</p>
-<p><strong>Electricidad:</strong> los trabajos en la red de 230 V y en el abrepuertas deben realizarlos un electricista cualificado.</p>
-<p><strong>Privacidad:</strong> una cámara que graba zonas comunes o la vía pública está sujeta al RGPD. Limite el encuadre a la entrada, informe a las personas grabadas y no conserve las imágenes más tiempo del necesario.</p>
+<p>La placa de calle y el cableado común son elementos comunes: su sustitución se decide en la junta de propietarios. En cambio, cambiar el monitor de tu piso por un modelo compatible, o añadir un módulo como el Ring Intercom Video, suele afectar solo a tu vivienda; aun así, revisa los estatutos de la comunidad y, si vives de alquiler, pregunta a tu casero.</p>
+<p><strong>Acceso para carteros:</strong> muchos edificios permiten la entrada de carteros y de algunos servicios con tarjeta o código. Al cambiar la placa, asegúrate de que ese acceso se mantiene.</p>
+<p><strong>Electricidad:</strong> los trabajos en la alimentación de 230 V y en el abrepuertas debe hacerlos un electricista cualificado.</p>
+<p><strong>Privacidad:</strong> una cámara que graba zonas comunes o la vía pública está sujeta al RGPD. Limita el encuadre a la entrada, informa a las personas grabadas y no guardes las imágenes más tiempo del necesario.</p>
 
-<h2>Errores que debe evitar</h2>
+<h2>Errores que debes evitar</h2>
 <ul>
-<li><strong>Comprar sin revisar el cableado:</strong> cuente los hilos y anote la marca de la instalación actual.</li>
-<li><strong>Confundir timbre y videoportero:</strong> un timbre con vídeo no sustituye un portero de edificio.</li>
-<li><strong>Olvidar la cobertura Wi-Fi:</strong> el monitor o el módulo necesitan buena señal, o las notificaciones llegarán tarde.</li>
-<li><strong>Descuidar el abrepuertas:</strong> compruebe que la cerradura o la cancela funcionan con la salida del kit.</li>
-<li><strong>Prescindir del monitor interior:</strong> un móvil sin batería no debería dejar fuera a sus visitas.</li>
+<li><strong>Comprar sin revisar el cableado:</strong> cuenta los hilos y apunta la marca de la instalación actual antes de elegir.</li>
+<li><strong>Confundir timbre y videoportero:</strong> un timbre con cámara no sustituye al portero de un edificio.</li>
+<li><strong>Olvidarte de la cobertura wifi:</strong> el monitor o el módulo necesitan buena señal; si no, los avisos llegan tarde.</li>
+<li><strong>Descuidar la apertura de la puerta:</strong> comprueba que el abrepuertas o la cancela son compatibles con el kit.</li>
+<li><strong>Prescindir del monitor interior:</strong> un móvil sin batería no debería dejar a tus visitas en la calle.</li>
 </ul>
-<p>Para ir más allá, nuestra <a href="/es/blog/serrure-connectee-guide">guía de cerraduras inteligentes</a> explica cómo completar el videoportero con un acceso sin llaves.</p>
+<p>Para ir un paso más allá, nuestra <a href="/es/blog/serrure-connectee-guide">guía de cerraduras inteligentes</a> explica cómo completar el videoportero con un acceso sin llaves.</p>
 
 <h2>Nuestro veredicto</h2>
-<p>Para una casa o un edificio pequeño cuya instalación controla, el <strong>Philips WelcomeEye Connect 3</strong> es la opción más completa. Si su vivienda ya tiene BTicino de 2 hilos, el <strong>Classe 100X</strong> aporta la app con la mejor relación calidad-precio, y el <strong>Classe 300EOS with Netatmo</strong> suma Alexa y el control del hogar. El <strong>Comelit Visto Wi-Fi</strong> encaja en casas bifamiliares. En un piso donde no puede tocar la placa común, el <strong>Ring Intercom Video</strong> es la forma más sencilla de contestar desde el móvil.</p>`,
+<p>Para una casa o un edificio pequeño cuya instalación controlas, el <strong>Philips WelcomeEye Connect 3</strong> es la opción más completa. Si tu vivienda ya tiene cableado BTicino de 2 hilos, el <strong>Classe 100X</strong> te da la app con la mejor relación calidad-precio, y el <strong>Classe 300EOS with Netatmo</strong> añade Alexa y el control de la casa. El <strong>Comelit Visto Wi-Fi</strong> encaja en casas bifamiliares. En un piso en el que no puedes tocar la placa común, el <strong>Ring Intercom Video</strong> es la forma más sencilla de contestar desde el móvil.</p>`,
 
-    it: `<p>Per una casa o un piccolo edificio, il <strong>Philips WelcomeEye Connect 3</strong> è il videocitofono connesso più completo del 2026: schermo touch da 7 pollici, telecamera 3K, badge RFID e app per smartphone su cablaggio a 2 fili. In appartamento, dove la pulsantiera esterna appartiene al condominio, la risposta giusta è spesso un posto interno connesso compatibile con l’impianto esistente (BTicino Classe 100X o Classe 300EOS) oppure un modulo senza lavori come il <strong>Ring Intercom Video</strong>.</p>
-<p>Questa guida confronta cinque soluzioni reali, attualmente in vendita in Europa, sulla base delle schede tecniche dei produttori, di recensioni indipendenti pubblicate e dei feedback verificati degli acquirenti. Trovate l’intera selezione nella nostra pagina dedicata ai <a href="/it/securite-maison/interphones">videocitofoni</a>.</p>
+    it: `<p>Per una casa o un piccolo edificio, il <strong>Philips WelcomeEye Connect 3</strong> è il videocitofono Wi-Fi più completo del 2026: schermo touch da 7 pollici, telecamera 3K, badge RFID e app per smartphone, il tutto su un impianto a 2 fili. In appartamento, dove la pulsantiera esterna appartiene al condominio, la risposta giusta è spesso un posto interno Wi-Fi compatibile con l’impianto esistente (BTicino Classe 100X o Classe 300EOS) oppure un modulo che si installa senza lavori, come il <strong>Ring Intercom Video</strong>.</p>
+<p>Questa guida confronta cinque soluzioni reali, oggi in vendita in Europa, sulla base delle schede tecniche dei produttori, dei test indipendenti pubblicati e delle recensioni verificate degli acquirenti. Trovi l’intera selezione anche nella nostra pagina dedicata ai <a href="/it/securite-maison/interphones">videocitofoni</a>.</p>
 
-<h2>Videocitofono, videocampanello o modulo connesso: tre risposte diverse</h2>
-<p>Spesso vengono confusi, ma non rispondono allo stesso bisogno:</p>
+<h2>Videocitofono, videocampanello o modulo smart: tre risposte diverse</h2>
+<p>Spesso si confondono, ma non rispondono alla stessa esigenza:</p>
 <ul>
-<li><strong>Il videocitofono</strong> è un sistema completo: una postazione esterna con telecamera e pulsante, uno o più monitor interni e un comando per serratura o cancello. La versione connessa aggiunge un’app per rispondere a distanza.</li>
-<li><strong>Il videocampanello</strong> (Ring, Netatmo, Eufy…) sostituisce un semplice pulsante su una casa indipendente. Non c’è monitor interno: tutto passa dallo smartphone. Se è il vostro caso, leggete il nostro <a href="/it/blog/sonnette-video-sans-abonnement">confronto dei videocampanelli senza abbonamento</a>.</li>
-<li><strong>Il modulo connesso</strong> si collega al citofono del vostro appartamento e trasferisce le chiamate allo smartphone, senza toccare la pulsantiera comune.</li>
+<li><strong>Il videocitofono</strong> è un sistema completo: una postazione esterna con telecamera e pulsante di chiamata, uno o più monitor interni e un comando per la serratura elettrica o il cancello. La versione Wi-Fi aggiunge un’app per rispondere a distanza.</li>
+<li><strong>Il videocampanello</strong> (Ring, Netatmo, Eufy…) sostituisce il semplice pulsante del campanello di una casa indipendente. Non c’è un monitor interno: tutto passa dallo smartphone. Se è il tuo caso, leggi il nostro <a href="/it/blog/sonnette-video-sans-abonnement">confronto dei videocampanelli senza abbonamento</a>.</li>
+<li><strong>Il modulo smart per citofono esistente</strong> si collega al citofono del tuo appartamento e inoltra le chiamate allo smartphone, senza toccare la pulsantiera comune.</li>
 </ul>
-<p>Prima di confrontare i modelli, chiarite la vostra situazione: casa con cancello, piccolo edificio di cui gestite l’impianto, o appartamento in un condominio con impianto centralizzato.</p>
+<p>Prima di confrontare i modelli, chiarisci quindi la tua situazione: casa con cancello, piccolo edificio di cui gestisci tu l’impianto, oppure appartamento in un condominio con impianto centralizzato.</p>
 
 <h2>I criteri per scegliere bene</h2>
 <h3>Il cablaggio esistente</h3>
-<p>È il criterio decisivo. La maggior parte degli impianti recenti usa un <strong>bus a 2 fili</strong>: due conduttori trasportano alimentazione, audio e video. I sistemi più vecchi possono avere da 4 a 8 fili, mentre gli impianti di fascia alta funzionano in <strong>IP</strong> su cavo di rete. Un kit a 2 fili su un vecchio cablaggio a 2 fili evita di posare nuovi cavi; un sistema IP richiede spesso un cavo di rete fino alla postazione esterna. In un impianto condominiale, il posto interno deve essere compatibile con la marca e la tecnologia dell’edificio.</p>
+<p>È il criterio che decide tutto. La maggior parte degli impianti recenti usa un <strong>bus a 2 fili</strong>: due conduttori portano alimentazione, audio e video. I sistemi più vecchi possono avere da 4 a 8 fili, mentre gli impianti di fascia alta passano all’<strong>IP</strong> su cavo di rete. Un kit a 2 fili montato su un vecchio impianto a 2 fili evita di stendere nuovi cavi; un sistema IP richiede spesso un cavo di rete fino alla postazione esterna. In un impianto condominiale, il posto interno deve essere compatibile con la marca e la tecnologia dell’edificio.</p>
 <h3>Il monitor interno</h3>
-<p>Uno schermo fisso resta utile quando il telefono è scarico, dimenticato o usato da un bambino. Le misure più comuni vanno da 4,3 a 7 pollici. Il touch semplifica cronologia e impostazioni.</p>
-<h3>App e casa connessa</h3>
-<p>Verificate quale app gestisce il prodotto, se consente di aprire la porta a distanza e se si integra nel vostro ecosistema (Amazon Alexa, Google Home, Apple Casa). Alcune funzioni avanzate possono richiedere un abbonamento: leggete la scheda prima dell’acquisto.</p>
+<p>Uno schermo fisso resta utile quando il telefono è scarico, dimenticato da qualche parte o in mano a un bambino. Le misure più comuni vanno da 4,3 a 7 pollici. Con il touch è più facile consultare la cronologia e cambiare le impostazioni.</p>
+<h3>App e casa smart</h3>
+<p>Controlla quale app gestisce il prodotto, se permette di aprire la porta a distanza e se si integra con il tuo ecosistema (Amazon Alexa, Google Home, Apple Casa). Alcune funzioni avanzate possono richiedere un abbonamento: leggi la scheda prima dell’acquisto.</p>
 <h3>Il controllo accessi</h3>
-<p>Badge RFID, codici temporanei o accessi programmati per i corrieri evitano di distribuire chiavi e sono molto comodi per famiglie e piccoli condomini.</p>
+<p>Badge RFID, codici temporanei o accessi programmati per i corrieri evitano di distribuire chiavi e sono molto comodi per una famiglia o un piccolo condominio.</p>
 <h3>L’espandibilità</h3>
-<p>Numero di monitor interni, postazioni esterne e unità abitative gestibili: un kit per una casa non sempre si estende a un condominio.</p>
+<p>Quanti monitor interni, postazioni esterne e unità abitative si possono gestire: un kit pensato per una casa non sempre si estende a un condominio.</p>
 
-<h2>I 5 migliori videocitofoni connessi del 2026</h2>
+<h2>I 5 migliori videocitofoni Wi-Fi del 2026</h2>
 
-<h3>1. Philips WelcomeEye Connect 3 – la miglior scelta complessiva</h3>
-<p>Il <strong>Philips WelcomeEye Connect 3</strong> (prodotto su licenza da Avidsen) è il kit più riuscito per una casa o un piccolo edificio. La postazione esterna riprende in 3K (2592 x 1944) con angolo orizzontale di 120°, e il monitor touch interno da 7 pollici si accende grazie a un sensore di prossimità. Il bus digitale a 2 fili consente fino a 120 m tra gli elementi più distanti.</p>
-<p><strong>Punti di forza:</strong> immagine molto dettagliata, lettore RFID integrato, codici QR per accessi temporanei, Wi-Fi a 2,4 e 5 GHz e app Philips Door Connect per rispondere e aprire a distanza. Espandibile fino a 3 monitor e 2 postazioni esterne.</p>
-<p><strong>Limiti:</strong> è un kit per una singola abitazione, non un sistema condominiale; l’installazione richiede qualche nozione di elettricità.</p>
-<p><strong>Per chi?</strong> Case con cancello, sostituzione di un vecchio videocitofono a 2 fili, proprietari che vogliono monitor interno e app.</p>
+<h3>1. Philips WelcomeEye Connect 3 – la migliore scelta complessiva</h3>
+<p>Il <strong>Philips WelcomeEye Connect 3</strong> (prodotto su licenza da Avidsen) è il kit più riuscito per una casa o un piccolo edificio. La postazione esterna riprende in 3K (2592 x 1944) con un angolo orizzontale di 120° e il monitor touch interno da 7 pollici si accende grazie a un sensore di prossimità. Il bus digitale a 2 fili consente fino a 120 m tra gli elementi più distanti.</p>
+<p><strong>Punti di forza:</strong> immagine molto dettagliata, lettore di badge RFID integrato, codici QR per accessi temporanei, Wi-Fi a 2,4 e 5 GHz e app Philips Door Connect per rispondere e aprire a distanza. L’impianto si può estendere fino a 3 monitor e 2 postazioni esterne.</p>
+<p><strong>Limiti:</strong> è un kit per una singola abitazione, non un sistema condominiale; per installarlo servono alcune nozioni di elettricità.</p>
+<p><strong>Per chi?</strong> Case con cancello, chi sostituisce un vecchio videocitofono a 2 fili, proprietari che vogliono sia il monitor interno sia l’app.</p>
 
 <h3>2. BTicino Classe 100X – il miglior rapporto qualità-prezzo</h3>
-<p>Il <strong>BTicino Classe 100X</strong> (gruppo Legrand) è la gamma standard dei posti interni connessi del marchio. Ha uno schermo a colori da 5 pollici e Wi-Fi integrato, e si controlla con l’app Home + Security di Legrand, BTicino e Netatmo: ricezione delle chiamate, apertura della serratura, attivazione della telecamera esterna.</p>
-<p><strong>Punti di forza:</strong> compatibile con il bus a 2 fili BTicino, disponibile in versione vivavoce o con cornetta, funzione teleloop per chi usa apparecchi acustici e gestione dei dispositivi di sicurezza Netatmo nella stessa app. Esistono kit con postazione esterna e controllo accessi tramite badge.</p>
-<p><strong>Limiti:</strong> schermo più piccolo del Philips; con cablaggi diversi dal 2 fili BTicino possono servire un’interfaccia o un nuovo cablaggio.</p>
-<p><strong>Per chi?</strong> Ristrutturazioni e appartamenti già cablati BTicino 2 fili che vogliono l’app senza puntare alla fascia alta.</p>
+<p>Il <strong>BTicino Classe 100X</strong> (gruppo Legrand) è la gamma standard dei posti interni Wi-Fi del marchio. Ha uno schermo a colori da 5 pollici e Wi-Fi integrato, e si comanda con l’app Home + Security di Legrand, BTicino e Netatmo: ricezione delle chiamate, apertura della serratura, attivazione della telecamera esterna.</p>
+<p><strong>Punti di forza:</strong> compatibile con il bus a 2 fili BTicino, disponibile in versione vivavoce o con cornetta, funzione teleloop per chi porta apparecchi acustici e gestione dei dispositivi di sicurezza Netatmo nella stessa app. Esistono anche kit con postazione esterna e controllo accessi con badge.</p>
+<p><strong>Limiti:</strong> schermo più piccolo del Philips; con un impianto diverso dal 2 fili BTicino possono servire un’interfaccia o un nuovo cablaggio.</p>
+<p><strong>Per chi?</strong> Case da ristrutturare e appartamenti con impianto BTicino 2 fili, per chi vuole l’app senza puntare alla fascia alta.</p>
 
-<h3>3. BTicino Classe 300EOS with Netatmo – il posto interno premium con Alexa</h3>
-<p>Il <strong>Classe 300EOS with Netatmo</strong> è un posto interno video con schermo da 5 pollici e <strong>Alexa integrata</strong>. Oltre a rispondere ai visitatori e aprire la porta, funziona da pannello di controllo: luci, tapparelle, termostato o telecamere compatibili si comandano dallo schermo o con la voce.</p>
-<p><strong>Punti di forza:</strong> bus a 2 fili BTicino, compatibile con i dispositivi BTicino della stessa tecnologia; secondo Legrand può sostituire un videocitofono BTicino a 2 fili esistente. Controllo tramite l’app Home + Security.</p>
-<p><strong>Limiti:</strong> schermo di soli 5 pollici; l’utilità di Alexa dipende dalla vostra dotazione domotica.</p>
+<h3>3. BTicino Classe 300EOS with Netatmo – il posto interno di fascia alta con Alexa</h3>
+<p>Il <strong>Classe 300EOS with Netatmo</strong> è un posto interno video con schermo da 5 pollici e <strong>Alexa integrata</strong>. Oltre a rispondere ai visitatori e aprire la porta, fa da pannello di controllo: luci, tapparelle, termostato o telecamere compatibili si comandano dallo schermo o con la voce.</p>
+<p><strong>Punti di forza:</strong> tecnologia bus a 2 fili BTicino, compatibile con i dispositivi BTicino della stessa tecnologia; secondo Legrand può sostituire un videocitofono BTicino a 2 fili già installato. Si comanda dall’app Home + Security.</p>
+<p><strong>Limiti:</strong> schermo di soli 5 pollici; l’utilità di Alexa dipende dai dispositivi smart che hai in casa.</p>
 <p><strong>Per chi?</strong> Abitazioni con impianto BTicino 2 fili, anche in condominio, e famiglie che usano già Alexa.</p>
 
 <h3>4. Comelit Visto Wi-Fi (KVV8101) – il kit IP espandibile</h3>
 <p>Comelit, specialista italiano della citofonia condominiale, propone con il kit <strong>Visto Wi-Fi KVV8101</strong> una soluzione per case e piccoli uffici basata sul suo sistema ViP (IP). Il kit comprende una postazione esterna Visto, un alimentatore e un monitor vivavoce Mini Wi-Fi da 4,3 pollici.</p>
-<p><strong>Punti di forza:</strong> fornito già programmato, connessione P2P senza configurare il router, app Comelit gratuita per iOS e Android, espandibile fino a 2 postazioni esterne e 2 abitazioni con 2 monitor ciascuna.</p>
-<p><strong>Limiti:</strong> schermo più piccolo e installazione più tecnica rispetto a un kit consumer; il codice esatto può variare da paese a paese.</p>
+<p><strong>Punti di forza:</strong> arriva già programmato, connessione P2P senza configurare il router, app Comelit gratuita per iOS e Android, espandibile fino a 2 postazioni esterne e 2 abitazioni con 2 monitor ciascuna.</p>
+<p><strong>Limiti:</strong> schermo più piccolo e installazione più tecnica rispetto a un kit per il grande pubblico; il codice esatto del kit può cambiare da paese a paese.</p>
 <p><strong>Per chi?</strong> Case bifamiliari, piccoli uffici e installatori che preferiscono l’ecosistema Comelit.</p>
 
 <h3>5. Ring Intercom Video – la soluzione senza lavori per l’appartamento</h3>
-<p>Il <strong>Ring Intercom Video</strong> non è un videocitofono completo: è un modulo con batteria rimovibile che si collega al citofono del vostro appartamento e trasferisce le chiamate del citofono condominiale all’app Ring. Potete vedere il visitatore, parlargli e aprire il portone a distanza.</p>
-<p><strong>Punti di forza:</strong> nessuna modifica all’impianto comune, compatibile con Alexa, accesso temporaneo per i corrieri Amazon verificati.</p>
-<p><strong>Limiti:</strong> l’immagine arriva dalla telecamera condominiale, quindi la qualità dipende dalla pulsantiera esistente; apre il portone, non la porta di casa; solo Wi-Fi a 2,4 GHz. Verificate la compatibilità del vostro citofono sul sito Ring e quali funzioni sono incluse senza abbonamento.</p>
+<p>Il <strong>Ring Intercom Video</strong> non è un videocitofono completo: è un modulo con batteria rimovibile che si collega al citofono del tuo appartamento e inoltra le chiamate della pulsantiera condominiale all’app Ring. Puoi vedere il visitatore, parlargli e aprire il portone a distanza.</p>
+<p><strong>Punti di forza:</strong> si installa senza modificare l’impianto comune, compatibile con Alexa, accesso programmato per i corrieri Amazon verificati.</p>
+<p><strong>Limiti:</strong> l’immagine arriva dalla telecamera del condominio, quindi la qualità dipende dalla pulsantiera esistente; apre il portone del palazzo, non la porta di casa; solo Wi-Fi a 2,4 GHz. Verifica sul sito Ring che il tuo citofono sia compatibile e quali funzioni sono incluse senza abbonamento.</p>
 <p><strong>Per chi?</strong> Inquilini e proprietari che non possono cambiare la pulsantiera comune.</p>
 
 <h3>Altre opzioni da conoscere</h3>
-<p>Per una casa senza monitor interno, un videocampanello come il <strong>Netatmo Smart Video Doorbell</strong> (Full HD, archiviazione locale su microSD, compatibile con Apple Casa) è un’alternativa più semplice, ma non è un videocitofono: non gestisce più abitazioni né un monitor interno. Il <strong>Nuki Opener</strong> rende inoltre controllabili da smartphone molti citofoni esistenti, senza video. Infine, per i progetti di architettura, il marchio tedesco <strong>Siedle</strong> (gamma modulare Vario, app Siedle) si acquista tramite installatori professionisti.</p>
+<p>Per una casa senza monitor interno, un videocampanello come il <strong>Netatmo Smart Video Doorbell</strong> (Full HD, archiviazione locale su microSD, compatibile con Apple Casa) è un’alternativa più semplice, ma non è un videocitofono: non gestisce più abitazioni né un monitor interno. Il <strong>Nuki Opener</strong> permette poi di comandare dallo smartphone molti citofoni esistenti, senza video. Infine, per i progetti di architettura, il marchio tedesco <strong>Siedle</strong> (gamma modulare Vario, app Siedle) si acquista tramite installatori professionisti.</p>
 
-<h2>Tabella di confronto</h2>
+<h2>Tabella comparativa</h2>
 <table>
 <thead>
 <tr><th>Modello</th><th>Tipo</th><th>Monitor interno</th><th>Cablaggio / connessione</th><th>App</th><th>Ideale per</th></tr>
 </thead>
 <tbody>
 <tr><td>Philips WelcomeEye Connect 3</td><td>Kit videocitofono</td><td>7" touch</td><td>Bus 2 fili + Wi-Fi 2,4/5 GHz</td><td>Philips Door Connect</td><td>Casa, piccolo edificio</td></tr>
-<tr><td>BTicino Classe 100X</td><td>Posto interno / kit</td><td>5"</td><td>Bus 2 fili BTicino + Wi-Fi</td><td>Home + Security</td><td>Ristrutturazione, qualità-prezzo</td></tr>
+<tr><td>BTicino Classe 100X</td><td>Posto interno / kit</td><td>5"</td><td>Bus 2 fili BTicino + Wi-Fi</td><td>Home + Security</td><td>Ristrutturazione, budget contenuto</td></tr>
 <tr><td>BTicino Classe 300EOS with Netatmo</td><td>Posto interno / kit</td><td>5" con Alexa</td><td>Bus 2 fili BTicino + Wi-Fi</td><td>Home + Security</td><td>Casa smart, condomini BTicino</td></tr>
-<tr><td>Comelit Visto Wi-Fi KVV8101</td><td>Kit IP (ViP)</td><td>4,3" vivavoce</td><td>ViP + Wi-Fi</td><td>Comelit</td><td>Bifamiliare, ufficio</td></tr>
+<tr><td>Comelit Visto Wi-Fi KVV8101</td><td>Kit IP (ViP)</td><td>4,3" vivavoce</td><td>ViP + Wi-Fi</td><td>Comelit</td><td>Casa bifamiliare, ufficio</td></tr>
 <tr><td>Ring Intercom Video</td><td>Modulo per citofono esistente</td><td>Nessuno (smartphone)</td><td>Collegato al citofono + Wi-Fi 2,4 GHz</td><td>Ring</td><td>Appartamento senza lavori</td></tr>
 </tbody>
 </table>
 
 <h2>Installare un videocitofono in condominio</h2>
-<p>La pulsantiera esterna e il cablaggio comune sono parti comuni: la loro sostituzione si decide in assemblea condominiale. Cambiare invece il posto interno del vostro appartamento con un modello compatibile, o aggiungere un modulo come il Ring Intercom Video, riguarda di norma solo la vostra abitazione; controllate comunque il regolamento condominiale e, se siete in affitto, chiedete al proprietario.</p>
-<p><strong>Accesso per i postini:</strong> molti edifici consentono l’ingresso a postini e ad alcuni fornitori di servizi con badge o codice. Quando si sostituisce la pulsantiera, verificate che questo accesso venga mantenuto.</p>
-<p><strong>Impianto elettrico:</strong> gli interventi sulla rete a 230 V e sulla serratura elettrica vanno affidati a un elettricista qualificato.</p>
-<p><strong>Privacy:</strong> una telecamera che riprende parti comuni o la strada è soggetta al GDPR. Limitate l’inquadratura all’ingresso, informate le persone riprese e non conservate le immagini più del necessario.</p>
+<p>La pulsantiera esterna e il cablaggio comune sono parti comuni: la loro sostituzione si decide in assemblea condominiale. Cambiare invece il posto interno del tuo appartamento con un modello compatibile, o aggiungere un modulo come il Ring Intercom Video, di norma riguarda solo la tua abitazione; controlla comunque il regolamento condominiale e, se sei in affitto, chiedi al proprietario.</p>
+<p><strong>Accesso per postini e fornitori:</strong> molti edifici consentono l’ingresso a postini e ad alcuni fornitori di servizi con un badge o un codice. Se si cambia la pulsantiera, assicurati che questo accesso resti attivo.</p>
+<p><strong>Impianto elettrico:</strong> gli interventi sulla linea a 230 V e sulla serratura elettrica vanno affidati a un elettricista qualificato.</p>
+<p><strong>Privacy:</strong> una telecamera che riprende parti comuni o la strada è soggetta al GDPR. Limita l’inquadratura all’ingresso, informa le persone riprese e non conservare le immagini più del necessario.</p>
 
-<h2>Gli errori da evitare</h2>
+<h2>Errori da evitare</h2>
 <ul>
-<li><strong>Comprare senza verificare il cablaggio:</strong> contate i fili e annotate la marca dell’impianto attuale.</li>
-<li><strong>Confondere videocampanello e videocitofono:</strong> un videocampanello non sostituisce un citofono condominiale.</li>
+<li><strong>Comprare senza verificare il cablaggio:</strong> conta i fili e annota la marca dell’impianto attuale prima di scegliere.</li>
+<li><strong>Confondere videocampanello e videocitofono:</strong> un videocampanello non sostituisce il citofono di un condominio.</li>
 <li><strong>Dimenticare la copertura Wi-Fi:</strong> il posto interno o il modulo hanno bisogno di un buon segnale, altrimenti le notifiche arrivano in ritardo.</li>
-<li><strong>Trascurare l’apertura della porta:</strong> verificate che serratura o cancello funzionino con l’uscita del kit.</li>
-<li><strong>Rinunciare al monitor interno:</strong> un telefono scarico non deve lasciare fuori i vostri ospiti.</li>
+<li><strong>Trascurare l’apertura della porta:</strong> verifica che serratura elettrica o cancello siano compatibili con il comando del kit.</li>
+<li><strong>Rinunciare al monitor interno:</strong> un telefono scarico non deve lasciare fuori i tuoi ospiti.</li>
 </ul>
-<p>Per approfondire, la nostra <a href="/it/blog/serrure-connectee-guide">guida alle serrature intelligenti</a> spiega come affiancare al videocitofono un accesso senza chiavi.</p>
+<p>Per approfondire, la nostra <a href="/it/blog/serrure-connectee-guide">guida alle serrature smart</a> spiega come affiancare al videocitofono un accesso senza chiavi.</p>
 
 <h2>Il nostro verdetto</h2>
-<p>Per una casa o un piccolo edificio di cui gestite l’impianto, il <strong>Philips WelcomeEye Connect 3</strong> è la scelta più completa. Se l’abitazione è già cablata BTicino 2 fili, il <strong>Classe 100X</strong> porta l’app con il miglior rapporto qualità-prezzo, e il <strong>Classe 300EOS with Netatmo</strong> aggiunge Alexa e il controllo della casa. Il <strong>Comelit Visto Wi-Fi</strong> è adatto alle case bifamiliari. In appartamento, se non potete toccare la pulsantiera comune, il <strong>Ring Intercom Video</strong> è il modo più semplice per rispondere dallo smartphone.</p>`,
+<p>Per una casa o un piccolo edificio di cui gestisci tu l’impianto, il <strong>Philips WelcomeEye Connect 3</strong> è la scelta più completa. Se l’abitazione ha già un impianto BTicino 2 fili, il <strong>Classe 100X</strong> porta l’app con il miglior rapporto qualità-prezzo, mentre il <strong>Classe 300EOS with Netatmo</strong> aggiunge Alexa e il controllo della casa. Il <strong>Comelit Visto Wi-Fi</strong> è adatto alle case bifamiliari. In appartamento, se non puoi toccare la pulsantiera comune, il <strong>Ring Intercom Video</strong> è il modo più semplice per rispondere dallo smartphone.</p>`,
 
-    nl: `<p>Voor een huis of een klein gebouw is de <strong>Philips WelcomeEye Connect 3</strong> in 2026 de meest complete slimme video-intercom: een 7-inch touchscreen, een 3K-camera, RFID-badges en een smartphone-app via 2-draadsbekabeling. In een appartement, waar het buitenpaneel van de VvE is, is een verbonden binnenpost die past bij de bestaande installatie vaak het beste antwoord (BTicino Classe 100X of Classe 300EOS), of een module zonder verbouwing zoals de <strong>Ring Intercom Video</strong>.</p>
-<p>Deze gids vergelijkt vijf echte oplossingen die momenteel in Europa te koop zijn, op basis van fabrieksspecificaties, gepubliceerde onafhankelijke reviews en geverifieerde klantbeoordelingen. De volledige selectie vind je op onze pagina <a href="/nl/securite-maison/interphones">video-intercoms</a>.</p>
+    nl: `<p>Voor een huis of een klein gebouw is de <strong>Philips WelcomeEye Connect 3</strong> in 2026 de meest complete video-intercom met app: een touchscreen van 7 inch, een 3K-camera, RFID-badges en een app voor je smartphone, op 2-draadsbekabeling. In een appartement is het buitenpaneel van de VvE (in België de VME). Daar is een slimme binnenpost die past bij de bestaande installatie vaak de beste oplossing (BTicino Classe 100X of Classe 300EOS), of een module die je zonder verbouwing plaatst, zoals de <strong>Ring Intercom Video</strong>.</p>
+<p>Deze gids vergelijkt vijf oplossingen die nu in Europa te koop zijn. De vergelijking is gebaseerd op specificaties van fabrikanten, onafhankelijke tests en reviews van geverifieerde kopers. We testen de producten niet zelf. De volledige selectie vind je op onze pagina <a href="/nl/securite-maison/interphones">video-intercoms</a>.</p>
 
-<h2>Video-intercom, videodeurbel of slimme module: drie verschillende antwoorden</h2>
-<p>Deze producten worden vaak op één hoop gegooid, maar ze lossen verschillende problemen op:</p>
+<h2>Video-intercom, videodeurbel of slimme module: drie verschillende oplossingen</h2>
+<p>Deze producten worden vaak op één hoop gegooid, maar ze lossen niet hetzelfde probleem op:</p>
 <ul>
-<li><strong>Een video-intercom</strong> is een compleet systeem: een buitenpost met camera en beldrukker, een of meer binnenmonitoren en een deur- of poortopener. De verbonden versie voegt een app toe om op afstand op te nemen.</li>
-<li><strong>Een videodeurbel</strong> (Ring, Netatmo, Eufy…) vervangt een eenvoudige beldrukker bij een vrijstaand huis. Er is geen binnenmonitor; alles loopt via de telefoon. Is dat jouw situatie, lees dan onze <a href="/nl/blog/sonnette-video-sans-abonnement">vergelijking van videodeurbellen zonder abonnement</a>.</li>
-<li><strong>Een slimme module</strong> wordt aangesloten op de binnenpost van je appartement en stuurt oproepen door naar je telefoon, zonder het gemeenschappelijke paneel aan te raken.</li>
+<li><strong>Een video-intercom</strong> (of videofoon) is een compleet systeem: een buitenpost met camera en belknop, een of meer binnenmonitoren en een deur- of poortopener. Bij een slimme versie krijg je daarnaast een app, zodat je ook op afstand kunt opnemen.</li>
+<li><strong>Een videodeurbel</strong> (Ring, Netatmo, Eufy…) vervangt een gewone deurbel bij een eengezinswoning. Er is geen binnenmonitor: alles loopt via je telefoon. Is dat jouw situatie, lees dan onze <a href="/nl/blog/sonnette-video-sans-abonnement">vergelijking van deurbellen met camera zonder abonnement</a>.</li>
+<li><strong>Een slimme module</strong> sluit je aan op de binnenpost van je appartement. Hij stuurt oproepen door naar je telefoon, zonder dat je aan het gemeenschappelijke buitenpaneel komt.</li>
 </ul>
-<p>Bepaal vóór het vergelijken je situatie: een huis met poort, een klein gebouw waarvan je de installatie beheert, of een appartement in een gebouw met een gemeenschappelijk systeem.</p>
+<p>Bepaal dus eerst je situatie voordat je modellen vergelijkt: een huis met een poort, een klein gebouw waarvan je zelf de installatie beheert, of een appartement in een gebouw met een gemeenschappelijk systeem.</p>
 
 <h2>Waar let je op bij het kiezen?</h2>
 <h3>De bestaande bekabeling</h3>
-<p>Dit bepaalt alles. De meeste recente installaties gebruiken een <strong>2-draadsbus</strong>: twee aders voeren stroom, audio en video. Oudere systemen hebben 4 tot 8 aders, en installaties in het hogere segment werken via <strong>IP</strong> met netwerkkabel. Een 2-draadsset op bestaande 2-draadsbekabeling voorkomt nieuwe kabels; een IP-systeem vraagt vaak een netwerkkabel tot aan het paneel. Bij een gemeenschappelijk systeem moet de binnenpost passen bij het merk en de techniek van het gebouw.</p>
+<p>Dit criterium bepaalt alles. De meeste recente installaties werken met een <strong>2-draadsbus</strong>: twee aders voeren stroom, audio en video. Oudere systemen hebben 4 tot 8 aders, en installaties in het hogere segment werken via <strong>IP</strong> met een netwerkkabel. Met een 2-draadsset op bestaande 2-draadsbekabeling hoef je geen nieuwe kabels te trekken; een IP-systeem vraagt vaak een netwerkkabel tot aan het buitenpaneel. Bij een gemeenschappelijk systeem moet de binnenpost passen bij het merk en de techniek van het gebouw.</p>
 <h3>De binnenmonitor</h3>
-<p>Een vast scherm blijft handig als de telefoon leeg is, vergeten wordt of door een kind gebruikt wordt. Gangbare formaten zijn 4,3 tot 7 inch. Een touchscreen maakt geschiedenis en instellingen eenvoudiger.</p>
-<h3>App en smart home</h3>
-<p>Controleer welke app het product aanstuurt, of je de deur op afstand kunt openen en of het werkt met jouw ecosysteem (Amazon Alexa, Google Home, Apple Woning). Sommige geavanceerde functies kunnen een abonnement vereisen: lees de productpagina vóór aankoop.</p>
+<p>Een vast scherm blijft handig als je telefoon leeg is, ergens anders ligt of door een kind wordt gebruikt. Gangbare formaten zijn 4,3 tot 7 inch. Met een touchscreen blader je makkelijker door de oproepgeschiedenis en de instellingen.</p>
+<h3>De app en je slimme huis</h3>
+<p>Controleer met welke app je het product bedient, of je de deur op afstand kunt openen en of het werkt met jouw ecosysteem (Amazon Alexa, Google Home, Apple Woning). Voor sommige geavanceerde functies kan een abonnement nodig zijn: lees de productinformatie voordat je koopt.</p>
 <h3>Toegangscontrole</h3>
-<p>RFID-badges, tijdelijke codes of geplande toegang voor bezorgers besparen je het uitdelen van sleutels en zijn erg handig voor gezinnen en kleine gebouwen.</p>
+<p>Met RFID-badges, tijdelijke codes of geplande toegang voor bezorgers hoef je geen sleutels uit te delen. Dat is erg handig voor gezinnen en kleine appartementsgebouwen.</p>
 <h3>Uitbreidbaarheid</h3>
-<p>Aantal binnenmonitoren, buitenposten en woningen: een set voor een huis is niet per se uit te breiden naar een appartementsgebouw.</p>
+<p>Kijk hoeveel binnenmonitoren, buitenposten en woningen het systeem aankan: een set voor een huis is niet per se uit te breiden naar een appartementsgebouw.</p>
 
 <h2>De 5 beste slimme video-intercoms van 2026</h2>
 
-<h3>1. Philips WelcomeEye Connect 3 – beste keuze overall</h3>
-<p>De <strong>Philips WelcomeEye Connect 3</strong> (onder licentie gemaakt door Avidsen) is de meest uitgewerkte set voor een huis of klein gebouw. De buitenpost filmt in 3K (2592 x 1944) met een horizontale kijkhoek van 120°, en het 7-inch touchscreen binnen gaat aan dankzij een nabijheidssensor. De digitale 2-draadsbus staat tot 120 m toe tussen de verst verwijderde onderdelen.</p>
-<p><strong>Sterke punten:</strong> zeer gedetailleerd beeld, ingebouwde RFID-lezer, QR-codes voor tijdelijke toegang, wifi op 2,4 en 5 GHz en de app Philips Door Connect om op afstand op te nemen en te openen. Uitbreidbaar tot 3 schermen en 2 buitenposten.</p>
-<p><strong>Beperkingen:</strong> een set voor één woning, geen systeem voor appartementsgebouwen; de installatie vraagt enige elektrotechnische kennis.</p>
-<p><strong>Voor wie?</strong> Huizen met een poort, vervanging van een oude 2-draads video-intercom, eigenaars die een binnenmonitor én een app willen.</p>
+<h3>1. Philips WelcomeEye Connect 3: beste keuze</h3>
+<p>De <strong>Philips WelcomeEye Connect 3</strong> (onder licentie gemaakt door Avidsen) is de meest complete set voor een huis of een klein gebouw. De buitenpost filmt in 3K (2592 x 1944) met een horizontale kijkhoek van 120°, en het binnenscherm (een touchscreen van 7 inch) gaat vanzelf aan via een nabijheidssensor. Over de digitale 2-draadsbus mag er tot 120 meter zitten tussen de onderdelen die het verst van elkaar af staan.</p>
+<p><strong>Sterke punten:</strong> zeer gedetailleerd beeld, ingebouwde RFID-lezer, QR-codes voor tijdelijke toegang, wifi op 2,4 en 5 GHz en de app Philips Door Connect om op afstand op te nemen en de deur te openen. Uit te breiden tot 3 schermen en 2 buitenposten.</p>
+<p><strong>Minpunten:</strong> een set voor één woning, geen systeem voor een appartementsgebouw; voor de installatie heb je wat basiskennis van elektriciteit nodig.</p>
+<p><strong>Voor wie?</strong> Huizen met een poort, wie een oude 2-draadsvideofoon wil vervangen, eigenaars die een binnenmonitor én een app willen.</p>
 
-<h3>2. BTicino Classe 100X – beste prijs-kwaliteitverhouding</h3>
-<p>De <strong>BTicino Classe 100X</strong> (Legrand-groep) is de standaardreeks verbonden binnenposten van het merk. Hij heeft een 5-inch kleurenscherm en ingebouwde wifi, en wordt bediend via de app Home + Security van Legrand, BTicino en Netatmo: oproepen ontvangen, de deuropener bedienen en de buitencamera oproepen.</p>
-<p><strong>Sterke punten:</strong> werkt op de BTicino-2-draadsbus, verkrijgbaar handsfree of met hoorn, ringleiding voor gebruikers van een hoortoestel en Netatmo-beveiligingsproducten in dezelfde app. Er zijn sets met buitenpost en toegangscontrole via badges.</p>
-<p><strong>Beperkingen:</strong> kleiner scherm dan de Philips; bij andere bekabeling dan BTicino 2-draads kan een interface of nieuwe bekabeling nodig zijn.</p>
-<p><strong>Voor wie?</strong> Renovaties en appartementen met een BTicino-2-draadsinstallatie die de app willen zonder voor het topsegment te gaan.</p>
+<h3>2. BTicino Classe 100X: beste prijs-kwaliteitverhouding</h3>
+<p>De <strong>BTicino Classe 100X</strong> (Legrand-groep) is de standaardreeks slimme binnenposten van het merk. De binnenpost heeft een kleurenscherm van 5 inch en ingebouwde wifi. Je bedient hem met de app Home + Security van Legrand, BTicino en Netatmo: oproepen ontvangen, de deuropener bedienen en de buitencamera inschakelen.</p>
+<p><strong>Sterke punten:</strong> werkt op de 2-draadsbus van BTicino, verkrijgbaar handsfree of met hoorn, ringleiding voor mensen met een hoortoestel, en Netatmo-beveiligingsproducten bedien je in dezelfde app. Er zijn ook sets met buitenpost en toegangscontrole via badges.</p>
+<p><strong>Minpunten:</strong> kleiner scherm dan de Philips; bij andere bekabeling dan BTicino 2-draads kan een interface of nieuwe bekabeling nodig zijn.</p>
+<p><strong>Voor wie?</strong> Huizen die gerenoveerd worden en appartementen met een 2-draadsinstallatie van BTicino, voor wie de app wil zonder voor het topsegment te kiezen.</p>
 
-<h3>3. BTicino Classe 300EOS with Netatmo – premium binnenpost met Alexa</h3>
-<p>De <strong>Classe 300EOS with Netatmo</strong> is een video-binnenpost met 5-inch scherm en <strong>ingebouwde Alexa</strong>. Naast bezoekers te woord staan en de deur openen, dient hij als bedieningspaneel: verlichting, rolluiken, thermostaat of compatibele camera’s bedien je via het scherm of met je stem.</p>
-<p><strong>Sterke punten:</strong> BTicino-2-draadsbus, compatibel met BTicino-apparaten met dezelfde techniek; volgens Legrand kan hij een bestaande BTicino-2-draads videopost vervangen. Bediening via de app Home + Security.</p>
-<p><strong>Beperkingen:</strong> slechts een 5-inch scherm; het nut van Alexa hangt af van je smart-homeapparatuur.</p>
+<h3>3. BTicino Classe 300EOS with Netatmo: binnenpost uit het topsegment met Alexa</h3>
+<p>De <strong>Classe 300EOS with Netatmo</strong> is een video-binnenpost met een scherm van 5 inch en <strong>ingebouwde Alexa</strong>. Behalve om bezoekers te woord te staan en de deur te openen, dient hij ook als bedieningspaneel: verlichting, rolluiken, thermostaat of compatibele camera’s bedien je via het scherm of met je stem.</p>
+<p><strong>Sterke punten:</strong> 2-draadsbus van BTicino, werkt met BTicino-apparaten met dezelfde techniek; volgens Legrand kan hij een bestaande 2-draadsvideofoon van BTicino vervangen. Bediening via de app Home + Security.</p>
+<p><strong>Minpunten:</strong> scherm van maar 5 inch; hoeveel je aan Alexa hebt, hangt af van de slimme apparaten die je al gebruikt.</p>
 <p><strong>Voor wie?</strong> Woningen met BTicino 2-draads, ook in appartementsgebouwen, en huishoudens die al met Alexa werken.</p>
 
-<h3>4. Comelit Visto Wi-Fi (KVV8101) – de uitbreidbare IP-set</h3>
-<p>Comelit, de Italiaanse specialist in intercoms voor appartementsgebouwen, biedt met de set <strong>Visto Wi-Fi KVV8101</strong> een oplossing voor huizen en kleine kantoren op basis van zijn ViP-systeem (IP). De set bevat een Visto-buitenpost, een voeding en een 4,3-inch handsfree Mini Wi-Fi-monitor.</p>
-<p><strong>Sterke punten:</strong> voorgeprogrammeerd geleverd, P2P-verbinding zonder routerinstellingen, gratis Comelit-app voor iOS en Android, uitbreidbaar tot 2 buitenposten en 2 woningen met elk 2 monitoren.</p>
-<p><strong>Beperkingen:</strong> kleiner scherm en technischere installatie dan consumentensets; de exacte referentie kan per land verschillen.</p>
-<p><strong>Voor wie?</strong> Twee-gezinswoningen, kleine kantoren en installateurs die het Comelit-ecosysteem verkiezen.</p>
+<h3>4. Comelit Visto Wi-Fi (KVV8101): de uitbreidbare IP-set</h3>
+<p>Comelit, de Italiaanse specialist in intercoms voor appartementsgebouwen, biedt met de set <strong>Visto Wi-Fi KVV8101</strong> een oplossing voor huizen en kleine kantoren op basis van zijn ViP-systeem (IP). De set bestaat uit een Visto-buitenpost, een voeding en een handsfree Mini Wi-Fi-monitor van 4,3 inch.</p>
+<p><strong>Sterke punten:</strong> wordt voorgeprogrammeerd geleverd, P2P-verbinding zonder instellingen in je router, gratis Comelit-app voor iOS en Android, uit te breiden tot 2 buitenposten en 2 woningen met elk 2 monitoren.</p>
+<p><strong>Minpunten:</strong> kleiner scherm en een technischere installatie dan sets voor consumenten; het exacte typenummer kan per land verschillen.</p>
+<p><strong>Voor wie?</strong> Tweegezinswoningen, kleine kantoren en installateurs die de voorkeur geven aan het Comelit-ecosysteem.</p>
 
-<h3>5. Ring Intercom Video – de oplossing zonder verbouwing voor appartementen</h3>
-<p>De <strong>Ring Intercom Video</strong> is geen complete intercom: het is een module met verwisselbare accu die op de binnenpost van je appartement wordt aangesloten en oproepen van de gebouwintercom doorstuurt naar de Ring-app. Je ziet de bezoeker, praat met hem en opent de hoofdingang op afstand.</p>
-<p><strong>Sterke punten:</strong> geen aanpassing aan de gemeenschappelijke installatie, werkt met Alexa, tijdelijke toegang voor geverifieerde Amazon-bezorgers.</p>
-<p><strong>Beperkingen:</strong> het beeld komt van de camera van het gebouw, dus de kwaliteit hangt af van het bestaande paneel; hij opent de hoofdingang, niet je eigen voordeur; alleen wifi op 2,4 GHz. Controleer de compatibiliteit van je intercom op de website van Ring en welke functies zonder abonnement beschikbaar zijn.</p>
-<p><strong>Voor wie?</strong> Huurders en appartementseigenaars die het gemeenschappelijke paneel niet kunnen vervangen.</p>
+<h3>5. Ring Intercom Video: de oplossing zonder verbouwing voor appartementen</h3>
+<p>De <strong>Ring Intercom Video</strong> is geen complete intercom, maar een module met een verwisselbare accu. Je sluit hem aan op de binnenpost van je appartement en hij stuurt oproepen van de intercom van het gebouw door naar de Ring-app. Je ziet de bezoeker, praat met hem en opent de hoofdingang op afstand.</p>
+<p><strong>Sterke punten:</strong> je hoeft niets aan de gemeenschappelijke installatie te veranderen, werkt met Alexa, geplande toegang voor geverifieerde Amazon-bezorgers.</p>
+<p><strong>Minpunten:</strong> het beeld komt van de camera van het gebouw, dus de kwaliteit hangt af van het bestaande buitenpaneel; hij opent de hoofdingang, niet de voordeur van je appartement; alleen wifi op 2,4 GHz. Controleer op de website van Ring of je intercom compatibel is en welke functies zonder abonnement beschikbaar zijn.</p>
+<p><strong>Voor wie?</strong> Huurders en appartementseigenaars die het gemeenschappelijke buitenpaneel niet kunnen vervangen.</p>
 
 <h3>Andere opties</h3>
-<p>Voor een huis zonder binnenmonitor is een videodeurbel zoals de <strong>Netatmo Smart Video Doorbell</strong> (Full HD, lokale opslag op microSD, compatibel met Apple Woning) een eenvoudiger alternatief, maar geen intercom: hij beheert geen meerdere woningen en geen binnenmonitor. De <strong>Nuki Opener</strong> maakt bovendien veel bestaande intercoms bedienbaar via de telefoon, zonder video. Voor architectuurprojecten tot slot bestel je het Duitse merk <strong>Siedle</strong> (modulaire Vario-reeks, Siedle-app) via professionele installateurs.</p>
+<p>Voor een huis zonder binnenmonitor is een videodeurbel zoals de <strong>Netatmo Smart Video Doorbell</strong> (Full HD, lokale opslag op een microSD-kaart, werkt met Apple Woning) een eenvoudiger alternatief. Het is alleen geen intercom: hij werkt niet voor meerdere woningen en heeft geen binnenmonitor. De <strong>Nuki Opener</strong> maakt bovendien veel bestaande intercoms bedienbaar via je telefoon, zonder video. Bij architectuurprojecten tot slot bestel je het Duitse merk <strong>Siedle</strong> (modulaire Vario-reeks, Siedle-app) via professionele installateurs.</p>
 
 <h2>Vergelijkingstabel</h2>
 <table>
@@ -577,30 +577,30 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Philips WelcomeEye Connect 3</td><td>Video-intercomset</td><td>7" touchscreen</td><td>2-draadsbus + wifi 2,4/5 GHz</td><td>Philips Door Connect</td><td>Huis, klein gebouw</td></tr>
 <tr><td>BTicino Classe 100X</td><td>Binnenpost / set</td><td>5"</td><td>BTicino-2-draadsbus + wifi</td><td>Home + Security</td><td>Renovatie, prijs-kwaliteit</td></tr>
-<tr><td>BTicino Classe 300EOS with Netatmo</td><td>Binnenpost / set</td><td>5" met Alexa</td><td>BTicino-2-draadsbus + wifi</td><td>Home + Security</td><td>Smart home, BTicino-gebouwen</td></tr>
-<tr><td>Comelit Visto Wi-Fi KVV8101</td><td>IP-set (ViP)</td><td>4,3" handsfree</td><td>ViP + wifi</td><td>Comelit</td><td>Twee-gezinswoning, kantoor</td></tr>
-<tr><td>Ring Intercom Video</td><td>Module voor bestaande intercom</td><td>Geen (telefoon)</td><td>Op binnenpost + wifi 2,4 GHz</td><td>Ring</td><td>Appartement zonder verbouwing</td></tr>
+<tr><td>BTicino Classe 300EOS with Netatmo</td><td>Binnenpost / set</td><td>5" met Alexa</td><td>BTicino-2-draadsbus + wifi</td><td>Home + Security</td><td>Slim huis, BTicino-gebouwen</td></tr>
+<tr><td>Comelit Visto Wi-Fi KVV8101</td><td>IP-set (ViP)</td><td>4,3" handsfree</td><td>ViP + wifi</td><td>Comelit</td><td>Tweegezinswoning, kantoor</td></tr>
+<tr><td>Ring Intercom Video</td><td>Module voor bestaande intercom</td><td>Geen (telefoon)</td><td>Aangesloten op binnenpost + wifi 2,4 GHz</td><td>Ring</td><td>Appartement zonder verbouwing</td></tr>
 </tbody>
 </table>
 
 <h2>Een video-intercom installeren in een appartementsgebouw</h2>
-<p>Het buitenpaneel en de gemeenschappelijke bekabeling zijn gemeenschappelijke delen: over vervanging beslist de VvE (of de verhuurder). De binnenpost in je eigen appartement vervangen door een compatibel model, of een module zoals de Ring Intercom Video toevoegen, betreft meestal alleen je eigen woning; controleer toch het huishoudelijk reglement en overleg met je verhuurder als je huurt.</p>
-<p><strong>Toegang voor postbezorgers:</strong> veel gebouwen geven postbodes en sommige dienstverleners toegang met een badge of code. Zorg dat die toegang behouden blijft wanneer het paneel wordt vervangen.</p>
-<p><strong>Elektriciteit:</strong> werk aan het 230V-net en de deuropener laat je over aan een erkende elektricien.</p>
-<p><strong>Privacy:</strong> een camera die gemeenschappelijke ruimten of de openbare weg filmt, valt onder de AVG. Beperk het beeld tot de ingang, informeer de gefilmde personen en bewaar beelden niet langer dan nodig.</p>
+<p>Het buitenpaneel en de gemeenschappelijke bekabeling horen bij de gemeenschappelijke delen: over vervanging beslist de VvE (of de verhuurder). Vervang je in je eigen appartement de binnenpost door een compatibel model, of voeg je een module zoals de Ring Intercom Video toe, dan betreft dat meestal alleen je eigen woning. Controleer toch het reglement van de VvE en overleg met je verhuurder als je huurt.</p>
+<p><strong>Toegang voor postbezorgers:</strong> in sommige gebouwen komen postbodes en bepaalde dienstverleners binnen met een badge of code (in Frankrijk bijvoorbeeld via het Vigik-systeem). Zorg dat die toegang blijft werken als het buitenpaneel wordt vervangen.</p>
+<p><strong>Elektriciteit:</strong> laat werk aan de netvoeding (230 V) en de deuropener over aan een erkende elektricien.</p>
+<p><strong>Privacy:</strong> een camera die gemeenschappelijke ruimtes of de openbare weg filmt, valt onder de AVG. Beperk het beeld tot de ingang, informeer de mensen die je filmt en bewaar beelden niet langer dan nodig.</p>
 
-<h2>Fouten om te vermijden</h2>
+<h2>Veelgemaakte fouten</h2>
 <ul>
-<li><strong>Kopen zonder de bekabeling te controleren:</strong> tel de aders en noteer het merk van je huidige installatie.</li>
-<li><strong>Deurbel en intercom verwarren:</strong> een videodeurbel vervangt geen gebouwintercom.</li>
-<li><strong>Wifi-dekking vergeten:</strong> de binnenpost of module heeft een goed signaal nodig, anders komen meldingen te laat binnen.</li>
-<li><strong>De deuropener over het hoofd zien:</strong> controleer of je slot of poort werkt met de uitgang van de set.</li>
-<li><strong>De binnenmonitor schrappen:</strong> een lege telefoonaccu mag bezoekers niet buiten laten staan.</li>
+<li><strong>Kopen zonder de bekabeling te controleren:</strong> tel de aders en noteer het merk van je huidige installatie voordat je kiest.</li>
+<li><strong>Deurbel en intercom verwarren:</strong> een videodeurbel vervangt geen intercom van een appartementsgebouw.</li>
+<li><strong>Het wifibereik vergeten:</strong> de binnenpost of module heeft een goed signaal nodig, anders komen meldingen te laat binnen.</li>
+<li><strong>De deuropener over het hoofd zien:</strong> controleer of je elektrische slot of poort werkt met de aansturing van de set.</li>
+<li><strong>De binnenmonitor weglaten:</strong> zonder binnenmonitor blijven je bezoekers buiten staan zodra je telefoon leeg is.</li>
 </ul>
-<p>Wil je verder gaan? Onze <a href="/nl/blog/serrure-connectee-guide">gids voor slimme sloten</a> legt uit hoe je de intercom aanvult met sleutelloze toegang.</p>
+<p>Meer weten? Onze <a href="/nl/blog/serrure-connectee-guide">gids voor slimme sloten</a> legt uit hoe je de intercom combineert met toegang zonder sleutel.</p>
 
 <h2>Ons oordeel</h2>
-<p>Voor een huis of klein gebouw waarvan je de installatie beheert, is de <strong>Philips WelcomeEye Connect 3</strong> de meest complete keuze. Is je woning al bekabeld met BTicino 2-draads, dan brengt de <strong>Classe 100X</strong> de app met de beste prijs-kwaliteitverhouding, en voegt de <strong>Classe 300EOS with Netatmo</strong> Alexa en smart-homebediening toe. De <strong>Comelit Visto Wi-Fi</strong> past bij twee-gezinswoningen. In een appartement waar je het gemeenschappelijke paneel niet kunt aanpassen, is de <strong>Ring Intercom Video</strong> de eenvoudigste manier om via je telefoon op te nemen.</p>`,
+<p>Voor een huis of klein gebouw waarvan je zelf de installatie beheert, is de <strong>Philips WelcomeEye Connect 3</strong> de meest complete keuze. Is je woning al bekabeld met BTicino 2-draads, dan krijg je met de <strong>Classe 100X</strong> de app voor de beste prijs-kwaliteitverhouding, en voegt de <strong>Classe 300EOS with Netatmo</strong> daar Alexa en de bediening van je slimme huis aan toe. De <strong>Comelit Visto Wi-Fi</strong> past bij tweegezinswoningen. In een appartement waar je het gemeenschappelijke buitenpaneel niet kunt aanpassen, is de <strong>Ring Intercom Video</strong> de eenvoudigste manier om met je telefoon op te nemen.</p>`,
     pl: `<p>Jeśli szukasz wideodomofonu do domu lub małego budynku wielorodzinnego, najbardziej kompletnym modelem z aplikacją w 2026 roku jest <strong>Philips WelcomeEye Connect 3</strong>: 7-calowy ekran dotykowy, kamera 3K, breloki RFID i obsługa ze smartfona, a wszystko to na instalacji 2-przewodowej. W mieszkaniu, gdzie panel przy wejściu należy do wspólnoty, właściwym rozwiązaniem jest często monitor wewnętrzny z Wi-Fi zgodny z istniejącą instalacją (BTicino Classe 100X lub Classe 300EOS) albo moduł, który nie wymaga żadnych przeróbek, taki jak <strong>Ring Intercom Video</strong>.</p>
 <p>W tym poradniku porównujemy pięć rozwiązań, które naprawdę można dziś kupić w Europie. Opieramy się na kartach katalogowych producentów, opublikowanych niezależnych testach i opiniach zweryfikowanych kupujących. Całe zestawienie znajdziesz też w kategorii <a href="/pl/securite-maison/interphones">wideodomofony</a>.</p>
 
@@ -971,10 +971,10 @@ export const article: BlogArticle = {
       question: {
         fr: 'Quelle est la différence entre un interphone 2 fils et un interphone IP ?',
         en: 'What is the difference between a 2-wire intercom and an IP intercom?',
-        de: 'Was ist der Unterschied zwischen einer 2-Draht- und einer IP-Türsprechanlage?',
+        de: 'Was ist der Unterschied zwischen einer 2-Draht- und einer IP-Gegensprechanlage?',
         es: '¿Qué diferencia hay entre un videoportero de 2 hilos y uno IP?',
         it: 'Che differenza c’è tra un videocitofono a 2 fili e uno IP?',
-        nl: 'Wat is het verschil tussen een 2-draads en een IP-intercom?',
+        nl: 'Wat is het verschil tussen een 2-draadsintercom en een IP-intercom?',
         pl: 'Czym różni się domofon 2-przewodowy od domofonu IP?',
         sv: 'Vad är skillnaden mellan en 2-trådsporttelefon och en IP-porttelefon?',
         us: 'What is the difference between a 2-wire intercom and an IP intercom?',
@@ -982,11 +982,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Un interphone 2 fils fait passer l’alimentation, l’audio et la vidéo sur deux conducteurs, ce qui permet souvent de réutiliser le câblage existant. Un interphone IP utilise un câble réseau ou le Wi-Fi, avec plus de souplesse pour l’extension, mais demande généralement un nouveau câblage jusqu’à la platine.',
-        en: 'A 2-wire intercom carries power, audio and video over two conductors, so existing cabling can often be reused. An IP intercom uses a network cable or Wi-Fi and is more flexible to expand, but usually needs new cabling to the door panel.',
+        en: 'A 2-wire intercom carries power, audio and video over two conductors, so existing cabling can often be reused. An IP intercom uses a network cable or Wi-Fi and is easier to expand, but usually needs new cabling to the door panel.',
         de: 'Eine 2-Draht-Anlage überträgt Strom, Ton und Bild über zwei Adern, sodass sich die vorhandene Verkabelung oft weiterverwenden lässt. Eine IP-Anlage nutzt Netzwerkkabel oder WLAN, ist flexibler erweiterbar, braucht aber meist eine neue Leitung bis zur Außenstation.',
-        es: 'Un videoportero de 2 hilos lleva alimentación, audio y vídeo por dos conductores, por lo que a menudo se puede reutilizar el cableado existente. Uno IP usa cable de red o Wi-Fi, es más flexible para ampliar, pero suele requerir cable nuevo hasta la placa.',
-        it: 'Un videocitofono a 2 fili trasporta alimentazione, audio e video su due conduttori, quindi spesso si può riutilizzare il cablaggio esistente. Un sistema IP usa cavo di rete o Wi-Fi, è più flessibile da espandere, ma di solito richiede un nuovo cavo fino alla postazione esterna.',
-        nl: 'Een 2-draadsintercom voert stroom, audio en video over twee aders, zodat bestaande bekabeling vaak herbruikbaar is. Een IP-intercom gebruikt een netwerkkabel of wifi en is flexibeler uit te breiden, maar vraagt meestal nieuwe bekabeling tot aan het buitenpaneel.',
+        es: 'Un videoportero de 2 hilos lleva la alimentación, el audio y el vídeo por dos conductores, así que a menudo se puede aprovechar el cableado existente. Uno IP usa cable de red o wifi y es más flexible para ampliar, pero suele exigir cable nuevo hasta la placa.',
+        it: 'Un videocitofono a 2 fili trasporta alimentazione, audio e video su due conduttori, quindi spesso si può riutilizzare il cablaggio esistente. Un sistema IP usa il cavo di rete o il Wi-Fi ed è più flessibile se vuoi ampliarlo, ma di solito richiede un cavo nuovo fino alla postazione esterna.',
+        nl: 'Een 2-draadsintercom stuurt stroom, audio en video over twee aders, zodat je de bestaande bekabeling vaak opnieuw kunt gebruiken. Een IP-intercom werkt via een netwerkkabel of wifi en is makkelijker uit te breiden, maar vraagt meestal nieuwe bekabeling tot aan het buitenpaneel.',
         pl: 'Domofon 2-przewodowy przesyła zasilanie, dźwięk i obraz dwoma przewodami, dzięki czemu często można wykorzystać istniejące okablowanie. Domofon IP korzysta z kabla sieciowego lub Wi-Fi i łatwiej go rozbudować, ale zwykle wymaga poprowadzenia nowego kabla aż do panelu zewnętrznego.',
         sv: 'En 2-trådsporttelefon överför ström, ljud och bild via två ledare, så befintlig kabeldragning kan ofta återanvändas. En IP-porttelefon använder nätverkskabel eller wifi och är smidigare att bygga ut, men kräver oftast ny kabeldragning fram till dörrstationen.',
         us: 'A 2-wire intercom carries power, audio and video over two conductors, so you can often reuse the existing wiring. An IP intercom uses a network cable or Wi-Fi and is easier to expand, but it usually needs new wiring to the door panel.',
@@ -996,11 +996,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Peut-on répondre à l’interphone depuis son smartphone quand on est absent ?',
-        en: 'Can I answer the intercom from my phone when I am away?',
-        de: 'Kann ich die Sprechanlage unterwegs per Smartphone annehmen?',
-        es: '¿Se puede contestar el videoportero desde el móvil cuando no estoy en casa?',
+        en: 'Can I answer my intercom from my phone when I’m out?',
+        de: 'Kann man Anrufe der Gegensprechanlage unterwegs auf dem Smartphone annehmen?',
+        es: '¿Puedo contestar al videoportero desde el móvil si no estoy en casa?',
         it: 'Si può rispondere al citofono dallo smartphone quando si è fuori casa?',
-        nl: 'Kan ik de intercom via mijn telefoon beantwoorden als ik niet thuis ben?',
+        nl: 'Kan ik de intercom met mijn telefoon opnemen als ik niet thuis ben?',
         pl: 'Czy można odebrać domofon na smartfonie, gdy nie ma mnie w domu?',
         sv: 'Kan jag svara i porttelefonen från mobilen när jag inte är hemma?',
         us: 'Can I answer the intercom from my phone when I’m not home?',
@@ -1008,11 +1008,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Oui, avec un modèle connecté : l’appel arrive en notification sur l’appli, vous voyez et parlez au visiteur, puis ouvrez la porte à distance. Il faut une connexion internet dans le logement et sur le téléphone, et un bon signal Wi-Fi au niveau du poste intérieur ou du module.',
-        en: 'Yes, with a connected model: the call arrives as an app notification, you see and talk to the visitor, then open the door remotely. You need internet at home and on your phone, plus a good Wi-Fi signal at the indoor unit or module.',
-        de: 'Ja, mit einem vernetzten Modell: Der Anruf kommt als App-Benachrichtigung, Sie sehen und sprechen mit dem Besucher und öffnen die Tür aus der Ferne. Nötig sind Internet zu Hause und auf dem Handy sowie guter WLAN-Empfang an Innenstation oder Modul.',
-        es: 'Sí, con un modelo conectado: la llamada llega como notificación en la app, ve y habla con el visitante y abre la puerta a distancia. Necesita internet en casa y en el móvil, y buena señal Wi-Fi en el monitor o el módulo.',
-        it: 'Sì, con un modello connesso: la chiamata arriva come notifica nell’app, vedete e parlate con il visitatore e aprite la porta a distanza. Servono internet in casa e sul telefono e un buon segnale Wi-Fi vicino al posto interno o al modulo.',
-        nl: 'Ja, met een verbonden model: de oproep komt binnen als app-melding, je ziet en spreekt de bezoeker en opent de deur op afstand. Je hebt internet thuis en op je telefoon nodig, plus een goed wifisignaal bij de binnenpost of module.',
+        en: 'Yes, with a smart model: the call comes through as an app notification, you can see and talk to the visitor, then open the door remotely. You need an internet connection at home and on your phone, plus a good Wi-Fi signal where the indoor unit or module is fitted.',
+        de: 'Ja, mit einem vernetzten Modell: Der Anruf erscheint als Benachrichtigung in der App, Sie sehen den Besucher, sprechen mit ihm und öffnen die Tür aus der Ferne. Nötig sind ein Internetanschluss zu Hause, mobiles Internet auf dem Handy und guter WLAN-Empfang an der Innenstation oder am Modul.',
+        es: 'Sí, con un modelo conectado: la llamada te llega como notificación en la app, ves a la visita, hablas con ella y abres la puerta a distancia. Necesitas conexión a internet en casa y en el móvil, y buena señal wifi donde esté el monitor interior o el módulo.',
+        it: 'Sì, con un modello Wi-Fi: la chiamata arriva come notifica sull’app, vedi il visitatore, gli parli e apri la porta a distanza. Serve una connessione internet in casa e sul telefono, oltre a un buon segnale Wi-Fi vicino al posto interno o al modulo.',
+        nl: 'Ja, met een slim model: de oproep komt binnen als melding in de app, je ziet en spreekt de bezoeker en opent de deur op afstand. Je hebt thuis en op je telefoon internet nodig, en een goed wifisignaal bij de binnenpost of de module.',
         pl: 'Tak, jeśli masz model z aplikacją: połączenie przychodzi jako powiadomienie, widzisz gościa, rozmawiasz z nim i zdalnie otwierasz drzwi. Potrzebujesz internetu w mieszkaniu i w telefonie oraz dobrego sygnału Wi-Fi przy monitorze wewnętrznym lub module.',
         sv: 'Ja, med en uppkopplad modell: samtalet kommer som en notis i appen, du ser och pratar med besökaren och öppnar sedan dörren på distans. Det kräver internet både hemma och i mobilen, plus bra wifi-signal vid svarsapparaten eller modulen.',
         us: 'Yes, with a smart model: the call arrives as an app notification, you see and talk to the visitor, then open the door remotely. You need an internet connection at home and on your phone, plus a strong Wi-Fi signal at the indoor unit or module.',
@@ -1022,9 +1022,9 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Comment rendre connecté l’interphone de mon appartement sans changer la platine ?',
-        en: 'How can I make my flat’s intercom smart without changing the street panel?',
-        de: 'Wie mache ich die Sprechanlage meiner Wohnung smart, ohne die Außenstation zu tauschen?',
-        es: '¿Cómo hago inteligente el portero de mi piso sin cambiar la placa?',
+        en: 'How can I make my flat’s intercom smart without changing the entry panel?',
+        de: 'Wie lässt sich die Gegensprechanlage einer Wohnung smart machen, ohne die Außenstation zu tauschen?',
+        es: '¿Cómo conecto al móvil el portero de mi piso sin cambiar la placa?',
         it: 'Come rendere smart il citofono di casa senza cambiare la pulsantiera?',
         nl: 'Hoe maak ik de intercom van mijn appartement slim zonder het buitenpaneel te vervangen?',
         pl: 'Jak obsługiwać domofon w mieszkaniu ze smartfona bez wymiany panelu zewnętrznego?',
@@ -1034,11 +1034,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Deux options : remplacer votre poste intérieur par un modèle connecté compatible avec le système de l’immeuble (par exemple un BTicino Classe 100X sur une installation BTicino 2 fils), ou ajouter un module comme le Ring Intercom Video ou le Nuki Opener. Vérifiez toujours la compatibilité sur le site du fabricant.',
-        en: 'Two options: replace your indoor unit with a connected model compatible with the building’s system (for example a BTicino Classe 100X on a BTicino 2-wire installation), or add a module such as the Ring Intercom Video or Nuki Opener. Always check compatibility on the manufacturer’s website.',
+        en: 'There are two options: replace your indoor unit with a smart model that works with the building’s system (for example a BTicino Classe 100X on a BTicino 2-wire installation), or add a module such as the Ring Intercom Video or the Nuki Opener. Always check compatibility on the manufacturer’s website.',
         de: 'Zwei Möglichkeiten: Ersetzen Sie Ihre Innenstation durch ein vernetztes Modell, das zur Anlage des Hauses passt (etwa eine BTicino Classe 100X bei einer BTicino-2-Draht-Anlage), oder rüsten Sie ein Modul wie das Ring Intercom Video oder den Nuki Opener nach. Prüfen Sie die Kompatibilität immer auf der Herstellerseite.',
-        es: 'Dos opciones: sustituir su monitor por un modelo conectado compatible con el sistema del edificio (por ejemplo, un BTicino Classe 100X en una instalación BTicino de 2 hilos) o añadir un módulo como el Ring Intercom Video o el Nuki Opener. Compruebe siempre la compatibilidad en la web del fabricante.',
-        it: 'Due possibilità: sostituire il posto interno con un modello connesso compatibile con l’impianto dell’edificio (per esempio un BTicino Classe 100X su un impianto BTicino a 2 fili) oppure aggiungere un modulo come il Ring Intercom Video o il Nuki Opener. Verificate sempre la compatibilità sul sito del produttore.',
-        nl: 'Twee opties: vervang je binnenpost door een verbonden model dat past bij het systeem van het gebouw (bijvoorbeeld een BTicino Classe 100X op een BTicino-2-draadsinstallatie), of voeg een module toe zoals de Ring Intercom Video of de Nuki Opener. Controleer altijd de compatibiliteit op de website van de fabrikant.',
+        es: 'Hay dos opciones: sustituir tu monitor interior por un modelo conectado compatible con el sistema del edificio (por ejemplo, un BTicino Classe 100X en una instalación BTicino de 2 hilos) o añadir un módulo como el Ring Intercom Video o el Nuki Opener. Comprueba siempre la compatibilidad en la web del fabricante.',
+        it: 'Hai due possibilità: sostituire il posto interno con un modello Wi-Fi compatibile con l’impianto dell’edificio (per esempio un BTicino Classe 100X su un impianto BTicino a 2 fili) oppure aggiungere un modulo come il Ring Intercom Video o il Nuki Opener. Verifica sempre la compatibilità sul sito del produttore.',
+        nl: 'Er zijn twee mogelijkheden: vervang je binnenpost door een slim model dat past bij het systeem van het gebouw (bijvoorbeeld een BTicino Classe 100X op een 2-draadsinstallatie van BTicino), of voeg een module toe zoals de Ring Intercom Video of de Nuki Opener. Controleer altijd op de website van de fabrikant of alles compatibel is.',
         pl: 'Masz dwie możliwości: wymienić unifon lub monitor w mieszkaniu na model z aplikacją zgodny z systemem budynku (na przykład BTicino Classe 100X w 2-przewodowej instalacji BTicino) albo dodać moduł, taki jak Ring Intercom Video lub Nuki Opener. Przed zakupem zawsze sprawdź zgodność na stronie producenta.',
         sv: 'Det finns två sätt: byt svarsapparaten mot en uppkopplad modell som är kompatibel med husets system (till exempel en BTicino Classe 100X i en installation med BTicinos 2-trådssystem), eller lägg till en modul som Ring Intercom Video eller Nuki Opener. Kontrollera alltid kompatibiliteten på tillverkarens webbplats.',
         us: 'Two options: replace your indoor unit with a smart model that’s compatible with the building’s system (for example, a BTicino Classe 100X on a BTicino 2-wire installation), or add a module such as the Ring Intercom Video or Nuki Opener. Always check compatibility on the manufacturer’s website.',
@@ -1049,7 +1049,7 @@ export const article: BlogArticle = {
       question: {
         fr: 'Faut-il l’accord de la copropriété pour installer un interphone vidéo ?',
         en: 'Do I need the building’s approval to install a video intercom?',
-        de: 'Brauche ich die Zustimmung der Eigentümergemeinschaft für eine Video-Türsprechanlage?',
+        de: 'Braucht man für eine Video-Gegensprechanlage die Zustimmung der Eigentümergemeinschaft?',
         es: '¿Necesito permiso de la comunidad para instalar un videoportero?',
         it: 'Serve l’approvazione del condominio per installare un videocitofono?',
         nl: 'Heb ik toestemming van de VvE nodig om een video-intercom te plaatsen?',
@@ -1060,11 +1060,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Pour remplacer la platine de rue ou le câblage commun, oui : c’est une décision d’assemblée générale. Changer le poste intérieur de votre logement par un modèle compatible ou ajouter un module ne touche en principe que votre appartement, mais consultez le règlement de copropriété et, si vous êtes locataire, votre propriétaire.',
-        en: 'To replace the street panel or shared cabling, yes: it is a collective decision for the building. Changing the indoor unit in your own flat for a compatible model, or adding a module, normally only affects your home, but check the building rules and, if you rent, your landlord.',
-        de: 'Für den Austausch der Außenstation oder der gemeinsamen Verkabelung ja: Das ist eine gemeinsame Entscheidung. Eine kompatible Innenstation in Ihrer Wohnung oder ein Nachrüstmodul betrifft normalerweise nur Ihre Wohnung; prüfen Sie dennoch die Hausordnung und fragen Sie als Mieter den Vermieter.',
-        es: 'Para cambiar la placa de calle o el cableado común, sí: lo decide la junta de propietarios. Cambiar el monitor de su piso por uno compatible o añadir un módulo afecta en principio solo a su vivienda, pero revise los estatutos y, si es inquilino, consulte al propietario.',
-        it: 'Per sostituire la pulsantiera o il cablaggio comune sì: decide l’assemblea condominiale. Cambiare il posto interno con un modello compatibile o aggiungere un modulo riguarda di norma solo il vostro appartamento, ma controllate il regolamento e, se siete in affitto, chiedete al proprietario.',
-        nl: 'Voor het vervangen van het buitenpaneel of de gemeenschappelijke bekabeling wel: daarover beslist de VvE. Een compatibele binnenpost in je eigen woning of een extra module raakt normaal alleen je appartement, maar controleer het reglement en overleg met je verhuurder als je huurt.',
+        en: 'Yes, if you want to replace the entry panel or the shared cabling: that is a decision for the building as a whole. Swapping the indoor unit in your own flat for a compatible model, or adding a module, normally only affects your home, but check your lease or the building rules and, if you rent, ask your landlord.',
+        de: 'Für den Austausch der Außenstation oder der gemeinsamen Verkabelung ja: Darüber entscheidet die Eigentümerversammlung. Tauschen Sie nur die Innenstation Ihrer Wohnung gegen ein kompatibles Modell oder rüsten ein Modul nach, betrifft das in der Regel nur Ihre eigene Wohnung. Werfen Sie trotzdem einen Blick in die Regeln Ihrer Eigentümergemeinschaft, und fragen Sie als Mieter vorher Ihren Vermieter.',
+        es: 'Para cambiar la placa de calle o el cableado común, sí: lo decide la junta de propietarios. Cambiar el monitor de tu piso por uno compatible o añadir un módulo, en principio, solo afecta a tu vivienda, pero revisa los estatutos de la comunidad y, si vives de alquiler, consulta a tu casero.',
+        it: 'Per sostituire la pulsantiera esterna o il cablaggio comune sì: lo decide l’assemblea condominiale. Cambiare il posto interno con un modello compatibile o aggiungere un modulo riguarda di norma solo il tuo appartamento, ma controlla il regolamento condominiale e, se sei in affitto, chiedi al proprietario.',
+        nl: 'Ja, als je het buitenpaneel of de gemeenschappelijke bekabeling wilt vervangen: daarover beslist de ledenvergadering van de VvE. Een compatibele binnenpost in je eigen woning of een extra module betreft in principe alleen je appartement. Controleer wel het reglement van de VvE en overleg met je verhuurder als je huurt.',
         pl: 'Tak, jeśli chodzi o wymianę panelu zewnętrznego lub wspólnego okablowania – o tym decyduje zebranie wspólnoty. Wymiana monitora w Twoim mieszkaniu na zgodny model lub dodanie modułu co do zasady dotyczy tylko Twojego lokalu, ale i tak zajrzyj do regulaminu wspólnoty, a jeśli wynajmujesz mieszkanie, zapytaj właściciela.',
         sv: 'För att byta entrépanelen eller den gemensamma kabeldragningen: ja, det är ett gemensamt beslut för huset. Att byta svarsapparaten i din egen lägenhet mot en kompatibel modell, eller att lägga till en modul, berör normalt bara din bostad, men kontrollera vilka regler som gäller i huset och fråga hyresvärden om du hyr.',
         us: 'To replace the entry panel or shared wiring, yes: it’s a collective decision for the building, typically made by the condo association, HOA or building management. Swapping the indoor unit in your own apartment for a compatible model, or adding a module, normally affects only your unit, but check the building rules and, if you rent, your lease and your landlord.',
@@ -1074,11 +1074,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Qu’est-ce que le système Vigik et pourquoi est-il important ?',
-        en: 'What is Vigik and does it matter outside France?',
-        de: 'Was ist Vigik und spielt es außerhalb Frankreichs eine Rolle?',
-        es: '¿Qué es Vigik y importa fuera de Francia?',
-        it: 'Che cos’è Vigik e conta fuori dalla Francia?',
-        nl: 'Wat is Vigik en speelt het buiten Frankrijk een rol?',
+        en: 'What is Vigik, and why does it matter?',
+        de: 'Was ist Vigik, und spielt das System außerhalb Frankreichs eine Rolle?',
+        es: '¿Qué es Vigik y tiene importancia fuera de Francia?',
+        it: 'Che cos’è il sistema Vigik e vale anche fuori dalla Francia?',
+        nl: 'Wat is Vigik, en speelt dat ook buiten Frankrijk een rol?',
         pl: 'Czym jest francuski system Vigik i dlaczego ma znaczenie?',
         sv: 'Vad är Vigik, och spelar det någon roll utanför Frankrike?',
         us: 'What is Vigik and does it matter outside France?',
@@ -1086,11 +1086,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Vigik est le système français de contrôle d’accès qui permet aux facteurs et à certains prestataires d’entrer dans les immeubles avec un badge professionnel. Si votre immeuble en est équipé, le remplacement de la platine doit conserver cet accès ; demandez au syndic et à l’installateur de le prévoir.',
-        en: 'Vigik is the French access control system that lets postal workers and some service providers enter buildings with a professional badge. Outside France, buildings use their own arrangements for postal access; whatever the country, make sure it is kept when the panel is replaced.',
-        de: 'Vigik ist das französische Zutrittssystem, mit dem Briefträger und bestimmte Dienstleister mit einem Berufsausweis in Gebäude gelangen. Außerhalb Frankreichs gibt es eigene Lösungen für den Postzugang; achten Sie in jedem Land darauf, dass er beim Austausch der Außenstation erhalten bleibt.',
-        es: 'Vigik es el sistema francés de control de acceso que permite a carteros y algunos servicios entrar en los edificios con una tarjeta profesional. Fuera de Francia cada edificio tiene su propio sistema de acceso postal; sea cual sea el país, asegúrese de mantenerlo al cambiar la placa.',
-        it: 'Vigik è il sistema francese di controllo accessi che permette a postini e ad alcuni fornitori di entrare negli edifici con un badge professionale. Fuori dalla Francia ogni edificio ha le proprie soluzioni per l’accesso postale; in ogni paese assicuratevi che venga mantenuto quando si cambia la pulsantiera.',
-        nl: 'Vigik is het Franse toegangssysteem waarmee postbodes en sommige dienstverleners met een professionele badge gebouwen binnenkomen. Buiten Frankrijk hebben gebouwen eigen regelingen voor posttoegang; zorg in elk land dat die behouden blijft wanneer het paneel wordt vervangen.',
+        en: 'Vigik is a French access control system that lets postal workers and some service providers into buildings with a professional pass. If your building has it, the new panel must keep that access, so ask the managing agent and the installer to plan for it. Outside France, check how your building handles postal access before the panel is replaced.',
+        de: 'Vigik ist ein französisches Zutrittssystem: Briefträger und bestimmte Dienstleister kommen damit per Dienstausweis in Wohngebäude. Außerhalb Frankreichs ist Vigik kaum verbreitet. Gibt es in Ihrem Haus ein ähnliches Zugangssystem für Zusteller, muss es beim Austausch der Außenstation erhalten bleiben; sprechen Sie das mit Hausverwaltung und Installateur ab.',
+        es: 'Vigik es el sistema francés de control de acceso que permite a los carteros y a algunos servicios entrar en los edificios con una tarjeta profesional. Fuera de Francia, cada edificio resuelve a su manera el acceso de los carteros; estés donde estés, asegúrate de que se mantiene cuando se cambie la placa.',
+        it: 'Vigik è il sistema francese di controllo accessi che permette a postini e ad alcuni fornitori di servizi di entrare nei palazzi con un badge professionale. Fuori dalla Francia ogni edificio ha le proprie soluzioni per l’accesso dei postini: ovunque tu viva, assicurati che resti attivo quando si cambia la pulsantiera.',
+        nl: 'Vigik is een Frans toegangssysteem waarmee postbodes en sommige dienstverleners met een beroepsbadge gebouwen binnenkomen. Elders gelden andere regelingen voor de toegang van post en bezorgers. Heeft je gebouw zo’n systeem, zorg dan dat het blijft werken als het buitenpaneel wordt vervangen.',
         pl: 'Vigik to francuski system kontroli dostępu, dzięki któremu listonosze i niektórzy usługodawcy mogą wchodzić do budynków za pomocą służbowego identyfikatora. Jeśli Twój budynek we Francji ma taki czytnik, po wymianie panelu dostęp ten musi zostać zachowany – poproś zarządcę i instalatora, żeby o tym pamiętali.',
         sv: 'Vigik är det franska passersystem som gör att brevbärare och vissa serviceföretag kan ta sig in i flerbostadshus med en tjänstetagg. Utanför Frankrike har husen egna lösningar för postens åtkomst; oavsett land bör du se till att den finns kvar när panelen byts.',
         us: 'Vigik is the access control system used in France that lets mail carriers and some service providers into buildings with a professional badge. Outside France, buildings handle mail carrier access in their own way; wherever you live, make sure that access is kept when the entry panel is replaced.',
@@ -1101,9 +1101,9 @@ export const article: BlogArticle = {
       question: {
         fr: 'Peut-on associer un interphone vidéo à une serrure connectée ?',
         en: 'Can a video intercom work with a smart lock?',
-        de: 'Lässt sich eine Video-Türsprechanlage mit einem smarten Türschloss kombinieren?',
+        de: 'Lässt sich eine Video-Gegensprechanlage mit einem Smart Lock kombinieren?',
         es: '¿Se puede combinar un videoportero con una cerradura inteligente?',
-        it: 'Si può abbinare un videocitofono a una serratura intelligente?',
+        it: 'Si può abbinare un videocitofono a una serratura smart?',
         nl: 'Kan een video-intercom samenwerken met een slim slot?',
         pl: 'Czy można połączyć wideodomofon z inteligentnym zamkiem?',
         sv: 'Kan en videoporttelefon fungera ihop med ett smart lås?',
@@ -1113,10 +1113,10 @@ export const article: BlogArticle = {
       answer: {
         fr: 'Oui. L’interphone ouvre la porte de l’immeuble ou le portail, la serrure connectée gère la porte du logement. Si les deux sont compatibles avec le même écosystème (Alexa, Google Home ou Apple Home), vous pouvez les piloter depuis la même appli ou à la voix. Voir notre <a href="/fr/blog/serrure-connectee-guide">guide des serrures connectées</a>.',
         en: 'Yes. The intercom opens the building entrance or gate, while the smart lock handles your own front door. If both work with the same ecosystem (Alexa, Google Home or Apple Home), you can control them from one app or by voice. See our <a href="/en/blog/serrure-connectee-guide">smart lock guide</a>.',
-        de: 'Ja. Die Sprechanlage öffnet Haustür oder Tor, das smarte Schloss Ihre Wohnungstür. Unterstützen beide dasselbe Ökosystem (Alexa, Google Home oder Apple Home), steuern Sie sie aus einer App oder per Stimme. Mehr in unserem <a href="/de/blog/serrure-connectee-guide">Ratgeber zu smarten Türschlössern</a>.',
-        es: 'Sí. El videoportero abre el portal o la cancela, y la cerradura inteligente gestiona la puerta de su vivienda. Si ambos son compatibles con el mismo ecosistema (Alexa, Google Home o Apple Home), puede controlarlos desde la misma app o por voz. Consulte nuestra <a href="/es/blog/serrure-connectee-guide">guía de cerraduras inteligentes</a>.',
-        it: 'Sì. Il videocitofono apre il portone o il cancello, la serratura intelligente gestisce la porta di casa. Se entrambi sono compatibili con lo stesso ecosistema (Alexa, Google Home o Apple Casa), potete controllarli dalla stessa app o con la voce. Leggete la nostra <a href="/it/blog/serrure-connectee-guide">guida alle serrature intelligenti</a>.',
-        nl: 'Ja. De intercom opent de hoofdingang of poort, het slimme slot je eigen voordeur. Werken beide met hetzelfde ecosysteem (Alexa, Google Home of Apple Woning), dan bedien je ze vanuit één app of met je stem. Zie onze <a href="/nl/blog/serrure-connectee-guide">gids voor slimme sloten</a>.',
+        de: 'Ja. Die Gegensprechanlage öffnet die Haustür oder das Tor, das Smart Lock Ihre Wohnungstür. Unterstützen beide dieselbe Plattform (Alexa, Google Home oder Apple Home), steuern Sie beide über eine App oder per Sprachbefehl. Mehr dazu in unserem <a href="/de/blog/serrure-connectee-guide">Smart-Lock-Ratgeber</a>.',
+        es: 'Sí. El videoportero abre el portal del edificio o la cancela, y la cerradura inteligente se encarga de la puerta de tu casa. Si los dos son compatibles con el mismo ecosistema (Alexa, Google Home o Apple Home), puedes controlarlos desde la misma app o por voz. Echa un vistazo a nuestra <a href="/es/blog/serrure-connectee-guide">guía de cerraduras inteligentes</a>.',
+        it: 'Sì. Il videocitofono apre il portone o il cancello, la serratura smart gestisce la porta di casa. Se entrambi sono compatibili con lo stesso ecosistema (Alexa, Google Home o Apple Casa), puoi comandarli dalla stessa app o con la voce. Leggi la nostra <a href="/it/blog/serrure-connectee-guide">guida alle serrature smart</a>.',
+        nl: 'Ja. De intercom opent de hoofdingang of de poort, het slimme slot de voordeur van je woning. Werken ze allebei met hetzelfde ecosysteem (Alexa, Google Home of Apple Woning), dan bedien je ze vanuit één app of met je stem. Lees ook onze <a href="/nl/blog/serrure-connectee-guide">gids voor slimme sloten</a>.',
         pl: 'Tak. Domofon otwiera drzwi do budynku lub bramę, a inteligentny zamek – drzwi do mieszkania. Jeśli oba urządzenia działają w tym samym ekosystemie (Alexa, Google Home lub Apple Home), możesz sterować nimi z jednej aplikacji lub głosem. Więcej w naszym <a href="/pl/blog/serrure-connectee-guide">poradniku o inteligentnych zamkach</a>.',
         sv: 'Ja. Porttelefonen öppnar husets entré eller grinden, medan det smarta låset sköter din egen ytterdörr. Fungerar båda med samma ekosystem (Alexa, Google Home eller Apple Home) kan du styra dem från en och samma app eller med röstkommandon. Läs vår <a href="/sv/blog/serrure-connectee-guide">guide till smarta lås</a>.',
         us: 'Yes. The intercom opens the building entrance or gate, while the smart lock handles your own front door. If both work with the same ecosystem (Alexa, Google Home or Apple Home), you can control them from one app or by voice. See our <a href="/us/blog/serrure-connectee-guide">smart lock guide</a>.',

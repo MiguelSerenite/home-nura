@@ -40,7 +40,7 @@ const uiStrings: Record<Lang, { home: string; categoriesTitle: string; methodolo
     methodologyCta: 'Read our methodology',
   },
   de: {
-    home: 'Start',
+    home: 'Startseite',
     categoriesTitle: 'Kategorien',
     methodologyCta: 'Zur Methodik',
   },

@@ -101,3 +101,21 @@ describe('firstSentence', () => {
     expect(firstSentence('Comptez 0.5 kWh par heure. Ensuite…')).toBe('Comptez 0.5 kWh par heure.')
   })
 })
+
+describe('test-claim rule', () => {
+  const withItalianAnswer = (extra: string) => {
+    const set = CATEGORY_FAQS.thermostats
+    const [first, ...rest] = set.it
+    return { ...set, it: [{ ...first, answer: `${first.answer} ${extra}` }, ...rest] }
+  }
+  const testWordErrors = (extra: string) =>
+    checkFaqSet('thermostats', withItalianAnswer(extra)).filter((e) => e.includes('"test" word'))
+
+  it('flags a claim that the site tested a product', () => {
+    expect(testWordErrors('Lo abbiamo testato a casa.')).toEqual(['thermostats/it#1: answer uses a "test" word'])
+  })
+
+  it('leaves the Italian "testa" and "testina" alone', () => {
+    expect(testWordErrors('Cambia la testina, senza mal di testa.')).toEqual([])
+  })
+})

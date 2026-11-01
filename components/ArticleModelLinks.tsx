@@ -19,10 +19,10 @@ const PLACEMENT: ClickPlacement = 'product_block'
 
 const LABELS: Record<string, { title: string; bottomTitle: string; button: string; disclosure: string }> = {
   fr: { title: 'Les modèles cités dans ce guide', bottomTitle: 'Nos recommandations', button: 'Voir sur Amazon', disclosure: 'Liens affiliés Amazon : nous touchons une commission, sans surcoût pour vous.' },
-  en: { title: 'Models mentioned in this guide', bottomTitle: 'Our recommendations', button: 'View on Amazon', disclosure: 'Amazon affiliate links: we earn a commission at no extra cost to you.' },
-  de: { title: 'Die in diesem Ratgeber genannten Modelle', bottomTitle: 'Unsere Empfehlungen', button: 'Bei Amazon ansehen', disclosure: 'Amazon-Affiliate-Links: Wir erhalten eine Provision, ohne Mehrkosten für Sie.' },
+  en: { title: 'Models mentioned in this guide', bottomTitle: 'Our recommendations', button: 'Check price on Amazon', disclosure: 'Amazon affiliate links: we earn a commission at no extra cost to you.' },
+  de: { title: 'Die Modelle aus diesem Ratgeber', bottomTitle: 'Unsere Empfehlungen', button: 'Bei Amazon ansehen', disclosure: 'Amazon-Affiliate-Links: Wir erhalten eine Provision, ohne Mehrkosten für Sie.' },
   es: { title: 'Los modelos citados en esta guía', bottomTitle: 'Nuestras recomendaciones', button: 'Ver en Amazon', disclosure: 'Enlaces de afiliado de Amazon: recibimos una comisión sin coste adicional para ti.' },
-  it: { title: 'I modelli citati in questa guida', bottomTitle: 'Le nostre raccomandazioni', button: 'Vedi su Amazon', disclosure: 'Link di affiliazione Amazon: riceviamo una commissione senza costi aggiuntivi per te.' },
+  it: { title: 'I modelli citati in questa guida', bottomTitle: 'I nostri consigli', button: 'Vedi su Amazon', disclosure: 'Link affiliati Amazon: riceviamo una commissione, senza costi aggiuntivi per te.' },
   nl: { title: 'De modellen uit deze gids', bottomTitle: 'Onze aanbevelingen', button: 'Bekijk op Amazon', disclosure: 'Amazon-affiliatelinks: wij ontvangen een commissie, zonder extra kosten voor jou.' },
   pl: { title: 'Modele wymienione w tym poradniku', bottomTitle: 'Nasze rekomendacje', button: 'Zobacz na Amazon', disclosure: 'Linki afiliacyjne Amazon: otrzymujemy prowizję, bez dodatkowych kosztów dla Ciebie.' },
   sv: { title: 'Modeller som nämns i guiden', bottomTitle: 'Våra rekommendationer', button: 'Visa på Amazon', disclosure: 'Affiliatelänkar till Amazon: vi får provision, utan extra kostnad för dig.' },

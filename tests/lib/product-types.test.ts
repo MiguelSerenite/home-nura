@@ -22,7 +22,7 @@ describe('productKicker', () => {
   })
 
   it('leaves out what it does not know', () => {
-    expect(productKicker({ type: 'balances', lang: 'en' })).toBe('Kitchen scale')
+    expect(productKicker({ type: 'balances', lang: 'en' })).toBe('Kitchen scales')
     expect(productKicker({ type: 'cafetieres', lang: 'it', bestFor: '' })).toBe('Macchina da caffè')
   })
 })

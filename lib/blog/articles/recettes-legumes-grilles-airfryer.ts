@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Recettes de Légumes Grillés à l\'Airfryer : 10 Légumes Parfaitement Cuits',
-    en: 'Air Fryer Grilled Vegetable Recipes: 10 Perfectly Cooked Vegetables',
-    de: 'Gegrilltes Gemüse aus der Heißluftfritteuse: 10 Perfekt Gegarte Gemüsesorten',
-    es: 'Recetas de Verduras a la Parrilla en Freidora de Aire: 10 Verduras Perfectamente Cocinadas',
-    it: 'Ricette di Verdure Grigliate nella Friggitrice ad Aria: 10 Verdure Perfettamente Cotte',
-    nl: 'Gegrilde Groenten uit de Airfryer: 10 Perfect Gegaarde Groenten',
+    en: 'Air Fryer Roast Vegetables: How to Cook 10 Veg Perfectly',
+    de: 'Geröstetes Gemüse aus dem Airfryer: 10 Sorten perfekt gegart',
+    es: 'Verduras asadas en freidora de aire: 10 recetas fáciles',
+    it: 'Verdure grigliate nella friggitrice ad aria: 10 ricette perfette',
+    nl: 'Gegrilde groenten uit de airfryer: 10 soorten perfect gaar',
     pl: 'Grillowane warzywa z frytkownicy beztłuszczowej: jak idealnie przyrządzić 10 warzyw',
     sv: 'Rostade grönsaker i airfryer: 10 sorter, perfekt tillagade',
     us: 'Air Fryer Roasted Vegetables: 10 Veggies Cooked Just Right',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Découvrez comment griller 10 légumes à la perfection dans votre airfryer : brocoli, chou-fleur, courgettes, poivrons, choux de Bruxelles, carottes, asperges, champignons, aubergines et haricots verts. Tableau complet des temps et températures.',
-    en: 'Learn how to perfectly grill 10 vegetables in your air fryer: broccoli, cauliflower, zucchini, bell peppers, Brussels sprouts, carrots, asparagus, mushrooms, eggplant and green beans. Complete time and temperature chart.',
-    de: 'Erfahren Sie, wie Sie 10 Gemüsesorten perfekt in der Heißluftfritteuse grillen: Brokkoli, Blumenkohl, Zucchini, Paprika, Rosenkohl, Karotten, Spargel, Pilze, Aubergine und grüne Bohnen.',
-    es: 'Descubre cómo asar 10 verduras a la perfección en tu freidora de aire: brócoli, coliflor, calabacín, pimientos, coles de Bruselas, zanahorias, espárragos, champiñones, berenjena y judías verdes.',
-    it: 'Scopri come grigliare 10 verdure alla perfezione nella friggitrice ad aria: broccoli, cavolfiore, zucchine, peperoni, cavolini di Bruxelles, carote, asparagi, funghi, melanzane e fagiolini.',
-    nl: 'Ontdek hoe je 10 groenten perfect grilt in je airfryer: broccoli, bloemkool, courgette, paprika, spruitjes, wortels, asperges, champignons, aubergine en sperziebonen.',
+    en: 'How to roast 10 vegetables to perfection in your air fryer: broccoli, cauliflower, courgettes, peppers, Brussels sprouts, carrots, asparagus, mushrooms, aubergines and green beans, plus a full chart of times and temperatures.',
+    de: 'So rösten Sie 10 Gemüsesorten perfekt in der Heißluftfritteuse: Brokkoli, Blumenkohl, Zucchini, Paprika, Rosenkohl, Karotten, Spargel, Pilze, Aubergine und grüne Bohnen. Mit Tabelle aller Zeiten und Temperaturen.',
+    es: 'Cómo asar 10 verduras en su punto en la freidora de aire: brócoli, coliflor, calabacín, pimientos, coles de Bruselas, zanahorias, espárragos, champiñones, berenjena y judías verdes. Con tabla completa de tiempos y temperaturas.',
+    it: 'Scopri come grigliare alla perfezione 10 verdure nella friggitrice ad aria: broccoli, cavolfiore, zucchine, peperoni, cavolini di Bruxelles, carote, asparagi, funghi, melanzane e fagiolini. Con la tabella completa di tempi e temperature.',
+    nl: 'Zo gril je 10 groenten perfect in je airfryer: broccoli, bloemkool, courgette, paprika, spruitjes, wortels, asperges, champignons, aubergine en sperziebonen. Met een complete tabel van tijden en temperaturen.',
     pl: 'Brokuły, kalafior, cukinia, papryka, brukselka, marchew, szparagi, pieczarki, bakłażan i fasolka szparagowa – zobacz, jak idealnie przyrumienić te 10 warzyw we frytkownicy beztłuszczowej. Pełna tabela czasów i temperatur.',
     sv: 'Så rostar du 10 grönsaker perfekt i airfryern: broccoli, blomkål, zucchini, paprika, brysselkål, morötter, sparris, svamp, aubergine och haricots verts. Med en komplett tabell över tider och temperaturer.',
     us: 'How to roast 10 vegetables to perfection in your air fryer: broccoli, cauliflower, zucchini, bell peppers, Brussels sprouts, carrots, asparagus, mushrooms, eggplant and green beans, plus a full time and temperature chart.',
@@ -305,780 +305,1058 @@ export const article: BlogArticle = {
 </ul>`,
 
     en: `<h2>Introduction</h2>
-<p>The air fryer is an extraordinary tool for cooking vegetables. High-temperature hot air circulation creates <strong>surface caramelization</strong> that intensifies natural flavours while preserving nutrients far better than boiling. In just 10-20 minutes, you get roasted vegetables as delicious as oven-roasted, with virtually no preheating time and reduced energy consumption.</p>
-<p>In this complete guide, we detail perfect cooking for <strong>10 popular vegetables</strong> with temperatures, guideline cooking times, and recommended seasonings. Whether you want to eat more <a href="/en/blog/cuisiner-healthy-airfryer">healthily</a> or prepare meals ahead as part of a <a href="/en/blog/meal-prep-airfryer-semaine">meal prep</a>, these recipes will become your staples.</p>
+<p>An air fryer is brilliant for cooking vegetables. Hot air circulating at high temperature <strong>caramelises the surface</strong>, which brings out their natural flavour, and keeps far more of the nutrients than boiling does. In just 10 to 20 minutes you get roasted vegetables as tasty as any from the oven, with next to no preheating and less energy used.</p>
+<p>This guide covers <strong>10 popular vegetables</strong>, with temperatures, guide cooking times and suggested seasonings. Whether you want to eat more <a href="/en/blog/cuisiner-healthy-airfryer">healthily</a> or get ahead with some <a href="/en/blog/meal-prep-airfryer-semaine">meal prep</a> for the week, these recipes will soon become staples.</p>
 
-<h2>Golden Rules for Air Fryer Vegetables</h2>
+<h2>Golden rules for air fryer vegetables</h2>
 <ul>
-<li><strong>Cut into even pieces</strong> — uniform sizes ensure uniform cooking.</li>
-<li><strong>Dry your vegetables</strong> — moisture prevents browning.</li>
-<li><strong>Use minimal oil</strong> — 1-2 teaspoons per serving is enough.</li>
-<li><strong>Don't overcrowd the basket</strong> — single layer for proper air circulation.</li>
-<li><strong>Shake halfway through</strong> — for even browning on all sides.</li>
+<li><strong>Cut into even pieces</strong> so everything cooks at the same rate.</li>
+<li><strong>Dry your vegetables</strong>: moisture stops them browning, so drain them well after washing.</li>
+<li><strong>Go easy on the oil</strong>: 1–2 teaspoons per portion is enough to make them crisp.</li>
+<li><strong>Don't overload the basket</strong>: keep to a single layer so the air can circulate.</li>
+<li><strong>Shake halfway through</strong> so they brown evenly on all sides.</li>
 </ul>
 
 <h2>1. Broccoli</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>300 g broccoli in small florets (3-4 cm)</li>
-<li>1 tablespoon olive oil, 2 garlic cloves (minced), salt, pepper, lemon zest</li>
+<li>300 g broccoli, cut into small florets (3–4 cm)</li>
+<li>1 tablespoon olive oil, 2 garlic cloves (finely chopped), salt and pepper, zest of ½ lemon (optional)</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Wash and dry broccoli. Toss with oil, garlic, salt, and pepper.</li>
-<li>Cook at <strong>190 °C for 8-10 minutes</strong>, shaking halfway.</li>
-<li>Tips should be slightly golden and crispy, stems still crunchy.</li>
+<li>Wash and dry the broccoli, then toss with the oil, garlic, salt and pepper.</li>
+<li>Preheat the air fryer to 190°C for 3 minutes, then cook at <strong>190°C for 8–10 minutes</strong>, shaking the basket halfway through.</li>
+<li>The florets should be lightly golden and crisp, with the stalks still a little crunchy.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Air fryer broccoli is a revelation — the tips become chip-like while stems stay tender. Add lemon zest after cooking for freshness.</p>
+<h3>Chef's tips</h3>
+<p>Air fryer broccoli is a revelation: the tips turn as crunchy as crisps while the stalks stay tender. Add the lemon zest as soon as it comes out for a fresh finish. A squeeze of lemon juice and a pinch of Parmesan round it off perfectly.</p>
 
 <h2>2. Cauliflower</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>400 g cauliflower florets (3 cm), 1 tablespoon olive oil, 1 teaspoon turmeric, ½ teaspoon cumin, salt, pepper</li>
+<li>400 g cauliflower, cut into 3 cm florets, 1 tablespoon olive oil, 1 teaspoon ground turmeric, ½ teaspoon ground cumin, salt and pepper</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Toss with oil and spices.</li>
-<li>Cook at <strong>200 °C for 12-15 minutes</strong>, shaking halfway.</li>
-<li>Edges should be well browned and caramelized.</li>
+<li>Toss the florets with the oil, spices, salt and pepper.</li>
+<li>Cook at <strong>200°C for 12–15 minutes</strong>, shaking halfway through.</li>
+<li>The edges should be well browned and caramelised.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Roasted cauliflower develops incredible natural sweetness. For a "buffalo" version, toss with hot sauce and melted butter after cooking.</p>
+<h3>Chef's tips</h3>
+<p>Roasting brings out cauliflower's natural sweetness, and the turmeric adds colour. For a “buffalo” version, toss it in hot sauce and melted butter after cooking.</p>
 
-<h2>3. Zucchini</h2>
+<h2>3. Courgettes</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>2 medium zucchini (400 g), 1 tablespoon olive oil, 1 teaspoon herbes de Provence, salt, pepper</li>
+<li>2 medium courgettes (about 400 g), 1 tablespoon olive oil, 1 teaspoon herbes de Provence, salt and pepper</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Slice into <strong>1 cm rounds</strong> or half-moons.</li>
-<li>Salt lightly and drain on paper towels for <strong>10 minutes</strong>.</li>
-<li>Dry, toss with oil and herbs.</li>
-<li>Cook at <strong>190 °C for 10-12 minutes</strong>, shaking halfway.</li>
+<li>Cut into <strong>1 cm rounds</strong> or half-moons.</li>
+<li>Sprinkle lightly with salt and leave on kitchen paper for <strong>10 minutes</strong> to draw out the water.</li>
+<li>Pat dry, then toss with the oil and herbs.</li>
+<li>Cook at <strong>190°C for 10–12 minutes</strong>, shaking halfway through.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Draining is essential — zucchini contains a lot of water that would prevent caramelization.</p>
+<h3>Chef's tips</h3>
+<p>Salting is essential: courgettes hold a lot of water, which would stop them caramelising. Thicker slices (1.5 cm) will stay softer in the middle.</p>
 
-<h2>4. Bell Peppers</h2>
+<h2>4. Peppers</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>3 bell peppers, different colours (500 g), 1 tablespoon olive oil, 1 teaspoon sweet paprika, salt, pepper</li>
+<li>3 peppers in different colours (about 500 g), 1 tablespoon olive oil, 1 teaspoon sweet paprika, salt and pepper</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
 <li>Deseed and cut into <strong>2 cm strips</strong>.</li>
-<li>Toss with oil, paprika, salt, and pepper.</li>
-<li>Cook at <strong>190 °C for 10-12 minutes</strong>, shaking halfway.</li>
+<li>Toss with the oil, paprika, salt and pepper.</li>
+<li>Cook at <strong>190°C for 10–12 minutes</strong>, shaking halfway through, until the strips are soft and slightly charred at the edges.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Red peppers are the sweetest and caramelize best. Mix all three colours for a stunning dish. Perfect in fajitas or alongside <a href="/en/blog/recettes-poulet-croustillant-airfryer">crispy chicken</a>.</p>
+<h3>Chef's tips</h3>
+<p>Red peppers are the sweetest and caramelise best. Mix all three colours for a really colourful dish. Use them in fajitas or salads, or serve them alongside <a href="/en/blog/recettes-poulet-croustillant-airfryer">crispy chicken</a>.</p>
 
-<h2>5. Brussels Sprouts</h2>
+<h2>5. Brussels sprouts</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>400 g Brussels sprouts, halved lengthwise</li>
-<li>1 tablespoon olive oil, 2 tablespoons grated Parmesan, 1 garlic clove (minced), salt, pepper</li>
+<li>400 g Brussels sprouts, halved lengthways</li>
+<li>1 tablespoon olive oil, 2 tablespoons grated Parmesan, 1 garlic clove (finely chopped), salt and pepper</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Trim and halve. Toss with oil, garlic, salt, pepper.</li>
-<li>Place <strong>cut-side up</strong> in the basket.</li>
-<li>Cook at <strong>190 °C for 12-15 minutes</strong>.</li>
-<li>Top with Parmesan immediately.</li>
+<li>Trim and halve the sprouts, then toss with the oil, garlic, salt and pepper.</li>
+<li>Place them <strong>cut side up</strong> in the basket.</li>
+<li>Cook at <strong>190°C for 12–15 minutes</strong>.</li>
+<li>Sprinkle with the Parmesan as soon as they come out.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Halving maximizes contact with hot air, creating irresistible caramelized edges. Loose outer leaves become actual chips — don't remove them.</p>
+<h3>Chef's tips</h3>
+<p>Halving them gives the hot air more surface to work on, which is what creates those irresistible caramelised edges. The outer leaves that come loose turn into little crisps, so don't throw them away. For a more indulgent version, add a drizzle of balsamic vinegar and some chopped walnuts.</p>
 
 <h2>6. Carrots</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>4 large carrots (400 g), 1 tablespoon olive oil, 1 tablespoon honey, ½ teaspoon ground cumin, salt, pepper</li>
+<li>4 large carrots (about 400 g), 1 tablespoon olive oil, 1 tablespoon honey, ½ teaspoon ground cumin, salt and pepper</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
 <li>Peel and cut into <strong>6 cm sticks, 1 cm thick</strong>, or <strong>0.5 cm rounds</strong>.</li>
-<li>Toss with oil, honey, cumin, salt, pepper.</li>
-<li>Cook at <strong>180 °C for 15-18 minutes</strong>, shaking halfway.</li>
+<li>Toss with the oil, honey, cumin, salt and pepper.</li>
+<li>Cook at <strong>180°C for 15–18 minutes</strong>, shaking halfway through.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Honey caramelizes the carrots and enhances their natural sweetness. Cumin pairs classically with carrots in Moroccan cuisine.</p>
+<h3>Chef's tips</h3>
+<p>Honey caramelises the carrots and brings out their natural sweetness, and carrot with cumin is a classic pairing in Moroccan cooking. Children who turn their noses up at vegetables often love these glazed carrots.</p>
 
 <h2>7. Asparagus</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>1 bunch green asparagus (300 g), 1 tablespoon olive oil, 1 garlic clove (minced), salt, pepper, Parmesan shavings</li>
+<li>1 bunch green asparagus (about 300 g), 1 tablespoon olive oil, 1 garlic clove (finely chopped), salt and pepper, Parmesan shavings to serve</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Snap off the woody base of each spear.</li>
-<li>Toss with oil, garlic, salt, pepper.</li>
-<li>Lay <strong>perpendicular to the basket slats</strong>.</li>
-<li>Cook at <strong>200 °C for 6-8 minutes</strong>.</li>
-<li>Serve with Parmesan shavings.</li>
+<li>Snap off the woody end of each spear (it breaks naturally in the right place).</li>
+<li>Toss with the oil, garlic, salt and pepper.</li>
+<li>Lay the spears <strong>across the slots in the basket</strong> so they don't fall through.</li>
+<li>Cook at <strong>200°C for 6–8 minutes</strong>.</li>
+<li>Serve topped with Parmesan shavings.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Air fryer asparagus is ready in record time. Choose medium-thickness spears — thin ones burn, thick ones stay raw in the centre.</p>
+<h3>Chef's tips</h3>
+<p>Asparagus cooks in next to no time in an air fryer. Choose medium spears: very thin ones burn, and very thick ones stay raw in the middle. A squeeze of lemon and a poached egg turn it into an elegant starter.</p>
 
 <h2>8. Mushrooms</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>300 g button mushrooms (or shiitake), 1 tablespoon olive oil, 1 tablespoon soy sauce, 1 teaspoon fresh thyme, pepper</li>
+<li>300 g button mushrooms (or shiitake), 1 tablespoon olive oil, 1 tablespoon soy sauce, 1 teaspoon fresh thyme leaves, black pepper</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li><strong>Don't wash</strong> mushrooms — wipe with a damp cloth.</li>
-<li>Quarter large ones, leave small ones whole.</li>
-<li>Toss with oil, soy sauce, thyme, pepper.</li>
-<li>Cook at <strong>200 °C for 8-10 minutes</strong>, shaking halfway.</li>
+<li><strong>Don't wash</strong> the mushrooms: wipe them with a damp cloth instead.</li>
+<li>Quarter the large ones and leave the small ones whole.</li>
+<li>Toss with the oil, soy sauce, thyme and pepper.</li>
+<li>Cook at <strong>200°C for 8–10 minutes</strong>, shaking halfway through.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Mushrooms absorb water like sponges — never wash under running water. Soy sauce adds umami and aids browning.</p>
+<h3>Chef's tips</h3>
+<p>Mushrooms soak up water like a sponge, so never rinse them under the tap. Soy sauce adds umami and helps them brown. They're perfect on a steak, in a risotto or on toast.</p>
 
-<h2>9. Eggplant</h2>
+<h2>9. Aubergines</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>2 medium eggplants (500 g), 2 tablespoons olive oil, 1 teaspoon za'atar, salt, pepper</li>
+<li>2 medium aubergines (about 500 g), 2 tablespoons olive oil, 1 teaspoon za'atar (or herbes de Provence), salt and pepper</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
 <li>Cut into <strong>1.5 cm rounds</strong> or <strong>2 cm cubes</strong>.</li>
-<li>Salt and drain for <strong>20 minutes</strong>.</li>
-<li>Wipe dry, toss with oil, za'atar, pepper.</li>
-<li>Cook at <strong>200 °C for 12-15 minutes</strong>, flipping halfway.</li>
+<li>Sprinkle with salt and leave on kitchen paper for <strong>20 minutes</strong>.</li>
+<li>Wipe dry, then toss with the oil, za'atar and pepper.</li>
+<li>Cook at <strong>200°C for 12–15 minutes</strong>, turning halfway through.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Eggplant absorbs oil like a sponge — salting is essential to limit absorption. Za'atar (thyme, sumac, sesame blend) is the perfect eggplant seasoning.</p>
+<h3>Chef's tips</h3>
+<p>Aubergine soaks up oil like a sponge, so salting it first is essential to limit how much it absorbs. Even so, it needs a little more oil than other vegetables. Za'atar (a blend of thyme, sumac and sesame) is the perfect seasoning for it, with a nod to Lebanese cooking.</p>
 
-<h2>10. Green Beans</h2>
+<h2>10. Green beans</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>300 g fresh green beans (trimmed), 1 tablespoon sesame oil, 1 tablespoon soy sauce, 1 garlic clove (minced), 1 teaspoon sesame seeds</li>
+<li>300 g fresh green beans (trimmed), 1 tablespoon sesame oil, 1 tablespoon soy sauce, 1 garlic clove (finely chopped), 1 teaspoon sesame seeds</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Trim and dry the beans.</li>
-<li>Toss with sesame oil, soy sauce, garlic.</li>
-<li>Cook at <strong>200 °C for 8-10 minutes</strong>, shaking halfway.</li>
-<li>Sprinkle with sesame seeds.</li>
+<li>Trim the beans and dry them well.</li>
+<li>Toss with the sesame oil, soy sauce and garlic.</li>
+<li>Cook at <strong>200°C for 8–10 minutes</strong>, shaking halfway through.</li>
+<li>Sprinkle with sesame seeds as soon as they come out.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Sesame oil and soy sauce create an Asian-inspired seasoning that elevates green beans. They should stay slightly crunchy. Perfect alongside <a href="/en/blog/recettes-poulet-croustillant-airfryer">chicken satay</a>.</p>
+<h3>Chef's tips</h3>
+<p>Sesame oil and soy sauce give green beans an Asian-inspired seasoning that really lifts them. They should still have a little bite, so don't overcook them. Perfect with <a href="/en/blog/recettes-poulet-croustillant-airfryer">chicken satay</a>.</p>
 
-<h2>Temperature and Time Chart</h2>
+<h2>Times and temperatures at a glance</h2>
 <table>
 <thead>
 <tr><th>Vegetable</th><th>Cut</th><th>Temperature</th><th>Time</th><th>Oil</th></tr>
 </thead>
 <tbody>
-<tr><td>Broccoli</td><td>3-4 cm florets</td><td>190 °C</td><td>8-10 min</td><td>1 tbsp</td></tr>
-<tr><td>Cauliflower</td><td>3 cm florets</td><td>200 °C</td><td>12-15 min</td><td>1 tbsp</td></tr>
-<tr><td>Zucchini</td><td>1 cm rounds</td><td>190 °C</td><td>10-12 min</td><td>1 tbsp</td></tr>
-<tr><td>Bell peppers</td><td>2 cm strips</td><td>190 °C</td><td>10-12 min</td><td>1 tbsp</td></tr>
-<tr><td>Brussels sprouts</td><td>Halved</td><td>190 °C</td><td>12-15 min</td><td>1 tbsp</td></tr>
-<tr><td>Carrots</td><td>1 cm sticks</td><td>180 °C</td><td>15-18 min</td><td>1 tbsp</td></tr>
-<tr><td>Asparagus</td><td>Whole (trimmed)</td><td>200 °C</td><td>6-8 min</td><td>1 tbsp</td></tr>
-<tr><td>Mushrooms</td><td>Quartered/whole</td><td>200 °C</td><td>8-10 min</td><td>1 tbsp</td></tr>
-<tr><td>Eggplant</td><td>1.5 cm rounds</td><td>200 °C</td><td>12-15 min</td><td>2 tbsp</td></tr>
-<tr><td>Green beans</td><td>Whole (trimmed)</td><td>200 °C</td><td>8-10 min</td><td>1 tbsp</td></tr>
+<tr><td>Broccoli</td><td>3–4 cm florets</td><td>190°C</td><td>8–10 min</td><td>1 tbsp</td></tr>
+<tr><td>Cauliflower</td><td>3 cm florets</td><td>200°C</td><td>12–15 min</td><td>1 tbsp</td></tr>
+<tr><td>Courgettes</td><td>1 cm rounds</td><td>190°C</td><td>10–12 min</td><td>1 tbsp</td></tr>
+<tr><td>Peppers</td><td>2 cm strips</td><td>190°C</td><td>10–12 min</td><td>1 tbsp</td></tr>
+<tr><td>Brussels sprouts</td><td>Halved</td><td>190°C</td><td>12–15 min</td><td>1 tbsp</td></tr>
+<tr><td>Carrots</td><td>1 cm sticks</td><td>180°C</td><td>15–18 min</td><td>1 tbsp</td></tr>
+<tr><td>Asparagus</td><td>Whole (woody ends removed)</td><td>200°C</td><td>6–8 min</td><td>1 tbsp</td></tr>
+<tr><td>Mushrooms</td><td>Quartered or whole</td><td>200°C</td><td>8–10 min</td><td>1 tbsp</td></tr>
+<tr><td>Aubergines</td><td>1.5 cm rounds</td><td>200°C</td><td>12–15 min</td><td>2 tbsp</td></tr>
+<tr><td>Green beans</td><td>Whole (trimmed)</td><td>200°C</td><td>8–10 min</td><td>1 tbsp</td></tr>
 </tbody>
 </table>
 
-<h2>General Tips</h2>
+<h2>General tips for air fryer vegetables</h2>
 <ul>
-<li><strong>Season before cooking</strong> — spices adhere better to oil during cooking.</li>
-<li><strong>Dense vegetables take longer</strong> — carrots and Brussels sprouts need more time than zucchini or asparagus.</li>
-<li><strong>Combine vegetables of similar density</strong> — match cooking times when mixing.</li>
-<li><strong>Frozen vegetables work too</strong> — add 2-3 minutes, no thawing needed.</li>
+<li><strong>Season before cooking</strong>: spices and herbs cling better to the oil and release more flavour as they cook.</li>
+<li><strong>Dense vegetables take longer</strong>: carrots, Brussels sprouts and cauliflower need more time than courgettes or asparagus.</li>
+<li><strong>Mix vegetables of similar density</strong>: if you're cooking several together, pair those with similar cooking times.</li>
+<li><strong>Frozen vegetables work too</strong>: just add 2–3 minutes to the cooking time, with no need to defrost them first.</li>
 </ul>
-<p>These grilled vegetables are the perfect base for a <a href="/en/blog/meal-prep-airfryer-semaine">weekly meal prep</a>. Pair with <a href="/en/blog/recettes-frites-parfaites-airfryer">fries recipes</a> and <a href="/en/blog/recettes-poulet-croustillant-airfryer">chicken recipes</a> for complete meals.</p>
+<p>These roasted vegetables are the perfect base for <a href="/en/blog/meal-prep-airfryer-semaine">a week of meal prep</a>. Cook several kinds on a Sunday and you can put meals together in minutes each day. Serve them with our <a href="/en/blog/recettes-frites-parfaites-airfryer">air fryer chips</a> and <a href="/en/blog/recettes-poulet-croustillant-airfryer">chicken recipes</a> for complete, balanced meals.</p>
 
-<h2>Nutritional values of your grilled vegetables (per 200 g cooked)</h2>
+<h2>Nutritional values per 200 g of cooked vegetables</h2>
 <table>
 <thead><tr><th>Vegetable</th><th>Calories</th><th>Fibre</th><th>Vitamin C</th><th>Potassium</th><th>Main health benefit</th></tr></thead>
 <tbody>
-<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% RDA)</td><td>460 mg</td><td>Antioxidants, vitamin K</td></tr>
-<tr><td>Cauliflower</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% RDA)</td><td>400 mg</td><td>Anti-inflammatory, digestion</td></tr>
-<tr><td>Zucchini</td><td>38 kcal</td><td>2.5 g</td><td>34 mg</td><td>512 mg</td><td>Hydration, very low calories</td></tr>
-<tr><td>Bell pepper</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% RDA)</td><td>420 mg</td><td>Maximum vitamin C, eye health</td></tr>
+<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% NRV)</td><td>460 mg</td><td>Antioxidants, vitamin K</td></tr>
+<tr><td>Cauliflower</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% NRV)</td><td>400 mg</td><td>Anti-inflammatory, digestion</td></tr>
+<tr><td>Courgette</td><td>38 kcal</td><td>2.5 g</td><td>34 mg</td><td>512 mg</td><td>Hydration, very low in calories</td></tr>
+<tr><td>Pepper</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% NRV)</td><td>420 mg</td><td>Highest in vitamin C, eye health</td></tr>
 <tr><td>Asparagus</td><td>44 kcal</td><td>3.5 g</td><td>14 mg</td><td>468 mg</td><td>Folate, diuretic properties</td></tr>
 </tbody>
 </table>
 
-<h2>5 express vegetable mixes for the whole week</h2>
+<h2>5 quick vegetable mixes for the week</h2>
 <ul>
-<li><strong>Mediterranean mix:</strong> zucchini + bell peppers + eggplant + cherry tomatoes. 180°C, 15 min. Perfect with chicken.</li>
-<li><strong>Cruciferous mix:</strong> broccoli + cauliflower + Brussels sprouts. 190°C, 16 min. Ideal for meal prep.</li>
-<li><strong>Spring mix:</strong> asparagus + mushrooms + green beans. 200°C, 8 min. Delicate and quick.</li>
-<li><strong>Autumn mix:</strong> carrots + squash + red onions. 180°C, 20 min. Sweet-savoury flavours.</li>
-<li><strong>Asian mix:</strong> pak choi + edamame + shiitake mushrooms + sesame. 190°C, 10 min. Drizzle with soy sauce to finish.</li>
+<li><strong>Mediterranean mix:</strong> courgettes + peppers + aubergine + cherry tomatoes. 180°C, 15 min. Perfect with chicken.</li>
+<li><strong>Brassica mix:</strong> broccoli + cauliflower + Brussels sprouts. 190°C, 16 min. Ideal for meal prep.</li>
+<li><strong>Spring mix:</strong> asparagus + mushrooms + green beans. 200°C, 8 min. Light and quick.</li>
+<li><strong>Autumn mix:</strong> carrots + squash + red onions. 180°C, 20 min. Sweet and savoury.</li>
+<li><strong>Asian mix:</strong> pak choi + edamame + shiitake mushrooms + sesame seeds. 190°C, 10 min. Finish with a dash of soy sauce.</li>
 </ul>`,
 
     de: `<h2>Einleitung</h2>
-<p>Die Heißluftfritteuse ist ein hervorragendes Werkzeug zum Gemüsegaren. Die Heißluftzirkulation bei hoher Temperatur erzeugt eine <strong>Karamellisierung der Oberfläche</strong>, die natürliche Aromen intensiviert und Nährstoffe weit besser bewahrt als Kochen in Wasser. In nur 10-20 Minuten erhalten Sie geröstetes Gemüse, das genauso köstlich schmeckt wie aus dem Backofen.</p>
+<p>Für Gemüse ist der Airfryer ein ausgezeichnetes Gerät. Die heiße, schnell zirkulierende Luft sorgt für eine <strong>Karamellisierung an der Oberfläche</strong>, die den Eigengeschmack verstärkt, und erhält die Nährstoffe weit besser als Kochen in Wasser. In nur 10 bis 20 Minuten bekommen Sie geröstetes Gemüse, das so gut schmeckt wie aus dem Backofen – praktisch ohne Vorheizzeit und mit weniger Stromverbrauch.</p>
+<p>In diesem Ratgeber zeigen wir für <strong>10 beliebte Gemüsesorten</strong>, wie sie perfekt gelingen: mit Temperaturen, Richtwerten für die Garzeit und passenden Gewürzen. Ob Sie sich <a href="/de/blog/cuisiner-healthy-airfryer">gesünder ernähren</a> oder Ihre Mahlzeiten beim <a href="/de/blog/meal-prep-airfryer-semaine">Meal Prep</a> für die Woche vorbereiten wollen: Diese Rezepte werden zu Ihren Klassikern.</p>
 
-<h2>Goldene Regeln für Gemüse im Airfryer</h2>
+<h2>Goldene Regeln für Gemüse aus dem Airfryer</h2>
 <ul>
-<li><strong>Gleichmäßig schneiden</strong> — gleiche Größen für gleichmäßiges Garen.</li>
-<li><strong>Gemüse trocknen</strong> — Feuchtigkeit verhindert das Bräunen.</li>
-<li><strong>Wenig Öl</strong> — 1-2 TL pro Portion genügen.</li>
-<li><strong>Korb nicht überladen</strong> — eine Schicht für Luftzirkulation.</li>
-<li><strong>Zwischendurch schütteln</strong> — für gleichmäßige Bräunung.</li>
+<li><strong>Gleich große Stücke schneiden</strong> – dann gart alles gleichmäßig.</li>
+<li><strong>Gemüse trocknen</strong> – Feuchtigkeit verhindert das Bräunen. Nach dem Waschen gut trockenschleudern oder abtupfen.</li>
+<li><strong>Wenig Öl verwenden</strong> – 1 bis 2 TL pro Portion reichen für knusprige Ränder.</li>
+<li><strong>Korb nicht überfüllen</strong> – eine einzige Schicht, damit die Luft zirkulieren kann.</li>
+<li><strong>Nach der Hälfte der Zeit schütteln</strong> – so bräunt das Gemüse von allen Seiten.</li>
 </ul>
 
 <h2>1. Brokkoli</h2>
 <h3>Zutaten</h3>
-<ul><li>300 g Brokkoli (3-4 cm Röschen), 1 EL Olivenöl, 2 Knoblauchzehen, Salz, Pfeffer, Zitronenschale</li></ul>
+<ul>
+<li>300 g Brokkoli in kleinen Röschen (3–4 cm)</li>
+<li>1 EL Olivenöl, 2 fein gehackte Knoblauchzehen, Salz, Pfeffer, abgeriebene Schale einer halben Zitrone (optional)</li>
+</ul>
 <h3>Zubereitung</h3>
 <ol>
-<li>Waschen, trocknen, mit Öl und Gewürzen mischen.</li>
-<li>Bei <strong>190 °C 8-10 Minuten</strong> garen, zwischendurch schütteln.</li>
+<li>Den Brokkoli waschen und trocknen. Mit Öl, Knoblauch, Salz und Pfeffer mischen.</li>
+<li>Bei <strong>190 °C 8–10 Minuten</strong> garen, nach der Hälfte der Zeit schütteln.</li>
+<li>Die Röschen sollten leicht gebräunt und knusprig sein, die Stiele noch Biss haben.</li>
 </ol>
-<h3>Tipps</h3>
-<p>Die Röschen werden knusprig wie Chips, die Stiele bleiben zart. Zitronenschale nach dem Garen hinzufügen.</p>
+<h3>Tipps vom Profi</h3>
+<p>Brokkoli aus dem Airfryer ist eine Offenbarung: Die Röschen werden knusprig wie Chips, die Stiele bleiben zart. Geben Sie die Zitronenschale erst nach dem Garen dazu, das sorgt für Frische. Ein Spritzer Zitronensaft und etwas Parmesan runden das Gericht ab.</p>
 
 <h2>2. Blumenkohl</h2>
 <h3>Zutaten</h3>
-<ul><li>400 g Blumenkohlröschen (3 cm), 1 EL Olivenöl, 1 TL Kurkuma, ½ TL Kreuzkümmel, Salz, Pfeffer</li></ul>
+<ul>
+<li>400 g Blumenkohlröschen (3 cm), 1 EL Olivenöl, 1 TL Kurkuma, ½ TL gemahlener Kreuzkümmel, Salz, Pfeffer</li>
+</ul>
 <h3>Zubereitung</h3>
-<ol><li>Mit Öl und Gewürzen mischen. Bei <strong>200 °C 12-15 Minuten</strong>, zwischendurch schütteln.</li></ol>
-<h3>Tipps</h3>
-<p>Gerösteter Blumenkohl entwickelt unglaubliche natürliche Süße.</p>
+<ol>
+<li>Die Röschen mit Öl und Gewürzen mischen.</li>
+<li>Bei <strong>200 °C 12–15 Minuten</strong> garen, nach der Hälfte der Zeit schütteln.</li>
+<li>Die Ränder sollten kräftig gebräunt und karamellisiert sein.</li>
+</ol>
+<h3>Tipps vom Profi</h3>
+<p>Gerösteter Blumenkohl entwickelt eine erstaunliche natürliche Süße, Kurkuma bringt Farbe ins Spiel. Für eine „Buffalo“-Variante bestreichen Sie ihn nach dem Garen mit scharfer Sauce und geschmolzener Butter.</p>
 
 <h2>3. Zucchini</h2>
 <h3>Zutaten</h3>
-<ul><li>2 Zucchini (400 g), 1 EL Olivenöl, 1 TL Kräuter der Provence, Salz, Pfeffer</li></ul>
+<ul>
+<li>2 mittelgroße Zucchini (ca. 400 g), 1 EL Olivenöl, 1 TL Kräuter der Provence, Salz, Pfeffer</li>
+</ul>
 <h3>Zubereitung</h3>
 <ol>
-<li>In <strong>1 cm Scheiben</strong> schneiden. Salzen und <strong>10 Minuten</strong> entwässern.</li>
-<li>Bei <strong>190 °C 10-12 Minuten</strong> garen.</li>
+<li>In <strong>1 cm dicke Scheiben</strong> oder Halbmonde schneiden.</li>
+<li>Leicht salzen und <strong>10 Minuten</strong> auf Küchenpapier Wasser ziehen lassen.</li>
+<li>Trocken tupfen, mit Öl und Kräutern mischen.</li>
+<li>Bei <strong>190 °C 10–12 Minuten</strong> garen, nach der Hälfte der Zeit schütteln.</li>
 </ol>
-<h3>Tipps</h3>
-<p>Das Entwässern ist entscheidend — Zucchini enthält viel Wasser.</p>
+<h3>Tipps vom Profi</h3>
+<p>Bei Zucchini ist das Wasserziehen Pflicht: Sie enthalten viel Wasser, das sonst das Karamellisieren verhindert. Dickere Scheiben (1,5 cm) bleiben in der Mitte saftiger.</p>
 
 <h2>4. Paprika</h2>
 <h3>Zutaten</h3>
-<ul><li>3 Paprika verschiedener Farben (500 g), 1 EL Olivenöl, 1 TL Paprikapulver, Salz, Pfeffer</li></ul>
+<ul>
+<li>3 Paprikaschoten in verschiedenen Farben (ca. 500 g), 1 EL Olivenöl, 1 TL edelsüßes Paprikapulver, Salz, Pfeffer</li>
+</ul>
 <h3>Zubereitung</h3>
-<ol><li>Entkernen, in <strong>2 cm Streifen</strong> schneiden. Bei <strong>190 °C 10-12 Minuten</strong>.</li></ol>
-<h3>Tipps</h3>
-<p>Rote Paprika sind am süßesten und karamellisieren am besten.</p>
+<ol>
+<li>Entkernen und in <strong>2 cm breite Streifen</strong> schneiden.</li>
+<li>Mit Öl, Paprikapulver, Salz und Pfeffer mischen.</li>
+<li>Bei <strong>190 °C 10–12 Minuten</strong> garen, nach der Hälfte der Zeit schütteln.</li>
+</ol>
+<h3>Tipps vom Profi</h3>
+<p>Rote Paprika sind am süßesten und karamellisieren am besten. Mischen Sie alle drei Farben, das sieht auf dem Teller toll aus. Ideal für Fajitas, Salate oder als Beilage zu <a href="/de/blog/recettes-poulet-croustillant-airfryer">knusprigem Hähnchen</a>.</p>
 
 <h2>5. Rosenkohl</h2>
 <h3>Zutaten</h3>
-<ul><li>400 g Rosenkohl (halbiert), 1 EL Olivenöl, 2 EL Parmesan, 1 Knoblauchzehe, Salz, Pfeffer</li></ul>
+<ul>
+<li>400 g Rosenkohl, der Länge nach halbiert</li>
+<li>1 EL Olivenöl, 2 EL geriebener Parmesan, 1 gehackte Knoblauchzehe, Salz, Pfeffer</li>
+</ul>
 <h3>Zubereitung</h3>
-<ol><li>Halbieren, mit Öl und Gewürzen mischen. <strong>Schnittfläche nach oben</strong>. Bei <strong>190 °C 12-15 Minuten</strong>.</li></ol>
-<h3>Tipps</h3>
-<p>Das Halbieren maximiert die Kontaktfläche. Lose Blätter werden zu echten Chips.</p>
+<ol>
+<li>Putzen und halbieren. Mit Öl, Knoblauch, Salz und Pfeffer mischen.</li>
+<li>Mit der <strong>Schnittfläche nach oben</strong> in den Korb legen.</li>
+<li>Bei <strong>190 °C 12–15 Minuten</strong> garen.</li>
+<li>Sofort mit Parmesan bestreuen.</li>
+</ol>
+<h3>Tipps vom Profi</h3>
+<p>Halbiert bietet der Rosenkohl der heißen Luft mehr Fläche und bekommt diese unwiderstehlich karamellisierten Ränder. Lose Außenblätter werden zu richtigen Chips – entfernen Sie sie nicht. Für eine herzhafte Variante kommen ein Schuss Balsamico und gehackte Walnüsse dazu.</p>
 
 <h2>6. Karotten</h2>
 <h3>Zutaten</h3>
-<ul><li>4 große Karotten (400 g), 1 EL Olivenöl, 1 EL Honig, ½ TL Kreuzkümmel, Salz, Pfeffer</li></ul>
+<ul>
+<li>4 große Karotten (ca. 400 g), 1 EL Olivenöl, 1 EL Honig, ½ TL gemahlener Kreuzkümmel, Salz, Pfeffer</li>
+</ul>
 <h3>Zubereitung</h3>
-<ol><li>Schälen, in <strong>6 cm Stifte</strong> oder <strong>0,5 cm Scheiben</strong> schneiden. Bei <strong>180 °C 15-18 Minuten</strong>.</li></ol>
-<h3>Tipps</h3>
-<p>Honig karamellisiert die Karotten und verstärkt ihre natürliche Süße.</p>
+<ol>
+<li>Schälen und in <strong>6 cm lange, 1 cm dicke Stifte</strong> oder in <strong>0,5 cm dicke Scheiben</strong> schneiden.</li>
+<li>Mit Öl, Honig, Kreuzkümmel, Salz und Pfeffer mischen.</li>
+<li>Bei <strong>180 °C 15–18 Minuten</strong> garen, nach der Hälfte der Zeit schütteln.</li>
+</ol>
+<h3>Tipps vom Profi</h3>
+<p>Der Honig karamellisiert die Karotten und verstärkt ihre natürliche Süße. Kreuzkümmel und Karotten sind ein klassisches Paar der marokkanischen Küche. Selbst Kinder, die sonst kein Gemüse mögen, greifen bei diesen karamellisierten Karotten oft zu.</p>
 
 <h2>7. Spargel</h2>
 <h3>Zutaten</h3>
-<ul><li>300 g grüner Spargel, 1 EL Olivenöl, 1 Knoblauchzehe, Salz, Pfeffer, Parmesanspäne</li></ul>
+<ul>
+<li>1 Bund grüner Spargel (ca. 300 g), 1 EL Olivenöl, 1 fein gehackte Knoblauchzehe, Salz, Pfeffer, Parmesanspäne</li>
+</ul>
 <h3>Zubereitung</h3>
-<ol><li>Holzige Enden abbrechen. Bei <strong>200 °C 6-8 Minuten</strong>.</li></ol>
-<h3>Tipps</h3>
-<p>Wählen Sie mittlere Dicke — dünne Stangen verbrennen, dicke bleiben roh in der Mitte.</p>
+<ol>
+<li>Das holzige Ende jeder Stange abbrechen (sie bricht von selbst an der richtigen Stelle).</li>
+<li>Mit Öl, Knoblauch, Salz und Pfeffer mischen.</li>
+<li>Die Stangen <strong>quer zu den Schlitzen im Korb</strong> legen, damit keine durchfällt.</li>
+<li>Bei <strong>200 °C 6–8 Minuten</strong> garen.</li>
+<li>Mit Parmesanspänen servieren.</li>
+</ol>
+<h3>Tipps vom Profi</h3>
+<p>Spargel aus dem Airfryer ist in Rekordzeit fertig. Wählen Sie mitteldicke Stangen – dünne verbrennen, dicke bleiben in der Mitte roh. Mit einem Spritzer Zitrone und einem pochierten Ei wird daraus eine feine Vorspeise.</p>
 
 <h2>8. Pilze</h2>
 <h3>Zutaten</h3>
-<ul><li>300 g Champignons, 1 EL Olivenöl, 1 EL Sojasauce, 1 TL Thymian, Pfeffer</li></ul>
+<ul>
+<li>300 g Champignons (oder Shiitake), 1 EL Olivenöl, 1 EL Sojasauce, 1 TL frischer Thymian, Pfeffer</li>
+</ul>
 <h3>Zubereitung</h3>
-<ol><li><strong>Nicht waschen</strong> — mit feuchtem Tuch abwischen. Bei <strong>200 °C 8-10 Minuten</strong>.</li></ol>
-<h3>Tipps</h3>
-<p>Pilze saugen Wasser wie Schwämme. Sojasauce verleiht Umami.</p>
+<ol>
+<li>Die Pilze <strong>nicht waschen</strong>, sondern mit einem feuchten Tuch abreiben.</li>
+<li>Große Pilze vierteln, kleine ganz lassen.</li>
+<li>Mit Öl, Sojasauce, Thymian und Pfeffer mischen.</li>
+<li>Bei <strong>200 °C 8–10 Minuten</strong> garen, nach der Hälfte der Zeit schütteln.</li>
+</ol>
+<h3>Tipps vom Profi</h3>
+<p>Pilze saugen sich voll wie ein Schwamm – waschen Sie sie nie unter fließendem Wasser. Sojasauce bringt Umami und hilft beim Bräunen. Die Pilze passen perfekt zu Steak, in ein Risotto oder auf eine Scheibe geröstetes Brot.</p>
 
 <h2>9. Aubergine</h2>
 <h3>Zutaten</h3>
-<ul><li>2 Auberginen (500 g), 2 EL Olivenöl, 1 TL Za'atar, Salz, Pfeffer</li></ul>
+<ul>
+<li>2 mittelgroße Auberginen (ca. 500 g), 2 EL Olivenöl, 1 TL Za'atar (oder Kräuter der Provence), Salz, Pfeffer</li>
+</ul>
 <h3>Zubereitung</h3>
-<ol><li>In <strong>1,5 cm Scheiben</strong> schneiden. Salzen, <strong>20 Minuten</strong> entwässern. Bei <strong>200 °C 12-15 Minuten</strong>.</li></ol>
-<h3>Tipps</h3>
-<p>Aubergine absorbiert Öl wie ein Schwamm — das Salzen ist unverzichtbar.</p>
+<ol>
+<li>In <strong>1,5 cm dicke Scheiben</strong> oder <strong>2 cm große Würfel</strong> schneiden.</li>
+<li>Salzen und <strong>20 Minuten</strong> Wasser ziehen lassen.</li>
+<li>Trocken tupfen, mit Öl, Za'atar und Pfeffer mischen.</li>
+<li>Bei <strong>200 °C 12–15 Minuten</strong> garen, nach der Hälfte der Zeit wenden.</li>
+</ol>
+<h3>Tipps vom Profi</h3>
+<p>Aubergine saugt Öl auf wie ein Schwamm – das Salzen vorab begrenzt das. Trotzdem braucht sie etwas mehr Öl als anderes Gemüse. Za'atar (eine Mischung aus Thymian, Sumach und Sesam) ist das perfekte Gewürz dafür und erinnert an die libanesische Küche.</p>
 
 <h2>10. Grüne Bohnen</h2>
 <h3>Zutaten</h3>
-<ul><li>300 g grüne Bohnen, 1 EL Sesamöl, 1 EL Sojasauce, 1 Knoblauchzehe, 1 TL Sesamsamen</li></ul>
+<ul>
+<li>300 g frische grüne Bohnen (geputzt), 1 EL Sesamöl, 1 EL Sojasauce, 1 fein gehackte Knoblauchzehe, 1 TL Sesamsamen</li>
+</ul>
 <h3>Zubereitung</h3>
-<ol><li>Enden entfernen, trocknen. Bei <strong>200 °C 8-10 Minuten</strong>. Mit Sesam bestreuen.</li></ol>
-<h3>Tipps</h3>
-<p>Sesamöl und Sojasauce schaffen ein asiatisches Geschmackserlebnis. Perfekt zu <a href="/de/blog/recettes-poulet-croustillant-airfryer">Hähnchen-Satay</a>.</p>
+<ol>
+<li>Die Bohnen putzen und gut trocknen.</li>
+<li>Mit Sesamöl, Sojasauce und Knoblauch mischen.</li>
+<li>Bei <strong>200 °C 8–10 Minuten</strong> garen, nach der Hälfte der Zeit schütteln.</li>
+<li>Mit Sesam bestreuen.</li>
+</ol>
+<h3>Tipps vom Profi</h3>
+<p>Sesamöl und Sojasauce geben den grünen Bohnen eine asiatische Note. Sie sollten noch leicht knackig sein – garen Sie sie nicht zu lange. Perfekt als Beilage zu <a href="/de/blog/recettes-poulet-croustillant-airfryer">Hähnchen-Satay</a>.</p>
 
-<h2>Übersichtstabelle</h2>
+<h2>Zeiten und Temperaturen im Überblick</h2>
 <table>
 <thead>
 <tr><th>Gemüse</th><th>Schnitt</th><th>Temperatur</th><th>Zeit</th><th>Öl</th></tr>
 </thead>
 <tbody>
-<tr><td>Brokkoli</td><td>3-4 cm Röschen</td><td>190 °C</td><td>8-10 Min.</td><td>1 EL</td></tr>
-<tr><td>Blumenkohl</td><td>3 cm Röschen</td><td>200 °C</td><td>12-15 Min.</td><td>1 EL</td></tr>
-<tr><td>Zucchini</td><td>1 cm Scheiben</td><td>190 °C</td><td>10-12 Min.</td><td>1 EL</td></tr>
-<tr><td>Paprika</td><td>2 cm Streifen</td><td>190 °C</td><td>10-12 Min.</td><td>1 EL</td></tr>
-<tr><td>Rosenkohl</td><td>Halbiert</td><td>190 °C</td><td>12-15 Min.</td><td>1 EL</td></tr>
-<tr><td>Karotten</td><td>1 cm Stifte</td><td>180 °C</td><td>15-18 Min.</td><td>1 EL</td></tr>
-<tr><td>Spargel</td><td>Ganz</td><td>200 °C</td><td>6-8 Min.</td><td>1 EL</td></tr>
-<tr><td>Pilze</td><td>Geviertelt</td><td>200 °C</td><td>8-10 Min.</td><td>1 EL</td></tr>
-<tr><td>Aubergine</td><td>1,5 cm Scheiben</td><td>200 °C</td><td>12-15 Min.</td><td>2 EL</td></tr>
-<tr><td>Grüne Bohnen</td><td>Ganz</td><td>200 °C</td><td>8-10 Min.</td><td>1 EL</td></tr>
+<tr><td>Brokkoli</td><td>Röschen, 3–4 cm</td><td>190 °C</td><td>8–10 Min.</td><td>1 EL</td></tr>
+<tr><td>Blumenkohl</td><td>Röschen, 3 cm</td><td>200 °C</td><td>12–15 Min.</td><td>1 EL</td></tr>
+<tr><td>Zucchini</td><td>Scheiben, 1 cm</td><td>190 °C</td><td>10–12 Min.</td><td>1 EL</td></tr>
+<tr><td>Paprika</td><td>Streifen, 2 cm</td><td>190 °C</td><td>10–12 Min.</td><td>1 EL</td></tr>
+<tr><td>Rosenkohl</td><td>Halbiert</td><td>190 °C</td><td>12–15 Min.</td><td>1 EL</td></tr>
+<tr><td>Karotten</td><td>Stifte, 1 cm</td><td>180 °C</td><td>15–18 Min.</td><td>1 EL</td></tr>
+<tr><td>Spargel</td><td>Ganz (Enden entfernt)</td><td>200 °C</td><td>6–8 Min.</td><td>1 EL</td></tr>
+<tr><td>Pilze</td><td>Geviertelt oder ganz</td><td>200 °C</td><td>8–10 Min.</td><td>1 EL</td></tr>
+<tr><td>Aubergine</td><td>Scheiben, 1,5 cm</td><td>200 °C</td><td>12–15 Min.</td><td>2 EL</td></tr>
+<tr><td>Grüne Bohnen</td><td>Ganz (geputzt)</td><td>200 °C</td><td>8–10 Min.</td><td>1 EL</td></tr>
 </tbody>
 </table>
 
 <h2>Allgemeine Tipps</h2>
 <ul>
-<li><strong>Vor dem Garen würzen</strong> — Gewürze haften besser am Öl.</li>
-<li><strong>Dichtes Gemüse braucht länger</strong> — Karotten und Rosenkohl brauchen mehr Zeit als Zucchini.</li>
-<li><strong>Tiefkühlgemüse geht auch</strong> — einfach 2-3 Minuten mehr, ohne Auftauen.</li>
+<li><strong>Vor dem Garen würzen</strong> – Gewürze und Kräuter haften beim Garen besser am Öl und entfalten ihr Aroma.</li>
+<li><strong>Festes Gemüse braucht länger</strong> – Karotten, Rosenkohl und Blumenkohl brauchen mehr Zeit als Zucchini oder Spargel.</li>
+<li><strong>Gemüse mit ähnlicher Garzeit kombinieren</strong> – wenn Sie mehrere Sorten zusammen garen.</li>
+<li><strong>Tiefkühlgemüse geht auch</strong> – einfach 2 bis 3 Minuten länger garen, ohne vorher aufzutauen.</li>
 </ul>
-<p>Diese Gemüse sind die perfekte Basis für ein <a href="/de/blog/meal-prep-airfryer-semaine">Wochenplan-Meal-Prep</a>. Kombinieren Sie mit <a href="/de/blog/recettes-frites-parfaites-airfryer">Pommes</a> und <a href="/de/blog/recettes-poulet-croustillant-airfryer">Hähnchen</a> für komplette Mahlzeiten.</p>
+<p>Dieses Gemüse ist die ideale Basis für das <a href="/de/blog/meal-prep-airfryer-semaine">Meal Prep für die ganze Woche</a>: Bereiten Sie am Sonntag mehrere Sorten zu und stellen Sie Ihre Mahlzeiten dann jeden Tag in wenigen Minuten zusammen. Mit unseren <a href="/de/blog/recettes-frites-parfaites-airfryer">Pommes-Rezepten</a> und <a href="/de/blog/recettes-poulet-croustillant-airfryer">Hähnchen-Rezepten</a> wird daraus ein komplettes, ausgewogenes Essen.</p>
 
-<h2>Nährwerte Ihres gegrillten Gemüses (pro 200 g gegart)</h2>
+<h2>Nährwerte Ihres gerösteten Gemüses (pro 200 g gegart)</h2>
 <table>
-<thead><tr><th>Gemüse</th><th>Kalorien</th><th>Ballaststoffe</th><th>Vitamin C</th><th>Kalium</th><th>Hauptgesundheitsvorteil</th></tr></thead>
+<thead><tr><th>Gemüse</th><th>Kalorien</th><th>Ballaststoffe</th><th>Vitamin C</th><th>Kalium</th><th>Wichtigster Pluspunkt</th></tr></thead>
 <tbody>
-<tr><td>Brokkoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% RI)</td><td>460 mg</td><td>Antioxidantien, Vitamin K</td></tr>
-<tr><td>Blumenkohl</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% RI)</td><td>400 mg</td><td>Entzündungshemmend, Verdauung</td></tr>
-<tr><td>Zucchini</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hydratation, sehr kalorienarm</td></tr>
-<tr><td>Paprika</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% RI)</td><td>420 mg</td><td>Maximales Vitamin C, Augengesundheit</td></tr>
+<tr><td>Brokkoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185 % des Tagesbedarfs)</td><td>460 mg</td><td>Antioxidantien, Vitamin K</td></tr>
+<tr><td>Blumenkohl</td><td>52 kcal</td><td>4 g</td><td>96 mg (120 % des Tagesbedarfs)</td><td>400 mg</td><td>Entzündungshemmend, gut für die Verdauung</td></tr>
+<tr><td>Zucchini</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Viel Wasser, sehr kalorienarm</td></tr>
+<tr><td>Paprika</td><td>50 kcal</td><td>3 g</td><td>204 mg (255 % des Tagesbedarfs)</td><td>420 mg</td><td>Sehr viel Vitamin C, gut für die Augen</td></tr>
 <tr><td>Spargel</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Folsäure, entwässernd</td></tr>
 </tbody>
 </table>
 
 <h2>5 schnelle Gemüsemischungen für die ganze Woche</h2>
 <ul>
-<li><strong>Mediterrane Mischung:</strong> Zucchini + Paprika + Aubergine + Kirschtomaten. 180°C, 15 Min. Perfekt mit Hähnchen.</li>
-<li><strong>Kreuzblütler-Mischung:</strong> Brokkoli + Blumenkohl + Rosenkohl. 190°C, 16 Min. Ideal für Meal Prep.</li>
-<li><strong>Frühlings-Mischung:</strong> Spargel + Pilze + grüne Bohnen. 200°C, 8 Min. Zart und schnell.</li>
-<li><strong>Herbst-Mischung:</strong> Karotten + Kürbis + rote Zwiebeln. 180°C, 20 Min. Süß-herzhafte Aromen.</li>
-<li><strong>Asia-Mischung:</strong> Pak Choi + Edamame + Shiitake + Sesam. 190°C, 10 Min. Mit Sojasoße abschließen.</li>
+<li><strong>Mediterrane Mischung:</strong> Zucchini + Paprika + Aubergine + Kirschtomaten. 180 °C, 15 Min. Passt perfekt zu Hähnchen.</li>
+<li><strong>Kohl-Mischung:</strong> Brokkoli + Blumenkohl + Rosenkohl. 190 °C, 16 Min. Ideal fürs Meal Prep.</li>
+<li><strong>Frühlingsmischung:</strong> Spargel + Pilze + grüne Bohnen. 200 °C, 8 Min. Fein und schnell.</li>
+<li><strong>Herbstmischung:</strong> Karotten + Kürbis + rote Zwiebeln. 180 °C, 20 Min. Süß-herzhaft.</li>
+<li><strong>Asia-Mischung:</strong> Pak Choi + Edamame + Shiitake + Sesam. 190 °C, 10 Min. Zum Schluss mit Sojasauce beträufeln.</li>
 </ul>`,
 
     es: `<h2>Introducción</h2>
-<p>La freidora de aire es una herramienta extraordinaria para cocinar verduras. La circulación de aire caliente a alta temperatura crea una <strong>caramelización en superficie</strong> que intensifica los sabores naturales, preservando los nutrientes mucho mejor que la cocción en agua. En solo 10-20 minutos obtendrás verduras asadas tan deliciosas como las del horno.</p>
+<p>La freidora de aire es una herramienta estupenda para cocinar verduras. El aire muy caliente que circula provoca una <strong>caramelización en la superficie</strong> que intensifica su sabor natural y conserva los nutrientes mucho mejor que la cocción en agua. En solo 10-20 minutos tienes unas verduras asadas tan sabrosas como las del horno, casi sin tiempo de precalentamiento y gastando menos energía.</p>
+<p>En esta guía completa te explicamos cómo dejar en su punto <strong>10 verduras de lo más habituales</strong>, con temperaturas, tiempos de cocción orientativos y los condimentos que mejor les van. Tanto si quieres comer más <a href="/es/blog/cuisiner-healthy-airfryer">sano</a> como si preparas con antelación las comidas de la semana con el <a href="/es/blog/meal-prep-airfryer-semaine">batch cooking</a>, estas recetas se convertirán en imprescindibles.</p>
 
-<h2>Reglas de oro</h2>
+<h2>Reglas de oro para las verduras en la freidora de aire</h2>
 <ul>
-<li><strong>Corta en trozos uniformes</strong> — tamaños iguales para cocción uniforme.</li>
-<li><strong>Seca las verduras</strong> — la humedad impide el dorado.</li>
-<li><strong>Usa poco aceite</strong> — 1-2 cucharaditas por ración bastan.</li>
-<li><strong>No sobrecargues la cesta</strong> — una sola capa.</li>
-<li><strong>Agita a mitad de cocción.</strong></li>
+<li><strong>Corta trozos regulares</strong>: si son del mismo tamaño, se hacen por igual.</li>
+<li><strong>Seca las verduras</strong>: la humedad impide que se doren. Escúrrelas bien después de lavarlas.</li>
+<li><strong>Usa poco aceite</strong>: con 1-2 cucharaditas por ración basta para que queden crujientes.</li>
+<li><strong>No llenes demasiado la cesta</strong>: en una sola capa, para que circule el aire.</li>
+<li><strong>Agita a mitad de cocción</strong>: así se doran por todos los lados.</li>
 </ul>
 
 <h2>1. Brócoli</h2>
 <h3>Ingredientes</h3>
-<ul><li>300 g de brócoli (ramilletes de 3-4 cm), 1 cucharada de aceite de oliva, 2 dientes de ajo, sal, pimienta, ralladura de limón</li></ul>
+<ul>
+<li>300 g de brócoli en ramilletes pequeños (3-4 cm)</li>
+<li>1 cucharada de aceite de oliva, 2 dientes de ajo picados, sal, pimienta y la ralladura de medio limón (opcional)</li>
+</ul>
 <h3>Preparación</h3>
-<ol><li>Mezcla con aceite, ajo, sal y pimienta. Cocina a <strong>190 °C durante 8-10 minutos</strong>.</li></ol>
-<h3>Trucos</h3>
-<p>Las puntas se vuelven crujientes como chips mientras los tallos quedan tiernos.</p>
+<ol>
+<li>Lava y seca el brócoli. Mézclalo con el aceite, el ajo, la sal y la pimienta.</li>
+<li>Precalienta la freidora a 190 °C durante 3 minutos y cocina a <strong>190 °C durante 8-10 minutos</strong>, agitando la cesta a mitad de cocción.</li>
+<li>Las puntas tienen que quedar algo doradas y crujientes, y los tallos, todavía al dente.</li>
+</ol>
+<h3>Trucos del chef</h3>
+<p>El brócoli en freidora de aire es todo un descubrimiento: las puntas quedan crujientes como chips y el tallo se mantiene tierno. Añade la ralladura de limón al sacarlo para darle un toque fresco. Un chorrito de zumo de limón y una pizca de parmesano lo rematan a la perfección.</p>
 
 <h2>2. Coliflor</h2>
 <h3>Ingredientes</h3>
-<ul><li>400 g de coliflor (ramilletes de 3 cm), aceite, cúrcuma, comino, sal, pimienta</li></ul>
+<ul>
+<li>400 g de coliflor en ramilletes (3 cm), 1 cucharada de aceite de oliva, 1 cucharadita de cúrcuma, ½ cucharadita de comino molido, sal y pimienta</li>
+</ul>
 <h3>Preparación</h3>
-<ol><li>Cocina a <strong>200 °C durante 12-15 minutos</strong>, agitando a mitad.</li></ol>
-<h3>Trucos</h3>
-<p>La coliflor asada desarrolla una dulzura natural increíble.</p>
+<ol>
+<li>Mezcla los ramilletes con el aceite, la cúrcuma, el comino, la sal y la pimienta.</li>
+<li>Cocina a <strong>200 °C durante 12-15 minutos</strong>, agitando a mitad de cocción.</li>
+<li>Los bordes tienen que quedar bien dorados y caramelizados.</li>
+</ol>
+<h3>Trucos del chef</h3>
+<p>La coliflor asada saca un dulzor natural sorprendente, y la cúrcuma le da color. Para una versión «buffalo», píntala con salsa picante y mantequilla derretida después de cocinarla.</p>
 
 <h2>3. Calabacín</h2>
 <h3>Ingredientes</h3>
-<ul><li>2 calabacines (400 g), aceite, hierbas provenzales, sal, pimienta</li></ul>
+<ul>
+<li>2 calabacines medianos (unos 400 g), 1 cucharada de aceite de oliva, 1 cucharadita de hierbas provenzales, sal y pimienta</li>
+</ul>
 <h3>Preparación</h3>
-<ol><li>Rodajas de <strong>1 cm</strong>. Sala y escurre <strong>10 minutos</strong>. Cocina a <strong>190 °C 10-12 minutos</strong>.</li></ol>
-<h3>Trucos</h3>
-<p>El escurrido es esencial — el calabacín contiene mucha agua.</p>
+<ol>
+<li>Córtalos en rodajas de <strong>1 cm</strong> o en medias lunas.</li>
+<li>Sálalos ligeramente y déjalos sobre papel de cocina <strong>10 minutos</strong> para que suelten el agua.</li>
+<li>Sécalos y mézclalos con el aceite y las hierbas.</li>
+<li>Cocina a <strong>190 °C durante 10-12 minutos</strong>, agitando a mitad de cocción.</li>
+</ol>
+<h3>Trucos del chef</h3>
+<p>Este paso es imprescindible: el calabacín tiene mucha agua y, si no la suelta antes, no se carameliza. Si cortas rodajas más gruesas (1,5 cm), quedarán más jugosas por dentro.</p>
 
 <h2>4. Pimientos</h2>
 <h3>Ingredientes</h3>
-<ul><li>3 pimientos de colores (500 g), aceite, pimentón dulce, sal, pimienta</li></ul>
+<ul>
+<li>3 pimientos de distintos colores (unos 500 g), 1 cucharada de aceite de oliva, 1 cucharadita de pimentón dulce, sal y pimienta</li>
+</ul>
 <h3>Preparación</h3>
-<ol><li>Tiras de <strong>2 cm</strong>. Cocina a <strong>190 °C 10-12 minutos</strong>.</li></ol>
-<h3>Trucos</h3>
-<p>Los pimientos rojos son los más dulces. Perfectos en fajitas o con <a href="/es/blog/recettes-poulet-croustillant-airfryer">pollo crujiente</a>.</p>
+<ol>
+<li>Quítales las semillas y córtalos en tiras de <strong>2 cm de ancho</strong>.</li>
+<li>Mézclalos con el aceite, el pimentón, la sal y la pimienta.</li>
+<li>Cocina a <strong>190 °C durante 10-12 minutos</strong>, agitando a mitad de cocción. Los bordes tienen que quedar algo tostados y las tiras, blandas.</li>
+</ol>
+<h3>Trucos del chef</h3>
+<p>Los pimientos rojos son los más dulces y los que mejor se caramelizan. Mezcla los tres colores y tendrás un plato muy vistoso. Úsalos en fajitas, en ensaladas o para acompañar un <a href="/es/blog/recettes-poulet-croustillant-airfryer">pollo crujiente</a>.</p>
 
 <h2>5. Coles de Bruselas</h2>
 <h3>Ingredientes</h3>
-<ul><li>400 g de coles de Bruselas (cortadas por la mitad), aceite, parmesano, ajo, sal, pimienta</li></ul>
+<ul>
+<li>400 g de coles de Bruselas, cortadas por la mitad a lo largo</li>
+<li>1 cucharada de aceite de oliva, 2 cucharadas de parmesano rallado, 1 diente de ajo picado, sal y pimienta</li>
+</ul>
 <h3>Preparación</h3>
-<ol><li>Corte hacia arriba. Cocina a <strong>190 °C 12-15 minutos</strong>.</li></ol>
-<h3>Trucos</h3>
-<p>Las hojas sueltas se convierten en auténticas chips.</p>
+<ol>
+<li>Limpia las coles y córtalas por la mitad. Mézclalas con el aceite, el ajo, la sal y la pimienta.</li>
+<li>Colócalas en la cesta <strong>con el corte hacia arriba</strong>.</li>
+<li>Cocina a <strong>190 °C durante 12-15 minutos</strong>.</li>
+<li>Espolvorea el parmesano nada más sacarlas.</li>
+</ol>
+<h3>Trucos del chef</h3>
+<p>Al cortarlas por la mitad, hay más superficie en contacto con el aire caliente y los bordes se caramelizan de maravilla. Las hojas de fuera que se sueltan se convierten en auténticos chips: no las quites. Para una versión más golosa, añade un chorrito de vinagre balsámico y unas nueces troceadas.</p>
 
 <h2>6. Zanahorias</h2>
 <h3>Ingredientes</h3>
-<ul><li>4 zanahorias grandes (400 g), aceite, miel, comino, sal, pimienta</li></ul>
+<ul>
+<li>4 zanahorias grandes (unos 400 g), 1 cucharada de aceite de oliva, 1 cucharada de miel, ½ cucharadita de comino molido, sal y pimienta</li>
+</ul>
 <h3>Preparación</h3>
-<ol><li>Bastones de <strong>6 cm x 1 cm</strong>. Cocina a <strong>180 °C 15-18 minutos</strong>.</li></ol>
-<h3>Trucos</h3>
-<p>La miel carameliza las zanahorias y realza su dulzura natural.</p>
+<ol>
+<li>Pélalas y córtalas en bastones de <strong>6 cm de largo y 1 cm de grosor</strong>, o en rodajas de <strong>0,5 cm</strong>.</li>
+<li>Mézclalas con el aceite, la miel, el comino, la sal y la pimienta.</li>
+<li>Cocina a <strong>180 °C durante 15-18 minutos</strong>, agitando a mitad de cocción.</li>
+</ol>
+<h3>Trucos del chef</h3>
+<p>La miel carameliza las zanahorias y potencia su dulzor natural. El comino es un clásico con la zanahoria en la cocina marroquí. Y a los niños que no quieren ni ver la verdura, estas zanahorias caramelizadas suelen convencerlos.</p>
 
 <h2>7. Espárragos</h2>
 <h3>Ingredientes</h3>
-<ul><li>300 g de espárragos verdes, aceite, ajo, sal, pimienta, parmesano en lascas</li></ul>
+<ul>
+<li>1 manojo de espárragos verdes (unos 300 g), 1 cucharada de aceite de oliva, 1 diente de ajo picado, sal, pimienta y lascas de parmesano</li>
+</ul>
 <h3>Preparación</h3>
-<ol><li>Rompe la base leñosa. Cocina a <strong>200 °C 6-8 minutos</strong>.</li></ol>
-<h3>Trucos</h3>
-<p>Elige espárragos de grosor medio — los finos se queman, los gruesos quedan crudos por dentro.</p>
+<ol>
+<li>Parte la base leñosa de cada espárrago (se rompe sola por el punto justo).</li>
+<li>Mézclalos con el aceite, el ajo, la sal y la pimienta.</li>
+<li>Colócalos <strong>en perpendicular a las ranuras</strong> de la cesta para que no se cuelen.</li>
+<li>Cocina a <strong>200 °C durante 6-8 minutos</strong>.</li>
+<li>Sírvelos con lascas de parmesano.</li>
+</ol>
+<h3>Trucos del chef</h3>
+<p>Los espárragos en freidora de aire están listos en un tiempo récord. Elige un grosor medio: los muy finos se queman y los muy gruesos quedan crudos por dentro. Con un chorrito de limón y un huevo escalfado, se convierten en un entrante de restaurante.</p>
 
 <h2>8. Champiñones</h2>
 <h3>Ingredientes</h3>
-<ul><li>300 g de champiñones, aceite, salsa de soja, tomillo, pimienta</li></ul>
+<ul>
+<li>300 g de champiñones (o setas shiitake), 1 cucharada de aceite de oliva, 1 cucharada de salsa de soja, 1 cucharadita de tomillo fresco y pimienta</li>
+</ul>
 <h3>Preparación</h3>
-<ol><li><strong>No laves</strong> — limpia con un paño húmedo. Cocina a <strong>200 °C 8-10 minutos</strong>.</li></ol>
-<h3>Trucos</h3>
-<p>Los champiñones absorben agua como esponjas. La salsa de soja aporta umami.</p>
+<ol>
+<li><strong>No los laves</strong> con agua: límpialos con un paño húmedo.</li>
+<li>Corta los grandes en cuartos y deja enteros los pequeños.</li>
+<li>Mézclalos con el aceite, la salsa de soja, el tomillo y la pimienta.</li>
+<li>Cocina a <strong>200 °C durante 8-10 minutos</strong>, agitando a mitad de cocción.</li>
+</ol>
+<h3>Trucos del chef</h3>
+<p>Los champiñones absorben el agua como una esponja: no los laves nunca bajo el grifo. La salsa de soja aporta umami y ayuda a que se doren. Quedan perfectos sobre un filete, en un risotto o en una tostada.</p>
 
 <h2>9. Berenjena</h2>
 <h3>Ingredientes</h3>
-<ul><li>2 berenjenas (500 g), 2 cucharadas de aceite, za'atar, sal, pimienta</li></ul>
+<ul>
+<li>2 berenjenas medianas (unos 500 g), 2 cucharadas de aceite de oliva, 1 cucharadita de za'atar (o de hierbas provenzales), sal y pimienta</li>
+</ul>
 <h3>Preparación</h3>
-<ol><li>Rodajas de <strong>1,5 cm</strong>. Sala y escurre <strong>20 minutos</strong>. Cocina a <strong>200 °C 12-15 minutos</strong>.</li></ol>
-<h3>Trucos</h3>
-<p>La berenjena absorbe aceite como una esponja — el salado previo es imprescindible.</p>
+<ol>
+<li>Córtalas en rodajas de <strong>1,5 cm</strong> o en dados de <strong>2 cm</strong>.</li>
+<li>Sálalas y déjalas sobre papel de cocina <strong>20 minutos</strong> para que suelten el agua.</li>
+<li>Sécalas y mézclalas con el aceite, el za'atar y la pimienta.</li>
+<li>Cocina a <strong>200 °C durante 12-15 minutos</strong>, dándoles la vuelta a mitad de cocción.</li>
+</ol>
+<h3>Trucos del chef</h3>
+<p>La berenjena absorbe el aceite como una esponja: salarla antes es imprescindible para que chupe menos. Aun así, necesita algo más de aceite que las demás verduras. El za'atar (mezcla de tomillo, zumaque y sésamo) es el condimento perfecto para la berenjena y recuerda a la cocina libanesa.</p>
 
-<h2>10. Judías Verdes</h2>
+<h2>10. Judías verdes</h2>
 <h3>Ingredientes</h3>
-<ul><li>300 g de judías verdes, aceite de sésamo, salsa de soja, ajo, semillas de sésamo</li></ul>
+<ul>
+<li>300 g de judías verdes frescas sin puntas, 1 cucharada de aceite de sésamo, 1 cucharada de salsa de soja, 1 diente de ajo picado y 1 cucharadita de semillas de sésamo</li>
+</ul>
 <h3>Preparación</h3>
-<ol><li>Cocina a <strong>200 °C 8-10 minutos</strong>. Espolvorea con sésamo.</li></ol>
-<h3>Trucos</h3>
-<p>Deben quedar ligeramente crujientes. Perfectas con <a href="/es/blog/recettes-poulet-croustillant-airfryer">pollo satay</a>.</p>
+<ol>
+<li>Quita las puntas a las judías y sécalas bien.</li>
+<li>Mézclalas con el aceite de sésamo, la salsa de soja y el ajo.</li>
+<li>Cocina a <strong>200 °C durante 8-10 minutos</strong>, agitando a mitad de cocción.</li>
+<li>Espolvorea las semillas de sésamo al sacarlas.</li>
+</ol>
+<h3>Trucos del chef</h3>
+<p>El aceite de sésamo y la salsa de soja les dan un toque asiático que les sienta de maravilla. Tienen que quedar un poco crujientes, así que no te pases de tiempo. Son perfectas para acompañar un <a href="/es/blog/recettes-poulet-croustillant-airfryer">pollo satay</a>.</p>
 
-<h2>Tabla resumen</h2>
+<h2>Tabla de tiempos y temperaturas</h2>
 <table>
 <thead>
 <tr><th>Verdura</th><th>Corte</th><th>Temperatura</th><th>Tiempo</th><th>Aceite</th></tr>
 </thead>
 <tbody>
-<tr><td>Brócoli</td><td>Ramilletes 3-4 cm</td><td>190 °C</td><td>8-10 min</td><td>1 cda.</td></tr>
-<tr><td>Coliflor</td><td>Ramilletes 3 cm</td><td>200 °C</td><td>12-15 min</td><td>1 cda.</td></tr>
-<tr><td>Calabacín</td><td>Rodajas 1 cm</td><td>190 °C</td><td>10-12 min</td><td>1 cda.</td></tr>
-<tr><td>Pimientos</td><td>Tiras 2 cm</td><td>190 °C</td><td>10-12 min</td><td>1 cda.</td></tr>
-<tr><td>Coles de Bruselas</td><td>Cortadas por la mitad</td><td>190 °C</td><td>12-15 min</td><td>1 cda.</td></tr>
-<tr><td>Zanahorias</td><td>Bastones 1 cm</td><td>180 °C</td><td>15-18 min</td><td>1 cda.</td></tr>
-<tr><td>Espárragos</td><td>Enteros</td><td>200 °C</td><td>6-8 min</td><td>1 cda.</td></tr>
-<tr><td>Champiñones</td><td>Cuartos</td><td>200 °C</td><td>8-10 min</td><td>1 cda.</td></tr>
-<tr><td>Berenjena</td><td>Rodajas 1,5 cm</td><td>200 °C</td><td>12-15 min</td><td>2 cda.</td></tr>
-<tr><td>Judías verdes</td><td>Enteras</td><td>200 °C</td><td>8-10 min</td><td>1 cda.</td></tr>
+<tr><td>Brócoli</td><td>Ramilletes de 3-4 cm</td><td>190 °C</td><td>8-10 min</td><td>1 cda.</td></tr>
+<tr><td>Coliflor</td><td>Ramilletes de 3 cm</td><td>200 °C</td><td>12-15 min</td><td>1 cda.</td></tr>
+<tr><td>Calabacín</td><td>Rodajas de 1 cm</td><td>190 °C</td><td>10-12 min</td><td>1 cda.</td></tr>
+<tr><td>Pimientos</td><td>Tiras de 2 cm</td><td>190 °C</td><td>10-12 min</td><td>1 cda.</td></tr>
+<tr><td>Coles de Bruselas</td><td>Por la mitad</td><td>190 °C</td><td>12-15 min</td><td>1 cda.</td></tr>
+<tr><td>Zanahorias</td><td>Bastones de 1 cm</td><td>180 °C</td><td>15-18 min</td><td>1 cda.</td></tr>
+<tr><td>Espárragos</td><td>Enteros (sin la base)</td><td>200 °C</td><td>6-8 min</td><td>1 cda.</td></tr>
+<tr><td>Champiñones</td><td>En cuartos o enteros</td><td>200 °C</td><td>8-10 min</td><td>1 cda.</td></tr>
+<tr><td>Berenjena</td><td>Rodajas de 1,5 cm</td><td>200 °C</td><td>12-15 min</td><td>2 cdas.</td></tr>
+<tr><td>Judías verdes</td><td>Enteras (sin puntas)</td><td>200 °C</td><td>8-10 min</td><td>1 cda.</td></tr>
 </tbody>
 </table>
 
 <h2>Consejos generales</h2>
 <ul>
-<li><strong>Sazona antes de cocinar</strong> — las especias se adhieren mejor al aceite.</li>
-<li><strong>Las verduras densas tardan más</strong> — zanahorias y coles de Bruselas necesitan más tiempo.</li>
-<li><strong>Las verduras congeladas también funcionan</strong> — añade 2-3 minutos extra.</li>
+<li><strong>Sazona antes de cocinar</strong>: las especias y las hierbas se pegan mejor al aceite y sueltan más aroma durante la cocción.</li>
+<li><strong>Las verduras densas tardan más</strong>: la zanahoria, las coles de Bruselas y la coliflor necesitan más tiempo que el calabacín o los espárragos.</li>
+<li><strong>Junta verduras de densidad parecida</strong>: si cocinas varias a la vez, combina las que tengan tiempos de cocción similares.</li>
+<li><strong>Las verduras congeladas también sirven</strong>: añade 2-3 minutos al tiempo de cocción, sin descongelarlas antes.</li>
 </ul>
-<p>Estas verduras son la base perfecta para un <a href="/es/blog/meal-prep-airfryer-semaine">meal prep semanal</a>. Combina con <a href="/es/blog/recettes-frites-parfaites-airfryer">patatas fritas</a> y <a href="/es/blog/recettes-poulet-croustillant-airfryer">pollo crujiente</a>.</p>
+<p>Estas verduras asadas son la base perfecta para el <a href="/es/blog/meal-prep-airfryer-semaine">batch cooking de la semana</a>: prepara varias el domingo y monta tus comidas en unos minutos cada día. Combínalas con nuestras <a href="/es/blog/recettes-frites-parfaites-airfryer">recetas de patatas fritas</a> y de <a href="/es/blog/recettes-poulet-croustillant-airfryer">pollo</a> para tener menús completos y equilibrados.</p>
 
-<h2>Valores nutricionales de tus verduras asadas (por 200 g cocinadas)</h2>
+<h2>Valores nutricionales de tus verduras asadas (por 200 g ya cocinados)</h2>
 <table>
-<thead><tr><th>Verdura</th><th>Calorías</th><th>Fibra</th><th>Vitamina C</th><th>Potasio</th><th>Beneficio principal</th></tr></thead>
+<thead><tr><th>Verdura</th><th>Calorías</th><th>Fibra</th><th>Vitamina C</th><th>Potasio</th><th>Principal beneficio</th></tr></thead>
 <tbody>
-<tr><td>Brócoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% IDR)</td><td>460 mg</td><td>Antioxidantes, vitamina K</td></tr>
-<tr><td>Coliflor</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% IDR)</td><td>400 mg</td><td>Antiinflamatorio, digestión</td></tr>
+<tr><td>Brócoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185 % de la CDR)</td><td>460 mg</td><td>Antioxidantes, vitamina K</td></tr>
+<tr><td>Coliflor</td><td>52 kcal</td><td>4 g</td><td>96 mg (120 % de la CDR)</td><td>400 mg</td><td>Antiinflamatoria, digestión</td></tr>
 <tr><td>Calabacín</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hidratación, muy pocas calorías</td></tr>
-<tr><td>Pimiento</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% IDR)</td><td>420 mg</td><td>Máxima vitamina C, salud ocular</td></tr>
-<tr><td>Espárragos</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Ácido fólico, diurético</td></tr>
+<tr><td>Pimiento</td><td>50 kcal</td><td>3 g</td><td>204 mg (255 % de la CDR)</td><td>420 mg</td><td>Máximo de vitamina C, vista</td></tr>
+<tr><td>Espárragos</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Ácido fólico, diuréticos</td></tr>
 </tbody>
 </table>
 
-<h2>5 mezclas de verduras express para toda la semana</h2>
+<h2>5 mezclas de verduras exprés para toda la semana</h2>
 <ul>
-<li><strong>Mezcla mediterránea:</strong> calabacín + pimientos + berenjena + tomates cherry. 180°C, 15 min. Perfecta con pollo.</li>
-<li><strong>Mezcla crucífera:</strong> brócoli + coliflor + coles de Bruselas. 190°C, 16 min. Ideal para meal prep.</li>
-<li><strong>Mezcla primaveral:</strong> espárragos + champiñones + judías verdes. 200°C, 8 min. Delicada y rápida.</li>
-<li><strong>Mezcla otoñal:</strong> zanahorias + calabaza + cebollas rojas. 180°C, 20 min. Sabores dulce-salados.</li>
-<li><strong>Mezcla asiática:</strong> pak choi + edamame + shiitake + sésamo. 190°C, 10 min. Termina con salsa de soja.</li>
+<li><strong>Mezcla mediterránea:</strong> calabacín + pimientos + berenjena + tomates cherry. 180 °C, 15 min. Perfecta con pollo.</li>
+<li><strong>Mezcla de crucíferas:</strong> brócoli + coliflor + coles de Bruselas. 190 °C, 16 min. Ideal para el batch cooking.</li>
+<li><strong>Mezcla de primavera:</strong> espárragos + champiñones + judías verdes. 200 °C, 8 min. Suave y rápida.</li>
+<li><strong>Mezcla de otoño:</strong> zanahorias + calabaza + cebolla morada. 180 °C, 20 min. Contraste dulce y salado.</li>
+<li><strong>Mezcla asiática:</strong> pak choi + edamame + setas shiitake + sésamo. 190 °C, 10 min. Termina con un chorrito de salsa de soja.</li>
 </ul>`,
 
-    it: `<h2>Introduzione</h2>
-<p>La friggitrice ad aria è uno strumento straordinario per cuocere le verdure. La circolazione di aria calda ad alta temperatura crea una <strong>caramellizzazione in superficie</strong> che intensifica i sapori naturali, preservando i nutrienti molto meglio della bollitura. In soli 10-20 minuti otterrete verdure grigliate deliziose come quelle del forno.</p>
+    it: `<h2>Perché cuocere le verdure nella friggitrice ad aria</h2>
+<p>La friggitrice ad aria è perfetta per cuocere le verdure. L'aria molto calda che circola crea una <strong>caramellizzazione in superficie</strong> che esalta i sapori naturali e preserva i nutrienti molto meglio della bollitura. In 10-20 minuti ottieni verdure grigliate buone come quelle al forno, con un preriscaldamento quasi nullo e consumi ridotti.</p>
+<p>In questa guida trovi la cottura perfetta di <strong>10 verdure tra le più comuni</strong>, con temperature, tempi indicativi e condimenti consigliati. Che tu voglia mangiare in modo più <a href="/it/blog/cuisiner-healthy-airfryer">sano</a> o preparare in anticipo i pasti della settimana con il <a href="/it/blog/meal-prep-airfryer-semaine">meal prep</a>, queste ricette diventeranno le tue preferite.</p>
 
-<h2>Regole d'oro</h2>
+<h2>Le regole d'oro per le verdure nella friggitrice ad aria</h2>
 <ul>
-<li><strong>Tagliate a pezzi uniformi</strong> — dimensioni uguali per cottura uniforme.</li>
-<li><strong>Asciugate le verdure</strong> — l'umidità impedisce la doratura.</li>
-<li><strong>Usate poco olio</strong> — 1-2 cucchiaini a porzione.</li>
-<li><strong>Non riempite troppo il cestello</strong> — un solo strato.</li>
-<li><strong>Agitate a metà cottura.</strong></li>
+<li><strong>Taglia le verdure a pezzi regolari</strong>: se hanno tutti la stessa dimensione, cuociono in modo uniforme.</li>
+<li><strong>Asciuga le verdure</strong>: l'umidità impedisce la doratura, quindi asciugale bene dopo averle lavate.</li>
+<li><strong>Usa poco olio</strong>: 1-2 cucchiaini a porzione bastano per renderle croccanti.</li>
+<li><strong>Non riempire troppo il cestello</strong>: un solo strato, così l'aria circola.</li>
+<li><strong>Scuoti il cestello a metà cottura</strong>: per una doratura uniforme su tutti i lati.</li>
 </ul>
 
 <h2>1. Broccoli</h2>
 <h3>Ingredienti</h3>
-<ul><li>300 g di broccoli (cimette di 3-4 cm), 1 cucchiaio di olio d'oliva, 2 spicchi d'aglio, sale, pepe, scorza di limone</li></ul>
+<ul>
+<li>300 g di broccoli divisi in cimette piccole (3-4 cm)</li>
+<li>1 cucchiaio di olio d'oliva, 2 spicchi d'aglio tritati, sale, pepe, scorza di limone (facoltativa)</li>
+</ul>
 <h3>Preparazione</h3>
-<ol><li>Mescolate con olio e condimenti. Cuocete a <strong>190 °C per 8-10 minuti</strong>.</li></ol>
-<h3>Consigli</h3>
-<p>Le punte diventano croccanti come patatine, i gambi restano teneri.</p>
+<ol>
+<li>Lava e asciuga i broccoli, poi condiscili con l'olio, l'aglio, il sale e il pepe.</li>
+<li>Cuoci a <strong>190 °C per 8-10 minuti</strong>, scuotendo il cestello a metà cottura.</li>
+<li>Le cime devono essere leggermente dorate e croccanti, i gambi ancora al dente.</li>
+</ol>
+<h3>I consigli dello chef</h3>
+<p>Nella friggitrice ad aria i broccoli sono una sorpresa: le cime diventano croccanti come chips, mentre i gambi restano teneri. Aggiungi la scorza di limone a fine cottura per un tocco di freschezza; un filo di succo di limone e un pizzico di parmigiano completano il piatto.</p>
 
 <h2>2. Cavolfiore</h2>
 <h3>Ingredienti</h3>
-<ul><li>400 g di cimette (3 cm), olio, curcuma, cumino, sale, pepe</li></ul>
+<ul>
+<li>400 g di cavolfiore in cimette (3 cm), 1 cucchiaio di olio d'oliva, 1 cucchiaino di curcuma, ½ cucchiaino di cumino in polvere, sale, pepe</li>
+</ul>
 <h3>Preparazione</h3>
-<ol><li>Cuocete a <strong>200 °C per 12-15 minuti</strong>, agitando a metà.</li></ol>
-<h3>Consigli</h3>
-<p>Il cavolfiore arrosto sviluppa un'incredibile dolcezza naturale.</p>
+<ol>
+<li>Condisci le cimette con l'olio e le spezie.</li>
+<li>Cuoci a <strong>200 °C per 12-15 minuti</strong>, scuotendo il cestello a metà cottura.</li>
+<li>I bordi devono essere ben dorati e caramellati.</li>
+</ol>
+<h3>I consigli dello chef</h3>
+<p>Arrostito, il cavolfiore diventa sorprendentemente dolce, e la curcuma gli dà un bel colore. Per una versione «buffalo», a fine cottura condiscilo con salsa piccante e burro fuso.</p>
 
 <h2>3. Zucchine</h2>
 <h3>Ingredienti</h3>
-<ul><li>2 zucchine (400 g), olio, erbe di Provenza, sale, pepe</li></ul>
+<ul>
+<li>2 zucchine medie (circa 400 g), 1 cucchiaio di olio d'oliva, 1 cucchiaino di erbe di Provenza, sale, pepe</li>
+</ul>
 <h3>Preparazione</h3>
-<ol><li>Rondelle da <strong>1 cm</strong>. Salate e fate sgocciolare <strong>10 minuti</strong>. Cuocete a <strong>190 °C 10-12 minuti</strong>.</li></ol>
-<h3>Consigli</h3>
-<p>Lo sgocciolamento è essenziale — le zucchine contengono molta acqua.</p>
+<ol>
+<li>Taglia le zucchine a rondelle di <strong>1 cm</strong> o a mezzelune.</li>
+<li>Salale leggermente e lasciale spurgare su carta da cucina per <strong>10 minuti</strong>.</li>
+<li>Asciugale e condiscile con l'olio e le erbe.</li>
+<li>Cuoci a <strong>190 °C per 10-12 minuti</strong>, scuotendo il cestello a metà cottura.</li>
+</ol>
+<h3>I consigli dello chef</h3>
+<p>Per le zucchine far spurgare è fondamentale: contengono molta acqua, che impedirebbe la caramellizzazione. Con rondelle più spesse (1,5 cm) il centro resta più morbido.</p>
 
 <h2>4. Peperoni</h2>
 <h3>Ingredienti</h3>
-<ul><li>3 peperoni di colori diversi (500 g), olio, paprika dolce, sale, pepe</li></ul>
+<ul>
+<li>3 peperoni di colori diversi (circa 500 g), 1 cucchiaio di olio d'oliva, 1 cucchiaino di paprika dolce, sale, pepe</li>
+</ul>
 <h3>Preparazione</h3>
-<ol><li>Strisce da <strong>2 cm</strong>. Cuocete a <strong>190 °C 10-12 minuti</strong>.</li></ol>
-<h3>Consigli</h3>
-<p>I peperoni rossi sono i più dolci. Perfetti con <a href="/it/blog/recettes-poulet-croustillant-airfryer">pollo croccante</a>.</p>
+<ol>
+<li>Elimina i semi e taglia i peperoni a strisce larghe <strong>2 cm</strong>.</li>
+<li>Condiscili con l'olio, la paprika, il sale e il pepe.</li>
+<li>Cuoci a <strong>190 °C per 10-12 minuti</strong>, scuotendo il cestello a metà cottura: i bordi devono essere appena abbrustoliti.</li>
+</ol>
+<h3>I consigli dello chef</h3>
+<p>I peperoni rossi sono i più dolci e quelli che caramellano meglio. Mescola i tre colori per un piatto anche bello da vedere. Ottimi nelle fajitas, nelle insalate o accanto al <a href="/it/blog/recettes-poulet-croustillant-airfryer">pollo croccante</a>.</p>
 
 <h2>5. Cavolini di Bruxelles</h2>
 <h3>Ingredienti</h3>
-<ul><li>400 g di cavolini (tagliati a metà), olio, parmigiano, aglio, sale, pepe</li></ul>
+<ul>
+<li>400 g di cavolini di Bruxelles tagliati a metà per il lungo</li>
+<li>1 cucchiaio di olio d'oliva, 2 cucchiai di parmigiano grattugiato, 1 spicchio d'aglio tritato, sale, pepe</li>
+</ul>
 <h3>Preparazione</h3>
-<ol><li>Taglio verso l'alto. Cuocete a <strong>190 °C 12-15 minuti</strong>.</li></ol>
-<h3>Consigli</h3>
-<p>Le foglie esterne diventano vere chips.</p>
+<ol>
+<li>Pulisci i cavolini, tagliali a metà e condiscili con l'olio, l'aglio, il sale e il pepe.</li>
+<li>Disponili nel cestello con <strong>il lato tagliato verso l'alto</strong>.</li>
+<li>Cuoci a <strong>190 °C per 12-15 minuti</strong>.</li>
+<li>Appena pronti, cospargili di parmigiano.</li>
+</ol>
+<h3>I consigli dello chef</h3>
+<p>Tagliati a metà, i cavolini hanno più superficie a contatto con l'aria calda e i bordi si caramellano in modo irresistibile. Le foglie esterne che si staccano diventano vere chips: non buttarle. Per una versione più golosa, aggiungi un filo di aceto balsamico e qualche noce tritata.</p>
 
 <h2>6. Carote</h2>
 <h3>Ingredienti</h3>
-<ul><li>4 carote grandi (400 g), olio, miele, cumino, sale, pepe</li></ul>
+<ul>
+<li>4 carote grandi (circa 400 g), 1 cucchiaio di olio d'oliva, 1 cucchiaio di miele, ½ cucchiaino di cumino in polvere, sale, pepe</li>
+</ul>
 <h3>Preparazione</h3>
-<ol><li>Bastoncini da <strong>6 cm x 1 cm</strong>. Cuocete a <strong>180 °C 15-18 minuti</strong>.</li></ol>
-<h3>Consigli</h3>
-<p>Il miele caramellizza le carote esaltandone la dolcezza.</p>
+<ol>
+<li>Pela le carote e tagliale a bastoncini <strong>lunghi 6 cm e spessi 1 cm</strong>, oppure a rondelle di <strong>0,5 cm</strong>.</li>
+<li>Condiscile con l'olio, il miele, il cumino, il sale e il pepe.</li>
+<li>Cuoci a <strong>180 °C per 15-18 minuti</strong>, scuotendo il cestello a metà cottura.</li>
+</ol>
+<h3>I consigli dello chef</h3>
+<p>Il miele caramella le carote e ne esalta la dolcezza naturale, mentre il cumino è un abbinamento classico della cucina marocchina. Spesso convincono anche i bambini che non amano le verdure.</p>
 
 <h2>7. Asparagi</h2>
 <h3>Ingredienti</h3>
-<ul><li>300 g di asparagi verdi, olio, aglio, sale, pepe, scaglie di parmigiano</li></ul>
+<ul>
+<li>1 mazzo di asparagi verdi (circa 300 g), 1 cucchiaio di olio d'oliva, 1 spicchio d'aglio tritato, sale, pepe, scaglie di parmigiano</li>
+</ul>
 <h3>Preparazione</h3>
-<ol><li>Spezzate la base legnosa. Cuocete a <strong>200 °C 6-8 minuti</strong>.</li></ol>
-<h3>Consigli</h3>
-<p>Scegliete asparagi di medio spessore.</p>
+<ol>
+<li>Spezza la base legnosa di ogni asparago: si rompe da sola nel punto giusto.</li>
+<li>Condisci gli asparagi con l'olio, l'aglio, il sale e il pepe.</li>
+<li>Disponili <strong>di traverso rispetto alle fessure del cestello</strong>, così non cadono.</li>
+<li>Cuoci a <strong>200 °C per 6-8 minuti</strong>.</li>
+<li>Servili con scaglie di parmigiano.</li>
+</ol>
+<h3>I consigli dello chef</h3>
+<p>Nella friggitrice ad aria gli asparagi sono pronti in un attimo. Scegli asparagi di calibro medio: quelli troppo sottili bruciano, quelli troppo grossi restano crudi al centro. Con un filo di succo di limone e un uovo in camicia diventano un antipasto raffinato.</p>
 
 <h2>8. Funghi</h2>
 <h3>Ingredienti</h3>
-<ul><li>300 g di champignon, olio, salsa di soia, timo, pepe</li></ul>
+<ul>
+<li>300 g di champignon (o shiitake), 1 cucchiaio di olio d'oliva, 1 cucchiaio di salsa di soia, 1 cucchiaino di timo fresco, pepe</li>
+</ul>
 <h3>Preparazione</h3>
-<ol><li><strong>Non lavate</strong> — pulite con un panno umido. Cuocete a <strong>200 °C 8-10 minuti</strong>.</li></ol>
-<h3>Consigli</h3>
-<p>I funghi assorbono acqua come spugne. La salsa di soia aggiunge umami.</p>
+<ol>
+<li><strong>Non lavare</strong> i funghi sotto l'acqua: puliscili con un panno umido.</li>
+<li>Taglia in quattro quelli grandi e lascia interi quelli piccoli.</li>
+<li>Condiscili con l'olio, la salsa di soia, il timo e il pepe.</li>
+<li>Cuoci a <strong>200 °C per 8-10 minuti</strong>, scuotendo il cestello a metà cottura.</li>
+</ol>
+<h3>I consigli dello chef</h3>
+<p>I funghi assorbono l'acqua come spugne: non lavarli mai sotto il rubinetto. La salsa di soia aggiunge umami e aiuta la doratura. Sono perfetti su una bistecca, in un risotto o su una fetta di pane tostato.</p>
 
 <h2>9. Melanzane</h2>
 <h3>Ingredienti</h3>
-<ul><li>2 melanzane (500 g), 2 cucchiai di olio, za'atar, sale, pepe</li></ul>
+<ul>
+<li>2 melanzane medie (circa 500 g), 2 cucchiai di olio d'oliva, 1 cucchiaino di za'atar (o erbe di Provenza), sale, pepe</li>
+</ul>
 <h3>Preparazione</h3>
-<ol><li>Fette da <strong>1,5 cm</strong>. Salate e sgocciolate <strong>20 minuti</strong>. Cuocete a <strong>200 °C 12-15 minuti</strong>.</li></ol>
-<h3>Consigli</h3>
-<p>La melanzana assorbe olio come una spugna — il sale è indispensabile.</p>
+<ol>
+<li>Taglia le melanzane a fette spesse <strong>1,5 cm</strong> o a cubetti di <strong>2 cm</strong>.</li>
+<li>Salale e lasciale spurgare per <strong>20 minuti</strong>.</li>
+<li>Tamponale, poi condiscile con l'olio, lo za'atar e il pepe.</li>
+<li>Cuoci a <strong>200 °C per 12-15 minuti</strong>, girandole a metà cottura.</li>
+</ol>
+<h3>I consigli dello chef</h3>
+<p>La melanzana assorbe l'olio come una spugna: farla spurgare con il sale è indispensabile per limitarne l'assorbimento. Anche così, richiede un po' più di olio delle altre verdure. Lo za'atar (miscela di timo, sommacco e sesamo, tipica della cucina libanese) è il condimento ideale.</p>
 
 <h2>10. Fagiolini</h2>
 <h3>Ingredienti</h3>
-<ul><li>300 g di fagiolini, olio di sesamo, salsa di soia, aglio, semi di sesamo</li></ul>
+<ul>
+<li>300 g di fagiolini freschi spuntati, 1 cucchiaio di olio di sesamo, 1 cucchiaio di salsa di soia, 1 spicchio d'aglio tritato, 1 cucchiaino di semi di sesamo</li>
+</ul>
 <h3>Preparazione</h3>
-<ol><li>Cuocete a <strong>200 °C 8-10 minuti</strong>. Cospargete di sesamo.</li></ol>
-<h3>Consigli</h3>
-<p>Devono restare leggermente croccanti. Perfetti con <a href="/it/blog/recettes-poulet-croustillant-airfryer">spiedini satay</a>.</p>
+<ol>
+<li>Spunta i fagiolini e asciugali bene.</li>
+<li>Condiscili con l'olio di sesamo, la salsa di soia e l'aglio.</li>
+<li>Cuoci a <strong>200 °C per 8-10 minuti</strong>, scuotendo il cestello a metà cottura.</li>
+<li>Appena pronti, cospargili di semi di sesamo.</li>
+</ol>
+<h3>I consigli dello chef</h3>
+<p>Olio di sesamo e salsa di soia danno ai fagiolini un sapore di ispirazione asiatica. Devono restare leggermente croccanti: non cuocerli troppo. Perfetti con il <a href="/it/blog/recettes-poulet-croustillant-airfryer">pollo satay</a>.</p>
 
-<h2>Tabella riepilogativa</h2>
+<h2>Tabella riepilogativa di tempi e temperature</h2>
 <table>
 <thead>
 <tr><th>Verdura</th><th>Taglio</th><th>Temperatura</th><th>Tempo</th><th>Olio</th></tr>
 </thead>
 <tbody>
-<tr><td>Broccoli</td><td>Cimette 3-4 cm</td><td>190 °C</td><td>8-10 min</td><td>1 cucchiaio</td></tr>
-<tr><td>Cavolfiore</td><td>Cimette 3 cm</td><td>200 °C</td><td>12-15 min</td><td>1 cucchiaio</td></tr>
-<tr><td>Zucchine</td><td>Rondelle 1 cm</td><td>190 °C</td><td>10-12 min</td><td>1 cucchiaio</td></tr>
-<tr><td>Peperoni</td><td>Strisce 2 cm</td><td>190 °C</td><td>10-12 min</td><td>1 cucchiaio</td></tr>
-<tr><td>Cavolini</td><td>Tagliati a metà</td><td>190 °C</td><td>12-15 min</td><td>1 cucchiaio</td></tr>
-<tr><td>Carote</td><td>Bastoncini 1 cm</td><td>180 °C</td><td>15-18 min</td><td>1 cucchiaio</td></tr>
-<tr><td>Asparagi</td><td>Interi</td><td>200 °C</td><td>6-8 min</td><td>1 cucchiaio</td></tr>
-<tr><td>Funghi</td><td>A quarti</td><td>200 °C</td><td>8-10 min</td><td>1 cucchiaio</td></tr>
-<tr><td>Melanzane</td><td>Fette 1,5 cm</td><td>200 °C</td><td>12-15 min</td><td>2 cucchiai</td></tr>
-<tr><td>Fagiolini</td><td>Interi</td><td>200 °C</td><td>8-10 min</td><td>1 cucchiaio</td></tr>
+<tr><td>Broccoli</td><td>Cimette da 3-4 cm</td><td>190 °C</td><td>8-10 min</td><td>1 cucchiaio</td></tr>
+<tr><td>Cavolfiore</td><td>Cimette da 3 cm</td><td>200 °C</td><td>12-15 min</td><td>1 cucchiaio</td></tr>
+<tr><td>Zucchine</td><td>Rondelle da 1 cm</td><td>190 °C</td><td>10-12 min</td><td>1 cucchiaio</td></tr>
+<tr><td>Peperoni</td><td>Strisce da 2 cm</td><td>190 °C</td><td>10-12 min</td><td>1 cucchiaio</td></tr>
+<tr><td>Cavolini di Bruxelles</td><td>Tagliati a metà</td><td>190 °C</td><td>12-15 min</td><td>1 cucchiaio</td></tr>
+<tr><td>Carote</td><td>Bastoncini da 1 cm</td><td>180 °C</td><td>15-18 min</td><td>1 cucchiaio</td></tr>
+<tr><td>Asparagi</td><td>Interi (senza base)</td><td>200 °C</td><td>6-8 min</td><td>1 cucchiaio</td></tr>
+<tr><td>Funghi</td><td>A quarti o interi</td><td>200 °C</td><td>8-10 min</td><td>1 cucchiaio</td></tr>
+<tr><td>Melanzane</td><td>Fette da 1,5 cm</td><td>200 °C</td><td>12-15 min</td><td>2 cucchiai</td></tr>
+<tr><td>Fagiolini</td><td>Interi (spuntati)</td><td>200 °C</td><td>8-10 min</td><td>1 cucchiaio</td></tr>
 </tbody>
 </table>
 
-<h2>Consigli generali</h2>
+<h2>Consigli generali per le verdure nella friggitrice ad aria</h2>
 <ul>
-<li><strong>Condite prima della cottura</strong> — le spezie aderiscono meglio all'olio.</li>
-<li><strong>Le verdure dense richiedono più tempo</strong> — carote e cavolini più di zucchine.</li>
-<li><strong>Le verdure surgelate funzionano</strong> — aggiungete 2-3 minuti.</li>
+<li><strong>Condisci prima della cottura</strong>: spezie ed erbe aderiscono meglio all'olio e sprigionano più aroma.</li>
+<li><strong>Le verdure più dense cuociono più a lungo</strong>: carote, cavolini di Bruxelles e cavolfiore richiedono più tempo di zucchine e asparagi.</li>
+<li><strong>Abbina verdure di consistenza simile</strong>: se ne cuoci diverse insieme, scegli quelle con tempi di cottura vicini.</li>
+<li><strong>Vanno bene anche le verdure surgelate</strong>: aggiungi 2-3 minuti al tempo di cottura, senza scongelarle prima.</li>
 </ul>
-<p>Queste verdure sono la base perfetta per un <a href="/it/blog/meal-prep-airfryer-semaine">meal prep settimanale</a>. Combinatele con <a href="/it/blog/recettes-frites-parfaites-airfryer">patatine</a> e <a href="/it/blog/recettes-poulet-croustillant-airfryer">pollo croccante</a>.</p>
+<p>Queste verdure grigliate sono la base ideale per il <a href="/it/blog/meal-prep-airfryer-semaine">meal prep della settimana</a>: preparane diverse la domenica e componi i pasti in pochi minuti ogni giorno. Abbinale alle nostre <a href="/it/blog/recettes-frites-parfaites-airfryer">ricette di patatine</a> e <a href="/it/blog/recettes-poulet-croustillant-airfryer">ricette di pollo</a> per pasti completi ed equilibrati.</p>
 
-<h2>Valori nutrizionali delle vostre verdure grigliate (per 200 g cotte)</h2>
+<h2>Valori nutrizionali delle verdure grigliate (per 200 g di verdura cotta)</h2>
 <table>
 <thead><tr><th>Verdura</th><th>Calorie</th><th>Fibre</th><th>Vitamina C</th><th>Potassio</th><th>Beneficio principale</th></tr></thead>
 <tbody>
-<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% RDA)</td><td>460 mg</td><td>Antiossidanti, vitamina K</td></tr>
-<tr><td>Cavolfiore</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% RDA)</td><td>400 mg</td><td>Antinfiammatorio, digestione</td></tr>
+<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% VNR)</td><td>460 mg</td><td>Antiossidanti, vitamina K</td></tr>
+<tr><td>Cavolfiore</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% VNR)</td><td>400 mg</td><td>Antinfiammatorio, digestione</td></tr>
 <tr><td>Zucchine</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Idratazione, pochissime calorie</td></tr>
-<tr><td>Peperone</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% RDA)</td><td>420 mg</td><td>Massima vitamina C, salute visiva</td></tr>
-<tr><td>Asparagi</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Acido folico, diuretico</td></tr>
+<tr><td>Peperone</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% VNR)</td><td>420 mg</td><td>Il più ricco di vitamina C, salute degli occhi</td></tr>
+<tr><td>Asparagi</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Acido folico, effetto diuretico</td></tr>
 </tbody>
 </table>
 
-<h2>5 misti di verdure express per tutta la settimana</h2>
+<h2>5 mix di verdure veloci per tutta la settimana</h2>
 <ul>
-<li><strong>Misto mediterraneo:</strong> zucchine + peperoni + melanzane + pomodorini. 180°C, 15 min. Perfetto con il pollo.</li>
-<li><strong>Misto crucifere:</strong> broccoli + cavolfiore + cavolini di Bruxelles. 190°C, 16 min. Ideale per il meal prep.</li>
-<li><strong>Misto primaverile:</strong> asparagi + funghi + fagiolini. 200°C, 8 min. Delicato e rapido.</li>
-<li><strong>Misto autunnale:</strong> carote + zucca + cipolle rosse. 180°C, 20 min. Sapori dolce-salati.</li>
-<li><strong>Misto asiatico:</strong> pak choi + edamame + shiitake + sesamo. 190°C, 10 min. Finire con salsa di soia.</li>
+<li><strong>Mix mediterraneo:</strong> zucchine + peperoni + melanzane + pomodorini. 180 °C, 15 minuti. Perfetto con il pollo.</li>
+<li><strong>Mix di crucifere:</strong> broccoli + cavolfiore + cavolini di Bruxelles. 190 °C, 16 minuti. Ideale per il meal prep.</li>
+<li><strong>Mix primaverile:</strong> asparagi + funghi + fagiolini. 200 °C, 8 minuti. Delicato e veloce.</li>
+<li><strong>Mix autunnale:</strong> carote + zucca + cipolle rosse. 180 °C, 20 minuti. Un incontro tra dolce e salato.</li>
+<li><strong>Mix asiatico:</strong> pak choi + edamame + funghi shiitake + sesamo. 190 °C, 10 minuti. Completa con un filo di salsa di soia.</li>
 </ul>`,
 
     nl: `<h2>Inleiding</h2>
-<p>De airfryer is een buitengewoon hulpmiddel voor het bereiden van groenten. De heteluchtcirculatie bij hoge temperatuur creëert een <strong>karamellisering aan het oppervlak</strong> die de natuurlijke smaken versterkt, terwijl voedingsstoffen veel beter behouden blijven dan bij koken in water. In slechts 10-20 minuten krijg je geroosterde groenten die net zo lekker zijn als uit de oven.</p>
+<p>De airfryer is een uitstekend apparaat om groenten te bereiden. De hete lucht circuleert op hoge temperatuur en zorgt voor <strong>karamellisatie aan de buitenkant</strong>, waardoor de natuurlijke smaken sterker worden. Bovendien blijven er veel meer voedingsstoffen behouden dan wanneer je groenten in water kookt. In 10 tot 20 minuten heb je geroosterde groenten die net zo lekker zijn als uit de oven, terwijl je bijna niet hoeft voor te verwarmen en minder energie verbruikt.</p>
+<p>In deze complete gids beschrijven we hoe je <strong>10 populaire groenten</strong> perfect gaar krijgt, met temperaturen, richttijden en de kruiden die erbij passen. Wil je <a href="/nl/blog/cuisiner-healthy-airfryer">gezonder eten</a> of je maaltijden voor de week vooruit bereiden met <a href="/nl/blog/meal-prep-airfryer-semaine">meal prep</a>? Dan worden deze recepten vaste waarden in je keuken.</p>
 
-<h2>Gouden regels</h2>
+<h2>Gouden regels voor groenten uit de airfryer</h2>
 <ul>
-<li><strong>Snijd gelijkmatig</strong> — gelijke maten voor gelijkmatige garing.</li>
-<li><strong>Droog de groenten</strong> — vocht voorkomt bruining.</li>
-<li><strong>Gebruik weinig olie</strong> — 1-2 theelepels per portie.</li>
-<li><strong>Overlaad de mand niet</strong> — één laag voor luchtcirculatie.</li>
-<li><strong>Schud halverwege.</strong></li>
+<li><strong>Snijd alles even groot</strong>: stukken van dezelfde grootte worden gelijkmatig gaar.</li>
+<li><strong>Droog de groenten af</strong>: vocht voorkomt dat ze bruin worden.</li>
+<li><strong>Gebruik weinig olie</strong>: 1 tot 2 theelepels per portie is genoeg.</li>
+<li><strong>Doe de mand niet te vol</strong>: leg de groenten in één laag, zodat de lucht goed kan circuleren.</li>
+<li><strong>Schud halverwege</strong>: zo kleuren ze aan alle kanten gelijkmatig.</li>
 </ul>
 
 <h2>1. Broccoli</h2>
 <h3>Ingrediënten</h3>
-<ul><li>300 g broccoli (3-4 cm roosjes), 1 eetlepel olijfolie, 2 teentjes knoflook, zout, peper, citroenschil</li></ul>
+<ul>
+<li>300 g broccoli in kleine roosjes (3 tot 4 cm)</li>
+<li>1 eetlepel olijfolie, 2 teentjes knoflook (fijngehakt), zout, peper, geraspte citroenschil</li>
+</ul>
 <h3>Bereiding</h3>
-<ol><li>Meng met olie en kruiden. Bak op <strong>190 °C gedurende 8-10 minuten</strong>.</li></ol>
-<h3>Tips</h3>
-<p>De toppen worden krokant als chips, de stelen blijven mals.</p>
+<ol>
+<li>Was de broccoli en droog hem goed af. Meng met de olie, de knoflook, zout en peper.</li>
+<li>Bak <strong>8 tot 10 minuten op 190 °C</strong> en schud halverwege.</li>
+<li>De roosjes moeten licht goudbruin en krokant zijn, de stelen nog knapperig.</li>
+</ol>
+<h3>Tips van de chef</h3>
+<p>Broccoli uit de airfryer is een openbaring: de roosjes worden krokant als chips, terwijl de stelen mals blijven. Rasp er na het bakken wat citroenschil over voor een frisse toets.</p>
 
 <h2>2. Bloemkool</h2>
 <h3>Ingrediënten</h3>
-<ul><li>400 g bloemkoolroosjes (3 cm), olie, kurkuma, komijn, zout, peper</li></ul>
+<ul>
+<li>400 g bloemkoolroosjes (3 cm), 1 eetlepel olijfolie, 1 theelepel kurkuma, ½ theelepel komijn, zout, peper</li>
+</ul>
 <h3>Bereiding</h3>
-<ol><li>Bak op <strong>200 °C gedurende 12-15 minuten</strong>, halverwege schudden.</li></ol>
-<h3>Tips</h3>
-<p>Geroosterde bloemkool ontwikkelt een ongelooflijke natuurlijke zoetheid.</p>
+<ol>
+<li>Meng de roosjes met de olie en de specerijen.</li>
+<li>Bak <strong>12 tot 15 minuten op 200 °C</strong> en schud halverwege.</li>
+<li>De randen moeten mooi bruin en gekaramelliseerd zijn.</li>
+</ol>
+<h3>Tips van de chef</h3>
+<p>Geroosterde bloemkool krijgt een verrassend zoete smaak. Voor een “buffalo”-versie meng je de bloemkool na het bakken met hete saus en gesmolten boter.</p>
 
 <h2>3. Courgette</h2>
 <h3>Ingrediënten</h3>
-<ul><li>2 courgettes (400 g), olie, Provençaalse kruiden, zout, peper</li></ul>
+<ul>
+<li>2 middelgrote courgettes (400 g), 1 eetlepel olijfolie, 1 theelepel Provençaalse kruiden, zout, peper</li>
+</ul>
 <h3>Bereiding</h3>
-<ol><li>Plakjes van <strong>1 cm</strong>. Bestrooi met zout en laat <strong>10 minuten</strong> uitlekken. Bak op <strong>190 °C 10-12 minuten</strong>.</li></ol>
-<h3>Tips</h3>
-<p>Uitlekken is essentieel — courgette bevat veel water.</p>
+<ol>
+<li>Snijd ze in <strong>plakken van 1 cm</strong> of in halve maantjes.</li>
+<li>Bestrooi ze licht met zout en laat ze <strong>10 minuten</strong> uitlekken op keukenpapier.</li>
+<li>Dep ze droog en meng ze met de olie en de kruiden.</li>
+<li>Bak <strong>10 tot 12 minuten op 190 °C</strong> en schud halverwege.</li>
+</ol>
+<h3>Tips van de chef</h3>
+<p>Laten uitlekken is essentieel: courgette bevat veel water, en dat zou het karamelliseren tegenhouden.</p>
 
 <h2>4. Paprika</h2>
 <h3>Ingrediënten</h3>
-<ul><li>3 paprika's verschillende kleuren (500 g), olie, paprikapoeder, zout, peper</li></ul>
+<ul>
+<li>3 paprika’s in verschillende kleuren (500 g), 1 eetlepel olijfolie, 1 theelepel zoet paprikapoeder, zout, peper</li>
+</ul>
 <h3>Bereiding</h3>
-<ol><li>Reepjes van <strong>2 cm</strong>. Bak op <strong>190 °C 10-12 minuten</strong>.</li></ol>
-<h3>Tips</h3>
-<p>Rode paprika's zijn het zoetst. Perfect bij <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kip</a>.</p>
+<ol>
+<li>Verwijder de zaadjes en snijd de paprika’s in <strong>reepjes van 2 cm</strong>.</li>
+<li>Meng met de olie, het paprikapoeder, zout en peper.</li>
+<li>Bak <strong>10 tot 12 minuten op 190 °C</strong> en schud halverwege.</li>
+</ol>
+<h3>Tips van de chef</h3>
+<p>Rode paprika’s zijn het zoetst en karamelliseren het best. Combineer de drie kleuren voor een kleurrijk gerecht. Lekker in fajitas of bij <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kip</a>.</p>
 
 <h2>5. Spruitjes</h2>
 <h3>Ingrediënten</h3>
-<ul><li>400 g spruitjes (gehalveerd), olie, Parmezaan, knoflook, zout, peper</li></ul>
+<ul>
+<li>400 g spruitjes, in de lengte gehalveerd</li>
+<li>1 eetlepel olijfolie, 2 eetlepels geraspte Parmezaanse kaas, 1 teentje knoflook (fijngehakt), zout, peper</li>
+</ul>
 <h3>Bereiding</h3>
-<ol><li>Snijvlak naar boven. Bak op <strong>190 °C 12-15 minuten</strong>.</li></ol>
-<h3>Tips</h3>
-<p>Losse blaadjes worden echte chips.</p>
+<ol>
+<li>Snijd het onderste puntje eraf en halveer de spruitjes. Meng met de olie, de knoflook, zout en peper.</li>
+<li>Leg ze met het <strong>snijvlak naar boven</strong> in de mand.</li>
+<li>Bak <strong>12 tot 15 minuten op 190 °C</strong>.</li>
+<li>Bestrooi ze meteen met de Parmezaanse kaas.</li>
+</ol>
+<h3>Tips van de chef</h3>
+<p>Door de spruitjes te halveren, komt er meer oppervlak in contact met de hete lucht. Zo krijg je heerlijk gekaramelliseerde randjes. Losse buitenste blaadjes worden echte chips: haal ze dus niet weg.</p>
 
 <h2>6. Wortels</h2>
 <h3>Ingrediënten</h3>
-<ul><li>4 grote wortels (400 g), olie, honing, komijn, zout, peper</li></ul>
+<ul>
+<li>4 grote wortels (400 g), 1 eetlepel olijfolie, 1 eetlepel honing, ½ theelepel gemalen komijn, zout, peper</li>
+</ul>
 <h3>Bereiding</h3>
-<ol><li>Staafjes van <strong>6 cm x 1 cm</strong>. Bak op <strong>180 °C 15-18 minuten</strong>.</li></ol>
-<h3>Tips</h3>
-<p>Honing karamelliseert de wortels en versterkt hun natuurlijke zoetheid.</p>
+<ol>
+<li>Schil de wortels en snijd ze in <strong>staafjes van 6 cm lang en 1 cm dik</strong> of in <strong>plakjes van 0,5 cm</strong>.</li>
+<li>Meng met de olie, de honing, de komijn, zout en peper.</li>
+<li>Bak <strong>15 tot 18 minuten op 180 °C</strong> en schud halverwege.</li>
+</ol>
+<h3>Tips van de chef</h3>
+<p>De honing karamelliseert de wortels en versterkt hun natuurlijke zoetheid. Komijn en wortel zijn een klassieke combinatie in de Marokkaanse keuken.</p>
 
 <h2>7. Asperges</h2>
 <h3>Ingrediënten</h3>
-<ul><li>300 g groene asperges, olie, knoflook, zout, peper, Parmezaanschilfers</li></ul>
+<ul>
+<li>1 bos groene asperges (300 g), 1 eetlepel olijfolie, 1 teentje knoflook (fijngehakt), zout, peper, schilfers Parmezaanse kaas</li>
+</ul>
 <h3>Bereiding</h3>
-<ol><li>Breek het houtige uiteinde af. Bak op <strong>200 °C 6-8 minuten</strong>.</li></ol>
-<h3>Tips</h3>
-<p>Kies middelgrote dikte — dunne verbranden, dikke blijven rauw van binnen.</p>
+<ol>
+<li>Breek het houtige onderste stuk van elke asperge af.</li>
+<li>Meng met de olie, de knoflook, zout en peper.</li>
+<li>Leg de asperges <strong>haaks op de openingen in de mand</strong>, zodat ze er niet doorheen vallen.</li>
+<li>Bak <strong>6 tot 8 minuten op 200 °C</strong>.</li>
+<li>Serveer met schilfers Parmezaanse kaas.</li>
+</ol>
+<h3>Tips van de chef</h3>
+<p>Asperges uit de airfryer zijn in recordtijd klaar. Kies asperges van gemiddelde dikte: dunne verbranden en dikke blijven in het midden rauw.</p>
 
 <h2>8. Champignons</h2>
 <h3>Ingrediënten</h3>
-<ul><li>300 g champignons, olie, sojasaus, tijm, peper</li></ul>
+<ul>
+<li>300 g champignons (of shiitakes), 1 eetlepel olijfolie, 1 eetlepel sojasaus, 1 theelepel verse tijm, peper</li>
+</ul>
 <h3>Bereiding</h3>
-<ol><li><strong>Niet wassen</strong> — afvegen met een vochtige doek. Bak op <strong>200 °C 8-10 minuten</strong>.</li></ol>
-<h3>Tips</h3>
-<p>Champignons absorberen water als een spons. Sojasaus voegt umami toe.</p>
+<ol>
+<li><strong>Was de champignons niet</strong>, maar veeg ze schoon met een vochtige doek.</li>
+<li>Snijd grote champignons in vieren en laat kleine heel.</li>
+<li>Meng met de olie, de sojasaus, de tijm en peper.</li>
+<li>Bak <strong>8 tot 10 minuten op 200 °C</strong> en schud halverwege.</li>
+</ol>
+<h3>Tips van de chef</h3>
+<p>Champignons zuigen water op als een spons: was ze dus nooit onder de kraan. Sojasaus geeft umami en helpt bij het bruinen.</p>
 
 <h2>9. Aubergine</h2>
 <h3>Ingrediënten</h3>
-<ul><li>2 aubergines (500 g), 2 eetlepels olie, za'atar, zout, peper</li></ul>
+<ul>
+<li>2 middelgrote aubergines (500 g), 2 eetlepels olijfolie, 1 theelepel za’atar, zout, peper</li>
+</ul>
 <h3>Bereiding</h3>
-<ol><li>Plakjes van <strong>1,5 cm</strong>. Bestrooi met zout, laat <strong>20 minuten</strong> uitlekken. Bak op <strong>200 °C 12-15 minuten</strong>.</li></ol>
-<h3>Tips</h3>
-<p>Aubergine absorbeert olie als een spons — het zouten is onmisbaar.</p>
+<ol>
+<li>Snijd ze in <strong>plakken van 1,5 cm</strong> of in <strong>blokjes van 2 cm</strong>.</li>
+<li>Bestrooi met zout en laat <strong>20 minuten</strong> uitlekken.</li>
+<li>Dep ze droog en meng met de olie, de za’atar en peper.</li>
+<li>Bak <strong>12 tot 15 minuten op 200 °C</strong> en draai ze halverwege om.</li>
+</ol>
+<h3>Tips van de chef</h3>
+<p>Aubergine zuigt olie op als een spons: zout de stukken dus vooraf, dan nemen ze minder op. Za’atar (een mengsel van tijm, sumak en sesam) is de ideale kruidenmix voor aubergine.</p>
 
-<h2>10. Sperziebonen</h2>
+<h2>10. Sperziebonen (groene boontjes)</h2>
 <h3>Ingrediënten</h3>
-<ul><li>300 g sperziebonen, sesamolie, sojasaus, knoflook, sesamzaadjes</li></ul>
+<ul>
+<li>300 g verse sperziebonen (puntjes eraf), 1 eetlepel sesamolie, 1 eetlepel sojasaus, 1 teentje knoflook (fijngehakt), 1 theelepel sesamzaad</li>
+</ul>
 <h3>Bereiding</h3>
-<ol><li>Bak op <strong>200 °C 8-10 minuten</strong>. Bestrooi met sesam.</li></ol>
-<h3>Tips</h3>
-<p>Ze moeten licht knapperig blijven. Perfect bij <a href="/nl/blog/recettes-poulet-croustillant-airfryer">kip satay</a>.</p>
+<ol>
+<li>Haal de puntjes van de bonen en dep ze droog.</li>
+<li>Meng met de sesamolie, de sojasaus en de knoflook.</li>
+<li>Bak <strong>8 tot 10 minuten op 200 °C</strong> en schud halverwege.</li>
+<li>Bestrooi met het sesamzaad.</li>
+</ol>
+<h3>Tips van de chef</h3>
+<p>Sesamolie en sojasaus geven de bonen een Aziatische smaak. Ze moeten nog licht knapperig zijn. Perfect bij <a href="/nl/blog/recettes-poulet-croustillant-airfryer">kipsaté</a>.</p>
 
-<h2>Overzichtstabel</h2>
+<h2>Tabel met temperaturen en tijden</h2>
 <table>
 <thead>
-<tr><th>Groente</th><th>Snit</th><th>Temperatuur</th><th>Tijd</th><th>Olie</th></tr>
+<tr><th>Groente</th><th>Snijwijze</th><th>Temperatuur</th><th>Tijd</th><th>Olie</th></tr>
 </thead>
 <tbody>
-<tr><td>Broccoli</td><td>3-4 cm roosjes</td><td>190 °C</td><td>8-10 min</td><td>1 el</td></tr>
-<tr><td>Bloemkool</td><td>3 cm roosjes</td><td>200 °C</td><td>12-15 min</td><td>1 el</td></tr>
-<tr><td>Courgette</td><td>1 cm plakjes</td><td>190 °C</td><td>10-12 min</td><td>1 el</td></tr>
-<tr><td>Paprika</td><td>2 cm reepjes</td><td>190 °C</td><td>10-12 min</td><td>1 el</td></tr>
-<tr><td>Spruitjes</td><td>Gehalveerd</td><td>190 °C</td><td>12-15 min</td><td>1 el</td></tr>
-<tr><td>Wortels</td><td>1 cm staafjes</td><td>180 °C</td><td>15-18 min</td><td>1 el</td></tr>
-<tr><td>Asperges</td><td>Heel</td><td>200 °C</td><td>6-8 min</td><td>1 el</td></tr>
-<tr><td>Champignons</td><td>Kwarten</td><td>200 °C</td><td>8-10 min</td><td>1 el</td></tr>
-<tr><td>Aubergine</td><td>1,5 cm plakjes</td><td>200 °C</td><td>12-15 min</td><td>2 el</td></tr>
-<tr><td>Sperziebonen</td><td>Heel</td><td>200 °C</td><td>8-10 min</td><td>1 el</td></tr>
+<tr><td>Broccoli</td><td>Roosjes van 3–4 cm</td><td>190 °C</td><td>8–10 min</td><td>1 el</td></tr>
+<tr><td>Bloemkool</td><td>Roosjes van 3 cm</td><td>200 °C</td><td>12–15 min</td><td>1 el</td></tr>
+<tr><td>Courgette</td><td>Plakken van 1 cm</td><td>190 °C</td><td>10–12 min</td><td>1 el</td></tr>
+<tr><td>Paprika</td><td>Reepjes van 2 cm</td><td>190 °C</td><td>10–12 min</td><td>1 el</td></tr>
+<tr><td>Spruitjes</td><td>Gehalveerd</td><td>190 °C</td><td>12–15 min</td><td>1 el</td></tr>
+<tr><td>Wortels</td><td>Staafjes van 1 cm</td><td>180 °C</td><td>15–18 min</td><td>1 el</td></tr>
+<tr><td>Asperges</td><td>Heel (zonder houtig eind)</td><td>200 °C</td><td>6–8 min</td><td>1 el</td></tr>
+<tr><td>Champignons</td><td>In vieren of heel</td><td>200 °C</td><td>8–10 min</td><td>1 el</td></tr>
+<tr><td>Aubergine</td><td>Plakken van 1,5 cm</td><td>200 °C</td><td>12–15 min</td><td>2 el</td></tr>
+<tr><td>Sperziebonen</td><td>Heel (puntjes eraf)</td><td>200 °C</td><td>8–10 min</td><td>1 el</td></tr>
 </tbody>
 </table>
 
 <h2>Algemene tips</h2>
 <ul>
-<li><strong>Kruid voor het bakken</strong> — specerijen hechten beter aan olie.</li>
-<li><strong>Dichte groenten duren langer</strong> — wortels en spruitjes meer dan courgette.</li>
-<li><strong>Diepvriesgroenten werken ook</strong> — voeg 2-3 minuten extra toe.</li>
+<li><strong>Kruid vóór het bakken</strong>: specerijen blijven tijdens het bakken beter aan de olie hangen.</li>
+<li><strong>Stevige groenten hebben meer tijd nodig</strong>: wortels en spruitjes moeten langer in de airfryer dan courgette of asperges.</li>
+<li><strong>Combineer groenten die even stevig zijn</strong>: dan hebben ze dezelfde baktijd als je ze samen bereidt.</li>
+<li><strong>Diepvriesgroenten lukken ook</strong>: bak ze 2 tot 3 minuten langer, ontdooien is niet nodig.</li>
 </ul>
-<p>Deze groenten zijn de perfecte basis voor een <a href="/nl/blog/meal-prep-airfryer-semaine">wekelijkse meal prep</a>. Combineer met <a href="/nl/blog/recettes-frites-parfaites-airfryer">frietjes</a> en <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kip</a> voor complete maaltijden.</p>
+<p>Deze gegrilde groenten zijn een ideale basis voor <a href="/nl/blog/meal-prep-airfryer-semaine">meal prep voor de hele week</a>. Combineer ze met onze <a href="/nl/blog/recettes-frites-parfaites-airfryer">frietrecepten</a> en <a href="/nl/blog/recettes-poulet-croustillant-airfryer">kiprecepten</a> voor complete maaltijden.</p>
 
-<h2>Voedingswaarden van gegrilde groenten (per 200 g gegaard)</h2>
+<h2>Voedingswaarden van je gegrilde groenten (per 200 g gegaard)</h2>
 <table>
-<thead><tr><th>Groente</th><th>Calorieën</th><th>Vezels</th><th>Vitamine C</th><th>Kalium</th><th>Voornaamste gezondheidsbaat</th></tr></thead>
+<thead><tr><th>Groente</th><th>Calorieën</th><th>Vezels</th><th>Vitamine C</th><th>Kalium</th><th>Belangrijkste gezondheidsvoordeel</th></tr></thead>
 <tbody>
 <tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% ADH)</td><td>460 mg</td><td>Antioxidanten, vitamine K</td></tr>
 <tr><td>Bloemkool</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% ADH)</td><td>400 mg</td><td>Ontstekingsremmend, spijsvertering</td></tr>
-<tr><td>Courgette</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hydratatie, zeer weinig calorieën</td></tr>
-<tr><td>Paprika</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% ADH)</td><td>420 mg</td><td>Maximale vitamine C, oogezondheid</td></tr>
+<tr><td>Courgette</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Veel vocht, heel weinig calorieën</td></tr>
+<tr><td>Paprika</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% ADH)</td><td>420 mg</td><td>Veel vitamine C, goed voor de ogen</td></tr>
 <tr><td>Asperges</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Foliumzuur, vochtafdrijvend</td></tr>
 </tbody>
 </table>
 
-<h2>5 express groentemixen voor de hele week</h2>
+<h2>5 snelle groentemixen voor de hele week</h2>
 <ul>
-<li><strong>Mediterrane mix:</strong> courgette + paprika + aubergine + kerstomaatjes. 180°C, 15 min. Perfect bij kip.</li>
-<li><strong>Kruisbloemige mix:</strong> broccoli + bloemkool + spruitjes. 190°C, 16 min. Ideaal voor meal prep.</li>
-<li><strong>Lente mix:</strong> asperges + champignons + sperziebonen. 200°C, 8 min. Delicaat en snel.</li>
-<li><strong>Herfst mix:</strong> wortels + pompoen + rode uien. 180°C, 20 min. Zoet-hartige smaken.</li>
-<li><strong>Aziatische mix:</strong> pak choi + edamame + shiitake + sesam. 190°C, 10 min. Afmaken met sojasaus.</li>
+<li><strong>Mediterrane mix:</strong> courgette + paprika + aubergine + kerstomaatjes. 180 °C, 15 min. Perfect bij kip.</li>
+<li><strong>Mix van koolsoorten:</strong> broccoli + bloemkool + spruitjes. 190 °C, 16 min. Ideaal voor meal prep.</li>
+<li><strong>Voorjaarsmix:</strong> asperges + champignons + sperziebonen. 200 °C, 8 min. Verfijnd en snel.</li>
+<li><strong>Herfstmix:</strong> wortels + pompoen + rode ui. 180 °C, 20 min. Zoet en hartig.</li>
+<li><strong>Aziatische mix:</strong> paksoi + edamame + shiitakes + sesam. 190 °C, 10 min. Maak af met sojasaus.</li>
 </ul>`,
     pl: `<h2>Wstęp</h2>
 <p>Frytkownica beztłuszczowa świetnie nadaje się do pieczenia warzyw. Krążące w komorze bardzo gorące powietrze powoduje <strong>karmelizację powierzchni</strong>, która wydobywa naturalny smak warzyw. Jednocześnie warzywa zachowują znacznie więcej składników odżywczych niż przy gotowaniu w wodzie. W zaledwie 10–20 minut przygotujesz grillowane warzywa równie smaczne jak z piekarnika – praktycznie bez czekania na nagrzanie i przy mniejszym zużyciu energii.</p>
@@ -1968,11 +2246,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Quels légumes sont les meilleurs à cuire dans un airfryer ?',
-        en: 'Which vegetables are best for cooking in an air fryer?',
+        en: 'What are the best vegetables to cook in an air fryer?',
         de: 'Welches Gemüse eignet sich am besten für die Heißluftfritteuse?',
-        es: '¿Qué verduras son las mejores para cocinar en la freidora de aire?',
-        it: 'Quali verdure sono le migliori da cuocere nella friggitrice ad aria?',
-        nl: 'Welke groenten zijn het beste om te bereiden in de airfryer?',
+        es: '¿Qué verduras salen mejor en la freidora de aire?',
+        it: 'Quali sono le verdure migliori da cuocere nella friggitrice ad aria?',
+        nl: 'Welke groenten kun je het best in de airfryer bereiden?',
         pl: 'Jakie warzywa najlepiej piec we frytkownicy beztłuszczowej?',
         sv: 'Vilka grönsaker blir bäst i airfryer?',
         us: 'What vegetables are best in an air fryer?',
@@ -1980,11 +2258,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Les légumes qui caramélisent bien sont les meilleurs : brocoli, chou-fleur, choux de Bruxelles, courgettes, poivrons et carottes. Ils développent une croûte dorée et savoureuse. Les légumes à haute teneur en eau comme le concombre et la laitue ne conviennent pas. Les champignons et asperges sont aussi d\'excellents choix.',
-        en: 'Vegetables that caramelize well work best: broccoli, cauliflower, Brussels sprouts, zucchini, peppers, and carrots. They develop a golden, flavourful crust. High-water-content vegetables like cucumber and lettuce are not suitable. Mushrooms and asparagus are also excellent choices for air frying.',
-        de: 'Gemüse, das gut karamellisiert, eignet sich am besten: Brokkoli, Blumenkohl, Rosenkohl, Zucchini, Paprika und Karotten. Sie bilden eine goldene, aromatische Kruste. Wasserreiches Gemüse wie Gurke und Salat ist ungeeignet. Pilze und Spargel sind ebenfalls ausgezeichnete Optionen.',
-        es: 'Las verduras que caramelizan bien funcionan mejor: brócoli, coliflor, coles de Bruselas, calabacín, pimientos y zanahorias. Desarrollan una costra dorada y sabrosa. Las verduras con mucha agua como pepino y lechuga no son adecuadas. Los champiñones y espárragos también son excelentes opciones.',
-        it: 'Le verdure che caramellizzano bene funzionano meglio: broccoli, cavolfiore, cavolini di Bruxelles, zucchine, peperoni e carote. Sviluppano una crosta dorata e saporita. Le verdure ad alto contenuto d\'acqua come cetriolo e lattuga non sono adatte. Funghi e asparagi sono ottime scelte.',
-        nl: 'Groenten die goed karamelliseren werken het best: broccoli, bloemkool, spruitjes, courgette, paprika en wortels. Ze ontwikkelen een gouden, smaakvolle korst. Groenten met veel water zoals komkommer en sla zijn niet geschikt. Champignons en asperges zijn ook uitstekende keuzes.',
+        en: 'Vegetables that caramelise well work best: broccoli, cauliflower, Brussels sprouts, courgettes, peppers and carrots. They develop a tasty golden crust. Vegetables with a high water content, such as cucumber and lettuce, aren\'t suitable. Mushrooms and asparagus are also excellent choices.',
+        de: 'Am besten eignet sich Gemüse, das gut karamellisiert: Brokkoli, Blumenkohl, Rosenkohl, Zucchini, Paprika und Karotten. Es bekommt eine goldbraune, aromatische Kruste. Sehr wasserreiches Gemüse wie Gurke und Blattsalat ist ungeeignet. Pilze und Spargel sind ebenfalls eine ausgezeichnete Wahl.',
+        es: 'Las que se caramelizan bien: brócoli, coliflor, coles de Bruselas, calabacín, pimientos y zanahorias. Se les forma una costra dorada y sabrosa. Las verduras con mucha agua, como el pepino o la lechuga, no sirven. Los champiñones y los espárragos también son muy buena opción.',
+        it: 'Le migliori sono quelle che caramellano bene: broccoli, cavolfiore, cavolini di Bruxelles, zucchine, peperoni e carote, che formano una crosticina dorata e saporita. Anche funghi e asparagi sono ottime scelte. Le verdure molto ricche d\'acqua, come cetrioli e lattuga, invece non sono adatte.',
+        nl: 'Groenten die goed karamelliseren, zijn het meest geschikt: broccoli, bloemkool, spruitjes, courgette, paprika en wortels. Ze krijgen een goudbruin, smaakvol korstje. Groenten met veel water, zoals komkommer en sla, zijn niet geschikt. Champignons en asperges zijn ook uitstekende keuzes.',
         pl: 'Najlepiej sprawdzają się warzywa, które dobrze się karmelizują: brokuły, kalafior, brukselka, cukinia, papryka i marchew. Pokrywają się złocistą, aromatyczną skórką. Warzywa z dużą zawartością wody, takie jak ogórek czy sałata, się nie nadają. Doskonałym wyborem są też pieczarki i szparagi.',
         sv: 'De grönsaker som karamelliseras fint blir bäst: broccoli, blomkål, brysselkål, zucchini, paprika och morötter. De får en gyllene och smakrik yta. Grönsaker med hög vattenhalt, som gurka och sallad, passar inte. Svamp och sparris är också utmärkta val.',
         us: 'Vegetables that caramelize well work best: broccoli, cauliflower, Brussels sprouts, zucchini, bell peppers and carrots. They develop a golden, flavorful crust. Watery vegetables like cucumber and lettuce don\'t work. Mushrooms and asparagus are also excellent choices for air frying.',
@@ -1994,11 +2272,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Peut-on cuire des légumes surgelés dans l\'airfryer ?',
-        en: 'Can you cook frozen vegetables in the air fryer?',
-        de: 'Kann man gefrorenes Gemüse in der Heißluftfritteuse zubereiten?',
+        en: 'Can you cook frozen vegetables in an air fryer?',
+        de: 'Kann man Tiefkühlgemüse in der Heißluftfritteuse zubereiten?',
         es: '¿Se pueden cocinar verduras congeladas en la freidora de aire?',
         it: 'Si possono cuocere verdure surgelate nella friggitrice ad aria?',
-        nl: 'Kun je diepvriesgroenten bereiden in de airfryer?',
+        nl: 'Kun je diepvriesgroenten in de airfryer bereiden?',
         pl: 'Czy we frytkownicy beztłuszczowej można piec mrożone warzywa?',
         sv: 'Går det att tillaga frysta grönsaker i airfryern?',
         us: 'Can you cook frozen vegetables in an air fryer?',
@@ -2006,11 +2284,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Oui, les légumes surgelés cuisent très bien à l\'airfryer. Mettez-les directement sans décongélation. Ajoutez 2 à 3 minutes au temps de cuisson habituel. Les brocolis, haricots verts et choux-fleur surgelés donnent d\'excellents résultats. Évitez les mélanges avec des légumes à eau comme les épinards qui deviennent pâteux.',
-        en: 'Yes, frozen vegetables cook very well in the air fryer. Place them directly without thawing. Add 2 to 3 extra minutes to the usual cooking time. Frozen broccoli, green beans, and cauliflower give excellent results. Avoid mixes containing high-water vegetables like spinach that become mushy.',
-        de: 'Ja, gefrorenes Gemüse gart sehr gut in der Heißluftfritteuse. Geben Sie es direkt ohne Auftauen hinein. Fügen Sie 2-3 Minuten zur üblichen Garzeit hinzu. Gefrorener Brokkoli, grüne Bohnen und Blumenkohl liefern ausgezeichnete Ergebnisse. Vermeiden Sie Mischungen mit wasserreichem Gemüse wie Spinat.',
-        es: 'Sí, las verduras congeladas se cocinan muy bien en la freidora de aire. Ponlas directamente sin descongelar. Añade 2-3 minutos al tiempo habitual. El brócoli, las judías verdes y la coliflor congelados dan excelentes resultados. Evita mezclas con verduras acuosas como las espinacas que quedan pastosas.',
-        it: 'Sì, le verdure surgelate cuociono molto bene nella friggitrice ad aria. Mettile direttamente senza scongelare. Aggiungi 2-3 minuti al tempo di cottura abituale. Broccoli, fagiolini e cavolfiore surgelati danno ottimi risultati. Evita miscele con verdure acquose come gli spinaci che diventano molli.',
-        nl: 'Ja, diepvriesgroenten bereid je prima in de airfryer. Doe ze er direct in zonder ontdooien. Voeg 2-3 minuten toe aan de gebruikelijke baktijd. Diepvries broccoli, sperziebonen en bloemkool geven uitstekende resultaten. Vermijd mengsels met waterige groenten zoals spinazie die papperig worden.',
+        en: 'Yes, frozen vegetables cook very well in an air fryer. Put them straight in without defrosting and add 2 to 3 minutes to the usual cooking time. Frozen broccoli, green beans and cauliflower give excellent results. Avoid mixes containing watery vegetables such as spinach, which turn mushy.',
+        de: 'Ja, Tiefkühlgemüse gart in der Heißluftfritteuse sehr gut. Geben Sie es gefroren in den Korb, ohne es aufzutauen, und rechnen Sie 2 bis 3 Minuten mehr als üblich. Brokkoli, grüne Bohnen und Blumenkohl aus der Tiefkühltruhe gelingen besonders gut. Meiden Sie Mischungen mit wasserreichem Gemüse wie Spinat, das matschig wird.',
+        es: 'Sí, y quedan muy bien. Ponlas directamente, sin descongelar, y añade de 2 a 3 minutos al tiempo habitual. El brócoli, las judías verdes y la coliflor congelados dan muy buen resultado. Evita las mezclas con verduras muy acuosas, como las espinacas, que quedan pastosas.',
+        it: 'Sì, nella friggitrice ad aria le verdure surgelate vengono molto bene. Mettile nel cestello così come sono, senza scongelarle, e aggiungi 2-3 minuti al tempo di cottura abituale. Broccoli, fagiolini e cavolfiore surgelati danno ottimi risultati. Evita i mix con verdure ricche d\'acqua come gli spinaci, che diventano una poltiglia.',
+        nl: 'Ja, diepvriesgroenten worden heel goed gaar in de airfryer. Doe ze er direct in, zonder ze te ontdooien, en reken op 2 tot 3 minuten extra baktijd. Bevroren broccoli, sperziebonen en bloemkool geven uitstekende resultaten. Vermijd mengsels met waterrijke groenten zoals spinazie, want die worden papperig.',
         pl: 'Tak, mrożone warzywa świetnie wychodzą z frytkownicy. Wkładaj je od razu, bez rozmrażania, i wydłuż zwykły czas pieczenia o 2–3 minuty. Doskonałe efekty dają mrożone brokuły, fasolka szparagowa i kalafior. Unikaj mieszanek z warzywami, które zawierają dużo wody, takimi jak szpinak – robi się papkowaty.',
         sv: 'Ja, frysta grönsaker blir mycket bra i airfryern. Lägg dem direkt i korgen utan att tina dem. Räkna med 2–3 minuter längre än den vanliga tillagningstiden. Fryst broccoli, haricots verts och blomkål ger utmärkt resultat. Undvik blandningar med vattniga grönsaker som spenat, som blir mosiga.',
         us: 'Yes, frozen vegetables cook very well in an air fryer. Put them straight into the basket without thawing, and add 2 to 3 minutes to the usual cook time. Frozen broccoli, green beans and cauliflower turn out great. Avoid mixes with watery vegetables like spinach, which turn mushy.',
@@ -2022,8 +2300,8 @@ export const article: BlogArticle = {
         fr: 'Quel assaisonnement utiliser pour les légumes à l\'airfryer ?',
         en: 'What seasoning should you use for air fryer vegetables?',
         de: 'Welche Gewürze eignen sich für Gemüse aus der Heißluftfritteuse?',
-        es: '¿Qué condimentos usar para las verduras en la freidora de aire?',
-        it: 'Quali condimenti usare per le verdure nella friggitrice ad aria?',
+        es: '¿Con qué se sazonan las verduras en la freidora de aire?',
+        it: 'Come condire le verdure nella friggitrice ad aria?',
         nl: 'Welke kruiden gebruik je voor groenten in de airfryer?',
         pl: 'Jakich przypraw używać do warzyw z frytkownicy beztłuszczowej?',
         sv: 'Vilka kryddor passar till grönsaker i airfryern?',
@@ -2032,11 +2310,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Assaisonnez avant cuisson pour que les épices adhèrent à l\'huile. Le trio de base : sel, poivre et ail en poudre. Pour varier : paprika fumé, cumin, herbes de Provence, ou parmesan râpé ajouté en fin de cuisson. Un filet de jus de citron après cuisson rehausse toutes les saveurs des légumes grillés.',
-        en: 'Season before cooking so spices stick to the oil. The basic trio: salt, pepper, and garlic powder. For variety, try smoked paprika, cumin, Provencal herbs, or grated Parmesan added in the last 2 minutes. A squeeze of lemon juice after cooking enhances all the flavours of grilled vegetables.',
-        de: 'Würzen Sie vor dem Garen, damit die Gewürze am Öl haften. Das Basis-Trio: Salz, Pfeffer und Knoblauchpulver. Zur Abwechslung: Rauchpaprika, Kreuzkümmel, Kräuter der Provence oder geriebener Parmesan in den letzten 2 Minuten. Ein Spritzer Zitronensaft nach dem Garen hebt alle Aromen hervor.',
-        es: 'Sazona antes de cocinar para que las especias se adhieran al aceite. El trío básico: sal, pimienta y ajo en polvo. Para variar: pimentón ahumado, comino, hierbas provenzales o parmesano rallado añadido al final. Un chorrito de limón después de cocinar realza todos los sabores.',
-        it: 'Condisci prima della cottura affinché le spezie aderiscano all\'olio. Il trio base: sale, pepe e aglio in polvere. Per variare: paprika affumicata, cumino, erbe di Provenza o parmigiano grattugiato aggiunto negli ultimi 2 minuti. Un filo di limone dopo la cottura esalta tutti i sapori.',
-        nl: 'Kruid voor het bakken zodat de specerijen aan de olie hechten. Het basistrio: zout, peper en knoflookpoeder. Voor variatie: gerookte paprika, komijn, Provençaalse kruiden of geraspte Parmezaan in de laatste 2 minuten. Een scheutje citroensap na het bakken versterkt alle smaken.',
+        en: 'Season before cooking so the spices stick to the oil. The basic trio is salt, pepper and garlic powder. For variety, try smoked paprika, cumin, herbes de Provence, or grated Parmesan added at the end of cooking. A squeeze of lemon juice after cooking lifts the flavour of any roasted vegetable.',
+        de: 'Würzen Sie vor dem Garen, dann haften die Gewürze am Öl. Die Grundausstattung: Salz, Pfeffer und Knoblauchpulver. Für Abwechslung sorgen geräuchertes Paprikapulver, Kreuzkümmel, Kräuter der Provence oder geriebener Parmesan, den Sie in den letzten 2 Minuten darüberstreuen. Ein Spritzer Zitronensaft nach dem Garen bringt alle Aromen des gerösteten Gemüses zur Geltung.',
+        es: 'Sazónalas antes de cocinarlas para que las especias se peguen al aceite. El trío básico: sal, pimienta y ajo en polvo. Para variar, prueba con pimentón ahumado, comino, hierbas provenzales o parmesano rallado al final de la cocción. Un chorrito de zumo de limón al sacarlas realza el sabor de cualquier verdura asada.',
+        it: 'Condiscile prima della cottura, così le spezie aderiscono all\'olio. Il trio di base: sale, pepe e aglio in polvere. Per variare, prova paprika affumicata, cumino, erbe di Provenza o parmigiano grattugiato aggiunto a fine cottura. Un filo di succo di limone dopo la cottura esalta il sapore di tutte le verdure grigliate.',
+        nl: 'Kruid de groenten vóór het bakken, zodat de specerijen aan de olie blijven plakken. Het basistrio: zout, peper en knoflookpoeder. Voor variatie: gerookt paprikapoeder, komijn, Provençaalse kruiden of geraspte Parmezaanse kaas in de laatste 2 minuten. Een scheutje citroensap na het bakken maakt de smaak van gegrilde groenten nog beter.',
         pl: 'Przyprawiaj warzywa przed pieczeniem, żeby przyprawy przywarły do oleju. Podstawowy zestaw to sól, pieprz i czosnek granulowany. Dla odmiany sięgnij po wędzoną paprykę, kmin rzymski, zioła prowansalskie albo starty parmezan dodany pod koniec pieczenia. Kilka kropel soku z cytryny po upieczeniu wydobędzie pełnię smaku grillowanych warzyw.',
         sv: 'Krydda före tillagningen så att kryddorna fastnar i oljan. Grundtrion är salt, peppar och vitlökspulver. Vill du variera passar rökt paprikapulver, spiskummin, provensalska örter eller riven parmesan som du strör över på slutet. En skvätt citronsaft efteråt lyfter smaken på alla rostade grönsaker.',
         us: 'Season before cooking so the spices cling to the oil. The basic trio: salt, pepper and garlic powder. For variety, try smoked paprika, cumin, herbes de Provence, or grated Parmesan added in the last 2 minutes. A squeeze of lemon juice after cooking brightens all the flavors of roasted vegetables.',
@@ -2046,11 +2324,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Combien de temps cuire chaque légume dans l\'airfryer ?',
-        en: 'How long does each vegetable take to cook in the air fryer?',
-        de: 'Wie lange braucht jedes Gemüse in der Heißluftfritteuse?',
-        es: '¿Cuánto tiempo tarda cada verdura en la freidora de aire?',
+        en: 'How long does each vegetable take in an air fryer?',
+        de: 'Wie lange braucht welches Gemüse in der Heißluftfritteuse?',
+        es: '¿Cuánto tarda cada verdura en hacerse en la freidora de aire?',
         it: 'Quanto tempo ci vuole per ogni verdura nella friggitrice ad aria?',
-        nl: 'Hoe lang duurt elke groente in de airfryer?',
+        nl: 'Hoe lang moet elke groente in de airfryer?',
         pl: 'Jak długo piec poszczególne warzywa we frytkownicy beztłuszczowej?',
         sv: 'Hur lång tid tar olika grönsaker i airfryern?',
         us: 'How long does each vegetable take in an air fryer?',
@@ -2058,11 +2336,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'À 200°C : asperges et champignons 8-10 min, courgettes et poivrons 10-12 min, brocoli et chou-fleur 12-15 min, choux de Bruxelles 15-18 min, carottes 15-20 min. Les légumes coupés finement cuisent plus vite. Secouez le panier à mi-cuisson. Les temps varient légèrement selon la taille des morceaux.',
-        en: 'At 200°C: asparagus and mushrooms 8-10 min, zucchini and peppers 10-12 min, broccoli and cauliflower 12-15 min, Brussels sprouts 15-18 min, carrots 15-20 min. Thinly cut vegetables cook faster. Shake the basket halfway through. Times vary slightly depending on the size of the pieces.',
-        de: 'Bei 200°C: Spargel und Pilze 8-10 Min, Zucchini und Paprika 10-12 Min, Brokkoli und Blumenkohl 12-15 Min, Rosenkohl 15-18 Min, Karotten 15-20 Min. Dünn geschnittenes Gemüse gart schneller. Korb zur Halbzeit schütteln. Zeiten variieren je nach Stückgröße leicht.',
-        es: 'A 200°C: espárragos y champiñones 8-10 min, calabacín y pimientos 10-12 min, brócoli y coliflor 12-15 min, coles de Bruselas 15-18 min, zanahorias 15-20 min. Las verduras cortadas finas se cocinan más rápido. Agita la cesta a mitad de cocción. Los tiempos varían según el tamaño.',
-        it: 'A 200°C: asparagi e funghi 8-10 min, zucchine e peperoni 10-12 min, broccoli e cavolfiore 12-15 min, cavolini di Bruxelles 15-18 min, carote 15-20 min. Le verdure tagliate fini cuociono prima. Scuoti il cestello a metà cottura. I tempi variano leggermente in base alla dimensione dei pezzi.',
-        nl: 'Op 200°C: asperges en champignons 8-10 min, courgette en paprika 10-12 min, broccoli en bloemkool 12-15 min, spruitjes 15-18 min, wortels 15-20 min. Dun gesneden groenten worden sneller gaar. Schud de mand halverwege. Tijden variëren licht afhankelijk van de grootte van de stukken.',
+        en: 'At 200°C: asparagus and mushrooms 8–10 min, courgettes and peppers 10–12 min, broccoli and cauliflower 12–15 min, Brussels sprouts 15–18 min, carrots 15–20 min. Thinly sliced vegetables cook faster. Shake the basket halfway through. Times vary slightly with the size of the pieces.',
+        de: 'Bei 200 °C: Spargel und Pilze 8–10 Min., Zucchini und Paprika 10–12 Min., Brokkoli und Blumenkohl 12–15 Min., Rosenkohl 15–18 Min., Karotten 15–20 Min. Dünn geschnittenes Gemüse gart schneller. Schütteln Sie den Korb nach der Hälfte der Zeit. Je nach Größe der Stücke weichen die Zeiten leicht ab.',
+        es: 'A 200 °C: espárragos y champiñones, 8-10 min; calabacín y pimientos, 10-12 min; brócoli y coliflor, 12-15 min; coles de Bruselas, 15-18 min, y zanahorias, 15-20 min. Cuanto más finos los trozos, antes se hacen. Agita la cesta a mitad de cocción. Los tiempos cambian un poco según el tamaño de los trozos.',
+        it: 'A 200 °C: asparagi e funghi 8-10 minuti, zucchine e peperoni 10-12 minuti, broccoli e cavolfiore 12-15 minuti, cavolini di Bruxelles 15-18 minuti, carote 15-20 minuti. Le verdure tagliate sottili cuociono prima. Scuoti il cestello a metà cottura. I tempi variano leggermente in base alla grandezza dei pezzi.',
+        nl: 'Op 200 °C: asperges en champignons 8 tot 10 minuten, courgette en paprika 10 tot 12, broccoli en bloemkool 12 tot 15, spruitjes 15 tot 18 en wortels 15 tot 20 minuten. Dun gesneden groenten zijn sneller gaar. Schud de mand halverwege. De tijden verschillen iets, afhankelijk van de grootte van de stukken.',
         pl: 'W 200 °C: szparagi i pieczarki 8–10 min, cukinia i papryka 10–12 min, brokuły i kalafior 12–15 min, brukselka 15–18 min, marchew 15–20 min. Cienko pokrojone warzywa pieką się szybciej. W połowie pieczenia potrząśnij koszykiem. Czas może się nieco różnić w zależności od wielkości kawałków.',
         sv: 'I 200 °C: sparris och svamp 8–10 min, zucchini och paprika 10–12 min, broccoli och blomkål 12–15 min, brysselkål 15–18 min och morötter 15–20 min. Tunt skurna grönsaker blir klara snabbare. Skaka om korgen halvvägs. Tiderna varierar något beroende på hur stora bitarna är.',
         us: 'At 400°F (200°C): asparagus and mushrooms 8 to 10 minutes, zucchini and bell peppers 10 to 12 minutes, broccoli and cauliflower 12 to 15 minutes, Brussels sprouts 15 to 18 minutes, carrots 15 to 20 minutes. Thinly sliced vegetables cook faster. Shake the basket halfway through. Times vary a little with the size of the pieces.',
@@ -2072,7 +2350,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Comment éviter que les légumes soient mous dans l\'airfryer ?',
-        en: 'How do you prevent vegetables from getting soggy in the air fryer?',
+        en: 'How do you stop vegetables going soggy in an air fryer?',
         de: 'Wie verhindert man, dass Gemüse in der Heißluftfritteuse matschig wird?',
         es: '¿Cómo evitar que las verduras queden blandas en la freidora de aire?',
         it: 'Come evitare che le verdure diventino molli nella friggitrice ad aria?',
@@ -2084,11 +2362,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Trois règles essentielles : séchez parfaitement les légumes après lavage, ne surchargez pas le panier pour que l\'air circule librement, et utilisez une température suffisamment élevée (190-200°C). Une fine couche d\'huile favorise la caramélisation. Coupez les morceaux en taille régulière pour une cuisson uniforme.',
-        en: 'Three essential rules: dry vegetables perfectly after washing, do not overcrowd the basket so air circulates freely, and use a sufficiently high temperature of 190-200°C. A thin coat of oil promotes caramelization. Cut pieces to a uniform size for even cooking and better browning across all surfaces.',
-        de: 'Drei wesentliche Regeln: Gemüse nach dem Waschen perfekt trocknen, Korb nicht überfüllen damit die Luft frei zirkuliert, und ausreichend hohe Temperatur verwenden (190-200°C). Eine dünne Ölschicht fördert die Karamellisierung. Stücke gleichmäßig schneiden für einheitliches Garen.',
-        es: 'Tres reglas esenciales: seca las verduras perfectamente después de lavarlas, no sobrecargues la cesta para que el aire circule libremente, y usa una temperatura suficientemente alta (190-200°C). Una fina capa de aceite favorece la caramelización. Corta los trozos de tamaño uniforme.',
-        it: 'Tre regole essenziali: asciuga perfettamente le verdure dopo il lavaggio, non sovraffollare il cestello perché l\'aria circoli liberamente, e usa una temperatura abbastanza alta (190-200°C). Un sottile strato d\'olio favorisce la caramellizzazione. Taglia i pezzi di dimensione uniforme.',
-        nl: 'Drie essentiële regels: droog groenten perfect na het wassen, overlaad de mand niet zodat lucht vrij kan circuleren, en gebruik een voldoende hoge temperatuur (190-200°C). Een dunne laag olie bevordert karamellisatie. Snijd stukken op gelijkmatige grootte voor uniforme bereiding.',
+        en: 'Three key rules: dry the vegetables thoroughly after washing, don\'t overload the basket so the air can circulate freely, and use a high enough temperature (190–200°C). A thin coat of oil helps them caramelise. Cut everything to the same size so it cooks evenly.',
+        de: 'Drei Grundregeln: Trocknen Sie das Gemüse nach dem Waschen gründlich ab, überfüllen Sie den Korb nicht, damit die Luft frei zirkuliert, und wählen Sie eine ausreichend hohe Temperatur (190 bis 200 °C). Eine dünne Ölschicht fördert das Karamellisieren. Schneiden Sie die Stücke gleich groß, damit alles gleichmäßig gart und rundum bräunt.',
+        es: 'Tres reglas básicas: seca muy bien las verduras después de lavarlas, no llenes demasiado la cesta para que el aire circule y usa una temperatura alta (190-200 °C). Una capa fina de aceite ayuda a que se caramelicen. Corta los trozos del mismo tamaño para que se hagan por igual.',
+        it: 'Tre regole fondamentali: asciuga bene le verdure dopo averle lavate, non riempire troppo il cestello perché l\'aria possa circolare e usa una temperatura abbastanza alta (190-200 °C). Un velo d\'olio favorisce la caramellizzazione. Taglia i pezzi della stessa misura, così cuociono in modo uniforme.',
+        nl: 'Drie basisregels: droog de groenten na het wassen heel goed af, doe de mand niet te vol zodat de lucht vrij kan circuleren, en kies een temperatuur die hoog genoeg is (190 tot 200 °C). Een dun laagje olie helpt bij het karamelliseren. Snijd de stukken even groot, dan worden ze gelijkmatig gaar.',
         pl: 'Trzy podstawowe zasady: po umyciu dokładnie osusz warzywa, nie przeładowuj koszyka, żeby powietrze mogło swobodnie krążyć, i ustaw odpowiednio wysoką temperaturę (190–200 °C). Cienka warstwa oleju sprzyja karmelizacji. Krój warzywa na kawałki podobnej wielkości, żeby piekły się równomiernie.',
         sv: 'Tre grundregler: torka grönsakerna ordentligt efter sköljningen, fyll inte korgen för mycket så att luften kan cirkulera fritt, och använd tillräckligt hög temperatur (190–200 °C). Ett tunt lager olja gör att grönsakerna karamelliseras bättre. Skär bitarna lika stora så att de blir jämnt tillagade.',
         us: 'Three essential rules: dry the vegetables thoroughly after washing, don\'t overcrowd the basket so the air can circulate freely, and use a high enough temperature, 375 to 400°F (190 to 200°C). A thin coat of oil helps them caramelize. Cut the pieces to the same size for even cooking and better browning all over.',

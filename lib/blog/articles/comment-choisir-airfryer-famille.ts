@@ -16,7 +16,7 @@ export const article: BlogArticle = {
         en: 'A large batch of crispy chicken pieces on an air fryer rack',
         de: 'Große Portion knuspriger Hähnchenstücke auf dem Rost einer Heißluftfritteuse',
         es: 'Una gran tanda de trozos de pollo crujiente en la rejilla de una freidora de aire',
-        it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
+        it: 'Pezzi di pollo croccanti in quantità sulla griglia di una friggitrice ad aria',
         nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
         pl: 'Duża porcja chrupiących kawałków kurczaka na ruszcie frytkownicy beztłuszczowej',
         sv: 'En stor sats krispiga kycklingbitar på gallret i en airfryer',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Comment Choisir un Airfryer pour sa Famille : Guide Complet 2026',
-    en: 'How to Choose an Air Fryer for Your Family: Complete Guide 2026',
-    de: 'Heißluftfritteuse für die Familie wählen: Vollständiger Ratgeber 2026',
-    es: 'Cómo Elegir una Freidora de Aire para tu Familia: Guía Completa 2026',
-    it: 'Come Scegliere una Friggitrice ad Aria per la Famiglia: Guida Completa 2026',
-    nl: 'Hoe Kies je een Airfryer voor je Gezin: Complete Gids 2026',
+    en: 'How to Choose an Air Fryer for Your Family: The Complete 2026 Guide',
+    de: 'Airfryer für die Familie richtig wählen: der große Ratgeber 2026',
+    es: 'Freidora de aire para familias: cómo elegirla en 2026',
+    it: 'Come scegliere la friggitrice ad aria per la famiglia: guida completa 2026',
+    nl: 'Airfryer kiezen voor je gezin: complete gids 2026',
     pl: 'Jak wybrać frytkownicę beztłuszczową dla rodziny: kompletny poradnik 2026',
     sv: 'Så väljer du rätt airfryer till familjen: komplett guide 2026',
     us: 'How to Choose the Best Air Fryer for Your Family (2026 Guide)',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Découvrez comment choisir l\'airfryer idéal selon la taille de votre famille, votre budget et vos besoins. Comparatif des capacités, fonctionnalités et meilleurs modèles 2026.',
-    en: 'Discover how to choose the ideal air fryer based on your family size, budget, and needs. Comparison of capacities, features, and best models for 2026.',
-    de: 'Erfahren Sie, wie Sie die ideale Heißluftfritteuse für Ihre Familiengröße, Ihr Budget und Ihre Bedürfnisse auswählen. Vergleich von Kapazitäten, Funktionen und besten Modellen 2026.',
-    es: 'Descubre cómo elegir la freidora de aire ideal según el tamaño de tu familia, tu presupuesto y tus necesidades. Comparativa de capacidades, funcionalidades y mejores modelos 2026.',
-    it: 'Scopri come scegliere la friggitrice ad aria ideale in base alle dimensioni della tua famiglia, al budget e alle esigenze. Confronto di capacità, funzionalità e migliori modelli 2026.',
-    nl: 'Ontdek hoe je de ideale airfryer kiest op basis van je gezinsgrootte, budget en behoeften. Vergelijking van capaciteiten, functies en beste modellen van 2026.',
+    en: 'How to choose the right air fryer for your family size, budget and needs, with capacities, features and the best 2026 models compared.',
+    de: 'Welcher Airfryer passt zu Ihrer Familie? So wählen Sie die richtige Heißluftfritteuse nach Familiengröße, Budget und Bedarf: Fassungsvermögen, Funktionen und die besten Modelle 2026 im Vergleich.',
+    es: 'Te explicamos cómo elegir la freidora de aire ideal según cuántos sois en casa, tu presupuesto y lo que cocinas. Comparamos capacidades, funciones y los mejores modelos de 2026.',
+    it: 'Come scegliere la friggitrice ad aria giusta in base a quanti siete in famiglia, al budget e alle tue esigenze: capacità, funzioni e migliori modelli del 2026 a confronto.',
+    nl: 'Zo kies je een airfryer die past bij de grootte van je gezin, je budget en je wensen. Inhoud, vermogen, functies en de beste modellen van 2026 op een rij.',
     pl: 'Jak dobrać frytkownicę beztłuszczową do liczby domowników, budżetu i potrzeb? Porównujemy pojemności, funkcje i najlepsze modele 2026 roku.',
     sv: 'Så hittar du rätt airfryer efter familjens storlek, din budget och dina behov. Vi jämför volym, funktioner och de bästa modellerna 2026.',
     us: 'How to pick the right air fryer for your family\'s size, budget and needs: capacities compared, the features that matter and the best models of 2026.',
@@ -216,34 +216,34 @@ export const article: BlogArticle = {
 </ul>
 <p>Pour approfondir, consultez notre <a href="/fr/guides/airfryers">guide complet des airfryers</a> ainsi que notre <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four traditionnel</a> pour comprendre les avantages de chaque appareil.</p>`,
 
-    en: `<h2>Why choosing a family air fryer requires careful consideration</h2>
-<p>Buying an air fryer for a family of four versus a couple are entirely different decisions. Basket capacity, power output, features, and budget all vary significantly depending on your actual needs. The choice is huge in 2026, and it's easy to make the wrong choice without knowing exactly what to look for.</p>
-<p>This guide walks you through the decision step by step, with concrete recommendations based on household size, cooking habits, and budget. Our recommendations are based on manufacturer specifications, independent reviews and verified buyer feedback.</p>
+    en: `<h2>Why a family air fryer needs some thought</h2>
+<p>Buying an air fryer for a family of four is a very different job from buying one for a couple. Basket capacity, power, features and budget all depend on what you actually need. There is a huge choice in 2026, and it's easy to get it wrong if you don't know exactly what to look for.</p>
+<p>This guide takes you through it step by step, with practical recommendations based on the size of your household, how you cook and your budget. Our recommendations are based on manufacturer specifications, independent reviews and verified buyer feedback.</p>
 
-<h2>Step 1: Determine the ideal capacity for your family</h2>
-<p>Capacity is the number one criterion. A basket that's too small forces you to cook in multiple batches, which negates the air fryer's speed advantage. Conversely, an oversized model wastes energy and takes up more counter space.</p>
+<h2>Step 1: Work out the right capacity for your family</h2>
+<p>Capacity comes first. A basket that's too small means cooking in several batches, which cancels out the air fryer's speed advantage. On the other hand, an oversized model uses more energy and takes up more worktop space.</p>
 
-<h3>Recommended capacity table</h3>
+<h3>Recommended capacity by household size</h3>
 <table>
 <thead>
-<tr><th>Household size</th><th>Recommended capacity</th><th>Portion example</th><th>Recommended models</th></tr>
+<tr><th>Household size</th><th>Recommended capacity</th><th>Example quantity</th><th>Recommended models</th></tr>
 </thead>
 <tbody>
-<tr><td>1-2 people</td><td>2 to 4 litres</td><td>400g chips, 2 chicken thighs</td><td>Xiaomi Smart Air Fryer Pro 4L</td></tr>
-<tr><td>3-4 people</td><td>4.5 to 6 litres</td><td>800g chips, 4 chicken drumsticks</td><td>Philips Airfryer 3000 XL, Cosori Dual Blaze</td></tr>
-<tr><td>5-6 people</td><td>6 to 8 litres</td><td>1.2 kg chips, medium whole chicken</td><td>Ninja Foodi MAX Dual Zone</td></tr>
-<tr><td>6+ people</td><td>8 litres and above</td><td>1.5 kg chips, large roast chicken</td><td>Ninja Foodi FlexDrawer, Philips Combi XXL</td></tr>
+<tr><td>1–2 people</td><td>2 to 4 litres</td><td>400 g of chips, 2 chicken thighs</td><td>Xiaomi Smart Air Fryer Pro 4L</td></tr>
+<tr><td>3–4 people</td><td>4.5 to 6 litres</td><td>800 g of chips, 4 chicken drumsticks</td><td>Philips Airfryer 3000 XL, Cosori Dual Blaze</td></tr>
+<tr><td>5–6 people</td><td>6 to 8 litres</td><td>1.2 kg of chips, a medium whole chicken</td><td>Ninja Foodi MAX Dual Zone</td></tr>
+<tr><td>6+ people</td><td>8 litres or more</td><td>1.5 kg of chips, a large roast chicken</td><td>Ninja Foodi FlexDrawer, Philips Combi XXL</td></tr>
 </tbody>
 </table>
 
-<p><strong>Practical rule:</strong> allow roughly 1.5 litres of capacity per person for chips, and 2 litres per person if you regularly cook whole cuts of meat.</p>
+<p><strong>Rule of thumb:</strong> allow about 1.5 litres of capacity per person for chips, and 2 litres per person if you often cook whole joints of meat.</p>
 
 <h3>Single basket or dual basket?</h3>
-<p>For families of four or more, a <a href="/en/blog/airfryer-simple-vs-double-panier">dual-basket air fryer</a> offers a significant advantage: you can cook the main course and the side dish simultaneously. For example, nuggets in one compartment and roasted vegetables in the other, each at different temperatures and cooking times.</p>
-<p>The Ninja Foodi MAX Dual Zone (see our <a href="/en/blog/test-ninja-foodi-max-dual-zone">detailed review</a>) and its stacked-drawer sibling, the Ninja Foodi MAX Double Stack XL, are benchmarks in this category, each with two 4.75-litre zones.</p>
+<p>For families of four or more, a <a href="/en/blog/airfryer-simple-vs-double-panier">dual-basket air fryer</a> has a big advantage: you can cook the main dish and the side at the same time. For example, nuggets in one drawer and roasted vegetables in the other, each at its own temperature and time.</p>
+<p>The Ninja Foodi MAX Dual Zone (see our <a href="/en/blog/test-ninja-foodi-max-dual-zone">detailed review</a>) and its stacked-drawer sibling, the Ninja Foodi MAX Double Stack XL, are the benchmarks in this category, each with two 4.75-litre zones.</p>
 
-<h2>Step 2: Power output matters more than you think</h2>
-<p>Wattage determines how fast the unit heats up and how effectively it cooks. An underpowered model takes longer to reach temperature and produces less crispy results.</p>
+<h2>Step 2: Power matters more than you might think</h2>
+<p>Wattage decides how quickly the air fryer heats up and how well it cooks. An underpowered model takes longer to reach temperature and gives less crispy results.</p>
 
 <h3>Recommended wattage by capacity</h3>
 <table>
@@ -251,233 +251,249 @@ export const article: BlogArticle = {
 <tr><th>Capacity</th><th>Minimum wattage</th><th>Ideal wattage</th></tr>
 </thead>
 <tbody>
-<tr><td>2-3 litres</td><td>1,000 W</td><td>1,200-1,400 W</td></tr>
-<tr><td>4-5 litres</td><td>1,400 W</td><td>1,600-1,800 W</td></tr>
-<tr><td>6-8 litres</td><td>1,700 W</td><td>1,800-2,200 W</td></tr>
-<tr><td>8+ litres</td><td>2,000 W</td><td>2,200-2,500 W</td></tr>
+<tr><td>2–3 litres</td><td>1,000 W</td><td>1,200–1,400 W</td></tr>
+<tr><td>4–5 litres</td><td>1,400 W</td><td>1,600–1,800 W</td></tr>
+<tr><td>6–8 litres</td><td>1,700 W</td><td>1,800–2,200 W</td></tr>
+<tr><td>8+ litres</td><td>2,000 W</td><td>2,200–2,500 W</td></tr>
 </tbody>
 </table>
 
-<p>Higher wattage doesn't mean excessive energy consumption. A 2,200 W air fryer cooking food in 15 minutes actually uses less electricity than a 1,400 W model that takes 25 minutes for the same result. Explore this topic in our <a href="/en/blog/airfryer-economies-energie">air fryer energy savings guide</a>.</p>
+<p>A higher wattage doesn't mean higher energy use. A 2,200 W air fryer that cooks your food in 15 minutes uses less electricity than a 1,400 W model that takes 25 minutes to do the same job. For more on this, see our <a href="/en/blog/airfryer-economies-energie">guide to saving energy with an air fryer</a>.</p>
 
-<h2>Step 3: Features that genuinely matter</h2>
-<h3>Essential features</h3>
+<h2>Step 3: The features that really matter</h2>
+<h3>Essential features (must-haves)</h3>
 <ul>
-<li><strong>Timer with auto shut-off:</strong> critical for safety and convenience.</li>
-<li><strong>Adjustable thermostat:</strong> 80°C to 200°C minimum. Some models reach 230°C for searing meat.</li>
-<li><strong>Removable non-stick basket:</strong> greatly simplifies cleaning. Check that it's dishwasher-safe.</li>
-<li><strong>Shake reminder:</strong> an audible mid-cook alert to turn food for even browning.</li>
+<li><strong>Timer with automatic shut-off:</strong> essential for safety and convenience. Every decent model has one in 2026.</li>
+<li><strong>Adjustable temperature:</strong> at least 80°C to 200°C. Some models go up to 230°C, which lets you sear meat.</li>
+<li><strong>Removable non-stick basket:</strong> makes cleaning much easier. Check that it's dishwasher-safe.</li>
+<li><strong>Shake reminder:</strong> a beep halfway through to remind you to shake or turn the food. Simple, but very handy for evenly golden chips.</li>
 </ul>
 
-<h3>Highly useful features</h3>
+<h3>Very useful features (recommended)</h3>
 <ul>
-<li><strong>Cooking presets:</strong> 8 to 12 programmes covering chips, chicken, fish, vegetables, etc.</li>
-<li><strong>Dual cooking zones:</strong> nearly essential for families of 4+. See our <a href="/en/blog/airfryer-simple-vs-double-panier">single vs dual basket comparison</a>.</li>
-<li><strong>Keep-warm function:</strong> handy when family members eat at different times.</li>
-<li><strong>Viewing window:</strong> monitor cooking without opening the drawer and losing heat.</li>
+<li><strong>Preset programmes:</strong> 8 to 12 programmes covering chips, chicken, fish, vegetables and more. A real time-saver for beginners.</li>
+<li><strong>Two cooking zones:</strong> almost essential for families of four or more. See our <a href="/en/blog/airfryer-simple-vs-double-panier">single vs dual basket comparison</a>.</li>
+<li><strong>Keep-warm function:</strong> handy when not everyone eats at the same time.</li>
+<li><strong>Viewing window:</strong> lets you check on the food without opening the drawer and losing heat.</li>
 </ul>
 
-<h3>Optional features</h3>
+<h3>Nice-to-haves (optional)</h3>
 <ul>
-<li><strong>Wi-Fi connectivity / app:</strong> useful for guided recipes, but not essential.</li>
-<li><strong>Dehydrator function:</strong> great for dried fruits or jerky, but rarely used daily.</li>
-<li><strong>Rotisserie function:</strong> for rotating a whole chicken. Limited to some premium multi-function ovens.</li>
+<li><strong>Wi-Fi and app control:</strong> useful for guided recipes, but not essential.</li>
+<li><strong>Dehydrator function:</strong> worth having if you make dried fruit or jerky, but rarely used day to day.</li>
+<li><strong>Rotisserie function:</strong> turns a whole chicken on a spit as it roasts. Only found on some high-end multi-function ovens.</li>
 </ul>
 
-<h2>Step 4: Setting your budget</h2>
-<p>Air fryers fall into three broad ranges. Rather than aiming for an exact amount, identify the range that matches your use.</p>
+<h2>Step 4: Set your budget</h2>
+<p>Air fryers fall into three broad price ranges. Rather than aiming for an exact figure, pick the range that suits how you'll use it.</p>
 
 <table>
 <thead>
-<tr><th>Range</th><th>What you get</th><th>Best for</th></tr>
+<tr><th>Price range</th><th>What you get</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td>Entry-level</td><td>Compact 2-4L model, basic functions</td><td>Students, couples, occasional use</td></tr>
-<tr><td>Mid-range</td><td>5-7L or dual basket, presets, reputable brands</td><td>Families of 3-5, regular use</td></tr>
-<tr><td>Premium</td><td>XXL or dual zone, connected, multifunction</td><td>Large families, daily use, cooking enthusiasts</td></tr>
+<tr><td>Entry-level</td><td>Compact 2–4 L model, basic functions</td><td>Students, couples without children, occasional use</td></tr>
+<tr><td>Mid-range</td><td>5–7 L or dual basket, presets, well-known brands</td><td>Families of 3 to 5, regular use</td></tr>
+<tr><td>Premium</td><td>XXL or dual zone, app control, multi-function</td><td>Large families, daily use, keen cooks</td></tr>
 </tbody>
 </table>
 
-<p>For a family of four with regular use, the mid-range usually offers the best balance of capacity, build quality and durability. If budget is tight, see our <a href="/en/blog/meilleur-airfryer-petit-budget">best budget air fryers</a> selection.</p>
+<p>For a family of four using it regularly, mid-range usually gives the best balance of capacity, build quality and durability. If money is tight, see our pick of the <a href="/en/blog/meilleur-airfryer-petit-budget">best budget air fryers</a>.</p>
 
-<h2>Step 5: Size, safety, and cleaning</h2>
-<p>A family air fryer takes up space. Measure your countertop before buying and ensure at least 10 cm of clearance behind the unit for ventilation.</p>
-<p>If you have young children, look for cool-touch exterior walls, child locks, non-slip feet, and auto-stop when the drawer is opened. Check the spec sheet, as not every model offers all of them.</p>
-<p>For daily cleaning tips, check our <a href="/en/blog/entretien-nettoyage-airfryer">complete air fryer maintenance guide</a>.</p>
+<h2>Step 5: Size, safety and cleaning</h2>
+<p>A family air fryer takes up space. Measure your worktop before you buy, and leave at least 10 cm of clearance behind the unit for ventilation: air fryers blow hot air out of the back and should not be pushed against the wall.</p>
+<p>If you have young children, look for a cool-touch exterior, a child lock, non-slip feet and automatic shut-off when the drawer is pulled out. Check the spec sheet, as not every model has all of them.</p>
+<p>With daily family use, cleaning matters too: an air fryer that is a pain to clean ends up at the back of a cupboard. For practical tips, see our <a href="/en/blog/entretien-nettoyage-airfryer">complete air fryer cleaning and maintenance guide</a>.</p>
 
-<h2>Our top 5 recommendations by family size</h2>
+<h2>Our 5 picks by family size</h2>
 <ul>
-<li><strong>1-2 people:</strong> Xiaomi Smart Air Fryer Pro 4L — compact, connected, entry-level. Read our <a href="/en/blog/test-xiaomi-smart-air-fryer-pro">full review</a>.</li>
-<li><strong>3-4 people:</strong> Philips Airfryer 3000 Series XL — reliable 6.2L with RapidAir technology, strong mid-range value. See our <a href="/en/blog/test-philips-airfryer-3000-xl">detailed review</a>.</li>
-<li><strong>4-5 people:</strong> Ninja Foodi MAX Double Stack XL — two stacked, independent 4.75L drawers with Sync function. Prefer side-by-side drawers? Read our <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi MAX Dual Zone review</a>.</li>
-<li><strong>5-6 people:</strong> Ninja Foodi FlexDrawer — 10.4L mega drawer, configurable as one or two zones.</li>
-<li><strong>6+ people:</strong> Philips Airfryer Combi XXL Connected — premium 8.3L with oven, grill and dehydrator functions, food probe and connectivity.</li>
+<li><strong>1–2 people:</strong> Xiaomi Smart Air Fryer Pro 4L. Compact, app-controlled and entry-level: its 1,600 W and 4 litres are enough for a couple, and the Mi Home app gives you more than 100 guided recipes. Read our <a href="/en/blog/test-xiaomi-smart-air-fryer-pro">full review</a>.</li>
+<li><strong>3–4 people:</strong> Philips Airfryer 3000 Series XL. The safe choice, with 6.2 litres, 2,000 W and RapidAir technology, and excellent value in the mid-range. See our <a href="/en/blog/test-philips-airfryer-3000-xl">detailed review</a>.</li>
+<li><strong>4–5 people:</strong> Ninja Foodi MAX Double Stack XL. Two stacked 4.75-litre drawers (9.5 litres in total) that you control separately, and the Sync function makes both finish at the same time. Stacked, they take up less worktop than side-by-side drawers. Prefer them side by side? Read our <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi MAX Dual Zone review</a>.</li>
+<li><strong>5–6 people:</strong> Ninja Foodi FlexDrawer. Its huge 10.4-litre drawer works as one zone or two thanks to a removable divider, so it takes a whole chicken or a big batch of chips.</li>
+<li><strong>6+ people:</strong> Philips Airfryer Combi XXL Connected. A premium 8.3-litre model with plenty of functions (air frying, oven, grill, dehydrating and more), a temperature probe and app connectivity. It can replace several appliances.</li>
 </ul>
 
-<h2>6 Common Mistakes When Choosing a Family Air Fryer</h2>
+<h2>6 common mistakes when choosing a family air fryer</h2>
 <ul>
-<li><strong>Choosing too small to save money</strong>: a 4L for 4 people means cooking in 2-3 batches, taking longer than a traditional oven. Go straight to 6-7L.</li>
-<li><strong>Neglecting power</strong>: below 1,500 W, preheating is slow and crispiness is limited. Aim for 1,800-2,000 W for families of 4+.</li>
-<li><strong>Ignoring the footprint</strong>: large models such as the Ninja FlexDrawer 10.4L take up a good share of the worktop. Check the dimensions on the spec sheet and measure before buying.</li>
-<li><strong>Forgetting accessories</strong>: extra rack, divider insert, parchment liners: factor them into your budget. See our <a href="/en/blog/top-10-accessoires-airfryer">top 10 air fryer accessories</a>.</li>
-<li><strong>Buying on stated capacity alone</strong>: usable capacity is lower than the stated volume, because food needs to stay in a thin layer to crisp. Also check the maximum food quantity given by the manufacturer.</li>
-<li><strong>Ignoring after-sales service</strong>: prefer brands with repair networks and parts availability. Moulinex, for example, advertises its products as repairable for 15 years.</li>
+<li><strong>Going too small to save money</strong>: a 4-litre model for four people means cooking in two or three batches, which takes longer than a conventional oven. Go straight for 6 to 7 litres.</li>
+<li><strong>Underestimating power</strong>: below 1,500 W, it heats up slowly and food won't get as crisp. Aim for 1,800 to 2,000 W for families of four or more.</li>
+<li><strong>Ignoring the footprint</strong>: large models such as the Ninja FlexDrawer 10.4L take up a good chunk of the worktop. Check the dimensions on the spec sheet and measure before you buy.</li>
+<li><strong>Forgetting accessories</strong>: an extra rack, a divider, baking paper liners made for air fryers: include them in your budget. See our <a href="/en/blog/top-10-accessoires-airfryer">top 10 air fryer accessories</a>.</li>
+<li><strong>Going by the stated capacity alone</strong>: usable capacity is lower than the stated volume, because food needs to sit in a thin layer to crisp up. Check the maximum food quantity given by the manufacturer too.</li>
+<li><strong>Overlooking repairs and durability</strong>: choose brands with a repair network and spare parts. Moulinex, for example, says its products can be repaired for 15 years.</li>
 </ul>
 
-<h2>Quick Decision Table: Which Air Fryer for Your Family?</h2>
+<h2>Quick decision table: which air fryer for your family?</h2>
 <table>
-<thead><tr><th>Family Size</th><th>Recommended Capacity</th><th>Min. Power</th><th>Recommended Model</th><th>Range</th></tr></thead>
+<thead><tr><th>Family size</th><th>Recommended capacity</th><th>Min. power</th><th>Recommended model</th><th>Price range</th></tr></thead>
 <tbody>
-<tr><td>1-2 people</td><td>3-4L</td><td>1,400 W</td><td>Xiaomi Smart Pro 4L</td><td>Entry-level</td></tr>
-<tr><td>2-3 people</td><td>5-6L</td><td>1,500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Entry to mid-range</td></tr>
-<tr><td>3-4 people</td><td>6-7L</td><td>1,700 W</td><td>Cosori Dual Blaze 6.4L</td><td>Mid-range</td></tr>
-<tr><td>4-5 people</td><td>8-10L</td><td>1,900 W</td><td>Ninja Double Stack 9.5L</td><td>Mid to premium</td></tr>
-<tr><td>5-6 people</td><td>10L+</td><td>2,000 W</td><td>Ninja FlexDrawer 10.4L</td><td>Premium</td></tr>
-<tr><td>6+ people</td><td>8.3L + oven</td><td>2,200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Premium</td></tr>
+<tr><td>1–2 people</td><td>3–4 L</td><td>1,400 W</td><td>Xiaomi Smart Pro 4L</td><td>Entry-level</td></tr>
+<tr><td>2–3 people</td><td>5–6 L</td><td>1,500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Entry-level to mid-range</td></tr>
+<tr><td>3–4 people</td><td>6–7 L</td><td>1,700 W</td><td>Cosori Dual Blaze 6.4L</td><td>Mid-range</td></tr>
+<tr><td>4–5 people</td><td>8–10 L</td><td>1,900 W</td><td>Ninja Double Stack 9.5L</td><td>Mid-range to premium</td></tr>
+<tr><td>5–6 people</td><td>10 L+</td><td>2,000 W</td><td>Ninja FlexDrawer 10.4L</td><td>Premium</td></tr>
+<tr><td>6+ people</td><td>8.3 L + oven</td><td>2,200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Premium</td></tr>
 </tbody>
 </table>
 
-<h2>Conclusion: the 3-question method</h2>
-<p>Before buying, ask yourself three questions: how many people eat at home regularly (determines minimum capacity), how often you'll use the air fryer (justifies a higher-end model), and what your realistic budget is (don't forget <a href="/en/blog/top-10-accessoires-airfryer">essential accessories</a>). For more guidance, explore our <a href="/en/guides/airfryers">complete air fryer guide</a> and our <a href="/en/guides/airfryer-vs-four">air fryer vs conventional oven comparison</a>.</p>`,
+<h2>Conclusion: three questions to ask before you buy</h2>
+<p>To sum up, ask yourself three questions: how many people regularly eat at home (that sets the minimum capacity), how often you will use the air fryer (daily use justifies a higher-end model) and what your realistic budget is (remember to include the <a href="/en/blog/top-10-accessoires-airfryer">essential accessories</a>). For more, see our <a href="/en/guides/airfryers">complete air fryer guide</a> and our <a href="/en/guides/airfryer-vs-four">air fryer vs conventional oven comparison</a>, which explains the strengths of each.</p>`,
 
-    de: `<h2>Warum die Wahl einer Familien-Heißluftfritteuse sorgfältig überlegt sein will</h2>
-<p>Eine Heißluftfritteuse für eine vierköpfige Familie zu kaufen ist etwas ganz anderes als für ein Paar. Korbkapazität, Leistung, Funktionen und Budget unterscheiden sich erheblich je nach Ihren tatsächlichen Bedürfnissen. Das Angebot ist 2026 riesig, und ohne genaue Kenntnis der wichtigen Kriterien ist eine Fehlentscheidung schnell passiert.</p>
-<p>Dieser Ratgeber begleitet Sie Schritt für Schritt bei Ihrer Entscheidung, mit konkreten Empfehlungen basierend auf Haushaltsgröße, Kochgewohnheiten und Budget. Unsere Empfehlungen stützen sich auf Herstellerangaben, unabhängige Testberichte und verifizierte Käuferbewertungen.</p>
+    de: `<h2>Warum der richtige Airfryer für die Familie gut überlegt sein will</h2>
+<p>Eine Heißluftfritteuse für eine vierköpfige Familie ist etwas ganz anderes als eine für ein Paar. Fassungsvermögen des Korbs, Leistung, Funktionen und Budget hängen stark davon ab, was Sie wirklich brauchen. Das Angebot ist 2026 riesig, und wer nicht genau weiß, worauf es ankommt, greift schnell daneben.</p>
+<p>Dieser Ratgeber führt Sie Schritt für Schritt zur richtigen Wahl, mit konkreten Empfehlungen nach Haushaltsgröße, Kochgewohnheiten und Budget. Unsere Empfehlungen stützen sich auf Herstellerangaben, veröffentlichte unabhängige Testberichte und verifizierte Käuferbewertungen.</p>
 
-<h2>Schritt 1: Die ideale Kapazität für Ihre Familie bestimmen</h2>
-<p>Die Kapazität ist das Kriterium Nummer eins. Ein zu kleiner Korb zwingt Sie zum Kochen in mehreren Durchgängen, was den Geschwindigkeitsvorteil der Heißluftfritteuse zunichtemacht.</p>
+<h2>Schritt 1: Das richtige Fassungsvermögen für Ihre Familie</h2>
+<p>Das Fassungsvermögen ist das wichtigste Kriterium. Ist der Korb zu klein, müssen Sie in mehreren Durchgängen garen, und der Zeitvorteil des Airfryers ist dahin. Ein zu großes Modell dagegen verbraucht mehr Strom und nimmt mehr Platz auf der Arbeitsplatte ein.</p>
 
-<h3>Empfohlene Kapazitäten</h3>
-<table>
-<thead>
-<tr><th>Haushaltsgröße</th><th>Empfohlene Kapazität</th><th>Portionsbeispiel</th></tr>
-</thead>
-<tbody>
-<tr><td>1-2 Personen</td><td>2 bis 4 Liter</td><td>400 g Pommes, 2 Hähnchenschenkel</td></tr>
-<tr><td>3-4 Personen</td><td>4,5 bis 6 Liter</td><td>800 g Pommes, 4 Hähnchenkeulen</td></tr>
-<tr><td>5-6 Personen</td><td>6 bis 8 Liter</td><td>1,2 kg Pommes, mittelgroßes Hähnchen</td></tr>
-<tr><td>6+ Personen</td><td>8 Liter und mehr</td><td>1,5 kg Pommes, großes Brathähnchen</td></tr>
-</tbody>
-</table>
-
-<p><strong>Faustregel:</strong> Rechnen Sie mit etwa 1,5 Litern Kapazität pro Person für Pommes und 2 Litern pro Person, wenn Sie regelmäßig ganze Fleischstücke zubereiten.</p>
-
-<h3>Einzelkorb oder Doppelkorb?</h3>
-<p>Für Familien ab vier Personen bietet eine <a href="/de/blog/airfryer-simple-vs-double-panier">Doppelkorb-Heißluftfritteuse</a> einen erheblichen Vorteil: Sie können Hauptgericht und Beilage gleichzeitig zubereiten. Der Ninja Foodi MAX Dual Zone und sein Modell mit übereinander gestapelten Schubladen, der Ninja Foodi MAX Double Stack XL, sind mit je zwei 4,75-Liter-Zonen Referenzen dieser Kategorie. Lesen Sie unsere <a href="/de/blog/test-ninja-foodi-max-dual-zone">ausführliche Bewertung</a>.</p>
-
-<h2>Schritt 2: Leistung — wichtiger als gedacht</h2>
-<p>Die Wattzahl bestimmt die Aufheizgeschwindigkeit und die Kocheffizienz. Ein unterdimensioniertes Modell braucht länger zum Aufheizen und liefert weniger knusprige Ergebnisse.</p>
+<h3>Empfohlenes Fassungsvermögen nach Haushaltsgröße</h3>
 <table>
 <thead>
-<tr><th>Kapazität</th><th>Mindestleistung</th><th>Ideale Leistung</th></tr>
+<tr><th>Haushaltsgröße</th><th>Empfohlenes Fassungsvermögen</th><th>Beispielportion</th><th>Empfohlene Modelle</th></tr>
 </thead>
 <tbody>
-<tr><td>2-3 Liter</td><td>1.000 W</td><td>1.200-1.400 W</td></tr>
-<tr><td>4-5 Liter</td><td>1.400 W</td><td>1.600-1.800 W</td></tr>
-<tr><td>6-8 Liter</td><td>1.700 W</td><td>1.800-2.200 W</td></tr>
-<tr><td>8+ Liter</td><td>2.000 W</td><td>2.200-2.500 W</td></tr>
+<tr><td>1–2 Personen</td><td>2 bis 4 Liter</td><td>400 g Pommes, 2 Hähnchenschenkel</td><td>Xiaomi Smart Air Fryer Pro 4L</td></tr>
+<tr><td>3–4 Personen</td><td>4,5 bis 6 Liter</td><td>800 g Pommes, 4 Hähnchenunterschenkel</td><td>Philips Airfryer 3000 XL, Cosori Dual Blaze</td></tr>
+<tr><td>5–6 Personen</td><td>6 bis 8 Liter</td><td>1,2 kg Pommes, ein mittelgroßes ganzes Hähnchen</td><td>Ninja Foodi MAX Dual Zone</td></tr>
+<tr><td>Ab 6 Personen</td><td>8 Liter und mehr</td><td>1,5 kg Pommes, ein großes Brathähnchen</td><td>Ninja Foodi FlexDrawer, Philips Combi XXL</td></tr>
 </tbody>
 </table>
 
-<p>Mehr zur Energieeffizienz erfahren Sie in unserem <a href="/de/blog/airfryer-economies-energie">Ratgeber zu Energieeinsparungen mit der Heißluftfritteuse</a>.</p>
+<p><strong>Faustregel:</strong> Rechnen Sie für Pommes mit etwa 1,5 Litern pro Person und mit 2 Litern pro Person, wenn Sie regelmäßig Fleisch am Stück zubereiten.</p>
+
+<h3>Einzelkorb oder 2 Kammern?</h3>
+<p>Für Familien ab vier Personen hat ein <a href="/de/blog/airfryer-simple-vs-double-panier">Airfryer mit 2 Kammern</a> einen großen Vorteil: Hauptgericht und Beilage garen gleichzeitig. Zum Beispiel Nuggets in der einen Kammer und Grillgemüse in der anderen, jeweils mit eigener Temperatur und Garzeit.</p>
+<p>Der Ninja Foodi MAX Dual Zone (siehe unsere <a href="/de/blog/test-ninja-foodi-max-dual-zone">ausführliche Bewertung</a>) und seine Variante mit übereinanderliegenden Schubladen, der Ninja Foodi MAX Double Stack XL, gelten mit je zwei Kammern à 4,75 Liter als Maßstab in dieser Kategorie.</p>
+
+<h2>Schritt 2: Die Leistung wird oft unterschätzt</h2>
+<p>Die Leistung in Watt bestimmt, wie schnell das Gerät aufheizt und wie gut es gart. Ein zu schwaches Modell braucht länger, bis es die Temperatur erreicht, und die Ergebnisse werden weniger knusprig.</p>
+
+<h3>Empfohlene Leistung nach Fassungsvermögen</h3>
+<table>
+<thead>
+<tr><th>Fassungsvermögen</th><th>Mindestleistung</th><th>Ideale Leistung</th></tr>
+</thead>
+<tbody>
+<tr><td>2–3 Liter</td><td>1.000 W</td><td>1.200–1.400 W</td></tr>
+<tr><td>4–5 Liter</td><td>1.400 W</td><td>1.600–1.800 W</td></tr>
+<tr><td>6–8 Liter</td><td>1.700 W</td><td>1.800–2.200 W</td></tr>
+<tr><td>Über 8 Liter</td><td>2.000 W</td><td>2.200–2.500 W</td></tr>
+</tbody>
+</table>
+
+<p>Hohe Leistung bedeutet nicht hohen Stromverbrauch. Ein Airfryer mit 2.200 W, der in 15 Minuten fertig ist, verbraucht weniger als ein Modell mit 1.400 W, das für dasselbe Ergebnis 25 Minuten braucht. Mehr dazu lesen Sie in unserem Ratgeber <a href="/de/blog/airfryer-economies-energie">Strom sparen mit dem Airfryer</a>.</p>
 
 <h2>Schritt 3: Funktionen, die wirklich zählen</h2>
-<h3>Unverzichtbare Funktionen</h3>
+<h3>Funktionen, auf die Sie bestehen sollten</h3>
 <ul>
-<li><strong>Timer mit automatischer Abschaltung:</strong> unverzichtbar für Sicherheit und Komfort.</li>
-<li><strong>Einstellbarer Thermostat:</strong> mindestens 80°C bis 200°C.</li>
-<li><strong>Herausnehmbarer, antihaftbeschichteter Korb:</strong> muss spülmaschinenfest sein.</li>
-<li><strong>Schüttel-Erinnerung:</strong> akustisches Signal zum Wenden der Lebensmittel.</li>
+<li><strong>Timer mit automatischer Abschaltung:</strong> wichtig für Sicherheit und Komfort. Jedes ordentliche Gerät hat ihn 2026.</li>
+<li><strong>Einstellbares Thermostat:</strong> Der Bereich sollte mindestens 80 bis 200 °C abdecken. Manche Modelle schaffen 230 °C, damit lässt sich Fleisch scharf anbraten.</li>
+<li><strong>Herausnehmbarer Korb mit Antihaftbeschichtung:</strong> erleichtert die Reinigung enorm. Prüfen Sie, ob er spülmaschinenfest ist.</li>
+<li><strong>Schüttel-Erinnerung:</strong> ein Signalton zur Hälfte der Garzeit, damit Sie die Lebensmittel wenden. Simpel, aber sehr praktisch für gleichmäßig goldbraune Pommes.</li>
 </ul>
 
 <h3>Sehr nützliche Funktionen</h3>
 <ul>
-<li><strong>Voreingestellte Kochprogramme:</strong> 8 bis 12 Programme für Pommes, Hähnchen, Fisch, Gemüse usw.</li>
-<li><strong>Doppelte Kochzone:</strong> für Familien ab 4 Personen fast unverzichtbar.</li>
+<li><strong>Automatikprogramme:</strong> 8 bis 12 Programme für Pommes, Hähnchen, Fisch, Gemüse usw. Für Einsteiger eine echte Zeitersparnis.</li>
+<li><strong>Zwei Garzonen:</strong> für Familien ab vier Personen fast ein Muss. Mehr dazu in unserem <a href="/de/blog/airfryer-simple-vs-double-panier">Vergleich Einzelkorb oder 2 Kammern</a>.</li>
 <li><strong>Warmhaltefunktion:</strong> praktisch, wenn nicht alle gleichzeitig essen.</li>
-<li><strong>Sichtfenster:</strong> Überwachung ohne Öffnen der Schublade.</li>
+<li><strong>Sichtfenster:</strong> Sie behalten das Gargut im Blick, ohne die Schublade zu öffnen und Wärme zu verlieren.</li>
 </ul>
 
-<h2>Schritt 4: Budget festlegen</h2>
-<p>Heißluftfritteusen lassen sich in drei Preisklassen einteilen. Statt einen genauen Betrag anzupeilen, wählen Sie die Klasse, die zu Ihrer Nutzung passt.</p>
+<h3>Optionale Extras</h3>
+<ul>
+<li><strong>WLAN und App:</strong> praktisch für geführte Rezepte, aber kein Muss.</li>
+<li><strong>Dörrfunktion:</strong> interessant für Trockenobst oder Beef Jerky, im Alltag aber selten genutzt.</li>
+<li><strong>Drehspieß:</strong> gart ein ganzes Hähnchen rotierend. Gibt es nur bei einigen Multifunktionsgeräten im Premiumsegment.</li>
+</ul>
+
+<h2>Schritt 4: Das Budget festlegen</h2>
+<p>Airfryer lassen sich grob in drei Klassen einteilen. Statt auf einen bestimmten Betrag zu zielen, wählen Sie die Klasse, die zu Ihrer Nutzung passt.</p>
+
 <table>
 <thead>
 <tr><th>Klasse</th><th>Was Sie bekommen</th><th>Für wen?</th></tr>
 </thead>
 <tbody>
-<tr><td>Einstiegsklasse</td><td>Kompaktes 2-4L-Modell, Basisfunktionen</td><td>Studenten, Paare, gelegentliche Nutzung</td></tr>
-<tr><td>Mittelklasse</td><td>5-7L oder Doppelkorb, Programme, bekannte Marken</td><td>Familien mit 3-5 Personen, regelmäßige Nutzung</td></tr>
-<tr><td>Oberklasse</td><td>XXL oder Dual Zone, vernetzt, Multifunktion</td><td>Große Familien, tägliche Nutzung, Kochbegeisterte</td></tr>
+<tr><td>Einstiegsklasse</td><td>Kompaktes Modell mit 2–4 L, Grundfunktionen</td><td>Studierende, Paare ohne Kinder, gelegentliche Nutzung</td></tr>
+<tr><td>Mittelklasse</td><td>5–7 L oder 2 Kammern, Automatikprogramme, bekannte Marken</td><td>Familien mit 3–5 Personen, regelmäßige Nutzung</td></tr>
+<tr><td>Premiumsegment</td><td>XXL-Modell oder 2 Garzonen, App-Anbindung, Multifunktion</td><td>Große Familien, tägliche Nutzung, Hobbyköche</td></tr>
 </tbody>
 </table>
 
-<p>Für eine vierköpfige Familie mit regelmäßiger Nutzung bietet die Mittelklasse meist das beste Verhältnis aus Kapazität, Verarbeitung und Langlebigkeit. Für ein knappes Budget empfehlen wir unsere <a href="/de/blog/meilleur-airfryer-petit-budget">besten Budget-Heißluftfritteusen</a>.</p>
+<p>Für eine vierköpfige Familie, die den Airfryer regelmäßig nutzt, bietet die Mittelklasse meist die beste Balance aus Fassungsvermögen, Verarbeitung und Langlebigkeit. Bei knappem Budget lohnt ein Blick auf unsere <a href="/de/blog/meilleur-airfryer-petit-budget">besten Airfryer für kleines Budget</a>.</p>
 
 <h2>Schritt 5: Platzbedarf, Sicherheit und Reinigung</h2>
-<p>Eine Familien-Heißluftfritteuse braucht Platz. Messen Sie Ihre Arbeitsfläche und planen Sie mindestens 10 cm Abstand zur Wand für die Belüftung ein.</p>
-<p>Bei kleinen Kindern achten Sie auf kühle Außenwände, Kindersicherung, rutschfeste Füße und automatische Abschaltung beim Öffnen der Schublade. Für Reinigungstipps siehe unseren <a href="/de/blog/entretien-nettoyage-airfryer">vollständigen Pflegeratgeber</a>.</p>
+<p>Ein Familien-Airfryer braucht Platz. Messen Sie vor dem Kauf Ihre Arbeitsfläche aus und planen Sie hinter dem Gerät mindestens 10 cm Abstand für die Belüftung ein: Die warme Luft wird nach hinten ausgeblasen, das Gerät darf also nicht direkt an der Wand stehen.</p>
+<p>Mit kleinen Kindern im Haus achten Sie auf kühle Außenwände, Kindersicherung, rutschfeste Füße und eine automatische Abschaltung beim Herausziehen der Schublade. Prüfen Sie das Datenblatt, denn nicht jedes Modell bietet all das.</p>
+<p>Tipps für die tägliche Reinigung finden Sie in unserem Ratgeber <a href="/de/blog/entretien-nettoyage-airfryer">Airfryer reinigen und pflegen</a>.</p>
 
-<h2>Unsere Top-5-Empfehlungen nach Familiengröße</h2>
+<h2>Unsere 5 Empfehlungen nach Familiengröße</h2>
 <ul>
-<li><strong>1-2 Personen:</strong> Xiaomi Smart Air Fryer Pro 4L — kompakt, vernetzt, Einstiegsklasse. <a href="/de/blog/test-xiaomi-smart-air-fryer-pro">Zur Bewertung</a>.</li>
-<li><strong>3-4 Personen:</strong> Philips Airfryer 3000 Series XL — zuverlässig, 6,2 L, starkes Preis-Leistungs-Verhältnis. <a href="/de/blog/test-philips-airfryer-3000-xl">Zur Bewertung</a>.</li>
-<li><strong>4-5 Personen:</strong> Ninja Foodi MAX Double Stack XL — zwei gestapelte, unabhängige 4,75-L-Schubladen mit Sync-Funktion. Lieber nebeneinander? <a href="/de/blog/test-ninja-foodi-max-dual-zone">Zur Bewertung des Ninja Foodi MAX Dual Zone</a>.</li>
-<li><strong>5-6 Personen:</strong> Ninja Foodi FlexDrawer — 10,4-L-Megaschublade, als eine oder zwei Zonen nutzbar.</li>
-<li><strong>6+ Personen:</strong> Philips Airfryer Combi XXL Connected — Oberklasse mit 8,3 L, Ofen-, Grill- und Dörrfunktion, Thermometer und App.</li>
+<li><strong>1–2 Personen:</strong> Xiaomi Smart Air Fryer Pro 4L – kompakt, mit App, Einstiegsklasse. Mehr in unserer <a href="/de/blog/test-xiaomi-smart-air-fryer-pro">ausführlichen Bewertung</a>.</li>
+<li><strong>3–4 Personen:</strong> Philips Airfryer 3000 Series XL – bewährt, 6,2 L, 2.000 W und RapidAir-Technologie, starkes Preis-Leistungs-Verhältnis in der Mittelklasse. Mehr in unserer <a href="/de/blog/test-philips-airfryer-3000-xl">ausführlichen Bewertung</a>.</li>
+<li><strong>4–5 Personen:</strong> Ninja Foodi MAX Double Stack XL – zwei übereinanderliegende Schubladen à 4,75 L (insgesamt 9,5 L), getrennt steuerbar; dank Sync-Funktion werden beide gleichzeitig fertig. Lieber zwei Schubladen nebeneinander? Lesen Sie unsere <a href="/de/blog/test-ninja-foodi-max-dual-zone">Bewertung des Ninja Foodi MAX Dual Zone</a>.</li>
+<li><strong>5–6 Personen:</strong> Ninja Foodi FlexDrawer – große 10,4-L-Schublade, dank herausnehmbarer Trennwand als eine oder zwei Zonen nutzbar. Passt für ein ganzes Hähnchen oder eine große Portion Pommes.</li>
+<li><strong>Ab 6 Personen:</strong> Philips Airfryer Combi XXL Connected – Premiumgerät mit 8,3 L, Ofen-, Grill- und Dörrfunktion, Temperaturfühler und App-Anbindung.</li>
 </ul>
 
-<p>Besuchen Sie unseren <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und unseren <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a> für weitere Informationen. Vergessen Sie nicht die <a href="/de/blog/top-10-accessoires-airfryer">wichtigsten Zubehörteile</a>.</p>
-
-<h2>6 häufige Fehler bei der Wahl einer Familien-Heißluftfritteuse</h2>
+<h2>6 typische Fehler beim Kauf eines Familien-Airfryers</h2>
 <ul>
-<li><strong>Zu klein wählen aus Sparsamkeit</strong>: ein 4-Liter-Modell für 4 Personen bedeutet 2-3 Chargen kochen, was länger dauert als ein traditioneller Backofen. Greifen Sie direkt zu 6-7 Litern.</li>
-<li><strong>Leistung vernachlässigen</strong>: unter 1.500 W ist die Aufheizzeit langsam und die Knusprigkeit begrenzt. Für Familien ab 4 Personen: 1.800-2.000 W anstreben.</li>
-<li><strong>Stellfläche ignorieren</strong>: große Modelle wie der Ninja FlexDrawer 10,4L beanspruchen viel Arbeitsfläche. Prüfen Sie die Maße im Datenblatt und messen Sie vor dem Kauf.</li>
-<li><strong>Zubehör vergessen</strong>: Extra-Gitter, Trennaufsatz, passendes Backpapier: im Budget mit einplanen.</li>
-<li><strong>Nur auf die angegebene Kapazität achten</strong>: die Nutzkapazität ist geringer als das angegebene Volumen, da Lebensmittel für ein knuspriges Ergebnis in dünner Schicht liegen sollten. Achten Sie auch auf die maximale Füllmenge laut Hersteller.</li>
-<li><strong>Kundendienst und Langlebigkeit ignorieren</strong>: Moulinex etwa bewirbt seine Geräte als 15 Jahre reparierbar.</li>
+<li><strong>Aus Sparsamkeit zu klein kaufen</strong>: Mit 4 Litern für 4 Personen garen Sie in 2–3 Durchgängen, und das dauert länger als im Backofen. Greifen Sie gleich zu 6–7 Litern.</li>
+<li><strong>Die Leistung vernachlässigen</strong>: Unter 1.500 W heizt das Gerät langsam auf, und es wird weniger knusprig. Für Familien ab vier Personen sind 1.800–2.000 W sinnvoll.</li>
+<li><strong>Die Stellfläche unterschätzen</strong>: Große Modelle wie der Ninja FlexDrawer mit 10,4 L belegen einen guten Teil der Arbeitsplatte. Prüfen Sie die Maße im Datenblatt und messen Sie vor dem Kauf nach.</li>
+<li><strong>Das Zubehör vergessen</strong>: Zusatzgitter, Trenneinsatz, passendes Backpapier: Planen Sie das mit ein. Mehr dazu: <a href="/de/blog/top-10-accessoires-airfryer">Airfryer-Zubehör: die 10 nützlichsten Helfer</a>.</li>
+<li><strong>Nur auf das angegebene Fassungsvermögen schauen</strong>: Nutzbar ist weniger als das angegebene Volumen, denn für knusprige Ergebnisse sollten die Lebensmittel nur in dünner Schicht liegen. Achten Sie auch auf die maximale Füllmenge laut Hersteller.</li>
+<li><strong>Kundendienst und Langlebigkeit ignorieren</strong>: Bevorzugen Sie Marken mit Reparaturnetz und Ersatzteilversorgung. Moulinex etwa wirbt damit, dass seine Geräte 15 Jahre lang reparierbar sind.</li>
 </ul>
 
-<h2>Schnell-Entscheidungstabelle: Welche Heißluftfritteuse für Ihre Familie?</h2>
+<h2>Entscheidungshilfe: Welcher Airfryer passt zu Ihrer Familie?</h2>
 <table>
-<thead><tr><th>Familiengröße</th><th>Empfohlene Kapazität</th><th>Min. Leistung</th><th>Empfohlenes Modell</th><th>Klasse</th></tr></thead>
+<thead><tr><th>Familiengröße</th><th>Empfohlenes Fassungsvermögen</th><th>Mindestleistung</th><th>Empfohlenes Modell</th><th>Klasse</th></tr></thead>
 <tbody>
-<tr><td>1-2 Personen</td><td>3-4L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>Einstiegsklasse</td></tr>
-<tr><td>2-3 Personen</td><td>5-6L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Einstiegs- bis Mittelklasse</td></tr>
-<tr><td>3-4 Personen</td><td>6-7L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4L</td><td>Mittelklasse</td></tr>
-<tr><td>4-5 Personen</td><td>8-10L</td><td>1.900 W</td><td>Ninja Double Stack 9,5L</td><td>Mittel- bis Oberklasse</td></tr>
-<tr><td>5-6 Personen</td><td>10L+</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4L</td><td>Oberklasse</td></tr>
-<tr><td>6+ Personen</td><td>8,3L + Ofen</td><td>2.200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Oberklasse</td></tr>
-</tbody>
-</table>`,
-
-    es: `<h2>Por qué elegir una freidora de aire familiar requiere reflexión</h2>
-<p>Comprar una freidora de aire para una familia de cuatro personas y para una pareja son decisiones completamente distintas. La capacidad de la cesta, la potencia, las funcionalidades y el presupuesto varían enormemente según tus necesidades reales. En 2026 la oferta es enorme, y es fácil equivocarse sin saber exactamente qué buscar.</p>
-<p>Esta guía te acompaña paso a paso en tu elección, con recomendaciones concretas basadas en el tamaño de tu hogar, tus hábitos culinarios y tu presupuesto. Se apoyan en las fichas técnicas de los fabricantes, en análisis independientes y en opiniones de compradores verificados.</p>
-
-<h2>Paso 1: Determinar la capacidad ideal según tu familia</h2>
-<p>La capacidad es el criterio número uno. Una cesta demasiado pequeña te obligará a cocinar en varias tandas, anulando la ventaja de rapidez de la freidora de aire.</p>
-
-<h3>Tabla de capacidades recomendadas</h3>
-<table>
-<thead>
-<tr><th>Tamaño del hogar</th><th>Capacidad recomendada</th><th>Ejemplo de porción</th></tr>
-</thead>
-<tbody>
-<tr><td>1-2 personas</td><td>2 a 4 litros</td><td>400 g de patatas, 2 muslos de pollo</td></tr>
-<tr><td>3-4 personas</td><td>4,5 a 6 litros</td><td>800 g de patatas, 4 muslos de pollo</td></tr>
-<tr><td>5-6 personas</td><td>6 a 8 litros</td><td>1,2 kg de patatas, pollo entero mediano</td></tr>
-<tr><td>6+ personas</td><td>8 litros o más</td><td>1,5 kg de patatas, pollo asado grande</td></tr>
+<tr><td>1–2 Personen</td><td>3–4 L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>Einstiegsklasse</td></tr>
+<tr><td>2–3 Personen</td><td>5–6 L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Einstiegs- bis Mittelklasse</td></tr>
+<tr><td>3–4 Personen</td><td>6–7 L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4L</td><td>Mittelklasse</td></tr>
+<tr><td>4–5 Personen</td><td>8–10 L</td><td>1.900 W</td><td>Ninja Double Stack 9,5L</td><td>Mittelklasse bis Premium</td></tr>
+<tr><td>5–6 Personen</td><td>10 L und mehr</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4L</td><td>Premiumsegment</td></tr>
+<tr><td>Ab 6 Personen</td><td>8,3 L + Ofenfunktion</td><td>2.200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Premiumsegment</td></tr>
 </tbody>
 </table>
 
-<p><strong>Regla práctica:</strong> calcula aproximadamente 1,5 litros de capacidad por persona para patatas fritas, y 2 litros por persona si cocinas regularmente piezas enteras de carne.</p>
+<h2>Fazit: drei Fragen vor dem Kauf</h2>
+<p>Stellen Sie sich vor dem Kauf drei Fragen: Wie viele Personen essen regelmäßig zu Hause? Das bestimmt das Mindestfassungsvermögen. Wie oft werden Sie den Airfryer nutzen? Bei täglichem Einsatz lohnt sich ein höherwertiges Modell. Und wie hoch ist Ihr realistisches Budget? Denken Sie dabei auch an das <a href="/de/blog/top-10-accessoires-airfryer">wichtigste Zubehör</a>. Weiterführende Informationen finden Sie in unserem <a href="/de/guides/airfryers">großen Airfryer-Ratgeber</a> und in unserem Vergleich <a href="/de/guides/airfryer-vs-four">Airfryer oder Backofen</a>.</p>`,
 
-<h3>Cesta simple o doble cesta</h3>
-<p>Para familias de cuatro o más personas, una <a href="/es/blog/airfryer-simple-vs-double-panier">freidora de aire de doble cesta</a> ofrece una ventaja considerable: puedes cocinar el plato principal y el acompañamiento simultáneamente. El Ninja Foodi MAX Dual Zone y su versión de cajones apilados, el Ninja Foodi MAX Double Stack XL, son referencias de la categoría con dos zonas de 4,75 litros cada uno. Lee nuestro <a href="/es/blog/test-ninja-foodi-max-dual-zone">análisis detallado</a>.</p>
+    es: `<h2>Por qué una freidora de aire familiar no se elige a la ligera</h2>
+<p>Comprar una freidora de aire para una familia de cuatro no tiene nada que ver con comprarla para una pareja. La capacidad de la cesta, la potencia, las funciones y el presupuesto cambian mucho según lo que necesites de verdad. En 2026 la oferta es enorme, y es fácil equivocarse si no sabes exactamente en qué fijarte.</p>
+<p>Esta guía te ayuda a elegir paso a paso, con recomendaciones concretas según el tamaño de tu hogar, tu forma de cocinar y tu presupuesto. Nuestras recomendaciones se basan en las fichas técnicas de los fabricantes, en análisis independientes y en opiniones de compradores verificados.</p>
 
-<h2>Paso 2: La potencia importa más de lo que crees</h2>
-<p>Los vatios determinan la velocidad de calentamiento y la eficacia de cocción. Un modelo con poca potencia tardará más en alcanzar la temperatura y dará resultados menos crujientes.</p>
+<h2>Paso 1: calcula la capacidad que necesita tu familia</h2>
+<p>La capacidad es el criterio número uno. Con una cesta demasiado pequeña tendrás que cocinar en varias tandas, y se pierde la ventaja de rapidez de la freidora de aire. Al revés, un modelo demasiado grande gasta más energía y ocupa más sitio en la encimera.</p>
+
+<h3>Capacidad recomendada según el tamaño del hogar</h3>
+<table>
+<thead>
+<tr><th>Personas en casa</th><th>Capacidad recomendada</th><th>Ejemplo de ración</th><th>Modelos recomendados</th></tr>
+</thead>
+<tbody>
+<tr><td>1-2 personas</td><td>De 2 a 4 litros</td><td>400 g de patatas fritas, 2 muslos de pollo</td><td>Xiaomi Smart Air Fryer Pro 4L</td></tr>
+<tr><td>3-4 personas</td><td>De 4,5 a 6 litros</td><td>800 g de patatas fritas, 4 jamoncitos de pollo</td><td>Philips Airfryer 3000 XL, Cosori Dual Blaze</td></tr>
+<tr><td>5-6 personas</td><td>De 6 a 8 litros</td><td>1,2 kg de patatas fritas, un pollo entero mediano</td><td>Ninja Foodi MAX Dual Zone</td></tr>
+<tr><td>6 o más personas</td><td>8 litros o más</td><td>1,5 kg de patatas fritas, un pollo asado grande</td><td>Ninja Foodi FlexDrawer, Philips Combi XXL</td></tr>
+</tbody>
+</table>
+
+<p><strong>Regla práctica:</strong> calcula unos 1,5 litros de capacidad por persona si haces patatas fritas, y 2 litros por persona si sueles cocinar piezas enteras de carne.</p>
+
+<h3>¿Una cesta o doble cesta?</h3>
+<p>Para familias de cuatro o más, una <a href="/es/blog/airfryer-simple-vs-double-panier">freidora de aire de doble cesta</a> tiene una gran ventaja: puedes hacer a la vez el plato principal y la guarnición. Por ejemplo, nuggets en un compartimento y verduras asadas en el otro, cada uno con su temperatura y su tiempo.</p>
+<p>La Ninja Foodi MAX Dual Zone (consulta nuestro <a href="/es/blog/test-ninja-foodi-max-dual-zone">análisis detallado</a>) y su variante de cajones apilados, la Ninja Foodi MAX Double Stack XL, son referencias en esta categoría, con dos zonas de 4,75 litros cada una.</p>
+
+<h2>Paso 2: la potencia importa más de lo que parece</h2>
+<p>La potencia en vatios determina lo rápido que calienta el aparato y lo bien que cocina. Un modelo con poca potencia tarda más en llegar a la temperatura y deja los alimentos menos crujientes.</p>
+
+<h3>Potencia recomendada según la capacidad</h3>
 <table>
 <thead>
 <tr><th>Capacidad</th><th>Potencia mínima</th><th>Potencia ideal</th></tr>
@@ -490,104 +506,117 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Una potencia alta no significa un consumo excesivo. Descubre más en nuestra guía sobre <a href="/es/blog/airfryer-economies-energie">ahorro energético con freidoras de aire</a>.</p>
+<p>Más potencia no significa consumir más. Una freidora de aire de 2.200 W que cocina en 15 minutos gasta menos que una de 1.400 W que tarda 25 minutos en conseguir lo mismo. Si quieres saber más, consulta nuestra guía sobre el <a href="/es/blog/airfryer-economies-energie">ahorro de energía con la freidora de aire</a>.</p>
 
-<h2>Paso 3: Funcionalidades que realmente importan</h2>
-<h3>Funciones esenciales</h3>
+<h2>Paso 3: las funciones que de verdad cuentan</h2>
+<h3>Funciones imprescindibles</h3>
 <ul>
-<li><strong>Temporizador con apagado automático:</strong> fundamental para la seguridad.</li>
-<li><strong>Termostato ajustable:</strong> de 80°C a 200°C como mínimo.</li>
-<li><strong>Cesta antiadherente extraíble:</strong> que sea apta para lavavajillas.</li>
-<li><strong>Recordatorio de agitación:</strong> alerta sonora a mitad de cocción.</li>
+<li><strong>Temporizador con apagado automático:</strong> fundamental por seguridad y comodidad. En 2026 lo lleva cualquier modelo que merezca la pena.</li>
+<li><strong>Termostato regulable:</strong> de 80 a 200 °C como mínimo. Algunos modelos llegan a 230 °C, lo que permite sellar la carne.</li>
+<li><strong>Cesta antiadherente extraíble:</strong> facilita mucho la limpieza. Comprueba que se pueda meter en el lavavajillas.</li>
+<li><strong>Aviso para agitar la cesta:</strong> una alerta sonora a mitad de cocción para dar la vuelta a los alimentos. Sencillo, pero muy práctico para que las patatas se doren por igual.</li>
 </ul>
 
 <h3>Funciones muy útiles</h3>
 <ul>
-<li><strong>Programas de cocción predefinidos:</strong> 8 a 12 programas para patatas, pollo, pescado, verduras.</li>
-<li><strong>Doble zona de cocción:</strong> casi imprescindible para familias de 4+. Consulta nuestro <a href="/es/blog/airfryer-simple-vs-double-panier">comparativo cesta simple vs doble</a>.</li>
-<li><strong>Función de mantenimiento en caliente:</strong> práctica cuando la familia no come toda junta.</li>
-<li><strong>Ventana de visualización:</strong> para supervisar sin abrir el cajón.</li>
+<li><strong>Programas predefinidos:</strong> de 8 a 12 programas para patatas fritas, pollo, pescado, verduras, etc. Ahorran mucho tiempo cuando estás empezando.</li>
+<li><strong>Doble zona de cocción:</strong> casi imprescindible para familias de cuatro o más. Consulta nuestra <a href="/es/blog/airfryer-simple-vs-double-panier">comparativa de cesta única y doble cesta</a>.</li>
+<li><strong>Función para mantener caliente:</strong> práctica cuando no coméis todos a la vez.</li>
+<li><strong>Ventana de visión:</strong> para vigilar la cocción sin abrir el cajón ni perder calor.</li>
 </ul>
 
-<h2>Paso 4: Definir tu presupuesto</h2>
-<p>Las freidoras de aire se dividen en tres grandes gamas. En lugar de fijarte en una cifra exacta, identifica la gama que corresponde a tu uso.</p>
+<h3>Funciones opcionales</h3>
+<ul>
+<li><strong>Wifi y app:</strong> útil para seguir recetas guiadas, pero no imprescindible.</li>
+<li><strong>Función de deshidratar:</strong> interesante si haces fruta deshidratada o carne seca, pero se usa poco en el día a día.</li>
+<li><strong>Asador giratorio:</strong> para asar un pollo entero dando vueltas. Solo lo llevan algunos hornos multifunción de gama alta.</li>
+</ul>
+
+<h2>Paso 4: define tu presupuesto</h2>
+<p>Las freidoras de aire se dividen en tres grandes gamas. En vez de fijarte en una cifra exacta, busca la gama que encaja con el uso que le vas a dar.</p>
 <table>
 <thead>
-<tr><th>Gama</th><th>Lo que obtienes</th><th>Para quién</th></tr>
+<tr><th>Gama</th><th>Qué ofrece</th><th>¿Para quién?</th></tr>
 </thead>
 <tbody>
-<tr><td>Gama de entrada</td><td>Modelo compacto de 2-4L, funciones básicas</td><td>Estudiantes, parejas, uso ocasional</td></tr>
-<tr><td>Gama media</td><td>Modelo de 5-7L o doble cesta, programas, marcas reconocidas</td><td>Familias de 3-5, uso regular</td></tr>
-<tr><td>Gama alta</td><td>XXL o zona dual, conectada, multifunción</td><td>Familias grandes, uso diario, entusiastas de la cocina</td></tr>
+<tr><td>Gama de entrada</td><td>Modelo compacto de 2 a 4 L, funciones básicas</td><td>Estudiantes, parejas sin hijos, uso ocasional</td></tr>
+<tr><td>Gama media</td><td>Modelo de 5 a 7 L o de doble cesta, programas predefinidos, marcas conocidas</td><td>Familias de 3 a 5 personas, uso habitual</td></tr>
+<tr><td>Gama alta</td><td>Modelo grande XXL o de doble zona, con wifi, multifunción</td><td>Familias grandes, uso diario, amantes de la cocina</td></tr>
 </tbody>
 </table>
 
-<p>Para una familia de cuatro personas con uso regular, la gama media suele ofrecer el mejor equilibrio entre capacidad, acabados y durabilidad. Si el presupuesto es ajustado, consulta nuestras <a href="/es/blog/meilleur-airfryer-petit-budget">mejores freidoras de aire económicas</a>.</p>
+<p>Para una familia de cuatro que la use a menudo, la gama media suele ofrecer el mejor equilibrio entre capacidad, acabados y durabilidad. Si vas justo de presupuesto, echa un vistazo a nuestra selección de las <a href="/es/blog/meilleur-airfryer-petit-budget">mejores freidoras de aire baratas</a>.</p>
 
-<h2>Paso 5: Espacio, seguridad y limpieza</h2>
-<p>Una freidora de aire familiar ocupa espacio. Mide tu encimera y deja al menos 10 cm de espacio detrás para la ventilación. Si tienes niños pequeños, busca paredes exteriores frías, bloqueo infantil, pies antideslizantes y parada automática al abrir. Para consejos de limpieza, consulta nuestra <a href="/es/blog/entretien-nettoyage-airfryer">guía completa de mantenimiento</a>.</p>
+<h2>Paso 5: tamaño, seguridad y limpieza</h2>
+<p>Una freidora de aire familiar ocupa sitio. Antes de comprarla, mide el hueco de la encimera y deja al menos 10 cm por detrás para la ventilación: estas freidoras expulsan el aire caliente por la parte trasera y no deben quedar pegadas a la pared.</p>
+<p>Si tienes niños pequeños, busca paredes exteriores que no se calienten, bloqueo infantil, patas antideslizantes y parada automática al sacar el cajón. Mira la ficha técnica, porque no todos los modelos lo ofrecen todo.</p>
+<p>Para la limpieza del día a día, consulta nuestra <a href="/es/blog/entretien-nettoyage-airfryer">guía completa para limpiar y mantener la freidora de aire</a>.</p>
 
-<h2>Nuestras 5 recomendaciones por tamaño de familia</h2>
+<h2>Nuestras 5 recomendaciones según el tamaño de la familia</h2>
 <ul>
-<li><strong>1-2 personas:</strong> Xiaomi Smart Air Fryer Pro 4L — compacta, conectada, gama de entrada. <a href="/es/blog/test-xiaomi-smart-air-fryer-pro">Ver análisis</a>.</li>
-<li><strong>3-4 personas:</strong> Philips Airfryer Serie 3000 XL — fiable, 6,2 L, excelente relación calidad-precio. <a href="/es/blog/test-philips-airfryer-3000-xl">Ver análisis</a>.</li>
-<li><strong>4-5 personas:</strong> Ninja Foodi MAX Double Stack XL — dos cajones apilados e independientes de 4,75 L con función Sync. ¿Prefieres cajones lado a lado? <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ver análisis del Ninja Foodi MAX Dual Zone</a>.</li>
-<li><strong>5-6 personas:</strong> Ninja Foodi FlexDrawer — cajón de 10,4 L, utilizable como una o dos zonas.</li>
-<li><strong>6+ personas:</strong> Philips Airfryer Combi XXL Connected — gama alta, 8,3 L, funciones de horno, grill y deshidratador, sonda y conectividad.</li>
+<li><strong>1-2 personas:</strong> la Xiaomi Smart Air Fryer Pro 4L. Compacta, con wifi y de gama de entrada: sus 1.600 W y sus 4 litros bastan para una pareja, y la app Mi Home da acceso a más de un centenar de recetas guiadas. Lee nuestro <a href="/es/blog/test-xiaomi-smart-air-fryer-pro">análisis completo de la Xiaomi Smart Air Fryer Pro</a>.</li>
+<li><strong>3-4 personas:</strong> la Philips Airfryer Serie 3000 XL. Una apuesta segura, con 6,2 litros, 2.000 W y tecnología RapidAir, y una relación calidad-precio excelente dentro de la gama media. Consulta nuestro <a href="/es/blog/test-philips-airfryer-3000-xl">análisis detallado de la Philips 3000 XL</a>.</li>
+<li><strong>4-5 personas:</strong> la Ninja Foodi MAX Double Stack XL. Sus dos cajones apilados de 4,75 litros cada uno (9,5 litros en total) se controlan por separado, y la función Sync hace que las dos cocciones terminen a la vez. Al ser vertical, ocupa menos que una doble cesta con los cajones uno al lado del otro. Si prefieres esa disposición, lee nuestro <a href="/es/blog/test-ninja-foodi-max-dual-zone">análisis de la Ninja Foodi MAX Dual Zone</a>.</li>
+<li><strong>5-6 personas:</strong> la Ninja Foodi FlexDrawer. Su enorme cajón de 10,4 litros funciona como una sola zona o como dos gracias a un separador extraíble. Perfecta para un pollo entero o una buena cantidad de patatas fritas.</li>
+<li><strong>6 o más personas:</strong> la Philips Airfryer Combi XXL Connected. Gama alta, con 8,3 litros, muchas funciones (freír con aire, horno, grill, deshidratar…), sonda de temperatura y conectividad. Una inversión que puede sustituir a varios aparatos.</li>
 </ul>
-
-<p>Consulta nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a> y nuestro <a href="/es/guides/airfryer-vs-four">comparativo freidora de aire vs horno</a>. No olvides los <a href="/es/blog/top-10-accessoires-airfryer">accesorios esenciales</a>.</p>
 
 <h2>6 errores frecuentes al elegir una freidora de aire familiar</h2>
 <ul>
-<li><strong>Elegir demasiado pequeña para ahorrar</strong>: una de 4L para 4 personas obliga a cocinar en 2-3 tandas, tardando más que un horno. Pasa directamente a 6-7L.</li>
-<li><strong>Descuidar la potencia</strong>: por debajo de 1.500 W, el precalentamiento es lento y el crujiente limitado. Apunta a 1.800-2.000 W para familias de 4+.</li>
-<li><strong>Ignorar la huella en la encimera</strong>: los modelos grandes como el Ninja FlexDrawer 10,4L ocupan buena parte de la encimera. Revisa las medidas en la ficha técnica y mide antes de comprar.</li>
-<li><strong>Olvidar los accesorios</strong>: rejilla extra, separador, papel pergamino: inclúyelos en tu presupuesto.</li>
-<li><strong>Comprar solo por la capacidad declarada</strong>: la capacidad útil es menor que el volumen anunciado, porque los alimentos deben quedar en una capa fina para quedar crujientes. Mira también la cantidad máxima indicada por el fabricante.</li>
-<li><strong>Ignorar el SAT y la durabilidad</strong>: Moulinex, por ejemplo, anuncia sus productos como reparables durante 15 años.</li>
+<li><strong>Elegirla demasiado pequeña para ahorrar</strong>: con una de 4 L para cuatro personas tendrás que cocinar en 2 o 3 tandas, y tardarás más que con un horno convencional. Pasa directamente a una de 6 o 7 L.</li>
+<li><strong>No fijarse en la potencia</strong>: por debajo de 1.500 W tarda en coger temperatura y el resultado queda menos crujiente. Para familias de cuatro o más, apunta a 1.800-2.000 W.</li>
+<li><strong>Olvidarse de lo que ocupa</strong>: los modelos grandes, como la Ninja FlexDrawer de 10,4 L, se comen buena parte de la encimera. Mira las medidas en la ficha técnica y mide antes de comprar.</li>
+<li><strong>No contar con los accesorios</strong>: rejilla adicional, separador, papel de horno adaptado… Inclúyelos en el presupuesto. Echa un vistazo a nuestro <a href="/es/blog/top-10-accessoires-airfryer">top 10 de accesorios para freidora de aire</a>.</li>
+<li><strong>Fiarse solo de la capacidad anunciada</strong>: la capacidad útil es menor que el volumen anunciado, porque los alimentos tienen que ir en una capa poco gruesa para quedar crujientes. Mira también la cantidad máxima de alimentos que indica el fabricante.</li>
+<li><strong>No pensar en el servicio técnico ni en la durabilidad</strong>: mejor marcas con red de reparación y recambios disponibles. Moulinex, por ejemplo, anuncia que sus productos se pueden reparar durante 15 años.</li>
 </ul>
 
-<h2>Tabla de decisión rápida: ¿qué freidora de aire para tu familia?</h2>
+<h2>Tabla rápida: ¿qué freidora de aire necesita tu familia?</h2>
 <table>
-<thead><tr><th>Tamaño familia</th><th>Capacidad recomendada</th><th>Potencia mín.</th><th>Modelo recomendado</th><th>Gama</th></tr></thead>
+<thead><tr><th>Personas</th><th>Capacidad recomendada</th><th>Potencia mín.</th><th>Modelo recomendado</th><th>Gama</th></tr></thead>
 <tbody>
-<tr><td>1-2 personas</td><td>3-4L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>Gama de entrada</td></tr>
-<tr><td>2-3 personas</td><td>5-6L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Gama de entrada a media</td></tr>
-<tr><td>3-4 personas</td><td>6-7L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4L</td><td>Gama media</td></tr>
-<tr><td>4-5 personas</td><td>8-10L</td><td>1.900 W</td><td>Ninja Double Stack 9,5L</td><td>Gama media a alta</td></tr>
-<tr><td>5-6 personas</td><td>10L+</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4L</td><td>Gama alta</td></tr>
-<tr><td>6+ personas</td><td>8,3L + horno</td><td>2.200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Gama alta</td></tr>
-</tbody>
-</table>`,
-
-    it: `<h2>Perché scegliere una friggitrice ad aria familiare richiede attenzione</h2>
-<p>Acquistare una friggitrice ad aria per una famiglia di quattro persone e per una coppia sono decisioni completamente diverse. Capacità del cestello, potenza, funzionalità e budget variano considerevolmente in base alle reali esigenze. Nel 2026 l'offerta è vastissima ed è facile sbagliare senza sapere esattamente cosa cercare.</p>
-<p>Questa guida ti accompagna passo dopo passo nella scelta, con raccomandazioni concrete basate sulla dimensione del nucleo familiare, le abitudini culinarie e il budget, a partire dalle schede tecniche dei produttori, da recensioni indipendenti e dalle opinioni di acquirenti verificati.</p>
-
-<h2>Passo 1: Determinare la capacità ideale per la tua famiglia</h2>
-<p>La capacità è il criterio numero uno. Un cestello troppo piccolo obbliga a cuocere in più tornate, annullando il vantaggio di rapidità della friggitrice ad aria.</p>
-
-<h3>Tabella delle capacità raccomandate</h3>
-<table>
-<thead>
-<tr><th>Dimensione del nucleo</th><th>Capacità raccomandata</th><th>Esempio di porzione</th></tr>
-</thead>
-<tbody>
-<tr><td>1-2 persone</td><td>2-4 litri</td><td>400 g di patatine, 2 cosce di pollo</td></tr>
-<tr><td>3-4 persone</td><td>4,5-6 litri</td><td>800 g di patatine, 4 cosce di pollo</td></tr>
-<tr><td>5-6 persone</td><td>6-8 litri</td><td>1,2 kg di patatine, pollo intero medio</td></tr>
-<tr><td>6+ persone</td><td>8 litri e oltre</td><td>1,5 kg di patatine, grande pollo arrosto</td></tr>
+<tr><td>1-2 personas</td><td>3-4 L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>Gama de entrada</td></tr>
+<tr><td>2-3 personas</td><td>5-6 L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>De entrada a media</td></tr>
+<tr><td>3-4 personas</td><td>6-7 L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4 L</td><td>Gama media</td></tr>
+<tr><td>4-5 personas</td><td>8-10 L</td><td>1.900 W</td><td>Ninja Double Stack 9,5 L</td><td>De media a alta</td></tr>
+<tr><td>5-6 personas</td><td>10 L o más</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4 L</td><td>Gama alta</td></tr>
+<tr><td>6 o más personas</td><td>8,3 L + horno</td><td>2.200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Gama alta</td></tr>
 </tbody>
 </table>
 
-<p><strong>Regola pratica:</strong> calcolate circa 1,5 litri di capacità per persona per le patatine fritte e 2 litri per persona se cucinate regolarmente pezzi interi di carne.</p>
+<h2>Conclusión: el método de las 3 preguntas</h2>
+<p>Antes de comprar, hazte tres preguntas: cuántas personas coméis habitualmente en casa (eso marca la capacidad mínima), con qué frecuencia vas a usar la freidora (un uso diario justifica un modelo de gama más alta) y cuál es tu presupuesto real (sin olvidar los <a href="/es/blog/top-10-accessoires-airfryer">accesorios imprescindibles</a>). Para profundizar, consulta nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a> y nuestra <a href="/es/guides/airfryer-vs-four">comparativa entre freidora de aire y horno convencional</a>, que explica las ventajas de cada aparato.</p>`,
+
+    it: `<h2>Perché la friggitrice ad aria per la famiglia non si sceglie a caso</h2>
+<p>Comprare una friggitrice ad aria per una famiglia di quattro persone o per una coppia non è affatto la stessa cosa. Capacità del cestello, potenza, funzioni e budget cambiano molto a seconda delle tue reali esigenze. Nel 2026 l'offerta è vastissima ed è facile sbagliare se non sai esattamente cosa guardare.</p>
+<p>Questa guida ti accompagna passo passo nella scelta, con consigli concreti in base a quanti siete in casa, alle tue abitudini in cucina e al budget. I nostri consigli si basano sulle schede tecniche dei produttori, su valutazioni indipendenti e sulle recensioni verificate degli acquirenti.</p>
+
+<h2>Passo 1: scegli la capacità giusta per la tua famiglia</h2>
+<p>La capacità è il criterio numero uno. Con un cestello troppo piccolo devi cuocere in più riprese e perdi il vantaggio della rapidità. Al contrario, un modello troppo grande consuma più energia e occupa più spazio sul piano di lavoro.</p>
+
+<h3>Tabella delle capacità consigliate</h3>
+<table>
+<thead>
+<tr><th>Persone in casa</th><th>Capacità consigliata</th><th>Esempio di porzione</th><th>Modelli consigliati</th></tr>
+</thead>
+<tbody>
+<tr><td>1-2 persone</td><td>Da 2 a 4 litri</td><td>400 g di patatine, 2 cosce di pollo</td><td>Xiaomi Smart Air Fryer Pro 4L</td></tr>
+<tr><td>3-4 persone</td><td>Da 4,5 a 6 litri</td><td>800 g di patatine, 4 fusi di pollo</td><td>Philips Airfryer 3000 XL, Cosori Dual Blaze</td></tr>
+<tr><td>5-6 persone</td><td>Da 6 a 8 litri</td><td>1,2 kg di patatine, un pollo intero medio</td><td>Ninja Foodi MAX Dual Zone</td></tr>
+<tr><td>6 o più persone</td><td>8 litri e oltre</td><td>1,5 kg di patatine, un pollo arrosto grande</td><td>Ninja Foodi FlexDrawer, Philips Combi XXL</td></tr>
+</tbody>
+</table>
+
+<p><strong>Regola pratica:</strong> calcola circa 1,5 litri di capacità a persona per le patatine e 2 litri a persona se cucini spesso pezzi di carne interi.</p>
 
 <h3>Cestello singolo o doppio?</h3>
-<p>Per famiglie di quattro o più persone, una <a href="/it/blog/airfryer-simple-vs-double-panier">friggitrice ad aria a doppio cestello</a> offre un vantaggio considerevole: potete cuocere il piatto principale e il contorno contemporaneamente. Il Ninja Foodi MAX Dual Zone e la sua versione a cassetti sovrapposti, il Ninja Foodi MAX Double Stack XL, sono riferimenti della categoria con due zone da 4,75 litri ciascuno. Leggete la nostra <a href="/it/blog/test-ninja-foodi-max-dual-zone">recensione dettagliata</a>.</p>
+<p>Se siete in quattro o più, una <a href="/it/blog/airfryer-simple-vs-double-panier">friggitrice ad aria a doppio cestello</a> offre un vantaggio notevole: puoi cuocere insieme il piatto principale e il contorno. Per esempio, nuggets in un cestello e verdure grigliate nell'altro, ognuno con la sua temperatura e il suo tempo di cottura.</p>
+<p>Il Ninja Foodi MAX Dual Zone (leggi la nostra <a href="/it/blog/test-ninja-foodi-max-dual-zone">recensione dettagliata</a>) e la sua versione a cassetti sovrapposti, il Ninja Foodi MAX Double Stack XL, sono i modelli di riferimento della categoria, con due zone da 4,75 litri ciascuna.</p>
 
-<h2>Passo 2: La potenza conta più di quanto pensiate</h2>
-<p>I watt determinano la velocità di riscaldamento e l'efficacia di cottura.</p>
+<h2>Passo 2: la potenza conta più di quanto pensi</h2>
+<p>La potenza in watt determina la velocità con cui l'apparecchio si scalda e la resa in cottura. Un modello poco potente impiega più tempo ad arrivare in temperatura e dà risultati meno croccanti.</p>
+
+<h3>Potenza consigliata in base alla capacità</h3>
 <table>
 <thead>
 <tr><th>Capacità</th><th>Potenza minima</th><th>Potenza ideale</th></tr>
@@ -596,190 +625,215 @@ export const article: BlogArticle = {
 <tr><td>2-3 litri</td><td>1.000 W</td><td>1.200-1.400 W</td></tr>
 <tr><td>4-5 litri</td><td>1.400 W</td><td>1.600-1.800 W</td></tr>
 <tr><td>6-8 litri</td><td>1.700 W</td><td>1.800-2.200 W</td></tr>
-<tr><td>8+ litri</td><td>2.000 W</td><td>2.200-2.500 W</td></tr>
+<tr><td>Oltre 8 litri</td><td>2.000 W</td><td>2.200-2.500 W</td></tr>
 </tbody>
 </table>
 
-<p>Una potenza elevata non significa consumi eccessivi. Approfondite nella nostra guida sul <a href="/it/blog/airfryer-economies-energie">risparmio energetico con la friggitrice ad aria</a>.</p>
+<p>Una potenza elevata non significa consumi eccessivi. Una friggitrice ad aria da 2.200 W che cuoce in 15 minuti consuma meno di un modello da 1.400 W che ne impiega 25 per lo stesso risultato. Per approfondire, leggi la nostra guida al <a href="/it/blog/airfryer-economies-energie">risparmio energetico con la friggitrice ad aria</a>.</p>
 
-<h2>Passo 3: Le funzionalità che contano davvero</h2>
+<h2>Passo 3: le funzioni che contano davvero</h2>
 <h3>Funzioni essenziali</h3>
 <ul>
-<li><strong>Timer con spegnimento automatico:</strong> indispensabile per la sicurezza.</li>
-<li><strong>Termostato regolabile:</strong> da 80°C a 200°C minimo.</li>
-<li><strong>Cestello antiaderente rimovibile:</strong> verificate che sia lavabile in lavastoviglie.</li>
-<li><strong>Promemoria di scuotimento:</strong> avviso acustico a metà cottura.</li>
+<li><strong>Timer con spegnimento automatico:</strong> indispensabile per la sicurezza e per la comodità.</li>
+<li><strong>Termostato regolabile:</strong> almeno da 80 a 200 °C. Alcuni modelli arrivano a 230 °C, utili per rosolare la carne.</li>
+<li><strong>Cestello antiaderente estraibile:</strong> semplifica molto la pulizia. Controlla che si possa lavare in lavastoviglie.</li>
+<li><strong>Promemoria per scuotere il cestello:</strong> un segnale acustico a metà cottura ti ricorda di girare il cibo, per una doratura uniforme.</li>
 </ul>
 
 <h3>Funzioni molto utili</h3>
 <ul>
-<li><strong>Programmi di cottura preimpostati:</strong> 8-12 programmi per patatine, pollo, pesce, verdure.</li>
-<li><strong>Doppia zona di cottura:</strong> quasi indispensabile per famiglie di 4+. Consultate il nostro <a href="/it/blog/airfryer-simple-vs-double-panier">confronto cestello singolo vs doppio</a>.</li>
-<li><strong>Funzione di mantenimento caldo:</strong> pratica quando non tutti mangiano insieme.</li>
-<li><strong>Finestra di visualizzazione:</strong> per monitorare senza aprire il cassetto.</li>
+<li><strong>Programmi di cottura preimpostati:</strong> da 8 a 12 programmi per patatine, pollo, pesce, verdure e altro ancora.</li>
+<li><strong>Doppia zona di cottura:</strong> quasi indispensabile se siete in quattro o più. Leggi il nostro <a href="/it/blog/airfryer-simple-vs-double-panier">confronto tra cestello singolo e doppio</a>.</li>
+<li><strong>Mantenimento in caldo:</strong> comodo quando non mangiate tutti alla stessa ora.</li>
+<li><strong>Finestra di controllo:</strong> per seguire la cottura senza aprire il cassetto e disperdere calore.</li>
 </ul>
 
-<h2>Passo 4: Definire il budget</h2>
-<p>Le friggitrici ad aria si dividono in tre grandi fasce. Invece di puntare a una cifra precisa, individuate la fascia adatta al vostro uso.</p>
+<h3>Funzioni facoltative</h3>
+<ul>
+<li><strong>Wi-Fi e app:</strong> utili per le ricette guidate, ma non indispensabili.</li>
+<li><strong>Funzione essiccatore:</strong> interessante se prepari frutta essiccata o jerky, ma raramente usata ogni giorno.</li>
+<li><strong>Girarrosto:</strong> per arrostire un pollo intero in rotazione. Lo hanno solo alcuni forni multifunzione di fascia alta.</li>
+</ul>
+
+<h2>Passo 4: definisci il budget</h2>
+<p>Le friggitrici ad aria si dividono in tre grandi fasce. Invece di fissarti su una cifra precisa, individua la fascia adatta al tuo uso.</p>
+
 <table>
 <thead>
-<tr><th>Fascia</th><th>Cosa ottenete</th><th>Per chi?</th></tr>
+<tr><th>Fascia</th><th>Cosa trovi</th><th>Per chi?</th></tr>
 </thead>
 <tbody>
-<tr><td>Fascia d'ingresso</td><td>Modello compatto da 2-4L, funzioni base</td><td>Studenti, coppie, uso occasionale</td></tr>
-<tr><td>Fascia media</td><td>Modello da 5-7L o doppio cestello, programmi, marchi noti</td><td>Famiglie di 3-5 persone, uso regolare</td></tr>
-<tr><td>Fascia alta</td><td>XXL o dual zone, connessa, multifunzione</td><td>Grandi famiglie, uso quotidiano, appassionati di cucina</td></tr>
+<tr><td>Fascia d'ingresso</td><td>Modello compatto da 2-4 L, funzioni di base</td><td>Studenti, coppie senza figli, uso occasionale</td></tr>
+<tr><td>Fascia media</td><td>Modello da 5-7 L o a doppio cestello, programmi preimpostati, marchi noti</td><td>Famiglie di 3-5 persone, uso regolare</td></tr>
+<tr><td>Fascia alta</td><td>Modello XXL o a doppia zona, con app, multifunzione</td><td>Famiglie numerose, uso quotidiano, appassionati di cucina</td></tr>
 </tbody>
 </table>
 
-<p>Per una famiglia di quattro persone con uso regolare, la fascia media offre di solito il miglior equilibrio tra capacità, finiture e durata. Per budget ridotti, consultate le nostre <a href="/it/blog/meilleur-airfryer-petit-budget">migliori friggitrici ad aria economiche</a>.</p>
+<p>Per una famiglia di quattro persone che la usa spesso, la fascia media offre di solito il miglior equilibrio tra capacità, finiture e durata nel tempo. Se hai un budget ridotto, guarda la nostra selezione delle <a href="/it/blog/meilleur-airfryer-petit-budget">migliori friggitrici ad aria economiche</a>.</p>
 
-<h2>Passo 5: Spazio, sicurezza e pulizia</h2>
-<p>Una friggitrice familiare occupa spazio. Misurate il piano di lavoro e lasciate almeno 10 cm dietro per la ventilazione. Con bambini piccoli, cercate pareti esterne fredde, blocco bambini, piedini antiscivolo e arresto automatico all'apertura. Per i consigli di pulizia, consultate la nostra <a href="/it/blog/entretien-nettoyage-airfryer">guida completa alla manutenzione</a>.</p>
+<h2>Passo 5: ingombro, sicurezza e pulizia</h2>
+<p>Una friggitrice ad aria per la famiglia occupa spazio. Prima di comprarla, misura il piano di lavoro e lascia almeno 10 cm liberi sul retro per la ventilazione: l'aria calda esce da dietro, quindi l'apparecchio non va appoggiato al muro.</p>
+<p>Se hai bambini piccoli, cerca pareti esterne fredde al tatto, blocco di sicurezza per bambini, piedini antiscivolo e arresto automatico quando si estrae il cassetto. Controlla la scheda tecnica: non tutti i modelli hanno tutte queste funzioni.</p>
+<p>Per i consigli sulla pulizia di tutti i giorni, leggi la nostra <a href="/it/blog/entretien-nettoyage-airfryer">guida completa alla pulizia e alla manutenzione</a>.</p>
 
-<h2>Le nostre 5 raccomandazioni per dimensione familiare</h2>
+<h2>I nostri 5 consigli in base a quanti siete</h2>
 <ul>
-<li><strong>1-2 persone:</strong> Xiaomi Smart Air Fryer Pro 4L — compatta, connessa, fascia d'ingresso. <a href="/it/blog/test-xiaomi-smart-air-fryer-pro">Leggi la recensione</a>.</li>
-<li><strong>3-4 persone:</strong> Philips Airfryer Serie 3000 XL — affidabile, 6,2 L, ottimo rapporto qualità-prezzo. <a href="/it/blog/test-philips-airfryer-3000-xl">Leggi la recensione</a>.</li>
-<li><strong>4-5 persone:</strong> Ninja Foodi MAX Double Stack XL — due cassetti sovrapposti e indipendenti da 4,75 L con funzione Sync. Preferite i cassetti affiancati? <a href="/it/blog/test-ninja-foodi-max-dual-zone">Leggi la recensione del Ninja Foodi MAX Dual Zone</a>.</li>
-<li><strong>5-6 persone:</strong> Ninja Foodi FlexDrawer — cassetto da 10,4 L, utilizzabile come una o due zone.</li>
-<li><strong>6+ persone:</strong> Philips Airfryer Combi XXL Connected — fascia alta, 8,3 L, funzioni forno, grill ed essiccatore, sonda e connettività.</li>
+<li><strong>1-2 persone:</strong> Xiaomi Smart Air Fryer Pro 4L — compatta, con app, fascia d'ingresso. Leggi la nostra <a href="/it/blog/test-xiaomi-smart-air-fryer-pro">recensione completa</a>.</li>
+<li><strong>3-4 persone:</strong> Philips Airfryer Serie 3000 XL — affidabile, 6,2 L con tecnologia RapidAir, ottimo rapporto qualità-prezzo nella fascia media. Leggi la nostra <a href="/it/blog/test-philips-airfryer-3000-xl">recensione dettagliata</a>.</li>
+<li><strong>4-5 persone:</strong> Ninja Foodi MAX Double Stack XL — due cassetti sovrapposti e indipendenti da 4,75 L, con funzione Sync. Preferisci i cassetti affiancati? Leggi la nostra <a href="/it/blog/test-ninja-foodi-max-dual-zone">recensione del Ninja Foodi MAX Dual Zone</a>.</li>
+<li><strong>5-6 persone:</strong> Ninja Foodi FlexDrawer — un cassetto maxi da 10,4 L, da usare come zona unica o diviso in due.</li>
+<li><strong>6 o più persone:</strong> Philips Airfryer Combi XXL Connected — fascia alta, 8,3 L, funzioni forno, grill ed essiccatore, sonda di temperatura e app.</li>
 </ul>
 
-<p>Visitate la nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e il nostro <a href="/it/guides/airfryer-vs-four">confronto friggitrice ad aria vs forno</a>. Non dimenticate gli <a href="/it/blog/top-10-accessoires-airfryer">accessori essenziali</a>.</p>
-
-<h2>6 errori frequenti nella scelta di una friggitrice ad aria familiare</h2>
+<h2>6 errori frequenti nella scelta di una friggitrice ad aria per la famiglia</h2>
 <ul>
-<li><strong>Scegliere troppo piccola per risparmiare</strong>: una da 4L per 4 persone obbliga a cuocere in 2-3 infornate, impiegando più tempo di un forno tradizionale. Passate direttamente a 6-7L.</li>
-<li><strong>Trascurare la potenza</strong>: sotto i 1.500 W, il preriscaldamento è lento e la croccantezza limitata. Per famiglie di 4+, puntate a 1.800-2.000 W.</li>
-<li><strong>Ignorare l'ingombro</strong>: i modelli grandi come il Ninja FlexDrawer 10,4L occupano buona parte del piano di lavoro. Controllate le dimensioni nella scheda tecnica e misurate prima di acquistare.</li>
-<li><strong>Dimenticare gli accessori</strong>: griglia extra, divisore, carta da forno: includeteli nel budget.</li>
-<li><strong>Acquistare solo in base alla capacità dichiarata</strong>: la capacità utile è inferiore al volume dichiarato, perché gli alimenti devono restare in uno strato sottile per diventare croccanti.</li>
-<li><strong>Ignorare assistenza e durabilità</strong>: Moulinex, ad esempio, dichiara i suoi prodotti riparabili per 15 anni.</li>
+<li><strong>Sceglierla troppo piccola per risparmiare</strong>: con una 4 L per 4 persone devi cuocere in 2-3 riprese e ci metti più che con un forno tradizionale. Passa direttamente a una 6-7 L.</li>
+<li><strong>Trascurare la potenza</strong>: sotto i 1.500 W l'apparecchio impiega molto ad arrivare in temperatura e la croccantezza ne risente. Se siete in quattro o più, punta su 1.800-2.000 W.</li>
+<li><strong>Non considerare l'ingombro</strong>: i modelli grandi come il Ninja FlexDrawer da 10,4 L occupano buona parte del piano di lavoro. Controlla le dimensioni nella scheda tecnica e misura prima di comprare.</li>
+<li><strong>Dimenticare gli accessori</strong>: griglia in più, divisorio, carta forno adatta: mettili in conto nel budget. Guarda la nostra <a href="/it/blog/top-10-accessoires-airfryer">top 10 degli accessori per friggitrice ad aria</a>.</li>
+<li><strong>Comprare guardando solo la capacità dichiarata</strong>: la capacità utile è inferiore al volume dichiarato, perché il cibo deve restare in uno strato sottile per diventare croccante. Controlla anche la quantità massima di alimenti indicata dal produttore.</li>
+<li><strong>Trascurare assistenza e durata</strong>: preferisci i marchi con una rete di riparazione e ricambi disponibili. Moulinex, per esempio, dichiara i suoi prodotti riparabili per 15 anni.</li>
 </ul>
 
 <h2>Tabella decisionale rapida: quale friggitrice ad aria per la tua famiglia?</h2>
 <table>
-<thead><tr><th>Dimensione famiglia</th><th>Capacità raccomandata</th><th>Potenza min.</th><th>Modello consigliato</th><th>Fascia</th></tr></thead>
+<thead><tr><th>Persone in famiglia</th><th>Capacità consigliata</th><th>Potenza minima</th><th>Modello consigliato</th><th>Fascia</th></tr></thead>
 <tbody>
-<tr><td>1-2 persone</td><td>3-4L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>Fascia d'ingresso</td></tr>
-<tr><td>2-3 persone</td><td>5-6L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Fascia d'ingresso-media</td></tr>
-<tr><td>3-4 persone</td><td>6-7L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4L</td><td>Fascia media</td></tr>
-<tr><td>4-5 persone</td><td>8-10L</td><td>1.900 W</td><td>Ninja Double Stack 9,5L</td><td>Fascia media-alta</td></tr>
-<tr><td>5-6 persone</td><td>10L+</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4L</td><td>Fascia alta</td></tr>
-<tr><td>6+ persone</td><td>8,3L + forno</td><td>2.200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Fascia alta</td></tr>
-</tbody>
-</table>`,
-
-    nl: `<h2>Waarom de keuze van een gezins-airfryer niet vanzelf spreekt</h2>
-<p>Een airfryer kopen voor een gezin van vier personen en voor een stel zijn totaal verschillende beslissingen. De mandcapaciteit, het vermogen, de functies en het budget variëren aanzienlijk afhankelijk van je werkelijke behoeften. Het aanbod is in 2026 enorm, en zonder de juiste kennis is een verkeerde keuze snel gemaakt.</p>
-<p>Deze gids begeleidt je stap voor stap bij je keuze, met concrete aanbevelingen op basis van gezinsgrootte, kookgewoonten en budget. Ze zijn gebaseerd op fabrieksspecificaties, onafhankelijke reviews en geverifieerde koperservaringen.</p>
-
-<h2>Stap 1: De ideale capaciteit voor jouw gezin bepalen</h2>
-<p>Capaciteit is het allerbelangrijkste criterium. Een te kleine mand dwingt je om in meerdere rondes te koken, waarmee het snelheidsvoordeel van de airfryer teniet wordt gedaan.</p>
-
-<h3>Aanbevolen capaciteiten</h3>
-<table>
-<thead>
-<tr><th>Gezinsgrootte</th><th>Aanbevolen capaciteit</th><th>Portievoorbeeld</th></tr>
-</thead>
-<tbody>
-<tr><td>1-2 personen</td><td>2 tot 4 liter</td><td>400 g friet, 2 kippendijen</td></tr>
-<tr><td>3-4 personen</td><td>4,5 tot 6 liter</td><td>800 g friet, 4 kippenpoten</td></tr>
-<tr><td>5-6 personen</td><td>6 tot 8 liter</td><td>1,2 kg friet, middelgrote hele kip</td></tr>
-<tr><td>6+ personen</td><td>8 liter en meer</td><td>1,5 kg friet, grote braadkip</td></tr>
+<tr><td>1-2 persone</td><td>3-4 L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>Fascia d'ingresso</td></tr>
+<tr><td>2-3 persone</td><td>5-6 L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Fascia d'ingresso o media</td></tr>
+<tr><td>3-4 persone</td><td>6-7 L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4 L</td><td>Fascia media</td></tr>
+<tr><td>4-5 persone</td><td>8-10 L</td><td>1.900 W</td><td>Ninja Double Stack 9,5 L</td><td>Fascia media o alta</td></tr>
+<tr><td>5-6 persone</td><td>Oltre 10 L</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4 L</td><td>Fascia alta</td></tr>
+<tr><td>6 o più persone</td><td>8,3 L + forno</td><td>2.200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Fascia alta</td></tr>
 </tbody>
 </table>
 
-<p><strong>Vuistregel:</strong> reken op ongeveer 1,5 liter capaciteit per persoon voor friet en 2 liter per persoon als je regelmatig hele stukken vlees bereidt.</p>
+<h2>Conclusione: il metodo delle 3 domande</h2>
+<p>Prima di comprare, fatti tre domande: quante persone mangiano regolarmente a casa (da qui la capacità minima), quanto spesso userai la friggitrice ad aria (un uso quotidiano giustifica un modello di fascia più alta) e qual è il tuo budget realistico (senza dimenticare gli <a href="/it/blog/top-10-accessoires-airfryer">accessori essenziali</a>). Per approfondire, leggi la nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e il nostro <a href="/it/guides/airfryer-vs-four">confronto tra friggitrice ad aria e forno tradizionale</a>.</p>`,
 
-<h3>Enkele of dubbele mand?</h3>
-<p>Voor gezinnen van vier of meer personen biedt een <a href="/nl/blog/airfryer-simple-vs-double-panier">dubbele-mand airfryer</a> een groot voordeel: je kunt het hoofdgerecht en de bijgerechten tegelijkertijd bereiden. De Ninja Foodi MAX Dual Zone en zijn variant met gestapelde lades, de Ninja Foodi MAX Double Stack XL, zijn referenties in deze categorie met elk twee zones van 4,75 liter. Lees onze <a href="/nl/blog/test-ninja-foodi-max-dual-zone">uitgebreide review</a>.</p>
+    nl: `<h2>Waarom je een airfryer voor het gezin niet zomaar kiest</h2>
+<p>Een airfryer voor een gezin van vier kies je heel anders dan een airfryer voor twee. De inhoud van de mand, het vermogen, de functies en het budget hangen sterk af van wat je echt nodig hebt. Het aanbod is in 2026 groot, en als je niet precies weet waar je op moet letten, maak je snel een verkeerde keuze.</p>
+<p>Deze gids helpt je stap voor stap, met concrete adviezen op basis van de grootte van je huishouden, je kookgewoonten en je budget. Onze aanbevelingen zijn gebaseerd op specificaties van fabrikanten, onafhankelijke reviews en ervaringen van geverifieerde kopers. We testen de producten niet zelf.</p>
 
-<h2>Stap 2: Vermogen — belangrijker dan je denkt</h2>
-<p>Het wattage bepaalt hoe snel het apparaat opwarmt en hoe effectief het kookt.</p>
+<h2>Stap 1: bepaal de juiste inhoud voor je gezin</h2>
+<p>De inhoud is het belangrijkste criterium. Is de mand te klein, dan moet je in meerdere rondes bakken en ben je het snelheidsvoordeel van de airfryer kwijt. Een te groot model verbruikt juist meer stroom en neemt meer ruimte in op je aanrecht.</p>
+
+<h3>Aanbevolen inhoud per gezinsgrootte</h3>
 <table>
 <thead>
-<tr><th>Capaciteit</th><th>Minimaal vermogen</th><th>Ideaal vermogen</th></tr>
+<tr><th>Gezinsgrootte</th><th>Aanbevolen inhoud</th><th>Voorbeeldportie</th><th>Aanbevolen modellen</th></tr>
 </thead>
 <tbody>
-<tr><td>2-3 liter</td><td>1.000 W</td><td>1.200-1.400 W</td></tr>
-<tr><td>4-5 liter</td><td>1.400 W</td><td>1.600-1.800 W</td></tr>
-<tr><td>6-8 liter</td><td>1.700 W</td><td>1.800-2.200 W</td></tr>
-<tr><td>8+ liter</td><td>2.000 W</td><td>2.200-2.500 W</td></tr>
+<tr><td>1–2 personen</td><td>2–4 l</td><td>400 g friet, 2 kippendijen</td><td>Xiaomi Smart Air Fryer Pro 4L</td></tr>
+<tr><td>3–4 personen</td><td>4,5–6 l</td><td>800 g friet, 4 kippenpootjes</td><td>Philips Airfryer 3000 XL, Cosori Dual Blaze</td></tr>
+<tr><td>5–6 personen</td><td>6–8 l</td><td>1,2 kg friet, middelgrote hele kip</td><td>Ninja Foodi MAX Dual Zone</td></tr>
+<tr><td>6+ personen</td><td>8 l en meer</td><td>1,5 kg friet, grote braadkip</td><td>Ninja Foodi FlexDrawer, Philips Combi XXL</td></tr>
 </tbody>
 </table>
 
-<p>Meer wattage betekent niet per se meer energieverbruik. Lees meer in onze gids over <a href="/nl/blog/airfryer-economies-energie">energiebesparing met de airfryer</a>.</p>
+<p><strong>Vuistregel:</strong> reken op ongeveer 1,5 liter inhoud per persoon voor friet, en op 2 liter per persoon als je regelmatig grote stukken vlees in één keer bereidt.</p>
 
-<h2>Stap 3: Functies die er echt toe doen</h2>
-<h3>Essentiële functies</h3>
+<h3>Eén mand of twee manden?</h3>
+<p>Voor gezinnen van vier of meer personen heeft een <a href="/nl/blog/airfryer-simple-vs-double-panier">airfryer met twee manden</a> een groot voordeel: je bereidt het hoofdgerecht en de bijgerechten tegelijk. Bijvoorbeeld nuggets in de ene mand en geroosterde groenten in de andere, elk op een eigen temperatuur en met een eigen bereidingstijd.</p>
+<p>De Ninja Foodi MAX Dual Zone (lees onze <a href="/nl/blog/test-ninja-foodi-max-dual-zone">uitgebreide review</a>) en de variant met gestapelde lades, de Ninja Foodi MAX Double Stack XL, zijn toonaangevend in deze categorie, met elk twee zones van 4,75 liter.</p>
+
+<h2>Stap 2: vermogen is belangrijker dan je denkt</h2>
+<p>Het vermogen in watt bepaalt hoe snel het apparaat opwarmt en hoe goed het bakt. Een model met te weinig vermogen doet er langer over om op temperatuur te komen en maakt het eten minder krokant.</p>
+
+<h3>Aanbevolen vermogen per inhoud</h3>
+<table>
+<thead>
+<tr><th>Inhoud</th><th>Minimaal vermogen</th><th>Ideaal vermogen</th></tr>
+</thead>
+<tbody>
+<tr><td>2–3 l</td><td>1.000 W</td><td>1.200–1.400 W</td></tr>
+<tr><td>4–5 l</td><td>1.400 W</td><td>1.600–1.800 W</td></tr>
+<tr><td>6–8 l</td><td>1.700 W</td><td>1.800–2.200 W</td></tr>
+<tr><td>8+ l</td><td>2.000 W</td><td>2.200–2.500 W</td></tr>
+</tbody>
+</table>
+
+<p>Een hoger vermogen betekent niet dat je veel meer stroom verbruikt. Een airfryer van 2.200 W die je eten in 15 minuten klaar heeft, verbruikt minder dan een model van 1.400 W dat er 25 minuten over doet. Meer hierover lees je in onze gids over <a href="/nl/blog/airfryer-economies-energie">energie besparen met een airfryer</a>.</p>
+
+<h2>Stap 3: de functies die er echt toe doen</h2>
+<h3>Basisfuncties</h3>
 <ul>
-<li><strong>Timer met automatische uitschakeling:</strong> onmisbaar voor veiligheid.</li>
-<li><strong>Regelbare thermostaat:</strong> minimaal 80°C tot 200°C.</li>
-<li><strong>Uitneembare antiaanbaklaag mand:</strong> moet vaatwasserbestendig zijn.</li>
-<li><strong>Schudherinnering:</strong> geluidssignaal halverwege het koken.</li>
+<li><strong>Timer met automatische uitschakeling:</strong> belangrijk voor de veiligheid en het gemak.</li>
+<li><strong>Instelbare temperatuur:</strong> minimaal van 80 tot 200 °C. Sommige modellen gaan tot 230 °C, zodat je vlees kunt dichtschroeien.</li>
+<li><strong>Uitneembare mand met antiaanbaklaag:</strong> maakt schoonmaken veel makkelijker. Controleer of de mand in de vaatwasser mag.</li>
+<li><strong>Schudherinnering:</strong> een geluidssignaal halverwege om het eten om te schudden, zodat alles gelijkmatig bruin wordt.</li>
 </ul>
 
-<h3>Zeer nuttige functies</h3>
+<h3>Erg handige functies</h3>
 <ul>
-<li><strong>Voorgeprogrammeerde kookprogramma's:</strong> 8-12 programma's voor friet, kip, vis, groenten.</li>
-<li><strong>Dubbele kookzone:</strong> bijna onmisbaar voor gezinnen van 4+. Bekijk onze <a href="/nl/blog/airfryer-simple-vs-double-panier">vergelijking enkele vs dubbele mand</a>.</li>
+<li><strong>Automatische programma’s:</strong> 8 tot 12 programma’s voor onder meer friet, kip, vis en groenten.</li>
+<li><strong>Twee kookzones:</strong> voor gezinnen van vier of meer bijna een must. Bekijk onze <a href="/nl/blog/airfryer-simple-vs-double-panier">vergelijking van airfryers met één of twee manden</a>.</li>
 <li><strong>Warmhoudfunctie:</strong> handig als niet iedereen tegelijk eet.</li>
-<li><strong>Kijkvenster:</strong> om te monitoren zonder de lade te openen.</li>
+<li><strong>Kijkvenster:</strong> je ziet hoe het eten ervoor staat zonder de lade te openen en warmte te verliezen.</li>
 </ul>
 
-<h2>Stap 4: Budget bepalen</h2>
-<p>Airfryers vallen in drie grote prijsklassen. Mik niet op een exact bedrag, maar kies de klasse die bij je gebruik past.</p>
+<h3>Leuk, maar niet nodig</h3>
+<ul>
+<li><strong>Wifi en app:</strong> handig voor recepten met stapsgewijze uitleg, maar niet noodzakelijk.</li>
+<li><strong>Droogfunctie:</strong> interessant als je zelf gedroogd fruit of jerky maakt, maar in de praktijk zelden gebruikt.</li>
+<li><strong>Rotisseriefunctie:</strong> om een hele kip draaiend te roosteren. Die vind je alleen bij sommige duurdere multifunctionele ovens.</li>
+</ul>
+
+<h2>Stap 4: bepaal je budget</h2>
+<p>Airfryers vallen in drie prijsklassen. Mik niet op een exact bedrag, maar kies de klasse die past bij hoe vaak en waarvoor je hem gebruikt.</p>
+
 <table>
 <thead>
-<tr><th>Klasse</th><th>Wat je krijgt</th><th>Voor wie?</th></tr>
+<tr><th>Prijsklasse</th><th>Wat je krijgt</th><th>Voor wie?</th></tr>
 </thead>
 <tbody>
-<tr><td>Instapklasse</td><td>Compact 2-4L model, basisfuncties</td><td>Studenten, stellen, incidenteel gebruik</td></tr>
-<tr><td>Middenklasse</td><td>5-7L of dubbele mand, programma's, bekende merken</td><td>Gezinnen van 3-5, regelmatig gebruik</td></tr>
-<tr><td>Topklasse</td><td>XXL of dual zone, connected, multifunctie</td><td>Grote gezinnen, dagelijks gebruik, kookliefhebbers</td></tr>
+<tr><td>Instapklasse</td><td>Compact model van 2–4 l, basisfuncties</td><td>Studenten, stellen zonder kinderen, gebruik af en toe</td></tr>
+<tr><td>Middenklasse</td><td>5–7 l of twee manden, automatische programma’s, bekende merken</td><td>Gezinnen van 3 tot 5 personen, regelmatig gebruik</td></tr>
+<tr><td>Topklasse</td><td>Groot XXL-model of twee zones, met app, multifunctioneel</td><td>Grote gezinnen, dagelijks gebruik, kookliefhebbers</td></tr>
 </tbody>
 </table>
 
-<p>Voor een gezin van vier met regelmatig gebruik biedt de middenklasse meestal de beste balans tussen capaciteit, afwerking en duurzaamheid. Voor een krap budget bekijk onze <a href="/nl/blog/meilleur-airfryer-petit-budget">beste budget airfryers</a>.</p>
+<p>Voor een gezin van vier dat de airfryer regelmatig gebruikt, biedt de middenklasse meestal de beste balans tussen inhoud, afwerking en levensduur. Is je budget krap, bekijk dan onze selectie van de <a href="/nl/blog/meilleur-airfryer-petit-budget">beste airfryers voor een klein budget</a>.</p>
 
-<h2>Stap 5: Ruimte, veiligheid en reiniging</h2>
-<p>Een gezins-airfryer neemt ruimte in beslag. Meet je aanrecht en laat minstens 10 cm ruimte achter het apparaat voor ventilatie. Met kleine kinderen, let op koele buitenwanden, kinderslot, antislipvoetjes en automatische stop bij openen. Voor schoonmaaktips zie onze <a href="/nl/blog/entretien-nettoyage-airfryer">complete onderhoudsgids</a>.</p>
+<h2>Stap 5: afmetingen, veiligheid en schoonmaken</h2>
+<p>Een airfryer voor het gezin neemt ruimte in. Meet vóór de aankoop je aanrecht op en laat minstens 10 cm vrij achter het apparaat voor de ventilatie: een airfryer blaast warme lucht naar achteren uit.</p>
+<p>Heb je jonge kinderen, kies dan een model met koele buitenwanden, een kinderslot, antislipvoetjes en een automatische stop zodra je de lade opent. Controleer de specificaties, want niet elk model heeft al deze functies.</p>
+<p>Tips voor het dagelijkse schoonmaken vind je in onze <a href="/nl/blog/entretien-nettoyage-airfryer">complete gids voor het onderhoud van je airfryer</a>.</p>
 
-<h2>Onze top 5 aanbevelingen per gezinsgrootte</h2>
+<h2>Onze top 5 per gezinsgrootte</h2>
 <ul>
-<li><strong>1-2 personen:</strong> Xiaomi Smart Air Fryer Pro 4L — compact, connected, instapklasse. <a href="/nl/blog/test-xiaomi-smart-air-fryer-pro">Lees de review</a>.</li>
-<li><strong>3-4 personen:</strong> Philips Airfryer 3000 Series XL — betrouwbaar, 6,2 L, sterke prijs-kwaliteitverhouding. <a href="/nl/blog/test-philips-airfryer-3000-xl">Lees de review</a>.</li>
-<li><strong>4-5 personen:</strong> Ninja Foodi MAX Double Stack XL — twee gestapelde, onafhankelijke lades van 4,75 L met Sync-functie. Liever lades naast elkaar? <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Lees de review van de Ninja Foodi MAX Dual Zone</a>.</li>
-<li><strong>5-6 personen:</strong> Ninja Foodi FlexDrawer — megalade van 10,4 L, te gebruiken als één of twee zones.</li>
-<li><strong>6+ personen:</strong> Philips Airfryer Combi XXL Connected — topklasse, 8,3 L, oven-, grill- en droogfuncties, kernthermometer en connectiviteit.</li>
+<li><strong>1–2 personen:</strong> Xiaomi Smart Air Fryer Pro 4L – compact, met app, in de instapklasse. Lees onze <a href="/nl/blog/test-xiaomi-smart-air-fryer-pro">volledige review</a>.</li>
+<li><strong>3–4 personen:</strong> Philips Airfryer 3000 Series XL – betrouwbaar, 6,2 liter, met RapidAir-technologie en een sterke prijs-kwaliteitverhouding in de middenklasse. Lees onze <a href="/nl/blog/test-philips-airfryer-3000-xl">uitgebreide review</a>.</li>
+<li><strong>4–5 personen:</strong> Ninja Foodi MAX Double Stack XL – twee gestapelde lades van elk 4,75 liter die je los van elkaar bedient, met Sync-functie. Liever lades naast elkaar? Lees onze <a href="/nl/blog/test-ninja-foodi-max-dual-zone">review van de Ninja Foodi MAX Dual Zone</a>.</li>
+<li><strong>5–6 personen:</strong> Ninja Foodi FlexDrawer – een extra grote lade van 10,4 liter, te gebruiken als één of twee zones.</li>
+<li><strong>6+ personen:</strong> Philips Airfryer Combi XXL Connected – topmodel van 8,3 liter met oven-, grill- en droogfunctie, een temperatuursonde en een app.</li>
 </ul>
 
-<p>Bezoek onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>. Vergeet de <a href="/nl/blog/top-10-accessoires-airfryer">essentiële accessoires</a> niet.</p>
-
-<h2>6 veelgemaakte fouten bij het kiezen van een gezins-airfryer</h2>
+<h2>6 veelgemaakte fouten bij het kiezen van een airfryer voor het gezin</h2>
 <ul>
-<li><strong>Te klein kiezen om te besparen</strong>: een 4L voor 4 personen betekent koken in 2-3 batches, wat langer duurt dan een traditionele oven. Ga meteen voor 6-7L.</li>
-<li><strong>Vermogen verwaarlozen</strong>: onder 1.500 W is opwarmen traag en krokantheit beperkt. Voor gezinnen van 4+: mik op 1.800-2.000 W.</li>
-<li><strong>Voetafdruk negeren</strong>: grote modellen zoals de Ninja FlexDrawer 10,4L nemen veel aanrechtruimte in. Controleer de afmetingen in de specificaties en meet voor het kopen.</li>
-<li><strong>Accessoires vergeten</strong>: extra rooster, verdeler, geschikt bakpapier: neem ze mee in je budget.</li>
-<li><strong>Alleen op aangegeven capaciteit kopen</strong>: de bruikbare capaciteit is kleiner dan het opgegeven volume, omdat voedsel in een dunne laag moet liggen om krokant te worden.</li>
-<li><strong>After-sales en duurzaamheid negeren</strong>: Moulinex adverteert zijn producten bijvoorbeeld als 15 jaar repareerbaar.</li>
+<li><strong>Uit zuinigheid te klein kiezen</strong>: met 4 liter voor vier personen bak je in twee of drie rondes, en dan ben je langer bezig dan met een gewone oven. Kies meteen een model van 6 tot 7 liter.</li>
+<li><strong>Het vermogen onderschatten</strong>: onder 1.500 W warmt hij traag op en wordt het eten minder krokant. Mik voor gezinnen van vier of meer op 1.800 tot 2.000 W.</li>
+<li><strong>Niet op de afmetingen letten</strong>: grote modellen zoals de Ninja FlexDrawer van 10,4 liter nemen een flink deel van je aanrecht in beslag. Controleer de afmetingen in de specificaties en meet vóór de aankoop.</li>
+<li><strong>De accessoires vergeten</strong>: een extra rooster, een verdeler, passend bakpapier: houd er rekening mee in je budget. Bekijk onze <a href="/nl/blog/top-10-accessoires-airfryer">top 10 airfryeraccessoires</a>.</li>
+<li><strong>Alleen naar de opgegeven inhoud kijken</strong>: de bruikbare inhoud is kleiner dan het opgegeven volume, want het eten moet in een dunne laag liggen om krokant te worden. Kijk ook naar de maximale hoeveelheid eten die de fabrikant opgeeft.</li>
+<li><strong>Service en levensduur negeren</strong>: kies liever een merk met een reparatienetwerk en goed leverbare onderdelen. Moulinex zegt bijvoorbeeld dat zijn producten 15 jaar repareerbaar zijn.</li>
 </ul>
 
-<h2>Snelle beslissingstabel: welke airfryer voor jouw gezin?</h2>
+<h2>Snelle keuzetabel: welke airfryer past bij je gezin?</h2>
 <table>
-<thead><tr><th>Gezinsgrootte</th><th>Aanbevolen capaciteit</th><th>Min. vermogen</th><th>Aanbevolen model</th><th>Klasse</th></tr></thead>
+<thead><tr><th>Gezinsgrootte</th><th>Aanbevolen inhoud</th><th>Min. vermogen</th><th>Aanbevolen model</th><th>Prijsklasse</th></tr></thead>
 <tbody>
-<tr><td>1-2 personen</td><td>3-4L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>Instapklasse</td></tr>
-<tr><td>2-3 personen</td><td>5-6L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Instap- tot middenklasse</td></tr>
-<tr><td>3-4 personen</td><td>6-7L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4L</td><td>Middenklasse</td></tr>
-<tr><td>4-5 personen</td><td>8-10L</td><td>1.900 W</td><td>Ninja Double Stack 9,5L</td><td>Midden- tot topklasse</td></tr>
-<tr><td>5-6 personen</td><td>10L+</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4L</td><td>Topklasse</td></tr>
-<tr><td>6+ personen</td><td>8,3L + oven</td><td>2.200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Topklasse</td></tr>
+<tr><td>1–2 personen</td><td>3–4 l</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>Instapklasse</td></tr>
+<tr><td>2–3 personen</td><td>5–6 l</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Instap- tot middenklasse</td></tr>
+<tr><td>3–4 personen</td><td>6–7 l</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4L</td><td>Middenklasse</td></tr>
+<tr><td>4–5 personen</td><td>8–10 l</td><td>1.900 W</td><td>Ninja Double Stack 9,5L</td><td>Midden- tot topklasse</td></tr>
+<tr><td>5–6 personen</td><td>10+ l</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4L</td><td>Topklasse</td></tr>
+<tr><td>6+ personen</td><td>8,3 l + oven</td><td>2.200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Topklasse</td></tr>
 </tbody>
-</table>`,
+</table>
+
+<h2>Conclusie: kies met deze drie vragen</h2>
+<p>Stel jezelf vóór de aankoop drie vragen. Hoeveel mensen eten er meestal thuis mee? Dat bepaalt de minimale inhoud. Hoe vaak ga je de airfryer gebruiken? Bij dagelijks gebruik is een duurder model de moeite waard. En wat is je realistische budget? Vergeet daarbij de <a href="/nl/blog/top-10-accessoires-airfryer">belangrijkste accessoires</a> niet. Wil je meer weten, lees dan onze <a href="/nl/guides/airfryers">complete airfryergids</a> en onze vergelijking <a href="/nl/guides/airfryer-vs-four">airfryer of oven</a>.</p>`,
     pl: `<h2>Dlaczego wybór frytkownicy beztłuszczowej dla rodziny wymaga namysłu</h2>
 <p>Frytkownica beztłuszczowa (air fryer) dla czteroosobowej rodziny i frytkownica dla pary to dwa zupełnie różne zakupy. Odpowiednia pojemność kosza, moc, funkcje i budżet zależą od tego, czego naprawdę potrzebujesz. W 2026 roku wybór jest ogromny i łatwo o pomyłkę, jeśli nie wiesz dokładnie, na co zwracać uwagę.</p>
 <p>Ten poradnik przeprowadzi Cię przez wybór krok po kroku i podpowie konkretne rozwiązania dopasowane do liczby domowników, kulinarnych przyzwyczajeń i budżetu. Nasze rekomendacje opieramy na kartach katalogowych producentów, niezależnych ocenach i opiniach zweryfikowanych kupujących.</p>
@@ -1319,11 +1373,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Quelle capacité d\'airfryer choisir pour une famille de 4 personnes ?',
-        en: 'What air fryer capacity should I choose for a family of 4?',
-        de: 'Welche Heißluftfritteusen-Kapazität sollte ich für eine 4-köpfige Familie wählen?',
-        es: '¿Qué capacidad de freidora de aire elegir para una familia de 4 personas?',
-        it: 'Quale capacità di friggitrice ad aria scegliere per una famiglia di 4 persone?',
-        nl: 'Welke capaciteit airfryer moet ik kiezen voor een gezin van 4 personen?',
+        en: 'What size air fryer do I need for a family of four?',
+        de: 'Welche Größe sollte ein Airfryer für eine vierköpfige Familie haben?',
+        es: '¿Qué capacidad de freidora de aire necesita una familia de 4 personas?',
+        it: 'Che capacità deve avere la friggitrice ad aria per 4 persone?',
+        nl: 'Hoeveel liter airfryer heb je nodig voor een gezin van vier personen?',
         pl: 'Jaką pojemność frytkownicy beztłuszczowej wybrać dla czteroosobowej rodziny?',
         sv: 'Vilken volym ska airfryern ha för en familj på fyra?',
         us: 'What size air fryer do I need for a family of 4?',
@@ -1331,11 +1385,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Pour une famille de 4 personnes, optez pour un airfryer de 5 à 6 litres. Cette capacité permet de cuire suffisamment de nourriture en une seule fournée pour tout le monde. Les modèles à double panier de 4,75 L par zone sont aussi une excellente option pour préparer deux plats simultanément.',
-        en: 'For a family of 4, choose an air fryer with 5 to 6 litres capacity. This size cooks enough food in a single batch for everyone. Dual-basket models with 4.75 L per zone are also an excellent option, letting you prepare two dishes simultaneously without extra cooking time.',
-        de: 'Für eine 4-köpfige Familie wählen Sie eine Heißluftfritteuse mit 5 bis 6 Litern Fassungsvermögen. Diese Größe gart genug für alle in einem Durchgang. Doppelkorb-Modelle mit 4,75 L pro Zone sind ebenfalls eine hervorragende Option für zwei gleichzeitige Gerichte.',
-        es: 'Para una familia de 4 personas, elige una freidora de aire de 5 a 6 litros. Esta capacidad permite cocinar suficiente comida en una sola tanda para todos. Los modelos de doble cesta con 4,75 L por zona también son excelentes para preparar dos platos simultáneamente.',
-        it: 'Per una famiglia di 4 persone, scegli una friggitrice ad aria da 5 a 6 litri. Questa capacità permette di cuocere cibo sufficiente per tutti in un solo ciclo. I modelli a doppio cestello da 4,75 L per zona sono un\'ottima opzione per preparare due piatti contemporaneamente.',
-        nl: 'Voor een gezin van 4 personen kies je een airfryer van 5 tot 6 liter. Dit formaat kookt genoeg eten in één keer voor iedereen. Dubbele mandmodellen met 4,75 L per zone zijn ook uitstekend om twee gerechten tegelijk te bereiden zonder extra kooktijd.',
+        en: 'For a family of four, go for a 5- to 6-litre air fryer. That is big enough to cook for everyone in a single batch. Dual-basket models with 4.75 litres per zone are also an excellent option if you want to cook two dishes at the same time.',
+        de: 'Für vier Personen sollte der Airfryer 5 bis 6 Liter fassen. Dann reicht ein Durchgang für alle. Eine sehr gute Alternative sind Modelle mit 2 Kammern à 4,75 L: Darin bereiten Sie zwei Gerichte gleichzeitig zu.',
+        es: 'Para una familia de cuatro, elige una freidora de aire de 5 a 6 litros: así puedes cocinar para todos en una sola tanda. Los modelos de doble cesta, con 4,75 L por zona, también son muy buena opción para preparar dos platos a la vez.',
+        it: 'Per una famiglia di 4 persone scegli una friggitrice ad aria da 5-6 litri: con questa capacità cucini per tutti in una volta sola. Anche i modelli a doppio cestello da 4,75 L per zona sono un\'ottima soluzione, perché permettono di preparare due piatti contemporaneamente.',
+        nl: 'Kies een airfryer van 5 tot 6 liter. Daarmee bak je in één keer genoeg voor het hele gezin. Een model met twee manden van elk 4,75 liter is ook een uitstekende keuze: zo bereid je twee gerechten tegelijk.',
         pl: 'Dla czteroosobowej rodziny wybierz frytkownicę o pojemności 5–6 litrów – wtedy za jednym razem przygotujesz porcję dla wszystkich. Świetnie sprawdzą się też modele z dwoma koszami po 4,75 l, w których jednocześnie zrobisz dwa dania.',
         sv: 'För en familj på fyra passar en airfryer på 5–6 liter. Den storleken räcker för att laga mat till alla i en enda omgång. Modeller med två korgar på 4,75 liter per zon är också ett utmärkt alternativ: du kan laga två rätter samtidigt utan att det tar längre tid.',
         us: 'For a family of four, go with a 5.3- to 6.3-quart (5 to 6 L) air fryer. That size cooks enough for everyone in a single batch. Dual-basket models with about 5 quarts (4.75 L) per zone are also a great option, since they let you cook two dishes at once without adding cooking time.',
@@ -1345,11 +1399,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Un airfryer est-il sûr pour les enfants ?',
-        en: 'Is an air fryer safe for households with children?',
-        de: 'Ist eine Heißluftfritteuse sicher für Haushalte mit Kindern?',
-        es: '¿Es segura una freidora de aire en hogares con niños?',
-        it: 'Una friggitrice ad aria è sicura nelle case con bambini?',
-        nl: 'Is een airfryer veilig in huishoudens met kinderen?',
+        en: 'Are air fryers safe with children in the house?',
+        de: 'Ist ein Airfryer sicher, wenn Kinder im Haushalt sind?',
+        es: '¿Es segura una freidora de aire si hay niños en casa?',
+        it: 'La friggitrice ad aria è sicura con i bambini?',
+        nl: 'Is een airfryer veilig als je kinderen in huis hebt?',
         pl: 'Czy frytkownica beztłuszczowa jest bezpieczna dla dzieci?',
         sv: 'Är en airfryer säker i ett hem med barn?',
         us: 'Is an air fryer safe to use around kids?',
@@ -1357,11 +1411,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Oui, l\'airfryer est bien plus sûr qu\'une friteuse à huile. Recherchez des modèles avec paroi extérieure froide, arrêt automatique à l\'ouverture et verrouillage enfant. Placez toujours l\'appareil hors de portée des enfants et veillez à ce que la vapeur chaude ne soit pas accessible.',
-        en: 'Yes, air fryers are much safer than deep fryers. Look for models with cool-touch exterior walls, automatic shut-off when opened, and child lock features. Always place the appliance out of children\'s reach and ensure hot steam vents are not accessible to small hands.',
-        de: 'Ja, Heißluftfritteusen sind viel sicherer als herkömmliche Fritteusen. Achten Sie auf Modelle mit kühlen Außenwänden, automatischer Abschaltung beim Öffnen und Kindersicherung. Stellen Sie das Gerät immer außerhalb der Reichweite von Kindern auf.',
-        es: 'Sí, las freidoras de aire son mucho más seguras que las freidoras de aceite. Busca modelos con paredes exteriores frías al tacto, apagado automático al abrir y bloqueo infantil. Coloca siempre el aparato fuera del alcance de los niños y vigila las salidas de vapor.',
-        it: 'Sì, le friggitrici ad aria sono molto più sicure delle friggitrici a olio. Cerca modelli con pareti esterne fredde al tatto, spegnimento automatico all\'apertura e blocco bambini. Posiziona sempre l\'apparecchio fuori dalla portata dei bambini e controlla le uscite del vapore.',
-        nl: 'Ja, airfryers zijn veel veiliger dan traditionele frituurpannen. Zoek modellen met koele buitenwanden, automatische stop bij openen en kinderslot. Plaats het apparaat altijd buiten bereik van kinderen en zorg dat hete stoomuitlaten niet toegankelijk zijn.',
+        en: 'Yes, an air fryer is much safer than a deep fat fryer. Look for a model with a cool-touch exterior, automatic shut-off when the drawer is opened and a child lock. Always keep the appliance out of children\'s reach and make sure they cannot get near the hot steam.',
+        de: 'Ja, ein Airfryer ist deutlich sicherer als eine Fritteuse mit heißem Öl. Achten Sie auf Modelle mit kühlen Außenwänden, automatischer Abschaltung beim Öffnen und Kindersicherung. Stellen Sie das Gerät immer außer Reichweite von Kindern auf und sorgen Sie dafür, dass sie nicht an den heißen Dampf kommen.',
+        es: 'Sí, es mucho más segura que una freidora de aceite. Busca modelos con paredes exteriores que no se calienten, apagado automático al abrir el cajón y bloqueo infantil. Coloca siempre el aparato fuera del alcance de los niños y asegúrate de que no puedan llegar al vapor caliente.',
+        it: 'Sì, la friggitrice ad aria è molto più sicura di una friggitrice a olio. Cerca modelli con pareti esterne fredde al tatto, spegnimento automatico all\'apertura e blocco bambini. Tieni sempre l\'apparecchio fuori dalla portata dei bambini e fai in modo che non possano raggiungere il vapore caldo.',
+        nl: 'Ja, een airfryer is veel veiliger dan een frituurpan met olie. Kies een model met koele buitenwanden, een automatische stop bij het openen en een kinderslot. Zet het apparaat altijd buiten bereik van kinderen en zorg dat ze niet bij de hete stoom kunnen.',
         pl: 'Tak, jest znacznie bezpieczniejsza niż tradycyjna frytkownica na olej. Szukaj modeli z chłodną obudową, automatycznym wyłączaniem po otwarciu i blokadą przed dziećmi. Zawsze stawiaj urządzenie poza zasięgiem dzieci i pilnuj, by nie miały dostępu do gorącej pary.',
         sv: 'Ja, en airfryer är betydligt säkrare än en fritös med olja. Välj en modell med svala ytterväggar, automatiskt stopp när lådan öppnas och barnlås. Ställ alltid apparaten utom räckhåll för barn och se till att små händer inte kommer åt luftutblåset, där het ånga strömmar ut.',
         us: 'Yes, air fryers are much safer than deep fryers. Look for models with cool-touch exterior walls, automatic shut-off when the drawer opens and a child lock. Always keep the appliance out of kids\' reach and make sure small hands can\'t get to the hot steam vents.',
@@ -1371,11 +1425,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Peut-on cuisiner plusieurs plats en même temps dans un airfryer ?',
-        en: 'Can you cook multiple dishes at the same time in an air fryer?',
-        de: 'Kann man mehrere Gerichte gleichzeitig in der Heißluftfritteuse zubereiten?',
+        en: 'Can I cook several dishes at the same time in an air fryer?',
+        de: 'Kann man im Airfryer mehrere Gerichte gleichzeitig zubereiten?',
         es: '¿Se pueden cocinar varios platos al mismo tiempo en una freidora de aire?',
-        it: 'Si possono cucinare più piatti contemporaneamente nella friggitrice ad aria?',
-        nl: 'Kun je meerdere gerechten tegelijk koken in een airfryer?',
+        it: 'Si possono cuocere più piatti insieme nella friggitrice ad aria?',
+        nl: 'Kun je in een airfryer meerdere gerechten tegelijk bereiden?',
         pl: 'Czy we frytkownicy beztłuszczowej można przygotować kilka dań naraz?',
         sv: 'Kan man laga flera rätter samtidigt i en airfryer?',
         us: 'Can you cook more than one dish at a time in an air fryer?',
@@ -1383,11 +1437,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Oui, avec un modèle à double panier comme le Ninja Dual Zone. Chaque zone a sa propre température et minuterie, permettant de cuire viande et légumes simultanément. Avec un airfryer simple, vous pouvez utiliser des séparateurs de panier ou empiler des grilles pour cuire deux aliments.',
-        en: 'Yes, with a dual-basket model like the Ninja Dual Zone. Each zone has its own temperature and timer, letting you cook meat and vegetables simultaneously. With a single-basket air fryer, you can use basket dividers or stackable racks to cook two foods at once.',
-        de: 'Ja, mit einem Doppelkorb-Modell wie dem Ninja Dual Zone. Jede Zone hat eigene Temperatur und Timer, sodass Sie Fleisch und Gemüse gleichzeitig garen können. Bei einem Einzelkorb können Sie Korbteiler oder stapelbare Gitter verwenden, um zwei Speisen gleichzeitig zuzubereiten.',
-        es: 'Sí, con un modelo de doble cesta como el Ninja Dual Zone. Cada zona tiene su propia temperatura y temporizador, permitiendo cocinar carne y verduras simultáneamente. Con una freidora de cesta única, puedes usar divisores o rejillas apilables para cocinar dos alimentos.',
-        it: 'Sì, con un modello a doppio cestello come il Ninja Dual Zone. Ogni zona ha temperatura e timer propri, permettendo di cuocere carne e verdure contemporaneamente. Con un cestello singolo, puoi usare divisori o griglie impilabili per cuocere due alimenti insieme.',
-        nl: 'Ja, met een dubbele mandmodel zoals de Ninja Dual Zone. Elke zone heeft een eigen temperatuur en timer, zodat je vlees en groenten tegelijk kunt bereiden. Met een enkele mand kun je mandverdelers of stapelbare rekjes gebruiken om twee gerechten tegelijk te maken.',
+        en: 'Yes, with a dual-basket model such as the Ninja Dual Zone. Each zone has its own temperature and timer, so you can cook meat and vegetables at the same time. With a single-basket air fryer, you can use a basket divider or stacking racks to cook two foods at once.',
+        de: 'Ja, mit einem Modell mit 2 Kammern wie dem Ninja Dual Zone. Jede Kammer hat ihre eigene Temperatur und ihren eigenen Timer, sodass Fleisch und Gemüse gleichzeitig garen. Bei einem Gerät mit Einzelkorb helfen Trenneinsätze oder stapelbare Gitterroste, um zwei Lebensmittel zugleich zuzubereiten.',
+        es: 'Sí, con un modelo de doble cesta como la Ninja Dual Zone. Cada zona tiene su propia temperatura y su propio temporizador, así que puedes hacer la carne y las verduras a la vez. Con una freidora de una sola cesta, puedes usar separadores o apilar rejillas para cocinar dos alimentos.',
+        it: 'Sì, con un modello a doppio cestello come il Ninja Dual Zone. Ogni zona ha temperatura e timer propri, così puoi cuocere carne e verdure nello stesso momento. Con un cestello singolo puoi usare dei divisori o delle griglie sovrapponibili per cuocere due alimenti insieme.',
+        nl: 'Ja, met een model met twee manden, zoals de Ninja Dual Zone. Elke zone heeft een eigen temperatuur en timer, zodat je vlees en groenten tegelijk kunt bereiden. Heb je één mand, dan kun je een mandverdeler of stapelbare rekjes gebruiken om twee dingen tegelijk te bereiden.',
         pl: 'Tak, jeśli wybierzesz model z dwoma koszami, np. Ninja Dual Zone. Każda strefa ma osobne ustawienia temperatury i czasu, więc mięso i warzywa przygotujesz jednocześnie. W zwykłej frytkownicy możesz użyć przegrody do kosza albo ustawić ruszty piętrowo i upiec dwie potrawy naraz.',
         sv: 'Ja, med en modell med två korgar, som Ninja Dual Zone. Varje zon har egen temperatur och timer, så du kan laga kött och grönsaker samtidigt. I en airfryer med en korg kan du använda avdelare eller stapelbara galler för att tillaga två sorters mat på en gång.',
         us: 'Yes, with a dual-basket model like the Ninja Dual Zone. Each zone has its own temperature and timer, so you can cook meat and vegetables side by side. In a single-basket air fryer, basket dividers or stackable racks let you cook two foods at once.',
@@ -1397,11 +1451,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Quelles recettes simples peut-on faire dans un airfryer pour les enfants ?',
-        en: 'What simple air fryer recipes can you make for kids?',
-        de: 'Welche einfachen Rezepte kann man in der Heißluftfritteuse für Kinder machen?',
-        es: '¿Qué recetas sencillas se pueden hacer en freidora de aire para niños?',
-        it: 'Quali ricette semplici si possono fare nella friggitrice ad aria per i bambini?',
-        nl: 'Welke eenvoudige recepten kun je in de airfryer maken voor kinderen?',
+        en: 'What easy air fryer recipes can I make for kids?',
+        de: 'Welche einfachen Rezepte für Kinder gelingen im Airfryer?',
+        es: '¿Qué recetas sencillas para niños se pueden hacer en la freidora de aire?',
+        it: 'Quali ricette semplici per bambini si possono fare nella friggitrice ad aria?',
+        nl: 'Welke eenvoudige recepten voor kinderen kun je in de airfryer maken?',
         pl: 'Jakie proste dania z frytkownicy beztłuszczowej polubią dzieci?',
         sv: 'Vilka enkla airfryerrecept passar barn?',
         us: 'What are some easy air fryer recipes for kids?',
@@ -1409,11 +1463,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Les enfants adorent les nuggets de poulet maison (200°C, 10 min), les bâtonnets de poisson (180°C, 12 min), les frites de patate douce (190°C, 15 min) et les mini-pizzas sur tortilla (200°C, 5 min). Ces recettes sont rapides, saines et permettent d\'impliquer les enfants dans la préparation.',
-        en: 'Kids love homemade chicken nuggets (200°C, 10 min), fish sticks (180°C, 12 min), sweet potato fries (190°C, 15 min) and mini tortilla pizzas (200°C, 5 min). These recipes are quick, healthy, and let children get involved in the preparation, making mealtime more fun.',
-        de: 'Kinder lieben selbstgemachte Hähnchen-Nuggets (200°C, 10 Min), Fischstäbchen (180°C, 12 Min), Süßkartoffel-Pommes (190°C, 15 Min) und Mini-Tortilla-Pizzen (200°C, 5 Min). Diese Rezepte sind schnell, gesund und lassen Kinder bei der Zubereitung mithelfen.',
-        es: 'A los niños les encantan los nuggets de pollo caseros (200°C, 10 min), palitos de pescado (180°C, 12 min), patatas fritas de boniato (190°C, 15 min) y mini pizzas en tortilla (200°C, 5 min). Estas recetas son rápidas, saludables y permiten involucrar a los niños.',
-        it: 'I bambini adorano i nuggets di pollo fatti in casa (200°C, 10 min), bastoncini di pesce (180°C, 12 min), patatine di patata dolce (190°C, 15 min) e mini pizze su tortilla (200°C, 5 min). Queste ricette sono veloci, sane e coinvolgono i bambini nella preparazione.',
-        nl: 'Kinderen zijn dol op zelfgemaakte kipnuggets (200°C, 10 min), vissticks (180°C, 12 min), zoete aardappelfrietjes (190°C, 15 min) en mini tortillapizza\'s (200°C, 5 min). Deze recepten zijn snel, gezond en laten kinderen meehelpen bij de bereiding.',
+        en: 'Kids love homemade chicken nuggets (200°C, 10 min), fish fingers (180°C, 12 min), sweet potato fries (190°C, 15 min) and mini tortilla pizzas (200°C, 5 min). These recipes are quick and healthy, and children can help make them.',
+        de: 'Kinder lieben selbst gemachte Hähnchen-Nuggets (200 °C, 10 Min.), Fischstäbchen (180 °C, 12 Min.), Süßkartoffel-Pommes (190 °C, 15 Min.) und Mini-Pizzen auf Tortillaboden (200 °C, 5 Min.). Diese Rezepte gehen schnell, sind gesund, und Kinder können bei der Zubereitung gut mithelfen.',
+        es: 'A los niños les encantan los nuggets de pollo caseros (200 °C, 10 min), los palitos de pescado (180 °C, 12 min), las patatas fritas de boniato (190 °C, 15 min) y las minipizzas con base de tortilla de trigo (200 °C, 5 min). Son recetas rápidas y sanas, y los niños pueden ayudar a prepararlas.',
+        it: 'I bambini adorano i nuggets di pollo fatti in casa (200 °C, 10 minuti), i bastoncini di pesce (180 °C, 12 minuti), le patatine di patate dolci (190 °C, 15 minuti) e le mini pizze su tortilla (200 °C, 5 minuti). Sono ricette veloci e sane, e i bambini possono aiutarti a prepararle.',
+        nl: 'Kinderen zijn dol op zelfgemaakte kipnuggets (200 °C, 10 minuten), vissticks (180 °C, 12 minuten), frietjes van zoete aardappel (190 °C, 15 minuten) en minipizza’s op een tortilla (200 °C, 5 minuten). Deze recepten zijn snel klaar en gezond, en kinderen kunnen meehelpen met de bereiding.',
         pl: 'Dzieci uwielbiają domowe nuggetsy z kurczaka (200 °C, 10 min), paluszki rybne (180 °C, 12 min), frytki z batatów (190 °C, 15 min) i minipizze na tortilli (200 °C, 5 min). To szybkie i zdrowe przepisy, przy których dzieci mogą pomagać w kuchni.',
         sv: 'Barn brukar älska hemgjorda kycklingnuggets (200 °C, 10 min), fiskpinnar (180 °C, 12 min), sötpotatisfrites (190 °C, 15 min) och minipizzor på tortillabröd (200 °C, 5 min). Recepten går snabbt, är nyttiga och låter barnen hjälpa till i köket, vilket gör måltiden roligare.',
         us: 'Kids love homemade chicken nuggets (400°F, 10 min), fish sticks (350°F, 12 min), sweet potato fries (375°F, 15 min) and mini tortilla pizzas (400°F, 5 min). They\'re quick, healthy and easy for kids to help make, which makes mealtime more fun.',
@@ -1423,11 +1477,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Quel budget prévoir pour un bon airfryer familial ?',
-        en: 'What budget should I plan for a good family air fryer?',
-        de: 'Welches Budget sollte ich für eine gute Familien-Heißluftfritteuse einplanen?',
-        es: '¿Qué presupuesto prever para una buena freidora de aire familiar?',
-        it: 'Quale budget prevedere per una buona friggitrice ad aria familiare?',
-        nl: 'Welk budget moet ik voorzien voor een goede gezins-airfryer?',
+        en: 'How much should I spend on a good family air fryer?',
+        de: 'Mit welchem Budget sollten Familien für einen guten Airfryer rechnen?',
+        es: '¿Qué presupuesto necesitas para una buena freidora de aire familiar?',
+        it: 'Che budget serve per una buona friggitrice ad aria per la famiglia?',
+        nl: 'Met welk budget moet je rekenen voor een goede airfryer voor het gezin?',
         pl: 'Ile wydać na dobrą frytkownicę beztłuszczową dla rodziny?',
         sv: 'Vilken budget ska du räkna med för en bra airfryer till familjen?',
         us: 'How much should I budget for a good family air fryer?',
@@ -1435,11 +1489,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Pour une famille, visez le milieu de gamme : c\'est là que l\'on trouve les modèles de 6 litres et plus ou à double panier de marques reconnues. L\'entrée de gamme convient surtout aux couples. Le haut de gamme ajoute la connectivité et des fonctions multicuiseur.',
-        en: 'For a family, aim for the mid-range: that is where you find 6-litre-plus and dual-basket models from reputable brands. Entry-level models mainly suit couples. Premium models add connectivity and multi-function cooking modes.',
-        de: 'Für eine Familie ist die Mittelklasse die richtige Wahl: Dort finden Sie Modelle ab 6 Litern oder mit Doppelkorb von bekannten Marken. Einstiegsmodelle eignen sich vor allem für Paare. Die Oberklasse bietet zusätzlich Vernetzung und Multifunktionsprogramme.',
-        es: 'Para una familia, apunta a la gama media: ahí están los modelos de 6 litros o más y de doble cesta de marcas reconocidas. La gama de entrada sirve sobre todo para parejas. La gama alta añade conectividad y funciones multicocción.',
-        it: 'Per una famiglia, puntate alla fascia media: lì si trovano i modelli da 6 litri in su o a doppio cestello di marchi noti. La fascia d\'ingresso va bene soprattutto per le coppie. La fascia alta aggiunge connettività e funzioni multicottura.',
-        nl: 'Mik voor een gezin op de middenklasse: daar vind je modellen vanaf 6 liter of met dubbele mand van bekende merken. Instapmodellen zijn vooral geschikt voor stellen. De topklasse voegt connectiviteit en multifunctionele kookstanden toe.',
+        en: 'For a family, aim for the mid-range: that is where you find models of 6 litres or more, and dual-basket models, from well-known brands. Entry-level models mainly suit couples. Premium models add app control and multicooker functions.',
+        de: 'Für Familien ist die Mittelklasse die richtige Wahl: Dort finden Sie Markengeräte ab 6 Litern oder mit 2 Kammern. Die Einstiegsklasse passt eher zu Paaren. Das Premiumsegment bietet zusätzlich App-Anbindung und Multikocher-Funktionen.',
+        es: 'Para una familia, apunta a la gama media: ahí están los modelos de 6 litros o más, o de doble cesta, de marcas conocidas. La gama de entrada sirve sobre todo para parejas. La gama alta añade wifi y funciones propias de una olla programable.',
+        it: 'Per una famiglia, punta sulla fascia media: è lì che si trovano i modelli da 6 litri in su o a doppio cestello dei marchi più noti. La fascia d\'ingresso va bene soprattutto per le coppie. La fascia alta aggiunge Wi-Fi, app e funzioni da multicooker.',
+        nl: 'Mik voor een gezin op de middenklasse: daar vind je modellen van bekende merken met 6 liter of meer, of met twee manden. Instapmodellen zijn vooral geschikt voor stellen. Topmodellen hebben daarnaast een app en de functies van een multicooker.',
         pl: 'Dla rodziny najlepiej szukać na średniej półce cenowej: tam znajdziesz modele znanych marek o pojemności od 6 litrów albo z dwoma koszami. Modele z niższej półki sprawdzą się głównie u par, a te z wyższej oferują dodatkowo Wi-Fi i funkcje multicookera.',
         sv: 'För en familj bör du sikta på mellanklassen: där hittar du modeller på 6 liter och uppåt eller med två korgar från välkända märken. Instegsmodellerna passar främst par. Premiummodellerna har dessutom uppkoppling och multikokarfunktioner.',
         us: 'For a family, aim for the midrange: that\'s where you\'ll find 6.3-quart (6 L) and larger models, plus dual-basket designs, from established brands. Entry-level models mostly suit couples. Premium models add Wi-Fi and multicooker-style cooking modes.',

@@ -39,7 +39,7 @@ export const EXPERT_GUIDE_LABEL: Readonly<Record<Lang, string>> = {
   fr: 'Guide expert 2026',
   en: 'Expert guide 2026',
   de: 'Expertenratgeber 2026',
-  es: 'Guía experta 2026',
+  es: 'Guía a fondo 2026',
   it: "Guida dell'esperto 2026",
   nl: 'Expertgids 2026',
   pl: 'Poradnik eksperta 2026',

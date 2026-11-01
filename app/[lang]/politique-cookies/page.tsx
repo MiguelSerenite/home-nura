@@ -9,11 +9,11 @@ import { PREFERENCE_COOKIES } from '@/lib/preference-cookies'
 
 const metaDescriptions: Record<string, string> = {
   fr: 'Politique de cookies de Home Nura : cookies strictement nécessaires, cookies Amazon d\'affiliation, gestion et paramètres navigateur. Conforme RGPD.',
-  en: 'Home Nura cookie policy: strictly necessary cookies, Amazon affiliate cookies, how to manage cookie preferences in your browser. GDPR compliant.',
-  de: 'Cookie-Richtlinie von Home Nura: unbedingt erforderliche Cookies, Amazon-Partnercookies, Cookie-Verwaltung im Browser. DSGVO-konform.',
+  en: 'Home Nura cookie policy: strictly necessary cookies, Amazon affiliate cookies and how to manage cookies in your browser settings. GDPR compliant.',
+  de: 'Cookie-Richtlinie von Home Nura: technisch notwendige Cookies, Cookies der Amazon-Partnerlinks und wie Sie Cookies im Browser verwalten. DSGVO-konform.',
   es: 'Política de cookies de Home Nura: cookies estrictamente necesarias, cookies de afiliación de Amazon y gestión desde tu navegador. Conforme al RGPD.',
-  it: 'Politica dei cookie di Home Nura: cookie strettamente necessari, cookie di affiliazione Amazon e gestione dal browser. Conforme al GDPR.',
-  nl: 'Cookiebeleid van Home Nura: strikt noodzakelijke cookies, Amazon-affiliate cookies en beheer via uw browser. AVG-conform.',
+  it: 'Informativa sui cookie di Home Nura: cookie strettamente necessari, cookie di affiliazione Amazon e come gestirli dal browser. Conforme al GDPR.',
+  nl: 'Cookiebeleid van Home Nura: strikt noodzakelijke cookies, affiliatecookies van Amazon en hoe je cookies beheert via je browserinstellingen. Conform de AVG.',
   pl: 'Polityka plików cookie serwisu Home Nura: niezbędne pliki cookie, afiliacyjne pliki cookie Amazon i zarządzanie nimi w przeglądarce. Zgodna z RODO.',
   sv: 'Home Nuras cookiepolicy: strikt nödvändiga cookies, cookies från Amazons affiliatelänkar och hur du hanterar cookies i din webbläsare. Följer GDPR.',
   us: 'Home Nura cookie policy: strictly necessary cookies, Amazon affiliate cookies, how to manage cookie preferences in your browser. GDPR compliant.',

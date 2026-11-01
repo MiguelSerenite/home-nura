@@ -16,7 +16,7 @@ export const article: BlogArticle = {
         en: 'Food processor chopping avocado, with lime, chilli and garlic on the worktop',
         de: 'Küchenmaschine zerkleinert Avocado, daneben Limette, Chili und Knoblauch auf der Arbeitsplatte',
         es: 'Robot de cocina picando aguacate, con lima, guindilla y ajo sobre la encimera',
-        it: 'Robot da cucina che trita avocado, con lime, peperoncino e aglio sul piano di lavoro',
+        it: 'Robot da cucina mentre trita un avocado, con lime, peperoncino e aglio sul piano di lavoro',
         nl: 'Keukenrobot die avocado hakt, met limoen, chilipeper en knoflook op het aanrecht',
         pl: 'Robot kuchenny siekający awokado, a obok na blacie limonka, papryczka chili i czosnek',
         sv: 'Köksmaskin som hackar avokado, med lime, chili och vitlök på köksbänken',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Robot cuiseur connecté 2026 : comparatif Thermomix TM7, i-Companion, Cook Expert et rivaux',
-    en: 'Connected Cooking Robot 2026: Thermomix TM7 vs i-Companion vs Cook Expert and Rivals',
-    de: 'Vernetzter Küchenprozessor 2026: Thermomix TM7, i-Companion, Cook Expert und Alternativen im Vergleich',
-    es: 'Robot de cocina conectado 2026: comparativa Thermomix TM7, i-Companion, Cook Expert y rivales',
-    it: 'Robot da cucina connesso 2026: confronto Thermomix TM7, i-Companion, Cook Expert e rivali',
-    nl: 'Verbonden keukenrobot 2026: Thermomix TM7, i-Companion, Cook Expert en alternatieven vergeleken',
+    en: 'Smart Cooking Food Processors 2026: Thermomix TM7 vs i-Companion vs Cook Expert and Rivals',
+    de: 'Küchenmaschine mit Kochfunktion 2026: Thermomix TM7, i-Companion, Cook Expert und Alternativen im Vergleich',
+    es: 'Robot de cocina conectado 2026: comparativa de Thermomix TM7, i-Companion, Cook Expert y sus rivales',
+    it: 'Robot da cucina smart 2026: Bimby (Thermomix) TM7, i-Companion, Cook Expert e concorrenti a confronto',
+    nl: 'Keukenmachine met kookfunctie 2026: Thermomix TM7 en alternatieven vergeleken',
     pl: 'Inteligentny robot kuchenny z funkcją gotowania 2026: porównanie Thermomix TM7, i-Companion, Cook Expert i konkurentów',
     sv: 'Smart köksmaskin med kokfunktion 2026: Thermomix TM7, i-Companion, Cook Expert med flera jämförda',
     us: 'Smart Cooking Machines of 2026: Thermomix TM7 vs. i-Companion vs. Cook Expert and Rivals',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL et Cecotec Mambo Touch : notre comparatif 2026 des robots cuiseurs connectés, basé sur les fiches techniques, des avis indépendants et les retours d’acheteurs.',
-    en: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL and Cecotec Mambo Touch: our 2026 comparison of connected cooking robots, based on manufacturer specs, independent reviews and buyer feedback.',
-    de: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL und Cecotec Mambo Touch: unser Vergleich 2026 vernetzter Küchenprozessoren auf Basis von Herstellerangaben, unabhängigen Bewertungen und Käufererfahrungen.',
+    en: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL and Cecotec Mambo Touch: our 2026 comparison of smart cooking food processors, based on manufacturer specs, independent reviews and buyer feedback.',
+    de: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL und Cecotec Mambo Touch: unser Vergleich 2026 der Küchenmaschinen mit Kochfunktion und App, auf Basis von Datenblättern, unabhängigen Testberichten und Käuferbewertungen.',
     es: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL y Cecotec Mambo Touch: nuestra comparativa 2026 de robots de cocina conectados, basada en fichas técnicas, análisis independientes y opiniones de compradores.',
-    it: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL e Cecotec Mambo Touch: il nostro confronto 2026 dei robot da cucina connessi, basato su schede tecniche, recensioni indipendenti e opinioni degli acquirenti.',
-    nl: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL en Cecotec Mambo Touch: onze vergelijking 2026 van verbonden keukenrobots, op basis van fabrieksspecificaties, onafhankelijke reviews en ervaringen van kopers.',
+    it: 'Bimby (Thermomix) TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL e Cecotec Mambo Touch: il nostro confronto 2026 dei robot da cucina smart, basato su schede tecniche, recensioni indipendenti e opinioni degli acquirenti.',
+    nl: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL en Cecotec Mambo Touch: onze vergelijking 2026 van slimme keukenmachines met kookfunctie, op basis van specificaties van fabrikanten, onafhankelijke reviews en ervaringen van kopers.',
     pl: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL i Cecotec Mambo Touch: nasze porównanie inteligentnych robotów kuchennych z funkcją gotowania na 2026 rok, oparte na kartach katalogowych, niezależnych recenzjach i opiniach kupujących.',
     sv: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL och Cecotec Mambo Touch: vår jämförelse av smarta köksmaskiner med kokfunktion 2026, som bygger på tillverkarnas produktblad, oberoende recensioner och köparomdömen.',
     us: 'Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood Cooking Chef XL and Cecotec Mambo Touch: our 2026 comparison of smart cooking machines, based on manufacturer specs, independent reviews and owner feedback.',
@@ -119,46 +119,46 @@ export const article: BlogArticle = {
 <h2>Notre verdict</h2>
 <p>Si le budget le permet et que vous cuisinez chaque jour, le <strong>Thermomix TM7</strong> reste le plus abouti grâce à Cookidoo. Pour un robot cuiseur connecté disponible chez les revendeurs habituels, le <strong>Moulinex i-Companion Touch XL</strong> est le meilleur compromis : grand bol, Wi-Fi, écran et application gratuite. Le <strong>Magimix Cook Expert Connect</strong> s’adresse à ceux qui veulent un appareil durable et très polyvalent pour la découpe, le <strong>Kenwood Cooking Chef XL</strong> aux pâtissiers, et le <strong>Cecotec Mambo Touch</strong> aux petits budgets. Pour situer ces robots dans une cuisine équipée, lisez aussi notre <a href="/fr/blog/guide-cuisine-connectee-2026">guide de la cuisine connectée 2026</a>.</p>`,
 
-    en: `<p><strong>The Thermomix TM7 is still the benchmark connected cooking robot in 2026, but the best alternative available from mainstream retailers is the Moulinex i-Companion Touch XL</strong>, which combines a touchscreen, Wi-Fi, a built-in scale and a large 4.5-litre bowl. On a tight budget, the Cecotec Mambo Touch covers the essentials (Wi-Fi, screen, guided recipes), while the Kenwood Cooking Chef XL targets bakers and large batches.</p>
-<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer feedback, and only includes models sold in Europe in 2026. For Cookeo-style pressure cookers, see our <a href="/en/blog/comparatif-multicuiseur-connecte">smart multicooker comparison</a> and our <a href="/en/cuisine-connectee/multicuiseurs">multicookers page</a>.</p>
+    en: `<p><strong>The Thermomix TM7 is still the benchmark among smart cooking food processors in 2026, but the best alternative you can buy from mainstream retailers is the Moulinex i-Companion Touch XL</strong>, which combines a touchscreen, Wi-Fi, built-in scales and a large 4.5-litre bowl. On a tight budget, the Cecotec Mambo Touch covers the essentials (Wi-Fi, screen, guided recipes), while the Kenwood Cooking Chef XL is aimed at keen bakers and big batches.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer feedback, and only includes models sold in Europe in 2026. For Cookeo-style electric pressure cookers, see our <a href="/en/blog/comparatif-multicuiseur-connecte">smart multicooker comparison</a> and our <a href="/en/cuisine-connectee/multicuiseurs">multicookers page</a> instead.</p>
 
-<h2>What is a connected cooking robot?</h2>
-<p>A cooking robot is an appliance that <strong>blends, chops, kneads and heats in the same bowl</strong>. It differs from a multicooker (which cooks but does not blend) and from a classic stand mixer (which kneads but does not heat). The "connected" version adds a Wi-Fi or Bluetooth link to an app: step-by-step guided recipes, settings sent automatically to the machine, shopping lists and software updates.</p>
-<p>In practice, connectivity is only as good as the recipe catalogue. A well-built robot with a weak app is less pleasant day to day than an average machine backed by clear, plentiful recipes.</p>
+<h2>What is a smart cooking food processor?</h2>
+<p>A cooking food processor is an appliance that <strong>blends, chops, kneads and heats in the same bowl</strong>. That sets it apart from a multicooker (which cooks but doesn’t blend) and from a standard stand mixer (which kneads but doesn’t heat). The smart version adds a Wi-Fi or Bluetooth link to an app: step-by-step guided recipes, settings sent straight to the machine, shopping lists and software updates.</p>
+<p>In practice, the connectivity is only as good as the recipe library. A well-built machine with a poor app is less enjoyable to use day to day than an average one backed by plenty of clear recipes.</p>
 
-<h2>Buying criteria</h2>
+<h2>How to choose</h2>
 <ul>
-<li><strong>Heating method</strong>: induction (Magimix, Kenwood) heats quickly and regulates precisely; a conventional heating element is fine for soups, sauces and slow-cooked dishes.</li>
-<li><strong>Maximum temperature</strong>: above 120 °C you can brown onions and meat. Below that, the robot is mainly for soups, purées and steaming.</li>
-<li><strong>Usable bowl capacity</strong>: look at the <em>usable</em> volume, not just the total. Two to three usable litres suits 4 to 6 people.</li>
-<li><strong>Connection type</strong>: Wi-Fi downloads recipes straight to the robot’s screen; Bluetooth means keeping your smartphone nearby.</li>
-<li><strong>The app and its business model</strong>: some platforms require a subscription for the full catalogue, others are free.</li>
-<li><strong>Built-in scale</strong>: saves getting out kitchen scales at every step, a real plus with guided recipes.</li>
-<li><strong>After-sales service and spare parts</strong>: on a premium appliance, warranty length and parts availability matter as much as features.</li>
+<li><strong>Heating method</strong>: induction (Magimix, Kenwood) heats up quickly and holds the temperature precisely; a conventional heating element is fine for soups, sauces and slow-cooked dishes.</li>
+<li><strong>Maximum temperature</strong>: above 120°C, you can brown onions and meat. Below that, the machine is mainly for soups, purées and steaming.</li>
+<li><strong>Usable bowl capacity</strong>: look at the <em>usable</em> volume, not just the total. A bowl with 2 to 3 litres of usable capacity serves four to six people.</li>
+<li><strong>Connection type</strong>: with Wi-Fi, recipes download straight to the machine’s screen; with Bluetooth, your phone has to stay nearby.</li>
+<li><strong>The app and how you pay for it</strong>: some platforms charge a subscription for the full recipe library, others are free.</li>
+<li><strong>Built-in scales</strong>: no need to get the kitchen scales out at every step, which is a real plus with guided recipes.</li>
+<li><strong>After-sales service and spare parts</strong>: on a premium appliance, the length of the warranty and the availability of parts matter as much as the features.</li>
 </ul>
 
-<h2>The 5 connected cooking robots to know in 2026</h2>
+<h2>5 smart cooking food processors worth knowing in 2026</h2>
 
-<h3>1. Thermomix TM7 — the benchmark</h3>
-<p>Launched in 2025, Vorwerk’s <strong>Thermomix TM7</strong> succeeds the TM6. It has a <strong>10-inch touchscreen</strong>, keeps a 2.2-litre bowl and a Varoma for steaming, and reaches <strong>160 °C</strong> in browning mode. An open-cooking mode without the lid lets sauces reduce, and Wi-Fi links it to <strong>Cookidoo</strong>, the largest guided-recipe catalogue on the market. The TM7 remains compatible with accessories and recipes from earlier generations.</p>
-<p><strong>Strengths:</strong> unmatched recipe ecosystem, highly refined interface, strong resale value.<br><strong>Limits:</strong> a Cookidoo subscription is needed for the full catalogue, the 2.2-litre bowl is tight for big gatherings, very premium positioning.<br><strong>Best for:</strong> households that cook every day and want the most complete guided experience.</p>
-<p>Note: the Thermomix is sold by Vorwerk through its advisers and online shop, not by mainstream retailers. That is why our buying selection highlights its alternatives.</p>
+<h3>1. Thermomix TM7: the benchmark</h3>
+<p>Launched in 2025, Vorwerk’s <strong>Thermomix TM7</strong> replaces the TM6. It has a <strong>10-inch touchscreen</strong>, keeps a 2.2-litre bowl and a Varoma for steaming, and reaches <strong>160°C</strong> in browning mode. A lid-off cooking mode lets you reduce sauces, and Wi-Fi connects it to <strong>Cookidoo</strong>, the biggest library of guided recipes on the market. The TM7 still works with accessories and recipes from earlier generations.</p>
+<p><strong>Pros:</strong> unrivalled recipe ecosystem, very polished interface, strong resale value.<br><strong>Cons:</strong> you need a Cookidoo subscription for the full library, the 2.2-litre bowl is on the small side for big gatherings, and it sits at the very top of the price range.<br><strong>Best for:</strong> households that cook every day and want the most complete guided experience.</p>
+<p>Note that the Thermomix is sold by Vorwerk through its advisers and online shop, not through mainstream retailers. That’s why our buying picks focus on the alternatives.</p>
 
-<h3>2. Moulinex i-Companion Touch XL — the best alternative</h3>
-<p>The <strong>Moulinex i-Companion Touch XL</strong> is the cooking robot closest in spirit to the Thermomix, with a built-in touchscreen and Wi-Fi. Its <strong>4.5-litre</strong> stainless-steel bowl (about 3 litres usable) is larger than the TM7’s, and the <strong>built-in scale</strong> weighs straight into the bowl. The Moulinex app offers more than 3,000 guided recipes with no mandatory subscription according to the manufacturer, plus a feature that suggests recipes based on what you have.</p>
-<p><strong>Strengths:</strong> large capacity, many accessories (chopping blade, kneader, whisk, steam basket), free app.<br><strong>Limits:</strong> bulky on the worktop; smaller catalogue than Cookidoo.<br><strong>Best for:</strong> families who want a full guided experience without going through direct sales.</p>
+<h3>2. Moulinex i-Companion Touch XL: the best alternative</h3>
+<p>The <strong>Moulinex i-Companion Touch XL</strong> is the closest in spirit to the Thermomix, with a built-in touchscreen and Wi-Fi. Its <strong>4.5-litre</strong> stainless steel bowl (about 3 litres usable) is bigger than the TM7’s, and the <strong>built-in scales</strong> let you weigh straight into the bowl. The Moulinex app gives you more than 3,000 guided recipes with no compulsory subscription, according to the manufacturer, plus a feature that suggests recipes based on the ingredients you have.</p>
+<p><strong>Pros:</strong> large capacity, lots of accessories (chopping blade, kneading tool, whisk, steam basket), free app.<br><strong>Cons:</strong> takes up a lot of worktop space; a smaller recipe library than Cookidoo.<br><strong>Best for:</strong> families who want a full guided experience without buying through direct sales.</p>
 
-<h3>3. Magimix Cook Expert Connect — built to last</h3>
-<p>The <strong>Magimix Cook Expert Connect</strong> builds on the Cook Expert, assembled in France, with <strong>induction heating from 30 to 160 °C</strong> adjustable to the degree. Its strength is its dual nature: a 3.5-litre heated stainless-steel bowl for cooking, and a clear bowl with discs for grating and slicing like a classic food processor. The Connect version pairs over <strong>Bluetooth</strong> with the Magimix app (more than 2,000 guided recipes) and a connected scale.</p>
-<p><strong>Strengths:</strong> motor guaranteed for 30 years according to Magimix, very versatile slicing and grating, precise induction cooking.<br><strong>Limits:</strong> no touchscreen or Wi-Fi, so you still need your smartphone for guided recipes; lots of accessories to store.<br><strong>Best for:</strong> cooks who value durability and slicing versatility over the interface.</p>
+<h3>3. Magimix Cook Expert Connect: built to last</h3>
+<p>The <strong>Magimix Cook Expert Connect</strong> is based on the Cook Expert, assembled in France, with <strong>induction heating from 30 to 160°C</strong>, adjustable one degree at a time. What sets it apart is that it’s two machines in one: a 3.5-litre heated stainless steel bowl for cooking, and a clear bowl with discs for grating and slicing like a standard food processor. The Connect version pairs over <strong>Bluetooth</strong> with the Magimix app (more than 2,000 guided recipes) and with smart scales.</p>
+<p><strong>Pros:</strong> motor guaranteed for 30 years according to Magimix, very versatile slicing and grating, precise induction cooking.<br><strong>Cons:</strong> no touchscreen or Wi-Fi, so you still need your phone for guided recipes; lots of accessories to store.<br><strong>Best for:</strong> cooks who care more about durability and versatile slicing than about the interface.</p>
 
-<h3>4. Kenwood Cooking Chef XL — baking and big batches</h3>
-<p>The <strong>Kenwood Cooking Chef XL</strong> (model KCL95.424SI) is a heated stand mixer rather than a cooking robot in the strict sense. Its <strong>6.7-litre</strong> bowl is heated by <strong>induction from 20 to 180 °C</strong>, to the degree, with 1,500 W of power. It works with the Kenwood World app, which offers step-by-step recipes.</p>
-<p><strong>Strengths:</strong> record capacity, large batches of dough and brioche, heat high enough to sear, temper chocolate or make custards.<br><strong>Limits:</strong> blending and slicing depend on attachments, some sold separately; heavy and bulky.<br><strong>Best for:</strong> keen bakers and large families.</p>
+<h3>4. Kenwood Cooking Chef XL: baking and big batches</h3>
+<p>The <strong>Kenwood Cooking Chef XL</strong> (model KCL95.424SI) is a heated stand mixer rather than a cooking food processor in the strict sense. Its <strong>6.7-litre</strong> bowl is heated by <strong>induction from 20 to 180°C</strong>, adjustable to the degree, with 1,500 W of power. It works with the Kenwood World app, which offers step-by-step recipes.</p>
+<p><strong>Pros:</strong> the biggest bowl here, large batches of dough and brioche, and heat high enough to sear, temper chocolate or make custards.<br><strong>Cons:</strong> blending and slicing rely on attachments, some of them sold separately; heavy and bulky.<br><strong>Best for:</strong> keen bakers and large families.</p>
 
-<h3>5. Cecotec Mambo Touch — the most affordable</h3>
-<p>The <strong>Cecotec Mambo Touch</strong> is the most widespread entry-level connected cooking robot in Europe. It has a <strong>5-inch touchscreen</strong>, Wi-Fi with the Mambo app, a built-in scale, a 3.3-litre bowl, 1,600 W of power and a 37 to 120 °C temperature range. It claims 37 functions, including two-level steaming. A "Habana" version adds a second bowl with a ceramic coating.</p>
-<p><strong>Strengths:</strong> the essentials of a connected cooking robot at an entry-level price, free app.<br><strong>Limits:</strong> 120 °C maximum, so browning is limited; build quality and app less polished than the leaders, according to buyer feedback.<br><strong>Best for:</strong> a first cooking robot or a tight budget.</p>
+<h3>5. Cecotec Mambo Touch: the most affordable</h3>
+<p>The <strong>Cecotec Mambo Touch</strong> is the most common entry-level smart cooking food processor in Europe. It has a <strong>5-inch touchscreen</strong>, Wi-Fi with the Mambo app, built-in scales, a 3.3-litre bowl, 1,600 W of power and a temperature range of 37 to 120°C. Cecotec claims 37 functions, including two-tier steaming. A “Habana” version adds a second bowl with a ceramic coating.</p>
+<p><strong>Pros:</strong> the essentials of a smart cooking food processor at an entry-level price, free app.<br><strong>Cons:</strong> 120°C maximum, so browning is limited; build quality and app less polished than the market leaders, according to buyer feedback.<br><strong>Best for:</strong> trying a cooking food processor for the first time, or a tight budget.</p>
 
 <h2>Comparison table</h2>
 <table>
@@ -166,137 +166,137 @@ export const article: BlogArticle = {
 <tr><th>Model</th><th>Heating and temperature</th><th>Bowl</th><th>Connectivity</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td>Thermomix TM7</td><td>Up to 160 °C</td><td>2.2 L</td><td>Wi-Fi, 10" screen</td><td>Everyday guided cooking</td></tr>
+<tr><td>Thermomix TM7</td><td>Up to 160°C</td><td>2.2 L</td><td>Wi-Fi, 10" screen</td><td>Everyday guided cooking</td></tr>
 <tr><td>Moulinex i-Companion Touch XL</td><td>Heating element</td><td>4.5 L (≈ 3 L usable)</td><td>Wi-Fi, touchscreen</td><td>Families, Thermomix alternative</td></tr>
-<tr><td>Magimix Cook Expert Connect</td><td>Induction 30–160 °C</td><td>3.5 L steel + slicing bowl</td><td>Bluetooth</td><td>Durability, vegetable prep</td></tr>
-<tr><td>Kenwood Cooking Chef XL</td><td>Induction 20–180 °C</td><td>6.7 L</td><td>Wi-Fi (Kenwood World)</td><td>Baking, large batches</td></tr>
-<tr><td>Cecotec Mambo Touch</td><td>37–120 °C</td><td>3.3 L</td><td>Wi-Fi, 5" screen</td><td>Small budgets</td></tr>
+<tr><td>Magimix Cook Expert Connect</td><td>Induction 30–160°C</td><td>3.5 L stainless steel + slicing bowl</td><td>Bluetooth</td><td>Durability, vegetable prep</td></tr>
+<tr><td>Kenwood Cooking Chef XL</td><td>Induction 20–180°C</td><td>6.7 L</td><td>Wi-Fi (Kenwood World)</td><td>Baking, large batches</td></tr>
+<tr><td>Cecotec Mambo Touch</td><td>37–120°C</td><td>3.3 L</td><td>Wi-Fi, 5" screen</td><td>Tight budgets</td></tr>
 </tbody>
 </table>
 
 <h2>Mistakes to avoid</h2>
 <ul>
-<li><strong>Choosing by the number of functions</strong>: "30 or 40 functions" often cover the same uses (blend, heat, knead). Compare maximum temperature, usable capacity and the app instead.</li>
-<li><strong>Ignoring the cost of the app</strong>: an annual subscription adds up over the years. Check what stays available without one.</li>
-<li><strong>Underestimating the footprint</strong>: these robots often weigh more than 7 kg and are awkward to put away. Plan a permanent spot on the worktop.</li>
-<li><strong>Confusing a cooking robot with a multicooker</strong>: if you mainly want pressure cooking without blending, a Cookeo or multicooker is enough. Our <a href="/en/blog/cookeo-vs-thermomix-vs-airfryer">Cookeo vs Thermomix vs Airfryer</a> article explains the differences.</li>
+<li><strong>Choosing by the number of functions</strong>: “30 or 40 functions” often cover the same tasks (blending, heating, kneading). Compare the maximum temperature, usable capacity and app instead.</li>
+<li><strong>Ignoring the cost of the app</strong>: an annual subscription adds to the purchase price over the years. Check what you can still use without one.</li>
+<li><strong>Underestimating the space they take up</strong>: these machines often weigh more than 7 kg and are awkward to put away. Plan a permanent spot for one on the worktop.</li>
+<li><strong>Confusing a cooking food processor with a multicooker</strong>: if you mainly want to pressure cook without blending, a Cookeo or another multicooker will do. Our <a href="/en/blog/cookeo-vs-thermomix-vs-airfryer">Cookeo vs Thermomix vs Air Fryer</a> article explains the differences.</li>
 </ul>
 
 <h2>Use and safety</h2>
-<p>Never go above the maximum fill line, especially with hot liquids: at high speed they can splash out. When blending a hot soup, raise the speed gradually. The blades are very sharp: handle them by their holder and clean them with a brush. Place the appliance on a stable surface away from the edge of the worktop, and keep the lid locked while the blades are turning. Check the manual to see which parts are dishwasher-safe.</p>
+<p>Never fill above the maximum line, especially with hot liquids: at high speed, they can spray out. When blending hot soup, increase the speed gradually. The blades are very sharp, so hold them by their base and clean them with a brush. Stand the appliance on a stable surface away from the edge of the worktop, and keep the lid locked while the blades are turning. Check the manual to see which parts are dishwasher-safe.</p>
 
 <h2>Our verdict</h2>
-<p>If budget allows and you cook every day, the <strong>Thermomix TM7</strong> is still the most polished thanks to Cookidoo. For a connected cooking robot available from regular retailers, the <strong>Moulinex i-Companion Touch XL</strong> is the best all-rounder: large bowl, Wi-Fi, screen and a free app. The <strong>Magimix Cook Expert Connect</strong> suits those who want a durable, highly versatile machine for slicing and grating, the <strong>Kenwood Cooking Chef XL</strong> suits bakers, and the <strong>Cecotec Mambo Touch</strong> suits small budgets. To see how these robots fit into a smart kitchen, read our <a href="/en/blog/guide-cuisine-connectee-2026">connected kitchen guide 2026</a>.</p>`,
+<p>If your budget allows and you cook every day, the <strong>Thermomix TM7</strong> is still the most polished option, thanks to Cookidoo. If you want a smart cooking food processor from a regular retailer, the <strong>Moulinex i-Companion Touch XL</strong> is the best all-rounder: a large bowl, Wi-Fi, a screen and a free app. The <strong>Magimix Cook Expert Connect</strong> is for anyone who wants a durable machine that’s very versatile for slicing and grating, the <strong>Kenwood Cooking Chef XL</strong> is for keen bakers, and the <strong>Cecotec Mambo Touch</strong> is for tight budgets. To see how these machines fit into a smart kitchen, read our <a href="/en/blog/guide-cuisine-connectee-2026">2026 smart kitchen guide</a>.</p>`,
 
-    de: `<p><strong>Der Thermomix TM7 bleibt 2026 die Referenz unter den vernetzten Küchenprozessoren, die beste im Handel erhältliche Alternative ist jedoch der Moulinex i-Companion Touch XL</strong> mit Touchscreen, WLAN, integrierter Waage und großem 4,5-Liter-Topf. Bei knappem Budget liefert der Cecotec Mambo Touch das Wesentliche (WLAN, Display, geführte Rezepte), während die Kenwood Cooking Chef XL sich an Backfans und große Mengen richtet.</p>
-<p>Dieser Vergleich stützt sich auf Herstellerangaben, unabhängige Bewertungen und verifizierte Käufererfahrungen und berücksichtigt nur Modelle, die 2026 in Europa erhältlich sind. Für Schnellkochtöpfe im Stil des Cookeo lesen Sie unseren <a href="/de/blog/comparatif-multicuiseur-connecte">Vergleich vernetzter Multikocher</a> und unsere Seite <a href="/de/cuisine-connectee/multicuiseurs">Multikocher</a>.</p>
+    de: `<p><strong>Der Thermomix TM7 bleibt 2026 der Maßstab unter den Küchenmaschinen mit Kochfunktion und App, die beste Alternative aus dem regulären Handel ist jedoch der Moulinex i-Companion Touch XL</strong> mit Touchscreen, WLAN, integrierter Waage und großem 4,5-Liter-Topf. Bei knappem Budget bietet der Cecotec Mambo Touch das Wesentliche (WLAN, Display, geführte Rezepte), während sich die Kenwood Cooking Chef XL an Hobbybäcker und alle richtet, die große Mengen zubereiten.</p>
+<p>Dieser Vergleich stützt sich auf Herstellerangaben, unabhängige Testberichte und verifizierte Käuferbewertungen; berücksichtigt werden nur Modelle, die 2026 in Europa erhältlich sind. Für Schnellkochtöpfe nach Art des Cookeo lesen Sie besser unseren <a href="/de/blog/comparatif-multicuiseur-connecte">Vergleich der Multikocher mit App</a> und unsere Seite <a href="/de/cuisine-connectee/multicuiseurs">Multikocher</a>.</p>
 
-<h2>Was ist ein vernetzter Küchenprozessor?</h2>
-<p>Ein Küchenprozessor mit Kochfunktion <strong>mixt, zerkleinert, knetet und erhitzt im selben Topf</strong>. Er unterscheidet sich vom Multikocher (der kocht, aber nicht mixt) und von der klassischen Küchenmaschine (die knetet, aber nicht erhitzt). Die vernetzte Version verbindet sich per WLAN oder Bluetooth mit einer App: Schritt-für-Schritt-Rezepte, automatisch übertragene Einstellungen, Einkaufslisten und Software-Updates.</p>
-<p>In der Praxis ist die Vernetzung nur so gut wie die Rezeptbibliothek. Ein gut gebautes Gerät mit schwacher App macht im Alltag weniger Freude als ein durchschnittliches Gerät mit klaren, zahlreichen Rezepten.</p>
+<h2>Küchenmaschine mit Kochfunktion und App: Was ist das?</h2>
+<p>Eine Küchenmaschine mit Kochfunktion <strong>mixt, zerkleinert, knetet und erhitzt im selben Topf</strong>. Sie unterscheidet sich vom Multikocher (der gart, aber nicht mixt) und von der klassischen Küchenmaschine (die knetet, aber nicht erhitzt). Bei der smarten Variante kommt eine App hinzu, mit der sich das Gerät per WLAN oder Bluetooth verbindet: Schritt-für-Schritt-Rezepte, automatisch übertragene Einstellungen, Einkaufslisten und Software-Updates.</p>
+<p>In der Praxis ist die Vernetzung nur so gut wie die Rezeptbibliothek. Ein gut gebautes Gerät mit schwacher App macht im Alltag weniger Freude als ein durchschnittliches Gerät mit vielen klar geschriebenen Rezepten.</p>
 
 <h2>Worauf Sie beim Kauf achten sollten</h2>
 <ul>
-<li><strong>Heizart</strong>: Induktion (Magimix, Kenwood) heizt schnell und regelt fein; ein klassisches Heizelement genügt für Suppen, Saucen und Schmorgerichte.</li>
-<li><strong>Höchsttemperatur</strong>: Über 120 °C lassen sich Zwiebeln und Fleisch anbraten. Darunter bleibt das Gerät auf Suppen, Pürees und Dampfgaren ausgerichtet.</li>
-<li><strong>Nutzbares Volumen</strong>: Achten Sie auf das <em>nutzbare</em> Volumen, nicht nur auf das Gesamtvolumen. Zwei bis drei nutzbare Liter reichen für 4 bis 6 Personen.</li>
-<li><strong>Verbindungsart</strong>: Mit WLAN landen Rezepte direkt auf dem Gerätedisplay; bei Bluetooth muss das Smartphone in der Nähe bleiben.</li>
-<li><strong>App und Bezahlmodell</strong>: Manche Plattformen verlangen ein Abo für den vollen Katalog, andere sind kostenlos.</li>
-<li><strong>Integrierte Waage</strong>: Sie erspart das ständige Hervorholen einer Küchenwaage, ein echter Vorteil bei geführten Rezepten.</li>
+<li><strong>Heizart</strong>: Induktion (Magimix, Kenwood) heizt schnell und lässt sich fein regeln; ein klassisches Heizelement genügt für Suppen, Saucen und Schmorgerichte.</li>
+<li><strong>Höchsttemperatur</strong>: Erst über 120 °C lassen sich Zwiebeln und Fleisch anbraten. Darunter eignet sich das Gerät vor allem für Suppen, Pürees und Dampfgaren.</li>
+<li><strong>Nutzvolumen</strong>: Achten Sie auf das <em>nutzbare</em> Volumen, nicht nur auf das Gesamtvolumen. Ein Topf mit 2 bis 3 Litern Nutzvolumen reicht für 4 bis 6 Personen.</li>
+<li><strong>Verbindungsart</strong>: Über WLAN lädt das Gerät die Rezepte direkt auf sein Display; bei Bluetooth muss das Smartphone in der Nähe bleiben.</li>
+<li><strong>App und Bezahlmodell</strong>: Manche Plattformen verlangen für den vollen Rezeptkatalog ein Abo, andere sind kostenlos.</li>
+<li><strong>Integrierte Waage</strong>: Sie müssen nicht bei jedem Schritt eine Küchenwaage hervorholen, bei geführten Rezepten ein echter Vorteil.</li>
 <li><strong>Kundendienst und Ersatzteile</strong>: Bei einem Premiumgerät zählen Garantiedauer und Ersatzteilverfügbarkeit ebenso viel wie die Funktionen.</li>
 </ul>
 
-<h2>Die 5 wichtigsten vernetzten Küchenprozessoren 2026</h2>
+<h2>Diese 5 Küchenmaschinen mit Kochfunktion sollten Sie 2026 kennen</h2>
 
-<h3>1. Thermomix TM7 – die Referenz</h3>
-<p>Der 2025 vorgestellte <strong>Thermomix TM7</strong> von Vorwerk folgt auf den TM6. Er hat einen <strong>10-Zoll-Touchscreen</strong>, behält den 2,2-Liter-Mixtopf und den Varoma zum Dampfgaren und erreicht im Anbratmodus <strong>160 °C</strong>. Ein Garmodus ohne Deckel lässt Saucen einkochen, und per WLAN ist er mit <strong>Cookidoo</strong> verbunden, der größten Plattform für geführte Rezepte. Zubehör und Rezepte früherer Generationen bleiben kompatibel.</p>
-<p><strong>Stärken:</strong> unerreichtes Rezept-Ökosystem, sehr ausgereifte Bedienung, hoher Wiederverkaufswert.<br><strong>Schwächen:</strong> Für den vollen Katalog ist ein Cookidoo-Abo nötig, der 2,2-Liter-Topf ist für große Runden knapp, sehr hochpreisige Positionierung.<br><strong>Für wen:</strong> Haushalte, die täglich kochen und das umfassendste geführte Kocherlebnis wollen.</p>
-<p>Hinweis: Der Thermomix wird von Vorwerk über Repräsentanten und den eigenen Onlineshop verkauft, nicht über den allgemeinen Handel. Deshalb stellt unsere Kaufauswahl seine Alternativen in den Vordergrund.</p>
+<h3>1. Thermomix TM7 – der Maßstab</h3>
+<p>Der 2025 vorgestellte <strong>Thermomix TM7</strong> von Vorwerk ist der Nachfolger des TM6. Er hat einen <strong>10-Zoll-Touchscreen</strong>, behält den 2,2-Liter-Mixtopf und den Varoma zum Dampfgaren und erreicht im Anbratmodus <strong>160 °C</strong>. In einem Garmodus ohne Deckel lassen sich Saucen einkochen, und per WLAN ist er mit <strong>Cookidoo</strong> verbunden, der größten Plattform für geführte Rezepte. Zubehör und Rezepte früherer Generationen bleiben kompatibel.</p>
+<p><strong>Stärken:</strong> unerreichtes Rezeptangebot, sehr ausgereifte Bedienung, hoher Wiederverkaufswert.<br><strong>Schwächen:</strong> Für den vollen Katalog ist ein Cookidoo-Abo nötig, der 2,2-Liter-Topf ist für große Runden knapp, Preis im obersten Segment.<br><strong>Für wen:</strong> Haushalte, die täglich kochen und sich dabei so umfassend wie möglich anleiten lassen wollen.</p>
+<p>Hinweis: Vorwerk verkauft den Thermomix über seine Beraterinnen und Berater sowie den eigenen Onlineshop, nicht im regulären Handel. Deshalb stehen in unserer Kaufempfehlung die Alternativen im Vordergrund.</p>
 
 <h3>2. Moulinex i-Companion Touch XL – die beste Alternative</h3>
-<p>Der <strong>Moulinex i-Companion Touch XL</strong> kommt dem Thermomix vom Konzept her am nächsten, mit integriertem Touchscreen und WLAN. Sein Edelstahltopf mit <strong>4,5 Litern</strong> (rund 3 Liter nutzbar) ist größer als beim TM7, und die <strong>integrierte Waage</strong> wiegt direkt im Topf. Die Moulinex-App bietet laut Hersteller über 3.000 geführte Rezepte ohne Abopflicht sowie eine Funktion, die Rezepte nach vorhandenen Zutaten vorschlägt.</p>
-<p><strong>Stärken:</strong> großes Volumen, viel Zubehör (Hackmesser, Knethaken, Rührbesen, Dampfkorb), kostenlose App.<br><strong>Schwächen:</strong> braucht viel Platz auf der Arbeitsfläche; kleinerer Katalog als Cookidoo.<br><strong>Für wen:</strong> Familien, die ein vollständiges geführtes Kochen ohne Direktvertrieb wünschen.</p>
+<p>Der <strong>Moulinex i-Companion Touch XL</strong> kommt dem Thermomix vom Konzept her am nächsten, mit integriertem Touchscreen und WLAN. Sein Edelstahltopf mit <strong>4,5 Litern</strong> (rund 3 Liter Nutzvolumen) ist größer als der des TM7, und mit der <strong>integrierten Waage</strong> wiegen Sie direkt im Topf. Die Moulinex-App bietet laut Hersteller über 3.000 geführte Rezepte ohne Abopflicht sowie eine Funktion, die Rezepte passend zu den vorhandenen Zutaten vorschlägt.</p>
+<p><strong>Stärken:</strong> großes Volumen, viel Zubehör (Zerkleinerungsmesser, Knethaken, Rühraufsatz, Dampfkorb), kostenlose App.<br><strong>Schwächen:</strong> braucht viel Platz auf der Arbeitsfläche; kleinerer Rezeptkatalog als Cookidoo.<br><strong>Für wen:</strong> Familien, die umfassend angeleitet kochen möchten, ohne über den Direktvertrieb zu kaufen.</p>
 
-<h3>3. Magimix Cook Expert Connect – für die Ewigkeit gebaut</h3>
-<p>Der <strong>Magimix Cook Expert Connect</strong> basiert auf dem in Frankreich montierten Cook Expert und heizt per <strong>Induktion von 30 bis 160 °C</strong>, gradgenau einstellbar. Seine Stärke ist die Doppelfunktion: ein beheizter 3,5-Liter-Edelstahltopf zum Kochen und eine transparente Schüssel mit Scheiben zum Reiben und Schneiden wie bei einer klassischen Küchenmaschine. Die Connect-Version koppelt sich per <strong>Bluetooth</strong> mit der Magimix-App (über 2.000 geführte Rezepte) und einer vernetzten Waage.</p>
-<p><strong>Stärken:</strong> laut Magimix 30 Jahre Garantie auf den Motor, sehr vielseitiges Schneiden und Reiben, präzises Induktionskochen.<br><strong>Schwächen:</strong> kein Touchscreen und kein WLAN, das Smartphone bleibt für geführte Rezepte nötig; viel Zubehör zu verstauen.<br><strong>Für wen:</strong> alle, denen Langlebigkeit und Schneidvielfalt wichtiger sind als die Bedienoberfläche.</p>
+<h3>3. Magimix Cook Expert Connect – die langlebige Wahl</h3>
+<p>Der <strong>Magimix Cook Expert Connect</strong> basiert auf dem in Frankreich montierten Cook Expert und heizt per <strong>Induktion von 30 bis 160 °C</strong>, gradgenau einstellbar. Das Besondere ist die Doppelfunktion: ein beheizter 3,5-Liter-Edelstahltopf zum Kochen und eine transparente Schüssel mit Schneid- und Reibscheiben wie bei einer klassischen Küchenmaschine. Die Connect-Version verbindet sich per <strong>Bluetooth</strong> mit der Magimix-App (über 2.000 geführte Rezepte) und einer smarten Küchenwaage.</p>
+<p><strong>Stärken:</strong> laut Magimix 30 Jahre Garantie auf den Motor, sehr vielseitig beim Schneiden und Reiben, präzises Induktionskochen.<br><strong>Schwächen:</strong> kein Touchscreen und kein WLAN, für geführte Rezepte bleibt das Smartphone nötig; viel Zubehör zu verstauen.<br><strong>Für wen:</strong> alle, denen Langlebigkeit und Schneidvielfalt wichtiger sind als die Bedienoberfläche.</p>
 
 <h3>4. Kenwood Cooking Chef XL – Backen und große Mengen</h3>
-<p>Die <strong>Kenwood Cooking Chef XL</strong> (Modell KCL95.424SI) ist eher eine beheizte Küchenmaschine als ein Thermomix-Konkurrent im engeren Sinn. Ihre <strong>6,7-Liter</strong>-Schüssel wird per <strong>Induktion von 20 bis 180 °C</strong> gradgenau beheizt, bei 1.500 W Leistung. Gesteuert wird sie mit der Kenwood-World-App, die Schritt-für-Schritt-Rezepte bietet.</p>
-<p><strong>Stärken:</strong> Rekordvolumen, große Mengen Teig und Brioche, Hitze hoch genug zum Anbraten, Temperieren von Schokolade oder für Cremes.<br><strong>Schwächen:</strong> Mixen und Schneiden hängen von Aufsätzen ab, teils separat erhältlich; schwer und voluminös.<br><strong>Für wen:</strong> leidenschaftliche Bäcker und große Familien.</p>
+<p>Die <strong>Kenwood Cooking Chef XL</strong> (Modell KCL95.424SI) ist eher eine beheizbare Küchenmaschine zum Backen als ein Thermomix-Konkurrent im engeren Sinn. Ihre <strong>6,7-Liter</strong>-Schüssel wird per <strong>Induktion von 20 bis 180 °C</strong> gradgenau beheizt; die Leistung liegt bei 1.500 W. Gesteuert wird sie mit der Kenwood-World-App, die Schritt-für-Schritt-Rezepte bietet.</p>
+<p><strong>Stärken:</strong> Rekordvolumen, Teig und Brioche in großen Mengen, genug Hitze zum Anbraten, zum Temperieren von Schokolade und für Cremes.<br><strong>Schwächen:</strong> Mixen und Schneiden nur mit Aufsätzen, die teils separat verkauft werden; schwer und sperrig.<br><strong>Für wen:</strong> leidenschaftliche Hobbybäcker und große Familien.</p>
 
 <h3>5. Cecotec Mambo Touch – der günstigste Einstieg</h3>
-<p>Der <strong>Cecotec Mambo Touch</strong> ist das verbreitetste vernetzte Einstiegsgerät in Europa. Er bietet einen <strong>5-Zoll-Touchscreen</strong>, WLAN mit der Mambo-App, eine integrierte Waage, einen 3,3-Liter-Topf, 1.600 W Leistung und einen Temperaturbereich von 37 bis 120 °C. Der Hersteller nennt 37 Funktionen, darunter Dampfgaren auf zwei Ebenen. Die Version „Habana“ enthält einen zweiten Topf mit Keramikbeschichtung.</p>
-<p><strong>Stärken:</strong> das Wesentliche eines vernetzten Küchenprozessors im Einstiegssegment, kostenlose App.<br><strong>Schwächen:</strong> maximal 120 °C, daher nur eingeschränktes Anbraten; Verarbeitung und App laut Käufererfahrungen weniger ausgereift als bei den Marktführern.<br><strong>Für wen:</strong> den ersten Küchenprozessor oder ein knappes Budget.</p>
+<p>Der <strong>Cecotec Mambo Touch</strong> ist in Europa das am weitesten verbreitete Einstiegsmodell mit App. Er bietet einen <strong>5-Zoll-Touchscreen</strong>, WLAN mit der Mambo-App, eine integrierte Waage, einen 3,3-Liter-Topf, 1.600 W Leistung und einen Temperaturbereich von 37 bis 120 °C. Der Hersteller nennt 37 Funktionen, darunter Dampfgaren auf zwei Ebenen. Die Version „Habana“ enthält einen zweiten Topf mit Keramikbeschichtung.</p>
+<p><strong>Stärken:</strong> das Wichtigste einer Küchenmaschine mit Kochfunktion und App zum Einstiegspreis, kostenlose App.<br><strong>Schwächen:</strong> maximal 120 °C, daher nur eingeschränktes Anbraten; Verarbeitung und App laut Käuferbewertungen weniger ausgereift als bei den Marktführern.<br><strong>Für wen:</strong> Einsteiger und alle mit knappem Budget.</p>
 
 <h2>Vergleichstabelle</h2>
 <table>
 <thead>
-<tr><th>Modell</th><th>Heizart und Temperatur</th><th>Topf</th><th>Vernetzung</th><th>Ideal für</th></tr>
+<tr><th>Modell</th><th>Heizart und Temperatur</th><th>Topf</th><th>Verbindung</th><th>Ideal für</th></tr>
 </thead>
 <tbody>
-<tr><td>Thermomix TM7</td><td>Bis 160 °C</td><td>2,2 L</td><td>WLAN, 10"-Display</td><td>Geführtes Kochen im Alltag</td></tr>
+<tr><td>Thermomix TM7</td><td>Bis 160 °C</td><td>2,2 L</td><td>WLAN, 10-Zoll-Display</td><td>Geführtes Kochen im Alltag</td></tr>
 <tr><td>Moulinex i-Companion Touch XL</td><td>Heizelement</td><td>4,5 L (≈ 3 L nutzbar)</td><td>WLAN, Touchscreen</td><td>Familien, Thermomix-Alternative</td></tr>
-<tr><td>Magimix Cook Expert Connect</td><td>Induktion 30–160 °C</td><td>3,5 L Edelstahl + Schneidschüssel</td><td>Bluetooth</td><td>Langlebigkeit, Gemüsevorbereitung</td></tr>
+<tr><td>Magimix Cook Expert Connect</td><td>Induktion 30–160 °C</td><td>3,5 L Edelstahl + Schneidschüssel</td><td>Bluetooth</td><td>Langlebigkeit, Gemüse schneiden</td></tr>
 <tr><td>Kenwood Cooking Chef XL</td><td>Induktion 20–180 °C</td><td>6,7 L</td><td>WLAN (Kenwood World)</td><td>Backen, große Mengen</td></tr>
-<tr><td>Cecotec Mambo Touch</td><td>37–120 °C</td><td>3,3 L</td><td>WLAN, 5"-Display</td><td>Kleines Budget</td></tr>
+<tr><td>Cecotec Mambo Touch</td><td>37–120 °C</td><td>3,3 L</td><td>WLAN, 5-Zoll-Display</td><td>Kleines Budget</td></tr>
 </tbody>
 </table>
 
-<h2>Häufige Fehler</h2>
+<h2>Typische Fehler</h2>
 <ul>
-<li><strong>Nach der Zahl der Funktionen wählen</strong>: „30 oder 40 Funktionen“ meinen oft dieselben Anwendungen (mixen, erhitzen, kneten). Vergleichen Sie lieber Höchsttemperatur, nutzbares Volumen und App.</li>
-<li><strong>Die App-Kosten übersehen</strong>: Ein Jahresabo summiert sich über die Jahre. Prüfen Sie, was ohne Abo verfügbar bleibt.</li>
+<li><strong>Nach der Zahl der Funktionen wählen</strong>: Hinter „30 oder 40 Funktionen“ stecken oft dieselben Anwendungen (mixen, erhitzen, kneten). Vergleichen Sie lieber Höchsttemperatur, Nutzvolumen und App.</li>
+<li><strong>Die App-Kosten übersehen</strong>: Ein Jahresabo kommt auf Dauer zum Kaufpreis hinzu. Prüfen Sie, was ohne Abo verfügbar bleibt.</li>
 <li><strong>Den Platzbedarf unterschätzen</strong>: Diese Geräte wiegen oft über 7 kg und lassen sich schlecht verstauen. Planen Sie einen festen Platz auf der Arbeitsfläche ein.</li>
-<li><strong>Küchenprozessor und Multikocher verwechseln</strong>: Wer vor allem unter Druck garen will, ohne zu mixen, ist mit einem Cookeo oder Multikocher gut bedient. Unser Artikel <a href="/de/blog/cookeo-vs-thermomix-vs-airfryer">Cookeo vs. Thermomix vs. Airfryer</a> erklärt die Unterschiede.</li>
+<li><strong>Küchenmaschine mit Kochfunktion und Multikocher verwechseln</strong>: Wer vor allem unter Druck garen will, ohne zu mixen, ist mit einem Cookeo oder einem anderen Multikocher gut bedient. Unser Artikel <a href="/de/blog/cookeo-vs-thermomix-vs-airfryer">Cookeo vs. Thermomix vs. Airfryer</a> erklärt die Unterschiede.</li>
 </ul>
 
 <h2>Nutzung und Sicherheit</h2>
 <p>Überschreiten Sie nie die maximale Füllmarke, besonders bei heißen Flüssigkeiten: Bei hoher Drehzahl können sie herausspritzen. Erhöhen Sie beim Pürieren heißer Suppen die Geschwindigkeit schrittweise. Die Messer sind sehr scharf: Fassen Sie sie an der Halterung an und reinigen Sie sie mit einer Bürste. Stellen Sie das Gerät auf eine stabile Fläche, nicht an die Kante der Arbeitsplatte, und lassen Sie den Deckel verriegelt, solange die Messer laufen. Welche Teile spülmaschinenfest sind, steht in der Bedienungsanleitung.</p>
 
 <h2>Unser Fazit</h2>
-<p>Wenn das Budget es erlaubt und Sie täglich kochen, ist der <strong>Thermomix TM7</strong> dank Cookidoo weiterhin am ausgereiftesten. Als vernetzter Küchenprozessor aus dem regulären Handel ist der <strong>Moulinex i-Companion Touch XL</strong> der beste Allrounder: großer Topf, WLAN, Display und kostenlose App. Der <strong>Magimix Cook Expert Connect</strong> passt zu allen, die ein langlebiges und beim Schneiden sehr vielseitiges Gerät suchen, die <strong>Kenwood Cooking Chef XL</strong> zu Backfans und der <strong>Cecotec Mambo Touch</strong> zu kleinen Budgets. Wie sich diese Geräte in eine smarte Küche einfügen, lesen Sie in unserem <a href="/de/blog/guide-cuisine-connectee-2026">Ratgeber vernetzte Küche 2026</a>.</p>`,
+<p>Wenn das Budget es erlaubt und Sie täglich kochen, ist der <strong>Thermomix TM7</strong> dank Cookidoo weiterhin am ausgereiftesten. Unter den Modellen aus dem regulären Handel ist der <strong>Moulinex i-Companion Touch XL</strong> der beste Kompromiss: großer Topf, WLAN, Display und kostenlose App. Der <strong>Magimix Cook Expert Connect</strong> passt zu allen, die ein langlebiges und beim Schneiden sehr vielseitiges Gerät suchen, die <strong>Kenwood Cooking Chef XL</strong> zu Hobbybäckern und der <strong>Cecotec Mambo Touch</strong> zu kleinen Budgets. Wie sich diese Geräte in eine smarte Küche einfügen, lesen Sie in unserem <a href="/de/blog/guide-cuisine-connectee-2026">Ratgeber smarte Küche 2026</a>.</p>`,
 
-    es: `<p><strong>El Thermomix TM7 sigue siendo la referencia de los robots de cocina conectados en 2026, pero la mejor alternativa disponible en las tiendas habituales es el Moulinex i-Companion Touch XL</strong>, que combina pantalla táctil, Wi-Fi, báscula integrada y un gran vaso de 4,5 litros. Con un presupuesto ajustado, el Cecotec Mambo Touch ofrece lo esencial (Wi-Fi, pantalla, recetas guiadas), mientras que el Kenwood Cooking Chef XL está pensado para repostería y grandes cantidades.</p>
-<p>Esta comparativa se basa en las fichas técnicas de los fabricantes, análisis independientes y opiniones de compradores verificados, y solo incluye modelos a la venta en Europa en 2026. Para ollas programables tipo Cookeo, consulta nuestra <a href="/es/blog/comparatif-multicuiseur-connecte">comparativa de multicocinas conectadas</a> y nuestra página de <a href="/es/cuisine-connectee/multicuiseurs">multicocinas</a>.</p>
+    es: `<p><strong>El Thermomix TM7 sigue siendo la referencia de los robots de cocina conectados en 2026, pero la mejor alternativa disponible en las tiendas habituales es el Moulinex i-Companion Touch XL</strong>, que combina pantalla táctil, wifi, báscula integrada y un vaso grande de 4,5 litros. Con un presupuesto ajustado, el Cecotec Mambo Touch ofrece lo esencial (wifi, pantalla, recetas guiadas), mientras que el Kenwood Cooking Chef XL está pensado para repostería y grandes cantidades.</p>
+<p>Esta comparativa se basa en las fichas técnicas de los fabricantes, análisis independientes y opiniones de compradores verificados, y solo incluye modelos a la venta en Europa en 2026. Si lo que buscas es una olla programable tipo Cookeo, consulta mejor nuestra <a href="/es/blog/comparatif-multicuiseur-connecte">comparativa de ollas programables conectadas</a> y nuestra página de <a href="/es/cuisine-connectee/multicuiseurs">ollas programables</a>.</p>
 
 <h2>¿Qué es un robot de cocina conectado?</h2>
-<p>Un robot de cocina es un aparato que <strong>tritura, pica, amasa y calienta en el mismo vaso</strong>. Se diferencia de una multicocina (que cocina pero no tritura) y de una amasadora clásica (que amasa pero no calienta). La versión «conectada» añade un enlace Wi-Fi o Bluetooth con una aplicación: recetas guiadas paso a paso, ajustes enviados automáticamente al aparato, lista de la compra y actualizaciones de software.</p>
-<p>En la práctica, la conectividad vale lo que vale su recetario. Un robot bien construido con una app pobre resulta menos agradable a diario que un aparato correcto respaldado por recetas claras y abundantes.</p>
+<p>Un robot de cocina es un aparato que <strong>tritura, pica, amasa y calienta en el mismo vaso</strong>. Se diferencia de una olla programable (que cocina pero no tritura) y de una amasadora clásica (que amasa pero no calienta). La versión «conectada» añade conexión wifi o Bluetooth con una aplicación: recetas guiadas paso a paso, ajustes enviados automáticamente al aparato, lista de la compra y actualizaciones de software.</p>
+<p>En la práctica, la conectividad vale lo que vale su recetario. Un robot bien construido pero con una app pobre se disfruta menos en el día a día que uno corriente con muchas recetas bien explicadas.</p>
 
 <h2>Criterios de compra</h2>
 <ul>
 <li><strong>Sistema de calentamiento</strong>: la inducción (Magimix, Kenwood) calienta rápido y regula con precisión; una resistencia clásica basta para sopas, salsas y guisos.</li>
 <li><strong>Temperatura máxima</strong>: por encima de 120 °C se pueden sofreír cebollas y dorar carne. Por debajo, el robot se limita a sopas, purés y vapor.</li>
 <li><strong>Capacidad útil del vaso</strong>: fíjate en el volumen <em>útil</em>, no solo en el total. Entre 2 y 3 litros útiles bastan para 4 a 6 personas.</li>
-<li><strong>Tipo de conexión</strong>: con Wi-Fi las recetas llegan directamente a la pantalla del robot; con Bluetooth hay que tener el móvil cerca.</li>
+<li><strong>Tipo de conexión</strong>: con wifi las recetas llegan directamente a la pantalla del robot; con Bluetooth hay que tener el móvil cerca.</li>
 <li><strong>La app y su modelo de pago</strong>: algunas plataformas exigen suscripción para el catálogo completo, otras son gratuitas.</li>
 <li><strong>Báscula integrada</strong>: evita sacar la báscula en cada paso, una ventaja real con las recetas guiadas.</li>
-<li><strong>Servicio técnico y recambios</strong>: en un aparato de gama alta, la garantía y la disponibilidad de piezas importan tanto como las funciones.</li>
+<li><strong>Servicio técnico y recambios</strong>: en un aparato de gama alta, la duración de la garantía y la disponibilidad de piezas importan tanto como las funciones.</li>
 </ul>
 
 <h2>Los 5 robots de cocina conectados que hay que conocer en 2026</h2>
 
 <h3>1. Thermomix TM7: la referencia</h3>
-<p>Lanzado en 2025, el <strong>Thermomix TM7</strong> de Vorwerk sustituye al TM6. Incorpora una <strong>pantalla táctil de 10 pulgadas</strong>, mantiene el vaso de 2,2 litros y el Varoma para cocinar al vapor, y alcanza <strong>160 °C</strong> en modo dorar. Un modo de cocción sin tapa permite reducir salsas, y el Wi-Fi lo conecta con <strong>Cookidoo</strong>, el mayor catálogo de recetas guiadas del mercado. Sigue siendo compatible con accesorios y recetas de generaciones anteriores.</p>
-<p><strong>Puntos fuertes:</strong> ecosistema de recetas inigualable, interfaz muy pulida, buen valor de reventa.<br><strong>Límites:</strong> hace falta suscripción a Cookidoo para todo el catálogo, el vaso de 2,2 litros se queda corto para comidas numerosas, posicionamiento muy alto.<br><strong>Para quién:</strong> hogares que cocinan a diario y quieren la experiencia guiada más completa.</p>
-<p>Nota: Vorwerk vende el Thermomix a través de sus agentes y su tienda online, no en las grandes superficies. Por eso nuestra selección de compra destaca sus alternativas.</p>
+<p>Lanzado en 2025, el <strong>Thermomix TM7</strong> de Vorwerk sustituye al TM6. Incorpora una <strong>pantalla táctil de 10 pulgadas</strong>, mantiene el vaso de 2,2 litros y el Varoma para cocinar al vapor, y alcanza <strong>160 °C</strong> en modo dorar. Un modo de cocción sin tapa permite reducir salsas, y el wifi lo conecta con <strong>Cookidoo</strong>, el mayor catálogo de recetas guiadas del mercado. Sigue siendo compatible con accesorios y recetas de generaciones anteriores.</p>
+<p><strong>Puntos fuertes:</strong> ecosistema de recetas inigualable, interfaz muy pulida, se revende bien de segunda mano.<br><strong>Puntos débiles:</strong> hace falta suscripción a Cookidoo para todo el catálogo, el vaso de 2,2 litros se queda corto para comidas con muchos comensales, modelo de gama muy alta.<br><strong>Para quién:</strong> hogares que cocinan a diario y quieren la experiencia guiada más completa.</p>
+<p>Ojo: Vorwerk vende el Thermomix a través de sus agentes comerciales y su tienda online, no en las grandes superficies. Por eso nuestra selección de compra destaca sus alternativas.</p>
 
 <h3>2. Moulinex i-Companion Touch XL: la mejor alternativa</h3>
-<p>El <strong>Moulinex i-Companion Touch XL</strong> es el robot de cocina más parecido al Thermomix en planteamiento, con pantalla táctil integrada y Wi-Fi. Su vaso de acero inoxidable de <strong>4,5 litros</strong> (unos 3 litros útiles) es mayor que el del TM7, y la <strong>báscula integrada</strong> pesa directamente en el vaso. La app de Moulinex ofrece más de 3.000 recetas guiadas sin suscripción obligatoria según el fabricante, y una función que propone recetas con los ingredientes disponibles.</p>
-<p><strong>Puntos fuertes:</strong> gran capacidad, muchos accesorios (cuchilla picadora, amasador, batidor, cesta de vapor), app gratuita.<br><strong>Límites:</strong> voluminoso en la encimera; catálogo menor que Cookidoo.<br><strong>Para quién:</strong> familias que quieren una experiencia guiada completa sin pasar por la venta directa.</p>
+<p>El <strong>Moulinex i-Companion Touch XL</strong> es el robot de cocina más parecido al Thermomix en planteamiento, con pantalla táctil integrada y wifi. Su vaso de acero inoxidable de <strong>4,5 litros</strong> (unos 3 litros útiles) es mayor que el del TM7, y la <strong>báscula integrada</strong> pesa directamente en el vaso. La app de Moulinex da acceso a más de 3.000 recetas guiadas sin suscripción obligatoria, según el fabricante, y tiene una función que propone recetas con los ingredientes que tengas en casa.</p>
+<p><strong>Puntos fuertes:</strong> gran capacidad, muchos accesorios (cuchilla picadora, amasador, batidor, cesta de vapor), app gratuita.<br><strong>Puntos débiles:</strong> voluminoso en la encimera; catálogo menos amplio que el de Cookidoo.<br><strong>Para quién:</strong> familias que quieren una experiencia guiada completa sin pasar por la venta directa.</p>
 
 <h3>3. Magimix Cook Expert Connect: pensado para durar</h3>
-<p>El <strong>Magimix Cook Expert Connect</strong> parte del Cook Expert, ensamblado en Francia, con <strong>calentamiento por inducción de 30 a 160 °C</strong> regulable grado a grado. Su punto fuerte es su doble naturaleza: un vaso de acero de 3,5 litros que calienta para cocinar y un bol transparente con discos para rallar y laminar como un procesador de alimentos clásico. La versión Connect se enlaza por <strong>Bluetooth</strong> con la app de Magimix (más de 2.000 recetas guiadas) y con una báscula conectada.</p>
-<p><strong>Puntos fuertes:</strong> motor garantizado 30 años según Magimix, gran versatilidad para cortar y rallar, cocción por inducción precisa.<br><strong>Límites:</strong> sin pantalla táctil ni Wi-Fi, el móvil sigue siendo necesario para las recetas guiadas; muchos accesorios que guardar.<br><strong>Para quién:</strong> quien prioriza la robustez y la versatilidad de corte frente a la interfaz.</p>
+<p>El <strong>Magimix Cook Expert Connect</strong> parte del Cook Expert, ensamblado en Francia, con <strong>calentamiento por inducción de 30 a 160 °C</strong> regulable grado a grado. Lo que lo distingue es su doble función: un vaso de acero de 3,5 litros que calienta para cocinar y un bol transparente con discos para rallar y laminar como un procesador de alimentos clásico. La versión Connect se enlaza por <strong>Bluetooth</strong> con la app de Magimix (más de 2.000 recetas guiadas) y con una báscula conectada.</p>
+<p><strong>Puntos fuertes:</strong> motor garantizado 30 años según Magimix, gran versatilidad para cortar y rallar, cocción por inducción precisa.<br><strong>Puntos débiles:</strong> sin pantalla táctil ni wifi, el móvil sigue siendo necesario para las recetas guiadas; muchos accesorios que guardar.<br><strong>Para quién:</strong> quien antepone la robustez y la versatilidad para cortar a la interfaz.</p>
 
 <h3>4. Kenwood Cooking Chef XL: repostería y grandes cantidades</h3>
-<p>El <strong>Kenwood Cooking Chef XL</strong> (modelo KCL95.424SI) es más una amasadora con calor que un robot de cocina en sentido estricto. Su bol de <strong>6,7 litros</strong> se calienta por <strong>inducción de 20 a 180 °C</strong>, grado a grado, con 1.500 W de potencia. Se maneja con la app Kenwood World, que ofrece recetas paso a paso.</p>
-<p><strong>Puntos fuertes:</strong> capacidad récord, masas y brioches en gran cantidad, calor suficiente para dorar, templar chocolate o hacer cremas.<br><strong>Límites:</strong> triturar y cortar dependen de accesorios, algunos vendidos aparte; pesado y voluminoso.<br><strong>Para quién:</strong> aficionados a la repostería y familias numerosas.</p>
+<p>El <strong>Kenwood Cooking Chef XL</strong> (modelo KCL95.424SI) es más bien una amasadora con calor que un robot de cocina propiamente dicho. Su bol de <strong>6,7 litros</strong> se calienta por <strong>inducción de 20 a 180 °C</strong>, grado a grado, con 1.500 W de potencia. Se maneja con la app Kenwood World, que ofrece recetas paso a paso.</p>
+<p><strong>Puntos fuertes:</strong> capacidad récord, masas y brioches en gran cantidad, calor suficiente para dorar, templar chocolate o hacer cremas.<br><strong>Puntos débiles:</strong> para triturar y cortar hacen falta accesorios, algunos se venden aparte; aparato pesado y voluminoso.<br><strong>Para quién:</strong> aficionados a la repostería y familias numerosas.</p>
 
 <h3>5. Cecotec Mambo Touch: el más asequible</h3>
-<p>El <strong>Cecotec Mambo Touch</strong> es el robot conectado de entrada más extendido en Europa. Ofrece <strong>pantalla táctil de 5 pulgadas</strong>, Wi-Fi con la app Mambo, báscula integrada, vaso de 3,3 litros, 1.600 W de potencia y temperatura de 37 a 120 °C. Anuncia 37 funciones, entre ellas el vapor en dos niveles. La versión «Habana» añade una segunda jarra con revestimiento cerámico.</p>
-<p><strong>Puntos fuertes:</strong> lo esencial de un robot de cocina conectado a un precio de entrada, app gratuita.<br><strong>Límites:</strong> 120 °C como máximo, por lo que dorar es limitado; acabados y app menos pulidos que los líderes, según las opiniones de compradores.<br><strong>Para quién:</strong> un primer robot de cocina o un presupuesto ajustado.</p>
+<p>El <strong>Cecotec Mambo Touch</strong> es el robot de cocina conectado de gama de entrada más extendido en Europa. Ofrece <strong>pantalla táctil de 5 pulgadas</strong>, wifi con la app Mambo, báscula integrada, vaso de 3,3 litros, 1.600 W de potencia y temperatura de 37 a 120 °C. Anuncia 37 funciones, entre ellas el vapor en dos niveles. La versión «Habana» añade una segunda jarra con revestimiento cerámico.</p>
+<p><strong>Puntos fuertes:</strong> lo esencial de un robot de cocina conectado a un precio de entrada, app gratuita.<br><strong>Puntos débiles:</strong> 120 °C como máximo, por lo que dorar es limitado; acabados y app menos pulidos que los de las marcas líderes, según las opiniones de compradores.<br><strong>Para quién:</strong> un primer robot de cocina o un presupuesto ajustado.</p>
 
 <h2>Tabla comparativa</h2>
 <table>
@@ -304,68 +304,68 @@ export const article: BlogArticle = {
 <tr><th>Modelo</th><th>Calentamiento y temperatura</th><th>Vaso</th><th>Conectividad</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td>Thermomix TM7</td><td>Hasta 160 °C</td><td>2,2 L</td><td>Wi-Fi, pantalla 10"</td><td>Cocina guiada diaria</td></tr>
-<tr><td>Moulinex i-Companion Touch XL</td><td>Resistencia</td><td>4,5 L (≈ 3 L útiles)</td><td>Wi-Fi, pantalla táctil</td><td>Familias, alternativa a Thermomix</td></tr>
-<tr><td>Magimix Cook Expert Connect</td><td>Inducción 30–160 °C</td><td>3,5 L acero + bol de corte</td><td>Bluetooth</td><td>Durabilidad, preparar verduras</td></tr>
-<tr><td>Kenwood Cooking Chef XL</td><td>Inducción 20–180 °C</td><td>6,7 L</td><td>Wi-Fi (Kenwood World)</td><td>Repostería, grandes cantidades</td></tr>
-<tr><td>Cecotec Mambo Touch</td><td>37–120 °C</td><td>3,3 L</td><td>Wi-Fi, pantalla 5"</td><td>Presupuestos ajustados</td></tr>
+<tr><td>Thermomix TM7</td><td>Hasta 160 °C</td><td>2,2 L</td><td>Wifi, pantalla de 10"</td><td>Cocina guiada a diario</td></tr>
+<tr><td>Moulinex i-Companion Touch XL</td><td>Resistencia</td><td>4,5 L (≈ 3 L útiles)</td><td>Wifi, pantalla táctil</td><td>Familias, alternativa a Thermomix</td></tr>
+<tr><td>Magimix Cook Expert Connect</td><td>Inducción 30–160 °C</td><td>3,5 L acero + bol de corte</td><td>Bluetooth</td><td>Durabilidad, cortar verduras</td></tr>
+<tr><td>Kenwood Cooking Chef XL</td><td>Inducción 20–180 °C</td><td>6,7 L</td><td>Wifi (Kenwood World)</td><td>Repostería, grandes cantidades</td></tr>
+<tr><td>Cecotec Mambo Touch</td><td>37–120 °C</td><td>3,3 L</td><td>Wifi, pantalla de 5"</td><td>Presupuestos ajustados</td></tr>
 </tbody>
 </table>
 
 <h2>Errores que conviene evitar</h2>
 <ul>
-<li><strong>Elegir por el número de funciones</strong>: «30 o 40 funciones» suelen cubrir los mismos usos (triturar, calentar, amasar). Compara mejor la temperatura máxima, la capacidad útil y la app.</li>
-<li><strong>Olvidar el coste de la app</strong>: una suscripción anual se acumula con los años. Comprueba qué sigue disponible sin ella.</li>
+<li><strong>Elegir por el número de funciones</strong>: «30 o 40 funciones» suelen cubrir los mismos usos (triturar, calentar, amasar). Fíjate más bien en la temperatura máxima, la capacidad útil y la app.</li>
+<li><strong>Olvidar el coste de la app</strong>: con los años, la suscripción anual se suma al precio de compra. Comprueba qué puedes usar sin ella.</li>
 <li><strong>Subestimar el espacio</strong>: estos robots suelen pesar más de 7 kg y cuesta guardarlos. Reserva un sitio fijo en la encimera.</li>
-<li><strong>Confundir robot de cocina y multicocina</strong>: si buscas sobre todo cocinar a presión sin triturar, basta una Cookeo o una multicocina. Nuestro artículo <a href="/es/blog/cookeo-vs-thermomix-vs-airfryer">Cookeo vs Thermomix vs Airfryer</a> explica las diferencias.</li>
+<li><strong>Confundir robot de cocina y olla programable</strong>: si lo que quieres es sobre todo cocinar a presión sin triturar, te basta una Cookeo u otra olla programable. Nuestro artículo <a href="/es/blog/cookeo-vs-thermomix-vs-airfryer">Cookeo vs Thermomix vs Airfryer</a> explica las diferencias.</li>
 </ul>
 
 <h2>Uso y seguridad</h2>
 <p>No superes nunca la marca de llenado máximo, sobre todo con líquidos calientes: a alta velocidad pueden salpicar. Para triturar una sopa caliente, sube la velocidad poco a poco. Las cuchillas están muy afiladas: cógelas por su soporte y límpialas con un cepillo. Coloca el aparato sobre una superficie estable, lejos del borde de la encimera, y mantén la tapa bloqueada mientras giran las cuchillas. Consulta el manual para saber qué piezas van al lavavajillas.</p>
 
 <h2>Nuestro veredicto</h2>
-<p>Si el presupuesto lo permite y cocinas a diario, el <strong>Thermomix TM7</strong> sigue siendo el más pulido gracias a Cookidoo. Como robot de cocina conectado disponible en tiendas habituales, el <strong>Moulinex i-Companion Touch XL</strong> es el mejor equilibrio: vaso grande, Wi-Fi, pantalla y app gratuita. El <strong>Magimix Cook Expert Connect</strong> conviene a quien busca un aparato duradero y muy versátil para cortar y rallar, el <strong>Kenwood Cooking Chef XL</strong> a los reposteros y el <strong>Cecotec Mambo Touch</strong> a los presupuestos ajustados. Para ver cómo encajan en una cocina conectada, lee nuestra <a href="/es/blog/guide-cuisine-connectee-2026">guía de la cocina conectada 2026</a>.</p>`,
+<p>Si el presupuesto lo permite y cocinas a diario, el <strong>Thermomix TM7</strong> sigue siendo el más pulido gracias a Cookidoo. Si buscas un robot de cocina conectado que se venda en las tiendas de siempre, el <strong>Moulinex i-Companion Touch XL</strong> es el mejor equilibrio: vaso grande, wifi, pantalla y app gratuita. El <strong>Magimix Cook Expert Connect</strong> conviene a quien busca un aparato duradero y muy versátil para cortar y rallar, el <strong>Kenwood Cooking Chef XL</strong> a los reposteros y el <strong>Cecotec Mambo Touch</strong> a los presupuestos ajustados. Para ver cómo encajan en una cocina conectada, lee nuestra <a href="/es/blog/guide-cuisine-connectee-2026">guía de la cocina conectada 2026</a>.</p>`,
 
-    it: `<p><strong>Il Thermomix TM7 resta il riferimento dei robot da cucina connessi nel 2026, ma la migliore alternativa disponibile nei negozi tradizionali è il Moulinex i-Companion Touch XL</strong>, che unisce schermo touch, Wi-Fi, bilancia integrata e un grande boccale da 4,5 litri. Con un budget limitato, il Cecotec Mambo Touch offre l’essenziale (Wi-Fi, schermo, ricette guidate), mentre il Kenwood Cooking Chef XL è pensato per pasticceria e grandi quantità.</p>
-<p>Questo confronto si basa sulle schede tecniche dei produttori, su recensioni indipendenti e sulle opinioni di acquirenti verificati, e considera solo modelli in vendita in Europa nel 2026. Per le pentole multifunzione tipo Cookeo, consulta il nostro <a href="/it/blog/comparatif-multicuiseur-connecte">confronto dei multicooker connessi</a> e la pagina <a href="/it/cuisine-connectee/multicuiseurs">multicooker</a>.</p>
+    it: `<p><strong>Nel 2026 il Bimby (Thermomix) TM7 resta il punto di riferimento tra i robot da cucina smart, ma la migliore alternativa in vendita nei normali negozi è il Moulinex i-Companion Touch XL</strong>, che unisce schermo touch, Wi-Fi, bilancia integrata e un grande boccale da 4,5 litri. Con un budget limitato, il Cecotec Mambo Touch offre l’essenziale (Wi-Fi, schermo, ricette guidate), mentre il Kenwood Cooking Chef XL è pensato per chi fa dolci e prepara grandi quantità.</p>
+<p>Questo confronto si basa sulle schede tecniche dei produttori, su recensioni indipendenti e sulle opinioni di acquirenti verificati, e considera solo modelli in vendita in Europa nel 2026. Per le pentole multifunzione tipo Cookeo, consulta piuttosto il nostro <a href="/it/blog/comparatif-multicuiseur-connecte">confronto dei multicooker smart</a> e la pagina dedicata ai <a href="/it/cuisine-connectee/multicuiseurs">multicooker</a>.</p>
 
-<h2>Che cos’è un robot da cucina connesso?</h2>
-<p>Un robot da cucina con cottura <strong>frulla, trita, impasta e riscalda nello stesso boccale</strong>. Si distingue dal multicooker (che cuoce ma non frulla) e dalla classica planetaria (che impasta ma non riscalda). La versione «connessa» aggiunge un collegamento Wi-Fi o Bluetooth a un’app: ricette guidate passo passo, impostazioni inviate automaticamente all’apparecchio, lista della spesa e aggiornamenti software.</p>
-<p>In pratica, la connettività vale quanto il ricettario. Un robot ben costruito con un’app povera è meno piacevole ogni giorno di un apparecchio nella media sostenuto da ricette chiare e numerose.</p>
+<h2>Che cos’è un robot da cucina smart?</h2>
+<p>Un robot da cucina con cottura <strong>frulla, trita, impasta e scalda nello stesso boccale</strong>. È diverso dal multicooker (che cuoce ma non frulla) e dalla classica planetaria (che impasta ma non scalda). La versione «smart» si collega via Wi-Fi o Bluetooth a un’app: ricette guidate passo passo, impostazioni inviate in automatico all’apparecchio, lista della spesa e aggiornamenti software.</p>
+<p>In pratica, la connettività vale quanto il ricettario. Un robot ben costruito ma con un’app povera è meno piacevole da usare tutti i giorni di un robot nella media con tante ricette chiare.</p>
 
 <h2>Criteri di scelta</h2>
 <ul>
-<li><strong>Sistema di riscaldamento</strong>: l’induzione (Magimix, Kenwood) scalda in fretta e regola con precisione; una resistenza classica basta per zuppe, salse e cotture lente.</li>
-<li><strong>Temperatura massima</strong>: sopra i 120 °C si possono rosolare cipolle e carne. Al di sotto, il robot resta orientato a zuppe, purè e vapore.</li>
+<li><strong>Sistema di riscaldamento</strong>: l’induzione (Magimix, Kenwood) scalda in fretta e regola la temperatura con precisione; una resistenza classica basta per zuppe, salse e cotture lente.</li>
+<li><strong>Temperatura massima</strong>: sopra i 120 °C si possono rosolare cipolle e carne. Sotto questa soglia il robot è adatto soprattutto a zuppe, purè e cotture a vapore.</li>
 <li><strong>Capacità utile del boccale</strong>: guarda il volume <em>utile</em>, non solo quello totale. Da 2 a 3 litri utili bastano per 4-6 persone.</li>
-<li><strong>Tipo di connessione</strong>: con il Wi-Fi le ricette arrivano direttamente sullo schermo del robot; con il Bluetooth serve tenere lo smartphone vicino.</li>
-<li><strong>L’app e il suo modello economico</strong>: alcune piattaforme richiedono un abbonamento per il catalogo completo, altre sono gratuite.</li>
-<li><strong>Bilancia integrata</strong>: evita di tirare fuori la bilancia a ogni passaggio, un vero vantaggio con le ricette guidate.</li>
-<li><strong>Assistenza e ricambi</strong>: su un apparecchio di fascia alta, durata della garanzia e disponibilità dei ricambi contano quanto le funzioni.</li>
+<li><strong>Tipo di connessione</strong>: con il Wi-Fi le ricette arrivano direttamente sullo schermo del robot; con il Bluetooth devi tenere lo smartphone vicino.</li>
+<li><strong>L’app e i suoi costi</strong>: alcune piattaforme chiedono un abbonamento per accedere a tutto il ricettario, altre sono gratuite.</li>
+<li><strong>Bilancia integrata</strong>: non devi tirare fuori la bilancia a ogni passaggio, un vero vantaggio con le ricette guidate.</li>
+<li><strong>Assistenza e ricambi</strong>: su un apparecchio di fascia alta, la durata della garanzia e la disponibilità dei ricambi contano quanto le funzioni.</li>
 </ul>
 
-<h2>I 5 robot da cucina connessi da conoscere nel 2026</h2>
+<h2>I 5 robot da cucina smart da conoscere nel 2026</h2>
 
-<h3>1. Thermomix TM7: il riferimento</h3>
-<p>Lanciato nel 2025, il <strong>Thermomix TM7</strong> di Vorwerk succede al TM6. Ha uno <strong>schermo touch da 10 pollici</strong>, mantiene il boccale da 2,2 litri e il Varoma per la cottura a vapore e raggiunge <strong>160 °C</strong> in modalità rosolatura. Una modalità di cottura senza coperchio permette di far restringere le salse, e il Wi-Fi lo collega a <strong>Cookidoo</strong>, il catalogo di ricette guidate più ampio del mercato. Il TM7 resta compatibile con accessori e ricette delle generazioni precedenti.</p>
-<p><strong>Punti di forza:</strong> ecosistema di ricette ineguagliato, interfaccia molto curata, buon valore di rivendita.<br><strong>Limiti:</strong> serve l’abbonamento Cookidoo per l’intero catalogo, il boccale da 2,2 litri è stretto per le tavolate, posizionamento molto alto.<br><strong>Per chi:</strong> le famiglie che cucinano ogni giorno e vogliono l’esperienza guidata più completa.</p>
-<p>Nota: il Thermomix (in Italia noto come Bimby) è venduto da Vorwerk tramite i suoi consulenti e il negozio online, non nella grande distribuzione. Per questo la nostra selezione d’acquisto mette in evidenza le alternative.</p>
+<h3>1. Bimby TM7: il punto di riferimento</h3>
+<p>Uscito nel 2025, il <strong>Bimby TM7</strong> di Vorwerk sostituisce il TM6. Ha uno <strong>schermo touch da 10 pollici</strong>, mantiene il boccale da 2,2 litri e il Varoma per la cottura a vapore e arriva a <strong>160 °C</strong> in modalità rosolatura. Una modalità di cottura senza coperchio permette di far restringere le salse, e il Wi-Fi lo collega a <strong>Cookidoo</strong>, il ricettario guidato più ampio sul mercato. Il TM7 resta compatibile con accessori e ricette delle generazioni precedenti.</p>
+<p><strong>Punti di forza:</strong> ecosistema di ricette senza rivali, interfaccia molto curata, si rivende bene.<br><strong>Limiti:</strong> per l’intero ricettario serve l’abbonamento Cookidoo, il boccale da 2,2 litri è un po’ piccolo per le tavolate numerose, si colloca nella fascia più alta del mercato.<br><strong>Per chi:</strong> le famiglie che cucinano ogni giorno e vogliono l’esperienza guidata più completa.</p>
+<p>Da sapere: il Bimby è venduto da Vorwerk tramite i suoi consulenti e il negozio online, non nelle grandi catene di elettrodomestici. Per questo la nostra selezione d’acquisto dà più spazio alle alternative.</p>
 
 <h3>2. Moulinex i-Companion Touch XL: la migliore alternativa</h3>
-<p>Il <strong>Moulinex i-Companion Touch XL</strong> è il robot da cucina più vicino al Thermomix come concetto, con schermo touch integrato e Wi-Fi. Il suo boccale in acciaio inox da <strong>4,5 litri</strong> (circa 3 litri utili) è più grande di quello del TM7, e la <strong>bilancia integrata</strong> pesa direttamente nel boccale. L’app Moulinex offre oltre 3.000 ricette guidate senza abbonamento obbligatorio secondo il produttore, oltre a una funzione che suggerisce ricette in base agli ingredienti disponibili.</p>
-<p><strong>Punti di forza:</strong> grande capacità, molti accessori (lama tritatutto, impastatore, frusta, cestello vapore), app gratuita.<br><strong>Limiti:</strong> ingombrante sul piano di lavoro; catalogo meno ricco di Cookidoo.<br><strong>Per chi:</strong> le famiglie che vogliono un’esperienza guidata completa senza passare dalla vendita diretta.</p>
+<p>Il <strong>Moulinex i-Companion Touch XL</strong> è il robot da cucina più vicino al Bimby come concezione, con schermo touch integrato e Wi-Fi. Il boccale in acciaio inox da <strong>4,5 litri</strong> (circa 3 litri utili) è più grande di quello del TM7, e con la <strong>bilancia integrata</strong> pesi gli ingredienti direttamente nel boccale. Secondo il produttore, l’app Moulinex dà accesso a oltre 3.000 ricette guidate senza abbonamento obbligatorio, e una funzione suggerisce ricette in base agli ingredienti che hai a disposizione.</p>
+<p><strong>Punti di forza:</strong> grande capacità, molti accessori (lama tritatutto, impastatore, frusta, cestello per il vapore), app gratuita.<br><strong>Limiti:</strong> ingombrante sul piano di lavoro; ricettario meno ricco di Cookidoo.<br><strong>Per chi:</strong> le famiglie che vogliono un’esperienza guidata completa senza passare dalla vendita diretta.</p>
 
 <h3>3. Magimix Cook Expert Connect: fatto per durare</h3>
-<p>Il <strong>Magimix Cook Expert Connect</strong> riprende la base del Cook Expert, assemblato in Francia, con <strong>riscaldamento a induzione da 30 a 160 °C</strong> regolabile al grado. Il suo punto di forza è la doppia natura: un boccale in acciaio da 3,5 litri che riscalda per cucinare e una vasca trasparente con dischi per grattugiare e affettare come un classico robot multifunzione. La versione Connect si collega via <strong>Bluetooth</strong> all’app Magimix (oltre 2.000 ricette guidate) e a una bilancia connessa.</p>
-<p><strong>Punti di forza:</strong> motore garantito 30 anni secondo Magimix, grande versatilità nel taglio, cottura a induzione precisa.<br><strong>Limiti:</strong> niente schermo touch né Wi-Fi, lo smartphone resta necessario per le ricette guidate; molti accessori da riporre.<br><strong>Per chi:</strong> chi privilegia robustezza e versatilità di taglio rispetto all’interfaccia.</p>
+<p>Il <strong>Magimix Cook Expert Connect</strong> riprende la base del Cook Expert, assemblato in Francia, con <strong>riscaldamento a induzione da 30 a 160 °C</strong> regolabile grado per grado. La sua particolarità è la doppia anima: un boccale riscaldante in acciaio da 3,5 litri per cuocere e una vasca trasparente con dischi per grattugiare e affettare, come un classico robot multifunzione. La versione Connect si collega via <strong>Bluetooth</strong> all’app Magimix (oltre 2.000 ricette guidate) e a una bilancia smart.</p>
+<p><strong>Punti di forza:</strong> motore garantito 30 anni secondo Magimix, taglio delle verdure molto versatile, cottura a induzione precisa.<br><strong>Limiti:</strong> niente schermo touch né Wi-Fi, quindi per le ricette guidate serve sempre lo smartphone; molti accessori da riporre.<br><strong>Per chi:</strong> chi preferisce robustezza e versatilità nel taglio a un’interfaccia evoluta.</p>
 
 <h3>4. Kenwood Cooking Chef XL: pasticceria e grandi quantità</h3>
-<p>Il <strong>Kenwood Cooking Chef XL</strong> (modello KCL95.424SI) è più una planetaria riscaldante che un robot da cucina in senso stretto. La sua ciotola da <strong>6,7 litri</strong> è riscaldata a <strong>induzione da 20 a 180 °C</strong>, grado per grado, con 1.500 W di potenza. Si gestisce con l’app Kenwood World, che propone ricette passo passo.</p>
-<p><strong>Punti di forza:</strong> capacità record, impasti e brioche in grande quantità, calore sufficiente per rosolare, temperare il cioccolato o preparare creme.<br><strong>Limiti:</strong> frullare e affettare dipendono da accessori, alcuni venduti a parte; pesante e ingombrante.<br><strong>Per chi:</strong> appassionati di pasticceria e famiglie numerose.</p>
+<p>Il <strong>Kenwood Cooking Chef XL</strong> (modello KCL95.424SI) è più una planetaria con cottura che un robot da cucina in senso stretto. La ciotola da <strong>6,7 litri</strong> è riscaldata a <strong>induzione da 20 a 180 °C</strong>, regolabile grado per grado, con 1.500 W di potenza. Si comanda con l’app Kenwood World, che propone ricette passo passo.</p>
+<p><strong>Punti di forza:</strong> capacità record, impasti e brioche in grandi quantità, temperatura abbastanza alta per rosolare, temperare il cioccolato o preparare creme.<br><strong>Limiti:</strong> per frullare e tagliare servono accessori, alcuni venduti a parte; pesante e ingombrante.<br><strong>Per chi:</strong> gli appassionati di pasticceria e le famiglie numerose.</p>
 
 <h3>5. Cecotec Mambo Touch: il più accessibile</h3>
-<p>Il <strong>Cecotec Mambo Touch</strong> è il robot connesso entry-level più diffuso in Europa. Offre uno <strong>schermo touch da 5 pollici</strong>, Wi-Fi con l’app Mambo, bilancia integrata, boccale da 3,3 litri, 1.600 W di potenza e temperatura da 37 a 120 °C. Dichiara 37 funzioni, tra cui la cottura a vapore su due livelli. La versione «Habana» aggiunge una seconda caraffa con rivestimento ceramico.</p>
-<p><strong>Punti di forza:</strong> l’essenziale di un robot da cucina connesso a un prezzo d’ingresso, app gratuita.<br><strong>Limiti:</strong> massimo 120 °C, quindi rosolatura limitata; finiture e app meno curate dei leader, secondo le opinioni degli acquirenti.<br><strong>Per chi:</strong> un primo robot da cucina o un budget limitato.</p>
+<p>Il <strong>Cecotec Mambo Touch</strong> è il robot da cucina smart di fascia d’ingresso più diffuso in Europa. Offre uno <strong>schermo touch da 5 pollici</strong>, Wi-Fi con l’app Mambo, bilancia integrata, boccale da 3,3 litri, 1.600 W di potenza e temperatura da 37 a 120 °C. Il produttore dichiara 37 funzioni, tra cui la cottura a vapore su due livelli. La versione «Habana» aggiunge un secondo boccale con rivestimento ceramico.</p>
+<p><strong>Punti di forza:</strong> tutto l’essenziale di un robot da cucina smart a un prezzo da fascia d’ingresso, app gratuita.<br><strong>Limiti:</strong> massimo 120 °C, quindi rosolatura limitata; secondo le opinioni degli acquirenti, finiture e app sono meno curate rispetto ai marchi di punta.<br><strong>Per chi:</strong> chi si avvicina per la prima volta al robot da cucina o ha un budget limitato.</p>
 
 <h2>Tabella comparativa</h2>
 <table>
@@ -373,68 +373,68 @@ export const article: BlogArticle = {
 <tr><th>Modello</th><th>Riscaldamento e temperatura</th><th>Boccale</th><th>Connettività</th><th>Ideale per</th></tr>
 </thead>
 <tbody>
-<tr><td>Thermomix TM7</td><td>Fino a 160 °C</td><td>2,2 L</td><td>Wi-Fi, schermo 10"</td><td>Cucina guidata quotidiana</td></tr>
-<tr><td>Moulinex i-Companion Touch XL</td><td>Resistenza</td><td>4,5 L (≈ 3 L utili)</td><td>Wi-Fi, schermo touch</td><td>Famiglie, alternativa al Thermomix</td></tr>
-<tr><td>Magimix Cook Expert Connect</td><td>Induzione 30–160 °C</td><td>3,5 L acciaio + vasca da taglio</td><td>Bluetooth</td><td>Durata, preparazione verdure</td></tr>
-<tr><td>Kenwood Cooking Chef XL</td><td>Induzione 20–180 °C</td><td>6,7 L</td><td>Wi-Fi (Kenwood World)</td><td>Pasticceria, grandi quantità</td></tr>
-<tr><td>Cecotec Mambo Touch</td><td>37–120 °C</td><td>3,3 L</td><td>Wi-Fi, schermo 5"</td><td>Budget ridotti</td></tr>
+<tr><td>Bimby TM7</td><td>Fino a 160 °C</td><td>2,2 L</td><td>Wi-Fi, schermo 10"</td><td>Cucina guidata tutti i giorni</td></tr>
+<tr><td>Moulinex i-Companion Touch XL</td><td>Resistenza</td><td>4,5 L (≈ 3 L utili)</td><td>Wi-Fi, schermo touch</td><td>Famiglie, alternativa al Bimby</td></tr>
+<tr><td>Magimix Cook Expert Connect</td><td>Induzione 30-160 °C</td><td>3,5 L in acciaio + vasca per il taglio</td><td>Bluetooth</td><td>Durata nel tempo, taglio delle verdure</td></tr>
+<tr><td>Kenwood Cooking Chef XL</td><td>Induzione 20-180 °C</td><td>6,7 L</td><td>Wi-Fi (Kenwood World)</td><td>Pasticceria, grandi quantità</td></tr>
+<tr><td>Cecotec Mambo Touch</td><td>37-120 °C</td><td>3,3 L</td><td>Wi-Fi, schermo 5"</td><td>Budget ridotto</td></tr>
 </tbody>
 </table>
 
 <h2>Errori da evitare</h2>
 <ul>
 <li><strong>Scegliere in base al numero di funzioni</strong>: «30 o 40 funzioni» coprono spesso gli stessi usi (frullare, scaldare, impastare). Confronta piuttosto temperatura massima, capacità utile e app.</li>
-<li><strong>Dimenticare il costo dell’app</strong>: un abbonamento annuale si somma negli anni. Verifica cosa resta disponibile senza.</li>
-<li><strong>Sottovalutare l’ingombro</strong>: questi robot pesano spesso più di 7 kg e sono scomodi da riporre. Prevedi un posto fisso sul piano di lavoro.</li>
-<li><strong>Confondere robot da cucina e multicooker</strong>: se vuoi soprattutto cuocere a pressione senza frullare, basta un Cookeo o un multicooker. Il nostro articolo <a href="/it/blog/cookeo-vs-thermomix-vs-airfryer">Cookeo vs Thermomix vs Airfryer</a> spiega le differenze.</li>
+<li><strong>Dimenticare il costo dell’app</strong>: anno dopo anno, l’abbonamento si aggiunge al prezzo d’acquisto. Controlla cosa resta accessibile senza abbonamento.</li>
+<li><strong>Sottovalutare l’ingombro</strong>: questi robot pesano spesso più di 7 kg e non sono facili da riporre. Prevedi un posto fisso sul piano di lavoro.</li>
+<li><strong>Confondere robot da cucina e multicooker</strong>: se vuoi soprattutto cuocere a pressione senza frullare, basta un Cookeo o un altro multicooker. Le differenze sono spiegate nel nostro <a href="/it/blog/cookeo-vs-thermomix-vs-airfryer">confronto tra Cookeo, Bimby (Thermomix) e friggitrice ad aria</a>.</li>
 </ul>
 
 <h2>Uso e sicurezza</h2>
-<p>Non superare mai il livello massimo di riempimento, soprattutto con liquidi caldi: ad alta velocità possono schizzare fuori. Per frullare una zuppa bollente, aumenta la velocità gradualmente. Le lame sono molto affilate: prendile dal supporto e puliscile con uno spazzolino. Posiziona l’apparecchio su una superficie stabile, lontano dal bordo del piano, e tieni il coperchio bloccato finché le lame girano. Consulta il manuale per sapere quali parti vanno in lavastoviglie.</p>
+<p>Non superare mai il livello massimo di riempimento, soprattutto con liquidi caldi: ad alta velocità possono schizzare fuori. Per frullare una zuppa bollente, aumenta la velocità poco per volta. Le lame sono molto affilate: prendile dal supporto e puliscile con uno spazzolino. Appoggia l’apparecchio su una superficie stabile, lontano dal bordo del piano di lavoro, e tieni il coperchio bloccato finché le lame girano. Controlla nel manuale quali parti si possono lavare in lavastoviglie.</p>
 
 <h2>Il nostro verdetto</h2>
-<p>Se il budget lo consente e cucini ogni giorno, il <strong>Thermomix TM7</strong> resta il più completo grazie a Cookidoo. Come robot da cucina connesso disponibile presso i rivenditori abituali, il <strong>Moulinex i-Companion Touch XL</strong> è il miglior compromesso: boccale grande, Wi-Fi, schermo e app gratuita. Il <strong>Magimix Cook Expert Connect</strong> è per chi vuole un apparecchio duraturo e molto versatile nel taglio, il <strong>Kenwood Cooking Chef XL</strong> per chi ama la pasticceria e il <strong>Cecotec Mambo Touch</strong> per i budget ridotti. Per inserire questi robot in una cucina smart, leggi la nostra <a href="/it/blog/guide-cuisine-connectee-2026">guida alla cucina connessa 2026</a>.</p>`,
+<p>Se il budget lo consente e cucini ogni giorno, il <strong>Bimby TM7</strong> resta il più completo grazie a Cookidoo. Tra i robot da cucina smart che trovi dai rivenditori abituali, il <strong>Moulinex i-Companion Touch XL</strong> è il miglior compromesso: boccale grande, Wi-Fi, schermo e app gratuita. Il <strong>Magimix Cook Expert Connect</strong> è per chi vuole un apparecchio che duri nel tempo e molto versatile nel taglio, il <strong>Kenwood Cooking Chef XL</strong> per chi ama la pasticceria e il <strong>Cecotec Mambo Touch</strong> per chi ha un budget ridotto. Per capire come si inseriscono questi robot in una cucina smart, leggi anche la nostra <a href="/it/blog/guide-cuisine-connectee-2026">guida alla cucina smart 2026</a>.</p>`,
 
-    nl: `<p><strong>De Thermomix TM7 blijft in 2026 de maatstaf voor verbonden keukenrobots, maar het beste alternatief in de gewone winkels is de Moulinex i-Companion Touch XL</strong>, met touchscreen, wifi, ingebouwde weegschaal en een grote kom van 4,5 liter. Bij een krap budget biedt de Cecotec Mambo Touch het belangrijkste (wifi, scherm, begeleide recepten), terwijl de Kenwood Cooking Chef XL zich richt op bakliefhebbers en grote hoeveelheden.</p>
-<p>Deze vergelijking is gebaseerd op fabrieksspecificaties, onafhankelijke reviews en ervaringen van geverifieerde kopers, en bevat alleen modellen die in 2026 in Europa te koop zijn. Voor snelkookpannen zoals de Cookeo kunt u beter onze <a href="/nl/blog/comparatif-multicuiseur-connecte">vergelijking van slimme multicookers</a> en onze pagina <a href="/nl/cuisine-connectee/multicuiseurs">multicookers</a> lezen.</p>
+    nl: `<p><strong>De Thermomix TM7 blijft in 2026 de maatstaf onder de slimme keukenmachines met kookfunctie, maar het beste alternatief in de gewone winkels is de Moulinex i-Companion Touch XL</strong>, met touchscreen, wifi, ingebouwde weegschaal en een grote kom van 4,5 liter. Bij een krap budget biedt de Cecotec Mambo Touch het belangrijkste (wifi, scherm, begeleide recepten), terwijl de Kenwood Cooking Chef XL zich richt op bakliefhebbers en wie in grote hoeveelheden kookt.</p>
+<p>Deze vergelijking is gebaseerd op specificaties van fabrikanten, onafhankelijke reviews en ervaringen van geverifieerde kopers, en bevat alleen modellen die in 2026 in Europa te koop zijn. Zoek je een multicooker met snelkookfunctie zoals de Cookeo, lees dan liever onze <a href="/nl/blog/comparatif-multicuiseur-connecte">vergelijking van slimme multicookers</a> en onze pagina <a href="/nl/cuisine-connectee/multicuiseurs">multicookers</a>.</p>
 
-<h2>Wat is een verbonden keukenrobot?</h2>
-<p>Een kookrobot is een apparaat dat <strong>mixt, hakt, kneedt en verwarmt in dezelfde kom</strong>. Hij verschilt van een multicooker (die kookt maar niet mixt) en van een klassieke keukenmachine (die kneedt maar niet verwarmt). De verbonden versie heeft een wifi- of bluetoothverbinding met een app: stap-voor-stap begeleide recepten, instellingen die automatisch naar het apparaat gaan, boodschappenlijstjes en software-updates.</p>
-<p>In de praktijk is de verbinding maar zo goed als de receptenbibliotheek. Een goed gebouwde robot met een zwakke app is in het dagelijks gebruik minder prettig dan een gemiddeld apparaat met duidelijke en talrijke recepten.</p>
+<h2>Wat is een slimme keukenmachine met kookfunctie?</h2>
+<p>Een keukenmachine met kookfunctie is een apparaat dat <strong>mixt, hakt, kneedt en verwarmt in dezelfde kom</strong>. Hij verschilt van een multicooker (die kookt maar niet mixt) en van een gewone keukenmachine (die kneedt maar niet verwarmt). De slimme versie maakt via wifi of Bluetooth verbinding met een app: stap-voor-stap begeleide recepten, instellingen die automatisch naar het apparaat gaan, boodschappenlijstjes en software-updates.</p>
+<p>In de praktijk is een app maar zo goed als de receptenbibliotheek erachter. Een goed gebouwde machine met een karige app is in het dagelijks gebruik minder prettig dan een gemiddeld apparaat met veel duidelijke recepten.</p>
 
-<h2>Waar let u op bij de aankoop?</h2>
+<h2>Waar let je op bij het kiezen?</h2>
 <ul>
-<li><strong>Verwarmingswijze</strong>: inductie (Magimix, Kenwood) warmt snel op en regelt nauwkeurig; een klassiek verwarmingselement volstaat voor soepen, sauzen en stoofgerechten.</li>
-<li><strong>Maximale temperatuur</strong>: boven 120 °C kunt u uien en vlees aanbraden. Daaronder blijft de robot gericht op soepen, puree en stomen.</li>
-<li><strong>Bruikbare inhoud</strong>: kijk naar het <em>bruikbare</em> volume, niet alleen naar het totale. Twee tot drie bruikbare liters volstaan voor 4 tot 6 personen.</li>
-<li><strong>Type verbinding</strong>: met wifi komen recepten direct op het scherm van de robot; bij bluetooth moet de smartphone in de buurt blijven.</li>
+<li><strong>Verwarming</strong>: inductie (Magimix, Kenwood) warmt snel op en regelt de temperatuur nauwkeurig; een gewoon verwarmingselement volstaat voor soepen, sauzen en stoofgerechten.</li>
+<li><strong>Maximale temperatuur</strong>: boven 120 °C kun je uien en vlees aanbraden. Daaronder is de machine vooral geschikt voor soep, puree en stomen.</li>
+<li><strong>Bruikbare inhoud</strong>: kijk naar het <em>bruikbare</em> volume, niet alleen naar het totale. Een kom met 2 tot 3 liter bruikbare inhoud is genoeg voor 4 tot 6 personen.</li>
+<li><strong>Soort verbinding</strong>: met wifi komen recepten rechtstreeks op het scherm van de machine; bij Bluetooth moet je smartphone in de buurt blijven.</li>
 <li><strong>De app en het verdienmodel</strong>: sommige platforms vragen een abonnement voor de volledige catalogus, andere zijn gratis.</li>
-<li><strong>Ingebouwde weegschaal</strong>: u hoeft niet bij elke stap een keukenweegschaal te pakken, een echt voordeel bij begeleide recepten.</li>
+<li><strong>Ingebouwde weegschaal</strong>: je hoeft niet bij elke stap een keukenweegschaal te pakken, een echt voordeel bij begeleide recepten.</li>
 <li><strong>Service en onderdelen</strong>: bij een duur apparaat tellen de garantieduur en de beschikbaarheid van onderdelen net zo zwaar als de functies.</li>
 </ul>
 
-<h2>De 5 verbonden keukenrobots om te kennen in 2026</h2>
+<h2>De 5 interessantste keukenmachines met kookfunctie van 2026</h2>
 
 <h3>1. Thermomix TM7: de maatstaf</h3>
-<p>De in 2025 gelanceerde <strong>Thermomix TM7</strong> van Vorwerk volgt de TM6 op. Hij heeft een <strong>touchscreen van 10 inch</strong>, behoudt de mengkom van 2,2 liter en de Varoma om te stomen, en haalt <strong>160 °C</strong> in de aanbraadmodus. Een kookmodus zonder deksel laat sauzen inkoken, en via wifi is hij verbonden met <strong>Cookidoo</strong>, de grootste catalogus met begeleide recepten op de markt. De TM7 blijft compatibel met accessoires en recepten van eerdere generaties.</p>
-<p><strong>Sterke punten:</strong> ongeëvenaard receptenecosysteem, zeer verfijnde bediening, hoge restwaarde.<br><strong>Beperkingen:</strong> voor de volledige catalogus is een Cookidoo-abonnement nodig, de kom van 2,2 liter is krap voor grote gezelschappen, zeer hoog prijssegment.<br><strong>Voor wie:</strong> huishoudens die elke dag koken en de meest complete begeleide ervaring willen.</p>
-<p>Let op: de Thermomix wordt door Vorwerk verkocht via adviseurs en de eigen webshop, niet in de gewone winkels. Daarom zet onze koopselectie de alternatieven in de verf.</p>
+<p>De <strong>Thermomix TM7</strong> van Vorwerk kwam in 2025 op de markt als opvolger van de TM6. Hij heeft een <strong>touchscreen van 10 inch</strong>, heeft nog altijd de mengkom van 2,2 liter en de Varoma om te stomen, en haalt <strong>160 °C</strong> in de aanbraadstand. Met een kookstand zonder deksel laat je sauzen inkoken, en via wifi krijg je toegang tot <strong>Cookidoo</strong>, het grootste aanbod begeleide recepten op de markt. De TM7 werkt nog steeds met de accessoires en recepten van eerdere generaties.</p>
+<p><strong>Sterke punten:</strong> ongeëvenaard receptenaanbod, zeer doordachte bediening, hoge restwaarde.<br><strong>Minpunten:</strong> voor de volledige catalogus heb je een Cookidoo-abonnement nodig, de kom van 2,2 liter is wat krap voor grote gezelschappen, absoluut topsegment.<br><strong>Voor wie:</strong> huishoudens die elke dag koken en de meest complete begeleide kookervaring willen.</p>
+<p>Goed om te weten: Vorwerk verkoopt de Thermomix via eigen adviseurs en de eigen webshop, niet via de grote winkelketens. Daarom staan in onze koopselectie vooral de alternatieven centraal.</p>
 
 <h3>2. Moulinex i-Companion Touch XL: het beste alternatief</h3>
-<p>De <strong>Moulinex i-Companion Touch XL</strong> lijkt qua concept het meest op de Thermomix, met ingebouwd touchscreen en wifi. De rvs-kom van <strong>4,5 liter</strong> (ongeveer 3 liter bruikbaar) is groter dan die van de TM7, en de <strong>ingebouwde weegschaal</strong> weegt direct in de kom. De Moulinex-app biedt volgens de fabrikant meer dan 3.000 begeleide recepten zonder verplicht abonnement, plus een functie die recepten voorstelt op basis van wat u in huis hebt.</p>
-<p><strong>Sterke punten:</strong> grote inhoud, veel accessoires (hakmes, kneedhaak, garde, stoommandje), gratis app.<br><strong>Beperkingen:</strong> neemt veel ruimte in op het aanrecht; kleinere catalogus dan Cookidoo.<br><strong>Voor wie:</strong> gezinnen die een volledige begeleide ervaring willen zonder via directe verkoop te gaan.</p>
+<p>De <strong>Moulinex i-Companion Touch XL</strong> lijkt qua opzet het meest op de Thermomix, met een ingebouwd touchscreen en wifi. De rvs-kom van <strong>4,5 liter</strong> (ongeveer 3 liter bruikbaar) is groter dan die van de TM7, en met de <strong>ingebouwde weegschaal</strong> weeg je direct in de kom. De Moulinex-app biedt volgens de fabrikant meer dan 3.000 begeleide recepten zonder verplicht abonnement, plus een functie die recepten voorstelt op basis van wat je in huis hebt.</p>
+<p><strong>Sterke punten:</strong> grote inhoud, veel accessoires (hakmes, kneedhaak, garde, stoommandje), gratis app.<br><strong>Minpunten:</strong> neemt veel ruimte in op het aanrecht; kleinere catalogus dan Cookidoo.<br><strong>Voor wie:</strong> gezinnen die volledig begeleid willen koken zonder via directe verkoop te kopen.</p>
 
 <h3>3. Magimix Cook Expert Connect: gebouwd om lang mee te gaan</h3>
-<p>De <strong>Magimix Cook Expert Connect</strong> bouwt voort op de in Frankrijk geassembleerde Cook Expert, met <strong>inductieverwarming van 30 tot 160 °C</strong>, per graad instelbaar. Zijn kracht is de dubbele functie: een verwarmde rvs-kom van 3,5 liter om te koken en een transparante kom met schijven om te raspen en te snijden zoals een klassieke foodprocessor. De Connect-versie koppelt via <strong>bluetooth</strong> met de Magimix-app (meer dan 2.000 begeleide recepten) en een verbonden weegschaal.</p>
-<p><strong>Sterke punten:</strong> volgens Magimix 30 jaar garantie op de motor, zeer veelzijdig snijden en raspen, nauwkeurig koken op inductie.<br><strong>Beperkingen:</strong> geen touchscreen en geen wifi, dus de smartphone blijft nodig voor begeleide recepten; veel accessoires om op te bergen.<br><strong>Voor wie:</strong> wie duurzaamheid en veelzijdig snijden belangrijker vindt dan de interface.</p>
+<p>De <strong>Magimix Cook Expert Connect</strong> is gebaseerd op de Cook Expert, die in Frankrijk wordt geassembleerd, en verwarmt met <strong>inductie van 30 tot 160 °C</strong>, per graad instelbaar. Hij is twee apparaten in één: een verwarmde rvs-kom van 3,5 liter om te koken en een doorzichtige kom met schijven om te raspen en te snijden, zoals een gewone foodprocessor. De Connect-versie maakt via <strong>Bluetooth</strong> verbinding met de Magimix-app (meer dan 2.000 begeleide recepten) en een slimme weegschaal.</p>
+<p><strong>Sterke punten:</strong> volgens Magimix 30 jaar garantie op de motor, zeer veelzijdig snijden en raspen, nauwkeurig koken op inductie.<br><strong>Minpunten:</strong> geen touchscreen en geen wifi, dus voor begeleide recepten heb je je smartphone nodig; veel accessoires om op te bergen.<br><strong>Voor wie:</strong> wie degelijkheid en veelzijdig snijden belangrijker vindt dan de bediening.</p>
 
 <h3>4. Kenwood Cooking Chef XL: bakken en grote hoeveelheden</h3>
-<p>De <strong>Kenwood Cooking Chef XL</strong> (model KCL95.424SI) is eerder een verwarmde keukenmachine dan een kookrobot in strikte zin. De kom van <strong>6,7 liter</strong> wordt verwarmd met <strong>inductie van 20 tot 180 °C</strong>, per graad, bij een vermogen van 1.500 W. Hij werkt met de Kenwood World-app, die stap-voor-stap recepten biedt.</p>
-<p><strong>Sterke punten:</strong> recordinhoud, grote hoeveelheden deeg en brioche, warm genoeg om aan te braden, chocolade te tempereren of crèmes te maken.<br><strong>Beperkingen:</strong> mixen en snijden hangen af van hulpstukken, deels apart verkrijgbaar; zwaar en groot.<br><strong>Voor wie:</strong> bakliefhebbers en grote gezinnen.</p>
+<p>De <strong>Kenwood Cooking Chef XL</strong> (typenummer KCL95.424SI) is eerder een keukenmachine voor deeg en gebak met een verwarmde kom dan een kookmachine in strikte zin. De kom van <strong>6,7 liter</strong> wordt verwarmd met <strong>inductie van 20 tot 180 °C</strong>, per graad instelbaar, bij een vermogen van 1.500 W. Je bedient hem met de Kenwood World-app, die stap-voor-stap recepten biedt.</p>
+<p><strong>Sterke punten:</strong> recordinhoud, grote hoeveelheden deeg en brioche, warm genoeg om aan te braden, chocolade te tempereren of crèmes te maken.<br><strong>Minpunten:</strong> voor mixen en snijden heb je hulpstukken nodig, waarvan een deel apart verkocht wordt; zwaar en groot.<br><strong>Voor wie:</strong> bakliefhebbers en grote gezinnen.</p>
 
-<h3>5. Cecotec Mambo Touch: de meest toegankelijke</h3>
-<p>De <strong>Cecotec Mambo Touch</strong> is de meest verspreide verbonden instapper in Europa. Hij biedt een <strong>touchscreen van 5 inch</strong>, wifi met de Mambo-app, een ingebouwde weegschaal, een kom van 3,3 liter, 1.600 W vermogen en een temperatuur van 37 tot 120 °C. Cecotec noemt 37 functies, waaronder stomen op twee niveaus. De versie „Habana” bevat een tweede kom met keramische coating.</p>
-<p><strong>Sterke punten:</strong> de basis van een verbonden kookrobot in het instapsegment, gratis app.<br><strong>Beperkingen:</strong> maximaal 120 °C, dus beperkt aanbraden; afwerking en app volgens kopers minder verfijnd dan bij de marktleiders.<br><strong>Voor wie:</strong> een eerste kookrobot of een krap budget.</p>
+<h3>5. Cecotec Mambo Touch: de meest betaalbare</h3>
+<p>De <strong>Cecotec Mambo Touch</strong> is het meest verspreide slimme instapmodel in Europa. Hij heeft een <strong>touchscreen van 5 inch</strong>, wifi met de Mambo-app, een ingebouwde weegschaal, een kom van 3,3 liter, een vermogen van 1.600 W en een temperatuurbereik van 37 tot 120 °C. Cecotec noemt 37 functies, waaronder stomen op twee niveaus. De versie “Habana” heeft een tweede kom met keramische coating.</p>
+<p><strong>Sterke punten:</strong> de basis van een slimme keukenmachine met kookfunctie voor een instapprijs, gratis app.<br><strong>Minpunten:</strong> maximaal 120 °C, dus beperkt aanbraden; afwerking en app zijn volgens kopers minder verfijnd dan bij de marktleiders.<br><strong>Voor wie:</strong> wie voor het eerst een keukenmachine met kookfunctie koopt of een krap budget heeft.</p>
 
 <h2>Vergelijkingstabel</h2>
 <table>
@@ -442,27 +442,27 @@ export const article: BlogArticle = {
 <tr><th>Model</th><th>Verwarming en temperatuur</th><th>Kom</th><th>Connectiviteit</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td>Thermomix TM7</td><td>Tot 160 °C</td><td>2,2 L</td><td>Wifi, 10"-scherm</td><td>Dagelijks begeleid koken</td></tr>
-<tr><td>Moulinex i-Companion Touch XL</td><td>Verwarmingselement</td><td>4,5 L (≈ 3 L bruikbaar)</td><td>Wifi, touchscreen</td><td>Gezinnen, alternatief voor Thermomix</td></tr>
-<tr><td>Magimix Cook Expert Connect</td><td>Inductie 30–160 °C</td><td>3,5 L rvs + snijkom</td><td>Bluetooth</td><td>Duurzaamheid, groenten snijden</td></tr>
-<tr><td>Kenwood Cooking Chef XL</td><td>Inductie 20–180 °C</td><td>6,7 L</td><td>Wifi (Kenwood World)</td><td>Bakken, grote hoeveelheden</td></tr>
-<tr><td>Cecotec Mambo Touch</td><td>37–120 °C</td><td>3,3 L</td><td>Wifi, 5"-scherm</td><td>Kleine budgetten</td></tr>
+<tr><td>Thermomix TM7</td><td>Tot 160 °C</td><td>2,2 l</td><td>Wifi, scherm van 10 inch</td><td>Dagelijks begeleid koken</td></tr>
+<tr><td>Moulinex i-Companion Touch XL</td><td>Verwarmingselement</td><td>4,5 l (≈ 3 l bruikbaar)</td><td>Wifi, touchscreen</td><td>Gezinnen, alternatief voor de Thermomix</td></tr>
+<tr><td>Magimix Cook Expert Connect</td><td>Inductie 30–160 °C</td><td>3,5 l rvs + snijkom</td><td>Bluetooth</td><td>Duurzaamheid, groenten snijden</td></tr>
+<tr><td>Kenwood Cooking Chef XL</td><td>Inductie 20–180 °C</td><td>6,7 l</td><td>Wifi (Kenwood World)</td><td>Bakken, grote hoeveelheden</td></tr>
+<tr><td>Cecotec Mambo Touch</td><td>37–120 °C</td><td>3,3 l</td><td>Wifi, scherm van 5 inch</td><td>Klein budget</td></tr>
 </tbody>
 </table>
 
-<h2>Fouten om te vermijden</h2>
+<h2>Veelgemaakte fouten</h2>
 <ul>
-<li><strong>Kiezen op het aantal functies</strong>: „30 of 40 functies” dekken vaak hetzelfde gebruik (mixen, verwarmen, kneden). Vergelijk liever de maximale temperatuur, de bruikbare inhoud en de app.</li>
-<li><strong>De kosten van de app vergeten</strong>: een jaarabonnement telt over de jaren op. Controleer wat zonder abonnement beschikbaar blijft.</li>
-<li><strong>De omvang onderschatten</strong>: deze robots wegen vaak meer dan 7 kg en zijn lastig op te bergen. Reserveer een vaste plek op het aanrecht.</li>
-<li><strong>Kookrobot en multicooker verwarren</strong>: wilt u vooral onder druk koken zonder te mixen, dan volstaat een Cookeo of multicooker. Ons artikel <a href="/nl/blog/cookeo-vs-thermomix-vs-airfryer">Cookeo vs Thermomix vs Airfryer</a> legt de verschillen uit.</li>
+<li><strong>Kiezen op het aantal functies</strong>: “30 of 40 functies” komen vaak neer op hetzelfde gebruik (mixen, verwarmen, kneden). Vergelijk liever de maximale temperatuur, de bruikbare inhoud en de app.</li>
+<li><strong>De kosten van de app vergeten</strong>: een jaarabonnement komt er over de jaren bij op de aankoopprijs. Kijk wat er zonder abonnement beschikbaar blijft.</li>
+<li><strong>De omvang onderschatten</strong>: deze machines wegen vaak meer dan 7 kg en zijn lastig op te bergen. Reserveer een vaste plek op het aanrecht.</li>
+<li><strong>Een keukenmachine met kookfunctie en een multicooker door elkaar halen</strong>: wil je vooral onder druk koken zonder te mixen, dan volstaat een Cookeo of een andere multicooker. Ons artikel <a href="/nl/blog/cookeo-vs-thermomix-vs-airfryer">Cookeo, Thermomix of airfryer</a> legt de verschillen uit.</li>
 </ul>
 
 <h2>Gebruik en veiligheid</h2>
-<p>Ga nooit boven de maximale vulstreep, zeker niet met hete vloeistoffen: op hoge snelheid kunnen ze eruit spatten. Verhoog bij het pureren van hete soep de snelheid geleidelijk. De messen zijn zeer scherp: pak ze vast bij de houder en reinig ze met een borstel. Zet het apparaat op een stabiel oppervlak, weg van de rand van het aanrecht, en houd het deksel vergrendeld zolang de messen draaien. In de handleiding staat welke onderdelen vaatwasserbestendig zijn.</p>
+<p>Vul nooit boven de maximumstreep, zeker niet met hete vloeistoffen: op hoge snelheid kunnen die eruit spatten. Verhoog de snelheid geleidelijk als je hete soep pureert. De messen zijn zeer scherp: pak ze vast bij de houder en maak ze schoon met een borsteltje. Zet het apparaat op een stabiele ondergrond, niet aan de rand van het aanrecht, en houd het deksel vergrendeld zolang de messen draaien. In de handleiding staat welke onderdelen in de vaatwasser mogen.</p>
 
 <h2>Ons oordeel</h2>
-<p>Als het budget het toelaat en u elke dag kookt, blijft de <strong>Thermomix TM7</strong> dankzij Cookidoo de meest verfijnde. Als verbonden kookrobot uit de gewone handel is de <strong>Moulinex i-Companion Touch XL</strong> de beste allrounder: grote kom, wifi, scherm en gratis app. De <strong>Magimix Cook Expert Connect</strong> past bij wie een duurzaam apparaat wil dat zeer veelzijdig snijdt en raspt, de <strong>Kenwood Cooking Chef XL</strong> bij bakliefhebbers en de <strong>Cecotec Mambo Touch</strong> bij kleine budgetten. Hoe deze robots in een slimme keuken passen, leest u in onze <a href="/nl/blog/guide-cuisine-connectee-2026">gids voor de verbonden keuken 2026</a>.</p>`,
+<p>Laat je budget het toe en kook je elke dag, dan blijft de <strong>Thermomix TM7</strong> dankzij Cookidoo het meest verfijnd. Wil je een slimme keukenmachine met kookfunctie die je gewoon in de winkel koopt, dan is de <strong>Moulinex i-Companion Touch XL</strong> het beste compromis: grote kom, wifi, scherm en gratis app. De <strong>Magimix Cook Expert Connect</strong> past bij wie een duurzaam apparaat wil dat zeer veelzijdig snijdt en raspt, de <strong>Kenwood Cooking Chef XL</strong> bij bakliefhebbers en de <strong>Cecotec Mambo Touch</strong> bij een klein budget. Hoe deze machines in een slimme keuken passen, lees je in onze <a href="/nl/blog/guide-cuisine-connectee-2026">gids voor de slimme keuken 2026</a>.</p>`,
     pl: `<p><strong>W 2026 roku punktem odniesienia wśród inteligentnych robotów kuchennych z funkcją gotowania pozostaje Thermomix TM7, ale najlepszą alternatywą dostępną w popularnych sieciach handlowych jest Moulinex i-Companion Touch XL</strong>, który łączy ekran dotykowy, Wi-Fi, wbudowaną wagę i dużą misę o pojemności 4,5 litra. Przy ograniczonym budżecie Cecotec Mambo Touch zapewnia to, co najważniejsze (Wi-Fi, ekran, przepisy krok po kroku), a Kenwood Cooking Chef XL jest przeznaczony dla miłośników wypieków i osób, które przygotowują duże porcje.</p>
 <p>To porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględniamy w nim wyłącznie modele sprzedawane w Europie w 2026 roku. Jeśli szukasz szybkowaru elektrycznego w rodzaju Cookeo, zajrzyj raczej do naszego <a href="/pl/blog/comparatif-multicuiseur-connecte">porównania inteligentnych multicookerów</a> i na naszą stronę z <a href="/pl/cuisine-connectee/multicuiseurs">multicookerami</a>.</p>
 
@@ -740,10 +740,10 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Peut-on utiliser le Thermomix TM7 sans abonnement Cookidoo ?',
-        en: 'Can you use the Thermomix TM7 without a Cookidoo subscription?',
+        en: 'Can I use the Thermomix TM7 without a Cookidoo subscription?',
         de: 'Lässt sich der Thermomix TM7 ohne Cookidoo-Abo nutzen?',
         es: '¿Se puede usar el Thermomix TM7 sin suscripción a Cookidoo?',
-        it: 'Si può usare il Thermomix TM7 senza abbonamento Cookidoo?',
+        it: 'Si può usare il Bimby TM7 senza abbonamento Cookidoo?',
         nl: 'Kun je de Thermomix TM7 gebruiken zonder Cookidoo-abonnement?',
         pl: 'Czy z robota Thermomix TM7 można korzystać bez subskrypcji Cookidoo?',
         sv: 'Går det att använda Thermomix TM7 utan Cookidoo-abonnemang?',
@@ -752,11 +752,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Oui. Le TM7 fonctionne en mode manuel : vous réglez vous-même la température, la vitesse et la durée. L’abonnement Cookidoo sert à accéder à l’ensemble du catalogue de recettes guidées et à ses fonctions associées. Sans lui, le robot reste pleinement utilisable, mais vous perdez l’essentiel de l’intérêt de la cuisine guidée.`,
-        en: `Yes. The TM7 works in manual mode: you set the temperature, speed and time yourself. The Cookidoo subscription unlocks the full guided-recipe catalogue and related features. Without it the robot remains fully usable, but you lose most of the benefit of guided cooking.`,
-        de: `Ja. Der TM7 funktioniert im manuellen Modus: Temperatur, Geschwindigkeit und Zeit stellen Sie selbst ein. Das Cookidoo-Abo schaltet den vollen Katalog geführter Rezepte und die zugehörigen Funktionen frei. Ohne Abo bleibt das Gerät voll nutzbar, doch der Hauptvorteil des geführten Kochens entfällt.`,
-        es: `Sí. El TM7 funciona en modo manual: tú eliges temperatura, velocidad y tiempo. La suscripción a Cookidoo da acceso a todo el catálogo de recetas guiadas y sus funciones asociadas. Sin ella, el robot sigue siendo plenamente utilizable, pero pierdes gran parte del interés de la cocina guiada.`,
-        it: `Sì. Il TM7 funziona in modalità manuale: imposti tu temperatura, velocità e tempo. L’abbonamento Cookidoo sblocca l’intero catalogo di ricette guidate e le funzioni collegate. Senza, il robot resta pienamente utilizzabile, ma perdi gran parte del vantaggio della cucina guidata.`,
-        nl: `Ja. De TM7 werkt in de handmatige modus: u stelt zelf temperatuur, snelheid en tijd in. Het Cookidoo-abonnement geeft toegang tot de volledige catalogus met begeleide recepten en bijbehorende functies. Zonder abonnement blijft de robot volledig bruikbaar, maar verliest u het grootste voordeel van begeleid koken.`,
+        en: `Yes. The TM7 works in manual mode: you set the temperature, speed and time yourself. The Cookidoo subscription gives you access to the full catalogue of guided recipes and the features that go with it. Without it, the machine is still fully usable, but you lose most of the point of guided cooking.`,
+        de: `Ja. Der TM7 lässt sich auch manuell bedienen: Temperatur, Geschwindigkeit und Zeit stellen Sie dann selbst ein. Das Cookidoo-Abo schaltet den vollen Katalog geführter Rezepte und die zugehörigen Funktionen frei. Ohne Abo bleibt das Gerät voll nutzbar, doch der Hauptvorteil des geführten Kochens entfällt.`,
+        es: `Sí. El TM7 funciona en modo manual: tú eliges la temperatura, la velocidad y el tiempo. La suscripción a Cookidoo da acceso a todo el catálogo de recetas guiadas y a sus funciones asociadas. Sin ella, el robot se puede usar sin problema, pero pierdes casi todo lo que aporta la cocina guiada.`,
+        it: `Sì. Il TM7 funziona anche in modalità manuale: temperatura, velocità e tempo li imposti tu. L’abbonamento Cookidoo sblocca l’intero ricettario guidato e le funzioni collegate. Senza abbonamento il robot resta del tutto utilizzabile, ma perdi gran parte dell’utilità della cucina guidata.`,
+        nl: `Ja. De TM7 werkt ook handmatig: je stelt zelf de temperatuur, snelheid en tijd in. Het Cookidoo-abonnement geeft toegang tot de volledige catalogus met begeleide recepten en de bijbehorende functies. Zonder abonnement blijft de machine volledig bruikbaar, maar mis je het grootste voordeel van begeleid koken.`,
         pl: `Tak. TM7 działa w trybie ręcznym: temperaturę, obroty i czas ustawiasz samodzielnie. Subskrypcja Cookidoo daje dostęp do całego katalogu przepisów krok po kroku i powiązanych z nim funkcji. Bez niej robot nadal w pełni nadaje się do użytku, ale tracisz większość korzyści z gotowania z przepisami krok po kroku.`,
         sv: `Ja. TM7 fungerar i manuellt läge: du ställer själv in temperatur, hastighet och tid. Cookidoo-abonnemanget ger tillgång till hela utbudet av guidade recept och funktionerna som hör till. Utan det går maskinen ändå att använda fullt ut, men du förlorar det mesta av poängen med guidad matlagning.`,
         us: `Yes. The TM7 works in manual mode: you set the temperature, speed and time yourself. The Cookidoo subscription unlocks the full guided-recipe catalog and related features. Without it, the machine is still fully usable, but you lose most of the benefit of guided cooking.`,
@@ -769,7 +769,7 @@ export const article: BlogArticle = {
         en: 'What is the best Thermomix alternative in 2026?',
         de: 'Was ist 2026 die beste Thermomix-Alternative?',
         es: '¿Cuál es la mejor alternativa al Thermomix en 2026?',
-        it: 'Qual è la migliore alternativa al Thermomix nel 2026?',
+        it: 'Qual è la migliore alternativa al Bimby nel 2026?',
         nl: 'Wat is in 2026 het beste alternatief voor de Thermomix?',
         pl: 'Jaka jest najlepsza alternatywa dla Thermomix w 2026 roku?',
         sv: 'Vilket är det bästa alternativet till Thermomix 2026?',
@@ -778,11 +778,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Le Moulinex i-Companion Touch XL est l’alternative la plus complète : écran tactile, Wi-Fi, balance intégrée, grand bol de 4,5 litres et application de recettes sans abonnement obligatoire. Si la durabilité prime, le Magimix Cook Expert Connect est un très bon choix ; pour un petit budget, le Cecotec Mambo Touch couvre l’essentiel.`,
-        en: `The Moulinex i-Companion Touch XL is the most complete alternative: touchscreen, Wi-Fi, built-in scale, a large 4.5-litre bowl and a recipe app with no mandatory subscription. If durability comes first, the Magimix Cook Expert Connect is a very good choice; on a small budget, the Cecotec Mambo Touch covers the essentials.`,
-        de: `Der Moulinex i-Companion Touch XL ist die vollständigste Alternative: Touchscreen, WLAN, integrierte Waage, großer 4,5-Liter-Topf und eine Rezept-App ohne Abopflicht. Steht Langlebigkeit im Vordergrund, ist der Magimix Cook Expert Connect eine sehr gute Wahl; bei kleinem Budget deckt der Cecotec Mambo Touch das Wesentliche ab.`,
-        es: `El Moulinex i-Companion Touch XL es la alternativa más completa: pantalla táctil, Wi-Fi, báscula integrada, vaso grande de 4,5 litros y app de recetas sin suscripción obligatoria. Si prima la durabilidad, el Magimix Cook Expert Connect es muy buena opción; con poco presupuesto, el Cecotec Mambo Touch cubre lo esencial.`,
-        it: `Il Moulinex i-Companion Touch XL è l’alternativa più completa: schermo touch, Wi-Fi, bilancia integrata, grande boccale da 4,5 litri e app di ricette senza abbonamento obbligatorio. Se conta la durata, il Magimix Cook Expert Connect è un’ottima scelta; con un budget ridotto, il Cecotec Mambo Touch copre l’essenziale.`,
-        nl: `De Moulinex i-Companion Touch XL is het meest complete alternatief: touchscreen, wifi, ingebouwde weegschaal, een grote kom van 4,5 liter en een recepten-app zonder verplicht abonnement. Gaat duurzaamheid voor, dan is de Magimix Cook Expert Connect een zeer goede keuze; bij een klein budget dekt de Cecotec Mambo Touch de basis.`,
+        en: `The Moulinex i-Companion Touch XL is the most complete alternative: touchscreen, Wi-Fi, built-in scales, a large 4.5-litre bowl and a recipe app with no compulsory subscription. If durability matters most, the Magimix Cook Expert Connect is a very good choice; on a tight budget, the Cecotec Mambo Touch covers the essentials.`,
+        de: `Der Moulinex i-Companion Touch XL ist die umfassendste Alternative: Touchscreen, WLAN, integrierte Waage, großer 4,5-Liter-Topf und eine Rezept-App ohne Abopflicht. Steht Langlebigkeit im Vordergrund, ist der Magimix Cook Expert Connect eine sehr gute Wahl; bei kleinem Budget deckt der Cecotec Mambo Touch das Wesentliche ab.`,
+        es: `El Moulinex i-Companion Touch XL es la alternativa más completa: pantalla táctil, wifi, báscula integrada, vaso grande de 4,5 litros y app de recetas sin suscripción obligatoria. Si lo que más te importa es la durabilidad, el Magimix Cook Expert Connect es muy buena opción; con poco presupuesto, el Cecotec Mambo Touch cubre lo esencial.`,
+        it: `Il Moulinex i-Companion Touch XL è l’alternativa più completa: schermo touch, Wi-Fi, bilancia integrata, grande boccale da 4,5 litri e app di ricette senza abbonamento obbligatorio. Se ti interessa soprattutto la durata nel tempo, il Magimix Cook Expert Connect è un’ottima scelta; con un budget ridotto, il Cecotec Mambo Touch copre l’essenziale.`,
+        nl: `De Moulinex i-Companion Touch XL is het meest complete alternatief: touchscreen, wifi, ingebouwde weegschaal, een grote kom van 4,5 liter en een receptenapp zonder verplicht abonnement. Vind je duurzaamheid belangrijker, dan is de Magimix Cook Expert Connect een heel goede keuze. Bij een klein budget biedt de Cecotec Mambo Touch alles wat je echt nodig hebt.`,
         pl: `Najbardziej kompletną alternatywą jest Moulinex i-Companion Touch XL: ekran dotykowy, Wi-Fi, wbudowana waga, duża misa 4,5 litra i aplikacja z przepisami bez obowiązkowej subskrypcji. Jeśli najważniejsza jest trwałość, bardzo dobrym wyborem będzie Magimix Cook Expert Connect, a przy małym budżecie Cecotec Mambo Touch zapewnia to, co najważniejsze.`,
         sv: `Moulinex i-Companion Touch XL är det mest kompletta alternativet: pekskärm, wifi, inbyggd våg, en stor skål på 4,5 liter och en receptapp utan obligatoriskt abonnemang. Väger hållbarheten tyngst är Magimix Cook Expert Connect ett mycket bra val; med en mindre budget täcker Cecotec Mambo Touch det viktigaste.`,
         us: `The Moulinex i-Companion Touch XL is the most complete alternative: a touchscreen, Wi-Fi, a built-in scale, a large 4.8-quart (4.5 L) bowl and a recipe app with no required subscription. If durability comes first, the Magimix Cook Expert Connect is a very good choice; on a small budget, the Cecotec Mambo Touch covers the essentials.`,
@@ -792,11 +792,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Quel robot cuiseur pour une famille de 6 personnes ou plus ?',
-        en: 'Which cooking robot for a family of 6 or more?',
-        de: 'Welcher Küchenprozessor für eine Familie mit 6 oder mehr Personen?',
+        en: 'Which cooking food processor is best for a family of six or more?',
+        de: 'Welche Küchenmaschine mit Kochfunktion passt zu einer Familie mit 6 oder mehr Personen?',
         es: '¿Qué robot de cocina elegir para una familia de 6 o más personas?',
         it: 'Quale robot da cucina per una famiglia di 6 o più persone?',
-        nl: 'Welke kookrobot voor een gezin van 6 of meer personen?',
+        nl: 'Welke keukenmachine met kookfunctie past bij een gezin van zes personen of meer?',
         pl: 'Jaki robot kuchenny z funkcją gotowania dla rodziny 6-osobowej lub większej?',
         sv: 'Vilken köksmaskin med kokfunktion passar en familj på sex personer eller fler?',
         us: 'Which smart cooking machine is best for a family of 6 or more?',
@@ -804,11 +804,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Regardez la capacité utile. Le bol de 2,2 litres du Thermomix TM7 impose parfois deux tournées pour un plat principal. Le Moulinex i-Companion Touch XL (environ 3 litres utiles) est plus à l’aise, et le Kenwood Cooking Chef XL, avec son bol de 6,7 litres, est le plus adapté aux pâtes et aux grandes quantités.`,
-        en: `Look at usable capacity. The Thermomix TM7’s 2.2-litre bowl sometimes means two batches for a main course. The Moulinex i-Companion Touch XL (about 3 usable litres) copes better, and the Kenwood Cooking Chef XL, with its 6.7-litre bowl, is best for doughs and large quantities.`,
-        de: `Entscheidend ist das nutzbare Volumen. Mit dem 2,2-Liter-Topf des Thermomix TM7 braucht ein Hauptgericht manchmal zwei Durchgänge. Der Moulinex i-Companion Touch XL (rund 3 Liter nutzbar) kommt besser zurecht, und die Kenwood Cooking Chef XL mit 6,7-Liter-Schüssel eignet sich am besten für Teige und große Mengen.`,
+        en: `Look at the usable capacity. The Thermomix TM7’s 2.2-litre bowl sometimes means cooking a main course in two batches. The Moulinex i-Companion Touch XL (about 3 litres usable) copes better, and the Kenwood Cooking Chef XL, with its 6.7-litre bowl, is the best fit for doughs and large quantities.`,
+        de: `Entscheidend ist das Nutzvolumen. Mit dem 2,2-Liter-Topf des Thermomix TM7 braucht ein Hauptgericht manchmal zwei Durchgänge. Der Moulinex i-Companion Touch XL (rund 3 Liter Nutzvolumen) bietet mehr Spielraum, und die Kenwood Cooking Chef XL mit ihrer 6,7-Liter-Schüssel eignet sich am besten für Teige und große Mengen.`,
         es: `Fíjate en la capacidad útil. Con el vaso de 2,2 litros del Thermomix TM7, un plato principal a veces requiere dos tandas. El Moulinex i-Companion Touch XL (unos 3 litros útiles) va más holgado, y el Kenwood Cooking Chef XL, con su bol de 6,7 litros, es el más indicado para masas y grandes cantidades.`,
-        it: `Guarda la capacità utile. Con il boccale da 2,2 litri del Thermomix TM7 un piatto principale richiede a volte due turni. Il Moulinex i-Companion Touch XL (circa 3 litri utili) è più comodo, e il Kenwood Cooking Chef XL, con la ciotola da 6,7 litri, è il più adatto a impasti e grandi quantità.`,
-        nl: `Kijk naar de bruikbare inhoud. Met de kom van 2,2 liter van de Thermomix TM7 zijn voor een hoofdgerecht soms twee rondes nodig. De Moulinex i-Companion Touch XL (ongeveer 3 liter bruikbaar) heeft meer ruimte, en de Kenwood Cooking Chef XL met zijn kom van 6,7 liter is het meest geschikt voor deeg en grote hoeveelheden.`,
+        it: `Guarda la capacità utile. Con il boccale da 2,2 litri del Bimby TM7, a volte un piatto principale va preparato in due volte. Il Moulinex i-Companion Touch XL (circa 3 litri utili) ha più margine, e il Kenwood Cooking Chef XL, con la ciotola da 6,7 litri, è il più adatto a impasti e grandi quantità.`,
+        nl: `Kijk naar de bruikbare inhoud. Met de kom van 2,2 liter van de Thermomix TM7 moet je een hoofdgerecht soms in twee keer maken. De Moulinex i-Companion Touch XL (ongeveer 3 liter bruikbaar) heeft meer ruimte, en de Kenwood Cooking Chef XL is met zijn kom van 6,7 liter het meest geschikt voor deeg en grote hoeveelheden.`,
         pl: `Zwróć uwagę na pojemność użytkową. W misie robota Thermomix TM7 (2,2 litra) danie główne trzeba czasem przygotować w dwóch turach. Moulinex i-Companion Touch XL (około 3 litrów pojemności użytkowej) daje więcej swobody, a Kenwood Cooking Chef XL z misą 6,7 litra najlepiej nadaje się do ciast i dużych porcji.`,
         sv: `Titta på den användbara volymen. Med skålen på 2,2 liter i Thermomix TM7 kan du ibland behöva laga huvudrätten i två omgångar. Moulinex i-Companion Touch XL (cirka 3 liter användbar volym) klarar det lättare, och Kenwood Cooking Chef XL, med sin skål på 6,7 liter, passar bäst för degar och stora mängder.`,
         us: `Look at usable capacity. The Thermomix TM7’s 2.3-quart (2.2 L) bowl sometimes means making a main course in two batches. The Moulinex i-Companion Touch XL (about 3.2 usable quarts, or 3 L) handles it more easily, and the Kenwood Cooking Chef XL, with its 7.1-quart (6.7 L) bowl, is the best fit for doughs and large quantities.`,
@@ -818,11 +818,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Robot cuiseur ou multicuiseur type Cookeo : que choisir ?',
-        en: 'Cooking robot or Cookeo-style multicooker: which to choose?',
-        de: 'Küchenprozessor oder Multikocher wie der Cookeo: was wählen?',
-        es: '¿Robot de cocina o multicocina tipo Cookeo: qué elegir?',
+        en: 'Cooking food processor or Cookeo-style multicooker: which should I choose?',
+        de: 'Küchenmaschine mit Kochfunktion oder Multikocher wie der Cookeo: Was passt besser?',
+        es: 'Robot de cocina u olla programable tipo Cookeo: ¿qué elegir?',
         it: 'Robot da cucina o multicooker tipo Cookeo: cosa scegliere?',
-        nl: 'Kookrobot of multicooker zoals de Cookeo: wat kiezen?',
+        nl: 'Keukenmachine met kookfunctie of multicooker zoals de Cookeo: wat kies je?',
         pl: 'Robot kuchenny z funkcją gotowania czy multicooker typu Cookeo: co wybrać?',
         sv: 'Köksmaskin med kokfunktion eller multikokare som Cookeo: vilken ska du välja?',
         us: 'Smart cooking machine or Cookeo-style multicooker: which should you choose?',
@@ -830,11 +830,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Un robot cuiseur mixe, hache, pétrit et cuit : il remplace blender, hachoir et balance. Un multicuiseur cuit plus vite, souvent sous pression, mais ne mixe pas. Si vous préparez surtout des plats mijotés pour la famille, un multicuiseur suffit ; si vous faites soupes, sauces, pâtes à pain et desserts, le robot cuiseur est plus polyvalent.`,
-        en: `A cooking robot blends, chops, kneads and cooks, replacing a blender, chopper and scales. A multicooker cooks faster, often under pressure, but does not blend. If you mostly make stews for the family, a multicooker is enough; if you make soups, sauces, bread dough and desserts, a cooking robot is more versatile.`,
-        de: `Ein Küchenprozessor mixt, zerkleinert, knetet und kocht und ersetzt Mixer, Zerkleinerer und Waage. Ein Multikocher gart schneller, oft unter Druck, mixt aber nicht. Wer vor allem Schmorgerichte für die Familie kocht, ist mit einem Multikocher gut bedient; wer Suppen, Saucen, Brotteig und Desserts zubereitet, hat mit einem Küchenprozessor mehr Möglichkeiten.`,
-        es: `Un robot de cocina tritura, pica, amasa y cocina, y sustituye a batidora, picadora y báscula. Una multicocina cocina más rápido, a menudo a presión, pero no tritura. Si preparas sobre todo guisos para la familia, basta una multicocina; si haces sopas, salsas, masa de pan y postres, el robot de cocina es más versátil.`,
-        it: `Un robot da cucina frulla, trita, impasta e cuoce, sostituendo frullatore, tritatutto e bilancia. Un multicooker cuoce più in fretta, spesso a pressione, ma non frulla. Se prepari soprattutto piatti in umido per la famiglia basta un multicooker; se fai zuppe, salse, impasti per il pane e dolci, il robot da cucina è più versatile.`,
-        nl: `Een kookrobot mixt, hakt, kneedt en kookt, en vervangt blender, hakmolen en weegschaal. Een multicooker kookt sneller, vaak onder druk, maar mixt niet. Maakt u vooral stoofgerechten voor het gezin, dan volstaat een multicooker; maakt u soepen, sauzen, brooddeeg en desserts, dan is een kookrobot veelzijdiger.`,
+        en: `A cooking food processor blends, chops, kneads and cooks, replacing a blender, a chopper and kitchen scales. A multicooker cooks faster, often under pressure, but doesn’t blend. If you mostly make stews and casseroles for the family, a multicooker is enough; if you make soups, sauces, bread dough and desserts, a cooking food processor is more versatile.`,
+        de: `Eine Küchenmaschine mit Kochfunktion mixt, zerkleinert, knetet und gart: Sie ersetzt Standmixer, Zerkleinerer und Waage. Ein Multikocher gart schneller, oft unter Druck, mixt aber nicht. Wer vor allem Schmorgerichte für die Familie kocht, ist mit einem Multikocher gut bedient; wer Suppen, Saucen, Brotteig und Desserts zubereitet, hat mit einer Küchenmaschine mit Kochfunktion mehr Möglichkeiten.`,
+        es: `Un robot de cocina tritura, pica, amasa y cocina: sustituye a la batidora de vaso, la picadora y la báscula. Una olla programable cocina más rápido, a menudo a presión, pero no tritura. Si preparas sobre todo guisos para la familia, te basta una olla programable; si haces sopas, salsas, masa de pan y postres, el robot de cocina es más versátil.`,
+        it: `Un robot da cucina frulla, trita, impasta e cuoce: sostituisce frullatore, tritatutto e bilancia. Un multicooker cuoce più in fretta, spesso a pressione, ma non frulla. Se prepari soprattutto stufati e piatti a cottura lenta per la famiglia, basta un multicooker; se fai zuppe, salse, impasti per il pane e dolci, il robot da cucina è più versatile.`,
+        nl: `Een keukenmachine met kookfunctie mixt, hakt, kneedt en kookt: hij vervangt een blender, een hakmolen en een weegschaal. Een multicooker kookt sneller, vaak onder druk, maar mixt niet. Maak je vooral stoofgerechten voor het gezin, dan is een multicooker genoeg. Maak je ook soepen, sauzen, brooddeeg en desserts, dan kun je met een kookrobot meer.`,
         pl: `Robot kuchenny z funkcją gotowania miksuje, sieka, zagniata i gotuje, więc zastępuje blender, rozdrabniacz i wagę. Multicooker gotuje szybciej, często pod ciśnieniem, ale nie miksuje. Jeśli przygotowujesz głównie potrawy duszone dla rodziny, wystarczy multicooker; jeśli robisz zupy, sosy, ciasto na chleb i desery, bardziej wszechstronny będzie robot kuchenny.`,
         sv: `En köksmaskin med kokfunktion mixar, hackar, knådar och tillagar, och ersätter därmed mixer, minihackare och våg. En multikokare tillagar snabbare, ofta under tryck, men mixar inte. Lagar du mest grytor åt familjen räcker en multikokare; gör du soppor, såser, bröddegar och desserter är köksmaskinen med kokfunktion mer mångsidig.`,
         us: `An all-in-one cooking machine blends, chops, kneads and cooks, so it replaces a blender, a chopper and a kitchen scale. A multicooker cooks faster, often under pressure, but doesn’t blend. If you mostly make stews and braises for the family, a multicooker is enough; if you make soups, sauces, bread dough and desserts, a cooking machine is more versatile.`,
@@ -844,11 +844,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Wi-Fi ou Bluetooth : quelle différence pour un robot cuiseur ?',
-        en: 'Wi-Fi or Bluetooth: what difference does it make on a cooking robot?',
-        de: 'WLAN oder Bluetooth: Welchen Unterschied macht das beim Küchenprozessor?',
-        es: 'Wi-Fi o Bluetooth: ¿qué diferencia hay en un robot de cocina?',
+        en: 'Wi-Fi or Bluetooth: what’s the difference on a cooking food processor?',
+        de: 'WLAN oder Bluetooth: Was ist der Unterschied bei einer Küchenmaschine mit Kochfunktion?',
+        es: 'Wifi o Bluetooth: ¿qué diferencia hay en un robot de cocina?',
         it: 'Wi-Fi o Bluetooth: che differenza fa in un robot da cucina?',
-        nl: 'Wifi of bluetooth: welk verschil maakt dat bij een kookrobot?',
+        nl: 'Wifi of Bluetooth: wat is het verschil bij een keukenmachine met kookfunctie?',
         pl: 'Wi-Fi czy Bluetooth: jaka to różnica w robocie kuchennym z funkcją gotowania?',
         sv: 'Wifi eller Bluetooth: vilken skillnad gör det på en köksmaskin med kokfunktion?',
         us: 'Wi-Fi or Bluetooth: what difference does it make on a smart cooking machine?',
@@ -856,11 +856,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Avec le Wi-Fi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch), les recettes s’affichent sur l’écran du robot et les mises à jour arrivent directement. Avec le Bluetooth (Magimix Cook Expert Connect), le smartphone pilote l’appareil et doit rester à portée pendant la recette.`,
-        en: `With Wi-Fi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch), recipes appear on the robot’s screen and updates arrive directly. With Bluetooth (Magimix Cook Expert Connect), your smartphone drives the appliance and must stay within range during the recipe.`,
-        de: `Mit WLAN (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch) erscheinen die Rezepte auf dem Gerätedisplay und Updates kommen direkt an. Mit Bluetooth (Magimix Cook Expert Connect) steuert das Smartphone das Gerät und muss während des Rezepts in Reichweite bleiben.`,
-        es: `Con Wi-Fi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch), las recetas aparecen en la pantalla del robot y las actualizaciones llegan directamente. Con Bluetooth (Magimix Cook Expert Connect), el móvil controla el aparato y debe quedarse cerca durante la receta.`,
-        it: `Con il Wi-Fi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch) le ricette compaiono sullo schermo del robot e gli aggiornamenti arrivano direttamente. Con il Bluetooth (Magimix Cook Expert Connect) è lo smartphone a guidare l’apparecchio e deve restare vicino durante la ricetta.`,
-        nl: `Met wifi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch) verschijnen recepten op het scherm van de robot en komen updates direct binnen. Met bluetooth (Magimix Cook Expert Connect) bestuurt de smartphone het apparaat en moet die tijdens het recept binnen bereik blijven.`,
+        en: `With Wi-Fi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch), recipes appear on the machine’s own screen and updates install directly. With Bluetooth (Magimix Cook Expert Connect), your smartphone controls the appliance and has to stay within range for the whole recipe.`,
+        de: `Mit WLAN (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch) erscheinen die Rezepte auf dem Gerätedisplay, und Updates werden direkt aufgespielt. Mit Bluetooth (Magimix Cook Expert Connect) steuert das Smartphone das Gerät und muss während des Kochens in Reichweite bleiben.`,
+        es: `Con wifi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch), las recetas aparecen en la pantalla del robot y las actualizaciones llegan directamente. Con Bluetooth (Magimix Cook Expert Connect), es el móvil el que controla el aparato, y tiene que quedarse cerca durante toda la receta.`,
+        it: `Con il Wi-Fi (Bimby TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch) le ricette compaiono sullo schermo del robot e gli aggiornamenti arrivano direttamente. Con il Bluetooth (Magimix Cook Expert Connect) è lo smartphone a comandare l’apparecchio, quindi deve restare a portata per tutta la ricetta.`,
+        nl: `Met wifi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch) verschijnen de recepten op het scherm van het apparaat zelf en komen updates direct binnen. Met Bluetooth (Magimix Cook Expert Connect) bedien je het apparaat met je smartphone, en die moet tijdens het recept binnen bereik blijven.`,
         pl: `W modelach z Wi-Fi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch) przepisy wyświetlają się na ekranie robota, a aktualizacje trafiają bezpośrednio do urządzenia. W modelu z Bluetooth (Magimix Cook Expert Connect) urządzeniem steruje smartfon, który przez cały czas przygotowywania potrawy musi być w zasięgu.`,
         sv: `Med wifi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch) visas recepten på maskinens skärm och uppdateringarna kommer direkt. Med Bluetooth (Magimix Cook Expert Connect) är det mobilen som styr maskinen, och den måste vara inom räckhåll under hela receptet.`,
         us: `With Wi-Fi (Thermomix TM7, Moulinex i-Companion Touch XL, Cecotec Mambo Touch), recipes show up on the machine’s screen and updates install directly. With Bluetooth (Magimix Cook Expert Connect), your phone runs the appliance and has to stay within range for the whole recipe.`,
@@ -870,11 +870,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Un robot cuiseur peut-il faire revenir des oignons ou saisir une viande ?',
-        en: 'Can a cooking robot brown onions or sear meat?',
-        de: 'Kann ein Küchenprozessor Zwiebeln anbraten oder Fleisch scharf anbraten?',
+        en: 'Can a cooking food processor brown onions or sear meat?',
+        de: 'Kann eine Küchenmaschine mit Kochfunktion Zwiebeln anschwitzen oder Fleisch scharf anbraten?',
         es: '¿Puede un robot de cocina sofreír cebolla o dorar carne?',
         it: 'Un robot da cucina può rosolare cipolle o scottare la carne?',
-        nl: 'Kan een kookrobot uien aanbraden of vlees schroeien?',
+        nl: 'Kan een keukenmachine met kookfunctie uien fruiten of vlees aanbraden?',
         pl: 'Czy robot kuchenny z funkcją gotowania zeszkli cebulę albo obsmaży mięso?',
         sv: 'Kan en köksmaskin med kokfunktion fräsa lök eller bryna kött?',
         us: 'Can a smart cooking machine brown onions or sear meat?',
@@ -882,11 +882,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Cela dépend de sa température maximale. Le Thermomix TM7 et le Magimix Cook Expert Connect montent à 160 °C, le Kenwood Cooking Chef XL à 180 °C : ils peuvent faire revenir et dorer. Le Cecotec Mambo Touch, limité à 120 °C, se prête surtout aux soupes, sauces et cuissons vapeur. Un robot ne remplace pas pour autant une poêle pour une vraie saisie.`,
-        en: `It depends on its maximum temperature. The Thermomix TM7 and Magimix Cook Expert Connect reach 160 °C and the Kenwood Cooking Chef XL 180 °C, so they can brown. The Cecotec Mambo Touch, limited to 120 °C, is better suited to soups, sauces and steaming. Even so, a robot does not replace a frying pan for a proper sear.`,
-        de: `Das hängt von der Höchsttemperatur ab. Thermomix TM7 und Magimix Cook Expert Connect erreichen 160 °C, die Kenwood Cooking Chef XL 180 °C: Sie können anbraten und bräunen. Der Cecotec Mambo Touch mit maximal 120 °C eignet sich eher für Suppen, Saucen und Dampfgaren. Eine Pfanne für scharfes Anbraten ersetzt aber keines dieser Geräte.`,
-        es: `Depende de su temperatura máxima. El Thermomix TM7 y el Magimix Cook Expert Connect llegan a 160 °C y el Kenwood Cooking Chef XL a 180 °C: pueden sofreír y dorar. El Cecotec Mambo Touch, limitado a 120 °C, está más indicado para sopas, salsas y vapor. Aun así, ningún robot sustituye a una sartén para un buen sellado.`,
-        it: `Dipende dalla temperatura massima. Il Thermomix TM7 e il Magimix Cook Expert Connect arrivano a 160 °C, il Kenwood Cooking Chef XL a 180 °C: possono rosolare e dorare. Il Cecotec Mambo Touch, limitato a 120 °C, è più adatto a zuppe, salse e vapore. In ogni caso un robot non sostituisce la padella per una vera scottatura.`,
-        nl: `Dat hangt af van de maximale temperatuur. De Thermomix TM7 en de Magimix Cook Expert Connect halen 160 °C, de Kenwood Cooking Chef XL 180 °C: zij kunnen aanbraden en bruinen. De Cecotec Mambo Touch, beperkt tot 120 °C, is vooral geschikt voor soepen, sauzen en stomen. Een koekenpan voor echt schroeien vervangt geen enkele robot.`,
+        en: `It depends on its maximum temperature. The Thermomix TM7 and Magimix Cook Expert Connect reach 160°C and the Kenwood Cooking Chef XL 180°C, so they can sauté and brown. The Cecotec Mambo Touch, which tops out at 120°C, is better suited to soups, sauces and steaming. Even so, none of them replaces a frying pan for a proper sear.`,
+        de: `Das hängt von der Höchsttemperatur ab. Thermomix TM7 und Magimix Cook Expert Connect erreichen 160 °C, die Kenwood Cooking Chef XL 180 °C: Damit lässt sich anbraten und bräunen. Der Cecotec Mambo Touch mit maximal 120 °C eignet sich eher für Suppen, Saucen und Dampfgaren. Zum richtig scharfen Anbraten bleibt die Pfanne trotzdem die bessere Wahl.`,
+        es: `Depende de su temperatura máxima. El Thermomix TM7 y el Magimix Cook Expert Connect llegan a 160 °C, y el Kenwood Cooking Chef XL a 180 °C: pueden sofreír y dorar. El Cecotec Mambo Touch, limitado a 120 °C, está más indicado para sopas, salsas y cocina al vapor. Aun así, ningún robot sustituye a una sartén cuando se trata de marcar bien la carne.`,
+        it: `Dipende dalla temperatura massima. Il Bimby TM7 e il Magimix Cook Expert Connect arrivano a 160 °C, il Kenwood Cooking Chef XL a 180 °C: possono rosolare e dorare. Il Cecotec Mambo Touch, che si ferma a 120 °C, è più adatto a zuppe, salse e cotture a vapore. In ogni caso un robot non sostituisce la padella quando serve una vera scottatura.`,
+        nl: `Dat hangt af van de maximumtemperatuur. De Thermomix TM7 en de Magimix Cook Expert Connect gaan tot 160 °C, de Kenwood Cooking Chef XL tot 180 °C: daarmee kun je fruiten en aanbraden. De Cecotec Mambo Touch gaat maar tot 120 °C en is vooral geschikt voor soepen, sauzen en stomen. Om vlees echt dicht te schroeien heb je toch een koekenpan nodig.`,
         pl: `To zależy od jego maksymalnej temperatury. Thermomix TM7 i Magimix Cook Expert Connect nagrzewają się do 160 °C, a Kenwood Cooking Chef XL do 180 °C, więc można w nich podsmażać i rumienić. Cecotec Mambo Touch, który osiąga najwyżej 120 °C, nadaje się głównie do zup, sosów i gotowania na parze. Żaden robot nie zastąpi jednak patelni, gdy mięso trzeba porządnie obsmażyć.`,
         sv: `Det beror på maxtemperaturen. Thermomix TM7 och Magimix Cook Expert Connect når 160 °C och Kenwood Cooking Chef XL 180 °C, så de kan fräsa och bryna. Cecotec Mambo Touch, som stannar vid 120 °C, passar främst för soppor, såser och ångkokning. En maskin ersätter ändå inte stekpannan när köttet ska få en ordentlig stekyta.`,
         us: `It depends on its maximum temperature. The Thermomix TM7 and Magimix Cook Expert Connect reach 320°F (160°C) and the Kenwood Cooking Chef XL 355°F (180°C), so they can sauté and brown. The Cecotec Mambo Touch tops out at 250°F (120°C), so it’s better suited to soups, sauces and steaming. Even so, a cooking machine is no substitute for a skillet when you want a real sear.`,

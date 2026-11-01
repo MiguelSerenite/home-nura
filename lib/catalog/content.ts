@@ -625,24 +625,24 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
   ],
   en: [
     {
-      question: 'How does Home Nura pick products by profile?',
-      answer: `Our public methodology cross-references the usage profile (household, budget, constraint) with five European criteria: annual energy cost, EU energy label, GDPR compliance, five-year spare-part availability and Matter support. Models that can't go the distance are excluded.`,
+      question: 'How does Home Nura choose products for each buyer profile?',
+      answer: `Our published methodology matches each buyer profile (household, budget, constraints) against five European criteria: annual running cost, EU energy label, GDPR compliance, spare parts available for five years and Matter support. We leave out models that are not built to last.`,
     },
     {
       question: 'Are the recommendations independent?',
-      answer: `Yes. Home Nura is an independent publisher based in Europe; our rankings are never paid. Amazon links are affiliate, but the shortlist is decided before the links are wired in, and our public methodology traces every decision.`,
+      answer: `Yes. Home Nura is an independent publisher based in Europe, and our rankings are never paid for. Our Amazon links are affiliate links, but we decide the shortlist before any links are added, and our published methodology records every decision.`,
     },
     {
-      question: 'How often are the rankings refreshed?',
-      answer: `Quarterly. Every silo is audited every three months: out-of-stock models pulled, budget ranges reviewed, energy costs and EU labels updated. The "last updated" stamp is visible on every page.`,
+      question: 'How often are the rankings updated?',
+      answer: `Every quarter. We review each section every three months: out-of-stock models are removed, budget ranges are revised, and running costs and EU energy labels are updated. The date of the last update is shown on every page.`,
     },
     {
-      question: 'Why a profile-based selection instead of a classic top 10?',
-      answer: `A generic top 10 forces every profile into the same ranking and penalises atypical households — tight budgets, space-constrained homes, GDPR-strict users. Our profile-based picks reflect the real cost of ownership for that household: real annual energy figures, fit to daily habits and local after-sales availability.`,
+      question: 'Why recommend by buyer profile rather than a standard top 10?',
+      answer: `A generic top 10 squeezes every buyer into the same ranking and penalises households that do not fit the mould: tight budgets, small spaces, privacy-first (GDPR) users. Our picks for each profile reflect what a product really costs that household to run: annual energy use in figures, how well it suits their daily habits and after-sales support available locally.`,
     },
     {
-      question: 'How do you assess products for European conditions?',
-      answer: `We do not test products ourselves. We compare energy figures declared under EN standards, published independent tests and verified buyer feedback. No recommendation is based on a spec sheet alone — the public methodology lays out the protocol.`,
+      question: 'How do you assess products for use in Europe?',
+      answer: `We do not test products ourselves. We compare the energy figures manufacturers declare under EN standards, independent reviews published by others and verified buyer feedback. No recommendation is based on a spec sheet alone: our published methodology sets out the full process.`,
     },
   ],
   de: [
@@ -669,46 +669,46 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
   ],
   es: [
     {
-      question: '¿Cómo selecciona Home Nura los productos por perfil?',
-      answer: `Nuestra metodología pública cruza el perfil de uso (hogar, presupuesto, restricción) con cinco criterios europeos: coste energético anual, etiqueta energética EU, cumplimiento RGPD, disponibilidad de recambios a cinco años y compatibilidad Matter. Los modelos que no duran quedan fuera.`,
+      question: '¿Cómo elige Home Nura los productos para cada perfil?',
+      answer: `Nuestra metodología pública cruza el perfil de uso (hogar, presupuesto, limitaciones) con cinco criterios europeos: coste energético anual, etiqueta energética de la UE, cumplimiento del RGPD, disponibilidad de recambios durante cinco años y compatibilidad con Matter. Descartamos los modelos que no aguantan el paso del tiempo.`,
     },
     {
-      question: '¿Son las recomendaciones independientes?',
-      answer: `Sí. Home Nura es un editor independiente con sede en Europa; nuestros rankings nunca son de pago. Los enlaces de Amazon son afiliados, pero la selección se decide antes de integrar los enlaces, y nuestra metodología pública traza cada decisión.`,
+      question: '¿Las recomendaciones son independientes?',
+      answer: `Sí. Home Nura es un editor independiente con sede en Europa y nuestras clasificaciones nunca son de pago. Los enlaces de Amazon son de afiliado, pero la selección se decide antes de añadir los enlaces, y nuestra metodología pública deja constancia de cada decisión.`,
     },
     {
-      question: '¿Con qué frecuencia se actualizan los rankings?',
-      answer: `Trimestralmente. Cada silo se audita cada tres meses: retirada de modelos agotados, revisión de los rangos de presupuesto, actualización de costes energéticos y etiquetas EU. La fecha de última actualización se muestra en cada página.`,
+      question: '¿Cada cuánto se actualizan las clasificaciones?',
+      answer: `Cada tres meses. En cada revisión de una sección retiramos los modelos agotados, repasamos las franjas de presupuesto y actualizamos el coste energético y las etiquetas de la UE. La fecha de la última actualización aparece en cada página.`,
     },
     {
-      question: '¿Por qué una selección por perfil en lugar de un top 10 clásico?',
-      answer: `Un top generalista obliga a todos los perfiles al mismo ranking y penaliza a los hogares atípicos — presupuestos ajustados, viviendas pequeñas, usuarios estrictos en RGPD. Nuestras selecciones por perfil reflejan el coste real de uso en ese hogar: consumo anual real, adaptación a los hábitos y servicio posventa disponible en el mercado local.`,
+      question: '¿Por qué una selección por perfil y no el típico top 10?',
+      answer: `Un top genérico mete a todos los perfiles en la misma clasificación y perjudica a los hogares que se salen de lo habitual: presupuestos ajustados, poco espacio o personas muy estrictas con el RGPD. Nuestras selecciones por perfil reflejan lo que cuesta de verdad usar el aparato en ese hogar: consumo anual en cifras, encaje con sus hábitos y servicio técnico disponible en su país.`,
     },
     {
-      question: '¿Cómo evaluáis los productos para las condiciones europeas?',
-      answer: `No probamos los productos nosotros mismos. Comparamos los consumos declarados según las normas EN, las pruebas independientes publicadas y las opiniones de compradores verificados. Ninguna recomendación se basa únicamente en la ficha técnica — la metodología pública detalla el protocolo.`,
+      question: '¿Cómo evalúa Home Nura los productos para el uso en Europa?',
+      answer: `No probamos los productos nosotros mismos. Comparamos los consumos declarados según las normas EN, las pruebas independientes publicadas y las opiniones de compradores verificados. Ninguna recomendación se basa solo en la ficha técnica: la metodología pública detalla el procedimiento.`,
     },
   ],
   it: [
     {
-      question: 'Come seleziona Home Nura i prodotti per profilo?',
-      answer: `La nostra metodologia pubblica incrocia il profilo d'uso (famiglia, budget, vincolo) con cinque criteri europei: costo energetico annuo, etichetta energetica EU, conformità GDPR, disponibilità ricambi su cinque anni e supporto Matter. I modelli che non durano sono esclusi.`,
+      question: 'Come sceglie Home Nura i prodotti per ogni profilo?',
+      answer: `La nostra metodologia, consultabile da tutti, mette a confronto il profilo d'uso (nucleo familiare, budget, vincoli) con cinque criteri europei: costo annuo dell'energia, etichetta energetica europea, conformità al GDPR, disponibilità dei ricambi per cinque anni e compatibilità con Matter. Escludiamo i modelli che non reggono nel tempo.`,
     },
     {
-      question: 'Le raccomandazioni sono indipendenti?',
-      answer: `Sì. Home Nura è un editore indipendente con sede in Europa; le nostre classifiche non sono mai a pagamento. I link Amazon sono affiliati, ma la selezione è decisa prima di integrare i link, e la nostra metodologia pubblica traccia ogni decisione.`,
+      question: 'I consigli sono indipendenti?',
+      answer: `Sì. Home Nura è un editore indipendente con sede in Europa e nessuna posizione nelle nostre selezioni è a pagamento. I link ad Amazon sono link di affiliazione, ma la selezione viene decisa prima di inserirli, e la nostra metodologia pubblica documenta ogni scelta.`,
     },
     {
-      question: 'Con quale frequenza le classifiche vengono aggiornate?',
-      answer: `Trimestralmente. Ogni silo viene auditato ogni tre mesi: rimozione dei modelli esauriti, revisione delle fasce di budget, aggiornamento dei costi energetici e delle etichette EU. La data dell'ultimo aggiornamento è visibile su ogni pagina.`,
+      question: 'Ogni quanto vengono aggiornate le selezioni?',
+      answer: `Ogni tre mesi. A ogni revisione ricontrolliamo tutte le sezioni del sito: togliamo i modelli esauriti, rivediamo le fasce di budget e aggiorniamo i costi energetici e le etichette energetiche. La data dell'ultimo aggiornamento è indicata su ogni pagina.`,
     },
     {
-      question: 'Perché una selezione per profilo anziché una classica top 10?',
-      answer: `Una top 10 generica forza tutti i profili nella stessa classifica e penalizza le famiglie atipiche — budget stretti, case piccole, utenti GDPR-strict. Le nostre selezioni per profilo mostrano il costo reale d'uso per quella famiglia: consumi annui effettivi, aderenza alle abitudini e assistenza locale disponibile nel mercato.`,
+      question: 'Perché una selezione per profilo e non la solita top 10?',
+      answer: `Una top 10 generica mette tutti nella stessa classifica e penalizza chi ha esigenze particolari (budget ridotto, poco spazio in casa, massima attenzione alla privacy). Le nostre selezioni per profilo tengono conto di quanto costa davvero l'apparecchio a quella famiglia, cioè consumi annui calcolati, adattamento alle abitudini di casa e assistenza post-vendita disponibile nel paese.`,
     },
     {
-      question: 'Come valutate i prodotti per le condizioni europee?',
-      answer: `Non testiamo i prodotti direttamente. Confrontiamo i consumi dichiarati secondo le norme EN, i test indipendenti pubblicati e le recensioni di acquirenti verificati. Nessuna raccomandazione si basa solo sulla scheda tecnica — la metodologia pubblica descrive il protocollo nel dettaglio.`,
+      question: 'Come valutate i prodotti per l\'uso in Europa?',
+      answer: `Non proviamo direttamente i prodotti. Mettiamo a confronto i consumi dichiarati secondo le norme EN, i test indipendenti pubblicati e le recensioni verificate degli acquirenti. Nessun consiglio si basa sulla sola scheda tecnica: la metodologia pubblica descrive il procedimento nel dettaglio.`,
     },
   ],
   nl: [

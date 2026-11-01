@@ -14,10 +14,10 @@ export const article: BlogArticle = {
       alt: {
         fr: 'Airfryer noir avec minuterie et thermostat, un appareil de cuisson plus économe en énergie que le four',
         en: 'Black air fryer with timer and temperature dial, a cooking appliance that uses less energy than an oven',
-        de: 'Schwarze Heißluftfritteuse mit Timer und Temperaturregler, sparsamer im Stromverbrauch als der Backofen',
+        de: 'Schwarzer Airfryer mit Timer und Temperaturregler, der beim Garen weniger Strom braucht als ein Backofen',
         es: 'Freidora de aire negra con temporizador y termostato, un aparato que consume menos energía que el horno',
         it: 'Friggitrice ad aria nera con timer e termostato, un apparecchio che consuma meno energia del forno',
-        nl: 'Zwarte airfryer met timer en temperatuurknop, een apparaat dat minder energie verbruikt dan de oven',
+        nl: 'Zwarte airfryer met timer en temperatuurknop, een apparaat dat minder energie verbruikt dan een oven',
         pl: 'Czarna frytkownica beztłuszczowa z minutnikiem i termostatem – urządzenie, które zużywa mniej energii niż piekarnik',
         sv: 'Svart airfryer med timer och termostatvred – en apparat som drar mindre el än ugnen',
         us: 'Black air fryer with timer and temperature dial, a cooking appliance that uses less energy than an oven',
@@ -28,8 +28,8 @@ export const article: BlogArticle = {
   title: {
     fr: `Airfryer et économies d'énergie : combien économisez-vous vraiment ?`,
     en: `Air Fryer Energy Savings: How Much Do You Really Save?`,
-    de: `Heißluftfritteuse und Energiesparen: Wie viel sparen Sie wirklich?`,
-    es: `Freidora de aire y ahorro energético: ¿cuánto ahorras realmente?`,
+    de: `Airfryer und Energiesparen: Wie viel sparen Sie wirklich?`,
+    es: `Freidora de aire y ahorro energético: ¿cuánto ahorras de verdad?`,
     it: `Friggitrice ad aria e risparmio energetico: quanto risparmi davvero?`,
     nl: `Airfryer en energiebesparing: hoeveel bespaar je echt?`,
     pl: `Frytkownica beztłuszczowa a oszczędność energii: ile naprawdę zaoszczędzasz?`,
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: `Un airfryer consomme souvent deux à trois fois moins d'électricité qu'un four pour un même plat. Calculs en kWh, hypothèses expliquées et modèles adaptés à chaque foyer.`,
-    en: `An air fryer often uses two to three times less electricity than an oven for the same dish. Calculations in kWh, clear assumptions and models suited to each household.`,
-    de: `Eine Heißluftfritteuse braucht für dasselbe Gericht oft zwei- bis dreimal weniger Strom als der Backofen. Berechnungen in kWh, offengelegte Annahmen und passende Modelle.`,
-    es: `Una freidora de aire suele gastar entre dos y tres veces menos electricidad que el horno para el mismo plato. Cálculos en kWh, supuestos explicados y modelos para cada hogar.`,
-    it: `Una friggitrice ad aria consuma spesso da due a tre volte meno elettricità del forno per lo stesso piatto. Calcoli in kWh, ipotesi spiegate e modelli adatti a ogni famiglia.`,
-    nl: `Een airfryer verbruikt voor hetzelfde gerecht vaak twee tot drie keer minder stroom dan een oven. Berekeningen in kWh, duidelijke aannames en modellen per huishouden.`,
+    en: `An air fryer often uses between a third and a half of the electricity an oven needs for the same dish. kWh calculations, assumptions explained and the right models for every household.`,
+    de: `Eine Heißluftfritteuse braucht für dasselbe Gericht oft nur ein Drittel bis die Hälfte des Stroms eines Backofens. Rechnungen in kWh, offengelegte Annahmen und passende Modelle für jeden Haushalt.`,
+    es: `Una freidora de aire suele gastar entre dos y tres veces menos electricidad que el horno para el mismo plato. Cálculos en kWh, con los supuestos explicados, y modelos adecuados para cada hogar.`,
+    it: `Una friggitrice ad aria consuma spesso la metà, se non un terzo, dell'elettricità del forno per lo stesso piatto. Calcoli in kWh, ipotesi spiegate e modelli adatti a ogni famiglia.`,
+    nl: `Een airfryer verbruikt voor hetzelfde gerecht vaak twee tot drie keer minder stroom dan een oven. Met berekeningen in kWh, uitgelegde aannames en een passend model voor elk huishouden.`,
     pl: `Frytkownica beztłuszczowa często zużywa 2–3 razy mniej prądu niż piekarnik przy przygotowaniu tego samego dania. Obliczenia w kWh, wyjaśnione założenia i modele dopasowane do każdego gospodarstwa domowego.`,
     sv: `En airfryer drar ofta två till tre gånger mindre el än ugnen för samma rätt. Här är beräkningarna i kWh, antagandena bakom dem och modeller som passar olika hushåll.`,
     us: `An air fryer often uses half to a third of the electricity an oven needs for the same dish. The math in kWh, clear assumptions and the right models for every household.`,
@@ -177,17 +177,17 @@ export const article: BlogArticle = {
 <p>Un airfryer fait réellement baisser la consommation d'électricité lorsqu'il remplace le four pour des plats qui tiennent dans son panier : comptez environ 0,7 kWh économisé par repas, soit de l'ordre de 100 à 250 kWh par an pour un usage régulier. Le bon réflexe est de choisir la capacité adaptée à votre foyer. Le <strong>Philips Airfryer Série 3000 XL</strong> est notre choix pour 3 à 5 personnes, le <strong>Moulinex Easy Fry Max 5L</strong> est l'option sobre et accessible, et le <strong>Ninja Foodi MAX Double Stack XL</strong> convient aux familles qui veulent laisser le four éteint pour un repas complet. Pour les petits budgets, voyez aussi notre sélection des <a href="/fr/blog/meilleur-airfryer-petit-budget">meilleurs airfryers petit budget</a>.</p>`,
 
     en: `<h2>The short answer</h2>
-<p>Yes. For small and medium quantities, an air fryer generally uses two to three times less electricity than an electric oven, because it heats a much smaller space and needs little or no preheating. In practice, a 20-minute session often comes to 0.3 to 0.5 kWh, against roughly 1 kWh for the same dish in the oven.</p>
-<p>This guide is not based on lab measurements. It draws on the power ratings published by manufacturers, basic heating physics and verified owner feedback. Every figure below is an estimate in kWh with its assumptions spelled out, so you can adapt it to your own appliance and electricity contract.</p>
+<p>Yes. For small and medium quantities, an air fryer generally uses between a third and a half of the electricity an electric oven needs, because it heats a much smaller space and needs little or no preheating. In practice, a 20-minute session often comes to 0.3 to 0.5 kWh, compared with about 1 kWh for the same dish in the oven.</p>
+<p>This guide is not based on lab measurements. It draws on manufacturers' published power ratings, basic heating physics and verified buyer feedback. Every figure below is an estimate in kWh with its assumptions spelled out, so you can adapt it to your own appliance and electricity tariff.</p>
 
-<h2>Power (W) versus energy (kWh)</h2>
+<h2>Power (W) and energy (kWh): don't confuse the two</h2>
 <p>Power, in watts, is what the appliance draws while its heating element is on. Energy, in kilowatt-hours, depends on how long the element actually runs. The formula fits on one line:</p>
 <p><strong>Energy (kWh) = power (kW) × time (h) × share of time the element is heating</strong></p>
-<p>An air fryer does not run flat out the whole time. Once it reaches the set temperature, the thermostat switches the element off and back on in cycles. How much of the time it actually heats depends on the temperature, the amount of food and the insulation. In this guide we use a cautious assumption of 70 to 85% of the time.</p>
+<p>An air fryer does not run flat out the whole time. Once it reaches the set temperature, the thermostat switches the element off and back on in cycles. How much of the time it actually heats depends on the temperature you choose, the amount of food and how well the appliance is insulated. In this guide we make a conservative assumption of 70 to 85% of the time.</p>
 <p><strong>Example:</strong> a 1,500 W air fryer running for 20 minutes uses at most 1.5 × 1/3 = 0.5 kWh. With thermostat cycling, the realistic figure is closer to 0.35 to 0.43 kWh. That number, not the wattage on the box, is what shows up on your bill.</p>
 
-<h2>Air fryer, oven, deep fryer, microwave: orders of magnitude</h2>
-<p>The table compares typical sessions for 2 to 4 portions (chips, roast vegetables, chicken pieces). These are estimates worked out with the formula above, not readings from one specific appliance.</p>
+<h2>Air fryer, oven, deep fat fryer, microwave: the rough figures</h2>
+<p>The table below compares typical sessions for 2 to 4 portions (chips, roast vegetables, chicken fillets). These are estimates worked out with the formula above, not readings from one specific appliance.</p>
 <table>
 <thead>
 <tr><th>Appliance</th><th>Typical power</th><th>Typical time</th><th>Estimated energy per session</th></tr>
@@ -195,19 +195,19 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Air fryer, 4 to 6 L</td><td>1,500 to 2,000 W</td><td>15 to 22 min, short or no preheat</td><td>0.3 to 0.5 kWh</td></tr>
 <tr><td>Dual-drawer air fryer (both drawers in use)</td><td>2,400 to 2,500 W</td><td>18 to 25 min</td><td>0.5 to 0.8 kWh</td></tr>
-<tr><td>Fan oven</td><td>2,500 to 3,500 W</td><td>10 min preheat + 20 to 25 min</td><td>0.9 to 1.3 kWh</td></tr>
-<tr><td>Oil deep fryer (2 to 3 L of oil)</td><td>1,800 to 2,200 W</td><td>10 min to heat the oil + 8 to 12 min</td><td>0.4 to 0.6 kWh</td></tr>
+<tr><td>Electric fan oven</td><td>2,500 to 3,500 W</td><td>10 min preheat + 20 to 25 min</td><td>0.9 to 1.3 kWh</td></tr>
+<tr><td>Deep fat fryer (2 to 3 L of oil)</td><td>1,800 to 2,200 W</td><td>10 min to heat the oil + 8 to 12 min</td><td>0.4 to 0.6 kWh</td></tr>
 <tr><td>Microwave (reheating)</td><td>1,000 to 1,300 W input</td><td>3 to 6 min</td><td>0.05 to 0.13 kWh</td></tr>
 </tbody>
 </table>
-<p>For your own oven, check its energy label: it states the energy used per cycle in kWh, for conventional and fan modes, under a standardised procedure. For a recent, well-rated oven this is often around 0.7 to 1 kWh per standard cycle. It is a useful baseline to compare against your air fryer.</p>
-<p><strong>Key point:</strong> for a dish that fits in the basket, the air fryer uses roughly two to three times less than the oven. Against an oil fryer the kWh gap is smaller; the air fryer's real advantages there are the oil you no longer buy, no frying smell and better safety. The microwave remains the most frugal, but it reheats without browning or crisping.</p>
+<p>For your own oven, check its energy label: it gives the energy used per cycle in kWh, in conventional and fan modes, measured under a standardised procedure. For a recent oven with a good rating, this is often around 0.7 to 1 kWh per standard cycle. That gives you a useful baseline for comparing it with your air fryer.</p>
+<p><strong>Key point:</strong> for a dish that fits in the basket, an air fryer uses roughly a third to a half of the energy an oven does. Compared with a deep fat fryer, the kWh gap is smaller; there, the air fryer's real advantages are the oil you no longer buy, no lingering smell of frying and better safety. The microwave still uses the least, but it reheats without browning or crisping.</p>
 
 <h2>Why an air fryer uses less</h2>
 <h3>1. A much smaller space to heat</h3>
-<p>An oven cavity is usually 60 to 70 litres. Even a large air fryer offers 4 to 10 litres. Less air and fewer walls to bring up to 200 °C means less energy lost before cooking even starts.</p>
+<p>An oven cavity is usually 60 to 70 litres. Even a large air fryer offers 4 to 10 litres. Less air and less surface to bring up to 200°C means less energy lost before cooking even starts.</p>
 <h3>2. Short or no preheating</h3>
-<p>An oven often takes around ten minutes to reach 200 °C, using energy without cooking anything. An air fryer heats up in a few minutes, and for many frozen foods manufacturers say you can skip preheating entirely.</p>
+<p>An oven often takes around ten minutes to reach 200°C, using energy without cooking anything. An air fryer heats up in a few minutes, and for many frozen foods manufacturers say you can skip preheating entirely.</p>
 <h3>3. Heat focused on the food</h3>
 <p>The fan blows hot air straight onto the food, a few centimetres from the element. Cooking times are often slightly shorter than in the oven, which cuts heating time further.</p>
 
@@ -215,7 +215,7 @@ export const article: BlogArticle = {
 <p>Assumption: you swap one oven session (about 1.1 kWh) for one air fryer session (about 0.4 kWh), saving roughly 0.7 kWh per meal.</p>
 <table>
 <thead>
-<tr><th>Use instead of the oven</th><th>Sessions per year</th><th>kWh saved per year (estimate)</th></tr>
+<tr><th>How often it replaces the oven</th><th>Sessions per year</th><th>kWh saved per year (estimate)</th></tr>
 </thead>
 <tbody>
 <tr><td>Once a week</td><td>52</td><td>about 36 kWh</td></tr>
@@ -224,45 +224,45 @@ export const article: BlogArticle = {
 <tr><td>Every day</td><td>365</td><td>about 256 kWh</td></tr>
 </tbody>
 </table>
-<p><strong>Turning kWh into money:</strong> multiply the kWh saved by the unit rate on your bill. For example, at an example rate of €0.25/kWh (replace it with your own rate, in your own currency): 182 kWh × 0.25 = about €45 a year for five sessions a week. If your rate is higher, or you have peak and off-peak pricing, the result scales accordingly.</p>
-<p>Compared with an oil fryer, the saving is only about 0.1 to 0.2 kWh per session, or 5 to 10 kWh a year with weekly use. The real gain is less oil to buy, filter and dispose of. See our <a href="/en/blog/airfryer-vs-friteuse-traditionnelle">air fryer vs deep fryer comparison</a>.</p>
-<p><strong>When the air fryer saves nothing:</strong> if you cook for six and need three batches, three sessions at 0.4 kWh add up to 1.2 kWh, about the same as one full oven. The air fryer is frugal when the meal fits in the basket, not when you have to repeat it. Our <a href="/en/guides/airfryer-vs-four">air fryer vs oven guide</a> covers the cases where the oven still makes sense.</p>
+<p><strong>Working out the cost:</strong> multiply the kWh saved by the unit rate on your bill. Using an example rate of €0.25/kWh (swap in your own rate): 182 kWh × 0.25 = about €45 a year for five sessions a week. If your rate is higher, or you pay different peak and off-peak rates, the result changes in proportion.</p>
+<p>Compared with a deep fat fryer, the saving is only about 0.1 to 0.2 kWh per session, or 5 to 10 kWh a year with weekly use. The real benefit lies elsewhere: less oil to buy, filter and throw away. For more detail, see our <a href="/en/blog/airfryer-vs-friteuse-traditionnelle">air fryer vs deep fat fryer comparison</a>.</p>
+<p><strong>When an air fryer saves nothing:</strong> if you cook for six and need three batches, three sessions at 0.4 kWh add up to 1.2 kWh, about the same as filling the oven once. An air fryer saves energy when the meal fits in the basket, not when you have to cook it in several batches. Our <a href="/en/guides/airfryer-vs-four">air fryer vs oven guide</a> covers the cases where the oven still makes sense.</p>
 
-<h2>What actually matters for lower consumption</h2>
+<h2>What matters if you want to use less energy</h2>
 <ul>
-<li><strong>Capacity that matches your household:</strong> this is the main factor. A large model half empty heats air for nothing; one that is too small forces extra batches. Roughly 3 to 4 L for 1 to 2 people, 5 to 6 L for 3 to 4, more beyond that.</li>
+<li><strong>Capacity that matches your household:</strong> this is the main factor. A large model that's half empty heats air for nothing, while one that's too small means extra batches. Allow roughly 3 to 4 L for 1 to 2 people, 5 to 6 L for 3 to 4 people, and more for larger households.</li>
 <li><strong>Higher wattage is not a flaw:</strong> a more powerful model heats faster and then cycles more. For the same volume, the gap in real consumption between 1,500 and 2,000 W is much smaller than the gap in rated power.</li>
-<li><strong>A viewing window:</strong> it saves opening the drawer to check, which lets heat escape.</li>
-<li><strong>Dual drawers, only if you use them:</strong> they let you cook a main and a side at the same time instead of two sessions in a row. For a single food, use one drawer.</li>
-<li><strong>Standby:</strong> a device drawing 1 W around the clock uses 8.76 kWh a year (1 W × 8,760 h). Connected models may keep Wi-Fi running; unplug them or use a switched power strip if you do not use remote control.</li>
+<li><strong>A viewing window:</strong> it saves you opening the drawer to check on the food and letting the heat out.</li>
+<li><strong>Dual drawers, only if you use them:</strong> they let you cook a main and a side at the same time rather than in two sessions back to back. If you're only cooking one thing, use one drawer.</li>
+<li><strong>Standby:</strong> a device drawing 1 W around the clock uses 8.76 kWh a year (1 W × 8,760 h). Smart models may keep their Wi-Fi on: unplug them or use a switched extension lead if you don't use the app's remote control.</li>
 <li><strong>Check it yourself:</strong> a smart plug with energy monitoring shows your appliance's real consumption session by session. See our <a href="/en/blog/comparatif-smart-plugs-mesure-energie">energy-monitoring smart plug comparison</a>.</li>
 </ul>
 
 <h2>Models to consider for your household</h2>
-<p>These models are selected from manufacturer specifications, independent reviews and verified buyer feedback. Power figures are as stated by the manufacturer.</p>
+<p>We shortlisted these models using manufacturer specifications, independent reviews and verified buyer feedback. Power figures are as quoted by the manufacturer.</p>
 <h3>Philips Airfryer 3000 Series XL (6.2 L): the balanced choice for 3 to 5 people</h3>
-<p><strong>Strengths:</strong> 6.2 L and 1.2 kg of food in a single basket, 2,000 W, plenty of presets and a keep-warm function. One basket big enough for a mid-sized family means one batch, which is where the savings come from.</p>
-<p><strong>Limits:</strong> no viewing window, one compartment for main and side.</p>
-<p><strong>Best for:</strong> households of 3 to 5 that want to replace the oven day to day.</p>
-<h3>Moulinex Easy Fry Max 5L: the frugal, affordable option</h3>
-<p><strong>Strengths:</strong> 5 L, 1,500 W, touchscreen and ten automatic programmes. Moderate power with enough room for 3 to 4 people.</p>
-<p><strong>Limits:</strong> simpler finish, no connectivity, single basket.</p>
-<p><strong>Best for:</strong> anyone wanting a simple entry-level air fryer for everyday meals.</p>
+<p><strong>Pros:</strong> 6.2 L and 1.2 kg of food in a single basket, 2,000 W, plenty of presets and a keep-warm function. A single basket big enough for a mid-sized family means one batch, and that's where the savings come from.</p>
+<p><strong>Cons:</strong> no viewing window, and a single compartment for both main and side.</p>
+<p><strong>Best for:</strong> households of 3 to 5 who want to use it instead of the oven every day.</p>
+<h3>Moulinex Easy Fry Max 5L: the economical, affordable option</h3>
+<p><strong>Pros:</strong> 5 L, 1,500 W, touchscreen and ten automatic programmes. Moderate power with enough room for 3 to 4 people.</p>
+<p><strong>Cons:</strong> more basic finish, no app connectivity, single basket.</p>
+<p><strong>Best for:</strong> anyone who wants a simple, economical entry-level air fryer for everyday meals.</p>
 <h3>Xiaomi Smart Air Fryer Pro 4L: compact, with a window</h3>
-<p><strong>Strengths:</strong> 4 L, 1,600 W, viewing window, 40 to 200 °C range and control via the Mi Home app. The window means fewer drawer openings.</p>
-<p><strong>Limits:</strong> small for a family, and connected features assume it stays plugged in.</p>
+<p><strong>Pros:</strong> 4 L, 1,600 W, viewing window, 40–200°C range and control via the Mi Home app. Thanks to the window, you open the drawer less often.</p>
+<p><strong>Cons:</strong> too small for a family, and the smart features mean leaving it plugged in.</p>
 <p><strong>Best for:</strong> couples and small households who like to watch the cooking and use an app.</p>
 <h3>Cosori Lite 3.8L: the small format for 1 to 3 people</h3>
-<p><strong>Strengths:</strong> 3.8 L, 1,500 W, small footprint and dishwasher-safe basket. A small volume heats up quickly.</p>
-<p><strong>Limits:</strong> too small once you cook for four, basic functions.</p>
-<p><strong>Best for:</strong> singles, students, couples, or as a companion to the oven.</p>
-<h3>Cosori Dual Blaze 6.4L: two heating elements, less shaking</h3>
-<p><strong>Strengths:</strong> 6.4 L, 1,700 W, top and bottom elements that reduce the need to turn food, app and voice control.</p>
-<p><strong>Limits:</strong> fairly heavy and bulky; connectivity only helps if you use it.</p>
-<p><strong>Best for:</strong> households of 3 to 5 who want even cooking without opening the drawer mid-way.</p>
+<p><strong>Pros:</strong> 3.8 L, 1,500 W, small footprint and dishwasher-safe basket. A small volume heats up quickly.</p>
+<p><strong>Cons:</strong> too small once you cook for four, basic functions.</p>
+<p><strong>Best for:</strong> people living alone, students and couples, or as a second appliance alongside the oven.</p>
+<h3>Cosori Dual Blaze 6.4L: two heating elements, no need to shake</h3>
+<p><strong>Pros:</strong> 6.4 L, 1,700 W, top and bottom heating elements that reduce the need to turn food over, plus app and voice control.</p>
+<p><strong>Cons:</strong> fairly heavy and bulky, and the smart features only help if you use them.</p>
+<p><strong>Best for:</strong> households of 3 to 5 who want even cooking without opening the drawer halfway through.</p>
 <h3>Ninja Foodi MAX Double Stack XL (9.5 L): replacing the oven for a full meal</h3>
-<p><strong>Strengths:</strong> two stacked 4.75 L drawers, 2,470 W, and synchronised finishing so main and side are ready together. The footprint stays that of a single drawer.</p>
-<p><strong>Limits:</strong> the highest power in this selection, and a tall unit. For small quantities, use one drawer only.</p>
+<p><strong>Pros:</strong> two stacked 4.75 L drawers, 2,470 W and a sync function so the main and side are ready at the same time. It takes up no more worktop space than a single-drawer model.</p>
+<p><strong>Cons:</strong> the most powerful model in this shortlist, and a tall unit. For small quantities, use one drawer only.</p>
 <p><strong>Best for:</strong> families who used to switch the oven on most evenings for a full meal.</p>
 
 <h2>Comparison table</h2>
@@ -284,23 +284,23 @@ export const article: BlogArticle = {
 
 <h2>Mistakes that push consumption up</h2>
 <ul>
-<li><strong>Always preheating:</strong> useful for some doughs and meats, unnecessary for most frozen foods. Follow the manual.</li>
+<li><strong>Always preheating:</strong> useful for some doughs and meats, unnecessary for most frozen foods. Follow the instructions in the manual.</li>
 <li><strong>Opening the drawer too often:</strong> one shake halfway through is usually enough.</li>
-<li><strong>Overloading the basket:</strong> air cannot circulate, cooking takes longer and turns out uneven. A loose single layer works better.</li>
-<li><strong>Doing in three batches what the oven would do in one:</strong> for big gatherings, the oven is sometimes the sensible choice.</li>
-<li><strong>Leaving a connected model plugged in all the time</strong> without using its remote features.</li>
-<li><strong>Skipping cleaning:</strong> built-up grease can smoke and make cooking less even. Our <a href="/en/blog/entretien-nettoyage-airfryer">cleaning guide</a> explains how.</li>
+<li><strong>Overloading the basket:</strong> air can't circulate properly, so cooking takes longer and is less even. A single, loosely spread layer works better.</li>
+<li><strong>Doing in three batches what the oven would do in one:</strong> when you're feeding a crowd, the oven is sometimes the more sensible choice.</li>
+<li><strong>Leaving a smart model plugged in all the time</strong> without using its remote features.</li>
+<li><strong>Neglecting cleaning:</strong> built-up grease can smoke and make cooking less even. Our <a href="/en/blog/entretien-nettoyage-airfryer">cleaning guide</a> explains how.</li>
 </ul>
 
 <h2>Safety and good practice</h2>
 <ul>
 <li>Place the appliance on a stable, heat-resistant surface, never on a hob, and leave space around the air outlets as the manual specifies.</li>
-<li>Plug it straight into a wall socket where possible. If you use an extension lead or power strip, it must be rated for the appliance's power.</li>
-<li>Do not cover the whole bottom of the basket with foil or baking paper: air needs to circulate.</li>
+<li>Plug it straight into a wall socket where possible. If you use an extension lead, make sure it's rated for the appliance's wattage.</li>
+<li>Don't cover the whole bottom of the basket with foil or baking paper: the air needs to circulate.</li>
 </ul>
 
 <h2>Verdict</h2>
-<p>An air fryer really does cut electricity use when it replaces the oven for dishes that fit in its basket: around 0.7 kWh saved per meal, or roughly 100 to 250 kWh a year with regular use. The key is choosing the right capacity for your household. The <strong>Philips Airfryer 3000 Series XL</strong> is our pick for 3 to 5 people, the <strong>Moulinex Easy Fry Max 5L</strong> is the frugal, affordable option, and the <strong>Ninja Foodi MAX Double Stack XL</strong> suits families who want to leave the oven off for a full meal. On a budget, see also our <a href="/en/blog/meilleur-airfryer-petit-budget">best budget air fryers</a>.</p>`,
+<p>An air fryer really does cut electricity use when it replaces the oven for dishes that fit in its basket: around 0.7 kWh saved per meal, or roughly 100 to 250 kWh a year with regular use. The key is to choose the right capacity for your household. The <strong>Philips Airfryer 3000 Series XL</strong> is our pick for 3 to 5 people, the <strong>Moulinex Easy Fry Max 5L</strong> is the economical, affordable option, and the <strong>Ninja Foodi MAX Double Stack XL</strong> suits families who want to leave the oven off for a full meal. If you're on a tight budget, see our pick of the <a href="/en/blog/meilleur-airfryer-petit-budget">best budget air fryers</a>.</p>`,
 
     de: `<h2>Die kurze Antwort</h2>
 <p>Ja. Bei kleinen und mittleren Mengen braucht eine Heißluftfritteuse in der Regel zwei- bis dreimal weniger Strom als ein Elektrobackofen, weil sie einen viel kleineren Raum aufheizt und kaum vorgeheizt werden muss. Ein Garvorgang von 20 Minuten liegt oft bei 0,3 bis 0,5 kWh, im Backofen sind es für dasselbe Gericht rund 1 kWh.</p>
@@ -429,45 +429,45 @@ export const article: BlogArticle = {
 <p>Eine Heißluftfritteuse senkt den Stromverbrauch spürbar, wenn sie den Backofen für Gerichte ersetzt, die in ihren Korb passen: etwa 0,7 kWh weniger pro Mahlzeit, bei regelmäßiger Nutzung grob 100 bis 250 kWh im Jahr. Entscheidend ist das passende Fassungsvermögen. Der <strong>Philips Airfryer 3000 Series XL</strong> ist unsere Empfehlung für 3 bis 5 Personen, der <strong>Moulinex Easy Fry Max 5L</strong> die sparsame, günstige Option und der <strong>Ninja Foodi MAX Double Stack XL</strong> passt zu Familien, die für ein komplettes Essen den Backofen auslassen wollen. Mit kleinem Budget lohnt auch ein Blick auf unsere <a href="/de/blog/meilleur-airfryer-petit-budget">besten günstigen Heißluftfritteusen</a>.</p>`,
 
     es: `<h2>La respuesta corta</h2>
-<p>Sí. Con cantidades pequeñas y medianas, una freidora de aire suele gastar entre dos y tres veces menos electricidad que un horno eléctrico, porque calienta un espacio mucho más pequeño y apenas necesita precalentamiento. En la práctica, una sesión de 20 minutos ronda los 0,3 a 0,5 kWh, frente a cerca de 1 kWh para el mismo plato en el horno.</p>
-<p>Esta guía no se basa en mediciones de laboratorio propias. Se apoya en las potencias que publican los fabricantes, en la física básica del calentamiento y en opiniones verificadas de compradores. Todas las cifras son estimaciones en kWh con sus supuestos explicados, para que puedas adaptarlas a tu aparato y a tu contrato de luz.</p>
+<p>Sí. Con cantidades pequeñas y medianas, una freidora de aire suele gastar entre dos y tres veces menos electricidad que un horno eléctrico, porque calienta un espacio mucho más pequeño y apenas necesita precalentarse. En la práctica, 20 minutos de uso suelen suponer entre 0,3 y 0,5 kWh, frente a cerca de 1 kWh para el mismo plato en el horno.</p>
+<p>Esta guía no se basa en mediciones de laboratorio propias. Se apoya en las potencias que anuncian los fabricantes, en la física básica del calentamiento y en opiniones verificadas de compradores. Todas las cifras son estimaciones en kWh, con los supuestos a la vista, para que puedas adaptarlas a tu aparato y a tu contrato de luz.</p>
 
-<h2>Potencia (W) y energía (kWh): no confundirlas</h2>
-<p>La potencia, en vatios, es lo que el aparato toma de la red mientras la resistencia calienta. La energía consumida, en kilovatios hora, depende del tiempo que la resistencia funciona de verdad. La fórmula cabe en una línea:</p>
-<p><strong>Energía (kWh) = potencia (kW) × tiempo (h) × parte del tiempo en que la resistencia calienta</strong></p>
-<p>Una freidora de aire no funciona a plena potencia todo el rato. Cuando alcanza la temperatura, el termostato apaga y vuelve a encender la resistencia por ciclos. La parte real de calentamiento depende de la temperatura, de la cantidad de comida y del aislamiento. En esta guía usamos un supuesto prudente del 70 al 85 % del tiempo.</p>
-<p><strong>Ejemplo:</strong> una freidora de 1.500 W durante 20 minutos consume como máximo 1,5 × 1/3 = 0,5 kWh. Con los ciclos del termostato, lo realista son unos 0,35 a 0,43 kWh. Esa cifra, y no los vatios de la caja, es la que cuenta en tu factura.</p>
+<h2>Potencia (W) y energía (kWh): no es lo mismo</h2>
+<p>La potencia, en vatios, es lo que el aparato toma de la red mientras la resistencia calienta. La energía consumida, en kilovatios hora, depende del tiempo que la resistencia está calentando de verdad. La fórmula cabe en una línea:</p>
+<p><strong>Energía (kWh) = potencia (kW) × tiempo (h) × proporción del tiempo en que calienta la resistencia</strong></p>
+<p>Una freidora de aire no funciona a plena potencia todo el rato. Cuando llega a la temperatura elegida, el termostato apaga la resistencia y la vuelve a encender por ciclos. El tiempo que calienta de verdad depende de la temperatura, de la cantidad de comida y del aislamiento del aparato. En esta guía partimos de un supuesto prudente: entre el 70 y el 85 % del tiempo.</p>
+<p><strong>Ejemplo:</strong> una freidora de 1.500 W que funciona 20 minutos consume como máximo 1,5 × 1/3 = 0,5 kWh. Con los ciclos del termostato, lo normal es quedarse entre 0,35 y 0,43 kWh. Esa cifra, y no los vatios que pone en la caja, es la que cuenta en tu factura.</p>
 
-<h2>Freidora de aire, horno, freidora de aceite, microondas: órdenes de magnitud</h2>
-<p>La tabla compara sesiones típicas para 2 a 4 raciones (patatas, verduras asadas, trozos de pollo). Son estimaciones calculadas con la fórmula anterior, no lecturas de un aparato concreto.</p>
+<h2>Freidora de aire, horno, freidora de aceite y microondas: cuánto gasta cada uno</h2>
+<p>La tabla compara usos habituales para 2 a 4 raciones (patatas fritas, verduras asadas, filetes de pollo). Son estimaciones calculadas con la fórmula anterior, no mediciones de un aparato concreto.</p>
 <table>
 <thead>
-<tr><th>Aparato</th><th>Potencia típica</th><th>Tiempo típico</th><th>Energía estimada por sesión</th></tr>
+<tr><th>Aparato</th><th>Potencia habitual</th><th>Duración habitual</th><th>Energía estimada por uso</th></tr>
 </thead>
 <tbody>
-<tr><td>Freidora de aire de 4 a 6 L</td><td>1.500 a 2.000 W</td><td>15 a 22 min, precalentamiento corto o nulo</td><td>0,3 a 0,5 kWh</td></tr>
-<tr><td>Freidora de aire de doble cesta (las dos en uso)</td><td>2.400 a 2.500 W</td><td>18 a 25 min</td><td>0,5 a 0,8 kWh</td></tr>
+<tr><td>Freidora de aire de 4 a 6 L</td><td>1.500 a 2.000 W</td><td>15 a 22 min, con precalentamiento corto o sin él</td><td>0,3 a 0,5 kWh</td></tr>
+<tr><td>Freidora de aire de doble cesta (con las dos en marcha)</td><td>2.400 a 2.500 W</td><td>18 a 25 min</td><td>0,5 a 0,8 kWh</td></tr>
 <tr><td>Horno eléctrico con ventilador</td><td>2.500 a 3.500 W</td><td>10 min de precalentamiento + 20 a 25 min</td><td>0,9 a 1,3 kWh</td></tr>
-<tr><td>Freidora de aceite (2 a 3 L)</td><td>1.800 a 2.200 W</td><td>10 min para calentar el aceite + 8 a 12 min</td><td>0,4 a 0,6 kWh</td></tr>
+<tr><td>Freidora de aceite (2 a 3 L de aceite)</td><td>1.800 a 2.200 W</td><td>10 min para calentar el aceite + 8 a 12 min</td><td>0,4 a 0,6 kWh</td></tr>
 <tr><td>Microondas (recalentar)</td><td>1.000 a 1.300 W absorbidos</td><td>3 a 6 min</td><td>0,05 a 0,13 kWh</td></tr>
 </tbody>
 </table>
-<p>Para tu propio horno, fíjate en la etiqueta energética europea: indica el consumo por ciclo en kWh, en modo convencional y con ventilador, obtenido con un procedimiento normalizado. En un horno reciente y bien clasificado, ese valor suele rondar los 0,7 a 1 kWh por ciclo normalizado. Es una buena referencia para comparar con tu freidora de aire.</p>
-<p><strong>Lo esencial:</strong> para un plato que cabe en la cesta, la freidora de aire consume entre dos y tres veces menos que el horno. Frente a la freidora de aceite la diferencia en kWh es menor; allí la ventaja está sobre todo en el aceite que ahorras, en la ausencia de olor a fritura y en la seguridad. El microondas sigue siendo el más austero, pero recalienta sin dorar ni dejar crujiente.</p>
+<p>Para saber cuánto gasta tu horno, mira su etiqueta energética europea: indica el consumo por ciclo en kWh, en modo convencional y con ventilador, medido según un procedimiento normalizado. En un horno reciente con buena clase energética, ese valor suele estar entre 0,7 y 1 kWh por ciclo normalizado. Es una buena referencia para compararlo con tu freidora de aire.</p>
+<p><strong>En resumen:</strong> con un plato que cabe en la cesta, la freidora de aire consume entre dos y tres veces menos que el horno. Frente a la freidora de aceite, la diferencia en kWh es menor: ahí la ventaja de la freidora de aire está sobre todo en el aceite que te ahorras, en que no deja olor a fritura y en la seguridad. El microondas sigue siendo el que menos gasta, pero recalienta sin dorar ni dejar nada crujiente.</p>
 
 <h2>Por qué la freidora de aire consume menos</h2>
 <h3>1. Un espacio mucho más pequeño que calentar</h3>
-<p>La cavidad de un horno suele tener entre 60 y 70 litros. Una freidora de aire, incluso grande, ofrece de 4 a 10 litros. Menos aire y menos paredes que llevar a 200 °C significan menos energía perdida antes de empezar a cocinar.</p>
+<p>La cavidad de un horno suele tener entre 60 y 70 litros. Una freidora de aire, incluso de las grandes, tiene de 4 a 10 litros. Menos aire y menos paredes que llevar a 200 °C: menos energía perdida antes incluso de empezar a cocinar.</p>
 <h3>2. Precalentamiento corto o innecesario</h3>
-<p>Un horno tarda a menudo unos diez minutos en llegar a 200 °C, gastando sin cocinar. Una freidora de aire se calienta en pocos minutos y, para muchos congelados, los fabricantes indican que se puede prescindir del precalentamiento.</p>
+<p>Un horno suele tardar unos diez minutos en llegar a 200 °C, y mientras tanto gasta sin cocinar nada. Una freidora de aire se calienta en pocos minutos y, con muchos congelados, los fabricantes indican que ni siquiera hace falta precalentarla.</p>
 <h3>3. Calor concentrado sobre los alimentos</h3>
-<p>El ventilador proyecta el aire caliente directamente sobre la comida, a pocos centímetros de la resistencia. Los tiempos de cocción suelen ser algo más cortos que en el horno, lo que reduce aún más el tiempo de calentamiento.</p>
+<p>El ventilador lanza el aire caliente directamente sobre la comida, a pocos centímetros de la resistencia. Los tiempos de cocción suelen ser algo más cortos que en el horno, lo que reduce todavía más el tiempo que la resistencia está calentando.</p>
 
-<h2>Ahorro anual, calculado en kWh</h2>
-<p>Supuesto: sustituyes una sesión de horno (unos 1,1 kWh) por una de freidora de aire (unos 0,4 kWh). El ahorro es de unos 0,7 kWh por comida.</p>
+<h2>Cuánto se ahorra al año, en kWh</h2>
+<p>Partimos de este supuesto: en lugar de encender el horno (unos 1,1 kWh), usas la freidora de aire (unos 0,4 kWh). Ahorras, por tanto, unos 0,7 kWh por comida.</p>
 <table>
 <thead>
-<tr><th>Uso en lugar del horno</th><th>Sesiones al año</th><th>kWh ahorrados al año (estimación)</th></tr>
+<tr><th>Frecuencia de uso en lugar del horno</th><th>Usos al año</th><th>kWh ahorrados al año (estimación)</th></tr>
 </thead>
 <tbody>
 <tr><td>1 vez por semana</td><td>52</td><td>unos 36 kWh</td></tr>
@@ -476,110 +476,110 @@ export const article: BlogArticle = {
 <tr><td>Todos los días</td><td>365</td><td>unos 256 kWh</td></tr>
 </tbody>
 </table>
-<p><strong>Pasar los kWh a euros:</strong> multiplica los kWh ahorrados por el precio del kWh de tu factura. Por ejemplo, con una tarifa de ejemplo de 0,25 €/kWh, que debes sustituir por la tuya: 182 kWh × 0,25 = unos 45 € al año con cinco sesiones por semana. Si tu tarifa es más alta o tienes discriminación horaria, el resultado cambia en proporción.</p>
-<p>Frente a una freidora de aceite, el ahorro se queda en unos 0,1 a 0,2 kWh por sesión, es decir, de 5 a 10 kWh al año con un uso semanal. La ventaja real es el aceite que ya no compras, filtras ni tiras. Más detalles en nuestra <a href="/es/blog/airfryer-vs-friteuse-traditionnelle">comparativa freidora de aire vs freidora tradicional</a>.</p>
-<p><strong>Cuándo la freidora de aire no ahorra nada:</strong> si cocinas para seis y necesitas tres tandas, tres sesiones de 0,4 kWh suman 1,2 kWh, lo mismo que un horno lleno de una sola vez. La freidora es ahorradora cuando el plato cabe en la cesta, no cuando hay que repetirlo. Nuestra <a href="/es/guides/airfryer-vs-four">comparativa freidora de aire vs horno</a> explica cuándo sigue teniendo sentido el horno.</p>
+<p><strong>Pasar los kWh a euros:</strong> multiplica los kWh ahorrados por el precio del kWh que aparece en tu factura. Con un precio de ejemplo de 0,25 €/kWh (cámbialo por el tuyo): 182 kWh × 0,25 = unos 45 € al año con cinco usos por semana. Si pagas más por el kWh o tienes una tarifa con discriminación horaria, el resultado varía en proporción.</p>
+<p>Frente a una freidora de aceite, el ahorro se queda en 0,1-0,2 kWh por uso, es decir, de 5 a 10 kWh al año si la usas una vez por semana. La ventaja está en otra parte: el aceite que ya no compras, filtras ni tiras. Lo explicamos a fondo en nuestra <a href="/es/blog/airfryer-vs-friteuse-traditionnelle">comparativa de freidora de aire y freidora de aceite</a>.</p>
+<p><strong>Cuándo la freidora de aire no ahorra nada:</strong> si cocinas para seis y tienes que hacer tres tandas, tres usos de 0,4 kWh suman 1,2 kWh, lo mismo que un horno lleno de una sola vez. La freidora de aire ahorra cuando el plato cabe en la cesta, no cuando hay que hacerlo en varias tandas. En nuestra <a href="/es/guides/airfryer-vs-four">comparativa de freidora de aire y horno</a> verás en qué casos sigue compensando el horno.</p>
 
 <h2>Lo que de verdad importa para gastar menos</h2>
 <ul>
-<li><strong>Una capacidad adecuada al hogar:</strong> es el criterio principal. Un modelo grande medio vacío calienta aire para nada; uno demasiado pequeño obliga a hacer varias tandas. Como referencia, 3 a 4 L para 1 o 2 personas, 5 a 6 L para 3 o 4, y más a partir de ahí.</li>
-<li><strong>Más vatios no es un defecto:</strong> un modelo más potente se calienta antes y después funciona más a ciclos. Con el mismo volumen, la diferencia de consumo real entre 1.500 y 2.000 W es mucho menor que la diferencia de potencia anunciada.</li>
-<li><strong>Ventana de control:</strong> evita abrir el cajón para mirar y perder el calor acumulado.</li>
-<li><strong>Doble cesta, solo si la usas:</strong> permite cocinar plato principal y guarnición a la vez en lugar de dos sesiones seguidas. Para un único alimento, usa una sola cesta.</li>
-<li><strong>Modo de espera:</strong> un aparato que consume 1 W sin parar gasta 8,76 kWh al año (1 W × 8.760 h). Los modelos conectados pueden mantener el wifi activo; desenchúfalos o usa una regleta con interruptor si no usas el control a distancia.</li>
-<li><strong>Compruébalo tú mismo:</strong> un enchufe inteligente con medición de energía muestra el consumo real de cada sesión. Consulta nuestra <a href="/es/blog/comparatif-smart-plugs-mesure-energie">comparativa de enchufes inteligentes con medición de consumo</a>.</li>
+<li><strong>Una capacidad adaptada a tu hogar:</strong> es lo más importante. Un modelo grande medio vacío calienta aire de más; uno demasiado pequeño te obliga a hacer varias tandas. Como referencia: de 3 a 4 L para 1 o 2 personas, de 5 a 6 L para 3 o 4, y más si sois más.</li>
+<li><strong>Más potencia no es un defecto:</strong> un modelo más potente se calienta antes y luego el termostato corta la resistencia más a menudo. A igual capacidad, la diferencia de consumo real entre 1.500 y 2.000 W es mucho menor de lo que hace pensar la potencia anunciada.</li>
+<li><strong>Una ventana:</strong> así no tienes que abrir el cajón para ver cómo va, y no pierdes el calor acumulado.</li>
+<li><strong>Doble cesta, solo si vas a usar las dos:</strong> te permite cocinar el plato principal y la guarnición a la vez en lugar de hacer dos tandas seguidas. Para un solo alimento, usa una sola zona.</li>
+<li><strong>El consumo en espera:</strong> un aparato que gasta 1 W sin parar consume 8,76 kWh al año (1 W × 8.760 h). Los modelos con wifi pueden dejarlo siempre activo: desenchúfalos o usa una regleta con interruptor si no los manejas a distancia desde la app.</li>
+<li><strong>Compruébalo tú mismo:</strong> un enchufe inteligente con medidor de consumo te enseña lo que gasta de verdad tu aparato, uso a uso. Echa un vistazo a nuestra <a href="/es/blog/comparatif-smart-plugs-mesure-energie">comparativa de enchufes inteligentes con medidor de consumo</a>.</li>
 </ul>
 
-<h2>Modelos a tener en cuenta según tu hogar</h2>
-<p>Esta selección se basa en las fichas técnicas de los fabricantes, en análisis independientes y en opiniones verificadas de compradores. La potencia indicada es la que anuncia el fabricante.</p>
-<h3>Philips Airfryer Serie 3000 XL (6,2 L): el equilibrio para 3 a 5 personas</h3>
-<p><strong>Puntos fuertes:</strong> 6,2 L y 1,2 kg de alimentos en una sola cesta, 2.000 W, muchos programas y función de mantener caliente. Una cesta que basta para una familia mediana significa una sola tanda, y de ahí sale el ahorro.</p>
-<p><strong>Límites:</strong> sin ventana de control y con un solo compartimento para plato y guarnición.</p>
-<p><strong>Para quién:</strong> hogares de 3 a 5 personas que quieren sustituir el horno a diario.</p>
-<h3>Moulinex Easy Fry Max 5L: la opción austera y asequible</h3>
-<p><strong>Puntos fuertes:</strong> 5 L, 1.500 W, pantalla táctil y diez programas automáticos. Potencia moderada y espacio suficiente para 3 o 4 personas.</p>
-<p><strong>Límites:</strong> acabados más sencillos, sin conectividad, una sola cesta.</p>
-<p><strong>Para quién:</strong> quien busca una freidora de gama de entrada, sencilla y ahorradora para el día a día.</p>
+<h2>Qué modelo elegir según tu hogar</h2>
+<p>Esta selección se basa en las fichas técnicas de los fabricantes, en análisis independientes y en opiniones verificadas de compradores. La potencia que indicamos es la que anuncia el fabricante.</p>
+<h3>Philips Airfryer Serie 3000 XL (6,2 L): la opción equilibrada para 3 a 5 personas</h3>
+<p><strong>Puntos fuertes:</strong> 6,2 L y 1,2 kg de alimentos en una sola cesta, 2.000 W, muchos programas y función para mantener caliente. Con una sola cesta cocinas para una familia mediana en una única tanda, y ahí está la clave del ahorro.</p>
+<p><strong>Puntos débiles:</strong> no tiene ventana y solo hay un compartimento para el plato y la guarnición.</p>
+<p><strong>Para quién:</strong> hogares de 3 a 5 personas que quieren usarla a diario en lugar del horno.</p>
+<h3>Moulinex Easy Fry Max 5L: la opción ahorradora y asequible</h3>
+<p><strong>Puntos fuertes:</strong> 5 L, 1.500 W, pantalla táctil y diez programas automáticos. Potencia moderada y capacidad suficiente para 3 o 4 personas.</p>
+<p><strong>Puntos débiles:</strong> acabados más sencillos, sin wifi y con una sola cesta.</p>
+<p><strong>Para quién:</strong> quien busca una freidora de aire básica, sencilla y que gaste poco para el día a día.</p>
 <h3>Xiaomi Smart Air Fryer Pro 4L: compacta y con ventana</h3>
-<p><strong>Puntos fuertes:</strong> 4 L, 1.600 W, ventana de control, ajuste de 40 a 200 °C y control desde la app Mi Home. La ventana reduce las aperturas del cajón.</p>
-<p><strong>Límites:</strong> capacidad justa para una familia y funciones conectadas que implican dejarla enchufada.</p>
+<p><strong>Puntos fuertes:</strong> 4 L, 1.600 W, ventana, temperatura regulable de 40 a 200 °C y control desde la app Mi Home. Con la ventana, abres menos el cajón.</p>
+<p><strong>Puntos débiles:</strong> se queda pequeña para una familia, y las funciones conectadas obligan a dejarla enchufada.</p>
 <p><strong>Para quién:</strong> parejas y hogares pequeños a los que les gusta seguir la cocción y usar una app.</p>
 <h3>Cosori Lite 3.8L: el formato pequeño para 1 a 3 personas</h3>
-<p><strong>Puntos fuertes:</strong> 3,8 L, 1.500 W, poco espacio en la encimera y cesta apta para lavavajillas. Un volumen pequeño se calienta rápido.</p>
-<p><strong>Límites:</strong> se queda corta para cuatro personas, funciones básicas.</p>
-<p><strong>Para quién:</strong> personas solas, estudiantes, parejas o como complemento del horno.</p>
-<h3>Cosori Dual Blaze 6,4 L: dos resistencias, menos necesidad de agitar</h3>
+<p><strong>Puntos fuertes:</strong> 3,8 L, 1.500 W, ocupa poco en la encimera y la cesta se puede lavar en el lavavajillas. Un volumen pequeño se calienta rápido.</p>
+<p><strong>Puntos débiles:</strong> se queda pequeña en cuanto cocinas para cuatro, y sus funciones son básicas.</p>
+<p><strong>Para quién:</strong> personas que viven solas, estudiantes, parejas o como complemento del horno.</p>
+<h3>Cosori Dual Blaze 6,4 L: dos resistencias para no tener que agitar</h3>
 <p><strong>Puntos fuertes:</strong> 6,4 L, 1.700 W, resistencias arriba y abajo que reducen la necesidad de dar la vuelta a los alimentos, app y control por voz.</p>
-<p><strong>Límites:</strong> bastante pesada y voluminosa; la conectividad solo aporta si la usas.</p>
-<p><strong>Para quién:</strong> hogares de 3 a 5 personas que quieren una cocción uniforme sin abrir el cajón a mitad.</p>
-<h3>Ninja Foodi MAX Double Stack XL (9,5 L): sustituir el horno en una comida completa</h3>
-<p><strong>Puntos fuertes:</strong> dos cestas apiladas de 4,75 L, 2.470 W y sincronización para que plato y guarnición terminen a la vez. Ocupa la superficie de una sola cesta.</p>
-<p><strong>Límites:</strong> la potencia más alta de esta selección y un aparato alto. Para poca cantidad, usa una sola cesta.</p>
-<p><strong>Para quién:</strong> familias que encendían el horno casi cada noche para una comida completa.</p>
+<p><strong>Puntos débiles:</strong> bastante pesada y voluminosa; la app solo compensa si de verdad la usas.</p>
+<p><strong>Para quién:</strong> hogares de 3 a 5 personas que quieren una cocción uniforme sin abrir el cajón a medio cocinar.</p>
+<h3>Ninja Foodi MAX Double Stack XL (9,5 L): una comida completa sin encender el horno</h3>
+<p><strong>Puntos fuertes:</strong> dos cajones superpuestos de 4,75 L, 2.470 W y sincronización de las dos zonas para que el plato principal y la guarnición estén listos a la vez. En la encimera ocupa lo mismo que una freidora de un solo cajón.</p>
+<p><strong>Puntos débiles:</strong> es la más potente de esta selección y bastante alta. Para poca cantidad, usa un solo cajón.</p>
+<p><strong>Para quién:</strong> familias que encendían el horno casi todas las noches para preparar una comida completa.</p>
 
 <h2>Tabla comparativa</h2>
-<p>La última columna es un techo teórico para 20 minutos a plena potencia (potencia × 1/3 h). El consumo real es menor gracias al termostato, y un modelo más grande puede ser más eficiente por ración si evita una segunda tanda.</p>
+<p>La última columna indica el consumo máximo teórico en 20 minutos a plena potencia (potencia × 1/3 h). El consumo real es menor gracias al termostato, y un modelo más grande puede gastar menos por ración si te ahorra una segunda tanda.</p>
 <table>
 <thead>
-<tr><th>Modelo</th><th>Potencia anunciada</th><th>Capacidad</th><th>Techo teórico en 20 min</th><th>Ideal para</th></tr>
+<tr><th>Modelo</th><th>Potencia anunciada</th><th>Capacidad</th><th>Máximo teórico en 20 min</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
 <tr><td>Philips Airfryer Serie 3000 XL</td><td>2.000 W</td><td>6,2 L</td><td>0,67 kWh</td><td>3 a 5 personas</td></tr>
 <tr><td>Moulinex Easy Fry Max 5L</td><td>1.500 W</td><td>5 L</td><td>0,50 kWh</td><td>3 a 4 personas, presupuesto ajustado</td></tr>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>1.600 W</td><td>4 L</td><td>0,53 kWh</td><td>2 a 3 personas, uso de app</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>1.600 W</td><td>4 L</td><td>0,53 kWh</td><td>2 a 3 personas, con app</td></tr>
 <tr><td>Cosori Lite 3.8L</td><td>1.500 W</td><td>3,8 L</td><td>0,50 kWh</td><td>1 a 3 personas</td></tr>
 <tr><td>Cosori Dual Blaze 6,4 L</td><td>1.700 W</td><td>6,4 L</td><td>0,57 kWh</td><td>3 a 5 personas, cocción uniforme</td></tr>
-<tr><td>Ninja Foodi MAX Double Stack XL</td><td>2.470 W</td><td>9,5 L (2 × 4,75 L)</td><td>0,82 kWh (dos cestas)</td><td>familias, comidas completas</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>2.470 W</td><td>9,5 L (2 × 4,75 L)</td><td>0,82 kWh (dos cajones)</td><td>familias, comidas completas</td></tr>
 </tbody>
 </table>
-<p>Para más modelos, consulta nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a>.</p>
+<p>Si quieres ver más modelos, consulta nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a>.</p>
 
 <h2>Errores que disparan el consumo</h2>
 <ul>
-<li><strong>Precalentar siempre:</strong> útil para algunas masas y carnes, innecesario para la mayoría de congelados. Sigue las indicaciones del manual.</li>
-<li><strong>Abrir el cajón demasiado:</strong> suele bastar con agitar una vez a mitad de cocción.</li>
-<li><strong>Llenar demasiado la cesta:</strong> el aire circula mal, la cocción se alarga y queda desigual. Mejor una capa suelta.</li>
-<li><strong>Hacer en tres tandas lo que el horno haría en una:</strong> para comidas grandes, el horno a veces es lo más razonable.</li>
-<li><strong>Dejar enchufado un modelo conectado</strong> sin usar sus funciones a distancia.</li>
-<li><strong>Descuidar la limpieza:</strong> la grasa acumulada puede humear y hacer la cocción menos regular. Nuestra <a href="/es/blog/entretien-nettoyage-airfryer">guía de limpieza</a> explica cómo hacerlo.</li>
+<li><strong>Precalentar siempre:</strong> es útil para algunas masas y carnes, pero innecesario con la mayoría de los congelados. Sigue las indicaciones del manual.</li>
+<li><strong>Abrir el cajón cada dos por tres:</strong> normalmente basta con agitar una vez a mitad de cocción.</li>
+<li><strong>Llenar la cesta hasta arriba:</strong> el aire circula mal y la cocción se alarga y queda desigual. Mejor una sola capa, sin amontonar.</li>
+<li><strong>Hacer en tres tandas lo que el horno haría en una:</strong> cuando sois muchos a la mesa, a veces lo más sensato sigue siendo el horno.</li>
+<li><strong>Dejar siempre enchufado un modelo con wifi</strong> sin usar sus funciones a distancia.</li>
+<li><strong>Descuidar la limpieza:</strong> la grasa acumulada puede echar humo y hacer que la cocción sea menos uniforme. En nuestra <a href="/es/blog/entretien-nettoyage-airfryer">guía de limpieza y mantenimiento</a> te explicamos cómo hacerlo.</li>
 </ul>
 
 <h2>Seguridad y buen uso</h2>
 <ul>
-<li>Coloca el aparato sobre una superficie estable y resistente al calor, nunca sobre la placa de cocina, y deja el espacio que indica el manual alrededor de las salidas de aire.</li>
-<li>Enchúfalo directamente a la pared siempre que puedas. Si usas un alargador o una regleta, debe soportar la potencia del aparato.</li>
-<li>No cubras todo el fondo de la cesta con papel de aluminio o de horno: el aire tiene que circular.</li>
+<li>Coloca el aparato sobre una superficie estable y resistente al calor, nunca encima de la placa de cocina, y deja alrededor de las salidas de aire el espacio que indica el manual.</li>
+<li>Siempre que puedas, enchúfalo directamente a la pared. Si usas un alargador o una regleta, tiene que soportar la potencia del aparato.</li>
+<li>No cubras todo el fondo de la cesta con papel de aluminio o de horno: el aire tiene que poder circular.</li>
 </ul>
 
 <h2>Veredicto</h2>
-<p>Una freidora de aire reduce de verdad el consumo eléctrico cuando sustituye al horno en platos que caben en su cesta: unos 0,7 kWh menos por comida, es decir, del orden de 100 a 250 kWh al año con un uso regular. La clave es elegir la capacidad adecuada para tu hogar. La <strong>Philips Airfryer Serie 3000 XL</strong> es nuestra elección para 3 a 5 personas, la <strong>Moulinex Easy Fry Max 5L</strong> es la opción austera y asequible, y la <strong>Ninja Foodi MAX Double Stack XL</strong> encaja con las familias que quieren dejar el horno apagado en una comida completa. Con presupuesto ajustado, mira también nuestras <a href="/es/blog/meilleur-airfryer-petit-budget">mejores freidoras de aire baratas</a>.</p>`,
+<p>Una freidora de aire reduce de verdad el consumo eléctrico cuando sustituye al horno en platos que caben en su cesta: unos 0,7 kWh menos por comida, es decir, entre 100 y 250 kWh al año si la usas con regularidad. Lo importante es elegir la capacidad adecuada para tu hogar. La <strong>Philips Airfryer Serie 3000 XL</strong> es nuestra favorita para 3 a 5 personas, la <strong>Moulinex Easy Fry Max 5L</strong> es la opción ahorradora y asequible, y la <strong>Ninja Foodi MAX Double Stack XL</strong> es ideal para las familias que quieren preparar una comida completa sin encender el horno. Si tienes poco presupuesto, echa un vistazo también a nuestra selección de las <a href="/es/blog/meilleur-airfryer-petit-budget">mejores freidoras de aire baratas</a>.</p>`,
 
     it: `<h2>La risposta breve</h2>
-<p>Sì. Per quantità piccole e medie, una friggitrice ad aria consuma in genere da due a tre volte meno elettricità di un forno elettrico, perché scalda uno spazio molto più piccolo e richiede poco o nessun preriscaldamento. In pratica, una sessione di 20 minuti si aggira spesso sui 0,3-0,5 kWh, contro circa 1 kWh per lo stesso piatto in forno.</p>
-<p>Questa guida non si basa su misurazioni di laboratorio proprie. Si fonda sulle potenze dichiarate dai produttori, sulla fisica di base del riscaldamento e sui riscontri verificati degli acquirenti. Tutti i valori sono stime in kWh con le ipotesi dichiarate, così puoi adattarli al tuo apparecchio e al tuo contratto di fornitura.</p>
+<p>Sì. Per quantità piccole e medie, una friggitrice ad aria consuma in genere la metà, se non un terzo, dell'elettricità di un forno elettrico, perché scalda uno spazio molto più piccolo e ha bisogno di poco o nessun preriscaldamento. In pratica, una cottura di 20 minuti consuma spesso 0,3-0,5 kWh, contro circa 1 kWh per lo stesso piatto in forno.</p>
+<p>Questa guida non si basa su nostre misurazioni di laboratorio, ma sulle potenze dichiarate dai produttori, sulla fisica di base del riscaldamento e sui riscontri verificati degli acquirenti. Tutti i valori che seguono sono stime in kWh, con le relative ipotesi, così puoi adattarli al tuo apparecchio e al tuo contratto di fornitura.</p>
 
 <h2>Potenza (W) ed energia (kWh): non confonderle</h2>
 <p>La potenza, in watt, è ciò che l'apparecchio assorbe dalla rete mentre la resistenza scalda. L'energia consumata, in chilowattora, dipende da quanto tempo la resistenza lavora davvero. La formula sta in una riga:</p>
 <p><strong>Energia (kWh) = potenza (kW) × durata (h) × quota di tempo in cui la resistenza scalda</strong></p>
-<p>Una friggitrice ad aria non lavora sempre alla massima potenza. Raggiunta la temperatura, il termostato spegne e riaccende la resistenza a cicli. La quota effettiva di riscaldamento dipende dalla temperatura impostata, dalla quantità di cibo e dall'isolamento. In questa guida usiamo un'ipotesi prudente del 70-85% del tempo.</p>
+<p>Una friggitrice ad aria non lavora sempre alla massima potenza. Raggiunta la temperatura, il termostato spegne e riaccende la resistenza a cicli. La quota effettiva di riscaldamento dipende dalla temperatura impostata, dalla quantità di cibo e dall'isolamento dell'apparecchio. In questa guida usiamo un'ipotesi prudente del 70-85% del tempo.</p>
 <p><strong>Esempio:</strong> una friggitrice da 1.500 W usata per 20 minuti consuma al massimo 1,5 × 1/3 = 0,5 kWh. Con i cicli del termostato si arriva più realisticamente a 0,35-0,43 kWh. È questo valore, non i watt scritti sulla scatola, a pesare in bolletta.</p>
 
-<h2>Friggitrice ad aria, forno, friggitrice a olio, microonde: ordini di grandezza</h2>
-<p>La tabella confronta sessioni tipiche per 2-4 porzioni (patatine, verdure arrosto, pezzi di pollo). Sono stime calcolate con la formula sopra, non letture di un apparecchio specifico.</p>
+<h2>Friggitrice ad aria, forno, friggitrice a olio, microonde: gli ordini di grandezza</h2>
+<p>La tabella confronta cotture tipiche per 2-4 porzioni (patatine, verdure arrosto, pezzi di pollo). Sono stime calcolate con la formula qui sopra, non misure rilevate su un apparecchio specifico.</p>
 <table>
 <thead>
-<tr><th>Apparecchio</th><th>Potenza tipica</th><th>Durata tipica</th><th>Energia stimata per sessione</th></tr>
+<tr><th>Apparecchio</th><th>Potenza tipica</th><th>Durata tipica</th><th>Energia stimata per cottura</th></tr>
 </thead>
 <tbody>
 <tr><td>Friggitrice ad aria da 4 a 6 L</td><td>1.500-2.000 W</td><td>15-22 min, preriscaldamento breve o assente</td><td>0,3-0,5 kWh</td></tr>
 <tr><td>Friggitrice ad aria a doppio cestello (entrambi in uso)</td><td>2.400-2.500 W</td><td>18-25 min</td><td>0,5-0,8 kWh</td></tr>
 <tr><td>Forno elettrico ventilato</td><td>2.500-3.500 W</td><td>10 min di preriscaldamento + 20-25 min</td><td>0,9-1,3 kWh</td></tr>
-<tr><td>Friggitrice a olio (2-3 L)</td><td>1.800-2.200 W</td><td>10 min per scaldare l'olio + 8-12 min</td><td>0,4-0,6 kWh</td></tr>
-<tr><td>Microonde (riscaldare)</td><td>1.000-1.300 W assorbiti</td><td>3-6 min</td><td>0,05-0,13 kWh</td></tr>
+<tr><td>Friggitrice a olio (2-3 L d'olio)</td><td>1.800-2.200 W</td><td>10 min per scaldare l'olio + 8-12 min</td><td>0,4-0,6 kWh</td></tr>
+<tr><td>Microonde (per riscaldare)</td><td>1.000-1.300 W assorbiti</td><td>3-6 min</td><td>0,05-0,13 kWh</td></tr>
 </tbody>
 </table>
 <p>Per il tuo forno, guarda l'etichetta energetica europea: riporta il consumo per ciclo in kWh, in modalità statica e ventilata, ricavato con una procedura normalizzata. Per un forno recente ben classificato questo valore si aggira spesso sui 0,7-1 kWh per ciclo normalizzato. È una buona base di confronto con la tua friggitrice ad aria.</p>
-<p><strong>Da ricordare:</strong> per un piatto che sta nel cestello, la friggitrice ad aria consuma circa da due a tre volte meno del forno. Rispetto alla friggitrice a olio il divario in kWh è minore; lì i vantaggi sono soprattutto l'olio risparmiato, niente odore di fritto e più sicurezza. Il microonde resta il più parsimonioso, ma riscalda senza dorare né rendere croccante.</p>
+<p><strong>Da ricordare:</strong> per un piatto che sta nel cestello, la friggitrice ad aria consuma circa la metà, se non un terzo, del forno. Rispetto alla friggitrice a olio la differenza in kWh è minore: il vantaggio sta soprattutto nell'olio risparmiato, nell'assenza di odore di fritto e nella sicurezza. Il microonde resta il più parsimonioso, ma riscalda senza dorare né rendere croccante.</p>
 
 <h2>Perché la friggitrice ad aria consuma meno</h2>
 <h3>1. Uno spazio molto più piccolo da scaldare</h3>
@@ -587,13 +587,13 @@ export const article: BlogArticle = {
 <h3>2. Preriscaldamento breve o superfluo</h3>
 <p>Un forno impiega spesso una decina di minuti per arrivare a 200 °C, consumando senza cuocere. Una friggitrice ad aria va in temperatura in pochi minuti e, per molti surgelati, i produttori indicano che si può saltare il preriscaldamento.</p>
 <h3>3. Calore concentrato sul cibo</h3>
-<p>La ventola spinge l'aria calda direttamente sugli alimenti, a pochi centimetri dalla resistenza. I tempi di cottura sono spesso un po' più brevi che in forno, riducendo ancora il tempo di riscaldamento.</p>
+<p>La ventola spinge l'aria calda direttamente sugli alimenti, a pochi centimetri dalla resistenza. I tempi di cottura sono spesso un po' più brevi che in forno, e questo riduce ancora il tempo in cui la resistenza resta accesa.</p>
 
 <h2>Risparmio annuo, calcolato in kWh</h2>
-<p>Ipotesi: sostituisci una sessione di forno (circa 1,1 kWh) con una di friggitrice ad aria (circa 0,4 kWh). Il risparmio è di circa 0,7 kWh a pasto.</p>
+<p>Ipotesi di calcolo: sostituisci una cottura in forno (circa 1,1 kWh) con una cottura in friggitrice ad aria (circa 0,4 kWh). Il risparmio è di circa 0,7 kWh a pasto.</p>
 <table>
 <thead>
-<tr><th>Uso al posto del forno</th><th>Sessioni all'anno</th><th>kWh risparmiati all'anno (stima)</th></tr>
+<tr><th>Frequenza d'uso al posto del forno</th><th>Cotture all'anno</th><th>kWh risparmiati all'anno (stima)</th></tr>
 </thead>
 <tbody>
 <tr><td>1 volta a settimana</td><td>52</td><td>circa 36 kWh</td></tr>
@@ -602,18 +602,18 @@ export const article: BlogArticle = {
 <tr><td>Tutti i giorni</td><td>365</td><td>circa 256 kWh</td></tr>
 </tbody>
 </table>
-<p><strong>Convertire in euro:</strong> moltiplica i kWh risparmiati per il prezzo del kWh indicato in bolletta. Ad esempio, con una tariffa di esempio di 0,25 €/kWh, da sostituire con la tua: 182 kWh × 0,25 = circa 45 € all'anno con cinque sessioni a settimana. Se la tua tariffa è più alta o hai fasce orarie, il risultato cambia in proporzione.</p>
-<p>Rispetto a una friggitrice a olio, il risparmio si limita a circa 0,1-0,2 kWh a sessione, cioè 5-10 kWh all'anno con un uso settimanale. Il vero guadagno è l'olio che non compri, non filtri e non smaltisci più. Approfondisci nel nostro <a href="/it/blog/airfryer-vs-friteuse-traditionnelle">confronto friggitrice ad aria vs friggitrice tradizionale</a>.</p>
-<p><strong>Quando la friggitrice ad aria non fa risparmiare:</strong> se cucini per sei e servono tre infornate, tre sessioni da 0,4 kWh fanno 1,2 kWh, quanto un forno pieno in una volta sola. La friggitrice è parsimoniosa quando il piatto sta nel cestello, non quando bisogna ripeterlo. Il nostro <a href="/it/guides/airfryer-vs-four">confronto friggitrice ad aria vs forno</a> spiega quando il forno resta la scelta giusta.</p>
+<p><strong>Convertire in euro:</strong> moltiplica i kWh risparmiati per il prezzo del kWh indicato in bolletta. Con una tariffa di esempio di 0,25 €/kWh, da sostituire con la tua: 182 kWh × 0,25 = circa 45 € all'anno per cinque cotture a settimana. Se la tua tariffa è più alta o hai fasce orarie, il risultato cambia in proporzione.</p>
+<p>Rispetto a una friggitrice a olio, il risparmio si limita a circa 0,1-0,2 kWh a cottura, cioè 5-10 kWh all'anno con un uso settimanale. Il vero guadagno è l'olio che non compri, non filtri e non smaltisci più. Approfondisci nel nostro <a href="/it/blog/airfryer-vs-friteuse-traditionnelle">confronto tra friggitrice ad aria e friggitrice tradizionale</a>.</p>
+<p><strong>Quando la friggitrice ad aria non fa risparmiare:</strong> se cucini per sei e servono tre infornate, tre sessioni da 0,4 kWh fanno 1,2 kWh, quanto un forno pieno in una volta sola. La friggitrice ad aria fa risparmiare quando il piatto sta tutto nel cestello, non quando bisogna cuocerlo in più volte. Il nostro <a href="/it/guides/airfryer-vs-four">confronto tra friggitrice ad aria e forno</a> spiega quando il forno resta la scelta giusta.</p>
 
 <h2>Cosa conta davvero per consumare meno</h2>
 <ul>
 <li><strong>Una capacità adatta alla famiglia:</strong> è il criterio principale. Un modello grande mezzo vuoto scalda aria inutilmente, uno troppo piccolo costringe a più infornate. Come riferimento, 3-4 L per 1-2 persone, 5-6 L per 3-4 persone, di più oltre.</li>
-<li><strong>Più watt non è un difetto:</strong> un modello più potente si scalda prima e poi lavora di più a cicli. A parità di volume, la differenza di consumo reale tra 1.500 e 2.000 W è molto inferiore alla differenza di potenza dichiarata.</li>
-<li><strong>Finestra di controllo:</strong> evita di aprire il cassetto per controllare e di disperdere il calore.</li>
-<li><strong>Doppio cestello, solo se lo usi:</strong> permette di cuocere secondo e contorno insieme invece di due sessioni di fila. Per un solo alimento, usa un solo cestello.</li>
-<li><strong>Standby:</strong> un apparecchio che assorbe 1 W ininterrottamente consuma 8,76 kWh all'anno (1 W × 8.760 h). I modelli connessi possono tenere attivo il Wi-Fi; staccali o usa una ciabatta con interruttore se non usi il controllo a distanza.</li>
-<li><strong>Verificalo da te:</strong> una presa smart con misurazione dei consumi mostra il consumo reale di ogni sessione. Vedi il nostro <a href="/it/blog/comparatif-smart-plugs-mesure-energie">confronto delle prese smart con misurazione dei consumi</a>.</li>
+<li><strong>Più watt non è un difetto:</strong> un modello più potente si scalda prima e poi spegne la resistenza più spesso. A parità di volume, la differenza di consumo reale tra 1.500 e 2.000 W è molto inferiore alla differenza di potenza dichiarata.</li>
+<li><strong>Finestra di controllo:</strong> ti evita di aprire il cestello per controllare la cottura, e quindi di disperdere il calore accumulato.</li>
+<li><strong>Doppio cestello, solo se lo usi:</strong> permette di cuocere secondo e contorno insieme invece di fare due cotture di fila. Per un solo alimento, usa un solo cestello.</li>
+<li><strong>Standby:</strong> un apparecchio che assorbe 1 W ininterrottamente consuma 8,76 kWh all'anno (1 W × 8.760 h). I modelli smart possono tenere attivo il Wi-Fi: se non usi l'app a distanza, staccali dalla presa o usa una ciabatta con interruttore.</li>
+<li><strong>Verificalo da te:</strong> una presa smart con misurazione dei consumi mostra il consumo reale del tuo apparecchio, cottura per cottura. Vedi il nostro <a href="/it/blog/comparatif-smart-plugs-mesure-energie">confronto delle prese smart con misurazione dei consumi</a>.</li>
 </ul>
 
 <h2>I modelli da considerare in base alla famiglia</h2>
@@ -621,23 +621,23 @@ export const article: BlogArticle = {
 <h3>Philips Airfryer Serie 3000 XL (6,2 L): l'equilibrio per 3-5 persone</h3>
 <p><strong>Punti di forza:</strong> 6,2 L e 1,2 kg di cibo in un unico cestello, 2.000 W, numerosi programmi e funzione di mantenimento in caldo. Un cestello sufficiente per una famiglia media significa una sola infornata, ed è lì che nasce il risparmio.</p>
 <p><strong>Limiti:</strong> niente finestra di controllo, un solo scomparto per secondo e contorno.</p>
-<p><strong>Per chi:</strong> famiglie di 3-5 persone che vogliono sostituire il forno ogni giorno.</p>
+<p><strong>Per chi:</strong> famiglie di 3-5 persone che vogliono usarla al posto del forno tutti i giorni.</p>
 <h3>Moulinex Easy Fry Max 5L: la scelta parsimoniosa e accessibile</h3>
 <p><strong>Punti di forza:</strong> 5 L, 1.500 W, display touch e dieci programmi automatici. Potenza moderata e spazio sufficiente per 3-4 persone.</p>
 <p><strong>Limiti:</strong> finiture più semplici, nessuna connettività, un solo cestello.</p>
 <p><strong>Per chi:</strong> chi cerca una friggitrice di fascia d'ingresso, semplice e parsimoniosa per tutti i giorni.</p>
 <h3>Xiaomi Smart Air Fryer Pro 4L: compatta, con finestra</h3>
-<p><strong>Punti di forza:</strong> 4 L, 1.600 W, finestra di controllo, regolazione da 40 a 200 °C e gestione tramite l'app Mi Home. La finestra riduce le aperture del cassetto.</p>
-<p><strong>Limiti:</strong> capacità ridotta per una famiglia, funzioni connesse che presuppongono di lasciarla collegata.</p>
+<p><strong>Punti di forza:</strong> 4 L, 1.600 W, finestra di controllo, regolazione da 40 a 200 °C e gestione tramite l'app Mi Home. Con la finestra apri meno spesso il cestello.</p>
+<p><strong>Limiti:</strong> capacità ridotta per una famiglia, le funzioni smart richiedono di lasciarla collegata alla presa.</p>
 <p><strong>Per chi:</strong> coppie e piccoli nuclei a cui piace seguire la cottura e usare un'app.</p>
 <h3>Cosori Lite 3.8L: il formato piccolo per 1-3 persone</h3>
 <p><strong>Punti di forza:</strong> 3,8 L, 1.500 W, ingombro ridotto e cestello lavabile in lavastoviglie. Un volume piccolo si scalda in fretta.</p>
-<p><strong>Limiti:</strong> troppo piccola per quattro persone, funzioni essenziali.</p>
-<p><strong>Per chi:</strong> single, studenti, coppie, o come complemento al forno.</p>
+<p><strong>Limiti:</strong> troppo piccola se cucini per quattro, funzioni di base.</p>
+<p><strong>Per chi:</strong> single, studenti, coppie, o in aggiunta al forno.</p>
 <h3>Cosori Dual Blaze 6,4 L: due resistenze, meno bisogno di scuotere</h3>
 <p><strong>Punti di forza:</strong> 6,4 L, 1.700 W, resistenze sopra e sotto che riducono la necessità di girare il cibo, app e comandi vocali.</p>
 <p><strong>Limiti:</strong> piuttosto pesante e ingombrante; la connettività serve solo se la usi.</p>
-<p><strong>Per chi:</strong> famiglie di 3-5 persone che vogliono una cottura uniforme senza aprire il cassetto a metà.</p>
+<p><strong>Per chi:</strong> famiglie di 3-5 persone che vogliono una cottura uniforme senza aprire il cestello a metà cottura.</p>
 <h3>Ninja Foodi MAX Double Stack XL (9,5 L): sostituire il forno per un pasto completo</h3>
 <p><strong>Punti di forza:</strong> due cestelli sovrapposti da 4,75 L, 2.470 W e sincronizzazione per servire secondo e contorno insieme. L'ingombro sul piano resta quello di un solo cestello.</p>
 <p><strong>Limiti:</strong> la potenza più alta di questa selezione e un apparecchio alto. Per piccole quantità, usa un solo cestello.</p>
@@ -663,63 +663,63 @@ export const article: BlogArticle = {
 <h2>Errori che fanno salire i consumi</h2>
 <ul>
 <li><strong>Preriscaldare sempre:</strong> utile per alcuni impasti e carni, inutile per la maggior parte dei surgelati. Segui le indicazioni del manuale.</li>
-<li><strong>Aprire troppo spesso il cassetto:</strong> di solito basta scuotere una volta a metà cottura.</li>
-<li><strong>Riempire troppo il cestello:</strong> l'aria circola male, la cottura si allunga e diventa irregolare. Meglio uno strato non compresso.</li>
+<li><strong>Aprire troppo spesso il cestello:</strong> di solito basta scuotere una volta a metà cottura.</li>
+<li><strong>Riempire troppo il cestello:</strong> l'aria circola male, la cottura si allunga e diventa irregolare. Meglio un solo strato, senza ammassare il cibo.</li>
 <li><strong>Fare in tre infornate ciò che il forno farebbe in una:</strong> per le tavolate numerose, il forno è talvolta la scelta più sensata.</li>
-<li><strong>Lasciare sempre collegato un modello connesso</strong> senza usarne le funzioni a distanza.</li>
+<li><strong>Lasciare sempre collegato un modello smart</strong> senza usarne le funzioni a distanza.</li>
 <li><strong>Trascurare la pulizia:</strong> il grasso accumulato può fumare e rendere la cottura meno regolare. La nostra <a href="/it/blog/entretien-nettoyage-airfryer">guida alla pulizia</a> spiega come fare.</li>
 </ul>
 
 <h2>Sicurezza e buon uso</h2>
 <ul>
 <li>Appoggia l'apparecchio su un piano stabile e resistente al calore, mai sul piano cottura, e lascia intorno alle uscite d'aria lo spazio indicato nel manuale.</li>
-<li>Collegalo preferibilmente a una presa a muro. Se usi una prolunga o una ciabatta, deve reggere la potenza dell'apparecchio.</li>
+<li>Collegalo preferibilmente direttamente a una presa a muro. Se usi una prolunga o una ciabatta, deve reggere la potenza dell'apparecchio.</li>
 <li>Non coprire tutto il fondo del cestello con alluminio o carta forno: l'aria deve poter circolare.</li>
 </ul>
 
 <h2>Verdetto</h2>
-<p>Una friggitrice ad aria abbassa davvero i consumi elettrici quando sostituisce il forno per piatti che stanno nel suo cestello: circa 0,7 kWh in meno a pasto, cioè nell'ordine di 100-250 kWh all'anno con un uso regolare. La chiave è scegliere la capacità adatta alla famiglia. La <strong>Philips Airfryer Serie 3000 XL</strong> è la nostra scelta per 3-5 persone, la <strong>Moulinex Easy Fry Max 5L</strong> è l'opzione parsimoniosa e accessibile, e la <strong>Ninja Foodi MAX Double Stack XL</strong> è adatta alle famiglie che vogliono lasciare il forno spento per un pasto completo. Con un budget ridotto, guarda anche le nostre <a href="/it/blog/meilleur-airfryer-petit-budget">migliori friggitrici ad aria economiche</a>.</p>`,
+<p>Una friggitrice ad aria abbassa davvero i consumi elettrici quando sostituisce il forno per piatti che stanno nel suo cestello: circa 0,7 kWh in meno a pasto, cioè nell'ordine di 100-250 kWh all'anno con un uso regolare. La chiave è scegliere la capacità adatta alla famiglia. La <strong>Philips Airfryer Serie 3000 XL</strong> è la nostra scelta per 3-5 persone, la <strong>Moulinex Easy Fry Max 5L</strong> è l'opzione parsimoniosa e accessibile, e la <strong>Ninja Foodi MAX Double Stack XL</strong> è pensata per le famiglie che vogliono preparare un pasto completo lasciando il forno spento. Se hai un budget ridotto, guarda anche la nostra selezione delle <a href="/it/blog/meilleur-airfryer-petit-budget">migliori friggitrici ad aria economiche</a>.</p>`,
 
     nl: `<h2>Het korte antwoord</h2>
-<p>Ja. Bij kleine en middelgrote hoeveelheden verbruikt een airfryer doorgaans twee tot drie keer minder stroom dan een elektrische oven, omdat hij een veel kleinere ruimte verwarmt en nauwelijks hoeft voor te verwarmen. Een sessie van 20 minuten komt vaak uit op 0,3 tot 0,5 kWh, tegen ongeveer 1 kWh voor hetzelfde gerecht in de oven.</p>
-<p>Deze gids is niet gebaseerd op eigen labmetingen. Hij steunt op de vermogens die fabrikanten opgeven, op basale warmtefysica en op geverifieerde ervaringen van kopers. Alle cijfers zijn schattingen in kWh met de aannames erbij, zodat je ze kunt aanpassen aan je eigen apparaat en energiecontract.</p>
+<p>Ja. Voor kleine en middelgrote hoeveelheden verbruikt een airfryer meestal twee tot drie keer minder stroom dan een elektrische oven. Hij verwarmt een veel kleinere ruimte en hoeft nauwelijks voor te verwarmen. Twintig minuten bakken kost vaak 0,3 tot 0,5 kWh, tegenover ongeveer 1 kWh voor hetzelfde gerecht in de oven.</p>
+<p>Deze gids is niet gebaseerd op eigen labmetingen. We gaan uit van het vermogen dat fabrikanten opgeven, van basiskennis over warmte en van ervaringen van geverifieerde kopers. Alle cijfers hieronder zijn schattingen in kWh, met de aannames erbij, zodat je ze kunt aanpassen aan je eigen apparaat en energiecontract.</p>
 
-<h2>Vermogen (W) en energie (kWh): niet verwarren</h2>
-<p>Het vermogen in watt is wat het apparaat van het net trekt zolang het verwarmingselement aan staat. Het energieverbruik in kilowattuur hangt af van hoe lang het element echt verwarmt. De formule past op één regel:</p>
+<h2>Vermogen (W) en energie (kWh): niet hetzelfde</h2>
+<p>Het vermogen in watt geeft aan hoeveel stroom het apparaat van het net trekt zolang het verwarmingselement aanstaat. Het energieverbruik in kilowattuur hangt af van hoe lang dat element echt verwarmt. De formule past op één regel:</p>
 <p><strong>Energie (kWh) = vermogen (kW) × tijd (h) × deel van de tijd dat het element verwarmt</strong></p>
-<p>Een airfryer draait niet de hele tijd op vol vermogen. Zodra de temperatuur bereikt is, schakelt de thermostaat het element in cycli uit en weer aan. Hoe groot dat verwarmingsdeel is, hangt af van de temperatuur, de hoeveelheid eten en de isolatie. In deze gids rekenen we voorzichtig met 70 tot 85% van de tijd.</p>
-<p><strong>Voorbeeld:</strong> een airfryer van 1.500 W die 20 minuten draait, verbruikt hooguit 1,5 × 1/3 = 0,5 kWh. Door het schakelen van de thermostaat kom je realistisch uit op 0,35 tot 0,43 kWh. Dat getal, niet het wattage op de doos, telt voor je energierekening.</p>
+<p>Een airfryer draait niet voortdurend op vol vermogen. Zodra de temperatuur bereikt is, schakelt de thermostaat het element telkens uit en weer aan. Welk deel van de tijd het element echt verwarmt, hangt af van de gekozen temperatuur, de hoeveelheid eten en de isolatie van het apparaat. In deze gids rekenen we voorzichtig met 70 tot 85% van de tijd.</p>
+<p><strong>Voorbeeld:</strong> een airfryer van 1.500 W die 20 minuten aanstaat, verbruikt hooguit 1,5 × 1/3 = 0,5 kWh. Omdat de thermostaat het element af en toe uitschakelt, kom je in de praktijk eerder uit op 0,35 tot 0,43 kWh. Dat getal telt voor je energierekening, niet het aantal watt op de doos.</p>
 
-<h2>Airfryer, oven, frituurpan, magnetron: ordes van grootte</h2>
-<p>De tabel vergelijkt typische sessies voor 2 tot 4 porties (friet, geroosterde groenten, stukjes kip). Het zijn schattingen berekend met de formule hierboven, geen meetwaarden van één specifiek apparaat.</p>
+<h2>Airfryer, oven, frituurpan en magnetron: het verbruik vergeleken</h2>
+<p>In de tabel hieronder vergelijken we een gangbare bereiding voor 2 tot 4 porties (friet, geroosterde groenten, kipfilet). Het zijn schattingen op basis van de formule hierboven, geen metingen aan één bepaald apparaat.</p>
 <table>
 <thead>
-<tr><th>Apparaat</th><th>Typisch vermogen</th><th>Typische duur</th><th>Geschat verbruik per sessie</th></tr>
+<tr><th>Apparaat</th><th>Gangbaar vermogen</th><th>Gangbare duur</th><th>Geschat verbruik per keer</th></tr>
 </thead>
 <tbody>
-<tr><td>Airfryer 4 tot 6 L</td><td>1.500 tot 2.000 W</td><td>15 tot 22 min, kort of geen voorverwarmen</td><td>0,3 tot 0,5 kWh</td></tr>
-<tr><td>Airfryer met twee lades (beide in gebruik)</td><td>2.400 tot 2.500 W</td><td>18 tot 25 min</td><td>0,5 tot 0,8 kWh</td></tr>
-<tr><td>Hetelucht-oven</td><td>2.500 tot 3.500 W</td><td>10 min voorverwarmen + 20 tot 25 min</td><td>0,9 tot 1,3 kWh</td></tr>
-<tr><td>Frituurpan met olie (2 tot 3 L)</td><td>1.800 tot 2.200 W</td><td>10 min olie opwarmen + 8 tot 12 min</td><td>0,4 tot 0,6 kWh</td></tr>
-<tr><td>Magnetron (opwarmen)</td><td>1.000 tot 1.300 W opgenomen</td><td>3 tot 6 min</td><td>0,05 tot 0,13 kWh</td></tr>
+<tr><td>Airfryer van 4–6 l</td><td>1.500–2.000 W</td><td>15–22 min, kort of niet voorverwarmen</td><td>0,3–0,5 kWh</td></tr>
+<tr><td>Airfryer met twee lades (beide in gebruik)</td><td>2.400–2.500 W</td><td>18–25 min</td><td>0,5–0,8 kWh</td></tr>
+<tr><td>Elektrische oven met hetelucht</td><td>2.500–3.500 W</td><td>10 min voorverwarmen + 20–25 min</td><td>0,9–1,3 kWh</td></tr>
+<tr><td>Frituurpan (2–3 l olie)</td><td>1.800–2.200 W</td><td>10 min olie opwarmen + 8–12 min</td><td>0,4–0,6 kWh</td></tr>
+<tr><td>Magnetron (opwarmen)</td><td>1.000–1.300 W opgenomen vermogen</td><td>3–6 min</td><td>0,05–0,13 kWh</td></tr>
 </tbody>
 </table>
-<p>Kijk voor je eigen oven naar het Europese energielabel: daarop staat het verbruik per cyclus in kWh, voor conventionele stand en hetelucht, volgens een genormeerde procedure. Bij een recente, goed geklasseerde oven ligt die waarde vaak rond 0,7 tot 1 kWh per normcyclus. Dat is een goede basis om met je airfryer te vergelijken.</p>
-<p><strong>Onthoud:</strong> voor een gerecht dat in de mand past, verbruikt de airfryer ongeveer twee tot drie keer minder dan de oven. Tegenover een frituurpan is het verschil in kWh kleiner; daar zit het voordeel vooral in de olie die je bespaart, het ontbreken van frituurlucht en de veiligheid. De magnetron blijft het zuinigst, maar warmt op zonder te bruinen of krokant te maken.</p>
+<p>Voor je eigen oven kun je op het Europese energielabel kijken. Daarop staat het verbruik in kWh per cyclus, voor boven- en onderwarmte en voor hetelucht, gemeten volgens een vaste normprocedure. Bij een recente oven met een goede energieklasse ligt die waarde vaak rond 0,7 tot 1 kWh per normcyclus. Dat is een goede basis om met je airfryer te vergelijken.</p>
+<p><strong>Onthoud:</strong> voor een gerecht dat in de mand past, verbruikt de airfryer ongeveer twee tot drie keer minder dan de oven. Vergeleken met een frituurpan is het verschil in kWh kleiner. Daar zit de winst vooral in de olie die je bespaart, het uitblijven van frituurlucht en de veiligheid. De magnetron blijft het zuinigst, maar hij warmt alleen op: bruin en krokant wordt je eten er niet van.</p>
 
 <h2>Waarom een airfryer minder verbruikt</h2>
 <h3>1. Een veel kleinere ruimte om te verwarmen</h3>
-<p>Een ovenruimte is meestal 60 tot 70 liter. Zelfs een grote airfryer biedt 4 tot 10 liter. Minder lucht en minder wanden die op 200 °C moeten komen, betekent minder verlies nog voordat het garen begint.</p>
-<h3>2. Kort of geen voorverwarmen</h3>
-<p>Een oven doet er vaak zo'n tien minuten over om 200 °C te halen en verbruikt in die tijd stroom zonder te garen. Een airfryer is in een paar minuten op temperatuur, en voor veel diepvriesproducten geven fabrikanten aan dat voorverwarmen niet nodig is.</p>
-<h3>3. Warmte direct op het eten</h3>
-<p>De ventilator blaast de hete lucht direct op het eten, op een paar centimeter van het element. De bereidingstijden zijn vaak iets korter dan in de oven, wat de verwarmingstijd verder verkort.</p>
+<p>De binnenruimte van een oven is meestal 60 tot 70 liter, die van een airfryer ook in groot formaat maar 4 tot 10 liter. Minder lucht en minder wanden die op 200 °C moeten komen, betekent dat er minder energie verloren gaat nog voordat het bakken begint.</p>
+<h3>2. Kort voorverwarmen, of helemaal niet</h3>
+<p>Een oven doet er vaak zo’n tien minuten over om 200 °C te halen en verbruikt in die tijd stroom zonder dat er iets gaart. Een airfryer is in een paar minuten op temperatuur, en voor veel diepvriesproducten geven fabrikanten aan dat voorverwarmen niet nodig is.</p>
+<h3>3. De warmte blijft dicht bij het eten</h3>
+<p>De ventilator blaast de hete lucht rechtstreeks over het eten, op een paar centimeter van het verwarmingselement. De bereidingstijd is daardoor vaak iets korter dan in de oven, zodat het element ook minder lang hoeft te verwarmen.</p>
 
-<h2>Jaarlijkse besparing, berekend in kWh</h2>
-<p>Aanname: je vervangt een ovensessie (ongeveer 1,1 kWh) door een airfryersessie (ongeveer 0,4 kWh). Dat scheelt zo'n 0,7 kWh per maaltijd.</p>
+<h2>Zoveel bespaar je per jaar (in kWh)</h2>
+<p>Uitgangspunt: je gebruikt de airfryer (ongeveer 0,4 kWh) in plaats van de oven (ongeveer 1,1 kWh). Dat scheelt zo’n 0,7 kWh per maaltijd.</p>
 <table>
 <thead>
-<tr><th>Gebruik in plaats van de oven</th><th>Sessies per jaar</th><th>Bespaarde kWh per jaar (schatting)</th></tr>
+<tr><th>Hoe vaak in plaats van de oven</th><th>Keer per jaar</th><th>Bespaarde kWh per jaar (schatting)</th></tr>
 </thead>
 <tbody>
 <tr><td>1 keer per week</td><td>52</td><td>ongeveer 36 kWh</td></tr>
@@ -728,83 +728,83 @@ export const article: BlogArticle = {
 <tr><td>Elke dag</td><td>365</td><td>ongeveer 256 kWh</td></tr>
 </tbody>
 </table>
-<p><strong>Omrekenen naar euro:</strong> vermenigvuldig de bespaarde kWh met de kWh-prijs op je energierekening. Bijvoorbeeld met een voorbeeldtarief van 0,25 €/kWh, dat je vervangt door je eigen tarief: 182 kWh × 0,25 = ongeveer 45 € per jaar bij vijf sessies per week. Is je tarief hoger of heb je een dag- en nachttarief, dan verandert de uitkomst naar verhouding.</p>
-<p>Tegenover een frituurpan met olie bedraagt de besparing slechts zo'n 0,1 tot 0,2 kWh per sessie, oftewel 5 tot 10 kWh per jaar bij wekelijks gebruik. De echte winst is de olie die je niet meer koopt, filtert en weggooit. Meer daarover in onze <a href="/nl/blog/airfryer-vs-friteuse-traditionnelle">vergelijking airfryer vs traditionele frituurpan</a>.</p>
-<p><strong>Wanneer de airfryer niets oplevert:</strong> kook je voor zes personen en heb je drie rondes nodig, dan kom je met drie keer 0,4 kWh op 1,2 kWh, evenveel als één volle oven. De airfryer is zuinig als het gerecht in de mand past, niet als je het moet herhalen. Onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a> laat zien wanneer de oven zinvol blijft.</p>
+<p><strong>Omrekenen naar euro:</strong> vermenigvuldig de bespaarde kWh met de kWh-prijs op je energierekening. Een voorbeeld, met een voorbeeldtarief van 0,25 euro per kWh (vul je eigen tarief in): 182 kWh × 0,25 = ongeveer 45 euro per jaar bij vijf keer per week. Betaal je meer per kWh of heb je een dag- en nachttarief, dan verandert de uitkomst naar verhouding.</p>
+<p>Vergeleken met een frituurpan bespaar je maar zo’n 0,1 tot 0,2 kWh per keer, oftewel 5 tot 10 kWh per jaar als je hem wekelijks gebruikt. De echte winst zit ergens anders: je hoeft minder olie te kopen, te filteren en weg te gooien. Lees er meer over in onze <a href="/nl/blog/airfryer-vs-friteuse-traditionnelle">vergelijking tussen airfryer en klassieke frituurpan</a>.</p>
+<p><strong>Wanneer de airfryer niets oplevert:</strong> kook je voor zes personen en moet je drie keer na elkaar bakken, dan kom je met drie keer 0,4 kWh op 1,2 kWh. Dat is evenveel als één volle oven. De airfryer is zuinig als het gerecht in één keer in de mand past, niet als je meerdere rondes nodig hebt. In onze <a href="/nl/guides/airfryer-vs-four">vergelijking tussen airfryer en oven</a> lees je wanneer de oven de betere keuze blijft.</p>
 
-<h2>Wat echt telt om minder te verbruiken</h2>
+<h2>Waar let je op voor een laag verbruik?</h2>
 <ul>
-<li><strong>Een inhoud die bij je huishouden past:</strong> dit is het belangrijkste. Een groot, halfleeg apparaat verwarmt lucht voor niets; een te klein exemplaar dwingt tot extra rondes. Als richtlijn: 3 tot 4 L voor 1 tot 2 personen, 5 tot 6 L voor 3 tot 4 personen, daarboven meer.</li>
-<li><strong>Meer watt is geen nadeel:</strong> een krachtiger model warmt sneller op en schakelt daarna vaker. Bij gelijk volume is het verschil in werkelijk verbruik tussen 1.500 en 2.000 W veel kleiner dan het verschil in opgegeven vermogen.</li>
-<li><strong>Een kijkvenster:</strong> je hoeft de lade niet te openen om te kijken en verliest dus geen warmte.</li>
-<li><strong>Twee lades, alleen als je ze gebruikt:</strong> zo maak je hoofdgerecht en bijgerecht tegelijk in plaats van twee sessies na elkaar. Voor één product volstaat één lade.</li>
-<li><strong>Stand-by:</strong> een apparaat dat continu 1 W trekt, verbruikt 8,76 kWh per jaar (1 W × 8.760 h). Slimme modellen houden soms wifi actief; haal de stekker eruit of gebruik een stekkerdoos met schakelaar als je de bediening op afstand niet gebruikt.</li>
-<li><strong>Zelf nagaan:</strong> een slimme stekker met energiemeting toont het echte verbruik per sessie. Zie onze <a href="/nl/blog/comparatif-smart-plugs-mesure-energie">vergelijking van slimme stekkers met energiemeting</a>.</li>
+<li><strong>Een inhoud die bij je huishouden past:</strong> dit is het belangrijkste. Een groot apparaat dat half leeg is, verwarmt lucht voor niets, en met een te klein exemplaar moet je in meerdere rondes bakken. Reken op 3 tot 4 liter voor 1 tot 2 personen, 5 tot 6 liter voor 3 tot 4 personen en meer voor grotere huishoudens.</li>
+<li><strong>Meer watt is geen nadeel:</strong> een krachtiger model is sneller op temperatuur en schakelt daarna vaker aan en uit. Bij dezelfde inhoud is het verschil in werkelijk verbruik tussen 1.500 en 2.000 W veel kleiner dan het verschil in opgegeven vermogen.</li>
+<li><strong>Een kijkvenster:</strong> je hoeft de lade niet open te trekken om te zien hoe ver het eten is, dus de warmte blijft binnen.</li>
+<li><strong>Twee lades, maar alleen als je ze gebruikt:</strong> je maakt hoofd- en bijgerecht tegelijk, in plaats van twee keer na elkaar te bakken. Voor één gerecht gebruik je gewoon één lade.</li>
+<li><strong>Sluipverbruik:</strong> een apparaat dat continu 1 W trekt, verbruikt 8,76 kWh per jaar (1 W × 8.760 uur). Slimme modellen houden de wifi soms actief. Bedien je het apparaat niet op afstand, haal dan de stekker eruit of gebruik een stekkerdoos met schakelaar.</li>
+<li><strong>Zelf meten:</strong> een slimme stekker met energiemeting laat per keer zien hoeveel je apparaat echt verbruikt. Bekijk onze <a href="/nl/blog/comparatif-smart-plugs-mesure-energie">vergelijking van slimme stekkers met energiemeting</a>.</li>
 </ul>
 
-<h2>Modellen om te overwegen per huishouden</h2>
-<p>Deze selectie is gebaseerd op technische fiches van fabrikanten, onafhankelijke reviews en geverifieerde ervaringen van kopers. Het vermogen is zoals opgegeven door de fabrikant.</p>
-<h3>Philips Airfryer 3000 Series XL (6,2 L): de evenwichtige keuze voor 3 tot 5 personen</h3>
-<p><strong>Sterke punten:</strong> 6,2 L en 1,2 kg eten in één mand, 2.000 W, veel programma's en een warmhoudfunctie. Eén mand die groot genoeg is voor een middelgroot gezin betekent één ronde, en daar zit de besparing.</p>
-<p><strong>Beperkingen:</strong> geen kijkvenster, één vak voor hoofd- en bijgerecht.</p>
+<h2>Geschikte modellen per huishouden</h2>
+<p>We hebben deze modellen geselecteerd op basis van specificaties van fabrikanten, onafhankelijke reviews en ervaringen van geverifieerde kopers. Het vermogen is telkens het vermogen dat de fabrikant opgeeft.</p>
+<h3>Philips Airfryer 3000 Series XL (6,2 L): de goede middenweg voor 3 tot 5 personen</h3>
+<p><strong>Sterke punten:</strong> 6,2 liter en plaats voor 1,2 kg eten in één mand, 2.000 W, veel programma’s en een warmhoudfunctie. In die ene grote mand kook je voor een gemiddeld gezin in één keer, en juist daar zit de besparing.</p>
+<p><strong>Minpunten:</strong> geen kijkvenster en maar één vak voor hoofd- en bijgerecht.</p>
 <p><strong>Voor wie:</strong> huishoudens van 3 tot 5 personen die de oven dagelijks willen vervangen.</p>
 <h3>Moulinex Easy Fry Max 5L: zuinig en betaalbaar</h3>
-<p><strong>Sterke punten:</strong> 5 L, 1.500 W, aanraakscherm en tien automatische programma's. Gematigd vermogen en genoeg ruimte voor 3 tot 4 personen.</p>
-<p><strong>Beperkingen:</strong> eenvoudigere afwerking, geen connectiviteit, één mand.</p>
-<p><strong>Voor wie:</strong> wie een eenvoudige instapper zoekt voor dagelijkse maaltijden.</p>
+<p><strong>Sterke punten:</strong> 5 liter, 1.500 W, aanraakscherm en tien automatische programma’s. Een gematigd vermogen en genoeg ruimte voor 3 tot 4 personen.</p>
+<p><strong>Minpunten:</strong> eenvoudigere afwerking, geen app en maar één mand.</p>
+<p><strong>Voor wie:</strong> wie een eenvoudige, zuinige instapairfryer zoekt voor de dagelijkse maaltijden.</p>
 <h3>Xiaomi Smart Air Fryer Pro 4L: compact, met kijkvenster</h3>
-<p><strong>Sterke punten:</strong> 4 L, 1.600 W, kijkvenster, instelbaar van 40 tot 200 °C en bediening via de Mi Home-app. Het venster bespaart je het openen van de lade.</p>
-<p><strong>Beperkingen:</strong> krap voor een gezin, en de slimme functies gaan ervan uit dat het apparaat in het stopcontact blijft.</p>
-<p><strong>Voor wie:</strong> stellen en kleine huishoudens die het garen graag volgen en een app gebruiken.</p>
+<p><strong>Sterke punten:</strong> 4 liter, 1.600 W, kijkvenster, instelbaar van 40 tot 200 °C en bediening via de Mi Home-app. Door het venster hoef je de lade minder vaak te openen.</p>
+<p><strong>Minpunten:</strong> aan de kleine kant voor een gezin, en voor de slimme functies moet de stekker in het stopcontact blijven.</p>
+<p><strong>Voor wie:</strong> stellen en kleine huishoudens die het bakken graag volgen en een app willen gebruiken.</p>
 <h3>Cosori Lite 3.8L: het kleine formaat voor 1 tot 3 personen</h3>
-<p><strong>Sterke punten:</strong> 3,8 L, 1.500 W, weinig ruimte op het aanrecht en een vaatwasserbestendige mand. Een klein volume is snel op temperatuur.</p>
-<p><strong>Beperkingen:</strong> te klein zodra je voor vier kookt, basisfuncties.</p>
-<p><strong>Voor wie:</strong> alleenstaanden, studenten, stellen of als aanvulling op de oven.</p>
-<h3>Cosori Dual Blaze 6,4 L: twee verwarmingselementen, minder schudden</h3>
-<p><strong>Sterke punten:</strong> 6,4 L, 1.700 W, elementen boven en onder waardoor omdraaien grotendeels overbodig is, app- en spraakbediening.</p>
-<p><strong>Beperkingen:</strong> vrij zwaar en groot; de connectiviteit helpt alleen als je ze gebruikt.</p>
-<p><strong>Voor wie:</strong> huishoudens van 3 tot 5 personen die gelijkmatig willen garen zonder halverwege de lade te openen.</p>
-<h3>Ninja Foodi MAX Double Stack XL (9,5 L): de oven vervangen voor een volledige maaltijd</h3>
-<p><strong>Sterke punten:</strong> twee gestapelde lades van 4,75 L, 2.470 W en synchronisatie zodat hoofd- en bijgerecht samen klaar zijn. Het neemt de aanrechtruimte van één lade in.</p>
-<p><strong>Beperkingen:</strong> het hoogste vermogen in deze selectie en een hoog apparaat. Gebruik voor kleine hoeveelheden maar één lade.</p>
-<p><strong>Voor wie:</strong> gezinnen die bijna elke avond de oven aanzetten voor een volledige maaltijd.</p>
+<p><strong>Sterke punten:</strong> 3,8 liter, 1.500 W, neemt weinig ruimte in op het aanrecht en de mand kan in de vaatwasser. Een kleine ruimte is snel op temperatuur.</p>
+<p><strong>Minpunten:</strong> te klein zodra je voor vier personen kookt, en alleen basisfuncties.</p>
+<p><strong>Voor wie:</strong> alleenstaanden, studenten en stellen, of als aanvulling op een oven.</p>
+<h3>Cosori Dual Blaze 6,4 L: twee verwarmingselementen, nauwelijks schudden</h3>
+<p><strong>Sterke punten:</strong> 6,4 liter, 1.700 W, verwarmingselementen boven en onder, zodat je het eten zelden hoeft om te draaien, en bediening via app en spraak.</p>
+<p><strong>Minpunten:</strong> vrij zwaar en groot; de app heeft alleen zin als je hem ook gebruikt.</p>
+<p><strong>Voor wie:</strong> huishoudens van 3 tot 5 personen die gelijkmatig willen bakken zonder halverwege de lade te openen.</p>
+<h3>Ninja Foodi MAX Double Stack XL (9,5 L): de oven vervangen voor een complete maaltijd</h3>
+<p><strong>Sterke punten:</strong> twee gestapelde lades van 4,75 liter, 2.470 W en een synchronisatiefunctie, zodat hoofd- en bijgerecht tegelijk klaar zijn. Hij neemt niet meer ruimte op het aanrecht in dan een airfryer met één lade.</p>
+<p><strong>Minpunten:</strong> het hoogste vermogen in deze selectie en een hoog apparaat. Gebruik voor kleine hoeveelheden maar één lade.</p>
+<p><strong>Voor wie:</strong> gezinnen die tot nu toe bijna elke avond de oven aanzetten voor een complete maaltijd.</p>
 
 <h2>Vergelijkingstabel</h2>
-<p>De laatste kolom geeft een theoretisch maximum voor 20 minuten op vol vermogen (vermogen × 1/3 h). Het werkelijke verbruik is lager dankzij de thermostaat, en een groter model kan per portie zuiniger zijn als het een tweede ronde voorkomt.</p>
+<p>De laatste kolom geeft een theoretisch maximum voor 20 minuten op vol vermogen (vermogen × 1/3 h). Het werkelijke verbruik ligt lager dankzij de thermostaat, en een groter model kan per portie zuiniger zijn als je daardoor geen tweede ronde nodig hebt.</p>
 <table>
 <thead>
 <tr><th>Model</th><th>Opgegeven vermogen</th><th>Inhoud</th><th>Theoretisch maximum in 20 min</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td>Philips Airfryer 3000 Series XL</td><td>2.000 W</td><td>6,2 L</td><td>0,67 kWh</td><td>3 tot 5 personen</td></tr>
-<tr><td>Moulinex Easy Fry Max 5L</td><td>1.500 W</td><td>5 L</td><td>0,50 kWh</td><td>3 tot 4 personen, krap budget</td></tr>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>1.600 W</td><td>4 L</td><td>0,53 kWh</td><td>2 tot 3 personen, app-gebruikers</td></tr>
-<tr><td>Cosori Lite 3.8L</td><td>1.500 W</td><td>3,8 L</td><td>0,50 kWh</td><td>1 tot 3 personen</td></tr>
-<tr><td>Cosori Dual Blaze 6,4 L</td><td>1.700 W</td><td>6,4 L</td><td>0,57 kWh</td><td>3 tot 5 personen, gelijkmatig garen</td></tr>
-<tr><td>Ninja Foodi MAX Double Stack XL</td><td>2.470 W</td><td>9,5 L (2 × 4,75 L)</td><td>0,82 kWh (beide lades)</td><td>gezinnen, volledige maaltijden</td></tr>
+<tr><td>Philips Airfryer 3000 Series XL</td><td>2.000 W</td><td>6,2 l</td><td>0,67 kWh</td><td>3–5 personen</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>1.500 W</td><td>5 l</td><td>0,50 kWh</td><td>3–4 personen, krap budget</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>1.600 W</td><td>4 l</td><td>0,53 kWh</td><td>2–3 personen, bediening via app</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>1.500 W</td><td>3,8 l</td><td>0,50 kWh</td><td>1–3 personen</td></tr>
+<tr><td>Cosori Dual Blaze 6,4 L</td><td>1.700 W</td><td>6,4 l</td><td>0,57 kWh</td><td>3–5 personen, gelijkmatig bakken</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>2.470 W</td><td>9,5 l (2 × 4,75 l)</td><td>0,82 kWh (beide lades)</td><td>gezinnen, complete maaltijden</td></tr>
 </tbody>
 </table>
 <p>Meer modellen vind je in onze <a href="/nl/guides/airfryers">complete airfryergids</a>.</p>
 
-<h2>Fouten die het verbruik opdrijven</h2>
+<h2>Fouten waardoor je meer verbruikt</h2>
 <ul>
-<li><strong>Altijd voorverwarmen:</strong> nuttig voor sommige degen en vleessoorten, overbodig voor de meeste diepvriesproducten. Volg de handleiding.</li>
-<li><strong>De lade te vaak openen:</strong> één keer schudden halverwege volstaat meestal.</li>
-<li><strong>De mand te vol doen:</strong> de lucht circuleert slecht, het garen duurt langer en wordt ongelijkmatig. Beter één losse laag.</li>
+<li><strong>Altijd voorverwarmen:</strong> handig voor sommige soorten deeg en vlees, maar overbodig voor de meeste diepvriesproducten. Volg de aanwijzingen in de handleiding.</li>
+<li><strong>De lade te vaak openen:</strong> één keer schudden halverwege is meestal genoeg.</li>
+<li><strong>De mand te vol doen:</strong> de lucht kan niet goed circuleren, het bakken duurt langer en het resultaat wordt ongelijkmatig. Leg het eten liever luchtig in één laag.</li>
 <li><strong>In drie rondes doen wat de oven in één keer kan:</strong> voor grote gezelschappen is de oven soms de verstandigste keuze.</li>
 <li><strong>Een slim model altijd in het stopcontact laten</strong> zonder de functies op afstand te gebruiken.</li>
-<li><strong>Het onderhoud verwaarlozen:</strong> opgehoopt vet kan gaan roken en het garen minder gelijkmatig maken. Onze <a href="/nl/blog/entretien-nettoyage-airfryer">onderhoudsgids</a> legt uit hoe.</li>
+<li><strong>Het onderhoud verwaarlozen:</strong> opgehoopt vet kan gaan roken en zorgt voor een minder gelijkmatig resultaat. In onze <a href="/nl/blog/entretien-nettoyage-airfryer">onderhoudsgids</a> lees je hoe je dat voorkomt.</li>
 </ul>
 
 <h2>Veiligheid en goed gebruik</h2>
 <ul>
-<li>Zet het apparaat op een stabiel, hittebestendig oppervlak, nooit op een kookplaat, en laat rond de luchtuitlaten de ruimte vrij die de handleiding aangeeft.</li>
-<li>Sluit het bij voorkeur rechtstreeks aan op een wandcontactdoos. Gebruik je een verlengsnoer of stekkerdoos, dan moet die geschikt zijn voor het vermogen van het apparaat.</li>
+<li>Zet het apparaat op een stabiel, hittebestendig oppervlak, nooit op een kookplaat, en laat rond de luchtuitlaten zoveel ruimte vrij als de handleiding aangeeft.</li>
+<li>Steek de stekker bij voorkeur rechtstreeks in een stopcontact in de muur. Gebruik je een verlengsnoer of stekkerdoos, dan moet die geschikt zijn voor het vermogen van het apparaat.</li>
 <li>Bedek niet de hele bodem van de mand met aluminiumfolie of bakpapier: de lucht moet kunnen circuleren.</li>
 </ul>
 
-<h2>Conclusie</h2>
-<p>Een airfryer verlaagt het stroomverbruik echt wanneer hij de oven vervangt voor gerechten die in zijn mand passen: ongeveer 0,7 kWh minder per maaltijd, grofweg 100 tot 250 kWh per jaar bij regelmatig gebruik. De sleutel is de juiste inhoud voor je huishouden. De <strong>Philips Airfryer 3000 Series XL</strong> is onze keuze voor 3 tot 5 personen, de <strong>Moulinex Easy Fry Max 5L</strong> is de zuinige, betaalbare optie en de <strong>Ninja Foodi MAX Double Stack XL</strong> past bij gezinnen die de oven uit willen laten voor een volledige maaltijd. Met een krap budget kun je ook kijken naar onze <a href="/nl/blog/meilleur-airfryer-petit-budget">beste budget-airfryers</a>.</p>`,
+<h2>Ons oordeel</h2>
+<p>Een airfryer verlaagt je stroomverbruik echt wanneer je hem in plaats van de oven gebruikt voor gerechten die in de mand passen: reken op ongeveer 0,7 kWh minder per maaltijd, oftewel zo’n 100 tot 250 kWh per jaar bij regelmatig gebruik. Het belangrijkste is dat je een inhoud kiest die bij je huishouden past. De <strong>Philips Airfryer 3000 Series XL</strong> is onze keuze voor 3 tot 5 personen, de <strong>Moulinex Easy Fry Max 5L</strong> is de zuinige en betaalbare optie, en de <strong>Ninja Foodi MAX Double Stack XL</strong> past bij gezinnen die de oven uit willen laten voor een complete maaltijd. Is je budget beperkt, bekijk dan ook onze selectie van de <a href="/nl/blog/meilleur-airfryer-petit-budget">beste goedkope airfryers</a>.</p>`,
     pl: `<h2>Krótka odpowiedź</h2>
 <p>Tak. Przy małych i średnich porcjach frytkownica beztłuszczowa (air fryer) zużywa zwykle dwa–trzy razy mniej prądu niż piekarnik elektryczny, bo ogrzewa znacznie mniejszą przestrzeń i prawie nie wymaga nagrzewania wstępnego. W praktyce 20 minut pracy to często 0,3–0,5 kWh, podczas gdy to samo danie w piekarniku pochłania około 1 kWh.</p>
 <p>Ten poradnik nie opiera się na pomiarach laboratoryjnych. Bierzemy pod uwagę moc deklarowaną przez producentów, podstawowe prawa fizyki dotyczące ogrzewania i opinie zweryfikowanych użytkowników. Wszystkie wartości poniżej to szacunki w kWh – podajemy przy nich założenia, żeby łatwo było je przeliczyć dla Twojego urządzenia i Twojej umowy na prąd.</p>
@@ -1311,9 +1311,9 @@ export const article: BlogArticle = {
       question: {
         fr: `Combien de kWh consomme un airfryer par utilisation ?`,
         en: `How many kWh does an air fryer use per session?`,
-        de: `Wie viele kWh verbraucht eine Heißluftfritteuse pro Nutzung?`,
+        de: `Wie viele kWh verbraucht ein Airfryer pro Garvorgang?`,
         es: `¿Cuántos kWh consume una freidora de aire por uso?`,
-        it: `Quanti kWh consuma una friggitrice ad aria per utilizzo?`,
+        it: `Quanti kWh consuma una friggitrice ad aria a ogni utilizzo?`,
         nl: `Hoeveel kWh verbruikt een airfryer per keer?`,
         pl: `Ile kWh zużywa frytkownica beztłuszczowa przy jednym użyciu?`,
         sv: `Hur många kWh drar en airfryer per gång?`,
@@ -1322,11 +1322,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Pour un modèle de 1 500 à 2 000 W utilisé une vingtaine de minutes, comptez en général 0,3 à 0,5 kWh. Le plafond théorique est puissance × durée (1,5 kW × 1/3 h = 0,5 kWh), mais le thermostat coupe régulièrement la résistance, ce qui réduit la consommation réelle.`,
-        en: `For a 1,500 to 2,000 W model running about 20 minutes, expect roughly 0.3 to 0.5 kWh. The theoretical ceiling is power × time (1.5 kW × 1/3 h = 0.5 kWh), but the thermostat regularly switches the element off, so real consumption is lower.`,
+        en: `For a 1,500 to 2,000 W model running for about 20 minutes, expect roughly 0.3 to 0.5 kWh. The theoretical ceiling is power × time (1.5 kW × 1/3 h = 0.5 kWh), but the thermostat regularly switches the element off, so real consumption is lower.`,
         de: `Bei einem Gerät mit 1.500 bis 2.000 W und rund 20 Minuten Garzeit sind meist 0,3 bis 0,5 kWh zu erwarten. Die theoretische Obergrenze ist Leistung × Zeit (1,5 kW × 1/3 h = 0,5 kWh), doch der Thermostat schaltet das Heizelement immer wieder ab, sodass der reale Verbrauch darunter liegt.`,
-        es: `Para un modelo de 1.500 a 2.000 W durante unos 20 minutos, cuenta en general con 0,3 a 0,5 kWh. El techo teórico es potencia × tiempo (1,5 kW × 1/3 h = 0,5 kWh), pero el termostato apaga la resistencia de forma periódica, así que el consumo real es menor.`,
-        it: `Per un modello da 1.500 a 2.000 W usato per circa 20 minuti, conta in genere 0,3-0,5 kWh. Il tetto teorico è potenza × tempo (1,5 kW × 1/3 h = 0,5 kWh), ma il termostato spegne periodicamente la resistenza, quindi il consumo reale è inferiore.`,
-        nl: `Voor een model van 1.500 tot 2.000 W dat zo'n 20 minuten draait, reken je doorgaans op 0,3 tot 0,5 kWh. Het theoretische maximum is vermogen × tijd (1,5 kW × 1/3 h = 0,5 kWh), maar de thermostaat schakelt het element regelmatig uit, waardoor het werkelijke verbruik lager ligt.`,
+        es: `Un modelo de 1.500 a 2.000 W que funcione unos 20 minutos suele gastar entre 0,3 y 0,5 kWh. El máximo teórico es potencia × tiempo (1,5 kW × 1/3 h = 0,5 kWh), pero el termostato apaga la resistencia cada cierto tiempo, así que el consumo real es menor.`,
+        it: `Per un modello da 1.500-2.000 W usato per circa 20 minuti, calcola in genere 0,3-0,5 kWh. Il tetto teorico è potenza × tempo (1,5 kW × 1/3 h = 0,5 kWh), ma il termostato spegne periodicamente la resistenza, quindi il consumo reale è inferiore.`,
+        nl: `Meestal 0,3 tot 0,5 kWh, voor een model van 1.500 tot 2.000 W dat zo’n 20 minuten aanstaat. Het theoretische maximum is vermogen × tijd (1,5 kW × 1/3 uur = 0,5 kWh), maar de thermostaat schakelt het verwarmingselement regelmatig uit, waardoor het werkelijke verbruik lager ligt.`,
         pl: `Model o mocy 1500–2000 W pracujący około 20 minut zużywa zwykle 0,3–0,5 kWh. Teoretyczne maksimum to moc × czas (1,5 kW × 1/3 h = 0,5 kWh), ale termostat co jakiś czas wyłącza grzałkę, więc rzeczywiste zużycie jest niższe.`,
         sv: `För en modell på 1 500–2 000 W som går i ungefär 20 minuter landar det i regel på 0,3–0,5 kWh. Det teoretiska taket är effekt × tid (1,5 kW × 1/3 h = 0,5 kWh), men termostaten slår regelbundet av värmeelementet, så den faktiska förbrukningen blir lägre.`,
         us: `For a 1,500 to 2,000 W model running about 20 minutes, expect roughly 0.3 to 0.5 kWh. The theoretical maximum is power × time (1.5 kW × 1/3 h = 0.5 kWh), but the thermostat keeps cycling the element off, so real consumption is lower.`,
@@ -1336,8 +1336,8 @@ export const article: BlogArticle = {
     {
       question: {
         fr: `Combien économise-t-on par an en utilisant un airfryer à la place du four ?`,
-        en: `How much do you save per year using an air fryer instead of the oven?`,
-        de: `Wie viel spart man pro Jahr, wenn man die Heißluftfritteuse statt des Backofens nutzt?`,
+        en: `How much will I save a year by using an air fryer instead of the oven?`,
+        de: `Wie viel spart ein Airfryer pro Jahr gegenüber dem Backofen?`,
         es: `¿Cuánto se ahorra al año usando una freidora de aire en lugar del horno?`,
         it: `Quanto si risparmia all'anno usando una friggitrice ad aria al posto del forno?`,
         nl: `Hoeveel bespaar je per jaar met een airfryer in plaats van de oven?`,
@@ -1350,9 +1350,9 @@ export const article: BlogArticle = {
         fr: `Avec environ 0,7 kWh économisé par repas, cinq utilisations par semaine représentent près de 182 kWh par an. Multipliez par le prix du kWh de votre facture : avec un tarif d'exemple de 0,25 €/kWh, cela fait environ 45 € par an.`,
         en: `At about 0.7 kWh saved per meal, five uses a week add up to roughly 182 kWh a year. Multiply by the unit rate on your bill: at an example rate of €0.25/kWh, that is about €45 a year.`,
         de: `Bei rund 0,7 kWh Ersparnis pro Mahlzeit ergeben fünf Nutzungen pro Woche etwa 182 kWh im Jahr. Multiplizieren Sie mit dem Arbeitspreis Ihrer Stromrechnung: Bei einem Beispieltarif von 0,25 €/kWh sind das rund 45 € pro Jahr.`,
-        es: `Con unos 0,7 kWh ahorrados por comida, cinco usos por semana suman cerca de 182 kWh al año. Multiplica por el precio del kWh de tu factura: con una tarifa de ejemplo de 0,25 €/kWh, son unos 45 € al año.`,
+        es: `Con unos 0,7 kWh ahorrados por comida, cinco usos por semana suman cerca de 182 kWh al año. Multiplica por el precio del kWh de tu factura: con un precio de ejemplo de 0,25 €/kWh, salen unos 45 € al año.`,
         it: `Con circa 0,7 kWh risparmiati a pasto, cinque utilizzi a settimana fanno circa 182 kWh all'anno. Moltiplica per il prezzo del kWh in bolletta: con una tariffa di esempio di 0,25 €/kWh, sono circa 45 € all'anno.`,
-        nl: `Met ongeveer 0,7 kWh besparing per maaltijd kom je bij vijf keer per week op zo'n 182 kWh per jaar. Vermenigvuldig met de kWh-prijs op je rekening: bij een voorbeeldtarief van 0,25 €/kWh is dat ongeveer 45 € per jaar.`,
+        nl: `Zo’n 182 kWh per jaar als je de airfryer vijf keer per week gebruikt, want je bespaart ongeveer 0,7 kWh per maaltijd. Vermenigvuldig dat met de kWh-prijs op je energierekening: bij een voorbeeldtarief van 0,25 euro per kWh (vul je eigen tarief in) is dat ongeveer 45 euro per jaar.`,
         pl: `Jeśli każdy posiłek oznacza oszczędność około 0,7 kWh, to przy pięciu użyciach w tygodniu daje to prawie 182 kWh rocznie. Pomnóż tę wartość przez cenę 1 kWh z rachunku: przy przykładowej stawce 1,10 zł/kWh wychodzi około 200 zł rocznie.`,
         sv: `Med ungefär 0,7 kWh sparat per måltid blir fem omgångar i veckan nästan 182 kWh per år. Multiplicera med elpriset per kWh på din elräkning: med ett exempelpris på 2,75 kr/kWh blir det cirka 500 kr per år.`,
         us: `At about 0.7 kWh saved per meal, five uses a week add up to roughly 182 kWh a year. Multiply that by the rate on your utility bill: at an example rate of 20 cents per kWh, it comes to about $36 a year. Rates vary by state and utility, so use your own.`,
@@ -1363,8 +1363,8 @@ export const article: BlogArticle = {
       question: {
         fr: `L'airfryer consomme-t-il plus ou moins qu'un micro-ondes ?`,
         en: `Does an air fryer use more or less energy than a microwave?`,
-        de: `Verbraucht eine Heißluftfritteuse mehr oder weniger als eine Mikrowelle?`,
-        es: `¿La freidora de aire consume más o menos que un microondas?`,
+        de: `Verbraucht ein Airfryer mehr oder weniger als eine Mikrowelle?`,
+        es: `¿Gasta más o menos una freidora de aire que un microondas?`,
         it: `La friggitrice ad aria consuma più o meno di un microonde?`,
         nl: `Verbruikt een airfryer meer of minder dan een magnetron?`,
         pl: `Czy frytkownica beztłuszczowa zużywa więcej, czy mniej niż mikrofalówka?`,
@@ -1374,11 +1374,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Plus. Un micro-ondes qui réchauffe quelques minutes consomme environ 0,05 à 0,13 kWh. Il reste le plus sobre pour réchauffer, mais il ne dore pas et ne rend pas croustillant : pour cela, l'airfryer est le meilleur compromis.`,
-        en: `More. A microwave reheating for a few minutes uses about 0.05 to 0.13 kWh. It stays the most frugal option for reheating, but it does not brown or crisp food; for that, the air fryer is the better compromise.`,
+        en: `More. A microwave reheating food for a few minutes uses about 0.05 to 0.13 kWh. It's still the most economical way to reheat, but it doesn't brown or crisp food; for that, an air fryer is the best compromise.`,
         de: `Mehr. Eine Mikrowelle, die ein paar Minuten aufwärmt, braucht etwa 0,05 bis 0,13 kWh. Zum Aufwärmen bleibt sie am sparsamsten, bräunt aber nicht und macht nichts knusprig; dafür ist die Heißluftfritteuse der bessere Kompromiss.`,
-        es: `Más. Un microondas que recalienta unos minutos consume entre 0,05 y 0,13 kWh. Sigue siendo lo más austero para recalentar, pero no dora ni deja crujiente; para eso, la freidora de aire es el mejor término medio.`,
+        es: `Más. Un microondas que recalienta unos minutos gasta entre 0,05 y 0,13 kWh. Para recalentar sigue siendo lo que menos consume, pero no dora ni deja crujiente: para eso, la freidora de aire es la que mejor equilibra consumo y resultado.`,
         it: `Di più. Un microonde che riscalda per qualche minuto consuma circa 0,05-0,13 kWh. Resta il più parsimonioso per riscaldare, ma non dora e non rende croccante: per questo la friggitrice ad aria è il compromesso migliore.`,
-        nl: `Meer. Een magnetron die een paar minuten opwarmt, verbruikt zo'n 0,05 tot 0,13 kWh. Voor opwarmen blijft hij het zuinigst, maar hij bruint niet en maakt niets krokant; daarvoor is de airfryer het betere compromis.`,
+        nl: `Meer. Een magnetron die een paar minuten iets opwarmt, verbruikt zo’n 0,05 tot 0,13 kWh. Voor opwarmen blijft hij het zuinigst, maar hij maakt niets bruin of krokant. Daarvoor is de airfryer het beste compromis.`,
         pl: `Więcej. Mikrofalówka, która podgrzewa jedzenie przez kilka minut, zużywa około 0,05–0,13 kWh. Do odgrzewania to wciąż najoszczędniejsze urządzenie, ale nie rumieni potraw i nie sprawia, że stają się chrupiące – tu najlepszym kompromisem jest frytkownica beztłuszczowa.`,
         sv: `Mer. En mikrovågsugn som värmer upp mat i några minuter drar ungefär 0,05–0,13 kWh. Den är fortfarande snålast för uppvärmning, men den ger varken färg eller krispighet – där är airfryern den bästa kompromissen.`,
         us: `More. A microwave reheating for a few minutes uses about 0.05 to 0.13 kWh. It's still the most frugal option for reheating, but it doesn't brown or crisp food; for that, the air fryer is the better compromise.`,
@@ -1389,7 +1389,7 @@ export const article: BlogArticle = {
       question: {
         fr: `Un airfryer double tiroir consomme-t-il deux fois plus ?`,
         en: `Does a dual-drawer air fryer use twice as much energy?`,
-        de: `Verbraucht eine Heißluftfritteuse mit zwei Körben doppelt so viel?`,
+        de: `Verbraucht ein Airfryer mit 2 Kammern doppelt so viel?`,
         es: `¿Una freidora de aire de doble cesta consume el doble?`,
         it: `Una friggitrice ad aria a doppio cestello consuma il doppio?`,
         nl: `Verbruikt een airfryer met twee lades twee keer zoveel?`,
@@ -1400,11 +1400,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Non, pas avec un seul tiroir en marche. Avec les deux tiroirs, comptez environ 0,5 à 0,8 kWh pour 20 à 25 minutes, ce qui reste moins qu'un four et moins que deux séances successives dans un airfryer simple.`,
-        en: `No, not with one drawer running. With both drawers, expect around 0.5 to 0.8 kWh for 20 to 25 minutes, which is still less than an oven and less than two back-to-back sessions in a single-basket model.`,
-        de: `Nein, nicht wenn nur ein Korb läuft. Mit beiden Körben sind für 20 bis 25 Minuten etwa 0,5 bis 0,8 kWh zu erwarten, also weniger als im Backofen und weniger als zwei Durchgänge hintereinander in einem Gerät mit einem Korb.`,
-        es: `No, si solo funciona una cesta. Con las dos, cuenta con unos 0,5 a 0,8 kWh para 20 a 25 minutos, que sigue siendo menos que un horno y menos que dos sesiones seguidas en una freidora de una sola cesta.`,
-        it: `No, se funziona un solo cestello. Con entrambi, conta circa 0,5-0,8 kWh per 20-25 minuti: comunque meno di un forno e meno di due sessioni di fila in una friggitrice a cestello singolo.`,
-        nl: `Nee, niet als er maar één lade aan staat. Met beide lades reken je op ongeveer 0,5 tot 0,8 kWh voor 20 tot 25 minuten, nog altijd minder dan een oven en minder dan twee sessies na elkaar in een airfryer met één mand.`,
+        en: `No, not if you only use one drawer. With both drawers, expect around 0.5 to 0.8 kWh for 20 to 25 minutes, which is still less than an oven and less than two back-to-back sessions in a single-basket model.`,
+        de: `Nein, nicht, wenn nur eine Kammer in Betrieb ist. Mit beiden Kammern sind für 20 bis 25 Minuten etwa 0,5 bis 0,8 kWh zu erwarten: weniger als im Backofen und weniger als zwei Durchgänge hintereinander in einem Gerät mit nur einem Korb.`,
+        es: `No, si solo usas una de las dos. Con las dos en marcha, calcula entre 0,5 y 0,8 kWh para 20-25 minutos: menos que un horno y menos que dos tandas seguidas en una freidora de una sola cesta.`,
+        it: `No, se usi un solo cestello. Con entrambi in funzione, calcola circa 0,5-0,8 kWh per 20-25 minuti: comunque meno di un forno e meno di due cotture di fila in una friggitrice a cestello singolo.`,
+        nl: `Nee, niet als je maar één lade gebruikt. Met beide lades reken je op ongeveer 0,5 tot 0,8 kWh voor 20 tot 25 minuten. Dat is nog altijd minder dan een oven en minder dan twee keer na elkaar bakken in een airfryer met één mand.`,
         pl: `Nie, jeśli pracuje tylko jedna szuflada. Przy dwóch włączonych szufladach licz się ze zużyciem około 0,5–0,8 kWh w ciągu 20–25 minut – to wciąż mniej niż w piekarniku i mniej niż przy dwóch kolejnych cyklach w zwykłej frytkownicy z jednym koszem.`,
         sv: `Nej, inte när bara en låda används. Med båda lådorna igång kan du räkna med ungefär 0,5–0,8 kWh för 20–25 minuter. Det är fortfarande mindre än en ugn och mindre än två omgångar efter varandra i en airfryer med en korg.`,
         us: `No, not with one basket running. With both baskets going, expect around 0.5 to 0.8 kWh for 20 to 25 minutes, which is still less than an oven and less than two back-to-back sessions in a single-basket model.`,
@@ -1415,8 +1415,8 @@ export const article: BlogArticle = {
       question: {
         fr: `Un airfryer consomme-t-il en veille ?`,
         en: `Does an air fryer use power on standby?`,
-        de: `Verbraucht eine Heißluftfritteuse im Standby Strom?`,
-        es: `¿Una freidora de aire consume en modo de espera?`,
+        de: `Verbraucht ein Airfryer im Standby Strom?`,
+        es: `¿Una freidora de aire gasta luz en modo de espera?`,
         it: `Una friggitrice ad aria consuma in standby?`,
         nl: `Verbruikt een airfryer stroom in stand-by?`,
         pl: `Czy frytkownica beztłuszczowa pobiera prąd w trybie czuwania?`,
@@ -1426,11 +1426,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Un peu, surtout les modèles connectés qui gardent le Wi-Fi actif. Pour mémoire, 1 W en continu représente 8,76 kWh par an. Si vous n'utilisez pas le pilotage à distance, débranchez l'appareil ou utilisez une multiprise à interrupteur.`,
-        en: `A little, especially connected models that keep Wi-Fi active. For reference, 1 W drawn continuously adds up to 8.76 kWh a year. If you do not use remote control, unplug it or use a switched power strip.`,
+        en: `A little, especially smart models that keep their Wi-Fi on. For reference, 1 W drawn continuously adds up to 8.76 kWh a year. If you don't use the remote control features, unplug it or use a switched extension lead.`,
         de: `Ein wenig, vor allem vernetzte Modelle, die das WLAN aktiv halten. Zur Einordnung: 1 W im Dauerbetrieb sind 8,76 kWh pro Jahr. Wenn Sie die Fernsteuerung nicht nutzen, ziehen Sie den Stecker oder verwenden Sie eine schaltbare Steckdosenleiste.`,
-        es: `Un poco, sobre todo los modelos conectados que mantienen el wifi activo. Como referencia, 1 W continuo equivale a 8,76 kWh al año. Si no usas el control a distancia, desenchúfala o usa una regleta con interruptor.`,
-        it: `Un po', soprattutto i modelli connessi che tengono attivo il Wi-Fi. Per riferimento, 1 W continuo corrisponde a 8,76 kWh all'anno. Se non usi il controllo a distanza, scollegala o usa una ciabatta con interruttore.`,
-        nl: `Een beetje, vooral slimme modellen die wifi actief houden. Ter vergelijking: 1 W continu komt neer op 8,76 kWh per jaar. Gebruik je de bediening op afstand niet, haal dan de stekker eruit of gebruik een stekkerdoos met schakelaar.`,
+        es: `Un poco, sobre todo los modelos con wifi, que lo mantienen activo. Como referencia, 1 W de forma continua son 8,76 kWh al año. Si no la manejas desde el móvil, desenchúfala o usa una regleta con interruptor.`,
+        it: `Un po', soprattutto i modelli smart che tengono attivo il Wi-Fi. Per dare un'idea, 1 W assorbito in continuo corrisponde a 8,76 kWh all'anno. Se non usi il controllo a distanza, stacca la spina o usa una ciabatta con interruttore.`,
+        nl: `Een beetje, vooral slimme modellen die de wifi actief houden. Ter indicatie: 1 W die continu wordt verbruikt, komt neer op 8,76 kWh per jaar. Bedien je de airfryer niet op afstand, haal dan de stekker eruit of gebruik een stekkerdoos met schakelaar.`,
         pl: `Trochę, zwłaszcza modele z Wi-Fi, które cały czas utrzymują połączenie. Warto pamiętać, że urządzenie pobierające stale 1 W zużywa w ciągu roku 8,76 kWh. Jeśli nie korzystasz ze zdalnego sterowania, wyjmuj wtyczkę z gniazdka albo używaj listwy z wyłącznikiem.`,
         sv: `Lite grann, särskilt uppkopplade modeller som har wifi igång. Som jämförelse blir 1 W dygnet runt 8,76 kWh per år. Om du inte styr apparaten på distans kan du dra ur kontakten eller använda ett grenuttag med strömbrytare.`,
         us: `A little, especially smart models that keep Wi-Fi on. For reference, 1 W drawn around the clock adds up to 8.76 kWh a year. If you don't use the remote features, unplug it or use a switched power strip.`,
@@ -1440,11 +1440,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: `Peut-on faire fonctionner un airfryer avec des panneaux solaires ?`,
-        en: `Can solar panels power an air fryer?`,
-        de: `Kann man eine Heißluftfritteuse mit Solarstrom betreiben?`,
-        es: `¿Se puede usar una freidora de aire con paneles solares?`,
+        en: `Can I run an air fryer on solar panels?`,
+        de: `Kann man einen Airfryer mit Solarstrom betreiben?`,
+        es: `¿Se puede usar una freidora de aire con placas solares?`,
         it: `Si può alimentare una friggitrice ad aria con i pannelli solari?`,
-        nl: `Kun je een airfryer laten draaien op zonnepanelen?`,
+        nl: `Kun je een airfryer op zonnepanelen laten werken?`,
         pl: `Czy frytkownicę beztłuszczową można zasilać z paneli fotowoltaicznych?`,
         sv: `Kan man driva en airfryer med solceller?`,
         us: `Can solar panels power an air fryer?`,
@@ -1452,11 +1452,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Oui, en cuisinant en journée vous augmentez votre autoconsommation. Mais un airfryer appelle 1,5 à 2,5 kW pendant la chauffe : si votre installation produit moins à ce moment-là, le complément vient du réseau.`,
-        en: `Yes, and cooking during the day raises your self-consumption. But an air fryer draws 1.5 to 2.5 kW while heating; if your system produces less than that at the time, the rest comes from the grid.`,
-        de: `Ja, und wer tagsüber kocht, erhöht seinen Eigenverbrauch. Eine Heißluftfritteuse zieht beim Heizen aber 1,5 bis 2,5 kW; erzeugt Ihre Anlage in dem Moment weniger, kommt der Rest aus dem Netz.`,
-        es: `Sí, y cocinar de día aumenta tu autoconsumo. Pero una freidora de aire demanda 1,5 a 2,5 kW mientras calienta; si tu instalación produce menos en ese momento, el resto llega de la red.`,
+        en: `Yes, and cooking during the day means you use more of the electricity your panels generate. But an air fryer draws 1.5 to 2.5 kW while heating; if your panels are producing less than that at the time, the rest comes from the grid.`,
+        de: `Ja. Wenn Sie tagsüber kochen, erhöhen Sie Ihren Eigenverbrauch. Ein Airfryer zieht beim Aufheizen allerdings 1,5 bis 2,5 kW: Erzeugt Ihre Anlage in diesem Moment weniger, kommt der Rest aus dem Netz.`,
+        es: `Sí, y si cocinas de día aprovechas más tu autoconsumo. Eso sí, una freidora de aire pide entre 1,5 y 2,5 kW mientras calienta: si en ese momento tus placas producen menos, el resto lo toma de la red.`,
         it: `Sì, e cucinare di giorno aumenta l'autoconsumo. Ma una friggitrice ad aria assorbe 1,5-2,5 kW mentre scalda: se in quel momento l'impianto produce meno, il resto arriva dalla rete.`,
-        nl: `Ja, en overdag koken verhoogt je eigen verbruik. Maar een airfryer trekt tijdens het verwarmen 1,5 tot 2,5 kW; produceert je installatie op dat moment minder, dan komt de rest van het net.`,
+        nl: `Ja, en als je overdag kookt, gebruik je meer van je eigen zonnestroom. Maar een airfryer trekt tijdens het opwarmen 1,5 tot 2,5 kW. Leveren je panelen op dat moment minder, dan komt de rest van het net.`,
         pl: `Tak – przyrządzając posiłki w ciągu dnia, zwiększasz autokonsumpcję. Pamiętaj jednak, że podczas nagrzewania frytkownica pobiera 1,5–2,5 kW: jeśli instalacja produkuje w tym czasie mniej, brakującą energię pobierasz z sieci.`,
         sv: `Ja, och om du lagar mat på dagen ökar du din egenanvändning av solelen. Men en airfryer drar 1,5–2,5 kW medan den värmer: producerar solcellerna mindre än så just då tas resten från elnätet.`,
         us: `Yes, and cooking during the day lets you use more of the power your own panels produce. But an air fryer draws 1.5 to 2.5 kW while it heats; if your system is producing less than that at the time, the rest comes from the grid.`,
