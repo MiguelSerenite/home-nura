@@ -54,10 +54,10 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Freidoras de aire comparadas en 10 mercados de Europa y Norteamérica: Ninja, Philips, Cosori, Xiaomi y más.',
       it: 'Friggitrici ad aria confrontate su 10 mercati tra Europa e Nord America: Ninja, Philips, Cosori, Xiaomi e altro.',
       nl: 'Airfryers vergeleken op 10 markten in Europa en Noord-Amerika: Ninja, Philips, Cosori, Xiaomi en meer.',
-      pl: 'Porównanie frytkownic beztłuszczowych na 10 rynkach w Europie i Ameryce Północnej: Ninja, Philips, Cosori, Xiaomi i inne.',
+      pl: 'Ranking air fryerów, czyli frytkownic beztłuszczowych: Philips, Ninja, Cosori, Tefal, Xiaomi i inne. Pojemność, moc, aplikacja i opinie kupujących.',
       sv: 'Airfryrar jämförda på 10 marknader i Europa och Nordamerika: Ninja, Philips, Cosori, Xiaomi med flera.',
-      us: 'Air fryers compared across 10 markets in Europe and North America: Ninja, Philips, Cosori, Xiaomi and more.',
-      ca: 'Air fryers compared across 10 markets in Europe and North America: Ninja, Philips, Cosori, Xiaomi and more.',
+      us: 'Air fryers compared for US kitchens: Ninja, Cosori, Philips, T-fal and more, with capacities in quarts.',
+      ca: 'The best air fryers in Canada: Ninja, Philips, Cosori and T-fal models compared, from compact baskets to dual-zone XXL.',
     },
     primaryKeyword: {
       fr: 'meilleur airfryer',
@@ -98,8 +98,8 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Slimme multicookers: Instant Pot, Moulinex Cookeo, Tefal en meer.',
       pl: 'Multicookery z aplikacją: Instant Pot, Moulinex Cookeo, Tefal i inne.',
       sv: 'Smarta multikokare: Instant Pot, Moulinex Cookeo, Tefal med flera.',
-      us: 'Smart multicookers: Instant Pot, Moulinex Cookeo, Tefal and more.',
-      ca: 'Smart multicookers: Instant Pot, Moulinex Cookeo, Tefal and more.',
+      us: 'Smart multicookers and electric pressure cookers: Instant Pot and more.',
+      ca: 'Instant Pot multicookers compared: pressure cook, slow cook and air fry, with or without Wi-Fi.',
     },
     primaryKeyword: {
       fr: 'meilleur multicuiseur',
@@ -311,8 +311,8 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Thermomix-achtige keukenrobots: Magimix, Moulinex Companion, Lidl Monsieur Cuisine.',
       pl: 'Roboty kuchenne typu Thermomix: Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
       sv: 'Köksmaskiner med kokfunktion av Thermomix-typ: Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
-      us: 'Thermomix-style smart cooking machines: Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
-      ca: 'Thermomix-style cooking machines: Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
+      us: 'Smart cooking machines like the Thermomix TM7, compared on built-in cooking, guided recipes and app features.',
+      ca: 'All-in-one cooking machines such as the Thermomix TM7, which chop, stir, steam and cook in one bowl.',
     },
     primaryKeyword: {
       fr: 'meilleur robot cuiseur',
@@ -395,8 +395,8 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Slimme, stoom- en combi-ovens van topmerken uit Europa.',
       pl: 'Inteligentne piekarniki, piekarniki parowe i modele łączące obie funkcje od dużych marek europejskich.',
       sv: 'Smarta ugnar, ångugnar och kombiugnar från de stora europeiska märkena.',
-      us: 'Smart, steam and combi ovens from top European brands.',
-      ca: 'Smart, steam and combi ovens from top European brands.',
+      us: 'Smart, steam and combi ovens compared on cooking modes, app control and ease of cleaning.',
+      ca: 'Smart, steam and combi ovens compared on cooking modes, app control and cleaning.',
     },
     primaryKeyword: {
       fr: 'meilleur four connecté',
@@ -521,8 +521,8 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Slimme broodbakmachines: Panasonic, Moulinex, Kenwood en meer.',
       pl: 'Inteligentne wypiekacze do chleba: Panasonic, Moulinex, Kenwood i inne.',
       sv: 'Smarta bakmaskiner: Panasonic, Moulinex, Kenwood med flera.',
-      us: 'Smart bread machines: Panasonic, Moulinex, Kenwood and more.',
-      ca: 'Smart bread machines: Panasonic, Moulinex, Kenwood and more.',
+      us: 'Smart bread machines compared on loaf size, programs and app control.',
+      ca: 'Bread machines compared on loaf size, programs and crust settings.',
     },
     primaryKeyword: {
       fr: 'meilleure machine à pain',
@@ -652,8 +652,8 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Netatmo, Tado, Nest, Honeywell slimme thermostaten — verlaag je stookkosten.',
       pl: 'Inteligentne termostaty Netatmo, Tado, Nest i Honeywell, które pomagają obniżyć rachunki za ogrzewanie.',
       sv: 'Smarta termostater från Netatmo, Tado, Nest och Honeywell – för lägre uppvärmningskostnader.',
-      us: 'Netatmo, Tado, Nest, Honeywell smart thermostats — cut your heating bill.',
-      ca: 'Netatmo, Tado, Nest, Honeywell smart thermostats — cut your heating bill.',
+      us: 'ecobee and Google Nest smart thermostats for furnaces and heat pumps, with or without a C-wire.',
+      ca: 'ecobee and Google Nest smart thermostats for furnaces, central air and heat pumps.',
     },
     primaryKeyword: {
       fr: 'meilleur thermostat connecté',
@@ -737,7 +737,7 @@ export const CATEGORIES: readonly Category[] = [
       pl: 'Zestawy fotowoltaiczne na balkon podłączane do gniazdka: zasady i opłacalność w 2026 roku.',
       sv: 'Solcellskit för balkongen med stickpropp: så fungerar de, vad de ger och vad som gäller 2026.',
       us: 'Balcony solar kits that plug into an outlet — and whether they pay off in 2026.',
-      ca: 'Plug-in balcony solar kits — legal and cost-effective in France and Germany in 2026.',
+      ca: 'Plug-in balcony solar kits explained: how they work and which utility and provincial rules to check before you connect one.',
     },
     primaryKeyword: {
       fr: 'kit solaire balcon',
@@ -1286,7 +1286,7 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Slimme alarmsystemen zonder abonnement: Somfy, Ring, Verisure, Eufy.',
       pl: 'Inteligentne systemy alarmowe bez abonamentu: Somfy, Ring, Verisure, Eufy.',
       sv: 'Smarta hemlarm utan abonnemang: Somfy, Ring, Verisure, Eufy.',
-      us: 'Smart home security systems with no monthly fee: Somfy, Ring, Verisure, Eufy.',
+      us: 'DIY home security systems with no monthly fee: Ring, Abode, Ajax and more.',
       ca: 'Subscription-free smart alarm systems: Somfy, Ring, Verisure, Eufy.',
     },
     primaryKeyword: {
@@ -1328,8 +1328,8 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Slimme rook- en CO-melders gecertificeerd volgens EN 14604.',
       pl: 'Inteligentne czujniki dymu i czadu (tlenku węgla); czujniki dymu zgodne z normą EN 14604.',
       sv: 'Smarta brandvarnare och koloxidvarnare enligt EN 14604.',
-      us: 'Smart smoke and carbon monoxide detectors certified to the European EN 14604 standard.',
-      ca: 'Smart smoke and carbon monoxide detectors certified to the European EN 14604 standard.',
+      us: 'Smart smoke and carbon monoxide alarms listed to UL 217 (smoke) and UL 2034 (CO), from First Alert, Kidde, X-Sense and more.',
+      ca: 'Kidde smart smoke and carbon monoxide detectors compared: look for a ULC or CSA certification mark.',
     },
     primaryKeyword: {
       fr: 'détecteur fumée connecté',
@@ -1542,8 +1542,8 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Luchtreinigers van Dyson, Philips, Xiaomi, Levoit vergeleken op fijnstof en allergenen.',
       pl: 'Porównanie oczyszczaczy Dyson, Philips, Xiaomi i Levoit pod kątem usuwania pyłów zawieszonych i alergenów.',
       sv: 'Luftrenare från Dyson, Philips, Xiaomi och Levoit jämförda på hur väl de fångar fina partiklar och allergener.',
-      us: 'Dyson, Philips, Xiaomi and Levoit air purifiers compared on fine particles and allergens.',
-      ca: 'Dyson, Philips, Xiaomi, Levoit purifiers compared for particulates and allergens.',
+      us: 'Levoit, Coway, Winix, Blueair and Dyson air purifiers compared on CADR, room size in sq ft and allergens.',
+      ca: 'Levoit, Winix, Blueair, Coway and Dyson air purifiers compared for fine particles and allergens.',
     },
     primaryKeyword: {
       fr: 'meilleur purificateur d\'air',
@@ -1710,8 +1710,8 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Dyson, Xiaomi en concurrerende slimme ventilatoren — stil, efficiënt, met app.',
       pl: 'Wentylatory z aplikacją marek Dyson, Xiaomi i innych: ciche, wydajne i sterowane zdalnie.',
       sv: 'Smarta fläktar från Dyson, Xiaomi och deras konkurrenter – tysta, effektiva och med appstyrning.',
-      us: 'Dyson, Xiaomi and rival smart fans — quiet, efficient, app-controlled.',
-      ca: 'Dyson, Xiaomi and rival smart fans — quiet, efficient, app-controlled.',
+      us: 'Dreo, Dyson and rival smart fans — quiet, efficient, app-controlled.',
+      ca: 'Dyson, Dreo and Midea smart fans compared: quiet, efficient and app-controlled.',
     },
     primaryKeyword: {
       fr: 'ventilateur connecté',
@@ -1795,7 +1795,7 @@ export const CATEGORIES: readonly Category[] = [
       pl: 'Stacje pogodowe Netatmo, Bresser, La Crosse do śledzenia warunków w domu i na zewnątrz.',
       sv: 'Väderstationer från Netatmo, Bresser och La Crosse som följer klimatet inne och ute.',
       us: 'Netatmo, Bresser and La Crosse weather stations that track conditions indoors and out.',
-      ca: 'Netatmo, Bresser, La Crosse weather stations to track indoor and outdoor climate.',
+      ca: 'Ecowitt, Ambient Weather, Netatmo and Davis weather stations that track conditions indoors and out.',
     },
     primaryKeyword: {
       fr: 'station météo connectée',
@@ -2092,8 +2092,8 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Dyson, Samsung, Dreame, Xiaomi steelstofzuigers met filter-app.',
       pl: 'Odkurzacze pionowe Dyson, Samsung, Dreame, Xiaomi z aplikacją, która pokazuje stan filtra.',
       sv: 'Sladdlösa dammsugare från Dyson, Samsung, Dreame och Xiaomi med app som håller koll på filtret.',
-      us: 'Dyson, Samsung, Dreame, Xiaomi stick vacuums with filter-tracking apps.',
-      ca: 'Dyson, Samsung, Dreame, Xiaomi stick vacuums with filter-tracking apps.',
+      us: 'Dyson, Samsung, LG and Rowenta cordless stick vacuums with filter-tracking apps.',
+      ca: 'Dyson, Samsung and LG cordless stick vacuums, from everyday models to self-emptying designs.',
     },
     primaryKeyword: {
       fr: 'meilleur aspirateur balai',
@@ -2176,7 +2176,7 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Philips, Calor, Rowenta stoomgeneratoren voor razendsnel strijken.',
       pl: 'Stacje parowe Philips, Calor, Rowenta i inne do błyskawicznego prasowania.',
       sv: 'Ångstationer från Philips, Calor, Rowenta med flera för snabb strykning.',
-      us: 'Philips, Calor, Rowenta steam generators for lightning-fast ironing.',
+      us: 'Rowenta and Laurastar steam generator irons for fast, wrinkle-free ironing.',
       ca: 'Philips, Calor, Rowenta steam generator irons for lightning-fast ironing.',
     },
     primaryKeyword: {
@@ -2219,7 +2219,7 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Reviews van slimme vaatwassers Bosch, Siemens, Miele, Samsung.',
       pl: 'Omówienia inteligentnych zmywarek Bosch, Siemens, Miele i Samsung.',
       sv: 'Genomgångar av smarta diskmaskiner från Bosch, Siemens, Miele och Samsung.',
-      us: 'Reviews of Bosch, Siemens, Miele, Samsung smart dishwashers.',
+      us: 'Smart dishwashers from Bosch, LG and Miele, compared side by side.',
       ca: 'Reviews of Bosch, Siemens, Miele, Samsung smart dishwashers.',
     },
     primaryKeyword: {
@@ -2308,7 +2308,7 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Husqvarna, Worx, Gardena, Segway Navimow robotmaaiers — met of zonder begrenzingsdraad.',
       pl: 'Roboty koszące Husqvarna, Worx, Gardena, Segway Navimow: z przewodem ograniczającym lub bez.',
       sv: 'Robotgräsklippare från Husqvarna, Worx, Gardena och Segway Navimow – med eller utan begränsningskabel.',
-      us: 'Husqvarna, Worx, Gardena, Segway Navimow robot mowers — with or without boundary wire.',
+      us: 'Husqvarna, Segway Navimow, Mammotion and Ecovacs robot mowers — with or without a perimeter wire.',
       ca: 'Husqvarna, Worx, Gardena, Segway Navimow robot mowers — with or without boundary wire.',
     },
     primaryKeyword: {
@@ -2350,7 +2350,7 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Slimme besproeiingscomputers Gardena, Rain Bird, Eve Aqua.',
       pl: 'Sterowniki nawadniania Gardena, Rain Bird, Eve Aqua z aplikacją.',
       sv: 'Smarta bevattningsdatorer från Gardena, Rain Bird och Eve Aqua.',
-      us: 'Smart irrigation controllers from Gardena, Rain Bird, Eve Aqua.',
+      us: 'Smart sprinkler controllers and hose timers from Orbit B-hyve, Eve and more.',
       ca: 'Smart sprinkler controllers and hose timers from Gardena, Rain Bird, Eve Aqua.',
     },
     primaryKeyword: {
@@ -2393,7 +2393,7 @@ export const CATEGORIES: readonly Category[] = [
       pl: 'Inteligentne lampy solarne Philips Hue Outdoor, Ring, Netatmo do ogrodu i na ścieżki.',
       sv: 'Smarta solcellslampor från Philips Hue Outdoor, Ring och Netatmo för trädgården och uppfarten.',
       us: 'Philips Hue Outdoor, Ring and Netatmo smart solar lights for yards and driveways.',
-      ca: 'Philips Hue Outdoor, Ring, Netatmo smart solar lights for yards and driveways.',
+      ca: 'Philips Hue Outdoor and Sunforce lights, wired or solar, for yards, decks and driveways.',
     },
     primaryKeyword: {
       fr: 'éclairage extérieur connecté',
@@ -2434,7 +2434,7 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Somfy, Meross, Chamberlain slimme poort- en garagedeuropeners.',
       pl: 'Napędy do bram wjazdowych i sterowniki bram garażowych z aplikacją: Somfy, Meross, Chamberlain.',
       sv: 'Grindautomatik och smarta garageportöppnare från Somfy, Meross och Chamberlain.',
-      us: 'Somfy, Meross, Chamberlain smart gate and garage door openers.',
+      us: 'Smart garage door and gate openers from Genie, Meross, Mighty Mule and more.',
       ca: 'Somfy, Meross, Chamberlain smart gate and garage door openers.',
     },
     primaryKeyword: {

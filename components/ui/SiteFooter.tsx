@@ -174,7 +174,7 @@ export default function SiteFooter({
           ))}
         </div>
         <div className="mt-4 text-xs font-bold text-slate-500 uppercase tracking-widest">
-          &copy; 2026 HOME NURA EUROPE
+          &copy; 2026 {lang === 'us' || lang === 'ca' || lang === 'pl' ? 'HOME NURA' : 'HOME NURA EUROPE'}
         </div>
       </div>
     </footer>

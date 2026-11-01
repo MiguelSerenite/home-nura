@@ -809,7 +809,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       nl: ['Realtime energiemeting', '16 A / 3680 W (airfryer-geschikt)', 'Alexa + Google Home'],
       pl: ['Pomiar zużycia w czasie rzeczywistym', '16 A / 3680 W (obsłuży frytkownicę beztłuszczową)', 'Alexa + Google Home'],
       sv: ['Energimätning i realtid', '16 A / 3 680 W (klarar en airfryer)', 'Alexa + Google Home'],
-      us: ['Real-time energy monitoring', '16 A / 3,680 W at 230 V (air fryer-ready)', 'Alexa + Google Home'],
+      us: ['Real-time energy monitoring', '15 A / 1,800 W at 120 V (air fryer-ready)', 'Alexa + Google Home'],
       ca: ['Real-time energy monitoring', '16 A / 3680 W (air fryer rated)', 'Alexa + Google Home'],
     },
     cons: {

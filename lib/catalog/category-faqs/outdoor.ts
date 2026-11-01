@@ -189,7 +189,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Can I run a robot mower at night?",
-        answer: "It's best not to: schedule it for daylight hours. Small animals that forage after dark, such as hedgehogs in Europe, often freeze or curl up instead of running away and can be badly injured by the blades. Never schedule it from dusk to dawn, and walk the lawn before the first run of the day if you have a wild corner or a brush pile. Lift sensors stop the blades for children and pets, but it's still best to keep them off the lawn while the mower works.",
+        answer: "It's best not to: schedule it for daylight hours. Small animals that forage after dark, such as young rabbits and toads, often freeze or curl up instead of running away and can be badly injured by the blades. Never schedule it from dusk to dawn, and walk the lawn before the first run of the day if you have a wild corner or a brush pile. Lift sensors stop the blades for children and pets, but it's still best to keep them off the lawn while the mower works.",
       },
       {
         question: "How do I keep my robot mower from being stolen?",
@@ -197,7 +197,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a robot mower cost to run?",
-        answer: "Electricity is a small cost: a mower using 6 kWh a month for seven months costs about $8.40 a season at an example rate of 20 cents per kWh. Check the monthly figure on the spec sheet and multiply by the rate on your utility bill. The bigger running costs are replacement blades, which are cheap but changed several times a season, and eventually a new battery. Store the mower in a dry shed or garage that stays above freezing over the winter, fully charged, to protect the battery.",
+        answer: "Electricity is a small cost: a mower using 6 kWh a month for seven months costs about $7.60 a season at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). Check the monthly figure on the spec sheet and multiply by the rate on your utility bill. The bigger running costs are replacement blades, which are cheap but changed several times a season, and eventually a new battery. Store the mower in a dry shed or garage that stays above freezing over the winter, fully charged, to protect the battery.",
       },
     ],
     ca: [
@@ -219,7 +219,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a robot mower cost to run?",
-        answer: "Electricity is a small cost: a mower using 6 kWh a month for seven months uses 42 kWh a season, about $4.20 at an example rate of 10¢ per kWh. Check the monthly figure on the spec sheet and multiply by your own rate. The bigger running costs are replacement blades, which are cheap but changed several times a season, and eventually a new battery. Over winter, store the mower fully charged somewhere dry that stays above freezing, such as a basement or a heated garage, to protect the battery.",
+        answer: "Electricity is a small cost: a mower using 6 kWh a month for seven months uses 42 kWh a season. Check the monthly figure on the spec sheet and multiply by the rate per kWh on your bill, which depends on your province and utility. The bigger running costs are replacement blades, which are cheap but changed several times a season, and eventually a new battery. Over winter, store the mower fully charged somewhere dry that stays above freezing, such as a basement or a heated garage, to protect the battery.",
       },
     ],
   },
@@ -403,7 +403,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     us: [
       {
         question: "Can I use a smart irrigation system during watering restrictions?",
-        answer: "It depends on the rules your water utility or local government sets: restrictions often limit sprinklers to certain days or hours, and drip irrigation is sometimes exempt. In France, for example, a ban on watering between 8 a.m. and 8 p.m. is common during droughts. Read your utility's notice before relying on an exemption, then set the controller to the permitted days and hours. A controller that skips runs after rain also helps you use less water once restrictions lift.",
+        answer: "It depends on the rules your water utility or local government sets: restrictions often limit sprinklers to certain days or hours, and drip irrigation is sometimes exempt. Read your utility's notice before relying on an exemption, then set the controller to the permitted days and hours. A controller that skips runs after rain also helps you use less water once restrictions lift.",
       },
       {
         question: "How much water does a sprinkler use?",
@@ -637,7 +637,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much do outdoor LED lights cost to run?",
-        answer: "Very little per evening: ten 5 W LED spotlights on for four hours use 0.2 kWh, about 4 cents at an example rate of 20 cents per kWh. Dusk-to-dawn lighting costs much more in winter, when it can stay on for well over 12 hours a night in December. Add up the wattage, then multiply by the hours and by the rate on your utility bill. Motion sensors and schedules that turn the lights off at midnight cut both the bill and the light spilling into your neighbors' yards.",
+        answer: "Very little per evening: ten 5 W LED spotlights on for four hours use 0.2 kWh, about 4 cents at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). Dusk-to-dawn lighting costs much more in winter, when it can stay on for well over 12 hours a night in December. Add up the wattage, then multiply by the hours and by the rate on your utility bill. Motion sensors and schedules that turn the lights off at midnight cut both the bill and the light spilling into your neighbors' yards.",
       },
       {
         question: "Motion sensor or dusk-to-dawn: which is better for security lighting?",
@@ -659,7 +659,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much do outdoor LED lights cost to run?",
-        answer: "Very little per evening: ten 5 W LED spotlights on for four hours use 0.2 kWh, about 2¢ at an example rate of 10¢ per kWh. Dusk-to-dawn lighting costs much more in winter, when it can stay on for over 15 hours a night in December. Add up the wattage, multiply by hours and by your rate per kWh. Motion sensors and schedules that switch off at midnight cut both the bill and the light spilling into neighbours' yards.",
+        answer: "Very little per evening: ten 5 W LED spotlights on for four hours use 0.2 kWh. Dusk-to-dawn lighting uses much more in winter, when it can stay on for over 15 hours a night in December. Add up the wattage, multiply by hours and by the rate per kWh on your bill, which depends on your province and utility. Motion sensors and schedules that switch off at midnight cut both the bill and the light spilling into neighbours' yards.",
       },
       {
         question: "Motion sensor or dusk-to-dawn: which is better for security lighting?",
@@ -1081,7 +1081,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a pool robot cost to run?",
-        answer: "Very little: a 150 W robot running a two-hour cycle uses 0.3 kWh, about 6 cents at an example rate of 20 cents per kWh (check the rate on your utility bill). Three cycles a week over a swim season adds up to just a few dollars. If you're on a time-of-use rate plan, run it at night to pay even less. The robot has its own filter but doesn't replace the pool's filter pump, which remains by far the biggest electricity cost.",
+        answer: "Very little: a 150 W robot running a two-hour cycle uses 0.3 kWh, about 5 cents at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). Check the rate on your utility bill. Three cycles a week over a swim season adds up to just a few dollars. If you're on a time-of-use rate plan, run it at night to pay even less. The robot has its own filter but doesn't replace the pool's filter pump, which remains by far the biggest electricity cost.",
       },
       {
         question: "How should I store a pool robot over the winter?",
@@ -1103,7 +1103,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a pool robot cost to run?",
-        answer: "Very little: a 150 W robot running a two-hour cycle uses 0.3 kWh, about 3¢ at an example rate of 10¢ per kWh. Three cycles a week over the pool season add up to only a dollar or two. Your actual rate depends on your province and utility, so check your bill; if you have time-of-use rates, run it overnight to pay even less. The robot has its own filter but doesn't replace the pool's filter pump, which remains the main electricity cost.",
+        answer: "Very little: a 150 W robot running a two-hour cycle uses 0.3 kWh, so three cycles a week add up to under 1 kWh a week over the pool season. Your actual rate depends on your province and utility, so check your bill; if you have time-of-use rates, run it overnight to pay even less. The robot has its own filter but doesn't replace the pool's filter pump, which remains the main electricity cost.",
       },
       {
         question: "How should I store a pool robot over winter?",
@@ -1521,7 +1521,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to charge a portable power station?",
-        answer: "Very little: fully charging a 1,000 Wh unit takes about 1.1 to 1.2 kWh with losses, roughly 22 to 24 cents at an example rate of 20 cents per kWh. Check the rate on your utility bill. On a time-of-use rate plan, charge it overnight for less. Solar charging is free but slower: a 200 W portable panel only reaches its rating in full sun and produces much less on cloudy or winter days. Charging from a car's 12 V outlet is handy on the road but slow.",
+        answer: "Very little: fully charging a 1,000 Wh unit takes about 1.1 to 1.2 kWh with losses, roughly 20 to 22 cents at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). Check the rate on your utility bill. On a time-of-use rate plan, charge it overnight for less. Solar charging is free but slower: a 200 W portable panel only reaches its rating in full sun and produces much less on cloudy or winter days. Charging from a car's 12 V outlet is handy on the road but slow.",
       },
       {
         question: "Can I take a portable power station on a plane?",
@@ -1543,7 +1543,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to charge a portable power station?",
-        answer: "Very little: fully charging a 1,000 Wh unit takes about 1.1 to 1.2 kWh with losses, around 11 to 12¢ at an example rate of 10¢ per kWh. Your rate depends on your province and utility, so check your bill; with time-of-use rates, charge it overnight for less. Solar charging is free but slower: a 200 W portable panel only reaches its rating in full sun, which is rare on short winter days. Charging from a car's 12 V outlet is handy on the road but slow.",
+        answer: "Very little: fully charging a 1,000 Wh unit takes about 1.1 to 1.2 kWh with losses, so a full charge costs 1.1 to 1.2 times your rate per kWh. Your rate depends on your province and utility, so check your bill; with time-of-use rates, charge it overnight for less. Solar charging is free but slower: a 200 W portable panel only reaches its rating in full sun, which is rare on short winter days. Charging from a car's 12 V outlet is handy on the road but slow.",
       },
       {
         question: "Can I take a portable power station on a plane?",

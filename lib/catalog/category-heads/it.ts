@@ -168,9 +168,9 @@ export const IT_HEADS: CategoryHeads = {
   },
   "interphones": {
     keyword: "videocitofono",
-    title: "Miglior videocitofono 2026: villa, condominio e app",
-    h1: "I migliori videocitofoni con app del 2026, per villa e condominio",
-    description: "Videocitofoni a confronto: Philips WelcomeEye per la villa, BTicino Classe 100X a 2 fili, Ring Intercom sul citofono condominiale senza lavori. FAQ.",
+    title: "Miglior videocitofono 2026: a 2 fili, per villa e condominio",
+    h1: "I migliori videocitofoni del 2026 per villa e condominio, anche a 2 fili",
+    description: "Videocitofoni con app a confronto: Philips WelcomeEye per la villa, BTicino Classe 100X a 2 fili, Ring Intercom sul citofono condominiale senza lavori.",
   },
   "coffres-forts-connectes": {
     keyword: "cassaforte elettronica",
@@ -212,9 +212,9 @@ export const IT_HEADS: CategoryHeads = {
   },
   "chauffages-appoint": {
     keyword: "stufa elettrica",
-    title: "Migliore stufa elettrica 2026: radiatori da parete e consumi",
-    h1: "Stufe elettriche e radiatori da parete: i migliori del 2026 e quanto consumano",
-    description: "Stufe elettriche e radiatori da parete a confronto: Thermor, Sauter qualità prezzo e Mill Wi-Fi senza lavori. Potenza, consumi in bolletta e FAQ.",
+    title: "Migliore stufa elettrica a basso consumo 2026: classifica",
+    h1: "Le migliori stufe elettriche a basso consumo del 2026, da parete e portatili",
+    description: "Stufe elettriche e radiatori da parete a confronto: a pari potenza consumano lo stesso, risparmi col termostato. Termoventilatore o radiatore a olio? FAQ.",
   },
   "stations-meteo": {
     keyword: "stazione meteo",

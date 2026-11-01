@@ -57,7 +57,7 @@ const metaDescriptions: Record<Lang, string> = {
   es: 'Comparativas independientes del hogar conectado: cocina, energía, seguridad, confort, limpieza y exterior. Diez mercados en Europa y Norteamérica.',
   it: 'Confronti indipendenti sulla casa connessa: cucina, energia, sicurezza, comfort, pulizia ed esterno. Dieci mercati tra Europa e Nord America.',
   nl: 'Onafhankelijke vergelijkingen van het slimme huis: keuken, energie, beveiliging, comfort, schoonmaak en buitenruimte. Tien markten in Europa en Noord-Amerika.',
-  pl: 'Niezależne porównania sprzętu do inteligentnego domu: kuchnia, energia, bezpieczeństwo, komfort, sprzątanie i ogród. 10 rynków w Europie i Ameryce Północnej.',
+  pl: 'Niezależne rankingi i porównania 2026: air fryer, ekspres do kawy, robot sprzątający, odkurzacz pionowy, oczyszczacz powietrza, czujnik czadu, smart home.',
   sv: 'Oberoende jämförelser av smarta hem: kök, energi, säkerhet, inomhusklimat, städning, trädgård och utomhus. 10 marknader i Europa och Nordamerika.',
   us: 'Independent smart home buying guides for the kitchen, energy, security, comfort, cleaning and the yard. Ten markets, one method, no paid placements.',
   ca: 'Independent smart home buying guides, Canadian edition: kitchen, energy, security, comfort, cleaning and outdoors. Ten markets, one shared method.',

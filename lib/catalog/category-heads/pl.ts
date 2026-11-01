@@ -2,10 +2,10 @@ import type { CategoryHeads } from './types'
 
 export const PL_HEADS: CategoryHeads = {
   "airfryers": {
-    keyword: "frytkownica beztłuszczowa",
-    title: "Najlepsza frytkownica beztłuszczowa 2026: ranking",
-    h1: "Najlepsze frytkownice beztłuszczowe 2026: ranking i porównanie",
-    description: "Ranking frytkownic beztłuszczowych 2026: 3 polecane modele Philips, Cosori i Xiaomi. Pojemność, moc, aplikacja, czyszczenie. Kryteria wyboru i FAQ.",
+    keyword: "air fryer",
+    title: "Air fryer ranking 2026: jaki air fryer wybrać?",
+    h1: "Najlepszy air fryer 2026: ranking frytkownic beztłuszczowych",
+    description: "Jaki air fryer wybrać? Ranking frytkownic beztłuszczowych 2026: Ninja, Philips Airfryer i Cosori. Pojemność, moc, czyszczenie, opinie kupujących i FAQ.",
   },
   "multicuiseurs": {
     keyword: "multicooker",
@@ -14,10 +14,10 @@ export const PL_HEADS: CategoryHeads = {
     description: "Który multicooker wybrać? 3 polecane modele: Moulinex Cookeo, Ninja Foodi i Instant Pot. Funkcje, pojemność, sterowanie z telefonu. Kryteria i FAQ.",
   },
   "cafetieres": {
-    keyword: "ekspres do kawy automatyczny",
-    title: "Ekspres do kawy automatyczny 2026: ranking i porównanie",
-    h1: "Najlepsze automatyczne ekspresy do kawy 2026: ranking i porównanie",
-    description: "Ranking ekspresów automatycznych 2026: De'Longhi, Philips LatteGo i Krups. Kawa z mlekiem, obsługa, czyszczenie i aplikacja. Kryteria wyboru i FAQ.",
+    keyword: "ekspres do kawy",
+    title: "Jaki ekspres do kawy wybrać? Najlepsze automatyczne 2026",
+    h1: "Najlepszy ekspres do kawy 2026: ranking automatycznych ekspresów z młynkiem",
+    description: "Ranking automatycznych ekspresów do kawy 2026: De'Longhi, Philips LatteGo i Krups. Kawa z mlekiem, młynek, obsługa i czyszczenie. Kryteria wyboru i FAQ.",
   },
   "balances": {
     keyword: "waga kuchenna",
@@ -38,10 +38,10 @@ export const PL_HEADS: CategoryHeads = {
     description: "Jakie gniazdko smart wybrać? 3 polecane modele TP-Link Tapo i Meross: pomiar zużycia prądu, harmonogramy, Alexa, Google i Apple Home. Kryteria i FAQ.",
   },
   "thermostats": {
-    keyword: "inteligentny termostat",
-    title: "Inteligentny termostat pokojowy 2026: ranking i porównanie",
-    h1: "Najlepsze inteligentne termostaty 2026: do kotła i pompy ciepła",
-    description: "Ranking inteligentnych termostatów 2026: tado, Netatmo i Honeywell. Kocioł, pompa ciepła, OpenTherm, oszczędność na ogrzewaniu. Kryteria wyboru i FAQ.",
+    keyword: "termostat pokojowy",
+    title: "Termostat pokojowy WiFi 2026: ranking i porównanie",
+    h1: "Najlepsze termostaty pokojowe WiFi 2026: do kotła i pompy ciepła",
+    description: "Ranking termostatów pokojowych 2026: inteligentne termostaty tado, Netatmo i Honeywell. Kocioł, pompa ciepła, OpenTherm, oszczędność na ogrzewaniu. FAQ.",
   },
   "compteurs-energie": {
     keyword: "miernik zużycia prądu",
@@ -104,16 +104,16 @@ export const PL_HEADS: CategoryHeads = {
     description: "Ranking wallboxów 2026: Wallbox, Easee i Zaptec. Moc 11 lub 22 kW, licznik MID, aplikacja i ładowanie z fotowoltaiki. Kryteria wyboru i odpowiedzi na FAQ.",
   },
   "sonnettes-video": {
-    keyword: "dzwonek z kamerą",
-    title: "Dzwonek z kamerą 2026: ranking wideodzwonków WiFi",
-    h1: "Najlepsze dzwonki z kamerą 2026: inteligentne wideodzwonki do drzwi",
-    description: "Ranking dzwonków z kamerą 2026: Eufy, TP-Link Tapo i Aqara. Zasilanie bateryjne lub przewodowe, zapis bez abonamentu, Apple Home. Kryteria wyboru i FAQ.",
+    keyword: "wideodomofon bezprzewodowy",
+    title: "Wideodomofon bezprzewodowy 2026: ranking dzwonków z kamerą",
+    h1: "Najlepsze wideodomofony bezprzewodowe 2026: dzwonki z kamerą do drzwi",
+    description: "Ranking wideodomofonów bezprzewodowych 2026: dzwonki z kamerą Eufy, TP-Link Tapo i Aqara. Zasilanie bateryjne lub przewodowe, zapis bez abonamentu. FAQ.",
   },
   "cameras-interieur": {
-    keyword: "kamera wewnętrzna wifi",
-    title: "Kamera wewnętrzna WiFi 2026: ranking kamer do domu",
-    h1: "Najlepsze kamery wewnętrzne WiFi 2026: do domu i do obserwacji zwierząt",
-    description: "Ranking kamer wewnętrznych WiFi 2026: Eufy, TP-Link Tapo i Reolink. Obrót 360°, noktowizja, zapis na kartę lub NAS, prywatność. Kryteria wyboru i FAQ.",
+    keyword: "kamera wifi",
+    title: "Kamera WiFi do domu 2026: ranking kamer wewnętrznych",
+    h1: "Najlepsze wewnętrzne kamery WiFi 2026: do domu i do obserwacji zwierząt",
+    description: "Ranking kamer WiFi do domu 2026: Eufy, TP-Link Tapo i Reolink. Kamery wewnętrzne z obrotem 360°, noktowizją i zapisem na kartę lub NAS. Kryteria i FAQ.",
   },
   "cameras-exterieur": {
     keyword: "kamera zewnętrzna",
@@ -183,21 +183,21 @@ export const PL_HEADS: CategoryHeads = {
   },
   "climatiseurs-mobiles": {
     keyword: "klimatyzator przenośny",
-    title: "Klimatyzator przenośny 2026: ranking modeli z WiFi",
+    title: "Jaki klimatyzator przenośny wybrać? Ranking 2026",
     h1: "Najlepsze klimatyzatory przenośne 2026: ranking i porównanie",
     description: "Ranking klimatyzatorów przenośnych 2026: Midea PortaSplit, Midea i Trotec. Moc chłodzenia, głośność, montaż bez instalatora, WiFi. Kryteria wyboru i FAQ.",
   },
   "ventilateurs": {
     keyword: "wentylator",
-    title: "Najlepszy wentylator 2026: ranking inteligentnych modeli",
-    h1: "Najlepsze wentylatory 2026: ciche, z pilotem i aplikacją",
+    title: "Najlepszy wentylator 2026: stojący czy bezłopatkowy?",
+    h1: "Najlepsze wentylatory 2026: ciche, stojące i bezłopatkowe",
     description: "Ranking wentylatorów 2026: Dyson i Xiaomi. Wentylatory stojące i bezłopatkowe z oczyszczaniem, głośność, sterowanie z telefonu. Kryteria wyboru i FAQ.",
   },
   "chauffages-appoint": {
     keyword: "grzejnik elektryczny",
-    title: "Grzejnik elektryczny z WiFi 2026: ranking i porównanie",
+    title: "Jaki grzejnik elektryczny wybrać? Ranking 2026",
     h1: "Najlepsze grzejniki elektryczne 2026: sterowane z telefonu",
-    description: "Ranking grzejników elektrycznych 2026: Thermor, Sauter i Mill. Zużycie prądu, termostat, harmonogram w aplikacji, montaż na ścianie. Kryteria wyboru i FAQ.",
+    description: "Ranking grzejników elektrycznych 2026: grzejniki ścienne z termostatem i aplikacją. Ile prądu zużywają? Farelka czy grzejnik olejowy? Kryteria i FAQ.",
   },
   "stations-meteo": {
     keyword: "stacja pogodowa",

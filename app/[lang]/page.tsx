@@ -39,10 +39,18 @@ const HERO_EDITION: Record<Lang, string> = {
   es: 'Europa 2026',
   it: 'Europa 2026',
   nl: 'Europa 2026',
-  pl: 'Europa 2026',
+  pl: 'Polska 2026',
   sv: 'Europa 2026',
   us: 'USA 2026',
   ca: 'Canada 2026',
+}
+
+/**
+ * Date the home copy of a language version last changed, when it differs
+ * from the site-wide SITE_LAST_UPDATED_ISO. Set it on the day that copy ships.
+ */
+const HOME_UPDATED_ISO: Partial<Record<Lang, string>> = {
+  pl: '2026-11-01',
 }
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
@@ -52,6 +60,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   // Produits statiques avec liens affiliés
   const products = getStaticProducts(lang);
   const safeLang = resolveLang(lang);
+  const homeUpdatedIso = HOME_UPDATED_ISO[safeLang] ?? SITE_LAST_UPDATED_ISO;
 
   // BreadcrumbList Schema
   const breadcrumbSchema = {
@@ -75,7 +84,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     description: dict.description,
     url: `https://homenura.com/${lang}`,
     datePublished: '2024-06-01',
-    dateModified: SITE_LAST_UPDATED_ISO,
+    dateModified: homeUpdatedIso,
     inLanguage: HTML_LANG[safeLang],
     isPartOf: {
       '@type': 'WebSite',
@@ -93,7 +102,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     `https://homenura.com/${lang}`
   )
 
-  const lastUpdatedText = `${lastUpdatedLabel[lang] ?? lastUpdatedLabel.fr} ${formatLastUpdated(lang)}`
+  const lastUpdatedText = `${lastUpdatedLabel[lang] ?? lastUpdatedLabel.fr} ${formatLastUpdated(lang, homeUpdatedIso)}`
 
   // Comparison table product mapping
   const comparisonProducts = products.map(p => ({
@@ -167,7 +176,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             </Link>
           </div>
           <time
-            dateTime={SITE_LAST_UPDATED_ISO}
+            dateTime={homeUpdatedIso}
             className="mt-8 inline-flex items-center gap-2 px-4 py-1.5 text-xs font-semibold text-slate-600 bg-slate-100 border border-slate-200 rounded-full"
           >
             <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -257,7 +266,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="max-w-7xl mx-auto px-4 pb-20">
         <div className="text-center mb-14 md:mb-16 px-4">
           <Kicker className="mb-5">
-            {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : lang === 'pl' ? 'Nasz wybór' : lang === 'sv' ? 'Urvalet' : lang === 'us' ? 'Our picks' : lang === 'ca' ? 'The Selection' : 'The Selection'}
+            {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : lang === 'pl' ? 'Nasz wybór' : lang === 'sv' ? 'Urvalet' : lang === 'us' ? 'Our picks' : lang === 'ca' ? 'Our picks' : 'The Selection'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">{dict.section_title}</h2>
           <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto">{dict.section_subtitle}</p>
@@ -298,10 +307,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="max-w-3xl mx-auto px-6 pt-24 md:pt-28">
         <div className="text-center mb-16">
           <Kicker className="mb-5">
-            {lang === 'fr' ? 'Le Dossier' : lang === 'de' ? 'Das Dossier' : lang === 'es' ? 'El Dossier' : lang === 'it' ? 'Il Dossier' : lang === 'nl' ? 'Het Dossier' : lang === 'pl' ? 'Temat numeru' : lang === 'sv' ? 'Fördjupning' : lang === 'us' ? 'In depth' : lang === 'ca' ? 'The Dossier' : 'The Dossier'}
+            {lang === 'fr' ? 'Le Dossier' : lang === 'de' ? 'Das Dossier' : lang === 'es' ? 'El Dossier' : lang === 'it' ? 'Il Dossier' : lang === 'nl' ? 'Het Dossier' : lang === 'pl' ? 'Temat numeru' : lang === 'sv' ? 'Fördjupning' : lang === 'us' ? 'In depth' : lang === 'ca' ? 'In depth' : 'The Dossier'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-5">
-            {lang === 'fr' ? 'Tout savoir sur l\'airfryer en 2026' : lang === 'de' ? 'Alles über den Airfryer 2026' : lang === 'es' ? 'Todo sobre la freidora de aire en 2026' : lang === 'it' ? 'Tutto sulla friggitrice ad aria nel 2026' : lang === 'nl' ? 'Alles over de airfryer in 2026' : lang === 'pl' ? 'Wszystko o frytkownicach beztłuszczowych w 2026' : lang === 'sv' ? 'Allt du behöver veta om airfryrar 2026' : lang === 'us' ? 'Everything you need to know about air fryers in 2026' : lang === 'ca' ? 'Everything About the Air Fryer in 2026' : 'Everything About the Air Fryer in 2026'}
+            {lang === 'fr' ? 'Tout savoir sur l\'airfryer en 2026' : lang === 'de' ? 'Alles über den Airfryer 2026' : lang === 'es' ? 'Todo sobre la freidora de aire en 2026' : lang === 'it' ? 'Tutto sulla friggitrice ad aria nel 2026' : lang === 'nl' ? 'Alles over de airfryer in 2026' : lang === 'pl' ? 'Wszystko o frytkownicach beztłuszczowych w 2026' : lang === 'sv' ? 'Allt du behöver veta om airfryrar 2026' : lang === 'us' ? 'Everything you need to know about air fryers in 2026' : lang === 'ca' ? 'Everything you need to know about air fryers in Canada (2026)' : 'Everything About the Air Fryer in 2026'}
           </h2>
           <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
         </div>
@@ -334,7 +343,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               title: dict.recommendation_section_title,
               body: dict.recommendation_section_content,
               href: `/${lang}/guides/airfryers`,
-              cta: lang === 'fr' ? 'Voir notre classement complet des 9 meilleurs airfryers' : lang === 'de' ? 'Unsere komplette Rangliste der 9 besten Heißluftfritteusen ansehen' : lang === 'es' ? 'Ver nuestro ranking completo de las 9 mejores freidoras de aire' : lang === 'it' ? 'Scopri la nostra classifica completa delle 9 migliori friggitrici ad aria' : lang === 'nl' ? 'Bekijk onze complete ranking van de 9 beste airfryers' : lang === 'pl' ? 'Zobacz pełny ranking 9 najlepszych frytkownic beztłuszczowych' : lang === 'sv' ? 'Se hela vår topplista med de 9 bästa airfryrarna' : lang === 'us' ? 'See our complete ranking of the 9 best air fryers' : lang === 'ca' ? 'See our complete ranking of the 9 best air fryers' : 'See our complete ranking of the 9 best air fryers',
+              cta: lang === 'fr' ? 'Voir notre classement complet des 9 meilleurs airfryers' : lang === 'de' ? 'Unsere komplette Rangliste der 9 besten Heißluftfritteusen ansehen' : lang === 'es' ? 'Ver nuestro ranking completo de las 9 mejores freidoras de aire' : lang === 'it' ? 'Scopri la nostra classifica completa delle 9 migliori friggitrici ad aria' : lang === 'nl' ? 'Bekijk onze complete ranking van de 9 beste airfryers' : lang === 'pl' ? 'Zobacz pełny ranking 9 najlepszych frytkownic beztłuszczowych' : lang === 'sv' ? 'Se hela vår topplista med de 9 bästa airfryrarna' : lang === 'us' ? 'See our complete air fryer rankings' : lang === 'ca' ? 'See our full ranking of the air fryers sold in Canada' : 'See our complete ranking of the 9 best air fryers',
             },
           ].map((chapter, i) => (
             <article key={i} className="py-14 md:py-16 first:pt-10">

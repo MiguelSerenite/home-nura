@@ -441,10 +441,10 @@ export const staticProducts: StaticProduct[] = [
       es: ['Excelente relación calidad-precio', 'Marca francesa fiable', '10 programas'],
       it: ['Eccellente rapporto qualità-prezzo', 'Marca francese affidabile', '10 programmi'],
       nl: ['Uitstekende prijs-kwaliteit', 'Betrouwbaar Frans merk', '10 programma\'s'],
-      pl: ['Świetny stosunek jakości do ceny', 'Niezawodna francuska marka', '10 programów'],
+      pl: ['Świetny stosunek jakości do ceny', 'Kosz 5 l dla 3–4 osób', '10 programów'],
       sv: ['Mycket prisvärd', 'Pålitligt franskt märke', '10 program'],
-      us: ['Excellent value', 'Reliable French brand', '10 presets'],
-      ca: ['Excellent value', 'Reliable French brand', '10 programs'],
+      us: ['Excellent value', '5.3 qt (5 L) basket', '10 presets'],
+      ca: ['Excellent value', 'Big 5 L (5.3 qt) basket', '10 programs'],
     },
     cons: {
       fr: ['Pas de double tiroir', 'Design classique'], en: ['No dual drawer', 'Classic design'],

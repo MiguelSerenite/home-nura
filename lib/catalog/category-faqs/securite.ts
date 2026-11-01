@@ -205,7 +205,7 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to run an indoor camera 24/7?",
-        answer: "Very little: a typical indoor Wi-Fi camera draws a few watts, so it costs a few dollars a year to run. For example, 3 W × 24 hours × 365 days = about 26 kWh a year; at an example rate of 20 cents per kWh, that's roughly $5.25. Check the rated power on the spec sheet and multiply by the rate on your own utility bill.",
+        answer: "Very little: a typical indoor Wi-Fi camera draws a few watts, so it costs a few dollars a year to run. For example, 3 W × 24 hours × 365 days = about 26 kWh a year; at the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that's roughly $4.75. Check the rated power on the spec sheet and multiply by the rate on your own utility bill.",
       },
       {
         question: "How do I keep my indoor camera from being hacked?",
@@ -227,7 +227,7 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to run an indoor camera 24/7?",
-        answer: "Very little: a typical indoor Wi-Fi camera draws a few watts, so it costs a few dollars a year to run. For example, 3 W × 24 hours × 365 days = about 26 kWh a year; at an example rate of 10¢ per kWh, that's roughly $2.60. Check the rated power on the spec sheet and multiply by the rate per kWh on your own electricity bill.",
+        answer: "Very little: a typical indoor Wi-Fi camera draws only a few watts. For example, 3 W × 24 hours × 365 days = about 26 kWh a year; multiply that by the rate per kWh on your bill, which depends on your province and utility. Check the rated power on the spec sheet, since cameras with night vision or local recording can draw a little more.",
       },
       {
         question: "How do I stop my indoor camera from being hacked?",
@@ -427,7 +427,7 @@ export const SECURITE_FAQS: CategoryFaqSets = {
     us: [
       {
         question: "Will a smart lock fit my front door?",
-        answer: "It depends on the lock you already have. Retrofit smart locks such as Nuki are designed for euro-profile cylinders, the type common on European doors: they clamp onto the inside of the existing cylinder without replacing the lock. The cylinder needs to stick out slightly on the inside and have an emergency function, so a key still works from outside while the smart lock's own key stays in. Most US exterior doors use a deadbolt instead, so check that the model you pick is made for your door before you buy.",
+        answer: "It depends on the lock you already have. Most US exterior doors use a single-cylinder deadbolt. Retrofit smart locks such as the August Wi-Fi Smart Lock replace only the thumb turn on the inside and keep your existing keys and exterior hardware; other models replace the whole deadbolt, often adding a keypad. Measure your door's thickness and the deadbolt's backset, and check the lock's compatibility guide before you buy.",
       },
       {
         question: "Does a smart lock affect my home insurance?",
@@ -448,8 +448,8 @@ export const SECURITE_FAQS: CategoryFaqSets = {
     ],
     ca: [
       {
-        question: "Will a smart lock fit a door with a euro cylinder?",
-        answer: "Usually yes: retrofit smart locks such as Nuki clamp onto the inside of a euro cylinder, the lock type found on many European doors. Most Canadian exterior doors use a deadbolt instead, so check that the model you're considering is made for your type of lock. On a euro cylinder, check that it sticks out enough on the inside and has an emergency function, so a key still works from outside while the lock's own key stays in. On many multi-point doors you must lift the handle before the key will turn, which a retrofit lock can't do, so check compatibility first.",
+        question: "Will a smart lock fit my existing deadbolt?",
+        answer: "Usually yes: most Canadian exterior doors use a single-cylinder deadbolt. Retrofit smart locks such as the August Wi-Fi Smart Lock replace only the thumb turn on the inside, so you keep your keys and exterior hardware; other models replace the whole deadbolt, often adding a keypad. Measure your door's thickness and the deadbolt's backset, and check the lock's compatibility guide before you buy. On a multi-point door, where you lift the handle before the key turns, a retrofit lock can't do that step, so check compatibility first.",
       },
       {
         question: "Does a smart lock affect my home insurance?",
@@ -665,7 +665,7 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       },
       {
         question: "Interconnected or standalone smoke alarms: which do I need?",
-        answer: "Interconnected alarms are better in any home with more than one floor, because they all sound as soon as one detects smoke, so you hear a downstairs alarm from the bedrooms. Wireless interconnected alarms with sealed 10-year batteries avoid rewiring. Smart alarms add phone alerts when you're out. European models are certified to EN 14604 for smoke or EN 50291 for carbon monoxide; in the US, smoke alarms are listed to UL 217 and CO alarms to UL 2034, so check the listing of the version sold in your country.",
+        answer: "Interconnected alarms are better in any home with more than one floor, because they all sound as soon as one detects smoke, so you hear a downstairs alarm from the bedrooms. Wireless interconnected alarms with sealed 10-year batteries avoid rewiring. Smart alarms add phone alerts when you're out. In the US, look for a smoke alarm listed to UL 217 and a CO alarm listed to UL 2034 on the box.",
       },
       {
         question: "Where should I put a carbon monoxide alarm?",
@@ -687,7 +687,7 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       },
       {
         question: "Interconnected or standalone smoke alarms: which do I need?",
-        answer: "Interconnected alarms are better in any home with more than one storey, because they all sound as soon as one detects smoke. Check whether your province or territory requires them; either way, they're worth having. Wireless interconnected alarms with sealed 10-year batteries avoid rewiring. Smart alarms add phone alerts when you're out, but check the certification: look for a ULC or CSA mark, while European models list EN 14604 for smoke or EN 50291 for carbon monoxide.",
+        answer: "Interconnected alarms are better in any home with more than one storey, because they all sound as soon as one detects smoke. Check whether your province or territory requires them; either way, they're worth having. Wireless interconnected alarms with sealed 10-year batteries avoid rewiring. Smart alarms add phone alerts when you're out, but check the certification: look for a ULC or CSA mark.",
       },
       {
         question: "Where should I put a carbon monoxide alarm?",
@@ -794,7 +794,7 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       },
       {
         question: "Can motion sensors cut my electric bill?",
-        answer: "Yes, a little: they keep lights from being left on in hallways, stairways and bathrooms, though the savings depend on your habits. For example, three 8 W LED bulbs left on an extra 4 hours a day use 96 Wh a day, about 35 kWh a year, or roughly $7 at an example rate of 20 cents per kWh (check the rate on your utility bill). Paired with smart radiator valves or smart space heaters, a presence sensor can also turn the heat down in empty rooms, which usually saves far more than lighting.",
+        answer: "Yes, a little: they keep lights from being left on in hallways, stairways and bathrooms, though the savings depend on your habits. For example, three 8 W LED bulbs left on an extra 4 hours a day use 96 Wh a day, about 35 kWh a year, or roughly $6.35 at the US average residential rate of 18.16 cents per kWh (EIA, August 2026; check the rate on your utility bill). Paired with a smart thermostat that uses room sensors, or with smart space heaters, a presence sensor can also turn the heat down in empty rooms, which usually saves far more than lighting.",
       },
     ],
     ca: [
@@ -816,7 +816,7 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       },
       {
         question: "Can motion sensors cut my electricity bill?",
-        answer: "Yes, a little: they stop lights from being left on in hallways, stairways and bathrooms, though the saving depends on your habits. For example, three 8 W LED bulbs left on for an extra 4 hours a day use 96 Wh a day, about 35 kWh a year, or roughly $3.50 at an example rate of 10¢ per kWh. Paired with smart heating controls, a presence sensor can also turn the heat down in empty rooms, which usually saves far more than lighting.",
+        answer: "Yes, a little: they stop lights from being left on in hallways, stairways and bathrooms, though the saving depends on your habits. For example, three 8 W LED bulbs left on for an extra 4 hours a day use 96 Wh a day, about 35 kWh a year; multiply that by the rate on your bill. Paired with smart heating controls, a presence sensor can also turn the heat down in empty rooms, which usually saves far more than lighting.",
       },
     ],
   },
@@ -1151,7 +1151,7 @@ export const SECURITE_FAQS: CategoryFaqSets = {
     ca: [
       {
         question: "What safe rating do insurers look for?",
-        answer: "Requirements vary by insurer, so ask yours which ratings it recognizes and what it will cover before you buy. European safes are often certified to EN 1143-1, known as Eurograde 0 or above, or to EN 14450 at S1 or S2, and insurers that use these grades set a cash and valuables limit for each one. Expect to be asked to bolt the safe down. Certification by a body such as ECB·S or VdS is easy to check. An uncertified safe, smart or not, only deters opportunist thieves.",
+        answer: "Requirements vary by insurer, so ask yours which ratings it recognizes and what it will cover before you buy. Insurers that accept a rated safe often set a limit on the cash and valuables it can hold, and many expect it to be bolted down. Check any rating printed on the box with the organization that issued it. An uncertified safe, smart or not, only deters opportunist thieves.",
       },
       {
         question: "What should I do if I've forgotten my safe code?",
@@ -1167,7 +1167,7 @@ export const SECURITE_FAQS: CategoryFaqSets = {
       },
       {
         question: "Is a fire-resistant safe enough to protect passports and documents?",
-        answer: "Only if it carries a fire certification, such as the European EN 15659 or EN 1047-1 standards, usually rated for 30 or 60 minutes; an ordinary steel safe can let paper char inside. Paper ratings, such as LFS 30P under EN 15659, keep the inside cool enough for documents, while USB flash drives and hard drives need a stricter data rating under EN 1047-1. Fire-resistant boxes rarely stop burglars, so a common approach is a certified burglary safe with a small fire box inside it.",
+        answer: "Only if it carries an independent fire rating, usually for 30 minutes or one hour; an ordinary steel safe can let paper char inside. The SentrySafe SFW123BTC, for example, is UL Classified for one hour of fire protection. A rating for paper keeps the inside cool enough for documents, while USB flash drives and hard drives need a stricter rating for digital media, so check what the rating covers. Fire-resistant boxes rarely stop burglars, so a common approach is a certified burglary safe with a small fire box inside it.",
       },
     ],
   },

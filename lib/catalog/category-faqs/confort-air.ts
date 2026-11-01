@@ -80,7 +80,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to run an air purifier around the clock?",
-        answer: "Usually just a few dollars a month, even running 24/7. Work it out as watts × hours ÷ 1,000 = kWh: a 30 W purifier left on for 24 hours uses 0.72 kWh a day, about 22 kWh a month. At an example rate of 20 cents per kWh, that's roughly $4.40; check the rate on your utility bill, since prices vary widely by state and utility. Night and auto modes draw far less than turbo, so check the wattage at each speed.",
+        answer: "Usually just a few dollars a month, even running 24/7. Work it out as watts × hours ÷ 1,000 = kWh: a 30 W purifier left on for 24 hours uses 0.72 kWh a day, about 22 kWh a month. At the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that's roughly $4; check the rate on your utility bill, since prices vary widely by state and utility. Night and auto modes draw far less than turbo, so check the wattage at each speed.",
       },
       {
         question: "Air purifier or ventilation: do you have to choose?",
@@ -102,7 +102,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does an air purifier cost to run?",
-        answer: "Usually just a couple of dollars a month, even running around the clock. Work it out as watts × hours ÷ 1,000 = kWh: a 30 W purifier left on for 24 hours uses 0.72 kWh a day, about 22 kWh a month. At an example rate of 10¢ per kWh that is roughly $2.20; your rate depends on your province and utility, so use the one on your own bill. Night and auto modes draw far less than turbo, so look at the wattage at each speed.",
+        answer: "Usually very little, even running around the clock. Work it out as watts × hours ÷ 1,000 = kWh: a 30 W purifier left on for 24 hours uses 0.72 kWh a day, about 22 kWh a month. Multiply that by the rate per kWh on your own bill, which depends on your province and utility. Night and auto modes draw far less than turbo, so look at the wattage at each speed.",
       },
       {
         question: "Will an air purifier get rid of dampness and mould?",
@@ -197,7 +197,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a humidifier cost to run?",
-        answer: "It depends mostly on the technology: an ultrasonic or evaporative model draws a few dozen watts, a warm-mist one several hundred. The math: 30 W for 10 hours is 0.3 kWh, about 6 cents at an example rate of 20 cents per kWh; 400 W for 10 hours is 4 kWh, about 80 cents. Over a whole winter, that gap adds up. Check the wattage on the spec sheet before you buy, and the rate on your utility bill.",
+        answer: "It depends mostly on the technology: an ultrasonic or evaporative model draws a few dozen watts, a warm-mist one several hundred. The math: 30 W for 10 hours is 0.3 kWh, about 5 cents at the US average residential rate of 18.16 cents per kWh (EIA, August 2026); 400 W for 10 hours is 4 kWh, about 73 cents. Over a whole winter, that gap adds up. Check the wattage on the spec sheet before you buy, and the rate on your utility bill.",
       },
       {
         question: "Can you use a humidifier in a baby's room?",
@@ -223,7 +223,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a humidifier cost to run?",
-        answer: "A few cents a day for an ultrasonic or evaporative model, but steam humidifiers cost far more. The math is watts × hours ÷ 1,000 = kWh: 30 W for 10 hours is 0.3 kWh, about 3¢ at an example rate of 10¢ per kWh. A 400 W steam model over the same 10 hours uses 4 kWh, about 40¢ a night. Check the wattage on the spec sheet and the rate on your bill, which depends on your province and utility.",
+        answer: "Very little for an ultrasonic or evaporative model, but steam humidifiers use far more. The math is watts × hours ÷ 1,000 = kWh: 30 W for 10 hours is 0.3 kWh, while a 400 W steam model over the same 10 hours uses 4 kWh, more than 13 times as much. Multiply the kWh by the rate on your bill, which depends on your province and utility, and check the wattage on the spec sheet.",
       },
       {
         question: "Can a dirty humidifier make you sick?",
@@ -310,7 +310,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
     us: [
       {
         question: "What size dehumidifier do I need for my room?",
-        answer: "For a bedroom or bathroom, 21 to 25 pints a day is usually enough; for a basement, a large living room or drying laundry, aim for 42 pints or more. Capacities on European spec sheets are measured in warm, very humid conditions, often 86°F (30°C) and 80% humidity, so in a cooler room the unit pulls out much less. US ratings are measured under different, cooler conditions, so the two sets of figures aren't directly comparable. If you don't want to empty the bucket, plan for continuous drainage through a hose.",
+        answer: "For a bedroom or bathroom, 21 to 25 pints a day is usually enough; for a basement, a large living room or drying laundry, aim for 42 pints or more. Pint ratings on US spec sheets follow a single Department of Energy standard, so you can compare them model to model; in a cooler or drier room, a unit pulls out less than its rating. If you don't want to empty the bucket, plan for continuous drainage through a hose.",
       },
       {
         question: "Compressor or desiccant dehumidifier: which should you choose?",
@@ -318,7 +318,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a dehumidifier cost to run?",
-        answer: "Typically well under a dollar a day in normal use, more for a desiccant model. The math: a 250 W compressor unit running for 8 hours uses 2 kWh, about 40 cents at an example rate of 20 cents per kWh; a 600 W desiccant model uses 4.8 kWh over the same time, about 96 cents. With a humidistat, the unit shuts off as soon as it reaches the target humidity, which lowers the real cost. Check the rate on your utility bill.",
+        answer: "Typically well under a dollar a day in normal use, more for a desiccant model. The math: a 250 W compressor unit running for 8 hours uses 2 kWh, about 36 cents at the US average residential rate of 18.16 cents per kWh (EIA, August 2026); a 600 W desiccant model uses 4.8 kWh over the same time, about 87 cents. With a humidistat, the unit shuts off as soon as it reaches the target humidity, which lowers the real cost. Check the rate on your utility bill.",
       },
       {
         question: "Will a dehumidifier fix moisture rising through the walls?",
@@ -336,11 +336,11 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Is it cheaper to dry clothes with a dehumidifier than a dryer?",
-        answer: "Often yes, especially compared with a standard vented or condenser dryer, though a heat pump dryer can be just as frugal. Work it out: a 250 W compressor dehumidifier running for 6 hours uses 1.5 kWh, about 15¢ at an example rate of 10¢ per kWh; a 650 W desiccant model uses 3.9 kWh, about 39¢. Compare that with your dryer's energy use per load, which you'll find on its spec sheet or in the manual. Close the door, use laundry mode and space the clothes out.",
+        answer: "Often yes, especially compared with a standard vented or condenser dryer, though a heat pump dryer can be just as frugal. Work it out: a 250 W compressor dehumidifier running for 6 hours uses 1.5 kWh, and a 650 W desiccant model uses 3.9 kWh. Compare that with your dryer's energy use per load, which you'll find on its spec sheet or in the manual, then multiply by the rate per kWh on your bill. Close the door, use laundry mode and space the clothes out.",
       },
       {
         question: "What size dehumidifier do I need?",
-        answer: "For a damp bedroom or small apartment, a 10 to 12 L/day model is usually enough; for a larger house, a basement or regular laundry drying, go for 20 L/day or more. Extraction rates are measured in warm, very humid lab conditions, often 30°C and 80% humidity, so expect less in a cool room or basement. A continuous drain hose saves emptying the tank, and a built-in humidistat set to around 50% stops it running needlessly.",
+        answer: "For a damp bedroom or small apartment, about 21 to 25 pints a day is usually enough; for a larger house, a basement or laundry drying, go for 42 pints or more. Compare pint ratings model to model on the spec sheet; in a cooler or drier room, a unit pulls out less than its rating. A continuous drain hose saves emptying the bucket, and a built-in humidistat set to around 50% stops it running needlessly.",
       },
       {
         question: "Will a dehumidifier get rid of black mould and condensation?",
@@ -431,7 +431,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a portable air conditioner cost to run?",
-        answer: "Expect about 1 kW of power draw for a 9,000 BTU model, or around 20 cents an hour at full power at an example rate of 20 cents per kWh. The math: 1 kW × 6 hours = 6 kWh, about $1.20 a day. The compressor cycles off once the room hits the set temperature, so the real cost depends on your insulation and the heat outside. Aim for 79°F (26°C) rather than 68°F (20°C), close the blinds during the day, seal the window well and check the rate on your utility bill.",
+        answer: "Expect about 1 kW of power draw for a 9,000 BTU model, or around 18 cents an hour at full power at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). The math: 1 kW × 6 hours = 6 kWh, about $1.09 a day. The compressor cycles off once the room hits the set temperature, so the real cost depends on your insulation and the heat outside. Aim for 79°F (26°C) rather than 68°F (20°C), close the blinds during the day, seal the window well and check the rate on your utility bill.",
       },
       {
         question: "Why isn't my portable air conditioner cooling enough?",
@@ -453,7 +453,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does a portable air conditioner cost to run?",
-        answer: "Roughly 10¢ an hour for a typical 9,000 BTU unit drawing about 1 kW, at an example rate of 10¢ per kWh. Over an 8-hour evening that is 8 kWh, about 80¢. The compressor cycles off once the room reaches the set temperature, so a well-sealed window and curtains closed during the day cut the real cost. Set it to 24 to 26°C rather than 18°C, and check the rate on your own bill, since it depends on your province and utility.",
+        answer: "A typical 9,000 BTU unit draws about 1 kW, so it uses roughly 1 kWh per hour of running and about 8 kWh over an 8-hour evening. Multiply that by the rate per kWh on your bill, which depends on your province and utility. The compressor cycles off once the room reaches the set temperature, so a well-sealed window and curtains closed during the day cut the real use. Set it to 24 to 26°C rather than 18°C.",
       },
       {
         question: "Does a portable air conditioner need a hose out the window?",
@@ -548,7 +548,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
       },
       {
         question: "How much does it cost to run a fan all night?",
-        answer: "Pennies: a 40 W fan running for 8 hours uses 0.32 kWh, about 6 cents at an example rate of 20 cents per kWh. DC-motor fans often draw under 10 W on low speed. By comparison, a portable air conditioner draws around 1 kW, roughly 25 times as much. Use the timer or the app's auto-off so it doesn't run for nothing, and check the rate on your utility bill.",
+        answer: "Pennies: a 40 W fan running for 8 hours uses 0.32 kWh, about 6 cents at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). DC-motor fans often draw under 10 W on low speed. By comparison, a portable air conditioner draws around 1 kW, roughly 25 times as much. Use the timer or the app's auto-off so it doesn't run for nothing, and check the rate on your utility bill.",
       },
       {
         question: "Fan or portable air conditioner during a heat wave?",
@@ -566,7 +566,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
     ca: [
       {
         question: "How much does it cost to run a fan all night?",
-        answer: "Usually just a few cents a night: a 40 W fan running for 8 hours uses 0.32 kWh, about 3¢ at an example rate of 10¢ per kWh. DC-motor fans can draw under 10 W on low speed, so they cost even less. By comparison, a portable air conditioner draws around 1 kW, roughly 25 times as much. Use the timer or sleep mode so it switches itself off once you're asleep, and check the rate on your own bill.",
+        answer: "Very little: a 40 W fan running for 8 hours uses 0.32 kWh. DC-motor fans can draw under 10 W on low speed, so they use even less. By comparison, a portable air conditioner draws around 1 kW, roughly 25 times as much. Use the timer or sleep mode so it switches itself off once you're asleep, and multiply the kWh by the rate on your own bill, which depends on your province and utility.",
       },
       {
         question: "Tower fan or pedestal fan: which is better?",
@@ -661,11 +661,11 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
     us: [
       {
         question: "Which space heater should you choose for each room?",
-        answer: "A fan heater to warm a bathroom fast, an oil-filled radiator heater for a bedroom, an infrared heater to warm a person sitting still, and a convection heater for a room you only pass through. For sizing, allow about 10 W per sq ft in a reasonably well-insulated room, so 1,000 W for about 110 sq ft (10 m²). A smart model with a thermostat, scheduling and open-window detection avoids heating for nothing, which matters more than the type of heater.",
+        answer: "A fan heater to warm a bathroom fast, an oil-filled radiator heater for a bedroom, an infrared heater to warm a person sitting still, and a convection heater for a room you only pass through. For sizing, allow about 10 W per sq ft in a reasonably well-insulated room, so a standard 1,500 W heater covers about 150 sq ft (14 m²). A smart model with a thermostat and scheduling avoids heating for nothing, which matters more than the type of heater.",
       },
       {
         question: "How much does a 1,500 W space heater cost to run per hour?",
-        answer: "About 30 cents an hour at full power, at an example rate of 20 cents per kWh. The math: 1,500 W for one hour = 1.5 kWh, multiplied by the rate on your utility bill. With a thermostat, the heater switches off once the room reaches temperature, so the real cost is often lower. Over a month, 3 hours a day at full power adds up to 135 kWh, about $27 at that example rate.",
+        answer: "About 27 cents an hour at full power, at the US average residential rate of 18.16 cents per kWh (EIA, August 2026). The math: 1,500 W for one hour = 1.5 kWh, multiplied by the rate on your utility bill. With a thermostat, the heater switches off once the room reaches temperature, so the real cost is often lower. Over a month, 3 hours a day at full power adds up to 135 kWh, about $24.50 at that average rate.",
       },
       {
         question: "Is there such a thing as an energy-efficient electric space heater?",
@@ -683,7 +683,7 @@ export const CONFORT_AIR_FAQS: CategoryFaqSets = {
     ca: [
       {
         question: "How much does it cost to run a 1,500 W space heater?",
-        answer: "About 15¢ an hour at full power, at an example rate of 10¢ per kWh. The math is simple: 1.5 kW × 1 hour = 1.5 kWh, multiplied by the rate on your bill, which depends on your province and utility. A thermostat cuts the real cost, because the heater switches off once the room is warm. Three hours a day at full power for a month comes to 135 kWh, about $13.50 at that rate, so heaters suit short, targeted use rather than all-day heating.",
+        answer: "At full power, a 1,500 W heater uses 1.5 kWh per hour: multiply that by the rate on your bill, which depends on your province and utility. A thermostat cuts the real cost, because the heater switches off once the room is warm. Three hours a day at full power for a month comes to 135 kWh, so heaters suit short, targeted use rather than all-day heating.",
       },
       {
         question: "Is it cheaper to use a space heater than your furnace?",

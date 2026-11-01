@@ -641,7 +641,7 @@ const content: Record<Lang, Content> = {
     pillars: [
       {
         title: '01 · Verifiable sources',
-        body: 'For every product, we cross-check three sources: manufacturer spec sheets, Amazon and Google user reviews (a minimum of 500 weighted reviews over 12 months) and independent tests from European consumer and specialist publications (Which?, Stiftung Warentest, Que Choisir, OCU, Altroconsumo, Consumentenbond). If the three sources don\'t agree on a product, it doesn\'t make our shortlist.',
+        body: 'For every product, we cross-check three sources: manufacturer spec sheets, Amazon and Google user reviews (a minimum of 500 weighted reviews over 12 months) and independent tests published by consumer organizations and the specialist press. If the three sources don\'t agree on a product, it doesn\'t make our shortlist.',
       },
       {
         title: '02 · How the Nura Score /10 works',
@@ -649,7 +649,7 @@ const content: Record<Lang, Content> = {
       },
       {
         title: '03 · Local data, market by market',
-        body: 'We don\'t recycle reviews translated from other sites. Prices, availability, energy use, data protection (GDPR in Europe), plug compatibility and energy labels are collected directly from each market we cover. A product can easily be No. 1 in one country and missing from our rankings in another. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model.',
+        body: 'We don\'t recycle reviews translated from other sites. Prices, availability, energy use, data protection, plug compatibility and energy labels are collected directly from each market we cover. A product can easily be No. 1 in one country and missing from our rankings in another. Models and versions sold in Canada can differ from the European ones: check that the listing is for a 120 V North American model.',
       },
       {
         title: '04 · Updated at least every quarter',
