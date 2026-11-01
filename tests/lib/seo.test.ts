@@ -38,6 +38,23 @@ describe('buildPageMetadata', () => {
     expect(langs.de).toBe(`${BASE_URL}/de/guides/airfryers`)
   })
 
+  it('limits hreflang to the locales a page exists in, without x-default when French is not one', () => {
+    const m = buildPageMetadata({
+      lang: 'ca',
+      path: '/guides/floor-care',
+      title: 'Floor care',
+      description: 'Desc',
+      locales: ['us', 'ca'],
+    })
+    expect(m.alternates?.canonical).toBe(`${BASE_URL}/ca/guides/floor-care`)
+    expect(m.alternates?.languages).toEqual({
+      'en-US': `${BASE_URL}/us/guides/floor-care`,
+      'en-CA': `${BASE_URL}/ca/guides/floor-care`,
+    })
+    const withFrench = buildPageMetadata({ lang: 'fr', path: '/x', title: 'T', description: 'D', locales: ['fr', 'de'] })
+    expect(Object.keys(withFrench.alternates?.languages ?? {}).sort()).toEqual(['de', 'fr', 'x-default'])
+  })
+
   it('keys the market versions by language tag, never by market code', () => {
     const langs: Record<string, unknown> = buildPageMetadata({ lang: 'us', path: '/blog', title: 'T', description: 'D' })
       .alternates?.languages ?? {}

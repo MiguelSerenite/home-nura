@@ -6,14 +6,20 @@ import sitemap from '@/app/sitemap'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import { PROBLEMS } from '@/lib/catalog'
 import { BLACK_FRIDAY_PATHS } from '@/lib/black-friday'
+import { FLOOR_CARE_MARKETS, FLOOR_CARE_PATHS } from '@/lib/floor-care/config'
 
 /** hreflang URL of `lang` in a sitemap entry (alternates are keyed by language tag). */
 const hreflang = (entry: MetadataRoute.Sitemap[number] | undefined, lang: Lang) =>
   (entry?.alternates?.languages as Record<string, string> | undefined)?.[HTML_LANG[lang]]
 
+/** The US/Canada-only floor-care pages ('/us/guides/floor-care/vacuums'…). */
+const isFloorCareUrl = (url: string) => FLOOR_CARE_PATHS.some((path) => FLOOR_CARE_MARKETS.some((m) => url === `${BASE_URL}/${m}${path}`))
+
 describe('app/sitemap.ts', () => {
   const entries = sitemap()
   const LANGS = LANGUAGES
+  // Pages that exist in every locale (blog articles: every translation).
+  const everyLocale = entries.filter((e) => !isFloorCareUrl(e.url))
 
   it('returns at least one entry per core route', () => {
     // One entry per page and per locale (home + content routes + blog).
@@ -34,7 +40,7 @@ describe('app/sitemap.ts', () => {
   })
 
   it('every entry ships hreflang alternates for every locale', () => {
-    for (const e of entries) {
+    for (const e of everyLocale) {
       const langs = e.alternates?.languages ?? {}
       expect(Object.keys(langs).sort()).toEqual([...LANGS.map((l) => HTML_LANG[l]), 'x-default'].sort())
     }
@@ -63,9 +69,31 @@ describe('app/sitemap.ts', () => {
   it('lists every page once per locale, with no duplicate URL', () => {
     const urls = entries.map((e) => e.url)
     expect(new Set(urls).size).toBe(urls.length)
+    const shared = everyLocale.map((e) => e.url)
     const countFor = (lang: string) =>
-      urls.filter((u) => u === `${BASE_URL}/${lang}` || u.startsWith(`${BASE_URL}/${lang}/`)).length
+      shared.filter((u) => u === `${BASE_URL}/${lang}` || u.startsWith(`${BASE_URL}/${lang}/`)).length
     for (const lang of LANGS) expect(countFor(lang), lang).toBe(countFor('fr'))
+  })
+
+  it('lists the floor-care hub and guides for the US and Canada only, paired en-US ↔ en-CA without x-default', () => {
+    expect(FLOOR_CARE_PATHS).toEqual([
+      '/guides/floor-care',
+      '/guides/floor-care/vacuums',
+      '/guides/floor-care/hard-floor-washers',
+      '/guides/floor-care/carpet-upholstery-cleaners',
+    ])
+    for (const path of FLOOR_CARE_PATHS) {
+      for (const lang of LANGS) {
+        const hit = entries.find((e) => e.url === `${BASE_URL}/${lang}${path}`)
+        expect(Boolean(hit), `${lang}${path}`).toBe(lang === 'us' || lang === 'ca')
+        if (!hit) continue
+        expect(hit.alternates?.languages, `${lang}${path}`).toEqual({
+          'en-US': `${BASE_URL}/us${path}`,
+          'en-CA': `${BASE_URL}/ca${path}`,
+        })
+      }
+    }
+    expect(entries.filter((e) => e.url.includes('/guides/floor-care'))).toHaveLength(FLOOR_CARE_PATHS.length * 2)
   })
 
   it('includes comparateur + quiz + blog in every locale with hreflang for all locales', () => {

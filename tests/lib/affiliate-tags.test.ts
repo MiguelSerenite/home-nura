@@ -10,6 +10,9 @@ import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { PROBLEMS } from '@/lib/catalog'
 import { CATEGORY_GUIDES, getCategoryGuides } from '@/lib/catalog/category-guides'
 import { getProblemBuyBox } from '@/lib/catalog/problem-buy-box'
+import { FLOOR_CARE_GUIDES, FLOOR_CARE_MARKETS } from '@/lib/floor-care/config'
+import { getFloorCareMarket } from '@/lib/floor-care/data'
+import { pickAmazonUrl } from '@/lib/floor-care/picks'
 import { LANGUAGES, type Lang } from '@/lib/i18n'
 import { getStaticProducts } from '@/lib/products'
 import { getSmartKitchenProducts } from '@/lib/smart-kitchen-products'
@@ -146,6 +149,18 @@ describe('generated Amazon links', () => {
     )
     expect(problems).toEqual([])
   }, ALL_ARTICLES_TIMEOUT_MS)
+
+  it('floor-care picks (US and Canada) link to the locale market', () => {
+    const problems = FLOOR_CARE_MARKETS.flatMap((lang) =>
+      FLOOR_CARE_GUIDES.flatMap((guide) =>
+        getFloorCareMarket(lang)[guide].picks.flatMap((pick) => {
+          const url = pickAmazonUrl(pick, lang)
+          return url ? wrongStoreOrTag(url, lang, `${lang}/floor-care/${guide}/${pick.model}`) : []
+        }),
+      ),
+    )
+    expect(problems).toEqual([])
+  })
 
   it('Black Friday picks, event page and Prime trial link to the locale market', () => {
     const problems = LANGUAGES.flatMap((lang) => [

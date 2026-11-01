@@ -28,6 +28,10 @@
  *   (ca, homaviseca-21) versions are among them: their links go to
  *   amazon.fr and Global Earning sends readers on to amazon.se, amazon.com
  *   and amazon.ca. Direct links to those three stores are not verified.
+ * - Models sold only in North America (US and Canadian floor-care guides)
+ *   link to an amazon.fr search for the exact model (amazonMarketModelUrl);
+ *   their amazon.com / amazon.ca ASIN is kept for a later direct link,
+ *   switched off in AMAZON_DIRECT_MODEL_STORES.
  */
 
 import type { Lang } from '@/lib/i18n'
@@ -109,6 +113,40 @@ export function amazonProductUrl(asin: string, lang: Lang): string {
   if (missingModel) return amazonSearchUrl(missingModel, lang)
   const { baseUrl, tag } = AMAZON_MARKETS[lang]
   return `${baseUrl}/dp/${encodeURIComponent(asin)}?tag=${tag}`
+}
+
+/**
+ * Direct product links for market-specific models (the US and Canadian
+ * floor-care guides cite models sold on amazon.com / amazon.ca, which
+ * amazon.fr does not carry). Per market, the store origin to link
+ * {store}/dp/{ASIN}?tag={tracking ID} on; null keeps the verified route,
+ * an amazon.fr search for the model that Global Earning forwards to the
+ * reader's store. Both stay off: direct amazon.com links with homaviseus-21
+ * and amazon.ca links with homaviseca-21 are not verified. Switching one on
+ * (after a SiteStripe check on that store) also means adding its origin to
+ * LINKED_STORES in tests/lib/affiliate-tags.test.ts.
+ */
+export const AMAZON_DIRECT_MODEL_STORES: Readonly<Partial<Record<Lang, string | null>>> = {
+  us: null,
+  ca: null,
+}
+
+/**
+ * Link for a model sold in the reader's market (floor-care guides): an
+ * amazon.fr search for the exact model name with the market's tracking ID
+ * (Global Earning sends US and Canadian shoppers to their local store),
+ * or a direct product page once AMAZON_DIRECT_MODEL_STORES enables that
+ * market and the model has an ASIN there. The ASIN stays in the data for
+ * that switch.
+ */
+export function amazonMarketModelUrl(
+  { model, asin }: { readonly model: string; readonly asin: string | null },
+  lang: Lang,
+  directStores: Readonly<Partial<Record<Lang, string | null>>> = AMAZON_DIRECT_MODEL_STORES,
+): string {
+  const directStore = directStores[lang]
+  if (directStore && asin) return `${directStore}/dp/${encodeURIComponent(asin)}?tag=${AMAZON_MARKETS[lang].tag}`
+  return amazonSearchUrl(model, lang)
 }
 
 /**

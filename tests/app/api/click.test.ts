@@ -55,7 +55,8 @@ describe('POST /api/click', () => {
   it.each([
     ['problem_picks', '/de/guides/probleme/friteuse-ne-chauffe-plus'],
     ['black_friday', '/it/black-friday/airfryers'],
-  ])('logs %s clicks from troubleshooting and Black Friday pages', async (surface, path) => {
+    ['floor_care', '/us/guides/floor-care/carpet-upholstery-cleaners'],
+  ])('logs %s clicks from troubleshooting, Black Friday and floor-care pages', async (surface, path) => {
     const res = await POST(makeRequest({ ...valid, surface, path }))
     expect(res.status).toBe(204)
     const line = JSON.parse(vi.mocked(console.log).mock.calls[0][0] as string)
