@@ -16,6 +16,8 @@ import {
 
 export interface ClearanceRobot {
   name: string
+  /** "Robot vacuum" or "Robot mop". */
+  kind: string
   /** Manufacturer height, compared as published. */
   heightMm: number
   /** The robot's card in the vacuum guide. */
@@ -24,14 +26,30 @@ export interface ClearanceRobot {
 
 const UNITS: readonly ClearanceUnit[] = ['in', 'cm']
 
+/** A rule of thumb from the page's clearance question, linked to its guide. */
+export interface ClearanceTip {
+  label: string
+  href: string
+}
+
+interface ClearanceFinderProps {
+  market: FloorCareMarket
+  robots: readonly ClearanceRobot[]
+  /** The page's clearance question and its hint, when the data has one (else the interface copy). */
+  title?: string
+  intro?: string
+  tips?: readonly ClearanceTip[]
+}
+
 /**
- * Under-furniture clearance check: the reader types the gap under their
+ * Under-furniture clearance check for the robot vacuums and robot mops of
+ * the guides: the reader types the gap under their
  * furniture in inches or centimetres (inches first in the US, centimetres
  * in Canada); it is converted to millimetres without rounding and
  * compared with each robot's manufacturer height. Switching unit rewrites
  * the field in the new unit but keeps comparing the exact millimetres.
  */
-export default function ClearanceFinder({ market, robots }: { market: FloorCareMarket; robots: readonly ClearanceRobot[] }) {
+export default function ClearanceFinder({ market, robots, title, intro, tips = [] }: ClearanceFinderProps) {
   const ui = FLOOR_CARE_UI[market].clearance
   const id = useId()
   const [unit, setUnit] = useState<ClearanceUnit>(DEFAULT_CLEARANCE_UNIT[market])
@@ -66,9 +84,9 @@ export default function ClearanceFinder({ market, robots }: { market: FloorCareM
   return (
     <section id="clearance" aria-labelledby={`${id}-title`} className="scroll-mt-24 rounded-3xl border border-brand-100 bg-brand-50/60 p-6 md:p-8">
       <h2 id={`${id}-title`} className="text-2xl font-bold tracking-tight text-slate-900">
-        {ui.title}
+        {title ?? ui.title}
       </h2>
-      <p className="mt-2 text-sm leading-relaxed text-slate-700">{ui.intro}</p>
+      <p className="mt-2 text-sm leading-relaxed text-slate-700">{intro ?? ui.intro}</p>
 
       <form className="mt-5 flex flex-col gap-4 sm:flex-row sm:items-end" onSubmit={(e) => e.preventDefault()}>
         <div className="flex-1">
@@ -122,25 +140,44 @@ export default function ClearanceFinder({ market, robots }: { market: FloorCareM
       {clearance.ok && (
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           {[
-            { title: ui.fitsTitle, list: fits },
-            { title: ui.tooTallTitle, list: tooTall },
+            { key: 'fits', title: ui.fitsTitle, list: fits },
+            { key: 'too-tall', title: ui.tooTallTitle, list: tooTall },
           ]
             .filter((group) => group.list.length > 0)
             .map((group) => (
-              <div key={group.title}>
-                <h3 className="text-xs font-bold uppercase tracking-widest text-brand-700">{group.title}</h3>
-                <ul className="mt-2 space-y-2">
+              <div key={group.key}>
+                <h3 id={`${id}-${group.key}`} className="text-xs font-bold uppercase tracking-widest text-brand-700">
+                  {group.title}
+                </h3>
+                <ul aria-labelledby={`${id}-${group.key}`} className="mt-2 space-y-2">
                   {group.list.map((robot) => (
                     <li key={robot.href} className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">
                       <a href={robot.href} className="font-semibold text-slate-900 underline-offset-2 hover:text-brand-700 hover:underline">
                         {robot.name}
                       </a>
-                      <span className="block text-slate-600">{formatHeight(robot.heightMm, market)}</span>
+                      <span className="block text-slate-600">
+                        {robot.kind} · {formatHeight(robot.heightMm, market)}
+                      </span>
                     </li>
                   ))}
                 </ul>
               </div>
             ))}
+        </div>
+      )}
+
+      {tips.length > 0 && (
+        <div className="mt-5">
+          <h3 className="text-xs font-bold uppercase tracking-widest text-brand-700">{ui.tipsTitle}</h3>
+          <ul className="mt-2 space-y-1 text-sm">
+            {tips.map((tip) => (
+              <li key={tip.label}>
+                <a href={tip.href} className="text-slate-700 underline-offset-2 hover:text-brand-700 hover:underline">
+                  {tip.label}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       )}
 

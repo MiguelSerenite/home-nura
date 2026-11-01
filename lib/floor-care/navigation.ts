@@ -11,9 +11,9 @@ export function floorCareHref(market: FloorCareMarket, guide: FloorCareGuideKey,
   return `/${market}${floorCarePath(guide)}${anchor ? `#${anchor}` : ''}`
 }
 
-/** Pages that carry the robot clearance check. */
+/** Pages that carry the robot clearance check: the hub and the two guides with robots. */
 export function hasClearanceCheck(guide: FloorCareGuideKey): boolean {
-  return guide === 'hub' || guide === 'dry'
+  return guide === 'hub' || guide === 'dry' || guide === 'hardfloor'
 }
 
 /** Where a chooser answer links from the page `current`: an anchor on the same page, or another page. */

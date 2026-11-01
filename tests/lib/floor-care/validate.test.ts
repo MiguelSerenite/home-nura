@@ -13,10 +13,11 @@ const robot = {
   storeUrlSeen: 'https://www.amazon.com/dp/B0TEST0001',
   manufacturerUrl: 'https://acme.example/r1',
   specs: { Type: 'Robot vacuum' },
+  robot: true,
   heightMm: 94,
   heightSourceUrl: 'https://acme.example/r1/specs',
 }
-const stick = { ...robot, model: 'Stick S1', role: 'Best stick', heightMm: null, heightSourceUrl: null, asin: null, storeUrlSeen: null }
+const stick = { ...robot, model: 'Stick S1', role: 'Best stick', robot: false, heightMm: null, heightSourceUrl: null, asin: null, storeUrlSeen: null }
 
 function validDry(): Record<string, unknown> {
   return structuredClone({
@@ -54,6 +55,7 @@ describe('parseFloorCareGuide', () => {
     const guide = parseDry(validDry())
     expect(guide.picks).toHaveLength(2)
     expect(guide.picks[0].heightMm).toBe(94)
+    expect(guide.picks.map((p) => p.robot)).toEqual([true, false])
     expect(guide.isFixture).toBe(false)
     expect(guide.entryBanner).toBeNull()
     expect(richTextToPlain(guide.sections[0].blocks)).toBe('We read manufacturer pages. One Two')
@@ -92,11 +94,22 @@ describe('parseFloorCareGuide', () => {
     expectError(withPick({ heightMm: 0 }), /heightMm/)
     expectError(withPick({ heightMm: 1100 }), /heightMm.*up to 300/)
     expectError(withPick({ heightSourceUrl: null }), /picks\[0\]\.heightSourceUrl: required when heightMm is set/)
-    expectError(withPick({ heightMm: null }), /picks\[0\]\.heightMm: missing: heightSourceUrl is set/)
+    expectError(withPick({ robot: false, heightMm: null }), /picks\[0\]\.heightMm: missing: heightSourceUrl is set/)
   })
 
-  it('needs at least one robot height in the vacuum guide (clearance check)', () => {
-    expectError(withPick({ heightMm: null, heightSourceUrl: null }), /picks: the vacuum guide needs at least one robot with heightMm/)
+  it('keeps heightMm, the height the clearance check compares, to robots', () => {
+    expectError(withPick({ robot: false }), /picks\[0\]\.heightMm: only robots \("robot": true\) carry heightMm/)
+    expectError(withPick({ heightMm: null, heightSourceUrl: null }), /picks\[0\]\.heightMm: required for a robot/)
+    expectError(withPick({ robot: 'yes' }), /picks\[0\]\.robot: expected true, false or nothing/)
+    // A pick without "robot" is not one.
+    const { robot: _robot, heightMm: _h, heightSourceUrl: _s, ...plain } = robot
+    expect(parseDry({ ...validDry(), picks: [robot, { ...plain, model: 'Stick S1' }] }).picks[1].robot).toBe(false)
+  })
+
+  it('allows robots in the vacuum and hard-floor guides only', () => {
+    const raw = { ...withPick({}), guide: 'textile' }
+    expect(() => parseFloorCareGuide(raw, 'us', 'textile')).toThrow(/picks\[0\]\.robot: robots belong to the vacuum or hard-floor guide/)
+    expect(parseFloorCareGuide({ ...withPick({}), guide: 'hardfloor' }, 'us', 'hardfloor').picks[0].robot).toBe(true)
   })
 
   it('refuses prices next to products', () => {
@@ -160,6 +173,39 @@ describe('parseFloorCareGuide', () => {
     const raw = validDry()
     ;(raw.sections as { html: string }[])[0].html = '<p>See <a href="https://x.example">this</a></p>'
     expectError(raw, /sections\[0\]\.html: <a> at character 7 is not allowed \(allowed: p, ul, li, strong, em\)/)
+  })
+})
+
+describe('writer extensions', () => {
+  it('links a section to another floor-care page with its label', () => {
+    const raw = validDry()
+    ;(raw.sections as Record<string, unknown>[])[0] = { h2: 'Carpets?', html: '<p>Use a carpet cleaner.</p>', path: 'textile', linkLabel: 'Compare carpet cleaners' }
+    expect(parseDry(raw).sections[0].link).toEqual({ target: { kind: 'guide', guide: 'textile' }, label: 'Compare carpet cleaners' })
+    ;(raw.sections as Record<string, unknown>[])[0] = { h2: 'X', html: '<p>Y</p>', path: 'textile' }
+    expectError(raw, /sections\[0\]\.linkLabel: expected a non-empty string/)
+    ;(raw.sections as Record<string, unknown>[])[0] = { h2: 'X', html: '<p>Y</p>', path: 'clearance', linkLabel: 'L' }
+    expectError(raw, /sections\[0\]\.path: "clearance" is not a floor-care page/)
+  })
+
+  it('reads a chooser hint and the clearance question in the market’s unit', () => {
+    const raw = validDry()
+    const question = { question: 'Clearance?', helper: 'Measure in inches.', unit: 'in', acceptedUnits: ['in', 'cm'], answers: [{ label: 'Low', goesTo: 'dry' }, { label: 'High', goesTo: 'dry' }] }
+    raw.chooser = [question]
+    expect(parseDry(raw).chooser[0]).toMatchObject({ helper: 'Measure in inches.', clearance: true })
+    raw.chooser = [{ ...question, unit: 'cm' }]
+    expectError(raw, /chooser\[0\]\.unit: expected "in" on this market/)
+    raw.chooser = [{ ...question, acceptedUnits: ['in', 'ft'] }]
+    expectError(raw, /chooser\[0\]\.acceptedUnits: expected "in" and\/or "cm"/)
+    raw.chooser = [question, question]
+    expectError(raw, /chooser\[1\]\.unit: one clearance question per page/)
+    const textile = { ...validDry(), guide: 'textile', picks: [stick], comparison: { columns: ['Model', 'Type'], rows: [['Stick S1', 'a'], ['Acme Stick S1', 'b']] }, chooser: [question] }
+    expect(() => parseFloorCareGuide(textile, 'us', 'textile')).toThrow(/chooser\[0\]\.unit: the textile page has no clearance check/)
+  })
+
+  it('lets the hub go without a table', () => {
+    const hub = { ...validDry(), guide: 'hub', picks: [], comparison: { columns: [], rows: [] }, chooser: [] }
+    expect(parseFloorCareGuide(hub, 'us', 'hub').comparison).toEqual({ columns: [], rows: [] })
+    expect(() => parseDry({ ...validDry(), comparison: { columns: [], rows: [] } })).toThrow(/comparison\.columns: expected at least 2 items/)
   })
 })
 

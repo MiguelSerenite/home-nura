@@ -23,7 +23,9 @@ export interface FloorCarePick {
   manufacturerUrl: string
   /** Spec name → value, from the manufacturer ("Tank capacity" → "8 oz (237 mL)"). */
   specs: Readonly<Record<string, string>>
-  /** Manufacturer height in millimetres (robots only): compared with the reader's clearance as is. */
+  /** A robot vacuum or robot mop: the under-furniture clearance check lists it. */
+  robot: boolean
+  /** Manufacturer height in millimetres, robots only: compared with the reader's clearance as is. */
   heightMm: number | null
   /** Page stating that height. */
   heightSourceUrl: string | null
@@ -33,6 +35,8 @@ export interface FloorCareSection {
   h2: string
   /** The section body, parsed from the file's `html` (p, ul, li, strong, em only). */
   blocks: readonly RichTextBlock[]
+  /** Link closing the section (`path` + `linkLabel` in the file): another floor-care page. */
+  link: { target: ChooserTarget; label: string } | null
 }
 
 export interface FloorCareComparison {
@@ -53,6 +57,13 @@ export interface ChooserAnswer {
 
 export interface ChooserQuestion {
   question: string
+  /** Hint under the question (`helper` in the file). */
+  helper: string | null
+  /**
+   * The robot clearance question (it names a `unit`): the page renders it
+   * as the clearance check, its answers as rules of thumb.
+   */
+  clearance: boolean
   answers: readonly ChooserAnswer[]
 }
 

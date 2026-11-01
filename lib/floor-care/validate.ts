@@ -17,6 +17,8 @@
 import { FLOOR_CARE_GUIDES, FLOOR_CARE_SLUGS, FLOOR_CARE_NEEDS, FLOOR_CARE_HUB_PATH, type FloorCareGuideKey, type FloorCareMarket } from './config'
 import { parseRichText, RichTextError } from './html'
 import { findPick, pickName } from './picks'
+import { DEFAULT_CLEARANCE_UNIT } from './units'
+import { hasClearanceCheck } from './navigation'
 import type {
   ChooserQuestion,
   ChooserTarget,
@@ -46,7 +48,7 @@ const TOP_KEYS = [
 ] as const
 const PICK_KEYS = [
   'brand', 'model', 'role', 'why', 'bestFor', 'asin', 'storeUrlSeen', 'manufacturerUrl',
-  'specs', 'heightMm', 'heightSourceUrl',
+  'specs', 'robot', 'heightMm', 'heightSourceUrl',
 ] as const
 
 const ASIN = /^[A-Z0-9]{10}$/
@@ -149,9 +151,15 @@ function specs(value: unknown, path: string, fail: Fail): Record<string, string>
   )
 }
 
-function pick(value: unknown, path: string, market: FloorCareMarket, fail: Fail): FloorCarePick {
+/** Guides whose picks may be robots (robot vacuums, robot mops); the hub repeats their picks. */
+const ROBOT_GUIDES: readonly FloorCareGuideKey[] = ['hub', 'dry', 'hardfloor']
+
+function pick(value: unknown, path: string, market: FloorCareMarket, guide: FloorCareGuideKey, fail: Fail): FloorCarePick {
   const p = object(value, path, PICK_KEYS, fail)
   const field = (key: (typeof PICK_KEYS)[number]) => `${path}.${key}`
+  if (p.robot !== undefined && p.robot !== null && typeof p.robot !== 'boolean') fail(field('robot'), `expected true, false or nothing, got ${quote(p.robot)}`)
+  const robot = p.robot === true
+  if (robot && !ROBOT_GUIDES.includes(guide)) fail(field('robot'), 'robots belong to the vacuum or hard-floor guide')
   const asin = p.asin === null || p.asin === undefined ? null : text(p.asin, field('asin'), fail)
   if (asin !== null && !ASIN.test(asin)) fail(field('asin'), `expected a 10-character ASIN or null, got ${quote(asin)}`)
   let heightMm: number | null = null
@@ -163,6 +171,10 @@ function pick(value: unknown, path: string, market: FloorCareMarket, fail: Fail)
   }
   const heightSourceUrl =
     p.heightSourceUrl === null || p.heightSourceUrl === undefined ? null : referenceUrl(p.heightSourceUrl, field('heightSourceUrl'), fail)
+  if (heightMm !== null && !robot) {
+    fail(field('heightMm'), 'only robots ("robot": true) carry heightMm, the height the clearance check compares; put any other height in specs as text')
+  }
+  if (robot && heightMm === null) fail(field('heightMm'), 'required for a robot: the clearance check compares it')
   if (heightMm !== null && heightSourceUrl === null) fail(field('heightSourceUrl'), 'required when heightMm is set')
   if (heightMm === null && heightSourceUrl !== null) fail(field('heightMm'), 'missing: heightSourceUrl is set')
   const brand = noPrice(text(p.brand, field('brand'), fail), field('brand'), fail)
@@ -177,16 +189,26 @@ function pick(value: unknown, path: string, market: FloorCareMarket, fail: Fail)
     storeUrlSeen: storeUrlSeen(p.storeUrlSeen, field('storeUrlSeen'), market, fail),
     manufacturerUrl: referenceUrl(p.manufacturerUrl, field('manufacturerUrl'), fail),
     specs: specs(p.specs, field('specs'), fail),
+    robot,
     heightMm,
     heightSourceUrl,
   }
 }
 
-function section(value: unknown, path: string, fail: Fail): FloorCareSection {
-  const s = object(value, path, ['h2', 'html'], fail)
+function section(value: unknown, path: string, market: FloorCareMarket, current: FloorCareGuideKey, fail: Fail): FloorCareSection {
+  const s = object(value, path, ['h2', 'html', 'path', 'linkLabel'], fail)
   const html = text(s.html, `${path}.html`, fail)
+  let link: FloorCareSection['link'] = null
+  if (s.path !== undefined && s.path !== null) {
+    const goesTo = text(s.path, `${path}.path`, fail)
+    const target = parseChooserTarget(goesTo, market, current)
+    if (!target || target.kind !== 'guide') fail(`${path}.path`, `${quote(goesTo)} is not a floor-care page (same forms as chooser goesTo)`)
+    link = { target: target as ChooserTarget, label: text(s.linkLabel, `${path}.linkLabel`, fail) }
+  } else if (s.linkLabel !== undefined && s.linkLabel !== null) {
+    fail(`${path}.linkLabel`, 'needs a "path" to link to')
+  }
   try {
-    return { h2: text(s.h2, `${path}.h2`, fail), blocks: parseRichText(html) }
+    return { h2: text(s.h2, `${path}.h2`, fail), blocks: parseRichText(html), link }
   } catch (error) {
     if (error instanceof RichTextError) fail(`${path}.html`, error.message)
     throw error
@@ -195,6 +217,9 @@ function section(value: unknown, path: string, fail: Fail): FloorCareSection {
 
 function comparison(value: unknown, path: string, picks: readonly FloorCarePick[], guide: FloorCareGuideKey, fail: Fail): FloorCareComparison {
   const c = object(value, path, ['columns', 'rows'], fail)
+  // The hub may have no table (columns and rows both empty); a table has two columns at least.
+  const emptyHubTable = guide === 'hub' && Array.isArray(c.columns) && c.columns.length === 0 && Array.isArray(c.rows) && c.rows.length === 0
+  if (emptyHubTable) return { columns: [], rows: [] }
   const columns = array(c.columns, `${path}.columns`, fail, 2).map((col, i) =>
     noPrice(text(col, `${path}.columns[${i}]`, fail), `${path}.columns[${i}]`, fail),
   )
@@ -245,10 +270,33 @@ export function parseChooserTarget(raw: string, market: FloorCareMarket, current
   return anchor === undefined ? { kind: 'guide', guide } : { kind: 'guide', guide, anchor }
 }
 
+const CLEARANCE_UNITS: readonly string[] = ['in', 'cm']
+
+/**
+ * A question naming a `unit` is the robot clearance question: its unit must
+ * be the market's (inches in the US, centimetres in Canada) and
+ * `acceptedUnits`, if given, list only inches and centimetres. The check
+ * always accepts both.
+ */
+function clearanceQuestion(q: Record<string, unknown>, path: string, market: FloorCareMarket, fail: Fail): boolean {
+  if (q.unit === undefined || q.unit === null) {
+    if (q.acceptedUnits !== undefined && q.acceptedUnits !== null) fail(`${path}.acceptedUnits`, 'needs a "unit"')
+    return false
+  }
+  if (q.unit !== DEFAULT_CLEARANCE_UNIT[market]) fail(`${path}.unit`, `expected "${DEFAULT_CLEARANCE_UNIT[market]}" on this market, got ${quote(q.unit)}`)
+  if (q.acceptedUnits !== undefined && q.acceptedUnits !== null) {
+    const units = array(q.acceptedUnits, `${path}.acceptedUnits`, fail, 1)
+    if (!units.every((u) => typeof u === 'string' && CLEARANCE_UNITS.includes(u))) fail(`${path}.acceptedUnits`, 'expected "in" and/or "cm"')
+  }
+  return true
+}
+
 function chooser(value: unknown, path: string, market: FloorCareMarket, current: FloorCareGuideKey, fail: Fail): ChooserQuestion {
-  const q = object(value, path, ['question', 'answers'], fail)
+  const q = object(value, path, ['question', 'helper', 'unit', 'acceptedUnits', 'answers'], fail)
   return {
     question: text(q.question, `${path}.question`, fail),
+    helper: q.helper === undefined || q.helper === null ? null : text(q.helper, `${path}.helper`, fail),
+    clearance: clearanceQuestion(q, path, market, fail),
     answers: array(q.answers, `${path}.answers`, fail, 2).map((rawAnswer, i) => {
       const at = `${path}.answers[${i}]`
       const a = object(rawAnswer, at, ['label', 'goesTo'], fail)
@@ -263,6 +311,14 @@ function chooser(value: unknown, path: string, market: FloorCareMarket, current:
       return { label: text(a.label, `${at}.label`, fail), goesTo: target as ChooserTarget }
     }),
   }
+}
+
+/** One clearance question at most, on a page that has the clearance check. */
+function clearanceQuestions(questions: ChooserQuestion[], guide: FloorCareGuideKey, fail: Fail): ChooserQuestion[] {
+  const indexes = questions.flatMap((q, i) => (q.clearance ? [i] : []))
+  if (indexes.length > 1) fail(`chooser[${indexes[1]}].unit`, 'one clearance question per page')
+  if (indexes.length === 1 && !hasClearanceCheck(guide)) fail(`chooser[${indexes[0]}].unit`, `the ${guide} page has no clearance check`)
+  return questions
 }
 
 function faq(value: unknown, path: string, fail: Fail): FloorCareFaq {
@@ -299,11 +355,8 @@ export function parseFloorCareGuide(raw: unknown, market: FloorCareMarket, guide
   if (data.guide !== guide) fail('guide', `expected "${guide}", got ${quote(data.guide)}`)
 
   const isGuide = guide !== 'hub'
-  const picks = array(data.picks, 'picks', fail, isGuide ? 1 : 0).map((p, i) => pick(p, `picks[${i}]`, market, fail))
+  const picks = array(data.picks, 'picks', fail, isGuide ? 1 : 0).map((p, i) => pick(p, `picks[${i}]`, market, guide, fail))
   unique(picks.map((p) => pickName(p).toLowerCase()), 'picks', 'model', fail)
-  if (guide === 'dry' && !picks.some((p) => p.heightMm !== null)) {
-    fail('picks', 'the vacuum guide needs at least one robot with heightMm for the under-furniture clearance check')
-  }
   const sources = array(data.sources, 'sources', fail, isGuide ? 1 : 0).map((s, i) => referenceUrl(s, `sources[${i}]`, fail))
   unique(sources, 'sources', 'source', fail)
 
@@ -314,10 +367,14 @@ export function parseFloorCareGuide(raw: unknown, market: FloorCareMarket, guide
     metaDescription: text(data.metaDescription, 'metaDescription', fail),
     h1: text(data.h1, 'h1', fail),
     intro: text(data.intro, 'intro', fail),
-    sections: array(data.sections, 'sections', fail, isGuide ? 1 : 0).map((s, i) => section(s, `sections[${i}]`, fail)),
+    sections: array(data.sections, 'sections', fail, isGuide ? 1 : 0).map((s, i) => section(s, `sections[${i}]`, market, guide, fail)),
     picks,
     comparison: comparison(data.comparison, 'comparison', picks, guide, fail),
-    chooser: array(data.chooser, 'chooser', fail).map((q, i) => chooser(q, `chooser[${i}]`, market, guide, fail)),
+    chooser: clearanceQuestions(
+      array(data.chooser, 'chooser', fail).map((q, i) => chooser(q, `chooser[${i}]`, market, guide, fail)),
+      guide,
+      fail,
+    ),
     faq: array(data.faq, 'faq', fail).map((f, i) => faq(f, `faq[${i}]`, fail)),
     sources,
     entryBanner: entryBanner(data.entryBanner, guide, fail),

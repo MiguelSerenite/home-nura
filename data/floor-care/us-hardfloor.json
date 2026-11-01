@@ -1,99 +1,278 @@
 {
-  "_fixture": "FIXTURE - placeholder content for development and tests; replaced by the writers' file (same path) before release. Textile models are the verified references of 2026-11-01; every other model is a placeholder.",
   "market": "us",
   "guide": "hardfloor",
-  "metaTitle": "[Fixture] Best hard-floor washers (US)",
-  "metaDescription": "Placeholder description: wet-dry vacuums, steam mops and robot mops for sealed hard floors.",
-  "h1": "[Fixture] Hard-floor washers for sealed floors",
-  "intro": "Placeholder intro for the hard-floor washing guide.",
+  "metaTitle": "Best Wet Dry Vacuums and Steam Mops for Hard Floors 2026",
+  "metaDescription": "Wet dry vacuums, steam mops and robot mops for tile, vinyl and sealed wood: BISSELL CrossWave, Tineco Stretch S6, BISSELL PowerFresh, Roborock Saros 10R.",
+  "h1": "Best Wet-Dry Vacuums, Steam Mops and Robot Mops for Hard Floors (2026)",
+  "intro": "For most homes with tile, vinyl plank or sealed hardwood, the BISSELL CrossWave Cordless Max 2554A is the one to get: it vacuums and washes in one pass, holds 28 fl oz (0.83 L) of clean water and runs up to 30 minutes per charge. If the dust is under the bed, the Tineco FLOOR ONE STRETCH S6 lies flat at 5.1 in (13 cm), and the Roborock Saros 10R robot is only 3.14 in (79.8 mm) tall. Before you buy anything, check what your floor's maker allows: steam and standing water can ruin unsealed wood, and flooring makers such as Shaw rule out steam on their laminate and vinyl.",
   "sections": [
     {
-      "h2": "Sealed floors only",
-      "html": "<p>Placeholder text: these machines use water; keep them off <strong>unsealed</strong> wood.</p>"
+      "h2": "Quick answer",
+      "html": "<ul><li><strong>Best overall:</strong> BISSELL CrossWave Cordless Max 2554A, a cordless wet-dry vacuum for mixed hard floors that can also freshen area rugs.</li><li><strong>Best for under furniture:</strong> Tineco FLOOR ONE STRETCH S6, which reclines to 180° and lies 5.1 in (13 cm) high.</li><li><strong>Upgrade pick:</strong> Tineco FLOOR ONE S7 STRETCH Ultra, rated for up to 50 minutes per charge, with a 34 fl oz (1 L) clean-water tank.</li><li><strong>Best steam mop:</strong> BISSELL PowerFresh Steam Mop 1940A, for sealed tile, grout and stone.</li><li><strong>Best robot vacuum-mop:</strong> Roborock Saros 10R, 3.14 in (79.8 mm) tall, with a dock that washes and dries its mops.</li></ul>"
+    },
+    {
+      "h2": "Which machine suits which floor",
+      "html": "<p>All three types are made for <strong>sealed</strong> hard floors. Here is what the appliance makers list, and where flooring makers draw a harder line.</p><ul><li><strong>Ceramic and porcelain tile, sealed stone:</strong> the easy case. Every pick here handles it, and a steam mop adds heat for grout lines and dried-on spots. BISSELL lists ceramic tile, marble and stone for the PowerFresh 1940A.</li><li><strong>Vinyl plank (LVP) and sheet vinyl:</strong> a wet-dry vacuum or a robot mop is the safer choice. BISSELL says the PowerFresh steam mop is not intended for vinyl or vinyl plank, and Shaw, a major US flooring maker, says its resilient (vinyl) floors should not be cleaned with a steam cleaner, because the heat can make the flooring expand.</li><li><strong>Sealed hardwood:</strong> BISSELL lists sealed wood for the CrossWave and tells owners not to overwet hardwood, and Tineco lists hardwood for the STRETCH S6. The National Wood Flooring Association (NWFA) advises against wet mops and steam mops on wood floors, so use the lowest water setting and finish with dry passes.</li><li><strong>Laminate:</strong> check your floor's care guide and warranty first. BISSELL lists laminate for the CrossWave and even for the PowerFresh steam mop, but Shaw tells owners of its laminate not to wet mop it with water or any liquid cleaner, and advises against steam mops on it.</li><li><strong>Linoleum:</strong> skip the steam mop. BISSELL says the PowerFresh is not intended for linoleum, so follow your floor maker's care guide for damp cleaning.</li></ul>"
+    },
+    {
+      "h2": "What not to use on unsealed wood, waxed floors and laminate",
+      "html": "<p>Manufacturer guidance agrees on one point: <strong>no steam and no standing water on unsealed wood</strong>.</p><ul><li><strong>Unsealed wood:</strong> BISSELL says the PowerFresh steam mop is not intended for unsealed hardwood, and its CrossWave guide says the machine is designed for sealed hard floors and area rugs. Tineco's US pages don't say whether its floor washers suit unsealed wood, so follow your flooring maker's care guide.</li><li><strong>Waxed wood:</strong> BISSELL says not to use its steam mop on wax-polished floors and warns that steam can dull waxed and some unwaxed finishes. The NWFA recommends a cleaner made for your floor's specific finish.</li><li><strong>Wood and steam in general:</strong> BISSELL warns that holding steam in one spot raises the risk of damaging the finish on wood floors. Shaw goes further: its technical bulletin says steam is not recommended on its hardwood, laminate or vinyl floors, even with steam cleaners advertised as safe for wood.</li><li><strong>Laminate:</strong> water that reaches the joints is the risk. If your laminate maker allows damp cleaning at all, use the lowest flow and make extra dry passes so nothing sits in the seams.</li><li><strong>Homemade or third-party cleaners:</strong> BISSELL says other formulas or household cleaners may harm the CrossWave, and that no formula, chemical or cleaning solution, vinegar included, should go into the PowerFresh steam mop's tank. Roborock says to use only its recommended cleaning solution in the Saros 10R. On wood, the NWFA warns that vinegar's acidity can damage the finish over time.</li></ul>"
+    },
+    {
+      "h2": "These are not carpet or upholstery cleaners",
+      "html": "<p>Wet-dry vacuums, steam mops and robot mops wash <strong>hard</strong> floors. They don't deep-clean wall-to-wall carpet, and none of them is built for sofas, mattresses or car seats.</p><ul><li>Tineco lists the FLOOR ONE STRETCH S6 for bare floors and sells its carpet cleaners as a separate line.</li><li>BISSELL says the CrossWave can refresh area rugs in its Area Rug mode: think surface refresh, not a deep extraction clean. BISSELL warns against overwetting carpet and against using it on silk or delicate rugs.</li><li>The carpet refresher tray that comes with some PowerFresh models only freshens carpet: BISSELL says the steam mop is not a carpet cleaner and the tray should not be used on spots or stains.</li><li>The Roborock Saros 10R can remove its mops before vacuum-only and carpet runs (a setting you turn on in the Roborock app) so rugs stay dry, but it doesn't wash them.</li></ul><p>Dealing with pet accidents, coffee on the rug or a stain on the couch? You need a portable carpet and upholstery cleaner instead: see our guide to stains, pets and carpets.</p>"
+    },
+    {
+      "h2": "Wet-dry vacuum, steam mop or robot mop?",
+      "html": "<ul><li><strong>Wet-dry vacuum (floor washer):</strong> picks up crumbs and spills and washes in the same pass, with separate clean and dirty water tanks so you never mop with dirty water. The best fit for kitchens, kids and pets. Trade-offs: two tanks to fill, empty and rinse, and some heft: the BISSELL weighs 11.5 lb (5.2 kg) and the Tineco STRETCH S6 9.9 lb (4.5 kg).</li><li><strong>Steam mop:</strong> water only, no formula, light at 6.2 lb (2.8 kg) for the BISSELL, and effective on sealed tile and grout. Trade-offs: it doesn't pick up debris, so you sweep or vacuum first, and it's the riskiest option on wood, laminate and vinyl.</li><li><strong>Robot vacuum-mop:</strong> keeps floors clean day to day without effort and reaches under low furniture. Trade-offs: the dock needs floor space, and it's built for regular upkeep, so you'll still want a wet-dry vacuum or a mop for big spills.</li></ul>"
+    },
+    {
+      "h2": "What to look for",
+      "html": "<ul><li><strong>Battery or cord:</strong> the cordless picks here are rated for up to 30 minutes (BISSELL), 40 minutes (Tineco STRETCH S6) or 50 minutes (Tineco S7 STRETCH Ultra) per charge. A corded floor washer never runs out mid-clean, but you work within reach of an outlet.</li><li><strong>Clean-water tank:</strong> 27 to 34 fl oz (0.8 to 1 L) on the floor washers here. A bigger tank means fewer trips to the sink in a large kitchen.</li><li><strong>Self-cleaning:</strong> all three floor washers run a self-clean cycle on their dock. The Tineco STRETCH S6 washes with 158°F (70°C) water and dries at the same temperature, and the S7 STRETCH Ultra dries with 185°F (85°C) air, which helps keep odors down.</li><li><strong>Height under furniture:</strong> a lay-flat floor washer or a slim robot reaches under beds and sofas. Compare the height the maker lists, in inches, with your own gap.</li><li><strong>Formula rules:</strong> BISSELL tells CrossWave owners to use only CrossWave formulas. Check what your machine accepts before you stock up.</li><li><strong>Dock space:</strong> robot docks are bulky. The Saros 10R dock measures 15.0 × 18.7 × 19.2 in (381 × 475 × 488 mm).</li></ul>"
+    },
+    {
+      "h2": "How to measure under your furniture",
+      "html": "<p>Measure from the floor to the lowest point under the sofa, bed or cabinet, in inches. That's often a front rail or a center support, not the edge you see first. Then compare it with the height each maker lists:</p><ul><li><strong>Roborock Saros 10R:</strong> 3.14 in (79.8 mm) tall.</li><li><strong>Tineco FLOOR ONE STRETCH S6 and S7 STRETCH Ultra:</strong> 5.1 in (13 cm) when laid flat.</li></ul><p>Leave some margin, since rugs and thresholds change the gap from room to room. BISSELL warns that laying the CrossWave flat makes its dirty-water tank leak, so for very low furniture choose a lay-flat model or a slim robot.</p>"
+    },
+    {
+      "h2": "Mistakes to avoid",
+      "html": "<ul><li>Steaming laminate or vinyl plank without checking the floor's care guide and warranty.</li><li>Holding a steam mop over one spot on a wood floor: BISSELL says prolonged steam raises the risk of damaging the finish.</li><li>Leaving the floor wet: release the trigger and make a dry pass, as BISSELL's instructions say, so water doesn't sit in the seams.</li><li>Pouring vinegar, bleach or a household cleaner into the tank.</li><li>Expecting a floor washer to clean wall-to-wall carpet or upholstery.</li><li>Putting the machine away without running the self-clean cycle and emptying the dirty-water tank.</li></ul>"
+    },
+    {
+      "h2": "How we pick",
+      "html": "<p>We compare and analyze manufacturer specs from each brand's US website, the makers' own care instructions, and floor-care guidance from US flooring makers and the National Wood Flooring Association. Every model was checked on the manufacturer's US site and on Amazon, and every spec comes from the manufacturer, not from store listings. Our picks come from that analysis; we don't run lab tests of our own.</p>"
     }
   ],
   "picks": [
     {
-      "brand": "Placeholder",
-      "model": "Wet-Dry Vacuum HF-1",
-      "role": "Best wet-dry vacuum",
-      "why": "Placeholder reason.",
-      "bestFor": "Kitchens and mudrooms",
-      "asin": null,
-      "storeUrlSeen": null,
-      "manufacturerUrl": "https://example.com/hf-1",
+      "brand": "BISSELL",
+      "model": "CrossWave Cordless Max 2554A",
+      "role": "Best overall",
+      "why": "It vacuums and washes sealed hard floors in one pass, keeps clean and dirty water in separate tanks, runs up to 30 minutes on a 36 V battery and runs a self-cleaning cycle on its dock. The downside: at 11.5 lb (5.2 kg) it's the heaviest cordless pick here, and BISSELL wants you to use only its CrossWave formulas.",
+      "bestFor": "Homes with a mix of tile, vinyl, sealed wood and a few area rugs",
+      "asin": "B07SXD5KKG",
+      "storeUrlSeen": "https://www.amazon.com/BISSELL-2554A-CrossWave-Cordless-Wet-Dry/dp/B07SXD5KKG",
+      "manufacturerUrl": "https://www.bissell.com/en-us/product/bissell-crosswave-cordless-max-multisurface-wet-dry-vac-2554A.html",
       "specs": {
-        "Type": "Wet-dry vacuum",
-        "Floors": "Sealed hard floors"
+        "Type": "Cordless wet-dry vacuum",
+        "Battery": "36 V lithium-ion",
+        "Runtime": "Up to 30 min (varies by mode)",
+        "Clean water tank": "28 fl oz (0.83 L)",
+        "Dirty water tank": "18.6 fl oz (0.55 L)",
+        "Cleaning path": "10.5 in (27 cm)",
+        "Weight": "11.5 lb (5.2 kg)",
+        "Floors (per BISSELL)": "Sealed hard floors such as tile, sealed wood and laminate; area rugs"
       },
       "heightMm": null,
       "heightSourceUrl": null
     },
     {
-      "brand": "Placeholder",
-      "model": "Steam Mop HF-2",
+      "brand": "Tineco",
+      "model": "FLOOR ONE STRETCH S6",
+      "role": "Best for under furniture",
+      "why": "It reclines to 180° and lies just 5.1 in (13 cm) high, so the washing head reaches under beds and sofas that upright floor washers can't, and it runs up to 40 minutes per charge. The trade-off: Tineco lists it for bare floors only, so it can't help with rugs.",
+      "bestFor": "Low beds, sofas and cabinets on vinyl, tile or sealed wood",
+      "asin": "B0CVXLXGRP",
+      "storeUrlSeen": "https://www.amazon.com/Tineco-Floor-ONE-Stretch-Self-Cleaning/dp/B0CVXLXGRP",
+      "manufacturerUrl": "https://us.tineco.com/all-floor-washers/floor-one-stretch-s6/",
+      "specs": {
+        "Type": "Cordless wet-dry vacuum, 180° lay-flat",
+        "Battery": "4,000 mAh",
+        "Runtime": "Up to 40 min",
+        "Charging time": "4 hr",
+        "Clean water tank": "27 fl oz (0.8 L)",
+        "Dirty water tank": "24 fl oz (0.72 L)",
+        "Height laid flat": "5.1 in (13 cm)",
+        "Weight": "9.9 lb (4.5 kg)",
+        "Noise": "78 dB(A)",
+        "Self-cleaning": "Hot-water wash and drying at 158°F (70°C)"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    },
+    {
+      "brand": "Tineco",
+      "model": "FLOOR ONE S7 STRETCH Ultra",
+      "role": "Upgrade pick",
+      "why": "It lies just as flat as the STRETCH S6, at 5.1 in (13 cm), but Tineco rates it for up to 50 minutes per charge, gives it a 34 fl oz (1 L) clean-water tank and dries it with 185°F (85°C) air after the self-clean cycle. The trade-offs: a full charge takes up to 5 hours, Tineco's US page lists no weight, and it's a hard-floor washer, not a rug cleaner.",
+      "bestFor": "Larger homes with lots of hard flooring and low furniture",
+      "asin": "B0DPPLWYGX",
+      "storeUrlSeen": "https://www.amazon.com/dp/B0DPPLWYGX",
+      "manufacturerUrl": "https://us.tineco.com/products/floor-one-s7-stretch-ultra.html",
+      "specs": {
+        "Type": "Cordless wet-dry vacuum, lay-flat",
+        "Battery": "7 × 3,900 mAh pouch cells",
+        "Runtime": "Up to 50 min",
+        "Charging time": "Up to 5 hr",
+        "Suction": "21,000 Pa",
+        "Clean water tank": "34 fl oz (1 L)",
+        "Dirty water tank": "24 fl oz (0.72 L)",
+        "Height laid flat": "5.1 in (13 cm)",
+        "Self-cleaning": "Self-clean cycle, then 5 min drying with 185°F (85°C) air"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    },
+    {
+      "brand": "BISSELL",
+      "model": "PowerFresh Steam Mop 1940A",
       "role": "Best steam mop",
-      "why": "Placeholder reason.",
-      "bestFor": "Sealed tile",
-      "asin": null,
-      "storeUrlSeen": null,
-      "manufacturerUrl": "https://example.com/hf-2",
+      "why": "It cleans sealed tile, stone and sealed hardwood with water alone, heats up in 30 seconds and offers three steam levels plus a flip-down scrubber for grout and dried-on spots. The catch: it doesn't pick up debris, so you vacuum first, and BISSELL rules it out on vinyl, vinyl plank, linoleum and unsealed wood, as well as on any floor whose maker forbids steam.",
+      "bestFor": "Sealed tile and grout, stone and other hard floors whose maker allows steam",
+      "asin": "B0091YYUAM",
+      "storeUrlSeen": "https://www.amazon.com/Bissell-Sanitization-Flip-Down-Scrubber-1940A/dp/B0091YYUAM",
+      "manufacturerUrl": "https://www.bissell.com/en-us/product/powerfresh-scrubbing-sanitizing-steam-mop-1940A.html",
       "specs": {
-        "Type": "Steam mop",
-        "Floors": "Sealed hard floors"
+        "Type": "Corded steam mop",
+        "Power": "1,500 W",
+        "Cord": "23 ft (7 m)",
+        "Water tank": "16 fl oz (0.47 L)",
+        "Heat-up time": "30 seconds",
+        "Steam settings": "Low, medium, high",
+        "Cleaning path": "12 in (30 cm)",
+        "Weight": "6.2 lb (2.8 kg)",
+        "Warranty": "2-year limited",
+        "Floors (per BISSELL)": "Sealed hardwood, ceramic tile, laminate, marble, stone; not vinyl, vinyl plank, linoleum or unsealed hardwood"
       },
       "heightMm": null,
       "heightSourceUrl": null
     },
     {
-      "brand": "Placeholder",
-      "model": "Robot Mop HF-3",
-      "role": "Best robot mop",
-      "why": "Placeholder reason.",
-      "bestFor": "Daily light mopping",
-      "asin": null,
-      "storeUrlSeen": null,
-      "manufacturerUrl": "https://example.com/hf-3",
+      "brand": "Roborock",
+      "model": "Saros 10R",
+      "role": "Best robot vacuum-mop",
+      "why": "At 3.14 in (79.8 mm), Roborock calls it its thinnest robot as of January 2025, so it vacuums and mops under furniture taller robots can't reach, and its dock washes the mops in water up to 176°F (80°C), dries them with warm air and empties the bin. The downside: the dock takes real floor space, and like any robot it keeps floors clean rather than handling big spills.",
+      "bestFor": "Daily upkeep of hard floors with low sofas and beds",
+      "asin": "B0DHCJ571Z",
+      "storeUrlSeen": "https://www.amazon.com/roborock-Saros-10R-Zero-Tangling-Self-Emptying/dp/B0DHCJ571Z",
+      "manufacturerUrl": "https://us.roborock.com/pages/roborock-saros-10r",
       "specs": {
-        "Type": "Robot mop",
-        "Floors": "Sealed hard floors"
+        "Type": "Robot vacuum and mop with all-in-one dock",
+        "Robot height": "3.14 in (79.8 mm)",
+        "Robot size": "13.8 × 13.9 in (350 × 353 mm)",
+        "Threshold climbing": "Up to 1.57 in (4 cm), double-layer thresholds",
+        "Mop lift": "Up to 0.87 in (22 mm)",
+        "Mop washing in dock": "Water up to 176°F (80°C)",
+        "Mop drying": "Warm air up to 131°F (55°C)",
+        "Charging time": "2.5 hr",
+        "Dock size": "15.0 × 18.7 × 19.2 in (381 × 475 × 488 mm)"
       },
-      "heightMm": null,
-      "heightSourceUrl": null
+      "heightMm": 79.8,
+      "heightSourceUrl": "https://us.roborock.com/pages/roborock-saros-10r",
+      "robot": true
     }
   ],
   "comparison": {
     "columns": [
       "Model",
       "Type",
-      "Floors"
+      "Power",
+      "Clean water tank",
+      "Weight",
+      "Height under furniture",
+      "Best for"
     ],
     "rows": [
       [
-        "Placeholder Wet-Dry Vacuum HF-1",
-        "Wet-dry vacuum",
-        "Sealed hard floors"
+        "BISSELL CrossWave Cordless Max 2554A",
+        "Cordless wet-dry vacuum",
+        "Battery, up to 30 min",
+        "28 fl oz (0.83 L)",
+        "11.5 lb (5.2 kg)",
+        "Not for lay-flat use",
+        "Mixed hard floors and area rugs"
       ],
       [
-        "Placeholder Steam Mop HF-2",
+        "Tineco FLOOR ONE STRETCH S6",
+        "Cordless wet-dry vacuum, lay-flat",
+        "Battery, up to 40 min",
+        "27 fl oz (0.8 L)",
+        "9.9 lb (4.5 kg)",
+        "5.1 in (13 cm) laid flat",
+        "Under beds and sofas"
+      ],
+      [
+        "Tineco FLOOR ONE S7 STRETCH Ultra",
+        "Cordless wet-dry vacuum, lay-flat",
+        "Battery, up to 50 min",
+        "34 fl oz (1 L)",
+        "Not listed",
+        "5.1 in (13 cm) laid flat",
+        "Larger homes, low furniture"
+      ],
+      [
+        "BISSELL PowerFresh Steam Mop 1940A",
         "Steam mop",
-        "Sealed hard floors"
+        "1,500 W, 23 ft (7 m) cord",
+        "16 fl oz (0.47 L)",
+        "6.2 lb (2.8 kg)",
+        "Not listed",
+        "Sealed tile, grout and stone"
       ],
       [
-        "Placeholder Robot Mop HF-3",
-        "Robot mop",
-        "Sealed hard floors"
+        "Roborock Saros 10R",
+        "Robot vacuum-mop with dock",
+        "Battery, 2.5 hr charge",
+        "Refilled by the dock",
+        "Not listed",
+        "3.14 in (79.8 mm)",
+        "Daily upkeep under low furniture"
       ]
     ]
   },
   "chooser": [],
   "faq": [
     {
-      "q": "Is this a fixture?",
-      "a": "Yes. This file is placeholder content: the writers' file replaces it before release."
+      "q": "Can I use a wet-dry vacuum on hardwood floors?",
+      "a": "Only on sealed hardwood, and with as little water as possible. BISSELL designs the CrossWave for sealed hard floors and tells owners not to overwet hardwood. The National Wood Flooring Association goes further and advises against wet mops and steam mops on wood, so use the lowest flow setting, finish with dry passes and follow your floor maker's care guide."
+    },
+    {
+      "q": "Is a steam mop safe on laminate or vinyl plank flooring?",
+      "a": "It depends on the floor, not just the mop. BISSELL lists laminate for the PowerFresh 1940A but says it is not intended for vinyl, vinyl plank or linoleum. Shaw advises against steam mops on its laminate and says its vinyl (resilient) floors should not be steam cleaned at all. Check your flooring's care guide and warranty first; if it rules out steam, a wet-dry vacuum or a robot mop is the safer choice."
+    },
+    {
+      "q": "How do I know whether my wood floor is sealed?",
+      "a": "Check the installation paperwork, or ask the installer or the flooring maker which finish was used. The NWFA recommends a cleaner made for your floor's specific finish, which a flooring professional can identify and recommend. Waxed floors are a special case: BISSELL says not to use its steam mop on wax-polished floors."
+    },
+    {
+      "q": "Can these machines clean carpet or upholstery?",
+      "a": "No. BISSELL says the CrossWave can refresh area rugs, and Tineco lists its STRETCH S6 for bare floors only. None of them deep-cleans wall-to-wall carpet, sofas or mattresses. For stains on fabric, see our guide to stains, pets and carpets."
+    },
+    {
+      "q": "Do I need to vacuum before I mop?",
+      "a": "Not with a wet-dry vacuum: the BISSELL and Tineco floor washers pick up dry debris and wash in the same pass. A steam mop is different, and BISSELL says to sweep or vacuum thoroughly first. Roborock's manual for the Saros 10R also recommends vacuuming at least three times before the first mopping run."
+    },
+    {
+      "q": "Can I put vinegar or my own floor cleaner in the tank?",
+      "a": "Not without checking the manual. BISSELL says other formulas or household cleaners may harm the CrossWave, and that the PowerFresh steam mop's tank takes no formula, chemicals or cleaning solutions, vinegar included; it recommends distilled water instead of tap water. On wood floors, the NWFA warns that vinegar's acidity can damage the finish over time."
+    },
+    {
+      "q": "How much clearance do I need under furniture?",
+      "a": "Measure the lowest point under the sofa or bed and compare it with the maker's height. The Roborock Saros 10R is 3.14 in (79.8 mm) tall, so it needs a gap a little higher than that. The Tineco FLOOR ONE STRETCH S6 and S7 STRETCH Ultra need 5.1 in (13 cm) when laid flat. Leave some margin for rugs and thresholds."
     }
   ],
   "sources": [
-    "https://example.com/hard-floor-sources"
+    "https://www.bissell.com/en-us/product/bissell-crosswave-cordless-max-multisurface-wet-dry-vac-2554A.html",
+    "https://bissellcdn.blob.core.windows.net/cdn-storage-container/Web%20Portal%20User%20Guides/US/2597.pdf",
+    "https://www.bissell.com/en-us/product/powerfresh-scrubbing-sanitizing-steam-mop-1940A.html",
+    "https://bissellcdn.blob.core.windows.net/cdn-storage-container/Web%20Portal%20User%20Guides/US/1940.pdf",
+    "https://us.tineco.com/all-floor-washers/floor-one-stretch-s6/",
+    "https://us.tineco.com/all-floor-washers/",
+    "https://store.tineco.com/products/tineco-floor-one-stretch-s6-wet-dry-vacuum-cleaner",
+    "https://us.tineco.com/products/floor-one-s7-stretch-ultra.html",
+    "https://us.roborock.com/pages/roborock-saros-10r",
+    "https://support.roborock.com/hc/en-us/article_attachments/43356662832025",
+    "https://woodfloors.org/maintenance/",
+    "https://woodfloors.org/how-to-clean-and-take-care-of-your-wood-floors-essential-tips-for-homeowners/",
+    "https://shawfloors.com/en-us/care-and-warranties/laminate",
+    "https://shawfloors.com/en-us/laminate-overview",
+    "https://pdmsview.shawinc.com/Technical-Bulletins/Product-Care-Technical-Bulletins/Use-of-Steam-to-Clean-Hardwood,-Laminate-and-Resil"
+  ],
+  "_storePagesChecked": [
+    "https://www.amazon.com/BISSELL-2554A-CrossWave-Cordless-Wet-Dry/dp/B07SXD5KKG",
+    "https://www.amazon.com/Tineco-Floor-ONE-Stretch-Self-Cleaning/dp/B0CVXLXGRP",
+    "https://www.amazon.com/dp/B0DPPLWYGX",
+    "https://www.amazon.com/Bissell-Sanitization-Flip-Down-Scrubber-1940A/dp/B0091YYUAM",
+    "https://www.amazon.com/roborock-Saros-10R-Zero-Tangling-Self-Emptying/dp/B0DHCJ571Z"
   ]
 }

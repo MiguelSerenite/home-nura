@@ -3,7 +3,7 @@ import { readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { FLOOR_CARE_GUIDES, FLOOR_CARE_MARKETS, type FloorCareGuideKey } from '@/lib/floor-care/config'
 import { getFloorCareMarket, loadFloorCareMarket } from '@/lib/floor-care/data'
-import { pickName, robotPicks } from '@/lib/floor-care/picks'
+import { ROBOT_GUIDES, pickName, robotPicks } from '@/lib/floor-care/picks'
 
 const DATA_DIR = join(process.cwd(), 'data', 'floor-care')
 
@@ -38,12 +38,29 @@ describe.each(FLOOR_CARE_MARKETS)('floor-care market %s', (market) => {
     }
   })
 
-  it('gives the clearance check robots with a manufacturer height and its source', () => {
-    const robots = robotPicks(data.dry)
+  it('gives the clearance check robot vacuums and robot mops with a manufacturer height and its source', () => {
+    const robots = ROBOT_GUIDES.flatMap((guide) => robotPicks(data[guide]))
     expect(robots.length).toBeGreaterThan(0)
     for (const robot of robots) {
       expect(robot.heightMm, pickName(robot)).toBeGreaterThan(0)
       expect(robot.heightSourceUrl, pickName(robot)).toMatch(/^https:\/\//)
+    }
+  })
+
+  it('gives a height in millimetres to robots only', () => {
+    for (const guide of FLOOR_CARE_GUIDES) {
+      for (const pick of data[guide].picks) {
+        expect(pick.heightMm === null, `${guide}: ${pickName(pick)}`).toBe(!pick.robot)
+      }
+    }
+    expect(data.textile.picks.filter((p) => p.robot)).toEqual([])
+  })
+
+  it('lists the robot mops of the hard-floor guide in the clearance check, and no upright or lie-flat machine', () => {
+    expect(robotPicks(data.hardfloor).length).toBeGreaterThan(0)
+    const robots = new Set(ROBOT_GUIDES.flatMap((guide) => robotPicks(data[guide])).map(pickName))
+    for (const pick of [...data.textile.picks, ...data.hardfloor.picks.filter((p) => !p.robot)]) {
+      expect(robots.has(pickName(pick)), pickName(pick)).toBe(false)
     }
   })
 

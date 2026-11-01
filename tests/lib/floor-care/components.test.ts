@@ -9,8 +9,8 @@ import RichText from '@/components/floor-care/RichText'
 import { parseRichText } from '@/lib/floor-care/html'
 
 const robots = [
-  { name: 'Acme Robo R1', heightMm: 94, href: '#pick-acme-robo-r1' },
-  { name: 'Acme Slim R2', heightMm: 79.5, href: '#pick-acme-slim-r2' },
+  { name: 'Acme Robo R1', kind: 'Robot vacuum', heightMm: 94, href: '#pick-acme-robo-r1' },
+  { name: 'Acme Mop M2', kind: 'Robot mop', heightMm: 79.5, href: '/us/guides/floor-care/hard-floor-washers#pick-acme-mop-m2' },
 ]
 
 describe('ClearanceFinder', () => {
@@ -41,6 +41,7 @@ describe('Chooser', () => {
         questions: [
           {
             question: 'What do you need to clean up?',
+            helper: 'Pick the mess you see most.',
             answers: [
               { label: 'Dust', href: '/us/guides/floor-care/vacuums', targetLabel: 'Vacuums' },
               { label: 'Stains', href: '/us/guides/floor-care/carpet-upholstery-cleaners', targetLabel: 'Carpet & upholstery cleaners' },

@@ -4,7 +4,7 @@ import AmazonDisclosure from '@/components/AmazonDisclosure'
 import { FLOOR_CARE_NEEDS, type FloorCareGuideKey, type FloorCareMarket, type FloorCareNeedKey } from '@/lib/floor-care/config'
 import { getFloorCareMarket, needOfHubPick } from '@/lib/floor-care/data'
 import { chooserHref, chooserTargetLabel, floorCareHref, hasClearanceCheck } from '@/lib/floor-care/navigation'
-import { pickAmazonUrl, pickId, pickName, robotPicks } from '@/lib/floor-care/picks'
+import { ROBOT_GUIDES, pickAmazonUrl, pickId, pickName, robotPicks } from '@/lib/floor-care/picks'
 import type { FloorCareGuide, FloorCareMarketData } from '@/lib/floor-care/types'
 import { FLOOR_CARE_UI } from '@/lib/floor-care/ui'
 import Chooser, { type ChooserItem } from './Chooser'
@@ -13,28 +13,46 @@ import ComparisonSection from './ComparisonSection'
 import PickCards from './PickCards'
 import { FloorCareShell, Sections } from './PageParts'
 
-/** Chooser questions with their links resolved for the page they sit on. */
+/** Chooser questions with their links resolved for the page they sit on (the clearance question apart). */
 function chooserItems(data: FloorCareGuide): ChooserItem[] {
-  return data.chooser.map((question) => ({
-    question: question.question,
-    answers: question.answers.map((answer) => ({
-      label: answer.label,
-      href: chooserHref(answer.goesTo, data.market, data.guide),
-      targetLabel: chooserTargetLabel(answer.goesTo, data.market),
-    })),
-  }))
+  return data.chooser
+    .filter((question) => !question.clearance)
+    .map((question) => ({
+      question: question.question,
+      helper: question.helper,
+      answers: question.answers.map((answer) => ({
+        label: answer.label,
+        href: chooserHref(answer.goesTo, data.market, data.guide),
+        targetLabel: chooserTargetLabel(answer.goesTo, data.market),
+      })),
+    }))
 }
 
-/** The vacuum guide's robots for the clearance check, linked to their cards from the page `from`. */
+/** The page's clearance question as the check's heading, hint and rules of thumb. */
+function clearanceCopy(data: FloorCareGuide) {
+  const question = data.chooser.find((q) => q.clearance)
+  if (!question) return {}
+  return {
+    title: question.question,
+    intro: question.helper ?? undefined,
+    tips: question.answers.map((answer) => ({ label: answer.label, href: chooserHref(answer.goesTo, data.market, data.guide) })),
+  }
+}
+
+/** Robot vacuums and robot mops for the clearance check, linked to their cards from the page `from`. */
 function clearanceRobots(market: FloorCareMarketData, from: FloorCareGuideKey): ClearanceRobot[] {
-  return robotPicks(market.dry).map((pick) => ({
-    name: pickName(pick),
-    heightMm: pick.heightMm as number,
-    href: from === 'dry' ? `#${pickId(pick)}` : floorCareHref(market.dry.market, 'dry', pickId(pick)),
-  }))
+  const ui = FLOOR_CARE_UI[market.hub.market]
+  return ROBOT_GUIDES.flatMap((guide) =>
+    robotPicks(market[guide]).map((pick) => ({
+      name: pickName(pick),
+      kind: ui.robotKind[guide],
+      heightMm: pick.heightMm,
+      href: from === guide ? `#${pickId(pick)}` : floorCareHref(market.hub.market, guide, pickId(pick)),
+    })),
+  )
 }
 
-/** The chooser (when the file has questions), then the robot clearance check on the hub and the vacuum guide. */
+/** The chooser (when the file has questions), then the robot clearance check on the hub and the guides with robots. */
 function ChooserBlock({ data, market }: { data: FloorCareGuide; market: FloorCareMarketData }) {
   const ui = FLOOR_CARE_UI[data.market]
   const items = chooserItems(data)
@@ -50,7 +68,7 @@ function ChooserBlock({ data, market }: { data: FloorCareGuide; market: FloorCar
           <Chooser market={data.market} questions={items} />
         </section>
       )}
-      {withClearance && <ClearanceFinder market={data.market} robots={clearanceRobots(market, data.guide)} />}
+      {withClearance && <ClearanceFinder market={data.market} robots={clearanceRobots(market, data.guide)} {...clearanceCopy(data)} />}
     </div>
   )
 }

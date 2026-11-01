@@ -36,6 +36,8 @@ export interface FloorCareUi {
   faqTitle: string
   sourcesTitle: string
   siblingsTitle: string
+  /** What a robot of each guide is, in the clearance check. */
+  robotKind: Readonly<Record<'dry' | 'hardfloor', string>>
   clearance: ClearanceUi
 }
 
@@ -50,6 +52,7 @@ export interface ClearanceUi {
   summary: (clearance: string, fits: number, total: number) => string
   fitsTitle: string
   tooTallTitle: string
+  tipsTitle: string
   noneFit: string
   empty: string
   invalid: string
@@ -92,7 +95,7 @@ const SEPARATE_NOTE: Readonly<Partial<Record<FloorCareNeedKey, string>>> = {
 function clearanceUi(market: FloorCareMarket): ClearanceUi {
   const cm = market === 'us' ? 'centimeters' : 'centimetres'
   return {
-    title: 'Will a robot fit under your furniture?',
+    title: 'Will a robot vacuum or robot mop fit under your furniture?',
     intro:
       market === 'us'
         ? 'Measure the gap under your lowest sofa, bed or cabinet, in inches (or centimeters). We compare it with each robot’s height as published by its manufacturer, in millimeters.'
@@ -102,9 +105,10 @@ function clearanceUi(market: FloorCareMarket): ClearanceUi {
     inputLabel: 'Clearance under your furniture',
     inputHint: 'From the floor to the underside of the frame, at its lowest point.',
     summary: (clearance, fits, total) =>
-      `With ${clearance} of clearance, ${fits} of the ${total} robot${total === 1 ? '' : 's'} in our vacuum guide fit${fits === 1 ? 's' : ''}.`,
+      `With ${clearance} of clearance, ${fits} of the ${total} robot${total === 1 ? '' : 's'} in our guides fit${fits === 1 ? 's' : ''}.`,
     fitsTitle: 'Fits under',
     tooTallTitle: 'Too tall',
+    tipsTitle: 'Rules of thumb',
     noneFit: 'None of our robots fits under this clearance.',
     empty: 'Enter your clearance to see which robots fit.',
     invalid: market === 'us' ? 'Enter a number, for example 3.5.' : 'Enter a number, for example 9.5.',
@@ -142,6 +146,7 @@ function ui(market: FloorCareMarket): FloorCareUi {
     faqTitle: 'Frequently asked questions',
     sourcesTitle: 'Sources',
     siblingsTitle: 'The other floor-care guides',
+    robotKind: { dry: 'Robot vacuum', hardfloor: 'Robot mop' },
     clearance: clearanceUi(market),
   }
 }

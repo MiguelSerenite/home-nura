@@ -22,6 +22,7 @@ const pick = (brand: string, model: string): FloorCarePick => ({
   storeUrlSeen: null,
   manufacturerUrl: 'https://x.example',
   specs: { Type: 't' },
+  robot: false,
   heightMm: null,
   heightSourceUrl: null,
 })
@@ -36,6 +37,22 @@ function rawMarketFiles(market: string): Record<(typeof FLOOR_CARE_GUIDES)[numbe
 
 const washer = pick('Acme', 'CrossWash W1')
 const spotCleaner = pick('Acme', 'SpotPro S2')
+
+describe('findPick (table rows, hub picks)', () => {
+  const picks = [pick('Dyson', 'V15 Detect (Yellow/Nickel)'), pick('Roborock', 'Q7 L5'), pick('Roborock', 'Q7 M5+'), pick('Levoit', 'LVAC-200 Cordless Vacuum (LSV-V201-WCA)')]
+
+  it('matches the exact name or a shortened name only one pick contains', () => {
+    expect(findPick(picks, 'Roborock Q7 L5')?.model).toBe('Q7 L5')
+    expect(findPick(picks, 'Dyson V15 Detect')?.model).toBe('V15 Detect (Yellow/Nickel)')
+    expect(findPick(picks, 'Levoit LVAC-200')?.model).toBe('LVAC-200 Cordless Vacuum (LSV-V201-WCA)')
+  })
+
+  it('names nothing when the short name is ambiguous, too short or another model', () => {
+    expect(findPick(picks, 'Roborock Q7')).toBeUndefined()
+    expect(findPick(picks, 'Dyson')).toBeUndefined()
+    expect(findPick(picks, 'Dyson V12 Detect')).toBeUndefined()
+  })
+})
 
 describe('findSeparationViolations', () => {
   it('passes separate guides with separate tables', () => {

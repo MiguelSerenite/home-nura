@@ -13,6 +13,7 @@ export interface ChooserLink {
 
 export interface ChooserItem {
   question: string
+  helper: string | null
   answers: readonly ChooserLink[]
 }
 
@@ -32,8 +33,13 @@ export default function Chooser({ market, questions }: { market: FloorCareMarket
       {questions.map((question, q) => {
         const answer = selected[q] === undefined ? undefined : question.answers[selected[q]]
         return (
-          <fieldset key={q} className="rounded-2xl border border-slate-200 bg-white p-5">
+          <fieldset key={q} aria-describedby={question.helper ? `${id}-q${q}-helper` : undefined} className="rounded-2xl border border-slate-200 bg-white p-5">
             <legend className="px-1 text-base font-bold text-slate-900">{question.question}</legend>
+            {question.helper && (
+              <p id={`${id}-q${q}-helper`} className="mt-1 text-sm text-slate-600">
+                {question.helper}
+              </p>
+            )}
             <div className="mt-3 flex flex-col gap-2">
               {question.answers.map((option, a) => (
                 <label

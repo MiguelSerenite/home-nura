@@ -23,7 +23,7 @@ import {
   type FloorCareMarket,
   type FloorCareNeedKey,
 } from './config'
-import { findPick, pickId, pickName } from './picks'
+import { ROBOT_GUIDES, findPick, pickId, pickName, robotPicks } from './picks'
 import { findSeparationViolations } from './separation'
 import type { FloorCareGuide, FloorCareMarketData, FloorCarePick } from './types'
 import { hasClearanceCheck } from './navigation'
@@ -97,7 +97,9 @@ export function loadFloorCareMarket(market: FloorCareMarket, raw: RawMarketFiles
     comparisons: Object.fromEntries(FLOOR_CARE_GUIDES.map((guide) => [guide, data[guide].comparison])),
   }).map((violation) => `data/floor-care/${market}-*.json: ${violation}`)
 
-  const problems = [...checkHubPicks(data), ...checkChooserAnchors(data), ...separation]
+  const robots = ROBOT_GUIDES.flatMap((guide) => robotPicks(data[guide]))
+  const noRobot = robots.length === 0 ? [`data/floor-care/${market}-*.json: no robot ("robot": true with heightMm) in the vacuum or hard-floor guide for the clearance check`] : []
+  const problems = [...checkHubPicks(data), ...checkChooserAnchors(data), ...separation, ...noRobot]
   if (problems.length > 0) throw new FloorCareDataError(problems.join('\n'))
 
   const fixtures = FLOOR_CARE_GUIDES.filter((guide) => data[guide].isFixture)

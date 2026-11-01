@@ -14,7 +14,7 @@ import {
   floorCarePath,
   type FloorCareGuideKey,
 } from '@/lib/floor-care/config'
-import { FLOOR_CARE_ENTRY_SILO, floorCareHref } from '@/lib/floor-care/navigation'
+import { FLOOR_CARE_ENTRY_SILO, chooserHref, floorCareHref } from '@/lib/floor-care/navigation'
 import { pickName } from '@/lib/floor-care/picks'
 import type { FloorCareGuide } from '@/lib/floor-care/types'
 import { FLOOR_CARE_UI } from '@/lib/floor-care/ui'
@@ -111,6 +111,16 @@ export function Sections({ data }: { data: FloorCareGuide }) {
             {section.h2}
           </h2>
           <RichText blocks={section.blocks} />
+          {section.link && (
+            <p className="mt-4">
+              <Link
+                href={chooserHref(section.link.target, data.market, data.guide)}
+                className="font-semibold text-brand-700 underline-offset-2 hover:text-brand-800 hover:underline"
+              >
+                {section.link.label} →
+              </Link>
+            </p>
+          )}
         </section>
       ))}
     </div>

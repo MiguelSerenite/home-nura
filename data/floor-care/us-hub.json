@@ -1,141 +1,142 @@
 {
-  "_fixture": "FIXTURE - placeholder content for development and tests; replaced by the writers' file (same path) before release. Textile models are the verified references of 2026-11-01; every other model is a placeholder.",
   "market": "us",
   "guide": "hub",
-  "metaTitle": "[Fixture] Floor care guide (US)",
-  "metaDescription": "Placeholder description: vacuum, wash hard floors or deep-clean carpets and upholstery? Pick the right machine for each job.",
-  "h1": "[Fixture] Floor care: vacuum, wash or deep-clean?",
-  "intro": "Placeholder intro. Three jobs, three kinds of machines: dry vacuuming for dust, crumbs and hair; washing for sealed hard floors; and fabric cleaning for stains, pets, carpets and upholstery.",
+  "metaTitle": "Vacuum, Floor Washer or Carpet Cleaner? The 2026 Guide",
+  "metaDescription": "Dust, sticky spills or stains? Find the right machine in three questions: a vacuum, a hard-floor washer or a carpet cleaner, plus the robot height check.",
+  "h1": "Vacuum, Floor Washer or Carpet Cleaner: Which Machine Do You Need?",
+  "intro": "In floor care, the first decision is the kind of machine, not the model. Dust and crumbs call for a vacuum, sticky spills on sealed floors for a hard-floor washer, and stains in carpet or upholstery for a carpet cleaner. Pick your path below, or answer three quick questions to get there. Each guide then compares a machine only with others that do the same job.",
   "sections": [
     {
-      "h2": "Three jobs, three machines",
-      "html": "<p>Placeholder text. A vacuum lifts <strong>dry</strong> debris. A hard-floor washer scrubs <strong>sealed</strong> floors with water. A carpet or upholstery cleaner sprays, scrubs and extracts stains from <em>fabric</em>.</p><ul><li>Dust, crumbs, hair: a vacuum</li><li>Sticky spills on tile, vinyl or sealed wood: a hard-floor washer</li><li>Pet accidents and stains on carpet or a sofa: a carpet cleaner</li></ul>"
+      "h2": "Dust, crumbs and hair: dry vacuuming",
+      "path": "dry",
+      "linkLabel": "Compare cordless and robot vacuums",
+      "html": "<p><strong>Who it's for:</strong> every home, on every floor. Dry vacuuming is the everyday routine, and it's the safe one on unsealed or water-sensitive wood, where makers of wet machines rule their products out.</p><p><strong>Typical messes:</strong> dust, crumbs, pet hair, sand and grit tracked in from outside, dust bunnies under the bed and the sofa.</p><p><strong>Machine types:</strong></p><ul><li><strong>Cordless stick vacuums</strong> for quick daily pickups, stairs and the car; many convert to a handheld.</li><li><strong>Robot vacuums</strong> that run on a schedule; with a self-emptying dock, you empty the dustbin far less often. Measure the clearance under your furniture first (question 3 below).</li></ul>"
     },
     {
-      "h2": "Measure under your furniture first",
-      "html": "<p>Placeholder text. Before buying a robot vacuum, measure the gap under your sofa and bed. Our check accepts inches or centimeters.</p>"
+      "h2": "Sticky spills and dried-on dirt: hard-floor washing",
+      "path": "hardfloor",
+      "linkLabel": "Compare hard-floor washers",
+      "html": "<p><strong>Who it's for:</strong> homes with sealed hard floors such as tile, vinyl, laminate and sealed hardwood, especially kitchens, entryways and homes with kids or pets. Not for carpet, and not for unsealed or water-sensitive wood.</p><p><strong>Typical messes:</strong> sticky juice and soda spills, dried-on food under the table, muddy paw prints, grime that a vacuum can't lift.</p><p><strong>Machine types:</strong></p><ul><li><strong>Wet-dry vacuums (floor washers)</strong> that vacuum and wash in one pass, with a clean-water tank and a separate dirty-water tank.</li><li><strong>Robot vacuum and mop combos</strong> that keep sealed floors fresh between deeper cleans.</li><li><strong>Steam mops</strong> that clean sealed floors with steam; Shark, for one, rules them out on unsealed wood and unglazed ceramic floors.</li></ul>"
+    },
+    {
+      "h2": "Stains, pets, carpet and upholstery: fabric cleaning",
+      "path": "textile",
+      "linkLabel": "Compare carpet and upholstery cleaners",
+      "html": "<p><strong>Who it's for:</strong> homes with wall-to-wall carpet, area rugs, carpeted stairs or a fabric couch, and anyone with pets or small kids. It's also the path for car seats and floor mats.</p><p><strong>Typical messes:</strong> pet accidents (urine, vomit), spills that soaked into the fibers, lingering odors, dingy traffic lanes on carpet.</p><p><strong>Machine types:</strong></p><ul><li><strong>Portable carpet and upholstery cleaners</strong> (spot cleaners) with a hose and a hand tool for the couch, stairs, rugs, pet beds and car interiors.</li><li><strong>Full-size carpet cleaners</strong> (upright deep cleaners) for whole rooms and high-traffic areas.</li></ul><p>Both spray water and formula into the fibers, then pull the dirty water back into a separate tank. Check the care instructions for your carpet or fabric first: some carpet cleaners are not suitable for wool.</p>"
+    },
+    {
+      "h2": "How to measure under your sofa and bed",
+      "html": "<p>Slide a tape measure under the furniture and note the gap from the floor to the lowest point of the frame, in inches. Measure in a few spots, since a center rail or crossbar can sit lower than the front edge.</p><p>Then compare that gap with the robot's full height, laser turret included. On the current US spec sheets we checked, robots with a fixed laser turret on top stand 3.94 to 4.09 in (100 to 104 mm) tall, and slim models with the laser sensor built into the body 3.14 to 3.23 in (79.8 to 82 mm). Some models lower a retractable turret to slip under furniture: Roborock lists the Saros 10 at 3.14 in (79.8 mm) with it lowered and 3.68 in (93.5 mm) with it raised.</p><p>In our robot guides, each height stays exactly as the manufacturer lists it, in millimeters, so every model is compared on the same figure. You can enter your clearance in inches: <em>we convert it to millimeters before comparing</em>.</p>"
+    },
+    {
+      "h2": "Why we never compare carpet cleaners with hard-floor washers",
+      "html": "<p>They look alike, with two tanks, a brush and a trigger, but they do different jobs.</p><ul><li><strong>Different surfaces.</strong> A carpet cleaner is built for fibers: carpet, rugs and upholstery. A hard-floor washer is built for sealed surfaces; Tineco, for example, says its Floor One washers are for non-carpeted floors such as vinyl, tile and sealed wood.</li><li><strong>Different depth.</strong> A carpet cleaner pushes water and formula deep into the fibers and pulls it back out. A floor washer spreads a thin layer of water and solution with a spinning brush roll and picks the dirty water straight back up from the surface.</li><li><strong>Different specs that matter.</strong> For a carpet cleaner: suction through the hose, the hand tools, tank size and how wet the fibers stay. For a floor washer: the brush roll, the self-cleaning cycle, edge cleaning, weight and battery runtime.</li><li><strong>Little real overlap.</strong> BISSELL rates its CrossWave for area rugs too, but the word its user guide uses for rugs is “refresh,” not deep clean.</li></ul><p>So each machine is ranked only against its own kind, in its own guide. A single score across both would reward the wrong strengths.</p>"
     }
   ],
-  "picks": [
-    {
-      "brand": "Placeholder",
-      "model": "Robot Vacuum R-1",
-      "role": "Top pick for dry vacuuming",
-      "why": "Placeholder reason.",
-      "bestFor": "Most homes",
-      "asin": null,
-      "storeUrlSeen": null,
-      "manufacturerUrl": "https://example.com/r-1",
-      "specs": {
-        "Type": "Robot vacuum",
-        "Navigation": "Placeholder"
-      },
-      "heightMm": 94,
-      "heightSourceUrl": "https://example.com/r-1/specs"
-    },
-    {
-      "brand": "Placeholder",
-      "model": "Wet-Dry Vacuum HF-1",
-      "role": "Top pick for hard-floor washing",
-      "why": "Placeholder reason.",
-      "bestFor": "Kitchens and mudrooms",
-      "asin": null,
-      "storeUrlSeen": null,
-      "manufacturerUrl": "https://example.com/hf-1",
-      "specs": {
-        "Type": "Wet-dry vacuum",
-        "Floors": "Sealed hard floors"
-      },
-      "heightMm": null,
-      "heightSourceUrl": null
-    },
-    {
-      "brand": "Shark",
-      "model": "StainStriker PX201",
-      "role": "Top pick for fabric cleaning",
-      "why": "Placeholder reason (fixture).",
-      "bestFor": "Spills on upholstery and car seats",
-      "asin": "B0C9H1ZRH4",
-      "storeUrlSeen": "https://www.amazon.com/dp/B0C9H1ZRH4",
-      "manufacturerUrl": "https://www.sharkninja.com/",
-      "specs": {
-        "Type": "Portable carpet and upholstery spot cleaner"
-      },
-      "heightMm": null,
-      "heightSourceUrl": null
-    }
-  ],
+  "picks": [],
   "comparison": {
-    "columns": [
-      "Job",
-      "What it handles",
-      "Machines",
-      "Not for"
-    ],
-    "rows": [
-      [
-        "Dry vacuuming",
-        "Dust, crumbs, pet hair",
-        "Robot, stick and upright vacuums",
-        "Wet spills"
-      ],
-      [
-        "Hard-floor washing",
-        "Sealed tile, vinyl, sealed hardwood",
-        "Wet-dry vacuums, steam mops, robot mops",
-        "Carpets, unsealed wood"
-      ],
-      [
-        "Fabric cleaning",
-        "Stains, pet accidents, carpets, upholstery",
-        "Spot cleaners, upright carpet cleaners",
-        "Hard floors"
-      ]
-    ]
+    "columns": [],
+    "rows": []
   },
   "chooser": [
     {
-      "question": "What do you need to clean up?",
+      "question": "What's on most of your floors?",
+      "helper": "Not sure whether your wood floor is sealed? Check the flooring manufacturer's care instructions before you use any wet machine.",
       "answers": [
         {
-          "label": "Dust, crumbs and hair",
-          "goesTo": "dry"
-        },
-        {
-          "label": "Spills and grime on sealed hard floors",
+          "label": "Sealed hard floors: tile, vinyl, laminate, sealed hardwood",
           "goesTo": "hardfloor"
         },
         {
-          "label": "Stains on carpet, rugs or upholstery",
+          "label": "Wall-to-wall carpet or area rugs",
+          "goesTo": "textile"
+        },
+        {
+          "label": "A mix of hard floors and rugs",
+          "goesTo": "dry"
+        },
+        {
+          "label": "Unsealed or water-sensitive wood",
+          "goesTo": "dry"
+        }
+      ]
+    },
+    {
+      "question": "Which mess bothers you most?",
+      "helper": "Pick the mess you deal with every week, not the occasional disaster.",
+      "answers": [
+        {
+          "label": "Dust, crumbs, pet hair or tracked-in grit",
+          "goesTo": "dry"
+        },
+        {
+          "label": "Sticky spills or dried-on dirt on hard floors",
+          "goesTo": "hardfloor"
+        },
+        {
+          "label": "Stains, pet accidents or odors on carpet or upholstery",
           "goesTo": "textile"
         }
       ]
     },
     {
-      "question": "Is a robot vacuum on your list?",
+      "question": "Robot vacuum: how much clearance is under your sofa or bed?",
+      "helper": "Measure from the floor to the lowest point of the frame, in inches (for example, 3.5). We convert your figure and compare it with each robot's height as the manufacturer lists it, laser turret included.",
+      "unit": "in",
       "answers": [
         {
-          "label": "Yes: will it fit under my furniture?",
-          "goesTo": "clearance"
+          "label": "Under 3.3 in (8.4 cm): few robots fit, so plan on a cordless stick vacuum",
+          "goesTo": "dry"
         },
         {
-          "label": "No: a stick or upright vacuum",
-          "goesTo": "vacuums#picks"
+          "label": "3.3 to 4.2 in (8.4 to 10.7 cm): slim robots first",
+          "goesTo": "dry"
+        },
+        {
+          "label": "Over 4.2 in (10.7 cm): most robots fit, turret included",
+          "goesTo": "dry"
         }
       ]
     }
   ],
   "faq": [
     {
-      "q": "Is this a fixture?",
-      "a": "Yes. This file is placeholder content: the writers' file replaces it before release."
+      "q": "Can a floor washer replace my vacuum?",
+      "a": "On sealed hard floors, partly: a wet-dry vacuum picks up crumbs and spills as it washes. But it's built to clean with water, and some models can't run dry at all; Tineco warns that dry vacuuming with its Floor One damages the brush roll. Carpet and unsealed wood still need a regular vacuum."
+    },
+    {
+      "q": "Can I use a floor washer or steam mop on hardwood?",
+      "a": "Only if the floor is sealed and your flooring manufacturer allows it. Floor washer and steam mop makers approve their machines for sealed hardwood and rule out unsealed wood, and Shark warns that steam may remove the sheen on waxed floors. The National Wood Flooring Association is stricter: it advises against wet mops and steam mops on wood floors and recommends a vacuum on the bare-floor setting. Check your flooring's care instructions and warranty before you go wet."
+    },
+    {
+      "q": "Can a portable carpet cleaner clean my couch?",
+      "a": "Yes, that's one of its main jobs. Portable models come with a hose and a hand tool for upholstery, stairs, pet beds and car interiors. Check the fabric's care label first, try a hidden spot, and finish with a few passes with the spray trigger released to pull up as much water as possible."
+    },
+    {
+      "q": "Should I get a portable or a full-size carpet cleaner?",
+      "a": "Go portable if your messes are spots: a pet accident, a spill on the stairs, the couch, the car. Go full-size if you want to clean whole rooms of wall-to-wall carpet or dingy traffic lanes. Corded models of both types plug into a standard 120 V outlet."
+    },
+    {
+      "q": "Will a robot vacuum and mop handle sticky spills?",
+      "a": "It keeps sealed floors fresh between deeper cleans, and some models can raise the water flow for dried stains. Its onboard water tank is small, though, so a big sticky spill is a job for a floor washer, which lifts the dirty water into a separate tank as it goes."
+    },
+    {
+      "q": "Does a robot's height include the laser turret?",
+      "a": "Check that it does, and always compare your clearance with the full height. Robots with a retractable turret, such as the Roborock Saros 10, list two heights, one with the turret lowered and one with it raised; the lowered figure is the one that lets them slip under furniture."
     }
   ],
   "sources": [
-    "https://example.com/floor-care-sources"
-  ],
-  "entryBanner": {
-    "title": "[Fixture] Vacuum, wash or deep-clean?",
-    "text": "Placeholder banner: our floor-care guide separates dry vacuuming, hard-floor washing and fabric cleaning, with a robot clearance check."
-  }
+    "https://us.tineco.com/support/faqs/floor-one-s7-flashdry/",
+    "https://bissellcdn.blob.core.windows.net/cdn-storage-container/Web%20Portal%20User%20Guides/US/1785.pdf",
+    "https://www.bissell.com/en-us/product/little-green-max-pet-portable-carpet-cleaner-3860.html",
+    "https://www.sharkninja.com/shark-carpetxpert-with-stainstriker/EX201.html",
+    "https://www.sharkninja.com/vacuums-air-care/floor-carpet-cleaners/steam-mops",
+    "https://woodfloors.org/spring-cleaning-top-tips-for-caring-for-wood-floors/3/",
+    "https://us.roborock.com/products/roborock-saros-10",
+    "https://us.roborock.com/pages/roborock-saros-10r",
+    "https://us.roborock.com/pages/roborock-qrevo-slim",
+    "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+    "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t30c",
+    "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-n30pro-omni-white"
+  ]
 }

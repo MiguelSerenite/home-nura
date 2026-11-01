@@ -17,11 +17,22 @@ const PATHS = [
   '/guides/floor-care/carpet-upholstery-cleaners',
 ]
 
-/** Manufacturer heights (mm) of the vacuum guide's robots, read from the data file. */
-function robotHeights(market: 'us' | 'ca'): number[] {
-  const file = JSON.parse(readFileSync(join(process.cwd(), 'data', 'floor-care', `${market}-dry.json`), 'utf8'))
-  return (file.picks as { heightMm?: number | null }[]).flatMap((pick) => (typeof pick.heightMm === 'number' ? [pick.heightMm] : []))
+interface RawPick {
+  brand: string
+  model: string
+  robot?: boolean
+  heightMm?: number | null
 }
+
+/** Robot vacuums and robot mops (vacuum and hard-floor guides) with their manufacturer height, read from the data files. */
+function robots(market: 'us' | 'ca'): RawPick[] {
+  return ['dry', 'hardfloor'].flatMap((guide) => {
+    const file = JSON.parse(readFileSync(join(process.cwd(), 'data', 'floor-care', `${market}-${guide}.json`), 'utf8'))
+    return (file.picks as RawPick[]).filter((pick) => pick.robot === true && typeof pick.heightMm === 'number')
+  })
+}
+
+const robotHeights = (market: 'us' | 'ca') => robots(market).map((pick) => pick.heightMm as number)
 
 test.describe('Floor-care guides (US and Canada only)', () => {
   test('serve the hub and the three guides on /us and /ca, 404 elsewhere', async ({ request }) => {
@@ -65,6 +76,19 @@ test.describe('Floor-care guides (US and Canada only)', () => {
 
     await page.getByRole('textbox', { name: /\(centimeters\)/ }).fill('1')
     await expect(status).toContainText(`0 of the ${heights.length} robot`)
+  })
+
+  test('US clearance check: 3.5 in (88.9 mm) clears the robots up to 88.9 mm only', async ({ page }) => {
+    const clearanceMm = 3.5 * 25.4
+    await page.goto('/us/guides/floor-care')
+    await page.getByRole('textbox', { name: /Clearance under your furniture \(inches\)/ }).fill('3.5')
+    const section = page.locator('#clearance')
+    await expect(section.locator('[role="status"]')).toContainText('3.5 in (88.9 mm)')
+    for (const robot of robots('us')) {
+      const name = robot.model.toLowerCase().startsWith(robot.brand.toLowerCase()) ? robot.model : `${robot.brand} ${robot.model}`
+      const group = (robot.heightMm as number) <= clearanceMm ? 'Fits under' : 'Too tall'
+      await expect(section.getByRole('list', { name: group }).getByRole('link', { name, exact: true }), name).toBeVisible()
+    }
   })
 
   test('Canadian clearance check opens in centimetres', async ({ page }) => {
