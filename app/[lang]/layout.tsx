@@ -38,29 +38,29 @@ const geistSans = Geist({
 // "La Maison Connectée Européenne". Airfryers stay in the copy as
 // the flagship category but no longer define the scope.
 const metaTitles: Record<Lang, string> = {
-  fr: 'Home Nura | La Maison Connectée, comparée pour l\'Europe',
-  en: 'Home Nura | The Smart Home, compared for Europe',
-  de: 'Home Nura | Das Smart Home, verglichen für Europa',
-  es: 'Home Nura | El Hogar Conectado, comparado para Europa',
-  it: 'Home Nura | La Casa Connessa, confrontata per l\'Europa',
-  nl: 'Home Nura | Het Slimme Huis, vergeleken voor Europa',
+  fr: 'Home Nura | La Maison Connectée, de l\'Europe à l\'Amérique du Nord',
+  en: 'Home Nura | The Smart Home, from Europe to North America',
+  de: 'Home Nura | Das Smart Home, von Europa bis Nordamerika',
+  es: 'Home Nura | El Hogar Conectado, de Europa a Norteamérica',
+  it: 'Home Nura | La Casa Connessa, dall\'Europa al Nord America',
+  nl: 'Home Nura | Het Slimme Huis, van Europa tot Noord-Amerika',
   pl: 'Home Nura | Inteligentny dom: niezależne porównania',
-  sv: 'Home Nura | Det smarta hemmet, jämfört för Europa',
+  sv: 'Home Nura | Det smarta hemmet, från Europa till Nordamerika',
   us: 'Home Nura | Independent Smart Home Buying Guides',
   ca: 'Home Nura | Smart Home Buying Guides, Canadian Edition',
 };
 
 const metaDescriptions: Record<Lang, string> = {
-  fr: 'Comparatifs indépendants de la maison connectée européenne : cuisine, énergie, sécurité, confort, entretien et extérieur. 7 marchés, une seule méthode.',
-  en: 'Independent reviews of the European smart home: kitchen, energy, security, comfort, cleaning and outdoors. Seven markets, one shared method.',
-  de: 'Unabhängige Vergleiche des europäischen Smart Home: Küche, Energie, Sicherheit, Komfort, Reinigung und Außenbereich. Sieben Märkte, eine Methode.',
-  es: 'Comparativas independientes del hogar conectado europeo: cocina, energía, seguridad, confort, limpieza y exterior. Siete mercados, un mismo método.',
-  it: 'Confronti indipendenti della casa connessa europea: cucina, energia, sicurezza, comfort, pulizia ed esterno. Sette mercati, un solo metodo.',
-  nl: 'Onafhankelijke vergelijkingen van het Europese slimme huis: keuken, energie, beveiliging, comfort, schoonmaak en buitenruimte. Zeven markten, één methode.',
-  pl: 'Niezależne porównania sprzętu do inteligentnego domu w Europie: kuchnia, energia, bezpieczeństwo, komfort, sprzątanie i ogród. 7 rynków, jedna metoda.',
-  sv: 'Oberoende jämförelser av smarta hem i Europa: kök, energi, säkerhet, inomhusklimat, städning, trädgård och utomhus. 7 marknader, en och samma metod.',
-  us: 'Independent smart home buying guides for the kitchen, energy, security, comfort, cleaning and the yard. Seven markets, one method, no paid placements.',
-  ca: 'Independent smart home buying guides, Canadian edition: kitchen, energy, security, comfort, cleaning and outdoors. Seven markets, one shared method.',
+  fr: 'Comparatifs indépendants de la maison connectée : cuisine, énergie, sécurité, confort, entretien et extérieur. 10 marchés, en Europe et en Amérique du Nord.',
+  en: 'Independent smart home reviews: kitchen, energy, security, comfort, cleaning and outdoors. Ten markets across Europe and North America, one method.',
+  de: 'Unabhängige Smart-Home-Vergleiche: Küche, Energie, Sicherheit, Komfort, Reinigung und Außenbereich. Zehn Märkte in Europa und Nordamerika, eine Methode.',
+  es: 'Comparativas independientes del hogar conectado: cocina, energía, seguridad, confort, limpieza y exterior. Diez mercados en Europa y Norteamérica.',
+  it: 'Confronti indipendenti sulla casa connessa: cucina, energia, sicurezza, comfort, pulizia ed esterno. Dieci mercati tra Europa e Nord America.',
+  nl: 'Onafhankelijke vergelijkingen van het slimme huis: keuken, energie, beveiliging, comfort, schoonmaak en buitenruimte. Tien markten in Europa en Noord-Amerika.',
+  pl: 'Niezależne porównania sprzętu do inteligentnego domu: kuchnia, energia, bezpieczeństwo, komfort, sprzątanie i ogród. 10 rynków w Europie i Ameryce Północnej.',
+  sv: 'Oberoende jämförelser av smarta hem: kök, energi, säkerhet, inomhusklimat, städning, trädgård och utomhus. 10 marknader i Europa och Nordamerika.',
+  us: 'Independent smart home buying guides for the kitchen, energy, security, comfort, cleaning and the yard. Ten markets, one method, no paid placements.',
+  ca: 'Independent smart home buying guides, Canadian edition: kitchen, energy, security, comfort, cleaning and outdoors. Ten markets, one shared method.',
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

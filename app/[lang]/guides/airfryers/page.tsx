@@ -942,7 +942,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
               <p className="text-sm text-slate-600 font-medium">{dict.stat_hours_testing}</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-black text-brand-600 mb-2">6</div>
+              <div className="text-3xl font-black text-brand-600 mb-2">10</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_european_markets}</p>
             </div>
           </div>

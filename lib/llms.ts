@@ -34,7 +34,7 @@ export function buildLlmsTxt(): string {
   const lines: string[] = [
     '# Home Nura',
     '',
-    '> Independent European buying guides for the smart home: air fryers, smart kitchen, energy and home automation, home security, air comfort, home care and garden. Every guide accounts for EU specifics (energy labels, GDPR and local data storage, EU plugs, Matter compatibility).',
+    '> Independent smart home buying guides for 10 markets in Europe and North America: air fryers, smart kitchen, energy and home automation, home security, air comfort, home care and garden. Guides account for local specifics (EU energy labels, GDPR and local data storage, plug types and voltage, Matter compatibility).',
     '',
     `Content is published in ${languageCount} languages (${languages}); each French URL below has the same path under every language prefix. Product links are Amazon affiliate links (disclosed on every page); rankings follow the published methodology.`,
     '',

@@ -608,7 +608,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Les recommandations sont-elles indépendantes ?',
-      answer: `Oui. Home Nura est un éditeur indépendant européen ; nos classements ne sont jamais payants. Les liens Amazon sont affiliés, mais la sélection est décidée avant l'intégration des liens, et notre méthodologie publique trace chaque décision.`,
+      answer: `Oui. Home Nura est un éditeur indépendant basé en Europe ; nos classements ne sont jamais payants. Les liens Amazon sont affiliés, mais la sélection est décidée avant l'intégration des liens, et notre méthodologie publique trace chaque décision.`,
     },
     {
       question: 'À quelle fréquence les classements sont-ils mis à jour ?',
@@ -630,7 +630,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Are the recommendations independent?',
-      answer: `Yes. Home Nura is an independent European publisher; our rankings are never paid. Amazon links are affiliate, but the shortlist is decided before the links are wired in, and our public methodology traces every decision.`,
+      answer: `Yes. Home Nura is an independent publisher based in Europe; our rankings are never paid. Amazon links are affiliate, but the shortlist is decided before the links are wired in, and our public methodology traces every decision.`,
     },
     {
       question: 'How often are the rankings refreshed?',
@@ -652,7 +652,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Sind die Empfehlungen unabhängig?',
-      answer: `Ja. Home Nura ist ein unabhängiger europäischer Publisher; unsere Rankings sind nie bezahlt. Amazon-Links sind Affiliate, aber die Auswahl steht vor dem Einbau der Links fest, und unsere öffentliche Methodik dokumentiert jede Entscheidung.`,
+      answer: `Ja. Home Nura ist ein unabhängiger Publisher mit Sitz in Europa; unsere Rankings sind nie bezahlt. Amazon-Links sind Affiliate, aber die Auswahl steht vor dem Einbau der Links fest, und unsere öffentliche Methodik dokumentiert jede Entscheidung.`,
     },
     {
       question: 'Wie oft werden die Rankings aktualisiert?',
@@ -674,7 +674,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: '¿Son las recomendaciones independientes?',
-      answer: `Sí. Home Nura es un editor independiente europeo; nuestros rankings nunca son de pago. Los enlaces de Amazon son afiliados, pero la selección se decide antes de integrar los enlaces, y nuestra metodología pública traza cada decisión.`,
+      answer: `Sí. Home Nura es un editor independiente con sede en Europa; nuestros rankings nunca son de pago. Los enlaces de Amazon son afiliados, pero la selección se decide antes de integrar los enlaces, y nuestra metodología pública traza cada decisión.`,
     },
     {
       question: '¿Con qué frecuencia se actualizan los rankings?',
@@ -696,7 +696,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Le raccomandazioni sono indipendenti?',
-      answer: `Sì. Home Nura è un editore indipendente europeo; le nostre classifiche non sono mai a pagamento. I link Amazon sono affiliati, ma la selezione è decisa prima di integrare i link, e la nostra metodologia pubblica traccia ogni decisione.`,
+      answer: `Sì. Home Nura è un editore indipendente con sede in Europa; le nostre classifiche non sono mai a pagamento. I link Amazon sono affiliati, ma la selezione è decisa prima di integrare i link, e la nostra metodologia pubblica traccia ogni decisione.`,
     },
     {
       question: 'Con quale frequenza le classifiche vengono aggiornate?',
@@ -718,7 +718,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Zijn de aanbevelingen onafhankelijk?',
-      answer: `Ja. Home Nura is een onafhankelijke Europese uitgever; onze rankings zijn nooit betaald. Amazon-links zijn affiliate, maar de shortlist wordt bepaald voordat de links worden ingebouwd, en onze publieke methodologie traceert elke beslissing.`,
+      answer: `Ja. Home Nura is een onafhankelijke uitgever met een basis in Europa; onze rankings zijn nooit betaald. Amazon-links zijn affiliate, maar de shortlist wordt bepaald voordat de links worden ingebouwd, en onze publieke methodologie traceert elke beslissing.`,
     },
     {
       question: 'Hoe vaak worden de rankings bijgewerkt?',
@@ -740,7 +740,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Czy rekomendacje są niezależne?',
-      answer: `Tak. Serwis Home Nura to niezależny europejski wydawca, a miejsca w naszych rankingach nigdy nie są płatne. Linki do Amazon są afiliacyjne, ale wybór modeli zapada, zanim dodamy linki, a każdą decyzję dokumentuje nasza publiczna metodologia.`,
+      answer: `Tak. Serwis Home Nura to niezależny wydawca z siedzibą w Europie, a miejsca w naszych rankingach nigdy nie są płatne. Linki do Amazon są afiliacyjne, ale wybór modeli zapada, zanim dodamy linki, a każdą decyzję dokumentuje nasza publiczna metodologia.`,
     },
     {
       question: 'Jak często aktualizujecie rankingi?',
@@ -762,7 +762,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Är rekommendationerna oberoende?',
-      answer: 'Ja. Home Nura är en oberoende europeisk utgivare, och våra rankningar går aldrig att köpa. Länkarna till Amazon är affiliatelänkar, men urvalet bestäms innan länkarna läggs in, och vår publicerade metod gör varje beslut spårbart.',
+      answer: 'Ja. Home Nura är en oberoende utgivare med bas i Europa, och våra rankningar går aldrig att köpa. Länkarna till Amazon är affiliatelänkar, men urvalet bestäms innan länkarna läggs in, och vår publicerade metod gör varje beslut spårbart.',
     },
     {
       question: 'Hur ofta uppdateras rankningarna?',
@@ -784,7 +784,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Are the recommendations independent?',
-      answer: 'Yes. Home Nura is an independent European publisher, and our rankings are never paid for. Amazon links are affiliate links, but the shortlist is set before any links are added, and our public methodology documents every decision.',
+      answer: 'Yes. Home Nura is an independent publisher based in Europe, and our rankings are never paid for. Amazon links are affiliate links, but the shortlist is set before any links are added, and our public methodology documents every decision.',
     },
     {
       question: 'How often are the rankings updated?',
@@ -806,7 +806,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Are the recommendations independent?',
-      answer: 'Yes. Home Nura is an independent European publisher; our rankings are never paid. Amazon links are affiliate, but the shortlist is decided before the links are wired in, and our public methodology traces every decision.',
+      answer: 'Yes. Home Nura is an independent publisher based in Europe; our rankings are never paid. Amazon links are affiliate, but the shortlist is decided before the links are wired in, and our public methodology traces every decision.',
     },
     {
       question: 'How often are the rankings refreshed?',
