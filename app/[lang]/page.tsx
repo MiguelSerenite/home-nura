@@ -20,11 +20,11 @@ import { BlackFridayHomeBanner } from '@/components/black-friday/Promos'
 
 const HERO_CTA: Record<string, { primary: string; secondary: string }> = {
   fr: { primary: 'Voir notre top 3', secondary: 'Trouver mon airfryer en 1 min' },
-  en: { primary: 'See our top 3', secondary: 'Find my air fryer in 1 min' },
-  de: { primary: 'Unsere Top 3 ansehen', secondary: 'Meine Heißluftfritteuse in 1 Min. finden' },
-  es: { primary: 'Ver nuestro top 3', secondary: 'Encontrar mi freidora en 1 min' },
-  it: { primary: 'Vedi la nostra top 3', secondary: 'Trova la mia friggitrice in 1 min' },
-  nl: { primary: 'Bekijk onze top 3', secondary: 'Vind mijn airfryer in 1 min' },
+  en: { primary: 'See our top 3', secondary: 'Find your air fryer in 60 seconds' },
+  de: { primary: 'Unsere Top 3 ansehen', secondary: 'Meinen Airfryer in 1 Minute finden' },
+  es: { primary: 'Ver nuestro top 3', secondary: 'Encuentra tu freidora en 1 minuto' },
+  it: { primary: 'Vedi la nostra top 3', secondary: 'Trova la tua friggitrice in 1 minuto' },
+  nl: { primary: 'Bekijk onze top 3', secondary: 'Vind je airfryer in 1 minuut' },
   pl: { primary: 'Zobacz TOP 3', secondary: 'Znajdź frytkownicę dla siebie w minutę' },
   sv: { primary: 'Se vår topp 3', secondary: 'Hitta min airfryer på 1 minut' },
   us: { primary: 'See our top 3', secondary: 'Find my air fryer in 1 minute' },

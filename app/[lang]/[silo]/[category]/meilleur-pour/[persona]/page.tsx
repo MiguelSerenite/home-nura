@@ -103,16 +103,16 @@ const uiStrings: Record<Lang, BestForUi> = {
   en: {
     home: 'Home',
     guides: 'Picks',
-    otherPersonasTitle: 'Other relevant profiles in this category',
+    otherPersonasTitle: 'Other buyer profiles in this category',
     backToCategoryLabel: 'Back to category',
     faqTitle: 'Frequently asked questions',
     methodologyCta: 'Read our methodology',
     primaryCta: 'See recommended products',
   },
   de: {
-    home: 'Start',
-    guides: 'Auswahl',
-    otherPersonasTitle: 'Weitere relevante Profile in dieser Kategorie',
+    home: 'Startseite',
+    guides: 'Empfehlungen',
+    otherPersonasTitle: 'Weitere passende Profile in dieser Kategorie',
     backToCategoryLabel: 'Zurück zur Kategorie',
     faqTitle: 'Häufige Fragen',
     methodologyCta: 'Zur Methodik',
@@ -121,7 +121,7 @@ const uiStrings: Record<Lang, BestForUi> = {
   es: {
     home: 'Inicio',
     guides: 'Selecciones',
-    otherPersonasTitle: 'Otros perfiles relevantes en esta categoría',
+    otherPersonasTitle: 'Otros perfiles de esta categoría',
     backToCategoryLabel: 'Volver a la categoría',
     faqTitle: 'Preguntas frecuentes',
     methodologyCta: 'Leer nuestra metodología',
@@ -130,7 +130,7 @@ const uiStrings: Record<Lang, BestForUi> = {
   it: {
     home: 'Home',
     guides: 'Selezioni',
-    otherPersonasTitle: 'Altri profili rilevanti in questa categoria',
+    otherPersonasTitle: 'Altri profili per questa categoria',
     backToCategoryLabel: 'Torna alla categoria',
     faqTitle: 'Domande frequenti',
     methodologyCta: 'Leggi la nostra metodologia',
@@ -139,11 +139,11 @@ const uiStrings: Record<Lang, BestForUi> = {
   nl: {
     home: 'Home',
     guides: 'Selecties',
-    otherPersonasTitle: 'Andere relevante profielen in deze categorie',
-    backToCategoryLabel: 'Terug naar categorie',
+    otherPersonasTitle: 'Andere situaties in deze categorie',
+    backToCategoryLabel: 'Terug naar de categorie',
     faqTitle: 'Veelgestelde vragen',
     methodologyCta: 'Lees onze methodologie',
-    primaryCta: 'Aanbevolen producten bekijken',
+    primaryCta: 'Bekijk de aanbevolen producten',
   },
   pl: {
     home: 'Strona główna',

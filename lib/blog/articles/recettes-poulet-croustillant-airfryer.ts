@@ -16,7 +16,7 @@ export const article: BlogArticle = {
         en: 'A large batch of crispy chicken pieces on an air fryer rack',
         de: 'Große Portion knuspriger Hähnchenstücke auf dem Rost einer Heißluftfritteuse',
         es: 'Una gran tanda de trozos de pollo crujiente en la rejilla de una freidora de aire',
-        it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
+        it: 'Tanti pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
         nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
         pl: 'Duża porcja chrupiących kawałków kurczaka na ruszcie frytkownicy beztłuszczowej',
         sv: 'En stor sats krispiga kycklingbitar på gallret i en airfryer',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Recettes de Poulet Croustillant à l\'Airfryer : 6 Recettes Faciles',
-    en: 'Crispy Air Fryer Chicken Recipes: 6 Easy Recipes',
-    de: 'Knuspriges Hähnchen aus der Heißluftfritteuse: 6 Einfache Rezepte',
-    es: 'Recetas de Pollo Crujiente en Freidora de Aire: 6 Recetas Fáciles',
-    it: 'Ricette di Pollo Croccante nella Friggitrice ad Aria: 6 Ricette Facili',
-    nl: 'Krokante Kip uit de Airfryer: 6 Makkelijke Recepten',
+    en: 'Crispy Air Fryer Chicken: 6 Easy Recipes',
+    de: 'Knuspriges Hähnchen aus dem Airfryer: 6 einfache Rezepte',
+    es: 'Pollo crujiente en freidora de aire: 6 recetas fáciles',
+    it: 'Pollo croccante nella friggitrice ad aria: 6 ricette facili',
+    nl: 'Krokante kip uit de airfryer: 6 makkelijke recepten',
     pl: 'Chrupiący kurczak z frytkownicy beztłuszczowej: 6 łatwych przepisów',
     sv: 'Krispig kyckling i airfryer: 6 enkla recept',
     us: 'Crispy Air Fryer Chicken: 6 Easy Recipes, Wings to Satay',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Découvrez 6 recettes de poulet croustillant à l\'airfryer : ailes, tenders, cuisses, blancs, nuggets et satay. Marinades, températures et temps de cuisson pour un poulet parfait.',
-    en: 'Discover 6 crispy air fryer chicken recipes: wings, tenders, thighs, breast, nuggets and satay. Marinades, temperatures and cooking times for perfect chicken.',
-    de: 'Entdecken Sie 6 knusprige Hähnchen-Rezepte für die Heißluftfritteuse: Flügel, Tenders, Schenkel, Brust, Nuggets und Satay. Marinaden, Temperaturen und Garzeiten.',
-    es: 'Descubre 6 recetas de pollo crujiente en freidora de aire: alitas, tenders, muslos, pechuga, nuggets y satay. Marinados, temperaturas y tiempos de cocción.',
-    it: 'Scopri 6 ricette di pollo croccante nella friggitrice ad aria: ali, tenders, cosce, petto, nuggets e satay. Marinature, temperature e tempi di cottura.',
-    nl: 'Ontdek 6 krokante kiprecepten voor de airfryer: vleugels, tenders, dijen, borst, nuggets en satay. Marinades, temperaturen en baktijden.',
+    en: '6 crispy air fryer chicken recipes: wings, tenders, thighs, breasts, nuggets and satay, with marinades, temperatures and cooking times for perfect chicken.',
+    de: '6 Rezepte für knuspriges Hähnchen aus der Heißluftfritteuse: Chicken Wings, Tenders, Schenkel, Brustfilets, Nuggets und Satay. Mit Marinaden, Temperaturen und Garzeiten für perfektes Hähnchen.',
+    es: 'Seis recetas de pollo crujiente en freidora de aire: alitas, tiras empanadas (tenders), contramuslos, pechugas, nuggets y brochetas satay. Marinadas, temperaturas y tiempos para que te salga perfecto.',
+    it: 'Scopri 6 ricette di pollo croccante nella friggitrice ad aria: ali, tenders, cosce, petto, nuggets e satay. Marinature, temperature e tempi di cottura per un pollo perfetto.',
+    nl: '6 recepten voor krokante kip uit de airfryer: kippenvleugels, tenders, kippendijen, kipfilet, nuggets en kipsaté. Met marinades, temperaturen en baktijden voor perfecte kip.',
     pl: 'Poznaj 6 przepisów na chrupiącego kurczaka z frytkownicy beztłuszczowej: skrzydełka, stripsy, udka, piersi, nuggetsy i satay. Marynaty, temperatury i czasy pieczenia, dzięki którym kurczak zawsze się uda.',
     sv: 'Här är 6 recept på krispig kyckling i airfryer: vingar, strips, lår, bröstfilé, nuggets och satay. Marinader, temperaturer och tillagningstider för perfekt kyckling.',
     us: 'Six crispy air fryer chicken recipes: wings, tenders, thighs, breasts, nuggets and satay, with marinades, temperatures and cook times for perfect chicken every time.',
@@ -276,656 +276,813 @@ export const article: BlogArticle = {
 </ul>`,
 
     en: `<h2>Introduction</h2>
-<p>Air fryer chicken is arguably one of the most satisfying things you can cook. The hot air circulation creates <strong>crispy, golden skin</strong> while keeping the meat juicy inside, all with minimal oil. Whether preparing a quick weeknight meal or a dinner party dish, these 6 recipes cover every cut of chicken and every occasion.</p>
-<p>The secret to perfect air fryer chicken rests on three key elements: a marinade that tenderizes and flavours the meat, <strong>surface drying</strong> to maximize crispiness, and strict respect for internal food safety temperatures (<strong>74 °C / 165 °F at the core</strong>).</p>
+<p>Air fryer chicken is one of the most satisfying things you can cook. The circulating hot air gives you <strong>crisp, golden skin</strong> and juicy meat inside, with very little oil. Whether you're making a quick midweek dinner or cooking for friends, these 6 recipes cover every cut of chicken and every occasion.</p>
+<p>Perfect air fryer chicken comes down to three things: a marinade that tenderises and flavours the meat, a <strong>dry surface</strong> for maximum crispness, and cooking it to a safe core temperature (<strong>74°C at the centre</strong>). A meat thermometer is the surest way to get it right every time.</p>
 
-<h2>1. Buffalo Chicken Wings</h2>
+<h2>1. Buffalo chicken wings</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>1 kg chicken wings (about 12), separated into drumettes and flats</li>
+<li>1 kg chicken wings (about 12), split into drumettes and wingettes</li>
 <li>2 tablespoons olive oil (30 ml)</li>
 <li>1 teaspoon salt, 1 teaspoon garlic powder, ½ teaspoon black pepper</li>
-<li>1 teaspoon baking powder (for crispiness)</li>
+<li>1 teaspoon baking powder (for crispness)</li>
 </ul>
-<p><strong>Buffalo sauce:</strong></p>
+<p><strong>For the Buffalo sauce:</strong></p>
 <ul>
-<li>60 ml hot sauce (Frank's Red Hot style)</li>
+<li>60 ml hot sauce (Frank's Red Hot or similar)</li>
 <li>30 g melted butter</li>
 <li>1 tablespoon honey (15 ml), 1 teaspoon white vinegar</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Pat wings completely dry with paper towels — <strong>the most important step</strong>.</li>
-<li>Toss wings with olive oil, salt, garlic powder, pepper, and baking powder.</li>
-<li>Preheat the air fryer to <strong>180 °C for 3 minutes</strong>.</li>
-<li>Arrange in a single layer.</li>
-<li>Cook at <strong>180 °C for 12 minutes</strong>.</li>
-<li>Flip and increase to <strong>200 °C for 8-10 minutes</strong> until golden and crispy.</li>
-<li>Mix Buffalo sauce ingredients in a small saucepan over low heat for 2 minutes.</li>
-<li>Toss cooked wings in the sauce and serve.</li>
+<li>Pat the wings dry with kitchen roll: this is <strong>the most important step</strong> for crisp skin.</li>
+<li>Toss the wings in the olive oil, salt, garlic powder, pepper and baking powder.</li>
+<li>Preheat the air fryer to <strong>180°C for 3 minutes</strong>.</li>
+<li>Arrange the wings in a single layer, without overlapping.</li>
+<li>Cook at <strong>180°C for 12 minutes</strong>.</li>
+<li>Turn the wings, then raise the heat to <strong>200°C for another 8–10 minutes</strong>, until golden and crisp.</li>
+<li>Meanwhile, warm the Buffalo sauce ingredients in a small saucepan over a low heat for 2 minutes.</li>
+<li>Toss the cooked wings in the sauce and serve.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Baking powder raises the skin's pH and accelerates browning. Use <strong>baking powder only</strong>, never pure baking soda, which leaves a metallic taste.</p>
+<h3>Chef's tips</h3>
+<p>Baking powder raises the pH of the skin and speeds up browning. Use <strong>baking powder only</strong>, never bicarbonate of soda on its own, which leaves a metallic taste. Serve with celery sticks and a blue cheese dip.</p>
 
-<h2>2. Breaded Chicken Tenders</h2>
+<h2>2. Breaded chicken tenders</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>500 g chicken breast, sliced into 2 cm strips</li>
+<li>500 g chicken breast fillets, cut into 2 cm strips</li>
 <li>80 g panko breadcrumbs, 40 g grated Parmesan</li>
-<li>2 beaten eggs, 50 g flour</li>
+<li>2 eggs, beaten, and 50 g plain flour</li>
 <li>1 teaspoon paprika, 1 teaspoon dried oregano, ½ teaspoon garlic powder</li>
-<li>Oil spray</li>
+<li>Salt, pepper and oil spray</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Season strips with salt and pepper.</li>
-<li>Set up three stations: seasoned flour; beaten eggs; panko-Parmesan-oregano mix.</li>
-<li>Bread each strip: flour, egg, panko, pressing firmly.</li>
-<li>Refrigerate for <strong>15 minutes</strong> to set the coating.</li>
-<li>Preheat to <strong>200 °C for 3 minutes</strong>.</li>
-<li>Arrange in a single layer, spray with oil.</li>
-<li>Cook at <strong>200 °C for 10-12 minutes</strong>, flipping halfway and spraying again.</li>
-<li>Internal temperature must reach <strong>74 °C</strong>.</li>
+<li>Season the strips with salt and pepper.</li>
+<li>Set out three plates: flour seasoned with the paprika and garlic powder; the beaten egg; and the panko, Parmesan and oregano mixed together.</li>
+<li>Coat each strip in flour, then egg, then the panko mix, pressing firmly so it sticks.</li>
+<li>Chill on a rack for <strong>15 minutes</strong> to set the coating.</li>
+<li>Preheat the air fryer to <strong>200°C for 3 minutes</strong>.</li>
+<li>Arrange in a single layer and spray lightly with oil.</li>
+<li>Cook at <strong>200°C for 10–12 minutes</strong>, turning halfway and spraying again.</li>
+<li>Check that the internal temperature has reached <strong>74°C</strong>.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Panko gives unmatched crunch. The refrigeration step before cooking prevents the coating from falling off. Serve with <a href="/en/blog/recettes-frites-parfaites-airfryer">homemade air fryer fries</a>.</p>
+<h3>Chef's tips</h3>
+<p>Panko gives a crunch that ordinary breadcrumbs can't match. Chilling the tenders before cooking stops the coating falling off: many people skip this step, but it makes all the difference. Serve with <a href="/en/blog/recettes-frites-parfaites-airfryer">homemade air fryer chips</a>.</p>
 
-<h2>3. Spiced Chicken Thighs</h2>
+<h2>3. Spiced chicken thighs</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>6 bone-in, skin-on chicken thighs (about 800 g)</li>
-<li>2 tablespoons olive oil, 1 tablespoon smoked paprika, 1 teaspoon cumin</li>
+<li>6 skin-on chicken thighs (about 800 g)</li>
+<li>2 tablespoons olive oil, 1 tablespoon smoked paprika, 1 teaspoon ground cumin</li>
 <li>1 teaspoon garlic powder, 1 teaspoon onion powder</li>
-<li>½ teaspoon cayenne, 1 teaspoon salt, 1 teaspoon brown sugar</li>
+<li>½ teaspoon cayenne pepper, 1 teaspoon salt, ½ teaspoon black pepper, 1 teaspoon brown sugar</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Mix all spices. Pat thighs dry, coat with oil, then rub in the spice mix.</li>
-<li>Marinate <strong>2-4 hours</strong> (30 minutes minimum).</li>
-<li>Let sit at room temperature <strong>20 minutes</strong> before cooking.</li>
-<li>Place skin-side up. Cook at <strong>180 °C for 15 minutes</strong>.</li>
-<li>Flip, then cook at <strong>200 °C for 5-10 minutes</strong> skin-side up to crisp.</li>
-<li>Internal temperature must reach <strong>74 °C</strong>. Rest <strong>5 minutes</strong>.</li>
+<li>Mix all the spices. Pat the thighs dry, brush them with oil, then rub in the spice mix generously.</li>
+<li>Ideally, leave to marinate in the fridge for <strong>2–4 hours</strong> (30 minutes minimum).</li>
+<li>Take them out of the fridge <strong>20 minutes</strong> before cooking.</li>
+<li>Place skin-side up in the basket. Cook at <strong>180°C for 15 minutes</strong>.</li>
+<li>Turn them, then cook at <strong>200°C for another 5–10 minutes</strong>, finishing skin-side up to crisp the skin.</li>
+<li>Check that the thickest part has reached <strong>74°C</strong>. Leave to rest for <strong>5 minutes</strong>.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Thighs are forgiving — their natural fat keeps them juicy even if slightly overcooked. Brown sugar promotes caramelization without burning.</p>
+<h3>Chef's tips</h3>
+<p>Thighs are more forgiving than breasts: their natural fat keeps them juicy even if they're slightly overcooked. The brown sugar in the rub helps the skin caramelise without burning.</p>
 
-<h2>4. Marinated Whole Chicken Breasts</h2>
+<h2>4. Marinated whole chicken breasts</h2>
 <h3>Ingredients</h3>
 <ul>
 <li>2 thick chicken breasts (about 200 g each)</li>
-<li>60 ml plain yogurt, 2 tablespoons lemon juice, 2 garlic cloves (minced)</li>
-<li>1 tablespoon olive oil, 1 teaspoon turmeric, 1 teaspoon cumin, 1 teaspoon ground coriander</li>
+<li>60 ml natural yoghurt, 2 tablespoons lemon juice, 2 garlic cloves, finely chopped</li>
+<li>1 tablespoon olive oil, 1 teaspoon turmeric, 1 teaspoon ground cumin, 1 teaspoon ground coriander, ½ teaspoon chilli powder</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Flatten breasts to a uniform <strong>2.5 cm thickness</strong> for even cooking.</li>
-<li>Mix yogurt, lemon juice, garlic, oil, and spices. Coat the breasts and marinate <strong>2 hours minimum</strong> (overnight is ideal).</li>
-<li>Cook at <strong>180 °C for 18-22 minutes</strong>, flipping halfway.</li>
-<li>Internal temperature must reach <strong>74 °C</strong>. Rest <strong>5 minutes</strong> under foil before slicing.</li>
+<li>Flatten the breasts to an even <strong>2.5 cm thickness</strong> so they cook evenly.</li>
+<li>Mix the yoghurt, lemon juice, garlic, oil and spices. Coat the breasts and leave to marinate in the fridge for <strong>at least 2 hours</strong> (ideally overnight).</li>
+<li>Cook at <strong>180°C for 18–22 minutes</strong>, turning halfway.</li>
+<li>The internal temperature must reach <strong>74°C</strong>. Rest for <strong>5 minutes</strong> under foil before slicing.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>The yogurt marinade gently tenderizes the meat through lactic acid. Resting after cooking redistributes juices — cutting too early will result in dry chicken.</p>
+<h3>Chef's tips</h3>
+<p>A yoghurt marinade, a staple of Indian cooking, tenderises the meat gently thanks to its lactic acid. Resting after cooking lets the juices settle back into the meat: cut it too soon and the chicken will be dry.</p>
 
-<h2>5. Homemade Chicken Nuggets</h2>
+<h2>5. Homemade chicken nuggets</h2>
 <h3>Ingredients</h3>
 <ul>
 <li>400 g chicken breast, cut into 3 cm cubes</li>
-<li>100 g crushed corn flakes, 2 beaten eggs, 50 g flour</li>
-<li>1 teaspoon paprika, ½ teaspoon garlic powder, ½ teaspoon onion powder</li>
+<li>100 g cornflakes, roughly crushed, 2 eggs, beaten, and 50 g plain flour</li>
+<li>1 teaspoon mild paprika, ½ teaspoon garlic powder, ½ teaspoon onion powder</li>
 </ul>
-<h3>Preparation</h3>
+<h3>Method</h3>
 <ol>
-<li>Crush corn flakes in a bag with a rolling pin — keep pieces irregular for texture.</li>
-<li>Bread each cube: seasoned flour, egg, corn flakes.</li>
-<li>Cook at <strong>190 °C for 10-12 minutes</strong>, flipping halfway. Spray with oil.</li>
-<li>Internal temperature must reach <strong>74 °C</strong>.</li>
+<li>Crush the cornflakes in a freezer bag with a rolling pin, leaving some bigger pieces for texture.</li>
+<li>Coat each cube in seasoned flour, then egg, then cornflakes, pressing well.</li>
+<li>Spray with oil and cook at <strong>190°C for 10–12 minutes</strong>, turning halfway.</li>
+<li>Check that the internal temperature has reached <strong>74°C</strong>.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Corn flakes provide superior crunch and natural golden colour. Freeze uncooked breaded nuggets — cook from frozen adding <strong>3-4 extra minutes</strong>. For a <a href="/en/blog/cuisiner-healthy-airfryer">healthy meal</a>, serve with raw vegetables and yogurt dip.</p>
+<h3>Chef's tips</h3>
+<p>Cornflakes give more crunch than breadcrumbs and a lovely natural golden colour, and these nuggets are far healthier than shop-bought ones. Make a big batch and freeze them raw once coated: cook them from frozen, adding <strong>3–4 minutes</strong>. For a <a href="/en/blog/cuisiner-healthy-airfryer">healthy, balanced meal</a>, serve with raw vegetable sticks and a yoghurt dip.</p>
 
-<h2>6. Chicken Satay Skewers</h2>
+<h2>6. Chicken satay skewers</h2>
 <h3>Ingredients</h3>
 <ul>
 <li>500 g chicken breast, cut into 2 cm strips</li>
-<li>Wooden skewers (soaked in water 30 minutes)</li>
+<li>Wooden skewers, soaked in water for 30 minutes</li>
 </ul>
-<p><strong>Marinade:</strong> 3 tablespoons coconut milk, 2 tablespoons soy sauce, 1 tablespoon peanut butter, 1 tablespoon lime juice, 1 teaspoon curry powder, 1 teaspoon turmeric, 1 garlic clove (grated), 1 cm fresh ginger (grated), 1 teaspoon palm sugar</p>
-<p><strong>Peanut sauce:</strong> 80 g peanut butter, 60 ml coconut milk, 1 tablespoon soy sauce, 1 tablespoon lime juice, 1 teaspoon sriracha, 1 teaspoon honey</p>
-<h3>Preparation</h3>
+<p><strong>For the marinade:</strong> 3 tablespoons coconut milk, 2 tablespoons soy sauce, 1 tablespoon smooth peanut butter, 1 tablespoon lime juice, 1 teaspoon curry powder, 1 teaspoon turmeric, 1 garlic clove (grated), 1 cm fresh ginger (grated), 1 teaspoon palm sugar or soft brown sugar</p>
+<p><strong>For the peanut sauce:</strong> 80 g smooth peanut butter, 60 ml coconut milk, 1 tablespoon soy sauce, 1 tablespoon lime juice, 1 teaspoon sriracha, 1 teaspoon honey</p>
+<h3>Method</h3>
 <ol>
-<li>Mix marinade ingredients. Add chicken, marinate <strong>2 hours minimum</strong>.</li>
-<li>Thread onto soaked skewers.</li>
-<li>Make peanut sauce: warm all ingredients in a small pan for <strong>3 minutes</strong>.</li>
-<li>Cook skewers at <strong>190 °C for 10-12 minutes</strong>, flipping halfway.</li>
-<li>Serve with warm peanut sauce and lime wedges.</li>
+<li>Mix the marinade ingredients, add the chicken and leave to marinate in the fridge for <strong>at least 2 hours</strong> (overnight for the best flavour).</li>
+<li>Thread the chicken onto the soaked skewers.</li>
+<li>Make the peanut sauce: warm all the ingredients in a small pan over a low heat for <strong>3 minutes</strong>, stirring.</li>
+<li>Cook the skewers at <strong>190°C for 10–12 minutes</strong>, turning halfway (trim them to fit the basket if needed).</li>
+<li>Serve straight away with the warm peanut sauce and lime wedges.</li>
 </ol>
-<h3>Chef's Tips</h3>
-<p>Always soak wooden skewers to prevent burning. The peanut butter in the marinade creates a protective layer that keeps chicken incredibly tender.</p>
+<h3>Chef's tips</h3>
+<p>Always soak wooden skewers so they don't burn. The peanut butter in the marinade forms a thin coating that keeps the chicken wonderfully tender. They're ideal as party food or for a relaxed dinner with friends.</p>
 
-<h2>Temperature and Time Summary</h2>
+<h2>Cooking times and temperatures at a glance</h2>
 <table>
 <thead>
-<tr><th>Recipe</th><th>Temperature</th><th>Total Time</th><th>Quantity</th><th>Internal Temp</th></tr>
+<tr><th>Recipe</th><th>Temperature</th><th>Total time</th><th>Quantity</th><th>Core temp</th></tr>
 </thead>
 <tbody>
-<tr><td>Buffalo wings</td><td>180 °C then 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
-<tr><td>Breaded tenders</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Spiced thighs</td><td>180 °C then 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
-<tr><td>Marinated breast</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
-<tr><td>Homemade nuggets</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
-<tr><td>Satay skewers</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Buffalo wings</td><td>180°C then 200°C</td><td>20–22 min</td><td>1 kg</td><td>74°C</td></tr>
+<tr><td>Breaded tenders</td><td>200°C</td><td>10–12 min</td><td>500 g</td><td>74°C</td></tr>
+<tr><td>Spiced thighs</td><td>180°C then 200°C</td><td>20–25 min</td><td>800 g</td><td>74°C</td></tr>
+<tr><td>Marinated breasts</td><td>180°C</td><td>18–22 min</td><td>400 g</td><td>74°C</td></tr>
+<tr><td>Homemade nuggets</td><td>190°C</td><td>10–12 min</td><td>400 g</td><td>74°C</td></tr>
+<tr><td>Satay skewers</td><td>190°C</td><td>10–12 min</td><td>500 g</td><td>74°C</td></tr>
 </tbody>
 </table>
 
-<h2>General Tips for Air Fryer Chicken</h2>
+<h2>General tips for air fryer chicken</h2>
 <ul>
-<li><strong>Internal temperature is non-negotiable</strong> — chicken must reach <strong>74 °C / 165 °F</strong>.</li>
-<li><strong>Always dry the surface</strong> — dry skin = maximum browning and crunch.</li>
-<li><strong>Don't overcrowd the basket</strong> — air circulation is essential.</li>
-<li><strong>Rest after cooking</strong> — 5 minutes lets juices redistribute.</li>
-<li><strong>Marinate properly</strong> — 2 hours minimum makes all the difference.</li>
+<li><strong>Always check the internal temperature</strong>: chicken must reach <strong>74°C at the centre</strong>, so an instant-read thermometer is worth having.</li>
+<li><strong>Always dry the surface</strong>: dry skin means maximum browning and crunch.</li>
+<li><strong>Don't overcrowd the basket</strong>: the air needs to circulate, so cook in two batches if necessary.</li>
+<li><strong>Let it rest</strong>: 5 minutes after cooking lets the juices settle.</li>
+<li><strong>Marinate properly</strong>: 2 hours minimum makes all the difference, and yoghurt marinades are especially good at tenderising.</li>
 </ul>
-<p>For complete meals, pair with <a href="/en/blog/recettes-frites-parfaites-airfryer">perfect air fryer fries</a> or <a href="/en/blog/recettes-legumes-grilles-airfryer">grilled vegetables</a>.</p>
+<p>For a complete meal, serve with <a href="/en/blog/recettes-frites-parfaites-airfryer">perfect air fryer chips</a> or <a href="/en/blog/recettes-legumes-grilles-airfryer">roasted vegetables</a>.</p>
 
 <h2>5 quick marinades that make all the difference</h2>
 <ul>
-<li><strong>Lemon-herb marinade (30 min):</strong> juice of 2 lemons + oregano + garlic + olive oil. For chicken breasts.</li>
-<li><strong>Soy-sesame marinade (2h):</strong> soy sauce + honey + grated ginger + sesame oil. For wings and tenders.</li>
-<li><strong>Yogurt-spice marinade (4h):</strong> Greek yogurt + cumin + paprika + turmeric + garlic. For thighs and drumsticks.</li>
-<li><strong>Smoky BBQ marinade (2h):</strong> BBQ sauce + chipotle + honey + lemon juice. For all cuts.</li>
-<li><strong>Harissa-lemon marinade (1h):</strong> harissa + lemon juice + olive oil + coriander. For skewers.</li>
+<li><strong>Lemon and herb (30 min):</strong> juice of 2 lemons + oregano + garlic + olive oil. For chicken breasts.</li>
+<li><strong>Soy and sesame (2 hours):</strong> soy sauce + honey + grated ginger + sesame oil. For wings and tenders.</li>
+<li><strong>Spiced yoghurt (4 hours):</strong> Greek yoghurt + cumin + paprika + turmeric + garlic. For thighs and drumsticks.</li>
+<li><strong>Smoky BBQ (2 hours):</strong> BBQ sauce + chipotle + honey + lemon juice. For any cut.</li>
+<li><strong>Harissa and lemon (1 hour):</strong> harissa + lemon juice + olive oil + coriander. For skewers.</li>
 </ul>`,
 
     de: `<h2>Einleitung</h2>
-<p>Hähnchen aus der Heißluftfritteuse gehört zu den befriedigendsten Gerichten, die man zubereiten kann. Die Heißluftzirkulation erzeugt eine <strong>knusprige, goldbraune Haut</strong>, während das Fleisch innen saftig bleibt — und das mit minimalem Ölverbrauch. Diese 6 Rezepte decken alle Hähnchenteile und Anlässe ab.</p>
-<p>Das Geheimnis: eine Marinade, die das Fleisch zart macht, <strong>trockene Oberfläche</strong> für maximale Knusprigkeit und strikte Einhaltung der Kerntemperatur (<strong>74 °C</strong>).</p>
+<p>Hähnchen aus dem Airfryer gehört zu den dankbarsten Gerichten überhaupt. Die heiße Umluft sorgt für eine <strong>knusprige, goldbraune Haut</strong>, während das Fleisch innen saftig bleibt, und das mit sehr wenig Öl. Ob schnelles Abendessen unter der Woche oder Essen mit Gästen: Diese 6 Rezepte decken alle Teile vom Hähnchen und jeden Anlass ab.</p>
+<p>Für perfektes Hähnchen aus der Heißluftfritteuse kommt es auf drei Dinge an: eine Marinade, die das Fleisch zart macht und würzt, eine <strong>trockene Oberfläche</strong> für maximale Knusprigkeit und eine sichere Kerntemperatur von <strong>74 °C</strong>, die Sie strikt einhalten sollten. Mit einem Küchenthermometer liegen Sie dabei jedes Mal richtig.</p>
 
 <h2>1. Buffalo Chicken Wings</h2>
 <h3>Zutaten</h3>
 <ul>
-<li>1 kg Hähnchenflügel, 2 EL Olivenöl, 1 TL Salz, 1 TL Knoblauchpulver, ½ TL Pfeffer, 1 TL Backpulver</li>
+<li>1 kg Hähnchenflügel (etwa 12 Stück), am Gelenk in Ober- und Mittelflügel geteilt</li>
+<li>2 EL Olivenöl (30 ml)</li>
+<li>1 TL Salz, 1 TL Knoblauchpulver, ½ TL schwarzer Pfeffer</li>
+<li>1 TL Backpulver (für die Knusprigkeit)</li>
 </ul>
-<p><strong>Buffalo-Sauce:</strong> 60 ml scharfe Sauce, 30 g geschmolzene Butter, 1 EL Honig, 1 TL Weißweinessig</p>
+<p><strong>Für die Buffalo-Sauce:</strong></p>
+<ul>
+<li>60 ml scharfe Chilisauce, etwa Frank's Red Hot</li>
+<li>30 g geschmolzene Butter</li>
+<li>1 EL Honig (15 ml), 1 TL heller Essig</li>
+</ul>
 <h3>Zubereitung</h3>
 <ol>
-<li>Flügel gründlich trockentupfen.</li>
-<li>Mit Olivenöl, Salz, Knoblauch, Pfeffer und Backpulver mischen.</li>
-<li>Bei <strong>180 °C 12 Minuten</strong> garen, wenden, dann bei <strong>200 °C 8-10 Minuten</strong>.</li>
-<li>Buffalo-Sauce zubereiten und die fertigen Flügel darin schwenken.</li>
+<li>Die Flügel mit Küchenpapier gründlich trockentupfen: <strong>der wichtigste Schritt</strong> für ein knuspriges Ergebnis.</li>
+<li>In einer großen Schüssel mit Olivenöl, Salz, Knoblauchpulver, Pfeffer und Backpulver vermengen.</li>
+<li>Den Airfryer <strong>3 Minuten auf 180 °C</strong> vorheizen.</li>
+<li>Die Flügel in einer Lage in den Korb legen, ohne sie zu stapeln.</li>
+<li><strong>12 Minuten bei 180 °C</strong> garen.</li>
+<li>Wenden und <strong>weitere 8 bis 10 Minuten bei 200 °C</strong> garen, bis die Haut goldbraun und knusprig ist.</li>
+<li>Inzwischen die Zutaten für die Buffalo-Sauce in einem kleinen Topf bei schwacher Hitze 2 Minuten verrühren.</li>
+<li>Die fertigen Flügel in eine Schüssel geben, mit der Sauce übergießen, gut durchschwenken und servieren.</li>
 </ol>
 <h3>Tipps vom Profi</h3>
-<p>Backpulver erhöht den pH-Wert der Haut und beschleunigt das Bräunen. Nur Backpulver verwenden, kein reines Natron.</p>
+<p>Backpulver ist das Geheimnis besonders knuspriger Wings ohne Frittieren: Es erhöht den pH-Wert der Haut und beschleunigt das Bräunen. Verwenden Sie <strong>ausschließlich Backpulver</strong>, niemals reines Natron, denn das schmeckt metallisch. Dazu passen Selleriestangen und ein Blauschimmelkäse-Dip.</p>
 
-<h2>2. Panierte Hähnchen-Tenders</h2>
+<h2>2. Panierte Chicken Tenders</h2>
 <h3>Zutaten</h3>
 <ul>
-<li>500 g Hähnchenbrust (2 cm Streifen), 80 g Panko, 40 g Parmesan, 2 Eier, 50 g Mehl, Paprika, Oregano, Knoblauchpulver</li>
+<li>500 g Hähnchenbrustfilet, in 2 cm breite Streifen geschnitten</li>
+<li>80 g Panko (japanisches Paniermehl), 40 g geriebener Parmesan</li>
+<li>2 verquirlte Eier, 50 g Mehl</li>
+<li>1 TL Paprikapulver, 1 TL getrockneter Oregano, ½ TL Knoblauchpulver, Salz und Pfeffer</li>
+<li>Ölspray</li>
 </ul>
 <h3>Zubereitung</h3>
 <ol>
-<li>Streifen würzen. Dreifach-Panierung: Mehl, Ei, Panko-Parmesan-Mischung.</li>
-<li><strong>15 Minuten</strong> im Kühlschrank ruhen lassen.</li>
-<li>Bei <strong>200 °C 10-12 Minuten</strong> garen, nach der Hälfte wenden. Kerntemperatur <strong>74 °C</strong>.</li>
+<li>Die Streifen salzen und pfeffern.</li>
+<li>Drei Teller vorbereiten: Mehl mit Paprika und Knoblauchpulver, verquirlte Eier und eine Mischung aus Panko, Parmesan und Oregano.</li>
+<li>Jeden Streifen nacheinander in Mehl, Ei und Panko wenden und die Panade fest andrücken.</li>
+<li>Auf einem Gitter <strong>15 Minuten</strong> kalt stellen, damit die Panade fest wird.</li>
+<li>Den Airfryer <strong>3 Minuten auf 200 °C</strong> vorheizen.</li>
+<li>Die Streifen in einer Lage einlegen und leicht mit Öl besprühen.</li>
+<li><strong>10 bis 12 Minuten bei 200 °C</strong> garen, nach der Hälfte der Zeit wenden und erneut besprühen.</li>
+<li>Die Kerntemperatur muss <strong>74 °C</strong> erreichen.</li>
 </ol>
 <h3>Tipps vom Profi</h3>
-<p>Das Kühlen vor dem Garen verhindert, dass die Panade abfällt. Servieren Sie mit <a href="/de/blog/recettes-frites-parfaites-airfryer">Pommes aus der Heißluftfritteuse</a>.</p>
+<p>Panko wird deutlich knuspriger als klassisches Paniermehl. Das Kühlen vor dem Garen lassen viele weg, dabei verhindert genau dieser Schritt, dass sich die Panade ablöst. Für ein komplettes Essen passen <a href="/de/blog/recettes-frites-parfaites-airfryer">selbst gemachte Pommes aus dem Airfryer</a> dazu.</p>
 
-<h2>3. Gewürzte Hähnchenschenkel</h2>
+<h2>3. Würzige Hähnchenschenkel</h2>
 <h3>Zutaten</h3>
 <ul>
-<li>6 Oberschenkel mit Haut (800 g), 2 EL Olivenöl, 1 EL Räucherpaprika, 1 TL Kreuzkümmel, Knoblauchpulver, Zwiebelpulver, Cayenne, Salz, brauner Zucker</li>
+<li>6 Hähnchenoberschenkel mit Knochen und Haut (etwa 800 g)</li>
+<li>2 EL Olivenöl, 1 EL geräuchertes Paprikapulver, 1 TL gemahlener Kreuzkümmel</li>
+<li>1 TL Knoblauchpulver, 1 TL Zwiebelpulver</li>
+<li>½ TL Cayennepfeffer, 1 TL Salz, ½ TL schwarzer Pfeffer, 1 TL brauner Zucker</li>
 </ul>
 <h3>Zubereitung</h3>
 <ol>
-<li>Gewürzmischung herstellen. Schenkel trocknen, mit Öl und Gewürzen einreiben.</li>
-<li>Mindestens <strong>2-4 Stunden</strong> marinieren.</li>
-<li>Hautseite oben bei <strong>180 °C 15 Minuten</strong>, wenden, dann <strong>200 °C 5-10 Minuten</strong>.</li>
-<li>Kerntemperatur <strong>74 °C</strong>. <strong>5 Minuten</strong> ruhen lassen.</li>
+<li>Alle Gewürze mischen. Die Schenkel trockentupfen, mit Öl bestreichen und rundum mit der Gewürzmischung einreiben.</li>
+<li>Am besten <strong>2 bis 4 Stunden</strong> im Kühlschrank marinieren lassen (mindestens 30 Minuten).</li>
+<li><strong>20 Minuten</strong> vor dem Garen aus dem Kühlschrank nehmen.</li>
+<li>Den Airfryer 3 Minuten auf 180 °C vorheizen, die Schenkel mit der Hautseite nach oben in den Korb legen und <strong>15 Minuten bei 180 °C</strong> garen.</li>
+<li>Wenden und <strong>weitere 5 bis 10 Minuten bei 200 °C</strong> garen, zum Schluss wieder mit der Hautseite nach oben, damit die Haut knusprig wird.</li>
+<li>Die Kerntemperatur muss an der dicksten Stelle <strong>74 °C</strong> erreichen. Vor dem Servieren <strong>5 Minuten</strong> ruhen lassen.</li>
 </ol>
 <h3>Tipps vom Profi</h3>
-<p>Schenkel sind dank ihres natürlichen Fettgehalts verzeihender als Brustfleisch. Brauner Zucker fördert die Karamellisierung.</p>
+<p>Schenkel verzeihen mehr als Brustfilet: Ihr natürlicher Fettanteil hält sie saftig, selbst wenn sie etwas zu lange garen. Der braune Zucker in der Gewürzmischung lässt die Haut karamellisieren, ohne dass sie verbrennt.</p>
 
-<h2>4. Marinierte Hähnchenbrust</h2>
+<h2>4. Marinierte Hähnchenbrust am Stück</h2>
 <h3>Zutaten</h3>
 <ul>
-<li>2 dicke Brüste (je 200 g), 60 ml Naturjoghurt, 2 EL Zitronensaft, 2 Knoblauchzehen, Olivenöl, Kurkuma, Kreuzkümmel, Koriander</li>
+<li>2 dicke Hähnchenbrustfilets (je etwa 200 g)</li>
+<li>60 ml Naturjoghurt, 2 EL Zitronensaft, 2 fein gehackte Knoblauchzehen</li>
+<li>1 EL Olivenöl, 1 TL Kurkuma, 1 TL Kreuzkümmel, 1 TL gemahlener Koriander, ½ TL Chilipulver, Salz und Pfeffer</li>
 </ul>
 <h3>Zubereitung</h3>
 <ol>
-<li>Brüste auf gleichmäßige <strong>2,5 cm Dicke</strong> flach klopfen.</li>
-<li>Joghurt-Marinade anrühren und mindestens <strong>2 Stunden</strong> marinieren.</li>
-<li>Bei <strong>180 °C 18-22 Minuten</strong> garen, nach der Hälfte wenden. Kerntemperatur <strong>74 °C</strong>.</li>
-<li><strong>5 Minuten</strong> unter Alufolie ruhen lassen.</li>
+<li>Sehr dicke Filets mit Fleischklopfer oder Nudelholz auf einheitlich <strong>2,5 cm Dicke</strong> flach klopfen, damit sie gleichmäßig garen.</li>
+<li>Joghurt, Zitronensaft, Knoblauch, Öl und Gewürze verrühren. Die Filets damit einstreichen und <strong>mindestens 2 Stunden</strong> im Kühlschrank marinieren, ideal ist über Nacht.</li>
+<li>20 Minuten vor dem Garen aus dem Kühlschrank nehmen und den Airfryer 3 Minuten auf 180 °C vorheizen. Überschüssige Marinade abstreifen, aber nicht ganz entfernen, und die Filets <strong>18 bis 22 Minuten bei 180 °C</strong> garen, nach der Hälfte der Zeit wenden.</li>
+<li>Die Kerntemperatur muss <strong>74 °C</strong> erreichen. Vor dem Aufschneiden <strong>5 Minuten</strong> unter Alufolie ruhen lassen.</li>
 </ol>
 <h3>Tipps vom Profi</h3>
-<p>Joghurt-Marinaden machen das Fleisch durch Milchsäure besonders zart — ein Geheimnis der indischen Küche.</p>
+<p>Die Joghurtmarinade kommt aus der indischen Küche: Die Milchsäure macht das Fleisch sanft zart, ohne es zu „garen“, wie es reine Säure wie Zitronensaft tun würde. Die Ruhezeit nach dem Garen ist wichtig, weil sich der Fleischsaft dabei wieder verteilt. Wer zu früh anschneidet, verliert den Saft, und das Hähnchen wird trocken.</p>
 
 <h2>5. Hausgemachte Chicken Nuggets</h2>
 <h3>Zutaten</h3>
 <ul>
-<li>400 g Hähnchenbrust (3 cm Würfel), 100 g zerdrückte Cornflakes, 2 Eier, 50 g Mehl, Paprika, Knoblauchpulver</li>
+<li>400 g Hähnchenbrustfilet, in 3 cm große Würfel geschnitten</li>
+<li>100 g grob zerdrückte Cornflakes, 2 verquirlte Eier, 50 g Mehl</li>
+<li>1 TL edelsüßes Paprikapulver, ½ TL Knoblauchpulver, ½ TL Zwiebelpulver, Salz und Pfeffer</li>
 </ul>
 <h3>Zubereitung</h3>
 <ol>
-<li>Cornflakes in einem Beutel grob zerdrücken.</li>
-<li>Panieren: Mehl, Ei, Cornflakes.</li>
-<li>Bei <strong>190 °C 10-12 Minuten</strong> garen, nach der Hälfte wenden. Kerntemperatur <strong>74 °C</strong>.</li>
+<li>Die Cornflakes in einem Gefrierbeutel mit dem Nudelholz zerdrücken, ruhig in unregelmäßigen Stücken: Das sorgt für mehr Biss.</li>
+<li>Jeden Würfel panieren: nacheinander in gewürztem Mehl, Ei und Cornflakes wenden und gut andrücken.</li>
+<li>Den Airfryer 3 Minuten auf 190 °C vorheizen. Die Nuggets in einer Lage einlegen, mit Öl besprühen und <strong>10 bis 12 Minuten bei 190 °C</strong> garen, nach der Hälfte der Zeit wenden.</li>
+<li>Die Kerntemperatur muss <strong>74 °C</strong> erreichen.</li>
 </ol>
 <h3>Tipps vom Profi</h3>
-<p>Cornflakes geben einen überlegenen Crunch. Rohe panierte Nuggets einfrieren und direkt tiefgekühlt garen (+3-4 Min.).</p>
+<p>Cornflakes werden knuspriger als Paniermehl und bekommen von selbst eine schöne goldbraune Farbe. Für Kinder sind die selbst gemachten Nuggets deutlich gesünder als Fertigware. Bereiten Sie gleich eine größere Menge zu und frieren Sie die rohen, panierten Nuggets ein: Sie lassen sich direkt aus dem Gefrierfach garen, mit <strong>3 bis 4 Minuten</strong> mehr Garzeit. Für eine <a href="/de/blog/cuisiner-healthy-airfryer">gesunde, ausgewogene Mahlzeit</a> servieren Sie Rohkost und einen Joghurt-Dip dazu.</p>
 
 <h2>6. Hähnchen-Satay-Spieße</h2>
 <h3>Zutaten</h3>
 <ul>
-<li>500 g Hähnchenbrust (2 cm Streifen), Holzspieße (30 Min. gewässert)</li>
-<li><strong>Marinade:</strong> 3 EL Kokosmilch, 2 EL Sojasauce, 1 EL Erdnussbutter, 1 EL Limettensaft, Currypulver, Kurkuma, Knoblauch, Ingwer, Palmzucker</li>
-<li><strong>Erdnuss-Sauce:</strong> 80 g Erdnussbutter, 60 ml Kokosmilch, 1 EL Sojasauce, 1 EL Limettensaft, 1 TL Sriracha, 1 TL Honig</li>
+<li>500 g Hähnchenbrustfilet, in 2 cm breite Streifen geschnitten</li>
+<li>Holzspieße (30 Minuten in Wasser eingeweicht)</li>
 </ul>
+<p><strong>Für die Marinade:</strong> 3 EL Kokosmilch, 2 EL Sojasauce, 1 EL cremige Erdnussbutter, 1 EL Limettensaft, 1 TL Currypulver, 1 TL Kurkuma, 1 geriebene Knoblauchzehe, 1 cm frischer Ingwer (gerieben), 1 TL Palmzucker oder brauner Zucker</p>
+<p><strong>Für die Erdnusssauce:</strong> 80 g cremige Erdnussbutter, 60 ml Kokosmilch, 1 EL Sojasauce, 1 EL Limettensaft, 1 TL Sriracha, 1 TL Honig</p>
 <h3>Zubereitung</h3>
 <ol>
-<li>Marinieren Sie mindestens <strong>2 Stunden</strong>. Auf Spieße fädeln.</li>
-<li>Erdnuss-Sauce: Alle Zutaten <strong>3 Minuten</strong> bei niedriger Hitze erwärmen.</li>
-<li>Bei <strong>190 °C 10-12 Minuten</strong> garen, nach der Hälfte wenden.</li>
+<li>Die Zutaten für die Marinade verrühren, das Hähnchen dazugeben und <strong>mindestens 2 Stunden</strong> im Kühlschrank marinieren; über Nacht wird es noch aromatischer.</li>
+<li>Die Streifen auf die eingeweichten Spieße fädeln.</li>
+<li>Für die Erdnusssauce alle Zutaten in einem kleinen Topf bei schwacher Hitze <strong>3 Minuten</strong> unter Rühren erwärmen.</li>
+<li>Den Airfryer 3 Minuten auf 190 °C vorheizen. Die Spieße in den Korb legen (bei Bedarf kürzen, damit sie hineinpassen) und <strong>10 bis 12 Minuten bei 190 °C</strong> garen, nach der Hälfte der Zeit wenden.</li>
+<li>Sofort mit der warmen Erdnusssauce und Limettenspalten servieren.</li>
 </ol>
 <h3>Tipps vom Profi</h3>
-<p>Holzspieße immer wässern, damit sie nicht verbrennen. Erdnussbutter in der Marinade hält das Hähnchen saftig.</p>
+<p>Holzspieße vor dem Gebrauch immer mindestens 30 Minuten wässern, damit sie nicht verbrennen. Die Erdnussbutter in der Marinade bildet eine feine Schutzschicht und hält das Hähnchen besonders zart. Ideal als Fingerfood für Gäste oder für einen geselligen Abend mit Freunden.</p>
 
-<h2>Übersichtstabelle</h2>
+<h2>Garzeiten und Temperaturen im Überblick</h2>
 <table>
 <thead>
-<tr><th>Rezept</th><th>Temperatur</th><th>Gesamtzeit</th><th>Menge</th><th>Kerntemp.</th></tr>
+<tr><th>Rezept</th><th>Temperatur</th><th>Gesamtzeit</th><th>Menge</th><th>Kerntemperatur</th></tr>
 </thead>
 <tbody>
-<tr><td>Buffalo Wings</td><td>180 °C dann 200 °C</td><td>20-22 Min.</td><td>1 kg</td><td>74 °C</td></tr>
-<tr><td>Panierte Tenders</td><td>200 °C</td><td>10-12 Min.</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Gewürzte Schenkel</td><td>180 °C dann 200 °C</td><td>20-25 Min.</td><td>800 g</td><td>74 °C</td></tr>
-<tr><td>Marinierte Brust</td><td>180 °C</td><td>18-22 Min.</td><td>400 g</td><td>74 °C</td></tr>
-<tr><td>Nuggets</td><td>190 °C</td><td>10-12 Min.</td><td>400 g</td><td>74 °C</td></tr>
-<tr><td>Satay-Spieße</td><td>190 °C</td><td>10-12 Min.</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Buffalo Wings</td><td>180 °C, dann 200 °C</td><td>20–22 Min.</td><td>1 kg</td><td>74 °C</td></tr>
+<tr><td>Chicken Tenders</td><td>200 °C</td><td>10–12 Min.</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Würzige Schenkel</td><td>180 °C, dann 200 °C</td><td>20–25 Min.</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Marinierte Brust</td><td>180 °C</td><td>18–22 Min.</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Chicken Nuggets</td><td>190 °C</td><td>10–12 Min.</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Satay-Spieße</td><td>190 °C</td><td>10–12 Min.</td><td>500 g</td><td>74 °C</td></tr>
 </tbody>
 </table>
 
-<h2>Allgemeine Tipps</h2>
+<h2>Allgemeine Tipps für Hähnchen aus dem Airfryer</h2>
 <ul>
-<li><strong>Kerntemperatur ist Pflicht</strong> — Hähnchen muss <strong>74 °C</strong> erreichen.</li>
-<li><strong>Oberfläche immer trocknen</strong> für maximales Bräunen.</li>
-<li><strong>Korb nicht überladen.</strong></li>
-<li><strong>5 Minuten ruhen lassen</strong> nach dem Garen.</li>
+<li><strong>An der Kerntemperatur führt kein Weg vorbei:</strong> Hähnchen muss im Kern <strong>74 °C</strong> erreichen. Ein digitales Einstichthermometer lohnt sich.</li>
+<li><strong>Oberfläche immer trocken tupfen:</strong> Trockene Haut bräunt stärker und wird knuspriger.</li>
+<li><strong>Korb nicht überladen:</strong> Die heiße Luft muss zirkulieren können. Garen Sie bei Bedarf in zwei Durchgängen.</li>
+<li><strong>Ruhen lassen:</strong> 5 Minuten nach dem Garen, damit sich der Fleischsaft verteilt.</li>
+<li><strong>Richtig marinieren:</strong> Schon 2 Stunden bringen viel. Joghurtmarinaden machen das Fleisch besonders zart.</li>
 </ul>
-<p>Servieren Sie mit <a href="/de/blog/recettes-frites-parfaites-airfryer">perfekten Airfryer-Pommes</a> oder <a href="/de/blog/recettes-legumes-grilles-airfryer">gegrilltem Gemüse</a>.</p>
+<p>Als Beilage passen <a href="/de/blog/recettes-frites-parfaites-airfryer">perfekte Pommes aus dem Airfryer</a> oder <a href="/de/blog/recettes-legumes-grilles-airfryer">gegrilltes Gemüse</a>.</p>
 
-<h2>5 schnelle Marinaden, die alles verändern</h2>
+<h2>5 schnelle Marinaden mit großer Wirkung</h2>
 <ul>
 <li><strong>Zitronen-Kräuter-Marinade (30 Min.):</strong> Saft von 2 Zitronen + Oregano + Knoblauch + Olivenöl. Für Hähnchenbrust.</li>
-<li><strong>Soja-Sesam-Marinade (2 Std.):</strong> Sojasoße + Honig + geriebener Ingwer + Sesamöl. Für Flügel und Tenders.</li>
-<li><strong>Joghurt-Gewürz-Marinade (4 Std.):</strong> griechischer Joghurt + Kreuzkümmel + Paprika + Kurkuma + Knoblauch. Für Schenkel.</li>
-<li><strong>Rauchige BBQ-Marinade (2 Std.):</strong> BBQ-Soße + Chipotle + Honig + Zitronensaft. Für alle Stücke.</li>
+<li><strong>Soja-Sesam-Marinade (2 Std.):</strong> Sojasauce + Honig + geriebener Ingwer + Sesamöl. Für Wings und Tenders.</li>
+<li><strong>Joghurt-Gewürz-Marinade (4 Std.):</strong> griechischer Joghurt + Kreuzkümmel + Paprika + Kurkuma + Knoblauch. Für Ober- und Unterschenkel.</li>
+<li><strong>Rauchige BBQ-Marinade (2 Std.):</strong> Barbecuesauce + Chipotle + Honig + Zitronensaft. Für alle Teile.</li>
 <li><strong>Harissa-Zitronen-Marinade (1 Std.):</strong> Harissa + Zitronensaft + Olivenöl + Koriander. Für Spieße.</li>
 </ul>`,
 
     es: `<h2>Introducción</h2>
-<p>El pollo en la freidora de aire es probablemente una de las preparaciones más satisfactorias que puedes hacer. La circulación de aire caliente crea una <strong>piel crujiente y dorada</strong> manteniendo la carne jugosa por dentro, todo con una cantidad mínima de aceite. Estas 6 recetas cubren todos los cortes de pollo y todas las ocasiones.</p>
-<p>El secreto del pollo perfecto se basa en: una marinada que ablanda y aromatiza, <strong>secado de la superficie</strong> para maximizar el crujiente y respetar la temperatura interna de seguridad (<strong>74 °C en el centro</strong>).</p>
+<p>El pollo es, probablemente, una de las cosas que más satisfacciones dan en la freidora de aire. El aire caliente que circula deja la <strong>piel crujiente y dorada</strong> y la carne jugosa por dentro, y todo con muy poco aceite. Tanto si buscas una cena rápida entre semana como un plato para cuando tienes invitados, estas 6 recetas cubren todas las piezas del pollo y todas las ocasiones.</p>
+<p>Un buen pollo en freidora de aire se basa en tres claves: una marinada que ablande la carne y le dé sabor, un buen <strong>secado de la superficie</strong> para que quede lo más crujiente posible y respetar a rajatabla la temperatura interior de seguridad alimentaria (<strong>74 °C en el centro de la pieza</strong>). Te recomendamos usar un termómetro de cocina para acertar siempre.</p>
 
-<h2>1. Alitas de Pollo Buffalo</h2>
+<h2>1. Alitas de pollo Buffalo</h2>
 <h3>Ingredientes</h3>
 <ul>
-<li>1 kg de alitas de pollo, 2 cucharadas de aceite de oliva, sal, ajo en polvo, pimienta, 1 cucharadita de levadura química</li>
-<li><strong>Salsa Buffalo:</strong> 60 ml de salsa picante, 30 g de mantequilla, 1 cucharada de miel, 1 cucharadita de vinagre</li>
+<li>1 kg de alitas de pollo (unas 12), separadas por la articulación</li>
+<li>2 cucharadas de aceite de oliva (30 ml)</li>
+<li>1 cucharadita de sal, 1 cucharadita de ajo en polvo y ½ cucharadita de pimienta negra</li>
+<li>1 cucharadita de levadura química (para que queden crujientes)</li>
+</ul>
+<p><strong>Salsa Buffalo:</strong></p>
+<ul>
+<li>60 ml de salsa picante (tipo Frank's Red Hot)</li>
+<li>30 g de mantequilla derretida</li>
+<li>1 cucharada de miel (15 ml) y 1 cucharadita de vinagre blanco</li>
 </ul>
 <h3>Preparación</h3>
 <ol>
-<li>Seca las alitas con papel. Mezcla con aceite, especias y levadura.</li>
-<li>Cocina a <strong>180 °C durante 12 minutos</strong>, da la vuelta, luego <strong>200 °C durante 8-10 minutos</strong>.</li>
-<li>Prepara la salsa Buffalo y baña las alitas.</li>
+<li>Seca muy bien las alitas con papel de cocina: es <strong>el paso más importante</strong> para que queden crujientes.</li>
+<li>En un bol grande, mezcla las alitas con el aceite, la sal, el ajo en polvo, la pimienta y la levadura química.</li>
+<li>Precalienta la freidora de aire a <strong>180 °C durante 3 minutos</strong>.</li>
+<li>Coloca las alitas en una sola capa, sin amontonarlas.</li>
+<li>Cocina a <strong>180 °C durante 12 minutos</strong>.</li>
+<li>Dales la vuelta y sube a <strong>200 °C durante otros 8-10 minutos</strong>, hasta que la piel esté dorada y crujiente.</li>
+<li>Mientras tanto, prepara la salsa: calienta la salsa picante, la mantequilla, la miel y el vinagre en un cazo a fuego suave durante 2 minutos.</li>
+<li>Pasa las alitas a un bol, vierte la salsa y mezcla para que queden bien cubiertas.</li>
 </ol>
 <h3>Trucos del chef</h3>
-<p>La levadura química eleva el pH de la piel y acelera el dorado.</p>
+<p>La levadura química sube el pH de la piel y acelera el dorado: es el secreto de unas alitas muy crujientes sin freírlas. Usa <strong>solo levadura química</strong>, nunca bicarbonato, que deja un regusto metálico. Sírvelas con bastones de apio y una salsa de queso azul.</p>
 
-<h2>2. Tenders de Pollo Empanados</h2>
+<h2>2. Tiras de pollo empanadas (tenders)</h2>
 <h3>Ingredientes</h3>
 <ul>
-<li>500 g de pechuga en tiras de 2 cm, 80 g de panko, 40 g de parmesano, 2 huevos, 50 g de harina, pimentón, orégano</li>
+<li>500 g de pechuga de pollo cortada en tiras de 2 cm de ancho</li>
+<li>80 g de panko y 40 g de parmesano rallado</li>
+<li>2 huevos batidos y 50 g de harina</li>
+<li>1 cucharadita de pimentón, 1 cucharadita de orégano seco y ½ cucharadita de ajo en polvo</li>
+<li>Sal, pimienta y aceite en spray</li>
 </ul>
 <h3>Preparación</h3>
 <ol>
-<li>Empana: harina, huevo, panko-parmesano. Refrigera <strong>15 minutos</strong>.</li>
-<li>Cocina a <strong>200 °C durante 10-12 minutos</strong>, girando a mitad. Temperatura interna <strong>74 °C</strong>.</li>
+<li>Salpimienta las tiras de pollo.</li>
+<li>Prepara tres platos: harina sazonada con el pimentón y el ajo en polvo; huevos batidos; y la mezcla de panko, parmesano y orégano.</li>
+<li>Pasa cada tira por la harina, luego por el huevo y, por último, por el panko, presionando bien para que se adhiera.</li>
+<li>Déjalas sobre una rejilla y mételas en la nevera <strong>15 minutos</strong>: así el empanado se asienta y no se despega al cocinarlas.</li>
+<li>Precalienta la freidora de aire a <strong>200 °C durante 3 minutos</strong>.</li>
+<li>Coloca las tiras en una sola capa y rocíalas ligeramente con aceite.</li>
+<li>Cocina a <strong>200 °C durante 10-12 minutos</strong>, dándoles la vuelta a mitad de cocción y rociándolas otra vez con aceite.</li>
+<li>Comprueba que por dentro llegan a <strong>74 °C</strong>.</li>
 </ol>
 <h3>Trucos del chef</h3>
-<p>El panko da un crujiente incomparable. Acompaña con <a href="/es/blog/recettes-frites-parfaites-airfryer">patatas fritas en la airfryer</a>.</p>
+<p>El panko japonés cruje mucho más que el pan rallado de siempre. El paso por la nevera antes de cocinarlas es un detalle que muchos se saltan, y marca la diferencia. Para una comida completa, acompáñalas con unas <a href="/es/blog/recettes-frites-parfaites-airfryer">patatas fritas caseras en freidora de aire</a>.</p>
 
-<h2>3. Muslos de Pollo Especiados</h2>
+<h2>3. Contramuslos de pollo especiados</h2>
 <h3>Ingredientes</h3>
 <ul>
-<li>6 muslos con piel (800 g), aceite de oliva, pimentón ahumado, comino, ajo en polvo, cebolla en polvo, cayena, sal, azúcar moreno</li>
+<li>6 contramuslos de pollo con piel (unos 800 g)</li>
+<li>2 cucharadas de aceite de oliva, 1 cucharada de pimentón ahumado y 1 cucharadita de comino molido</li>
+<li>1 cucharadita de ajo en polvo y 1 cucharadita de cebolla en polvo</li>
+<li>½ cucharadita de cayena, 1 cucharadita de sal, ½ cucharadita de pimienta negra y 1 cucharadita de azúcar moreno (ayuda a dorar)</li>
 </ul>
 <h3>Preparación</h3>
 <ol>
-<li>Mezcla las especias. Seca los muslos, unta con aceite y especias. Marina <strong>2-4 horas</strong>.</li>
-<li>Piel hacia arriba: <strong>180 °C 15 minutos</strong>, da la vuelta, <strong>200 °C 5-10 minutos</strong>.</li>
-<li>Temperatura interna <strong>74 °C</strong>. Reposa <strong>5 minutos</strong>.</li>
+<li>Mezcla todas las especias en un cuenco. Seca los contramuslos con papel de cocina, úntalos con el aceite y cúbrelos bien con la mezcla de especias.</li>
+<li>Lo ideal es dejarlos marinar en la nevera <strong>2-4 horas</strong> (30 minutos como mínimo).</li>
+<li>Sácalos de la nevera <strong>20 minutos</strong> antes de cocinarlos.</li>
+<li>Precalienta la freidora a 180 °C durante 3 minutos y coloca los contramuslos con la piel hacia arriba. Cocina a <strong>180 °C durante 15 minutos</strong>.</li>
+<li>Dales la vuelta y cocina a <strong>200 °C durante otros 5-10 minutos</strong>; termina con la piel hacia arriba para que quede crujiente.</li>
+<li>Comprueba que la parte más gruesa llega a <strong>74 °C</strong> y deja reposar <strong>5 minutos</strong> antes de servir.</li>
 </ol>
 <h3>Trucos del chef</h3>
-<p>Los muslos son más tolerantes a la sobrecocción gracias a su grasa natural.</p>
+<p>Los contramuslos perdonan más que la pechuga si te pasas de cocción: su grasa natural los mantiene jugosos. El azúcar moreno de la mezcla ayuda a caramelizar la piel sin quemarla.</p>
 
-<h2>4. Pechugas Marinadas Enteras</h2>
+<h2>4. Pechugas de pollo enteras marinadas</h2>
 <h3>Ingredientes</h3>
 <ul>
-<li>2 pechugas gruesas (200 g cada una), 60 ml de yogur natural, limón, ajo, aceite, cúrcuma, comino, cilantro molido</li>
+<li>2 pechugas de pollo gruesas (unos 200 g cada una)</li>
+<li>60 ml de yogur natural, 2 cucharadas de zumo de limón y 2 dientes de ajo muy picados</li>
+<li>1 cucharada de aceite de oliva, 1 cucharadita de cúrcuma, 1 cucharadita de comino, 1 cucharadita de cilantro molido, ½ cucharadita de guindilla en polvo, sal y pimienta</li>
 </ul>
 <h3>Preparación</h3>
 <ol>
-<li>Aplana a <strong>2,5 cm</strong> de grosor uniforme. Marina en yogur con especias <strong>2 horas mínimo</strong>.</li>
-<li>Cocina a <strong>180 °C durante 18-22 minutos</strong>, girando a mitad. Temperatura interna <strong>74 °C</strong>.</li>
-<li>Reposa <strong>5 minutos</strong> bajo papel aluminio.</li>
+<li>Si las pechugas son muy gruesas, aplánalas un poco con un mazo o con un rodillo hasta dejarlas con un grosor uniforme de <strong>2,5 cm</strong>: así se hacen por igual.</li>
+<li>Mezcla el yogur, el zumo de limón, el ajo, el aceite y las especias. Cubre las pechugas con esta marinada y déjalas en la nevera <strong>2 horas como mínimo</strong> (lo ideal, toda la noche). Sácalas 20 minutos antes de cocinarlas.</li>
+<li>Precalienta la freidora a 180 °C durante 3 minutos, retira el exceso de marinada (sin quitarla del todo) y cocina a <strong>180 °C durante 18-22 minutos</strong>, dándoles la vuelta a mitad de cocción.</li>
+<li>Comprueba que llegan a <strong>74 °C</strong> por dentro y déjalas reposar <strong>5 minutos</strong> tapadas con papel de aluminio antes de cortarlas.</li>
 </ol>
 <h3>Trucos del chef</h3>
-<p>La marinada de yogur ablanda la carne con ácido láctico — un secreto de la cocina india.</p>
+<p>La marinada de yogur es un secreto de la cocina india: el ácido láctico ablanda la carne con suavidad, sin «cocinarla» como haría un ácido puro, por ejemplo el limón solo. El reposo después de la cocción es fundamental para que los jugos se repartan por la carne; si la cortas demasiado pronto, se escapan y el pollo queda seco.</p>
 
-<h2>5. Nuggets de Pollo Caseros</h2>
+<h2>5. Nuggets de pollo caseros</h2>
 <h3>Ingredientes</h3>
 <ul>
-<li>400 g de pechuga en cubos de 3 cm, 100 g de corn flakes triturados, 2 huevos, 50 g de harina, pimentón, ajo en polvo</li>
+<li>400 g de pechuga de pollo en dados de 3 cm</li>
+<li>100 g de copos de maíz (corn flakes) triturados, sin pasarse, 2 huevos batidos y 50 g de harina</li>
+<li>1 cucharadita de pimentón dulce, ½ cucharadita de ajo en polvo, ½ cucharadita de cebolla en polvo, sal, pimienta y aceite en spray</li>
 </ul>
 <h3>Preparación</h3>
 <ol>
-<li>Tritura los corn flakes. Empana: harina, huevo, corn flakes.</li>
-<li>Cocina a <strong>190 °C durante 10-12 minutos</strong>. Temperatura interna <strong>74 °C</strong>.</li>
+<li>Tritura los corn flakes dentro de una bolsa de congelación con un rodillo, dejando trozos irregulares para que tengan textura.</li>
+<li>Prepara tres platos (harina sazonada con el pimentón, el ajo, la cebolla, la sal y la pimienta; huevos batidos; corn flakes triturados) y empana cada dado: harina, huevo y corn flakes, presionando bien.</li>
+<li>Precalienta la freidora a 190 °C durante 3 minutos, coloca los nuggets sin amontonarlos y rocíalos con aceite. Cocina a <strong>190 °C durante 10-12 minutos</strong>, dándoles la vuelta a mitad de cocción.</li>
+<li>Comprueba que por dentro llegan a <strong>74 °C</strong>.</li>
 </ol>
 <h3>Trucos del chef</h3>
-<p>Los corn flakes dan un crujiente superior. Congela los nuggets crudos y cocínalos directamente (+3-4 min). Para una comida <a href="/es/blog/cuisiner-healthy-airfryer">más saludable</a>, acompaña con verduras crudas.</p>
+<p>Los corn flakes crujen más que el pan rallado y dan un dorado natural muy bonito. Para los niños, estos nuggets caseros son mucho más sanos que los industriales. Haz una buena cantidad y congela los nuggets empanados en crudo: se cocinan directamente congelados, añadiendo <strong>3-4 minutos</strong> al tiempo de cocción. Para una comida <a href="/es/blog/cuisiner-healthy-airfryer">sana y equilibrada</a>, acompáñalos con bastones de verduras crudas y una salsa de yogur.</p>
 
-<h2>6. Brochetas Satay de Pollo</h2>
+<h2>6. Brochetas de pollo satay</h2>
 <h3>Ingredientes</h3>
 <ul>
-<li>500 g de pechuga en tiras, brochetas de madera (remojadas 30 min)</li>
-<li><strong>Marinada:</strong> leche de coco, salsa de soja, mantequilla de cacahuete, lima, curry, cúrcuma, ajo, jengibre</li>
-<li><strong>Salsa de cacahuete:</strong> 80 g de mantequilla de cacahuete, leche de coco, soja, lima, sriracha, miel</li>
+<li>500 g de pechuga de pollo cortada en tiras de 2 cm</li>
+<li>Brochetas de madera (en remojo en agua 30 minutos)</li>
 </ul>
+<p><strong>Marinada:</strong> 3 cucharadas de leche de coco (45 ml), 2 cucharadas de salsa de soja (30 ml), 1 cucharada de crema de cacahuete, 1 cucharada de zumo de lima, 1 cucharadita de curry en polvo, 1 cucharadita de cúrcuma, 1 diente de ajo rallado, 1 cm de jengibre fresco rallado y 1 cucharadita de azúcar de palma o azúcar moreno</p>
+<p><strong>Salsa de cacahuete:</strong> 80 g de crema de cacahuete, 60 ml de leche de coco, 1 cucharada de salsa de soja, 1 cucharada de zumo de lima, 1 cucharadita de sriracha y 1 cucharadita de miel</p>
 <h3>Preparación</h3>
 <ol>
-<li>Marina <strong>2 horas mínimo</strong>. Ensarta en brochetas.</li>
-<li>Cocina a <strong>190 °C durante 10-12 minutos</strong>, girando a mitad.</li>
-<li>Sirve con salsa de cacahuete tibia.</li>
+<li>Mezcla los ingredientes de la marinada en un bol, añade las tiras de pollo y déjalas marinar en la nevera <strong>2 horas como mínimo</strong> (toda la noche, si quieres el máximo sabor).</li>
+<li>Ensarta las tiras en las brochetas, que habrás dejado en remojo.</li>
+<li>Prepara la salsa de cacahuete: calienta todos los ingredientes en un cazo pequeño a fuego suave durante <strong>3 minutos</strong>, sin dejar de remover.</li>
+<li>Precalienta la freidora a 190 °C durante 3 minutos y coloca las brochetas en la cesta (córtalas si no caben). Cocina a <strong>190 °C durante 10-12 minutos</strong>, dándoles la vuelta a mitad de cocción.</li>
+<li>Sírvelas enseguida con la salsa de cacahuete templada y unos gajos de lima.</li>
 </ol>
 <h3>Trucos del chef</h3>
-<p>Remoja siempre las brochetas de madera para evitar que se quemen.</p>
+<p>Deja siempre las brochetas de madera en remojo al menos 30 minutos antes de usarlas para que no se quemen. La crema de cacahuete de la marinada crea una fina capa protectora que deja el pollo tiernísimo. Es una receta perfecta para un aperitivo con amigos o una cena informal.</p>
 
-<h2>Tabla resumen</h2>
+<h2>Tabla resumen de tiempos y temperaturas</h2>
 <table>
 <thead>
-<tr><th>Receta</th><th>Temperatura</th><th>Tiempo</th><th>Cantidad</th><th>Temp. interna</th></tr>
+<tr><th>Receta</th><th>Temperatura</th><th>Tiempo total</th><th>Cantidad</th><th>Temp. interior</th></tr>
 </thead>
 <tbody>
-<tr><td>Alitas Buffalo</td><td>180 °C luego 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
-<tr><td>Tenders empanados</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Muslos especiados</td><td>180 °C luego 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Alitas Buffalo</td><td>180 °C y luego 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
+<tr><td>Tiras empanadas</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Contramuslos especiados</td><td>180 °C y luego 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
 <tr><td>Pechugas marinadas</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Nuggets caseros</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Brochetas satay</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
 </tbody>
 </table>
 
-<h2>Consejos generales</h2>
+<h2>Consejos generales para el pollo en freidora de aire</h2>
 <ul>
-<li><strong>Temperatura interna obligatoria</strong> — el pollo debe alcanzar <strong>74 °C</strong>.</li>
-<li><strong>Seca siempre la superficie</strong> para máximo dorado.</li>
-<li><strong>No sobrecargues la cesta.</strong></li>
-<li><strong>Deja reposar 5 minutos</strong> antes de cortar.</li>
+<li><strong>La temperatura interior no se negocia</strong>: hazte con un termómetro de lectura instantánea. El pollo tiene que llegar a <strong>74 °C en el centro</strong> para comerlo con total seguridad.</li>
+<li><strong>Seca siempre la superficie</strong>: piel seca = más dorado y más crujiente.</li>
+<li><strong>No llenes demasiado la cesta</strong>: el aire tiene que circular. Si hace falta, hazlo en dos tandas.</li>
+<li><strong>Déjalo reposar</strong>: 5 minutos después de cocinarlo, para que los jugos se repartan.</li>
+<li><strong>Marínalo bien</strong>: un mínimo de 2 horas marca la diferencia, y las marinadas de yogur son especialmente buenas para ablandar la carne.</li>
 </ul>
-<p>Acompaña con <a href="/es/blog/recettes-frites-parfaites-airfryer">patatas fritas perfectas</a> o <a href="/es/blog/recettes-legumes-grilles-airfryer">verduras a la parrilla</a>.</p>
+<p>Para una comida completa, acompaña estas recetas con unas <a href="/es/blog/recettes-frites-parfaites-airfryer">patatas fritas perfectas en freidora de aire</a> o con unas <a href="/es/blog/recettes-legumes-grilles-airfryer">verduras asadas</a>.</p>
 
-<h2>5 marinadas express que lo cambian todo</h2>
+<h2>5 marinadas exprés que lo cambian todo</h2>
 <ul>
-<li><strong>Marinada limón-hierbas (30 min):</strong> zumo de 2 limones + orégano + ajo + aceite de oliva. Para pechugas.</li>
-<li><strong>Marinada soja-sésamo (2h):</strong> salsa de soja + miel + jengibre rallado + aceite de sésamo. Para alitas y tenders.</li>
-<li><strong>Marinada yogur-especias (4h):</strong> yogur griego + comino + pimentón + cúrcuma + ajo. Para muslos y contramuslos.</li>
-<li><strong>Marinada BBQ ahumada (2h):</strong> salsa BBQ + chipotle + miel + zumo de limón. Para todas las piezas.</li>
-<li><strong>Marinada harissa-limón (1h):</strong> harissa + zumo de limón + aceite de oliva + cilantro. Para brochetas.</li>
+<li><strong>Marinada de limón y hierbas (30 min):</strong> zumo de 2 limones + orégano + ajo + aceite de oliva. Para pechugas.</li>
+<li><strong>Marinada de soja y sésamo (2 h):</strong> salsa de soja + miel + jengibre rallado + aceite de sésamo. Para alitas y tiras de pollo.</li>
+<li><strong>Marinada de yogur y especias (4 h):</strong> yogur griego + comino + pimentón + cúrcuma + ajo. Para contramuslos y jamoncitos.</li>
+<li><strong>Marinada barbacoa ahumada (2 h):</strong> salsa barbacoa + chipotle + miel + zumo de limón. Para cualquier pieza.</li>
+<li><strong>Marinada de harissa y limón (1 h):</strong> harissa + zumo de limón + aceite de oliva + cilantro. Para brochetas.</li>
 </ul>`,
 
     it: `<h2>Introduzione</h2>
-<p>Il pollo nella friggitrice ad aria è probabilmente una delle preparazioni più soddisfacenti che possiate realizzare. La circolazione di aria calda crea una <strong>pelle croccante e dorata</strong> mantenendo la carne succosa all'interno, il tutto con una quantità minima di olio. Queste 6 ricette coprono tutti i tagli di pollo e tutte le occasioni.</p>
-<p>Il segreto del pollo perfetto: una marinatura che ammorbidisce e insaporisce, <strong>asciugatura della superficie</strong> per massimizzare la croccantezza e rispetto della temperatura interna di sicurezza (<strong>74 °C al cuore</strong>).</p>
+<p>Il pollo è probabilmente uno dei piatti che danno più soddisfazione nella friggitrice ad aria. L'aria calda che circola crea una <strong>pelle croccante e dorata</strong> e lascia la carne succosa all'interno, con pochissimo olio. Che tu prepari un pasto veloce in settimana o una cena con gli amici, queste 6 ricette coprono tutti i tagli del pollo e tutte le occasioni.</p>
+<p>Il pollo perfetto nella friggitrice ad aria dipende da tre cose: una marinatura che ammorbidisce e insaporisce la carne, una buona <strong>asciugatura della superficie</strong> per renderla più croccante e il rispetto rigoroso della temperatura di sicurezza alimentare (<strong>74 °C al cuore</strong>). Per andare sul sicuro ogni volta, ti consigliamo un termometro da cucina.</p>
 
-<h2>1. Ali di Pollo Buffalo</h2>
+<h2>1. Ali di pollo alla Buffalo</h2>
 <h3>Ingredienti</h3>
 <ul>
-<li>1 kg di ali di pollo, 2 cucchiai di olio d'oliva, sale, aglio in polvere, pepe, 1 cucchiaino di lievito in polvere</li>
-<li><strong>Salsa Buffalo:</strong> 60 ml di salsa piccante, 30 g di burro fuso, 1 cucchiaio di miele, 1 cucchiaino di aceto</li>
+<li>1 kg di ali di pollo (circa 12), divise in due all'articolazione</li>
+<li>2 cucchiai di olio d'oliva (30 ml)</li>
+<li>1 cucchiaino di sale, 1 cucchiaino di aglio in polvere, ½ cucchiaino di pepe nero</li>
+<li>1 cucchiaino di lievito chimico in polvere non vanigliato (per la croccantezza)</li>
+</ul>
+<p><strong>Per la salsa Buffalo:</strong></p>
+<ul>
+<li>60 ml di salsa piccante tipo Frank's Red Hot</li>
+<li>30 g di burro fuso</li>
+<li>1 cucchiaio di miele (15 ml), 1 cucchiaino di aceto bianco</li>
 </ul>
 <h3>Preparazione</h3>
 <ol>
-<li>Asciugate le ali. Mescolate con olio, spezie e lievito.</li>
-<li>Cuocete a <strong>180 °C per 12 minuti</strong>, girate, poi <strong>200 °C per 8-10 minuti</strong>.</li>
-<li>Preparate la salsa e condite le ali.</li>
+<li>Asciuga bene le ali con la carta da cucina: è <strong>il passaggio più importante</strong> per un risultato croccante.</li>
+<li>In una ciotola capiente, mescola le ali con olio, sale, aglio in polvere, pepe e lievito. Il lievito alza il pH della pelle e accelera la doratura.</li>
+<li>Preriscalda la friggitrice ad aria a <strong>180 °C per 3 minuti</strong>.</li>
+<li>Disponi le ali in un solo strato, senza sovrapporle.</li>
+<li>Cuoci a <strong>180 °C per 12 minuti</strong>.</li>
+<li>Gira le ali e alza a <strong>200 °C per altri 8-10 minuti</strong>, finché la pelle è dorata e croccante.</li>
+<li>Nel frattempo prepara la salsa: scalda salsa piccante, burro fuso, miele e aceto in un pentolino a fuoco basso per 2 minuti, mescolando.</li>
+<li>Trasferisci le ali cotte in una ciotola, versa la salsa e mescola bene per condirle in modo uniforme.</li>
 </ol>
-<h3>Consigli dello chef</h3>
-<p>Il lievito in polvere alza il pH della pelle accelerando la doratura.</p>
+<h3>I consigli dello chef</h3>
+<p>Il lievito chimico è il segreto per ali croccantissime senza frittura. Usa <strong>solo lievito chimico</strong>, mai bicarbonato puro, che lascerebbe un sapore metallico. Servile con bastoncini di sedano e una salsa al formaggio erborinato.</p>
 
-<h2>2. Tenders di Pollo Impanati</h2>
+<h2>2. Straccetti di pollo impanati</h2>
 <h3>Ingredienti</h3>
 <ul>
-<li>500 g di petto in strisce da 2 cm, 80 g di panko, 40 g di parmigiano, 2 uova, 50 g di farina, paprika, origano</li>
+<li>500 g di petto di pollo tagliato a strisce larghe 2 cm</li>
+<li>80 g di pangrattato panko, 40 g di parmigiano grattugiato</li>
+<li>2 uova sbattute, 50 g di farina</li>
+<li>1 cucchiaino di paprika, 1 cucchiaino di origano secco, ½ cucchiaino di aglio in polvere, sale e pepe</li>
+<li>Olio spray</li>
 </ul>
 <h3>Preparazione</h3>
 <ol>
-<li>Impanate: farina, uovo, panko-parmigiano. Refrigerate <strong>15 minuti</strong>.</li>
-<li>Cuocete a <strong>200 °C per 10-12 minuti</strong>, girando a metà. Temperatura interna <strong>74 °C</strong>.</li>
+<li>Sala e pepa le strisce di pollo.</li>
+<li>Prepara tre piatti: farina con paprika e aglio in polvere; uova sbattute; panko mescolato con parmigiano e origano.</li>
+<li>Passa ogni striscia nella farina, poi nell'uovo e infine nel panko, premendo bene perché l'impanatura aderisca.</li>
+<li>Appoggia gli straccetti su una griglia e mettili in frigorifero per <strong>15 minuti</strong>: l'impanatura si rassoda e in cottura non si stacca.</li>
+<li>Preriscalda la friggitrice ad aria a <strong>200 °C per 3 minuti</strong>.</li>
+<li>Disponi gli straccetti in un solo strato e spruzzali leggermente d'olio.</li>
+<li>Cuoci a <strong>200 °C per 10-12 minuti</strong>, girandoli a metà cottura e spruzzando di nuovo un filo d'olio.</li>
+<li>Controlla che la temperatura al cuore arrivi a <strong>74 °C</strong>.</li>
 </ol>
-<h3>Consigli dello chef</h3>
-<p>Il panko dà una croccantezza incomparabile. Servite con <a href="/it/blog/recettes-frites-parfaites-airfryer">patatine fritte nella friggitrice ad aria</a>.</p>
+<h3>I consigli dello chef</h3>
+<p>Il panko giapponese dà una croccantezza che il pangrattato classico non raggiunge. Il passaggio in frigorifero prima della cottura è un dettaglio che molti saltano, ma fa tutta la differenza. Per un pasto completo, accompagnali con le <a href="/it/blog/recettes-frites-parfaites-airfryer">patatine fatte in casa nella friggitrice ad aria</a>.</p>
 
-<h2>3. Cosce di Pollo Speziate</h2>
+<h2>3. Sovracosce di pollo speziate</h2>
 <h3>Ingredienti</h3>
 <ul>
-<li>6 sovracosce con pelle (800 g), olio d'oliva, paprika affumicata, cumino, aglio, cipolla in polvere, cayenna, sale, zucchero di canna</li>
+<li>6 sovracosce di pollo con la pelle (circa 800 g)</li>
+<li>2 cucchiai di olio d'oliva, 1 cucchiaio di paprika affumicata, 1 cucchiaino di cumino in polvere</li>
+<li>1 cucchiaino di aglio in polvere, 1 cucchiaino di cipolla in polvere</li>
+<li>½ cucchiaino di pepe di Cayenna, 1 cucchiaino di sale, ½ cucchiaino di pepe nero, 1 cucchiaino di zucchero di canna (aiuta la doratura)</li>
 </ul>
 <h3>Preparazione</h3>
 <ol>
-<li>Preparate il mix di spezie. Asciugate le cosce, ungetele con olio e spezie. Marinate <strong>2-4 ore</strong>.</li>
-<li>Pelle in alto: <strong>180 °C per 15 minuti</strong>, girate, <strong>200 °C per 5-10 minuti</strong>.</li>
-<li>Temperatura interna <strong>74 °C</strong>. Riposate <strong>5 minuti</strong>.</li>
+<li>Mescola tutte le spezie in una ciotolina. Asciuga le sovracosce con la carta da cucina, spennellale d'olio e ricoprile bene con il mix di spezie.</li>
+<li>Se puoi, lasciale marinare in frigorifero per <strong>2-4 ore</strong> (almeno 30 minuti).</li>
+<li>Tirale fuori dal frigorifero <strong>20 minuti</strong> prima della cottura.</li>
+<li>Preriscalda la friggitrice a 180 °C per 3 minuti e sistema le sovracosce nel cestello con la pelle verso l'alto. Cuoci a <strong>180 °C per 15 minuti</strong>.</li>
+<li>Girale e cuoci a <strong>200 °C per altri 5-10 minuti</strong>, finendo con la pelle verso l'alto perché diventi croccante.</li>
+<li>Controlla che nel punto più spesso la temperatura arrivi a <strong>74 °C</strong>. Lasciale riposare <strong>5 minuti</strong> prima di servire.</li>
 </ol>
-<h3>Consigli dello chef</h3>
-<p>Le cosce sono più tolleranti alla cottura eccessiva grazie al loro grasso naturale.</p>
+<h3>I consigli dello chef</h3>
+<p>Le cosce perdonano più dei petti se cuociono qualche minuto di troppo: il loro grasso naturale le mantiene succose. Lo zucchero di canna nel mix di spezie favorisce la caramellizzazione della pelle senza bruciarla.</p>
 
-<h2>4. Petti di Pollo Marinati</h2>
+<h2>4. Petti di pollo interi marinati</h2>
 <h3>Ingredienti</h3>
 <ul>
-<li>2 petti spessi (200 g ciascuno), 60 ml di yogurt, limone, aglio, olio, curcuma, cumino, coriandolo macinato</li>
+<li>2 petti di pollo spessi (circa 200 g l'uno)</li>
+<li>60 ml di yogurt bianco naturale, 2 cucchiai di succo di limone, 2 spicchi d'aglio tritati finemente</li>
+<li>1 cucchiaio di olio d'oliva, 1 cucchiaino di curcuma, 1 cucchiaino di cumino, 1 cucchiaino di coriandolo in polvere, ½ cucchiaino di peperoncino in polvere, sale e pepe</li>
 </ul>
 <h3>Preparazione</h3>
 <ol>
-<li>Appiattite a <strong>2,5 cm</strong> di spessore uniforme. Marinate nello yogurt con spezie per <strong>2 ore minimo</strong>.</li>
-<li>Cuocete a <strong>180 °C per 18-22 minuti</strong>, girando a metà. Temperatura interna <strong>74 °C</strong>.</li>
-<li>Riposate <strong>5 minuti</strong> sotto alluminio.</li>
+<li>Se i petti sono molto spessi, appiattiscili leggermente con un batticarne o un mattarello fino a uno spessore uniforme di <strong>2,5 cm</strong>: così cuociono in modo omogeneo.</li>
+<li>Mescola yogurt, succo di limone, aglio, olio e spezie. Ricopri i petti con la marinatura e lasciali in frigorifero per <strong>almeno 2 ore</strong> (l'ideale è una notte intera).</li>
+<li>Toglili dal frigorifero 20 minuti prima, preriscalda la friggitrice a 180 °C per 3 minuti, elimina la marinatura in eccesso (senza pulirli del tutto) e cuoci a <strong>180 °C per 18-22 minuti</strong>, girandoli a metà cottura.</li>
+<li>La temperatura al cuore deve arrivare a <strong>74 °C</strong>. Lasciali riposare <strong>5 minuti</strong> coperti con un foglio di alluminio prima di tagliarli.</li>
 </ol>
-<h3>Consigli dello chef</h3>
-<p>La marinatura allo yogurt ammorbidisce la carne con acido lattico — un segreto della cucina indiana.</p>
+<h3>I consigli dello chef</h3>
+<p>La marinatura allo yogurt è un segreto della cucina indiana: l'acido lattico ammorbidisce la carne con delicatezza, senza «cuocerla» come farebbe un acido puro (il solo limone). Il riposo dopo la cottura è fondamentale perché i succhi si ridistribuiscano nella carne: se tagli troppo presto, escono e il pollo resta asciutto.</p>
 
-<h2>5. Nuggets di Pollo Fatti in Casa</h2>
+<h2>5. Nuggets di pollo fatti in casa</h2>
 <h3>Ingredienti</h3>
 <ul>
-<li>400 g di petto in cubi da 3 cm, 100 g di corn flakes schiacciati, 2 uova, 50 g di farina, paprika, aglio</li>
+<li>400 g di petto di pollo tagliato a cubetti di 3 cm</li>
+<li>100 g di corn flakes sbriciolati (non troppo fini), 2 uova sbattute, 50 g di farina</li>
+<li>1 cucchiaino di paprika dolce, ½ cucchiaino di aglio in polvere, ½ cucchiaino di cipolla in polvere, sale, pepe e olio spray</li>
 </ul>
 <h3>Preparazione</h3>
 <ol>
-<li>Schiacciate i corn flakes. Impanate: farina, uovo, corn flakes.</li>
-<li>Cuocete a <strong>190 °C per 10-12 minuti</strong>. Temperatura interna <strong>74 °C</strong>.</li>
+<li>Metti i corn flakes in un sacchetto per alimenti e schiacciali con il mattarello: lascia dei pezzi irregolari, che danno più consistenza.</li>
+<li>Prepara tre piatti (farina condita con paprika, aglio, cipolla, sale e pepe; uova sbattute; corn flakes) e impana ogni cubetto premendo bene.</li>
+<li>Preriscalda la friggitrice a 190 °C per 3 minuti, disponi i nuggets senza sovrapporli, spruzzali d'olio e cuoci a <strong>190 °C per 10-12 minuti</strong>, girandoli a metà cottura.</li>
+<li>Controlla che la temperatura al cuore arrivi a <strong>74 °C</strong>.</li>
 </ol>
-<h3>Consigli dello chef</h3>
-<p>Congelate i nuggets crudi impanati — cuoceteli direttamente surgelati (+3-4 min). Per un pasto <a href="/it/blog/cuisiner-healthy-airfryer">più sano</a>, accompagnate con verdure crude.</p>
+<h3>I consigli dello chef</h3>
+<p>I corn flakes rendono la crosta più croccante del pangrattato e le danno un bel colore dorato naturale. Per i bambini, questi nuggets fatti in casa sono molto più sani di quelli industriali. Preparane una buona scorta e congelali crudi, già impanati: si cuociono direttamente da congelati, aggiungendo <strong>3-4 minuti</strong> al tempo di cottura. Per un pasto <a href="/it/blog/cuisiner-healthy-airfryer">sano ed equilibrato</a>, accompagnali con verdure crude e una salsa allo yogurt.</p>
 
-<h2>6. Spiedini Satay di Pollo</h2>
+<h2>6. Spiedini di pollo satay</h2>
 <h3>Ingredienti</h3>
 <ul>
-<li>500 g di petto in strisce, spiedini di legno (in ammollo 30 min)</li>
-<li><strong>Marinatura:</strong> latte di cocco, salsa di soia, burro di arachidi, lime, curry, curcuma, aglio, zenzero</li>
-<li><strong>Salsa di arachidi:</strong> 80 g burro di arachidi, latte di cocco, soia, lime, sriracha, miele</li>
+<li>500 g di petto di pollo tagliato a strisce di 2 cm</li>
+<li>Spiedini di legno (lasciati in ammollo in acqua per 30 minuti)</li>
 </ul>
+<p><strong>Per la marinatura:</strong> 3 cucchiai di latte di cocco (45 ml), 2 cucchiai di salsa di soia (30 ml), 1 cucchiaio di burro di arachidi cremoso, 1 cucchiaio di succo di lime, 1 cucchiaino di curry in polvere, 1 cucchiaino di curcuma, 1 spicchio d'aglio grattugiato, 1 cm di zenzero fresco grattugiato, 1 cucchiaino di zucchero di palma o di canna</p>
+<p><strong>Per la salsa di arachidi:</strong> 80 g di burro di arachidi cremoso, 60 ml di latte di cocco, 1 cucchiaio di salsa di soia, 1 cucchiaio di succo di lime, 1 cucchiaino di sriracha, 1 cucchiaino di miele</p>
 <h3>Preparazione</h3>
 <ol>
-<li>Marinate <strong>2 ore minimo</strong>. Infilzate sugli spiedini.</li>
-<li>Cuocete a <strong>190 °C per 10-12 minuti</strong>, girando a metà.</li>
+<li>Mescola gli ingredienti della marinatura in una ciotola, aggiungi le strisce di pollo e lasciale marinare in frigorifero per <strong>almeno 2 ore</strong> (meglio una notte intera).</li>
+<li>Infila le strisce sugli spiedini che hai messo in ammollo.</li>
+<li>Prepara la salsa di arachidi: scalda tutti gli ingredienti in un pentolino a fuoco basso per <strong>3 minuti</strong>, mescolando.</li>
+<li>Preriscalda la friggitrice a 190 °C per 3 minuti, sistema gli spiedini nel cestello (accorciali se non ci stanno) e cuoci a <strong>190 °C per 10-12 minuti</strong>, girandoli a metà cottura.</li>
+<li>Servili subito con la salsa di arachidi tiepida e qualche spicchio di lime.</li>
 </ol>
-<h3>Consigli dello chef</h3>
-<p>Mettete sempre gli spiedini in ammollo per evitare che brucino.</p>
+<h3>I consigli dello chef</h3>
+<p>Metti sempre in ammollo gli spiedini di legno per almeno 30 minuti, così non bruciano. Il burro di arachidi nella marinatura forma un sottile strato protettivo che mantiene il pollo incredibilmente tenero. È una ricetta perfetta per un aperitivo o una cena tra amici.</p>
 
-<h2>Tabella riepilogativa</h2>
+<h2>Tabella riepilogativa di tempi e temperature</h2>
 <table>
 <thead>
-<tr><th>Ricetta</th><th>Temperatura</th><th>Tempo</th><th>Quantità</th><th>Temp. interna</th></tr>
+<tr><th>Ricetta</th><th>Temperatura</th><th>Tempo totale</th><th>Quantità</th><th>Temp. al cuore</th></tr>
 </thead>
 <tbody>
-<tr><td>Ali Buffalo</td><td>180 °C poi 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
-<tr><td>Tenders impanati</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Cosce speziate</td><td>180 °C poi 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Ali alla Buffalo</td><td>180 °C, poi 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
+<tr><td>Straccetti impanati</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Sovracosce speziate</td><td>180 °C, poi 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
 <tr><td>Petti marinati</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
-<tr><td>Nuggets</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Nuggets fatti in casa</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Spiedini satay</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
 </tbody>
 </table>
 
-<h2>Consigli generali</h2>
+<h2>Consigli generali per il pollo nella friggitrice ad aria</h2>
 <ul>
-<li><strong>Temperatura interna obbligatoria</strong> — il pollo deve raggiungere <strong>74 °C</strong>.</li>
-<li><strong>Asciugate sempre la superficie</strong> per massimizzare la doratura.</li>
-<li><strong>Non riempite troppo il cestello.</strong></li>
-<li><strong>Lasciate riposare 5 minuti</strong> dopo la cottura.</li>
+<li><strong>La temperatura al cuore non è un optional</strong>: procurati un termometro a lettura istantanea. Per essere sicuro da mangiare, il pollo deve arrivare a <strong>74 °C al cuore</strong>.</li>
+<li><strong>Asciuga sempre la superficie</strong>: pelle asciutta significa più doratura e più croccantezza.</li>
+<li><strong>Non riempire troppo il cestello</strong>: l'aria deve poter circolare. Se serve, cuoci in due volte.</li>
+<li><strong>Lascia riposare</strong>: 5 minuti dopo la cottura permettono ai succhi di ridistribuirsi.</li>
+<li><strong>Non saltare la marinatura</strong>: almeno 2 ore fanno tutta la differenza, e le marinature allo yogurt sono particolarmente efficaci per ammorbidire la carne.</li>
 </ul>
-<p>Accompagnate con <a href="/it/blog/recettes-frites-parfaites-airfryer">patatine fritte perfette</a> o <a href="/it/blog/recettes-legumes-grilles-airfryer">verdure grigliate</a>.</p>
+<p>Per un pasto completo, abbina queste ricette alle <a href="/it/blog/recettes-frites-parfaites-airfryer">patatine perfette nella friggitrice ad aria</a> o alle <a href="/it/blog/recettes-legumes-grilles-airfryer">verdure grigliate</a>.</p>
 
-<h2>5 marinature express che cambiano tutto</h2>
+<h2>5 marinature veloci che cambiano tutto</h2>
 <ul>
-<li><strong>Marinatura limone-erbe (30 min):</strong> succo di 2 limoni + origano + aglio + olio d'oliva. Per il petto di pollo.</li>
-<li><strong>Marinatura soia-sesamo (2h):</strong> salsa di soia + miele + zenzero grattugiato + olio di sesamo. Per ali e tenders.</li>
-<li><strong>Marinatura yogurt-spezie (4h):</strong> yogurt greco + cumino + paprika + curcuma + aglio. Per cosce e sovracosce.</li>
-<li><strong>Marinatura BBQ affumicata (2h):</strong> salsa BBQ + chipotle + miele + succo di limone. Per tutti i tagli.</li>
-<li><strong>Marinatura harissa-limone (1h):</strong> harissa + succo di limone + olio d'oliva + coriandolo. Per gli spiedini.</li>
+<li><strong>Limone ed erbe (30 minuti):</strong> succo di 2 limoni + origano + aglio + olio d'oliva. Per i petti di pollo.</li>
+<li><strong>Soia e sesamo (2 ore):</strong> salsa di soia + miele + zenzero grattugiato + olio di sesamo. Per ali e straccetti.</li>
+<li><strong>Yogurt e spezie (4 ore):</strong> yogurt greco + cumino + paprika + curcuma + aglio. Per cosce e fusi.</li>
+<li><strong>Barbecue affumicata (2 ore):</strong> salsa barbecue + chipotle + miele + succo di limone. Per tutti i tagli.</li>
+<li><strong>Harissa e limone (1 ora):</strong> harissa + succo di limone + olio d'oliva + coriandolo. Per gli spiedini.</li>
 </ul>`,
 
     nl: `<h2>Inleiding</h2>
-<p>Kip uit de airfryer is misschien wel een van de meest bevredigende gerechten die je kunt bereiden. De heteluchtcirculatie creëert een <strong>krokant, goudbruin vel</strong> terwijl het vlees van binnen sappig blijft — en dat met een minimum aan olie. Deze 6 recepten dekken alle kipdelen en alle gelegenheden.</p>
-<p>Het geheim van perfecte airfryer-kip: een marinade die malst en smaak geeft, <strong>droog oppervlak</strong> voor maximale kroktheid en strikte naleving van de veilige kerntemperatuur (<strong>74 °C</strong>).</p>
+<p>Kip uit de airfryer is misschien wel een van de lekkerste gerechten die je kunt maken. Door de circulerende hete lucht krijgt de kip een <strong>krokant, goudbruin vel</strong>, terwijl het vlees vanbinnen sappig blijft. En dat met heel weinig olie. Of je nu op een werkdag snel iets op tafel wilt zetten of gasten ontvangt: deze 6 recepten dekken alle delen van de kip en elke gelegenheid.</p>
+<p>Perfecte kip uit de airfryer draait om drie dingen: een marinade die het vlees mals maakt en smaak geeft, een <strong>droog oppervlak</strong> zodat de kip zo krokant mogelijk wordt, en een veilige kerntemperatuur die je strikt aanhoudt (<strong>74 °C in de kern</strong>). Met een keukenthermometer weet je elke keer zeker dat de kip precies goed gaar is.</p>
 
-<h2>1. Buffalo Chicken Wings</h2>
+<h2>1. Buffalo chicken wings</h2>
 <h3>Ingrediënten</h3>
 <ul>
-<li>1 kg kippenvleugels, 2 eetlepels olijfolie, zout, knoflookpoeder, peper, 1 theelepel bakpoeder</li>
-<li><strong>Buffalo-saus:</strong> 60 ml hete saus, 30 g gesmolten boter, 1 eetlepel honing, 1 theelepel witte azijn</li>
+<li>1 kg kippenvleugels (ongeveer 12 stuks), verdeeld in bovenstuk en middenstuk</li>
+<li>2 eetlepels olijfolie (30 ml)</li>
+<li>1 theelepel zout, 1 theelepel knoflookpoeder, ½ theelepel zwarte peper</li>
+<li>1 theelepel bakpoeder (voor een krokant vel)</li>
+</ul>
+<p><strong>Voor de buffalosaus:</strong></p>
+<ul>
+<li>60 ml hete saus, bijvoorbeeld Frank's Red Hot</li>
+<li>30 g gesmolten boter</li>
+<li>1 eetlepel honing (15 ml), 1 theelepel witte azijn</li>
 </ul>
 <h3>Bereiding</h3>
 <ol>
-<li>Dep de vleugels droog. Meng met olie, kruiden en bakpoeder.</li>
-<li>Bak op <strong>180 °C gedurende 12 minuten</strong>, draai om, dan <strong>200 °C gedurende 8-10 minuten</strong>.</li>
-<li>Bereid de Buffalo-saus en wentel de vleugels erdoorheen.</li>
+<li>Dep de vleugels goed droog met keukenpapier: dat is <strong>de belangrijkste stap</strong> voor een krokant resultaat.</li>
+<li>Meng de vleugels in een grote kom met de olijfolie, het zout, het knoflookpoeder, de peper en het bakpoeder. Het bakpoeder verhoogt de pH-waarde van het vel, waardoor het sneller bruin wordt.</li>
+<li>Verwarm de airfryer <strong>3 minuten voor op 180 °C</strong>.</li>
+<li>Leg de vleugels in één laag in de mand, niet op elkaar.</li>
+<li>Bak ze <strong>12 minuten op 180 °C</strong>.</li>
+<li>Draai ze om en bak ze nog <strong>8 tot 10 minuten op 200 °C</strong>, tot het vel goudbruin en krokant is.</li>
+<li>Maak intussen de buffalosaus: verwarm de hete saus, de gesmolten boter, de honing en de azijn 2 minuten in een pannetje op laag vuur.</li>
+<li>Doe de gare vleugels in een kom, schenk de saus erover en schep alles om tot de vleugels helemaal bedekt zijn.</li>
 </ol>
 <h3>Tips van de chef</h3>
-<p>Bakpoeder verhoogt de pH van de huid en versnelt het bruinen.</p>
+<p>Bakpoeder is het geheim van superkrokante vleugels zonder frituurpan. Gebruik <strong>alleen bakpoeder</strong> en nooit zuiveringszout: dat geeft een metaalachtige smaak. Lekker met stengels bleekselderij en een dipsaus van blauwe kaas.</p>
 
-<h2>2. Gepaneerde Kiptenders</h2>
+<h2>2. Gepaneerde kipreepjes (tenders)</h2>
 <h3>Ingrediënten</h3>
 <ul>
-<li>500 g kipfilet (2 cm repen), 80 g panko, 40 g Parmezaan, 2 eieren, 50 g bloem, paprika, oregano</li>
+<li>500 g kipfilet, in repen van 2 cm breed</li>
+<li>80 g pankopaneermeel, 40 g geraspte Parmezaanse kaas</li>
+<li>2 losgeklopte eieren, 50 g bloem</li>
+<li>1 theelepel paprikapoeder, 1 theelepel gedroogde oregano, ½ theelepel knoflookpoeder</li>
+<li>Oliespray, zout en peper</li>
 </ul>
 <h3>Bereiding</h3>
 <ol>
-<li>Paneer: bloem, ei, panko-Parmezaan. Koel <strong>15 minuten</strong>.</li>
-<li>Bak op <strong>200 °C gedurende 10-12 minuten</strong>, halverwege omdraaien. Kerntemperatuur <strong>74 °C</strong>.</li>
+<li>Bestrooi de kipreepjes met zout en peper.</li>
+<li>Zet drie borden klaar: bloem gemengd met het paprika- en knoflookpoeder; losgeklopte eieren; een mengsel van panko, Parmezaanse kaas en oregano.</li>
+<li>Haal elke reep eerst door de bloem, dan door het ei en daarna door de panko. Druk de paneerlaag stevig aan.</li>
+<li>Leg de repen op een rooster en zet ze <strong>15 minuten</strong> in de koelkast. Zo wordt de paneerlaag stevig en laat hij tijdens het bakken niet los.</li>
+<li>Verwarm de airfryer <strong>3 minuten voor op 200 °C</strong>.</li>
+<li>Leg de repen in één laag in de mand en spray ze licht in met olie.</li>
+<li>Bak ze <strong>10 tot 12 minuten op 200 °C</strong>. Draai ze halverwege om en spray ze nog een keer in.</li>
+<li>Controleer of de kerntemperatuur <strong>74 °C</strong> is.</li>
 </ol>
 <h3>Tips van de chef</h3>
-<p>Panko geeft een ongeëvenaarde kroktheid. Serveer met <a href="/nl/blog/recettes-frites-parfaites-airfryer">zelfgemaakte airfryer-frietjes</a>.</p>
+<p>Japanse panko geeft een veel krokantere korst dan gewoon paneermeel. Het koelen voor het bakken slaan veel mensen over, maar juist dat maakt het verschil. Voor een complete maaltijd serveer je er <a href="/nl/blog/recettes-frites-parfaites-airfryer">zelfgemaakte friet uit de airfryer</a> bij.</p>
 
-<h2>3. Gekruide Kippendijen</h2>
+<h2>3. Pittig gekruide kippendijen</h2>
 <h3>Ingrediënten</h3>
 <ul>
-<li>6 bovenbouten met vel (800 g), olijfolie, gerookt paprikapoeder, komijn, knoflook, uienpoeder, cayenne, zout, bruine suiker</li>
+<li>6 kippendijen met bot en vel (bovenbouten, samen ongeveer 800 g)</li>
+<li>2 eetlepels olijfolie, 1 eetlepel gerookt paprikapoeder, 1 theelepel gemalen komijn</li>
+<li>1 theelepel knoflookpoeder, 1 theelepel uienpoeder</li>
+<li>½ theelepel cayennepeper, 1 theelepel zout, ½ theelepel zwarte peper, 1 theelepel bruine suiker (helpt bij het bruinen)</li>
 </ul>
 <h3>Bereiding</h3>
 <ol>
-<li>Meng alle kruiden. Dep de dijen droog, wrijf in met olie en kruiden. Marineer <strong>2-4 uur</strong>.</li>
-<li>Vel naar boven: <strong>180 °C 15 minuten</strong>, draai om, <strong>200 °C 5-10 minuten</strong>.</li>
-<li>Kerntemperatuur <strong>74 °C</strong>. Laat <strong>5 minuten</strong> rusten.</li>
+<li>Meng alle kruiden in een kommetje. Dep de dijen droog, bestrijk ze met olie en wrijf ze royaal in met het kruidenmengsel.</li>
+<li>Laat ze bij voorkeur <strong>2 tot 4 uur</strong> in de koelkast marineren (minimaal 30 minuten).</li>
+<li>Haal ze <strong>20 minuten</strong> voor het bakken uit de koelkast.</li>
+<li>Verwarm de airfryer 3 minuten voor op 180 °C. Leg de dijen met het vel naar boven in de mand en bak ze <strong>15 minuten op 180 °C</strong>.</li>
+<li>Draai de dijen om en leg ze daarna weer met het vel naar boven. Bak ze nog <strong>5 tot 10 minuten op 200 °C</strong>, tot het vel krokant is.</li>
+<li>Controleer of de kerntemperatuur op het dikste punt <strong>74 °C</strong> is. Laat de kip <strong>5 minuten</strong> rusten voordat je serveert.</li>
 </ol>
 <h3>Tips van de chef</h3>
-<p>Dijen zijn vergevingsgezinder dan borst — het natuurlijke vet houdt ze sappig.</p>
+<p>Dijen zijn vergevingsgezinder dan kipfilet: door hun natuurlijke vet blijven ze sappig, ook als ze iets te lang garen. De bruine suiker in het kruidenmengsel laat het vel karamelliseren zonder dat het verbrandt.</p>
 
-<h2>4. Gemarineerde Kipborst</h2>
+<h2>4. Hele gemarineerde kipfilets</h2>
 <h3>Ingrediënten</h3>
 <ul>
-<li>2 dikke kipborsten (elk 200 g), 60 ml yoghurt, citroen, knoflook, olie, kurkuma, komijn, koriander</li>
+<li>2 dikke kipfilets (ongeveer 200 g per stuk)</li>
+<li>60 ml yoghurt naturel, 2 eetlepels citroensap, 2 tenen knoflook (fijngehakt)</li>
+<li>1 eetlepel olijfolie, 1 theelepel kurkuma, 1 theelepel komijn, 1 theelepel gemalen koriander, ½ theelepel chilipoeder, zout en peper</li>
 </ul>
 <h3>Bereiding</h3>
 <ol>
-<li>Plat tot <strong>2,5 cm</strong> gelijkmatige dikte. Marineer in yoghurt met kruiden <strong>minimaal 2 uur</strong>.</li>
-<li>Bak op <strong>180 °C gedurende 18-22 minuten</strong>, halverwege omdraaien. Kerntemperatuur <strong>74 °C</strong>.</li>
-<li>Laat <strong>5 minuten</strong> rusten onder folie.</li>
+<li>Zijn de filets erg dik, sla ze dan met een vleeshamer of deegroller iets plat tot ze overal <strong>2,5 cm dik</strong> zijn. Zo garen ze gelijkmatig.</li>
+<li>Meng de yoghurt, het citroensap, de knoflook, de olie en alle kruiden. Bedek de filets met deze marinade en laat ze <strong>minimaal 2 uur</strong> in de koelkast marineren (een nacht is ideaal).</li>
+<li>Haal de filets 20 minuten van tevoren uit de koelkast en verwarm de airfryer 3 minuten voor op 180 °C. Laat de overtollige marinade eraf lopen, maar veeg de filets niet helemaal schoon. Bak ze <strong>18 tot 22 minuten op 180 °C</strong> en draai ze halverwege om.</li>
+<li>De kerntemperatuur moet <strong>74 °C</strong> zijn. Laat de filets <strong>5 minuten</strong> onder aluminiumfolie rusten voordat je ze aansnijdt.</li>
 </ol>
 <h3>Tips van de chef</h3>
-<p>Yoghurt-marinade maakt het vlees mals door melkzuur — een geheim uit de Indiase keuken.</p>
+<p>Marineren in yoghurt is een geheim uit de Indiase keuken: het melkzuur maakt het vlees zachtjes mals, zonder het te ‘garen’ zoals puur citroensap doet. De rusttijd na het bakken is essentieel, want dan verdeelt het vocht zich weer door het vlees. Snijd je de kip te vroeg aan, dan loopt het vocht eruit en wordt hij droog.</p>
 
-<h2>5. Zelfgemaakte Kipnuggets</h2>
+<h2>5. Zelfgemaakte kipnuggets</h2>
 <h3>Ingrediënten</h3>
 <ul>
-<li>400 g kipfilet (3 cm blokjes), 100 g geplete cornflakes, 2 eieren, 50 g bloem, paprika, knoflookpoeder</li>
+<li>400 g kipfilet, in blokjes van 3 cm</li>
+<li>100 g grof geplette cornflakes, 2 losgeklopte eieren, 50 g bloem</li>
+<li>1 theelepel zoet paprikapoeder, ½ theelepel knoflookpoeder, ½ theelepel uienpoeder, zout, peper en oliespray</li>
 </ul>
 <h3>Bereiding</h3>
 <ol>
-<li>Plet de cornflakes. Paneer: bloem, ei, cornflakes.</li>
-<li>Bak op <strong>190 °C gedurende 10-12 minuten</strong>. Kerntemperatuur <strong>74 °C</strong>.</li>
+<li>Plet de cornflakes in een diepvrieszakje met een deegroller. Laat onregelmatige stukjes over, dat geeft structuur.</li>
+<li>Paneer elk blokje: eerst door de gekruide bloem (paprika, knoflook, ui, zout en peper), dan door het ei en daarna door de cornflakes. Druk alles goed aan.</li>
+<li>Verwarm de airfryer 3 minuten voor op 190 °C. Leg de nuggets naast elkaar in de mand, spray ze in met olie en bak ze <strong>10 tot 12 minuten op 190 °C</strong>. Draai ze halverwege om.</li>
+<li>Controleer of de kerntemperatuur <strong>74 °C</strong> is.</li>
 </ol>
 <h3>Tips van de chef</h3>
-<p>Vries rauwe gepaneerde nuggets in — bak ze direct vanuit de vriezer (+3-4 min). Voor een <a href="/nl/blog/cuisiner-healthy-airfryer">gezondere maaltijd</a>, serveer met rauwe groenten.</p>
+<p>Cornflakes worden krokanter dan paneermeel en geven vanzelf een mooie goudbruine kleur. Voor kinderen zijn deze zelfgemaakte nuggets een stuk gezonder dan kant-en-klare nuggets uit de winkel. Maak een grote portie en vries de rauwe, gepaneerde nuggets in. Je bakt ze zo uit de vriezer: reken dan <strong>3 tot 4 minuten</strong> extra. Voor een <a href="/nl/blog/cuisiner-healthy-airfryer">gezonde, evenwichtige maaltijd</a> serveer je er rauwkost en een yoghurtdip bij.</p>
 
-<h2>6. Kip Satay Spiesen</h2>
+<h2>6. Kipsaté met pindasaus</h2>
 <h3>Ingrediënten</h3>
 <ul>
-<li>500 g kipfilet (2 cm repen), houten spiesen (30 min geweekt)</li>
-<li><strong>Marinade:</strong> kokosmelk, sojasaus, pindakaas, limoen, kerrie, kurkuma, knoflook, gember</li>
-<li><strong>Pindasaus:</strong> 80 g pindakaas, kokosmelk, sojasaus, limoen, sriracha, honing</li>
+<li>500 g kipfilet, in repen van 2 cm</li>
+<li>Houten satéprikkers (30 minuten in water geweekt)</li>
 </ul>
+<p><strong>Voor de marinade:</strong> 3 eetlepels kokosmelk (45 ml), 2 eetlepels sojasaus (30 ml), 1 eetlepel romige pindakaas, 1 eetlepel limoensap, 1 theelepel kerriepoeder, 1 theelepel kurkuma, 1 teen knoflook (geraspt), 1 cm verse gember (geraspt), 1 theelepel palmsuiker of bruine suiker</p>
+<p><strong>Voor de pindasaus:</strong> 80 g romige pindakaas, 60 ml kokosmelk, 1 eetlepel sojasaus, 1 eetlepel limoensap, 1 theelepel sriracha, 1 theelepel honing</p>
 <h3>Bereiding</h3>
 <ol>
-<li>Marineer <strong>minimaal 2 uur</strong>. Rijg op spiesen.</li>
-<li>Bak op <strong>190 °C gedurende 10-12 minuten</strong>, halverwege omdraaien.</li>
+<li>Meng alle ingrediënten voor de marinade in een kom. Voeg de kipreepjes toe en laat ze <strong>minimaal 2 uur</strong> in de koelkast marineren (een hele nacht geeft de meeste smaak).</li>
+<li>Rijg de reepjes aan de geweekte satéprikkers.</li>
+<li>Maak de pindasaus: verwarm alle ingrediënten al roerend <strong>3 minuten</strong> in een pannetje op laag vuur.</li>
+<li>Verwarm de airfryer 3 minuten voor op 190 °C. Leg de spiesjes in de mand (kort ze zo nodig in, zodat ze passen) en bak ze <strong>10 tot 12 minuten op 190 °C</strong>. Draai ze halverwege om.</li>
+<li>Serveer direct, met de lauwwarme pindasaus en partjes limoen.</li>
 </ol>
 <h3>Tips van de chef</h3>
-<p>Week houten spiesen altijd om verbranding te voorkomen.</p>
+<p>Week houten prikkers altijd minstens 30 minuten in water, dan verbranden ze niet. De pindakaas in de marinade vormt een dun beschermlaagje dat de kip heerlijk mals houdt. Ideaal als borrelhapje met vrienden of voor een gezellig etentje.</p>
 
-<h2>Overzichtstabel</h2>
+<h2>Overzicht van tijden en temperaturen</h2>
 <table>
 <thead>
-<tr><th>Recept</th><th>Temperatuur</th><th>Tijd</th><th>Hoeveelheid</th><th>Kerntemp.</th></tr>
+<tr><th>Recept</th><th>Temperatuur</th><th>Totale tijd</th><th>Hoeveelheid</th><th>Kerntemp.</th></tr>
 </thead>
 <tbody>
-<tr><td>Buffalo wings</td><td>180 °C dan 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
-<tr><td>Gepaneerde tenders</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Gekruide dijen</td><td>180 °C dan 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
-<tr><td>Gemarineerde borst</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
-<tr><td>Nuggets</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
-<tr><td>Satay spiesen</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Buffalo wings</td><td>180 °C, dan 200 °C</td><td>20–22 min</td><td>1 kg</td><td>74 °C</td></tr>
+<tr><td>Gepaneerde kipreepjes</td><td>200 °C</td><td>10–12 min</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Gekruide kippendijen</td><td>180 °C, dan 200 °C</td><td>20–25 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Gemarineerde kipfilet</td><td>180 °C</td><td>18–22 min</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Zelfgemaakte nuggets</td><td>190 °C</td><td>10–12 min</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Kipsaté</td><td>190 °C</td><td>10–12 min</td><td>500 g</td><td>74 °C</td></tr>
 </tbody>
 </table>
 
-<h2>Algemene tips</h2>
+<h2>Algemene tips voor kip uit de airfryer</h2>
 <ul>
-<li><strong>Kerntemperatuur is verplicht</strong> — kip moet <strong>74 °C</strong> bereiken.</li>
-<li><strong>Altijd het oppervlak drogen</strong> voor maximale bruining.</li>
-<li><strong>Overlaad de mand niet.</strong></li>
-<li><strong>Laat 5 minuten rusten</strong> na het bakken.</li>
+<li><strong>De kerntemperatuur is niet onderhandelbaar</strong>: koop een thermometer die direct de temperatuur aangeeft. Kip moet in de kern <strong>74 °C</strong> halen om veilig te zijn.</li>
+<li><strong>Dep het oppervlak altijd droog</strong>: hoe droger het vel, hoe bruiner en krokanter het wordt.</li>
+<li><strong>Overlaad de mand niet</strong>: de hete lucht moet vrij kunnen circuleren. Bak zo nodig in twee porties.</li>
+<li><strong>Laat de kip rusten</strong>: 5 minuten na het bakken, zodat het vocht zich weer door het vlees verdeelt.</li>
+<li><strong>Marineer lang genoeg</strong>: minimaal 2 uur maakt een groot verschil. Yoghurtmarinades maken het vlees extra mals.</li>
 </ul>
-<p>Serveer met <a href="/nl/blog/recettes-frites-parfaites-airfryer">perfecte airfryer-frietjes</a> of <a href="/nl/blog/recettes-legumes-grilles-airfryer">gegrilde groenten</a>.</p>
+<p>Voor een complete maaltijd serveer je deze recepten met <a href="/nl/blog/recettes-frites-parfaites-airfryer">perfecte friet uit de airfryer</a> of <a href="/nl/blog/recettes-legumes-grilles-airfryer">gegrilde groenten</a>.</p>
 
-<h2>5 snelle marinades die alles veranderen</h2>
+<h2>5 snelle marinades die het verschil maken</h2>
 <ul>
 <li><strong>Citroen-kruidenmarinade (30 min):</strong> sap van 2 citroenen + oregano + knoflook + olijfolie. Voor kipfilet.</li>
-<li><strong>Soja-sesam marinade (2u):</strong> sojasaus + honing + geraspte gember + sesamolie. Voor vleugels en tenders.</li>
-<li><strong>Yoghurt-specerijen marinade (4u):</strong> Griekse yoghurt + komijn + paprika + kurkuma + knoflook. Voor dijen en drumsticks.</li>
-<li><strong>Rokerige BBQ-marinade (2u):</strong> BBQ-saus + chipotle + honing + citroensap. Voor alle stukken.</li>
-<li><strong>Harissa-citroen marinade (1u):</strong> harissa + citroensap + olijfolie + koriander. Voor spiesjes.</li>
+<li><strong>Soja-sesammarinade (2 uur):</strong> sojasaus + honing + geraspte gember + sesamolie. Voor vleugels en kipreepjes.</li>
+<li><strong>Yoghurt-specerijenmarinade (4 uur):</strong> Griekse yoghurt + komijn + paprikapoeder + kurkuma + knoflook. Voor dijen en drumsticks.</li>
+<li><strong>Rokerige BBQ-marinade (2 uur):</strong> BBQ-saus + chipotle + honing + citroensap. Voor alle delen van de kip.</li>
+<li><strong>Harissa-citroenmarinade (1 uur):</strong> harissa + citroensap + olijfolie + koriander. Voor spiesjes.</li>
 </ul>`,
     pl: `<h2>Wstęp</h2>
 <p>Kurczak z frytkownicy beztłuszczowej to chyba jedno z dań, które dają najwięcej satysfakcji. Dzięki krążeniu gorącego powietrza ma <strong>chrupiącą, złocistą skórkę</strong>, a w środku pozostaje soczysty – i to przy minimalnej ilości oleju. Niezależnie od tego, czy szykujesz szybki obiad w tygodniu, czy kolację dla gości, w tych 6 przepisach znajdziesz wszystkie części kurczaka i pomysły na każdą okazję.</p>
@@ -1639,10 +1796,10 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'À quelle température interne le poulet est-il cuit de manière sûre ?',
-        en: 'What internal temperature indicates chicken is safely cooked?',
+        en: 'What temperature does chicken need to reach to be safe to eat?',
         de: 'Bei welcher Kerntemperatur ist Hähnchen sicher durchgegart?',
-        es: '¿A qué temperatura interna está el pollo cocinado de forma segura?',
-        it: 'A quale temperatura interna il pollo è cotto in modo sicuro?',
+        es: '¿Qué temperatura tiene que alcanzar el pollo por dentro para comerlo sin riesgo?',
+        it: 'A che temperatura al cuore il pollo è cotto in modo sicuro?',
         nl: 'Bij welke kerntemperatuur is kip veilig gaar?',
         pl: 'Przy jakiej temperaturze w środku kurczak jest bezpieczny do jedzenia?',
         sv: 'Vilken innertemperatur ska kycklingen ha för att vara säker att äta?',
@@ -1651,11 +1808,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Le poulet doit atteindre une température interne de 74°C à coeur pour être consommé en toute sécurité. Utilisez un thermomètre de cuisine inséré dans la partie la plus épaisse, sans toucher l\'os. Après cuisson, laissez reposer 5 minutes car la température continue de monter de 2 à 3°C.',
-        en: 'Chicken must reach an internal temperature of 74°C (165°F) at the thickest part to be safely consumed. Use a kitchen thermometer inserted into the thickest section without touching bone. After cooking, let it rest for 5 minutes as the temperature continues to rise by 2 to 3 degrees.',
-        de: 'Hähnchen muss eine Kerntemperatur von 74°C an der dicksten Stelle erreichen. Verwenden Sie ein Küchenthermometer, das in die dickste Stelle eingeführt wird, ohne den Knochen zu berühren. Nach dem Garen 5 Minuten ruhen lassen, da die Temperatur noch um 2-3°C weiter steigt.',
-        es: 'El pollo debe alcanzar una temperatura interna de 74°C en la parte más gruesa. Usa un termómetro de cocina insertado en la zona más gruesa sin tocar el hueso. Después de la cocción, deja reposar 5 minutos ya que la temperatura sigue subiendo 2-3°C.',
-        it: 'Il pollo deve raggiungere una temperatura interna di 74°C nel punto più spesso per essere consumato in sicurezza. Usa un termometro da cucina inserito nella parte più spessa senza toccare l\'osso. Dopo la cottura, lascia riposare 5 minuti perché la temperatura sale ancora di 2-3°C.',
-        nl: 'Kip moet een kerntemperatuur van 74°C bereiken op het dikste punt om veilig te eten. Gebruik een keukenthermometer in het dikste gedeelte zonder het bot te raken. Laat na het bakken 5 minuten rusten, want de temperatuur stijgt nog 2-3°C door.',
+        en: 'Chicken must reach a core temperature of 74°C to be safe to eat. Insert a cooking thermometer into the thickest part, without touching the bone. Let it rest for 5 minutes after cooking, as the temperature keeps rising by another 2 to 3°C.',
+        de: 'Hähnchen muss an der dicksten Stelle eine Kerntemperatur von 74 °C erreichen, damit es sicher verzehrt werden kann. Stechen Sie ein Küchenthermometer in die dickste Stelle, ohne den Knochen zu berühren. Lassen Sie das Fleisch nach dem Garen 5 Minuten ruhen: Die Temperatur steigt dabei noch um 2 bis 3 °C.',
+        es: 'El pollo tiene que llegar a 74 °C en el centro para comerlo con total seguridad. Usa un termómetro de cocina y clávalo en la parte más gruesa, sin tocar el hueso. Al sacarlo, déjalo reposar 5 minutos: la temperatura todavía sube 2 o 3 °C.',
+        it: 'Per mangiarlo in sicurezza, il pollo deve arrivare a 74 °C al cuore. Infila il termometro da cucina nel punto più spesso, senza toccare l\'osso. Dopo la cottura lascialo riposare 5 minuti: la temperatura sale ancora di 2-3 °C.',
+        nl: 'Kip is pas veilig om te eten als de kern op het dikste punt 74 °C haalt. Steek een keukenthermometer in het dikste deel, zonder het bot te raken. Laat de kip na het bakken 5 minuten rusten: de temperatuur loopt dan nog 2 tot 3 °C op.',
         pl: 'Kurczak musi osiągnąć w środku 74 °C, żeby można go było bezpiecznie zjeść. Wbij termometr kuchenny w najgrubszą część mięsa, tak żeby nie dotykał kości. Po upieczeniu odstaw kurczaka na 5 minut – temperatura wzrośnie jeszcze o 2–3 °C.',
         sv: 'Kycklingen ska nå en innertemperatur på 74 °C i kärnan för att vara säker att äta. Använd en stektermometer och stick in den där köttet är som tjockast, utan att nudda benet. Låt sedan kycklingen vila i 5 minuter, eftersom temperaturen fortsätter att stiga med 2–3 grader.',
         us: 'Chicken must reach an internal temperature of 165°F (74°C) at the thickest part to be safe to eat. Insert a meat thermometer into the thickest part without touching the bone. After cooking, let it rest for 5 minutes; the temperature keeps climbing by another 4 to 5°F (2 to 3°C).',
@@ -1665,10 +1822,10 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Combien de temps faut-il mariner le poulet pour l\'airfryer ?',
-        en: 'How long should you marinate chicken for the air fryer?',
-        de: 'Wie lange sollte man Hähnchen für die Heißluftfritteuse marinieren?',
+        en: 'How long should I marinate chicken for the air fryer?',
+        de: 'Wie lange sollte man Hähnchen für den Airfryer marinieren?',
         es: '¿Cuánto tiempo hay que marinar el pollo para la freidora de aire?',
-        it: 'Quanto tempo bisogna marinare il pollo per la friggitrice ad aria?',
+        it: 'Per quanto tempo va marinato il pollo per la friggitrice ad aria?',
         nl: 'Hoe lang moet je kip marineren voor de airfryer?',
         pl: 'Jak długo marynować kurczaka do frytkownicy beztłuszczowej?',
         sv: 'Hur länge ska kycklingen marinera innan den tillagas i airfryer?',
@@ -1677,11 +1834,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Un minimum de 30 minutes apporte déjà du goût, mais 2 à 4 heures au réfrigérateur donnent les meilleurs résultats. Pour les marinades acides (citron, vinaigre), ne dépassez pas 4 heures car l\'acide peut décomposer la texture de la viande. Sortez le poulet 15 minutes avant cuisson pour une température homogène.',
-        en: 'A minimum of 30 minutes adds flavour, but 2 to 4 hours in the refrigerator gives the best results. For acidic marinades containing lemon or vinegar, do not exceed 4 hours as acid can break down the meat texture. Remove chicken 15 minutes before cooking to ensure even temperature throughout.',
-        de: 'Mindestens 30 Minuten bringen bereits Geschmack, aber 2-4 Stunden im Kühlschrank liefern die besten Ergebnisse. Bei sauren Marinaden (Zitrone, Essig) nicht länger als 4 Stunden, da die Säure die Fleischtextur zersetzen kann. Nehmen Sie das Hähnchen 15 Minuten vor dem Garen heraus.',
-        es: 'Un mínimo de 30 minutos ya aporta sabor, pero 2-4 horas en el refrigerador dan los mejores resultados. Para marinados ácidos (limón, vinagre), no superes las 4 horas porque el ácido puede descomponer la textura de la carne. Saca el pollo 15 minutos antes de cocinar.',
-        it: 'Un minimo di 30 minuti aggiunge già sapore, ma 2-4 ore in frigorifero danno i migliori risultati. Per marinature acide (limone, aceto), non superare le 4 ore perché l\'acido può rovinare la texture della carne. Togli il pollo 15 minuti prima della cottura per una temperatura uniforme.',
-        nl: 'Minimaal 30 minuten voegt al smaak toe, maar 2-4 uur in de koelkast geeft de beste resultaten. Bij zure marinades (citroen, azijn) niet langer dan 4 uur, want zuur kan de vleestextuur afbreken. Haal de kip 15 minuten voor het bakken uit de koelkast voor een gelijkmatige temperatuur.',
+        en: 'Even 30 minutes adds flavour, but 2 to 4 hours in the fridge gives the best results. With acidic marinades (lemon, vinegar), don\'t go beyond 4 hours, as the acid can break down the texture of the meat. Take the chicken out of the fridge 15 minutes before cooking so it cooks evenly.',
+        de: 'Schon 30 Minuten bringen Geschmack, die besten Ergebnisse erzielen Sie aber mit 2 bis 4 Stunden im Kühlschrank. Saure Marinaden (Zitrone, Essig) sollten nicht länger als 4 Stunden einwirken, weil die Säure sonst die Struktur des Fleisches angreift. Nehmen Sie das Hähnchen 15 Minuten vor dem Garen aus dem Kühlschrank, damit es gleichmäßig temperiert ist.',
+        es: 'Con 30 minutos ya coge sabor, pero de 2 a 4 horas en la nevera dan los mejores resultados. Si la marinada es ácida (limón, vinagre), no pases de 4 horas, porque el ácido puede estropear la textura de la carne. Saca el pollo de la nevera 15 minutos antes de cocinarlo para que se temple por igual.',
+        it: 'Bastano 30 minuti per dare sapore, ma con 2-4 ore in frigorifero ottieni i risultati migliori. Con le marinature acide (limone, aceto) non superare le 4 ore, perché l\'acido può rovinare la consistenza della carne. Tira fuori il pollo dal frigorifero 15 minuti prima della cottura, così la temperatura è uniforme.',
+        nl: 'Na 30 minuten proef je al verschil, maar 2 tot 4 uur in de koelkast geeft het beste resultaat. Gebruik je een zure marinade (citroen, azijn), marineer dan niet langer dan 4 uur: het zuur kan de structuur van het vlees aantasten. Haal de kip 15 minuten voor het bakken uit de koelkast, zodat hij overal even warm is.',
         pl: 'Już 30 minut wystarczy, żeby mięso nabrało smaku, ale najlepsze efekty dają 2–4 godziny w lodówce. W kwaśnej marynacie (z cytryną lub octem) nie trzymaj mięsa dłużej niż 4 godziny, bo kwas może zniszczyć jego strukturę. Wyjmij kurczaka z lodówki 15 minut przed pieczeniem, żeby miał równomierną temperaturę.',
         sv: 'Redan 30 minuter ger smak, men 2–4 timmar i kylen ger bäst resultat. Marinader med syra (citron, vinäger) bör inte få verka längre än 4 timmar, eftersom syran kan bryta ner köttets struktur. Ta ut kycklingen ur kylen 15 minuter före tillagningen, så blir temperaturen jämn.',
         us: 'Even 30 minutes adds flavor, but 2 to 4 hours in the fridge gives the best results. With acidic marinades (lemon or vinegar), don\'t go past 4 hours, because the acid can break down the texture of the meat. Take the chicken out of the fridge 15 minutes before cooking so it cooks evenly all the way through.',
@@ -1691,11 +1848,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Peut-on cuire un poulet entier dans un airfryer ?',
-        en: 'Can you cook a whole chicken in an air fryer?',
+        en: 'Can I cook a whole chicken in an air fryer?',
         de: 'Kann man ein ganzes Hähnchen in der Heißluftfritteuse zubereiten?',
         es: '¿Se puede cocinar un pollo entero en una freidora de aire?',
         it: 'Si può cuocere un pollo intero nella friggitrice ad aria?',
-        nl: 'Kun je een hele kip bereiden in de airfryer?',
+        nl: 'Kun je een hele kip in de airfryer bereiden?',
         pl: 'Czy we frytkownicy beztłuszczowej można upiec całego kurczaka?',
         sv: 'Går det att laga en hel kyckling i airfryer?',
         us: 'Can you cook a whole chicken in an air fryer?',
@@ -1703,11 +1860,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Oui, dans un airfryer de 6 litres ou plus. Un poulet de 1,2 à 1,5 kg cuit en 50 à 60 minutes à 180°C. Commencez poitrine vers le bas pendant 30 minutes, retournez et terminez à 200°C pendant 20 minutes pour dorer la peau. Vérifiez toujours la température interne de 74°C avant de servir.',
-        en: 'Yes, in an air fryer of 6 litres or larger. A chicken weighing 1.2 to 1.5 kg cooks in 50 to 60 minutes at 180°C. Start breast-side down for 30 minutes, flip and finish at 200°C for 20 minutes to brown the skin. Always verify the internal temperature of 74°C before serving.',
-        de: 'Ja, in einer Heißluftfritteuse ab 6 Litern. Ein Hähnchen von 1,2-1,5 kg gart in 50-60 Minuten bei 180°C. Beginnen Sie mit der Brust nach unten für 30 Minuten, wenden und bei 200°C 20 Minuten fertiggaren für knusprige Haut. Prüfen Sie immer die Kerntemperatur von 74°C.',
-        es: 'Sí, en una freidora de 6 litros o más. Un pollo de 1,2-1,5 kg se cocina en 50-60 minutos a 180°C. Empieza con la pechuga hacia abajo durante 30 minutos, voltea y termina a 200°C 20 minutos para dorar la piel. Verifica siempre la temperatura interna de 74°C antes de servir.',
-        it: 'Sì, in una friggitrice ad aria da 6 litri o più. Un pollo di 1,2-1,5 kg cuoce in 50-60 minuti a 180°C. Inizia con il petto verso il basso per 30 minuti, gira e finisci a 200°C per 20 minuti per dorare la pelle. Verifica sempre la temperatura interna di 74°C prima di servire.',
-        nl: 'Ja, in een airfryer van 6 liter of groter. Een kip van 1,2-1,5 kg is gaar in 50-60 minuten op 180°C. Begin met de borst naar beneden voor 30 minuten, draai om en eindig op 200°C voor 20 minuten voor een bruin velletje. Controleer altijd de kerntemperatuur van 74°C.',
+        en: 'Yes, in an air fryer of 6 litres or more. A 1.2 to 1.5 kg chicken takes 50 to 60 minutes at 180°C. Start breast-side down for 30 minutes, then turn it over and finish at 200°C for 20 minutes to brown the skin. Always check that it has reached 74°C inside before serving.',
+        de: 'Ja, in einer Heißluftfritteuse ab 6 Litern. Ein Hähnchen mit 1,2 bis 1,5 kg gart in 50 bis 60 Minuten bei 180 °C. Legen Sie es zuerst 30 Minuten mit der Brust nach unten ein, wenden Sie es dann und garen Sie es 20 Minuten bei 200 °C fertig, damit die Haut goldbraun wird. Prüfen Sie vor dem Servieren immer, ob die Kerntemperatur 74 °C erreicht hat.',
+        es: 'Sí, en una freidora de aire de 6 litros o más. Un pollo de 1,2 a 1,5 kg se hace en 50-60 minutos a 180 °C. Empieza con la pechuga hacia abajo durante 30 minutos, dale la vuelta y termina a 200 °C durante 20 minutos para dorar la piel. Comprueba siempre que llega a 74 °C por dentro antes de servirlo.',
+        it: 'Sì, se la friggitrice ad aria è da 6 litri o più. Un pollo di 1,2-1,5 kg cuoce in 50-60 minuti a 180 °C. Inizia con il petto rivolto verso il basso per 30 minuti, poi giralo e termina a 200 °C per 20 minuti per dorare la pelle. Prima di servire, controlla sempre che al cuore abbia raggiunto 74 °C.',
+        nl: 'Ja, in een airfryer van 6 liter of groter. Een kip van 1,2 tot 1,5 kg is in 50 tot 60 minuten gaar op 180 °C. Leg hem eerst 30 minuten met de borst naar beneden, draai hem dan om en bak hem nog 20 minuten op 200 °C, zodat het vel mooi bruin wordt. Controleer voor het serveren altijd of de kerntemperatuur 74 °C is.',
         pl: 'Tak, jeśli frytkownica ma pojemność co najmniej 6 litrów. Kurczak ważący 1,2–1,5 kg piecze się 50–60 minut w 180 °C. Zacznij od ułożenia go piersią w dół i piecz tak przez 30 minut, potem odwróć i dokończ pieczenie w 200 °C przez 20 minut, żeby zrumienić skórkę. Przed podaniem zawsze sprawdź, czy temperatura w środku osiągnęła 74 °C.',
         sv: 'Ja, i en airfryer på minst 6 liter. En kyckling på 1,2–1,5 kg tar 50–60 minuter i 180 °C. Börja med bröstsidan nedåt i 30 minuter, vänd den och avsluta med 20 minuter i 200 °C så att skinnet får färg. Kontrollera alltid att innertemperaturen har nått 74 °C före servering.',
         us: 'Yes, in an air fryer with a capacity of 6.3 quarts (6 liters) or more. A 2.6 to 3.3 lb (1.2 to 1.5 kg) chicken cooks in 50 to 60 minutes at 350°F (180°C). Start it breast side down for 30 minutes, then flip it and finish at 400°F (200°C) for 20 minutes to brown the skin. Always check that it has reached 165°F (74°C) inside before serving.',
@@ -1717,10 +1874,10 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Comment obtenir une peau de poulet croustillante à l\'airfryer ?',
-        en: 'How do you get crispy chicken skin in the air fryer?',
-        de: 'Wie bekommt man knusprige Hähnchenhaut in der Heißluftfritteuse?',
-        es: '¿Cómo conseguir la piel del pollo crujiente en la freidora de aire?',
-        it: 'Come ottenere la pelle di pollo croccante nella friggitrice ad aria?',
+        en: 'How do I get crispy chicken skin in an air fryer?',
+        de: 'Wie bekommt man knusprige Hähnchenhaut im Airfryer?',
+        es: '¿Cómo se consigue que la piel del pollo quede crujiente en la freidora de aire?',
+        it: 'Come si ottiene la pelle del pollo croccante nella friggitrice ad aria?',
         nl: 'Hoe krijg je een krokant kippenvelletje in de airfryer?',
         pl: 'Jak uzyskać chrupiącą skórkę kurczaka we frytkownicy beztłuszczowej?',
         sv: 'Hur får jag krispigt kycklingskinn i airfryern?',
@@ -1729,11 +1886,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Le secret est de sécher parfaitement la peau avec du papier absorbant avant cuisson. Frottez légèrement d\'huile et de sel. Vous pouvez ajouter un peu de levure chimique (1 cuillère à café) mélangée au sel pour un résultat encore plus croustillant. Terminez à 200°C pendant les 5 dernières minutes.',
-        en: 'The secret is to perfectly dry the skin with paper towels before cooking. Lightly rub with oil and salt. You can add a small amount of baking powder (1 teaspoon) mixed with salt for an even crispier result. Finish at 200°C for the last 5 minutes to maximize browning and crunch.',
-        de: 'Das Geheimnis ist, die Haut vor dem Garen mit Küchenpapier perfekt zu trocknen. Leicht mit Öl und Salz einreiben. Für extra Knusprigkeit können Sie etwas Backpulver (1 TL) mit Salz mischen und einreiben. Die letzten 5 Minuten bei 200°C fertiggaren für maximale Bräunung.',
-        es: 'El secreto es secar perfectamente la piel con papel absorbente antes de cocinar. Frota ligeramente con aceite y sal. Puedes añadir un poco de levadura química (1 cucharadita) mezclada con sal para un resultado aún más crujiente. Termina a 200°C los últimos 5 minutos.',
-        it: 'Il segreto è asciugare perfettamente la pelle con carta assorbente prima della cottura. Strofina leggermente con olio e sale. Puoi aggiungere un po\' di lievito chimico (1 cucchiaino) mescolato al sale per un risultato ancora più croccante. Finisci a 200°C per gli ultimi 5 minuti.',
-        nl: 'Het geheim is het vel perfect droog te deppen met keukenpapier voor het bakken. Wrijf licht in met olie en zout. Je kunt een beetje bakpoeder (1 theelepel) gemengd met zout toevoegen voor een nog krokanter resultaat. Eindig op 200°C voor de laatste 5 minuten voor maximale bruining.',
+        en: 'The secret is to dry the skin thoroughly with kitchen roll before cooking. Rub it lightly with oil and salt. For an even crispier result, mix a little baking powder (1 teaspoon) into the salt. Finish at 200°C for the last 5 minutes.',
+        de: 'Entscheidend ist, die Haut vor dem Garen mit Küchenpapier gründlich trockenzutupfen. Reiben Sie sie dann dünn mit Öl und Salz ein. Für noch mehr Knusprigkeit können Sie etwas Backpulver (1 TL) unter das Salz mischen. Garen Sie die letzten 5 Minuten bei 200 °C, damit die Haut kräftig bräunt und knusprig wird.',
+        es: 'La clave es secar muy bien la piel con papel de cocina antes de cocinarlo. Úntala ligeramente con aceite y sal. Si quieres que quede aún más crujiente, mezcla la sal con un poco de levadura química (1 cucharadita). Termina a 200 °C los últimos 5 minutos.',
+        it: 'Il segreto è asciugare benissimo la pelle con la carta da cucina prima della cottura. Massaggiala leggermente con olio e sale. Per un risultato ancora più croccante puoi aggiungere al sale un po\' di lievito chimico in polvere (1 cucchiaino). Negli ultimi 5 minuti alza a 200 °C.',
+        nl: 'Het geheim: dep het vel voor het bakken goed droog met keukenpapier. Wrijf het daarna licht in met olie en zout. Voor een nog krokanter resultaat kun je een beetje bakpoeder (1 theelepel) door het zout mengen. Zet de airfryer de laatste 5 minuten op 200 °C.',
         pl: 'Sekret tkwi w dokładnym osuszeniu skórki ręcznikiem papierowym przed pieczeniem. Natrzyj ją lekko olejem i solą. Jeśli chcesz, żeby była jeszcze bardziej chrupiąca, wymieszaj sól z odrobiną proszku do pieczenia (1 łyżeczką). Ostatnie 5 minut piecz w 200 °C.',
         sv: 'Hemligheten är att torka skinnet ordentligt med hushållspapper före tillagningen. Gnid in det lätt med olja och salt. För ett ännu krispigare resultat kan du blanda lite bakpulver (1 tsk) med saltet. Avsluta i 200 °C under de sista 5 minuterna.',
         us: 'The secret is to pat the skin completely dry with paper towels before cooking. Rub it lightly with oil and salt. For even crispier skin, mix a little baking powder (1 teaspoon) into the salt. Finish at 400°F (200°C) for the last 5 minutes to maximize browning and crunch.',
@@ -1743,11 +1900,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Le poulet cru est-il dangereux si mal cuit dans l\'airfryer ?',
-        en: 'Is undercooked chicken from an air fryer dangerous?',
+        en: 'Is it dangerous to eat undercooked chicken from an air fryer?',
         de: 'Ist nicht durchgegartes Hähnchen aus der Heißluftfritteuse gefährlich?',
-        es: '¿Es peligroso el pollo poco hecho de la freidora de aire?',
-        it: 'Il pollo poco cotto dalla friggitrice ad aria è pericoloso?',
-        nl: 'Is onvoldoende gaar kip uit de airfryer gevaarlijk?',
+        es: '¿Es peligroso el pollo poco hecho en la freidora de aire?',
+        it: 'Il pollo poco cotto nella friggitrice ad aria è pericoloso?',
+        nl: 'Is kip uit de airfryer gevaarlijk als hij niet goed gaar is?',
         pl: 'Czy niedopieczony kurczak z frytkownicy beztłuszczowej jest niebezpieczny?',
         sv: 'Är det farligt om kycklingen inte blir genomstekt i airfryern?',
         us: 'Is undercooked air fryer chicken dangerous?',
@@ -1755,11 +1912,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Oui, le poulet insuffisamment cuit peut contenir des bactéries dangereuses comme la salmonelle. C\'est pourquoi un thermomètre de cuisine est essentiel. Le poulet doit atteindre 74°C à coeur. Ne vous fiez pas uniquement à la couleur extérieure : un poulet peut être doré dehors et encore rose dedans.',
-        en: 'Yes, undercooked chicken can contain dangerous bacteria like salmonella. This is why a kitchen thermometer is essential. Chicken must reach 74°C (165°F) internally. Do not rely solely on external colour: chicken can appear golden brown on the outside while still being pink and raw inside.',
-        de: 'Ja, nicht durchgegartes Hähnchen kann gefährliche Bakterien wie Salmonellen enthalten. Deshalb ist ein Küchenthermometer unverzichtbar. Hähnchen muss 74°C Kerntemperatur erreichen. Verlassen Sie sich nicht nur auf die Farbe: Hähnchen kann außen goldbraun und innen noch rosa sein.',
-        es: 'Sí, el pollo poco hecho puede contener bacterias peligrosas como la salmonela. Por eso un termómetro de cocina es esencial. El pollo debe alcanzar 74°C internamente. No confíes solo en el color exterior: un pollo puede estar dorado por fuera y todavía rosa por dentro.',
-        it: 'Sì, il pollo poco cotto può contenere batteri pericolosi come la salmonella. Per questo un termometro da cucina è essenziale. Il pollo deve raggiungere 74°C internamente. Non fidarti solo del colore esterno: un pollo può essere dorato fuori e ancora rosa dentro.',
-        nl: 'Ja, onvoldoende gaar kip kan gevaarlijke bacteriën bevatten zoals salmonella. Daarom is een keukenthermometer essentieel. Kip moet intern 74°C bereiken. Vertrouw niet alleen op de kleur aan de buitenkant: kip kan goudbruin zijn van buiten en nog roze van binnen.',
+        en: 'Yes. Undercooked chicken can carry harmful bacteria such as salmonella, which is why a cooking thermometer is essential. Chicken must reach 74°C at the centre. Don\'t go by the colour on the outside: chicken can be golden outside and still pink inside.',
+        de: 'Ja, nicht durchgegartes Hähnchen kann gefährliche Bakterien wie Salmonellen enthalten. Deshalb ist ein Küchenthermometer so wichtig. Hähnchen muss im Kern 74 °C erreichen. Verlassen Sie sich nicht allein auf die Farbe: Hähnchen kann außen goldbraun und innen noch rosa und roh sein.',
+        es: 'Sí: el pollo poco hecho puede contener bacterias peligrosas, como la salmonela. Por eso es imprescindible un termómetro de cocina. El pollo tiene que llegar a 74 °C en el centro. No te fíes solo del color de fuera: puede estar dorado por fuera y seguir rosado por dentro.',
+        it: 'Sì, il pollo poco cotto può contenere batteri pericolosi come la salmonella. Per questo il termometro da cucina è indispensabile: il pollo deve arrivare a 74 °C al cuore. Non fidarti solo del colore esterno: un pollo può essere dorato fuori e ancora rosa dentro.',
+        nl: 'Ja, kip die niet goed gaar is, kan gevaarlijke bacteriën bevatten, zoals salmonella. Daarom is een keukenthermometer zo belangrijk. De kern van de kip moet 74 °C halen. Ga niet alleen af op de kleur aan de buitenkant: kip kan van buiten goudbruin zijn en van binnen nog roze.',
         pl: 'Tak, niedopieczony kurczak może zawierać groźne bakterie, np. salmonellę. Dlatego termometr kuchenny jest niezbędny. Kurczak musi osiągnąć w środku 74 °C. Nie oceniaj go wyłącznie po kolorze: z zewnątrz może być złocisty, a w środku wciąż różowy.',
         sv: 'Ja, kyckling som inte är ordentligt genomstekt kan innehålla farliga bakterier som salmonella. Därför är en stektermometer så viktig. Kycklingen ska nå 74 °C i kärnan. Lita inte bara på färgen utanpå: en kyckling kan vara gyllenbrun på ytan och fortfarande rosa inuti.',
         us: 'Yes, undercooked chicken can carry harmful bacteria such as salmonella. That\'s why a meat thermometer is essential. Chicken must reach 165°F (74°C) inside. Don\'t go by the color on the outside alone: chicken can look golden brown outside and still be pink and raw in the middle.',

@@ -13,11 +13,11 @@ export const article: BlogArticle = {
       src: 'https://images.unsplash.com/photo-1768471569643-717e823b5f9a?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: `Humidificateur d'air diffusant une brume fraîche sur un bureau en bois`,
-        en: `Air humidifier releasing a cool mist on a wooden desk`,
+        en: `A humidifier giving off a cool mist on a wooden desk`,
         de: `Luftbefeuchter mit kühlem Nebel auf einem Holzschreibtisch`,
-        es: `Humidificador de aire emitiendo vapor frío sobre un escritorio de madera`,
+        es: `Humidificador que difunde vapor frío sobre un escritorio de madera`,
         it: `Umidificatore d'aria che emette vapore freddo su una scrivania in legno`,
-        nl: `Luchtbevochtiger die koele nevel verspreidt op een houten bureau`,
+        nl: `Luchtbevochtiger op een houten bureau die koele nevel verspreidt`,
         pl: `Nawilżacz powietrza z chłodną mgiełką na drewnianym biurku`,
         sv: `Luftfuktare som sprider en sval dimma på ett skrivbord i trä`,
         us: `Humidifier releasing cool mist on a wooden desk`,
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: `Humidificateur Connecté 2026 : Comparatif des 5 Meilleurs Modèles`,
-    en: `Best Smart Humidifier 2026: The 5 Top Models Compared`,
-    de: `Bester smarter Luftbefeuchter 2026: Die 5 Top-Modelle im Vergleich`,
-    es: `Mejor Humidificador Inteligente 2026: Comparativa de los 5 Mejores`,
-    it: `Miglior Umidificatore Smart 2026: Confronto dei 5 Migliori Modelli`,
-    nl: `Beste Slimme Luchtbevochtiger 2026: De 5 Topmodellen Vergeleken`,
+    en: `Best Smart Humidifier 2026: 5 Top Models Compared`,
+    de: `Bester smarter Luftbefeuchter 2026: 5 Modelle im Vergleich`,
+    es: `Mejor humidificador 2026: comparativa de 5 modelos con wifi`,
+    it: `Umidificatore smart 2026: i 5 migliori modelli a confronto`,
+    nl: `Beste slimme luchtbevochtiger 2026: 5 modellen vergeleken`,
     pl: `Inteligentny nawilżacz powietrza 2026: porównanie 5 najlepszych modeli`,
     sv: `Bästa smarta luftfuktare 2026: 5 modeller jämförda`,
     us: `Best Smart Humidifiers of 2026: 5 Top Models Compared`,
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S et Xiaomi Smart Humidifier 2 : évaporation ou ultrasons, poussière blanche, hygiène, taille de pièce et bruit pour choisir le bon humidificateur connecté.`,
-    en: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S and Xiaomi Smart Humidifier 2: evaporative vs ultrasonic, white dust, hygiene, room size and noise to pick the right smart humidifier.`,
-    de: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S und Xiaomi Smart Humidifier 2: Verdunster oder Ultraschall, weißer Staub, Hygiene, Raumgröße und Lautstärke im Überblick.`,
-    es: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S y Xiaomi Smart Humidifier 2: evaporativo o ultrasónico, polvo blanco, higiene, tamaño de la estancia y ruido para elegir bien.`,
-    it: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S e Xiaomi Smart Humidifier 2: evaporativo o a ultrasuoni, polvere bianca, igiene, dimensioni della stanza e rumorosità.`,
-    nl: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S en Xiaomi Smart Humidifier 2: verdamping of ultrasoon, wit stof, hygiëne, kamergrootte en geluid om goed te kiezen.`,
+    en: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S and Xiaomi Smart Humidifier 2: evaporative or ultrasonic, white dust, hygiene, room size and noise, and how to pick the right smart humidifier.`,
+    de: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S und Xiaomi Smart Humidifier 2: Verdunster oder Ultraschall, weißer Staub, Hygiene, Raumgröße und Lautstärke. So finden Sie den passenden smarten Luftbefeuchter.`,
+    es: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S y Xiaomi Smart Humidifier 2: evaporativo o ultrasónico, polvo blanco, higiene, tamaño de la habitación y ruido para acertar con tu humidificador con wifi.`,
+    it: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S e Xiaomi Smart Humidifier 2: evaporativo o a ultrasuoni, polvere bianca, igiene, dimensioni della stanza e rumorosità per scegliere l'umidificatore smart giusto.`,
+    nl: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S en Xiaomi Smart Humidifier 2: verdamping of ultrasoon, wit stof, hygiëne, kamergrootte en geluid. Zo kies je de juiste slimme luchtbevochtiger.`,
     pl: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S i Xiaomi Smart Humidifier 2: ewaporacja czy ultradźwięki, biały pył, higiena, metraż pomieszczenia i hałas – sprawdź, jak wybrać odpowiedni inteligentny nawilżacz powietrza.`,
     sv: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S och Xiaomi Smart Humidifier 2: avdunstning eller ultraljud, vitt damm, hygien, rumsstorlek och ljudnivå – så väljer du rätt smart luftfuktare.`,
     us: `Boneco H700 Smart, Levoit Classic 300S, Dyson PH04, Levoit OasisMist 1000S and Xiaomi Smart Humidifier 2 compared: evaporative vs. ultrasonic, white dust, hygiene, room size and noise, so you can pick the right smart humidifier.`,
@@ -150,161 +150,161 @@ export const article: BlogArticle = {
 
 <h2>Notre verdict</h2>
 <p>Pour la majorité des foyers qui veulent une solution complète et sans poussière blanche, le <strong>Boneco H700 Smart</strong> s'impose : évaporation, grande couverture et purification dans un seul appareil connecté. Le <strong>Levoit Classic 300S</strong> est le meilleur point d'entrée, simple et bien pensé, si vous maîtrisez la question de l'eau calcaire. Les allergiques qui veulent purifier, humidifier et ventiler toute l'année se tourneront vers le <strong>Dyson PH04</strong>. Quel que soit votre choix, réglez une consigne entre 40 et 60 %, nettoyez régulièrement et vérifiez l'humidité réelle avec un capteur indépendant.</p>`,
-    en: `<p>For most homes, the best smart humidifier in 2026 is the <strong>Boneco H700 Smart</strong>: it humidifies by evaporation (so no white dust), covers large rooms, purifies the air at the same time and is fully controllable over Wi-Fi. If you mainly want an affordable connected model for a bedroom or a medium-sized living room, the <strong>Levoit Classic 300S</strong> is the most sensible pick, provided you use it with soft or demineralised water.</p>
-<p>A humidifier raises the relative humidity of indoor air when it drops below 40%, which happens a lot in winter once the heating is on. Chapped lips, a dry throat in the morning, static shocks, struggling houseplants or gaps opening in wooden floors are the classic signs of air that is too dry. A smart model adds a built-in hygrostat, an auto mode, an app and schedules, which helps you avoid the most common trap: over-humidifying. This comparison is based on manufacturer specifications, published independent reviews and verified buyer feedback.</p>
+    en: `<p>For most homes, the best smart humidifier in 2026 is the <strong>Boneco H700 Smart</strong>: it humidifies by evaporation (so no white dust), covers large rooms, purifies the air at the same time and can be controlled over Wi-Fi. If you mainly want an affordable smart model for a bedroom or a medium-sized living room, the <strong>Levoit Classic 300S</strong> is the most sensible choice, as long as your water isn’t too hard.</p>
+<p>A humidifier raises the relative humidity of the air indoors when it falls below 40%, which often happens in winter once the heating is on. Chapped lips, a dry throat when you wake up, static shocks, struggling houseplants or gaps opening up in wooden floors are the classic signs that the air is too dry. A smart model adds a hygrostat, an auto mode, an app and schedules, which helps you avoid the most common trap: over-humidifying. This comparison is based on manufacturer specifications, published independent reviews and verified buyer feedback.</p>
 
 <h2>What humidity should you aim for? The 40–60% rule</h2>
-<p>Comfort and health sit within a fairly narrow band. Below 40% relative humidity, the lining of the nose and throat dries out, skin feels tight and eyes sting. Above 60%, the problem flips: condensation on windows, mould in corners and thriving dust mites. The goal is to stay between 40 and 60%, ideally around 45–50% in a living space during winter.</p>
-<p>This is exactly where a connected model earns its keep: you set a target (say 50%), the device measures continuously and stops on its own once the target is reached. For a reliable reading, it is worth adding a separate hygrometer at the other end of the room, because the built-in sensor measures the air right next to the mist outlet. Our guide to <a href="/en/blog/qualite-air-interieur-capteurs">indoor air quality sensors</a> explains where to place them. And if your home has the opposite problem, too much moisture, you need a <a href="/en/blog/deshumidificateur-connecte-guide">smart dehumidifier</a>, not a humidifier.</p>
+<p>Comfort and health depend on a fairly narrow range. Below 40% relative humidity, the lining of your nose and throat dries out, your skin feels tight and your eyes sting. Above 60%, the problem flips: condensation on the windows, mould in the corners and dust mites multiplying. So the aim is to stay between 40 and 60%, ideally around 45–50% in a living room in winter.</p>
+<p>This is exactly where a smart model earns its keep: you set a target (say 50%), the humidifier measures continuously and switches itself off once it gets there. For a reliable reading, it’s worth adding a separate hygrometer at the other end of the room, because the built-in sensor measures the air right next to the mist outlet. Our guide to <a href="/en/blog/qualite-air-interieur-capteurs">indoor air quality sensors</a> explains where to put them. And if your home has the opposite problem, too much moisture, you need a <a href="/en/blog/deshumidificateur-connecte-guide">smart dehumidifier</a>, not a humidifier.</p>
 
-<h2>Evaporative or ultrasonic: the real decision</h2>
+<h2>Evaporative or ultrasonic: the real choice to make</h2>
 <h3>Ultrasonic humidifiers</h3>
-<p>A plate vibrates at a very high frequency and turns water into a visible cool mist. It is the most common technology: quiet, energy-efficient, compact and affordable. Its main weakness is hard water. Everything dissolved in tap water (calcium, magnesium) is thrown into the air with the mist and then settles as <strong>white dust</strong> on furniture and screens. In hard-water areas, using demineralised or filtered water, or an anti-limescale cartridge where the manufacturer offers one, is strongly recommended.</p>
+<p>A membrane vibrates at a very high frequency and turns water into a visible cool mist. It’s the most common type: quiet, energy-efficient, compact and affordable. Its main weakness is hard water. Everything dissolved in tap water (calcium, magnesium) is sprayed into the air with the mist, then settles as <strong>white dust</strong> on furniture and screens. If you live in a hard-water area, it’s strongly recommended to use demineralised or filtered water, or an anti-limescale cartridge if the manufacturer offers one.</p>
 <h3>Evaporative humidifiers</h3>
-<p>A fan pushes air through a wet wick or filter. Moisture is added as invisible water vapour, with no droplets. The advantages: no white dust (minerals stay trapped in the wick) and self-regulating operation, since evaporation naturally slows when the air is already humid. The trade-offs: the fan makes a gentle whoosh, wicks and mats are consumables that need descaling and replacing, and the units tend to be bulkier.</p>
+<p>A fan pushes air through a wet wick or filter. The moisture is added as invisible water vapour, with no droplets. The advantages: no white dust (the minerals stay trapped in the wick), and the humidifier regulates itself, because evaporation naturally slows down when the air is already humid. The trade-offs: the fan makes a soft whooshing sound, the wicks or mats are consumables that need descaling and replacing, and these units tend to be bulkier.</p>
 <h3>What about warm mist?</h3>
-<p>Warm-mist humidifiers boil the water, which limits microbial growth, but they use considerably more electricity and pose a burn risk around children. None of the smart models selected here uses this technology.</p>
+<p>Warm-mist humidifiers boil the water, which limits the growth of microbes, but they use considerably more electricity and are a burn risk around children. None of the smart models in this comparison uses this technology.</p>
 
-<h2>Buying criteria</h2>
+<h2>What to look for</h2>
 <ul>
-<li><strong>Room size</strong>: go by the manufacturer's recommended area and the humidification output (in ml/h). An undersized unit runs flat out all the time, which also makes it louder.</li>
-<li><strong>Tank capacity</strong>: 4 to 10 litres in our selection. A bigger tank means fewer refills but more effort to clean.</li>
-<li><strong>Top filling</strong>: a genuine everyday convenience that also makes cleaning easier.</li>
-<li><strong>Hygrostat and auto mode</strong>: essential to avoid going over 60%.</li>
-<li><strong>Noise</strong>: for a bedroom, look for a sleep mode rated at around 30 dB or less and a display that switches off.</li>
-<li><strong>Hygiene</strong>: UV-C water treatment, antibacterial materials, parts that come apart and rinse easily.</li>
-<li><strong>Connectivity</strong>: a stable app, 2.4 GHz Wi-Fi, Alexa or Google Home support, alerts for an empty tank or a filter change.</li>
-<li><strong>Consumables</strong>: wicks, HEPA filters, anti-limescale cartridges. Their long-term availability matters as much as the device itself.</li>
+<li><strong>Room size</strong>: go by the manufacturer’s recommended room size and the humidification output (in ml/h). An undersized unit runs flat out all the time, which also makes it louder.</li>
+<li><strong>Tank capacity</strong>: 4 to 10 litres across our picks. The bigger the tank, the less often you refill it, but the more awkward it is to clean.</li>
+<li><strong>Top filling</strong>: much easier day to day, and simpler to clean.</li>
+<li><strong>Hygrostat and auto mode</strong>: essential if you don’t want to go over 60%.</li>
+<li><strong>Noise</strong>: for a bedroom, look for a sleep mode quoted at around 30 dB or less, and a display that switches off.</li>
+<li><strong>Hygiene</strong>: UV-C water treatment, antibacterial materials, and parts that come apart and rinse easily under the tap.</li>
+<li><strong>Connectivity</strong>: a reliable app, 2.4 GHz Wi-Fi, Alexa or Google Home support, and alerts when the tank is empty or a filter needs changing.</li>
+<li><strong>Consumables</strong>: wicks, HEPA filters, anti-limescale cartridges. Whether they’ll still be available in a few years matters as much as the humidifier itself.</li>
 </ul>
 
 <h2>The 5 best smart humidifiers of 2026</h2>
 
 <h3>1. Boneco H700 Smart: best overall</h3>
-<p>The H700 Smart is a hybrid unit: it humidifies by evaporation through humidifier mats and cleans the air with a combined HEPA and activated carbon filter. It can run as a humidifier only, a purifier only, or both at once. Boneco recommends it for rooms up to 150 m², with a 10-litre tank and a high output of roughly one litre per hour at maximum, according to the manufacturer. The Smart version connects over Wi-Fi to the Boneco app, shows humidity, temperature and air quality, supports schedules and accepts voice commands through Amazon Alexa and Google Home.</p>
-<p><strong>Strengths</strong>: evaporative with no white dust, very large coverage, built-in purification, dedicated profiles (sleep, baby), full remote control.<br>
-<strong>Limitations</strong>: bulky and heavy, premium tier, mats and filters need regular replacement, audible airflow at full power.<br>
-<strong>Best for</strong>: large living rooms, open-plan spaces and allergy-prone households that want one device for humidity and purification.</p>
+<p>The H700 Smart is a hybrid: it humidifies by evaporation through humidifier mats and cleans the air with a combined HEPA and activated carbon filter. It can run as a humidifier only, a purifier only, or both at once. Boneco recommends it for rooms of up to 150 m², with a 10-litre tank and a high output of roughly one litre an hour at maximum, according to the manufacturer. The Smart version connects to the Boneco app over Wi-Fi, shows humidity, temperature and air quality, supports schedules and responds to voice commands through Amazon Alexa and Google Home.</p>
+<p><strong>Pros</strong>: evaporative, so no white dust; covers very large rooms; built-in purification; dedicated modes (sleep, baby); full control from your phone.<br>
+<strong>Cons</strong>: bulky and heavy, at the premium end, mats and filters need replacing regularly, audible airflow at full power.<br>
+<strong>Best for</strong>: large living rooms, open-plan spaces and households with allergies that want one appliance for both humidifying and purifying.</p>
 
 <h3>2. Levoit Classic 300S: best value</h3>
-<p>The Classic 300S is a 6-litre top-fill ultrasonic humidifier designed for medium-sized rooms. It has a built-in humidity sensor with auto mode, an adjustable night light and an essential oil pad. It is controlled through the VeSync app (schedules, humidity target, sleep mode) and works with Alexa and Google Assistant.</p>
-<p><strong>Strengths</strong>: very easy to fill and clean, effective auto mode, comprehensive app, compact footprint.<br>
-<strong>Limitations</strong>: ultrasonic technology is sensitive to hard water (white dust), the onboard sensor sits close to the mist and can overestimate room humidity, frequent cleaning required.<br>
-<strong>Best for</strong>: a medium bedroom or living room, a first smart purchase, homes with soft water or owners willing to use demineralised water.</p>
+<p>The Classic 300S is a 6-litre, top-fill ultrasonic humidifier designed for medium-sized rooms. It has a built-in humidity sensor with an auto mode, an adjustable night light and an essential oil pad. You control it with the VeSync app (schedules, target humidity, sleep mode), and it works with Alexa and Google Assistant.</p>
+<p><strong>Pros</strong>: very easy to fill and clean, effective auto mode, full-featured app, compact.<br>
+<strong>Cons</strong>: ultrasonic, so sensitive to hard water (white dust); the built-in sensor sits close to the mist and can overestimate the humidity in the room; needs frequent cleaning.<br>
+<strong>Best for</strong>: a medium-sized bedroom or living room, a first smart humidifier, homes with soft water or anyone willing to use demineralised water.</p>
 
 <h3>3. Dyson Purifier Humidify+Cool Formaldehyde PH04: the 3-in-1 for allergy sufferers</h3>
-<p>The PH04 combines a purifier, humidifier and fan. It humidifies by evaporation: water first passes a UV-C light which, according to Dyson, kills 99.9% of bacteria in the water, then evaporates through a 3D mesh woven with silver threads. The HEPA H13 filter captures fine particles, and the Formaldehyde version detects and breaks down formaldehyde. It is controlled via the MyDyson app, shows real-time air quality and offers a deep-clean cycle for the water system.</p>
-<p><strong>Strengths</strong>: no mist and no white dust, UV-C water treatment, very thorough purification, cooling fan for summer, polished design.<br>
-<strong>Limitations</strong>: the most premium model here, lower humidification output than a dedicated large-room humidifier, expensive replacement filters.<br>
-<strong>Best for</strong>: people with allergies or sensitive to indoor pollution who want a single year-round device.</p>
+<p>The PH04 is a purifier, humidifier and fan in one. It humidifies by evaporation: the water first passes in front of a UV-C light which, according to Dyson, kills 99.9% of the bacteria in the water, then evaporates through a 3D mesh woven with silver threads. The HEPA H13 filter captures fine particles, and the Formaldehyde version detects and breaks down formaldehyde. You control it through the MyDyson app, which shows air quality in real time, and it has a deep-clean cycle for the water system.</p>
+<p><strong>Pros</strong>: no visible mist and no white dust, UV-C water treatment, very thorough purification, a cooling fan for summer, stylish design.<br>
+<strong>Cons</strong>: the most expensive model in this comparison, lower humidification output than a dedicated large-room humidifier, costly replacement filters.<br>
+<strong>Best for</strong>: people with allergies, or who are sensitive to indoor pollution, and want one appliance they can use all year round.</p>
 
 <h3>4. Levoit OasisMist 1000S: long runtime for large rooms</h3>
-<p>This ultrasonic tower holds 10 litres, good for up to 100 hours on the low setting according to Levoit, and is designed for rooms up to around 55 m². It fills from the top, throws the mist high for better dispersion, and its sleep mode is rated below 28 dB. The VeSync app handles the humidity target, schedules and auto mode, with Alexa and Google Assistant support.</p>
-<p><strong>Strengths</strong>: outstanding runtime, covers large rooms, very quiet at night, slim tower footprint.<br>
-<strong>Limitations</strong>: ultrasonic, so white dust with hard water; the large tank takes longer to clean and is heavy when full.<br>
-<strong>Best for</strong>: spacious living rooms and bedrooms, and anyone who does not want to refill every day.</p>
+<p>This ultrasonic tower has a 10-litre tank, good for up to 100 hours on the low setting according to Levoit, and is designed for rooms of up to around 55 m². It fills from the top, sends the mist up high so it spreads further, and its sleep mode is quoted at under 28 dB. The VeSync app handles the target humidity, schedules and auto mode, and it works with Alexa and Google Assistant.</p>
+<p><strong>Pros</strong>: outstanding runtime, covers large rooms, very quiet at night, slim tower that takes up little floor space.<br>
+<strong>Cons</strong>: ultrasonic, so white dust with hard water; the large tank takes longer to clean and is heavy when full.<br>
+<strong>Best for</strong>: large living rooms and bedrooms, and anyone who doesn’t want to refill it every day.</p>
 
-<h3>5. Xiaomi Smart Humidifier 2: compact and connected with UV-C</h3>
-<p>The Smart Humidifier 2 is a 4.5-litre ultrasonic humidifier with an output of 350 ml/h and a rated noise level of 38 dB. It features UV-C water sterilisation, an aroma drawer and 360° mist output. It is controlled from the Xiaomi Home app, with a humidity target and schedules.</p>
-<p><strong>Strengths</strong>: UV-C at this price tier, compact size, natural fit if you already own other Xiaomi devices.<br>
-<strong>Limitations</strong>: louder than the Levoit models in sleep mode, possible white dust with tap water, Xiaomi Home is a less universal ecosystem.<br>
-<strong>Best for</strong>: bedrooms and home offices, existing Xiaomi users.</p>
+<h3>5. Xiaomi Smart Humidifier 2: a compact smart model with UV-C</h3>
+<p>The Smart Humidifier 2 is a 4.5-litre ultrasonic humidifier with an output of 350 ml/h and a quoted noise level of 38 dB. It has UV-C water sterilisation, an aroma drawer and 360° mist output. You control it from the Xiaomi Home app, with a target humidity and schedules.</p>
+<p><strong>Pros</strong>: UV-C at this price point, compact, a natural fit if you already own other Xiaomi devices.<br>
+<strong>Cons</strong>: louder than the Levoit models in sleep mode, possible white dust with tap water, the Xiaomi Home ecosystem is less widely supported.<br>
+<strong>Best for</strong>: bedrooms and home offices, and people who already use Xiaomi devices.</p>
 
-<p><strong>Worth knowing</strong>: Philips Series 2000 and 3000 evaporative humidifiers and the Stadler Form Oskar Big are well regarded for hygiene and the absence of white dust, but they do not offer app control. They remain good options if connectivity is not a priority. See the full selection on our <a href="/en/confort-air/humidificateurs">humidifiers</a> page.</p>
+<p><strong>Worth knowing</strong>: the Philips Series 2000 and 3000 evaporative humidifiers and the Stadler Form Oskar Big have a good reputation for hygiene and no white dust, but they can’t be controlled from an app. They’re still good options if smart features aren’t a priority. See all our picks on our <a href="/en/confort-air/humidificateurs">humidifiers</a> page.</p>
 
 <h2>Comparison table</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Technology</th><th>Recommended area (manufacturer)</th><th>Connectivity</th><th>Best for</th></tr>
+<tr><th>Model</th><th>Technology</th><th>Recommended room size (manufacturer)</th><th>Connectivity</th><th>Best for</th></tr>
 </thead>
 <tbody>
 <tr><td>Boneco H700 Smart</td><td>Evaporative + HEPA purification</td><td>Up to 150 m²</td><td>Wi-Fi, Boneco app, Alexa, Google Home</td><td>Large spaces, allergies</td></tr>
-<tr><td>Levoit Classic 300S</td><td>Ultrasonic, 6 L</td><td>Medium room</td><td>Wi-Fi, VeSync, Alexa, Google</td><td>Best value</td></tr>
-<tr><td>Dyson PH04</td><td>Evaporative + UV-C + HEPA H13</td><td>Living space</td><td>Wi-Fi, MyDyson</td><td>Year-round 3-in-1</td></tr>
-<tr><td>Levoit OasisMist 1000S</td><td>Ultrasonic, 10 L</td><td>Up to approx. 55 m²</td><td>Wi-Fi, VeSync, Alexa, Google</td><td>Long runtime, large bedroom</td></tr>
+<tr><td>Levoit Classic 300S</td><td>Ultrasonic, 6 L</td><td>Medium-sized room</td><td>Wi-Fi, VeSync, Alexa, Google</td><td>Best value</td></tr>
+<tr><td>Dyson PH04</td><td>Evaporative + UV-C + HEPA H13</td><td>Living room</td><td>Wi-Fi, MyDyson</td><td>Year-round 3-in-1</td></tr>
+<tr><td>Levoit OasisMist 1000S</td><td>Ultrasonic, 10 L</td><td>Up to about 55 m²</td><td>Wi-Fi, VeSync, Alexa, Google</td><td>Long runtime, large bedroom</td></tr>
 <tr><td>Xiaomi Smart Humidifier 2</td><td>Ultrasonic + UV-C, 4.5 L</td><td>Bedroom, office</td><td>Wi-Fi, Xiaomi Home</td><td>Xiaomi ecosystem</td></tr>
 </tbody>
 </table>
 
-<h2>Hygiene and maintenance: the part people neglect</h2>
-<p>A poorly maintained humidifier can release into the air whatever grows in its tank. Standing water is a favourable environment for bacteria and mould, whatever the technology. A few simple rules:</p>
+<h2>Hygiene and maintenance: the part too many people skip</h2>
+<p>A badly maintained humidifier can spread whatever is growing in its tank into the air. Standing water is a breeding ground for bacteria and mould, whatever the technology. A few simple rules:</p>
 <ul>
-<li>Empty the tank every day and let it dry when the unit is not in use; never leave water sitting for days.</li>
-<li>Descale at least once a week with white vinegar or citric acid, following the manufacturer's instructions, then rinse thoroughly.</li>
-<li>Replace wicks, mats and filters at the stated intervals, or sooner if they harden or smell.</li>
-<li>Use demineralised or filtered water with an ultrasonic model if your water is hard.</li>
-<li>Always unplug the device before cleaning or refilling it.</li>
+<li>Empty the tank every day and let it dry out if you’re not using the humidifier; never leave water standing in it for days.</li>
+<li>Descale it at least once a week with white vinegar or citric acid, following the manufacturer’s instructions, then rinse thoroughly.</li>
+<li>Replace wicks, mats and filters at the recommended intervals, or sooner if they go hard or start to smell.</li>
+<li>Use demineralised or filtered water in an ultrasonic model if your water is hard.</li>
+<li>Always unplug the humidifier before cleaning or refilling it.</li>
 </ul>
 
 <h2>Mistakes to avoid</h2>
 <ul>
-<li><strong>Running it non-stop with no target</strong>: above 60% you encourage mould and dust mites. Always use auto mode.</li>
-<li><strong>Pouring essential oils into the tank</strong>: they can damage the plastics and the ultrasonic plate. Use only the dedicated pad or drawer, and take care around children, pregnant women and pets.</li>
-<li><strong>Placing it on the floor or against a wall</strong>: put it on a stable, raised surface, away from walls, wooden furniture, curtains and power sockets.</li>
-<li><strong>Aiming the mist at the bed or electronics</strong>: local condensation can damage fabrics and devices.</li>
-<li><strong>Buying too small</strong>: an overworked unit runs at full speed, gets louder and never reaches its target.</li>
-<li><strong>Forgetting to ventilate</strong>: a few minutes of airing each day is still needed to refresh the air.</li>
+<li><strong>Running it non-stop with no target humidity</strong>: above 60%, you encourage mould and dust mites. Always use the auto mode.</li>
+<li><strong>Pouring essential oils into the tank</strong>: they can damage the plastics and the membrane. Only use the pad or drawer provided, and take care around children, pregnant women and pets.</li>
+<li><strong>Putting it on the floor or against a wall</strong>: place it on a stable, raised surface, away from walls, wooden furniture, curtains and sockets.</li>
+<li><strong>Pointing the mist at the bed or at electronics</strong>: condensation can build up and damage fabrics and electronic devices.</li>
+<li><strong>Buying one that’s too small</strong>: an overstretched unit runs flat out, gets noisier and never reaches its target.</li>
+<li><strong>Forgetting to air the room</strong>: you still need to open the windows for a few minutes every day to let fresh air in.</li>
 </ul>
 
-<h2>Setup and safety</h2>
-<p>A smart humidifier simply plugs into a socket and pairs with its app in a few minutes; check that your router broadcasts a 2.4 GHz Wi-Fi network, which most of these devices use. In a nursery, keep the unit and its cable out of reach and choose cool mist. People with asthma or respiratory conditions should ask a healthcare professional about the right humidity level for them.</p>
+<h2>Installation and safety</h2>
+<p>A smart humidifier simply plugs into a socket and pairs with its app in a few minutes. Check that your router broadcasts a 2.4 GHz Wi-Fi network, as most of these devices use it. In a baby’s room, keep the humidifier and its cable out of reach, and choose cool mist. People with asthma or other breathing problems should ask a health professional what humidity level is right for them.</p>
 
 <h2>Our verdict</h2>
-<p>For most households that want a complete solution with no white dust, the <strong>Boneco H700 Smart</strong> is the one to beat: evaporative humidification, large coverage and purification in a single connected unit. The <strong>Levoit Classic 300S</strong> is the best entry point, simple and well designed, as long as you deal with hard water. Allergy sufferers who want to purify, humidify and cool all year round should look at the <strong>Dyson PH04</strong>. Whichever you choose, set a target between 40 and 60%, clean it regularly and check the real humidity with an independent sensor.</p>`,
-    de: `<p>Der beste smarte Luftbefeuchter 2026 ist für die meisten Haushalte der <strong>Boneco H700 Smart</strong>: Er befeuchtet per Verdunstung (also ohne weißen Staub), schafft große Räume, reinigt gleichzeitig die Luft und lässt sich komplett per WLAN steuern. Wer vor allem ein günstiges vernetztes Gerät für Schlafzimmer oder ein mittelgroßes Wohnzimmer sucht, fährt mit dem <strong>Levoit Classic 300S</strong> am vernünftigsten – vorausgesetzt, man nutzt weiches oder entmineralisiertes Wasser.</p>
-<p>Ein Luftbefeuchter hebt die relative Luftfeuchtigkeit in Innenräumen an, wenn sie unter 40 % fällt, was im Winter bei laufender Heizung häufig passiert. Spröde Lippen, ein trockener Hals am Morgen, statische Aufladung, schwächelnde Zimmerpflanzen oder Fugen im Parkett sind typische Anzeichen zu trockener Luft. Ein smartes Modell bringt Hygrostat, Automatikmodus, App und Zeitpläne mit und schützt so vor dem häufigsten Fehler: zu viel Feuchtigkeit. Dieser Vergleich stützt sich auf Herstellerangaben, veröffentlichte unabhängige Bewertungen und verifizierte Käuferrückmeldungen.</p>
+<p>For most households that want an all-in-one solution with no white dust, the <strong>Boneco H700 Smart</strong> is the one to beat: evaporative humidification, large-room coverage and purification in a single smart appliance. The <strong>Levoit Classic 300S</strong> is the best entry point, simple and well thought out, as long as you deal with the hard-water issue. Allergy sufferers who want to purify, humidify and cool the air all year round should look at the <strong>Dyson PH04</strong>. Whichever you choose, set a target between 40 and 60%, clean it regularly and check the actual humidity with a separate sensor.</p>`,
+    de: `<p>Der beste smarte Luftbefeuchter 2026 ist für die meisten Haushalte der <strong>Boneco H700 Smart</strong>: Er befeuchtet per Verdunstung (also ohne weißen Staub), schafft große Räume, reinigt gleichzeitig die Luft und lässt sich per WLAN steuern. Suchen Sie vor allem ein günstiges Modell mit App für das Schlafzimmer oder ein mittelgroßes Wohnzimmer, ist der <strong>Levoit Classic 300S</strong> die vernünftigste Wahl – vorausgesetzt, Sie verwenden kalkarmes Wasser.</p>
+<p>Ein Luftbefeuchter hebt die relative Luftfeuchtigkeit in Innenräumen an, wenn sie unter 40 % fällt, was im Winter bei laufender Heizung häufig passiert. Spröde Lippen, ein trockener Hals am Morgen, statische Aufladung, schwächelnde Zimmerpflanzen oder Fugen im Parkett sind typische Anzeichen zu trockener Luft. Ein smartes Modell bringt Hygrostat, Automatikmodus, App und Zeitpläne mit und schützt so vor dem häufigsten Fehler: zu viel Feuchtigkeit. Dieser Vergleich stützt sich auf Herstellerangaben, veröffentlichte unabhängige Testberichte und verifizierte Käuferbewertungen.</p>
 
-<h2>Welche Luftfeuchtigkeit ist ideal? Die 40–60-%-Regel</h2>
-<p>Wohlbefinden und Gesundheit bewegen sich in einem recht schmalen Bereich. Unter 40 % relativer Luftfeuchtigkeit trocknen die Schleimhäute in Nase und Rachen aus, die Haut spannt und die Augen brennen. Über 60 % kippt das Problem: Kondenswasser an den Fenstern, Schimmel in den Ecken, mehr Hausstaubmilben. Ziel ist ein Wert zwischen 40 und 60 %, im Winter im Wohnbereich idealerweise um 45 bis 50 %.</p>
-<p>Genau hier spielt ein vernetztes Gerät seine Stärke aus: Sie legen einen Zielwert fest (etwa 50 %), das Gerät misst laufend und schaltet sich selbst ab, sobald der Wert erreicht ist. Für verlässliche Messwerte lohnt sich ein separates Hygrometer am anderen Ende des Raums, denn der eingebaute Sensor misst direkt neben dem Nebelauslass. Unser Ratgeber zu <a href="/de/blog/qualite-air-interieur-capteurs">Sensoren für die Raumluftqualität</a> erklärt, wo man sie am besten platziert. Und wenn Ihre Wohnung das gegenteilige Problem hat, also zu feucht ist, brauchen Sie einen <a href="/de/blog/deshumidificateur-connecte-guide">smarten Luftentfeuchter</a> und keinen Befeuchter.</p>
+<h2>Welche Luftfeuchtigkeit ist ideal? Die Faustregel 40 bis 60 %</h2>
+<p>Für Wohlbefinden und Gesundheit ist der Spielraum recht schmal. Unter 40 % relativer Luftfeuchtigkeit trocknen die Schleimhäute in Nase und Rachen aus, die Haut spannt und die Augen brennen. Über 60 % dreht sich das Risiko um: Kondenswasser an den Fenstern, Schimmel in den Ecken, mehr Hausstaubmilben. Ziel ist ein Wert zwischen 40 und 60 %, im Winter im Wohnbereich idealerweise um 45 bis 50 %.</p>
+<p>Genau hier spielt ein smartes Gerät seine Stärke aus: Sie legen einen Zielwert fest (etwa 50 %), das Gerät misst laufend und schaltet sich selbst ab, sobald der Wert erreicht ist. Für verlässliche Messwerte lohnt sich ein separates Hygrometer am anderen Ende des Raums, denn der eingebaute Sensor misst direkt neben dem Nebelauslass. Unser Ratgeber zu <a href="/de/blog/qualite-air-interieur-capteurs">Sensoren für die Raumluftqualität</a> erklärt, wo Sie solche Messgeräte am besten aufstellen. Und wenn Ihre Wohnung das gegenteilige Problem hat, also zu feucht ist, brauchen Sie einen <a href="/de/blog/deshumidificateur-connecte-guide">smarten Luftentfeuchter</a> und keinen Befeuchter.</p>
 
-<h2>Verdunster oder Ultraschall: die eigentliche Grundsatzfrage</h2>
+<h2>Verdunster oder Ultraschall: die entscheidende Frage</h2>
 <h3>Ultraschall-Luftbefeuchter</h3>
-<p>Eine Membran schwingt mit sehr hoher Frequenz und verwandelt Wasser in einen sichtbaren, kühlen Nebel. Das ist die verbreitetste Technik: leise, sparsam, kompakt und günstig. Ihre große Schwäche ist kalkhaltiges Wasser. Alles, was im Leitungswasser gelöst ist (Calcium, Magnesium), gelangt mit dem Nebel in die Luft und setzt sich als <strong>weißer Staub</strong> auf Möbeln und Bildschirmen ab. In Regionen mit hartem Wasser empfiehlt sich dringend entmineralisiertes oder gefiltertes Wasser bzw. eine Entkalkungskartusche, sofern der Hersteller eine anbietet.</p>
+<p>Eine Membran schwingt mit sehr hoher Frequenz und verwandelt Wasser in einen sichtbaren, kühlen Nebel. Das ist die verbreitetste Technik: leise, sparsam, kompakt und günstig. Ihre große Schwäche ist kalkhaltiges Wasser. Alles, was im Leitungswasser gelöst ist (Calcium, Magnesium), gelangt mit dem Nebel in die Luft und setzt sich als <strong>weißer Staub</strong> auf Möbeln und Bildschirmen ab. In Regionen mit hartem Wasser sollten Sie unbedingt entmineralisiertes oder gefiltertes Wasser verwenden oder eine Entkalkungskartusche, sofern der Hersteller eine anbietet.</p>
 <h3>Verdunster</h3>
-<p>Ein Ventilator bläst Luft durch einen feuchten Docht oder Filter. Die Feuchtigkeit gelangt als unsichtbarer Wasserdampf in den Raum, ganz ohne Tröpfchen. Vorteile: kein weißer Staub (die Mineralien bleiben im Docht) und eine Selbstregulierung, da die Verdunstung bei bereits feuchter Luft von selbst nachlässt. Nachteile: Der Ventilator rauscht leise, Dochte und Matten sind Verbrauchsmaterial, das entkalkt und ersetzt werden muss, und die Geräte fallen oft größer aus.</p>
+<p>Ein Ventilator bläst Luft durch einen feuchten Docht oder Filter. Die Feuchtigkeit gelangt als unsichtbarer Wasserdampf in den Raum, ganz ohne Tröpfchen. Vorteile: kein weißer Staub (die Mineralien bleiben im Docht) und eine natürliche Selbstregulierung, denn bei bereits feuchter Luft verdunstet von selbst weniger Wasser. Nachteile: Der Ventilator rauscht leise, Dochte und Matten sind Verbrauchsmaterial, das entkalkt und ersetzt werden muss, und die Geräte fallen oft größer aus.</p>
 <h3>Und Verdampfer?</h3>
-<p>Verdampfer kochen das Wasser ab, was das Keimwachstum begrenzt, verbrauchen aber deutlich mehr Strom und bergen in der Nähe von Kindern Verbrühungsgefahr. Keines der hier ausgewählten smarten Modelle nutzt diese Technik.</p>
+<p>Verdampfer bringen das Wasser zum Kochen, was das Keimwachstum hemmt, verbrauchen aber deutlich mehr Strom und bergen in der Nähe von Kindern Verbrühungsgefahr. Keines der hier ausgewählten smarten Modelle nutzt diese Technik.</p>
 
 <h2>Worauf es beim Kauf ankommt</h2>
 <ul>
 <li><strong>Raumgröße</strong>: Orientieren Sie sich an der vom Hersteller empfohlenen Fläche und an der Befeuchtungsleistung (in ml/h). Ein zu kleines Gerät läuft ständig auf Höchststufe und ist dadurch lauter.</li>
-<li><strong>Tankvolumen</strong>: 4 bis 10 Liter in unserer Auswahl. Größerer Tank heißt seltener nachfüllen, aber aufwendiger reinigen.</li>
+<li><strong>Tankvolumen</strong>: 4 bis 10 Liter in unserer Auswahl. Je größer der Tank, desto seltener füllen Sie nach, desto umständlicher ist aber auch die Reinigung.</li>
 <li><strong>Befüllung von oben</strong>: im Alltag ein echter Komfortgewinn, der auch die Reinigung erleichtert.</li>
-<li><strong>Hygrostat und Automatik</strong>: unverzichtbar, um nicht über 60 % zu kommen.</li>
-<li><strong>Lautstärke</strong>: Fürs Schlafzimmer einen Nachtmodus um 30 dB oder weniger und ein abschaltbares Display wählen.</li>
+<li><strong>Hygrostat und Automatik</strong>: ein Muss, damit die Luftfeuchtigkeit nicht über 60 % steigt.</li>
+<li><strong>Lautstärke</strong>: Fürs Schlafzimmer sollte der Nachtmodus laut Hersteller bei etwa 30 dB oder darunter liegen, und das Display sollte sich abschalten lassen.</li>
 <li><strong>Hygiene</strong>: UV-C-Wasserbehandlung, antibakterielle Materialien, zerlegbare und leicht abspülbare Teile.</li>
 <li><strong>Vernetzung</strong>: stabile App, WLAN mit 2,4 GHz, Unterstützung für Alexa oder Google Home, Hinweise bei leerem Tank oder fälligem Filterwechsel.</li>
-<li><strong>Verbrauchsmaterial</strong>: Dochte, HEPA-Filter, Entkalkungskartuschen. Ihre langfristige Verfügbarkeit zählt genauso wie das Gerät selbst.</li>
+<li><strong>Verbrauchsmaterial</strong>: Dochte, HEPA-Filter, Entkalkungskartuschen. Dass es sie auch in einigen Jahren noch gibt, ist genauso wichtig wie das Gerät selbst.</li>
 </ul>
 
 <h2>Die 5 besten smarten Luftbefeuchter 2026</h2>
 
 <h3>1. Boneco H700 Smart: die beste Wahl insgesamt</h3>
-<p>Der H700 Smart ist ein Hybridgerät: Er befeuchtet per Verdunstung über Befeuchtungsmatten und reinigt die Luft mit einer Kombination aus HEPA- und Aktivkohlefilter. Er arbeitet wahlweise nur als Befeuchter, nur als Luftreiniger oder in beiden Funktionen gleichzeitig. Boneco empfiehlt ihn für Räume bis 150 m², mit 10-Liter-Tank und einer hohen Befeuchtungsleistung von rund einem Liter pro Stunde auf Maximalstufe laut Hersteller. Die Smart-Version verbindet sich per WLAN mit der Boneco-App, zeigt Luftfeuchtigkeit, Temperatur und Luftqualität an, erlaubt Zeitpläne und lässt sich per Sprache über Amazon Alexa und Google Home steuern.</p>
+<p>Der H700 Smart ist ein Hybridgerät: Er befeuchtet per Verdunstung über Befeuchtungsmatten und reinigt die Luft mit einer Kombination aus HEPA- und Aktivkohlefilter. Er arbeitet wahlweise nur als Befeuchter, nur als Luftreiniger oder in beiden Funktionen gleichzeitig. Boneco empfiehlt ihn für Räume bis 150 m². Der Tank fasst 10 Liter, die Befeuchtungsleistung ist hoch: laut Hersteller rund ein Liter pro Stunde auf höchster Stufe. Die Smart-Version verbindet sich per WLAN mit der Boneco-App, zeigt Luftfeuchtigkeit, Temperatur und Luftqualität an, erlaubt Zeitpläne und lässt sich per Sprache über Amazon Alexa und Google Home steuern.</p>
 <p><strong>Stärken</strong>: Verdunstung ohne weißen Staub, sehr große Raumabdeckung, integrierte Luftreinigung, eigene Profile (Schlaf, Baby), vollständige Fernsteuerung.<br>
-<strong>Schwächen</strong>: groß und schwer, Premiumklasse, Matten und Filter müssen regelmäßig ersetzt werden, auf Höchststufe hörbarer Luftstrom.<br>
-<strong>Für wen</strong>: große Wohnzimmer, offene Wohnbereiche und Allergikerhaushalte, die ein Gerät für Befeuchtung und Reinigung wollen.</p>
+<strong>Schwächen</strong>: groß und schwer, Premiumsegment, Matten und Filter müssen regelmäßig ersetzt werden, auf Höchststufe hörbarer Luftstrom.<br>
+<strong>Für wen</strong>: große Wohnzimmer, offene Wohnbereiche und Haushalte mit Allergikern, die ein einziges Gerät für Befeuchtung und Luftreinigung wollen.</p>
 
 <h3>2. Levoit Classic 300S: das beste Preis-Leistungs-Verhältnis</h3>
 <p>Der Classic 300S ist ein Ultraschall-Luftbefeuchter mit 6-Liter-Tank und Befüllung von oben, ausgelegt für mittelgroße Räume. Er hat einen eingebauten Feuchtigkeitssensor mit Automatikmodus, ein dimmbares Nachtlicht und ein Aroma-Pad für ätherische Öle. Gesteuert wird er über die VeSync-App (Zeitpläne, Zielwert, Schlafmodus), außerdem funktioniert er mit Alexa und Google Assistant.</p>
 <p><strong>Stärken</strong>: sehr einfach zu befüllen und zu reinigen, zuverlässiger Automatikmodus, umfangreiche App, kompakte Bauweise.<br>
 <strong>Schwächen</strong>: Ultraschall reagiert empfindlich auf hartes Wasser (weißer Staub), der eingebaute Sensor sitzt nah am Nebel und kann die Raumfeuchte überschätzen, häufige Reinigung nötig.<br>
-<strong>Für wen</strong>: mittelgroßes Schlaf- oder Wohnzimmer, Einstieg ins Smart Home, Haushalte mit weichem Wasser oder Bereitschaft zu entmineralisiertem Wasser.</p>
+<strong>Für wen</strong>: mittelgroße Schlaf- oder Wohnzimmer, das erste smarte Gerät, Haushalte mit weichem Wasser oder alle, die entmineralisiertes Wasser verwenden möchten.</p>
 
 <h3>3. Dyson Purifier Humidify+Cool Formaldehyde PH04: das 3-in-1 für Allergiker</h3>
-<p>Der PH04 vereint Luftreiniger, Luftbefeuchter und Ventilator. Er befeuchtet per Verdunstung: Das Wasser passiert zunächst ein UV-C-Licht, das laut Dyson 99,9 % der Bakterien im Wasser abtötet, und verdunstet dann über ein 3D-Gewebe mit eingewebten Silberfäden. Der HEPA-H13-Filter hält Feinstaub zurück, und die Formaldehyde-Version erkennt und zersetzt Formaldehyd. Gesteuert wird über die MyDyson-App mit Echtzeitanzeige der Luftqualität; für das Wassersystem gibt es einen Tiefenreinigungszyklus.</p>
-<p><strong>Stärken</strong>: kein Nebel und kein weißer Staub, UV-C-Wasserbehandlung, sehr umfassende Luftreinigung, Kühlfunktion im Sommer, hochwertiges Design.<br>
-<strong>Schwächen</strong>: das hochpreisigste Modell im Vergleich, geringere Befeuchtungsleistung als ein reiner Befeuchter für große Räume, teure Ersatzfilter.<br>
+<p>Der PH04 vereint Luftreiniger, Luftbefeuchter und Ventilator. Er befeuchtet per Verdunstung: Das Wasser fließt zuerst an UV-C-Licht vorbei, das laut Dyson 99,9 % der Bakterien im Wasser abtötet, und verdunstet dann über ein 3D-Gewebe, in das Silberfäden eingearbeitet sind. Der HEPA-H13-Filter hält Feinstaub zurück, und die Formaldehyde-Version erkennt und zersetzt Formaldehyd. Gesteuert wird er über die MyDyson-App, die die Luftqualität in Echtzeit anzeigt. Für den Wasserkreislauf gibt es ein Tiefenreinigungsprogramm.</p>
+<p><strong>Stärken</strong>: kein Nebel und kein weißer Staub, UV-C-Wasserbehandlung, sehr umfassende Luftreinigung, im Sommer als Ventilator nutzbar, hochwertiges Design.<br>
+<strong>Schwächen</strong>: das hochpreisigste Modell in diesem Vergleich, geringere Befeuchtungsleistung als ein reiner Befeuchter für große Räume, teure Ersatzfilter.<br>
 <strong>Für wen</strong>: Allergiker und Menschen, die empfindlich auf Innenraumschadstoffe reagieren und ein Gerät fürs ganze Jahr wollen.</p>
 
-<h3>4. Levoit OasisMist 1000S: Ausdauer für große Räume</h3>
+<h3>4. Levoit OasisMist 1000S: lange Laufzeit für große Räume</h3>
 <p>Dieser Ultraschall-Turm fasst 10 Liter, was laut Levoit bis zu 100 Stunden auf niedriger Stufe reicht, und ist für Räume bis etwa 55 m² ausgelegt. Befüllt wird von oben, der Nebel steigt hoch auf und verteilt sich so besser, und der Schlafmodus wird mit unter 28 dB angegeben. Die VeSync-App regelt Zielwert, Zeitpläne und Automatik, Alexa und Google Assistant werden unterstützt.</p>
-<p><strong>Stärken</strong>: herausragende Laufzeit, große Raumabdeckung, nachts sehr leise, schlanke Turmform.<br>
+<p><strong>Stärken</strong>: herausragende Laufzeit, große Raumabdeckung, nachts sehr leise, Turmform mit wenig Stellfläche.<br>
 <strong>Schwächen</strong>: Ultraschall, also weißer Staub bei hartem Wasser; der große Tank ist aufwendiger zu reinigen und voll recht schwer.<br>
 <strong>Für wen</strong>: großzügige Wohn- und Schlafzimmer, alle, die nicht täglich nachfüllen möchten.</p>
 
 <h3>5. Xiaomi Smart Humidifier 2: kompakt, vernetzt und mit UV-C</h3>
-<p>Der Smart Humidifier 2 ist ein Ultraschall-Luftbefeuchter mit 4,5-Liter-Tank, 350 ml/h Leistung und einer angegebenen Lautstärke von 38 dB. Er bietet UV-C-Wasserentkeimung, eine Aroma-Schublade und einen 360°-Nebelausstoß. Gesteuert wird er über die Xiaomi-Home-App mit Zielwert und Zeitplänen.</p>
+<p>Der Smart Humidifier 2 ist ein Ultraschall-Luftbefeuchter mit 4,5-Liter-Tank, einer Befeuchtungsleistung von 350 ml/h und einer angegebenen Lautstärke von 38 dB. Er bietet UV-C-Wasserentkeimung, eine Aroma-Schublade und einen 360°-Nebelausstoß. Gesteuert wird er über die Xiaomi-Home-App mit Zielwert und Zeitplänen.</p>
 <p><strong>Stärken</strong>: UV-C in dieser Preisklasse, kompakte Größe, passt gut ins System, wenn Sie bereits Xiaomi-Geräte nutzen.<br>
 <strong>Schwächen</strong>: im Nachtmodus lauter als die Levoit-Modelle, weißer Staub mit Leitungswasser möglich, Xiaomi Home ist weniger universell.<br>
 <strong>Für wen</strong>: Schlafzimmer und Arbeitszimmer, bestehende Xiaomi-Nutzer.</p>
@@ -326,10 +326,10 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Hygiene und Pflege: der oft vernachlässigte Teil</h2>
-<p>Ein schlecht gepflegter Luftbefeuchter kann in die Raumluft abgeben, was in seinem Tank wächst. Stehendes Wasser begünstigt Bakterien und Schimmel, unabhängig von der Technik. Ein paar einfache Regeln:</p>
+<p>Ein schlecht gepflegter Luftbefeuchter kann alles, was in seinem Tank wächst, in der Raumluft verteilen. Stehendes Wasser begünstigt Bakterien und Schimmel, unabhängig von der Technik. Ein paar einfache Regeln:</p>
 <ul>
 <li>Tank täglich leeren und trocknen lassen, wenn das Gerät nicht läuft; Wasser nie tagelang stehen lassen.</li>
-<li>Mindestens einmal pro Woche mit Essig oder Zitronensäure entkalken, gemäß Bedienungsanleitung, und anschließend gründlich ausspülen.</li>
+<li>Mindestens einmal pro Woche nach Anleitung des Herstellers mit Essig oder Zitronensäure entkalken und anschließend gründlich ausspülen.</li>
 <li>Dochte, Matten und Filter in den angegebenen Intervallen tauschen, früher, wenn sie hart werden oder riechen.</li>
 <li>Bei hartem Wasser im Ultraschallgerät entmineralisiertes oder gefiltertes Wasser verwenden.</li>
 <li>Vor dem Reinigen oder Befüllen immer den Netzstecker ziehen.</li>
@@ -339,77 +339,77 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Dauerbetrieb ohne Zielwert</strong>: Über 60 % fördern Sie Schimmel und Milben. Nutzen Sie immer den Automatikmodus.</li>
 <li><strong>Ätherische Öle in den Tank geben</strong>: Sie können Kunststoffe und Membran beschädigen. Nur das vorgesehene Pad oder Fach nutzen und bei Kindern, Schwangeren und Haustieren vorsichtig sein.</li>
-<li><strong>Gerät auf den Boden oder an die Wand stellen</strong>: auf eine stabile, erhöhte Fläche stellen, mit Abstand zu Wänden, Holzmöbeln, Vorhängen und Steckdosen.</li>
+<li><strong>Gerät auf den Boden oder an die Wand stellen</strong>: Stellen Sie es auf eine stabile, erhöhte Fläche, mit Abstand zu Wänden, Holzmöbeln, Vorhängen und Steckdosen.</li>
 <li><strong>Nebel aufs Bett oder auf Elektronik richten</strong>: Lokales Kondenswasser kann Textilien und Geräte schädigen.</li>
-<li><strong>Zu klein kaufen</strong>: Ein überfordertes Gerät läuft auf Vollgas, wird lauter und erreicht den Zielwert nie.</li>
-<li><strong>Das Lüften vergessen</strong>: Ein paar Minuten Stoßlüften täglich bleiben für frische Luft nötig.</li>
+<li><strong>Zu klein kaufen</strong>: Ein überfordertes Gerät läuft ständig auf Höchststufe, wird lauter und erreicht den Zielwert nie.</li>
+<li><strong>Das Lüften vergessen</strong>: Auch mit Luftbefeuchter sollten Sie täglich ein paar Minuten stoßlüften.</li>
 </ul>
 
 <h2>Einrichtung und Sicherheit</h2>
-<p>Ein smarter Luftbefeuchter wird einfach in die Steckdose gesteckt und in wenigen Minuten mit der App gekoppelt; prüfen Sie, ob Ihr Router ein 2,4-GHz-WLAN bereitstellt, das die meisten dieser Geräte nutzen. Im Kinderzimmer Gerät und Kabel außer Reichweite aufstellen und kühlen Nebel bevorzugen. Menschen mit Asthma oder Atemwegserkrankungen sollten die passende Luftfeuchtigkeit mit medizinischem Fachpersonal abklären.</p>
+<p>Ein smarter Luftbefeuchter wird einfach in die Steckdose gesteckt und in wenigen Minuten mit der App gekoppelt; prüfen Sie, ob Ihr Router ein 2,4-GHz-WLAN bereitstellt, das die meisten dieser Geräte nutzen. Im Babyzimmer stellen Sie Gerät und Kabel außer Reichweite auf und wählen besser kühlen Nebel. Menschen mit Asthma oder Atemwegserkrankungen sollten die passende Luftfeuchtigkeit mit medizinischem Fachpersonal abklären.</p>
 
 <h2>Unser Fazit</h2>
-<p>Für die meisten Haushalte, die eine Komplettlösung ohne weißen Staub suchen, ist der <strong>Boneco H700 Smart</strong> die erste Wahl: Verdunstung, große Raumabdeckung und Luftreinigung in einem vernetzten Gerät. Der <strong>Levoit Classic 300S</strong> ist der beste Einstieg, einfach und durchdacht, sofern Sie das Thema Kalk im Griff haben. Allergiker, die das ganze Jahr reinigen, befeuchten und kühlen wollen, sind beim <strong>Dyson PH04</strong> richtig. Egal, wofür Sie sich entscheiden: Zielwert zwischen 40 und 60 % einstellen, regelmäßig reinigen und die tatsächliche Luftfeuchtigkeit mit einem unabhängigen Sensor kontrollieren.</p>`,
-    es: `<p>Para la mayoría de hogares, el mejor humidificador inteligente de 2026 es el <strong>Boneco H700 Smart</strong>: humidifica por evaporación (sin polvo blanco), cubre estancias grandes, purifica el aire a la vez y se controla por completo mediante wifi. Si buscas sobre todo un modelo conectado asequible para un dormitorio o un salón mediano, el <strong>Levoit Classic 300S</strong> es la opción más sensata, siempre que lo uses con agua blanda o desmineralizada.</p>
-<p>Un humidificador eleva la humedad relativa del aire interior cuando baja del 40 %, algo muy habitual en invierno con la calefacción encendida. Labios agrietados, garganta seca al despertar, calambrazos de electricidad estática, plantas que sufren o un parquet que se abre son las señales típicas de un aire demasiado seco. Un modelo inteligente añade higrostato, modo automático, app y programaciones, lo que evita el error más común: humidificar de más. Esta comparativa se basa en las especificaciones de los fabricantes, análisis independientes publicados y opiniones de compradores verificados.</p>
+<p>Für die meisten Haushalte, die eine Komplettlösung ohne weißen Staub suchen, ist der <strong>Boneco H700 Smart</strong> die erste Wahl: Verdunstung, große Raumabdeckung und Luftreinigung in einem vernetzten Gerät. Der <strong>Levoit Classic 300S</strong> ist der beste Einstieg, einfach und durchdacht, sofern Sie das Thema Kalk im Griff haben. Allergiker, die die Luft das ganze Jahr reinigen, befeuchten und umwälzen wollen, sind beim <strong>Dyson PH04</strong> richtig. Egal, wofür Sie sich entscheiden: Stellen Sie einen Zielwert zwischen 40 und 60 % ein, reinigen Sie das Gerät regelmäßig und kontrollieren Sie die tatsächliche Luftfeuchtigkeit mit einem separaten Messgerät.</p>`,
+    es: `<p>Para la mayoría de los hogares, el mejor humidificador con wifi de 2026 es el <strong>Boneco H700 Smart</strong>: humidifica por evaporación (así que no deja polvo blanco), cubre estancias grandes, purifica el aire al mismo tiempo y se controla por wifi. Si lo que buscas es sobre todo un modelo conectado asequible para un dormitorio o un salón de tamaño medio, el <strong>Levoit Classic 300S</strong> es la opción más sensata, siempre que lo uses con agua con poca cal.</p>
+<p>Un humidificador sirve para subir la humedad relativa del aire de casa cuando baja del 40 %, algo muy habitual en invierno con la calefacción puesta. Labios agrietados, garganta seca al despertar, calambrazos por la electricidad estática, plantas que sufren o un parquet que se abre: son las señales típicas de un aire demasiado seco. La versión conectada añade higrostato, modo automático, app y programaciones, y así evita el error más común: humidificar de más. Esta comparativa se basa en las fichas técnicas de los fabricantes, en análisis independientes publicados y en opiniones de compradores verificados.</p>
 
 <h2>¿Qué humedad conviene? La regla del 40 al 60 %</h2>
-<p>El confort y la salud se mueven en una franja bastante estrecha. Por debajo del 40 % de humedad relativa, las mucosas de la nariz y la garganta se resecan, la piel tira y los ojos escuecen. Por encima del 60 %, el problema cambia de bando: condensación en los cristales, moho en las esquinas y más ácaros. El objetivo es mantenerse entre el 40 y el 60 %, idealmente en torno al 45-50 % en invierno en las zonas de estar.</p>
-<p>Aquí es donde un modelo conectado marca la diferencia: fijas un objetivo (por ejemplo, 50 %), el aparato mide de forma continua y se detiene solo al alcanzarlo. Para una lectura fiable, conviene añadir un higrómetro independiente al otro lado de la habitación, porque el sensor integrado mide el aire junto a la salida de vapor. Nuestra guía sobre <a href="/es/blog/qualite-air-interieur-capteurs">sensores de calidad del aire interior</a> explica dónde colocarlos. Y si tu vivienda tiene el problema contrario, exceso de humedad, lo que necesitas es un <a href="/es/blog/deshumidificateur-connecte-guide">deshumidificador inteligente</a>, no un humidificador.</p>
+<p>El confort y la salud se juegan en una franja bastante estrecha. Por debajo del 40 % de humedad relativa, las mucosas de la nariz y la garganta se resecan, la piel tira y pican los ojos. Por encima del 60 %, el problema es el contrario: condensación en los cristales, moho en las esquinas y proliferación de ácaros. El objetivo, por tanto, es moverse entre el 40 y el 60 %, idealmente en torno al 45-50 % en invierno en la zona de día de la casa.</p>
+<p>Justo ahí es donde un modelo conectado marca la diferencia: fijas un objetivo (por ejemplo, 50 %), el aparato mide sin parar y se apaga solo cuando lo alcanza. Para tener una lectura fiable, conviene completar el sensor integrado con un higrómetro colocado en el otro extremo de la habitación, porque el aparato mide el aire que tiene justo al lado de su salida de vapor. Nuestra guía sobre los <a href="/es/blog/qualite-air-interieur-capteurs">medidores de calidad del aire interior</a> explica dónde colocar bien estos sensores. Y si en tu casa el problema es el contrario, el exceso de humedad, lo que necesitas es un <a href="/es/blog/deshumidificateur-connecte-guide">deshumidificador con wifi</a>, no un humidificador.</p>
 
-<h2>Evaporativo o ultrasónico: la decisión clave</h2>
+<h2>Evaporativo o ultrasónico: lo primero que hay que decidir</h2>
 <h3>Humidificadores ultrasónicos</h3>
-<p>Una membrana vibra a muy alta frecuencia y convierte el agua en una neblina fría y visible. Es la tecnología más extendida: silenciosa, de bajo consumo, compacta y asequible. Su gran punto débil es el agua dura. Todo lo que lleva disuelto el agua del grifo (calcio, magnesio) sale al aire con la neblina y se deposita como <strong>polvo blanco</strong> sobre muebles y pantallas. En zonas de agua dura se recomienda encarecidamente usar agua desmineralizada o filtrada, o un cartucho antical si el fabricante lo ofrece.</p>
+<p>Una membrana vibra a una frecuencia muy alta y convierte el agua en una neblina fría y visible. Es la tecnología más extendida: silenciosa, de bajo consumo, compacta y asequible. Su gran punto débil es el agua dura. Todo lo que lleva disuelto el agua del grifo (calcio, magnesio) sale al aire con la neblina y luego se deposita en forma de <strong>polvo blanco</strong> sobre los muebles y las pantallas. En las zonas con agua dura es muy recomendable usar agua desmineralizada o filtrada, o un cartucho antical si el fabricante lo ofrece.</p>
 <h3>Humidificadores evaporativos</h3>
-<p>Un ventilador hace pasar el aire por una mecha o filtro empapado. La humedad se añade como vapor de agua invisible, sin gotas. Ventajas: no hay polvo blanco (los minerales quedan atrapados en la mecha) y el funcionamiento se autorregula, ya que la evaporación se frena de forma natural cuando el aire ya está húmedo. Contrapartidas: el ventilador produce un ligero soplido, las mechas y esteras son consumibles que hay que descalcificar y sustituir, y los aparatos suelen ser más voluminosos.</p>
+<p>Un ventilador hace pasar el aire a través de un filtro o una mecha empapados de agua. La humedad se añade en forma de vapor de agua invisible, sin gotitas. Ventajas: no hay polvo blanco (los minerales se quedan atrapados en la mecha) y el aparato se autorregula, porque la evaporación se frena de forma natural cuando el aire ya está húmedo. A cambio, el ventilador produce un ligero soplido, las mechas y esteras son consumibles que hay que descalcificar y cambiar, y el aparato suele abultar más.</p>
 <h3>¿Y el vapor caliente?</h3>
-<p>Los humidificadores de vapor caliente hierven el agua, lo que limita el desarrollo de microbios, pero consumen bastante más electricidad y suponen riesgo de quemaduras cerca de niños. Ninguno de los modelos inteligentes seleccionados aquí usa esta tecnología.</p>
+<p>Los humidificadores de vapor caliente hierven el agua, lo que limita la proliferación de microbios, pero gastan bastante más luz y hay riesgo de quemaduras si hay niños cerca. Ninguno de los modelos conectados que hemos seleccionado usa esta tecnología.</p>
 
-<h2>Criterios de compra</h2>
+<h2>Criterios para elegir bien</h2>
 <ul>
-<li><strong>Superficie</strong>: guíate por la superficie recomendada por el fabricante y el caudal de humidificación (en ml/h). Un aparato corto de potencia funcionará siempre al máximo y hará más ruido.</li>
-<li><strong>Capacidad del depósito</strong>: de 4 a 10 litros en nuestra selección. Un depósito grande implica rellenar menos, pero cuesta más limpiarlo.</li>
-<li><strong>Llenado por arriba</strong>: una comodidad real en el día a día que también facilita la limpieza.</li>
-<li><strong>Higrostato y modo automático</strong>: imprescindibles para no superar el 60 %.</li>
-<li><strong>Ruido</strong>: para el dormitorio, busca un modo nocturno de unos 30 dB o menos y una pantalla que se apague.</li>
-<li><strong>Higiene</strong>: tratamiento del agua con UV-C, materiales antibacterianos, piezas desmontables y fáciles de enjuagar.</li>
-<li><strong>Conectividad</strong>: app estable, wifi de 2,4 GHz, compatibilidad con Alexa o Google Home, avisos de depósito vacío o cambio de filtro.</li>
-<li><strong>Consumibles</strong>: mechas, filtros HEPA, cartuchos antical. Su disponibilidad a largo plazo importa tanto como el propio aparato.</li>
+<li><strong>Superficie que cubre</strong>: guíate por la superficie que recomienda el fabricante y por el caudal de humidificación (en ml/h). Un aparato que se quede corto funcionará siempre al máximo y, por tanto, hará más ruido.</li>
+<li><strong>Capacidad del depósito</strong>: de 4 a 10 litros en nuestra selección. Cuanto más grande es el depósito, menos veces lo rellenas, pero más engorroso es limpiarlo.</li>
+<li><strong>Llenado por arriba</strong>: una comodidad real en el día a día, que además facilita la limpieza.</li>
+<li><strong>Higrostato y modo automático</strong>: imprescindibles para no pasar del 60 %.</li>
+<li><strong>Ruido</strong>: para el dormitorio, busca un modo noche anunciado en torno a 30 dB o menos, y una pantalla que se apague.</li>
+<li><strong>Higiene</strong>: tratamiento del agua con UV-C, materiales antibacterianos y piezas desmontables que se puedan enjuagar fácilmente.</li>
+<li><strong>Conectividad</strong>: app estable, wifi de 2,4 GHz, compatibilidad con Alexa o Google Home, avisos de depósito vacío o de filtro que hay que cambiar.</li>
+<li><strong>Consumibles</strong>: mechas, filtros HEPA, cartuchos antical. Que se sigan encontrando con los años importa tanto como el propio aparato.</li>
 </ul>
 
-<h2>Los 5 mejores humidificadores inteligentes de 2026</h2>
+<h2>Los 5 mejores humidificadores con wifi de 2026</h2>
 
-<h3>1. Boneco H700 Smart: la mejor opción global</h3>
-<p>El H700 Smart es un equipo híbrido: humidifica por evaporación mediante esteras humidificadoras y purifica el aire con una combinación de filtro HEPA y carbón activo. Puede funcionar solo como humidificador, solo como purificador o ambas cosas a la vez. Boneco lo recomienda para estancias de hasta 150 m², con un depósito de 10 litros y un caudal elevado, de alrededor de un litro por hora a máxima potencia según el fabricante. La versión Smart se conecta por wifi a la app de Boneco, muestra humedad, temperatura y calidad del aire, permite programaciones y acepta órdenes de voz con Amazon Alexa y Google Home.</p>
-<p><strong>Puntos fuertes</strong>: evaporación sin polvo blanco, cobertura muy amplia, purificación integrada, perfiles específicos (noche, bebé), control remoto completo.<br>
-<strong>Limitaciones</strong>: grande y pesado, gama alta, esteras y filtros que hay que cambiar con regularidad, flujo de aire audible a máxima potencia.<br>
-<strong>Para quién</strong>: salones grandes, espacios abiertos y hogares con alergias que quieren un solo aparato para humedad y purificación.</p>
+<h3>1. Boneco H700 Smart: el mejor en general</h3>
+<p>El H700 Smart es un aparato híbrido: humidifica por evaporación a través de esteras humidificadoras y purifica el aire con una combinación de filtros HEPA y de carbón activo. Puede funcionar solo como humidificador, solo como purificador o como ambas cosas a la vez. Boneco lo recomienda para estancias de hasta 150 m², con un depósito de 10 litros y un caudal de humidificación elevado, de alrededor de un litro por hora a máxima potencia, según el fabricante. La versión Smart se conecta por wifi a la app de Boneco, muestra la humedad, la temperatura y la calidad del aire, permite programarlo y acepta órdenes de voz con Amazon Alexa y Google Home.</p>
+<p><strong>Puntos fuertes</strong>: evaporación sin polvo blanco, cobertura muy amplia, purificación integrada, perfiles específicos (noche, bebé), control a distancia completo.<br>
+<strong>Limitaciones</strong>: grande y pesado, de gama alta, esteras y filtros que hay que cambiar con regularidad, soplido audible a máxima potencia.<br>
+<strong>Para quién</strong>: salones grandes, espacios abiertos y hogares con alergias que quieren un solo aparato para humidificar y purificar.</p>
 
 <h3>2. Levoit Classic 300S: la mejor relación calidad-precio</h3>
-<p>El Classic 300S es un humidificador ultrasónico de 6 litros con llenado superior, pensado para estancias medianas. Incorpora sensor de humedad con modo automático, luz nocturna regulable y una almohadilla para aceites esenciales. Se controla con la app VeSync (horarios, humedad objetivo, modo noche) y funciona con Alexa y Google Assistant.</p>
-<p><strong>Puntos fuertes</strong>: muy fácil de llenar y limpiar, modo automático eficaz, app completa, formato compacto.<br>
-<strong>Limitaciones</strong>: la tecnología ultrasónica es sensible al agua dura (polvo blanco), el sensor integrado está cerca de la neblina y puede sobrestimar la humedad de la habitación, requiere limpieza frecuente.<br>
-<strong>Para quién</strong>: dormitorio o salón mediano, primera compra conectada, hogares con agua blanda o dispuestos a usar agua desmineralizada.</p>
+<p>El Classic 300S es un humidificador ultrasónico de 6 litros que se llena por arriba, pensado para estancias medianas. Lleva sensor de humedad con modo automático, luz nocturna regulable y una almohadilla para aceites esenciales. Se controla con la app VeSync (programaciones, humedad objetivo, modo noche) y funciona con Alexa y Google Assistant.</p>
+<p><strong>Puntos fuertes</strong>: muy fácil de llenar y de limpiar, modo automático eficaz, app completa, formato compacto.<br>
+<strong>Limitaciones</strong>: la tecnología ultrasónica no se lleva bien con el agua dura (polvo blanco), el sensor integrado está cerca de la neblina y puede sobrestimar la humedad de la habitación, y hay que limpiarlo a menudo.<br>
+<strong>Para quién</strong>: dormitorio o salón de tamaño medio, un primer aparato conectado, hogares con agua blanda o dispuestos a usar agua desmineralizada.</p>
 
 <h3>3. Dyson Purifier Humidify+Cool Formaldehyde PH04: el 3 en 1 para alérgicos</h3>
-<p>El PH04 combina purificador, humidificador y ventilador. Humidifica por evaporación: el agua pasa primero por una luz UV-C que, según Dyson, elimina el 99,9 % de las bacterias del agua y después se evapora a través de una malla 3D tejida con hilos de plata. El filtro HEPA H13 retiene las partículas finas y la versión Formaldehyde detecta y descompone el formaldehído. Se maneja con la app MyDyson, que muestra la calidad del aire en tiempo real, y ofrece un ciclo de limpieza profunda del circuito de agua.</p>
-<p><strong>Puntos fuertes</strong>: sin neblina ni polvo blanco, tratamiento del agua con UV-C, purificación muy completa, función ventilador en verano, diseño cuidado.<br>
-<strong>Limitaciones</strong>: el modelo más premium de la comparativa, menor caudal de humidificación que un humidificador dedicado para estancias grandes, filtros de recambio caros.<br>
-<strong>Para quién</strong>: personas alérgicas o sensibles a la contaminación interior que quieren un único aparato todo el año.</p>
+<p>El PH04 combina purificador, humidificador y ventilador. Humidifica por evaporación: el agua pasa primero por una luz UV-C que, según Dyson, elimina el 99,9 % de las bacterias presentes en el agua, y después se evapora a través de una malla 3D tejida con hilos de plata. El filtro HEPA H13 retiene las partículas finas, y la versión Formaldehyde detecta y descompone el formaldehído. Se maneja desde la app MyDyson, que muestra la calidad del aire en tiempo real, y tiene un ciclo de limpieza a fondo del circuito de agua.</p>
+<p><strong>Puntos fuertes</strong>: ni neblina ni polvo blanco, tratamiento del agua con UV-C, purificación muy completa, función ventilador en verano, diseño cuidado.<br>
+<strong>Limitaciones</strong>: el modelo de gama más alta de esta comparativa, menos caudal de humidificación que un humidificador específico para estancias grandes, filtros de recambio caros.<br>
+<strong>Para quién</strong>: personas alérgicas o sensibles a la contaminación del aire interior que quieren un único aparato para todo el año.</p>
 
 <h3>4. Levoit OasisMist 1000S: autonomía para estancias grandes</h3>
-<p>Esta torre ultrasónica tiene un depósito de 10 litros, suficiente para hasta 100 horas en velocidad baja según Levoit, y está pensada para estancias de hasta unos 55 m². Se llena por arriba, proyecta la neblina a buena altura para repartirla mejor y su modo sueño se anuncia por debajo de 28 dB. La app VeSync gestiona la humedad objetivo, los horarios y el modo automático, con compatibilidad con Alexa y Google Assistant.</p>
-<p><strong>Puntos fuertes</strong>: autonomía sobresaliente, cubre estancias grandes, muy silencioso de noche, formato torre que ocupa poco suelo.<br>
-<strong>Limitaciones</strong>: ultrasónico, por lo que deja polvo blanco con agua dura; el depósito grande cuesta más de limpiar y pesa lleno.<br>
-<strong>Para quién</strong>: salones y dormitorios amplios, y quien no quiera rellenar cada día.</p>
+<p>Este humidificador ultrasónico de torre lleva un depósito de 10 litros, que da para hasta 100 horas a velocidad baja según Levoit, y está pensado para estancias de hasta unos 55 m². Se llena por arriba, lanza la neblina a bastante altura para que se reparta mejor, y Levoit anuncia menos de 28 dB en modo sueño. La app VeSync gestiona la humedad objetivo, los horarios y el modo automático, y es compatible con Alexa y Google Assistant.</p>
+<p><strong>Puntos fuertes</strong>: autonomía excelente, cubre estancias grandes, muy silencioso de noche, formato torre que ocupa poco suelo.<br>
+<strong>Limitaciones</strong>: al ser ultrasónico, deja polvo blanco con agua dura; el depósito grande cuesta más de limpiar y pesa mucho lleno.<br>
+<strong>Para quién</strong>: salones y dormitorios amplios, y quien no quiera rellenarlo todos los días.</p>
 
 <h3>5. Xiaomi Smart Humidifier 2: compacto, conectado y con UV-C</h3>
-<p>El Smart Humidifier 2 es un humidificador ultrasónico de 4,5 litros con un caudal de 350 ml/h y un nivel sonoro anunciado de 38 dB. Incluye esterilización del agua por UV-C, un cajón para aromas y difusión de neblina en 360°. Se controla desde la app Xiaomi Home, con humedad objetivo y programaciones.</p>
-<p><strong>Puntos fuertes</strong>: UV-C en esta gama, tamaño compacto, encaja de forma natural si ya tienes otros dispositivos Xiaomi.<br>
-<strong>Limitaciones</strong>: más ruidoso que los Levoit en modo noche, posible polvo blanco con agua del grifo, Xiaomi Home es un ecosistema menos universal.<br>
-<strong>Para quién</strong>: dormitorios y despachos, usuarios que ya tienen productos Xiaomi.</p>
+<p>El Smart Humidifier 2 es un humidificador ultrasónico de 4,5 litros con un caudal de 350 ml/h y un nivel sonoro anunciado de 38 dB. Incluye esterilización del agua por UV-C, un cajón para aromas y difusión de la neblina en 360°. Se controla desde la app Xiaomi Home, con humedad objetivo y programaciones.</p>
+<p><strong>Puntos fuertes</strong>: UV-C en un modelo de esta gama, tamaño compacto, encaja de forma natural si ya tienes otros aparatos de Xiaomi.<br>
+<strong>Limitaciones</strong>: más ruidoso que los Levoit en modo noche, puede dejar polvo blanco con agua del grifo, Xiaomi Home es un ecosistema menos universal.<br>
+<strong>Para quién</strong>: dormitorios y despachos, y quien ya tenga aparatos de Xiaomi.</p>
 
-<p><strong>A tener en cuenta</strong>: los humidificadores evaporativos Philips Series 2000 y 3000 y el Stadler Form Oskar Big tienen buena fama por su higiene y la ausencia de polvo blanco, pero no ofrecen control por app. Siguen siendo buenas opciones si la conectividad no es prioritaria. Consulta toda la selección en nuestra página de <a href="/es/confort-air/humidificateurs">humidificadores</a>.</p>
+<p><strong>A tener en cuenta</strong>: los humidificadores evaporativos Philips Series 2000 y 3000 o el Stadler Form Oskar Big tienen fama de higiénicos y no dejan polvo blanco, pero no se pueden controlar desde una app. Siguen siendo buenas opciones si la conectividad no es una prioridad. Consulta toda la selección en nuestra página de <a href="/es/confort-air/humidificateurs">humidificadores</a>.</p>
 
 <h2>Tabla comparativa</h2>
 <table>
@@ -419,97 +419,97 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Boneco H700 Smart</td><td>Evaporación + purificación HEPA</td><td>Hasta 150 m²</td><td>Wifi, app Boneco, Alexa, Google Home</td><td>Espacios grandes, alergias</td></tr>
 <tr><td>Levoit Classic 300S</td><td>Ultrasónico, 6 L</td><td>Estancia mediana</td><td>Wifi, VeSync, Alexa, Google</td><td>Mejor relación calidad-precio</td></tr>
-<tr><td>Dyson PH04</td><td>Evaporación + UV-C + HEPA H13</td><td>Zona de estar</td><td>Wifi, MyDyson</td><td>3 en 1 todo el año</td></tr>
+<tr><td>Dyson PH04</td><td>Evaporación + UV-C + HEPA H13</td><td>Salón</td><td>Wifi, MyDyson</td><td>3 en 1 todo el año</td></tr>
 <tr><td>Levoit OasisMist 1000S</td><td>Ultrasónico, 10 L</td><td>Hasta unos 55 m²</td><td>Wifi, VeSync, Alexa, Google</td><td>Autonomía, dormitorio grande</td></tr>
 <tr><td>Xiaomi Smart Humidifier 2</td><td>Ultrasónico + UV-C, 4,5 L</td><td>Dormitorio, despacho</td><td>Wifi, Xiaomi Home</td><td>Ecosistema Xiaomi</td></tr>
 </tbody>
 </table>
 
 <h2>Higiene y mantenimiento: lo que más se descuida</h2>
-<p>Un humidificador mal mantenido puede liberar al aire lo que crece en su depósito. El agua estancada favorece bacterias y moho, sea cual sea la tecnología. Algunas reglas sencillas:</p>
+<p>Un humidificador mal cuidado puede soltar al aire lo que crece en su depósito. El agua estancada es un buen caldo de cultivo para bacterias y moho, sea cual sea la tecnología. Unas cuantas reglas sencillas:</p>
 <ul>
-<li>Vacía el depósito cada día y déjalo secar si no vas a usar el aparato; nunca dejes agua estancada varios días.</li>
-<li>Descalcifica al menos una vez por semana con vinagre blanco o ácido cítrico, siguiendo las instrucciones del fabricante, y aclara bien.</li>
+<li>Vacía el depósito cada día y déjalo secar si no vas a usar el aparato; no dejes nunca agua estancada varios días.</li>
+<li>Descalcifícalo al menos una vez por semana con vinagre blanco o ácido cítrico, siguiendo las instrucciones del fabricante, y aclara bien.</li>
 <li>Cambia mechas, esteras y filtros en los plazos indicados, o antes si se endurecen o huelen mal.</li>
-<li>Usa agua desmineralizada o filtrada en un modelo ultrasónico si tu agua es dura.</li>
+<li>Si tu agua es dura y tienes un modelo ultrasónico, usa agua desmineralizada o filtrada.</li>
 <li>Desenchufa siempre el aparato antes de limpiarlo o rellenarlo.</li>
 </ul>
 
 <h2>Errores que debes evitar</h2>
 <ul>
-<li><strong>Humidificar sin parar y sin objetivo</strong>: por encima del 60 % favoreces moho y ácaros. Activa siempre el modo automático.</li>
-<li><strong>Echar aceites esenciales en el depósito</strong>: pueden dañar los plásticos y la membrana. Usa solo la almohadilla o el cajón previstos y ten cuidado con niños, embarazadas y mascotas.</li>
-<li><strong>Dejarlo en el suelo o pegado a la pared</strong>: colócalo sobre una superficie estable y elevada, lejos de paredes, muebles de madera, cortinas y enchufes.</li>
-<li><strong>Dirigir la neblina hacia la cama o aparatos electrónicos</strong>: la condensación local puede estropear textiles y electrónica.</li>
-<li><strong>Quedarse corto de tamaño</strong>: un aparato saturado va al máximo, hace más ruido y nunca alcanza el objetivo.</li>
-<li><strong>Olvidarse de ventilar</strong>: unos minutos de ventilación al día siguen siendo necesarios para renovar el aire.</li>
+<li><strong>Humidificar sin parar y sin un objetivo fijado</strong>: por encima del 60 %, favoreces el moho y los ácaros. Activa siempre el modo automático.</li>
+<li><strong>Echar aceites esenciales en el depósito</strong>: pueden estropear los plásticos y la membrana. Usa solo la almohadilla o el cajón previstos, y ten cuidado con los niños, las embarazadas y las mascotas.</li>
+<li><strong>Dejarlo en el suelo o pegado a la pared</strong>: colócalo sobre una superficie estable y elevada, lejos de las paredes, los muebles de madera, las cortinas y los enchufes.</li>
+<li><strong>Dirigir la neblina hacia la cama o hacia un aparato electrónico</strong>: la condensación puede estropear los tejidos y la electrónica.</li>
+<li><strong>Quedarse corto de tamaño</strong>: un aparato desbordado va siempre a tope, hace más ruido y nunca llega al objetivo.</li>
+<li><strong>Olvidarse de ventilar</strong>: sigue haciendo falta abrir las ventanas unos minutos al día para renovar el aire.</li>
 </ul>
 
 <h2>Instalación y seguridad</h2>
-<p>Un humidificador inteligente se enchufa a una toma normal y se vincula con su app en pocos minutos; comprueba que tu router emite una red wifi de 2,4 GHz, la que usan la mayoría de estos aparatos. En la habitación de un bebé, coloca el aparato y su cable fuera de su alcance y elige neblina fría. Las personas con asma o problemas respiratorios deberían consultar a un profesional sanitario sobre el nivel de humedad adecuado para ellas.</p>
+<p>Un humidificador con wifi se enchufa a una toma de corriente normal y se vincula con su app en pocos minutos; comprueba que tu router emite una red wifi de 2,4 GHz, la que usan la mayoría de estos aparatos. En la habitación de un bebé, coloca el aparato fuera de su alcance, cable incluido, y elige neblina fría. Las personas con asma o problemas respiratorios deberían preguntar a un profesional sanitario qué nivel de humedad les conviene.</p>
 
 <h2>Nuestro veredicto</h2>
-<p>Para la mayoría de hogares que buscan una solución completa y sin polvo blanco, el <strong>Boneco H700 Smart</strong> es el referente: evaporación, gran cobertura y purificación en un único aparato conectado. El <strong>Levoit Classic 300S</strong> es la mejor puerta de entrada, sencillo y bien pensado, si controlas el tema de la cal. Los alérgicos que quieren purificar, humidificar y ventilar todo el año tienen en el <strong>Dyson PH04</strong> su opción. Elijas el que elijas, fija un objetivo entre el 40 y el 60 %, límpialo con regularidad y comprueba la humedad real con un sensor independiente.</p>`,
-    it: `<p>Per la maggior parte delle case, il miglior umidificatore smart del 2026 è il <strong>Boneco H700 Smart</strong>: umidifica per evaporazione (quindi senza polvere bianca), copre ambienti ampi, purifica l'aria allo stesso tempo e si controlla completamente via Wi-Fi. Se cerchi soprattutto un modello connesso accessibile per una camera o un soggiorno di medie dimensioni, il <strong>Levoit Classic 300S</strong> è la scelta più sensata, a patto di usarlo con acqua dolce o demineralizzata.</p>
-<p>Un umidificatore aumenta l'umidità relativa dell'aria in casa quando scende sotto il 40 %, cosa molto frequente in inverno con il riscaldamento acceso. Labbra screpolate, gola secca al risveglio, scosse elettrostatiche, piante sofferenti o parquet che si apre sono i segnali tipici di un'aria troppo secca. Un modello smart aggiunge igrostato, modalità automatica, app e programmazioni, evitando l'errore più comune: umidificare troppo. Questo confronto si basa sulle schede tecniche dei produttori, su recensioni indipendenti pubblicate e sui feedback di acquirenti verificati.</p>
+<p>Para la mayoría de los hogares que buscan una solución completa y sin polvo blanco, el <strong>Boneco H700 Smart</strong> es la mejor elección: evaporación, gran cobertura y purificación en un solo aparato conectado. El <strong>Levoit Classic 300S</strong> es la mejor opción para empezar, sencillo y bien pensado, siempre que tengas controlado el tema de la cal. Los alérgicos que quieran purificar, humidificar y ventilar todo el año encontrarán en el <strong>Dyson PH04</strong> lo que buscan. Elijas el que elijas, fija un objetivo de entre el 40 y el 60 %, límpialo con regularidad y comprueba la humedad real con un sensor independiente.</p>`,
+    it: `<p>Per la maggior parte delle case, il miglior umidificatore smart del 2026 è il <strong>Boneco H700 Smart</strong>: umidifica per evaporazione (quindi senza polvere bianca), copre ambienti ampi, purifica anche l'aria e si comanda via Wi-Fi. Se cerchi soprattutto un modello smart economico per la camera da letto o per un soggiorno di medie dimensioni, il <strong>Levoit Classic 300S</strong> è la scelta più sensata, a patto di usarlo con acqua poco calcarea.</p>
+<p>Un umidificatore serve ad alzare l'umidità relativa dell'aria in casa quando scende sotto il 40%, come succede spesso d'inverno con il riscaldamento acceso. Labbra screpolate, gola secca al risveglio, scosse elettrostatiche, piante che soffrono o parquet che si ritira sono i segnali tipici di un'aria troppo secca. Un modello smart aggiunge igrostato, modalità automatica, app e programmazione, e così ti evita l'errore più comune: umidificare troppo. Questo confronto si basa sulle schede tecniche dei produttori, sulle analisi indipendenti pubblicate e sulle recensioni verificate degli acquirenti.</p>
 
-<h2>Quale umidità puntare? La regola del 40–60 %</h2>
-<p>Comfort e salute si giocano in una fascia piuttosto stretta. Sotto il 40 % di umidità relativa, le mucose di naso e gola si seccano, la pelle tira e gli occhi bruciano. Sopra il 60 % il problema si ribalta: condensa sui vetri, muffa negli angoli e proliferazione degli acari. L'obiettivo è restare tra il 40 e il 60 %, idealmente intorno al 45-50 % in inverno nelle zone giorno.</p>
-<p>È proprio qui che un modello connesso fa la differenza: imposti un obiettivo (per esempio 50 %), l'apparecchio misura di continuo e si ferma da solo una volta raggiunto. Per una lettura affidabile conviene aggiungere un igrometro separato all'altro lato della stanza, perché il sensore integrato misura l'aria proprio accanto all'uscita del vapore. La nostra guida ai <a href="/it/blog/qualite-air-interieur-capteurs">sensori di qualità dell'aria interna</a> spiega dove posizionarli. E se la tua casa ha il problema opposto, cioè troppa umidità, ti serve un <a href="/it/blog/deshumidificateur-connecte-guide">deumidificatore smart</a>, non un umidificatore.</p>
+<h2>Che umidità mantenere in casa: la regola del 40-60%</h2>
+<p>Comfort e salute dipendono da una fascia piuttosto stretta. Sotto il 40% di umidità relativa le mucose di naso e gola si seccano, la pelle tira e gli occhi bruciano. Sopra il 60% il problema si ribalta: condensa sui vetri, muffa negli angoli, acari che proliferano. L'obiettivo è quindi restare tra il 40 e il 60%, idealmente intorno al 45-50% d'inverno nelle stanze in cui passi più tempo.</p>
+<p>È proprio qui che un modello smart fa la differenza: imposti il livello desiderato (per esempio 50%), l'apparecchio misura di continuo e si ferma da solo appena lo raggiunge. Per una misura affidabile conviene affiancare al sensore integrato un igrometro sistemato dall'altra parte della stanza, perché l'apparecchio misura l'aria proprio accanto all'uscita della nebbiolina. La nostra guida ai <a href="/it/blog/qualite-air-interieur-capteurs">rilevatori della qualità dell'aria in casa</a> spiega dove posizionarli. E se in casa hai il problema opposto, cioè troppa umidità, ti serve un <a href="/it/blog/deshumidificateur-connecte-guide">deumidificatore smart</a>, non un umidificatore.</p>
 
-<h2>Evaporativo o a ultrasuoni: la vera scelta</h2>
+<h2>Evaporativo o a ultrasuoni: la vera scelta da fare</h2>
 <h3>Umidificatori a ultrasuoni</h3>
-<p>Una membrana vibra ad altissima frequenza e trasforma l'acqua in una nebbiolina fredda e visibile. È la tecnologia più diffusa: silenziosa, a basso consumo, compatta e accessibile. Il suo punto debole è l'acqua dura. Tutto ciò che è disciolto nell'acqua del rubinetto (calcio, magnesio) viene immesso nell'aria con la nebbiolina e si deposita come <strong>polvere bianca</strong> su mobili e schermi. Nelle zone con acqua dura è vivamente consigliato usare acqua demineralizzata o filtrata, oppure una cartuccia anticalcare se il produttore la prevede.</p>
+<p>Una membrana vibra ad altissima frequenza e trasforma l'acqua in una nebbiolina fredda e visibile. È la tecnologia più diffusa: silenziosa, a basso consumo, compatta ed economica. Il suo punto debole è l'acqua calcarea. Tutto ciò che è disciolto nell'acqua del rubinetto (calcio, magnesio) finisce nell'aria con la nebbiolina e poi si deposita come <strong>polvere bianca</strong> su mobili e schermi. Nelle zone con acqua dura conviene decisamente usare acqua demineralizzata o filtrata, oppure una cartuccia anticalcare se il produttore la prevede.</p>
 <h3>Umidificatori evaporativi</h3>
-<p>Una ventola spinge l'aria attraverso uno stoppino o un filtro imbevuto d'acqua. L'umidità viene aggiunta sotto forma di vapore acqueo invisibile, senza goccioline. Vantaggi: niente polvere bianca (i minerali restano nello stoppino) e funzionamento autoregolato, perché l'evaporazione rallenta naturalmente quando l'aria è già umida. Svantaggi: la ventola produce un leggero soffio, stoppini e tappetini sono consumabili da decalcificare e sostituire, e gli apparecchi sono spesso più ingombranti.</p>
+<p>Una ventola spinge l'aria attraverso uno stoppino o un filtro imbevuto d'acqua. L'umidità passa nell'aria come vapore acqueo invisibile, senza goccioline. I vantaggi sono due: niente polvere bianca (i minerali restano intrappolati nello stoppino) e un funzionamento che si regola da sé, perché l'evaporazione rallenta naturalmente quando l'aria è già umida. In cambio la ventola produce un leggero soffio, stoppini e tappetini sono materiali di consumo da decalcificare e sostituire, e l'apparecchio è spesso più ingombrante.</p>
 <h3>E il vapore caldo?</h3>
-<p>Gli umidificatori a vapore caldo fanno bollire l'acqua, limitando la crescita microbica, ma consumano molta più elettricità e comportano un rischio di ustioni vicino ai bambini. Nessuno dei modelli smart selezionati qui usa questa tecnologia.</p>
+<p>Gli umidificatori a vapore caldo fanno bollire l'acqua, il che limita la proliferazione dei microbi, ma consumano molta più elettricità e, con i bambini vicino, c'è il rischio di scottature. Nessuno dei modelli smart selezionati qui usa questa tecnologia.</p>
 
-<h2>Criteri di scelta</h2>
+<h2>I criteri per scegliere bene</h2>
 <ul>
-<li><strong>Superficie</strong>: fai riferimento alla superficie consigliata dal produttore e alla capacità di umidificazione (in ml/h). Un apparecchio sottodimensionato lavora sempre al massimo ed è più rumoroso.</li>
-<li><strong>Capacità del serbatoio</strong>: da 4 a 10 litri nella nostra selezione. Un serbatoio grande si riempie meno spesso, ma è più impegnativo da pulire.</li>
-<li><strong>Riempimento dall'alto</strong>: una comodità concreta ogni giorno, che semplifica anche la pulizia.</li>
-<li><strong>Igrostato e modalità auto</strong>: indispensabili per non superare il 60 %.</li>
+<li><strong>Superficie da coprire</strong>: basati sulla superficie consigliata dal produttore e sulla portata di umidificazione (in ml/h). Un apparecchio sottodimensionato lavora sempre al massimo, e quindi fa più rumore.</li>
+<li><strong>Capacità del serbatoio</strong>: da 4 a 10 litri nella nostra selezione. Più il serbatoio è grande, meno spesso lo riempi, ma più è scomodo da pulire.</li>
+<li><strong>Riempimento dall'alto</strong>: una vera comodità tutti i giorni, e la pulizia è più semplice.</li>
+<li><strong>Igrostato e modalità automatica</strong>: indispensabili per non superare il 60%.</li>
 <li><strong>Rumorosità</strong>: per la camera da letto, cerca una modalità notte dichiarata intorno ai 30 dB o meno e un display che si spegne.</li>
-<li><strong>Igiene</strong>: trattamento UV-C dell'acqua, materiali antibatterici, parti smontabili e facili da sciacquare.</li>
-<li><strong>Connettività</strong>: app stabile, Wi-Fi a 2,4 GHz, compatibilità con Alexa o Google Home, notifiche di serbatoio vuoto o filtro da cambiare.</li>
-<li><strong>Consumabili</strong>: stoppini, filtri HEPA, cartucce anticalcare. La loro reperibilità nel tempo conta quanto l'apparecchio stesso.</li>
+<li><strong>Igiene</strong>: trattamento UV-C dell'acqua, materiali antibatterici, parti smontabili e facili da sciacquare sotto il rubinetto.</li>
+<li><strong>Connettività</strong>: app stabile, Wi-Fi a 2,4 GHz, compatibilità con Alexa o Google Home, notifiche di serbatoio vuoto o di filtro da cambiare.</li>
+<li><strong>Materiali di consumo</strong>: stoppini, filtri HEPA, cartucce anticalcare. Poterli trovare anche negli anni conta quanto l'apparecchio stesso.</li>
 </ul>
 
 <h2>I 5 migliori umidificatori smart del 2026</h2>
 
 <h3>1. Boneco H700 Smart: la migliore scelta complessiva</h3>
-<p>L'H700 Smart è un apparecchio ibrido: umidifica per evaporazione attraverso tappetini umidificatori e purifica l'aria con una combinazione di filtro HEPA e carbone attivo. Può funzionare solo come umidificatore, solo come purificatore o in entrambe le modalità insieme. Boneco lo consiglia per ambienti fino a 150 m², con un serbatoio da 10 litri e una capacità elevata, nell'ordine di un litro all'ora alla massima potenza secondo il produttore. La versione Smart si collega via Wi-Fi all'app Boneco, mostra umidità, temperatura e qualità dell'aria, consente le programmazioni e accetta comandi vocali tramite Amazon Alexa e Google Home.</p>
-<p><strong>Punti di forza</strong>: evaporazione senza polvere bianca, copertura molto ampia, purificazione integrata, profili dedicati (notte, bambino), controllo remoto completo.<br>
-<strong>Limiti</strong>: ingombrante e pesante, fascia alta, tappetini e filtri da sostituire regolarmente, flusso d'aria udibile alla massima potenza.<br>
-<strong>Per chi</strong>: grandi soggiorni, open space e famiglie con allergie che vogliono un unico apparecchio per umidità e purificazione.</p>
+<p>L'H700 Smart è un apparecchio ibrido: umidifica per evaporazione tramite appositi tappetini e purifica l'aria con una combinazione di filtro HEPA e carbone attivo. Può funzionare solo da umidificatore, solo da purificatore o in entrambe le modalità insieme. Boneco lo consiglia per ambienti fino a 150 m², con un serbatoio da 10 litri e una portata di umidificazione elevata, nell'ordine di un litro all'ora alla massima potenza secondo il produttore. La versione Smart si collega via Wi-Fi all'app Boneco, mostra umidità, temperatura e qualità dell'aria, permette di programmarlo e accetta i comandi vocali di Amazon Alexa e Google Home.</p>
+<p><strong>Punti di forza</strong>: evaporazione senza polvere bianca, copertura molto ampia, purificazione integrata, profili dedicati (notte, bambino), controllo completo a distanza.<br>
+<strong>Limiti</strong>: ingombrante e pesante, fascia alta, tappetini e filtri da sostituire regolarmente, soffio udibile alla massima potenza.<br>
+<strong>Per chi</strong>: grandi soggiorni, open space e famiglie con persone allergiche che vogliono un solo apparecchio per umidificare e purificare.</p>
 
 <h3>2. Levoit Classic 300S: il miglior rapporto qualità-prezzo</h3>
-<p>Il Classic 300S è un umidificatore a ultrasuoni da 6 litri con riempimento dall'alto, pensato per stanze di medie dimensioni. Integra un sensore di umidità con modalità automatica, una luce notturna regolabile e un tampone per oli essenziali. Si controlla con l'app VeSync (programmazioni, umidità obiettivo, modalità notte) e funziona con Alexa e Google Assistant.</p>
+<p>Il Classic 300S è un umidificatore a ultrasuoni da 6 litri con riempimento dall'alto, pensato per stanze di medie dimensioni. Integra un sensore di umidità con modalità automatica, una luce notturna regolabile e un tampone per oli essenziali. Si comanda con l'app VeSync (programmazione, livello di umidità desiderato, modalità notte) e funziona con Alexa e Google Assistant.</p>
 <p><strong>Punti di forza</strong>: facilissimo da riempire e pulire, modalità automatica efficace, app completa, formato compatto.<br>
-<strong>Limiti</strong>: la tecnologia a ultrasuoni è sensibile all'acqua dura (polvere bianca), il sensore integrato è vicino alla nebbiolina e può sovrastimare l'umidità della stanza, serve una pulizia frequente.<br>
-<strong>Per chi</strong>: camera o soggiorno medio, primo acquisto smart, case con acqua dolce o disposte a usare acqua demineralizzata.</p>
+<strong>Limiti</strong>: la tecnologia a ultrasuoni soffre l'acqua calcarea (polvere bianca), il sensore integrato è vicino alla nebbiolina e può sovrastimare l'umidità della stanza, va pulito spesso.<br>
+<strong>Per chi</strong>: camera da letto o soggiorno di medie dimensioni, primo acquisto smart, chi ha acqua poco calcarea o è disposto a usare acqua demineralizzata.</p>
 
 <h3>3. Dyson Purifier Humidify+Cool Formaldehyde PH04: il 3 in 1 per chi soffre di allergie</h3>
-<p>Il PH04 unisce purificatore, umidificatore e ventilatore. Umidifica per evaporazione: l'acqua passa prima davanti a una luce UV-C che, secondo Dyson, elimina il 99,9 % dei batteri presenti nell'acqua, poi evapora attraverso una rete 3D intrecciata con fili d'argento. Il filtro HEPA H13 trattiene le particelle fini e la versione Formaldehyde rileva e scompone la formaldeide. Si gestisce con l'app MyDyson, che mostra la qualità dell'aria in tempo reale, e offre un ciclo di pulizia profonda del circuito dell'acqua.</p>
-<p><strong>Punti di forza</strong>: niente nebbiolina né polvere bianca, trattamento UV-C dell'acqua, purificazione molto completa, funzione ventilatore in estate, design curato.<br>
-<strong>Limiti</strong>: il modello più premium del confronto, capacità di umidificazione inferiore a un umidificatore dedicato per ambienti grandi, filtri di ricambio costosi.<br>
-<strong>Per chi</strong>: persone allergiche o sensibili all'inquinamento domestico che vogliono un solo apparecchio per tutto l'anno.</p>
+<p>Il PH04 unisce purificatore, umidificatore e ventilatore. Umidifica per evaporazione: l'acqua passa prima davanti a una luce UV-C che, secondo Dyson, elimina il 99,9% dei batteri presenti nell'acqua, poi evapora attraverso una rete 3D intrecciata con fili d'argento. Il filtro HEPA H13 trattiene le particelle fini e la versione Formaldehyde rileva e scompone la formaldeide. Si comanda dall'app MyDyson, che mostra la qualità dell'aria in tempo reale, e offre un ciclo di pulizia profonda del circuito dell'acqua.</p>
+<p><strong>Punti di forza</strong>: niente nebbiolina né polvere bianca, trattamento UV-C dell'acqua, purificazione molto completa, funzione ventilatore d'estate, design curato.<br>
+<strong>Limiti</strong>: è il modello di fascia più alta del confronto, la portata di umidificazione è inferiore a quella di un umidificatore dedicato per stanze grandi, i filtri di ricambio sono costosi.<br>
+<strong>Per chi</strong>: persone allergiche o sensibili all'inquinamento dell'aria in casa che vogliono un solo apparecchio per tutto l'anno.</p>
 
-<h3>4. Levoit OasisMist 1000S: autonomia per le stanze grandi</h3>
-<p>Questa torre a ultrasuoni ha un serbatoio da 10 litri, sufficiente per fino a 100 ore alla velocità minima secondo Levoit, ed è pensata per ambienti fino a circa 55 m². Si riempie dall'alto, proietta la nebbiolina in alto per distribuirla meglio e la modalità notte è dichiarata sotto i 28 dB. L'app VeSync gestisce umidità obiettivo, orari e modalità automatica, con compatibilità Alexa e Google Assistant.</p>
+<h3>4. Levoit OasisMist 1000S: lunga autonomia per le stanze grandi</h3>
+<p>Questo modello a torre a ultrasuoni ha un serbatoio da 10 litri, cioè fino a 100 ore di funzionamento alla velocità minima secondo Levoit, per ambienti fino a circa 55 m². Si riempie dall'alto, la nebbiolina esce verso l'alto per distribuirsi meglio e la modalità notte è dichiarata sotto i 28 dB. L'app VeSync gestisce il livello di umidità desiderato, gli orari e la modalità automatica, con compatibilità Alexa e Google Assistant.</p>
 <p><strong>Punti di forza</strong>: autonomia notevole, copre stanze grandi, molto silenzioso di notte, formato a torre che occupa poco spazio a terra.<br>
-<strong>Limiti</strong>: a ultrasuoni, quindi polvere bianca con acqua dura; il serbatoio grande richiede più tempo per la pulizia ed è pesante da pieno.<br>
-<strong>Per chi</strong>: soggiorni e camere spaziose, chi non vuole riempire ogni giorno.</p>
+<strong>Limiti</strong>: è a ultrasuoni, quindi lascia polvere bianca con l'acqua dura; il serbatoio grande richiede più tempo per la pulizia ed è pesante quando è pieno.<br>
+<strong>Per chi</strong>: soggiorni e camere spaziose, chi non vuole riempirlo tutti i giorni.</p>
 
-<h3>5. Xiaomi Smart Humidifier 2: compatto, connesso e con UV-C</h3>
-<p>Lo Smart Humidifier 2 è un umidificatore a ultrasuoni da 4,5 litri con una capacità di 350 ml/h e una rumorosità dichiarata di 38 dB. Offre sterilizzazione UV-C dell'acqua, un cassetto per gli aromi e diffusione della nebbiolina a 360°. Si controlla dall'app Xiaomi Home, con umidità obiettivo e programmazioni.</p>
-<p><strong>Punti di forza</strong>: UV-C in questa fascia, dimensioni compatte, integrazione naturale se possiedi già altri dispositivi Xiaomi.<br>
+<h3>5. Xiaomi Smart Humidifier 2: compatto, smart e con UV-C</h3>
+<p>Lo Smart Humidifier 2 è un umidificatore a ultrasuoni da 4,5 litri con una portata di 350 ml/h e una rumorosità dichiarata di 38 dB. Integra la sterilizzazione UV-C dell'acqua, un cassetto per gli aromi e la diffusione della nebbiolina a 360°. Si comanda dall'app Xiaomi Home, con livello di umidità desiderato e programmazione.</p>
+<p><strong>Punti di forza</strong>: UV-C integrato in questa fascia, formato compatto, integrazione naturale se hai già altri dispositivi Xiaomi.<br>
 <strong>Limiti</strong>: più rumoroso dei Levoit in modalità notte, possibile polvere bianca con l'acqua del rubinetto, Xiaomi Home è un ecosistema meno universale.<br>
-<strong>Per chi</strong>: camere e studi, utenti già equipaggiati Xiaomi.</p>
+<strong>Per chi</strong>: camera da letto o studio, chi usa già dispositivi Xiaomi.</p>
 
-<p><strong>Da sapere</strong>: gli umidificatori evaporativi Philips Series 2000 e 3000 e lo Stadler Form Oskar Big sono apprezzati per l'igiene e l'assenza di polvere bianca, ma non offrono il controllo via app. Restano buone opzioni se la connettività non è una priorità. Trovi tutta la selezione nella nostra pagina <a href="/it/confort-air/humidificateurs">umidificatori</a>.</p>
+<p><strong>Da sapere</strong>: gli umidificatori evaporativi Philips Series 2000 e 3000 e lo Stadler Form Oskar Big sono apprezzati per l'igiene e l'assenza di polvere bianca, ma non si comandano dall'app. Restano buone opzioni se l'app non è una priorità. Trovi tutta la selezione nella nostra pagina dedicata agli <a href="/it/confort-air/humidificateurs">umidificatori</a>.</p>
 
 <h2>Tabella comparativa</h2>
 <table>
@@ -521,135 +521,135 @@ export const article: BlogArticle = {
 <tr><td>Levoit Classic 300S</td><td>Ultrasuoni, 6 L</td><td>Stanza media</td><td>Wi-Fi, VeSync, Alexa, Google</td><td>Miglior rapporto qualità-prezzo</td></tr>
 <tr><td>Dyson PH04</td><td>Evaporazione + UV-C + HEPA H13</td><td>Zona giorno</td><td>Wi-Fi, MyDyson</td><td>3 in 1 tutto l'anno</td></tr>
 <tr><td>Levoit OasisMist 1000S</td><td>Ultrasuoni, 10 L</td><td>Fino a circa 55 m²</td><td>Wi-Fi, VeSync, Alexa, Google</td><td>Autonomia, camera grande</td></tr>
-<tr><td>Xiaomi Smart Humidifier 2</td><td>Ultrasuoni + UV-C, 4,5 L</td><td>Camera, studio</td><td>Wi-Fi, Xiaomi Home</td><td>Ecosistema Xiaomi</td></tr>
+<tr><td>Xiaomi Smart Humidifier 2</td><td>Ultrasuoni + UV-C, 4,5 L</td><td>Camera da letto, studio</td><td>Wi-Fi, Xiaomi Home</td><td>Ecosistema Xiaomi</td></tr>
 </tbody>
 </table>
 
 <h2>Igiene e manutenzione: la parte più trascurata</h2>
-<p>Un umidificatore mal mantenuto può diffondere nell'aria ciò che cresce nel suo serbatoio. L'acqua stagnante favorisce batteri e muffe, qualunque sia la tecnologia. Alcune regole semplici:</p>
+<p>Un umidificatore pulito poco e male può diffondere nell'aria ciò che prolifera nel serbatoio. L'acqua stagnante favorisce batteri e muffe, qualunque sia la tecnologia. Bastano poche regole:</p>
 <ul>
-<li>Svuota il serbatoio ogni giorno e lascialo asciugare se l'apparecchio non è in uso; non lasciare mai acqua ferma per giorni.</li>
-<li>Decalcifica almeno una volta alla settimana con aceto bianco o acido citrico, seguendo le istruzioni del produttore, poi risciacqua bene.</li>
+<li>Svuota il serbatoio ogni giorno e lascialo asciugare se non usi l'apparecchio; non lasciare mai l'acqua ferma per giorni.</li>
+<li>Decalcifica almeno una volta alla settimana con aceto bianco o acido citrico, seguendo le istruzioni del produttore, poi risciacqua abbondantemente.</li>
 <li>Sostituisci stoppini, tappetini e filtri agli intervalli indicati, o prima se si induriscono o hanno cattivo odore.</li>
-<li>Usa acqua demineralizzata o filtrata con un modello a ultrasuoni se la tua acqua è dura.</li>
-<li>Scollega sempre l'apparecchio prima di pulirlo o riempirlo.</li>
+<li>Con un modello a ultrasuoni usa acqua demineralizzata o filtrata, se l'acqua di casa è calcarea.</li>
+<li>Stacca sempre la spina prima di pulire o riempire l'apparecchio.</li>
 </ul>
 
 <h2>Errori da evitare</h2>
 <ul>
-<li><strong>Umidificare di continuo senza obiettivo</strong>: oltre il 60 % favorisci muffe e acari. Usa sempre la modalità automatica.</li>
-<li><strong>Versare oli essenziali nel serbatoio</strong>: possono danneggiare plastiche e membrana. Usa solo il tampone o il cassetto previsti, con prudenza in presenza di bambini, donne in gravidanza e animali.</li>
-<li><strong>Appoggiarlo a terra o contro il muro</strong>: posizionalo su una superficie stabile e rialzata, lontano da pareti, mobili in legno, tende e prese elettriche.</li>
-<li><strong>Dirigere la nebbiolina verso il letto o l'elettronica</strong>: la condensa localizzata può rovinare tessuti e dispositivi.</li>
-<li><strong>Sceglierlo troppo piccolo</strong>: un apparecchio sotto sforzo va al massimo, fa più rumore e non raggiunge mai l'obiettivo.</li>
-<li><strong>Dimenticare di arieggiare</strong>: qualche minuto di ricambio d'aria al giorno resta necessario.</li>
+<li><strong>Umidificare di continuo senza impostare un livello</strong>: oltre il 60% favorisci muffe e acari. Attiva sempre la modalità automatica.</li>
+<li><strong>Versare oli essenziali nel serbatoio</strong>: possono rovinare le plastiche e la membrana. Usa solo il tampone o il cassetto previsto, con prudenza se in casa ci sono bambini, donne in gravidanza o animali.</li>
+<li><strong>Appoggiarlo a terra o contro il muro</strong>: mettilo su una superficie stabile e rialzata, lontano da pareti, mobili in legno, tende e prese elettriche.</li>
+<li><strong>Dirigere la nebbiolina verso il letto o un dispositivo elettronico</strong>: la condensa che si forma può rovinare tessuti ed elettronica.</li>
+<li><strong>Sceglierlo troppo piccolo</strong>: un apparecchio sottodimensionato va sempre al massimo, fa più rumore e non raggiunge mai il livello impostato.</li>
+<li><strong>Dimenticare di arieggiare</strong>: aprire le finestre qualche minuto al giorno resta necessario per cambiare l'aria.</li>
 </ul>
 
 <h2>Installazione e sicurezza</h2>
-<p>Un umidificatore smart si collega a una normale presa e si associa all'app in pochi minuti; verifica che il router trasmetta una rete Wi-Fi a 2,4 GHz, usata dalla maggior parte di questi apparecchi. Nella cameretta di un neonato, tieni apparecchio e cavo fuori dalla sua portata e preferisci il vapore freddo. Le persone con asma o disturbi respiratori dovrebbero chiedere a un professionista sanitario quale livello di umidità sia più adatto a loro.</p>
+<p>Un umidificatore smart si collega a una normale presa e si associa all'app in pochi minuti; verifica che il router trasmetta una rete Wi-Fi a 2,4 GHz, quella usata dalla maggior parte di questi apparecchi. Nella cameretta di un neonato, tieni l'apparecchio fuori dalla sua portata, cavo compreso, e preferisci la nebbiolina fredda. Chi soffre di asma o di disturbi respiratori farebbe bene a chiedere al medico quale livello di umidità sia più adatto al suo caso.</p>
 
 <h2>Il nostro verdetto</h2>
-<p>Per la maggior parte delle famiglie che vogliono una soluzione completa e senza polvere bianca, il <strong>Boneco H700 Smart</strong> è il riferimento: evaporazione, grande copertura e purificazione in un unico apparecchio connesso. Il <strong>Levoit Classic 300S</strong> è il miglior punto di partenza, semplice e ben pensato, se tieni sotto controllo il calcare. Chi soffre di allergie e vuole purificare, umidificare e rinfrescare tutto l'anno troverà nel <strong>Dyson PH04</strong> la risposta giusta. Qualunque sia la tua scelta, imposta un obiettivo tra il 40 e il 60 %, puliscilo regolarmente e controlla l'umidità reale con un sensore indipendente.</p>`,
-    nl: `<p>Voor de meeste huishoudens is de beste slimme luchtbevochtiger van 2026 de <strong>Boneco H700 Smart</strong>: hij bevochtigt door verdamping (dus zonder wit stof), kan grote ruimtes aan, zuivert tegelijk de lucht en is volledig via wifi te bedienen. Zoek je vooral een betaalbaar verbonden toestel voor een slaapkamer of een middelgrote woonkamer, dan is de <strong>Levoit Classic 300S</strong> de verstandigste keuze, op voorwaarde dat je zacht of gedemineraliseerd water gebruikt.</p>
-<p>Een luchtbevochtiger verhoogt de relatieve luchtvochtigheid binnenshuis wanneer die onder 40 % zakt, wat in de winter met de verwarming aan vaak gebeurt. Gesprongen lippen, een droge keel bij het opstaan, statische schokjes, kwijnende kamerplanten of kieren in de houten vloer zijn de klassieke signalen van te droge lucht. Een slim model voegt een hygrostaat, een automatische stand, een app en schema's toe, zodat je de meest gemaakte fout vermijdt: te veel bevochtigen. Deze vergelijking is gebaseerd op specificaties van fabrikanten, gepubliceerde onafhankelijke reviews en geverifieerde ervaringen van kopers.</p>
+<p>Per la maggior parte delle famiglie che cercano una soluzione completa e senza polvere bianca, il riferimento è il <strong>Boneco H700 Smart</strong>: evaporazione, grande copertura e purificazione in un unico apparecchio smart. Il <strong>Levoit Classic 300S</strong> è il miglior punto di partenza, semplice e ben pensato, se tieni sotto controllo il problema del calcare. Chi soffre di allergie e vuole purificare, umidificare e ventilare tutto l'anno troverà la risposta giusta nel <strong>Dyson PH04</strong>. Qualunque modello tu scelga, imposta un livello tra il 40 e il 60%, puliscilo regolarmente e controlla l'umidità reale con un sensore indipendente.</p>`,
+    nl: `<p>Voor de meeste huishoudens is de beste slimme luchtbevochtiger van 2026 de <strong>Boneco H700 Smart</strong>: hij bevochtigt door verdamping (dus zonder wit stof), kan grote ruimtes aan, reinigt tegelijk de lucht en is volledig via wifi te bedienen. Zoek je vooral een betaalbaar model met app voor een slaapkamer of een middelgrote woonkamer, dan is de <strong>Levoit Classic 300S</strong> de verstandigste keuze, op voorwaarde dat je zacht of gedemineraliseerd water gebruikt.</p>
+<p>Een luchtbevochtiger verhoogt de relatieve luchtvochtigheid binnenshuis als die onder 40% zakt. Dat gebeurt in de winter vaak, zodra de verwarming aan staat. Gesprongen lippen, een droge keel bij het opstaan, statische schokjes, kwijnende kamerplanten of een houten vloer die krimpt: dat zijn de klassieke signalen van te droge lucht. Een slim model heeft daarnaast een hygrostaat, een automatische stand, een app en schema’s. Zo voorkom je de meest gemaakte fout: te veel bevochtigen. Deze vergelijking is gebaseerd op specificaties van fabrikanten, onafhankelijke tests en reviews van geverifieerde kopers. We testen de producten niet zelf.</p>
 
-<h2>Welke luchtvochtigheid is ideaal? De 40–60 %-regel</h2>
-<p>Comfort en gezondheid spelen zich af binnen een vrij smalle marge. Onder 40 % relatieve luchtvochtigheid drogen de slijmvliezen in neus en keel uit, trekt de huid en prikken de ogen. Boven 60 % draait het probleem om: condens op de ramen, schimmel in de hoeken en meer huisstofmijt. Het doel is tussen 40 en 60 % te blijven, in de winter in de leefruimte bij voorkeur rond 45 à 50 %.</p>
-<p>Juist hier maakt een verbonden toestel het verschil: je stelt een doelwaarde in (bijvoorbeeld 50 %), het apparaat meet continu en stopt vanzelf zodra die bereikt is. Voor een betrouwbare meting is een losse hygrometer aan de andere kant van de kamer handig, want de ingebouwde sensor meet de lucht vlak naast de nevelopening. Onze gids over <a href="/nl/blog/qualite-air-interieur-capteurs">sensoren voor binnenluchtkwaliteit</a> legt uit waar je ze het best plaatst. En heeft je woning juist het omgekeerde probleem, te veel vocht, dan heb je een <a href="/nl/blog/deshumidificateur-connecte-guide">slimme luchtontvochtiger</a> nodig en geen bevochtiger.</p>
+<h2>Welke luchtvochtigheid is ideaal? De regel van 40 tot 60%</h2>
+<p>Voor comfort en gezondheid is de marge vrij smal. Onder 40% relatieve luchtvochtigheid drogen de slijmvliezen in neus en keel uit, trekt de huid en prikken de ogen. Boven 60% krijg je het omgekeerde probleem: condens op de ramen, schimmel in de hoeken en meer huisstofmijt. Blijf dus tussen 40 en 60%, en mik in de winter in de woonkamer bij voorkeur op 45 tot 50%.</p>
+<p>Precies daar maakt een slim model het verschil: je stelt een doelwaarde in (bijvoorbeeld 50%), het apparaat meet continu en schakelt vanzelf uit zodra die waarde bereikt is. Wil je betrouwbaar meten, zet dan naast de ingebouwde sensor een losse hygrometer aan de andere kant van de kamer: het apparaat meet de lucht vlak bij de plek waar de nevel naar buiten komt. Onze gids over <a href="/nl/blog/qualite-air-interieur-capteurs">luchtkwaliteitsmeters</a> legt uit waar je die het best plaatst. Heeft je woning juist het omgekeerde probleem, te veel vocht, dan heb je geen bevochtiger nodig maar een <a href="/nl/blog/deshumidificateur-connecte-guide">slimme luchtontvochtiger</a>.</p>
 
-<h2>Verdamping of ultrasoon: de echte keuze</h2>
+<h2>Verdamping of ultrasoon: de keuze die er echt toe doet</h2>
 <h3>Ultrasone luchtbevochtigers</h3>
-<p>Een membraan trilt op zeer hoge frequentie en zet water om in een zichtbare, koele nevel. Het is de meest gangbare technologie: stil, zuinig, compact en betaalbaar. Het grote nadeel is hard water. Alles wat in kraanwater is opgelost (calcium, magnesium) komt met de nevel in de lucht terecht en slaat neer als <strong>wit stof</strong> op meubels en schermen. In streken met hard water is gedemineraliseerd of gefilterd water sterk aan te raden, of een antikalkpatroon als de fabrikant die aanbiedt.</p>
+<p>Een membraan trilt op zeer hoge frequentie en zet water om in een zichtbare, koele nevel. Het is de meest gangbare techniek: stil, zuinig, compact en betaalbaar. Het grote nadeel is hard water. Alles wat in kraanwater is opgelost (calcium, magnesium) gaat met de nevel mee de lucht in en slaat neer als <strong>wit stof</strong> op meubels en schermen. Woon je in een streek met hard water, gebruik dan bij voorkeur gedemineraliseerd of gefilterd water, of een antikalkpatroon als de fabrikant die aanbiedt.</p>
 <h3>Verdampingsbevochtigers</h3>
-<p>Een ventilator blaast lucht door een natte lont of filter. Het vocht komt vrij als onzichtbare waterdamp, zonder druppeltjes. Voordelen: geen wit stof (de mineralen blijven in de lont) en een zelfregulerende werking, omdat verdamping vanzelf afneemt als de lucht al vochtig is. Nadelen: de ventilator zorgt voor een zacht geruis, lonten en matten zijn verbruiksartikelen die ontkalkt en vervangen moeten worden, en de toestellen zijn vaak groter.</p>
+<p>Een ventilator blaast lucht door een nat filter of een natte mat. Het vocht komt vrij als onzichtbare waterdamp, zonder druppeltjes. Voordelen: geen wit stof (de mineralen blijven in het filter achter) en de werking regelt zichzelf, want water verdampt vanzelf minder snel als de lucht al vochtig is. Nadelen: de ventilator maakt een zacht geruis, filters en matten moet je ontkalken en op tijd vervangen, en de apparaten zijn vaak groter.</p>
 <h3>En warme stoom?</h3>
-<p>Stoombevochtigers koken het water, wat de groei van micro-organismen beperkt, maar ze verbruiken flink meer stroom en vormen een verbrandingsrisico in de buurt van kinderen. Geen van de hier gekozen slimme modellen gebruikt deze technologie.</p>
+<p>Stoombevochtigers koken het water, wat de groei van micro-organismen beperkt. Ze verbruiken wel flink meer stroom, en met kinderen in de buurt is er kans op brandwonden. Geen van de slimme modellen in deze selectie werkt met stoom.</p>
 
-<h2>Waar let je op bij het kopen?</h2>
+<h2>Waar let je op bij het kiezen?</h2>
 <ul>
-<li><strong>Oppervlakte</strong>: ga uit van de door de fabrikant aanbevolen oppervlakte en de bevochtigingscapaciteit (in ml/u). Een te klein toestel draait constant op de hoogste stand en maakt daardoor meer lawaai.</li>
-<li><strong>Tankinhoud</strong>: 4 tot 10 liter in onze selectie. Een grotere tank betekent minder vaak bijvullen, maar meer werk bij het schoonmaken.</li>
-<li><strong>Vullen via de bovenkant</strong>: een echt dagelijks gemak dat ook het schoonmaken vereenvoudigt.</li>
-<li><strong>Hygrostaat en automatische stand</strong>: onmisbaar om niet boven 60 % uit te komen.</li>
-<li><strong>Geluid</strong>: kies voor de slaapkamer een nachtstand rond 30 dB of minder en een display dat uit kan.</li>
-<li><strong>Hygiëne</strong>: UV-C-behandeling van het water, antibacteriële materialen, onderdelen die uit elkaar gaan en makkelijk af te spoelen zijn.</li>
-<li><strong>Connectiviteit</strong>: een stabiele app, 2,4 GHz-wifi, ondersteuning voor Alexa of Google Home, meldingen bij een lege tank of filtervervanging.</li>
-<li><strong>Verbruiksartikelen</strong>: lonten, HEPA-filters, antikalkpatronen. Hoe lang die verkrijgbaar blijven, telt net zo zwaar als het toestel zelf.</li>
+<li><strong>Oppervlakte</strong>: ga uit van de oppervlakte die de fabrikant aanbeveelt en van de bevochtigingscapaciteit (in ml/u). Een te klein apparaat draait voortdurend op de hoogste stand en maakt dus meer lawaai.</li>
+<li><strong>Tankinhoud</strong>: 4 tot 10 liter in onze selectie. Met een grotere tank vul je minder vaak bij, maar het schoonmaken is meer werk.</li>
+<li><strong>Vullen via de bovenkant</strong>: elke dag een stuk makkelijker, en ook het schoonmaken gaat sneller.</li>
+<li><strong>Hygrostaat en automatische stand</strong>: nodig om onder 60% te blijven.</li>
+<li><strong>Geluid</strong>: kies voor de slaapkamer een opgegeven nachtstand van ongeveer 30 dB of minder, en een display dat uit kan.</li>
+<li><strong>Hygiëne</strong>: UV-C-behandeling van het water, antibacteriële materialen, onderdelen die je los kunt halen en makkelijk afspoelt.</li>
+<li><strong>App en verbinding</strong>: een stabiele app, wifi op 2,4 GHz, ondersteuning voor Alexa of Google Home, en een melding als de tank leeg is of het filter vervangen moet worden.</li>
+<li><strong>Verbruiksartikelen</strong>: bevochtigingsfilters, HEPA-filters, antikalkpatronen. Hoe lang die leverbaar blijven, weegt net zo zwaar als het apparaat zelf.</li>
 </ul>
 
 <h2>De 5 beste slimme luchtbevochtigers van 2026</h2>
 
-<h3>1. Boneco H700 Smart: de beste keuze overall</h3>
-<p>De H700 Smart is een hybride toestel: hij bevochtigt door verdamping via bevochtigingsmatten en zuivert de lucht met een combinatie van HEPA- en actieve-koolfilter. Hij werkt alleen als bevochtiger, alleen als luchtreiniger of beide tegelijk. Boneco raadt hem aan voor ruimtes tot 150 m², met een tank van 10 liter en een hoge capaciteit van ongeveer een liter per uur op de hoogste stand volgens de fabrikant. De Smart-versie maakt via wifi verbinding met de Boneco-app, toont luchtvochtigheid, temperatuur en luchtkwaliteit, ondersteunt schema's en luistert naar spraakopdrachten via Amazon Alexa en Google Home.</p>
-<p><strong>Sterke punten</strong>: verdamping zonder wit stof, zeer groot bereik, ingebouwde luchtzuivering, aparte profielen (nacht, baby), volledige bediening op afstand.<br>
-<strong>Beperkingen</strong>: groot en zwaar, topsegment, matten en filters moeten regelmatig vervangen worden, hoorbare luchtstroom op volle kracht.<br>
-<strong>Voor wie</strong>: grote woonkamers, open ruimtes en huishoudens met allergieën die één toestel willen voor bevochtiging en zuivering.</p>
+<h3>1. Boneco H700 Smart: beste keuze</h3>
+<p>De H700 Smart is een hybride apparaat: hij bevochtigt door verdamping via bevochtigingsmatten en reinigt de lucht met een HEPA-filter en een actief koolfilter. Hij werkt als bevochtiger, als luchtreiniger of als allebei tegelijk. Boneco raadt hem aan voor ruimtes tot 150 m². Hij heeft een tank van 10 liter en bevochtigt volgens de fabrikant op de hoogste stand zo’n liter per uur. De Smart-versie maakt via wifi verbinding met de Boneco-app, toont luchtvochtigheid, temperatuur en luchtkwaliteit, werkt met schema’s en luistert naar spraakopdrachten via Amazon Alexa en Google Home.</p>
+<p><strong>Sterke punten</strong>: verdamping zonder wit stof, zeer groot bereik, ingebouwde luchtreiniging, aparte profielen (nacht, baby), volledig op afstand te bedienen.<br>
+<strong>Minpunten</strong>: groot en zwaar, topsegment, matten en filters moeten regelmatig vervangen worden, luchtstroom hoorbaar op volle kracht.<br>
+<strong>Voor wie</strong>: grote woonkamers, open ruimtes en huishoudens met allergieën die één apparaat willen voor bevochtigen en luchtreiniging.</p>
 
 <h3>2. Levoit Classic 300S: beste prijs-kwaliteitverhouding</h3>
-<p>De Classic 300S is een ultrasone luchtbevochtiger van 6 liter die je via de bovenkant vult, bedoeld voor middelgrote kamers. Hij heeft een ingebouwde vochtsensor met automatische stand, een dimbaar nachtlampje en een geurpad voor etherische oliën. Je bedient hem met de VeSync-app (schema's, doelwaarde, slaapstand) en hij werkt met Alexa en Google Assistant.</p>
-<p><strong>Sterke punten</strong>: heel eenvoudig te vullen en te reinigen, goed werkende automatische stand, uitgebreide app, compact formaat.<br>
-<strong>Beperkingen</strong>: ultrasone technologie is gevoelig voor hard water (wit stof), de ingebouwde sensor zit dicht bij de nevel en kan de vochtigheid in de kamer overschatten, vaak schoonmaken nodig.<br>
-<strong>Voor wie</strong>: middelgrote slaap- of woonkamer, eerste slimme aankoop, huishoudens met zacht water of die gedemineraliseerd water willen gebruiken.</p>
+<p>De Classic 300S is een ultrasone luchtbevochtiger van 6 liter die je via de bovenkant vult, bedoeld voor middelgrote kamers. Hij heeft een ingebouwde vochtsensor met automatische stand, een dimbaar nachtlampje en een aromapad voor etherische olie. Je bedient hem met de VeSync-app (schema’s, doelwaarde, slaapstand) en hij werkt met Alexa en Google Assistent.</p>
+<p><strong>Sterke punten</strong>: heel eenvoudig te vullen en schoon te maken, goed werkende automatische stand, uitgebreide app, compact formaat.<br>
+<strong>Minpunten</strong>: ultrasone techniek is gevoelig voor hard water (wit stof), de ingebouwde sensor zit dicht bij de nevel en kan de vochtigheid in de kamer overschatten, moet vaak schoongemaakt worden.<br>
+<strong>Voor wie</strong>: een middelgrote slaap- of woonkamer, je eerste slimme luchtbevochtiger, huishoudens met zacht water of die gedemineraliseerd water willen gebruiken.</p>
 
-<h3>3. Dyson Purifier Humidify+Cool Formaldehyde PH04: de 3-in-1 voor allergiepatiënten</h3>
-<p>De PH04 combineert luchtreiniger, luchtbevochtiger en ventilator. Hij bevochtigt door verdamping: het water passeert eerst een UV-C-lamp die volgens Dyson 99,9 % van de bacteriën in het water doodt, en verdampt daarna via een 3D-gaas met ingeweven zilverdraad. Het HEPA H13-filter vangt fijnstof op, en de Formaldehyde-versie detecteert en breekt formaldehyde af. Bediening gaat via de MyDyson-app, die de luchtkwaliteit in realtime toont, en er is een dieptereinigingscyclus voor het watercircuit.</p>
-<p><strong>Sterke punten</strong>: geen nevel en geen wit stof, UV-C-waterbehandeling, zeer volledige luchtzuivering, ventilatorfunctie in de zomer, verzorgd design.<br>
-<strong>Beperkingen</strong>: het duurste segment van deze vergelijking, lagere bevochtigingscapaciteit dan een aparte bevochtiger voor grote ruimtes, prijzige vervangfilters.<br>
-<strong>Voor wie</strong>: mensen met allergieën of gevoeligheid voor binnenluchtvervuiling die het hele jaar één toestel willen.</p>
+<h3>3. Dyson Purifier Humidify+Cool Formaldehyde PH04: de 3-in-1 voor mensen met allergie</h3>
+<p>De PH04 is luchtreiniger, luchtbevochtiger en ventilator in één. Hij bevochtigt door verdamping: het water stroomt eerst langs een UV-C-lamp die volgens Dyson 99,9% van de bacteriën in het water doodt, en verdampt daarna via een 3D-gaas met ingeweven zilverdraad. Het HEPA-filter (H13) vangt fijnstof op, en de Formaldehyde-versie detecteert formaldehyde en breekt het af. Je bedient hem via de MyDyson-app, die de luchtkwaliteit in realtime toont. Er is ook een dieptereinigingscyclus voor het watercircuit.</p>
+<p><strong>Sterke punten</strong>: geen nevel en geen wit stof, UV-C-behandeling van het water, zeer volledige luchtreiniging, ventilatorfunctie in de zomer, verzorgd design.<br>
+<strong>Minpunten</strong>: het duurste model van deze vergelijking, minder bevochtigingscapaciteit dan een losse bevochtiger voor grote ruimtes, dure vervangfilters.<br>
+<strong>Voor wie</strong>: mensen met allergieën of die gevoelig zijn voor vervuilde binnenlucht en het hele jaar één apparaat willen.</p>
 
 <h3>4. Levoit OasisMist 1000S: lange looptijd voor grote kamers</h3>
-<p>Deze ultrasone torenbevochtiger heeft een tank van 10 liter, goed voor tot 100 uur op de laagste stand volgens Levoit, en is ontworpen voor ruimtes tot ongeveer 55 m². Je vult hem via de bovenkant, de nevel stijgt hoog op voor een betere verspreiding en de slaapstand wordt opgegeven onder 28 dB. De VeSync-app regelt doelwaarde, schema's en automatische stand, met ondersteuning voor Alexa en Google Assistant.</p>
-<p><strong>Sterke punten</strong>: uitzonderlijke looptijd, dekt grote kamers, 's nachts zeer stil, slanke torenvorm.<br>
-<strong>Beperkingen</strong>: ultrasoon, dus wit stof bij hard water; de grote tank kost meer tijd om schoon te maken en is zwaar als hij vol is.<br>
-<strong>Voor wie</strong>: ruime woon- en slaapkamers, iedereen die niet dagelijks wil bijvullen.</p>
+<p>Deze ultrasone torenbevochtiger heeft een tank van 10 liter, volgens Levoit goed voor maximaal 100 uur op de laagste stand, en is bedoeld voor ruimtes tot ongeveer 55 m². Je vult hem via de bovenkant, de nevel stijgt hoog op zodat hij zich beter verspreidt, en volgens de opgave blijft de slaapstand onder 28 dB. In de VeSync-app regel je doelwaarde, schema’s en automatische stand, en hij werkt met Alexa en Google Assistent.</p>
+<p><strong>Sterke punten</strong>: zeer lange looptijd, geschikt voor grote kamers, ’s nachts zeer stil, slanke torenvorm die weinig vloerruimte inneemt.<br>
+<strong>Minpunten</strong>: ultrasoon, dus wit stof bij hard water; de grote tank kost meer tijd om schoon te maken en is zwaar als hij vol is.<br>
+<strong>Voor wie</strong>: ruime woon- en slaapkamers, iedereen die niet elke dag wil bijvullen.</p>
 
-<h3>5. Xiaomi Smart Humidifier 2: compact, verbonden en met UV-C</h3>
-<p>De Smart Humidifier 2 is een ultrasone luchtbevochtiger van 4,5 liter met een capaciteit van 350 ml/u en een opgegeven geluidsniveau van 38 dB. Hij heeft UV-C-sterilisatie van het water, een geurlade en 360°-nevelverspreiding. Je bedient hem via de Xiaomi Home-app, met doelwaarde en schema's.</p>
-<p><strong>Sterke punten</strong>: UV-C in dit segment, compact formaat, logische keuze als je al andere Xiaomi-apparaten hebt.<br>
-<strong>Beperkingen</strong>: in de nachtstand luider dan de Levoit-modellen, mogelijk wit stof met kraanwater, Xiaomi Home is een minder universeel ecosysteem.<br>
-<strong>Voor wie</strong>: slaapkamers en werkkamers, bestaande Xiaomi-gebruikers.</p>
+<h3>5. Xiaomi Smart Humidifier 2: compact, met app en UV-C</h3>
+<p>De Smart Humidifier 2 is een ultrasone luchtbevochtiger van 4,5 liter met een capaciteit van 350 ml/u en een opgegeven geluidsniveau van 38 dB. Hij heeft UV-C-sterilisatie van het water, een geurlade en verspreidt de nevel over 360°. Je bedient hem via de Xiaomi Home-app, met doelwaarde en schema’s.</p>
+<p><strong>Sterke punten</strong>: UV-C in deze prijsklasse, compact formaat, logische keuze als je al andere Xiaomi-apparaten hebt.<br>
+<strong>Minpunten</strong>: in de nachtstand luider dan de Levoit-modellen, mogelijk wit stof met kraanwater, Xiaomi Home is een minder universeel ecosysteem.<br>
+<strong>Voor wie</strong>: slaapkamers en werkkamers, wie al Xiaomi-apparaten gebruikt.</p>
 
-<p><strong>Goed om te weten</strong>: de verdampingsbevochtigers Philips Series 2000 en 3000 en de Stadler Form Oskar Big staan bekend om hun hygiëne en het ontbreken van wit stof, maar bieden geen bediening via een app. Ze blijven een goede optie als connectiviteit geen prioriteit is. Bekijk de volledige selectie op onze pagina <a href="/nl/confort-air/humidificateurs">luchtbevochtigers</a>.</p>
+<p><strong>Goed om te weten</strong>: de verdampingsbevochtigers Philips Series 2000 en 3000 en de Stadler Form Oskar Big staan bekend om hun hygiëne en geven geen wit stof, maar je kunt ze niet met een app bedienen. Ze blijven een goede keuze als een app voor jou niet belangrijk is. De volledige selectie vind je op onze pagina <a href="/nl/confort-air/humidificateurs">luchtbevochtigers</a>.</p>
 
 <h2>Vergelijkingstabel</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Technologie</th><th>Aanbevolen oppervlakte (fabrikant)</th><th>Connectiviteit</th><th>Ideaal voor</th></tr>
+<tr><th>Model</th><th>Techniek</th><th>Aanbevolen oppervlakte (fabrikant)</th><th>Connectiviteit</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td>Boneco H700 Smart</td><td>Verdamping + HEPA-zuivering</td><td>Tot 150 m²</td><td>Wifi, Boneco-app, Alexa, Google Home</td><td>Grote ruimtes, allergieën</td></tr>
-<tr><td>Levoit Classic 300S</td><td>Ultrasoon, 6 L</td><td>Middelgrote kamer</td><td>Wifi, VeSync, Alexa, Google</td><td>Beste prijs-kwaliteit</td></tr>
-<tr><td>Dyson PH04</td><td>Verdamping + UV-C + HEPA H13</td><td>Leefruimte</td><td>Wifi, MyDyson</td><td>3-in-1 het hele jaar</td></tr>
-<tr><td>Levoit OasisMist 1000S</td><td>Ultrasoon, 10 L</td><td>Tot ca. 55 m²</td><td>Wifi, VeSync, Alexa, Google</td><td>Looptijd, grote slaapkamer</td></tr>
-<tr><td>Xiaomi Smart Humidifier 2</td><td>Ultrasoon + UV-C, 4,5 L</td><td>Slaapkamer, werkkamer</td><td>Wifi, Xiaomi Home</td><td>Xiaomi-ecosysteem</td></tr>
+<tr><td>Boneco H700 Smart</td><td>Verdamping + HEPA-luchtreiniging</td><td>Tot 150 m²</td><td>Wifi, Boneco-app, Alexa, Google Home</td><td>Grote ruimtes, allergieën</td></tr>
+<tr><td>Levoit Classic 300S</td><td>Ultrasoon, 6 l</td><td>Middelgrote kamer</td><td>Wifi, VeSync, Alexa, Google</td><td>Beste prijs-kwaliteit</td></tr>
+<tr><td>Dyson PH04</td><td>Verdamping + UV-C + HEPA H13</td><td>Woonkamer</td><td>Wifi, MyDyson</td><td>3-in-1 het hele jaar</td></tr>
+<tr><td>Levoit OasisMist 1000S</td><td>Ultrasoon, 10 l</td><td>Tot ca. 55 m²</td><td>Wifi, VeSync, Alexa, Google</td><td>Looptijd, grote slaapkamer</td></tr>
+<tr><td>Xiaomi Smart Humidifier 2</td><td>Ultrasoon + UV-C, 4,5 l</td><td>Slaapkamer, werkkamer</td><td>Wifi, Xiaomi Home</td><td>Xiaomi-ecosysteem</td></tr>
 </tbody>
 </table>
 
-<h2>Hygiëne en onderhoud: het vaak vergeten deel</h2>
-<p>Een slecht onderhouden luchtbevochtiger kan alles wat in de tank groeit de lucht in blazen. Stilstaand water is een gunstige omgeving voor bacteriën en schimmels, welke technologie je ook kiest. Een paar eenvoudige regels:</p>
+<h2>Hygiëne en onderhoud: wat vaak vergeten wordt</h2>
+<p>Een slecht onderhouden luchtbevochtiger kan alles wat in de tank groeit de lucht in blazen. Stilstaand water is een ideale voedingsbodem voor bacteriën en schimmels, welke techniek je ook kiest. Een paar eenvoudige regels:</p>
 <ul>
-<li>Leeg de tank elke dag en laat hem drogen als het toestel niet gebruikt wordt; laat nooit dagenlang water staan.</li>
-<li>Ontkalk minstens één keer per week met witte azijn of citroenzuur volgens de handleiding, en spoel daarna goed na.</li>
-<li>Vervang lonten, matten en filters op de aangegeven momenten, of eerder als ze hard worden of gaan ruiken.</li>
+<li>Leeg de tank elke dag en laat hem drogen als je het apparaat niet gebruikt. Laat nooit dagenlang water staan.</li>
+<li>Ontkalk minstens één keer per week met azijn of citroenzuur volgens de handleiding, en spoel daarna goed na.</li>
+<li>Vervang filters en matten op de aangegeven momenten, of eerder als ze hard worden of gaan ruiken.</li>
 <li>Gebruik gedemineraliseerd of gefilterd water in een ultrasoon model als je water hard is.</li>
-<li>Haal altijd de stekker uit het stopcontact voordat je het toestel reinigt of bijvult.</li>
+<li>Haal altijd de stekker uit het stopcontact voordat je het apparaat schoonmaakt of bijvult.</li>
 </ul>
 
-<h2>Fouten om te vermijden</h2>
+<h2>Veelgemaakte fouten</h2>
 <ul>
-<li><strong>Onafgebroken bevochtigen zonder doelwaarde</strong>: boven 60 % geef je schimmel en mijten vrij spel. Gebruik altijd de automatische stand.</li>
-<li><strong>Etherische oliën in de tank gieten</strong>: die kunnen kunststof en membraan beschadigen. Gebruik alleen het voorziene pad of laatje en wees voorzichtig met kinderen, zwangere vrouwen en huisdieren.</li>
-<li><strong>Het toestel op de vloer of tegen de muur zetten</strong>: plaats het op een stabiele, verhoogde ondergrond, uit de buurt van muren, houten meubels, gordijnen en stopcontacten.</li>
+<li><strong>Onafgebroken bevochtigen zonder doelwaarde</strong>: boven 60% geef je schimmel en huisstofmijt vrij spel. Gebruik altijd de automatische stand.</li>
+<li><strong>Etherische olie in de tank gieten</strong>: die kan het kunststof en het membraan beschadigen. Gebruik alleen het aromapad of de geurlade die daarvoor bedoeld is, en wees voorzichtig met kinderen, zwangere vrouwen en huisdieren.</li>
+<li><strong>Het apparaat op de grond of tegen de muur zetten</strong>: zet het op een stabiele, verhoogde ondergrond, uit de buurt van muren, houten meubels, gordijnen en stopcontacten.</li>
 <li><strong>De nevel op het bed of op elektronica richten</strong>: plaatselijke condens kan textiel en apparaten beschadigen.</li>
-<li><strong>Te klein kopen</strong>: een overbelast toestel draait op volle toeren, maakt meer lawaai en haalt de doelwaarde nooit.</li>
-<li><strong>Vergeten te ventileren</strong>: elke dag een paar minuten luchten blijft nodig voor verse lucht.</li>
+<li><strong>Te klein kopen</strong>: een overbelast apparaat draait op volle toeren, maakt meer lawaai en haalt de doelwaarde nooit.</li>
+<li><strong>Vergeten te luchten</strong>: elke dag een paar minuten luchten blijft nodig voor verse lucht.</li>
 </ul>
 
 <h2>Installatie en veiligheid</h2>
-<p>Een slimme luchtbevochtiger gaat gewoon in het stopcontact en koppel je in enkele minuten met de app; controleer of je router een 2,4 GHz-wifinetwerk uitzendt, dat de meeste van deze toestellen gebruiken. Zet het toestel in een babykamer samen met de kabel buiten bereik en kies voor koude nevel. Mensen met astma of luchtwegaandoeningen doen er goed aan een zorgverlener te vragen welke luchtvochtigheid voor hen geschikt is.</p>
+<p>Een slimme luchtbevochtiger steek je gewoon in het stopcontact en koppel je in een paar minuten aan de app. Controleer wel of je router een wifinetwerk op 2,4 GHz uitzendt: de meeste van deze apparaten gebruiken dat. In een babykamer zet je het apparaat, kabel inbegrepen, buiten bereik en kies je voor koude nevel. Heb je astma of een andere luchtwegaandoening, vraag dan een zorgverlener welke luchtvochtigheid voor jou geschikt is.</p>
 
 <h2>Ons oordeel</h2>
-<p>Voor de meeste huishoudens die een complete oplossing zonder wit stof zoeken, is de <strong>Boneco H700 Smart</strong> de maatstaf: verdamping, groot bereik en luchtzuivering in één verbonden toestel. De <strong>Levoit Classic 300S</strong> is de beste instapper, eenvoudig en doordacht, zolang je het kalkprobleem onder controle hebt. Allergiepatiënten die het hele jaar willen zuiveren, bevochtigen en koelen, kiezen voor de <strong>Dyson PH04</strong>. Wat je ook kiest: stel een doelwaarde tussen 40 en 60 % in, maak het toestel regelmatig schoon en controleer de echte luchtvochtigheid met een onafhankelijke sensor.</p>`,
+<p>Voor de meeste huishoudens die een complete oplossing zonder wit stof zoeken, is de <strong>Boneco H700 Smart</strong> de maatstaf: verdamping, een groot bereik en luchtreiniging in één slim apparaat. De <strong>Levoit Classic 300S</strong> is de beste instapper, eenvoudig en doordacht, zolang je het kalkprobleem onder controle hebt. Wie allergisch is en het hele jaar door de lucht wil reinigen, bevochtigen en ventileren, kiest de <strong>Dyson PH04</strong>. Wat je ook kiest: stel een doelwaarde tussen 40 en 60% in, maak het apparaat regelmatig schoon en controleer de werkelijke luchtvochtigheid met een losse sensor.</p>`,
     pl: `<p>Dla większości domów najlepszym inteligentnym nawilżaczem powietrza w 2026 roku jest <strong>Boneco H700 Smart</strong>: nawilża metodą ewaporacyjną (więc nie zostawia białego pyłu), sprawdza się w dużych pomieszczeniach, przy okazji oczyszcza powietrze i można nim sterować przez Wi-Fi. Jeśli szukasz przede wszystkim niedrogiego modelu z aplikacją do sypialni lub średniej wielkości salonu, najrozsądniejszym wyborem będzie <strong>Levoit Classic 300S</strong> – pod warunkiem że napełniasz go miękką wodą.</p>
 <p>Nawilżacz podnosi wilgotność względną powietrza w domu, gdy spada ona poniżej 40% – a zimą, w sezonie grzewczym, zdarza się to często. Spierzchnięte usta, suche gardło po przebudzeniu, elektryzujące się włosy i ubrania, marniejące rośliny czy rozsychający się parkiet to typowe objawy zbyt suchego powietrza. Wersja inteligentna ma higrostat, tryb automatyczny, aplikację i harmonogramy, dzięki czemu łatwiej uniknąć najczęstszego błędu – przesadnego nawilżania. Zestawienie opiera się na kartach katalogowych producentów, opublikowanych niezależnych analizach i opiniach zweryfikowanych kupujących.</p>
 
@@ -1056,10 +1056,10 @@ export const article: BlogArticle = {
       question: {
         fr: `Quel taux d'humidité régler sur un humidificateur connecté ?`,
         en: `What humidity level should I set on a smart humidifier?`,
-        de: `Welche Luftfeuchtigkeit sollte ich am smarten Luftbefeuchter einstellen?`,
-        es: `¿Qué nivel de humedad debo fijar en un humidificador inteligente?`,
+        de: `Welche Luftfeuchtigkeit stellt man am smarten Luftbefeuchter ein?`,
+        es: `¿Qué nivel de humedad conviene fijar en un humidificador con wifi?`,
         it: `Che livello di umidità impostare su un umidificatore smart?`,
-        nl: `Welke luchtvochtigheid stel ik in op een slimme luchtbevochtiger?`,
+        nl: `Op welke luchtvochtigheid stel je een slimme luchtbevochtiger in?`,
         pl: `Jaką wilgotność ustawić w inteligentnym nawilżaczu?`,
         sv: `Vilken luftfuktighet ska jag ställa in på en smart luftfuktare?`,
         us: `What humidity level should I set on a smart humidifier?`,
@@ -1067,11 +1067,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Visez entre 40 et 60 % d'humidité relative, idéalement 45 à 50 % en hiver dans les pièces de vie. En dessous, l'air dessèche les muqueuses ; au-dessus de 60 %, la condensation favorise moisissures et acariens. Activez le mode automatique et contrôlez la valeur réelle avec un hygromètre placé loin de l'appareil.`,
-        en: `Aim for 40 to 60% relative humidity, ideally 45–50% in living areas during winter. Below that, the air dries out your airways; above 60%, condensation encourages mould and dust mites. Use auto mode and check the real value with a hygrometer placed away from the unit.`,
-        de: `Ziel sind 40 bis 60 % relative Luftfeuchtigkeit, im Winter in Wohnräumen idealerweise 45 bis 50 %. Darunter trocknen die Schleimhäute aus, über 60 % fördert Kondenswasser Schimmel und Milben. Nutzen Sie den Automatikmodus und prüfen Sie den echten Wert mit einem Hygrometer, das entfernt vom Gerät steht.`,
-        es: `Apunta a una humedad relativa de entre el 40 y el 60 %, idealmente del 45-50 % en invierno en las zonas de estar. Por debajo, el aire reseca las mucosas; por encima del 60 %, la condensación favorece moho y ácaros. Usa el modo automático y comprueba el valor real con un higrómetro alejado del aparato.`,
-        it: `Punta a un'umidità relativa tra il 40 e il 60 %, idealmente 45-50 % in inverno nelle zone giorno. Sotto, l'aria secca le mucose; sopra il 60 %, la condensa favorisce muffe e acari. Usa la modalità automatica e controlla il valore reale con un igrometro posizionato lontano dall'apparecchio.`,
-        nl: `Mik op 40 tot 60 % relatieve luchtvochtigheid, in de winter in de leefruimte bij voorkeur 45 à 50 %. Daaronder drogen de slijmvliezen uit; boven 60 % zorgt condens voor schimmel en mijten. Gebruik de automatische stand en controleer de echte waarde met een hygrometer op afstand van het toestel.`,
+        en: `Aim for 40 to 60% relative humidity, ideally 45–50% in living areas in winter. Any lower and the air dries out your nose and throat; above 60%, condensation encourages mould and dust mites. Use the auto mode and check the actual level with a hygrometer placed away from the humidifier.`,
+        de: `Ziel sind 40 bis 60 % relative Luftfeuchtigkeit, im Winter in Wohnräumen idealerweise 45 bis 50 %. Darunter trocknen die Schleimhäute aus, über 60 % fördert Kondenswasser Schimmel und Milben. Nutzen Sie den Automatikmodus und prüfen Sie den tatsächlichen Wert mit einem Hygrometer, das in einiger Entfernung vom Gerät steht.`,
+        es: `Lo ideal es una humedad relativa de entre el 40 y el 60 %, mejor aún del 45-50 % en invierno en la zona de día de la casa. Por debajo, el aire reseca las mucosas; por encima del 60 %, la condensación favorece el moho y los ácaros. Activa el modo automático y comprueba el valor real con un higrómetro colocado lejos del aparato.`,
+        it: `Mantieni un'umidità relativa tra il 40 e il 60%, idealmente al 45-50% d'inverno nelle stanze in cui passi più tempo. Più in basso l'aria secca le mucose; sopra il 60% la condensa favorisce muffe e acari. Attiva la modalità automatica e controlla il valore reale con un igrometro sistemato lontano dall'apparecchio.`,
+        nl: `Op 40 tot 60% relatieve luchtvochtigheid, in de winter in de woonkamer bij voorkeur op 45 tot 50%. Daaronder drogen de slijmvliezen uit; boven 60% zorgt condens voor schimmel en huisstofmijt. Gebruik de automatische stand en controleer de werkelijke waarde met een hygrometer die een eind van het apparaat af staat.`,
         pl: `Ustaw wilgotność względną na poziomie 40–60%, a zimą w pomieszczeniach mieszkalnych najlepiej 45–50%. Przy niższej wilgotności powietrze wysusza błony śluzowe, a powyżej 60% skraplająca się para sprzyja pleśni i roztoczom. Włącz tryb automatyczny i sprawdzaj rzeczywistą wilgotność higrometrem ustawionym z dala od urządzenia.`,
         sv: `Sikta på 40–60 % relativ luftfuktighet, helst 45–50 % på vintern i rum där du vistas. Lägre än så torkar luften ut luftvägarna; över 60 % gynnar kondensen mögel och kvalster. Använd automatiskt läge och kontrollera det verkliga värdet med en hygrometer som står en bit från apparaten.`,
         us: `Aim for 40 to 60% relative humidity, ideally 45 to 50% in living areas during winter. Below that, the air dries out your airways; above 60%, condensation encourages mold and dust mites. Use auto mode and check the actual reading with a hygrometer placed away from the unit.`,
@@ -1082,7 +1082,7 @@ export const article: BlogArticle = {
       question: {
         fr: `Pourquoi mon humidificateur laisse-t-il une poussière blanche ?`,
         en: `Why does my humidifier leave white dust?`,
-        de: `Warum hinterlässt mein Luftbefeuchter weißen Staub?`,
+        de: `Warum hinterlässt ein Luftbefeuchter weißen Staub?`,
         es: `¿Por qué mi humidificador deja polvo blanco?`,
         it: `Perché il mio umidificatore lascia polvere bianca?`,
         nl: `Waarom laat mijn luchtbevochtiger wit stof achter?`,
@@ -1093,11 +1093,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `C'est typique des modèles à ultrasons utilisés avec une eau calcaire : les minéraux dissous sont projetés avec la brume puis se déposent. La solution consiste à utiliser de l'eau déminéralisée ou filtrée, une cartouche anticalcaire si le fabricant en propose, ou à choisir un modèle à évaporation, qui retient les minéraux dans sa mèche.`,
-        en: `It is typical of ultrasonic models used with hard water: dissolved minerals are thrown out with the mist and then settle. The fix is to use demineralised or filtered water, an anti-limescale cartridge if the manufacturer offers one, or to choose an evaporative model, which traps minerals in its wick.`,
+        en: `It’s typical of ultrasonic models used with hard water: the dissolved minerals are sprayed out with the mist and then settle on surfaces. The fix is to use demineralised or filtered water, fit an anti-limescale cartridge if the manufacturer offers one, or choose an evaporative model, which traps the minerals in its wick.`,
         de: `Das ist typisch für Ultraschallgeräte, die mit kalkhaltigem Wasser betrieben werden: Die gelösten Mineralien gelangen mit dem Nebel in die Luft und setzen sich ab. Abhilfe schaffen entmineralisiertes oder gefiltertes Wasser, eine Entkalkungskartusche, falls der Hersteller eine anbietet, oder ein Verdunster, der die Mineralien im Docht zurückhält.`,
-        es: `Es típico de los modelos ultrasónicos usados con agua dura: los minerales disueltos salen con la neblina y luego se depositan. La solución es usar agua desmineralizada o filtrada, un cartucho antical si el fabricante lo ofrece, o elegir un modelo evaporativo, que retiene los minerales en su mecha.`,
-        it: `È tipico dei modelli a ultrasuoni usati con acqua dura: i minerali disciolti escono con la nebbiolina e poi si depositano. La soluzione è usare acqua demineralizzata o filtrata, una cartuccia anticalcare se il produttore la prevede, oppure scegliere un modello evaporativo, che trattiene i minerali nello stoppino.`,
-        nl: `Dat is typisch voor ultrasone modellen die met hard water werken: opgeloste mineralen komen met de nevel vrij en slaan daarna neer. De oplossing is gedemineraliseerd of gefilterd water, een antikalkpatroon als de fabrikant die aanbiedt, of een verdampingsmodel kiezen dat de mineralen in de lont vasthoudt.`,
+        es: `Pasa sobre todo con los modelos ultrasónicos cuando se usan con agua con mucha cal: los minerales disueltos salen con la neblina y luego se depositan. La solución es usar agua desmineralizada o filtrada, un cartucho antical si el fabricante lo ofrece, o elegir un modelo evaporativo, que retiene los minerales en su mecha.`,
+        it: `Svuota e sciacqua il serbatoio ogni giorno e decalcifica l'apparecchio almeno una volta alla settimana con aceto bianco o acido citrico, seguendo le istruzioni. Sostituisci stoppini e filtri agli intervalli indicati dal produttore. Stacca sempre la spina prima di qualsiasi operazione.`,
+        nl: `Dat gebeurt vooral bij ultrasone modellen met hard water: de opgeloste mineralen gaan met de nevel mee de lucht in en slaan daarna neer. De oplossing: gedemineraliseerd of gefilterd water, een antikalkpatroon als de fabrikant die aanbiedt, of een verdampingsmodel, dat de mineralen in het filter vasthoudt.`,
         pl: `To typowe dla modeli ultradźwiękowych napełnianych twardą wodą: rozpuszczone w niej minerały wydostają się razem z mgiełką, a potem osiadają na powierzchniach. Pomoże woda demineralizowana lub filtrowana, wkład antywapienny (jeśli producent go oferuje) albo model ewaporacyjny, który zatrzymuje minerały we wkładzie nawilżającym.`,
         sv: `Det är typiskt för ultraljudsmodeller som används med hårt vatten: de lösta mineralerna slungas ut med dimman och lägger sig sedan. Lösningen är att använda avjoniserat eller filtrerat vatten, en avkalkningspatron om tillverkaren erbjuder en, eller att välja en modell med avdunstning, där mineralerna fastnar i veken.`,
         us: `It's typical of ultrasonic models used with hard water: dissolved minerals are thrown out with the mist and then settle. The fix is to use distilled or filtered water, a demineralization cartridge if the manufacturer offers one, or to switch to an evaporative model, which traps minerals in its wick.`,
@@ -1107,7 +1107,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: `À quelle fréquence faut-il nettoyer un humidificateur ?`,
-        en: `How often should a humidifier be cleaned?`,
+        en: `How often should I clean a humidifier?`,
         de: `Wie oft muss ein Luftbefeuchter gereinigt werden?`,
         es: `¿Cada cuánto hay que limpiar un humidificador?`,
         it: `Ogni quanto va pulito un umidificatore?`,
@@ -1119,11 +1119,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Videz et rincez le réservoir chaque jour, puis détartrez l'appareil au moins une fois par semaine avec du vinaigre blanc ou de l'acide citrique selon la notice. Remplacez mèches et filtres aux intervalles prévus par le fabricant. Débranchez toujours l'appareil avant toute manipulation.`,
-        en: `Empty and rinse the tank every day, then descale the unit at least once a week with white vinegar or citric acid as the manual describes. Replace wicks and filters at the intervals set by the manufacturer. Always unplug the device before handling it.`,
-        de: `Leeren und spülen Sie den Tank täglich und entkalken Sie das Gerät mindestens einmal pro Woche mit Essig oder Zitronensäure gemäß Anleitung. Dochte und Filter in den vom Hersteller vorgesehenen Intervallen tauschen. Vor jedem Eingriff immer den Stecker ziehen.`,
+        en: `Empty and rinse the tank every day, then descale the humidifier at least once a week with white vinegar or citric acid, following the instructions. Replace wicks and filters as often as the manufacturer recommends. Always unplug it before handling it.`,
+        de: `Leeren und spülen Sie den Tank täglich, und entkalken Sie das Gerät mindestens einmal pro Woche nach Anleitung mit Essig oder Zitronensäure. Tauschen Sie Dochte und Filter in den vom Hersteller vorgesehenen Abständen. Ziehen Sie vor jedem Handgriff am Gerät den Netzstecker.`,
         es: `Vacía y aclara el depósito cada día y descalcifica el aparato al menos una vez por semana con vinagre blanco o ácido cítrico según el manual. Cambia mechas y filtros en los plazos que marque el fabricante. Desenchúfalo siempre antes de manipularlo.`,
-        it: `Svuota e sciacqua il serbatoio ogni giorno e decalcifica l'apparecchio almeno una volta alla settimana con aceto bianco o acido citrico seguendo il manuale. Sostituisci stoppini e filtri agli intervalli indicati dal produttore. Scollega sempre l'apparecchio prima di maneggiarlo.`,
-        nl: `Leeg en spoel de tank elke dag en ontkalk het toestel minstens één keer per week met witte azijn of citroenzuur volgens de handleiding. Vervang lonten en filters op de momenten die de fabrikant aangeeft. Haal altijd eerst de stekker uit het stopcontact.`,
+        it: `Sì, se l'aria è davvero secca. Scegli la nebbiolina fredda anziché il vapore caldo, tieni apparecchio e cavo fuori dalla portata del bambino, non dirigere la nebbiolina verso la culla e mantieni l'umidità tra il 40 e il 60%. La pulizia quotidiana è indispensabile. Nel dubbio, chiedi al pediatra.`,
+        nl: `Leeg en spoel de tank elke dag, en ontkalk het apparaat minstens één keer per week met azijn of citroenzuur volgens de handleiding. Vervang de filters zo vaak als de fabrikant aangeeft. Haal altijd eerst de stekker uit het stopcontact.`,
         pl: `Codziennie opróżniaj i płucz zbiornik, a co najmniej raz w tygodniu odkamieniaj urządzenie octem spirytusowym lub kwasem cytrynowym zgodnie z instrukcją. Wkłady i filtry wymieniaj w odstępach zalecanych przez producenta. Zanim zaczniesz cokolwiek przy nim robić, zawsze wyjmij wtyczkę z gniazdka.`,
         sv: `Töm och skölj tanken varje dag och avkalka sedan apparaten minst en gång i veckan med ättika eller citronsyra enligt bruksanvisningen. Byt vekar och filter med de intervall som tillverkaren anger. Dra alltid ur sladden innan du hanterar apparaten.`,
         us: `Empty and rinse the tank every day, then descale the unit at least once a week with white vinegar or citric acid as the manual describes. Replace wicks and filters at the intervals the manufacturer recommends. Always unplug the device before handling it.`,
@@ -1145,11 +1145,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Oui, si l'air est réellement sec. Choisissez une brume froide plutôt que la vapeur chaude, placez l'appareil et son câble hors de portée, ne dirigez pas la brume vers le lit et maintenez l'humidité entre 40 et 60 %. Un nettoyage quotidien est indispensable. En cas de doute, demandez conseil à votre pédiatre.`,
-        en: `Yes, if the air is genuinely dry. Choose cool mist rather than warm steam, keep the unit and its cable out of reach, do not aim the mist at the cot and keep humidity between 40 and 60%. Daily cleaning is essential. If in doubt, ask your paediatrician.`,
+        en: `Yes, if the air really is dry. Choose cool mist rather than warm mist, keep the humidifier and its cable out of reach, don’t point the mist at the cot, and keep the humidity between 40 and 60%. Clean it every day. If in doubt, check with your doctor.`,
         de: `Ja, wenn die Luft tatsächlich trocken ist. Wählen Sie kühlen Nebel statt heißem Dampf, stellen Sie Gerät und Kabel außer Reichweite, richten Sie den Nebel nicht aufs Bettchen und halten Sie die Luftfeuchtigkeit zwischen 40 und 60 %. Tägliche Reinigung ist Pflicht. Im Zweifel fragen Sie Ihre Kinderärztin oder Ihren Kinderarzt.`,
         es: `Sí, si el aire está realmente seco. Elige neblina fría en lugar de vapor caliente, coloca el aparato y su cable fuera de su alcance, no dirijas la neblina hacia la cuna y mantén la humedad entre el 40 y el 60 %. La limpieza diaria es imprescindible. Ante la duda, consulta a tu pediatra.`,
-        it: `Sì, se l'aria è davvero secca. Scegli il vapore freddo anziché quello caldo, tieni apparecchio e cavo fuori dalla portata, non dirigere la nebbiolina verso la culla e mantieni l'umidità tra il 40 e il 60 %. La pulizia quotidiana è indispensabile. Nel dubbio, chiedi al pediatra.`,
-        nl: `Ja, als de lucht echt droog is. Kies koude nevel in plaats van warme stoom, zet het toestel en de kabel buiten bereik, richt de nevel niet op het bedje en houd de luchtvochtigheid tussen 40 en 60 %. Dagelijks schoonmaken is noodzakelijk. Twijfel je, vraag dan advies aan je kinderarts.`,
+        it: `Mai direttamente nel serbatoio: gli oli possono danneggiare plastiche e membrana e far decadere la garanzia. Alcuni modelli, come i Levoit, il Boneco H700 Smart o lo Xiaomi Smart Humidifier 2, hanno un tampone o un cassetto dedicato: usa solo quello, con moderazione, ed evita di usarli vicino a neonati e animali.`,
+        nl: `Ja, als de lucht echt droog is. Kies koude nevel in plaats van warme stoom, zet het apparaat en de kabel buiten bereik, richt de nevel niet op het bedje en houd de luchtvochtigheid tussen 40 en 60%. Maak het apparaat elke dag schoon. Twijfel je, vraag dan advies aan je huisarts of kinderarts.`,
         pl: `Tak, jeśli powietrze jest naprawdę suche. Wybierz model z zimną mgiełką zamiast gorącej pary, ustaw urządzenie razem z kablem poza zasięgiem dziecka, nie kieruj mgiełki na łóżeczko i utrzymuj wilgotność w przedziale 40–60%. Nawilżacz trzeba czyścić codziennie. W razie wątpliwości zapytaj pediatrę.`,
         sv: `Ja, om luften verkligen är torr. Välj kall dimma i stället för varm ånga, placera apparaten och sladden utom räckhåll, rikta inte dimman mot spjälsängen och håll luftfuktigheten mellan 40 och 60 %. Daglig rengöring är ett måste. Är du osäker kan du fråga barnläkaren.`,
         us: `Yes, if the air is truly dry. Choose cool mist rather than warm mist, keep the unit and its cord out of reach, don't aim the mist at the crib and keep humidity between 40 and 60%. Daily cleaning is essential. If in doubt, ask your pediatrician.`,
@@ -1162,7 +1162,7 @@ export const article: BlogArticle = {
         en: `Can I put essential oils in a humidifier?`,
         de: `Darf man ätherische Öle in einen Luftbefeuchter geben?`,
         es: `¿Se pueden poner aceites esenciales en un humidificador?`,
-        it: `Si possono mettere oli essenziali in un umidificatore?`,
+        it: `Umidificatore evaporativo o a ultrasuoni: qual è il più silenzioso?`,
         nl: `Mag je etherische oliën in een luchtbevochtiger doen?`,
         pl: `Czy można wlewać olejki eteryczne do nawilżacza?`,
         sv: `Kan jag ha eteriska oljor i en luftfuktare?`,
@@ -1171,11 +1171,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Jamais directement dans le réservoir : les huiles peuvent abîmer les plastiques et la membrane, et annuler la garantie. Certains modèles, comme les Levoit, le Boneco H700 Smart ou le Xiaomi Smart Humidifier 2, ont un tampon ou un tiroir dédié : utilisez uniquement celui-ci, avec modération, et évitez-le près des bébés et des animaux.`,
-        en: `Never directly in the tank: oils can damage the plastics and the ultrasonic plate, and may void the warranty. Some models, such as the Levoit units, the Boneco H700 Smart or the Xiaomi Smart Humidifier 2, have a dedicated pad or drawer: use only that, sparingly, and avoid it around babies and pets.`,
-        de: `Niemals direkt in den Tank: Öle können Kunststoffe und Membran beschädigen und die Garantie gefährden. Einige Modelle wie die Levoit-Geräte, der Boneco H700 Smart oder der Xiaomi Smart Humidifier 2 haben ein eigenes Pad oder Fach: nur dieses verwenden, sparsam dosieren und in der Nähe von Babys und Haustieren darauf verzichten.`,
+        en: `Never put them straight into the tank: oils can damage the plastics and the membrane, and void the warranty. Some models, such as Levoit’s humidifiers, the Boneco H700 Smart and the Xiaomi Smart Humidifier 2, have a dedicated aroma pad or drawer. Use only that, sparingly, and avoid it around babies and pets.`,
+        de: `Niemals direkt in den Tank: Öle können Kunststoffe und Membran beschädigen und zum Verlust der Garantie führen. Einige Modelle wie die Levoit-Geräte, der Boneco H700 Smart oder der Xiaomi Smart Humidifier 2 haben ein eigenes Pad oder Fach. Verwenden Sie nur dieses, dosieren Sie sparsam und verzichten Sie in der Nähe von Babys und Haustieren ganz darauf.`,
         es: `Nunca directamente en el depósito: los aceites pueden dañar los plásticos y la membrana, y anular la garantía. Algunos modelos, como los Levoit, el Boneco H700 Smart o el Xiaomi Smart Humidifier 2, tienen una almohadilla o cajón específico: usa solo ese, con moderación, y evítalo cerca de bebés y mascotas.`,
-        it: `Mai direttamente nel serbatoio: gli oli possono danneggiare plastiche e membrana e invalidare la garanzia. Alcuni modelli, come i Levoit, il Boneco H700 Smart o lo Xiaomi Smart Humidifier 2, hanno un tampone o un cassetto dedicato: usa solo quello, con moderazione, ed evitalo vicino a neonati e animali.`,
-        nl: `Nooit rechtstreeks in de tank: oliën kunnen kunststof en membraan beschadigen en de garantie laten vervallen. Sommige modellen, zoals de Levoit-toestellen, de Boneco H700 Smart of de Xiaomi Smart Humidifier 2, hebben een eigen pad of laatje: gebruik alleen dat, met mate, en vermijd het in de buurt van baby's en huisdieren.`,
+        it: `I modelli a ultrasuoni sono in genere i più silenziosi perché non hanno una ventola potente: il Levoit OasisMist 1000S dichiara meno di 28 dB in modalità notte. Gli evaporativi producono un leggero soffio, discreto a bassa velocità ma udibile alla massima potenza. Per la camera da letto, controlla il valore dichiarato per la modalità notte.`,
+        nl: `Nooit rechtstreeks in de tank: olie kan het kunststof en het membraan beschadigen en de garantie laten vervallen. Sommige modellen, zoals die van Levoit, de Boneco H700 Smart en de Xiaomi Smart Humidifier 2, hebben een apart aromapad of een geurlade. Gebruik alleen dat, met mate, en niet in de buurt van baby’s en huisdieren.`,
         pl: `Nigdy bezpośrednio do zbiornika: olejki mogą uszkodzić plastikowe elementy i membranę, a także spowodować utratę gwarancji. Niektóre modele, np. Levoit, Boneco H700 Smart czy Xiaomi Smart Humidifier 2, mają specjalną wkładkę lub szufladkę na olejki – używaj tylko jej, z umiarem, i nie stosuj olejków w pobliżu niemowląt i zwierząt.`,
         sv: `Aldrig direkt i tanken: oljorna kan skada plasten och ultraljudsplattan, och garantin kan gå förlorad. Vissa modeller, som Levoits apparater, Boneco H700 Smart och Xiaomi Smart Humidifier 2, har en särskild doftdyna eller doftlåda: använd bara den, sparsamt, och avstå när det finns bebisar eller husdjur i närheten.`,
         us: `Never directly in the tank: oils can damage the plastics and the ultrasonic plate, and they may void the warranty. Some models, such as the Levoit humidifiers, the Boneco H700 Smart or the Xiaomi Smart Humidifier 2, have a dedicated pad or drawer: use only that, sparingly, and don’t use it around babies or pets.`,
@@ -1197,11 +1197,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Les modèles à ultrasons sont généralement les plus silencieux, car ils n'ont pas de ventilateur puissant : le Levoit OasisMist 1000S annonce moins de 28 dB en mode sommeil. Les modèles à évaporation produisent un léger souffle, discret à basse vitesse mais audible à pleine puissance. Pour une chambre, vérifiez la valeur du mode nuit.`,
-        en: `Ultrasonic models are usually the quietest because they have no powerful fan: the Levoit OasisMist 1000S is rated below 28 dB in sleep mode. Evaporative models make a gentle whoosh that is discreet at low speed but audible at full power. For a bedroom, check the sleep-mode figure.`,
-        de: `Ultraschallgeräte sind meist am leisesten, da ihnen ein kräftiger Ventilator fehlt: Der Levoit OasisMist 1000S wird im Schlafmodus mit unter 28 dB angegeben. Verdunster erzeugen ein leises Rauschen, auf niedriger Stufe dezent, auf voller Leistung hörbar. Achten Sie fürs Schlafzimmer auf den Wert des Nachtmodus.`,
-        es: `Los ultrasónicos suelen ser los más silenciosos porque no tienen un ventilador potente: el Levoit OasisMist 1000S anuncia menos de 28 dB en modo sueño. Los evaporativos producen un ligero soplido, discreto a baja velocidad pero audible a máxima potencia. Para el dormitorio, revisa el dato del modo noche.`,
+        en: `Ultrasonic models are usually the quietest, because they don’t have a powerful fan: Levoit quotes under 28 dB for the OasisMist 1000S in sleep mode. Evaporative models make a soft whooshing sound, barely noticeable at low speed but audible at full power. For a bedroom, check the sleep-mode figure.`,
+        de: `Ultraschallgeräte sind meist am leisesten, da ihnen ein kräftiger Ventilator fehlt: Der Levoit OasisMist 1000S wird im Schlafmodus mit unter 28 dB angegeben. Verdunster erzeugen ein leises Rauschen, auf niedriger Stufe dezent, auf höchster Stufe hörbar. Achten Sie fürs Schlafzimmer auf die Herstellerangabe für den Nachtmodus.`,
+        es: `Los ultrasónicos suelen ser los más silenciosos, porque no tienen un ventilador potente: el Levoit OasisMist 1000S anuncia menos de 28 dB en modo sueño. Los evaporativos producen un ligero soplido, discreto a baja velocidad pero audible a máxima potencia. Para el dormitorio, fíjate en los decibelios que anuncia el fabricante en modo noche.`,
         it: `I modelli a ultrasuoni sono in genere i più silenziosi perché non hanno una ventola potente: il Levoit OasisMist 1000S dichiara meno di 28 dB in modalità notte. Gli evaporativi producono un leggero soffio, discreto a bassa velocità ma udibile alla massima potenza. Per la camera, controlla il valore della modalità notte.`,
-        nl: `Ultrasone modellen zijn meestal het stilst, omdat ze geen krachtige ventilator hebben: de Levoit OasisMist 1000S wordt in de slaapstand opgegeven onder 28 dB. Verdampingsmodellen maken een zacht geruis, discreet op lage stand maar hoorbaar op volle kracht. Kijk voor een slaapkamer naar de waarde van de nachtstand.`,
+        nl: `Ultrasone modellen zijn meestal het stilst, omdat ze geen krachtige ventilator hebben: Levoit geeft voor de OasisMist 1000S in de slaapstand minder dan 28 dB op. Verdampingsmodellen maken een zacht geruis, nauwelijks hoorbaar op een lage stand maar duidelijk hoorbaar op volle kracht. Kijk voor een slaapkamer naar het opgegeven geluidsniveau in de nachtstand.`,
         pl: `Zwykle najciszej pracują modele ultradźwiękowe, bo nie mają mocnego wentylatora: dla modelu Levoit OasisMist 1000S producent deklaruje w trybie snu poniżej 28 dB. Modele ewaporacyjne lekko szumią – na niskim biegu prawie niesłyszalnie, przy pełnej mocy wyraźnie. Jeśli nawilżacz ma stać w sypialni, sprawdź poziom hałasu w trybie nocnym.`,
         sv: `Ultraljudsmodeller är oftast tystast eftersom de saknar kraftig fläkt: Levoit OasisMist 1000S anges till under 28 dB i nattläge. Modeller med avdunstning ger ett svagt sus som är diskret på låg hastighet men hörs på full effekt. Ska den stå i sovrummet bör du kontrollera ljudnivån i nattläget.`,
         us: `Ultrasonic models are usually the quietest because they have no powerful fan: the Levoit OasisMist 1000S is rated below 28 dB in sleep mode. Evaporative models make a gentle whoosh that's barely noticeable at low speed but audible at full power. For a bedroom, check the sleep-mode rating.`,

@@ -14,9 +14,11 @@ const FIRST_SENTENCE_MAX_WORDS = 35
 /**
  * Home Nura compares documentation, it runs no lab: no word that claims a
  * test ("test", "getestet", "Testsieger", "testato", "przetestowane"…).
- * Matches at a word start only, so a cited "Stiftung Warentest" stays legal.
+ * Matches at a word start only, so a cited "Stiftung Warentest" stays legal,
+ * and leaves out the Italian "testa" (head, "mal di testa") and "testina"
+ * (the thermostatic head of a radiator valve), which claim nothing.
  */
-const TEST_CLAIM = /(^|[^\p{L}])(test|getest|przetest|probad[oa]s?\b|probamos)/iu
+const TEST_CLAIM = /(^|[^\p{L}])(test(?!a(?!\p{L})|in[ae](?!\p{L}))|getest|przetest|probad[oa]s?\b|probamos)/iu
 const URL = /https?:\/\/|www\./i
 
 const words = (text: string) => text.trim().split(/\s+/).filter(Boolean).length

@@ -27,7 +27,7 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
     en: [
       {
         question: "What accuracy do I need from digital kitchen scales for baking?",
-        answer: "For most cakes and bread, scales that read to 1 g are enough; 0.1 g is only worth it for small amounts such as yeast, salt, spices or coffee. On a 7 g sachet of yeast, a 1 g error is about 14 per cent of the dose. Weigh in grams even when a recipe gives ounces: 1 oz is roughly 28 g, so the gram setting is far finer. Precision scales that read to 0.1 g often have a lower maximum, so keep a standard 5 kg model for big bakes.",
+        answer: "For most cakes and bread, scales that read to 1 g are enough; 0.1 g is only worth it for small amounts such as yeast, salt, spices or coffee. On a 7 g sachet of yeast, a 1 g error is about 14% of the dose. Weigh in grams even when a recipe gives ounces: 1 oz is roughly 28 g, so the gram setting is far finer. Precision scales that read to 0.1 g often have a lower maximum, so keep a standard 5 kg model for big bakes.",
       },
       {
         question: "Do I need smart scales and an app subscription to count calories?",
@@ -71,41 +71,41 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Qué precisión necesito en una báscula de cocina: 1 g o 0,1 g?",
-        answer: "Para cocinar y para casi toda la repostería basta con 1 g; la precisión de 0,1 g solo compensa para cantidades pequeñas como levadura, sal, especias o café. Con 3 g de levadura, un gramo de error es un tercio de la dosis, y se nota en un pan o un roscón. Las básculas de 0,1 g suelen tener una capacidad máxima menor, a menudo de unos cientos de gramos a pocos kilos, así que para harinas y masas conviene una de 5 kg. Busca también función tara y una superficie fácil de limpiar.",
+        answer: "Para cocinar y para casi toda la repostería basta con 1 g; la precisión de 0,1 g solo compensa para cantidades pequeñas, como levadura, sal, especias o café. Con 3 g de levadura, un gramo de error es un tercio de la dosis, y se nota en un pan o en un roscón. Las básculas de 0,1 g suelen tener una capacidad máxima menor, a menudo de unos cientos de gramos a 2 o 3 kg, así que para harinas y masas conviene una de 5 kg. Busca también que tenga función tara y una superficie fácil de limpiar.",
       },
       {
-        question: "¿La comida se pesa en crudo o cocinada para contar calorías?",
-        answer: "Mejor en crudo, porque el peso de los alimentos cocinados cambia según el agua que ganan o pierden. El arroz y la pasta absorben agua y pesan bastante más tras la cocción, mientras que la carne y el pollo pierden peso. Lo importante es ser coherente: si pesas en crudo, elige en la app el alimento crudo, y al revés. Una báscula conectada con app nutricional hace la cuenta sola, aunque algunas piden registrarse o pagar una suscripción para el historial; una báscula normal y una app gratuita sirven igual.",
+        question: "¿La comida se pesa cruda o cocinada para contar calorías?",
+        answer: "Mejor cruda, porque el peso de los alimentos cocinados cambia según el agua que ganan o pierden. El arroz y la pasta absorben agua y pesan bastante más después de cocerlos, mientras que la carne y el pollo pierden peso. Lo importante es ser coherente: si pesas en crudo, elige en la app el alimento crudo, y al revés. Una báscula inteligente con app nutricional hace la cuenta sola, aunque algunas piden registrarse o pagar una suscripción para ver el historial; una báscula normal y una app gratuita sirven igual.",
       },
       {
         question: "¿Merece la pena una báscula de cocina si ya tengo Thermomix?",
-        answer: "Sí, como complemento: la Thermomix pesa lo que echas en su vaso, pero no es práctica para pesar fuera de él ni para dosis de décimas de gramo. Para seguir sus recetas guiadas no necesitas nada más. En cambio, una báscula plana es más cómoda para pesar una masa sobre la encimera, el contenido de una bandeja de horno, el café o la levadura con precisión. Una báscula sencilla de 1 g y 5 kg, que se guarda en un cajón, suele bastar para todo lo demás.",
+        answer: "Sí, como complemento: la Thermomix pesa lo que echas en su vaso, pero no es práctica para pesar fuera de él ni para dosis de décimas de gramo. Para seguir sus recetas guiadas no necesitas nada más. En cambio, una báscula plana es más cómoda para pesar con precisión una masa sobre la encimera, lo que va en una bandeja de horno, el café o la levadura. Una báscula sencilla de 1 g y 5 kg, que se guarda en un cajón, suele bastar para todo lo demás.",
       },
       {
         question: "¿Cómo calibrar o comprobar una báscula de cocina digital?",
-        answer: "Pésala con monedas de euro: la de 1 € pesa 7,5 g y la de 2 €, 8,5 g, así que diez de 1 € deben marcar unos 75 g. Admite un gramo de diferencia por el desgaste de las monedas. Si el error es mayor, cambia primero las pilas y colócala en una superficie dura y nivelada, encendiéndola siempre sin peso. Algunas básculas de precisión tienen un modo de calibración con una pesa de referencia; las básicas no se calibran y, si siguen fallando, el sensor está dañado.",
+        answer: "Compruébala con monedas de euro: la de 1 € pesa 7,5 g y la de 2 €, 8,5 g, así que diez de 1 € deben marcar unos 75 g. Un gramo de diferencia es normal por el desgaste de las monedas. Si el error es mayor, cambia primero las pilas, ponla sobre una superficie dura y nivelada y enciéndela siempre sin nada encima. Algunas básculas de precisión tienen un modo de calibración con una pesa de referencia; las básicas no se calibran y, si siguen fallando, lo más probable es que el sensor esté dañado.",
       },
       {
         question: "¿Qué pila lleva una báscula de cocina y conviene más una recargable?",
-        answer: "La mayoría usa una pila de botón CR2032 o dos pilas AAA, y el tipo suele venir marcado en la tapa del compartimento. Si la báscula es conectada, tiene pantalla retroiluminada o la usas a diario, una recargable por USB-C te ahorra comprar pilas, porque el Bluetooth las gasta antes. Su punto débil es que la batería integrada no siempre se puede cambiar. Si la báscula muestra “Lo” o números que bailan, cambia la pila antes de pensar en una avería, y quítala si vas a guardarla meses.",
+        answer: "La mayoría usa una pila de botón CR2032 o dos pilas AAA, y el tipo suele venir marcado en la tapa del compartimento. Si la báscula tiene Bluetooth o pantalla retroiluminada, o si la usas a diario, una recargable por USB-C te ahorra comprar pilas, porque el Bluetooth las gasta antes. Su punto débil es que la batería integrada no siempre se puede cambiar. Si la báscula muestra «Lo» o números que bailan, cambia la pila antes de pensar en una avería, y quítala si vas a tenerla guardada varios meses.",
       },
     ],
     it: [
       {
         question: "Bilancia da cucina con precisione 0,1 g: serve davvero?",
-        answer: "Solo per le piccole dosi: per cucinare e per quasi tutti i dolci basta la precisione di 1 g. Lo 0,1 g serve per lievito di birra secco, sale, spezie, agar agar o caffè, dove un grammo in più cambia il risultato: su una bustina da 7 g di lievito secco è un errore del 14 %. Le bilance di precisione hanno spesso una portata limitata, da qualche centinaio di grammi a pochi chili. Per pane, pizza e dolci conviene una bilancia da 5 kg al grammo con funzione tara.",
+        answer: "Solo per le piccole dosi: per cucinare e per quasi tutti i dolci basta la precisione di 1 g. La precisione al decimo serve per lievito di birra secco, sale, spezie, agar agar o caffè, dove un grammo in più cambia il risultato: su una bustina da 7 g di lievito secco è un errore del 14%. Le bilance di precisione hanno spesso una portata limitata, da qualche centinaio di grammi a pochi chili. Per pane, pizza e dolci conviene una bilancia da 5 kg al grammo con funzione tara.",
       },
       {
         question: "La pasta si pesa cruda o cotta?",
-        answer: "Cruda: i valori nutrizionali sulla confezione si riferiscono a 100 g di pasta secca, mentre il peso da cotta cambia con l'acqua assorbita. La porzione standard indicata dai LARN, i livelli di riferimento della Società Italiana di Nutrizione Umana, è di 80 g a crudo. Da cotta la pasta pesa circa il doppio o poco più, ma dipende dal formato e dalla cottura, quindi è un dato poco affidabile. Se usi un'app per le calorie, scegli la voce “pasta cruda” e pesala prima di buttarla nell'acqua.",
+        answer: "Cruda: i valori nutrizionali sulla confezione si riferiscono a 100 g di pasta secca, mentre il peso da cotta cambia con l'acqua assorbita. La porzione standard indicata dai LARN, i livelli di riferimento della Società Italiana di Nutrizione Umana, è di 80 g a crudo. Da cotta la pasta pesa circa il doppio o poco più, ma dipende dal formato e dalla cottura, quindi è un dato poco affidabile. Se usi un'app per le calorie, scegli la voce «pasta cruda» e pesala prima di buttarla nell'acqua.",
       },
       {
         question: "Bilancia smart con app o bilancia normale: cosa conviene per la dieta?",
-        answer: "Per la dieta basta una bilancia normale al grammo, se annoti i pesi in un'app; quella smart conviene se vuoi che calorie e macronutrienti si calcolino da soli. Con la bilancia connessa scegli l'alimento nell'app, lo appoggi sul piatto e il conteggio si aggiorna via Bluetooth. Controlla prima se l'app richiede un account o un abbonamento per lo storico e i piani alimentari, e da quale banca dati prende i valori. Il diario alimentare è un dato delicato: leggi l'informativa sulla privacy.",
+        answer: "Per la dieta basta una bilancia normale al grammo, se annoti i pesi in un'app; quella smart conviene se vuoi che calorie e macronutrienti si calcolino da soli. Con la bilancia smart scegli l'alimento nell'app, lo appoggi sul piatto e il conteggio si aggiorna via Bluetooth. Controlla prima se l'app richiede un account o un abbonamento per lo storico e i piani alimentari, e da quale banca dati prende i valori. Il diario alimentare è un dato delicato: leggi l'informativa sulla privacy.",
       },
       {
         question: "Perché la bilancia da cucina segna un peso sbagliato?",
-        answer: "Di solito per pile scariche, un piano non stabile o una tara fatta male. Cambia le pile, spesso una CR2032 a bottone o due AAA, appoggia la bilancia su un piano rigido e ben dritto e accendila a vuoto, aspettando lo zero. Per controllarla usa le monete: una da 1 € pesa 7,5 g, quindi dieci monete devono segnare circa 75 g. Se l'errore resta, il sensore può essersi danneggiato con un urto o un sovraccarico, per esempio appoggiando una pentola oltre la portata massima.",
+        answer: "Di solito per pile scariche, un piano non stabile o una tara fatta male. Cambia le pile, spesso una CR2032 a bottone o due AAA, appoggia la bilancia su una superficie rigida e ben in piano e accendila a vuoto, aspettando lo zero. Per controllarla usa le monete: una da 1 € pesa 7,5 g, quindi dieci monete devono segnare circa 75 g. Se l'errore resta, il sensore può essersi danneggiato con un urto o un sovraccarico, per esempio una pentola più pesante della portata massima.",
       },
       {
         question: "Si possono pesare latte e olio con la bilancia da cucina?",
@@ -296,42 +296,42 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
         answer: "El pollo y el pavo deben llegar al menos a 70-75 °C en la parte más gruesa, según las recomendaciones de seguridad alimentaria, para eliminar bacterias como Salmonella o Campylobacter. En un pollo entero, mide en el muslo, cerca del hueso pero sin tocarlo, y comprueba también la pechuga. En la barbacoa, ojo con las piezas grandes, que se doran por fuera mucho antes de estar hechas por dentro. La carne picada, como las hamburguesas, también debe cocinarse del todo. Deja reposar unos minutos antes de cortar: la temperatura sigue subiendo un poco.",
       },
       {
-        question: "¿Qué temperatura interna para ternera, cordero y cerdo ibérico?",
-        answer: "Como referencia, unos 50-55 °C para la ternera poco hecha, 55-60 °C al punto, 57-62 °C para el cordero rosado y desde 63 °C para el cerdo, incluido el ibérico. Las piezas de ibérico como el secreto o la presa se suelen servir jugosas, pero conviene no quedarse por debajo de esa cifra. El chuletón se retira antes, porque la temperatura sube unos grados mientras reposa. Mide siempre en el centro de la parte más gruesa, lejos del hueso y de la grasa, y ajusta las alarmas de la app a tu gusto.",
+        question: "¿Qué temperatura interna necesitan la ternera, el cordero y el cerdo ibérico?",
+        answer: "Como referencia, unos 50-55 °C para la ternera poco hecha, 55-60 °C para el cordero rosado y 63-68 °C para el cerdo, incluido el ibérico. Las piezas de ibérico como el secreto o la presa se suelen servir jugosas, pero conviene no bajar de 63 °C. Retira el chuletón o la pierna de cordero un poco antes de llegar a la cifra, porque la temperatura sube unos grados mientras reposa. Mide siempre en el centro de la parte más gruesa, lejos del hueso y de la grasa, y ajusta las alarmas de la app a tu gusto.",
       },
       {
         question: "¿Termómetro inalámbrico o con cable para la barbacoa?",
-        answer: "Para barbacoa y ahumados largos suele ser más robusto el de cable con base fuera de la tapa; el inalámbrico es más cómodo en el horno y en el asador giratorio. El de cable funciona con pilas, admite a menudo varias sondas y no depende de una señal que tenga que atravesar la tapa metálica. El inalámbrico no tiene cables, pero su señal Bluetooth suele quedarse en pocos metros con el horno o la barbacoa cerrados; para vigilarlo desde el salón o fuera de casa, elige uno con repetidor wifi.",
+        answer: "Para la barbacoa y los ahumados largos suele ser más robusto el de cable, con la base fuera de la tapa; el inalámbrico es más cómodo en el horno y en el asador giratorio. El de cable funciona con pilas, a menudo admite varias sondas y no depende de una señal que tenga que atravesar la tapa metálica. El inalámbrico no tiene cables, pero su señal Bluetooth suele quedarse en pocos metros con el horno o la barbacoa cerrados; para seguir la cocción desde el salón o fuera de casa, elige uno con repetidor wifi.",
       },
       {
         question: "¿Se puede usar un termómetro inalámbrico en la freidora de aire?",
         answer: "Sí, siempre que la sonda quepa entera sin tocar la resistencia ni el ventilador y la cesta cierre sin forzarla. Las freidoras de aire suelen trabajar hasta unos 200 °C, por debajo del límite que admiten muchas sondas, pero el aire más caliente se concentra cerca de la resistencia, justo donde queda el extremo de la sonda. Clávala en horizontal en la parte más gruesa, hasta la marca que indique el fabricante, y úsala con piezas grandes, como un pollo pequeño o un solomillo. En cestas muy bajas, una sonda con cable resulta más práctica.",
       },
       {
-        question: "¿Se puede meter el termómetro de carne en el lavavajillas?",
+        question: "¿Se puede meter el termómetro para carne en el lavavajillas?",
         answer: "Solo si el fabricante lo indica: muchas sondas, sobre todo las inalámbricas, deben lavarse a mano con agua tibia y jabón, sin sumergir el extremo electrónico. En las de cable, no mojes nunca el cable ni el conector. Para comprobar que mide bien, mete la sonda en un vaso lleno de hielo picado y agua fría: debe marcar unos 0 °C, con un grado de margen. Si se desvía más o da saltos, la sonda o el cable están dañados. Carga la batería antes de cada asado largo para que no se apague a mitad de la cocción.",
       },
     ],
     it: [
       {
         question: "A che temperatura al cuore è cotto il pollo?",
-        answer: "Pollo e tacchino vanno cotti fino ad almeno 75 °C al cuore, misurati nel punto più spesso: è una soglia prudente contro batteri come Salmonella e Campylobacter. Nel pollo intero infila la sonda nella coscia, vicino all'osso ma senza toccarlo, e controlla anche il petto. Sul barbecue i pezzi grandi si colorano fuori molto prima di essere cotti dentro: il termometro evita di andare a occhio. Anche hamburger e salsicce vanno cotti completamente. Lascia riposare qualche minuto prima di tagliare, perché la temperatura sale ancora un po'.",
+        answer: "Pollo e tacchino vanno cotti fino ad almeno 75 °C al cuore, misurati nel punto più spesso: è una soglia prudente contro batteri come Salmonella e Campylobacter. Nel pollo intero infila la sonda nella coscia, vicino all'osso ma senza toccarlo, e controlla anche il petto. Sul barbecue i pezzi grandi si colorano fuori molto prima di essere cotti dentro: con il termometro non devi andare a occhio. Anche hamburger e salsicce vanno cotti bene fino al centro. Lascia riposare qualche minuto prima di tagliare, perché la temperatura sale ancora un po'.",
       },
       {
         question: "Fiorentina, roast beef e arista: che temperatura al cuore?",
-        answer: "Indicativamente, togli la fiorentina dal fuoco intorno a 50-55 °C per una cottura al sangue, il roast beef a 55-58 °C e l'arista di maiale a 63-68 °C. Durante il riposo la temperatura cresce ancora di qualche grado, quindi conviene fermarsi poco prima del valore desiderato. Nella fiorentina, spessa e con l'osso, la sonda va infilata di lato fino al centro della parte più spessa, lontano dall'osso. Per arrosti di vitello o agnello rosati regola l'allarme tra 55 e 60 °C, secondo i gusti.",
+        answer: "Indicativamente, togli la fiorentina dal fuoco intorno a 50-55 °C per una cottura al sangue, il roast beef a 55-58 °C e l'arista di maiale a 63-68 °C. Durante il riposo la temperatura sale ancora di qualche grado, quindi conviene fermarsi poco prima del valore desiderato. Nella fiorentina, alta e con l'osso, infila la sonda di lato fino al centro della parte più spessa, lontano dall'osso. Per arrosti di vitello o agnello rosati imposta l'allarme tra 55 e 60 °C, secondo i gusti.",
       },
       {
         question: "Termometro per carne wireless o con filo: quale scegliere?",
-        answer: "Il wireless è più comodo in forno e sul girarrosto, quello con filo è più robusto per barbecue, affumicature e cotture lunghe. Il modello con filo ha una centralina esterna a pile, spesso accetta più sonde e non dipende da un segnale che deve attraversare il coperchio metallico. La sonda wireless non ha cavi, ma la sua piccola batteria deve durare tutta la cottura e il segnale Bluetooth, con forno o barbecue chiusi, arriva spesso a pochi metri: per seguire la cottura da un'altra stanza scegli un modello con ripetitore wifi.",
+        answer: "Il wireless è più comodo in forno e sul girarrosto, quello con filo è più robusto per barbecue, affumicature e cotture lunghe. Il modello con filo ha una centralina esterna a pile, spesso accetta più sonde e non dipende da un segnale che deve attraversare il coperchio metallico. La sonda wireless non ha cavi, ma la sua piccola batteria deve durare tutta la cottura e, con il forno o il barbecue chiusi, il segnale Bluetooth spesso arriva solo a pochi metri. Per seguire la cottura da un'altra stanza scegli un modello con ripetitore Wi-Fi.",
       },
       {
         question: "Si può usare la sonda wireless nel forno a legna o per la pizza?",
-        answer: "Non per la pizza: un forno a legna o un fornetto per pizza supera facilmente i 400 °C, oltre il limite di molte sonde wireless. Molte reggono una temperatura ambiente massima intorno ai 250-300 °C, mentre l'elettronica interna, protetta dalla carne, sopporta di solito circa 100 °C, quindi la sonda va infilata almeno fino al segno indicato. Nel forno a legna puoi usarla per arrosti a fuoco calante, a temperature moderate. Controlla sempre il limite dichiarato dal produttore e tieni la sonda lontana da fiamme dirette e braci.",
+        answer: "Per la pizza no: un forno a legna o un fornetto per pizza supera facilmente i 400 °C, oltre il limite di quasi tutte le sonde wireless. In genere reggono una temperatura ambiente massima di 250-300 °C. L'elettronica interna, protetta dalla carne, sopporta di solito circa 100 °C: per questo la sonda va infilata almeno fino al segno indicato. Nel forno a legna puoi usarla per gli arrosti a forno calante, a temperature moderate. Controlla sempre il limite dichiarato dal produttore e tieni la sonda lontana da fiamme dirette e braci.",
       },
       {
         question: "Il termometro per carne si può lavare in lavastoviglie?",
-        answer: "Solo se il produttore lo prevede: molte sonde, soprattutto wireless, si lavano a mano con acqua calda e sapone, senza immergere l'estremità elettronica. Nei modelli con filo non bagnare mai cavo e connettore. Per controllare la precisione, immergi la sonda in un bicchiere pieno di ghiaccio tritato e acqua fredda: deve segnare circa 0 °C, con un grado di tolleranza. Se si discosta di più o i valori saltano, sonda o cavo sono danneggiati e vanno sostituiti. Conserva la sonda nella sua custodia, dove il cavo non si piega.",
+        answer: "Solo se il produttore lo prevede: molte sonde, soprattutto wireless, si lavano a mano con acqua calda e sapone, senza immergere l'estremità elettronica. Nei modelli con filo non bagnare mai cavo e connettore. Per controllare la precisione, immergi la sonda in un bicchiere pieno di ghiaccio tritato e acqua fredda: deve segnare circa 0 °C, con una tolleranza di un grado. Se si discosta di più o i valori saltano, sonda o cavo sono danneggiati e vanno sostituiti. Conserva la sonda nella sua custodia, così il cavo non si piega.",
       },
     ],
     nl: [
@@ -515,37 +515,37 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
     es: [
       {
         question: "¿Qué potencia máxima aguanta un enchufe inteligente?",
-        answer: "Lo que indique su intensidad máxima: los de 16 A soportan hasta unos 3.680 W y los de 10 A, unos 2.300 W, aunque conviene quedarse por debajo con cargas largas. Un hervidor o una freidora de aire van bien, pero un aparato que tira cerca del máximo durante horas calienta el enchufe. No conectes estufas ni radiadores portátiles: muchos manuales prohíben encenderlos con temporizador o mando a distancia por riesgo de incendio. Un aire acondicionado portátil puede ir, pero tras un corte de corriente suele quedarse apagado hasta que pulses su botón.",
+        answer: "Depende de su intensidad máxima: uno de 16 A admite hasta unos 3.680 W y uno de 10 A, unos 2.300 W, aunque con cargas de muchas horas conviene quedarse por debajo. Un hervidor o una freidora de aire no dan problemas, pero un aparato que funciona cerca del máximo durante horas acaba calentando el enchufe. No conectes estufas ni radiadores portátiles: muchos manuales prohíben encenderlos con temporizador o a distancia por riesgo de incendio. Un aire acondicionado portátil sí puede ir enchufado, pero tras un corte de corriente suele quedarse apagado hasta que vuelves a pulsar su botón.",
       },
       {
         question: "¿Puedo programar el termo eléctrico con un enchufe inteligente?",
-        answer: "Sí, si tu termo va enchufado a la pared y su potencia, a menudo entre 1.500 y 2.000 W, no supera la del enchufe, idealmente de 16 A. Así puedes calentar el agua en el periodo valle de la tarifa 2.0TD, de 0 a 8 h los laborables y todo el día los fines de semana y festivos nacionales, cuando el kWh es más barato. No recortes tanto las horas que el agua no llegue a calentarse del todo, y deja que el termostato del termo siga mandando. Si el termo no tiene clavija, necesitarás un interruptor inteligente instalado por un electricista.",
+        answer: "Sí, siempre que el termo vaya enchufado a una toma de pared y su potencia, normalmente de 1.500 a 2.000 W, no supere la que admite el enchufe; mejor uno de 16 A. Así puedes calentar el agua en horas valle (de 0 a 8 h entre semana y todo el día los fines de semana y festivos nacionales), que salen más baratas con el PVPC o una tarifa con discriminación horaria. No recortes tanto las horas que el agua no llegue a calentarse, y deja que el termostato del termo siga regulando. Si el termo no tiene clavija, necesitarás un interruptor inteligente instalado por un electricista.",
       },
       {
         question: "¿Enchufe inteligente o regleta inteligente?",
-        answer: "Un enchufe inteligente basta para controlar un aparato; la regleta inteligente compensa cuando quieres manejar varios en el mismo sitio, como la tele, la consola y la barra de sonido. La regleta permite encender o apagar cada toma por separado y suele incluir puertos USB, pero todas sus tomas comparten el mismo límite total, a menudo de 10 o 16 A en conjunto. No sirve, por tanto, para juntar varios aparatos de mucha potencia. Comprueba si mide el consumo de cada toma o solo del total, y si es compatible con Matter, Alexa o Google Home.",
+        answer: "Un enchufe inteligente basta para controlar un aparato; la regleta inteligente compensa cuando quieres manejar varios que están juntos, como la tele, la consola y la barra de sonido. Permite encender o apagar cada toma por separado y suele traer puertos USB, pero todas las tomas comparten un único límite, normalmente de 10 o 16 A en total. Por eso no sirve para juntar varios aparatos potentes. Comprueba si mide el consumo de cada toma o solo el total, y si es compatible con Matter, Alexa o Google Home.",
       },
       {
         question: "¿Funciona un enchufe inteligente sin wifi o sin internet?",
-        answer: "Sin wifi, la mayoría solo responde a su botón físico; sin internet pero con wifi, depende del sistema. Muchos enchufes wifi dependen de la nube del fabricante para el control desde la app y los asistentes, aunque algunos guardan los horarios en el propio enchufe y los siguen cumpliendo. Los compatibles con Matter, Zigbee o una plataforma como Home Assistant funcionan en local, dentro de tu red. Si te preocupa la privacidad o las caídas de internet, elige uno con control local. Ten en cuenta que la mayoría solo se conecta a la banda de 2,4 GHz.",
+        answer: "Sin wifi, la mayoría solo responde a su botón físico; sin internet pero con wifi, depende del sistema. Muchos enchufes wifi necesitan la nube del fabricante para manejarlos desde la app o con los asistentes, aunque algunos guardan los horarios en el propio enchufe y los siguen cumpliendo. Los que funcionan con Matter o Zigbee, o a través de Home Assistant, se controlan en local, dentro de tu red. Si te preocupan la privacidad o las caídas de internet, elige uno con control local. Ojo: la mayoría solo se conecta a la banda de 2,4 GHz.",
       },
       {
         question: "¿Por qué se apaga solo mi enchufe inteligente?",
-        answer: "Normalmente por una protección contra sobrecarga o sobrecalentamiento, por un horario o una automatización olvidados, o porque tras un corte de luz vuelve apagado. Revisa en la app los horarios, la cuenta atrás y el modo ausente, y las rutinas de Alexa o Google Home que lo incluyan. Busca también el ajuste de estado tras un corte: encendido, apagado o último estado. Si se apaga al usar un aparato potente, como un horno de sobremesa, estás cerca de su límite. Si pierde la conexión a menudo, acerca el router o añade un punto de malla.",
+        answer: "Normalmente porque salta su protección contra sobrecarga o sobrecalentamiento, porque hay un horario o una automatización que has olvidado, o porque vuelve apagado tras un corte de luz. Revisa en la app los horarios, la cuenta atrás y el modo ausente, y también las rutinas de Alexa o Google Home que lo incluyan. Busca el ajuste de estado tras un corte: encendido, apagado o último estado. Si se apaga al usar un aparato potente, como un horno de sobremesa, estás rozando el límite del enchufe. Si pierde la conexión a menudo, acerca el router o añade un repetidor wifi.",
       },
     ],
     it: [
       {
         question: "Presa smart con spina italiana o Schuko: quale comprare?",
-        answer: "Dipende dalle prese di casa: con le bipasso italiane ti serve una presa smart con spina italiana, mentre con le prese Schuko o universali vanno bene anche i modelli Schuko. Molte prese smart in commercio sono Schuko: usarle con un adattatore è sconsigliabile con carichi elevati, perché un contatto meno saldo può scaldare. Controlla anche la corrente massima: 10 A bastano per lampade e piccoli elettrodomestici, mentre per carichi più potenti servono 16 A, cioè fino a circa 3.680 W. Se rifai l'impianto, esistono anche prese comandate da incasso nelle serie civili come BTicino o Vimar.",
+        answer: "Dipende dalle prese di casa: con le bipasso italiane ti serve una presa smart con spina italiana, mentre con le prese Schuko o universali vanno bene anche i modelli Schuko. Molte prese smart in commercio hanno la spina Schuko: usarle con un adattatore è sconsigliato per i carichi elevati, perché un contatto meno saldo può surriscaldarsi. Controlla anche la corrente massima: 10 A bastano per lampade e piccoli elettrodomestici, mentre per carichi più potenti servono 16 A, cioè fino a circa 3.680 W. Se rifai l'impianto, esistono anche prese comandate da incasso nelle serie civili come BTicino o Vimar.",
       },
       {
         question: "Si può collegare una stufetta elettrica a una presa smart?",
-        answer: "Meglio di no: molti manuali di stufette e termoconvettori vietano l'accensione con timer o comandi a distanza, perché un apparecchio coperto o rovesciato può causare un incendio. Inoltre una stufetta da 2.000 W accesa per ore sollecita molto presa e relè. Usa piuttosto il termostato e il timer integrati, avviando l'apparecchio quando sei presente. Per pompe di calore e climatizzatori esistono comandi smart a infrarossi che imitano il telecomando senza togliere corrente. Non collegare mai una stufetta a una ciabatta o a un adattatore.",
+        answer: "Meglio di no: i manuali di molte stufette e termoconvettori vietano l'accensione con timer o comandi a distanza, perché un apparecchio coperto o rovesciato può causare un incendio. Inoltre una stufetta da 2.000 W accesa per ore sollecita molto presa e relè. Usa piuttosto il termostato e il timer della stufetta, e accendila solo quando sei presente. Per pompe di calore e climatizzatori esistono comandi smart a infrarossi che imitano il telecomando senza togliere corrente. Non collegare mai una stufetta a una ciabatta o a un adattatore.",
       },
       {
         question: "Una presa smart fa risparmiare in bolletta?",
-        answer: "Solo se spegne apparecchi che consumano inutilmente: la presa stessa assorbe di solito intorno a 1 W o meno, cioè meno di 9 kWh l'anno. Il risparmio arriva da ciò che stacchi: TV, decoder, console e soundbar che in standby assorbono insieme 15 W, spenti 16 ore al giorno, fanno 15 × 16 × 365 = 88 kWh l'anno. Moltiplica per il prezzo del kWh della tua bolletta. Puoi anche programmare apparecchi negli orari più convenienti, ma solo se ripartono da soli quando torna la corrente. Non spegnere mai frigorifero e congelatore.",
+        answer: "Solo se spegne apparecchi che consumano inutilmente: la presa stessa assorbe di solito intorno a 1 W o meno, cioè meno di 9 kWh l'anno. Il risparmio arriva da ciò che stacchi: TV, decoder, console e soundbar che in standby assorbono insieme 15 W, spenti 16 ore al giorno, fanno 15 × 16 × 365 = 88 kWh l'anno. Moltiplica per il prezzo del kWh della tua bolletta. Puoi anche far partire gli apparecchi negli orari più convenienti, ma solo quelli che si riaccendono da soli quando torna la corrente. Non spegnere mai frigorifero e congelatore.",
       },
       {
         question: "Presa smart per Alexa, Google o Apple: quale funziona con tutti?",
@@ -553,7 +553,7 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "La presa smart si scalda: è normale?",
-        answer: "Un leggero tepore con carichi elevati è normale, ma se la presa diventa calda al tatto, odora di bruciato o cambia colore va scollegata subito. Una causa frequente è un contatto allentato: una spina che entra male, una presa a muro usurata o un adattatore tra presa smart e muro. Può incidere anche un carico vicino al limite per molte ore, come un forno elettrico. Controlla che l'apparecchio resti ben sotto i 10 o 16 A indicati e preferisci modelli con protezione da sovraccarico e surriscaldamento. Nel dubbio, fai controllare la presa a muro da un elettricista.",
+        answer: "Un leggero tepore con carichi elevati è normale, ma se la presa scotta, puzza di bruciato o cambia colore, staccala subito. Una causa frequente è un contatto allentato: una spina che entra male, una presa a muro usurata o un adattatore tra presa smart e muro. Conta anche un carico vicino al limite per molte ore, come un fornetto elettrico. Controlla che l'apparecchio resti ben sotto i 10 o 16 A indicati e preferisci modelli con protezione da sovraccarico e surriscaldamento. Nel dubbio, fai controllare la presa a muro da un elettricista.",
       },
     ],
     nl: [

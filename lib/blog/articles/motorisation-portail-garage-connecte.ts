@@ -14,10 +14,10 @@ export const article: BlogArticle = {
       alt: {
         fr: "Porte de garage sectionnelle grise motorisée devant une allée pavée",
         en: "Grey motorised sectional garage door in front of a paved driveway",
-        de: "Graues motorisiertes Sektionaltor vor einer gepflasterten Einfahrt",
-        es: "Puerta de garaje seccional gris motorizada frente a un acceso adoquinado",
+        de: "Graues Sektionaltor mit Antrieb vor einer gepflasterten Einfahrt",
+        es: "Puerta de garaje seccional gris motorizada delante de una entrada adoquinada",
         it: "Porta da garage sezionale grigia motorizzata davanti a un vialetto lastricato",
-        nl: "Grijze gemotoriseerde sectionale garagedeur voor een geplaveide oprit",
+        nl: "Grijze sectionale garagedeur met motor en een oprit met klinkers",
         pl: "Szara segmentowa brama garażowa z napędem przed wybrukowanym podjazdem",
         sv: "Grå motoriserad takskjutport framför en stenlagd uppfart",
         us: "Gray motorized sectional garage door in front of a paved driveway",
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: "Motorisation de portail et porte de garage connectée 2026 : comparatif",
-    en: "Best Smart Gate and Garage Door Openers 2026: Comparison",
-    de: "Smarte Tor- und Garagentorantriebe 2026: der Vergleich",
-    es: "Motorización conectada de puertas y garajes 2026: comparativa",
-    it: "Automazione connessa per cancelli e garage 2026: il confronto",
-    nl: "Slimme poort- en garagedeuraandrijving 2026: vergelijking",
+    en: "Best Smart Gate and Garage Door Openers 2026 Compared",
+    de: "Garagentorantrieb und Torantrieb mit App 2026: der Vergleich",
+    es: "Motor para puerta de garaje y de parcela con app: comparativa 2026",
+    it: "Apricancello smart e motori per porte da garage: confronto 2026",
+    nl: "Slimme garagedeuropener en poortopener 2026: vergelijking",
     pl: "Inteligentne napędy do bram wjazdowych i garażowych: porównanie 2026",
     sv: "Smarta garageportöppnare och grindöppnare 2026: jämförelse",
     us: "Best Smart Garage Door and Gate Openers of 2026: 6 Picks",
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: "Somfy Ixengo L et Elixo 500 3S io, Hörmann SupraMatic E Série 4, Meross MSG100HK, Shelly 1 Gen4 et Nice IT4WIFI : kits complets ou modules à greffer, compatibilités HomeKit, Alexa, Google et Matter, sécurité et erreurs à éviter.",
-    en: "Somfy Ixengo L and Elixo 500 3S io, Hörmann SupraMatic E Series 4, Meross MSG100HK, Shelly 1 Gen4 and Nice IT4WIFI: complete kits or retrofit modules, HomeKit, Alexa, Google and Matter support, safety and mistakes to avoid.",
-    de: "Somfy Ixengo L und Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 und Nice IT4WIFI: Komplettsets oder Nachrüstmodule, HomeKit, Alexa, Google und Matter, Sicherheit und typische Fehler.",
-    es: "Somfy Ixengo L y Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 y Nice IT4WIFI: kits completos o módulos para motores existentes, HomeKit, Alexa, Google y Matter, seguridad y errores.",
+    en: "Somfy Ixengo L and Elixo 500 3S io, Hörmann SupraMatic E Series 4, Meross MSG100HK, Shelly 1 Gen4 and Nice IT4WIFI: complete kits or retrofit modules, compatibility with HomeKit, Alexa, Google and Matter, safety and mistakes to avoid.",
+    de: "Somfy Ixengo L und Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 und Nice IT4WIFI: Komplettset oder Nachrüstmodul, Kompatibilität mit HomeKit, Alexa, Google und Matter, Sicherheit und typische Fehler.",
+    es: "Somfy Ixengo L y Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 y Nice IT4WIFI: kits completos o módulos para el motor que ya tienes, compatibilidad con HomeKit, Alexa, Google y Matter, seguridad y errores que debes evitar.",
     it: "Somfy Ixengo L ed Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 e Nice IT4WIFI: kit completi o moduli da aggiungere, compatibilità HomeKit, Alexa, Google e Matter, sicurezza ed errori da evitare.",
-    nl: "Somfy Ixengo L en Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 en Nice IT4WIFI: complete sets of nabouwmodules, HomeKit, Alexa, Google en Matter, veiligheid en fouten om te vermijden.",
+    nl: "Somfy Ixengo L en Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 en Nice IT4WIFI: complete sets of modules voor een bestaande motor, werking met HomeKit, Alexa, Google en Matter, veiligheid en veelgemaakte fouten.",
     pl: "Somfy Ixengo L i Elixo 500 3S io, Hörmann SupraMatic E Series 4, Meross MSG100HK, Shelly 1 Gen4 i Nice IT4WIFI: kompletne zestawy czy moduły do istniejących napędów, zgodność z HomeKit, Alexą, Google i Matter, bezpieczeństwo oraz błędy, których warto unikać.",
     sv: "Somfy Ixengo L och Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 och Nice IT4WIFI: kompletta kit eller moduler för befintliga öppnare, stöd för HomeKit, Alexa, Google och Matter, säkerhet och misstag att undvika.",
     us: "Somfy Ixengo L and Elixo 500 3S io, Hörmann SupraMatic E Series 4, Meross MSG100HK, Shelly 1 Gen4 and Nice IT4WIFI: full opener kits vs. retrofit modules, HomeKit, Alexa, Google and Matter support, safety and mistakes to avoid.",
@@ -139,58 +139,58 @@ export const article: BlogArticle = {
 
 <h2>Verdict</h2>
 <p>Pour équiper un portail de A à Z, le <strong>Somfy Ixengo L 3S io</strong> (battant) et l'<strong>Elixo 500 3S io</strong> (coulissant) forment le duo le plus abouti, à condition d'accepter l'écosystème TaHoma et une pose professionnelle. Pour une porte de garage sectionnelle, le <strong>Hörmann SupraMatic E Série 4</strong> se distingue par son Bluetooth intégré. Si votre motorisation fonctionne déjà, le <strong>Meross MSG100HK</strong> est la façon la plus simple et la plus économique de la rendre connectée, le <strong>Shelly 1 Gen4</strong> s'adresse aux utilisateurs Matter et le <strong>Nice IT4WIFI</strong> aux propriétaires d'automatismes Nice.</p>`,
-    en: `<p>If you want to automate a gate or garage door and control it from your phone in 2026, the most complete option is a Somfy 3S io kit (Ixengo L for a swing gate, Elixo 500 for a sliding gate) paired with the TaHoma app, or the Hörmann SupraMatic E Series 4 for a sectional garage door. If your gate or garage is already motorised, there is no need to replace anything: a retrofit module such as the Meross MSG100HK, the Shelly 1 Gen4 or the Nice IT4WIFI is enough to make it smart.</p>
-<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer feedback. It separates two families that are often confused: <strong>complete motor kits</strong>, which drive the gate or door mechanically, and <strong>smart controllers</strong>, which plug into an existing opener. You will find the full selection in our <a href="/en/outdoor-connecte/portails-garages">smart gates and garage doors</a> section.</p>
+    en: `<p>If you want to motorise a gate or garage door and control it from your phone in 2026, the most complete option is a Somfy 3S io kit (Ixengo L for a swing gate, Elixo 500 for a sliding gate) paired with the TaHoma app, or the Hörmann SupraMatic E Series 4 for a sectional garage door. If your gate or garage door is already motorised, there’s no need to replace anything: a module such as the Meross MSG100HK, the Shelly 1 Gen4 or the Nice IT4WIFI is enough to make it smart.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer feedback. It covers two types of product that are often confused: <strong>complete motor kits</strong>, which fit onto (or replace) the gate or door mechanism, and <strong>smart controllers</strong>, which plug into an existing opener. You’ll find all our picks in our <a href="/en/outdoor-connecte/portails-garages">smart gates and garage doors</a> section.</p>
 
 <h2>How to choose a smart gate or garage door opener</h2>
-<h3>Type of opening: swing, sliding, sectional or up-and-over</h3>
-<p>The first criterion is mechanics, not connectivity. A <strong>swing gate</strong> uses rams or articulated arms (one motor per leaf), so check the pillar width and the space behind them. A <strong>sliding gate</strong> uses a single ground-mounted motor that drives a rack: you need a sound track and enough clearance to the side. In the garage, a <strong>sectional</strong> or <strong>up-and-over door</strong> is driven by a ceiling-mounted operator on a rail; roller doors usually need a dedicated tubular motor.</p>
+<h3>Type of gate or door: swing, sliding, sectional or up-and-over</h3>
+<p>Start with the mechanics, not the connectivity. A <strong>swing gate</strong> uses rams or articulated arms (one motor per leaf), so check the width of the pillars and the space behind them. A <strong>sliding gate</strong> uses a single ground-mounted motor that drives a rack: you need a track in good condition and enough clearance to the side. In the garage, a <strong>sectional</strong> or <strong>up-and-over door</strong> is driven by a ceiling-mounted opener on a rail; roller doors usually need a dedicated tubular motor.</p>
 <h3>Motor force versus gate weight</h3>
-<p>Every operator lists a maximum weight and width per leaf. Leave a comfortable margin: a solid timber or aluminium gate catches a lot of wind, which loads the motor more than an open-design gate of the same weight. The Somfy Ixengo L 3S io, for example, handles up to 400 kg and 4 m per leaf (with an electric lock), and the Elixo 500 3S io up to 500 kg and 8 m on a sliding gate. For a garage door, the door size and type are what matter.</p>
+<p>Every motor has a maximum weight and width per leaf. Leave a comfortable margin: a solid timber or aluminium gate catches a lot of wind, which puts more strain on the motor than an open-style gate of the same weight. The Somfy Ixengo L 3S io, for example, handles up to 400 kg and 4 m per leaf (with an electric lock), and the Elixo 500 3S io up to 500 kg and 8 m on a sliding gate. For a garage door, what matters is the size of the door and its type.</p>
 <h3>Power: mains or solar kit</h3>
-<p>With no power supply at the gate, a solar kit (panel plus battery) saves you digging a trench. Somfy states, for instance, that the Elixo 500 3S io works with its solar solutions. Bear in mind that solar power limits the number of daily cycles and, depending on the model, some accessories: it suits moderate home use, less so a gate that opens dozens of times a day in winter.</p>
+<p>If there’s no power at the gate, a solar kit (panel plus battery) saves you digging a trench. Somfy states, for instance, that the Elixo 500 3S io works with its solar power options. Bear in mind that solar power limits the number of cycles a day and, depending on the model, some accessories: it suits moderate home use, but not a gate that opens dozens of times a day in winter.</p>
 <h3>Connectivity and smart home compatibility</h3>
-<p>Three architectures coexist. <strong>Proprietary radio protocols</strong> (io-homecontrol at Somfy, BiSecur at Hörmann, Opera/BusT4 at Nice) go through the brand's hub or Wi-Fi module. <strong>Bluetooth</strong> gives close-range phone control without a hub. <strong>Wi-Fi or Matter</strong> is the territory of universal controllers. Check exactly which of Apple Home (HomeKit), Google Home, Amazon Alexa and Matter the whole setup supports: it usually depends on the gateway rather than the motor itself. Our <a href="/en/blog/maison-connectee-matter-thread-2026">Matter and Thread guide</a> explains these ecosystems.</p>
+<p>There are three approaches. <strong>Proprietary radio protocols</strong> (Somfy’s io-homecontrol, Hörmann’s BiSecur, Nice’s Opera/BusT4) go through the brand’s own hub or Wi-Fi module. <strong>Bluetooth</strong> lets you control the gate from your phone at close range, with no hub. <strong>Wi-Fi and Matter</strong> are the domain of universal controllers. Check exactly which of Apple Home (HomeKit), Google Home, Amazon Alexa and Matter the whole setup supports: it often depends on the gateway rather than the motor itself. Our <a href="/en/blog/maison-connectee-matter-thread-2026">Matter and Thread guide</a> explains these ecosystems.</p>
 <h3>Status feedback</h3>
-<p>A good connected system does not just send a command: it tells you whether the gate is actually open or closed. Two-way protocols (io-homecontrol, BusT4, HCP) report this; a universal Wi-Fi controller relies on a position sensor (magnet or contact) that must be fitted correctly.</p>
+<p>A good smart system does more than send a command: it tells you whether the gate is actually open or closed. Two-way protocols (io-homecontrol, BusT4, HCP) report this; a universal Wi-Fi controller relies on a position sensor (magnet or contact) that has to be fitted correctly.</p>
 
 <h2>The best smart gate and garage door openers in 2026</h2>
 <h3>Somfy Ixengo L 3S io Comfort Pack: the benchmark for swing gates</h3>
-<p>The Ixengo L 3S io is a ram-type operator for swing gates, designed for professional installation. The comfort pack includes both motors, the 3S io control unit, remotes, photocells and an orange warning light. The io-homecontrol protocol is two-way and encrypted, so the app shows the gate's real status.</p>
-<p><strong>Strengths:</strong> up to 400 kg and 4 m per leaf with an electric lock, obstacle detection that stops the motor, optional backup battery, control through TaHoma switch or the Somfy Connectivity Kit, then via voice assistants supported by TaHoma.</p>
-<p><strong>Limitations:</strong> needs a Somfy hub for remote control; installation should be done by a professional; premium product.</p>
-<p><strong>Best for:</strong> owners of a heavy or wide swing gate who already use (or plan to use) Somfy io roller shutters or other io products. If that is you, our <a href="/en/blog/volets-roulants-connectes-guide">smart roller shutters guide</a> pairs well with this choice.</p>
+<p>The Ixengo L 3S io is a ram-type motor for swing gates, designed to be fitted by a professional. The Comfort Pack includes both motors, the 3S io control unit, remote controls, photocells and an orange warning light. The io-homecontrol protocol is two-way and encrypted, so the app shows whether the gate is actually open or closed.</p>
+<p><strong>Pros:</strong> up to 400 kg and 4 m per leaf with an electric lock, obstacle detection that stops the motor, optional backup battery, control through TaHoma switch or the Somfy Connectivity Kit, and from there through the voice assistants that TaHoma supports.</p>
+<p><strong>Cons:</strong> needs a Somfy hub for remote control; installation is best left to a professional; at the premium end.</p>
+<p><strong>Best for:</strong> owners of a heavy or wide swing gate who already have (or plan to buy) Somfy io roller shutters or other io products. If that’s you, our <a href="/en/blog/volets-roulants-connectes-guide">smart roller shutters guide</a> is a natural companion to this choice.</p>
 
 <h3>Somfy Elixo 500 3S io Comfort Pack: for sliding gates</h3>
-<p>The Elixo 500 3S io drives sliding gates up to 8 m and 500 kg. It shares the 3S io electronics and the TaHoma ecosystem with the Ixengo, with built-in pedestrian opening and soft deceleration at the end of travel.</p>
-<p><strong>Strengths:</strong> high capacity, fast opening quoted by Somfy (around 15 seconds for 3 m), compatible with the brand's solar solutions, io status feedback.</p>
-<p><strong>Limitations:</strong> requires a rack and track in good condition; on solar power some accessory functions may be limited depending on the setup.</p>
-<p><strong>Best for:</strong> large sliding gates, including where there is no mains supply nearby.</p>
+<p>The Elixo 500 3S io drives sliding gates up to 8 m and 500 kg. It shares the Ixengo’s 3S io electronics and TaHoma ecosystem, with built-in pedestrian opening and a soft stop at the end of travel.</p>
+<p><strong>Pros:</strong> high capacity, fast opening (around 15 seconds for 3 m, according to Somfy), works with the brand’s solar power options, io status feedback.</p>
+<p><strong>Cons:</strong> needs a rack and track in good condition; on solar power, some accessory functions may be limited depending on the setup.</p>
+<p><strong>Best for:</strong> large sliding gates, including where there’s no mains supply nearby.</p>
 
 <h3>Hörmann SupraMatic E Series 4: a smart garage door without a hub</h3>
-<p>The SupraMatic E Series 4 is a ceiling-mounted operator for sectional garage doors, designed for medium-sized doors up to 5.5 m wide. Its key asset is a built-in Bluetooth receiver, which lets you operate the door from the free Hörmann BlueSecur app, alongside BiSecur radio and the supplied hand transmitters.</p>
-<p><strong>Strengths:</strong> phone control without a gateway thanks to Bluetooth, integrated LED lighting, HCP interface for home automation; with the Hörmann Wi-Fi gateway, stated compatibility with Apple Home, Amazon Alexa and Google Home.</p>
-<p><strong>Limitations:</strong> Bluetooth alone only works nearby; remote access and voice assistants require the Wi-Fi accessory; no native Matter announced.</p>
-<p><strong>Best for:</strong> anyone installing or replacing a sectional garage door, ideally a Hörmann one, who wants an integrated solution.</p>
+<p>The SupraMatic E Series 4 is a ceiling-mounted opener for sectional garage doors, designed for medium-sized doors up to 5.5 m wide. Its big selling point is a built-in Bluetooth receiver, which lets you operate the door from the free Hörmann BlueSecur app as well as by BiSecur radio and the supplied hand transmitters.</p>
+<p><strong>Pros:</strong> phone control over Bluetooth with no gateway, built-in LED lighting, HCP interface for smart home systems; add the Hörmann Wi-Fi gateway and, according to Hörmann, it works with Apple Home, Amazon Alexa and Google Home.</p>
+<p><strong>Cons:</strong> Bluetooth on its own only works close by; remote access and voice assistants need the Wi-Fi accessory; no native Matter support listed.</p>
+<p><strong>Best for:</strong> anyone fitting or replacing a sectional garage door, ideally a Hörmann one, who wants an all-in-one solution.</p>
 
-<h3>Meross MSG100HK: best value for upgrading an existing garage</h3>
-<p>The Meross Smart Wi-Fi Garage Door Opener MSG100HK does not replace your motor: it connects to the wall-button input of most existing garage door openers and adds a magnetic open/close sensor. The HK version works with Apple HomeKit as well as Amazon Alexa, Google Assistant and SmartThings.</p>
-<p><strong>Strengths:</strong> compatible with a very wide range of openers, including older ones; notifications when the door opens or is left open; simple low-voltage wiring; entry-level product.</p>
-<p><strong>Limitations:</strong> 2.4 GHz Wi-Fi only, so you need a decent signal in the garage; designed for garage doors rather than gates; no native Matter on this model.</p>
-<p><strong>Best for:</strong> households with a working motorised garage door who simply want to control and monitor it remotely.</p>
+<h3>Meross MSG100HK: best value for making an existing garage door smart</h3>
+<p>The Meross Smart Wi-Fi Garage Door Opener MSG100HK doesn’t replace your motor: it connects to the wall-button input of most existing garage door openers and adds a magnetic sensor that detects when the door is open. The HK version works with Apple HomeKit as well as Amazon Alexa, Google Assistant and SmartThings.</p>
+<p><strong>Pros:</strong> works with a very wide range of openers, including older ones; alerts when the door opens or is left open; simple low-voltage wiring; entry-level price.</p>
+<p><strong>Cons:</strong> 2.4 GHz Wi-Fi only, so you need a decent signal in the garage; designed for garage doors rather than gates; no native Matter support on this model.</p>
+<p><strong>Best for:</strong> households with a motorised garage door in good working order who simply want to control and monitor it remotely.</p>
 
 <h3>Shelly 1 Gen4: the Matter relay for experienced DIYers</h3>
-<p>The Shelly 1 Gen4 is a small Matter-certified relay with a dry (potential-free) contact that communicates over Wi-Fi, Bluetooth and Zigbee. Wired to the "impulse" input of a gate or garage control board, it simulates a button press. It runs on 12 V DC, 24–48 V DC or 110–240 V AC depending on the installation.</p>
-<p><strong>Strengths:</strong> Matter support, so it works with Apple Home, Google Home, Amazon Alexa, SmartThings or Home Assistant; local operation even without internet; compact enough to fit inside many control boxes.</p>
-<p><strong>Limitations:</strong> no knowledge of gate position without an extra sensor wired to its input; more technical setup; any mains wiring should be done by a qualified person.</p>
+<p>The Shelly 1 Gen4 is a small Matter-certified relay with a dry (potential-free) contact that communicates over Wi-Fi, Bluetooth and Zigbee. Wired to the “impulse” input of a gate or garage door control board, it simulates a button press. It runs on 12 V DC, 24–48 V DC or 110–240 V AC depending on the installation.</p>
+<p><strong>Pros:</strong> Matter support, so it works with Apple Home, Google Home, Amazon Alexa, SmartThings or Home Assistant; works locally even without internet; small enough to fit inside many control boxes.</p>
+<p><strong>Cons:</strong> can’t tell whether the gate is open or closed without an extra sensor wired to its input; more technical to set up; any mains wiring should be left to a qualified person.</p>
 <p><strong>Best for:</strong> advanced smart home users who want to bring any motorised gate into a Matter ecosystem.</p>
 
-<h3>Nice IT4WIFI: connecting an existing Nice operator</h3>
-<p>The Nice IT4WIFI is the Wi-Fi interface for Nice operators that support the BusT4 (Opera) protocol. It ships with the IBT4N adapter and a cable, and is set up either in MyNice mode (MyNice Welcome app) or in Apple HomeKit mode.</p>
-<p><strong>Strengths:</strong> status feedback and diagnostics through direct dialogue with the control board, native HomeKit support, the brand's official solution.</p>
-<p><strong>Limitations:</strong> only for Nice control units with a BusT4 port; you must choose between MyNice mode and HomeKit mode.</p>
-<p><strong>Best for:</strong> owners of a recent Nice gate or garage operator who want to control it from an iPhone or the brand's app.</p>
-<p>Also worth knowing: Somfy's <strong>Connectivity Kit</strong> can control up to 20 io and RTS devices, including gates and garage doors, through the TaHoma app, with fewer features than a TaHoma switch hub.</p>
+<h3>Nice IT4WIFI: making an existing Nice opener smart</h3>
+<p>The Nice IT4WIFI is the Wi-Fi interface for Nice openers that support the BusT4 (Opera) protocol. It comes with the IBT4N adapter and a cable, and you set it up either in MyNice mode (MyNice Welcome app) or in Apple HomeKit mode.</p>
+<p><strong>Pros:</strong> status feedback and diagnostics because it talks directly to the control board, native HomeKit support, the brand’s official solution.</p>
+<p><strong>Cons:</strong> only for Nice control units with a BusT4 port; you have to choose between MyNice mode and HomeKit mode.</p>
+<p><strong>Best for:</strong> owners of a recent Nice gate or garage door opener who want to control it from an iPhone or the brand’s app.</p>
+<p>Also worth knowing: Somfy’s <strong>Connectivity Kit</strong> can control up to 20 io and RTS devices, including gates and garage doors, through the TaHoma app, with fewer features than a TaHoma switch hub.</p>
 
 <h2>Comparison table</h2>
 <table>
@@ -200,85 +200,85 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Somfy Ixengo L 3S io</td><td>Complete kit</td><td>Swing gate, up to 400 kg per leaf</td><td>io-homecontrol, via TaHoma</td><td>Heavy swing gate</td></tr>
 <tr><td>Somfy Elixo 500 3S io</td><td>Complete kit</td><td>Sliding gate, up to 500 kg / 8 m</td><td>io-homecontrol, via TaHoma</td><td>Large sliding gate, solar option</td></tr>
-<tr><td>Hörmann SupraMatic E Series 4</td><td>Garage operator</td><td>Sectional doors up to 5.5 m wide</td><td>Bluetooth (BlueSecur), BiSecur, HCP</td><td>Garage without a hub</td></tr>
-<tr><td>Meross MSG100HK</td><td>Controller</td><td>Door sensor included</td><td>2.4 GHz Wi-Fi, HomeKit, Alexa, Google</td><td>Already motorised garage</td></tr>
-<tr><td>Shelly 1 Gen4</td><td>Relay</td><td>Dry contact, local operation</td><td>Wi-Fi, Bluetooth, Zigbee, Matter</td><td>Advanced smart home</td></tr>
-<tr><td>Nice IT4WIFI</td><td>Interface</td><td>Status feedback via BusT4</td><td>Wi-Fi, MyNice or HomeKit</td><td>Existing Nice operator</td></tr>
+<tr><td>Hörmann SupraMatic E Series 4</td><td>Garage door opener</td><td>Sectional doors up to 5.5 m wide</td><td>Bluetooth (BlueSecur), BiSecur, HCP</td><td>Garage without a hub</td></tr>
+<tr><td>Meross MSG100HK</td><td>Controller</td><td>Door sensor included</td><td>2.4 GHz Wi-Fi, HomeKit, Alexa, Google</td><td>Garage door already motorised</td></tr>
+<tr><td>Shelly 1 Gen4</td><td>Relay</td><td>Dry contact, works locally</td><td>Wi-Fi, Bluetooth, Zigbee, Matter</td><td>Advanced smart home</td></tr>
+<tr><td>Nice IT4WIFI</td><td>Interface</td><td>Status feedback via BusT4</td><td>Wi-Fi, MyNice or HomeKit</td><td>Existing Nice opener</td></tr>
 </tbody>
 </table>
 
 <h2>Safety: what to know before installing</h2>
-<p>A motorised gate or garage door is a machine that can injure. Complete kits include several safeguards: <strong>photocells</strong> that stop or reverse movement if a beam is broken, <strong>obstacle detection</strong> that monitors motor effort, a <strong>flashing warning light</strong> during movement and a manual release for power cuts.</p>
-<p>In Europe, power-operated doors and gates fall notably under the product standard EN 13241 and the EN 12453 standard on safety in use of power-operated doors. Without going into regulatory detail, remember that compliance depends on the complete installation (force settings, photocell placement, signage), not just the motor. That is why professional installation of a complete kit is strongly recommended: the installer adjusts forces, checks the safety devices and can provide the installation's compliance documents.</p>
-<p>For smart controllers, one simple rule: only operate a gate you cannot see if the installation keeps its original safety devices in working order (photocells, obstacle detection). Turn on open-door notifications and, where possible, a timed automatic close.</p>
+<p>A motorised gate or garage door is a machine that can cause injury. Complete kits include several safeguards: <strong>photocells</strong> that stop or reverse the movement if a beam is broken, <strong>obstacle detection</strong> that monitors the effort of the motor, a <strong>flashing warning light</strong> while the gate or door is moving and a manual release for power cuts.</p>
+<p>In Europe, power-operated doors and gates are covered in particular by the product standard EN 13241 and by EN 12453 on the safety in use of power-operated doors. Without going into the regulations in detail, the key point is that compliance depends on the whole installation (force settings, photocell positions, signage), not just the motor. That’s why we strongly recommend having a complete kit fitted by a qualified installer: they set the forces, check the safety devices and can give you the compliance documents for the installation.</p>
+<p>For smart controllers, one simple rule: only operate a gate you can’t see if its original safety devices (photocells, obstacle detection) are still in working order. Turn on open-door alerts and, if you can, a timed automatic close.</p>
 
 <h2>Mistakes to avoid</h2>
 <ul>
-<li><strong>Undersizing the motor</strong>: a solid gate exposed to wind wears out an underpowered motor and triggers false obstacle detections.</li>
-<li><strong>Ignoring Wi-Fi at the gate</strong>: a concrete garage or a gate at the end of a long garden often gets a weak signal. Check it on site or add a range extender.</li>
-<li><strong>Buying a universal controller without checking the opener's input</strong>: you need an accessible push-button or impulse input on the board.</li>
-<li><strong>Mixing up RTS and io at Somfy</strong>: RTS is one-way with no reliable status feedback; io is two-way.</li>
+<li><strong>Choosing an underpowered motor</strong>: a solid gate exposed to the wind wears out a motor that’s only just big enough and triggers false obstacle alerts.</li>
+<li><strong>Forgetting about Wi-Fi at the gate</strong>: a concrete garage or a gate at the far end of a long garden or drive often gets a weak signal. Check it on site or add a range extender.</li>
+<li><strong>Buying a universal controller without checking the opener’s input</strong>: the control board needs an accessible push-button or impulse input.</li>
+<li><strong>Mixing up Somfy RTS and io</strong>: RTS is one-way, with no reliable status feedback; io is two-way.</li>
 <li><strong>Disabling or misplacing the photocells</strong>: they are the first line of protection for children, pets and vehicles.</li>
-<li><strong>Forgetting account security</strong>: a smart gate opens your property. Use a unique password and two-factor authentication when the app offers it. Our <a href="/en/blog/guide-securite-maison-connectee-2026">smart home security guide</a> covers good practice.</li>
+<li><strong>Neglecting account security</strong>: a smart gate is a way into your property. Use a unique password and two-factor authentication if the app offers it. Our <a href="/en/blog/guide-securite-maison-connectee-2026">smart home security guide</a> covers good practice.</li>
 </ul>
 
 <h2>Installation and everyday use</h2>
-<p>For a complete kit, plan on professional installation: fixing the brackets, aligning the photocells, mains wiring that complies with local rules and setting the end-of-travel limits. For a controller such as the Meross MSG100HK, installation means connecting two low-voltage wires to the wall-button terminals and sticking on the magnetic sensor; if in doubt, get help. The Shelly 1 Gen4 may need a mains connection: leave that to a qualified electrician.</p>
-<p>In daily use, the most useful automations are opening the garage as you approach home (geolocation), closing automatically at nightfall, switching on outdoor lights when the gate opens and alerts when a door is left open. Always keep a physical remote: an internet outage should never lock you out.</p>
+<p>For a complete kit, plan on professional installation: fixing the brackets, aligning the photocells, mains wiring that complies with local rules and setting the end-of-travel limits. For a controller such as the Meross MSG100HK, installation means connecting two low-voltage wires to the wall-button terminals and sticking on the magnetic sensor; if in doubt, get some help. The Shelly 1 Gen4 may need a mains connection: leave that to a qualified electrician.</p>
+<p>The most useful everyday automations are opening the garage as you get close to home (geolocation), closing automatically at dusk, turning on the outside lights when the gate opens and sending an alert if a door is left open. Always keep a physical remote: an internet outage should never lock you out.</p>
 
-<h2>Verdict</h2>
-<p>To fit a gate from scratch, the <strong>Somfy Ixengo L 3S io</strong> (swing) and the <strong>Elixo 500 3S io</strong> (sliding) are the most polished pair, provided you accept the TaHoma ecosystem and professional installation. For a sectional garage door, the <strong>Hörmann SupraMatic E Series 4</strong> stands out with its built-in Bluetooth. If your opener already works, the <strong>Meross MSG100HK</strong> is the simplest and most affordable way to make it smart, the <strong>Shelly 1 Gen4</strong> is aimed at Matter users and the <strong>Nice IT4WIFI</strong> at owners of Nice operators.</p>`,
-    de: `<p>Wer 2026 ein Tor oder Garagentor motorisieren und per Smartphone steuern möchte, findet die vollständigste Lösung in einem Somfy-3S-io-Set (Ixengo L für Drehtore, Elixo 500 für Schiebetore) mit der TaHoma-App oder im Hörmann SupraMatic E Serie 4 für Sektionaltore. Ist Ihr Tor bereits motorisiert, müssen Sie nichts austauschen: Ein Nachrüstmodul wie der Meross MSG100HK, der Shelly 1 Gen4 oder das Nice IT4WIFI macht es smart.</p>
-<p>Dieser Vergleich stützt sich auf Herstellerangaben, unabhängige Fachberichte und verifizierte Käuferbewertungen. Er unterscheidet zwei Produktfamilien, die oft verwechselt werden: <strong>komplette Antriebssets</strong>, die das Tor mechanisch bewegen, und <strong>smarte Steuermodule</strong>, die an einen vorhandenen Antrieb angeschlossen werden. Die ganze Auswahl finden Sie in unserer Rubrik <a href="/de/outdoor-connecte/portails-garages">smarte Tore und Garagentore</a>.</p>
+<h2>Our verdict</h2>
+<p>If you’re motorising a gate from scratch, the <strong>Somfy Ixengo L 3S io</strong> (swing) and the <strong>Elixo 500 3S io</strong> (sliding) are the most polished pair, provided you’re happy with the TaHoma ecosystem and professional installation. For a sectional garage door, the <strong>Hörmann SupraMatic E Series 4</strong> stands out with its built-in Bluetooth. If your opener already works, the <strong>Meross MSG100HK</strong> is the simplest and most affordable way to make it smart, the <strong>Shelly 1 Gen4</strong> is aimed at Matter users and the <strong>Nice IT4WIFI</strong> at owners of Nice openers.</p>`,
+    de: `<p>Wer 2026 ein Hoftor oder Garagentor motorisieren und per Smartphone steuern möchte, fährt am besten mit einem Somfy-Set mit 3S-io-Steuerung (Ixengo L für Drehtore, Elixo 500 für Schiebetore) und der TaHoma-App. Für Sektionaltore ist der Hörmann SupraMatic E Serie 4 die umfassendste Lösung. Hat Ihr Tor schon einen Antrieb, müssen Sie nichts austauschen: Ein Nachrüstmodul wie der Meross MSG100HK, der Shelly 1 Gen4 oder das Nice IT4WIFI macht es smart.</p>
+<p>Dieser Vergleich stützt sich auf Herstellerangaben, veröffentlichte unabhängige Testberichte und verifizierte Käuferbewertungen. Er unterscheidet zwei Produktfamilien, die oft verwechselt werden: <strong>komplette Antriebssets</strong>, die das Tor mechanisch bewegen, und <strong>smarte Steuermodule</strong>, die an einen vorhandenen Antrieb angeschlossen werden. Alle Empfehlungen finden Sie in unserer Übersicht <a href="/de/outdoor-connecte/portails-garages">Garagentorantriebe und Torantriebe</a>.</p>
 
 <h2>Kaufkriterien für einen smarten Tor- oder Garagentorantrieb</h2>
 <h3>Torart: Drehtor, Schiebetor, Sektionaltor oder Schwingtor</h3>
-<p>Das erste Kriterium ist die Mechanik, nicht die Vernetzung. Ein <strong>Drehtor</strong> wird mit Spindel- oder Gelenkarmantrieben bewegt (ein Motor pro Flügel); prüfen Sie Pfeilerbreite und Platz dahinter. Ein <strong>Schiebetor</strong> nutzt einen einzigen, am Boden montierten Motor mit Zahnstange: Laufschiene und seitlicher Platz müssen stimmen. In der Garage werden <strong>Sektional-</strong> und <strong>Schwingtore</strong> mit einem Deckenantrieb auf Führungsschiene bewegt; Rolltore brauchen meist einen eigenen Rohrmotor.</p>
+<p>Das erste Kriterium ist die Mechanik, nicht die Vernetzung. Ein <strong>Drehtor</strong> wird mit Spindel- oder Gelenkarmantrieben bewegt (ein Motor pro Flügel); prüfen Sie Pfeilerbreite und Platz dahinter. Ein <strong>Schiebetor</strong> wird von einem einzigen, am Boden montierten Motor über eine Zahnstange bewegt: Die Laufschiene muss in gutem Zustand sein, und seitlich braucht es genug Platz. In der Garage werden <strong>Sektional-</strong> und <strong>Schwingtore</strong> mit einem Deckenantrieb auf Führungsschiene bewegt; Rolltore brauchen meist einen eigenen Rohrmotor.</p>
 <h3>Antriebskraft und Torgewicht</h3>
-<p>Jeder Antrieb nennt ein maximales Gewicht und eine maximale Breite pro Flügel. Planen Sie Reserve ein: Ein geschlossenes Holz- oder Aluminiumtor bietet viel Windangriffsfläche und belastet den Motor stärker als ein offenes Tor gleichen Gewichts. Der Somfy Ixengo L 3S io schafft beispielsweise bis zu 400 kg und 4 m pro Flügel (mit Elektroschloss), der Elixo 500 3S io bis zu 500 kg und 8 m beim Schiebetor. Beim Garagentor zählen Größe und Torart.</p>
+<p>Für jeden Antrieb gibt der Hersteller ein maximales Gewicht und eine maximale Breite pro Flügel an. Planen Sie großzügig Reserve ein: Ein geschlossenes Holz- oder Aluminiumtor bietet dem Wind viel Angriffsfläche und belastet den Motor stärker als ein durchbrochenes Tor gleichen Gewichts. Der Somfy Ixengo L 3S io schafft beispielsweise bis zu 400 kg und 4 m pro Flügel (mit Elektroschloss), der Elixo 500 3S io bis zu 500 kg und 8 m beim Schiebetor. Beim Garagentor zählen Fläche und Torart.</p>
 <h3>Stromversorgung: Netz oder Solarset</h3>
-<p>Gibt es am Tor keinen Stromanschluss, erspart ein Solarset (Modul plus Akku) das Graben eines Kabelschachts. Somfy gibt etwa an, dass der Elixo 500 3S io mit seinen Solarlösungen kompatibel ist. Beachten Sie: Solarbetrieb begrenzt die Zahl der täglichen Zyklen und je nach Modell einige Zubehörfunktionen. Für moderate private Nutzung passt das, weniger für ein Tor, das im Winter dutzende Male am Tag öffnet.</p>
+<p>Gibt es am Tor keinen Stromanschluss, erspart ein Solarset (Modul plus Akku) das Ausheben eines Kabelgrabens. Somfy gibt etwa an, dass der Elixo 500 3S io mit seinen Solarlösungen kompatibel ist. Beachten Sie: Solarbetrieb begrenzt die Zahl der täglichen Zyklen und je nach Modell einige Zubehörfunktionen. Für mäßige Nutzung am Wohnhaus passt das, weniger für ein Tor, das sich im Winter Dutzende Male am Tag öffnet.</p>
 <h3>Vernetzung und Smart-Home-Kompatibilität</h3>
-<p>Drei Ansätze existieren nebeneinander. <strong>Herstellereigene Funkprotokolle</strong> (io-homecontrol bei Somfy, BiSecur bei Hörmann, Opera/BusT4 bei Nice) laufen über eine Zentrale oder ein WLAN-Modul der Marke. <strong>Bluetooth</strong> erlaubt die Steuerung per Smartphone in der Nähe, ohne Zentrale. <strong>WLAN oder Matter</strong> ist die Domäne der universellen Steuermodule. Prüfen Sie genau, welche Kombination Apple Home (HomeKit), Google Home, Amazon Alexa und Matter unterstützt: Das hängt meist vom Gateway ab, nicht vom Motor. Unser <a href="/de/blog/maison-connectee-matter-thread-2026">Ratgeber zu Matter und Thread</a> erklärt diese Ökosysteme.</p>
+<p>Es gibt drei Ansätze. <strong>Herstellereigene Funkprotokolle</strong> (io-homecontrol bei Somfy, BiSecur bei Hörmann, Opera/BusT4 bei Nice) laufen über eine Zentrale oder ein WLAN-Modul der Marke. <strong>Bluetooth</strong> erlaubt die Steuerung per Smartphone in der Nähe, ohne Zentrale. <strong>WLAN und Matter</strong> schließlich sind das Revier der universellen Steuermodule. Prüfen Sie genau, ob Ihr geplantes System Apple Home (HomeKit), Google Home, Amazon Alexa und Matter unterstützt: Das hängt meist vom Gateway ab, nicht vom Motor selbst. Unser <a href="/de/blog/maison-connectee-matter-thread-2026">Ratgeber zu Matter und Thread</a> erklärt diese Ökosysteme.</p>
 <h3>Statusrückmeldung</h3>
-<p>Ein gutes vernetztes System sendet nicht nur Befehle, sondern zeigt auch, ob das Tor wirklich offen oder geschlossen ist. Bidirektionale Protokolle (io-homecontrol, BusT4, HCP) melden das zurück; ein universelles WLAN-Modul braucht einen korrekt montierten Positionssensor (Magnet oder Kontakt).</p>
+<p>Ein gutes smartes System sendet nicht nur Befehle, sondern zeigt auch, ob das Tor wirklich offen oder geschlossen ist. Bidirektionale Protokolle (io-homecontrol, BusT4, HCP) melden das zurück; ein universelles WLAN-Modul braucht einen korrekt montierten Positionssensor (Magnet oder Kontakt).</p>
 
-<h2>Die besten smarten Tor- und Garagentorantriebe 2026</h2>
+<h2>Die besten Torantriebe und Nachrüstmodule mit App 2026</h2>
 <h3>Somfy Ixengo L 3S io Komfort-Set: die Referenz für Drehtore</h3>
 <p>Der Ixengo L 3S io ist ein Spindelantrieb für Drehtore und für die Montage durch Fachbetriebe gedacht. Das Komfort-Set enthält beide Motoren, die Steuerung 3S io, Handsender, Lichtschranken und eine Warnleuchte. Das Protokoll io-homecontrol ist bidirektional und verschlüsselt, sodass die App den tatsächlichen Torstatus anzeigt.</p>
 <p><strong>Stärken:</strong> bis zu 400 kg und 4 m pro Flügel mit Elektroschloss, Hinderniserkennung mit Motorstopp, optionaler Notstromakku, Steuerung über TaHoma switch oder das Somfy Connectivity Kit und darüber per Sprachassistent, sofern TaHoma ihn unterstützt.</p>
-<p><strong>Schwächen:</strong> Fernsteuerung nur mit Somfy-Zentrale; Montage durch einen Fachbetrieb; Premium-Produkt.</p>
-<p><strong>Für wen:</strong> Besitzer schwerer oder breiter Drehtore, die bereits Somfy-io-Rollläden oder andere io-Produkte nutzen oder planen. Dann passt auch unser <a href="/de/blog/volets-roulants-connectes-guide">Ratgeber zu smarten Rollläden</a>.</p>
+<p><strong>Schwächen:</strong> Fernsteuerung nur mit Somfy-Zentrale; Montage durch einen Fachbetrieb nötig; Premiumsegment.</p>
+<p><strong>Für wen:</strong> Besitzer schwerer oder breiter Drehtore, die bereits Rollläden oder andere io-Produkte von Somfy nutzen oder anschaffen wollen. Dann ergänzt unser <a href="/de/blog/volets-roulants-connectes-guide">Ratgeber zu smarten Rollläden</a> diese Wahl gut.</p>
 
 <h3>Somfy Elixo 500 3S io Komfort-Set: für Schiebetore</h3>
-<p>Der Elixo 500 3S io bewegt Schiebetore bis 8 m und 500 kg. Er teilt sich die 3S-io-Elektronik und das TaHoma-Ökosystem mit dem Ixengo, inklusive integrierter Fußgängeröffnung und sanftem Abbremsen am Endpunkt.</p>
-<p><strong>Stärken:</strong> hohe Kapazität, laut Somfy schnelle Öffnung (rund 15 Sekunden für 3 m), kompatibel mit den Solarlösungen der Marke, io-Statusrückmeldung.</p>
+<p>Der Elixo 500 3S io bewegt Schiebetore bis 8 m und 500 kg. Er nutzt dieselbe 3S-io-Elektronik und dasselbe TaHoma-Ökosystem wie der Ixengo und bietet eine integrierte Fußgängeröffnung sowie einen Sanftlauf vor der Endlage.</p>
+<p><strong>Stärken:</strong> auch für schwere, lange Tore, laut Somfy schnelle Öffnung (rund 15 Sekunden für 3 m), kompatibel mit den Solarlösungen der Marke, io-Statusrückmeldung.</p>
 <p><strong>Schwächen:</strong> braucht Zahnstange und Laufschiene in gutem Zustand; im Solarbetrieb können je nach Konfiguration Zubehörfunktionen eingeschränkt sein.</p>
-<p><strong>Für wen:</strong> große Schiebetore, auch ohne Stromanschluss in der Nähe.</p>
+<p><strong>Für wen:</strong> Besitzer großer Schiebetore, auch ohne Stromanschluss in der Nähe.</p>
 
 <h3>Hörmann SupraMatic E Serie 4: das smarte Garagentor ohne Zentrale</h3>
 <p>Der SupraMatic E Serie 4 ist ein Deckenantrieb für Sektionaltore mittlerer Größe bis 5,5 m Breite. Sein Trumpf ist der integrierte Bluetooth-Empfänger: Das Tor lässt sich mit der kostenlosen App Hörmann BlueSecur bedienen, zusätzlich zu BiSecur-Funk und den mitgelieferten Handsendern.</p>
 <p><strong>Stärken:</strong> Smartphone-Bedienung ohne Gateway dank Bluetooth, integrierte LED-Beleuchtung, HCP-Schnittstelle für Smart-Home-Systeme; mit dem Hörmann WLAN-Gateway laut Hersteller kompatibel mit Apple Home, Amazon Alexa und Google Home.</p>
-<p><strong>Schwächen:</strong> Bluetooth allein funktioniert nur in der Nähe; Fernzugriff und Sprachassistenten erfordern das WLAN-Zubehör; kein natives Matter angekündigt.</p>
+<p><strong>Schwächen:</strong> Bluetooth allein funktioniert nur in der Nähe; Fernzugriff und Sprachassistenten erfordern das WLAN-Zubehör; keine native Matter-Unterstützung angekündigt.</p>
 <p><strong>Für wen:</strong> alle, die ein Sektionaltor neu einbauen oder ersetzen, idealerweise von Hörmann, und eine integrierte Lösung wollen.</p>
 
-<h3>Meross MSG100HK: das beste Preis-Leistungs-Verhältnis zum Nachrüsten</h3>
+<h3>Meross MSG100HK: das beste Preis-Leistungs-Verhältnis zum Nachrüsten der Garage</h3>
 <p>Der Meross Smart Wi-Fi Garage Door Opener MSG100HK ersetzt nicht Ihren Antrieb: Er wird an den Taster-Eingang der meisten vorhandenen Garagentorantriebe angeschlossen und bringt einen Magnetsensor für Auf/Zu mit. Die HK-Version unterstützt Apple HomeKit sowie Amazon Alexa, Google Assistant und SmartThings.</p>
-<p><strong>Stärken:</strong> mit sehr vielen Antrieben kompatibel, auch älteren; Benachrichtigungen beim Öffnen oder wenn das Tor offen bleibt; einfache Kleinspannungsverkabelung; Einstiegsprodukt.</p>
-<p><strong>Schwächen:</strong> nur 2,4-GHz-WLAN, daher ist guter Empfang in der Garage nötig; für Garagentore statt Hoftore gedacht; kein natives Matter bei diesem Modell.</p>
+<p><strong>Stärken:</strong> mit sehr vielen Antrieben kompatibel, auch älteren; Benachrichtigungen beim Öffnen oder wenn das Tor offen bleibt; einfache Kleinspannungsverkabelung; Einstiegsklasse.</p>
+<p><strong>Schwächen:</strong> nur 2,4-GHz-WLAN, daher ist guter Empfang in der Garage nötig; eher für Garagentore als für Hoftore gedacht; bei diesem Modell keine native Matter-Unterstützung.</p>
 <p><strong>Für wen:</strong> Haushalte mit funktionierendem Garagentorantrieb, die ihn einfach aus der Ferne steuern und überwachen wollen.</p>
 
 <h3>Shelly 1 Gen4: das Matter-Relais für versierte Bastler</h3>
-<p>Der Shelly 1 Gen4 ist ein kleines, Matter-zertifiziertes Relais mit potenzialfreiem Kontakt, das per WLAN, Bluetooth und Zigbee kommuniziert. Am Impuls-Eingang einer Tor- oder Garagensteuerung angeschlossen, simuliert es einen Tastendruck. Versorgt wird es je nach Installation mit 12 V DC, 24–48 V DC oder 110–240 V AC.</p>
+<p>Der Shelly 1 Gen4 ist ein kleines, Matter-zertifiziertes Relais mit potenzialfreiem Kontakt, das per WLAN, Bluetooth und Zigbee kommuniziert. Am Impulseingang einer Tor- oder Garagentorsteuerung angeschlossen, simuliert es einen Tastendruck. Versorgt wird es je nach Installation mit 12 V DC, 24–48 V DC oder 110–240 V AC.</p>
 <p><strong>Stärken:</strong> Matter, also steuerbar über Apple Home, Google Home, Amazon Alexa, SmartThings oder Home Assistant; lokaler Betrieb auch ohne Internet; so kompakt, dass es oft in das Steuergehäuse passt.</p>
-<p><strong>Schwächen:</strong> ohne zusätzlichen Sensor am Eingang keine Kenntnis der Torposition; technischere Einrichtung; Arbeiten an Netzspannung gehören in die Hände einer Elektrofachkraft.</p>
-<p><strong>Für wen:</strong> fortgeschrittene Smart-Home-Nutzer, die jedes motorisierte Tor in ein Matter-Ökosystem holen wollen.</p>
+<p><strong>Schwächen:</strong> ohne zusätzlich verdrahteten Sensor weiß es nicht, ob das Tor offen oder geschlossen ist; technischere Einrichtung; Arbeiten an Netzspannung gehören in die Hände einer Elektrofachkraft.</p>
+<p><strong>Für wen:</strong> fortgeschrittene Smart-Home-Nutzer, die beliebige Torantriebe in ein Matter-System einbinden wollen.</p>
 
 <h3>Nice IT4WIFI: einen vorhandenen Nice-Antrieb vernetzen</h3>
 <p>Das Nice IT4WIFI ist die WLAN-Schnittstelle für Nice-Antriebe mit BusT4-Protokoll (Opera). Es wird mit dem Adapter IBT4N und einem Kabel geliefert und entweder im MyNice-Modus (App MyNice Welcome) oder im Apple-HomeKit-Modus eingerichtet.</p>
 <p><strong>Stärken:</strong> Statusrückmeldung und Diagnose durch direkte Kommunikation mit der Steuerplatine, natives HomeKit, offizielle Lösung des Herstellers.</p>
-<p><strong>Schwächen:</strong> nur für Nice-Steuerungen mit BusT4-Anschluss; man muss sich zwischen MyNice- und HomeKit-Modus entscheiden.</p>
-<p><strong>Für wen:</strong> Besitzer eines neueren Nice-Tor- oder Garagenantriebs, die per iPhone oder Hersteller-App steuern wollen.</p>
+<p><strong>Schwächen:</strong> nur für Nice-Steuerungen mit BusT4-Anschluss; Sie müssen sich zwischen MyNice- und HomeKit-Modus entscheiden.</p>
+<p><strong>Für wen:</strong> Besitzer eines neueren Tor- oder Garagentorantriebs von Nice, die ihn per iPhone oder Hersteller-App steuern wollen.</p>
 <p>Gut zu wissen: Das <strong>Somfy Connectivity Kit</strong> steuert über die TaHoma-App bis zu 20 io- und RTS-Geräte, darunter Tore und Garagentore, mit weniger Funktionen als die Zentrale TaHoma switch.</p>
 
 <h2>Vergleichstabelle</h2>
@@ -290,85 +290,85 @@ export const article: BlogArticle = {
 <tr><td>Somfy Ixengo L 3S io</td><td>Komplettset</td><td>Drehtor, bis 400 kg pro Flügel</td><td>io-homecontrol, über TaHoma</td><td>Schweres Drehtor</td></tr>
 <tr><td>Somfy Elixo 500 3S io</td><td>Komplettset</td><td>Schiebetor, bis 500 kg / 8 m</td><td>io-homecontrol, über TaHoma</td><td>Großes Schiebetor, Solar-Option</td></tr>
 <tr><td>Hörmann SupraMatic E Serie 4</td><td>Garagentorantrieb</td><td>Sektionaltore bis 5,5 m Breite</td><td>Bluetooth (BlueSecur), BiSecur, HCP</td><td>Garage ohne Zentrale</td></tr>
-<tr><td>Meross MSG100HK</td><td>Steuermodul</td><td>Torsensor inklusive</td><td>WLAN 2,4 GHz, HomeKit, Alexa, Google</td><td>Bereits motorisierte Garage</td></tr>
+<tr><td>Meross MSG100HK</td><td>Steuermodul</td><td>Torsensor inklusive</td><td>WLAN 2,4 GHz, HomeKit, Alexa, Google</td><td>Garage mit vorhandenem Antrieb</td></tr>
 <tr><td>Shelly 1 Gen4</td><td>Relais</td><td>Potenzialfreier Kontakt, lokal</td><td>WLAN, Bluetooth, Zigbee, Matter</td><td>Fortgeschrittenes Smart Home</td></tr>
 <tr><td>Nice IT4WIFI</td><td>Schnittstelle</td><td>Statusrückmeldung über BusT4</td><td>WLAN, MyNice oder HomeKit</td><td>Vorhandener Nice-Antrieb</td></tr>
 </tbody>
 </table>
 
 <h2>Sicherheit: was Sie vor der Montage wissen sollten</h2>
-<p>Ein motorisiertes Tor ist eine Maschine, die verletzen kann. Komplettsets bringen mehrere Schutzfunktionen mit: <strong>Lichtschranken</strong>, die die Bewegung stoppen oder umkehren, wenn der Strahl unterbrochen wird, <strong>Hinderniserkennung</strong> über die Kraftüberwachung des Motors, eine <strong>Warnleuchte</strong> während der Fahrt und eine Notentriegelung bei Stromausfall.</p>
+<p>Ein Tor mit Antrieb ist eine Maschine, die Menschen verletzen kann. Komplettsets bringen mehrere Schutzfunktionen mit: <strong>Lichtschranken</strong>, die die Bewegung stoppen oder umkehren, wenn der Strahl unterbrochen wird, <strong>Hinderniserkennung</strong> über die Kraftüberwachung des Motors, eine <strong>Warnleuchte</strong> während der Fahrt und eine Notentriegelung bei Stromausfall.</p>
 <p>In Europa fallen kraftbetätigte Tore insbesondere unter die Produktnorm EN 13241 und die Norm EN 12453 zur Nutzungssicherheit kraftbetätigter Tore. Ohne ins regulatorische Detail zu gehen: Die Konformität hängt von der gesamten Installation ab (Krafteinstellung, Position der Lichtschranken, Kennzeichnung), nicht nur vom Motor. Deshalb wird die Montage eines Komplettsets durch einen Fachbetrieb dringend empfohlen: Er stellt die Kräfte ein, prüft die Sicherheitseinrichtungen und kann Ihnen die Konformitätsunterlagen der Anlage übergeben.</p>
-<p>Für smarte Steuermodule gilt eine einfache Regel: Bedienen Sie ein Tor außer Sichtweite nur, wenn die Anlage ihre originalen Sicherheitseinrichtungen funktionsfähig behält (Lichtschranken, Hinderniserkennung). Aktivieren Sie Benachrichtigungen und, wenn möglich, ein zeitgesteuertes automatisches Schließen.</p>
+<p>Für smarte Steuermodule gilt eine einfache Regel: Betätigen Sie ein Tor, das Sie nicht sehen, nur dann aus der Ferne, wenn die ursprünglichen Sicherheitseinrichtungen der Anlage voll funktionieren (Lichtschranken, Hinderniserkennung). Aktivieren Sie Benachrichtigungen beim Öffnen und, wenn möglich, ein automatisches Schließen nach einer festen Zeit.</p>
 
 <h2>Fehler, die Sie vermeiden sollten</h2>
 <ul>
-<li><strong>Zu schwachen Motor wählen</strong>: Ein geschlossenes, windexponiertes Tor verschleißt einen knapp bemessenen Antrieb und löst Fehlalarme der Hinderniserkennung aus.</li>
-<li><strong>WLAN am Tor unterschätzen</strong>: Eine Betongarage oder ein Tor am Grundstücksende hat oft schlechten Empfang. Vor Ort prüfen oder einen Repeater einplanen.</li>
-<li><strong>Ein Universalmodul kaufen, ohne den Antriebseingang zu prüfen</strong>: Es braucht einen zugänglichen Taster- oder Impulseingang auf der Platine.</li>
-<li><strong>RTS und io bei Somfy verwechseln</strong>: RTS ist unidirektional ohne verlässliche Statusmeldung, io ist bidirektional.</li>
+<li><strong>Einen zu schwachen Motor wählen</strong>: Ein geschlossenes Tor, das im Wind steht, nutzt einen knapp bemessenen Antrieb schnell ab und löst die Hinderniserkennung grundlos aus.</li>
+<li><strong>WLAN am Tor unterschätzen</strong>: In einer Betongarage oder an einem Tor am Ende des Grundstücks ist der Empfang oft schlecht. Prüfen Sie das Signal vor Ort oder planen Sie einen Repeater ein.</li>
+<li><strong>Ein Universalmodul kaufen, ohne den Antriebseingang zu prüfen</strong>: Nötig ist ein zugänglicher Taster- oder Impulseingang auf der Steuerplatine.</li>
+<li><strong>RTS und io bei Somfy verwechseln</strong>: RTS funkt nur in eine Richtung und liefert keine verlässliche Statusmeldung, io arbeitet bidirektional.</li>
 <li><strong>Lichtschranken deaktivieren oder falsch platzieren</strong>: Sie sind der erste Schutz für Kinder, Haustiere und Fahrzeuge.</li>
-<li><strong>Kontosicherheit vergessen</strong>: Ein smartes Tor öffnet Ihr Grundstück. Nutzen Sie ein eigenes Passwort und Zwei-Faktor-Authentifizierung, wenn die App sie anbietet. Unser <a href="/de/blog/guide-securite-maison-connectee-2026">Ratgeber zur Smart-Home-Sicherheit</a> fasst die wichtigsten Regeln zusammen.</li>
+<li><strong>Kontosicherheit vergessen</strong>: Ein smartes Tor ist der Zugang zu Ihrem Grundstück. Nutzen Sie ein Passwort, das Sie nirgendwo sonst verwenden, und die Zwei-Faktor-Authentifizierung, wenn die App sie anbietet. Unser <a href="/de/blog/guide-securite-maison-connectee-2026">Ratgeber zur Smart-Home-Sicherheit</a> fasst die wichtigsten Regeln zusammen.</li>
 </ul>
 
 <h2>Montage und Alltag</h2>
-<p>Ein Komplettset sollte ein Fachbetrieb montieren: Beschläge befestigen, Lichtschranken ausrichten, Netzanschluss nach den geltenden Vorschriften und Endlagen einstellen. Beim Meross MSG100HK genügt es, zwei Kleinspannungsdrähte an die Klemmen des Wandtasters anzuschließen und den Magnetsensor aufzukleben; im Zweifel holen Sie sich Hilfe. Der Shelly 1 Gen4 kann einen Netzanschluss erfordern: Das überlassen Sie einer Elektrofachkraft.</p>
+<p>Ein Komplettset sollte ein Fachbetrieb montieren: Er befestigt die Beschläge, richtet die Lichtschranken aus, schließt den Antrieb vorschriftsgemäß ans Netz an und stellt die Endlagen ein. Beim Meross MSG100HK genügt es, zwei Kleinspannungsdrähte an die Klemmen des Wandtasters anzuschließen und den Magnetsensor aufzukleben; im Zweifel holen Sie sich Hilfe. Der Shelly 1 Gen4 kann einen Netzanschluss erfordern: Den überlassen Sie einer Elektrofachkraft.</p>
 <p>Im Alltag sind die nützlichsten Automationen das Öffnen der Garage bei Annäherung (Geolokalisierung), das automatische Schließen bei Einbruch der Dunkelheit, das Einschalten der Außenbeleuchtung beim Öffnen des Tors und eine Warnung, wenn ein Tor offen bleibt. Behalten Sie immer einen Handsender: Ein Internetausfall darf Sie nie aussperren.</p>
 
 <h2>Fazit</h2>
-<p>Wer ein Tor komplett neu ausstattet, findet im <strong>Somfy Ixengo L 3S io</strong> (Drehtor) und im <strong>Elixo 500 3S io</strong> (Schiebetor) das ausgereifteste Duo, sofern TaHoma-Ökosystem und Fachmontage passen. Für Sektionaltore überzeugt der <strong>Hörmann SupraMatic E Serie 4</strong> mit integriertem Bluetooth. Funktioniert Ihr Antrieb bereits, ist der <strong>Meross MSG100HK</strong> der einfachste und günstigste Weg zur Vernetzung, der <strong>Shelly 1 Gen4</strong> richtet sich an Matter-Nutzer und das <strong>Nice IT4WIFI</strong> an Besitzer von Nice-Antrieben.</p>`,
-    es: `<p>Para motorizar una puerta de parcela o de garaje y controlarla desde el móvil en 2026, la opción más completa es un kit Somfy 3S io (Ixengo L para puertas batientes, Elixo 500 para correderas) con la app TaHoma, o el Hörmann SupraMatic E Serie 4 para una puerta de garaje seccional. Si tu puerta ya está motorizada, no hace falta cambiar nada: un módulo como el Meross MSG100HK, el Shelly 1 Gen4 o el Nice IT4WIFI basta para hacerla inteligente.</p>
-<p>Esta comparativa se basa en las fichas técnicas de los fabricantes, análisis independientes y opiniones de compradores verificados. Distingue dos familias que suelen confundirse: los <strong>kits de motorización completos</strong>, que mueven la puerta mecánicamente, y los <strong>controladores inteligentes</strong>, que se conectan a un motor ya instalado. Encontrarás toda la selección en nuestra sección de <a href="/es/outdoor-connecte/portails-garages">puertas automáticas y de garaje inteligentes</a>.</p>
+<p>Wer ein Tor komplett neu ausstattet, findet im <strong>Somfy Ixengo L 3S io</strong> (Drehtor) und im <strong>Elixo 500 3S io</strong> (Schiebetor) das ausgereifteste Duo, sofern Sie sich auf das TaHoma-Ökosystem und eine Fachmontage einlassen. Für Sektionaltore überzeugt der <strong>Hörmann SupraMatic E Serie 4</strong> mit integriertem Bluetooth. Funktioniert Ihr Antrieb bereits, ist der <strong>Meross MSG100HK</strong> der einfachste und günstigste Weg, ihn smart zu machen, der <strong>Shelly 1 Gen4</strong> richtet sich an Matter-Nutzer und das <strong>Nice IT4WIFI</strong> an Besitzer von Nice-Antrieben.</p>`,
+    es: `<p>Para motorizar una puerta de parcela o de garaje y controlarla desde el móvil en 2026, la opción más completa es un kit Somfy 3S io (Ixengo L para puertas batientes, Elixo 500 para correderas) con la app TaHoma, o el Hörmann SupraMatic E Serie 4 para una puerta de garaje seccional. Si tu puerta de parcela o de garaje ya está motorizada, no hace falta cambiarlo todo: basta con un módulo como el Meross MSG100HK, el Shelly 1 Gen4 o el Nice IT4WIFI para hacerla inteligente.</p>
+<p>Esta comparativa se basa en las fichas técnicas de los fabricantes, análisis independientes y opiniones de compradores verificados. Distingue dos familias que suelen confundirse: los <strong>kits de motorización completos</strong>, que se montan en la puerta o sustituyen su mecanismo, y los <strong>controladores inteligentes</strong>, que se conectan a un motor ya instalado. Encontrarás toda la selección en nuestra sección de <a href="/es/outdoor-connecte/portails-garages">motores para puertas de garaje y de parcela</a>.</p>
 
-<h2>Cómo elegir una motorización conectada</h2>
+<h2>Cómo elegir un motor para puerta con app</h2>
 <h3>Tipo de puerta: batiente, corredera, seccional o basculante</h3>
-<p>El primer criterio es la mecánica, no la conectividad. Una <strong>puerta batiente</strong> se equipa con pistones o brazos articulados (un motor por hoja), así que comprueba el ancho de los pilares y el espacio detrás. Una <strong>puerta corredera</strong> utiliza un único motor anclado al suelo que mueve una cremallera: necesitas un carril en buen estado y espacio lateral. En el garaje, una <strong>puerta seccional</strong> o <strong>basculante</strong> se motoriza con un motor de techo sobre guía; las enrollables suelen requerir un motor tubular específico.</p>
+<p>El primer criterio es la mecánica, no la conectividad. Una <strong>puerta batiente</strong> se equipa con pistones o brazos articulados (un motor por hoja), y hay que comprobar el ancho de los pilares y el espacio libre que queda detrás. Una <strong>puerta corredera</strong> utiliza un único motor anclado al suelo que mueve una cremallera: necesitas un carril en buen estado y suficiente espacio lateral. En el garaje, una <strong>puerta seccional</strong> o <strong>basculante</strong> se motoriza con un motor de techo sobre guía; las enrollables suelen requerir un motor tubular específico.</p>
 <h3>Fuerza del motor y peso de la puerta</h3>
-<p>Cada motorización indica un peso y un ancho máximos por hoja. Deja margen: una puerta ciega de madera o aluminio ofrece mucha resistencia al viento y exige más al motor que una puerta calada del mismo peso. El Somfy Ixengo L 3S io, por ejemplo, admite hasta 400 kg y 4 m por hoja (con cerradura eléctrica), y el Elixo 500 3S io hasta 500 kg y 8 m en corredera. En un garaje, cuentan el tamaño y el tipo de puerta.</p>
+<p>Cada motorización indica un peso y un ancho máximos por hoja. Deja un margen amplio: una puerta ciega de madera o aluminio ofrece mucha resistencia al viento y exige más al motor que una puerta calada del mismo peso. El Somfy Ixengo L 3S io, por ejemplo, admite hasta 400 kg y 4 m por hoja (con cerradura eléctrica), y el Elixo 500 3S io hasta 500 kg y 8 m en corredera. En una puerta de garaje, lo que cuenta es la superficie y el tipo de puerta.</p>
 <h3>Alimentación: red eléctrica o kit solar</h3>
-<p>Si no hay corriente junto a la puerta, un kit solar (panel y batería) evita abrir una zanja. Somfy indica, por ejemplo, que el Elixo 500 3S io es compatible con sus soluciones solares. Ten en cuenta que la energía solar limita el número de ciclos diarios y, según el modelo, algunos accesorios: encaja con un uso doméstico moderado, no tanto con una puerta que se abre decenas de veces al día en invierno.</p>
+<p>Si no hay corriente junto a la puerta, un kit solar (panel y batería) evita abrir una zanja. Somfy indica, por ejemplo, que el Elixo 500 3S io es compatible con sus soluciones solares. Ten en cuenta que la alimentación solar limita el número de ciclos diarios y, según el modelo, algunos accesorios: encaja con un uso doméstico moderado, no tanto con una puerta que se abre decenas de veces al día en invierno.</p>
 <h3>Conectividad y compatibilidad domótica</h3>
-<p>Conviven tres arquitecturas. Los <strong>protocolos de radio propios</strong> (io-homecontrol en Somfy, BiSecur en Hörmann, Opera/BusT4 en Nice) pasan por una centralita o un módulo Wi-Fi de la marca. El <strong>Bluetooth</strong> permite controlar desde el móvil a corta distancia, sin centralita. El <strong>Wi-Fi o Matter</strong> es terreno de los controladores universales. Comprueba con precisión la compatibilidad con Apple Home (HomeKit), Google Home, Amazon Alexa y Matter del conjunto: suele depender de la pasarela, no del motor. Nuestra <a href="/es/blog/maison-connectee-matter-thread-2026">guía de Matter y Thread</a> explica estos ecosistemas.</p>
+<p>Conviven tres arquitecturas. Los <strong>protocolos de radio de cada marca</strong> (io-homecontrol en Somfy, BiSecur en Hörmann, Opera/BusT4 en Nice) pasan por una centralita o un módulo wifi del fabricante. El <strong>Bluetooth</strong> permite controlar desde el móvil a corta distancia, sin centralita. El <strong>wifi o Matter</strong>, por último, es terreno de los controladores universales. En cuanto a asistentes, comprueba bien la compatibilidad del conjunto que te interesa con Apple Home (HomeKit), Google Home, Amazon Alexa y Matter: a menudo depende de la pasarela, no del propio motor. Nuestra <a href="/es/blog/maison-connectee-matter-thread-2026">guía de Matter y Thread</a> explica estos ecosistemas.</p>
 <h3>Confirmación de estado</h3>
-<p>Un buen sistema conectado no se limita a enviar la orden: te dice si la puerta está realmente abierta o cerrada. Los protocolos bidireccionales (io-homecontrol, BusT4, HCP) devuelven esa información; un controlador Wi-Fi universal depende de un sensor de posición (imán o contacto) bien instalado.</p>
+<p>Un buen sistema conectado no se limita a enviar la orden: te dice si la puerta está realmente abierta o cerrada. Los protocolos bidireccionales (io-homecontrol, BusT4, HCP) devuelven esa información; un controlador wifi universal depende de un sensor de posición (imán o contacto) que hay que instalar bien.</p>
 
-<h2>Las mejores motorizaciones y módulos conectados de 2026</h2>
+<h2>Los mejores motores y módulos inteligentes de 2026</h2>
 <h3>Somfy Ixengo L 3S io Pack Confort: la referencia para puertas batientes</h3>
-<p>El Ixengo L 3S io es una motorización de pistones para puertas batientes, pensada para instalación profesional. El pack confort incluye los dos motores, el cuadro de maniobras 3S io, mandos, fotocélulas y una luz destellante. El protocolo io-homecontrol es bidireccional y cifrado, de modo que la app muestra el estado real de la puerta.</p>
+<p>El Ixengo L 3S io es una motorización de pistones para puertas batientes, pensada para que la instale un profesional. El pack confort incluye los dos motores, el cuadro de maniobras 3S io, mandos, fotocélulas y una luz destellante naranja. El protocolo io-homecontrol es bidireccional y cifrado, de modo que la app muestra el estado real de la puerta.</p>
 <p><strong>Puntos fuertes:</strong> hasta 400 kg y 4 m por hoja con cerradura eléctrica, detección de obstáculos con parada del motor, batería de emergencia opcional, control mediante TaHoma switch o el Connectivity Kit de Somfy y, a través de ellos, con los asistentes de voz compatibles con TaHoma.</p>
 <p><strong>Limitaciones:</strong> necesita una centralita Somfy para el control a distancia; instalación a cargo de un profesional; producto de gama alta.</p>
-<p><strong>Para quién:</strong> propietarios de una puerta batiente pesada o ancha que ya usan (o piensan usar) persianas Somfy io u otros productos io. En ese caso, nuestra <a href="/es/blog/volets-roulants-connectes-guide">guía de persianas inteligentes</a> complementa bien esta elección.</p>
+<p><strong>Para quién:</strong> propietarios de una puerta batiente pesada o ancha que ya tienen (o piensan instalar) persianas u otros productos Somfy io. Si es tu caso, nuestra <a href="/es/blog/volets-roulants-connectes-guide">guía de persianas motorizadas</a> complementa bien esta elección.</p>
 
 <h3>Somfy Elixo 500 3S io Pack Confort: para puertas correderas</h3>
-<p>El Elixo 500 3S io mueve puertas correderas de hasta 8 m y 500 kg. Comparte la electrónica 3S io y el ecosistema TaHoma con el Ixengo, con apertura peatonal integrada y deceleración al final del recorrido.</p>
+<p>El Elixo 500 3S io mueve puertas correderas de hasta 8 m y 500 kg. Comparte con el Ixengo la electrónica 3S io y el ecosistema TaHoma, e incorpora apertura peatonal y ralentización al final del recorrido.</p>
 <p><strong>Puntos fuertes:</strong> gran capacidad, apertura rápida según Somfy (unos 15 segundos para 3 m), compatible con las soluciones solares de la marca, confirmación de estado io.</p>
-<p><strong>Limitaciones:</strong> requiere cremallera y carril en buen estado; con energía solar, algunas funciones de accesorios pueden quedar limitadas según la configuración.</p>
+<p><strong>Limitaciones:</strong> requiere cremallera y carril en buen estado; con alimentación solar, algunos accesorios pueden perder funciones según la configuración.</p>
 <p><strong>Para quién:</strong> puertas correderas grandes, incluso sin toma de corriente cercana.</p>
 
-<h3>Hörmann SupraMatic E Serie 4: puerta de garaje conectada sin centralita</h3>
+<h3>Hörmann SupraMatic E Serie 4: la puerta de garaje inteligente sin centralita</h3>
 <p>El SupraMatic E Serie 4 es un motor de techo para puertas de garaje seccionales de tamaño medio, de hasta 5,5 m de ancho. Su gran baza es el receptor Bluetooth integrado, que permite manejar la puerta con la app gratuita Hörmann BlueSecur, además de la radio BiSecur y los emisores incluidos.</p>
-<p><strong>Puntos fuertes:</strong> control desde el móvil sin pasarela gracias al Bluetooth, iluminación LED integrada, interfaz HCP para domótica; con la pasarela Wi-Fi de Hörmann, compatibilidad anunciada con Apple Home, Amazon Alexa y Google Home.</p>
-<p><strong>Limitaciones:</strong> el Bluetooth solo funciona de cerca; el acceso remoto y los asistentes de voz exigen el accesorio Wi-Fi; sin Matter nativo anunciado.</p>
-<p><strong>Para quién:</strong> quien instala o sustituye una puerta seccional, idealmente Hörmann, y busca una solución integrada.</p>
+<p><strong>Puntos fuertes:</strong> control desde el móvil sin pasarela gracias al Bluetooth, iluminación LED integrada, interfaz HCP para domótica; con la pasarela wifi de Hörmann, compatibilidad anunciada con Apple Home, Amazon Alexa y Google Home.</p>
+<p><strong>Limitaciones:</strong> el Bluetooth solo funciona de cerca; el acceso remoto y los asistentes de voz exigen el accesorio wifi; no se anuncia compatibilidad nativa con Matter.</p>
+<p><strong>Para quién:</strong> quienes instalan o cambian una puerta de garaje seccional, a ser posible de Hörmann, y buscan una solución integrada.</p>
 
-<h3>Meross MSG100HK: la mejor relación calidad-precio para conectar un garaje existente</h3>
-<p>El Meross Smart Wi-Fi Garage Door Opener MSG100HK no sustituye al motor: se conecta a la entrada de pulsador de la mayoría de motores de garaje existentes y añade un sensor magnético de apertura. La versión HK es compatible con Apple HomeKit, además de Amazon Alexa, Google Assistant y SmartThings.</p>
-<p><strong>Puntos fuertes:</strong> compatible con una enorme variedad de motores, incluidos los antiguos; avisos de apertura y de puerta olvidada abierta; cableado sencillo de baja tensión; producto de gama de entrada.</p>
-<p><strong>Limitaciones:</strong> solo Wi-Fi de 2,4 GHz, así que hace falta buena señal en el garaje; diseñado para puertas de garaje más que para cancelas; sin Matter nativo en este modelo.</p>
+<h3>Meross MSG100HK: la mejor relación calidad-precio para conectar un garaje ya motorizado</h3>
+<p>El Meross Smart Wi-Fi Garage Door Opener MSG100HK no sustituye al motor: se conecta a la entrada de pulsador de la mayoría de los motores de garaje y añade un sensor magnético de apertura. La versión HK es compatible con Apple HomeKit, además de Amazon Alexa, Google Assistant y SmartThings.</p>
+<p><strong>Puntos fuertes:</strong> compatible con una enorme variedad de motores, incluidos los antiguos; avisos al abrirse la puerta y si se queda abierta; instalación sencilla en bornes de baja tensión; producto de gama de entrada.</p>
+<p><strong>Limitaciones:</strong> solo wifi de 2,4 GHz, así que hace falta buena señal en el garaje; diseñado para puertas de garaje más que para cancelas; sin Matter nativo en este modelo.</p>
 <p><strong>Para quién:</strong> hogares con una puerta de garaje motorizada en buen estado que solo quieren controlarla y vigilarla a distancia.</p>
 
-<h3>Shelly 1 Gen4: el relé Matter para manitas expertos</h3>
-<p>El Shelly 1 Gen4 es un pequeño relé con contacto seco (libre de potencial) y certificación Matter, que se comunica por Wi-Fi, Bluetooth y Zigbee. Conectado a la entrada de «impulso» de un cuadro de maniobras de puerta o garaje, simula la pulsación de un botón. Se alimenta a 12 V CC, 24–48 V CC o 110–240 V CA según la instalación.</p>
+<h3>Shelly 1 Gen4: el relé Matter para manitas con experiencia</h3>
+<p>El Shelly 1 Gen4 es un pequeño relé con contacto seco (libre de potencial) y certificación Matter, que se comunica por wifi, Bluetooth y Zigbee. Conectado a la entrada de «impulso» de un cuadro de maniobras de puerta o garaje, simula la pulsación de un botón. Se alimenta a 12 V CC, 24–48 V CC o 110–240 V CA según la instalación.</p>
 <p><strong>Puntos fuertes:</strong> Matter, por lo que funciona con Apple Home, Google Home, Amazon Alexa, SmartThings o Home Assistant; funcionamiento local incluso sin internet; tan compacto que suele caber en la caja del automatismo.</p>
-<p><strong>Limitaciones:</strong> no conoce la posición de la puerta sin un sensor adicional cableado a su entrada; configuración más técnica; cualquier conexión a la red eléctrica debe hacerla una persona cualificada.</p>
+<p><strong>Limitaciones:</strong> no sabe si la puerta está abierta o cerrada sin un sensor adicional conectado a su entrada; configuración más técnica; cualquier conexión a la red eléctrica debe hacerla una persona cualificada.</p>
 <p><strong>Para quién:</strong> usuarios de domótica avanzada que quieren integrar cualquier puerta motorizada en un ecosistema Matter.</p>
 
-<h3>Nice IT4WIFI: conectar un automatismo Nice existente</h3>
-<p>El Nice IT4WIFI es la interfaz Wi-Fi de los automatismos Nice compatibles con el protocolo BusT4 (Opera). Incluye el adaptador IBT4N y un cable, y se configura en modo MyNice (app MyNice Welcome) o en modo Apple HomeKit.</p>
-<p><strong>Puntos fuertes:</strong> confirmación de estado y diagnóstico gracias al diálogo directo con la placa, HomeKit nativo, solución oficial de la marca.</p>
+<h3>Nice IT4WIFI: para conectar un automatismo Nice ya instalado</h3>
+<p>El Nice IT4WIFI es la interfaz wifi de los automatismos Nice compatibles con el protocolo BusT4 (Opera). Incluye el adaptador IBT4N y un cable, y se configura en modo MyNice (app MyNice Welcome) o en modo Apple HomeKit.</p>
+<p><strong>Puntos fuertes:</strong> confirmación de estado y diagnóstico gracias a que se comunica directamente con la placa electrónica, HomeKit nativo, solución oficial de la marca.</p>
 <p><strong>Limitaciones:</strong> solo para cuadros Nice con puerto BusT4; hay que elegir entre el modo MyNice y el modo HomeKit.</p>
 <p><strong>Para quién:</strong> propietarios de un automatismo Nice reciente para puerta o garaje que quieren manejarlo desde el iPhone o la app de la marca.</p>
-<p>Conviene saber también que el <strong>Connectivity Kit</strong> de Somfy permite controlar hasta 20 equipos io y RTS, entre ellos puertas y garajes, mediante la app TaHoma, con menos funciones que la centralita TaHoma switch.</p>
+<p>Conviene saber también que el <strong>kit de conectividad</strong> de Somfy (Connectivity Kit) permite controlar hasta 20 equipos io y RTS, entre ellos puertas de parcela y de garaje, con la app TaHoma, con menos funciones que la centralita TaHoma switch.</p>
 
 <h2>Tabla comparativa</h2>
 <table>
@@ -376,85 +376,85 @@ export const article: BlogArticle = {
 <tr><th>Modelo</th><th>Tipo</th><th>Característica clave</th><th>Conectividad</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td>Somfy Ixengo L 3S io</td><td>Kit completo</td><td>Batiente, hasta 400 kg por hoja</td><td>io-homecontrol, vía TaHoma</td><td>Batiente pesada</td></tr>
-<tr><td>Somfy Elixo 500 3S io</td><td>Kit completo</td><td>Corredera, hasta 500 kg / 8 m</td><td>io-homecontrol, vía TaHoma</td><td>Corredera grande, opción solar</td></tr>
+<tr><td>Somfy Ixengo L 3S io</td><td>Kit completo</td><td>Batiente, hasta 400 kg por hoja</td><td>io-homecontrol, vía TaHoma</td><td>Puerta batiente pesada</td></tr>
+<tr><td>Somfy Elixo 500 3S io</td><td>Kit completo</td><td>Corredera, hasta 500 kg / 8 m</td><td>io-homecontrol, vía TaHoma</td><td>Puerta corredera grande, opción solar</td></tr>
 <tr><td>Hörmann SupraMatic E Serie 4</td><td>Motor de garaje</td><td>Seccionales de hasta 5,5 m de ancho</td><td>Bluetooth (BlueSecur), BiSecur, HCP</td><td>Garaje sin centralita</td></tr>
-<tr><td>Meross MSG100HK</td><td>Controlador</td><td>Sensor de apertura incluido</td><td>Wi-Fi 2,4 GHz, HomeKit, Alexa, Google</td><td>Garaje ya motorizado</td></tr>
-<tr><td>Shelly 1 Gen4</td><td>Relé</td><td>Contacto seco, funcionamiento local</td><td>Wi-Fi, Bluetooth, Zigbee, Matter</td><td>Domótica avanzada</td></tr>
-<tr><td>Nice IT4WIFI</td><td>Interfaz</td><td>Estado vía BusT4</td><td>Wi-Fi, MyNice o HomeKit</td><td>Automatismo Nice existente</td></tr>
+<tr><td>Meross MSG100HK</td><td>Controlador</td><td>Sensor de apertura incluido</td><td>Wifi 2,4 GHz, HomeKit, Alexa, Google</td><td>Garaje ya motorizado</td></tr>
+<tr><td>Shelly 1 Gen4</td><td>Relé</td><td>Contacto seco, funcionamiento local</td><td>Wifi, Bluetooth, Zigbee, Matter</td><td>Domótica avanzada</td></tr>
+<tr><td>Nice IT4WIFI</td><td>Interfaz</td><td>Confirmación de estado vía BusT4</td><td>Wifi, MyNice o HomeKit</td><td>Automatismo Nice existente</td></tr>
 </tbody>
 </table>
 
 <h2>Seguridad: lo que debes saber antes de instalar</h2>
-<p>Una puerta motorizada es una máquina capaz de causar lesiones. Los kits completos incluyen varias protecciones: <strong>fotocélulas</strong> que detienen o invierten el movimiento si se corta el haz, <strong>detección de obstáculos</strong> mediante el control del esfuerzo del motor, <strong>luz destellante</strong> durante la maniobra y desbloqueo manual en caso de corte de luz.</p>
-<p>En Europa, las puertas motorizadas se rigen, entre otras, por la norma de producto EN 13241 y la norma EN 12453 sobre seguridad de utilización de puertas motorizadas. Sin entrar en el detalle normativo, recuerda que la conformidad depende de la instalación completa (ajuste de fuerzas, posición de las fotocélulas, señalización) y no solo del motor. Por eso se recomienda encarecidamente que un profesional cualificado instale los kits completos: ajusta las fuerzas, comprueba las seguridades y puede entregarte la documentación de conformidad de la instalación.</p>
-<p>Para los controladores, una regla sencilla: acciona a distancia una puerta que no ves solo si la instalación mantiene operativas sus seguridades originales (fotocélulas, detección de obstáculos). Activa los avisos de apertura y, si es posible, un cierre automático temporizado.</p>
+<p>Una puerta motorizada es una máquina que puede herir a alguien. Los kits completos incluyen varias protecciones: <strong>fotocélulas</strong> que detienen o invierten el movimiento si se corta el haz, <strong>detección de obstáculos</strong> midiendo el esfuerzo del motor, <strong>luz destellante</strong> durante la maniobra y desbloqueo manual en caso de corte de luz.</p>
+<p>En Europa, las puertas motorizadas se rigen, entre otras, por la norma de producto EN 13241 y la norma EN 12453 sobre seguridad de uso de las puertas motorizadas. Sin entrar en el detalle normativo, recuerda que la conformidad depende de la instalación completa (ajuste de fuerzas, posición de las fotocélulas, señalización) y no solo del motor. Por eso se recomienda encarecidamente que un profesional cualificado instale los kits completos: ajusta las fuerzas, comprueba los sistemas de seguridad y puede entregarte la documentación de conformidad de la instalación.</p>
+<p>Para los controladores inteligentes, una regla sencilla: no abras ni cierres a distancia una puerta que no ves salvo que la instalación conserve operativos sus sistemas de seguridad de origen (fotocélulas, detección de obstáculos). Activa los avisos de apertura y, si es posible, un cierre automático temporizado.</p>
 
 <h2>Errores que debes evitar</h2>
 <ul>
-<li><strong>Quedarse corto de motor</strong>: una puerta ciega expuesta al viento desgasta un motor justo y provoca falsas detecciones de obstáculos.</li>
-<li><strong>Olvidar el Wi-Fi en la puerta</strong>: un garaje de hormigón o una cancela al fondo de la parcela reciben mala señal. Compruébala in situ o añade un repetidor.</li>
+<li><strong>Quedarse corto de motor</strong>: una puerta ciega expuesta al viento desgasta un motor que va justo y provoca falsas detecciones de obstáculos.</li>
+<li><strong>Olvidarse de la cobertura wifi en la puerta</strong>: un garaje de hormigón o una cancela al fondo de la parcela reciben mala señal. Compruébala allí mismo o pon un repetidor.</li>
 <li><strong>Comprar un controlador universal sin revisar la entrada del motor</strong>: necesitas una entrada de pulsador o impulso accesible en la placa.</li>
 <li><strong>Confundir RTS e io en Somfy</strong>: RTS es unidireccional, sin confirmación fiable de estado; io es bidireccional.</li>
 <li><strong>Desactivar o colocar mal las fotocélulas</strong>: son la primera protección para niños, mascotas y vehículos.</li>
-<li><strong>Descuidar la seguridad de la cuenta</strong>: una puerta conectada abre tu propiedad. Usa una contraseña única y la verificación en dos pasos si la app la ofrece. Nuestra <a href="/es/blog/guide-securite-maison-connectee-2026">guía de seguridad del hogar conectado</a> reúne las buenas prácticas.</li>
+<li><strong>Descuidar la seguridad de la cuenta</strong>: una puerta conectada da acceso a tu casa. Usa una contraseña única y la verificación en dos pasos si la app la ofrece. Nuestra <a href="/es/blog/guide-securite-maison-connectee-2026">guía de seguridad del hogar inteligente</a> reúne las buenas prácticas.</li>
 </ul>
 
 <h2>Instalación y uso diario</h2>
 <p>Para un kit completo, cuenta con una instalación profesional: fijación de los herrajes, alineación de las fotocélulas, conexión eléctrica conforme a la normativa vigente y ajuste de los finales de carrera. Para un controlador como el Meross MSG100HK, basta con conectar dos cables de baja tensión a los bornes del pulsador de pared y pegar el sensor magnético; si tienes dudas, pide ayuda. El Shelly 1 Gen4 puede requerir conexión a la red eléctrica: encárgaselo a un electricista cualificado.</p>
-<p>En el día a día, las automatizaciones más útiles son abrir el garaje al acercarte a casa (geolocalización), cerrar automáticamente al anochecer, encender la iluminación exterior al abrir la puerta y recibir un aviso si una puerta se queda abierta. Conserva siempre un mando físico: un corte de internet nunca debe dejarte fuera.</p>
+<p>En el día a día, las automatizaciones más útiles son abrir el garaje al acercarte a casa (geolocalización), cerrar automáticamente al anochecer, encender la iluminación exterior al abrir la puerta y recibir un aviso si una puerta se queda abierta. Ten siempre a mano un mando físico: una caída de internet nunca debería dejarte en la calle.</p>
 
 <h2>Veredicto</h2>
 <p>Para equipar una puerta desde cero, el <strong>Somfy Ixengo L 3S io</strong> (batiente) y el <strong>Elixo 500 3S io</strong> (corredera) forman el dúo más completo, siempre que aceptes el ecosistema TaHoma y una instalación profesional. Para una puerta seccional, el <strong>Hörmann SupraMatic E Serie 4</strong> destaca por su Bluetooth integrado. Si tu motor ya funciona, el <strong>Meross MSG100HK</strong> es la forma más sencilla y económica de conectarlo, el <strong>Shelly 1 Gen4</strong> está pensado para usuarios de Matter y el <strong>Nice IT4WIFI</strong> para quienes tienen automatismos Nice.</p>`,
     it: `<p>Per automatizzare un cancello o una porta da garage e comandarli dallo smartphone nel 2026, la scelta più completa è un kit Somfy 3S io (Ixengo L per il cancello a battente, Elixo 500 per lo scorrevole) abbinato all'app TaHoma, oppure l'Hörmann SupraMatic E Serie 4 per una porta da garage sezionale. Se il cancello o il garage sono già motorizzati non serve sostituire nulla: un modulo come il Meross MSG100HK, lo Shelly 1 Gen4 o il Nice IT4WIFI basta a renderli smart.</p>
-<p>Questo confronto si basa sulle schede tecniche dei produttori, su recensioni indipendenti e sulle opinioni di acquirenti verificati. Distingue due famiglie spesso confuse: i <strong>kit di automazione completi</strong>, che muovono meccanicamente cancello o porta, e i <strong>controller smart</strong>, che si collegano a un motore già installato. Trovi tutta la selezione nella nostra sezione <a href="/it/outdoor-connecte/portails-garages">cancelli e garage intelligenti</a>.</p>
+<p>Questo confronto si basa sulle schede tecniche dei produttori, su recensioni indipendenti e sulle opinioni di acquirenti verificati, e distingue due famiglie di prodotti che spesso si confondono: i <strong>kit di automazione completi</strong>, che muovono meccanicamente cancello o porta, e i <strong>controller smart</strong>, che si collegano a un motore già installato. Trovi tutta la selezione nella nostra sezione <a href="/it/outdoor-connecte/portails-garages">apricancello e garage smart</a>.</p>
 
-<h2>Come scegliere un'automazione connessa</h2>
+<h2>Come scegliere un'automazione smart</h2>
 <h3>Tipo di chiusura: battente, scorrevole, sezionale o basculante</h3>
 <p>Il primo criterio è la meccanica, non la connettività. Un <strong>cancello a battente</strong> si automatizza con pistoni o bracci articolati (un motore per anta): verifica la larghezza dei pilastri e lo spazio dietro di essi. Un <strong>cancello scorrevole</strong> usa un solo motore fissato a terra che aziona una cremagliera: servono un binario in buono stato e spazio laterale. In garage, una <strong>porta sezionale</strong> o <strong>basculante</strong> si motorizza con un motore a soffitto su guida; le serrande avvolgibili richiedono di solito un motore tubolare dedicato.</p>
 <h3>Forza del motore e peso del cancello</h3>
 <p>Ogni automazione dichiara peso e larghezza massimi per anta. Lascia un buon margine: un cancello pieno in legno o alluminio offre molta resistenza al vento e affatica il motore più di un cancello traforato di pari peso. Il Somfy Ixengo L 3S io, ad esempio, gestisce fino a 400 kg e 4 m per anta (con elettroserratura), l'Elixo 500 3S io fino a 500 kg e 8 m per lo scorrevole. Per il garage contano dimensioni e tipo di porta.</p>
 <h3>Alimentazione: rete o kit solare</h3>
-<p>Se al cancello non arriva la corrente, un kit solare (pannello e batteria) evita di scavare una traccia. Somfy indica ad esempio che l'Elixo 500 3S io è compatibile con le sue soluzioni solari. Ricorda che l'alimentazione solare limita il numero di cicli giornalieri e, a seconda del modello, alcuni accessori: è adatta a un uso domestico moderato, meno a un cancello che si apre decine di volte al giorno in inverno.</p>
+<p>Se al cancello non arriva la corrente, un kit solare (pannello e batteria) evita di dover scavare per portare i cavi. Somfy indica ad esempio che l'Elixo 500 3S io è compatibile con le sue soluzioni solari. Tieni presente che l'alimentazione solare limita il numero di cicli giornalieri e, a seconda del modello, l'uso di alcuni accessori: è adatta a un uso domestico moderato, meno a un cancello che si apre decine di volte al giorno in inverno.</p>
 <h3>Connettività e compatibilità domotica</h3>
-<p>Convivono tre architetture. I <strong>protocolli radio proprietari</strong> (io-homecontrol per Somfy, BiSecur per Hörmann, Opera/BusT4 per Nice) passano da un hub o da un modulo Wi-Fi del marchio. Il <strong>Bluetooth</strong> consente il comando ravvicinato dallo smartphone, senza hub. <strong>Wi-Fi o Matter</strong> sono il terreno dei controller universali. Verifica con precisione la compatibilità con Apple Home (HomeKit), Google Home, Amazon Alexa e Matter dell'insieme: dipende spesso dal gateway, non dal motore. La nostra <a href="/it/blog/maison-connectee-matter-thread-2026">guida a Matter e Thread</a> spiega questi ecosistemi.</p>
-<h3>Ritorno di stato</h3>
-<p>Un buon sistema connesso non si limita a inviare il comando: indica se il cancello è davvero aperto o chiuso. I protocolli bidirezionali (io-homecontrol, BusT4, HCP) trasmettono questa informazione; un controller Wi-Fi universale si affida a un sensore di posizione (magnete o contatto) da installare correttamente.</p>
+<p>Esistono tre approcci. I <strong>protocolli radio proprietari</strong> (io-homecontrol per Somfy, BiSecur per Hörmann, Opera/BusT4 per Nice) passano da un hub o da un modulo Wi-Fi del marchio. Il <strong>Bluetooth</strong> consente il comando ravvicinato dallo smartphone, senza hub. <strong>Wi-Fi e Matter</strong>, infine, sono il terreno dei controller universali. Verifica bene la compatibilità dell'intero sistema con l'app Casa di Apple (HomeKit), Google Home, Amazon Alexa e Matter: spesso dipende dal gateway, non dal motore. La nostra <a href="/it/blog/maison-connectee-matter-thread-2026">guida a Matter e Thread</a> spiega questi ecosistemi.</p>
+<h3>Stato del cancello: aperto o chiuso?</h3>
+<p>Un buon sistema smart non si limita a inviare il comando: ti dice se il cancello è davvero aperto o chiuso. I protocolli bidirezionali (io-homecontrol, BusT4, HCP) trasmettono questa informazione; un controller Wi-Fi universale si affida a un sensore di posizione (magnete o contatto) che va installato con cura.</p>
 
-<h2>Le migliori automazioni e moduli connessi del 2026</h2>
-<h3>Somfy Ixengo L 3S io Pack Comfort: il riferimento per cancelli a battente</h3>
+<h2>Le migliori automazioni e i migliori moduli smart del 2026</h2>
+<h3>Somfy Ixengo L 3S io Pack Comfort: il punto di riferimento per i cancelli a battente</h3>
 <p>L'Ixengo L 3S io è un'automazione a pistoni per cancelli a battente, pensata per l'installazione professionale. Il pack comfort comprende i due motori, la centrale 3S io, i telecomandi, le fotocellule e un lampeggiante. Il protocollo io-homecontrol è bidirezionale e crittografato, quindi l'app mostra lo stato reale del cancello.</p>
-<p><strong>Punti di forza:</strong> fino a 400 kg e 4 m per anta con elettroserratura, rilevamento ostacoli con arresto del motore, batteria tampone opzionale, comando tramite TaHoma switch o il Connectivity Kit Somfy e, attraverso questi, con gli assistenti vocali supportati da TaHoma.</p>
+<p><strong>Punti di forza:</strong> fino a 400 kg e 4 m per anta con elettroserratura, rilevamento ostacoli con arresto del motore, batteria tampone opzionale, comando tramite TaHoma switch o Connectivity Kit Somfy e, attraverso questi, con gli assistenti vocali supportati da TaHoma.</p>
 <p><strong>Limiti:</strong> per il comando a distanza serve un hub Somfy; installazione da affidare a un professionista; prodotto di fascia alta.</p>
-<p><strong>Per chi:</strong> chi ha un cancello a battente pesante o largo e usa già (o pensa di usare) tapparelle Somfy io o altri prodotti io. In questo caso la nostra <a href="/it/blog/volets-roulants-connectes-guide">guida alle tapparelle connesse</a> completa bene la scelta.</p>
+<p><strong>Per chi:</strong> chi ha un cancello a battente pesante o largo e usa già (o pensa di usare) tapparelle Somfy io o altri prodotti io. In questo caso ti sarà utile anche la nostra <a href="/it/blog/volets-roulants-connectes-guide">guida alle tapparelle elettriche smart</a>.</p>
 
 <h3>Somfy Elixo 500 3S io Pack Comfort: per i cancelli scorrevoli</h3>
 <p>L'Elixo 500 3S io muove cancelli scorrevoli fino a 8 m e 500 kg. Condivide con l'Ixengo l'elettronica 3S io e l'ecosistema TaHoma, con apertura pedonale integrata e rallentamento a fine corsa.</p>
-<p><strong>Punti di forza:</strong> grande capacità, apertura rapida dichiarata da Somfy (circa 15 secondi per 3 m), compatibile con le soluzioni solari del marchio, ritorno di stato io.</p>
+<p><strong>Punti di forza:</strong> grande capacità, apertura rapida dichiarata da Somfy (circa 15 secondi per 3 m), compatibilità con le soluzioni solari del marchio, feedback di stato tramite io.</p>
 <p><strong>Limiti:</strong> richiede cremagliera e binario in buono stato; con alimentazione solare alcune funzioni accessorie possono essere limitate a seconda della configurazione.</p>
-<p><strong>Per chi:</strong> grandi cancelli scorrevoli, anche senza alimentazione di rete nelle vicinanze.</p>
+<p><strong>Per chi:</strong> grandi cancelli scorrevoli, anche dove non arriva la corrente.</p>
 
-<h3>Hörmann SupraMatic E Serie 4: il garage connesso senza hub</h3>
+<h3>Hörmann SupraMatic E Serie 4: il garage smart senza hub</h3>
 <p>Il SupraMatic E Serie 4 è un motore a soffitto per porte da garage sezionali di medie dimensioni, fino a 5,5 m di larghezza. Il suo asso nella manica è il ricevitore Bluetooth integrato, che permette di comandare la porta con l'app gratuita Hörmann BlueSecur, oltre che con la radio BiSecur e i telecomandi in dotazione.</p>
-<p><strong>Punti di forza:</strong> comando da smartphone senza gateway grazie al Bluetooth, illuminazione LED integrata, interfaccia HCP per la domotica; con il gateway Wi-Fi Hörmann, compatibilità dichiarata con Apple Home, Amazon Alexa e Google Home.</p>
-<p><strong>Limiti:</strong> il solo Bluetooth funziona solo da vicino; accesso remoto e assistenti vocali richiedono l'accessorio Wi-Fi; nessun Matter nativo annunciato.</p>
+<p><strong>Punti di forza:</strong> comando da smartphone senza gateway grazie al Bluetooth, illuminazione LED integrata, interfaccia HCP per la domotica; con il gateway Wi-Fi Hörmann, compatibilità dichiarata con l'app Casa di Apple, Amazon Alexa e Google Home.</p>
+<p><strong>Limiti:</strong> con il Bluetooth la porta si comanda solo da vicino; accesso remoto e assistenti vocali richiedono l'accessorio Wi-Fi; nessun supporto Matter nativo annunciato.</p>
 <p><strong>Per chi:</strong> chi installa o sostituisce una porta sezionale, idealmente Hörmann, e vuole una soluzione integrata.</p>
 
 <h3>Meross MSG100HK: il miglior rapporto qualità-prezzo per un garage esistente</h3>
 <p>Il Meross Smart Wi-Fi Garage Door Opener MSG100HK non sostituisce il motore: si collega all'ingresso del pulsante a muro della maggior parte dei motori per garage esistenti e aggiunge un sensore magnetico di apertura. La versione HK è compatibile con Apple HomeKit, oltre che con Amazon Alexa, Google Assistant e SmartThings.</p>
-<p><strong>Punti di forza:</strong> compatibile con moltissimi motori, anche datati; notifiche di apertura e di porta rimasta aperta; cablaggio semplice in bassa tensione; prodotto entry-level.</p>
-<p><strong>Limiti:</strong> solo Wi-Fi a 2,4 GHz, quindi serve un buon segnale in garage; progettato per porte da garage più che per cancelli; nessun Matter nativo su questo modello.</p>
+<p><strong>Punti di forza:</strong> compatibile con moltissimi motori, anche datati; notifiche di apertura e di porta rimasta aperta; cablaggio semplice in bassa tensione; prodotto di fascia d'ingresso.</p>
+<p><strong>Limiti:</strong> solo Wi-Fi a 2,4 GHz, quindi serve un buon segnale in garage; progettato per porte da garage più che per cancelli; niente Matter nativo su questo modello.</p>
 <p><strong>Per chi:</strong> famiglie con una porta da garage motorizzata e funzionante che vogliono solo comandarla e controllarla a distanza.</p>
 
-<h3>Shelly 1 Gen4: il relè Matter per smanettoni esperti</h3>
-<p>Lo Shelly 1 Gen4 è un piccolo relè a contatto pulito (libero da potenziale), certificato Matter, che comunica via Wi-Fi, Bluetooth e Zigbee. Collegato all'ingresso «passo-passo» o impulso di una centrale per cancello o garage, simula la pressione di un pulsante. Si alimenta a 12 V DC, 24–48 V DC o 110–240 V AC a seconda dell'impianto.</p>
-<p><strong>Punti di forza:</strong> Matter, quindi comandabile da Apple Home, Google Home, Amazon Alexa, SmartThings o Home Assistant; funzionamento locale anche senza internet; così compatto da stare spesso nella scatola della centrale.</p>
-<p><strong>Limiti:</strong> nessuna conoscenza della posizione del cancello senza un sensore aggiuntivo collegato al suo ingresso; configurazione più tecnica; i collegamenti alla rete elettrica vanno affidati a una persona qualificata.</p>
+<h3>Shelly 1 Gen4: il relè Matter per esperti di fai da te</h3>
+<p>Lo Shelly 1 Gen4 è un piccolo relè a contatto pulito (libero da potenziale), certificato Matter, che comunica via Wi-Fi, Bluetooth e Zigbee. Collegato all'ingresso «passo-passo» (a impulso) della centrale di un cancello o di un garage, simula la pressione di un pulsante. Si alimenta a 12 V DC, 24-48 V DC o 110-240 V AC a seconda dell'impianto.</p>
+<p><strong>Punti di forza:</strong> Matter, quindi comandabile dall'app Casa di Apple, da Google Home, Amazon Alexa, SmartThings o Home Assistant; funzionamento locale anche senza internet; così compatto da stare spesso nella scatola della centrale.</p>
+<p><strong>Limiti:</strong> senza un sensore aggiuntivo collegato al suo ingresso non sa se il cancello è aperto o chiuso; configurazione più tecnica; se si interviene sulla rete elettrica, il cablaggio va affidato a una persona qualificata.</p>
 <p><strong>Per chi:</strong> utenti di domotica avanzata che vogliono integrare qualsiasi cancello motorizzato in un ecosistema Matter.</p>
 
-<h3>Nice IT4WIFI: connettere un'automazione Nice esistente</h3>
+<h3>Nice IT4WIFI: per rendere smart un'automazione Nice già installata</h3>
 <p>Il Nice IT4WIFI è l'interfaccia Wi-Fi delle automazioni Nice compatibili con il protocollo BusT4 (Opera). Viene fornito con l'adattatore IBT4N e un cavo, e si configura in modalità MyNice (app MyNice Welcome) oppure in modalità Apple HomeKit.</p>
-<p><strong>Punti di forza:</strong> ritorno di stato e diagnostica grazie al dialogo diretto con la scheda, HomeKit nativo, soluzione ufficiale del marchio.</p>
+<p><strong>Punti di forza:</strong> feedback di stato e diagnostica grazie alla comunicazione diretta con la scheda, HomeKit nativo, soluzione ufficiale del marchio.</p>
 <p><strong>Limiti:</strong> riservato alle centrali Nice con porta BusT4; bisogna scegliere tra modalità MyNice e modalità HomeKit.</p>
 <p><strong>Per chi:</strong> proprietari di un'automazione Nice recente per cancello o garage che vogliono comandarla da iPhone o dall'app del marchio.</p>
 <p>Da sapere anche: il <strong>Connectivity Kit</strong> di Somfy permette di comandare fino a 20 dispositivi io e RTS, tra cui cancelli e porte da garage, tramite l'app TaHoma, con meno funzioni dell'hub TaHoma switch.</p>
@@ -475,78 +475,78 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Sicurezza: cosa sapere prima di installare</h2>
-<p>Un cancello o una porta motorizzati sono macchine in grado di ferire. I kit completi integrano diverse protezioni: <strong>fotocellule</strong> che fermano o invertono il movimento se il fascio viene interrotto, <strong>rilevamento ostacoli</strong> tramite il controllo dello sforzo del motore, <strong>lampeggiante</strong> durante la manovra e sblocco manuale in caso di blackout.</p>
-<p>In Europa le chiusure motorizzate rientrano, tra l'altro, nella norma di prodotto EN 13241 e nella norma EN 12453 sulla sicurezza d'uso delle porte motorizzate. Senza entrare nel dettaglio normativo, ricorda che la conformità dipende dall'impianto completo (regolazione delle forze, posizione delle fotocellule, segnaletica) e non solo dal motore. Per questo è fortemente consigliato affidare l'installazione di un kit completo a un professionista qualificato: regola le forze, verifica le sicurezze e può consegnarti la documentazione di conformità dell'impianto.</p>
-<p>Per i controller vale una regola semplice: aziona a distanza un cancello che non vedi solo se l'impianto mantiene funzionanti le sicurezze originali (fotocellule, rilevamento ostacoli). Attiva le notifiche di apertura e, se possibile, una chiusura automatica temporizzata.</p>
+<p>Un cancello o una porta motorizzati sono macchine che possono ferire. I kit completi integrano diverse protezioni: <strong>fotocellule</strong> che fermano o invertono il movimento se il fascio viene interrotto, <strong>rilevamento ostacoli</strong> tramite il controllo dello sforzo del motore, <strong>lampeggiante</strong> durante la manovra e sblocco manuale in caso di blackout.</p>
+<p>In Europa le chiusure motorizzate rientrano, tra l'altro, nella norma di prodotto EN 13241 e nella norma EN 12453 sulla sicurezza d'uso delle porte motorizzate. Senza entrare nel dettaglio normativo, ricorda che la conformità dipende dall'impianto completo (regolazione della forza, posizione delle fotocellule, segnaletica) e non solo dal motore. Per questo è vivamente consigliato affidare l'installazione di un kit completo a un professionista qualificato: regola la forza del motore, verifica i dispositivi di sicurezza e può rilasciarti la documentazione di conformità dell'impianto.</p>
+<p>Per i controller vale una regola semplice: aziona a distanza un cancello che non vedi solo se l'impianto mantiene funzionanti i dispositivi di sicurezza originali (fotocellule, rilevamento ostacoli). Attiva le notifiche di apertura e, se possibile, una chiusura automatica temporizzata.</p>
 
 <h2>Errori da evitare</h2>
 <ul>
 <li><strong>Sottodimensionare il motore</strong>: un cancello pieno esposto al vento usura un motore al limite e provoca false rilevazioni di ostacoli.</li>
 <li><strong>Trascurare il Wi-Fi al cancello</strong>: un garage in cemento o un cancello in fondo al giardino ricevono un segnale debole. Verificalo sul posto o aggiungi un ripetitore.</li>
-<li><strong>Comprare un controller universale senza controllare l'ingresso del motore</strong>: serve un ingresso pulsante o impulso accessibile sulla scheda.</li>
-<li><strong>Confondere RTS e io in Somfy</strong>: RTS è unidirezionale, senza ritorno di stato affidabile; io è bidirezionale.</li>
+<li><strong>Comprare un controller universale senza controllare l'ingresso del motore</strong>: serve un ingresso pulsante o passo-passo accessibile sulla scheda.</li>
+<li><strong>Confondere RTS e io di Somfy</strong>: RTS è unidirezionale, senza ritorno di stato affidabile; io è bidirezionale.</li>
 <li><strong>Disattivare o posizionare male le fotocellule</strong>: sono la prima protezione per bambini, animali e veicoli.</li>
-<li><strong>Dimenticare la sicurezza dell'account</strong>: un cancello connesso apre la tua proprietà. Usa una password unica e l'autenticazione a due fattori se l'app la offre. La nostra <a href="/it/blog/guide-securite-maison-connectee-2026">guida alla sicurezza della casa connessa</a> raccoglie le buone pratiche.</li>
+<li><strong>Dimenticare la sicurezza dell'account</strong>: un cancello smart dà accesso a casa tua. Usa una password unica e l'autenticazione a due fattori se l'app la offre. La nostra <a href="/it/blog/guide-securite-maison-connectee-2026">guida alla sicurezza della casa smart</a> raccoglie le buone pratiche.</li>
 </ul>
 
 <h2>Installazione e uso quotidiano</h2>
 <p>Per un kit completo, prevedi un'installazione professionale: fissaggio delle staffe, allineamento delle fotocellule, collegamento elettrico conforme alle norme vigenti e regolazione dei finecorsa. Per un controller come il Meross MSG100HK basta collegare due fili in bassa tensione ai morsetti del pulsante a muro e incollare il sensore magnetico; nel dubbio, fatti aiutare. Lo Shelly 1 Gen4 può richiedere un collegamento alla rete elettrica: affidalo a un elettricista qualificato.</p>
-<p>Nell'uso quotidiano, le automazioni più utili sono l'apertura del garage quando ti avvicini a casa (geolocalizzazione), la chiusura automatica al tramonto, l'accensione delle luci esterne all'apertura del cancello e l'avviso se una porta resta aperta. Tieni sempre un telecomando fisico: un'interruzione di internet non deve mai lasciarti fuori.</p>
+<p>Nell'uso quotidiano, le automazioni più utili sono l'apertura del garage quando ti avvicini a casa (geolocalizzazione), la chiusura automatica al tramonto, l'accensione delle luci esterne all'apertura del cancello e l'avviso se una porta resta aperta. Tieni sempre a portata di mano un telecomando: un'interruzione di internet non deve mai lasciarti chiuso fuori.</p>
 
-<h2>Verdetto</h2>
-<p>Per attrezzare un cancello da zero, il <strong>Somfy Ixengo L 3S io</strong> (battente) e l'<strong>Elixo 500 3S io</strong> (scorrevole) sono la coppia più completa, a patto di accettare l'ecosistema TaHoma e la posa professionale. Per una porta sezionale, l'<strong>Hörmann SupraMatic E Serie 4</strong> si distingue per il Bluetooth integrato. Se il motore funziona già, il <strong>Meross MSG100HK</strong> è il modo più semplice ed economico per renderlo smart, lo <strong>Shelly 1 Gen4</strong> si rivolge agli utenti Matter e il <strong>Nice IT4WIFI</strong> a chi possiede automazioni Nice.</p>`,
-    nl: `<p>Wie in 2026 een poort of garagedeur wil automatiseren en met de smartphone bedienen, kiest het meest compleet voor een Somfy 3S io-set (Ixengo L voor een draaipoort, Elixo 500 voor een schuifpoort) met de TaHoma-app, of voor de Hörmann SupraMatic E Serie 4 bij een sectionale garagedeur. Is uw poort of garage al gemotoriseerd, dan hoeft u niets te vervangen: een module zoals de Meross MSG100HK, de Shelly 1 Gen4 of de Nice IT4WIFI maakt hem slim.</p>
-<p>Deze vergelijking is gebaseerd op specificaties van de fabrikanten, onafhankelijke reviews en geverifieerde kopersreacties. Ze onderscheidt twee families die vaak door elkaar worden gehaald: <strong>complete motorsets</strong>, die de poort of deur mechanisch aandrijven, en <strong>slimme controllers</strong>, die op een bestaande aandrijving worden aangesloten. De volledige selectie vindt u in onze rubriek <a href="/nl/outdoor-connecte/portails-garages">slimme poorten en garagedeuren</a>.</p>
+<h2>Il nostro verdetto</h2>
+<p>Per automatizzare un cancello da zero, il <strong>Somfy Ixengo L 3S io</strong> (battente) e l'<strong>Elixo 500 3S io</strong> (scorrevole) sono la coppia più completa, a patto di accettare l'ecosistema TaHoma e l'installazione professionale. Per una porta sezionale, l'<strong>Hörmann SupraMatic E Serie 4</strong> si distingue per il Bluetooth integrato. Se il motore funziona già, il <strong>Meross MSG100HK</strong> è il modo più semplice ed economico per renderlo smart, lo <strong>Shelly 1 Gen4</strong> è pensato per chi usa Matter e il <strong>Nice IT4WIFI</strong> a chi possiede automazioni Nice.</p>`,
+    nl: `<p>Wil je in 2026 je poort of garagedeur automatiseren en met je smartphone bedienen, dan is een Somfy 3S io-set de meest complete keuze (Ixengo L voor een draaipoort, Elixo 500 voor een schuifpoort) met de TaHoma-app. Voor een sectionale garagedeur is dat de Hörmann SupraMatic E Serie 4. Heeft je poort of garagedeur al een motor, dan hoef je niets te vervangen: een module zoals de Meross MSG100HK, de Shelly 1 Gen4 of de Nice IT4WIFI maakt hem slim.</p>
+<p>Deze vergelijking is gebaseerd op specificaties van de fabrikanten, onafhankelijke reviews en ervaringen van geverifieerde kopers. We onderscheiden twee soorten producten die vaak door elkaar worden gehaald: <strong>complete motorsets</strong>, die de poort of deur mechanisch aandrijven, en <strong>slimme controllers</strong>, die je op een bestaande motor aansluit. De volledige selectie vind je in onze rubriek <a href="/nl/outdoor-connecte/portails-garages">slimme poort- en garagedeuropeners</a>.</p>
 
-<h2>Waar let u op bij een slimme poort- of garagedeuraandrijving?</h2>
+<h2>Waar let je op bij een slimme poort- of garagedeuropener?</h2>
 <h3>Type: draaipoort, schuifpoort, sectionaaldeur of kanteldeur</h3>
-<p>Het eerste criterium is de mechaniek, niet de connectiviteit. Een <strong>draaipoort</strong> krijgt spindels of knikarmen (één motor per vleugel); controleer de breedte van de palen en de ruimte erachter. Een <strong>schuifpoort</strong> gebruikt één motor op de grond die een tandheugel aandrijft: u hebt een goede rail en voldoende zijruimte nodig. In de garage worden een <strong>sectionaaldeur</strong> of <strong>kanteldeur</strong> aangedreven door een plafondmotor op een rail; rolpoorten vragen meestal een aparte buismotor.</p>
+<p>Het eerste criterium is de mechaniek, niet de app. Een <strong>draaipoort</strong> krijgt spindels of knikarmen (één motor per vleugel); controleer de breedte van de palen en de ruimte erachter. Een <strong>schuifpoort</strong> werkt met één motor op de grond die een tandheugel aandrijft: daarvoor heb je een goede rail en voldoende ruimte opzij nodig. In de garage wordt een <strong>sectionaaldeur</strong> of <strong>kanteldeur</strong> aangedreven door een plafondmotor op een rail; voor een roldeur is meestal een aparte buismotor nodig.</p>
 <h3>Motorkracht en gewicht van de poort</h3>
-<p>Elke aandrijving vermeldt een maximaal gewicht en een maximale breedte per vleugel. Neem ruim marge: een dichte houten of aluminium poort vangt veel wind en belast de motor meer dan een opengewerkte poort van hetzelfde gewicht. De Somfy Ixengo L 3S io kan bijvoorbeeld tot 400 kg en 4 m per vleugel aan (met elektrisch slot), de Elixo 500 3S io tot 500 kg en 8 m bij een schuifpoort. Bij een garagedeur tellen afmeting en type deur.</p>
-<h3>Voeding: lichtnet of zonne-energieset</h3>
-<p>Is er geen stroom bij de poort, dan bespaart een zonne-energieset (paneel plus accu) u het graven van een sleuf. Somfy geeft bijvoorbeeld aan dat de Elixo 500 3S io compatibel is met zijn zonne-energieoplossingen. Houd er rekening mee dat zonne-energie het aantal cycli per dag beperkt, en afhankelijk van het model ook sommige accessoires: prima voor matig huishoudelijk gebruik, minder voor een poort die in de winter tientallen keren per dag opengaat.</p>
-<h3>Connectiviteit en smart-home-compatibiliteit</h3>
-<p>Er bestaan drie benaderingen naast elkaar. <strong>Eigen radioprotocollen</strong> (io-homecontrol bij Somfy, BiSecur bij Hörmann, Opera/BusT4 bij Nice) lopen via een hub of wifi-module van het merk. <strong>Bluetooth</strong> maakt bediening met de smartphone op korte afstand mogelijk, zonder hub. <strong>Wifi of Matter</strong> is het terrein van de universele controllers. Controleer precies welke combinatie Apple Home (HomeKit), Google Home, Amazon Alexa en Matter ondersteunt: dat hangt meestal af van de gateway, niet van de motor. Onze <a href="/nl/blog/maison-connectee-matter-thread-2026">gids over Matter en Thread</a> legt deze ecosystemen uit.</p>
-<h3>Statusterugmelding</h3>
-<p>Een goed verbonden systeem stuurt niet alleen een opdracht, maar laat ook zien of de poort echt open of dicht is. Bidirectionele protocollen (io-homecontrol, BusT4, HCP) melden dat terug; een universele wifi-controller vertrouwt op een positiesensor (magneet of contact) die goed moet worden gemonteerd.</p>
+<p>Elke motor heeft een maximaal gewicht en een maximale breedte per vleugel. Neem ruim marge: een dichte poort van hout of aluminium vangt veel wind en belast de motor meer dan een open poort van hetzelfde gewicht. De Somfy Ixengo L 3S io kan bijvoorbeeld tot 400 kg en 4 m per vleugel aan (met elektrisch slot), de Elixo 500 3S io tot 500 kg en 8 m bij een schuifpoort. Bij een garagedeur tellen vooral de afmetingen en het type deur.</p>
+<h3>Voeding: lichtnet of zonnepaneelset</h3>
+<p>Is er geen stroom bij de poort, dan hoef je met een zonnepaneelset (paneel plus accu) geen sleuf te graven. Somfy geeft bijvoorbeeld aan dat de Elixo 500 3S io werkt met zijn oplossingen op zonne-energie. Houd er wel rekening mee dat zonne-energie het aantal keren openen en sluiten per dag beperkt, en afhankelijk van het model ook sommige accessoires. Voor normaal huishoudelijk gebruik is dat prima, minder voor een poort die in de winter tientallen keren per dag opengaat.</p>
+<h3>Verbinding en smarthome-compatibiliteit</h3>
+<p>Er bestaan drie benaderingen naast elkaar. <strong>Eigen radioprotocollen</strong> (io-homecontrol bij Somfy, BiSecur bij Hörmann, Opera/BusT4 bij Nice) werken via een hub of wifimodule van het merk. Met <strong>Bluetooth</strong> bedien je de poort van dichtbij met je smartphone, zonder hub. <strong>Wifi of Matter</strong> is het terrein van de universele controllers. Controleer precies welke combinatie Apple Woning (HomeKit), Google Home, Amazon Alexa en Matter ondersteunt: dat hangt meestal af van de gateway, niet van de motor. Onze <a href="/nl/blog/maison-connectee-matter-thread-2026">gids over Matter en Thread</a> legt deze ecosystemen uit.</p>
+<h3>Statusmelding</h3>
+<p>Een goed slim systeem stuurt niet alleen een opdracht, maar laat ook zien of de poort echt open of dicht is. Protocollen die in twee richtingen werken (io-homecontrol, BusT4, HCP) melden dat terug. Een universele wifi-controller vertrouwt op een positiesensor (magneet of contact), en die moet goed gemonteerd zijn.</p>
 
-<h2>De beste slimme poort- en garagedeuraandrijvingen van 2026</h2>
-<h3>Somfy Ixengo L 3S io Comfort Pack: de referentie voor draaipoorten</h3>
-<p>De Ixengo L 3S io is een spindelaandrijving voor draaipoorten, bedoeld voor professionele installatie. Het comfortpakket bevat beide motoren, de besturingskast 3S io, afstandsbedieningen, fotocellen en een oranje signaallamp. Het protocol io-homecontrol is bidirectioneel en versleuteld, zodat de app de werkelijke status van de poort toont.</p>
-<p><strong>Sterke punten:</strong> tot 400 kg en 4 m per vleugel met elektrisch slot, obstakeldetectie met motorstop, optionele noodaccu, bediening via TaHoma switch of de Somfy Connectivity Kit en daarmee via spraakassistenten die TaHoma ondersteunt.</p>
-<p><strong>Beperkingen:</strong> voor bediening op afstand is een Somfy-hub nodig; installatie door een vakman; premiumproduct.</p>
-<p><strong>Voor wie:</strong> eigenaars van een zware of brede draaipoort die al Somfy io-rolluiken of andere io-producten gebruiken (of dat van plan zijn). Dan sluit ook onze <a href="/nl/blog/volets-roulants-connectes-guide">gids over slimme rolluiken</a> mooi aan.</p>
+<h2>De beste slimme poort- en garagedeuropeners van 2026</h2>
+<h3>Somfy Ixengo L 3S io Comfort Pack: de maatstaf voor draaipoorten</h3>
+<p>De Ixengo L 3S io is een spindelmotor voor draaipoorten, bedoeld om door een vakman te laten installeren. Het comfortpakket bevat beide motoren, de besturingskast 3S io, afstandsbedieningen, fotocellen en een oranje signaallamp. Het protocol io-homecontrol werkt in twee richtingen en is versleuteld, zodat de app de werkelijke stand van de poort toont.</p>
+<p><strong>Sterke punten:</strong> tot 400 kg en 4 m per vleugel met elektrisch slot, obstakeldetectie die de motor stopt, optionele noodaccu, bediening via TaHoma switch of de Somfy Connectivity Kit en daarmee via spraakassistenten die TaHoma ondersteunt.</p>
+<p><strong>Minpunten:</strong> voor bediening op afstand heb je een Somfy-hub nodig; installatie door een vakman; duur product uit het topsegment.</p>
+<p><strong>Voor wie:</strong> eigenaars van een zware of brede draaipoort die al rolluiken of andere producten van Somfy io gebruiken, of dat van plan zijn. Dan past ook onze <a href="/nl/blog/volets-roulants-connectes-guide">gids over slimme rolluiken</a> goed bij je plannen.</p>
 
 <h3>Somfy Elixo 500 3S io Comfort Pack: voor schuifpoorten</h3>
-<p>De Elixo 500 3S io drijft schuifpoorten tot 8 m en 500 kg aan. Hij deelt de 3S io-elektronica en het TaHoma-ecosysteem met de Ixengo, met ingebouwde voetgangersopening en vertraging aan het einde van de slag.</p>
-<p><strong>Sterke punten:</strong> grote capaciteit, snelle opening volgens Somfy (ongeveer 15 seconden voor 3 m), compatibel met de zonne-energieoplossingen van het merk, io-statusterugmelding.</p>
-<p><strong>Beperkingen:</strong> vraagt een tandheugel en rail in goede staat; op zonne-energie kunnen sommige accessoirefuncties beperkt zijn, afhankelijk van de configuratie.</p>
-<p><strong>Voor wie:</strong> grote schuifpoorten, ook zonder stroomaansluiting in de buurt.</p>
+<p>De Elixo 500 3S io drijft schuifpoorten tot 8 m en 500 kg aan. Hij heeft dezelfde 3S io-elektronica en hetzelfde TaHoma-ecosysteem als de Ixengo, met een ingebouwde voetgangersstand en een vertraging aan het einde van de beweging.</p>
+<p><strong>Sterke punten:</strong> grote capaciteit, snel open volgens Somfy (ongeveer 15 seconden voor 3 m), werkt met de oplossingen op zonne-energie van het merk, statusmelding via io.</p>
+<p><strong>Minpunten:</strong> vraagt een tandheugel en rail in goede staat; op zonne-energie kunnen sommige functies van accessoires beperkt zijn, afhankelijk van de configuratie.</p>
+<p><strong>Voor wie:</strong> grote schuifpoorten, ook als er geen stroomaansluiting in de buurt is.</p>
 
 <h3>Hörmann SupraMatic E Serie 4: de slimme garagedeur zonder hub</h3>
-<p>De SupraMatic E Serie 4 is een plafondaandrijving voor middelgrote sectionale garagedeuren tot 5,5 m breed. Zijn troef is de ingebouwde bluetooth-ontvanger, waarmee u de deur bedient met de gratis app Hörmann BlueSecur, naast BiSecur-radio en de meegeleverde handzenders.</p>
-<p><strong>Sterke punten:</strong> bediening met de smartphone zonder gateway dankzij bluetooth, geïntegreerde ledverlichting, HCP-interface voor domotica; met de Hörmann wifi-gateway volgens de fabrikant compatibel met Apple Home, Amazon Alexa en Google Home.</p>
-<p><strong>Beperkingen:</strong> bluetooth alleen werkt enkel van dichtbij; bediening op afstand en spraakassistenten vereisen het wifi-accessoire; geen native Matter aangekondigd.</p>
-<p><strong>Voor wie:</strong> wie een sectionaaldeur plaatst of vervangt, bij voorkeur van Hörmann, en een geïntegreerde oplossing wil.</p>
+<p>De SupraMatic E Serie 4 is een plafondmotor voor middelgrote sectionale garagedeuren tot 5,5 m breed. Zijn troef is de ingebouwde Bluetooth-ontvanger: daarmee bedien je de deur met de gratis app Hörmann BlueSecur, naast de BiSecur-radio en de meegeleverde handzenders.</p>
+<p><strong>Sterke punten:</strong> bediening met je smartphone zonder gateway dankzij Bluetooth, ingebouwde ledverlichting, HCP-aansluiting voor domotica; met de wifi-gateway van Hörmann volgens de fabrikant compatibel met Apple Woning, Amazon Alexa en Google Home.</p>
+<p><strong>Minpunten:</strong> met alleen Bluetooth werkt het enkel van dichtbij; voor bediening op afstand en spraakassistenten heb je het wifi-accessoire nodig; geen ingebouwde Matter-ondersteuning aangekondigd.</p>
+<p><strong>Voor wie:</strong> wie een sectionaaldeur laat plaatsen of vervangt, bij voorkeur van Hörmann, en een kant-en-klare oplossing wil.</p>
 
-<h3>Meross MSG100HK: de beste prijs-kwaliteitverhouding om een bestaande garage slim te maken</h3>
-<p>De Meross Smart Wi-Fi Garage Door Opener MSG100HK vervangt uw motor niet: hij wordt aangesloten op de drukknopingang van de meeste bestaande garagedeuraandrijvingen en voegt een magnetische open/dicht-sensor toe. De HK-versie werkt met Apple HomeKit en daarnaast met Amazon Alexa, Google Assistant en SmartThings.</p>
-<p><strong>Sterke punten:</strong> compatibel met zeer veel aandrijvingen, ook oudere; meldingen bij openen of als de deur open blijft staan; eenvoudige laagspanningsbedrading; instapproduct.</p>
-<p><strong>Beperkingen:</strong> alleen 2,4 GHz-wifi, dus een goed signaal in de garage is nodig; ontworpen voor garagedeuren eerder dan voor poorten; geen native Matter bij dit model.</p>
-<p><strong>Voor wie:</strong> huishoudens met een werkende gemotoriseerde garagedeur die die gewoon op afstand willen bedienen en bewaken.</p>
+<h3>Meross MSG100HK: de beste prijs-kwaliteitverhouding om een bestaande garagedeur slim te maken</h3>
+<p>De Meross Smart Wi-Fi Garage Door Opener MSG100HK vervangt je motor niet. Je sluit hem aan op de drukknopingang van de meeste bestaande garagedeurmotoren, en hij voegt een magnetische sensor toe die ziet of de deur open of dicht is. De HK-versie werkt met Apple HomeKit en daarnaast met Amazon Alexa, Google Assistent en SmartThings.</p>
+<p><strong>Sterke punten:</strong> werkt met heel veel motoren, ook oudere; meldingen bij openen of als de deur open blijft staan; eenvoudige bedrading op laagspanning; voordelige instap.</p>
+<p><strong>Minpunten:</strong> alleen wifi op 2,4 GHz, dus je hebt een goed signaal in de garage nodig; eerder bedoeld voor garagedeuren dan voor poorten; dit model heeft geen ingebouwde Matter-ondersteuning.</p>
+<p><strong>Voor wie:</strong> wie al een werkende garagedeur met motor heeft en die gewoon op afstand wil bedienen en in de gaten wil houden.</p>
 
 <h3>Shelly 1 Gen4: het Matter-relais voor ervaren doe-het-zelvers</h3>
-<p>De Shelly 1 Gen4 is een klein, Matter-gecertificeerd relais met potentiaalvrij contact dat communiceert via wifi, bluetooth en Zigbee. Aangesloten op de impulsingang van een poort- of garagebesturing simuleert hij een druk op de knop. Hij werkt op 12 V DC, 24–48 V DC of 110–240 V AC, afhankelijk van de installatie.</p>
-<p><strong>Sterke punten:</strong> Matter, dus bedienbaar via Apple Home, Google Home, Amazon Alexa, SmartThings of Home Assistant; lokale werking ook zonder internet; compact genoeg om vaak in de besturingskast te passen.</p>
-<p><strong>Beperkingen:</strong> zonder extra sensor op zijn ingang weet hij niet of de poort open of dicht is; technischere configuratie; werk aan netspanning hoort bij een gekwalificeerde vakman.</p>
-<p><strong>Voor wie:</strong> gevorderde smart-home-gebruikers die elke gemotoriseerde poort in een Matter-ecosysteem willen opnemen.</p>
+<p>De Shelly 1 Gen4 is een klein, Matter-gecertificeerd relais met potentiaalvrij contact dat communiceert via wifi, Bluetooth en Zigbee. Aangesloten op de impulsingang van een poort- of garagebesturing bootst hij een druk op de knop na. Afhankelijk van de installatie werkt hij op 12 V DC, 24–48 V DC of 110–240 V AC.</p>
+<p><strong>Sterke punten:</strong> Matter, dus te bedienen via Apple Woning, Google Home, Amazon Alexa, SmartThings of Home Assistant; werkt lokaal, ook zonder internet; zo compact dat hij vaak in de besturingskast past.</p>
+<p><strong>Minpunten:</strong> zonder extra sensor op zijn ingang weet hij niet of de poort open of dicht is; technischere configuratie; werk aan netspanning laat je over aan een vakman.</p>
+<p><strong>Voor wie:</strong> gevorderde smarthome-gebruikers die elke poort met motor in een Matter-ecosysteem willen opnemen.</p>
 
-<h3>Nice IT4WIFI: een bestaande Nice-aandrijving verbinden</h3>
-<p>De Nice IT4WIFI is de wifi-interface voor Nice-aandrijvingen met het BusT4-protocol (Opera). Hij wordt geleverd met de IBT4N-adapter en een kabel, en wordt ingesteld in MyNice-modus (app MyNice Welcome) of in Apple HomeKit-modus.</p>
-<p><strong>Sterke punten:</strong> statusterugmelding en diagnose dankzij directe communicatie met de printplaat, native HomeKit, officiële oplossing van het merk.</p>
-<p><strong>Beperkingen:</strong> alleen voor Nice-besturingen met een BusT4-poort; u moet kiezen tussen MyNice-modus en HomeKit-modus.</p>
-<p><strong>Voor wie:</strong> eigenaars van een recente Nice-poort- of garageaandrijving die die via de iPhone of de app van het merk willen bedienen.</p>
-<p>Goed om te weten: met de <strong>Somfy Connectivity Kit</strong> bedient u via de TaHoma-app tot 20 io- en RTS-apparaten, waaronder poorten en garagedeuren, met minder functies dan de TaHoma switch-hub.</p>
+<h3>Nice IT4WIFI: een bestaande Nice-motor slim maken</h3>
+<p>De Nice IT4WIFI is de wifi-interface voor Nice-motoren met het BusT4-protocol (Opera). Hij wordt geleverd met de IBT4N-adapter en een kabel, en je stelt hem in op de MyNice-modus (app MyNice Welcome) of op de Apple HomeKit-modus.</p>
+<p><strong>Sterke punten:</strong> statusmelding en diagnose omdat hij rechtstreeks met de printplaat communiceert, ingebouwde HomeKit-ondersteuning, officiële oplossing van het merk.</p>
+<p><strong>Minpunten:</strong> alleen voor Nice-besturingen met een BusT4-poort; je moet kiezen tussen de MyNice-modus en de HomeKit-modus.</p>
+<p><strong>Voor wie:</strong> eigenaars van een recente poort- of garagedeurmotor van Nice die die met hun iPhone of de app van het merk willen bedienen.</p>
+<p>Goed om te weten: met de <strong>Somfy Connectivity Kit</strong> bedien je via de TaHoma-app tot 20 io- en RTS-apparaten, waaronder poorten en garagedeuren, met minder functies dan de TaHoma switch-hub.</p>
 
 <h2>Vergelijkingstabel</h2>
 <table>
@@ -555,35 +555,35 @@ export const article: BlogArticle = {
 </thead>
 <tbody>
 <tr><td>Somfy Ixengo L 3S io</td><td>Complete set</td><td>Draaipoort, tot 400 kg per vleugel</td><td>io-homecontrol, via TaHoma</td><td>Zware draaipoort</td></tr>
-<tr><td>Somfy Elixo 500 3S io</td><td>Complete set</td><td>Schuifpoort, tot 500 kg / 8 m</td><td>io-homecontrol, via TaHoma</td><td>Grote schuifpoort, zonne-optie</td></tr>
-<tr><td>Hörmann SupraMatic E Serie 4</td><td>Garagedeurmotor</td><td>Sectionaaldeuren tot 5,5 m breed</td><td>Bluetooth (BlueSecur), BiSecur, HCP</td><td>Garage zonder hub</td></tr>
-<tr><td>Meross MSG100HK</td><td>Controller</td><td>Deursensor inbegrepen</td><td>Wifi 2,4 GHz, HomeKit, Alexa, Google</td><td>Al gemotoriseerde garage</td></tr>
-<tr><td>Shelly 1 Gen4</td><td>Relais</td><td>Potentiaalvrij contact, lokaal</td><td>Wifi, bluetooth, Zigbee, Matter</td><td>Gevorderde domotica</td></tr>
-<tr><td>Nice IT4WIFI</td><td>Interface</td><td>Status via BusT4</td><td>Wifi, MyNice of HomeKit</td><td>Bestaande Nice-aandrijving</td></tr>
+<tr><td>Somfy Elixo 500 3S io</td><td>Complete set</td><td>Schuifpoort, tot 500 kg / 8 m</td><td>io-homecontrol, via TaHoma</td><td>Grote schuifpoort, optie op zonne-energie</td></tr>
+<tr><td>Hörmann SupraMatic E Serie 4</td><td>Garagedeurmotor</td><td>Sectionaaldeuren tot 5,5 m breed</td><td>Bluetooth (BlueSecur), BiSecur, HCP</td><td>Garagedeur zonder hub</td></tr>
+<tr><td>Meross MSG100HK</td><td>Controller</td><td>Deursensor inbegrepen</td><td>Wifi 2,4 GHz, HomeKit, Alexa, Google</td><td>Garagedeur die al een motor heeft</td></tr>
+<tr><td>Shelly 1 Gen4</td><td>Relais</td><td>Potentiaalvrij contact, lokaal</td><td>Wifi, Bluetooth, Zigbee, Matter</td><td>Gevorderde domotica</td></tr>
+<tr><td>Nice IT4WIFI</td><td>Interface</td><td>Statusmelding via BusT4</td><td>Wifi, MyNice of HomeKit</td><td>Bestaande Nice-motor</td></tr>
 </tbody>
 </table>
 
-<h2>Veiligheid: wat u moet weten vóór de installatie</h2>
-<p>Een gemotoriseerde poort of garagedeur is een machine die letsel kan veroorzaken. Complete sets hebben meerdere beveiligingen: <strong>fotocellen</strong> die de beweging stoppen of omkeren als de straal wordt onderbroken, <strong>obstakeldetectie</strong> via bewaking van de motorkracht, een <strong>knipperlicht</strong> tijdens de beweging en een handmatige ontgrendeling bij stroomuitval.</p>
-<p>In Europa vallen gemotoriseerde deuren en poorten onder meer onder de productnorm EN 13241 en de norm EN 12453 over gebruiksveiligheid van aangedreven deuren. Zonder in regelgevingsdetails te treden: de conformiteit hangt af van de volledige installatie (krachtinstelling, plaats van de fotocellen, signalisatie), niet alleen van de motor. Daarom is installatie van een complete set door een gekwalificeerde vakman sterk aanbevolen: hij stelt de krachten af, controleert de beveiligingen en kan u de conformiteitsdocumenten van de installatie bezorgen.</p>
-<p>Voor slimme controllers geldt één eenvoudige regel: bedien een poort die u niet ziet alleen op afstand als de installatie haar oorspronkelijke beveiligingen werkend houdt (fotocellen, obstakeldetectie). Zet meldingen aan en, waar mogelijk, een getimede automatische sluiting.</p>
+<h2>Veiligheid: wat je moet weten vóór de installatie</h2>
+<p>Een poort of garagedeur met motor is een machine die letsel kan veroorzaken. Complete sets hebben daarom meerdere beveiligingen: <strong>fotocellen</strong> die de beweging stoppen of omkeren als de straal wordt onderbroken, <strong>obstakeldetectie</strong> doordat de motorkracht wordt bewaakt, een <strong>knipperlicht</strong> tijdens de beweging en een handmatige ontgrendeling bij stroomuitval.</p>
+<p>In Europa vallen deuren en poorten met motor onder meer onder de productnorm EN 13241 en onder EN 12453, de norm voor de gebruiksveiligheid van aangedreven deuren. Zonder op alle regels in te gaan: of de installatie voldoet, hangt af van het geheel (de ingestelde kracht, de plaats van de fotocellen, de waarschuwingssignalen) en niet alleen van de motor. Daarom raden we sterk aan een complete set door een vakman te laten installeren. Die stelt de krachten af, controleert de beveiligingen en kan je de conformiteitsdocumenten van de installatie geven.</p>
+<p>Voor slimme controllers geldt één eenvoudige regel: bedien een poort die je niet ziet alleen op afstand als de oorspronkelijke beveiligingen van de installatie blijven werken (fotocellen, obstakeldetectie). Zet meldingen aan en stel, waar dat kan, een automatische sluiting na een ingestelde tijd in.</p>
 
-<h2>Fouten die u beter vermijdt</h2>
+<h2>Veelgemaakte fouten</h2>
 <ul>
-<li><strong>Een te zwakke motor kiezen</strong>: een dichte poort in de wind verslijt een krappe motor en veroorzaakt valse obstakeldetecties.</li>
-<li><strong>Wifi bij de poort vergeten</strong>: een betonnen garage of een poort achteraan het perceel heeft vaak slecht bereik. Controleer het ter plaatse of voorzie een repeater.</li>
-<li><strong>Een universele controller kopen zonder de ingang van de motor te controleren</strong>: u hebt een bereikbare drukknop- of impulsingang op de printplaat nodig.</li>
-<li><strong>RTS en io bij Somfy verwarren</strong>: RTS is eenrichtingsverkeer zonder betrouwbare statusmelding, io is bidirectioneel.</li>
-<li><strong>Fotocellen uitschakelen of slecht plaatsen</strong>: ze zijn de eerste bescherming voor kinderen, huisdieren en voertuigen.</li>
-<li><strong>Accountbeveiliging vergeten</strong>: een slimme poort opent uw eigendom. Gebruik een uniek wachtwoord en tweestapsverificatie als de app die aanbiedt. Onze <a href="/nl/blog/guide-securite-maison-connectee-2026">gids over beveiliging van het slimme huis</a> bundelt de goede gewoonten.</li>
+<li><strong>Een te zwakke motor kiezen</strong>: een dichte poort in de wind laat een krappe motor snel slijten en zorgt voor onterechte obstakeldetecties.</li>
+<li><strong>Niet aan wifi bij de poort denken</strong>: in een betonnen garage of bij een poort achter in de tuin is het bereik vaak slecht. Controleer het signaal ter plekke of zorg voor een repeater.</li>
+<li><strong>Een universele controller kopen zonder de ingang van de motor te controleren</strong>: je hebt op de printplaat een bereikbare drukknop- of impulsingang nodig.</li>
+<li><strong>RTS en io bij Somfy door elkaar halen</strong>: RTS werkt in één richting en geeft geen betrouwbare statusmelding, io werkt in twee richtingen.</li>
+<li><strong>Fotocellen uitschakelen of verkeerd plaatsen</strong>: ze zijn de eerste bescherming voor kinderen, huisdieren en auto’s.</li>
+<li><strong>De beveiliging van je account vergeten</strong>: met een slimme poort open je de toegang tot je huis. Gebruik een uniek wachtwoord en tweestapsverificatie als de app dat aanbiedt. In onze <a href="/nl/blog/guide-securite-maison-connectee-2026">gids over de beveiliging van je slimme huis</a> vind je de goede gewoonten op een rij.</li>
 </ul>
 
 <h2>Installatie en dagelijks gebruik</h2>
-<p>Voor een complete set rekent u best op een professionele installatie: bevestigen van de beslagen, uitlijnen van de fotocellen, elektrische aansluiting volgens de geldende regels en instellen van de eindposities. Bij een controller zoals de Meross MSG100HK sluit u twee laagspanningsdraden aan op de klemmen van de wandknop en kleeft u de magneetsensor op; laat u bij twijfel helpen. De Shelly 1 Gen4 kan een aansluiting op netspanning vereisen: laat dat over aan een erkende elektricien.</p>
-<p>In het dagelijks gebruik zijn de handigste automatiseringen: de garage openen als u thuiskomt (geolocatie), automatisch sluiten bij het vallen van de avond, de buitenverlichting aanzetten als de poort opengaat en een melding als een deur open blijft staan. Houd altijd een fysieke afstandsbediening bij de hand: een internetstoring mag u nooit buitensluiten.</p>
+<p>Voor een complete set kies je het best voor installatie door een vakman: de beslagen bevestigen, de fotocellen uitlijnen, de elektrische aansluiting volgens de geldende regels maken en de eindposities instellen. Bij een controller zoals de Meross MSG100HK sluit je twee laagspanningsdraden aan op de klemmen van de wandknop en plak je de magneetsensor op de deur; vraag bij twijfel hulp. De Shelly 1 Gen4 moet soms op netspanning worden aangesloten: laat dat over aan een erkende elektricien.</p>
+<p>In het dagelijks gebruik zijn dit de handigste automatiseringen: de garagedeur opent als je thuiskomt (via je locatie), de poort sluit automatisch als het donker wordt, de buitenverlichting gaat aan als de poort opengaat, en je krijgt een melding als een deur open blijft staan. Houd altijd een gewone afstandsbediening bij de hand: een internetstoring mag je nooit buitensluiten.</p>
 
-<h2>Conclusie</h2>
-<p>Om een poort van nul uit te rusten vormen de <strong>Somfy Ixengo L 3S io</strong> (draaipoort) en de <strong>Elixo 500 3S io</strong> (schuifpoort) het meest uitgewerkte duo, op voorwaarde dat u het TaHoma-ecosysteem en een professionele plaatsing aanvaardt. Voor een sectionaaldeur valt de <strong>Hörmann SupraMatic E Serie 4</strong> op door zijn ingebouwde bluetooth. Werkt uw aandrijving al, dan is de <strong>Meross MSG100HK</strong> de eenvoudigste en voordeligste manier om hem slim te maken, richt de <strong>Shelly 1 Gen4</strong> zich op Matter-gebruikers en de <strong>Nice IT4WIFI</strong> op eigenaars van Nice-aandrijvingen.</p>`,
+<h2>Ons oordeel</h2>
+<p>Begin je bij nul, dan zijn de <strong>Somfy Ixengo L 3S io</strong> (draaipoort) en de <strong>Elixo 500 3S io</strong> (schuifpoort) het meest doordachte duo, als je kiest voor het TaHoma-ecosysteem en een installatie door een vakman. Voor een sectionaaldeur valt de <strong>Hörmann SupraMatic E Serie 4</strong> op door zijn ingebouwde Bluetooth. Werkt je motor al, dan is de <strong>Meross MSG100HK</strong> de eenvoudigste en voordeligste manier om hem slim te maken. De <strong>Shelly 1 Gen4</strong> is bedoeld voor Matter-gebruikers en de <strong>Nice IT4WIFI</strong> voor wie al een motor van Nice heeft.</p>`,
     pl: `<p>Jeśli w 2026 roku chcesz zamontować napęd do bramy wjazdowej lub garażowej i sterować nią ze smartfona, najbardziej kompletnym rozwiązaniem jest zestaw Somfy 3S io (Ixengo L do bramy skrzydłowej, Elixo 500 do przesuwnej) z aplikacją TaHoma, a w przypadku segmentowej bramy garażowej – Hörmann SupraMatic E Series 4. Jeśli Twoja brama wjazdowa lub garażowa ma już napęd, nie musisz wymieniać wszystkiego: wystarczy moduł taki jak Meross MSG100HK, Shelly 1 Gen4 czy Nice IT4WIFI, by sterować nią z telefonu.</p>
 <p>To porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Rozróżniamy w nim dwie często mylone kategorie: <strong>kompletne zestawy napędowe</strong>, które zastępują dotychczasowy mechanizm albo dopiero wyposażają bramę w napęd, oraz <strong>inteligentne sterowniki</strong>, które podłącza się do istniejącego napędu. Wszystkie polecane modele znajdziesz w kategorii <a href="/pl/outdoor-connecte/portails-garages">inteligentne napędy bram i drzwi garażowych</a>.</p>
 
@@ -945,11 +945,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: "Peut-on rendre connecté un portail ou une porte de garage déjà motorisé ?",
-        en: "Can I make an already motorised gate or garage door smart?",
-        de: "Kann man ein bereits motorisiertes Tor nachträglich smart machen?",
-        es: "¿Se puede hacer inteligente una puerta o un garaje ya motorizados?",
-        it: "Si può rendere smart un cancello o un garage già motorizzato?",
-        nl: "Kan ik een al gemotoriseerde poort of garagedeur slim maken?",
+        en: "Can I make my existing electric gate or garage door smart?",
+        de: "Lässt sich ein vorhandener Tor- oder Garagentorantrieb nachträglich smart machen?",
+        es: "¿Se puede controlar desde el móvil una puerta de parcela o de garaje que ya está motorizada?",
+        it: "Si può rendere smart un cancello o una porta da garage già motorizzati?",
+        nl: "Kan ik een poort of garagedeur met motor slim maken?",
         pl: "Czy bramą wjazdową lub garażową, która ma już napęd, można sterować ze smartfona?",
         sv: "Går det att göra en redan motoriserad grind eller garageport smart?",
         us: "Can I make my existing gate or garage door opener smart?",
@@ -957,11 +957,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Oui, dans la plupart des cas. Un contrôleur comme le Meross MSG100HK ou un relais Shelly 1 Gen4 se raccorde à l'entrée bouton-poussoir ou impulsion de l'armoire de commande. Les marques proposent aussi leurs propres modules : Nice IT4WIFI pour les automatismes BusT4, kit de connectivité ou TaHoma switch chez Somfy, passerelle Wi-Fi HCP chez Hörmann.",
-        en: "Yes, in most cases. A controller such as the Meross MSG100HK or a Shelly 1 Gen4 relay connects to the push-button or impulse input of the control board. Brands also offer their own modules: Nice IT4WIFI for BusT4 operators, the Connectivity Kit or TaHoma switch at Somfy, and the HCP Wi-Fi gateway at Hörmann.",
+        en: "Yes, in most cases. A controller such as the Meross MSG100HK or a Shelly 1 Gen4 relay connects to the push-button or impulse input on the control board. Manufacturers also make their own modules: the Nice IT4WIFI for BusT4 openers, Somfy’s Connectivity Kit or TaHoma switch, and Hörmann’s HCP Wi-Fi gateway.",
         de: "Ja, in den meisten Fällen. Ein Modul wie der Meross MSG100HK oder ein Shelly-1-Gen4-Relais wird an den Taster- oder Impulseingang der Steuerung angeschlossen. Die Hersteller bieten auch eigene Module: Nice IT4WIFI für BusT4-Antriebe, Connectivity Kit oder TaHoma switch bei Somfy, das HCP-WLAN-Gateway bei Hörmann.",
-        es: "Sí, en la mayoría de los casos. Un controlador como el Meross MSG100HK o un relé Shelly 1 Gen4 se conecta a la entrada de pulsador o impulso del cuadro de maniobras. Las marcas también ofrecen sus módulos: Nice IT4WIFI para automatismos BusT4, Connectivity Kit o TaHoma switch en Somfy y la pasarela Wi-Fi HCP en Hörmann.",
-        it: "Sì, nella maggior parte dei casi. Un controller come il Meross MSG100HK o un relè Shelly 1 Gen4 si collega all'ingresso pulsante o impulso della centrale. Anche i marchi propongono moduli propri: Nice IT4WIFI per le automazioni BusT4, Connectivity Kit o TaHoma switch per Somfy, gateway Wi-Fi HCP per Hörmann.",
-        nl: "Ja, in de meeste gevallen. Een controller zoals de Meross MSG100HK of een Shelly 1 Gen4-relais wordt aangesloten op de drukknop- of impulsingang van de besturing. Merken hebben ook eigen modules: Nice IT4WIFI voor BusT4-aandrijvingen, de Connectivity Kit of TaHoma switch bij Somfy en de HCP-wifi-gateway bij Hörmann.",
+        es: "Sí, en la mayoría de los casos. Un controlador como el Meross MSG100HK o un relé Shelly 1 Gen4 se conecta a la entrada de pulsador o impulso del cuadro de maniobras. Las marcas también ofrecen sus propios módulos: Nice IT4WIFI para los automatismos BusT4, el kit de conectividad (Connectivity Kit) o la TaHoma switch en Somfy y la pasarela wifi HCP en Hörmann.",
+        it: "Sì, nella maggior parte dei casi. Un controller come il Meross MSG100HK o un relè Shelly 1 Gen4 si collega all'ingresso pulsante o passo-passo (a impulso) della centrale di comando. Anche i produttori offrono moduli propri: Nice IT4WIFI per le automazioni BusT4, Connectivity Kit o TaHoma switch per Somfy, gateway Wi-Fi HCP per Hörmann.",
+        nl: "Ja, in de meeste gevallen. Een controller zoals de Meross MSG100HK of een Shelly 1 Gen4-relais sluit je aan op de drukknop- of impulsingang van de besturing. De merken hebben ook hun eigen modules: de Nice IT4WIFI voor BusT4-motoren, de Connectivity Kit of TaHoma switch bij Somfy en de HCP-wifigateway bij Hörmann.",
         pl: "Tak, w większości przypadków. Sterownik taki jak Meross MSG100HK albo przekaźnik Shelly 1 Gen4 podłącza się do wejścia przyciskowego lub impulsowego w centrali sterującej napędu. Producenci oferują też własne moduły: Nice IT4WIFI do automatyki zgodnej z BusT4, Connectivity Kit lub centralkę TaHoma switch w przypadku Somfy oraz bramkę Wi-Fi HCP w przypadku Hörmann.",
         sv: "Ja, i de flesta fall. En styrenhet som Meross MSG100HK eller ett relä som Shelly 1 Gen4 kopplas till tryckknapps- eller impulsingången på öppnarens styrkort. Märkena har också egna moduler: Nice IT4WIFI för öppnare med BusT4, Connectivity Kit eller TaHoma switch hos Somfy och Hörmanns wifi-gateway för HCP.",
         us: "Yes, in most cases. A controller such as the Meross MSG100HK or a Shelly 1 Gen4 relay connects to the push-button (or impulse) input on the opener's control board. Brands also sell their own modules: the Nice IT4WIFI for BusT4 openers, Somfy's Connectivity Kit or TaHoma switch, and Hörmann's HCP Wi-Fi gateway.",
@@ -971,11 +971,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: "Quelle motorisation est compatible Matter ?",
-        en: "Which gate or garage opener works with Matter?",
+        en: "Which gate or garage door openers work with Matter?",
         de: "Welcher Antrieb ist mit Matter kompatibel?",
-        es: "¿Qué motorización es compatible con Matter?",
+        es: "¿Qué motores de puerta son compatibles con Matter?",
         it: "Quale automazione è compatibile con Matter?",
-        nl: "Welke aandrijving werkt met Matter?",
+        nl: "Welke poortopener werkt met Matter?",
         pl: "Który napęd do bramy obsługuje Matter?",
         sv: "Vilken grind- eller garageportöppnare fungerar med Matter?",
         us: "Which gate or garage door opener works with Matter?",
@@ -983,11 +983,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Parmi les produits de ce comparatif, le Shelly 1 Gen4 est certifié Matter : il permet d'intégrer n'importe quel automatisme doté d'une entrée impulsion dans Apple Home, Google Home, Alexa ou SmartThings. Les kits Somfy, Hörmann et Nice passent par leurs propres passerelles et applications.",
-        en: "Among the products in this comparison, the Shelly 1 Gen4 is Matter-certified: it brings any operator with an impulse input into Apple Home, Google Home, Alexa or SmartThings. The Somfy, Hörmann and Nice systems go through their own gateways and apps.",
+        en: "In this comparison, the Shelly 1 Gen4 is Matter-certified: it can bring any opener with an impulse input into Apple Home, Google Home, Alexa or SmartThings. The Somfy, Hörmann and Nice kits rely on their own gateways and apps.",
         de: "Unter den Produkten dieses Vergleichs ist der Shelly 1 Gen4 Matter-zertifiziert: Er bindet jeden Antrieb mit Impulseingang in Apple Home, Google Home, Alexa oder SmartThings ein. Die Systeme von Somfy, Hörmann und Nice laufen über eigene Gateways und Apps.",
-        es: "Entre los productos de esta comparativa, el Shelly 1 Gen4 tiene certificación Matter: integra cualquier automatismo con entrada de impulso en Apple Home, Google Home, Alexa o SmartThings. Los sistemas de Somfy, Hörmann y Nice funcionan con sus propias pasarelas y apps.",
-        it: "Tra i prodotti di questo confronto, lo Shelly 1 Gen4 è certificato Matter: integra qualsiasi automazione con ingresso impulso in Apple Home, Google Home, Alexa o SmartThings. I sistemi Somfy, Hörmann e Nice passano dai propri gateway e app.",
-        nl: "Van de producten in deze vergelijking is de Shelly 1 Gen4 Matter-gecertificeerd: hij brengt elke aandrijving met een impulsingang naar Apple Home, Google Home, Alexa of SmartThings. De systemen van Somfy, Hörmann en Nice werken via hun eigen gateways en apps.",
+        es: "Entre los productos de esta comparativa, el Shelly 1 Gen4 tiene certificación Matter: permite integrar cualquier automatismo con entrada de impulso en Apple Home, Google Home, Alexa o SmartThings. Los kits de Somfy, Hörmann y Nice funcionan con sus propias pasarelas y apps.",
+        it: "Tra i prodotti di questo confronto, lo Shelly 1 Gen4 è certificato Matter: permette di integrare qualsiasi automazione con ingresso a impulso nell'app Casa di Apple, in Google Home, Alexa o SmartThings. I kit Somfy, Hörmann e Nice si appoggiano invece ai propri gateway e alle proprie app.",
+        nl: "Van de producten in deze vergelijking is de Shelly 1 Gen4 Matter-gecertificeerd: daarmee neem je elke motor met een impulsingang op in Apple Woning, Google Home, Alexa of SmartThings. De systemen van Somfy, Hörmann en Nice werken via hun eigen gateways en apps.",
         pl: "Spośród urządzeń z tego porównania certyfikat Matter ma Shelly 1 Gen4: pozwala dodać do Apple Home, Google Home, Alexy lub SmartThings dowolny napęd z wejściem impulsowym. Zestawy Somfy, Hörmann i Nice działają przez własne bramki i aplikacje.",
         sv: "Bland produkterna i jämförelsen är Shelly 1 Gen4 Matter-certifierad: den gör att du kan styra vilken öppnare som helst med impulsingång från Apple Home, Google Home, Alexa eller SmartThings. Systemen från Somfy, Hörmann och Nice går via sina egna gatewayer och appar.",
         us: "Of the products in this comparison, the Shelly 1 Gen4 is the one that's Matter-certified: it brings any opener with an impulse input into Apple Home, Google Home, Alexa or SmartThings. The Somfy, Hörmann and Nice systems run through their own gateways and apps.",
@@ -997,11 +997,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: "Faut-il un professionnel pour installer une motorisation de portail ?",
-        en: "Do I need a professional to install a gate operator?",
+        en: "Do I need a professional to fit a gate motor?",
         de: "Braucht man für die Montage eines Torantriebs einen Fachbetrieb?",
-        es: "¿Hace falta un profesional para instalar una motorización de puerta?",
+        es: "¿Hace falta un profesional para instalar el motor de una puerta de parcela?",
         it: "Serve un professionista per installare l'automazione di un cancello?",
-        nl: "Heb ik een vakman nodig om een poortaandrijving te installeren?",
+        nl: "Heb ik een vakman nodig om een poortopener te installeren?",
         pl: "Czy do montażu napędu bramy potrzebny jest fachowiec?",
         sv: "Behöver jag en fackman för att installera en grindöppnare?",
         us: "Do I need a professional to install a gate opener?",
@@ -1009,11 +1009,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Pour un kit complet, c'est fortement recommandé : réglage des forces, positionnement des photocellules et raccordement électrique conditionnent la sécurité de l'installation. Un contrôleur basse tension comme le Meross MSG100HK s'installe en revanche facilement soi-même ; tout raccordement au secteur doit être confié à un électricien qualifié.",
-        en: "For a complete kit it is strongly recommended: force settings, photocell placement and electrical connection determine how safe the installation is. A low-voltage controller such as the Meross MSG100HK, on the other hand, is easy to fit yourself; any mains connection should be left to a qualified electrician.",
-        de: "Bei einem Komplettset wird das dringend empfohlen: Krafteinstellung, Lichtschrankenposition und Elektroanschluss bestimmen die Sicherheit der Anlage. Ein Kleinspannungsmodul wie der Meross MSG100HK lässt sich dagegen leicht selbst montieren; Arbeiten an Netzspannung gehören zu einer Elektrofachkraft.",
-        es: "Para un kit completo es muy recomendable: el ajuste de fuerzas, la colocación de las fotocélulas y la conexión eléctrica determinan la seguridad de la instalación. Un controlador de baja tensión como el Meross MSG100HK, en cambio, se instala fácilmente; cualquier conexión a la red debe hacerla un electricista cualificado.",
-        it: "Per un kit completo è fortemente consigliato: regolazione delle forze, posizione delle fotocellule e collegamento elettrico determinano la sicurezza dell'impianto. Un controller in bassa tensione come il Meross MSG100HK si installa invece facilmente da sé; ogni collegamento alla rete va affidato a un elettricista qualificato.",
-        nl: "Voor een complete set is dat sterk aanbevolen: krachtinstelling, plaats van de fotocellen en elektrische aansluiting bepalen hoe veilig de installatie is. Een laagspanningscontroller zoals de Meross MSG100HK plaatst u daarentegen makkelijk zelf; elke aansluiting op netspanning laat u over aan een erkende elektricien.",
+        en: "For a complete kit, it’s strongly recommended: the force settings, photocell positions and electrical connections all determine how safe the installation is. A low-voltage controller such as the Meross MSG100HK, on the other hand, is easy to fit yourself; any mains wiring should be left to a qualified electrician.",
+        de: "Bei einem Komplettset ist das dringend zu empfehlen: Von der Krafteinstellung, der Position der Lichtschranken und dem Elektroanschluss hängt die Sicherheit der Anlage ab. Ein Kleinspannungsmodul wie den Meross MSG100HK können Sie dagegen leicht selbst montieren; Arbeiten an der Netzspannung gehören in die Hände einer Elektrofachkraft.",
+        es: "Para un kit completo es muy recomendable: el ajuste de fuerzas, la colocación de las fotocélulas y la conexión eléctrica determinan la seguridad de la instalación. En cambio, un controlador de baja tensión como el Meross MSG100HK lo puedes instalar tú mismo sin problema; cualquier conexión a la red eléctrica debe hacerla un electricista cualificado.",
+        it: "Per un kit completo è vivamente consigliato: regolazione della forza, posizione delle fotocellule e collegamento elettrico determinano la sicurezza dell'impianto. Un controller in bassa tensione come il Meross MSG100HK, invece, si installa facilmente da soli; ogni collegamento alla rete elettrica va affidato a un elettricista qualificato.",
+        nl: "Voor een complete set is dat sterk aan te raden: de ingestelde kracht, de plaats van de fotocellen en de elektrische aansluiting bepalen hoe veilig de installatie is. Een controller op laagspanning zoals de Meross MSG100HK installeer je daarentegen makkelijk zelf. Elke aansluiting op netspanning laat je over aan een erkende elektricien.",
         pl: "Przy kompletnym zestawie – zdecydowanie tak: od ustawienia siły napędu, rozmieszczenia fotokomórek i podłączenia elektrycznego zależy bezpieczeństwo całej instalacji. Niskonapięciowy sterownik, taki jak Meross MSG100HK, łatwo za to zamontujesz samodzielnie; każde podłączenie do sieci elektrycznej zostaw jednak wykwalifikowanemu elektrykowi.",
         sv: "För ett komplett kit är det starkt rekommenderat: inställningen av krafterna, fotocellernas placering och elanslutningen avgör hur säker installationen blir. En styrenhet för lågspänning som Meross MSG100HK är däremot lätt att montera själv; all inkoppling på 230 V bör göras av en behörig elektriker.",
         us: "For a complete kit, it's strongly recommended: the force settings, photocell placement and electrical hookup all determine how safe the installation is. A low-voltage controller such as the Meross MSG100HK, on the other hand, is easy to install yourself. Leave any connection to your home's line-voltage wiring to a licensed electrician.",
@@ -1023,11 +1023,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: "Un kit solaire suffit-il pour motoriser un portail ?",
-        en: "Is a solar kit enough to power a gate operator?",
+        en: "Is a solar kit enough to power an electric gate?",
         de: "Reicht ein Solarset für einen Torantrieb aus?",
-        es: "¿Basta un kit solar para motorizar una puerta?",
+        es: "¿Basta con un kit solar para motorizar una puerta de parcela?",
         it: "Un kit solare basta per alimentare un cancello automatico?",
-        nl: "Volstaat een zonne-energieset voor een poortaandrijving?",
+        nl: "Is een zonnepaneelset genoeg voor een poortopener?",
         pl: "Czy zestaw solarny wystarczy do zasilania napędu bramy?",
         sv: "Räcker ett solcellskit för att driva en grindöppnare?",
         us: "Is a solar kit enough to power a gate opener?",
@@ -1035,11 +1035,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Pour un usage résidentiel modéré, oui, à condition que la motorisation soit prévue pour (Somfy l'indique par exemple pour l'Elixo 500 3S io) et que le panneau soit bien exposé. Le nombre de cycles par jour est limité, surtout en hiver, et certains accessoires peuvent être restreints.",
-        en: "For moderate home use, yes, provided the operator is designed for it (Somfy states this for the Elixo 500 3S io, for example) and the panel gets good sun. The number of daily cycles is limited, especially in winter, and some accessories may be restricted.",
-        de: "Für moderate private Nutzung ja, sofern der Antrieb dafür vorgesehen ist (Somfy nennt das etwa für den Elixo 500 3S io) und das Modul gut besonnt ist. Die Zahl der täglichen Zyklen ist begrenzt, besonders im Winter, und manches Zubehör kann eingeschränkt sein.",
-        es: "Para un uso doméstico moderado, sí, siempre que la motorización esté prevista para ello (Somfy lo indica, por ejemplo, para el Elixo 500 3S io) y el panel reciba buen sol. El número de ciclos diarios es limitado, sobre todo en invierno, y algunos accesorios pueden verse restringidos.",
-        it: "Per un uso domestico moderato sì, purché l'automazione sia prevista per questo (Somfy lo indica ad esempio per l'Elixo 500 3S io) e il pannello sia ben esposto. Il numero di cicli giornalieri è limitato, soprattutto in inverno, e alcuni accessori possono essere ridotti.",
-        nl: "Voor matig huishoudelijk gebruik wel, op voorwaarde dat de aandrijving ervoor bedoeld is (Somfy vermeldt dat bijvoorbeeld voor de Elixo 500 3S io) en het paneel goed in de zon staat. Het aantal cycli per dag is beperkt, vooral in de winter, en sommige accessoires kunnen beperkt zijn.",
+        en: "For moderate home use, yes, provided the motor is designed for it (Somfy states this for the Elixo 500 3S io, for example) and the panel gets plenty of sun. The number of cycles a day is limited, especially in winter, and some accessories may not be fully supported.",
+        de: "Bei mäßiger Nutzung am Wohnhaus ja, sofern der Antrieb dafür vorgesehen ist (Somfy gibt das etwa für den Elixo 500 3S io an) und das Solarmodul viel Sonne bekommt. Die Zahl der Torfahrten pro Tag ist begrenzt, vor allem im Winter, und manches Zubehör lässt sich womöglich nur eingeschränkt nutzen.",
+        es: "Para un uso doméstico moderado, sí, siempre que el motor esté preparado para ello (Somfy lo indica, por ejemplo, para el Elixo 500 3S io) y el panel reciba buen sol. El número de ciclos diarios es limitado, sobre todo en invierno, y algunos accesorios pueden quedar restringidos.",
+        it: "Per un uso domestico moderato sì, purché l'automazione sia predisposta (Somfy lo indica ad esempio per l'Elixo 500 3S io) e il pannello sia ben esposto. Il numero di cicli giornalieri è limitato, soprattutto in inverno, e alcuni accessori potrebbero non essere supportati.",
+        nl: "Ja, voor normaal huishoudelijk gebruik, als de motor daarvoor geschikt is (Somfy vermeldt dat bijvoorbeeld voor de Elixo 500 3S io) en het paneel goed in de zon staat. Het aantal keren openen en sluiten per dag is wel beperkt, vooral in de winter, en sommige accessoires werken mogelijk niet volledig.",
         pl: "Przy umiarkowanym użytkowaniu w domu – tak, o ile napęd jest przystosowany do zasilania solarnego (Somfy podaje to np. dla modelu Elixo 500 3S io), a panel stoi w dobrze nasłonecznionym miejscu. Dzienna liczba cykli jest jednak ograniczona, zwłaszcza zimą, a niektóre akcesoria mogą być niedostępne.",
         sv: "För måttlig användning i ett hem, ja, förutsatt att öppnaren är gjord för det (Somfy anger det till exempel för Elixo 500 3S io) och att panelen får gott om sol. Antalet öppningar per dag är begränsat, särskilt på vintern, och vissa tillbehör kan vara begränsade.",
         us: "For moderate home use, yes, as long as the opener is designed for it (Somfy says so for the Elixo 500 3S io, for example) and the panel gets plenty of sun. You get a limited number of cycles per day, especially in winter, and some accessories may be restricted.",
@@ -1052,7 +1052,7 @@ export const article: BlogArticle = {
         en: "What happens during an internet outage or power cut?",
         de: "Was passiert bei Internet- oder Stromausfall?",
         es: "¿Qué ocurre si se corta internet o la luz?",
-        it: "Cosa succede in caso di blackout o di interruzione di internet?",
+        it: "Cosa succede se manca la corrente o la connessione internet?",
         nl: "Wat gebeurt er bij een internet- of stroomstoring?",
         pl: "Co się dzieje, gdy zabraknie internetu lub prądu?",
         sv: "Vad händer vid ett internetavbrott eller strömavbrott?",
@@ -1061,11 +1061,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Sans internet, les télécommandes radio et, selon les produits, le Bluetooth (Hörmann BlueSecur) ou le pilotage local (Shelly) continuent de fonctionner ; seul l'accès à distance est perdu. En cas de coupure de courant, une batterie de secours optionnelle permet quelques manœuvres, et le débrayage manuel permet toujours d'ouvrir à la main.",
-        en: "Without internet, radio remotes and, depending on the product, Bluetooth (Hörmann BlueSecur) or local control (Shelly) keep working; only remote access is lost. During a power cut, an optional backup battery allows a few cycles, and the manual release always lets you open by hand.",
-        de: "Ohne Internet funktionieren Funkhandsender und je nach Produkt Bluetooth (Hörmann BlueSecur) oder lokale Steuerung (Shelly) weiter; nur der Fernzugriff fällt weg. Bei Stromausfall ermöglicht ein optionaler Notstromakku einige Fahrten, und die Notentriegelung erlaubt immer das Öffnen von Hand.",
-        es: "Sin internet siguen funcionando los mandos de radio y, según el producto, el Bluetooth (Hörmann BlueSecur) o el control local (Shelly); solo se pierde el acceso remoto. Si se va la luz, una batería de emergencia opcional permite algunas maniobras y el desbloqueo manual siempre permite abrir a mano.",
-        it: "Senza internet continuano a funzionare i telecomandi radio e, a seconda del prodotto, il Bluetooth (Hörmann BlueSecur) o il comando locale (Shelly); si perde solo l'accesso remoto. In caso di blackout, una batteria tampone opzionale consente alcune manovre e lo sblocco manuale permette sempre di aprire a mano.",
-        nl: "Zonder internet blijven radio-afstandsbedieningen en, afhankelijk van het product, bluetooth (Hörmann BlueSecur) of lokale bediening (Shelly) werken; alleen toegang op afstand valt weg. Bij stroomuitval maakt een optionele noodaccu enkele bewegingen mogelijk, en met de handmatige ontgrendeling opent u altijd met de hand.",
+        en: "If the internet goes down, radio remotes keep working, as does Bluetooth (Hörmann BlueSecur) or local control (Shelly) on the products that have it; you only lose remote access. In a power cut, an optional backup battery gives you a few openings and closings, and the manual release always lets you open by hand.",
+        de: "Ohne Internet funktionieren die Funkhandsender und je nach Produkt Bluetooth (Hörmann BlueSecur) oder die lokale Steuerung (Shelly) weiter; nur der Fernzugriff fällt weg. Bei Stromausfall schafft ein optionaler Notstromakku noch einige Torfahrten, und über die Notentriegelung lässt sich das Tor jederzeit von Hand öffnen.",
+        es: "Sin internet siguen funcionando los mandos de radio y, según el producto, el Bluetooth (Hörmann BlueSecur) o el control local (Shelly); solo se pierde el acceso remoto. Si se va la luz, una batería de emergencia opcional permite algunas maniobras y con el desbloqueo manual siempre se puede abrir a mano.",
+        it: "Senza internet continuano a funzionare i telecomandi radio e, a seconda del prodotto, il Bluetooth (Hörmann BlueSecur) o il comando locale (Shelly); si perde solo il controllo a distanza. In caso di blackout, una batteria tampone opzionale consente alcune manovre e lo sblocco manuale permette sempre di aprire a mano.",
+        nl: "Zonder internet blijven de afstandsbedieningen werken en, afhankelijk van het product, ook Bluetooth (Hörmann BlueSecur) of de lokale bediening (Shelly); alleen de toegang op afstand valt weg. Bij stroomuitval kun je met een optionele noodaccu nog een paar keer openen en sluiten, en met de handmatige ontgrendeling kun je altijd met de hand openen.",
         pl: "Bez internetu nadal działają piloty radiowe, a zależnie od urządzenia także Bluetooth (Hörmann BlueSecur) lub sterowanie lokalne (Shelly) – tracisz tylko dostęp zdalny. Przy braku prądu opcjonalny akumulator awaryjny wystarcza na kilka otwarć i zamknięć, a dzięki ręcznemu odblokowaniu bramę zawsze otworzysz ręcznie.",
         sv: "Utan internet fortsätter radiofjärrkontrollerna att fungera, liksom Bluetooth (Hörmann BlueSecur) eller lokal styrning (Shelly) beroende på produkt; det enda du förlorar är fjärråtkomsten. Vid strömavbrott klarar ett reservbatteri (tillval) några manövrer, och med den manuella frikopplingen kan du alltid öppna för hand.",
         us: "Without internet, the radio remotes keep working and, depending on the product, so do Bluetooth (Hörmann BlueSecur) and local control (Shelly); you only lose remote access. In a power outage, an optional backup battery gives you a few cycles, and the manual release always lets you open the gate or door by hand.",
@@ -1087,11 +1087,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: "Il est conçu et vendu pour les portes de garage, avec un capteur magnétique prévu pour ce type de porte. Pour un portail motorisé, un relais à contact sec comme le Shelly 1 Gen4 ou le module officiel de la marque (Nice IT4WIFI, Somfy TaHoma) est généralement plus adapté.",
-        en: "It is designed and sold for garage doors, with a magnetic sensor meant for that kind of door. For a motorised driveway gate, a dry-contact relay such as the Shelly 1 Gen4 or the brand's official module (Nice IT4WIFI, Somfy TaHoma) is usually a better fit.",
-        de: "Er ist für Garagentore entwickelt und wird dafür verkauft, mit einem passenden Magnetsensor. Für ein motorisiertes Hoftor eignet sich meist ein Relais mit potenzialfreiem Kontakt wie der Shelly 1 Gen4 oder das offizielle Modul des Herstellers (Nice IT4WIFI, Somfy TaHoma) besser.",
+        en: "It’s designed and sold for garage doors, and its magnetic sensor is made for that type of door. For an electric gate, a dry-contact relay such as the Shelly 1 Gen4 or the manufacturer’s official module (Nice IT4WIFI, Somfy TaHoma) is usually a better choice.",
+        de: "Er ist für Garagentore entwickelt und wird dafür verkauft; sein Magnetsensor ist auf diese Torart ausgelegt. Für ein Hoftor mit Antrieb eignet sich meist ein Relais mit potenzialfreiem Kontakt wie der Shelly 1 Gen4 oder das offizielle Modul des Herstellers (Nice IT4WIFI, Somfy TaHoma) besser.",
         es: "Está diseñado y se vende para puertas de garaje, con un sensor magnético pensado para ese tipo de puerta. Para una puerta de parcela motorizada suele encajar mejor un relé de contacto seco como el Shelly 1 Gen4 o el módulo oficial de la marca (Nice IT4WIFI, Somfy TaHoma).",
         it: "È progettato e venduto per le porte da garage, con un sensore magnetico pensato per quel tipo di porta. Per un cancello motorizzato è di solito più adatto un relè a contatto pulito come lo Shelly 1 Gen4 o il modulo ufficiale del marchio (Nice IT4WIFI, Somfy TaHoma).",
-        nl: "Hij is ontworpen en wordt verkocht voor garagedeuren, met een magneetsensor voor dat soort deur. Voor een gemotoriseerde poort past een relais met potentiaalvrij contact zoals de Shelly 1 Gen4 of de officiële module van het merk (Nice IT4WIFI, Somfy TaHoma) meestal beter.",
+        nl: "Hij is ontworpen en wordt verkocht voor garagedeuren, met een magneetsensor voor dat soort deur. Voor een poort met motor is een relais met potentiaalvrij contact zoals de Shelly 1 Gen4, of de officiële module van het merk (Nice IT4WIFI, Somfy TaHoma), meestal geschikter.",
         pl: "Meross MSG100HK powstał z myślą o bramach garażowych i do nich jest sprzedawany – razem z czujnikiem magnetycznym dopasowanym do tego typu bram. Do bramy wjazdowej z napędem zwykle lepiej pasuje przekaźnik ze stykiem bezpotencjałowym, taki jak Shelly 1 Gen4, albo oficjalny moduł danej marki (Nice IT4WIFI, Somfy TaHoma).",
         sv: "Den är konstruerad och säljs för garageportar, med en magnetisk givare som är anpassad för den typen av port. För en motoriserad grind är ett relä med potentialfri kontakt som Shelly 1 Gen4 eller märkets officiella modul (Nice IT4WIFI, Somfy TaHoma) oftast ett bättre val.",
         us: "It's designed and sold for garage doors, with a magnetic sensor made for that type of door. For a motorized driveway gate, a dry-contact relay such as the Shelly 1 Gen4 or the brand's official module (Nice IT4WIFI, Somfy TaHoma) is usually a better fit.",

@@ -109,11 +109,11 @@ export const BLACK_FRIDAY_CATEGORIES: readonly BlackFridayCategory[] = [
         model: 'tado Smart Radiator Thermostat X Starter Kit',
         role: {
           fr: 'Idéal pour radiateurs à eau, pièce par pièce',
-          en: 'Best for radiators, room by room',
+          en: 'Best for room-by-room radiator control',
           de: 'Ideal für Heizkörper, Raum für Raum',
           es: 'Ideal para radiadores de agua, habitación por habitación',
           it: 'Ideale per termosifoni, stanza per stanza',
-          nl: 'Ideaal voor radiatoren, per kamer',
+          nl: 'Ideaal voor cv-radiatoren, kamer per kamer',
           pl: 'Do grzejników wodnych – osobno w każdym pomieszczeniu',
           sv: 'Bäst för vattenburna element, rum för rum',
           us: 'Best for hot-water radiators, room by room',

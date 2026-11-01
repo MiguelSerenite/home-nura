@@ -17,10 +17,10 @@ export interface QuickAnswerPick {
 
 const LABELS: Record<string, { title: string; button: string; disclosure: string }> = {
   fr: { title: 'Réponse rapide', button: 'Voir sur Amazon', disclosure: 'Liens affiliés Amazon : commission sans surcoût pour vous.' },
-  en: { title: 'Quick answer', button: 'View on Amazon', disclosure: 'Amazon affiliate links: commission at no extra cost to you.' },
-  de: { title: 'Kurze Antwort', button: 'Bei Amazon ansehen', disclosure: 'Amazon-Affiliate-Links: Provision ohne Mehrkosten für Sie.' },
+  en: { title: 'Quick answer', button: 'Check price on Amazon', disclosure: 'Amazon affiliate links: commission at no extra cost to you.' },
+  de: { title: 'Die Antwort in Kürze', button: 'Bei Amazon ansehen', disclosure: 'Amazon-Affiliate-Links: Provision ohne Mehrkosten für Sie.' },
   es: { title: 'Respuesta rápida', button: 'Ver en Amazon', disclosure: 'Enlaces de afiliado de Amazon: comisión sin coste adicional para ti.' },
-  it: { title: 'Risposta rapida', button: 'Vedi su Amazon', disclosure: 'Link di affiliazione Amazon: commissione senza costi aggiuntivi per te.' },
+  it: { title: 'Risposta rapida', button: 'Vedi su Amazon', disclosure: 'Link affiliati Amazon: riceviamo una commissione, senza costi aggiuntivi per te.' },
   nl: { title: 'Snel antwoord', button: 'Bekijk op Amazon', disclosure: 'Amazon-affiliatelinks: commissie zonder extra kosten voor jou.' },
   pl: { title: 'Szybka odpowiedź', button: 'Zobacz na Amazon', disclosure: 'Linki afiliacyjne Amazon: prowizja bez dodatkowych kosztów dla Ciebie.' },
   sv: { title: 'Snabbt svar', button: 'Visa på Amazon', disclosure: 'Affiliatelänkar till Amazon: provision utan extra kostnad för dig.' },

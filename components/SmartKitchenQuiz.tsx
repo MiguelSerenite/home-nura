@@ -369,24 +369,24 @@ const painToCategory: Record<PainPoint, SmartKitchenCategory> = {
 
 const categoryLabels: Record<SmartKitchenCategory, Record<string, string>> = {
   multicuiseurs: {
-    fr: 'Multicuiseurs connectés', en: 'Smart multicookers', de: 'Smarte Multikocher',
-    es: 'Ollas multicocción conectadas', it: 'Multicottura connesse', nl: 'Slimme multicookers', pl: 'Inteligentne multicookery', sv: 'Smarta multikokare', us: 'Smart multicookers', ca: 'Smart multicookers',
+    fr: 'Multicuiseurs connectés', en: 'Multicookers', de: 'Smarte Multikocher',
+    es: 'Ollas programables conectadas', it: 'Multicooker smart', nl: 'Slimme multicookers', pl: 'Inteligentne multicookery', sv: 'Smarta multikokare', us: 'Smart multicookers', ca: 'Smart multicookers',
   },
   cafetieres: {
-    fr: 'Cafetières connectées', en: 'Smart coffee machines', de: 'Smarte Kaffeemaschinen',
-    es: 'Cafeteras conectadas', it: 'Macchine da caffè connesse', nl: 'Slimme koffiemachines', pl: 'Inteligentne ekspresy do kawy', sv: 'Smarta kaffemaskiner', us: 'Smart coffee makers', ca: 'Smart coffee makers',
+    fr: 'Cafetières connectées', en: 'Coffee machines', de: 'Kaffeevollautomaten',
+    es: 'Cafeteras conectadas', it: 'Macchine da caffè automatiche', nl: 'Koffiemachines met bonen', pl: 'Inteligentne ekspresy do kawy', sv: 'Smarta kaffemaskiner', us: 'Smart coffee makers', ca: 'Smart coffee makers',
   },
   balances: {
-    fr: 'Balances connectées', en: 'Smart scales', de: 'Smarte Waagen',
-    es: 'Básculas conectadas', it: 'Bilance connesse', nl: 'Slimme weegschalen', pl: 'Inteligentne wagi kuchenne', sv: 'Smarta köksvågar', us: 'Smart kitchen scales', ca: 'Smart scales',
+    fr: 'Balances connectées', en: 'Smart kitchen scales', de: 'Küchenwaagen mit App',
+    es: 'Básculas de cocina conectadas', it: 'Bilance da cucina smart', nl: 'Slimme keukenweegschalen', pl: 'Inteligentne wagi kuchenne', sv: 'Smarta köksvågar', us: 'Smart kitchen scales', ca: 'Smart scales',
   },
   'thermometres-viande': {
     fr: 'Thermomètres à viande', en: 'Meat thermometers', de: 'Fleischthermometer',
-    es: 'Termómetros de carne', it: 'Termometri per carne', nl: 'Vleesthermometers', pl: 'Termometry do mięsa', sv: 'Stektermometrar', us: 'Meat thermometers', ca: 'Meat thermometers',
+    es: 'Termómetros para carne', it: 'Termometri per carne', nl: 'Vleesthermometers', pl: 'Termometry do mięsa', sv: 'Stektermometrar', us: 'Meat thermometers', ca: 'Meat thermometers',
   },
   'prises-connectees': {
     fr: 'Prises connectées', en: 'Smart plugs', de: 'Smarte Steckdosen',
-    es: 'Enchufes conectados', it: 'Prese connesse', nl: 'Slimme stekkers', pl: 'Inteligentne gniazdka', sv: 'Smarta pluggar', us: 'Smart plugs', ca: 'Smart plugs',
+    es: 'Enchufes inteligentes', it: 'Prese smart', nl: 'Slimme stekkers', pl: 'Inteligentne gniazdka', sv: 'Smarta pluggar', us: 'Smart plugs', ca: 'Smart plugs',
   },
 }
 

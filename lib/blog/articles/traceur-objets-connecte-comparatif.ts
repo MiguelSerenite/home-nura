@@ -13,9 +13,9 @@ export const article: BlogArticle = {
       src: 'https://images.unsplash.com/photo-1645163315215-5a0e6725161e?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Traceur Bluetooth glissé dans un porte-clés en cuir accroché à un sac',
-        en: 'Bluetooth item tracker in a leather key ring holder clipped to a bag',
-        de: 'Bluetooth-Tracker in einem Lederanhänger an einer Tasche befestigt',
-        es: 'Localizador Bluetooth en un llavero de cuero enganchado a un bolso',
+        en: 'Bluetooth tracker slipped into a leather key ring holder on a bag',
+        de: 'Bluetooth-Tracker in einem Schlüsselanhänger aus Leder, an einer Tasche befestigt',
+        es: 'Localizador bluetooth metido en un llavero de cuero enganchado a un bolso',
         it: 'Localizzatore Bluetooth in un portachiavi di pelle agganciato a una borsa',
         nl: 'Bluetooth-tracker in een leren sleutelhanger aan een tas bevestigd',
         pl: 'Lokalizator Bluetooth w skórzanym breloku przypiętym do torby',
@@ -27,10 +27,10 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Meilleur Traceur d’Objets 2026 : AirTag, SmartTag2, Chipolo et Alternatives',
-    en: 'Best Item Tracker 2026: AirTag, SmartTag2, Chipolo and Alternatives',
+    en: 'Best Bluetooth Tracker 2026: AirTag, SmartTag2, Chipolo and Alternatives',
     de: 'Bester Bluetooth-Tracker 2026: AirTag, SmartTag2, Chipolo und Alternativen',
-    es: 'Mejor Localizador de Objetos 2026: AirTag, SmartTag2, Chipolo y Alternativas',
-    it: 'Miglior Localizzatore di Oggetti 2026: AirTag, SmartTag2, Chipolo e Alternative',
+    es: 'Mejor localizador bluetooth 2026: AirTag, SmartTag2, Chipolo y alternativas',
+    it: 'Miglior localizzatore Bluetooth 2026: AirTag, SmartTag2, Chipolo e alternative',
     nl: 'Beste Tracker voor Spullen 2026: AirTag, SmartTag2, Chipolo en Alternatieven',
     pl: 'Najlepszy lokalizator przedmiotów 2026: AirTag, SmartTag2, Chipolo i alternatywy',
     sv: 'Bästa bluetooth-spårare 2026: AirTag, SmartTag2, Chipolo med flera',
@@ -39,10 +39,10 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Clés, sac, valise ou portefeuille : quel traceur choisir en 2026 ? Comparatif de l’AirTag 2e génération, du Galaxy SmartTag2, du Chipolo POP, du Pebblebee Clip Universal, de l’Ugreen FineTrack Duo et du Tile Pro, selon votre smartphone.',
-    en: 'Keys, bag, suitcase or wallet: which tracker should you choose in 2026? A comparison of the AirTag (2nd generation), Galaxy SmartTag2, Chipolo POP, Pebblebee Clip Universal, Ugreen FineTrack Duo and Tile Pro, by smartphone ecosystem.',
+    en: 'Keys, bag, suitcase or wallet: which tracker should you choose in 2026? We compare the AirTag (2nd generation), Galaxy SmartTag2, Chipolo POP, Pebblebee Clip Universal, Ugreen FineTrack Duo and Tile Pro, depending on which phone you have.',
     de: 'Schlüssel, Tasche, Koffer oder Geldbörse: Welcher Tracker passt 2026? Vergleich von AirTag (2. Generation), Galaxy SmartTag2, Chipolo POP, Pebblebee Clip Universal, Ugreen FineTrack Duo und Tile Pro – passend zu Ihrem Smartphone.',
-    es: 'Llaves, bolso, maleta o cartera: ¿qué localizador elegir en 2026? Comparativa del AirTag (2.ª generación), Galaxy SmartTag2, Chipolo POP, Pebblebee Clip Universal, Ugreen FineTrack Duo y Tile Pro según tu smartphone.',
-    it: 'Chiavi, borsa, valigia o portafoglio: quale localizzatore scegliere nel 2026? Confronto tra AirTag (2ª generazione), Galaxy SmartTag2, Chipolo POP, Pebblebee Clip Universal, Ugreen FineTrack Duo e Tile Pro in base al tuo smartphone.',
+    es: 'Llaves, bolso, maleta o cartera: ¿qué localizador elegir en 2026? Comparamos el AirTag (2.ª generación), el Galaxy SmartTag2, el Chipolo POP, el Pebblebee Clip Universal, el Ugreen FineTrack Duo y el Tile Pro según el móvil que tengas.',
+    it: 'Chiavi, borsa, valigia o portafoglio: quale localizzatore scegliere nel 2026? Confronto tra AirTag (2ª generazione), Galaxy SmartTag2, Chipolo POP, Pebblebee Clip Universal, Ugreen FineTrack Duo e Tile Pro, in base allo smartphone che usi.',
     nl: 'Sleutels, tas, koffer of portemonnee: welke tracker kies je in 2026? Vergelijking van AirTag (2e generatie), Galaxy SmartTag2, Chipolo POP, Pebblebee Clip Universal, Ugreen FineTrack Duo en Tile Pro, per smartphone-ecosysteem.',
     pl: 'Klucze, torba, walizka czy portfel: jaki lokalizator wybrać w 2026 roku? Porównujemy AirTag 2. generacji, Galaxy SmartTag2, Chipolo POP, Pebblebee Clip Universal, Ugreen FineTrack Duo i Tile Pro – w zależności od tego, jakiego smartfona używasz.',
     sv: 'Nycklar, väska, resväska eller plånbok: vilken spårare ska du välja 2026? Vi jämför AirTag (andra generationen), Galaxy SmartTag2, Chipolo POP, Pebblebee Clip Universal, Ugreen FineTrack Duo och Tile Pro utifrån vilken mobil du har.',
@@ -154,66 +154,66 @@ export const article: BlogArticle = {
 <h2>Notre verdict</h2>
 <p>Avec un iPhone, l’<strong>Apple AirTag (2e génération)</strong> est le meilleur choix : réseau très dense, recherche de précision améliorée et partage de position avec les compagnies aériennes. Avec un Android, le <strong>Chipolo POP</strong> s’impose pour sa sonnerie et sa compatibilité double, tandis que l’<strong>Ugreen FineTrack Duo</strong> est la meilleure option pour équiper plusieurs objets à petit budget. Les possesseurs de Galaxy opteront pour le <strong>SmartTag2</strong>. Pour aller plus loin dans la protection du logement, lisez notre <a href="/fr/blog/guide-securite-maison-connectee-2026">guide de la sécurité maison connectée</a> et notre dossier sur l’<a href="/fr/blog/alarme-maison-sans-abonnement">alarme sans abonnement</a>.</p>`,
 
-    en: `<p>The best item tracker in 2026 depends first on your phone: with an iPhone, the <strong>Apple AirTag (2nd generation)</strong> is still the most complete choice, while on Android the <strong>Chipolo POP</strong> or <strong>Ugreen FineTrack Duo</strong> tap into Google’s Find Hub network. Samsung Galaxy owners should look at the <strong>Galaxy SmartTag2</strong>, built for SmartThings Find.</p>
-<p>This comparison is based on manufacturer specifications, specialist press reviews and verified buyer feedback. It covers keys, bags, suitcases and wallets, and explains the anti-stalking alerts that now work across iOS and Android. For the full range, browse our <a href="/en/securite-maison/trackers-objets">item trackers</a> section.</p>
+    en: `<p>The best Bluetooth tracker in 2026 depends first and foremost on your phone. With an iPhone, the <strong>Apple AirTag (2nd generation)</strong> is still the most complete choice, while on Android the <strong>Chipolo POP</strong> and the <strong>Ugreen FineTrack Duo</strong> tap into Google’s Find Hub network. Samsung Galaxy owners should look at the <strong>Galaxy SmartTag2</strong>, built for SmartThings Find.</p>
+<p>This comparison is based on manufacturer specifications, specialist press reviews and verified buyer feedback. It covers keys, bags, suitcases and wallets, and explains the anti-stalking alerts that now work across iOS and Android. For the full range, browse our <a href="/en/securite-maison/trackers-objets">Bluetooth trackers</a> section.</p>
 
-<h2>How does an item tracker work?</h2>
-<p>A Bluetooth tracker has no GPS and no SIM card. It sends out a signal your phone picks up within a few dozen metres. Beyond that, it relies on a <strong>crowdsourced network</strong>: any compatible smartphone passing nearby anonymously records its position and sends it, encrypted, to the owner. The more devices in the network, the more often the location updates.</p>
+<h2>How does a Bluetooth tracker work?</h2>
+<p>A Bluetooth tracker has no GPS and no SIM card. It sends out a signal that your phone can pick up from a few dozen metres away. Beyond that, it relies on a <strong>crowdsourced network</strong>: any compatible smartphone passing nearby anonymously records its position and sends it, encrypted, to the owner. The more devices in the network, the more often the location updates.</p>
 <p>Three major networks dominate in Europe:</p>
 <ul>
-<li><strong>Apple Find My</strong>: powered by iPhones, iPads and Macs worldwide. It is open to AirTag and accessories certified “Works with Apple Find My”.</li>
-<li><strong>Google Find Hub</strong>: formerly “Find My Device”, renamed Find Hub in 2025, it relies on Android phones with Google services. It works with certified trackers from Chipolo, Pebblebee, Ugreen and others.</li>
-<li><strong>Samsung SmartThings Find</strong>: limited to Galaxy smartphones, it uses Samsung’s large European user base.</li>
+<li><strong>Apple Find My</strong>: powered by iPhones, iPads and Macs worldwide. It works with AirTag and with accessories certified “Works with Apple Find My”.</li>
+<li><strong>Google Find Hub</strong>: formerly “Find My Device” and renamed in 2025, it relies on Android phones running Google services. It works with certified trackers from Chipolo, Pebblebee, Ugreen and others.</li>
+<li><strong>Samsung SmartThings Find</strong>: for Galaxy phones only, it draws on Samsung’s large user base in Europe.</li>
 </ul>
-<p>Tile runs its own network through the Tile and Life360 apps, on both iOS and Android, but with far fewer relay devices.</p>
+<p>Finally, Tile runs its own network through the Tile and Life360 apps, on both iOS and Android, but with far fewer relay devices.</p>
 
-<h2>Buying criteria</h2>
-<h3>1. Your smartphone ecosystem</h3>
-<p>This is the deciding factor. An AirTag cannot be set up on Android, and a SmartTag2 requires a Galaxy phone. So-called “universal” trackers (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) work with Apple Find My <em>or</em> Google Find Hub, but <strong>not both at once</strong>: you pick the network during setup and must reset the device to switch. That makes them ideal for mixed households or if you plan to change phones.</p>
+<h2>How to choose</h2>
+<h3>1. Your phone’s ecosystem</h3>
+<p>This is the deciding factor. An AirTag cannot be set up on Android, and a SmartTag2 requires a Galaxy phone. So-called “universal” trackers (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) work with Apple Find My <em>or</em> Google Find Hub, but <strong>not both at once</strong>: you pick the network during setup and must reset the device to switch. That makes them ideal for households with both iPhones and Android phones, or if you plan to change phones.</p>
 <h3>2. Battery: coin cell or rechargeable</h3>
-<p><strong>CR2032 coin cell</strong> models (AirTag, SmartTag2, Chipolo POP, Tile Pro) last around a year, sometimes more, and the battery takes seconds to swap. <strong>Rechargeable</strong> models (Pebblebee, Ugreen FineTrack Duo, Chipolo CARD) save you buying batteries, but you need to remember to charge them via USB‑C or Qi wireless charging.</p>
+<p><strong>CR2032 coin cell</strong> models (AirTag, SmartTag2, Chipolo POP, Tile Pro) last around a year, sometimes more, and the battery takes seconds to swap. <strong>Rechargeable</strong> models (Pebblebee, Ugreen FineTrack Duo, Chipolo CARD) save you buying batteries, but you have to remember to charge them, by USB‑C or on a Qi wireless charger.</p>
 <h3>3. Range and precision finding</h3>
-<p>Claimed Bluetooth range runs from around twenty to over a hundred metres in open space, and much less through walls. The <strong>Ultra Wideband (UWB)</strong> chips in AirTag and SmartTag2 add an on-screen arrow and exact distance on compatible phones, which is very handy for finding keys under a cushion.</p>
+<p>Claimed Bluetooth range runs from around twenty to over a hundred metres in open space, and much less through walls. The <strong>Ultra Wideband (UWB)</strong> chips in the AirTag and the SmartTag2 add an on-screen arrow and a precise distance on compatible phones, which is very handy for finding keys under a cushion.</p>
 <h3>4. Ringer volume</h3>
-<p>A loud buzzer saves time at home. Chipolo quotes around 120 dB for the POP, one of the loudest on the market; the second-generation AirTag is 50% louder than the original.</p>
-<h3>5. Form factor and water resistance</h3>
-<p>For a key ring, a tracker with a built-in hole or loop saves buying a holder. For a wallet, a <strong>card-shaped</strong> tracker a few millimetres thick is the way to go. IP67 or IP68 protection is reassuring for a bag that gets caught in the rain.</p>
+<p>A loud ringer saves time when you’re searching the house. Chipolo quotes around 120 dB for the POP, one of the loudest on the market; the second-generation AirTag is 50% louder than the original.</p>
+<h3>5. Shape and water resistance</h3>
+<p>For a key ring, a tracker with a built-in hole or loop saves buying a holder. For a wallet, a <strong>card-shaped</strong> tracker a few millimetres thick is the way to go. IP67 or IP68 protection gives you peace of mind for a bag that gets caught in the rain.</p>
 
-<h2>The best item trackers in 2026</h2>
+<h2>The best Bluetooth trackers in 2026</h2>
 <h3>Apple AirTag (2nd generation): the benchmark for iPhone</h3>
 <p>Unveiled in January 2026, the new AirTag keeps the same pebble shape as the original, so all existing accessories fit, but adds Apple’s <strong>second-generation Ultra Wideband chip</strong>. According to Apple, Precision Finding works up to 50% farther away, Bluetooth range is extended and the speaker is 50% louder. A welcome addition: Precision Finding now also works on Apple Watch (Series 9 and Ultra 2 or later).</p>
-<p><strong>Strengths:</strong> densest Find My network, replaceable CR2032 battery, IP67, NFC-readable Lost Mode, item location sharing with more than 50 airlines if your bag goes missing.</p>
-<p><strong>Limitations:</strong> requires an iPhone or iPad, no attachment hole (you need a key ring or case), Precision Finding unavailable in countries that restrict UWB.</p>
+<p><strong>Pros:</strong> the densest network of all (Find My), replaceable CR2032 battery, IP67, Lost Mode readable via NFC, item location sharing with more than 50 airlines if your bag goes missing.</p>
+<p><strong>Cons:</strong> requires an iPhone or iPad, no attachment hole (you need a key ring or case), Precision Finding unavailable in countries that restrict UWB.</p>
 <p><strong>Best for:</strong> any iPhone user who wants the most polished solution.</p>
 
 <h3>Samsung Galaxy SmartTag2: the pick for Galaxy owners</h3>
-<p>The SmartTag2 has an elongated shape with a large built-in loop, handy for a key ring or bag strap. It combines Bluetooth 5.3 and UWB, a claimed range of up to 120 m and up to 500 days of battery life from its replaceable CR2032 cell. It is IP67 rated.</p>
-<p><strong>Strengths:</strong> integrated loop, long battery life, UWB finding on compatible Galaxy phones, programmable button to control SmartThings devices.</p>
-<p><strong>Limitations:</strong> Samsung Galaxy smartphones only; it cannot be used with an iPhone or another Android brand.</p>
+<p>The SmartTag2 has an elongated shape with a large built-in loop, handy for a key ring or bag strap. It has Bluetooth 5.3 and UWB, a claimed range of up to 120 m and up to 500 days of battery life from its replaceable CR2032 cell. It is rated IP67.</p>
+<p><strong>Pros:</strong> built-in loop, long battery life, UWB finding on compatible Galaxy phones, programmable button to control SmartThings devices.</p>
+<p><strong>Cons:</strong> Samsung Galaxy phones only; it won’t work with an iPhone or any other Android brand.</p>
 <p><strong>Best for:</strong> Galaxy households and existing SmartThings users.</p>
 
 <h3>Chipolo POP: the loudest, for Android or iPhone</h3>
-<p>Designed and made in Europe by Slovenian brand Chipolo, the POP works with either Apple Find My or Google Find Hub. Its ringer, rated at around 120 dB, is one of the loudest available. The replaceable CR2032 battery lasts about a year and claimed Bluetooth range reaches 90 m.</p>
-<p><strong>Strengths:</strong> very loud, works with both major networks, built-in attachment hole, several colours.</p>
-<p><strong>Limitations:</strong> only IP55 (splashes and dust), no UWB, one network at a time.</p>
-<p><strong>Best for:</strong> Android users who want a credible AirTag alternative, and mixed households.</p>
+<p>Designed and made in Europe by Slovenian brand Chipolo, the POP works with either Apple Find My or Google Find Hub. Its ringer, rated at around 120 dB, is one of the loudest available. The replaceable CR2032 battery lasts about a year, and Bluetooth range is quoted at up to 90 m.</p>
+<p><strong>Pros:</strong> very loud, works with both major networks, built-in attachment hole, a choice of colours.</p>
+<p><strong>Cons:</strong> only IP55 (splash and dust resistant), no UWB, one network at a time.</p>
+<p><strong>Best for:</strong> Android users who want a credible AirTag alternative, and households with both iPhones and Android phones.</p>
 
 <h3>Pebblebee Clip Universal: rechargeable with a light</h3>
 <p>Pebblebee’s Clip Universal was one of the first trackers compatible with either Apple Find My or Google Find Hub. Its USB‑C rechargeable battery lasts up to 12 months per charge according to the manufacturer, and an LED helps you spot it in the dark.</p>
-<p><strong>Strengths:</strong> no batteries to buy, LED light, handy clip, splash resistant.</p>
-<p><strong>Limitations:</strong> needs recharging, one network at a time, no UWB.</p>
+<p><strong>Pros:</strong> no batteries to buy, LED light, handy clip, splash-resistant.</p>
+<p><strong>Cons:</strong> needs recharging, one network at a time, no UWB.</p>
 <p><strong>Best for:</strong> people who would rather recharge than replace a coin cell.</p>
 
 <h3>Ugreen FineTrack Duo: best value</h3>
-<p>Ugreen’s FineTrack Duo is certified for Apple Find My and Google Find Hub (one network at a time). It has a USB‑C rechargeable battery rated for up to 12 months and IP68 protection. It is often sold in multi-packs, which makes it easy to equip the whole family.</p>
-<p><strong>Strengths:</strong> entry-level positioning, IP68, rechargeable, works with both networks.</p>
-<p><strong>Limitations:</strong> modest direct Bluetooth range, simpler finish than premium models, no UWB.</p>
-<p><strong>Best for:</strong> tight budgets and tagging several items at once.</p>
+<p>Ugreen’s FineTrack Duo is certified for Apple Find My and Google Find Hub (one network at a time). It has a USB‑C rechargeable battery rated for up to 12 months and IP68 protection. It is often sold in multi-packs, which are handy for kitting out the whole family.</p>
+<p><strong>Pros:</strong> an entry-level price, IP68, rechargeable, works with both networks.</p>
+<p><strong>Cons:</strong> modest direct Bluetooth range, simpler finish than premium models, no UWB.</p>
+<p><strong>Best for:</strong> anyone on a tight budget, or tagging several items in one go.</p>
 
 <h3>Tile Pro: independent of Apple and Google</h3>
 <p>The Tile Pro (2024 edition) uses the Tile or Life360 app on both iOS and Android. It claims up to 150 m of range, IP68 protection, a loud ringer and a replaceable battery lasting around a year. Its multi-function button can also ring your phone.</p>
-<p><strong>Strengths:</strong> works on any smartphone, long range, rugged.</p>
-<p><strong>Limitations:</strong> crowdsourced network much smaller than Apple’s or Google’s; some Life360 features depend on what is offered in your country.</p>
+<p><strong>Pros:</strong> works on any smartphone, long range, rugged.</p>
+<p><strong>Cons:</strong> crowdsourced network much smaller than Apple’s or Google’s; some Life360 features depend on what is available in your country.</p>
 <p><strong>Best for:</strong> families already using Life360, or anyone wanting one tracker across phones from different brands.</p>
 
 <h2>Comparison table</h2>
@@ -225,7 +225,7 @@ export const article: BlogArticle = {
 <tr><td>Apple AirTag (2nd generation)</td><td>Apple Find My + UWB</td><td>CR2032 coin cell</td><td>IP67</td><td>iPhone, luggage</td></tr>
 <tr><td>Samsung Galaxy SmartTag2</td><td>SmartThings Find + UWB</td><td>CR2032 coin cell</td><td>IP67</td><td>Galaxy phones</td></tr>
 <tr><td>Chipolo POP</td><td>Apple or Google</td><td>CR2032 coin cell</td><td>IP55</td><td>Very loud ringer</td></tr>
-<tr><td>Pebblebee Clip Universal</td><td>Apple or Google</td><td>USB‑C rechargeable</td><td>Splash resistant</td><td>No batteries, LED</td></tr>
+<tr><td>Pebblebee Clip Universal</td><td>Apple or Google</td><td>USB‑C rechargeable</td><td>Splash-resistant</td><td>No batteries, LED</td></tr>
 <tr><td>Ugreen FineTrack Duo</td><td>Apple or Google</td><td>USB‑C rechargeable</td><td>IP68</td><td>Budget, multi-packs</td></tr>
 <tr><td>Tile Pro</td><td>Tile / Life360</td><td>Replaceable battery</td><td>IP68</td><td>Any smartphone</td></tr>
 </tbody>
@@ -236,65 +236,65 @@ export const article: BlogArticle = {
 
 <h2>Suitcases and luggage: good habits</h2>
 <ul>
-<li>Put the tracker inside the suitcase, in a closed pocket, rather than outside where it can be torn off.</li>
+<li>Put the tracker inside the suitcase, in a zipped pocket, rather than outside where it can be torn off.</li>
 <li>With an AirTag, Share Item Location lets you send a temporary link to the baggage team of partner airlines.</li>
-<li>Small coin-cell trackers are generally accepted in checked baggage, but check your airline’s rules, especially for rechargeable models.</li>
+<li>Small coin-cell trackers are generally accepted in hold luggage, but check your airline’s rules, especially for rechargeable models.</li>
 <li>Remember that location depends on smartphones passing by: in a closed baggage-handling area, the position may not update.</li>
 </ul>
 
 <h2>Anti-stalking: what you need to know</h2>
-<p>Apple and Google jointly developed a common specification for detecting unwanted location trackers. Since iOS 17.5, and on Android 6.0 or later, your phone alerts you if an unknown compatible tracker (AirTag or certified accessory) seems to be moving with you, whatever platform it is paired to. On Android, Find Hub also lets you run a manual scan. Trackers regularly change their Bluetooth identifier to protect the owner’s privacy.</p>
-<p>In practice, a tracker is not meant to follow a person, and tracking someone without their knowledge is illegal in many countries. For pets, these alerts may also trigger on passers-by’s phones; a dedicated GPS collar is a better choice.</p>
+<p>Apple and Google jointly developed a common specification for detecting unwanted location trackers. Since iOS 17.5, and on Android 6.0 or later, your phone alerts you if an unknown compatible tracker (AirTag or certified accessory) seems to be moving with you, whatever platform it is paired with. On Android, Find Hub also lets you run a manual scan. Trackers regularly change their Bluetooth identifier to protect the owner’s privacy.</p>
+<p>The practical upshot: a tracker is not designed for following people, and tracking someone without their knowledge is punishable by law in France. For pets, these alerts may also trigger on passers-by’s phones; a dedicated GPS collar is a better choice.</p>
 
 <h2>Mistakes to avoid</h2>
 <ul>
 <li><strong>Buying for the wrong ecosystem</strong>: check compatibility first, especially when buying a gift.</li>
 <li><strong>Assuming a universal tracker works on two networks at once</strong>: you have to choose one.</li>
-<li><strong>Forgetting the attachment</strong>: AirTag has no hole, so plan for a key ring.</li>
-<li><strong>Leaving coin cells within children’s reach</strong>: a swallowed CR2032 is dangerous; store spare batteries out of reach and choose models with a secure battery compartment.</li>
-<li><strong>Turning off notifications</strong>: without them you get neither left-behind alerts nor anti-stalking alerts.</li>
+<li><strong>Forgetting how to attach it</strong>: the AirTag has no hole, so you’ll need a key ring or holder.</li>
+<li><strong>Leaving coin cells within children’s reach</strong>: a swallowed CR2032 is dangerous; keep spare batteries up high and choose models with a secure battery compartment.</li>
+<li><strong>Turning off notifications</strong>: without them, you won’t get left-behind alerts or anti-stalking alerts.</li>
 </ul>
 
 <h2>Our verdict</h2>
-<p>With an iPhone, the <strong>Apple AirTag (2nd generation)</strong> is the best choice: a very dense network, improved Precision Finding and location sharing with airlines. On Android, the <strong>Chipolo POP</strong> stands out for its ringer and dual compatibility, while the <strong>Ugreen FineTrack Duo</strong> is the best option for tagging several items on a budget. Galaxy owners should go for the <strong>SmartTag2</strong>. To go further in protecting your home, read our <a href="/en/blog/guide-securite-maison-connectee-2026">smart home security guide</a> and our feature on <a href="/en/blog/alarme-maison-sans-abonnement">alarms without a subscription</a>.</p>`,
+<p>With an iPhone, the <strong>Apple AirTag (2nd generation)</strong> is the best choice: a very dense network, improved Precision Finding and location sharing with airlines. On Android, the <strong>Chipolo POP</strong> stands out for its ringer and dual compatibility, while the <strong>Ugreen FineTrack Duo</strong> is the best option for tagging several items on a budget. Galaxy owners should go for the <strong>SmartTag2</strong>. For more on protecting your home, read our <a href="/en/blog/guide-securite-maison-connectee-2026">smart home security guide</a> and our article on <a href="/en/blog/alarme-maison-sans-abonnement">no-subscription home alarms</a>.</p>`,
 
-    de: `<p>Welcher Tracker 2026 der beste ist, hängt zuerst von Ihrem Smartphone ab: Mit einem iPhone bleibt der <strong>Apple AirTag (2. Generation)</strong> die vollständigste Wahl, mit Android nutzen der <strong>Chipolo POP</strong> oder der <strong>Ugreen FineTrack Duo</strong> Googles Netzwerk „Mein Gerät finden“ (Find Hub). Besitzer eines Samsung Galaxy sollten sich den <strong>Galaxy SmartTag2</strong> ansehen, der für SmartThings Find gebaut ist.</p>
-<p>Dieser Vergleich stützt sich auf Herstellerangaben, Einschätzungen der Fachpresse und verifizierte Käuferbewertungen. Er deckt Schlüssel, Taschen, Koffer und Geldbörsen ab und erklärt die Warnungen vor unerwünschtem Tracking, die inzwischen plattformübergreifend funktionieren. Das komplette Sortiment finden Sie in unserer Rubrik <a href="/de/securite-maison/trackers-objets">Bluetooth-Tracker</a>.</p>
+    de: `<p>Welcher Tracker 2026 der beste ist, hängt zuerst von Ihrem Smartphone ab: Mit einem iPhone bleibt der <strong>Apple AirTag (2. Generation)</strong> die ausgereifteste Wahl. Mit Android nutzen der <strong>Chipolo POP</strong> oder der <strong>Ugreen FineTrack Duo</strong> Googles Netzwerk Find Hub (früher „Mein Gerät finden“). Besitzer eines Samsung Galaxy sollten sich den <strong>Galaxy SmartTag2</strong> ansehen, der für SmartThings Find entwickelt wurde.</p>
+<p>Dieser Vergleich stützt sich auf Herstellerangaben, Einschätzungen der Fachpresse und verifizierte Käuferbewertungen. Er deckt Schlüssel, Taschen, Koffer und Geldbörsen ab und erklärt die Warnungen vor unerwünschtem Tracking, die inzwischen plattformübergreifend funktionieren. Alle Empfehlungen finden Sie in unserer Rubrik <a href="/de/securite-maison/trackers-objets">Bluetooth-Tracker</a>.</p>
 
 <h2>Wie funktioniert ein Bluetooth-Tracker?</h2>
-<p>Ein Bluetooth-Tracker hat weder GPS noch SIM-Karte. Er sendet ein Signal, das Ihr Handy im Umkreis einiger Dutzend Meter empfängt. Darüber hinaus nutzt er ein <strong>Crowdsourcing-Netzwerk</strong>: Jedes kompatible Smartphone in der Nähe erfasst anonym seine Position und übermittelt sie verschlüsselt an den Besitzer. Je mehr Geräte im Netzwerk, desto häufiger wird der Standort aktualisiert.</p>
+<p>Ein Bluetooth-Tracker, oft auch Schlüsselfinder genannt, hat weder GPS noch SIM-Karte. Er sendet ein Signal, das Ihr Handy im Umkreis einiger Dutzend Meter empfängt. Darüber hinaus nutzt er ein <strong>Crowdsourcing-Netzwerk</strong>: Jedes kompatible Smartphone, das in der Nähe vorbeikommt, erfasst anonym die Position des Trackers und übermittelt sie verschlüsselt an dessen Besitzer. Je mehr Geräte im Netzwerk, desto häufiger wird der Standort aktualisiert.</p>
 <p>In Europa dominieren drei große Netzwerke:</p>
 <ul>
-<li><strong>Apple „Wo ist?“ (Find My)</strong>: getragen von iPhones, iPads und Macs weltweit, offen für AirTag und Zubehör mit dem Siegel „Works with Apple Find My“.</li>
+<li><strong>Apple „Wo ist?“ (Find My)</strong>: gestützt auf iPhones, iPads und Macs weltweit und offen für den AirTag sowie für Zubehör mit dem Siegel „Works with Apple Find My“.</li>
 <li><strong>Google Find Hub</strong>: früher „Mein Gerät finden“, 2025 in Find Hub umbenannt. Es nutzt Android-Smartphones mit Google-Diensten und funktioniert mit zertifizierten Trackern von Chipolo, Pebblebee, Ugreen und anderen.</li>
 <li><strong>Samsung SmartThings Find</strong>: nur für Galaxy-Smartphones, gestützt auf die große Samsung-Nutzerbasis in Europa.</li>
 </ul>
-<p>Tile betreibt über die Apps Tile und Life360 ein eigenes Netzwerk für iOS und Android, allerdings mit deutlich weniger Geräten.</p>
+<p>Tile schließlich betreibt über die Apps Tile und Life360 ein eigenes Netzwerk für iOS und Android, allerdings mit deutlich weniger Geräten.</p>
 
 <h2>Worauf Sie beim Kauf achten sollten</h2>
 <h3>1. Das Ökosystem Ihres Smartphones</h3>
-<p>Das ist das entscheidende Kriterium. Ein AirTag lässt sich nicht mit Android einrichten, ein SmartTag2 setzt ein Galaxy voraus. Sogenannte „universelle“ Tracker (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) funktionieren mit Apple „Wo ist?“ <em>oder</em> Google Find Hub, aber <strong>nicht mit beiden gleichzeitig</strong>: Das Netzwerk wird bei der Einrichtung gewählt, für einen Wechsel muss das Gerät zurückgesetzt werden. Ideal für gemischte Haushalte oder einen geplanten Handywechsel.</p>
+<p>Das ist das entscheidende Kriterium. Ein AirTag lässt sich nicht mit Android einrichten, ein SmartTag2 setzt ein Galaxy voraus. Sogenannte „universelle“ Tracker (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) funktionieren mit Apple „Wo ist?“ <em>oder</em> Google Find Hub, aber <strong>nicht mit beiden gleichzeitig</strong>: Das Netzwerk wird bei der Einrichtung gewählt, für einen Wechsel muss das Gerät zurückgesetzt werden. Das ist ideal für Haushalte mit iPhone und Android oder wenn Sie einen Handywechsel planen.</p>
 <h3>2. Akku oder Knopfzelle</h3>
-<p>Modelle mit <strong>CR2032-Knopfzelle</strong> (AirTag, SmartTag2, Chipolo POP, Tile Pro) halten rund ein Jahr, teils länger, und die Batterie ist in Sekunden gewechselt. <strong>Aufladbare</strong> Modelle (Pebblebee, Ugreen FineTrack Duo, Chipolo CARD) sparen Batterien, müssen aber per USB‑C oder kabellos per Qi geladen werden.</p>
+<p>Modelle mit <strong>CR2032-Knopfzelle</strong> (AirTag, SmartTag2, Chipolo POP, Tile Pro) halten rund ein Jahr, teils länger, und die Batterie ist in Sekunden gewechselt. <strong>Aufladbare</strong> Modelle (Pebblebee, Ugreen FineTrack Duo, Chipolo CARD) ersparen den Batteriekauf, müssen aber regelmäßig per USB‑C oder kabellos per Qi geladen werden.</p>
 <h3>3. Reichweite und Präzisionssuche</h3>
 <p>Die angegebene Bluetooth-Reichweite liegt zwischen etwa zwanzig und über hundert Metern im Freien, durch Wände deutlich weniger. Die <strong>Ultrabreitband-Chips (UWB)</strong> von AirTag und SmartTag2 zeigen auf kompatiblen Handys Richtungspfeil und genaue Entfernung an – sehr praktisch, wenn die Schlüssel unter einem Kissen liegen.</p>
 <h3>4. Lautstärke</h3>
-<p>Ein lauter Signalton spart zu Hause Zeit. Chipolo gibt für den POP rund 120 dB an, ein Spitzenwert am Markt; der AirTag der 2. Generation ist 50 % lauter als sein Vorgänger.</p>
+<p>Ein lauter Signalton spart Zeit, wenn Sie in der Wohnung suchen. Chipolo gibt für den POP rund 120 dB an, ein Spitzenwert am Markt; der AirTag der 2. Generation ist 50 % lauter als sein Vorgänger.</p>
 <h3>5. Bauform und Wasserschutz</h3>
-<p>Für den Schlüsselbund spart ein Tracker mit Öse den Kauf einer Hülle. Für die Geldbörse ist ein <strong>Kartenformat</strong> von wenigen Millimetern die richtige Wahl. IP67 oder IP68 beruhigt bei einer Tasche, die auch mal im Regen steht.</p>
+<p>Für den Schlüsselbund spart ein Tracker mit Öse den Kauf einer Hülle. Für die Geldbörse ist ein <strong>Kartenformat</strong> von wenigen Millimetern die richtige Wahl. Schutz nach IP67 oder IP68 beruhigt bei einer Tasche, die auch mal nass wird.</p>
 
 <h2>Die besten Bluetooth-Tracker 2026</h2>
 <h3>Apple AirTag (2. Generation): die Referenz fürs iPhone</h3>
-<p>Der im Januar 2026 vorgestellte neue AirTag behält die Kieselform des Vorgängers – alle Zubehörteile passen weiterhin –, bekommt aber Apples <strong>Ultrabreitband-Chip der zweiten Generation</strong>. Laut Apple funktioniert die genaue Suche bis zu 50 % weiter entfernt, die Bluetooth-Reichweite steigt und der Lautsprecher ist 50 % lauter. Neu: Die genaue Suche klappt jetzt auch auf der Apple Watch (Series 9 und Ultra 2 oder neuer).</p>
+<p>Der im Januar 2026 vorgestellte neue AirTag behält die flache, runde Form des Vorgängers – alle Zubehörteile passen weiterhin –, bekommt aber Apples <strong>Ultrabreitband-Chip der zweiten Generation</strong>. Laut Apple funktioniert die genaue Suche auf bis zu 50 % größere Entfernung, die Bluetooth-Reichweite steigt und der Lautsprecher ist 50 % lauter. Neu: Die genaue Suche klappt jetzt auch auf der Apple Watch (Series 9 und Ultra 2 oder neuer).</p>
 <p><strong>Stärken:</strong> größtes „Wo ist?“-Netzwerk, austauschbare CR2032-Batterie, IP67, per NFC auslesbarer Verloren-Modus, Teilen des Objektstandorts mit über 50 Fluggesellschaften bei verlorenem Gepäck.</p>
 <p><strong>Schwächen:</strong> nur mit iPhone oder iPad, keine Öse (Schlüsselanhänger oder Hülle nötig), genaue Suche in Ländern mit UWB-Beschränkungen nicht verfügbar.</p>
 <p><strong>Für wen:</strong> alle iPhone-Nutzer, die eine rundum ausgereifte Lösung wollen.</p>
 
 <h3>Samsung Galaxy SmartTag2: die Wahl für Galaxy-Besitzer</h3>
-<p>Der SmartTag2 hat eine längliche Form mit großer integrierter Öse, ideal für Schlüsselbund oder Taschengurt. Er kombiniert Bluetooth 5.3 und UWB, eine angegebene Reichweite von bis zu 120 m und bis zu 500 Tage Laufzeit mit austauschbarer CR2032-Batterie. Er ist nach IP67 geschützt.</p>
+<p>Der SmartTag2 hat eine längliche Form mit großer integrierter Öse, ideal für Schlüsselbund oder Taschengurt. Er kombiniert Bluetooth 5.3 mit UWB; Samsung gibt bis zu 120 m Reichweite und bis zu 500 Tage Laufzeit mit der austauschbaren CR2032-Batterie an. Dazu kommt Schutz nach IP67.</p>
 <p><strong>Stärken:</strong> integrierte Öse, lange Laufzeit, UWB-Suche mit kompatiblen Galaxy-Geräten, programmierbare Taste zur Steuerung von SmartThings-Geräten.</p>
 <p><strong>Schwächen:</strong> nur mit Samsung-Galaxy-Smartphones nutzbar, nicht mit iPhone oder anderen Android-Marken.</p>
-<p><strong>Für wen:</strong> Galaxy-Haushalte und SmartThings-Nutzer.</p>
+<p><strong>Für wen:</strong> Haushalte mit Galaxy-Smartphones und alle, die bereits SmartThings nutzen.</p>
 
 <h3>Chipolo POP: besonders laut, für Android oder iPhone</h3>
 <p>Der POP der slowenischen Marke Chipolo wird in Europa entwickelt und gefertigt und funktioniert wahlweise mit Apple „Wo ist?“ oder Google Find Hub. Sein Signalton mit rund 120 dB gehört zu den kräftigsten am Markt. Die austauschbare CR2032-Batterie hält etwa ein Jahr, die angegebene Bluetooth-Reichweite liegt bei bis zu 90 m.</p>
@@ -309,13 +309,13 @@ export const article: BlogArticle = {
 <p><strong>Für wen:</strong> alle, die lieber laden als Knopfzellen wechseln.</p>
 
 <h3>Ugreen FineTrack Duo: das beste Preis-Leistungs-Verhältnis</h3>
-<p>Der FineTrack Duo von Ugreen ist für Apple „Wo ist?“ und Google Find Hub zertifiziert (jeweils ein Netzwerk). Er bietet einen per USB‑C aufladbaren Akku mit bis zu 12 Monaten Laufzeit und Schutz nach IP68. Er wird oft im Mehrfachpack angeboten, praktisch für die ganze Familie.</p>
-<p><strong>Stärken:</strong> Einstiegsklasse, IP68, aufladbar, kompatibel mit beiden Netzwerken.</p>
+<p>Der FineTrack Duo von Ugreen ist für Apple „Wo ist?“ und Google Find Hub zertifiziert (immer nur eines davon). Er bietet einen per USB‑C aufladbaren Akku, der laut Hersteller bis zu 12 Monate hält, und Schutz nach IP68. Er wird oft im Mehrfachpack angeboten, praktisch für die ganze Familie.</p>
+<p><strong>Stärken:</strong> günstiges Einstiegsmodell, IP68, aufladbar, kompatibel mit beiden Netzwerken.</p>
 <p><strong>Schwächen:</strong> begrenzte direkte Bluetooth-Reichweite, einfachere Verarbeitung als Premium-Modelle, kein UWB.</p>
 <p><strong>Für wen:</strong> knappe Budgets und alle, die mehrere Gegenstände auf einmal ausstatten wollen.</p>
 
 <h3>Tile Pro: unabhängig von Apple und Google</h3>
-<p>Der Tile Pro (Ausgabe 2024) läuft über die App Tile oder Life360, unter iOS wie Android. Angegeben sind bis zu 150 m Reichweite, IP68, ein lauter Signalton und eine austauschbare Batterie mit rund einem Jahr Laufzeit. Mit der Multifunktionstaste lässt sich auch das Handy klingeln.</p>
+<p>Der Tile Pro (Modell 2024) läuft über die App Tile oder Life360, unter iOS wie Android. Angegeben sind bis zu 150 m Reichweite, IP68, ein lauter Signalton und eine austauschbare Batterie mit rund einem Jahr Laufzeit. Mit der Multifunktionstaste lässt sich auch das Handy klingeln.</p>
 <p><strong>Stärken:</strong> funktioniert mit jedem Smartphone, große Reichweite, robust.</p>
 <p><strong>Schwächen:</strong> deutlich kleineres Netzwerk als bei Apple und Google; manche Life360-Funktionen hängen vom Angebot in Ihrem Land ab.</p>
 <p><strong>Für wen:</strong> Familien, die bereits Life360 nutzen, oder Haushalte mit Handys verschiedener Marken.</p>
@@ -338,7 +338,7 @@ export const article: BlogArticle = {
 <h2>Geldbörse: Setzen Sie auf einen Tracker im Kartenformat</h2>
 <p>Ein runder Tracker beult die Geldbörse aus. Tracker im Scheckkartenformat sind viel unauffälliger: die <strong>Chipolo CARD</strong> (Apple oder Google, kabelloses Laden per Qi, IP67), die <strong>Pebblebee Card Universal</strong> (aufladbar, laut Hersteller bis zu 18 Monate) oder der <strong>Ugreen FineTrack Slim</strong>, rund 1,7 mm dünn und kompatibel mit Apple „Wo ist?“. Apple und Samsung bieten keine Kartenversion an.</p>
 
-<h2>Koffer und Gepäck: die richtigen Handgriffe</h2>
+<h2>Koffer und Gepäck: So gehen Sie vor</h2>
 <ul>
 <li>Legen Sie den Tracker in den Koffer, in ein geschlossenes Fach, statt ihn außen zu befestigen, wo er abgerissen werden kann.</li>
 <li>Mit einem AirTag können Sie über „Objektstandort teilen“ einen zeitlich begrenzten Link an den Gepäckservice teilnehmender Airlines senden.</li>
@@ -348,22 +348,22 @@ export const article: BlogArticle = {
 
 <h2>Schutz vor unerwünschtem Tracking</h2>
 <p>Apple und Google haben gemeinsam eine Spezifikation zur Erkennung unerwünschter Tracker entwickelt. Seit iOS 17.5 und ab Android 6.0 warnt Ihr Handy, wenn ein unbekannter kompatibler Tracker (AirTag oder zertifiziertes Zubehör) mit Ihnen unterwegs zu sein scheint – unabhängig davon, mit welcher Plattform er gekoppelt ist. Unter Android lässt sich in Find Hub zudem manuell suchen. Die Tracker wechseln regelmäßig ihre Bluetooth-Kennung, um die Privatsphäre ihres Besitzers zu schützen.</p>
-<p>Praktisch heißt das: Ein Tracker ist nicht dafür gedacht, Personen zu verfolgen, und jemanden ohne sein Wissen zu orten, ist in vielen Ländern strafbar. Bei Haustieren können die Warnungen auch bei Passanten auslösen; ein GPS-Halsband ist hier die bessere Wahl.</p>
+<p>Praktisch heißt das: Ein Tracker ist nicht dafür gedacht, Personen zu verfolgen, und jemanden ohne sein Wissen zu orten, kann strafbar sein. Bei Haustieren können die Warnungen zudem auf den Handys von Passanten auftauchen; ein GPS-Halsband ist hier die bessere Wahl.</p>
 
 <h2>Fehler, die Sie vermeiden sollten</h2>
 <ul>
 <li><strong>Das falsche Ökosystem kaufen</strong>: Prüfen Sie zuerst die Kompatibilität, gerade bei Geschenken.</li>
 <li><strong>Glauben, ein universeller Tracker laufe in zwei Netzwerken gleichzeitig</strong>: Sie müssen sich für eines entscheiden.</li>
 <li><strong>Die Befestigung vergessen</strong>: Der AirTag hat keine Öse, planen Sie einen Anhänger ein.</li>
-<li><strong>Knopfzellen in Kinderreichweite lassen</strong>: Eine verschluckte CR2032 ist gefährlich; Ersatzbatterien unerreichbar lagern und Modelle mit sicherem Batteriefach wählen.</li>
-<li><strong>Benachrichtigungen deaktivieren</strong>: Ohne sie gibt es weder Zurückgelassen-Hinweise noch Tracking-Warnungen.</li>
+<li><strong>Knopfzellen in Kinderreichweite lassen</strong>: Eine verschluckte CR2032 ist gefährlich; Bewahren Sie Ersatzbatterien außer Reichweite von Kindern auf und wählen Sie Modelle mit sicher verschlossenem Batteriefach.</li>
+<li><strong>Benachrichtigungen deaktivieren</strong>: Ohne sie erhalten Sie weder Hinweise auf zurückgelassene Gegenstände noch Tracking-Warnungen.</li>
 </ul>
 
 <h2>Unser Fazit</h2>
 <p>Mit einem iPhone ist der <strong>Apple AirTag (2. Generation)</strong> die beste Wahl: sehr dichtes Netzwerk, verbesserte genaue Suche und Standortfreigabe für Airlines. Unter Android überzeugt der <strong>Chipolo POP</strong> mit Lautstärke und doppelter Kompatibilität, während der <strong>Ugreen FineTrack Duo</strong> die beste Option ist, um mehrere Gegenstände günstig auszustatten. Galaxy-Besitzer greifen zum <strong>SmartTag2</strong>. Mehr zum Schutz Ihres Zuhauses lesen Sie in unserem <a href="/de/blog/guide-securite-maison-connectee-2026">Ratgeber zur smarten Haussicherheit</a> und in unserem Beitrag zur <a href="/de/blog/alarme-maison-sans-abonnement">Alarmanlage ohne Abo</a>.</p>`,
 
-    es: `<p>El mejor localizador de objetos en 2026 depende ante todo de tu teléfono: con un iPhone, el <strong>Apple AirTag (2.ª generación)</strong> sigue siendo la opción más completa, mientras que en Android el <strong>Chipolo POP</strong> o el <strong>Ugreen FineTrack Duo</strong> aprovechan la red Encontrar de Google (Find Hub). Si tienes un Samsung Galaxy, te conviene el <strong>Galaxy SmartTag2</strong>, diseñado para SmartThings Find.</p>
-<p>Esta comparativa se basa en las especificaciones de los fabricantes, los análisis de la prensa especializada y las opiniones de compradores verificados. Abarca llaves, bolsos, maletas y carteras, y explica las alertas antirrastreo, que ya funcionan entre iOS y Android. Para ver toda la gama, visita nuestra sección de <a href="/es/securite-maison/trackers-objets">localizadores de objetos</a>.</p>
+    es: `<p>El mejor localizador de objetos en 2026 depende ante todo de tu teléfono: con un iPhone, el <strong>Apple AirTag (2.ª generación)</strong> sigue siendo la opción más completa, mientras que en Android el <strong>Chipolo POP</strong> o el <strong>Ugreen FineTrack Duo</strong> aprovechan la red Find Hub de Google. Si tienes un Samsung Galaxy, te conviene el <strong>Galaxy SmartTag2</strong>, diseñado para SmartThings Find.</p>
+<p>Esta comparativa se basa en las especificaciones de los fabricantes, los análisis de la prensa especializada y las opiniones de compradores verificados. Abarca llaves, bolsos, maletas y carteras, y repasa las alertas antirrastreo, que ya comparten iOS y Android. Para ver toda la gama, visita nuestra sección de <a href="/es/securite-maison/trackers-objets">localizadores de objetos</a>.</p>
 
 <h2>¿Cómo funciona un localizador de objetos?</h2>
 <p>Un localizador Bluetooth no tiene GPS ni tarjeta SIM. Emite una señal que tu móvil capta a unas decenas de metros. Más allá, depende de una <strong>red colaborativa</strong>: cualquier smartphone compatible que pase cerca registra su posición de forma anónima y la envía cifrada a su propietario. Cuantos más dispositivos tenga la red, más a menudo se actualiza la ubicación.</p>
@@ -371,57 +371,57 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Apple Buscar (Find My)</strong>: formada por iPhone, iPad y Mac de todo el mundo. Está abierta al AirTag y a los accesorios con el sello «Works with Apple Find My».</li>
 <li><strong>Google Find Hub</strong>: antes «Encontrar mi dispositivo», rebautizada Find Hub en 2025, se apoya en los móviles Android con servicios de Google. Funciona con localizadores certificados de Chipolo, Pebblebee, Ugreen y otros.</li>
-<li><strong>Samsung SmartThings Find</strong>: exclusiva de los smartphones Galaxy, aprovecha el gran parque de Samsung en Europa.</li>
+<li><strong>Samsung SmartThings Find</strong>: exclusiva de los móviles Galaxy, se apoya en los muchísimos teléfonos Samsung que hay en Europa.</li>
 </ul>
-<p>Tile, por su parte, usa su propia red a través de las apps Tile y Life360, en iOS y Android, pero con muchos menos dispositivos.</p>
+<p>Tile, por su parte, usa su propia red a través de las apps Tile y Life360, en iOS y Android, pero con muchos menos dispositivos que hagan de enlace.</p>
 
-<h2>Criterios de compra</h2>
+<h2>Qué tener en cuenta para elegir bien</h2>
 <h3>1. El ecosistema de tu smartphone</h3>
-<p>Es el criterio decisivo. Un AirTag no se configura en Android y un SmartTag2 exige un Galaxy. Los localizadores «universales» (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) funcionan con Apple Buscar <em>o</em> Google Find Hub, pero <strong>no con ambas a la vez</strong>: eliges la red en la configuración y debes restablecer el dispositivo para cambiar. Son ideales para hogares mixtos o si piensas cambiar de móvil.</p>
+<p>Es el criterio decisivo. Un AirTag no se configura en Android y un SmartTag2 exige un Galaxy. Los localizadores «universales» (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) funcionan con Apple Buscar <em>o</em> Google Find Hub, pero <strong>no con las dos a la vez</strong>: la red se elige al configurarlo y, para cambiarla, hay que restablecerlo. Son ideales si en casa conviven iPhone y Android o si piensas cambiar de móvil.</p>
 <h3>2. Batería: pila de botón o recargable</h3>
 <p>Los modelos con <strong>pila CR2032</strong> (AirTag, SmartTag2, Chipolo POP, Tile Pro) duran alrededor de un año, a veces más, y la pila se cambia en segundos. Los <strong>recargables</strong> (Pebblebee, Ugreen FineTrack Duo, Chipolo CARD) evitan comprar pilas, pero hay que acordarse de cargarlos por USB‑C o por inducción Qi.</p>
 <h3>3. Alcance y búsqueda precisa</h3>
 <p>El alcance Bluetooth anunciado va de una veintena a más de cien metros en campo abierto, mucho menos a través de paredes. Los chips de <strong>banda ultraancha (UWB)</strong> del AirTag y del SmartTag2 añaden una flecha de dirección y la distancia exacta en móviles compatibles, muy útil para encontrar las llaves bajo un cojín.</p>
-<h3>4. Volumen del timbre</h3>
-<p>Un zumbador potente ahorra tiempo en casa. Chipolo anuncia unos 120 dB para el POP, uno de los más altos del mercado; el AirTag de 2.ª generación suena un 50 % más fuerte que el original.</p>
+<h3>4. Volumen del sonido</h3>
+<p>Un pitido potente ahorra tiempo cuando lo buscas por casa. Chipolo anuncia unos 120 dB para el POP, uno de los más fuertes del mercado; el AirTag de 2.ª generación suena un 50 % más fuerte que el original.</p>
 <h3>5. Formato y resistencia al agua</h3>
 <p>Para un llavero, un localizador con orificio o anilla evita comprar una funda. Para una cartera, lo mejor es un <strong>formato tarjeta</strong> de pocos milímetros. Una protección IP67 o IP68 da tranquilidad con un bolso expuesto a la lluvia.</p>
 
 <h2>Los mejores localizadores de objetos de 2026</h2>
 <h3>Apple AirTag (2.ª generación): la referencia para iPhone</h3>
-<p>Presentado en enero de 2026, el nuevo AirTag mantiene el formato de canto rodado del original, compatible con todos sus accesorios, pero integra el <strong>chip de banda ultraancha de segunda generación</strong> de Apple. Según Apple, la búsqueda precisa funciona hasta un 50 % más lejos, el alcance Bluetooth aumenta y el altavoz es un 50 % más potente. Novedad: la búsqueda precisa también llega al Apple Watch (Series 9 y Ultra 2 o posteriores).</p>
-<p><strong>Puntos fuertes:</strong> la red Buscar más densa, pila CR2032 reemplazable, IP67, modo Perdido legible por NFC y posibilidad de compartir la ubicación del objeto con más de 50 aerolíneas si se pierde una maleta.</p>
-<p><strong>Limitaciones:</strong> exige iPhone o iPad, no tiene orificio (hace falta un llavero o funda) y la búsqueda precisa no está disponible en países que restringen la UWB.</p>
-<p><strong>Para quién:</strong> cualquier usuario de iPhone que quiera la solución más pulida.</p>
+<p>Presentado en enero de 2026, el nuevo AirTag mantiene la forma de disco del original, compatible con todos sus accesorios, pero integra el <strong>chip de banda ultraancha de segunda generación</strong> de Apple. Según Apple, la búsqueda precisa funciona hasta un 50 % más lejos, el alcance Bluetooth aumenta y el altavoz es un 50 % más potente. Una novedad que se agradece: la búsqueda precisa también llega al Apple Watch (Series 9 y Ultra 2 o posteriores).</p>
+<p><strong>Puntos fuertes:</strong> la red Buscar más densa, pila CR2032 reemplazable, IP67, modo Perdido legible por NFC y la opción de compartir la ubicación del objeto con más de 50 aerolíneas si se pierde una maleta.</p>
+<p><strong>Puntos débiles:</strong> exige iPhone o iPad, no tiene orificio (hace falta un llavero o funda) y la búsqueda precisa no está disponible en países que restringen la UWB.</p>
+<p><strong>Para quién:</strong> cualquier usuario de iPhone que quiera la opción más redonda.</p>
 
-<h3>Samsung Galaxy SmartTag2: la elección para usuarios de Galaxy</h3>
+<h3>Samsung Galaxy SmartTag2: la opción para quien tiene un Galaxy</h3>
 <p>El SmartTag2 tiene un formato alargado con una gran anilla integrada, práctica para un llavero o la correa de un bolso. Combina Bluetooth 5.3 y UWB, un alcance anunciado de hasta 120 m y hasta 500 días de autonomía con su pila CR2032 reemplazable. Tiene certificación IP67.</p>
 <p><strong>Puntos fuertes:</strong> anilla integrada, gran autonomía, búsqueda UWB con Galaxy compatibles, botón programable para controlar dispositivos SmartThings.</p>
-<p><strong>Limitaciones:</strong> solo para smartphones Samsung Galaxy; no funciona con iPhone ni con otras marcas Android.</p>
-<p><strong>Para quién:</strong> hogares con Galaxy y usuarios de SmartThings.</p>
+<p><strong>Puntos débiles:</strong> solo para smartphones Samsung Galaxy; no funciona con iPhone ni con móviles Android de otras marcas.</p>
+<p><strong>Para quién:</strong> hogares con móviles Galaxy y quienes ya usan SmartThings.</p>
 
 <h3>Chipolo POP: el más sonoro, para Android o iPhone</h3>
-<p>Diseñado y fabricado en Europa por la marca eslovena Chipolo, el POP funciona con Apple Buscar o con Google Find Hub, a elegir. Su timbre de unos 120 dB es de los más potentes del mercado. La pila CR2032 reemplazable dura cerca de un año y el alcance Bluetooth anunciado llega a 90 m.</p>
+<p>Diseñado y fabricado en Europa por la marca eslovena Chipolo, el POP funciona con Apple Buscar o con Google Find Hub, a elegir. Su sonido, de unos 120 dB según la marca, es de los más potentes del mercado. La pila CR2032 reemplazable dura cerca de un año y el alcance Bluetooth anunciado llega a 90 m.</p>
 <p><strong>Puntos fuertes:</strong> muy sonoro, compatible con las dos grandes redes, orificio integrado, varios colores.</p>
-<p><strong>Limitaciones:</strong> solo IP55 (salpicaduras y polvo), sin UWB, una sola red a la vez.</p>
+<p><strong>Puntos débiles:</strong> solo IP55 (salpicaduras y polvo), sin UWB, una sola red a la vez.</p>
 <p><strong>Para quién:</strong> usuarios de Android que buscan una alternativa seria al AirTag, y hogares mixtos.</p>
 
 <h3>Pebblebee Clip Universal: recargable y con luz</h3>
 <p>El Clip Universal de Pebblebee fue uno de los primeros localizadores compatibles con Apple Buscar o Google Find Hub. Su batería recargable por USB‑C dura hasta 12 meses por carga según el fabricante, y un LED ayuda a encontrarlo en la oscuridad.</p>
 <p><strong>Puntos fuertes:</strong> sin pilas que comprar, luz LED, clip práctico, resistente a salpicaduras.</p>
-<p><strong>Limitaciones:</strong> hay que recargarlo, una sola red a la vez, sin UWB.</p>
+<p><strong>Puntos débiles:</strong> hay que recargarlo, una sola red a la vez, sin UWB.</p>
 <p><strong>Para quién:</strong> quienes prefieren recargar a cambiar una pila.</p>
 
 <h3>Ugreen FineTrack Duo: la mejor relación calidad-precio</h3>
 <p>El FineTrack Duo de Ugreen está certificado para Apple Buscar y Google Find Hub (una red a la vez). Lleva una batería recargable por USB‑C con hasta 12 meses de autonomía anunciada y protección IP68. Suele venderse en packs de varias unidades, interesantes para equipar a toda la familia.</p>
-<p><strong>Puntos fuertes:</strong> gama de entrada, IP68, recargable, compatible con las dos redes.</p>
-<p><strong>Limitaciones:</strong> alcance Bluetooth directo modesto, acabado más sencillo que los modelos premium, sin UWB.</p>
-<p><strong>Para quién:</strong> presupuestos ajustados y quien quiera equipar varios objetos de golpe.</p>
+<p><strong>Puntos fuertes:</strong> modelo de gama de entrada, IP68, recargable, compatible con las dos redes.</p>
+<p><strong>Puntos débiles:</strong> alcance Bluetooth directo modesto, acabado más sencillo que el de los modelos de gama alta, sin UWB.</p>
+<p><strong>Para quién:</strong> presupuestos ajustados y quien quiera equipar varios objetos de una vez.</p>
 
 <h3>Tile Pro: independiente de Apple y Google</h3>
 <p>El Tile Pro (edición 2024) funciona con la app Tile o Life360, tanto en iOS como en Android. Anuncia hasta 150 m de alcance, protección IP68, un timbre potente y una pila reemplazable de alrededor de un año. Su botón multifunción también hace sonar el móvil.</p>
 <p><strong>Puntos fuertes:</strong> funciona con cualquier smartphone, gran alcance, robusto.</p>
-<p><strong>Limitaciones:</strong> red colaborativa mucho más reducida que las de Apple y Google; algunas funciones de Life360 dependen de la oferta de tu país.</p>
+<p><strong>Puntos débiles:</strong> red colaborativa mucho más reducida que las de Apple y Google; algunas funciones de Life360 dependen de la oferta de tu país.</p>
 <p><strong>Para quién:</strong> familias que ya usan Life360 o que tienen móviles de marcas distintas.</p>
 
 <h2>Tabla comparativa</h2>
@@ -434,46 +434,46 @@ export const article: BlogArticle = {
 <tr><td>Samsung Galaxy SmartTag2</td><td>SmartThings Find + UWB</td><td>Pila CR2032</td><td>IP67</td><td>Móviles Galaxy</td></tr>
 <tr><td>Chipolo POP</td><td>Apple o Google</td><td>Pila CR2032</td><td>IP55</td><td>Timbre muy potente</td></tr>
 <tr><td>Pebblebee Clip Universal</td><td>Apple o Google</td><td>Recargable USB‑C</td><td>Salpicaduras</td><td>Sin pilas, con LED</td></tr>
-<tr><td>Ugreen FineTrack Duo</td><td>Apple o Google</td><td>Recargable USB‑C</td><td>IP68</td><td>Presupuesto, packs</td></tr>
+<tr><td>Ugreen FineTrack Duo</td><td>Apple o Google</td><td>Recargable USB‑C</td><td>IP68</td><td>Poco presupuesto, packs</td></tr>
 <tr><td>Tile Pro</td><td>Tile / Life360</td><td>Pila reemplazable</td><td>IP68</td><td>Cualquier móvil</td></tr>
 </tbody>
 </table>
 
 <h2>Cartera: apuesta por un localizador en formato tarjeta</h2>
-<p>Un localizador redondo abulta en la cartera. Los de tamaño tarjeta de crédito son mucho más discretos: la <strong>Chipolo CARD</strong> (Apple o Google, carga inalámbrica Qi, IP67), la <strong>Pebblebee Card Universal</strong> (recargable, hasta 18 meses anunciados) o el <strong>Ugreen FineTrack Slim</strong>, de unos 1,7 mm de grosor y compatible con Apple Buscar. Apple y Samsung no ofrecen versión tarjeta.</p>
+<p>Un localizador redondo abulta en la cartera. Los de tamaño tarjeta de crédito son más discretos: la <strong>Chipolo CARD</strong> (Apple o Google, carga inalámbrica Qi, IP67), la <strong>Pebblebee Card Universal</strong> (recargable, hasta 18 meses anunciados) o el <strong>Ugreen FineTrack Slim</strong>, de unos 1,7 mm de grosor y compatible con Apple Buscar. Apple y Samsung no ofrecen versión tarjeta.</p>
 
-<h2>Maletas y equipaje: buenas prácticas</h2>
+<h2>Maletas y equipaje: lo que conviene hacer</h2>
 <ul>
-<li>Coloca el localizador dentro de la maleta, en un bolsillo cerrado, mejor que fuera, donde puede arrancarse.</li>
+<li>Coloca el localizador dentro de la maleta, en un bolsillo cerrado, y no por fuera, donde te lo pueden arrancar.</li>
 <li>Con un AirTag, la función Compartir ubicación de objeto permite enviar un enlace temporal al servicio de equipajes de las aerolíneas asociadas.</li>
-<li>Los localizadores pequeños con pila de botón suelen aceptarse en la bodega, pero revisa las normas de tu aerolínea, sobre todo con modelos recargables.</li>
+<li>Los localizadores pequeños con pila de botón suelen admitirse en la maleta facturada, pero revisa las normas de tu aerolínea, sobre todo con modelos recargables.</li>
 <li>Recuerda que la ubicación depende de que pasen smartphones cerca: en una zona cerrada de clasificación de equipajes, la posición puede no actualizarse.</li>
 </ul>
 
 <h2>Antirrastreo: lo que debes saber</h2>
-<p>Apple y Google desarrollaron juntos una especificación común para detectar localizadores no deseados. Desde iOS 17.5 y en Android 6.0 o posterior, el móvil te avisa si un localizador desconocido compatible (AirTag o accesorio certificado) parece desplazarse contigo, sea cual sea la plataforma a la que está vinculado. En Android, Find Hub permite además hacer un escaneo manual. Los localizadores cambian a menudo su identificador Bluetooth para proteger la privacidad de su propietario.</p>
-<p>En la práctica, un localizador no está pensado para seguir a una persona, y localizar a alguien sin su conocimiento es ilegal en muchos países. Con mascotas, estas alertas pueden saltar en los móviles de los transeúntes; mejor un collar GPS específico.</p>
+<p>Apple y Google han desarrollado juntos una especificación común para detectar localizadores no deseados. Desde iOS 17.5 y en Android 6.0 o posterior, el móvil te avisa si un localizador desconocido compatible (AirTag o accesorio certificado) parece desplazarse contigo, sea cual sea la plataforma a la que está vinculado. En Android, Find Hub permite además hacer una búsqueda manual. Los localizadores cambian a menudo su identificador Bluetooth para proteger la privacidad de su propietario.</p>
+<p>En la práctica, un localizador no está pensado para seguir a una persona, y en Francia la ley castiga geolocalizar a alguien sin que lo sepa. Con mascotas, estas alertas pueden saltar en los móviles de la gente que pasa cerca; mejor un collar GPS específico.</p>
 
 <h2>Errores que debes evitar</h2>
 <ul>
 <li><strong>Comprar para el ecosistema equivocado</strong>: comprueba la compatibilidad antes que nada, sobre todo si es un regalo.</li>
 <li><strong>Creer que un localizador universal funciona en dos redes a la vez</strong>: hay que elegir una.</li>
-<li><strong>Olvidar el enganche</strong>: el AirTag no tiene orificio, prevé un llavero.</li>
+<li><strong>Olvidar el enganche</strong>: el AirTag no tiene orificio, así que hazte con un llavero.</li>
 <li><strong>Dejar pilas de botón al alcance de los niños</strong>: tragarse una CR2032 es peligroso; guarda las pilas de repuesto en alto y elige modelos con compartimento bien cerrado.</li>
 <li><strong>Desactivar las notificaciones</strong>: sin ellas no recibirás avisos de olvido ni alertas antirrastreo.</li>
 </ul>
 
 <h2>Nuestro veredicto</h2>
-<p>Con un iPhone, el <strong>Apple AirTag (2.ª generación)</strong> es la mejor elección: red muy densa, búsqueda precisa mejorada y posibilidad de compartir la ubicación con aerolíneas. En Android, el <strong>Chipolo POP</strong> destaca por su timbre y su doble compatibilidad, y el <strong>Ugreen FineTrack Duo</strong> es la mejor opción para equipar varios objetos con poco presupuesto. Los usuarios de Galaxy optarán por el <strong>SmartTag2</strong>. Para reforzar la protección de tu hogar, lee nuestra <a href="/es/blog/guide-securite-maison-connectee-2026">guía de seguridad para el hogar conectado</a> y nuestro artículo sobre la <a href="/es/blog/alarme-maison-sans-abonnement">alarma sin suscripción</a>.</p>`,
+<p>Con un iPhone, el <strong>Apple AirTag (2.ª generación)</strong> es la mejor elección: red muy densa, búsqueda precisa mejorada y la opción de compartir la ubicación con las aerolíneas. En Android, el <strong>Chipolo POP</strong> destaca por su timbre y su doble compatibilidad, y el <strong>Ugreen FineTrack Duo</strong> es la mejor opción para equipar varios objetos con poco presupuesto. Los usuarios de Galaxy optarán por el <strong>SmartTag2</strong>. Para reforzar la protección de tu hogar, lee nuestra <a href="/es/blog/guide-securite-maison-connectee-2026">guía de seguridad para el hogar inteligente</a> y nuestro artículo sobre la <a href="/es/blog/alarme-maison-sans-abonnement">alarma sin cuotas</a>.</p>`,
 
-    it: `<p>Il miglior localizzatore di oggetti nel 2026 dipende prima di tutto dal tuo telefono: con un iPhone, l’<strong>Apple AirTag (2ª generazione)</strong> resta la scelta più completa, mentre su Android il <strong>Chipolo POP</strong> o l’<strong>Ugreen FineTrack Duo</strong> sfruttano la rete Trova di Google (Find Hub). Chi possiede un Samsung Galaxy dovrebbe guardare al <strong>Galaxy SmartTag2</strong>, pensato per SmartThings Find.</p>
-<p>Questo confronto si basa sulle schede tecniche dei produttori, sulle analisi della stampa specializzata e sulle opinioni di acquirenti verificati. Copre chiavi, borse, valigie e portafogli e spiega gli avvisi anti-tracciamento, che ormai funzionano tra iOS e Android. Per l’intera gamma, visita la nostra sezione <a href="/it/securite-maison/trackers-objets">localizzatori di oggetti</a>.</p>
+    it: `<p>Il miglior localizzatore di oggetti nel 2026 dipende prima di tutto dal tuo telefono: con un iPhone, l’<strong>Apple AirTag (2ª generazione)</strong> resta la scelta più completa, mentre su Android il <strong>Chipolo POP</strong> o l’<strong>Ugreen FineTrack Duo</strong> sfruttano la rete Google Find Hub. Se hai uno smartphone Samsung Galaxy, conviene puntare sul <strong>Galaxy SmartTag2</strong>, pensato per SmartThings Find.</p>
+<p>Questo confronto si basa sulle schede tecniche dei produttori, sulle analisi della stampa specializzata e sulle opinioni di acquirenti verificati. Copre chiavi, borse, valigie e portafogli e fa il punto sugli avvisi anti-tracciamento, ormai comuni a iOS e Android. Per l’intera gamma, visita la nostra sezione <a href="/it/securite-maison/trackers-objets">localizzatori Bluetooth</a>.</p>
 
 <h2>Come funziona un localizzatore di oggetti?</h2>
-<p>Un localizzatore Bluetooth non ha né GPS né SIM. Emette un segnale che il telefono capta entro qualche decina di metri. Oltre, si affida a una <strong>rete collaborativa</strong>: qualsiasi smartphone compatibile che passa nelle vicinanze ne rileva in forma anonima la posizione e la invia cifrata al proprietario. Più dispositivi ci sono nella rete, più spesso la posizione si aggiorna.</p>
+<p>Un localizzatore Bluetooth non ha né GPS né SIM. Emette un segnale che il telefono capta entro qualche decina di metri. Oltre questa distanza, si affida a una <strong>rete collaborativa</strong>: qualsiasi smartphone compatibile che passa nelle vicinanze ne rileva in forma anonima la posizione e la invia cifrata al proprietario. Più dispositivi ci sono nella rete, più spesso la posizione si aggiorna.</p>
 <p>In Europa dominano tre grandi reti:</p>
 <ul>
-<li><strong>Apple Dov’è (Find My)</strong>: alimentata da iPhone, iPad e Mac in tutto il mondo. È aperta ad AirTag e agli accessori certificati «Works with Apple Find My».</li>
+<li><strong>Apple Dov’è (Find My)</strong>: alimentata da iPhone, iPad e Mac in tutto il mondo. È aperta all’AirTag e agli accessori certificati «Works with Apple Find My».</li>
 <li><strong>Google Find Hub</strong>: l’ex «Trova il mio dispositivo», rinominata Find Hub nel 2025, si basa sugli smartphone Android con servizi Google. Funziona con i localizzatori certificati di Chipolo, Pebblebee, Ugreen e altri.</li>
 <li><strong>Samsung SmartThings Find</strong>: riservata agli smartphone Galaxy, sfrutta l’ampia base di utenti Samsung in Europa.</li>
 </ul>
@@ -481,34 +481,34 @@ export const article: BlogArticle = {
 
 <h2>I criteri di scelta</h2>
 <h3>1. L’ecosistema del tuo smartphone</h3>
-<p>È il criterio decisivo. Un AirTag non si configura su Android e uno SmartTag2 richiede un Galaxy. I localizzatori «universali» (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) funzionano con Apple Dov’è <em>oppure</em> Google Find Hub, ma <strong>non con entrambe contemporaneamente</strong>: si sceglie la rete durante la configurazione e per cambiarla bisogna ripristinare il dispositivo. Ideali per famiglie miste o se pensi di cambiare telefono.</p>
+<p>È il criterio decisivo. Un AirTag non si configura su Android e uno SmartTag2 richiede un Galaxy. I localizzatori «universali» (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) funzionano con Apple Dov’è <em>oppure</em> Google Find Hub, ma <strong>non con entrambe contemporaneamente</strong>: si sceglie la rete durante la configurazione e per cambiarla bisogna ripristinare il dispositivo. Sono ideali se in famiglia convivono iPhone e Android o se pensi di cambiare telefono.</p>
 <h3>2. Batteria: a bottone o ricaricabile</h3>
 <p>I modelli con <strong>pila CR2032</strong> (AirTag, SmartTag2, Chipolo POP, Tile Pro) durano circa un anno, a volte di più, e la pila si sostituisce in pochi secondi. I modelli <strong>ricaricabili</strong> (Pebblebee, Ugreen FineTrack Duo, Chipolo CARD) evitano l’acquisto di pile, ma vanno ricaricati via USB‑C o a induzione Qi.</p>
 <h3>3. Portata e ricerca di precisione</h3>
 <p>La portata Bluetooth dichiarata va da una ventina a oltre cento metri in campo aperto, molto meno attraverso i muri. I chip <strong>a banda ultralarga (UWB)</strong> di AirTag e SmartTag2 aggiungono una freccia direzionale e la distanza esatta sui telefoni compatibili: comodissimo per trovare le chiavi sotto un cuscino.</p>
 <h3>4. Volume della suoneria</h3>
-<p>Un cicalino potente fa risparmiare tempo in casa. Chipolo dichiara circa 120 dB per il POP, uno dei più forti sul mercato; l’AirTag di 2ª generazione è più forte del 50 % rispetto al primo.</p>
+<p>Una suoneria potente fa risparmiare tempo quando cerchi qualcosa in casa. Chipolo dichiara circa 120 dB per il POP, uno dei più forti sul mercato; l’AirTag di 2ª generazione è più forte del 50% rispetto al primo.</p>
 <h3>5. Formato e resistenza all’acqua</h3>
-<p>Per un mazzo di chiavi, un localizzatore con foro o anello evita l’acquisto di una custodia. Per un portafoglio serve un <strong>formato carta</strong> di pochi millimetri. Una protezione IP67 o IP68 rassicura per una borsa esposta alla pioggia.</p>
+<p>Per un mazzo di chiavi, un localizzatore con foro o anello evita l’acquisto di una custodia. Per un portafoglio serve un <strong>formato carta</strong> di pochi millimetri. Per una borsa che prende spesso la pioggia, una protezione IP67 o IP68 è una garanzia in più.</p>
 
 <h2>I migliori localizzatori di oggetti del 2026</h2>
 <h3>Apple AirTag (2ª generazione): il riferimento per iPhone</h3>
-<p>Presentato a gennaio 2026, il nuovo AirTag mantiene la forma a ciottolo del primo modello, compatibile con tutti i suoi accessori, ma integra il <strong>chip a banda ultralarga di seconda generazione</strong> di Apple. Secondo Apple, la ricerca di precisione funziona fino al 50 % più lontano, la portata Bluetooth aumenta e l’altoparlante è più forte del 50 %. Novità gradita: la ricerca di precisione arriva anche su Apple Watch (Series 9 e Ultra 2 o successivi).</p>
+<p>Presentato a gennaio 2026, il nuovo AirTag mantiene la forma tonda del primo modello, compatibile con tutti i suoi accessori, ma integra il <strong>chip a banda ultralarga di seconda generazione</strong> di Apple. Secondo Apple, la ricerca di precisione funziona fino al 50% più lontano, la portata Bluetooth aumenta e l’altoparlante è più forte del 50%. Novità gradita: la ricerca di precisione arriva anche su Apple Watch (Series 9 e Ultra 2 o successivi).</p>
 <p><strong>Punti di forza:</strong> la rete Dov’è più densa, pila CR2032 sostituibile, IP67, modalità Smarrito leggibile via NFC, condivisione della posizione dell’oggetto con oltre 50 compagnie aeree in caso di bagaglio smarrito.</p>
 <p><strong>Limiti:</strong> richiede iPhone o iPad, nessun foro (serve un portachiavi o una custodia), ricerca di precisione non disponibile nei Paesi che limitano l’UWB.</p>
-<p><strong>Per chi:</strong> ogni utente iPhone che vuole la soluzione più rifinita.</p>
+<p><strong>Per chi:</strong> chiunque usi un iPhone e voglia la soluzione più curata.</p>
 
 <h3>Samsung Galaxy SmartTag2: la scelta per chi ha un Galaxy</h3>
 <p>Lo SmartTag2 ha una forma allungata con un ampio anello integrato, pratico per un mazzo di chiavi o la tracolla di una borsa. Combina Bluetooth 5.3 e UWB, una portata dichiarata fino a 120 m e fino a 500 giorni di autonomia con la pila CR2032 sostituibile. È certificato IP67.</p>
 <p><strong>Punti di forza:</strong> anello integrato, lunga autonomia, ricerca UWB con i Galaxy compatibili, pulsante programmabile per controllare dispositivi SmartThings.</p>
 <p><strong>Limiti:</strong> solo per smartphone Samsung Galaxy; non funziona con iPhone o con altre marche Android.</p>
-<p><strong>Per chi:</strong> famiglie con Galaxy e utenti SmartThings.</p>
+<p><strong>Per chi:</strong> famiglie che usano smartphone Galaxy e chi usa già SmartThings.</p>
 
 <h3>Chipolo POP: il più rumoroso, per Android o iPhone</h3>
 <p>Progettato e prodotto in Europa dal marchio sloveno Chipolo, il POP funziona a scelta con Apple Dov’è o Google Find Hub. La sua suoneria da circa 120 dB è tra le più potenti sul mercato. La pila CR2032 sostituibile dura circa un anno e la portata Bluetooth dichiarata arriva a 90 m.</p>
 <p><strong>Punti di forza:</strong> molto rumoroso, compatibile con le due grandi reti, foro integrato, diversi colori.</p>
 <p><strong>Limiti:</strong> solo IP55 (spruzzi e polvere), niente UWB, una rete alla volta.</p>
-<p><strong>Per chi:</strong> utenti Android che cercano un’alternativa credibile ad AirTag, e famiglie miste.</p>
+<p><strong>Per chi:</strong> utenti Android che cercano un’alternativa credibile all’AirTag, e famiglie in cui convivono iPhone e Android.</p>
 
 <h3>Pebblebee Clip Universal: ricaricabile e con luce</h3>
 <p>Il Clip Universal di Pebblebee è stato uno dei primi localizzatori compatibili con Apple Dov’è o Google Find Hub. La batteria ricaricabile via USB‑C dura fino a 12 mesi per carica secondo il produttore, e un LED aiuta a trovarlo al buio.</p>
@@ -517,10 +517,10 @@ export const article: BlogArticle = {
 <p><strong>Per chi:</strong> chi preferisce ricaricare piuttosto che cambiare una pila.</p>
 
 <h3>Ugreen FineTrack Duo: il miglior rapporto qualità-prezzo</h3>
-<p>Il FineTrack Duo di Ugreen è certificato per Apple Dov’è e Google Find Hub (una rete alla volta). Ha una batteria ricaricabile via USB‑C con autonomia dichiarata fino a 12 mesi e protezione IP68. Spesso è venduto in confezioni multiple, utili per equipaggiare tutta la famiglia.</p>
+<p>Il FineTrack Duo di Ugreen è certificato per Apple Dov’è e Google Find Hub (una rete alla volta). Ha una batteria ricaricabile via USB‑C con autonomia dichiarata fino a 12 mesi e protezione IP68. Spesso si trova in confezioni da più pezzi, comode per tutta la famiglia.</p>
 <p><strong>Punti di forza:</strong> fascia d’ingresso, IP68, ricaricabile, compatibile con entrambe le reti.</p>
 <p><strong>Limiti:</strong> portata Bluetooth diretta modesta, finiture più semplici dei modelli premium, niente UWB.</p>
-<p><strong>Per chi:</strong> budget ridotti e chi vuole equipaggiare più oggetti in una volta.</p>
+<p><strong>Per chi:</strong> chi ha un budget ridotto e vuole localizzare più oggetti in una volta sola.</p>
 
 <h3>Tile Pro: indipendente da Apple e Google</h3>
 <p>Il Tile Pro (edizione 2024) funziona con l’app Tile o Life360, sia su iOS sia su Android. Dichiara fino a 150 m di portata, protezione IP68, una suoneria potente e una pila sostituibile che dura circa un anno. Il pulsante multifunzione permette anche di far squillare il telefono.</p>
@@ -544,23 +544,23 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Portafoglio: scegli un localizzatore in formato carta</h2>
-<p>Un localizzatore tondo crea un rigonfiamento nel portafoglio. Quelli in formato carta di credito sono molto più discreti: la <strong>Chipolo CARD</strong> (Apple o Google, ricarica wireless Qi, IP67), la <strong>Pebblebee Card Universal</strong> (ricaricabile, fino a 18 mesi dichiarati) o l’<strong>Ugreen FineTrack Slim</strong>, spesso circa 1,7 mm e compatibile con Apple Dov’è. Apple e Samsung non offrono una versione a carta.</p>
+<p>Un localizzatore tondo crea un rigonfiamento nel portafoglio. Quelli in formato carta di credito sono molto più discreti: la <strong>Chipolo CARD</strong> (Apple o Google, ricarica wireless Qi, IP67), la <strong>Pebblebee Card Universal</strong> (ricaricabile, fino a 18 mesi dichiarati) o l’<strong>Ugreen FineTrack Slim</strong>, con uno spessore di circa 1,7 mm e compatibile con Apple Dov’è. Apple e Samsung non offrono una versione a carta.</p>
 
 <h2>Valigie e bagagli: le buone abitudini</h2>
 <ul>
 <li>Metti il localizzatore dentro la valigia, in una tasca chiusa, invece che all’esterno, dove può essere strappato.</li>
 <li>Con un AirTag, la funzione Condividi posizione oggetto permette di inviare un link temporaneo al servizio bagagli delle compagnie aeree partner.</li>
 <li>I piccoli localizzatori con pila a bottone sono generalmente ammessi in stiva, ma verifica le regole della tua compagnia, soprattutto per i modelli ricaricabili.</li>
-<li>Ricorda che la posizione dipende dal passaggio di smartphone: in un’area chiusa di smistamento bagagli potrebbe non aggiornarsi.</li>
+<li>Ricorda che la posizione si aggiorna solo se passano smartphone nelle vicinanze: in un’area chiusa di smistamento bagagli potrebbe restare ferma.</li>
 </ul>
 
 <h2>Anti-tracciamento: cosa sapere</h2>
 <p>Apple e Google hanno sviluppato insieme una specifica comune per rilevare i localizzatori indesiderati. Da iOS 17.5 e su Android 6.0 o successivi, il telefono ti avvisa se un localizzatore sconosciuto compatibile (AirTag o accessorio certificato) sembra spostarsi con te, qualunque sia la piattaforma a cui è associato. Su Android, Find Hub consente anche una scansione manuale. I localizzatori cambiano regolarmente il proprio identificativo Bluetooth per tutelare la privacy del proprietario.</p>
-<p>In pratica, un localizzatore non è fatto per seguire una persona, e localizzare qualcuno a sua insaputa è illegale in molti Paesi. Per gli animali, questi avvisi possono scattare anche sui telefoni dei passanti; meglio un collare GPS dedicato.</p>
+<p>In pratica, un localizzatore non è fatto per seguire una persona, e in Francia localizzare qualcuno a sua insaputa è punito dalla legge. Per gli animali, questi avvisi possono scattare anche sui telefoni dei passanti; meglio un collare GPS dedicato.</p>
 
 <h2>Errori da evitare</h2>
 <ul>
-<li><strong>Comprare per l’ecosistema sbagliato</strong>: verifica prima la compatibilità, soprattutto per un regalo.</li>
+<li><strong>Comprare un modello per l’ecosistema sbagliato</strong>: verifica prima la compatibilità, soprattutto per un regalo.</li>
 <li><strong>Pensare che un localizzatore universale funzioni su due reti insieme</strong>: bisogna sceglierne una.</li>
 <li><strong>Dimenticare l’aggancio</strong>: l’AirTag non ha foro, prevedi un portachiavi.</li>
 <li><strong>Lasciare le pile a bottone alla portata dei bambini</strong>: ingerire una CR2032 è pericoloso; conserva le pile di ricambio in alto e scegli modelli con vano batteria ben chiuso.</li>
@@ -568,7 +568,7 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Il nostro verdetto</h2>
-<p>Con un iPhone, l’<strong>Apple AirTag (2ª generazione)</strong> è la scelta migliore: rete molto densa, ricerca di precisione migliorata e condivisione della posizione con le compagnie aeree. Su Android, il <strong>Chipolo POP</strong> si distingue per suoneria e doppia compatibilità, mentre l’<strong>Ugreen FineTrack Duo</strong> è l’opzione migliore per equipaggiare più oggetti spendendo poco. Chi ha un Galaxy sceglierà lo <strong>SmartTag2</strong>. Per proteggere meglio la casa, leggi la nostra <a href="/it/blog/guide-securite-maison-connectee-2026">guida alla sicurezza della casa connessa</a> e il nostro approfondimento sull’<a href="/it/blog/alarme-maison-sans-abonnement">allarme senza abbonamento</a>.</p>`,
+<p>Con un iPhone, l’<strong>Apple AirTag (2ª generazione)</strong> è la scelta migliore: rete molto densa, ricerca di precisione migliorata e condivisione della posizione con le compagnie aeree. Su Android, il <strong>Chipolo POP</strong> si distingue per suoneria e doppia compatibilità, mentre l’<strong>Ugreen FineTrack Duo</strong> è l’opzione migliore per localizzare più oggetti spendendo poco. Chi ha un Galaxy sceglierà lo <strong>SmartTag2</strong>. Per proteggere meglio la casa, leggi la nostra <a href="/it/blog/guide-securite-maison-connectee-2026">guida alla sicurezza della casa smart</a> e il nostro approfondimento sull’<a href="/it/blog/alarme-maison-sans-abonnement">allarme senza abbonamento</a>.</p>`,
 
     nl: `<p>Welke tracker in 2026 de beste is, hangt vooral af van je telefoon: met een iPhone blijft de <strong>Apple AirTag (2e generatie)</strong> de meest complete keuze, terwijl op Android de <strong>Chipolo POP</strong> of de <strong>Ugreen FineTrack Duo</strong> het Zoek-netwerk van Google (Find Hub) gebruiken. Heb je een Samsung Galaxy, kijk dan naar de <strong>Galaxy SmartTag2</strong>, gemaakt voor SmartThings Find.</p>
 <p>Deze vergelijking is gebaseerd op specificaties van fabrikanten, beoordelingen in de vakpers en geverifieerde klantbeoordelingen. Ze behandelt sleutels, tassen, koffers en portemonnees, en legt de waarschuwingen tegen ongewenst volgen uit die nu tussen iOS en Android werken. Het volledige aanbod vind je in onze rubriek <a href="/nl/securite-maison/trackers-objets">trackers voor spullen</a>.</p>
@@ -1102,10 +1102,10 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Non pour la configuration et la localisation : il faut un iPhone ou un iPad. Un smartphone Android peut seulement détecter un AirTag inconnu qui se déplace avec vous, grâce aux alertes anti-pistage, ou lire par NFC le message d’un AirTag en mode Perdu. Avec Android, choisissez un traceur compatible Google Find Hub, comme le Chipolo POP ou l’Ugreen FineTrack Duo.`,
-        en: `Not for setup and tracking: you need an iPhone or iPad. An Android phone can only detect an unknown AirTag travelling with you through anti-stalking alerts, or read a Lost Mode AirTag’s message via NFC. With Android, choose a tracker compatible with Google Find Hub, such as the Chipolo POP or Ugreen FineTrack Duo.`,
-        de: `Nicht für Einrichtung und Ortung: Dafür brauchen Sie ein iPhone oder iPad. Ein Android-Handy kann einen fremden AirTag, der mit Ihnen unterwegs ist, nur über die Tracking-Warnungen erkennen oder die Nachricht eines AirTags im Verloren-Modus per NFC auslesen. Mit Android wählen Sie einen Find-Hub-kompatiblen Tracker wie den Chipolo POP oder den Ugreen FineTrack Duo.`,
-        es: `No para configurarlo ni localizarlo: necesitas un iPhone o iPad. Un móvil Android solo puede detectar un AirTag desconocido que viaja contigo gracias a las alertas antirrastreo, o leer por NFC el mensaje de un AirTag en modo Perdido. Con Android, elige un localizador compatible con Google Find Hub, como el Chipolo POP o el Ugreen FineTrack Duo.`,
-        it: `No per la configurazione e la localizzazione: serve un iPhone o un iPad. Uno smartphone Android può solo rilevare un AirTag sconosciuto che si sposta con te grazie agli avvisi anti-tracciamento, oppure leggere via NFC il messaggio di un AirTag in modalità Smarrito. Con Android, scegli un localizzatore compatibile con Google Find Hub, come il Chipolo POP o l’Ugreen FineTrack Duo.`,
+        en: `Not for setting it up or locating it: you need an iPhone or iPad. An Android phone can only detect an unknown AirTag travelling with you, thanks to anti-stalking alerts, or read the message on an AirTag in Lost Mode via NFC. If you use Android, choose a tracker that works with Google Find Hub, such as the Chipolo POP or the Ugreen FineTrack Duo.`,
+        de: `Nicht für Einrichtung und Ortung: Dafür brauchen Sie ein iPhone oder iPad. Ein Android-Handy kann einen fremden AirTag, der mit Ihnen unterwegs ist, nur über die Tracking-Warnungen erkennen oder die Nachricht eines AirTags im Verloren-Modus per NFC auslesen. Mit einem Android-Handy nehmen Sie besser einen Tracker für Google Find Hub, etwa den Chipolo POP oder den Ugreen FineTrack Duo.`,
+        es: `No para configurarlo ni para localizarlo: necesitas un iPhone o un iPad. Un móvil Android solo puede, gracias a las alertas antirrastreo, detectar un AirTag desconocido que se desplaza contigo, o leer por NFC el mensaje de un AirTag en modo Perdido. Si tienes Android, elige un localizador compatible con Google Find Hub, como el Chipolo POP o el Ugreen FineTrack Duo.`,
+        it: `No, per la configurazione e la localizzazione serve un iPhone o un iPad. Uno smartphone Android può solo rilevare un AirTag sconosciuto che si sposta con te, grazie agli avvisi anti-tracciamento, oppure leggere via NFC il messaggio di un AirTag in modalità Smarrito. Se hai Android, scegli un localizzatore compatibile con Google Find Hub, come il Chipolo POP o l’Ugreen FineTrack Duo.`,
         nl: `Niet om in te stellen en te lokaliseren: daarvoor heb je een iPhone of iPad nodig. Een Android-telefoon kan een onbekende AirTag die met je meereist alleen opmerken via de waarschuwingen tegen ongewenst volgen, of het bericht van een AirTag in Verloren-modus via NFC lezen. Met Android kies je een tracker die werkt met Google Find Hub, zoals de Chipolo POP of de Ugreen FineTrack Duo.`,
         pl: `Nie, jeśli chodzi o konfigurację i lokalizowanie – do tego potrzebny jest iPhone lub iPad. Smartfon z Androidem może jedynie wykryć nieznany AirTag, który przemieszcza się razem z Tobą (dzięki alertom o niechcianym śledzeniu), albo odczytać przez NFC wiadomość z AirTaga oznaczonego jako utracony. Jeśli masz Androida, wybierz lokalizator zgodny z Google Find Hub, np. Chipolo POP lub Ugreen FineTrack Duo.`,
         sv: `Inte för att ställa in och spåra den: då behöver du en iPhone eller iPad. En Android-mobil kan bara upptäcka en okänd AirTag som följer med dig, via varningarna om oönskad spårning, eller läsa meddelandet från en AirTag i Förlorat läge med NFC. Har du Android ska du välja en spårare som fungerar med Google Find Hub, till exempel Chipolo POP eller Ugreen FineTrack Duo.`,
@@ -1116,7 +1116,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: `Quelle est la portée réelle d’un traceur Bluetooth ?`,
-        en: `What is the real range of a Bluetooth tracker?`,
+        en: `What range does a Bluetooth tracker actually have?`,
         de: `Wie groß ist die tatsächliche Reichweite eines Bluetooth-Trackers?`,
         es: `¿Cuál es el alcance real de un localizador Bluetooth?`,
         it: `Qual è la portata reale di un localizzatore Bluetooth?`,
@@ -1128,10 +1128,10 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Les fabricants annoncent de 20 à 150 m en champ libre, mais murs, sacs et corps humains réduisent fortement cette distance. Au-delà, la position est relayée par les smartphones du réseau (Apple, Google, Samsung ou Tile) qui passent à proximité : la portée devient alors pratiquement illimitée dans les zones fréquentées.`,
-        en: `Manufacturers claim 20 to 150 m in open space, but walls, bags and people greatly reduce that distance. Beyond it, the location is relayed by smartphones on the network (Apple, Google, Samsung or Tile) that pass nearby, so range becomes practically unlimited in busy areas.`,
-        de: `Hersteller geben 20 bis 150 m im Freien an, doch Wände, Taschen und Menschen verringern die Distanz deutlich. Darüber hinaus übermitteln vorbeikommende Smartphones des Netzwerks (Apple, Google, Samsung oder Tile) den Standort – in belebten Gegenden ist die Reichweite damit praktisch unbegrenzt.`,
-        es: `Los fabricantes anuncian de 20 a 150 m en campo abierto, pero paredes, bolsos y personas reducen mucho esa distancia. Más allá, la ubicación la transmiten los smartphones de la red (Apple, Google, Samsung o Tile) que pasan cerca, así que en zonas concurridas el alcance es prácticamente ilimitado.`,
-        it: `I produttori dichiarano da 20 a 150 m in campo aperto, ma muri, borse e persone riducono molto questa distanza. Oltre, la posizione viene trasmessa dagli smartphone della rete (Apple, Google, Samsung o Tile) che passano vicino: nelle zone frequentate la portata diventa praticamente illimitata.`,
+        en: `Manufacturers claim 20 to 150 m in open space, but walls, bags and people cut that distance considerably. Beyond that, the location is relayed by phones on the network (Apple, Google, Samsung or Tile) that pass nearby, so in busy areas the range is practically unlimited.`,
+        de: `Hersteller geben 20 bis 150 m im Freien an, doch Wände, Taschen und Menschen verringern diese Distanz deutlich. Darüber hinaus übermitteln vorbeikommende Smartphones des Netzwerks (Apple, Google, Samsung oder Tile) den Standort. In belebten Gegenden ist die Reichweite damit praktisch unbegrenzt.`,
+        es: `Los fabricantes anuncian de 20 a 150 m en campo abierto, pero las paredes, los bolsos y las personas reducen mucho esa distancia. Más allá, la ubicación la transmiten los móviles de la red (Apple, Google, Samsung o Tile) que pasan cerca, así que en zonas concurridas el alcance es prácticamente ilimitado.`,
+        it: `I produttori dichiarano da 20 a 150 m in campo aperto, ma muri, borse e persone riducono molto questa distanza. Oltre questo raggio, la posizione viene trasmessa dagli smartphone della rete (Apple, Google, Samsung o Tile) che passano nelle vicinanze: nelle zone frequentate la portata diventa così praticamente illimitata.`,
         nl: `Fabrikanten noemen 20 tot 150 m in open ruimte, maar muren, tassen en mensen verkleinen die afstand flink. Daarbuiten geven passerende smartphones van het netwerk (Apple, Google, Samsung of Tile) de locatie door, waardoor het bereik in drukke gebieden vrijwel onbeperkt is.`,
         pl: `Producenci podają od 20 do 150 m na otwartej przestrzeni, ale ściany, torby i ludzie znacznie skracają ten dystans. Poza tym zasięgiem położenie lokalizatora przekazują przechodzące w pobliżu smartfony należące do danej sieci (Apple, Google, Samsung lub Tile), więc w ruchliwych miejscach zasięg jest praktycznie nieograniczony.`,
         sv: `Tillverkarna anger 20–150 m i fritt fält, men väggar, väskor och människor minskar avståndet kraftigt. Längre bort förmedlas positionen av mobiler i nätverket (Apple, Google, Samsung eller Tile) som passerar i närheten, så räckvidden blir i praktiken obegränsad där det rör sig mycket folk.`,
@@ -1142,7 +1142,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: `Peut-on utiliser un traceur à la fois avec un iPhone et un Android ?`,
-        en: `Can a tracker work with both an iPhone and an Android phone?`,
+        en: `Can I use one tracker with both an iPhone and an Android phone?`,
         de: `Kann ein Tracker gleichzeitig mit iPhone und Android genutzt werden?`,
         es: `¿Se puede usar un localizador con un iPhone y un Android a la vez?`,
         it: `Si può usare un localizzatore sia con iPhone sia con Android?`,
@@ -1154,10 +1154,10 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Pas simultanément. Les modèles universels (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) se configurent sur Apple Localiser ou sur Google Find Hub ; pour changer, il faut les réinitialiser. Seul Tile fonctionne sur les deux systèmes via son application, mais avec un réseau plus réduit.`,
-        en: `Not at the same time. Universal models (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) are set up on Apple Find My or Google Find Hub; switching requires a reset. Only Tile works on both systems through its app, but with a smaller network.`,
+        en: `Not at the same time. Universal models (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) are set up on either Apple Find My or Google Find Hub, and you have to reset them to switch. Only Tile works on both systems through its own app, but its network is smaller.`,
         de: `Nicht gleichzeitig. Universelle Modelle (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) werden entweder mit Apple „Wo ist?“ oder Google Find Hub eingerichtet; für einen Wechsel ist ein Zurücksetzen nötig. Nur Tile läuft über seine App auf beiden Systemen, allerdings mit kleinerem Netzwerk.`,
-        es: `No a la vez. Los modelos universales (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) se configuran en Apple Buscar o en Google Find Hub; para cambiar hay que restablecerlos. Solo Tile funciona en ambos sistemas con su app, pero con una red más pequeña.`,
-        it: `Non contemporaneamente. I modelli universali (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) si configurano su Apple Dov’è oppure su Google Find Hub; per cambiare bisogna ripristinarli. Solo Tile funziona su entrambi i sistemi tramite la sua app, ma con una rete più piccola.`,
+        es: `No a la vez. Los modelos universales (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) se configuran en Apple Buscar o en Google Find Hub; para cambiar de red hay que restablecerlos. Solo Tile funciona en los dos sistemas con su propia app, pero con una red más pequeña.`,
+        it: `Non contemporaneamente. I modelli universali (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) si configurano su Apple Dov’è oppure su Google Find Hub; per cambiare rete bisogna ripristinarli. Solo Tile funziona su entrambi i sistemi tramite la sua app, ma con una rete meno estesa.`,
         nl: `Niet tegelijk. Universele modellen (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) stel je in op Apple Zoek mijn of Google Find Hub; om te wisselen moet je ze resetten. Alleen Tile werkt via zijn app op beide systemen, maar met een kleiner netwerk.`,
         pl: `Nie jednocześnie. Modele uniwersalne (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) konfiguruje się albo w Apple Find My, albo w Google Find Hub, a przejście do drugiej sieci wymaga zresetowania urządzenia. Tylko Tile działa w obu systemach dzięki własnej aplikacji, ale jego sieć jest mniejsza.`,
         sv: `Inte samtidigt. Universella modeller (Chipolo POP, Pebblebee Universal, Ugreen FineTrack Duo) ställs in för Apple Hitta eller Google Find Hub, och för att byta måste du återställa dem. Bara Tile fungerar på båda systemen via sin app, men med ett mindre nätverk.`,
@@ -1168,7 +1168,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: `Combien de temps dure la pile d’un traceur d’objets ?`,
-        en: `How long does an item tracker’s battery last?`,
+        en: `How long does a Bluetooth tracker battery last?`,
         de: `Wie lange hält die Batterie eines Bluetooth-Trackers?`,
         es: `¿Cuánto dura la batería de un localizador de objetos?`,
         it: `Quanto dura la batteria di un localizzatore di oggetti?`,
@@ -1180,10 +1180,10 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Environ un an pour la plupart des modèles à pile CR2032 (AirTag, Chipolo POP, Tile Pro), jusqu’à 500 jours annoncés pour le Galaxy SmartTag2. Les modèles rechargeables comme le Pebblebee Clip Universal ou l’Ugreen FineTrack Duo annoncent jusqu’à 12 mois par charge. L’application vous prévient quand la batterie faiblit.`,
-        en: `About a year for most CR2032 models (AirTag, Chipolo POP, Tile Pro), and up to 500 days claimed for the Galaxy SmartTag2. Rechargeable models such as the Pebblebee Clip Universal or Ugreen FineTrack Duo claim up to 12 months per charge. The app warns you when the battery is low.`,
+        en: `About a year for most models that take a CR2032 coin cell (AirTag, Chipolo POP, Tile Pro), and up to 500 days claimed for the Galaxy SmartTag2. Rechargeable models such as the Pebblebee Clip Universal or the Ugreen FineTrack Duo claim up to 12 months per charge. The app warns you when the battery is running low.`,
         de: `Bei den meisten Modellen mit CR2032 (AirTag, Chipolo POP, Tile Pro) rund ein Jahr, beim Galaxy SmartTag2 laut Samsung bis zu 500 Tage. Aufladbare Modelle wie Pebblebee Clip Universal oder Ugreen FineTrack Duo geben bis zu 12 Monate pro Ladung an. Die App warnt bei niedrigem Ladestand.`,
         es: `Alrededor de un año en la mayoría de modelos con pila CR2032 (AirTag, Chipolo POP, Tile Pro), y hasta 500 días anunciados en el Galaxy SmartTag2. Los recargables como el Pebblebee Clip Universal o el Ugreen FineTrack Duo anuncian hasta 12 meses por carga. La app te avisa cuando la batería está baja.`,
-        it: `Circa un anno per la maggior parte dei modelli con pila CR2032 (AirTag, Chipolo POP, Tile Pro), fino a 500 giorni dichiarati per il Galaxy SmartTag2. I ricaricabili come Pebblebee Clip Universal o Ugreen FineTrack Duo dichiarano fino a 12 mesi per carica. L’app ti avvisa quando la batteria è scarica.`,
+        it: `Circa un anno per la maggior parte dei modelli con pila CR2032 (AirTag, Chipolo POP, Tile Pro), fino a 500 giorni dichiarati per il Galaxy SmartTag2. I modelli ricaricabili come il Pebblebee Clip Universal o l’Ugreen FineTrack Duo dichiarano fino a 12 mesi per carica. L’app ti avvisa quando la batteria sta per scaricarsi.`,
         nl: `Ongeveer een jaar bij de meeste modellen met CR2032 (AirTag, Chipolo POP, Tile Pro), en tot 500 dagen opgegeven voor de Galaxy SmartTag2. Oplaadbare modellen zoals de Pebblebee Clip Universal of Ugreen FineTrack Duo noemen tot 12 maanden per lading. De app waarschuwt als de batterij bijna leeg is.`,
         pl: `Około roku w większości modeli na baterię CR2032 (AirTag, Chipolo POP, Tile Pro); w przypadku Galaxy SmartTag2 producent deklaruje nawet do 500 dni. Modele z akumulatorem, takie jak Pebblebee Clip Universal czy Ugreen FineTrack Duo, według producentów działają do 12 miesięcy na jednym ładowaniu. Aplikacja ostrzeże Cię, gdy bateria zacznie się wyczerpywać.`,
         sv: `Ungefär ett år för de flesta modeller med CR2032 (AirTag, Chipolo POP, Tile Pro), och upp till 500 dagar enligt tillverkaren för Galaxy SmartTag2. Laddningsbara modeller som Pebblebee Clip Universal och Ugreen FineTrack Duo anges räcka upp till 12 månader per laddning. Appen säger till när batteriet börjar ta slut.`,
@@ -1194,7 +1194,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: `Peut-on mettre un traceur dans une valise en soute ?`,
-        en: `Can I put a tracker in checked luggage?`,
+        en: `Can I put a tracker in my hold luggage?`,
         de: `Darf ein Tracker in den aufgegebenen Koffer?`,
         es: `¿Se puede llevar un localizador en la maleta facturada?`,
         it: `Si può mettere un localizzatore nella valigia in stiva?`,
@@ -1206,10 +1206,10 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `En général oui : les petits traceurs à pile bouton sont couramment acceptés par les compagnies aériennes. Vérifiez toutefois le règlement de votre transporteur, en particulier pour les modèles à batterie rechargeable. Avec un AirTag, vous pouvez partager sa position avec plus de 50 compagnies partenaires en cas de bagage égaré.`,
-        en: `Generally yes: small coin-cell trackers are commonly accepted by airlines. Still, check your carrier’s rules, especially for models with a rechargeable battery. With an AirTag, you can share its location with more than 50 partner airlines if your bag goes missing.`,
+        en: `Generally, yes: airlines commonly accept small trackers that run on a coin cell. Still, check your airline’s rules, especially for models with a rechargeable battery. With an AirTag, you can share its location with more than 50 partner airlines if your bag goes missing.`,
         de: `In der Regel ja: Kleine Tracker mit Knopfzelle werden von Airlines üblicherweise akzeptiert. Prüfen Sie dennoch die Bestimmungen Ihrer Fluggesellschaft, vor allem bei Modellen mit Akku. Mit einem AirTag können Sie den Standort bei verlorenem Gepäck mit über 50 Partner-Airlines teilen.`,
-        es: `Por lo general sí: las aerolíneas suelen aceptar los localizadores pequeños con pila de botón. Aun así, revisa las normas de tu compañía, sobre todo con modelos de batería recargable. Con un AirTag puedes compartir su ubicación con más de 50 aerolíneas asociadas si se pierde la maleta.`,
-        it: `In genere sì: i piccoli localizzatori con pila a bottone sono comunemente accettati dalle compagnie aeree. Verifica comunque il regolamento del vettore, soprattutto per i modelli con batteria ricaricabile. Con un AirTag puoi condividere la posizione con oltre 50 compagnie partner in caso di bagaglio smarrito.`,
+        es: `Por lo general, sí: las aerolíneas suelen admitir los localizadores pequeños con pila de botón. Aun así, revisa las normas de tu compañía, sobre todo si el modelo lleva batería recargable. Con un AirTag puedes compartir su ubicación con más de 50 aerolíneas asociadas si se pierde la maleta.`,
+        it: `In genere sì: i piccoli localizzatori con pila a bottone sono comunemente accettati dalle compagnie aeree. Controlla comunque le regole della tua compagnia, soprattutto per i modelli con batteria ricaricabile. Con un AirTag puoi condividere la posizione con oltre 50 compagnie partner in caso di bagaglio smarrito.`,
         nl: `Meestal wel: kleine trackers met knoopcel worden door luchtvaartmaatschappijen doorgaans geaccepteerd. Controleer toch de regels van je maatschappij, zeker bij modellen met oplaadbare batterij. Met een AirTag kun je de locatie delen met meer dan 50 partnermaatschappijen als je bagage zoek is.`,
         pl: `Zazwyczaj tak: małe lokalizatory na baterię guzikową są powszechnie dopuszczane przez linie lotnicze. Sprawdź jednak przepisy swojego przewoźnika, zwłaszcza jeśli lokalizator ma akumulator. Gdy bagaż zaginie, położenie AirTaga możesz udostępnić ponad 50 partnerskim liniom lotniczym.`,
         sv: `I regel ja: små spårare med knappcell brukar godkännas av flygbolagen. Kontrollera ändå vilka regler ditt flygbolag har, särskilt för modeller med laddningsbart batteri. Med en AirTag kan du dela positionen med fler än 50 samarbetande flygbolag om väskan kommer bort.`,
@@ -1220,9 +1220,9 @@ export const article: BlogArticle = {
     {
       question: {
         fr: `Comment savoir si quelqu’un me suit avec un traceur ?`,
-        en: `How can I tell if someone is tracking me with a tag?`,
+        en: `How can I tell if someone is using a tracker to follow me?`,
         de: `Wie erkenne ich, ob mich jemand mit einem Tracker verfolgt?`,
-        es: `¿Cómo saber si alguien me sigue con un localizador?`,
+        es: `¿Cómo saber si alguien me está siguiendo con un localizador?`,
         it: `Come capire se qualcuno mi segue con un localizzatore?`,
         nl: `Hoe weet ik of iemand me volgt met een tracker?`,
         pl: `Jak sprawdzić, czy ktoś mnie śledzi za pomocą lokalizatora?`,
@@ -1232,10 +1232,10 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: `Laissez les notifications et le Bluetooth activés : depuis iOS 17.5 et sur Android 6.0 ou plus récent, le téléphone signale un traceur compatible inconnu qui se déplace avec vous. Sur Android, Find Hub permet aussi une recherche manuelle. Vous pouvez faire sonner l’objet pour le trouver ; en cas de doute sur votre sécurité, contactez les forces de l’ordre.`,
-        en: `Keep notifications and Bluetooth on: since iOS 17.5, and on Android 6.0 or later, your phone flags an unknown compatible tracker moving with you. On Android, Find Hub also offers a manual scan. You can make the tag ring to locate it; if you are worried about your safety, contact the police.`,
+        en: `Keep notifications and Bluetooth switched on: since iOS 17.5, and on Android 6.0 or later, your phone flags an unknown compatible tracker that is moving with you. On Android, Find Hub also lets you run a manual scan. You can make the tracker ring to find it; if you are worried about your safety, contact the police.`,
         de: `Lassen Sie Mitteilungen und Bluetooth eingeschaltet: Seit iOS 17.5 und ab Android 6.0 meldet das Handy einen unbekannten kompatiblen Tracker, der mit Ihnen unterwegs ist. Unter Android bietet Find Hub zusätzlich eine manuelle Suche. Sie können den Tracker klingeln lassen; wenn Sie um Ihre Sicherheit fürchten, wenden Sie sich an die Polizei.`,
-        es: `Mantén activadas las notificaciones y el Bluetooth: desde iOS 17.5 y en Android 6.0 o posterior, el móvil avisa si un localizador compatible desconocido se desplaza contigo. En Android, Find Hub permite además un escaneo manual. Puedes hacerlo sonar para encontrarlo; si temes por tu seguridad, contacta con la policía.`,
-        it: `Tieni attivi notifiche e Bluetooth: da iOS 17.5 e su Android 6.0 o successivi, il telefono segnala un localizzatore compatibile sconosciuto che si sposta con te. Su Android, Find Hub consente anche una scansione manuale. Puoi farlo suonare per trovarlo; se temi per la tua sicurezza, rivolgiti alle forze dell’ordine.`,
+        es: `Deja activados el Bluetooth y las notificaciones: desde iOS 17.5 y en Android 6.0 o posterior, el móvil te avisa si un localizador compatible desconocido se desplaza contigo. En Android, Find Hub permite además hacer una búsqueda manual. Puedes hacerlo sonar para encontrarlo y, si temes por tu seguridad, acude a la policía.`,
+        it: `Tieni attivi notifiche e Bluetooth: da iOS 17.5 e su Android 6.0 o versioni successive, il telefono segnala un localizzatore compatibile sconosciuto che si sposta con te. Su Android, Find Hub consente anche una scansione manuale. Puoi far suonare il localizzatore per trovarlo; se temi per la tua sicurezza, rivolgiti alle forze dell’ordine.`,
         nl: `Laat meldingen en Bluetooth aanstaan: sinds iOS 17.5 en op Android 6.0 of nieuwer meldt je telefoon een onbekende compatibele tracker die met je meereist. Op Android kun je in Find Hub ook handmatig scannen. Je kunt de tracker laten piepen om hem te vinden; vrees je voor je veiligheid, neem dan contact op met de politie.`,
         pl: `Pozostaw włączone powiadomienia i Bluetooth: od iOS 17.5 oraz w Androidzie 6.0 lub nowszym telefon ostrzega, gdy razem z Tobą przemieszcza się nieznany, zgodny lokalizator. Na Androidzie w Find Hub można też ręcznie wyszukać takie urządzenia. Możesz włączyć w lokalizatorze sygnał dźwiękowy, żeby go odnaleźć; jeśli obawiasz się o swoje bezpieczeństwo, skontaktuj się z policją.`,
         sv: `Ha notiser och Bluetooth påslagna: sedan iOS 17.5, och på Android 6.0 eller senare, varnar mobilen för en okänd kompatibel spårare som följer med dig. På Android kan du också söka manuellt via Find Hub. Du kan få spåraren att pipa för att hitta den, och om du känner dig otrygg ska du kontakta polisen.`,

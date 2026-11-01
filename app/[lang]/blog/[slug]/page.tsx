@@ -199,7 +199,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
 
   const faqTitle: Record<string, string> = {
     fr: 'Questions fréquentes',
-    en: 'Frequently Asked Questions',
+    en: 'Frequently asked questions',
     de: 'Häufig gestellte Fragen',
     es: 'Preguntas frecuentes',
     it: 'Domande frequenti',

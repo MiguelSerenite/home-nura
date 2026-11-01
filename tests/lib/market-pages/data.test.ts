@@ -92,7 +92,7 @@ describe('loadMarketPages', () => {
 describe('site pages a related link may name', () => {
   it('label content pages and leave utility pages unlabelled', () => {
     const it_ = sitePagesFor('it')
-    expect(it_.get('/it/guides/airfryers')).toBe('Friggitrici ad Aria')
+    expect(it_.get('/it/guides/airfryers')).toBe('Friggitrici ad aria')
     expect(it_.get('/it/methodologie')).toBe('Come confrontiamo')
     expect(it_.get('/it/quiz')).toBeNull()
     expect(it_.has('/it/guides/floor-care')).toBe(false)

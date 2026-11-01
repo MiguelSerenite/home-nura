@@ -182,7 +182,7 @@ export const lastUpdatedLabel: Record<string, string> = {
   sv: 'Senast uppdaterad',
   us: 'Updated',
   ca: 'Updated',
-  en: 'Updated',
+  en: 'Last updated',
 }
 
 interface ProductLike {

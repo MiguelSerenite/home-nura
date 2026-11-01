@@ -13,11 +13,11 @@ export const article: BlogArticle = {
       src: 'https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Saugroboter pour poils d\'animaux nettoyant un tapis avec un chien et un chat à proximité',
-        en: 'Pet hair robot vacuum cleaning a carpet with a dog and a cat nearby',
-        de: 'Saugroboter für Tierhaare reinigt einen Teppich, Hund und Katze daneben',
-        es: 'Robot aspirador para pelo de mascotas limpiando una alfombra con perro y gato cerca',
-        it: 'Robot aspirapolvere per peli di animali pulisce un tappeto con cane e gatto vicino',
-        nl: 'Saugroboter voor dierenharen die een tapijt reinigt met hond en kat ernaast',
+        en: 'Robot vacuum for pet hair cleaning a rug, with a dog and a cat nearby',
+        de: 'Saugroboter für Tierhaare reinigt einen Teppich, daneben ein Hund und eine Katze',
+        es: 'Robot aspirador para pelo de mascotas limpiando una alfombra, con un perro y un gato al lado',
+        it: 'Robot aspirapolvere per peli di animali che pulisce un tappeto, con un cane e un gatto accanto',
+        nl: 'Robotstofzuiger voor dierenharen die een tapijt schoonmaakt, met een hond en een kat ernaast',
         pl: 'Robot sprzątający do sierści zwierząt odkurza dywan, a obok są pies i kot',
         sv: 'Robotdammsugare för djurhår som rengör en matta, med en hund och en katt bredvid',
         us: 'Robot vacuum picking up pet hair on a rug with a dog and a cat nearby',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Saugroboter für Tierhaare im Vergleich 2026 : le comparatif spécial animaux',
-    en: 'Saugroboter für Tierhaare im Vergleich 2026: Pet Hair Robot Vacuums Compared',
+    en: 'Best Robot Vacuum for Pet Hair UK 2026: 5 Models Compared',
     de: 'Saugroboter für Tierhaare im Vergleich 2026: die besten Modelle für Hund & Katze',
-    es: 'Saugroboter für Tierhaare im Vergleich 2026: comparativa especial mascotas',
-    it: 'Saugroboter für Tierhaare im Vergleich 2026: il confronto per cani e gatti',
-    nl: 'Saugroboter für Tierhaare im Vergleich 2026: de vergelijking voor hond & kat',
+    es: 'Robot aspirador para pelo de mascotas: comparativa 2026',
+    it: 'Robot aspirapolvere per peli di animali 2026: il confronto per cani e gatti',
+    nl: 'Robotstofzuiger voor dierenharen 2026: 5 modellen vergeleken',
     pl: 'Robot sprzątający do sierści zwierząt 2026: porównanie dla właścicieli psów i kotów',
     sv: 'Robotdammsugare för djurhår 2026: jämförelse för dig med hund eller katt',
     us: 'Best Robot Vacuums for Pet Hair 2026: Dog and Cat Models Compared',
@@ -39,41 +39,41 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Quel Saugroboter pour les poils d\'animaux ? Comparatif 2026 : puissance d\'aspiration en Pa, brosse anti-enchevêtrement, station d\'auto-vidage, filtre HEPA pour allergiques. Roborock, Ecovacs, Dreame et iRobot pour chiens et chats.',
-    en: 'Which Saugroboter for pet hair? 2026 comparison: suction power in Pa, anti-tangle brush, auto-empty station, HEPA filter for allergy sufferers. Roborock, Ecovacs, Dreame and iRobot for dogs and cats.',
-    de: 'Welcher Saugroboter für Tierhaare? Vergleich 2026: Saugkraft in Pa, Anti-Verheddern-Bürste, Absaugstation, HEPA-Filter für Allergiker. Roborock, Ecovacs, Dreame und iRobot für Hund und Katze.',
-    es: '¿Qué Saugroboter para pelo de mascotas? Comparativa 2026: potencia de succión en Pa, cepillo anti-enredo, estación de autovaciado, filtro HEPA para alérgicos. Roborock, Ecovacs, Dreame e iRobot para perros y gatos.',
-    it: 'Quale Saugroboter per i peli di animali? Confronto 2026: potenza di aspirazione in Pa, spazzola anti-groviglio, stazione di autosvuotamento, filtro HEPA per allergici. Roborock, Ecovacs, Dreame e iRobot per cani e gatti.',
-    nl: 'Welke Saugroboter voor dierenharen? Vergelijking 2026: zuigkracht in Pa, anti-klit borstel, zelfleegstation, HEPA-filter voor allergiepatiënten. Roborock, Ecovacs, Dreame en iRobot voor hond en kat.',
+    en: 'Which robot vacuum is best for pet hair? Our 2026 comparison covers suction (Pa), anti-tangle brushes, auto-empty stations and HEPA filters for allergy sufferers, with Roborock, Ecovacs, Dreame and iRobot models for dogs and cats.',
+    de: 'Welcher Saugroboter für Tierhaare? Vergleich 2026: Saugkraft in Pa, Bürste gegen Haarverwicklungen, Absaugstation, HEPA-Filter für Allergiker. Roborock, Ecovacs, Dreame und iRobot für Hund und Katze.',
+    es: '¿Qué robot aspirador elegir para el pelo de mascotas? Comparativa 2026: potencia de succión en Pa, cepillo antienredos, estación de autovaciado y filtro HEPA para alérgicos. Roborock, Ecovacs, Dreame e iRobot para perros y gatos.',
+    it: 'Quale robot aspirapolvere scegliere per i peli di cani e gatti? Confronto 2026: potenza di aspirazione in Pa, spazzola anti-groviglio, stazione di svuotamento automatico e filtro HEPA per chi soffre di allergie. Roborock, Ecovacs, Dreame e iRobot.',
+    nl: 'Welke robotstofzuiger kies je voor dierenharen? Vergelijking 2026: zuigkracht in Pa, antiklitborstel, zelfleegstation en HEPA-filter voor allergiepatiënten. Roborock, Ecovacs, Dreame en iRobot voor hond en kat.',
     pl: 'Jaki robot sprzątający do sierści zwierząt wybrać? Porównanie 2026: siła ssania w Pa, szczotka odporna na plątanie, stacja opróżniająca i filtr HEPA dla alergików. Roborock, Ecovacs, Dreame i iRobot dla domów z psem lub kotem.',
     sv: 'Vilken robotdammsugare klarar djurhår bäst? Jämförelse 2026: sugkraft i Pa, trasselfri borste, självtömmande station och HEPA-filter för allergiker. Roborock, Ecovacs, Dreame och iRobot för hund och katt.',
     us: 'Which robot vacuum is best for pet hair? Our 2026 comparison covers suction power in Pa, anti-tangle brush rolls, self-emptying docks and HEPA filters for allergy sufferers, with Roborock, Ecovacs, Dreame and iRobot models for dogs and cats.',
     ca: 'Which robot vacuum is best for pet hair? 2026 comparison: suction power in Pa, anti-tangle brush, auto-empty station, HEPA filter for allergy sufferers. Roborock, Ecovacs, Dreame and iRobot for dogs and cats.',
   },
   content: {
-    de: `<h2>Warum ein spezieller Saugroboter für Tierhaare unverzichtbar ist</h2>
-<p>Wer mit Hund oder Katze zusammenlebt, kennt das Problem nur zu gut: Tierhaare sind überall. Auf dem Sofa, im Teppich, unter den Möbeln und in jeder noch so kleinen Ritze. In Deutschland leben in Millionen Haushalten Hunde und Katzen – und genau diese Tierbesitzer stoßen mit einem gewöhnlichen Staubsauger schnell an ihre Grenzen. Ein klassischer Saugroboter ist hier oft überfordert: Die Bürste verheddert sich innerhalb weniger Tage, der Staubbehälter ist nach einer einzigen Reinigung voll, und der Filter setzt sich zu, wodurch die Saugkraft drastisch nachlässt.</p>
-<p>Ein <strong>Saugroboter für Tierhaare</strong> muss daher speziell für diese enorme Haarmenge ausgelegt sein. In diesem Vergleichsratgeber zeigen wir Ihnen, welche Kriterien wirklich entscheidend sind, welche Modelle 2026 überzeugen und worauf Allergiker besonders achten sollten. Wenn Sie einen breiteren Überblick suchen, empfehlen wir zusätzlich unseren <a href="/de/blog/robot-aspirateur-poils-animaux">großen Ratgeber zu Saugrobotern für Tierhaare</a>.</p>
-<p>Der Unterschied zwischen einem gewöhnlichen Modell und einem echten Tierhaar-Spezialisten zeigt sich nicht im Datenblatt, sondern im Alltag. Ein guter Saugroboter für Hund und Katze nimmt Ihnen die lästige tägliche Routine vollständig ab: Während Sie arbeiten oder unterwegs sind, fährt das Gerät seine Bahnen, sammelt Haare und Hautschuppen ein und kehrt selbstständig zur Station zurück. Die richtige Geräteklasse erkennen Sie an drei Dingen, die zusammenspielen müssen: starke <strong>Saugkraft in Pa</strong>, eine durchdachte Anti-Verheddern-Mechanik und eine wartungsarme Entleerung über eine Absaugstation. Fehlt auch nur eine dieser Komponenten, wird der Roboter im Tierhaushalt schnell zur Enttäuschung.</p>
-<p>Gerade in Deutschland, wo viele Wohnungen eine Mischung aus Hartböden, Hochflorteppichen und Läufern aufweisen, kommt es auf die Vielseitigkeit des Geräts an. Wir vergleichen die wichtigsten Modelle von Roborock, Ecovacs Deebot, Dreame und iRobot Roomba anhand von Herstellerangaben, unabhängigen Testberichten und verifizierten Käuferbewertungen – damit Sie nicht hunderte Euro in einen Roboter investieren, der mit dem Fell Ihres Vierbeiners überfordert ist.</p>
+    de: `<h2>Warum sich ein Saugroboter speziell für Tierhaare lohnt</h2>
+<p>Wer mit Hund oder Katze zusammenlebt, kennt das: Tierhaare sind überall. Auf dem Sofa, im Teppich, unter den Möbeln und in jeder noch so kleinen Ritze. Ein gewöhnlicher Saugroboter ist damit schnell überfordert: Die Bürste verheddert sich innerhalb weniger Tage, der Staubbehälter ist nach einem einzigen Durchgang voll, und der Filter setzt sich zu, sodass die Saugkraft deutlich nachlässt.</p>
+<p>Ein <strong>Saugroboter für Tierhaare</strong> muss deshalb für solche Haarmengen gebaut sein. In diesem Vergleich zeigen wir, welche Kriterien wirklich zählen, welche Modelle 2026 überzeugen und worauf Allergiker achten sollten. Einen breiteren Überblick bietet unser <a href="/de/blog/robot-aspirateur-poils-animaux">großer Ratgeber zu Saugrobotern für Tierhaare</a>.</p>
+<p>Ob ein Modell wirklich mit Tierhaaren zurechtkommt, zeigt sich nicht im Datenblatt, sondern im Alltag. Ein guter Saugroboter für Hund und Katze nimmt Ihnen das tägliche Saugen komplett ab: Während Sie arbeiten oder unterwegs sind, fährt er seine Bahnen, sammelt Haare und Hautschuppen ein und kehrt von selbst zur Station zurück. Ein geeignetes Gerät erkennen Sie an drei Merkmalen, die zusammenspielen müssen: hohe Saugkraft in Pa, eine durchdachte Anti-Verheddern-Technik und eine Absaugstation, die das Entleeren übernimmt. Fehlt auch nur eines davon, wird der Roboter im Haushalt mit Tieren schnell zur Enttäuschung.</p>
+<p>In vielen Wohnungen wechseln sich Hartböden, Hochflorteppiche und Läufer ab, das Gerät muss also mit allem zurechtkommen. Wir vergleichen die wichtigsten Modelle von Roborock, Ecovacs Deebot, Dreame und iRobot Roomba anhand von Herstellerangaben, veröffentlichten unabhängigen Testberichten und verifizierten Käuferbewertungen. So investieren Sie nicht mehrere hundert Euro in einen Roboter, der mit dem Fell Ihres Vierbeiners überfordert ist.</p>
 
-<h2>Die wichtigsten Kaufkriterien für einen Saugroboter Hund Katze</h2>
+<h2>Saugroboter für Hunde- und Katzenhaare: die wichtigsten Kaufkriterien</h2>
 
-<h3>Saugkraft (Pa): mindestens 10.000 Pa</h3>
-<p>Die Saugkraft wird in Pascal (Pa) angegeben und ist das zentrale Kriterium, um Tierhaare effektiv zu entfernen. Vor allem feine, lange Haare von Katzen und Hunden setzen sich tief in den Fasern von Teppichen und Läufern fest. Eine Saugkraft von <strong>10.000 Pa oder mehr</strong> ist notwendig, um diese Haare zuverlässig herauszuziehen. Modelle mit 5.000 bis 6.000 Pa reichen auf Hartböden meist aus, zeigen aber auf Textilien schnell ihre Grenzen. Aktuelle Spitzenmodelle erreichen sogar 18.000 bis 22.000 Pa – ein deutlicher Vorteil bei dichtem Fell und hochfloriger Auslegeware.</p>
-<p>Wichtig zu wissen: Die reine Pa-Zahl ist nicht alles. Entscheidend ist das Zusammenspiel aus Saugkraft, Bürstendesign und Bodenkontakt. Ein Modell mit 10.000 Pa und einer gut abgedichteten Saugöffnung kann in der Praxis mehr Tierhaare aufnehmen als ein Gerät mit 16.000 Pa, dessen Luftstrom an den Rändern entweicht. Achten Sie deshalb nicht blind auf die höchste Zahl, sondern auf die Kombination der Komponenten. Praktisch ist außerdem ein <strong>automatischer Saugkraft-Boost</strong> auf Teppichen: Der Roboter erkennt den Untergrund und schaltet selbstständig in die höchste Stufe, sobald er von Hartboden auf Teppich wechselt – das spart Akku und sorgt trotzdem für eine gründliche Tierhaarentfernung dort, wo sie nötig ist.</p>
+<h3>Saugkraft: mindestens 10.000 Pa</h3>
+<p>Die Saugkraft wird in Pascal (Pa) angegeben und ist das zentrale Kriterium, wenn Tierhaare gründlich verschwinden sollen. Vor allem feine, lange Haare von Hunden und Katzen setzen sich tief in den Fasern von Teppichen und Läufern fest. Um sie zuverlässig herauszuholen, brauchen Sie <strong>10.000 Pa oder mehr</strong>. Modelle mit 5.000 bis 6.000 Pa reichen auf Hartböden meist aus, stoßen auf Teppichen aber schnell an ihre Grenzen. Aktuelle Spitzenmodelle erreichen sogar 18.000 bis 22.000 Pa – ein deutlicher Vorteil bei dichtem Fell und hochfloriger Auslegeware.</p>
+<p>Wichtig zu wissen: Die reine Pa-Zahl ist nicht alles. Entscheidend ist das Zusammenspiel aus Saugkraft, Bürstenkonstruktion und einem dicht abgeschlossenen Luftweg. Ein Modell mit 10.000 Pa und gut abgedichteter Saugöffnung kann mehr Tierhaare aufnehmen als ein Gerät mit 16.000 Pa, dessen Luftstrom an den Rändern entweicht. Schauen Sie also nicht nur auf die höchste Zahl. Praktisch ist außerdem eine automatische Teppicherkennung mit Saugkraft-Boost: Sobald der Roboter vom Hartboden auf einen Teppich fährt, schaltet er selbst auf die höchste Stufe. Das schont den Akku und holt die Haare trotzdem dort gründlich heraus, wo es nötig ist.</p>
 
 <h3>Anti-Verheddern-Bürste: Gummi statt Borsten</h3>
-<p>Das ist das Kriterium Nummer eins gegen Frust im Alltag. Eine herkömmliche Bürste mit Nylonborsten verheddert sich extrem schnell mit den langen Haaren von Hund oder Katze – schon nach wenigen Tagen wickeln sich die Haare fest um die Achse. Die besten Bürsten für Tierhaare bestehen daher aus <strong>Gummi</strong> (wie bei iRobot) oder verfügen über ein <strong>DuoRoller-System mit Anti-Verheddern-Technik</strong> (Roborock, Dreame, Ecovacs ZeroTangle). Diese Bürsten lösen die Haare vom Boden, ohne dass sie sich um die Walze wickeln. Das reduziert den Wartungsaufwand enorm und sorgt dafür, dass die Saugleistung konstant hoch bleibt.</p>
-<p>Der Unterschied im Alltag ist enorm: Bei einer klassischen Borstenbürste müssen Sie unter Umständen täglich verfangene Haare mit einem Schneidewerkzeug entfernen – eine Arbeit, die viele Tierbesitzer schnell vom Saugroboter-Konzept abbringt. Eine gute Gummibürste oder ein gegenläufiges Doppelwalzen-System hingegen schiebt die Haare aktiv in Richtung Saugöffnung, statt sie aufzuwickeln. iRobot setzt mit zwei gegenläufigen Gummiwalzen ganz ohne Borsten auf die wohl konsequenteste Lösung, während Roborock und Dreame über kammartige Strukturen verfügen, die das Haar während des Saugvorgangs gezielt von der Walze abstreifen. Wer einen langhaarigen Hund oder eine Katze mit dichter Unterwolle hat, sollte auf dieses Detail besonders großen Wert legen – es entscheidet maßgeblich darüber, ob der Roboter im Alltag eine echte Entlastung darstellt.</p>
+<p>Das ist das wichtigste Kriterium überhaupt. In einer herkömmlichen Bürste mit Nylonborsten verfangen sich lange Hunde- und Katzenhaare sehr schnell: Schon nach wenigen Tagen sind sie fest um die Achse gewickelt. Die besten Bürsten für Tierhaare bestehen daher aus <strong>Gummi</strong> (wie bei iRobot) oder arbeiten mit einem <strong>DuoRoller-System mit Anti-Verheddern-Technik</strong> (Roborock, Dreame, Ecovacs ZeroTangle). Sie lösen die Haare vom Boden, ohne dass sich diese um die Walze wickeln. Das spart viel Wartung, und die Saugleistung bleibt konstant hoch.</p>
+<p>Im Alltag ist der Unterschied enorm: Bei einer klassischen Borstenbürste müssen Sie unter Umständen jeden Tag verfangene Haare mit einem Schneidewerkzeug entfernen – eine Arbeit, die vielen Tierbesitzern die Lust am Saugroboter schnell verdirbt. Eine gute Gummibürste oder ein System mit zwei gegenläufigen Walzen schiebt die Haare dagegen aktiv zur Saugöffnung, statt sie aufzuwickeln. iRobot setzt mit zwei gegenläufigen Gummiwalzen ganz ohne Borsten auf die wohl konsequenteste Lösung, während Roborock und Dreame mit kammartigen Strukturen arbeiten, die das Haar beim Saugen gezielt von der Walze abstreifen. Wenn Sie einen langhaarigen Hund oder eine Katze mit dichter Unterwolle haben, sollten Sie auf dieses Detail besonders achten: Es entscheidet maßgeblich darüber, ob der Roboter Sie im Alltag wirklich entlastet.</p>
 
 <h3>Großer Staubbehälter und Absaugstation</h3>
-<p>In einem Tierhaushalt füllt sich der Staubbehälter eines Saugroboters bereits nach ein bis zwei Durchgängen – statt nach vier bis fünf wie in einem Haushalt ohne Tiere. Ein großer Behälter mit <strong>350 bis 450 ml</strong> Fassungsvermögen ist deshalb von Vorteil. Noch wichtiger ist jedoch die <strong>Absaugstation</strong> (Auto-Empty-Station): Sie saugt die Tierhaare automatisch aus dem Behälter in einen Beutel mit 2,5 bis 3,5 Litern, den Sie nur alle drei bis sechs Wochen wechseln müssen. Für Tierbesitzer ist die Absaugstation praktisch ein Muss – ohne sie müssten Sie den Behälter nach fast jedem Durchgang von Hand leeren, was den Automatisierungsvorteil zunichtemacht.</p>
+<p>Mit Tieren im Haus ist der Staubbehälter eines Saugroboters schon nach ein bis zwei Durchgängen voll – ohne Tiere erst nach vier bis fünf. Ein großer Behälter mit 350 bis 450 ml Fassungsvermögen ist deshalb von Vorteil. Noch wichtiger ist jedoch die <strong>Absaugstation</strong> (Auto-Empty-Station): Sie saugt die Tierhaare automatisch aus dem Behälter in einen Beutel mit 2,5 bis 3,5 L, den Sie nur alle drei bis sechs Wochen wechseln müssen. Für Tierbesitzer ist sie praktisch ein Muss. Ohne Station müssten Sie den Behälter nach fast jedem Durchgang von Hand leeren, und der Vorteil der Automatisierung wäre dahin.</p>
 
 <h3>HEPA-Filter: entscheidend für Allergiker</h3>
-<p>Tiere verlieren nicht nur Haare. Sie produzieren auch Hautschuppen, getrockneten Speichel und tragen Pollen von draußen herein. Ein <strong>HEPA-Filter</strong> (High Efficiency Particulate Air) fängt 99,97 % aller Partikel ab einer Größe von 0,3 Mikrometern ab – einschließlich der typischen Tierallergene. Für <strong>Allergiker</strong> ist ein hochwertiger HEPA-Filter (mindestens Klasse E11, besser E12) deshalb unverzichtbar. Aber auch ohne Allergie im Haushalt verbessert er die Raumluftqualität spürbar, da feine Partikel nicht wieder in die Luft abgegeben werden.</p>
+<p>Tiere verlieren nicht nur Haare, sondern auch Hautschuppen; dazu kommen getrockneter Speichel und Pollen, die sie von draußen hereintragen. Ein <strong>HEPA-Filter</strong> (High Efficiency Particulate Air) hält 99,97 % aller Partikel ab einer Größe von 0,3 Mikrometern zurück, auch die typischen Tierallergene. Für Allergiker ist ein hochwertiger HEPA-Filter (mindestens Klasse E11, besser E12) deshalb Pflicht. Aber auch ohne Allergie im Haushalt verbessert er die Raumluft, weil feine Partikel nicht wieder ausgeblasen werden.</p>
 
-<h3>LiDAR-Navigation für lückenlose Reinigung</h3>
-<p>Die <strong>LiDAR-Navigation</strong> ist bei einem Saugroboter für Tierhaare unverzichtbar. Roboter mit gyroskopischer Navigation lassen häufig Bereiche aus – das ist inakzeptabel, wenn sich Tierhaare schnell ansammeln. Per LiDAR erstellt der Roboter eine präzise Karte Ihrer Wohnung, reinigt in geordneten Bahnen und erreicht zuverlässig auch die Ecken, in denen sich Haare gerne sammeln. Ebenso wichtig ist die tägliche Programmierung über die App: Mit Tieren sollte der Roboter <strong>jeden Tag</strong> fahren, um ein angenehmes Sauberkeitsniveau zu halten.</p>
+<h3>LiDAR-Navigation für eine lückenlose Reinigung</h3>
+<p>Bei Tierhaaren sollten Sie auf <strong>LiDAR-Navigation</strong> nicht verzichten. Roboter mit Gyroskop-Navigation lassen häufig Stellen aus, und dort sammeln sich die Haare schnell wieder an. Mit LiDAR erstellt der Roboter eine genaue Karte Ihrer Wohnung, reinigt in geordneten Bahnen und erreicht zuverlässig auch die Ecken, in denen sich Haare gern sammeln. Ebenso wichtig ist ein täglicher Zeitplan in der App: Mit Tieren im Haus sollte der Roboter jeden Tag fahren, damit es dauerhaft sauber bleibt.</p>
 
 <h2>Vergleich: Die besten Saugroboter für Tierhaare 2026</h2>
 <table>
@@ -81,7 +81,7 @@ export const article: BlogArticle = {
 <tr><th>Modell</th><th>Saugkraft (Pa)</th><th>Anti-Verheddern</th><th>Absaugstation</th><th>Ideal für</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10.000 Pa</td><td>Ja (DuoRoller-Gummiwalzen)</td><td>Ja</td><td>die meisten Tierhaushalte</td></tr>
+<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10.000 Pa</td><td>Ja (DuoRoller-Gummiwalzen)</td><td>Ja</td><td>die meisten Haushalte mit Tieren</td></tr>
 <tr><td><strong>Dreame X40 Ultra</strong></td><td>12.000 Pa</td><td>Ja (Anti-Verheddern-Bürste)</td><td>Ja</td><td>Ecken und Sockelleisten</td></tr>
 <tr><td><strong>Ecovacs Deebot T30 Pro Omni</strong></td><td>11.000 Pa</td><td>Ja (ZeroTangle)</td><td>Ja</td><td>bestes Preis-Leistungs-Verhältnis</td></tr>
 <tr><td><strong>iRobot Roomba Max 705 Vac</strong></td><td>k. A.</td><td>Ja (2 Gummiwalzen)</td><td>Ja (AutoEmpty)</td><td>sehr lange Haare</td></tr>
@@ -90,48 +90,37 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Roborock S8 MaxV Ultra: unsere Empfehlung für Tierhaare</h2>
-<p>Der Roborock S8 MaxV Ultra ist unsere Top-Empfehlung für Haushalte mit Hund oder Katze. Seine <strong>DuoRoller-Gummibürste</strong> ist speziell darauf ausgelegt, das Verheddern von Tierhaaren zu verhindern. Mit 10.000 Pa Saugkraft zieht er auch eingebettete Haare zuverlässig aus Teppichen. Die Absaugstation entleert den Behälter automatisch und übernimmt zusätzlich das Reinigen der Wischmopps. Wer ein durchdachtes Komplettpaket sucht, ist hier richtig.</p>
-<p>Besonders überzeugend ist die ausgereifte Software: Die App erkennt zuverlässig Hindernisse wie liegen gebliebenes Spielzeug oder den Wassernapf und umfährt sie, statt sie durch die Wohnung zu schieben. Auch die gefürchteten Tier-Missgeschicke erkennt die KI-gestützte Kameranavigation in vielen Fällen und spart den betroffenen Bereich aus – ein nicht zu unterschätzender Vorteil in Haushalten mit jungen oder älteren Tieren. Über die App lassen sich No-Go-Zonen rund um Futter- und Wassernapf einrichten, sodass der Roboter dort nicht hineinfährt. Für die meisten deutschen Haushalte mit gemischten Böden bietet der S8 MaxV Ultra damit die beste Balance aus <strong>Saugkraft Pa</strong>, Komfort und Zuverlässigkeit, um Tierhaare entfernen zu lassen, ohne ständig eingreifen zu müssen.</p>
+<p>Der Roborock S8 MaxV Ultra ist unsere erste Empfehlung für Haushalte mit Hund oder Katze. Seine <strong>DuoRoller-Gummibürste</strong> ist darauf ausgelegt, dass sich Tierhaare kaum verheddern. Mit 10.000 Pa zieht er auch tief sitzende Haare zuverlässig aus dem Teppich. Die Absaugstation leert den Behälter automatisch und reinigt zusätzlich die Wischmopps. Die Kameranavigation erkennt Hindernisse wie herumliegendes Spielzeug oder den Wassernapf und umfährt sie, statt sie durch die Wohnung zu schieben. Auch Hinterlassenschaften von Tieren erkennt die KI-gestützte Kamera in vielen Fällen und spart die Stelle aus – ein echter Vorteil bei jungen oder älteren Tieren. In der App legen Sie No-Go-Zonen rund um Futter- und Wassernapf fest, die der Roboter dann meidet. Für die meisten Haushalte mit gemischten Böden bietet der S8 MaxV Ultra damit die beste Mischung aus Saugkraft, Komfort und Zuverlässigkeit: ein durchdachtes Komplettpaket, das die Tierhaare in Schach hält, ohne dass Sie ständig eingreifen müssen.</p>
 
 <h2>Die Alternativen im Detail</h2>
-<h3>Dreame X40 Ultra: Saugkraft-Champion</h3>
-<p>Mit 12.000 Pa und einer Anti-Verheddern-Hauptbürste eignet sich der Dreame X40 Ultra hervorragend für langhaarige Rassen wie Golden Retriever oder Maine Coon. Die ausfahrbare Seitenbürste erreicht auch Ecken und Kanten – dort, wo sich Tierhaare besonders gerne sammeln. Auch der Wischmopp lässt sich seitlich ausfahren, sodass der Roboter bis dicht an die Sockelleisten heranreicht. In großen Wohnungen mit vielen Möbelbeinen und Ecken spielt dieses Modell seine Stärke aus, weil kaum eine Stelle ausgelassen wird, an der sich Fell ansammeln könnte.</p>
+<h3>Dreame X40 Ultra: viel Saugkraft, gründlich bis in die Ecken</h3>
+<p>Mit 12.000 Pa und einer Anti-Verheddern-Hauptbürste eignet sich der Dreame X40 Ultra hervorragend für langhaarige Rassen wie Golden Retriever oder Maine Coon. Die ausfahrbare Seitenbürste erreicht auch Ecken und Kanten, also genau die Stellen, an denen sich Tierhaare besonders gern sammeln. Auch der Wischmopp fährt seitlich aus, sodass der Roboter dicht an die Sockelleisten herankommt. In großen Wohnungen mit vielen Möbelbeinen und Ecken spielt dieses Modell seine Stärke aus, weil es kaum eine Stelle auslässt, an der sich Haare ansammeln könnten.</p>
 <h3>Ecovacs Deebot T30 Pro Omni: das beste Preis-Leistungs-Verhältnis</h3>
-<p>Der Deebot T30 Pro Omni bietet mit 11.000 Pa, ZeroTangle-Bürste und Absaugstation ein hervorragendes Paket zu einem deutlich günstigeren Preis. Für preisbewusste Tierbesitzer, die nicht auf die wichtigsten Funktionen verzichten wollen, ist er die clevere Wahl.</p>
+<p>Der Deebot T30 Pro Omni bietet mit 11.000 Pa, ZeroTangle-Bürste und Absaugstation ein starkes Paket zu einem deutlich günstigeren Preis. Für Tierbesitzer, die aufs Budget achten, aber auf keine wichtige Funktion verzichten wollen, ist er die clevere Wahl.</p>
 <h3>iRobot Roomba Max 705 Vac: die robusteste Bürstenlösung</h3>
-<p>iRobot setzt auf <strong>zwei gegenläufige Gummiwalzen</strong> komplett ohne Borsten – die wohl verheddungssicherste Lösung am Markt. Besonders bei sehr langen Haaren und starkem Fellwechsel spielt der Roomba Max 705 Vac seine Stärke aus. Die AutoEmpty-Station entleert den Behälter automatisch. Wer in der Vergangenheit mit verhedderten Bürsten gekämpft hat, wird die wartungsarme Walzenlösung von iRobot zu schätzen wissen: In der Praxis genügt es meist, die Walzen alle paar Wochen kurz herauszunehmen und abzuspülen. Über die App lassen sich zudem Sperrzonen rund um Napf und Körbchen festlegen.</p>
+<p>iRobot setzt auf <strong>zwei gegenläufige Gummiwalzen</strong> ganz ohne Borsten – die wohl zuverlässigste Lösung gegen verhedderte Haare am Markt. Seine Stärken zeigt der Roomba Max 705 Vac vor allem bei sehr langen Haaren und im Fellwechsel. Die AutoEmpty-Station leert den Behälter automatisch. Wer schon einmal mit verhedderten Bürsten gekämpft hat, wird die pflegeleichten Walzen von iRobot zu schätzen wissen: Meist genügt es, sie alle paar Wochen kurz herauszunehmen und abzuspülen. In der App lassen sich außerdem Sperrzonen rund um Napf und Körbchen festlegen.</p>
 
-<h2>Lautstärke und Akzeptanz durch das Tier</h2>
-<p>Ein oft unterschätzter Aspekt ist die Lautstärke. Viele Hunde und einige Katzen reagieren anfangs nervös auf das Surren eines Saugroboters. Achten Sie daher auf ein Modell mit einem leisen Standardmodus (rund 55 bis 60 dB) und planen Sie die ersten Reinigungsfahrten so, dass Sie anwesend sind und Ihr Tier sich behutsam an das Gerät gewöhnen kann. Die meisten Tiere akzeptieren den Roboter nach ein bis zwei Wochen vollständig – manche Katzen entdecken ihn sogar als bewegliche Liegefläche. Den kraftvollen Turbo-Modus für die Tierhaarentfernung auf Teppichen sollten Sie idealerweise dann einplanen, wenn niemand zu Hause ist, denn dieser ist deutlich lauter. Über die App lässt sich genau das problemlos automatisieren.</p>
+<h2>Lautstärke: So gewöhnt sich Ihr Tier an den Roboter</h2>
+<p>Die Lautstärke wird oft unterschätzt. Viele Hunde und einige Katzen reagieren anfangs nervös auf das Surren eines Saugroboters. Wählen Sie daher ein Modell mit leisem Standardmodus (rund 55 bis 60 dB) und planen Sie die ersten Reinigungsfahrten so, dass Sie dabei sind und sich Ihr Tier in Ruhe an das Gerät gewöhnen kann. Nach ein bis zwei Wochen akzeptieren die meisten Tiere den Roboter, manche Katzen nutzen ihn sogar als fahrbaren Liegeplatz. Den deutlich lauteren Turbo-Modus für Teppiche legen Sie am besten auf Zeiten, in denen niemand zu Hause ist. Das lässt sich in der App bequem automatisieren.</p>
 
-<h2>Teppich vs. Hartboden: worauf es ankommt</h2>
-<p>Die Bodenart entscheidet mit über die Modellwahl. Auf <strong>Hartböden</strong> wie Parkett, Laminat oder Fliesen liegen die Haare locker auf der Oberfläche – hier genügt bereits eine moderate Saugkraft, und der Schwerpunkt liegt eher auf der Anti-Verheddern-Bürste und einer guten Kantenreinigung. Auf <strong>Teppichen und Läufern</strong> verhält es sich völlig anders: Hier setzen sich Tierhaare tief in den Fasern fest, und nur eine hohe Saugkraft (10.000 Pa und mehr) plus eine automatische Teppicherkennung mit Saugkraft-Boost holt sie heraus. Wer viele Teppiche besitzt, sollte daher klar auf ein leistungsstarkes Modell setzen.</p>
-<p>Ein praktischer Tipp für Mischhaushalte: Achten Sie darauf, dass der Roboter beim Wischen die Wischmopps anhebt, sobald er einen Teppich erreicht. Modelle ohne diese Funktion ziehen den feuchten Mopp über den Teppich und arbeiten die Tierhaare regelrecht in die Fasern ein – das Gegenteil dessen, was Sie erreichen wollen. Hochflorteppiche sind generell die größte Herausforderung für jeden Saugroboter: Hier sammelt sich die Unterwolle besonders hartnäckig. Für solche Böden lohnt sich der Aufpreis zu einem Modell mit 16.000 Pa und mehr fast immer. Auf Hartböden hingegen ist die Kantenreinigung wichtiger, denn dort sammeln sich die Haare entlang von Sockelleisten und in Raumecken – eine ausfahrbare Seitenbürste, wie sie Dreame und Roborock bieten, macht hier den Unterschied.</p>
+<h2>Teppich oder Hartboden: worauf es ankommt</h2>
+<p>Die Bodenart entscheidet mit über das passende Modell. Auf <strong>Hartböden</strong> wie Parkett, Laminat oder Fliesen liegen die Haare locker obenauf. Hier genügt eine mittlere Saugkraft; wichtiger sind die Anti-Verheddern-Bürste und eine gute Kantenreinigung, denn die Haare sammeln sich entlang der Sockelleisten und in den Raumecken. Eine ausfahrbare Seitenbürste, wie sie Dreame und Roborock bieten, macht dort den Unterschied. Auf <strong>Teppichen und Läufern</strong> setzen sich Tierhaare dagegen tief in den Fasern fest. Heraus holt sie nur eine hohe Saugkraft (10.000 Pa und mehr) zusammen mit einer automatischen Teppicherkennung samt Saugkraft-Boost. Ein Tipp für Wohnungen mit beidem: Der Roboter sollte seine Wischmopps anheben, sobald er auf einen Teppich fährt. Modelle ohne diese Funktion ziehen den feuchten Mopp über den Teppich und arbeiten die Haare regelrecht in die Fasern ein – das Gegenteil von dem, was Sie wollen. Die größte Herausforderung sind Hochflorteppiche, in denen sich die Unterwolle besonders hartnäckig festsetzt. Hier lohnt sich der Aufpreis für ein Modell mit 16.000 Pa und mehr fast immer.</p>
 
 <h2>Allergiker: was ein Saugroboter leisten muss</h2>
-<p>Für <strong>Allergiker</strong> ist der Saugroboter weit mehr als ein Komfortgerät – er ist ein Beitrag zur Gesundheit. Tierallergene wie das Katzenprotein Fel d 1 oder Hundeallergene haften an Hautschuppen und feinem Staub, der durch die Luft wirbelt. Entscheidend ist hier die Kombination aus <strong>HEPA-Filter</strong> (mindestens E11) und einem gut abgedichteten Gehäuse, damit keine Partikel wieder austreten. Eine Absaugstation mit Beutel ist für Allergiker ideal, weil das Entleeren ohne direkten Kontakt zum Staub erfolgt. Tägliches automatisches Saugen reduziert die Allergenbelastung in der Wohnung dauerhaft und spürbar.</p>
-<p>Ein häufig übersehener Punkt ist die Abdichtung des gesamten Luftwegs. Ein HEPA-Filter nützt wenig, wenn ungefilterte Luft an ihm vorbeiströmt oder das Gehäuse undicht ist. Hochwertige Modelle der genannten Marken arbeiten mit einem geschlossenen System, bei dem die gesamte angesaugte Luft zwingend durch den Filter geleitet wird. Für Allergiker empfiehlt sich zusätzlich, den Beutel der Absaugstation nicht erst zu wechseln, wenn er randvoll ist, sondern etwas früher – so bleibt die Sogleistung der Station hoch und es entweicht beim selteneren Wechsel weniger Feinstaub. In Kombination mit regelmäßigem Lüften und dem täglichen Reinigungslauf lässt sich die Allergenkonzentration in der Wohnung damit auf einem niedrigen Niveau halten, ohne dass Sie selbst zum Staubsauger greifen müssen.</p>
+<p>Für <strong>Allergiker</strong> ist der Saugroboter weit mehr als ein Komfortgerät, er ist ein Beitrag zur Gesundheit. Tierallergene wie das Katzenprotein Fel d 1 oder Hundeallergene haften an Hautschuppen und feinem Staub, der durch die Luft wirbelt. Entscheidend ist hier die Kombination aus HEPA-Filter (mindestens E11) und einem gut abgedichteten Gehäuse, damit keine Partikel wieder austreten. Eine Absaugstation mit Beutel ist für Allergiker ideal, weil Sie beim Entleeren nicht mit dem Staub in Berührung kommen. Tägliches automatisches Saugen senkt die Allergenbelastung in der Wohnung dauerhaft und spürbar.</p>
+<p>Oft übersehen wird die Abdichtung des gesamten Luftwegs. Ein HEPA-Filter nützt wenig, wenn ungefilterte Luft an ihm vorbeiströmt oder das Gehäuse undicht ist. Hochwertige Modelle der genannten Marken arbeiten mit einem geschlossenen System, in dem die gesamte angesaugte Luft durch den Filter muss. Allergikern empfehlen wir außerdem, den Beutel der Absaugstation nicht erst zu wechseln, wenn er randvoll ist, sondern etwas früher: So bleibt die Saugleistung der Station hoch, und beim Wechseln entweicht weniger Feinstaub. Wer zusätzlich regelmäßig lüftet und den Roboter täglich fahren lässt, hält die Allergenbelastung niedrig, ohne selbst zum Staubsauger greifen zu müssen.</p>
 
 <h2>Wartung: Bürste und HEPA-Filter sauber halten</h2>
-<p>Damit Ihr Saugroboter für Tierhaare dauerhaft leistungsstark bleibt, ist regelmäßige Pflege Pflicht – auch bei Anti-Verheddern-Bürsten:</p>
 <ul>
-<li><strong>Bürste reinigen:</strong> Kontrollieren Sie die Hauptbürste alle ein bis zwei Wochen. Gummibürsten lassen sich meist herausnehmen und unter fließendem Wasser abspülen; verbleibende Haare entfernen Sie mit der Hand oder einem kleinen Schneidewerkzeug.</li>
-<li><strong>Seitenbürste prüfen:</strong> Hier verfangen sich besonders oft lange Haare. Ein kurzer Wochencheck genügt.</li>
-<li><strong>HEPA-Filter pflegen:</strong> Klopfen Sie den Filter regelmäßig aus. Waschbare HEPA-Filter sollten Sie alle vier bis sechs Wochen mit kaltem Wasser reinigen und vollständig trocknen lassen. Tauschen Sie den Filter spätestens alle zwei bis drei Monate aus, um die Filterleistung für Allergiker zu erhalten.</li>
-<li><strong>Sensoren und Räder:</strong> Tierhaare sammeln sich gern an den Radachsen – eine monatliche Kontrolle verhindert Blockaden.</li>
+<li><strong>Bürste reinigen:</strong> Kontrollieren Sie die Hauptbürste alle ein bis zwei Wochen. Gummibürsten lassen sich meist herausnehmen und unter fließendem Wasser abspülen; verbliebene Haare entfernen Sie mit der Hand oder einem kleinen Schneidewerkzeug.</li>
+<li><strong>Seitenbürste prüfen:</strong> Hier verfangen sich besonders oft lange Haare. Ein kurzer Blick einmal pro Woche genügt.</li>
+<li><strong>HEPA-Filter pflegen:</strong> Klopfen Sie den Filter regelmäßig aus. Waschbare HEPA-Filter spülen Sie alle vier bis sechs Wochen mit kaltem Wasser aus und lassen sie vollständig trocknen. Tauschen Sie den Filter spätestens alle zwei bis drei Monate, damit er für Allergiker wirksam bleibt.</li>
+<li><strong>Sensoren und Räder:</strong> Tierhaare sammeln sich gern an den Radachsen – eine Kontrolle einmal im Monat verhindert Blockaden.</li>
 </ul>
-<p>Mit dieser Routine bleibt die <strong>Saugkraft in Pa</strong> konstant hoch und Ihr Roboter entfernt Tierhaare zuverlässig über Jahre hinweg. Weitere Modellvergleiche finden Sie in unserem <a href="/de/blog/comparatif-robot-aspirateur-laveur">Vergleich der Saug-Wisch-Roboter</a>.</p>
+<p>Auch Anti-Verheddern-Bürsten brauchen also etwas Pflege. Mit dieser Routine bleibt die Saugkraft konstant hoch, und Ihr Roboter entfernt Tierhaare über Jahre zuverlässig. Weitere Modelle finden Sie in unserem <a href="/de/blog/comparatif-robot-aspirateur-laveur">Vergleich der Saugroboter mit Wischfunktion</a>.</p>
 
 <h2>Fazit: Welcher Saugroboter für Tierhaare passt zu Ihnen?</h2>
-<p>Der beste Saugroboter für Tierhaare ist der, der zu Ihrem Haushalt passt. Für die meisten Hunde- und Katzenbesitzer ist der <strong>Roborock S8 MaxV Ultra</strong> die rundum überzeugende Empfehlung. Wer maximale Saugkraft für viele Teppiche sucht, greift zum <strong>Dreame X40 Ultra</strong> oder <strong>Roborock Saros Z70</strong>. Preisbewusste Tierfreunde fahren mit dem <strong>Ecovacs Deebot T30 Pro Omni</strong> hervorragend, und für die verheddungssicherste Bürste sorgt der <strong>iRobot Roomba Max 705 Vac</strong>. Achten Sie immer auf die drei Kernkriterien: ausreichende Saugkraft in Pa, eine echte Anti-Verheddern-Bürste und eine Absaugstation – dann werden Tierhaare im Alltag endlich kein Thema mehr sein.</p>
-
-<h2>Verfügbarkeit im deutschsprachigen Raum</h2>
-<p>Saugroboter für Tierhaare sind im deutschsprachigen Raum breit verfügbar – bei Amazon.de mit schneller Lieferung sowie im Fachhandel in Deutschland, Österreich und der Schweiz. Beim Kauf in der EU profitieren Sie zudem von der gesetzlichen Gewährleistung über zwei Jahre.</p>
-<ul>
-<li><strong>Verfügbarkeit:</strong> Bei Amazon.de in der Regel sofort lieferbar; daneben bei MediaMarkt, Saturn oder Otto und über die jeweiligen Landesshops in Österreich und der Schweiz.</li>
-<li><strong>Garantie:</strong> 2 Jahre gesetzliche Gewährleistung in Deutschland, Österreich und der Schweiz, oft ergänzt durch eine Herstellergarantie auf Akku und Motor.</li>
-<li><strong>Worauf deutsche Käufer achten:</strong> hohe Saugkraft in Pa, eine echte Anti-Verheddern-Bürste, geringe Lautstärke und unabhängige Testberichte sowie verifizierte Käuferbewertungen.</li>
-</ul>`,
+<p>Der beste Saugroboter für Tierhaare ist der, der zu Ihrem Haushalt passt. Für die meisten Hunde- und Katzenbesitzer ist der <strong>Roborock S8 MaxV Ultra</strong> die rundum überzeugende Empfehlung. Wer maximale Saugkraft für viele Teppiche sucht, greift zum <strong>Dreame X40 Ultra</strong> oder zum <strong>Roborock Saros Z70</strong>. Mit kleinerem Budget fahren Sie mit dem <strong>Ecovacs Deebot T30 Pro Omni</strong> sehr gut, und die Bürste, in der sich am wenigsten verheddert, hat der <strong>iRobot Roomba Max 705 Vac</strong>. Achten Sie immer auf die drei Kernkriterien: ausreichende Saugkraft in Pa, eine echte Anti-Verheddern-Bürste und eine Absaugstation. Dann sind Tierhaare im Alltag endlich kein Thema mehr.</p>`,
     fr: `<h2>Pourquoi un Saugroboter spécial poils d\'animaux est indispensable</h2>
 <p>Si vous vivez avec un chien ou un chat, vous connaissez le problème : les poils sont partout. Sur le canapé, dans les tapis, sous les meubles et dans les moindres recoins. Un robot aspirateur classique se retrouve vite dépassé : brosse emmêlée en quelques jours, bac plein après une seule session, filtre encrassé qui réduit l\'aspiration. Les foyers avec animaux ont besoin d\'un robot conçu spécifiquement pour gérer cette quantité massive de poils.</p>
 <p>Dans ce comparatif, nous identifions les critères réellement décisifs, les modèles qui convainquent en 2026 et ce à quoi les personnes allergiques doivent prêter attention. Pour un panorama plus large, consultez aussi notre <a href="/fr/blog/robot-aspirateur-poils-animaux">guide complet robot aspirateur pour poils d\'animaux</a>.</p>
@@ -197,270 +186,270 @@ export const article: BlogArticle = {
 
 <h2>Conclusion</h2>
 <p>Le meilleur choix pour la plupart des foyers est le <strong>Roborock S8 MaxV Ultra</strong>. Pour un maximum d\'aspiration : <strong>Dreame X40 Ultra</strong> ou <strong>Saros Z70</strong>. Petit budget : <strong>Ecovacs Deebot T30 Pro Omni</strong>. Brosse la plus sûre : <strong>iRobot Roomba Max 705 Vac</strong>. Gardez en tête les trois critères clés : aspiration en Pa, brosse anti-emmêlement et station d\'auto-vidage.</p>`,
-    en: `<h2>Why a dedicated pet hair robot vacuum is essential</h2>
-<p>If you live with a dog or cat, you know the struggle: hair is everywhere. On the sofa, in carpets, under furniture and in every tiny crevice. A standard robot vacuum is quickly overwhelmed: the brush tangles within days, the bin fills after a single session, and the filter clogs, drastically reducing suction. Pet households need a robot built specifically to handle this massive amount of hair.</p>
-<p>In this comparison we identify the criteria that truly matter, the models that stand out in 2026, and what allergy sufferers should look out for. For a broader overview, also see our <a href="/en/blog/robot-aspirateur-poils-animaux">complete pet hair robot vacuum guide</a>.</p>
-<p>The difference between an ordinary model and a true pet hair specialist is not visible on the spec sheet but in everyday use. A good dog and cat robot takes the daily chore off your hands entirely: while you work or are away, the device runs its routes, collects hair and dander, and returns to its station on its own. The right device class is recognised by three things that must work together: strong suction power, a well-designed anti-tangle mechanism, and maintenance-free emptying via an auto-empty station. If even one of these components is missing, the robot quickly becomes a disappointment in a pet household.</p>
-<p>We compare the main models from Roborock, Ecovacs Deebot, Dreame and iRobot Roomba using manufacturer specifications, independent reviews and verified buyer feedback, so that you do not invest hundreds of euros in a robot overwhelmed by your companion\'s coat.</p>
+    en: `<h2>Why you need a robot vacuum built for pet hair</h2>
+<p>If you live with a dog or cat, you know the problem: hair gets everywhere. On the sofa, in the carpets, under the furniture and in every nook and cranny. A standard robot vacuum is soon overwhelmed: the brush is tangled within days, the bin is full after a single session and a clogged filter cuts suction. Homes with pets need a robot designed specifically to cope with this much hair.</p>
+<p>In this comparison, we set out the criteria that really make the difference, the models that stand out in 2026 and what allergy sufferers should look out for. For a broader overview, see also our <a href="/en/blog/robot-aspirateur-poils-animaux">complete guide to robot vacuums for pet hair</a>.</p>
+<p>The difference between an ordinary model and a true pet hair specialist doesn't show on the spec sheet; it shows in everyday use. A good robot vacuum for dogs and cats takes the daily chore off your hands completely: while you're at work or out, it works its way round your home, picks up hair and dander, then goes back to its station on its own. You can spot the right kind of robot by three features that have to work together: strong suction, a well-designed anti-tangle system and hands-free emptying via an auto-empty station. If even one of these is missing, the robot soon disappoints in a home with pets.</p>
+<p>We compare the main models from Roborock, Ecovacs Deebot, Dreame and iRobot Roomba using manufacturer specifications, published independent reviews and verified buyer feedback, so you don't spend a lot of money on a robot that can't cope with your pet's coat.</p>
 
-<h2>Key criteria for a dog and cat robot vacuum</h2>
+<h2>Key criteria for a robot vacuum for dogs and cats</h2>
 <h3>Suction power: at least 10,000 Pa</h3>
-<p>Suction is measured in Pascals (Pa). Fine, long pet hair embeds deep in carpet fibres. A suction of <strong>10,000 Pa or more</strong> is needed to extract it. Models at 5,000-6,000 Pa are fine on hard floors but struggle on textiles. Top models now reach 18,000 to 22,000 Pa.</p>
-<p>Worth knowing: the raw Pa figure is not everything. What matters is the combination of suction, brush design and a well-sealed air path. A well-sealed 10,000 Pa model can pick up more pet hair than a 16,000 Pa device whose airflow leaks at the edges. An automatic suction boost on carpets is also valuable: the robot detects the surface and switches to maximum power as soon as it moves from hard floor to carpet, saving battery while still ensuring thorough extraction where it is needed.</p>
-<h3>Anti-tangle brush: rubber over bristles</h3>
-<p>This is the number one criterion. A nylon-bristle brush tangles quickly with long hair. The best brushes are <strong>rubber</strong> (iRobot) or feature a <strong>DuoRoller anti-tangle system</strong> (Roborock, Dreame, Ecovacs ZeroTangle). They lift hair off the floor without wrapping it around the axle.</p>
-<p>The everyday difference is huge: with a classic bristle brush you may have to cut away tangled hair daily with a cutting tool — a chore that quickly puts owners off the whole concept. A good rubber brush or counter-rotating dual-roller system instead pushes hair towards the suction opening rather than winding it up. If you have a long-haired dog or a cat with a dense undercoat, pay particular attention to this detail: it largely determines whether the robot is a genuine relief in daily life.</p>
+<p>Suction power is measured in pascals (Pa). Fine, long hairs work their way deep into carpet fibres, and it takes <strong>10,000 Pa or more</strong> to pull them out. Models with 5,000 to 6,000 Pa are fine on hard floors but struggle on carpets and rugs. High-end models now reach 18,000 to 22,000 Pa.</p>
+<p>Worth knowing: the headline Pa figure isn't everything. What counts is the combination of suction, brush design and a well-sealed air path. A well-sealed 10,000 Pa model can pick up more hair than a 16,000 Pa machine whose airflow leaks round the edges. An automatic suction boost on carpets is also valuable: the robot detects the floor type and switches to maximum power as soon as it moves from a hard floor onto a carpet, which saves battery while still cleaning deeply where it's needed.</p>
+<h3>Anti-tangle brush: rubber rather than bristles</h3>
+<p>This is the number one criterion. A nylon-bristle brush quickly gets tangled with long hair. The best brushes are made of <strong>rubber</strong> (iRobot) or use a <strong>DuoRoller anti-tangle system</strong> (Roborock, Dreame, Ecovacs ZeroTangle). They lift the hair without winding it around the axle.</p>
+<p>The difference in everyday life is huge: with a standard bristle brush, you may have to cut tangled hair off it every day with a cutting tool, a chore that soon wears thin. A good rubber brush or a counter-rotating twin-roller system pushes the hair towards the suction inlet instead of winding it up. If you have a long-haired dog or a cat with a thick undercoat, pay particular attention to this: it goes a long way to deciding whether the robot really makes your life easier.</p>
 <h3>Large bin and auto-empty station</h3>
-<p>With a pet, the bin fills in 1-2 sessions, versus 4-5 in a household without animals. A large <strong>350-450 ml</strong> bin helps, but the <strong>auto-empty station</strong> is almost mandatory: it suctions hair into a 2.5-3.5 litre bag changed only every 3-6 weeks. Without a station, you would have to empty the bin by hand after almost every run, completely defeating the purpose of automation. For allergy sufferers, the sealed bag is an added benefit: you remove it without coming into direct contact with dust and allergens.</p>
-<h3>HEPA filter: decisive for allergy sufferers</h3>
-<p>A <strong>HEPA filter</strong> captures 99.97% of particles 0.3 microns and larger, including pet allergens. Essential for allergy sufferers (class E11 minimum, ideally E12).</p>
+<p>With a pet, the bin fills up in one or two sessions, compared with four or five in a home without pets. A large <strong>350–450 ml</strong> bin helps, but an <strong>auto-empty station</strong> is all but essential: it sucks the hair into a 2.5–3.5 litre bag that only needs changing every 3 to 6 weeks. Without a station, you'd have to empty the bin by hand after almost every run, which completely defeats the point of automation. For allergy sufferers, the sealed bag is a further plus: you can remove it without coming into direct contact with the dust and allergens.</p>
+<h3>HEPA filter: key for allergy sufferers</h3>
+<p>A <strong>HEPA filter</strong> captures 99.97% of particles of 0.3 microns and larger, including pet allergens. It's essential for allergy sufferers (class E11 minimum, ideally E12).</p>
 <h3>LiDAR navigation</h3>
-<p><strong>LiDAR navigation</strong> ensures methodical, complete cleaning without missing zones. Daily scheduling is crucial with pets.</p>
+<p><strong>LiDAR navigation</strong> means methodical, thorough cleaning with no areas missed. With pets, a daily cleaning schedule is vital.</p>
 
-<h2>Comparison: best pet hair robot vacuums 2026</h2>
+<h2>Comparison: the best robot vacuums for pet hair in 2026</h2>
 <table>
 <thead>
 <tr><th>Model</th><th>Suction (Pa)</th><th>Anti-tangle</th><th>Auto-empty</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10,000 Pa</td><td>Yes (DuoRoller rubber)</td><td>Yes</td><td>most pet households</td></tr>
+<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10,000 Pa</td><td>Yes (DuoRoller rubber)</td><td>Yes</td><td>most homes with pets</td></tr>
 <tr><td><strong>Dreame X40 Ultra</strong></td><td>12,000 Pa</td><td>Yes (anti-tangle brush)</td><td>Yes</td><td>corners and skirting boards</td></tr>
 <tr><td><strong>Ecovacs Deebot T30 Pro Omni</strong></td><td>11,000 Pa</td><td>Yes (ZeroTangle)</td><td>Yes</td><td>best value</td></tr>
-<tr><td><strong>iRobot Roomba Max 705 Vac</strong></td><td>n/a</td><td>Yes (2 rubber rollers)</td><td>Yes (AutoEmpty)</td><td>very long hair</td></tr>
-<tr><td><strong>Roborock Saros Z70</strong></td><td>22,000 Pa</td><td>Yes (anti-tangle + arm)</td><td>Yes</td><td>lots of carpet, premium</td></tr>
+<tr><td><strong>iRobot Roomba Max 705 Vac</strong></td><td>not stated</td><td>Yes (2 rubber rollers)</td><td>Yes (AutoEmpty)</td><td>very long hair</td></tr>
+<tr><td><strong>Roborock Saros Z70</strong></td><td>22,000 Pa</td><td>Yes (anti-tangle + arm)</td><td>Yes</td><td>lots of rugs, premium</td></tr>
 </tbody>
 </table>
 
 <h2>Our recommendation: Roborock S8 MaxV Ultra</h2>
-<p>The Roborock S8 MaxV Ultra is our top recommendation for households with a dog or cat. Its <strong>DuoRoller rubber brush</strong> limits hair tangling. With 10,000 Pa it extracts hair embedded in carpets. The auto-empty station empties the bin automatically and also cleans the mops. Its camera navigation detects obstacles (toys, water bowl) and avoids them instead of pushing them around. You can set no-go zones around the bowl via the app.</p>
+<p>The Roborock S8 MaxV Ultra is our top recommendation for homes with a dog or cat. Its <strong>DuoRoller rubber brush</strong> keeps hair tangles to a minimum. With 10,000 Pa, it pulls embedded hair out of carpets. The auto-empty station empties the bin automatically and also cleans the mop pads. Its camera-based navigation spots obstacles (toys, water bowls) and steers round them instead of pushing them along. You can set no-go zones around the bowl in the app.</p>
 
 <h2>The alternatives in detail</h2>
-<h3>Dreame X40 Ultra: suction champion</h3>
-<p>With 12,000 Pa and an anti-tangle main brush, the Dreame X40 Ultra is ideal for long-haired breeds such as Golden Retriever or Maine Coon. The extendable side brush reaches corners and edges where pet hair accumulates most.</p>
+<h3>Dreame X40 Ultra: the suction powerhouse</h3>
+<p>With 12,000 Pa and an anti-tangle main brush, the Dreame X40 Ultra is ideal for long-haired breeds such as Golden Retrievers and Maine Coons. The extending side brush reaches into corners and along edges, where hair builds up most.</p>
 <h3>Ecovacs Deebot T30 Pro Omni: best value for money</h3>
-<p>The Deebot T30 Pro Omni offers 11,000 Pa, a ZeroTangle brush and an auto-empty station at a noticeably more affordable price. For budget-conscious pet owners, it is the smart choice.</p>
-<h3>iRobot Roomba Max 705 Vac: the most robust brush solution</h3>
-<p>iRobot relies on <strong>two counter-rotating rubber rollers</strong> with no bristles — arguably the most tangle-proof solution on the market. The Roomba Max 705 Vac excels with very long hair and heavy shedding. The AutoEmpty dock empties the bin automatically.</p>
+<p>The Deebot T30 Pro Omni offers 11,000 Pa, a ZeroTangle brush and an auto-empty station for noticeably less money. For pet owners on a budget, it's the smart choice.</p>
+<h3>iRobot Roomba Max 705 Vac: the toughest brush</h3>
+<p>iRobot uses <strong>two counter-rotating rubber rollers</strong> with no bristles, the most reliable way to prevent tangles. The Roomba Max 705 Vac excels with very long hair and heavy shedding. The AutoEmpty station empties the bin automatically.</p>
 
-<h2>Noise and acceptance by the pet</h2>
-<p>An often underestimated aspect is noise. Many dogs and some cats react nervously at first. Choose a model with a quiet standard mode (around 55-60 dB) and schedule the first runs while you are present. Most pets accept the robot after one to two weeks. Reserve the louder turbo mode for times when nobody is home — the app lets you automate all of this.</p>
+<h2>Noise and getting your pet used to it</h2>
+<p>Noise is an often underestimated factor. Many dogs and some cats are nervous at first. Choose a model with a quiet standard mode (around 55–60 dB) and schedule the first runs while you're at home. Most pets get used to the robot within one to two weeks. Save the louder turbo mode for times when nobody is home: the app lets you automate all of this.</p>
 
-<h2>Carpet vs hard floors</h2>
-<p>On <strong>hard floors</strong> (parquet, laminate, tiles), hair rests on the surface: moderate suction and a good brush suffice, with the emphasis on edge cleaning along skirting boards. On <strong>carpets and rugs</strong>, hair embeds deep — you need strong suction (10,000 Pa and up) and automatic carpet detection with boost. Tip for mixed households: make sure the robot lifts its mops when it reaches a carpet. Models without this function drag the wet mop across the carpet and work hair into the fibres — the opposite of what you want. High-pile carpets remain the biggest challenge: for these, the surcharge for a 16,000 Pa-plus model is almost always worth it.</p>
+<h2>Carpets vs hard floors</h2>
+<p>On <strong>hard floors</strong> (wooden floors, laminate, tiles), hair sits on the surface: moderate suction and a good brush are enough, and the focus is on cleaning the edges along the skirting boards. On <strong>carpets and rugs</strong>, hair works its way deep into the pile, so you need strong suction (10,000 Pa or more) and automatic carpet detection with a suction boost. A tip if you have a mix of floors: make sure the robot lifts its mop pads when it reaches a carpet. Models without this feature drag the wet mop across the carpet and press the hair into the fibres, the opposite of what you want. Deep-pile carpets are the biggest challenge: for these, paying extra for a model with 16,000 Pa or more is almost always worth it.</p>
 
 <h2>Allergy sufferers: what a robot must offer</h2>
-<p>For <strong>allergy sufferers</strong>, the robot is far more than a convenience device — it is a contribution to health. Pet allergens such as the cat protein Fel d 1 or dog allergens cling to dander and fine dust that swirls through the air. The combination of a HEPA filter (E11 minimum) and a well-sealed housing is essential so that no particles escape again. An auto-empty station with a bag lets you empty without direct contact with dust. Daily runs durably reduce the allergen load.</p>
-<p>An often-overlooked point is the sealing of the entire air path. A HEPA filter is of little use if unfiltered air bypasses it or the housing leaks. High-quality models use a closed system in which all the intake air is forced through the filter. For allergy sufferers it also helps to change the station bag a little before it is completely full — this keeps the station\'s suction high and releases less fine dust during the less frequent change.</p>
+<p>For <strong>allergy sufferers</strong>, a HEPA filter (E11 minimum) combined with a well-sealed housing is essential.</p>
+<p>An auto-empty station with a bag lets you empty the robot without coming into direct contact with the dust, and running it every day keeps the allergen load down over time.</p>
 
 <h2>Maintenance: brush and HEPA filter</h2>
 <ul>
-<li><strong>Brush:</strong> check it every 1-2 weeks, rinse rubber brushes, remove remaining hair.</li>
-<li><strong>Side brush:</strong> long hair often wraps here; check weekly.</li>
-<li><strong>HEPA filter:</strong> tap it out regularly, wash washable filters every 4-6 weeks, replace every 2-3 months.</li>
-<li><strong>Sensors and wheels:</strong> hair accumulates on the wheel axles; a monthly check prevents blockages.</li>
+<li><strong>Brush:</strong> check it every one to two weeks, rinse rubber brushes and remove any leftover hair.</li>
+<li><strong>Side brush:</strong> long hair often wraps around it, so check it weekly.</li>
+<li><strong>HEPA filter:</strong> tap it clean regularly, wash washable filters every 4–6 weeks and replace them every 2–3 months.</li>
+<li><strong>Sensors and wheels:</strong> hair builds up on the wheel axles; a monthly check stops them jamming.</li>
 </ul>
-<p>With this routine, suction in Pa stays consistent and your robot removes pet hair effectively for years. See also our <a href="/en/blog/comparatif-robot-aspirateur-laveur">robot vacuum-mop comparison</a>.</p>
+<p>With this routine, suction stays consistent and your robot will keep removing pet hair effectively for years. See also our <a href="/en/blog/comparatif-robot-aspirateur-laveur">robot vacuum and mop comparison</a>.</p>
 
 <h2>Conclusion</h2>
-<p>The best pet hair robot vacuum is the one that suits your household. The best choice for most households is the <strong>Roborock S8 MaxV Ultra</strong>. For maximum suction across many carpets: <strong>Dreame X40 Ultra</strong> or <strong>Roborock Saros Z70</strong>. Budget-friendly pet owners do very well with the <strong>Ecovacs Deebot T30 Pro Omni</strong>, and the most tangle-proof brush comes from the <strong>iRobot Roomba Max 705 Vac</strong>. Always keep the three core criteria in mind: sufficient suction in Pa, a genuine anti-tangle brush, and an auto-empty station — then pet hair will finally stop being an everyday problem.</p>`,
-    es: `<h2>Por qué es esencial un robot aspirador especial para pelo de mascotas</h2>
-<p>Si vives con un perro o un gato, conoces el problema: el pelo está por todas partes. En el sofá, en las alfombras, bajo los muebles y en cada rincón. Un robot aspirador clásico se ve superado rápidamente: el cepillo se enreda en pocos días, el depósito se llena tras una sola sesión y el filtro se obstruye. Los hogares con mascotas necesitan un robot diseñado específicamente para esta enorme cantidad de pelo.</p>
-<p>En esta comparativa identificamos los criterios realmente decisivos, los modelos que destacan en 2026 y lo que deben tener en cuenta los alérgicos. Para una visión más amplia, consulta también nuestra <a href="/es/blog/robot-aspirateur-poils-animaux">guía completa de robot aspirador para mascotas</a>.</p>
-<p>La diferencia entre un modelo corriente y un verdadero especialista en pelo de mascotas no se ve en la ficha técnica, sino en el día a día. Un buen robot para perro y gato te libera por completo de la tarea diaria: mientras trabajas o estás fuera, el aparato recorre sus trayectos, recoge pelo y caspa, y regresa solo a su estación. La categoría de aparato adecuada se reconoce por tres elementos que deben funcionar juntos: una fuerte potencia de succión, un mecanismo anti-enredo bien diseñado y un vaciado sin mantenimiento mediante una estación de autovaciado. Si falta aunque sea uno de estos componentes, el robot se vuelve rápidamente decepcionante en un hogar con mascotas.</p>
-<p>Comparamos los principales modelos de Roborock, Ecovacs Deebot, Dreame e iRobot Roomba a partir de las especificaciones de los fabricantes, análisis independientes y opiniones verificadas de compradores, para que no inviertas cientos de euros en un robot superado por el pelaje de tu compañero.</p>
+<p>The best choice for most households is the <strong>Roborock S8 MaxV Ultra</strong>. For maximum suction, go for the <strong>Dreame X40 Ultra</strong> or the <strong>Roborock Saros Z70</strong>. On a tight budget, choose the <strong>Ecovacs Deebot T30 Pro Omni</strong>. For the most reliable anti-tangle brush, it's the <strong>iRobot Roomba Max 705 Vac</strong>. Keep the three key criteria in mind: suction in Pa, an anti-tangle brush and an auto-empty station.</p>`,
+    es: `<h2>Por qué necesitas un robot aspirador pensado para el pelo de mascotas</h2>
+<p>Si vives con un perro o un gato, ya conoces el problema: hay pelo por todas partes. En el sofá, en las alfombras, debajo de los muebles y en cualquier rincón. Un robot aspirador normal no da abasto: el cepillo se enreda en pocos días, el depósito se llena en una sola pasada y el filtro se obstruye y pierde succión. En una casa con mascotas hace falta un robot diseñado para lidiar con tanto pelo.</p>
+<p>En esta comparativa repasamos los criterios que de verdad marcan la diferencia, los modelos que más convencen en 2026 y en qué deben fijarse las personas alérgicas. Para una visión más amplia, consulta también nuestra <a href="/es/blog/robot-aspirateur-poils-animaux">guía completa del robot aspirador para pelo de mascotas</a>.</p>
+<p>La diferencia entre un modelo corriente y un auténtico especialista en pelo de mascotas no se ve en la ficha técnica, sino en el día a día. Un buen robot para perros y gatos te quita por completo esa tarea diaria: mientras trabajas o estás fuera, recorre la casa, recoge el pelo y la caspa y vuelve solo a su base. El aparato adecuado se reconoce por tres elementos que tienen que funcionar juntos: mucha potencia de succión, un sistema antienredos bien pensado y un vaciado sin mantenimiento gracias a una estación de autovaciado. Basta con que falle uno de ellos para que el robot decepcione en una casa con mascotas.</p>
+<p>Comparamos los principales modelos de Roborock, Ecovacs Deebot, Dreame e iRobot Roomba a partir de las fichas técnicas de los fabricantes, de análisis independientes publicados y de opiniones verificadas de compradores, para que no te gastes varios cientos de euros en un robot que no puede con el pelo de tu perro o tu gato.</p>
 
-<h2>Criterios clave para un robot aspirador perro y gato</h2>
-<h3>Potencia de succión: mínimo 10.000 Pa</h3>
-<p>La succión se mide en Pascales (Pa). El pelo fino y largo se incrusta en las fibras de las alfombras. Se necesita una potencia de <strong>10.000 Pa o más</strong>. Los modelos de 5.000-6.000 Pa bastan en suelos duros pero fallan en textiles. Los modelos de gama alta alcanzan ya 18.000 a 22.000 Pa.</p>
-<p>Conviene saberlo: la cifra bruta en Pa no lo es todo. Lo que importa es la combinación de succión, diseño del cepillo y un conducto de aire bien sellado. Un modelo de 10.000 Pa bien sellado puede recoger más pelo que un aparato de 16.000 Pa cuyo flujo de aire se escapa por los bordes. El boost automático de succión en alfombras también es valioso: el robot detecta la superficie y pasa a máxima potencia en cuanto cambia de suelo duro a alfombra, ahorrando batería y garantizando una extracción eficaz donde hace falta.</p>
-<h3>Cepillo anti-enredo: goma en lugar de cerdas</h3>
-<p>Es el criterio número uno. Un cepillo de cerdas de nylon se enreda muy rápido con el pelo largo. Los mejores cepillos son de <strong>goma</strong> (iRobot) o con sistema anti-enredo <strong>DuoRoller</strong> (Roborock, Dreame, Ecovacs ZeroTangle).</p>
-<p>La diferencia en el día a día es enorme: con un cepillo de cerdas clásico a veces hay que retirar a diario el pelo enredado con una herramienta de corte — una tarea que desanima rápido. Un buen cepillo de goma o un sistema de doble rodillo contrarrotatorio empuja el pelo hacia la boca de succión en lugar de enrollarlo. Si tienes un perro de pelo largo o un gato con subpelo denso, presta especial atención a este detalle: determina en gran medida si el robot es un verdadero alivio en el día a día.</p>
+<h2>Criterios clave de un robot aspirador para perros y gatos</h2>
+<h3>Potencia de succión: 10.000 Pa como mínimo</h3>
+<p>La potencia de succión se mide en pascales (Pa). El pelo fino y largo se incrusta a fondo en las fibras de las alfombras, y para sacarlo hacen falta <strong>10.000 Pa o más</strong>. Los modelos de 5.000-6.000 Pa bastan en suelos duros, pero se quedan cortos en alfombras y tejidos. Los de gama alta ya alcanzan de 18.000 a 22.000 Pa.</p>
+<p>Ojo: la cifra de Pa no lo es todo. Lo que cuenta es la combinación de succión, diseño del cepillo y estanqueidad del conducto de aire. Un modelo de 10.000 Pa bien sellado puede recoger más pelo que uno de 16.000 Pa que pierde aire por los bordes. También es muy útil el aumento automático de succión en alfombras: el robot detecta el tipo de suelo y pasa a la potencia máxima en cuanto sale del suelo duro y entra en una alfombra; así ahorra batería y aspira con fuerza justo donde hace falta.</p>
+<h3>Cepillo antienredos: mejor de goma que de cerdas</h3>
+<p>Es el criterio número uno. Un cepillo de cerdas de nailon se enreda enseguida con el pelo largo. Los mejores cepillos son de <strong>goma</strong> (iRobot) o llevan un sistema antienredos <strong>DuoRoller</strong> (Roborock, Dreame, Ecovacs ZeroTangle). Recogen el pelo sin que se enrolle alrededor del eje.</p>
+<p>En el día a día, la diferencia es enorme: con un cepillo de cerdas normal, a veces hay que cortar a diario el pelo enredado con la herramienta de corte, una tarea que acaba desanimando a cualquiera. Un buen cepillo de goma o un sistema de doble rodillo contrarrotatorio, en cambio, empuja el pelo hacia la boca de succión en lugar de enrollarlo. Si tienes un perro de pelo largo o un gato con mucho subpelo, fíjate bien en este detalle: de él depende en buena parte que el robot te quite trabajo de verdad.</p>
 <h3>Depósito grande y estación de autovaciado</h3>
-<p>Con una mascota, el depósito se llena en 1-2 sesiones, frente a 4-5 en un hogar sin animales. Un depósito grande de <strong>350-450 ml</strong> ayuda, pero la <strong>estación de autovaciado</strong> es casi obligatoria: aspira el pelo a una bolsa de 2,5-3,5 litros que se cambia solo cada 3-6 semanas. Sin estación, tendrías que vaciar el depósito a mano tras casi cada pasada, anulando por completo la ventaja de la automatización. Para los alérgicos, la bolsa cerrada es un plus: la retiras sin entrar en contacto directo con el polvo y los alérgenos.</p>
-<h3>Filtro HEPA: decisivo para alérgicos</h3>
-<p>Un <strong>filtro HEPA</strong> captura el 99,97 % de las partículas de 0,3 micras o más, incluidos los alérgenos de mascotas. Imprescindible para alérgicos (clase E11 mínimo, idealmente E12).</p>
+<p>Con una mascota, el depósito se llena en una o dos pasadas, frente a cuatro o cinco en una casa sin animales. Conviene un depósito grande, de <strong>350 a 450 ml</strong>, pero la <strong>estación de autovaciado</strong> es casi obligatoria: aspira el pelo hacia una bolsa de 2,5 a 3,5 litros que solo hay que cambiar cada 3 a 6 semanas. Sin estación, tendrías que vaciar el depósito a mano casi después de cada pasada, y la automatización perdería todo su sentido. Para las personas alérgicas, la bolsa cerrada es una ventaja más: la retiras sin entrar en contacto directo con el polvo ni con los alérgenos.</p>
+<h3>Filtro HEPA: decisivo si hay alergias</h3>
+<p>Un <strong>filtro HEPA</strong> retiene el 99,97 % de las partículas de 0,3 micras o más, incluidos los alérgenos de las mascotas. Es imprescindible para las personas alérgicas (como mínimo clase E11; lo ideal, E12).</p>
 <h3>Navegación LiDAR</h3>
-<p>La <strong>navegación LiDAR</strong> garantiza una limpieza metódica y completa. La programación diaria es crucial con mascotas.</p>
+<p>La <strong>navegación LiDAR</strong> asegura una limpieza metódica y completa, sin dejarse zonas. Con mascotas, programar una limpieza diaria es clave.</p>
 
-<h2>Comparativa: mejores robots aspirador para mascotas 2026</h2>
+<h2>Comparativa: los mejores robots aspiradores para pelo de mascotas en 2026</h2>
 <table>
 <thead>
-<tr><th>Modelo</th><th>Succión (Pa)</th><th>Anti-enredo</th><th>Autovaciado</th><th>Ideal para</th></tr>
+<tr><th>Modelo</th><th>Succión (Pa)</th><th>Antienredos</th><th>Autovaciado</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10.000 Pa</td><td>Sí (DuoRoller goma)</td><td>Sí</td><td>la mayoría de hogares con mascotas</td></tr>
-<tr><td><strong>Dreame X40 Ultra</strong></td><td>12.000 Pa</td><td>Sí (cepillo anti-enredo)</td><td>Sí</td><td>esquinas y zócalos</td></tr>
+<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10.000 Pa</td><td>Sí (DuoRoller de goma)</td><td>Sí</td><td>la mayoría de las casas con mascotas</td></tr>
+<tr><td><strong>Dreame X40 Ultra</strong></td><td>12.000 Pa</td><td>Sí (cepillo antienredos)</td><td>Sí</td><td>esquinas y rodapiés</td></tr>
 <tr><td><strong>Ecovacs Deebot T30 Pro Omni</strong></td><td>11.000 Pa</td><td>Sí (ZeroTangle)</td><td>Sí</td><td>mejor relación calidad-precio</td></tr>
-<tr><td><strong>iRobot Roomba Max 705 Vac</strong></td><td>n. d.</td><td>Sí (2 rodillos goma)</td><td>Sí (AutoEmpty)</td><td>pelo muy largo</td></tr>
-<tr><td><strong>Roborock Saros Z70</strong></td><td>22.000 Pa</td><td>Sí (anti-enredo + brazo)</td><td>Sí</td><td>muchas alfombras, gama alta</td></tr>
+<tr><td><strong>iRobot Roomba Max 705 Vac</strong></td><td>n. d.</td><td>Sí (2 rodillos de goma)</td><td>Sí (AutoEmpty)</td><td>pelo muy largo</td></tr>
+<tr><td><strong>Roborock Saros Z70</strong></td><td>22.000 Pa</td><td>Sí (antienredos + brazo)</td><td>Sí</td><td>muchas alfombras, gama alta</td></tr>
 </tbody>
 </table>
 
 <h2>Nuestra recomendación: Roborock S8 MaxV Ultra</h2>
-<p>El Roborock S8 MaxV Ultra es nuestra primera recomendación para hogares con perro o gato. Su <strong>cepillo DuoRoller de goma</strong> limita el enredo del pelo. Con 10.000 Pa extrae el pelo incrustado en alfombras. La estación de autovaciado vacía el depósito automáticamente y también limpia las mopas. Su navegación por cámara detecta obstáculos (juguetes, cuenco de agua) y los esquiva en lugar de empujarlos. Puedes definir zonas prohibidas alrededor del comedero desde la app.</p>
+<p>El Roborock S8 MaxV Ultra es nuestra recomendación principal para casas con perro o gato. Su <strong>cepillo DuoRoller de goma</strong> reduce mucho los enredos de pelo. Con 10.000 Pa saca el pelo incrustado en las alfombras. La estación de autovaciado vacía el depósito automáticamente y además limpia las mopas. Su navegación por cámara detecta los obstáculos (juguetes, el cuenco del agua) y los esquiva en lugar de empujarlos. Desde la app puedes marcar zonas prohibidas alrededor del comedero.</p>
 
-<h2>Las alternativas en detalle</h2>
-<h3>Dreame X40 Ultra: campeón de la succión</h3>
-<p>Con 12.000 Pa y un cepillo principal anti-enredo, el Dreame X40 Ultra es ideal para razas de pelo largo como Golden Retriever o Maine Coon. El cepillo lateral extensible alcanza esquinas y bordes, donde más se acumula el pelo.</p>
+<h2>Las alternativas, en detalle</h2>
+<h3>Dreame X40 Ultra: el campeón de la succión</h3>
+<p>Con 12.000 Pa y un cepillo principal antienredos, el Dreame X40 Ultra encaja muy bien con razas de pelo largo como el golden retriever o el maine coon. Su cepillo lateral extensible llega a las esquinas y los bordes, que es donde más pelo se acumula.</p>
 <h3>Ecovacs Deebot T30 Pro Omni: la mejor relación calidad-precio</h3>
-<p>El Deebot T30 Pro Omni ofrece 11.000 Pa, cepillo ZeroTangle y estación de autovaciado a un precio mucho más accesible. Para dueños con presupuesto ajustado, es la opción inteligente.</p>
-<h3>iRobot Roomba Max 705 Vac: la solución de cepillo más robusta</h3>
-<p>iRobot apuesta por <strong>dos rodillos de goma contrarrotatorios</strong> sin cerdas — posiblemente la solución más a prueba de enredos del mercado. El Roomba Max 705 Vac destaca con pelo muy largo y mudas fuertes. La base AutoEmpty vacía el depósito automáticamente.</p>
+<p>El Deebot T30 Pro Omni ofrece 11.000 Pa, cepillo ZeroTangle y estación de autovaciado a un precio bastante más asequible. Si tienes mascotas y un presupuesto ajustado, es la compra más inteligente.</p>
+<h3>iRobot Roomba Max 705 Vac: el cepillo más robusto</h3>
+<p>iRobot apuesta por <strong>dos rodillos de goma contrarrotatorios</strong> sin cerdas, la solución más segura contra los enredos. El Roomba Max 705 Vac rinde muy bien con el pelo muy largo y en épocas de muda intensa. Su estación AutoEmpty vacía el depósito automáticamente.</p>
 
-<h2>Ruido y aceptación por la mascota</h2>
-<p>Un aspecto a menudo subestimado es el ruido. Muchos perros y algunos gatos reaccionan nerviosos al principio. Elige un modelo con modo estándar silencioso (unos 55-60 dB) y programa las primeras pasadas estando presente. La mayoría de las mascotas aceptan el robot tras una o dos semanas. Reserva el modo turbo, más ruidoso, para cuando no haya nadie en casa — la app permite automatizar todo esto.</p>
+<h2>El ruido y cómo lo lleva tu mascota</h2>
+<p>El ruido es un aspecto que a menudo se pasa por alto. Muchos perros y algunos gatos se ponen nerviosos al principio. Elige un modelo con un modo estándar silencioso (unos 55-60 dB) y programa las primeras pasadas estando tú delante. La mayoría de las mascotas se acostumbran al robot en una o dos semanas. Deja el modo turbo, más ruidoso, para cuando no haya nadie en casa: desde la app puedes automatizarlo todo.</p>
 
-<h2>Alfombra vs suelos duros</h2>
-<p>En <strong>suelos duros</strong> (parquet, laminado, baldosas), el pelo queda en la superficie: basta una succión moderada y un buen cepillo, con énfasis en la limpieza de bordes a lo largo de los rodapiés. En <strong>alfombras y moquetas</strong>, el pelo se incrusta en profundidad — se necesita succión fuerte (10.000 Pa y más) y detección automática de alfombras con boost. Consejo para hogares mixtos: asegúrate de que el robot levante las mopas al llegar a una alfombra. Los modelos sin esta función arrastran la mopa húmeda por la alfombra e incrustan el pelo en las fibras — lo contrario de lo que buscas. Las alfombras de pelo largo siguen siendo el mayor reto: para ellas, el sobreprecio de un modelo de 16.000 Pa o más casi siempre merece la pena.</p>
+<h2>Alfombras o suelos duros</h2>
+<p>En <strong>suelos duros</strong> (parquet, tarima laminada, baldosas), el pelo se queda en la superficie: basta una succión moderada y un buen cepillo, y lo importante es limpiar bien los bordes junto a los rodapiés. En <strong>alfombras y moquetas</strong>, el pelo se incrusta a fondo: hace falta mucha succión (10.000 Pa o más) y detección automática de alfombras con aumento de potencia. Un consejo si en casa tienes de los dos: comprueba que el robot levante las mopas al llegar a una alfombra. Los modelos sin esta función arrastran la mopa húmeda por la alfombra e incrustan el pelo en las fibras, justo lo contrario de lo que buscas. Las alfombras de pelo largo siguen siendo el mayor reto: para ellas, el sobrecoste de un modelo de 16.000 Pa o más casi siempre merece la pena.</p>
 
-<h2>Alérgicos: qué debe ofrecer un robot</h2>
-<p>Para los <strong>alérgicos</strong>, el robot es mucho más que un aparato de comodidad — es una contribución a la salud. Los alérgenos de mascotas, como la proteína felina Fel d 1 o los alérgenos de perro, se adhieren a la caspa y al polvo fino que flota en el aire. La combinación de filtro HEPA (E11 mínimo) y carcasa bien sellada es esencial para que no escapen partículas. Una estación de autovaciado con bolsa permite vaciar sin contacto directo con el polvo. Las pasadas diarias reducen la carga alergénica de forma duradera.</p>
-<p>Un punto a menudo pasado por alto es el sellado de todo el conducto de aire. Un filtro HEPA sirve de poco si el aire sin filtrar lo evita o la carcasa tiene fugas. Los modelos de calidad usan un sistema cerrado en el que todo el aire aspirado pasa obligatoriamente por el filtro. Para los alérgicos también ayuda cambiar la bolsa de la estación un poco antes de que esté completamente llena — así la succión de la estación se mantiene alta y se libera menos polvo fino durante el cambio.</p>
+<h2>Personas alérgicas: qué debe ofrecer un robot</h2>
+<p>Si hay <strong>alérgicos</strong> en casa, lo esencial es combinar un filtro HEPA (como mínimo E11) con una carcasa bien sellada.</p>
+<p>Una estación de autovaciado con bolsa permite vaciar el depósito sin tocar el polvo. Y pasar el robot a diario reduce de forma duradera la carga de alérgenos en casa.</p>
 
 <h2>Mantenimiento: cepillo y filtro HEPA</h2>
 <ul>
-<li><strong>Cepillo:</strong> revísalo cada 1-2 semanas, enjuaga los cepillos de goma, retira el pelo restante.</li>
-<li><strong>Cepillo lateral:</strong> el pelo largo se enrolla a menudo aquí; revísalo semanalmente.</li>
-<li><strong>Filtro HEPA:</strong> golpéalo regularmente, lava los filtros lavables cada 4-6 semanas, reemplázalos cada 2-3 meses.</li>
-<li><strong>Sensores y ruedas:</strong> el pelo se acumula en los ejes de las ruedas; una revisión mensual evita bloqueos.</li>
+<li><strong>Cepillo:</strong> revísalo cada una o dos semanas, enjuaga los cepillos de goma y quita el pelo que quede.</li>
+<li><strong>Cepillo lateral:</strong> el pelo largo se le enrolla a menudo; revísalo cada semana.</li>
+<li><strong>Filtro HEPA:</strong> sacúdelo a menudo con unos golpecitos, lava los filtros lavables cada 4-6 semanas y cámbialos cada 2-3 meses.</li>
+<li><strong>Sensores y ruedas:</strong> el pelo se acumula en los ejes de las ruedas; una revisión al mes evita atascos.</li>
 </ul>
-<p>Con esta rutina, la succión en Pa se mantiene constante y tu robot elimina el pelo eficazmente durante años. Consulta también nuestra <a href="/es/blog/comparatif-robot-aspirateur-laveur">comparativa de robots aspirador-fregasuelos</a>.</p>
+<p>Con esta rutina, la succión se mantiene constante y tu robot seguirá recogiendo el pelo con eficacia durante años. Consulta también nuestra <a href="/es/blog/comparatif-robot-aspirateur-laveur">comparativa de robots aspiradores y fregasuelos</a>.</p>
 
 <h2>Conclusión</h2>
-<p>La mejor opción para la mayoría es el <strong>Roborock S8 MaxV Ultra</strong>. Para máxima succión: <strong>Dreame X40 Ultra</strong> o <strong>Saros Z70</strong>. Económico: <strong>Ecovacs Deebot T30 Pro Omni</strong>. Cepillo más seguro: <strong>iRobot Roomba Max 705 Vac</strong>. Recuerda los tres criterios clave: succión en Pa, cepillo anti-enredo y estación de autovaciado.</p>`,
-    it: `<h2>Perché un robot aspirapolvere speciale per peli di animali è indispensabile</h2>
-<p>Chi vive con un cane o un gatto conosce il problema: i peli sono ovunque. Sul divano, nei tappeti, sotto i mobili e in ogni angolo. Un robot aspirapolvere classico viene rapidamente messo in difficoltà: la spazzola si aggroviglia in pochi giorni, il contenitore si riempie dopo una sola sessione e il filtro si intasa. Le famiglie con animali hanno bisogno di un robot progettato specificamente per questa enorme quantità di peli.</p>
-<p>In questo confronto individuiamo i criteri davvero decisivi, i modelli che convincono nel 2026 e cosa devono considerare gli allergici. Per una panoramica più ampia, consulta anche la nostra <a href="/it/blog/robot-aspirateur-poils-animaux">guida completa al robot aspirapolvere per animali</a>.</p>
-<p>La differenza tra un modello qualunque e un vero specialista dei peli di animali non si vede nella scheda tecnica, ma nell\'uso quotidiano. Un buon robot per cane e gatto ti solleva completamente dalla fatica giornaliera: mentre lavori o sei fuori, l\'apparecchio percorre i suoi tragitti, raccoglie peli e forfora e torna da solo alla stazione. La giusta categoria di apparecchio si riconosce da tre elementi che devono funzionare insieme: una forte potenza di aspirazione, un meccanismo anti-groviglio ben progettato e uno svuotamento senza manutenzione tramite una stazione di autosvuotamento. Se manca anche solo uno di questi componenti, il robot diventa rapidamente una delusione in una casa con animali.</p>
-<p>Confrontiamo i principali modelli di Roborock, Ecovacs Deebot, Dreame e iRobot Roomba sulla base delle specifiche dei produttori, di recensioni indipendenti e dei pareri verificati degli acquirenti, affinché tu non investa centinaia di euro in un robot sopraffatto dal pelo del tuo compagno.</p>
+<p>La mejor opción para la mayoría de las casas es el <strong>Roborock S8 MaxV Ultra</strong>. Si buscas la máxima succión: <strong>Dreame X40 Ultra</strong> o <strong>Saros Z70</strong>. Con poco presupuesto: <strong>Ecovacs Deebot T30 Pro Omni</strong>. El cepillo más seguro contra los enredos: <strong>iRobot Roomba Max 705 Vac</strong>. Y no olvides los tres criterios clave: succión en Pa, cepillo antienredos y estación de autovaciado.</p>`,
+    it: `<h2>Perché serve un robot aspirapolvere pensato per i peli degli animali</h2>
+<p>Se vivi con un cane o un gatto conosci il problema: i peli sono dappertutto. Sul divano, nei tappeti, sotto i mobili e in ogni angolo. Un robot aspirapolvere qualsiasi va presto in difficoltà: la spazzola si ingarbuglia in pochi giorni, il contenitore è pieno dopo un solo passaggio e il filtro si intasa, riducendo l'aspirazione. Chi ha animali in casa ha bisogno di un robot progettato apposta per gestire una quantità di peli così grande.</p>
+<p>In questo confronto vediamo quali criteri contano davvero, quali modelli convincono nel 2026 e a cosa deve fare attenzione chi soffre di allergie. Per un quadro più ampio, leggi anche la nostra <a href="/it/blog/robot-aspirateur-poils-animaux">guida completa ai robot aspirapolvere per peli di animali</a>.</p>
+<p>La differenza tra un modello qualunque e un vero specialista dei peli di animali non si vede sulla scheda tecnica, ma nell'uso di tutti i giorni. Un buon robot per cani e gatti ti libera del tutto dalla pulizia quotidiana: mentre sei al lavoro o fuori casa, fa il suo giro, raccoglie peli e forfora e torna da solo alla base. Il robot giusto si riconosce da tre caratteristiche che devono funzionare insieme: una forte potenza di aspirazione, un sistema anti-groviglio ben studiato e lo svuotamento automatico, senza manutenzione, grazie a una stazione di autosvuotamento. Se ne manca anche solo una, in una casa con animali il robot delude presto.</p>
+<p>Confrontiamo i principali modelli di Roborock, Ecovacs Deebot, Dreame e iRobot Roomba sulla base delle schede tecniche dei produttori, dei test indipendenti pubblicati e delle recensioni verificate degli acquirenti: così non rischi di spendere diverse centinaia di euro per un robot che non regge il pelo del tuo animale.</p>
 
-<h2>Criteri chiave per un robot aspirapolvere cane e gatto</h2>
-<h3>Potenza di aspirazione: minimo 10.000 Pa</h3>
-<p>L\'aspirazione si misura in Pascal (Pa). I peli fini e lunghi si incastrano in profondità nelle fibre dei tappeti. Serve una potenza di <strong>10.000 Pa o più</strong>. I modelli da 5.000-6.000 Pa bastano sui pavimenti duri ma faticano sui tessuti. I modelli top raggiungono ormai 18.000-22.000 Pa.</p>
-<p>Da sapere: il valore grezzo in Pa non è tutto. Ciò che conta è la combinazione tra aspirazione, design della spazzola e un condotto d\'aria ben sigillato. Un modello da 10.000 Pa ben sigillato può raccogliere più peli di un apparecchio da 16.000 Pa il cui flusso d\'aria si disperde ai bordi. È prezioso anche il boost automatico di aspirazione sui tappeti: il robot rileva la superficie e passa alla massima potenza non appena passa dal pavimento duro al tappeto, risparmiando batteria e garantendo un\'estrazione efficace dove serve.</p>
-<h3>Spazzola anti-groviglio: gomma invece di setole</h3>
-<p>È il criterio numero uno. Una spazzola con setole di nylon si aggroviglia molto rapidamente con i peli lunghi. Le migliori spazzole sono in <strong>gomma</strong> (iRobot) o dotate di sistema anti-groviglio <strong>DuoRoller</strong> (Roborock, Dreame, Ecovacs ZeroTangle).</p>
-<p>La differenza nella vita quotidiana è enorme: con una spazzola a setole classica a volte bisogna rimuovere ogni giorno i peli aggrovigliati con uno strumento di taglio — un\'incombenza che scoraggia in fretta. Una buona spazzola in gomma o un sistema a doppio rullo controrotante spinge invece i peli verso la bocca di aspirazione anziché avvolgerli. Se hai un cane a pelo lungo o un gatto con sottopelo denso, presta particolare attenzione a questo dettaglio: determina in gran parte se il robot è un vero sollievo nella quotidianità.</p>
-<h3>Contenitore grande e stazione di autosvuotamento</h3>
-<p>Con un animale, il contenitore si riempie in 1-2 sessioni, contro le 4-5 di una casa senza animali. Un grande contenitore da <strong>350-450 ml</strong> aiuta, ma la <strong>stazione di autosvuotamento</strong> è quasi obbligatoria: aspira i peli in un sacchetto da 2,5-3,5 litri da cambiare solo ogni 3-6 settimane. Senza stazione, dovresti svuotare il contenitore a mano dopo quasi ogni passaggio, vanificando del tutto il vantaggio dell\'automazione. Per gli allergici, il sacchetto chiuso è un vantaggio in più: lo rimuovi senza entrare in contatto diretto con polvere e allergeni.</p>
-<h3>Filtro HEPA: decisivo per gli allergici</h3>
-<p>Un <strong>filtro HEPA</strong> cattura il 99,97% delle particelle da 0,3 micron in su, inclusi gli allergeni degli animali. Indispensabile per gli allergici (classe E11 minimo, idealmente E12).</p>
+<h2>I criteri chiave di un robot aspirapolvere per cani e gatti</h2>
+<h3>Potenza di aspirazione: almeno 10.000 Pa</h3>
+<p>La potenza di aspirazione si misura in pascal (Pa). I peli fini e lunghi penetrano in profondità tra le fibre dei tappeti e per estrarli serve una potenza di <strong>10.000 Pa o più</strong>. I modelli da 5.000-6.000 Pa bastano sui pavimenti duri, ma sui tessuti mostrano i loro limiti. I modelli di fascia alta arrivano ormai a 18.000-22.000 Pa.</p>
+<p>Da sapere: il valore in Pa, da solo, non dice tutto. Conta la combinazione tra aspirazione, forma della spazzola e tenuta del condotto dell'aria. Un modello da 10.000 Pa ben sigillato può raccogliere più peli di uno da 16.000 Pa che perde aria dai bordi. Utile anche l'aumento automatico della potenza sui tappeti: il robot riconosce la superficie e passa alla massima potenza appena lascia il pavimento per salire su un tappeto. Così risparmia batteria e aspira al massimo solo dove serve.</p>
+<h3>Spazzola anti-groviglio: meglio la gomma delle setole</h3>
+<p>È il criterio più importante. Con i peli lunghi, una spazzola a setole di nylon si ingarbuglia molto in fretta. Le spazzole migliori sono in <strong>gomma</strong> (iRobot) o hanno un sistema anti-groviglio <strong>DuoRoller</strong> (Roborock, Dreame, Ecovacs ZeroTangle): raccolgono i peli senza che si avvolgano attorno all'asse.</p>
+<p>Nell'uso quotidiano la differenza è enorme: con una classica spazzola a setole a volte devi togliere ogni giorno i peli aggrovigliati con un attrezzo da taglio — una seccatura che scoraggia in fretta. Una buona spazzola in gomma o un sistema a doppio rullo controrotante, invece, spinge i peli verso la bocchetta di aspirazione senza avvolgerli. Se hai un cane a pelo lungo o un gatto con un sottopelo folto, guarda bene questo dettaglio: è soprattutto da qui che dipende se il robot ti semplificherà davvero la vita.</p>
+<h3>Contenitore capiente e stazione di autosvuotamento</h3>
+<p>Con un animale in casa il contenitore si riempie in 1-2 passaggi, contro i 4-5 di una casa senza animali. Meglio un contenitore capiente da <strong>350-450 ml</strong>, ma la <strong>stazione di autosvuotamento</strong> è quasi indispensabile: aspira i peli in un sacchetto da 2,5-3,5 litri, da cambiare solo ogni 3-6 settimane. Senza stazione dovresti svuotare il contenitore a mano quasi dopo ogni passaggio, e l'automazione perderebbe ogni senso. Per chi soffre di allergie il sacchetto chiuso è un vantaggio in più: lo togli senza entrare in contatto con polvere e allergeni.</p>
+<h3>Filtro HEPA: decisivo per chi soffre di allergie</h3>
+<p>Un <strong>filtro HEPA</strong> trattiene il 99,97% delle particelle da 0,3 micron in su, compresi gli allergeni degli animali. Per chi soffre di allergie è indispensabile (almeno classe E11, meglio E12).</p>
 <h3>Navigazione LiDAR</h3>
-<p>La <strong>navigazione LiDAR</strong> garantisce una pulizia metodica e completa. La programmazione quotidiana è cruciale con gli animali.</p>
+<p>La <strong>navigazione LiDAR</strong> garantisce una pulizia metodica e completa, senza saltare zone. Con gli animali è fondamentale poter programmare un passaggio ogni giorno.</p>
 
-<h2>Confronto: migliori robot aspirapolvere per animali 2026</h2>
+<h2>Confronto: i migliori robot aspirapolvere per peli di animali 2026</h2>
 <table>
 <thead>
 <tr><th>Modello</th><th>Aspirazione (Pa)</th><th>Anti-groviglio</th><th>Autosvuotamento</th><th>Ideale per</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10.000 Pa</td><td>Sì (DuoRoller gomma)</td><td>Sì</td><td>la maggior parte delle case con animali</td></tr>
+<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10.000 Pa</td><td>Sì (DuoRoller in gomma)</td><td>Sì</td><td>la maggior parte delle case con animali</td></tr>
 <tr><td><strong>Dreame X40 Ultra</strong></td><td>12.000 Pa</td><td>Sì (spazzola anti-groviglio)</td><td>Sì</td><td>angoli e battiscopa</td></tr>
 <tr><td><strong>Ecovacs Deebot T30 Pro Omni</strong></td><td>11.000 Pa</td><td>Sì (ZeroTangle)</td><td>Sì</td><td>miglior rapporto qualità-prezzo</td></tr>
-<tr><td><strong>iRobot Roomba Max 705 Vac</strong></td><td>n. d.</td><td>Sì (2 rulli gomma)</td><td>Sì (AutoEmpty)</td><td>peli molto lunghi</td></tr>
+<tr><td><strong>iRobot Roomba Max 705 Vac</strong></td><td>n. d.</td><td>Sì (2 rulli in gomma)</td><td>Sì (AutoEmpty)</td><td>peli molto lunghi</td></tr>
 <tr><td><strong>Roborock Saros Z70</strong></td><td>22.000 Pa</td><td>Sì (anti-groviglio + braccio)</td><td>Sì</td><td>molti tappeti, fascia alta</td></tr>
 </tbody>
 </table>
 
-<h2>La nostra raccomandazione: Roborock S8 MaxV Ultra</h2>
-<p>Il Roborock S8 MaxV Ultra è la nostra prima raccomandazione per le case con cane o gatto. La sua <strong>spazzola DuoRoller in gomma</strong> limita l\'aggrovigliamento dei peli. Con 10.000 Pa estrae i peli incastrati nei tappeti. La stazione di autosvuotamento svuota il contenitore automaticamente e pulisce anche i mop. La sua navigazione tramite telecamera rileva gli ostacoli (giochi, ciotola dell\'acqua) e li evita invece di spingerli. Puoi definire zone vietate intorno alla ciotola tramite l\'app.</p>
+<h2>Il nostro consiglio: Roborock S8 MaxV Ultra</h2>
+<p>Il Roborock S8 MaxV Ultra è il modello che consigliamo per primo a chi ha un cane o un gatto. La <strong>spazzola DuoRoller in gomma</strong> limita i grovigli di peli. Con 10.000 Pa estrae i peli incastrati nei tappeti. La stazione svuota il contenitore in automatico e lava anche i panni. La navigazione con telecamera riconosce gli ostacoli (giochi, ciotola dell'acqua) e li aggira invece di spingerli. Dall'app puoi impostare zone vietate attorno alla ciotola.</p>
 
-<h2>Le alternative in dettaglio</h2>
-<h3>Dreame X40 Ultra: campione di aspirazione</h3>
-<p>Con 12.000 Pa e una spazzola principale anti-groviglio, il Dreame X40 Ultra è ideale per razze a pelo lungo come Golden Retriever o Maine Coon. La spazzola laterale estensibile raggiunge angoli e bordi, dove i peli si accumulano di più.</p>
+<h2>Le alternative nel dettaglio</h2>
+<h3>Dreame X40 Ultra: il campione dell'aspirazione</h3>
+<p>Con 12.000 Pa e una spazzola principale anti-groviglio, il Dreame X40 Ultra è perfetto per le razze a pelo lungo come il Golden Retriever o il Maine Coon. La spazzola laterale estensibile arriva negli angoli e lungo i bordi, dove i peli si accumulano di più.</p>
 <h3>Ecovacs Deebot T30 Pro Omni: il miglior rapporto qualità-prezzo</h3>
-<p>Il Deebot T30 Pro Omni offre 11.000 Pa, spazzola ZeroTangle e stazione di autosvuotamento a un prezzo decisamente più accessibile. Per i proprietari di animali attenti al budget, è la scelta intelligente.</p>
-<h3>iRobot Roomba Max 705 Vac: la soluzione di spazzola più robusta</h3>
-<p>iRobot punta su <strong>due rulli in gomma controrotanti</strong> senza setole — probabilmente la soluzione più a prova di groviglio sul mercato. Il Roomba Max 705 Vac eccelle con peli molto lunghi e mute intense. La base AutoEmpty svuota il contenitore automaticamente.</p>
+<p>Il Deebot T30 Pro Omni offre 11.000 Pa, spazzola ZeroTangle e stazione di autosvuotamento a un prezzo decisamente più abbordabile. Per chi ha animali e un budget limitato è la scelta più furba.</p>
+<h3>iRobot Roomba Max 705 Vac: la spazzola più robusta</h3>
+<p>iRobot punta su <strong>due rulli in gomma controrotanti</strong> senza setole — la soluzione più sicura contro i grovigli. Il Roomba Max 705 Vac dà il meglio con i peli molto lunghi e durante le mute più abbondanti. La base AutoEmpty svuota il contenitore in automatico.</p>
 
-<h2>Rumore e accettazione da parte dell\'animale</h2>
-<p>Un aspetto spesso sottovalutato è il rumore. Molti cani e alcuni gatti reagiscono nervosamente all\'inizio. Scegli un modello con modalità standard silenziosa (circa 55-60 dB) e programma i primi passaggi quando sei presente. La maggior parte degli animali accetta il robot dopo una o due settimane. Riserva la modalità turbo, più rumorosa, agli orari in cui non c\'è nessuno in casa — l\'app permette di automatizzare tutto questo.</p>
+<h2>Rumore e reazione dell'animale</h2>
+<p>Il rumore è un aspetto spesso sottovalutato. All'inizio molti cani e alcuni gatti si innervosiscono. Scegli un modello con una modalità standard silenziosa (circa 55-60 dB) e programma i primi passaggi quando sei in casa. La maggior parte degli animali si abitua al robot in una o due settimane. Riserva la modalità turbo, più rumorosa, alle ore in cui in casa non c'è nessuno — con l'app puoi automatizzare tutto.</p>
 
-<h2>Tappeto vs pavimenti duri</h2>
-<p>Sui <strong>pavimenti duri</strong> (parquet, laminato, piastrelle), i peli restano in superficie: bastano un\'aspirazione moderata e una buona spazzola, con attenzione alla pulizia dei bordi lungo i battiscopa. Sui <strong>tappeti e passatoie</strong>, i peli si incastrano in profondità — serve un\'aspirazione potente (10.000 Pa e oltre) e il rilevamento automatico dei tappeti con boost. Consiglio per le case miste: assicurati che il robot sollevi i mop quando raggiunge un tappeto. I modelli senza questa funzione trascinano il mop umido sul tappeto e fissano i peli nelle fibre — l\'opposto di ciò che vuoi. I tappeti a pelo lungo restano la sfida più grande: per questi, il sovrapprezzo di un modello da 16.000 Pa o più vale quasi sempre la pena.</p>
+<h2>Tappeti o pavimenti duri</h2>
+<p>Sui <strong>pavimenti duri</strong> (parquet, laminato, piastrelle) i peli restano in superficie: bastano un'aspirazione moderata e una buona spazzola, e conta soprattutto la pulizia dei bordi lungo i battiscopa. Su <strong>tappeti e moquette</strong> i peli penetrano in profondità — servono un'aspirazione potente (10.000 Pa e oltre) e il riconoscimento automatico dei tappeti con aumento della potenza. Un consiglio se in casa hai entrambe le superfici: verifica che il robot sollevi i panni quando sale su un tappeto. I modelli senza questa funzione trascinano il panno bagnato sul tappeto e fissano i peli nelle fibre — l'esatto contrario di quello che vuoi. I tappeti a pelo lungo restano la sfida più difficile: in questo caso il costo in più di un modello da 16.000 Pa o più si giustifica quasi sempre.</p>
 
-<h2>Allergici: cosa deve offrire un robot</h2>
-<p>Per gli <strong>allergici</strong>, il robot è molto più di un dispositivo di comodità — è un contributo alla salute. Gli allergeni degli animali, come la proteina felina Fel d 1 o gli allergeni del cane, aderiscono alla forfora e alla polvere fine che svolazza nell\'aria. La combinazione di filtro HEPA (E11 minimo) e scocca ben sigillata è essenziale affinché non sfuggano particelle. Una stazione di autosvuotamento con sacchetto permette di svuotare senza contatto diretto con la polvere. I passaggi quotidiani riducono in modo duraturo il carico allergenico.</p>
-<p>Un punto spesso trascurato è la sigillatura dell\'intero condotto dell\'aria. Un filtro HEPA serve a poco se l\'aria non filtrata lo aggira o la scocca ha perdite. I modelli di qualità usano un sistema chiuso in cui tutta l\'aria aspirata passa obbligatoriamente attraverso il filtro. Per gli allergici è utile anche sostituire il sacchetto della stazione poco prima che sia completamente pieno — così l\'aspirazione della stazione resta elevata e si rilascia meno polvere fine durante il cambio.</p>
+<h2>Allergie: cosa deve offrire un robot</h2>
+<p>Per chi soffre di <strong>allergie</strong> il robot non è solo una comodità: aiuta a tenere sotto controllo gli allergeni in casa. Gli allergeni degli animali, come la proteina felina Fel d 1 o quelli del cane, si attaccano alla forfora e alla polvere fine che resta sospesa nell'aria. Un filtro HEPA (almeno E11) e una scocca ben sigillata sono indispensabili perché le particelle non tornino nell'ambiente. Una stazione di autosvuotamento con sacchetto ti permette di svuotare senza toccare la polvere. Con un passaggio al giorno, la quantità di allergeni si riduce in modo duraturo.</p>
+<p>Un punto spesso trascurato è la tenuta dell'intero percorso dell'aria. Un filtro HEPA serve a poco se l'aria non filtrata lo aggira o se la scocca ha delle fessure. I modelli di qualità usano un sistema chiuso, in cui tutta l'aria aspirata deve passare dal filtro. A chi soffre di allergie conviene anche cambiare il sacchetto della stazione poco prima che sia del tutto pieno: così la stazione continua ad aspirare bene e durante il cambio si libera meno polvere fine.</p>
 
 <h2>Manutenzione: spazzola e filtro HEPA</h2>
 <ul>
-<li><strong>Spazzola:</strong> controllala ogni 1-2 settimane, sciacqua le spazzole in gomma, rimuovi i peli residui.</li>
-<li><strong>Spazzola laterale:</strong> i peli lunghi si avvolgono spesso qui; controllala ogni settimana.</li>
-<li><strong>Filtro HEPA:</strong> battilo regolarmente, lava i filtri lavabili ogni 4-6 settimane, sostituiscili ogni 2-3 mesi.</li>
-<li><strong>Sensori e ruote:</strong> i peli si accumulano sugli assi delle ruote; un controllo mensile previene i blocchi.</li>
+<li><strong>Spazzola:</strong> controllala ogni 1-2 settimane, sciacqua quelle in gomma e togli i peli rimasti.</li>
+<li><strong>Spazzola laterale:</strong> i peli lunghi ci si avvolgono spesso, quindi controllala ogni settimana.</li>
+<li><strong>Filtro HEPA:</strong> sbattilo regolarmente per togliere la polvere, lava i filtri lavabili ogni 4-6 settimane e sostituiscili ogni 2-3 mesi.</li>
+<li><strong>Sensori e ruote:</strong> i peli si accumulano sugli assi delle ruote; un controllo al mese evita che si blocchino.</li>
 </ul>
-<p>Con questa routine l\'aspirazione in Pa resta costante e il tuo robot rimuove i peli efficacemente per anni. Vedi anche il nostro <a href="/it/blog/comparatif-robot-aspirateur-laveur">confronto dei robot aspira-lava</a>.</p>
+<p>Con questa routine la potenza di aspirazione resta costante e il tuo robot continua a eliminare i peli per anni. Leggi anche il nostro <a href="/it/blog/comparatif-robot-aspirateur-laveur">confronto dei robot aspirapolvere lavapavimenti</a>.</p>
 
 <h2>Conclusione</h2>
-<p>La scelta migliore per la maggior parte delle case è il <strong>Roborock S8 MaxV Ultra</strong>. Per la massima aspirazione: <strong>Dreame X40 Ultra</strong> o <strong>Saros Z70</strong>. Economico: <strong>Ecovacs Deebot T30 Pro Omni</strong>. Spazzola più sicura: <strong>iRobot Roomba Max 705 Vac</strong>. Ricorda i tre criteri chiave: aspirazione in Pa, spazzola anti-groviglio e stazione di autosvuotamento.</p>`,
-    nl: `<h2>Waarom een speciale robotstofzuiger voor dierenharen onmisbaar is</h2>
-<p>Wie met een hond of kat samenleeft, kent het probleem: haren liggen overal. Op de bank, in tapijten, onder meubels en in elke kier. Een klassieke robotstofzuiger raakt snel overbelast: de borstel klit binnen enkele dagen, de bak is na één sessie vol en het filter raakt verstopt. Huishoudens met huisdieren hebben een robot nodig die specifiek voor deze enorme hoeveelheid haar is gebouwd.</p>
-<p>In deze vergelijking benoemen we de echt doorslaggevende criteria, de modellen die in 2026 overtuigen en waar allergiepatiënten op moeten letten. Voor een breder overzicht, zie ook onze <a href="/nl/blog/robot-aspirateur-poils-animaux">complete gids voor robotstofzuigers voor huisdieren</a>.</p>
-<p>Het verschil tussen een gewoon model en een echte specialist in dierenharen zie je niet op het databald, maar in het dagelijks gebruik. Een goede robot voor hond en kat neemt de dagelijkse klus volledig uit handen: terwijl jij werkt of weg bent, rijdt het apparaat zijn banen, verzamelt haar en huidschilfers, en keert zelfstandig terug naar het station. De juiste apparaatklasse herken je aan drie zaken die moeten samenwerken: sterke zuigkracht, een doordacht anti-klit mechanisme en onderhoudsarm legen via een zelfleegstation. Ontbreekt zelfs maar één van deze componenten, dan wordt de robot in een huisdierenhuishouden snel een teleurstelling.</p>
-<p>We vergelijken de belangrijkste modellen van Roborock, Ecovacs Deebot, Dreame en iRobot Roomba op basis van fabrieksspecificaties, onafhankelijke reviews en geverifieerde klantbeoordelingen, zodat je geen honderden euro\'s investeert in een robot die overweldigd wordt door de vacht van je metgezel.</p>
+<p>Per la maggior parte delle case la scelta migliore è il <strong>Roborock S8 MaxV Ultra</strong>. Per la massima aspirazione: <strong>Dreame X40 Ultra</strong> o <strong>Saros Z70</strong>. Con un budget ridotto: <strong>Ecovacs Deebot T30 Pro Omni</strong>. Per la spazzola più sicura contro i grovigli: <strong>iRobot Roomba Max 705 Vac</strong>. Tieni a mente i tre criteri chiave: potenza di aspirazione in Pa, spazzola anti-groviglio e stazione di autosvuotamento.</p>`,
+    nl: `<h2>Waarom je met huisdieren een speciale robotstofzuiger nodig hebt</h2>
+<p>Woon je met een hond of kat, dan ken je het probleem: overal liggen haren. Op de bank, in tapijten, onder meubels en in elke hoek. Een gewone robotstofzuiger kan dat al snel niet meer aan: binnen een paar dagen zit de borstel vol haar, de bak is na één beurt vol en het filter raakt verstopt, waardoor hij minder goed zuigt. Huishoudens met huisdieren hebben een robot nodig die op zo’n grote hoeveelheid haar is gebouwd.</p>
+<p>In deze vergelijking zetten we de criteria op een rij die echt het verschil maken, de modellen die in 2026 overtuigen en de punten waar allergiepatiënten op moeten letten. Lees voor een breder overzicht ook onze <a href="/nl/blog/robot-aspirateur-poils-animaux">complete gids over robotstofzuigers voor dierenharen</a>.</p>
+<p>Het verschil tussen een gewoon model en een echte specialist in dierenharen zie je niet op het specificatieblad, maar in het dagelijks gebruik. Een goede robot voor hond en kat neemt je de dagelijkse klus volledig uit handen: terwijl jij werkt of weg bent, rijdt hij zijn banen, verzamelt hij haar en huidschilfers en keert hij zelf terug naar zijn station. Een geschikte robot herken je aan drie dingen die samen moeten werken: sterke zuigkracht, een doordacht antiklitmechanisme en automatisch legen via een zelfleegstation. Ontbreekt er ook maar één van deze onderdelen, dan stelt de robot in een huis met huisdieren al snel teleur.</p>
+<p>We vergelijken de belangrijkste modellen van Roborock, Ecovacs Deebot, Dreame en iRobot Roomba op basis van specificaties van fabrikanten, gepubliceerde onafhankelijke tests en reviews van geverifieerde kopers. Zo geef je geen honderden euro’s uit aan een robot die de vacht van je hond of kat niet aankan.</p>
 
-<h2>Belangrijkste criteria voor een robotstofzuiger hond en kat</h2>
+<h2>Waar let je op bij een robotstofzuiger voor hond en kat?</h2>
 <h3>Zuigkracht: minimaal 10.000 Pa</h3>
-<p>Zuigkracht wordt gemeten in Pascal (Pa). Fijn, lang haar nestelt zich diep in tapijtvezels. Een zuigkracht van <strong>10.000 Pa of meer</strong> is nodig. Modellen met 5.000-6.000 Pa volstaan op harde vloeren maar schieten tekort op textiel. Topmodellen halen inmiddels 18.000 tot 22.000 Pa.</p>
-<p>Goed om te weten: het ruwe Pa-getal is niet alles. Wat telt is de combinatie van zuigkracht, borstelontwerp en een goed afgedicht luchtkanaal. Een goed afgedicht model met 10.000 Pa kan meer dierenharen oppakken dan een apparaat met 16.000 Pa waarvan de luchtstroom aan de randen weglekt. Een automatische zuigkrachtboost op tapijt is ook waardevol: de robot detecteert de ondergrond en schakelt naar maximaal vermogen zodra hij van harde vloer naar tapijt gaat, wat accu spaart en toch zorgt voor een grondige verwijdering waar het nodig is.</p>
-<h3>Anti-klit borstel: rubber in plaats van haren</h3>
-<p>Dit is criterium nummer één. Een borstel met nylonharen klit zeer snel met lang haar. De beste borstels zijn van <strong>rubber</strong> (iRobot) of voorzien van een <strong>DuoRoller anti-klit systeem</strong> (Roborock, Dreame, Ecovacs ZeroTangle).</p>
-<p>Het verschil in de praktijk is enorm: met een klassieke harenborstel moet je soms dagelijks verstrikt haar met een snijgereedschap verwijderen — een klus die snel afschrikt. Een goede rubberen borstel of een tegengesteld draaiend dubbelrollersysteem duwt het haar juist naar de zuigopening in plaats van het op te wikkelen. Heb je een langharige hond of een kat met dichte ondervacht, let dan extra op dit detail: het bepaalt grotendeels of de robot een echte verlichting is in het dagelijks leven.</p>
+<p>Zuigkracht wordt uitgedrukt in pascal (Pa). Fijn, lang haar nestelt zich diep in de vezels van tapijt. Om het eruit te halen is een zuigkracht van <strong>10.000 Pa of meer</strong> nodig. Modellen met 5.000 tot 6.000 Pa volstaan op harde vloeren, maar schieten tekort op tapijt. Topmodellen halen inmiddels 18.000 tot 22.000 Pa.</p>
+<p>Goed om te weten: het Pa-getal alleen zegt niet alles. Het gaat om de combinatie van zuigkracht, borstelontwerp en een goed afgedicht luchtkanaal. Een goed afgedicht model met 10.000 Pa kan meer dierenharen opzuigen dan een apparaat met 16.000 Pa waarvan de lucht aan de randen weglekt. Ook een automatische zuigkrachtboost op tapijt is waardevol: de robot herkent de ondergrond en schakelt naar maximaal vermogen zodra hij van een harde vloer op tapijt komt. Zo spaar je de accu en zuigt hij grondig waar dat nodig is.</p>
+<h3>Antiklitborstel: rubber in plaats van haren</h3>
+<p>Dit is het belangrijkste criterium. In een borstel met nylonharen raakt lang haar heel snel verstrikt. De beste borstels zijn van <strong>rubber</strong> (iRobot) of hebben een <strong>DuoRoller-antiklitsysteem</strong> (Roborock, Dreame, Ecovacs ZeroTangle). Ze halen het haar van de vloer zonder het om de as te wikkelen.</p>
+<p>In de praktijk is het verschil enorm. Met een gewone borstel met haren moet je soms elke dag het verstrikte haar eruit knippen, en dat ben je al snel zat. Een goede rubberen borstel of twee rollers die tegen elkaar in draaien, duwen het haar juist naar de zuigopening in plaats van het op te wikkelen. Heb je een langharige hond of een kat met een dichte ondervacht, let dan extra op dit detail: het bepaalt grotendeels of de robot je echt werk uit handen neemt.</p>
 <h3>Grote bak en zelfleegstation</h3>
-<p>Met een huisdier raakt de bak in 1-2 sessies vol, tegenover 4-5 in een huishouden zonder dieren. Een grote bak van <strong>350-450 ml</strong> helpt, maar het <strong>zelfleegstation</strong> is bijna verplicht: het zuigt haar in een zak van 2,5-3,5 liter die je slechts elke 3-6 weken vervangt. Zonder station zou je de bak na bijna elke rit met de hand moeten legen, wat het voordeel van automatisering volledig tenietdoet. Voor allergiepatiënten is de gesloten zak een extra pluspunt: je verwijdert hem zonder direct contact met stof en allergenen.</p>
+<p>Met een huisdier zit de bak na één tot twee beurten vol, tegen vier tot vijf in een huis zonder dieren. Een grote bak van <strong>350 tot 450 ml</strong> helpt, maar een <strong>zelfleegstation</strong> is bijna onmisbaar: het zuigt het haar in een zak van 2,5 tot 3,5 liter die je maar eens in de 3 tot 6 weken hoeft te vervangen. Zonder station moet je de bak na bijna elke beurt met de hand legen, en dan heb je weinig aan de automatisering. Voor allergiepatiënten is de gesloten zak een extra pluspunt: je haalt hem eruit zonder dat je met stof en allergenen in aanraking komt.</p>
 <h3>HEPA-filter: doorslaggevend voor allergiepatiënten</h3>
-<p>Een <strong>HEPA-filter</strong> vangt 99,97% van de deeltjes van 0,3 micron en groter af, inclusief dierallergenen. Onmisbaar voor allergiepatiënten (klasse E11 minimaal, idealiter E12).</p>
+<p>Een <strong>HEPA-filter</strong> vangt 99,97% van de deeltjes van 0,3 micron en groter op, ook dierallergenen. Voor allergiepatiënten is dat noodzakelijk (minimaal klasse E11, liefst E12).</p>
 <h3>LiDAR-navigatie</h3>
-<p><strong>LiDAR-navigatie</strong> zorgt voor een methodische, complete reiniging zonder zones over te slaan. Dagelijkse planning is cruciaal met huisdieren.</p>
+<p><strong>LiDAR-navigatie</strong> zorgt voor een methodische, volledige schoonmaakbeurt zonder dat er zones worden overgeslagen. Met huisdieren is een dagelijks schema belangrijk.</p>
 
-<h2>Vergelijking: beste robotstofzuigers voor huisdieren 2026</h2>
+<h2>Vergelijking: de beste robotstofzuigers voor dierenharen in 2026</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Zuigkracht (Pa)</th><th>Anti-klit</th><th>Zelfleging</th><th>Ideaal voor</th></tr>
+<tr><th>Model</th><th>Zuigkracht (Pa)</th><th>Antiklit</th><th>Zelfleegstation</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10.000 Pa</td><td>Ja (DuoRoller rubber)</td><td>Ja</td><td>de meeste huishoudens met huisdieren</td></tr>
-<tr><td><strong>Dreame X40 Ultra</strong></td><td>12.000 Pa</td><td>Ja (anti-klitborstel)</td><td>Ja</td><td>hoeken en plinten</td></tr>
-<tr><td><strong>Ecovacs Deebot T30 Pro Omni</strong></td><td>11.000 Pa</td><td>Ja (ZeroTangle)</td><td>Ja</td><td>beste prijs-kwaliteit</td></tr>
-<tr><td><strong>iRobot Roomba Max 705 Vac</strong></td><td>n.v.t.</td><td>Ja (2 rubberen rollers)</td><td>Ja (AutoEmpty)</td><td>zeer lang haar</td></tr>
-<tr><td><strong>Roborock Saros Z70</strong></td><td>22.000 Pa</td><td>Ja (anti-klit + arm)</td><td>Ja</td><td>veel tapijt, premium</td></tr>
+<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10.000 Pa</td><td>Ja (rubberen DuoRoller)</td><td>Ja</td><td>de meeste huishoudens met huisdieren</td></tr>
+<tr><td><strong>Dreame X40 Ultra</strong></td><td>12.000 Pa</td><td>Ja (antiklitborstel)</td><td>Ja</td><td>hoeken en plinten</td></tr>
+<tr><td><strong>Ecovacs Deebot T30 Pro Omni</strong></td><td>11.000 Pa</td><td>Ja (ZeroTangle)</td><td>Ja</td><td>beste prijs-kwaliteitverhouding</td></tr>
+<tr><td><strong>iRobot Roomba Max 705 Vac</strong></td><td>niet opgegeven</td><td>Ja (2 rubberen rollers)</td><td>Ja (AutoEmpty)</td><td>heel lang haar</td></tr>
+<tr><td><strong>Roborock Saros Z70</strong></td><td>22.000 Pa</td><td>Ja (antiklit + arm)</td><td>Ja</td><td>veel tapijt, topsegment</td></tr>
 </tbody>
 </table>
 
 <h2>Onze aanbeveling: Roborock S8 MaxV Ultra</h2>
-<p>De Roborock S8 MaxV Ultra is onze topaanbeveling voor huishoudens met een hond of kat. De <strong>DuoRoller rubberen borstel</strong> beperkt het klitten van haar. Met 10.000 Pa haalt hij ingebed haar uit tapijten. Het zelfleegstation leegt de bak automatisch en reinigt ook de dweilen. De cameranavigatie detecteert obstakels (speelgoed, waterbak) en ontwijkt ze in plaats van ze voort te duwen. Via de app stel je verboden zones rond de voerbak in.</p>
+<p>De Roborock S8 MaxV Ultra is onze eerste aanbeveling voor huishoudens met een hond of kat. Door de <strong>rubberen DuoRoller-borstel</strong> raakt er minder haar verstrikt. Met 10.000 Pa haalt hij ook haar uit het tapijt dat er diep in zit. Het zelfleegstation leegt de bak automatisch en maakt ook de dweilen schoon. De cameranavigatie herkent obstakels (speelgoed, waterbak) en rijdt eromheen in plaats van ze voor zich uit te duwen. In de app stel je verboden zones rond de voerbak in.</p>
 
 <h2>De alternatieven in detail</h2>
-<h3>Dreame X40 Ultra: zuigkracht-kampioen</h3>
-<p>Met 12.000 Pa en een anti-klit hoofdborstel is de Dreame X40 Ultra ideaal voor langharige rassen zoals Golden Retriever of Maine Coon. De uitschuifbare zijborstel bereikt hoeken en randen waar dierenharen zich het meest ophopen.</p>
+<h3>Dreame X40 Ultra: kampioen zuigkracht</h3>
+<p>Met 12.000 Pa en een hoofdborstel met antiklitfunctie is de Dreame X40 Ultra ideaal voor langharige rassen zoals de Golden Retriever of de Maine Coon. De uitschuifbare zijborstel komt in hoeken en langs randen, waar dierenharen zich het meest ophopen.</p>
 <h3>Ecovacs Deebot T30 Pro Omni: beste prijs-kwaliteitverhouding</h3>
-<p>De Deebot T30 Pro Omni biedt 11.000 Pa, een ZeroTangle-borstel en een zelfleegstation tegen een merkbaar betaalbaardere prijs. Voor budgetbewuste huisdiereigenaren is dit de slimme keuze.</p>
-<h3>iRobot Roomba Max 705 Vac: de robuustste borsteloplossing</h3>
-<p>iRobot zet in op <strong>twee tegengesteld draaiende rubberen rollers</strong> zonder haren — wellicht de meest klitbestendige oplossing op de markt. De Roomba Max 705 Vac blinkt uit bij zeer lang haar en zware rui. Het AutoEmpty-station leegt de bak automatisch.</p>
+<p>De Deebot T30 Pro Omni biedt 11.000 Pa, een ZeroTangle-borstel en een zelfleegstation voor een duidelijk lagere prijs. Let je op je budget, dan is dit de slimme keuze.</p>
+<h3>iRobot Roomba Max 705 Vac: de stevigste borstel</h3>
+<p>iRobot kiest voor <strong>twee rubberen rollers die tegen elkaar in draaien</strong>, zonder haren: de betrouwbaarste oplossing tegen klitten. De Roomba Max 705 Vac blinkt uit bij heel lang haar en flinke rui. Het AutoEmpty-station leegt de bak automatisch.</p>
 
-<h2>Geluid en acceptatie door het huisdier</h2>
-<p>Een vaak onderschat aspect is het geluid. Veel honden en sommige katten reageren in het begin nerveus. Kies een model met een stille standaardmodus (rond 55-60 dB) en plan de eerste ritten terwijl je aanwezig bent. De meeste huisdieren accepteren de robot na één tot twee weken. Reserveer de luidere turbomodus voor momenten dat er niemand thuis is — de app laat je dit allemaal automatiseren.</p>
+<h2>Geluid: went je huisdier aan de robot?</h2>
+<p>Het geluid wordt vaak onderschat. Veel honden en sommige katten reageren in het begin nerveus. Kies een model met een stille standaardstand (rond 55 tot 60 dB) en laat de eerste beurten plaatsvinden terwijl je thuis bent. De meeste huisdieren wennen binnen één tot twee weken aan de robot. Gebruik de luidere turbostand alleen als er niemand thuis is: in de app kun je dat allemaal automatiseren.</p>
 
-<h2>Tapijt vs harde vloeren</h2>
-<p>Op <strong>harde vloeren</strong> (parket, laminaat, tegels) ligt het haar aan de oppervlakte: matige zuigkracht en een goede borstel volstaan, met nadruk op randreiniging langs de plinten. Op <strong>tapijten en lopers</strong> nestelt het haar zich diep — je hebt sterke zuigkracht (10.000 Pa en meer) en automatische tapijtdetectie met boost nodig. Tip voor gemengde huishoudens: zorg dat de robot zijn dweilen optilt als hij een tapijt bereikt. Modellen zonder deze functie slepen de natte dweil over het tapijt en werken het haar in de vezels — het tegenovergestelde van wat je wilt. Hoogpolige tapijten blijven de grootste uitdaging: hiervoor is de meerprijs van een model met 16.000 Pa of meer bijna altijd de moeite waard.</p>
+<h2>Tapijt of harde vloer</h2>
+<p>Op <strong>harde vloeren</strong> (parket, laminaat, tegels) ligt het haar aan de oppervlakte: een gemiddelde zuigkracht en een goede borstel zijn genoeg, en het gaat vooral om de randen langs de plinten. Op <strong>tapijt en vloerbedekking</strong> nestelt het haar zich diep. Dan heb je sterke zuigkracht nodig (10.000 Pa of meer) en automatische tapijtherkenning met boost. Tip voor huizen met allebei: controleer of de robot zijn dweilen optilt als hij op een tapijt komt. Modellen zonder die functie slepen de natte dweil over het tapijt en werken het haar juist in de vezels, precies het tegenovergestelde van wat je wilt. Hoogpolige tapijten blijven de grootste uitdaging: daar is de meerprijs van een model met 16.000 Pa of meer bijna altijd de moeite waard.</p>
 
-<h2>Allergiepatiënten: wat een robot moet bieden</h2>
-<p>Voor <strong>allergiepatiënten</strong> is de robot veel meer dan een comfortapparaat — het is een bijdrage aan de gezondheid. Dierallergenen zoals het katteneiwit Fel d 1 of hondenallergenen hechten zich aan huidschilfers en fijn stof dat door de lucht dwarrelt. De combinatie van een HEPA-filter (E11 minimaal) en een goed afgedichte behuizing is essentieel zodat er geen deeltjes ontsnappen. Een zelfleegstation met zak laat je legen zonder direct contact met stof. Dagelijkse ritten verminderen de allergeenbelasting duurzaam.</p>
-<p>Een vaak over het hoofd gezien punt is de afdichting van het hele luchtkanaal. Een HEPA-filter heeft weinig nut als ongefilterde lucht eromheen stroomt of de behuizing lekt. Hoogwaardige modellen werken met een gesloten systeem waarbij alle aangezogen lucht verplicht door het filter gaat. Voor allergiepatiënten helpt het ook om de zak van het station iets eerder te vervangen dan wanneer hij helemaal vol is — zo blijft de zuigkracht van het station hoog en komt er bij de minder frequente wissel minder fijnstof vrij.</p>
+<h2>Allergiepatiënten: wat een robot moet kunnen</h2>
+<p>Voor <strong>allergiepatiënten</strong> is een robotstofzuiger meer dan een gemaksapparaat: hij helpt ook de hoeveelheid allergenen in huis te verminderen. Dierallergenen zoals het katteneiwit Fel d 1 of allergenen van honden hechten zich aan huidschilfers en fijn stof dat door de lucht dwarrelt. De combinatie van een HEPA-filter (minimaal E11) en een goed afgedichte behuizing is essentieel, zodat er geen deeltjes weer ontsnappen. Met een zelfleegstation met zak leeg je de robot zonder direct contact met stof. Dagelijks zuigen verlaagt de hoeveelheid allergenen blijvend.</p>
+<p>Wat vaak over het hoofd wordt gezien, is de afdichting van de hele luchtweg. Een HEPA-filter heeft weinig zin als ongefilterde lucht erlangs stroomt of als de behuizing lekt. Betere modellen hebben een gesloten systeem waarin alle aangezogen lucht door het filter moet. Voor allergiepatiënten helpt het ook om de zak van het station te vervangen voordat hij helemaal vol is. Zo blijft het station goed zuigen en komt er bij het verwisselen minder fijnstof vrij.</p>
 
 <h2>Onderhoud: borstel en HEPA-filter</h2>
 <ul>
-<li><strong>Borstel:</strong> controleer elke 1-2 weken, spoel rubberen borstels af, verwijder resterend haar.</li>
-<li><strong>Zijborstel:</strong> lang haar wikkelt zich hier vaak omheen; controleer wekelijks.</li>
-<li><strong>HEPA-filter:</strong> klop het regelmatig uit, was wasbare filters elke 4-6 weken, vervang ze elke 2-3 maanden.</li>
-<li><strong>Sensoren en wielen:</strong> haar hoopt zich op rond de wielassen; een maandelijkse controle voorkomt blokkades.</li>
+<li><strong>Borstel:</strong> controleer hem elke 1 tot 2 weken, spoel rubberen borstels af en verwijder achtergebleven haar.</li>
+<li><strong>Zijborstel:</strong> hier draait lang haar zich vaak omheen; controleer hem elke week.</li>
+<li><strong>HEPA-filter:</strong> klop het regelmatig uit, was wasbare filters elke 4 tot 6 weken en vervang ze elke 2 tot 3 maanden.</li>
+<li><strong>Sensoren en wielen:</strong> haar hoopt zich op rond de wielassen; een maandelijkse controle voorkomt dat ze vastlopen.</li>
 </ul>
-<p>Met deze routine blijft de zuigkracht in Pa constant en verwijdert je robot jarenlang effectief dierenharen. Zie ook onze <a href="/nl/blog/comparatif-robot-aspirateur-laveur">vergelijking van dweilende robotstofzuigers</a>.</p>
+<p>Met deze routine houdt je robot zijn zuigkracht en blijft hij jarenlang goed dierenharen opzuigen. Bekijk ook onze <a href="/nl/blog/comparatif-robot-aspirateur-laveur">vergelijking van robotstofzuigers met dweilfunctie</a>.</p>
 
 <h2>Conclusie</h2>
-<p>De beste robotstofzuiger voor dierenharen is degene die bij jouw huishouden past. De beste keuze voor de meeste huishoudens is de <strong>Roborock S8 MaxV Ultra</strong>. Voor maximale zuigkracht op veel tapijten: <strong>Dreame X40 Ultra</strong> of <strong>Roborock Saros Z70</strong>. Budgetbewuste huisdiereigenaren zitten goed met de <strong>Ecovacs Deebot T30 Pro Omni</strong>, en de meest klitbestendige borstel komt van de <strong>iRobot Roomba Max 705 Vac</strong>. Onthoud altijd de drie kerncriteria: voldoende zuigkracht in Pa, een echte anti-klit borstel en een zelfleegstation — dan zijn dierenharen eindelijk geen dagelijks probleem meer.</p>`,
+<p>De beste robotstofzuiger voor dierenharen is de robot die bij jouw huishouden past. Voor de meeste huishoudens is dat de <strong>Roborock S8 MaxV Ultra</strong>. Voor maximale zuigkracht op veel tapijt: de <strong>Dreame X40 Ultra</strong> of de <strong>Roborock Saros Z70</strong>. Let je op je budget, dan zit je goed met de <strong>Ecovacs Deebot T30 Pro Omni</strong>, en de meest klitbestendige borstel heeft de <strong>iRobot Roomba Max 705 Vac</strong>. Onthoud de drie belangrijkste criteria: voldoende zuigkracht in Pa, een echte antiklitborstel en een zelfleegstation. Dan zijn dierenharen eindelijk geen dagelijks probleem meer.</p>`,
     pl: `<h2>Dlaczego w domu ze zwierzętami potrzebny jest specjalny robot sprzątający</h2>
 <p>Jeśli mieszkasz z psem lub kotem, dobrze znasz ten problem: sierść jest wszędzie. Na kanapie, w dywanach, pod meblami i w każdym zakamarku. Zwykły robot odkurzający szybko przestaje sobie z nią radzić – po kilku dniach szczotka jest oplątana sierścią, pojemnik zapełnia się po jednym sprzątaniu, a zabrudzony filtr obniża siłę ssania. W domu ze zwierzętami potrzebny jest robot zaprojektowany z myślą o tak dużej ilości sierści.</p>
 <p>W tym porównaniu pokazujemy, które kryteria naprawdę mają znaczenie, które modele wyróżniają się w 2026 roku i na co powinni zwrócić uwagę alergicy. Szerszy przegląd znajdziesz w naszym <a href="/pl/blog/robot-aspirateur-poils-animaux">pełnym poradniku o robotach sprzątających do sierści zwierząt</a>.</p>
@@ -730,11 +719,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Quel Saugroboter est le meilleur pour les poils d\'animaux ?',
-        en: 'Which Saugroboter is best for pet hair?',
-        de: 'Welcher Saugroboter ist am besten für Tierhaare?',
-        es: '¿Qué Saugroboter es el mejor para el pelo de mascotas?',
-        it: 'Quale Saugroboter è il migliore per i peli di animali?',
-        nl: 'Welke Saugroboter is het beste voor dierenharen?',
+        en: 'Which robot vacuum is best for pet hair?',
+        de: 'Welcher Saugroboter ist der beste für Tierhaare?',
+        es: '¿Cuál es el mejor robot aspirador para el pelo de mascotas?',
+        it: 'Qual è il miglior robot aspirapolvere per i peli di animali?',
+        nl: 'Welke robotstofzuiger is het beste voor dierenharen?',
         pl: 'Jaki robot sprzątający jest najlepszy do sierści zwierząt?',
         sv: 'Vilken robotdammsugare är bäst för djurhår?',
         us: 'Which robot vacuum is best for pet hair?',
@@ -742,11 +731,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Pour la plupart des foyers, le Roborock S8 MaxV Ultra est notre premier choix : brosse DuoRoller en caoutchouc anti-emmêlement, 10 000 Pa et station d\'auto-vidage. Pour un maximum d\'aspiration sur tapis, le Dreame X40 Ultra (12 000 Pa) ou le Roborock Saros Z70 (22 000 Pa) sont préférables.',
-        en: 'For most households, the Roborock S8 MaxV Ultra is our top pick: anti-tangle DuoRoller rubber brush, 10,000 Pa and auto-empty station. For maximum carpet suction, the Dreame X40 Ultra (12,000 Pa) or Roborock Saros Z70 (22,000 Pa) are preferable.',
-        de: 'Für die meisten Haushalte ist der Roborock S8 MaxV Ultra unsere erste Wahl: Anti-Verheddern-DuoRoller-Gummibürste, 10.000 Pa und Absaugstation. Für maximale Saugkraft auf Teppichen sind der Dreame X40 Ultra (12.000 Pa) oder der Roborock Saros Z70 (22.000 Pa) vorzuziehen.',
-        es: 'Para la mayoría de los hogares, el Roborock S8 MaxV Ultra es nuestra primera opción: cepillo DuoRoller de goma anti-enredo, 10.000 Pa y estación de autovaciado. Para máxima succión en alfombras, el Dreame X40 Ultra (12.000 Pa) o el Roborock Saros Z70 (22.000 Pa) son preferibles.',
-        it: 'Per la maggior parte delle case, il Roborock S8 MaxV Ultra è la nostra prima scelta: spazzola DuoRoller in gomma anti-groviglio, 10.000 Pa e stazione di autosvuotamento. Per la massima aspirazione sui tappeti, il Dreame X40 Ultra (12.000 Pa) o il Roborock Saros Z70 (22.000 Pa) sono preferibili.',
-        nl: 'Voor de meeste huishoudens is de Roborock S8 MaxV Ultra onze topkeuze: anti-klit DuoRoller rubberen borstel, 10.000 Pa en zelfleegstation. Voor maximale zuigkracht op tapijt zijn de Dreame X40 Ultra (12.000 Pa) of Roborock Saros Z70 (22.000 Pa) te verkiezen.',
+        en: 'For most households, the Roborock S8 MaxV Ultra is our top pick: an anti-tangle DuoRoller rubber brush, 10,000 Pa of suction and an auto-empty station. For maximum suction on carpets, go for the Dreame X40 Ultra (12,000 Pa) or the Roborock Saros Z70 (22,000 Pa).',
+        de: 'Für die meisten Haushalte ist der Roborock S8 MaxV Ultra unsere erste Wahl: DuoRoller-Gummibürste gegen verhedderte Haare, 10.000 Pa und Absaugstation. Wer auf Teppichen maximale Saugkraft will, greift besser zum Dreame X40 Ultra (12.000 Pa) oder zum Roborock Saros Z70 (22.000 Pa).',
+        es: 'Para la mayoría de las casas, el Roborock S8 MaxV Ultra es nuestra opción favorita: cepillo DuoRoller de goma antienredos, 10.000 Pa y estación de autovaciado. Si buscas la máxima succión en alfombras, mejor el Dreame X40 Ultra (12.000 Pa) o el Roborock Saros Z70 (22.000 Pa).',
+        it: 'Per la maggior parte delle case la nostra prima scelta è il Roborock S8 MaxV Ultra: spazzola DuoRoller anti-groviglio in gomma, 10.000 Pa e stazione di autosvuotamento. Se vuoi la massima aspirazione sui tappeti, meglio il Dreame X40 Ultra (12.000 Pa) o il Roborock Saros Z70 (22.000 Pa).',
+        nl: 'Voor de meeste huishoudens is de Roborock S8 MaxV Ultra onze topkeuze: een rubberen DuoRoller-borstel tegen klitten, 10.000 Pa en een zelfleegstation. Wil je maximale zuigkracht op tapijt, kies dan de Dreame X40 Ultra (12.000 Pa) of de Roborock Saros Z70 (22.000 Pa).',
         pl: 'Dla większości domów naszym pierwszym wyborem jest Roborock S8 MaxV Ultra: gumowa szczotka DuoRoller odporna na plątanie, siła ssania 10 000 Pa i stacja opróżniająca. Jeśli zależy Ci na maksymalnej sile ssania na dywanach, lepiej wybrać Dreame X40 Ultra (12 000 Pa) lub Roborock Saros Z70 (22 000 Pa).',
         sv: 'För de flesta hem är Roborock S8 MaxV Ultra vårt toppval: trasselfri DuoRoller-borste i gummi, 10 000 Pa och självtömmande station. För maximal sugkraft på mattor är Dreame X40 Ultra (12 000 Pa) eller Roborock Saros Z70 (22 000 Pa) bättre val.',
         us: 'For most households, the Roborock S8 MaxV Ultra is our top pick: an anti-tangle DuoRoller rubber brush, 10,000 Pa of suction and a self-emptying dock. For maximum suction on carpet, go with the Dreame X40 Ultra (12,000 Pa) or the Roborock Saros Z70 (22,000 Pa).',
@@ -756,11 +745,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Les poils d\'animaux s\'emmêlent-ils dans la brosse ?',
-        en: 'Do pet hairs tangle in the brush?',
+        en: 'Does pet hair get tangled in the brush?',
         de: 'Verheddern sich Tierhaare in der Bürste?',
-        es: '¿Se enreda el pelo de mascotas en el cepillo?',
-        it: 'I peli di animali si aggrovigliano nella spazzola?',
-        nl: 'Verstrikken dierenharen zich in de borstel?',
+        es: '¿El pelo de las mascotas se enreda en el cepillo?',
+        it: 'I peli degli animali si aggrovigliano nella spazzola?',
+        nl: 'Raken dierenharen verstrikt in de borstel?',
         pl: 'Czy sierść nawija się na szczotkę robota?',
         sv: 'Trasslar djurhår in sig i borsten?',
         us: 'Does pet hair get tangled in the brush roll?',
@@ -768,11 +757,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Avec une brosse classique à poils en nylon, oui, très rapidement. C\'est pourquoi il faut une brosse anti-emmêlement en caoutchouc (iRobot) ou à système DuoRoller / ZeroTangle (Roborock, Dreame, Ecovacs). Ces brosses réduisent fortement l\'enroulement, mais un contrôle toutes les 1-2 semaines reste recommandé.',
-        en: 'With a standard nylon-bristle brush, yes, very quickly. That is why you need an anti-tangle rubber brush (iRobot) or a DuoRoller / ZeroTangle system (Roborock, Dreame, Ecovacs). These brushes greatly reduce wrapping, but a check every 1-2 weeks is still recommended.',
-        de: 'Bei einer herkömmlichen Bürste mit Nylonborsten ja, sehr schnell. Deshalb sollten Sie eine Anti-Verheddern-Gummibürste (iRobot) oder ein DuoRoller- bzw. ZeroTangle-System (Roborock, Dreame, Ecovacs) wählen. Diese Bürsten reduzieren das Aufwickeln stark, dennoch empfiehlt sich eine Kontrolle alle ein bis zwei Wochen.',
-        es: 'Con un cepillo clásico de cerdas de nylon, sí, muy rápido. Por eso necesitas un cepillo anti-enredo de goma (iRobot) o con sistema DuoRoller / ZeroTangle (Roborock, Dreame, Ecovacs). Estos cepillos reducen mucho el enrollamiento, pero se recomienda revisarlos cada 1-2 semanas.',
-        it: 'Con una spazzola classica a setole di nylon sì, molto rapidamente. Per questo serve una spazzola anti-groviglio in gomma (iRobot) o con sistema DuoRoller / ZeroTangle (Roborock, Dreame, Ecovacs). Queste spazzole riducono molto l\'avvolgimento, ma è consigliato un controllo ogni 1-2 settimane.',
-        nl: 'Bij een klassieke borstel met nylonharen wel, zeer snel. Daarom heb je een anti-klit rubberen borstel (iRobot) of een DuoRoller / ZeroTangle-systeem (Roborock, Dreame, Ecovacs) nodig. Deze borstels verminderen het opwikkelen sterk, maar een controle elke 1-2 weken blijft aanbevolen.',
+        en: 'With a standard nylon-bristle brush, yes, very quickly. That\'s why you need a rubber anti-tangle brush (iRobot) or a DuoRoller / ZeroTangle system (Roborock, Dreame, Ecovacs). These brushes greatly reduce hair wrap, but it\'s still worth checking them every one to two weeks.',
+        de: 'Bei einer herkömmlichen Bürste mit Nylonborsten ja, und zwar sehr schnell. Wählen Sie deshalb eine Anti-Verheddern-Gummibürste (iRobot) oder ein DuoRoller- bzw. ZeroTangle-System (Roborock, Dreame, Ecovacs). Mit solchen Bürsten wickeln sich deutlich weniger Haare auf; kontrollieren sollten Sie sie trotzdem alle ein bis zwei Wochen.',
+        es: 'Con un cepillo normal de cerdas de nailon, sí, y muy rápido. Por eso necesitas un cepillo antienredos de goma (iRobot) o con sistema DuoRoller / ZeroTangle (Roborock, Dreame, Ecovacs). Estos cepillos reducen mucho los enredos, pero conviene revisarlos cada una o dos semanas.',
+        it: 'Con una classica spazzola a setole di nylon sì, e molto in fretta. Per questo serve una spazzola anti-groviglio in gomma (iRobot) o con sistema DuoRoller / ZeroTangle (Roborock, Dreame, Ecovacs). Queste spazzole riducono molto i grovigli, ma conviene comunque controllarle ogni 1-2 settimane.',
+        nl: 'Bij een gewone borstel met nylonharen wel, en heel snel. Daarom heb je een rubberen antiklitborstel (iRobot) of een systeem als DuoRoller of ZeroTangle (Roborock, Dreame, Ecovacs) nodig. Daarmee draait er veel minder haar om de borstel, maar controleer hem toch elke 1 tot 2 weken.',
         pl: 'Na zwykłą szczotkę z nylonowym włosiem – tak, i to bardzo szybko. Dlatego potrzebna jest gumowa szczotka odporna na plątanie (iRobot) albo system DuoRoller / ZeroTangle (Roborock, Dreame, Ecovacs). Takie szczotki znacznie ograniczają nawijanie się sierści, ale i tak warto sprawdzać je co 1–2 tygodnie.',
         sv: 'Med en vanlig borste med nylonborst, ja, och det går fort. Därför behöver du en trasselfri gummiborste (iRobot) eller ett system som DuoRoller eller ZeroTangle (Roborock, Dreame, Ecovacs). Med de här borstarna lindar sig håren betydligt mindre, men det är ändå klokt att kontrollera borsten var eller varannan vecka.',
         us: 'With a standard nylon-bristle brush, yes, and fast. That\'s why you want an anti-tangle rubber brush (iRobot) or a DuoRoller / ZeroTangle system (Roborock, Dreame, Ecovacs). These brushes cut down on wrapping a lot, but you should still check the brush every one to two weeks.',
@@ -782,11 +771,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Une station d\'auto-vidage (Absaugstation) est-elle vraiment nécessaire avec un animal ?',
-        en: 'Is an auto-empty station (Absaugstation) really necessary with a pet?',
-        de: 'Ist eine Absaugstation mit einem Haustier wirklich notwendig?',
-        es: '¿Es realmente necesaria una estación de autovaciado (Absaugstation) con una mascota?',
-        it: 'Una stazione di autosvuotamento (Absaugstation) è davvero necessaria con un animale?',
-        nl: 'Is een zelfleegstation (Absaugstation) echt nodig met een huisdier?',
+        en: 'Do I really need an auto-empty station if I have a pet?',
+        de: 'Brauche ich mit Haustier wirklich eine Absaugstation?',
+        es: '¿De verdad hace falta una estación de autovaciado si tienes mascota?',
+        it: 'Con un animale in casa serve davvero una stazione di autosvuotamento?',
+        nl: 'Is een zelfleegstation echt nodig als je een huisdier hebt?',
         pl: 'Czy w domu ze zwierzęciem stacja opróżniająca jest naprawdę potrzebna?',
         sv: 'Behöver jag verkligen en självtömmande station om jag har husdjur?',
         us: 'Do you really need a self-emptying dock if you have a pet?',
@@ -794,11 +783,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Pratiquement, oui. Avec un animal, le bac se remplit en 1-2 sessions. Sans station d\'auto-vidage, vous devriez vider le bac à la main presque après chaque passage, ce qui supprime l\'intérêt de l\'automatisation. La station aspire les poils dans un sac de 2,5-3,5 litres changé toutes les 3-6 semaines — idéal aussi pour les allergiques.',
-        en: 'Practically, yes. With a pet, the bin fills in 1-2 sessions. Without an auto-empty station, you would have to empty the bin by hand after almost every run, defeating the purpose of automation. The station suctions hair into a 2.5-3.5 litre bag changed every 3-6 weeks — ideal for allergy sufferers too.',
-        de: 'Praktisch ja. Mit einem Haustier füllt sich der Behälter in ein bis zwei Durchgängen. Ohne Absaugstation müssten Sie den Behälter nach fast jeder Fahrt von Hand leeren, was den Automatisierungsvorteil zunichtemacht. Die Station saugt die Haare in einen Beutel mit 2,5-3,5 Litern, der nur alle drei bis sechs Wochen gewechselt wird — auch für Allergiker ideal.',
-        es: 'Prácticamente, sí. Con una mascota, el depósito se llena en 1-2 sesiones. Sin estación de autovaciado, tendrías que vaciar el depósito a mano casi tras cada pasada, eliminando la ventaja de la automatización. La estación aspira el pelo a una bolsa de 2,5-3,5 litros que se cambia cada 3-6 semanas — ideal también para alérgicos.',
-        it: 'Praticamente sì. Con un animale, il contenitore si riempie in 1-2 sessioni. Senza stazione di autosvuotamento dovresti svuotare il contenitore a mano quasi dopo ogni passaggio, vanificando il vantaggio dell\'automazione. La stazione aspira i peli in un sacchetto da 2,5-3,5 litri da cambiare ogni 3-6 settimane — ideale anche per gli allergici.',
-        nl: 'Praktisch wel. Met een huisdier raakt de bak in 1-2 sessies vol. Zonder zelfleegstation zou je de bak na bijna elke rit met de hand moeten legen, wat het voordeel van automatisering tenietdoet. Het station zuigt het haar in een zak van 2,5-3,5 liter die je elke 3-6 weken vervangt — ook ideaal voor allergiepatiënten.',
+        en: 'In practice, yes. With a pet, the bin fills up in one or two sessions. Without an auto-empty station, you\'d have to empty it by hand after almost every run, which defeats the point of automation. The station sucks the hair into a 2.5–3.5 litre bag that you change every 3 to 6 weeks, which is also ideal for allergy sufferers.',
+        de: 'Praktisch ja. Mit Haustier ist der Behälter nach ein bis zwei Durchgängen voll. Ohne Absaugstation müssten Sie ihn nach fast jeder Fahrt von Hand leeren, und der Vorteil der Automatisierung wäre dahin. Die Station saugt die Haare in einen Beutel mit 2,5 bis 3,5 L, den Sie nur alle drei bis sechs Wochen wechseln – auch für Allergiker ideal.',
+        es: 'En la práctica, sí. Con una mascota, el depósito se llena en una o dos pasadas. Sin estación de autovaciado tendrías que vaciarlo a mano casi después de cada pasada, y la automatización perdería su sentido. La estación aspira el pelo hacia una bolsa de 2,5 a 3,5 litros que se cambia cada 3 a 6 semanas, algo ideal también para las personas alérgicas.',
+        it: 'In pratica sì. Con un animale il contenitore si riempie in 1-2 passaggi. Senza stazione di autosvuotamento dovresti svuotarlo a mano quasi dopo ogni pulizia, e l\'automazione perderebbe senso. La stazione aspira i peli in un sacchetto da 2,5-3,5 litri da cambiare ogni 3-6 settimane: una soluzione ideale anche per chi soffre di allergie.',
+        nl: 'In de praktijk wel. Met een huisdier zit de bak na één tot twee beurten vol. Zonder zelfleegstation moet je de bak na bijna elke beurt met de hand legen, en dan heb je weinig aan de automatisering. Het station zuigt het haar in een zak van 2,5 tot 3,5 liter die je elke 3 tot 6 weken vervangt. Ook ideaal als je allergisch bent.',
         pl: 'W praktyce tak. W domu ze zwierzęciem pojemnik zapełnia się po jednym lub dwóch sprzątaniach. Bez stacji opróżniającej trzeba by go opróżniać ręcznie niemal po każdym przejeździe, co przekreśla sens automatyzacji. Stacja zasysa sierść do worka o pojemności 2,5–3,5 l, który wymienia się co 3–6 tygodni – to idealne rozwiązanie także dla alergików.',
         sv: 'I praktiken, ja. Med ett husdjur är behållaren full efter 1–2 körningar. Utan självtömmande station skulle du få tömma den för hand efter nästan varje körning, och då försvinner poängen med automatiseringen. Stationen suger över håren till en påse på 2,5–3,5 liter som byts var tredje till var sjätte vecka – perfekt även för allergiker.',
         us: 'For all practical purposes, yes. With a pet, the bin fills up in one or two runs. Without a self-emptying dock, you\'d have to empty it by hand after almost every run, which defeats the point of a robot. The dock pulls the hair into a 2.5 to 3.5 liter bag that you change every three to six weeks — ideal for allergy sufferers too.',
@@ -808,11 +797,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'De combien de Pa d\'aspiration ai-je besoin pour les tapis ?',
-        en: 'How much Pa suction do I need for carpets?',
+        en: 'How much suction (Pa) do I need for carpets?',
         de: 'Wie viel Pa Saugkraft brauche ich für Teppiche?',
-        es: '¿Cuántos Pa de succión necesito para alfombras?',
-        it: 'Di quanti Pa di aspirazione ho bisogno per i tappeti?',
-        nl: 'Hoeveel Pa zuigkracht heb ik nodig voor tapijten?',
+        es: '¿Cuántos Pa de succión necesito para las alfombras?',
+        it: 'Quanti Pa di aspirazione servono per i tappeti?',
+        nl: 'Hoeveel Pa zuigkracht heb je nodig voor tapijt?',
         pl: 'Jaka siła ssania (w Pa) jest potrzebna do dywanów?',
         sv: 'Hur hög sugkraft i Pa behövs för mattor?',
         us: 'How much suction (Pa) do you need for carpet?',
@@ -820,11 +809,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Pour extraire efficacement les poils incrustés dans les tapis, visez au minimum 10 000 Pa. Sur sols durs, 5 000-6 000 Pa suffisent, mais les poils s\'enfoncent dans les fibres textiles. Une détection automatique des tapis avec boost d\'aspiration est un vrai plus pour ne pas sacrifier l\'autonomie sur les sols durs.',
-        en: 'To effectively extract hair embedded in carpets, aim for at least 10,000 Pa. On hard floors, 5,000-6,000 Pa is enough, but hair sinks into textile fibres. Automatic carpet detection with a suction boost is a real plus so you do not sacrifice battery life on hard floors.',
-        de: 'Um in Teppiche eingebettete Haare effektiv zu entfernen, sollten Sie mindestens 10.000 Pa anpeilen. Auf Hartböden reichen 5.000-6.000 Pa, doch Haare dringen tief in die Textilfasern ein. Eine automatische Teppicherkennung mit Saugkraft-Boost ist ein echter Vorteil, damit Sie auf Hartböden keine Akkulaufzeit opfern.',
-        es: 'Para extraer eficazmente el pelo incrustado en alfombras, apunta a un mínimo de 10.000 Pa. En suelos duros, 5.000-6.000 Pa bastan, pero el pelo se hunde en las fibras textiles. La detección automática de alfombras con boost de succión es una gran ventaja para no sacrificar autonomía en suelos duros.',
-        it: 'Per estrarre efficacemente i peli incastrati nei tappeti, punta ad almeno 10.000 Pa. Sui pavimenti duri bastano 5.000-6.000 Pa, ma i peli affondano nelle fibre tessili. Il rilevamento automatico dei tappeti con boost di aspirazione è un vero vantaggio per non sacrificare l\'autonomia sui pavimenti duri.',
-        nl: 'Om haar dat diep in tapijten zit effectief te verwijderen, mik je op minimaal 10.000 Pa. Op harde vloeren volstaan 5.000-6.000 Pa, maar haar zakt weg in de textielvezels. Automatische tapijtdetectie met zuigkrachtboost is een echt pluspunt zodat je op harde vloeren geen accuduur opoffert.',
+        en: 'To pull embedded hair out of carpets, aim for at least 10,000 Pa. On hard floors, 5,000–6,000 Pa is enough, but on carpets and rugs hair sinks into the fibres. Automatic carpet detection with a suction boost is a real plus, so the robot doesn\'t burn through its battery on hard floors.',
+        de: 'Damit Haare, die tief im Teppich sitzen, zuverlässig herauskommen, sollten Sie mindestens 10.000 Pa wählen. Auf Hartböden reichen 5.000 bis 6.000 Pa, in Teppichfasern setzen sich Haare aber tief fest. Eine automatische Teppicherkennung mit Saugkraft-Boost ist ein echter Vorteil: So kostet das Saugen auf Hartböden keine unnötige Akkulaufzeit.',
+        es: 'Para sacar bien el pelo incrustado en las alfombras, busca como mínimo 10.000 Pa. En suelos duros bastan 5.000-6.000 Pa, pero en las alfombras el pelo se mete entre las fibras. La detección automática de alfombras con aumento de succión es un gran punto a favor para no gastar batería de más en los suelos duros.',
+        it: 'Per estrarre bene i peli incastrati nei tappeti, punta ad almeno 10.000 Pa. Sui pavimenti duri bastano 5.000-6.000 Pa, ma sui tappeti i peli penetrano tra le fibre. Il riconoscimento automatico dei tappeti con aumento della potenza è un vero vantaggio: così il robot non consuma batteria inutilmente sui pavimenti duri.',
+        nl: 'Minimaal 10.000 Pa om haar dat diep in het tapijt zit goed weg te zuigen. Op harde vloeren is 5.000 tot 6.000 Pa genoeg, maar in textiel zakt het haar weg tussen de vezels. Automatische tapijtherkenning met zuigkrachtboost is een echt pluspunt: zo verspil je op harde vloeren geen accuduur.',
         pl: 'Aby skutecznie wyciągać sierść wbitą w dywany, wybierz model o sile ssania co najmniej 10 000 Pa. Na twardych podłogach wystarczy 5000–6000 Pa, ale w dywanach i wykładzinach sierść wnika głęboko we włókna. Automatyczne wykrywanie dywanów ze zwiększaniem mocy ssania to duży plus – dzięki niemu robot nie zużywa niepotrzebnie baterii na twardych podłogach.',
         sv: 'För att effektivt få upp hår som sitter djupt i mattor bör du sikta på minst 10 000 Pa. På hårda golv räcker 5 000–6 000 Pa, men i textilier tränger håren ned i fibrerna. Automatisk mattdetektering med förstärkt sugkraft är ett stort plus, så att du inte offrar batteritid på de hårda golven.',
         us: 'To pull hair out of carpet effectively, aim for at least 10,000 Pa. On hard floors, 5,000 to 6,000 Pa is enough, but carpet fibers trap hair deep down. Automatic carpet detection with a suction boost is a real plus, so you don\'t waste battery on hard floors.',
@@ -834,11 +823,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Un Saugroboter convient-il aux allergiques ?',
-        en: 'Is a Saugroboter suitable for allergy sufferers?',
+        en: 'Is a robot vacuum suitable for allergy sufferers?',
         de: 'Ist ein Saugroboter für Allergiker geeignet?',
-        es: '¿Es adecuado un Saugroboter para alérgicos?',
-        it: 'Un Saugroboter è adatto agli allergici?',
-        nl: 'Is een Saugroboter geschikt voor allergiepatiënten?',
+        es: '¿Un robot aspirador es adecuado para personas alérgicas?',
+        it: 'Un robot aspirapolvere è adatto a chi soffre di allergie?',
+        nl: 'Is een robotstofzuiger geschikt voor allergiepatiënten?',
         pl: 'Czy robot sprzątający nadaje się dla alergików?',
         sv: 'Passar en robotdammsugare för allergiker?',
         us: 'Is a robot vacuum a good choice for allergy sufferers?',
@@ -846,11 +835,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Oui, à condition de choisir un modèle avec un bon filtre HEPA (E11 minimum, idéalement E12) et un boîtier bien étanche. Combiné à une station d\'auto-vidage à sac, qui évite tout contact avec la poussière, et à un passage quotidien, un Saugroboter réduit durablement les allergènes (poils, squames, protéine Fel d 1) dans l\'air intérieur.',
-        en: 'Yes, provided you choose a model with a good HEPA filter (E11 minimum, ideally E12) and a well-sealed housing. Combined with a bagged auto-empty station, which avoids any contact with dust, and a daily run, a Saugroboter durably reduces allergens (hair, dander, Fel d 1 protein) in indoor air.',
-        de: 'Ja, sofern Sie ein Modell mit gutem HEPA-Filter (mindestens E11, idealerweise E12) und gut abgedichtetem Gehäuse wählen. In Kombination mit einer Absaugstation mit Beutel, die jeden Kontakt mit Staub vermeidet, und einer täglichen Fahrt reduziert ein Saugroboter Allergene (Haare, Hautschuppen, Fel-d-1-Protein) in der Raumluft dauerhaft.',
-        es: 'Sí, siempre que elijas un modelo con un buen filtro HEPA (E11 mínimo, idealmente E12) y carcasa bien sellada. Combinado con una estación de autovaciado con bolsa, que evita el contacto con el polvo, y una pasada diaria, un Saugroboter reduce de forma duradera los alérgenos (pelo, caspa, proteína Fel d 1) del aire interior.',
-        it: 'Sì, a patto di scegliere un modello con un buon filtro HEPA (E11 minimo, idealmente E12) e una scocca ben sigillata. Combinato con una stazione di autosvuotamento con sacchetto, che evita ogni contatto con la polvere, e un passaggio quotidiano, un Saugroboter riduce in modo duraturo gli allergeni (peli, forfora, proteina Fel d 1) nell\'aria interna.',
-        nl: 'Ja, mits je een model kiest met een goed HEPA-filter (E11 minimaal, idealiter E12) en een goed afgedichte behuizing. Gecombineerd met een zelfleegstation met zak, dat elk contact met stof vermijdt, en een dagelijkse rit, vermindert een Saugroboter de allergenen (haar, huidschilfers, Fel d 1-eiwit) in de binnenlucht duurzaam.',
+        en: 'Yes, as long as you choose a model with a good HEPA filter (E11 minimum, ideally E12) and a well-sealed housing. Combined with a bagged auto-empty station, so you never touch the dust, and a daily run, a robot vacuum keeps allergens (hair, dander, the Fel d 1 protein) in the air at home down over the long term.',
+        de: 'Ja, sofern Sie ein Modell mit gutem HEPA-Filter (mindestens E11, idealerweise E12) und gut abgedichtetem Gehäuse wählen. Zusammen mit einer Absaugstation mit Beutel, bei der Sie nicht mit dem Staub in Berührung kommen, und einem täglichen Reinigungslauf senkt ein Saugroboter die Allergene in der Raumluft (Haare, Hautschuppen, das Katzenallergen Fel d 1) dauerhaft.',
+        es: 'Sí, siempre que elijas un modelo con un buen filtro HEPA (como mínimo E11; lo ideal, E12) y una carcasa bien sellada. Si además tiene una estación de autovaciado con bolsa, que evita cualquier contacto con el polvo, y lo pasas a diario, un robot aspirador reduce de forma duradera los alérgenos del aire de casa (pelo, caspa, proteína Fel d 1).',
+        it: 'Sì, purché tu scelga un modello con un buon filtro HEPA (almeno E11, meglio E12) e una scocca ben sigillata. Con una stazione di autosvuotamento a sacchetto, che evita ogni contatto con la polvere, e un passaggio al giorno, un robot aspirapolvere riduce in modo duraturo gli allergeni nell\'aria di casa (peli, forfora, proteina Fel d 1).',
+        nl: 'Ja, als je een model kiest met een goed HEPA-filter (minimaal E11, liefst E12) en een goed afgedichte behuizing. Combineer je dat met een zelfleegstation met zak, waardoor je niet met stof in aanraking komt, en laat je hem dagelijks zuigen, dan vermindert een robotstofzuiger de allergenen in de binnenlucht (haar, huidschilfers, het eiwit Fel d 1) blijvend.',
         pl: 'Tak, pod warunkiem że wybierzesz model z dobrym filtrem HEPA (co najmniej E11, najlepiej E12) i szczelną obudową. Jeśli robot ma też stację opróżniającą z workiem, dzięki której nie masz kontaktu z kurzem, i sprząta codziennie, trwale zmniejsza ilość alergenów (sierści, łupieżu, białka Fel d 1) w powietrzu w domu.',
         sv: 'Ja, om du väljer en modell med ett bra HEPA-filter (minst E11, helst E12) och ett välförseglat hölje. Tillsammans med en självtömmande station med påse, så att du slipper all kontakt med dammet, och daglig körning minskar en robotdammsugare allergenerna (hår, mjäll, proteinet Fel d 1) i inomhusluften på sikt.',
         us: 'Yes, as long as you choose a model with a good HEPA filter (E11 minimum, ideally E12) and a well-sealed housing. Paired with a bagged self-emptying dock, which keeps you away from the dust, and run every day, a robot vacuum keeps allergens (hair, dander, the Fel d 1 protein) in your indoor air down over time.',

@@ -17,14 +17,14 @@ export const PRODUCT_TYPE_LABELS: Readonly<Record<ProductTypeKey, Record<Lang, s
   },
   multicuiseurs: {
     fr: 'Multicuiseur', en: 'Multicooker', de: 'Multikocher',
-    es: 'Olla multifunción', it: 'Multicooker', nl: 'Multicooker', pl: 'Multicooker', sv: 'Multikokare', us: 'Multicooker', ca: 'Multicooker',
+    es: 'Olla programable', it: 'Multicooker', nl: 'Multicooker', pl: 'Multicooker', sv: 'Multikokare', us: 'Multicooker', ca: 'Multicooker',
   },
   cafetieres: {
     fr: 'Machine à café', en: 'Coffee machine', de: 'Kaffeemaschine',
     es: 'Cafetera', it: 'Macchina da caffè', nl: 'Koffiemachine', pl: 'Ekspres do kawy', sv: 'Kaffemaskin', us: 'Coffee maker', ca: 'Coffee maker',
   },
   balances: {
-    fr: 'Balance de cuisine', en: 'Kitchen scale', de: 'Küchenwaage',
+    fr: 'Balance de cuisine', en: 'Kitchen scales', de: 'Küchenwaage',
     es: 'Báscula de cocina', it: 'Bilancia da cucina', nl: 'Keukenweegschaal', pl: 'Waga kuchenna', sv: 'Köksvåg', us: 'Kitchen scale', ca: 'Kitchen scale',
   },
   'thermometres-viande': {

@@ -13,10 +13,10 @@ export const article: BlogArticle = {
       src: 'https://images.unsplash.com/photo-1781737857663-f1f14a60ba46?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Morceaux de poulet dorés sur une grille de cuisson à air chaud, pour comparer airfryer simple et double panier',
-        en: 'Golden chicken pieces on a hot-air crisper rack, illustrating single vs dual basket air fryers',
-        de: 'Goldbraune Hähnchenstücke auf einem Heißluft-Grillrost, zum Vergleich von Einzelkorb und Doppelkorb',
-        es: 'Trozos de pollo dorados sobre una rejilla de aire caliente, para comparar freidoras de una y dos cestas',
-        it: 'Pezzi di pollo dorati su una griglia ad aria calda, per confrontare friggitrici a cestello singolo e doppio',
+        en: 'Golden chicken pieces on an air fryer crisper rack, comparing single and dual basket air fryers',
+        de: 'Goldbraune Hähnchenstücke auf dem Gitterrost eines Airfryers: Einzelkorb und Doppelkammer im Vergleich',
+        es: 'Trozos de pollo dorados sobre la rejilla de una freidora de aire, para comparar modelos de una y de dos cestas',
+        it: 'Pezzi di pollo dorati sulla griglia di una friggitrice ad aria, per confrontare i modelli a cestello singolo e a doppio cestello',
         nl: 'Goudbruine stukjes kip op een heteluchtrooster, ter vergelijking van airfryers met één en twee manden',
         pl: 'Złociste kawałki kurczaka na ruszcie frytkownicy na gorące powietrze – porównanie modeli z jednym i z dwoma koszykami',
         sv: 'Gyllenbruna kycklingbitar på gallret i en airfryer – för att jämföra modeller med en och två korgar',
@@ -27,11 +27,11 @@ export const article: BlogArticle = {
   ],
   title: {
     fr: 'Airfryer simple ou double panier : lequel choisir en 2026 ?',
-    en: 'Single vs Dual Basket Air Fryer: Which One to Choose in 2026?',
-    de: 'Heißluftfritteuse mit Einzelkorb oder Doppelkorb: Was passt 2026?',
-    es: 'Freidora de aire de una o dos cestas: ¿cuál elegir en 2026?',
+    en: 'Single vs Dual Basket Air Fryer: Which Should You Buy in 2026?',
+    de: 'Airfryer mit Einzelkorb oder 2 Kammern: Was passt 2026 zu Ihnen?',
+    es: 'Freidora de aire de una o doble cesta: ¿cuál elegir en 2026?',
     it: 'Friggitrice ad aria a cestello singolo o doppio: quale scegliere nel 2026?',
-    nl: 'Airfryer met enkele of dubbele mand: welke kies je in 2026?',
+    nl: 'Dubbele airfryer of één mand: welke kies je in 2026?',
     pl: 'Frytkownica beztłuszczowa z jednym czy dwoma koszykami: którą wybrać w 2026 roku?',
     sv: 'Airfryer med en eller två korgar: vilken ska du välja 2026?',
     us: 'Single vs. Dual-Basket Air Fryer: Which Should You Buy in 2026?',
@@ -39,11 +39,11 @@ export const article: BlogArticle = {
   },
   excerpt: {
     fr: 'Simple ou double panier ? Les vraies différences (capacité, encombrement, puissance, usage), les modèles Ninja, Philips, Cosori et Moulinex à connaître et le bon choix selon la taille de votre foyer.',
-    en: 'Single or dual basket? The real differences (capacity, footprint, power, everyday use), the Ninja, Philips, Cosori and Moulinex models worth knowing and the right choice for your household size.',
-    de: 'Einzelkorb oder Doppelkorb? Die echten Unterschiede (Volumen, Platzbedarf, Leistung, Alltag), die wichtigsten Modelle von Ninja, Philips, Cosori und Moulinex und die richtige Wahl für Ihre Haushaltsgröße.',
-    es: '¿Una o dos cestas? Las diferencias reales (capacidad, espacio, potencia, uso diario), los modelos de Ninja, Philips, Cosori y Moulinex que conviene conocer y la mejor opción según el tamaño de tu hogar.',
-    it: 'Cestello singolo o doppio? Le vere differenze (capacità, ingombro, potenza, uso quotidiano), i modelli Ninja, Philips, Cosori e Moulinex da conoscere e la scelta giusta in base al tuo nucleo familiare.',
-    nl: 'Eén of twee manden? De echte verschillen (inhoud, ruimte, vermogen, dagelijks gebruik), de modellen van Ninja, Philips, Cosori en Moulinex die je moet kennen en de juiste keuze voor de grootte van je huishouden.',
+    en: 'Single or dual basket? The real differences (capacity, footprint, power, everyday use), the Ninja, Philips, Cosori and Moulinex models worth knowing about, and which to choose for the size of your household.',
+    de: 'Airfryer mit Einzelkorb oder Doppelkorb? Die tatsächlichen Unterschiede (Volumen, Platzbedarf, Leistung, Alltag), die wichtigsten Modelle von Ninja, Philips, Cosori und Moulinex und die passende Wahl für Ihre Haushaltsgröße.',
+    es: '¿Una cesta o doble cesta? Las diferencias que importan (capacidad, espacio, potencia y uso), los modelos de Ninja, Philips, Cosori y Moulinex que conviene conocer y cuál elegir según cuántos sois en casa.',
+    it: 'Cestello singolo o doppio? Le vere differenze (capacità, ingombro, potenza, uso), i modelli Ninja, Philips, Cosori e Moulinex da conoscere e quale scegliere in base a quante persone siete in famiglia.',
+    nl: 'Eén of twee manden? De echte verschillen (inhoud, ruimte op het aanrecht, vermogen, dagelijks gebruik), de modellen van Ninja, Philips, Cosori en Moulinex die het bekijken waard zijn, en de juiste keuze voor jouw huishouden.',
     pl: 'Jeden czy dwa koszyki? Wyjaśniamy, czym naprawdę różnią się te modele (pojemność, gabaryty, moc, zastosowanie), przedstawiamy frytkownice Ninja, Philips, Cosori i Moulinex warte uwagi i podpowiadamy, co wybrać w zależności od liczby domowników.',
     sv: 'En eller två korgar? De verkliga skillnaderna (volym, platsbehov, effekt, vardagsanvändning), modellerna från Ninja, Philips, Cosori och Moulinex som är värda att känna till och rätt val efter hushållets storlek.',
     us: 'Single or dual basket? The real differences (capacity, footprint, power, everyday use), the Ninja, Philips, Cosori and Moulinex models worth knowing, and the right pick for your household size.',
@@ -132,49 +132,49 @@ export const article: BlogArticle = {
 <h2>Notre verdict</h2>
 <p>Le double panier n’est pas « meilleur » dans l’absolu : il répond à un besoin précis, celui de cuire deux préparations différentes en même temps pour plusieurs personnes. Pour une famille, le <strong>Ninja Foodi MAX Double Stack XL</strong> est le choix le plus équilibré grâce à son faible encombrement en largeur. Pour les grandes tablées, le <strong>Ninja Foodi FlexDrawer</strong> apporte en plus une grande zone unique. Pour un ou deux convives, un bon simple panier comme le <strong>Philips Airfryer Série 3000 XL</strong> reste plus pratique, plus compact et plus facile à entretenir.</p>`,
 
-    en: `<p><strong>Choose a dual basket air fryer if you regularly cook for three or more people and want a main and a side ready at the same time; choose a single basket if you cook for one or two, or if your worktop is small.</strong> In 2026, the Ninja Foodi MAX Double Stack XL is the easiest dual basket model to fit in, the Ninja Foodi FlexDrawer suits large families, and the Philips Airfryer 3000 Series XL remains a safe single basket choice.</p>
-<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer feedback. It only includes models sold in Europe in 2026. You will find the full selection on our <a href="/en/cuisine-connectee/airfryers">air fryers</a> page.</p>
+    en: `<p><strong>Choose a dual basket air fryer if you regularly cook for three or more people and want a main and a side ready at the same time; choose a single basket if you cook for one or two, or if your worktop is small.</strong> In 2026, the Ninja Foodi MAX Double Stack XL is the easiest dual basket model to fit in, the Ninja Foodi FlexDrawer suits large families, and the Philips Airfryer 3000 Series XL is still the safe bet if you want a single basket.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer feedback. It only includes models sold in Europe in 2026. You’ll find all our picks on our <a href="/en/cuisine-connectee/airfryers">air fryers</a> page.</p>
 
 <h2>Single or dual basket: the real difference</h2>
-<p>A single basket air fryer has one drawer, one heating element and one time and temperature setting. A dual basket model is effectively two air fryers in one housing: two drawers, two heating elements and independent settings for each zone. You can roast chicken thighs at 200 °C on one side and vegetables at 180 °C on the other.</p>
+<p>A single basket air fryer has one drawer, one heating element and one time and temperature setting. A dual basket model is effectively two air fryers in one housing: two drawers, two heating elements and independent settings for each zone. You can roast chicken thighs at 200°C on one side and vegetables at 180°C on the other.</p>
 <p>On Ninja models, two functions make this format genuinely useful. <strong>Smart Finish</strong> delays the start of the shorter zone so both dishes are ready together. <strong>Match Cook</strong> copies one zone’s settings to the other when you cook a large batch of the same food.</p>
-<p>Watch out for a naming trap: a “Dual” model does not necessarily have two baskets. The Cosori Dual Blaze, for example, is a single basket fitted with two heating elements (top and bottom). It cooks more evenly, but only one dish at a time.</p>
+<p>Beware of a naming trap: a “Dual” model doesn’t necessarily have two baskets. The Cosori Dual Blaze, for example, is a single basket fitted with two heating elements (top and bottom). It cooks more evenly, but only one dish at a time.</p>
 
-<h2>Buying criteria</h2>
+<h2>How to choose</h2>
 <ul>
-<li><strong>Household size.</strong> For one or two people, a 4 to 5 litre drawer is enough. For three to five people, a single basket of 6 litres or more works for a one-dish meal, but a dual basket is more convenient for a full meal. Beyond that, aim for 9 to 10 litres in total.</li>
-<li><strong>Footprint.</strong> Side-by-side dual baskets are wide: about 45 cm for the FlexDrawer. Stacked models such as the Double Stack XL are narrower (about 28 cm) but taller. Measure the space under your wall cabinets and leave room for the steam released at the back.</li>
-<li><strong>Power.</strong> Ninja dual basket models are rated at 2,470 W, compared with roughly 1,500 to 2,000 W for the single basket models listed here. That is still fine on a standard socket, as long as you do not plug the appliance into an already loaded extension lead.</li>
-<li><strong>Drawer shape.</strong> Two 4.75 litre zones will not fit a large whole chicken. If that matters, look for a removable divider (FlexDrawer) or a large single basket.</li>
-<li><strong>Cleaning.</strong> Two baskets mean two drawers and two crisper plates to wash. Most are dishwasher safe according to the manufacturers, but hand washing keeps the non-stick coating in good shape for longer.</li>
-<li><strong>Useful functions.</strong> Zone syncing, presets, dehydrating, a viewing window or an app: only pay for what you will really use.</li>
+<li><strong>Household size.</strong> For one or two people, a drawer of 4 to 5 litres is enough. For three to five people, a single basket of 6 litres or more works for one-dish meals, but a dual basket makes a full meal much easier. For bigger households, aim for 9 to 10 litres in total.</li>
+<li><strong>Footprint.</strong> Side-by-side dual baskets are wide: about 45 cm for the FlexDrawer. Stacked models such as the Double Stack XL are narrower (about 28 cm) but taller. Measure the space under your wall units and leave room for the steam that vents out at the back.</li>
+<li><strong>Power.</strong> Ninja dual basket models are rated at 2,470 W, compared with roughly 1,500 to 2,000 W for the single basket models listed here. That’s still fine on a standard socket, as long as you don’t plug it into an extension lead that is already powering other appliances.</li>
+<li><strong>Drawer shape.</strong> Two 4.75-litre zones won’t take a large whole chicken. If that matters to you, look for a model with a removable divider (FlexDrawer) or a large single basket.</li>
+<li><strong>Cleaning.</strong> Two baskets mean two drawers and two crisper plates to wash. Most are dishwasher-safe, according to the manufacturers, but washing by hand keeps the non-stick coating in good condition for longer.</li>
+<li><strong>Useful functions.</strong> Zone syncing, presets, dehydrating, a viewing window or an app: only pay for what you’ll actually use.</li>
 </ul>
 
-<h2>The models worth knowing in 2026</h2>
+<h2>The models worth considering in 2026</h2>
 
 <h3>1. Ninja Foodi MAX Double Stack XL (9.5 L): the most compact dual basket</h3>
-<p>This Ninja stacks two 4.75 litre drawers instead of placing them side by side. The result is a width of only about 28 cm, the footprint of a single basket, for a total of 9.5 litres. It offers six functions (Air Fry, Max Crisp, Roast, Bake, Dehydrate, Reheat), 2,470 W of power and stepped racks that let you cook on four layers. Smart Finish and Match Cook are included.</p>
-<p><strong>Strengths:</strong> narrow footprint, two independent zones, synchronised finish.<br><strong>Limits:</strong> tall (about 38.5 cm) and heavy; each drawer is too small for a whole chicken.<br><strong>Best for:</strong> families of three to five who are short on worktop width.</p>
+<p>This Ninja stacks two 4.75-litre drawers instead of placing them side by side. The result is a width of only about 28 cm, the footprint of a single basket, with 9.5 litres in total. It offers six functions (Air Fry, Max Crisp, Roast, Bake, Dehydrate, Reheat), 2,470 W of power and tiered racks so you can cook on four levels. Smart Finish and Match Cook are both on board.</p>
+<p><strong>Pros:</strong> narrow footprint, two independent zones, both zones finish together.<br><strong>Cons:</strong> tall (about 38.5 cm) and heavy; each drawer is too small for a whole chicken.<br><strong>Best for:</strong> families of three to five who are short of worktop width.</p>
 
 <h3>2. Ninja Foodi FlexDrawer (10.4 L): the most versatile for large families</h3>
-<p>The FlexDrawer (AF500EU) has one large 10.4 litre drawer with a removable divider. With the divider in, you get two independent 5.2 litre zones. Without it, the “MegaZone” takes a whole chicken, a joint or a big batch of fries. It is rated at 2,470 W and includes Smart Finish and Match Cook. For more detail, read our <a href="/en/blog/test-ninja-foodi-flexdrawer">full Ninja Foodi FlexDrawer review</a>.</p>
-<p><strong>Strengths:</strong> the only format that combines two zones with one large drawer, generous capacity.<br><strong>Limits:</strong> about 45 cm wide and over 9 kg; too big for a couple.<br><strong>Best for:</strong> households of five or more, or anyone who often cooks large cuts.</p>
+<p>The FlexDrawer (AF500EU) has one large 10.4-litre drawer with a removable divider. With the divider in, you get two independent 5.2-litre zones. Without it, the “MegaZone” takes a whole chicken, a joint or a big batch of chips. It is rated at 2,470 W and includes Smart Finish and Match Cook. For more detail, read our <a href="/en/blog/test-ninja-foodi-flexdrawer">full Ninja Foodi FlexDrawer review</a>.</p>
+<p><strong>Pros:</strong> the only format that offers both two zones and one large drawer; generous capacity.<br><strong>Cons:</strong> about 45 cm wide and over 9 kg; too big for a couple.<br><strong>Best for:</strong> households of five or more, or anyone who often cooks large joints.</p>
 
-<h3>3. Ninja Foodi MAX Dual Zone (AF400EU): the classic side-by-side dual basket</h3>
-<p>This is the model that made the format popular: two 4.75 litre baskets side by side, 9.5 litres in total, 2,470 W, six functions, Smart Finish and Match Cook. It is wider than the Double Stack XL but lower, which suits kitchens with low wall cabinets. Our <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi MAX Dual Zone review</a> covers its strengths and limits.</p>
-<p><strong>Strengths:</strong> easy-access drawers, proven design.<br><strong>Limits:</strong> wide; no single large zone.<br><strong>Best for:</strong> families with plenty of worktop length.</p>
+<h3>3. Ninja Foodi MAX Dual Zone (AF400EU): the go-to side-by-side dual basket</h3>
+<p>This is the model that made the format popular: two 4.75-litre baskets side by side, 9.5 litres in total, 2,470 W, six functions, Smart Finish and Match Cook. It’s wider than the Double Stack XL but lower, so it fits better under low wall units. Our <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi MAX Dual Zone review</a> covers its pros and cons in detail.</p>
+<p><strong>Pros:</strong> easy-access drawers, proven design.<br><strong>Cons:</strong> takes up a lot of width; no single large zone.<br><strong>Best for:</strong> families with a long run of worktop.</p>
 
-<h3>4. Philips Airfryer 3000 Series XL (6.2 L): the safe single basket choice</h3>
-<p>This Philips (HD9270) offers a 6.2 litre drawer for about 1.2 kg of food, 2,000 W of power, Rapid Air technology and a touchscreen with seven presets. The NutriU app adds recipes. It is a generous single basket that can feed three or four people when you cook one dish.</p>
-<p><strong>Strengths:</strong> well-known brand, even cooking according to many reviews, very easy to use.<br><strong>Limits:</strong> one dish at a time; no second zone for the side.<br><strong>Best for:</strong> singles, couples and small families.</p>
+<h3>4. Philips Airfryer 3000 Series XL (6.2 L): the safe bet for a single basket</h3>
+<p>This Philips (HD9270) offers a 6.2-litre drawer for about 1.2 kg of food, 2,000 W of power, Rapid Air technology and a touchscreen with seven presets. The NutriU app adds recipes. It is a generous single basket that can feed three or four people when you cook one dish.</p>
+<p><strong>Pros:</strong> well-known brand, even cooking according to many reviews, very easy to use.<br><strong>Cons:</strong> one dish at a time; no second zone for a side.<br><strong>Best for:</strong> people living alone, couples and small families.</p>
 
 <h3>5. Cosori Dual Blaze (6.4 L): a single basket with two heating elements</h3>
-<p>Despite its name, the Dual Blaze has just one 6.4 litre basket. What sets it apart is a heating element at the top and another at the bottom, so you do not need to shake the basket or preheat. It offers twelve functions, a range of 80 to 205 °C and a connection to the VeSync app, which works with Alexa and Google Assistant.</p>
-<p><strong>Strengths:</strong> even cooking without turning food, connected.<br><strong>Limits:</strong> one dish at a time, despite the word “Dual”.<br><strong>Best for:</strong> couples and small families who want a connected appliance.</p>
+<p>Despite its name, the Dual Blaze has just one 6.4-litre basket. What sets it apart is a heating element at the top and another at the bottom, so you don’t need to shake the basket or preheat. It offers twelve functions and a temperature range of 80 to 205°C, and connects to the VeSync app, which works with Alexa and Google Assistant.</p>
+<p><strong>Pros:</strong> even cooking without turning the food, app control.<br><strong>Cons:</strong> one dish at a time, despite the word “Dual”.<br><strong>Best for:</strong> couples and small families who want an app-controlled air fryer.</p>
 
-<h3>6. Moulinex Easy Fry Max (5 L): simple, effective entry-level choice</h3>
-<p>The Easy Fry Max offers 5 litres, 1,500 W, ten automatic programmes and a range of 70 to 200 °C. It is a no-frills appliance that is easy to learn and enough for one or two people.</p>
-<p><strong>Strengths:</strong> compact, simple, moderate power.<br><strong>Limits:</strong> tight for more than two people; single zone.<br><strong>Best for:</strong> a first air fryer, or a small kitchen.</p>
+<h3>6. Moulinex Easy Fry Max (5 L): a simple, effective entry-level choice</h3>
+<p>The Easy Fry Max offers 5 litres, 1,500 W, ten automatic programmes and a temperature range of 70 to 200°C. It’s a no-frills appliance that is easy to get to grips with and big enough for one or two people.</p>
+<p><strong>Pros:</strong> compact, simple, moderate power draw.<br><strong>Cons:</strong> a squeeze for more than two people; single zone.<br><strong>Best for:</strong> a first air fryer, or a small kitchen.</p>
 
 <h2>Comparison table</h2>
 <table>
@@ -183,162 +183,162 @@ export const article: BlogArticle = {
 <tr><td>Ninja Foodi MAX Double Stack XL</td><td>Stacked dual basket</td><td>9.5 L (2 × 4.75 L)</td><td>2,470 W</td><td>Families, narrow worktops</td></tr>
 <tr><td>Ninja Foodi FlexDrawer</td><td>Dual zone with removable divider</td><td>10.4 L (2 × 5.2 L)</td><td>2,470 W</td><td>Large families, whole chicken</td></tr>
 <tr><td>Ninja Foodi MAX Dual Zone AF400</td><td>Side-by-side dual basket</td><td>9.5 L (2 × 4.75 L)</td><td>2,470 W</td><td>Families with space</td></tr>
-<tr><td>Philips Airfryer 3000 Series XL</td><td>Single basket</td><td>6.2 L</td><td>2,000 W</td><td>1 to 4 people</td></tr>
-<tr><td>Cosori Dual Blaze</td><td>Single basket, 2 heating elements</td><td>6.4 L</td><td>About 1.7 kW</td><td>Couples, connected use</td></tr>
-<tr><td>Moulinex Easy Fry Max</td><td>Single basket</td><td>5 L</td><td>1,500 W</td><td>1 to 2 people, small spaces</td></tr>
+<tr><td>Philips Airfryer 3000 Series XL</td><td>Single basket</td><td>6.2 L</td><td>2,000 W</td><td>1–4 people</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Single basket, 2 heating elements</td><td>6.4 L</td><td>About 1.7 kW</td><td>Couples, app control</td></tr>
+<tr><td>Moulinex Easy Fry Max</td><td>Single basket</td><td>5 L</td><td>1,500 W</td><td>1–2 people, small kitchens</td></tr>
 </tbody>
 </table>
 
-<h2>Who should choose what?</h2>
+<h2>Which one should you choose?</h2>
 <ul>
-<li><strong>Single person or couple:</strong> a 4 to 6 litre single basket. The Moulinex Easy Fry Max or the Philips 3000 Series XL is plenty.</li>
-<li><strong>Family of three or four:</strong> a dual basket saves you one cooking cycle for every full meal. The Double Stack XL is the easiest to fit in.</li>
-<li><strong>Family of five or more:</strong> the FlexDrawer, for its two 5.2 litre zones and its large single drawer.</li>
+<li><strong>Living alone or as a couple:</strong> a single basket of 4 to 6 litres. The Moulinex Easy Fry Max or the Philips 3000 Series XL is plenty.</li>
+<li><strong>Family of three or four:</strong> a dual basket saves you a whole cooking cycle every time you make a full meal. The Double Stack XL is the easiest to fit in.</li>
+<li><strong>Family of five or more:</strong> the FlexDrawer, for its two 5.2-litre zones and its large single drawer.</li>
 <li><strong>Small kitchen:</strong> a compact single basket, or a stacked dual basket if you have the height.</li>
-<li><strong>You like connected appliances:</strong> the Cosori Dual Blaze, keeping in mind that it cooks one dish at a time.</li>
+<li><strong>Keen on smart appliances:</strong> the Cosori Dual Blaze, bearing in mind that it only cooks one dish at a time.</li>
 </ul>
-<p>To fine-tune your choice, also read our guide on <a href="/en/blog/comment-choisir-airfryer-famille">choosing an air fryer for the whole family</a>.</p>
+<p>To narrow it down for your household, see also our guide to <a href="/en/blog/comment-choisir-airfryer-famille">choosing an air fryer for the whole family</a>.</p>
 
 <h2>Mistakes to avoid</h2>
 <ul>
-<li><strong>Adding up the litres:</strong> 2 × 4.75 litres is not the same as one 9.5 litre drawer. Each zone is the size of a small air fryer.</li>
-<li><strong>Overloading the baskets:</strong> air needs to circulate. A layer that is too thick gives soggy fries on any model.</li>
+<li><strong>Adding up the litres:</strong> 2 × 4.75 litres is not the same as one 9.5-litre drawer. Each zone is the size of a small air fryer.</li>
+<li><strong>Overloading the baskets:</strong> air needs to circulate. Pile the food too deep and you get soggy chips, whatever the model.</li>
 <li><strong>Confusing “Dual” with dual basket:</strong> always check the number of drawers.</li>
-<li><strong>Forgetting the height:</strong> a stacked model may not fit under wall cabinets, and steam damages cabinet fronts over time.</li>
-<li><strong>Buying too big:</strong> a dual basket for two people means more space taken and more cleaning for little benefit.</li>
+<li><strong>Forgetting the height:</strong> a stacked model may not fit under your wall units, and the steam damages cupboard doors over time.</li>
+<li><strong>Buying too big:</strong> a dual basket for two people means more worktop taken up and more cleaning, for very little gain.</li>
 </ul>
 
 <h2>Use and safety</h2>
-<p>Plug the appliance directly into a wall socket, especially a 2,470 W model, and avoid running it at the same time as a kettle or oven on the same extension lead. Leave about ten centimetres of clearance around and behind it for hot air to escape. Do not put anything on top while it is cooking, and use silicone or wooden utensils to protect the coating. For more everyday guidance, see our <a href="/en/guides/airfryer-vs-four">air fryer vs oven guide</a>.</p>
+<p>Plug the appliance directly into a wall socket, especially a 2,470 W model, and avoid running it at the same time as a kettle or oven on the same extension lead. Leave about ten centimetres of clear space around and behind it so the hot air can escape. Don’t put anything on top while it’s cooking, and use silicone or wooden utensils to protect the coating. For recipes and day-to-day care, our <a href="/en/guides/airfryer-vs-four">air fryer vs oven guide</a> has more pointers.</p>
 
 <h2>Our verdict</h2>
-<p>A dual basket is not “better” in absolute terms: it meets a specific need, cooking two different dishes at once for several people. For a family, the <strong>Ninja Foodi MAX Double Stack XL</strong> is the most balanced choice thanks to its narrow footprint. For large households, the <strong>Ninja Foodi FlexDrawer</strong> adds one big single zone. For one or two people, a good single basket such as the <strong>Philips Airfryer 3000 Series XL</strong> is more practical, more compact and easier to clean.</p>`,
+<p>A dual basket isn’t automatically “better”: it meets a specific need, which is cooking two different dishes at once for several people. For a family, the <strong>Ninja Foodi MAX Double Stack XL</strong> is the most balanced choice thanks to its narrow footprint. For big households, the <strong>Ninja Foodi FlexDrawer</strong> also gives you one large single zone. For one or two people, a good single basket such as the <strong>Philips Airfryer 3000 Series XL</strong> is more practical, more compact and easier to clean.</p>`,
 
-    de: `<p><strong>Greifen Sie zur Heißluftfritteuse mit Doppelkorb, wenn Sie regelmäßig für drei oder mehr Personen kochen und Hauptgericht und Beilage gleichzeitig fertig haben möchten; nehmen Sie einen Einzelkorb, wenn Sie allein oder zu zweit sind oder wenig Arbeitsfläche haben.</strong> 2026 ist die Ninja Foodi MAX Double Stack XL das am leichtesten unterzubringende Doppelkorb-Modell, die Ninja Foodi FlexDrawer passt zu großen Familien, und die Philips Airfryer Serie 3000 XL bleibt eine sichere Wahl mit Einzelkorb.</p>
-<p>Dieser Vergleich stützt sich auf Herstellerangaben, unabhängige Testberichte und verifizierte Käuferbewertungen. Er berücksichtigt nur Modelle, die 2026 in Europa erhältlich sind. Die komplette Auswahl finden Sie auf unserer Seite <a href="/de/cuisine-connectee/airfryers">Heißluftfritteusen</a>.</p>
+    de: `<p><strong>Greifen Sie zum Airfryer mit zwei Kammern (Doppelkorb), wenn Sie regelmäßig für drei oder mehr Personen kochen und Hauptgericht und Beilage gleichzeitig fertig haben möchten; nehmen Sie einen Einzelkorb, wenn Sie allein oder zu zweit sind oder wenig Arbeitsfläche haben.</strong> 2026 lässt sich die Ninja Foodi MAX Double Stack XL von allen Doppelkorb-Modellen am leichtesten unterbringen, die Ninja Foodi FlexDrawer passt zu großen Familien, und die Philips Airfryer Serie 3000 XL bleibt mit Einzelkorb eine sichere Wahl.</p>
+<p>Dieser Vergleich stützt sich auf Herstellerangaben, veröffentlichte unabhängige Testberichte und verifizierte Käuferbewertungen. Er berücksichtigt nur Modelle, die 2026 in Europa erhältlich sind. Die komplette Auswahl finden Sie auf unserer Seite <a href="/de/cuisine-connectee/airfryers">Airfryer im Vergleich</a>.</p>
 
 <h2>Einzelkorb oder Doppelkorb: der eigentliche Unterschied</h2>
-<p>Eine Heißluftfritteuse mit Einzelkorb hat eine Schublade, ein Heizelement und eine Einstellung für Zeit und Temperatur. Ein Doppelkorb-Modell vereint praktisch zwei Heißluftfritteusen in einem Gehäuse: zwei Schubladen, zwei Heizelemente und unabhängige Einstellungen pro Zone. So garen Hähnchenschenkel bei 200 °C auf der einen Seite und Gemüse bei 180 °C auf der anderen.</p>
+<p>Ein Airfryer mit Einzelkorb hat nur eine Schublade, ein Heizelement und eine Einstellung für Zeit und Temperatur. Ein Doppelkorb-Modell vereint praktisch zwei Heißluftfritteusen in einem Gehäuse: zwei Schubladen, zwei Heizelemente und unabhängige Einstellungen pro Zone. So braten Sie auf der einen Seite Hähnchenschenkel bei 200 °C und garen auf der anderen Gemüse bei 180 °C.</p>
 <p>Bei Ninja machen zwei Funktionen dieses Format wirklich alltagstauglich. <strong>Smart Finish</strong> verzögert den Start der kürzeren Zone, damit beide Gerichte gleichzeitig fertig sind. <strong>Match Cook</strong> überträgt die Einstellungen einer Zone auf die andere, wenn Sie eine große Menge desselben Lebensmittels zubereiten.</p>
-<p>Vorsicht bei den Bezeichnungen: Ein „Dual“-Modell hat nicht unbedingt zwei Körbe. Die Cosori Dual Blaze etwa ist ein Einzelkorb mit zwei Heizelementen (oben und unten). Sie gart gleichmäßiger, aber immer nur ein Gericht.</p>
+<p>Vorsicht bei den Bezeichnungen: Ein „Dual“-Modell hat nicht unbedingt zwei Körbe. Die Cosori Dual Blaze etwa ist ein Einzelkorb-Modell mit zwei Heizelementen (oben und unten). Sie gart gleichmäßiger, aber immer nur ein Gericht.</p>
 
 <h2>Worauf Sie beim Kauf achten sollten</h2>
 <ul>
-<li><strong>Haushaltsgröße.</strong> Für ein bis zwei Personen reichen 4 bis 5 Liter. Für drei bis fünf Personen genügt ein Einzelkorb ab 6 Litern für ein einzelnes Gericht, für ein komplettes Menü ist der Doppelkorb aber bequemer. Darüber sollten es insgesamt 9 bis 10 Liter sein.</li>
-<li><strong>Platzbedarf.</strong> Doppelkörbe nebeneinander sind breit: rund 45 cm bei der FlexDrawer. Gestapelte Modelle wie die Double Stack XL sind schmaler (etwa 28 cm), dafür höher. Messen Sie den Raum unter den Hängeschränken und lassen Sie Platz für den Dampf, der hinten austritt.</li>
+<li><strong>Haushaltsgröße.</strong> Für ein bis zwei Personen reichen 4 bis 5 Liter. Für drei bis fünf Personen genügt ein Einzelkorb ab 6 Litern für ein einzelnes Gericht, für ein komplettes Menü ist der Doppelkorb aber bequemer. Für noch mehr Personen sollten es insgesamt 9 bis 10 Liter sein.</li>
+<li><strong>Platzbedarf.</strong> Doppelkörbe nebeneinander sind breit: rund 45 cm bei der FlexDrawer. Gestapelte Modelle wie die Double Stack XL sind schmaler (etwa 28 cm), dafür höher. Messen Sie den Platz unter den Hängeschränken nach und lassen Sie Raum für den Dampf, der hinten austritt.</li>
 <li><strong>Leistung.</strong> Die Doppelkorb-Modelle von Ninja haben 2.470 W, die hier vorgestellten Einzelkörbe etwa 1.500 bis 2.000 W. Das ist an einer normalen Steckdose kein Problem, solange Sie das Gerät nicht an eine bereits belastete Mehrfachsteckdose anschließen.</li>
 <li><strong>Form des Garraums.</strong> In zwei Zonen mit je 4,75 Litern passt kein großes ganzes Hähnchen. Wenn Ihnen das wichtig ist, wählen Sie ein Modell mit herausnehmbarer Trennwand (FlexDrawer) oder einen großen Einzelkorb.</li>
 <li><strong>Reinigung.</strong> Zwei Körbe bedeuten zwei Schubladen und zwei Einsätze zum Spülen. Laut Herstellern sind die meisten spülmaschinenfest, Handwäsche schont die Antihaftbeschichtung aber länger.</li>
 <li><strong>Sinnvolle Funktionen.</strong> Zonen-Synchronisation, Automatikprogramme, Dörren, Sichtfenster oder App: Zahlen Sie nur für das, was Sie wirklich nutzen.</li>
 </ul>
 
-<h2>Die wichtigsten Modelle 2026</h2>
+<h2>Airfryer mit 2 Kammern und Einzelkorb: die wichtigsten Modelle 2026</h2>
 
-<h3>1. Ninja Foodi MAX Double Stack XL (9,5 l): der kompakteste Doppelkorb</h3>
-<p>Diese Ninja stapelt zwei Schubladen mit je 4,75 Litern übereinander statt nebeneinander. Ergebnis: nur etwa 28 cm Breite, also die Stellfläche eines Einzelkorbs, bei insgesamt 9,5 Litern. Sie bietet sechs Funktionen (Air Fry, Max Crisp, Braten, Backen, Dörren, Aufwärmen), 2.470 W und gestufte Gitter für das Garen auf vier Ebenen. Smart Finish und Match Cook sind an Bord.</p>
-<p><strong>Stärken:</strong> geringe Breite, zwei unabhängige Zonen, synchrones Garende.<br><strong>Grenzen:</strong> hoch (etwa 38,5 cm) und schwer; jede Schublade ist für ein ganzes Hähnchen zu klein.<br><strong>Für wen:</strong> Familien mit drei bis fünf Personen, denen es an Breite auf der Arbeitsfläche fehlt.</p>
+<h3>1. Ninja Foodi MAX Double Stack XL (9,5 L): der kompakteste Doppelkorb</h3>
+<p>Diese Ninja stapelt zwei Schubladen mit je 4,75 Litern übereinander statt nebeneinander. Das Ergebnis: nur etwa 28 cm Breite, also die Stellfläche eines Einzelkorb-Geräts, bei insgesamt 9,5 Litern. Sie bietet sechs Funktionen (Air Fry, Max Crisp, Braten, Backen, Dörren, Aufwärmen), 2.470 W und gestufte Gitter, mit denen Sie auf vier Ebenen garen können. Smart Finish und Match Cook sind an Bord.</p>
+<p><strong>Stärken:</strong> geringe Breite, zwei unabhängige Zonen, synchrones Garende.<br><strong>Grenzen:</strong> hoch (etwa 38,5 cm) und schwer; jede Schublade ist für ein ganzes Hähnchen zu klein.<br><strong>Für wen:</strong> Familien mit drei bis fünf Personen, denen auf der Arbeitsfläche die Breite fehlt.</p>
 
-<h3>2. Ninja Foodi FlexDrawer (10,4 l): die vielseitigste für große Familien</h3>
+<h3>2. Ninja Foodi FlexDrawer (10,4 L): die vielseitigste Wahl für große Familien</h3>
 <p>Die FlexDrawer (AF500EU) hat eine große Schublade mit 10,4 Litern und herausnehmbarer Trennwand. Mit Trennwand erhalten Sie zwei unabhängige Zonen mit je 5,2 Litern. Ohne sie fasst die „MegaZone“ ein ganzes Hähnchen, einen Braten oder eine große Portion Pommes. Sie hat 2.470 W, Smart Finish und Match Cook. Mehr dazu in unserer <a href="/de/blog/test-ninja-foodi-flexdrawer">ausführlichen Bewertung der Ninja Foodi FlexDrawer</a>.</p>
-<p><strong>Stärken:</strong> das einzige Format, das zwei Zonen und einen großen Garraum vereint, viel Volumen.<br><strong>Grenzen:</strong> rund 45 cm breit und über 9 kg schwer; für ein Paar zu groß.<br><strong>Für wen:</strong> Haushalte ab fünf Personen oder alle, die oft große Stücke zubereiten.</p>
+<p><strong>Stärken:</strong> das einzige Format mit zwei Zonen und einem großen durchgehenden Garraum; viel Volumen.<br><strong>Grenzen:</strong> rund 45 cm breit und über 9 kg schwer; für ein Paar zu groß.<br><strong>Für wen:</strong> Haushalte ab fünf Personen oder alle, die oft große Stücke zubereiten.</p>
 
 <h3>3. Ninja Foodi MAX Dual Zone (AF400EU): der klassische Doppelkorb nebeneinander</h3>
-<p>Dieses Modell hat das Format bekannt gemacht: zwei Körbe mit je 4,75 Litern nebeneinander, insgesamt 9,5 Liter, 2.470 W, sechs Funktionen, Smart Finish und Match Cook. Es ist breiter als die Double Stack XL, aber niedriger, was unter tief hängenden Oberschränken besser passt. Unsere <a href="/de/blog/test-ninja-foodi-max-dual-zone">Bewertung der Ninja Foodi MAX Dual Zone</a> beschreibt Stärken und Grenzen.</p>
-<p><strong>Stärken:</strong> gut zugängliche Körbe, bewährtes Konzept.<br><strong>Grenzen:</strong> breit; keine große Einzelzone.<br><strong>Für wen:</strong> Familien mit ausreichend langer Arbeitsfläche.</p>
+<p>Dieses Modell hat das Format bekannt gemacht: zwei Körbe mit je 4,75 Litern nebeneinander, insgesamt 9,5 Liter, 2.470 W, sechs Funktionen, Smart Finish und Match Cook. Es ist breiter als die Double Stack XL, aber niedriger und passt damit besser unter niedrig montierte Hängeschränke. Unsere <a href="/de/blog/test-ninja-foodi-max-dual-zone">Bewertung der Ninja Foodi MAX Dual Zone</a> beschreibt Stärken und Grenzen.</p>
+<p><strong>Stärken:</strong> gut zugängliche Körbe, bewährtes Konzept.<br><strong>Grenzen:</strong> breit; keine große Einzelzone.<br><strong>Für wen:</strong> Familien mit viel freier Arbeitsfläche.</p>
 
-<h3>4. Philips Airfryer Serie 3000 XL (6,2 l): die sichere Wahl mit Einzelkorb</h3>
-<p>Diese Philips (HD9270) bietet 6,2 Liter für etwa 1,2 kg Lebensmittel, 2.000 W, Rapid-Air-Technologie und ein Touchdisplay mit sieben Programmen. Die App NutriU liefert Rezepte. Ein großzügiger Einzelkorb, der drei bis vier Personen versorgt, wenn nur ein Gericht gegart wird.</p>
+<h3>4. Philips Airfryer Serie 3000 XL (6,2 L): die sichere Wahl mit Einzelkorb</h3>
+<p>Diese Philips (HD9270) bietet 6,2 Liter für etwa 1,2 kg Lebensmittel, 2.000 W, Rapid-Air-Technologie und ein Touchdisplay mit sieben Programmen. Die App NutriU liefert Rezepte. Der große Einzelkorb reicht für drei bis vier Personen, solange nur ein Gericht gegart wird.</p>
 <p><strong>Stärken:</strong> bekannte Marke, laut vielen Bewertungen gleichmäßiges Garen, sehr einfache Bedienung.<br><strong>Grenzen:</strong> nur ein Gericht gleichzeitig; keine zweite Zone für die Beilage.<br><strong>Für wen:</strong> Singles, Paare und kleine Familien.</p>
 
-<h3>5. Cosori Dual Blaze (6,4 l): Einzelkorb mit zwei Heizelementen</h3>
-<p>Trotz des Namens hat die Dual Blaze nur einen Korb mit 6,4 Litern. Ihre Besonderheit: ein Heizelement oben und eines unten, sodass weder Schütteln noch Vorheizen nötig ist. Sie bietet zwölf Funktionen, einen Bereich von 80 bis 205 °C und die App VeSync, kompatibel mit Alexa und Google Assistant.</p>
-<p><strong>Stärken:</strong> gleichmäßiges Garen ohne Wenden, vernetzt.<br><strong>Grenzen:</strong> trotz „Dual“ nur ein Gericht gleichzeitig.<br><strong>Für wen:</strong> Paare und kleine Familien, die ein vernetztes Gerät möchten.</p>
+<h3>5. Cosori Dual Blaze (6,4 L): Einzelkorb mit zwei Heizelementen</h3>
+<p>Trotz des Namens hat die Dual Blaze nur einen Korb mit 6,4 Litern. Ihre Besonderheit: ein Heizelement oben und eines unten, sodass weder Schütteln noch Vorheizen nötig ist. Sie bietet zwölf Funktionen sowie einen Temperaturbereich von 80 bis 205 °C und lässt sich über die App VeSync steuern, die mit Alexa und Google Assistant kompatibel ist.</p>
+<p><strong>Stärken:</strong> gleichmäßiges Garen ohne Wenden, Steuerung per App.<br><strong>Grenzen:</strong> trotz „Dual“ nur ein Gericht gleichzeitig.<br><strong>Für wen:</strong> Paare und kleine Familien, die ihr Gerät per App steuern möchten.</p>
 
-<h3>6. Moulinex Easy Fry Max (5 l): einfacher, solider Einstieg</h3>
-<p>Die Easy Fry Max bietet 5 Liter, 1.500 W, zehn Automatikprogramme und einen Bereich von 70 bis 200 °C. Ein Gerät ohne Schnickschnack, schnell verstanden und ausreichend für ein bis zwei Personen.</p>
-<p><strong>Stärken:</strong> kompakt, einfach, moderate Leistung.<br><strong>Grenzen:</strong> knapp für mehr als zwei Personen; nur eine Zone.<br><strong>Für wen:</strong> den Einstieg ins Heißluftgaren oder eine kleine Küche.</p>
+<h3>6. Moulinex Easy Fry Max (5 L): einfacher, solider Einstieg</h3>
+<p>Die Easy Fry Max bietet 5 Liter, 1.500 W, zehn Automatikprogramme und einen Temperaturbereich von 70 bis 200 °C. Ein Gerät ohne Schnickschnack, das man schnell versteht und das für ein bis zwei Personen reicht.</p>
+<p><strong>Stärken:</strong> kompakt, einfach, moderate Leistung.<br><strong>Grenzen:</strong> knapp für mehr als zwei Personen; nur eine Zone.<br><strong>Für wen:</strong> Einsteiger ins Heißluftgaren und kleine Küchen.</p>
 
 <h2>Vergleichstabelle</h2>
 <table>
 <thead><tr><th>Modell</th><th>Typ</th><th>Volumen</th><th>Leistung</th><th>Ideal für</th></tr></thead>
 <tbody>
-<tr><td>Ninja Foodi MAX Double Stack XL</td><td>Doppelkorb gestapelt</td><td>9,5 l (2 × 4,75 l)</td><td>2.470 W</td><td>Familien, schmale Arbeitsfläche</td></tr>
-<tr><td>Ninja Foodi FlexDrawer</td><td>Doppelzone mit herausnehmbarer Trennwand</td><td>10,4 l (2 × 5,2 l)</td><td>2.470 W</td><td>Große Familien, ganzes Hähnchen</td></tr>
-<tr><td>Ninja Foodi MAX Dual Zone AF400</td><td>Doppelkorb nebeneinander</td><td>9,5 l (2 × 4,75 l)</td><td>2.470 W</td><td>Familien mit viel Platz</td></tr>
-<tr><td>Philips Airfryer Serie 3000 XL</td><td>Einzelkorb</td><td>6,2 l</td><td>2.000 W</td><td>1 bis 4 Personen</td></tr>
-<tr><td>Cosori Dual Blaze</td><td>Einzelkorb, 2 Heizelemente</td><td>6,4 l</td><td>Etwa 1,7 kW</td><td>Paare, vernetzte Nutzung</td></tr>
-<tr><td>Moulinex Easy Fry Max</td><td>Einzelkorb</td><td>5 l</td><td>1.500 W</td><td>1 bis 2 Personen, wenig Platz</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>Doppelkorb, gestapelt</td><td>9,5 L (2 × 4,75 L)</td><td>2.470 W</td><td>Familien, schmale Arbeitsfläche</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>Zwei Zonen, herausnehmbare Trennwand</td><td>10,4 L (2 × 5,2 L)</td><td>2.470 W</td><td>Große Familien, ganzes Hähnchen</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone AF400</td><td>Doppelkorb, nebeneinander</td><td>9,5 L (2 × 4,75 L)</td><td>2.470 W</td><td>Familien mit viel Platz</td></tr>
+<tr><td>Philips Airfryer Serie 3000 XL</td><td>Einzelkorb</td><td>6,2 L</td><td>2.000 W</td><td>1–4 Personen</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Einzelkorb, 2 Heizelemente</td><td>6,4 L</td><td>ca. 1,7 kW</td><td>Paare, Steuerung per App</td></tr>
+<tr><td>Moulinex Easy Fry Max</td><td>Einzelkorb</td><td>5 L</td><td>1.500 W</td><td>1–2 Personen, wenig Platz</td></tr>
 </tbody>
 </table>
 
-<h2>Wer sollte was wählen?</h2>
+<h2>Welches Modell passt zu wem?</h2>
 <ul>
 <li><strong>Single oder Paar:</strong> ein Einzelkorb mit 4 bis 6 Litern. Die Moulinex Easy Fry Max oder die Philips Serie 3000 XL reichen völlig.</li>
 <li><strong>Familie mit drei oder vier Personen:</strong> ein Doppelkorb spart bei jedem kompletten Menü einen Garvorgang. Die Double Stack XL lässt sich am leichtesten unterbringen.</li>
-<li><strong>Familie ab fünf Personen:</strong> die FlexDrawer, wegen ihrer zwei Zonen mit 5,2 Litern und des großen Einzelgarraums.</li>
+<li><strong>Familie ab fünf Personen:</strong> die FlexDrawer, dank zwei Zonen mit je 5,2 Litern und dem großen durchgehenden Garraum.</li>
 <li><strong>Kleine Küche:</strong> ein kompakter Einzelkorb oder ein gestapelter Doppelkorb, wenn genug Höhe da ist.</li>
-<li><strong>Sie mögen vernetzte Geräte:</strong> die Cosori Dual Blaze, wobei sie nur ein Gericht auf einmal gart.</li>
+<li><strong>Sie mögen smarte Geräte:</strong> die Cosori Dual Blaze; denken Sie aber daran, dass sie nur ein Gericht auf einmal gart.</li>
 </ul>
-<p>Für die Feinabstimmung lesen Sie auch unseren Ratgeber, wie Sie <a href="/de/blog/comment-choisir-airfryer-famille">eine Heißluftfritteuse für die ganze Familie auswählen</a>.</p>
+<p>Je nach Haushalt hilft Ihnen auch unser Ratgeber weiter: <a href="/de/blog/comment-choisir-airfryer-famille">So wählen Sie einen Airfryer für die ganze Familie</a>.</p>
 
 <h2>Typische Fehler</h2>
 <ul>
 <li><strong>Liter einfach addieren:</strong> 2 × 4,75 Liter sind nicht dasselbe wie ein Garraum mit 9,5 Litern. Jede Zone hat die Größe einer kleinen Heißluftfritteuse.</li>
-<li><strong>Körbe überladen:</strong> Die Luft muss zirkulieren. Eine zu dicke Schicht ergibt bei jedem Modell weiche Pommes.</li>
+<li><strong>Körbe überladen:</strong> Die Luft muss zirkulieren. Eine zu dicke Schicht macht die Pommes bei jedem Modell labbrig.</li>
 <li><strong>„Dual“ mit Doppelkorb verwechseln:</strong> Prüfen Sie immer die Zahl der Schubladen.</li>
-<li><strong>Die Höhe vergessen:</strong> Ein gestapeltes Modell passt eventuell nicht unter die Hängeschränke, und Dampf schadet den Fronten auf Dauer.</li>
-<li><strong>Zu groß kaufen:</strong> Ein Doppelkorb für zwei Personen bedeutet mehr Platzbedarf und mehr Reinigung bei wenig Nutzen.</li>
+<li><strong>Die Höhe vergessen:</strong> Ein gestapeltes Modell passt unter Umständen nicht unter die Hängeschränke, und der Dampf greift auf Dauer die Schrankfronten an.</li>
+<li><strong>Zu groß kaufen:</strong> Ein Doppelkorb für zwei Personen bedeutet mehr Platzbedarf und mehr Putzaufwand bei wenig Nutzen.</li>
 </ul>
 
 <h2>Nutzung und Sicherheit</h2>
-<p>Schließen Sie das Gerät direkt an eine Wandsteckdose an, vor allem ein Modell mit 2.470 W, und betreiben Sie es nicht gleichzeitig mit Wasserkocher oder Backofen an derselben Mehrfachsteckdose. Lassen Sie rundherum und hinten etwa zehn Zentimeter frei, damit die heiße Luft entweichen kann. Legen Sie während des Garens nichts auf das Gerät und verwenden Sie Utensilien aus Silikon oder Holz, um die Beschichtung zu schonen. Weitere Orientierung bietet unser <a href="/de/guides/airfryer-vs-four">Ratgeber Heißluftfritteuse oder Backofen</a>.</p>
+<p>Schließen Sie das Gerät direkt an eine Wandsteckdose an, vor allem ein Modell mit 2.470 W, und betreiben Sie es nicht gleichzeitig mit Wasserkocher oder Backofen an derselben Mehrfachsteckdose. Lassen Sie rundherum und hinten etwa zehn Zentimeter frei, damit die heiße Luft entweichen kann. Legen Sie während des Garens nichts auf das Gerät und verwenden Sie Utensilien aus Silikon oder Holz, um die Beschichtung zu schonen. Weitere Tipps zu Rezepten und zur täglichen Pflege finden Sie in unserem <a href="/de/guides/airfryer-vs-four">Ratgeber Airfryer oder Backofen</a>.</p>
 
 <h2>Unser Fazit</h2>
 <p>Ein Doppelkorb ist nicht pauschal „besser“: Er erfüllt einen bestimmten Zweck, nämlich zwei verschiedene Gerichte gleichzeitig für mehrere Personen zu garen. Für Familien ist die <strong>Ninja Foodi MAX Double Stack XL</strong> dank ihrer geringen Breite die ausgewogenste Wahl. Für große Runden bietet die <strong>Ninja Foodi FlexDrawer</strong> zusätzlich eine große Einzelzone. Für ein bis zwei Personen bleibt ein guter Einzelkorb wie die <strong>Philips Airfryer Serie 3000 XL</strong> praktischer, kompakter und leichter zu reinigen.</p>`,
 
-    es: `<p><strong>Elige una freidora de aire de doble cesta si cocinas a menudo para tres o más personas y quieres tener el plato principal y la guarnición listos a la vez; elige una de cesta única si sois una o dos personas o si tu encimera es pequeña.</strong> En 2026, la Ninja Foodi MAX Double Stack XL es la doble cesta más fácil de colocar, la Ninja Foodi FlexDrawer encaja con familias numerosas y la Philips Airfryer Serie 3000 XL sigue siendo una apuesta segura de cesta única.</p>
-<p>Esta comparativa se basa en las fichas técnicas de los fabricantes, en análisis independientes y en opiniones de compradores verificados. Solo incluye modelos que se venden en Europa en 2026. Encontrarás toda la selección en nuestra página de <a href="/es/cuisine-connectee/airfryers">freidoras de aire</a>.</p>
+    es: `<p><strong>Elige una freidora de aire de doble cesta si sueles cocinar para tres o más personas y quieres preparar a la vez el plato principal y la guarnición; si sois uno o dos, o si tu encimera es pequeña, quédate con una de una sola cesta.</strong> En 2026, la Ninja Foodi MAX Double Stack XL es la de doble cesta que mejor cabe en cualquier cocina, la Ninja Foodi FlexDrawer es ideal para familias numerosas y la Philips Airfryer Serie 3000 XL sigue siendo una apuesta segura entre las de una sola cesta.</p>
+<p>Esta comparativa se basa en las fichas técnicas de los fabricantes, en análisis independientes y en opiniones verificadas de compradores. Solo incluye modelos que se venden en Europa en 2026. Tienes toda la selección en nuestra página de <a href="/es/cuisine-connectee/airfryers">freidoras de aire</a>.</p>
 
-<h2>Una o dos cestas: la diferencia real</h2>
-<p>Una freidora de cesta única tiene un solo cajón, una sola resistencia y un único ajuste de tiempo y temperatura. Un modelo de doble cesta reúne, en la práctica, dos freidoras en una misma carcasa: dos cajones, dos resistencias y ajustes independientes en cada zona. Así puedes asar muslos de pollo a 200 °C en un lado y verduras a 180 °C en el otro.</p>
-<p>En los modelos Ninja, dos funciones hacen que este formato sea realmente útil. <strong>Smart Finish</strong> retrasa el inicio de la zona más corta para que ambos platos terminen a la vez. <strong>Match Cook</strong> copia los ajustes de una zona en la otra cuando preparas mucha cantidad del mismo alimento.</p>
-<p>Cuidado con una trampa de nombre: un modelo «Dual» no tiene por qué tener dos cestas. La Cosori Dual Blaze, por ejemplo, es una cesta única con dos resistencias (arriba y abajo). Cocina de forma más uniforme, pero solo un plato cada vez.</p>
+<h2>Una cesta o doble cesta: en qué se diferencian de verdad</h2>
+<p>Una freidora de una cesta tiene una sola cubeta, una sola resistencia y un único ajuste de tiempo y temperatura. Una de doble cesta es, en la práctica, como tener dos freidoras en una misma carcasa: dos cajones, dos resistencias y ajustes independientes para cada zona. Así puedes asar muslos de pollo a 200 °C en un lado y verduras a 180 °C en el otro.</p>
+<p>En las Ninja, dos funciones le sacan todo el partido a este formato. <strong>Smart Finish</strong> retrasa el arranque de la zona que necesita menos tiempo para que los dos platos estén listos a la vez. <strong>Match Cook</strong> copia los ajustes de una zona en la otra cuando preparas mucha cantidad del mismo alimento.</p>
+<p>Ojo con el nombre: que un modelo se llame «Dual» no significa que tenga dos cestas. La Cosori Dual Blaze, por ejemplo, tiene una sola cesta y dos resistencias (arriba y abajo). Cocina de forma más uniforme, pero solo hace un plato cada vez.</p>
 
-<h2>Criterios de compra</h2>
+<h2>Cómo elegir bien</h2>
 <ul>
-<li><strong>Tamaño del hogar.</strong> Para una o dos personas bastan de 4 a 5 litros. De tres a cinco personas, una cesta única de 6 litros o más sirve para un plato único, pero la doble cesta resulta más cómoda para una comida completa. Por encima, apunta a 9 o 10 litros en total.</li>
-<li><strong>Espacio ocupado.</strong> Las dobles cestas lado a lado son anchas: unos 45 cm en la FlexDrawer. Los modelos apilados, como la Double Stack XL, son más estrechos (unos 28 cm), pero más altos. Mide el hueco bajo los muebles altos y deja espacio para el vapor que sale por detrás.</li>
-<li><strong>Potencia.</strong> Las dobles cestas de Ninja llegan a 2.470 W, frente a unos 1.500 a 2.000 W de las cestas únicas de esta lista. Funcionan sin problema en un enchufe normal, siempre que no las conectes a una regleta ya cargada.</li>
-<li><strong>Forma de la cubeta.</strong> En dos zonas de 4,75 litros no cabe un pollo entero grande. Si es importante para ti, busca un separador extraíble (FlexDrawer) o una cesta única grande.</li>
-<li><strong>Limpieza.</strong> Dos cestas son dos cajones y dos rejillas que lavar. Según los fabricantes, la mayoría son aptas para lavavajillas, aunque lavarlas a mano conserva mejor el antiadherente.</li>
-<li><strong>Funciones útiles.</strong> Sincronización de zonas, programas automáticos, deshidratado, ventana o aplicación: paga solo por lo que de verdad vayas a usar.</li>
+<li><strong>El tamaño del hogar.</strong> Para una o dos personas basta con una cubeta de 4 a 5 litros. Si sois de tres a cinco, una sola cesta de 6 litros o más sirve para un plato único, pero para una comida completa la doble cesta resulta más cómoda. Si sois más, busca de 9 a 10 litros en total.</li>
+<li><strong>El espacio en la encimera.</strong> Los modelos con las dos cestas una junto a otra son anchos: unos 45 cm en el caso de la FlexDrawer. Los apilados, como la Double Stack XL, son más estrechos (unos 28 cm), pero más altos. Mide el hueco que queda bajo los muebles altos y deja espacio para el vapor que sale por detrás.</li>
+<li><strong>La potencia.</strong> Las Ninja de doble cesta anuncian 2.470 W, frente a los 1.500-2.000 W, aproximadamente, de las freidoras de una cesta de esta lista. Funcionan sin problema en un enchufe normal, siempre que no las conectes a una regleta que ya esté muy cargada.</li>
+<li><strong>La forma de la cubeta.</strong> En dos zonas de 4,75 litros no cabe un pollo entero grande. Si para ti es importante, busca un modelo con separador extraíble (FlexDrawer) o una freidora grande de una sola cesta.</li>
+<li><strong>La limpieza.</strong> Dos cestas son dos cubetas y dos rejillas que lavar. Según los fabricantes, la mayoría se pueden meter en el lavavajillas, aunque si las lavas a mano el antiadherente dura más.</li>
+<li><strong>Las funciones útiles.</strong> Sincronización de zonas, programas automáticos, deshidratado, ventana o app: paga solo por lo que de verdad vayas a usar.</li>
 </ul>
 
 <h2>Los modelos que conviene conocer en 2026</h2>
 
-<h3>1. Ninja Foodi MAX Double Stack XL (9,5 L): la doble cesta más compacta</h3>
-<p>Esta Ninja apila dos cajones de 4,75 litros en lugar de ponerlos uno junto a otro. El resultado: solo unos 28 cm de ancho, lo mismo que una cesta única, para 9,5 litros en total. Ofrece seis funciones (Air Fry, Max Crisp, asar, hornear, deshidratar, recalentar), 2.470 W y rejillas escalonadas para cocinar en cuatro niveles. Incluye Smart Finish y Match Cook.</p>
-<p><strong>Puntos fuertes:</strong> poca anchura, dos zonas independientes, final de cocción sincronizado.<br><strong>Límites:</strong> alta (unos 38,5 cm) y pesada; cada cajón es demasiado pequeño para un pollo entero.<br><strong>Para quién:</strong> familias de tres a cinco personas con poca anchura de encimera.</p>
+<h3>1. Ninja Foodi MAX Double Stack XL (9,5 L): la de doble cesta más compacta</h3>
+<p>Esta Ninja coloca sus dos cajones de 4,75 litros uno encima del otro en lugar de uno al lado del otro. Resultado: solo unos 28 cm de ancho, lo mismo que una freidora de una cesta, con 9,5 litros en total. Ofrece seis funciones (Air Fry, Max Crisp, asar, hornear, deshidratar y recalentar), 2.470 W y rejillas a distintas alturas para cocinar en cuatro niveles. Incluye Smart Finish y Match Cook.</p>
+<p><strong>Puntos fuertes:</strong> poca anchura, dos zonas independientes y final de cocción sincronizado.<br><strong>Puntos débiles:</strong> alta (unos 38,5 cm) y pesada; en ninguno de los dos cajones cabe un pollo entero.<br><strong>Para quién:</strong> familias de tres a cinco personas con poco espacio a lo ancho en la encimera.</p>
 
 <h3>2. Ninja Foodi FlexDrawer (10,4 L): la más versátil para familias numerosas</h3>
-<p>La FlexDrawer (AF500EU) tiene un gran cajón de 10,4 litros con separador extraíble. Con él, obtienes dos zonas independientes de 5,2 litros. Sin él, la «MegaZone» admite un pollo entero, un asado o mucha cantidad de patatas. Tiene 2.470 W, Smart Finish y Match Cook. Para más detalles, lee nuestra <a href="/es/blog/test-ninja-foodi-flexdrawer">opinión completa sobre la Ninja Foodi FlexDrawer</a>.</p>
-<p><strong>Puntos fuertes:</strong> el único formato que combina dos zonas y una gran cubeta única, capacidad generosa.<br><strong>Límites:</strong> unos 45 cm de ancho y más de 9 kg; demasiado grande para una pareja.<br><strong>Para quién:</strong> hogares de cinco o más personas, o quien cocina a menudo piezas grandes.</p>
+<p>La FlexDrawer (AF500EU) tiene un gran cajón de 10,4 litros con separador extraíble. Con el separador puesto, tienes dos zonas independientes de 5,2 litros. Sin él, en la «MegaZone» cabe un pollo entero, un asado o una buena bandeja de patatas. Anuncia 2.470 W e incluye Smart Finish y Match Cook. Si quieres más detalles, lee nuestro <a href="/es/blog/test-ninja-foodi-flexdrawer">análisis completo de la Ninja Foodi FlexDrawer</a>.</p>
+<p><strong>Puntos fuertes:</strong> es el único formato que combina dos zonas con una gran cubeta única, y la capacidad es generosa.<br><strong>Puntos débiles:</strong> unos 45 cm de ancho y más de 9 kg; demasiado grande para una pareja.<br><strong>Para quién:</strong> hogares de cinco o más personas, o quien cocina a menudo piezas grandes.</p>
 
-<h3>3. Ninja Foodi MAX Dual Zone (AF400EU): la doble cesta clásica lado a lado</h3>
-<p>Es el modelo que popularizó el formato: dos cestas de 4,75 litros una junto a otra, 9,5 litros en total, 2.470 W, seis funciones, Smart Finish y Match Cook. Es más ancha que la Double Stack XL pero más baja, lo que va mejor bajo muebles altos bajos. Nuestra <a href="/es/blog/test-ninja-foodi-max-dual-zone">opinión sobre la Ninja Foodi MAX Dual Zone</a> detalla sus puntos fuertes y sus límites.</p>
-<p><strong>Puntos fuertes:</strong> cestas de fácil acceso, diseño contrastado.<br><strong>Límites:</strong> ancha; sin una zona grande única.<br><strong>Para quién:</strong> familias con encimera larga.</p>
+<h3>3. Ninja Foodi MAX Dual Zone (AF400EU): la clásica de doble cesta, una junto a otra</h3>
+<p>Es el modelo que popularizó el formato: dos cestas de 4,75 litros una junto a otra, 9,5 litros en total, 2.470 W, seis funciones, Smart Finish y Match Cook. Es más ancha que la Double Stack XL, pero más baja, así que encaja mejor si tus muebles altos están a poca altura de la encimera. En nuestro <a href="/es/blog/test-ninja-foodi-max-dual-zone">análisis de la Ninja Foodi MAX Dual Zone</a> te contamos sus puntos fuertes y sus puntos débiles.</p>
+<p><strong>Puntos fuertes:</strong> cestas fáciles de sacar y un formato ya consolidado.<br><strong>Puntos débiles:</strong> ocupa mucho a lo ancho; no tiene una zona grande única.<br><strong>Para quién:</strong> familias con espacio de sobra en la encimera.</p>
 
-<h3>4. Philips Airfryer Serie 3000 XL (6,2 L): la apuesta segura de cesta única</h3>
-<p>Esta Philips (HD9270) ofrece 6,2 litros para unos 1,2 kg de alimentos, 2.000 W, tecnología Rapid Air y pantalla táctil con siete programas. La aplicación NutriU añade recetas. Es una cesta única generosa, capaz de alimentar a tres o cuatro personas cuando se cocina un solo plato.</p>
-<p><strong>Puntos fuertes:</strong> marca conocida, cocción uniforme según muchas opiniones, muy fácil de usar.<br><strong>Límites:</strong> un plato cada vez; sin segunda zona para la guarnición.<br><strong>Para quién:</strong> personas solas, parejas y familias pequeñas.</p>
+<h3>4. Philips Airfryer Serie 3000 XL (6,2 L): la apuesta segura con una sola cesta</h3>
+<p>Esta Philips (HD9270) ofrece una cubeta de 6,2 litros para unos 1,2 kg de alimentos, 2.000 W, tecnología Rapid Air y pantalla táctil con siete programas. La app NutriU propone recetas. Es una freidora de una cesta amplia, que da de comer a tres o cuatro personas cuando se cocina un solo plato.</p>
+<p><strong>Puntos fuertes:</strong> marca conocida, cocción uniforme según muchas opiniones y muy fácil de usar.<br><strong>Puntos débiles:</strong> un solo plato cada vez; no hay segunda zona para la guarnición.<br><strong>Para quién:</strong> personas que viven solas, parejas y familias pequeñas.</p>
 
-<h3>5. Cosori Dual Blaze (6,4 L): una cesta única con dos resistencias</h3>
-<p>Pese a su nombre, la Dual Blaze solo tiene una cesta de 6,4 litros. Su particularidad es una resistencia arriba y otra abajo, de modo que no hace falta agitar la cesta ni precalentar. Ofrece doce funciones, un rango de 80 a 205 °C y conexión con la aplicación VeSync, compatible con Alexa y Google Assistant.</p>
-<p><strong>Puntos fuertes:</strong> cocción uniforme sin dar la vuelta a los alimentos, conectada.<br><strong>Límites:</strong> un solo plato a la vez, pese a la palabra «Dual».<br><strong>Para quién:</strong> parejas y familias pequeñas que quieren un aparato conectado.</p>
+<h3>5. Cosori Dual Blaze (6,4 L): una sola cesta y dos resistencias</h3>
+<p>Pese a su nombre, la Dual Blaze solo tiene una cesta de 6,4 litros. Lo que la distingue es que tiene una resistencia arriba y otra abajo, así que no hace falta agitar la cesta ni precalentar. Ofrece doce funciones, temperatura regulable de 80 a 205 °C y conexión con la app VeSync, compatible con Alexa y Google Assistant.</p>
+<p><strong>Puntos fuertes:</strong> cocción uniforme sin dar la vuelta a los alimentos, y con app.<br><strong>Puntos débiles:</strong> un solo plato cada vez, pese a la palabra «Dual».<br><strong>Para quién:</strong> parejas y familias pequeñas que quieren una freidora con app.</p>
 
-<h3>6. Moulinex Easy Fry Max (5 L): la gama de entrada sencilla y eficaz</h3>
-<p>La Easy Fry Max ofrece 5 litros, 1.500 W, diez programas automáticos y un rango de 70 a 200 °C. Es un aparato sin complicaciones, fácil de dominar y suficiente para una o dos personas.</p>
-<p><strong>Puntos fuertes:</strong> compacta, sencilla, potencia moderada.<br><strong>Límites:</strong> justa para más de dos personas; una sola zona.<br><strong>Para quién:</strong> una primera freidora de aire o una cocina pequeña.</p>
+<h3>6. Moulinex Easy Fry Max (5 L): la básica sencilla y eficaz</h3>
+<p>La Easy Fry Max ofrece 5 litros, 1.500 W, diez programas automáticos y temperatura regulable de 70 a 200 °C. Es un aparato sin florituras, fácil de usar desde el primer día y suficiente para una o dos personas.</p>
+<p><strong>Puntos fuertes:</strong> compacta, sencilla y de potencia moderada.<br><strong>Puntos débiles:</strong> se queda justa si sois más de dos; una sola zona.<br><strong>Para quién:</strong> quien se estrena con la freidora de aire o tiene una cocina pequeña.</p>
 
 <h2>Tabla comparativa</h2>
 <table>
@@ -346,83 +346,83 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Ninja Foodi MAX Double Stack XL</td><td>Doble cesta apilada</td><td>9,5 L (2 × 4,75 L)</td><td>2.470 W</td><td>Familias, encimera estrecha</td></tr>
 <tr><td>Ninja Foodi FlexDrawer</td><td>Doble zona con separador extraíble</td><td>10,4 L (2 × 5,2 L)</td><td>2.470 W</td><td>Familias numerosas, pollo entero</td></tr>
-<tr><td>Ninja Foodi MAX Dual Zone AF400</td><td>Doble cesta lado a lado</td><td>9,5 L (2 × 4,75 L)</td><td>2.470 W</td><td>Familias con espacio</td></tr>
-<tr><td>Philips Airfryer Serie 3000 XL</td><td>Cesta única</td><td>6,2 L</td><td>2.000 W</td><td>De 1 a 4 personas</td></tr>
-<tr><td>Cosori Dual Blaze</td><td>Cesta única, 2 resistencias</td><td>6,4 L</td><td>Unos 1,7 kW</td><td>Parejas, uso conectado</td></tr>
-<tr><td>Moulinex Easy Fry Max</td><td>Cesta única</td><td>5 L</td><td>1.500 W</td><td>1 o 2 personas, poco espacio</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone AF400</td><td>Doble cesta, una junto a otra</td><td>9,5 L (2 × 4,75 L)</td><td>2.470 W</td><td>Familias con espacio</td></tr>
+<tr><td>Philips Airfryer Serie 3000 XL</td><td>Una cesta</td><td>6,2 L</td><td>2.000 W</td><td>De 1 a 4 personas</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Una cesta, 2 resistencias</td><td>6,4 L</td><td>Unos 1,7 kW</td><td>Parejas, uso con app</td></tr>
+<tr><td>Moulinex Easy Fry Max</td><td>Una cesta</td><td>5 L</td><td>1.500 W</td><td>1 o 2 personas, poco espacio</td></tr>
 </tbody>
 </table>
 
-<h2>¿Quién debería elegir qué?</h2>
+<h2>¿Cuál te conviene?</h2>
 <ul>
-<li><strong>Persona sola o pareja:</strong> una cesta única de 4 a 6 litros. La Moulinex Easy Fry Max o la Philips Serie 3000 XL son más que suficientes.</li>
-<li><strong>Familia de tres o cuatro personas:</strong> una doble cesta te ahorra un ciclo de cocción en cada comida completa. La Double Stack XL es la más fácil de colocar.</li>
+<li><strong>Persona sola o pareja:</strong> una freidora de una cesta de 4 a 6 litros. La Moulinex Easy Fry Max o la Philips Serie 3000 XL son más que suficientes.</li>
+<li><strong>Familia de tres o cuatro personas:</strong> con una de doble cesta te ahorras un ciclo de cocción en cada comida completa. La Double Stack XL es la que mejor encaja en la cocina.</li>
 <li><strong>Familia de cinco o más:</strong> la FlexDrawer, por sus dos zonas de 5,2 litros y su gran cubeta única.</li>
-<li><strong>Cocina pequeña:</strong> una cesta única compacta, o una doble cesta apilada si tienes altura.</li>
-<li><strong>Te gustan los aparatos conectados:</strong> la Cosori Dual Blaze, teniendo en cuenta que cocina un plato cada vez.</li>
+<li><strong>Cocina pequeña:</strong> una freidora compacta de una cesta, o una de doble cesta apilada si tienes espacio en altura.</li>
+<li><strong>Si te gustan los aparatos conectados:</strong> la Cosori Dual Blaze, sin olvidar que solo cocina un plato cada vez.</li>
 </ul>
-<p>Para afinar tu elección, lee también nuestra guía para <a href="/es/blog/comment-choisir-airfryer-famille">elegir una freidora de aire para toda la familia</a>.</p>
+<p>Para afinar según tu hogar, lee también nuestra guía para <a href="/es/blog/comment-choisir-airfryer-famille">elegir una freidora de aire para toda la familia</a>.</p>
 
 <h2>Errores que debes evitar</h2>
 <ul>
 <li><strong>Sumar los litros:</strong> 2 × 4,75 litros no equivalen a una cubeta de 9,5 litros. Cada zona tiene el tamaño de una freidora pequeña.</li>
-<li><strong>Sobrecargar las cestas:</strong> el aire tiene que circular. Una capa demasiado gruesa da patatas blandas en cualquier modelo.</li>
-<li><strong>Confundir «Dual» con doble cesta:</strong> comprueba siempre el número de cajones.</li>
-<li><strong>Olvidar la altura:</strong> un modelo apilado puede no caber bajo los muebles altos, y el vapor estropea los frentes con el tiempo.</li>
-<li><strong>Comprar demasiado grande:</strong> una doble cesta para dos personas supone más espacio ocupado y más limpieza para poco beneficio.</li>
+<li><strong>Llenar demasiado las cestas:</strong> el aire tiene que circular. Con una capa demasiado gruesa, las patatas salen blandas, sea cual sea el modelo.</li>
+<li><strong>Confundir «Dual» con doble cesta:</strong> mira siempre cuántos cajones tiene.</li>
+<li><strong>Olvidarse de la altura:</strong> un modelo apilado puede no caber bajo los muebles altos y, a la larga, el vapor estropea los frentes.</li>
+<li><strong>Comprar una demasiado grande:</strong> para dos personas, una de doble cesta ocupa más y da más trabajo de limpieza a cambio de muy poca ventaja.</li>
 </ul>
 
 <h2>Uso y seguridad</h2>
-<p>Conecta el aparato directamente a un enchufe de pared, sobre todo si es un modelo de 2.470 W, y evita usarlo al mismo tiempo que un hervidor o un horno en la misma regleta. Deja unos diez centímetros libres alrededor y detrás para que salga el aire caliente. No pongas nada encima durante la cocción y usa utensilios de silicona o madera para cuidar el revestimiento. Para más orientación diaria, consulta nuestra <a href="/es/guides/airfryer-vs-four">guía freidora de aire o horno</a>.</p>
+<p>Enchufa el aparato directamente a la pared, sobre todo si es un modelo de 2.470 W, y no lo uses a la vez que un hervidor o un horno conectados a la misma regleta. Deja unos diez centímetros libres alrededor y por detrás para que salga el aire caliente. No pongas nada encima mientras cocina y usa utensilios de silicona o de madera para cuidar el revestimiento. Para recetas y cuidados del día a día, nuestra <a href="/es/guides/airfryer-vs-four">guía freidora de aire o horno</a> te da más pistas.</p>
 
 <h2>Nuestro veredicto</h2>
-<p>La doble cesta no es «mejor» en términos absolutos: responde a una necesidad concreta, cocinar dos platos distintos a la vez para varias personas. Para una familia, la <strong>Ninja Foodi MAX Double Stack XL</strong> es la opción más equilibrada gracias a su poca anchura. Para mesas grandes, la <strong>Ninja Foodi FlexDrawer</strong> añade una gran zona única. Para una o dos personas, una buena cesta única como la <strong>Philips Airfryer Serie 3000 XL</strong> resulta más práctica, más compacta y más fácil de limpiar.</p>`,
+<p>La doble cesta no es «mejor» sin más: responde a una necesidad concreta, la de cocinar dos platos distintos a la vez para varias personas. Para una familia, la <strong>Ninja Foodi MAX Double Stack XL</strong> es la opción más equilibrada, porque ocupa poco a lo ancho. Si sois muchos a la mesa, la <strong>Ninja Foodi FlexDrawer</strong> suma además una gran zona única. Para una o dos personas, una buena freidora de una cesta como la <strong>Philips Airfryer Serie 3000 XL</strong> resulta más práctica, más compacta y más fácil de limpiar.</p>`,
 
-    it: `<p><strong>Scegli una friggitrice ad aria a doppio cestello se cucini spesso per tre o più persone e vuoi avere il piatto principale e il contorno pronti insieme; prendi un cestello singolo se siete in uno o due, o se il piano di lavoro è piccolo.</strong> Nel 2026 la Ninja Foodi MAX Double Stack XL è il doppio cestello più facile da sistemare, la Ninja Foodi FlexDrawer è adatta alle famiglie numerose e la Philips Airfryer Serie 3000 XL resta una scelta sicura a cestello singolo.</p>
-<p>Questo confronto si basa sulle schede tecniche dei produttori, su recensioni indipendenti e sui pareri di acquirenti verificati. Include solo modelli venduti in Europa nel 2026. Trovi l’intera selezione nella nostra pagina dedicata alle <a href="/it/cuisine-connectee/airfryers">friggitrici ad aria</a>.</p>
+    it: `<p><strong>Scegli una friggitrice ad aria a doppio cestello se cucini spesso per tre o più persone e vuoi avere il piatto principale e il contorno pronti insieme; prendi un cestello singolo se cucini per una o due persone o se il piano di lavoro è piccolo.</strong> Nel 2026 la Ninja Foodi MAX Double Stack XL è il doppio cestello più facile da sistemare, la Ninja Foodi FlexDrawer è adatta alle famiglie numerose e la Philips Airfryer Serie 3000 XL resta una scelta sicura tra i modelli a cestello singolo.</p>
+<p>Questo confronto si basa sulle schede tecniche dei produttori, su recensioni indipendenti e sulle opinioni verificate degli acquirenti. Considera solo modelli in vendita in Europa nel 2026. Trovi l’intera selezione nella nostra pagina dedicata alle <a href="/it/cuisine-connectee/airfryers">friggitrici ad aria</a>.</p>
 
 <h2>Cestello singolo o doppio: la vera differenza</h2>
-<p>Una friggitrice a cestello singolo ha un solo cassetto, una sola resistenza e un’unica impostazione di tempo e temperatura. Un modello a doppio cestello riunisce in pratica due friggitrici in un solo corpo: due cassetti, due resistenze e impostazioni indipendenti per ciascuna zona. Puoi così arrostire cosce di pollo a 200 °C da un lato e verdure a 180 °C dall’altro.</p>
-<p>Sui modelli Ninja, due funzioni rendono questo formato davvero pratico. <strong>Smart Finish</strong> ritarda l’avvio della zona più breve perché entrambi i piatti siano pronti nello stesso momento. <strong>Match Cook</strong> copia le impostazioni di una zona sull’altra quando prepari una grande quantità dello stesso alimento.</p>
-<p>Attenzione a una trappola nei nomi: un modello «Dual» non ha per forza due cestelli. La Cosori Dual Blaze, per esempio, è un cestello singolo con due resistenze (sopra e sotto). Cuoce in modo più uniforme, ma un piatto alla volta.</p>
+<p>Una friggitrice a cestello singolo ha un solo cassetto, una sola resistenza e un’unica impostazione di tempo e temperatura. Un modello a doppio cestello è, in pratica, due friggitrici in un’unica scocca: due cassetti, due resistenze e impostazioni indipendenti per ciascuna zona. Puoi così arrostire cosce di pollo a 200 °C da un lato e verdure a 180 °C dall’altro.</p>
+<p>Sui modelli Ninja, due funzioni rendono questo formato davvero pratico. <strong>Smart Finish</strong> ritarda l’avvio della zona con la cottura più breve, così i due piatti sono pronti nello stesso momento. <strong>Match Cook</strong> copia le impostazioni di una zona sull’altra quando prepari una grande quantità dello stesso alimento.</p>
+<p>Attenzione ai nomi, che possono trarre in inganno: un modello «Dual» non ha per forza due cestelli. La Cosori Dual Blaze, per esempio, è una friggitrice a cestello singolo con due resistenze (sopra e sotto). Cuoce in modo più uniforme, ma un solo piatto alla volta.</p>
 
 <h2>I criteri di scelta</h2>
 <ul>
-<li><strong>Dimensione del nucleo familiare.</strong> Per una o due persone bastano 4-5 litri. Da tre a cinque persone, un cestello singolo da 6 litri o più va bene per un piatto unico, ma il doppio cestello è più comodo per un pasto completo. Oltre, punta a 9-10 litri in totale.</li>
-<li><strong>Ingombro.</strong> I doppi cestelli affiancati sono larghi: circa 45 cm per la FlexDrawer. I modelli sovrapposti come la Double Stack XL sono più stretti (circa 28 cm) ma più alti. Misura lo spazio sotto i pensili e lascia margine per il vapore che esce dal retro.</li>
-<li><strong>Potenza.</strong> I doppi cestelli Ninja arrivano a 2.470 W, contro circa 1.500-2.000 W dei cestelli singoli di questa lista. Vanno bene su una presa standard, purché non li colleghi a una ciabatta già carica.</li>
-<li><strong>Forma della vasca.</strong> In due zone da 4,75 litri non entra un pollo intero grande. Se per te conta, cerca un divisorio rimovibile (FlexDrawer) o un cestello singolo capiente.</li>
-<li><strong>Pulizia.</strong> Due cestelli significano due cassetti e due griglie da lavare. Secondo i produttori la maggior parte va in lavastoviglie, ma il lavaggio a mano preserva più a lungo il rivestimento antiaderente.</li>
+<li><strong>Quante persone siete.</strong> Per una o due persone bastano 4-5 litri. Da tre a cinque persone, un cestello singolo da 6 litri o più va bene per un piatto unico, ma il doppio cestello è più comodo per un pasto completo. Oltre le cinque persone, punta su 9-10 litri in totale.</li>
+<li><strong>Ingombro.</strong> I doppi cestelli affiancati sono larghi: circa 45 cm per la FlexDrawer. I modelli sovrapposti come la Double Stack XL sono più stretti (circa 28 cm) ma più alti. Misura lo spazio sotto i pensili e lascia spazio per il vapore che esce dal retro.</li>
+<li><strong>Potenza.</strong> I doppi cestelli Ninja arrivano a 2.470 W, contro circa 1.500-2.000 W dei modelli a cestello singolo presentati qui. Vanno bene su una presa standard, purché non li colleghi a una ciabatta già carica.</li>
+<li><strong>Forma del cestello.</strong> In due zone da 4,75 litri non entra un pollo intero di grandi dimensioni. Se per te conta, cerca un modello con divisorio rimovibile (FlexDrawer) o un cestello singolo capiente.</li>
+<li><strong>Pulizia.</strong> Due cestelli vogliono dire due cassetti e due griglie da lavare. Secondo i produttori la maggior parte va in lavastoviglie, ma il lavaggio a mano preserva più a lungo il rivestimento antiaderente.</li>
 <li><strong>Funzioni utili.</strong> Sincronizzazione delle zone, programmi automatici, essiccazione, oblò o app: paga solo per ciò che userai davvero.</li>
 </ul>
 
 <h2>I modelli da conoscere nel 2026</h2>
 
 <h3>1. Ninja Foodi MAX Double Stack XL (9,5 L): il doppio cestello più compatto</h3>
-<p>Questa Ninja sovrappone due cassetti da 4,75 litri invece di affiancarli. Risultato: solo circa 28 cm di larghezza, l’ingombro di un cestello singolo, per 9,5 litri in totale. Offre sei funzioni (Air Fry, Max Crisp, arrosto, forno, essiccazione, riscaldamento), 2.470 W e griglie a gradini per cuocere su quattro livelli. Smart Finish e Match Cook sono presenti.</p>
+<p>Questa Ninja sovrappone due cassetti da 4,75 litri invece di affiancarli. Così è larga solo 28 cm circa, quanto un modello a cestello singolo, ma offre 9,5 litri in totale. Offre sei funzioni (Air Fry, Max Crisp, arrosto, forno, essiccazione, riscaldamento), 2.470 W e griglie a ripiani per cuocere su quattro livelli. Non mancano Smart Finish e Match Cook.</p>
 <p><strong>Punti di forza:</strong> larghezza ridotta, due zone indipendenti, fine cottura sincronizzata.<br><strong>Limiti:</strong> alta (circa 38,5 cm) e pesante; ogni cassetto è troppo piccolo per un pollo intero.<br><strong>Per chi:</strong> famiglie da tre a cinque persone con poco spazio in larghezza.</p>
 
 <h3>2. Ninja Foodi FlexDrawer (10,4 L): la più versatile per le famiglie numerose</h3>
 <p>La FlexDrawer (AF500EU) ha un grande cassetto da 10,4 litri con divisorio rimovibile. Con il divisorio ottieni due zone indipendenti da 5,2 litri. Senza, la «MegaZone» accoglie un pollo intero, un arrosto o una grande porzione di patatine. Ha 2.470 W, Smart Finish e Match Cook. Per approfondire, leggi la nostra <a href="/it/blog/test-ninja-foodi-flexdrawer">recensione completa della Ninja Foodi FlexDrawer</a>.</p>
-<p><strong>Punti di forza:</strong> l’unico formato che unisce due zone e una grande vasca unica, capacità generosa.<br><strong>Limiti:</strong> circa 45 cm di larghezza e oltre 9 kg; troppo grande per una coppia.<br><strong>Per chi:</strong> famiglie da cinque persone in su, o chi cucina spesso pezzi grandi.</p>
+<p><strong>Punti di forza:</strong> l’unico formato che unisce due zone e un grande cestello unico, capacità generosa.<br><strong>Limiti:</strong> circa 45 cm di larghezza e oltre 9 kg; troppo grande per una coppia.<br><strong>Per chi:</strong> famiglie da cinque persone in su, o chi cucina spesso grossi pezzi di carne.</p>
 
 <h3>3. Ninja Foodi MAX Dual Zone (AF400EU): il classico doppio cestello affiancato</h3>
-<p>È il modello che ha reso popolare il formato: due cestelli da 4,75 litri affiancati, 9,5 litri in totale, 2.470 W, sei funzioni, Smart Finish e Match Cook. È più larga della Double Stack XL ma più bassa, il che si adatta meglio a pensili bassi. La nostra <a href="/it/blog/test-ninja-foodi-max-dual-zone">recensione della Ninja Foodi MAX Dual Zone</a> ne descrive pregi e limiti.</p>
-<p><strong>Punti di forza:</strong> cestelli facilmente accessibili, formato collaudato.<br><strong>Limiti:</strong> ingombrante in larghezza; nessuna grande zona unica.<br><strong>Per chi:</strong> famiglie con un piano di lavoro lungo.</p>
+<p>È il modello che ha reso popolare il formato: due cestelli da 4,75 litri affiancati, 9,5 litri in totale, 2.470 W, sei funzioni, Smart Finish e Match Cook. È più larga della Double Stack XL ma più bassa, quindi entra meglio sotto i pensili montati bassi. La nostra <a href="/it/blog/test-ninja-foodi-max-dual-zone">recensione della Ninja Foodi MAX Dual Zone</a> ne descrive pregi e limiti.</p>
+<p><strong>Punti di forza:</strong> cestelli di facile accesso, formato collaudato.<br><strong>Limiti:</strong> ingombrante in larghezza; nessuna grande zona unica.<br><strong>Per chi:</strong> famiglie con un piano di lavoro ampio.</p>
 
 <h3>4. Philips Airfryer Serie 3000 XL (6,2 L): la scelta sicura a cestello singolo</h3>
 <p>Questa Philips (HD9270) offre 6,2 litri per circa 1,2 kg di alimenti, 2.000 W, tecnologia Rapid Air e un display touch con sette programmi. L’app NutriU propone ricette. È un cestello singolo generoso, in grado di sfamare tre o quattro persone quando si cuoce un solo piatto.</p>
 <p><strong>Punti di forza:</strong> marchio noto, cottura uniforme secondo molte recensioni, uso semplicissimo.<br><strong>Limiti:</strong> un piatto alla volta; nessuna seconda zona per il contorno.<br><strong>Per chi:</strong> single, coppie e piccole famiglie.</p>
 
 <h3>5. Cosori Dual Blaze (6,4 L): un cestello singolo con due resistenze</h3>
-<p>Nonostante il nome, la Dual Blaze ha un solo cestello da 6,4 litri. La sua particolarità è una resistenza in alto e una in basso, così non serve scuotere il cestello né preriscaldare. Offre dodici funzioni, un intervallo da 80 a 205 °C e il collegamento all’app VeSync, compatibile con Alexa e Google Assistant.</p>
-<p><strong>Punti di forza:</strong> cottura uniforme senza girare il cibo, connessa.<br><strong>Limiti:</strong> un solo piatto alla volta, nonostante la parola «Dual».<br><strong>Per chi:</strong> coppie e piccole famiglie che vogliono un apparecchio connesso.</p>
+<p>Nonostante il nome, la Dual Blaze ha un solo cestello da 6,4 litri. La sua particolarità è una resistenza in alto e una in basso, così non serve scuotere il cestello né preriscaldare. Offre dodici funzioni, temperature da 80 a 205 °C e il collegamento all’app VeSync, compatibile con Alexa e Google Assistant.</p>
+<p><strong>Punti di forza:</strong> cottura uniforme senza girare il cibo, controllo dall’app.<br><strong>Limiti:</strong> un solo piatto alla volta, nonostante la parola «Dual».<br><strong>Per chi:</strong> coppie e piccole famiglie che vogliono un apparecchio con app.</p>
 
-<h3>6. Moulinex Easy Fry Max (5 L): l’entry level semplice ed efficace</h3>
-<p>La Easy Fry Max offre 5 litri, 1.500 W, dieci programmi automatici e un intervallo da 70 a 200 °C. È un apparecchio essenziale, facile da usare e sufficiente per una o due persone.</p>
-<p><strong>Punti di forza:</strong> compatta, semplice, potenza moderata.<br><strong>Limiti:</strong> giusta per più di due persone; una sola zona.<br><strong>Per chi:</strong> chi si avvicina alla cottura ad aria o ha una cucina piccola.</p>
+<h3>6. Moulinex Easy Fry Max (5 L): il modello base semplice ed efficace</h3>
+<p>L’Easy Fry Max offre 5 litri, 1.500 W, dieci programmi automatici e temperature da 70 a 200 °C. È un apparecchio essenziale, facile da usare e sufficiente per una o due persone.</p>
+<p><strong>Punti di forza:</strong> compatta, semplice, potenza moderata.<br><strong>Limiti:</strong> capacità al limite oltre le due persone; una sola zona.<br><strong>Per chi:</strong> chi si avvicina alla cottura ad aria o ha una cucina piccola.</p>
 
-<h2>Tabella di confronto</h2>
+<h2>Tabella comparativa</h2>
 <table>
 <thead><tr><th>Modello</th><th>Tipo</th><th>Capacità</th><th>Potenza</th><th>Ideale per</th></tr></thead>
 <tbody>
@@ -430,24 +430,24 @@ export const article: BlogArticle = {
 <tr><td>Ninja Foodi FlexDrawer</td><td>Doppia zona con divisorio rimovibile</td><td>10,4 L (2 × 5,2 L)</td><td>2.470 W</td><td>Famiglie numerose, pollo intero</td></tr>
 <tr><td>Ninja Foodi MAX Dual Zone AF400</td><td>Doppio cestello affiancato</td><td>9,5 L (2 × 4,75 L)</td><td>2.470 W</td><td>Famiglie con spazio</td></tr>
 <tr><td>Philips Airfryer Serie 3000 XL</td><td>Cestello singolo</td><td>6,2 L</td><td>2.000 W</td><td>Da 1 a 4 persone</td></tr>
-<tr><td>Cosori Dual Blaze</td><td>Cestello singolo, 2 resistenze</td><td>6,4 L</td><td>Circa 1,7 kW</td><td>Coppie, uso connesso</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Cestello singolo, 2 resistenze</td><td>6,4 L</td><td>Circa 1,7 kW</td><td>Coppie, uso con app</td></tr>
 <tr><td>Moulinex Easy Fry Max</td><td>Cestello singolo</td><td>5 L</td><td>1.500 W</td><td>1-2 persone, poco spazio</td></tr>
 </tbody>
 </table>
 
-<h2>Chi dovrebbe scegliere cosa?</h2>
+<h2>Quale scegliere, caso per caso</h2>
 <ul>
 <li><strong>Single o coppia:</strong> un cestello singolo da 4 a 6 litri. La Moulinex Easy Fry Max o la Philips Serie 3000 XL bastano e avanzano.</li>
 <li><strong>Famiglia di tre o quattro persone:</strong> un doppio cestello ti fa risparmiare un ciclo di cottura per ogni pasto completo. La Double Stack XL è la più facile da sistemare.</li>
-<li><strong>Famiglia di cinque o più persone:</strong> la FlexDrawer, per le due zone da 5,2 litri e la grande vasca unica.</li>
+<li><strong>Famiglia di cinque o più persone:</strong> la FlexDrawer, per le due zone da 5,2 litri e il grande cestello unico.</li>
 <li><strong>Cucina piccola:</strong> un cestello singolo compatto, o un doppio cestello sovrapposto se hai spazio in altezza.</li>
-<li><strong>Ami gli apparecchi connessi:</strong> la Cosori Dual Blaze, ricordando che cuoce un piatto alla volta.</li>
+<li><strong>Ami gli apparecchi smart:</strong> la Cosori Dual Blaze, tenendo presente che cuoce un solo piatto alla volta.</li>
 </ul>
-<p>Per affinare la scelta, leggi anche la nostra guida per <a href="/it/blog/comment-choisir-airfryer-famille">scegliere una friggitrice ad aria per tutta la famiglia</a>.</p>
+<p>Per scegliere in base alla tua famiglia, leggi anche la nostra guida per <a href="/it/blog/comment-choisir-airfryer-famille">scegliere una friggitrice ad aria per tutta la famiglia</a>.</p>
 
 <h2>Errori da evitare</h2>
 <ul>
-<li><strong>Sommare i litri:</strong> 2 × 4,75 litri non equivalgono a una vasca da 9,5 litri. Ogni zona ha le dimensioni di una piccola friggitrice.</li>
+<li><strong>Sommare i litri:</strong> 2 × 4,75 litri non equivalgono a un cestello da 9,5 litri. Ogni zona ha le dimensioni di una piccola friggitrice.</li>
 <li><strong>Sovraccaricare i cestelli:</strong> l’aria deve circolare. Uno strato troppo spesso dà patatine molli con qualsiasi modello.</li>
 <li><strong>Confondere «Dual» con doppio cestello:</strong> controlla sempre il numero di cassetti.</li>
 <li><strong>Dimenticare l’altezza:</strong> un modello sovrapposto potrebbe non entrare sotto i pensili, e il vapore rovina le ante nel tempo.</li>
@@ -455,92 +455,92 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Uso e sicurezza</h2>
-<p>Collega l’apparecchio direttamente a una presa a muro, soprattutto se è un modello da 2.470 W, ed evita di usarlo insieme a un bollitore o a un forno sulla stessa ciabatta. Lascia circa dieci centimetri liberi intorno e sul retro per l’uscita dell’aria calda. Non appoggiare nulla sopra durante la cottura e usa utensili in silicone o legno per proteggere il rivestimento. Per altri consigli quotidiani, consulta la nostra <a href="/it/guides/airfryer-vs-four">guida friggitrice ad aria o forno</a>.</p>
+<p>Collega l’apparecchio direttamente a una presa a muro, soprattutto se è un modello da 2.470 W, ed evita di usarlo insieme a un bollitore o a un forno sulla stessa ciabatta. Lascia circa dieci centimetri liberi intorno e sul retro per l’uscita dell’aria calda. Non appoggiare nulla sopra durante la cottura e usa utensili in silicone o legno per proteggere il rivestimento. Per ricette e pulizia di tutti i giorni, trovi altri consigli nella nostra <a href="/it/guides/airfryer-vs-four">guida friggitrice ad aria o forno</a>.</p>
 
 <h2>Il nostro verdetto</h2>
-<p>Il doppio cestello non è «migliore» in assoluto: risponde a un’esigenza precisa, cuocere due piatti diversi contemporaneamente per più persone. Per una famiglia, la <strong>Ninja Foodi MAX Double Stack XL</strong> è la scelta più equilibrata grazie al suo ingombro ridotto in larghezza. Per le tavolate numerose, la <strong>Ninja Foodi FlexDrawer</strong> aggiunge una grande zona unica. Per una o due persone, un buon cestello singolo come la <strong>Philips Airfryer Serie 3000 XL</strong> resta più pratico, più compatto e più facile da pulire.</p>`,
+<p>Il doppio cestello non è «migliore» in assoluto: risponde a un’esigenza precisa: cuocere due piatti diversi nello stesso momento per più persone. Per una famiglia, la <strong>Ninja Foodi MAX Double Stack XL</strong> è la scelta più equilibrata grazie al suo ingombro ridotto in larghezza. Per le tavolate numerose, la <strong>Ninja Foodi FlexDrawer</strong> aggiunge una grande zona unica. Per una o due persone, un buon cestello singolo come la <strong>Philips Airfryer Serie 3000 XL</strong> resta più pratico, più compatto e più facile da pulire.</p>`,
 
-    nl: `<p><strong>Kies een airfryer met dubbele mand als je regelmatig voor drie of meer personen kookt en hoofdgerecht en bijgerecht tegelijk klaar wilt hebben; kies een enkele mand als je met één of twee bent, of als je aanrecht klein is.</strong> In 2026 is de Ninja Foodi MAX Double Stack XL het makkelijkst te plaatsen model met twee manden, past de Ninja Foodi FlexDrawer bij grote gezinnen en blijft de Philips Airfryer 3000 Serie XL een veilige keuze met één mand.</p>
-<p>Deze vergelijking is gebaseerd op specificaties van de fabrikanten, onafhankelijke reviews en beoordelingen van geverifieerde kopers. We nemen alleen modellen op die in 2026 in Europa verkocht worden. De volledige selectie vind je op onze pagina <a href="/nl/cuisine-connectee/airfryers">airfryers</a>.</p>
+    nl: `<p><strong>Kies een airfryer met dubbele mand als je regelmatig voor drie of meer personen kookt en een hoofdgerecht en een bijgerecht tegelijk wilt bereiden. Kies een model met één mand als je alleen of met z’n tweeën bent, of als je aanrecht klein is.</strong> In 2026 is de Ninja Foodi MAX Double Stack XL het model met twee manden dat je het makkelijkst kwijt kunt, past de Ninja Foodi FlexDrawer bij grote gezinnen en blijft de Philips Airfryer 3000 Serie XL een betrouwbare keuze met één mand.</p>
+<p>Deze vergelijking is gebaseerd op specificaties van fabrikanten, onafhankelijke reviews en ervaringen van geverifieerde kopers. We nemen alleen modellen op die in 2026 in Europa te koop zijn. De volledige selectie vind je op onze pagina <a href="/nl/cuisine-connectee/airfryers">airfryers</a>.</p>
 
-<h2>Enkele of dubbele mand: het echte verschil</h2>
-<p>Een airfryer met één mand heeft één lade, één verwarmingselement en één instelling voor tijd en temperatuur. Een model met dubbele mand is in feite twee airfryers in één behuizing: twee lades, twee verwarmingselementen en onafhankelijke instellingen per zone. Zo rooster je kippendijen op 200 °C aan de ene kant en groenten op 180 °C aan de andere.</p>
-<p>Bij Ninja maken twee functies dit formaat echt handig. <strong>Smart Finish</strong> stelt de start van de kortste zone uit, zodat beide gerechten tegelijk klaar zijn. <strong>Match Cook</strong> kopieert de instellingen van de ene zone naar de andere als je een grote hoeveelheid van hetzelfde bereidt.</p>
-<p>Let op een valkuil in de naamgeving: een ‘Dual’-model heeft niet per se twee manden. De Cosori Dual Blaze is bijvoorbeeld een enkele mand met twee verwarmingselementen (boven en onder). Hij bereidt gelijkmatiger, maar één gerecht tegelijk.</p>
+<h2>Eén of twee manden: het echte verschil</h2>
+<p>Een airfryer met één mand heeft één bakruimte, één verwarmingselement en één instelling voor tijd en temperatuur. Een model met twee manden is in de praktijk twee airfryers in één behuizing: twee lades, twee verwarmingselementen en aparte instellingen per zone. Zo bak je kippenbouten op 200 °C in de ene lade en groenten op 180 °C in de andere.</p>
+<p>Bij Ninja maken twee functies dit formaat echt handig. <strong>Smart Finish</strong> laat de zone met de kortste bereidingstijd later starten, zodat beide gerechten tegelijk klaar zijn. <strong>Match Cook</strong> neemt de instellingen van de ene zone over in de andere als je een grote hoeveelheid van hetzelfde maakt.</p>
+<p>Let op de naam: een “Dual”-model heeft niet per se twee manden. De Cosori Dual Blaze is bijvoorbeeld een model met één mand en twee verwarmingselementen (boven en onder). Hij bakt gelijkmatiger, maar maakt maar één gerecht tegelijk.</p>
 
 <h2>Waar let je op bij het kiezen?</h2>
 <ul>
-<li><strong>Grootte van het huishouden.</strong> Voor één of twee personen volstaat 4 tot 5 liter. Voor drie tot vijf personen werkt een enkele mand vanaf 6 liter voor één gerecht, maar voor een complete maaltijd is een dubbele mand handiger. Daarboven mik je op 9 tot 10 liter in totaal.</li>
-<li><strong>Ruimte.</strong> Dubbele manden naast elkaar zijn breed: zo’n 45 cm bij de FlexDrawer. Gestapelde modellen zoals de Double Stack XL zijn smaller (ongeveer 28 cm), maar hoger. Meet de ruimte onder je bovenkastjes en laat plek voor de stoom die aan de achterkant ontsnapt.</li>
-<li><strong>Vermogen.</strong> De dubbele manden van Ninja hebben 2.470 W, tegenover ongeveer 1.500 tot 2.000 W voor de enkele manden in dit overzicht. Dat kan prima op een gewoon stopcontact, zolang je het apparaat niet op een al zwaar belaste stekkerdoos aansluit.</li>
-<li><strong>Vorm van de mand.</strong> In twee zones van 4,75 liter past geen grote hele kip. Is dat belangrijk, kies dan een model met uitneembare scheidingswand (FlexDrawer) of een grote enkele mand.</li>
-<li><strong>Schoonmaken.</strong> Twee manden betekenen twee lades en twee roosters om af te wassen. Volgens de fabrikanten kunnen de meeste in de vaatwasser, maar met de hand afwassen spaart de antiaanbaklaag langer.</li>
-<li><strong>Nuttige functies.</strong> Synchronisatie van zones, automatische programma’s, drogen, kijkvenster of app: betaal alleen voor wat je echt gebruikt.</li>
+<li><strong>Grootte van het huishouden.</strong> Voor één of twee personen is 4 tot 5 liter genoeg. Voor drie tot vijf personen werkt een model met één mand van 6 liter of meer prima voor één gerecht, maar voor een complete maaltijd is een dubbele mand handiger. Kook je voor meer mensen, mik dan op 9 tot 10 liter in totaal.</li>
+<li><strong>Afmetingen.</strong> Modellen met twee manden naast elkaar zijn breed: zo’n 45 cm bij de FlexDrawer. Gestapelde modellen zoals de Double Stack XL zijn smaller (ongeveer 28 cm), maar hoger. Meet de ruimte onder je bovenkastjes en houd plek vrij voor de stoom die aan de achterkant naar buiten komt.</li>
+<li><strong>Vermogen.</strong> De Ninja-modellen met twee manden hebben een vermogen van 2.470 W, tegenover zo’n 1.500 tot 2.000 W voor de modellen met één mand in dit overzicht. Dat kan prima op een gewoon stopcontact, zolang je het apparaat niet aansluit op een stekkerdoos waar al veel op is aangesloten.</li>
+<li><strong>Vorm van de mand.</strong> In twee zones van 4,75 liter kun je geen grote hele kip bereiden. Vind je dat belangrijk, kies dan een model met een uitneembare scheidingswand (FlexDrawer) of een grote airfryer met één mand.</li>
+<li><strong>Schoonmaken.</strong> Twee manden, dat zijn ook twee lades en twee roosters om af te wassen. Volgens de fabrikanten kunnen de meeste in de vaatwasser, maar als je ze met de hand afwast, gaat de antiaanbaklaag langer mee.</li>
+<li><strong>Nuttige functies.</strong> Zones die tegelijk klaar zijn, automatische programma’s, een droogfunctie, een kijkvenster of een app: betaal alleen voor wat je echt gaat gebruiken.</li>
 </ul>
 
-<h2>De modellen die je moet kennen in 2026</h2>
+<h2>De interessantste modellen van 2026</h2>
 
-<h3>1. Ninja Foodi MAX Double Stack XL (9,5 l): de compactste dubbele mand</h3>
-<p>Deze Ninja stapelt twee lades van 4,75 liter boven elkaar in plaats van naast elkaar. Het resultaat: maar ongeveer 28 cm breed, de ruimte van een enkele mand, voor 9,5 liter in totaal. Hij biedt zes functies (Air Fry, Max Crisp, braden, bakken, drogen, opwarmen), 2.470 W en getrapte roosters om op vier lagen te bereiden. Smart Finish en Match Cook zijn aanwezig.</p>
-<p><strong>Sterke punten:</strong> smal, twee onafhankelijke zones, gelijktijdig klaar.<br><strong>Beperkingen:</strong> hoog (ongeveer 38,5 cm) en zwaar; elke lade is te klein voor een hele kip.<br><strong>Voor wie:</strong> gezinnen van drie tot vijf personen met weinig breedte op het aanrecht.</p>
+<h3>1. Ninja Foodi MAX Double Stack XL (9,5 l): de compactste met twee manden</h3>
+<p>Deze Ninja heeft twee lades van 4,75 liter boven elkaar in plaats van naast elkaar. Daardoor is hij maar zo’n 28 cm breed, net zo breed als een model met één mand, terwijl hij in totaal 9,5 liter inhoud heeft. Hij heeft zes functies (Air Fry, Max Crisp, braden, bakken, drogen en opwarmen), een vermogen van 2.470 W en roosters waarmee je op vier niveaus tegelijk kunt bereiden. Smart Finish en Match Cook heeft hij ook.</p>
+<p><strong>Sterke punten:</strong> smal, twee onafhankelijke zones, beide gerechten tegelijk klaar.<br><strong>Minpunten:</strong> hoog (ongeveer 38,5 cm) en zwaar; elke lade is te klein voor een hele kip.<br><strong>Voor wie:</strong> gezinnen van drie tot vijf personen met weinig ruimte in de breedte op het aanrecht.</p>
 
 <h3>2. Ninja Foodi FlexDrawer (10,4 l): de veelzijdigste voor grote gezinnen</h3>
-<p>De FlexDrawer (AF500EU) heeft één grote lade van 10,4 liter met een uitneembare scheidingswand. Met de wand krijg je twee onafhankelijke zones van 5,2 liter. Zonder wand past in de ‘MegaZone’ een hele kip, een stuk vlees of een grote portie friet. Hij heeft 2.470 W, Smart Finish en Match Cook. Lees voor meer details onze <a href="/nl/blog/test-ninja-foodi-flexdrawer">volledige review van de Ninja Foodi FlexDrawer</a>.</p>
-<p><strong>Sterke punten:</strong> het enige formaat dat twee zones en één grote lade combineert, ruime inhoud.<br><strong>Beperkingen:</strong> zo’n 45 cm breed en ruim 9 kg; te groot voor een stel.<br><strong>Voor wie:</strong> huishoudens van vijf of meer personen, of wie vaak grote stukken bereidt.</p>
+<p>De FlexDrawer (AF500EU) heeft één grote lade van 10,4 liter met een uitneembare scheidingswand. Met de wand erin heb je twee onafhankelijke zones van 5,2 liter. Zonder wand past er in de “MegaZone” een hele kip, een braadstuk of een grote lading friet. Hij heeft een vermogen van 2.470 W en ook Smart Finish en Match Cook. Meer details lees je in onze <a href="/nl/blog/test-ninja-foodi-flexdrawer">volledige review van de Ninja Foodi FlexDrawer</a>.</p>
+<p><strong>Sterke punten:</strong> het enige formaat dat twee zones combineert met één grote lade, ruime inhoud.<br><strong>Minpunten:</strong> zo’n 45 cm breed en ruim 9 kg; te groot voor een stel.<br><strong>Voor wie:</strong> huishoudens van vijf of meer personen, of wie vaak grote stukken vlees bereidt.</p>
 
-<h3>3. Ninja Foodi MAX Dual Zone (AF400EU): de klassieke dubbele mand naast elkaar</h3>
-<p>Dit is het model dat het formaat populair maakte: twee manden van 4,75 liter naast elkaar, 9,5 liter in totaal, 2.470 W, zes functies, Smart Finish en Match Cook. Hij is breder dan de Double Stack XL maar lager, wat beter past onder laaghangende bovenkastjes. Onze <a href="/nl/blog/test-ninja-foodi-max-dual-zone">review van de Ninja Foodi MAX Dual Zone</a> beschrijft de sterke punten en beperkingen.</p>
-<p><strong>Sterke punten:</strong> goed bereikbare manden, beproefd ontwerp.<br><strong>Beperkingen:</strong> breed; geen grote enkele zone.<br><strong>Voor wie:</strong> gezinnen met een lang aanrecht.</p>
+<h3>3. Ninja Foodi MAX Dual Zone (AF400EU): de klassieker met twee manden naast elkaar</h3>
+<p>Dit is het model dat het formaat populair maakte: twee manden van 4,75 liter naast elkaar, 9,5 liter in totaal, 2.470 W, zes functies, Smart Finish en Match Cook. Hij is breder dan de Double Stack XL, maar lager, en past daardoor beter onder laag hangende bovenkastjes. Onze <a href="/nl/blog/test-ninja-foodi-max-dual-zone">review van de Ninja Foodi MAX Dual Zone</a> zet de sterke en zwakke punten op een rij.</p>
+<p><strong>Sterke punten:</strong> goed bereikbare manden, beproefd ontwerp.<br><strong>Minpunten:</strong> neemt veel ruimte in de breedte in; je kunt er geen grote zone van maken.<br><strong>Voor wie:</strong> gezinnen met genoeg vrije ruimte op het aanrecht.</p>
 
-<h3>4. Philips Airfryer 3000 Serie XL (6,2 l): de veilige keuze met één mand</h3>
-<p>Deze Philips (HD9270) biedt 6,2 liter voor ongeveer 1,2 kg voedsel, 2.000 W, Rapid Air-technologie en een touchscreen met zeven programma’s. De app NutriU geeft recepten. Het is een ruime enkele mand die drie tot vier personen voedt als je één gerecht bereidt.</p>
-<p><strong>Sterke punten:</strong> bekend merk, gelijkmatig resultaat volgens veel reviews, heel eenvoudig in gebruik.<br><strong>Beperkingen:</strong> één gerecht tegelijk; geen tweede zone voor het bijgerecht.<br><strong>Voor wie:</strong> alleenstaanden, stellen en kleine gezinnen.</p>
+<h3>4. Philips Airfryer 3000 Serie XL (6,2 l): de betrouwbare keuze met één mand</h3>
+<p>Deze Philips (HD9270) heeft een mand van 6,2 liter voor ongeveer 1,2 kg ingrediënten, een vermogen van 2.000 W, Rapid Air-technologie en een touchscreen met zeven programma’s. In de NutriU-app vind je recepten. Het is een ruim model met één mand, genoeg voor drie of vier personen als je één gerecht maakt.</p>
+<p><strong>Sterke punten:</strong> bekend merk, gelijkmatig resultaat volgens veel reviews, heel eenvoudig in gebruik.<br><strong>Minpunten:</strong> één gerecht tegelijk; geen tweede zone voor het bijgerecht.<br><strong>Voor wie:</strong> alleenstaanden, stellen en kleine gezinnen.</p>
 
-<h3>5. Cosori Dual Blaze (6,4 l): een enkele mand met twee verwarmingselementen</h3>
-<p>Ondanks de naam heeft de Dual Blaze maar één mand van 6,4 liter. Het bijzondere is een verwarmingselement boven en een onder, zodat schudden of voorverwarmen niet nodig is. Hij biedt twaalf functies, een bereik van 80 tot 205 °C en een koppeling met de app VeSync, die werkt met Alexa en Google Assistant.</p>
-<p><strong>Sterke punten:</strong> gelijkmatig resultaat zonder omdraaien, verbonden.<br><strong>Beperkingen:</strong> één gerecht tegelijk, ondanks het woord ‘Dual’.<br><strong>Voor wie:</strong> stellen en kleine gezinnen die een slim apparaat willen.</p>
+<h3>5. Cosori Dual Blaze (6,4 l): één mand met twee verwarmingselementen</h3>
+<p>Ondanks de naam heeft de Dual Blaze maar één mand van 6,4 liter. Wat hem bijzonder maakt: een verwarmingselement boven én onder, zodat je de mand niet hoeft te schudden en niet hoeft voor te verwarmen. Hij heeft twaalf functies en een temperatuurbereik van 80 tot 205 °C, en je bedient hem met de VeSync-app, die je aan Alexa en Google Assistent kunt koppelen.</p>
+<p><strong>Sterke punten:</strong> gelijkmatig resultaat zonder omdraaien, bediening via app.<br><strong>Minpunten:</strong> één gerecht tegelijk, ondanks het woord “Dual”.<br><strong>Voor wie:</strong> stellen en kleine gezinnen die een airfryer met app willen.</p>
 
-<h3>6. Moulinex Easy Fry Max (5 l): eenvoudige en degelijke instapper</h3>
-<p>De Easy Fry Max biedt 5 liter, 1.500 W, tien automatische programma’s en een bereik van 70 tot 200 °C. Een apparaat zonder poespas, snel onder de knie en voldoende voor één of twee personen.</p>
-<p><strong>Sterke punten:</strong> compact, eenvoudig, gematigd vermogen.<br><strong>Beperkingen:</strong> krap voor meer dan twee personen; één zone.<br><strong>Voor wie:</strong> een eerste kennismaking met heteluchtkoken, of een kleine keuken.</p>
+<h3>6. Moulinex Easy Fry Max (5 l): het eenvoudige, degelijke instapmodel</h3>
+<p>De Easy Fry Max heeft 5 liter inhoud, een vermogen van 1.500 W, tien automatische programma’s en een bereik van 70 tot 200 °C. Een apparaat zonder poespas, snel onder de knie en genoeg voor één of twee personen.</p>
+<p><strong>Sterke punten:</strong> compact, eenvoudig, bescheiden vermogen.<br><strong>Minpunten:</strong> krap voor meer dan twee personen; één zone.<br><strong>Voor wie:</strong> wie voor het eerst met hete lucht gaat koken, of wie een kleine keuken heeft.</p>
 
 <h2>Vergelijkingstabel</h2>
 <table>
 <thead><tr><th>Model</th><th>Type</th><th>Inhoud</th><th>Vermogen</th><th>Ideaal voor</th></tr></thead>
 <tbody>
-<tr><td>Ninja Foodi MAX Double Stack XL</td><td>Dubbele mand, gestapeld</td><td>9,5 l (2 × 4,75 l)</td><td>2.470 W</td><td>Gezinnen, smal aanrecht</td></tr>
-<tr><td>Ninja Foodi FlexDrawer</td><td>Dubbele zone met uitneembare wand</td><td>10,4 l (2 × 5,2 l)</td><td>2.470 W</td><td>Grote gezinnen, hele kip</td></tr>
-<tr><td>Ninja Foodi MAX Dual Zone AF400</td><td>Dubbele mand naast elkaar</td><td>9,5 l (2 × 4,75 l)</td><td>2.470 W</td><td>Gezinnen met ruimte</td></tr>
-<tr><td>Philips Airfryer 3000 Serie XL</td><td>Enkele mand</td><td>6,2 l</td><td>2.000 W</td><td>1 tot 4 personen</td></tr>
-<tr><td>Cosori Dual Blaze</td><td>Enkele mand, 2 verwarmingselementen</td><td>6,4 l</td><td>Ongeveer 1,7 kW</td><td>Stellen, slim gebruik</td></tr>
-<tr><td>Moulinex Easy Fry Max</td><td>Enkele mand</td><td>5 l</td><td>1.500 W</td><td>1 tot 2 personen, weinig ruimte</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>Twee manden, gestapeld</td><td>9,5 l (2 × 4,75 l)</td><td>2.470 W</td><td>Gezinnen, smal aanrecht</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>Twee zones met uitneembare wand</td><td>10,4 l (2 × 5,2 l)</td><td>2.470 W</td><td>Grote gezinnen, hele kip</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone AF400</td><td>Twee manden naast elkaar</td><td>9,5 l (2 × 4,75 l)</td><td>2.470 W</td><td>Gezinnen met ruimte</td></tr>
+<tr><td>Philips Airfryer 3000 Serie XL</td><td>Eén mand</td><td>6,2 l</td><td>2.000 W</td><td>1 tot 4 personen</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Eén mand, 2 verwarmingselementen</td><td>6,4 l</td><td>Ca. 1,7 kW</td><td>Stellen, bediening via app</td></tr>
+<tr><td>Moulinex Easy Fry Max</td><td>Eén mand</td><td>5 l</td><td>1.500 W</td><td>1 tot 2 personen, weinig ruimte</td></tr>
 </tbody>
 </table>
 
 <h2>Wie kiest wat?</h2>
 <ul>
-<li><strong>Alleenstaand of stel:</strong> een enkele mand van 4 tot 6 liter. De Moulinex Easy Fry Max of de Philips 3000 Serie XL is ruim voldoende.</li>
-<li><strong>Gezin van drie of vier:</strong> een dubbele mand bespaart je bij elke complete maaltijd één kookronde. De Double Stack XL is het makkelijkst te plaatsen.</li>
-<li><strong>Gezin van vijf of meer:</strong> de FlexDrawer, vanwege de twee zones van 5,2 liter en de grote enkele lade.</li>
-<li><strong>Kleine keuken:</strong> een compacte enkele mand, of een gestapelde dubbele mand als je de hoogte hebt.</li>
-<li><strong>Je houdt van slimme apparaten:</strong> de Cosori Dual Blaze, met in je achterhoofd dat hij één gerecht tegelijk bereidt.</li>
+<li><strong>Alleen of met z’n tweeën:</strong> een model met één mand van 4 tot 6 liter. De Moulinex Easy Fry Max of de Philips 3000 Serie XL is ruim voldoende.</li>
+<li><strong>Gezin van drie of vier:</strong> met twee manden hoef je voor een complete maaltijd niet twee keer na elkaar te bakken. De Double Stack XL past het makkelijkst in je keuken.</li>
+<li><strong>Gezin van vijf of meer:</strong> de FlexDrawer, vanwege de twee zones van 5,2 liter én de grote lade als je de wand eruit haalt.</li>
+<li><strong>Kleine keuken:</strong> een compact model met één mand, of een gestapeld model met twee manden als je genoeg hoogte hebt.</li>
+<li><strong>Je wilt een airfryer met app:</strong> de Cosori Dual Blaze, maar onthoud dat hij één gerecht tegelijk maakt.</li>
 </ul>
-<p>Lees voor een betere keuze ook onze gids om <a href="/nl/blog/comment-choisir-airfryer-famille">een airfryer voor het hele gezin te kiezen</a>.</p>
+<p>Wil je de keuze afstemmen op je huishouden? Lees dan ook onze gids over <a href="/nl/blog/comment-choisir-airfryer-famille">een airfryer kiezen voor het hele gezin</a>.</p>
 
-<h2>Fouten om te vermijden</h2>
+<h2>Veelgemaakte fouten</h2>
 <ul>
 <li><strong>Liters optellen:</strong> 2 × 4,75 liter is niet hetzelfde als één lade van 9,5 liter. Elke zone is zo groot als een kleine airfryer.</li>
-<li><strong>De manden te vol doen:</strong> de lucht moet kunnen circuleren. Een te dikke laag geeft slappe friet, bij elk model.</li>
-<li><strong>‘Dual’ verwarren met dubbele mand:</strong> controleer altijd het aantal lades.</li>
-<li><strong>De hoogte vergeten:</strong> een gestapeld model past misschien niet onder de bovenkastjes, en stoom beschadigt de fronten op den duur.</li>
-<li><strong>Te groot kopen:</strong> een dubbele mand voor twee personen betekent meer ruimte en meer schoonmaakwerk voor weinig voordeel.</li>
+<li><strong>De manden te vol laden:</strong> de lucht moet kunnen circuleren. Een te dikke laag levert slappe friet op, welk model je ook hebt.</li>
+<li><strong>“Dual” verwarren met twee manden:</strong> controleer altijd hoeveel lades er zijn.</li>
+<li><strong>De hoogte vergeten:</strong> een gestapeld model past misschien niet onder je bovenkastjes, en op den duur beschadigt de stoom de kastdeurtjes.</li>
+<li><strong>Te groot kopen:</strong> een model met twee manden voor twee personen neemt meer ruimte in en geeft meer schoonmaakwerk, voor weinig voordeel.</li>
 </ul>
 
 <h2>Gebruik en veiligheid</h2>
-<p>Sluit het apparaat rechtstreeks aan op een wandcontactdoos, zeker een model van 2.470 W, en gebruik het niet tegelijk met een waterkoker of oven op dezelfde stekkerdoos. Laat rondom en aan de achterkant zo’n tien centimeter vrij zodat de hete lucht weg kan. Leg tijdens het bereiden niets op het apparaat en gebruik keukengerei van siliconen of hout om de laag te sparen. Meer houvast voor dagelijks gebruik vind je in onze <a href="/nl/guides/airfryer-vs-four">gids airfryer of oven</a>.</p>
+<p>Steek de stekker rechtstreeks in een stopcontact in de muur, zeker bij een model van 2.470 W, en gebruik het apparaat niet tegelijk met een waterkoker of oven op dezelfde stekkerdoos. Laat rondom en aan de achterkant zo’n tien centimeter vrij, zodat de hete lucht weg kan. Leg tijdens het bakken niets op het apparaat en gebruik keukengerei van siliconen of hout om de antiaanbaklaag te sparen. Meer tips over recepten en dagelijks onderhoud vind je in onze <a href="/nl/guides/airfryer-vs-four">gids airfryer of oven</a>.</p>
 
 <h2>Ons oordeel</h2>
-<p>Een dubbele mand is niet per definitie ‘beter’: hij dient een duidelijk doel, namelijk twee verschillende gerechten tegelijk bereiden voor meerdere personen. Voor een gezin is de <strong>Ninja Foodi MAX Double Stack XL</strong> de meest evenwichtige keuze dankzij zijn smalle formaat. Voor grote gezelschappen biedt de <strong>Ninja Foodi FlexDrawer</strong> daarnaast één grote zone. Voor één of twee personen is een goede enkele mand zoals de <strong>Philips Airfryer 3000 Serie XL</strong> praktischer, compacter en makkelijker schoon te maken.</p>`,
+<p>Een airfryer met twee manden is niet per definitie ‘beter’: hij is bedoeld voor een specifieke situatie, namelijk twee verschillende gerechten tegelijk bereiden voor meerdere personen. Voor een gezin is de <strong>Ninja Foodi MAX Double Stack XL</strong> de meest evenwichtige keuze, omdat hij zo weinig breedte inneemt. Kook je voor veel mensen, dan biedt de <strong>Ninja Foodi FlexDrawer</strong> daarnaast één grote zone. Voor één of twee personen is een goed model met één mand, zoals de <strong>Philips Airfryer 3000 Serie XL</strong>, praktischer, compacter en makkelijker schoon te houden.</p>`,
     pl: `<p><strong>Wybierz frytkownicę beztłuszczową z dwoma koszykami, jeśli regularnie gotujesz dla trzech lub więcej osób i chcesz jednocześnie przygotować danie główne i dodatek. Model z jednym koszykiem wystarczy, jeśli gotujesz tylko dla siebie lub we dwoje albo masz mały blat.</strong> W 2026 roku spośród modeli z dwoma koszykami najłatwiej zmieścić w kuchni Ninja Foodi MAX Double Stack XL, Ninja Foodi FlexDrawer sprawdzi się w dużej rodzinie, a Philips Airfryer Series 3000 XL to wciąż pewny wybór wśród frytkownic z jednym koszykiem.</p>
 <p>Porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględniamy w nim wyłącznie modele sprzedawane w Europie w 2026 roku. Pełne zestawienie znajdziesz w kategorii <a href="/pl/cuisine-connectee/airfryers">frytkownice beztłuszczowe</a>.</p>
 
@@ -882,11 +882,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Sa puissance maximale est plus élevée (2 470 W chez Ninja contre environ 1 500 à 2 000 W pour un simple panier), mais la consommation dépend surtout de la durée d’utilisation et du nombre de zones allumées. Cuire deux plats en même temps évite aussi un second cycle de cuisson.',
-        en: 'Its maximum power is higher (2,470 W on Ninja models versus roughly 1,500 to 2,000 W for a single basket), but consumption mainly depends on how long you cook and how many zones are on. Cooking two dishes at once also avoids a second cooking cycle.',
+        en: 'Its maximum power is higher (2,470 W on Ninja models versus roughly 1,500 to 2,000 W for a single basket), but how much electricity it actually uses depends mainly on how long you cook and how many zones are switched on. Cooking two dishes at once also saves you a second cooking cycle.',
         de: 'Die Maximalleistung ist höher (2.470 W bei Ninja gegenüber etwa 1.500 bis 2.000 W beim Einzelkorb), der Verbrauch hängt aber vor allem von der Garzeit und der Zahl der aktiven Zonen ab. Wer zwei Gerichte gleichzeitig gart, spart sich zudem einen zweiten Durchgang.',
-        es: 'Su potencia máxima es mayor (2.470 W en Ninja frente a unos 1.500 a 2.000 W de una cesta única), pero el consumo depende sobre todo del tiempo de uso y de cuántas zonas están encendidas. Cocinar dos platos a la vez también evita un segundo ciclo.',
+        es: 'Su potencia máxima es mayor (2.470 W en las Ninja, frente a unos 1.500-2.000 W en una freidora de una cesta), pero el consumo depende sobre todo del tiempo de uso y de cuántas zonas enciendes. Además, cocinar dos platos a la vez te ahorra un segundo ciclo de cocción.',
         it: 'La potenza massima è più alta (2.470 W sui Ninja contro circa 1.500-2.000 W di un cestello singolo), ma il consumo dipende soprattutto dalla durata e dal numero di zone accese. Cuocere due piatti insieme evita anche un secondo ciclo di cottura.',
-        nl: 'Het maximale vermogen is hoger (2.470 W bij Ninja tegenover ongeveer 1.500 tot 2.000 W bij een enkele mand), maar het verbruik hangt vooral af van de bereidingstijd en het aantal actieve zones. Twee gerechten tegelijk bereiden bespaart bovendien een tweede kookronde.',
+        nl: 'Niet per se. Het maximale vermogen is hoger (2.470 W bij Ninja tegenover ongeveer 1.500 tot 2.000 W bij een model met één mand), maar het verbruik hangt vooral af van hoe lang je hem gebruikt en hoeveel zones er aan staan. Bovendien hoef je niet nog een keer te bakken als je twee gerechten tegelijk maakt.',
         pl: 'Ma wyższą moc maksymalną (2470 W w modelach Ninja wobec ok. 1500–2000 W w przypadku jednego koszyka), ale zużycie prądu zależy przede wszystkim od czasu pracy i liczby włączonych stref. Przygotowanie dwóch dań jednocześnie oszczędza też drugi cykl pieczenia.',
         sv: 'Den maximala effekten är högre (2 470 W hos Ninja mot ungefär 1 500–2 000 W för en modell med en korg), men förbrukningen beror främst på hur länge du kör den och hur många zoner som är i gång. Att laga två rätter samtidigt sparar dessutom en extra tillagningsomgång.',
         us: 'Its maximum power is higher (2,470 W on Ninja models vs. roughly 1,500 to 2,000 W for a single basket), but consumption mostly depends on how long you cook and how many zones are running. Cooking two dishes at once also saves you a second cooking round.',
@@ -896,11 +896,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Peut-on n’utiliser qu’un seul panier sur un airfryer double panier ?',
-        en: 'Can you use just one basket on a dual basket air fryer?',
+        en: 'Can I use just one basket on a dual basket air fryer?',
         de: 'Kann man bei einer Doppelkorb-Heißluftfritteuse nur einen Korb nutzen?',
         es: '¿Se puede usar solo una cesta en una freidora de doble cesta?',
-        it: 'Si può usare un solo cestello su una friggitrice a doppio cestello?',
-        nl: 'Kun je bij een airfryer met dubbele mand maar één mand gebruiken?',
+        it: 'In una friggitrice a doppio cestello si può usare un solo cestello?',
+        nl: 'Kun je bij een airfryer met dubbele mand ook maar één mand gebruiken?',
         pl: 'Czy we frytkownicy z dwoma koszykami można używać tylko jednego?',
         sv: 'Kan man använda bara en korg i en airfryer med två korgar?',
         us: 'Can you use just one basket on a dual-basket air fryer?',
@@ -909,10 +909,10 @@ export const article: BlogArticle = {
       answer: {
         fr: 'Oui. Chaque zone se lance indépendamment : vous pouvez n’allumer que celle dont vous avez besoin, comme sur un simple panier.',
         en: 'Yes. Each zone runs independently, so you can switch on only the one you need, just like a single basket model.',
-        de: 'Ja. Jede Zone lässt sich unabhängig starten, Sie schalten also nur die ein, die Sie brauchen, wie bei einem Einzelkorb.',
-        es: 'Sí. Cada zona funciona de forma independiente, así que puedes encender solo la que necesites, como en una cesta única.',
-        it: 'Sì. Ogni zona funziona in modo indipendente: puoi accendere solo quella che ti serve, come su un cestello singolo.',
-        nl: 'Ja. Elke zone werkt onafhankelijk, dus je zet alleen de zone aan die je nodig hebt, net als bij een enkele mand.',
+        de: 'Ja. Jede Zone lässt sich einzeln starten: Sie schalten nur die ein, die Sie brauchen, genau wie bei einem Einzelkorb-Gerät.',
+        es: 'Sí. Cada zona funciona de forma independiente, así que puedes encender solo la que necesites, como en una freidora de una sola cesta.',
+        it: 'Sì. Ogni zona si avvia in modo indipendente: puoi accendere solo quella che ti serve, come con un modello a cestello singolo.',
+        nl: 'Ja. Elke zone werkt onafhankelijk, dus je zet alleen de zone aan die je nodig hebt, net als bij een airfryer met één mand.',
         pl: 'Tak. Każdą strefę uruchamia się niezależnie, więc możesz włączyć tylko tę, której potrzebujesz – tak jak w modelu z jednym koszykiem.',
         sv: 'Ja. Varje zon startas för sig, så du kan sätta på bara den du behöver, precis som på en modell med en korg.',
         us: 'Yes. Each zone runs independently, so you can turn on only the one you need, just like a single-basket model.',
@@ -922,7 +922,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Quelle capacité choisir pour une famille de quatre personnes ?',
-        en: 'What capacity should a family of four choose?',
+        en: 'What size air fryer do I need for a family of four?',
         de: 'Welches Volumen braucht eine vierköpfige Familie?',
         es: '¿Qué capacidad elegir para una familia de cuatro personas?',
         it: 'Quale capacità scegliere per una famiglia di quattro persone?',
@@ -936,9 +936,9 @@ export const article: BlogArticle = {
         fr: 'Un simple panier d’environ 6 litres suffit pour un plat unique. Si vous voulez préparer le plat et l’accompagnement en même temps, visez un double panier de 9 à 10 litres au total, comme le Ninja Foodi MAX Double Stack XL.',
         en: 'A single basket of about 6 litres is enough for a one-dish meal. If you want to cook the main and the side at the same time, aim for a dual basket of 9 to 10 litres in total, such as the Ninja Foodi MAX Double Stack XL.',
         de: 'Für ein einzelnes Gericht genügt ein Einzelkorb mit rund 6 Litern. Wenn Hauptgericht und Beilage gleichzeitig garen sollen, wählen Sie einen Doppelkorb mit insgesamt 9 bis 10 Litern, etwa die Ninja Foodi MAX Double Stack XL.',
-        es: 'Para un plato único basta una cesta de unos 6 litros. Si quieres preparar plato y guarnición a la vez, busca una doble cesta de 9 a 10 litros en total, como la Ninja Foodi MAX Double Stack XL.',
+        es: 'Para un solo plato basta una freidora de una cesta de unos 6 litros. Si quieres preparar a la vez el plato principal y la guarnición, busca una de doble cesta con 9 o 10 litros en total, como la Ninja Foodi MAX Double Stack XL.',
         it: 'Per un piatto unico basta un cestello singolo da circa 6 litri. Se vuoi cuocere piatto e contorno insieme, punta su un doppio cestello da 9-10 litri in totale, come la Ninja Foodi MAX Double Stack XL.',
-        nl: 'Voor één gerecht volstaat een enkele mand van ongeveer 6 liter. Wil je hoofd- en bijgerecht tegelijk bereiden, kies dan een dubbele mand van 9 tot 10 liter in totaal, zoals de Ninja Foodi MAX Double Stack XL.',
+        nl: 'Voor één gerecht is een airfryer met één mand van ongeveer 6 liter genoeg. Wil je het hoofdgerecht en het bijgerecht tegelijk maken, kies dan een model met twee manden van samen 9 tot 10 liter, zoals de Ninja Foodi MAX Double Stack XL.',
         pl: 'Na jedno danie wystarczy model z jednym koszykiem o pojemności ok. 6 litrów. Jeśli chcesz jednocześnie przygotować danie główne i dodatek, wybierz model z dwoma koszykami o łącznej pojemności 9–10 litrów, np. Ninja Foodi MAX Double Stack XL.',
         sv: 'En korg på ungefär 6 liter räcker när du lagar en enda rätt. Vill du laga huvudrätt och tillbehör samtidigt passar en modell med två korgar på totalt 9–10 liter, till exempel Ninja Foodi MAX Double Stack XL.',
         us: 'A single basket of about 6.3 qt (6 L) is enough for a one-dish meal. If you want to cook a main dish and a side at the same time, aim for a dual-basket model of about 9.5 to 11 qt (9 to 10 L) in total, such as the Ninja Foodi MAX Double Stack XL.',
@@ -960,11 +960,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Non. C’est un simple panier de 6,4 litres doté de deux résistances, en haut et en bas. Il cuit de façon plus uniforme sans secouer le panier, mais ne prépare qu’un plat à la fois.',
-        en: 'No. It is a 6.4 litre single basket with two heating elements, top and bottom. It cooks more evenly without shaking, but only one dish at a time.',
-        de: 'Nein. Es ist ein Einzelkorb mit 6,4 Litern und zwei Heizelementen oben und unten. Sie gart gleichmäßiger ohne Schütteln, aber nur ein Gericht auf einmal.',
-        es: 'No. Es una cesta única de 6,4 litros con dos resistencias, arriba y abajo. Cocina de forma más uniforme sin agitar, pero solo un plato cada vez.',
-        it: 'No. È un cestello singolo da 6,4 litri con due resistenze, sopra e sotto. Cuoce in modo più uniforme senza scuotere, ma un piatto alla volta.',
-        nl: 'Nee. Het is een enkele mand van 6,4 liter met twee verwarmingselementen, boven en onder. Hij bereidt gelijkmatiger zonder schudden, maar één gerecht tegelijk.',
+        en: 'No. It’s a 6.4-litre single basket with two heating elements, top and bottom. It cooks more evenly without you having to shake the basket, but only one dish at a time.',
+        de: 'Nein. Sie hat nur einen Korb mit 6,4 Litern, dafür zwei Heizelemente, oben und unten. Sie gart gleichmäßiger, ohne dass Sie schütteln müssen, aber immer nur ein Gericht auf einmal.',
+        es: 'No. Es una freidora de una sola cesta de 6,4 litros con dos resistencias, arriba y abajo. Cocina de forma más uniforme sin necesidad de agitar la cesta, pero solo hace un plato cada vez.',
+        it: 'No. È una friggitrice a cestello singolo da 6,4 litri con due resistenze, sopra e sotto. Cuoce in modo più uniforme senza bisogno di scuotere il cestello, ma un solo piatto alla volta.',
+        nl: 'Nee. Het is een airfryer met één mand van 6,4 liter en twee verwarmingselementen, boven en onder. Hij bakt gelijkmatiger zonder dat je hoeft te schudden, maar maakt maar één gerecht tegelijk.',
         pl: 'Nie. To model z jednym koszykiem o pojemności 6,4 litra i dwiema grzałkami – górną i dolną. Piecze równomierniej i nie trzeba potrząsać koszykiem, ale naraz przygotujesz w nim tylko jedno danie.',
         sv: 'Nej. Det är en modell med en korg på 6,4 liter och två värmeelement, ett upptill och ett nertill. Den tillagar jämnare utan att du behöver skaka korgen, men bara en rätt i taget.',
         us: 'No. It’s a 6.8 qt (6.4 L) single basket with two heating elements, top and bottom. It cooks more evenly without shaking, but only one dish at a time.',
@@ -974,11 +974,11 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Double panier empilé ou côte à côte : lequel choisir ?',
-        en: 'Stacked or side-by-side dual basket: which should you choose?',
-        de: 'Gestapelter oder nebeneinanderliegender Doppelkorb: Was ist besser?',
-        es: 'Doble cesta apilada o lado a lado: ¿cuál elegir?',
+        en: 'Stacked or side-by-side dual basket: which should I choose?',
+        de: 'Doppelkorb gestapelt oder nebeneinander: Was ist besser?',
+        es: 'Doble cesta apilada o una junto a otra: ¿cuál elegir?',
         it: 'Doppio cestello sovrapposto o affiancato: quale scegliere?',
-        nl: 'Gestapelde of naast elkaar geplaatste dubbele mand: wat kies je?',
+        nl: 'Dubbele mand gestapeld of naast elkaar: wat kies je?',
         pl: 'Koszyki jeden nad drugim czy obok siebie: który układ wybrać?',
         sv: 'Staplade korgar eller korgar sida vid sida: vilket ska du välja?',
         us: 'Stacked or side-by-side dual basket: which should you buy?',
@@ -986,11 +986,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Un modèle empilé comme le Double Stack XL prend beaucoup moins de largeur, mais il est plus haut : vérifiez l’espace sous vos meubles. Un modèle côte à côte comme l’AF400 est plus bas mais occupe nettement plus de plan de travail.',
-        en: 'A stacked model such as the Double Stack XL takes up far less width but is taller, so check the space under your cabinets. A side-by-side model such as the AF400 is lower but uses much more worktop.',
-        de: 'Ein gestapeltes Modell wie die Double Stack XL braucht deutlich weniger Breite, ist aber höher, prüfen Sie also den Platz unter den Hängeschränken. Ein Modell nebeneinander wie die AF400 ist niedriger, belegt aber viel mehr Arbeitsfläche.',
-        es: 'Un modelo apilado como la Double Stack XL ocupa mucho menos ancho, pero es más alto: comprueba el hueco bajo los muebles. Uno lado a lado como la AF400 es más bajo, pero ocupa bastante más encimera.',
-        it: 'Un modello sovrapposto come la Double Stack XL occupa molta meno larghezza ma è più alto: verifica lo spazio sotto i pensili. Un modello affiancato come la AF400 è più basso ma occupa molto più piano di lavoro.',
-        nl: 'Een gestapeld model zoals de Double Stack XL neemt veel minder breedte in, maar is hoger: controleer de ruimte onder je kastjes. Een model naast elkaar zoals de AF400 is lager, maar neemt veel meer aanrecht in beslag.',
+        en: 'A stacked model such as the Double Stack XL takes up far less width but is taller, so check the space under your wall units. A side-by-side model such as the AF400 is lower but takes up much more of your worktop.',
+        de: 'Ein gestapeltes Modell wie die Double Stack XL braucht deutlich weniger Breite, ist aber höher: Prüfen Sie also den Platz unter den Hängeschränken. Ein Modell mit Körben nebeneinander wie die AF400 ist niedriger, belegt aber deutlich mehr Arbeitsfläche.',
+        es: 'Un modelo apilado como la Double Stack XL ocupa mucho menos a lo ancho, pero es más alto: comprueba el hueco que queda bajo los muebles altos. Uno con las cestas una junto a otra, como la AF400, es más bajo, pero ocupa bastante más encimera.',
+        it: 'Un modello sovrapposto come la Double Stack XL è molto meno largo ma più alto: controlla lo spazio sotto i pensili. Un modello affiancato come l’AF400 è più basso ma occupa molto più piano di lavoro.',
+        nl: 'Een gestapeld model zoals de Double Stack XL neemt veel minder breedte in, maar is hoger: controleer dus de ruimte onder je bovenkastjes. Een model met de manden naast elkaar, zoals de AF400, is lager, maar neemt veel meer ruimte op het aanrecht in.',
         pl: 'Model piętrowy, taki jak Double Stack XL, jest znacznie węższy, ale wyższy, więc sprawdź, ile miejsca masz pod szafkami. Model z koszykami obok siebie, np. AF400, jest niższy, ale zajmuje wyraźnie więcej blatu.',
         sv: 'En staplad modell som Double Stack XL tar mycket mindre plats på bredden men är högre, så mät utrymmet under överskåpen. En modell med korgarna sida vid sida, som AF400, är lägre men tar betydligt mer bänkyta.',
         us: 'A stacked model such as the Double Stack XL takes up far less width but is taller, so check the space under your cabinets. A side-by-side model such as the AF400 is shorter but takes up much more counter space.',
@@ -1000,7 +1000,7 @@ export const article: BlogArticle = {
     {
       question: {
         fr: 'Les paniers passent-ils au lave-vaisselle ?',
-        en: 'Are the baskets dishwasher safe?',
+        en: 'Can the baskets go in the dishwasher?',
         de: 'Sind die Körbe spülmaschinenfest?',
         es: '¿Las cestas se pueden meter en el lavavajillas?',
         it: 'I cestelli vanno in lavastoviglie?',
@@ -1012,11 +1012,11 @@ export const article: BlogArticle = {
       },
       answer: {
         fr: 'Sur la plupart des modèles présentés ici, oui selon les fabricants, mais vérifiez la notice de votre appareil. Un lavage à la main avec une éponge douce prolonge la durée de vie du revêtement antiadhésif.',
-        en: 'On most models listed here, yes according to the manufacturers, but check your appliance’s manual. Hand washing with a soft sponge extends the life of the non-stick coating.',
+        en: 'On most of the models listed here, yes, according to the manufacturers, but check your appliance’s manual. Washing by hand with a soft sponge makes the non-stick coating last longer.',
         de: 'Bei den meisten hier vorgestellten Modellen laut Hersteller ja, prüfen Sie aber die Anleitung Ihres Geräts. Handwäsche mit einem weichen Schwamm verlängert die Lebensdauer der Antihaftbeschichtung.',
-        es: 'En la mayoría de los modelos de esta lista sí, según los fabricantes, pero revisa el manual de tu aparato. Lavarlas a mano con una esponja suave alarga la vida del antiadherente.',
-        it: 'Sulla maggior parte dei modelli presentati sì, secondo i produttori, ma controlla il manuale del tuo apparecchio. Il lavaggio a mano con una spugna morbida allunga la vita del rivestimento antiaderente.',
-        nl: 'Bij de meeste modellen in dit overzicht wel, volgens de fabrikanten, maar controleer de handleiding van je apparaat. Met de hand afwassen met een zachte spons verlengt de levensduur van de antiaanbaklaag.',
+        es: 'En la mayoría de los modelos que comentamos, sí, según los fabricantes, pero revisa el manual de tu aparato. Si las lavas a mano con una esponja suave, el antiadherente dura más.',
+        it: 'Per la maggior parte dei modelli presentati qui sì, secondo i produttori, ma controlla il manuale del tuo apparecchio. Lavarli a mano con una spugna morbida allunga la vita del rivestimento antiaderente.',
+        nl: 'Ja, volgens de fabrikanten kan dat bij de meeste modellen in dit overzicht, maar kijk voor de zekerheid in de handleiding van je apparaat. Was je ze met de hand af met een zachte spons, dan gaat de antiaanbaklaag langer mee.',
         pl: 'Według producentów większość przedstawionych tu modeli można myć w zmywarce, ale sprawdź to w instrukcji swojego urządzenia. Mycie ręczne miękką gąbką przedłuża żywotność powłoki nieprzywierającej.',
         sv: 'Ja, enligt tillverkarna tål korgarna diskmaskin på de flesta modellerna i den här guiden, men kontrollera i bruksanvisningen till din apparat. Handdisk med en mjuk svamp gör att non-stick-beläggningen håller längre.',
         us: 'On most models listed here, yes, according to the manufacturers, but check your appliance’s manual. Hand washing with a soft sponge extends the life of the nonstick coating.',
