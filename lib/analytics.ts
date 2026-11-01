@@ -17,8 +17,15 @@
  */
 
 import { track as trackVercel } from '@vercel/analytics'
-import { amazonMarketplace } from '@/lib/amazon'
-import { CLICK_ENDPOINT, marketplaceOf, type AffiliateClick, type ClickSurface } from '@/lib/affiliate-click'
+import { amazonMarket } from '@/lib/amazon'
+import {
+  CLICK_ENDPOINT,
+  storeOf,
+  tagOf,
+  type AffiliateClickBeacon,
+  type ClickPlacement,
+  type ClickSurface,
+} from '@/lib/affiliate-click'
 import { resolveLang } from '@/lib/i18n'
 
 export const EVENTS = {
@@ -42,12 +49,20 @@ export type EventProps = Record<string, string | number | boolean | undefined>
 export const VERCEL_MAX_PROPERTIES = 2
 
 /**
- * The properties sent to Vercel Web Analytics, per event. Page and language
- * are already in the event's request path (/fr/…), so they are left out.
- * Never free text typed by the reader (the search query stays out).
+ * The properties sent to Vercel Web Analytics, per event. Never free text
+ * typed by the reader (the search query stays out).
+ *
+ * click_affiliate sends `placement` and `market`, the two questions the
+ * click data has to answer: which blocks earn, and in which market. The
+ * page is already in the event's request path, but Vercel groups events by
+ * route (/[lang]/blog/[slug]), which merges the ten language versions, so
+ * the market needs its own property. The store and the tracking ID follow
+ * from the market (lib/amazon.ts), and the model name is too varied for a
+ * 2-property plan: those stay in the /api/click log line, which has every
+ * field (README.md, "Clics affiliés").
  */
 export const VERCEL_PROPERTIES: { readonly [E in EventName]: readonly string[] } = {
-  click_affiliate: ['location', 'merchant'],
+  click_affiliate: ['placement', 'market'],
   newsletter_submit: [],
   newsletter_success: [],
   newsletter_error: ['reason'],
@@ -120,9 +135,10 @@ export function trackEvent(event: EventName, props: EventProps = {}): void {
  * Convenience helper — track an affiliate click with the canonical
  * property shape. Keeps every call site consistent.
  *
- * With a `surface`, the click is also sent to the first-party beacon
- * (/api/click), the only click record that works without GA4, Plausible
- * or Vercel Pro.
+ * Every click is also sent to the first-party beacon (/api/click), the
+ * only full click record: placement, page, model, and the store and
+ * tracking ID read from the link itself (the reader's market when the
+ * link names neither).
  */
 export function trackAffiliateClick(input: {
   asin: string
@@ -131,31 +147,38 @@ export function trackAffiliateClick(input: {
   position?: number
   location: 'comparison_table' | 'article_inline' | 'article_table' | 'article_bottom' | 'article_sticky' | 'article_models' | 'article_quick_answer' | 'category_picks' | 'comparator' | 'product_card' | 'smart_kitchen'
   lang: string
+  /** Block of the page the link sits in (lib/affiliate-click.ts). */
+  placement: ClickPlacement
+  /** Position on an article page, kept for continuity with the logs before placements. */
   surface?: ClickSurface
-  /** Outbound URL, to record which Amazon store the click went to. */
-  url?: string
+  /** Outbound URL: the store and tracking ID of the click are read from it. */
+  url: string
 }): void {
-  // The link's own store; without a URL, the store the reader's language links to.
-  const marketplace = (input.url && marketplaceOf(input.url)) || amazonMarketplace(resolveLang(input.lang))
+  const market = amazonMarket(resolveLang(input.lang))
+  const store = storeOf(input.url) ?? market.marketplace
+  const tag = tagOf(input.url) ?? market.tag
   trackEvent(EVENTS.CLICK_AFFILIATE, {
     asin: input.asin,
     product_name: input.productName,
     price: input.priceNumeric,
     position: input.position,
     location: input.location,
+    placement: input.placement,
     surface: input.surface,
     lang: input.lang,
-    merchant: marketplace,
+    market: market.market,
+    merchant: store,
   })
-  if (input.surface && typeof window !== 'undefined') {
-    sendClickBeacon({
-      path: window.location?.pathname ?? '/',
-      lang: input.lang,
-      surface: input.surface,
-      model: input.productName,
-      marketplace,
-    })
-  }
+  if (typeof window === 'undefined') return
+  sendClickBeacon({
+    path: window.location?.pathname ?? '/',
+    lang: input.lang,
+    placement: input.placement,
+    surface: input.surface,
+    model: input.productName,
+    store,
+    tag,
+  })
 }
 
 /**
@@ -163,7 +186,7 @@ export function trackAffiliateClick(input: {
  * click starts; keepalive fetch is the fallback. Never throws: analytics
  * must not block the reader on the way to Amazon.
  */
-export function sendClickBeacon(click: AffiliateClick): void {
+export function sendClickBeacon(click: AffiliateClickBeacon): void {
   try {
     const body = JSON.stringify(click)
     if (typeof navigator !== 'undefined' && typeof navigator.sendBeacon === 'function') {

@@ -271,7 +271,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         {quickAnswer && (
           <>
             <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(quickAnswerSchema) }} />
-            <QuickAnswer question={quickAnswer.question} picks={quickAnswer.picks} lang={lang} />
+            <QuickAnswer question={quickAnswer.question} picks={quickAnswer.picks} lang={lang} placement="quick_answer" />
           </>
         )}
         {availabilityNotice && <MarketAvailabilityNotice text={availabilityNotice} />}

@@ -56,6 +56,7 @@ describe('enrichArticleHtml: in-text CTAs', () => {
     expect(cta).toContain('rel="sponsored nofollow noopener noreferrer"')
     expect(cta).toContain('target="_blank"')
     expect(cta).toContain('data-aff-surface="inline"')
+    expect(cta).toContain('data-aff-placement="body_link"')
     expect(cta).toContain('Amazon-Affiliate-Link')
     expect(cta).toContain('Preis auf Amazon prüfen')
   })
@@ -87,6 +88,12 @@ describe('enrichArticleHtml: comparison tables', () => {
     expect(tableModels(html)).toEqual(['Levoit Core 300S', 'Philips AC2939/10'])
     expect(html).toContain('<td><a href=')
     expect(html).toContain('data-aff-asin="B000000001"')
+  })
+
+  it('tags table links with the table placement', () => {
+    const links = [...html.matchAll(/<a [^>]*>/g)].map((m) => m[0])
+    expect(links).toHaveLength(2)
+    for (const link of links) expect(link).toContain('data-aff-placement="table"')
   })
 
   it('leaves sentences, unknown models and cells naming two models unlinked', () => {

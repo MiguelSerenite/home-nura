@@ -52,6 +52,9 @@ export const SNAPSHOT_CATEGORIES: readonly string[] = [
 ]
 
 const sha = (text: string) => createHash('sha256').update(text).digest('hex').slice(0, 16)
+// Click-tracking attribute added to in-article links on 01/11/2026: not
+// something readers see, left out so the fixture keeps its original hashes.
+const withoutClickPlacement = (html: string) => html.replace(/ data-aff-placement="[^"]*"/g, '')
 const link = (p: { model?: string; name?: string; title?: string; url: string; photo?: { id: string; alt: string } }) =>
   [p.model ?? p.name ?? p.title, p.url, p.photo ? `${p.photo.id} ${p.photo.alt}` : '-'].join(' | ')
 
@@ -74,7 +77,7 @@ export function euSnapshot(): Record<string, unknown> {
                 recommendations:
                   rec === null ? null : rec.kind === 'catalog' ? rec.products.map((p) => link(p)) : rec.models.map((m) => link(m)),
                 bodyModels: models.map((m) => [m.name, m.label, m.url, m.asin ?? '-', m.cited].join(' | ')),
-                bodyHtml: sha(enrichArticleHtml(article.content[lang] ?? '', models, lang)),
+                bodyHtml: sha(withoutClickPlacement(enrichArticleHtml(article.content[lang] ?? '', models, lang))),
               },
             ]
           }),

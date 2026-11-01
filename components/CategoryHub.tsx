@@ -292,6 +292,7 @@ export default async function CategoryHub({
               picks={picks}
               lang={safeLang}
               kicker={ui.picksKicker}
+              placement="picks"
               location="category_picks"
             />
           </div>

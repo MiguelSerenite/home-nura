@@ -490,6 +490,7 @@ export default async function ProblemGuidePage({
                   question={ui.buyBoxQuestion(categoryTitle)}
                   picks={buyBox.picks}
                   lang={safeLang}
+                  placement="picks"
                   location="category_picks"
                   surface="problem_picks"
                 />

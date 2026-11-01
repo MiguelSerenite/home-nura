@@ -54,6 +54,7 @@ function PickCard({ market, guide, pick, position, buyLabel }: Omit<PickCardsPro
               productName={name}
               position={position}
               location="category_picks"
+              placement="floor_care"
               surface="floor_care"
               lang={market}
               ariaLabel={`${buyLabel}: ${name}`}

@@ -12,8 +12,8 @@ describe('trackEvent → Vercel Web Analytics', () => {
   })
 
   it('forwards only the listed properties that are defined', () => {
-    trackEvent(EVENTS.CLICK_AFFILIATE, { asin: 'B0TEST', lang: 'fr', location: 'article_inline', merchant: undefined })
-    expect(track).toHaveBeenCalledWith(EVENTS.CLICK_AFFILIATE, { location: 'article_inline' })
+    trackEvent(EVENTS.CLICK_AFFILIATE, { asin: 'B0TEST', lang: 'fr', location: 'article_inline', placement: 'body_link', market: undefined })
+    expect(track).toHaveBeenCalledWith(EVENTS.CLICK_AFFILIATE, { placement: 'body_link' })
   })
 
   it('stays within the Pro plan property limit for every event', () => {
@@ -27,15 +27,18 @@ describe('trackEvent → Vercel Web Analytics', () => {
     expect(track).toHaveBeenCalledWith(EVENTS.SEARCH_QUERY, { results: 0 })
   })
 
-  it('records an affiliate click with its location and merchant', () => {
+  it('records an affiliate click with its placement and market, the two questions the click report answers', () => {
+    vi.stubGlobal('navigator', { sendBeacon: () => true })
     trackAffiliateClick({
       asin: 'B0TEST',
       productName: 'Airfryer X',
       location: 'article_sticky',
-      lang: 'de',
-      url: 'https://www.amazon.fr/dp/B0TEST?tag=x-21',
+      placement: 'sticky_bar',
+      surface: 'sticky',
+      lang: 'sv',
+      url: 'https://www.amazon.fr/dp/B0TEST',
     })
-    expect(track).toHaveBeenCalledWith(EVENTS.CLICK_AFFILIATE, { location: 'article_sticky', merchant: 'amazon.fr' })
+    expect(track).toHaveBeenCalledWith(EVENTS.CLICK_AFFILIATE, { placement: 'sticky_bar', market: 'se' })
   })
 
   it('never lets an analytics failure break the click', () => {

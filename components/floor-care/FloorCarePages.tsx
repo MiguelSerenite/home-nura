@@ -112,6 +112,7 @@ function NeedCards({ market, buyLabel }: { market: FloorCareMarketData; buyLabel
                       productName={pickName(pick)}
                       position={i + 1}
                       location="category_picks"
+                      placement="floor_care"
                       surface="floor_care"
                       lang={hub.market}
                       ariaLabel={`${buyLabel}: ${pickName(pick)}`}

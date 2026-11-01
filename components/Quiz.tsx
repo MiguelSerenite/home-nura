@@ -1,10 +1,14 @@
 'use client'
 
 import { useMemo, useState } from 'react'
+import type { ClickPlacement } from '@/lib/affiliate-click'
 import { trackAffiliateClick, trackEvent, EVENTS } from '@/lib/analytics'
 import type { ProductVisualData } from '@/lib/product-visual'
 import AmazonDisclosure from './AmazonDisclosure'
 import ProductVisual from './ProductVisual'
+
+/** The product the quiz recommends. */
+const PLACEMENT: ClickPlacement = 'quiz'
 
 interface QuizProduct {
   asin: string
@@ -880,6 +884,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                       href={recommendation.url}
                       target="_blank"
                       rel="sponsored nofollow noopener noreferrer"
+                      data-aff-placement={PLACEMENT}
                       onClick={() =>
                         trackAffiliateClick({
                           asin: recommendation.asin,
@@ -888,6 +893,8 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                           position: 1,
                           location: 'article_inline',
                           lang: currentLang,
+                          placement: PLACEMENT,
+                          url: recommendation.url,
                         })
                       }
                       className="block w-full rounded-full bg-brand-600 px-5 py-3 text-sm font-bold text-white hover:bg-brand-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2"
