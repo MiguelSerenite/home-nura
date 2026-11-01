@@ -7,6 +7,7 @@ import { Kicker, SectionHero, SiteFooter, Button } from '@/components/ui'
 import { resolveLang } from '@/lib/i18n'
 import FaqSection from '@/components/FaqSection'
 import { getSiloFaq, SILO_FAQ_TITLE } from '@/lib/catalog/silo-faqs'
+import { categoryPath, getPartiallyIndexableCategories, isCategoryIndexableIn } from '@/lib/catalog'
 import { ChevronRight } from 'lucide-react'
 
 
@@ -391,15 +392,24 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
     { name: c.breadcrumb, path: '/cuisine-connectee' },
   ])
 
+  // The catalog's kitchen categories indexed in this market only (robot
+  // cookers in fr, de, es, it, pl), after the product categories.
+  const cards = [
+    ...SMART_KITCHEN_CATEGORIES.map((slug) => ({ slug, path: `/cuisine-connectee/${slug}`, ...c.categories[slug] })),
+    ...getPartiallyIndexableCategories()
+      .filter((cat) => cat.metaSilo === 'cuisine-connectee' && isCategoryIndexableIn(cat, safeLang))
+      .map((cat) => ({ slug: cat.slug, path: categoryPath(cat), name: cat.title[safeLang], tagline: cat.description[safeLang] })),
+  ]
+
   const itemListSchema = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     name: c.title,
-    itemListElement: SMART_KITCHEN_CATEGORIES.map((slug, index) => ({
+    itemListElement: cards.map((card, index) => ({
       '@type': 'ListItem',
       position: index + 1,
-      name: c.categories[slug].name,
-      url: `https://homenura.com/${safeLang}/cuisine-connectee/${slug}`,
+      name: card.name,
+      url: `https://homenura.com/${safeLang}${card.path}`,
     })),
   }
 
@@ -447,12 +457,11 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {SMART_KITCHEN_CATEGORIES.map((slug, index) => {
-            const cat = c.categories[slug]
+          {cards.map((cat, index) => {
             return (
               <Link
-                key={slug}
-                href={`/${safeLang}/cuisine-connectee/${slug}`}
+                key={cat.slug}
+                href={`/${safeLang}${cat.path}`}
                 className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1 hover:border-brand-200"
               >
                 <Kicker size="sm" className="mb-3">

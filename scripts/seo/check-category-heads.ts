@@ -5,7 +5,7 @@
  */
 import { CATEGORY_HEADS, HEAD_LOCALES, type HeadLocale } from '@/lib/catalog/category-heads'
 import { checkCategoryHead } from '@/lib/catalog/category-heads/quality'
-import { getCategory, getIndexableCategories } from '@/lib/catalog'
+import { getCategoriesIndexableIn, getCategory, getIndexableCategories } from '@/lib/catalog'
 
 const only = process.argv[2] as HeadLocale | undefined
 const locales = only ? [only] : HEAD_LOCALES
@@ -13,7 +13,8 @@ const indexable = getIndexableCategories().map((c) => c.slug)
 const errors: string[] = []
 for (const locale of locales) {
   const heads = CATEGORY_HEADS[locale]
-  for (const slug of indexable) if (!heads[slug]) errors.push(`${locale}/${slug}: missing`)
+  // Every category this locale indexes (all locales, or `indexableIn`).
+  for (const { slug } of getCategoriesIndexableIn(locale)) if (!heads[slug]) errors.push(`${locale}/${slug}: missing`)
   for (const [slug, head] of Object.entries(heads)) {
     if (!getCategory(slug)) errors.push(`${locale}/${slug}: unknown category slug`)
     errors.push(...checkCategoryHead(`${locale}/${slug}`, head))

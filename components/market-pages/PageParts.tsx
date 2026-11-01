@@ -1,15 +1,13 @@
 import Link from 'next/link'
 import { ChevronRight, ExternalLink } from 'lucide-react'
-import AuthorByline from '@/components/AuthorByline'
+import { AnswerBox as AnswerBlock, DateLine, RankingBox } from '@/components/answer-first/Parts'
 import RichText from '@/components/RichText'
 import Kicker from '@/components/ui/Kicker'
-import { BCP47_LOCALE } from '@/lib/i18n'
 import type { RelatedLink } from '@/lib/market-pages/data'
 import { boxedSectionIndexes, rankingSectionIndex, testersSectionIndex } from '@/lib/market-pages/template-sections'
 import { marketPageBreadcrumbs, marketPageSchemas } from '@/lib/market-pages/schema'
 import type { MarketPage } from '@/lib/market-pages/types'
 import { MARKET_PAGE_UI } from '@/lib/market-pages/ui'
-import { formatLastUpdated, lastUpdatedLabel } from '@/lib/seo'
 
 const H2 = 'text-xl font-bold tracking-tight text-slate-900 md:text-3xl'
 
@@ -52,69 +50,25 @@ export function PageHeader({ page }: { page: MarketPage }) {
         <Kicker>{page.kicker}</Kicker>
       </div>
       <h1 className="mt-2 text-2xl font-bold leading-tight tracking-tight text-slate-900 md:mt-3 md:text-5xl">{page.h1}</h1>
-      <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-slate-500">
-        <time dateTime={page.updated}>
-          {lastUpdatedLabel[page.locale]} {formatLastUpdated(page.locale, page.updated)}
-        </time>
-        <span aria-hidden="true">·</span>
-        <AuthorByline lang={page.locale} />
-      </div>
+      <DateLine lang={page.locale} iso={page.updated} />
     </header>
   )
 }
 
 /** The answer first: 40 to 70 words that settle the reader's question. */
 export function AnswerBox({ page }: { page: MarketPage }) {
-  const ui = MARKET_PAGE_UI[page.locale]
-  return (
-    <section id="answer" aria-labelledby="answer-title" className="mx-auto max-w-3xl px-4 pt-4 md:px-6 md:pt-8">
-      <div className="rounded-2xl border border-brand-100 bg-brand-50/60 px-4 py-3 md:p-6">
-        <h2 id="answer-title" className="text-xs font-bold uppercase tracking-widest text-brand-700">
-          {ui.answerTitle}
-        </h2>
-        <p className="mt-1.5 text-[15px] leading-relaxed text-slate-800 md:mt-2 md:text-[17px]">{page.answer}</p>
-      </div>
-    </section>
-  )
+  return <AnswerBlock title={MARKET_PAGE_UI[page.locale].answerTitle} answer={page.answer} />
 }
 
 /** "Why this ranking": the weighted product criteria, the writer's own explanation, and how we compare. */
 export function Ranking({ page }: { page: MarketPage }) {
   if (page.criteria.length === 0) return null
   const ui = MARKET_PAGE_UI[page.locale]
-  const percent = new Intl.NumberFormat(BCP47_LOCALE[page.locale], { style: 'percent' })
   const explanation = page.sections[rankingSectionIndex(page)]
   return (
-    <section id="ranking" aria-labelledby="ranking-title" className="mx-auto max-w-3xl scroll-mt-24 px-4 py-8 md:px-6 md:py-12">
-      <h2 id="ranking-title" className={H2}>
-        {ui.rankingTitle}
-      </h2>
-      <p className="mt-3 text-sm leading-relaxed text-slate-600">{ui.rankingIntro}</p>
-      <ol className="mt-5 space-y-5">
-        {page.criteria.map((criterion) => (
-          <li key={criterion.name}>
-            <div className="flex items-baseline justify-between gap-4">
-              <span className="font-semibold text-slate-900">{criterion.name}</span>
-              <span className="shrink-0 text-sm font-bold tabular-nums text-brand-700">{percent.format(criterion.weight / 100)}</span>
-            </div>
-            <div className="mt-1.5 h-1.5 rounded-full bg-slate-100" aria-hidden="true">
-              <div className="h-1.5 rounded-full bg-brand-600" style={{ width: `${criterion.weight}%` }} />
-            </div>
-            <p className="mt-2 text-sm leading-relaxed text-slate-600">{criterion.explanation}</p>
-          </li>
-        ))}
-      </ol>
-      {explanation && (
-        <div className="mt-6">
-          <RichText blocks={explanation.blocks} />
-        </div>
-      )}
-      <p className="mt-5">
-        <Link href={`/${page.locale}/methodologie`} className="text-sm font-semibold text-brand-700 underline-offset-2 hover:text-brand-800 hover:underline">
-          {ui.methodologyLink} →
-        </Link>
-      </p>
-    </section>
+    <RankingBox lang={page.locale} title={ui.rankingTitle} intro={ui.rankingIntro} criteria={page.criteria} methodologyLabel={ui.methodologyLink}>
+      {explanation && <RichText blocks={explanation.blocks} />}
+    </RankingBox>
   )
 }
 

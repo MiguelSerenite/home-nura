@@ -810,7 +810,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     title: `${head?.title ?? dict.guide_title} | Home Nura`,
     description: head?.description ?? dict.guide_subtitle,
     type: 'article',
-    modifiedTime: `${categoryModifiedIso(GUIDE_CATEGORY, SITE_LAST_UPDATED_ISO)}T00:00:00Z`,
+    modifiedTime: `${categoryModifiedIso(GUIDE_CATEGORY, SITE_LAST_UPDATED_ISO, safeLang)}T00:00:00Z`,
   })
 }
 
@@ -851,7 +851,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
 
   const head = getCategoryHead(GUIDE_CATEGORY, lang)
   const faqs = getCategorySpecificFaq(GUIDE_CATEGORY, lang) ?? dict.faq
-  const modifiedIso = categoryModifiedIso(GUIDE_CATEGORY, SITE_LAST_UPDATED_ISO)
+  const modifiedIso = categoryModifiedIso(GUIDE_CATEGORY, SITE_LAST_UPDATED_ISO, lang)
   const lastUpdatedText = `${lastUpdatedLabel[lang] ?? lastUpdatedLabel.fr} ${formatLastUpdated(lang, modifiedIso)}`
 
   // Comparison table product mapping

@@ -71,8 +71,15 @@ export interface Category {
   primaryKeyword: Record<Lang, string>
   /** Internal estimate of search volume — influences internal link priority. */
   searchVolume: SearchVolume
-  /** False until the category has ≥ 12 pages of real content. */
+  /** False until the category has ≥ 12 pages of real content. True: indexed in every locale. */
   indexable: boolean
+  /**
+   * Locales whose hub is indexed although `indexable` is false: a category
+   * some markets search for and others do not (study § 2.6.1, "activer et
+   * indexer une catégorie pour certains marchés seulement"). Every other
+   * locale keeps no page, no sitemap entry and no link to it.
+   */
+  indexableIn?: readonly Lang[]
   /** Optional: categories we treat as "review only" (no affiliate push). */
   reviewOnly?: boolean
 }

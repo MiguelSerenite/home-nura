@@ -1,0 +1,336 @@
+{
+  "locale": "es",
+  "type": "duel",
+  "slug": "conga-o-roomba",
+  "updated": "2026-11-01",
+  "metaTitle": "Conga o Roomba: cuál es mejor en 2026 y qué dice la OCU",
+  "metaDescription": "Conga X100 o Roomba Plus 515 Combo: aspirado, fregado, base, altura, autonomía y garantía, con datos de Cecotec, iRobot y la OCU. Cuál te conviene más.",
+  "kicker": "Duelo · Robots aspirador y fregasuelos",
+  "h1": "Conga o Roomba: Conga X100 frente a Roomba Plus 515 Combo, ¿cuál comprar?",
+  "answer": "En la misma gama, la Roomba Plus 515 Combo gana por poco a la Conga X100, 81 a 78 según nuestros criterios: es más baja (8,35 cm frente a 11), aguanta más por carga (295 minutos frente a 220) y se maneja con Alexa, Siri o Google. Elige la Conga si quieres una cámara que reconozca objetos y vigile la casa, y un cepillo que corta el pelo.",
+  "picks": [
+    {
+      "brand": "iRobot",
+      "model": "Roomba Plus 515 Combo",
+      "role": "Nuestra elección, por poco",
+      "why": "Es la más baja del duelo, 8,35 cm, así que entra bajo más sofás y camas, e iRobot le atribuye la mayor autonomía: hasta 295 minutos y 185 m² por carga. Su base AutoWash vacía el polvo, lava las mopas a 75 °C, las seca con aire caliente a 45 °C y rellena el agua, y el robot se maneja también con Alexa, Siri o el Asistente de Google.",
+      "bestFor": "Pisos grandes o de dos plantas con muebles bajos, y casas que ya usan un asistente de voz.",
+      "asin": "B0GXWW96HL",
+      "manufacturerUrl": "https://www.irobot.es/es_ES/roomba-plus-515-combo/N285040.html",
+      "specs": {
+        "Versión y color": "robot + base AutoWash; negro (ref. N285040) en la tienda de iRobot España; la ficha de Amazon enlazada corresponde a la versión blanca",
+        "Navegación": "LiDAR ClearView, de día o a oscuras",
+        "Mapas": "hasta 3, también en varias plantas",
+        "Succión": "22.000 Pa, 4 niveles; Carpet Boost en alfombras mullidas",
+        "Fregado": "2 mopas giratorias DualClean a 180 rpm; modo SmartScrub con el doble de presión que el modo estándar, según iRobot",
+        "Elevación de mopas en alfombras": "10 mm",
+        "Esquinas y rodapiés": "mopa y cepillo extensibles PerfectEdge",
+        "Base AutoWash": "vacía el polvo en bolsa AllergenLock, lava las mopas a 75 °C, las seca con aire caliente a 45 °C y rellena el agua del robot",
+        "Autonomía de la base": "hasta 3 meses sin vaciar depósitos",
+        "Autonomía del robot": "hasta 295 min; hasta 185 m² por carga",
+        "Obstáculos": "esquiva cables, zapatos, cuencos de mascotas, juguetes y el desorden del día a día; sensores anticaída para escaleras",
+        "Medidas del robot (largo × ancho × alto)": "29,8 × 30,3 × 8,35 cm",
+        "Peso del robot": "2,9 kg",
+        "Medidas de la base (largo × ancho × alto)": "33 × 34 × 48,5 cm",
+        "App y voz": "Roomba Home; Alexa, Siri y Asistente de Google",
+        "En la caja": "robot, base AutoWash, 2 pares de mopas DualClean, cepillo para esquinas y bordes, 2 bolsas AllergenLock",
+        "Garantía": "garantía limitada de iRobot de 2 años, sin la batería; iRobot declara aplicar la garantía legal de 3 años a compras desde el 1/1/2022",
+        "Lanzamiento en España": "anunciado por Alimarket el 1/7/2026"
+      }
+    },
+    {
+      "brand": "Cecotec",
+      "model": "Conga X100",
+      "role": "La alternativa con cámara, de marca española",
+      "why": "Es la única del duelo con cámara: según Cecotec, su inteligencia artificial identifica objetos pequeños, líquidos y suciedad, y con VideoManager ves la casa desde la app. Su base desinfecta las mopas con agua a 70 °C, las seca con aire caliente y rellena el robot; el cepillo HairCut corta el pelo enredado y Cecotec indica 3 años de garantía en España.",
+      "bestFor": "Casas con perro o gato de pelo largo, suelos con cables o calcetines a la vista y quien quiere vigilar la casa desde el móvil.",
+      "asin": "B0FL2KCMV7",
+      "manufacturerUrl": "https://cecotec.es/es/robots-aspiradores/conga-x100/",
+      "specs": {
+        "Referencia": "A01_EU01_114479 (no confundir con la Conga X100 X-Treme, que tiene ficha propia)",
+        "Navegación": "láser con inteligencia artificial (AI Pro) y cámara; mapas memorizados",
+        "Succión": "20.000 Pa (motor Ungravity)",
+        "Fregado": "2 mopas giratorias (sistema Spin)",
+        "Elevación de mopas en alfombras": "sí, con SpinUp; altura no indicada",
+        "Esquinas y rodapiés": "mopa extensible SpinXtend y cepillo lateral extensible BrushXtend",
+        "Cepillo central": "HairCut Brush, que corta el pelo y lo aspira",
+        "Base All-in Home": "autovaciado de polvo, lavado y desinfección de mopas con agua a 70 °C, secado con aire caliente y rellenado del depósito del robot; 2 tanques (agua limpia y sucia)",
+        "Autonomía de la base": "autovaciado de hasta 12 semanas, según el uso",
+        "Autonomía del robot": "220 min; hasta 180 m² por carga",
+        "Obstáculos": "identifica objetos pequeños, líquidos, suelos y suciedad; ruedas HopWheel que superan obstáculos de hasta 30 mm",
+        "Altura del robot": "11 cm",
+        "Medidas y peso": "Cecotec no los publica en la ficha",
+        "Cámara": "sí; VideoManager para ver la casa desde la app",
+        "App": "App 3.0 con mapa interactivo y programación por habitaciones; wifi",
+        "En la caja": "robot, base de autovaciado con 2 tanques, bolsa de polvo, cepillo lateral, 2 mopas giratorias, cable, cepillo de limpieza y manual",
+        "Garantía": "3 años en España"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Característica",
+      "Roomba Plus 515 Combo",
+      "Conga X100"
+    ],
+    "rows": [
+      [
+        "Altura del robot",
+        "8,35 cm",
+        "11 cm"
+      ],
+      [
+        "Navegación",
+        "LiDAR ClearView",
+        "Láser con IA y cámara"
+      ],
+      [
+        "Reconocimiento de obstáculos",
+        "Esquiva cables, zapatos, juguetes y cuencos de mascotas",
+        "Cámara con IA: objetos pequeños, líquidos, suelos y suciedad"
+      ],
+      [
+        "Desniveles que supera",
+        "No indicado",
+        "Hasta 30 mm"
+      ],
+      [
+        "Succión declarada",
+        "22.000 Pa",
+        "20.000 Pa"
+      ],
+      [
+        "Autonomía por carga",
+        "Hasta 295 min y 185 m²",
+        "220 min y hasta 180 m²"
+      ],
+      [
+        "Mopas",
+        "2 giratorias a 180 rpm; se elevan 10 mm en alfombras",
+        "2 giratorias; se elevan en alfombras (altura no indicada)"
+      ],
+      [
+        "Esquinas",
+        "Mopa y cepillo extensibles (PerfectEdge)",
+        "Mopa y cepillo extensibles (SpinXtend, BrushXtend)"
+      ],
+      [
+        "Lavado de mopas en la base",
+        "A 75 °C",
+        "Desinfección con agua a 70 °C"
+      ],
+      [
+        "Secado de mopas",
+        "Aire caliente a 45 °C",
+        "Aire caliente (temperatura no indicada)"
+      ],
+      [
+        "Autovaciado sin tocar la bolsa",
+        "Hasta 3 meses",
+        "Hasta 12 semanas"
+      ],
+      [
+        "Mapas",
+        "Hasta 3, en varias plantas",
+        "Memoriza mapas (número no indicado)"
+      ],
+      [
+        "Asistentes de voz",
+        "Alexa, Siri y Asistente de Google",
+        "No indicados"
+      ],
+      [
+        "Cámara para ver la casa",
+        "No",
+        "Sí (VideoManager)"
+      ],
+      [
+        "Cepillo para pelo",
+        "Cepillo para mascotas, según iRobot",
+        "HairCut Brush, corta el pelo"
+      ],
+      [
+        "Garantía",
+        "2 años de iRobot (sin batería) y 3 años de garantía legal",
+        "3 años en España"
+      ],
+      [
+        "OCU",
+        "Sin analizar; su antecesor, el Plus 505 Combo: «La calidad global es media»",
+        "Sin analizar; la Conga 7690 Immortal Max: «baja calidad en términos globales»"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Aspirado en suelos duros y alfombras",
+      "weight": 25,
+      "explanation": "Es la primera tarea de un robot. Como la OCU aún no ha analizado ninguno de los dos modelos, comparamos la succión declarada, las ayudas en alfombra (más potencia automática, cepillos que no se enredan) y los resultados que han publicado analistas independientes."
+    },
+    {
+      "name": "Fregado y base de limpieza",
+      "weight": 25,
+      "explanation": "Con una base que lava las mopas, lo que te queda es rellenar agua y cambiar la bolsa. Miramos qué hace la base (vaciar, lavar, secar, rellenar), a qué temperatura, cuánto dura la bolsa y cómo llega la mopa a los rodapiés."
+    },
+    {
+      "name": "Navegación, obstáculos y altura",
+      "weight": 15,
+      "explanation": "Un robot que se atasca o no cabe bajo el sofá limpia menos. Comparamos el tipo de navegación, el reconocimiento de objetos, los desniveles que supera y la altura del robot, según cada fabricante."
+    },
+    {
+      "name": "Autonomía por carga",
+      "weight": 10,
+      "explanation": "Decide si limpia toda la casa sin volver a la base a recargar. Usamos los minutos y los metros cuadrados por carga que declara cada marca."
+    },
+    {
+      "name": "App, voz y conectividad",
+      "weight": 10,
+      "explanation": "Mapas, programación por habitaciones, varias plantas y control por voz, según las fichas de iRobot y Cecotec, más los problemas de conexión que ha documentado la OCU."
+    },
+    {
+      "name": "Garantía, servicio y resultados documentados",
+      "weight": 15,
+      "explanation": "Un robot dura varios años. Valoramos la garantía que declara cada marca en España, su servicio técnico y lo que ha publicado la OCU sobre otros modelos de cada marca; no usamos valoraciones de tiendas."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Conga o Roomba: el veredicto en tres frases",
+      "html": "<ul><li><strong>Elige la Roomba Plus 515 Combo si</strong> tu casa tiene sofás y camas bajos, es grande o de dos plantas, o ya usas Alexa, Siri o el Asistente de Google: mide 8,35 cm de alto, declara hasta 295 minutos por carga y guarda hasta 3 mapas.</li><li><strong>Elige la Conga X100 si</strong> tienes perro o gato de pelo largo, sueles dejar cables o calcetines por el suelo o quieres ver la casa desde el móvil: es la única con cámara, con un cepillo HairCut que corta el pelo y con ruedas que superan desniveles de hasta 30 mm.</li><li><strong>En los dos casos</strong> te llevas un robot con base que vacía el polvo, lava las mopas con agua caliente, las seca con aire caliente y rellena el agua: la diferencia está en el robot, no en la base.</li></ul>"
+    },
+    {
+      "h2": "Por qué enfrentamos la Conga X100 y la Roomba Plus 515 Combo",
+      "html": "<p>«Conga o Roomba» es una pregunta de marca, pero cada una vende hoy decenas de robots, desde modelos sin base hasta estaciones que friegan solas. Para que el duelo sea justo, comparamos dos modelos de la misma gama: robot aspirador y fregasuelos con navegación láser, entre 20.000 y 22.000 Pa de succión declarada y una base que vacía, lava, seca y rellena.</p><p>La <strong>Conga X100</strong> pertenece a la nueva familia de Cecotec, que ha pasado de los nombres de cuatro cifras a letras: la serie M va sin base, la Y lleva base de autovaciado y las Q, R y X suman bases que también se ocupan de las mopas. La <strong>Roomba Plus 515 Combo</strong> es una de las novedades de la gama 2026 de iRobot, cuyo lanzamiento en España recogió Alimarket el 1/7/2026.</p><ul><li><strong>No confundas la X100 con la Conga X100 X-Treme</strong>, una versión con ficha propia en la web de Cecotec.</li><li><strong>Ni la Plus 515 con la Roomba Plus 505 Combo</strong>, el modelo anterior: según iRobot, la Plus 515 tiene el triple de succión y un 46 % menos de volumen.</li></ul>"
+    },
+    {
+      "h2": "Las cuatro diferencias que se notan en casa",
+      "html": "<ul><li><strong>Altura:</strong> la Roomba mide 8,35 cm y la Conga, 11 cm. Esos 2,65 cm deciden si el robot entra bajo el sofá, la cama o el mueble de la tele. Mide el hueco más bajo de tu casa antes de elegir.</li><li><strong>Obstáculos:</strong> la Conga combina láser y una cámara con inteligencia artificial que, según Cecotec, identifica objetos pequeños, líquidos, suelos y suciedad. La Roomba navega con LiDAR, de día o a oscuras, y esquiva cables, zapatos, juguetes y el desorden del día a día; iRobot no menciona cámara en este modelo.</li><li><strong>Autonomía:</strong> hasta 295 minutos y 185 m² por carga en la Roomba; 220 minutos y hasta 180 m² en la Conga. La superficie declarada es casi igual, pero la Roomba tiene más margen para pasadas dobles o casas grandes.</li><li><strong>Pelo y desniveles:</strong> la Conga lleva el cepillo HairCut, que corta el pelo y lo aspira, y ruedas HopWheel que superan obstáculos de hasta 30 mm. iRobot promete controlar el pelo de las mascotas sin limpiar el cepillo a cada rato, pero no indica qué desnivel supera la Plus 515.</li></ul>"
+    },
+    {
+      "h2": "Fregado y base: casi un empate",
+      "html": "<p>Las dos bases hacen las cuatro tareas que importan: vacían el polvo del robot, lavan las mopas con agua caliente, las secan con aire caliente y rellenan el depósito del robot. Las diferencias son de detalle:</p><ul><li><strong>Lavado:</strong> a 75 °C en la Roomba; desinfección con agua a 70 °C en la Conga.</li><li><strong>Secado:</strong> aire caliente a 45 °C en la Roomba; Cecotec no indica la temperatura.</li><li><strong>Autovaciado:</strong> hasta 3 meses sin vaciar depósitos en la Roomba y hasta 12 semanas en la Conga, según el uso. En la práctica, una bolsa por trimestre en los dos.</li><li><strong>Alfombras:</strong> la Roomba levanta las mopas 10 mm antes de pisarlas; la Conga las sube con SpinUp, sin indicar la altura.</li><li><strong>Esquinas y rodapiés:</strong> las dos extienden mopa y cepillo hacia los bordes, con PerfectEdge en la Roomba y SpinXtend y BrushXtend en la Conga.</li><li><strong>Presión:</strong> la Roomba gira sus dos mopas a 180 rpm y su modo SmartScrub aplica el doble de presión que el modo estándar, según iRobot; Cecotec no da revoluciones ni presión.</li></ul><p>Ninguna de las dos marcas publica en su ficha la capacidad de los depósitos de agua de la base ni la de la bolsa.</p>"
+    },
+    {
+      "h2": "Qué dicen la OCU y los análisis independientes",
+      "html": "<p>Es lo que más se busca («conga o roomba ocu»), y la respuesta corta es que la OCU no ha publicado todavía análisis de ninguno de estos dos modelos: el 1/11/2026 no aparecían en su comparador de robots aspiradores. Sí ha analizado en laboratorio otros robots de las dos marcas, y sus conclusiones públicas no dan ventaja clara a ninguna:</p><ul><li><strong>iRobot Roomba Plus 505 Combo</strong>, el antecesor de la Plus 515: su experto escribe que «La calidad global es media», con resultados de limpieza medianos, y que «Es un robot bastante ruidoso».</li><li><strong>Cecotec Conga 7690 Immortal Max:</strong> «baja calidad en términos globales», aunque con una eficacia media con polvo y migas en suelo duro.</li><li><strong>Cecotec Conga Excellence 990</strong>, en un análisis del 12/2/2018: «necesita mejorar»; la OCU no aconsejaba su compra.</li></ul><p>Las puntuaciones completas son solo para socios. La conclusión práctica es que ninguna marca gana por el nombre: hay que comparar modelo a modelo.</p><p>Fuera de la OCU, La Casa Sibarita publicó su análisis de la Conga X100, con una última actualización técnica del 6/10/2026 y una nota de 8,6 sobre 10. En baldosa recogió en una pasada el 98 % de una mezcla de arroz y harina; en alfombra de pelo corto, el 92 %, con la harina fina incrustada entre las fibras. Las manchas secas de café y tomate salieron de la baldosa, y las mopas dejaron una franja de 1,1 cm sin fregar junto al rodapié. No hemos encontrado un análisis equivalente de la Roomba Plus 515 Combo publicado en España.</p>"
+    },
+    {
+      "h2": "¿Es seguro comprar una Roomba después de la quiebra de iRobot?",
+      "html": "<p>iRobot no ha cerrado. Estos son los hechos, con fecha, según los comunicados de la empresa y la prensa sectorial:</p><ul><li><strong>14/12/2025:</strong> iRobot se acoge a un procedimiento de reestructuración preacordado (capítulo 11 de la ley de quiebras de Estados Unidos) para pasar a manos de Picea, su principal fabricante y acreedor, con centros de I+D y fábricas en China y Vietnam. Anuncia que seguirá operando con normalidad, sin interrupciones previstas en la app, en los programas para clientes ni en el soporte de los productos.</li><li><strong>23/01/2026:</strong> cierra la operación y sale del procedimiento. iRobot pasa a ser una empresa privada propiedad al 100 % de Picea y mantiene su sede en Bedford (Massachusetts).</li><li><strong>10/03/2026:</strong> lanza la Roomba Mini en Reino Unido y en Europa.</li><li><strong>1/07/2026:</strong> Alimarket informa del lanzamiento en España de las Roomba Plus 575 Combo y Plus 515 Combo.</li></ul><p>El 1/11/2026, la tienda de iRobot España vendía toda una gama nueva, de la Roomba 115 Combo a la Max 875 Combo. Para quien compra hoy, el cambio de dueño no toca la garantía legal de 3 años, de la que responde el vendedor.</p>"
+    },
+    {
+      "h2": "Garantía, servicio técnico y recambios",
+      "html": "<ul><li><strong>Conga X100:</strong> Cecotec indica «Garantía de 3 años para España». La asistencia se pide a su servicio técnico oficial, por el formulario de Ceco Care o por WhatsApp.</li><li><strong>Roomba Plus 515 Combo:</strong> la garantía limitada de iRobot España es de 2 años desde la compra y no se aplica a las baterías; además, iRobot declara cumplir la garantía legal de 3 años para los productos comprados desde el 1/1/2022. La asistencia se gestiona en su web de soporte en español.</li><li><strong>En la práctica:</strong> en España, la garantía legal de un producto nuevo comprado a una empresa es de 3 años desde la entrega (artículo 120 de la Ley General para la Defensa de los Consumidores y Usuarios), así que los dos robots quedan cubiertos el mismo tiempo frente a defectos de origen. Cambia quién te atiende: Cecotec es una empresa valenciana, líder del pequeño electrodoméstico en España según Alimarket (13/10/2025).</li><li><strong>Consumibles:</strong> cada robot usa sus propias bolsas, mopas y cepillos, que no sirven para la otra marca. iRobot aconseja cambiar filtro, cepillos y mopas cada 3 a 6 meses, y su bolsa AllergenLock retiene el 99 % de los alérgenos y el moho, según la marca.</li></ul>"
+    },
+    {
+      "h2": "Alternativas dentro de cada marca",
+      "html": "<ul><li><strong>Roomba Plus 575 Combo:</strong> sube a 25.000 Pa, navega con LiDAR ClearView Pro y PrecisionVision con IA, extiende las mopas 35 mm, supera desniveles de hasta 35 mm y guarda hasta 5 mapas, con la misma altura de 8,35 cm. Su base lava a 75 °C y seca a 45 °C.</li><li><strong>Roomba Plus 415 Combo:</strong> la base AutoWash más sencilla de iRobot: 20.000 Pa, LiDAR, mopas que giran a 200 rpm y se elevan 10 mm, secado con aire caliente a 45 °C y autovaciado de hasta 3 meses.</li><li><strong>Conga X70:</strong> un escalón por debajo de la X100 en succión (15.000 Pa), con base que vacía, lava las mopas y las seca con aire caliente, mopa derecha extensible y batería de 5.200 mAh. Cecotec da 240 minutos de autonomía en el texto y 280 en la tabla de la misma ficha.</li></ul>"
+    },
+    {
+      "h2": "Por qué este orden",
+      "html": "<p>Comparamos los dos robots con seis criterios ponderados, a partir de las fichas de iRobot y de Cecotec para España, de lo que ha publicado la OCU y del análisis independiente citado. Homenura no prueba los aparatos por su cuenta y el precio no entra en la nota.</p><ul><li><strong>Aspirado en suelos duros y alfombras (25 %):</strong> Roomba 20, Conga 19. Ventaja mínima por la succión declarada (22.000 frente a 20.000 Pa) y el Carpet Boost; la Conga responde con el cepillo HairCut. A la Conga se le resistió la harina fina en alfombra de pelo corto en el análisis de La Casa Sibarita, pero la Roomba no tiene aún un análisis comparable, así que la diferencia es pequeña.</li><li><strong>Fregado y base de limpieza (25 %):</strong> 21 a 21. Las dos bases hacen lo mismo; la Roomba concreta más datos (elevación de 10 mm, 180 rpm, secado a 45 °C) y la Conga desinfecta las mopas con agua a 70 °C.</li><li><strong>Navegación, obstáculos y altura (15 %):</strong> 12 a 12. La Conga reconoce objetos con cámara y supera 30 mm; la Roomba es 2,65 cm más baja y entra donde la Conga no cabe.</li><li><strong>Autonomía por carga (10 %):</strong> Roomba 9, Conga 7. 295 minutos frente a 220.</li><li><strong>App, voz y conectividad (10 %):</strong> Roomba 8, Conga 7. La Roomba funciona con Alexa, Siri y el Asistente de Google y guarda mapas de varias plantas; la Conga suma la cámara en la app, pero Cecotec no indica asistentes de voz y la OCU explicó (13/6/2023) que, según Cecotec, las Conga solo se configuraban con wifi de 2,4 GHz, origen de muchos fallos de conexión.</li><li><strong>Garantía, servicio y resultados documentados (15 %):</strong> Conga 12, Roomba 11. Las dos tienen 3 años de garantía legal, pero Cecotec la anuncia como propia y tiene servicio técnico en España, mientras que la garantía comercial de iRobot es de 2 años y excluye la batería. En la OCU, el antecesor de la Roomba saca «calidad global media» y la Conga 7690 Immortal Max, «baja calidad en términos globales».</li></ul><p><strong>Total: Roomba Plus 515 Combo 81, Conga X100 78.</strong> Con tan poca diferencia, decide tu casa: si el hueco bajo el sofá mide menos de 11 cm, la Roomba; si tienes mascotas de pelo largo o quieres cámara, la Conga.</p>"
+    },
+    {
+      "h2": "Actualizaciones",
+      "html": "<ul><li><strong>1/11/2026:</strong> página publicada. Fichas revisadas en irobot.es y cecotec.es, comparador y artículos de la OCU, comunicados de iRobot y noticias de Alimarket.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es mejor, Conga o Roomba?",
+      "a": "Depende del modelo, no de la marca. En la gama con base que vacía, lava y seca, la Roomba Plus 515 Combo queda por delante de la Conga X100 por poco, 81 a 78 en nuestra comparación: es más baja y aguanta más por carga. La Conga gana en cámara, reconocimiento de objetos y cepillo para pelo largo."
+    },
+    {
+      "q": "¿Qué dice la OCU de Conga y Roomba?",
+      "a": "A 1/11/2026, la OCU no había publicado análisis de la Conga X100 ni de la Roomba Plus 515 Combo. De modelos anteriores, resume la Roomba Plus 505 Combo con «La calidad global es media» y la Conga 7690 Immortal Max con «baja calidad en términos globales». Ninguno de los dos lleva sello de calidad en su comparador."
+    },
+    {
+      "q": "¿iRobot ha quebrado? ¿Se puede seguir comprando una Roomba?",
+      "a": "iRobot pasó por una reestructuración preacordada en Estados Unidos, iniciada el 14/12/2025, y desde el 23/01/2026 es una empresa privada propiedad de Picea, su principal fabricante. Sigue vendiendo en España: en julio de 2026 lanzó las Plus 515 y Plus 575 Combo. La garantía legal de 3 años no cambia."
+    },
+    {
+      "q": "¿Conga es una marca española?",
+      "a": "Sí. Conga es la gama de robots de Cecotec, empresa valenciana que lidera el pequeño electrodoméstico en España con más de 120 millones de euros de ventaja sobre su inmediato seguidor, según Alimarket (13/10/2025). Para la Conga X100, Cecotec indica 3 años de garantía en España."
+    },
+    {
+      "q": "¿Cuál pasa mejor por debajo del sofá?",
+      "a": "La Roomba Plus 515 Combo: mide 8,35 cm de alto, frente a los 11 cm de la Conga X100. Si el hueco bajo tu sofá o tu cama queda entre esas dos medidas, la Roomba puede entrar y la Conga no. Mide el hueco más bajo de la casa antes de comprar."
+    },
+    {
+      "q": "¿Cuál es mejor si tengo perro o gato?",
+      "a": "Las dos prometen controlar el pelo. La Conga X100 lleva el cepillo HairCut, que corta el pelo y lo aspira, y en el análisis de La Casa Sibarita, con un perro de pelo largo, el cepillo central siguió sin enredos tras cinco días. iRobot asegura que la Plus 515 controla el pelo de las mascotas sin limpiar el cepillo a cada rato, pero no hay un análisis comparable publicado."
+    },
+    {
+      "q": "¿La Conga X100 tiene cámara?",
+      "a": "Sí. Cecotec indica que su inteligencia artificial, combinada con el láser, identifica objetos pequeños, líquidos, suelos y suciedad, y que con VideoManager puedes usar la cámara del robot para ver la casa desde la app. La Roomba Plus 515 Combo navega con LiDAR e iRobot no menciona cámara en su ficha."
+    },
+    {
+      "q": "¿Qué garantía tienen la Conga y la Roomba?",
+      "a": "Cecotec indica 3 años en España para la Conga X100. iRobot ofrece una garantía limitada de 2 años que no se aplica a las baterías y declara cumplir la garantía legal de 3 años para compras desde el 1/1/2022. En España, esa garantía legal cubre los dos robots durante 3 años desde la entrega."
+    },
+    {
+      "q": "¿Por qué mi Conga no se conecta al wifi?",
+      "a": "La OCU explicó el 13/6/2023 que el fallo suele venir de la banda: Cecotec avisa de que la app solo funciona con la red de 2,4 GHz. Conecta el móvil a esa red al configurar el robot y, si el router agrupa las dos bandas (Band Steering), desactívalo o apaga la de 5 GHz mientras configuras."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "OCU — iRobot Roomba Plus 505 Combo (comparador de robots aspiradores)",
+      "url": "https://www.ocu.org/electrodomesticos/robot-aspirador/comparador/irobot-roomba-plus-505-combo-n185040/36270_113420",
+      "note": "Ficha consultada el 1/11/2026, marcada como analizada en laboratorio; la puntuación es solo para socios. El experto resume que «La calidad global es media», con resultados de limpieza medianos, y que «Es un robot bastante ruidoso». La OCU indica un peso de 4,18 kg. Es el antecesor de la Plus 515 Combo, que no figuraba en el comparador en esa fecha."
+    },
+    {
+      "name": "OCU — Cecotec Conga 7690 Immortal Max (comparador de robots aspiradores)",
+      "url": "https://www.ocu.org/electrodomesticos/robot-aspirador/comparador/cecotec-conga-7690-immortal-max/191/118818",
+      "note": "Ficha consultada el 1/11/2026, analizada en laboratorio: «baja calidad en términos globales», con una eficacia media al quitar polvo y migas de suelos duros. La OCU indica un peso de 2,62 kg. La Conga X100 no figuraba en el comparador en esa fecha."
+    },
+    {
+      "name": "OCU — Cecotec Conga Excellence 990",
+      "url": "https://www.ocu.org/electrodomesticos/robot-aspirador/noticias/cecotec-conga-excellence-990",
+      "note": "Artículo del 12/2/2018 titulado «necesita mejorar»: limpieza satisfactoria en suelo duro, mediocre en alfombras y pobre detección de objetos; la OCU no aconsejaba su compra. Modelo antiguo, citado solo como antecedente de la marca."
+    },
+    {
+      "name": "OCU — Problemas con la conexión wifi de la Conga",
+      "url": "https://www.ocu.org/tecnologia/routers/noticias/problemas-wifi-robot-conga",
+      "note": "Artículo del 13/6/2023: los fallos de conexión suelen deberse a configurar la app con el móvil en la banda de 5 GHz, porque Cecotec avisa de que solo funciona con la de 2,4 GHz. Propone desactivar el Band Steering del router y, si no basta, apagar la Conga una o dos horas; la OCU admite que esto último no siempre funciona."
+    },
+    {
+      "name": "La Casa Sibarita — Cecotec Conga X100",
+      "url": "https://lacasasibarita.es/?p=71321",
+      "note": "Análisis firmado por Marco Blasco, con última actualización técnica el 6/10/2026; el medio declara pruebas propias. Nota de 8,6 sobre 10 (aspiración 8,6, autonomía 9,1, fregado 8,2). Recogió el 98 % de una mezcla de arroz y harina en baldosa y el 92 % en alfombra de pelo corto; eliminó manchas secas de café y tomate en baldosa, dejó un velo mate en laminado y una franja de 1,1 cm sin fregar junto al rodapié; esquivó un cable de cargador."
+    }
+  ],
+  "sources": [
+    "https://www.irobot.es/es_ES/roomba-plus-515-combo/N285040.html",
+    "https://www.irobot.es/es_ES/roomba.html",
+    "https://www.irobot.es/es_ES/returns-warranties.html",
+    "https://www.irobot.es/es_ES/roomba-plus-575-combo/R285040.html",
+    "https://www.irobot.es/es_ES/roomba-plus-415-combo/G285040.html",
+    "https://cecotec.es/es/robots-aspiradores/conga-x100/",
+    "https://cecotec.es/es/robots-aspiradores/",
+    "https://cecotec.es/es/robots-aspiradores/conga-x70/",
+    "https://media.irobot.com/2025-12-14-iRobot-Announces-Strategic-Transaction-to-Drive-Long-Term-Growth-Plan",
+    "https://media.irobot.com/2026-01-23-iRobot-Completes-Court-Supervised-Transaction-with-Picea,-Enabling-the-Next-Chapter-of-Growth",
+    "https://media.irobot.com/2026-03-10-iRobot-Launches-Roomba-R-Mini-Robot-Vacuum-Mop-AutoEmpty-TM-Dock-in-UK-and-Europe",
+    "https://www.alimarket.es/electro/noticia/428529/roomba-lanza-plus-575-combo-y-515-combo",
+    "https://www.alimarket.es/electro/noticia_amp/414935/cecotec-sigue-un-paso-por-delante",
+    "https://www.ocu.org/electrodomesticos/robot-aspirador/comparador",
+    "https://www.ocu.org/electrodomesticos/robot-aspirador/comparador/irobot-roomba-plus-505-combo-n185040/36270_113420",
+    "https://www.ocu.org/electrodomesticos/robot-aspirador/comparador/cecotec-conga-7690-immortal-max/191/118818",
+    "https://www.ocu.org/electrodomesticos/robot-aspirador/noticias/cecotec-conga-excellence-990",
+    "https://www.ocu.org/tecnologia/routers/noticias/problemas-wifi-robot-conga",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+    "https://lacasasibarita.es/?p=71321"
+  ],
+  "related": [
+    "/es/entretien-maison/aspirateurs-laveurs",
+    "/es/entretien-maison/aspirateurs-robots",
+    "/es/blog/comparatif-robot-aspirateur-laveur",
+    "/es/blog/guide-robot-aspirateur-2026",
+    "/es/blog/robot-aspirateur-poils-animaux",
+    "/es/blog/robot-aspirador-piso-pequeno",
+    "/es/black-friday/aspirateurs-robots",
+    "/es/guides/probleme/robot-aspirateur-wifi-deconnexion",
+    "/es/guides/probleme/robot-aspirateur-brosse-bloquee"
+  ]
+}

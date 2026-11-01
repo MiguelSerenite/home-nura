@@ -84,7 +84,7 @@ function Actions({ page, pick, position, buyLabel }: PickCardProps) {
   )
 }
 
-/** A duel column: the model, "Choose it if…", why, specs, then its links. */
+/** A duel column: the model, who it is best for, why, specs, then its links. */
 function DuelCard(props: PickCardProps) {
   const { page, pick } = props
   const ui = MARKET_PAGE_UI[page.locale]
@@ -97,7 +97,7 @@ function DuelCard(props: PickCardProps) {
       <div className="flex flex-1 flex-col p-3 sm:p-5">
         <p className="text-[11px] font-bold uppercase tracking-widest text-brand-700">{pick.role}</p>
         <h3 className="mt-1 text-sm font-bold leading-snug text-slate-900 sm:text-lg">{name}</h3>
-        <p className="mt-2 text-sm font-bold text-slate-900 md:mt-3">{ui.chooseIf(name)}</p>
+        <p className="mt-2 text-sm font-bold text-slate-900 md:mt-3">{ui.bestFor}</p>
         <p className="mt-1 text-sm leading-relaxed text-slate-700">{pick.bestFor}</p>
         <WhyText pick={pick} />
         <Details pick={pick} page={page} />

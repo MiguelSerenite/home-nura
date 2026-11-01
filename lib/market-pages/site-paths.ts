@@ -10,7 +10,16 @@
 import { getAllArticles } from '@/lib/blog'
 import { blackFridayPath, getBlackFridayPages } from '@/lib/black-friday'
 import { giftGuidePath, giftGuidesFor } from '@/lib/gift-guides'
-import { PROBLEMS, getCategory, getIndexableCategories, getIndexableSilos, getMetaSilo } from '@/lib/catalog'
+import {
+  PROBLEMS,
+  categoryPath,
+  getCategory,
+  getIndexableCategories,
+  getIndexableSilos,
+  getMetaSilo,
+  getPartiallyIndexableCategories,
+  isCategoryIndexableIn,
+} from '@/lib/catalog'
 import { FLOOR_CARE_GUIDES, FLOOR_CARE_LABELS, FLOOR_CARE_MARKETS, floorCarePath } from '@/lib/floor-care/config'
 import type { Lang } from '@/lib/i18n'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
@@ -55,6 +64,10 @@ function sharedPages(lang: Lang): [string, string | null][] {
     ...getIndexableCategories()
       .filter((category) => category.metaSilo !== 'cuisine-connectee')
       .map((category): [string, string] => [`/${category.metaSilo}/${category.slug}`, category.title[lang]]),
+    // Categories indexed in some markets only (robot cookers in fr, de, es, it, pl).
+    ...getPartiallyIndexableCategories()
+      .filter((category) => isCategoryIndexableIn(category, lang))
+      .map((category): [string, string] => [categoryPath(category), category.title[lang]]),
     ...PROBLEMS.map((problem): [string, string] => [`/guides/probleme/${problem.slug}`, problem.query[lang]]),
     // The hub, then the Black Friday pages this locale has (some markets only).
     [blackFridayPath(), 'Black Friday'],

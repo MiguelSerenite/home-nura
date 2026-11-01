@@ -1,0 +1,268 @@
+{
+  "locale": "ca",
+  "type": "guide",
+  "slug": "best-furnace-humidifier",
+  "updated": "2026-11-01",
+  "metaTitle": "Best Furnace Humidifier in Canada (2026) vs Portable",
+  "metaDescription": "Furnace humidifier or portable? Three whole-home picks sold in Canada, plus the Health Canada and NRCan humidity targets for −20°C winter nights.",
+  "kicker": "Winter buying guide · Whole-home humidifiers",
+  "h1": "Best Furnace Humidifiers in Canada (2026): Whole-Home vs Portable",
+  "answer": "If your home has a forced-air furnace, a whole-home humidifier on the ductwork does more than any portable. Our pick is the AprilAire 620A: 18 US gallons a day and an automatic mode that lowers humidity as the outdoor temperature drops. On a tighter budget, the AprilAire 600. Central heat pump or a very large home: the AprilAire 800 steam unit. Baseboard heat or renting: go portable.",
+  "picks": [
+    {
+      "brand": "AprilAire",
+      "model": "620A",
+      "role": "Best overall",
+      "why": "The newest version of AprilAire's large bypass humidifier: 18 US gallons (about 68 L) a day for homes up to 5,300 sq. ft., an Automatic Mode that adjusts humidity to the outdoor temperature, and a one-piece HydroCore cartridge AprilAire says takes about a minute to change. Its recirculation valve cuts wastewater by 55% compared with the 600, and it carries a 5-year warranty.",
+      "bestFor": "Most Canadian houses heated by a gas, propane or oil forced-air furnace",
+      "asin": "B0FPGMW1JN",
+      "manufacturerUrl": "https://shop.aprilaire.com/products/aprilaire-620a-whole-house-large-bypass-evaporative-humidifier-automatic-control",
+      "specs": {
+        "Type": "Duct-mounted large bypass evaporative humidifier (HydroCore Series)",
+        "Rated output": "18 US gallons (about 68 L) a day",
+        "Home size": "Up to 5,300 sq. ft. (about 490 m²), per AprilAire",
+        "Control": "Model 60 Automatic Digital Control: Automatic Mode adjusts to the outdoor temperature; Manual Mode; backlit display showing relative humidity",
+        "Water panel": "One-piece HydroCore L cartridge (about a minute to swap, per AprilAire)",
+        "Water use": "55% less wastewater than the AprilAire 600; up to 4,650 US gallons (about 17,600 L) a year less than previous AprilAire models, at rated capacity over a 5-month season, per AprilAire",
+        "Installation": "Reversible bypass module (left or right); distribution tray tolerates up to 3 degrees out of level; catch-all drain",
+        "In the box": "Humidifier, Model 60 control, HydroCore L cartridge, 24 VAC transformer, saddle valve, installation template",
+        "Size (H × W × D)": "46 × 37 × 28 cm (18 × 14.5 × 11 in.)",
+        "Warranty": "5 years"
+      }
+    },
+    {
+      "brand": "AprilAire",
+      "model": "600",
+      "role": "Budget pick",
+      "why": "The long-running large bypass model AprilAire measures the 620A against, still sold in Canada: 17 US gallons (about 64 L) a day for homes up to 5,000 sq. ft., and the same Model 60 automatic humidistat, with an outdoor temperature sensor in the box. Like the 620A it has no fan to run; it is shorter and narrower but deeper, and it sends more water down the drain than the HydroCore models.",
+      "bestFor": "Furnace homes up to about 5,000 sq. ft. where you want automatic control for less",
+      "asin": "B00R3GE0J6",
+      "manufacturerUrl": "https://shop.aprilaire.com/collections/humidifier/products/aprilaire-model-600-humidifier",
+      "specs": {
+        "Type": "Duct-mounted large bypass evaporative humidifier",
+        "Rated output": "17 US gallons (about 64 L) a day",
+        "Home size": "Up to 5,000 sq. ft. (about 465 m²) for tightly built homes, per AprilAire",
+        "Control": "Model 60 Digital Automatic Humidistat with outdoor temperature sensor; an onboard sensor turns on the furnace fan to measure humidity in the ductwork",
+        "Water panel": "Model 35 water panel",
+        "In the box": "Humidifier, Model 60 humidistat, Model 35 water panel, 24 VAC transformer, outdoor temperature sensor, saddle valve, installation instructions",
+        "Size (H × W × D)": "40 × 26 × 39 cm (15.75 × 10.25 × 15.375 in.)",
+        "Warranty": "Not listed on the product page; see the owner's manual"
+      }
+    },
+    {
+      "brand": "AprilAire",
+      "model": "800",
+      "role": "Best for heat pumps and large homes",
+      "why": "A steam humidifier makes its own moisture instead of relying on warm furnace air, and AprilAire positions the 800 for ducted systems with or without forced-air heat. It has the highest output here (up to 34.6 US gallons a day, depending on how it is wired) and a dual-sensor automatic humidistat, but the canister is replaced every year and the electrode wires every three years by a licensed contractor.",
+      "bestFor": "Central heat pumps, large homes, short furnace run times, hardwood floors and other humidity-sensitive contents",
+      "asin": "B0CM85KV9F",
+      "manufacturerUrl": "https://shop.aprilaire.com/collections/humidifier/products/aprilaire-model-800-humidifier",
+      "specs": {
+        "Type": "Whole-home steam humidifier: an electrode canister heats water and a dispersion tube sends the steam into the ductwork",
+        "Rated output": "Up to 34.6 US gallons (about 131 L) a day; output depends on the voltage and current draw it is wired for",
+        "Heating systems": "Ducted systems with or without forced-air heat, per AprilAire",
+        "Control": "Model 62 Digital Automatic Humidistat; dual sensors read the outdoor temperature and indoor relative humidity",
+        "Water": "Purified water not required; AprilAire does not recommend water filtration (its electrodes rely on the impurities in tap water to conduct electricity)",
+        "Upkeep": "Model 80 steam canister replaced every year; electrode wires replaced every 3 years by a licensed contractor",
+        "In the box": "Humidifier, Model 62 humidistat, Model 80 canister, outdoor temperature sensor, saddle valve, 6-ft steam hose, drain tubing, hose clamps, steam dispersion tube",
+        "Size (H × W × D)": "53 × 18 × 26 cm (20.88 × 7.13 × 10.13 in.)",
+        "Warranty": "Not listed on the product page; see the owner's manual"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Model",
+      "Type",
+      "Rated output",
+      "Home size (per manufacturer)",
+      "Control",
+      "Yearly upkeep",
+      "Warranty"
+    ],
+    "rows": [
+      [
+        "AprilAire 620A",
+        "Large bypass, evaporative (HydroCore)",
+        "18 US gal (about 68 L) a day",
+        "Up to 5,300 sq. ft. (about 490 m²)",
+        "Automatic (outdoor temperature) or manual mode",
+        "HydroCore L cartridge, about a minute",
+        "5 years"
+      ],
+      [
+        "AprilAire 600",
+        "Large bypass, evaporative",
+        "17 US gal (about 64 L) a day",
+        "Up to 5,000 sq. ft. (about 465 m²)",
+        "Automatic, with outdoor temperature sensor",
+        "Model 35 water panel",
+        "Not on the product page"
+      ],
+      [
+        "AprilAire 800",
+        "Steam (electrode canister)",
+        "Up to 34.6 US gal (about 131 L) a day, depending on wiring",
+        "Not stated; ducted homes with or without forced-air heat",
+        "Automatic, dual sensor (outdoor temperature and indoor humidity)",
+        "Model 80 canister every year; electrode wires every 3 years (licensed contractor)",
+        "Not on the product page"
+      ],
+      [
+        "AprilAire 720A",
+        "Fan-powered, evaporative (HydroCore)",
+        "21 US gal (about 79 L) a day",
+        "Up to 6,250 sq. ft. (about 580 m²)",
+        "Automatic (outdoor temperature) or manual mode",
+        "HydroCore L cartridge",
+        "5 years"
+      ],
+      [
+        "AprilAire 500",
+        "Small bypass, evaporative",
+        "12 US gal (about 45 L) a day",
+        "Up to 3,600 sq. ft. (about 335 m²)",
+        "Automatic, with outdoor temperature sensor",
+        "Model 10 water panel",
+        "Not on the product page"
+      ],
+      [
+        "Honeywell Home HE205A1000/U",
+        "Bypass, evaporative (flow-through)",
+        "17 US gal (about 64 L) a day",
+        "Up to 18,000 cu. ft. (about 510 m³)",
+        "Bundled control differs by document: manual H8908 (Resideo submittal sheet) or H6062 with outdoor sensor (product page)",
+        "HC26 pad (standard or antimicrobial)",
+        "5 years"
+      ],
+      [
+        "Honeywell HEV615WC (portable)",
+        "Portable cool-moisture tower with wicking filter",
+        "6.4 L tank, up to 24 h per fill",
+        "One large room",
+        "3 speeds, 5 humidity settings",
+        "HTF600PFC wicking filter; empty and clean the tank",
+        "3-year limited"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Output for your home and heating system",
+      "weight": 30,
+      "explanation": "A whole-home unit has to keep up with the entire house on the coldest, driest days. We compare the manufacturer's rated output (US gallons a day) with the home size it lists, and whether the type suits your heating: bypass and fan-powered units evaporate water into warm furnace air, while a steam unit makes its own."
+    },
+    {
+      "name": "Automatic control in a cold snap",
+      "weight": 25,
+      "explanation": "NRCan's window table shows the safe indoor humidity falling as the outdoor temperature drops. A control that reads the outdoor temperature and lowers the target on its own prevents wet, frosty windows; a manual control only works if you remember to turn it down."
+    },
+    {
+      "name": "Upkeep and hygiene",
+      "weight": 20,
+      "explanation": "Health Canada asks you to clean and disinfect anything that holds water. We compare what has to be replaced each season, how easy it is, whether a contractor is needed, and how much water a flow-through unit sends down the drain."
+    },
+    {
+      "name": "Installation fit",
+      "weight": 15,
+      "explanation": "The size of the unit on the furnace plenum, the bypass duct, the drain line, the electrical supply and whether the job needs a licensed contractor."
+    },
+    {
+      "name": "Warranty and availability in Canada",
+      "weight": 10,
+      "explanation": "The warranty term the manufacturer states on its product page, and whether the model is actually sold to Canadian addresses."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Whole-home or portable: it depends on how you heat",
+      "html": "<p>A furnace humidifier mounts on the ductwork, connects to a water line and the furnace wiring, and sends moist air to every room the ducts reach. There is no tank to refill: you replace a water panel or a canister once or twice a heating season. A portable humidifier treats one room, and you fill and clean it by hand.</p><p>Statistics Canada's 2023 figures show why the answer changes from one province to the next. A forced-air furnace is the main heating system in 46% of Canadian households: 79% in Saskatchewan, 78% in Alberta, 66% in Ontario, but only 11% in Quebec, where 54% of households heat with electric baseboards (23% across Canada).</p><ul><li><strong>Forced-air furnace (gas, propane, oil or electric):</strong> buy a whole-home humidifier. A bypass model suits most houses; a fan-powered model adds output for a large home.</li><li><strong>Central heat pump, with or without a backup furnace:</strong> the air coming off a heat pump is cooler than gas-furnace air, so an evaporative unit can fall short. Ask your installer about a steam model such as the AprilAire 800.</li><li><strong>Electric baseboards, hot-water radiators, a ductless mini-split or a rental:</strong> there are no ducts to carry the moisture, so a portable humidifier in the rooms you use most is the practical answer.</li></ul>"
+    },
+    {
+      "h2": "How much humidity Health Canada and NRCan recommend in winter",
+      "html": "<p>Health Canada's advice on mould is to keep indoor relative humidity between 30% and 50%. Its page on cool-mist humidifiers is more specific about the seasons: around 30% in winter and 50% in summer. Natural Resources Canada (NRCan) gives the same 30% to 50% range in <em>Keeping the Heat In</em>, with lower humidity in winter.</p><p>The catch in a Canadian cold snap is your windows. NRCan publishes the highest indoor humidity, at 20°C inside, before condensation forms on the glass:</p><ul><li><strong>0°C outside:</strong> 50% with standard windows, 68% with energy-efficient windows</li><li><strong>−10°C:</strong> 38% and 50%</li><li><strong>−20°C:</strong> 26% and 40%</li><li><strong>−30°C:</strong> 18% and 30%</li><li><strong>−40°C:</strong> 12% and 20%</li></ul><p>So on a −20°C night, a house with standard double-glazed windows can't hold Health Canada's 30% without condensation, while newer energy-efficient windows can. NRCan's practical advice is to let your windows be the indicator: excessive condensation on the inside of double-glazed windows (kitchen and bathroom aside) means too much moisture. A hygrometer, which Health Canada notes is inexpensive and sold at most hardware stores, tells you where you stand. This is why automatic control carries 25% of our ranking: the 620A, 600 and 800 read the outdoor temperature and lower the target for you.</p>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>We rank on the five criteria below, using each manufacturer's product pages and documents, Health Canada and NRCan guidance, and published independent findings. Commission plays no part in the order, and we don't test humidifiers ourselves.</p><ul><li><strong>AprilAire 620A first.</strong> 18 US gallons (about 68 L) a day for homes up to 5,300 sq. ft. covers most Canadian houses with a furnace (output, 30%), and its Automatic Mode follows the outdoor temperature, as NRCan's window table calls for (25%). The one-piece HydroCore cartridge and 55% less wastewater than the 600 put it ahead on upkeep (20%), the reversible bypass and 3-degree levelling tolerance help in a tight furnace room (15%), and it is the only pick with a 5-year warranty stated on its product page (10%).</li><li><strong>AprilAire 600 second.</strong> Nearly the same output (17 US gallons a day, homes up to 5,000 sq. ft.) and the same Model 60 automatic humidistat with an outdoor sensor. Like the 620A it is a fan-free bypass unit, shorter and narrower but deeper. It loses ground on upkeep, because a flow-through panel sends more water down the drain than the HydroCore models, and its product page doesn't state the warranty.</li><li><strong>AprilAire 800 third overall, first for heat pumps.</strong> It leads on raw output (up to 34.6 US gallons a day, depending on wiring) and has dual-sensor automatic control, and it works with or without forced-air heat. For a typical gas-furnace house it is more than you need: a new canister every year, electrode wires every three years by a licensed contractor, electrical work at installation, and no warranty term on its product page.</li><li><strong>AprilAire 720A in the table rather than the picks.</strong> Fan-powered, 21 US gallons a day for up to 6,250 sq. ft., the same automatic control and 5-year warranty as the 620A. Choose it for a large home; for most houses the 620A's output is enough without a fan to run.</li><li><strong>AprilAire 500 in the table.</strong> A compact bypass unit (12 US gallons a day, homes up to 3,600 sq. ft.) with a digital automatic humidistat, for smaller homes or cramped mechanical rooms.</li><li><strong>Honeywell Home HE205A1000/U in the table.</strong> Made by Resideo under the Honeywell Home brand: 17 US gallons (64 L) a day for up to 18,000 cu. ft. and a 5-year warranty. Its documents disagree on the control in the box (the manual H8908 on Resideo's submittal sheet, the H6062 with an outdoor sensor on the product page), and with a manual control you have to remember to turn it down in a cold snap.</li><li><strong>Honeywell HEV615WC for reference.</strong> A portable for homes without ducts: it treats one large room, not the house.</li></ul>"
+    },
+    {
+      "h2": "Bypass, fan-powered or steam: matching the type to your furnace",
+      "html": "<ul><li><strong>Bypass (AprilAire 620A, 600 and 500, Honeywell Home HE205):</strong> a short duct, typically 6 inches across, links the supply and return sides of the furnace so warm air flows through a wet panel. There is no fan and the power draw is tiny (Resideo's submittal sheet lists 7 W at 24 VAC for the HE205), but it only humidifies while the furnace blower runs and it needs room on the ductwork for the bypass. Flow-through models also send some water to the drain; AprilAire says the 620A's recirculation valve cuts that by 55% compared with the 600.</li><li><strong>Fan-powered (AprilAire 720A):</strong> its own fan pushes air across the panel, which raises output to 21 US gallons a day for homes up to 6,250 sq. ft. It is the step up for a large house on a single furnace.</li><li><strong>Steam (AprilAire 800):</strong> electrodes boil water in a canister and the steam is piped into the ducts, so output doesn't depend on how warm the furnace air is. AprilAire suggests it for homes with special humidity needs, such as wood floors, large floor plans or short furnace run times. It draws far more electricity than an evaporative unit, because it boils water, and its upkeep is a contractor's job.</li></ul><p>Whatever the type, check that the unit carries a certification mark accepted in Canada (CSA, cUL or cETL, for example) before it is wired to your furnace.</p>"
+    },
+    {
+      "h2": "Installation and upkeep through a Canadian winter",
+      "html": "<p>All three picks connect to the ductwork and are plumbed in: a saddle valve on a water line, a drain line and low-voltage wiring to the furnace (the evaporative models come with a 24 VAC transformer). AprilAire points buyers to its network of installers, and the steam 800 is clearly a job for a licensed contractor. Many homeowners have an HVAC contractor add a humidifier during the fall furnace service, before the first cold snap.</p><ul><li><strong>Replace the panel or canister every season.</strong> AprilAire says the 620A's HydroCore cartridge pops out in about a minute; the 600 takes a Model 35 water panel; the 800's Model 80 canister is replaced every year.</li><li><strong>Keep it clean.</strong> Health Canada advises regularly cleaning and disinfecting anything that holds water, humidifiers included.</li><li><strong>Watch the windows on the first −20°C night.</strong> If they fog or frost, lower the setting or switch to automatic mode, and run the kitchen and bathroom fans, as NRCan recommends.</li><li><strong>Leave the water alone for steam.</strong> AprilAire says the 800's electrodes need the minerals in the water, so it doesn't recommend a filter or purified water.</li><li><strong>Register the warranty.</strong> AprilAire's registration form accepts Canadian addresses; the owner's manual sets out the terms.</li></ul>"
+    },
+    {
+      "h2": "If you go portable: Health Canada's advice",
+      "html": "<p>For baseboard-heated homes, condos and rentals, a portable is the answer. Consumer Reports suggests a console model for very large spaces and notes that ultrasonic models are more likely to release white dust, because they have no wick to trap minerals. One evaporative example sold in Canada is the Honeywell HEV615WC tower: a 6.4 L tank, up to 24 hours per fill, three speeds, five humidity settings and an HTF600PFC wicking filter, with a 3-year limited warranty. Health Canada's tips for cool-mist humidifiers:</p><ul><li>Always empty the reservoir when you turn the humidifier off; don't leave water sitting in it.</li><li>Clean and disinfect the reservoir regularly.</li><li>Distilled water releases fewer particles, but tap water is fine in most cases if you change the water and clean the unit regularly.</li><li>Keep it in a central spot and out of the bedroom, especially at night.</li><li>Measure with a hygrometer and aim for the same limits as a whole-home unit: about 30% in winter, lower when the windows fog.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What humidity should a furnace humidifier be set to in winter?",
+      "a": "Health Canada recommends 30% to 50% indoors, and about 30% in winter. NRCan adds that the ceiling drops as it gets colder: at −20°C outside and 20°C inside, condensation starts above about 26% on standard windows and 40% on energy-efficient ones. If your windows fog or frost, turn it down."
+    },
+    {
+      "q": "Is a furnace humidifier better than a portable one?",
+      "a": "If you have ducted forced-air heat, usually yes. It covers the whole house, draws water from your plumbing instead of a tank you refill, and needs a new panel or canister once or twice a heating season. A portable makes sense when there are no ducts (baseboards, radiators, a ductless heat pump) or when you rent."
+    },
+    {
+      "q": "Does a whole-home humidifier work with a heat pump?",
+      "a": "Bypass and fan-powered units evaporate water into the warm air the system delivers, so they can put out less with a heat pump's cooler air. A steam unit such as the AprilAire 800 makes its own steam, and AprilAire says it suits ducted systems with or without forced-air heat. Ask your installer to size it for your home."
+    },
+    {
+      "q": "Can I install a furnace humidifier myself?",
+      "a": "The evaporative models ship with a saddle valve, a 24 VAC transformer and installation instructions or a template. The job still means cutting into ductwork, tapping a water line, running a drain and wiring to the furnace, so most people book an HVAC contractor, often with the fall furnace service. The steam AprilAire 800 is a contractor job."
+    },
+    {
+      "q": "How often do I change the water panel?",
+      "a": "AprilAire calls it annual maintenance on the HydroCore models and says its water panels are typically changed once or twice per heating season. The 620A's HydroCore cartridge pops out in about a minute, the 600 takes a Model 35 water panel and the 800's steam canister is replaced every year. Change it sooner if it's crusted with minerals or the humidity stops climbing."
+    },
+    {
+      "q": "Why are my windows wet or frosted since I turned on the humidifier?",
+      "a": "The indoor air holds more moisture than the glass can take at that outdoor temperature. Lower the setting or switch to automatic mode, and run the kitchen and bathroom fans. NRCan's rule of thumb: excessive condensation on double-glazed windows outside the kitchen and bathroom means there is too much moisture in the air."
+    },
+    {
+      "q": "Do I need distilled water?",
+      "a": "Not for the furnace models: they're plumbed into your water line, and AprilAire says the 800's electrodes need the minerals in tap water, so it doesn't recommend filtration. For a portable, Health Canada says distilled water releases fewer particles, but tap water is fine in most cases if you change the water and clean the unit regularly."
+    },
+    {
+      "q": "Can too much humidity cause mould?",
+      "a": "Yes. Health Canada's guidance is to keep relative humidity between 30% and 50%, and NRCan lists frosted windows, stained walls and ceilings, peeling paint, mould and odours among the effects of humidity that's too high. A hygrometer tells you where you stand."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Consumer Reports",
+      "url": "https://www.consumerreports.org/appliances/humidifiers/buying-guide/",
+      "note": "Humidifier buying guide, updated December 11, 2025: Consumer Reports says it doesn't test whole-house humidifiers at this time, so no independent test results exist for the furnace models on this page. It notes that whole-house units need maintenance much less often than portables, suggests 30% to 40% humidity during the heating season in colder areas to prevent window condensation, and says ultrasonic portables are more likely to release white dust."
+    }
+  ],
+  "sources": [
+    "https://www.canada.ca/en/health-canada/services/air-quality/indoor-air-contaminants/reduce-humidity-moisture-mould.html",
+    "https://www.canada.ca/en/health-canada/services/household-products/cool-mist-humidifiers.html",
+    "https://www.canada.ca/en/health-canada/services/publications/healthy-living/addressing-moisture-mould-your-home.html",
+    "https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/keeping-heat-section-2-your-house-works",
+    "https://natural-resources.canada.ca/sites/www.nrcan.gc.ca/files/energy/pdf/housing/Chapter9_e.pdf",
+    "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810028601",
+    "https://shop.aprilaire.com/products/aprilaire-620a-whole-house-large-bypass-evaporative-humidifier-automatic-control",
+    "https://www.aprilaire.com/hydrocore-series",
+    "https://shop.aprilaire.com/collections/humidifier/products/aprilaire-model-600-humidifier",
+    "https://shop.aprilaire.com/collections/humidifier/products/aprilaire-model-800-humidifier",
+    "https://shop.aprilaire.com/products/aprilaire-720a-whole-home-fan-powered-evaporative-humidifier-automatic-control",
+    "https://shop.aprilaire.com/collections/humidifier/products/aprilaire-model-500-humidifier",
+    "https://www.aprilaire.com/warranty",
+    "https://www.honeywellhome.com/products/whole-home-bypass-humidifier-1",
+    "https://digitalassets.resideo.com/damroot/Original/10004/33-00247.pdf",
+    "https://honeywellpluggedin.ca/humidifiers/honeywell-top-fill-tower-cool-moisture-humidifier/",
+    "https://www.consumerreports.org/appliances/humidifiers/buying-guide/"
+  ],
+  "related": [
+    "/ca/confort-air/humidificateurs",
+    "/ca/confort-air/deshumidificateurs",
+    "/ca/energie-domotique/thermostats",
+    "/ca/guides/probleme/humidificateur-depot-blanc"
+  ]
+}

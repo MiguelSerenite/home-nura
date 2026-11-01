@@ -20,26 +20,30 @@
  *   - siloSlug must be a known MetaSiloSlug
  *   - categorySlug must resolve to a Category whose metaSilo
  *     matches the slug in the URL
- *   - category.indexable must be true (otherwise 404 — no
- *     shadow pages for non-indexable cats)
+ *   - the category must be indexed in the URL's locale
+ *     (`indexable`, or `indexableIn` for some markets only;
+ *     otherwise 404 — no shadow pages for non-indexed cats)
  *
  * generateStaticParams skips cuisine-connectee so the flagship
  * route owns those URLs uniquely and the build doesn't
  * double-render the same (lang, silo, category).
  */
 
-import { getCategoryGuides, buildCategorySeo } from '@/lib/catalog/category-guides'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import CategoryHub from '@/components/CategoryHub'
-import { buildPageMetadata } from '@/lib/seo'
-import { LANGUAGES, isValidLang, type Lang } from '@/lib/i18n'
+import { isValidLang, type Lang } from '@/lib/i18n'
 import {
   getMetaSilo,
   getCategory,
   getIndexableCategories,
+  getPartiallyIndexableCategories,
+  categoryLocales,
+  isCategoryIndexableIn,
   type MetaSiloSlug,
 } from '@/lib/catalog'
+import { categoryHubMetadata } from '../../category-hub-route'
+import { getDictionary } from '../../dictionaries'
 
 const KNOWN_SILOS: readonly MetaSiloSlug[] = [
   'cuisine-connectee',
@@ -55,14 +59,15 @@ function isKnownSilo(slug: string): slug is MetaSiloSlug {
 }
 
 export async function generateStaticParams() {
-  // Only prerender indexable categories that aren't owned by the
-  // flagship static route. That way the build stays cheap and we
-  // never shadow a hand-written cuisine-connectee page.
-  const indexable = getIndexableCategories().filter(
+  // Only prerender categories that aren't owned by the flagship static
+  // route, in the locales that index them (every locale, or the
+  // `indexableIn` ones). That way the build stays cheap and we never
+  // shadow a hand-written cuisine-connectee page.
+  const categories = [...getIndexableCategories(), ...getPartiallyIndexableCategories()].filter(
     (c) => c.metaSilo !== 'cuisine-connectee'
   )
-  return indexable.flatMap((cat) =>
-    LANGUAGES.map((lang) => ({
+  return categories.flatMap((cat) =>
+    categoryLocales(cat).map((lang) => ({
       lang,
       silo: cat.metaSilo,
       category: cat.slug,
@@ -81,15 +86,7 @@ export async function generateMetadata({
   const cat = getCategory(category)
   const siloMeta = getMetaSilo(silo)
   if (!cat || !siloMeta || cat.metaSilo !== silo) return {}
-  const { picks } = getCategoryGuides(cat.slug, safeLang)
-  const seo = buildCategorySeo(cat, safeLang, picks.map((p) => p.model))
-  return buildPageMetadata({
-    lang: safeLang,
-    path: `/${silo}/${cat.slug}`,
-    title: `${seo.title} | Home Nura`,
-    description: seo.description,
-    index: cat.indexable,
-  })
+  return categoryHubMetadata(cat, safeLang)
 }
 
 export default async function GenericCategoryPage({
@@ -101,9 +98,11 @@ export default async function GenericCategoryPage({
   if (!isKnownSilo(silo)) notFound()
   const cat = getCategory(category)
   if (!cat || cat.metaSilo !== silo) notFound()
-  // Gate: only indexable categories get a real page through the
-  // generic route. Non-indexable ones 404 so they never leak into
+  // Gate: only categories indexed in this locale get a real page
+  // through the generic route. The others 404 so they never leak into
   // internal links, sitemaps or search.
-  if (!cat.indexable) notFound()
-  return <CategoryHub siloSlug={silo} categorySlug={category} lang={lang} />
+  const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
+  if (!isCategoryIndexableIn(cat, safeLang)) notFound()
+  const dict = await getDictionary(safeLang)
+  return <CategoryHub siloSlug={silo} categorySlug={category} lang={safeLang} buyLabel={dict.buy_button} />
 }

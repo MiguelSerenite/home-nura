@@ -10,8 +10,25 @@ import { FAQ_LOCALES, type CategoryFaqEntry, type CategoryFaqSets, type FaqLocal
 
 export { FAQ_LOCALES, type CategoryFaqEntry, type CategoryFaqSets, type FaqLocale }
 
-/** Bump when the category FAQs are reviewed: shown on the page and in FAQPage dateModified. */
-export const CATEGORY_FAQS_UPDATED_ISO = '2026-10-30'
+/**
+ * Day each locale's category FAQs were last reviewed, shown on the page and
+ * in FAQPage dateModified. Bump a locale when its FAQs are reviewed.
+ */
+export const CATEGORY_FAQS_UPDATED_ISO: Readonly<Record<FaqLocale, string>> = {
+  fr: '2026-10-30',
+  en: '2026-11-01',
+  de: '2026-11-01',
+  es: '2026-11-01',
+  it: '2026-11-01',
+  nl: '2026-11-01',
+  pl: '2026-11-01',
+  sv: '2026-11-01',
+  us: '2026-11-01',
+  ca: '2026-11-01',
+}
+
+/** The newest review, for an entry that stands for every locale at once. */
+const LATEST_FAQ_REVIEW_ISO = Object.values(CATEGORY_FAQS_UPDATED_ISO).toSorted().at(-1) ?? ''
 
 export const CATEGORY_FAQS: CategoryFaqSets = {
   ...ENERGIE_A_FAQS,
@@ -39,10 +56,12 @@ export function getCategorySpecificFaq(
 }
 
 /**
- * Last-modified date of a category hub: the FAQ review date when the hub
- * shows a written FAQ and it is newer than the site-wide date.
+ * Last-modified date of a category hub: the FAQ review date in `lang` (the
+ * newest one without a locale) when the hub shows a written FAQ and it is
+ * newer than the site-wide date.
  */
-export function categoryModifiedIso(categorySlug: string, siteIso: string): string {
-  const hasFaq = CATEGORY_FAQS[categorySlug] !== undefined
-  return hasFaq && CATEGORY_FAQS_UPDATED_ISO > siteIso ? CATEGORY_FAQS_UPDATED_ISO : siteIso
+export function categoryModifiedIso(categorySlug: string, siteIso: string, lang?: string): string {
+  if (CATEGORY_FAQS[categorySlug] === undefined) return siteIso
+  const reviewed = lang !== undefined && isFaqLocale(lang) ? CATEGORY_FAQS_UPDATED_ISO[lang] : LATEST_FAQ_REVIEW_ISO
+  return reviewed > siteIso ? reviewed : siteIso
 }

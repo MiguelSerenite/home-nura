@@ -21,6 +21,13 @@ export const DE_HEADS: CategoryHeads = {
     h1: "Multikocher Vergleich 2026: Die besten Multicooker mit und ohne App",
     description: "Multikocher im Vergleich: 3 Empfehlungen von Moulinex, Ninja und Instant Pot. Kaufberatung zu Druckgaren, Fassungsvermögen, App-Rezepten und FAQ.",
   },
+  // Indexed in this market (categories.ts indexableIn): the robot cooker guide's models.
+  "robots-multifonctions": {
+    keyword: "Küchenmaschine mit Kochfunktion",
+    title: "Küchenmaschine mit Kochfunktion 2026: Vergleich",
+    h1: "Küchenmaschinen mit Kochfunktion 2026: Thermomix TM7 und Alternativen",
+    description: "Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL und Cecotec Mambo im Vergleich: Heizart, Topf, App. FAQ.",
+  },
   "cafetieres": {
     keyword: "Kaffeevollautomat",
     title: "Kaffeevollautomat Vergleich 2026: Die 3 besten Modelle",

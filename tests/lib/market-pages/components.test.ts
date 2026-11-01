@@ -133,11 +133,12 @@ describe.each(pages.map((page) => [marketPageHref(page), page] as const))('%s', 
     for (const id of amazonBlocks) expect(block(html, id), id).not.toMatch(/\d\s?[€£$]|[€£$]\s?\d/)
   })
 
-  it('sets a duel side by side with "Choose … if"', () => {
+  it('sets a duel side by side, each model with who it is best for', () => {
     if (page.type !== 'duel') return
     const ui = MARKET_PAGE_UI[page.locale]
     expect(block(html, 'picks')).toMatch(/grid-cols-2/)
-    for (const pick of page.picks) expect(html).toContain(escaped(ui.chooseIf(pickName(pick))))
+    expect(block(html, 'picks').split(`>${escaped(ui.bestFor)}</p>`)).toHaveLength(page.picks.length + 1)
+    for (const pick of page.picks) expect(html).toContain(escaped(pick.bestFor))
   })
 })
 

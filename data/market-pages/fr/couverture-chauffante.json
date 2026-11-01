@@ -1,0 +1,315 @@
+{
+  "locale": "fr",
+  "type": "guide",
+  "slug": "couverture-chauffante",
+  "updated": "2026-11-01",
+  "metaTitle": "Couverture chauffante, plaid : sécurité et conso 2026",
+  "metaDescription": "Couverture et plaid chauffants : arrêt automatique, norme NF EN 60335-2-17, coût au tarif Bleu, lavage. Imetec Adapto, Beurer HD 150 XXL ou HD 65 ?",
+  "kicker": "Guide d’achat · Confort d’hiver",
+  "h1": "Couverture chauffante et plaid chauffant : lequel choisir en 2026 ?",
+  "answer": "Pour le canapé, le plaid chauffant Imetec Adapto Élégance (180 × 140 cm) est le plus complet : 6 températures, minuterie de 1, 3 ou 9 h, 150 W annoncés et sèche-linge autorisé. À deux, prenez la Beurer HD 150 XXL (200 × 150 cm, garantie 3 ans) ; petit budget, la Beurer HD 65. Au tarif Bleu, une heure à 150 W coûte 3 centimes. Débranchez avant de dormir.",
+  "picks": [
+    {
+      "brand": "Imetec",
+      "model": "Adapto Élégance, plaid chauffant 180 × 140 cm",
+      "role": "Notre choix",
+      "why": "C’est le seul plaid du tableau qui réunit un grand format, une minuterie réglable (1, 3 ou 9 h, remise sur 1 h à chaque allumage), une puissance publiée sur la fiche française (150 W) et le passage au sèche-linge à température modérée. Sa technologie Adapto chauffe à pleine puissance, puis réduit la puissance une fois la chaleur choisie atteinte.",
+      "bestFor": "Les soirées sur le canapé, pour qui veut choisir la durée de chauffe et pouvoir sécher le plaid en machine.",
+      "asin": "B0BLCXY3J8",
+      "manufacturerUrl": "https://www.imetec.com/fr-fr/products/plaid-chauffant-imetec-adapto-elegance-180-140-cm",
+      "specs": {
+        "Type": "plaid chauffant, pour le canapé ou au-dessus des draps",
+        "Dimensions": "180 × 140 cm",
+        "Tissu": "velours double face, motif carreaux",
+        "Puissance": "150 W (pleine puissance pour la montée en chaleur, puis réduite par la technologie Adapto)",
+        "Alimentation": "220-240 V, 50/60 Hz",
+        "Niveaux de chaleur": "6 (6 : préchauffage rapide ; 5-4 : préchauffage moyen ; 3-1 : utilisation continue, selon la notice)",
+        "Arrêt automatique": "minuterie 1, 3 ou 9 h, réglée sur 1 h à chaque allumage",
+        "Sécurité": "Electro Block®, contrôle électronique avec autodiagnostic à chaque allumage",
+        "Commande": "numérique à LED, amovible, luminosité réduite automatiquement",
+        "Entretien": "lavage à la main ou en machine à 30 °C ; sèche-linge à température modérée, puis séchage à l’air libre",
+        "Câble": "3,8 m",
+        "Garantie": "2 ans",
+        "Référence Imetec": "16936"
+      }
+    },
+    {
+      "brand": "Beurer",
+      "model": "HD 150 XXL Nordic Taupe",
+      "role": "L’alternative grand format",
+      "why": "Avec 200 × 150 cm, c’est la couverture la plus grande du tableau, assez large pour deux sur un canapé. Beurer y met 6 niveaux de chaleur éclairés, un arrêt de sécurité au bout de 3 heures, un système qui coupe la couverture en cas de défaillance et une garantie de 3 ans, contre 2 ans chez Imetec.",
+      "bestFor": "Les couples qui partagent le canapé, et ceux qui préfèrent un arrêt automatique fixe, impossible à prolonger.",
+      "asin": "B09S5ML13Q",
+      "manufacturerUrl": "https://www.beurer.com/fr/p/43105/",
+      "specs": {
+        "Type": "couverture chauffante, à poser sur soi",
+        "Dimensions": "200 × 150 cm",
+        "Poids": "2,42 kg",
+        "Tissu": "velours polyester, matière moelleuse",
+        "Niveaux de chaleur": "6, affichage éclairé",
+        "Arrêt automatique": "au bout de 3 h environ (durée non réglable)",
+        "Sécurité": "système de sécurité Beurer : surveillance de la température et arrêt de sécurité",
+        "Puissance": "non indiquée sur la fiche ni dans la notice (voir la plaque signalétique) ; environ 100 W en moyenne au niveau maximal pour les couvertures chauffantes, selon Beurer",
+        "Montée en chaleur": "chaleur perceptible en 15 min au plus au niveau maximal ; température maximale au plus tôt après 30 min environ",
+        "Textile": "certifié Oeko-Tex Standard 100",
+        "Entretien": "lavage en machine à 30 °C (cycle laine), commutateur retiré ; pas de sèche-linge, pas de repassage",
+        "Câble": "2,3 m, commutateur amovible",
+        "Garantie": "3 ans",
+        "Référence Beurer": "43105 (aussi en coloris Cosy Taupe, 43103)"
+      }
+    },
+    {
+      "brand": "Beurer",
+      "model": "HD 65 Dark Grey",
+      "role": "Petit budget",
+      "why": "C’est le modèle le plus simple de la gamme Beurer, mais il garde l’essentiel : 180 × 130 cm, arrêt de sécurité au bout de 3 heures, le même système de sécurité que les modèles plus chers, lavage à 30 °C et garantie de 3 ans. En contrepartie, il n’a que 3 niveaux de chaleur.",
+      "bestFor": "Se tenir chaud devant la télévision sans réglages superflus, ou un premier achat pour essayer.",
+      "asin": "B0FRFLH3DF",
+      "manufacturerUrl": "https://www.beurer.com/fr/p/40053/",
+      "specs": {
+        "Type": "couverture chauffante, à poser sur soi",
+        "Dimensions": "180 × 130 cm",
+        "Poids": "1,67 kg",
+        "Tissu": "velours polyester",
+        "Niveaux de chaleur": "3, affichage éclairé",
+        "Arrêt automatique": "au bout de 3 h environ (durée non réglable)",
+        "Sécurité": "système de sécurité Beurer : surveillance de la température et arrêt de sécurité",
+        "Puissance": "non indiquée sur la fiche ni dans la notice (voir la plaque signalétique)",
+        "Textile": "certifié Oeko-Tex",
+        "Entretien": "lavage en machine à 30 °C (cycle laine), commutateur retiré ; pas de sèche-linge, pas de repassage",
+        "Câble": "2,3 m, commutateur amovible",
+        "Garantie": "3 ans",
+        "Référence Beurer": "40053"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Modèle",
+      "Note /100",
+      "Format",
+      "Niveaux de chaleur",
+      "Arrêt automatique",
+      "Puissance publiée",
+      "Lavage et séchage",
+      "Garantie"
+    ],
+    "rows": [
+      [
+        "Imetec Adapto Élégance",
+        "85",
+        "180 × 140 cm",
+        "6",
+        "1, 3 ou 9 h (1 h par défaut)",
+        "150 W",
+        "30 °C ; sèche-linge à température modérée",
+        "2 ans"
+      ],
+      [
+        "Beurer HD 150 XXL",
+        "82",
+        "200 × 150 cm",
+        "6, éclairés",
+        "3 h, fixe",
+        "Non indiquée (≈ 100 W en moyenne selon Beurer)",
+        "30 °C ; pas de sèche-linge",
+        "3 ans"
+      ],
+      [
+        "Imetec Adapto Tartan Festival",
+        "82",
+        "160 × 120 cm",
+        "6",
+        "1, 3 ou 9 h (1 h par défaut)",
+        "150 W",
+        "30 °C ; sèche-linge à température modérée",
+        "2 ans"
+      ],
+      [
+        "Beurer HD 75 Nordic Grey GP",
+        "80",
+        "180 × 130 cm",
+        "6, éclairés",
+        "3 h, fixe",
+        "Non indiquée (≈ 100 W en moyenne selon Beurer)",
+        "30 °C ; pas de sèche-linge",
+        "3 ans"
+      ],
+      [
+        "Imetec Adapto Velvet Squares",
+        "78",
+        "150 × 95 cm",
+        "6",
+        "1, 3 ou 9 h (1 h par défaut)",
+        "150 W",
+        "30 °C ; sèche-linge à température modérée",
+        "2 ans"
+      ],
+      [
+        "Beurer HD 65",
+        "76",
+        "180 × 130 cm",
+        "3, éclairés",
+        "3 h, fixe",
+        "Non indiquée (≈ 100 W en moyenne selon Beurer)",
+        "30 °C ; pas de sèche-linge",
+        "3 ans"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Sécurité",
+      "weight": 30,
+      "explanation": "Arrêt automatique, système qui coupe l’appareil en cas d’anomalie, consignes claires dans la notice française (enfants, personnes insensibles à la chaleur, stimulateur cardiaque) et absence de rappel dans RappelConso. Tous les modèles retenus remplissent ces points ; aucun n’affiche sur sa fiche française de marque de certification électrique d’un laboratoire indépendant, comme celles que recommande Test-Achats (IMQ, GS, TÜV). D’où 27/30 pour chacun."
+    },
+    {
+      "name": "Réglage de la chaleur et minuterie",
+      "weight": 20,
+      "explanation": "Nombre de niveaux, affichage lisible, minuterie réglable ou fixe, et régulation de la température. Les plaids Imetec (6 niveaux, minuterie de 1, 3 ou 9 h, puissance réduite une fois la chaleur atteinte) obtiennent 18/20, les Beurer à 6 niveaux et arrêt fixe à 3 h 14/20, la HD 65 à 3 niveaux 10/20."
+    },
+    {
+      "name": "Entretien et garantie",
+      "weight": 20,
+      "explanation": "Lavage en machine, commande amovible, sèche-linge autorisé ou non, et durée de la garantie commerciale (la garantie légale de conformité de 2 ans s’applique de toute façon). Beurer : 30 °C, pas de sèche-linge, 3 ans, soit 17/20. Imetec : 30 °C et sèche-linge à température modérée, mais 2 ans, soit 15/20."
+    },
+    {
+      "name": "Format et confort",
+      "weight": 15,
+      "explanation": "Il faut environ 180 cm de long pour couvrir un adulte des épaules aux pieds, et 200 × 150 cm pour deux. Barème : 200 × 150 cm 14/15, 180 × 140 cm 13, 180 × 130 cm 12, 160 × 120 cm 10, 150 × 95 cm 6."
+    },
+    {
+      "name": "Consommation publiée",
+      "weight": 15,
+      "explanation": "Une puissance publiée permet de calculer le coût d’une heure au tarif Bleu. Imetec affiche 150 W sur chaque fiche française, une puissance maximale réduite ensuite par la technologie Adapto, sans consommation moyenne chiffrée : 12/15. Beurer ne donne pas la puissance de chaque modèle (la notice renvoie à la plaque signalétique), mais publie une moyenne d’environ 100 W pour ses couvertures au niveau maximal : 10/15."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Plaid, couverture ou chauffe-matelas : trois usages différents",
+      "html": "<p>Le <strong>plaid chauffant</strong> et la <strong>couverture chauffante</strong> se posent sur vous : sur le canapé, dans un fauteuil, ou au-dessus des draps. Les fabricants emploient les deux mots pour le même produit : Imetec parle de plaid, Beurer de couverture. Le <strong>chauffe-matelas</strong>, aussi appelé surmatelas chauffant, chauffe-lit ou sous-couverture, se fixe sur le matelas, sous le drap-housse, et préchauffe le lit avant le coucher.</p><p>Ne les échangez pas : Test-Achats rappelle qu’une couverture ne doit pas servir de sous-couverture, ni l’inverse. Imetec autorise ses plaids dans le lit, au-dessus des draps, mais demande de ne pas les border.</p><ul><li><strong>Pour le canapé :</strong> un plaid ou une couverture d’au moins 160 × 120 cm, 180 cm de long si vous voulez couvrir les pieds.</li><li><strong>Pour deux :</strong> 200 × 150 cm, comme la Beurer HD 150 XXL.</li><li><strong>Pour le lit :</strong> un chauffe-matelas à la taille du lit (140 × 190, 160 × 200…). Beurer (UB 60, UB 90, TS 26 XXL…) et Imetec (chauffe-lits Adapto) en vendent en France ; ce guide ne les classe pas.</li></ul>"
+    },
+    {
+      "h2": "Imetec Adapto Élégance : notre choix",
+      "html": "<p>Imetec est une marque italienne de petit électroménager. Ses plaids Adapto partagent la même électronique : la commande s’allume sur la température 6 et sur une minuterie d’une heure, puis vous choisissez. La notice réserve les niveaux 6 à 4 au préchauffage et les niveaux 3 à 1 à l’utilisation continue.</p><ul><li><strong>Minuterie :</strong> arrêt automatique au bout de 1, 3 ou 9 heures. Après une coupure de courant, la commande reprend vos réglages et relance la minuterie depuis zéro.</li><li><strong>Puissance :</strong> 150 W annoncés pour la montée en chaleur ; une fois la chaleur choisie atteinte, la technologie Adapto réduit la puissance.</li><li><strong>Sécurité :</strong> le système Electro Block® vérifie les composants à chaque allumage et coupe le plaid en cas d’anomalie.</li><li><strong>Entretien :</strong> commande amovible, lavage à 30 °C, et sèche-linge permis à température modérée, ce que Beurer interdit.</li></ul><p><strong>Les limites :</strong> la garantie commerciale est de 2 ans, contre 3 chez Beurer, et la notice Imetec interdit l’appareil aux porteurs de stimulateur cardiaque (la FAQ du site déconseille seulement l’usage continu). Le même plaid existe en finition velours et sherpa sous le nom Adapto Grand Luxe Velour, avec les mêmes dimensions et la même commande ; Imetec affiche la référence 16936 pour l’Élégance, vérifiez sur l’annonce le nom et les dimensions.</p>"
+    },
+    {
+      "h2": "Beurer HD 150 XXL : l’alternative grand format, pour deux",
+      "html": "<p>Beurer est une marque allemande, présente en France sur toute la gamme des produits chauffants : coussins, couvertures, chauffe-matelas. La HD 150 XXL reprend la recette de sa HD 75 en format 200 × 150 cm : 6 niveaux éclairés, un commutateur amovible et un <strong>arrêt de sécurité au bout de 3 heures</strong>, qu’on ne peut pas prolonger. Pour repartir, il faut éteindre le commutateur 5 secondes, puis le rallumer.</p><ul><li><strong>Système de sécurité :</strong> des capteurs surveillent la température sur toute la surface et coupent la couverture en cas de défaillance. Après ce type d’arrêt, Beurer demande de ne plus l’utiliser et de contacter le service client.</li><li><strong>Montée en chaleur :</strong> jusqu’à 15 minutes pour sentir la chaleur au niveau maximal, et au moins 30 minutes environ pour atteindre la température maximale, selon Beurer.</li><li><strong>Garantie :</strong> 3 ans, et textile certifié Oeko-Tex Standard 100 (absence de substances nocives dans le tissu, ce qui n’est pas un contrôle électrique).</li></ul><p><strong>Les limites :</strong> 2,42 kg, pas de sèche-linge, et une puissance absente de la fiche comme de la notice. Pour une personne seule, la HD 75 (180 × 130 cm, 1,99 kg, 80/100) offre les mêmes réglages dans un format plus léger.</p>"
+    },
+    {
+      "h2": "Beurer HD 65 : petit budget",
+      "html": "<p>La HD 65 est la couverture d’entrée de gamme de Beurer. Elle ne sacrifie pas la sécurité : même système de surveillance de la température que les modèles plus chers, arrêt automatique au bout de 3 heures environ et garantie de 3 ans.</p><ul><li>180 × 130 cm et 1,67 kg.</li><li>3 niveaux de chaleur éclairés : 1 pour une chaleur minimale, 2 moyenne, 3 maximale.</li><li>Lavage en machine à 30 °C sur un cycle laine, commutateur retiré.</li></ul><p><strong>La limite :</strong> 3 niveaux seulement, quand la HD 75 en propose 6. Si vous aimez régler finement la chaleur, montez d’un cran dans la gamme.</p>"
+    },
+    {
+      "h2": "Pourquoi ce classement",
+      "html": "<p>Chaque modèle est noté sur 100 avec les cinq critères publiés plus haut : sécurité 30 %, réglage de la chaleur et minuterie 20 %, entretien et garantie 20 %, format et confort 15 %, consommation publiée 15 %. Les notes reposent sur les fiches françaises et les notices des fabricants. Ni le prix ni les clics n’entrent dans la note.</p><ul><li><strong>Imetec Adapto Élégance, 85/100 :</strong> minuterie réglable, puissance publiée, sèche-linge autorisé et grand format ; elle perd des points sur la garantie (2 ans).</li><li><strong>Beurer HD 150 XXL, 82/100 :</strong> le plus grand format et 3 ans de garantie, mais un arrêt fixe à 3 h et aucune puissance par modèle.</li><li><strong>Imetec Adapto Tartan Festival, 82/100 :</strong> la même électronique que l’Élégance dans un format 160 × 120 cm, trop court pour couvrir les pieds d’un adulte allongé.</li><li><strong>Beurer HD 75 Nordic Grey GP, 80/100 :</strong> les réglages de la HD 150 XXL en 180 × 130 cm, tissu recyclé certifié GRS.</li><li><strong>Imetec Adapto Velvet Squares, 78/100 :</strong> bien équipée, mais 150 × 95 cm, un plaid pour les genoux.</li><li><strong>Beurer HD 65, 76/100 :</strong> 3 niveaux seulement, le reste au niveau des autres Beurer.</li></ul><p>Les trois choix suivent cette note : <strong>notre choix</strong> est la meilleure note ; <strong>l’alternative</strong> est la meilleure note d’une autre marque, ici aussi le seul format pour deux ; le <strong>petit budget</strong> est le modèle d’entrée de gamme du tableau. Le Tartan Festival a la même note que la HD 150 XXL, mais c’est le même appareil que notre choix en plus petit : nous ne le recommandons pas deux fois.</p>"
+    },
+    {
+      "h2": "Sécurité : norme, arrêt automatique et bons réflexes",
+      "html": "<p>En Europe, la sécurité de ces appareils relève de la norme <strong>NF EN 60335-2-17</strong>, qui couvre les couvertures, coussins, vêtements et appareils chauffants souples. Le <strong>marquage CE</strong> est une déclaration du fabricant, pas un contrôle par un tiers. Test-Achats conseille de repérer le symbole de la <strong>classe II</strong> et de préférer les produits certifiés par un organisme externe (IMQ, GS, TÜV). Le label Oeko-Tex concerne le tissu, pas l’électricité.</p><ul><li><strong>Arrêt automatique :</strong> 3 heures, fixe, chez Beurer ; 1, 3 ou 9 heures chez Imetec, qui repart sur 1 heure à chaque allumage. Évitez tout modèle sans arrêt automatique.</li><li><strong>La nuit :</strong> la DGCCRF demande, le 4 décembre 2024, de débrancher couvertures et coussins chauffants après chaque utilisation et avant de s’endormir ; Test-Achats donne le même conseil. Imetec autorise pourtant les niveaux 1 à 3 en usage nocturne : nous suivons l’avis de la DGCCRF.</li><li><strong>Enfants :</strong> jamais avant 3 ans ; de 3 à 8 ans, sous surveillance et au niveau le plus bas (Beurer et Imetec).</li><li><strong>Personnes à risque :</strong> pas d’utilisation par une personne qui sent mal la chaleur (diabète, lésions cutanées, prise d’antidouleurs ou d’alcool, selon Beurer). Porteurs de stimulateur cardiaque : Beurer demande l’avis du médecin et du fabricant du stimulateur, la notice Imetec l’interdit. Test-Achats déconseille aussi ces appareils aux femmes enceintes.</li><li><strong>Les gestes interdits :</strong> l’utiliser plié, froissé ou mouillé, y planter des épingles, poser une bouillotte dessus, couvrir le commutateur, qui chauffe.</li><li><strong>Contrôle :</strong> vérifiez la couverture au début et à la fin de chaque saison (Test-Achats). Fils apparents, tissu brûlé, câble abîmé ou commande qui ne s’allume plus : on ne la rebranche pas.</li></ul>"
+    },
+    {
+      "h2": "Rappels de produits : ce que montre RappelConso",
+      "html": "<p>Au <strong>1er novembre 2026</strong>, la base RappelConso, le site officiel des rappels en France, ne contient <strong>aucune fiche</strong> pour une couverture, un plaid ou un surmatelas chauffant électrique (recherche dans ses données ouvertes sur les mots « couverture », « plaid », « chauffant », « matelas » et « blanket »).</p><p>D’autres textiles chauffants y figurent, ce qui justifie la prudence avec les produits sans marque vendus en ligne :</p><ul><li><strong>Ceinture lombaire chauffante électrique Confort Zone</strong>, fiche publiée le 30 janvier 2025 : risque de brûlures.</li><li><strong>Bonnet chauffant électrique sans marque</strong>, vendu en ligne, fiche publiée le 17 avril 2026 : le boîtier de commande et le câble manquent de résistance mécanique et laissent accéder à des parties sous tension, d’où un risque de choc électrique.</li></ul><p>Avant de ressortir une vieille couverture, cherchez sa marque et sa référence sur RappelConso. Un défaut constaté se signale sur SignalConso.</p>"
+    },
+    {
+      "h2": "Combien consomme une couverture chauffante ?",
+      "html": "<p>Depuis le <strong>1er août 2026</strong>, le tarif Bleu d’EDF en option Base (6 kVA) est de <strong>20,01 centimes le kWh TTC</strong>, soit 0,2001 €. En option Heures creuses, le kWh coûte 15,89 centimes en heures creuses et 21,42 centimes en heures pleines. Le calcul est simple : puissance en watts ÷ 1 000 × heures × prix du kWh.</p><ul><li><strong>25 W</strong> (un chauffe-matelas 1 personne au niveau 2, selon Beurer) : 0,5 centime de l’heure.</li><li><strong>100 W</strong> (la puissance moyenne que Beurer donne pour ses couvertures au niveau maximal) : 2 centimes de l’heure, 6 centimes pour les 3 heures avant l’arrêt automatique.</li><li><strong>150 W</strong> (la puissance maximale des plaids Imetec, réduite ensuite par la technologie Adapto) : 3 centimes de l’heure au plus.</li><li><strong>À comparer :</strong> un radiateur d’appoint de 2 000 W à pleine puissance coûte 40 centimes de l’heure.</li></ul><p>Sur un hiver, à raison de 3 heures par soir pendant 120 soirs, une couverture à 100 W consomme 36 kWh, soit environ 7,20 €. Le même usage avec un radiateur de 2 000 W consommerait 720 kWh, environ 144 €. Test-Achats situe la puissance courante de ces appareils entre 50 et 150 W.</p><p>Le plaid réchauffe la personne, pas la pièce : il aide à garder le chauffage un peu plus bas le soir, mais il ne remplace pas le chauffage contre l’humidité ou les murs froids. Votre prix du kWh figure sur votre facture : remplacez 0,2001 € par le vôtre.</p>"
+    },
+    {
+      "h2": "Entretien : laver sans abîmer les fils chauffants",
+      "html": "<p>Les trois choix passent en machine, à condition de suivre la notice à la lettre : les fils chauffants supportent mal l’essorage, les plis et la chaleur.</p><ul><li><strong>Avant :</strong> débranchez la prise, puis détachez la commande. Elle ne doit jamais toucher l’eau ; essuyez-la avec un chiffon sec.</li><li><strong>Lavage :</strong> 30 °C sur un cycle très doux (cycle laine chez Beurer, délicat chez Imetec), avec une lessive pour linge délicat. Imetec interdit tout essorage supplémentaire.</li><li><strong>Séchage :</strong> chez Beurer, jamais de sèche-linge. Étirez la couverture encore humide pour qu’elle retrouve sa taille et faites-la sécher à plat sur un étendoir, sans pinces à linge. Imetec permet le sèche-linge à température modérée, puis la fin du séchage à l’air libre.</li><li><strong>Jamais :</strong> d’eau de Javel, de repassage, de nettoyage à sec, ni de mise en marche pendant le séchage.</li><li><strong>Avant de rebrancher :</strong> attendez que la couverture et la prise de connexion soient complètement sèches.</li><li><strong>Rangement :</strong> laissez-la refroidir, pliez-la sans charge par-dessus, ou roulez-la comme le conseille Test-Achats, de préférence dans son emballage d’origine.</li></ul>"
+    },
+    {
+      "h2": "Ce que disent les testeurs indépendants",
+      "html": "<p>Au 1er novembre 2026, nous n’avons trouvé <strong>aucun test en laboratoire</strong> de couvertures ou de plaids chauffants publié par Que Choisir, 60 Millions de consommateurs ou Les Numériques. Nous ne pouvons donc pas citer de note de testeur pour ces modèles, et nous ne les inventons pas.</p><p>L’association belge <strong>Test-Achats</strong> a publié un dossier de conseils le 16 octobre 2024, sans test de produits : puissance de 50 à 150 W, préchauffage de 15 à 20 minutes, extinction et débranchement avant de dormir, classe II, marquage CE et certification par un organisme externe. La <strong>DGCCRF</strong> a publié ses conseils sur les produits chauffants le 4 décembre 2024.</p>"
+    },
+    {
+      "h2": "Où acheter une couverture chauffante en France",
+      "html": "<p>Les trois choix sont vendus sur Amazon, et Beurer comme Imetec vendent aussi en direct sur leurs sites français. Les recherches « couverture chauffante Action » ou « couverture chauffante Lidl » montrent qu’on en cherche aussi en magasin : en ligne comme en boutique, les vérifications sont les mêmes.</p><ul><li>Une marque et une référence identifiables, et une notice en français.</li><li>Un arrêt automatique et un système de sécurité décrits par le fabricant.</li><li>Le symbole de la classe II et le marquage CE sur l’étiquette.</li><li>Une garantie annoncée, et un vendeur que vous pourrez joindre en cas de rappel.</li></ul>"
+    },
+    {
+      "h2": "Comment nous avons comparé, et journal des mises à jour",
+      "html": "<p>Nous ne testons pas les produits nous-mêmes. Les caractéristiques viennent des fiches françaises de Beurer et d’Imetec et de leurs notices ; les conseils de sécurité, de la DGCCRF, de Test-Achats et des notices ; les rappels, de RappelConso ; le prix du kWh, de la grille tarifaire d’EDF. Quand un fabricant ne publie pas un chiffre, le tableau l’indique au lieu de combler le vide.</p><ul><li><strong>1er novembre 2026 :</strong> page publiée. Coûts calculés au tarif Bleu option Base 6 kVA, 20,01 centimes le kWh TTC, applicable depuis le 1er août 2026.</li><li><strong>Prochaine révision :</strong> à la prochaine évolution du tarif Bleu, ou dès la publication d’un test ou d’un rappel concernant ces modèles.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Une couverture chauffante consomme-t-elle beaucoup d’électricité ?",
+      "a": "Non. Beurer donne environ 100 W en moyenne pour ses couvertures au niveau maximal, soit 2 centimes de l’heure au tarif Bleu (0,2001 € le kWh depuis le 1er août 2026). Un plaid Imetec de 150 W coûte au plus 3 centimes de l’heure. Trois heures par soir pendant 120 soirs à 100 W font environ 7,20 € sur l’hiver."
+    },
+    {
+      "q": "Peut-on dormir avec une couverture chauffante allumée ?",
+      "a": "Nous le déconseillons. La DGCCRF demande de débrancher les couvertures chauffantes après chaque utilisation et avant de s’endormir, et Test-Achats donne le même conseil. Pour un lit chaud, préchauffez-le avec un chauffe-matelas, puis éteignez et débranchez au coucher."
+    },
+    {
+      "q": "Plaid chauffant ou chauffage d’appoint : lequel coûte le moins ?",
+      "a": "Le plaid, de loin, pour une personne assise. Au tarif Bleu, un plaid de 150 W coûte au plus 3 centimes de l’heure, un radiateur d’appoint de 2 000 W 40 centimes. Mais le plaid chauffe la personne, pas la pièce : il ne règle ni l’humidité ni le froid des murs."
+    },
+    {
+      "q": "Une couverture chauffante est-elle dangereuse ?",
+      "a": "Bien utilisée et en bon état, le risque est faible : au 1er novembre 2026, RappelConso ne contient aucun rappel de couverture ou de plaid chauffant. Les dangers viennent d’un appareil abîmé, plié, mouillé, utilisé la nuit ou par une personne qui sent mal la chaleur. Choisissez un modèle avec arrêt automatique et vérifiez-le à chaque début de saison."
+    },
+    {
+      "q": "Quelle norme pour une couverture chauffante ?",
+      "a": "La norme NF EN 60335-2-17, qui couvre les couvertures, coussins, vêtements et appareils chauffants souples. Le marquage CE est la déclaration du fabricant ; Test-Achats conseille de préférer les produits certifiés par un organisme externe (IMQ, GS, TÜV) et de repérer le symbole de la classe II."
+    },
+    {
+      "q": "Comment laver une couverture chauffante ?",
+      "a": "Débranchez-la, retirez la commande, puis lavez à 30 °C sur un cycle très doux. Chez Beurer, pas de sèche-linge : séchage à plat sur un étendoir, sans pinces. Imetec autorise le sèche-linge à température modérée. Ne la rebranchez qu’une fois complètement sèche, et ne la repassez jamais."
+    },
+    {
+      "q": "Couverture chauffante ou surmatelas chauffant : quelle différence ?",
+      "a": "La couverture, ou plaid, se pose sur vous, sur le canapé ou au-dessus des draps. Le surmatelas chauffant, ou chauffe-matelas, se fixe sous le drap-housse pour préchauffer le lit. Ne les échangez pas. Beurer compte environ 25 W pour un chauffe-matelas 1 personne au niveau 2."
+    },
+    {
+      "q": "Un enfant peut-il utiliser une couverture chauffante ?",
+      "a": "Jamais avant 3 ans, disent Beurer et Imetec, car un jeune enfant ne réagit pas à une surchauffe. De 3 à 8 ans, seulement sous surveillance et avec la commande au niveau le plus bas."
+    },
+    {
+      "q": "Peut-on utiliser une couverture chauffante avec un pacemaker ?",
+      "a": "Demandez d’abord l’avis de votre médecin. Beurer indique que ses champs restent sous les limites, mais conseille de consulter le médecin et le fabricant du stimulateur. La notice Imetec interdit ses plaids aux porteurs de pacemaker ; la FAQ de son site déconseille l’usage continu et admet un préchauffage, commande débranchée avant usage."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Test-Achats",
+      "url": "https://www.test-achats.be/maison-energie/matelas/dossier/couverture-chauffante",
+      "note": "Dossier « Couvertures chauffantes : avantages, utilisation et entretien », publié le 16 octobre 2024, sans test de produits. Puissance « généralement comprise entre 50 et 150 W » ; conseille d’éteindre et de débrancher avant de s’endormir, de vérifier la classe II et le marquage CE, de préférer une certification externe (IMQ, GS, TÜV) et de contrôler l’appareil en début et en fin de saison. Déconseillé aux bébés, aux enfants, aux personnes handicapées et aux personnes âgées, ainsi qu’aux femmes enceintes."
+    }
+  ],
+  "sources": [
+    "https://www.imetec.com/fr-fr/products/plaid-chauffant-imetec-adapto-elegance-180-140-cm",
+    "https://www.imetec.com/fr-fr/products/adapto-tartan-festival-cm-160x120",
+    "https://www.imetec.com/fr-fr/products/plaid-chauffant-imetec-adapto-velvet-squares-150-95-cm-16775b",
+    "https://www.imetec.com/fr-fr/products/plaid-chauffant-imetec-adapto-grand-luxe-velour-180-140-cm",
+    "https://tenactagroup.canto.global/direct/document/1svqmntpg93el4qs9gel9vn65c/2_NrMF2NkFsKSKtWb5kd-T_rm4A/original?content-type=application%2Fpdf&name=MI004305_R7506_07_08_21_22_25_26_L.pdf",
+    "https://www.beurer.com/fr/p/43105/",
+    "https://res.cloudinary.com/beurer/image/upload/v1789631887/stibo-live/HD150XXL_2026-09-17_10_IM1_BEU.pdf",
+    "https://www.beurer.com/fr/p/40000/",
+    "https://res.cloudinary.com/beurer/image/upload/v1789986541/stibo-live/HD75GP_HD80GP_HD81GP_2026-09-18_06_IM1_BEU.pdf",
+    "https://www.beurer.com/fr/p/40053/",
+    "https://res.cloudinary.com/beurer/image/upload/v1782718025/stibo-live/07101586_HD65_HD72_2026-04-13_03_IM1_BEU.pdf",
+    "https://www.beurer.com/fr/l/energy/",
+    "https://www.beurer.com/fr/c/0020102/",
+    "https://particulier.edf.fr/content/dam/2-Actifs/Documents/Offres/Grille_prix_Tarif_Bleu.pdf",
+    "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/bouillottes-compresses-et-patchs-chauffants-attention-aux-risques-de-brulures",
+    "https://data.economie.gouv.fr/explore/dataset/rappelconso-v2-gtin-espaces/",
+    "https://rappel.conso.gouv.fr/fiche-rappel/17266/interne",
+    "https://rappel.conso.gouv.fr/fiche-rappel/49521/rapex",
+    "https://norminfo.afnor.org/",
+    "https://www.test-achats.be/maison-energie/matelas/dossier/couverture-chauffante",
+    "https://www.imetec.com/fr-fr/collections/surmatelas-chauffants"
+  ],
+  "related": [
+    "/fr/confort-air/chauffages-appoint",
+    "/fr/confort-air/deshumidificateurs",
+    "/fr/energie-domotique/thermostats",
+    "/fr/cuisine-connectee/prises-connectees",
+    "/fr/guides/probleme/chauffage-appoint-efficace-piece",
+    "/fr/blog/radiateur-electrique-connecte-guide",
+    "/fr/blog/comparatif-smart-plugs-mesure-energie",
+    "/fr/methodologie"
+  ]
+}

@@ -29,8 +29,8 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Smart electric heaters',
     h1: `Black Friday ${Y}: the smart electric heaters worth watching`,
     metaTitle: `Black Friday ${Y}: Smart Electric Heaters`,
-    metaDescription: `Smart electric heaters worth watching this Black Friday ${Y}: Thermor, Sauter, Mill. Wall-mounted or portable, sensors, app: what to check.`,
-    blurb: 'Thermor, Sauter, Mill: wall-mounted or portable, depending on your home.',
+    metaDescription: `Smart electric heaters and oil-filled radiators worth watching this Black Friday ${Y}. Wall-mounted or portable, sensors, app: what to check.`,
+    blurb: 'Wall-mounted or portable, whichever suits your home.',
     intro: 'Two kinds to tell apart: wall-mounted radiators with thermal inertia, which replace an old convector heater, and portable plug-in heaters that need no installation. Also check for open-window detection and app control.',
     faq: [
       {
@@ -51,8 +51,8 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Smarte Elektroheizungen',
     h1: `Black Friday ${Y}: Diese smarten Elektroheizungen lohnen den Blick`,
     metaTitle: `Black Friday ${Y}: smarte Elektroheizungen`,
-    metaDescription: `Smarte Elektroheizungen für den Black Friday ${Y}: Thermor, Sauter, Mill. Wandmontage oder mobil, Sensoren, App: Das sollten Sie vor dem Kauf prüfen.`,
-    blurb: 'Thermor, Sauter, Mill: fest an der Wand oder mobil, je nach Wohnung.',
+    metaDescription: `Smarte Elektroheizungen für den Black Friday ${Y}: Wandmontage oder Steckdose, Sensoren und App. Das sollten Sie vor dem Kauf unbedingt prüfen.`,
+    blurb: 'Fest an der Wand oder mobil zum Einstecken, je nach Wohnung.',
     intro: 'Zwei Arten sind zu unterscheiden: Elektroheizkörper mit Wärmespeicher für die Wandmontage, die einen alten Konvektor ersetzen, und mobile Geräte für die Steckdose, ganz ohne Montage. Achten Sie außerdem auf Fenster-offen-Erkennung und App-Steuerung.',
     faq: [
       {
@@ -73,8 +73,8 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Radiadores eléctricos inteligentes',
     h1: `Black Friday ${Y}: los radiadores eléctricos inteligentes que merece la pena seguir`,
     metaTitle: `Black Friday ${Y}: radiadores inteligentes`,
-    metaDescription: `Radiadores eléctricos inteligentes a seguir en el Black Friday ${Y}: Thermor, Sauter, Mill. De pared o portátil, sensores, app: qué comprobar.`,
-    blurb: 'Thermor, Sauter, Mill: de pared o portátil, según tu vivienda.',
+    metaDescription: `Nuestra selección de radiadores eléctricos inteligentes para seguir de cerca en el Black Friday ${Y}. De pared o portátil, sensores, app: qué comprobar.`,
+    blurb: 'De pared o portátil y sin obras, según tu vivienda.',
     intro: 'Hay dos tipos que distinguir: los radiadores de inercia que se fijan a la pared y sustituyen a un convector antiguo, y los portátiles que se enchufan, sin obras. Comprueba también la detección de ventana abierta y el control por app.',
     faq: [
       {
@@ -95,8 +95,8 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Radiatori elettrici smart',
     h1: `Black Friday ${Y}: i radiatori elettrici smart da tenere d'occhio`,
     metaTitle: `Black Friday ${Y}: radiatori elettrici smart`,
-    metaDescription: `Radiatori elettrici smart da tenere d'occhio per il Black Friday ${Y}: Thermor, Sauter, Mill. A parete o portatili, sensori, app: cosa verificare.`,
-    blurb: 'Thermor, Sauter, Mill: a parete o portatile, in base alla casa.',
+    metaDescription: `Radiatori elettrici smart da tenere d'occhio per il Black Friday ${Y}: modelli a parete o portatili come Mill. Sensori e app: ecco cosa verificare.`,
+    blurb: 'Fisso a parete o portatile come Mill: scegli in base alla tua casa.',
     intro: 'Due tipi da distinguere: i radiatori a inerzia da fissare a parete, che sostituiscono un vecchio convettore, e quelli portatili da collegare alla presa, senza lavori. Verifica anche il rilevamento di finestra aperta e il controllo tramite app.',
     faq: [
       {
@@ -117,8 +117,8 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Slimme elektrische radiatoren',
     h1: `Black Friday ${Y}: de slimme elektrische radiatoren om in de gaten te houden`,
     metaTitle: `Black Friday ${Y}: slimme elektrische radiatoren`,
-    metaDescription: `Slimme elektrische radiatoren om te volgen tijdens Black Friday ${Y}: Thermor, Sauter, Mill. Vast of mobiel, sensoren, app: wat je vóór aankoop checkt.`,
-    blurb: 'Thermor, Sauter, Mill: vast aan de muur of mobiel, afhankelijk van je woning.',
+    metaDescription: `Slimme elektrische radiatoren om in de gaten te houden tijdens Black Friday ${Y}, zoals die van Mill. Vast of mobiel, sensoren en app: dit check je.`,
+    blurb: 'Vast aan de muur of mobiel, afhankelijk van je woning.',
     intro: 'Er zijn twee soorten: radiatoren met warmteopslag voor aan de muur, die een oude convector vervangen, en mobiele radiatoren voor het stopcontact, zonder installatie. Let ook op raam-open-detectie en bediening via een app.',
     faq: [
       {
@@ -139,8 +139,8 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Inteligentne grzejniki elektryczne',
     h1: `Black Friday ${Y}: inteligentne grzejniki elektryczne, które warto mieć na oku`,
     metaTitle: `Black Friday ${Y}: inteligentne grzejniki elektryczne`,
-    metaDescription: `Inteligentne grzejniki elektryczne na Black Friday ${Y}: Thermor, Sauter, Mill. Stałe lub mobilne, czujniki, aplikacja: co sprawdzić.`,
-    blurb: 'Thermor, Sauter, Mill: do montażu na ścianie lub mobilne, zależnie od mieszkania.',
+    metaDescription: `Inteligentne grzejniki elektryczne na Black Friday ${Y}: ścienne czy mobilne, czujniki, aplikacja – sprawdź, na co zwrócić uwagę przed zakupem.`,
+    blurb: 'Do montażu na ścianie lub mobilne – wybierz model, który pasuje do twojego mieszkania.',
     intro: 'Warto odróżnić dwie rodziny: grzejniki z akumulacją ciepła montowane na ścianie, które zastępują stary konwektor, oraz mobilne grzejniki podłączane do gniazdka, bez prac instalacyjnych. Sprawdź też wykrywanie otwartego okna i sterowanie z aplikacji.',
     faq: [
       {
@@ -161,8 +161,8 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Smarta elelement',
     h1: `Black Friday ${Y}: smarta elelement att hålla koll på`,
     metaTitle: `Black Friday ${Y}: smarta elelement värda att bevaka`,
-    metaDescription: `Smarta elelement att hålla koll på inför Black Friday ${Y}: Thermor, Sauter och Mill. Fast eller flyttbart, sensorer och app – det här ska du kontrollera.`,
-    blurb: 'Thermor, Sauter, Mill: väggmonterat eller flyttbart, efter din bostad.',
+    metaDescription: `Smarta elelement att hålla koll på inför Black Friday ${Y}, till exempel från Mill. Fast eller flyttbart, sensorer och app – det här ska du kontrollera.`,
+    blurb: 'Väggmonterat eller flyttbart – välj efter din bostad.',
     intro: 'Det finns två sorter att skilja på: väggmonterade, värmelagrande element som ersätter ett gammalt konvektorelement, och flyttbara element som du bara sätter i ett vägguttag, utan installation. Kontrollera också om elementet känner av öppna fönster och går att styra via app.',
     faq: [
       {

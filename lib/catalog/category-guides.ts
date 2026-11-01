@@ -74,6 +74,8 @@ export const CATEGORY_GUIDES: Record<string, { primary?: string; related: readon
   cafetieres: { primary: 'cafetiere-connectee-guide', related: [] },
   airfryers: { primary: 'comparatif-airfryer-connecte-2026', related: [] },
   multicuiseurs: { primary: 'comparatif-multicuiseur-connecte', related: [] },
+  // Indexed in fr, de, es, it and pl only (categories.ts `indexableIn`).
+  'robots-multifonctions': { primary: 'robot-cuiseur-connecte-comparatif', related: ['cookeo-vs-thermomix-vs-airfryer'] },
   'prises-connectees': { primary: 'comparatif-smart-plugs-mesure-energie', related: [] },
 }
 

@@ -24,6 +24,13 @@ export const FR_HEADS: CategoryHeads = {
     h1: "Les meilleurs multicuiseurs 2026 : Cookeo, Ninja Foodi ou Instant Pot ?",
     description: "Cookeo Touch WiFi, Ninja Foodi SmartLid ou Instant Pot : nos 3 multicuiseurs comparés sur la capacité, la cuisson sous pression et les recettes. FAQ.",
   },
+  // Indexed in this market (categories.ts indexableIn): the robot cooker guide's models.
+  "robots-multifonctions": {
+    keyword: "robot cuiseur",
+    title: "Robot cuiseur 2026 : le Thermomix TM7 et 4 alternatives",
+    h1: "Les meilleurs robots cuiseurs 2026 : le Thermomix TM7 et ses alternatives",
+    description: "Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL ou Cecotec Mambo : nos robots cuiseurs comparés. FAQ.",
+  },
   "cafetieres": {
     keyword: "machine à café à grain",
     title: "Machine à café à grain : comparatif 2026 et nos 3 choix",

@@ -1,0 +1,288 @@
+{
+  "locale": "fr",
+  "type": "duel",
+  "slug": "cookeo-ou-thermomix",
+  "updated": "2026-11-01",
+  "metaTitle": "Cookeo ou Thermomix TM7 : lequel choisir en 2026 ?",
+  "metaDescription": "Cookeo ou Thermomix ? Le Cookeo Touch Wifi cuit sous pression, le TM7 hache, mixe, pèse et cuit : contenance, abonnement Cookidoo, achat et verdict.",
+  "kicker": "Duel · Multicuiseur ou robot cuiseur",
+  "h1": "Cookeo ou Thermomix : faut-il un Cookeo Touch Wifi ou un Thermomix TM7 ?",
+  "answer": "Pour la plupart des foyers, nous plaçons le Cookeo Touch Wifi devant : il cuit sous pression des plats complets jusqu’à 6 personnes (4 L utiles) et son application est gratuite. Le Thermomix TM7 s’adresse à ceux qui veulent aussi hacher, mixer, pétrir et peser dans une seule machine, et qui acceptent l’abonnement Cookidoo et l’achat chez Vorwerk. Fiches vérifiées le 1er novembre 2026.",
+  "picks": [
+    {
+      "brand": "Moulinex",
+      "model": "Cookeo Touch Wifi CE902800",
+      "role": "Notre choix : les plats du quotidien",
+      "why": "C’est l’appareil le plus simple pour les repas de famille : cuve de 6 L dont 4 L utiles, cuisson sous pression à 100 kPa que Moulinex annonce jusqu’à 6 fois plus rapide qu’une cuisson classique, et recettes guidées en illimité par Wi-Fi avec l’application gratuite MyMoulinex. Il ne hache ni ne mixe : la préparation reste à faire à la main.",
+      "bestFor": "Familles jusqu’à 6 personnes, plats mijotés et repas rapides en semaine, foyers qui ne veulent pas d’abonnement",
+      "asin": "B0859ZJVDH",
+      "manufacturerUrl": "https://www.moulinex.fr/p/cookeo-touch-mullticuiseur-connecte-6l-26-pers-ecran-tactile/7211004989",
+      "specs": {
+        "Type": "multicuiseur électrique sous pression",
+        "Capacité": "cuve de 6 L, capacité utile 4 L ; jusqu’à 6 personnes (programmes pour 2, 4 ou 6)",
+        "Modes de cuisson": "13 : sous pression (basse pression, haute pression, express), vapeur (doux, boost), mijoter (doux, moyen, fort), dorer (doux, moyen, fort), réchauffer et maintien au chaud",
+        "Pression": "100 kPa",
+        "Puissance": "1 345 à 1 600 W",
+        "Écran": "tactile couleur 4,3 pouces, inclinable",
+        "Recettes guidées": "en nombre illimité avec la connexion Wi-Fi, pas à pas en image et en vidéo",
+        "Application": "MyMoulinex, gratuite",
+        "Balance intégrée": "non (oui sur la version Cookeo Touch Pro CE943410)",
+        "Départ différé": "oui",
+        "Cuve": "revêtement céramique antiadhésif, deux poignées",
+        "Lave-vaisselle": "cuve et accessoires",
+        "Cordon": "1 m, amovible",
+        "Accessoires fournis": "cuve de 6 L, panier vapeur",
+        "Fonction air fryer": "avec le couvercle Extra Crisp, vendu séparément",
+        "Garantie": "2 ans",
+        "Réparabilité": "engagement Moulinex de 15 ans",
+        "Couleur": "noir"
+      }
+    },
+    {
+      "brand": "Vorwerk",
+      "model": "Thermomix TM7",
+      "role": "L’alternative : préparer et cuire",
+      "why": "Le seul des deux qui prépare autant qu’il cuit : il mixe jusqu’à la vitesse 10, hache, pétrit, pèse au gramme et cuit jusqu’à 160 °C, avec plus de 20 modes et un écran de 10 pouces. Test Achats mesure des performances au niveau du TM6, mais relève une balance parfois imprécise et une prise en main en retrait.",
+      "bestFor": "Cuisiniers qui font tout maison (soupes, sauces, pâte à pain, desserts), foyers qui veulent remplacer mixeur, pétrin, balance et cuiseur vapeur par une seule machine",
+      "asin": null,
+      "manufacturerUrl": "https://www.vorwerk.com/fr/fr/c/vorwerk/produits/thermomix/thermomix-tm7",
+      "specs": {
+        "Type": "robot cuiseur multifonction (prépare et cuit dans le même bol)",
+        "Bol": "2,2 L, inox",
+        "Température maximale": "160 °C",
+        "Fonctions": "12 fonctions et 25 modes intégrés selon la boutique Vorwerk (24 modes sur la fiche produit)",
+        "Modes cités par Vorwerk": "cuisson lente (60 à 98 °C), sous-vide (40 à 85 °C), fermentation (37 à 70 °C), bouilloire (37 à 100 °C), cuisson sans couvercle (jusqu’à 100 °C, sans rotation des couteaux), pétrin, rissoler, riz, œufs, vapeur, sauce, mixer, turbo, éplucher, râper, trancher, découper en spirale, réchauffer, pré-nettoyage ; râper, trancher et découper en spirale avec le Découpe-Minute+, éplucher avec le couvre-lame éplucheur, deux accessoires non fournis",
+        "Vitesses": "mixage jusqu’à la vitesse 10, plus une fonction Turbo",
+        "Balance intégrée": "oui, par pas de 1 g (5 g en mouvement), utilisable jusqu’à la vitesse 4",
+        "Écran": "tactile 10 pouces",
+        "Varoma (panier vapeur)": "45 % de volume en plus par rapport au TM6",
+        "Connectivité": "Wi-Fi ; Bluetooth pour le Thermomix Sensor",
+        "Recettes guidées": "Cookidoo 3.0 uniquement, plus de 10 000 recettes sur abonnement, 3 mois offerts aux nouveaux abonnés ; cuisine manuelle possible sans abonnement",
+        "Accessoires fournis": "bol, couteaux, Varoma, panier de cuisson, fouet, spatule",
+        "Lave-vaisselle": "tous les accessoires ; base à nettoyer à la main",
+        "Fabrication": "moteur et couteaux produits à Wuppertal (Allemagne), assemblage final en France",
+        "Garantie": "3 ans annoncés sur la boutique Vorwerk (la fiche produit mentionne aussi 2 ans)",
+        "Satisfait ou remboursé": "30 jours",
+        "Vente": "par Vorwerk : boutique en ligne, conseillers Thermomix et boutiques Vorwerk"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Critère",
+      "Moulinex Cookeo Touch Wifi CE902800",
+      "Vorwerk Thermomix TM7"
+    ],
+    "rows": [
+      [
+        "Type d’appareil",
+        "multicuiseur sous pression : il cuit",
+        "robot cuiseur : il prépare et cuit dans le même bol"
+      ],
+      [
+        "Contenance",
+        "cuve de 6 L, 4 L utiles, programmes pour 2, 4 ou 6 personnes",
+        "bol de 2,2 L ; Varoma 45 % plus grand que celui du TM6"
+      ],
+      [
+        "Hacher, mixer, pétrir",
+        "non : aucun mode de préparation",
+        "oui : mixer jusqu’à la vitesse 10, turbo, pétrin ; râper, trancher et découper en spirale avec le Découpe-Minute+, vendu à part"
+      ],
+      [
+        "Cuisson sous pression",
+        "oui, 100 kPa, 3 niveaux",
+        "non (aucun mode listé par Vorwerk)"
+      ],
+      [
+        "Autres cuissons",
+        "vapeur, mijoter, dorer, réchauffer, maintien au chaud ; air fryer avec le couvercle Extra Crisp vendu à part",
+        "vapeur (Varoma), cuisson lente, sous-vide, fermentation, rissoler, riz, œufs, cuisson sans couvercle jusqu’à 100 °C"
+      ],
+      [
+        "Température maximale",
+        "non indiquée par Moulinex",
+        "160 °C"
+      ],
+      [
+        "Balance intégrée",
+        "non (oui sur le Cookeo Touch Pro CE943410)",
+        "oui, au gramme (5 g en mouvement)"
+      ],
+      [
+        "Écran",
+        "tactile couleur 4,3 pouces, inclinable",
+        "tactile 10 pouces"
+      ],
+      [
+        "Recettes guidées",
+        "illimitées avec le Wi-Fi, application MyMoulinex gratuite",
+        "Cookidoo 3.0 sur abonnement (3 mois offerts aux nouveaux abonnés) ; mode manuel sans abonnement"
+      ],
+      [
+        "Entretien",
+        "cuve et accessoires au lave-vaisselle",
+        "accessoires au lave-vaisselle, base à la main"
+      ],
+      [
+        "Garantie et réparation",
+        "2 ans ; réparabilité 15 ans",
+        "3 ans annoncés sur la boutique Vorwerk (2 ans sur la fiche produit) ; 30 jours satisfait ou remboursé"
+      ],
+      [
+        "Où l’acheter",
+        "Moulinex, enseignes d’électroménager, Amazon",
+        "chez Vorwerk : boutique en ligne, conseiller Thermomix, boutiques Vorwerk"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Plats du quotidien pour toute la famille",
+      "weight": 25,
+      "explanation": "La plupart des acheteurs veulent d’abord des repas complets, vite, pour plusieurs personnes. Nous comparons la contenance utile, les programmes par nombre de convives et la cuisson sous pression. Avantage net : Cookeo (4 L utiles, programmes pour 2, 4 ou 6 personnes, cuisson sous pression annoncée jusqu’à 6 fois plus rapide). Le TM7 cuit dans un bol de 2,2 L et n’a pas de mode sous pression."
+    },
+    {
+      "name": "Polyvalence : préparer autant que cuire",
+      "weight": 25,
+      "explanation": "Un robot cuiseur ne remplace plusieurs appareils que s’il prépare aussi. Nous comparons les modes de préparation (mixer, hacher, pétrir, râper), la balance et les cuissons de précision. Net avantage : Thermomix (plus de 20 modes, balance au gramme, sous-vide, fermentation, cuisson lente). Le Cookeo ne prépare rien, et sa balance n’existe que sur la version Touch Pro."
+    },
+    {
+      "name": "Coût, abonnement et achat",
+      "weight": 20,
+      "explanation": "Nous comparons l’écart de prix d’achat, sans citer de prix, qui évoluent, le coût des recettes et la facilité d’achat. Avantage : Cookeo, plusieurs fois moins cher à l’achat, sans abonnement et vendu partout. Le TM7 se commande chez Vorwerk et sa bibliothèque complète de recettes passe par l’abonnement Cookidoo."
+    },
+    {
+      "name": "Recettes guidées et application",
+      "weight": 15,
+      "explanation": "Nous comparons la taille de la bibliothèque, l’écran et ce que les testeurs disent des applications. Léger avantage : Thermomix (plus de 10 000 recettes Cookidoo, écran de 10 pouces). Le Cookeo offre des recettes illimitées et gratuites sur un écran de 4,3 pouces ; dans son test du Cookeo Infinity, Journal du Geek juge l’écosystème MyMoulinex moins mature que Cookidoo."
+    },
+    {
+      "name": "Entretien, garantie et réparabilité",
+      "weight": 15,
+      "explanation": "Nous comparons ce qui passe au lave-vaisselle, la garantie et les engagements de réparation. Avantage : Cookeo (cuve et accessoires au lave-vaisselle, garantie 2 ans, réparabilité 15 ans). Le TM7 a une garantie annoncée plus longue, mais Vorwerk affiche deux durées différentes, et Test Achats comme Journal du Geek critiquent sa coque en plastique."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Cookeo ou Thermomix : notre verdict",
+      "html": "<p><strong>Choisissez le Cookeo Touch Wifi si :</strong></p><ul><li>vous cuisinez surtout des plats complets pour la famille : cuve de 6 L dont 4 L utiles, programmes pour 2, 4 ou 6 personnes ;</li><li>vous voulez aller vite en semaine : Moulinex annonce une cuisson sous pression jusqu’à 6 fois plus rapide qu’une cuisson classique ;</li><li>vous ne voulez pas d’abonnement : les recettes guidées passent par l’application gratuite MyMoulinex ;</li><li>la découpe ne vous gêne pas : le Cookeo cuit, il ne prépare pas.</li></ul><p><strong>Choisissez le Thermomix TM7 si :</strong></p><ul><li>vous faites beaucoup de choses maison : soupes mixées, sauces, pâte à pain, pâtisserie, compotes ;</li><li>vous voulez peser, hacher, mixer et cuire dans le même bol, en suivant une recette guidée de bout en bout sur un écran de 10 pouces ;</li><li>vous cherchez des cuissons précises : sous-vide de 40 à 85 °C, fermentation de 37 à 70 °C, cuisson lente de 60 à 98 °C ;</li><li>vous acceptez d’acheter chez Vorwerk et de payer Cookidoo pour accéder à toute la bibliothèque de recettes.</li></ul><p><strong>Entre les deux :</strong> le Cookeo Touch Pro (CE943410) reprend le Cookeo Touch Wifi et ajoute une balance intégrée. Il pèse au gramme dans la cuve, mais il ne hache et ne mixe pas davantage.</p>"
+    },
+    {
+      "h2": "Cuire vite ou préparer et cuire : la vraie différence",
+      "html": "<p>On les range souvent dans la même famille, mais ces deux appareils ne font pas le même travail.</p><ul><li><strong>Le Cookeo est un multicuiseur.</strong> Il cuit sous pression, à la vapeur, mijote, dore, réchauffe et garde au chaud. Parmi ses 13 modes, Moulinex n’en liste aucun pour hacher, mixer ou pétrir : vous préparez les ingrédients, il s’occupe de la cuisson, avec un départ différé pour choisir l’heure du repas.</li><li><strong>Le Thermomix est un robot cuiseur.</strong> Ses couteaux tournent dans un bol chauffant : il mixe, hache, pétrit, monte une sauce, puis cuit dans le même bol, jusqu’à 160 °C selon Vorwerk. Que Choisir précise que le réglage manuel va de 37 à 120 °C et que les 160 °C passent par les recettes guidées.</li><li><strong>Ce que le Thermomix ne fait pas :</strong> Vorwerk ne liste aucun mode de cuisson sous pression. Pour un bœuf bourguignon, un pot-au-feu ou des légumineuses en semaine, c’est le Cookeo qui garde l’avantage.</li></ul><p>Le Cookeo ne remplace donc pas un Thermomix, et l’inverse n’est pas vrai non plus. La question à se poser : passez-vous plus de temps à couper et mixer, ou à attendre que ça cuise ?</p>"
+    },
+    {
+      "h2": "Contenance : pour combien de personnes ?",
+      "html": "<ul><li><strong>Cookeo Touch Wifi :</strong> une cuve de 6 L, dont 4 L utiles, et des programmes pour 2, 4 ou 6 personnes. La fiche de Que Choisir indique un volume maximal de 5,77 L, dont 4 L utiles.</li><li><strong>Thermomix TM7 :</strong> un bol de 2,2 L. Vorwerk ne donne pas de nombre de personnes. Le Varoma, le panier vapeur qui se pose sur le bol, gagne 45 % de volume par rapport au TM6 : Que Choisir l’annonce à 6,8 L.</li></ul><p>Pour un mijoté à six, la contenance est du côté du Cookeo. Le Thermomix compense par la vapeur du Varoma, mais une soupe ou une sauce reste limitée aux 2,2 L du bol.</p>"
+    },
+    {
+      "h2": "Recettes guidées, application et abonnement",
+      "html": "<ul><li><strong>Cookeo :</strong> les recettes s’affichent pas à pas, en image et en vidéo, sur l’écran tactile inclinable de 4,3 pouces. Avec le Wi-Fi, Moulinex les annonce en nombre illimité via l’application MyMoulinex, gratuite.</li><li><strong>Thermomix :</strong> le TM7 ne fonctionne qu’avec Cookidoo 3.0, qui compte plus de 10 000 recettes guidées. Vorwerk offre 3 mois aux nouveaux abonnés ; ensuite, l’abonnement coûte 60 € par an pour un nouvel abonné (tarif affiché par Vorwerk au 1er novembre 2026).</li><li><strong>Sans abonnement :</strong> la cuisine manuelle du TM7 reste disponible (durée, température, vitesse et sens de rotation des couteaux), confirme Vorwerk. Mais certaines fonctions, comme la cuisson du sucre, ne passent que par la cuisine guidée, et Test Achats note une recherche de recettes limitée sans Cookidoo.</li></ul>"
+    },
+    {
+      "h2": "Ce que disent les testeurs",
+      "html": "<p>Homenura ne teste pas ces appareils : voici ce qu’ont publié des associations de consommateurs et des rédactions qui les ont eus entre les mains.</p><ul><li><strong>Test Achats</strong> (association belge de consommateurs), avis d’expert sur le TM7 publié le 12/06/2026 : préparation et cuisson au niveau du TM6, blancs en neige mieux montés, pâte à gâteau et crème un peu moins réussies ; balance intégrée « pas toujours précise », avec des écarts d’environ 20 g face à la balance étalonnée du laboratoire ; prise en main et finition en retrait du TM6 ; cuisson sans couvercle peu pratique, car les couteaux restent immobiles et il faut remuer à la main. Pour Test Achats, l’ancien modèle reste meilleur. Un test d’endurance est annoncé.</li><li><strong>Que Choisir</strong>, test du TM7 publié le 21/01/2026 : la note et l’avis du testeur sont réservés aux abonnés ; la fiche publique indique 8,45 kg, un Varoma de 6,8 L, le Wi-Fi et le Bluetooth, et un appareil assemblé en France avec un moteur et des couteaux fabriqués en Allemagne.</li><li><strong>Journal du Geek</strong>, test du TM7 publié le 16/07/2025 (9/10) : grand écran et interface moderne, nouveaux modes, appareil bien plus silencieux (34 dB relevés en mijotage contre 47 dB pour le TM6, 77 dB à pleine puissance) ; coque en plastique plus difficile à nettoyer.</li><li><strong>Que Choisir</strong>, test du Cookeo Touch Wifi publié le 13/03/2023 : note réservée aux abonnés ; protocole public sur quatre recettes (haricots secs, riz à capacité maximale, carottes vapeur, poulet entier), plus la commodité d’emploi et la consommation électrique ; sa fiche indique 4 L utiles, 1 600 W et 6,4 kg.</li><li><strong>Journal du Geek</strong>, test du Cookeo Infinity, un autre Cookeo avec fonction air fryer intégrée, publié le 17/10/2025 (8/10) : polyvalent et simple à utiliser, mais incapable de pétrir ou de mixer, même avec sa pale en option. C’est la limite de tous les Cookeo face à un Thermomix.</li></ul>"
+    },
+    {
+      "h2": "Achat, garantie et entretien",
+      "html": "<ul><li><strong>Où les acheter :</strong> le Cookeo Touch Wifi se trouve chez Moulinex, dans les enseignes d’électroménager et sur Amazon. Le TM7 se commande chez Vorwerk : sur sa boutique en ligne, auprès d’un conseiller Thermomix après un atelier gratuit et sans engagement à domicile (environ une heure), ou dans l’une de ses 7 boutiques (Paris La Défense, Paris Opéra, Marseille, Cabriès, Lyon, Bordeaux et Toulouse). Les paiements en plusieurs fois passent par un conseiller ou une boutique.</li><li><strong>Garantie :</strong> 2 ans pour le Cookeo, avec un engagement de réparabilité de 15 ans. Pour le TM7, la boutique Vorwerk annonce 3 ans, mais la fiche produit mentionne aussi 2 ans : faites préciser la durée avant de commander. Vorwerk ajoute 30 jours satisfait ou remboursé.</li><li><strong>Entretien :</strong> la cuve et les accessoires du Cookeo passent au lave-vaisselle. Ceux du TM7 aussi, mais la base se nettoie à la main.</li><li><strong>Accessoires vendus à part :</strong> pour le Cookeo, le couvercle Extra Crisp, qui ajoute la fonction air fryer. Pour le TM7, Test Achats signale que certaines recettes demandent des accessoires vendus séparément pour râper, trancher ou découper en spirale : chez Vorwerk, ces modes passent par le Découpe-Minute+, et l’épluchage par le couvre-lame éplucheur, absents du carton.</li></ul>"
+    },
+    {
+      "h2": "Les alternatives dans chaque gamme",
+      "html": "<ul><li><strong>Moulinex Cookeo Touch Pro (CE943410) :</strong> les mêmes 13 programmes, la même cuve de 6 L dont 4 L utiles, le même écran inclinable de 4,3 pouces, 1 345 à 1 600 W et 100 kPa, plus une balance intégrée qui pèse au gramme dans la cuve. C’est le Cookeo le plus proche du confort d’un Thermomix pour suivre une recette.</li><li><strong>Moulinex Cookeo Infinity :</strong> testé par Journal du Geek en octobre 2025, avec 20 programmes, une fonction air fryer intégrée au couvercle et une cuve de 6,5 L. À regarder si vous voulez aussi un air fryer ; il ne prépare pas plus que les autres Cookeo.</li><li><strong>Moulinex Companion :</strong> les robots cuiseurs de Moulinex, qui préparent et cuisent dans le même bol comme un Thermomix, pour ceux qui veulent ce type d’appareil sans passer par Vorwerk. Nous comparons cette gamme dans notre comparatif des robots cuiseurs connectés.</li><li><strong>Thermomix TM6 :</strong> Test Achats le préfère encore au TM7 pour la prise en main et la finition. Vorwerk ne le propose plus neuf (la page du TM6 Édition Noir absolu de sa boutique renvoie vers le TM7), mais vend des TM6 reconditionnés garantis 2 ans (constaté le 1er novembre 2026).</li></ul>"
+    },
+    {
+      "h2": "Pourquoi ce classement",
+      "html": "<p>Nous avons noté chaque appareil de 1 à 10 sur cinq critères, à partir des fiches de Moulinex et de Vorwerk et des résultats publiés par les testeurs, puis appliqué les poids.</p><ul><li>Plats du quotidien pour toute la famille (25 %) : Cookeo 9, Thermomix 6.</li><li>Polyvalence : préparer autant que cuire (25 %) : Thermomix 10, Cookeo 4.</li><li>Coût, abonnement et achat (20 %) : Cookeo 9, Thermomix 4.</li><li>Recettes guidées et application (15 %) : Thermomix 8, Cookeo 7.</li><li>Entretien, garantie et réparabilité (15 %) : Cookeo 8, Thermomix 7.</li></ul><p>Pondéré, le Cookeo Touch Wifi obtient 7,3 sur 10 et le Thermomix TM7 7,05 sur 10. L’écart est faible : il tient à la contenance, au coût et à l’abonnement. Si vous préparez beaucoup vous-même, donnez plus de poids à la polyvalence : le TM7 devient alors le bon choix.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Cookeo ou Thermomix : lequel choisir pour une famille ?",
+      "a": "Pour des plats complets à quatre ou six, le Cookeo : 4 L utiles, programmes pour 2, 4 ou 6 personnes et cuisson sous pression. Le Thermomix TM7 cuit dans un bol de 2,2 L ; il prend l’avantage si vous voulez aussi préparer soupes, sauces, pâtes et desserts dans la même machine."
+    },
+    {
+      "q": "Un Cookeo peut-il remplacer un Thermomix ?",
+      "a": "Non. Le Cookeo cuit (sous pression, à la vapeur, mijoté, doré) mais ne hache, ne mixe et ne pétrit pas : aucun de ses 13 modes ne le fait. Le Thermomix prépare et cuit dans le même bol. À l’inverse, Vorwerk ne liste aucun mode de cuisson sous pression sur le TM7."
+    },
+    {
+      "q": "Peut-on utiliser le Thermomix TM7 sans abonnement Cookidoo ?",
+      "a": "Oui, en cuisine manuelle : vous réglez la durée, la température, la vitesse et le sens de rotation, confirme Vorwerk. Les plus de 10 000 recettes guidées demandent en revanche Cookidoo 3.0 : 3 mois offerts aux nouveaux abonnés, puis 60 € par an selon Vorwerk au 1er novembre 2026. Certaines fonctions ne passent que par la cuisine guidée."
+    },
+    {
+      "q": "Où acheter le Thermomix TM7 ?",
+      "a": "Chez Vorwerk : sur sa boutique en ligne, auprès d’un conseiller Thermomix (atelier gratuit et sans engagement à domicile) ou dans l’une de ses 7 boutiques en France. Le prix est affiché sur la boutique Vorwerk, et les paiements en plusieurs fois passent par un conseiller ou une boutique."
+    },
+    {
+      "q": "Quelle différence entre le Cookeo Touch Wifi et le Cookeo Touch Pro ?",
+      "a": "La balance. Sur leurs fiches moulinex.fr, les deux ont 13 programmes, une cuve de 6 L dont 4 L utiles, un écran tactile inclinable de 4,3 pouces, 1 345 à 1 600 W et une pression de 100 kPa. Le Touch Pro (CE943410, bleu) pèse en plus les ingrédients au gramme dans la cuve."
+    },
+    {
+      "q": "Le Thermomix TM7 est-il plus silencieux que le TM6 ?",
+      "a": "Oui, selon les testeurs. Journal du Geek a relevé 34 dB en mijotage contre 47 dB pour le TM6, et 77 dB à pleine puissance ; Test Achats le trouve légèrement plus silencieux. Vorwerk vante un moteur silencieux, sans donner de chiffre."
+    },
+    {
+      "q": "Le TM7 est-il meilleur que le TM6 ?",
+      "a": "Pas sur tout. Test Achats (12/06/2026) mesure des performances équivalentes et de meilleurs blancs en neige, mais une prise en main et une finition en retrait, et conclut que l’ancien modèle reste meilleur. Le TM7 apporte un écran de 10 pouces, la cuisson sans couvercle et un Varoma 45 % plus grand."
+    },
+    {
+      "q": "Que dit Que Choisir du Cookeo et du Thermomix ?",
+      "a": "Que Choisir a testé le Thermomix TM7 (21/01/2026) et le Cookeo Touch Wifi (13/03/2023), mais ses notes et ses avis sont réservés aux abonnés : nous ne les reprenons pas. Nous citons sa fiche publique et les résultats datés de Test Achats et de Journal du Geek."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Test Achats",
+      "url": "https://www.test-achats.be/electromenager/robots-cuisine/news/avis-dexpert-sur-le-thermomix-tm7",
+      "note": "Avis d’expert sur le Thermomix TM7 publié le 12/06/2026 : performances de préparation et de cuisson équivalentes à celles du TM6, blancs en neige mieux montés, pâte à gâteau et crème un peu moins réussies ; balance pas toujours précise (écarts d’environ 20 g face à la balance étalonnée du laboratoire) ; prise en main et finition en retrait ; cuisson sans couvercle peu pratique, couteaux immobiles ; recherche de recettes limitée sans Cookidoo. Conclusion : l’ancien modèle reste meilleur. Test d’endurance annoncé."
+    },
+    {
+      "name": "UFC-Que Choisir",
+      "url": "https://www.quechoisir.org/comparatif-robot-cuiseur-n753/vorwerk-thermomix-tm7-p285718/",
+      "note": "Test du Thermomix TM7 publié le 21/01/2026. Note et avis réservés aux abonnés. Fiche publique : une douzaine de fonctions et 25 modes, réglage manuel de 37 à 120 °C et jusqu’à 160 °C en recettes guidées, balance intégrée, Wi-Fi et Bluetooth, 8,45 kg, Varoma de 6,8 L, assemblé en France avec moteur et couteaux fabriqués en Allemagne."
+    },
+    {
+      "name": "Journal du Geek",
+      "url": "https://www.journaldugeek.com/test/test-du-thermomix-tm7-le-meme-en-mieux/",
+      "note": "Test du Thermomix TM7 publié le 16/07/2025, 9/10. Points forts : écran tactile XXL et interface moderne, nouveaux modes de cuisson, beaucoup plus silencieux (34 dB en mijotage contre 47 dB pour le TM6, 77 dB à pleine puissance). Point faible : coque en plastique plus difficile à nettoyer."
+    },
+    {
+      "name": "UFC-Que Choisir",
+      "url": "https://www.quechoisir.org/comparatif-multicuiseur-n807/moulinex-cookeo-touch-wifi-p250420/",
+      "note": "Test du Cookeo Touch Wifi CE902800 publié le 13/03/2023. Note et avis réservés aux abonnés. Protocole public : quatre recettes (haricots secs après trempage, riz à capacité maximale, carottes vapeur, poulet entier), commodité d’emploi, consommation électrique. Fiche publique : volume maximal 5,77 L, volume utile 4 L, 1 600 W, 6,4 kg."
+    },
+    {
+      "name": "Journal du Geek",
+      "url": "https://www.journaldugeek.com/test/test-du-moulinex-cookeo-infinity-un-serieux-concurrent-a-thermomix/",
+      "note": "Test du Moulinex Cookeo Infinity (un autre Cookeo, avec fonction air fryer intégrée) publié le 17/10/2025, 8/10 : polyvalent, simple à utiliser et ergonomique ; ni pétrissage ni mixage, même avec la pale ; minutage pas toujours fiable ; écosystème MyMoulinex jugé moins mature que Cookidoo."
+    }
+  ],
+  "sources": [
+    "https://www.moulinex.fr/p/cookeo-touch-mullticuiseur-connecte-6l-26-pers-ecran-tactile/7211004989",
+    "https://www.moulinex.fr/p/cookeo-touch-pro-avec-balance-integree/7211419075",
+    "https://www.moulinex.fr/APPAREILS-DE-CUISSON/Cookeo/c/cookeo",
+    "https://www.vorwerk.com/fr/fr/c/vorwerk/produits/thermomix/thermomix-tm7",
+    "https://www.vorwerk.com/fr/fr/s/shop/thermomix-tm7",
+    "https://www.vorwerk.com/fr/fr/c/vorwerk/lp/prise-en-main-du-robot-TM7",
+    "https://www.vorwerk.com/fr/fr/c/vorwerk/produits/thermomix/comment-acheter",
+    "https://www.vorwerk.com/fr/fr/s/shop/thermomix-tm6-edition-noir-absolu",
+    "https://www.quechoisir.org/comparatif-robot-cuiseur-n753/vorwerk-thermomix-tm7-p285718/",
+    "https://www.quechoisir.org/actualite-robot-cuiseur-thermomix-tm7-video-premieres-impressions-n167456/",
+    "https://www.quechoisir.org/comparatif-multicuiseur-n807/moulinex-cookeo-touch-wifi-p250420/",
+    "https://www.test-achats.be/electromenager/robots-cuisine/news/avis-dexpert-sur-le-thermomix-tm7",
+    "https://www.journaldugeek.com/test/test-du-thermomix-tm7-le-meme-en-mieux/",
+    "https://www.journaldugeek.com/test/test-du-moulinex-cookeo-infinity-un-serieux-concurrent-a-thermomix/",
+    "https://www.vorwerk.com/fr/fr/shop/categories/thermomix/reconditionnes-vorwerk",
+    "https://www.moulinex.fr/Companion/c/companion"
+  ],
+  "related": [
+    "/fr/cuisine-connectee/robots-multifonctions",
+    "/fr/cuisine-connectee/multicuiseurs",
+    "/fr/blog/cookeo-vs-thermomix-vs-airfryer",
+    "/fr/blog/robot-cuiseur-connecte-comparatif",
+    "/fr/blog/comparatif-multicuiseur-connecte",
+    "/fr/guides/cuisine-connectee",
+    "/fr/guides/probleme/ne-monte-pas-pression"
+  ]
+}
