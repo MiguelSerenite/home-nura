@@ -86,7 +86,7 @@ const content: Record<string, PrivacyContent> = {
       headDuration: 'Durée',
       headProvider: 'Émetteur',
       rows: [
-        { name: 'cookie_consent', purpose: 'Mémorisation de votre choix de consentement', duration: '6 mois', provider: 'Home Nura (essentiel)' },
+        { name: 'homenura_cookie_consent', purpose: 'Mémorisation de votre choix de consentement', duration: '6 mois', provider: 'Home Nura (essentiel)' },
         ...PREFERENCE_COOKIES.fr.rows,
         { name: 'Amazon affiliate', purpose: 'Suivi du lien affilié pour attribution de commission', duration: 'Jusqu\'à 24h', provider: 'Amazon EU (tiers)' },
       ],
@@ -151,7 +151,7 @@ const content: Record<string, PrivacyContent> = {
       headDuration: 'Duration',
       headProvider: 'Issuer',
       rows: [
-        { name: 'cookie_consent', purpose: 'Stores your consent choice', duration: '6 months', provider: 'Home Nura (essential)' },
+        { name: 'homenura_cookie_consent', purpose: 'Stores your consent choice', duration: '6 months', provider: 'Home Nura (essential)' },
         ...PREFERENCE_COOKIES.en.rows,
         { name: 'Amazon affiliate', purpose: 'Tracks affiliate link for commission attribution', duration: 'Up to 24h', provider: 'Amazon EU (third party)' },
       ],
@@ -216,7 +216,7 @@ const content: Record<string, PrivacyContent> = {
       headDuration: 'Dauer',
       headProvider: 'Anbieter',
       rows: [
-        { name: 'cookie_consent', purpose: 'Speichert Ihre Einwilligungswahl', duration: '6 Monate', provider: 'Home Nura (essenziell)' },
+        { name: 'homenura_cookie_consent', purpose: 'Speichert Ihre Einwilligungswahl', duration: '6 Monate', provider: 'Home Nura (essenziell)' },
         ...PREFERENCE_COOKIES.de.rows,
         { name: 'Amazon affiliate', purpose: 'Verfolgt den Affiliate-Link zur Provisionszuordnung', duration: 'Bis zu 24 Std.', provider: 'Amazon EU (Dritter)' },
       ],
@@ -281,7 +281,7 @@ const content: Record<string, PrivacyContent> = {
       headDuration: 'Duración',
       headProvider: 'Emisor',
       rows: [
-        { name: 'cookie_consent', purpose: 'Almacena su elección de consentimiento', duration: '6 meses', provider: 'Home Nura (esencial)' },
+        { name: 'homenura_cookie_consent', purpose: 'Almacena su elección de consentimiento', duration: '6 meses', provider: 'Home Nura (esencial)' },
         ...PREFERENCE_COOKIES.es.rows,
         { name: 'Amazon affiliate', purpose: 'Rastrea el enlace de afiliado para atribución de comisión', duration: 'Hasta 24 h', provider: 'Amazon EU (tercero)' },
       ],
@@ -346,7 +346,7 @@ const content: Record<string, PrivacyContent> = {
       headDuration: 'Durata',
       headProvider: 'Emittente',
       rows: [
-        { name: 'cookie_consent', purpose: 'Memorizza la tua scelta di consenso', duration: '6 mesi', provider: 'Home Nura (essenziale)' },
+        { name: 'homenura_cookie_consent', purpose: 'Memorizza la tua scelta di consenso', duration: '6 mesi', provider: 'Home Nura (essenziale)' },
         ...PREFERENCE_COOKIES.it.rows,
         { name: 'Amazon affiliate', purpose: 'Traccia il link affiliato per attribuzione della commissione', duration: 'Fino a 24h', provider: 'Amazon EU (terzo)' },
       ],
@@ -411,7 +411,7 @@ const content: Record<string, PrivacyContent> = {
       headDuration: 'Duur',
       headProvider: 'Uitgever',
       rows: [
-        { name: 'cookie_consent', purpose: 'Slaat uw toestemmingskeuze op', duration: '6 maanden', provider: 'Home Nura (essentieel)' },
+        { name: 'homenura_cookie_consent', purpose: 'Slaat uw toestemmingskeuze op', duration: '6 maanden', provider: 'Home Nura (essentieel)' },
         ...PREFERENCE_COOKIES.nl.rows,
         { name: 'Amazon affiliate', purpose: 'Volgt de affiliate-link voor commissieattributie', duration: 'Tot 24 uur', provider: 'Amazon EU (derde)' },
       ],
@@ -477,7 +477,7 @@ const content: Record<string, PrivacyContent> = {
       headProvider: 'Dostawca',
       rows: [
         {
-          name: 'cookie_consent',
+          name: 'homenura_cookie_consent',
           purpose: 'Zapamiętanie Twojej decyzji w sprawie zgody',
           duration: '6 miesięcy',
           provider: 'Home Nura (niezbędne)',
@@ -552,7 +552,7 @@ const content: Record<string, PrivacyContent> = {
       headProvider: 'Leverantör',
       rows: [
         {
-          name: 'cookie_consent',
+          name: 'homenura_cookie_consent',
           purpose: 'Sparar ditt val om samtycke',
           duration: '6 månader',
           provider: 'Home Nura (nödvändig)',
@@ -627,7 +627,7 @@ const content: Record<string, PrivacyContent> = {
       headProvider: 'Issuer',
       rows: [
         {
-          name: 'cookie_consent',
+          name: 'homenura_cookie_consent',
           purpose: 'Stores your consent choice',
           duration: '6 months',
           provider: 'Home Nura (essential)',
@@ -702,7 +702,7 @@ const content: Record<string, PrivacyContent> = {
       headProvider: 'Issuer',
       rows: [
         {
-          name: 'cookie_consent',
+          name: 'homenura_cookie_consent',
           purpose: 'Stores your consent choice',
           duration: '6 months',
           provider: 'Home Nura (essential)',
