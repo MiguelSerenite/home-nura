@@ -115,7 +115,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
       '@type': 'ListItem',
       position: i + 1,
       name: `${pick.model} — ${pick.role}`,
-      ...(pick.photo ? { image: buildProductImageObject(pick.photo) } : {}),
+      ...(pick.photo ? { image: buildProductImageObject(pick.photo, lang) } : {}),
     })),
   }
   const topProducts = recommendations?.kind === 'catalog' ? recommendations.products : []
