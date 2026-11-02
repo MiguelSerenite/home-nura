@@ -656,7 +656,7 @@ export default async function CategoryPage({
       position: index + 1,
       name: p.title,
       url: p.url,
-      ...(p.visual.photo ? { image: buildProductImageObject(p.visual.photo) } : {}),
+      ...(p.visual.photo ? { image: buildProductImageObject(p.visual.photo, safeLang) } : {}),
     })),
   }
 

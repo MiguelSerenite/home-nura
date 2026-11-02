@@ -191,11 +191,23 @@ interface ProductLike {
 }
 
 /**
- * schema.org ImageObject of a manufacturer photo (largest square variant,
- * absolute URL), with its credit for Google Images' image metadata.
+ * The legal notice's photo credits: the photos stay their makers' property
+ * and Home Nura grants no licence, so the reader is sent to the rights holder.
  */
-export function buildProductImageObject(photo: ProductPhoto) {
+export function photoRightsUrl(lang: string): string {
+  return `${BASE_URL}/${resolveLang(lang)}/mentions-legales#photos`
+}
+
+/**
+ * schema.org ImageObject of a manufacturer photo (largest square variant,
+ * absolute URL), with Google Images' image metadata: the rights holder as
+ * creator and credit, and the photo credits section as licence page (no
+ * licence of our own is claimed).
+ */
+export function buildProductImageObject(photo: ProductPhoto, lang: string) {
   const url = `${BASE_URL}${productPhotoPath(photo.id, 1200, 'webp')}`
+  const holder = photo.copyright.replace(/^©\s*/, '')
+  const rights = photoRightsUrl(lang)
   return {
     '@type': 'ImageObject',
     contentUrl: url,
@@ -203,8 +215,11 @@ export function buildProductImageObject(photo: ProductPhoto) {
     width: 1200,
     height: 1200,
     name: photo.alt,
-    creditText: photo.copyright.replace(/^©\s*/, ''),
+    creator: { '@type': 'Organization', name: holder },
+    creditText: holder,
     copyrightNotice: photo.copyright,
+    license: rights,
+    acquireLicensePage: rights,
   }
 }
 
@@ -217,7 +232,7 @@ export function buildProductImageObject(photo: ProductPhoto) {
  */
 export function buildProductListSchema(
   products: ProductLike[],
-  _lang: string,
+  lang: string,
   listName: string,
   listUrl: string,
   /** ISO date of the list's last editorial update (pages with their own date). */
@@ -234,7 +249,7 @@ export function buildProductListSchema(
       '@type': 'ListItem',
       position: i + 1,
       name: p.title,
-      ...(p.visual?.photo ? { image: buildProductImageObject(p.visual.photo) } : {}),
+      ...(p.visual?.photo ? { image: buildProductImageObject(p.visual.photo, lang) } : {}),
     })),
   }
 }

@@ -2,7 +2,9 @@ import { HTML_LANG, LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import {
   buildPageMetadata,
+  buildProductImageObject,
   buildProductListSchema,
+  photoRightsUrl,
   buildArticleSchema,
   buildBreadcrumbListSchema,
   buildFaqPageSchema,
@@ -272,6 +274,39 @@ describe('buildProductListSchema', () => {
     const json = JSON.stringify(buildProductListSchema(products, 'fr', 'L', 'url'))
     expect(json).not.toContain('aggregateRating')
     expect(json).not.toContain('ratingValue')
+  })
+})
+
+describe('buildProductImageObject', () => {
+  const photo = {
+    id: 'philips-airfryer-xxl',
+    alt: 'Philips Airfryer XXL – air fryer | Homenura',
+    credit: 'Photo : © Philips',
+    copyright: '© Philips',
+    pin: 'https://homenura.com/images/products/philips-airfryer-xxl-pin.jpg',
+  }
+
+  it('carries the full image metadata Google Images asks for, the maker as creator', () => {
+    const image = buildProductImageObject(photo, 'de')
+    expect(image).toMatchObject({
+      '@type': 'ImageObject',
+      contentUrl: `${BASE_URL}/images/products/philips-airfryer-xxl-1200.webp`,
+      creator: { '@type': 'Organization', name: 'Philips' },
+      creditText: 'Philips',
+      copyrightNotice: '© Philips',
+      license: `${BASE_URL}/de/mentions-legales#photos`,
+      acquireLicensePage: `${BASE_URL}/de/mentions-legales#photos`,
+    })
+  })
+
+  it('sends every locale to its own photo credits, an unknown one to the default', () => {
+    for (const lang of LANGUAGES) expect(photoRightsUrl(lang)).toBe(`${BASE_URL}/${lang}/mentions-legales#photos`)
+    expect(photoRightsUrl('xx')).toBe(`${BASE_URL}/fr/mentions-legales#photos`)
+  })
+
+  it('is what a product list puts on each item with a photo, in the list\'s locale', () => {
+    const s = buildProductListSchema([{ title: 'Philips Airfryer XXL', visual: { photo } }], 'it', 'L', 'url')
+    expect(s.itemListElement[0].image).toEqual(buildProductImageObject(photo, 'it'))
   })
 })
 
