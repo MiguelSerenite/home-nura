@@ -48,12 +48,12 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     de: [
       {
-        question: "Welcher Mähroboter für 800 m²?",
+        question: "Welcher Mähroboter eignet sich für 800 m²?",
         answer: "Für 800 m² sollten Sie einen Mähroboter wählen, der für mindestens rund 1.000 m² angegeben ist. Die Herstellerangabe gilt für eine ebene, zusammenhängende Fläche; Hanglagen, schmale Durchgänge und getrennte Rasenstücke verlängern die Mähzeit deutlich. Achten Sie außerdem auf die maximale Steigung in Prozent (45° entsprechen 100 %) und darauf, ob mehrere Mähzonen ohne Umsetzen möglich sind. Wer nur an wenigen Tagen pro Woche mähen lassen will, plant noch mehr Reserve ein.",
       },
       {
         question: "Mähroboter ohne Begrenzungskabel: RTK oder Kamera?",
-        answer: "RTK eignet sich für offene Gärten, die Kamera für Grundstücke mit Bäumen und Hauswänden, am robustesten sind Geräte, die beides kombinieren. RTK-Modelle orten sich per Satellit mit einer Referenzantenne und verlieren unter dichten Baumkronen oder nahe hoher Gebäude an Genauigkeit. Kamerabasierte Modelle erkennen Rasenkanten, tun sich aber bei unklaren Übergängen zum Beet und in der Dämmerung schwer. Das Begrenzungskabel bleibt am zuverlässigsten, kostet aber Zeit bei der Verlegung und wird bei Gartenarbeiten leicht durchtrennt.",
+        answer: "RTK eignet sich für offene Gärten, die Kamera für Grundstücke mit Bäumen und Hauswänden; am robustesten sind Geräte, die beides kombinieren. RTK-Modelle orten sich per Satellit mit einer Referenzantenne und verlieren unter dichten Baumkronen oder in der Nähe hoher Gebäude an Genauigkeit. Kamerabasierte Modelle erkennen Rasenkanten, tun sich aber bei unklaren Übergängen zum Beet und in der Dämmerung schwer. Das Begrenzungskabel bleibt am zuverlässigsten, ist aber aufwendig zu verlegen und wird bei Gartenarbeiten leicht durchtrennt.",
       },
       {
         question: "Wann darf ein Mähroboter laufen – auch sonntags oder nachts?",
@@ -61,11 +61,11 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Brauche ich für Mähroboter-App und Diebstahlschutz ein Abo?",
-        answer: "Für die App-Steuerung per WLAN oder Bluetooth meist nicht, für die Ortung über Mobilfunk dagegen oft nach einigen Jahren. Einige Hersteller legen eine LTE-Verbindung für eine begrenzte Zeit bei und berechnen danach eine Gebühr, prüfen Sie das vor dem Kauf. Unabhängig davon sollten Sie PIN-Sperre und Hebealarm aktivieren. Klären Sie außerdem mit Ihrer Hausratversicherung, ob ein Diebstahl aus dem Garten abgedeckt ist, denn das ist oft nur über einen Zusatzbaustein versichert.",
+        answer: "Für die App-Steuerung per WLAN oder Bluetooth meist nicht, für die Ortung über Mobilfunk dagegen oft nach einigen Jahren. Einige Hersteller legen eine LTE-Verbindung für eine begrenzte Zeit bei und berechnen danach eine Gebühr; prüfen Sie das vor dem Kauf. Unabhängig davon sollten Sie PIN-Sperre und Hebealarm aktivieren. Klären Sie außerdem mit Ihrer Hausratversicherung, ob ein Diebstahl aus dem Garten abgedeckt ist, denn das ist oft nur über einen Zusatzbaustein versichert.",
       },
       {
         question: "Wie viel Strom verbraucht ein Mähroboter und was gehört zur Winterpause?",
-        answer: "Der Stromverbrauch ist gering: Bei 6 kWh pro Monat und 0,35 € pro kWh kostet eine Saison von sieben Monaten knapp 15 €. Den Monatswert finden Sie im Datenblatt. Vor dem Winter reinigen Sie das Gerät gründlich, laden den Akku voll und lagern den Roboter frostfrei in Keller oder Garage. Ob die Ladestation draußen bleiben darf, steht in der Anleitung; trennen Sie sie zumindest vom Netz. Die kleinen Klingen wechseln Sie mehrmals pro Saison, sobald das Gras ausfranst.",
+        answer: "Der Stromverbrauch ist gering: Bei 6 kWh pro Monat und einem Beispieltarif von 0,35 € pro kWh kostet eine Saison von sieben Monaten knapp 15 €. Den Monatswert finden Sie im Datenblatt. Vor dem Winter reinigen Sie das Gerät gründlich, laden den Akku voll und lagern den Roboter frostfrei in Keller oder Garage. Ob die Ladestation draußen bleiben darf, steht in der Anleitung; trennen Sie sie zumindest vom Netz. Die kleinen Klingen wechseln Sie mehrmals pro Saison, sobald das Gras ausfranst.",
       },
     ],
     es: [
@@ -115,23 +115,23 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Kan één robotmaaier mijn voortuin én achtertuin maaien?",
-        answer: "Ja, als de maaier meerdere zones ondersteunt, maar zonder berijdbare doorgang moet je hem soms zelf naar de andere tuin dragen. Met begrenzingsdraad leg je een smalle verbindingsgang aan, bijvoorbeeld via een zijpad. Draadloze RTK-modellen bewaren meerdere kaarten en rijden zelf naar elke zone als er een pad is. Controleer de minimale doorgangsbreedte en laat de maaier niet over de openbare stoep rijden.",
+        answer: "Ja, als de maaier meerdere zones ondersteunt. Kan hij niet zelf van de ene tuin naar de andere rijden, dan moet je hem soms zelf overdragen. Met begrenzingsdraad leg je een smalle doorgang aan, bijvoorbeeld via een zijpad. Draadloze RTK-modellen bewaren meerdere kaarten en rijden zelf naar elke zone als er een pad is. Controleer de minimale doorgangsbreedte en laat de maaier niet over de openbare stoep rijden.",
       },
       {
         question: "Werkt een robotmaaier zonder draad in een kleine tuin met schuttingen?",
-        answer: "Vaak minder goed: RTK heeft vrij zicht op de lucht nodig, en hoge schuttingen, bomen en huizen rondom een kleine tuin kunnen het signaal storen. Een model met camera, of een combinatie van RTK en camera, werkt dan betrouwbaarder. In een smalle, ingesloten achtertuin is de klassieke begrenzingsdraad nog altijd de zekerste keuze, ook al kost het leggen ervan een middag werk.",
+        answer: "Vaak minder goed: RTK heeft vrij zicht op de lucht nodig, en hoge schuttingen, bomen en huizen rond een kleine tuin kunnen het signaal storen. Een model met camera, of een combinatie van RTK en camera, werkt dan betrouwbaarder. In een smalle, ingesloten achtertuin is de klassieke begrenzingsdraad nog altijd de zekerste keuze, al kost het leggen ervan een middag werk.",
       },
       {
         question: "Is een robotmaaier gevaarlijk voor egels?",
-        answer: "Ja, als hij 's nachts maait: egels zijn in het donker actief, vluchten niet maar rollen zich op en raken zo ernstig gewond. Laat de robotmaaier daarom alleen overdag rijden, nooit van schemering tot zonsopkomst. Loop vóór de eerste ronde even over het gras als je een wilde hoek, bladhoop of takkenril hebt. Houd ook kinderen en huisdieren van het gazon zolang hij werkt, ook al stoppen de messen bij optillen.",
+        answer: "Ja, als hij ’s nachts maait: egels zijn in het donker actief, vluchten niet maar rollen zich op en raken zo ernstig gewond. Laat de robotmaaier daarom alleen overdag maaien, nooit tussen schemering en zonsopkomst. Heb je een wilde hoek, een bladhoop of een takkenril, loop dan vóór de eerste ronde even over het gras. Houd ook kinderen en huisdieren van het gazon zolang hij maait, ook al stoppen de messen zodra je hem optilt.",
       },
       {
         question: "Robotmaaier werkt niet of stopt steeds: wat kan het zijn?",
-        answer: "Meestal is het een draadbreuk, een verloren RTK-signaal, wielen die slippen op nat gras of botte messen. Meldt de app “geen lussignaal”, zoek dan de breuk in de begrenzingsdraad en herstel die met een waterdichte connector. Bij draadloze modellen helpt het om de antenne hoger en vrijer te plaatsen. Slippen de wielen, laat hem dan later op de dag rijden. Maait hij rafelig of trekt hij gras uit, vervang dan de messen.",
+        answer: "Meestal is het een draadbreuk, een weggevallen RTK-signaal, wielen die slippen op nat gras of botte messen. Meldt de app “geen lussignaal”, zoek dan de breuk in de begrenzingsdraad en herstel die met een waterdichte connector. Bij draadloze modellen helpt het om de antenne hoger en vrijer te plaatsen. Slippen de wielen, laat hem dan later op de dag maaien. Maait hij rafelig of trekt hij gras uit, vervang dan de messen.",
       },
       {
         question: "Wat kost een robotmaaier aan stroom per jaar?",
-        answer: "Weinig: bij 6 kWh per maand, acht maanden per jaar en € 0,30 per kWh betaal je ongeveer € 14. Het maandverbruik staat in de specificaties; vermenigvuldig het met je eigen kWh-prijs. De grotere kosten zitten in de kleine messen, die je meerdere keren per seizoen vervangt, en na een aantal jaren in een nieuwe accu. Berg de maaier in de winter vorstvrij op in schuur of garage, met een opgeladen accu.",
+        answer: "Weinig: bij 6 kWh per maand, zeven maanden per jaar en een voorbeeldtarief van 0,25 euro per kWh betaal je ongeveer 10 euro per seizoen. Het maandverbruik staat in de specificaties; vermenigvuldig dat met je eigen kWh-prijs. De grotere kosten zitten in de kleine messen, die je meerdere keren per seizoen vervangt, en na een aantal jaren in een nieuwe accu. Berg de maaier in de winter vorstvrij op in de schuur of garage, met een opgeladen accu.",
       },
     ],
     pl: [
@@ -271,7 +271,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     de: [
       {
         question: "Welche smarte Bewässerungssteuerung passt zu meinem Garten?",
-        answer: "Für Schlauch oder Tropfschlauch reicht ein Bewässerungscomputer am Wasserhahn, für verlegte Regner brauchen Sie eine Mehrzonen-Steuerung mit Magnetventilen. Wählen Sie WLAN über ein Gateway statt reinem Bluetooth, damit Sie unterwegs eingreifen und Wetterdaten nutzen können. Prüfen Sie die Einbindung in Ihr System, etwa Gardena smart, Apple Home oder Matter. Wer aus Zisterne oder Regentonne gießt, braucht meist eine Pumpe, weil viele Ventile einen Mindestdruck benötigen.",
+        answer: "Für Schlauch oder Tropfschlauch reicht ein Bewässerungscomputer am Wasserhahn, für fest verlegte Regner brauchen Sie eine Mehrzonen-Steuerung mit Magnetventilen. Wählen Sie WLAN über ein Gateway statt nur Bluetooth, damit Sie unterwegs eingreifen und Wetterdaten nutzen können. Prüfen Sie die Einbindung in Ihr System, etwa Gardena smart, Apple Home oder Matter. Wer aus Zisterne oder Regentonne gießt, braucht meist eine Pumpe, weil viele Ventile einen Mindestdruck benötigen.",
       },
       {
         question: "Lohnt sich ein Gartenwasserzähler für die Bewässerung?",
@@ -282,7 +282,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
         answer: "Meist ja, aber Gemeinden, Landkreise und Wasserversorger können bei Wassermangel Einschränkungen erlassen, etwa ein Sprengverbot tagsüber. Häufig betreffen Allgemeinverfügungen vor allem die Entnahme aus Bächen, Seen und Grundwasser; manche Versorger untersagen bei Engpässen auch das Rasensprengen mit Trinkwasser zu bestimmten Zeiten. Informieren Sie sich bei Gemeinde und Versorger und legen Sie die Programme in die frühen Morgenstunden. Smarte Steuerungen setzen bei Regen automatisch aus.",
       },
       {
-        question: "Tropfbewässerung oder Rasensprenger: was ist sparsamer?",
+        question: "Tropfbewässerung oder Rasensprenger: Was ist sparsamer?",
         answer: "Die Tropfbewässerung ist deutlich sparsamer, weil sie das Wasser direkt an die Wurzeln bringt und kaum etwas verdunstet. Sie eignet sich für Beete, Hecken, Hochbeete und Kübel. Der Rasensprenger ist für Rasenflächen praktisch, verliert bei Sonne und Wind aber einen Teil des Wassers; lassen Sie ihn deshalb früh am Morgen laufen. Rechenbeispiel: Ein Regner mit 600 Litern pro Stunde verbraucht in 20 Minuten 200 Liter, 30 Tropfer mit 2 Litern pro Stunde in einer Stunde 60 Liter.",
       },
       {
@@ -336,23 +336,23 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     nl: [
       {
-        question: "Welke slimme besproeiingscomputer past bij een Nederlandse tuin?",
-        answer: "Voor de meeste tuinen volstaat een kraancomputer met wifi via een gateway, die bij regen automatisch een beurt overslaat. Heb je ingegraven sproeiers in meerdere zones, kies dan een zonecomputer die magneetventielen aanstuurt. Een model met enkel Bluetooth bedien je uitsluitend van dichtbij. Let op koppeling met Apple Home, Google Home of Alexa en op het wifibereik tot de buitenkraan. In het wisselvallige Nederlandse weer scheelt een weersafhankelijke planning veel onnodige beurten.",
+        question: "Welke slimme beregeningscomputer past bij jouw tuin?",
+        answer: "Voor de meeste tuinen volstaat een kraancomputer (ook wel besproeiingscomputer genoemd) met wifi via een gateway, die bij regen automatisch een beurt overslaat. Heb je ingegraven sproeiers in meerdere zones, kies dan een zonecomputer die magneetventielen aanstuurt. Een model met alleen Bluetooth bedien je uitsluitend van dichtbij. Let op de koppeling met Apple Woning, Google Home of Alexa en op het wifibereik tot aan de buitenkraan. Bij wisselvallig weer scheelt een planning die met het weerbericht meegaat veel onnodige beurten.",
       },
       {
         question: "Mag je sproeien tijdens droogte?",
-        answer: "Met kraanwater meestal wel, al vragen drinkwaterbedrijven bij droogte en hitte om zuinig te sproeien, het liefst 's avonds of vroeg in de ochtend. Strenger is het voor oppervlaktewater: waterschappen kunnen een onttrekkingsverbod of beregeningsverbod instellen, en dan mag je niet meer met een pomp uit de sloot sproeien. Volg de berichten van je waterschap en drinkwaterbedrijf. Een slimme computer met vaste avondtijden en regenpauze maakt het makkelijk om je daaraan te houden.",
+        answer: "Met kraanwater meestal wel, al vragen drinkwaterbedrijven bij droogte en hitte om zuinig te sproeien, het liefst ’s avonds of vroeg in de ochtend. Voor oppervlaktewater gelden strengere regels: in Nederland kunnen waterschappen een onttrekkings- of beregeningsverbod instellen, en dan mag je niet meer met een pomp uit de sloot sproeien. Volg de berichten van je waterschap en je drinkwaterbedrijf. Een slimme beregeningscomputer met vaste avondtijden en regenpauze maakt het makkelijk om je daaraan te houden.",
       },
       {
-        question: "Kan een slimme timer werken op een regenton?",
-        answer: "Alleen met een pomp of een timer die geschikt is voor lage druk, want een regenton levert door zwaartekracht nauwelijks druk. Veel kraancomputers hebben een minimale waterdruk nodig om hun ventiel te openen. Zet de regenton op een verhoging of gebruik een dompelpomp die door de timer wordt aangestuurd. Druppelslangen werken het best op regenwater; sproeiers hebben de druk van de waterleiding nodig.",
+        question: "Werkt een slimme beregeningscomputer op een regenton?",
+        answer: "Alleen met een pomp of met een computer die geschikt is voor lage druk, want een regenton levert door de zwaartekracht nauwelijks druk. Veel kraancomputers hebben een minimale waterdruk nodig om hun ventiel te openen. Zet de regenton op een verhoging of gebruik een dompelpomp die de computer aanstuurt. Druppelslangen werken het best op regenwater; sproeiers hebben de druk van de waterleiding nodig.",
       },
       {
         question: "Hoeveel water verbruikt sproeien en wat kost het?",
-        answer: "Reken debiet maal tijd: een sproeier van 600 liter per uur verbruikt in 20 minuten 200 liter. Een druppelslang met 30 druppelaars van 2 liter per uur gebruikt 60 liter per uur. Deel door 1.000 voor kubieke meters en vermenigvuldig met de prijs per m³ op je drinkwaterrekening. Sproeien met regenwater uit de ton kost niets, behalve de stroom van een eventuele pomp.",
+        answer: "Reken debiet maal tijd: een sproeier van 600 liter per uur verbruikt in 20 minuten 200 liter. Een druppelslang met 30 druppelaars van 2 liter per uur verbruikt 60 liter per uur. Deel door 1.000 voor kubieke meters en vermenigvuldig met de prijs per m³ op je waterrekening. Sproeien met regenwater uit de ton kost niets, behalve de stroom voor een eventuele pomp.",
       },
       {
-        question: "Besproeiingscomputer werkt niet meer: wat kan het zijn?",
+        question: "Beregeningscomputer werkt niet meer: wat kan het zijn?",
         answer: "Meestal zijn het lege batterijen, een verstopt filtertje of een kraan die niet helemaal openstaat. Vervang de batterijen, spoel het zeefje bij de aansluiting schoon en controleer in de app of er geen regenpauze actief is. Werkt de koppeling niet, kijk dan of de gateway nog online is. Haal de computer vóór de eerste vorst van de kraan en bewaar hem droog, want bevroren water kan het ventiel laten scheuren.",
       },
     ],
@@ -492,24 +492,24 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     de: [
       {
-        question: "Solar oder mit Kabel: Was lohnt sich bei der Außenbeleuchtung?",
-        answer: "Solarleuchten lohnen sich für Deko und Wegmarkierungen ohne Bauarbeiten, Kabelleuchten für Eingang, Terrasse und Einfahrt, die jeden Abend zuverlässig hell sein müssen. Im Winter liefern Solarleuchten in Mitteleuropa oft nur wenige Stunden schwaches Licht. Kabelgebundene Leuchten mit 230 V oder 12/24 V lassen sich per App oder Zeitplan steuern und verbrauchen wenig: Zehn LED-Spots mit je 5 W ergeben über 4 Stunden 0,2 kWh pro Abend.",
+        question: "Solar oder mit Kabel: Was lohnt sich bei der Gartenbeleuchtung?",
+        answer: "Solarleuchten lohnen sich für Deko und Wegmarkierungen ohne Bauarbeiten, Kabelleuchten für Eingang, Terrasse und Einfahrt, die jeden Abend zuverlässig hell sein müssen. Im Winter liefern Solarleuchten in Mitteleuropa oft nur wenige Stunden schwaches Licht. Kabelgebundene Leuchten mit 230 V oder 12/24 V lassen sich per App oder Zeitplan steuern und verbrauchen wenig: Zehn LED-Spots mit je 5 W brauchen in 4 Stunden 0,2 kWh pro Abend.",
       },
       {
         question: "Darf ich Außenbeleuchtung selbst anschließen?",
-        answer: "12- oder 24-Volt-Systeme mit Steckernetzteil dürfen Sie selbst verlegen, Arbeiten an der 230-V-Hausinstallation gehören in Deutschland in die Hände eines eingetragenen Elektrofachbetriebs. Für Außenstromkreise ist ein Fehlerstromschutzschalter mit 30 mA vorgeschrieben, Erdkabel brauchen eine geeignete Ausführung und Schutz vor Beschädigung. In Österreich und der Schweiz gelten eigene Regeln für Elektroarbeiten, auch dort ist eine Fachkraft der sichere Weg. Solarleuchten benötigen keinen Anschluss.",
+        answer: "12- oder 24-Volt-Systeme mit Steckernetzteil dürfen Sie selbst verlegen, Arbeiten an der 230-V-Hausinstallation gehören in Deutschland in die Hände eines eingetragenen Elektrofachbetriebs. Für Außenstromkreise ist ein Fehlerstromschutzschalter mit 30 mA vorgeschrieben, Erdkabel müssen für die Verlegung im Boden geeignet und vor Beschädigung geschützt sein. In Österreich und der Schweiz gelten eigene Regeln für Elektroarbeiten; auch dort ist eine Fachkraft der sichere Weg. Solarleuchten benötigen keinen Anschluss.",
       },
       {
         question: "Was tun, wenn die Außenbeleuchtung den Nachbarn blendet?",
         answer: "Richten Sie die Leuchte nach unten und auf Ihr eigenes Grundstück aus, denn wesentliche Lichtbeeinträchtigungen kann der Nachbar in Deutschland nach §§ 906, 1004 BGB abwehren. Abhilfe schaffen Bewegungsmelder mit kurzer Nachlaufzeit, Abschirmungen und Zeitpläne, die nachts abschalten. Warmweißes Licht bis etwa 3.000 Kelvin und nach unten gerichtete Leuchten schonen außerdem Insekten. Klären Sie Beschwerden am besten im Gespräch, bevor ein Streit entsteht.",
       },
       {
-        question: "Zigbee, WLAN oder Matter: welche smarte Außenbeleuchtung passt?",
-        answer: "Wenn Sie schon ein Zigbee-System wie Philips Hue nutzen, bleiben Sie dabei; für einzelne Leuchten ohne Bridge reicht WLAN, und Matter erleichtert das Kombinieren verschiedener Marken. Entscheidend ist der Empfang im Garten: Zigbee bildet ein Netz über mehrere Leuchten, WLAN braucht ein gutes Signal bis zur Leuchte. Achten Sie außerdem auf Schutzart IP44, besser IP65 bei direktem Regen, und auf den Lichtstrom in Lumen.",
+        question: "Zigbee, WLAN oder Matter: Welche smarte Außenbeleuchtung passt?",
+        answer: "Wenn Sie schon ein Zigbee-System wie Philips Hue nutzen, bleiben Sie dabei; für einzelne Leuchten ohne Bridge reicht WLAN, und Matter erleichtert das Kombinieren verschiedener Marken. Entscheidend ist der Empfang im Garten: Zigbee bildet ein Netz über mehrere Leuchten, WLAN braucht ein gutes Signal bis zur Leuchte. Achten Sie außerdem auf die Schutzart (IP44, bei direktem Regen besser IP65) und auf den Lichtstrom in Lumen.",
       },
       {
         question: "Warum gehen Solarleuchten im Winter früh aus?",
-        answer: "Weil das Solarmodul im Winter zu wenig Licht bekommt, um den Akku für die langen Nächte zu laden. Stellen Sie die Leuchte so auf, dass das Modul möglichst nach Süden zeigt, und reinigen Sie es regelmäßig. Leuchten mit abgesetztem Modul am Kabel helfen, wenn der Leuchtort im Schatten liegt. Hält der Akku auch im Sommer nicht mehr, ist er verschlissen: Viele Modelle nehmen einen Ersatzakku gleicher Bauart und Spannung.",
+        answer: "Weil das Solarmodul im Winter zu wenig Licht bekommt, um den Akku für die langen Nächte zu laden. Stellen Sie die Leuchte so auf, dass das Modul möglichst nach Süden zeigt, und reinigen Sie es regelmäßig. Leuchten mit abgesetztem Modul am Kabel helfen, wenn der Leuchtort im Schatten liegt. Hält der Akku auch im Sommer nicht mehr, ist er verschlissen: Bei vielen Modellen lässt er sich durch einen Akku gleicher Bauart und Spannung ersetzen.",
       },
     ],
     es: [
@@ -558,24 +558,24 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     nl: [
       {
-        question: "12 volt tuinverlichting of zonne-energie: wat is beter?",
-        answer: "Voor verlichting die elke avond betrouwbaar moet branden is een 12 volt systeem beter; solar is prima voor sfeer en wegmarkering zonder graafwerk. Een 12 volt set sluit je via een transformator aan op een buitenstopcontact en leg je zelf aan, zonder netspanning in de tuin. Zonnelampen zijn afhankelijk van daglicht en branden in de Nederlandse winter vaak maar kort. Veel 12 volt systemen zijn uit te breiden met een slimme timer of app.",
+        question: "Tuinverlichting op 12 volt of op zonne-energie: wat is beter?",
+        answer: "Voor verlichting die elke avond betrouwbaar moet branden, is een 12-voltsysteem beter; lampen op zonne-energie zijn prima voor sfeer en om een pad te markeren zonder graafwerk. Een 12-voltset sluit je via een transformator aan op een buitenstopcontact en leg je zelf aan, zonder netspanning in de tuin. Zonnelampen zijn afhankelijk van daglicht en branden in de winter vaak maar kort. Veel 12-voltsystemen zijn uit te breiden met een slimme timer of app.",
       },
       {
         question: "Welke slimme buitenverlichting kies je?",
-        answer: "Kies een systeem dat aansluit op wat je al hebt: Philips Hue (Zigbee met bridge), KlikAanKlikUit of wifi-lampen, eventueel via Matter gecombineerd. Controleer de beschermingsgraad, minimaal IP44 en IP65 voor armaturen in de regen, en of het signaal je tuin haalt. Warm wit van 2700 tot 3000 K oogt prettiger en stoort dieren minder. Een bewegingssensor zorgt dat het licht alleen brandt als het nodig is.",
+        answer: "Kies een systeem dat aansluit op wat je al hebt: Philips Hue (Zigbee met bridge), KlikAanKlikUit of wifilampen, eventueel gecombineerd via Matter. Controleer de beschermingsgraad (minimaal IP44, en IP65 voor armaturen die in de regen hangen) en of het signaal tot in je tuin reikt. Warm wit van 2.700 tot 3.000 K oogt prettiger en stoort dieren minder. Met een bewegingsmelder brandt het licht alleen als het nodig is.",
       },
       {
         question: "Hoeveel stroom verbruikt tuinverlichting?",
-        answer: "Weinig: tien ledspots van 5 watt die 4 uur branden verbruiken samen 0,2 kWh per avond. Vermenigvuldig met je kWh-prijs en het aantal avonden: bij € 0,30 per kWh is dat 6 cent per avond. Wie van zonsondergang tot zonsopkomst laat branden, verbruikt in december meer dan drie keer zoveel. Een schemerschakelaar met uitschakeltijd of een bewegingsmelder houdt het verbruik laag.",
+        answer: "Weinig: tien ledspots van 5 watt die 4 uur branden, verbruiken samen 0,2 kWh per avond. Vermenigvuldig dat met je kWh-prijs en het aantal avonden: bij een voorbeeldtarief van 0,25 euro per kWh is dat 5 cent per avond. Laat je ze van zonsondergang tot zonsopkomst branden, dan verbruik je in december ruim drie keer zoveel. Een schemerschakelaar met uitschakeltijd of een bewegingsmelder houdt het verbruik laag.",
       },
       {
         question: "Mag je zelf buitenverlichting op 230 volt aanleggen?",
-        answer: "Ja, dat mag, maar de installatie moet voldoen aan NEN 1010 en beveiligd zijn met een aardlekschakelaar. Gebruik grondkabel die geschikt is voor ingraven, leg die diep genoeg en beschermd, en kies armaturen en lasdozen die waterdicht zijn. Twijfel je, laat het dan door een erkend installateur doen: fouten met netspanning in een natte tuin zijn gevaarlijk. Met een 12 volt systeem of zonnelampen vermijd je dat risico helemaal.",
+        answer: "Ja, dat mag, maar de installatie moet voldoen aan NEN 1010 (in België het AREI) en beveiligd zijn met een aardlekschakelaar. Gebruik grondkabel die geschikt is om in te graven, leg die diep genoeg en beschermd, en kies waterdichte armaturen en lasdozen. Twijfel je, laat het dan door een erkend installateur doen: fouten met netspanning in een natte tuin zijn gevaarlijk. Met een 12-voltsysteem of zonnelampen vermijd je dat risico helemaal.",
       },
       {
         question: "Zonnelampen gaan niet meer aan: wat kun je doen?",
-        answer: "Vaak is de oplaadbare batterij versleten of krijgt het paneel te weinig direct zonlicht. Maak het paneel schoon, zet de lamp uit de schaduw en kijk of de schakelaar aanstaat. Brandt er in de buurt een andere lamp, dan denkt de schemersensor dat het dag is. Veel modellen nemen een nieuwe batterij van hetzelfde type en dezelfde spanning. In de winter is een kortere brandduur normaal.",
+        answer: "Vaak is de oplaadbare batterij versleten of krijgt het paneel te weinig direct zonlicht. Maak het paneel schoon, zet de lamp uit de schaduw en kijk of de schakelaar aanstaat. Brandt er in de buurt een andere lamp, dan denkt de schemersensor dat het dag is. Bij veel modellen kun je de batterij vervangen door een nieuwe van hetzelfde type en met dezelfde spanning. In de winter is een kortere brandduur normaal.",
       },
     ],
     pl: [
@@ -719,15 +719,15 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Ist das Öffnen per App sicher, auch wenn ich das Tor nicht sehe?",
-        answer: "Öffnen ist meist unkritisch, Schließen ohne Sichtkontakt sollten Sie nur bei funktionierender Lichtschranke und Hinderniserkennung erlauben. Für den Betrieb ohne Sicht auf das Tor sehen die Sicherheitsnormen zusätzliche Schutzeinrichtungen vor, weil sich Kinder oder Tiere im Torbereich aufhalten können. Sichern Sie das App-Konto mit Zwei-Faktor-Anmeldung, vergeben Sie zeitlich begrenzte Gastzugänge und lassen Sie sich jede Öffnung melden. Moderne Handsender nutzen Rolling Code und sind schwer zu kopieren.",
+        answer: "Öffnen ist meist unkritisch, Schließen ohne Sichtkontakt sollten Sie nur bei funktionierender Lichtschranke und Hinderniserkennung erlauben. Für den Betrieb ohne Sicht auf das Tor sehen die Sicherheitsnormen zusätzliche Schutzeinrichtungen vor, weil sich Kinder oder Tiere im Torbereich aufhalten können. Sichern Sie das App-Konto mit Zwei-Faktor-Authentifizierung, vergeben Sie zeitlich begrenzte Gastzugänge und lassen Sie sich jede Öffnung melden. Moderne Handsender nutzen Rolling Code und sind schwer zu kopieren.",
       },
       {
-        question: "Garagentor-Handsender funktioniert nicht mehr: was tun?",
+        question: "Garagentor-Handsender funktioniert nicht mehr: Was tun?",
         answer: "Wechseln Sie zuerst die Batterie und lernen Sie den Handsender anschließend über die Lerntaste am Antrieb neu an. Lässt die Reichweite plötzlich nach, können neue LED-Lampen oder Funkgeräte in der Nähe stören. Ein Ersatzsender muss zur Frequenz des Antriebs passen, meist 433 oder 868 MHz, und zum Codesystem: Rolling-Code-Sender werden am Antrieb angelernt, nicht kopiert. Eine App-Steuerung über WLAN ist eine bequeme Ergänzung.",
       },
       {
         question: "Wie viel Strom verbraucht ein Garagentorantrieb im Standby?",
-        answer: "Meist mehr im Standby als beim Fahren: Bei 3 W Dauerleistung sind das rund 26 kWh im Jahr, also etwa 9 € bei 0,35 € pro kWh. Eine Torfahrt dauert nur Sekunden und fällt kaum ins Gewicht. Den Standbywert finden Sie im Datenblatt; ein WLAN-Nachrüstmodul kommt mit wenigen Watt hinzu. Einige Antriebe haben einen Energiesparmodus, der Steuerung und Beleuchtung zwischen den Fahrten weitgehend abschaltet.",
+        answer: "Meist mehr im Standby als beim Fahren: Bei 3 W Dauerleistung sind das rund 26 kWh im Jahr, also etwa 9 € bei einem Beispieltarif von 0,35 € pro kWh. Eine Torfahrt dauert nur Sekunden und fällt kaum ins Gewicht. Den Standbywert finden Sie im Datenblatt; ein WLAN-Nachrüstmodul kommt mit wenigen Watt hinzu. Einige Antriebe haben einen Energiesparmodus, der Steuerung und Beleuchtung zwischen den Fahrten weitgehend abschaltet.",
       },
       {
         question: "Was passiert bei Stromausfall mit dem Garagentor?",
@@ -781,15 +781,15 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Afstandsbediening van de poort kapot: wat nu?",
-        answer: "Vervang eerst de batterij en koppel de afstandsbediening daarna opnieuw via de leerknop op de motor. Werkt hij dan nog niet, koop dan een exemplaar dat past bij de frequentie, meestal 433 of 868 MHz, en bij het codesysteem van je motor. Afstandsbedieningen met vaste code kun je laten kopiëren, rolling code moet je op de motor aanleren. Een wifi-module op de poortsturing maakt van je telefoon een extra bediening.",
+        answer: "Vervang eerst de batterij en koppel de afstandsbediening daarna opnieuw via de leerknop op de motor. Werkt hij dan nog niet, koop dan een exemplaar dat past bij de frequentie (meestal 433 of 868 MHz) en bij het codesysteem van je motor. Een afstandsbediening met vaste code kun je laten kopiëren; een exemplaar met rolling code meld je aan op de motor. Met een wifimodule op de poortsturing wordt je telefoon een extra afstandsbediening.",
       },
       {
         question: "Kun je een bestaande garagedeur of poort slim maken?",
-        answer: "Ja, meestal met een wifi-module die je op de drukknopingang van de bestaande motor aansluit. Daarmee bedien je de deur via een app, krijg je meldingen en geef je tijdelijk toegang aan bezoek. Kies een module met positiesensor, zodat je ziet of de deur echt dicht is, en controleer of je wifi tot in de garage reikt. Oudere motoren zonder drukknopingang moet je soms vervangen.",
+        answer: "Ja, meestal met een wifimodule die je aansluit op de drukknopingang van de bestaande motor. Daarmee bedien je de deur via een app, krijg je meldingen en geef je bezoek tijdelijk toegang. Kies een module met positiesensor, zodat je ziet of de deur echt dicht is, en controleer of je wifi tot in de garage reikt. Oudere motoren zonder drukknopingang moet je soms vervangen.",
       },
       {
         question: "Is een slimme garagedeuropener veilig tegen inbraak?",
-        answer: "Ja, als je het app-account goed beveiligt en de deur zelf mechanisch degelijk is. Zet tweestapsverificatie aan, deel tijdelijke gasttoegang in plaats van je wachtwoord en laat je waarschuwen bij elke opening. Moderne afstandsbedieningen gebruiken rolling code en zijn lastig te kopiëren. Sluit de deur niet op afstand zonder zicht als er geen fotocel en obstakeldetectie zijn: een kind of huisdier kan eronder staan.",
+        answer: "Ja, als je het app-account goed beveiligt en de deur zelf mechanisch degelijk is. Zet tweestapsverificatie aan, deel tijdelijke gasttoegang in plaats van je wachtwoord en laat je een melding sturen telkens als de deur opengaat. Moderne afstandsbedieningen gebruiken rolling code en zijn lastig te kopiëren. Sluit de deur niet op afstand als je hem niet ziet en er geen fotocel en obstakeldetectie zijn: er kan een kind of huisdier onder staan.",
       },
       {
         question: "Kanteldeur, roldeur of sectionaaldeur: welke past bij een elektrische opener?",
@@ -797,7 +797,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Hoeveel stroom verbruikt een elektrische poort of garagedeur?",
-        answer: "Vooral in stand-by: een motor die continu 3 watt trekt, verbruikt zo'n 26 kWh per jaar. Bij € 0,30 per kWh is dat ongeveer € 8 per jaar; het openen en sluiten zelf duurt seconden en telt nauwelijks mee. Het stand-byverbruik staat in de specificaties. Bij een stroomstoring ontgrendel je de motor met de noodontgrendeling en beweeg je de deur of poort met de hand.",
+        answer: "Vooral in stand-by: een motor die continu 3 watt trekt, verbruikt zo’n 26 kWh per jaar. Bij een voorbeeldtarief van 0,25 euro per kWh is dat ongeveer 6,50 euro per jaar; het openen en sluiten zelf duurt seconden en telt nauwelijks mee. Het stand-byverbruik staat in de specificaties. Bij een stroomstoring ontgrendel je de motor met de noodontgrendeling en beweeg je de deur of poort met de hand.",
       },
     ],
     pl: [
@@ -936,24 +936,24 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     de: [
       {
-        question: "Welcher Poolroboter für Aufstellpool, Stahlwandbecken oder eingelassenen Pool?",
-        answer: "Für Frame- und Quick-up-Pools genügt ein leichter Bodenroboter, für Stahlwandbecken und eingelassene Pools lohnt ein Modell, das Wände und Wasserlinie reinigt. Prüfen Sie, ob der Hersteller den Roboter ausdrücklich für Aufstellpools freigibt, denn schwere Kletterroboter können weiche Folienwände verformen. Achten Sie auf die maximale Beckengröße, den Beckenboden und bei Akkumodellen auf die Laufzeit pro Ladung. Leiter oder Treppe im Becken sollte der Roboter umfahren können.",
+        question: "Welcher Poolroboter passt zu Aufstellpool, Stahlwandbecken oder eingelassenem Pool?",
+        answer: "Für Frame- und Quick-up-Pools genügt ein leichter Bodenroboter, für Stahlwandbecken und eingelassene Pools lohnt sich ein Modell, das Wände und Wasserlinie reinigt. Prüfen Sie, ob der Hersteller den Roboter ausdrücklich für Aufstellpools freigibt, denn schwere Kletterroboter können weiche Folienwände verformen. Achten Sie auf die maximale Beckengröße, den Beckenboden und bei Akkumodellen auf die Laufzeit pro Ladung. Leiter oder Treppe im Becken sollte der Roboter umfahren können.",
       },
       {
         question: "Poolroboter: nur Boden oder auch Wände und Wasserlinie?",
-        answer: "Bei festen Becken lohnt die Variante mit Wand- und Wasserlinienreinigung, denn an der Wasserlinie setzt sich der Schmutzrand aus Sonnencreme und Fett ab. Reine Bodenroboter sind leichter, günstiger und für kleine Aufstellpools meist ausreichend. Kletternde Modelle entfernen auch Algenansätze in Ecken und ersparen das Bürsten. Achten Sie auf die maximale Wassertiefe und die Dauer eines vollständigen Reinigungszyklus.",
+        answer: "Bei festen Becken lohnt sich die Variante mit Wand- und Wasserlinienreinigung, denn an der Wasserlinie bildet sich ein Schmutzrand aus Sonnencreme und Fett. Reine Bodenroboter sind leichter, günstiger und für kleine Aufstellpools meist ausreichend. Kletternde Modelle entfernen auch Algenansätze in Ecken und ersparen das Bürsten. Achten Sie auf die maximale Wassertiefe und die Dauer eines vollständigen Reinigungszyklus.",
       },
       {
         question: "Wie viel Strom verbraucht ein Poolroboter?",
-        answer: "Wenig: Ein Roboter mit 150 W braucht für einen Zyklus von zwei Stunden 0,3 kWh, bei 0,35 € pro kWh also gut 10 Cent. Bei drei Zyklen pro Woche und einer Saison von Mai bis September bleibt es bei wenigen Euro. Den größeren Posten macht die Filterpumpe aus, die der Roboter nicht ersetzt. Akkuroboter verbrauchen ähnlich viel, nur eben beim Laden an der Steckdose.",
+        answer: "Wenig: Ein Roboter mit 150 W braucht für einen Zyklus von zwei Stunden 0,3 kWh, bei einem Beispieltarif von 0,35 € pro kWh also gut 10 Cent. Bei drei Zyklen pro Woche und einer Saison von Mai bis September bleibt es bei wenigen Euro. Den größeren Posten macht die Filterpumpe aus, die der Roboter nicht ersetzt. Akkuroboter verbrauchen ähnlich viel, nur eben beim Laden an der Steckdose.",
       },
       {
         question: "Akku-Poolroboter oder mit Kabel?",
-        answer: "Akku für kleine bis mittlere Becken und bequemes Handling, Kabel für große Pools und lange, gründliche Reinigungen. Ohne Kabel verheddert sich nichts, dafür begrenzt der Akku die Laufzeit und muss außerhalb des Wassers geladen werden. Kabelgebundene Roboter laufen beliebig lange und klettern meist kräftiger. Ihr Netzteil steht im vorgeschriebenen Mindestabstand zum Beckenrand und hängt an einer Steckdose mit FI-Schutzschalter.",
+        answer: "Akku für kleine bis mittlere Becken und bequeme Handhabung, Kabel für große Pools und lange, gründliche Reinigungen. Ohne Kabel verheddert sich nichts, dafür begrenzt der Akku die Laufzeit und muss außerhalb des Wassers geladen werden. Kabelgebundene Roboter laufen beliebig lange und klettern meist kräftiger. Ihr Netzteil muss den vorgeschriebenen Mindestabstand zum Beckenrand einhalten und an einer Steckdose mit FI-Schutzschalter hängen.",
       },
       {
-        question: "Poolroboter schwimmt auf oder bleibt hängen: was tun?",
-        answer: "Schwimmt er auf, ist meist noch Luft im Gehäuse: Lassen Sie ihn beim Einsetzen schräg absinken, bis keine Blasen mehr aufsteigen. Verliert er an Saugkraft oder klettert nicht mehr, ist oft der Filter voll, also nach jedem Zyklus reinigen. Bleibt er an Treppe oder Bodenablauf hängen, helfen ein anderer Startpunkt oder ein anderes Programm. Bei Kabelmodellen entsteht mit der Zeit Drall im Kabel; ein Drehgelenk oder regelmäßiges gerades Auslegen löst ihn.",
+        question: "Poolroboter schwimmt auf oder bleibt hängen: Was tun?",
+        answer: "Schwimmt er auf, ist meist noch Luft im Gehäuse: Lassen Sie ihn beim Einsetzen schräg absinken, bis keine Blasen mehr aufsteigen. Verliert er an Saugkraft oder klettert nicht mehr, ist oft der Filter voll; reinigen Sie ihn deshalb nach jedem Zyklus. Bleibt er an Treppe oder Bodenablauf hängen, helfen ein anderer Startpunkt oder ein anderes Programm. Bei Kabelmodellen entsteht mit der Zeit Drall im Kabel; ein Drehgelenk oder regelmäßiges gerades Auslegen löst ihn.",
       },
     ],
     es: [
@@ -1003,19 +1003,19 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Heb je een zwembadrobot nodig voor een opzetzwembad?",
-        answer: "Alleen als je het zwembad vaak gebruikt: voor een opzetzwembad of framebad volstaat een lichte bodemrobot, en bij af en toe zwemmen is een handstofzuiger genoeg. Controleer of de fabrikant de robot geschikt noemt voor opzetbaden met zachte wanden, want een zware klimrobot kan het folie vervormen. Een model zonder snoer voorkomt een kabel over de hoge rand. Voor een ingegraven zwembad is een robot met wand- en waterlijnreiniging veel zinvoller.",
+        answer: "Alleen als je het zwembad vaak gebruikt. Voor een opzetzwembad of framebad volstaat een lichte bodemrobot, en zwem je er maar af en toe in, dan is een handstofzuiger genoeg. Controleer of de fabrikant de robot geschikt noemt voor opzetbaden met zachte wanden, want een zware klimrobot kan de folie vervormen. Een model zonder snoer voorkomt een kabel over de hoge rand. Voor een inbouwzwembad is een robot die ook wanden en waterlijn reinigt veel zinvoller.",
       },
       {
         question: "Zwembadrobot met of zonder snoer?",
-        answer: "Zonder snoer voor kleine tot middelgrote baden en gebruiksgemak, met snoer voor grote zwembaden en lange, grondige beurten. Een snoerloze robot raakt niet verstrikt, maar de accu beperkt de looptijd en moet buiten het water worden opgeladen. Een robot met snoer werkt zo lang als nodig en klimt meestal krachtiger. Zet de voeding op de minimale afstand van de rand die de handleiding noemt, aan een stopcontact met aardlekschakelaar.",
+        answer: "Zonder snoer voor kleine tot middelgrote baden en gebruiksgemak, met snoer voor grote zwembaden en lange, grondige beurten. Een snoerloze robot raakt niet verstrikt, maar de accu beperkt de looptijd en moet buiten het water worden opgeladen. Een robot met snoer werkt zo lang als nodig en klimt meestal beter tegen de wanden op. Zet de voeding op de minimale afstand van de rand die de handleiding noemt, aan een stopcontact met aardlekschakelaar (30 mA).",
       },
       {
         question: "Zwembadrobot: alleen bodem of ook wanden en waterlijn?",
-        answer: "Voor een ingegraven of vast zwembad loont een robot die ook wanden en waterlijn reinigt, omdat zich daar een vette rand van zonnebrand en vuil vormt. Een klimmende robot haalt ook algen uit hoeken en scheelt borstelen. Bodemrobots zijn lichter en goedkoper en volstaan in een klein bad. Let op de maximale diepte, de geschikte bekleding en de duur van een volledige cyclus.",
+        answer: "Voor een inbouwzwembad loont een robot die ook wanden en waterlijn reinigt, omdat zich daar een vette rand van zonnebrand en vuil vormt. Een klimmende robot haalt ook algen uit de hoeken en scheelt borstelen. Bodemrobots zijn lichter en goedkoper en volstaan in een klein bad. Let op de maximale diepte, de geschikte bekleding en de duur van een volledige cyclus.",
       },
       {
         question: "Hoeveel stroom verbruikt een zwembadrobot?",
-        answer: "Weinig: een robot van 150 watt verbruikt in een cyclus van twee uur 0,3 kWh, ongeveer 9 cent bij € 0,30 per kWh. Met drie beurten per week in de zwemmaanden kom je op een paar euro per seizoen. Heb je een dynamisch energiecontract, laat hem dan draaien op de goedkope uren. De filterpomp, die de robot niet vervangt, blijft de grootste stroomverbruiker van een zwembad.",
+        answer: "Weinig: een robot van 150 watt verbruikt in een cyclus van twee uur 0,3 kWh, zo’n 8 cent bij een voorbeeldtarief van 0,25 euro per kWh. Met drie beurten per week in de zwemmaanden kom je op een paar euro per seizoen. Heb je een dynamisch energiecontract, laat hem dan op de goedkope uren draaien. De filterpomp, die de robot niet vervangt, blijft veruit de grootste stroomverbruiker van een zwembad.",
       },
       {
         question: "Zwembadrobot blijft drijven of werkt niet: wat nu?",
@@ -1159,23 +1159,23 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     de: [
       {
         question: "Pelletgrill oder Gasgrill?",
-        answer: "Der Pelletgrill punktet bei langen, rauchigen Garzeiten mit App-Steuerung, der Gasgrill beim schnellen Grillen und scharfen Anbraten. Im Pelletgrill dosiert eine Förderschnecke die Pellets nach Zieltemperatur, ideal für Pulled Pork oder Rippchen über viele Stunden. Er braucht Strom und heizt langsamer auf. Der Gasgrill ist in wenigen Minuten bereit und braucht keine Steckdose. Wer beides will, findet Pelletgrills mit Sear-Zone für hohe Hitze.",
+        answer: "Der Pelletgrill punktet beim langen Garen mit Raucharoma und App-Steuerung, der Gasgrill beim schnellen Grillen und scharfen Anbraten. Im Pelletgrill dosiert eine Förderschnecke die Pellets nach Zieltemperatur, ideal für Pulled Pork oder Rippchen über viele Stunden. Er braucht Strom und heizt langsamer auf. Der Gasgrill ist in wenigen Minuten bereit und braucht keine Steckdose. Wer beides will, findet Pelletgrills mit Sear-Zone für hohe Hitze.",
       },
       {
         question: "Darf man auf dem Balkon grillen, auch mit einem Pelletgrill?",
         answer: "Das regeln Mietvertrag, Hausordnung oder die Beschlüsse der Eigentümergemeinschaft; ein generelles Verbot gibt es nicht, ein Pelletgrill ist wegen des Rauchs aber selten balkontauglich. Gerichte haben je nach Einzelfall unterschiedlich entschieden; entscheidend ist, dass Rauch und Geruch die Nachbarn nicht wesentlich stören. Ein Elektrogrill sorgt am seltensten für Ärger. Beachten Sie außerdem die Brandgefahr und die Abstände aus der Anleitung.",
       },
       {
-        question: "Wie viel Pellets und Strom braucht ein Pelletgrill?",
-        answer: "Rechnen Sie mit etwa 0,5 kg Pellets pro Stunde beim Niedrigtemperatur-Garen und über 1 kg pro Stunde bei voller Hitze, bei Kälte und Wind mehr. Ein Pulled Pork über zehn Stunden kann so 5 bis 7 kg Pellets brauchen. Strom ist Nebensache: Die Zündung zieht einige Hundert Watt für wenige Minuten, danach brauchen Lüfter und Schnecke nur wenig. Multiplizieren Sie die Kilogramm mit dem Sackpreis Ihrer Grillpellets.",
+        question: "Wie viele Pellets und wie viel Strom braucht ein Pelletgrill?",
+        answer: "Rechnen Sie mit etwa 0,5 kg Pellets pro Stunde beim Niedrigtemperatur-Garen und über 1 kg pro Stunde bei voller Hitze, bei Kälte und Wind mehr. Ein Pulled Pork über zehn Stunden kann so 5 bis 7 kg Pellets brauchen. Strom ist Nebensache: Die Zündung zieht einige Hundert Watt für wenige Minuten, danach brauchen Lüfter und Schnecke nur wenig. Multiplizieren Sie die Kilogramm mit dem Kilopreis Ihrer Grillpellets.",
       },
       {
-        question: "Welches Grillthermometer, Bluetooth oder WLAN, und welche Kerntemperatur?",
+        question: "Grillthermometer mit Bluetooth oder WLAN: Was passt, und welche Kerntemperatur ist richtig?",
         answer: "WLAN, wenn Sie die Garzeit von überall verfolgen wollen, Bluetooth, wenn Sie in Grillnähe bleiben. Kabellose Fühler funken meist über eine Basisstation, deren Reichweite durch Wände stark sinkt. Gängige Richtwerte für die Kerntemperatur: Geflügel etwa 75 °C, Rinderfilet medium um 56 °C, Pulled Pork um 92 °C, damit das Bindegewebe zerfällt. Achten Sie auf einen Fühler, der die Garraumtemperatur Ihres Grills aushält.",
       },
       {
-        question: "Grillpellets oder Heizpellets, und wie lagert man sie?",
-        answer: "Nur Grillpellets: Heizpellets sind für den Ofen gemacht, nicht für das Garen von Lebensmitteln, und die Grillhersteller schreiben Grillpellets vor. Grillpellets bestehen aus Laubhölzern wie Buche, Eiche oder Kirsche und geben das Raucharoma. Lagern Sie sie trocken und geschlossen, denn feuchte Pellets quellen auf, zerfallen und blockieren die Förderschnecke. Leeren Sie nach der Saison den Pelletbehälter, damit über den Winter keine Feuchtigkeit hineinzieht.",
+        question: "Grillpellets oder Heizpellets – und wie lagert man sie?",
+        answer: "Nur Grillpellets: Heizpellets sind für den Ofen gemacht, nicht für das Garen von Lebensmitteln, und die Grillhersteller schreiben Grillpellets vor. Grillpellets bestehen aus Laubhölzern wie Buche, Eiche oder Kirsche und sorgen für das Raucharoma. Lagern Sie sie trocken und geschlossen, denn feuchte Pellets quellen auf, zerfallen und blockieren die Förderschnecke. Leeren Sie nach der Saison den Pelletbehälter, damit über den Winter keine Feuchtigkeit hineinzieht.",
       },
     ],
     es: [
@@ -1224,24 +1224,24 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     nl: [
       {
-        question: "Pellet-bbq of kamado zoals de Big Green Egg?",
-        answer: "Een pellet-bbq als je gemak en app-bediening wilt, een kamado als je met houtskool wilt koken en hoge temperaturen zoekt. De pellet-bbq houdt zelf de temperatuur vast en meldt via je telefoon wanneer het vlees klaar is, maar heeft stroom nodig. Een kamado houdt met zijn dikke keramische wand de hitte vast en haalt makkelijk pizzatemperaturen, maar je regelt de luchttoevoer zelf. Met een losse ventilatorregelaar maak je ook een kamado slim.",
+        question: "Pelletbarbecue of kamado zoals de Big Green Egg?",
+        answer: "Een pelletbarbecue als je gemak en bediening via een app wilt, een kamado als je op houtskool wilt koken en hoge temperaturen zoekt. De pelletbarbecue houdt zelf de temperatuur vast en meldt via je telefoon wanneer het vlees klaar is, maar heeft stroom nodig. Een kamado houdt de hitte vast met zijn dikke keramische wand en haalt makkelijk pizzatemperaturen, maar de luchttoevoer regel je zelf. Met een losse ventilatorregelaar maak je ook een kamado slim.",
       },
       {
-        question: "Hoeveel pellets en stroom verbruikt een pellet-bbq?",
-        answer: "Reken op ongeveer een halve kilo pellets per uur bij lage temperatuur en meer dan een kilo per uur op vol vermogen, meer bij wind en kou. Een spareribs-sessie van zes uur kost zo 3 tot 4 kilo. Gebruik altijd bbq-pellets, geen verwarmingspellets. Stroom is bijzaak: het gloeielement trekt een paar honderd watt gedurende enkele minuten, daarna verbruiken ventilator en vijzel weinig.",
+        question: "Hoeveel pellets en stroom verbruikt een pelletbarbecue?",
+        answer: "Reken op ongeveer een halve kilo pellets per uur bij lage temperatuur en meer dan een kilo per uur op vol vermogen, en nog meer bij wind en kou. Zes uur spareribs op lage temperatuur kost je dus 3 tot 4 kilo. Gebruik altijd speciale barbecuepellets, geen pellets voor de pelletkachel. Stroom is bijzaak: het gloeielement trekt een paar minuten lang enkele honderden watt, daarna verbruiken ventilator en vijzel weinig.",
       },
       {
         question: "Mag je barbecueën op je balkon?",
-        answer: "Dat hangt af van je huurcontract, het reglement van de VvE en de regels van je gemeente; een elektrische grill is bijna altijd de veiligste keuze. Rook en vonken van houtskool of pellets kunnen buren hinderen en brand veroorzaken. Sommige gemeenten regelen open vuur in hun APV. Bij langdurige droogte kunnen gemeenten en natuurbeheerders vuur en barbecueën in en rond natuurgebieden verbieden; let daarop als je in de buurt woont.",
+        answer: "Dat hangt af van je huurcontract, het reglement van de VvE (in België de VME) en de regels van je gemeente; een elektrische grill is bijna altijd de veiligste keuze. Rook en vonken van houtskool of pellets kunnen de buren hinderen en brand veroorzaken. Sommige gemeenten regelen open vuur in hun APV (in België in het politiereglement). Bij langdurige droogte kunnen gemeenten en natuurbeheerders vuur en barbecueën in en rond natuurgebieden verbieden; let daarop als je in de buurt woont.",
       },
       {
         question: "Welke draadloze vleesthermometer kies je?",
-        answer: "Kies wifi als je het vlees overal wilt volgen en bluetooth als je bij de bbq blijft. Volledig draadloze sensoren gebruiken vaak een basisstation dat het signaal doorgeeft, want bluetooth komt slecht door muren. Let op de maximale omgevingstemperatuur die de sensor verdraagt. Richtwaarden voor de kerntemperatuur: kip rond 75 °C in het dikste deel, pulled pork rond 92 °C.",
+        answer: "Kies wifi als je het vlees overal wilt volgen en Bluetooth als je bij de barbecue blijft. Volledig draadloze sensoren gebruiken vaak een basisstation dat het signaal doorgeeft, want Bluetooth komt slecht door muren. Let op de maximale omgevingstemperatuur die de sensor verdraagt. Richtwaarden voor de kerntemperatuur: kip rond 75 °C in het dikste deel, pulled pork rond 92 °C.",
       },
       {
-        question: "Pellet-bbq gaat uit of rookt te veel: wat te doen?",
-        answer: "Meestal zijn de pellets vochtig of zit de branderpot vol as. Zuig de koude as uit de branderpot, controleer of de pellets droog en heel zijn en of de vijzel ze goed aanvoert. Veel witte rook bij het opstarten is normaal, aanhoudende dikke rook wijst op te veel brandstof of te weinig luchttoevoer. Bewaar pellets droog en afgesloten, en vervang het gloeielement als het bij de start niet meer heet wordt.",
+        question: "Pelletbarbecue gaat uit of rookt te veel: wat kun je doen?",
+        answer: "Meestal zijn de pellets vochtig of zit de branderpot vol as. Zuig de koude as uit de branderpot en controleer of de pellets droog en heel zijn en of de vijzel ze goed aanvoert. Veel witte rook bij het opstarten is normaal; aanhoudende dikke rook wijst op te veel brandstof of te weinig luchttoevoer. Bewaar pellets droog en afgesloten, en vervang het gloeielement als het bij de start niet meer heet wordt.",
       },
     ],
     pl: [
@@ -1385,19 +1385,19 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Darf eine Powerstation ins Hausnetz einspeisen, etwa mit Balkonkraftwerk?",
-        answer: "Nur, wenn sie dafür zugelassen ist und als Teil eines Balkonkraftwerks angemeldet wird; als reines Inselgerät, an dessen Steckdosen Sie Verbraucher anschließen, ist sie unproblematisch. In Deutschland gelten steckerfertige Solaranlagen bis 800 W Wechselrichterleistung als vereinfacht anmeldbar, registriert wird im Marktstammdatenregister. Eine selbst gebastelte Rückspeisung über die Steckdose ist gefährlich und nicht erlaubt. In Österreich und der Schweiz gelten eigene Regeln, fragen Sie Ihren Netzbetreiber.",
+        answer: "Nur, wenn sie dafür zugelassen ist und als Teil eines Balkonkraftwerks angemeldet wird; als reines Inselgerät, an dessen Steckdosen Sie Verbraucher anschließen, ist sie unproblematisch. In Deutschland können steckerfertige Solaranlagen bis 800 W Wechselrichterleistung vereinfacht angemeldet werden; registriert werden sie im Marktstammdatenregister. Eine selbst gebastelte Rückspeisung über die Steckdose ist gefährlich und nicht erlaubt. In Österreich und der Schweiz gelten eigene Regeln; fragen Sie Ihren Netzbetreiber.",
       },
       {
         question: "Powerstation oder Notstromaggregat für den Stromausfall?",
         answer: "Für Kühlschrank, Router, Licht und Handys über einige Stunden reicht eine Powerstation; für mehrere Tage oder große Lasten ist ein Notstromaggregat leistungsfähiger. Die Powerstation ist leise, abgasfrei und darf in der Wohnung stehen. Ein Benzinaggregat erzeugt Kohlenmonoxid und gehört ausschließlich ins Freie, außerdem müssen Sie Kraftstoff sicher lagern. Rechnen Sie: Ein Kühlschrank mit 1 kWh pro Tag leert eine Station mit 1.000 Wh in knapp einem Tag.",
       },
       {
-        question: "Was kostet das Laden einer Powerstation und lohnt Solarladung?",
-        answer: "Eine volle Ladung von 1.000 Wh braucht mit Verlusten etwa 1,1 bis 1,2 kWh, kostet also rund 40 Cent bei 0,35 € pro kWh. Solarstrom ist kostenlos, die Ladung dauert aber länger: Ein 200-W-Modul erreicht seine Nennleistung nur bei voller Sonne und liefert bei Bewölkung deutlich weniger. Als Stromsparer im Alltag lohnt eine Powerstation kaum, ihr Nutzen liegt in Mobilität und Notstrom.",
+        question: "Was kostet das Laden einer Powerstation, und lohnt sich Solarstrom?",
+        answer: "Eine volle Ladung von 1.000 Wh braucht mit Verlusten etwa 1,1 bis 1,2 kWh, kostet also rund 40 Cent bei einem Beispieltarif von 0,35 € pro kWh. Solarstrom ist kostenlos, die Ladung dauert aber länger: Ein 200-W-Modul erreicht seine Nennleistung nur bei voller Sonne und liefert bei Bewölkung deutlich weniger. Als Stromsparer im Alltag lohnt sich eine Powerstation kaum; ihr Nutzen liegt in Mobilität und Notstrom.",
       },
       {
-        question: "LiFePO4 oder NMC: wie lange hält der Akku einer Powerstation?",
-        answer: "LiFePO4 hält deutlich länger: Hersteller geben meist 3.000 Ladezyklen oder mehr bis 80 % Restkapazität an, bei NMC sind es einige Hundert bis etwa tausend. NMC ist bei gleicher Kapazität leichter. Lagern Sie die Powerstation bei 50 bis 80 % Ladung, frostfrei und nicht in praller Sonne, und laden Sie sie etwa alle drei Monate nach. Im Hochsommer im Auto liegen zu lassen, schadet dem Akku.",
+        question: "LiFePO4 oder NMC: Wie lange hält der Akku einer Powerstation?",
+        answer: "LiFePO4 hält deutlich länger: Hersteller geben meist 3.000 Ladezyklen oder mehr bis 80 % Restkapazität an, bei NMC sind es einige Hundert bis etwa tausend. NMC ist bei gleicher Kapazität leichter. Lagern Sie die Powerstation bei 50 bis 80 % Ladung, frostfrei und nicht in praller Sonne, und laden Sie sie etwa alle drei Monate nach. Lassen Sie sie im Hochsommer nicht im Auto liegen, das schadet dem Akku.",
       },
     ],
     es: [
@@ -1447,23 +1447,23 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Hoort een powerstation in je noodpakket?",
-        answer: "Het is een nuttige aanvulling als je je wilt voorbereiden op 72 uur zonder stroom, zoals de overheid adviseert. Een station van 500 Wh houdt telefoons, ledlampen en een radio dagenlang aan de gang; een koelkast vraagt veel meer. Laad hem elke paar maanden bij, want een lege powerstation helpt je niet bij een storing. Een radio op batterijen, een zaklamp en drinkwater blijven ook nodig.",
+        answer: "Het is een nuttige aanvulling als je je wilt voorbereiden op 72 uur zonder stroom, zoals de Nederlandse overheid adviseert. Een powerstation van 500 Wh houdt telefoons, ledlampen en een radio dagenlang aan de gang; een koelkast vraagt veel meer. Laad het om de paar maanden bij, want aan een leeg powerstation heb je bij een storing niets. Een radio op batterijen, een zaklamp en drinkwater blijven ook nodig.",
       },
       {
         question: "Hoeveel Wh moet een powerstation hebben?",
-        answer: "Tel watt × uren op voor alles wat je wilt gebruiken en tel daar zo'n 20% bij op voor omzettingsverliezen. Voorbeeld: een koelbox van 60 W gedurende 10 uur (600 Wh) en een laptop van 50 W gedurende 3 uur (150 Wh) is 750 Wh, dus kies rond de 900 Wh. Controleer ook of het continue vermogen het zwaarste apparaat aankan, inclusief de aanloopstroom. Wil je lang plezier, kies dan een LiFePO4-accu.",
+        answer: "Tel watt × uren op voor alles wat je wilt gebruiken en tel daar zo’n 20% bij op voor omzettingsverliezen. Voorbeeld: een koelbox van 60 W gedurende 10 uur (600 Wh) en een laptop van 50 W gedurende 3 uur (150 Wh) is samen 750 Wh, dus kies een powerstation van rond de 900 Wh. Controleer ook of het continu vermogen het zwaarste apparaat aankan, inclusief de aanloopstroom. Wil je er lang mee doen, kies dan een LiFePO4-accu.",
       },
       {
         question: "Powerstation of thuisbatterij: wat is het verschil?",
-        answer: "Een powerstation is draagbaar en voedt apparaten via eigen stopcontacten; een thuisbatterij wordt vast aangesloten op je meterkast en zonnepanelen. Nu de salderingsregeling op 1 januari 2027 stopt, wordt opslag van zonnestroom interessanter, en daarvoor is een thuisbatterij bedoeld, met veel meer capaciteit en een installateur. Een powerstation kun je overdag wel opladen met eigen zonnestroom en 's avonds gebruiken, maar de besparing blijft klein door de beperkte capaciteit.",
+        answer: "Een powerstation is draagbaar en voedt apparaten via de eigen stopcontacten; een thuisbatterij wordt vast aangesloten op je meterkast en zonnepanelen. In Nederland stopt de salderingsregeling op 1 januari 2027, waardoor het opslaan van zonnestroom interessanter wordt. Daarvoor is een thuisbatterij bedoeld: die heeft veel meer capaciteit en wordt door een installateur aangesloten. Een powerstation kun je overdag wel met eigen zonnestroom opladen en ’s avonds gebruiken, maar door de beperkte capaciteit blijft de besparing klein.",
       },
       {
         question: "Wat kost het opladen van een powerstation?",
-        answer: "Weinig: een volle lading van 1.000 Wh vraagt met verliezen zo'n 1,1 tot 1,2 kWh, ongeveer 35 cent bij € 0,30 per kWh. Met een dynamisch energiecontract laad je hem op de goedkoopste uren, soms 's nachts of midden op een zonnige dag. Met een draagbaar zonnepaneel is laden gratis maar trager: een paneel van 200 W haalt dat vermogen alleen in volle zon. Laden via de auto kan onderweg, maar gaat langzaam.",
+        answer: "Weinig: een volle lading van 1.000 Wh vraagt met de verliezen zo’n 1,1 tot 1,2 kWh, ongeveer 28 tot 30 cent bij een voorbeeldtarief van 0,25 euro per kWh. Met een dynamisch energiecontract laad je het op de goedkoopste uren, vaak ’s nachts of midden op een zonnige dag. Met een draagbaar zonnepaneel is laden gratis maar trager: een paneel van 200 W haalt dat vermogen alleen in volle zon. Onderweg kun je via de auto laden, maar dat gaat langzaam.",
       },
       {
         question: "Hoe lang gaat de accu van een powerstation mee?",
-        answer: "Met LiFePO4 lang: fabrikanten noemen meestal 3.000 laadcycli of meer tot 80% capaciteit, bij NMC zijn dat er een paar honderd tot duizend. NMC is wel lichter bij dezelfde capaciteit. Bewaar het station tussen 50 en 80% lading, vorstvrij en uit de zon, en laad het om de drie maanden bij als je het niet gebruikt. Laat het in de zomer niet in een hete auto liggen.",
+        answer: "Met LiFePO4 lang: fabrikanten noemen meestal 3.000 laadcycli of meer voordat de capaciteit tot 80% zakt; bij NMC zijn dat er een paar honderd tot duizend. NMC is wel lichter bij dezelfde capaciteit. Bewaar het powerstation met 50 tot 80% lading, vorstvrij en uit de zon, en laad het om de drie maanden bij als je het niet gebruikt. Laat het in de zomer niet in een hete auto liggen.",
       },
     ],
     pl: [
@@ -1602,12 +1602,12 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     de: [
       {
-        question: "Außenalarm ohne Abo: geht das?",
-        answer: "Ja, eine Außenalarmanlage funktioniert ohne Abo, wenn Ihnen Push-Meldung, Sirene und eigene Reaktion genügen. Ein Abo brauchen Sie für die Aufschaltung auf eine Notruf- und Serviceleitstelle, die Alarme prüft und Hilfe schickt. Verlangt Ihre Versicherung eine Anlage nach VdS-Richtlinien, kommen Sie um einen zertifizierten Errichter meist nicht herum. Achten Sie bei abofreien Systemen darauf, dass der Cloud-Speicher für Kamerabilder nicht doch kostenpflichtig ist.",
+        question: "Alarmanlage für außen ohne Abo: Geht das?",
+        answer: "Ja, eine Außenalarmanlage funktioniert ohne Abo, wenn Ihnen Push-Meldung und Sirene genügen und Sie selbst reagieren. Ein Abo brauchen Sie für die Aufschaltung auf eine Notruf- und Serviceleitstelle, die Alarme prüft und Hilfe schickt. Verlangt Ihre Versicherung eine Anlage nach VdS-Richtlinien, kommen Sie um einen zertifizierten Errichter meist nicht herum. Achten Sie bei abofreien Systemen darauf, dass der Cloud-Speicher für Kamerabilder nicht doch kostenpflichtig ist.",
       },
       {
-        question: "Bewegungsmelder außen löst ständig aus: was hilft?",
-        answer: "Meist sind Katzen, Igel, Äste im Wind oder Sonneneinstrahlung schuld, also helfen eine andere Ausrichtung und eine geringere Empfindlichkeit. Richten Sie den Melder nicht auf Straße, Hecke oder Morgensonne. Dual-Melder mit Infrarot und Mikrowelle lösen nur aus, wenn beide Sensoren anschlagen. Modelle mit Haustier-Immunität ignorieren kleine Tiere bis zu einem angegebenen Gewicht. Schneiden Sie Zweige zurück und entfernen Sie Spinnweben von der Linse.",
+        question: "Bewegungsmelder außen löst ständig aus: Was hilft?",
+        answer: "Meist sind Katzen, Igel, Äste im Wind oder Sonneneinstrahlung schuld, also helfen eine andere Ausrichtung und eine geringere Empfindlichkeit. Richten Sie den Melder nicht auf Straße, Hecke oder Morgensonne. Dual-Melder mit Infrarot und Mikrowelle lösen nur aus, wenn beide Sensoren ansprechen. Modelle mit Haustier-Immunität ignorieren kleine Tiere bis zu einem angegebenen Gewicht. Schneiden Sie Zweige zurück und entfernen Sie Spinnweben von der Linse.",
       },
       {
         question: "Wie lange darf eine Außensirene heulen?",
@@ -1673,19 +1673,19 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Hoe beveilig je een schuur met fietsen of e-bikes?",
-        answer: "Combineer een goed slot en een grondanker met een draadloos deurcontact en een bewegingsmelder die een sirene of je telefoon aansturen. Een alarm schrikt af, maar houdt een vastberaden dief niet tegen; degelijk hang- en sluitwerk blijft de basis, zoals het Politiekeurmerk Veilig Wonen ook voor woningen eist. Controleer het bereik tussen schuur en huis. Noteer de framenummers van je fietsen, zodat je bij diefstal direct aangifte kunt doen.",
+        answer: "Combineer een goed slot en een grondanker met een draadloos deurcontact en een bewegingsmelder die een sirene laat afgaan of een melding naar je telefoon stuurt. Een alarm schrikt af, maar houdt een vastberaden dief niet tegen; degelijk hang- en sluitwerk blijft de basis, zoals het Politiekeurmerk Veilig Wonen dat ook voor woningen eist. Controleer het bereik tussen schuur en huis. Noteer de framenummers van je fietsen, zodat je bij diefstal meteen aangifte kunt doen.",
       },
       {
-        question: "Bewegingsmelder buiten geeft vals alarm: wat te doen?",
-        answer: "Meestal komt het door katten, egels, bewegende takken of zon die het gebied opwarmt. Richt de melder op een open zone, nooit op de straat, een heg of de ochtendzon, en verlaag de gevoeligheid. Dual-melders met infrarood en microgolf gaan alleen af als beide sensoren beweging zien. Kies een model met huisdierimmuniteit, snoei takken in de buurt en haal spinnenwebben van de lens.",
+        question: "Bewegingsmelder buiten geeft vals alarm: wat kun je doen?",
+        answer: "Meestal komt het door katten, egels, bewegende takken of zon die het gebied opwarmt. Richt de melder op een open zone, nooit op de straat, een heg of de ochtendzon, en verlaag de gevoeligheid. Melders met dubbele technologie (infrarood en microgolf) gaan alleen af als beide sensoren beweging zien. Kies een model met huisdierimmuniteit, snoei takken in de buurt en haal spinnenwebben van de lens.",
       },
       {
-        question: "Werkt een buitenalarm met Google Home, Alexa of Apple Home?",
-        answer: "Vaak wel, maar meestal beperkt tot meldingen en in- en uitschakelen; de alarmfuncties zelf blijven in de eigen app. Controleer vóór aankoop welke koppelingen de fabrikant echt ondersteunt en of Matter erbij hoort. Zo kun je bijvoorbeeld de buitenverlichting laten aangaan als de buitenmelder iets ziet. Stel voor uitschakelen met een spraakopdracht een pincode in, anders kan iedereen bij de slimme speaker het alarm uitzetten.",
+        question: "Werkt een buitenalarm met Google Home, Alexa of Apple Woning?",
+        answer: "Vaak wel, maar meestal beperkt tot meldingen en in- en uitschakelen; de alarmfuncties zelf blijven in de eigen app. Controleer vóór aankoop welke koppelingen de fabrikant echt ondersteunt en of Matter erbij hoort. Dan kun je bijvoorbeeld de buitenverlichting laten aangaan als de buitenmelder iets ziet. Wil je het alarm met een spraakopdracht uitschakelen, stel dan een pincode in; anders kan iedereen die bij de slimme speaker staat het alarm uitzetten.",
       },
       {
-        question: "Hoe lang gaan batterijen van buitensensoren mee?",
-        answer: "Doorgaans één tot enkele jaren, afhankelijk van hoe vaak de sensor afgaat en hoe koud het wordt. Vorst verkort de levensduur van lithiumcellen, en een sensor bij een druk pad verbruikt meer. De meeste systemen waarschuwen in de app bij een bijna lege batterij; vervang hem dan meteen. Houd een reservebatterij van het juiste type achter de hand, want veel sensoren gebruiken minder gangbare lithiumformaten.",
+        question: "Hoe lang gaan de batterijen van buitensensoren mee?",
+        answer: "Doorgaans één tot enkele jaren, afhankelijk van hoe vaak de sensor afgaat en hoe koud het wordt. Vorst verkort de levensduur van lithiumcellen, en een sensor bij een druk pad verbruikt meer. De meeste systemen waarschuwen in de app als een batterij bijna leeg is; vervang hem dan meteen. Houd een reservebatterij van het juiste type achter de hand, want veel sensoren gebruiken minder gangbare lithiumformaten.",
       },
     ],
     pl: [

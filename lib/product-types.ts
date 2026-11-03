@@ -12,7 +12,7 @@ export type ProductTypeKey = 'airfryers' | SmartKitchenCategory
 
 export const PRODUCT_TYPE_LABELS: Readonly<Record<ProductTypeKey, Record<Lang, string>>> = {
   airfryers: {
-    fr: 'Airfryer', en: 'Air fryer', de: 'Heißluftfritteuse',
+    fr: 'Airfryer', en: 'Air fryer', de: 'Airfryer',
     es: 'Freidora de aire', it: 'Friggitrice ad aria', nl: 'Airfryer', pl: 'Frytkownica beztłuszczowa', sv: 'Airfryer', us: 'Air fryer', ca: 'Air fryer',
   },
   multicuiseurs: {
@@ -20,7 +20,7 @@ export const PRODUCT_TYPE_LABELS: Readonly<Record<ProductTypeKey, Record<Lang, s
     es: 'Olla programable', it: 'Multicooker', nl: 'Multicooker', pl: 'Multicooker', sv: 'Multikokare', us: 'Multicooker', ca: 'Multicooker',
   },
   cafetieres: {
-    fr: 'Machine à café', en: 'Coffee machine', de: 'Kaffeemaschine',
+    fr: 'Machine à café', en: 'Coffee machine', de: 'Kaffeevollautomat',
     es: 'Cafetera', it: 'Macchina da caffè', nl: 'Koffiemachine', pl: 'Ekspres do kawy', sv: 'Kaffemaskin', us: 'Coffee maker', ca: 'Coffee maker',
   },
   balances: {

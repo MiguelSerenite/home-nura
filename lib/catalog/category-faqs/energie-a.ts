@@ -115,15 +115,15 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Werkt een slimme thermostaat met mijn cv-ketel en OpenTherm?",
-        answer: "Ja, vrijwel elke cv-ketel werkt met een slimme thermostaat; met OpenTherm laat de thermostaat de ketel moduleren in plaats van alleen aan en uit te schakelen. Dat is comfortabeler en meestal zuiniger voor een hr-ketel, omdat die dan vaker op een lage watertemperatuur draait. Kijk op de aansluitklemmen of in de handleiding van je ketel of OpenTherm wordt ondersteund, en check de compatibiliteitslijst van de thermostaat. Sommige merken gebruiken een eigen protocol of een extra module.",
+        answer: "Ja, vrijwel elke cv-ketel werkt met een slimme thermostaat; met OpenTherm laat de thermostaat de ketel moduleren in plaats van alleen aan en uit te schakelen. Dat is comfortabeler en meestal zuiniger voor een hr-ketel, omdat die dan vaker op een lage watertemperatuur draait. Kijk op de aansluitklemmen of in de handleiding van je ketel of hij OpenTherm ondersteunt, en raadpleeg de compatibiliteitslijst van de thermostaat. Sommige merken gebruiken een eigen protocol of een extra module.",
       },
       {
         question: "Welke slimme thermostaat past bij een hybride warmtepomp?",
-        answer: "Kies bij voorkeur de thermostaat van de warmtepompfabrikant of een model dat jouw warmtepomp officieel ondersteunt. Bij een hybride warmtepomp bepaalt de regeling wanneer de warmtepomp werkt en wanneer de cv-ketel bijspringt; een gewone aan-uitthermostaat kan die verdeling verstoren, waardoor de ketel vaker aanslaat. Stel geen diepe nachtverlaging in: een of twee graden is genoeg, anders moet de ketel 's ochtends bijspringen om snel op temperatuur te komen. Vraag je installateur naar de juiste instellingen.",
+        answer: "Kies bij voorkeur de thermostaat van de warmtepompfabrikant of een model dat jouw warmtepomp officieel ondersteunt. Bij een hybride warmtepomp bepaalt de regeling wanneer de warmtepomp werkt en wanneer de cv-ketel bijspringt; een gewone aan-uitthermostaat kan die verdeling verstoren, waardoor de ketel vaker aanslaat. Stel geen diepe nachtverlaging in: één of twee graden is genoeg, anders moet de ketel ’s ochtends inspringen om het huis snel op temperatuur te krijgen. Vraag je installateur naar de juiste instellingen.",
       },
       {
         question: "Hoeveel gas bespaar je met een slimme thermostaat?",
-        answer: "Je bespaart alleen als je daardoor vaker en slimmer lager stookt; de thermostaat zelf bespaart niets. Winst zit in een strak weekschema, de verwarming lager als niemand thuis is en per kamer regelen met slimme radiatorknoppen. Reken het zelf uit: verbruik je 1.200 m³ gas per jaar en stook je 5 % minder, dan is dat 60 m³; vermenigvuldig dat met je gasprijs per m³ inclusief belastingen. Een graad lager is de eenvoudigste maatregel.",
+        answer: "Alleen zoveel als je er zelf mee bereikt: de thermostaat bespaart niets, jij bespaart door de verwarming vaker en gerichter lager te zetten. De winst zit in een strak weekschema, een lagere temperatuur als niemand thuis is en per kamer regelen met slimme radiatorknoppen. Reken het zelf uit: verbruik je 1.200 m³ gas per jaar en stook je 5% minder, dan is dat 60 m³; vermenigvuldig dat met je gasprijs per m³ inclusief belastingen. De thermostaat een graad lager zetten is de eenvoudigste maatregel.",
       },
       {
         question: "Werkt een slimme thermostaat ook met stadsverwarming?",
@@ -131,7 +131,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Slimme thermostaat werkt niet en de ketel slaat niet aan: wat nu?",
-        answer: "Kijk eerst of de thermostaat nog verbinding heeft met de ketelmodule of ontvanger, want daar zit de oorzaak meestal. Staat de app op offline, herstart dan de bridge en de router. Geeft de ketel een storingscode, kijk dan naar de waterdruk: die hoort bij de meeste ketels tussen 1,5 en 2 bar te staan, en bij te lage druk gaat de ketel in storing. Vul in dat geval de installatie bij volgens de handleiding van je ketel.",
+        answer: "Kijk eerst of de thermostaat nog verbinding heeft met de ketelmodule of ontvanger, want daar zit de oorzaak meestal. Meldt de app dat de thermostaat offline is, herstart dan de bridge en de router. Geeft de ketel een storingscode, kijk dan naar de waterdruk: die hoort bij de meeste ketels tussen 1,5 en 2 bar te staan, en bij te lage druk gaat de ketel in storing. Vul in dat geval de installatie bij volgens de handleiding van je ketel.",
       },
     ],
     pl: [
@@ -275,7 +275,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Ist ein Smart Meter (intelligentes Messsystem) für mich Pflicht?",
-        answer: "In Deutschland ist der Einbau eines intelligenten Messsystems vor allem Pflicht bei mehr als 6.000 kWh Jahresverbrauch, bei PV-Anlagen über 7 kW oder bei steuerbaren Geräten wie Wärmepumpe oder Wallbox. Alle anderen erhalten mindestens eine moderne Messeinrichtung, können ein intelligentes Messsystem aber beim Messstellenbetreiber beantragen; die jährlichen Kosten sind gesetzlich gedeckelt. Für dynamische Stromtarife brauchen Sie ein solches System. In Österreich und der Schweiz bauen die Netzbetreiber Smart Meter flächendeckend ein.",
+        answer: "In Deutschland ist ein intelligentes Messsystem vor allem dann Pflicht, wenn Sie mehr als 6.000 kWh im Jahr verbrauchen, eine PV-Anlage über 7 kW betreiben oder steuerbare Geräte wie Wärmepumpe oder Wallbox nutzen. Alle anderen erhalten mindestens eine moderne Messeinrichtung, können ein intelligentes Messsystem aber beim Messstellenbetreiber beantragen; die jährlichen Kosten sind gesetzlich gedeckelt. Für dynamische Stromtarife brauchen Sie ein solches System. In Österreich und der Schweiz bauen die Netzbetreiber Smart Meter flächendeckend ein.",
       },
       {
         question: "WLAN-Steckdose mit Strommessung oder Messung im Zählerschrank?",
@@ -337,15 +337,15 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Wat heb ik nodig om mijn slimme meter via de P1-poort uit te lezen?",
-        answer: "Een P1-meter of P1-dongle die je in de P1-poort van je slimme meter steekt; daarmee zie je je stroom- en gasverbruik vrijwel live in een app. Nieuwere meters (DSMR 5) geven elke seconde een stroommeting en voeden de dongle zelf; oudere meters meten minder vaak en dan heeft de dongle soms een usb-voeding nodig. Meestal hoef je niets aan te vragen bij je netbeheerder: de poort is bedoeld voor de bewoner.",
+        answer: "Een P1-meter of P1-dongle die je in de P1-poort van je slimme meter steekt; daarmee zie je je stroom- en gasverbruik vrijwel realtime in een app. Nieuwere meters (DSMR 5) geven elke seconde een stroommeting en voorzien de dongle zelf van stroom; oudere meters meten minder vaak, en dan heeft de dongle soms een USB-voeding nodig. Meestal hoef je niets aan te vragen bij je netbeheerder: de poort is bedoeld voor de bewoner.",
       },
       {
         question: "Slimme stekker met energiemeting of een P1-meter?",
-        answer: "Een P1-meter laat het verbruik van je hele huis zien, een slimme stekker met energiemeting dat van één apparaat; om sluipverbruik op te sporen heb je meestal beide nodig. Met de P1-meter zie je wanneer je verbruik omhoog schiet en hoe hoog je basislast is, bijvoorbeeld 's nachts. Met slimme stekkers zoek je daarna per apparaat de grootverbruikers, zoals een oude vriezer of een computer die altijd aanstaat. Vaste aansluitingen, zoals een inductiekookplaat, meet je met een stekker niet.",
+        answer: "Een P1-meter laat het verbruik van je hele huis zien, een slimme stekker met energiemeting dat van één apparaat; om sluipverbruik op te sporen heb je meestal beide nodig. Met de P1-meter zie je wanneer je verbruik omhoog schiet en hoe hoog je basislast is, bijvoorbeeld ’s nachts. Met slimme stekkers zoek je daarna per apparaat de grootverbruikers, zoals een oude vriezer of een computer die altijd aanstaat. Vaste aansluitingen, zoals een inductiekookplaat, meet je met een stekker niet.",
       },
       {
         question: "Wat kost een apparaat per uur met een dynamisch energiecontract?",
-        answer: "Vermenigvuldig het vermogen in kilowatt met de uurprijs van dat moment: een wasdroger van 2 kW die een uur draait, kost 2 kWh maal de uurprijs inclusief belastingen. Bij een dynamisch contract verschilt die prijs per uur, dus hetzelfde programma kan 's middags bij veel zon flink goedkoper zijn dan in de vroege avond. Een P1-meter of slimme stekker laat zien hoeveel kWh een programma echt gebruikt, zodat je kunt bepalen of verschuiven loont.",
+        answer: "Vermenigvuldig het vermogen in kilowatt met de uurprijs van dat moment: een wasdroger van 2 kW die een uur draait, kost 2 kWh maal de uurprijs inclusief belastingen. Bij een dynamisch contract verschilt die prijs per uur, dus hetzelfde programma kan ’s middags bij veel zon flink goedkoper zijn dan in de vroege avond. Een P1-meter of slimme stekker laat zien hoeveel kWh een programma echt gebruikt, zodat je kunt bepalen of verschuiven loont.",
       },
       {
         question: "Is een P1-meter veilig voor mijn privacy?",
@@ -353,7 +353,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "P1-meter werkt niet of toont geen gas: wat nu?",
-        answer: "Meestal ligt het aan een zwakke wifi-verbinding in de meterkast of aan een oudere slimme meter die de dongle niet van stroom voorziet. Zet een repeater dichter bij de meterkast en sluit de dongle bij een oudere meter aan op een usb-voeding. Zie je wel stroom maar geen gas, dan is vaak de draadloze verbinding tussen gasmeter en elektriciteitsmeter verbroken: meld dat bij je netbeheerder, want het is hun apparatuur. Gasstanden komen bovendien maar eens per vijf minuten of per uur binnen.",
+        answer: "Meestal ligt het aan een zwakke wifiverbinding in de meterkast of aan een oudere slimme meter die de dongle niet van stroom voorziet. Zet een repeater dichter bij de meterkast en sluit de dongle bij een oudere meter aan op een USB-voeding. Zie je wel stroom maar geen gas, dan is vaak de draadloze verbinding tussen gasmeter en elektriciteitsmeter verbroken: meld dat bij je netbeheerder, want het is hun apparatuur. Houd er ook rekening mee dat gasstanden maar eens per vijf minuten of per uur binnenkomen.",
       },
     ],
     pl: [
@@ -509,7 +509,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Warum liefert mein Balkonkraftwerk nie die vollen 800 Watt?",
-        answer: "Das ist normal: Module erreichen ihre Nennleistung nur unter Normbedingungen, und Wärme, Neigung, Ausrichtung und Verschattung senken die Leistung im Alltag deutlich. Senkrecht am Geländer montierte Module liefern im Sommer weniger, weil die Sonne hoch steht, und an heißen Tagen sinkt der Wirkungsgrad. Zudem begrenzt der Wechselrichter auf 800 Watt. Bleibt die Leistung bei Sonne dauerhaft bei null, prüfen Sie Stecker, Steckdose und die Statusanzeige des Wechselrichters in der App.",
+        answer: "Das ist normal: Module erreichen ihre Nennleistung nur unter Normbedingungen, und Wärme, Neigung, Ausrichtung und Verschattung senken die Leistung im Alltag deutlich. Senkrecht am Geländer montierte Module liefern im Sommer weniger, weil die Sonne hoch steht, und an heißen Tagen sinkt der Wirkungsgrad. Zudem begrenzt der Wechselrichter die Leistung auf 800 Watt. Bleibt die Leistung bei Sonne dauerhaft bei null, prüfen Sie Stecker, Steckdose und die Statusanzeige des Wechselrichters in der App.",
       },
     ],
     es: [
@@ -559,7 +559,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Mag ik zonnepanelen met een stekker op mijn balkon gebruiken?",
-        answer: "Ja, dat mag, maar Nederland heeft geen aparte regeling zoals Duitsland: je meldt de panelen net als andere zonnepanelen aan bij je netbeheerder. Dat gaat via het landelijke aanmeldportaal van de netbeheerders. Woon je in een appartement, dan heb je voor bevestiging aan balkon of gevel vaak toestemming nodig van de VvE of je verhuurder. Steek de stekker in een vaste buitencontactdoos op een groep zonder andere zware verbruikers, en laat bij twijfel een installateur de groep controleren.",
+        answer: "Nederland heeft er geen aparte regeling voor, zoals Duitsland wel: je meldt de panelen net als andere zonnepanelen aan bij je netbeheerder, via het landelijke aanmeldportaal van de netbeheerders. Woon je in een appartement, dan heb je voor bevestiging aan balkon of gevel vaak toestemming nodig van de VvE (in België: de VME) of je verhuurder. Steek de stekker in een vaste buitencontactdoos op een groep zonder andere zware verbruikers, en laat bij twijfel een installateur de groep controleren.",
       },
       {
         question: "Lonen balkonzonnepanelen nog na het einde van de salderingsregeling?",
@@ -567,15 +567,15 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Hoeveel wattpiek aan balkonpanelen heb ik nodig?",
-        answer: "Stem het vermogen af op je basislast overdag, zoals koelkast, router en apparaten in stand-by, want die verbruikt de opgewekte stroom direct. Is je basislast ongeveer 150 watt, dan zijn een of twee panelen genoeg; meer vermogen loont vooral als je de wasmachine of vaatwasser draait als de zon schijnt. Je basislast zie je met een P1-meter, bijvoorbeeld 's nachts. Panelen die verticaal aan een balkonhek hangen, leveren minder dan schuin geplaatste panelen, zeker in de zomer.",
+        answer: "Stem het vermogen af op je basislast overdag, zoals koelkast, router en apparaten in stand-by: dat verbruik neemt de opgewekte stroom direct af. Is je basislast ongeveer 150 watt, dan zijn één of twee panelen genoeg; meer vermogen loont vooral als je de wasmachine of vaatwasser draait als de zon schijnt. Je basislast zie je met een P1-meter, bijvoorbeeld ’s nachts. Panelen die verticaal aan een balkonhek hangen, leveren minder op dan schuin geplaatste panelen, zeker in de zomer.",
       },
       {
         question: "Balkonpanelen of meedoen met zonnepanelen op het dak van de VvE?",
-        answer: "Als je VvE een gezamenlijk dakproject kan opzetten, levert dat per paneel meestal meer op dan een balkonpaneel, omdat een dak vaak beter ligt en de panelen schuin kunnen staan. Een collectief project kost wel tijd: besluitvorming in de VvE, een installateur en afspraken over de verdeling van de opbrengst. Balkonpanelen zijn vooral interessant als een dakproject er niet in zit, als je huurt of als je snel zelf wilt beginnen.",
+        answer: "Kan je VvE een gezamenlijk dakproject opzetten, dan levert dat per paneel meestal meer op dan een balkonpaneel, omdat een dak vaak gunstiger ligt en de panelen schuin kunnen staan. Een collectief project kost wel tijd: besluitvorming in de VvE, een installateur en afspraken over de verdeling van de opbrengst. Balkonpanelen zijn vooral interessant als een dakproject er niet in zit, als je huurt of als je snel zelf wilt beginnen.",
       },
       {
         question: "Mijn balkonzonnepaneel levert niets op: wat kan er mis zijn?",
-        answer: "Meestal krijgt de micro-omvormer geen netspanning, bijvoorbeeld door een losse stekker, een uitgeschakelde groep of een aardlekschakelaar die is gesprongen. Een micro-omvormer start pas als hij netspanning ziet én er genoeg licht is, dus 's ochtends vroeg of bij zware bewolking is nul normaal. Controleer het statuslampje en de app op foutmeldingen. Daalt de opbrengst geleidelijk, kijk dan naar nieuwe schaduw van bomen of balkons en naar vuil op het glas.",
+        answer: "Meestal krijgt de micro-omvormer geen netspanning, bijvoorbeeld door een losse stekker, een uitgeschakelde groep of een aardlekschakelaar die is gesprongen. Een micro-omvormer start pas als hij netspanning ziet én er genoeg licht is, dus ’s ochtends vroeg of bij zware bewolking is nul normaal. Controleer het statuslampje en de app op foutmeldingen. Daalt de opbrengst geleidelijk, kijk dan naar nieuwe schaduw van bomen of balkons en naar vuil op het glas.",
       },
     ],
     pl: [
@@ -715,22 +715,22 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     de: [
       {
         question: "Lohnt sich ein Stromspeicher für die PV-Anlage?",
-        answer: "Finanziell lohnt er sich vor allem, wenn Ihr Strompreis deutlich über der Einspeisevergütung liegt, denn jede gespeicherte und abends verbrauchte Kilowattstunde spart die Differenz. Rechnung: verschobene kWh pro Jahr × (Strompreis − Einspeisevergütung). Bei 1.500 kWh und 25 Cent Differenz sind das 375 Euro im Jahr; teilen Sie den Speicherpreis durch diesen Betrag und vergleichen Sie mit der Garantiedauer. In Deutschland fällt auf Speicher, die mit einer PV-Anlage an Wohngebäuden betrieben werden, keine Mehrwertsteuer an.",
+        answer: "Finanziell lohnt er sich vor allem, wenn Ihr Strompreis deutlich über der Einspeisevergütung liegt, denn jede gespeicherte und abends verbrauchte Kilowattstunde spart die Differenz. Rechnung: verschobene kWh pro Jahr × (Strompreis − Einspeisevergütung). Bei 1.500 kWh und 25 Cent Differenz sind das 375 Euro im Jahr; teilen Sie den Speicherpreis durch diesen Betrag und vergleichen Sie das Ergebnis mit der Garantiedauer. In Deutschland fällt auf Speicher, die mit einer PV-Anlage an Wohngebäuden betrieben werden, keine Mehrwertsteuer an.",
       },
       {
-        question: "Wie groß sollte der Heimspeicher sein?",
-        answer: "Als verbreitete Faustregel gilt etwa 1 kWh nutzbare Speicherkapazität pro kWp PV-Leistung, aber nicht mehr, als Sie abends und nachts verbrauchen. Ein Haushalt, der zwischen 18 und 8 Uhr rund 5 kWh braucht, ist mit 5 bis 6 kWh gut bedient, auch wenn die Anlage 10 kWp hat. Ein größerer Speicher wird im Winter kaum voll und verlängert die Amortisation. Achten Sie auf die nutzbare statt der Brutto-Kapazität und auf die Entladeleistung für die Abendverbraucher.",
+        question: "Wie groß sollte der Stromspeicher sein?",
+        answer: "Als verbreitete Faustregel gilt etwa 1 kWh nutzbare Speicherkapazität pro kWp PV-Leistung, aber nicht mehr, als Sie abends und nachts verbrauchen. Ein Haushalt, der zwischen 18 und 8 Uhr rund 5 kWh braucht, ist mit 5 bis 6 kWh gut bedient, auch wenn die Anlage 10 kWp hat. Ein größerer Speicher wird im Winter kaum voll und rechnet sich später. Achten Sie auf die nutzbare statt der Brutto-Kapazität und auf die Entladeleistung für die Abendverbraucher.",
       },
       {
         question: "Balkonkraftwerk mit Speicher: erlaubt und sinnvoll?",
         answer: "In Deutschland ist das erlaubt, solange der Wechselrichter höchstens 800 VA ins Hausnetz abgibt; den Speicher müssen Sie zusätzlich im Marktstammdatenregister eintragen. Sinnvoll ist er vor allem, wenn Sie tagsüber außer Haus sind und das Balkonkraftwerk deutlich mehr erzeugt als Ihre Grundlast. Dann gibt der Speicher den Mittagsstrom abends wieder ab, statt ihn unvergütet ins Netz fließen zu lassen. Ein Speicher kann aber so viel kosten wie das Set selbst; rechnen Sie mit Ihrem tatsächlichen Überschuss.",
       },
       {
-        question: "Ist ein Heimspeicher notstromfähig?",
+        question: "Ist ein Stromspeicher notstromfähig?",
         answer: "Nicht automatisch: Die meisten Speicher schalten bei einem Stromausfall mit ab, nur Systeme mit Notstrom- oder Ersatzstromfunktion und passender Umschalteinrichtung versorgen das Haus weiter. Notstrom bedeutet oft nur eine eigene Steckdose am Gerät, Ersatzstrom dagegen ausgewählte Stromkreise oder das ganze Haus. Die Umschaltung muss eine Elektrofachkraft installieren, damit kein Strom ins abgeschaltete Netz fließt. Legen Sie in der App eine Reserve für den Notfall fest und prüfen Sie, ob die PV-Anlage im Inselbetrieb weiterlädt.",
       },
       {
-        question: "Wie lange hält ein Heimspeicher?",
+        question: "Wie lange hält ein Stromspeicher?",
         answer: "Moderne Lithium-Eisenphosphat-Speicher (LFP) haben oft zehn Jahre Garantie oder mehrere Tausend Ladezyklen, und sie altern schleichend, statt plötzlich auszufallen. Die Garantie sichert meist eine Restkapazität zu, etwa 70 Prozent am Ende der Laufzeit. Hitze beschleunigt die Alterung, Frost bremst das Laden: Ein Keller- oder Hauswirtschaftsraum mit gemäßigter Temperatur ist ideal, ein heißer Dachboden nicht. Halten Sie die Firmware aktuell und lassen Sie Fehlermeldungen in der App nicht liegen.",
       },
     ],
@@ -781,19 +781,19 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Is een thuisbatterij rendabel na het einde van de salderingsregeling?",
-        answer: "Vaker dan nu: vanaf 1 januari 2027 krijg je voor teruggeleverde stroom veel minder dan je voor afgenomen stroom betaalt, en dat verschil verdient een batterij terug. Elke kWh die je opslaat en 's avonds zelf gebruikt, levert het verschil tussen je stroomprijs en de terugleververgoeding op, plus eventuele terugleverkosten die je ontloopt. Met 1.500 kWh en € 0,20 verschil is dat € 300 per jaar; deel de prijs van de geïnstalleerde batterij door dat bedrag en vergelijk met de garantie.",
+        answer: "Vaker dan nu: vanaf 1 januari 2027 krijg je voor teruggeleverde stroom veel minder dan je voor afgenomen stroom betaalt, en dat verschil verdient een batterij terug. Elke kWh die je opslaat en ’s avonds zelf gebruikt, levert het verschil tussen je stroomprijs en de terugleververgoeding op, plus eventuele terugleverkosten die je ontloopt. Sla je 1.500 kWh per jaar op bij € 0,20 verschil per kWh, dan is dat € 300 per jaar. Deel de prijs van de geïnstalleerde batterij door dat bedrag en vergelijk de uitkomst met de garantieperiode.",
       },
       {
         question: "Thuisbatterij en dynamisch contract: loont laden als stroom goedkoop is?",
-        answer: "Soms: met een dynamisch contract kan een slimme thuisbatterij laden als de stroom goedkoop is en ontladen als hij duur is, ook zonder zonnepanelen. Het prijsverschil moet dan groter zijn dan de laad- en ontlaadverliezen, ongeveer 10 %, en de slijtage per cyclus. Reken met de volledige kWh-prijs inclusief energiebelasting en btw. Kies een batterij en energieleverancier die dit automatisch kunnen sturen, anders wordt het veel handwerk.",
+        answer: "Soms: met een dynamisch contract kan een slimme thuisbatterij laden als de stroom goedkoop is en ontladen als hij duur is, ook zonder zonnepanelen. Het prijsverschil moet dan groter zijn dan de laad- en ontlaadverliezen, ongeveer 10%, plus de slijtage per cyclus. Reken met de volledige kWh-prijs inclusief energiebelasting en btw. Kies een batterij en een energieleverancier die dit automatisch kunnen regelen, anders wordt het veel handwerk.",
       },
       {
         question: "Is een thuisbatterij brandveilig en waar plaats je hem?",
-        answer: "Een goed geïnstalleerde thuisbatterij met LFP-cellen is relatief veilig, maar plaats hem niet in een slaapkamer of vluchtroute, en kies liever een berging of garage. Houd je aan de afstanden en ventilatie die de fabrikant voorschrijft, hang een rookmelder in dezelfde ruimte en laat de batterij door een erkend installateur aansluiten. Meld de batterij bij je opstalverzekeraar. Een stekkerbatterij voor balkonpanelen is kleiner, maar ook die zet je niet naast een warmtebron of brandbaar materiaal.",
+        answer: "Een goed geïnstalleerde thuisbatterij met LFP-cellen is relatief veilig, maar zet hem niet in een slaapkamer of vluchtroute; een berging of garage is een betere plek. Houd je aan de afstanden en ventilatie die de fabrikant voorschrijft, hang een rookmelder in dezelfde ruimte en laat de batterij door een erkend installateur aansluiten. Meld de batterij bij je opstalverzekeraar. Een stekkerbatterij voor balkonpanelen is kleiner, maar ook die zet je niet naast een warmtebron of brandbaar materiaal.",
       },
       {
         question: "Hoeveel kWh thuisbatterij heb ik nodig?",
-        answer: "Ongeveer wat je 's avonds en 's nachts verbruikt, niet je totale dagverbruik, want dat deel moet de batterij uit je zonnestroom halen. Met een P1-meter of de app van je energieleverancier zie je je verbruik per uur: tel bijvoorbeeld op wat je tussen 18.00 en 8.00 uur gebruikt. Is dat 5 kWh, dan is 5 tot 6 kWh bruikbare capaciteit een logische start. Groter heeft weinig zin als je panelen hem in de winter toch niet vol krijgen.",
+        answer: "Ongeveer wat je ’s avonds en ’s nachts verbruikt, niet je totale dagverbruik: dat is het deel dat de batterij met je zonnestroom van overdag moet dekken. Met een P1-meter of de app van je energieleverancier zie je je verbruik per uur: tel bijvoorbeeld op wat je tussen 18.00 en 8.00 uur gebruikt. Is dat 5 kWh, dan is 5 tot 6 kWh bruikbare capaciteit een logische start. Een grotere batterij heeft weinig zin als je panelen hem in de winter toch niet vol krijgen.",
       },
       {
         question: "Mijn thuisbatterij laadt niet (meer) vol: wat is er aan de hand?",
@@ -1003,23 +1003,23 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "IKEA Dirigera of Philips Hue Bridge: wat kies je?",
-        answer: "Kies Hue als je de grootste keuze in lampen, armaturen en accessoires wilt in een uitgebreid systeem; kies Dirigera als je vooral IKEA-producten gebruikt en goedkoper wilt instappen. Beide sturen Zigbee-lampen lokaal aan en zijn via Matter te koppelen aan Google Home, Apple Woning of Alexa. De Hue Bridge accepteert meestal ook Zigbee-lampen van andere merken, waaronder IKEA. Dirigera werkt bovendien als Thread-borderrouter voor nieuwe IKEA-producten met Matter.",
+        answer: "Kies Hue als je een uitgebreid systeem wilt met de grootste keuze aan lampen, armaturen en accessoires; kies Dirigera als je vooral IKEA-producten gebruikt en goedkoper wilt beginnen. Beide sturen Zigbee-lampen lokaal aan en zijn via Matter te koppelen aan Google Home, Apple Woning of Alexa. De Hue Bridge accepteert meestal ook Zigbee-lampen van andere merken, waaronder IKEA. Dirigera werkt bovendien als Thread-borderrouter voor nieuwe IKEA-producten met Matter.",
       },
       {
         question: "Heb ik een Hue Bridge nodig voor slimme lampen?",
-        answer: "Nee, niet voor een paar lampen: Hue-lampen werken ook via Bluetooth, en wifi-lampen van andere merken hebben helemaal geen bridge nodig. Via Bluetooth bedien je Hue-lampen alleen in de buurt en mis je functies als bediening van buitenaf en uitgebreide automatiseringen. Met meerdere kamers is een bridge met Zigbee betrouwbaarder: de lampen vormen een eigen netwerk dat je wifi niet belast. Ook schakelaars, sensoren en routines werken dan lokaal en snel.",
+        answer: "Nee, niet voor een paar lampen: Hue-lampen werken ook via Bluetooth, en wifilampen van andere merken hebben helemaal geen bridge nodig. Via Bluetooth bedien je Hue-lampen alleen in de buurt en mis je functies als bediening van buitenshuis en uitgebreide automatiseringen. Met meerdere kamers is een bridge met Zigbee betrouwbaarder: de lampen vormen een eigen netwerk dat je wifi niet belast. Ook schakelaars, sensoren en routines werken dan lokaal en snel.",
       },
       {
         question: "Hoeveel stroom verbruikt een slimme lamp in stand-by?",
-        answer: "Maximaal 0,5 watt, de grens uit de Europese ecodesignregels voor verbonden lichtbronnen, dus hooguit ongeveer 4,4 kWh per jaar per lamp. Bij een voorbeeldprijs van € 0,30 per kWh is dat zo'n € 1,30 per jaar per lamp. Brandt hij, dan verbruikt een slimme ledlamp evenveel als een gewone ledlamp met dezelfde lichtsterkte: 9 watt, vier uur per dag, is ongeveer 13 kWh per jaar. Met twintig slimme lampen loopt het sluipverbruik dus op.",
+        answer: "Maximaal 0,5 watt: dat is de grens uit de Europese ecodesignregels voor lichtbronnen met een netwerkverbinding. Dat komt neer op hooguit ongeveer 4,4 kWh per jaar per lamp. Bij een voorbeeldprijs van € 0,30 per kWh is dat zo’n € 1,30 per jaar per lamp. Brandt hij, dan verbruikt een slimme ledlamp evenveel als een gewone ledlamp met dezelfde lichtsterkte: 9 watt, vier uur per dag, is ongeveer 13 kWh per jaar. Met twintig slimme lampen loopt het sluipverbruik dus wel op.",
       },
       {
         question: "Kun je slimme lampen gebruiken met een gewone schakelaar of dimmer?",
-        answer: "Met een gewone schakelaar wel, als die aan blijft staan; met een gewone dimmer niet, want dan kan de lamp flikkeren, zoemen of kapotgaan. Zet je de lamp uit met de schakelaar, dan krijgt hij geen stroom meer en reageert hij niet op de app. Plak daarom een draadloze schakelaar van hetzelfde merk naast de bestaande schakelaar, of vervang die door een slimme schakelaar. Een bestaande dimmer laat je vervangen door een gewone schakelaar, het liefst door een installateur.",
+        answer: "Met een gewone schakelaar wel, als die aan blijft staan; met een gewone dimmer niet, want dan kan de lamp flikkeren, zoemen of kapotgaan. Zet je de lamp uit met de schakelaar, dan krijgt hij geen stroom meer en reageert hij niet op de app. Plak daarom een draadloze schakelaar van hetzelfde merk naast de bestaande schakelaar, of vervang die door een slimme schakelaar. Vervang een bestaande dimmer door een gewone schakelaar en laat dat bij voorkeur door een installateur doen.",
       },
       {
         question: "Slimme lamp werkt niet meer of reageert niet: wat nu?",
-        answer: "Controleer eerst of de lamp stroom krijgt: in de meeste gevallen is hij uitgezet met de schakelaar aan de muur. Reageert hij nog steeds niet, kijk dan of je router, wachtwoord of wifi-band is veranderd: de meeste lampen werken alleen op 2,4 GHz. Bij Zigbee helpt een slimme stekker tussen bridge en lamp om het netwerk te versterken. Resetten gaat bij de meeste merken door de lamp een aantal keer snel aan en uit te zetten; de juiste volgorde staat in de handleiding.",
+        answer: "Controleer eerst of de lamp stroom krijgt: in de meeste gevallen is hij uitgezet met de schakelaar aan de muur. Reageert hij nog steeds niet, kijk dan of je router, wifiwachtwoord of wifiband is veranderd: de meeste lampen werken alleen op 2,4 GHz. Bij Zigbee helpt een slimme stekker tussen bridge en lamp om het netwerk te versterken. Resetten gaat bij de meeste merken door de lamp een aantal keer snel aan en uit te zetten; de juiste volgorde staat in de handleiding.",
       },
     ],
     pl: [
@@ -1159,7 +1159,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     de: [
       {
         question: "Smarter Lichtschalter ohne Neutralleiter – geht das?",
-        answer: "Ja, es gibt Schalter und Unterputz-Aktoren ohne Neutralleiter, sie funktionieren aber mit sparsamen LED-Lampen schlechter als Modelle mit Neutralleiter. Ohne N versorgt sich das Gerät über einen kleinen Strom durch die Lampe, wodurch LEDs im ausgeschalteten Zustand glimmen oder flackern können; Abhilfe schafft oft ein Bypass an der Leuchte. In vielen Altbauten liegen in der Schalterdose nur Phase und Schaltdraht. Prüfen Sie bei abgeschaltetem Strom, ob ein blauer Leiter in der Dose vorhanden ist.",
+        answer: "Ja, es gibt Schalter und Unterputz-Aktoren ohne Neutralleiter, sie funktionieren aber mit sparsamen LED-Lampen schlechter als Modelle mit Neutralleiter. Ohne N versorgt sich das Gerät über einen kleinen Strom durch die Lampe, wodurch LEDs im ausgeschalteten Zustand glimmen oder flackern können; Abhilfe schafft oft ein Bypass an der Leuchte. In vielen Altbauten liegen in der Schalterdose nur Phase und Schaltdraht. Prüfen Sie bei abgeschaltetem Strom, ob in der Dose ein blauer Leiter liegt.",
       },
       {
         question: "Unterputz-Aktor hinter dem Schalter oder kompletter Smart-Schalter?",
@@ -1225,7 +1225,7 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Kan een slimme schakelaar zonder nuldraad?",
-        answer: "Ja, er zijn slimme schakelaars en inbouwmodules zonder nuldraad, maar die werken minder goed met zuinige ledlampen. Zonder nuldraad voedt het apparaat zich met een klein stroompje door de lamp, waardoor ledlampen kunnen nagloeien of knipperen als ze uit staan; een bypass bij de lamp lost dat meestal op. In veel oudere woningen zitten in de schakeldoos alleen de fase en de schakeldraad. Kijk met de stroom eraf of er een blauwe draad in de doos zit.",
+        answer: "Ja, er zijn slimme schakelaars en inbouwmodules zonder nuldraad, maar die werken minder goed met zuinige ledlampen. Zonder nuldraad voedt het apparaat zich met een klein stroompje door de lamp, waardoor ledlampen kunnen nagloeien of knipperen als ze uit staan; een bypass bij de lamp lost dat meestal op. In veel oudere woningen zitten in de schakeldoos alleen de fase en de schakeldraad. Schakel de stroom uit en kijk of er een blauwe draad in de doos zit.",
       },
       {
         question: "Inbouwmodule of complete slimme schakelaar bij een hotelschakeling?",
@@ -1233,15 +1233,15 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
       },
       {
         question: "Mag ik zelf een slimme schakelaar aansluiten?",
-        answer: "Ja, in je eigen woning mag je dat zelf doen, maar het werk moet veilig zijn en je volgt het best de installatienorm NEN 1010. Schakel de groep uit in de meterkast, controleer met een spanningzoeker dat er echt geen spanning meer op staat en maak een foto van de oorspronkelijke bedrading. In een huurwoning vraag je eerst toestemming aan de verhuurder. Bij twijfel, of als je verzekeraar dat eist, schakel je een erkend installateur in.",
+        answer: "Ja, in je eigen woning mag je dat zelf doen, maar het werk moet veilig zijn; volg daarbij de installatienorm NEN 1010 (in België: het AREI). Schakel de groep uit in de meterkast (zekeringkast), controleer met een spanningzoeker dat er echt geen spanning meer op staat en maak een foto van de oorspronkelijke bedrading. In een huurwoning vraag je eerst toestemming aan de verhuurder. Bij twijfel, of als je verzekeraar dat eist, schakel je een erkend installateur in.",
       },
       {
         question: "Hoeveel stroom gebruikt een slimme schakelaar in stand-by?",
-        answer: "Meestal minder dan 1 watt, dus een paar kWh per jaar: 0,5 watt dag en nacht is ongeveer 4,4 kWh. Met tien schakelaars en een voorbeeldprijs van € 0,30 per kWh kost dat zo'n € 13 per jaar. Zigbee- of Thread-modellen verbruiken vaak minder dan wifi-modellen. Daar staat tegenover dat schema's en bewegingssensoren vergeten lampen uitzetten.",
+        answer: "Meestal minder dan 1 watt, dus een paar kWh per jaar: 0,5 watt dag en nacht is ongeveer 4,4 kWh. Met tien schakelaars en een voorbeeldprijs van € 0,30 per kWh kost dat zo’n € 13 per jaar. Zigbee- of Thread-modellen verbruiken vaak minder dan wifimodellen. Daar staat tegenover dat schema’s en bewegingssensoren lampen uitzetten die je vergeten bent.",
       },
       {
         question: "Ledlampen knipperen of gloeien na met mijn slimme schakelaar: wat nu?",
-        answer: "Meestal komt dat door een schakelaar zonder nuldraad: het stroompje waarop hij werkt, loopt door de ledlamp en laat die zacht oplichten of knipperen. Plaats de bypass die de fabrikant meelevert bij de lamp, kies dimbare ledlampen met iets meer vermogen of stap over op een model met nuldraad als die in de doos zit. Zoemt de lamp bij dimmen, dan is hij niet dimbaar of staat de verkeerde dimmodus ingesteld: kies in de app fase-afsnijding of fase-aansnijding passend bij de lamp.",
+        answer: "Meestal komt dat door een schakelaar zonder nuldraad: het stroompje waarop hij werkt, loopt door de ledlamp en laat die zacht oplichten of knipperen. Plaats de bypass die de fabrikant meelevert bij de lamp, kies dimbare ledlampen met iets meer vermogen of stap over op een model met nuldraad als die in de doos zit. Zoemt de lamp bij dimmen, dan is hij niet dimbaar of is de verkeerde dimmodus ingesteld: kies in de app fase-afsnijding of fase-aansnijding passend bij de lamp.",
       },
     ],
     pl: [

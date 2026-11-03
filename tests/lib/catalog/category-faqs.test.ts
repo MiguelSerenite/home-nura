@@ -122,6 +122,10 @@ describe('test-claim rule', () => {
     expect(testWordErrors('Lo abbiamo testato a casa.')).toEqual(['thermostats/it#1: answer uses a "test" word'])
   })
 
+  it('accepts independent testers named by their own name', () => {
+    expect(testWordErrors('Vedi anche Test-Achats e Test Aankoop.')).toEqual([])
+  })
+
   it('leaves the Italian "testa" and "testina" alone', () => {
     expect(testWordErrors('Cambia la testina, senza mal di testa.')).toEqual([])
   })

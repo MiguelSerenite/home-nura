@@ -17,7 +17,7 @@ describe('productKicker', () => {
       'N°1 · Airfryer · Familles nombreuses',
     )
     expect(productKicker({ type: 'airfryers', lang: 'de', rank: 2, bestFor: 'Preis-Leistung' })).toBe(
-      'Platz 2 · Heißluftfritteuse · Preis-Leistung',
+      'Platz 2 · Airfryer · Preis-Leistung',
     )
   })
 

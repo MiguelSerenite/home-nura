@@ -14,7 +14,7 @@ export const article: BlogArticle = {
       alt: {
         fr: 'Frites dorées dans un petit panier métallique, le type de cuisson croustillante attendu d’un airfryer compact de 4 litres',
         en: 'Golden chips in a small wire basket, the kind of crisp result you would expect from a compact 4-litre air fryer',
-        de: 'Goldene Pommes in einem kleinen Drahtkorb – das knusprige Ergebnis, das man von einer kompakten 4-Liter-Heißluftfritteuse erwartet',
+        de: 'Goldbraune Pommes in einem kleinen Drahtkorb – das knusprige Ergebnis, das man von einem kompakten 4-Liter-Airfryer erwartet',
         es: 'Patatas fritas doradas en una cesta metálica pequeña: el resultado crujiente que se espera de una freidora de aire compacta de 4 litros',
         it: 'Patatine dorate in un piccolo cestello metallico, il risultato croccante che ci si aspetta da una friggitrice ad aria compatta da 4 litri',
         nl: 'Goudbruine friet in een klein draadmandje, het knapperige resultaat dat je van een compacte airfryer van 4 liter verwacht',
@@ -40,7 +40,7 @@ export const article: BlogArticle = {
   excerpt: {
     fr: 'Notre avis sur le Xiaomi Smart Air Fryer Pro 4L, fondé sur la fiche technique, les avis indépendants et les retours d’acheteurs : un airfryer connecté compact avec hublot, fonctions basse température et application Xiaomi Home, idéal pour 1 à 3 personnes.',
     en: 'Our review of the Xiaomi Smart Air Fryer Pro 4L, based on specs, independent reviews and buyer feedback: a compact smart air fryer with a viewing window, low-temperature functions and the Xiaomi Home app, ideal for 1 to 3 people.',
-    de: 'Unsere Einschätzung des Xiaomi Smart Air Fryer Pro 4L auf Basis von Datenblatt, unabhängigen Testberichten und Käuferstimmen: eine kompakte vernetzte Heißluftfritteuse mit Sichtfenster, Niedrigtemperatur-Funktionen und Xiaomi-Home-App für 1 bis 3 Personen.',
+    de: 'Unsere Einschätzung des Xiaomi Smart Air Fryer Pro 4L auf Basis von Datenblatt, unabhängigen Testberichten und Käuferbewertungen: ein kompakter Airfryer mit WLAN, Sichtfenster, Niedrigtemperatur-Funktionen und Xiaomi-Home-App, ideal für 1 bis 3 Personen.',
     es: 'Nuestra opinión sobre la Xiaomi Smart Air Fryer Pro 4L, basada en la ficha técnica, análisis independientes y opiniones de compradores: una freidora de aire compacta y conectada, con ventana, funciones de baja temperatura y app Xiaomi Home, ideal para hogares de 1 a 3 personas.',
     it: 'La nostra recensione della Xiaomi Smart Air Fryer Pro 4L, basata su scheda tecnica, recensioni indipendenti e opinioni degli acquirenti: una friggitrice ad aria smart e compatta, con oblò, funzioni a bassa temperatura e app Xiaomi Home, ideale per 1-3 persone.',
     nl: 'Onze review van de Xiaomi Smart Air Fryer Pro 4L, op basis van specificaties, onafhankelijke reviews en ervaringen van kopers: een compacte slimme airfryer met kijkvenster, lagetemperatuurfuncties en de Xiaomi Home-app, ideaal voor 1 tot 3 personen.',
@@ -240,14 +240,14 @@ export const article: BlogArticle = {
 <h2>Our verdict</h2>
 <p>In 2026 the Xiaomi Smart Air Fryer Pro 4L is still a sensible choice for a couple, a student or a small household who want a compact, versatile smart air fryer. Its lit window and low-temperature settings set it apart from most rivals of the same size. You do, however, have to accept a limited capacity, less even heat and a hand-wash basket. If you cook for more than three people, look at the Philips 3000 Series XL or the Cosori Dual Blaze instead; if you want a small smart model that’s easier to clean, consider the Cosori Lite 3.8L.</p>`,
 
-    de: `<p><strong>Der Xiaomi Smart Air Fryer Pro 4L ist eine gute vernetzte Einsteiger-Heißluftfritteuse für 1 bis 3 Personen</strong>: kompakt, mit Sichtfenster und über die Xiaomi-Home-App steuerbar, hebt er sich vor allem durch seine Niedrigtemperatur-Funktionen (40 bis 80 °C) ab. Die Grenzen sind klar: ein 4-Liter-Korb, maximal 200 °C und eine weniger gleichmäßige Hitze als bei stärkeren Modellen, weshalb man das Gargut schütteln muss.</p>
-<p>Diese Einschätzung stützt sich auf das von Xiaomi veröffentlichte Datenblatt, unabhängige Testberichte der Fachpresse und verifizierte Käuferbewertungen. Eigene Messungen präsentieren wir nicht: Unsere Aufgabe ist es, diese Quellen abzugleichen, damit Sie gut entscheiden können. Alle verglichenen Modelle finden Sie auf unserer Seite <a href="/de/cuisine-connectee/airfryers">Heißluftfritteusen</a>.</p>
+    de: `<p><strong>Der Xiaomi Smart Air Fryer Pro 4L ist ein guter Einsteiger-Airfryer mit App für 1 bis 3 Personen</strong>: Er ist kompakt, hat ein Sichtfenster, lässt sich über die Xiaomi-Home-App steuern und hebt sich vor allem durch seine Niedrigtemperatur-Funktionen (40 bis 80 °C) ab. Die Grenzen sind klar: ein 4-Liter-Korb, maximal 200 °C und eine weniger gleichmäßige Hitze als bei stärkeren Modellen, weshalb Sie das Gargut zwischendurch schütteln müssen.</p>
+<p>Diese Einschätzung stützt sich auf das von Xiaomi veröffentlichte Datenblatt, unabhängige Testberichte der Fachpresse und verifizierte Käuferbewertungen. Eigene Messwerte veröffentlichen wir nicht: Wir gleichen diese Quellen ab, damit Sie gut entscheiden können. Alle verglichenen Modelle finden Sie auf unserer Übersichtsseite <a href="/de/cuisine-connectee/airfryers">Airfryer</a>.</p>
 
 <h2>Technische Daten des Xiaomi Smart Air Fryer Pro 4L</h2>
 <table>
 <thead><tr><th>Merkmal</th><th>Detail (Herstellerangaben)</th></tr></thead>
 <tbody>
-<tr><td>Korbvolumen</td><td>4 Liter</td></tr>
+<tr><td>Korbvolumen</td><td>4 L</td></tr>
 <tr><td>Leistung</td><td>1.600 W</td></tr>
 <tr><td>Temperaturbereich</td><td>40 bis 200 °C</td></tr>
 <tr><td>Programme</td><td>11 Voreinstellungen laut Xiaomi, dazu der manuelle Modus</td></tr>
@@ -255,36 +255,36 @@ export const article: BlogArticle = {
 <tr><td>Sichtfenster</td><td>Dreifach isoliertes transparentes Fenster mit Innenbeleuchtung</td></tr>
 <tr><td>Konnektivität</td><td>WLAN, Xiaomi-Home-App (über 100 Rezepte), Google Assistant</td></tr>
 <tr><td>Zeitvorwahl</td><td>Ja, per App im Voraus planbar</td></tr>
-<tr><td>Abmessungen</td><td>Ca. 25,1 x 33,5 x 30,4 cm</td></tr>
-<tr><td>Gewicht</td><td>Ca. 3,9 kg</td></tr>
+<tr><td>Abmessungen</td><td>ca. 25,1 × 33,5 × 30,4 cm</td></tr>
+<tr><td>Gewicht</td><td>ca. 3,9 kg</td></tr>
 </tbody>
 </table>
-<p>Das Modell kam im Frühjahr 2023 nach Europa und gehört auch 2026 zu den verbreitetsten kleinen vernetzten Heißluftfritteusen, etwa bei Amazon und in den Xiaomi-Stores.</p>
+<p>Das Modell kam im Frühjahr 2023 nach Europa und gehört auch 2026 zu den am weitesten verbreiteten kleinen Airfryern mit App, etwa bei Amazon und in den Xiaomi-Stores.</p>
 
 <h2>Stärken</h2>
 <h3>Ein Sichtfenster, das wirklich hilft</h3>
-<p>Das erste Plus des Xiaomi Smart Air Fryer Pro ist das transparente, von innen beleuchtete Fenster. Bei einer klassischen Schubladen-Fritteuse muss man den Korb herausziehen, um nachzusehen, und verliert dabei Hitze. Hier genügt ein Blick, um zu erkennen, ob die Pommes goldbraun sind oder das Gemüse anfängt zu rösten. Käufer nennen dieses Detail regelmäßig als Hauptgrund für ihre Wahl, und die Fachpresse lobte es schon zum Marktstart.</p>
+<p>Das erste Plus des Xiaomi Smart Air Fryer Pro ist das transparente, von innen beleuchtete Fenster. Bei einem klassischen Airfryer mit Schublade müssen Sie den Korb herausziehen, um nachzusehen, und die Temperatur fällt ab. Hier genügt ein Blick, um zu erkennen, ob die Pommes goldbraun sind oder das Gemüse zu bräunen beginnt. Käufer nennen dieses Detail regelmäßig als Hauptgrund für ihre Wahl, und die Fachpresse lobte es schon zum Marktstart.</p>
 
 <h3>Niedrigtemperatur-Funktionen, die in dieser Klasse selten sind</h3>
-<p>Der Bereich von 40 bis 80 °C ermöglicht Anwendungen, die man bei kompakten Heißluftfritteusen selten findet: schonendes Auftauen, Teig gehen lassen, selbst gemachter Joghurt, Obst trocknen und Warmhalten, ohne dass Speisen austrocknen. Ein echtes Dörrgerät ersetzt das nicht, und die kleine Kapazität begrenzt die Mengen, aber für Apfelchips oder gelegentlichen Joghurt ist es ein echter Mehrwert.</p>
+<p>Im Bereich von 40 bis 80 °C kann er Dinge, die kompakte Heißluftfritteusen selten beherrschen: schonend auftauen, Teig gehen lassen, Joghurt selbst machen, Obst dörren und Speisen warmhalten, ohne dass sie austrocknen. Ein echtes Dörrgerät ersetzt er nicht, und das kleine Fassungsvermögen begrenzt die Mengen. Für Apfelchips oder gelegentlich selbst gemachten Joghurt ist das aber ein echter Gewinn.</p>
 
 <h3>Eine umfangreiche App und einfache Bedienung</h3>
-<p>Mit der Xiaomi-Home-App starten und verfolgen Sie den Garvorgang aus der Ferne, passen Zeit oder Temperatur an, planen eine Zeitvorwahl und greifen auf mehr als 100 Rezepte für das 4-Liter-Format zu. Die Sprachsteuerung läuft über Google Assistant. Am Gerät bleiben Drehknopf und OLED-Display einfach: drehen, drücken, und eine Erinnerung meldet, wann der Korb geschüttelt werden sollte. Wer bereits Xiaomi-Geräte nutzt (Saugroboter, Luftreiniger, Lampen), integriert ihn mühelos.</p>
+<p>Mit der Xiaomi-Home-App starten und verfolgen Sie den Garvorgang aus der Ferne, passen Zeit oder Temperatur an, stellen eine Zeitvorwahl ein und greifen auf mehr als 100 Rezepte für das 4-Liter-Format zu. Die Sprachsteuerung läuft über Google Assistant. Am Gerät ist die Bedienung mit Drehknopf und OLED-Display einfach: drehen, drücken, fertig. Eine Erinnerung meldet, wann Sie den Korb schütteln sollten. Wenn Sie schon Xiaomi-Geräte nutzen (Saugroboter, Luftreiniger, smarte Glühbirnen), fügt er sich mühelos ein.</p>
 
 <h3>Kompakt und schlicht gestaltet</h3>
-<p>Mit rund 25 cm Breite und 3,9 kg lässt er sich leicht verstauen und braucht wenig Platz auf einer schmalen Arbeitsfläche, in einer kleinen Wohnung oder Mietküche. Das schlichte weiße Design ist eine Abwechslung zu wuchtigen schwarzen Geräten.</p>
+<p>Mit rund 25 cm Breite und 3,9 kg lässt er sich leicht verstauen und braucht wenig Platz auf einer schmalen Arbeitsfläche, in einer kleinen Wohnung oder Mietküche. Das schlichte weiße Design hebt sich von den wuchtigeren schwarzen Airfryern ab.</p>
 
 <h2>Schwächen</h2>
 <ul>
-<li><strong>Kapazität für kleine Haushalte</strong>: Xiaomi nennt bis zu 5 Personen, doch Nutzerbewertungen und unabhängige Testberichte sehen den komfortablen Einsatz eher bei 2 bis 3 Personen. Für knusprige Pommes den Korb nicht überladen.</li>
-<li><strong>Weniger gleichmäßige Hitze</strong>: Mehrere Berichte stellen fest, dass Speisen in der Mitte langsamer bräunen als am Rand. Schütteln oder Wenden zur Halbzeit ist nötig, wie bei den meisten Geräten dieser Größe mit nur einem Heizelement.</li>
+<li><strong>Kapazität für kleine Haushalte</strong>: Xiaomi nennt bis zu 5 Personen, doch Nutzerbewertungen und unabhängige Testberichte halten ihn eher für 2 bis 3 Personen für ausreichend. Für knusprige Pommes dürfen Sie den Korb nicht überladen.</li>
+<li><strong>Weniger gleichmäßige Hitze</strong>: Mehrere Testberichte stellen fest, dass Speisen in der Mitte langsamer bräunen als am Rand. Schütteln oder Wenden zur Halbzeit ist nötig, wie bei den meisten Geräten dieser Größe mit nur einem Heizelement.</li>
 <li><strong>Maximal 200 °C</strong>: genug für Pommes, Hähnchen oder Gemüse, aber weniger geeignet für sehr scharfes Anbraten. Modelle wie der Cosori Lite erreichen 230 °C.</li>
 <li><strong>Reinigung des Korbs</strong>: Laut veröffentlichten Testberichten wird der Korb von Hand gespült, nur das herausnehmbare Gitter darf in die Spülmaschine. Prüfen Sie die Anleitung Ihrer Version.</li>
-<li><strong>App mit Luft nach oben</strong>: funktional und rezeptreich, aber weniger angenehm als die Apps von Cosori oder Philips. Kontoerstellung und WLAN-Kopplung werfen bei Käufern die meisten Fragen auf.</li>
+<li><strong>App mit Luft nach oben</strong>: Sie ist funktional und rezeptreich, gilt aber als weniger angenehm als die Apps von Cosori oder Philips. Kontoerstellung und WLAN-Kopplung werfen bei Käufern die meisten Fragen auf.</li>
 </ul>
 
 <h2>Was Käufer und Fachpresse sagen</h2>
-<p>Verifizierte Käuferstimmen loben vor allem drei Punkte: das Sichtfenster, die kompakte Bauweise und das gute Verhältnis von Funktionen zu Preisklasse. Kritik gibt es an der Korbgröße, sobald der Haushalt wächst, am nötigen Schütteln und an der etwas nüchternen App. Die europäische Technikpresse hat das Modell insgesamt positiv aufgenommen und empfiehlt es Paaren und kleinen Haushalten, die eine vernetzte Heißluftfritteuse ohne viel Platzbedarf suchen.</p>
+<p>Verifizierte Käuferbewertungen loben vor allem drei Punkte: das Sichtfenster, die kompakte Bauweise und viele Funktionen für die Preisklasse. Kritik gibt es an der Korbgröße, sobald der Haushalt wächst, am nötigen Schütteln und an der etwas nüchternen App. Die europäische Technikpresse hat das Modell insgesamt positiv aufgenommen und empfiehlt es Paaren und kleinen Haushalten, die einen platzsparenden Airfryer mit App suchen.</p>
 
 <h2>Für wen eignet er sich?</h2>
 <ul>
@@ -295,45 +295,45 @@ export const article: BlogArticle = {
 
 <h2>Alternativen</h2>
 <h3>Cosori Lite 3.8L Air Fryer – die kompakte vernetzte Alternative</h3>
-<p>Sehr ähnliches Format (3,8 Liter, 1.500 W), aber bis zu 230 °C, eine gut bewertete VeSync-App und antihaftbeschichtetes Zubehör, das Cosori als spülmaschinenfest angibt. Kein Sichtfenster und keine Niedrigtemperatur-Funktionen. Die Wahl, wenn Ihnen einfache Reinigung und höhere Maximaltemperatur wichtiger sind.</p>
+<p>Sehr ähnliches Format (3,8 Liter, 1.500 W), aber bis zu 230 °C, eine gut bewertete VeSync-App und antihaftbeschichtetes Zubehör, das Cosori als spülmaschinenfest angibt. Sichtfenster und Niedrigtemperatur-Funktionen fehlen. Die bessere Wahl, wenn Ihnen einfache Reinigung und eine höhere Maximaltemperatur wichtiger sind.</p>
 
 <h3>Philips Airfryer 3000 Series XL 6,2 L – eine Nummer größer</h3>
 <p>Mit 6,2 Litern und 2.000 W passt dieser Philips besser zu Haushalten mit 3 bis 5 Personen. Er bietet viele Programme und Rezepte über die Philips-App, lässt sich aber nicht per WLAN fernsteuern. Die logische Wahl, wenn Ihnen der Xiaomi zu klein ist.</p>
 
 <h3>Moulinex Easy Fry Max 5 L – der Klassiker ohne Vernetzung</h3>
-<p>5 Liter, 1.500 W und rund zehn Automatikprogramme: eine einfache, bewährte Heißluftfritteuse ohne App. Passend, wenn Vernetzung keine Rolle spielt und Sie für 3 bis 4 Personen etwas mehr Volumen wollen.</p>
+<p>5 Liter, 1.500 W und rund zehn Automatikprogramme: eine einfache, bewährte Heißluftfritteuse ohne App. Er passt, wenn Sie keine App brauchen und für 3 bis 4 Personen etwas mehr Volumen wollen.</p>
 
 <h3>Cosori Dual Blaze 6,4 L Smart Air Fryer – für gleichmäßigeres Garen</h3>
-<p>Das doppelte Heizelement über und unter dem Korb reduziert das Wenden, gesteuert wird über die VeSync-App. Größer und höherwertig, beantwortet er genau den wichtigsten Kritikpunkt am Xiaomi.</p>
+<p>Je ein Heizelement über und unter dem Korb sorgt dafür, dass Sie seltener wenden müssen; gesteuert wird er über die VeSync-App. Er ist größer und höherwertig und behebt genau den wichtigsten Kritikpunkt am Xiaomi.</p>
 
 <h2>Vergleichstabelle</h2>
 <table>
-<thead><tr><th>Modell</th><th>Volumen</th><th>Hauptstärke</th><th>Konnektivität</th><th>Ideal für</th></tr></thead>
+<thead><tr><th>Modell</th><th>Fassungsvermögen</th><th>Hauptstärke</th><th>Konnektivität</th><th>Ideal für</th></tr></thead>
 <tbody>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 l</td><td>Beleuchtetes Fenster, 40–200 °C</td><td>WLAN, Xiaomi Home, Google Assistant</td><td>1 bis 3 Personen, kleine Küchen</td></tr>
-<tr><td>Cosori Lite 3.8L</td><td>3,8 l</td><td>Bis 230 °C</td><td>WLAN, VeSync</td><td>1 bis 3 Personen, leichte Reinigung</td></tr>
-<tr><td>Philips 3000 Series XL</td><td>6,2 l</td><td>2.000 W, großer Korb</td><td>Rezept-App</td><td>3 bis 5 Personen</td></tr>
-<tr><td>Moulinex Easy Fry Max 5L</td><td>5 l</td><td>Einfachheit, Automatikprogramme</td><td>Keine</td><td>3 bis 4 Personen ohne App</td></tr>
-<tr><td>Cosori Dual Blaze 6.4L</td><td>6,4 l</td><td>Doppeltes Heizelement</td><td>WLAN, VeSync</td><td>Gleichmäßiges Garen ohne Wenden</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L</td><td>Beleuchtetes Sichtfenster, 40–200 °C</td><td>WLAN, Xiaomi Home, Google Assistant</td><td>1 bis 3 Personen, kleine Küchen</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>3,8 L</td><td>Bis 230 °C</td><td>WLAN, VeSync</td><td>1 bis 3 Personen, leichte Reinigung</td></tr>
+<tr><td>Philips 3000 Series XL</td><td>6,2 L</td><td>2.000 W, großer Korb</td><td>Rezept-App</td><td>3 bis 5 Personen</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>5 L</td><td>Einfachheit, Automatikprogramme</td><td>Keine</td><td>3 bis 4 Personen ohne App</td></tr>
+<tr><td>Cosori Dual Blaze 6.4L</td><td>6,4 L</td><td>Zwei Heizelemente</td><td>WLAN, VeSync</td><td>Gleichmäßiges Garen ohne Wenden</td></tr>
 </tbody>
 </table>
-<p>Mehr zu fernsteuerbaren Modellen lesen Sie in unserem <a href="/de/blog/comparatif-airfryer-connecte-2026">Vergleich vernetzter Heißluftfritteusen</a>.</p>
+<p>Mehr zu fernsteuerbaren Modellen lesen Sie in unserem <a href="/de/blog/comparatif-airfryer-connecte-2026">Vergleich der Airfryer mit App</a>.</p>
 
 <h2>Inbetriebnahme</h2>
-<p>Die Einrichtung ist einfach, doch ein paar Schritte ersparen Ärger. Entfernen Sie alle Folien und Aufkleber, spülen Sie Korb und Gitter mit Spülmittel und lassen Sie das Gerät dann einige Minuten leer laufen, wie es die meisten Hersteller empfehlen, um den Neugeruch zu beseitigen. Für die Vernetzung installieren Sie die Xiaomi-Home-App, legen ein Xiaomi-Konto an oder melden sich an, wählen eine europäische Serverregion und halten das Smartphone während der WLAN-Kopplung in der Nähe des Geräts. Klappt die Kopplung nicht, prüfen Sie, ob das Smartphone im selben Heimnetz ist, und setzen Sie das WLAN des Geräts laut Anleitung zurück. Danach lässt es sich für die Sprachsteuerung in Google Home einbinden.</p>
+<p>Die Einrichtung ist einfach, doch ein paar Schritte ersparen Ärger. Entfernen Sie alle Folien und Aufkleber, spülen Sie Korb und Gitter mit Spülmittel und lassen Sie das Gerät dann einige Minuten leer laufen, wie es die meisten Hersteller empfehlen, damit der Neugeruch verschwindet. Für die Vernetzung installieren Sie die Xiaomi-Home-App, legen ein Xiaomi-Konto an oder melden sich mit Ihrem bestehenden Konto an, wählen eine europäische Serverregion und halten das Smartphone während der WLAN-Kopplung in der Nähe des Geräts. Klappt die Kopplung nicht, prüfen Sie, ob das Smartphone im selben Heimnetz ist, und setzen Sie das WLAN des Geräts laut Anleitung zurück. Danach lässt es sich für die Sprachsteuerung in Google Home einbinden.</p>
 
 <h2>Typische Fehler und Tipps zur Nutzung</h2>
 <ul>
 <li><strong>Korb überladen</strong>: Bei 4 Litern bringt eine dünne Schicht deutlich bessere Ergebnisse. Lieber zwei Durchgänge als ein labbriges Ergebnis.</li>
 <li><strong>Schütteln vergessen</strong>: Folgen Sie der Erinnerung des Geräts und schütteln oder wenden Sie zur Halbzeit.</li>
 <li><strong>Vorheizen auslassen</strong>: Ein paar Minuten Vorheizen verbessern die Knusprigkeit von Pommes und Paniertem spürbar.</li>
-<li><strong>Metallbesteck verwenden</strong>: Es beschädigt die Antihaftbeschichtung. Besser Silikon oder Holz.</li>
+<li><strong>Küchenhelfer aus Metall verwenden</strong>: Sie beschädigen die Antihaftbeschichtung. Besser Silikon oder Holz.</li>
 <li><strong>Direkt an die Wand stellen</strong>: Lassen Sie Platz um den Heißluftauslass, stellen Sie das Gerät auf eine stabile, hitzebeständige Fläche und betreiben Sie es nicht unter einem niedrigen Hängeschrank.</li>
-<li><strong>Zeitvorwahl mit leicht verderblichen Lebensmitteln</strong>: Die Fernplanung ist praktisch, aber rohes Fleisch oder Fisch sollten nicht stundenlang bei Raumtemperatur stehen.</li>
+<li><strong>Zeitvorwahl mit leicht verderblichen Lebensmitteln</strong>: Die Zeitvorwahl per App ist praktisch, aber rohes Fleisch oder Fisch sollten nicht stundenlang bei Raumtemperatur stehen.</li>
 </ul>
 
 <h2>Unser Fazit</h2>
-<p>Der Xiaomi Smart Air Fryer Pro 4L bleibt 2026 eine sinnvolle Wahl für Paare, Studierende oder kleine Haushalte, die eine vernetzte, kompakte und vielseitige Heißluftfritteuse suchen. Beleuchtetes Sichtfenster und Niedrigtemperatur-Funktionen heben ihn von den meisten Konkurrenten gleicher Größe ab. Dafür muss man eine begrenzte Kapazität, weniger gleichmäßige Hitze und einen Korb für die Handwäsche akzeptieren. Wer für mehr als drei Personen kocht, ist mit dem Philips 3000 Series XL oder dem Cosori Dual Blaze besser bedient; wer ein kleines vernetztes Modell mit einfacherer Reinigung sucht, sollte sich den Cosori Lite 3.8L ansehen.</p>`,
+<p>Der Xiaomi Smart Air Fryer Pro 4L bleibt 2026 eine sinnvolle Wahl für Paare, Studierende oder kleine Haushalte, die einen kompakten, vielseitigen Airfryer mit App suchen. Beleuchtetes Sichtfenster und Niedrigtemperatur-Funktionen heben ihn von den meisten Konkurrenten gleicher Größe ab. Dafür müssen Sie ein begrenztes Fassungsvermögen, weniger gleichmäßige Hitze und einen Korb für die Handwäsche in Kauf nehmen. Wer für mehr als drei Personen kocht, ist mit dem Philips 3000 Series XL oder dem Cosori Dual Blaze besser bedient; wer ein kleines Modell mit App sucht, das sich leichter reinigen lässt, sollte sich den Cosori Lite 3.8L ansehen.</p>`,
 
     es: `<p><strong>La Xiaomi Smart Air Fryer Pro 4L es una buena freidora de aire conectada de gama de entrada para 1 a 3 personas</strong>: compacta, con ventana para vigilar la cocción y controlable desde la app Xiaomi Home, destaca sobre todo por sus funciones de baja temperatura (de 40 a 80 °C). Sus puntos débiles también están claros: una cesta de 4 litros, un máximo de 200 °C y un calor menos homogéneo que en modelos más potentes, lo que obliga a agitar la cesta.</p>
 <p>Esta opinión se basa en la ficha técnica publicada por Xiaomi, en análisis independientes de la prensa especializada y en opiniones de compradores verificados. No presentamos mediciones propias: nuestro trabajo es cruzar estas fuentes para ayudarte a decidir. Encontrarás todos los modelos comparados en nuestra página de <a href="/es/cuisine-connectee/airfryers">freidoras de aire</a>.</p>
@@ -1013,7 +1013,7 @@ export const article: BlogArticle = {
       answer: {
         fr: 'C’est possible pour des accompagnements, mais pas idéal pour un repas complet. Les avis d’utilisateurs situent son usage confortable à 2 ou 3 personnes. Pour 4 personnes et plus, un modèle de 5 à 6 litres, comme le Philips Série 3000 XL, sera plus pratique.',
         en: 'It’s fine for side dishes, but not ideal for a full meal. User reviews suggest it’s most comfortable for 2 or 3 people. For 4 or more, a 5- to 6-litre model such as the Philips 3000 Series XL will be more practical.',
-        de: 'Für Beilagen geht es, für eine komplette Mahlzeit ist er eher knapp. Nutzerbewertungen sehen den komfortablen Einsatz bei 2 bis 3 Personen. Ab 4 Personen ist ein Modell mit 5 bis 6 Litern wie der Philips 3000 Series XL praktischer.',
+        de: 'Für Beilagen geht es, für eine komplette Mahlzeit wird es eher knapp. Laut Nutzerbewertungen reicht er bequem für 2 bis 3 Personen. Ab 4 Personen ist ein Modell mit 5 bis 6 Litern wie der Philips 3000 Series XL praktischer.',
         es: 'Sirve para guarniciones, pero no es ideal para una comida completa. Según las opiniones de los usuarios, va bien para 2 o 3 personas. Para 4 o más, un modelo de 5 a 6 litros, como la Philips Serie 3000 XL, resulta más práctico.',
         it: 'Va bene per i contorni, ma non è l’ideale per un pasto completo. Secondo le opinioni degli utenti è comoda soprattutto per 2 o 3 persone. Per 4 persone o più è più pratico un modello da 5-6 litri, come la Philips Serie 3000 XL.',
         nl: 'Voor bijgerechten wel, maar voor een volledige maaltijd is hij krap. Volgens gebruikers is hij comfortabel voor 2 tot 3 personen. Voor 4 personen of meer is een model van 5 tot 6 liter, zoals de Philips 3000 Series XL, praktischer.',
@@ -1039,7 +1039,7 @@ export const article: BlogArticle = {
       answer: {
         fr: 'Oui, Xiaomi annonce la compatibilité avec Google Assistant, une fois l’appareil associé à l’application Xiaomi Home. L’application permet aussi de lancer, suivre et programmer une cuisson à distance.',
         en: 'Yes. Xiaomi says it works with Google Assistant once the air fryer is paired with the Xiaomi Home app. The app also lets you start, monitor and schedule cooking remotely.',
-        de: 'Ja, Xiaomi gibt Kompatibilität mit Google Assistant an, sobald das Gerät mit der Xiaomi-Home-App gekoppelt ist. Über die App lässt sich das Garen außerdem aus der Ferne starten, verfolgen und planen.',
+        de: 'Ja, laut Xiaomi funktioniert er mit Google Assistant, sobald das Gerät mit der Xiaomi-Home-App gekoppelt ist. Über die App können Sie das Garen außerdem aus der Ferne starten, verfolgen und zeitlich planen.',
         es: 'Sí: según Xiaomi, es compatible con Google Assistant una vez vinculada a la app Xiaomi Home. La app también permite iniciar, seguir y programar la cocción a distancia.',
         it: 'Sì, Xiaomi dichiara la compatibilità con Google Assistant una volta abbinata all’app Xiaomi Home. L’app consente anche di avviare, seguire e programmare la cottura a distanza.',
         nl: 'Ja, volgens Xiaomi werkt hij met Google Assistent zodra het apparaat aan de Xiaomi Home-app is gekoppeld. Via de app kun je het garen ook op afstand starten, volgen en plannen.',
@@ -1065,7 +1065,7 @@ export const article: BlogArticle = {
       answer: {
         fr: 'Elle permet de décongeler en douceur, de faire lever une pâte, de préparer un yaourt maison, de sécher des fruits et de garder un plat au chaud sans le dessécher. C’est un atout rare sur un airfryer compact, même si la capacité limite les quantités.',
         en: 'It’s for gentle defrosting, proving dough, making yoghurt, drying fruit and keeping a dish warm without drying it out. That’s rare on a compact air fryer, although the small basket limits how much you can make.',
-        de: 'Damit lässt sich schonend auftauen, Teig gehen lassen, Joghurt herstellen, Obst trocknen und ein Gericht warmhalten, ohne dass es austrocknet. Bei kompakten Heißluftfritteusen ist das selten, auch wenn die Kapazität die Mengen begrenzt.',
+        de: 'Damit können Sie schonend auftauen, Teig gehen lassen, Joghurt selbst machen, Obst dörren und Speisen warmhalten, ohne dass sie austrocknen. Bei einem kompakten Airfryer ist das selten, auch wenn das kleine Fassungsvermögen die Mengen begrenzt.',
         es: 'Permite descongelar con suavidad, fermentar masas, hacer yogur casero, deshidratar fruta y mantener un plato caliente sin resecarlo. Es una baza poco habitual en una freidora compacta, aunque la capacidad limita las cantidades.',
         it: 'Permette di scongelare delicatamente, far lievitare l’impasto, preparare lo yogurt in casa, essiccare la frutta e mantenere in caldo un piatto senza seccarlo. È una funzione rara su una friggitrice compatta, anche se la capacità limita le quantità.',
         nl: 'Je kunt er zacht mee ontdooien, deeg laten rijzen, zelf yoghurt maken, fruit drogen en een gerecht warmhouden zonder dat het uitdroogt. Dat zie je zelden op een compacte airfryer, al beperkt de kleine inhoud de hoeveelheden.',
@@ -1091,7 +1091,7 @@ export const article: BlogArticle = {
       answer: {
         fr: 'D’après des avis publiés, le panier antiadhésif se lave à la main, tandis que la grille amovible passe au lave-vaisselle. Référez-vous à la notice de votre exemplaire et évitez les éponges abrasives pour préserver le revêtement.',
         en: 'According to published reviews, the non-stick basket is hand-wash only, while the removable grill plate can go in the dishwasher. Check the manual for your model and avoid abrasive scourers to protect the coating.',
-        de: 'Laut veröffentlichten Testberichten wird der antihaftbeschichtete Korb von Hand gespült, das herausnehmbare Gitter darf in die Spülmaschine. Beachten Sie die Anleitung Ihres Geräts und meiden Sie Scheuerschwämme.',
+        de: 'Laut veröffentlichten Testberichten wird der antihaftbeschichtete Korb von Hand gespült, das herausnehmbare Gitter darf in die Spülmaschine. Beachten Sie die Anleitung Ihres Geräts und verzichten Sie auf Scheuerschwämme, damit die Beschichtung lange hält.',
         es: 'Según análisis publicados, la cesta antiadherente se lava a mano, mientras que la rejilla extraíble puede ir al lavavajillas. Consulta el manual de tu unidad y evita los estropajos abrasivos para cuidar el revestimiento.',
         it: 'Secondo alcune recensioni pubblicate, il cestello antiaderente va lavato a mano, mentre la griglia rimovibile può andare in lavastoviglie. Consulta il manuale del tuo apparecchio ed evita le spugne abrasive per proteggere il rivestimento.',
         nl: 'Volgens gepubliceerde reviews moet je de mand met antiaanbaklaag met de hand afwassen, terwijl het uitneembare rooster in de vaatwasser mag. Raadpleeg de handleiding van jouw exemplaar en gebruik geen schuursponsjes, zodat de laag mooi blijft.',
@@ -1105,7 +1105,7 @@ export const article: BlogArticle = {
       question: {
         fr: 'Faut-il secouer les aliments pendant la cuisson ?',
         en: 'Do I need to shake the food while it cooks?',
-        de: 'Muss man das Gargut während des Garens schütteln?',
+        de: 'Muss man die Lebensmittel beim Garen schütteln?',
         es: '¿Hay que agitar la cesta durante la cocción?',
         it: 'Bisogna scuotere gli alimenti durante la cottura?',
         nl: 'Moet je het eten tijdens het garen schudden?',
@@ -1117,7 +1117,7 @@ export const article: BlogArticle = {
       answer: {
         fr: 'Oui. Plusieurs avis indépendants notent que le centre du panier dore moins vite que les bords. L’appareil affiche un rappel : secouez ou retournez à mi-cuisson et ne surchargez pas le panier pour un résultat homogène.',
         en: 'Yes. Several independent reviews note that the centre of the basket browns more slowly than the edges. The air fryer reminds you when to do it: shake or turn the food halfway through, and don’t overload the basket, for even results.',
-        de: 'Ja. Mehrere unabhängige Testberichte stellen fest, dass die Korbmitte langsamer bräunt als der Rand. Das Gerät erinnert daran: zur Halbzeit schütteln oder wenden und den Korb nicht überladen.',
+        de: 'Ja. Mehrere unabhängige Testberichte stellen fest, dass die Korbmitte langsamer bräunt als der Rand. Das Gerät zeigt dafür eine Erinnerung an: Schütteln oder wenden Sie das Gargut zur Halbzeit, und überladen Sie den Korb nicht, damit alles gleichmäßig gart.',
         es: 'Sí. Varios análisis independientes señalan que el centro de la cesta se dora más despacio que los bordes. El aparato muestra un aviso: agita la cesta o da la vuelta a los alimentos a mitad de cocción y no la llenes demasiado para que todo se haga por igual.',
         it: 'Sì. Diverse recensioni indipendenti notano che il centro del cestello si dora più lentamente dei bordi. L’apparecchio mostra un promemoria: scuoti o gira gli alimenti a metà cottura e, per un risultato uniforme, non sovraccaricare il cestello.',
         nl: 'Ja. Diverse onafhankelijke reviews merken op dat het midden van de mand langzamer bruint dan de randen. Het apparaat geeft een herinnering: schud het eten halverwege of draai het om, en doe de mand niet te vol voor een gelijkmatig resultaat.',
@@ -1131,7 +1131,7 @@ export const article: BlogArticle = {
       question: {
         fr: 'Xiaomi Smart Air Fryer Pro 4L ou Cosori Lite 3.8L : lequel choisir ?',
         en: 'Xiaomi Smart Air Fryer Pro 4L or Cosori Lite 3.8L: which should I choose?',
-        de: 'Xiaomi Smart Air Fryer Pro 4L oder Cosori Lite 3.8L: welcher passt?',
+        de: 'Xiaomi Smart Air Fryer Pro 4L oder Cosori Lite 3.8L: Welcher passt besser?',
         es: 'Xiaomi Smart Air Fryer Pro 4L o Cosori Lite 3.8L: ¿cuál elegir?',
         it: 'Xiaomi Smart Air Fryer Pro 4L o Cosori Lite 3.8L: quale scegliere?',
         nl: 'Xiaomi Smart Air Fryer Pro 4L of Cosori Lite 3.8L: welke kies je?',
@@ -1143,7 +1143,7 @@ export const article: BlogArticle = {
       answer: {
         fr: 'Choisissez le Xiaomi pour son hublot éclairé, ses fonctions basse température et l’écosystème Xiaomi Home. Préférez le Cosori Lite pour sa température maximale de 230 °C, son application VeSync et ses accessoires annoncés compatibles lave-vaisselle.',
         en: 'Go for the Xiaomi if you want the lit window, the low-temperature settings and the Xiaomi Home ecosystem. Choose the Cosori Lite for its 230°C top temperature, the VeSync app and accessories that Cosori says are dishwasher-safe.',
-        de: 'Der Xiaomi punktet mit beleuchtetem Sichtfenster, Niedrigtemperatur-Funktionen und Xiaomi Home. Der Cosori Lite bietet bis zu 230 °C, die VeSync-App und Zubehör, das als spülmaschinenfest angegeben ist.',
+        de: 'Der Xiaomi punktet mit beleuchtetem Sichtfenster, Niedrigtemperatur-Funktionen und Xiaomi Home. Der Cosori Lite bietet bis zu 230 °C, die VeSync-App und Zubehör, das laut Hersteller spülmaschinenfest ist.',
         es: 'Elige la Xiaomi por su ventana iluminada, sus funciones de baja temperatura y el ecosistema Xiaomi Home. Quédate con la Cosori Lite si quieres llegar a 230 °C, la app VeSync y unos accesorios que, según la marca, van al lavavajillas.',
         it: 'Scegli la Xiaomi per l’oblò illuminato, le funzioni a bassa temperatura e l’ecosistema Xiaomi Home. Punta invece sulla Cosori Lite per i 230 °C di temperatura massima, l’app VeSync e gli accessori che il produttore indica come lavabili in lavastoviglie.',
         nl: 'Kies de Xiaomi voor het verlichte venster, de lagetemperatuurfuncties en het Xiaomi Home-ecosysteem. Ga voor de Cosori Lite als je een maximumtemperatuur van 230 °C, de VeSync-app en accessoires wilt die volgens de fabrikant in de vaatwasser mogen.',
