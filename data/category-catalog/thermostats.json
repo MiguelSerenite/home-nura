@@ -1,0 +1,83 @@
+{
+  "category": "thermostats",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "sonoff-trvzb",
+      "brand": "SONOFF",
+      "model": "TRVZB",
+      "asin": "B0CFXY26H1",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Régler chaque radiateur à eau pièce par pièce, avec un hub Zigbee."
+      },
+      "facts": {
+        "fr": [
+          "Tête thermostatique Zigbee 3.0",
+          "Détection de fenêtre ouverte",
+          "Commande vocale via un assistant"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "netatmo-thermostat-connecte",
+      "brand": "Netatmo",
+      "model": "Thermostat Connecté",
+      "asin": "B0CC67PYHY",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Une chaudière : programmer et régler le chauffage à distance depuis le téléphone."
+      },
+      "facts": {
+        "fr": [
+          "Wi-Fi, application Netatmo",
+          "Programmation et contrôle à distance"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "delta-dore-tybox-137-plus",
+      "brand": "Delta Dore",
+      "model": "Tybox 137+",
+      "asin": "B097GY4S47",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Un thermostat programmable classique de la marque française Delta Dore."
+      },
+      "facts": {
+        "fr": [
+          "Thermostat d’ambiance programmable",
+          "Référence 6053073"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "netatmo-tete-thermostatique",
+      "brand": "Netatmo",
+      "model": "Tête Thermostatique Connectée",
+      "asin": "B0CC9WG42V",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Compléter un thermostat Netatmo pour régler chaque radiateur à eau."
+      },
+      "facts": {
+        "fr": [
+          "Accessoire du thermostat Netatmo",
+          "Contrôle à distance par application"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

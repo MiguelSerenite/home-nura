@@ -1,0 +1,26 @@
+{
+  "category": "laveurs-vitres",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "ecovacs-winbot-mini",
+      "brand": "Ecovacs",
+      "model": "Winbot Mini",
+      "asin": "B0DQ8QPG2Z",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Les fenêtres et baies vitrées d’un appartement, avec un robot compact."
+      },
+      "facts": {
+        "fr": [
+          "Format compact",
+          "Double buse à pulvérisation ultrasonique",
+          "Programmation intelligente"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

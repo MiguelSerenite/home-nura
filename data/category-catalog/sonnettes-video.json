@@ -1,0 +1,66 @@
+{
+  "category": "sonnettes-video",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "tapo-d205",
+      "brand": "Tapo",
+      "model": "D205",
+      "asin": "B0FHXVX9W9",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Une sonnette vidéo dont la détection de personnes ne demande pas d’abonnement."
+      },
+      "facts": {
+        "fr": [
+          "Vidéo 2K 3 MP, IP54",
+          "Batterie jusqu’à 180 jours annoncés",
+          "Détection de personnes incluse"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "ring-battery-video-doorbell-2k",
+      "brand": "Ring",
+      "model": "Battery Video Doorbell 2K",
+      "asin": "B0FHJ91JY5",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "S’équiper d’une sonnette Ring sans fil, à poser soi-même."
+      },
+      "facts": {
+        "fr": [
+          "Vidéo Retinal 2K",
+          "Sans fil, sur batterie",
+          "Installation soi-même"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "blink-video-doorbell-2k-plus",
+      "brand": "Blink",
+      "model": "Video Doorbell 2K+",
+      "asin": "B0G637TR35",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Compléter un système Blink avec une sonnette sur piles."
+      },
+      "facts": {
+        "fr": [
+          "Vidéo 2K+, IP65",
+          "Piles longue durée",
+          "Configuration facile"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

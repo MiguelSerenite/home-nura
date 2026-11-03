@@ -1,0 +1,46 @@
+{
+  "category": "interrupteurs",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "philips-hue-dimmer-switch",
+      "brand": "Philips",
+      "model": "Hue Dimmer Switch",
+      "asin": "B08PKMT2DV",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Commander ses lampes Hue sans téléphone et sans travaux."
+      },
+      "facts": {
+        "fr": [
+          "Sans fil, sur piles",
+          "Sans installation",
+          "Gère les scènes d’éclairage"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "tapo-s200b",
+      "brand": "Tapo",
+      "model": "S200B",
+      "asin": "B0BDXQBKQQ",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Un bouton sans fil pour lancer des actions Tapo ou déclencher une alarme."
+      },
+      "facts": {
+        "fr": [
+          "Bouton et variateur sans fil",
+          "Actions personnalisées",
+          "Fonctionne avec un hub Tapo"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

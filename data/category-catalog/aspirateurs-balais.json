@@ -1,0 +1,85 @@
+{
+  "category": "aspirateurs-balais",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "dreame-r20",
+      "brand": "Dreame",
+      "model": "R20",
+      "asin": "B0C5MDCNLZ",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Aspirer toute la maison sans fil, avec une longue autonomie."
+      },
+      "facts": {
+        "fr": [
+          "22 000 Pa / 190 AW",
+          "Jusqu’à 90 min d’autonomie",
+          "Éclairage révélateur de poussière"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "rowenta-x-pert-6-60",
+      "brand": "Rowenta",
+      "model": "X-Pert 6.60",
+      "asin": "B0D9PPV1YY",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Un balai 2-en-1 léger pour les sols et les surfaces en hauteur."
+      },
+      "facts": {
+        "fr": [
+          "Jusqu’à 45 min d’autonomie",
+          "2-en-1 avec aspirateur à main"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "dreame-h12-pro-flexreach",
+      "brand": "Dreame",
+      "model": "H12 Pro FlexReach",
+      "asin": "B0DV5RRL9F",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Aspirer et laver les sols durs en un passage, jusque sous les meubles."
+      },
+      "facts": {
+        "fr": [
+          "Aspirateur laveur, 18 000 Pa",
+          "Se couche à plat à 180°",
+          "Autonettoyage à 90 °C, séchage en 5 min"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "tineco-floor-one-stretch-s6",
+      "brand": "Tineco",
+      "model": "Floor One Stretch S6",
+      "asin": "B0CW1QDRVV",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Laver les sols durs et passer sous les meubles grâce au manche qui se couche."
+      },
+      "facts": {
+        "fr": [
+          "Aspirateur laveur, jusqu’à 40 min",
+          "Séchage FlashDry à 70 °C en 5 min",
+          "Technologie HyperStretch"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

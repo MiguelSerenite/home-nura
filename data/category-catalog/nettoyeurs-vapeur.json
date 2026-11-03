@@ -1,0 +1,46 @@
+{
+  "category": "nettoyeurs-vapeur",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "karcher-sc-2-deluxe",
+      "brand": "Kärcher",
+      "model": "SC 2 Deluxe",
+      "asin": "B0CN6RX6X8",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Nettoyer sols et sanitaires à la vapeur, sans produit, sur de grandes surfaces."
+      },
+      "facts": {
+        "fr": [
+          "3,2 bar, réservoir de 1 L",
+          "Jusqu’à 75 m²",
+          "Préchauffage en 6,5 min"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "karcher-sc-1",
+      "brand": "Kärcher",
+      "model": "SC 1",
+      "asin": "B0CQT1D2RJ",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Les petites surfaces et les recoins, avec un nettoyeur vapeur compact."
+      },
+      "facts": {
+        "fr": [
+          "3 bar, 1 200 W",
+          "Préchauffage en 3 min",
+          "Jusqu’à 20 m²"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

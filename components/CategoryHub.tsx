@@ -63,6 +63,7 @@ import { ChevronRight } from 'lucide-react'
 import { BlackFridayHubLink } from '@/components/black-friday/Promos'
 import FloorCareEntryBanner from '@/components/floor-care/EntryBanner'
 import MarketPagesHubList from '@/components/market-pages/HubList'
+import CategoryCatalog from '@/components/category-catalog/CategoryCatalog'
 
 interface CategoryHubUi {
   home: string
@@ -343,6 +344,8 @@ export default async function CategoryHub({
         )}
 
         <BlackFridayHubLink lang={safeLang} categorySlug={category.slug} />
+
+        <CategoryCatalog category={category.slug} lang={safeLang} path={path} exclude={picks.map((p) => p.model)} />
 
         <FloorCareEntryBanner lang={safeLang} category={category.slug} />
 

@@ -1,0 +1,65 @@
+{
+  "category": "detecteurs-fumee-co",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "x-sense-sc07-wx",
+      "brand": "X-Sense",
+      "model": "SC07-WX",
+      "asin": "B0CM3KGFGB",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Être alerté sur le téléphone en cas de fumée ou de monoxyde de carbone."
+      },
+      "facts": {
+        "fr": [
+          "Fumée et CO, Wi-Fi",
+          "Écran LCD",
+          "Pile remplaçable"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "x-sense-xp0a-ir",
+      "brand": "X-Sense",
+      "model": "XP0A-iR",
+      "asin": "B0DDL1V686",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Un détecteur de fumée et de CO avec alerte vocale en français."
+      },
+      "facts": {
+        "fr": [
+          "Fumée et CO, Wi-Fi",
+          "Alerte vocale en français",
+          "Pile remplaçable"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "x-sense-sd11",
+      "brand": "X-Sense",
+      "model": "SD11",
+      "asin": "B07CWV3PRS",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Équiper chaque chambre d’un détecteur sans changement de pile."
+      },
+      "facts": {
+        "fr": [
+          "Batterie scellée 10 ans",
+          "Conforme à la norme EN 14604"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

@@ -21,7 +21,7 @@
 import { isValidLang, type Lang } from '@/lib/i18n'
 import { findPick, pickName } from '@/lib/pick-names'
 import { parseRichText, RichTextError } from '@/lib/rich-text'
-import { AMAZON_HOST, array, httpsUrl, object, quote, text, unique, type Fail } from '@/lib/validation/json-fields'
+import { AMAZON_HOST, array, httpsUrl, isoDate, object, quote, text, unique, type Fail } from '@/lib/validation/json-fields'
 import { isPriceSpecName, looksLikePrice, wordingProblem } from './claims'
 import {
   ANSWER_WORDS,
@@ -62,9 +62,6 @@ const TOP_KEYS = [
 const PICK_KEYS = ['brand', 'model', 'role', 'why', 'bestFor', 'asin', 'manufacturerUrl', 'specs'] as const
 
 const ASIN = /^[A-Z0-9]{10}$/
-const ISO_DATE = /^(\d{4})-(\d{2})-(\d{2})$/
-/** A page dated later than tomorrow (any time zone) is a typo. */
-const MAX_FUTURE_MS = 36 * 60 * 60 * 1000
 const DAY_MS = 24 * 60 * 60 * 1000
 
 /** Text the reader sees: non-empty, and none of the banned wording. */
@@ -89,17 +86,6 @@ function referenceUrl(value: unknown, path: string, fail: Fail): string {
     fail(path, `${quote(url.href)} is an Amazon page: link the manufacturer, the regulator or the independent source itself`)
   }
   return url.href
-}
-
-function isoDate(value: unknown, path: string, fail: Fail): string {
-  const raw = text(value, path, fail)
-  const match = raw.match(ISO_DATE)
-  const date = match ? new Date(`${raw}T00:00:00Z`) : null
-  if (!match || !date || Number.isNaN(date.getTime()) || date.toISOString().slice(0, 10) !== raw) {
-    fail(path, `expected a date written YYYY-MM-DD, got ${quote(raw)}`)
-  }
-  if ((date as Date).getTime() - Date.now() > MAX_FUTURE_MS) fail(path, `${quote(raw)} is in the future`)
-  return raw
 }
 
 function length(value: string, path: string, { min, max }: { min: number; max: number }, fail: Fail): string {

@@ -1,0 +1,66 @@
+{
+  "category": "eclairage-connecte",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "tapo-l530e",
+      "brand": "Tapo",
+      "model": "L530E (lot de 2)",
+      "asin": "B08QRQQ53T",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Passer ses lampes en couleur et les commander à la voix, sans hub."
+      },
+      "facts": {
+        "fr": [
+          "Culot E27, multicolore et variable",
+          "Wi-Fi, aucun hub requis",
+          "Alexa et Google Assistant"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "govee-ampoule-e27-rgbww",
+      "brand": "Govee",
+      "model": "Ampoule connectée E27 RGBWW (lot de 2)",
+      "asin": "B0C3VLCFJR",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Les ambiances colorées pilotées en Wi-Fi ou en Bluetooth."
+      },
+      "facts": {
+        "fr": [
+          "800 lm, RGBWW",
+          "Wi-Fi et Bluetooth",
+          "Alexa et Google Assistant"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "nanoleaf-matter-essentials-e27",
+      "brand": "Nanoleaf",
+      "model": "Matter Essentials E27 (lot de 2)",
+      "asin": "B0DQGPB8LD",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Une maison Matter : des ampoules couleur compatibles avec les grands assistants."
+      },
+      "facts": {
+        "fr": [
+          "Culot E27, RGBW",
+          "Compatibles Matter",
+          "Horaires personnalisés dans l’application"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

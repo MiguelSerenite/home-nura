@@ -1,0 +1,45 @@
+{
+  "category": "cafetieres",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "delonghi-magnifica-s",
+      "brand": "De’Longhi",
+      "model": "Magnifica S",
+      "asin": "B0BWSFGQ49",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Un premier expresso broyeur, simple, avec buse vapeur manuelle."
+      },
+      "facts": {
+        "fr": [
+          "Machine à grain, 2 boissons",
+          "Mousseur à lait manuel"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "philips-serie-2200",
+      "brand": "Philips",
+      "model": "Série 2200 (2 boissons)",
+      "asin": "B07MMSHC4R",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Un expresso broyeur facile à prendre en main, avec écran tactile."
+      },
+      "facts": {
+        "fr": [
+          "Machine à grain, 2 boissons",
+          "Écran tactile",
+          "Mousseur à lait classique"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}
