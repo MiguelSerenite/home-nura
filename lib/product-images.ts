@@ -87,17 +87,23 @@ export interface SkippedProductImage {
 export const PRODUCT_IMAGES = manifest.images as ProductImageEntry[]
 export const SKIPPED_PRODUCT_IMAGES = manifest.skipped as SkippedProductImage[]
 
+const byId = new Map(PRODUCT_IMAGES.map((e) => [e.id, e] as const))
 const byAsin = new Map(PRODUCT_IMAGES.flatMap((e) => (e.asin ? [[e.asin, e] as const] : [])))
 const byName = new Map(PRODUCT_IMAGES.flatMap((e) => e.names.map((name) => [name, e] as const)))
 
-/** How site data names a model: its catalog ASIN, else its exact name. */
+/**
+ * How site data names a model: its photo id (data that shares the
+ * manifest's id space, such as the category catalogue), else its catalog
+ * ASIN, else its exact name.
+ */
 export interface ProductImageRef {
+  id?: string
   asin?: string
   name?: string
 }
 
-export function findProductImage({ asin, name }: ProductImageRef): ProductImageEntry | undefined {
-  return (asin ? byAsin.get(asin) : undefined) ?? (name ? byName.get(name) : undefined)
+export function findProductImage({ id, asin, name }: ProductImageRef): ProductImageEntry | undefined {
+  return (id ? byId.get(id) : undefined) ?? (asin ? byAsin.get(asin) : undefined) ?? (name ? byName.get(name) : undefined)
 }
 
 /**

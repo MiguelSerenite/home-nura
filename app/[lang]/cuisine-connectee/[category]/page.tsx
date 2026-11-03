@@ -32,6 +32,7 @@ import FaqSection from '@/components/FaqSection'
 import AuthorByline from '@/components/AuthorByline'
 import IndependentSources from '@/components/IndependentSources'
 import MarketPagesHubList from '@/components/market-pages/HubList'
+import CategoryCatalog from '@/components/category-catalog/CategoryCatalog'
 import {
   SMART_KITCHEN_CATEGORIES,
   getSmartKitchenProductsByCategory,
@@ -783,6 +784,13 @@ export default async function CategoryPage({
           <AmazonDisclosure lang={safeLang} className="mt-6 text-center text-xs text-slate-500" />
         )}
       </section>
+
+      <CategoryCatalog
+        category={safeCat}
+        lang={safeLang}
+        path={`/cuisine-connectee/${safeCat}`}
+        exclude={[...products.map((p) => p.title), ...(answerFirst?.picks.map((p) => p.model) ?? [])]}
+      />
 
       <MarketPagesHubList lang={safeLang} path={`/cuisine-connectee/${safeCat}`} />
 

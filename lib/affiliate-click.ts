@@ -32,7 +32,9 @@ import { LANGUAGES, type Lang } from '@/lib/i18n'
  *   event page, Prime trial);
  * - `floor_care`: every link of the US and Canadian floor-care guides;
  * - `market_page`: every link of the single-locale duels, guides and news
- *   (lib/market-pages): pick cards and comparison tables.
+ *   (lib/market-pages): pick cards and comparison tables;
+ * - `category_catalog`: the hubs' "other models we compare" cards
+ *   (lib/category-catalog).
  */
 export const CLICK_PLACEMENTS = [
   'quick_answer',
@@ -47,6 +49,7 @@ export const CLICK_PLACEMENTS = [
   'black_friday',
   'floor_care',
   'market_page',
+  'category_catalog',
 ] as const
 export type ClickPlacement = (typeof CLICK_PLACEMENTS)[number]
 

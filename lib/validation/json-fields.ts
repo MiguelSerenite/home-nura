@@ -58,6 +58,22 @@ export function httpsUrl(value: unknown, path: string, fail: Fail): URL {
   return url
 }
 
+const ISO_DATE = /^(\d{4})-(\d{2})-(\d{2})$/
+/** A date later than tomorrow (any time zone) is a typo. */
+const MAX_FUTURE_MS = 36 * 60 * 60 * 1000
+
+/** A real calendar date written YYYY-MM-DD, not in the future. */
+export function isoDate(value: unknown, path: string, fail: Fail): string {
+  const raw = text(value, path, fail)
+  const match = raw.match(ISO_DATE)
+  const date = match ? new Date(`${raw}T00:00:00Z`) : null
+  if (!match || !date || Number.isNaN(date.getTime()) || date.toISOString().slice(0, 10) !== raw) {
+    fail(path, `expected a date written YYYY-MM-DD, got ${quote(raw)}`)
+  }
+  if ((date as Date).getTime() - Date.now() > MAX_FUTURE_MS) fail(path, `${quote(raw)} is in the future`)
+  return raw
+}
+
 /** Fails when the same value is listed twice. */
 export function unique(values: readonly string[], path: string, what: string, fail: Fail): void {
   const seen = new Set<string>()
