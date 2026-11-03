@@ -13,7 +13,7 @@ const metaDescriptions: Record<string, string> = {
   de: 'Impressum von Home Nura: Herausgeber, Hosting, Amazon-Partnerprogramm und Urheberrechtsinformationen gemäß §5 TMG.',
   es: 'Aviso legal de Home Nura: editor, alojamiento web, programa de afiliados de Amazon y propiedad intelectual. Información conforme a la ley francesa LCEN.',
   it: 'Note legali di Home Nura: editore, fornitore di hosting, programma di affiliazione Amazon e proprietà intellettuale. Tutte le informazioni di legge.',
-  nl: 'Juridische informatie van Home Nura: uitgever, hosting, het Amazon-partnerprogramma en intellectueel eigendom. Opgesteld volgens de Franse wet (LCEN).',
+  nl: 'Juridische informatie van Home Nura: uitgever, hosting, de partnerprogramma’s van Amazon en Coolblue (via Awin) en intellectueel eigendom. Opgesteld volgens de Franse wet (LCEN).',
   pl: 'Nota prawna serwisu Home Nura: wydawca, dostawca hostingu, program partnerski Amazon i własność intelektualna. Informacje zgodne z francuską ustawą LCEN.',
   sv: 'Juridisk information om Home Nura: utgivare, webbhotell, Amazons partnerprogram och immateriella rättigheter. Uppgifter enligt den franska lagen LCEN.',
   us: 'Home Nura legal notice: publisher, hosting, Amazon Associates disclosure and intellectual property terms. Complete legal information.',
@@ -195,7 +195,8 @@ const labels: Record<string, Record<string, string>> = {
     hosting: 'Hosting',
     affiliation: 'Affiliateprogramma',
     pricing: 'Prijzen en productafbeeldingen',
-    pricingText: 'Home Nura toont geen prijzen of productfoto’s van Amazon: de productfoto’s komen van de fabrikanten (zie Fotoverantwoording) en de overige afbeeldingen zijn neutrale illustraties (categorie, merk, model). Prijs, beschikbaarheid en foto’s van een product zijn zoals Amazon ze toont op het moment van je bezoek en kunnen altijd veranderen.',
+    merchantAffiliationText: 'Home Nura neemt via het affiliatenetwerk Awin (Awin AG) ook deel aan het partnerprogramma van Coolblue (Coolblue B.V.). Op de Nederlandse versie staat bij sommige modellen een link "Bekijk bij Coolblue": die brengt je naar coolblue.nl, en voor een aankoop via die link ontvangen we een commissie van Coolblue, zonder extra kosten voor jou. Home Nura is geen Coolblue en verkoopt zelf niets.',
+    pricingText: 'Home Nura toont geen prijzen of productfoto’s van Amazon: de productfoto’s komen van de fabrikanten (zie Fotoverantwoording) en de overige afbeeldingen zijn neutrale illustraties (categorie, merk, model). Prijs, beschikbaarheid en foto’s van een product zijn zoals Amazon ze toont op het moment van je bezoek en kunnen altijd veranderen. Bij een Coolblue-link staat de prijs van Coolblue zelf, uit de productfeed die Coolblue via Awin publiceert, met de datum en het tijdstip waarop we die prijs hebben opgehaald: prijzen kunnen wijzigen, de prijs op coolblue.nl op het moment van je bezoek is bepalend.',
     photos: "Fotoverantwoording",
     photosText: "De productfoto’s zijn officiële afbeeldingen van de fabrikanten. Elke foto blijft eigendom van de rechthebbende die eronder staat (bijvoorbeeld ‘© Philips’) en wordt ongewijzigd getoond, in een kader van Home Nura, zodat je het product herkent. Home Nura verleent geen licentie op deze foto’s: wil je er een hergebruiken, neem dan contact op met de fabrikant, meestal met de persafdeling.",
     ip: 'Intellectueel eigendom',
@@ -370,6 +371,7 @@ export default async function MentionsLegales({ params }: { params: Promise<{ la
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-900 mb-4 border-b border-slate-200 pb-2">{t.affiliation}</h2>
           <p className="text-sm text-slate-600 leading-relaxed">{amazonAffiliationNotice(resolveLang(lang))}</p>
+          {t.merchantAffiliationText && <p className="mt-3 text-sm text-slate-600 leading-relaxed">{t.merchantAffiliationText}</p>}
         </section>
 
         <section className="mb-10">

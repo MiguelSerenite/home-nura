@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import Link from 'next/link'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import QuickAnswer from '@/components/QuickAnswer'
+import type { CoolblueOffers } from '@/lib/merchant-offers/types'
 import Kicker from '@/components/ui/Kicker'
 import { ANSWER_FIRST_UI, type AnswerFirstHub, type HubChange, type HubComparison } from '@/lib/catalog/answer-first'
 import type { Lang } from '@/lib/i18n'
@@ -111,9 +112,11 @@ interface AnswerFirstTopProps {
   laterItems?: readonly JumpItem[]
   /** Under the ranking criteria: the hub's own words on how it compares. */
   about?: ReactNode
+  /** Coolblue offers for the picks (Dutch hubs, lib/merchant-offers). */
+  offers?: CoolblueOffers
 }
 
-export function AnswerFirstTop({ lang, hub, picksQuestion, buyLabel, laterItems = [], about }: AnswerFirstTopProps) {
+export function AnswerFirstTop({ lang, hub, picksQuestion, buyLabel, laterItems = [], about, offers }: AnswerFirstTopProps) {
   const ui = ANSWER_FIRST_UI[lang]
   const items: JumpItem[] = [
     ...(hub.picks.length > 0 ? [{ id: 'picks', label: ui.picksLabel(hub.picks.length) }] : []),
@@ -136,6 +139,7 @@ export function AnswerFirstTop({ lang, hub, picksQuestion, buyLabel, laterItems 
             placement="picks"
             location="category_picks"
             compact
+            offers={offers}
           />
         </div>
       )}

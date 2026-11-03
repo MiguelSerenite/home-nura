@@ -64,6 +64,8 @@ import { BlackFridayHubLink } from '@/components/black-friday/Promos'
 import FloorCareEntryBanner from '@/components/floor-care/EntryBanner'
 import MarketPagesHubList from '@/components/market-pages/HubList'
 import CategoryCatalog from '@/components/category-catalog/CategoryCatalog'
+import { getCatalogEntries } from '@/lib/category-catalog/data'
+import { coolblueOffersForPage } from '@/lib/merchant-offers/coolblue'
 
 interface CategoryHubUi {
   home: string
@@ -234,6 +236,15 @@ export default async function CategoryHub({
   // (it had none) and links it to the articles that rank.
   const { picks, articles } = getCategoryGuides(category.slug, safeLang)
 
+  // Dutch hubs: Coolblue's offer (Awin feeds) under each pick and catalogue
+  // card whose exact model Coolblue sells. Empty elsewhere, without the
+  // feed key or when the feeds are down.
+  const catalogExclude = picks.map((p) => p.model)
+  const offers = await coolblueOffersForPage(safeLang, [
+    ...(answerFirst?.picks ?? picks).map((p) => p.model),
+    ...getCatalogEntries(category.slug, safeLang, catalogExclude).map((e) => e.name),
+  ])
+
   // Phase JJJ: Article JSON-LD for Moteur 1 category hub pages.
   // Completes the Article schema coverage across all 4 moteurs.
   // Only categories indexed in this locale emit the payload — no
@@ -327,6 +338,7 @@ export default async function CategoryHub({
               ...(faqEntries.length > 0 ? [{ id: 'faq', label: ui.faqTitle }] : []),
             ]}
             about={<p className="text-sm leading-relaxed text-slate-600">{hero.intro}</p>}
+            offers={offers}
           />
         ) : (
           picks.length > 0 && (
@@ -338,6 +350,7 @@ export default async function CategoryHub({
                 kicker={ui.picksKicker}
                 placement="picks"
                 location="category_picks"
+                offers={offers}
               />
             </div>
           )
@@ -345,7 +358,7 @@ export default async function CategoryHub({
 
         <BlackFridayHubLink lang={safeLang} categorySlug={category.slug} />
 
-        <CategoryCatalog category={category.slug} lang={safeLang} path={path} exclude={picks.map((p) => p.model)} />
+        <CategoryCatalog category={category.slug} lang={safeLang} path={path} exclude={catalogExclude} offers={offers} />
 
         <FloorCareEntryBanner lang={safeLang} category={category.slug} />
 

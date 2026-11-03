@@ -3,6 +3,8 @@
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { ProductPhoto } from '@/lib/product-photo'
 import AmazonDisclosure from './AmazonDisclosure'
+import CoolblueOffer from './CoolblueOffer'
+import type { CoolblueOffers } from '@/lib/merchant-offers/types'
 import PhotoCredits from './PhotoCredits'
 import ProductPhotoImage from './ProductPhotoImage'
 import type { ClickPlacement, ClickSurface } from '@/lib/affiliate-click'
@@ -38,6 +40,9 @@ const LABELS: Record<string, { title: string; button: string; disclosure: string
  * photo and the button under the text; on phones the "why" holds two
  * lines and the photo credits gather under the list, so the comparison
  * table below stays within the first two screens.
+ *
+ * `offers` (Dutch hubs): Coolblue's offer for a pick, shown under its
+ * Amazon button when the Awin feeds have exactly that model.
  */
 export default function QuickAnswer({
   question,
@@ -48,6 +53,7 @@ export default function QuickAnswer({
   location = 'article_quick_answer',
   surface = 'verdict',
   compact = false,
+  offers,
 }: {
   question: string
   picks: QuickAnswerPick[]
@@ -59,10 +65,12 @@ export default function QuickAnswer({
   /** Legacy click surface (/api/click): the article verdict box unless the page says otherwise. */
   surface?: ClickSurface
   compact?: boolean
+  /** Coolblue offers keyed by pick model (lib/merchant-offers), Dutch pages only. */
+  offers?: CoolblueOffers
 }) {
   if (picks.length === 0) return null
   const labels = LABELS[lang] ?? LABELS.fr
-  if (compact) return <CompactQuickAnswer {...{ question, picks, lang, kicker, placement, location, surface, labels }} />
+  if (compact) return <CompactQuickAnswer {...{ question, picks, lang, kicker, placement, location, surface, labels, offers }} />
   return (
     <section aria-labelledby="quick-answer-title" className="not-prose my-8 rounded-2xl border-2 border-brand-600 bg-white p-5 md:p-6">
       <p id="quick-answer-title" className="text-xs font-bold uppercase tracking-widest text-brand-700">{kicker ?? labels.title}</p>
@@ -72,7 +80,8 @@ export default function QuickAnswer({
           const track = () =>
             trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang, placement, surface, url: pick.url })
           return (
-            <li key={pick.model} className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+            <li key={pick.model}>
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
               <div className="flex min-w-0 items-start gap-4">
                 {pick.photo && (
                   // Same Amazon link as the button; kept out of the tab order and the accessibility tree.
@@ -106,6 +115,10 @@ export default function QuickAnswer({
               >
                 {labels.button} →
               </a>
+              </div>
+              {offers?.[pick.model] && (
+                <CoolblueOffer offer={offers[pick.model]} model={pick.model} lang={lang} position={i + 1} className="mt-3" />
+              )}
             </li>
           )
         })}
@@ -124,9 +137,10 @@ type CompactProps = {
   location: 'article_quick_answer' | 'category_picks'
   surface: ClickSurface
   labels: { title: string; button: string; disclosure: string }
+  offers?: CoolblueOffers
 }
 
-function CompactQuickAnswer({ question, picks, lang, kicker, placement, location, surface, labels }: CompactProps) {
+function CompactQuickAnswer({ question, picks, lang, kicker, placement, location, surface, labels, offers }: CompactProps) {
   return (
     <section aria-labelledby="quick-answer-title" className="not-prose my-4 rounded-2xl border-2 border-brand-600 bg-white p-4 md:my-8 md:p-6">
       <p id="quick-answer-title" className="text-xs font-bold uppercase tracking-widest text-brand-700">{kicker ?? labels.title}</p>
@@ -167,6 +181,9 @@ function CompactQuickAnswer({ question, picks, lang, kicker, placement, location
                 >
                   {labels.button} →
                 </a>
+                {offers?.[pick.model] && (
+                  <CoolblueOffer offer={offers[pick.model]} model={pick.model} lang={lang} position={i + 1} className="mt-2" />
+                )}
               </div>
             </li>
           )

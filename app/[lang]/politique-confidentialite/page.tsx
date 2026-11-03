@@ -371,7 +371,7 @@ const content: Record<string, PrivacyContent> = {
   },
   nl: {
     title: 'Privacybeleid',
-    lastUpdated: 'Laatst bijgewerkt: april 2026',
+    lastUpdated: 'Laatst bijgewerkt: november 2026',
     intro: "Home Nura (uitgegeven door GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 Parijs, Frankrijk, SIRET 500 511 373 00051) respecteert uw privacy en verbindt zich ertoe uw persoonsgegevens transparant te verwerken, in strikte naleving van de Algemene Verordening Gegevensbescherming (AVG - Verordening EU 2016/679) en de toepasselijke nationale wetgeving.",
     sections: [
       {
@@ -388,15 +388,15 @@ const content: Record<string, PrivacyContent> = {
       },
       {
         heading: '4. Bewaartermijnen',
-        body: "Serverlogs (afgekorte IP-adressen): maximaal 12 maanden. E-mails ontvangen op contact@homenura.com: 3 jaar na de laatste interactie. Technische cookies: sessieduur. Analytische cookies: maximaal 13 maanden (aanbeveling AP/CNIL). Amazon affiliate-cookies: volgens het beleid van Amazon (tot 24 uur).",
+        body: "Serverlogs (afgekorte IP-adressen): maximaal 12 maanden. E-mails ontvangen op contact@homenura.com: 3 jaar na de laatste interactie. Technische cookies: sessieduur. Analytische cookies: maximaal 13 maanden (aanbeveling AP/CNIL). Amazon affiliate-cookies: volgens het beleid van Amazon (tot 24 uur). Cookies van Awin en Coolblue na een klik op een Coolblue-link: volgens het beleid van Awin en Coolblue.",
       },
       {
         heading: '5. Ontvangers',
-        body: "Uw gegevens worden nooit verkocht. Ze kunnen worden gedeeld met: onze hoster Vercel Inc. (Verenigde Staten, gedekt door de Standaardcontractbepalingen van de Europese Commissie) voor technische dienstverlening; Amazon EU S.à r.l. in het kader van het Partnerprogramma wanneer u op een link klikt; bestuurlijke of gerechtelijke autoriteiten op wettelijk verzoek.",
+        body: "Uw gegevens worden nooit verkocht. Ze kunnen worden gedeeld met: onze hoster Vercel Inc. (Verenigde Staten, gedekt door de Standaardcontractbepalingen van de Europese Commissie) voor technische dienstverlening; Amazon EU S.à r.l. in het kader van het Partnerprogramma wanneer u op een Amazon-link klikt; Awin AG (affiliatenetwerk) en Coolblue B.V. in het kader van het partnerprogramma van Coolblue wanneer u op een link \"Bekijk bij Coolblue\" klikt; bestuurlijke of gerechtelijke autoriteiten op wettelijk verzoek.",
       },
       {
         heading: '6. Doorgifte buiten de EU',
-        body: "Sommige verwerkers (Vercel Inc., Amazon) kunnen uw gegevens buiten de Europese Unie verwerken, met name in de Verenigde Staten. Deze doorgiften zijn gedekt door de passende waarborgen van de AVG (Standaardcontractbepalingen, adequaatheidsbesluiten waar van toepassing).",
+        body: "Sommige verwerkers (Vercel Inc., Amazon, Awin) kunnen uw gegevens buiten de Europese Unie verwerken, met name in de Verenigde Staten. Deze doorgiften zijn gedekt door de passende waarborgen van de AVG (Standaardcontractbepalingen, adequaatheidsbesluiten waar van toepassing).",
       },
       {
         heading: '7. Beveiliging',
@@ -414,6 +414,7 @@ const content: Record<string, PrivacyContent> = {
         { name: 'homenura_cookie_consent', purpose: 'Slaat uw toestemmingskeuze op', duration: '6 maanden', provider: 'Home Nura (essentieel)' },
         ...PREFERENCE_COOKIES.nl.rows,
         { name: 'Amazon affiliate', purpose: 'Volgt de affiliate-link voor commissieattributie', duration: 'Tot 24 uur', provider: 'Amazon EU (derde)' },
+        { name: 'Awin / Coolblue affiliate', purpose: 'Registreert een klik op een Coolblue-link voor commissieattributie (geplaatst door Awin en Coolblue op hun eigen domeinen, niet door Home Nura)', duration: 'Volgens het beleid van Awin en Coolblue', provider: 'Awin AG / Coolblue B.V. (derden)' },
       ],
     },
     rightsHeading: '9. Uw rechten',

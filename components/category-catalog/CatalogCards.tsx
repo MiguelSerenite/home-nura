@@ -2,11 +2,27 @@
 
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { CatalogEntry } from '@/lib/category-catalog/types'
+import type { CoolblueOffers } from '@/lib/merchant-offers/types'
+import CoolblueOffer from '../CoolblueOffer'
 import ProductPhotoImage from '../ProductPhotoImage'
 import type { CatalogUi } from './ui'
 
-/** The catalogue grid: one card per model, photo and button on the same Amazon link. */
-export default function CatalogCards({ entries, lang, ui }: { entries: readonly CatalogEntry[]; lang: string; ui: CatalogUi }) {
+/**
+ * The catalogue grid: one card per model, photo and button on the same
+ * Amazon link; on Dutch hubs, Coolblue's offer under the button when the
+ * Awin feeds have exactly that model.
+ */
+export default function CatalogCards({
+  entries,
+  lang,
+  ui,
+  offers,
+}: {
+  entries: readonly CatalogEntry[]
+  lang: string
+  ui: CatalogUi
+  offers?: CoolblueOffers
+}) {
   return (
     <ul className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {entries.map((entry, i) => {
@@ -63,6 +79,9 @@ export default function CatalogCards({ entries, lang, ui }: { entries: readonly 
               >
                 {ui.button} →
               </a>
+              {offers?.[entry.name] && (
+                <CoolblueOffer offer={offers[entry.name]} model={entry.name} lang={lang} position={i + 1} className="mt-3" />
+              )}
             </div>
           </li>
         )
