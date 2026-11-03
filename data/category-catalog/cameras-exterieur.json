@@ -9,17 +9,66 @@
       "asin": "B0B1N5RL1Q",
       "segment": "budget",
       "bestFor": {
-        "fr": "Une caméra extérieure sans fil qui tient longtemps sur piles."
+        "fr": "Une caméra extérieure sans fil qui tient longtemps sur piles.",
+        "en": "A wireless outdoor camera that runs for a long time on batteries.",
+        "de": "Eine kabellose Außenkamera, die lange mit einem Satz Batterien auskommt.",
+        "es": "Una cámara exterior sin cables que aguanta mucho tiempo con pilas.",
+        "it": "Una videocamera da esterno senza fili che dura a lungo con le batterie.",
+        "nl": "Een draadloze buitencamera die het lang volhoudt op batterijen.",
+        "pl": "Bezprzewodowa kamera zewnętrzna, która długo działa na bateriach.",
+        "sv": "En trådlös utomhuskamera som klarar sig länge på batterier."
       },
       "facts": {
         "fr": [
           "Sans fil, vidéo HD",
           "Jusqu’à 2 ans d’autonomie annoncés",
           "Détection de mouvement avancée"
+        ],
+        "en": [
+          "Wireless, HD video",
+          "Up to 2 years' battery life claimed",
+          "Enhanced motion detection"
+        ],
+        "de": [
+          "Kabellos, HD-Video",
+          "Bis zu 2 Jahre Batterielaufzeit laut Hersteller",
+          "Erweiterte Bewegungserkennung"
+        ],
+        "es": [
+          "Sin cables, vídeo HD",
+          "Hasta 2 años de autonomía según el fabricante",
+          "Detección de movimiento avanzada"
+        ],
+        "it": [
+          "Senza fili, video HD",
+          "Fino a 2 anni di autonomia dichiarati",
+          "Rilevamento del movimento avanzato"
+        ],
+        "nl": [
+          "Draadloos, hd-video",
+          "Batterijduur tot 2 jaar volgens Blink",
+          "Geavanceerde bewegingsdetectie"
+        ],
+        "pl": [
+          "Bezprzewodowa, obraz HD",
+          "Deklarowane do 2 lat pracy na bateriach",
+          "Zaawansowane wykrywanie ruchu"
+        ],
+        "sv": [
+          "Trådlös, HD-video",
+          "Upp till 2 års batteritid enligt tillverkaren",
+          "Avancerad rörelsedetektering"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,17 +78,66 @@
       "asin": "B0FZPRQ9KS",
       "segment": "mid",
       "bestFor": {
-        "fr": "Une caméra extérieure Ring sur batterie, à installer soi-même."
+        "fr": "Une caméra extérieure Ring sur batterie, à installer soi-même.",
+        "en": "A battery-powered Ring outdoor camera you can fit yourself.",
+        "de": "Eine akkubetriebene Ring-Außenkamera, die Sie selbst montieren.",
+        "es": "Una cámara exterior Ring con batería que instalas tú mismo.",
+        "it": "Una videocamera da esterno Ring a batteria, da installare in autonomia.",
+        "nl": "Een Ring-buitencamera op accu die je zelf ophangt.",
+        "pl": "Zewnętrzna kamera Ring na akumulator do samodzielnego montażu.",
+        "sv": "En batteridriven utomhuskamera från Ring som du monterar själv."
       },
       "facts": {
         "fr": [
           "Vidéo Retinal 2K grand-angle",
           "Sur batterie",
           "Installation soi-même"
+        ],
+        "en": [
+          "Retinal 2K wide-angle video",
+          "Battery powered",
+          "DIY installation"
+        ],
+        "de": [
+          "Retinal-2K-Video mit Weitwinkel",
+          "Akkubetrieben",
+          "Selbst montierbar"
+        ],
+        "es": [
+          "Vídeo Retinal 2K gran angular",
+          "Con batería",
+          "La instalas tú mismo"
+        ],
+        "it": [
+          "Video Retinal 2K grandangolare",
+          "A batteria",
+          "Installazione fai da te"
+        ],
+        "nl": [
+          "Retinal 2K-groothoekvideo",
+          "Werkt op accu",
+          "Zelf te installeren"
+        ],
+        "pl": [
+          "Szerokokątny obraz Retinal 2K",
+          "Zasilanie z akumulatora",
+          "Samodzielny montaż"
+        ],
+        "sv": [
+          "Retinal 2K-video i vidvinkel",
+          "Batteridriven",
+          "Du monterar den själv"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

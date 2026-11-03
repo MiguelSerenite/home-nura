@@ -9,17 +9,66 @@
       "asin": "B0CN6RX6X8",
       "segment": "mid",
       "bestFor": {
-        "fr": "Nettoyer sols et sanitaires à la vapeur, sans produit, sur de grandes surfaces."
+        "fr": "Nettoyer sols et sanitaires à la vapeur, sans produit, sur de grandes surfaces.",
+        "en": "Steam cleaning floors and bathrooms without chemicals, over large areas.",
+        "de": "Böden und Sanitärbereiche ohne Reinigungsmittel mit Dampf säubern – auf großen Flächen.",
+        "es": "Limpiar suelos y baños con vapor, sin productos, en superficies grandes.",
+        "it": "Per pulire pavimenti e sanitari a vapore, senza detersivi, su grandi superfici.",
+        "nl": "Vloeren en sanitair met stoom reinigen, zonder schoonmaakmiddelen, op grote oppervlakken.",
+        "pl": "Czyszczenie podłóg i łazienek parą, bez detergentów, na dużych powierzchniach.",
+        "sv": "Ångrengör stora golvytor och badrum utan rengöringsmedel."
       },
       "facts": {
         "fr": [
           "3,2 bar, réservoir de 1 L",
           "Jusqu’à 75 m²",
           "Préchauffage en 6,5 min"
+        ],
+        "en": [
+          "3.2 bar, 1 L tank",
+          "Up to 75 m²",
+          "Heats up in 6.5 minutes"
+        ],
+        "de": [
+          "3,2 bar, 1-Liter-Tank",
+          "Bis zu 75 m²",
+          "Aufheizzeit 6,5 Min."
+        ],
+        "es": [
+          "3,2 bar, depósito de 1 L",
+          "Hasta 75 m²",
+          "Precalentamiento en 6,5 min"
+        ],
+        "it": [
+          "3,2 bar, serbatoio da 1 litro",
+          "Fino a 75 m²",
+          "Preriscaldamento in 6,5 minuti"
+        ],
+        "nl": [
+          "3,2 bar, reservoir van 1 l",
+          "Tot 75 m²",
+          "Opwarmtijd van 6,5 min"
+        ],
+        "pl": [
+          "3,2 bara, zbiornik 1 l",
+          "Do 75 m²",
+          "Nagrzewanie w 6,5 min"
+        ],
+        "sv": [
+          "3,2 bar, tank på 1 liter",
+          "Upp till 75 m²",
+          "Uppvärmning på 6,5 min"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,17 +78,66 @@
       "asin": "B0CQT1D2RJ",
       "segment": "budget",
       "bestFor": {
-        "fr": "Les petites surfaces et les recoins, avec un nettoyeur vapeur compact."
+        "fr": "Les petites surfaces et les recoins, avec un nettoyeur vapeur compact.",
+        "en": "Small areas and awkward corners, with a compact steam cleaner.",
+        "de": "Kleine Flächen und Ecken – mit einem kompakten Dampfreiniger.",
+        "es": "Superficies pequeñas y rincones, con una limpiadora de vapor compacta.",
+        "it": "Le superfici piccole e gli angoli, con un pulitore a vapore compatto.",
+        "nl": "Kleine oppervlakken en hoekjes, met een compacte stoomreiniger.",
+        "pl": "Małe powierzchnie i zakamarki – z kompaktową parownicą.",
+        "sv": "Små ytor och svåråtkomliga hörn, med en kompakt ångtvätt."
       },
       "facts": {
         "fr": [
           "3 bar, 1 200 W",
           "Préchauffage en 3 min",
           "Jusqu’à 20 m²"
+        ],
+        "en": [
+          "3 bar, 1,200 W",
+          "Heats up in 3 minutes",
+          "Up to 20 m²"
+        ],
+        "de": [
+          "3 bar, 1.200 W",
+          "Aufheizzeit 3 Min.",
+          "Bis zu 20 m²"
+        ],
+        "es": [
+          "3 bar, 1200 W",
+          "Precalentamiento en 3 min",
+          "Hasta 20 m²"
+        ],
+        "it": [
+          "3 bar, 1.200 W",
+          "Preriscaldamento in 3 minuti",
+          "Fino a 20 m²"
+        ],
+        "nl": [
+          "3 bar, 1.200 W",
+          "Opwarmtijd van 3 min",
+          "Tot 20 m²"
+        ],
+        "pl": [
+          "3 bary, 1200 W",
+          "Nagrzewanie w 3 min",
+          "Do 20 m²"
+        ],
+        "sv": [
+          "3 bar, 1 200 W",
+          "Uppvärmning på 3 min",
+          "Upp till 20 m²"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

@@ -9,16 +9,46 @@
       "asin": "B0HH9LNWJJ",
       "segment": "mid",
       "bestFor": {
-        "fr": "Les plats mijotés en semaine, cuits sous pression en un temps réduit."
+        "fr": "Les plats mijotés en semaine, cuits sous pression en un temps réduit.",
+        "de": "Schmorgerichte unter der Woche – unter Druck gegart, in kürzerer Zeit.",
+        "es": "Los guisos entre semana, cocinados a presión en menos tiempo.",
+        "it": "I piatti in umido durante la settimana, cotti a pressione in meno tempo.",
+        "nl": "Doordeweeks stoofgerechten maken, onder druk in kortere tijd gaar.",
+        "pl": "Dania duszone na co dzień, gotowane pod ciśnieniem w krótszym czasie."
       },
       "facts": {
         "fr": [
           "Multicuiseur sous pression",
           "6 modes de cuisson"
+        ],
+        "de": [
+          "Multikocher mit Druckgarfunktion",
+          "6 Garmodi"
+        ],
+        "es": [
+          "Olla multifunción a presión",
+          "6 modos de cocción"
+        ],
+        "it": [
+          "Multicooker a pressione",
+          "6 modalità di cottura"
+        ],
+        "nl": [
+          "Multicooker met snelkookfunctie",
+          "6 kookstanden"
+        ],
+        "pl": [
+          "Multicooker ciśnieniowy",
+          "6 trybów gotowania"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl"
       ]
     },
     {
@@ -28,17 +58,66 @@
       "asin": "B09N3V7T9D",
       "segment": "premium",
       "bestFor": {
-        "fr": "Cuire sous pression et frire à l’air dans le même appareil."
+        "fr": "Cuire sous pression et frire à l’air dans le même appareil.",
+        "en": "Pressure cooking and air frying in the same appliance.",
+        "de": "Druckgaren und Heißluftfrittieren in einem einzigen Gerät.",
+        "es": "Cocinar a presión y freír con aire en el mismo aparato.",
+        "it": "Per cuocere a pressione e friggere ad aria nello stesso apparecchio.",
+        "nl": "Snelkoken en heteluchtfrituren in één en hetzelfde apparaat.",
+        "pl": "Gotowanie pod ciśnieniem i smażenie gorącym powietrzem w jednym urządzeniu.",
+        "sv": "Tryckkoka och airfrya i en och samma apparat."
       },
       "facts": {
         "fr": [
           "11 fonctions, 6 L",
           "Cuisson sous pression et air fryer",
           "Couvercle SmartLid"
+        ],
+        "en": [
+          "11 functions, 6 L",
+          "Pressure cooker and air fryer",
+          "SmartLid"
+        ],
+        "de": [
+          "11 Funktionen, 6 Liter",
+          "Druckgaren und Heißluftfritteuse",
+          "SmartLid-Deckel"
+        ],
+        "es": [
+          "11 funciones, 6 L",
+          "Cocción a presión y freidora de aire",
+          "Tapa SmartLid"
+        ],
+        "it": [
+          "11 funzioni, 6 litri",
+          "Cottura a pressione e friggitrice ad aria",
+          "Coperchio SmartLid"
+        ],
+        "nl": [
+          "11 functies, 6 l",
+          "Snelkoken en airfryer",
+          "SmartLid-deksel"
+        ],
+        "pl": [
+          "11 funkcji, 6 l",
+          "Gotowanie pod ciśnieniem i frytkownica beztłuszczowa",
+          "Pokrywa SmartLid"
+        ],
+        "sv": [
+          "11 funktioner, 6 liter",
+          "Tryckkokning och airfryer",
+          "SmartLid-lock"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

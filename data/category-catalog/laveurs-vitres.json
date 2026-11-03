@@ -9,17 +9,66 @@
       "asin": "B0DQ8QPG2Z",
       "segment": "mid",
       "bestFor": {
-        "fr": "Les fenêtres et baies vitrées d’un appartement, avec un robot compact."
+        "fr": "Les fenêtres et baies vitrées d’un appartement, avec un robot compact.",
+        "en": "Windows and patio doors in a flat, with a compact robot.",
+        "de": "Fenster und große Glasflächen in der Wohnung – mit einem kompakten Roboter.",
+        "es": "Las ventanas y cristaleras de un piso, con un robot compacto.",
+        "it": "Le finestre e le vetrate di un appartamento, con un robot compatto.",
+        "nl": "De ramen en grote glazen puien van een appartement, met een compacte robot.",
+        "pl": "Okna i przeszklenia w mieszkaniu – z kompaktowym robotem.",
+        "sv": "Fönster och glaspartier i en lägenhet, med en kompakt robot."
       },
       "facts": {
         "fr": [
           "Format compact",
           "Double buse à pulvérisation ultrasonique",
           "Programmation intelligente"
+        ],
+        "en": [
+          "Compact design",
+          "Dual ultrasonic spray nozzles",
+          "Smart scheduling"
+        ],
+        "de": [
+          "Kompaktes Format",
+          "Doppelte Ultraschall-Sprühdüse",
+          "Intelligente Zeitplanung"
+        ],
+        "es": [
+          "Formato compacto",
+          "Doble boquilla de pulverización ultrasónica",
+          "Programación inteligente"
+        ],
+        "it": [
+          "Formato compatto",
+          "Doppio ugello con nebulizzazione a ultrasuoni",
+          "Programmazione intelligente"
+        ],
+        "nl": [
+          "Compact formaat",
+          "Dubbele ultrasone sproeikop",
+          "Slimme planning"
+        ],
+        "pl": [
+          "Kompaktowe wymiary",
+          "Podwójna dysza z rozpylaniem ultradźwiękowym",
+          "Inteligentne planowanie"
+        ],
+        "sv": [
+          "Kompakt format",
+          "Dubbla munstycken med ultraljudsspray",
+          "Smart schemaläggning"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

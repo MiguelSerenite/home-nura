@@ -9,17 +9,66 @@
       "asin": "B08PKMT2DV",
       "segment": "budget",
       "bestFor": {
-        "fr": "Commander ses lampes Hue sans téléphone et sans travaux."
+        "fr": "Commander ses lampes Hue sans téléphone et sans travaux.",
+        "en": "Controlling your Hue lights without a phone and without any wiring work.",
+        "de": "Hue-Lampen ohne Smartphone und ganz ohne Umbauarbeiten steuern.",
+        "es": "Controlar tus lámparas Hue sin móvil y sin obras.",
+        "it": "Per comandare le lampade Hue senza smartphone e senza lavori.",
+        "nl": "Je Hue-lampen bedienen zonder telefoon en zonder te klussen.",
+        "pl": "Sterowanie lampami Hue bez telefonu i bez kucia ścian.",
+        "sv": "Styr Hue-lamporna utan mobil och utan installationsarbete."
       },
       "facts": {
         "fr": [
           "Sans fil, sur piles",
           "Sans installation",
           "Gère les scènes d’éclairage"
+        ],
+        "en": [
+          "Wireless, battery powered",
+          "No installation needed",
+          "Handles lighting scenes"
+        ],
+        "de": [
+          "Kabellos, batteriebetrieben",
+          "Ohne Installation",
+          "Steuert Lichtszenen"
+        ],
+        "es": [
+          "Inalámbrico, con pilas",
+          "Sin instalación",
+          "Gestiona escenas de iluminación"
+        ],
+        "it": [
+          "Senza fili, a batterie",
+          "Nessuna installazione",
+          "Gestisce le scene di luce"
+        ],
+        "nl": [
+          "Draadloos, op batterijen",
+          "Geen installatie nodig",
+          "Ondersteunt lichtscènes"
+        ],
+        "pl": [
+          "Bezprzewodowy, na baterie",
+          "Bez montażu",
+          "Obsługuje sceny świetlne"
+        ],
+        "sv": [
+          "Trådlös, batteridriven",
+          "Ingen installation",
+          "Hanterar ljusscener"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,17 +78,66 @@
       "asin": "B0BDXQBKQQ",
       "segment": "budget",
       "bestFor": {
-        "fr": "Un bouton sans fil pour lancer des actions Tapo ou déclencher une alarme."
+        "fr": "Un bouton sans fil pour lancer des actions Tapo ou déclencher une alarme.",
+        "en": "A wireless button to trigger Tapo actions or set off an alarm.",
+        "de": "Ein kabelloser Taster, der Tapo-Aktionen startet oder einen Alarm auslöst.",
+        "es": "Un botón inalámbrico para lanzar acciones Tapo o activar una alarma.",
+        "it": "Un pulsante senza fili per avviare azioni Tapo o far scattare un allarme.",
+        "nl": "Een draadloze knop om Tapo-acties te starten of een alarm af te laten gaan.",
+        "pl": "Bezprzewodowy przycisk do uruchamiania akcji Tapo lub włączania alarmu.",
+        "sv": "En trådlös knapp som startar Tapo-åtgärder eller utlöser ett larm."
       },
       "facts": {
         "fr": [
           "Bouton et variateur sans fil",
           "Actions personnalisées",
           "Fonctionne avec un hub Tapo"
+        ],
+        "en": [
+          "Wireless button and dimmer",
+          "Custom actions",
+          "Works with a Tapo hub"
+        ],
+        "de": [
+          "Kabelloser Taster und Dimmer",
+          "Individuelle Aktionen",
+          "Funktioniert mit einem Tapo-Hub"
+        ],
+        "es": [
+          "Botón y regulador inalámbrico",
+          "Acciones personalizadas",
+          "Funciona con un hub Tapo"
+        ],
+        "it": [
+          "Pulsante e dimmer senza fili",
+          "Azioni personalizzate",
+          "Funziona con un hub Tapo"
+        ],
+        "nl": [
+          "Draadloze knop en dimmer",
+          "Eigen acties in te stellen",
+          "Werkt met een Tapo-hub"
+        ],
+        "pl": [
+          "Bezprzewodowy przycisk i ściemniacz",
+          "Własne akcje",
+          "Działa z hubem Tapo"
+        ],
+        "sv": [
+          "Trådlös knapp och dimmer",
+          "Anpassade åtgärder",
+          "Fungerar med en Tapo-hubb"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

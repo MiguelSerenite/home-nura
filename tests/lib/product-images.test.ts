@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest'
+import { loadCatalogs } from '@/lib/category-catalog/data'
+import { CATEGORY_CATALOG_FILES } from '@/lib/category-catalog/registry'
 import { existsSync, readdirSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import sharp from 'sharp'
@@ -56,6 +58,7 @@ const SITE_MODEL_NAMES = new Set<string>([
   ...Object.values(ARTICLE_MODELS).flat(),
   ...Object.values(QUICK_ANSWERS).flatMap((qa) => qa.picks.map((p) => p.model)),
   ...BLACK_FRIDAY_CATEGORIES.flatMap((c) => allBlackFridayPickRefs(c).map((p) => p.model)),
+  ...[...loadCatalogs(CATEGORY_CATALOG_FILES).values()].flatMap((c) => c.models.map((m) => `${m.brand} ${m.model}`)),
 ])
 const CATALOG = new Map([...staticProducts, ...smartKitchenStaticProducts].map((p) => [p.asin, p]))
 

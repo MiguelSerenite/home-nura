@@ -9,17 +9,66 @@
       "asin": "B0BCWNBNTK",
       "segment": "budget",
       "bestFor": {
-        "fr": "Démarrer avec les capteurs et boutons Tapo, avec une sonnerie intégrée."
+        "fr": "Démarrer avec les capteurs et boutons Tapo, avec une sonnerie intégrée.",
+        "en": "Getting started with Tapo sensors and buttons, with a built-in chime.",
+        "de": "Der Einstieg in Tapo-Sensoren und -Taster – mit integriertem Gong.",
+        "es": "Empezar con los sensores y botones Tapo, con carillón integrado.",
+        "it": "Per iniziare con i sensori e i pulsanti Tapo, con suoneria integrata.",
+        "nl": "Beginnen met Tapo-sensoren en -knoppen, met ingebouwde gong.",
+        "pl": "Początek przygody z czujnikami i przyciskami Tapo – z wbudowanym dzwonkiem.",
+        "sv": "Kom igång med Tapos sensorer och knappar, med inbyggd ringsignal."
       },
       "facts": {
         "fr": [
           "Jusqu’à 64 capteurs et interrupteurs Tapo",
           "Compatible Alexa et Google Home",
           "Carillon intégré"
+        ],
+        "en": [
+          "Up to 64 Tapo sensors and switches",
+          "Works with Alexa and Google Home",
+          "Built-in chime"
+        ],
+        "de": [
+          "Bis zu 64 Tapo-Sensoren und -Schalter",
+          "Kompatibel mit Alexa und Google Home",
+          "Integrierter Gong"
+        ],
+        "es": [
+          "Hasta 64 sensores e interruptores Tapo",
+          "Compatible con Alexa y Google Home",
+          "Carillón integrado"
+        ],
+        "it": [
+          "Fino a 64 sensori e interruttori Tapo",
+          "Compatibile con Alexa e Google Home",
+          "Suoneria integrata"
+        ],
+        "nl": [
+          "Tot 64 Tapo-sensoren en -schakelaars",
+          "Werkt met Alexa en Google Home",
+          "Ingebouwde gong"
+        ],
+        "pl": [
+          "Do 64 czujników i przełączników Tapo",
+          "Współpraca z Alexą i Google Home",
+          "Wbudowany dzwonek"
+        ],
+        "sv": [
+          "Upp till 64 Tapo-sensorer och -brytare",
+          "Fungerar med Alexa och Google Home",
+          "Inbyggd ringklocka"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,17 +78,66 @@
       "asin": "B0C8BJ9ZLB",
       "segment": "mid",
       "bestFor": {
-        "fr": "Réunir caméras, sonnette et capteurs Tapo sur un seul hub avec alarme."
+        "fr": "Réunir caméras, sonnette et capteurs Tapo sur un seul hub avec alarme.",
+        "en": "Bringing Tapo cameras, doorbell and sensors together on one hub with an alarm.",
+        "de": "Tapo-Kameras, Türklingel und Sensoren in einem Hub mit Alarm bündeln.",
+        "es": "Reunir cámaras, timbre y sensores Tapo en un solo hub con alarma.",
+        "it": "Per riunire videocamere, videocitofono e sensori Tapo su un solo hub con allarme.",
+        "nl": "Tapo-camera’s, -deurbel en -sensoren samenbrengen op één hub met alarm.",
+        "pl": "Kamery, dzwonek do drzwi i czujniki Tapo w jednym hubie z alarmem.",
+        "sv": "Samla Tapos kameror, dörrklocka och sensorer i en enda hubb med larm."
       },
       "facts": {
         "fr": [
           "Jusqu’à 64 appareils Tapo",
           "Carillon et alarme",
           "Wi-Fi"
+        ],
+        "en": [
+          "Up to 64 Tapo devices",
+          "Chime and alarm",
+          "Wi-Fi"
+        ],
+        "de": [
+          "Bis zu 64 Tapo-Geräte",
+          "Gong und Alarm",
+          "WLAN"
+        ],
+        "es": [
+          "Hasta 64 dispositivos Tapo",
+          "Carillón y alarma",
+          "Wi-Fi"
+        ],
+        "it": [
+          "Fino a 64 dispositivi Tapo",
+          "Suoneria e allarme",
+          "Wi-Fi"
+        ],
+        "nl": [
+          "Tot 64 Tapo-apparaten",
+          "Gong en alarm",
+          "Wifi"
+        ],
+        "pl": [
+          "Do 64 urządzeń Tapo",
+          "Dzwonek i alarm",
+          "Wi-Fi"
+        ],
+        "sv": [
+          "Upp till 64 Tapo-enheter",
+          "Ringklocka och larm",
+          "Wi-Fi"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -49,16 +147,58 @@
       "asin": "B0FKH9CD5C",
       "segment": "premium",
       "bestFor": {
-        "fr": "Les grandes installations Hue, jusqu’à 150 luminaires."
+        "fr": "Les grandes installations Hue, jusqu’à 150 luminaires.",
+        "en": "Large Hue set-ups, with up to 150 lights.",
+        "de": "Große Hue-Installationen mit bis zu 150 Leuchten.",
+        "es": "Las instalaciones Hue grandes, de hasta 150 puntos de luz.",
+        "it": "I grandi impianti Hue, fino a 150 punti luce.",
+        "nl": "Grote Hue-installaties, tot 150 lampen.",
+        "pl": "Duże instalacje Hue – do 150 źródeł światła.",
+        "sv": "Stora Hue-installationer, med upp till 150 armaturer."
       },
       "facts": {
         "fr": [
           "Jusqu’à 150 luminaires",
           "Compatible Matter"
+        ],
+        "en": [
+          "Up to 150 lights",
+          "Matter compatible"
+        ],
+        "de": [
+          "Bis zu 150 Leuchten",
+          "Matter-kompatibel"
+        ],
+        "es": [
+          "Hasta 150 puntos de luz",
+          "Compatible con Matter"
+        ],
+        "it": [
+          "Fino a 150 punti luce",
+          "Compatibile Matter"
+        ],
+        "nl": [
+          "Tot 150 lampen",
+          "Compatibel met Matter"
+        ],
+        "pl": [
+          "Do 150 źródeł światła",
+          "Zgodny z Matter"
+        ],
+        "sv": [
+          "Upp till 150 armaturer",
+          "Matter-kompatibel"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -68,17 +208,66 @@
       "asin": "B0DWK8318H",
       "segment": "mid",
       "bestFor": {
-        "fr": "Une maison Matter : relier les capteurs Aqara à Alexa, Google ou Apple Maison."
+        "fr": "Une maison Matter : relier les capteurs Aqara à Alexa, Google ou Apple Maison.",
+        "en": "A Matter home: linking Aqara sensors to Alexa, Google or Apple Home.",
+        "de": "Für ein Matter-Zuhause: Aqara-Sensoren mit Alexa, Google oder Apple Home verbinden.",
+        "es": "Un hogar con Matter: conectar los sensores Aqara a Alexa, Google o Casa de Apple.",
+        "it": "Una casa Matter: per collegare i sensori Aqara ad Alexa, Google o Apple Casa.",
+        "nl": "Een Matter-huis: Aqara-sensoren koppelen aan Alexa, Google of Apple Woning.",
+        "pl": "Dom z Matter: połączenie czujników Aqara z Alexą, Google lub Apple Home.",
+        "sv": "Ett Matter-hem: koppla Aqara-sensorer till Alexa, Google eller Apple Hem."
       },
       "facts": {
         "fr": [
           "Contrôleur Matter et routeur de bordure Thread",
           "Zigbee et Wi-Fi 6",
           "Compatible Alexa et HomeKit"
+        ],
+        "en": [
+          "Matter controller and Thread border router",
+          "Zigbee and Wi-Fi 6",
+          "Works with Alexa and HomeKit"
+        ],
+        "de": [
+          "Matter-Controller und Thread-Border-Router",
+          "Zigbee und Wi-Fi 6",
+          "Kompatibel mit Alexa und HomeKit"
+        ],
+        "es": [
+          "Controlador Matter y router de borde Thread",
+          "Zigbee y Wi-Fi 6",
+          "Compatible con Alexa y HomeKit"
+        ],
+        "it": [
+          "Controller Matter e border router Thread",
+          "Zigbee e Wi-Fi 6",
+          "Compatibile con Alexa e HomeKit"
+        ],
+        "nl": [
+          "Matter-controller en Thread-borderrouter",
+          "Zigbee en wifi 6",
+          "Werkt met Alexa en HomeKit"
+        ],
+        "pl": [
+          "Kontroler Matter i router brzegowy Thread",
+          "Zigbee i Wi-Fi 6",
+          "Współpraca z Alexą i HomeKit"
+        ],
+        "sv": [
+          "Matter-controller och Thread Border Router",
+          "Zigbee och Wi-Fi 6",
+          "Fungerar med Alexa och HomeKit"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

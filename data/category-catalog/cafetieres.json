@@ -9,16 +9,58 @@
       "asin": "B0BWSFGQ49",
       "segment": "budget",
       "bestFor": {
-        "fr": "Un premier expresso broyeur, simple, avec buse vapeur manuelle."
+        "fr": "Un premier expresso broyeur, simple, avec buse vapeur manuelle.",
+        "en": "A first bean-to-cup machine: simple, with a manual steam wand.",
+        "de": "Für den Einstieg: ein unkomplizierter Kaffeevollautomat mit manueller Dampfdüse.",
+        "es": "Tu primera cafetera superautomática: sencilla y con vaporizador manual.",
+        "it": "La tua prima macchina superautomatica: semplice, con lancia vapore manuale.",
+        "nl": "Je eerste volautomatische espressomachine: eenvoudig, met handmatig stoompijpje.",
+        "pl": "Pierwszy ekspres z młynkiem: prosty w obsłudze, z ręczną dyszą parową.",
+        "sv": "Din första helautomatiska kaffemaskin: enkel, med manuellt ångrör."
       },
       "facts": {
         "fr": [
           "Machine à grain, 2 boissons",
           "Mousseur à lait manuel"
+        ],
+        "en": [
+          "Bean-to-cup, 2 drinks",
+          "Manual milk frother"
+        ],
+        "de": [
+          "Kaffeevollautomat, 2 Getränke",
+          "Manueller Milchaufschäumer"
+        ],
+        "es": [
+          "Superautomática con molinillo, 2 bebidas",
+          "Espumador de leche manual"
+        ],
+        "it": [
+          "Macchina a chicchi, 2 bevande",
+          "Montalatte manuale"
+        ],
+        "nl": [
+          "Bonenmachine, 2 dranken",
+          "Handmatige melkopschuimer"
+        ],
+        "pl": [
+          "Ekspres do kawy ziarnistej, 2 napoje do wyboru",
+          "Ręczny spieniacz mleka"
+        ],
+        "sv": [
+          "Inbyggd kvarn, 2 drycker",
+          "Manuell mjölkskummare"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -28,17 +70,66 @@
       "asin": "B07MMSHC4R",
       "segment": "budget",
       "bestFor": {
-        "fr": "Un expresso broyeur facile à prendre en main, avec écran tactile."
+        "fr": "Un expresso broyeur facile à prendre en main, avec écran tactile.",
+        "en": "An easy-to-use bean-to-cup machine with a touch display.",
+        "de": "Ein Kaffeevollautomat, der sich leicht bedienen lässt – mit Touch-Display.",
+        "es": "Una superautomática fácil de manejar desde el primer día, con pantalla táctil.",
+        "it": "Una macchina superautomatica facile da usare fin da subito, con display touch.",
+        "nl": "Een volautomatische espressomachine die je snel onder de knie hebt, met aanraakscherm.",
+        "pl": "Łatwy w obsłudze ekspres z młynkiem i dotykowym wyświetlaczem.",
+        "sv": "En lättanvänd helautomatisk kaffemaskin med pekskärm."
       },
       "facts": {
         "fr": [
           "Machine à grain, 2 boissons",
           "Écran tactile",
           "Mousseur à lait classique"
+        ],
+        "en": [
+          "Bean-to-cup, 2 drinks",
+          "Touch display",
+          "Classic milk frother"
+        ],
+        "de": [
+          "Kaffeevollautomat, 2 Getränke",
+          "Touch-Display",
+          "Klassischer Milchaufschäumer"
+        ],
+        "es": [
+          "Superautomática con molinillo, 2 bebidas",
+          "Pantalla táctil",
+          "Espumador de leche clásico"
+        ],
+        "it": [
+          "Macchina a chicchi, 2 bevande",
+          "Display touch",
+          "Montalatte classico"
+        ],
+        "nl": [
+          "Bonenmachine, 2 dranken",
+          "Aanraakscherm",
+          "Klassieke melkopschuimer"
+        ],
+        "pl": [
+          "Ekspres do kawy ziarnistej, 2 napoje do wyboru",
+          "Dotykowy wyświetlacz",
+          "Klasyczny spieniacz mleka"
+        ],
+        "sv": [
+          "Inbyggd kvarn, 2 drycker",
+          "Pekskärm",
+          "Klassisk mjölkskummare"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

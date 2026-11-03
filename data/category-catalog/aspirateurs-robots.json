@@ -9,16 +9,58 @@
       "asin": "B0GHN9DR1C",
       "segment": "mid",
       "bestFor": {
-        "fr": "Aspirer et laver les sols durs, avec une station qui sèche les serpillières à l’air chaud."
+        "fr": "Aspirer et laver les sols durs, avec une station qui sèche les serpillières à l’air chaud.",
+        "en": "Vacuuming and mopping hard floors, with a dock that dries the mops with warm air.",
+        "de": "Hartböden saugen und wischen, mit einer Station, die die Wischmopps per Warmluft trocknet.",
+        "es": "Aspirar y fregar suelos duros, con una base que seca las mopas con aire caliente.",
+        "it": "Per aspirare e lavare i pavimenti duri, con una base che asciuga i panni ad aria calda.",
+        "nl": "Harde vloeren zuigen en dweilen, met een station dat de moppen met warme lucht droogt.",
+        "pl": "Odkurzanie i mycie twardych podłóg ze stacją, która suszy mopy ciepłym powietrzem.",
+        "sv": "Dammsug och moppa hårda golv, med en station som torkar moppdukarna med varmluft."
       },
       "facts": {
         "fr": [
           "18 500 Pa, anti-enchevêtrement",
           "Séchage à 45 °C, autonettoyage à 75 °C"
+        ],
+        "en": [
+          "18,500 Pa, anti-tangle",
+          "Dries at 45°C, self-cleans at 75°C"
+        ],
+        "de": [
+          "18.500 Pa, gegen Haarverwicklungen",
+          "Trocknung bei 45 °C, Selbstreinigung bei 75 °C"
+        ],
+        "es": [
+          "18.500 Pa, sistema antienredos",
+          "Secado a 45 °C, autolimpieza a 75 °C"
+        ],
+        "it": [
+          "18.500 Pa, sistema anti-groviglio",
+          "Asciugatura a 45 °C, autopulizia a 75 °C"
+        ],
+        "nl": [
+          "18.500 Pa, anti-klit",
+          "Droging op 45 °C, zelfreiniging op 75 °C"
+        ],
+        "pl": [
+          "18 500 Pa, ochrona przed plątaniem się",
+          "Suszenie w 45 °C, samoczyszczenie w 75 °C"
+        ],
+        "sv": [
+          "18 500 Pa, motverkar hårtrassel",
+          "Torkning i 45 °C, självrengöring i 75 °C"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -28,17 +70,66 @@
       "asin": "B0GCGVJD71",
       "segment": "premium",
       "bestFor": {
-        "fr": "Les grandes surfaces et les tapis, avec rouleau laveur et station complète."
+        "fr": "Les grandes surfaces et les tapis, avec rouleau laveur et station complète.",
+        "en": "Large floor areas and rugs, with a roller mop and an all-in-one dock.",
+        "de": "Große Flächen und Teppiche – mit Wischwalze und Komplettstation.",
+        "es": "Casas grandes y alfombras, con rodillo de fregado y base todo en uno.",
+        "it": "Per grandi superfici e tappeti, con rullo lavante e base completa.",
+        "nl": "Grote oppervlakken en vloerkleden, met dweilrol en een compleet station.",
+        "pl": "Duże powierzchnie i dywany – z wałkiem mopującym i w pełni wyposażoną stacją.",
+        "sv": "Stora ytor och mattor, med moppvals och komplett station."
       },
       "facts": {
         "fr": [
           "30 000 Pa",
           "Rouleau laveur OZMO Roller 3.0",
           "TruEdge 3.0 pour les bords"
+        ],
+        "en": [
+          "30,000 Pa",
+          "OZMO Roller 3.0 mopping roller",
+          "TruEdge 3.0 for edges"
+        ],
+        "de": [
+          "30.000 Pa",
+          "Wischwalze OZMO Roller 3.0",
+          "TruEdge 3.0 für die Kanten"
+        ],
+        "es": [
+          "30.000 Pa",
+          "Rodillo de fregado OZMO Roller 3.0",
+          "TruEdge 3.0 para los bordes"
+        ],
+        "it": [
+          "30.000 Pa",
+          "Rullo lavante OZMO Roller 3.0",
+          "TruEdge 3.0 per i bordi"
+        ],
+        "nl": [
+          "30.000 Pa",
+          "OZMO Roller 3.0-dweilrol",
+          "TruEdge 3.0 voor de randen"
+        ],
+        "pl": [
+          "30 000 Pa",
+          "Wałek mopujący OZMO Roller 3.0",
+          "TruEdge 3.0 do sprzątania przy krawędziach"
+        ],
+        "sv": [
+          "30 000 Pa",
+          "Moppvalsen OZMO Roller 3.0",
+          "TruEdge 3.0 för kanterna"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -48,17 +139,66 @@
       "asin": "B0FNWFTJKQ",
       "segment": "budget",
       "bestFor": {
-        "fr": "Les petits logements : un robot compact, piloté depuis le téléphone."
+        "fr": "Les petits logements : un robot compact, piloté depuis le téléphone.",
+        "en": "Small homes and flats: a compact robot you control from your phone.",
+        "de": "Kleine Wohnungen: ein kompakter Roboter, gesteuert per Smartphone.",
+        "es": "Pisos pequeños: un robot compacto que manejas desde el móvil.",
+        "it": "Per le case piccole: un robot compatto che comandi dallo smartphone.",
+        "nl": "Kleine woningen: een compacte robot die je met je telefoon bedient.",
+        "pl": "Małe mieszkania: kompaktowy robot sterowany z telefonu.",
+        "sv": "Små bostäder: en kompakt robot som du styr från mobilen."
       },
       "facts": {
         "fr": [
           "28 cm de diamètre, anti-enchevêtrement",
           "2 200 Pa, 55 dB annoncés",
           "Wi-Fi, Bluetooth et Alexa"
+        ],
+        "en": [
+          "28 cm across, anti-tangle",
+          "2,200 Pa, 55 dB claimed",
+          "Wi-Fi, Bluetooth and Alexa"
+        ],
+        "de": [
+          "28 cm Durchmesser, gegen Haarverwicklungen",
+          "2.200 Pa, 55 dB laut Hersteller",
+          "WLAN, Bluetooth und Alexa"
+        ],
+        "es": [
+          "28 cm de diámetro, antienredos",
+          "2200 Pa, 55 dB según el fabricante",
+          "Wi-Fi, Bluetooth y Alexa"
+        ],
+        "it": [
+          "28 cm di diametro, sistema anti-groviglio",
+          "2.200 Pa, 55 dB dichiarati",
+          "Wi-Fi, Bluetooth e Alexa"
+        ],
+        "nl": [
+          "28 cm doorsnee, anti-klit",
+          "2.200 Pa, 55 dB volgens Lefant",
+          "Wifi, Bluetooth en Alexa"
+        ],
+        "pl": [
+          "Średnica 28 cm, ochrona przed plątaniem się",
+          "2200 Pa, deklarowane 55 dB",
+          "Wi-Fi, Bluetooth i Alexa"
+        ],
+        "sv": [
+          "28 cm i diameter, motverkar hårtrassel",
+          "2 200 Pa, uppgivna 55 dB",
+          "Wi-Fi, Bluetooth och Alexa"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

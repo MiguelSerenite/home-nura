@@ -9,17 +9,66 @@
       "asin": "B0DFVY6HS9",
       "segment": "budget",
       "bestFor": {
-        "fr": "Surveiller cuisine, salle de bain ou cave avec un hub Zigbee."
+        "fr": "Surveiller cuisine, salle de bain ou cave avec un hub Zigbee.",
+        "en": "Monitoring the kitchen, bathroom or cellar with a Zigbee hub.",
+        "de": "Küche, Bad oder Keller überwachen – mit einem Zigbee-Hub.",
+        "es": "Vigilar la cocina, el baño o el sótano con un hub Zigbee.",
+        "it": "Per controllare cucina, bagno o cantina con un hub Zigbee.",
+        "nl": "Keuken, badkamer of kelder bewaken met een Zigbee-hub.",
+        "pl": "Monitorowanie kuchni, łazienki lub piwnicy z hubem Zigbee.",
+        "sv": "Övervaka kök, badrum eller källare med en Zigbee-hubb."
       },
       "facts": {
         "fr": [
           "Zigbee",
           "Étanche",
           "Alertes sans fil"
+        ],
+        "en": [
+          "Zigbee",
+          "Waterproof",
+          "Wireless alerts"
+        ],
+        "de": [
+          "Zigbee",
+          "Wasserdicht",
+          "Drahtlose Benachrichtigungen"
+        ],
+        "es": [
+          "Zigbee",
+          "Impermeable",
+          "Alertas inalámbricas"
+        ],
+        "it": [
+          "Zigbee",
+          "Impermeabile",
+          "Avvisi senza fili"
+        ],
+        "nl": [
+          "Zigbee",
+          "Waterdicht",
+          "Draadloze meldingen"
+        ],
+        "pl": [
+          "Zigbee",
+          "Wodoodporny",
+          "Alerty bezprzewodowe"
+        ],
+        "sv": [
+          "Zigbee",
+          "Vattentät",
+          "Trådlösa larm"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,17 +78,66 @@
       "asin": "B0CB8Q3X4N",
       "segment": "budget",
       "bestFor": {
-        "fr": "Une alerte de fuite sur le téléphone, sous l’évier ou près du lave-linge."
+        "fr": "Une alerte de fuite sur le téléphone, sous l’évier ou près du lave-linge.",
+        "en": "A leak alert on your phone, under the sink or next to the washing machine.",
+        "de": "Leckagewarnung aufs Smartphone – unter der Spüle oder neben der Waschmaschine.",
+        "es": "Un aviso de fuga en el móvil, bajo el fregadero o junto a la lavadora.",
+        "it": "Un avviso di perdita sullo smartphone, sotto il lavello o vicino alla lavatrice.",
+        "nl": "Een lekmelding op je telefoon, onder de gootsteen of bij de wasmachine.",
+        "pl": "Powiadomienie o wycieku na telefon – pod zlewem lub przy pralce.",
+        "sv": "Larm om vattenläckor i mobilen – under diskhon eller vid tvättmaskinen."
       },
       "facts": {
         "fr": [
           "Notification instantanée dans l’application",
           "Étanche IP67",
           "Fonctionne avec un hub Tapo"
+        ],
+        "en": [
+          "Instant notification in the app",
+          "IP67 waterproof",
+          "Works with a Tapo hub"
+        ],
+        "de": [
+          "Sofortige Benachrichtigung in der App",
+          "Wasserdicht nach IP67",
+          "Funktioniert mit einem Tapo-Hub"
+        ],
+        "es": [
+          "Notificación instantánea en la app",
+          "Impermeable IP67",
+          "Funciona con un hub Tapo"
+        ],
+        "it": [
+          "Notifica immediata nell'app",
+          "Impermeabile IP67",
+          "Funziona con un hub Tapo"
+        ],
+        "nl": [
+          "Directe melding in de app",
+          "Waterdicht (IP67)",
+          "Werkt met een Tapo-hub"
+        ],
+        "pl": [
+          "Natychmiastowe powiadomienie w aplikacji",
+          "Wodoodporność IP67",
+          "Działa z hubem Tapo"
+        ],
+        "sv": [
+          "Notis direkt i appen",
+          "Vattentät enligt IP67",
+          "Fungerar med en Tapo-hubb"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -49,17 +147,66 @@
       "asin": "B0CRRMD559",
       "segment": "mid",
       "bestFor": {
-        "fr": "Une alarme sonore forte sur place et des alertes sur le téléphone."
+        "fr": "Une alarme sonore forte sur place et des alertes sur le téléphone.",
+        "en": "A loud alarm on the spot plus alerts on your phone.",
+        "de": "Ein lauter Alarm direkt vor Ort und Benachrichtigungen aufs Smartphone.",
+        "es": "Una alarma potente que suena en el propio sensor y avisos en el móvil.",
+        "it": "Un forte allarme acustico sul posto e gli avvisi sullo smartphone.",
+        "nl": "Een luid alarm ter plekke én meldingen op je telefoon.",
+        "pl": "Głośny alarm na miejscu i powiadomienia na telefonie.",
+        "sv": "Ett kraftigt ljudlarm på plats och notiser i mobilen."
       },
       "facts": {
         "fr": [
           "Alarme jusqu’à 100 dB, réglable",
           "Wi-Fi, alertes dans l’application",
           "Étanche IP67"
+        ],
+        "en": [
+          "Alarm up to 100 dB, adjustable",
+          "Wi-Fi, alerts in the app",
+          "IP67 waterproof"
+        ],
+        "de": [
+          "Alarm bis 100 dB, einstellbar",
+          "WLAN, Benachrichtigungen in der App",
+          "Wasserdicht nach IP67"
+        ],
+        "es": [
+          "Alarma de hasta 100 dB, ajustable",
+          "Wi-Fi, avisos en la app",
+          "Impermeable IP67"
+        ],
+        "it": [
+          "Allarme fino a 100 dB, regolabile",
+          "Wi-Fi, avvisi nell'app",
+          "Impermeabile IP67"
+        ],
+        "nl": [
+          "Instelbaar alarm tot 100 dB",
+          "Wifi, meldingen in de app",
+          "Waterdicht (IP67)"
+        ],
+        "pl": [
+          "Alarm do 100 dB, z regulacją głośności",
+          "Wi-Fi, powiadomienia w aplikacji",
+          "Wodoodporność IP67"
+        ],
+        "sv": [
+          "Larm på upp till 100 dB, justerbart",
+          "Wi-Fi, notiser i appen",
+          "Vattentät enligt IP67"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

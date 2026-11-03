@@ -9,17 +9,66 @@
       "asin": "B0CFXY26H1",
       "segment": "budget",
       "bestFor": {
-        "fr": "Régler chaque radiateur à eau pièce par pièce, avec un hub Zigbee."
+        "fr": "Régler chaque radiateur à eau pièce par pièce, avec un hub Zigbee.",
+        "en": "Setting each radiator room by room, with a Zigbee hub.",
+        "de": "Jeden Warmwasser-Heizkörper Raum für Raum regeln – mit einem Zigbee-Hub.",
+        "es": "Regular cada radiador de agua habitación por habitación, con un hub Zigbee.",
+        "it": "Per regolare ogni termosifone stanza per stanza, con un hub Zigbee.",
+        "nl": "Elke cv-radiator per kamer regelen, met een Zigbee-hub.",
+        "pl": "Regulacja każdego grzejnika wodnego osobno, pokój po pokoju, z hubem Zigbee.",
+        "sv": "Styr varje vattenburet element rum för rum, med en Zigbee-hubb."
       },
       "facts": {
         "fr": [
           "Tête thermostatique Zigbee 3.0",
           "Détection de fenêtre ouverte",
           "Commande vocale via un assistant"
+        ],
+        "en": [
+          "Zigbee 3.0 smart radiator valve",
+          "Open window detection",
+          "Voice control via an assistant"
+        ],
+        "de": [
+          "Heizkörperthermostat mit Zigbee 3.0",
+          "Fenster-offen-Erkennung",
+          "Sprachsteuerung über einen Assistenten"
+        ],
+        "es": [
+          "Cabezal termostático Zigbee 3.0",
+          "Detección de ventana abierta",
+          "Control por voz con un asistente"
+        ],
+        "it": [
+          "Testa termostatica Zigbee 3.0",
+          "Rilevamento finestra aperta",
+          "Comandi vocali tramite assistente"
+        ],
+        "nl": [
+          "Zigbee 3.0-thermostaatknop",
+          "Open-raamdetectie",
+          "Spraakbediening via een assistent"
+        ],
+        "pl": [
+          "Głowica termostatyczna Zigbee 3.0",
+          "Wykrywanie otwartego okna",
+          "Sterowanie głosem przez asystenta"
+        ],
+        "sv": [
+          "Termostathuvud med Zigbee 3.0",
+          "Känner av öppet fönster",
+          "Röststyrning via en assistent"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,16 +78,58 @@
       "asin": "B0CC67PYHY",
       "segment": "mid",
       "bestFor": {
-        "fr": "Une chaudière : programmer et régler le chauffage à distance depuis le téléphone."
+        "fr": "Une chaudière : programmer et régler le chauffage à distance depuis le téléphone.",
+        "en": "Homes with a boiler: scheduling and adjusting the heating remotely from your phone.",
+        "de": "Für Ihren Heizkessel: die Heizung per Smartphone programmieren und aus der Ferne regeln.",
+        "es": "Una caldera: programar y ajustar la calefacción a distancia desde el móvil.",
+        "it": "Se hai una caldaia: per programmare e regolare il riscaldamento a distanza dallo smartphone.",
+        "nl": "Een cv-ketel: de verwarming op afstand programmeren en regelen via je telefoon.",
+        "pl": "Dom z kotłem: programowanie i zdalna regulacja ogrzewania z telefonu.",
+        "sv": "Hem med värmepanna: schemalägg och styr värmen på distans från mobilen."
       },
       "facts": {
         "fr": [
           "Wi-Fi, application Netatmo",
           "Programmation et contrôle à distance"
+        ],
+        "en": [
+          "Wi-Fi, Netatmo app",
+          "Scheduling and remote control"
+        ],
+        "de": [
+          "WLAN, Netatmo-App",
+          "Programmierung und Fernsteuerung"
+        ],
+        "es": [
+          "Wi-Fi, app Netatmo",
+          "Programación y control a distancia"
+        ],
+        "it": [
+          "Wi-Fi, app Netatmo",
+          "Programmazione e controllo a distanza"
+        ],
+        "nl": [
+          "Wifi, Netatmo-app",
+          "Programmeren en bediening op afstand"
+        ],
+        "pl": [
+          "Wi-Fi, aplikacja Netatmo",
+          "Programowanie i zdalne sterowanie"
+        ],
+        "sv": [
+          "Wi-Fi, Netatmo-appen",
+          "Schemaläggning och fjärrstyrning"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -67,16 +158,58 @@
       "asin": "B0CC9WG42V",
       "segment": "mid",
       "bestFor": {
-        "fr": "Compléter un thermostat Netatmo pour régler chaque radiateur à eau."
+        "fr": "Compléter un thermostat Netatmo pour régler chaque radiateur à eau.",
+        "en": "Extending a Netatmo thermostat to control each radiator individually.",
+        "de": "Ihr Netatmo-Thermostat ergänzen, um jeden Warmwasser-Heizkörper einzeln zu regeln.",
+        "es": "Completar un termostato Netatmo para regular cada radiador de agua.",
+        "it": "Per completare un termostato Netatmo e regolare ogni termosifone.",
+        "nl": "Een Netatmo-thermostaat aanvullen om elke cv-radiator apart te regelen.",
+        "pl": "Uzupełnienie termostatu Netatmo do regulacji każdego grzejnika wodnego.",
+        "sv": "Komplettera en Netatmo-termostat och styr varje vattenburet element."
       },
       "facts": {
         "fr": [
           "Accessoire du thermostat Netatmo",
           "Contrôle à distance par application"
+        ],
+        "en": [
+          "Accessory for the Netatmo thermostat",
+          "Remote control via the app"
+        ],
+        "de": [
+          "Zubehör für das Netatmo-Thermostat",
+          "Fernsteuerung per App"
+        ],
+        "es": [
+          "Accesorio del termostato Netatmo",
+          "Control a distancia por app"
+        ],
+        "it": [
+          "Accessorio del termostato Netatmo",
+          "Controllo a distanza tramite app"
+        ],
+        "nl": [
+          "Accessoire voor de Netatmo-thermostaat",
+          "Bediening op afstand via app"
+        ],
+        "pl": [
+          "Akcesorium do termostatu Netatmo",
+          "Zdalne sterowanie przez aplikację"
+        ],
+        "sv": [
+          "Tillbehör till Netatmo-termostaten",
+          "Fjärrstyrning via app"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

@@ -9,37 +9,66 @@
       "asin": "B0G2LPXFKF",
       "segment": "budget",
       "bestFor": {
-        "fr": "Une chambre en hiver, avec un appareil simple et silencieux."
+        "fr": "Une chambre en hiver, avec un appareil simple et silencieux.",
+        "en": "A bedroom in winter, with a simple, quiet unit.",
+        "de": "Fürs Schlafzimmer im Winter – ein einfaches, leises Gerät.",
+        "es": "Un dormitorio en invierno, con un aparato sencillo y silencioso.",
+        "it": "Una camera da letto in inverno, con un apparecchio semplice e silenzioso.",
+        "nl": "Een slaapkamer in de winter, met een eenvoudig en stil apparaat.",
+        "pl": "Sypialnia zimą – proste i ciche urządzenie.",
+        "sv": "Ett sovrum på vintern, med en enkel och tyst apparat."
       },
       "facts": {
         "fr": [
           "Réservoir de 2,5 L",
           "23 dB annoncés",
           "Sans BPA"
+        ],
+        "en": [
+          "2.5 L tank",
+          "23 dB claimed",
+          "BPA-free"
+        ],
+        "de": [
+          "2,5-Liter-Wassertank",
+          "23 dB laut Hersteller",
+          "BPA-frei"
+        ],
+        "es": [
+          "Depósito de 2,5 L",
+          "23 dB según el fabricante",
+          "Sin BPA"
+        ],
+        "it": [
+          "Serbatoio da 2,5 litri",
+          "23 dB dichiarati",
+          "Senza BPA"
+        ],
+        "nl": [
+          "Waterreservoir van 2,5 l",
+          "23 dB volgens Levoit",
+          "BPA-vrij"
+        ],
+        "pl": [
+          "Zbiornik 2,5 l",
+          "Deklarowane 23 dB",
+          "Bez BPA"
+        ],
+        "sv": [
+          "Vattentank på 2,5 liter",
+          "Uppgivna 23 dB",
+          "BPA-fri"
         ]
       },
       "markets": [
-        "fr"
-      ]
-    },
-    {
-      "id": "dreo-humidificateur-3l-wifi",
-      "brand": "Dreo",
-      "model": "Humidificateur 3 L Wi-Fi",
-      "asin": "B0HFRQMQXY",
-      "segment": "mid",
-      "bestFor": {
-        "fr": "Régler l’humidité de la chambre depuis le téléphone, grâce au capteur intégré."
-      },
-      "facts": {
-        "fr": [
-          "Réservoir de 3 L, brume fraîche ultrasonique",
-          "Wi-Fi et capteur d’humidité",
-          "Veilleuse RGB"
-        ]
-      },
-      "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -49,17 +78,66 @@
       "asin": "B08LW4K16N",
       "segment": "mid",
       "bestFor": {
-        "fr": "Un séjour ou une chambre jusqu’à 32 m², avec une humidité régulée automatiquement."
+        "fr": "Un séjour ou une chambre jusqu’à 32 m², avec une humidité régulée automatiquement.",
+        "en": "A living room or bedroom up to 32 m², with humidity controlled automatically.",
+        "de": "Wohn- oder Schlafzimmer bis 32 m², mit automatisch geregelter Luftfeuchtigkeit.",
+        "es": "Un salón o un dormitorio de hasta 32 m², con la humedad regulada automáticamente.",
+        "it": "Un soggiorno o una camera fino a 32 m², con umidità regolata in automatico.",
+        "nl": "Een woonkamer of slaapkamer tot 32 m², met automatisch geregelde luchtvochtigheid.",
+        "pl": "Salon lub sypialnia do 32 m² z automatyczną regulacją wilgotności.",
+        "sv": "Ett vardagsrum eller sovrum på upp till 32 m², med automatiskt reglerad luftfuktighet."
       },
       "facts": {
         "fr": [
           "200 ml/h, jusqu’à 32 m²",
           "Technologie NanoCloud",
           "Réservoir de 2 L, 3 vitesses"
+        ],
+        "en": [
+          "200 ml/h, up to 32 m²",
+          "NanoCloud technology",
+          "2 L tank, 3 speeds"
+        ],
+        "de": [
+          "200 ml/h, bis 32 m²",
+          "NanoCloud-Technologie",
+          "2-Liter-Tank, 3 Stufen"
+        ],
+        "es": [
+          "200 ml/h, hasta 32 m²",
+          "Tecnología NanoCloud",
+          "Depósito de 2 L, 3 velocidades"
+        ],
+        "it": [
+          "200 ml/h, fino a 32 m²",
+          "Tecnologia NanoCloud",
+          "Serbatoio da 2 litri, 3 velocità"
+        ],
+        "nl": [
+          "200 ml/u, tot 32 m²",
+          "NanoCloud-technologie",
+          "Reservoir van 2 l, 3 snelheden"
+        ],
+        "pl": [
+          "200 ml/h, do 32 m²",
+          "Technologia NanoCloud",
+          "Zbiornik 2 l, 3 prędkości"
+        ],
+        "sv": [
+          "200 ml/h, upp till 32 m²",
+          "NanoCloud-teknik",
+          "Tank på 2 liter, 3 hastigheter"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -69,17 +147,66 @@
       "asin": "B0CCVX6FSD",
       "segment": "mid",
       "bestFor": {
-        "fr": "Une grande chambre : remplissage par le haut et diffusion d’huiles essentielles."
+        "fr": "Une grande chambre : remplissage par le haut et diffusion d’huiles essentielles.",
+        "en": "A large bedroom: top-filling and an essential oil diffuser.",
+        "de": "Für ein großes Schlafzimmer: Befüllung von oben und Diffusor für ätherische Öle.",
+        "es": "Un dormitorio grande: se llena por arriba y difunde aceites esenciales.",
+        "it": "Una camera grande: riempimento dall'alto e diffusione di oli essenziali.",
+        "nl": "Een grote slaapkamer: bovenaf bijvullen en etherische oliën verspreiden.",
+        "pl": "Duża sypialnia: napełnianie od góry i rozpylanie olejków eterycznych.",
+        "sv": "Ett stort sovrum: påfyllning ovanifrån och spridning av eteriska oljor."
       },
       "facts": {
         "fr": [
           "Réservoir de 4 L à remplir par le haut",
           "Diffuseur d’huiles essentielles",
           "Veilleuse intégrée"
+        ],
+        "en": [
+          "4 L top-fill tank",
+          "Essential oil diffuser",
+          "Built-in night light"
+        ],
+        "de": [
+          "4-Liter-Tank zum Befüllen von oben",
+          "Diffusor für ätherische Öle",
+          "Integriertes Nachtlicht"
+        ],
+        "es": [
+          "Depósito de 4 L que se llena por arriba",
+          "Difusor de aceites esenciales",
+          "Luz nocturna integrada"
+        ],
+        "it": [
+          "Serbatoio da 4 litri da riempire dall'alto",
+          "Diffusore di oli essenziali",
+          "Luce notturna integrata"
+        ],
+        "nl": [
+          "Reservoir van 4 l, bovenaf te vullen",
+          "Diffuser voor etherische oliën",
+          "Ingebouwd nachtlampje"
+        ],
+        "pl": [
+          "Zbiornik 4 l napełniany od góry",
+          "Dyfuzor olejków eterycznych",
+          "Wbudowana lampka nocna"
+        ],
+        "sv": [
+          "Tank på 4 liter med påfyllning ovanifrån",
+          "Doftspridare för eteriska oljor",
+          "Inbyggd nattlampa"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

@@ -9,17 +9,66 @@
       "asin": "B0C5MDCNLZ",
       "segment": "mid",
       "bestFor": {
-        "fr": "Aspirer toute la maison sans fil, avec une longue autonomie."
+        "fr": "Aspirer toute la maison sans fil, avec une longue autonomie.",
+        "en": "Cordless vacuuming for the whole house, with long battery life.",
+        "de": "Das ganze Haus kabellos saugen – mit langer Akkulaufzeit.",
+        "es": "Aspirar toda la casa sin cables y con mucha autonomía.",
+        "it": "Per aspirare tutta la casa senza fili, con una lunga autonomia.",
+        "nl": "Het hele huis snoerloos stofzuigen, met een lange accuduur.",
+        "pl": "Odkurzanie całego domu bez kabla i z długim czasem pracy na baterii.",
+        "sv": "Dammsug hela hemmet sladdlöst – med lång batteritid."
       },
       "facts": {
         "fr": [
           "22 000 Pa / 190 AW",
           "Jusqu’à 90 min d’autonomie",
           "Éclairage révélateur de poussière"
+        ],
+        "en": [
+          "22,000 Pa / 190 AW",
+          "Up to 90 minutes' runtime",
+          "Dust-revealing light"
+        ],
+        "de": [
+          "22.000 Pa / 190 AW",
+          "Bis zu 90 Min. Laufzeit",
+          "Licht, das Staub sichtbar macht"
+        ],
+        "es": [
+          "22.000 Pa / 190 AW",
+          "Hasta 90 min de autonomía",
+          "Luz que revela el polvo"
+        ],
+        "it": [
+          "22.000 Pa / 190 AW",
+          "Fino a 90 minuti di autonomia",
+          "Luce che evidenzia la polvere"
+        ],
+        "nl": [
+          "22.000 Pa / 190 AW",
+          "Tot 90 min accuduur",
+          "Verlichting die stof zichtbaar maakt"
+        ],
+        "pl": [
+          "22 000 Pa / 190 AW",
+          "Do 90 min pracy na baterii",
+          "Podświetlenie uwidaczniające kurz"
+        ],
+        "sv": [
+          "22 000 Pa / 190 AW",
+          "Upp till 90 min batteritid",
+          "Belysning som synliggör damm"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,16 +78,52 @@
       "asin": "B0D9PPV1YY",
       "segment": "budget",
       "bestFor": {
-        "fr": "Un balai 2-en-1 léger pour les sols et les surfaces en hauteur."
+        "fr": "Un balai 2-en-1 léger pour les sols et les surfaces en hauteur.",
+        "de": "Ein leichter 2-in-1-Stielsauger für Böden und höher gelegene Flächen.",
+        "es": "Un aspirador escoba 2 en 1 ligero para los suelos y las superficies en alto.",
+        "it": "Una scopa elettrica 2 in 1 leggera, per i pavimenti e le superfici in alto.",
+        "nl": "Een lichte 2-in-1-steelstofzuiger voor vloeren en hoger gelegen oppervlakken.",
+        "pl": "Lekki odkurzacz pionowy 2 w 1 do podłóg i wyżej położonych powierzchni.",
+        "sv": "En lätt 2-i-1-skaftdammsugare för golv och ytor högt upp."
       },
       "facts": {
         "fr": [
           "Jusqu’à 45 min d’autonomie",
           "2-en-1 avec aspirateur à main"
+        ],
+        "de": [
+          "Bis zu 45 Min. Laufzeit",
+          "2-in-1 mit Handstaubsauger"
+        ],
+        "es": [
+          "Hasta 45 min de autonomía",
+          "2 en 1 con aspirador de mano"
+        ],
+        "it": [
+          "Fino a 45 minuti di autonomia",
+          "2 in 1 con aspirapolvere portatile"
+        ],
+        "nl": [
+          "Tot 45 min accuduur",
+          "2-in-1 met kruimeldief"
+        ],
+        "pl": [
+          "Do 45 min pracy na baterii",
+          "2 w 1 z odkurzaczem ręcznym"
+        ],
+        "sv": [
+          "Upp till 45 min batteritid",
+          "2-i-1 med handdammsugare"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -48,17 +133,66 @@
       "asin": "B0DV5RRL9F",
       "segment": "mid",
       "bestFor": {
-        "fr": "Aspirer et laver les sols durs en un passage, jusque sous les meubles."
+        "fr": "Aspirer et laver les sols durs en un passage, jusque sous les meubles.",
+        "en": "Vacuuming and mopping hard floors in one pass, even under furniture.",
+        "de": "Hartböden in einem Durchgang saugen und wischen – bis unter die Möbel.",
+        "es": "Aspirar y fregar suelos duros de una pasada, incluso debajo de los muebles.",
+        "it": "Per aspirare e lavare i pavimenti duri in una sola passata, fin sotto i mobili.",
+        "nl": "Harde vloeren in één keer zuigen en dweilen, tot onder de meubels.",
+        "pl": "Odkurzanie i mycie twardych podłóg za jednym przejazdem, nawet pod meblami.",
+        "sv": "Dammsug och våttorka hårda golv i ett svep – ända in under möblerna."
       },
       "facts": {
         "fr": [
           "Aspirateur laveur, 18 000 Pa",
           "Se couche à plat à 180°",
           "Autonettoyage à 90 °C, séchage en 5 min"
+        ],
+        "en": [
+          "Wet and dry vacuum, 18,000 Pa",
+          "Lies flat at 180°",
+          "Self-cleans at 90°C, dries in 5 minutes"
+        ],
+        "de": [
+          "Nass-Trocken-Sauger, 18.000 Pa",
+          "Lässt sich um 180° flach umlegen",
+          "Selbstreinigung bei 90 °C, Trocknung in 5 Min."
+        ],
+        "es": [
+          "Aspirador friegasuelos, 18.000 Pa",
+          "Se tumba en horizontal a 180°",
+          "Autolimpieza a 90 °C, secado en 5 min"
+        ],
+        "it": [
+          "Lavapavimenti aspirante, 18.000 Pa",
+          "Si abbassa in piano a 180°",
+          "Autopulizia a 90 °C, asciugatura in 5 minuti"
+        ],
+        "nl": [
+          "Nat-droogstofzuiger, 18.000 Pa",
+          "Kan 180° plat liggen",
+          "Zelfreiniging op 90 °C, droogt in 5 min"
+        ],
+        "pl": [
+          "Odkurzacz myjący, 18 000 Pa",
+          "Kładzie się na płasko (180°)",
+          "Samoczyszczenie w 90 °C, suszenie w 5 min"
+        ],
+        "sv": [
+          "Våt- och torrdammsugare, 18 000 Pa",
+          "Kan fällas ner helt plant, 180°",
+          "Självrengöring i 90 °C, torkning på 5 min"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -68,17 +202,66 @@
       "asin": "B0CW1QDRVV",
       "segment": "mid",
       "bestFor": {
-        "fr": "Laver les sols durs et passer sous les meubles grâce au manche qui se couche."
+        "fr": "Laver les sols durs et passer sous les meubles grâce au manche qui se couche.",
+        "en": "Washing hard floors and reaching under furniture, thanks to a handle that lies flat.",
+        "de": "Hartböden wischen und dank umlegbarem Stiel auch unter Möbeln reinigen.",
+        "es": "Fregar suelos duros y llegar bajo los muebles gracias a su mango abatible.",
+        "it": "Per lavare i pavimenti duri e arrivare sotto i mobili, grazie al manico che si abbassa.",
+        "nl": "Harde vloeren dweilen en onder meubels komen dankzij de steel die plat kan liggen.",
+        "pl": "Mycie twardych podłóg i wjeżdżanie pod meble dzięki rękojeści, która kładzie się na płasko.",
+        "sv": "Våttorka hårda golv och nå in under möblerna tack vare skaftet som går att fälla ner."
       },
       "facts": {
         "fr": [
           "Aspirateur laveur, jusqu’à 40 min",
           "Séchage FlashDry à 70 °C en 5 min",
           "Technologie HyperStretch"
+        ],
+        "en": [
+          "Wet and dry vacuum, up to 40 minutes",
+          "FlashDry drying at 70°C in 5 minutes",
+          "HyperStretch technology"
+        ],
+        "de": [
+          "Nass-Trocken-Sauger, bis zu 40 Min.",
+          "FlashDry-Trocknung bei 70 °C in 5 Min.",
+          "HyperStretch-Technologie"
+        ],
+        "es": [
+          "Aspirador friegasuelos, hasta 40 min",
+          "Secado FlashDry a 70 °C en 5 min",
+          "Tecnología HyperStretch"
+        ],
+        "it": [
+          "Lavapavimenti aspirante, fino a 40 minuti",
+          "Asciugatura FlashDry a 70 °C in 5 minuti",
+          "Tecnologia HyperStretch"
+        ],
+        "nl": [
+          "Nat-droogstofzuiger, tot 40 min",
+          "FlashDry-droging op 70 °C in 5 min",
+          "HyperStretch-technologie"
+        ],
+        "pl": [
+          "Odkurzacz myjący, do 40 min pracy",
+          "Suszenie FlashDry (70 °C) w 5 min",
+          "Technologia HyperStretch"
+        ],
+        "sv": [
+          "Våt- och torrdammsugare, upp till 40 min",
+          "FlashDry-torkning i 70 °C på 5 min",
+          "HyperStretch-teknik"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]
