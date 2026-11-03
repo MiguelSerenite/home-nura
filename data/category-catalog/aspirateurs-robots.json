@@ -1,0 +1,65 @@
+{
+  "category": "aspirateurs-robots",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "roborock-qrevo-s-pro",
+      "brand": "Roborock",
+      "model": "Qrevo S Pro",
+      "asin": "B0GHN9DR1C",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Aspirer et laver les sols durs, avec une station qui sèche les serpillières à l’air chaud."
+      },
+      "facts": {
+        "fr": [
+          "18 500 Pa, anti-enchevêtrement",
+          "Séchage à 45 °C, autonettoyage à 75 °C"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "ecovacs-deebot-t90-pro-omni",
+      "brand": "Ecovacs",
+      "model": "Deebot T90 Pro Omni",
+      "asin": "B0GCGVJD71",
+      "segment": "premium",
+      "bestFor": {
+        "fr": "Les grandes surfaces et les tapis, avec rouleau laveur et station complète."
+      },
+      "facts": {
+        "fr": [
+          "30 000 Pa",
+          "Rouleau laveur OZMO Roller 3.0",
+          "TruEdge 3.0 pour les bords"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "lefant-m210-pro",
+      "brand": "Lefant",
+      "model": "M210 Pro",
+      "asin": "B0FNWFTJKQ",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Les petits logements : un robot compact, piloté depuis le téléphone."
+      },
+      "facts": {
+        "fr": [
+          "28 cm de diamètre, anti-enchevêtrement",
+          "2 200 Pa, 55 dB annoncés",
+          "Wi-Fi, Bluetooth et Alexa"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

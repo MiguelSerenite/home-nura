@@ -1,0 +1,46 @@
+{
+  "category": "cameras-exterieur",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "blink-outdoor-4",
+      "brand": "Blink",
+      "model": "Outdoor 4",
+      "asin": "B0B1N5RL1Q",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Une caméra extérieure sans fil qui tient longtemps sur piles."
+      },
+      "facts": {
+        "fr": [
+          "Sans fil, vidéo HD",
+          "Jusqu’à 2 ans d’autonomie annoncés",
+          "Détection de mouvement avancée"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "ring-outdoor-camera-2k",
+      "brand": "Ring",
+      "model": "Outdoor Camera 2K",
+      "asin": "B0FZPRQ9KS",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Une caméra extérieure Ring sur batterie, à installer soi-même."
+      },
+      "facts": {
+        "fr": [
+          "Vidéo Retinal 2K grand-angle",
+          "Sur batterie",
+          "Installation soi-même"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "category": "cameras-interieur",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "ring-indoor-camera-2",
+      "brand": "Ring",
+      "model": "Indoor Camera (2e génération)",
+      "asin": "B0CRM29NTV",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Surveiller une pièce ou un animal, avec un modèle branché sur secteur."
+      },
+      "facts": {
+        "fr": [
+          "Vidéo HD 1080p",
+          "Audio bidirectionnel",
+          "Sur secteur, Wi-Fi"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "blink-mini-2k-plus",
+      "brand": "Blink",
+      "model": "Mini 2K+",
+      "asin": "B0F3BDBWK2",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Une petite caméra d’intérieur 2K à poser n’importe où."
+      },
+      "facts": {
+        "fr": [
+          "Vidéo 2K, zoom x4",
+          "Vision nocturne",
+          "Sur secteur"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "ring-pan-tilt-indoor-camera",
+      "brand": "Ring",
+      "model": "Pan-Tilt Indoor Camera",
+      "asin": "B0CG2TB6H9",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Couvrir toute une pièce grâce à la rotation sur 360°."
+      },
+      "facts": {
+        "fr": [
+          "Orientable sur 360° et inclinable",
+          "Sur prise",
+          "Pratique pour surveiller les animaux"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

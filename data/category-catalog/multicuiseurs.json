@@ -1,0 +1,45 @@
+{
+  "category": "multicuiseurs",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "moulinex-cookeo-plus-ce85b8",
+      "brand": "Moulinex",
+      "model": "Cookeo+ CE85B8",
+      "asin": "B0HH9LNWJJ",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Les plats mijotés en semaine, cuits sous pression en un temps réduit."
+      },
+      "facts": {
+        "fr": [
+          "Multicuiseur sous pression",
+          "6 modes de cuisson"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "ninja-foodi-smartlid-11-en-1",
+      "brand": "Ninja",
+      "model": "Foodi SmartLid 11-en-1 6 L",
+      "asin": "B09N3V7T9D",
+      "segment": "premium",
+      "bestFor": {
+        "fr": "Cuire sous pression et frire à l’air dans le même appareil."
+      },
+      "facts": {
+        "fr": [
+          "11 fonctions, 6 L",
+          "Cuisson sous pression et air fryer",
+          "Couvercle SmartLid"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

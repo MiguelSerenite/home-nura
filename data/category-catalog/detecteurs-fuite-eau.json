@@ -1,0 +1,66 @@
+{
+  "category": "detecteurs-fuite-eau",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "sonoff-snzb-05p",
+      "brand": "SONOFF",
+      "model": "SNZB-05P",
+      "asin": "B0DFVY6HS9",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Surveiller cuisine, salle de bain ou cave avec un hub Zigbee."
+      },
+      "facts": {
+        "fr": [
+          "Zigbee",
+          "Étanche",
+          "Alertes sans fil"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "tapo-t300",
+      "brand": "Tapo",
+      "model": "T300",
+      "asin": "B0CB8Q3X4N",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Une alerte de fuite sur le téléphone, sous l’évier ou près du lave-linge."
+      },
+      "facts": {
+        "fr": [
+          "Notification instantanée dans l’application",
+          "Étanche IP67",
+          "Fonctionne avec un hub Tapo"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "switchbot-capteur-eau",
+      "brand": "SwitchBot",
+      "model": "Capteur d’eau Wi-Fi",
+      "asin": "B0CRRMD559",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Une alarme sonore forte sur place et des alertes sur le téléphone."
+      },
+      "facts": {
+        "fr": [
+          "Alarme jusqu’à 100 dB, réglable",
+          "Wi-Fi, alertes dans l’application",
+          "Étanche IP67"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

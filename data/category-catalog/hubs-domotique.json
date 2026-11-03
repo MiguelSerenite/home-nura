@@ -1,0 +1,85 @@
+{
+  "category": "hubs-domotique",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "tapo-h100",
+      "brand": "Tapo",
+      "model": "H100",
+      "asin": "B0BCWNBNTK",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Démarrer avec les capteurs et boutons Tapo, avec une sonnerie intégrée."
+      },
+      "facts": {
+        "fr": [
+          "Jusqu’à 64 capteurs et interrupteurs Tapo",
+          "Compatible Alexa et Google Home",
+          "Carillon intégré"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "tapo-h200",
+      "brand": "Tapo",
+      "model": "H200",
+      "asin": "B0C8BJ9ZLB",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Réunir caméras, sonnette et capteurs Tapo sur un seul hub avec alarme."
+      },
+      "facts": {
+        "fr": [
+          "Jusqu’à 64 appareils Tapo",
+          "Carillon et alarme",
+          "Wi-Fi"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "philips-hue-bridge-pro",
+      "brand": "Philips",
+      "model": "Hue Bridge Pro",
+      "asin": "B0FKH9CD5C",
+      "segment": "premium",
+      "bestFor": {
+        "fr": "Les grandes installations Hue, jusqu’à 150 luminaires."
+      },
+      "facts": {
+        "fr": [
+          "Jusqu’à 150 luminaires",
+          "Compatible Matter"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "aqara-hub-m100",
+      "brand": "Aqara",
+      "model": "Hub M100",
+      "asin": "B0DWK8318H",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Une maison Matter : relier les capteurs Aqara à Alexa, Google ou Apple Maison."
+      },
+      "facts": {
+        "fr": [
+          "Contrôleur Matter et routeur de bordure Thread",
+          "Zigbee et Wi-Fi 6",
+          "Compatible Alexa et HomeKit"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

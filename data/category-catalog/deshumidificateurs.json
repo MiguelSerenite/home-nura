@@ -1,0 +1,65 @@
+{
+  "category": "deshumidificateurs",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "midea-deshumidificateur-20l-wifi",
+      "brand": "Midea",
+      "model": "Déshumidificateur 20 L Wi-Fi",
+      "asin": "B08HYV65KG",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Une maison humide ou une cave, avec suivi et réglages depuis l’application."
+      },
+      "facts": {
+        "fr": [
+          "20 L par jour",
+          "Wi-Fi et application",
+          "Mode séchage du linge"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "bosch-dry-4000",
+      "brand": "Bosch",
+      "model": "Dry 4000",
+      "asin": "B0DLL2P9ZQ",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Un logement jusqu’à 33 m² et le séchage du linge à l’intérieur."
+      },
+      "facts": {
+        "fr": [
+          "16 L par 24 h, pour 33 m²",
+          "Mode séchage du linge"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "pro-breeze-omnidry-20l",
+      "brand": "Pro Breeze",
+      "model": "OmniDry 20 L",
+      "asin": "B0CZ114G68",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Les pièces très humides, avec un compresseur et un capteur d’humidité automatique."
+      },
+      "facts": {
+        "fr": [
+          "Compresseur, 20 L par jour",
+          "Réservoir de 4 L",
+          "Capteur d’humidité et mode linge"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

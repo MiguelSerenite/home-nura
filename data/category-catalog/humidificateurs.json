@@ -1,0 +1,86 @@
+{
+  "category": "humidificateurs",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "levoit-classic-160",
+      "brand": "Levoit",
+      "model": "Classic 160",
+      "asin": "B0G2LPXFKF",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Une chambre en hiver, avec un appareil simple et silencieux."
+      },
+      "facts": {
+        "fr": [
+          "Réservoir de 2,5 L",
+          "23 dB annoncés",
+          "Sans BPA"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "dreo-humidificateur-3l-wifi",
+      "brand": "Dreo",
+      "model": "Humidificateur 3 L Wi-Fi",
+      "asin": "B0HFRQMQXY",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Régler l’humidité de la chambre depuis le téléphone, grâce au capteur intégré."
+      },
+      "facts": {
+        "fr": [
+          "Réservoir de 3 L, brume fraîche ultrasonique",
+          "Wi-Fi et capteur d’humidité",
+          "Veilleuse RGB"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "philips-humidificateur-2000",
+      "brand": "Philips",
+      "model": "Humidificateur d’air 2000",
+      "asin": "B08LW4K16N",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Un séjour ou une chambre jusqu’à 32 m², avec une humidité régulée automatiquement."
+      },
+      "facts": {
+        "fr": [
+          "200 ml/h, jusqu’à 32 m²",
+          "Technologie NanoCloud",
+          "Réservoir de 2 L, 3 vitesses"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "dreo-smart-humidificateur-4l",
+      "brand": "Dreo",
+      "model": "Smart Humidificateur Top Fill 4 L",
+      "asin": "B0CCVX6FSD",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Une grande chambre : remplissage par le haut et diffusion d’huiles essentielles."
+      },
+      "facts": {
+        "fr": [
+          "Réservoir de 4 L à remplir par le haut",
+          "Diffuseur d’huiles essentielles",
+          "Veilleuse intégrée"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

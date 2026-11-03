@@ -1,0 +1,86 @@
+{
+  "category": "purificateurs-air",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "levoit-core-300s",
+      "brand": "Levoit",
+      "model": "Core 300S",
+      "asin": "B0FDL66FYH",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Une chambre ou un séjour jusqu’à 50 m², avec pilotage depuis l’application."
+      },
+      "facts": {
+        "fr": [
+          "CADR 240 m³/h, filtre HEPA",
+          "22 dB annoncés en mode nuit",
+          "Contrôle par application"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "philips-purificateur-air-600",
+      "brand": "Philips",
+      "model": "Purificateur d’air connecté 600",
+      "asin": "B0CCF2NKCW",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Les allergiques, dans une pièce jusqu’à 44 m², avec réglages depuis l’application."
+      },
+      "facts": {
+        "fr": [
+          "CADR 170 m³/h, filtre HEPA NanoProtect",
+          "19 dB(A) annoncés au minimum",
+          "Connecté à l’application Philips"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "philips-purificateur-air-2200",
+      "brand": "Philips",
+      "model": "Purificateur d’air connecté 2200",
+      "asin": "B0F84553XQ",
+      "segment": "premium",
+      "bestFor": {
+        "fr": "Les grandes pièces ouvertes, jusqu’à 104 m² selon Philips."
+      },
+      "facts": {
+        "fr": [
+          "CADR 400 m³/h",
+          "Filtre HEPA NanoProtect et charbon actif",
+          "13 dB(A) annoncés au minimum"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "rowenta-pure-air-mini-pu1522",
+      "brand": "Rowenta",
+      "model": "Pure Air Mini PU1522",
+      "asin": "B0GNS66LWW",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Une petite chambre ou un bureau, avec un appareil compact et discret."
+      },
+      "facts": {
+        "fr": [
+          "Filtration des particules et des mauvaises odeurs",
+          "Très silencieux selon Rowenta",
+          "Format compact"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}

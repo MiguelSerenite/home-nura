@@ -1,0 +1,86 @@
+{
+  "category": "chauffages-appoint",
+  "updated": "2026-11-03",
+  "models": [
+    {
+      "id": "dreo-atom-316",
+      "brand": "Dreo",
+      "model": "Atom 316",
+      "asin": "B0DK1Y66F6",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Réchauffer vite une chambre ou un bureau, en silence et sans installation."
+      },
+      "facts": {
+        "fr": [
+          "Céramique PTC, 1 500 W",
+          "34 dB annoncés par Dreo",
+          "Thermostat, coupure en cas de surchauffe ou de basculement"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "philips-chauffage-electrique-connecte-5000",
+      "brand": "Philips",
+      "model": "Chauffage électrique connecté 5000",
+      "asin": "B0CDQJVJ8Q",
+      "segment": "mid",
+      "bestFor": {
+        "fr": "Piloter le chauffage d’appoint depuis le téléphone, pour une pièce jusqu’à 20 m²."
+      },
+      "facts": {
+        "fr": [
+          "2 000 W, jusqu’à 20 m² selon Philips",
+          "Contrôle par application, 4 modes",
+          "Oscillation sur 60°"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "rowenta-instant-comfort-aqua-so6510",
+      "brand": "Rowenta",
+      "model": "Instant Comfort Aqua SO6510",
+      "asin": "B00MFEHQJ2",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Un coup de chaleur rapide dans une petite pièce, avec un appareil compact."
+      },
+      "facts": {
+        "fr": [
+          "Radiateur soufflant compact",
+          "Réglages personnalisables",
+          "Chauffe rapide et fonctionnement silencieux annoncés"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    },
+    {
+      "id": "delonghi-capsule-desk",
+      "brand": "De’Longhi",
+      "model": "Capsule Desk",
+      "asin": "B09JCKYRV2",
+      "segment": "budget",
+      "bestFor": {
+        "fr": "Garder les mains et les pieds au chaud au bureau, sans chauffer toute la pièce."
+      },
+      "facts": {
+        "fr": [
+          "Mini chauffage céramique personnel",
+          "Chaleur immédiate selon De’Longhi",
+          "Arrêt automatique"
+        ]
+      },
+      "markets": [
+        "fr"
+      ]
+    }
+  ]
+}
