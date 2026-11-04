@@ -112,7 +112,7 @@ interface AnswerFirstTopProps {
   laterItems?: readonly JumpItem[]
   /** Under the ranking criteria: the hub's own words on how it compares. */
   about?: ReactNode
-  /** Coolblue offers for the picks (Dutch hubs, lib/merchant-offers). */
+  /** Coolblue offers for the picks (Dutch, German and French hubs, lib/merchant-offers). */
   offers?: CoolblueOffers
 }
 

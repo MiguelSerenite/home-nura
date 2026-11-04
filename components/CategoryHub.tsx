@@ -236,9 +236,11 @@ export default async function CategoryHub({
   // (it had none) and links it to the articles that rank.
   const { picks, articles } = getCategoryGuides(category.slug, safeLang)
 
-  // Dutch hubs: Coolblue's offer (Awin feeds) under each pick and catalogue
-  // card whose exact model Coolblue sells. Empty elsewhere, without the
-  // feed key or when the feeds are down.
+  // Coolblue's offers (Awin feeds, lib/merchant-offers/merchants.ts) under
+  // each pick and catalogue card whose exact model Coolblue sells: NL on /nl
+  // (BE instead for Belgian visitors), DE on /de, BE on /fr for Belgian
+  // visitors only. Empty elsewhere, without the feed key or when the feeds
+  // are down.
   const catalogExclude = picks.map((p) => p.model)
   const offers = await coolblueOffersForPage(safeLang, [
     ...(answerFirst?.picks ?? picks).map((p) => p.model),

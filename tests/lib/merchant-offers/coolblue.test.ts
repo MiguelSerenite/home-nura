@@ -59,6 +59,7 @@ describe('Coolblue offers', () => {
     const offers = await coolblueOffersFor(['Levoit Core 300S', 'Philips Airfryer XXL', 'Roborock Q7 M5+'])
     expect(Object.keys(offers).sort()).toEqual(['Levoit Core 300S', 'Roborock Q7 M5+'])
     expect(offers['Levoit Core 300S']).toEqual({
+      merchant: 'coolblue-nl',
       url: 'https://www.awin1.com/pclick.php?p=1005&a=1255925&m=85161',
       price: 139.99,
       priceAt: '2026-11-02T05:12:33.000Z',
@@ -91,11 +92,12 @@ describe('Coolblue offers', () => {
     expect(warnings().join('\n')).not.toContain(KEY)
   })
 
-  it('only fetches for Dutch pages', async () => {
+  it('only fetches for the locales of the merchant table', async () => {
     vi.stubEnv(AWIN_KEY_ENV, KEY)
     const fetchMock = stubAwin()
-    expect(await coolblueOffersForPage('fr', ['Levoit Core 300S'])).toEqual({})
-    expect(await coolblueOffersForPage('de', ['Levoit Core 300S'])).toEqual({})
+    for (const lang of ['en', 'it', 'es', 'pl', 'sv', 'us', 'ca'] as const) {
+      expect(await coolblueOffersForPage(lang, ['Levoit Core 300S'])).toEqual({})
+    }
     expect(fetchMock).not.toHaveBeenCalled()
     expect(Object.keys(await coolblueOffersForPage('nl', ['Levoit Core 300S']))).toEqual(['Levoit Core 300S'])
   })

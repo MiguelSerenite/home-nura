@@ -9,6 +9,7 @@ import { formatEuroNl, formatPriceDateNl } from '@/lib/merchant-offers/format'
 import type { CoolblueOffer as Offer } from '@/lib/merchant-offers/types'
 
 const offer: Offer = {
+  merchant: 'coolblue-nl',
   url: 'https://www.awin1.com/pclick.php?p=1005&a=1255925&m=85161',
   price: 139.99,
   priceAt: '2026-11-02T05:12:33.000Z',
@@ -33,7 +34,7 @@ describe('format', () => {
 })
 
 describe('CoolblueOffer', () => {
-  const html = renderToStaticMarkup(createElement(CoolblueOffer, { offer, model: 'Levoit Core 300S', lang: 'nl' }))
+  const html = renderToStaticMarkup(createElement(CoolblueOffer, { offers: [offer], model: 'Levoit Core 300S', lang: 'nl' }))
 
   it('names Coolblue before the click, with its price and date', () => {
     expect(html).toContain('Bekijk bij Coolblue')
@@ -55,7 +56,7 @@ describe('CoolblueOffer', () => {
   })
 
   it('renders nothing outside the Dutch version', () => {
-    expect(renderToStaticMarkup(createElement(CoolblueOffer, { offer, model: 'Levoit Core 300S', lang: 'fr' }))).toBe('')
+    expect(renderToStaticMarkup(createElement(CoolblueOffer, { offers: [offer], model: 'Levoit Core 300S', lang: 'fr' }))).toBe('')
   })
 })
 
@@ -63,7 +64,7 @@ describe('offers in the hub picks and catalogue cards', () => {
   it('shows the offer under the matched pick only', () => {
     for (const compact of [false, true]) {
       const html = renderToStaticMarkup(
-        createElement(QuickAnswer, { question, picks, lang: 'nl', placement: 'picks', compact, offers: { 'Levoit Core 300S': offer } }),
+        createElement(QuickAnswer, { question, picks, lang: 'nl', placement: 'picks', compact, offers: { 'Levoit Core 300S': [offer] } }),
       )
       expect(coolblueAnchors(html)).toHaveLength(1)
       expect(html.match(/Bekijk op Amazon/g)).toHaveLength(2)
@@ -82,7 +83,7 @@ describe('offers in the hub picks and catalogue cards', () => {
       { id: 'levoit-core-300s', name: 'Levoit Core 300S', segment: 'mid' as const, bestFor: 'Slaapkamers', facts: ['CADR 240 m³/u'], url: picks[0].url },
       { id: 'levoit-core-400s', name: 'Levoit Core 400S', segment: 'mid' as const, bestFor: 'Woonkamers', facts: ['CADR 400 m³/u'], url: picks[1].url },
     ]
-    const withOffer = renderToStaticMarkup(createElement(CatalogCards, { entries, lang: 'nl', ui: CATALOG_UI.nl, offers: { 'Levoit Core 300S': offer } }))
+    const withOffer = renderToStaticMarkup(createElement(CatalogCards, { entries, lang: 'nl', ui: CATALOG_UI.nl, offers: { 'Levoit Core 300S': [offer] } }))
     expect(coolblueAnchors(withOffer)).toHaveLength(1)
     const without = renderToStaticMarkup(createElement(CatalogCards, { entries, lang: 'nl', ui: CATALOG_UI.nl }))
     expect(without).not.toContain('Coolblue')

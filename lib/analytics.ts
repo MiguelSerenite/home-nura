@@ -27,7 +27,8 @@ import {
   type ClickSurface,
 } from '@/lib/affiliate-click'
 import { resolveLang } from '@/lib/i18n'
-import { COOLBLUE_STORE, COOLBLUE_TAG } from '@/lib/merchant-offers/types'
+import { MERCHANT_STORES } from '@/lib/merchant-offers/merchants'
+import { COOLBLUE_TAG } from '@/lib/merchant-offers/types'
 
 export const EVENTS = {
   CLICK_AFFILIATE: 'click_affiliate',
@@ -167,7 +168,8 @@ function ensureVercelQueue(): void {
  * Every click is also sent to the first-party beacon (/api/click), the
  * only full click record: placement, page, model, and the store and
  * tracking ID read from the link itself: an Amazon store and tag, or
- * "coolblue.nl" and our Awin account for a Coolblue offer. Only an Amazon
+ * the Coolblue store ("coolblue.nl", "coolblue.de", "coolblue.be") and our
+ * Awin account for a Coolblue offer. Only an Amazon
  * link that names neither (none should) falls back to the reader's market.
  */
 export function trackAffiliateClick(input: {
@@ -188,7 +190,7 @@ export function trackAffiliateClick(input: {
   const linkStore = storeOf(input.url)
   const store = linkStore ?? market.marketplace
   // A Coolblue link always carries its Awin tag; the Amazon fallback is for Amazon links only.
-  const tag = tagOf(input.url) ?? (linkStore === COOLBLUE_STORE ? COOLBLUE_TAG : market.tag)
+  const tag = tagOf(input.url) ?? (linkStore !== null && MERCHANT_STORES.includes(linkStore) ? COOLBLUE_TAG : market.tag)
   trackEvent(EVENTS.CLICK_AFFILIATE, {
     asin: input.asin,
     product_name: input.productName,

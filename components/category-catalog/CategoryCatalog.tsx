@@ -24,7 +24,7 @@ export default function CategoryCatalog({
   path: string
   /** Names of the models the hub already shows as picks. */
   exclude?: readonly string[]
-  /** Coolblue offers keyed by model name (Dutch hubs, lib/merchant-offers). */
+  /** Coolblue offers keyed by model name (Dutch, German and French hubs, lib/merchant-offers). */
   offers?: CoolblueOffers
 }) {
   const entries = getCatalogEntries(category, lang, exclude)

@@ -9,7 +9,7 @@ import type { CatalogUi } from './ui'
 
 /**
  * The catalogue grid: one card per model, photo and button on the same
- * Amazon link; on Dutch hubs, Coolblue's offer under the button when the
+ * Amazon link; on Dutch, German and French hubs, Coolblue's offers under the button when the
  * Awin feeds have exactly that model.
  */
 export default function CatalogCards({
@@ -80,7 +80,7 @@ export default function CatalogCards({
                 {ui.button} →
               </a>
               {offers?.[entry.name] && (
-                <CoolblueOffer offer={offers[entry.name]} model={entry.name} lang={lang} position={i + 1} className="mt-3" />
+                <CoolblueOffer offers={offers[entry.name]} model={entry.name} lang={lang} position={i + 1} className="mt-3" />
               )}
             </div>
           </li>

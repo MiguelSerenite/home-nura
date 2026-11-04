@@ -8,6 +8,7 @@ import BackToTop from "@/components/BackToTop";
 import { HTML_LANG, LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
 import { buildPageMetadata, BASE_URL } from "@/lib/seo";
 import { buildOrganizationSchema } from "@/lib/organization-schema";
+import { COUNTRY_ATTRIBUTE_SCRIPT } from "@/lib/merchant-offers/audience";
 import "../globals.css";
 
 export const viewport: Viewport = {
@@ -120,8 +121,14 @@ export default async function RootLayout({
     <html
       lang={HTML_LANG[lang]}
       className={`${geistSans.variable} h-full antialiased`}
+      // data-hn-country is added by the script below, before hydration.
+      suppressHydrationWarning
     >
       <head>
+        {/* Visitor's country (hn_country) → <html data-hn-country>, before the
+            first paint: shows country-only merchant offers (Coolblue BE) to
+            their visitors on static pages (lib/merchant-offers/audience.ts). */}
+        <script dangerouslySetInnerHTML={{ __html: COUNTRY_ATTRIBUTE_SCRIPT }} />
         <script
           type="application/ld+json"
           suppressHydrationWarning

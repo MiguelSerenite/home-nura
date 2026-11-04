@@ -21,21 +21,38 @@ import { normalizeTokens } from '@/lib/blog/model-match'
 import { normalizeEan, type FeedProduct } from './feed'
 
 /**
- * Words that never tell two products apart: fillers, and the descriptors
+ * Words that never tell two products apart: fillers (English, Dutch,
+ * German, French: the feeds of Coolblue NL, BE and DE), and the descriptors
  * our Dutch names add ("Slimme Stekker met Energiemeting"). Words that do
  * ("Smart", "Connected", "WiFi") are not here.
  */
 const IGNORED_WORDS = new Set([
   'a', 'and', 'with', 'for', 'the', 'en', 'met', 'voor', 'van', 'het', 'de', 'een',
+  'und', 'mit', 'fur', 'der', 'die', 'das', 'ein', 'eine',
+  'et', 'avec', 'pour', 'le', 'la', 'les', 'du', 'des', 'un', 'une',
   'slimme', 'stekker', 'stekkers', 'energiemeting', 'weegschaal', 'keukenweegschaal', 'dieetweegschaal',
   'vleesthermometer', 'sondes', 'groot', 'bereik', 'losse', 'lamp',
   'gen', 'generation', 'generatie', 'series', 'serie',
+  // Descriptors of our German and French names ("WLAN-Steckdose mit
+  // Energiemessung", "Prise Connectée avec Suivi Conso"). "connectée"
+  // only describes our French plugs, scales and bulbs; "connecté", like
+  // "Connected" (Airfryer Combi XXL Connecté), names a variant and is not here.
+  'connectee', 'im', 'kuchenwaage', 'kabelloses', 'fleischthermometer', 'bluetoothgrillthermometer', 'grosser', 'reichweite', 'sonden',
+  'wlansteckdose', 'wlansteckdosen', 'energiemessung',
+  'balance', 'cuisine', 'dietetique', 'thermometre', 'sans', 'fil', 'longue', 'portee', 'prise', 'prises', 'suivi', 'conso',
 ])
 
-/** Dutch colour names (Coolblue's): two colours of one product are the same model. */
+/**
+ * Colour names of Coolblue's Dutch, German and French feeds (accents and
+ * "ß" already folded): two colours of one product are the same model.
+ */
 const COLOUR_WORDS = new Set([
   'zwart', 'wit', 'grijs', 'zilver', 'rood', 'blauw', 'groen', 'geel', 'roze', 'paars', 'beige', 'goud', 'brons',
   'koper', 'antraciet', 'rvs', 'chroom', 'creme', 'taupe', 'matzwart', 'donkergrijs', 'lichtgrijs', 'champagne',
+  'schwarz', 'weiss', 'grau', 'silber', 'rot', 'blau', 'grun', 'gelb', 'rosa', 'lila', 'violett', 'gold', 'bronze',
+  'kupfer', 'anthrazit', 'edelstahl', 'chrom', 'mattschwarz', 'dunkelgrau', 'hellgrau', 'champagner',
+  'noir', 'noire', 'blanc', 'blanche', 'gris', 'argent', 'rouge', 'bleu', 'vert', 'verte', 'jaune', 'rose', 'violet',
+  'dore', 'cuivre', 'anthracite', 'inox', 'chrome',
 ])
 
 const MEASURE = /^\d+(?:\.\d+)?(?:l|ml|cl|kg|g|w|kw|kwh|wh|cm|mm|m2|m|lm|mah|db|btu|v|bar)$/

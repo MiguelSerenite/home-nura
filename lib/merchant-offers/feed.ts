@@ -1,26 +1,19 @@
 /**
- * Awin product feeds of Coolblue NL: which feeds, where to download them,
- * and how a feed row becomes a product we can match. Pure (no network):
- * lib/merchant-offers/coolblue.ts does the fetching.
+ * Awin product feeds of the merchant table (./merchants.ts): where to
+ * download them and how a feed row becomes a product we can match. Pure
+ * (no network): lib/merchant-offers/coolblue.ts does the fetching.
  *
  * The download key (AWIN_DATAFEED_KEY) is a secret: it only ever goes into
  * the URLs built here and is never logged (redactKey).
  */
 import { parseCsvRecords } from './csv'
-import { AWIN_PUBLISHER_ID, COOLBLUE_AWIN_ADVERTISER_ID, isCoolblueAwinLink } from './types'
+import { merchantById, type Merchant } from './merchants'
+import { AWIN_PUBLISHER_ID, isCoolblueAwinLink } from './types'
 
-/**
- * Coolblue NL feeds of the categories we cover (the full feed 96636, with
- * 17,368 products, is left out: these six hold every model we compare).
- */
-export const COOLBLUE_FEED_IDS: readonly string[] = [
-  '95890', // Keuken
-  '95892', // Huishouden en wonen
-  '95897', // Domotica
-  '95834', // Koffie
-  '95904', // Wasmachines en wasdrogers
-  '95886', // Tuin en Klussen
-]
+const COOLBLUE_NL = merchantById('coolblue-nl')
+
+/** Coolblue NL feeds of the categories we cover (merchant table). */
+export const COOLBLUE_FEED_IDS: readonly string[] = COOLBLUE_NL.feedIds
 
 /** Columns the matcher and the offer need (Create-a-Feed column names). */
 export const FEED_COLUMNS: readonly string[] = [
@@ -43,15 +36,15 @@ export function feedListUrl(key: string): string {
 }
 
 /**
- * Create-a-Feed download URL of one feed: Dutch products, our columns,
- * comma-separated CSV, gzip. Used when the feed list has no download
- * link for the feed (or cannot be read).
+ * Create-a-Feed download URL of one feed: products in the feed's language
+ * (Dutch by default), our columns, comma-separated CSV, gzip. Used when the
+ * feed list has no download link for the feed (or cannot be read).
  */
-export function createAFeedUrl(key: string, feedId: string): string {
+export function createAFeedUrl(key: string, feedId: string, language: Merchant['feedLanguage'] = 'nl'): string {
   return [
     'https://productdata.awin.com/datafeed/download',
     `apikey/${encodeURIComponent(key)}`,
-    'language/nl',
+    `language/${language}`,
     `fid/${encodeURIComponent(feedId)}`,
     `columns/${FEED_COLUMNS.join(',')}`,
     'format/csv',
@@ -98,15 +91,15 @@ export function parseFeedList(text: string): FeedListEntry[] {
   })
 }
 
-/** Download URL of each selected Coolblue feed: the feed list's own link, else the Create-a-Feed one. */
-export function coolblueFeedUrls(key: string, feedList: readonly FeedListEntry[]): string[] {
-  return COOLBLUE_FEED_IDS.map((feedId) => {
-    const entry = feedList.find((e) => e.feedId === feedId && e.advertiserId === COOLBLUE_AWIN_ADVERTISER_ID)
-    return entry?.url ?? createAFeedUrl(key, feedId)
+/** Download URL of each feed of a merchant (Coolblue NL by default): the feed list's own link, else the Create-a-Feed one. */
+export function coolblueFeedUrls(key: string, feedList: readonly FeedListEntry[], merchant: Merchant = COOLBLUE_NL): string[] {
+  return merchant.feedIds.map((feedId) => {
+    const entry = feedList.find((e) => e.feedId === feedId && e.advertiserId === merchant.advertiserId)
+    return entry?.url ?? createAFeedUrl(key, feedId, merchant.feedLanguage)
   })
 }
 
-/** A Coolblue product of a feed, validated. */
+/** A merchant product of a feed, validated. */
 export interface FeedProduct {
   name: string
   brand: string
@@ -156,9 +149,10 @@ export function normalizeEan(value: string | undefined): string | null {
 
 /**
  * The feed's products we may offer: in stock, priced in euros, with a
- * tracked link of our account to Coolblue. Anything else is dropped.
+ * tracked link of our account to the merchant (Coolblue NL by default).
+ * Anything else is dropped.
  */
-export function parseCoolblueFeed(text: string): FeedProduct[] {
+export function parseCoolblueFeed(text: string, merchant: Merchant = COOLBLUE_NL): FeedProduct[] {
   return parseCsvRecords(text).flatMap((row) => {
     const name = row.product_name ?? ''
     const brand = row.brand_name ?? ''
@@ -166,7 +160,7 @@ export function parseCoolblueFeed(text: string): FeedProduct[] {
     const price = parsePrice(row.search_price ?? '')
     const currency = (row.currency ?? 'EUR').toUpperCase()
     if (!name || !brand || price === null || (currency !== '' && currency !== 'EUR')) return []
-    if (!isInStock(row.in_stock) || !isCoolblueAwinLink(url)) return []
+    if (!isInStock(row.in_stock) || !isCoolblueAwinLink(url, merchant.advertiserId)) return []
     return [{ name, brand, ean: normalizeEan(row.ean), url, price, updatedAt: parseFeedDate(row.last_updated ?? '') }]
   })
 }

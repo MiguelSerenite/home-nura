@@ -76,7 +76,7 @@ export const PREFERENCE_COOKIES: Readonly<Record<Lang, PreferenceCookiesCopy>> =
   fr: build({
     market: "Mémorise le pays choisi (sélecteur, suggestion ou page d'accueil internationale) pour ouvrir directement cette version",
     dismissed: "Mémorise que vous avez fermé la suggestion de pays, pour ne plus l'afficher",
-    country: "Pays de connexion (déduit de l'adresse IP par l'hébergeur, sans l'adresse elle-même), pour proposer la bonne version",
+    country: "Pays de connexion (déduit de l'adresse IP par l'hébergeur, sans l'adresse elle-même), pour proposer la bonne version et, en Belgique, afficher les offres de Coolblue Belgique",
     months: '12 mois',
     hours: '24 heures',
     provider: 'Home Nura (fonctionnel)',
@@ -129,7 +129,7 @@ export const PREFERENCE_COOKIES: Readonly<Record<Lang, PreferenceCookiesCopy>> =
   nl: build({
     market: 'Onthoudt het gekozen land (keuzemenu, suggestie of internationale startpagina) zodat die editie direct opent',
     dismissed: 'Onthoudt dat u de landsuggestie hebt gesloten, zodat die niet meer verschijnt',
-    country: 'Land van de verbinding (door de host afgeleid uit het IP-adres, zonder het adres zelf), om de juiste editie voor te stellen',
+    country: 'Land van de verbinding (door de host afgeleid uit het IP-adres, zonder het adres zelf), om de juiste editie voor te stellen en bezoekers in België de aanbiedingen van Coolblue België te tonen',
     months: '12 maanden',
     hours: '24 uur',
     provider: 'Home Nura (functioneel)',
