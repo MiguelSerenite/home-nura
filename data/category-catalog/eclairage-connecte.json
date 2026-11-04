@@ -9,17 +9,66 @@
       "asin": "B08QRQQ53T",
       "segment": "budget",
       "bestFor": {
-        "fr": "Passer ses lampes en couleur et les commander à la voix, sans hub."
+        "fr": "Passer ses lampes en couleur et les commander à la voix, sans hub.",
+        "en": "Switching your lamps to colour and controlling them by voice, with no hub.",
+        "de": "Lampen auf Farblicht umrüsten und per Sprache steuern – ohne Hub.",
+        "es": "Dar color a tus lámparas y controlarlas con la voz, sin hub.",
+        "it": "Per passare a luci colorate e comandarle con la voce, senza hub.",
+        "nl": "Overstappen op gekleurd licht en je lampen met je stem bedienen, zonder hub.",
+        "pl": "Kolorowe światło w lampach i sterowanie głosem, bez huba.",
+        "sv": "Ge lamporna färg och styr dem med rösten – utan hubb."
       },
       "facts": {
         "fr": [
           "Culot E27, multicolore et variable",
           "Wi-Fi, aucun hub requis",
           "Alexa et Google Assistant"
+        ],
+        "en": [
+          "E27 screw fitting, multicolour and dimmable",
+          "Wi-Fi, no hub needed",
+          "Alexa and Google Assistant"
+        ],
+        "de": [
+          "E27-Sockel, mehrfarbig und dimmbar",
+          "WLAN, kein Hub nötig",
+          "Alexa und Google Assistant"
+        ],
+        "es": [
+          "Casquillo E27, multicolor y regulable",
+          "Wi-Fi, no necesita hub",
+          "Alexa y Google Assistant"
+        ],
+        "it": [
+          "Attacco E27, multicolore e dimmerabile",
+          "Wi-Fi, nessun hub necessario",
+          "Alexa e Google Assistant"
+        ],
+        "nl": [
+          "E27-fitting, meerkleurig en dimbaar",
+          "Wifi, geen hub nodig",
+          "Alexa en Google Assistent"
+        ],
+        "pl": [
+          "Gwint E27, wielobarwna, ze ściemnianiem",
+          "Wi-Fi, bez huba",
+          "Alexa i Asystent Google"
+        ],
+        "sv": [
+          "E27-sockel, flerfärgad och dimbar",
+          "Wi-Fi, ingen hubb behövs",
+          "Alexa och Google Assistant"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,17 +78,66 @@
       "asin": "B0C3VLCFJR",
       "segment": "budget",
       "bestFor": {
-        "fr": "Les ambiances colorées pilotées en Wi-Fi ou en Bluetooth."
+        "fr": "Les ambiances colorées pilotées en Wi-Fi ou en Bluetooth.",
+        "en": "Colourful lighting moods controlled over Wi-Fi or Bluetooth.",
+        "de": "Farbige Lichtstimmungen, gesteuert per WLAN oder Bluetooth.",
+        "es": "Ambientes de color que controlas por Wi-Fi o por Bluetooth.",
+        "it": "Atmosfere colorate da gestire via Wi-Fi o Bluetooth.",
+        "nl": "Gekleurde sfeerverlichting die je via wifi of Bluetooth bedient.",
+        "pl": "Kolorowe aranżacje świetlne sterowane przez Wi-Fi lub Bluetooth.",
+        "sv": "Färgglad stämningsbelysning som styrs via Wi-Fi eller Bluetooth."
       },
       "facts": {
         "fr": [
           "800 lm, RGBWW",
           "Wi-Fi et Bluetooth",
           "Alexa et Google Assistant"
+        ],
+        "en": [
+          "800 lm, RGBWW",
+          "Wi-Fi and Bluetooth",
+          "Alexa and Google Assistant"
+        ],
+        "de": [
+          "800 lm, RGBWW",
+          "WLAN und Bluetooth",
+          "Alexa und Google Assistant"
+        ],
+        "es": [
+          "800 lm, RGBWW",
+          "Wi-Fi y Bluetooth",
+          "Alexa y Google Assistant"
+        ],
+        "it": [
+          "800 lm, RGBWW",
+          "Wi-Fi e Bluetooth",
+          "Alexa e Google Assistant"
+        ],
+        "nl": [
+          "800 lm, RGBWW",
+          "Wifi en Bluetooth",
+          "Alexa en Google Assistent"
+        ],
+        "pl": [
+          "800 lm, RGBWW",
+          "Wi-Fi i Bluetooth",
+          "Alexa i Asystent Google"
+        ],
+        "sv": [
+          "800 lm, RGBWW",
+          "Wi-Fi och Bluetooth",
+          "Alexa och Google Assistant"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -49,17 +147,66 @@
       "asin": "B0DQGPB8LD",
       "segment": "mid",
       "bestFor": {
-        "fr": "Une maison Matter : des ampoules couleur compatibles avec les grands assistants."
+        "fr": "Une maison Matter : des ampoules couleur compatibles avec les grands assistants.",
+        "en": "A Matter home: colour bulbs that work with the major voice assistants.",
+        "de": "Für ein Matter-Zuhause: Farb-Leuchtmittel, kompatibel mit den großen Sprachassistenten.",
+        "es": "Un hogar con Matter: bombillas de color compatibles con los grandes asistentes.",
+        "it": "Una casa Matter: lampadine a colori compatibili con i principali assistenti.",
+        "nl": "Een Matter-huis: kleurenlampen die werken met de grote spraakassistenten.",
+        "pl": "Dom z Matter: kolorowe żarówki współpracujące z głównymi asystentami.",
+        "sv": "Ett Matter-hem: färglampor som fungerar med de stora röstassistenterna."
       },
       "facts": {
         "fr": [
           "Culot E27, RGBW",
           "Compatibles Matter",
           "Horaires personnalisés dans l’application"
+        ],
+        "en": [
+          "E27 screw fitting, RGBW",
+          "Matter compatible",
+          "Custom schedules in the app"
+        ],
+        "de": [
+          "E27-Sockel, RGBW",
+          "Matter-kompatibel",
+          "Eigene Zeitpläne in der App"
+        ],
+        "es": [
+          "Casquillo E27, RGBW",
+          "Compatibles con Matter",
+          "Horarios personalizados en la app"
+        ],
+        "it": [
+          "Attacco E27, RGBW",
+          "Compatibili Matter",
+          "Programmazione oraria personalizzata nell'app"
+        ],
+        "nl": [
+          "E27-fitting, RGBW",
+          "Compatibel met Matter",
+          "Eigen schema’s in de app"
+        ],
+        "pl": [
+          "Gwint E27, RGBW",
+          "Zgodne z Matter",
+          "Własne harmonogramy w aplikacji"
+        ],
+        "sv": [
+          "E27-sockel, RGBW",
+          "Matter-kompatibla",
+          "Egna scheman i appen"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

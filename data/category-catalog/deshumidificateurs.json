@@ -9,17 +9,66 @@
       "asin": "B08HYV65KG",
       "segment": "mid",
       "bestFor": {
-        "fr": "Une maison humide ou une cave, avec suivi et réglages depuis l’application."
+        "fr": "Une maison humide ou une cave, avec suivi et réglages depuis l’application.",
+        "en": "A damp house or cellar, with monitoring and settings in the app.",
+        "de": "Für ein feuchtes Haus oder den Keller – mit Überwachung und Einstellungen per App.",
+        "es": "Una casa húmeda o un sótano, con seguimiento y ajustes desde la app.",
+        "it": "Una casa umida o una cantina, con monitoraggio e impostazioni dall'app.",
+        "nl": "Een vochtig huis of een kelder, te volgen en in te stellen via de app.",
+        "pl": "Wilgotny dom lub piwnica – z podglądem i ustawieniami w aplikacji.",
+        "sv": "Ett fuktigt hus eller en källare, med övervakning och inställningar i appen."
       },
       "facts": {
         "fr": [
           "20 L par jour",
           "Wi-Fi et application",
           "Mode séchage du linge"
+        ],
+        "en": [
+          "20 L per day",
+          "Wi-Fi and app",
+          "Laundry drying mode"
+        ],
+        "de": [
+          "20 Liter pro Tag",
+          "WLAN und App",
+          "Wäschetrocknungsmodus"
+        ],
+        "es": [
+          "20 L al día",
+          "Wi-Fi y app",
+          "Modo secado de ropa"
+        ],
+        "it": [
+          "20 litri al giorno",
+          "Wi-Fi e app",
+          "Modalità asciugatura bucato"
+        ],
+        "nl": [
+          "20 l per dag",
+          "Wifi en app",
+          "Wasdroogstand"
+        ],
+        "pl": [
+          "20 l na dobę",
+          "Wi-Fi i aplikacja",
+          "Tryb suszenia prania"
+        ],
+        "sv": [
+          "20 liter per dygn",
+          "Wi-Fi och app",
+          "Torkläge för tvätt"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,16 +78,58 @@
       "asin": "B0DLL2P9ZQ",
       "segment": "mid",
       "bestFor": {
-        "fr": "Un logement jusqu’à 33 m² et le séchage du linge à l’intérieur."
+        "fr": "Un logement jusqu’à 33 m² et le séchage du linge à l’intérieur.",
+        "en": "A home up to 33 m² and drying laundry indoors.",
+        "de": "Für eine Wohnung bis 33 m² und zum Wäschetrocknen in Innenräumen.",
+        "es": "Una vivienda de hasta 33 m² y el secado de la ropa dentro de casa.",
+        "it": "Un'abitazione fino a 33 m² e il bucato da asciugare in casa.",
+        "nl": "Een woning tot 33 m² ontvochtigen en de was binnen drogen.",
+        "pl": "Mieszkanie do 33 m² i suszenie prania w domu.",
+        "sv": "En bostad på upp till 33 m² och torkning av tvätt inomhus."
       },
       "facts": {
         "fr": [
           "16 L par 24 h, pour 33 m²",
           "Mode séchage du linge"
+        ],
+        "en": [
+          "16 L per 24 hours, for 33 m²",
+          "Laundry drying mode"
+        ],
+        "de": [
+          "16 Liter in 24 Std., für 33 m²",
+          "Wäschetrocknungsmodus"
+        ],
+        "es": [
+          "16 L cada 24 h, para 33 m²",
+          "Modo secado de ropa"
+        ],
+        "it": [
+          "16 litri ogni 24 ore, per 33 m²",
+          "Modalità asciugatura bucato"
+        ],
+        "nl": [
+          "16 l per 24 uur, voor 33 m²",
+          "Wasdroogstand"
+        ],
+        "pl": [
+          "16 l na 24 h, do 33 m²",
+          "Tryb suszenia prania"
+        ],
+        "sv": [
+          "16 liter per dygn, för 33 m²",
+          "Torkläge för tvätt"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -48,17 +139,66 @@
       "asin": "B0CZ114G68",
       "segment": "mid",
       "bestFor": {
-        "fr": "Les pièces très humides, avec un compresseur et un capteur d’humidité automatique."
+        "fr": "Les pièces très humides, avec un compresseur et un capteur d’humidité automatique.",
+        "en": "Very damp rooms, with a compressor and an automatic humidity sensor.",
+        "de": "Sehr feuchte Räume – mit Kompressor und automatischem Feuchtigkeitssensor.",
+        "es": "Estancias muy húmedas, con compresor y sensor de humedad automático.",
+        "it": "Le stanze molto umide, con compressore e sensore di umidità automatico.",
+        "nl": "Erg vochtige ruimtes, met compressor en automatische vochtsensor.",
+        "pl": "Bardzo wilgotne pomieszczenia – z kompresorem i automatycznym czujnikiem wilgotności.",
+        "sv": "Mycket fuktiga rum, med kompressor och automatisk fuktsensor."
       },
       "facts": {
         "fr": [
           "Compresseur, 20 L par jour",
           "Réservoir de 4 L",
           "Capteur d’humidité et mode linge"
+        ],
+        "en": [
+          "Compressor, 20 L per day",
+          "4 L water tank",
+          "Humidity sensor and laundry mode"
+        ],
+        "de": [
+          "Kompressor, 20 Liter pro Tag",
+          "4-Liter-Wassertank",
+          "Feuchtigkeitssensor und Wäschemodus"
+        ],
+        "es": [
+          "Compresor, 20 L al día",
+          "Depósito de 4 L",
+          "Sensor de humedad y modo ropa"
+        ],
+        "it": [
+          "A compressore, 20 litri al giorno",
+          "Serbatoio da 4 litri",
+          "Sensore di umidità e modalità bucato"
+        ],
+        "nl": [
+          "Compressor, 20 l per dag",
+          "Waterreservoir van 4 l",
+          "Vochtsensor en wasdroogstand"
+        ],
+        "pl": [
+          "Kompresor, 20 l na dobę",
+          "Zbiornik 4 l",
+          "Czujnik wilgotności i tryb suszenia prania"
+        ],
+        "sv": [
+          "Kompressor, 20 liter per dygn",
+          "Vattentank på 4 liter",
+          "Fuktsensor och tvättläge"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

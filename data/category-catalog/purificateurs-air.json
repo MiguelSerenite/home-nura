@@ -9,17 +9,66 @@
       "asin": "B0FDL66FYH",
       "segment": "mid",
       "bestFor": {
-        "fr": "Une chambre ou un séjour jusqu’à 50 m², avec pilotage depuis l’application."
+        "fr": "Une chambre ou un séjour jusqu’à 50 m², avec pilotage depuis l’application.",
+        "en": "A bedroom or living room up to 50 m², controlled from the app.",
+        "de": "Schlaf- oder Wohnzimmer bis 50 m², per App steuerbar.",
+        "es": "Un dormitorio o un salón de hasta 50 m², con control desde la app.",
+        "it": "Una camera o un soggiorno fino a 50 m², da gestire dall'app.",
+        "nl": "Een slaapkamer of woonkamer tot 50 m², te bedienen via de app.",
+        "pl": "Sypialnia lub salon do 50 m², ze sterowaniem z aplikacji.",
+        "sv": "Ett sovrum eller vardagsrum på upp till 50 m², som du styr från appen."
       },
       "facts": {
         "fr": [
           "CADR 240 m³/h, filtre HEPA",
           "22 dB annoncés en mode nuit",
           "Contrôle par application"
+        ],
+        "en": [
+          "CADR 240 m³/h, HEPA filter",
+          "22 dB claimed in sleep mode",
+          "App control"
+        ],
+        "de": [
+          "CADR 240 m³/h, HEPA-Filter",
+          "22 dB im Nachtmodus laut Hersteller",
+          "App-Steuerung"
+        ],
+        "es": [
+          "CADR de 240 m³/h, filtro HEPA",
+          "22 dB en modo noche, según el fabricante",
+          "Control por app"
+        ],
+        "it": [
+          "CADR 240 m³/h, filtro HEPA",
+          "22 dB dichiarati in modalità notte",
+          "Controllo tramite app"
+        ],
+        "nl": [
+          "CADR 240 m³/u, HEPA-filter",
+          "22 dB in nachtstand volgens Levoit",
+          "Bediening via app"
+        ],
+        "pl": [
+          "CADR 240 m³/h, filtr HEPA",
+          "Deklarowane 22 dB w trybie nocnym",
+          "Sterowanie przez aplikację"
+        ],
+        "sv": [
+          "CADR 240 m³/h, HEPA-filter",
+          "Uppgivna 22 dB i nattläge",
+          "Styrs via app"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,17 +78,66 @@
       "asin": "B0CCF2NKCW",
       "segment": "mid",
       "bestFor": {
-        "fr": "Les allergiques, dans une pièce jusqu’à 44 m², avec réglages depuis l’application."
+        "fr": "Les allergiques, dans une pièce jusqu’à 44 m², avec réglages depuis l’application.",
+        "en": "Allergy sufferers, in a room up to 44 m², with settings in the app.",
+        "de": "Für Allergiker, in Räumen bis 44 m², mit Einstellungen per App.",
+        "es": "Personas alérgicas, en una habitación de hasta 44 m², con ajustes desde la app.",
+        "it": "Per chi soffre di allergie, in una stanza fino a 44 m², con impostazioni dall'app.",
+        "nl": "Mensen met allergieën, in een ruimte tot 44 m², met instellingen via de app.",
+        "pl": "Dla alergików, w pomieszczeniu do 44 m², z ustawieniami w aplikacji.",
+        "sv": "Allergiker, i ett rum på upp till 44 m², med inställningar i appen."
       },
       "facts": {
         "fr": [
           "CADR 170 m³/h, filtre HEPA NanoProtect",
           "19 dB(A) annoncés au minimum",
           "Connecté à l’application Philips"
+        ],
+        "en": [
+          "CADR 170 m³/h, NanoProtect HEPA filter",
+          "19 dB(A) claimed at the lowest setting",
+          "Connects to the Philips app"
+        ],
+        "de": [
+          "CADR 170 m³/h, HEPA-Filter NanoProtect",
+          "Ab 19 dB(A) laut Hersteller",
+          "Verbindung mit der Philips-App"
+        ],
+        "es": [
+          "CADR de 170 m³/h, filtro HEPA NanoProtect",
+          "19 dB(A) como mínimo, según el fabricante",
+          "Conectado a la app de Philips"
+        ],
+        "it": [
+          "CADR 170 m³/h, filtro HEPA NanoProtect",
+          "19 dB(A) minimi dichiarati",
+          "Collegato all'app Philips"
+        ],
+        "nl": [
+          "CADR 170 m³/u, HEPA NanoProtect-filter",
+          "Minimaal 19 dB(A) volgens Philips",
+          "Verbonden met de Philips-app"
+        ],
+        "pl": [
+          "CADR 170 m³/h, filtr HEPA NanoProtect",
+          "Deklarowane minimum 19 dB(A)",
+          "Połączenie z aplikacją Philips"
+        ],
+        "sv": [
+          "CADR 170 m³/h, HEPA-filtret NanoProtect",
+          "Lägst 19 dB(A) enligt tillverkaren",
+          "Ansluten till Philips app"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -49,17 +147,66 @@
       "asin": "B0F84553XQ",
       "segment": "premium",
       "bestFor": {
-        "fr": "Les grandes pièces ouvertes, jusqu’à 104 m² selon Philips."
+        "fr": "Les grandes pièces ouvertes, jusqu’à 104 m² selon Philips.",
+        "en": "Large open-plan rooms, up to 104 m² according to Philips.",
+        "de": "Große, offene Räume – bis 104 m² laut Philips.",
+        "es": "Estancias grandes y abiertas, de hasta 104 m² según Philips.",
+        "it": "I grandi ambienti open space, fino a 104 m² secondo Philips.",
+        "nl": "Grote open ruimtes, tot 104 m² volgens Philips.",
+        "pl": "Duże, otwarte przestrzenie – do 104 m² według Philipsa.",
+        "sv": "Stora öppna ytor, upp till 104 m² enligt Philips."
       },
       "facts": {
         "fr": [
           "CADR 400 m³/h",
           "Filtre HEPA NanoProtect et charbon actif",
           "13 dB(A) annoncés au minimum"
+        ],
+        "en": [
+          "CADR 400 m³/h",
+          "NanoProtect HEPA and activated carbon filter",
+          "13 dB(A) claimed at the lowest setting"
+        ],
+        "de": [
+          "CADR 400 m³/h",
+          "HEPA-Filter NanoProtect und Aktivkohle",
+          "Ab 13 dB(A) laut Hersteller"
+        ],
+        "es": [
+          "CADR de 400 m³/h",
+          "Filtro HEPA NanoProtect y carbón activo",
+          "13 dB(A) como mínimo, según el fabricante"
+        ],
+        "it": [
+          "CADR 400 m³/h",
+          "Filtro HEPA NanoProtect e carbone attivo",
+          "13 dB(A) minimi dichiarati"
+        ],
+        "nl": [
+          "CADR 400 m³/u",
+          "HEPA NanoProtect- en actievekoolfilter",
+          "Minimaal 13 dB(A) volgens Philips"
+        ],
+        "pl": [
+          "CADR 400 m³/h",
+          "Filtr HEPA NanoProtect i węgiel aktywny",
+          "Deklarowane minimum 13 dB(A)"
+        ],
+        "sv": [
+          "CADR 400 m³/h",
+          "HEPA-filtret NanoProtect och aktivt kol",
+          "Lägst 13 dB(A) enligt tillverkaren"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -69,17 +216,59 @@
       "asin": "B0GNS66LWW",
       "segment": "budget",
       "bestFor": {
-        "fr": "Une petite chambre ou un bureau, avec un appareil compact et discret."
+        "fr": "Une petite chambre ou un bureau, avec un appareil compact et discret.",
+        "de": "Ein kleines Schlaf- oder Arbeitszimmer – mit einem kompakten, unauffälligen Gerät.",
+        "es": "Un dormitorio pequeño o un despacho, con un aparato compacto y discreto.",
+        "it": "Una camera piccola o uno studio, con un apparecchio compatto e discreto.",
+        "nl": "Een kleine slaapkamer of werkplek, met een compact en onopvallend apparaat.",
+        "pl": "Mała sypialnia lub biuro – kompaktowe i dyskretne urządzenie.",
+        "sv": "Ett litet sovrum eller kontor, med en kompakt och diskret apparat."
       },
       "facts": {
         "fr": [
           "Filtration des particules et des mauvaises odeurs",
           "Très silencieux selon Rowenta",
           "Format compact"
+        ],
+        "de": [
+          "Filtert Partikel und unangenehme Gerüche",
+          "Sehr leise laut Rowenta",
+          "Kompaktes Format"
+        ],
+        "es": [
+          "Filtra partículas y malos olores",
+          "Muy silencioso según Rowenta",
+          "Formato compacto"
+        ],
+        "it": [
+          "Filtra particelle e cattivi odori",
+          "Molto silenzioso secondo Rowenta",
+          "Formato compatto"
+        ],
+        "nl": [
+          "Filtert fijnstof en nare luchtjes",
+          "Zeer stil volgens Rowenta",
+          "Compact formaat"
+        ],
+        "pl": [
+          "Filtruje cząstki i nieprzyjemne zapachy",
+          "Bardzo cichy według Rowenty",
+          "Kompaktowe wymiary"
+        ],
+        "sv": [
+          "Filtrerar partiklar och dålig lukt",
+          "Mycket tyst enligt Rowenta",
+          "Kompakt format"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

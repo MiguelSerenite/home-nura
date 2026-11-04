@@ -9,17 +9,66 @@
       "asin": "B0FHXVX9W9",
       "segment": "budget",
       "bestFor": {
-        "fr": "Une sonnette vidéo dont la détection de personnes ne demande pas d’abonnement."
+        "fr": "Une sonnette vidéo dont la détection de personnes ne demande pas d’abonnement.",
+        "en": "A video doorbell whose person detection needs no subscription.",
+        "de": "Eine Video-Türklingel, deren Personenerkennung kein Abo voraussetzt.",
+        "es": "Un videotimbre cuya detección de personas no exige suscripción.",
+        "it": "Un videocitofono con rilevamento delle persone senza abbonamento.",
+        "nl": "Een videodeurbel met persoonsdetectie zonder abonnement.",
+        "pl": "Wideodzwonek, w którym wykrywanie osób nie wymaga abonamentu.",
+        "sv": "En videodörrklocka där persondetekteringen inte kräver abonnemang."
       },
       "facts": {
         "fr": [
           "Vidéo 2K 3 MP, IP54",
           "Batterie jusqu’à 180 jours annoncés",
           "Détection de personnes incluse"
+        ],
+        "en": [
+          "2K 3 MP video, IP54",
+          "Battery up to 180 days claimed",
+          "Person detection included"
+        ],
+        "de": [
+          "2K-Video mit 3 MP, IP54",
+          "Akku bis zu 180 Tage laut Hersteller",
+          "Personenerkennung inklusive"
+        ],
+        "es": [
+          "Vídeo 2K de 3 MP, IP54",
+          "Batería de hasta 180 días, según el fabricante",
+          "Detección de personas incluida"
+        ],
+        "it": [
+          "Video 2K 3 MP, IP54",
+          "Batteria fino a 180 giorni dichiarati",
+          "Rilevamento persone incluso"
+        ],
+        "nl": [
+          "2K-video 3 MP, IP54",
+          "Accuduur tot 180 dagen volgens Tapo",
+          "Persoonsdetectie inbegrepen"
+        ],
+        "pl": [
+          "Obraz 2K 3 MP, IP54",
+          "Deklarowane do 180 dni na baterii",
+          "Wykrywanie osób w standardzie"
+        ],
+        "sv": [
+          "2K-video 3 MP, IP54",
+          "Batteritid upp till 180 dagar enligt tillverkaren",
+          "Persondetektering ingår"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,17 +78,66 @@
       "asin": "B0FHJ91JY5",
       "segment": "mid",
       "bestFor": {
-        "fr": "S’équiper d’une sonnette Ring sans fil, à poser soi-même."
+        "fr": "S’équiper d’une sonnette Ring sans fil, à poser soi-même.",
+        "en": "Getting a wireless Ring doorbell you can fit yourself.",
+        "de": "Eine kabellose Ring-Türklingel, die Sie selbst anbringen.",
+        "es": "Hacerte con un videotimbre Ring sin cables que instalas tú mismo.",
+        "it": "Per dotarti di un videocitofono Ring senza fili, da montare in autonomia.",
+        "nl": "Een draadloze Ring-deurbel die je zelf ophangt.",
+        "pl": "Bezprzewodowy wideodzwonek Ring do samodzielnego montażu.",
+        "sv": "Skaffa en trådlös Ring-dörrklocka som du monterar själv."
       },
       "facts": {
         "fr": [
           "Vidéo Retinal 2K",
           "Sans fil, sur batterie",
           "Installation soi-même"
+        ],
+        "en": [
+          "Retinal 2K video",
+          "Wireless, battery powered",
+          "DIY installation"
+        ],
+        "de": [
+          "Retinal-2K-Video",
+          "Kabellos, akkubetrieben",
+          "Selbst montierbar"
+        ],
+        "es": [
+          "Vídeo Retinal 2K",
+          "Sin cables, con batería",
+          "Lo instalas tú mismo"
+        ],
+        "it": [
+          "Video Retinal 2K",
+          "Senza fili, a batteria",
+          "Installazione fai da te"
+        ],
+        "nl": [
+          "Retinal 2K-video",
+          "Draadloos, op accu",
+          "Zelf te installeren"
+        ],
+        "pl": [
+          "Obraz Retinal 2K",
+          "Bezprzewodowy, na akumulator",
+          "Samodzielny montaż"
+        ],
+        "sv": [
+          "Retinal 2K-video",
+          "Trådlös, batteridriven",
+          "Du monterar den själv"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -49,17 +147,66 @@
       "asin": "B0G637TR35",
       "segment": "budget",
       "bestFor": {
-        "fr": "Compléter un système Blink avec une sonnette sur piles."
+        "fr": "Compléter un système Blink avec une sonnette sur piles.",
+        "en": "Adding a battery-powered doorbell to a Blink system.",
+        "de": "Ein Blink-System um eine batteriebetriebene Türklingel ergänzen.",
+        "es": "Completar un sistema Blink con un videotimbre a pilas.",
+        "it": "Per completare un sistema Blink con un videocitofono a batterie.",
+        "nl": "Een Blink-systeem aanvullen met een deurbel op batterijen.",
+        "pl": "Uzupełnienie systemu Blink o wideodzwonek na baterie.",
+        "sv": "Komplettera ett Blink-system med en batteridriven dörrklocka."
       },
       "facts": {
         "fr": [
           "Vidéo 2K+, IP65",
           "Piles longue durée",
           "Configuration facile"
+        ],
+        "en": [
+          "2K+ video, IP65",
+          "Long-life batteries",
+          "Easy set-up"
+        ],
+        "de": [
+          "2K+-Video, IP65",
+          "Langlebige Batterien",
+          "Einfache Einrichtung"
+        ],
+        "es": [
+          "Vídeo 2K+, IP65",
+          "Pilas de larga duración",
+          "Configuración sencilla"
+        ],
+        "it": [
+          "Video 2K+, IP65",
+          "Batterie a lunga durata",
+          "Configurazione semplice"
+        ],
+        "nl": [
+          "2K+-video, IP65",
+          "Batterijen die lang meegaan",
+          "Eenvoudig in te stellen"
+        ],
+        "pl": [
+          "Obraz 2K+, IP65",
+          "Baterie o długiej żywotności",
+          "Łatwa konfiguracja"
+        ],
+        "sv": [
+          "2K+-video, IP65",
+          "Batterier med lång livslängd",
+          "Enkel att ställa in"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

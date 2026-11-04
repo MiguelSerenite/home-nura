@@ -9,17 +9,66 @@
       "asin": "B0DK1Y66F6",
       "segment": "budget",
       "bestFor": {
-        "fr": "Réchauffer vite une chambre ou un bureau, en silence et sans installation."
+        "fr": "Réchauffer vite une chambre ou un bureau, en silence et sans installation.",
+        "en": "Warming a bedroom or study quickly and quietly, with nothing to install.",
+        "de": "Schlaf- oder Arbeitszimmer schnell und leise aufwärmen, ganz ohne Installation.",
+        "es": "Calentar rápido un dormitorio o un despacho, en silencio y sin instalación.",
+        "it": "Per scaldare in fretta una camera o uno studio, in silenzio e senza installazione.",
+        "nl": "Een slaapkamer of werkkamer snel en stil verwarmen, zonder installatie.",
+        "pl": "Szybkie ogrzanie sypialni lub biura – cicho i bez montażu.",
+        "sv": "Värm snabbt upp ett sovrum eller kontor, tyst och utan installation."
       },
       "facts": {
         "fr": [
           "Céramique PTC, 1 500 W",
           "34 dB annoncés par Dreo",
           "Thermostat, coupure en cas de surchauffe ou de basculement"
+        ],
+        "en": [
+          "PTC ceramic, 1,500 W",
+          "34 dB claimed by Dreo",
+          "Thermostat, cuts out if it overheats or tips over"
+        ],
+        "de": [
+          "PTC-Keramik, 1.500 W",
+          "34 dB laut Dreo",
+          "Thermostat, Abschaltung bei Überhitzung oder Umkippen"
+        ],
+        "es": [
+          "Cerámico PTC, 1500 W",
+          "34 dB según Dreo",
+          "Termostato, se apaga si se sobrecalienta o se vuelca"
+        ],
+        "it": [
+          "Ceramica PTC, 1.500 W",
+          "34 dB dichiarati da Dreo",
+          "Termostato, spegnimento in caso di surriscaldamento o ribaltamento"
+        ],
+        "nl": [
+          "PTC-keramiek, 1.500 W",
+          "34 dB volgens Dreo",
+          "Thermostaat, uitschakeling bij oververhitting of omvallen"
+        ],
+        "pl": [
+          "Grzałka ceramiczna PTC, 1500 W",
+          "34 dB według deklaracji Dreo",
+          "Termostat, wyłączanie przy przegrzaniu lub przewróceniu"
+        ],
+        "sv": [
+          "PTC-keramik, 1 500 W",
+          "34 dB enligt Dreo",
+          "Termostat, stängs av vid överhettning eller om den välter"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,17 +78,66 @@
       "asin": "B0CDQJVJ8Q",
       "segment": "mid",
       "bestFor": {
-        "fr": "Piloter le chauffage d’appoint depuis le téléphone, pour une pièce jusqu’à 20 m²."
+        "fr": "Piloter le chauffage d’appoint depuis le téléphone, pour une pièce jusqu’à 20 m².",
+        "en": "Controlling a portable heater from your phone, for a room up to 20 m².",
+        "de": "Die Zusatzheizung per Smartphone steuern – für Räume bis 20 m².",
+        "es": "Controlar el calefactor desde el móvil, en una habitación de hasta 20 m².",
+        "it": "Per gestire la stufetta dallo smartphone, in una stanza fino a 20 m².",
+        "nl": "Je bijverwarming met je telefoon bedienen, voor een ruimte tot 20 m².",
+        "pl": "Sterowanie dodatkowym grzejnikiem z telefonu w pomieszczeniu do 20 m².",
+        "sv": "Styr värmaren från mobilen, i rum på upp till 20 m²."
       },
       "facts": {
         "fr": [
           "2 000 W, jusqu’à 20 m² selon Philips",
           "Contrôle par application, 4 modes",
           "Oscillation sur 60°"
+        ],
+        "en": [
+          "2,000 W, up to 20 m² according to Philips",
+          "App control, 4 modes",
+          "60° oscillation"
+        ],
+        "de": [
+          "2.000 W, bis 20 m² laut Philips",
+          "App-Steuerung, 4 Modi",
+          "60°-Oszillation"
+        ],
+        "es": [
+          "2000 W, hasta 20 m² según Philips",
+          "Control por app, 4 modos",
+          "Oscilación de 60°"
+        ],
+        "it": [
+          "2.000 W, fino a 20 m² secondo Philips",
+          "Controllo tramite app, 4 modalità",
+          "Oscillazione a 60°"
+        ],
+        "nl": [
+          "2.000 W, tot 20 m² volgens Philips",
+          "Bediening via app, 4 standen",
+          "Draait 60° heen en weer"
+        ],
+        "pl": [
+          "2000 W, do 20 m² według Philipsa",
+          "Sterowanie przez aplikację, 4 tryby",
+          "Oscylacja w zakresie 60°"
+        ],
+        "sv": [
+          "2 000 W, upp till 20 m² enligt Philips",
+          "Styrs via app, 4 lägen",
+          "Oscillerar i 60°"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -49,17 +147,59 @@
       "asin": "B00MFEHQJ2",
       "segment": "budget",
       "bestFor": {
-        "fr": "Un coup de chaleur rapide dans une petite pièce, avec un appareil compact."
+        "fr": "Un coup de chaleur rapide dans une petite pièce, avec un appareil compact.",
+        "de": "Schnelle Wärme für einen kleinen Raum – mit einem kompakten Gerät.",
+        "es": "Calor rápido en una habitación pequeña, con un aparato compacto.",
+        "it": "Un rapido colpo di calore in una stanza piccola, con un apparecchio compatto.",
+        "nl": "Snel wat warmte in een kleine ruimte, met een compact apparaat.",
+        "pl": "Szybka porcja ciepła w małym pomieszczeniu z kompaktowego urządzenia.",
+        "sv": "Snabb värme i ett litet rum, med en kompakt apparat."
       },
       "facts": {
         "fr": [
           "Radiateur soufflant compact",
           "Réglages personnalisables",
           "Chauffe rapide et fonctionnement silencieux annoncés"
+        ],
+        "de": [
+          "Kompakter Heizlüfter",
+          "Individuell anpassbare Einstellungen",
+          "Schnelles Aufheizen und leiser Betrieb laut Hersteller"
+        ],
+        "es": [
+          "Calefactor de aire compacto",
+          "Ajustes personalizables",
+          "Calienta rápido y en silencio, según la marca"
+        ],
+        "it": [
+          "Termoventilatore compatto",
+          "Impostazioni personalizzabili",
+          "Riscaldamento rapido e funzionamento silenzioso dichiarati"
+        ],
+        "nl": [
+          "Compacte ventilatorkachel",
+          "Instellingen naar wens aan te passen",
+          "Snel warm en stil volgens Rowenta"
+        ],
+        "pl": [
+          "Kompaktowy termowentylator",
+          "Regulowane ustawienia",
+          "Deklarowane szybkie grzanie i cicha praca"
+        ],
+        "sv": [
+          "Kompakt värmefläkt",
+          "Anpassningsbara inställningar",
+          "Snabb uppvärmning och tyst drift enligt tillverkaren"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -69,17 +209,66 @@
       "asin": "B09JCKYRV2",
       "segment": "budget",
       "bestFor": {
-        "fr": "Garder les mains et les pieds au chaud au bureau, sans chauffer toute la pièce."
+        "fr": "Garder les mains et les pieds au chaud au bureau, sans chauffer toute la pièce.",
+        "en": "Keeping your hands and feet warm at your desk without heating the whole room.",
+        "de": "Hände und Füße am Schreibtisch warm halten, ohne den ganzen Raum zu heizen.",
+        "es": "Tener las manos y los pies calientes en el escritorio, sin caldear toda la habitación.",
+        "it": "Per tenere al caldo mani e piedi alla scrivania, senza scaldare tutta la stanza.",
+        "nl": "Warme handen en voeten aan je bureau, zonder de hele kamer te verwarmen.",
+        "pl": "Ciepłe dłonie i stopy przy biurku bez ogrzewania całego pokoju.",
+        "sv": "Håll händer och fötter varma vid skrivbordet utan att värma upp hela rummet."
       },
       "facts": {
         "fr": [
           "Mini chauffage céramique personnel",
           "Chaleur immédiate selon De’Longhi",
           "Arrêt automatique"
+        ],
+        "en": [
+          "Personal mini ceramic heater",
+          "Instant heat according to De’Longhi",
+          "Automatic shut-off"
+        ],
+        "de": [
+          "Persönlicher Mini-Keramikheizer",
+          "Sofortige Wärme laut De’Longhi",
+          "Abschaltautomatik"
+        ],
+        "es": [
+          "Mini calefactor cerámico personal",
+          "Calor inmediato según De’Longhi",
+          "Apagado automático"
+        ],
+        "it": [
+          "Mini stufetta personale in ceramica",
+          "Calore immediato secondo De'Longhi",
+          "Spegnimento automatico"
+        ],
+        "nl": [
+          "Persoonlijk keramisch minikacheltje",
+          "Direct warmte volgens De’Longhi",
+          "Automatische uitschakeling"
+        ],
+        "pl": [
+          "Osobisty ceramiczny minigrzejnik",
+          "Natychmiastowe ciepło według De’Longhi",
+          "Automatyczne wyłączanie"
+        ],
+        "sv": [
+          "Liten personlig keramisk värmare",
+          "Omedelbar värme enligt De’Longhi",
+          "Automatisk avstängning"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

@@ -9,17 +9,66 @@
       "asin": "B0CM3KGFGB",
       "segment": "mid",
       "bestFor": {
-        "fr": "Être alerté sur le téléphone en cas de fumée ou de monoxyde de carbone."
+        "fr": "Être alerté sur le téléphone en cas de fumée ou de monoxyde de carbone.",
+        "en": "Getting alerts on your phone if smoke or carbon monoxide is detected.",
+        "de": "Bei Rauch oder Kohlenmonoxid eine Warnung aufs Smartphone erhalten.",
+        "es": "Recibir un aviso en el móvil si hay humo o monóxido de carbono.",
+        "it": "Per ricevere un avviso sullo smartphone in caso di fumo o monossido di carbonio.",
+        "nl": "Een melding op je telefoon bij rook of koolmonoxide.",
+        "pl": "Powiadomienia na telefon w razie dymu lub tlenku węgla.",
+        "sv": "Få larm i mobilen vid rök eller kolmonoxid."
       },
       "facts": {
         "fr": [
           "Fumée et CO, Wi-Fi",
           "Écran LCD",
           "Pile remplaçable"
+        ],
+        "en": [
+          "Smoke and CO, Wi-Fi",
+          "LCD display",
+          "Replaceable battery"
+        ],
+        "de": [
+          "Rauch und CO, WLAN",
+          "LCD-Display",
+          "Austauschbare Batterie"
+        ],
+        "es": [
+          "Humo y CO, Wi-Fi",
+          "Pantalla LCD",
+          "Pila sustituible"
+        ],
+        "it": [
+          "Fumo e CO, Wi-Fi",
+          "Display LCD",
+          "Batteria sostituibile"
+        ],
+        "nl": [
+          "Rook en CO, wifi",
+          "Lcd-scherm",
+          "Vervangbare batterij"
+        ],
+        "pl": [
+          "Dym i CO, Wi-Fi",
+          "Wyświetlacz LCD",
+          "Wymienna bateria"
+        ],
+        "sv": [
+          "Rök och kolmonoxid, Wi-Fi",
+          "LCD-display",
+          "Utbytbart batteri"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -49,16 +98,58 @@
       "asin": "B07CWV3PRS",
       "segment": "budget",
       "bestFor": {
-        "fr": "Équiper chaque chambre d’un détecteur sans changement de pile."
+        "fr": "Équiper chaque chambre d’un détecteur sans changement de pile.",
+        "en": "Fitting a detector in every bedroom without ever changing the battery.",
+        "de": "Jedes Schlafzimmer mit einem Melder ausstatten – ganz ohne Batteriewechsel.",
+        "es": "Poner un detector en cada dormitorio sin tener que cambiar la pila.",
+        "it": "Per mettere un rilevatore in ogni camera senza dover cambiare la batteria.",
+        "nl": "Elke slaapkamer een rookmelder geven, zonder batterijen te hoeven vervangen.",
+        "pl": "Czujka w każdej sypialni bez konieczności wymiany baterii.",
+        "sv": "En brandvarnare i varje sovrum, utan att du behöver byta batteri."
       },
       "facts": {
         "fr": [
           "Batterie scellée 10 ans",
           "Conforme à la norme EN 14604"
+        ],
+        "en": [
+          "Sealed 10-year battery",
+          "Complies with EN 14604"
+        ],
+        "de": [
+          "Fest verbaute 10-Jahres-Batterie",
+          "Entspricht der Norm EN 14604"
+        ],
+        "es": [
+          "Batería sellada de 10 años",
+          "Conforme a la norma EN 14604"
+        ],
+        "it": [
+          "Batteria sigillata da 10 anni",
+          "Conforme alla norma EN 14604"
+        ],
+        "nl": [
+          "Vast ingebouwde batterij, 10 jaar",
+          "Voldoet aan EN 14604"
+        ],
+        "pl": [
+          "Niewymienna bateria na 10 lat",
+          "Zgodna z normą EN 14604"
+        ],
+        "sv": [
+          "Förseglat 10-årsbatteri",
+          "Uppfyller standarden EN 14604"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]

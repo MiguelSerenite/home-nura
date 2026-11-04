@@ -9,17 +9,66 @@
       "asin": "B0CRM29NTV",
       "segment": "budget",
       "bestFor": {
-        "fr": "Surveiller une pièce ou un animal, avec un modèle branché sur secteur."
+        "fr": "Surveiller une pièce ou un animal, avec un modèle branché sur secteur.",
+        "en": "Keeping an eye on a room or a pet, with a mains-powered model.",
+        "de": "Einen Raum oder ein Haustier im Blick behalten – mit einem Modell mit Netzanschluss.",
+        "es": "Vigilar una habitación o a tu mascota con un modelo enchufado a la corriente.",
+        "it": "Per tenere d'occhio una stanza o un animale, con un modello collegato alla corrente.",
+        "nl": "Een kamer of huisdier in de gaten houden met een model op netstroom.",
+        "pl": "Monitorowanie pokoju lub zwierzęcia – kamera zasilana z gniazdka.",
+        "sv": "Håll koll på ett rum eller ett husdjur med en modell som drivs via eluttag."
       },
       "facts": {
         "fr": [
           "Vidéo HD 1080p",
           "Audio bidirectionnel",
           "Sur secteur, Wi-Fi"
+        ],
+        "en": [
+          "1080p HD video",
+          "Two-way audio",
+          "Mains powered, Wi-Fi"
+        ],
+        "de": [
+          "HD-Video in 1080p",
+          "Zwei-Wege-Audio",
+          "Netzbetrieb, WLAN"
+        ],
+        "es": [
+          "Vídeo HD 1080p",
+          "Audio bidireccional",
+          "Enchufada a la corriente, Wi-Fi"
+        ],
+        "it": [
+          "Video HD 1080p",
+          "Audio bidirezionale",
+          "Alimentazione da rete, Wi-Fi"
+        ],
+        "nl": [
+          "Hd-video 1080p",
+          "Tweerichtingsaudio",
+          "Netstroom, wifi"
+        ],
+        "pl": [
+          "Obraz HD 1080p",
+          "Dwukierunkowy dźwięk",
+          "Zasilanie sieciowe, Wi-Fi"
+        ],
+        "sv": [
+          "HD-video 1080p",
+          "Tvåvägsljud",
+          "Nätdriven, Wi-Fi"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -29,17 +78,66 @@
       "asin": "B0F3BDBWK2",
       "segment": "budget",
       "bestFor": {
-        "fr": "Une petite caméra d’intérieur 2K à poser n’importe où."
+        "fr": "Une petite caméra d’intérieur 2K à poser n’importe où.",
+        "en": "A small 2K indoor camera you can put anywhere.",
+        "de": "Eine kleine 2K-Innenkamera, die sich überall aufstellen lässt.",
+        "es": "Una cámara de interior 2K pequeña para colocar donde quieras.",
+        "it": "Una piccola videocamera da interno 2K da mettere ovunque.",
+        "nl": "Een kleine 2K-binnencamera die je overal kunt neerzetten.",
+        "pl": "Mała kamera wewnętrzna 2K, którą postawisz w dowolnym miejscu.",
+        "sv": "En liten 2K-kamera för inomhusbruk som du kan ställa var som helst."
       },
       "facts": {
         "fr": [
           "Vidéo 2K, zoom x4",
           "Vision nocturne",
           "Sur secteur"
+        ],
+        "en": [
+          "2K video, 4x zoom",
+          "Night vision",
+          "Mains powered"
+        ],
+        "de": [
+          "2K-Video, 4-fach-Zoom",
+          "Nachtsicht",
+          "Netzbetrieb"
+        ],
+        "es": [
+          "Vídeo 2K, zoom 4x",
+          "Visión nocturna",
+          "Enchufada a la corriente"
+        ],
+        "it": [
+          "Video 2K, zoom 4x",
+          "Visione notturna",
+          "Alimentazione da rete"
+        ],
+        "nl": [
+          "2K-video, 4x zoom",
+          "Nachtzicht",
+          "Netstroom"
+        ],
+        "pl": [
+          "Obraz 2K, zoom 4x",
+          "Widzenie w nocy",
+          "Zasilanie sieciowe"
+        ],
+        "sv": [
+          "2K-video, 4x zoom",
+          "Mörkerseende",
+          "Nätdriven"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     },
     {
@@ -49,17 +147,66 @@
       "asin": "B0CG2TB6H9",
       "segment": "mid",
       "bestFor": {
-        "fr": "Couvrir toute une pièce grâce à la rotation sur 360°."
+        "fr": "Couvrir toute une pièce grâce à la rotation sur 360°.",
+        "en": "Covering a whole room thanks to 360° rotation.",
+        "de": "Den ganzen Raum abdecken – dank 360°-Schwenkfunktion.",
+        "es": "Cubrir toda una habitación gracias a su giro de 360°.",
+        "it": "Per coprire un'intera stanza grazie alla rotazione a 360°.",
+        "nl": "Een hele kamer in beeld dankzij een draaibereik van 360°.",
+        "pl": "Cały pokój w kadrze dzięki obrotowi o 360°.",
+        "sv": "Täck in ett helt rum tack vare att kameran kan vridas 360°."
       },
       "facts": {
         "fr": [
           "Orientable sur 360° et inclinable",
           "Sur prise",
           "Pratique pour surveiller les animaux"
+        ],
+        "en": [
+          "360° pan and tilt",
+          "Plugs into the mains",
+          "Handy for keeping an eye on pets"
+        ],
+        "de": [
+          "Um 360° schwenkbar und neigbar",
+          "Betrieb über die Steckdose",
+          "Praktisch, um Haustiere im Blick zu behalten"
+        ],
+        "es": [
+          "Giro de 360° e inclinación",
+          "Se enchufa a la corriente",
+          "Práctica para vigilar a las mascotas"
+        ],
+        "it": [
+          "Orientabile a 360° e inclinabile",
+          "Da collegare alla presa",
+          "Comoda per tenere d'occhio gli animali"
+        ],
+        "nl": [
+          "360° draaibaar en kantelbaar",
+          "Werkt op het stopcontact",
+          "Handig om huisdieren in de gaten te houden"
+        ],
+        "pl": [
+          "Obrót o 360° i regulacja pochylenia",
+          "Zasilanie z gniazdka",
+          "Przydatna do pilnowania zwierząt"
+        ],
+        "sv": [
+          "Kan vridas 360° och lutas",
+          "Ansluts till eluttag",
+          "Praktisk för att hålla koll på husdjur"
         ]
       },
       "markets": [
-        "fr"
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pl",
+        "sv"
       ]
     }
   ]
