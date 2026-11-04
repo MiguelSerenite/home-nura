@@ -50,21 +50,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the hose, seals and filter are all fine and the room still warms up, the unit may be undersized or its cooling circuit may be weakening; an older single-hose model is rarely worth repairing compared with a modern, more efficient replacement."
     },
     "de": {
-      "intro": "Der Abluftschlauch einer mobilen Klimaanlage ist heiß, weil er die aus dem Raum gezogene Wärme abführt; ist er undicht, geknickt oder ungedämmt, strahlt ein Teil davon zurück in den Raum. Meist liegt es an einer lockeren Verbindung oder einer Lücke am Fensteradapter.",
+      "intro": "Der Abluftschlauch einer mobilen Klimaanlage wird heiß, weil er die Wärme aus dem Raum nach draußen leitet. Ist er undicht, geknickt oder nicht gedämmt, gelangt ein Teil dieser Wärme zurück in den Raum. Meist liegt es an einer lockeren Verbindung oder an Lücken in der Fensterabdichtung.",
       "causes": [
-        "Lockere Schlauchverbindung — heiße Luft entweicht am Gerät oder am Fensteradapter, und die Anschlussstellen fühlen sich deutlich warm an.",
-        "Undichte Fensterabdichtung — warme Außenluft strömt durch Spalten zurück, und rund um das Abdichtelement spürt man einen Luftzug.",
-        "Geknickter oder zu langer Schlauch — der Luftstrom ist gedrosselt, der Schlauch wird sehr heiß und strahlt Wärme in den Raum ab.",
-        "Einschlauch-Bauweise — das Gerät saugt Raumluft an, daher strömt warme Luft aus anderen Räumen durch Türen und Ritzen nach."
+        "Lockere Schlauchverbindung – heiße Luft entweicht am Gerät oder am Fensteradapter, und an den Anschlussstellen spüren Sie warme Luft.",
+        "Lücken in der Fensterabdichtung – warme Außenluft strömt durch die Spalten herein, und rund um die Abdeckung zieht es spürbar.",
+        "Geknickter oder zu langer Schlauch – die Luft staut sich, der Schlauch wird sehr heiß und strahlt Wärme in den Raum ab.",
+        "Einschlauchgerät – es saugt Raumluft an; als Ausgleich strömt warme Luft aus Nachbarräumen durch Türen und Ritzen nach."
       ],
       "steps": [
-        "Gerät ausschalten, Netzstecker ziehen und den Schlauch abkühlen lassen, bevor Sie ihn berühren oder Anschlüsse verändern.",
-        "Prüfen Sie, ob beide Schlauchenden am Gerät und am Fensteradapter richtig eingerastet oder verschraubt sind und keine Spalten sichtbar bleiben.",
-        "Kürzen und begradigen Sie den Schlauch so weit wie möglich, ohne scharfe Knicke, damit die heiße Luft zügig abströmt und der Motor nicht überhitzt.",
-        "Dichten Sie Spalten am Fenster mit dem mitgelieferten Element sowie Schaumstoffband oder Fensterdichtung ab, damit keine Außenluft zurückströmt.",
-        "Schließen Sie Türen und Fenster im Raum, reinigen Sie den Filter und nutzen Sie ggf. eine Isolierhülle, um die Wärmeabstrahlung des Schlauchs zu verringern."
+        "Schalten Sie das Gerät aus, ziehen Sie den Netzstecker und lassen Sie den Schlauch abkühlen, bevor Sie ihn anfassen oder einen Anschluss lösen.",
+        "Prüfen Sie, ob beide Schlauchenden am Gerät und am Fensteradapter richtig eingerastet oder verschraubt sind und kein Spalt zu sehen ist.",
+        "Kürzen und begradigen Sie den Schlauch so weit wie möglich, ohne enge Biegungen, damit die heiße Luft zügig abzieht und der Motor nicht überhitzt.",
+        "Dichten Sie Spalten am Fenster mit der mitgelieferten Abdeckung, selbstklebendem Schaumstoffband oder einer Fensterdichtung ab, damit keine Außenluft hereinströmt.",
+        "Schließen Sie Türen und Fenster im Raum, reinigen Sie den Filter und ziehen Sie bei Bedarf eine passende Isolierhülle über den Schlauch, damit er weniger Wärme abstrahlt."
       ],
-      "replaceWhen": "Sind Schlauch, Dichtungen und Filter in Ordnung und der Raum erwärmt sich trotzdem, ist das Gerät eventuell zu schwach dimensioniert oder der Kältekreislauf lässt nach; ein älteres Einschlauchgerät lohnt die Reparatur gegenüber einem effizienteren Neugerät selten."
+      "replaceWhen": "Sind Schlauch, Dichtungen und Filter in Ordnung und wird der Raum trotzdem warm, ist das Gerät vielleicht zu schwach für den Raum, oder der Kältekreislauf lässt nach. Bei einem älteren Einschlauchgerät lohnt sich eine Reparatur selten; ein neueres, effizienteres Gerät ist meist die bessere Wahl."
     },
     "es": {
       "intro": "El tubo de salida de un aire acondicionado portátil se calienta porque expulsa el calor que saca de la habitación; pero si pierde aire, está doblado o no está aislado, parte de ese calor vuelve a entrar. Lo más habitual es una conexión mal encajada o un cierre de ventana que deja huecos.",
@@ -101,21 +101,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se tubo, guarnizioni e filtro sono a posto e la stanza continua a scaldarsi, l'apparecchio potrebbe essere sottodimensionato o il circuito frigorifero potrebbe aver perso efficienza; un vecchio modello a tubo singolo raramente vale una riparazione rispetto a uno nuovo e più efficiente."
     },
     "nl": {
-      "intro": "De afvoerslang van een mobiele airco voelt heet omdat hij de aan de kamer onttrokken warmte afvoert, maar als hij lekt, geknikt of ongeïsoleerd is, komt een deel van die warmte terug de kamer in. De meest voorkomende oorzaak is een losse aansluiting of een kier bij de raamkit.",
+      "intro": "De afvoerslang van een mobiele airco wordt heet omdat hij de warmte uit de kamer naar buiten voert. Lekt de slang, zit er een knik in of is hij niet geïsoleerd, dan komt een deel van die warmte terug in de kamer. Meestal zit een aansluiting los of sluit de raamafdichting niet goed.",
       "causes": [
-        "Losse slangaansluiting — er ontsnapt hete lucht bij het toestel of de raamadapter en de verbindingen voelen duidelijk warm aan.",
-        "Onvolledige raamafdichting — warme buitenlucht stroomt via kieren terug naar binnen en rond het paneel voel je tocht.",
-        "Geknikte of te lange slang — de luchtstroom wordt afgeremd, de slang wordt erg heet en straalt warmte uit in de kamer.",
-        "Model met één slang — het toestel zuigt kamerlucht aan, waardoor warme lucht uit andere ruimtes via deuren en kieren naar binnen stroomt."
+        "Losse slangaansluiting: bij het apparaat of de raamadapter ontsnapt hete lucht, wat je met je hand kunt voelen.",
+        "Onvolledige raamafdichting: warme buitenlucht stroomt via kieren terug naar binnen en rond het paneel voel je tocht.",
+        "Geknikte of te lange slang: de luchtstroom wordt afgeremd, de slang wordt erg heet en straalt warmte uit in de kamer.",
+        "Model met één slang: het apparaat zuigt lucht uit de kamer aan, die wordt aangevuld met warme lucht uit andere ruimtes via deuren en kieren."
       ],
       "steps": [
-        "Schakel het toestel uit, trek de stekker eruit en laat de slang afkoelen voordat u hem aanraakt of aansluitingen aanpast.",
-        "Controleer of beide slangeinden goed vastgeklikt of vastgedraaid zitten, bij het toestel en bij de raamadapter, zonder zichtbare openingen.",
+        "Schakel het apparaat uit, trek de stekker eruit en laat de slang afkoelen voordat je hem aanraakt of aansluitingen aanpast.",
+        "Controleer of beide uiteinden van de slang goed vastgeklikt of vastgedraaid zitten, bij het apparaat en bij de raamadapter, zonder zichtbare openingen.",
         "Maak de slang zo kort en recht mogelijk, zonder scherpe bochten, zodat de hete lucht snel weg kan en de motor niet oververhit raakt.",
-        "Dicht kieren rond het raam af met het meegeleverde paneel en schuimband of tochtstrip, zodat er geen buitenlucht terug naar binnen stroomt.",
+        "Dicht kieren rond het raam af met het meegeleverde paneel, schuimband of tochtstrip, zodat er geen buitenlucht terug naar binnen stroomt.",
         "Sluit deuren en ramen in de kamer, reinig het filter en overweeg een geschikte isolatiehoes om de warmte-uitstraling van de slang te beperken."
       ],
-      "replaceWhen": "Als slang, afdichtingen en filter in orde zijn en de kamer toch opwarmt, is het toestel mogelijk te klein voor de ruimte of verzwakt het koelcircuit; een ouder model met één slang is zelden een reparatie waard tegenover een efficiënter nieuw toestel."
+      "replaceWhen": "Zijn slang, afdichtingen en filter in orde en warmt de kamer toch op, dan is het apparaat misschien te klein voor de ruimte of wordt het koelcircuit zwakker. Een ouder model met één slang is meestal geen reparatie waard: een nieuw apparaat is efficiënter."
     },
     "pl": {
       "intro": "Wąż klimatyzatora przenośnego jest gorący, bo wyprowadza na zewnątrz ciepło odebrane z pomieszczenia. Jeśli jednak jest nieszczelny, załamany lub nieizolowany, część tego ciepła wraca do pokoju. Najczęściej winne jest źle zamocowane złącze albo nieszczelnie zabezpieczone okno.",
@@ -222,21 +222,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If short cycling continues after full maintenance, low refrigerant or a worn compressor is likely; both need a qualified technician and often cost more than an older unit is worth, so replacement is usually the sensible choice."
     },
     "de": {
-      "intro": "Schaltet der Kompressor einer mobilen Klimaanlage alle zwei Minuten ab und wieder ein, überhitzt das Gerät meist oder der Temperaturfühler wird getäuscht, oft wegen eines verschmutzten Filters oder eines behinderten Abluftschlauchs. Diese einfachen Ursachen sollten Sie zuerst beheben.",
+      "intro": "Schaltet der Kompressor einer mobilen Klimaanlage alle zwei Minuten ab und wieder an, überhitzt das Gerät fast immer oder der Temperaturfühler wird getäuscht, oft wegen eines verschmutzten Filters oder eines behinderten Abluftschlauchs. Beheben Sie diese einfachen Ursachen, bevor Sie einen Defekt im Kältekreislauf vermuten.",
       "causes": [
-        "Verschmutzter Filter oder verstopftes Gitter — der Luftstrom ist schwach, das Gerät überhitzt und der Überhitzungsschutz stoppt den Kompressor immer wieder.",
-        "Geknickter oder blockierter Abluftschlauch — die Wärme kann nicht entweichen, der Druck steigt und das Gerät schaltet zum Schutz ab.",
-        "Getäuschter Temperaturfühler — kalte Luft des Geräts trifft den Fühler, sodass die Zieltemperatur viel zu früh erreicht scheint.",
-        "Voller Kondensatbehälter oder klemmender Schwimmerschalter — das Gerät pausiert kurz und startet neu, ohne je stabil zu kühlen."
+        "Verschmutzter Filter oder zugesetztes Gitter – die Luft zirkuliert schlecht, das Gerät überhitzt, und der Überhitzungsschutz schaltet den Kompressor immer wieder ab.",
+        "Geknickter oder verstopfter Abluftschlauch – die Wärme kommt nicht hinaus, der Druck steigt, und das Gerät schaltet sich zum Schutz ab.",
+        "Getäuschter Temperaturfühler – die kalte Luft des Geräts trifft den Fühler, sodass die Solltemperatur zu früh erreicht scheint.",
+        "Voller Kondensatbehälter oder klemmender Schwimmer – das Gerät stoppt kurz und startet neu, ohne je gleichmäßig zu kühlen."
       ],
       "steps": [
-        "Netzstecker ziehen und mindestens dreißig Minuten warten, damit der Überhitzungsschutz zurückgesetzt wird und sich die Drücke im Kreislauf beruhigen.",
-        "Filter herausnehmen, mit lauwarmem Wasser auswaschen, vollständig trocknen lassen und anschließend die Ansaug- und Auslassgitter vorsichtig entstauben.",
+        "Ziehen Sie den Netzstecker und warten Sie mindestens dreißig Minuten, damit sich der Überhitzungsschutz zurücksetzt und der Kältekreislauf zur Ruhe kommt.",
+        "Nehmen Sie den Filter heraus, waschen Sie ihn mit lauwarmem Wasser aus, lassen Sie ihn vollständig trocknen und entstauben Sie vorsichtig die Ansaug- und Ausblasgitter.",
         "Prüfen Sie, ob der Abluftschlauch kurz, gerade und fest angeschlossen ist und die Öffnung nach draußen nicht durch Rollladen oder Jalousie verdeckt wird.",
-        "Stellen Sie das Gerät mit Abstand zu Wänden und Vorhängen auf, fern von Wärmequellen, und leeren Sie den Kondensatbehälter oder Ablaufschlauch.",
-        "Senken Sie die Solltemperatur um mehrere Grad oder wählen Sie einen anderen Modus und beobachten Sie, ob die Laufzeiten länger werden; sonst Kundendienst kontaktieren."
+        "Stellen Sie das Gerät mit Abstand zu Wänden und Vorhängen und fern von Wärmequellen auf, und leeren Sie den Kondensatbehälter oder lassen Sie das Wasser über den Ablaufschlauch ab.",
+        "Senken Sie die Solltemperatur um mehrere Grad oder wählen Sie einen anderen Modus und beobachten Sie, ob die Laufzeiten länger werden. Falls nicht, wenden Sie sich an den Kundendienst."
       ],
-      "replaceWhen": "Bleibt das Takten nach gründlicher Wartung bestehen, sind Kältemittelmangel oder ein verschlissener Kompressor wahrscheinlich; beides gehört in Fachhände und kostet bei älteren Geräten oft mehr als der Restwert, sodass ein Ersatz sinnvoller ist."
+      "replaceWhen": "Bleibt das kurze Takten trotz gründlicher Wartung, fehlt wahrscheinlich Kältemittel oder der Kompressor ist verschlissen. Beides gehört in Fachhände und kostet bei älteren Geräten oft mehr, als das Gerät noch wert ist; dann ist ein Ersatz sinnvoller."
     },
     "es": {
       "intro": "Si el compresor de tu aire acondicionado portátil se para y vuelve a arrancar cada dos minutos, casi siempre se está recalentando o el sensor de temperatura se está equivocando, a menudo por un filtro sucio o un tubo de salida que no deja salir bien el aire. Son causas sencillas que conviene descartar antes de pensar en una avería del circuito de refrigerante.",
@@ -273,21 +273,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se i cicli brevi continuano anche dopo una manutenzione completa, è probabile che manchi refrigerante o che il compressore sia usurato. In entrambi i casi serve un tecnico qualificato e la riparazione spesso costa più di quanto valga un apparecchio vecchio: conviene sostituirlo."
     },
     "nl": {
-      "intro": "Als de compressor van een mobiele airco elke twee minuten uit- en weer aanslaat, oververhit het toestel bijna altijd of wordt de temperatuursensor misleid, meestal door een vuil filter of een belemmerde afvoerslang. Los deze eenvoudige oorzaken eerst op voordat u aan het koelcircuit denkt.",
+      "intro": "Slaat de compressor van een mobiele airco elke twee minuten af en weer aan, dan raakt het apparaat bijna altijd oververhit of meet de temperatuursensor verkeerd, meestal door een vuil filter of een belemmerde afvoerslang. Pak die eenvoudige oorzaken eerst aan voordat je aan een defect in het koelcircuit denkt.",
       "causes": [
-        "Vuil filter of verstopt rooster — de luchtstroom is zwak, het toestel oververhit en de thermische beveiliging schakelt de compressor steeds uit.",
-        "Geknikte of geblokkeerde afvoerslang — de warmte kan niet weg, de druk loopt op en het toestel schakelt uit ter bescherming.",
-        "Misleide temperatuursensor — koude lucht van het toestel raakt de sensor, waardoor de ingestelde temperatuur veel te snel bereikt lijkt.",
-        "Vol condensreservoir of vastzittende vlotter — het toestel pauzeert kort en start opnieuw zonder ooit stabiel te koelen."
+        "Vuil filter of verstopt rooster: de luchtstroom is zwak, het apparaat oververhit en de thermische beveiliging schakelt de compressor steeds uit.",
+        "Geknikte of geblokkeerde afvoerslang: de warmte kan niet weg, de druk loopt op en het apparaat schakelt uit ter bescherming.",
+        "Temperatuursensor meet verkeerd: koude lucht uit het apparaat komt op de sensor terecht, waardoor de ingestelde temperatuur te snel bereikt lijkt.",
+        "Vol condensreservoir of vastzittende vlotter: het apparaat pauzeert kort en start opnieuw zonder ooit stabiel te koelen."
       ],
       "steps": [
-        "Trek de stekker eruit en wacht minstens dertig minuten zodat de thermische beveiliging reset en de drukken in het circuit tot rust komen.",
+        "Trek de stekker eruit en wacht minstens dertig minuten zodat de thermische beveiliging zich kan herstellen en de druk in het koelcircuit stabiliseert.",
         "Haal het filter eruit, was het met lauw water, laat het volledig drogen en stof de aanzuig- en uitblaasroosters voorzichtig af.",
         "Controleer of de afvoerslang kort, recht en stevig aangesloten is en of de opening naar buiten niet geblokkeerd wordt door een rolluik of zonwering.",
-        "Zet het toestel op afstand van muren en gordijnen, weg van warmtebronnen, en leeg het condensreservoir of de afvoerslang.",
-        "Zet de gewenste temperatuur enkele graden lager of probeer een andere stand en kijk of de draaicycli langer worden; zo niet, neem contact op met de klantenservice."
+        "Zet het apparaat op afstand van muren en gordijnen en uit de buurt van warmtebronnen, en leeg het condensreservoir of de afvoerslang.",
+        "Zet de gewenste temperatuur enkele graden lager of probeer een andere stand en kijk of de compressor langer achter elkaar draait; zo niet, neem contact op met de klantenservice."
       ],
-      "replaceWhen": "Blijft het kort cyclen na grondig onderhoud bestaan, dan is een tekort aan koudemiddel of een versleten compressor waarschijnlijk; beide vragen een vakman en kosten bij een ouder toestel vaak meer dan de restwaarde, dus vervanging is verstandiger."
+      "replaceWhen": "Blijft de compressor na grondig onderhoud kort aan- en uitslaan, dan is een tekort aan koudemiddel of een versleten compressor waarschijnlijk. Die reparaties zijn werk voor een vakman en kosten bij een ouder apparaat vaak meer dan het nog waard is; vervangen is dan verstandiger."
     },
     "pl": {
       "intro": "Jeśli sprężarka klimatyzatora przenośnego wyłącza się i włącza co dwie minuty, przyczyną jest prawie zawsze przegrzewanie się urządzenia albo zmylony czujnik temperatury, często z powodu zabrudzonego filtra lub utrudnionego wylotu powietrza przez wąż. Te proste przyczyny wyeliminuj, zanim zaczniesz podejrzewać usterkę układu chłodniczego.",
@@ -394,21 +394,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the red flashing continues after cleaning and a full recharge, the battery or control board is the likely culprit. When a replacement battery costs nearly as much as a new vacuum, or is no longer available, replacing the whole unit makes more sense."
     },
     "de": {
-      "intro": "Eine rot blinkende LED am Akku-Staubsauger zeigt meist an, dass ein Schutz ausgelöst hat: Überhitzung, blockierte Bürste oder verstopfter Filter, oder ein Akkuproblem. Die genaue Bedeutung hängt vom Modell ab, daher Handbuch prüfen und zuerst nach Blockaden suchen.",
+      "intro": "Blinkt die LED am Akku-Staubsauger rot, hat meist eine Schutzfunktion ausgelöst: wegen Überhitzung, einer blockierten Bürste, eines verstopften Filters oder eines Akkuproblems. Die genaue Bedeutung hängt vom Modell ab. Sehen Sie deshalb im Handbuch nach und suchen Sie zuerst nach Verstopfungen.",
       "causes": [
-        "Verstopfter Filter oder voller Staubbehälter — der Motor wird überlastet und heiß, der Überhitzungsschutz stoppt das Gerät, während die LED blinkt.",
-        "Durch Haare oder Fremdkörper blockierte Bürstenwalze — der Bürstenmotor wird überlastet und löst bei vielen Modellen eine Sicherheitsabschaltung aus.",
-        "Schlecht sitzender Akku oder verschmutzte Kontakte — die Stromversorgung ist instabil und die Elektronik verweigert den Start.",
-        "Tiefentladener oder verschlissener Akku — er liefert nicht mehr genug Strom, und das Gerät meldet einen Stromfehler."
+        "Verstopfter Filter oder voller Staubbehälter – der Motor arbeitet gegen den Widerstand und wird heiß, der Überhitzungsschutz schaltet das Gerät ab, und die LED blinkt.",
+        "Bürstenwalze durch Haare oder Fremdkörper blockiert – der Bürstenmotor wird überlastet und löst bei vielen Modellen eine Sicherheitsabschaltung aus.",
+        "Akku nicht richtig eingesetzt oder Kontakte verschmutzt – die Stromversorgung ist instabil, und die Elektronik verweigert den Start.",
+        "Tiefentladener oder verschlissener Akku – er liefert nicht mehr genug Strom, und das Gerät meldet einen Akkufehler."
       ],
       "steps": [
         "Nehmen Sie den Akku heraus, falls er abnehmbar ist, oder lassen Sie das Gerät mindestens dreißig Minuten abkühlen, bevor Sie es erneut versuchen.",
-        "Staubbehälter leeren, Filter laut Anleitung reinigen oder ersetzen und vor dem Wiedereinsetzen vollständig trocknen lassen.",
-        "Bürstenwalze gemäß Anleitung abnehmen, aufgewickelte Haare und Fäden entfernen und prüfen, ob nichts im Rohr oder in der Düse klemmt.",
-        "Akkukontakte mit einem trockenen Tuch abwischen, den Akku bis zum Einrasten einsetzen und mit dem Original-Ladegerät vollständig laden.",
-        "Testen Sie den Sauger ohne motorisierten Aufsatz; blinkt die LED weiter rot, notieren Sie den Code aus dem Handbuch und kontaktieren Sie den Hersteller."
+        "Leeren Sie den Staubbehälter, reinigen oder ersetzen Sie den Filter laut Anleitung und lassen Sie ihn vollständig trocknen, bevor Sie ihn wieder einsetzen.",
+        "Nehmen Sie die Bürstenwalze laut Anleitung ab, entfernen Sie aufgewickelte Haare und Fäden und prüfen Sie, ob etwas im Rohr oder in der Düse klemmt.",
+        "Wischen Sie die Akkukontakte mit einem trockenen Tuch ab, schieben Sie den Akku bis zum Einrasten ein und laden Sie ihn mit dem Original-Ladegerät auf.",
+        "Testen Sie den Sauger ohne motorisierten Aufsatz. Blinkt die LED weiter, schlagen Sie den Code im Handbuch nach und wenden Sie sich an den Hersteller."
       ],
-      "replaceWhen": "Blinkt die LED nach Reinigung und vollständigem Laden weiter, sind Akku oder Steuerplatine wahrscheinlich defekt. Kostet ein Ersatzakku fast so viel wie ein neuer Staubsauger oder ist nicht mehr lieferbar, ist ein Neukauf sinnvoller."
+      "replaceWhen": "Blinkt die LED nach Reinigung und vollständigem Laden weiter, sind Akku oder Steuerplatine wahrscheinlich defekt. Kostet ein Ersatzakku fast so viel wie ein neuer Staubsauger oder ist er nicht mehr lieferbar, ist ein Neukauf sinnvoller."
     },
     "es": {
       "intro": "Un piloto LED rojo que parpadea en una aspiradora sin cable suele indicar que ha saltado una protección: sobrecalentamiento, cepillo o filtro obstruido, o un problema de batería. El significado exacto cambia según el modelo, así que busca el código en el manual y empieza por comprobar que no haya atascos.",
@@ -445,21 +445,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il LED continua a lampeggiare in rosso dopo la pulizia e una ricarica completa, probabilmente è guasta la batteria o la scheda elettronica. Quando una batteria di ricambio costa quasi quanto una scopa nuova, o non si trova più, conviene sostituire l'apparecchio."
     },
     "nl": {
-      "intro": "Een rood knipperende led op een steelstofzuiger betekent meestal dat er een beveiliging is aangesproken: oververhitting, een geblokkeerde borstel of een verstopt filter, of een accuprobleem. De exacte betekenis verschilt per model, dus raadpleeg de handleiding en zoek eerst naar blokkades.",
+      "intro": "Een rood knipperende led op een steelstofzuiger betekent meestal dat er een beveiliging in werking is getreden: oververhitting, een geblokkeerde borstel of een verstopt filter, of een accuprobleem. De exacte betekenis verschilt per model, dus raadpleeg de handleiding en zoek eerst naar blokkades.",
       "causes": [
-        "Verstopt filter of volle stofbak — de motor wordt overbelast en heet, en de thermische beveiliging zet het apparaat stil terwijl de led knippert.",
-        "Borstelwals geblokkeerd door haren of vuil — de borstelmotor raakt overbelast en activeert bij veel modellen een veiligheidsuitschakeling.",
-        "Slecht geplaatste accu of vuile contacten — de stroomvoorziening is instabiel en de elektronica weigert te starten.",
-        "Diep ontladen of versleten accu — hij levert niet genoeg stroom meer en het apparaat meldt een stroomstoring."
+        "Verstopt filter of volle stofbak: de motor wordt overbelast en heet, en de thermische beveiliging zet het apparaat stil terwijl de led knippert.",
+        "Borstelwals geblokkeerd door haren of vuil: de borstelmotor raakt overbelast en activeert bij veel modellen een veiligheidsuitschakeling.",
+        "Slecht geplaatste accu of vuile contacten: de stroomvoorziening is instabiel en de elektronica weigert te starten.",
+        "Diep ontladen of versleten accu: hij levert niet genoeg stroom meer en het apparaat meldt een laadprobleem."
       ],
       "steps": [
-        "Haal de accu eruit als die losneembaar is, of laat het apparaat minstens dertig minuten afkoelen voordat u het opnieuw probeert.",
-        "Leeg de stofbak, reinig of vervang het filter zoals de handleiding aangeeft en laat het volledig drogen voordat u het terugplaatst.",
+        "Haal de accu eruit als die losneembaar is, of laat het apparaat minstens dertig minuten afkoelen voordat je het opnieuw probeert.",
+        "Leeg de stofbak, reinig of vervang het filter zoals de handleiding aangeeft en laat het volledig drogen voordat je het terugplaatst.",
         "Verwijder de borstelwals volgens de instructies, knip opgewikkelde haren en draden weg en controleer of er niets vastzit in de buis of het mondstuk.",
         "Veeg de accucontacten schoon met een droge doek, druk de accu aan tot hij klikt en laad hem op met de originele oplader.",
         "Test de stofzuiger zonder gemotoriseerd opzetstuk; knippert de led nog rood, noteer dan de code uit de handleiding en neem contact op met de fabrikant."
       ],
-      "replaceWhen": "Blijft de led rood knipperen na reiniging en volledig opladen, dan is waarschijnlijk de accu of het besturingsbord defect. Kost een vervangende accu bijna evenveel als een nieuwe stofzuiger of is hij niet meer leverbaar, dan is vervanging van het apparaat verstandiger."
+      "replaceWhen": "Blijft de led rood knipperen na reiniging en volledig opladen, dan is waarschijnlijk de accu of de printplaat defect. Kost een vervangende accu bijna evenveel als een nieuwe stofzuiger of is hij niet meer leverbaar, dan kun je beter een nieuwe stofzuiger kopen."
     },
     "pl": {
       "intro": "Migająca czerwona dioda w odkurzaczu pionowym bezprzewodowym zwykle oznacza, że zadziałało któreś z zabezpieczeń. Przyczyną bywa przegrzanie, zablokowana szczotka, zapchany filtr albo problem z akumulatorem. Znaczenie sygnału zależy od modelu, więc dokładny kod sprawdź w instrukcji, a zacznij od szukania zatorów.",
@@ -566,18 +566,18 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the drawer is bent, the handle is broken or the housing is distorted so the drawer will not shut, repair is rarely reliable. A flaking non-stick coating is another reason to replace the appliance for hygiene and safety."
     },
     "de": {
-      "intro": "Schließt die Schublade einer Heißluftfritteuse nicht mehr richtig, steht meist etwas im Weg: zu viel Gargut, hochgewehtes Backpapier oder verhärtetes Fett an den Führungen. Eine verzogene Schublade oder ein verbogener Korb ist seltener, kommt aber nach Stößen oder starker Hitze vor.",
+      "intro": "Schließt die Schublade eines Airfryers nicht mehr richtig, ist meist etwas im Weg: zu viel Gargut, hochgewehtes Backpapier oder verhärtetes Fett an den Führungen. Eine verzogene Schublade oder ein verbogener Korb ist seltener, kommt nach Stößen oder großer Hitze aber vor.",
       "causes": [
-        "Überfüllter Korb oder herausragendes Gargut — der Inhalt stößt an Heizelement oder Gehäuse und verhindert das vollständige Einschieben.",
-        "Hochgewehtes Backpapier oder Alufolie — es verhakt sich hinten oder unter dem Korb und klemmt die Schublade.",
-        "Verkohltes Fett an den Führungen — verhärtete Ablagerungen erhöhen die Reibung, sodass die Schublade nicht ganz einrastet.",
-        "Nicht eingerasteter Korb oder verbogener Griff — der Korb ist nicht in der Schublade verriegelt und ragt leicht über den Rand."
+        "Überfüllter Korb oder überstehendes Gargut – der Inhalt stößt an Heizelement oder Gehäuse, und die Schublade lässt sich nicht ganz schließen.",
+        "Hochgewehtes Backpapier oder Alufolie – es verhakt sich hinten oder unter dem Korb und blockiert die Schublade.",
+        "Verkohltes Fett an den Führungen – harte Ablagerungen bremsen die Schublade, sodass sie nicht bis zum Anschlag hineingleitet.",
+        "Korb nicht eingerastet oder Griff verbogen – der Korb sitzt nicht fest in der Schublade und steht leicht über den Rand."
       ],
       "steps": [
-        "Gerät ausstecken und vollständig abkühlen lassen, bevor Sie Schublade, Korb oder das Gehäuseinnere berühren.",
-        "Schublade und Korb herausnehmen, eingeklemmtes Papier, Folie oder Essensreste entfernen und prüfen, dass nichts hinten im Schacht liegt.",
-        "Führungen, Ränder und Öffnung mit einem nicht scheuernden Schwamm und heißem Spülwasser reinigen und anschließend gründlich trocknen.",
-        "Korb bis zum Klick einsetzen, Gargut flach unter der Füllmarkierung verteilen und die Schublade behutsam schließen.",
+        "Ziehen Sie den Netzstecker und lassen Sie das Gerät vollständig abkühlen, bevor Sie Schublade, Korb oder das Gehäuseinnere berühren.",
+        "Nehmen Sie Schublade und Korb heraus, entfernen Sie eingeklemmtes Papier, Folie oder Essensreste und prüfen Sie, ob noch etwas hinten im Gehäuse liegt.",
+        "Reinigen Sie Führungen, Ränder und Öffnung mit einem nicht kratzenden Schwamm und heißem Spülwasser und trocknen Sie alles gründlich ab.",
+        "Setzen Sie den Korb ein, bis er hörbar einrastet, verteilen Sie das Gargut flach unterhalb der Füllmarkierung und schieben Sie die Schublade behutsam ein.",
         "Umgehen Sie niemals den Sicherheitsschalter: Das Gerät heizt nur bei geschlossener Schublade, und dieser Schutz muss funktionsfähig bleiben."
       ],
       "replaceWhen": "Ist die Schublade verbogen, der Griff gebrochen oder das Gehäuse so verzogen, dass nichts mehr schließt, ist eine Reparatur selten zuverlässig. Auch eine abblätternde Antihaftbeschichtung spricht aus Hygiene- und Sicherheitsgründen für einen Neukauf."
@@ -617,21 +617,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il cassetto è storto, la maniglia è rotta o la scocca è così deformata da non chiudere più, la riparazione raramente è affidabile. Anche un rivestimento antiaderente che si scrosta è un buon motivo per sostituire l'apparecchio, per igiene e sicurezza."
     },
     "nl": {
-      "intro": "Een airfryerlade die niet goed meer sluit, wordt meestal gehinderd door iets in de weg: te veel eten, opgekruld bakpapier of verhard vet op de geleiders. Een kromgetrokken lade of mand komt minder vaak voor, maar kan ontstaan na stoten of sterke hitte.",
+      "intro": "Sluit de lade van je airfryer niet goed meer, dan zit er meestal iets in de weg: te veel eten, opgekruld bakpapier of verhard vet op de geleiders. Een kromgetrokken lade of mand komt minder vaak voor, maar kan ontstaan na stoten of sterke hitte.",
       "causes": [
-        "Te volle mand of uitstekend eten — de inhoud botst tegen het verwarmingselement of de behuizing en de lade schuift niet helemaal dicht.",
-        "Opgekruld bakpapier of aluminiumfolie — het blijft achterin of onder de mand haken en klemt de lade.",
-        "Aangekoekt vet op de geleiders — verharde afzettingen geven extra wrijving, waardoor de lade niet tot het einde schuift.",
-        "Mand niet vastgeklikt of verbogen handvat — de mand zit niet vast in de lade en steekt iets boven de rand uit."
+        "Te volle mand of uitstekend eten: de inhoud botst tegen het verwarmingselement of de behuizing en de lade schuift niet helemaal dicht.",
+        "Opgekruld bakpapier of aluminiumfolie: het blijft achterin of onder de mand haken en klemt de lade.",
+        "Aangekoekt vet op de geleiders: verharde afzettingen geven extra wrijving, waardoor de lade niet tot het einde schuift.",
+        "Mand niet vastgeklikt of verbogen handvat: de mand zit niet vast in de lade en steekt iets boven de rand uit."
       ],
       "steps": [
-        "Trek de stekker eruit en laat het apparaat volledig afkoelen voordat u de lade, de mand of de binnenkant van de behuizing aanraakt.",
+        "Trek de stekker eruit en laat het apparaat volledig afkoelen voordat je de lade, de mand of de binnenkant van de behuizing aanraakt.",
         "Haal lade en mand eruit, verwijder vastgeklemd papier, folie of eten en controleer of er niets achterin de opening ligt.",
         "Reinig geleiders, randen en opening met een niet-schurende spons en heet zeepwater en droog alles daarna grondig af.",
         "Plaats de mand tot hij klikt, verdeel het eten vlak onder de vullijn en schuif de lade voorzichtig dicht.",
         "Omzeil nooit de veiligheidsschakelaar: het apparaat verwarmt alleen met een goed gesloten lade en die beveiliging moet blijven werken."
       ],
-      "replaceWhen": "Is de lade krom, het handvat gebroken of de behuizing zo vervormd dat er niets meer sluit, dan is reparatie zelden betrouwbaar. Afbladderende antiaanbaklaag is ook een reden om te vervangen, voor hygiëne en veiligheid."
+      "replaceWhen": "Is de lade krom, het handvat gebroken of de behuizing zo vervormd dat er niets meer sluit, dan is reparatie zelden betrouwbaar. Ook een afbladderende antiaanbaklaag is een reden om te vervangen, voor de hygiëne en de veiligheid."
     },
     "pl": {
       "intro": "Jeśli szuflada frytkownicy beztłuszczowej przestała się domykać, zwykle coś ją blokuje: za dużo jedzenia, podwinięty papier do pieczenia albo zaschnięty tłuszcz na prowadnicach. Rzadziej winna jest odkształcona szuflada lub kosz, co może się zdarzyć po uderzeniu albo pod wpływem wysokiej temperatury.",
@@ -738,21 +738,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If water has got into the sensor, the board is corroded or the connection never comes back even with new batteries, a repair is not realistic. If no replacement sensor is available for an older station, replacing the whole set makes sense."
     },
     "de": {
-      "intro": "Sendet der Außensensor einer Wetterstation keine Daten mehr, sind meist die Batterien schwach, besonders bei Kälte, oder die Funkverbindung zur Hauptkonsole ist abgerissen. Neue Batterien und eine erneute Kopplung beider Geräte beheben die meisten Fälle zuverlässig.",
+      "intro": "Sendet der Außensensor einer Wetterstation keine Daten mehr, sind meist die Batterien schwach, besonders bei Kälte, oder die Funkverbindung zur Basisstation ist abgerissen. Neue Batterien und eine erneute Kopplung lösen das Problem in den meisten Fällen.",
       "causes": [
-        "Schwache Sensorbatterien — Kälte verringert die Kapazität zusätzlich, sodass der Sender nicht mehr oder zu schwach sendet.",
-        "Verlorene Funkverbindung nach Stromunterbrechung — Sensor und Konsole sind nach Batteriewechsel oder Ausfall nicht mehr gekoppelt.",
-        "Entfernung, Wände oder Metallhindernisse — das Funksignal wird zwischen Sensor und Konsole abgeschwächt und kommt nicht mehr an.",
-        "Feuchtigkeit oder Korrosion im Batteriefach — die Kontakte oxidieren und die Stromversorgung wird unterbrochen oder setzt aus."
+        "Schwache Batterien im Sensor – Kälte verringert ihre Kapazität zusätzlich, sodass der Sender gar nicht mehr oder zu schwach funkt.",
+        "Funkverbindung nach einer Unterbrechung verloren – nach einem Batteriewechsel oder Stromausfall sind Sensor und Basisstation nicht mehr gekoppelt.",
+        "Entfernung, Wände oder Metall – das Funksignal wird zwischen Sensor und Basisstation so stark gedämpft, dass es nicht mehr ankommt.",
+        "Feuchtigkeit oder Korrosion im Batteriefach – die Kontakte oxidieren, und die Stromversorgung setzt aus oder bricht ganz ab."
       ],
       "steps": [
-        "Halten Sie den Sensor einige Meter ohne Hindernisse neben die Konsole, um zu prüfen, ob Daten ohne Reichweitenproblem wieder ankommen.",
+        "Legen Sie den Sensor ohne Hindernisse wenige Meter neben die Basisstation, um zu prüfen, ob die Daten ankommen, wenn die Reichweite keine Rolle spielt.",
         "Ersetzen Sie die Sensorbatterien durch neue, hochwertige Batterien des im Handbuch genannten Typs und achten Sie auf die richtige Polung.",
-        "Entnehmen Sie die Batterien aus Konsole und Sensor, setzen Sie zuerst die des Sensors und danach die der Konsole ein, um die Kopplung neu zu starten.",
-        "Prüfen Sie Kanal oder ID, falls einstellbar, und stellen Sie die Konsole fern von Routern, Fernsehern und anderen Funkstörquellen auf.",
-        "Batteriekontakte trocknen und reinigen, dann den Sensor regengeschützt und abseits großer Metallflächen montieren."
+        "Nehmen Sie die Batterien aus Basisstation und Sensor, setzen Sie zuerst die des Sensors und danach die der Basisstation ein, damit die Kopplung neu startet.",
+        "Prüfen Sie Kanal oder ID, falls einstellbar, und stellen Sie die Basisstation nicht in die Nähe von Routern, Fernsehern und anderen Funkstörquellen.",
+        "Trocknen und reinigen Sie die Batteriekontakte und montieren Sie den Sensor dann vor direktem Regen geschützt und abseits großer Metallflächen."
       ],
-      "replaceWhen": "Ist Wasser in den Sensor eingedrungen, die Platine korrodiert oder die Verbindung kommt auch mit neuen Batterien nie zustande, ist eine Reparatur unrealistisch. Gibt es für eine ältere Station keinen Ersatzsensor mehr, lohnt der Komplettaustausch."
+      "replaceWhen": "Ist Wasser in den Sensor eingedrungen, ist die Platine korrodiert oder kommt die Verbindung auch mit neuen Batterien nicht zustande, lohnt sich eine Reparatur kaum. Gibt es für eine ältere Station keinen Ersatzsensor mehr, tauschen Sie besser das ganze Set aus."
     },
     "es": {
       "intro": "Si el sensor exterior de tu estación meteorológica ya no envía datos, lo más habitual es que tenga las pilas bajas, sobre todo cuando hace frío, o que haya perdido la conexión por radio con la consola. Cambiar las pilas y volver a sincronizarlos resuelve la mayoría de los casos.",
@@ -791,19 +791,19 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
     "nl": {
       "intro": "Een buitensensor van een weerstation die geen data meer doorgeeft, heeft meestal zwakke batterijen, vooral bij kou, of is de radioverbinding met het display kwijt. Nieuwe batterijen en opnieuw synchroniseren lossen de meeste gevallen op.",
       "causes": [
-        "Zwakke batterijen in de sensor — kou verlaagt de capaciteit nog verder, waardoor de zender niet meer of te zwak uitzendt.",
-        "Radioverbinding kwijt na stroomonderbreking — sensor en display zijn na een batterijwissel of storing niet meer gekoppeld.",
-        "Afstand, muren of metalen obstakels — het radiosignaal wordt tussen sensor en display gedempt en komt niet meer aan.",
-        "Vocht of corrosie in het batterijvak — de contacten oxideren en de stroomvoorziening valt af en toe of helemaal weg."
+        "Zwakke batterijen in de sensor: kou verlaagt de capaciteit nog verder, waardoor de zender niet meer of te zwak uitzendt.",
+        "Radioverbinding kwijt na stroomonderbreking: sensor en display zijn na een batterijwissel of storing niet meer gekoppeld.",
+        "Afstand, muren of metalen obstakels: het radiosignaal wordt tussen sensor en display gedempt en komt niet meer aan.",
+        "Vocht of corrosie in het batterijvak: de contacten oxideren en de stroomvoorziening valt af en toe of helemaal weg."
       ],
       "steps": [
-        "Houd de sensor enkele meters zonder obstakels naast het display om te controleren of de data terugkomt wanneer bereik geen rol speelt.",
+        "Zet de sensor op een paar meter van het display, zonder obstakels ertussen, en kijk of de gegevens terugkomen nu het bereik geen rol speelt.",
         "Vervang de batterijen van de sensor door nieuwe, kwalitatief goede batterijen van het type uit de handleiding en let op de polariteit.",
         "Haal de batterijen uit display en sensor, plaats eerst die van de sensor en daarna die van het display om het koppelen opnieuw te starten.",
         "Controleer kanaal of ID als dat instelbaar is en zet het display uit de buurt van routers, televisies en andere bronnen van radiostoring.",
         "Droog en reinig de batterijcontacten en monteer de sensor beschut tegen direct regenwater en weg van grote metalen oppervlakken."
       ],
-      "replaceWhen": "Is er water in de sensor gekomen, is de print gecorrodeerd of komt de verbinding ook met nieuwe batterijen nooit terug, dan is reparatie onrealistisch. Is er voor een ouder station geen losse sensor meer te krijgen, dan is complete vervanging logisch."
+      "replaceWhen": "Is er water in de sensor gekomen, is de print gecorrodeerd of komt de verbinding ook met nieuwe batterijen nooit terug, dan is reparatie onrealistisch. Is er voor een ouder station geen losse sensor meer te krijgen, dan is het logisch om de hele set te vervangen."
     },
     "pl": {
       "intro": "Gdy czujnik zewnętrzny stacji pogodowej przestaje wysyłać dane, zwykle ma słabe baterie, zwłaszcza w mrozy, albo stracił łączność radiową z konsolą. W większości przypadków pomaga wymiana baterii i ponowna synchronizacja.",
@@ -910,21 +910,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the non-stick coating is flaking, rust appears, or a burnt smell persists after a deep clean, the appliance becomes less safe and less hygienic. In that case it is better to replace it than to keep using it."
     },
     "de": {
-      "intro": "Um Brandrückstände aus einer Heißluftfritteuse zu entfernen, lassen Sie das Gerät abkühlen, weichen Schublade und Korb in heißem Spülwasser ein und schrubben sie mit einem nicht scheuernden Schwamm. Eine Natronpaste hilft bei hartnäckigen Belägen, ohne die Antihaftschicht zu beschädigen.",
+      "intro": "Um eingebrannte Rückstände aus dem Airfryer zu entfernen, lassen Sie das Gerät abkühlen, weichen Schublade und Korb in heißem Spülwasser ein und reinigen sie mit einem nicht kratzenden Schwamm. Bei hartnäckigen Belägen hilft eine Paste aus Natron, ohne die Antihaftbeschichtung zu beschädigen.",
       "causes": [
-        "Heruntertropfendes Fett, das verkohlt — Tropfen fallen auf den Schubladenboden und werden bei jedem Garen schwärzer, wenn nicht gereinigt wird.",
-        "Zuckerhaltige Marinaden oder dicke Saucen — der Zucker karamellisiert, verbrennt am Korb und haftet fest an der Oberfläche.",
-        "Aufgeschobene Reinigung zwischen den Einsätzen — Fettschichten türmen sich auf und härten durch die wiederholte Hitze aus.",
-        "Höchste Temperatur ohne Öl oder passende Unterlage — Gargut klebt am Korb und hinterlässt schwarze, schwer lösbare Krusten."
+        "Heruntertropfendes Fett verkohlt – die Tropfen sammeln sich am Schubladenboden und werden bei jedem Garvorgang schwärzer, wenn Sie nicht zwischendurch reinigen.",
+        "Zuckerhaltige Marinaden oder dicke Saucen – der Zucker karamellisiert, verbrennt am Korb und haftet fest an der Oberfläche.",
+        "Reinigung aufgeschoben – Fettschichten lagern sich übereinander ab und härten durch die wiederholte Hitze aus.",
+        "Höchste Temperatur ohne Öl oder geeignetes Backpapier – das Gargut klebt am Korb und hinterlässt schwarze, schwer lösbare Krusten."
       ],
       "steps": [
-        "Gerät ausstecken und vollständig abkühlen lassen, bevor Sie Schublade und Korb zum Reinigen herausnehmen.",
-        "Schublade und Korb fünfzehn bis dreißig Minuten in heißem Wasser mit Spülmittel einweichen, damit sich die Beläge lösen.",
-        "Mit weichem Schwamm oder Bürste schrubben; bei hartnäckigen Resten eine Paste aus Natron und Wasser auftragen und einwirken lassen.",
-        "Gehäuseinneres und Heizelement im kalten Zustand mit einem gut ausgewrungenen feuchten Tuch oder einer weichen Bürste abwischen, ohne Wasser einzufüllen.",
-        "Alles abspülen, gründlich trocknen und wieder zusammensetzen. Verwenden Sie niemals Stahlwolle oder scharfe Scheuermittel auf der Beschichtung."
+        "Ziehen Sie den Netzstecker und lassen Sie das Gerät vollständig abkühlen, bevor Sie Schublade und Korb zum Reinigen herausnehmen.",
+        "Weichen Sie Schublade und Korb fünfzehn bis dreißig Minuten in heißem Wasser mit Spülmittel ein, damit sich die Beläge lösen.",
+        "Reinigen Sie beides mit einem weichen Schwamm oder einer weichen Bürste; tragen Sie auf hartnäckige Reste eine Paste aus Natron und Wasser auf und lassen Sie sie einwirken.",
+        "Wischen Sie Gehäuseinneres und Heizelement im kalten Zustand mit einem gut ausgewrungenen feuchten Tuch oder einer weichen Bürste ab, ohne Wasser hineinzugießen.",
+        "Spülen Sie alle Teile ab, trocknen Sie sie gründlich und setzen Sie das Gerät wieder zusammen. Verwenden Sie auf der Beschichtung niemals Stahlwolle oder Scheuermittel."
       ],
-      "replaceWhen": "Blättert die Antihaftbeschichtung ab, zeigt sich Rost oder bleibt nach gründlicher Reinigung ein Brandgeruch, wird das Gerät unsicherer und unhygienischer. Dann ist ein Austausch besser, als weiter darin zu kochen."
+      "replaceWhen": "Blättert die Antihaftbeschichtung ab, zeigt sich Rost oder bleibt nach gründlicher Reinigung ein Brandgeruch, wird das Gerät unsicherer und unhygienischer. Dann ist ein Neukauf besser, als weiter darin zu garen."
     },
     "es": {
       "intro": "Para limpiar los restos quemados de una freidora de aire, deja que se enfríe, pon el cajón y la cesta en remojo con agua caliente y jabón y frótalos con una esponja que no raye. Para la suciedad más rebelde, una pasta de bicarbonato ayuda sin dañar el antiadherente.",
@@ -961,21 +961,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il rivestimento antiaderente si scrosta, compare la ruggine o l'odore di bruciato resta anche dopo una pulizia approfondita, l'apparecchio diventa meno sicuro e meno igienico. In questo caso è meglio sostituirlo che continuare a cucinarci."
     },
     "nl": {
-      "intro": "Om ingebrande resten uit een airfryer te verwijderen, laat u het apparaat afkoelen, weekt u lade en mand in heet zeepwater en schrobt u met een niet-schurende spons. Een pasta van baking soda helpt bij hardnekkige aanslag zonder de antiaanbaklaag te beschadigen.",
+      "intro": "Ingebrande resten verwijder je zo: laat de airfryer afkoelen, week lade en mand in heet zeepwater en schrob ze met een niet-schurende spons. Een pasta van zuiveringszout helpt bij hardnekkige aanslag, zonder de antiaanbaklaag te beschadigen.",
       "causes": [
-        "Druppelend vet dat verkoolt — druppels vallen op de bodem van de lade en worden bij elke bereiding zwarter als er niet wordt schoongemaakt.",
-        "Suikerrijke marinades of dikke sauzen — de suiker karamelliseert, brandt aan op de mand en hecht stevig aan het oppervlak.",
-        "Schoonmaken uitgesteld tussen gebruik — vetlagen stapelen zich op en harden uit door herhaalde hitte.",
-        "Hoogste temperatuur zonder olie of geschikt papier — eten plakt aan de mand en laat zwarte korsten achter die moeilijk loskomen."
+        "Druppelend vet dat verkoolt: vetdruppels vallen op de bodem van de lade en worden bij elk gebruik zwarter als je niet schoonmaakt.",
+        "Suikerrijke marinades of dikke sauzen: de suiker karamelliseert, brandt aan op de mand en hecht stevig aan het oppervlak.",
+        "Niet na elk gebruik schoongemaakt: vetlagen stapelen zich op en harden uit door de herhaalde hitte.",
+        "Hoogste temperatuur zonder olie of geschikt papier: eten plakt aan de mand en laat zwarte korsten achter die moeilijk loskomen."
       ],
       "steps": [
-        "Trek de stekker eruit en laat het apparaat volledig afkoelen voordat u lade en mand eruit haalt om ze schoon te maken.",
+        "Trek de stekker eruit en laat het apparaat volledig afkoelen voordat je lade en mand eruit haalt om ze schoon te maken.",
         "Week lade en mand vijftien tot dertig minuten in heet water met afwasmiddel om de aanslag zacht te maken.",
-        "Schrob met een zachte spons of borstel; breng bij hardnekkige resten een pasta van baking soda en water aan en laat die inwerken.",
+        "Schrob met een zachte spons of borstel; breng bij hardnekkige resten een pasta van zuiveringszout en water aan en laat die inwerken.",
         "Veeg bij een koud apparaat de binnenkant van de behuizing en het verwarmingselement af met een goed uitgewrongen vochtige doek of zachte borstel, zonder water erin te gieten.",
-        "Spoel af, droog alle onderdelen grondig en zet alles weer in elkaar. Gebruik nooit staalwol of schurende middelen op de coating."
+        "Spoel af, droog alle onderdelen grondig en zet alles weer in elkaar. Gebruik nooit staalwol of schurende middelen op de antiaanbaklaag."
       ],
-      "replaceWhen": "Als de antiaanbaklaag afbladdert, er roest verschijnt of er na een grondige reiniging nog een brandlucht blijft, wordt het apparaat onveiliger en minder hygiënisch. Dan is vervangen beter dan er verder in blijven koken."
+      "replaceWhen": "Als de antiaanbaklaag afbladdert, er roest verschijnt of er na een grondige reiniging nog een brandlucht blijft, wordt het apparaat onveiliger en minder hygiënisch. Dan is vervangen beter dan ermee blijven koken."
     },
     "pl": {
       "intro": "Żeby usunąć przypalone resztki z frytkownicy beztłuszczowej, poczekaj, aż ostygnie, namocz szufladę i kosz w ciepłej wodzie z płynem do naczyń, a potem wyszoruj je nierysującą gąbką. Na uporczywe osady pomaga pasta z sody oczyszczonej, która nie niszczy powłoki nieprzywierającej.",
@@ -1082,17 +1082,17 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the light stays red after a filter change, sensor cleaning and a reset, the control board or sensor has probably failed. When filters are no longer available or the unit is old and noisy, replacing it makes more sense."
     },
     "de": {
-      "intro": "Eine dauerhaft rote Warnleuchte am Luftreiniger bedeutet meist, dass der Sensor schlechte Luftqualität erkennt oder dass die Filterwechsel-Erinnerung nicht zurückgesetzt wurde. Die Bedeutung hängt vom Modell ab, prüfen Sie daher das Handbuch, bevor Sie einen Defekt annehmen.",
+      "intro": "Eine dauerhaft rote Warnleuchte am Luftreiniger bedeutet meist, dass der Sensor schlechte Luftqualität erkennt oder dass die Filterwechsel-Erinnerung nicht zurückgesetzt wurde. Die Bedeutung hängt vom Modell ab; sehen Sie deshalb im Handbuch nach, bevor Sie von einem Defekt ausgehen.",
       "causes": [
-        "Tatsächlich belastete Luft — Kochdunst, Staub oder Sprays lassen den Sensor die Warnfarbe zeigen, bis sich die Luft verbessert hat.",
-        "Filtererinnerung nicht zurückgesetzt — der Betriebszähler läuft auch nach einem Wechsel weiter, wenn die Rückstellung nicht erfolgt ist.",
-        "Verschmutzter Partikelsensor — Staub auf dem Sensor verfälscht die Messung und hält die Anzeige für schlechte Luft aufrecht.",
-        "Falsch eingesetzter Filter oder Deckel — das Gerät erkennt einen Montagefehler und lässt die Warnleuchte an."
+        "Tatsächlich schlechte Luft – Kochdunst, Staub oder Sprays lassen den Sensor die Warnfarbe anzeigen, bis die Luft wieder sauber ist.",
+        "Filtererinnerung nicht zurückgesetzt – der Betriebsstundenzähler läuft auch nach einem Filterwechsel weiter, solange Sie ihn nicht zurückstellen.",
+        "Verschmutzter Partikelsensor – Staub auf dem Sensor verfälscht die Messung und hält die Anzeige für schlechte Luft aufrecht.",
+        "Falsch eingesetzter Filter oder Deckel – das Gerät erkennt einen Montagefehler und lässt die Warnleuchte an."
       ],
       "steps": [
-        "Gerät ausstecken, Abdeckung öffnen und prüfen, ob der Filter richtig und in der korrekten Richtung sitzt, dann die Abdeckung ordentlich schließen.",
+        "Ziehen Sie den Netzstecker, öffnen Sie die Abdeckung und prüfen Sie, ob der Filter richtig herum und fest sitzt; schließen Sie die Abdeckung dann wieder sorgfältig.",
         "Lesen Sie im Handbuch nach, was die rote Anzeige bei Ihrem Modell bedeutet, welche Warnfarbe gilt und wie die Filteranzeige zurückgesetzt wird.",
-        "Bei ausgestecktem Gerät den Vorfilter absaugen oder abstauben und den Sensor mit einem trockenen Wattestäbchen oder weichen Pinsel reinigen.",
+        "Saugen oder stauben Sie bei ausgestecktem Gerät den Vorfilter ab und reinigen Sie den Sensor mit einem trockenen Wattestäbchen oder einem weichen Pinsel.",
         "Lüften Sie den Raum, beseitigen Sie nahe Schadstoffquellen wie Rauch oder Sprays und lassen Sie das Gerät einige Stunden auf hoher Stufe laufen.",
         "Setzen Sie nach dem Filterwechsel den Zähler laut Handbuch zurück, oft durch längeres Drücken einer bestimmten Taste."
       ],
@@ -1133,21 +1133,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se la spia resta rossa dopo la sostituzione del filtro, la pulizia del sensore e il reset, probabilmente è guasta la scheda o il sensore. Quando i filtri non si trovano più, o l'apparecchio è vecchio e rumoroso, conviene sostituirlo."
     },
     "nl": {
-      "intro": "Een permanent rood lampje op een luchtreiniger betekent meestal dat de sensor slechte luchtkwaliteit detecteert of dat de herinnering voor filtervervanging niet is gereset. De betekenis verschilt per model, dus raadpleeg de handleiding voordat u een defect aanneemt.",
+      "intro": "Een rood lampje dat blijft branden op een luchtreiniger betekent meestal dat de sensor slechte lucht meet of dat de filterherinnering niet is gereset. De betekenis verschilt per model, dus kijk in de handleiding voordat je van een defect uitgaat.",
       "causes": [
-        "Echt vervuilde lucht — kookdampen, stof of spuitbussen laten de sensor de waarschuwingskleur tonen tot de lucht is opgeknapt.",
-        "Filterherinnering niet gereset — de gebruikssteller blijft actief, ook na vervanging, als de reset niet is uitgevoerd.",
-        "Vuile fijnstofsensor — stof op de sensor vertekent de meting en houdt de aanduiding voor slechte luchtkwaliteit in stand.",
-        "Filter of deksel verkeerd geplaatst — het apparaat ziet een montagefout en houdt het waarschuwingslampje aan."
+        "Echt vervuilde lucht: door kookdampen, stof of spuitbussen toont de sensor de waarschuwingskleur tot de lucht weer schoon is.",
+        "Filterherinnering niet gereset: de teller loopt gewoon door als je hem na het vervangen van het filter niet terugzet.",
+        "Vuile fijnstofsensor: stof op de sensor vertekent de meting en houdt de aanduiding voor slechte luchtkwaliteit in stand.",
+        "Filter of deksel verkeerd geplaatst: het apparaat detecteert een montagefout en houdt het waarschuwingslampje aan."
       ],
       "steps": [
         "Trek de stekker eruit, open het deksel en controleer of het filter goed en in de juiste richting zit; sluit het deksel netjes.",
-        "Zoek in de handleiding op wat het rode lampje bij uw model betekent, welke waarschuwingskleur geldt en hoe u de filterindicator reset.",
-        "Stofzuig of stof bij een uitgeschakeld apparaat het voorfilter af en reinig de sensor met een droog wattenstaafje of zachte borstel.",
+        "Zoek in de handleiding op wat het rode lampje bij je model betekent, welke waarschuwingskleur geldt en hoe je de filterindicator reset.",
+        "Zet het apparaat uit, zuig of veeg het stof van het voorfilter en reinig de sensor met een droog wattenstaafje of een zachte borstel.",
         "Ventileer de kamer, verwijder nabije bronnen van vervuiling zoals rook of spuitbussen en laat het apparaat enkele uren op hoge stand draaien.",
         "Reset na het plaatsen van een nieuw filter de teller volgens de handleiding, vaak door een speciale knop enkele seconden ingedrukt te houden."
       ],
-      "replaceWhen": "Blijft het lampje rood na filtervervanging, sensorreiniging en reset, dan is waarschijnlijk het bord of de sensor defect. Zijn filters niet meer te krijgen of is het apparaat oud en luidruchtig, dan is vervangen zinvoller."
+      "replaceWhen": "Blijft het lampje rood na filtervervanging, sensorreiniging en reset, dan is waarschijnlijk de printplaat of de sensor defect. Zijn filters niet meer te krijgen of is het apparaat oud en luidruchtig, dan is vervangen zinvoller."
     },
     "pl": {
       "intro": "Czerwona kontrolka, która stale świeci w oczyszczaczu powietrza, najczęściej oznacza, że czujnik wykrył złą jakość powietrza albo że nie wyzerowano przypomnienia o wymianie filtra. Jej znaczenie zależy od modelu, więc zanim uznasz to za awarię, zajrzyj do instrukcji.",
@@ -1254,21 +1254,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the light stays on after careful descaling and a reset, or the boiler is heavily scaled, repair is costly. On an older unit used with very hard water, replacing it is often the better choice."
     },
     "de": {
-      "intro": "Die Entkalkungsanzeige einer Dampfstation bleibt nach dem Entkalken oft an, weil der Wartungszähler nicht zurückgesetzt wurde oder weil im Kessel noch Kalk oder Entkalkerreste vorhanden sind. Gründlich spülen und dann das Reset-Verfahren aus dem Handbuch befolgen.",
+      "intro": "Die Entkalkungsanzeige einer Dampfbügelstation bleibt nach dem Entkalken oft an, weil der Wartungszähler nicht zurückgesetzt wurde oder im Kessel noch Kalk oder Entkalkerreste sind. Spülen Sie gründlich und setzen Sie die Anzeige dann wie im Handbuch beschrieben zurück.",
       "causes": [
-        "Wartungszähler nicht zurückgesetzt — die Erinnerung beruht auf einem Zähler, der leuchtet, bis er bewusst zurückgestellt wird.",
-        "Unvollständiges Entkalken — im Kessel bleibt Kalk zurück und das Gerät meldet weiter, dass Wartung nötig ist.",
-        "Unzureichendes Spülen — Entkalkerreste verbleiben im Kessel und können die Warnung aufrechterhalten oder die Dampfleistung stören.",
-        "Verbrauchte Anti-Kalk-Kartusche oder Kassette — der eingebaute Filter ist gesättigt und schützt das Gerät nicht mehr."
+        "Wartungszähler nicht zurückgesetzt – die Erinnerung hängt an einem Zähler, und die Anzeige leuchtet, bis Sie ihn zurückstellen.",
+        "Unvollständig entkalkt – im Kessel bleibt Kalk zurück, und das Gerät meldet weiter, dass eine Wartung nötig ist.",
+        "Nicht gründlich genug gespült – Entkalkerreste bleiben im Kessel und können die Warnung auslösen oder den Dampf behindern.",
+        "Verbrauchte Anti-Kalk-Kartusche oder -Kassette – der eingebaute Filter ist gesättigt und schützt das Gerät nicht mehr."
       ],
       "steps": [
-        "Gerät ausstecken, vollständig abkühlen lassen und den Kesselverschluss niemals öffnen, solange er heiß ist oder unter Druck steht.",
-        "Lesen Sie das Entkalkungsverfahren im Handbuch erneut: zugelassenes Mittel, Dosierung, Einwirkzeit und empfohlene Anzahl der Spülgänge.",
+        "Ziehen Sie den Netzstecker, lassen Sie das Gerät vollständig abkühlen und öffnen Sie den Kesselverschluss niemals, solange das Gerät heiß ist oder unter Druck steht.",
+        "Lesen Sie die Entkalkungsanleitung im Handbuch noch einmal nach: zugelassenes Mittel, Dosierung, Einwirkzeit und empfohlene Zahl der Spülgänge.",
         "Spülen Sie den Kessel mehrmals mit klarem Wasser, indem Sie ihn füllen, schwenken und entleeren, bis keine Rückstände mehr herauskommen.",
         "Entkalken Sie erneut gründlich, wenn weiter kalkhaltiges Wasser abläuft, und spülen Sie danach nochmals, bevor Sie das Gerät wieder benutzen.",
         "Setzen Sie die Anzeige laut Handbuch zurück, oft durch längeres Drücken einer Taste, und tauschen Sie die Anti-Kalk-Kartusche, falls Ihr Modell eine hat."
       ],
-      "replaceWhen": "Bleibt die Anzeige nach sorgfältigem Entkalken und Reset an oder ist der Kessel stark verkalkt, ist die Reparatur teuer. Bei einem älteren Gerät mit sehr hartem Wasser ist der Austausch oft die bessere Wahl."
+      "replaceWhen": "Bleibt die Anzeige nach sorgfältigem Entkalken und Zurücksetzen an oder ist der Kessel stark verkalkt, wird die Reparatur teuer. Bei einem älteren Gerät, das mit sehr hartem Wasser betrieben wird, ist ein Neukauf oft die bessere Wahl."
     },
     "es": {
       "intro": "El piloto antical de un centro de planchado suele seguir encendido después de descalcificarlo porque no se ha puesto a cero el contador o porque en la caldera queda todavía cal o restos del producto. Aclara a fondo y sigue el procedimiento de reinicio del manual.",
@@ -1307,19 +1307,19 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
     "nl": {
       "intro": "Het antikalklampje van een stoomgenerator blijft na het ontkalken vaak branden omdat de onderhoudsteller niet is gereset, of omdat er nog kalk of ontkalkerresten in de boiler zitten. Spoel grondig na en volg daarna de resetprocedure uit de handleiding.",
       "causes": [
-        "Onderhoudsteller niet gereset — de herinnering gebruikt een teller die blijft branden tot hij bewust wordt teruggezet.",
-        "Onvolledig ontkalken — er blijft kalk in de boiler achter en het apparaat blijft aangeven dat onderhoud nodig is.",
-        "Onvoldoende naspoelen — resten ontkalker blijven in de boiler achter en kunnen de melding in stand houden of de stoomproductie beïnvloeden.",
-        "Versleten antikalkcartridge of -cassette — het ingebouwde filter is verzadigd en beschermt het apparaat niet meer."
+        "Onderhoudsteller niet gereset: de herinnering werkt met een teller, en het lampje blijft branden tot je die zelf terugzet.",
+        "Onvolledig ontkalken: er blijft kalk in de boiler achter en het apparaat blijft aangeven dat onderhoud nodig is.",
+        "Onvoldoende naspoelen: resten ontkalker blijven in de boiler achter en kunnen de melding in stand houden of de stoomproductie beïnvloeden.",
+        "Versleten antikalkcartridge of -cassette: het ingebouwde filter is verzadigd en beschermt het apparaat niet meer."
       ],
       "steps": [
         "Trek de stekker eruit, laat het apparaat volledig afkoelen en draai de boilerdop nooit los zolang die heet is of onder druk staat.",
         "Lees de ontkalkprocedure in de handleiding nog eens door: toegestaan middel, dosering, inwerktijd en het aanbevolen aantal spoelbeurten.",
         "Spoel de boiler meerdere keren met schoon water door hem te vullen, te zwenken en te legen tot er geen resten meer uitkomen.",
-        "Ontkalk opnieuw volledig als er nog kalkhoudend water uitloopt en spoel daarna nogmaals voordat u het apparaat weer gebruikt.",
-        "Reset het lampje volgens de handleiding, vaak door een knop lang in te drukken, en vervang de antikalkcartridge als uw model er een heeft."
+        "Komt er nog kalkhoudend water uit, ontkalk dan nog een keer volledig en spoel daarna opnieuw voordat je het apparaat weer gebruikt.",
+        "Reset het lampje volgens de handleiding, vaak door een knop lang in te drukken, en vervang de antikalkcartridge als je model er een heeft."
       ],
-      "replaceWhen": "Blijft het lampje branden na zorgvuldig ontkalken en een reset, of is de boiler sterk verkalkt, dan is reparatie duur. Bij een ouder toestel dat met zeer hard water is gebruikt, is vervangen vaak de betere keuze."
+      "replaceWhen": "Blijft het lampje branden na zorgvuldig ontkalken en een reset, of is de boiler sterk verkalkt, dan is reparatie duur. Bij een ouder apparaat dat met zeer hard water is gebruikt, is vervangen vaak de betere keuze."
     },
     "pl": {
       "intro": "Kontrolka odkamieniania w stacji parowej często świeci dalej po odkamienieniu, bo licznik nie został wyzerowany albo w bojlerze wciąż są kamień lub resztki odkamieniacza. Dokładnie przepłucz bojler, a potem wyzeruj kontrolkę zgodnie z instrukcją.",
@@ -1428,16 +1428,16 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
     "de": {
       "intro": "Gibt ein Dampfreiniger trotz vollem Tank keinen Dampf ab, liegt es meist an einem nicht richtig verriegelten Verschluss, an Kalk in Düse oder Kessel oder an zu kurzer Aufheizzeit. Prüfen Sie diese einfachen Punkte, bevor Sie Pumpe oder Heizelement verdächtigen.",
       "causes": [
-        "Verschluss oder Sicherung nicht richtig verriegelt — der Druck baut sich nicht auf oder die Sicherung verhindert den Dampfaustritt.",
-        "Kalk in Düse oder Kessel — Ablagerungen verengen den Weg für Wasser und Dampf bis zur Verstopfung.",
-        "Aufheizen nicht beendet oder Dampfstufe auf Minimum — Dampf kommt erst, wenn die Bereitschaftsanzeige leuchtet und die Stufe hoch genug eingestellt ist.",
-        "Schlauch, Aufsatz oder Auslöser blockiert — ein Knick, eine verstopfte Düse oder eine eingerastete Sicherung hält den Dampf auf."
+        "Verschluss oder Sicherung nicht richtig verriegelt – der Druck baut sich nicht auf, oder die Sicherung lässt keinen Dampf heraus.",
+        "Kalk in Düse oder Kessel – Ablagerungen verengen den Weg für Wasser und Dampf, bis er ganz verstopft ist.",
+        "Aufheizen nicht beendet oder Dampfstufe auf Minimum – Dampf kommt erst, wenn die Bereitschaftsanzeige leuchtet und die Stufe hoch genug eingestellt ist.",
+        "Schlauch, Aufsatz oder Auslöser blockiert – ein Knick, eine verstopfte Düse oder eine eingerastete Sicherung hält den Dampf auf."
       ],
       "steps": [
-        "Gerät ausstecken und vollständig abkühlen lassen; öffnen Sie den Kesselverschluss niemals, solange er heiß ist oder unter Druck steht.",
-        "Prüfen Sie, ob der Tank richtig gefüllt, der Verschluss fest verriegelt und der Wasserstand nicht über der Maximalmarkierung ist.",
-        "Wieder einstecken, auf die Bereitschaftsanzeige warten, den Dampfregler prüfen und dann die Sicherung am Auslöser lösen.",
-        "Aufsatz abnehmen, Schlauch auf Knicke oder Verstopfung prüfen und die Düsen mit einer weichen Bürste oder einer feinen Nadel freimachen.",
+        "Ziehen Sie den Netzstecker und lassen Sie das Gerät vollständig abkühlen; öffnen Sie den Kesselverschluss niemals, solange der Kessel heiß ist oder unter Druck steht.",
+        "Prüfen Sie, ob der Tank richtig gefüllt und der Verschluss fest verriegelt ist und der Wasserstand die Maximalmarkierung nicht überschreitet.",
+        "Stecken Sie das Gerät wieder ein, warten Sie auf die Bereitschaftsanzeige, prüfen Sie den Dampfregler und entriegeln Sie dann die Sicherung am Auslöser.",
+        "Nehmen Sie den Aufsatz ab, prüfen Sie den Schlauch auf Knicke oder Verstopfungen und machen Sie die Düsen mit einer weichen Bürste oder einer feinen Nadel frei.",
         "Entkalken Sie gemäß Handbuch mit dem zugelassenen Mittel, spülen Sie gründlich und nutzen Sie demineralisiertes Wasser, falls der Hersteller es erlaubt."
       ],
       "replaceWhen": "Kommt nach dem Entkalken und der Prüfung des Zubehörs kein Dampf zurück, ist eine defekte Pumpe oder ein defektes Heizelement wahrscheinlich. Bei einem älteren oder stark verkalkten Gerät kosten solche Reparaturen oft mehr als ein Ersatz und sind nicht immer sicher."
@@ -1477,21 +1477,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il vapore non torna dopo la decalcificazione e il controllo degli accessori, è probabile un guasto alla pompa o alla resistenza. Su un apparecchio vecchio o molto incrostato, queste riparazioni costano spesso più di uno nuovo e non sempre sono sicure."
     },
     "nl": {
-      "intro": "Een stoomreiniger die geen stoom meer geeft ondanks een vol reservoir heeft meestal een slecht vergrendelde dop, kalk die het mondstuk of de boiler verstopt, of een te korte opwarmtijd. Controleer deze eenvoudige punten voordat u de pomp of het verwarmingselement verdenkt.",
+      "intro": "Een stoomreiniger die geen stoom meer geeft ondanks een vol reservoir heeft meestal een slecht vergrendelde dop, kalk die het mondstuk of de boiler verstopt, of een te korte opwarmtijd. Controleer deze eenvoudige punten voordat je de pomp of het verwarmingselement verdenkt.",
       "causes": [
-        "Dop of veiligheidsvergrendeling niet goed vast — de druk loopt niet op of de beveiliging laat geen stoom ontsnappen.",
-        "Kalk in mondstuk of boiler — afzettingen vernauwen de doorgang voor water en stoom tot die geblokkeerd raakt.",
-        "Opwarmen niet klaar of stoomstand op minimum — stoom komt pas als het klaarlampje brandt en de regelaar hoog genoeg staat.",
-        "Slang, opzetstuk of trekker verstopt — een knik, een verstopt mondstuk of een ingeschakelde veiligheidsvergrendeling houdt de stoom tegen."
+        "Dop of veiligheidsvergrendeling niet goed vast: de druk loopt niet op of de beveiliging houdt de stoom tegen.",
+        "Kalk in mondstuk of boiler: afzettingen vernauwen de doorgang voor water en stoom tot die helemaal dichtzit.",
+        "Opwarmen niet klaar of stoomstand op minimum: stoom komt pas als het klaarlampje brandt en de regelaar hoog genoeg staat.",
+        "Slang, opzetstuk of trekker verstopt: een knik, een verstopt mondstuk of een ingeschakelde veiligheidsvergrendeling houdt de stoom tegen."
       ],
       "steps": [
         "Trek de stekker eruit en laat het apparaat volledig afkoelen; open de boilerdop nooit zolang die heet is of onder druk staat.",
         "Controleer of het reservoir goed gevuld is, de dop stevig vergrendeld zit en het waterniveau het maximum niet overschrijdt.",
-        "Steek de stekker weer in, wacht op het klaarlampje, controleer de stoomregelaar en ontgrendel daarna de veiligheid van de trekker.",
+        "Steek de stekker weer in, wacht op het klaarlampje, controleer de stoomregelaar en ontgrendel daarna de trekker.",
         "Haal het opzetstuk eraf, controleer of de slang niet geknikt of verstopt is en maak de mondstukken vrij met een zachte borstel of een dunne naald.",
         "Ontkalk volgens de handleiding met het toegestane middel, spoel goed na en gebruik gedemineraliseerd water als de fabrikant dat toestaat."
       ],
-      "replaceWhen": "Komt er na ontkalken en het controleren van de accessoires geen stoom terug, dan is een defecte pomp of verwarmingselement waarschijnlijk. Bij een ouder of sterk verkalkt toestel kosten die reparaties vaak meer dan vervanging en zijn ze niet altijd veilig."
+      "replaceWhen": "Komt er na ontkalken en het controleren van de accessoires geen stoom terug, dan is waarschijnlijk de pomp of het verwarmingselement defect. Bij een ouder of sterk verkalkt apparaat kosten die reparaties vaak meer dan vervanging en zijn ze niet altijd veilig."
     },
     "pl": {
       "intro": "Jeśli myjka parowa nie wytwarza pary, choć zbiornik jest pełny, najczęściej winny jest źle zamknięty korek, kamień zatykający dyszę lub kocioł albo zbyt krótkie nagrzewanie. Sprawdź te proste rzeczy, zanim zaczniesz podejrzewać pompę lub grzałkę.",
@@ -1600,17 +1600,17 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Replacing the fan only makes sense if the original remote is no longer sold and no button, app or voice assistant can control it. Otherwise a spare remote costs far less than a new appliance."
     },
     "de": {
-      "intro": "Eine verlorene Fernbedienung ist bei einem smarten Ventilator meist kein Drama, denn die meisten Modelle lassen sich auch per App, über die Tasten am Gerät oder per Sprachassistent steuern. Am schnellsten gelingt es mit der Hersteller-App; eine Ersatz-Fernbedienung lässt sich danach in Ruhe bestellen.",
+      "intro": "Eine verlorene Fernbedienung ist bei einem smarten Ventilator selten ein Problem: Die meisten Modelle lassen sich auch per App, über die Tasten am Gerät oder per Sprachassistent steuern. Am einfachsten nutzen Sie die Hersteller-App und bestellen danach in Ruhe eine Ersatzfernbedienung.",
       "causes": [
-        "Fernbedienung nur verlegt — der Ventilator reagiert weiterhin auf die Tasten am Sockel oder Kopf, das Gerät selbst ist also in Ordnung.",
-        "Batterien leer oder entfernt — eine wiedergefundene Fernbedienung reagiert nicht, die Sendeanzeige bleibt beim Tastendruck dunkel.",
-        "Ventilator nie mit dem WLAN verbunden — die App findet ihn nicht, weil bisher nur die Infrarot- oder Funk-Fernbedienung genutzt wurde.",
-        "Funk-Fernbedienung nicht mehr gekoppelt — nach einem Stromausfall ignoriert der Ventilator das Gerät, bis es neu angelernt wird."
+        "Fernbedienung nur verlegt – der Ventilator reagiert weiterhin auf die Tasten am Sockel oder am Kopf; das Gerät selbst ist also in Ordnung.",
+        "Batterien leer oder entfernt – eine wiedergefundene Fernbedienung reagiert nicht, die Sendeanzeige bleibt beim Tastendruck dunkel.",
+        "Ventilator nie mit dem WLAN verbunden – die App findet ihn nicht, weil bisher nur die Infrarot- oder Funk-Fernbedienung genutzt wurde.",
+        "Funk-Fernbedienung nicht mehr gekoppelt – nach einem Stromausfall ignoriert der Ventilator die wiedergefundene Fernbedienung, bis Sie sie neu koppeln."
       ],
       "steps": [
-        "Suchen Sie zuerst unter Kissen, in Schubladen und rund um den Ventilator und testen Sie die Tasten am Gerät, um dessen Funktion zu bestätigen.",
-        "Ziehen Sie den Netzstecker, warten Sie zehn Sekunden und stecken Sie ihn wieder ein; aktivieren Sie laut Anleitung den WLAN-Kopplungsmodus, falls vorhanden.",
-        "Installieren Sie die Hersteller-App, legen Sie ein Konto an und binden Sie den Ventilator im 2,4-GHz-Netz ein; dann steuern Sie Stufe, Schwenkfunktion und Timer.",
+        "Suchen Sie zuerst unter Kissen, in Schubladen und rund um den Ventilator und testen Sie die Tasten am Gerät, um sicherzugehen, dass es funktioniert.",
+        "Ziehen Sie den Netzstecker, warten Sie zehn Sekunden und stecken Sie ihn wieder ein; aktivieren Sie dann laut Anleitung den WLAN-Kopplungsmodus, sofern Ihr Modell WLAN hat.",
+        "Installieren Sie die Hersteller-App, legen Sie ein Konto an und binden Sie den Ventilator im 2,4-GHz-Netz ein; danach regeln Sie Stufe, Schwenkfunktion und Timer in der App.",
         "Verknüpfen Sie den Ventilator, wenn möglich, mit einem Sprachassistenten oder einer smarten Steckdose, um ihn auch ohne Fernbedienung ein- und auszuschalten.",
         "Nutzen Sie bei Infrarotmodellen eine Universalfernbedienung oder einen smarten IR-Sender und wählen Sie den Code der passenden Marke.",
         "Bei Funkmodellen bestellen Sie genau die auf dem Typenschild genannte Ersatzfernbedienung und koppeln sie wie in der Anleitung beschrieben neu."
@@ -1656,20 +1656,20 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
     "nl": {
       "intro": "Een kwijtgeraakte afstandsbediening van een slimme ventilator is zelden een echt probleem, omdat de meeste modellen ook met de app, de knoppen op het apparaat of een spraakassistent te bedienen zijn. Gebruik eerst de app van de fabrikant en bestel daarna eventueel een vervangende afstandsbediening.",
       "causes": [
-        "Afstandsbediening gewoon zoekgeraakt — de ventilator reageert nog op de knoppen op de voet of kop, dus het apparaat zelf werkt.",
-        "Lege of verwijderde batterijen — een teruggevonden afstandsbediening doet niets en het zendlampje blijft donker bij het indrukken van een toets.",
-        "Ventilator nooit aan wifi gekoppeld — de app vindt hem niet, omdat tot nu toe alleen de infrarood- of radiobediening werd gebruikt.",
-        "Radiobediening niet meer gekoppeld — na een stroomstoring negeert de ventilator de teruggevonden afstandsbediening tot hij opnieuw is gekoppeld."
+        "Afstandsbediening gewoon zoekgeraakt: de ventilator reageert nog op de knoppen op de voet of kop, dus het apparaat zelf werkt.",
+        "Lege of ontbrekende batterijen: een teruggevonden afstandsbediening doet niets en het zendlampje blijft donker bij het indrukken van een toets.",
+        "Ventilator nooit aan wifi gekoppeld: de app vindt hem niet, omdat tot nu toe alleen de infrarood- of radiobediening werd gebruikt.",
+        "Radiobediening niet meer gekoppeld: na een stroomstoring negeert de ventilator de teruggevonden afstandsbediening tot hij opnieuw is gekoppeld."
       ],
       "steps": [
         "Zoek eerst onder kussens, in laden en rond de ventilator en test de knoppen op het apparaat om te bevestigen dat het werkt.",
-        "Haal de stekker eruit, wacht tien seconden en steek hem terug; schakel bij een verbonden model de wifi-koppeling in volgens de handleiding.",
-        "Installeer de app van de fabrikant, maak een account aan en voeg de ventilator toe op een 2,4 GHz-netwerk; dan stelt u snelheid, zwenken en timer in.",
+        "Haal de stekker eruit, wacht tien seconden en steek hem terug; zet bij een model met wifi de koppelmodus aan volgens de handleiding.",
+        "Installeer de app van de fabrikant, maak een account aan en voeg de ventilator toe op een 2,4 GHz-netwerk; daarna regel je snelheid, zwenken en timer via de app.",
         "Koppel de ventilator, als dat kan, aan een spraakassistent of slimme stekker om hem zonder afstandsbediening aan en uit te zetten.",
         "Gebruik bij een infraroodmodel een universele afstandsbediening of een slimme IR-zender en kies de code van het juiste merk.",
         "Bestel bij een radiomodel exact de afstandsbediening die op het typeplaatje staat en koppel die opnieuw zoals de handleiding beschrijft."
       ],
-      "replaceWhen": "Een nieuwe ventilator is alleen zinvol als de originele afstandsbediening niet meer te koop is en geen knop, app of spraakassistent de bediening mogelijk maakt. Anders is een reserve-afstandsbediening veel goedkoper dan een nieuw apparaat."
+      "replaceWhen": "Een nieuwe ventilator is alleen zinvol als de originele afstandsbediening niet meer te koop is en je hem ook niet met de knoppen, de app of een spraakassistent kunt bedienen. Anders is een reserve-afstandsbediening veel goedkoper dan een nieuw apparaat."
     },
     "pl": {
       "intro": "Zgubiony pilot od inteligentnego wentylatora rzadko oznacza kłopot: większością modeli można sterować także z aplikacji, przyciskami na obudowie albo głosem przez asystenta. Najprościej skorzystać z aplikacji producenta, a potem zamówić zamienny pilot.",
@@ -1784,23 +1784,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the flicker carries on despite new batteries, a different power supply and a reset, the display or circuit board is probably failing. On an entry-level unit with no spare parts available, replacing it usually makes more sense than repairing it."
     },
     "de": {
-      "intro": "Ein flackerndes Display bei einer smarten Wetterstation liegt fast immer an der Stromversorgung: schwache Batterien in Basisstation oder Sensor oder ein ungeeignetes Netzteil. Wechseln Sie zuerst die Batterien und testen Sie eine andere Steckdose, bevor Sie das Display selbst verdächtigen.",
+      "intro": "Flackert das Display einer WLAN-Wetterstation, liegt es fast immer an der Stromversorgung: schwache Batterien in Basisstation oder Sensor oder ein ungeeignetes Netzteil. Wechseln Sie zuerst die Batterien und testen Sie eine andere Steckdose, bevor Sie das Display selbst verdächtigen.",
       "causes": [
-        "Schwache Batterien in der Basisstation — das Flackern verstärkt sich beim Einschalten der Beleuchtung, besonders im reinen Batteriebetrieb.",
-        "Defektes oder falsches Netzteil — das Display flimmert zeitweise, auch mit neuen oder ganz ohne Batterien.",
-        "Wackelkontakt im Batteriefach — das Display startet neu, sobald man die Station berührt oder verschiebt.",
-        "Funkstörung oder instabiles Sensorsignal — das Display aktualisiert ständig, während die Station vergeblich den Außensensor sucht.",
-        "Defektes Display oder Platine — das Flackern bleibt trotz korrekter Stromversorgung und neuer Batterien bestehen."
+        "Schwache Batterien in der Basisstation – das Flackern verstärkt sich, sobald die Hintergrundbeleuchtung angeht, besonders im reinen Batteriebetrieb.",
+        "Defektes oder falsches Netzteil – das Display flimmert zeitweise, auch mit neuen oder ganz ohne Batterien.",
+        "Wackelkontakt im Batteriefach – das Display startet neu, sobald Sie die Station berühren oder verschieben.",
+        "Funkstörung oder instabiles Sensorsignal – das Display baut sich ständig neu auf, während die Station vergeblich den Außensensor sucht.",
+        "Defektes Display oder Platine – das Flackern bleibt trotz korrekter Stromversorgung und neuer Batterien bestehen."
       ],
       "steps": [
         "Nehmen Sie die Batterien aus Station und Außensensor, warten Sie eine Minute und setzen Sie neue Alkaline-Batterien mit richtiger Polung ein.",
         "Prüfen Sie bei Netzbetrieb, ob das Netzteil zu Spannung und Strom auf der Station passt, und probieren Sie eine andere Steckdose.",
-        "Reinigen Sie die Batteriekontakte mit einem trockenen Tuch; tauschen Sie rostige Federn nur, wenn sie sich ohne Spezialwerkzeug lösen lassen.",
+        "Reinigen Sie die Batteriekontakte mit einem trockenen Tuch; tauschen Sie rostige oder verbogene Kontaktfedern nur, wenn sie sich ohne Spezialwerkzeug lösen lassen.",
         "Stellen Sie die Station weg von Router, Mikrowelle und Telefon und platzieren Sie den Außensensor näher, um zu sehen, ob das Flackern aufhört.",
-        "Setzen Sie die Station mit der Reset-Taste zurück, falls vorhanden, und koppeln Sie den Sensor laut Anleitung neu, beide Geräte nebeneinander.",
-        "Dimmen oder deaktivieren Sie die Beleuchtung in den Einstellungen; ist sie der Auslöser, ist die Stromversorgung zu schwach."
+        "Setzen Sie die Station mit der Reset-Taste zurück, falls vorhanden, und koppeln Sie den Sensor laut Anleitung neu; legen Sie beide Geräte dabei nebeneinander.",
+        "Dimmen Sie die Hintergrundbeleuchtung in den Einstellungen oder schalten Sie sie ab. Verschwindet das Flackern dann, ist die Stromversorgung zu schwach."
       ],
-      "replaceWhen": "Flackert das Display trotz neuer Batterien, anderer Stromquelle und Reset weiter, ist vermutlich Display oder Platine defekt. Bei einem einfachen Gerät ohne erhältliche Ersatzteile ist ein Neukauf meist sinnvoller als eine Reparatur."
+      "replaceWhen": "Flackert das Display trotz neuer Batterien, anderer Stromquelle und Reset weiter, ist vermutlich Display oder Platine defekt. Bei einem Einsteigermodell, für das es keine Ersatzteile gibt, ist ein Neukauf meist sinnvoller als eine Reparatur."
     },
     "es": {
       "intro": "Si la pantalla de tu estación meteorológica con wifi parpadea, casi siempre es un problema de alimentación: pilas bajas en la consola o en el sensor, o un adaptador de corriente que no es el adecuado. Empieza por cambiar las pilas y probar otro enchufe antes de sospechar de la pantalla.",
@@ -1841,21 +1841,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il lampeggio continua con batterie nuove, un altro alimentatore e il reset, probabilmente è guasto il display o la scheda. Su un modello economico senza ricambi disponibili, di solito conviene sostituirlo piuttosto che ripararlo."
     },
     "nl": {
-      "intro": "Een knipperend scherm bij een slim weerstation komt vrijwel altijd door de voeding: zwakke batterijen in het basisstation of de sensor, of een ongeschikte adapter. Vervang eerst de batterijen en probeer een ander stopcontact voordat u het scherm zelf verdenkt.",
+      "intro": "Een knipperend scherm bij een slim weerstation komt vrijwel altijd door de voeding: zwakke batterijen in het basisstation of de sensor, of een ongeschikte adapter. Vervang eerst de batterijen en probeer een ander stopcontact voordat je het scherm zelf verdenkt.",
       "causes": [
-        "Zwakke batterijen in het basisstation — het knipperen wordt erger zodra de achtergrondverlichting aangaat, vooral bij uitsluitend batterijvoeding.",
-        "Defecte of verkeerde netadapter — het scherm flikkert af en toe, ook met nieuwe batterijen of zonder batterijen.",
-        "Slecht contact in het batterijvak — het scherm start opnieuw op als u het station aanraakt of verplaatst.",
-        "Radiostoring of instabiel sensorsignaal — het scherm ververst steeds terwijl het station tevergeefs de buitensensor zoekt.",
-        "Defect scherm of printplaat — het knipperen blijft bestaan ondanks juiste voeding en nieuwe batterijen."
+        "Zwakke batterijen in het basisstation: het knipperen wordt erger zodra de achtergrondverlichting aangaat, vooral als het station alleen op batterijen werkt.",
+        "Defecte of verkeerde netadapter: het scherm flikkert af en toe, ook met nieuwe batterijen of zonder batterijen.",
+        "Slecht contact in het batterijvak: het scherm start opnieuw op als je het station aanraakt of verplaatst.",
+        "Radiostoring of instabiel sensorsignaal: het scherm ververst steeds terwijl het station tevergeefs de buitensensor zoekt.",
+        "Defect scherm of printplaat: het knipperen blijft bestaan ondanks juiste voeding en nieuwe batterijen."
       ],
       "steps": [
         "Haal de batterijen uit het station en de buitensensor, wacht een minuut en plaats nieuwe alkalinebatterijen met de juiste polariteit.",
         "Controleer bij netvoeding of de adapter overeenkomt met de spanning en stroom op het station en probeer een ander stopcontact.",
         "Veeg de batterijcontacten af met een droge doek; vervang een roestige of verbogen veer alleen als die zonder speciaal gereedschap losgaat.",
         "Plaats het station uit de buurt van router, magnetron en telefoon en zet de buitensensor dichterbij om te zien of het knipperen stopt.",
-        "Reset het station met de resetknop, indien aanwezig, en synchroniseer de sensor opnieuw volgens de handleiding, beide naast elkaar.",
-        "Dim of schakel de achtergrondverlichting uit in de instellingen; als dat de oorzaak is, is de voeding te zwak."
+        "Reset het station met de resetknop als die er is, en koppel de sensor opnieuw volgens de handleiding, met beide apparaten naast elkaar.",
+        "Dim de achtergrondverlichting of zet hem uit in de instellingen; stopt het knipperen dan, dan is de voeding te zwak."
       ],
       "replaceWhen": "Blijft het scherm knipperen met nieuwe batterijen, een andere voeding en een reset, dan is waarschijnlijk het scherm of de printplaat defect. Bij een eenvoudig apparaat zonder verkrijgbare onderdelen is vervangen meestal verstandiger dan repareren."
     },
@@ -1976,21 +1976,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If a clean, correctly fitted roller still won't turn, the brush motor or circuit board is probably at fault. On an older machine with a tired battery, an expensive repair is rarely worth it and replacing the machine usually makes more sense."
     },
     "de": {
-      "intro": "Dreht sich die Walze eines Nass-Trocken-Saugers nicht mehr, ist meist eine mechanische Blockade durch Haare, Fäden oder Schmutz an der Achse schuld. Schalten Sie das Gerät aus, trennen Sie es von der Station, nehmen Sie die Walze heraus und reinigen Sie sie, bevor Sie einen Motorschaden vermuten.",
+      "intro": "Dreht sich die Walze eines Wischsaugers nicht mehr, ist meist eine mechanische Blockade durch Haare, Fäden oder Schmutz an der Achse schuld. Schalten Sie das Gerät aus, nehmen Sie es von der Station, bauen Sie die Walze aus und reinigen Sie sie, bevor Sie einen Motorschaden vermuten.",
       "causes": [
-        "Haare und Fäden an den Walzenenden — die Walze dreht ruckartig, quält sich, dann stoppt das Gerät oder schabt hörbar.",
-        "Walze nicht richtig eingesetzt — sie greift nicht in den Antrieb, steht still, während der Motor brummt.",
-        "Fremdkörper im Bürstengehäuse — ein kleiner Gegenstand blockiert die Drehung, die Walze lässt sich von Hand nur schwer drehen.",
-        "Akku schwach oder Überhitzungsschutz ausgelöst — die Drehung lässt nach starker Nutzung nach oder stoppt und kehrt nach einer Pause zurück.",
-        "Verschlissener Riemen oder Bürstenmotor — die Walze dreht sich von Hand frei, wird aber nicht mehr angetrieben, auch sauber und korrekt montiert."
+        "Haare und Fäden an den Walzenenden – die Walze dreht ruckartig und schwer, dann stoppt das Gerät oder es schabt hörbar.",
+        "Walze nicht richtig eingesetzt – sie greift nicht in den Antrieb und steht still, während der Motor brummt.",
+        "Fremdkörper im Bürstengehäuse – ein kleiner Gegenstand blockiert die Walze, sie lässt sich nur schwer von Hand drehen.",
+        "Akku schwach oder Überhitzungsschutz ausgelöst – nach intensiver Nutzung dreht die Walze langsamer oder bleibt stehen und läuft nach einer Pause wieder an.",
+        "Riemen oder Bürstenmotor verschlissen – die Walze lässt sich von Hand frei drehen, wird aber nicht mehr angetrieben, obwohl sie sauber und richtig eingesetzt ist."
       ],
       "steps": [
         "Schalten Sie das Gerät aus, nehmen Sie es von der Station und entfernen Sie die Walze laut Anleitung; drehen Sie sie von Hand und achten Sie auf Schwergängigkeit.",
-        "Schneiden Sie Haare und Fäden an den Enden mit einer Schere ab und ziehen Sie sie heraus, ohne die weiche Walzenoberfläche zu verletzen.",
+        "Schneiden Sie Haare und Fäden an den Enden mit einer Schere ab und ziehen Sie sie heraus, ohne die weiche Walze zu beschädigen.",
         "Leuchten Sie in den Walzenschacht und die Endkappen und entfernen Sie eingeklemmte Fremdkörper von Hand oder mit einer Pinzette.",
         "Spülen Sie die Walze mit lauwarmem Wasser, lassen Sie sie vollständig trocknen und setzen Sie sie so ein, dass sie am Antrieb einrastet.",
         "Laden Sie den Akku vollständig, lassen Sie das Gerät abkühlen und starten Sie eine kurze Reinigung, um zu prüfen, ob sich die Walze wieder dreht.",
-        "Dreht sie sich weiter nicht, prüfen Sie in der Anleitung die vom Nutzer tauschbaren Verschleißteile und kontaktieren Sie bei Garantie den Kundendienst."
+        "Dreht sie sich weiterhin nicht, sehen Sie in der Anleitung nach, welche Verschleißteile Sie selbst tauschen können, und wenden Sie sich bei bestehender Garantie an den Kundendienst."
       ],
       "replaceWhen": "Dreht sich eine saubere, korrekt eingesetzte Walze weiterhin nicht, sind Bürstenmotor oder Platine wahrscheinlich defekt. Eine teure Reparatur bei einem älteren Gerät mit müdem Akku spricht eher für einen Ersatz."
     },
@@ -2033,23 +2033,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il rullo, pulito e ben montato, continua a non girare, probabilmente è guasto il motore della spazzola o la scheda. Su un apparecchio vecchio, con una batteria ormai esausta, una riparazione costosa non conviene: meglio sostituirlo."
     },
     "nl": {
-      "intro": "Als de rol van een nat-droogzuiger niet meer draait, is de meest voorkomende oorzaak een mechanische blokkade door haar, draad of vuil rond de as. Zet het apparaat uit, haal het van de lader, verwijder de rol en maak die schoon voordat u een motordefect vermoedt.",
+      "intro": "Als de rol van een nat-droogzuiger niet meer draait, is de meest voorkomende oorzaak een mechanische blokkade door haar, draad of vuil rond de as. Zet het apparaat uit, haal het van de lader, verwijder de rol en maak die schoon voordat je een motordefect vermoedt.",
       "causes": [
-        "Haar en draad rond de uiteinden van de rol — de rol draait schokkerig, moet zwoegen en het apparaat stopt of schraapt hoorbaar.",
-        "Rol niet goed geplaatst — hij grijpt niet in de aandrijving en staat stil terwijl de motor zoemt.",
-        "Vreemd voorwerp vast in de borstelunit — een klein voorwerp blokkeert de draaiing en de rol voelt zwaar aan met de hand.",
-        "Accu zwak of thermische beveiliging geactiveerd — het draaien neemt af of stopt na intensief gebruik en komt na een pauze terug.",
-        "Versleten riem of borstelmotor — de rol draait vrij met de hand maar wordt niet meer aangedreven, ook schoon en juist geplaatst."
+        "Haar en draad rond de uiteinden van de rol: de rol draait schokkerig en zwaar, en het apparaat stopt of maakt een schurend geluid.",
+        "Rol niet goed geplaatst: hij grijpt niet in de aandrijving en staat stil terwijl de motor zoemt.",
+        "Vreemd voorwerp vast in de borstelunit: een klein voorwerp blokkeert de draaiing en de rol draait met de hand zwaar.",
+        "Accu zwak of thermische beveiliging geactiveerd: het draaien neemt af of stopt na intensief gebruik en komt na een pauze terug.",
+        "Versleten riem of borstelmotor: de rol draait vrij met de hand maar wordt niet meer aangedreven, ook als hij schoon is en goed zit."
       ],
       "steps": [
-        "Zet het apparaat uit, haal het van het dock en verwijder de rol zoals in de handleiding staat; draai hem met de hand en voel op een strakke plek.",
-        "Knip haar en draad rond de uiteinden los met een schaar en trek het weg, zonder het mes langs het zachte rolmateriaal te halen.",
+        "Zet het apparaat uit, haal het van het dock en verwijder de rol zoals in de handleiding staat; draai hem met de hand en voel of hij ergens stroef loopt.",
+        "Knip haar en draad rond de uiteinden los met een schaar en trek het weg, zonder in het zachte rolmateriaal te knippen.",
         "Bekijk het rolcompartiment en de eindkappen met een zaklamp en verwijder ingeklemd vuil met de hand of een pincet.",
         "Spoel de rol af met lauw water, laat hem volledig drogen en plaats hem terug zodat hij aan de motorzijde in de aandrijving klikt.",
         "Laad de accu volledig op, laat het apparaat afkoelen en start een korte reiniging om te zien of de rol weer draait.",
-        "Draait hij nog niet, kijk in de handleiding naar slijtdelen die u zelf mag vervangen en neem bij garantie contact op met de klantenservice."
+        "Draait hij nog steeds niet, kijk dan in de handleiding welke slijtdelen je zelf mag vervangen en neem bij garantie contact op met de klantenservice."
       ],
-      "replaceWhen": "Als een schone, juist geplaatste rol nog steeds niet draait, is waarschijnlijk de borstelmotor of printplaat defect. Een dure reparatie aan een ouder apparaat met een vermoeide accu pleit eerder voor vervanging."
+      "replaceWhen": "Als een schone, juist geplaatste rol nog steeds niet draait, is waarschijnlijk de borstelmotor of printplaat defect. Een dure reparatie aan een ouder apparaat met een accu die op zijn retour is pleit eerder voor vervanging."
     },
     "pl": {
       "intro": "Gdy wałek odkurzacza myjącego przestaje się obracać, najczęściej blokuje go coś mechanicznie: włosy, nitki lub zanieczyszczenia nawinięte na oś. Wyłącz urządzenie, odłącz je od prądu, wyjmij wałek i go wyczyść, zanim zaczniesz szukać usterki silnika.",
@@ -2168,17 +2168,17 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If there is still no mist after a careful clean and the plate is cracked or blackened, or the circuit is dead, a repair is rarely possible. These units are cheap, so replacing it is usually the more sensible option."
     },
     "de": {
-      "intro": "Ein Aromadiffuser, der keinen Nebel mehr erzeugt, ist meist verschmutzt: Die Ultraschallplatte ist mit Kalk oder Ölrückständen belegt. Eine Reinigung mit verdünntem Essig und etwas Alkohol, gefolgt von gründlichem Spülen, löst die allermeisten Fälle meist schon.",
+      "intro": "Ein Aroma-Diffuser, der keinen Nebel mehr erzeugt, ist meist verschmutzt: Die Ultraschallplatte ist mit Kalk oder Ölrückständen belegt. Eine Reinigung mit Essigwasser und verdünntem Spiritus löst das Problem in den meisten Fällen.",
       "causes": [
-        "Ultraschallplatte verkalkt oder ölverschmutzt — Licht und Pumpe laufen, aber es kommt kaum oder kein Nebel heraus.",
-        "Wasserstand zu niedrig oder zu hoch — der Trockenlaufschutz stoppt den Nebel, oder Überfüllung behindert die Schwingung der Platte.",
-        "Zu viel ätherisches Öl oder zähflüssiges Öl — ein klebriger Film dämpft die Schwingung der Platte.",
-        "Sehr hartes Wasser — weiße Ablagerungen bilden sich schnell auf der Platte und im Nebelauslass.",
-        "Strom- oder Platinenfehler — weder Licht noch Geräusch, oder das Licht leuchtet, aber es entsteht auch nach Reinigung nie Nebel."
+        "Ultraschallplatte verkalkt oder ölverschmutzt – Licht und Pumpe laufen, aber es kommt kaum oder kein Nebel heraus.",
+        "Wasserstand zu niedrig oder zu hoch – der Trockenlaufschutz stoppt den Nebel, oder Überfüllung behindert die Schwingung der Platte.",
+        "Zu viel oder zu zähflüssiges ätherisches Öl – ein klebriger Film dämpft die Schwingung der Platte.",
+        "Sehr hartes Wasser – weiße Ablagerungen bilden sich schnell auf der Platte und im Nebelauslass.",
+        "Defekt an Netzteil oder Platine – weder Licht noch Geräusch, oder das Licht leuchtet, aber auch nach der Reinigung entsteht kein Nebel."
       ],
       "steps": [
         "Ziehen Sie den Netzstecker, leeren Sie das Restwasser und lassen Sie das Gerät einige Minuten trocknen, bevor Sie es anfassen.",
-        "Füllen Sie es halb mit Wasser und etwas weißem Essig, lassen Sie es zehn Minuten ohne Betrieb stehen, leeren und spülen Sie es gründlich.",
+        "Füllen Sie das Gerät halb mit Wasser und etwas Essig, lassen Sie es zehn Minuten ausgeschaltet stehen, leeren Sie es dann und spülen Sie es gründlich aus.",
         "Wischen Sie die Ultraschallplatte vorsichtig mit einem in Essig oder Alkohol getränkten Wattestäbchen ab, ohne zu kratzen oder stark zu drücken.",
         "Spülen Sie mit klarem Wasser, wischen Sie den Nebelauslass trocken und füllen Sie bis zwischen Min- und Max-Markierung auf.",
         "Geben Sie nur wenige Tropfen hochwertiges ätherisches Öl hinzu, schalten Sie ein und prüfen Sie, ob innerhalb einer Minute Nebel entsteht.",
@@ -2227,18 +2227,18 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
     "nl": {
       "intro": "Een aromadiffuser die geen nevel meer maakt, zit meestal verstopt: de ultrasone plaat is bedekt met kalk of olieresten. Schoonmaken met verdunde witte azijn en een beetje alcohol, gevolgd door grondig spoelen, lost de meeste gevallen op.",
       "causes": [
-        "Ultrasone plaat verkalkt of vervuild met olie — lampje en pomp werken, maar er komt weinig of geen nevel uit.",
-        "Waterniveau te laag of te hoog — de droogloopbeveiliging stopt de nevel, of overvulling belemmert het trillen van de plaat.",
-        "Te veel etherische olie of een dikke olie — een kleverige laag dempt de trilling van de plaat.",
-        "Zeer hard water — witte afzettingen ontstaan snel op de plaat en in de nevelopening.",
-        "Voedings- of printplaatfout — helemaal geen licht of geluid, of het lampje brandt maar er komt ook na schoonmaken geen nevel."
+        "Ultrasone plaat verkalkt of vervuild met olie: lampje en pomp werken, maar er komt weinig of geen nevel uit.",
+        "Waterniveau te laag of te hoog: de droogloopbeveiliging stopt de nevel, of te veel water belemmert het trillen van de plaat.",
+        "Te veel etherische olie of een dikke olie: een kleverige laag dempt de trilling van de plaat.",
+        "Zeer hard water: witte afzettingen ontstaan snel op de plaat en in de nevelopening.",
+        "Voedings- of printplaatfout: helemaal geen licht of geluid, of het lampje brandt maar er komt ook na schoonmaken geen nevel."
       ],
       "steps": [
-        "Haal de stekker eruit, giet het resterende water weg en laat het apparaat enkele minuten drogen voordat u het aanraakt.",
-        "Vul het half met water en een beetje witte azijn, laat tien minuten staan zonder aan te zetten, leeg en spoel daarna grondig.",
+        "Haal de stekker eruit, giet het resterende water weg en laat het apparaat enkele minuten drogen voordat je het aanraakt.",
+        "Vul het reservoir half met water en een beetje witte azijn, laat tien minuten staan zonder aan te zetten, leeg en spoel daarna grondig.",
         "Wrijf de ultrasone plaat voorzichtig schoon met een wattenstaafje met witte azijn of alcohol, zonder te krassen of hard te drukken.",
         "Spoel met schoon water, veeg de nevelopening droog en vul bij tot tussen de min- en max-markering.",
-        "Voeg slechts een paar druppels kwalitatieve etherische olie toe, zet aan en kijk of er binnen een minuut nevel komt.",
+        "Voeg slechts een paar druppels etherische olie van goede kwaliteit toe, zet aan en kijk of er binnen een minuut nevel komt.",
         "Gebruik gedestilleerd of gefilterd water en reinig het apparaat na enkele keren gebruik zodat de kalk niet terugkomt."
       ],
       "replaceWhen": "Komt de nevel na zorgvuldig schoonmaken niet terug en is de plaat gebarsten of zwart, of reageert de elektronica niet, dan is repareren zelden mogelijk. Omdat deze apparaten goedkoop zijn, is vervangen meestal verstandiger."
@@ -2360,23 +2360,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If water is coming from somewhere inside while the tank, hose, filter and set-up are all correct, there is probably a fault in the internal circuit or its joints, which cannot be fixed at home. On an older unit, replacing it is usually cheaper than a technician's call-out."
     },
     "de": {
-      "intro": "Verliert eine mobile Klimaanlage Wasser, ist sie meist falsch aufgestellt, oder der Kondensatbehälter ist voll oder der Ablaufschlauch schlecht angeschlossen. Schalten Sie das Gerät aus, ziehen Sie den Stecker und prüfen Sie Neigung, Behälter und Schlauch, bevor Sie anderes vermuten.",
+      "intro": "Verliert eine mobile Klimaanlage Wasser, ist sie meist falsch aufgestellt, der Kondensatbehälter ist voll oder der Ablaufschlauch ist schlecht angeschlossen. Schalten Sie das Gerät aus, ziehen Sie den Stecker und prüfen Sie zuerst Neigung, Behälter und Schlauch.",
       "causes": [
-        "Kondensatbehälter voll — Wasser läuft am Boden über, besonders bei feuchtem Wetter, und das Gerät zeigt eventuell eine Voll-Meldung.",
-        "Gerät schief oder auf unebenem Boden — Wasser sammelt sich einseitig und läuft außerhalb des Auffangbereichs ab.",
-        "Ablaufschlauch geknickt, verstopft oder lose — Wasser staut sich im Schlauch und tropft dann am Anschluss oder unten am Gerät.",
-        "Verschmutzter Filter oder blockiertes Ansauggitter — der Verdampfer vereist und taut ab, wodurch mehr Wasser entsteht, als der Behälter aufnimmt.",
-        "Ablassstopfen oder Dichtung falsch eingesetzt — nach manuellem Entleeren tritt unten am Gehäuse stetig Wasser aus."
+        "Kondensatbehälter voll – das Wasser läuft unten über, vor allem bei feuchtem Wetter, und das Gerät meldet eventuell „Behälter voll“.",
+        "Gerät steht schief oder auf unebenem Boden – das Wasser sammelt sich auf einer Seite und läuft an der Auffangwanne vorbei.",
+        "Ablaufschlauch geknickt, verstopft oder lose – das Wasser staut sich im Schlauch und tropft am Anschluss oder unten am Gerät heraus.",
+        "Verschmutzter Filter oder zugesetztes Ansauggitter – der Verdampfer vereist und taut wieder ab, dabei entsteht mehr Wasser, als der Behälter aufnehmen kann.",
+        "Ablassstopfen oder Dichtung nicht richtig eingesetzt – nach dem Entleeren von Hand tritt unten am Gehäuse ständig Wasser aus."
       ],
       "steps": [
-        "Schalten Sie das Gerät aus, ziehen Sie den Stecker und wischen Sie den Boden trocken, damit keine Rutschgefahr und kein Wasser an der Steckdose besteht.",
-        "Stellen Sie das Gerät senkrecht auf ebenen Boden mit freiem Abstand ringsum und prüfen Sie, dass es nicht liegend transportiert wurde.",
-        "Entleeren Sie den Kondensatbehälter über den Ablassstopfen in ein untergestelltes Gefäß und setzen Sie Stopfen samt Dichtung korrekt ein.",
-        "Prüfen Sie den Ablaufschlauch: keine Knicke, durchgehendes Gefälle, fest aufgesteckter Anschluss und Auslass in einen geeigneten Abfluss.",
-        "Waschen Sie den Filter in lauwarmem Wasser, lassen Sie ihn trocknen, setzen Sie ihn ein und befreien Sie die Ansauggitter von Staub.",
-        "Betreiben Sie das Gerät kürzer und beobachten Sie den Boden; kehrt das Wasser zurück, notieren Sie die Austrittsstelle, bevor Sie den Support kontaktieren."
+        "Schalten Sie die Klimaanlage aus, ziehen Sie den Stecker und wischen Sie das Wasser auf, damit niemand ausrutscht und kein Wasser an die Steckdose gelangt.",
+        "Stellen Sie das Gerät gerade auf einen ebenen Boden, mit freiem Abstand ringsum, und prüfen Sie, ob es beim Transport gelegen hat.",
+        "Entleeren Sie den Kondensatbehälter über den Ablassstopfen in ein untergestelltes Gefäß und setzen Sie Stopfen und Dichtung wieder richtig ein.",
+        "Prüfen Sie den Ablaufschlauch: keine Knicke, durchgehendes Gefälle, fest aufgesteckt und mit dem Ende in einem geeigneten Abfluss.",
+        "Waschen Sie den Filter in lauwarmem Wasser, lassen Sie ihn trocknen, setzen Sie ihn wieder ein und befreien Sie die Ansauggitter von Staub.",
+        "Lassen Sie die Klimaanlage zunächst nur kurz laufen und beobachten Sie den Boden; tritt wieder Wasser aus, notieren Sie die Stelle, bevor Sie den Kundendienst kontaktieren."
       ],
-      "replaceWhen": "Tritt Wasser an einer inneren Stelle aus, obwohl Behälter, Schlauch, Filter und Aufstellung stimmen, liegt wahrscheinlich ein Fehler im Kreislauf oder an einer Lötstelle vor, den man zu Hause nicht beheben kann. Bei älteren Geräten ist ein Neukauf meist günstiger als der Techniker."
+      "replaceWhen": "Tritt Wasser an einer Stelle im Inneren aus, obwohl Behälter, Schlauch, Filter und Aufstellung in Ordnung sind, ist vermutlich der Kältekreislauf oder eine Lötstelle defekt; das lässt sich zu Hause nicht reparieren. Bei einem älteren Gerät ist ein Neukauf meist günstiger als ein Technikereinsatz."
     },
     "es": {
       "intro": "Si tu aire acondicionado portátil pierde agua, lo más habitual es que esté mal instalado, que el depósito de condensados esté lleno o que el tubo de desagüe esté mal conectado. Apágalo, desenchúfalo y revisa la inclinación, el depósito y el tubo antes de buscar otra causa.",
@@ -2417,23 +2417,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se l'acqua esce da un punto interno anche con vaschetta, tubo, filtro e installazione a posto, il difetto è probabilmente nel circuito o in una saldatura e non si ripara in casa. Su un apparecchio datato, di solito conviene sostituirlo piuttosto che chiamare un tecnico."
     },
     "nl": {
-      "intro": "Een mobiele airco die water lekt, staat meestal verkeerd of heeft een vol condensreservoir of een slecht aangesloten afvoerslang. Zet hem uit, haal de stekker eruit en controleer de stand, het reservoir en de slang voordat u verder zoekt.",
+      "intro": "Een mobiele airco die water lekt, staat meestal verkeerd of heeft een vol condensreservoir of een slecht aangesloten afvoerslang. Zet hem uit, haal de stekker eruit en controleer de stand, het reservoir en de slang voordat je verder zoekt.",
       "causes": [
-        "Condensreservoir vol — water loopt over aan de onderkant, vooral bij vochtig weer, en het apparaat kan een melding voor vol reservoir tonen.",
-        "Apparaat scheef of op een ongelijke vloer — water verzamelt aan één kant en stroomt buiten het opvanggebied.",
-        "Afvoerslang geknikt, verstopt of los — water blijft in de slang staan en druppelt dan bij de aansluiting of onderaan.",
-        "Vuil filter of geblokkeerd aanzuigrooster — de verdamper bevriest en dooit weer, waardoor meer water ontstaat dan het reservoir aankan.",
-        "Aftapplug of afdichting verkeerd teruggeplaatst — na handmatig legen ontstaat een constante lekkage onderaan de behuizing."
+        "Condensreservoir vol: water loopt over aan de onderkant, vooral bij vochtig weer, en het apparaat kan een melding voor vol reservoir tonen.",
+        "Apparaat scheef of op een ongelijke vloer: water verzamelt zich aan één kant en loopt naast de opvangbak.",
+        "Afvoerslang geknikt, verstopt of los: water blijft in de slang staan en druppelt dan bij de aansluiting of onderaan.",
+        "Vuil filter of geblokkeerd aanzuigrooster: de verdamper bevriest en dooit weer, waardoor meer water ontstaat dan het reservoir aankan.",
+        "Aftapplug of afdichting verkeerd teruggeplaatst: na handmatig legen ontstaat een constante lekkage onderaan de behuizing."
       ],
       "steps": [
         "Zet het apparaat uit, trek de stekker eruit en neem de vloer droog om uitglijden en water bij het stopcontact te voorkomen.",
-        "Zet het apparaat rechtop op een vlakke vloer met vrije ruimte eromheen en controleer dat het niet liggend is vervoerd.",
+        "Zet het apparaat rechtop op een vlakke vloer met vrije ruimte eromheen en controleer of het niet liggend is vervoerd.",
         "Leeg het condensreservoir via de aftapplug met een bak eronder en plaats de plug met afdichting correct terug.",
         "Controleer de afvoerslang: geen knikken, doorlopend afschot, stevig aangesloten koppeling en een uitgang naar een geschikt afvoerpunt.",
         "Was het filter in lauw water, laat het drogen, plaats het terug en verwijder stof van de aanzuigroosters.",
-        "Laat het apparaat korter draaien en let op de vloer; komt het water terug, noteer dan waar het vandaan komt voordat u de klantenservice belt."
+        "Laat het apparaat korter draaien en let op de vloer; komt het water terug, noteer dan waar het vandaan komt voordat je de klantenservice belt."
       ],
-      "replaceWhen": "Komt het water uit een intern punt terwijl reservoir, slang, filter en opstelling kloppen, dan is waarschijnlijk het circuit of een soldeerverbinding defect, wat u thuis niet kunt herstellen. Bij een ouder apparaat is vervangen meestal goedkoper dan een monteur."
+      "replaceWhen": "Komt het water uit een intern punt terwijl reservoir, slang, filter en opstelling kloppen, dan is waarschijnlijk het circuit of een soldeerverbinding defect, en dat kun je thuis niet herstellen. Bij een ouder apparaat is vervangen meestal goedkoper dan een monteur laten komen."
     },
     "pl": {
       "intro": "Woda wyciekająca z klimatyzatora przenośnego to najczęściej skutek złego ustawienia urządzenia, pełnego zbiornika skroplin albo źle podłączonego węża odpływowego. Wyłącz klimatyzator, odłącz go od prądu i zanim zaczniesz szukać innych przyczyn, sprawdź jego wypoziomowanie, zbiornik i wąż.",
@@ -2552,23 +2552,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the base tray fills up again even though the seals and connectors are intact, the leak is coming from an internal part, which can be expensive to replace. On an older dishwasher, replacing it often works out cheaper than repairing it."
     },
     "de": {
-      "intro": "Der Fehlercode E15 bedeutet bei vielen Geschirrspülern üblicherweise, dass der Leckageschutz ausgelöst hat: Im Bodenblech wurde Wasser erkannt und der Wasserzulauf wird gesperrt. Bestätigen Sie die Bedeutung in der Anleitung und suchen Sie die Leckage, bevor Sie neu starten.",
+      "intro": "Der Fehlercode E15 bedeutet bei vielen Geschirrspülern, dass der Auslaufschutz ausgelöst hat: In der Bodenwanne steht Wasser, und der Wasserzulauf wird gesperrt. Prüfen Sie diese Bedeutung in der Bedienungsanleitung und suchen Sie die Ursache des Lecks, bevor Sie das Gerät neu starten.",
       "causes": [
-        "Wasser im Bodenblech nach einer Leckage — der Sicherheitsschwimmer sperrt den Zulauf, die Maschine startet nicht.",
-        "Zu viel Schaum oder Klarspüler — Schaum läuft in die Bodenwanne und löst die Leckageerkennung aus.",
-        "Türdichtung oder Sprüharm lässt Wasser austreten — Wasserspuren erscheinen an der Tür oder unter dem Gerät.",
-        "Tropfender Zulaufschlauch oder Anschluss — Feuchtigkeit ist hinten oder am Wasserhahn sichtbar.",
-        "Klemmender Bodensensor oder Schwimmer — der Code bleibt trotz trockenem Bodenblech nach Reinigung und Trocknung bestehen."
+        "Wasser in der Bodenwanne nach einem Leck – der Sicherheitsschwimmer sperrt den Zulauf, und das Gerät startet nicht.",
+        "Zu viel Schaum oder Klarspüler – der Schaum läuft in die Bodenwanne und löst den Auslaufschutz aus.",
+        "Türdichtung oder Sprüharm lässt Wasser durch – an der Tür oder unter dem Gerät sind Wasserspuren zu sehen.",
+        "Zulaufschlauch oder Anschluss tropft – hinten am Gerät oder am Wasserhahn ist es feucht.",
+        "Sensor oder Schwimmer in der Bodenwanne klemmt – der Code bleibt stehen, obwohl die Wanne nach Reinigen und Trocknen trocken ist."
       ],
       "steps": [
-        "Schalten Sie den Geschirrspüler aus, ziehen Sie den Stecker, schließen Sie den Wasserhahn und prüfen Sie in der Anleitung, was E15 bei Ihrem Modell bedeutet.",
-        "Nehmen Sie Geschirr und Körbe heraus, saugen Sie Wasser im Innenraum mit einem Schwamm auf und prüfen Sie Sprüharme und Sieb.",
-        "Wenn es sicher möglich ist, kippen Sie das Gerät wie in der Anleitung erlaubt leicht, um die Bodenwanne zu leeren, oder lassen Sie es über Nacht trocknen.",
-        "Prüfen Sie Türdichtung, Zulaufschlauch und Anschlüsse auf Feuchtigkeit; ziehen Sie sichtbare Anschlüsse nur von Hand nach.",
-        "Verwenden Sie weniger Reiniger, kein Handspülmittel, starten Sie ein kurzes Leerprogramm und beobachten Sie, ob der Code wiederkommt.",
-        "Kehrt E15 zurück oder bleibt die Leckage, lassen Sie den Hahn zu, das Gerät ausgesteckt und rufen Sie einen Techniker oder den Kundendienst."
+        "Schalten Sie den Geschirrspüler aus, ziehen Sie den Stecker und drehen Sie den Wasserhahn zu; prüfen Sie in der Anleitung, was E15 bei Ihrem Modell bedeutet.",
+        "Nehmen Sie Geschirr und Körbe heraus, saugen Sie das Wasser am Boden des Innenraums mit einem Schwamm auf und prüfen Sie Sprüharme und Sieb.",
+        "Wenn das gefahrlos möglich ist, kippen Sie das Gerät so leicht an, wie es die Anleitung beschreibt, damit die Bodenwanne leerläuft, oder lassen Sie es über Nacht trocknen.",
+        "Suchen Sie an Türdichtung, Zulaufschlauch und Anschlüssen nach Feuchtigkeit; ziehen Sie sichtbare Anschlüsse von Hand nach.",
+        "Dosieren Sie weniger Reiniger, verwenden Sie kein Handspülmittel, starten Sie ein kurzes Programm ohne Geschirr und achten Sie darauf, ob der Code wieder erscheint.",
+        "Erscheint E15 erneut oder bleibt das Leck, lassen Sie den Wasserhahn zu und den Stecker gezogen und rufen Sie einen Techniker oder den Kundendienst."
       ],
-      "replaceWhen": "Füllt sich das Bodenblech trotz intakter Dichtungen und Anschlüsse erneut, stammt die Leckage von einem inneren Bauteil, dessen Tausch teuer sein kann. Bei einem älteren Geschirrspüler ist ein Neugerät oft günstiger als die Reparatur."
+      "replaceWhen": "Füllt sich die Bodenwanne trotz intakter Dichtungen und Anschlüsse erneut, kommt das Wasser aus einem inneren Bauteil, dessen Austausch teuer sein kann. Bei einem älteren Geschirrspüler ist ein Neugerät oft günstiger als die Reparatur."
     },
     "es": {
       "intro": "En muchos lavavajillas, el código E15 indica que ha saltado el sistema antifugas: hay agua en la bandeja de la base y se corta la entrada de agua. Confirma en el manual que en tu modelo significa eso y busca de dónde viene la fuga antes de volver a ponerlo en marcha.",
@@ -2609,21 +2609,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il basamento si riempie di nuovo anche con guarnizioni e raccordi integri, la perdita viene da un componente interno, a volte costoso. Su una lavastoviglie datata, spesso conviene sostituirla piuttosto che pagare la riparazione."
     },
     "nl": {
-      "intro": "Op veel vaatwassers betekent foutcode E15 meestal dat de lekbeveiliging is geactiveerd: er is water in de bodembak gedetecteerd en de watertoevoer wordt afgesloten. Controleer de betekenis in de handleiding en zoek de lekbron voordat u opnieuw start.",
+      "intro": "Op veel vaatwassers betekent foutcode E15 meestal dat de lekbeveiliging is geactiveerd: er is water in de bodembak gedetecteerd en de watertoevoer wordt afgesloten. Controleer de betekenis in de handleiding en zoek de lekbron voordat je opnieuw start.",
       "causes": [
-        "Water in de bodembak na een lekkage — de veiligheidsvlotter sluit de toevoer af en de machine start niet.",
-        "Te veel schuim of spoelmiddel — schuim loopt over in de bodembak en activeert de lekdetectie.",
-        "Deurrubber of sproeiarm laat water door — waterspoor rond de deur of onder het apparaat.",
-        "Druppelende toevoerslang of koppeling — vocht zichtbaar aan de achterkant of bij de aanvoerkraan.",
-        "Vastzittende bodemsensor of vlotter — de code blijft staan terwijl de bak droog is, ook na schoonmaken en drogen."
+        "Water in de bodembak na een lekkage: de veiligheidsvlotter sluit de toevoer af en de machine start niet.",
+        "Te veel schuim of spoelmiddel: schuim loopt over in de bodembak en activeert de lekdetectie.",
+        "Deurrubber of sproeiarm laat water door: je ziet water rond de deur of onder het apparaat.",
+        "Druppelende toevoerslang of koppeling: je ziet vocht aan de achterkant of bij de kraan.",
+        "Vastzittende bodemsensor of vlotter: de code blijft staan terwijl de bak droog is, ook na schoonmaken en drogen."
       ],
       "steps": [
-        "Zet de vaatwasser uit, trek de stekker eruit, draai de waterkraan dicht en controleer in de handleiding wat E15 bij uw model betekent.",
+        "Zet de vaatwasser uit, trek de stekker eruit, draai de waterkraan dicht en controleer in de handleiding wat E15 bij je model betekent.",
         "Haal vaat en manden eruit, zuig het water onderin met een spons op en controleer de sproeiarmen en het filter.",
         "Kantel het apparaat alleen voorzichtig, zoals de handleiding toestaat, om de bodembak te legen als dat veilig kan, of laat het een nacht drogen.",
         "Controleer deurrubber, toevoerslang en koppelingen op vocht; draai zichtbare koppelingen alleen met de hand aan.",
-        "Gebruik minder wasmiddel, geen afwasmiddel voor handwas, draai een kort leeg programma en kijk of de code terugkomt.",
-        "Komt E15 terug of blijft het lekken, laat de kraan dicht en de stekker eruit en bel een monteur of de klantenservice."
+        "Gebruik minder wasmiddel, nooit handafwasmiddel, draai een kort leeg programma en kijk of de code terugkomt.",
+        "Komt E15 terug of blijft het lekken, laat dan de kraan dicht en de stekker eruit en bel een monteur of de klantenservice."
       ],
       "replaceWhen": "Vult de bodembak zich opnieuw terwijl rubbers en koppelingen intact zijn, dan komt het lek van een intern onderdeel dat duur kan zijn om te vervangen. Bij een oudere vaatwasser is een nieuw apparaat vaak voordeliger dan de reparatie."
     },
@@ -2744,23 +2744,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the tank is cracked and the part is no longer sold, or water has got into the dock or electronics area, the machine becomes unsafe to use. Replacing the whole unit is then wiser than a makeshift repair."
     },
     "de": {
-      "intro": "Ein Frischwassertank, der beim Laden leckt, liegt meist an einer abgenutzten oder verrutschten Dichtung bzw. Verschlusskappe oder an einem Riss im Tank. Nehmen Sie den Tank von der Station, trocknen Sie alles und prüfen Sie Dichtungen und Risse, bevor Sie wieder laden.",
+      "intro": "Leckt der Frischwassertank beim Laden, ist meist eine Dichtung oder die Verschlusskappe verrutscht oder der Tank hat einen Riss. Nehmen Sie das Gerät von der Station, trocknen Sie alles ab und prüfen Sie Dichtungen und Tank auf Risse, bevor Sie wieder laden.",
       "causes": [
-        "Verschlusskappen- oder Ventildichtung abgenutzt, verrutscht oder verschmutzt — Wasser sickert an Kappe oder Auslassventil.",
-        "Tank nicht richtig auf der Station eingerastet — Wasser läuft am Anschluss aus, statt die Bürste zu versorgen.",
-        "Tank gerissen oder verformt — Wasser läuft entlang einer feinen Linie, oft nach einem Stoß oder zu heißem Wasser.",
-        "Tank überfüllt oder mit schäumendem Mittel befüllt — Druck und Schaum drücken Wasser durch die Belüftungsöffnungen.",
-        "Auslassventil durch Kalk oder Rückstände blockiert — es schließt nicht mehr ganz und tropft auch im Stillstand."
+        "Dichtung an Kappe oder Ventil abgenutzt, verrutscht oder verschmutzt – an der Kappe oder am Auslassventil sickert Wasser heraus.",
+        "Tank nicht richtig auf der Station eingerastet – das Wasser läuft am Anschluss aus, statt zur Bürste zu gelangen.",
+        "Tank gerissen oder verformt – Wasser tritt an einer feinen Linie aus, oft nach einem Stoß oder durch zu heißes Wasser.",
+        "Tank überfüllt oder mit schäumendem Mittel befüllt – Druck und Schaum drücken Wasser durch die Belüftungsöffnungen.",
+        "Auslassventil durch Kalk oder Rückstände blockiert – es schließt nicht mehr ganz und tropft auch im Stillstand."
       ],
       "steps": [
-        "Schalten Sie das Gerät aus, trennen Sie die Ladestation vom Strom und wischen Sie Wasser an den elektrischen Kontakten auf, bevor Sie weitermachen.",
-        "Nehmen Sie den Tank ab, leeren und trocknen Sie ihn vollständig; setzen Sie das Gerät erst wieder auf die Station, wenn Kontakte und Station trocken sind.",
-        "Prüfen Sie Dichtung von Kappe und Ventil, wischen Sie sie mit einem weichen Tuch ab und drücken Sie sie flach in ihren Sitz.",
-        "Halten Sie den Tank gegen das Licht, um Risse zu erkennen, und testen Sie ihn gefüllt über dem Waschbecken, ohne ihn zu kippen.",
-        "Füllen Sie nur kaltes oder lauwarmes Wasser bis zur Max-Markierung ein und kein schäumendes Mittel außer dem vom Hersteller empfohlenen.",
-        "Bei beschädigter Dichtung oder gerissenem Tank bestellen Sie das Originalteil; kleben Sie den Wassertank eines Elektrogeräts nicht."
+        "Schalten Sie das Gerät aus, ziehen Sie den Stecker der Ladestation und wischen Sie das Wasser rund um die elektrischen Kontakte auf, bevor Sie weitermachen.",
+        "Nehmen Sie den Tank ab, leeren Sie ihn vollständig und trocknen Sie ihn; stellen Sie das Gerät erst wieder auf die Station, wenn Kontakte und Station trocken sind.",
+        "Prüfen Sie die Dichtungen von Kappe und Ventil, wischen Sie sie mit einem weichen Tuch ab und setzen Sie sie wieder plan in ihren Sitz.",
+        "Halten Sie den Tank gegen das Licht, um Risse zu finden, und füllen Sie ihn probeweise über dem Spülbecken, ohne ihn zu kippen.",
+        "Füllen Sie nur kaltes oder lauwarmes Wasser bis zur Max-Markierung ein und verwenden Sie kein schäumendes Mittel außer dem, das der Hersteller empfiehlt.",
+        "Ist die Dichtung beschädigt oder der Tank gerissen, bestellen Sie das Originalersatzteil; kleben Sie den Wassertank eines Elektrogeräts nicht."
       ],
-      "replaceWhen": "Ist der Tank gerissen und das Teil nicht mehr erhältlich, oder ist Wasser in Station oder Elektronik gelangt, ist die weitere Nutzung riskant. Dann ist der Austausch des Geräts klüger als eine Notreparatur."
+      "replaceWhen": "Ist der Tank gerissen und das Ersatzteil nicht mehr erhältlich oder ist Wasser in die Station oder die Elektronik gelangt, wird die weitere Nutzung riskant. Dann ist es sicherer, das Gerät zu ersetzen, als es notdürftig zu reparieren."
     },
     "es": {
       "intro": "Si el depósito de agua limpia de tu aspiradora friegasuelos gotea mientras se carga, lo más habitual es una junta o un tapón mal colocados, o un depósito agrietado. Sácalo de la base, sécalo todo y revisa juntas y grietas antes de volver a ponerla a cargar.",
@@ -2801,20 +2801,20 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il serbatoio è crepato e il ricambio non si trova più, oppure l'acqua è entrata nella base o nell'elettronica, usare l'apparecchio diventa rischioso. A quel punto sostituirlo è più prudente di una riparazione di fortuna."
     },
     "nl": {
-      "intro": "Een schoonwatertank die tijdens het laden lekt, komt meestal door een versleten of verschoven afdichting of dop, of door een gebarsten tank. Haal de tank van het dock, droog alles af en controleer afdichtingen en scheuren voordat u opnieuw laadt.",
+      "intro": "Een schoonwatertank die tijdens het laden lekt, komt meestal door een versleten of verschoven afdichting of dop, of door een gebarsten tank. Haal de tank van het dock, droog alles af en controleer afdichtingen en scheuren voordat je opnieuw laadt.",
       "causes": [
-        "Dop- of klepafdichting versleten, verschoven of vuil — water sijpelt langs de dop of de uitlaatklep.",
-        "Tank niet goed op het dock vastgeklikt — water stroomt via de koppeling weg in plaats van naar de borstel.",
-        "Gebarsten of vervormde tank — water lekt langs een fijne lijn, vaak na een stoot of door te heet water.",
-        "Tank te vol of gevuld met een schuimend middel — druk en schuim persen water door de ventilatiegaatjes.",
-        "Uitlaatklep geblokkeerd door kalk of resten — hij sluit niet meer volledig en druppelt ook in rust."
+        "Dop- of klepafdichting versleten, verschoven of vuil: water sijpelt langs de dop of de uitlaatklep.",
+        "Tank niet goed op het dock vastgeklikt: water stroomt via de koppeling weg in plaats van naar de borstel.",
+        "Gebarsten of vervormde tank: water lekt langs een fijne lijn, vaak na een stoot of door te heet water.",
+        "Tank te vol of gevuld met een schuimend middel: druk en schuim persen water door de ventilatiegaatjes.",
+        "Uitlaatklep geblokkeerd door kalk of resten: hij sluit niet meer volledig en druppelt ook in rust."
       ],
       "steps": [
-        "Zet het apparaat uit, haal het dock van het stroomnet en veeg water rond de elektrische contacten weg voordat u verdergaat.",
+        "Zet het apparaat uit, haal het dock van het stroomnet en veeg water rond de elektrische contacten weg voordat je verdergaat.",
         "Verwijder de tank, leeg en droog hem volledig; zet het apparaat pas terug op het dock als contacten en dock droog zijn.",
         "Bekijk de afdichting van dop en klep, veeg ze af met een zachte doek en druk ze plat terug in hun zitting.",
         "Houd de tank tegen het licht om scheuren te zien en test hem gevuld boven de gootsteen, zonder te kantelen.",
-        "Vul alleen met koud of lauw water tot de maximummarkering en gebruik geen schuimend middel behalve het door de fabrikant aanbevolen.",
+        "Vul alleen met koud of lauw water tot de maximummarkering en gebruik geen schuimend middel, behalve het middel dat de fabrikant aanbeveelt.",
         "Is de afdichting beschadigd of de tank gebarsten, bestel dan het originele onderdeel; gebruik geen lijm op de watertank van een elektrisch apparaat."
       ],
       "replaceWhen": "Is de tank gebarsten en het onderdeel niet meer te koop, of is er water in het dock of de elektronica gekomen, dan is gebruik riskant. Dan is vervanging van het hele apparaat verstandiger dan een noodreparatie."
@@ -2936,23 +2936,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If suction stays weak with a new seal, a clean unit and a charged battery, the pump or battery is failing and the risk of a fall is real. It is safer to replace the appliance than to keep using it."
     },
     "de": {
-      "intro": "Verliert ein Fensterputzroboter den Halt, hat er meist den Unterdruck verloren: schmutzige Scheibe oder Unterseite, verschlissene Dichtung, schwacher Pumpenakku oder eine Luftleckage. Nutzen Sie ihn nie ohne befestigte Sicherungsleine und nehmen Sie ihn bei Saugalarm sofort von der Scheibe.",
+      "intro": "Verliert ein Fensterputzroboter den Halt, fehlt ihm meist Saugkraft: Scheibe oder Unterseite sind verschmutzt, die Dichtung ist verschlissen, der Akku der Pumpe ist schwach oder es entweicht Luft. Benutzen Sie ihn nie ohne befestigte Sicherungsleine und nehmen Sie ihn sofort von der Scheibe, wenn der Saugalarm ertönt.",
       "causes": [
-        "Verschmutzte Scheibe oder Unterseite — Staub und Fett verhindern, dass die Dichtlippe haftet, und der Unterdruck sinkt schnell.",
-        "Verschlissene oder verzogene Saugdichtung — Luft entweicht an den Rändern und das Gerät piept regelmäßig.",
-        "Schwacher Notakku oder Pumpenakku — nach Stromausfall oder zu geringer Ladung lässt der Unterdruck allmählich nach.",
-        "Rahmen, Fensterdichtung oder strukturierte Fläche — der Roboter fährt über eine Kante, verliert die Abdichtung und rutscht oder bleibt stehen.",
-        "Gesättigtes Tuch oder rutschiger Reiniger — die Fläche wird glitschig und der Roboter rutscht, statt zu haften."
+        "Verschmutzte Scheibe oder Unterseite – Staub und Fett verhindern, dass die Dichtung anliegt, und der Unterdruck bricht schnell ein.",
+        "Saugdichtung verschlissen oder verformt – an den Rändern entweicht Luft, und das Gerät piept in regelmäßigen Abständen.",
+        "Notstromakku oder Pumpenakku schwach – bei Stromausfall oder zu wenig Ladung wird der Unterdruck allmählich schwächer.",
+        "Rahmen, Fensterdichtung oder strukturierte Oberfläche – der Roboter fährt über eine Unebenheit, verliert die Abdichtung und rutscht ab oder bleibt hängen.",
+        "Vollgesogenes Tuch oder rutschiger Reiniger – die Scheibe wird glitschig, und der Roboter rutscht, statt zu haften."
       ],
       "steps": [
-        "Befestigen Sie die Sicherungsleine immer an einem stabilen Punkt im Innenraum, bevor Sie den Roboter ansetzen, und betreiben Sie ihn nie ohne Leine.",
-        "Laden Sie Roboter und Notstromeinheit vollständig auf und prüfen Sie, dass der Unterdruck aufbaut, bevor Sie ihn auf der Scheibe loslassen.",
-        "Reinigen Sie die Scheibe vorab und wischen Sie Unterseite und Saugdichtung mit einem feuchten, fusselfreien Tuch ab; danach trocknen.",
-        "Tauschen Sie das Reinigungstuch aus, sobald es gesättigt oder schmutzig ist, und verwenden Sie wenig Reiniger, der die Scheibe glitschig macht.",
-        "Nehmen Sie den Roboter bei Piepton oder Unterdruckverlust sofort ab und lehnen Sie sich bei hohen Fenstern nie hinaus, um ihn zu bergen.",
-        "Ist die Dichtung beschädigt, setzen Sie das Originalteil ein; setzen Sie ihn an hohen Außenscheiben erst ein, wenn der Unterdruck zuverlässig ist."
+        "Befestigen Sie die Sicherungsleine immer an einem stabilen Punkt im Raum, bevor Sie den Roboter ansetzen, und betreiben Sie ihn nie ohne sie.",
+        "Laden Sie den Roboter und seinen Notstromakku vollständig auf und prüfen Sie, ob die Saugfunktion anläuft, bevor Sie ihn an der Scheibe loslassen.",
+        "Reinigen Sie die Scheibe vorab und wischen Sie Unterseite und Saugdichtung mit einem feuchten, fusselfreien Tuch ab; trocknen Sie beides anschließend.",
+        "Wechseln Sie das Reinigungstuch, sobald es vollgesogen oder schmutzig ist, und sparen Sie mit Reiniger, damit die Scheibe nicht glitschig wird.",
+        "Nehmen Sie den Roboter sofort ab, wenn er piept oder an Saugkraft verliert, und lehnen Sie sich an hohen Fenstern nie hinaus, um ihn zu holen.",
+        "Ist die Dichtung beschädigt, ersetzen Sie sie durch das Originalteil; setzen Sie den Roboter an Außenscheiben in höheren Stockwerken erst wieder ein, wenn er zuverlässig hält."
       ],
-      "replaceWhen": "Bleibt der Unterdruck mit neuer Dichtung, sauberem Gerät und geladenem Akku schwach, ist Pumpe oder Akku defekt und die Absturzgefahr real. Es ist sicherer, das Gerät zu ersetzen, als es weiter zu benutzen."
+      "replaceWhen": "Bleibt die Saugkraft trotz neuer Dichtung, sauberem Gerät und geladenem Akku schwach, sind Pumpe oder Akku defekt, und es besteht echte Absturzgefahr. Dann ist es sicherer, das Gerät zu ersetzen, als es weiter zu benutzen."
     },
     "es": {
       "intro": "Si tu robot limpiacristales se despega, normalmente es porque ha perdido succión: cristal o base sucios, junta gastada, batería de la bomba baja o una fuga de aire. No lo uses nunca sin la cuerda de seguridad bien sujeta y quítalo del cristal en cuanto suene la alarma de succión.",
@@ -2993,23 +2993,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se l'aspirazione resta debole anche con guarnizione nuova, apparecchio pulito e batteria carica, la pompa o la batteria è guasta e il rischio di caduta è concreto. È più prudente sostituire l'apparecchio che continuare a usarlo."
     },
     "nl": {
-      "intro": "Een ruitenrobot die grip verliest, heeft meestal zuigkracht verloren: vuil glas of vuile onderkant, versleten afdichting, zwakke pompaccu of een luchtlek. Gebruik hem nooit zonder vastgemaakt veiligheidskoord en haal hem van het glas zodra het zuigalarm klinkt.",
+      "intro": "Een raamwasrobot die grip verliest, heeft meestal zuigkracht verloren: vuil glas of vuile onderkant, versleten afdichting, zwakke pompaccu of een luchtlek. Gebruik hem nooit zonder vastgemaakt veiligheidskoord en haal hem van het glas zodra het zuigalarm klinkt.",
       "causes": [
-        "Vuil glas of vuile onderkant — stof en vet laten de afdichtrand niet plakken en de zuigkracht neemt snel af.",
-        "Versleten of vervormde zuigafdichting — lucht ontsnapt langs de randen en het apparaat piept regelmatig als waarschuwing.",
-        "Zwakke noodaccu of pompaccu — na stroomuitval of onvoldoende lading zakt de zuigkracht geleidelijk weg.",
-        "Kozijn, raamafdichting of reliëfoppervlak — de robot rijdt over een drempel, verliest de afdichting en glijdt of blijft staan.",
-        "Verzadigde doek of gladde schoonmaakvloeistof — het oppervlak wordt glad en de robot slipt in plaats van te hechten."
+        "Vuil glas of vuile onderkant: stof en vet laten de afdichtrand niet plakken en de zuigkracht neemt snel af.",
+        "Versleten of vervormde zuigafdichting: lucht ontsnapt langs de randen en het apparaat piept regelmatig als waarschuwing.",
+        "Zwakke noodaccu of pompaccu: na stroomuitval of onvoldoende lading zakt de zuigkracht geleidelijk weg.",
+        "Kozijn, raamafdichting of reliëfoppervlak: de robot rijdt over een drempel, verliest de afdichting en glijdt of blijft staan.",
+        "Verzadigde doek of gladde schoonmaakvloeistof: het oppervlak wordt glad en de robot slipt in plaats van te hechten."
       ],
       "steps": [
-        "Maak het veiligheidskoord altijd vast aan een stevig punt binnen voordat u de robot plaatst en gebruik hem nooit zonder koord.",
-        "Laad robot en noodunit volledig op en controleer of de zuigkracht opbouwt voordat u hem op het glas loslaat.",
+        "Maak het veiligheidskoord altijd vast aan een stevig punt binnen voordat je de robot plaatst en gebruik hem nooit zonder koord.",
+        "Laad robot en noodunit volledig op en controleer of de zuigkracht opbouwt voordat je hem op het glas loslaat.",
         "Reinig eerst het glas en veeg onderkant en zuigafdichting af met een vochtige pluisvrije doek; droog ze daarna.",
-        "Vervang de schoonmaakdoek zodra hij verzadigd of vuil is en gebruik weinig reiniger, want teveel maakt het glas glad.",
+        "Vervang de schoonmaakdoek zodra hij verzadigd of vuil is en gebruik weinig reiniger, want te veel reiniger maakt het glas glad.",
         "Haal de robot van het glas zodra hij piept of zuigkracht verliest en leun nooit uit een hoog raam om hem te pakken.",
         "Is de afdichting beschadigd, plaats dan het originele onderdeel en gebruik hem niet op hoog gelegen buitenramen tot de zuigkracht betrouwbaar is."
       ],
-      "replaceWhen": "Blijft de zuigkracht zwak met nieuwe afdichting, schoon apparaat en volle accu, dan is de pomp of accu defect en het valgevaar echt. Het is veiliger het apparaat te vervangen dan het te blijven gebruiken."
+      "replaceWhen": "Blijft de zuigkracht zwak met nieuwe afdichting, schoon apparaat en volle accu, dan is de pomp of accu defect en is het valgevaar reëel. Het is veiliger het apparaat te vervangen dan het te blijven gebruiken."
     },
     "pl": {
       "intro": "Robot do mycia okien, który odpada od szyby, zwykle traci siłę ssania: szyba lub spód robota są brudne, uszczelka jest zużyta, akumulator pompy słaby albo gdzieś ucieka powietrze. Nigdy nie używaj go bez przymocowanej linki zabezpieczającej i zdejmij go z szyby, gdy tylko włączy się alarm utraty ssania.",
@@ -3124,21 +3124,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the pad is worn out and the streak stays after a thorough clean, it's the pad that needs replacing, not the robot. Only replace the robot if suction keeps weakening or the tracks slip, because a repair often costs more than buying a new one."
     },
     "de": {
-      "intro": "Ein Streifen in der Glasmitte entsteht fast immer durch ein verschmutztes Reinigungspad oder durch Schmutz, der sich entlang der Mittellinie des Roboters sammelt. Der Roboter schiebt Staub nach innen und verschmiert ihn bei jedem Durchgang, statt ihn zum Rand zu transportieren.",
+      "intro": "Ein Streifen in der Mitte der Scheibe entsteht fast immer durch ein verschmutztes Reinigungspad oder durch Schmutz, der sich auf der Fahrspur sammelt. Der Roboter schiebt den Staub zur Mitte seiner Bahn und verschmiert ihn bei jedem Durchgang, statt ihn zu den Rändern zu befördern.",
       "causes": [
-        "Mit Schmutz gesättigtes Pad — es wischt in der Mitte, wo der Druck am höchsten ist, schlechter und hinterlässt ein dunkles Band.",
-        "Locker oder faltig aufgesetztes Pad — eine Falte zeichnet bei jedem Durchgang exakt an derselben Stelle eine scharfe Linie.",
-        "Sehr staubige Scheibe zu Beginn — der Roboter schiebt den Schmutz zu einem mittigen Wulst zusammen und fährt wiederholt darüber, ohne ihn aufzunehmen.",
-        "Zu wenig Reinigungsflüssigkeit — das Pad trocknet während der Fahrt und reibt den Schmutz nur herum, statt ihn zu lösen."
+        "Pad voller Schmutz – in der Mitte des Roboters, wo der Druck am größten ist, wischt es schlechter und hinterlässt einen dunklen Streifen.",
+        "Pad locker oder faltig befestigt – eine Falte zieht bei jedem Durchgang genau an derselben Stelle eine scharfe Linie.",
+        "Scheibe zu Beginn sehr staubig – der Roboter schiebt den Schmutz zu einer Linie in der Mitte zusammen und fährt immer wieder darüber, ohne ihn aufzunehmen.",
+        "Zu wenig Reinigungsmittel – das Pad trocknet mitten in der Fahrt aus und reibt über den Schmutz, statt ihn zu lösen."
       ],
       "steps": [
-        "Roboter ausschalten und vom Netz trennen, Pad abnehmen und in warmem Seifenwasser ohne Weichspüler von Hand waschen, danach vollständig trocknen lassen.",
-        "Prüfen Sie, dass das Pad über die gesamte Breite straff und faltenfrei sitzt, und folgen Sie dabei der Befestigungsskizze in der Anleitung.",
-        "Wischen Sie zuerst Rand und Rahmen des Fensters mit einem feuchten Tuch ab, damit Staub und Sand nicht in die Mitte gezogen werden.",
-        "Sprühen Sie das vom Hersteller empfohlene Mittel gleichmäßig auf Pad oder Scheibe, ohne sie zu durchnässen, damit der Roboter weiter griffig bleibt.",
-        "Starten Sie einen zweiten Durchgang im Kreuzmuster und reinigen Sie anschließend Laufband und Saugdichtung mit einem feuchten Wattestäbchen."
+        "Schalten Sie den Roboter aus, nehmen Sie das Pad ab und waschen Sie es von Hand in lauwarmem Seifenwasser ohne Weichspüler; lassen Sie es vor dem nächsten Einsatz vollständig trocknen.",
+        "Prüfen Sie, ob das Pad über die ganze Breite straff und faltenfrei sitzt; die Anleitung zeigt, wie es befestigt wird.",
+        "Wischen Sie zuerst Rand und Rahmen des Fensters mit einem feuchten Tuch ab, damit Staub und Sand nicht zur Mitte gezogen werden.",
+        "Sprühen Sie das vom Hersteller empfohlene Mittel gleichmäßig und sparsam auf Pad oder Scheibe, damit der Roboter nicht rutscht.",
+        "Starten Sie einen zweiten Durchgang im Kreuzmuster und reinigen Sie danach Laufbänder und Saugdichtung mit einem feuchten Wattestäbchen."
       ],
-      "replaceWhen": "Ist das Pad abgenutzt und der Streifen bleibt trotz gründlicher Reinigung, ersetzen Sie das Pad, nicht den Roboter. Ein neues Gerät lohnt erst, wenn die Saugkraft dauerhaft nachlässt oder die Laufbänder rutschen, weil eine Reparatur meist teurer ist."
+      "replaceWhen": "Ist das Pad abgenutzt und bleibt der Streifen trotz gründlicher Reinigung, tauschen Sie das Pad, nicht den Roboter. Ein neuer Roboter lohnt sich erst, wenn die Saugkraft dauerhaft nachlässt oder die Laufbänder durchrutschen, denn eine Reparatur ist oft teurer als ein Neugerät."
     },
     "es": {
       "intro": "Una marca en el centro del cristal casi siempre se debe a una bayeta sucia o a una zona de paso donde se acumula la suciedad. El robot lleva el polvo hacia el centro de su recorrido y lo extiende en cada ida y vuelta en lugar de sacarlo hacia los bordes.",
@@ -3177,10 +3177,10 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
     "nl": {
       "intro": "Een streep in het midden van het glas komt bijna altijd door een vuil reinigingsdoekje of door vuil dat zich langs de middenlijn van de robot ophoopt. De robot duwt stof naar binnen en smeert het bij elke beurt uit in plaats van het naar de randen te verplaatsen.",
       "causes": [
-        "Doekje vol vuil — het veegt in het midden, waar de druk het hoogst is, slechter en laat een donkere baan achter.",
-        "Doekje los of gekreukt bevestigd — een vouw laat bij elke beurt op precies dezelfde plek een scherpe lijn achter.",
-        "Erg stoffig glas vooraf — de robot duwt het vuil samen tot een middenrib en rijdt er steeds overheen zonder het op te nemen.",
-        "Te weinig reinigingsmiddel — het doekje droogt halverwege op en wrijft het vuil rond in plaats van het op te lossen."
+        "Doekje vol vuil: het veegt in het midden, waar de druk het hoogst is, slechter en laat een donkere baan achter.",
+        "Doekje los of gekreukt bevestigd: een vouw laat bij elke beurt op precies dezelfde plek een scherpe lijn achter.",
+        "Erg stoffig glas vooraf: de robot duwt het vuil samen tot een baan in het midden en rijdt er steeds overheen zonder het op te nemen.",
+        "Te weinig reinigingsmiddel: het doekje droogt halverwege op en wrijft het vuil rond in plaats van het op te lossen."
       ],
       "steps": [
         "Schakel de robot uit en haal de stekker eruit, verwijder het doekje en was het met de hand in lauw zeepwater zonder wasverzachter. Laat het volledig drogen.",
@@ -3296,21 +3296,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the element or thermal fuse has failed and the air fryer is out of warranty, a repair is rarely worth it compared with buying a new model. Replace it too if the cable is damaged, the casing has got unusually hot or you notice a burning smell."
     },
     "de": {
-      "intro": "Wenn eine Heißluftfritteuse nicht mehr heizt, liegt es meist an der Stromversorgung, einem nicht eingerasteten Korb oder einer ausgelösten Thermosicherung. Läuft der Lüfter, aber die Luft bleibt kalt, ist in der Regel das Heizelement oder dessen Sicherung defekt.",
+      "intro": "Heizt ein Airfryer nicht mehr, liegt es meist an der Stromversorgung, an einem nicht eingerasteten Korb oder an einem ausgelösten Überhitzungsschutz. Läuft der Lüfter, bleibt die Luft aber kalt, ist in der Regel das Heizelement oder seine Sicherung defekt.",
       "causes": [
-        "Korb nicht richtig eingerastet — ein Sicherheitsschalter unterbricht die Heizung, solange die Schublade nicht ganz geschlossen ist.",
-        "Defekte Steckdose oder Verlängerung — das Gerät startet kaum oder gar nicht an einer abgenutzten oder überlasteten Steckerleiste.",
-        "Thermosicherung ausgelöst — nach Überhitzung durch Fettreste oder verstopfte Lüftungsschlitze schaltet die Sicherung die Heizung ab.",
-        "Heizelement oder Temperaturfühler defekt — der Lüfter dreht sich und das Display leuchtet, doch die Luft bleibt kühl oder nur lauwarm."
+        "Korb nicht richtig eingerastet – ein Sicherheitsschalter unterbricht die Heizung, solange die Schublade nicht ganz geschlossen ist.",
+        "Defekte Steckdose oder Verlängerung – an einer beschädigten oder überlasteten Steckdosenleiste startet das Gerät nur schwach oder gar nicht.",
+        "Überhitzungsschutz ausgelöst – nach einer Überhitzung durch Fettreste oder verstopfte Lüftungsschlitze schaltet die Thermosicherung die Heizung ab.",
+        "Heizelement oder Temperaturfühler defekt – der Lüfter dreht sich und das Display leuchtet, doch die Luft bleibt lauwarm oder kalt."
       ],
       "steps": [
-        "Gerät ausstecken, abkühlen lassen und direkt an eine Wandsteckdose anschließen, die Sie mit einem anderen Gerät geprüft haben, ohne Verlängerungskabel.",
-        "Schublade herausnehmen und wieder kräftig einschieben, bis sie hörbar einrastet, und prüfen, dass keine Krümel den Schließkontakt blockieren.",
-        "Schubladenboden, Rost und Lüftungsöffnungen reinigen, denn angesammeltes Fett kann den thermischen Schutz auslösen.",
-        "Gerät eine Stunde ausgesteckt lassen, damit sich Schutzeinrichtungen zurücksetzen, dann einen Leerlauf bei 180 °C für zehn Minuten starten.",
-        "Läuft der Lüfter, aber die Luft bleibt kalt, hören Sie auf: Gehäuse nicht öffnen, sondern Händler oder Hersteller wegen der Garantie kontaktieren."
+        "Ziehen Sie den Stecker, lassen Sie das Gerät abkühlen und schließen Sie es ohne Verlängerungskabel direkt an eine Wandsteckdose an, die Sie mit einem anderen Gerät geprüft haben.",
+        "Ziehen Sie die Schublade heraus, schieben Sie sie bis zum hörbaren Klick wieder ganz ein und prüfen Sie, ob Krümel den Sicherheitskontakt blockieren.",
+        "Reinigen Sie Schubladenboden, Gitter und Lüftungsöffnungen, denn angesammeltes Fett kann den Überhitzungsschutz auslösen.",
+        "Lassen Sie das Gerät eine Stunde vom Strom getrennt, damit sich Schutzschalter zurücksetzen können, und starten Sie dann zehn Minuten lang einen Leerdurchgang bei 180 °C.",
+        "Läuft der Lüfter, bleibt die Luft aber kalt, hören Sie auf: Öffnen Sie das Gehäuse nicht, sondern wenden Sie sich an den Kundendienst oder nutzen Sie die Garantie."
       ],
-      "replaceWhen": "Sind Heizelement oder Thermosicherung defekt und die Garantie abgelaufen, übersteigt die Reparatur oft den Wert eines neuen Geräts. Ersetzen Sie es auch bei beschädigtem Kabel, ungewöhnlich heißem Gehäuse oder Brandgeruch."
+      "replaceWhen": "Sind Heizelement oder Thermosicherung defekt und ist die Garantie abgelaufen, lohnt sich die Reparatur gegenüber einem neuen Gerät oft nicht. Ersetzen Sie den Airfryer auch, wenn das Kabel beschädigt ist, das Gehäuse ungewöhnlich heiß wurde oder es verbrannt riecht."
     },
     "es": {
       "intro": "Si tu freidora de aire ya no calienta, lo más habitual es un problema de alimentación, una cesta mal encajada o que haya saltado la protección térmica. Si el ventilador gira pero el aire sale frío, normalmente falla la resistencia o su fusible.",
@@ -3347,15 +3347,15 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il guasto è nella resistenza o nel fusibile termico e la garanzia è scaduta, spesso la riparazione non conviene rispetto a un modello nuovo. Cambia la friggitrice anche se il cavo è danneggiato, se la scocca si è scaldata in modo anomalo o se senti odore di bruciato."
     },
     "nl": {
-      "intro": "Een airfryer die niet meer opwarmt heeft meestal een stroomprobleem, een niet vergrendelde lade of een afgeslagen thermische beveiliging. Draait de ventilator wel maar blijft de lucht koud, dan is het verwarmingselement of de thermische zekering de meest waarschijnlijke oorzaak.",
+      "intro": "Een airfryer die niet meer warm wordt, heeft meestal een stroomprobleem, een niet vergrendelde lade of een afgeslagen thermische beveiliging. Draait de ventilator wel maar blijft de lucht koud, dan is het verwarmingselement of de thermische zekering de meest waarschijnlijke oorzaak.",
       "causes": [
-        "Lade niet goed vergrendeld — een veiligheidsschakelaar onderbreekt de verwarming zolang de lade niet helemaal dicht zit.",
-        "Defect stopcontact of verlengsnoer — het apparaat start nauwelijks of niet op een versleten of overbelaste stekkerdoos.",
-        "Thermische beveiliging afgeslagen — na oververhitting door vetresten of verstopte ventilatieopeningen schakelt de zekering de verwarming uit.",
-        "Verwarmingselement of temperatuursensor defect — de ventilator draait en het display licht op, maar de lucht blijft koud of lauw."
+        "Lade niet goed vergrendeld: een veiligheidsschakelaar onderbreekt de verwarming zolang de lade niet helemaal dicht zit.",
+        "Defect stopcontact of verlengsnoer: het apparaat start nauwelijks of niet op een versleten of overbelaste stekkerdoos.",
+        "Thermische beveiliging afgeslagen: na oververhitting door vetresten of verstopte ventilatieopeningen schakelt de zekering de verwarming uit.",
+        "Verwarmingselement of temperatuursensor defect: de ventilator draait en het display licht op, maar de lucht blijft koud of lauw."
       ],
       "steps": [
-        "Haal de stekker eruit, laat het apparaat afkoelen en steek hem rechtstreeks in een wandcontactdoos die u met een ander apparaat hebt getest, zonder verlengsnoer.",
+        "Haal de stekker eruit, laat het apparaat afkoelen en steek hem rechtstreeks in een wandcontactdoos die je met een ander apparaat hebt getest, zonder verlengsnoer.",
         "Haal de lade eruit en schuif hem stevig terug tot hij klikt. Controleer dat er geen kruimels het sluitcontact blokkeren.",
         "Reinig de bodem van de lade, het rooster en de luchtopeningen, want opgehoopt vet kan de thermische beveiliging laten afslaan.",
         "Laat het apparaat een uur zonder stroom staan zodat beveiligingen kunnen resetten en draai daarna tien minuten leeg op 180 °C.",
@@ -3468,21 +3468,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If water spitting returns straight after a proper descale, the boiler or valve is probably damaged. On an older unit, replacement parts often cost nearly as much as a new model, which would also be safer."
     },
     "de": {
-      "intro": "Ein Dampfreiniger, der Wasser spuckt, liefert eigentlich Nassdampf: Das Wasser kondensiert, bevor es die Düse verlässt. Häufigste Ursachen sind ein noch nicht vollständig aufgeheiztes Gerät, ein überfüllter Tank oder Kalk, der die Heizleistung im Kessel stört.",
+      "intro": "Spuckt ein Dampfreiniger Wasser, liefert er in Wahrheit Nassdampf: Das Wasser kondensiert, bevor es austritt. Meist ist das Gerät noch nicht heiß genug, der Tank ist überfüllt oder Kalk stört das Aufheizen.",
       "causes": [
-        "Benutzung vor dem vollen Aufheizen — der Dampf ist noch nicht trocken und Wassertröpfchen treten aus der Düse aus.",
-        "Tank über die Maximalmarke gefüllt — Wasser wird mit dem Dampf mitgerissen, statt im Kessel zu bleiben.",
-        "Kalk im Kessel oder in der Düse — er senkt die Heizleistung und verengt den Auslass, was zu ungleichmäßigem Spucken führt.",
-        "Langer oder kalter Schlauch oder nasses Zubehör — der Dampf kondensiert unterwegs und kommt als Wasser an."
+        "Benutzung vor dem vollständigen Aufheizen – der Dampf ist noch nicht trocken, und Wassertröpfchen treten aus der Düse aus.",
+        "Tank über die Maximalmarke gefüllt – Wasser wird mit dem Dampf mitgerissen, statt im Kessel zu bleiben.",
+        "Kalk im Kessel oder in der Düse – er mindert die Heizleistung und verengt den Durchlass, deshalb spritzt es unregelmäßig.",
+        "Langer oder kalter Schlauch oder nasses Zubehör – der Dampf kondensiert unterwegs und kommt als Wasser an."
       ],
       "steps": [
-        "Gerät ausstecken und vor dem Befüllen vollständig abkühlen lassen; den Verschluss niemals öffnen, solange das Gerät heiß ist oder unter Druck steht.",
-        "Nur bis zur Maximalmarke füllen, mit der in der Anleitung genannten Wasserart, und dann auf die Betriebsbereitschaftsanzeige warten.",
-        "Die ersten Sekunden Dampf auf ein Tuch richten, um Kondenswasser zu entfernen, bevor Sie die eigentliche Fläche reinigen.",
-        "Kessel und Düse nach der Methode der Anleitung entkalken und dabei das zugelassene Mittel sowie die Spülzeiten einhalten.",
-        "Schlauch vollständig abrollen, nasses Zubehör vermeiden und auf eine niedrigere Dampfstufe wechseln, falls Ihr Modell eine hat."
+        "Stecker ziehen und das Gerät vor dem Befüllen vollständig abkühlen lassen; den Verschluss nie öffnen, solange das Gerät heiß ist oder unter Druck steht.",
+        "Nur bis zur Maximalmarke füllen, mit der in der Anleitung genannten Wasserart, und warten, bis die Bereitschaftsanzeige leuchtet.",
+        "Die ersten Sekunden Dampf auf ein Tuch richten, damit das Kondenswasser herauskommt, bevor Sie die eigentliche Fläche reinigen.",
+        "Kessel und Düse nach der Methode aus der Anleitung entkalken und dabei das zugelassene Mittel und die Spülzeiten einhalten.",
+        "Schlauch ganz abrollen, kein nasses Zubehör verwenden und eine niedrigere Dampfstufe wählen, falls Ihr Modell eine Regelung hat."
       ],
-      "replaceWhen": "Kehrt das Spucken direkt nach korrektem Entkalken zurück, ist wahrscheinlich Kessel oder Ventil beschädigt. Bei älteren Geräten kosten Ersatzteile oft fast so viel wie ein Neugerät, das zudem sicherer wäre."
+      "replaceWhen": "Spuckt das Gerät direkt nach korrektem Entkalken wieder Wasser, sind Kessel oder Ventil wahrscheinlich beschädigt. Bei einem älteren Gerät kosten die Ersatzteile oft fast so viel wie ein neues Modell, das zudem sicherer ist."
     },
     "es": {
       "intro": "Si tu limpiador de vapor escupe agua, en realidad está echando vapor húmedo: el agua se condensa antes de salir. Lo más habitual es que no haya calentado lo suficiente, que el depósito esté demasiado lleno o que la cal esté afectando al calentamiento.",
@@ -3521,17 +3521,17 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
     "nl": {
       "intro": "Een stoomreiniger die water spuugt, maakt eigenlijk natte stoom: het water condenseert voordat het de spuitmond verlaat. De meest voorkomende oorzaken zijn een apparaat dat nog niet volledig is opgewarmd, een overvolle tank of kalk die de verwarming verstoort.",
       "causes": [
-        "Gebruik vóór de volledige temperatuur — de stoom is nog niet droog en er komen waterdruppels uit de spuitmond.",
-        "Tank boven het maximum gevuld — water wordt met de stoom meegevoerd in plaats van in de ketel te blijven.",
-        "Kalk in de ketel of spuitmond — het vermindert de verwarming en vernauwt de uitlaat, wat onregelmatig spugen geeft.",
-        "Lange of koude slang of nat hulpstuk — de stoom condenseert onderweg en komt als water aan."
+        "Gebruik vóór de volledige temperatuur: de stoom is nog niet droog en er komen waterdruppels uit de spuitmond.",
+        "Tank boven het maximum gevuld: water wordt met de stoom meegevoerd in plaats van in de ketel te blijven.",
+        "Kalk in de ketel of spuitmond: het vermindert de verwarming en vernauwt de uitlaat, wat onregelmatig spugen geeft.",
+        "Lange of koude slang of nat hulpstuk: de stoom condenseert onderweg en komt als water aan."
       ],
       "steps": [
         "Haal de stekker eruit en laat het apparaat volledig afkoelen voor het bijvullen; draai de dop nooit los als het heet is of onder druk staat.",
         "Vul alleen tot de maximummarkering, met het watertype uit de handleiding, en wacht tot het klaarlampje brandt.",
-        "Richt de eerste seconden stoom op een doek om condenswater te verwijderen voordat u het gewenste oppervlak reinigt.",
+        "Richt de eerste seconden stoom op een doek om condenswater te verwijderen voordat je het gewenste oppervlak reinigt.",
         "Ontkalk de ketel en spuitmond volgens de methode in de handleiding, met het toegestane middel en de voorgeschreven spoeltijden.",
-        "Rol de slang helemaal uit, vermijd natte hulpstukken en schakel naar een lagere stoomstand als uw model die heeft."
+        "Rol de slang helemaal uit, vermijd natte hulpstukken en schakel naar een lagere stoomstand als je model die heeft."
       ],
       "replaceWhen": "Keert het spugen direct terug na correct ontkalken, dan is de ketel of het ventiel waarschijnlijk beschadigd. Bij een ouder apparaat kosten onderdelen vaak bijna evenveel als een nieuw model, dat bovendien veiliger is."
     },
@@ -3640,21 +3640,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the smell comes back quickly despite regular cleaning, or mould is ingrained in places you cannot reach, the unit is hard to keep hygienic. Replace it too if the tank is cracked or deeply scratched."
     },
     "de": {
-      "intro": "Ein unangenehmer Geruch beim Luftbefeuchter stammt fast immer von abgestandenem Wasser, in dem sich Bakterien, Schimmel und Kalkablagerungen bilden. Ein tagelang gefüllter Tank, ein verstopfter Filter oder seltene Reinigung genügen, um muffigen Geruch im Raum zu verbreiten.",
+      "intro": "Unangenehmer Geruch aus dem Luftbefeuchter kommt fast immer von stehendem Wasser, in dem sich Bakterien, Schimmel und Kalk bilden. Ein tagelang gefüllter Tank, ein verbrauchter Filter oder zu seltenes Reinigen genügen, damit es im ganzen Raum muffig riecht.",
       "causes": [
-        "Stehendes Wasser im Tank — mehrere Tage belassen, bildet es einen schleimigen Film und einen muffigen oder abgestandenen Geruch.",
-        "Schimmel oder Biofilm an den Wänden — erkennbar an rosa oder schwarzen Flecken oder einem glitschigen Belag beim Anfassen.",
-        "Kalk an Sockel oder Verneblerplatte — er bindet Verunreinigungen und gibt beim Erhitzen oder Vernebeln einen scharfen Geruch ab.",
-        "Gesättigter Filter oder Verdunstermatte — ein verbrauchter oder nie getrockneter Filter hält Feuchtigkeit und riecht anhaltend."
+        "Stehendes Wasser im Tank – nach mehreren Tagen bildet sich ein schleimiger Film, und es riecht muffig oder abgestanden.",
+        "Schimmel oder Biofilm an den Wänden – zu erkennen an rosa oder schwarzen Flecken oder an einem glitschigen Belag.",
+        "Kalk am Sockel oder an der Verneblerplatte – er bindet Verunreinigungen und riecht beim Erhitzen oder Vernebeln scharf.",
+        "Filter oder Verdunstermatte verbraucht – ein alter oder nie getrockneter Filter bleibt feucht und riecht dauerhaft."
       ],
       "steps": [
-        "Gerät ausstecken, Tank und Sockel vollständig leeren und künftig nur noch frisches Wasser direkt zum Gebrauch einfüllen.",
-        "Tank und Sockel mit verdünnter Essigessenz-Lösung reinigen, sofern die Anleitung das erlaubt, und mit einer weichen Bürste vorsichtig schrubben.",
-        "Gründlich mit klarem Wasser nachspülen, bis der Essiggeruch verschwunden ist, und alle Teile an der Luft trocknen lassen.",
+        "Stecker ziehen, Tank und Sockel vollständig leeren und künftig erst kurz vor dem Gebrauch frisches Wasser einfüllen.",
+        "Tank und Sockel mit verdünntem Haushaltsessig reinigen, sofern die Anleitung das erlaubt, und mit einer weichen Bürste schrubben.",
+        "Gründlich mit klarem Wasser nachspülen, bis kein Essiggeruch mehr bleibt, und alle Teile vor dem Zusammenbau an der Luft trocknen lassen.",
         "Filter oder Matte im vorgegebenen Intervall ersetzen und das Gerät nie ohne Filter betreiben, wenn das Modell einen vorsieht.",
-        "Luftbefeuchter täglich oder vor längerer Nichtbenutzung leeren und trocknen und einmal pro Woche gründlich reinigen."
+        "Den Luftbefeuchter täglich oder vor jeder längeren Pause leeren und trocknen und einmal pro Woche gründlich reinigen."
       ],
-      "replaceWhen": "Kehrt der Geruch trotz regelmäßiger Reinigung schnell zurück oder sitzt Schimmel in unerreichbaren Bereichen, lässt sich das Gerät kaum hygienisch halten. Auch bei rissigem oder tief verkratztem Tank sollten Sie es ersetzen."
+      "replaceWhen": "Kehrt der Geruch trotz regelmäßiger Reinigung schnell zurück oder sitzt Schimmel an Stellen, die Sie nicht erreichen, lässt sich das Gerät kaum noch hygienisch halten. Ersetzen Sie es auch, wenn der Tank Risse oder tiefe Kratzer hat."
     },
     "es": {
       "intro": "El mal olor de un humidificador casi siempre viene del agua estancada, donde crecen bacterias, moho y depósitos de cal. Basta con dejar el depósito lleno, tener el filtro saturado o limpiarlo poco para que el olor a humedad se extienda por la habitación.",
@@ -3691,21 +3691,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se l'odore torna in fretta nonostante pulizie regolari, o se la muffa è incrostata in punti che non riesci a raggiungere, l'apparecchio è difficile da igienizzare. Sostituiscilo anche se il serbatoio è crepato o graffiato in profondità."
     },
     "nl": {
-      "intro": "Een vieze geur uit een luchtbevochtiger komt bijna altijd van stilstaand water, waarin bacteriën, schimmel en kalkafzetting zich ontwikkelen. Een dagenlang gevulde tank, een verzadigd filter of te zeldzaam schoonmaken is genoeg om een muffe geur door de kamer te verspreiden.",
+      "intro": "Een vieze geur uit een luchtbevochtiger komt bijna altijd van stilstaand water, waarin bacteriën, schimmel en kalkafzetting zich ontwikkelen. Een dagenlang gevulde tank, een verzadigd filter of te weinig schoonmaken is genoeg om een muffe geur door de kamer te verspreiden.",
       "causes": [
-        "Stilstaand water in de tank — na enkele dagen vormt het een slijmerige laag en een bedompte of muffe geur.",
-        "Schimmel of biofilm op de wanden — te herkennen aan roze of zwarte vlekken of een glibberige laag die u kunt voelen.",
-        "Kalk op de basis of het vernevelelement — het houdt vuil vast en geeft een scherpe geur af tijdens verwarmen of vernevelen.",
-        "Verzadigd filter of lont — een versleten filter, of een filter dat nooit droogt, houdt vocht vast en geeft blijvend geur af."
+        "Stilstaand water in de tank: na enkele dagen vormt het een slijmerige laag en een bedompte of muffe geur.",
+        "Schimmel of biofilm op de wanden: te herkennen aan roze of zwarte vlekken of een glibberige laag die je voelt.",
+        "Kalk op de basis of het vernevelelement: het houdt vuil vast en geeft een scherpe geur af tijdens verwarmen of vernevelen.",
+        "Verzadigd filter of lont: een versleten filter, of een filter dat nooit droogt, houdt vocht vast en geeft blijvend geur af."
       ],
       "steps": [
         "Haal de stekker eruit, leeg de tank en de basis volledig en vul voortaan alleen vers water bij op het moment van gebruik.",
         "Reinig tank en basis met een verdunde oplossing van witte azijn als de handleiding dat toestaat en schrob voorzichtig met een zachte borstel.",
-        "Spoel grondig na met schoon water tot de azijngeur weg is en laat alle onderdelen aan de lucht drogen voor het weer in elkaar zetten.",
+        "Spoel grondig na met schoon water tot de azijngeur weg is en laat alle onderdelen aan de lucht drogen voordat je alles weer in elkaar zet.",
         "Vervang het filter of de lont volgens het voorgeschreven interval en gebruik het apparaat nooit zonder filter als het model er een vereist.",
-        "Leeg en droog de luchtbevochtiger dagelijks of voor een periode van niet-gebruik en maak hem één keer per week grondig schoon."
+        "Leeg en droog de luchtbevochtiger elke dag en altijd voordat je hem een tijd niet gebruikt en maak hem één keer per week grondig schoon."
       ],
-      "replaceWhen": "Komt de geur snel terug ondanks regelmatig schoonmaken of zit schimmel op plekken die u niet kunt bereiken, dan is het apparaat moeilijk hygiënisch te houden. Vervang het ook bij een gescheurde of diep bekraste tank."
+      "replaceWhen": "Komt de geur snel terug ondanks regelmatig schoonmaken of zit schimmel op plekken die je niet kunt bereiken, dan is het apparaat moeilijk hygiënisch te houden. Vervang het ook bij een gescheurde of diep bekraste tank."
     },
     "pl": {
       "intro": "Nieprzyjemny zapach z nawilżacza powietrza prawie zawsze bierze się ze stojącej wody, w której rozwijają się bakterie i pleśń oraz gromadzi się kamień. Pozostawiony pełny zbiornik, zapchany filtr albo zbyt rzadkie czyszczenie wystarczą, by po pomieszczeniu rozchodził się zapach stęchlizny.",
@@ -3812,21 +3812,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If streaks persist with a new pad and a suitable cleaner, check the suction and the condition of the seal. A robot that keeps losing power or has a warped seal is rarely worth repairing and is better replaced."
     },
     "de": {
-      "intro": "Ein Fensterputzroboter, der Schlieren hinterlässt, hat fast immer ein schmutziges oder abgenutztes Pad oder die falsche Menge Reinigungsmittel. Schlieren entstehen, wenn Schmutz nur verschoben wird und das Wasser zu schnell trocknet, besonders auf warmem oder stark verkalktem Glas.",
+      "intro": "Hinterlässt ein Fensterputzroboter Schlieren, ist das Pad fast immer schmutzig oder abgenutzt oder die Menge an Reinigungsmittel passt nicht. Schlieren entstehen, wenn der Schmutz nur verschoben wird und das Wasser zu schnell trocknet, besonders auf warmem oder stark verkalktem Glas.",
       "causes": [
-        "Verschmutztes oder abgenutztes Pad — es hält Schmutz nicht mehr fest und gibt ihn bei jedem Durchgang als feine Linien wieder ab.",
-        "Zu viel Wasser oder Reiniger — der Überschuss läuft ab, trocknet in Tropfen und hinterlässt Ränder oder Läufer am unteren Glasrand.",
-        "Scheibe in der Sonne — die Flüssigkeit trocknet, bevor sie abgewischt wird, und lässt weiße Kalk- oder Seifenschlieren zurück.",
-        "Sehr schmutziges Glas oder Fettfilm — ein Durchgang reicht nicht, und der Schmutz wird verteilt, statt aufgenommen zu werden."
+        "Verschmutztes oder abgenutztes Pad – es hält den Schmutz nicht mehr fest und verteilt ihn bei jedem Durchgang in feinen Linien.",
+        "Zu viel Wasser oder Reiniger – der Überschuss läuft herunter, trocknet als Tropfen und hinterlässt Wasserränder oder Laufspuren am unteren Rand der Scheibe.",
+        "Scheibe in der Sonne – die Flüssigkeit trocknet, bevor sie abgewischt wird, und lässt weiße Kalk- oder Seifenschlieren zurück.",
+        "Sehr schmutzige Scheibe oder Fettfilm – ein Durchgang reicht nicht, und der Schmutz wird verteilt, statt aufgenommen zu werden."
       ],
       "steps": [
-        "Pad abnehmen, in warmem Seifenwasser ohne Weichspüler von Hand waschen, gut ausspülen und vor dem Wiederbefestigen trocknen lassen.",
+        "Pad abnehmen, von Hand in lauwarmem Seifenwasser ohne Weichspüler waschen, gut ausspülen und vor dem Wiederanbringen trocknen lassen.",
         "Rahmen und Fensterbänke vorab mit einem feuchten Tuch abwischen, damit der Roboter Staub und Sand nicht über das Glas verteilt.",
-        "Fenster im Schatten oder bei bedecktem Himmel reinigen und eine mäßige Menge des vom Hersteller empfohlenen Reinigers aufsprühen.",
+        "Fenster im Schatten oder bei bedecktem Himmel reinigen und den vom Hersteller empfohlenen Reiniger sparsam aufsprühen.",
         "Bei sehr schmutzigem oder fettigem Glas einen ersten Durchgang mit wenig Reiniger fahren, dann einen zweiten mit sauberem Pad.",
-        "Laufband und Saugdichtung mit klarem Wasser abspülen und prüfen, dass das Pad an seinen Halterungen straff sitzt."
+        "Laufband und Saugdichtung mit klarem Wasser reinigen und prüfen, ob das Pad straff an seinen Halterungen sitzt."
       ],
-      "replaceWhen": "Bleiben Schlieren auch mit neuem Pad und passendem Reiniger, prüfen Sie Saugkraft und Zustand der Dichtung. Ein Roboter mit dauerhaft nachlassender Leistung oder verzogener Dichtung lohnt selten eine Reparatur und sollte ersetzt werden."
+      "replaceWhen": "Bleiben die Schlieren auch mit neuem Pad und passendem Reiniger, prüfen Sie die Saugkraft und den Zustand der Dichtung. Ein Roboter, der dauerhaft an Leistung verliert oder dessen Dichtung verzogen ist, lohnt kaum noch eine Reparatur und sollte ersetzt werden."
     },
     "es": {
       "intro": "Si tu robot limpiacristales deja marcas, casi siempre es por una bayeta sucia o gastada, o por usar una cantidad de producto que no es la adecuada. Las marcas aparecen cuando la suciedad solo se mueve de sitio y el agua se seca demasiado rápido, sobre todo en un cristal caliente o con mucha cal.",
@@ -3863,15 +3863,15 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se gli aloni restano anche con un panno nuovo e il detergente giusto, controlla l'aspirazione e lo stato della guarnizione. Un robot che perde potenza in modo stabile o con la guarnizione deformata raramente vale la spesa della riparazione: conviene sostituirlo."
     },
     "nl": {
-      "intro": "Een ruitenrobot die strepen achterlaat heeft vrijwel altijd een vuil of versleten doekje, of de verkeerde hoeveelheid reinigingsmiddel. Strepen ontstaan als vuil alleen wordt verplaatst en het water te snel opdroogt, vooral op warm glas of glas met veel kalkafzetting.",
+      "intro": "Een raamwasrobot die strepen achterlaat heeft vrijwel altijd een vuil of versleten doekje, of de verkeerde hoeveelheid reinigingsmiddel. Strepen ontstaan als vuil alleen wordt verplaatst en het water te snel opdroogt, vooral op warm glas of glas met veel kalkafzetting.",
       "causes": [
-        "Vuil of versleten doekje — het houdt vuil niet meer vast en zet het bij elke beurt als fijne lijntjes weer af.",
-        "Te veel water of reiniger — het teveel loopt weg, droogt in druppels en laat kringen of lopers onderaan het glas achter.",
-        "Glas in de zon — de vloeistof droogt voordat ze wordt weggeveegd en laat witte kalk- of zeepstrepen achter.",
-        "Erg vuil glas of vette film — één beurt is niet genoeg en het vuil wordt uitgesmeerd in plaats van opgenomen."
+        "Vuil of versleten doekje: het houdt vuil niet meer vast en zet het bij elke beurt als fijne lijntjes weer af.",
+        "Te veel water of reiniger: het teveel loopt weg, droogt in druppels en laat kringen of lopers onderaan het glas achter.",
+        "Glas in de zon: de vloeistof droogt voordat ze wordt weggeveegd en laat witte kalk- of zeepstrepen achter.",
+        "Erg vuil glas of vette film: één beurt is niet genoeg en het vuil wordt uitgesmeerd in plaats van opgenomen."
       ],
       "steps": [
-        "Haal het doekje eraf, was het met de hand in lauw zeepwater zonder wasverzachter, spoel goed na en laat het drogen voor u het terugplaatst.",
+        "Haal het doekje eraf, was het met de hand in lauw zeepwater zonder wasverzachter, spoel goed na en laat het drogen voordat je het terugplaatst.",
         "Veeg eerst kozijn en vensterbanken af met een vochtige doek, zodat de robot geen stof en zand over het glas uitsmeert.",
         "Reinig ramen in de schaduw of bij bewolkt weer en spuit een matige hoeveelheid van het door de fabrikant aanbevolen middel.",
         "Doe bij erg vuil of vet glas een eerste ronde met weinig reiniger en een tweede ronde met een schoon doekje.",
@@ -3984,21 +3984,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the noise remains after levelling, cleaning and defrosting, and comes with weaker performance or repeated shutdowns, the compressor is probably near the end of its life. Out of warranty, a new compressor costs almost as much as a new dehumidifier."
     },
     "de": {
-      "intro": "Wird ein Luftentfeuchter laut, liegen die Ursachen meist an unsicherem Stand, verschmutztem Filter oder Eis am Verdampfer, noch bevor der Kompressor wirklich defekt ist. Ein metallisches Klappern oder ein Brummen, das mit der Zeit zunimmt, sollte jedoch genauer geprüft werden.",
+      "intro": "Wird ein Luftentfeuchter laut, liegt das meist an einem unsicheren Stand, einem verschmutzten Filter oder Eis am Verdampfer und erst danach an einem echten Kompressorschaden. Ein metallisches Klappern oder ein Brummen, das mit der Zeit stärker wird, sollten Sie jedoch genau prüfen.",
       "causes": [
-        "Gerät nicht eben oder auf hartem Boden — die Vibrationen des Kompressors übertragen sich auf den Boden und verstärken das Geräusch.",
-        "Verstopfter Luftfilter oder verschmutzter Lüfter — die Luft strömt schlecht, der Motor arbeitet schwerer und das Brummen nimmt zu.",
-        "Eis am Verdampfer oder Wassertank nicht richtig eingesetzt — Teile reiben, klicken oder arbeiten bei jedem Neustart schwer.",
-        "Verschlissene Gummipuffer oder Kompressor — das Geräusch wird dumpf, schrill oder klopfend, vor allem nach mehreren Betriebsjahren."
+        "Gerät steht nicht stabil oder auf hartem Boden – die Vibrationen des Kompressors übertragen sich auf den Boden und verstärken das Geräusch.",
+        "Luftfilter zugesetzt oder Lüfter verschmutzt – die Luft zirkuliert schlecht, der Motor muss mehr leisten, und das Brummen nimmt zu.",
+        "Eis am Verdampfer oder Wassertank nicht richtig eingesetzt – Teile reiben, klicken oder laufen bei jedem Neustart schwer.",
+        "Verschlissene Gummipuffer oder Kompressor – das Geräusch wird dumpf, schrill oder klopfend, vor allem nach einigen Betriebsjahren."
       ],
       "steps": [
-        "Gerät ausstecken, auf waagerechten Stand achten und auf eine Gummimatte oder ein Antivibrationspad stellen.",
-        "Luftfilter herausnehmen und in lauwarmem Wasser waschen, anschließend Gitter und Rückseite mit Staubsauger und weichem Aufsatz entstauben.",
-        "Wassertank leeren, wieder fest einsetzen, bis er einrastet, und prüfen, dass sich keine Abdeckung oder Blende gelockert hat.",
-        "Ist Eis sichtbar, Gerät ausschalten und bei Raumtemperatur abtauen lassen und danach in einem wärmeren Raum neu starten.",
-        "Nach jedem Ausschalten drei Minuten warten, bevor Sie wieder einschalten. Bleibt das Geräusch, den Kältekreislauf nicht öffnen, sondern den Hersteller kontaktieren."
+        "Stecker ziehen, prüfen, ob das Gerät waagerecht steht, und es auf eine Gummimatte oder eine Antivibrationsunterlage stellen.",
+        "Luftfilter herausnehmen und in lauwarmem Wasser waschen, anschließend Gitter und Rückseite mit dem Staubsauger und einem weichen Bürstenaufsatz entstauben.",
+        "Wassertank leeren, wieder einsetzen, bis er hörbar einrastet, und prüfen, ob sich eine Abdeckung oder Blende gelockert hat.",
+        "Ist Eis zu sehen, Gerät ausschalten, bei Raumtemperatur abtauen lassen und danach in einem wärmeren Raum wieder starten.",
+        "Nach dem Ausschalten drei Minuten warten, bevor Sie es wieder einschalten. Bleibt das Geräusch, den Kältekreislauf nicht öffnen, sondern den Kundendienst kontaktieren."
       ],
-      "replaceWhen": "Bleibt das Geräusch nach Ausrichten, Reinigen und Abtauen und kommen schwächere Leistung oder wiederholtes Abschalten hinzu, ist der Kompressor vermutlich am Ende. Außerhalb der Garantie kostet der Tausch fast so viel wie ein neues Gerät."
+      "replaceWhen": "Bleibt das Geräusch nach Ausrichten, Reinigen und Abtauen und lässt zugleich die Leistung nach oder schaltet das Gerät immer wieder ab, ist der Kompressor vermutlich am Ende. Außerhalb der Garantie kostet sein Austausch fast so viel wie ein neues Gerät."
     },
     "es": {
       "intro": "Cuando un deshumidificador empieza a hacer ruido, lo más habitual es un problema de estabilidad, un filtro sucio o escarcha en el evaporador, antes que una avería real del compresor. Aun así, una vibración metálica o un zumbido que va a más merece que lo revises con calma.",
@@ -4035,19 +4035,19 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il rumore resta anche dopo aver stabilizzato, pulito e sbrinato l'apparecchio, e in più deumidifica meno o si spegne di continuo, il compressore è probabilmente a fine vita. Fuori garanzia, sostituirlo costa quasi quanto un deumidificatore nuovo."
     },
     "nl": {
-      "intro": "Een luchtontvochtiger die luid is geworden heeft vaker een onvaste stand, een verstopt filter of ijs op de verdamper dan een echt defecte compressor. Een metalen gerammel of een bromtoon die in de loop van de tijd erger wordt, verdient echter extra aandacht.",
+      "intro": "Een luchtontvochtiger die luid is geworden, staat vaker wankel, heeft een verstopt filter of ijs op de verdamper dan dat de compressor echt defect is. Een metalen gerammel of een bromtoon die in de loop van de tijd erger wordt, verdient wel extra aandacht.",
       "causes": [
-        "Apparaat niet waterpas of op harde vloer — de trillingen van de compressor gaan de vloer in en versterken het geluid.",
-        "Verstopt luchtfilter of vuile ventilator — de lucht stroomt slecht, de motor moet harder werken en het brommen neemt toe.",
-        "Ijs op de verdamper of watertank niet goed geplaatst — onderdelen schuren, klikken of hebben bij elke herstart moeite.",
-        "Versleten rubbers of compressor — het geluid wordt dof, schel of kloppend, vooral na enkele jaren gebruik."
+        "Apparaat niet waterpas of op een harde vloer: de trillingen van de compressor gaan over op de vloer en versterken het geluid.",
+        "Verstopt luchtfilter of vuile ventilator: de lucht stroomt slecht, de motor moet harder werken en het brommen neemt toe.",
+        "Ijs op de verdamper of watertank niet goed geplaatst: onderdelen schuren, klikken of hebben bij elke herstart moeite.",
+        "Versleten rubbers of compressor: het geluid wordt dof, schel of kloppend, vooral na enkele jaren gebruik."
       ],
       "steps": [
         "Haal de stekker eruit, controleer of het apparaat recht staat en plaats het op een rubberen mat of antitrillingsmat.",
         "Neem het luchtfilter eruit en was het in lauw water, stofzuig daarna de roosters en achterkant met een zachte borstel.",
         "Leeg de watertank, plaats hem stevig terug tot hij klikt en controleer dat geen paneel of klep los is gaan zitten.",
         "Is er ijs zichtbaar, schakel dan uit en laat het bij kamertemperatuur ontdooien en start daarna opnieuw in een warmere ruimte.",
-        "Wacht na elke stop drie minuten voor u weer inschakelt. Blijft het geluid, open het koelcircuit dan niet: neem contact op met de fabrikant."
+        "Wacht na elke stop drie minuten voordat je weer inschakelt. Blijft het geluid, open het koelcircuit dan niet: neem contact op met de fabrikant."
       ],
       "replaceWhen": "Blijft het geluid na waterpas zetten, schoonmaken en ontdooien en komen daar minder prestaties of herhaald uitschakelen bij, dan is de compressor waarschijnlijk aan het einde van zijn leven. Buiten garantie kost vervanging bijna evenveel als een nieuw apparaat."
     },
@@ -4156,21 +4156,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the soleplate is deeply scratched, flaking or warped, cleaning will not restore the glide and the iron will damage your clothes. An older iron with a damaged soleplate is better replaced than repaired."
     },
     "de": {
-      "intro": "Bleibt die Bügeleisensohle am Stoff hängen, ist sie meist durch Stärke, Kalk oder angeschmolzene Kunstfasern verschmutzt. Die Oberfläche verliert ihre Gleitfähigkeit, und eine zu hohe Bügeltemperatur oder eine zerkratzte Sohle verschlimmern das Problem zusätzlich.",
+      "intro": "Bleibt die Sohle des Bügeleisens am Stoff hängen, ist sie meist durch Stärke, Kalk oder angeschmolzene Kunstfasern verschmutzt. Die Oberfläche gleitet dann nicht mehr, und eine zu hohe Temperatur oder eine zerkratzte Sohle verschlimmern das Problem.",
       "causes": [
-        "Rückstände von Stärke, Bügelspray oder Kalk — sie verbrennen auf der Sohle und bilden eine raue Schicht, die bremst.",
-        "Angeschmolzene Kunstfasern — ein zu heißer Durchgang über Polyester oder Nylon hinterlässt einen klebrigen, kaum sichtbaren Film.",
-        "Mit Kalk zugesetzte Dampfdüsen — Wasser tropft ungleichmäßig, hinterlässt Flecken und macht die Sohle weniger glatt.",
-        "Zerkratzte oder abplatzende Beschichtung — ein Sturz oder Kontakt mit Reißverschlüssen erzeugt raue Stellen, die den Stoff greifen."
+        "Rückstände von Stärke, Bügelspray oder Kalk – sie brennen auf der Sohle ein und bilden eine raue Schicht, die über den Stoff reibt.",
+        "Angeschmolzene Kunstfasern – ein zu heißer Durchgang über Polyester oder Nylon hinterlässt einen klebrigen, kaum sichtbaren Film.",
+        "Dampfdüsen durch Kalk zugesetzt – das Wasser tropft ungleichmäßig, hinterlässt Flecken und macht die Sohle weniger glatt.",
+        "Zerkratzte oder abgeplatzte Beschichtung – ein Sturz oder ein Reißverschluss erzeugt raue Stellen, an denen der Stoff hängen bleibt."
       ],
       "steps": [
-        "Bügeleisen ausstecken, vollständig abkühlen lassen und die Sohle mit einem weichen, feuchten Tuch und einem Tropfen Spülmittel abwischen.",
-        "Hält sich der Belag, tragen Sie eine milde Paste aus Natron und Wasser auf, wenn die Anleitung es erlaubt, und wischen ohne das Metall zu kratzen.",
-        "Verwenden Sie niemals Stahlwolle, Klingen oder Scheuermittel, da sie die Beschichtung zerkratzen und die Sohle noch stärker haken lassen.",
-        "Wassertank leeren und die in der Anleitung beschriebene Entkalkungs- oder Selbstreinigungsfunktion starten, um die Dampfdüsen freizuspülen.",
-        "Bügeln Sie mit der Temperatur laut Pflegeetikett und legen Sie bei empfindlichen Stoffen ein Schutztuch auf."
+        "Ziehen Sie den Stecker, lassen Sie das Bügeleisen vollständig abkühlen und wischen Sie die Sohle mit einem weichen, feuchten Tuch und etwas Spülmittel ab.",
+        "Hält sich der Belag, tragen Sie eine milde Paste aus Natron und Wasser auf, sofern die Anleitung das erlaubt, und wischen Sie sie ab, ohne das Metall zu zerkratzen.",
+        "Verwenden Sie niemals Stahlwolle, Klingen oder Scheuermittel: Sie zerkratzen die Beschichtung, und die Sohle hakt danach noch stärker.",
+        "Leeren Sie den Wassertank und starten Sie die Entkalkungs- oder Spülfunktion laut Anleitung, um die Dampfdüsen freizuspülen.",
+        "Bügeln Sie mit der Temperatur, die das Pflegeetikett angibt, und legen Sie bei empfindlichen Stoffen ein Tuch dazwischen."
       ],
-      "replaceWhen": "Ist die Sohle tief zerkratzt, abgeplatzt oder verzogen, stellt auch Reinigen die Gleitfähigkeit nicht wieder her, und das Bügeleisen beschädigt Ihre Kleidung. Ein älteres Bügeleisen mit beschädigter Sohle ersetzen Sie besser, statt es zu reparieren."
+      "replaceWhen": "Ist die Sohle tief zerkratzt, abgeplatzt oder verzogen, gleitet sie auch nach dem Reinigen nicht mehr, und das Bügeleisen beschädigt Ihre Kleidung. Ein älteres Bügeleisen mit beschädigter Sohle ersetzen Sie besser, statt es zu reparieren."
     },
     "es": {
       "intro": "Si la suela de la plancha se engancha en la tela, lo más habitual es que esté sucia de almidón, cal o fibras sintéticas derretidas. La superficie deja de deslizar, y una temperatura demasiado alta o una suela rayada lo empeoran.",
@@ -4209,10 +4209,10 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
     "nl": {
       "intro": "Een strijkzool die aan de stof blijft haken is meestal vervuild met stijfsel, kalk of gesmolten synthetische vezels. Het oppervlak verliest zijn glij-eigenschappen en een te hoge temperatuur of een bekraste zool maakt het probleem erger.",
       "causes": [
-        "Resten van stijfsel, strijkspray of kalk — ze verbranden op de zool en vormen een ruwe laag die blijft haken.",
-        "Gesmolten synthetische vezels — een te hete beurt over polyester of nylon laat een kleverige, nauwelijks zichtbare film achter.",
-        "Stoomgaatjes verstopt met kalk — water druppelt ongelijkmatig, laat vlekken achter en maakt de zool minder glad.",
-        "Bekraste of afbladderende coating — een val of contact met een rits veroorzaakt ruwe plekken die de stof vastgrijpen."
+        "Resten van stijfsel, strijkspray of kalk: ze verbranden op de zool en vormen een ruwe laag die blijft haken.",
+        "Gesmolten synthetische vezels: een te hete beurt over polyester of nylon laat een kleverige, nauwelijks zichtbare film achter.",
+        "Stoomgaatjes verstopt met kalk: water druppelt ongelijkmatig, laat vlekken achter en maakt de zool minder glad.",
+        "Bekraste of afbladderende coating: een val of contact met een rits veroorzaakt ruwe plekken die de stof vastgrijpen."
       ],
       "steps": [
         "Haal de stekker eruit, laat het strijkijzer volledig afkoelen en veeg de zool af met een zachte, vochtige doek en een druppel afwasmiddel.",
@@ -4221,7 +4221,7 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
         "Leeg het waterreservoir en start de ontkalk- of zelfreinigingsfunctie uit de handleiding om de stoomgaatjes vrij te maken.",
         "Strijk op de temperatuur van het wasetiket en gebruik bij gevoelige stoffen een strijkdoek."
       ],
-      "replaceWhen": "Is de zool diep bekrast, afgebladderd of vervormd, dan herstelt schoonmaken de glijkwaliteit niet en beschadigt het strijkijzer uw kleding. Een ouder strijkijzer met een beschadigde zool vervangt u beter dan u het repareert."
+      "replaceWhen": "Is de zool diep bekrast, afgebladderd of vervormd, dan herstelt schoonmaken de glijkwaliteit niet en beschadigt het strijkijzer je kleding. Een ouder strijkijzer met een beschadigde zool kun je beter vervangen dan repareren."
     },
     "pl": {
       "intro": "Jeśli stopa żelazka zaczepia o tkaninę, najczęściej jest zabrudzona przypalonym krochmalem, kamieniem lub stopionymi włóknami syntetycznymi. Powierzchnia przestaje się wtedy ślizgać, a zbyt wysoka temperatura lub porysowana stopa tylko pogarszają sprawę.",
@@ -4328,21 +4328,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "If the cap, its thread or the safety valve is damaged, or the leak continues with a new seal, the unit is no longer safe. Replace it rather than attempting your own repair, especially if it is old or the boiler is cracked."
     },
     "de": {
-      "intro": "Ein Leck am Verschluss während des Aufheizens deutet meist auf eine verschlissene Dichtung, einen nicht richtig verschlossenen Deckel oder Kalk am Dichtsitz hin. Da der Kessel unter Druck steht, schalten Sie das Gerät aus und öffnen den Verschluss niemals im heißen Zustand, denn es besteht Verbrühungsgefahr.",
+      "intro": "Läuft beim Aufheizen Wasser am Verschluss aus, ist meist die Dichtung verschlissen, der Verschluss nicht richtig zugeschraubt oder sein Sitz verkalkt. Da der Kessel unter Druck steht, schalten Sie das Gerät aus und öffnen den Verschluss nie, solange er heiß ist: Es besteht echte Verbrühungsgefahr.",
       "causes": [
-        "Dichtung des Verschlusses verhärtet, rissig oder verformt — sie schließt nicht mehr dicht, wenn der Druck im Kessel steigt.",
-        "Verschluss nicht ganz oder schief aufgeschraubt — das Gewinde sitzt versetzt oder die Sicherheitsverriegelung ist nicht vollständig eingerastet.",
-        "Kalk am Dichtsitz oder im Gewinde — Ablagerungen verhindern, dass die Dichtung plan am Kessel anliegt.",
-        "Kessel über die Maximalmarke gefüllt — das überschüssige Wasser wird bei steigender Temperatur und Druck zum Verschluss gedrückt."
+        "Dichtung des Verschlusses verhärtet, rissig oder verformt – sie dichtet nicht mehr ab, wenn der Druck im Kessel steigt.",
+        "Verschluss nicht ganz oder schief aufgeschraubt – das Gewinde sitzt versetzt oder die Sicherheitsverriegelung ist nicht vollständig eingerastet.",
+        "Kalk am Dichtsitz oder im Gewinde – die Ablagerungen verhindern, dass die Dichtung plan am Kessel anliegt.",
+        "Kessel über die Maximalmarke gefüllt – das überschüssige Wasser wird bei steigender Temperatur und steigendem Druck zum Verschluss gedrückt."
       ],
       "steps": [
-        "Gerät sofort ausstecken und mehrere Stunden abkühlen lassen; den Verschluss weder berühren noch öffnen, solange er heiß ist.",
-        "Im kalten Zustand den Verschluss gemäß Anleitung abschrauben und die Dichtung prüfen: Sie muss flexibel, unbeschädigt und richtig eingesetzt sein.",
+        "Sofort den Stecker ziehen und das Gerät mehrere Stunden abkühlen lassen; den Verschluss weder berühren noch öffnen, solange er heiß ist.",
+        "Im kalten Zustand den Verschluss wie in der Anleitung beschrieben abschrauben und die Dichtung prüfen: Sie muss elastisch, unbeschädigt und richtig eingesetzt sein.",
         "Dichtsitz und Gewinde mit einem feuchten Tuch reinigen und Kalkablagerungen entfernen, ohne das Metall zu zerkratzen.",
-        "Nur bis zur Maximalmarke befüllen und den Verschluss fest zuschrauben, dabei Ausrichtung und Sicherheitsverriegelung kontrollieren.",
-        "Tritt das Leck erneut auf, Gerät nicht mehr benutzen und einen Original-Verschluss oder eine Dichtung bestellen oder den Hersteller kontaktieren."
+        "Nur bis zur Maximalmarke befüllen und den Verschluss fest zuschrauben, dabei auf gerades Ansetzen und die Sicherheitsverriegelung achten.",
+        "Tritt wieder Wasser aus, das Gerät nicht mehr benutzen und einen Originalverschluss oder eine Originaldichtung bestellen oder den Kundendienst kontaktieren."
       ],
-      "replaceWhen": "Sind Verschluss, Gewinde oder Sicherheitsventil beschädigt oder bleibt das Leck mit neuer Dichtung bestehen, ist das Gerät nicht mehr sicher. Ersetzen Sie es, statt selbst zu reparieren, besonders wenn es alt ist oder der Kessel Risse hat."
+      "replaceWhen": "Sind Verschluss, Gewinde oder Sicherheitsventil beschädigt oder bleibt das Leck trotz neuer Dichtung, ist das Gerät nicht mehr sicher. Ersetzen Sie es, statt selbst zu reparieren, besonders wenn es alt ist oder der Kessel Risse hat."
     },
     "es": {
       "intro": "Si tu limpiador de vapor pierde agua por el tapón mientras calienta, lo normal es que la junta esté gastada, que el tapón esté mal enroscado o que haya cal en su asiento. Como la caldera está a presión, apaga el aparato y no desenrosques nunca el tapón mientras esté caliente: el riesgo de quemarte es real.",
@@ -4379,18 +4379,18 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Se il tappo, la filettatura o la valvola di sicurezza sono danneggiati, o la perdita continua anche con una guarnizione nuova, l'apparecchio non è più sicuro. Sostituiscilo invece di provare a ripararlo da solo, soprattutto se è vecchio o se la caldaia è crepata."
     },
     "nl": {
-      "intro": "Een lek bij de dop tijdens het opwarmen wijst meestal op een versleten afdichting, een dop die niet goed is vastgedraaid of kalk op de dopzitting. Omdat de ketel onder druk staat, zet u het apparaat uit en draait u de dop nooit los zolang hij heet is: er is echt verbrandingsgevaar.",
+      "intro": "Een lek bij de dop tijdens het opwarmen wijst meestal op een versleten afdichting, een dop die niet goed is vastgedraaid of kalk op de dopzitting. Omdat de ketel onder druk staat, zet je het apparaat uit en draai je de dop nooit los zolang hij heet is: er is echt verbrandingsgevaar.",
       "causes": [
-        "Afdichting van de dop verhard, gescheurd of vervormd — hij sluit niet meer waterdicht af als de druk in de ketel oploopt.",
-        "Dop niet helemaal of scheef vastgedraaid — het schroefdraad staat niet uitgelijnd of de veiligheidsvergrendeling is niet volledig ingeklikt.",
-        "Kalk op de dopzitting of het schroefdraad — afzettingen voorkomen dat de afdichting vlak tegen de ketel aansluit.",
-        "Ketel boven het maximum gevuld — het overtollige water wordt naar de dop geduwd als temperatuur en druk stijgen."
+        "Afdichting van de dop verhard, gescheurd of vervormd: hij sluit niet meer waterdicht af als de druk in de ketel oploopt.",
+        "Dop niet helemaal of scheef vastgedraaid: het schroefdraad staat niet uitgelijnd of de veiligheidsvergrendeling is niet volledig ingeklikt.",
+        "Kalk op de dopzitting of het schroefdraad: afzettingen voorkomen dat de afdichting vlak tegen de ketel aansluit.",
+        "Ketel boven het maximum gevuld: het overtollige water wordt naar de dop geduwd als temperatuur en druk stijgen."
       ],
       "steps": [
         "Haal direct de stekker eruit en laat het apparaat enkele uren afkoelen; raak de dop niet aan en open hem niet zolang hij heet is.",
         "Draai de dop in koude toestand los volgens de handleiding en controleer de afdichting: die moet soepel, heel en goed geplaatst zijn.",
         "Maak zitting en schroefdraad schoon met een vochtige doek en verwijder kalkaanslag zonder het metaal te krassen.",
-        "Vul alleen tot de maximummarkering en draai de dop helemaal vast, waarbij u uitlijning en veiligheidsvergrendeling controleert.",
+        "Vul alleen tot de maximummarkering en draai de dop helemaal vast; controleer daarbij de uitlijning en de veiligheidsvergrendeling.",
         "Komt het lek terug, gebruik het apparaat dan niet meer en bestel een originele dop of afdichting, of neem contact op met de fabrikant."
       ],
       "replaceWhen": "Zijn de dop, het schroefdraad of het veiligheidsventiel beschadigd, of blijft het lek bestaan met een nieuwe afdichting, dan is het apparaat niet meer veilig. Vervang het liever dan zelf te repareren, zeker als het oud is of de ketel gescheurd is."

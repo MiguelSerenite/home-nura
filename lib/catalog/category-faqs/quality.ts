@@ -19,6 +19,8 @@ const FIRST_SENTENCE_MAX_WORDS = 35
  * (the thermostatic head of a radiator valve), which claim nothing.
  */
 const TEST_CLAIM = /(^|[^\p{L}])(test(?!a(?!\p{L})|in[ae](?!\p{L}))|getest|przetest|probad[oa]s?\b|probamos)/iu
+/** Independent testers named by their own name, which is no claim of ours. */
+const TESTER_NAMES = /\bTest[- ]Aankoop\b|\bTest-Achats\b/giu
 const URL = /https?:\/\/|www\./i
 
 const words = (text: string) => text.trim().split(/\s+/).filter(Boolean).length
@@ -47,7 +49,7 @@ export function checkFaqSet(slug: string, set: CategoryFaqSet): string[] {
       const lead = words(firstSentence(answer))
       if (lead > FIRST_SENTENCE_MAX_WORDS) errors.push(`${at}: first sentence has ${lead} words (max ${FIRST_SENTENCE_MAX_WORDS})`)
       for (const [field, text] of [['question', question], ['answer', answer]] as const) {
-        if (TEST_CLAIM.test(text)) errors.push(`${at}: ${field} uses a "test" word`)
+        if (TEST_CLAIM.test(text.replace(TESTER_NAMES, ''))) errors.push(`${at}: ${field} uses a "test" word`)
         if (URL.test(text)) errors.push(`${at}: ${field} contains a URL`)
       }
     })

@@ -31,7 +31,7 @@ export const article: BlogArticle = {
     de: 'Airfryer-Zubehör 2026: Die 10 nützlichsten Helfer',
     es: 'Accesorios para freidora de aire: los 10 imprescindibles de 2026',
     it: 'Accessori per friggitrice ad aria: i 10 indispensabili del 2026',
-    nl: 'Top 10 Onmisbare Airfryer Accessoires in 2026',
+    nl: 'Top 10 airfryeraccessoires 2026: wat heb je echt nodig?',
     pl: 'Top 10 niezbędnych akcesoriów do frytkownicy beztłuszczowej w 2026 roku',
     sv: 'Tillbehör till airfryer 2026: de 10 viktigaste',
     us: 'Best Air Fryer Accessories of 2026: 10 Essentials',
@@ -43,7 +43,7 @@ export const article: BlogArticle = {
     de: 'Die 10 nützlichsten Zubehörteile für Ihre Heißluftfritteuse: perforiertes Backpapier, Gitter, Silikonformen, Ölsprüher und mehr. Mit Nutzen, Kompatibilität und Kauftipps.',
     es: 'Papel perforado, rejillas, moldes de silicona, pulverizador de aceite y más: los 10 accesorios que sacan más partido a tu freidora y cómo elegirlos.',
     it: 'Scopri i 10 accessori che rendono più versatile la tua friggitrice ad aria: carta forno forata, griglie, stampi in silicone, nebulizzatore per olio e altro ancora. A cosa servono, con quali modelli funzionano e come sceglierli.',
-    nl: 'Ontdek de 10 accessoires die je airfryer transformeren: geperforeerd bakpapier, rekjes, siliconenvormen, oliespray en meer.',
+    nl: 'Ontdek de 10 accessoires die meer uit je airfryer halen: geperforeerd bakpapier, rekjes, siliconenvormen, een oliespray en meer. Met nut, pasvorm en kooptips.',
     pl: 'Poznaj 10 akcesoriów, dzięki którym wyciśniesz więcej z frytkownicy beztłuszczowej: perforowany papier, ruszty, wkłady silikonowe, spryskiwacz do oleju i nie tylko. Do czego się przydają, do jakich modeli pasują i na co zwrócić uwagę przy zakupie.',
     sv: 'Här är de 10 tillbehören som gör mest för din airfryer: perforerat bakplåtspapper, galler, silikonformar, oljespray med mera. Nytta, passform och köpråd.',
     us: 'The 10 accessories that get more out of your air fryer: perforated liners, racks, silicone molds, an oil sprayer and more, with what each one does, how to get the right fit, and buying tips.',
@@ -635,100 +635,114 @@ export const article: BlogArticle = {
 <li><strong>Sostituisci i fogli di cottura appena si scuriscono</strong>: un foglio deteriorato può rilasciare sostanze ad alte temperature. Un foglio riutilizzabile dura in media 20-30 utilizzi.</li>
 </ul>`,
 
-    nl: `<h2>Waarom investeren in airfryer accessoires?</h2>
-<p>Je airfryer is op zich al krachtig, maar met de juiste accessoires wordt hij pas echt veelzijdig. Van geperforeerde vellen die het schoonmaken flink vereenvoudigen tot siliconenvormen die nieuwe recepten mogelijk maken — elk goed gekozen accessoire verbetert je dagelijkse kookervaring. We selecteerden de 10 nuttigste op basis van fabrieksspecificaties, onafhankelijke reviews en geverifieerde kopersbeoordelingen.</p>
-<p>Een complete uitrusting blijft een bescheiden investering vergeleken met het apparaat zelf.</p>
+    nl: `<h2>Waarom airfryeraccessoires de moeite waard zijn</h2>
+<p>Je airfryer kan op zichzelf al veel, maar met de juiste accessoires haal je er pas echt alles uit. Geperforeerde bakvellen maken het schoonmaken een stuk makkelijker en met siliconenvormen bak je ook cake of een gratin. Elk goed gekozen accessoire maakt het dagelijks koken handiger. We kozen de 10 nuttigste op basis van fabrieksspecificaties, onafhankelijke reviews en ervaringen van geverifieerde kopers.</p>
+<p>Alles bij elkaar kost een complete set weinig in vergelijking met de airfryer zelf, en je merkt het verschil meteen in het dagelijkse gebruik.</p>
 
 <h2>1. Geperforeerde wegwerpvellen (nut: 10/10)</h2>
-<p>Het nuttigste accessoire, met afstand. Ze bekleden de bodem van de mand, voorkomen aankoeken en verminderen de schoonmaaktijd drastisch.</p>
+<p>Geperforeerde bakvellen zijn veruit het nuttigste accessoire. Ze bedekken de bodem van de mand, voorkomen dat het eten vastbakt en schelen veel schoonmaaktijd. Door de gaatjes kan de hete lucht gewoon blijven circuleren, wat bij gewoon bakpapier niet lukt.</p>
 <ul>
-<li><strong>Beschikbare maten:</strong> rond (16, 20, 23 cm) en vierkant (19x19, 21x21 cm)</li>
-<li><strong>Let op:</strong> gebruik ze nooit zonder voedsel erop — ze kunnen naar het verwarmingselement vliegen</li>
+<li><strong>Beschikbare maten:</strong> rond (16, 20 en 23 cm) en vierkant (19 x 19 en 21 x 21 cm)</li>
+<li><strong>Tip:</strong> meet de bodem van je mand voordat je koopt. Gebruik de vellen nooit zonder eten erop, want dan kunnen ze opwaaien en het verwarmingselement raken.</li>
 </ul>
 
 <h2>2. Stapelbare rekjes (nut: 9/10)</h2>
-<p>Verdubbel je effectieve kookoppervlak. Groenten onder, vis boven — tegelijkertijd.</p>
+<p>Met stapelbare rekjes verdubbel je het bruikbare bakoppervlak: groenten onderin en vis erboven, in één keer. Vindt je gezin de mand wat aan de kleine kant, probeer dit dan eerst voordat je een groter model koopt.</p>
 <ul>
-<li><strong>Aanbevolen materiaal:</strong> RVS 304 met pootjes van 3-4 cm</li>
+<li><strong>Aanbevolen materiaal:</strong> RVS 304 met pootjes van 3 tot 4 cm</li>
+<li><strong>Tip:</strong> leg wat de meeste warmte nodig heeft onderin, dicht bij het verwarmingselement</li>
 </ul>
 
 <h2>3. Herbruikbare siliconenvormen (nut: 9/10)</h2>
-<p>Vervangen wegwerpvellen voor dagelijks gebruik. Vaatwasmachinebestendig, duurzaam en beschermen de antiaanbaklaag.</p>
+<p>Voor dagelijks gebruik vervangen siliconenvormen de wegwerpvellen. Ze beschermen de antiaanbaklaag van je mand, kunnen in de vaatwasser en gaan jaren mee. Na een paar weken heb je de aanschaf al terugverdiend ten opzichte van wegwerpvellen.</p>
 <ul>
-<li><strong>Max. temperatuur:</strong> tot 230°C voor kwalitatief voedselveilig siliconen</li>
-<li><strong>Kooptip:</strong> kies BPA-vrij gecertificeerd siliconen met zijhandvatten</li>
+<li><strong>Maximale temperatuur:</strong> tot 230 °C voor voedselveilige siliconen van goede kwaliteit</li>
+<li><strong>Kooptip:</strong> kies gecertificeerde BPA-vrije siliconen met handgrepen aan de zijkant, zodat je de vorm er makkelijk uit haalt</li>
 </ul>
 
-<h2>4. Hervulbare oliespray (nut: 8/10)</h2>
-<p>Brengt een dunne, gelijkmatige laag olie aan voor knapperige resultaten met minimaal vet. Een paar sprays vervangen de een à twee eetlepels die je anders vaak giet, en over een jaar loopt de besparing flink op.</p>
+<h2>4. Navulbare oliespray (nut: 8/10)</h2>
+<p>Met een goede oliespray breng je een dunne, gelijkmatige laag olie aan: knapperig resultaat met zo weinig mogelijk vet. Laat spuitbussen uit de winkel met drijfgas en toevoegingen liggen: een navulbare spray van glas of RVS is veel beter. Een paar keer sprayen volstaat waar je anders vaak een tot twee eetlepels giet, en over een jaar scheelt dat flink wat olie.</p>
 <ul>
-<li><strong>Aanbevolen oliën:</strong> olijfolie, avocado-olie, koolzaadolie (hoog rookpunt)</li>
+<li><strong>Aanbevolen oliesoorten:</strong> olijfolie, avocado-olie, koolzaadolie (hoog rookpunt)</li>
 </ul>
 
-<h2>5. Directe aflezing vleesthermometer (nut: 8/10)</h2>
-<p>Onmisbaar voor kerntemperatuurcontrole: kip 74°C, varken 71°C, rund rare 52°C.</p>
+<h2>5. Vleesthermometer met directe aflezing (nut: 8/10)</h2>
+<p>Hiermee controleer je de kerntemperatuur zonder het vlees open te snijden: kip moet vanbinnen 74 °C halen, varkensvlees 71 °C en rundvlees rood (saignant) 52 °C. Het is ook de beste manier om te voorkomen dat je vlees te lang gaart, de grootste vijand van sappige kip.</p>
 <ul>
-<li><strong>Afleestijd:</strong> 2-3 seconden bij goede modellen</li>
+<li><strong>Afleestijd:</strong> kies een model dat binnen 2 tot 3 seconden de temperatuur toont</li>
+<li><strong>Nauwkeurigheid:</strong> ongeveer 0,5 °C afwijking bij goede modellen</li>
 </ul>
 
-<h2>6. Lange siliconentangen (nut: 7/10)</h2>
-<p>Tangen van 25-30 cm met siliconenpunten om voedsel veilig te hanteren zonder de coating te beschadigen.</p>
+<h2>6. Lange siliconen tang (nut: 7/10)</h2>
+<p>Met een lange tang (25 tot 30 cm) met siliconen uiteinden keer, schud en pak je het eten uit de hete mand zonder je te branden en zonder krassen in de antiaanbaklaag. Een gewone metalen tang kan de mand beschadigen.</p>
+<ul>
+<li><strong>Aanbevolen lengte:</strong> 28 tot 30 cm</li>
+</ul>
 
 <h2>7. Geperforeerde grillplaat (nut: 7/10)</h2>
-<p>Maakt van je airfryer een mini-indoor barbecue met perfecte grillstrepen.</p>
+<p>Met een grillplaat maak je van je airfryer een kleine binnenbarbecue. Het vet loopt weg tussen de ribbels en je krijgt mooie grillstrepen op vlees, groenten en vis.</p>
 <ul>
-<li><strong>Ideaal voor:</strong> hamburgers, kipfilet, aubergineplakken, zalmfilets</li>
+<li><strong>Ideaal voor:</strong> hamburgers, kipfilet, plakken aubergine en zalmfilet</li>
 </ul>
 
 <h2>8. Mandverdelers (nut: 6/10)</h2>
-<p>Verdelen een enkele mand in 2-4 vakken voor verschillende gerechten tegelijk. Betaalbaar alternatief voor een <a href="/nl/blog/airfryer-simple-vs-double-panier">dubbele mand</a>.</p>
+<p>Hiermee verdeel je één mand in twee, drie of vier vakken, zodat je verschillende gerechten tegelijk bereidt zonder dat de smaken zich vermengen. Een betaalbaar alternatief voor een <a href="/nl/blog/airfryer-simple-vs-double-panier">airfryer met dubbele mand</a>.</p>
+<ul>
+<li><strong>Beperking:</strong> anders dan bij een echte dubbele mand kun je niet per vak een eigen temperatuur instellen</li>
+</ul>
 
-<h2>9. RVS spiesjes (nut: 6/10)</h2>
-<p>Korte spiesjes (15-18 cm) speciaal voor airfryers. Herbruikbaar en vaatwasmachinebestendig.</p>
+<h2>9. RVS-spiesjes (nut: 6/10)</h2>
+<p>Korte RVS-spiesjes (15 tot 18 cm) die in een airfryermand passen. Ze zijn herbruikbaar, kunnen in de vaatwasser en verbranden niet zoals houten spiesjes.</p>
+<ul>
+<li><strong>Populaire recepten:</strong> gemarineerde kipspiesjes, garnalenspiesjes, groentespiesjes</li>
+</ul>
 
-<h2>10. Schoonmaakborstelset (nut: 7/10)</h2>
-<p>Zachte borstel voor de mand, hoekborstel voor het verwarmingselement, niet-schurende spons. Zie onze <a href="/nl/blog/entretien-nettoyage-airfryer">complete onderhoudsgids</a>.</p>
+<h2>10. Set schoonmaakborstels (nut: 7/10)</h2>
+<p>Een goede set bestaat uit een zachte borstel voor de mand, een kleine gebogen borstel voor het verwarmingselement en een spons die niet krast. Wie geregeld schoonmaakt, doet langer met zijn airfryer. Lees ook onze <a href="/nl/blog/entretien-nettoyage-airfryer">complete onderhoudsgids</a>.</p>
+<ul>
+<li><strong>Nooit gebruiken:</strong> staalwol, schuurmiddelen of de vaatwasser voor onderdelen die daar niet tegen kunnen</li>
+</ul>
 
 <h2>Overzichtstabel</h2>
 <table>
 <thead>
-<tr><th>Rang</th><th>Accessoire</th><th>Nut</th><th>Prioriteit</th></tr>
+<tr><th>Plaats</th><th>Accessoire</th><th>Nut</th><th>Wanneer kopen</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Geperforeerde vellen</td><td>10/10</td><td>Direct</td></tr>
-<tr><td>2</td><td>Stapelbare rekjes</td><td>9/10</td><td>Direct</td></tr>
-<tr><td>3</td><td>Siliconenvormen</td><td>9/10</td><td>Direct</td></tr>
+<tr><td>1</td><td>Geperforeerde vellen</td><td>10/10</td><td>Meteen</td></tr>
+<tr><td>2</td><td>Stapelbare rekjes</td><td>9/10</td><td>Meteen</td></tr>
+<tr><td>3</td><td>Siliconenvormen</td><td>9/10</td><td>Meteen</td></tr>
 <tr><td>4</td><td>Oliespray</td><td>8/10</td><td>Eerste week</td></tr>
 <tr><td>5</td><td>Vleesthermometer</td><td>8/10</td><td>Eerste week</td></tr>
-<tr><td>6</td><td>Siliconentangen</td><td>7/10</td><td>Eerste maand</td></tr>
+<tr><td>6</td><td>Siliconen tang</td><td>7/10</td><td>Eerste maand</td></tr>
 <tr><td>7</td><td>Grillplaat</td><td>7/10</td><td>Eerste maand</td></tr>
 <tr><td>8</td><td>Mandverdelers</td><td>6/10</td><td>Naar behoefte</td></tr>
-<tr><td>9</td><td>RVS spiesjes</td><td>6/10</td><td>Naar behoefte</td></tr>
-<tr><td>10</td><td>Schoonmaakborstels</td><td>7/10</td><td>Direct</td></tr>
+<tr><td>9</td><td>RVS-spiesjes</td><td>6/10</td><td>Naar behoefte</td></tr>
+<tr><td>10</td><td>Schoonmaakborstels</td><td>7/10</td><td>Meteen</td></tr>
 </tbody>
 </table>
 
-<p>Voordelige starterkit: vellen, siliconenvorm, oliespray, tangen en borstels. Vermijd de meest voorkomende <a href="/nl/blog/erreurs-courantes-airfryer">beginnerfouten</a>. Alle tips in onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>
+<p>Onze voordelige starterset: bakvellen, een siliconenvorm, een oliespray, een tang en schoonmaakborstels. Daarmee heb je het meeste voor dagelijks gebruik in huis. Lees ook hoe je de meest gemaakte <a href="/nl/blog/erreurs-courantes-airfryer">beginnersfouten</a> vermijdt. Alle tips vind je in onze <a href="/nl/guides/airfryers">complete airfryergids</a> en in de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer of oven</a>.</p>
 
-<h2>Welke accessoires prioriteren op gebruik?</h2>
+<h2>Welke accessoires koop je eerst?</h2>
 <table>
-<thead><tr><th>Primair gebruik</th><th>Prioriteitsaccessoires</th></tr></thead>
+<thead><tr><th>Waarvoor je hem vooral gebruikt</th><th>Koop eerst</th></tr></thead>
 <tbody>
 <tr><td>Dagelijks koken (friet, groenten)</td><td>Geperforeerde vellen + oliespray</td></tr>
-<tr><td>Bakken en desserts</td><td>Siliconenvorm + broodvorm + thermometer</td></tr>
-<tr><td>Vlees en grillen</td><td>Verhoogd rooster + sondetemperatuurmeter + tangen</td></tr>
-<tr><td>Groot gezin</td><td>Dubbel stapelrooster + ladeoverdeler</td></tr>
-<tr><td>Dehydratie fruit/groenten</td><td>Fijne geperforeerde roosters + siliconenmatten</td></tr>
+<tr><td>Bakken en desserts</td><td>Siliconenvorm + cakevorm + thermometer</td></tr>
+<tr><td>Vlees en grillen</td><td>Verhoogd rooster + vleesthermometer + tang</td></tr>
+<tr><td>Groot gezin (snel koken)</td><td>Dubbel stapelrek + mandverdeler</td></tr>
+<tr><td>Fruit en groenten drogen</td><td>Fijn geperforeerde roosters + siliconenmatten</td></tr>
 </tbody>
 </table>
 
 <h2>5 tips om je accessoires langer mee te laten gaan</h2>
 <ul>
-<li><strong>Nooit metalen keukengerei</strong> op antiaanbakoppervlakken — ze krassen de coating. Gebruik siliconen of hout.</li>
-<li><strong>Laat afkoelen voor het schoonmaken</strong>: thermische schok beschadigt antiaanbakcoatings. Wacht 10 minuten.</li>
-<li><strong>Vermijd schurende sponzen</strong>: een nacht weken in heet zeepwater lost de overgrote meerderheid van de gevallen op.</li>
-<li><strong>Controleer vaatwasserbestendigheid</strong> per accessoire. Metalen roosters zijn meestal geschikt.</li>
-<li><strong>Vervang vellen als ze bruin worden</strong>: levensduur 20-30 gebruiken per herbruikbaar vel.</li>
+<li><strong>Geen metalen keukengerei</strong> op een antiaanbaklaag: dat geeft krassen. Gebruik siliconen of hout.</li>
+<li><strong>Laat alles afkoelen voor je schoonmaakt</strong>: door de temperatuurschok gaat de antiaanbaklaag achteruit. Wacht 10 minuten na het bakken.</li>
+<li><strong>Geen schuursponsjes</strong>, ook niet bij hardnekkige vlekken: een nacht weken in heet sop helpt bijna altijd.</li>
+<li><strong>Controleer per accessoire</strong> of het in de vaatwasser mag. Metalen roosters kunnen er meestal in; sommige speciale coatings gaan langer mee als je ze met de hand afwast.</li>
+<li><strong>Vervang bakvellen zodra ze bruin worden</strong>: een versleten vel kan bij hoge temperaturen stoffen afgeven. Een herbruikbaar vel gaat 20 tot 30 keer mee.</li>
 </ul>`,
     pl: `<h2>Dlaczego warto kupić akcesoria do frytkownicy beztłuszczowej?</h2>
 <p>Frytkownica beztłuszczowa (air fryer) sama w sobie sporo potrafi, ale dopiero z odpowiednimi akcesoriami staje się naprawdę wszechstronna. Od perforowanego papieru, który ułatwia czyszczenie, po wkłady silikonowe, które pozwalają przygotować zupełnie nowe dania – każde dobrze dobrane akcesorium ułatwia codzienne korzystanie z urządzenia. Wybraliśmy 10 najbardziej przydatnych akcesoriów na podstawie danych producentów, niezależnych testów i zweryfikowanych opinii kupujących.</p>
@@ -1222,7 +1236,7 @@ export const article: BlogArticle = {
         de: 'Unverzichtbar sind drei Teile: perforiertes Backpapier (erleichtert die Reinigung), Silikonformen (für Kuchen und Gratins) und ein Ölsprüher (zum genauen Dosieren von Fett). Alle drei sind günstig und verändern spürbar, wie Sie Ihren Airfryer im Alltag nutzen.',
         es: 'Los tres imprescindibles son el papel perforado (facilita la limpieza), los moldes de silicona (para hacer bizcochos y gratinados) y un pulverizador de aceite (para dosificar la grasa con precisión). Los tres cuestan poco y cambian mucho el uso diario de la freidora.',
         it: 'I tre accessori davvero indispensabili sono la carta forno forata (rende più facile la pulizia), gli stampi in silicone (per torte e gratin) e un nebulizzatore per olio (per dosare con precisione i grassi). Costano poco e cambiano l\'uso quotidiano della friggitrice ad aria.',
-        nl: 'De drie onmisbare accessoires zijn geperforeerde vellen (vergemakkelijken reiniging), siliconenvormen (maken gebak en gratins mogelijk) en een oliespray (nauwkeurige vetcontrole). Deze drie zijn betaalbaar en veranderen je dagelijks airfryergebruik.',
+        nl: 'De drie onmisbare accessoires zijn geperforeerde bakvellen (makkelijker schoonmaken), siliconenvormen (voor cake en gratins) en een oliespray (je doseert het vet precies). Ze kosten weinig en maken het dagelijkse gebruik van je airfryer een stuk handiger.',
         pl: 'Trzy najważniejsze akcesoria to perforowany papier (ułatwia czyszczenie), wkłady silikonowe (pozwalają upiec ciasto czy zapiekankę) i spryskiwacz do oleju (precyzyjne dozowanie tłuszczu). Wszystkie trzy są niedrogie, a wyraźnie zmieniają codzienne korzystanie z frytkownicy beztłuszczowej.',
         sv: 'De tre viktigaste tillbehören är perforerat bakplåtspapper (enklare rengöring), silikonformar (för kakor och gratänger) och en oljespray (exakt kontroll över fettet). Alla tre kostar lite och förändrar hur du använder airfryern i vardagen. Allt annat är valfritt och kan köpas till senare.',
         us: 'The three essentials are perforated liners (for easier cleanup), silicone molds (for cakes and casseroles) and an oil sprayer (for precise control over how much oil you use). All three are inexpensive and change how you use your air fryer every day. Everything else is optional and can wait.',
@@ -1236,7 +1250,7 @@ export const article: BlogArticle = {
         de: 'Ist Airfryer-Zubehör universell oder nur für bestimmte Marken?',
         es: '¿Los accesorios para freidora de aire son universales o cada marca tiene los suyos?',
         it: 'Gli accessori per friggitrice ad aria sono universali o cambiano da marca a marca?',
-        nl: 'Zijn airfryer-accessoires universeel of merkgebonden?',
+        nl: 'Zijn airfryeraccessoires universeel of merkgebonden?',
         pl: 'Czy akcesoria do frytkownicy beztłuszczowej są uniwersalne, czy pasują tylko do konkretnej marki?',
         sv: 'Passar tillbehören till alla airfryrar eller bara till ett visst märke?',
         us: 'Are air fryer accessories universal or brand-specific?',
@@ -1248,7 +1262,7 @@ export const article: BlogArticle = {
         de: 'Das meiste Zubehör ist universell, solange Sie die richtige Größe wählen. Messen Sie den Innendurchmesser Ihres Korbs und rechnen Sie 1 cm Spielraum ein. Perforiertes Backpapier gibt es rund und eckig in verschiedenen Größen. Silikonformen sollten locker in den Korb passen, damit rundherum Luft zirkulieren kann.',
         es: 'La mayoría son universales si eliges bien el tamaño. Mide el diámetro interior de la cesta y deja 1 cm de margen. El papel perforado se vende en formato redondo y cuadrado. Los moldes de silicona deben entrar con holgura, dejando hueco para que circule el aire.',
         it: 'La maggior parte degli accessori è universale, purché tu scelga la misura giusta. Misura il diametro interno del cestello e lascia 1 cm di margine. La carta forata si trova in formato rotondo e quadrato. Gli stampi in silicone devono entrare senza forzare, lasciando spazio perché l\'aria circoli.',
-        nl: 'De meeste accessoires zijn universeel, mits je de juiste maat kiest. Meet de binnendiameter van je mand en laat 1 cm ruimte. Geperforeerde vellen zijn er in ronde en vierkante maten. Siliconenvormen moeten vrij passen met ruimte eromheen voor luchtstroom.',
+        nl: 'De meeste accessoires zijn universeel, als je de juiste maat kiest. Meet de binnendiameter van je mand en houd 1 cm speling aan. Geperforeerde vellen zijn er in ronde en vierkante maten. Siliconenvormen moeten er makkelijk in passen, met ruimte eromheen zodat de lucht kan circuleren.',
         pl: 'Większość akcesoriów jest uniwersalna, o ile dobierzesz właściwy rozmiar. Zmierz wewnętrzną średnicę kosza i zostaw 1 cm zapasu. Papier perforowany występuje w wersjach okrągłych i kwadratowych. Wkład silikonowy powinien swobodnie mieścić się w koszu i zostawiać miejsce na przepływ powietrza.',
         sv: 'De flesta tillbehör passar alla märken, så länge du väljer rätt storlek. Mät korgens innerdiameter och lämna 1 cm marginal. Perforerat bakplåtspapper finns i runda och fyrkantiga storlekar. Silikonformar ska få plats med luft runtom, så att den varma luften kan cirkulera i korgen.',
         us: 'Most accessories are universal, as long as you get the right size. Measure the inside diameter of your basket and leave about ½ in (1 cm) of clearance. Perforated liners come in round and square sizes. Silicone molds should fit loosely, with room around them for air to circulate inside the basket.',
@@ -1262,7 +1276,7 @@ export const article: BlogArticle = {
         de: 'Silikon- oder Metallformen: Was ist besser für den Airfryer?',
         es: 'Moldes de silicona o de metal: ¿cuáles elegir para la freidora de aire?',
         it: 'Stampi in silicone o in metallo: quali scegliere per la friggitrice ad aria?',
-        nl: 'Siliconenvormen of metalen vormen: welke zijn beter voor de airfryer?',
+        nl: 'Siliconen of metalen vormen: wat kies je voor de airfryer?',
         pl: 'Formy silikonowe czy metalowe: które wybrać do frytkownicy beztłuszczowej?',
         sv: 'Silikon- eller metallformar: vilka passar bäst i airfryern?',
         us: 'Silicone or metal molds: which are better for air fryers?',
@@ -1274,7 +1288,7 @@ export const article: BlogArticle = {
         de: 'Für den Airfryer sind Silikonformen die bessere Wahl: Sie sind flexibel (der Inhalt löst sich leicht), hitzebeständig bis 230 °C, spülmaschinenfest und schonen die Antihaftbeschichtung. Metallformen heizen sich schneller auf und bräunen besser, können aber den Korb zerkratzen. Verwenden Sie Metall nur mit einer Schutzunterlage.',
         es: 'Para la freidora de aire, mejor los de silicona: son flexibles (se desmolda con facilidad), aguantan hasta 230 °C, van al lavavajillas y no dañan el antiadherente. Los de metal se calientan antes y doran mejor, pero pueden rayar la cesta; si los usas, pon algo debajo que la proteja.',
         it: 'Per la friggitrice ad aria sono preferibili gli stampi in silicone: sono flessibili (si sformano facilmente), resistono fino a 230 °C, vanno in lavastoviglie e non rovinano il rivestimento antiaderente. Gli stampi in metallo si scaldano più in fretta e dorano meglio, ma possono graffiare il cestello.',
-        nl: 'Siliconenvormen zijn de voorkeur voor airfryers: flexibel (makkelijk loskomen), hittebestendig tot 230°C, vaatwasmachinebestendig en beschadigen de antiaanbaklaag niet. Metalen vormen verwarmen sneller en geven betere bruining, maar kunnen de mand bekrassen. Gebruik metaal alleen met bescherming.',
+        nl: 'Voor de airfryer zijn siliconenvormen de betere keuze: ze zijn soepel (het gerecht komt er makkelijk uit), hittebestendig tot 230 °C, kunnen in de vaatwasser en beschadigen de antiaanbaklaag niet. Metalen vormen worden sneller heet en geven een mooiere bruine korst, maar kunnen krassen in de mand maken. Gebruik metaal alleen met een beschermende onderlaag.',
         pl: 'Do frytkownicy beztłuszczowej lepiej nadają się formy silikonowe: są elastyczne (ciasto łatwo z nich wyjąć), wytrzymują do 230 °C, można je myć w zmywarce i nie uszkadzają powłoki nieprzywierającej. Formy metalowe szybciej się nagrzewają i lepiej rumienią wypieki, ale mogą porysować kosz.',
         sv: 'Silikonformar är att föredra i airfryern: de är mjuka (lätta att stjälpa upp), klarar upp till 230 °C, tål diskmaskin och skadar inte non-stick-beläggningen. Metallformar blir varma snabbare och ger bättre färg, men kan repa korgen. Använd bara metallformar med ett skyddande underlägg.',
         us: 'Silicone molds are the better choice for air fryers: they\'re flexible (so food pops right out), heat-resistant up to 445°F (230°C), dishwasher-safe, and they won\'t damage the nonstick coating. Metal pans heat up faster and brown better, but they can scratch the basket. Use metal only with a protective liner underneath.',
@@ -1288,7 +1302,7 @@ export const article: BlogArticle = {
         de: 'Wo kann man Airfryer-Zubehör kaufen?',
         es: '¿Dónde comprar accesorios para freidora de aire?',
         it: 'Dove comprare gli accessori per la friggitrice ad aria?',
-        nl: 'Waar kun je airfryer-accessoires kopen?',
+        nl: 'Waar koop je airfryeraccessoires?',
         pl: 'Gdzie kupić akcesoria do frytkownicy beztłuszczowej?',
         sv: 'Var köper man tillbehör till airfryer?',
         us: 'Where can I buy air fryer accessories?',
@@ -1300,7 +1314,7 @@ export const article: BlogArticle = {
         de: 'Bei Amazon finden Sie eine sehr große Auswahl, darunter viele preiswerte Komplettsets. Fachgeschäfte für Küchenbedarf führen Premiummarken. Meiden Sie auffällig billige Sets mit Dutzenden Teilen: Die Qualität ist oft mangelhaft. Setzen Sie lieber auf drei bis fünf hochwertige Teile, die Sie wirklich brauchen.',
         es: 'En Amazon hay muchísima variedad, con kits completos a precios asequibles. Las tiendas especializadas en menaje tienen marcas de gama alta. Evita los kits demasiado baratos con decenas de piezas: la calidad suele dejar mucho que desear. Más vale comprar de tres a cinco accesorios básicos de buena calidad.',
         it: 'Su Amazon la scelta è molto ampia, con tanti kit completi a prezzi accessibili. I negozi di articoli per la cucina propongono marchi di fascia alta. Evita i kit troppo economici con decine di pezzi: la qualità è spesso scarsa. Meglio comprare da tre a cinque accessori essenziali, ma di qualità.',
-        nl: 'Amazon biedt een zeer ruime keuze, met veel betaalbare complete kits. Gespecialiseerde keukenwinkels hebben premiummerken. Vermijd te goedkope kits met tientallen stukken: de kwaliteit is vaak ondermaats. Focus op drie tot vijf essentiële accessoires van goede kwaliteit.',
+        nl: 'Amazon heeft een ruime keuze, met veel betaalbare complete sets. Gespecialiseerde keukenwinkels verkopen ook premiummerken. Laat zeer goedkope sets met tientallen onderdelen liggen: de kwaliteit valt vaak tegen. Kies liever drie tot vijf goede basisaccessoires.',
         pl: 'Amazon ma bardzo szeroki wybór, w tym wiele kompletnych zestawów w przystępnych cenach. Marki premium znajdziesz w sklepach specjalizujących się w wyposażeniu kuchni. Unikaj podejrzanie tanich zestawów z dziesiątkami elementów – ich jakość często jest słaba.',
         sv: 'Amazon har ett mycket stort utbud, med många prisvärda kompletta set. Butiker som är specialiserade på kök säljer premiummärken. Undvik misstänkt billiga set med dussintals delar, eftersom kvaliteten ofta är dålig. Satsa hellre på tre till fem riktigt bra grundtillbehör.',
         us: 'Amazon has a huge selection, including plenty of affordable all-in-one kits. Kitchen specialty stores carry premium brands. Steer clear of suspiciously cheap kits with dozens of pieces, since the quality is often poor. You\'re better off buying three to five good-quality essentials.',
@@ -1314,7 +1328,7 @@ export const article: BlogArticle = {
         de: 'Wie reinigt man Airfryer-Zubehör?',
         es: '¿Cómo limpiar los accesorios de la freidora de aire?',
         it: 'Come si puliscono gli accessori della friggitrice ad aria?',
-        nl: 'Hoe maak je airfryer-accessoires schoon?',
+        nl: 'Hoe maak je airfryeraccessoires schoon?',
         pl: 'Jak czyścić akcesoria do frytkownicy beztłuszczowej?',
         sv: 'Hur rengör man tillbehören till airfryern?',
         us: 'How do you clean air fryer accessories?',
@@ -1326,7 +1340,7 @@ export const article: BlogArticle = {
         de: 'Silikonformen und Edelstahlgitter sind spülmaschinenfest. Hartnäckige Rückstände weichen Sie 15 Minuten in heißem Spülwasser ein. Perforiertes Backpapier ist ein Einwegprodukt. Den Ölsprüher reinigen Sie, indem Sie heißes Wasser einfüllen und mehrmals sprühen, um die Düse durchzuspülen.',
         es: 'Los moldes de silicona y las rejillas de acero inoxidable van al lavavajillas. Si quedan restos rebeldes, déjalos 15 minutos en remojo en agua caliente con jabón. El papel perforado es de un solo uso. Para limpiar el pulverizador de aceite, llénalo de agua caliente y pulveriza varias veces hasta que la boquilla quede limpia.',
         it: 'Gli stampi in silicone e le griglie in acciaio inox vanno in lavastoviglie. Per i residui ostinati, lasciali in ammollo per 15 minuti in acqua calda e sapone. La carta forata è usa e getta. Per pulire il nebulizzatore, riempilo di acqua calda e spruzza più volte per liberare l\'ugello.',
-        nl: 'Siliconenvormen en roestvrijstalen rekjes zijn vaatwasmachinebestendig. Laat hardnekkige resten 15 minuten weken in warm sop. Geperforeerde vellen zijn wegwerpbaar. Maak de oliespray schoon door heet water te vullen en meerdere keren te sprayen om het mondstuk door te spoelen.',
+        nl: 'Siliconenvormen en roestvrijstalen rekjes mogen in de vaatwasser. Laat hardnekkige resten 15 minuten weken in warm sop. Geperforeerde vellen gooi je na gebruik weg. De oliespray maak je schoon door hem met heet water te vullen en een paar keer te sprayen, zodat het mondstuk doorspoelt.',
         pl: 'Wkłady silikonowe i ruszty ze stali nierdzewnej można myć w zmywarce. Przy uporczywych zabrudzeniach namocz akcesoria na 15 minut w ciepłej wodzie z płynem do mycia naczyń. Papier perforowany jest jednorazowy. Spryskiwacz do oleju wyczyścisz, napełniając go ciepłą wodą i kilka razy naciskając dyszę.',
         sv: 'Silikonformar och galler i rostfritt stål tål diskmaskin. Sitter det envisa rester kvar? Lägg delen i blöt i varmt diskvatten i 15 minuter. Perforerat bakplåtspapper är en engångsartikel, så släng det efter användning. Rengör oljesprayen genom att fylla den med varmt vatten och spraya flera gånger, så att munstycket spolas rent.',
         us: 'Silicone molds and stainless steel racks are dishwasher-safe. For stubborn residue, soak them for 15 minutes in hot, soapy water. Perforated liners are disposable, so just toss them after use. To clean the oil sprayer, fill it with hot water and spray several times to flush the nozzle.',

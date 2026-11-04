@@ -14,7 +14,7 @@ export const article: BlogArticle = {
       alt: {
         fr: 'Thermostat connecté rond fixé au mur, écran bleu affichant la consigne de chauffage',
         en: 'Round smart thermostat on a wall, its blue screen showing the target temperature',
-        de: 'Rundes smartes Thermostat an der Wand, blaues Display mit der Heiz-Solltemperatur',
+        de: 'Rundes smartes Thermostat an der Wand, auf dem blauen Display die eingestellte Solltemperatur',
         es: 'Termostato inteligente redondo en la pared, con la pantalla azul que muestra la temperatura programada',
         it: 'Termostato smart rotondo a parete, con display blu che mostra la temperatura impostata',
         nl: 'Ronde slimme thermostaat aan de muur, blauw scherm met de ingestelde verwarmingstemperatuur',
@@ -224,12 +224,12 @@ export const article: BlogArticle = {
 <h2>Our verdict</h2>
 <p>If your heat pump is on the compatibility list, the <strong>tado Heat Pump Optimizer X</strong> is the most complete option: it controls the heat pump itself, not just an on/off contact. For a heat pump on simple on/off control, the <strong>Netatmo Thermostat Original</strong> offers the best balance of simplicity and features. The <strong>tado Smart Thermostat X</strong> and the <strong>Honeywell Home T6</strong> are the ones to choose if your heat pump supports OpenTherm. Whichever you pick, get your heat pump’s weather compensation curve checked first: that’s what determines most of its efficiency.</p>`,
 
-    de: `<p>Für eine Luft-Wasser-Wärmepumpe ist 2026 das smarte Thermostat am besten, das mit der Wärmepumpe kommuniziert, statt sie nur ein- und auszuschalten: Der <strong>tado Heat Pump Optimizer X</strong> ist derzeit die ausgereifteste Lösung für kompatible Marken (Daikin, Atlantic, Vaillant, Saunier Duval, Fujitsu, Panasonic). Akzeptiert Ihre Wärmepumpe nur einen Ein/Aus-Kontakt, genügt ein einfaches, gut eingestelltes Thermostat wie das <strong>Netatmo Thermostat Original</strong>, und das <strong>Honeywell Home T6</strong> bleibt eine sichere Wahl, wenn die Wärmepumpe OpenTherm unterstützt.</p>
-<p>Dieser Ratgeber stützt sich auf Herstellerangaben, unabhängige Testberichte und verifizierte Käuferbewertungen. Er berücksichtigt nur Modelle, die derzeit in Europa erhältlich sind. Die komplette Auswahl finden Sie in unserem Katalog <a href="/de/energie-domotique/thermostats">smarte Thermostate</a>.</p>
+    de: `<p>Das beste smarte Thermostat für eine Luft-Wasser-Wärmepumpe ist 2026 eines, das mit der Wärmepumpe kommuniziert, statt sie nur ein- und auszuschalten: Der <strong>tado Heat Pump Optimizer X</strong> ist derzeit die ausgereifteste Lösung für kompatible Marken (Daikin, Atlantic, Vaillant, Saunier Duval, Fujitsu, Panasonic). Akzeptiert Ihre Wärmepumpe nur einen Ein/Aus-Kontakt, genügt ein einfaches, gut eingestelltes Thermostat wie das <strong>Netatmo Thermostat Original</strong>, und das <strong>Honeywell Home T6</strong> bleibt eine sichere Wahl, wenn die Wärmepumpe OpenTherm unterstützt.</p>
+<p>Dieser Ratgeber stützt sich auf Herstellerangaben, unabhängige Testberichte und verifizierte Käuferbewertungen. Er berücksichtigt nur Modelle, die derzeit in Europa erhältlich sind. Alle Modelle finden Sie in unserer Übersicht <a href="/de/energie-domotique/thermostats">Smarte Thermostate</a>.</p>
 
-<h2>Wärmepumpe und Thermostat: das Wichtigste</h2>
+<h2>Wärmepumpe und Thermostat: Was Sie wissen sollten</h2>
 <p>Ein Gaskessel verträgt häufiges Ein- und Ausschalten gut, eine Wärmepumpe deutlich weniger. Ihre Effizienz (die Leistungszahl COP) ist am besten, wenn sie lange mit reduzierter Leistung und möglichst niedriger Vorlauftemperatur läuft. Moderne Inverter-Wärmepumpen modulieren ihre Leistung und folgen einer <strong>Heizkurve</strong> (witterungsgeführte Regelung): Je milder es draußen ist, desto niedriger die Vorlauftemperatur.</p>
-<p>Ein unpassendes Thermostat kann diese Logik stören. Schaltet es die Wärmepumpe ab und wieder ein, sobald der Raum den Sollwert um einige Zehntelgrad überschreitet, entsteht <strong>Takten</strong>: Der Verdichter startet häufiger, verschleißt schneller, und die Effizienz sinkt. Das richtige Thermostat lässt die Anlage modulieren oder steuert diese Modulation direkt.</p>
+<p>Ein unpassendes Thermostat kann diese Logik stören. Schaltet es die Wärmepumpe ab und wieder ein, sobald der Raum den Sollwert um einige Zehntelgrad überschreitet, kommt es zum <strong>Takten</strong>: Der Verdichter startet häufiger, verschleißt schneller, und die Effizienz sinkt. Das richtige Thermostat lässt die Anlage modulieren oder steuert diese Modulation direkt.</p>
 <h3>Drei Arten, ein Thermostat an die Wärmepumpe anzuschließen</h3>
 <ul>
 <li><strong>Potenzialfreier Kontakt (Ein/Aus)</strong>: die verbreitetste Lösung. Das Thermostat öffnet oder schließt einen Kontakt am Raumthermostat-Eingang der Wärmepumpe. Einfach und universell, aber die Wärmepumpe erhält nur einen Ein- oder Aus-Befehl.</li>
@@ -240,9 +240,9 @@ export const article: BlogArticle = {
 <h2>Worauf Sie beim Kauf achten sollten</h2>
 <ul>
 <li><strong>Kompatibilität mit Ihrer Wärmepumpe</strong>: das wichtigste Kriterium. Notieren Sie Marke und genaue Typenbezeichnung der Inneneinheit und prüfen Sie sie im Kompatibilitäts-Check des Thermostat-Herstellers.</li>
-<li><strong>Art der Ansteuerung</strong>: Ein/Aus, OpenTherm oder Herstellerschnittstelle. Je reicher die Kommunikation, desto besser bleibt die Modulation erhalten.</li>
-<li><strong>Wärmeübergabe</strong>: Eine Fußbodenheizung ist sehr träge; ein vorausschauendes Thermostat (Lernfunktion, Wetterdaten) nützt hier mehr als aggressive Zeitprogramme.</li>
-<li><strong>Warmwasser</strong>: Erzeugt Ihre Wärmepumpe auch Warmwasser, prüfen Sie, ob Thermostat oder Modul es planen kann.</li>
+<li><strong>Art der Ansteuerung</strong>: Ein/Aus, OpenTherm oder Herstellerschnittstelle. Je mehr Informationen ausgetauscht werden, desto besser bleibt die Modulation der Wärmepumpe erhalten.</li>
+<li><strong>Heizflächen</strong>: Eine Fußbodenheizung ist sehr träge; ein vorausschauendes Thermostat (Lernfunktion, Wetterdaten) nützt hier mehr als aggressive Zeitprogramme.</li>
+<li><strong>Warmwasser</strong>: Erzeugt Ihre Wärmepumpe auch Warmwasser, prüfen Sie, ob sich die Warmwasserbereitung über Thermostat oder Modul zeitlich steuern lässt.</li>
 <li><strong>Smart-Home-Ökosystem</strong>: Matter, Apple Home, Google Home, Amazon Alexa. Aktuelle Serien setzen auf Matter, was die Einbindung erleichtert.</li>
 <li><strong>Abonnements</strong>: Manche Zusatzfunktionen (dynamische Tarife, Automatisierungen) kosten extra. Prüfen Sie den Leistungsumfang vor dem Kauf.</li>
 </ul>
@@ -252,8 +252,8 @@ export const article: BlogArticle = {
 <h3>1. tado Heat Pump Optimizer X: beste Wahl für eine kompatible Wärmepumpe</h3>
 <p>Der Heat Pump Optimizer X ist kein klassisches Raumthermostat, sondern ein Modul, das an die Wärmepumpe angeschlossen wird. Er funktioniert laut der von tado veröffentlichten Liste mit Luft-Wasser-, Wasser-Wasser- und Sole-Wasser-Wärmepumpen mehrerer großer europäischer Marken: Daikin, Atlantic, Vaillant, Saunier Duval, Fujitsu und Panasonic. Er nutzt die von tado-X-Thermostaten und Heizkörperthermostaten gemessenen Raumtemperaturen, um die Leistung der Wärmepumpe zu senken oder sie in Bereitschaft zu versetzen, sobald die Räume warm sind, statt sie abrupt abzuschalten.</p>
 <p><strong>Stärken</strong>: Steuerung von Heizung und Warmwasser in der tado-App, Verbrauchsübersicht, eine auf Marke und Modell zugeschnittene Installationsanleitung, integrierter Thread-Border-Router (keine Bridge X nötig) und Matter-Unterstützung. tado gibt im Schnitt 22 % mehr Effizienz an; das ist eine Herstellerangabe und als grober Richtwert zu verstehen.</p>
-<p><strong>Schwächen</strong>: Die Liste kompatibler Wärmepumpen ist noch begrenzt, für die Einzelraumregelung braucht es tado-X-Thermostate oder Heizkörperthermostate, und Funktionen für dynamische Tarife setzen das optionale Abo tado Balance voraus.</p>
-<p><strong>Für wen</strong>: Besitzer einer Wärmepumpe einer kompatiblen Marke, die die umfassendste Optimierung wollen.</p>
+<p><strong>Schwächen</strong>: Die Liste kompatibler Wärmepumpen ist noch begrenzt, für die Einzelraumregelung brauchen Sie zusätzlich tado-X-Thermostate oder Heizkörperthermostate, und Funktionen für dynamische Tarife setzen das optionale Abo tado Balance voraus.</p>
+<p><strong>Für wen</strong>: Besitzer einer Wärmepumpe von einer kompatiblen Marke, die die umfassendste Optimierung wollen.</p>
 
 <h3>2. tado Smart Thermostat X: das vielseitige Raumthermostat</h3>
 <p>Das Smart Thermostat X (verkabelte Version) ersetzt ein vorhandenes Raumthermostat. Es arbeitet je nach Wärmepumpe über einen Ein/Aus-Kontakt oder OpenTherm und eignet sich auch für wassergeführte Fußbodenheizungen. Es funkt über Thread und lässt sich per Matter in Apple Home, Google Home und Alexa einbinden.</p>
@@ -261,23 +261,23 @@ export const article: BlogArticle = {
 <p><strong>Schwächen</strong>: Es benötigt eine tado Bridge X oder einen anderen Thread-Border-Router; einige Automatisierungen gehören zu kostenpflichtigen Optionen.</p>
 <p><strong>Für wen</strong>: Wärmepumpen außerhalb der Optimizer-X-Liste oder Haushalte, die ein modernes, erweiterbares Raumthermostat suchen.</p>
 
-<h3>3. Netatmo Thermostat Original: am einfachsten und bestes Preis-Leistungs-Verhältnis</h3>
-<p>Die Anfang 2026 eingeführte Original-Serie löst das bisherige Netatmo-Thermostat ab. Es gibt sie verkabelt (mit Thermo Hub) und kabellos (mit Thermo-Link-Empfänger und Thermo Hub). Netatmo gibt Kompatibilität mit den meisten Einzelkesseln und Luft-Wasser-Wärmepumpen an.</p>
+<h3>3. Netatmo Thermostat Original: die einfachste Lösung mit dem besten Preis-Leistungs-Verhältnis</h3>
+<p>Die Anfang 2026 eingeführte Original-Serie löst das bisherige Netatmo-Thermostat ab. Es gibt sie verkabelt (mit Thermo Hub) und kabellos (mit Thermo-Link-Empfänger und Thermo Hub). Laut Netatmo ist sie mit den meisten Heizkesseln in Häusern und Wohnungen sowie mit Luft-Wasser-Wärmepumpen kompatibel.</p>
 <p><strong>Stärken</strong>: geführte Installation, Auto-Adapt für vorausschauendes Heizen nach Wetter und Dämmung, Eco-Assist bei Abwesenheit, Monatsberichte, Matter über den Thermo Hub und die App Home + Control.</p>
-<p><strong>Schwächen</strong>: Die Original-Serie ist nicht mit älterem Netatmo-Zubehör kompatibel; vorhandene Heizkörperventile der ersten Generation müssen ersetzt werden.</p>
+<p><strong>Schwächen</strong>: Die Original-Serie ist nicht mit älterem Netatmo-Zubehör kompatibel; vorhandene Netatmo-Heizkörperthermostate der ersten Generation müssen Sie ersetzen.</p>
 <p><strong>Für wen</strong>: Wärmepumpen mit einfachem Ein/Aus-Kontakt und Haushalte, die eine schlichte Lösung ohne komplizierte Einrichtung wollen.</p>
 
 <h3>4. Honeywell Home T6: die bewährte OpenTherm-Lösung</h3>
-<p>Das T6 (verkabelt) und die Variante T6R (kabellos) sind mit 24–230-V-Ein/Aus- und OpenTherm-Geräten kompatibel, darunter Wärmepumpen. Sie verbinden sich direkt mit dem WLAN, ohne zusätzlichen Hub.</p>
+<p>Das T6 (verkabelt) und die Variante T6R (kabellos) sind mit Ein/Aus-Wärmeerzeugern (24–230 V) und OpenTherm-Geräten kompatibel, darunter Wärmepumpen. Sie verbinden sich direkt mit dem WLAN, ohne zusätzlichen Hub.</p>
 <p><strong>Stärken</strong>: gut lesbarer Touchscreen, Geofencing, Zeitpläne in der App Honeywell Home (Resideo), bei Installateuren weit verbreitet.</p>
 <p><strong>Schwächen</strong>: Design und App wirken weniger modern als bei tado oder Netatmo; die Einzelraumregelung ist weniger integriert.</p>
 <p><strong>Für wen</strong>: OpenTherm-fähige Wärmepumpen und Nutzer, die ein bewährtes Thermostat ohne Ökosystem-Bindung wollen.</p>
 
 <h3>Und das Google Nest Learning Thermostat?</h3>
-<p>Google hat angekündigt, in Europa keine neuen Nest-Thermostate mehr einzuführen. Das Nest Learning Thermostat der 4. Generation wird hier nicht verkauft, das Modell der 3. Generation nur solange der Vorrat reicht. Für einen langfristigen Neukauf sind die oben genannten Modelle die bessere Wahl.</p>
+<p>Google hat angekündigt, in Europa keine neuen Nest-Thermostate mehr einzuführen. Das Nest Learning Thermostat der 4. Generation wird hier nicht verkauft, das Modell der 3. Generation nur noch, solange der Vorrat reicht. Für einen langfristigen Neukauf sind die oben genannten Modelle die bessere Wahl.</p>
 
 <h3>Und die Regelung des Wärmepumpenherstellers?</h3>
-<p>Daikin, Vaillant, Atlantic und Panasonic bieten eigene Thermostate und Apps an. Sie kennen die Anlage genau, fügen sich aber oft weniger gut ins übrige Smart Home ein. Eine Option, die man im Blick behalten sollte, vor allem wenn Ihr Installateur sie bereits eingeplant hat.</p>
+<p>Daikin, Vaillant, Atlantic und Panasonic bieten eigene Thermostate und Apps an. Sie kennen die Anlage genau, fügen sich aber oft weniger gut ins übrige Smart Home ein. Behalten Sie diese Option im Blick, vor allem wenn Ihr Installateur sie bereits eingeplant hat.</p>
 
 <h2>Vergleichstabelle</h2>
 <table>
@@ -292,7 +292,7 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<h2>Häufige Fehler</h2>
+<h2>Typische Fehler</h2>
 <ul>
 <li><strong>Ohne Kompatibilitätsprüfung kaufen</strong>: Eine Wärmepumpe ohne Thermostateingang oder mit gesperrter Regelung funktioniert nicht mit jedem Modell.</li>
 <li><strong>Starke Nachtabsenkung programmieren</strong>: Bei einer Wärmepumpe, besonders mit Fußbodenheizung, zwingen Absenkungen um 4–5 °C die Anlage morgens zu hoher Leistung, oft mit dem elektrischen Heizstab. Senken Sie nur moderat ab.</li>
@@ -302,14 +302,14 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Installation und Sicherheit</h2>
-<p>Schalten Sie vor jedem Eingriff die Stromversorgung der Wärmepumpe ab. Ein verkabeltes Thermostat an einem potenzialfreien Kontakt oder OpenTherm auszutauschen, schaffen sorgfältige Heimwerker mit der Anleitung der App. Der Anschluss eines Moduls an die Regelplatine der Wärmepumpe oder Arbeiten an einer Anlage unter Garantie gehören dagegen in die Hände des Installateurs oder einer Elektrofachkraft: Ein Verdrahtungsfehler kann die Elektronik beschädigen und die Garantie gefährden.</p>
+<p>Schalten Sie vor jedem Eingriff die Stromversorgung der Wärmepumpe ab. Ein verkabeltes Thermostat am potenzialfreien Kontakt oder per OpenTherm auszutauschen, schaffen sorgfältige Heimwerker mit der Anleitung der App. Der Anschluss eines Moduls an die Regelplatine der Wärmepumpe oder Arbeiten an einer Anlage, die noch unter Garantie steht, gehören dagegen in die Hände des Installateurs oder einer Elektrofachkraft: Ein Verdrahtungsfehler kann die Elektronik beschädigen und die Garantie gefährden.</p>
 <p>Montieren Sie das Thermostat im Hauptwohnraum an einer Innenwand, etwa 1,5 m über dem Boden, fern von Wärmequellen und Zugluft. Prüfen Sie dort auch die WLAN- oder Thread-Abdeckung.</p>
 
 <h2>Förderung</h2>
-<p>Ein einzeln gekauftes smartes Thermostat wird selten gefördert, die Regelung kann aber Teil des Angebots für eine förderfähige Wärmepumpe sein. Die Bedingungen ändern sich regelmäßig; informieren Sie sich vor der Unterschrift bei den offiziellen Stellen oder einer Energieberatung. Mehr dazu in unserem <a href="/de/blog/guide-domotique-economie-energie-2026">Ratgeber Smart Home und Energiesparen</a> und in unserem Vergleich <a href="/de/blog/compteur-energie-connecte-comparatif">smarter Energiezähler</a>, mit denen Sie den tatsächlichen Verbrauch der Wärmepumpe verfolgen.</p>
+<p>Ob ein smartes Thermostat gefördert wird, hängt von Land und Programm ab. In Frankreich etwa wird ein einzeln gekauftes Gerät selten bezuschusst, die Regelung kann dort aber Teil des Angebots für eine förderfähige Wärmepumpe sein. Die Bedingungen ändern sich regelmäßig: Informieren Sie sich vor der Unterschrift bei den offiziellen Stellen Ihres Landes oder bei einer Energieberatung. Mehr dazu in unserem <a href="/de/blog/guide-domotique-economie-energie-2026">Ratgeber Smart Home und Energiesparen</a> und in unserem <a href="/de/blog/compteur-energie-connecte-comparatif">Vergleich der Energiezähler</a>, mit denen Sie den tatsächlichen Verbrauch der Wärmepumpe verfolgen.</p>
 
 <h2>Unser Fazit</h2>
-<p>Steht Ihre Wärmepumpe auf der Kompatibilitätsliste, ist der <strong>tado Heat Pump Optimizer X</strong> die umfassendste Lösung: Er steuert die Wärmepumpe selbst und nicht nur einen Kontakt. Für eine Ein/Aus-Wärmepumpe bietet das <strong>Netatmo Thermostat Original</strong> die beste Balance aus Einfachheit und Funktionen. Das <strong>tado Smart Thermostat X</strong> und das <strong>Honeywell Home T6</strong> sind die richtige Wahl, um OpenTherm zu nutzen. In jedem Fall gilt: Lassen Sie zuerst die Heizkurve Ihrer Wärmepumpe prüfen, denn sie bestimmt den größten Teil der Effizienz.</p>`,
+<p>Steht Ihre Wärmepumpe auf der Kompatibilitätsliste, ist der <strong>tado Heat Pump Optimizer X</strong> die umfassendste Lösung: Er steuert die Wärmepumpe selbst und nicht nur einen Kontakt. Für eine Wärmepumpe mit Ein/Aus-Ansteuerung bietet das <strong>Netatmo Thermostat Original</strong> die beste Balance aus Einfachheit und Funktionen. Das <strong>tado Smart Thermostat X</strong> und das <strong>Honeywell Home T6</strong> sind die richtige Wahl, um OpenTherm zu nutzen. In jedem Fall gilt: Lassen Sie zuerst die Heizkurve Ihrer Wärmepumpe prüfen, denn sie bestimmt den größten Teil der Effizienz.</p>`,
 
     es: `<p>Para una bomba de calor aire-agua, el mejor termostato inteligente en 2026 es el que se comunica con la bomba en lugar de limitarse a encenderla y apagarla: el <strong>tado Heat Pump Optimizer X</strong> es hoy la solución más completa para las marcas compatibles (Daikin, Atlantic, Vaillant, Saunier Duval, Fujitsu, Panasonic). Si tu bomba solo admite un contacto on/off, basta con un termostato sencillo y bien ajustado como el <strong>Netatmo Thermostat Original</strong>, y el <strong>Honeywell Home T6</strong> sigue siendo una apuesta segura cuando la bomba es compatible con OpenTherm.</p>
 <p>Esta guía se basa en las fichas técnicas de los fabricantes, análisis independientes y opiniones de compradores verificados. Solo incluye modelos que se venden actualmente en Europa. Encontrarás toda la selección en nuestro catálogo de <a href="/es/energie-domotique/thermostats">termostatos inteligentes</a>.</p>
@@ -947,7 +947,7 @@ export const article: BlogArticle = {
       question: {
         fr: 'Qu’est-ce qu’OpenTherm et faut-il absolument une PAC compatible ?',
         en: 'What is OpenTherm and do I really need a compatible heat pump?',
-        de: 'Was ist OpenTherm und brauche ich unbedingt eine kompatible Wärmepumpe?',
+        de: 'Was ist OpenTherm, und muss die Wärmepumpe dafür kompatibel sein?',
         es: '¿Qué es OpenTherm y hace falta que la bomba sea compatible?',
         it: 'Cos’è OpenTherm e serve per forza una pompa di calore compatibile?',
         nl: 'Wat is OpenTherm en moet je warmtepomp het per se ondersteunen?',

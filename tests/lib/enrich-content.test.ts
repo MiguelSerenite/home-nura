@@ -58,7 +58,7 @@ describe('enrichArticleHtml: in-text CTAs', () => {
     expect(cta).toContain('data-aff-surface="inline"')
     expect(cta).toContain('data-aff-placement="body_link"')
     expect(cta).toContain('Amazon-Affiliate-Link')
-    expect(cta).toContain('Preis auf Amazon prüfen')
+    expect(cta).toContain('Preis bei Amazon prüfen')
   })
 
   it('escapes model names and URLs', () => {

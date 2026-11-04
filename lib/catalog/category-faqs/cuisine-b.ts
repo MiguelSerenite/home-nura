@@ -49,7 +49,7 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
     de: [
       {
         question: "Küchenwaage auf 1 g oder 0,1 g genau – was brauche ich?",
-        answer: "Für normales Kochen und Backen reicht eine Küchenwaage mit 1-g-Schritten; eine Feinwaage mit 0,1 g lohnt sich für Hefe, Salz, Gewürze oder Kaffee. Bei einem Päckchen mit 7 g Trockenhefe macht ein Gramm Abweichung schon rund 14 Prozent aus. Feinwaagen haben oft eine geringere Höchstlast, häufig nur einige hundert Gramm bis wenige Kilogramm. Praktisch ist deshalb eine 5-kg-Küchenwaage für Mehl und Teig plus eine kleine Feinwaage für kleine Mengen. Achten Sie auf eine Tara-Funktion und eine flache, leicht abwischbare Wiegefläche.",
+        answer: "Für normales Kochen und Backen reicht eine Küchenwaage mit 1-g-Schritten; eine Feinwaage mit 0,1 g lohnt sich für Hefe, Salz, Gewürze oder Kaffee. Bei einem Päckchen mit 7 g Trockenhefe macht ein Gramm Abweichung schon rund 14 Prozent aus. Feinwaagen tragen meist weniger, oft nur einige hundert Gramm bis wenige Kilogramm. Praktisch ist deshalb eine 5-kg-Küchenwaage für Mehl und Teig plus eine kleine Feinwaage für kleine Mengen. Achten Sie auf eine Tara-Funktion und eine flache, leicht abwischbare Wiegefläche.",
       },
       {
         question: "Brauche ich eine geeichte Küchenwaage?",
@@ -57,15 +57,15 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "Küchenwaage mit App und Nährwertberechnung – geht das auch ohne Abo?",
-        answer: "Ja, Wiegen und Tara funktionieren bei fast allen Modellen ohne App und ohne Abo; kostenpflichtig sind bei manchen Herstellern nur Zusatzfunktionen wie ausführliche Nährwertauswertungen. Die App erkennt das Lebensmittel nicht selbst: Sie wählen es aus einer Datenbank, und Kalorien, Eiweiß oder Kohlenhydrate werden aus dem Gewicht berechnet. Prüfen Sie vor dem Kauf, ob ein Konto nötig ist und wo die Daten gespeichert werden, denn ein Ernährungstagebuch verrät viel über Ihre Gesundheit. Alternativ tippen Sie die Grammzahl einer normalen Waage in eine Ernährungs-App.",
+        answer: "Ja, Wiegen und Tara funktionieren bei fast allen Modellen ohne App und ohne Abo; kostenpflichtig sind bei manchen Herstellern nur Zusatzfunktionen wie ausführliche Nährwertauswertungen. Die App erkennt das Lebensmittel nicht selbst: Sie wählen es aus einer Datenbank, und Kalorien, Eiweiß oder Kohlenhydrate werden aus dem Gewicht berechnet. Prüfen Sie vor dem Kauf, ob ein Konto nötig ist und wo die Daten gespeichert werden, denn ein Ernährungstagebuch verrät viel über Ihre Gesundheit. Alternativ wiegen Sie mit einer normalen Waage und tippen die Grammzahl in eine Ernährungs-App.",
       },
       {
-        question: "Kaffeewaage oder normale Küchenwaage – was ist besser für Espresso?",
-        answer: "Für Espresso ist eine Kaffeewaage besser: Sie zeigt 0,1 g an, reagiert schnell und hat einen eingebauten Timer für die Bezugszeit. Sie ist zudem flach genug für den Platz unter dem Siebträger und oft spritzwassergeschützt. Üblich ist ein Verhältnis von etwa 1 zu 2, also aus 18 g Kaffeemehl rund 36 g Espresso in der Tasse. Für Filterkaffee genügt auch eine normale Küchenwaage mit 1-g-Schritten, etwa für rund 60 g Kaffee pro Liter Wasser. Eine Kaffeewaage taugt nebenbei als Feinwaage für Hefe und Gewürze.",
+        question: "Kaffeewaage oder normale Küchenwaage – was eignet sich besser für Espresso?",
+        answer: "Für Espresso ist eine Kaffeewaage besser: Sie zeigt 0,1 g an, reagiert schnell und hat einen eingebauten Timer für die Bezugszeit. Sie ist zudem flach genug für den Platz unter dem Siebträger und oft spritzwassergeschützt. Üblich ist ein Verhältnis von etwa 1 zu 2, also aus 18 g Kaffeemehl rund 36 g Espresso in der Tasse. Für Filterkaffee genügt auch eine normale Küchenwaage mit 1-g-Schritten, etwa für 60 g Kaffee pro Liter Wasser. Eine Kaffeewaage taugt nebenbei als Feinwaage für Hefe und Gewürze.",
       },
       {
         question: "Küchenwaage zeigt falsch an oder geht ständig aus – was tun?",
-        answer: "Wechseln Sie zuerst die Batterie, meist eine Knopfzelle CR2032 oder AAA-Batterien, denn schwache Batterien sind eine häufige Ursache für falsche Werte und Aussetzer. Stellen Sie die Waage auf eine harte, waagerechte Fläche und schalten Sie sie leer ein, damit sie korrekt auf null geht. Zur Kontrolle eignen sich Münzen: Ein 1-Euro-Stück wiegt 7,5 g, ein Schweizer 5-Franken-Stück 13,2 g. Dass sie sich nach kurzer Zeit abschaltet, ist meist eine gewollte Abschaltautomatik. Bleibt die Anzeige falsch, ist oft der Wägesensor durch Sturz oder Überlast beschädigt.",
+        answer: "Wechseln Sie zuerst die Batterie, meist eine Knopfzelle CR2032 oder AAA-Batterien, denn schwache Batterien sind eine häufige Ursache für falsche Werte und Aussetzer. Stellen Sie die Waage auf eine harte, waagerechte Fläche und schalten Sie sie leer ein, damit sie korrekt auf null geht. Zur Kontrolle eignen sich Münzen: Ein 1-Euro-Stück wiegt 7,5 g, ein Schweizer 5-Franken-Stück 13,2 g. Schaltet sie sich nach kurzer Zeit ab, ist das meist die gewollte Abschaltautomatik. Bleibt die Anzeige falsch, ist oft der Wägesensor durch Sturz oder Überlast beschädigt.",
       },
     ],
     es: [
@@ -115,7 +115,7 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Keukenweegschaal op 1 gram of 0,1 gram nauwkeurig: wat heb je nodig?",
-        answer: "Voor koken en de meeste baksels is 1 gram genoeg; 0,1 gram is alleen nuttig voor kleine hoeveelheden zoals gist, zout, kruiden of koffie. Bij een zakje gedroogde gist van 7 gram is één gram verschil al zo'n 14 procent. Precisieweegschalen hebben vaak een lager maximum, soms maar een paar honderd gram. Handig is dus een keukenweegschaal tot 5 kilo met stappen van 1 gram en een tarraknop, eventueel aangevuld met een kleine precisieweegschaal.",
+        answer: "Voor koken en de meeste baksels is 1 gram genoeg; 0,1 gram is alleen nuttig voor kleine hoeveelheden zoals gist, zout, kruiden of koffie. Bij een zakje gedroogde gist van 7 gram is één gram verschil al zo’n 14%. Precisieweegschalen hebben vaak een lager maximum, soms maar een paar honderd gram. Handig is dus een keukenweegschaal tot 5 kilo met stappen van 1 gram en een tarraknop, eventueel aangevuld met een kleine precisieweegschaal.",
       },
       {
         question: "Heb je een slimme keukenweegschaal nodig om calorieën bij te houden?",
@@ -123,7 +123,7 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "Koffieweegschaal of gewone keukenweegschaal: wat is beter?",
-        answer: "Voor espresso of pour-over is een koffieweegschaal beter: die weegt op 0,1 gram, reageert snel en heeft een ingebouwde timer. Bij espresso werk je vaak met een verhouding van ongeveer 1 op 2, dus 18 gram gemalen koffie voor zo'n 36 gram espresso. Een koffieweegschaal is plat genoeg om onder de zetgroep te passen en kan meestal tegen een spatje. Zet je alleen filterkoffie of een volle kan, dan is een gewone keukenweegschaal op 1 gram genoeg.",
+        answer: "Voor espresso of pour-over is een koffieweegschaal beter: die weegt op 0,1 gram, reageert snel en heeft een ingebouwde timer. Bij espresso werk je vaak met een verhouding van ongeveer 1 op 2, dus 18 gram gemalen koffie voor zo’n 36 gram espresso. Een koffieweegschaal is plat genoeg om onder de zetgroep te passen en kan meestal tegen een spatje. Zet je alleen filterkoffie of een volle kan, dan is een gewone keukenweegschaal op 1 gram genoeg.",
       },
       {
         question: "Keukenweegschaal werkt niet of geeft verkeerd gewicht aan: wat nu?",
@@ -279,7 +279,7 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "Grillthermometer kabellos oder mit Kabel – was ist besser?",
-        answer: "Für Kugelgrill, Smoker und lange Low-and-Slow-Sessions ist ein Kabelthermometer mit Basisstation meist die robustere Wahl, kabellose Sonden sind im Backofen und am Drehspieß bequemer. Kabelsonden laufen mit normalen Batterien, messen oft mehrere Stücke plus die Garraumtemperatur und hängen nicht von einem Funksignal durch den Metalldeckel ab. Kabellose Sonden kommen ohne Kabelsalat aus, haben aber einen kleinen Akku, der die ganze Garzeit durchhalten muss, und eine begrenzte Hitzetoleranz am Sondenende. Beim scharfen Angrillen kommt die Sonde deshalb erst danach ins Fleisch.",
+        answer: "Für Kugelgrill, Smoker und langes Low-and-Slow-Garen ist ein Kabelthermometer mit Basisstation meist die robustere Wahl, kabellose Sonden sind im Backofen und am Drehspieß bequemer. Kabelsonden laufen mit normalen Batterien, messen oft mehrere Stücke plus die Garraumtemperatur und hängen nicht von einem Funksignal durch den Metalldeckel ab. Kabellose Sonden kommen ohne Kabelsalat aus, haben aber einen kleinen Akku, der die ganze Garzeit durchhalten muss, und eine begrenzte Hitzetoleranz am Sondenende. Beim scharfen Angrillen kommt die Sonde deshalb erst danach ins Fleisch.",
       },
       {
         question: "Wie weit reicht ein kabelloses Fleischthermometer bei geschlossenem Grill?",
@@ -337,19 +337,19 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Wat is de juiste kerntemperatuur voor rundvlees, varkensvlees en lam?",
-        answer: "Als richtlijn: rosbief of biefstuk rood rond 50-54 °C, medium 55-60 °C, lamsvlees rosé 55-60 °C en varkensvlees vanaf 63 °C. Langzaam gegaarde stukken zoals pulled pork of brisket gaan juist door tot ongeveer 90-95 °C, zodat het bindweefsel loslaat. Haal grote stukken een paar graden vóór de doeltemperatuur van het vuur of uit de oven, want tijdens het rusten stijgt de temperatuur nog. Meet in het midden van het dikste deel, niet tegen bot of vet. Gehakt moet altijd helemaal gaar zijn.",
+        answer: "Als richtlijn: rosbief of biefstuk rood rond 50 tot 54 °C, medium 55 tot 60 °C, lamsvlees rosé 55 tot 60 °C en varkensvlees vanaf 63 °C. Langzaam gegaarde stukken zoals pulled pork of brisket gaan juist door tot ongeveer 90 à 95 °C, zodat het bindweefsel loslaat. Haal grote stukken een paar graden vóór de doeltemperatuur van het vuur of uit de oven, want tijdens het rusten stijgt de temperatuur nog. Meet in het midden van het dikste deel, niet tegen bot of vet. Gehakt moet altijd helemaal gaar zijn.",
       },
       {
         question: "Wanneer is kip op de barbecue gaar en veilig?",
-        answer: "Kip is veilig gaar als het dikste deel minimaal 75 °C bereikt, zonder roze vlees en met helder vocht. Op de barbecue gaat het vaak mis: drumsticks en kippendijen zijn buiten al zwart terwijl ze binnen nog rauw zijn. Gaar grote stukken daarom eerst indirect met de deksel dicht, of kort voor in de oven, en geef ze daarna kleur boven de kolen. Steek de sonde in het dikste deel, vlak bij het bot maar zonder het te raken. Gebruik aparte borden en tangen voor rauwe en gegaarde kip.",
+        answer: "Kip is veilig gaar als het dikste deel minimaal 75 °C bereikt, zonder roze vlees en met helder vocht. Op de barbecue gaat het vaak mis: drumsticks en kippendijen zijn buiten al zwart terwijl ze binnen nog rauw zijn. Gaar grote stukken daarom eerst indirect met het deksel dicht, of kort voor in de oven, en geef ze daarna kleur boven de kolen. Steek de sonde in het dikste deel, vlak bij het bot maar zonder het te raken. Gebruik aparte borden en tangen voor rauwe en gegaarde kip.",
       },
       {
         question: "Werkt een draadloze vleesthermometer in een kamado of Big Green Egg?",
-        answer: "Ja, voor low and slow en rustig roosteren, maar niet tijdens hete sessies voor pizza of dichtschroeien, waarbij een kamado ver boven de 300 °C kan komen. Veel draadloze sondes verdragen aan de achterkant een omgevingstemperatuur van ongeveer 250 tot 300 °C, en de elektronica in de punt alleen de lagere temperatuur in het vlees. Steek de sonde dus tot de markering in het vlees en kijk in de specificaties wat jouw model aankan. De dikke deksel kan het signaal verzwakken: zet de repeater of het laadstation dicht bij de kamado.",
+        answer: "Ja, voor low and slow en rustig roosteren, maar niet tijdens hete sessies voor pizza of dichtschroeien, waarbij een kamado ver boven de 300 °C kan komen. Veel draadloze sondes verdragen aan de achterkant een omgevingstemperatuur van ongeveer 250 tot 300 °C, en de elektronica in de punt alleen de lagere temperatuur in het vlees. Steek de sonde dus tot de markering in het vlees en kijk in de specificaties wat jouw model aankan. Het dikke deksel kan het signaal verzwakken: zet de repeater of het laadstation dicht bij de kamado.",
       },
       {
         question: "Draadloze of bedrade vleesthermometer: welke kies je?",
-        answer: "Kies draadloos voor oven en rotisserie, waar een kabel in de weg zou zitten, en een bedrade thermometer met basisstation voor lange barbecuesessies en roken. Een bedrade sonde werkt op gewone batterijen, meet vaak meerdere stukken plus de temperatuur in de barbecue en is niet afhankelijk van een signaal door metaal. Een draadloze sonde heeft een kleine accu die de hele gaartijd mee moet, en via Bluetooth reikt het signaal met de deksel dicht vaak maar een paar meter. Wil je meekijken vanuit de woonkamer of onderweg, kies dan een model met wifi-brug.",
+        answer: "Kies draadloos voor oven en rotisserie, waar een kabel in de weg zou zitten, en een bedrade thermometer met basisstation voor lange barbecuesessies en roken. Een bedrade sonde werkt op gewone batterijen, meet vaak meerdere stukken plus de temperatuur in de barbecue en is niet afhankelijk van een signaal door metaal. Een draadloze sonde heeft een kleine accu die de hele gaartijd mee moet, en via Bluetooth reikt het signaal met het deksel dicht vaak maar een paar meter. Wil je meekijken vanuit de woonkamer of onderweg, kies dan een model met wifibrug.",
       },
       {
         question: "Vleesthermometer werkt niet of geeft rare waarden: wat nu?",
@@ -501,11 +501,11 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
       },
       {
         question: "Darf ein Heizlüfter oder Ölradiator an eine smarte Steckdose?",
-        answer: "Besser nicht: Viele Bedienungsanleitungen von Heizlüftern und Radiatoren verbieten das automatische Einschalten per Zeitschaltuhr oder Fernsteuerung, weil ein abgedecktes oder umgekipptes Gerät einen Brand auslösen kann. Dazu kommt die Dauerlast: 2.000 W über Stunden belasten Steckdose und Relais stark. Nutzen Sie stattdessen das eingebaute Thermostat und den Timer des Geräts, das Sie vor Ort einschalten. Für Infrarotheizungen gibt es passende Thermostate oder Unterputz-Aktoren vom Elektriker. Ein Heizlüfter gehört ohnehin nie an eine Mehrfachsteckdose.",
+        answer: "Besser nicht: Viele Bedienungsanleitungen von Heizlüftern und Radiatoren verbieten das automatische Einschalten per Zeitschaltuhr oder Fernsteuerung, weil ein abgedecktes oder umgekipptes Gerät einen Brand auslösen kann. Dazu kommt die Dauerlast: 2.000 W über Stunden belasten Steckdose und Relais stark. Nutzen Sie stattdessen Thermostat und Timer des Geräts und schalten Sie es vor Ort ein. Für Infrarotheizungen gibt es passende Thermostate oder Unterputz-Aktoren vom Elektriker. Ein Heizlüfter gehört ohnehin nie an eine Mehrfachsteckdose.",
       },
       {
         question: "Wie viel Strom verbraucht eine WLAN-Steckdose selbst – lohnt sie sich?",
-        answer: "Eine WLAN-Steckdose braucht meist um 1 W oder weniger, also knapp 9 kWh im Jahr; bei einem Beispielpreis von 35 Cent pro kWh sind das rund 3 Euro. Sie lohnt sich, wenn sie mehr abschaltet, als sie selbst verbraucht: Fernseher, Konsole und Soundbar mit zusammen 15 W Standby, 16 Stunden täglich vom Netz getrennt, sparen 15 × 16 × 365 = 88 kWh, rund 31 Euro im Jahr. Rechnen Sie mit Ihrem eigenen Tarif nach. Kühlschrank und Router sollten Sie dagegen nicht abschalten.",
+        answer: "Eine WLAN-Steckdose braucht meist rund 1 W oder weniger, also knapp 9 kWh im Jahr; bei einem Beispielpreis von 35 Cent pro kWh sind das rund 3 Euro. Sie lohnt sich, wenn sie mehr abschaltet, als sie selbst verbraucht: Fernseher, Konsole und Soundbar mit zusammen 15 W Standby, 16 Stunden täglich vom Netz getrennt, sparen 15 × 16 × 365 = 88 kWh, rund 31 Euro im Jahr. Rechnen Sie mit Ihrem eigenen Tarif nach. Kühlschrank und Router sollten Sie dagegen nicht abschalten.",
       },
       {
         question: "Warum schaltet meine smarte Steckdose von selbst ab?",
@@ -559,15 +559,15 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
     nl: [
       {
         question: "Welke slimme stekker kies je: wifi, Zigbee of Matter?",
-        answer: "Voor een of twee stekkers is wifi het eenvoudigst; bij meer apparaten of een domoticasysteem werken Zigbee en Matter meestal stabieler en vaak zonder cloud. Zigbee-stekkers hebben een hub nodig, zoals Homey, Home Assistant met een Zigbee-stick of een Echo met ingebouwde Zigbee, en versterken meestal het netwerk omdat ze als repeater werken. Matter-stekkers werken via een controller, zoals een slimme speaker of Homey, met Apple Woning, Google Home en Alexa. Wifi-stekkers verbinden alleen via 2,4 GHz en hangen vaak af van de app en cloud van de fabrikant. Let ook op 16 A en energiemeting als je die nodig hebt.",
+        answer: "Voor een of twee stekkers is wifi het eenvoudigst; bij meer apparaten of een domoticasysteem werken Zigbee en Matter meestal stabieler en vaak zonder cloud. Zigbee-stekkers hebben een hub nodig, zoals Homey, Home Assistant met een Zigbee-stick of een Echo met ingebouwde Zigbee, en versterken meestal het netwerk omdat ze als repeater werken. Matter-stekkers werken via een controller, zoals een slimme speaker of Homey, met Apple Woning, Google Home en Alexa. Wifistekkers verbinden alleen via 2,4 GHz en hangen vaak af van de app en cloud van de fabrikant. Let ook op 16 A en energiemeting als je die nodig hebt.",
       },
       {
-        question: "KlikAanKlikUit of een wifi-stekker: wat is het verschil?",
-        answer: "Klassieke KlikAanKlikUit-stekkers schakelen via 433 MHz met een afstandsbediening en geven geen bevestiging terug; een wifi-stekker meldt wel zijn status en is zonder extra kastje met een app te bedienen. Voor bediening van KlikAanKlikUit via app of spraak heb je hun bridge nodig, of een systeem als Homey dat 433 MHz ondersteunt. Voordelen: het werkt zonder wifi en de stekkers zijn eenvoudig. Nadelen: je weet niet zeker of een commando is aangekomen en energiemeting ontbreekt meestal. Voor automatiseringen die echt moeten werken, is een stekker met statusmelding betrouwbaarder.",
+        question: "KlikAanKlikUit of een wifistekker: wat is het verschil?",
+        answer: "Klassieke KlikAanKlikUit-stekkers schakelen via 433 MHz met een afstandsbediening en geven geen bevestiging terug; een wifistekker meldt wel zijn status en is zonder extra kastje met een app te bedienen. Voor bediening van KlikAanKlikUit via app of spraak heb je hun bridge nodig, of een systeem als Homey dat 433 MHz ondersteunt. Voordelen: het werkt zonder wifi en de stekkers zijn eenvoudig. Nadelen: je weet niet zeker of een commando is aangekomen en energiemeting ontbreekt meestal. Voor automatiseringen die echt moeten werken, is een stekker met statusmelding betrouwbaarder.",
       },
       {
         question: "Kan een slimme stekker apparaten aanzetten als stroom het goedkoopst is?",
-        answer: "Ja, met een dynamisch energiecontract kan een domoticasysteem zoals Homey of Home Assistant de uur- of kwartierprijzen inlezen en een stekker in de goedkoopste uren aanzetten. Dat werkt alleen voor apparaten die zelf starten zodra er stroom is, zoals een eenvoudige keukenboiler of een lader voor e-bikeaccu's. Een wasmachine of vaatwasser met elektronische knoppen blijft na het inschakelen gewoon uit; gebruik daarvoor de uitgestelde start van het apparaat zelf. Laat de stekker de koelkast of vriezer nooit urenlang uitschakelen, ook niet als de stroom op dat moment duur is.",
+        answer: "Ja, met een dynamisch energiecontract kan een domoticasysteem zoals Homey of Home Assistant de uur- of kwartierprijzen inlezen en een stekker in de goedkoopste uren aanzetten. Dat werkt alleen voor apparaten die zelf starten zodra er stroom is, zoals een eenvoudige keukenboiler of een lader voor e-bikeaccu’s. Een wasmachine of vaatwasser met elektronische knoppen blijft na het inschakelen gewoon uit; gebruik daarvoor de uitgestelde start van het apparaat zelf. Laat de stekker de koelkast of vriezer nooit urenlang uitschakelen, ook niet als de stroom op dat moment duur is.",
       },
       {
         question: "Mag een elektrische kachel of mobiele airco aan een slimme stekker?",

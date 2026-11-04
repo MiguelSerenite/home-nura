@@ -31,7 +31,7 @@ const UTILITY_PATHS = ['', '/comparateur', '/cuisine-connectee/comparateur', '/c
 /** Labels of the shared guides that have no catalog title. */
 const GUIDE_LABELS: Readonly<Record<string, Readonly<Record<Lang, string>>>> = {
   '/guides/airfryer-vs-four': {
-    fr: 'Airfryer ou four', en: 'Air fryer vs oven', de: 'Heißluftfritteuse oder Backofen', es: 'Freidora de aire u horno',
+    fr: 'Airfryer ou four', en: 'Air fryer vs oven', de: 'Airfryer oder Backofen', es: 'Freidora de aire u horno',
     it: 'Friggitrice ad aria o forno', nl: 'Airfryer of oven', pl: 'Frytkownica beztłuszczowa czy piekarnik', sv: 'Airfryer eller ugn',
     us: 'Air fryer vs. oven', ca: 'Air fryer vs oven',
   },
@@ -41,7 +41,7 @@ const GUIDE_LABELS: Readonly<Record<string, Readonly<Record<Lang, string>>>> = {
     us: 'Smart kitchen guide', ca: 'Smart kitchen guide',
   },
   '/guides/probleme': {
-    fr: 'Pannes et solutions', en: 'Troubleshooting', de: 'Störungen und Lösungen', es: 'Averías y soluciones',
+    fr: 'Pannes et solutions', en: 'Troubleshooting', de: 'Probleme und Lösungen', es: 'Averías y soluciones',
     it: 'Problemi e soluzioni', nl: 'Storingen en oplossingen', pl: 'Usterki i rozwiązania', sv: 'Fel och lösningar',
     us: 'Troubleshooting', ca: 'Troubleshooting',
   },
