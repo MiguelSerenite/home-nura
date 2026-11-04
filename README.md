@@ -30,10 +30,10 @@ Chaque clic sur un lien Amazon envoie une balise à `/api/click` (`lib/analytics
 
 | Champ | Contenu |
 | --- | --- |
-| `placement` | le bloc cliqué (liste fermée `CLICK_PLACEMENTS` de `lib/affiliate-click.ts`) : `quick_answer`, `picks`, `product_block`, `body_link`, `table`, `card`, `sticky_bar`, `comparator`, `quiz`, `black_friday`, `floor_care` |
+| `placement` | le bloc cliqué (liste fermée `CLICK_PLACEMENTS` de `lib/affiliate-click.ts`) : `quick_answer`, `picks`, `product_block`, `body_link`, `table`, `card`, `sticky_bar`, `comparator`, `quiz`, `black_friday`, `floor_care`, `market_page`, `category_catalog`, `coolblue_offer` |
 | `market` | le marché de la page : `fr`, `uk` (version anglaise), `de`, `es`, `it`, `nl`, `pl`, `se` (version suédoise), `us`, `ca` |
-| `store` | la boutique Amazon du lien (`amazon.fr`, ou `amazon.it` pour l'italien) |
-| `tag` | l'identifiant de suivi du lien, celui des rapports Associates Central |
+| `store` | la boutique du lien : `amazon.fr`, ou `amazon.it` pour l'italien ; `coolblue.nl` pour une offre Coolblue (version néerlandaise) |
+| `tag` | l'identifiant de suivi du lien, celui des rapports Associates Central ; `awin-1255925` (compte éditeur Awin) pour Coolblue |
 | `surface` | l'ancienne dimension (`verdict`, `after-h2`, `bottom`, `sticky`…), seule présente dans les lignes d'avant le 01/11/2026 ; gardée pour comparer avant/après et pour séparer les blocs produit en milieu (`after-h2`) et en fin d'article (`bottom`) ; `null` pour les blocs qui n'en avaient pas (tableaux, cartes, comparateur, quiz) |
 
 **Lire les clics :**
@@ -49,6 +49,15 @@ npx tsx scripts/analytics/affiliate-clicks.ts clicks.jsonl
 `--no-branch` est indispensable : sans lui, la CLI ne garde que les logs de la branche git courante (aucun clic depuis une branche de travail). Le script (`scripts/analytics/affiliate-clicks.ts`, lecture seule) affiche les clics par emplacement, par marché, par boutique, par identifiant de suivi, les croisements emplacement × marché et emplacement × position (`surface`), et les 10 pages les plus cliquées. Il lit aussi l'entrée standard, un export JSON du tableau de bord ou du texte brut. Si l'export atteint la limite, le découper en périodes qui ne se chevauchent pas (`--since 2026-11-01T00:00:00Z --until 2026-11-04T00:00:00Z`, puis la suite) et concaténer les fichiers : une ligne de log n'a pas d'identifiant, deux périodes qui se chevauchent compteraient deux fois les mêmes clics.
 
 Vercel Web Analytics (onglet *Analytics* → *Events* → `click_affiliate`) ne reçoit que 2 propriétés sur le plan Pro : `placement` et `market` (raisons dans `VERCEL_PROPERTIES`, `lib/analytics.ts`). Le détail complet (modèle, page, boutique, identifiant de suivi) est dans les logs.
+
+## Offres Coolblue (version néerlandaise, via Awin)
+
+Sur `/nl`, les choix et les cartes du catalogue des hubs affichent sous le bouton Amazon l'offre Coolblue du modèle exact (prix de Coolblue, avec sa date, et bouton « Bekijk bij Coolblue »), tirée des flux produits Awin de Coolblue NL (annonceur 85161, éditeur 1255925) : `lib/merchant-offers/`, composant `components/CoolblueOffer.tsx`.
+
+- **Clé** : `AWIN_DATAFEED_KEY` (Vercel, *Production* et *Preview*), secrète, jamais écrite dans le code ni les logs. Sans elle, ou si Awin ne répond pas, aucune offre et la page reste identique (un avertissement `[merchant-offers]` dans les logs).
+- **Flux** : Keuken 95890, Huishouden en wonen 95892, Domotica 95897, Koffie 95834, Wasmachines en wasdrogers 95904, Tuin en Klussen 95886 ; lien de téléchargement lu dans la liste des flux (feedList), sinon construit au format Create-a-Feed. Relus toutes les 6 heures (`next.revalidate`), les pages `/nl` des hubs sont régénérées au même rythme.
+- **Correspondance** : marque exacte, tous les mots du modèle présents, aucun mot en plus sauf couleur, capacité ou référence ; deux produits possibles = aucune offre (`tests/lib/merchant-offers/match.test.ts`).
+- **Règles Coolblue** : Coolblue nommé avant le clic et « Home Nura is geen Coolblue », ni image ni texte du flux ou de coolblue.nl, ni code promo, cashback ou livraison gratuite mis en avant.
 
 ## Liens de communication : toujours la version du pays
 

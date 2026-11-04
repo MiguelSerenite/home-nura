@@ -10,6 +10,7 @@
  */
 import { AMAZON_MARKET_CODES, AMAZON_MARKETPLACES, AMAZON_MARKETS, AMAZON_TAGS, type AmazonMarketCode } from '@/lib/amazon'
 import { LANGUAGES, type Lang } from '@/lib/i18n'
+import { COOLBLUE_STORE, COOLBLUE_TAG, isCoolblueAwinLink } from '@/lib/merchant-offers/types'
 
 /**
  * Which block of the page the affiliate link sits in: the dimension that
@@ -34,7 +35,9 @@ import { LANGUAGES, type Lang } from '@/lib/i18n'
  * - `market_page`: every link of the single-locale duels, guides and news
  *   (lib/market-pages): pick cards and comparison tables;
  * - `category_catalog`: the hubs' "other models we compare" cards
- *   (lib/category-catalog).
+ *   (lib/category-catalog);
+ * - `coolblue_offer`: the Coolblue offer (Awin) shown under a model on the
+ *   Dutch hubs, picks and catalogue cards (lib/merchant-offers).
  */
 export const CLICK_PLACEMENTS = [
   'quick_answer',
@@ -50,6 +53,7 @@ export const CLICK_PLACEMENTS = [
   'floor_care',
   'market_page',
   'category_catalog',
+  'coolblue_offer',
 ] as const
 export type ClickPlacement = (typeof CLICK_PLACEMENTS)[number]
 
@@ -76,13 +80,16 @@ export const CLICK_SURFACES = [
 export type ClickSurface = (typeof CLICK_SURFACES)[number]
 
 /**
- * Amazon stores a link may point to: the stores of the market table in
- * lib/amazon.ts (amazon.it for Italian pages, amazon.fr elsewhere). A
- * beacon naming another store does not come from the site.
+ * Stores a link may point to: the Amazon stores of the market table in
+ * lib/amazon.ts (amazon.it for Italian pages, amazon.fr elsewhere), and
+ * Coolblue (through Awin) on Dutch pages. A beacon naming another store
+ * does not come from the site.
  */
-export const CLICK_STORES: readonly string[] = AMAZON_MARKETPLACES
-/** Tracking IDs of the market table: any other tag does not come from the site. */
-export const CLICK_TAGS: readonly string[] = AMAZON_TAGS
+export const CLICK_STORES: readonly string[] = [...AMAZON_MARKETPLACES, COOLBLUE_STORE]
+/** Tracking IDs of the market table, plus our Awin publisher account: any other tag does not come from the site. */
+export const CLICK_TAGS: readonly string[] = [...AMAZON_TAGS, COOLBLUE_TAG]
+/** Languages whose pages link to Coolblue. */
+export const COOLBLUE_LANGS: readonly Lang[] = ['nl']
 /** Market of each language version ("uk" for English pages, "se" for Swedish ones). */
 export const CLICK_MARKETS: readonly AmazonMarketCode[] = AMAZON_MARKET_CODES
 
@@ -143,18 +150,24 @@ function cleanModel(value: unknown): string | null {
   return model
 }
 
-/** Store host of an Amazon URL the site links to ("amazon.fr", "amazon.it"), or null for anything else. */
+/**
+ * Store of a URL the site links to: the Amazon host ("amazon.fr",
+ * "amazon.it"), "coolblue.nl" for our Awin links to Coolblue, null for
+ * anything else.
+ */
 export function storeOf(url: string): string | null {
+  if (isCoolblueAwinLink(url)) return COOLBLUE_STORE
   try {
     const host = new URL(url).hostname.replace(/^www\./, '')
-    return STORES.has(host) ? host : null
+    return host !== COOLBLUE_STORE && STORES.has(host) ? host : null
   } catch {
     return null
   }
 }
 
-/** Tracking ID of a link when it is one of the market table's, else null. */
+/** Tracking ID of a link when it is one of the market table's (or our Awin account's), else null. */
 export function tagOf(url: string): string | null {
+  if (isCoolblueAwinLink(url)) return COOLBLUE_TAG
   try {
     const tag = new URL(url).searchParams.get('tag')
     return tag !== null && TAGS.has(tag) ? tag : null
@@ -175,6 +188,10 @@ export function parseAffiliateClick(body: unknown): AffiliateClick | null {
   const clickSurface = surface === undefined ? null : isOneOf<ClickSurface>(surface, SURFACES) ? surface : undefined
   if (clickSurface === undefined) return null
   if (!isOneOf<string>(store, STORES) || !isOneOf<string>(tag, TAGS)) return null
+  // Coolblue clicks carry the Awin account and come from a Coolblue page; Amazon ones never do.
+  const isCoolblue = store === COOLBLUE_STORE
+  if (isCoolblue !== (tag === COOLBLUE_TAG)) return null
+  if (isCoolblue && !COOLBLUE_LANGS.includes(lang)) return null
   const modelName = cleanModel(model)
   if (modelName === null) return null
 

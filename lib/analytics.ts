@@ -27,6 +27,7 @@ import {
   type ClickSurface,
 } from '@/lib/affiliate-click'
 import { resolveLang } from '@/lib/i18n'
+import { COOLBLUE_STORE, COOLBLUE_TAG } from '@/lib/merchant-offers/types'
 
 export const EVENTS = {
   CLICK_AFFILIATE: 'click_affiliate',
@@ -165,15 +166,16 @@ function ensureVercelQueue(): void {
  *
  * Every click is also sent to the first-party beacon (/api/click), the
  * only full click record: placement, page, model, and the store and
- * tracking ID read from the link itself (the reader's market when the
- * link names neither).
+ * tracking ID read from the link itself: an Amazon store and tag, or
+ * "coolblue.nl" and our Awin account for a Coolblue offer. Only an Amazon
+ * link that names neither (none should) falls back to the reader's market.
  */
 export function trackAffiliateClick(input: {
   asin: string
   productName: string
   priceNumeric?: number
   position?: number
-  location: 'comparison_table' | 'article_inline' | 'article_table' | 'article_bottom' | 'article_sticky' | 'article_models' | 'article_quick_answer' | 'category_picks' | 'comparator' | 'product_card' | 'smart_kitchen'
+  location: 'comparison_table' | 'article_inline' | 'article_table' | 'article_bottom' | 'article_sticky' | 'article_models' | 'article_quick_answer' | 'category_picks' | 'comparator' | 'product_card' | 'smart_kitchen' | 'coolblue_offer'
   lang: string
   /** Block of the page the link sits in (lib/affiliate-click.ts). */
   placement: ClickPlacement
@@ -183,8 +185,10 @@ export function trackAffiliateClick(input: {
   url: string
 }): void {
   const market = amazonMarket(resolveLang(input.lang))
-  const store = storeOf(input.url) ?? market.marketplace
-  const tag = tagOf(input.url) ?? market.tag
+  const linkStore = storeOf(input.url)
+  const store = linkStore ?? market.marketplace
+  // A Coolblue link always carries its Awin tag; the Amazon fallback is for Amazon links only.
+  const tag = tagOf(input.url) ?? (linkStore === COOLBLUE_STORE ? COOLBLUE_TAG : market.tag)
   trackEvent(EVENTS.CLICK_AFFILIATE, {
     asin: input.asin,
     product_name: input.productName,

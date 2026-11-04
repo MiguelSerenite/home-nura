@@ -1,0 +1,4 @@
+Advertiser ID,Advertiser Name,Primary Region,Membership Status,Feed ID,Feed Name,Language,Vertical,Last Imported,Last Checked,No of products,URL
+85161,Coolblue NL,NL,active,95890,Keuken,nl,Retail,2026-11-02 05:00:00,2026-11-02 06:00:00,2104,https://ui.awin.com/productdata-darwin-download/publisher/1255925/TESTKEY/1/95890.csv.gz
+85161,Coolblue NL,NL,active,95892,Huishouden en wonen,nl,Retail,2026-11-02 05:00:00,2026-11-02 06:00:00,3311,
+12345,Other Shop,NL,active,11111,Other,nl,Retail,2026-11-02 05:00:00,2026-11-02 06:00:00,10,https://ui.awin.com/x
