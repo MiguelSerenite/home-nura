@@ -32,7 +32,7 @@ Chaque clic sur un lien Amazon envoie une balise à `/api/click` (`lib/analytics
 | --- | --- |
 | `placement` | le bloc cliqué (liste fermée `CLICK_PLACEMENTS` de `lib/affiliate-click.ts`) : `quick_answer`, `picks`, `product_block`, `body_link`, `table`, `card`, `sticky_bar`, `comparator`, `quiz`, `black_friday`, `floor_care`, `market_page`, `category_catalog`, `coolblue_offer` |
 | `market` | le marché de la page : `fr`, `uk` (version anglaise), `de`, `es`, `it`, `nl`, `pl`, `se` (version suédoise), `us`, `ca` |
-| `store` | la boutique du lien : `amazon.fr`, ou `amazon.it` pour l'italien ; `coolblue.nl` pour une offre Coolblue (version néerlandaise) |
+| `store` | la boutique du lien : `amazon.fr`, ou `amazon.it` pour l'italien ; `coolblue.nl`, `coolblue.de` ou `coolblue.be` pour une offre Coolblue |
 | `tag` | l'identifiant de suivi du lien, celui des rapports Associates Central ; `awin-1255925` (compte éditeur Awin) pour Coolblue |
 | `surface` | l'ancienne dimension (`verdict`, `after-h2`, `bottom`, `sticky`…), seule présente dans les lignes d'avant le 01/11/2026 ; gardée pour comparer avant/après et pour séparer les blocs produit en milieu (`after-h2`) et en fin d'article (`bottom`) ; `null` pour les blocs qui n'en avaient pas (tableaux, cartes, comparateur, quiz) |
 
@@ -50,14 +50,23 @@ npx tsx scripts/analytics/affiliate-clicks.ts clicks.jsonl
 
 Vercel Web Analytics (onglet *Analytics* → *Events* → `click_affiliate`) ne reçoit que 2 propriétés sur le plan Pro : `placement` et `market` (raisons dans `VERCEL_PROPERTIES`, `lib/analytics.ts`). Le détail complet (modèle, page, boutique, identifiant de suivi) est dans les logs.
 
-## Offres Coolblue (version néerlandaise, via Awin)
+## Offres Coolblue (via Awin : `/nl`, `/de`, Belgique)
 
-Sur `/nl`, les choix et les cartes du catalogue des hubs affichent sous le bouton Amazon l'offre Coolblue du modèle exact (prix de Coolblue, avec sa date, et bouton « Bekijk bij Coolblue »), tirée des flux produits Awin de Coolblue NL (annonceur 85161, éditeur 1255925) : `lib/merchant-offers/`, composant `components/CoolblueOffer.tsx`.
+Les choix et les cartes du catalogue des hubs affichent sous le bouton Amazon l'offre Coolblue du modèle exact (prix de Coolblue, avec sa date, et bouton qui nomme la boutique), tirée des flux produits Awin du compte éditeur 1255925 : `lib/merchant-offers/`, composant `components/CoolblueOffer.tsx`. La table des boutiques est `lib/merchant-offers/merchants.ts` :
 
-- **Clé** : `AWIN_DATAFEED_KEY` (Vercel, *Production* et *Preview*), secrète, jamais écrite dans le code ni les logs. Sans elle, ou si Awin ne répond pas, aucune offre et la page reste identique (un avertissement `[merchant-offers]` dans les logs).
-- **Flux** : Keuken 95890, Huishouden en wonen 95892, Domotica 95897, Koffie 95834, Wasmachines en wasdrogers 95904, Tuin en Klussen 95886 ; lien de téléchargement lu dans la liste des flux (feedList), sinon construit au format Create-a-Feed. Relus toutes les 6 heures (`next.revalidate`), les pages `/nl` des hubs sont régénérées au même rythme.
-- **Correspondance** : marque exacte, tous les mots du modèle présents, aucun mot en plus sauf couleur, capacité ou référence ; deux produits possibles = aucune offre (`tests/lib/merchant-offers/match.test.ts`).
-- **Règles Coolblue** : Coolblue nommé avant le clic et « Home Nura is geen Coolblue », ni image ni texte du flux ou de coolblue.nl, ni code promo, cashback ou livraison gratuite mis en avant.
+| Boutique | Annonceur Awin | Flux | Pages | Visiteurs |
+| --- | --- | --- | --- | --- |
+| Coolblue NL (`coolblue.nl`) | 85161 | Full Feed 96636 | `/nl` | tous, sauf en Belgique |
+| Coolblue DE (`coolblue.de`) | 85171 | Full Feed DE 95921 | `/de` | tous |
+| Coolblue BE (`coolblue.be`) | 85165 | BE (NL) Full Feed 96638 | `/nl` | en Belgique seulement |
+| Coolblue BE (`coolblue.be`) | 85165 | BE (FR) Full Feed 96637 | `/fr` | en Belgique seulement |
+
+- **Clé** : `AWIN_DATAFEED_KEY` (Vercel, *Production* et *Preview*), une seule pour tous les programmes, secrète, jamais écrite dans le code ni les logs. Sans elle, ou si Awin ne répond pas, aucune offre et la page reste identique (un avertissement `[merchant-offers]` dans les logs).
+- **Flux** : téléchargement Create-a-Feed dans la langue du flux avec nos seules colonnes (flux complet léger), sinon le lien de la liste des flux (feedList). Nombre de produits et taille dans les logs (`[merchant-offers] coolblue-nl: … products (… KB)`, avec une mention au-delà des 2 Mo du cache fetch de Next : le flux reste alors en mémoire seulement). Relus toutes les 6 heures (`next.revalidate`), les pages des hubs qui affichent des offres sont régénérées au même rythme.
+- **Belgique sans page dynamique** : la page contient les offres de tous les visiteurs de sa langue ; le pays de connexion (cookie `hn_country` posé par `proxy.ts`, déjà utilisé pour la suggestion de version) est recopié avant l'affichage sur `<html data-hn-country>` par un petit script de `app/[lang]/layout.tsx`, et `app/globals.css` montre Coolblue BE (`data-offer-only="BE"`) aux seuls visiteurs en Belgique et cache Coolblue NL (`data-offer-except="BE"`) pour eux (`lib/merchant-offers/audience.ts`). Ni clignotement, ni décalage, ni cache CDN changé. Sans cookie : visiteur hors Belgique.
+- **Correspondance**, du plus sûr au moins sûr : EAN connu (`officialModel` de `data/product-images.json`), puis référence fabricant (« EP3347/90 », « SO6510 », « TRVZB ») du nom de la page, sinon de `officialModel` — le nom Coolblue peut ajouter des mots mais pas être un lot, un pack ou un accessoire —, puis nom exact : marque exacte, tous les mots du modèle, aucun mot en plus sauf couleur (néerlandais, allemand, français), capacité ou référence. Deux produits possibles = aucune offre (`tests/lib/merchant-offers/match.test.ts`, `reference-match.test.ts`, `de-be.test.ts`).
+- **Poids côté navigateur** : table des boutiques, flux, correspondance, textes et formats restent côté serveur (`import 'server-only'`) ; la page reçoit des offres déjà rédigées (`lib/merchant-offers/view.ts`) et le petit composant `components/CoolblueOffer.tsx` n'est chargé (`components/CoolblueOfferSlot.tsx`, `lazy`) que là où une offre existe (`tests/lib/merchant-offers/client-boundary.test.ts`).
+- **Règles Coolblue** (NL, DE, BE) : Coolblue nommé avant le clic (« Bekijk bij Coolblue », « Bei Coolblue ansehen », « Voir chez Coolblue (Belgique) ») et « Home Nura n'est pas Coolblue », ni image ni texte du flux ou du site Coolblue, ni code promo, cashback, livraison ou retours gratuits mis en avant.
 
 ## Liens de communication : toujours la version du pays
 

@@ -3,7 +3,7 @@
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { ProductPhoto } from '@/lib/product-photo'
 import AmazonDisclosure from './AmazonDisclosure'
-import CoolblueOffer from './CoolblueOffer'
+import CoolblueOfferSlot from './CoolblueOfferSlot'
 import type { CoolblueOffers } from '@/lib/merchant-offers/types'
 import PhotoCredits from './PhotoCredits'
 import ProductPhotoImage from './ProductPhotoImage'
@@ -41,7 +41,7 @@ const LABELS: Record<string, { title: string; button: string; disclosure: string
  * lines and the photo credits gather under the list, so the comparison
  * table below stays within the first two screens.
  *
- * `offers` (Dutch hubs): Coolblue's offer for a pick, shown under its
+ * `offers` (Dutch, German and French hubs): Coolblue's offers for a pick, shown under its
  * Amazon button when the Awin feeds have exactly that model.
  */
 export default function QuickAnswer({
@@ -65,7 +65,7 @@ export default function QuickAnswer({
   /** Legacy click surface (/api/click): the article verdict box unless the page says otherwise. */
   surface?: ClickSurface
   compact?: boolean
-  /** Coolblue offers keyed by pick model (lib/merchant-offers), Dutch pages only. */
+  /** Coolblue offers keyed by pick model (lib/merchant-offers): /nl, /de and /fr (Belgian visitors) only. */
   offers?: CoolblueOffers
 }) {
   if (picks.length === 0) return null
@@ -116,9 +116,7 @@ export default function QuickAnswer({
                 {labels.button} →
               </a>
               </div>
-              {offers?.[pick.model] && (
-                <CoolblueOffer offer={offers[pick.model]} model={pick.model} lang={lang} position={i + 1} className="mt-3" />
-              )}
+              <CoolblueOfferSlot offers={offers?.[pick.model]} model={pick.model} lang={lang} position={i + 1} className="mt-3" />
             </li>
           )
         })}
@@ -181,9 +179,7 @@ function CompactQuickAnswer({ question, picks, lang, kicker, placement, location
                 >
                   {labels.button} →
                 </a>
-                {offers?.[pick.model] && (
-                  <CoolblueOffer offer={offers[pick.model]} model={pick.model} lang={lang} position={i + 1} className="mt-2" />
-                )}
+                <CoolblueOfferSlot offers={offers?.[pick.model]} model={pick.model} lang={lang} position={i + 1} className="mt-2" />
               </div>
             </li>
           )

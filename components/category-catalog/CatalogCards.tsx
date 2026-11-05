@@ -3,13 +3,13 @@
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { CatalogEntry } from '@/lib/category-catalog/types'
 import type { CoolblueOffers } from '@/lib/merchant-offers/types'
-import CoolblueOffer from '../CoolblueOffer'
+import CoolblueOfferSlot from '../CoolblueOfferSlot'
 import ProductPhotoImage from '../ProductPhotoImage'
 import type { CatalogUi } from './ui'
 
 /**
  * The catalogue grid: one card per model, photo and button on the same
- * Amazon link; on Dutch hubs, Coolblue's offer under the button when the
+ * Amazon link; on Dutch, German and French hubs, Coolblue's offers under the button when the
  * Awin feeds have exactly that model.
  */
 export default function CatalogCards({
@@ -79,9 +79,7 @@ export default function CatalogCards({
               >
                 {ui.button} →
               </a>
-              {offers?.[entry.name] && (
-                <CoolblueOffer offer={offers[entry.name]} model={entry.name} lang={lang} position={i + 1} className="mt-3" />
-              )}
+              <CoolblueOfferSlot offers={offers?.[entry.name]} model={entry.name} lang={lang} position={i + 1} className="mt-3" />
             </div>
           </li>
         )

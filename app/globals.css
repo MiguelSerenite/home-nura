@@ -80,3 +80,19 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* Merchant offers for one country only (lib/merchant-offers/audience.ts):
+   <html data-hn-country> comes from the hn_country cookie (proxy.ts), set
+   by the inline script of app/[lang]/layout.tsx before the first paint.
+   Coolblue BE (Belgium only) shows to Belgian visitors, Coolblue NL to
+   everyone else. tests/lib/merchant-offers/audience.test.ts checks that
+   every gated country of the merchant table has its two rules here. */
+[data-offer-only] {
+  display: none;
+}
+html[data-hn-country="BE"] [data-offer-only="BE"] {
+  display: block;
+}
+html[data-hn-country="BE"] [data-offer-except~="BE"] {
+  display: none;
+}

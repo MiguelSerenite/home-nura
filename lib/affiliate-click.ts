@@ -10,7 +10,7 @@
  */
 import { AMAZON_MARKET_CODES, AMAZON_MARKETPLACES, AMAZON_MARKETS, AMAZON_TAGS, type AmazonMarketCode } from '@/lib/amazon'
 import { LANGUAGES, type Lang } from '@/lib/i18n'
-import { COOLBLUE_STORE, COOLBLUE_TAG, isCoolblueAwinLink } from '@/lib/merchant-offers/types'
+import { COOLBLUE_TAG, MERCHANT_STORES, langsOfStore, merchantStoreOf } from '@/lib/merchant-offers/types'
 
 /**
  * Which block of the page the affiliate link sits in: the dimension that
@@ -37,7 +37,8 @@ import { COOLBLUE_STORE, COOLBLUE_TAG, isCoolblueAwinLink } from '@/lib/merchant
  * - `category_catalog`: the hubs' "other models we compare" cards
  *   (lib/category-catalog);
  * - `coolblue_offer`: the Coolblue offer (Awin) shown under a model on the
- *   Dutch hubs, picks and catalogue cards (lib/merchant-offers).
+ *   Dutch, German and (Belgian visitors) French hubs, picks and catalogue
+ *   cards (lib/merchant-offers).
  */
 export const CLICK_PLACEMENTS = [
   'quick_answer',
@@ -82,14 +83,12 @@ export type ClickSurface = (typeof CLICK_SURFACES)[number]
 /**
  * Stores a link may point to: the Amazon stores of the market table in
  * lib/amazon.ts (amazon.it for Italian pages, amazon.fr elsewhere), and
- * Coolblue (through Awin) on Dutch pages. A beacon naming another store
- * does not come from the site.
+ * the Coolblue stores of the merchant table (lib/merchant-offers/merchants.ts,
+ * through Awin). A beacon naming another store does not come from the site.
  */
-export const CLICK_STORES: readonly string[] = [...AMAZON_MARKETPLACES, COOLBLUE_STORE]
+export const CLICK_STORES: readonly string[] = [...AMAZON_MARKETPLACES, ...MERCHANT_STORES]
 /** Tracking IDs of the market table, plus our Awin publisher account: any other tag does not come from the site. */
 export const CLICK_TAGS: readonly string[] = [...AMAZON_TAGS, COOLBLUE_TAG]
-/** Languages whose pages link to Coolblue. */
-export const COOLBLUE_LANGS: readonly Lang[] = ['nl']
 /** Market of each language version ("uk" for English pages, "se" for Swedish ones). */
 export const CLICK_MARKETS: readonly AmazonMarketCode[] = AMAZON_MARKET_CODES
 
@@ -105,7 +104,7 @@ export interface AffiliateClickBeacon {
   placement: ClickPlacement
   surface?: ClickSurface
   model: string
-  /** Store host the link points to ("amazon.fr", "amazon.it"). */
+  /** Store host the link points to ("amazon.fr", "amazon.it", "coolblue.de"…). */
   store: string
   /** Tracking ID on the link. */
   tag: string
@@ -152,14 +151,16 @@ function cleanModel(value: unknown): string | null {
 
 /**
  * Store of a URL the site links to: the Amazon host ("amazon.fr",
- * "amazon.it"), "coolblue.nl" for our Awin links to Coolblue, null for
- * anything else.
+ * "amazon.it"), the merchant's store ("coolblue.nl", "coolblue.de",
+ * "coolblue.be") for our Awin links, null for anything else (a direct
+ * merchant link included).
  */
 export function storeOf(url: string): string | null {
-  if (isCoolblueAwinLink(url)) return COOLBLUE_STORE
+  const merchantStore = merchantStoreOf(url)
+  if (merchantStore) return merchantStore
   try {
     const host = new URL(url).hostname.replace(/^www\./, '')
-    return host !== COOLBLUE_STORE && STORES.has(host) ? host : null
+    return !MERCHANT_STORES.includes(host) && STORES.has(host) ? host : null
   } catch {
     return null
   }
@@ -167,7 +168,7 @@ export function storeOf(url: string): string | null {
 
 /** Tracking ID of a link when it is one of the market table's (or our Awin account's), else null. */
 export function tagOf(url: string): string | null {
-  if (isCoolblueAwinLink(url)) return COOLBLUE_TAG
+  if (merchantStoreOf(url)) return COOLBLUE_TAG
   try {
     const tag = new URL(url).searchParams.get('tag')
     return tag !== null && TAGS.has(tag) ? tag : null
@@ -188,10 +189,10 @@ export function parseAffiliateClick(body: unknown): AffiliateClick | null {
   const clickSurface = surface === undefined ? null : isOneOf<ClickSurface>(surface, SURFACES) ? surface : undefined
   if (clickSurface === undefined) return null
   if (!isOneOf<string>(store, STORES) || !isOneOf<string>(tag, TAGS)) return null
-  // Coolblue clicks carry the Awin account and come from a Coolblue page; Amazon ones never do.
-  const isCoolblue = store === COOLBLUE_STORE
-  if (isCoolblue !== (tag === COOLBLUE_TAG)) return null
-  if (isCoolblue && !COOLBLUE_LANGS.includes(lang)) return null
+  // Merchant clicks carry the Awin account and come from a page showing that store; Amazon ones never do.
+  const isMerchant = MERCHANT_STORES.includes(store)
+  if (isMerchant !== (tag === COOLBLUE_TAG)) return null
+  if (isMerchant && !langsOfStore(store).includes(lang)) return null
   const modelName = cleanModel(model)
   if (modelName === null) return null
 

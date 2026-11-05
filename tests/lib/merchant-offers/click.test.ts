@@ -46,6 +46,30 @@ describe('Coolblue clicks', () => {
     expect(parseAffiliateClick(body)).toBeNull()
   })
 
+  it('reads coolblue.de and coolblue.be from their Awin links', () => {
+    expect(storeOf('https://www.awin1.com/pclick.php?p=1&a=1255925&m=85171')).toBe('coolblue.de')
+    expect(storeOf('https://www.awin1.com/cread.php?awinmid=85165&awinaffid=1255925&ued=x')).toBe('coolblue.be')
+    expect(tagOf('https://www.awin1.com/pclick.php?p=1&a=1255925&m=85165')).toBe('awin-1255925')
+    expect(storeOf('https://www.coolblue.de/produkt/1')).toBeNull()
+  })
+
+  it.each([
+    ['coolblue.de', 'de'],
+    ['coolblue.be', 'nl'],
+    ['coolblue.be', 'fr'],
+  ])('accepts a %s beacon from /%s', (store, lang) => {
+    expect(parseAffiliateClick({ ...coolblueClick, store, lang, path: `/${lang}/x` })).toMatchObject({ store, market: lang })
+  })
+
+  it.each([
+    ['coolblue.de', 'nl'],
+    ['coolblue.be', 'de'],
+    ['coolblue.nl', 'fr'],
+    ['coolblue.be', 'it'],
+  ])('rejects a %s beacon from /%s', (store, lang) => {
+    expect(parseAffiliateClick({ ...coolblueClick, store, lang, path: `/${lang}/x` })).toBeNull()
+  })
+
   it('sends the Coolblue store and Awin tag from trackAffiliateClick', () => {
     // @ts-expect-error minimal window
     globalThis.window = { location: { pathname: '/nl/confort-air/purificateurs-air' } }

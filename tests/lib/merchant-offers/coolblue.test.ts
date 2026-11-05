@@ -59,12 +59,13 @@ describe('Coolblue offers', () => {
     const offers = await coolblueOffersFor(['Levoit Core 300S', 'Philips Airfryer XXL', 'Roborock Q7 M5+'])
     expect(Object.keys(offers).sort()).toEqual(['Levoit Core 300S', 'Roborock Q7 M5+'])
     expect(offers['Levoit Core 300S']).toEqual({
+      merchant: 'coolblue-nl',
       url: 'https://www.awin1.com/pclick.php?p=1005&a=1255925&m=85161',
       price: 139.99,
       priceAt: '2026-11-02T05:12:33.000Z',
     })
-    // Feed list + one download per feed, each cached by Next for 6 hours.
-    expect(fetchMock).toHaveBeenCalledTimes(1 + COOLBLUE_FEED_IDS.length)
+    // One Create-a-Feed download per feed (the feed list only as a fallback), each cached by Next for 6 hours.
+    expect(fetchMock).toHaveBeenCalledTimes(COOLBLUE_FEED_IDS.length)
     for (const call of fetchMock.mock.calls) {
       expect(call[1]).toEqual({ next: { revalidate: 21600 } })
     }
@@ -75,7 +76,31 @@ describe('Coolblue offers', () => {
     const fetchMock = stubAwin()
     await coolblueOffersFor(['Levoit Core 300S'])
     await coolblueOfferFor({ brand: 'Roborock', model: 'Q7 M5' })
-    expect(fetchMock).toHaveBeenCalledTimes(1 + COOLBLUE_FEED_IDS.length)
+    expect(fetchMock).toHaveBeenCalledTimes(COOLBLUE_FEED_IDS.length)
+  })
+
+  it('falls back to the feed list link when the Create-a-Feed download fails', async () => {
+    vi.stubEnv(AWIN_KEY_ENV, KEY)
+    const listed = 'https://ui.awin.com/productdata-darwin-download/publisher/1255925/x/1/96636.csv.gz'
+    const fetchMock = vi.fn(async (input: string | URL | Request) => {
+      const url = String(input)
+      if (url.endsWith('/feedList')) return respond(`Advertiser ID,Feed ID,URL\n85161,96636,${listed}\n`)
+      if (url === listed) return respond(gzipSync(Buffer.from(FEED)))
+      return respond('nope', 500)
+    })
+    vi.stubGlobal('fetch', fetchMock)
+    expect(Object.keys(await coolblueOffersFor(['Levoit Core 300S']))).toEqual(['Levoit Core 300S'])
+    expect(fetchMock.mock.calls.map((c) => String(c[0]))).toHaveLength(3)
+  })
+
+  it('logs the product count and size, never the key', async () => {
+    vi.stubEnv(AWIN_KEY_ENV, KEY)
+    stubAwin()
+    const info = vi.spyOn(console, 'info').mockImplementation(() => {})
+    await coolblueOffersFor(['Levoit Core 300S'])
+    const line = info.mock.calls.map((c) => String(c[0])).join('\n')
+    expect(line).toMatch(/\[merchant-offers\] coolblue-nl: 18 products \(\d+ KB\)/)
+    expect(line).not.toContain(KEY)
   })
 
   it('never logs the key when Awin fails, and the page gets no offer', async () => {
@@ -91,11 +116,12 @@ describe('Coolblue offers', () => {
     expect(warnings().join('\n')).not.toContain(KEY)
   })
 
-  it('only fetches for Dutch pages', async () => {
+  it('only fetches for the locales of the merchant table', async () => {
     vi.stubEnv(AWIN_KEY_ENV, KEY)
     const fetchMock = stubAwin()
-    expect(await coolblueOffersForPage('fr', ['Levoit Core 300S'])).toEqual({})
-    expect(await coolblueOffersForPage('de', ['Levoit Core 300S'])).toEqual({})
+    for (const lang of ['en', 'it', 'es', 'pl', 'sv', 'us', 'ca'] as const) {
+      expect(await coolblueOffersForPage(lang, ['Levoit Core 300S'])).toEqual({})
+    }
     expect(fetchMock).not.toHaveBeenCalled()
     expect(Object.keys(await coolblueOffersForPage('nl', ['Levoit Core 300S']))).toEqual(['Levoit Core 300S'])
   })
