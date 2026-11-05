@@ -39,6 +39,8 @@ const IGNORED_WORDS = new Set([
   // Energiemessung", "Prise Connectée avec Suivi Conso"). "connectée"
   // only describes our French plugs, scales and bulbs; "connecté", like
   // "Connected" (Airfryer Combi XXL Connecté), names a variant and is not here.
+  // "Pan & Tilt" describes cameras sold under one code (Tapo C220); "Pan-Tilt" (one token) names a Ring model.
+  'pan', 'tilt',
   'connectee', 'im', 'kuchenwaage', 'kabelloses', 'fleischthermometer', 'bluetoothgrillthermometer', 'grosser', 'reichweite', 'sonden',
   'wlansteckdose', 'wlansteckdosen', 'energiemessung',
   'balance', 'cuisine', 'dietetique', 'thermometre', 'sans', 'fil', 'longue', 'portee', 'prise', 'prises', 'suivi', 'conso',
@@ -46,7 +48,9 @@ const IGNORED_WORDS = new Set([
 
 /**
  * Colour names of Coolblue's Dutch, German and French feeds (accents and
- * "ß" already folded): two colours of one product are the same model.
+ * "ß" already folded), and the English ones Coolblue keeps from brand names
+ * ("Dreame X50 Ultra Complete Black"): two colours of one product are the
+ * same model.
  */
 const COLOUR_WORDS = new Set([
   'zwart', 'wit', 'grijs', 'zilver', 'rood', 'blauw', 'groen', 'geel', 'roze', 'paars', 'beige', 'goud', 'brons',
@@ -55,6 +59,7 @@ const COLOUR_WORDS = new Set([
   'kupfer', 'anthrazit', 'edelstahl', 'chrom', 'mattschwarz', 'dunkelgrau', 'hellgrau', 'champagner',
   'noir', 'noire', 'blanc', 'blanche', 'gris', 'argent', 'rouge', 'bleu', 'vert', 'verte', 'jaune', 'rose', 'violet',
   'dore', 'cuivre', 'anthracite', 'inox', 'chrome',
+  'black', 'white', 'grey', 'gray', 'silver', 'red', 'blue', 'green', 'yellow', 'pink', 'purple', 'copper', 'cream',
 ])
 
 const MEASURE = /^\d+(?:\.\d+)?(?:l|ml|cl|kg|g|w|kw|kwh|wh|cm|mm|m2|m|lm|mah|db|btu|v|bar)$/

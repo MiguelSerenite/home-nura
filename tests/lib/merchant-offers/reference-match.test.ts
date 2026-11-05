@@ -58,6 +58,9 @@ describe('matching by reference code and EAN', () => {
     product('Sonoff', 'Sonoff TRVZB Zigbee radiatorknop', 39.99),
     product('Rowenta', 'Rowenta X-Force Flex 15.60 Animal RH99F1WO', 449),
     product('Philips Hue', 'Philips Hue White and Color Ambiance E27 losse lamp', 49.99, '8720169364066'),
+    product('Dreame', 'Dreame X50 Ultra Complete Black', 1199),
+    product('TP-Link', 'TP-Link Tapo C220 Pan & Tilt', 39.99),
+    product('Ring', 'Ring Pan-Tilt Indoor Camera', 59.99),
   ])
   const priceOf = (name: string, refs?: Parameters<typeof matchProductByName>[2]) => matchProductByName(index, name, refs)?.price ?? null
 
@@ -78,6 +81,12 @@ describe('matching by reference code and EAN', () => {
   it('uses the codes of our model data when the page name has none', () => {
     expect(priceOf('Rowenta X-Force Flex 15.60')).toBeNull()
     expect(priceOf('Rowenta X-Force Flex 15.60', { eans: [], codes: ['rh99f1wo'] })).toBe(449)
+  })
+
+  it('reads English colours and the "Pan & Tilt" descriptor of Coolblue names', () => {
+    expect(priceOf('Dreame X50 Ultra Complete')).toBe(1199)
+    expect(priceOf('TP-Link Tapo C220')).toBe(39.99)
+    expect(priceOf('Ring Indoor Camera')).toBeNull()
   })
 
   it('settles a match by EAN', () => {
