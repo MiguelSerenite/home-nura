@@ -244,7 +244,7 @@ export default async function CategoryHub({
   const catalogExclude = picks.map((p) => p.model)
   const offers = await coolblueOffersForPage(safeLang, [
     ...(answerFirst?.picks ?? picks).map((p) => p.model),
-    ...getCatalogEntries(category.slug, safeLang, catalogExclude).map((e) => e.name),
+    ...getCatalogEntries(category.slug, safeLang, catalogExclude).map((e) => ({ name: e.name, id: e.id })),
   ])
 
   // Phase JJJ: Article JSON-LD for Moteur 1 category hub pages.

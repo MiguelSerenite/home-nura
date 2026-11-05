@@ -15,6 +15,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, '.'),
+      // Server-only modules (lib/merchant-offers) load in the Node test runner.
+      'server-only': path.resolve(__dirname, 'node_modules/server-only/empty.js'),
     },
   },
 })

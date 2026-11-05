@@ -6,8 +6,8 @@ import {
   COUNTRY_ATTRIBUTE_SCRIPT,
   OFFER_EXCEPT_ATTRIBUTE,
   OFFER_ONLY_ATTRIBUTE,
-  audienceAttributes,
 } from '@/lib/merchant-offers/audience'
+import { offerView } from '@/lib/merchant-offers/view'
 import { GATED_COUNTRIES } from '@/lib/merchant-offers/merchants'
 
 const read = (path: string) => readFileSync(join(process.cwd(), path), 'utf8')
@@ -56,10 +56,20 @@ describe('country attribute script', () => {
 describe('offer visibility rules', () => {
   const css = read('app/globals.css').replace(/\s+/g, ' ')
 
-  it('marks country-only and country-excluded offers', () => {
-    expect(audienceAttributes({ kind: 'only', country: 'BE' })).toEqual({ [OFFER_ONLY_ATTRIBUTE]: 'BE' })
-    expect(audienceAttributes({ kind: 'except', countries: ['BE', 'LU'] })).toEqual({ [OFFER_EXCEPT_ATTRIBUTE]: 'BE LU' })
-    expect(audienceAttributes({ kind: 'all' })).toEqual({})
+  it('puts each merchant’s audience on the offer props', () => {
+    const view = (merchant: 'coolblue-nl' | 'coolblue-de' | 'coolblue-be-nl' | 'coolblue-be-fr') =>
+      offerView({ merchant, url: 'https://www.awin1.com/pclick.php?a=1255925&m=1', price: 1, priceAt: '2026-11-02T05:12:33Z' })
+    expect(view('coolblue-be-nl')).toMatchObject({ onlyCountry: 'BE' })
+    expect(view('coolblue-be-fr')).toMatchObject({ onlyCountry: 'BE' })
+    expect(view('coolblue-nl')).toMatchObject({ exceptCountries: 'BE' })
+    expect(view('coolblue-de')).not.toHaveProperty('onlyCountry')
+    expect(view('coolblue-de')).not.toHaveProperty('exceptCountries')
+  })
+
+  it('names the attributes the offer component writes', () => {
+    const component = read('components/CoolblueOffer.tsx')
+    expect(component).toContain(`${OFFER_ONLY_ATTRIBUTE}={offer.onlyCountry}`)
+    expect(component).toContain(`${OFFER_EXCEPT_ATTRIBUTE}={offer.exceptCountries}`)
   })
 
   it('hides country-only offers by default', () => {

@@ -6,14 +6,15 @@ import QuickAnswer from '@/components/QuickAnswer'
 import CatalogCards from '@/components/category-catalog/CatalogCards'
 import { CATALOG_UI } from '@/components/category-catalog/ui'
 import { formatEuroNl, formatPriceDateNl } from '@/lib/merchant-offers/format'
-import type { CoolblueOffer as Offer } from '@/lib/merchant-offers/types'
+import { offerView } from '@/lib/merchant-offers/view'
+import { renderHtml } from './render-html'
 
-const offer: Offer = {
+const offer = offerView({
   merchant: 'coolblue-nl',
   url: 'https://www.awin1.com/pclick.php?p=1005&a=1255925&m=85161',
   price: 139.99,
   priceAt: '2026-11-02T05:12:33.000Z',
-}
+})
 const picks = [
   { model: 'Levoit Core 300S', url: 'https://www.amazon.fr/dp/B0001?tag=homavisenl-21' },
   { model: 'Levoit Core 400S', url: 'https://www.amazon.fr/dp/B0002?tag=homavisenl-21' },
@@ -55,15 +56,15 @@ describe('CoolblueOffer', () => {
     expect(html.toLowerCase()).not.toMatch(/korting|kortingscode|coupon|cashback|gratis|bezorg|retour/)
   })
 
-  it('renders nothing outside the Dutch version', () => {
-    expect(renderToStaticMarkup(createElement(CoolblueOffer, { offers: [offer], model: 'Levoit Core 300S', lang: 'fr' }))).toBe('')
+  it('renders nothing without an offer', () => {
+    expect(renderToStaticMarkup(createElement(CoolblueOffer, { offers: [], model: 'Levoit Core 300S', lang: 'nl' }))).toBe('')
   })
 })
 
 describe('offers in the hub picks and catalogue cards', () => {
-  it('shows the offer under the matched pick only', () => {
+  it('shows the offer under the matched pick only', async () => {
     for (const compact of [false, true]) {
-      const html = renderToStaticMarkup(
+      const html = await renderHtml(
         createElement(QuickAnswer, { question, picks, lang: 'nl', placement: 'picks', compact, offers: { 'Levoit Core 300S': [offer] } }),
       )
       expect(coolblueAnchors(html)).toHaveLength(1)
@@ -71,19 +72,19 @@ describe('offers in the hub picks and catalogue cards', () => {
     }
   })
 
-  it('renders the picks as before without offers', () => {
-    const without = renderToStaticMarkup(createElement(QuickAnswer, { question, picks, lang: 'nl', placement: 'picks' }))
-    const empty = renderToStaticMarkup(createElement(QuickAnswer, { question, picks, lang: 'nl', placement: 'picks', offers: {} }))
+  it('renders the picks as before without offers', async () => {
+    const without = await renderHtml(createElement(QuickAnswer, { question, picks, lang: 'nl', placement: 'picks' }))
+    const empty = await renderHtml(createElement(QuickAnswer, { question, picks, lang: 'nl', placement: 'picks', offers: {} }))
     expect(without).not.toContain('Coolblue')
     expect(empty).toBe(without)
   })
 
-  it('adds the offer to a catalogue card', () => {
+  it('adds the offer to a catalogue card', async () => {
     const entries = [
       { id: 'levoit-core-300s', name: 'Levoit Core 300S', segment: 'mid' as const, bestFor: 'Slaapkamers', facts: ['CADR 240 m³/u'], url: picks[0].url },
       { id: 'levoit-core-400s', name: 'Levoit Core 400S', segment: 'mid' as const, bestFor: 'Woonkamers', facts: ['CADR 400 m³/u'], url: picks[1].url },
     ]
-    const withOffer = renderToStaticMarkup(createElement(CatalogCards, { entries, lang: 'nl', ui: CATALOG_UI.nl, offers: { 'Levoit Core 300S': [offer] } }))
+    const withOffer = await renderHtml(createElement(CatalogCards, { entries, lang: 'nl', ui: CATALOG_UI.nl, offers: { 'Levoit Core 300S': [offer] } }))
     expect(coolblueAnchors(withOffer)).toHaveLength(1)
     const without = renderToStaticMarkup(createElement(CatalogCards, { entries, lang: 'nl', ui: CATALOG_UI.nl }))
     expect(without).not.toContain('Coolblue')

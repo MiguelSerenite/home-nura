@@ -8,11 +8,12 @@ import CoolblueOffer from '@/components/CoolblueOffer'
 import QuickAnswer from '@/components/QuickAnswer'
 import { AWIN_KEY_ENV, __resetCoolblueFeedsForTests, coolblueOffersForPage } from '@/lib/merchant-offers/coolblue'
 import { formatEuro, formatPriceDate } from '@/lib/merchant-offers/format'
-import type { CoolblueOffer as Offer } from '@/lib/merchant-offers/types'
+import { offerView, type MerchantOffer } from '@/lib/merchant-offers/view'
+import { renderHtml } from './render-html'
 
 const fixture = (name: string) => readFileSync(join(process.cwd(), 'tests/fixtures/merchant-offers', name), 'utf8')
 const FEEDS: Record<string, string> = {
-  '95890': fixture('coolblue-feed.csv'), // Coolblue NL (Keuken)
+  '96636': fixture('coolblue-feed.csv'), // Coolblue NL full feed
   '95921': fixture('coolblue-de-feed.csv'), // Coolblue DE full feed
   '96638': fixture('coolblue-be-nl-feed.csv'), // Coolblue BE (NL)
   '96637': fixture('coolblue-be-fr-feed.csv'), // Coolblue BE (FR)
@@ -37,12 +38,8 @@ const anchors = (html: string) => [...html.matchAll(/<a [^>]*href="https:\/\/www
 const boxes = (html: string) => [...html.matchAll(/<div [^>]*data-merchant="coolblue"[^>]*>/g)].map((m) => m[0])
 
 const at = '2026-11-02T05:12:33.000Z'
-const offer = (merchant: Offer['merchant'], m: string, price = 139.99): Offer => ({
-  merchant,
-  url: `https://www.awin1.com/pclick.php?p=1&a=1255925&m=${m}`,
-  price,
-  priceAt: at,
-})
+const offer = (merchant: MerchantOffer['merchant'], m: string, price = 139.99) =>
+  offerView({ merchant, url: `https://www.awin1.com/pclick.php?p=1&a=1255925&m=${m}`, price, priceAt: at })
 const NL = offer('coolblue-nl', '85161')
 const DE = offer('coolblue-de', '85171', 129.99)
 const BE_NL = offer('coolblue-be-nl', '85165', 144.99)
@@ -75,9 +72,16 @@ describe('Coolblue DE and BE offers from the feeds', () => {
       'Philips Airfryer Combi XXL Connected - 8.3L',
       'TP-Link Tapo P115 WLAN-Steckdose mit Energiemessung',
     ])
-    expect(offers['Levoit Core 300S']).toEqual([
-      { merchant: 'coolblue-de', url: 'https://www.awin1.com/pclick.php?p=2003&a=1255925&m=85171', price: 129.99, priceAt: at },
-    ])
+    expect(offers['Levoit Core 300S']).toHaveLength(1)
+    expect(offers['Levoit Core 300S'][0]).toMatchObject({
+      merchant: 'coolblue-de',
+      store: 'coolblue.de',
+      url: 'https://www.awin1.com/pclick.php?p=2003&a=1255925&m=85171',
+      price: 129.99,
+      priceText: '129,99\u00a0€',
+      button: 'Bei Coolblue ansehen',
+    })
+    expect(offers['Levoit Core 300S'][0].onlyCountry).toBeUndefined()
     expect(offers['Philips Airfryer Combi XXL Connected - 8.3L'][0].price).toBe(279)
     // "Q7 M5+" is another product; a Coolblue NL link in the DE feed is dropped.
     expect(offers['Roborock Q7 M5']).toBeUndefined()
@@ -177,18 +181,12 @@ describe('German offer box', () => {
     expect(boxes(html)[0]).toContain('data-store="coolblue.de"')
   })
 
-  it('never renders another locale’s merchant', () => {
-    expect(renderToStaticMarkup(createElement(CoolblueOffer, { offers: [NL, BE_NL, BE_FR], model: 'x', lang: 'de' }))).toBe('')
-    expect(renderToStaticMarkup(createElement(CoolblueOffer, { offers: [DE], model: 'x', lang: 'nl' }))).toBe('')
-    expect(renderToStaticMarkup(createElement(CoolblueOffer, { offers: [DE, BE_FR], model: 'x', lang: 'it' }))).toBe('')
-  })
-
-  it('sits under the matched pick of a German hub', () => {
+  it('sits under the matched pick of a German hub', async () => {
     const picks = [
       { model: 'Levoit Core 300S', url: 'https://www.amazon.fr/dp/B0001?tag=homavisede-21' },
       { model: 'Levoit Core 400S', url: 'https://www.amazon.fr/dp/B0002?tag=homavisede-21' },
     ]
-    const page = renderToStaticMarkup(
+    const page = await renderHtml(
       createElement(QuickAnswer, { question: 'Welcher Luftreiniger?', picks, lang: 'de', placement: 'picks', compact: true, offers: { 'Levoit Core 300S': [DE] } }),
     )
     expect(anchors(page)).toHaveLength(1)
@@ -222,8 +220,5 @@ describe('Belgian offers', () => {
     expect(html).toContain('coolblue.be')
     expect(html).toContain('commission')
     expect(html.toLowerCase()).not.toMatch(/code promo|réduction|coupon|cashback|gratuit|livraison|retour/)
-    // The Dutch BE offer never shows on /fr, nor the French one on /nl.
-    expect(renderToStaticMarkup(createElement(CoolblueOffer, { offers: [BE_NL], model: 'x', lang: 'fr' }))).toBe('')
-    expect(renderToStaticMarkup(createElement(CoolblueOffer, { offers: [BE_FR], model: 'x', lang: 'nl' }))).toBe('')
   })
 })

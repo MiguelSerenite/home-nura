@@ -1,6 +1,7 @@
 /**
  * The merchants whose offers show next to the Amazon links, all through
- * Home Nura's Awin publisher account (1255925). Client-safe: no Node import.
+ * Home Nura's Awin publisher account (1255925). Server-only: the browser
+ * gets finished offer props (./view.ts) and the store constants of ./types.ts.
  *
  * Each row names one Awin programme: its advertiser ID (the `m` / `awinmid`
  * of every tracked link), the feeds we read, the store a click is logged
@@ -12,6 +13,7 @@
  * neither); no coupon, cashback or standard proposition (free delivery,
  * returns) used as an incentive.
  */
+import 'server-only'
 import type { Lang } from '@/lib/i18n'
 
 /** Who sees a merchant's offers, from the visitor's IP country (hn_country, set by proxy.ts). */
@@ -46,15 +48,9 @@ export const MERCHANTS: readonly Merchant[] = [
   {
     id: 'coolblue-nl',
     advertiserId: '85161',
-    // The full feed 96636 (17,368 products) is left out: these six hold every model we compare.
-    feedIds: [
-      '95890', // Keuken
-      '95892', // Huishouden en wonen
-      '95897', // Domotica
-      '95834', // Koffie
-      '95904', // Wasmachines en wasdrogers
-      '95886', // Tuin en Klussen
-    ],
+    // Full feed (17,368 products): the category feeds 95890, 95892, 95897, 95834,
+    // 95904 and 95886 missed most of the models we compare.
+    feedIds: ['96636'],
     feedLanguage: 'nl',
     store: 'coolblue.nl',
     label: 'Coolblue',
@@ -105,19 +101,6 @@ export function merchantById(id: MerchantId): Merchant {
 /** Merchants shown on pages of `lang`, in table order. */
 export function merchantsForLang(lang: string): Merchant[] {
   return MERCHANTS.filter((m) => (m.langs as readonly string[]).includes(lang))
-}
-
-/** Store hosts of the table (each once). */
-export const MERCHANT_STORES: readonly string[] = [...new Set(MERCHANTS.map((m) => m.store))]
-
-/** Locales whose pages link to `store`, or none for a store outside the table. */
-export function langsOfStore(store: string): Lang[] {
-  return [...new Set(MERCHANTS.filter((m) => m.store === store).flatMap((m) => m.langs))]
-}
-
-/** Store host of an Awin advertiser of the table, or null. */
-export function storeOfAdvertiser(advertiserId: string): string | null {
-  return MERCHANTS.find((m) => m.advertiserId === advertiserId)?.store ?? null
 }
 
 /** Whether a visitor from `country` (null: unknown) sees the offers of this audience. */

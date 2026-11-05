@@ -27,8 +27,7 @@ import {
   type ClickSurface,
 } from '@/lib/affiliate-click'
 import { resolveLang } from '@/lib/i18n'
-import { MERCHANT_STORES } from '@/lib/merchant-offers/merchants'
-import { COOLBLUE_TAG } from '@/lib/merchant-offers/types'
+import { COOLBLUE_TAG, MERCHANT_STORES } from '@/lib/merchant-offers/types'
 
 export const EVENTS = {
   CLICK_AFFILIATE: 'click_affiliate',

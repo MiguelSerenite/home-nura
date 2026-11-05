@@ -1,10 +1,11 @@
 /**
  * Words of each merchant's offer box, in the language of the pages that
- * show it (client-safe). Coolblue's terms: the store is named before the
+ * show it (server-only: lib/merchant-offers/view.ts words the offer props). Coolblue's terms: the store is named before the
  * click ("Bekijk bij Coolblue", "Bei Coolblue ansehen", "Voir chez Coolblue
  * (Belgique)"), the box says Home Nura is not Coolblue and earns a
  * commission, and no coupon, cashback, delivery or returns promise.
  */
+import 'server-only'
 import type { OfferLocale } from './format'
 import type { MerchantId } from './merchants'
 

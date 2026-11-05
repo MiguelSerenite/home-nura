@@ -6,6 +6,7 @@
  * The download key (AWIN_DATAFEED_KEY) is a secret: it only ever goes into
  * the URLs built here and is never logged (redactKey).
  */
+import 'server-only'
 import { parseCsvRecords } from './csv'
 import { merchantById, type Merchant } from './merchants'
 import { AWIN_PUBLISHER_ID, isCoolblueAwinLink } from './types'
@@ -37,8 +38,9 @@ export function feedListUrl(key: string): string {
 
 /**
  * Create-a-Feed download URL of one feed: products in the feed's language
- * (Dutch by default), our columns, comma-separated CSV, gzip. Used when the
- * feed list has no download link for the feed (or cannot be read).
+ * (Dutch by default), our columns, comma-separated CSV, gzip. Tried
+ * first: only our columns keep a full feed small (the feed list's own link,
+ * read when this one fails, may carry every column).
  */
 export function createAFeedUrl(key: string, feedId: string, language: Merchant['feedLanguage'] = 'nl'): string {
   return [
@@ -88,14 +90,6 @@ export function parseFeedList(text: string): FeedListEntry[] {
         lastImported: columnOf(record, /^last\s*imported$/i) || null,
       },
     ]
-  })
-}
-
-/** Download URL of each feed of a merchant (Coolblue NL by default): the feed list's own link, else the Create-a-Feed one. */
-export function coolblueFeedUrls(key: string, feedList: readonly FeedListEntry[], merchant: Merchant = COOLBLUE_NL): string[] {
-  return merchant.feedIds.map((feedId) => {
-    const entry = feedList.find((e) => e.feedId === feedId && e.advertiserId === merchant.advertiserId)
-    return entry?.url ?? createAFeedUrl(key, feedId, merchant.feedLanguage)
   })
 }
 

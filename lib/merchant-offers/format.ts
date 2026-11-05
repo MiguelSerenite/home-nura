@@ -1,8 +1,9 @@
 /**
- * Display of a merchant offer's price and price date (client-safe),
- * formatted by hand so the server and the browser print exactly the same
- * text: Dutch (Coolblue NL and BE on /nl), German (/de), French (/fr).
+ * Display of a merchant offer's price and price date (server-only: the
+ * page gets the finished text, lib/merchant-offers/view.ts), formatted by
+ * hand so every render prints exactly the same text: Dutch (Coolblue NL and BE on /nl), German (/de), French (/fr).
  */
+import 'server-only'
 
 export type OfferLocale = 'nl' | 'de' | 'fr'
 

@@ -3,7 +3,7 @@
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { CatalogEntry } from '@/lib/category-catalog/types'
 import type { CoolblueOffers } from '@/lib/merchant-offers/types'
-import CoolblueOffer from '../CoolblueOffer'
+import CoolblueOfferSlot from '../CoolblueOfferSlot'
 import ProductPhotoImage from '../ProductPhotoImage'
 import type { CatalogUi } from './ui'
 
@@ -79,9 +79,7 @@ export default function CatalogCards({
               >
                 {ui.button} →
               </a>
-              {offers?.[entry.name] && (
-                <CoolblueOffer offers={offers[entry.name]} model={entry.name} lang={lang} position={i + 1} className="mt-3" />
-              )}
+              <CoolblueOfferSlot offers={offers?.[entry.name]} model={entry.name} lang={lang} position={i + 1} className="mt-3" />
             </div>
           </li>
         )

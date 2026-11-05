@@ -3,7 +3,7 @@
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { ProductPhoto } from '@/lib/product-photo'
 import AmazonDisclosure from './AmazonDisclosure'
-import CoolblueOffer from './CoolblueOffer'
+import CoolblueOfferSlot from './CoolblueOfferSlot'
 import type { CoolblueOffers } from '@/lib/merchant-offers/types'
 import PhotoCredits from './PhotoCredits'
 import ProductPhotoImage from './ProductPhotoImage'
@@ -116,9 +116,7 @@ export default function QuickAnswer({
                 {labels.button} →
               </a>
               </div>
-              {offers?.[pick.model] && (
-                <CoolblueOffer offers={offers[pick.model]} model={pick.model} lang={lang} position={i + 1} className="mt-3" />
-              )}
+              <CoolblueOfferSlot offers={offers?.[pick.model]} model={pick.model} lang={lang} position={i + 1} className="mt-3" />
             </li>
           )
         })}
@@ -181,9 +179,7 @@ function CompactQuickAnswer({ question, picks, lang, kicker, placement, location
                 >
                   {labels.button} →
                 </a>
-                {offers?.[pick.model] && (
-                  <CoolblueOffer offers={offers[pick.model]} model={pick.model} lang={lang} position={i + 1} className="mt-2" />
-                )}
+                <CoolblueOfferSlot offers={offers?.[pick.model]} model={pick.model} lang={lang} position={i + 1} className="mt-2" />
               </div>
             </li>
           )

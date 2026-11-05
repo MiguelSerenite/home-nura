@@ -15,10 +15,11 @@
  * (no JavaScript, local development) a visitor counts as outside every
  * gated country: Coolblue NL on /nl, no Coolblue BE anywhere.
  *
- * Client-safe: no Node import.
+ * Server-only: lib/merchant-offers/view.ts puts the audience on the offer
+ * props, components/CoolblueOffer.tsx writes the attributes.
  */
+import 'server-only'
 import { COUNTRY_COOKIE } from '@/lib/i18n'
-import type { Audience } from './merchants'
 
 /** Attribute of <html> holding the visitor's country. */
 export const COUNTRY_ATTRIBUTE = 'data-hn-country'
@@ -26,13 +27,6 @@ export const COUNTRY_ATTRIBUTE = 'data-hn-country'
 export const OFFER_ONLY_ATTRIBUTE = 'data-offer-only'
 /** Attribute of an offer hidden in some countries (space-separated). */
 export const OFFER_EXCEPT_ATTRIBUTE = 'data-offer-except'
-
-/** Data attributes of an offer box for its merchant's audience (none when every visitor sees it). */
-export function audienceAttributes(audience: Audience): Readonly<Record<string, string>> {
-  if (audience.kind === 'only') return { [OFFER_ONLY_ATTRIBUTE]: audience.country }
-  if (audience.kind === 'except') return { [OFFER_EXCEPT_ATTRIBUTE]: audience.countries.join(' ') }
-  return {}
-}
 
 /**
  * The inline <head> script: hn_country (two letters) → <html data-hn-country>.

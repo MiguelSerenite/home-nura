@@ -17,8 +17,10 @@
  * is offered. Tokens come from lib/blog/model-match normalizeTokens (case,
  * accents, punctuation, regional suffixes such as "/90").
  */
+import 'server-only'
 import { normalizeTokens } from '@/lib/blog/model-match'
 import { normalizeEan, type FeedProduct } from './feed'
+import { isBundleName, referenceCodes } from './reference-codes'
 
 /**
  * Words that never tell two products apart: fillers (English, Dutch,
@@ -85,6 +87,10 @@ interface IndexedProduct {
   tokens: ReadonlySet<string>
   /** Same, sorted: two products with one signature differ by colour only. */
   signature: string
+  /** Manufacturer reference codes in its name (./reference-codes.ts). */
+  codes: ReadonlySet<string>
+  /** A bundle, set or multipack: never offered on a reference code alone. */
+  bundle: boolean
 }
 
 export interface OfferIndex {
@@ -105,8 +111,17 @@ export function buildOfferIndex(products: readonly FeedProduct[]): OfferIndex {
     if (!key) continue
     const brandTokens = new Set(normalizeTokens(product.brand))
     const tokens = distinctive(nameTokens(product.name)).filter((t) => !brandTokens.has(t) && t !== key)
-    const indexed = { product, tokens: new Set(tokens), signature: [...new Set(tokens)].sort().join(' ') }
-    byBrand.set(key, [...(byBrand.get(key) ?? []), indexed])
+    const indexed: IndexedProduct = {
+      product,
+      tokens: new Set(tokens),
+      signature: [...new Set(tokens)].sort().join(' '),
+      codes: new Set(referenceCodes(product.name, { lettersOnly: true })),
+      bundle: isBundleName(product.name),
+    }
+    // Built in place: a full feed holds thousands of products per brand.
+    const list = byBrand.get(key)
+    if (list) list.push(indexed)
+    else byBrand.set(key, [indexed])
     if (product.ean) byEan.set(product.ean, product)
   }
   return { byBrand, byEan }
@@ -164,6 +179,22 @@ export function matchProduct(index: OfferIndex, query: ModelQuery): FeedProduct 
   return matches.reduce((best, m) => (m.product.price < best.product.price ? m : best)).product
 }
 
+/** The one product of the brand whose name carries one of `codes`, or null (none, or two different ones). */
+export function matchProductByCode(index: OfferIndex, brand: string, codes: readonly string[]): FeedProduct | null {
+  const candidates = index.byBrand.get(brandKey(brand))
+  if (!candidates || codes.length === 0) return null
+  const matches = candidates.filter((c) => !c.bundle && codes.some((code) => c.codes.has(code)))
+  if (matches.length === 0 || new Set(matches.map((m) => m.signature)).size > 1) return null
+  return matches.reduce((best, m) => (m.product.price < best.product.price ? m : best)).product
+}
+
+/** What our data knows of a model besides its name (lib/merchant-offers/references.ts). */
+export interface ModelReferences {
+  eans: readonly string[]
+  /** Reference codes of our model data, used when the page name carries none. */
+  codes: readonly string[]
+}
+
 /** Brand keys of the index that start `name` (1 to 3 tokens), longest first. */
 function brandPrefixes(index: OfferIndex, tokens: readonly string[]): number[] {
   const lengths: number[] = []
@@ -175,15 +206,32 @@ function brandPrefixes(index: OfferIndex, tokens: readonly string[]): number[] {
 
 /**
  * Match for a full model name as the page shows it ("Philips Hue White
- * and Color Ambiance E27"): the brand is the name's first tokens that are a
- * feed brand. When two brand readings ("Philips" / "Philips Hue") give two
- * different products, there is no match.
+ * and Color Ambiance E27"), most certain first:
+ *
+ * 1. an EAN our data has for the model;
+ * 2. a reference code ("EP3347/90", "SO6510", "TRVZB" when it is the whole
+ *    model): the page name's own codes, else those of our model data; the
+ *    feed name may add words but not make it a bundle, and two different
+ *    products carrying the code mean no match;
+ * 3. the exact name match (matchProduct).
+ *
+ * The brand is the name's first tokens that are a feed brand. When two
+ * brand readings ("Philips" / "Philips Hue") give two different products,
+ * there is no match.
  */
-export function matchProductByName(index: OfferIndex, name: string): FeedProduct | null {
+export function matchProductByName(index: OfferIndex, name: string, refs?: ModelReferences): FeedProduct | null {
+  for (const ean of refs?.eans ?? []) {
+    const product = index.byEan.get(ean)
+    if (product) return product
+  }
   const tokens = nameTokens(name)
   const found = new Set<FeedProduct>()
   for (const n of brandPrefixes(index, tokens)) {
-    const product = matchProduct(index, { brand: tokens.slice(0, n).join(''), model: tokens.slice(n).join(' ') })
+    const brand = tokens.slice(0, n).join('')
+    const model = tokens.slice(n)
+    const ownCodes = referenceCodes(name, { lettersOnly: model.length === 1 })
+    const codes = ownCodes.length > 0 ? ownCodes : (refs?.codes ?? [])
+    const product = matchProductByCode(index, brand, codes) ?? matchProduct(index, { brand, model: model.join(' ') })
     if (product) found.add(product)
   }
   return found.size === 1 ? [...found][0] : null

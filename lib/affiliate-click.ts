@@ -10,8 +10,7 @@
  */
 import { AMAZON_MARKET_CODES, AMAZON_MARKETPLACES, AMAZON_MARKETS, AMAZON_TAGS, type AmazonMarketCode } from '@/lib/amazon'
 import { LANGUAGES, type Lang } from '@/lib/i18n'
-import { MERCHANT_STORES, langsOfStore } from '@/lib/merchant-offers/merchants'
-import { COOLBLUE_TAG, merchantStoreOf } from '@/lib/merchant-offers/types'
+import { COOLBLUE_TAG, MERCHANT_STORES, langsOfStore, merchantStoreOf } from '@/lib/merchant-offers/types'
 
 /**
  * Which block of the page the affiliate link sits in: the dimension that

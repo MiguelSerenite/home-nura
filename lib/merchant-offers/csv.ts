@@ -4,6 +4,7 @@
  * BOM, and the delimiter Create-a-Feed lets the publisher choose
  * (comma, pipe, tab or semicolon), detected from the header line.
  */
+import 'server-only'
 
 const DELIMITERS = [',', '|', '\t', ';'] as const
 

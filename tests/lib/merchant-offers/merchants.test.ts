@@ -1,22 +1,22 @@
 import { describe, it, expect } from 'vitest'
+import { GATED_COUNTRIES, MERCHANTS, audienceIncludes, merchantById, merchantsForLang } from '@/lib/merchant-offers/merchants'
+import { COOLBLUE_FEED_IDS, createAFeedUrl } from '@/lib/merchant-offers/feed'
 import {
-  GATED_COUNTRIES,
-  MERCHANTS,
+  ADVERTISER_STORES,
+  COOLBLUE_AWIN_ADVERTISER_ID,
+  COOLBLUE_STORE,
   MERCHANT_STORES,
-  audienceIncludes,
+  STORE_LANGS,
+  isCoolblueAwinLink,
   langsOfStore,
-  merchantById,
-  merchantsForLang,
-  storeOfAdvertiser,
-} from '@/lib/merchant-offers/merchants'
-import { COOLBLUE_FEED_IDS, coolblueFeedUrls, createAFeedUrl } from '@/lib/merchant-offers/feed'
-import { COOLBLUE_AWIN_ADVERTISER_ID, COOLBLUE_STORE, isCoolblueAwinLink, merchantStoreOf } from '@/lib/merchant-offers/types'
+  merchantStoreOf,
+} from '@/lib/merchant-offers/types'
 import { LANGUAGES } from '@/lib/i18n'
 
 describe('merchant table', () => {
   it('lists Coolblue NL, DE and BE (Dutch and French feeds) with their Awin programmes', () => {
     expect(MERCHANTS.map((m) => [m.id, m.advertiserId, m.feedIds, m.feedLanguage, m.store, m.langs])).toEqual([
-      ['coolblue-nl', '85161', ['95890', '95892', '95897', '95834', '95904', '95886'], 'nl', 'coolblue.nl', ['nl']],
+      ['coolblue-nl', '85161', ['96636'], 'nl', 'coolblue.nl', ['nl']],
       ['coolblue-de', '85171', ['95921'], 'de', 'coolblue.de', ['de']],
       ['coolblue-be-nl', '85165', ['96638'], 'nl', 'coolblue.be', ['nl']],
       ['coolblue-be-fr', '85165', ['96637'], 'fr', 'coolblue.be', ['fr']],
@@ -25,11 +25,17 @@ describe('merchant table', () => {
     expect(MERCHANTS.every((m) => m.langs.every((lang) => (LANGUAGES as readonly string[]).includes(lang)))).toBe(true)
   })
 
-  it('keeps Coolblue NL as before #80 defined it', () => {
+  it('keeps Coolblue NL’s programme, store and audience, now on its full feed', () => {
     expect(COOLBLUE_AWIN_ADVERTISER_ID).toBe('85161')
     expect(COOLBLUE_STORE).toBe('coolblue.nl')
-    expect(COOLBLUE_FEED_IDS).toEqual(merchantById('coolblue-nl').feedIds)
-    expect(coolblueFeedUrls('K', [])).toEqual(COOLBLUE_FEED_IDS.map((id) => createAFeedUrl('K', id)))
+    expect(COOLBLUE_FEED_IDS).toEqual(['96636'])
+  })
+
+  it('mirrors the table in the client-safe store constants', () => {
+    expect(ADVERTISER_STORES).toEqual(Object.fromEntries(MERCHANTS.map((m) => [m.advertiserId, m.store])))
+    const langs = (store: string) => [...new Set(MERCHANTS.filter((m) => m.store === store).flatMap((m) => m.langs))]
+    expect(STORE_LANGS).toEqual(Object.fromEntries(MERCHANT_STORES.map((store) => [store, langs(store)])))
+    expect(new Set(MERCHANT_STORES)).toEqual(new Set(MERCHANTS.map((m) => m.store)))
   })
 
   it('names the store of every offer before the click', () => {
@@ -65,8 +71,6 @@ describe('merchant table', () => {
     expect(langsOfStore('coolblue.be')).toEqual(['nl', 'fr'])
     expect(langsOfStore('coolblue.de')).toEqual(['de'])
     expect(langsOfStore('amazon.fr')).toEqual([])
-    expect(storeOfAdvertiser('85171')).toBe('coolblue.de')
-    expect(storeOfAdvertiser('1')).toBeNull()
   })
 
   it('accepts our Awin links to each merchant, and only to the advertiser asked for', () => {
@@ -82,12 +86,9 @@ describe('merchant table', () => {
     expect(merchantStoreOf('https://www.awin1.com/pclick.php?p=1&a=42&m=85171')).toBeNull()
   })
 
-  it('downloads each merchant feed in its own language', () => {
-    expect(coolblueFeedUrls('K', [], merchantById('coolblue-de'))).toEqual([createAFeedUrl('K', '95921', 'de')])
+  it('downloads each merchant feed in its own language, with our columns only', () => {
+    expect(createAFeedUrl('K', '95921', 'de')).toContain('/language/de/fid/95921/columns/aw_deep_link,product_name,brand_name,search_price,')
     expect(createAFeedUrl('K', '96637', 'fr')).toContain('/language/fr/fid/96637/')
-    const list = [{ feedId: '96638', advertiserId: '85165', url: 'https://ui.awin.com/x/96638.csv.gz', lastImported: null }]
-    expect(coolblueFeedUrls('K', list, merchantById('coolblue-be-nl'))).toEqual(['https://ui.awin.com/x/96638.csv.gz'])
-    // The same feed ID under another advertiser is not the merchant's feed.
-    expect(coolblueFeedUrls('K', [{ ...list[0], advertiserId: '85161' }], merchantById('coolblue-be-nl'))).toEqual([createAFeedUrl('K', '96638', 'nl')])
+    expect(createAFeedUrl('K', '96636')).toContain('/language/nl/fid/96636/')
   })
 })

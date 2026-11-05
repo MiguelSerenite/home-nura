@@ -3,8 +3,6 @@ import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { parseCsvRows } from '@/lib/merchant-offers/csv'
 import {
-  COOLBLUE_FEED_IDS,
-  coolblueFeedUrls,
   createAFeedUrl,
   feedListUrl,
   normalizeEan,
@@ -105,14 +103,11 @@ describe('feed URLs', () => {
     expect(url).not.toContain('merchant_image_url')
   })
 
-  it('uses the feed list link of each Coolblue feed, else the Create-a-Feed one', () => {
+  it('reads the feed list rows', () => {
     const list = parseFeedList(fixture('feed-list.csv'))
     expect(list.map((e) => e.feedId)).toEqual(['95890', '95892', '11111'])
-    const urls = coolblueFeedUrls('TESTKEY', list)
-    expect(urls).toHaveLength(COOLBLUE_FEED_IDS.length)
-    expect(urls[0]).toBe('https://ui.awin.com/productdata-darwin-download/publisher/1255925/TESTKEY/1/95890.csv.gz')
-    expect(urls[1]).toBe(createAFeedUrl('TESTKEY', '95892'))
-    expect(urls.some((u) => u.includes('11111'))).toBe(false)
+    expect(list[0].url).toBe('https://ui.awin.com/productdata-darwin-download/publisher/1255925/TESTKEY/1/95890.csv.gz')
+    expect(list[1].url).toBeNull()
   })
 
   it('masks the key in log text', () => {
