@@ -12,7 +12,7 @@
 import 'server-only'
 import { gunzipSync } from 'node:zlib'
 import { createAFeedUrl, feedListUrl, parseCoolblueFeed, parseFeedList, redactKey, type FeedListEntry, type FeedProduct } from './feed'
-import { buildOfferIndex, matchProduct, matchProductByName, type ModelQuery, type OfferIndex } from './match'
+import { buildOfferIndex, closestProductName, matchProduct, matchProductByName, type ModelQuery, type OfferIndex } from './match'
 import { merchantById, merchantsForLang, type Merchant, type MerchantId } from './merchants'
 import { modelReferences, type ModelRef } from './references'
 import type { CoolblueOffer, CoolblueOffers } from './types'
@@ -157,6 +157,23 @@ export async function coolblueOfferFor(query: ModelQuery, merchantId: MerchantId
 
 const asRef = (model: string | ModelRef): ModelRef => (typeof model === 'string' ? { name: model } : model)
 
+/** Models already reported without an offer (one build log line each). */
+const reportedMisses = new Set<string>()
+
+/**
+ * During `next build` only: a model whose brand the merchant sells but that
+ * got no offer, with the closest feed name, to tune the matcher from the
+ * build log. Product names only.
+ */
+function reportMiss(merchant: Merchant, index: OfferIndex, name: string): void {
+  if (process.env.NEXT_PHASE !== 'phase-production-build') return
+  const key = `${merchant.id}|${name}`
+  if (reportedMisses.has(key)) return
+  reportedMisses.add(key)
+  const closest = closestProductName(index, name)
+  if (closest) console.info(`[merchant-offers] ${merchant.id} no offer: "${name}" ~ "${closest}"`)
+}
+
 /**
  * One merchant's offers (Coolblue NL by default) for the models a page
  * shows ("Philips Hue White and Color Ambiance E27", or with its catalogue
@@ -176,6 +193,7 @@ export async function coolblueOffersFor(
     const entries = [...byName.values()].flatMap((model) => {
       const name = model.name
       const product = matchProductByName(loaded.index, name, modelReferences(model))
+      if (!product) reportMiss(merchant, loaded.index, name)
       return product ? [[name, toOffer(merchant, product, loaded.fetchedAt)] as const] : []
     })
     return Object.fromEntries(entries)

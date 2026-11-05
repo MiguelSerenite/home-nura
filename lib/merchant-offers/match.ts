@@ -195,6 +195,23 @@ export interface ModelReferences {
   codes: readonly string[]
 }
 
+/**
+ * For the build log of models without an offer: the feed product of the
+ * model's brand sharing the most words with it, or null (brand not sold).
+ */
+export function closestProductName(index: OfferIndex, name: string): string | null {
+  const tokens = nameTokens(name)
+  let best: { name: string; shared: number } | null = null
+  for (const n of brandPrefixes(index, tokens)) {
+    const wanted = new Set(distinctive(tokens.slice(n)))
+    for (const c of index.byBrand.get(tokens.slice(0, n).join('')) ?? []) {
+      const shared = [...c.tokens].filter((t) => wanted.has(t)).length
+      if (shared > 0 && (!best || shared > best.shared)) best = { name: c.product.name, shared }
+    }
+  }
+  return best?.name ?? null
+}
+
 /** Brand keys of the index that start `name` (1 to 3 tokens), longest first. */
 function brandPrefixes(index: OfferIndex, tokens: readonly string[]): number[] {
   const lengths: number[] = []
