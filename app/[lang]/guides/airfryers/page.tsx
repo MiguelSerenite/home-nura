@@ -13,6 +13,8 @@ import MarketPagesHubList from '@/components/market-pages/HubList'
 import { getCategory } from '@/lib/catalog'
 import AffiliateLink from '@/components/AffiliateLink'
 import CookieBanner from '@/components/CookieBanner'
+import CoolblueOfferSlot from '@/components/CoolblueOfferSlot'
+import { coolblueOffersForPage } from '@/lib/merchant-offers/coolblue'
 import { getStaticProducts } from '@/lib/products'
 import { productKicker } from '@/lib/product-types'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO, buildPageMetadata } from '@/lib/seo'
@@ -820,6 +822,14 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
   const content = guideContent[lang] || guideContent.fr
   // Produits statiques avec liens affiliés
   const products = getStaticProducts(lang)
+  // Coolblue's offers (lib/merchant-offers) for the exact models: NL on /nl
+  // (BE for Belgian visitors), DE on /de, BE on /fr for Belgian visitors.
+  // The titles are catalogue titles: the ASIN finds the model's reference
+  // code and EAN. None without the feed key, and then no extra JS.
+  const offers = await coolblueOffersForPage(
+    resolveLang(lang),
+    products.map((p) => ({ name: p.title, asin: p.asin })),
+  )
 
   // BreadcrumbList Schema
   const breadcrumbSchema = {
@@ -991,6 +1001,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                 >
                   {dict.buy_button}
                 </AffiliateLink>
+                {offers[product.title] && (
+                  <CoolblueOfferSlot offers={offers[product.title]} model={product.title} lang={lang} position={i + 1} className="mt-3" />
+                )}
               </div>
             </div>
           ))}
@@ -1169,6 +1182,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                 capacity={product.capacity}
                 bestFor={product.bestFor}
                 kicker={productKicker({ type: 'airfryers', lang: resolveLang(lang), bestFor: product.bestFor })}
+                offers={offers[product.title]}
               />
             </div>
           ))}

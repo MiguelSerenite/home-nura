@@ -23,6 +23,11 @@ describe('reference codes', () => {
     expect(referenceCodes('Cosori CAF-P583S')).toEqual(['cafp583s'])
   })
 
+  it('ignores a small number glued to a word', () => {
+    expect(referenceCodes('Ninja Double Stack XL 2-Ebenen Heißluftfritteuse 9,5 L — SL400EU')).toEqual(['sl400eu'])
+    expect(referenceCodes('Cosori CP158-AF 5-liter')).toEqual(['cp158af'])
+  })
+
   it('ignores capacities, sockets, short codes, multipacks and words', () => {
     expect(referenceCodes('Airfryer XXL - 8,3 liter 2200W 1100lm E27 A60 Q7 M5+ P115 2-pack 2026 Pro')).toEqual([])
   })
