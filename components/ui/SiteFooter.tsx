@@ -14,7 +14,7 @@ interface SiteFooterProps {
 type FooterKey =
   | 'home' | 'guide' | 'comparator' | 'smartKitchen' | 'smartKitchenComparator'
   | 'quiz' | 'smartKitchenQuiz' | 'blog' | 'methodology' | 'about'
-  | 'legal' | 'privacy' | 'cookies'
+  | 'contact' | 'legal' | 'privacy' | 'cookies'
 
 // One site-wide footer: same links on every page (internal linking to the
 // tools, the methodology page and the legal pages), labels per locale.
@@ -29,6 +29,7 @@ const FOOTER_PATHS: Record<FooterKey, string> = {
   blog: '/blog',
   methodology: '/methodologie',
   about: '/a-propos',
+  contact: '/contact',
   legal: '/mentions-legales',
   privacy: '/politique-confidentialite',
   cookies: '/politique-cookies',
@@ -39,42 +40,42 @@ const FOOTER_LABELS: Record<Lang, Record<FooterKey, string>> = {
     home: 'Accueil', guide: 'Guide airfryers', comparator: 'Comparateur airfryers',
     smartKitchen: 'Cuisine connectée', smartKitchenComparator: 'Comparateur cuisine connectée',
     quiz: 'Quiz airfryer', smartKitchenQuiz: 'Quiz cuisine connectée', blog: 'Blog',
-    methodology: 'Méthodologie', about: 'À propos', legal: 'Mentions légales',
+    methodology: 'Méthodologie', about: 'À propos', contact: 'Contact', legal: 'Mentions légales',
     privacy: 'Confidentialité', cookies: 'Cookies',
   },
   en: {
     home: 'Home', guide: 'Air fryer guide', comparator: 'Air fryer comparison tool',
     smartKitchen: 'Smart kitchen', smartKitchenComparator: 'Smart kitchen comparison tool',
     quiz: 'Air fryer quiz', smartKitchenQuiz: 'Smart kitchen quiz', blog: 'Blog',
-    methodology: 'Methodology', about: 'About', legal: 'Legal notice',
+    methodology: 'Methodology', about: 'About', contact: 'Contact', legal: 'Legal notice',
     privacy: 'Privacy', cookies: 'Cookies',
   },
   de: {
     home: 'Startseite', guide: 'Airfryer-Ratgeber', comparator: 'Airfryer-Vergleich',
     smartKitchen: 'Smarte Küche', smartKitchenComparator: 'Produktvergleich smarte Küche',
     quiz: 'Airfryer-Quiz', smartKitchenQuiz: 'Quiz smarte Küche', blog: 'Blog',
-    methodology: 'Methodik', about: 'Über uns', legal: 'Impressum',
+    methodology: 'Methodik', about: 'Über uns', contact: 'Kontakt', legal: 'Impressum',
     privacy: 'Datenschutz', cookies: 'Cookies',
   },
   es: {
     home: 'Inicio', guide: 'Guía de freidoras de aire', comparator: 'Comparador de freidoras de aire',
     smartKitchen: 'Cocina conectada', smartKitchenComparator: 'Comparador de cocina conectada',
     quiz: 'Asistente de freidoras de aire', smartKitchenQuiz: 'Asistente de cocina conectada', blog: 'Blog',
-    methodology: 'Metodología', about: 'Quiénes somos', legal: 'Aviso legal',
+    methodology: 'Metodología', about: 'Quiénes somos', contact: 'Contacto', legal: 'Aviso legal',
     privacy: 'Privacidad', cookies: 'Cookies',
   },
   it: {
     home: 'Home', guide: 'Guida alle friggitrici ad aria', comparator: 'Comparatore di friggitrici ad aria',
     smartKitchen: 'Cucina smart', smartKitchenComparator: 'Comparatore per la cucina smart',
     quiz: 'Quiz friggitrice ad aria', smartKitchenQuiz: 'Quiz cucina smart', blog: 'Blog',
-    methodology: 'Metodologia', about: 'Chi siamo', legal: 'Note legali',
+    methodology: 'Metodologia', about: 'Chi siamo', contact: 'Contatti', legal: 'Note legali',
     privacy: 'Privacy', cookies: 'Cookie',
   },
   nl: {
     home: 'Home', guide: 'Airfryergids', comparator: 'Airfryervergelijker',
     smartKitchen: 'Slimme keuken', smartKitchenComparator: 'Vergelijker slimme keuken',
     quiz: 'Airfryerquiz', smartKitchenQuiz: 'Quiz slimme keuken', blog: 'Blog',
-    methodology: 'Methodologie', about: 'Over ons', legal: 'Juridische informatie',
+    methodology: 'Methodologie', about: 'Over ons', contact: 'Contact', legal: 'Juridische informatie',
     privacy: 'Privacy', cookies: 'Cookies',
   },
   pl: {
@@ -87,7 +88,7 @@ const FOOTER_LABELS: Record<Lang, Record<FooterKey, string>> = {
     smartKitchenQuiz: 'Quiz: inteligentna kuchnia',
     blog: 'Blog',
     methodology: 'Metodologia',
-    about: 'O nas',
+    about: 'O nas', contact: 'Kontakt',
     legal: 'Nota prawna',
     privacy: 'Prywatność',
     cookies: 'Pliki cookie',
@@ -102,7 +103,7 @@ const FOOTER_LABELS: Record<Lang, Record<FooterKey, string>> = {
     smartKitchenQuiz: 'Quiz för smart kök',
     blog: 'Blogg',
     methodology: 'Metod',
-    about: 'Om oss',
+    about: 'Om oss', contact: 'Kontakt',
     legal: 'Juridisk information',
     privacy: 'Integritet',
     cookies: 'Cookies',
@@ -117,7 +118,7 @@ const FOOTER_LABELS: Record<Lang, Record<FooterKey, string>> = {
     smartKitchenQuiz: 'Smart kitchen quiz',
     blog: 'Blog',
     methodology: 'Methodology',
-    about: 'About',
+    about: 'About', contact: 'Contact',
     legal: 'Legal notice',
     privacy: 'Privacy',
     cookies: 'Cookies',
@@ -132,7 +133,7 @@ const FOOTER_LABELS: Record<Lang, Record<FooterKey, string>> = {
     smartKitchenQuiz: 'Smart kitchen quiz',
     blog: 'Blog',
     methodology: 'Methodology',
-    about: 'About',
+    about: 'About', contact: 'Contact',
     legal: 'Legal notice',
     privacy: 'Privacy',
     cookies: 'Cookies',

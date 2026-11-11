@@ -26,7 +26,7 @@ import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { MARKET_PAGE_UI } from './ui'
 
 /** Pages every locale serves that a related link may not name. */
-const UTILITY_PATHS = ['', '/comparateur', '/cuisine-connectee/comparateur', '/cuisine-connectee/quiz', '/quiz', '/blog', '/a-propos', '/auteur'] as const
+const UTILITY_PATHS = ['', '/comparateur', '/cuisine-connectee/comparateur', '/cuisine-connectee/quiz', '/quiz', '/blog', '/a-propos', '/contact', '/auteur'] as const
 
 /** Labels of the shared guides that have no catalog title. */
 const GUIDE_LABELS: Readonly<Record<string, Readonly<Record<Lang, string>>>> = {
