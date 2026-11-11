@@ -28,6 +28,8 @@ export function referenceCodes(text: string, { lettersOnly = false } = {}): stri
     const hasDigit = /\d/.test(compact)
     const hasLetter = /[a-z]/.test(compact)
     if (hasDigit && hasLetter) {
+      // A small number glued to a word is a description ("2-Ebenen", "5-liter"), not a code.
+      if (/^\d{1,2}[a-z]{4,}$/.test(compact)) continue
       if ((/^[a-z]/.test(compact) && compact.length >= 5) || compact.length >= 6) codes.add(compact)
     } else if (lettersOnly && !hasDigit && /^[A-Z]{4,8}$/.test(chunk) && !/[AEIOUY]/.test(chunk)) {
       codes.add(compact)

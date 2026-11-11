@@ -33,7 +33,7 @@ const IGNORED_WORDS = new Set([
   'und', 'mit', 'fur', 'der', 'die', 'das', 'ein', 'eine',
   'et', 'avec', 'pour', 'le', 'la', 'les', 'du', 'des', 'un', 'une',
   'slimme', 'stekker', 'stekkers', 'energiemeting', 'weegschaal', 'keukenweegschaal', 'dieetweegschaal',
-  'vleesthermometer', 'sondes', 'groot', 'bereik', 'losse', 'lamp',
+  'vleesthermometer', 'sondes', 'groot', 'bereik', 'losse', 'lamp', 'draadloze',
   'gen', 'generation', 'generatie', 'series', 'serie',
   // Descriptors of our German and French names ("WLAN-Steckdose mit
   // Energiemessung", "Prise Connectée avec Suivi Conso"). "connectée"
