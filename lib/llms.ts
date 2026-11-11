@@ -72,3 +72,53 @@ export function buildLlmsTxt(): string {
   ]
   return lines.join('\n') + '\n'
 }
+
+/** Plain text of an article body: tags removed, entities decoded, blank lines collapsed. */
+function htmlToText(html: string): string {
+  return html
+    .replace(/<(script|style)[^>]*>[\s\S]*?<\/\1>/gi, '')
+    .replace(/<\/(p|h[1-6]|li|tr|div|section|table)>/gi, '\n')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#x27;|&#39;/g, "'")
+    .replace(/[ \t]+/g, ' ')
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .join('\n')
+}
+
+/**
+ * /llms-full.txt: the llms.txt map followed by every blog article in full
+ * (French version: answer first, picks, body text and FAQ), so an assistant
+ * can quote Home Nura without crawling each page. No affiliate URL is
+ * repeated here: picks are named, the canonical article URL is the source.
+ */
+export function buildLlmsFullTxt(): string {
+  const articles = getAllArticles().map((article) => {
+    const meta = BLOG_SEO_META[article.slug]
+    const title = meta?.fr?.title ?? article.title.fr
+    const qa = getQuickAnswer(article, 'fr')
+    const faq = article.faq ?? []
+    return [
+      `## ${title}`,
+      '',
+      `Source: ${BASE_URL}/fr/blog/${article.slug}`,
+      `Published: ${article.datePublished.slice(0, 10)} · Updated: ${article.dateModified.slice(0, 10)}`,
+      '',
+      htmlToText(article.excerpt.fr ?? ''),
+      ...(qa ? ['', `### ${qa.question}`, ...qa.picks.map((p) => `- ${p.role} : ${p.model} — ${p.why}`)] : []),
+      '',
+      htmlToText(article.content.fr ?? ''),
+      ...(faq.length > 0
+        ? ['', '### FAQ', ...faq.flatMap((item) => [`**${htmlToText(item.question.fr ?? '')}**`, htmlToText(item.answer.fr ?? ''), ''])]
+        : []),
+    ].join('\n')
+  })
+  return [buildLlmsTxt(), '# Articles in full (French)', '', ...articles].join('\n').replace(/\n{3,}/g, '\n\n') + '\n'
+}
