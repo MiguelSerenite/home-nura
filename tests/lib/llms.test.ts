@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { buildLlmsTxt } from '@/lib/llms'
+import { buildLlmsFullTxt, buildLlmsTxt } from '@/lib/llms'
 import { getAllArticles } from '@/lib/blog'
 import { getIndexableSilos } from '@/lib/catalog'
 import { BASE_URL } from '@/lib/seo'
@@ -36,5 +36,23 @@ describe('buildLlmsTxt', () => {
     const links = [...txt.matchAll(/\]\(([^)]+)\)/g)].map((m) => m[1])
     expect(links.length).toBeGreaterThan(80)
     expect(links.filter((u) => !u.startsWith(BASE_URL))).toEqual([])
+  })
+})
+
+describe('buildLlmsFullTxt', () => {
+  const full = buildLlmsFullTxt()
+
+  it('starts with the llms.txt map then gives every article in full', () => {
+    expect(full.startsWith('# Home Nura\n')).toBe(true)
+    expect(full).toContain('# Articles in full (French)')
+    for (const article of getAllArticles()) {
+      expect(full).toContain(`Source: ${BASE_URL}/fr/blog/${article.slug}`)
+    }
+  })
+
+  it('keeps plain text only: no HTML tag and no affiliate URL', () => {
+    const body = full.slice(full.indexOf('# Articles in full'))
+    expect(body).not.toMatch(/<\/?(p|h2|h3|ul|li|table|a)\b/i)
+    expect(body).not.toMatch(/amazon\.[a-z.]+\/|tag=/i)
   })
 })

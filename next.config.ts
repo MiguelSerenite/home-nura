@@ -9,6 +9,14 @@ const analyzer = withBundleAnalyzer({
 });
 
 const nextConfig: NextConfig = {
+  // Blog URLs from before the language prefixes (/blog/<slug>) still get
+  // crawled (Search Console 404s): send them to the French article.
+  async redirects() {
+    return [
+      { source: '/blog', destination: '/fr/blog', permanent: true },
+      { source: '/blog/:slug', destination: '/fr/blog/:slug', permanent: true },
+    ]
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
