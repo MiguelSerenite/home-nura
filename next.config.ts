@@ -11,6 +11,11 @@ const analyzer = withBundleAnalyzer({
 const nextConfig: NextConfig = {
   // Blog URLs from before the language prefixes (/blog/<slug>) still get
   // crawled (Search Console 404s): send them to the French article.
+  // The entry page (/) also answers Accept: text/markdown (proxy.ts):
+  // shared caches must key the HTML on Accept too.
+  async headers() {
+    return [{ source: '/', headers: [{ key: 'Vary', value: 'Accept' }] }]
+  },
   async redirects() {
     return [
       { source: '/blog', destination: '/fr/blog', permanent: true },
