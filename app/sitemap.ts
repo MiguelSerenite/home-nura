@@ -61,6 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/quiz', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: latestArticleUpdate },
     { path: '/a-propos', priority: 0.5, changeFrequency: 'monthly' as const, lastModified: today },
+    { path: '/contact', priority: 0.4, changeFrequency: 'yearly' as const, lastModified: today },
     // Phase Z: cornerstone EEAT page — priority 0.9 because every
     // product review, comparator and best-for page links back to it,
     // so it accumulates internal link equity and anchors E-E-A-T.

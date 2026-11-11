@@ -3,6 +3,7 @@ import type { NextRequest } from 'next/server'
 import { COUNTRY_COOKIE, DEFAULT_LANG, isValidLang } from './lib/i18n'
 import { isCrawlerUserAgent } from './lib/country-entry/choices'
 import { LEGACY_LOCALE_COOKIE, MARKET_COOKIE, parseMarketPreference, preferenceCookieOptions } from './lib/market-preference'
+import { NOT_FOUND_MARKDOWN, acceptsMarkdown, isCertainNotFound } from './lib/agent-markdown'
 
 /**
  * / is the international entry page (app/(entry)/page.tsx), the x-default
@@ -23,7 +24,7 @@ function rootRedirect(request: NextRequest): NextResponse | null {
   const url = request.nextUrl.clone()
   url.pathname = `/${target}`
   const redirect = NextResponse.redirect(url, 302)
-  redirect.headers.set('Vary', 'Cookie, User-Agent')
+  redirect.headers.set('Vary', 'Accept, Cookie, User-Agent')
   redirect.headers.set('Cache-Control', 'private, no-store')
   if (legacy) {
     redirect.cookies.set(MARKET_COOKIE, legacy, preferenceCookieOptions(request.nextUrl.protocol === 'https:'))
@@ -70,8 +71,38 @@ function aliasTarget(pathAfterLang: string): string | undefined {
   return undefined
 }
 
+// Root-level trust pages that agents probe (/about, /contact, /privacy):
+// sent to the French version, the default locale.
+const ROOT_ALIASES: Record<string, string> = {
+  '/about': '/a-propos',
+  '/contact': '/contact',
+  '/privacy': '/politique-confidentialite',
+}
+
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
+  const isRead = request.method === 'GET' || request.method === 'HEAD'
+  const wantsMarkdown = isRead && acceptsMarkdown(request.headers.get('accept'))
+
+  // Agents asking for Markdown: the entry page as Markdown (app/index.md),
+  // and a Markdown 404 body for paths that cannot exist.
+  if (wantsMarkdown && pathname === '/') {
+    const rewrite = NextResponse.rewrite(new URL('/index.md', request.url))
+    rewrite.headers.set('Vary', 'Accept')
+    return rewrite
+  }
+  if (wantsMarkdown && isCertainNotFound(pathname)) {
+    return new NextResponse(NOT_FOUND_MARKDOWN, {
+      status: 404,
+      headers: { 'Content-Type': 'text/markdown; charset=utf-8', Vary: 'Accept', 'X-Robots-Tag': 'noindex' },
+    })
+  }
+
+  if (Object.hasOwn(ROOT_ALIASES, pathname)) {
+    const url = request.nextUrl.clone()
+    url.pathname = `/${DEFAULT_LANG}${ROOT_ALIASES[pathname]}`
+    return NextResponse.redirect(url, 301)
+  }
 
   // Root path: the entry page, or the version the visitor chose.
   if (pathname === '/') {
@@ -149,6 +180,8 @@ export function proxy(request: NextRequest) {
     'max-age=31536000; includeSubDomains; preload'
   )
   response.headers.set('Content-Security-Policy', csp)
+  // The entry page also exists as Markdown (see above): caches must key on Accept.
+  if (pathname === '/') response.headers.set('Vary', 'Accept')
 
   // Expose the visitor's country (Vercel geo) so the static pages can offer
   // the matching version client-side (components/LocaleNotices.tsx). Deep

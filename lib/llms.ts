@@ -20,6 +20,7 @@ const KEY_PAGES: ReadonlyArray<[label: string, path: string, note: string]> = [
   ['Méthodologie', '/fr/methodologie', 'how products are scored (Nura Score), sources and update policy'],
   ['Methodology (English)', '/en/methodologie', 'same page in English'],
   ['À propos / About', '/fr/a-propos', 'who writes Home Nura and editorial independence'],
+  ['Contact', '/fr/contact', 'how to reach the editorial team (contact@homenura.com)'],
   ['Guide airfryers', '/fr/guides/airfryers', 'air fryer buying guide and ranking'],
   ['Comparateur airfryers', '/fr/comparateur', 'side-by-side air fryer comparison tool'],
   ['Quiz airfryer', '/fr/quiz', 'find the right air fryer in a few questions'],

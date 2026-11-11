@@ -107,7 +107,16 @@ export function buildOrganizationSchema(lang: Lang, description: string) {
       '@type': 'ContactPoint',
       contactType: 'customer support',
       email: 'contact@homenura.com',
+      url: `${BASE_URL}/${lang}/contact`,
       availableLanguage: siteLanguageNames(),
+    },
+    // Publisher's registered office, as published on the legal notice page.
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '60 Rue François 1er',
+      postalCode: '75008',
+      addressLocality: 'Paris',
+      addressCountry: 'FR',
     },
     areaServed: areaServedFor(lang).map((name) => ({ '@type': 'Country', name })),
     knowsAbout: topicsFor(lang),
