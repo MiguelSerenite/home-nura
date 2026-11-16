@@ -13,8 +13,8 @@ import { BASE_URL } from '@/lib/seo'
  *   - Every AI crawler is listed explicitly (rather than relying on
  *     the `*` fallback) so the intent is documented and so that changing
  *     one bot's rules later doesn't require touching the others.
- *   - Every rule disallows `/admin/`, `/_next/`, `/api/` — internal
- *     routes with no indexable HTML.
+ *   - Every rule disallows `/admin/` and `/api/` — internal routes with
+ *     no indexable HTML. `/_next/` stays crawlable (render resources).
  *   - Legal pages (mentions-legales, politique-confidentialite,
  *     politique-cookies) are NOT disallowed here — they're noindex'd
  *     via per-page `robots` metadata instead. Disallowing them in
@@ -26,7 +26,11 @@ import { BASE_URL } from '@/lib/seo'
  * so the static file must stay deleted or it will shadow this module.
  */
 
-const INTERNAL_PATHS = ['/admin/', '/_next/', '/api/']
+// `/_next/` is deliberately NOT listed: it serves the CSS, JS, fonts and
+// optimised images (`/_next/image`) crawlers need to render the pages.
+// Search Console reported `/_next/static/media/*.woff2` as "Blocked by
+// robots.txt" (2026-11-16) while it was disallowed.
+const INTERNAL_PATHS = ['/admin/', '/api/']
 
 // Crawlers we want to explicitly welcome. Listing them one-by-one (rather
 // than letting them fall through to the `*` rule) makes the intent legible

@@ -21,6 +21,8 @@ interface PillarContent {
   categoryKicker: string
   ctaCategory: string
   comparatorCta: string
+  /** Link to the long buying guide (/guides/cuisine-connectee). */
+  guideCta: string
   comparatorDesc: string
   categories: Record<SmartKitchenCategory, { name: string; tagline: string }>
 }
@@ -36,6 +38,7 @@ const pageContent: Record<string, PillarContent> = {
     categoryKicker: 'Catégorie',
     ctaCategory: 'Voir la sélection',
     comparatorCta: 'Ouvrir le comparateur',
+    guideCta: 'Guide cuisine connectée',
     comparatorDesc: 'Comparez jusqu\'à 3 modèles côte à côte, toutes catégories confondues.',
     categories: {
       multicuiseurs: {
@@ -70,6 +73,7 @@ const pageContent: Record<string, PillarContent> = {
     categoryKicker: 'Category',
     ctaCategory: 'See our picks',
     comparatorCta: 'Open the comparison tool',
+    guideCta: 'Smart kitchen guide',
     comparatorDesc: 'Compare up to 3 models side by side, across every category.',
     categories: {
       multicuiseurs: {
@@ -104,6 +108,7 @@ const pageContent: Record<string, PillarContent> = {
     categoryKicker: 'Kategorie',
     ctaCategory: 'Zu den Empfehlungen',
     comparatorCta: 'Vergleich öffnen',
+    guideCta: 'Ratgeber smarte Küche',
     comparatorDesc: 'Vergleichen Sie bis zu 3 Modelle nebeneinander, auch über Kategorien hinweg.',
     categories: {
       multicuiseurs: {
@@ -138,6 +143,7 @@ const pageContent: Record<string, PillarContent> = {
     categoryKicker: 'Categoría',
     ctaCategory: 'Ver la selección',
     comparatorCta: 'Abrir el comparador',
+    guideCta: 'Guía de la cocina conectada',
     comparatorDesc: 'Compara hasta 3 modelos a la vez, de cualquier categoría.',
     categories: {
       multicuiseurs: {
@@ -172,6 +178,7 @@ const pageContent: Record<string, PillarContent> = {
     categoryKicker: 'Categoria',
     ctaCategory: 'Vedi la selezione',
     comparatorCta: 'Apri il comparatore',
+    guideCta: 'Guida alla cucina smart',
     comparatorDesc: 'Confronta fino a 3 modelli fianco a fianco, di qualsiasi categoria.',
     categories: {
       multicuiseurs: {
@@ -206,6 +213,7 @@ const pageContent: Record<string, PillarContent> = {
     categoryKicker: 'Categorie',
     ctaCategory: 'Bekijk de selectie',
     comparatorCta: 'Open de vergelijker',
+    guideCta: 'Gids slimme keuken',
     comparatorDesc: 'Vergelijk tot 3 modellen naast elkaar, uit alle categorieën.',
     categories: {
       multicuiseurs: {
@@ -240,6 +248,7 @@ const pageContent: Record<string, PillarContent> = {
     categoryKicker: 'Kategoria',
     ctaCategory: 'Zobacz zestawienie',
     comparatorCta: 'Otwórz porównywarkę',
+    guideCta: 'Przewodnik po inteligentnej kuchni',
     comparatorDesc: 'Porównaj obok siebie do 3 modeli, niezależnie od kategorii.',
     categories: {
       multicuiseurs: {
@@ -274,6 +283,7 @@ const pageContent: Record<string, PillarContent> = {
     categoryKicker: 'Kategori',
     ctaCategory: 'Se urvalet',
     comparatorCta: 'Öppna jämförelseverktyget',
+    guideCta: 'Guide till smart kök',
     comparatorDesc: 'Jämför upp till 3 modeller sida vid sida, oavsett kategori.',
     categories: {
       multicuiseurs: {
@@ -308,6 +318,7 @@ const pageContent: Record<string, PillarContent> = {
     categoryKicker: 'Category',
     ctaCategory: 'See the shortlist',
     comparatorCta: 'Open the comparison tool',
+    guideCta: 'Smart kitchen guide',
     comparatorDesc: 'Compare up to 3 models side by side, across every category.',
     categories: {
       multicuiseurs: {
@@ -342,6 +353,7 @@ const pageContent: Record<string, PillarContent> = {
     categoryKicker: 'Category',
     ctaCategory: 'See the shortlist',
     comparatorCta: 'Open the comparison tool',
+    guideCta: 'Smart kitchen guide',
     comparatorDesc: 'Compare up to 3 models side by side, across every category.',
     categories: {
       multicuiseurs: {
@@ -490,6 +502,14 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
             <span>{c.comparatorCta}</span>
             <span aria-hidden="true">→</span>
           </Button>
+          <p className="mt-5">
+            <Link
+              href={`/${safeLang}/guides/cuisine-connectee`}
+              className="text-sm font-semibold text-brand-700 underline underline-offset-4 hover:text-brand-600"
+            >
+              {c.guideCta}
+            </Link>
+          </p>
         </div>
       </section>
       </main>

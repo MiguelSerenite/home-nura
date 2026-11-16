@@ -35,6 +35,17 @@ describe('internal links', () => {
     expect(offenders).toEqual([])
   })
 
+  it('go straight to the air fryer guide, not through its 301', () => {
+    // /{lang}/cuisine-connectee/airfryers has no page: it redirects to
+    // /{lang}/guides/airfryers (lib/catalog/category-path.ts). 70 article
+    // links still used the old address (weekly SEO pass, 2026-11-16).
+    const REDIRECTED = /href=["']\/[a-z]{2}\/cuisine-connectee\/airfryers["'#?]/
+    const offenders = getAllArticles().flatMap((article) =>
+      LANGUAGES.filter((lang) => REDIRECTED.test(article.content[lang] ?? '')).map((lang) => `${lang}/${article.slug}`),
+    )
+    expect(offenders).toEqual([])
+  })
+
   it('stay in their locale in every per-locale text of the code base', () => {
     const files = ['app', 'components', 'lib'].flatMap((dir) => sourceFiles(join(ROOT, dir)))
     const offenders = files.flatMap((file) => {

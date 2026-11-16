@@ -59,7 +59,7 @@ export const article: BlogArticle = {
 <h3>Le Thermomix : le robot qui prépare et cuit</h3>
 <p>Le Thermomix de Vorwerk est un robot culinaire chauffant. Dans un même bol, il hache, mixe, pétrit, émulsionne, pèse les ingrédients grâce à sa balance intégrée, puis cuit en remuant. Les recettes guidées viennent de la plateforme Cookidoo, accessible par abonnement. Il ne cuit pas sous pression et ne fait pas de croustillant façon friture. Il est vendu par Vorwerk, via ses conseillers et son site, et non sur les places de marché classiques.</p>
 <h3>L’airfryer : la cuisson croustillante à air chaud</h3>
-<p>Un airfryer est un petit four à convection très puissant. L’air chaud brassé à grande vitesse dore les frites, le poulet, les légumes rôtis ou le poisson pané avec peu ou pas de matière grasse. Il chauffe vite et se nettoie facilement, mais il ne mijote pas, ne cuit pas sous pression et ne prépare rien : il cuit ce que vous y déposez. Notre <a href="/fr/cuisine-connectee/airfryers">sélection d’airfryers</a> détaille les capacités disponibles.</p>
+<p>Un airfryer est un petit four à convection très puissant. L’air chaud brassé à grande vitesse dore les frites, le poulet, les légumes rôtis ou le poisson pané avec peu ou pas de matière grasse. Il chauffe vite et se nettoie facilement, mais il ne mijote pas, ne cuit pas sous pression et ne prépare rien : il cuit ce que vous y déposez. Notre <a href="/fr/guides/airfryers">sélection d’airfryers</a> détaille les capacités disponibles.</p>
 
 <h2>Les critères qui comptent vraiment</h2>
 <ul>
@@ -134,7 +134,7 @@ export const article: BlogArticle = {
 <h3>The Thermomix: the machine that preps and cooks</h3>
 <p>Vorwerk’s Thermomix is a food processor that also cooks. In one bowl it chops, blends, kneads, emulsifies, weighs ingredients on its built-in scale, then cooks while stirring. Guided recipes come from the Cookidoo platform, which requires a subscription. It can’t pressure cook and won’t give you a fried-style crunch. It is sold directly by Vorwerk, through its sales advisers and its website, rather than on the usual online marketplaces.</p>
 <h3>The air fryer: crispy hot-air cooking</h3>
-<p>An air fryer is essentially a small, very powerful fan oven. Fast-moving hot air browns chips, chicken, roasted vegetables or breaded fish with little or no fat. It heats quickly and is easy to clean, but it does not simmer, pressure cook or prepare anything: it cooks what you put in it. Our <a href="/en/cuisine-connectee/airfryers">air fryer picks</a> cover the capacities available.</p>
+<p>An air fryer is essentially a small, very powerful fan oven. Fast-moving hot air browns chips, chicken, roasted vegetables or breaded fish with little or no fat. It heats quickly and is easy to clean, but it does not simmer, pressure cook or prepare anything: it cooks what you put in it. Our <a href="/en/guides/airfryers">air fryer picks</a> cover the capacities available.</p>
 
 <h2>What really matters</h2>
 <ul>
@@ -209,7 +209,7 @@ export const article: BlogArticle = {
 <h3>Der Thermomix: vorbereiten und garen in einem Gerät</h3>
 <p>Der Thermomix von Vorwerk ist eine Küchenmaschine mit Kochfunktion. Im selben Mixtopf zerkleinert, mixt, knetet und emulgiert er, wiegt die Zutaten mit der integrierten Waage und gart sie anschließend unter Rühren. Die geführten Rezepte kommen von der Plattform Cookidoo, für die ein Abo nötig ist. Unter Druck garen kann er nicht, und knusprig wie aus der Fritteuse wird darin nichts. Vorwerk verkauft ihn über seine Repräsentanten und die eigene Website, nicht über die üblichen Online-Marktplätze.</p>
 <h3>Der Airfryer: knusprig garen mit Heißluft</h3>
-<p>Ein Airfryer (Heißluftfritteuse) ist im Grunde ein kleiner, sehr leistungsstarker Umluftofen. Schnell zirkulierende Heißluft bräunt Pommes, Hähnchen, Ofengemüse oder panierten Fisch mit wenig oder ganz ohne Fett. Er heizt schnell auf und ist leicht zu reinigen, schmort aber nicht, gart nicht unter Druck und bereitet nichts vor: Er gart, was Sie hineinlegen. In unseren <a href="/de/cuisine-connectee/airfryers">Airfryer-Empfehlungen</a> finden Sie die verfügbaren Größen im Überblick.</p>
+<p>Ein Airfryer (Heißluftfritteuse) ist im Grunde ein kleiner, sehr leistungsstarker Umluftofen. Schnell zirkulierende Heißluft bräunt Pommes, Hähnchen, Ofengemüse oder panierten Fisch mit wenig oder ganz ohne Fett. Er heizt schnell auf und ist leicht zu reinigen, schmort aber nicht, gart nicht unter Druck und bereitet nichts vor: Er gart, was Sie hineinlegen. In unseren <a href="/de/guides/airfryers">Airfryer-Empfehlungen</a> finden Sie die verfügbaren Größen im Überblick.</p>
 
 <h2>Die Kriterien, die wirklich zählen</h2>
 <ul>
@@ -284,7 +284,7 @@ export const article: BlogArticle = {
 <h3>La Thermomix: el robot que prepara y cocina</h3>
 <p>La Thermomix de Vorwerk es un robot de cocina que calienta. En el mismo vaso pica, tritura, amasa, emulsiona, pesa los ingredientes con su báscula integrada y después cocina mientras remueve. Las recetas guiadas salen de la plataforma Cookidoo, que es de suscripción. No cocina a presión ni consigue un crujiente como el de la fritura. La vende Vorwerk, a través de sus asesores y de su web, y no las tiendas online generalistas.</p>
 <h3>La freidora de aire: crujiente con aire caliente</h3>
-<p>Una freidora de aire es un pequeño horno de convección muy potente. El aire caliente, que circula a gran velocidad, dora las patatas fritas, el pollo, las verduras asadas o el pescado rebozado con muy poca grasa o ninguna. Se calienta rápido y se limpia con facilidad, pero no guisa, no cocina a presión y no prepara nada: cocina lo que metes dentro. En nuestra <a href="/es/cuisine-connectee/airfryers">selección de freidoras de aire</a> tienes todas las capacidades disponibles.</p>
+<p>Una freidora de aire es un pequeño horno de convección muy potente. El aire caliente, que circula a gran velocidad, dora las patatas fritas, el pollo, las verduras asadas o el pescado rebozado con muy poca grasa o ninguna. Se calienta rápido y se limpia con facilidad, pero no guisa, no cocina a presión y no prepara nada: cocina lo que metes dentro. En nuestra <a href="/es/guides/airfryers">selección de freidoras de aire</a> tienes todas las capacidades disponibles.</p>
 
 <h2>Los criterios que de verdad importan</h2>
 <ul>
@@ -359,7 +359,7 @@ export const article: BlogArticle = {
 <h3>Il Bimby: il robot che prepara e cuoce</h3>
 <p>Il Bimby di Vorwerk (Thermomix fuori dall’Italia) è un robot da cucina multifunzione che cuoce anche. Nello stesso boccale trita, frulla, impasta, emulsiona, pesa gli ingredienti con la bilancia integrata e poi cuoce mescolando. Le ricette guidate arrivano dalla piattaforma Cookidoo, in abbonamento. Non cuoce a pressione e non dà la croccantezza della frittura. È venduto da Vorwerk tramite i suoi incaricati e il sito ufficiale, non sui marketplace abituali.</p>
 <h3>La friggitrice ad aria: la cottura croccante ad aria calda</h3>
-<p>La friggitrice ad aria è un piccolo forno ventilato molto potente. L’aria calda, spinta ad alta velocità, rende dorati patatine, pollo, verdure arrosto o pesce impanato con poco olio o addirittura senza. Si scalda in fretta e si pulisce facilmente, ma non stufa, non cuoce a pressione e non prepara nulla: cuoce quello che ci metti dentro. La nostra <a href="/it/cuisine-connectee/airfryers">selezione di friggitrici ad aria</a> riporta le capacità disponibili.</p>
+<p>La friggitrice ad aria è un piccolo forno ventilato molto potente. L’aria calda, spinta ad alta velocità, rende dorati patatine, pollo, verdure arrosto o pesce impanato con poco olio o addirittura senza. Si scalda in fretta e si pulisce facilmente, ma non stufa, non cuoce a pressione e non prepara nulla: cuoce quello che ci metti dentro. La nostra <a href="/it/guides/airfryers">selezione di friggitrici ad aria</a> riporta le capacità disponibili.</p>
 
 <h2>I criteri che contano davvero</h2>
 <ul>
@@ -434,7 +434,7 @@ export const article: BlogArticle = {
 <h3>De Thermomix: een machine die voorbereidt én kookt</h3>
 <p>De Thermomix van Vorwerk is een keukenmachine met kookfunctie. In één mengkom hakt, mixt, kneedt en emulgeert hij, weegt hij de ingrediënten met de ingebouwde weegschaal en kookt hij al roerend. De begeleide recepten komen van het platform Cookidoo, waarvoor je een abonnement nodig hebt. Hij kookt niet onder druk en maakt niets krokant zoals een frituurpan. Vorwerk verkoopt hem via eigen adviseurs en de eigen website, niet via de gebruikelijke webwinkels.</p>
 <h3>De airfryer: krokant garen met hete lucht</h3>
-<p>Een airfryer is een kleine, krachtige heteluchtoven. Snel circulerende hete lucht maakt friet, kip, geroosterde groenten of gepaneerde vis goudbruin, met weinig of geen vet. Hij is snel op temperatuur en makkelijk schoon te maken, maar hij stooft niet, kookt niet onder druk en bereidt niets voor: hij gaart wat je erin legt. In onze <a href="/nl/cuisine-connectee/airfryers">selectie airfryers</a> zie je welke formaten er zijn.</p>
+<p>Een airfryer is een kleine, krachtige heteluchtoven. Snel circulerende hete lucht maakt friet, kip, geroosterde groenten of gepaneerde vis goudbruin, met weinig of geen vet. Hij is snel op temperatuur en makkelijk schoon te maken, maar hij stooft niet, kookt niet onder druk en bereidt niets voor: hij gaart wat je erin legt. In onze <a href="/nl/guides/airfryers">selectie airfryers</a> zie je welke formaten er zijn.</p>
 
 <h2>Waar let je op bij het kiezen?</h2>
 <ul>
@@ -509,7 +509,7 @@ export const article: BlogArticle = {
 <h3>Thermomix: robot, który przygotowuje składniki i gotuje</h3>
 <p>Thermomix firmy Vorwerk to robot kuchenny z funkcją gotowania. W jednej misie sieka, miksuje, wyrabia, emulguje i waży składniki na wbudowanej wadze, a potem gotuje, jednocześnie mieszając. Przepisy krok po kroku pochodzą z platformy Cookidoo, dostępnej w ramach abonamentu. Nie gotuje pod ciśnieniem i nie da chrupkości jak przy smażeniu. Vorwerk sprzedaje go przez swoich doradców i własną stronę internetową, a nie na popularnych platformach sprzedażowych.</p>
 <h3>Frytkownica beztłuszczowa: chrupiące potrawy z gorącego powietrza</h3>
-<p>Frytkownica beztłuszczowa (air fryer) to w praktyce mały piekarnik z termoobiegiem o bardzo dużej mocy. Gorące powietrze krążące z dużą prędkością rumieni frytki, kurczaka, pieczone warzywa czy panierowaną rybę przy niewielkiej ilości tłuszczu albo zupełnie bez niego. Szybko się nagrzewa i łatwo się ją czyści, ale nie dusi, nie gotuje pod ciśnieniem i niczego nie przygotowuje: przyrządza tylko to, co do niej włożysz. Dostępne pojemności omawiamy w naszym <a href="/pl/cuisine-connectee/airfryers">zestawieniu frytkownic beztłuszczowych</a>.</p>
+<p>Frytkownica beztłuszczowa (air fryer) to w praktyce mały piekarnik z termoobiegiem o bardzo dużej mocy. Gorące powietrze krążące z dużą prędkością rumieni frytki, kurczaka, pieczone warzywa czy panierowaną rybę przy niewielkiej ilości tłuszczu albo zupełnie bez niego. Szybko się nagrzewa i łatwo się ją czyści, ale nie dusi, nie gotuje pod ciśnieniem i niczego nie przygotowuje: przyrządza tylko to, co do niej włożysz. Dostępne pojemności omawiamy w naszym <a href="/pl/guides/airfryers">zestawieniu frytkownic beztłuszczowych</a>.</p>
 
 <h2>Kryteria, które naprawdę się liczą</h2>
 <ul>
@@ -584,7 +584,7 @@ export const article: BlogArticle = {
 <h3>Thermomix: köksmaskinen som förbereder och tillagar</h3>
 <p>Vorwerks Thermomix är en köksmaskin med värmefunktion. I en och samma skål hackar, mixar, knådar och emulgerar den, väger ingredienserna på den inbyggda vågen och tillagar sedan under omrörning. De guidade recepten kommer från plattformen Cookidoo, som kräver abonnemang. Den tryckkokar inte och ger inte den krispiga yta som friterad mat får. Thermomix säljs av Vorwerk, via företagets egna säljare och webbplats, och inte på de vanliga marknadsplatserna på nätet.</p>
 <h3>Airfryern: krispig mat med varmluft</h3>
-<p>En airfryer är en liten men mycket kraftfull varmluftsugn. Het luft som cirkulerar i hög hastighet ger pommes frites, kyckling, rostade grönsaker och panerad fisk en gyllene yta med lite eller inget fett alls. Den blir snabbt varm och är lätt att rengöra, men den puttrar inte, tryckkokar inte och förbereder ingenting: den tillagar det du lägger i den. I vårt <a href="/sv/cuisine-connectee/airfryers">urval av airfryrar</a> ser du vilka storlekar som finns.</p>
+<p>En airfryer är en liten men mycket kraftfull varmluftsugn. Het luft som cirkulerar i hög hastighet ger pommes frites, kyckling, rostade grönsaker och panerad fisk en gyllene yta med lite eller inget fett alls. Den blir snabbt varm och är lätt att rengöra, men den puttrar inte, tryckkokar inte och förbereder ingenting: den tillagar det du lägger i den. I vårt <a href="/sv/guides/airfryers">urval av airfryrar</a> ser du vilka storlekar som finns.</p>
 
 <h2>Det som verkligen spelar roll</h2>
 <ul>
@@ -659,7 +659,7 @@ export const article: BlogArticle = {
 <h3>The Thermomix: a machine that preps and cooks</h3>
 <p>Vorwerk’s Thermomix is a heated food processor. In a single bowl, it chops, blends, kneads, emulsifies and weighs ingredients on its built-in scale, then cooks while it stirs. Guided recipes come from the Cookidoo platform, which requires a subscription. It doesn’t pressure cook and can’t deliver a fried-style crunch. Vorwerk sells it through its own consultants and website, not through the usual online marketplaces.</p>
 <h3>The air fryer: crispy hot-air cooking</h3>
-<p>An air fryer is a small, powerful convection oven. Fast-moving hot air browns fries, chicken, roasted vegetables or breaded fish with little or no oil. It heats up quickly and is easy to clean, but it doesn’t simmer, pressure cook or prep anything: it cooks what you put in it. Our <a href="/us/cuisine-connectee/airfryers">air fryer picks</a> cover the sizes available.</p>
+<p>An air fryer is a small, powerful convection oven. Fast-moving hot air browns fries, chicken, roasted vegetables or breaded fish with little or no oil. It heats up quickly and is easy to clean, but it doesn’t simmer, pressure cook or prep anything: it cooks what you put in it. Our <a href="/us/guides/airfryers">air fryer picks</a> cover the sizes available.</p>
 
 <h2>What really matters</h2>
 <ul>
@@ -734,7 +734,7 @@ export const article: BlogArticle = {
 <h3>The Thermomix: a machine that preps and cooks</h3>
 <p>Vorwerk’s Thermomix is a cooking food processor. In one bowl it chops, blends, kneads, emulsifies, weighs ingredients on its built-in scale, then cooks while stirring. Guided recipes come from the Cookidoo platform, which requires a subscription. It doesn’t pressure cook and doesn’t deliver a fried-style crunch. It’s sold by Vorwerk, through its advisors and website, not through the usual online marketplaces.</p>
 <h3>The air fryer: crispy hot-air cooking</h3>
-<p>An air fryer is a small, powerful convection oven. Fast-moving hot air browns fries, chicken, roasted vegetables or breaded fish with little or no fat. It heats up quickly and is easy to clean, but it doesn’t simmer, pressure cook or prepare anything: it cooks what you put in it. Our <a href="/ca/cuisine-connectee/airfryers">air fryer selection</a> covers the capacities available.</p>
+<p>An air fryer is a small, powerful convection oven. Fast-moving hot air browns fries, chicken, roasted vegetables or breaded fish with little or no fat. It heats up quickly and is easy to clean, but it doesn’t simmer, pressure cook or prepare anything: it cooks what you put in it. Our <a href="/ca/guides/airfryers">air fryer selection</a> covers the capacities available.</p>
 
 <h2>The criteria that really matter</h2>
 <ul>

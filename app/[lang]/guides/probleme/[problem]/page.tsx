@@ -52,6 +52,7 @@ import {
   getCategory,
   getMetaSilo,
   getProblemContent,
+  getProblemMetaDescription,
   getProblemFaq,
   categoryPath,
 } from '@/lib/catalog'
@@ -269,7 +270,7 @@ export async function generateMetadata({
     lang: safeLang,
     path: `/guides/probleme/${prob.slug}`,
     title: `${content.title} | Home Nura`,
-    description: guide?.intro ?? content.diagnosis,
+    description: guide?.intro ?? getProblemMetaDescription(safeLang, prob, category),
   })
 }
 

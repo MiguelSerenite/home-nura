@@ -34,6 +34,7 @@ export {
   getPersonaGuideHero,
   getPersonaGuideFaq,
   getProblemContent,
+  getProblemMetaDescription,
   getProblemFaq,
   getBestForHero,
   getBestForFaq,
