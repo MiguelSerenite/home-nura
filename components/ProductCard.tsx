@@ -1,5 +1,7 @@
 import type { ProductVisualData } from '@/lib/product-visual'
+import type { CoolblueOffer } from '@/lib/merchant-offers/types'
 import AffiliateLink from './AffiliateLink'
+import CoolblueOfferSlot from './CoolblueOfferSlot'
 import ProductVisual from './ProductVisual'
 
 interface ProductProps {
@@ -17,9 +19,11 @@ interface ProductProps {
   position?: number;
   /** What the product is and who it suits ("Airfryer · Petit budget"), shown above the name. */
   kicker?: string;
+  /** Coolblue offers for this exact model (lib/merchant-offers), under the Amazon button; none, no extra JS. */
+  offers?: readonly CoolblueOffer[];
 }
 
-export default async function ProductCard({ name, priceNumeric, visual, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position, kicker }: ProductProps) {
+export default async function ProductCard({ name, priceNumeric, visual, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position, kicker, offers }: ProductProps) {
   // Accessible name of the visual: brand, capacity, usage context.
   const visualLabel = [name, capacity, bestFor].filter(Boolean).join(' — ')
 
@@ -53,6 +57,9 @@ export default async function ProductCard({ name, priceNumeric, visual, affiliat
         >
           {buyButtonText || 'Voir sur Amazon'}
         </AffiliateLink>
+        {offers && offers.length > 0 && (
+          <CoolblueOfferSlot offers={offers} model={name} lang={lang} position={position} className="mt-3" />
+        )}
       </div>
     </div>
   );

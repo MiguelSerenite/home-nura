@@ -43,6 +43,8 @@ import { productKicker } from '@/lib/product-types'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import { resolveLang, LANGUAGES } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
+import { getCatalogEntries } from '@/lib/category-catalog/data'
+import { coolblueOffersForPage } from '@/lib/merchant-offers/coolblue'
 import { getCategoryHead } from '@/lib/catalog/category-heads'
 import { categoryModifiedIso } from '@/lib/catalog/category-faqs'
 
@@ -611,6 +613,16 @@ export default async function CategoryPage({
   // "Answer first" (lib/catalog/answer-first): picks, table and ranking
   // above the product grid, dated header and changelog, Article dateModified.
   const answerFirst = getAnswerFirstHub(safeCat, safeLang)
+  // Coolblue's offers (lib/merchant-offers) under the picks, product cards and
+  // catalogue cards, as on the other hubs: NL on /nl (BE for Belgian
+  // visitors), DE on /de, BE on /fr for Belgian visitors. Product titles are
+  // catalogue titles: the ASIN finds the model's reference code and EAN.
+  const catalogExclude = [...products.map((p) => p.title), ...(answerFirst?.picks.map((p) => p.model) ?? [])]
+  const offers = await coolblueOffersForPage(safeLang, [
+    ...(answerFirst?.picks.map((p) => ({ name: p.model })) ?? []),
+    ...products.map((p) => ({ name: p.title, asin: p.asin })),
+    ...getCatalogEntries(safeCat, safeLang, catalogExclude).map((e) => ({ name: e.name, id: e.id })),
+  ])
   const buyLabel: string = answerFirst ? (await getDictionary(safeLang)).buy_button : ''
   const h1 = head?.h1 ?? c.title
   const articleSchema = answerFirst
@@ -753,6 +765,7 @@ export default async function CategoryPage({
           buyLabel={buyLabel}
           laterItems={faqs.length > 0 ? [{ id: 'faq', label: faqTitle }] : []}
           about={<p className="text-sm leading-relaxed text-slate-600">{c.intro}</p>}
+          offers={offers}
         />
       )}
 
@@ -776,6 +789,7 @@ export default async function CategoryPage({
                 capacity={p.capacity}
                 bestFor={p.bestFor}
                 kicker={productKicker({ type: safeCat, lang: safeLang, bestFor: p.bestFor })}
+                offers={offers[p.title]}
               />
             ))}
           </div>
@@ -789,7 +803,8 @@ export default async function CategoryPage({
         category={safeCat}
         lang={safeLang}
         path={`/cuisine-connectee/${safeCat}`}
-        exclude={[...products.map((p) => p.title), ...(answerFirst?.picks.map((p) => p.model) ?? [])]}
+        exclude={catalogExclude}
+        offers={offers}
       />
 
       <MarketPagesHubList lang={safeLang} path={`/cuisine-connectee/${safeCat}`} />
