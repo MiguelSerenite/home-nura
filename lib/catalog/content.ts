@@ -1357,6 +1357,23 @@ export function getProblemContent(
   }
 }
 
+/**
+ * Meta description of a problem page that has no hand-written guide: the
+ * page's own question, then the severity diagnosis. The diagnosis alone is
+ * one of three sentences per language, so it made ~240 pages of each
+ * language share a description (Search Console: "crawled, not indexed").
+ */
+export function getProblemMetaDescription(
+  lang: Lang,
+  problem: Problem,
+  category: Category
+): string {
+  const question = problem.query[lang].trim()
+  const { diagnosis } = getProblemContent(lang, problem, category)
+  const separator = /[.?!…]$/.test(question) ? ' ' : '. '
+  return `${question}${separator}${diagnosis}`
+}
+
 export function getProblemFaq(
   lang: Lang,
   category: Category

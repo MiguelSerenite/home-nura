@@ -44,12 +44,25 @@ describe('app/robots.ts', () => {
     }
   })
 
-  it('every rule disallows /api/, /admin/ and /_next/', () => {
+  it('every rule disallows /api/ and /admin/', () => {
     for (const rule of rules) {
       const disallow = Array.isArray(rule.disallow) ? rule.disallow : [rule.disallow]
       expect(disallow, `rule for ${rule.userAgent}`).toEqual(
-        expect.arrayContaining(['/api/', '/admin/', '/_next/'])
+        expect.arrayContaining(['/api/', '/admin/'])
       )
+    }
+  })
+
+  it('no rule blocks /_next/ — crawlers need the CSS, JS, fonts and images to render pages', () => {
+    // Search Console listed /_next/static/media/*.woff2 under "Blocked by
+    // robots.txt" (2026-11-16). Google asks that render resources stay
+    // crawlable; /_next/image also serves every optimised product photo.
+    for (const rule of rules) {
+      const disallow = Array.isArray(rule.disallow) ? rule.disallow : [rule.disallow]
+      for (const path of disallow as string[]) {
+        expect('/_next/static/'.startsWith(path), `rule for ${rule.userAgent}: ${path}`).toBe(false)
+        expect('/_next/image'.startsWith(path), `rule for ${rule.userAgent}: ${path}`).toBe(false)
+      }
     }
   })
 
