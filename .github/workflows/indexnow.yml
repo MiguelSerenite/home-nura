@@ -3,8 +3,11 @@ name: IndexNow
 # After each successful Vercel *production* deployment, push the URLs that
 # changed in the deployed commit to IndexNow (Bing, Yandex, Seznam, Naver).
 # The key file (public/<key>.txt) ships with the deployment itself.
-# Two Vercel projects deploy this repo; only `home-nura` serves homenura.com
-# (GitHub environment names: "Production – <project>").
+# Only the `home-nura` Vercel project deploys this repo. Its GitHub
+# environment is named "Production" since the duplicate project was removed
+# (30 October 2026); it was "Production – home-nura" while two projects
+# deployed the repo. Both names are accepted: with the old name alone the
+# job was skipped on every production deployment (seen 11 and 16 November).
 
 on:
   deployment_status:
@@ -13,7 +16,8 @@ jobs:
   submit:
     if: >-
       github.event.deployment_status.state == 'success' &&
-      github.event.deployment.environment == 'Production – home-nura'
+      (github.event.deployment.environment == 'Production' ||
+       github.event.deployment.environment == 'Production – home-nura')
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
