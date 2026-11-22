@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { rateLimited, getClientIp } from '@/lib/rate-limit'
 import { subscribeToNewsletter } from '@/lib/brevo'
+import { notifyCockpit } from '@/lib/cockpit'
 
 // Rudimentary email validation before handing the address to Brevo.
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
@@ -53,6 +54,7 @@ export async function POST(request: Request) {
   if (result === 'failed') {
     return NextResponse.json({ ok: false, error: 'upstream_error' }, { status: 502 })
   }
+  await notifyCockpit(email, locale)
   return NextResponse.json({ ok: true }, { status: 200 })
 }
 
